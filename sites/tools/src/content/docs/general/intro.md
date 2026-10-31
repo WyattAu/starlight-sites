@@ -49,7 +49,7 @@ Git, or A-Level notes, it probably lands here.
 ## How to Use These Notes
 
 These notes are written for personal reference first and public readability second. A few principles
-To keep in mind:
+to keep in mind:
 
 - **Search, do not browse linearly.** The general section is intentionally flat. Use the search bar
   or tags to find what you need rather than reading top-to-bottom.
@@ -62,7 +62,7 @@ To keep in mind:
 
 The rest of this knowledge base follows a curriculum-like structure: each language has numbered
 Chapters, each chapter has ordered pages. The General section intentionally breaks from that pattern
-Because its content is heterogeneous.
+because its content is heterogeneous.
 
 ### Directory Layout
 
@@ -88,6 +88,8 @@ docs_general-notes/
 
 ### Writing Conventions
 
+<div class="table-wrap">
+
 | Convention                 | Detail                                                                               |
 | -------------------------- | ------------------------------------------------------------------------------------ |
 | No inline comments         | Code blocks are self-documenting; comments added only when the intent is non-obvious |
@@ -96,10 +98,12 @@ docs_general-notes/
 | Tables for structured data | Prefer tables over bulleted lists when comparing attributes                          |
 | KaTeX for math             | Inline with `$...$`, block with `$$...$$`                                            |
 
+</div>
+
 ### Adding a New Page
 
 1. Create the `.md` or `.mdx` file in the appropriate subdirectory.
-2. Add frontmatter with at minimum `title``date`And `slug`.
+2. Add frontmatter with at minimum `title`, `date` and `slug`.
 3. Assign relevant `tags` and `categories`.
 4. Set `sidebar_position` to control placement relative to siblings.
 5. Run `npm run build` locally to verify there are no build errors before committing.
@@ -120,14 +124,7 @@ Refer to `markdown-constructs.md` in this section for the full MDX feature refer
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -173,8 +170,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Further Resources
 

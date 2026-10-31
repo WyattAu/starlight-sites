@@ -41,18 +41,19 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
+
+
+:::note[Heading to university next?]
+These notes are calibrated to your exam. University mathematics and physics are
+not: they assume you can read a proof, define a limit from the epsilon-delta
+definition, and work with vectors and set notation. The destination sites have
+free transition pages written exactly for that step -- start with
+**[Before You Begin: From School to University Mathematics](https://mathematics.wyattau.com/before-you-begin/)**
+and continue to
+**[the physics version](https://physics.wyattau.com/before-you-begin/)**.
+Both end with a self-test, so you know which sections to study.
+:::
 
 The Central Board of Secondary Education (CBSE) is one of India's largest and most influential school education boards. The CBSE curriculum for Classes 11 and 12 forms the foundation for competitive entrance examinations including JEE Main and Advanced (for engineering) and NEET (for medicine). Mastering the CBSE syllabus is not just about board exams, it is the gateway to India's top institutions.
 

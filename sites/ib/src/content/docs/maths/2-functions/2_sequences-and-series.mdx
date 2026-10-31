@@ -73,7 +73,7 @@ If $a, b, c$ are consecutive terms of an arithmetic sequence, then $2b = a + c$.
 
 <Aside type="note" title="Example">
 The 5th term of an arithmetic sequence is $17$ and the 12th term is $38$. Find the first term and
-The common difference.
+the common difference.
 
 $$
 U_5 = u_1 + 4d = 17 \quad \mathrm\{(1)\}
@@ -137,13 +137,13 @@ If $a, b, c$ are consecutive terms of a geometric sequence, then $b^2 = ac$.
 
 ### Sum to Infinity
 
-If $|r| \lt 1$The geometric series converges and the sum to infinity is:
+If $|r| \lt 1$ The geometric series converges and the sum to infinity is:
 
 $$
 S_\{\infty\} = \frac\{u_1\}\{1 - r\}
 $$
 
-If $|r| \ge 1$The series diverges (the sum to infinity does not exist).
+If $|r| \ge 1$ The series diverges (the sum to infinity does not exist).
 </Aside>
 
 <Aside type="note" title="Example">
@@ -185,12 +185,16 @@ $$
 
 ### Conditions for Convergence
 
+<div class="table-wrap">
+
 | Condition | Behaviour                     |
-| --------- | ----------------------------- | ------ | ------------------------------- |
-| $         | r                             | \lt 1$ | Converges to $\dfrac{u_1}{1-r}$ |
-| $r = 1$   | Diverges (grows linearly)     |        |                                 |
+| --------- | ----------------------------- |
+| $         \| r                             \| \lt 1$ | Converges to $\dfrac{u_1}{1-r}$ |
+| $r = 1$ | Diverges (grows linearly) |
 | $r = -1$  | Oscillates, does not converge |        |                                 |
-| $         | r                             | \gt 1$ | Diverges (grows exponentially)  |
+| $         \| r                             \| \gt 1$ | Diverges (grows exponentially)  |
+
+</div>
 
 ---
 
@@ -318,7 +322,9 @@ $$
 
 ### Special Cases
 
-$$(1 + x)^n = \sum_{k=0}^{n} \binom{n}{k} x^k = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots$$
+$$
+(1 + x)^n = \sum_{k=0}^{n} \binom{n}{k} x^k = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots
+$$
 
 ### Pascal's Triangle
 
@@ -410,13 +416,13 @@ $$
 
 The expansion $(1+x)^n$ for non-integer $n$ converges when $|x| \lt 1$.
 
-To use this for expressions like $(2 + 3x)^{-1/2}$Factor out the constant:
+To use this for expressions like $(2 + 3x)^{-1/2}$ Factor out the constant:
 
 $$
 (2+3x)^\{-1/2\} = 2^\{-1/2\}\left(1 + \frac\{3x\}\{2\}\right)^\{-1/2\}
 $$
 
-This converges when $\left|\dfrac{3x}{2}\right| \lt 1$I.e., $|x| \lt \dfrac{2}{3}$.
+This converges when $\left|\dfrac{3x}{2}\right| \lt 1$ I.e., $|x| \lt \dfrac{2}{3}$.
 
 ---
 
@@ -434,7 +440,7 @@ $$
 
 For $u_{n+1} = ru_n + d$ with $u_1$ given:
 
-If $r \neq 1$The solution is:
+If $r \neq 1$ The solution is:
 
 $$
 U_n = r^\{n-1\}u_1 + d\frac\{r^\{n-1\} - 1\}\{r - 1\}
@@ -486,7 +492,7 @@ $n = 4$: $14 \neq 24$.
 $n = 5$: $17 \neq 48$.
 
 The sequences do not have equal terms for small $n$. The geometric sequence grows much faster. The
-Only possible solution is $n = 3$ approximately (left $= 11$Right $= 12$), so there is no exact
+only possible solution is $n = 3$ approximately (left $= 11$ Right $= 12$), so there is no exact
 Integer solution.
 
 ### Question 2 (Paper 2 style)
@@ -540,7 +546,7 @@ $$
 ### Question 4 (Paper 2 style)
 
 The first three terms of a geometric sequence are $\sin\theta$, $\cos\theta$ And
-$\dfrac{1}{\sqrt{3}}$Where $0 \lt \theta \lt \dfrac{\pi}{2}$.
+$\dfrac{1}{\sqrt{3}}$ Where $0 \lt \theta \lt \dfrac{\pi}{2}$.
 
 **Find the value of $\theta$.**
 
@@ -625,28 +631,22 @@ $$
 
 ---
 
-```mermaid
-flowchart TD
-    A[2_Sequences And Seriesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
+<div class="table-wrap">
+
 | Topic                  | Key Formula                                                   |
-| ---------------------- | ------------------------------------------------------------- | --- | ------ |
-| Arithmetic $n$-th term | $u_n = u_1 + (n-1)d$                                          |     |        |
+| ---------------------- | ------------------------------------------------------------- |
+| Arithmetic $n$-th term | $u_n = u_1 + (n-1)d$ |
 | Arithmetic sum         | $S_n = \dfrac{n}{2}[2u_1 + (n-1)d]$                           |     |        |
-| Geometric $n$-th term  | $u_n = u_1 r^{n-1}$                                           |     |        |
+| Geometric $n$-th term | $u_n = u_1 r^{n-1}$ |
 | Geometric sum          | $S_n = \dfrac{u_1(1-r^n)}{1-r}$                               |     |        |
-| Sum to infinity        | $S_{\infty} = \dfrac{u_1}{1-r}$ for $                         | r   | \lt 1$ |
-| Binomial theorem       | $(a+b)^n = \displaystyle\sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^k$ |     |        |
+| Sum to infinity        | $S_{\infty} = \dfrac{u_1}{1-r}$ for $                         \| r   \| \lt 1$ |
+| Binomial theorem | $(a+b)^n = \displaystyle\sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^k$ |
 | Sigma of $i$           | $\displaystyle\sum_{i=1}^{n}i = \dfrac{n(n+1)}{2}$            |     |        |
-| Sigma of $i^2$         | $\displaystyle\sum_{i=1}^{n}i^2 = \dfrac{n(n+1)(2n+1)}{6}$    |     |        |
+| Sigma of $i^2$ | $\displaystyle\sum_{i=1}^{n}i^2 = \dfrac{n(n+1)(2n+1)}{6}$ |
+
+</div>
 </Aside>
 
 <Aside type="tip" title="Exam Strategy">
@@ -811,7 +811,7 @@ Coefficient $= \dbinom{7}{4} \cdot 2^3 \cdot (-3)^4 = 35 \times 8 \times 81 = 22
 ### Question 10 (Paper 1 style)
 
 A geometric series has first term $a$ and common ratio $r$. The sum of the first three terms is $28$
-And the sum to infinity is $32$. Find $a$ and $r$.
+and the sum to infinity is $32$. Find $a$ and $r$.
 
 $$
 A + ar + ar^2 = 28 \quad \mathrm\{(1)\}
@@ -871,11 +871,15 @@ A sequence is a list of numbers following a rule, like steps on a staircase. Ari
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                  | Site    | Link                                                                                                        |
 | ---------------------- | ------- | ----------------------------------------------------------------------------------------------------------- |
 | [Sequences and Series] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/06-sequences-and-series) |
-| [Sequences and Series] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/2-functions/2_sequences-and-series)                             |
-| [Sequences and Series] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/6_sequences-and-series)                            |
+| [Sequences and Series] | IB      | [View](https://ib.wyattau.com/maths/2-functions/2_sequences-and-series/)                             |
+| [Sequences and Series] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/6_sequences-and-series/)                            |
+
+</div>
 
 ## Worked Examples
 

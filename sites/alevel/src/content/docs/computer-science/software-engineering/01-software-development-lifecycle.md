@@ -45,11 +45,21 @@ Involved in developing software, from initial conception through to deployment a
 A **sequential**, linear approach where each phase must be completed before the next begins.
 Developed by Winston Royce in 1970.
 
-```
-Analysis → Design → Implementation → Testing → Deployment → Maintenance
+```mermaid
+flowchart LR
+    A[Analysis] --> B[Design]
+    B --> C[Implementation]
+    C --> D[Testing]
+    D --> E[Deployment]
+    E --> F[Maintenance]
 ```
 
+Each phase feeds the next in one direction — there is no looping back in the pure model, which is
+exactly its weakness when requirements change late.
+
 ### Characteristics
+
+<div class="table-wrap">
 
 | Property             | Value                                |
 | -------------------- | ------------------------------------ |
@@ -59,6 +69,8 @@ Analysis → Design → Implementation → Testing → Deployment → Maintenanc
 | Documentation        | Extensive                            |
 | Risk                 | High, issues found late are costly  |
 | Best for             | Well-understood, stable requirements |
+
+</div>
 
 ### Advantages
 
@@ -80,13 +92,13 @@ Analysis → Design → Implementation → Testing → Deployment → Maintenanc
 ### Description
 
 An **iterative, incremental** approach that emphasises flexibility, customer collaboration, and
-Delivering working software in short cycles.
+delivering working software in short cycles.
 
 ### The Agile Manifesto (2001)
 
 Individuals and interactions over processes and tools Working software over comprehensive
 Documentation Customer collaboration over contract negotiation Responding to change over following a
-Plan
+plan
 
 ### Scrum Framework
 
@@ -113,6 +125,8 @@ A specific Agile methodology with defined roles, events, and artefacts.
 
 ### Characteristics
 
+<div class="table-wrap">
+
 | Property             | Value                                      |
 | -------------------- | ------------------------------------------ |
 | Type                 | Change-driven                              |
@@ -122,6 +136,8 @@ A specific Agile methodology with defined roles, events, and artefacts.
 | Risk                 | Low, issues found early                   |
 | Best for             | Evolving requirements, innovative projects |
 
+</div>
+
 <hr />
 
 ## 4. Spiral Model
@@ -129,7 +145,7 @@ A specific Agile methodology with defined roles, events, and artefacts.
 ### Description
 
 Combines elements of waterfall and iterative development. Each iteration (spiral) passes through
-Four quadrants:
+four quadrants:
 
 1. **Determine objectives**. Identify goals, constraints, alternatives
 2. **Identify and resolve risks**. Risk analysis and mitigation
@@ -146,11 +162,15 @@ Objectives          Development
 
 ### Characteristics
 
+<div class="table-wrap">
+
 | Property    | Value                                           |
 | ----------- | ----------------------------------------------- |
 | Risk focus  | High, explicit risk analysis at each iteration |
 | Flexibility | Medium                                          |
 | Best for    | Large, complex, high-risk projects              |
+
+</div>
 
 ### Advantages
 
@@ -171,7 +191,7 @@ Objectives          Development
 ### Description
 
 RAD emphasises **rapid prototyping** and iterative development, with minimal planning in favour of
-Speed. Uses workshops, focus groups, and iterative user testing.
+speed. Uses workshops, focus groups, and iterative user testing.
 
 ### Phases
 
@@ -190,6 +210,8 @@ Speed. Uses workshops, focus groups, and iterative user testing.
 
 ## 6. Comparison of Methodologies
 
+<div class="table-wrap">
+
 | Feature          | Waterfall  | Agile     | Spiral    | RAD       |
 | ---------------- | ---------- | --------- | --------- | --------- |
 | Approach         | Linear     | Iterative | Iterative | Iterative |
@@ -199,6 +221,8 @@ Speed. Uses workshops, focus groups, and iterative user testing.
 | Documentation    | High       | Low       | High      | Low       |
 | Cost of change   | High       | Low       | Medium    | Low       |
 | Best for         | Stable req | Evolving  | High-risk | Fast dev  |
+
+</div>
 
 :::note
 - **AQA** requires understanding of waterfall, agile, spiral, and rapid application development
@@ -249,12 +273,16 @@ Show interactions between actors (users) and the system.
 
 ### Other UML Diagrams
 
+<div class="table-wrap">
+
 | Diagram Type      | Purpose                                     |
 | ----------------- | ------------------------------------------- |
 | Sequence diagram  | Show message flow between objects over time |
 | Activity diagram  | Model workflow / business processes         |
 | State diagram     | Show states and transitions of an object    |
 | Component diagram | Show system components and dependencies     |
+
+</div>
 
 <hr />
 
@@ -292,7 +320,7 @@ Feedback. Which methodology is most appropriate and why?
 
 </details>
 
-**Problem 3.** Draw a UML class diagram for a library system with classes `Library``Book`
+**Problem 3.** Draw a UML class diagram for a library system with classes `Library`, `Book`
 `Member`And `Loan`. Show appropriate relationships and key attributes/methods.
 
 <details>
@@ -371,7 +399,7 @@ The Scrum Master is a **facilitator** (not a manager) who:
 6. Acts as a buffer between the development team and external stakeholders
 
 This role is important because without it, teams often revert to ad-hoc practices, lose focus on
-Sprint goals, or fail to identify and address process issues.
+sprint goals, or fail to identify and address process issues.
 
 </details>
 
@@ -397,7 +425,7 @@ complete. The cost of fixing a bug increases exponentially the later it is found
 - The cost multiplier is 3-5× vs 100× in waterfall
 
 Agile is most efficient at the sprint level, bugs found within the same sprint they were introduced
-Are cheapest to fix.
+are cheapest to fix.
 
 </details>
 
@@ -408,7 +436,7 @@ Development.
 <summary>Answer</summary>
 
 A **Minimum Viable Product (MVP)** is the simplest version of a product that delivers enough value
-To early customers and provides feedback for future development. It contains only the core features
+to early customers and provides feedback for future development. It contains only the core features
 Needed to solve the primary problem.
 
 **Relationship to Agile:**
@@ -419,7 +447,7 @@ Needed to solve the primary problem.
 - The MVP validates assumptions before investing in full development
 
 Example: A ride-sharing app MVP might have only driver-rider matching and payment, no ratings, no
-Scheduling, no advanced features.
+scheduling, no advanced features.
 
 </details>
 
@@ -529,6 +557,8 @@ Feedback.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Factor                     | Waterfall                               | Agile                                        |
 | -------------------------- | --------------------------------------- | -------------------------------------------- |
 | Timeline to first delivery | 16 months                               | 5 weeks (MVP)                                |
@@ -537,6 +567,8 @@ Feedback.
 | Regulatory compliance      | Designed upfront, audited once          | Continuous compliance, tested each sprint    |
 | Staff feedback             | Only at deployment                      | Every 2 weeks                                |
 | Best fit if...             | Requirements are fully known and stable | Requirements are partially known or evolving |
+
+</div>
 
 <hr />
 
@@ -552,13 +584,19 @@ Feedback.
 
 ### Risk Analysis Matrix
 
+<div class="table-wrap">
+
 |                       | Low Impact      | Medium Impact   | High Impact     |
 | --------------------- | --------------- | --------------- | --------------- |
 | **High Likelihood**   | Medium priority | High priority   | Critical        |
 | **Medium Likelihood** | Low priority    | Medium priority | High priority   |
 | **Low Likelihood**    | Accept          | Low priority    | Medium priority |
 
+</div>
+
 ### Risk Mitigation Strategies
+
+<div class="table-wrap">
 
 | Strategy | Description                             | Example                                       |
 | -------- | --------------------------------------- | --------------------------------------------- |
@@ -567,7 +605,11 @@ Feedback.
 | Mitigate | Reduce likelihood or impact             | Write automated tests to catch bugs early     |
 | Accept   | Acknowledge the risk and plan for it    | Budget contingency for unexpected issues      |
 
+</div>
+
 ### Example: Risks in a School Management System
+
+<div class="table-wrap">
 
 | Risk                            | Likelihood | Impact | Mitigation                                      |
 | ------------------------------- | ---------- | ------ | ----------------------------------------------- |
@@ -577,9 +619,13 @@ Feedback.
 | Performance issues at scale     | Low        | High   | Load testing in each sprint                     |
 | Third-party API downtime        | Medium     | Medium | Implement caching and fallback mechanisms       |
 
+</div>
+
 <hr />
 
 ## 10. Common Pitfalls
+
+<div class="table-wrap">
 
 | Pitfall                                      | Explanation                                       | Avoidance                                                             |
 | -------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------- |
@@ -590,6 +636,8 @@ Feedback.
 | Ignoring technical debt                      | Accumulated shortcuts make future changes harder  | Schedule refactoring time in each sprint                              |
 | Scope creep                                  | Uncontrolled addition of features delays delivery | Use a prioritised backlog, freeze scope for each sprint               |
 | Poor documentation                           | Knowledge lost when team members leave            | Maintain essential docs (architecture, API, deployment) even in Agile |
+
+</div>
 
 <hr />
 
@@ -612,7 +660,7 @@ Recommend an SDLC methodology and justify your choice.
 - Predictable budget and timeline, government projects require fixed-cost contracts
 
 Agile would be inappropriate because: iterative delivery of a tax system makes no sense (users
-Cannot give feedback on a partially-complete tax calculation), and the cost of errors in tax
+cannot give feedback on a partially-complete tax calculation), and the cost of errors in tax
 Calculations is very high.
 
 </details>
@@ -638,7 +686,7 @@ Regulatory review. Mitigation: engage regulators early, document all safety case
 Independent audits.
 
 Each spiral produces a working increment while systematically addressing the highest-priority risks
-Before they become costly problems.
+before they become costly problems.
 
 </details>
 
@@ -663,7 +711,7 @@ Resolution steps:
 
 RAD expects requirements to evolve through user feedback. Rejecting all changes defeats the purpose.
 However, uncontrolled changes lead to scope creep, so a structured change management process is
-Needed.
+needed.
 
 </details>
 
@@ -672,6 +720,8 @@ Identify at least four risks and classify them.
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Risk                                     | Likelihood | Impact   | Priority | Mitigation                                                |
 | ---------------------------------------- | ---------- | -------- | -------- | --------------------------------------------------------- |
@@ -682,6 +732,8 @@ Identify at least four risks and classify them.
 | Third-party shipping API changes         | Medium     | Low      | Low      | Abstract API behind an interface, monitor for deprecation |
 | Customer requirements change             | High       | Medium   | High     | Use Agile, prioritise backlog, freeze scope per sprint    |
 
+</div>
+
 </details>
 
 **Problem 5.** Explain why documentation is important even in Agile methodologies, despite the Agile
@@ -691,7 +743,7 @@ Manifesto valuing "working software over comprehensive documentation."
 <summary>Answer</summary>
 
 The Agile Manifesto says "working software over comprehensive documentation", it does not say "no
-Documentation." The word "comprehensive" is key: Agile rejects voluminous documentation that nobody
+documentation." The word "comprehensive" is key: Agile rejects voluminous documentation that nobody
 Reads, not documentation itself.
 
 Essential documentation in Agile includes:
@@ -710,23 +762,13 @@ Documentation serves purposes that working software cannot:
 - **Communication:** Written specs reduce ambiguity in distributed teams
 
 The Agile principle is: produce the minimum documentation that provides value, and keep it up to
-Date.
+date.
 
 </details>
 
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
-```mermaid
-flowchart TD
-    A[01 Software Development Lifecycle] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -741,13 +783,7 @@ practical implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

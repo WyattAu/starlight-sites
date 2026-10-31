@@ -18,13 +18,15 @@ description: "Syllabus: comprehensive educational content notes with precise def
 
 This is based on the 2025 syllabus.
 
+<div class="table-wrap">
+
 | Theme                               | Topic                                | Level   | Key Understanding                                                                                                                                   | Relevant Equations & Data (from Data Booklet)                                                                                                                     |
 | :---------------------------------- | :----------------------------------- | :------ | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | A. Space, Time and Motion           | A.1 Kinematics                       | SL & HL | Motion analysis using position, displacement, distance, velocity, speed, and acceleration. Difference between instantaneous and average values.     | `s``u``v``a``t`                                                                                                                                                   |
 |                                     |                                      | SL & HL | Equations for uniformly accelerated motion (SUVA equations).                                                                                        | `s = ((u+v)/2)t`; `v = u + at`; `s = ut + (1/2)at²`; `v² = u² + 2as`                                                                                              |
 |                                     |                                      | SL & HL | Projectile motion in the absence of fluid resistance, resolving motion into horizontal and vertical components.                                     | Use SUVA equations with aₓ=0 and aᵧ=g. `g = 9.8 ms⁻²`                                                                                                             |
 |                                     |                                      | SL & HL | Qualitative effect of fluid resistance on projectiles (affecting time of flight, trajectory, range, and terminal speed).                            | N/A                                                                                                                                                               |
-|                                     | A.2 Forces and Momentum              | SL & HL | Newton"s three laws of motion; representing forces on free-body diagrams to find the resultant force.                                               | `F = ma`                                                                                                                                                          |
+|                                     | A.2 Forces and Momentum              | SL & HL | Newton's three laws of motion; representing forces on free-body diagrams to find the resultant force.                                               | `F = ma`                                                                                                                                                          |
 |                                     |                                      | SL & HL | Contact forces: Normal force (Fₙ), Friction (static and dynamic), Tension, Hooke's Law (elastic force), Viscous drag, and Buoyancy.                 | `Ff ≤ μsFₙ`; `Ff = μdFₙ`; `FH = -kx`; `Fd = 6πηrv`; `Fb = ρVg`                                                                                                    |
 |                                     |                                      | SL & HL | Field forces: Gravitational force (weight), Electric force, Magnetic force.                                                                         | `Fg = mg`                                                                                                                                                         |
 |                                     |                                      | SL & HL | Linear momentum and impulse; conservation of linear momentum in the absence of external forces.                                                     | `p = mv`; `J = FΔt = Δp`                                                                                                                                          |
@@ -117,6 +119,8 @@ This is based on the 2025 syllabus.
 |                                     |                                      | SL & HL | Hertzsprung-Russell (HR) diagram and main stellar regions.                                                                                          | N/A                                                                                                                                                               |
 |                                     |                                      | SL & HL | Stellar parallax method for determining distance to stars.                                                                                          | `d(parsec) = 1 / p(arc-second)`                                                                                                                                   |
 
+</div>
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -133,7 +137,7 @@ This is based on the 2025 syllabus.
 ### Theme A: Space, Time and Motion (Core)
 
 This is the foundation of the entire course. It covers classical mechanics from kinematics through
-To work, energy, and power, then extends into rigid body mechanics and relativity at HL.
+to work, energy, and power, then extends into rigid body mechanics and relativity at HL.
 
 **Key concepts by subtopic:**
 
@@ -228,21 +232,29 @@ This theme introduces the quantum nature of matter and energy.
 
 ### Standard Level (SL)
 
+<div class="table-wrap">
+
 | Component | Paper 1                            | Paper 2 | IA  |
 | :-------- | :--------------------------------- | :------ | :-- |
 | Duration  | 45 min (MCQ) + 75 min (structured) | 75 min  |,   |
 | Weighting | 30% (MCQ) + 20% (structured) = 50% | 25%     | 25% |
 
+</div>
+
 ### Higher Level (HL)
+
+<div class="table-wrap">
 
 | Component | Paper 1                            | Paper 2 | Paper 3 | IA  |
 | :-------- | :--------------------------------- | :------ | :------ | :-- |
 | Duration  | 60 min (MCQ) + 90 min (structured) | 90 min  | 60 min  |,   |
 | Weighting | 36% (MCQ) + 24% (structured) = 60% | 20%     | 20%     | 20% |
 
+</div>
+
 **Paper 1** consists of multiple-choice questions (Section A) followed by structured/data-based
 Questions (Section B). No calculator is permitted for Section A; a calculator is permitted for
-Section B.
+section B.
 
 **Paper 2** contains short-response and extended-response questions covering the full syllabus. A
 Calculator is required.
@@ -270,7 +282,7 @@ Both SL and HL.
 
 Theme A (Space, Time and Motion) underpins almost everything else. If your mechanics is weak,
 Fields, waves, and thermodynamics will all be harder. Master SUVA equations, free-body diagrams, and
-Energy conservation before moving on.
+energy conservation before moving on.
 
 ### 2. Practise Derivations (HL)
 
@@ -293,7 +305,7 @@ The IB Physics data booklet contains all the formulae you need. However, you mus
 ### 4. Focus on Multi-Step Problems
 
 Examination questions increasingly combine concepts from different themes. For example, a question
-Might combine:
+might combine:
 
 - Projectile motion (A.1) with gravitational fields (D.1)
 - Electric fields (D.2) with energy conservation (A.3)
@@ -336,27 +348,9 @@ Might combine:
 
 The IB Physics syllabus is a map of the physical world organized into five territories: how things move (Theme A), what matter is made of (Theme B), how waves travel (Theme C), how fields reach across space (Theme D), and what happens at the smallest scales (Theme E). Each theme builds on the previous ones, much like learning to read before writing essays. The AHL topics are not separate subjects but deeper dives into the same rivers you have already waded into. Knowing the syllabus is like knowing the exam room layout: it reduces anxiety and lets you focus on the physics itself.
 
-
-```mermaid
-flowchart TD
-    A[Syllabus] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

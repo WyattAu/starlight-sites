@@ -29,14 +29,14 @@ Accurate and convenience is limited, therefore I recommend using a
 ## Physical Devices
 
 Android devices can be use for running builds by enabling `USB debugging` from
-`Android developer settings`This is done by:
+`Android developer settings`. This is done by:
 
 1. Open settings and navigate to About Phone
 2. Tab on the build number 7 times until a confirmation message appear
 3. Then enter Developer Options and enable `USB debugging`
 4. Plug the phone into the computer with USB connection
 
-Now when selecting VSCode/command-palette/`Flutter: Select Device`The identifier of the phone will
+Now when selecting VSCode/command-palette/`Flutter: Select Device`. The identifier of the phone will
 Appear.
 
 :::caution
@@ -46,10 +46,10 @@ Verifying.
 ## Compiling and Running
 
 With everything setup and a `Flutter: new project` created, the code can now be compiled and ran
-With the device selected. Now clicking `F5` (VSCode"s debug mode) will run the command of
+with the device selected. Now clicking `F5` (VSCode's debug mode) will run the command of
 `flutter run --debug` and a counter app will be visible on your device. This is JIT compiled, and
-Can be hot-reloaded. If you want a release build use the `--release` flag instead, the profile mode
-Is a bit more complex, refer to
+can be hot-reloaded. If you want a release build use the `--release` flag instead, the profile mode
+is a bit more complex, refer to
 [Flutter documentation](https://docs.flutter.dev/testing/build-modes#profile) for more detail.
 
 ## Project Structure
@@ -80,6 +80,8 @@ dev_dependencies:
 
 Key fields:
 
+<div class="table-wrap">
+
 | Field              | Purpose                                                             |
 | ------------------ | ------------------------------------------------------------------- |
 | `name`             | Package identifier, must be lowercase_with_underscores              |
@@ -87,6 +89,8 @@ Key fields:
 | `dependencies`     | Packages required at runtime                                        |
 | `dev_dependencies` | Packages required only for development (testing, linting, codegen)  |
 | `publish_to`       | Set to `"none'` for private packages                                |
+
+</div>
 
 ### Typical project layout
 
@@ -179,11 +183,15 @@ analyzer:
 
 Common lint packages:
 
+<div class="table-wrap">
+
 | Package              | Description                                                   |
 | -------------------- | ------------------------------------------------------------- |
 | `lints`              | Official Google lint rules (`recommended.yaml` / `core.yaml`) |
 | `very_good_analysis` | Very Good Ventures' stricter ruleset                          |
 | `flutter_lints`      | Flutter-specific lint rules                                   |
+
+</div>
 
 Run with info-level output:
 
@@ -357,17 +365,6 @@ expect(fn(), completion(equals(42)));          // Future completes with value
 - **Using `flutter run` for benchmarking**: Debug mode has assertions enabled, no optimizations, and
   uses JIT. Always use `--release` or `--profile` for performance measurements.
 
-
-```mermaid
-flowchart TD
-    A[02 Dev Enviroment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of development enviroment, including underlying theory,
@@ -380,9 +377,6 @@ practical implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

@@ -117,7 +117,7 @@ Key characteristics of Ruby:
 - Better error handling and deprecation warnings
 - `ReferenceError` instead of `NameError` for certain binding issues
 
-## Ruby"s Philosophy: The Principle of Least Astonishment
+## Ruby's Philosophy: The Principle of Least Astonishment
 
 The **Principle of Least Astonishment (POLA)**, sometimes called the **Principle of Least
 Surprise**, is the guiding philosophy behind Ruby's design. Matz designed Ruby so that the language
@@ -251,6 +251,8 @@ end
 
 The Ruby ecosystem has over 200,000 gems on RubyGems.org. Some of the most widely used include:
 
+<div class="table-wrap">
+
 | Gem             | Purpose                                    |
 | --------------- | ------------------------------------------ |
 | `rails`         | Full-stack web framework                   |
@@ -273,6 +275,8 @@ The Ruby ecosystem has over 200,000 gems on RubyGems.org. Some of the most widel
 | `oj`            | Fast JSON parser and serializer            |
 | `rubocop`       | Static code analyser and formatter         |
 | `sorbet`        | Static type checker by Stripe              |
+
+</div>
 
 ### Ruby Implementations
 
@@ -686,6 +690,8 @@ ruby -F, -ane 'puts "#{$F[0]}: #{$F[1]}"' data.csv
 
 Flag explanations:
 
+<div class="table-wrap">
+
 | Flag | Meaning                               |
 | ---- | ------------------------------------- |
 | `-e` | Execute one line of script            |
@@ -698,6 +704,8 @@ Flag explanations:
 | `-c` | Check syntax only                     |
 | `-w` | Enable warnings                       |
 | `-d` | Debug mode                            |
+
+</div>
 
 ## Ruby Version Compatibility
 
@@ -980,6 +988,8 @@ end
 
 Ruby follows strict naming conventions that communicate intent and scope:
 
+<div class="table-wrap">
+
 | Convention         | Usage                                        | Example                        |
 | ------------------ | -------------------------------------------- | ------------------------------ |
 | `snake_case`       | Methods, local variables, instance variables | `user_name`, `calculate_total` |
@@ -991,6 +1001,8 @@ Ruby follows strict naming conventions that communicate intent and scope:
 | `?` suffix         | Predicate methods (return boolean)           | `empty?`, `include?`, `valid?` |
 | `!` suffix         | Dangerous/mutating methods                   | `sort!`, `save!`, `chomp!`     |
 | `=` suffix         | Setter methods                               | `name=`, `email=`              |
+
+</div>
 
 ```ruby
 # Good naming examples
@@ -1737,17 +1749,9 @@ Ruby variables are like name tags. When you write x = 5, you are putting a name 
 
 Symbols in Ruby are like permanent labels. Unlike strings, which can be modified and duplicated, symbols are unique and immutable. Using a symbol as a hash key is like using a metal nameplate instead of a sticky note: it does not wear out, it does not get confused with other labels, and it takes less memory.
 
-```mermaid
-flowchart TD
-    A[1_Variables And Types] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table of Core Types
+
+<div class="table-wrap">
 
 | Type     | Example        | Mutable | Notes                                  |
 | -------- | -------------- | ------- | -------------------------------------- |
@@ -1766,6 +1770,8 @@ flowchart TD
 | nil      | `nil`          | No      | Singleton NilClass                     |
 | true     | `true`         | No      | Singleton TrueClass                    |
 | false    | `false`        | No      | Singleton FalseClass                   |
+
+</div>
 
 ## Common Mistakes
 
@@ -1905,7 +1911,7 @@ label = score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : "F"
 
 ### case / when
 
-The `case` statement is Ruby"s switch construct. It supports both value matching and condition
+The `case` statement is Ruby's switch construct. It supports both value matching and condition
 matching:
 
 ```ruby
@@ -2936,16 +2942,6 @@ debug &&= false  # debug is still false, no change
   mode = ENV.key?("DEBUG") ? :debug : :production
 ```
 
-```mermaid
-flowchart TD
-    A[1_Control Flow] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Ruby's if/unless are like two sides of a coin. If is the standard choice: do something when a condition is true. Unless is the contrarian: do something when a condition is false. Using unless with a negative condition is like saying do not not do something, which is confusing. The golden rule: use unless only when it makes the code clearer, not just shorter.
@@ -3255,7 +3251,7 @@ end
 
 ## Blocks
 
-Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby"s most
+Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby's most
 powerful features.
 
 ### Block Syntax
@@ -3473,12 +3469,16 @@ return_from_lambda  # => prints "This line DOES execute", returns nil from the m
 
 ### Proc vs Lambda Summary
 
+<div class="table-wrap">
+
 | Feature     | Proc                          | Lambda                        |
 | ----------- | ----------------------------- | ----------------------------- |
 | Creation    | `Proc.new {}` or `proc {}`    | `-> {}` or `lambda {}`        |
 | Arity check | Lenient (fills with nil)      | Strict (raises ArgumentError) |
 | Return      | Returns from enclosing method | Returns from lambda only      |
 | `lambda?`   | `false`                       | `true`                        |
+
+</div>
 
 ```ruby
 # Checking the type
@@ -3846,16 +3846,6 @@ end
 cache = Cache.new
 cache.fetch("expensive") { compute_expensive_result }
 cache.fetch("expensive") { compute_expensive_result }  # returns cached value
-```
-
-```mermaid
-flowchart TD
-    A[1_Methods And Blocks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition
@@ -4927,16 +4917,6 @@ Child.new.greet
 # (Base calls super, goes to Object, then Kernel, no more greet methods)
 ```
 
-```mermaid
-flowchart TD
-    A[1_Oop] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Ruby's OOP is like a hierarchy of roles in a theater. Classes are the scripts that define what a character can say and do. Objects are the actors who play those roles. Inheritance is like a understudy who learns from the lead actor: the understudy can do everything the lead can, plus their own special moves.
@@ -5936,12 +5916,16 @@ end
 
 ## Comparison of Concurrency Approaches
 
+<div class="table-wrap">
+
 | Approach  | Parallelism      | Blocking I/O                | Complexity | Use Case          |
 | --------- | ---------------- | --------------------------- | ---------- | ----------------- |
 | Thread    | Limited (GIL)    | Releases GIL on I/O         | Medium     | I/O-bound tasks   |
 | Ractor    | True parallelism | Full isolation              | High       | CPU-bound tasks   |
 | Fiber     | Cooperative      | Non-blocking with scheduler | Medium     | Async I/O         |
 | Async gem | Cooperative      | Non-blocking                | Low        | Web servers, APIs |
+
+</div>
 
 ### When to Use What
 
@@ -6045,17 +6029,6 @@ end
 promise.execute
 ```
 
-
-```mermaid
-flowchart TD
-    A[2_Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Ruby threads are like workers in a kitchen. The GIL (Global Interpreter Lock) is like having only one stove: even if you have multiple chefs, only one can cook at a time. This means Ruby threads are good for I/O-bound tasks (waiting for the oven, the dishwasher, or a delivery) but not for CPU-bound tasks (chopping, mixing, or kneading).
@@ -6098,7 +6071,7 @@ exceptionally well-suited for metaprogramming because:
 - Classes and modules are open -- they can be modified at any time
 - Methods can be defined, removed, and aliased dynamically
 - Every operation (including method calls and class definitions) is expressed as a message send
-- Ruby"s reflective API provides deep introspection capabilities
+- Ruby's reflective API provides deep introspection capabilities
 - Blocks, procs, and lambdas are first-class objects
 
 ## Open Classes
@@ -6164,7 +6137,7 @@ end
 
 ## method_missing
 
-`method_missing` is Ruby"s mechanism for handling unknown method calls:
+`method_missing` is Ruby's mechanism for handling unknown method calls:
 
 ```ruby
 class DynamicProxy
@@ -6985,16 +6958,6 @@ class Employee
   def_delegators :@work_info, :department, :salary
 end
 
-```mermaid
-flowchart TD
-    A[1_Metaprogramming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Ruby metaprogramming is like being a playwright who writes new scenes during the performance. When you define a method dynamically with define_method, you are creating a new role for an actor while the show is running. This power comes with responsibility: if you are not careful, you can confuse the stage crew (debugging tools) and the audience (other developers).
@@ -7290,8 +7253,6 @@ This site provides comprehensive study materials covering:
 - Rails
 - Testing
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -7316,8 +7277,6 @@ programming fundamentals
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -7335,18 +7294,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Ruby Basics Flashcards](/flashcards-ruby-basics/)
 - [Ruby](/intro/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -7355,54 +7307,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -7457,15 +7361,9 @@ Ruby is a language designed for developer happiness, everything is an object, an
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -7474,96 +7372,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -7743,7 +7551,7 @@ end
 
 **Send**: Calls a method by name: `object.send(:method_name, args)`.
 
-**Reflection**: Examining the structure and behavior of objects at runtime: `object.class``object.methods`.
+**Reflection**: Examining the structure and behavior of objects at runtime: `object.class`, `object.methods`.
 
 **DSL (Domain-Specific Language)**: Using Ruby's metaprogramming to create expressive, domain-specific syntax.
 
@@ -7789,16 +7597,6 @@ URL: https://ruby.wyattau.com/hub/
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 Ruby is a dynamic, object-oriented language designed for developer happiness. Its elegant syntax, powerful metaprogramming, and the Rails framework made it one of the most influential languages in web development. Ruby prioritizes readability and expressiveness, enabling developers to write code that reads like natural language.
@@ -7835,9 +7633,9 @@ Ruby's fundamentals are designed for simplicity and expressiveness. Everything i
 
 **Everything is an object**, In Ruby, integers have methods, strings have methods, and even `nil` has methods. This makes the language consistent, you can call methods on anything. `5.times { puts "hello" }` is valid Ruby.
 
-**Symbols** are immutable, interned strings. They are frequently used as hash keys and method names because they are memory-efficient and fast to compare. Symbols are written with a colon prefix: `:name``:status`.
+**Symbols** are immutable, interned strings. They are frequently used as hash keys and method names because they are memory-efficient and fast to compare. Symbols are written with a colon prefix: `:name`, `:status`.
 
-**Iterators** replace traditional for loops. Ruby's `each``map``select`and `reject` methods are more expressive and less error-prone than index-based loops. Ruby encourages functional-style iteration over imperative loops.
+**Iterators** replace traditional for loops. Ruby's `each`, `map`, `select`and `reject` methods are more expressive and less error-prone than index-based loops. Ruby encourages functional-style iteration over imperative loops.
 
 ---
 
@@ -7859,7 +7657,7 @@ Ruby is a pure object-oriented language. Every value is an object, and every ope
 
 **Duck typing**, In Ruby, you do not care about an object's type, only whether it responds to the methods you need. If an object quacks like a duck, it is treated as a duck. This enables flexible, loosely-coupled designs.
 
-**Attr accessors**, `attr_reader``attr_writer`and `attr_accessor` generate getter and setter methods automatically. They eliminate the boilerplate of manual method definitions for simple property access.
+**Attr accessors**, `attr_reader`, `attr_writer`and `attr_accessor` generate getter and setter methods automatically. They eliminate the boilerplate of manual method definitions for simple property access.
 
 ---
 
@@ -7897,7 +7695,7 @@ Ruby has a strong testing culture. RSpec is the most popular testing framework, 
 
 ### Key Concepts
 
-**RSpec** uses a `describe`/`it` structure for organizing tests. `expect(value).to eq(expected)` asserts the expected result. RSpec matchers provide readable assertions: `be_nil``include``have_attributes`.
+**RSpec** uses a `describe`/`it` structure for organizing tests. `expect(value).to eq(expected)` asserts the expected result. RSpec matchers provide readable assertions: `be_nil`, `include`, `have_attributes`.
 
 **Test doubles** replace real objects in tests. Stubs return predefined values. Mocks verify that methods were called. They isolate the code under test from external dependencies, databases, APIs, and file systems.
 
@@ -7921,7 +7719,7 @@ Ruby on Rails is a full-stack web framework that emphasizes convention over conf
 
 **Convention over configuration**, Rails makes assumptions about file names, database table names, and routing. A model named `Post` maps to the `posts` table. This eliminates configuration boilerplate and keeps code organized.
 
-**Active Record** is Rails' ORM (Object-Relational Mapper). Each model class maps to a database table. Associations (`has_many``belongs_to``has_and_belongs_to_many`) define relationships. Validations ensure data integrity at the model level.
+**Active Record** is Rails' ORM (Object-Relational Mapper). Each model class maps to a database table. Associations (`has_many`, `belongs_to`, `has_and_belongs_to_many`) define relationships. Validations ensure data integrity at the model level.
 
 **Migrations** are version-controlled database schema changes. `rails generate migration AddEmailToUsers email:string` creates a migration that adds an email column to the users table. Migrations are reversible and can be applied or rolled back.
 
@@ -8141,7 +7939,7 @@ Ruby's elegant syntax and powerful metaprogramming features make it ideal for ra
 
 ## How to Get Started
 
-Install Ruby via rbenv (<https://github.com/rbenv/rbenv>) or your system package manager. Open IRB (Interactive Ruby) and experiment with the basics: `5.times { puts "Hello" }``[1,2,3].map { |n| n * 2 }`and defining classes with `attr_accessor`. The "Ruby in 20 Minutes" tutorial (ruby-lang.org) is an excellent starting point. Build a small project, a command-line tool or a simple web app with Sinatra, to apply what you learn.
+Install Ruby via rbenv (<https://github.com/rbenv/rbenv>) or your system package manager. Open IRB (Interactive Ruby) and experiment with the basics: `5.times { puts "Hello" }`, `[1,2,3].map { |n| n * 2 }`and defining classes with `attr_accessor`. The "Ruby in 20 Minutes" tutorial (ruby-lang.org) is an excellent starting point. Build a small project, a command-line tool or a simple web app with Sinatra, to apply what you learn.
 
 Browse the content using the sidebar navigation on the left.
 
@@ -8209,15 +8007,9 @@ end
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -8226,30 +8018,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -8658,18 +8426,11 @@ the explanation.
 - **[Site Home](../../):** Main landing page for ruby notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -8679,76 +8440,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 ## See also
 
 - [Ruby Basics Flashcards](/flashcards-ruby-basics/)

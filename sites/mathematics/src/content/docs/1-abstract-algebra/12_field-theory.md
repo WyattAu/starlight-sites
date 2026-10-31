@@ -22,7 +22,7 @@ description: "A is an inclusion of fields. We write and call an of . Comprehensi
 A **field extension** is an inclusion $F \subseteq E$ of fields. We write $E/F$ and call $E$ an
 **extension field** of $F$.
 
-The **degree** of the extension, denoted $[E : F]$Is the dimension of $E$ as a vector space over
+The **degree** of the extension, denoted $[E : F]$ Is the dimension of $E$ as a vector space over
 $F$.
 
 **Proposition 12.1.** If $F \subseteq E \subseteq K$ are field extensions, then
@@ -42,7 +42,7 @@ Having $\alpha$ as a root.
 **Proposition 12.2.** The minimal polynomial of $\alpha$ over $F$ is irreducible in $F[x]$.
 
 _Proof._ If $m_\alpha = fg$ with $\deg(f), \deg(g) \lt \deg(m_\alpha)$ Then $f(\alpha)g(\alpha) = 0$
-So either $f(\alpha) = 0$ or $g(\alpha) = 0$Contradicting the minimality of $\deg(m_\alpha)$.
+so either $f(\alpha) = 0$ or $g(\alpha) = 0$ Contradicting the minimality of $\deg(m_\alpha)$.
 $\blacksquare$
 
 **Theorem 12.3.** $\alpha$ is algebraic over $F$ if and only if $[F(\alpha) : F] \lt \infty$. In
@@ -56,16 +56,16 @@ giving a polynomial relation $f(\alpha) = 0$. $\blacksquare$
 
 ### 12.3 Constructing Extension Fields
 
-**Theorem 12.4 (Kronecker"s Theorem).** If $F$ is a field and $f \in F[x]$ is irreducible, then
+**Theorem 12.4 (Kronecker's Theorem).** If $F$ is a field and $f \in F[x]$ is irreducible, then
 $E = F[x] / (f)$ is a field extension of $F$ containing a root of $f$.
 
 _Proof._ Since $f$ is irreducible and $F[x]$ is a PID, $(f)$ is a maximal ideal, so $E = F[x]/(f)$
-Is a field. The element $\alpha = x + (f) \in E$ satisfies
+is a field. The element $\alpha = x + (f) \in E$ satisfies
 $f(\alpha) = f(x + (f)) = f(x) + (f) = (f) = 0$ I.e., $\alpha$ is a root of $f$. $\blacksquare$
 
 ### 12.4 Finite Fields
 
-**Theorem 12.5.** For every prime $p$ and every $n \geq 1$There exists a field of order $p^n$ Unique
+**Theorem 12.5.** For every prime $p$ and every $n \geq 1$ There exists a field of order $p^n$ Unique
 up to isomorphism.
 
 _Proof (existence)._ Consider the splitting field of $f(x) = x^{p^n} - x$ over $\mathbb{F}_p$. The
@@ -76,7 +76,7 @@ Multiplication, and taking inverses), and it has exactly $p^n$ elements. $\black
 
 _Proof._ $\mathbb{F}_{p^n}^*$ is a finite abelian group of order $p^n - 1$. Let $m$ be the largest
 order of any element. By Lagrange, every element's order divides $m$. So $x^m = 1$ for all
-$x \in \mathbb{F}_{p^n}^*$Meaning every element is a root of $x^m - 1$. Since $x^m - 1$ has at most
+$x \in \mathbb{F}_{p^n}^*$ Meaning every element is a root of $x^m - 1$. Since $x^m - 1$ has at most
 $m$ roots in a field, $p^n - 1 \leq m$. But $m$ divides $p^n - 1$ So $m = p^n - 1$. $\blacksquare$
 
 ### 12.5 Algebraic Closure
@@ -87,7 +87,7 @@ $F$.
 **Theorem 12.7 (Fundamental Theorem of Algebra).** $\mathbb{C}$ is algebraically closed.
 
 _Remark._ Every field $F$ has an **algebraic closure** $\overline{F}$: an algebraically closed field
-That is an algebraic extension of $F$. The algebraic closure is unique up to $F$-isomorphism. For
+that is an algebraic extension of $F$. The algebraic closure is unique up to $F$-isomorphism. For
 example, $\overline{\mathbb{Q}}$ is the field of all algebraic numbers. It is countable and
 Infinite-dimensional over $\mathbb{Q}$.
 
@@ -101,16 +101,16 @@ of $\sqrt{2} + \sqrt{3}$ over $\mathbb{Q}$.
 
 _Solution._ First, $[\mathbb{Q}(\sqrt{2}) : \mathbb{Q}] = 2$ since $x^2 - 2$ is irreducible over
 $\mathbb{Q}$ (by Eisenstein with $p = 2$). Then $\sqrt{3} \notin \mathbb{Q}(\sqrt{2})$: if
-$\sqrt{3} = a + b\sqrt{2}$ With $a, b \in \mathbb{Q}$Squaring gives
-$3 = a^2 + 2b^2 + 2ab\sqrt{2}$Forcing $ab = 0$. If $b = 0$: $a^2 = 3$Impossible in $\mathbb{Q}$. If
-$a = 0$: $2b^2 = 3$Impossible in $\mathbb{Q}$. So
+$\sqrt{3} = a + b\sqrt{2}$ With $a, b \in \mathbb{Q}$ Squaring gives
+$3 = a^2 + 2b^2 + 2ab\sqrt{2}$ Forcing $ab = 0$. If $b = 0$: $a^2 = 3$ Impossible in $\mathbb{Q}$. If
+$a = 0$: $2b^2 = 3$ Impossible in $\mathbb{Q}$. So
 $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}(\sqrt{2})] = 2$.
 
 By the tower law: $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}] = 2 \cdot 2 = 4$.
 
 For the minimal polynomial of $\alpha = \sqrt{2} + \sqrt{3}$: compute powers.
-$\alpha^2 = 5 + 2\sqrt{6}$ So $\alpha^2 - 5 = 2\sqrt{6}$Giving $\alpha^4 - 10\alpha^2 + 25 = 24$
-Hence $\alpha^4 - 10\alpha^2 + 1 = 0$. One checks that $f(x) = x^4 - 10x^2 + 1$ is irreducible over
+$\alpha^2 = 5 + 2\sqrt{6}$ So $\alpha^2 - 5 = 2\sqrt{6}$ Giving $\alpha^4 - 10\alpha^2 + 25 = 24$
+hence $\alpha^4 - 10\alpha^2 + 1 = 0$. One checks that $f(x) = x^4 - 10x^2 + 1$ is irreducible over
 $\mathbb{Q}$ (no rational roots, no quadratic factor), so $m_\alpha = x^4 - 10x^2 + 1$.
 $\blacksquare$
 
@@ -161,7 +161,7 @@ There exists $\theta \in E$ such that $E = F(\theta)$.
 
 _Proof (sketch)._ If $F$ is infinite, it suffices to find $\theta = \alpha + c\beta$ for suitable
 $c \in F$ When $E = F(\alpha, \beta)$. Only finitely many values of $c$ fail to work. For $F$ of
-characteristic $0$Every finite extension is separable, so every finite extension of $\mathbb{Q}$ is
+characteristic $0$ Every finite extension is separable, so every finite extension of $\mathbb{Q}$ is
 simple. $\blacksquare$
 
 **Corollary 12.9.** Every finite extension of $\mathbb{Q}$ is simple.
@@ -179,22 +179,11 @@ An element $\alpha$ is algebraic over $F$ if and only if $[F(\alpha) : F] < \inf
 **Mistake 3: Forgetting that finite fields have characteristic $p$**
 Every finite field has order $p^n$ for some prime $p$ and integer $n \geq 1$. Students sometimes attempt to construct a finite field of order $6$ or $10$, which is impossible since these are not prime powers. The characteristic of any finite field is prime, and the multiplicative group is cyclic.
 
-
-```mermaid
-flowchart TD
-    A[12_Field Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Rings](/1-abstract-algebra/8_rings/)**: Fields are special commutative rings where every nonzero element is a unit.
 - **[Ideals and Quotient Rings](/1-abstract-algebra/9_ideals-and-quotient-rings/)**: Quotienting a polynomial ring by an irreducible ideal yields a field, the fundamental construction of field extensions.
-- **[Number Theory](/number-theory/)**: Number theory uses finite fields and field extensions in the study of Diophantine equations and cryptography.
+- **[Number Theory](/7-number-theory/)**: Number theory uses finite fields and field extensions in the study of Diophantine equations and cryptography.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

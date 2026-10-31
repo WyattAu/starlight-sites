@@ -20,10 +20,18 @@ import Citations from '@components/Citations.astro'
 }
 </script>
 
+:::note[Coming from Java or another language? Start here]
+Read **[Before You Begin: What Kotlin Assumes You Know](/before-you-begin/)**
+first. It covers null safety, data classes, sealed classes, coroutines, and
+extension functions -- the concepts that make Kotlin different from Java, each
+defined from the ground up with the Java intuition named and upgraded.
+:::
+
+
 ## Overview
 
 Kotlin is a statically typed language targeting the JVM, Android, JavaScript, and native platforms
-Via LLVM. Developed by JetBrains, it was designed to address Java"s verbosity, null safety issues,
+via LLVM. Developed by JetBrains, it was designed to address Java's verbosity, null safety issues,
 And lack of modern language features while maintaining full interoperability.
 
 Key design goals:
@@ -39,11 +47,15 @@ Key design goals:
 
 ## JVM vs Kotlin/Native vs Kotlin/JS
 
+<div class="table-wrap">
+
 | Target        | Runtime              | Output            | Use Case                       |
 | ------------- | -------------------- | ----------------- | ------------------------------ |
 | JVM           | Java Virtual Machine | `.class` bytecode | Server, Android, existing Java |
 | Kotlin/Native | LLVM                 | Native binaries   | iOS, macOS, Linux, embedded    |
 | Kotlin/JS     | JavaScript engines   | `.js` / IR        | Frontend, Node.js              |
+
+</div>
 
 All three targets share the same language syntax and standard library. Platform-specific APIs are
 Accessed through `expect`/`actual` declarations.

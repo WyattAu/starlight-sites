@@ -33,9 +33,13 @@ produce ATP. It is an exergonic, enzyme-catalysed process that occurs in every l
 
 The overall equation for aerobic respiration of glucose:
 
-$$\mathrm{C_6H_{12}O_6 + 6O_2 \to 6CO_2 + 6H_2O}$$
+$$
+\mathrm{C_6H_{12}O_6 + 6O_2 \to 6CO_2 + 6H_2O}
+$$
 
-$$\Delta G = -2870\ \mathrm{kJ\ mol^{-1}}$$
+$$
+\Delta G = -2870\ \mathrm{kJ\ mol^{-1}}
+$$
 
 However, not all of this energy is captured as ATP. Approximately 40% is captured (theoretical
 maximum approximately 38 ATP; actual yield approximately 30--32 ATP). The remainder is released as
@@ -43,12 +47,16 @@ heat, which maintains body temperature in endotherms.
 
 ### 1.2 The Four Stages of Aerobic Respiration
 
+<div class="table-wrap">
+
 | Stage                     | Location                     | Oxygen Required? | ATP Produced (Net)  | $\mathrm{CO_2}$ Produced | $\mathrm{NADH}$ Produced | $\mathrm{FADH_2}$ Produced |
 | ------------------------- | ---------------------------- | ---------------- | ------------------- | ------------------------ | ------------------------ | -------------------------- |
 | Glycolysis                | Cytoplasm                    | No               | 2 (substrate-level) | 0                        | 2                        | 0                          |
 | Link reaction             | Mitochondrial matrix         | No               | 0                   | 2                        | 2                        | 0                          |
 | Krebs cycle               | Mitochondrial matrix         | No               | 2 (substrate-level) | 4                        | 6                        | 2                          |
 | Oxidative phosphorylation | Inner mitochondrial membrane | Yes              | $\approx$ 26--28    | 0                        | --                       | --                         |
+
+</div>
 
 **Total per glucose molecule**: approximately 30--32 ATP (varies between cell types and organisms).
 
@@ -67,7 +75,9 @@ occurs in the cytoplasm and does not require oxygen. One molecule of glucose
 **Step 1: Phosphorylation of glucose.** Glucose is phosphorylated by hexokinase (or glucokinase in
 the liver), using ATP:
 
-$$\mathrm{Glucose + ATP \to glucose\text{-}6\text{-}phosphate + ADP}$$
+$$
+\mathrm{Glucose + ATP \to glucose\text{-}6\text{-}phosphate + ADP}
+$$
 
 This traps glucose inside the cell (phosphorylated glucose cannot cross the cell membrane) and makes
 it more reactive.
@@ -79,7 +89,9 @@ compounds later.
 **Step 3: Second phosphorylation.** Fructose-6-phosphate is phosphorylated by phosphofructokinase
 (PFK), using a second ATP:
 
-$$\mathrm{Fructose\text{-}6\text{-}phosphate + ATP \to fructose\text{-}1,6\text{-}bisphosphate + ADP}$$
+$$
+\mathrm{Fructose\text{-}6\text{-}phosphate + ATP \to fructose\text{-}1,6\text{-}bisphosphate + ADP}
+$$
 
 PFK is a key regulatory enzyme: it is allosterically inhibited by ATP and citrate (signalling high
 energy status) and activated by AMP and fructose-2,6-bisphosphate (signalling low energy status).
@@ -94,15 +106,19 @@ both molecules follow the same pathway. All subsequent steps occur twice per glu
 **Phase 2: Energy Payoff (produces 4 ATP + 2 NADH)**
 
 **Step 6: Oxidation and phosphorylation.** Each G3P is oxidised by triose phosphate dehydrogenase,
-which transfers two electrons and a proton to $\mathrm{NAD^+}$Forming NADH. A phosphate group is
+which transfers two electrons and a proton to $\mathrm{NAD^+}$ Forming NADH. A phosphate group is
 added from inorganic phosphate ($P_i$), producing 1,3-bisphosphoglycerate:
 
-$$\mathrm{G3P + NAD^+ + P_i \to 1,3\text{-}BPG + NADH + H^+}$$
+$$
+\mathrm{G3P + NAD^+ + P_i \to 1,3\text{-}BPG + NADH + H^+}
+$$
 
 **Step 7: Substrate-level phosphorylation (first).** Phosphoglycerate kinase transfers a phosphate
 group from 1,3-BPG to ADP, producing ATP and 3-phosphoglycerate:
 
-$$\mathrm{1,3\text{-}BPG + ADP \to 3\text{-}phosphoglycerate + ATP}$$
+$$
+\mathrm{1,3\text{-}BPG + ADP \to 3\text{-}phosphoglycerate + ATP}
+$$
 
 This occurs twice per glucose, producing 2 ATP (recovering the 2 ATP invested in steps 1 and 3).
 
@@ -112,16 +128,22 @@ mutase.
 **Step 9: Dehydration.** 2-phosphoglycerate is converted to phosphoenolpyruvate (PEP) by enolase,
 releasing one molecule of $\mathrm{H_2O}$ per molecule (2 per glucose):
 
-$$\mathrm{2\text{-}phosphoglycerate \to PEP + H_2O}$$
+$$
+\mathrm{2\text{-}phosphoglycerate \to PEP + H_2O}
+$$
 
 **Step 10: Substrate-level phosphorylation (second).** Pyruvate kinase transfers the phosphate from
 PEP to ADP, producing ATP and pyruvate:
 
-$$\mathrm{PEP + ADP \to pyruvate + ATP}$$
+$$
+\mathrm{PEP + ADP \to pyruvate + ATP}
+$$
 
 This occurs twice per glucose, producing 2 additional ATP.
 
 ### 2.3 Summary of Glycolysis
+
+<div class="table-wrap">
 
 | Input (per glucose)                 | Output (per glucose)                |
 | ----------------------------------- | ----------------------------------- |
@@ -130,9 +152,13 @@ This occurs twice per glucose, producing 2 additional ATP.
 | 2 $\mathrm{NAD^+}$                  | 2 $\mathrm{NADH}$                   |
 | 2 ADP + 2 $P_i$                     | 2 $\mathrm{H_2O}$                   |
 
+</div>
+
 ### 2.4 Energetics of Glycolysis
 
-$$\Delta G^\circ_{\text{glycolysis}} = -63\ \mathrm{kJ\ mol^{-1}}$$
+$$
+\Delta G^\circ_{\text{glycolysis}} = -63\ \mathrm{kJ\ mol^{-1}}
+$$
 
 The reaction is exergonic overall but contains both endergonic and exergonic steps. The
 energy-investment steps (steps 1 and 3) are endergonic and are coupled to the exergonic hydrolysis
@@ -156,7 +182,9 @@ that follow require oxygen to regenerate $\mathrm{NAD^+}$ and FAD).
 
 The reaction occurs twice per glucose molecule (one per pyruvate):
 
-$$\mathrm{Pyruvate + CoA + NAD^+ \to acetyl\ CoA + CO_2 + NADH + H^+}$$
+$$
+\mathrm{Pyruvate + CoA + NAD^+ \to acetyl\ CoA + CO_2 + NADH + H^+}
+$$
 
 **Key points:**
 
@@ -167,11 +195,15 @@ $$\mathrm{Pyruvate + CoA + NAD^+ \to acetyl\ CoA + CO_2 + NADH + H^+}$$
 
 ### 3.2 Summary per Glucose Molecule
 
+<div class="table-wrap">
+
 | Input (per glucose) | Output (per glucose) |
 | ------------------- | -------------------- |
 | 2 pyruvate          | 2 acetyl CoA         |
 | 2 CoA               | 2 $\mathrm{CO_2}$    |
 | 2 $\mathrm{NAD^+}$  | 2 $\mathrm{NADH}$    |
+
+</div>
 
 ## 4. The Krebs Cycle (Citric Acid Cycle)
 
@@ -179,7 +211,7 @@ $$\mathrm{Pyruvate + CoA + NAD^+ \to acetyl\ CoA + CO_2 + NADH + H^+}$$
 
 The Krebs cycle (also called the citric acid cycle or tricarboxylic acid cycle, TCA cycle) is a
 series of enzyme-catalysed reactions in the mitochondrial matrix. It completes the oxidation of
-acetyl CoA, releasing $\mathrm{CO_2}$ and transferring high-energy electrons to $\mathrm{NAD^+}$FAD,
+acetyl CoA, releasing $\mathrm{CO_2}$ and transferring high-energy electrons to $\mathrm{NAD^+}$ FAD,
 and ATP.
 
 The cycle turns twice per glucose molecule (one turn per acetyl CoA).
@@ -189,7 +221,9 @@ The cycle turns twice per glucose molecule (one turn per acetyl CoA).
 **Step 1: Formation of citrate.** Acetyl CoA (2-carbon) combines with oxaloacetate (4-carbon) to
 form citrate (6-carbon). CoA is released and recycled. Catalysed by citrate synthase.
 
-$$\mathrm{Acetyl\ CoA + oxaloacetate + H_2O \to citrate + CoA + H^+}$$
+$$
+\mathrm{Acetyl\ CoA + oxaloacetate + H_2O \to citrate + CoA + H^+}
+$$
 
 **Step 2: Isomerisation to isocitrate.** Citrate is converted to isocitrate by aconitase. This
 rearrangement makes the molecule more reactive for the next step.
@@ -198,37 +232,51 @@ rearrangement makes the molecule more reactive for the next step.
 dehydrogenase, producing $\alpha$-ketoglutarate (5-carbon), $\mathrm{CO_2}$ And NADH. This is a key
 regulatory step.
 
-$$\mathrm{Isocitrate + NAD^+ \to \alpha\text{-}ketoglutarate + CO_2 + NADH + H^+}$$
+$$
+\mathrm{Isocitrate + NAD^+ \to \alpha\text{-}ketoglutarate + CO_2 + NADH + H^+}
+$$
 
 **Step 4: Second oxidative decarboxylation.** $\alpha$-Ketoglutarate is oxidised and decarboxylated
 by the $\alpha$-ketoglutarate dehydrogenase complex, producing succinyl CoA (4-carbon),
 $\mathrm{CO_2}$ And NADH.
 
-$$\mathrm{\alpha\text{-}Ketoglutarate + CoA + NAD^+ \to succinyl\ CoA + CO_2 + NADH + H^+}$$
+$$
+\mathrm{\alpha\text{-}Ketoglutarate + CoA + NAD^+ \to succinyl\ CoA + CO_2 + NADH + H^+}
+$$
 
 **Step 5: Substrate-level phosphorylation.** Succinyl CoA is converted to succinate by succinyl
 thiokinase (succinyl CoA synthetase). The energy released by cleaving the thioester bond in succinyl
 CoA is used to phosphorylate GDP to GTP, which is equivalent to ATP:
 
-$$\mathrm{Succinyl\ CoA + GDP + P_i \to succinate + GTP + CoA + H^+}$$
+$$
+\mathrm{Succinyl\ CoA + GDP + P_i \to succinate + GTP + CoA + H^+}
+$$
 
 **Step 6: Oxidation of succinate.** Succinate is oxidised to fumarate by succinate dehydrogenase (an
 integral membrane protein embedded in the inner mitochondrial membrane, directly feeding electrons
 to the electron transport chain via FAD). FAD is reduced to $\mathrm{FADH_2}$.
 
-$$\mathrm{Succinate + FAD \to fumarate + FADH_2}$$
+$$
+\mathrm{Succinate + FAD \to fumarate + FADH_2}
+$$
 
 **Step 7: Hydration.** Fumarate is hydrated to malate by fumarase, adding $\mathrm{H_2O}$:
 
-$$\mathrm{Fumarate + H_2O \to malate}$$
+$$
+\mathrm{Fumarate + H_2O \to malate}
+$$
 
 **Step 8: Oxidation to oxaloacetate.** Malate is oxidised to oxaloacetate by malate dehydrogenase,
 reducing $\mathrm{NAD^+}$ to NADH. This regenerates oxaloacetate, which can accept another acetyl
 CoA, continuing the cycle.
 
-$$\mathrm{Malate + NAD^+ \to oxaloacetate + NADH + H^+}$$
+$$
+\mathrm{Malate + NAD^+ \to oxaloacetate + NADH + H^+}
+$$
 
 ### 4.3 Summary Per Glucose Molecule (Two Turns)
+
+<div class="table-wrap">
 
 | Input (per glucose)               | Output (per glucose)         |
 | --------------------------------- | ---------------------------- |
@@ -237,6 +285,8 @@ $$\mathrm{Malate + NAD^+ \to oxaloacetate + NADH + H^+}$$
 | 2 FAD                             | 2 $\mathrm{FADH_2}$          |
 | 2 GDP + 2 $P_i$                   | 2 GTP ($\approx$ 2 ATP)      |
 | 2 oxaloacetate (regenerated)      | 2 oxaloacetate (regenerated) |
+
+</div>
 
 ### 4.4 Key Products and Their Fates
 
@@ -278,19 +328,21 @@ across the inner membrane.
    the Krebs cycle) and passes them to ubiquinone. Does not pump protons.
 
 3. **Ubiquinone (coenzyme Q)**: a lipid-soluble mobile electron carrier that shuttles electrons from
-   Complexes I and II to Complex III.
+   complexes I and II to Complex III.
 
 4. **Complex III (cytochrome $bc_1$)**: receives electrons from ubiquinone and passes them to
    cytochrome c. Pumps $4\ \mathrm{H^+}$.
 
 5. **Cytochrome c**: a small peripheral membrane protein that shuttles electrons from Complex III to
-   Complex IV.
+   complex IV.
 
 6. **Complex IV (cytochrome c oxidase)**: receives electrons from cytochrome c and transfers them to
    molecular oxygen ($\mathrm{O_2}$), the final electron acceptor. Oxygen combines with electrons
    and protons to form water:
 
-$$\mathrm{O_2 + 4e^- + 4H^+ \to 2H_2O}$$
+$$
+\mathrm{O_2 + 4e^- + 4H^+ \to 2H_2O}
+$$
 
 Complex IV pumps $2\ \mathrm{H^+}$.
 
@@ -305,7 +357,9 @@ The chemiosmotic theory explains how the energy from electron transport is used 
    in $\mathrm{H^+}$ concentration) and an **electrical gradient** (difference in charge).
 3. The combined electrochemical gradient is called the **proton motive force (PMF)**:
 
-$$\mathrm{PMF} = \Delta\Psi - \frac{2.303RT}{F}\Delta\mathrm{pH}$$
+$$
+\mathrm{PMF} = \Delta\Psi - \frac{2.303RT}{F}\Delta\mathrm{pH}
+$$
 
 Where $\Delta\Psi$ is the membrane potential (approximately $150$--$180\ \mathrm{mV}$) and
 $\Delta\mathrm{pH}$ is the pH difference across the membrane (approximately 0.5--1.0 unit).
@@ -315,9 +369,13 @@ $\Delta\mathrm{pH}$ is the pH difference across the membrane (approximately 0.5-
 2. As protons flow through ATP synthase, the flow drives the rotation of a rotor, which induces
    conformational changes in the catalytic domains that synthesise ATP from ADP and $P_i$:
 
-$$\mathrm{ADP + P_i \to ATP}$$
+$$
+\mathrm{ADP + P_i \to ATP}
+$$
 
 **Proton pumping summary:**
+
+<div class="table-wrap">
 
 | Source                           | Protons Pumped per Molecule |
 | -------------------------------- | --------------------------- |
@@ -328,11 +386,15 @@ $$\mathrm{ADP + P_i \to ATP}$$
 | **Total per NADH**               | **10**                      |
 | **Total per $\mathrm{FADH_2}$**  | **6**                       |
 
+</div>
+
 Approximately 3--4 protons must flow through ATP synthase to synthesise one ATP molecule (the exact
 number depends on the organism and conditions; a commonly cited value is $4\ \mathrm{H^+}$ per ATP:
 3 for ATP synthesis and 1 for phosphate transport).
 
 ### 5.4 ATP Yield Calculation
+
+<div class="table-wrap">
 
 | Stage         | Reduced Coenzyme    | ATP Yield                                |
 | ------------- | ------------------- | ---------------------------------------- |
@@ -343,6 +405,8 @@ number depends on the organism and conditions; a commonly cited value is $4\ \ma
 | Glycolysis    | --                  | 2 ATP (net, substrate-level)             |
 | Krebs cycle   | --                  | 2 GTP ($\approx$ 2 ATP, substrate-level) |
 | **Total**     |                     | **$\approx$ 32 ATP**                     |
+
+</div>
 
 Note: the actual yield in most cells is approximately 30--32 ATP per glucose molecule, lower than
 the theoretical maximum due to proton leakage across the inner membrane, the cost of transporting
@@ -355,13 +419,13 @@ Oxygen is the **final electron acceptor** in the electron transport chain. Witho
 - Electrons cannot pass through Complex IV (they back up through the chain).
 - Proton pumping stops, the proton gradient dissipates, and ATP synthase stops.
 - NADH and $\mathrm{FADH_2}$ cannot be reoxidised to $\mathrm{NAD^+}$ and FAD.
-- Without $\mathrm{NAD^+}$The Krebs cycle and glycolysis (specifically step 6) stop.
+- Without $\mathrm{NAD^+}$ The Krebs cycle and glycolysis (specifically step 6) stop.
 
 This is why cells must switch to anaerobic respiration in the absence of oxygen.
 
 :::caution
 specifically as the final electron acceptor in the electron transport chain. The ATP itself is
-synthesised by ATP synthase, driven by the proton gradient. Oxygen"s role is to keep the electron
+synthesised by ATP synthase, driven by the proton gradient. Oxygen's role is to keep the electron
 transport chain flowing so that the proton gradient is maintained.
 :::
 
@@ -373,10 +437,12 @@ In the absence of oxygen, pyruvate from glycolysis cannot enter the mitochondria
 reaction and Krebs cycle. Instead, pyruvate is converted to **lactate** (lactic acid) by the enzyme
 **lactate dehydrogenase**:
 
-$$\mathrm{Pyruvate + NADH + H^+ \to lactate + NAD^+}$$
+$$
+\mathrm{Pyruvate + NADH + H^+ \to lactate + NAD^+}
+$$
 
 The critical purpose of this reaction is to **regenerate $\mathrm{NAD^+}$**, allowing glycolysis to
-continue. Without $\mathrm{NAD^+}$Glycolysis would stop at step 6, and the cell would have no ATP
+continue. Without $\mathrm{NAD^+}$ Glycolysis would stop at step 6, and the cell would have no ATP
 production.
 
 **ATP yield from anaerobic respiration**: 2 ATP per glucose (only from glycolysis; the link
@@ -386,9 +452,13 @@ reaction, Krebs cycle, and oxidative phosphorylation do not occur).
 
 Yeast and some plant cells carry out alcoholic fermentation:
 
-$$\mathrm{Pyruvate \xrightarrow{\text{decarboxylase}} ethanal + CO_2}$$
+$$
+\mathrm{Pyruvate \xrightarrow{\text{decarboxylase}} ethanal + CO_2}
+$$
 
-$$\mathrm{Ethanal + NADH + H^+ \xrightarrow{\text{alcohol dehydrogenase}} ethanol + NAD^+}$$
+$$
+\mathrm{Ethanal + NADH + H^+ \xrightarrow{\text{alcohol dehydrogenase}} ethanol + NAD^+}
+$$
 
 Products: **ethanol** and $\mathrm{CO_2}$. ATP yield: 2 ATP per glucose.
 
@@ -396,6 +466,8 @@ This reaction is exploited in brewing (ethanol production) and bread-making ($\m
 production causes dough to rise).
 
 ### 6.3 Comparison of Aerobic and Anaerobic Respiration
+
+<div class="table-wrap">
 
 | Feature                 | Aerobic Respiration                 | Anaerobic Respiration                                 |
 | ----------------------- | ----------------------------------- | ----------------------------------------------------- |
@@ -406,17 +478,23 @@ production causes dough to rise).
 | Products                | $\mathrm{CO_2}$, $\mathrm{H_2O}$    | Lactate (animals) / ethanol + $\mathrm{CO_2}$ (yeast) |
 | Rate                    | Slower (more steps, more efficient) | Faster (fewer steps, less efficient)                  |
 
+</div>
+
 ## 7. Respiratory Substrates
 
 ### 7.1 Different Substrates and Their Energy Values
 
 Different respiratory substrates release different amounts of energy per unit mass:
 
+<div class="table-wrap">
+
 | Substrate     | Energy Value ($\mathrm{kJ\ g^{-1}}$) | Reason for Difference                                                                        |
 | ------------- | ------------------------------------ | -------------------------------------------------------------------------------------------- |
 | Carbohydrates | $\approx 15.8$                       | Many $\mathrm{C{-}H}$ and $\mathrm{C{-}O}$ bonds; partially oxidised                         |
 | Lipids        | $\approx 39.4$                       | More $\mathrm{C{-}H}$ bonds (higher H:C ratio); less oxidised, more energy released per gram |
 | Proteins      | $\approx 17.0$                       | Similar to carbohydrates; nitrogen must be excreted (as urea)                                |
+
+</div>
 
 Lipids contain approximately 2.5 times more energy per gram than carbohydrates because they have a
 higher proportion of $\mathrm{C{-}H}$ bonds (which release more energy when oxidised than
@@ -426,15 +504,21 @@ $\mathrm{C{-}O$ bonds). This is why lipids are preferred for long-term energy st
 
 The respiratory quotient (RQ) is the ratio of $\mathrm{CO_2}$ produced to $\mathrm{O_2}$ consumed:
 
-$$RQ = \frac{\text{Volume of }\mathrm{CO_2}\text{ produced}}{\text{Volume of }\mathrm{O_2}\text{ consumed}}$$
+$$
+RQ = \frac{\text{Volume of }\mathrm{CO_2}\text{ produced}}{\text{Volume of }\mathrm{O_2}\text{ consumed}}
+$$
 
 For different substrates:
+
+<div class="table-wrap">
 
 | Substrate              | Equation (simplified)                                        | RQ             |
 | ---------------------- | ------------------------------------------------------------ | -------------- |
 | Carbohydrate (glucose) | $\mathrm{C_6H_{12}O_6 + 6O_2 \to 6CO_2 + 6H_2O}$             | 1.0            |
 | Lipid (tripalmitin)    | $\mathrm{2C_{51}H_{98}O_6 + 145O_2 \to 102CO_2 + 98H_2O}$    | $\approx 0.70$ |
 | Protein (average)      | Variable; approximately $\mathrm{C_{50}H_{85}O_{23}N_{15}S}$ | $\approx 0.80$ |
+
+</div>
 
 **Interpreting RQ values:**
 
@@ -450,7 +534,9 @@ For different substrates:
 A respirometer experiment shows that a germinating seedling consumes $24.0\ \mathrm{cm^3}$ of
 $\mathrm{O_2}$ and produces $17.0\ \mathrm{cm^3}$ of $\mathrm{CO_2}$ in 30 minutes.
 
-$$RQ = \frac{17.0}{24.0} = 0.71$$
+$$
+RQ = \frac{17.0}{24.0} = 0.71
+$$
 
 An RQ of 0.71 indicates that the seedling is primarily respiring lipids (using energy stores in the
 seed).
@@ -568,10 +654,10 @@ Calculate the $Q_{10}$ between $20\ ^\circ\mathrm{C}$ and $30\ ^\circ\mathrm{C}$
 **Answer.** (b) The rate of respiration increases with temperature from $10$ to
 $40\ ^\circ\mathrm{C}$ due to increased kinetic energy of molecules and more frequent
 enzyme-substrate collisions. The rate is highest at approximately $40\ ^\circ\mathrm{C}$ (the
-optimum temperature for the yeast's respiratory enzymes). Above $40\ ^\circ\mathrm{C}$The rate
+optimum temperature for the yeast's respiratory enzymes). Above $40\ ^\circ\mathrm{C}$ The rate
 decreases sharply as the enzymes denature -- hydrogen bonds and other weak interactions maintaining
 tertiary structure break, the active site changes shape, and the enzyme can no longer catalyse the
-reaction. By $60\ ^\circ\mathrm{C}$Most enzymes are denatured and the rate is very low.
+reaction. By $60\ ^\circ\mathrm{C}$ Most enzymes are denatured and the rate is very low.
 
 (c)
 $Q_{10} = \frac{\text{Rate at } 30\ ^\circ\mathrm{C}}{\text{Rate at } 20\ ^\circ\mathrm{C}} = \frac{3.6}{1.8} = 2.0$.
@@ -593,7 +679,7 @@ aerobic respiration to supply it. Aerobic respiration is limited by the rate at 
 can be delivered to the muscles (via the lungs and cardiovascular system) and by the number of
 mitochondria in the muscle fibres. Anaerobic respiration (lactate fermentation) allows glycolysis to
 continue in the absence of sufficient $\mathrm{O_2}$ by regenerating $\mathrm{NAD^+}$ from NADH. The
-conversion of pyruvate to lactate oxidises NADH back to $\mathrm{NAD^+}$Which is needed for step 6
+conversion of pyruvate to lactate oxidises NADH back to $\mathrm{NAD^+}$ Which is needed for step 6
 of glycolysis (the oxidation of G3P). Although anaerobic respiration yields only 2 ATP per glucose
 (compared to $\approx$ 32 from aerobic respiration), it can proceed very rapidly in the cytoplasm
 without requiring oxygen or mitochondrial machinery, providing a rapid but short-term ATP supply to
@@ -653,12 +739,16 @@ The overall free energy change for aerobic respiration of glucose is approximate
 $-2870\ \mathrm{kJ\ mol^{-1}}$. This energy is released in stages, with each stage releasing a
 specific amount:
 
+<div class="table-wrap">
+
 | Stage                     | $\Delta G^\circ$ ($\mathrm{kJ\ mol^{-1}}$) | ATP Yield (theoretical)                       | Energy Released (%) |
 | ------------------------- | ------------------------------------------ | --------------------------------------------- | ------------------- |
 | Glycolysis                | $-63$                                      | 7 ATP (2 net + 5 from NADH)                   | 2.2%                |
 | Link reaction             | $-167$ (per pyruvate)                      | 5 ATP (2 NADH)                                | 5.8%                |
 | Krebs cycle               | $-920$ (per glucose)                       | 20 ATP (2 GTP + 6 NADH + 2 $\mathrm{FADH_2}$) | 32.1%               |
 | Oxidative phosphorylation | $-2200$ (per glucose, from ETC)            | $\approx$ 26--28 ATP                          | 76.6%               |
+
+</div>
 
 The energy released at each stage is not directly captured as ATP. The efficiency of energy capture
 varies:
@@ -673,7 +763,9 @@ varies:
 
 Overall efficiency of aerobic respiration:
 
-$$\text{Efficiency} = \frac{\text{Energy captured as ATP}}{\text{Total energy released}} = \frac{30 \times 30.5}{2870} = \frac{915}{2870} = 31.9\%$$
+$$
+\text{Efficiency} = \frac{\text{Energy captured as ATP}}{\text{Total energy released}} = \frac{30 \times 30.5}{2870} = \frac{915}{2870} = 31.9\%
+$$
 
 This means approximately 68% of the energy in glucose is lost as heat. While this seems inefficient,
 it is sufficient for the metabolic demands of most organisms because glucose is continuously
@@ -767,11 +859,13 @@ occurring is $\mathrm{O_2}$ uptake.
 **Without soda lime:**
 
 If no $\mathrm{CO_2}$ absorbent is used, the volume change is the net difference between
-$\mathrm{O_2}$ consumed and $\mathrm{CO_2}$ produced. For carbohydrate substrates where $RQ = 1$This
-is zero (volumes cancel). For lipid substrates where $RQ < 1$The measured volume change
+$\mathrm{O_2}$ consumed and $\mathrm{CO_2}$ produced. For carbohydrate substrates where $RQ = 1$ This
+is zero (volumes cancel). For lipid substrates where $RQ < 1$ The measured volume change
 underestimates $\mathrm{O_2}$ consumption.
 
-$$\text{True}\ \mathrm{O_2}\text{consumption} = \text{Measured volume change} \times \frac{1}{1 - RQ}$$
+$$
+\text{True}\ \mathrm{O_2}\text{consumption} = \text{Measured volume change} \times \frac{1}{1 - RQ}
+$$
 
 ### 12.2 Worked Example: Determining the Respiratory Substrate
 
@@ -786,7 +880,9 @@ produced $= 1.5\ \mathrm{cm^3}$.
 
 Therefore: $\mathrm{CO_2}$ produced $= 3.0 - 1.5 = 1.5\ \mathrm{cm^3}$.
 
-$$RQ = \frac{1.5}{3.0} = 0.50$$
+$$
+RQ = \frac{1.5}{3.0} = 0.50
+$$
 
 An RQ of 0.50 suggests a mix of carbohydrate and lipid substrates being respired. A purely
 carbohydrate substrate would give $RQ = 1.0$; a purely lipid substrate would give $RQ \approx 0.7$.
@@ -795,12 +891,16 @@ protein as a respiratory substrate (average protein $RQ \approx 0.8$) or experim
 
 ### 12.3 Control Variables in Respirometer Experiments
 
+<div class="table-wrap">
+
 | Variable Type | Examples                                   | How to Control                                                    |
 | ------------- | ------------------------------------------ | ----------------------------------------------------------------- |
 | Independent   | Substrate type, organism mass, temperature | Use the same substrate; weigh organisms carefully; use water bath |
 | Controlled    | Atmospheric pressure, time of day          | Record conditions; run at the same time of day                    |
 | Dependent     | Volume change (manometer movement)         | Measure carefully with ruler or Vernier scale                     |
 | Standardised  | Water bath temperature                     | Thermostatically controlled water bath                            |
+
+</div>
 
 ### 12.4 Sources of Error
 
@@ -815,6 +915,8 @@ protein as a respiratory substrate (average protein $RQ \approx 0.8$) or experim
 
 ### 13.1 ATP Yield Per Glucose Molecule
 
+<div class="table-wrap">
+
 | Source                                             | ATP Per Glucose | Percentage of Total |
 | -------------------------------------------------- | --------------- | ------------------- |
 | Glycolysis (net)                                   | 2               | 6%                  |
@@ -822,6 +924,8 @@ protein as a respiratory substrate (average protein $RQ \approx 0.8$) or experim
 | Krebs cycle (2 GTP + 2 $\mathrm{FADH_2}$ + 6 NADH) | 20              | 62%                 |
 | Oxidative phosphorylation                          | 26--28          | 81--88%             |
 | **Total**                                          | **30--32**      | **100%**            |
+
+</div>
 
 ### 13.2 ATP Yield Per Fatty Acid
 
@@ -842,9 +946,9 @@ Energy value: $61 \times 30.5 = 1860.5\ \mathrm{kJ\ mol^{-1}}$.
 
 Compare with glucose: $32 \times 30.5 = 976\ \mathrm{kJ\ mol^{-1}}$.
 
-Palmitic acid (256 $\mathrm{g\ mol^{-1}}$) produces approximately $1860\ \mathrm{kJ\ mol^{-1}$Or
+Palmitic acid (256 $\mathrm{g\ mol^{-1}}$) produces approximately $1860\ \mathrm{kJ\ mol^{-1}$ Or
 $7.27\ \mathrm{kJ\ g^{-1}}$. Glucose (180 $\mathrm{g\ mol^{-1}}$) produces approximately
-$976\mathrm{kJ\ mol^{-1}}$Or $5.42\ \mathrm{kJ\ g^{-1}}$.
+$976\mathrm{kJ\ mol^{-1}}$ Or $5.42\ \mathrm{kJ\ g^{-1}}$.
 
 Fatty acids produce approximately 1.3 times more energy per gram than glucose, consistent with their
 higher energy value ($\approx 39\ \mathrm{kJ\ g^{-1}}$ vs $\approx 15.8\ \mathrm{kJ\ g^{-1}}$).
@@ -859,7 +963,9 @@ $\mathrm{O_2}$ required to oxidise the accumulated lactate after exercise.
 
 The oxidation of lactate:
 
-$$\mathrm{C_3H_6O_3 + 3O_2 \to 3CO_2 + 3H_2O}$$
+$$
+\mathrm{C_3H_6O_3 + 3O_2 \to 3CO_2 + 3H_2O}
+$$
 
 Molar mass of lactate $= 90\ \mathrm{g\ mol^{-1}}$.
 
@@ -870,7 +976,9 @@ $\mathrm{O_2}$ required $= 0.00556 \times 3 = 0.0167\ \mathrm{mol}$.
 Volume of $\mathrm{O_2}$ at room temperature (assuming $1\ \mathrm{mol}$ gas
 $\approx 24\ \mathrm{dm^3}$):
 
-$$V = 0.0167 \times 24 = 0.40\ \mathrm{dm^3} = 400\ \mathrm{cm^3}$$
+$$
+V = 0.0167 \times 24 = 0.40\ \mathrm{dm^3} = 400\ \mathrm{cm^3}
+$$
 
 The runner must breathe an additional $400\ \mathrm{cm^3}$ of $\mathrm{O_2}$ above resting
 requirements to fully repay the oxygen debt.
@@ -886,6 +994,8 @@ been "paid."
 
 ### 14.1 Mitochondrial Anatomy
 
+<div class="table-wrap">
+
 | Structure           | Description                                                                                       | Function                                                                                                                 |
 | ------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Outer membrane      | Smooth, permeable to small molecules ($< 5\ \mathrm{kDa}$) via porin channels                     | Contains the organelle; allows passage of metabolites                                                                    |
@@ -893,9 +1003,13 @@ been "paid."
 | Inner membrane      | Highly folded into **cristae**; impermeable to ions without transport proteins                    | Site of the electron transport chain and ATP synthase; the folds increase surface area for these complexes               |
 | Matrix              | Inner compartment; contains circular DNA, ribosomes, enzymes of the Krebs cycle and link reaction | Site of the Krebs cycle, link reaction, and fatty acid oxidation; semi-autonomous (can produce some of its own proteins) |
 
+</div>
+
 ### 14.2 Mitochondria and Aerobic Capacity
 
 Tissues with high aerobic demand have more mitochondria per cell:
+
+<div class="table-wrap">
 
 | Tissue                            | Approximate Mitochondria per Cell | Reason                                                                                          |
 | --------------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -905,6 +1019,8 @@ Tissues with high aerobic demand have more mitochondria per cell:
 | Skeletal muscle (type IIb fibres) | $\approx 200$--$500$              | Fast-twitch, fatigable fibres adapted for short bursts of activity                              |
 | Red blood cells                   | 0                                 | No mitochondria (to make room for haemoglobin and to avoid using the $\mathrm{O_2}$ they carry) |
 
+</div>
+
 ### 14.3 Endosymbiosis Theory
 
 Mitochondria are thought to have originated from free-living aerobic bacteria that were engulfed by
@@ -912,6 +1028,8 @@ a larger anaerobic host cell approximately 2 billion years ago (the **endosymbio
 proposed by Lynn Margulis).
 
 Evidence supporting endosymbiosis:
+
+<div class="table-wrap">
 
 | Evidence                       | Explanation                                                                                                            |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
@@ -921,6 +1039,8 @@ Evidence supporting endosymbiosis:
 | Reproduction by binary fission | Mitochondria divide independently of the cell by binary fission, similar to bacteria                                   |
 | Antibiotic sensitivity         | Mitochondrial protein synthesis is inhibited by antibiotics that target bacteria (e.g., chloramphenicol, tetracycline) |
 | Phylogenetic analysis          | Mitochondrial DNA sequences are most similar to those of alpha-proteobacteria (e.g., _Rickettsia_)                     |
+
+</div>
 
 ## Common Mistakes
 
@@ -938,6 +1058,8 @@ Evidence supporting endosymbiosis:
 
 ### 15.1 Electron Transport Chain Inhibitors
 
+<div class="table-wrap">
+
 | Inhibitor                 | Target                                                                                 | Effect                                                                                                                                                                                                                                                                  |
 | ------------------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Cyanide ($\mathrm{CN^-}$) | Binds to the $\mathrm{Fe^{3+}}$ in the haem group of Complex IV (cytochrome c oxidase) | Blocks electron transfer to $\mathrm{O_2}$; $\mathrm{O_2}$ cannot be reduced to $\mathrm{H_2O}$; ETC backs up, proton gradient dissipates, ATP synthesis ceases; cells die from ATP depletion and $\mathrm{O_2}$ cannot be used (histotoxic hypoxia)                    |
@@ -946,6 +1068,8 @@ Evidence supporting endosymbiosis:
 | Antimycin A               | Blocks electron transfer from cytochrome $b$ to cytochrome $c_1$ in Complex III        | Both NADH and $\mathrm{FADH_2}$ electrons are blocked                                                                                                                                                                                                                   |
 | Oligomycin                | Blocks the proton channel in ATP synthase ($\mathrm{F_0}$ subunit)                     | Protons cannot flow back through ATP synthase; proton gradient builds up, eventually stopping the ETC (back pressure)                                                                                                                                                   |
 | DNP (2,4-dinitrophenol)   | Uncouples oxidative phosphorylation                                                    | DNP is a lipophilic molecule that carries $\mathrm{H^+}$ across the inner membrane, dissipating the proton gradient. Electrons continue to flow through the ETC (and $\mathrm{O_2}$ consumption increases), but no ATP is produced. Energy is released as heat instead. |
+
+</div>
 
 ### 15.2 Cyanide Poisoning: Mechanism and Treatment
 
@@ -990,7 +1114,9 @@ anaerobically.
 
 **Anaerobic respiration in yeast (alcoholic fermentation):**
 
-$$\text{Glucose} \to 2\ \text{ethanol} + 2\ \mathrm{CO_2} + 2\ \text{ATP}$$
+$$
+\text{Glucose} \to 2\ \text{ethanol} + 2\ \mathrm{CO_2} + 2\ \text{ATP}
+$$
 
 This is used in:
 
@@ -1003,7 +1129,9 @@ This is used in:
 
 ### 16.2 Lactate Fermentation in Animals
 
-$$\text{Glucose} \to 2\ \text{lactate} + 2\ \text{ATP}$$
+$$
+\text{Glucose} \to 2\ \text{lactate} + 2\ \text{ATP}
+$$
 
 Lactate fermentation occurs in:
 
@@ -1015,11 +1143,15 @@ Lactate fermentation occurs in:
 
 ### 16.3 Comparing the ATP Yield
 
+<div class="table-wrap">
+
 | Process                         | ATP per Glucose | End Products                    | Efficiency |
 | ------------------------------- | --------------- | ------------------------------- | ---------- |
 | Aerobic respiration             | 30--32          | $\mathrm{CO_2} + \mathrm{H_2O}$ | 31.9%      |
 | Anaerobic respiration (lactate) | 2               | Lactate                         | 2.0%       |
 | Anaerobic respiration (alcohol) | 2               | Ethanol + $\mathrm{CO_2}$       | 2.0%       |
+
+</div>
 
 Anaerobic respiration is extremely inefficient compared to aerobic respiration. However, it has the
 advantage of speed (glycolysis can produce ATP much faster than the full aerobic pathway) and does
@@ -1032,11 +1164,15 @@ not require $\mathrm{O_2}$.
 The link reaction converts pyruvate to acetyl CoA and is catalysed by the **pyruvate dehydrogenase
 complex** (PDC), a massive multi-enzyme complex containing three enzymes and five coenzymes:
 
+<div class="table-wrap">
+
 | Enzyme                            | Coenzyme                                                              | Reaction                                                               |
 | --------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | Pyruvate dehydrogenase (E1)       | **TPP** (thiamine pyrophosphate, derived from vitamin $\mathrm{B_1}$) | Decarboxylates pyruvate; transfers the hydroxyethyl group to lipoamide |
 | Dihydrolipoyl transacetylase (E2) | **Lipoic acid** (lipoamide)                                           | Transfers the acetyl group to CoA, forming acetyl CoA                  |
 | Dihydrolipoyl dehydrogenase (E3)  | **FAD** (derived from vitamin $\mathrm{B_2}$), **NAD^+**              | Reoxidises lipoamide, producing $\mathrm{FADH_2}$ and then NADH        |
+
+</div>
 
 Additional coenzyme: **CoA** (coenzyme A, derived from pantothenic acid, vitamin $\mathrm{B_5}$).
 
@@ -1047,12 +1183,16 @@ $\text{Pyruvate} + \text{CoA} + \text{NAD}^+ \to \text{acetyl CoA} + \mathrm{CO_
 
 Because several coenzymes are derived from vitamins, vitamin deficiencies impair respiration:
 
+<div class="table-wrap">
+
 | Vitamin                           | Coenzyme                     | Deficiency Disease                    | Effect on Respiration                                                                |
 | --------------------------------- | ---------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------ |
 | $\mathrm{B_1}$ (thiamine)         | TPP (pyruvate dehydrogenase) | Beriberi, Wernicke-Korsakoff syndrome | Pyruvate cannot be converted to acetyl CoA; accumulates, causing neurological damage |
 | $\mathrm{B_2}$ (riboflavin)       | FAD (Complex II)             | Ariboflavinosis                       | $\mathrm{FADH_2}$ cannot donate electrons to the ETC                                 |
 | $\mathrm{B_3}$ (niacin)           | $\mathrm{NAD^+}$/NADH        | Pellagra                              | NAD$^+$ deficiency impairs glycolysis, link reaction, Krebs cycle, and ETC           |
 | $\mathrm{B_5}$ (pantothenic acid) | CoA                          | Rare                                  | Impairs link reaction and Krebs cycle                                                |
+
+</div>
 
 :::caution
 produce any ATP directly. It produces 2 $\mathrm{CO_2}$ and 2 NADH per glucose molecule. The NADH
@@ -1098,6 +1238,8 @@ extended elevated breathing after the sprint to repay the lactacid debt.
 
 **Endurance training** (e.g., marathon running) causes adaptations that improve aerobic capacity:
 
+<div class="table-wrap">
+
 | Adaptation                                                                   | Effect on Respiration                                                          |
 | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | Increased number of mitochondria in muscle cells                             | More ATP from aerobic respiration; delayed onset of anaerobic respiration      |
@@ -1107,7 +1249,11 @@ extended elevated breathing after the sprint to repay the lactacid debt.
 | Increased haemoglobin concentration                                          | Greater $\mathrm{O_2}$-carrying capacity of blood                              |
 | Increased oxidative enzyme activity (citrate synthase, cytochrome c oxidase) | Faster Krebs cycle and ETC                                                     |
 
+</div>
+
 **Sprint training** (e.g., 100 m sprint) causes adaptations that improve anaerobic capacity:
+
+<div class="table-wrap">
 
 | Adaptation                                                                        | Effect                                                     |
 | --------------------------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -1117,12 +1263,16 @@ extended elevated breathing after the sprint to repay the lactacid debt.
 | Increased lactate tolerance                                                       | Muscles can function at lower pH for longer before fatigue |
 | Increased fast-twitch muscle fibre size                                           | Greater force production per contraction                   |
 
+</div>
+
 ### 22.3 VO2 Max
 
 **$\dot{V}\mathrm{O_2}$ max** (maximal oxygen uptake) is the maximum rate of $\mathrm{O_2}$
 consumption during exercise. It is a measure of cardiorespiratory fitness.
 
 Typical values:
+
+<div class="table-wrap">
 
 | Individual                                             | $\dot{V}\mathrm{O_2}$ max ($\mathrm{mL\ kg^{-1}\ min^{-1}}$) |
 | ------------------------------------------------------ | ------------------------------------------------------------ |
@@ -1132,9 +1282,13 @@ Typical values:
 | Untrained young female                                 | 30--40                                                       |
 | Trained female endurance athlete                       | 50--70                                                       |
 
+</div>
+
 $\dot{V}\mathrm{O_2}$ max is determined by the **Fick equation**:
 
-$$\dot{V}\mathrm{O_2\ max} = Q \times (C_a - C_v)$$
+$$
+\dot{V}\mathrm{O_2\ max} = Q \times (C_a - C_v)
+$$
 
 Where $Q$ = cardiac output (L/min), $C_a$ = arterial $\mathrm{O_2}$ content, $C_v$ = venous
 $\mathrm{O_2}$ content. The difference $(C_a - C_v)$ is the **arteriovenous $\mathrm{O_2}$
@@ -1156,15 +1310,21 @@ difference**.
 
 ### 21.1 Key Similarities
 
+<div class="table-wrap">
+
 | Feature             | Respiration                                               | Photosynthesis                                                |
 | ------------------- | --------------------------------------------------------- | ------------------------------------------------------------- |
 | Location of ETC     | Inner mitochondrial membrane                              | Thylakoid membrane                                            |
 | Energy transduction | Chemical energy $\to$ ATP + heat                          | Light energy $\to$ chemical energy (ATP, NADPH)               |
-| Electron carriers   | NADH, $\mathrm{FADH_2}$Ubiquinone, cytochromes            | Photosystems, plastoquinone, plastocyanin, ferredoxin         |
+| Electron carriers   | NADH, $\mathrm{FADH_2}$ Ubiquinone, cytochromes            | Photosystems, plastoquinone, plastocyanin, ferredoxin         |
 | Chemiosmosis        | Proton gradient across inner membrane drives ATP synthase | Proton gradient across thylakoid membrane drives ATP synthase |
 | Enzyme types        | Reductases, oxidases, synthases, dehydrogenases           | Kinases, carboxylases, reductases, synthases                  |
 
+</div>
+
 ### 21.2 Key Differences
+
+<div class="table-wrap">
 
 | Feature              | Respiration                                            | Photosynthesis                                           |
 | -------------------- | ------------------------------------------------------ | -------------------------------------------------------- |
@@ -1176,11 +1336,15 @@ difference**.
 | ATP role             | Product (energy currency)                              | Intermediate (used to drive Calvin cycle)                |
 | $\mathrm{CO_2}$ role | Waste product                                          | Raw material                                             |
 
+</div>
+
 ### 21.3 The Carbon Cycle: Linking Respiration and Photosynthesis
 
 Respiration and photosynthesis are complementary processes that drive the global carbon cycle:
 
-$$6\mathrm{CO_2 + 6H_2O \xrightleftharpoons[\text{respiration}]{\text{photosynthesis}} C_6H_{12}O_6 + 6O_2}$$
+$$
+6\mathrm{CO_2 + 6H_2O \xrightleftharpoons[\text{respiration}]{\text{photosynthesis}} C_6H_{12}O_6 + 6O_2}
+$$
 
 In the short term, the two processes are approximately balanced: the $\mathrm{O_2}$ produced by
 photosynthesis is approximately equal to the $\mathrm{O_2}$ consumed by respiration, and the
@@ -1192,7 +1356,7 @@ However, over geological time scales, imbalances have occurred:
 - Photosynthesis exceeded respiration during the Carboniferous period, when vast amounts of organic
   carbon were buried as coal, oil, and natural gas, and atmospheric $\mathrm{O_2}$ rose to its
   current level (21%).
-- Burning fossil fuels releases this stored carbon as $\mathrm{CO_2}$Reversing the ancient imbalance
+- Burning fossil fuels releases this stored carbon as $\mathrm{CO_2}$ Reversing the ancient imbalance
   and increasing atmospheric $\mathrm{CO_2}$.
 
 ---
@@ -1244,6 +1408,8 @@ However, over geological time scales, imbalances have occurred:
 
 The Krebs cycle turns twice per glucose (one turn per acetyl CoA):
 
+<div class="table-wrap">
+
 | Product                  | Per Turn | Per Glucose  |
 | ------------------------ | -------- | ------------ |
 | $\mathrm{CO_2}$          | 2        | 4            |
@@ -1252,15 +1418,21 @@ The Krebs cycle turns twice per glucose (one turn per acetyl CoA):
 | GTP (ATP equivalent)     | 1        | 2            |
 | Oxaloacetate regenerated | 1        | 1 (per turn) |
 
+</div>
+
 ### 18.3 Regulation of the Krebs Cycle
 
 The Krebs cycle is regulated by three key enzymes:
+
+<div class="table-wrap">
 
 | Enzyme                               | Activated By             | Inhibited By                                          |
 | ------------------------------------ | ------------------------ | ----------------------------------------------------- |
 | Citrate synthase                     | ADP (signals low energy) | ATP, NADH, succinyl CoA, citrate (product inhibition) |
 | Isocitrate dehydrogenase             | ADP, $\mathrm{Ca^{2+}}$  | ATP, NADH                                             |
 | $\alpha$-Ketoglutarate dehydrogenase | $\mathrm{Ca^{2+}}$       | ATP, NADH, succinyl CoA                               |
+
+</div>
 
 When the cell has abundant ATP (high energy charge), NADH, and succinyl CoA, the Krebs cycle slows
 down. When ATP is depleted (high ADP), the cycle speeds up.
@@ -1297,7 +1469,7 @@ carrying electrons from Complex I and Complex II to Complex III.
 ### 19.5 Cytochrome $c$
 
 A small protein that diffuses along the surface of the inner membrane, carrying electrons from
-Complex III to Complex IV.
+complex III to Complex IV.
 
 ### 19.6 Complex IV (Cytochrome c Oxidase)
 
@@ -1309,6 +1481,8 @@ Complex III to Complex IV.
 
 ### 19.7 Total Proton Pumping per Glucose
 
+<div class="table-wrap">
+
 | Source                                                                                                                                | Protons Pumped |
 | ------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | 10 NADH $\times 4\ \mathrm{H^+}$ (Complex I)                                                                                          | 40             |
@@ -1318,8 +1492,10 @@ Complex III to Complex IV.
 | 4 $\mathrm{H^+}$ from 2 NADH used in the Krebs cycle + 4 $\mathrm{H^+}$ from 2 NADH from the link reaction (released into the matrix) | 8              |
 | **Total**                                                                                                                             | **120**        |
 
+</div>
+
 Actually, a simpler calculation: per NADH, 10 $\mathrm{H^+}$ are pumped (4 at Complex I + 4 at
-Complex III + 2 at Complex IV). Per $\mathrm{FADH_2}$6 $\mathrm{H^+}$ are pumped (0 at Complex II +
+complex III + 2 at Complex IV). Per $\mathrm{FADH_2}$6 $\mathrm{H^+}$ are pumped (0 at Complex II +
 4 at Complex III + 2 at Complex IV).
 
 Total $\mathrm{H^+}$ pumped $= 10 \times 10 + 2 \times 6 = 112$.
@@ -1354,7 +1530,7 @@ Fatty acids are broken down in the mitochondrial matrix by the sequential remova
 3. **$\beta$-Oxidation spiral**: each cycle removes 2 carbons as acetyl CoA and produces 1 NADH and
    1 $\mathrm{FADH_2}$.
 
-**Worked Example: Palmitic acid ($\mathrm{C_{16}}$Saturated).**
+**Worked Example: Palmitic acid ($\mathrm{C_{16}}$ Saturated).**
 
 Number of $\beta$-oxidation cycles $= \frac{16}{2} - 1 = 7$ (the last cycle produces 2 acetyl CoA
 directly).
@@ -1375,6 +1551,8 @@ Minus activation cost: $-2$ ATP.
 After deamination (removal of the amino group by transaminases or deaminases), the carbon skeletons
 of amino acids enter metabolic pathways at various points:
 
+<div class="table-wrap">
+
 | Entry Point            | Amino Acids                                        |
 | ---------------------- | -------------------------------------------------- |
 | Pyruvate               | Alanine, serine, cysteine, glycine, threonine      |
@@ -1384,10 +1562,14 @@ of amino acids enter metabolic pathways at various points:
 | Fumarate               | Phenylalanine, tyrosine                            |
 | Oxaloacetate           | Aspartate, asparagine                              |
 
+</div>
+
 The amino group is converted to ammonia ($\mathrm{NH_3}$), which is highly toxic. In the liver,
 ammonia is converted to urea by the **ornithine cycle** (urea cycle):
 
-$$2\mathrm{NH_3} + \mathrm{CO_2} + 3\mathrm{ATP} \to \text{urea}(\mathrm{CO(NH_2)_2}) + 2\mathrm{H_2O} + 3\mathrm{ADP} + 2\mathrm{P_i}$$
+$$
+2\mathrm{NH_3} + \mathrm{CO_2} + 3\mathrm{ATP} \to \text{urea}(\mathrm{CO(NH_2)_2}) + 2\mathrm{H_2O} + 3\mathrm{ADP} + 2\mathrm{P_i}
+$$
 
 Urea is less toxic than ammonia, relatively soluble in water, and excreted by the kidneys.
 
@@ -1398,7 +1580,11 @@ Urea is less toxic than ammonia, relatively soluble in water, and excreted by th
 The respiratory quotient (RQ) is the ratio of $\mathrm{CO_2}$ produced to $\mathrm{O_2}$ consumed
 during respiration:
 
-$$\mathrm{RQ} = \frac{\text{volume of } \mathrm{CO_2} \text{ produced}}{\text{volume of } \mathrm{O_2} \text{ consumed}}$$
+$$
+\mathrm{RQ} = \frac{\text{volume of } \mathrm{CO_2} \text{ produced}}{\text{volume of } \mathrm{O_2} \text{ consumed}}
+$$
+
+<div class="table-wrap">
 
 | Substrate             | RQ                 | Explanation                                                                                            |
 | --------------------- | ------------------ | ------------------------------------------------------------------------------------------------------ |
@@ -1407,10 +1593,14 @@ $$\mathrm{RQ} = \frac{\text{volume of } \mathrm{CO_2} \text{ produced}}{\text{vo
 | Proteins              | $\approx 0.8--0.9$ | Intermediate between carbohydrates and lipids                                                          |
 | Anaerobic respiration | $\infty$           | $\mathrm{CO_2}$ is produced but no $\mathrm{O_2}$ is consumed                                          |
 
+</div>
+
 **Example calculation:** An organism consumes $240\ \mathrm{cm^3}$ of $\mathrm{O_2}$ and produces
 $192\ \mathrm{cm^3}$ of $\mathrm{CO_2}$.
 
-$$\mathrm{RQ} = \frac{192}{240} = 0.8$$
+$$
+\mathrm{RQ} = \frac{192}{240} = 0.8
+$$
 
 This indicates a mixture of carbohydrate and lipid (or protein) is being respired.
 
@@ -1421,6 +1611,8 @@ measured in $\mathrm{kJ\ day^{-1}}$ or $\mathrm{kW}$.
 
 Factors affecting BMR:
 
+<div class="table-wrap">
+
 | Factor                 | Effect                            | Explanation                                                                                                    |
 | ---------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Body mass              | Positive correlation              | Larger animals have more metabolically active tissue; BMR $\propto \text{mass}^{0.75}$ (Kleiber's law)         |
@@ -1430,6 +1622,8 @@ Factors affecting BMR:
 | Body temperature       | Positive correlation (Q10 effect) | Higher temperature increases enzyme activity; BMR increases by approximately 10--13% per degree C above normal |
 | Diet                   | Can increase BMR                  | Protein has the highest thermic effect (20--30% of energy used in digestion)                                   |
 | Pregnancy              | Increases BMR                     | Foetal growth; increased maternal tissue metabolism                                                            |
+
+</div>
 
 ### 21.3 Measuring Metabolic Rate
 
@@ -1453,12 +1647,16 @@ Factors affecting BMR:
 
 ### 22.1 Energy Systems During Exercise
 
+<div class="table-wrap">
+
 | Exercise Intensity           | Dominant Energy System            | Fuel                                              | Duration                |
 | ---------------------------- | --------------------------------- | ------------------------------------------------- | ----------------------- |
 | Rest / low intensity         | Aerobic respiration               | Mainly fatty acids (and some glucose)             | Hours                   |
 | Moderate intensity           | Aerobic respiration               | Mainly glucose (from glycogen and blood glucose)  | 30 min -- 2 hours       |
 | High intensity (short burst) | Anaerobic glycolysis + PCr system | Glucose; phosphocreatine                          | 10 seconds -- 3 minutes |
 | Maximal intensity (sprint)   | Phosphocreatine (PCr) system      | PCr (stores phosphate for rapid ATP regeneration) | 0--10 seconds           |
+
+</div>
 
 ### 22.2 The Oxygen Debt and EPOC
 
@@ -1480,6 +1678,8 @@ post-exercise oxygen consumption, EPOC**).
 
 ### 22.3 Training Adaptations
 
+<div class="table-wrap">
+
 | Adaptation                          | Effect                                              | Mechanism                                                              |
 | ----------------------------------- | --------------------------------------------------- | ---------------------------------------------------------------------- |
 | Increased cardiac output            | More $\mathrm{O_2}$ delivered to muscles per minute | Increased stroke volume (heart hypertrophy)                            |
@@ -1489,9 +1689,13 @@ post-exercise oxygen consumption, EPOC**).
 | Increased glycogen storage          | More fuel available for glycolysis                  | Training increases glycogen synthase activity                          |
 | Increased oxidative enzyme activity | Faster Krebs cycle and ETC                          | Upregulation of enzymes (e.g., citrate synthase, cytochrome c oxidase) |
 
+</div>
+
 ## 23. Respiration Inhibitors and Poisons
 
 ### 23.1 Inhibitors of the Electron Transport Chain
+
+<div class="table-wrap">
 
 | Inhibitor                 | Target                            | Effect                                                                                                                                                                                        | Source                                                                                 |
 | ------------------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
@@ -1501,6 +1705,8 @@ post-exercise oxygen consumption, EPOC**).
 | Antimycin A               | Complex III (cytochrome bc1)      | Blocks electron transfer from ubiquinone to cytochrome c                                                                                                                                      | Fungal antibiotic                                                                      |
 | Oligomycin                | ATP synthase (Complex V)          | Blocks the proton channel in ATP synthase, preventing ATP synthesis                                                                                                                           | Antibiotic                                                                             |
 | DNP (2,4-dinitrophenol)   | Uncouples ETC from ATP synthesis  | Carries protons across the inner mitochondrial membrane, dissipating the proton gradient as heat. ETC continues (even faster than normal) but no ATP is produced. Energy is released as heat. | Historically used as a weight-loss drug (dangerous: hyperthermia, death)               |
+
+</div>
 :::
 
 :::caution
@@ -1514,6 +1720,8 @@ flow, while uncouplers dissipate the proton gradient.
 
 If cyanide is added to a suspension of mitochondria respiring on pyruvate:
 
+<div class="table-wrap">
+
 | Parameter                  | Before cyanide                | After cyanide                                                                                             |
 | -------------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------- |
 | $\mathrm{O_2}$ consumption | Normal                        | Drops to zero (electrons cannot reach $\mathrm{O_2}$)                                                     |
@@ -1522,9 +1730,13 @@ If cyanide is added to a suspension of mitochondria respiring on pyruvate:
 | $\mathrm{CO_2}$ production | Normal                        | Initially continues (Krebs cycle continues briefly), then stops (NAD$^+$ is depleted as NADH accumulates) |
 | Heat production            | Normal (some heat from ETC)   | Decreases (ETC stops)                                                                                     |
 
+</div>
+
 ### 23.3 Effect of DNP on Respiration
 
 If DNP is added to a suspension of mitochondria:
+
+<div class="table-wrap">
 
 | Parameter                  | Before DNP | After DNP                                                                                          |
 | -------------------------- | ---------- | -------------------------------------------------------------------------------------------------- |
@@ -1534,9 +1746,13 @@ If DNP is added to a suspension of mitochondria:
 | Heat production            | Normal     | Increases dramatically (energy from ETC released as heat)                                          |
 | $\mathrm{CO_2}$ production | Normal     | Increases (Krebs cycle runs faster to supply NADH and $\mathrm{FADH_2}$ to the faster-running ETC) |
 
+</div>
+
 ## 24. Mitochondrial Structure and Respiration Efficiency
 
 ### 24.1 Mitochondrial Anatomy
+
+<div class="table-wrap">
 
 | Structure           | Description                                                           | Function                                                                                                                        |
 | ------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -1544,6 +1760,8 @@ If DNP is added to a suspension of mitochondria:
 | Intermembrane space | Between outer and inner membranes                                     | Site of proton accumulation; similar ionic composition to cytosol                                                               |
 | Inner membrane      | Highly folded (cristae); impermeable to most ions and small molecules | Site of the electron transport chain, ATP synthase, and transport proteins; cristae increase surface area                       |
 | Matrix              | Interior of the mitochondrion                                         | Site of the link reaction, Krebs cycle, and fatty acid oxidation; contains mitochondrial DNA (circular), 70S ribosomes, enzymes |
+
+</div>
 
 ### 24.2 Adaptations of Mitochondria to Their Function
 
@@ -1573,11 +1791,15 @@ engulfed by a larger host cell (endosymbiotic theory). Evidence:
 Mutations in mitochondrial DNA (mtDNA) cause a range of diseases because mitochondria are essential
 for ATP production in all tissues:
 
+<div class="table-wrap">
+
 | Disease                                                                        | Mutation                                                   | Symptoms                                        |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------- | ----------------------------------------------- |
 | Leber's hereditary optic neuropathy (LHON)                                     | Point mutations in mtDNA genes encoding Complex I subunits | Sudden loss of central vision in young adults   |
 | MELAS (mitochondrial encephalomyopathy, lactic acidosis, stroke-like episodes) | Point mutation in tRNA-Leu gene                            | Stroke-like episodes, muscle weakness, seizures |
 | MERRF (myoclonic epilepsy with ragged-red fibres)                              | Point mutation in tRNA-Lys gene                            | Epilepsy, muscle weakness, deafness, ataxia     |
+
+</div>
 
 Because mtDNA is maternally inherited, all children of an affected mother will inherit the mutation,
 but no children of an affected father will. The severity of mitochondrial diseases depends on
@@ -1589,7 +1811,9 @@ but no children of an affected father will. The severity of mitochondrial diseas
 
 Location: mitochondrial matrix.
 
-$$\text{Pyruvate (3C)} + \mathrm{NAD^+} + \text{CoA} \to \text{acetyl CoA (2C)} + \mathrm{CO_2} + \mathrm{NADH}$$
+$$
+\text{Pyruvate (3C)} + \mathrm{NAD^+} + \text{CoA} \to \text{acetyl CoA (2C)} + \mathrm{CO_2} + \mathrm{NADH}
+$$
 
 For each glucose molecule, the link reaction occurs twice (one for each pyruvate).
 
@@ -1598,25 +1822,31 @@ Key points:
 - Pyruvate is decarboxylated (1 carbon removed as $\mathrm{CO_2}$).
 - Pyruvate is dehydrogenated ($\mathrm{NAD^+}$ reduced to $\mathrm{NADH}$).
 - The remaining 2-carbon fragment is attached to coenzyme A (CoA-SH) to form acetyl CoA.
-- The enzyme complex is pyruvate dehydrogenase; it requires 5 coenzymes: $\mathrm{NAD^+}$FAD, CoA,
+- The enzyme complex is pyruvate dehydrogenase; it requires 5 coenzymes: $\mathrm{NAD^+}$ FAD, CoA,
   thiamine pyrophosphate (TPP, derived from vitamin $\mathrm{B_1}$), and lipoic acid.
 
 ### 25.2 The Krebs Cycle (Citric Acid Cycle): Step-by-Step
 
 Location: mitochondrial matrix.
 
+<div class="table-wrap">
+
 | Step | Reaction                                               | Products                                         |
 | ---- | ------------------------------------------------------ | ------------------------------------------------ |
 | 1    | Acetyl CoA (2C) + oxaloacetate (4C) $\to$ citrate (6C) | CoA released                                     |
 | 2    | Citrate $\to$ isocitrate (6C)                          | (isomerisation)                                  |
 | 3    | Isocitrate $\to$ $\alpha$-ketoglutarate (5C)           | $\mathrm{NADH}$, $\mathrm{CO_2}$                 |
-| 4    | $\alpha$-Ketoglutarate (5C) $\to$ succinyl CoA (4C)    | $\mathrm{NADH}$, $\mathrm{CO_2}$CoA              |
+| 4    | $\alpha$-Ketoglutarate (5C) $\to$ succinyl CoA (4C)    | $\mathrm{NADH}$, $\mathrm{CO_2}$ CoA              |
 | 5    | Succinyl CoA $\to$ succinate (4C)                      | ATP (or GTP) via substrate-level phosphorylation |
 | 6    | Succinate $\to$ fumarate (4C)                          | $\mathrm{FADH_2}$                                |
 | 7    | Fumarate $\to$ malate (4C)                             | $\mathrm{H_2O}$ added                            |
 | 8    | Malate $\to$ oxaloacetate (4C)                         | $\mathrm{NADH}$                                  |
 
+</div>
+
 **Per glucose (two turns of the cycle):**
+
+<div class="table-wrap">
 
 | Product           | Per Turn | Per Glucose |
 | ----------------- | -------- | ----------- |
@@ -1625,7 +1855,11 @@ Location: mitochondrial matrix.
 | $\mathrm{FADH_2}$ | 1        | 2           |
 | ATP               | 1        | 2           |
 
+</div>
+
 ### 25.3 Coenzymes in Respiration
+
+<div class="table-wrap">
 
 | Coenzyme              | Full Name                                   | Function                                                                                                    | Vitamin Precursor                 |
 | --------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------- |
@@ -1635,13 +1869,17 @@ Location: mitochondrial matrix.
 | NADP$^+$/NADPH        | Nicotinamide adenine dinucleotide phosphate | Electron carrier in photosynthesis (light reactions); used in biosynthetic reactions (fatty acid synthesis) | Niacin ($\mathrm{B_3}$)           |
 | TPP                   | Thiamine pyrophosphate                      | Coenzyme for pyruvate dehydrogenase and transketolase                                                       | Thiamine ($\mathrm{B_1}$)         |
 
+</div>
+
 ## 26. Anaerobic Respiration: Detailed Comparison
 
 ### 26.1 Anaerobic Respiration in Yeast (Fermentation)
 
 Yeast carries out alcoholic fermentation in the absence of $\mathrm{O_2}$:
 
-$$\text{Glucose} \to 2\text{ pyruvate} \to 2\text{ ethanol} + 2\mathrm{CO_2} + 2\text{ ATP}$$
+$$
+\text{Glucose} \to 2\text{ pyruvate} \to 2\text{ ethanol} + 2\mathrm{CO_2} + 2\text{ ATP}
+$$
 
 Steps:
 
@@ -1660,7 +1898,9 @@ biofuel production (bioethanol).
 
 Mammalian muscle cells carry out lactate fermentation during intense exercise:
 
-$$\text{Glucose} \to 2\text{ pyruvate} \to 2\text{ lactate} + 2\text{ ATP}$$
+$$
+\text{Glucose} \to 2\text{ pyruvate} \to 2\text{ lactate} + 2\text{ ATP}
+$$
 
 Steps:
 
@@ -1673,6 +1913,8 @@ cycle.
 
 ### 26.3 Comparison of Aerobic and Anaerobic Respiration
 
+<div class="table-wrap">
+
 | Feature                  | Aerobic Respiration                    | Anaerobic Respiration                                                |
 | ------------------------ | -------------------------------------- | -------------------------------------------------------------------- |
 | $\mathrm{O_2}$ required? | Yes                                    | No                                                                   |
@@ -1683,6 +1925,8 @@ cycle.
 | Speed                    | Slower (requires ETC and many steps)   | Faster (glycolysis only)                                             |
 | Duration                 | Sustained                              | Short-term (limited by lactate accumulation and substrate depletion) |
 
+</div>
+
 ## 27. Glycolysis: Detailed Step-by-Step
 
 ### 27.1 The Two Phases of Glycolysis
@@ -1690,6 +1934,8 @@ cycle.
 Glycolysis occurs in the cytoplasm and does not require $\mathrm{O_2}$. It consists of two phases:
 
 **Phase 1: Energy investment (uses 2 ATP)**
+
+<div class="table-wrap">
 
 | Step               | Reaction                                                         | Enzyme                    | Key Points                                                                                                                                                                |
 | ------------------ | ---------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1699,7 +1945,11 @@ Glycolysis occurs in the cytoplasm and does not require $\mathrm{O_2}$. It consi
 | 4                  | Fructose-1,6-bisphosphate $\to$ 2 $\times$ triose phosphate (3C) | Aldolase                  | Hexose is split into two triose phosphates: dihydroxyacetone phosphate (DHAP) and glyceraldehyde-3-phosphate (G3P); DHAP is converted to G3P (triose phosphate isomerase) |
 | **Total ATP used** | **2 ATP** (per glucose; 1 per triose phosphate)                  |                           |                                                                                                                                                                           |
 
+</div>
+
 **Phase 2: Energy payoff (produces 4 ATP + 2 NADH)**
+
+<div class="table-wrap">
 
 | Step                   | Reaction                                                                                            | Enzyme                         | Key Points                                                                     |
 | ---------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------ |
@@ -1710,11 +1960,15 @@ Glycolysis occurs in the cytoplasm and does not require $\mathrm{O_2}$. It consi
 | 9                      | PEP + ADP $\to$ pyruvate (3C) + ATP                                                                 | Pyruvate kinase                | Substrate-level phosphorylation; produces 2 ATP per glucose; irreversible step |
 | **Total ATP produced** | **4 ATP** (per glucose; 2 per triose phosphate)                                                     |                                |                                                                                |
 
+</div>
+
 **Net ATP yield from glycolysis: 4 - 2 = 2 ATP per glucose.**
 
 ### 27.2 Regulation of Glycolysis
 
 The three irreversible steps (1, 3, and 9) are the regulatory points:
+
+<div class="table-wrap">
 
 | Enzyme                       | Regulator                                                                                    | Effect                                                                      |
 | ---------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -1722,9 +1976,13 @@ The three irreversible steps (1, 3, and 9) are the regulatory points:
 | Phosphofructokinase (step 3) | Inhibited by ATP, citrate; stimulated by AMP, ADP, fructose-2,6-bisphosphate                 | Key regulatory enzyme; ensures glycolysis only runs when ATP is needed      |
 | Pyruvate kinase (step 9)     | Inhibited by ATP, alanine; stimulated by fructose-1,6-bisphosphate (feed-forward activation) | Ensures glycolysis products are only produced when energy is needed         |
 
+</div>
+
 ## 28. Oxidative Phosphorylation: Detailed Electron Transport Chain
 
 ### 28.1 Complexes and Carriers
+
+<div class="table-wrap">
 
 | Complex/Carrier                      | Composition                                                     | Function                                                                          | Protons Pumped        |
 | ------------------------------------ | --------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------- |
@@ -1735,6 +1993,8 @@ The three irreversible steps (1, 3, and 9) are the regulatory points:
 | Cytochrome $c$                       | Small soluble protein (mobile in intermembrane space)           | Carries electrons from Complex III to Complex IV                                  | 0                     |
 | Complex IV (cytochrome c oxidase)    | 14 subunits; contains cytochromes $a$ and $a_3$ And Cu ions      | Accepts electrons from cytochrome $c$; reduces $\mathrm{O_2}$ to $\mathrm{H_2O}$  | 2                     |
 | ATP synthase (Complex V)             | F$_0$ (membrane-embedded) + F$_1$ (matrix side)                 | Uses proton gradient to phosphorylate ADP to ATP                                  | 0 (utilises gradient) |
+
+</div>
 
 ### 28.2 Proton Motive Force and ATP Yield
 
@@ -1753,12 +2013,16 @@ synthesis + 1 $\mathrm{H^+}$ for phosphate transport).
 
 ### 28.3 Total ATP Yield per Glucose
 
+<div class="table-wrap">
+
 | Stage         | NADH                 | $\mathrm{FADH_2}$       | ATP (direct) | ATP from oxidative phosphorylation                      |
 | ------------- | -------------------- | ----------------------- | ------------ | ------------------------------------------------------- |
 | Glycolysis    | 2 NADH (cytoplasmic) | 0                       | 2            | $2 \times 1.5 = 3$ (shuttle cost) or $2 \times 2.5 = 5$ |
 | Link reaction | 2 NADH (matrix)      | 0                       | 0            | $2 \times 2.5 = 5$                                      |
 | Krebs cycle   | 6 NADH (matrix)      | 2 $\mathrm{FADH_2}$     | 2            | $(6 \times 2.5) + (2 \times 1.5) = 18$                  |
 | **Total**     | **10 NADH**          | **2 $\mathrm{FADH_2}$** | **4**        | **26--30**                                              |
+
+</div>
 
 **Total ATP yield: approximately 30--32 ATP per glucose** (depending on the shuttle used for
 cytoplasmic NADH).
@@ -1779,6 +2043,8 @@ Proteins ──→ Amino acids ──→ various entry points ──────
 
 ### 29.2 Key Metabolic Pathway Interconnections
 
+<div class="table-wrap">
+
 | Pathway           | Connects To                                  | Shared Intermediates                                                   |
 | ----------------- | -------------------------------------------- | ---------------------------------------------------------------------- |
 | Glycolysis        | Link reaction; fermentation; lipid synthesis | Pyruvate; G3P; DHAP                                                    |
@@ -1789,9 +2055,13 @@ Proteins ──→ Amino acids ──→ various entry points ──────
 | Calvin cycle      | Glycolysis (reverse, in plants)              | G3P; glucose                                                           |
 | Urea cycle        | Krebs cycle (fumarate)                       | Fumarate; aspartate; ornithine; citrulline                             |
 
+</div>
+
 ### 29.3 Metabolic Flexibility
 
 The body can switch between metabolic fuels depending on circumstances:
+
+<div class="table-wrap">
 
 | Condition                              | Primary Fuel                          | Why                                                                                                                                                  |
 | -------------------------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1801,6 +2071,8 @@ The body can switch between metabolic fuels depending on circumstances:
 | Fasting / starvation (first 1--3 days) | Glycogen (liver and muscle)           | Glycogen stores are rapidly depleted                                                                                                                 |
 | Prolonged fasting (> 3 days)           | Fatty acids + ketone bodies           | Liver converts fatty acids to ketone bodies (acetoacetate, $\beta$-hydroxybutyrate) which can cross the blood-brain barrier and be used by the brain |
 
+</div>
+
 ## 30. The Cori Cycle and Oxygen Debt
 
 ### 30.1 The Oxygen Debt
@@ -1808,7 +2080,9 @@ The body can switch between metabolic fuels depending on circumstances:
 During intense exercise, muscles may not receive enough $\mathrm{O_2}$ for aerobic respiration.
 Anaerobic respiration occurs:
 
-$$\text{Glucose} \to 2\ \text{lactate} + 2\ \text{ATP}$$
+$$
+\text{Glucose} \to 2\ \text{lactate} + 2\ \text{ATP}
+$$
 
 The oxygen debt is the amount of extra $\mathrm{O_2}$ required after exercise to:
 
@@ -1821,12 +2095,16 @@ The oxygen debt is the amount of extra $\mathrm{O_2}$ required after exercise to
 
 The Cori cycle describes the recycling of lactate between muscles and the liver:
 
+<div class="table-wrap">
+
 | Step | Location                 | Process                                                                                                 |
 | ---- | ------------------------ | ------------------------------------------------------------------------------------------------------- |
 | 1    | Muscle (during exercise) | Glucose $\to$ pyruvate $\to$ lactate (anaerobic respiration)                                            |
 | 2    | Blood                    | Lactate transported from muscles to liver via bloodstream                                               |
 | 3    | Liver (after exercise)   | Lactate $\to$ pyruvate (via LDH); pyruvate $\to$ glucose (via gluconeogenesis; costs 6 ATP per glucose) |
 | 4    | Blood                    | Glucose transported from liver back to muscles                                                          |
+
+</div>
 
 **Net ATP from the Cori cycle:**
 
@@ -1845,9 +2123,13 @@ dangerous lactate accumulation in the blood and recycles carbon skeletons.
 
 The respiratory quotient is the ratio of $\mathrm{CO_2}$ produced to $\mathrm{O_2}$ consumed:
 
-$$\mathrm{RQ} = \frac{\text{Volume of } \mathrm{CO_2} \text{ produced}}{\text{Volume of } \mathrm{O_2} \text{ consumed}}$$
+$$
+\mathrm{RQ} = \frac{\text{Volume of } \mathrm{CO_2} \text{ produced}}{\text{Volume of } \mathrm{O_2} \text{ consumed}}
+$$
 
 ### 31.2 RQ Values for Different Substrates
+
+<div class="table-wrap">
 
 | Substrate                         | Balanced Equation                                       | RQ                      | Explanation                                                                                                                                    |
 | --------------------------------- | ------------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1857,7 +2139,11 @@ $$\mathrm{RQ} = \frac{\text{Volume of } \mathrm{CO_2} \text{ produced}}{\text{Vo
 | Anaerobic respiration             | Glucose $\to$ 2 lactate + 2 ATP                         | $\infty$                | $\mathrm{CO_2}$ produced without $\mathrm{O_2}$ consumption (actually RQ is undefined; in practice, some $\mathrm{CO_2}$ comes from buffering) |
 | Succulent plants (CAM)            | Variable                                                | ~0 (dark) to ~1 (light) | Store $\mathrm{CO_2}$ as malic acid at night (no net gas exchange); release and fix $\mathrm{CO_2}$ during the day                             |
 
+</div>
+
 ### 31.3 Interpreting RQ
+
+<div class="table-wrap">
 
 | RQ Value      | Interpretation                                                                                                                 |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -1867,9 +2153,13 @@ $$\mathrm{RQ} = \frac{\text{Volume of } \mathrm{CO_2} \text{ produced}}{\text{Vo
 | RQ > 1.0      | Anaerobic respiration occurring; or the organism is synthesising fat from carbohydrate (lipogenesis)                           |
 | RQ < 0.7      | Possible error; or the organism is converting carbohydrate to fat (more $\mathrm{O_2}$ consumed than $\mathrm{CO_2}$ produced) |
 
+</div>
+
 ## 32. Poisons and Inhibitors of Respiration
 
 ### 32.1 Electron Transport Chain Inhibitors
+
+<div class="table-wrap">
 
 | Inhibitor               | Target                             | Effect                                                                                                                             | Source                                                                                            |
 | ----------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -1880,7 +2170,11 @@ $$\mathrm{RQ} = \frac{\text{Volume of } \mathrm{CO_2} \text{ produced}}{\text{Vo
 | Oligomycin              | ATP synthase (Complex V)           | Blocks the proton channel in ATP synthase; proton gradient builds up but no ATP is produced                                        | Antibiotic                                                                                        |
 | DNP (2,4-dinitrophenol) | Uncoupler (not a specific complex) | Carries protons across the inner mitochondrial membrane; dissipates the proton gradient; energy is released as heat instead of ATP | Industrial chemical;曾经 used as a weight-loss drug (dangerous)                                   |
 
+</div>
+
 ### 32.2 Comparison of Inhibitors
+
+<div class="table-wrap">
 
 | Inhibitor       | Does It Stop Electron Flow?                   | Does It Stop ATP Production? | What Happens to $\mathrm{O_2}$ Consumption?                              |
 | --------------- | --------------------------------------------- | ---------------------------- | ------------------------------------------------------------------------ |
@@ -1889,11 +2183,17 @@ $$\mathrm{RQ} = \frac{\text{Volume of } \mathrm{CO_2} \text{ produced}}{\text{Vo
 | Oligomycin      | No (electrons still flow; gradient builds up) | Yes                          | Initially decreases (gradient builds up and stops further electron flow) |
 | DNP (uncoupler) | No (electrons flow faster than normal)        | Yes (gradient is dissipated) | Increases (electrons flow faster; more $\mathrm{O_2}$ consumed)          |
 
+</div>
+
 ## 33. Anaerobic Respiration in Detail
 
 ### 33.1 Anaerobic Respiration in Yeast (Fermentation)
 
-$$\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{ethanol} + 2\ \mathrm{CO_2} + 2\ \text{ATP}$$
+$$
+\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{ethanol} + 2\ \mathrm{CO_2} + 2\ \text{ATP}
+$$
+
+<div class="table-wrap">
 
 | Step                        | Enzyme                          | What Happens                                                                                                        |
 | --------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -1901,16 +2201,26 @@ $$\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{ethanol} + 2\ \mathrm{CO_2}
 | Decarboxylation of pyruvate | Pyruvate decarboxylase          | Pyruvate $\to$ ethanal (acetaldehyde) + $\mathrm{CO_2}$; releases $\mathrm{CO_2}$ (important in brewing and baking) |
 | Reduction of ethanal        | Alcohol dehydrogenase           | Ethanal + NADH $\to$ ethanol + $\mathrm{NAD^+}$; regenerates $\mathrm{NAD^+}$ for glycolysis                        |
 
+</div>
+
 ### 33.2 Anaerobic Respiration in Mammalian Muscle
 
-$$\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{lactate} + 2\ \text{ATP}$$
+$$
+\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{lactate} + 2\ \text{ATP}
+$$
+
+<div class="table-wrap">
 
 | Step                  | Enzyme                      | What Happens                                                                   |
 | --------------------- | --------------------------- | ------------------------------------------------------------------------------ |
 | Glycolysis            | Various                     | Glucose $\to$ 2 pyruvate; 2 ATP and 2 NADH                                     |
 | Reduction of pyruvate | Lactate dehydrogenase (LDH) | Pyruvate + NADH $\to$ lactate + $\mathrm{NAD^+}$; regenerates $\mathrm{NAD^+}$ |
 
+</div>
+
 ### 33.3 Comparison: Aerobic vs Anaerobic Respiration
+
+<div class="table-wrap">
 
 | Feature                 | Aerobic                           | Anaerobic (yeast)                | Anaerobic (muscle)                |
 | ----------------------- | --------------------------------- | -------------------------------- | --------------------------------- |
@@ -1920,9 +2230,13 @@ $$\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{lactate} + 2\ \text{ATP}$$
 | Location                | Cytoplasm + mitochondria          | Cytoplasm only                   | Cytoplasm only                    |
 | NADH fate               | Oxidised in ETC (produces ATP)    | Oxidised in reduction of ethanal | Oxidised in reduction of pyruvate |
 
+</div>
+
 ## 34. Mitochondrial Structure and Function
 
 ### 34.1 Mitochondrial Components
+
+<div class="table-wrap">
 
 | Component           | Description                                                                                  | Function                                                                                                                                                                     |
 | ------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1932,10 +2246,14 @@ $$\text{Glucose} \to 2\ \text{pyruvate} \to 2\ \text{lactate} + 2\ \text{ATP}$$
 | Cristae             | Folds of the inner membrane                                                                  | Increase surface area for ETC and ATP synthase; more cristae = higher metabolic activity (e.g., in cardiac muscle cells)                                                     |
 | Matrix              | Fluid-filled interior of the mitochondrion                                                   | Site of the Krebs cycle (link reaction and Krebs cycle enzymes); contains mitochondrial DNA (circular, like prokaryotic DNA), ribosomes (70S, like prokaryotes), and enzymes |
 
+</div>
+
 ### 34.2 Evidence for the Endosymbiotic Theory
 
 The endosymbiotic theory proposes that mitochondria (and chloroplasts) were once free-living
 prokaryotes that were engulfed by a larger host cell:
+
+<div class="table-wrap">
 
 | Evidence               | Explanation                                                                                                                               |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1944,12 +2262,16 @@ prokaryotes that were engulfed by a larger host cell:
 | 70S ribosomes          | Mitochondrial ribosomes are 70S (prokaryotic size), not 80S (eukaryotic cytoplasmic size)                                                 |
 | Binary fission         | Mitochondria divide by binary fission, similar to prokaryotes                                                                             |
 | Antibiotic sensitivity | Antibiotics that inhibit prokaryotic protein synthesis (e.g., chloramphenicol, tetracycline) also inhibit mitochondrial protein synthesis |
-| Size                   | Similar in size to prokaryotes (1--10 $\mu$M)                                                                                             |
+| Size                   | Similar in size to prokaryotes (1--10 $\mu$ M)                                                                                             |
 | Genetic code           | Mitochondrial genetic code has slight differences from the nuclear genetic code (more similar to prokaryotes)                             |
+
+</div>
 
 ## 35. ATP: The Universal Energy Currency
 
 ### 35.1 Structure of ATP
+
+<div class="table-wrap">
 
 | Component              | Description                                                                              |
 | ---------------------- | ---------------------------------------------------------------------------------------- |
@@ -1957,9 +2279,15 @@ prokaryotes that were engulfed by a larger host cell:
 | Ribose                 | Pentose sugar                                                                            |
 | Three phosphate groups | $\alpha$-phosphate (closest to ribose), $\beta$-phosphate, $\gamma$-phosphate (terminal) |
 
+</div>
+
 ### 35.2 ATP Hydrolysis
 
-$$\mathrm{ATP + H_2O \to ADP + P_i + energy}$$
+$$
+\mathrm{ATP + H_2O \to ADP + P_i + energy}
+$$
+
+<div class="table-wrap">
 
 | Feature                  | Value                                                                                                        |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------ |
@@ -1967,7 +2295,11 @@ $$\mathrm{ATP + H_2O \to ADP + P_i + energy}$$
 | Bond broken              | Phosphoanhydride bond between $\gamma$- and $\beta$-phosphates                                               |
 | Reversible               | ADP can be rephosphorylated to ATP (during photosynthesis, respiration, and substrate-level phosphorylation) |
 
+</div>
+
 ### 35.3 Uses of ATP in Cells
+
+<div class="table-wrap">
 
 | Use                        | Example                                                                       |
 | -------------------------- | ----------------------------------------------------------------------------- |
@@ -1978,7 +2310,11 @@ $$\mathrm{ATP + H_2O \to ADP + P_i + energy}$$
 | Cell division              | Microtubule polymerisation (spindle fibres)                                   |
 | Luminescence               | ATP powers luciferase in fireflies and bioluminescent organisms               |
 
+</div>
+
 ### 35.4 Why ATP Is Suitable as an Energy Currency
+
+<div class="table-wrap">
 
 | Property                             | Benefit                                                                                                    |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
@@ -1988,9 +2324,13 @@ $$\mathrm{ATP + H_2O \to ADP + P_i + energy}$$
 | Rapid regeneration                   | ATP can be re-synthesised quickly from ADP (within seconds in muscle cells)                                |
 | Universal                            | All living organisms use ATP (suggests common ancestry)                                                    |
 
+</div>
+
 ## 36. Glycolysis Step-by-Step
 
 ### 36.1 The Four Stages
+
+<div class="table-wrap">
 
 | Stage                                  | Steps                                                                                                                    | ATP Used | ATP Produced | NADH Produced | Net ATP |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------- | ------------ | ------------- | ------- |
@@ -1999,9 +2339,13 @@ $$\mathrm{ATP + H_2O \to ADP + P_i + energy}$$
 | 3. Oxidation                           | Each G3P $\to$ 1,3-bisphosphoglycerate; NAD$^+$ is reduced to NADH                                                       | 0        | 0            | 2             | 0       |
 | 4. ATP production (energy payoff)      | 1,3-bisphosphoglycerate $\to$ 3-phosphoglycerate $\to$ 2-phosphoglycerate $\to$ phosphoenolpyruvate (PEP) $\to$ pyruvate | 0        | 4            | 0             | +4      |
 
+</div>
+
 **Total net ATP from glycolysis: 2 ATP + 2 NADH per glucose.**
 
 ### 36.2 Key Enzymes
+
+<div class="table-wrap">
 
 | Enzyme                    | Reaction                                                          | Significance                                                                                        |
 | ------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -2009,9 +2353,13 @@ $$\mathrm{ATP + H_2O \to ADP + P_i + energy}$$
 | Phosphofructokinase (PFK) | Fructose-6-phosphate $\to$ fructose-1,6-bisphosphate (uses 1 ATP) | Main regulatory enzyme of glycolysis; allosterically inhibited by ATP and citrate; activated by AMP |
 | Pyruvate kinase           | PEP $\to$ pyruvate (produces 1 ATP)                               | Irreversible step; final step of glycolysis; inhibited by ATP and alanine                           |
 
+</div>
+
 ## 37. The Link Reaction and Krebs Cycle in Detail
 
 ### 37.1 The Link Reaction (Pyruvate $\to$ Acetyl CoA)
+
+<div class="table-wrap">
 
 | Step | What Happens                                                                                                 |
 | ---- | ------------------------------------------------------------------------------------------------------------ |
@@ -2020,11 +2368,17 @@ $$\mathrm{ATP + H_2O \to ADP + P_i + energy}$$
 | 3    | The remaining 2C fragment is oxidised: NAD$^+$ is reduced to NADH                                            |
 | 4    | The oxidised 2C fragment combines with coenzyme A (CoA) to form acetyl CoA                                   |
 
-$$\text{Pyruvate (3C)} + \text{CoA} + \text{NAD}^+ \to \text{Acetyl CoA (2C)} + \mathrm{CO_2} + \text{NADH}$$
+</div>
+
+$$
+\text{Pyruvate (3C)} + \text{CoA} + \text{NAD}^+ \to \text{Acetyl CoA (2C)} + \mathrm{CO_2} + \text{NADH}
+$$
 
 Enzyme: **Pyruvate dehydrogenase** (a large multi-enzyme complex).
 
 ### 37.2 The Krebs Cycle (per turn, per acetyl CoA)
+
+<div class="table-wrap">
 
 | Step | What Happens                                                                                                     | Products                                               |
 | ---- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
@@ -2037,7 +2391,11 @@ Enzyme: **Pyruvate dehydrogenase** (a large multi-enzyme complex).
 | 7    | Fumarate is hydrated to malate; $\mathrm{H_2O}$ is added                                                         | Malate (4C)                                            |
 | 8    | Malate is oxidised to oxaloacetate; NAD$^+$ reduced to NADH                                                      | Oxaloacetate (4C); 1 NADH                              |
 
+</div>
+
 ### 37.3 Krebs Cycle Totals (per glucose = 2 turns)
+
+<div class="table-wrap">
 
 | Product           | Per Turn | Per Glucose (2 turns) |
 | ----------------- | -------- | --------------------- |
@@ -2046,9 +2404,13 @@ Enzyme: **Pyruvate dehydrogenase** (a large multi-enzyme complex).
 | $\mathrm{FADH_2}$ | 1        | 2                     |
 | ATP (via GTP)     | 1        | 2                     |
 
+</div>
+
 ## 38. Metabolic Integration: Where Pathways Meet
 
 ### 38.1 Key Metabolic Intermediates
+
+<div class="table-wrap">
 
 | Intermediate        | Pathways That Feed Into It                                                           | Pathways It Can Feed Into                                                               |
 | ------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
@@ -2059,7 +2421,11 @@ Enzyme: **Pyruvate dehydrogenase** (a large multi-enzyme complex).
 | Glycerol            | Triglyceride breakdown (lipolysis)                                                   | Gluconeogenesis (converted to glyceraldehyde-3-phosphate)                               |
 | Amino acids         | Protein catabolism (proteolysis)                                                     | Transamination (forming new amino acids); Krebs cycle intermediates (after deamination) |
 
+</div>
+
 ### 38.2 Energy Yield Summary (per glucose molecule)
+
+<div class="table-wrap">
 
 | Stage         | ATP Produced            | NADH Produced | $\mathrm{FADH_2}$ Produced |
 | ------------- | ----------------------- | ------------- | -------------------------- |
@@ -2067,6 +2433,8 @@ Enzyme: **Pyruvate dehydrogenase** (a large multi-enzyme complex).
 | Link reaction | 0                       | 2             | 0                          |
 | Krebs cycle   | 2                       | 6             | 2                          |
 | **Totals**    | **4 (substrate-level)** | **10**        | **2**                      |
+
+</div>
 
 **ATP from oxidative phosphorylation:**
 
@@ -2080,19 +2448,27 @@ Enzyme: **Pyruvate dehydrogenase** (a large multi-enzyme complex).
 
 ### 39.1 Reciprocal Relationship
 
+<div class="table-wrap">
+
 | Process        | Reactants                               | Products                       |
 | -------------- | --------------------------------------- | ------------------------------ |
 | Photosynthesis | $\mathrm{CO_2 + H_2O}$ (+ light energy) | $\mathrm{C_6H_{12}O_6 + O_2}$  |
 | Respiration    | $\mathrm{C_6H_{12}O_6 + O_2}$           | $\mathrm{CO_2 + H_2O}$ (+ ATP) |
 
+</div>
+
 The products of one process are the reactants of the other. This is a cyclical relationship.
 
 ### 39.2 Balance of Gases
+
+<div class="table-wrap">
 
 | Location | Day (Photosynthesis > Respiration)                          | Night (Respiration > Photosynthesis)                        |
 | -------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
 | Forest   | Net $\mathrm{O_2}$ producer; net $\mathrm{CO_2}$ absorber   | Net $\mathrm{CO_2}$ producer                                |
 | Ocean    | Phytoplankton photosynthesise; net $\mathrm{CO_2}$ absorber | Net $\mathrm{CO_2}$ producer (respiration by all organisms) |
+
+</div>
 
 ### 39.3 Impact on Global Carbon Cycle
 
@@ -2106,6 +2482,8 @@ The products of one process are the reactants of the other. This is a cyclical r
 
 ### 40.1 The Four Protein Complexes
 
+<div class="table-wrap">
+
 | Complex                              | Location in Inner Membrane | Function                                                                                                                   | Protons Pumped (per NADH) | Protons Pumped (per $\mathrm{FADH_2}$) |
 | ------------------------------------ | -------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------- | -------------------------------------- |
 | Complex I (NADH dehydrogenase)       | Matrix side                | Accepts electrons from NADH; passes them to ubiquinone (coenzyme Q); pumps 4 protons                                       | 4                         | 0                                      |
@@ -2114,13 +2492,19 @@ The products of one process are the reactants of the other. This is a cyclical r
 | Complex IV (cytochrome c oxidase)    | Intermembrane side         | Accepts electrons from cytochrome c; reduces $\mathrm{O_2}$ to $\mathrm{H_2O}$; pumps 2 protons                            | 2                         | 2                                      |
 | ATP synthase (Complex V)             | Intermembrane side         | Protons flow back through ATP synthase; the energy released drives rotation of the $\gamma$ subunit; ADP + $P_i$ $\to$ ATP | 0                         | 0 (but receives the proton gradient)   |
 
+</div>
+
 ### 40.2 Total ATP from Oxidative Phosphorylation
+
+<div class="table-wrap">
 
 | Source                               | Electrons Enter Via | Complexes Used        | Protons Pumped | ATP Produced         |
 | ------------------------------------ | ------------------- | --------------------- | -------------- | -------------------- |
 | NADH (from glycolysis)               | Complex I           | I $\to$ III $\to$ IV  | 4 + 4 + 2 = 10 | $10 \times 2.5 = 25$ |
 | NADH (from Krebs cycle)              | Complex I           | I $\to$ III $\to$ IV  | 4 + 4 + 2 = 10 | $10 \times 2.5 = 25$ |
 | $\mathrm{FADH_2}$ (from Krebs cycle) | Complex II          | II $\to$ III $\to$ IV | 4 + 2 = 6      | $6 \times 1.5 = 9$   |
+
+</div>
 
 **Total ATP from oxidative phosphorylation:**
 
@@ -2137,15 +2521,23 @@ molecule (6 vs 10). Always use 2.5 ATP per NADH and 1.5 ATP per $\mathrm{FADH_2}
 
 ### 43.1 Comparison of Respiratory Substrates
 
+<div class="table-wrap">
+
 | Substrate              | Energy Content (kJ g$^{-1}$) | RQ   | Notes                                                                                                                    |
 | ---------------------- | ---------------------------- | ---- | ------------------------------------------------------------------------------------------------------------------------ |
 | Carbohydrate (glucose) | 15.8                         | 1.0  | Most common respiratory substrate; fully oxidised to $\mathrm{CO_2}$ and $\mathrm{H_2O}$                                 |
 | Lipid (triglyceride)   | 39.4                         | ~0.7 | Highest energy content per gram; most $\mathrm{H}$ atoms per C atom; requires more $\mathrm{O_2}$ for complete oxidation |
 | Protein                | 17.0                         | ~0.8 | Rarely used as a respiratory substrate; amino acids must be deaminated first (producing toxic ammonia)                   |
 
+</div>
+
 ### 43.2 Calculating RQ
 
-$$\mathrm{RQ} = \frac{\text{Volume of }\mathrm{CO_2}\text{ produced}}{\text{Volume of }\mathrm{O_2}\text{ consumed}}$$
+$$
+\mathrm{RQ} = \frac{\text{Volume of }\mathrm{CO_2}\text{ produced}}{\text{Volume of }\mathrm{O_2}\text{ consumed}}
+$$
+
+<div class="table-wrap">
 
 | Substrate                    | Equation                                               | RQ Calculation       |
 | ---------------------------- | ------------------------------------------------------ | -------------------- |
@@ -2153,9 +2545,13 @@ $$\mathrm{RQ} = \frac{\text{Volume of }\mathrm{CO_2}\text{ produced}}{\text{Volu
 | Palmitic acid (lipid)        | $\mathrm{C_{16}H_{32}O_2 + 23O_2 \to 16CO_2 + 16H_2O}$ | $16/23 \approx 0.70$ |
 | Protein (average amino acid) | --                                                     | ~0.8                 |
 
+</div>
+
 ## 44. Poisons and Their Effects on Respiration
 
 ### 44.1 Metabolic Poisons
+
+<div class="table-wrap">
 
 | Poison                  | Target                                                | Effect on Respiration                                                                                                                                                                                                                                                       |
 | ----------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2164,6 +2560,8 @@ $$\mathrm{RQ} = \frac{\text{Volume of }\mathrm{CO_2}\text{ produced}}{\text{Volu
 | Oligomycin              | Inhibits ATP synthase                                 | Protons cannot flow back through ATP synthase; proton gradient builds up but ATP is not produced                                                                                                                                                                            |
 | DNP (2,4-dinitrophenol) | Uncouples oxidative phosphorylation from the ETC      | Makes the inner mitochondrial membrane permeable to protons; protons leak back without passing through ATP synthase; energy is released as heat instead of being used to make ATP; dangerous because respiration rate increases to compensate but no additional ATP is made |
 | Rotenone                | Inhibits Complex I                                    | Blocks electron flow from NADH to ubiquinone; $\mathrm{FADH_2}$ can still donate electrons at Complex II (partial respiration continues)                                                                                                                                    |
+
+</div>
 
 ## 45. The Cori Cycle
 
@@ -2174,6 +2572,8 @@ is transported to the liver, converted back to glucose, and returned to the musc
 
 ### 45.2 Steps
 
+<div class="table-wrap">
+
 | Step | Location                         | Process                                                                                                                                      |
 | ---- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1    | Muscle (during intense exercise) | Glucose is broken down by glycolysis to pyruvate; pyruvate is converted to lactate (regenerates $\mathrm{NAD^+}$ so glycolysis can continue) |
@@ -2181,7 +2581,11 @@ is transported to the liver, converted back to glucose, and returned to the musc
 | 3    | Liver                            | Lactate is converted back to pyruvate (by lactate dehydrogenase); pyruvate is converted to glucose by gluconeogenesis (uses ATP)             |
 | 4    | Blood                            | Glucose is released from the liver into the blood and transported back to the muscles                                                        |
 
+</div>
+
 ### 45.3 Significance
+
+<div class="table-wrap">
 
 | Point          | Description                                                                                                                                                                                                     |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2189,9 +2593,13 @@ is transported to the liver, converted back to glucose, and returned to the musc
 | Net cost       | The liver uses ATP to convert lactate back to glucose (gluconeogenesis costs 6 ATP per glucose); the overall process has a net cost of 4 ATP per glucose molecule recycled                                      |
 | Oxygen debt    | The oxygen debt after exercise is the extra $\mathrm{O_2}$ required to: (a) oxidise the remaining lactate to pyruvate, (b) regenerate ATP and creatine phosphate stores, (c) resynthesise glycogen from lactate |
 
+</div>
+
 ## 46. Mitochondrial Structure and Function
 
 ### 46.1 Structure
+
+<div class="table-wrap">
 
 | Feature             | Description                                                                                                                                                                                           |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2200,7 +2608,11 @@ is transported to the liver, converted back to glucose, and returned to the musc
 | Inner membrane      | Highly folded into cristae (increases surface area); impermeable to ions (requires specific transport proteins); site of the electron transport chain and ATP synthase                                |
 | Matrix              | The interior of the mitochondrion; contains enzymes for the Krebs cycle, link reaction, and fatty acid oxidation; contains mitochondrial DNA (circular, like prokaryotic DNA); contains 70S ribosomes |
 
+</div>
+
 ### 46.2 The Endosymbiotic Theory
+
+<div class="table-wrap">
 
 | Evidence               | Description                                                                                                                    |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -2210,6 +2622,8 @@ is transported to the liver, converted back to glucose, and returned to the musc
 | 70S ribosomes          | Mitochondrial ribosomes are 70S (same size as bacterial ribosomes), not 80S (eukaryotic cytoplasmic ribosomes)                 |
 | Antibiotic sensitivity | Mitochondrial protein synthesis is inhibited by antibiotics that target bacteria (e.g., chloramphenicol, streptomycin)         |
 | Phylogenetic evidence  | Molecular sequencing suggests mitochondria are most closely related to alpha-proteobacteria                                    |
+
+</div>
 
 ---
 
@@ -2251,7 +2665,9 @@ producing 7 $\mathrm{FADH_2}$, 7 NADH, and 8 acetyl CoA.
 - 8 acetyl CoA through Krebs cycle: $8 \times 10 = 80$ ATP (24 NADH, 8 $\mathrm{FADH_2}$, 8 GTP)
 - Activation cost: $-2$ ATP
 
-$$\text{Total} = 10.5 + 17.5 + 80 - 2 = 106\ \mathrm{ATP}$$
+$$
+\text{Total} = 10.5 + 17.5 + 80 - 2 = 106\ \mathrm{ATP}
+$$
 
 $\blacksquare$
 
@@ -2265,19 +2681,11 @@ in $\mathrm{cm^3\ min^{-1}}$.
 
 Volume: $V = 0.785 \times 24 = 18.84\ \mathrm{mm^3} = 0.01884\ \mathrm{cm^3}$.
 
-$$\text{Rate} = \frac{0.01884}{15} = 0.00126\ \mathrm{cm^3\ min^{-1}}$$
+$$
+\text{Rate} = \frac{0.01884}{15} = 0.00126\ \mathrm{cm^3\ min^{-1}}
+$$
 
 $\blacksquare$
-
-```mermaid
-flowchart TD
-    A[Respiration Depth] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

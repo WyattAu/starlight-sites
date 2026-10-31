@@ -16,7 +16,7 @@ Address back to a specific line of C++ source code, variable name, or stack fram
 Requires **Debug Symbols**.
 
 This module analyzes the architecture of symbol formats, the mechanics of mapping source paths, and
-The procedures for attaching debuggers to active processes.
+the procedures for attaching debuggers to active processes.
 
 ## Debug Information Architecture
 
@@ -48,12 +48,16 @@ Granularity of source-level mapping.
 
 ### GCC/Clang Debug Levels
 
+<div class="table-wrap">
+
 | Flag  | Description                                                                                              | Binary Size Impact |
 | :---- | :------------------------------------------------------------------------------------------------------- | :----------------- |
 | `-g0` | No debug information (default for release).                                                              | None               |
 | `-g1` | Minimal: line numbers and source file names only. No local variable information.                         | Small              |
 | `-g2` | Standard (same as `-g`): Full debug info including local variables, function signatures, types.          | Moderate           |
 | `-g3` | Maximum: Includes macro definitions and expanded macro locations. Useful for debugging macro-heavy code. | Large              |
+
+</div>
 
 ```bash
 ## Compile with maximum debug info including macros
@@ -65,11 +69,15 @@ readelf -S app | grep debug
 
 ### MSVC Debug Levels
 
+<div class="table-wrap">
+
 | Flag  | Description                                                                      |
 | :---- | :------------------------------------------------------------------------------- |
 | `/Z7` | Old-style: Embeds debug info in each .obj file.                                  |
 | `/Zi` | Program Database: Generates a separate .pdb file.                                |
 | `/ZI` | Edit and Continue: PDB with additional metadata for hot-reload during debugging. |
+
+</div>
 
 `/Zi` is the standard for production builds. `/ZI` is useful during development in Visual Studio but
 Produces slightly larger PDBs and may inhibit some optimizations.
@@ -77,7 +85,7 @@ Produces slightly larger PDBs and may inhibit some optimizations.
 ## 1. LLDB (The LLVM Debugger)
 
 LLDB is the default debugger for macOS (Xcode) and the preferred modern debugger for Linux/Android
-When using Clang. It uses a Clang frontend for expression evaluation, allowing it to understand
+when using Clang. It uses a Clang frontend for expression evaluation, allowing it to understand
 Modern C++ syntax perfectly.
 
 ### Compilation Requirements
@@ -119,7 +127,7 @@ Symbols if they were split.
 
 ### Source Mapping
 
-A common issue in CI/CD builds is that the binary was built in `/build/workspace/src`But the Source
+A common issue in CI/CD builds is that the binary was built in `/build/workspace/src`. But the Source
 code on your local machine is in `/Users/dev/src`. The debugger cannot find the source files.
 
 **Solution:** Map the build-time path to the run-time path.
@@ -554,13 +562,13 @@ File (`.debug` / `.dSYM` / `.pdb`) alongside the binary or on a symbol server.
 ### 2. Source Path Mismatch in CI Builds
 
 CI builds produce binaries with source paths like `/__w/repo/repo/src/main.cpp`. Your local machine
-Has `/home/user/project/src/main.cpp`. The debugger cannot find the source. Always configure source
+has `/home/user/project/src/main.cpp`. The debugger cannot find the source. Always configure source
 Mapping (`target.source-map` in LLDB, `directory` command in GDB).
 
 ### 3. Mismatched PDB and Binary
 
 On Windows, the PDB is matched to the binary via a GUID embedded in both. If you rebuild the binary
-But the PDB is stale (from a previous build), the debugger will refuse to load the PDB or load
+but the PDB is stale (from a previous build), the debugger will refuse to load the PDB or load
 Incorrect symbols. Always rebuild both together.
 
 ### 4. `-O0` Performance Artifacts
@@ -575,17 +583,6 @@ Debugging.
 If you see `??` in backtraces instead of function names, the binary may be missing `.eh_frame` or
 `.debug_frame` sections. This happens when linking with `-Wl,--strip-all` which removes unwind info.
 Use `--strip-debug` instead, which preserves unwind tables.
-
-
-```mermaid
-flowchart TD
-    A[2_Debuggerx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -604,9 +601,6 @@ Using specific case studies and data to support arguments is essential for achie
 marks in geography assessments.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

@@ -531,7 +531,7 @@ go test -tags=integration ./...
 
 ## Intuition
 
-**Project layout is a city plan, not a prison:** Go's project conventions (`cmd/``internal/``pkg/`) are like zoning laws, they help developers navigate by convention, not enforcement (except `internal/`which is legally locked). The `internal/` directory is like a private building with keycard access: only code inside your module can use it. `pkg/` is the public park: anyone can visit.
+**Project layout is a city plan, not a prison:** Go's project conventions (`cmd/`, `internal/`, `pkg/`) are like zoning laws, they help developers navigate by convention, not enforcement (except `internal/`which is legally locked). The `internal/` directory is like a private building with keycard access: only code inside your module can use it. `pkg/` is the public park: anyone can visit.
 
 **Why it matters:** A good project layout lets new team members find code by intuition. The `internal/` package boundary enforces encapsulation at the toolchain level, you literally cannot import it from outside your module, preventing accidental coupling.
 
@@ -564,16 +564,6 @@ go test -tags=integration ./...
    `t.Cleanup` runs after the test and all its subtests finish, making it the correct choice for
    resource teardown.
 
-```mermaid
-flowchart TD
-    A[Architecture] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of Go project architecture, including underlying theory,
@@ -587,13 +577,7 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

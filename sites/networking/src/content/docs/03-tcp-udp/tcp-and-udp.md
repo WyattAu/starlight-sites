@@ -29,21 +29,21 @@ Reliability over an unreliable network, is fundamental to systems engineering.
 
 The transport layer is the first layer where the concept of a "connection" exists (for TCP). The
 Network layer (IP) delivers individual packets with no guarantees. The transport layer builds on
-This unreliable foundation to provide the reliability that applications need.
+this unreliable foundation to provide the reliability that applications need.
 
 The transport layer is also where **multiplexing** happens. Multiple applications on the same host
-Can communicate over the network simultaneously because the transport layer uses port numbers to
+can communicate over the network simultaneously because the transport layer uses port numbers to
 Demultiplex incoming packets to the correct application socket. This is why you can run a web server
 (port 80), a database (port 5432), and an SSH daemon (port 22) on the same machine simultaneously.
 
 The socket API is the standard interface for transport-layer communication. Defined in BSD Unix in
-The early 1980s, it provides a uniform interface for TCP, UDP, and other transport protocols. The
+the early 1980s, it provides a uniform interface for TCP, UDP, and other transport protocols. The
 Socket API is the de facto standard across all operating systems.
 
 ## UDP (User Datagram Protocol)
 
 UDP (RFC 768) is the simplest transport protocol. It provides a minimal interface: applications send
-And receive datagrams with no guarantees of delivery, ordering, or duplicate suppression.
+and receive datagrams with no guarantees of delivery, ordering, or duplicate suppression.
 
 ### UDP Header
 
@@ -77,7 +77,7 @@ The UDP header is 8 bytes -- the smallest of any transport protocol:
 - **Unreliable:** No acknowledgments, no retransmissions. Datagrams may be lost, duplicated, or
   arrive out of order. The application is responsible for handling these cases if needed.
 - **Message-oriented:** Each `sendto()` call produces exactly one datagram. The receiver gets the
-  exact message boundaries. This is fundamentally different from TCP"s byte-stream model.
+  exact message boundaries. This is fundamentally different from TCP's byte-stream model.
 - **No flow control:** If the receiver cannot keep up, datagrams are silently dropped. The kernel's
   receive buffer fills up, and new datagrams are discarded. `ss -uanp` shows the receive queue
   depth.
@@ -210,7 +210,7 @@ Sequence numbers are used to track byte positions in the byte stream.
 
 **TCP Fast Open (TFO, RFC 7413):** Allows the client to include data in the SYN segment, saving one
 RTT on subsequent connections. The server issues a "cookie" in the SYN-ACK, and the client includes
-This cookie with data in subsequent SYNs. Requires kernel support (Linux 3.7+).
+this cookie with data in subsequent SYNs. Requires kernel support (Linux 3.7+).
 
 #### Four-Way Teardown (Connection Termination)
 
@@ -276,6 +276,8 @@ Default ephemeral port range on Linux is 32768-60999 (28,232 ports).
 
 **Key fields:**
 
+<div class="table-wrap">
+
 | Field                   | Size         | Purpose                                                       |
 | ----------------------- | ------------ | ------------------------------------------------------------- |
 | Source/Destination Port | 16 bits each | Multiplexing/demultiplexing                                   |
@@ -287,7 +289,11 @@ Default ephemeral port range on Linux is 32768-60999 (28,232 ports).
 | Checksum                | 16 bits      | Covers header, data, and pseudo-header (mandatory)            |
 | Urgent Pointer          | 16 bits      | Offset from sequence number indicating urgent data            |
 
+</div>
+
 **TCP Flags:**
+
+<div class="table-wrap">
 
 | Flag | Bit  | Purpose                                        |
 | ---- | ---- | ---------------------------------------------- |
@@ -297,6 +303,8 @@ Default ephemeral port range on Linux is 32768-60999 (28,232 ports).
 | RST  | 0x04 | Reset the connection (error, abort)            |
 | PSH  | 0x08 | Push data to the application immediately       |
 | URG  | 0x20 | Urgent pointer is valid                        |
+
+</div>
 
 ### TCP Reliability Mechanisms
 
@@ -318,7 +326,7 @@ Sender sends bytes 1460-2919:
 ```
 
 The ISN is critical for security. If an attacker can predict the ISN, they can inject forged packets
-Into an established connection (TCP blind injection attack). Modern implementations use
+into an established connection (TCP blind injection attack). Modern implementations use
 Cryptographically randomized ISNs (RFC 6056).
 
 #### Selective Acknowledgment (SACK)
@@ -328,7 +336,7 @@ Segment 2 (bytes 1460-2919) is lost but segments 1, 3, and 4 arrive, the receive
 Byte 1459 (the last contiguous byte). The sender must retransmit segment 2 before sending new data.
 
 With SACK (RFC 2018), the receiver can inform the sender about exactly which blocks of data have
-Been received:
+been received:
 
 ```
 ACK=1460, SACK=2920-4379, SACK=5840-7299
@@ -373,10 +381,14 @@ Faster than waiting for the timeout.
 
 **RTO vs fast retransmit:**
 
+<div class="table-wrap">
+
 | Mechanism       | Trigger          | Response                                         | Latency                      |
 | --------------- | ---------------- | ------------------------------------------------ | ---------------------------- |
 | RTO             | Timer expires    | Retransmit, reset cwnd to 1 MSS, slow start      | One full RTO (200ms to 120s) |
 | Fast retransmit | 3 duplicate ACKs | Retransmit, set ssthresh = cwnd/2, fast recovery | One RTT                      |
+
+</div>
 
 ### Flow Control
 
@@ -385,7 +397,7 @@ Mechanism:
 
 - The **receive window** (`rwnd`) is advertised by the receiver in every ACK. It indicates how many
   bytes the receiver is willing to accept beyond the last acknowledged byte.
-- If `rwnd = 0`The sender must stop sending data. The sender sends a zero-window probe (1 byte)
+- If `rwnd = 0`. The sender must stop sending data. The sender sends a zero-window probe (1 byte)
   periodically to check if the window has reopened.
 - The sender never has more than `rwnd` bytes unacknowledged in the network.
 
@@ -395,7 +407,7 @@ The original TCP header has a 16-bit window field, limiting the window to 65,535
 Bandwidth-delay products (e.g., satellite links, long-haul fiber), this limits throughput.
 
 The **Window Scaling** option (RFC 7323) allows the window to be scaled by a factor of
-$2^{\mathrm{scale}$Where scale ranges from 0 to 14:
+$2^{\mathrm{scale}$ Where scale ranges from 0 to 14:
 
 $$
 \mathrm{Effective Window = \mathrm{Window \times 2^{\mathrm{scale factor}
@@ -498,7 +510,7 @@ Segments were lost.
 #### BBR (Bottleneck Bandwidth and RTT)
 
 BBR (Google, 2016, RFC 9438) is a congestion control algorithm that models the network path rather
-Than relying solely on packet loss as a congestion signal. Traditional algorithms (Reno, CUBIC)
+than relying solely on packet loss as a congestion signal. Traditional algorithms (Reno, CUBIC)
 Treat loss as congestion and reduce `cwnd`. BBR instead estimates two parameters:
 
 - **BtlBw (Bottleneck Bandwidth):** The maximum delivery rate observed.
@@ -554,6 +566,8 @@ stateDiagram-v2
 TCP options are carried in the header after the Urgent Pointer. They are negotiated during the
 Three-way handshake.
 
+<div class="table-wrap">
+
 | Option         | Kind | Purpose                                                         |
 | -------------- | ---- | --------------------------------------------------------------- |
 | MSS            | 2    | Maximum Segment Size (payload size the sender can accept)       |
@@ -562,6 +576,8 @@ Three-way handshake.
 | SACK           | 5    | Carries SACK blocks                                             |
 | Timestamps     | 8    | RTT measurement and PAWS (Protection Against Wrapped Sequences) |
 | TCP Fast Open  | 34   | Allows data in the SYN (RFC 7413)                               |
+
+</div>
 
 **MSS (Maximum Segment Size):** Advertised during the handshake. Each side announces the largest
 Segment it can receive. The effective MSS is the minimum of both ends' MSS values minus IP and TCP
@@ -578,13 +594,19 @@ Links).
 Port numbers allow TCP and UDP to multiplex multiple connections on a single IP address. They are
 16-bit values (0-65535).
 
+<div class="table-wrap">
+
 | Range       | Name                      | Assignment                                       |
 | ----------- | ------------------------- | ------------------------------------------------ |
 | 0-1023      | Well-known (system ports) | Assigned by IANA. Require root to bind on Linux. |
 | 1024-49151  | Registered (user ports)   | Assigned by IANA for specific services.          |
 | 49152-65535 | Ephemeral (dynamic ports) | Assigned by the OS for outbound connections.     |
 
+</div>
+
 Common well-known ports:
+
+<div class="table-wrap">
 
 | Port | Protocol | Service          |
 | ---- | -------- | ---------------- |
@@ -598,6 +620,8 @@ Common well-known ports:
 | 5432 | TCP      | PostgreSQL       |
 | 6379 | TCP      | Redis            |
 | 8080 | TCP      | HTTP (alternate) |
+
+</div>
 
 ```bash
 # View active TCP connections
@@ -631,6 +655,8 @@ Port 443) because the 4-tuple is unique for each client.
 
 ## TCP vs UDP: Decision Framework
 
+<div class="table-wrap">
+
 | Criterion          | TCP                                                  | UDP                                     |
 | ------------------ | ---------------------------------------------------- | --------------------------------------- |
 | Reliability        | Guaranteed delivery, ordering, duplicate suppression | Best effort, no guarantees              |
@@ -642,6 +668,8 @@ Port 443) because the 4-tuple is unique for each client.
 | Throughput         | Limited by congestion control                        | Limited only by application and network |
 | Latency            | Higher (handshake, retransmission)                   | Lower                                   |
 | Use cases          | Web, email, file transfer, databases                 | DNS, NTP, streaming, gaming, QUIC       |
+
+</div>
 
 **Use TCP when:** You need reliable, ordered delivery and the application does not want to implement
 Its own reliability layer. This covers the vast majority of applications.
@@ -676,7 +704,7 @@ HTTP/3 uses QUIC as its transport layer, replacing TCP. HTTP/3 is documented in 
 ## SYN Flood Protection
 
 A SYN flood is a denial-of-service attack that exploits the three-way handshake. The attacker sends
-Many SYN segments without completing the handshake. The server allocates resources (TCB --
+many SYN segments without completing the handshake. The server allocates resources (TCB --
 Transmission Control Block) for each half-open connection, eventually exhausting its connection
 Table.
 
@@ -800,9 +828,6 @@ implementation, and key applications.
 - sorting algorithms (bubble, merge, quick)
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

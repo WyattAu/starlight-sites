@@ -203,7 +203,7 @@ Homeomorphism preserves topological properties but not geometric ones. A coffee 
 - **[Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)**: Continuous functions and homeomorphisms are fundamental morphisms in topology.
 - **[Topological Spaces](/9-topology/2_topological-spaces/)**: Detailed study of topological space definitions, bases, and subspace topologies.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

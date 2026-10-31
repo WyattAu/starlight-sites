@@ -36,6 +36,8 @@ International). Where board-specific content diverges, it is noted explicitly.
 The four main examination boards divide the content differently across papers. The table below maps
 the ten core modules to each board"s paper structure.
 
+<div class="table-wrap">
+
 | Module                         | AQA         | Edexcel                | OCR(A)                | CIE                         |
 | ------------------------------ | ----------- | ---------------------- | --------------------- | --------------------------- |
 | Atomic Structure & Periodicity | Paper 1     | Paper 1 (Topics 1-5)   | Paper 1 (Modules 1-4) | Paper 2 (AS) / Paper 4 (A2) |
@@ -49,6 +51,8 @@ the ten core modules to each board"s paper structure.
 | Organic Chemistry              | Paper 2 & 3 | Paper 2                | Paper 2 & 3           | Paper 3 / Paper 5           |
 | Transition Metals & Analytical | Paper 2 & 3 | Paper 2                | Paper 3 (Module 6)    | Paper 4 / Paper 5           |
 
+</div>
+
 ## Core Modules
 
 1. **[Atomic Structure & Periodicity](/chemistry/atomic-structure/)** -- Subatomic particles, isotopes, mass
@@ -59,9 +63,9 @@ the ten core modules to each board"s paper structure.
    the ideal gas equation, thermochemical calculations.
 4. **[Chemical Kinetics](https://chemistry.wyattau.com/1-physical-chemistry/chemical-kinetics/)** -- Rate equations, the Arrhenius equation, collision
    theory, Maxwell-Boltzmann distributions, catalysis.
-5. **[Chemical Equilibrium](https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium/)** -- $K_c$, $K_p$Le Chatelier's principle,
+5. **[Chemical Equilibrium](https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium/)** -- $K_c$, $K_p$ Le Chatelier's principle,
    solubility products, industrial processes.
-6. **[Acids, Bases & Buffers](/chemistry/acids-bases/)** -- pH, $K_a$, $K_b$, $K_w$Buffer solutions, titration
+6. **[Acids, Bases & Buffers](/chemistry/acids-bases/)** -- pH, $K_a$, $K_b$, $K_w$ Buffer solutions, titration
    curves, indicators.
 7. **[Thermodynamics & Energetics](/chemistry/thermodynamics/)** -- Hess's Law, entropy, Gibbs free energy,
    lattice enthalpy, Born-Haber cycles.
@@ -74,12 +78,16 @@ the ten core modules to each board"s paper structure.
 
 ## Assessment Structure
 
+<div class="table-wrap">
+
 | Board   | AS Papers                            | A-Level Papers                                              | Practical Endorsement              |
 | ------- | ------------------------------------ | ----------------------------------------------------------- | ---------------------------------- |
 | AQA     | Paper 1 (7401/1), Paper 2 (7401/2)   | Paper 1 (7402/1), Paper 2 (7402/2), Paper 3 (7402/3)        | 12 required practicals (pass/fail) |
 | Edexcel | Paper 1 (8CH0/01), Paper 2 (8CH0/02) | Paper 1 (9CH0/01), Paper 2 (9CH0/02), Paper 3 (9CH0/03)     | Core practicals (teacher-assessed) |
 | OCR(A)  | Paper 1 (H432/01), Paper 2 (H432/02) | Paper 1, Paper 2, Paper 3 (Unified)                         | Practical endorsement (pass/fail)  |
 | CIE     | Paper 2, Paper 3 (practical)         | Paper 4, Paper 5 (planning), Paper 3 or Paper 4 (practical) | No endorsement; practical examined |
+
+</div>
 
 ### AQA Paper Weightings
 
@@ -136,6 +144,8 @@ four boards.
 
 ### Physical Chemistry
 
+<div class="table-wrap">
+
 | Topic            | Key Equations                                                                                                                                                                                                                      |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Quantitative     | $n = \frac{m}{M}$$c = \frac{n}{V}$$pV = nRT$$\frac{p_1 V_1}{T_1} = \frac{p_2 V_2}{T_2}$                                                                                                                                            |
@@ -146,7 +156,11 @@ four boards.
 | Electrochemistry | $E^\circ_\mathrm{cell} = E^\circ_\mathrm{cathode} - E^\circ_\mathrm{anode}$$\Delta G^\circ = -nFE^\circ$$Q = It$$n = \frac{Q}{F}$$E = E^\circ - \frac{RT}{nF}\ln Q$                                                                |
 | Born-Haber       | $\Delta H_f = \Delta H_\mathrm{at} + \sum \mathrm{IE} + \Delta H_\mathrm{at}(\text{anion}) + \sum \mathrm{EA} + \Delta H_\mathrm{lat}$                                                                                             |
 
+</div>
+
 ### Organic Chemistry
+
+<div class="table-wrap">
 
 | Topic            | Key Reactions                                                                                                                                                      |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -159,7 +173,11 @@ four boards.
 | Amines           | Diazotisation: $\mathrm{ArNH}_2 \to \mathrm{ArN}_2^+$; Coupling reactions; Reduction of nitriles                                                                   |
 | Arenes           | Electrophilic substitution: nitration, halogenation, Friedel-Crafts alkylation/acylation                                                                           |
 
+</div>
+
 ### Inorganic Chemistry
+
+<div class="table-wrap">
 
 | Topic             | Key Concepts                                                                       |
 | ----------------- | ---------------------------------------------------------------------------------- |
@@ -167,6 +185,8 @@ four boards.
 | Periodicity       | Trends in atomic radius, IE, melting point across periods and down groups          |
 | Group 2           | Reactivity with water, solubility trends (sulphates decrease, hydroxides increase) |
 | Group 7           | Displacement reactions, oxidising power trend, halide tests with $\mathrm{AgNO}_3$ |
+
+</div>
 
 ## Examination Strategy
 
@@ -199,7 +219,7 @@ assessed:
 
 ### Arithmetic and Algebra
 
-- **Rearranging equations:** For example, from $pV = nRT$Derive $n = \frac{pV}{RT}$.
+- **Rearranging equations:** For example, from $pV = nRT$ Derive $n = \frac{pV}{RT}$.
 - **Solving quadratic equations:** For weak acid pH calculations, $K_a = \frac{x^2}{c - x}$ can
   sometimes require the quadratic formula when the $5\%$ approximation fails.
 - **Logarithms:** $\mathrm{pH} = -\log[\mathrm{H}^+]$;
@@ -231,9 +251,13 @@ assessed:
 Calculate the volume occupied by $2.50\,\mathrm{g}$ of $\mathrm{CO}_2$ at $298\,\mathrm{K}$ and
 $100\,\mathrm{kPa}$.
 
-$$n = \frac{m}{M} = \frac{2.50}{44.01} = 0.0568\,\mathrm{mol}$$
+$$
+n = \frac{m}{M} = \frac{2.50}{44.01} = 0.0568\,\mathrm{mol}
+$$
 
-$$V = \frac{nRT}{p} = \frac{0.0568 \times 8.314 \times 298}{100000} = \frac{140.7}{100000} = 1.41 \times 10^{-3}\,\mathrm{m}^3 = 1.41\,\mathrm{dm}^3$$
+$$
+V = \frac{nRT}{p} = \frac{0.0568 \times 8.314 \times 298}{100000} = \frac{140.7}{100000} = 1.41 \times 10^{-3}\,\mathrm{m}^3 = 1.41\,\mathrm{dm}^3
+$$
 
 #### Worked Example 2: Titration Calculation
 
@@ -241,13 +265,19 @@ $25.0\,\mathrm{cm}^3$ of $\mathrm{NaOH}$ solution of unknown concentration is ti
 $0.150\,\mathrm{mol\,dm^{-3}}$ $\mathrm{HCl}$. The mean titre is $22.4\,\mathrm{cm}^3$. Calculate
 the concentration of $\mathrm{NaOH}$.
 
-$$\mathrm{NaOH} + \mathrm{HCl} \to \mathrm{NaCl} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{NaOH} + \mathrm{HCl} \to \mathrm{NaCl} + \mathrm{H}_2\mathrm{O}
+$$
 
-$$n(\mathrm{HCl}) = c \times V = 0.150 \times 0.0224 = 3.36 \times 10^{-3}\,\mathrm{mol}$$
+$$
+n(\mathrm{HCl}) = c \times V = 0.150 \times 0.0224 = 3.36 \times 10^{-3}\,\mathrm{mol}
+$$
 
 From the 1:1 stoichiometry: $n(\mathrm{NaOH}) = 3.36 \times 10^{-3}\,\mathrm{mol}$
 
-$$c(\mathrm{NaOH}) = \frac{n}{V} = \frac{3.36 \times 10^{-3}}{0.0250} = 0.134\,\mathrm{mol\,dm^{-3}}$$
+$$
+c(\mathrm{NaOH}) = \frac{n}{V} = \frac{3.36 \times 10^{-3}}{0.0250} = 0.134\,\mathrm{mol\,dm^{-3}}
+$$
 
 #### Worked Example 3: Enthalpy of Neutralisation
 
@@ -257,13 +287,19 @@ temperature rises from $21.0^\circ\mathrm{C}$ to $27.5^\circ\mathrm{C}$. Calcula
 neutralisation. (Specific heat capacity of solution $= 4.18\,\mathrm{J\,g^{-1}\,K^{-1}}$; density of
 solution $= 1.00\,\mathrm{g\,cm^{-3}}$.)
 
-$$q = mc\Delta T = 100 \times 4.18 \times 6.5 = 2717\,\mathrm{J} = 2.72\,\mathrm{kJ}$$
+$$
+q = mc\Delta T = 100 \times 4.18 \times 6.5 = 2717\,\mathrm{J} = 2.72\,\mathrm{kJ}
+$$
 
 (100 g because $50 + 50 = 100\,\mathrm{cm}^3$ at $1.00\,\mathrm{g\,cm^{-3}}$)
 
-$$n = c \times V = 1.00 \times 0.0500 = 0.0500\,\mathrm{mol}$$
+$$
+n = c \times V = 1.00 \times 0.0500 = 0.0500\,\mathrm{mol}
+$$
 
-$$\Delta H = -\frac{q}{n} = -\frac{2.72}{0.0500} = -54.4\,\mathrm{kJ\,mol^{-1}}$$
+$$
+\Delta H = -\frac{q}{n} = -\frac{2.72}{0.0500} = -54.4\,\mathrm{kJ\,mol^{-1}}
+$$
 
 The negative sign indicates exothermic. The accepted value for strong acid-strong base
 neutralisation is approximately $-57\,\mathrm{kJ\,mol^{-1}}$. The difference is due to heat loss to
@@ -274,22 +310,34 @@ the surroundings.
 The rate constant for a reaction is $3.46 \times 10^{-3}\,\mathrm{s^{-1}}$ at $298\,\mathrm{K}$ and
 $1.32 \times 10^{-2}\,\mathrm{s^{-1}}$ at $318\,\mathrm{K}$. Calculate the activation energy.
 
-$$\ln\frac{k_2}{k_1} = -\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\frac{k_2}{k_1} = -\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
-$$\ln\frac{1.32 \times 10^{-2}}{3.46 \times 10^{-3}} = -\frac{E_a}{8.314}\left(\frac{1}{318} - \frac{1}{298}\right)$$
+$$
+\ln\frac{1.32 \times 10^{-2}}{3.46 \times 10^{-3}} = -\frac{E_a}{8.314}\left(\frac{1}{318} - \frac{1}{298}\right)
+$$
 
-$$\ln(3.82) = -\frac{E_a}{8.314}(0.003145 - 0.003356)$$
+$$
+\ln(3.82) = -\frac{E_a}{8.314}(0.003145 - 0.003356)
+$$
 
-$$1.340 = -\frac{E_a}{8.314}(-2.11 \times 10^{-4})$$
+$$
+1.340 = -\frac{E_a}{8.314}(-2.11 \times 10^{-4})
+$$
 
-$$E_a = \frac{1.340}{2.11 \times 10^{-4}} \times 8.314 = 52800\,\mathrm{J\,mol^{-1}} = 52.8\,\mathrm{kJ\,mol^{-1}}$$
+$$
+E_a = \frac{1.340}{2.11 \times 10^{-4}} \times 8.314 = 52800\,\mathrm{J\,mol^{-1}} = 52.8\,\mathrm{kJ\,mol^{-1}}
+$$
 
 #### Worked Example 5: pH and Buffer Calculations
 
 Calculate the pH of a buffer solution containing $0.100\,\mathrm{mol\,dm^{-3}}$ ethanoic acid
 ($\mathrm{p}K_a = 4.76$) and $0.150\,\mathrm{mol\,dm^{-3}}$ sodium ethanoate.
 
-$$\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 4.76 + \log\frac{0.150}{0.100} = 4.76 + 0.176 = 4.94$$
+$$
+\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 4.76 + \log\frac{0.150}{0.100} = 4.76 + 0.176 = 4.94
+$$
 
 The buffer is effective within $\pm 1\,\mathrm{pH}$ unit of $\mathrm{p}K_a$ (i.e. PH 3.76 to 5.76).
 
@@ -372,20 +420,6 @@ structure before proceeding.
 5. **Using the wrong stoichiometric ratios in calculations.** The mole ratio comes from the balanced equation, not from the question statement. Students sometimes use 1:1 when the actual ratio is different. Always write the balanced equation first.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
-
-```mermaid
-flowchart TD
-    A[Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

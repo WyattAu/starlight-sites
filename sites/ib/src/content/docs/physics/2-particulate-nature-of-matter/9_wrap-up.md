@@ -41,7 +41,7 @@ categories:
 - The plate reflects 10%, so it absorbs 90%. Power absorbed:
   $P_{\mathrm{in}} = (\mathrm{Intensity}) \times (\mathrm{Area}) \times (\mathrm{Absorptivity}) = 800 \times 0.20 \times 0.90 = 144$
   W.
-- Power radiated (out): $P_{\mathrm{out}} = e \sigma A T^4$Where $e=0.90$.
+- Power radiated (out): $P_{\mathrm{out}} = e \sigma A T^4$ Where $e=0.90$.
 - In equilibrium,
   $P_{\mathrm{in}} = P_{\mathrm{out}} \implies 144 = (0.90)(5.67\times 10^{-8})(0.20)T^4$.
 - $T^4 = \frac{144}{1.02\times 10^{-8}} = 1.41 \times 10^{10}$ K⁴ $\implies T = 344.6$ K (or
@@ -59,8 +59,8 @@ categories:
 - $t = \frac{222750 \mathrm{ J}}{144 \mathrm{ W}} = 1547$ s (or about 25.8 minutes).
 
 <b>If you get this wrong, you should focus on:</b> Applying the energy balance principle for
-Radiation, breaking down a phase change problem into its distinct heating and melting stages, and
-Understanding the relationship between power and energy transfer over time ($P=E/t$).
+radiation, breaking down a phase change problem into its distinct heating and melting stages, and
+understanding the relationship between power and energy transfer over time ($P=E/t$).
 
 1. **Question:** A sealed vertical cylinder with a frictionless piston contains 0.10 moles of a
    monatomic ideal gas. The piston has a mass of 5.0 kg and an area of 0.010 m². The system is in a
@@ -124,13 +124,13 @@ Process (isobaric), remembering to calculate both the change in internal energy 
 - The refrigerator can remove 1000 J of heat from the cold reservoir per cycle.
 
 <b>If you get this wrong, you should focus on:</b> The distinction between a heat engine and a
-Refrigerator, the correct formulas for Carnot efficiency and Carnot COP, and how the work output of
-An engine serves as the work input for another device.
+refrigerator, the correct formulas for Carnot efficiency and Carnot COP, and how the work output of
+an engine serves as the work input for another device.
 
 1. **Question (HL Only):** 1.0 mole of a monatomic ideal gas is initially at state A (300 K,
    $1.0 \times 10^5$ Pa). It is adiabatically compressed to half its original volume, reaching state
    B. It is then cooled at constant volume back to its original temperature, reaching state C. A)
-   Calculate the temperature and pressure at state B. B) Calculate the change in entropy of the gas
+   calculate the temperature and pressure at state B. B) Calculate the change in entropy of the gas
    during the process B -> C.
 
 </details>
@@ -163,8 +163,8 @@ An engine serves as the work input for another device.
 
 <b>If you get this wrong, you should focus on:</b> The specific gas law relations for an adiabatic
 Process ($PV^\gamma=\mathrm{const.}$, $TV^{\gamma-1}=\mathrm{const.}$). Also, the formula for
-Calculating entropy change during a process with a changing temperature, which requires integration
-Or the logarithmic form.
+calculating entropy change during a process with a changing temperature, which requires integration
+or the logarithmic form.
 
 1. **Question:** A circuit is constructed with a 12.0 V battery with an internal resistance of 0.50
    Ω. It is connected to a 2.0 Ω resistor in series with a parallel combination of a 3.0 Ω resistor
@@ -216,22 +216,28 @@ Resistors, the concept of internal resistance and terminal PD, and using the pot
 
 Pressure is defined as force per unit area:
 
-$$P = \frac{F}{A}$$
+$$
+P = \frac{F}{A}
+$$
 
 The SI unit is the pascal (Pa), where $1 \mathrm{ Pa} = 1 \mathrm{ N m}^{-2}$.
 
 **Hydrostatic pressure** in a fluid column of density $\rho$ at depth $h$ is:
 
-$$P = P_0 + \rho g h$$
+$$
+P = P_0 + \rho g h
+$$
 
 Where $P_0$ is the pressure at the surface (often atmospheric pressure,
 $P_{\mathrm{atm}} \approx 1.01 \times 10^5$ Pa).
 
 **Pascal's principle:** A change in pressure applied to an enclosed fluid is transmitted
 Undiminished to every portion of the fluid and the walls of the container. This is the basis of
-Hydraulic systems:
+hydraulic systems:
 
-$$\frac{F_1}{A_1} = \frac{F_2}{A_2}$$
+$$
+\frac{F_1}{A_1} = \frac{F_2}{A_2}
+$$
 
 ### Worked Example: Hydraulic Lift
 
@@ -265,20 +271,26 @@ Conservation).
 **Archimedes' principle:** An object wholly or partially immersed in a fluid experiences an upward
 Buoyant force equal to the weight of the fluid displaced.
 
-$$F_b = \rho_{\mathrm{fluid}} \cdot V_{\mathrm{submerged}} \cdot g$$
+$$
+F_b = \rho_{\mathrm{fluid}} \cdot V_{\mathrm{submerged}} \cdot g
+$$
 
-An object floats when $F_b = mg$I.e., when:
+An object floats when $F_b = mg$ I.e., when:
 
-$$\rho_{\mathrm{fluid}} \cdot V_{\mathrm{submerged}} \cdot g = \rho_{\mathrm{object}} \cdot V_{\mathrm{object}} \cdot g$$
+$$
+\rho_{\mathrm{fluid}} \cdot V_{\mathrm{submerged}} \cdot g = \rho_{\mathrm{object}} \cdot V_{\mathrm{object}} \cdot g
+$$
 
 This simplifies to the **fraction submerged**:
 
-$$\mathrm{Fraction submerged} = \frac{\rho_{\mathrm{object}}}{\rho_{\mathrm{fluid}}}$$
+$$
+\mathrm{Fraction submerged} = \frac{\rho_{\mathrm{object}}}{\rho_{\mathrm{fluid}}}
+$$
 
 ### Worked Example: Floating Block
 
 A wooden block of density $600 \mathrm{ kg m}^{-3}$ and volume $0.0050 \mathrm{ m}^3$ floats in
-Water ($\rho = 1000 \mathrm{ kg m}^{-3}$).
+water ($\rho = 1000 \mathrm{ kg m}^{-3}$).
 
 - **Fraction submerged:** $\frac{600}{1000} = 0.60$ (60% underwater)
 - **Volume submerged:** $0.60 \times 0.0050 = 0.0030 \mathrm{ m}^3$
@@ -287,7 +299,7 @@ Water ($\rho = 1000 \mathrm{ kg m}^{-3}$).
 
 > **Exam Tip:** A common IB question asks whether an object will float or sink. Compare the average
 > density of the object to the density of the fluid. If
-> $\rho_{\mathrm{object}} \lt \rho_{\mathrm{fluid}}$It floats.
+> $\rho_{\mathrm{object}} \lt \rho_{\mathrm{fluid}}$ It floats.
 
 ---
 
@@ -303,9 +315,11 @@ Water ($\rho = 1000 \mathrm{ kg m}^{-3}$).
 ## Bernoulli's Equation
 
 For an **ideal fluid** (incompressible, non-viscous, steady flow), Bernoulli's equation states that
-Along a streamline:
+along a streamline:
 
-$$P + \frac{1}{2}\rho v^2 + \rho g h = \mathrm{constant}$$
+$$
+P + \frac{1}{2}\rho v^2 + \rho g h = \mathrm{constant}
+$$
 
 This is a statement of **conservation of energy** per unit volume of fluid:
 
@@ -316,23 +330,31 @@ This is a statement of **conservation of energy** per unit volume of fluid:
 **Key consequence, the Venturi effect:** Where the fluid speed increases, the pressure decreases.
 For a horizontal pipe ($h = \mathrm{const.}$):
 
-$$P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2$$
+$$
+P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2
+$$
 
 Combined with the **continuity equation** (conservation of mass for incompressible flow):
 
-$$A_1 v_1 = A_2 v_2$$
+$$
+A_1 v_1 = A_2 v_2
+$$
 
 ### Worked Example: Pipe Flow
 
 Water flows through a pipe that narrows from cross-sectional area $A_1 = 0.050 \mathrm{ m}^2$ to
 $A_2 = 0.020 \mathrm{ m}^2$. The water speed in the wider section is $2.0 \mathrm{ m s}^{-1}$ and
-The pressure there is $1.5 \times 10^5$ Pa.
+the pressure there is $1.5 \times 10^5$ Pa.
 
 - **Speed in narrow section:**
   $v_2 = \frac{A_1 v_1}{A_2} = \frac{(0.050)(2.0)}{0.020} = 5.0 \mathrm{ m s}^{-1}$
 - **Pressure in narrow section (horizontal):**
-  $$P_2 = P_1 + \frac{1}{2}\rho(v_1^2 - v_2^2) = 1.5 \times 10^5 + \frac{1}{2}(1000)(4.0 - 25.0)$$
-  $$P_2 = 1.5 \times 10^5 - 10500 = 1.395 \times 10^5 \mathrm{ Pa}$$
+  $$
+  P_2 = P_1 + \frac{1}{2}\rho(v_1^2 - v_2^2) = 1.5 \times 10^5 + \frac{1}{2}(1000)(4.0 - 25.0)
+  $$
+  $$
+  P_2 = 1.5 \times 10^5 - 10500 = 1.395 \times 10^5 \mathrm{ Pa}
+  $$
 
 The pressure **drops** where the fluid speeds up, this is the Venturi effect.
 
@@ -365,36 +387,48 @@ The ideal gas model makes the following assumptions:
 
 ### Macroscopic Gas Laws
 
+<div class="table-wrap">
+
 | Law              | Relationship            | Constant Quantity |
 | :--------------- | :---------------------- | :---------------- |
 | Boyle's Law      | $P \propto \frac{1}{V}$ | $T$, $n$          |
 | Charles's Law    | $V \propto T$           | $P$, $n$          |
 | Gay-Lussac's Law | $P \propto T$           | $V$, $n$          |
 
+</div>
+
 All of these are unified in the **ideal gas equation**:
 
-$$PV = nRT$$
+$$
+PV = nRT
+$$
 
 Where $R = 8.31 \mathrm{ J mol}^{-1}\mathrm{K}^{-1}$ is the universal gas constant and $T$ is the
-Absolute temperature in Kelvin.
+absolute temperature in Kelvin.
 
 ### Microscopic Basis: Pressure from Molecular Collisions
 
 From kinetic theory, the pressure of an ideal gas arises from molecular collisions with the
-Container walls:
+container walls:
 
-$$P = \frac{1}{3}\frac{N}{V} m \langle c^2 \rangle$$
+$$
+P = \frac{1}{3}\frac{N}{V} m \langle c^2 \rangle
+$$
 
 Where $N$ is the number of molecules, $m$ is the mass of one molecule, and $\langle c^2 \rangle$ is
-The mean square speed.
+the mean square speed.
 
 Combining with $PV = Nk_BT$ (where $k_B = \frac{R}{N_A}$ is Boltzmann's constant):
 
-$$\frac{1}{2}m\langle c^2 \rangle = \frac{3}{2}k_BT$$
+$$
+\frac{1}{2}m\langle c^2 \rangle = \frac{3}{2}k_BT
+$$
 
 The **root-mean-square speed** is:
 
-$$c_{\mathrm{rms}} = \sqrt{\langle c^2 \rangle} = \sqrt{\frac{3k_BT}{m}} = \sqrt{\frac{3RT}{M}}$$
+$$
+c_{\mathrm{rms}} = \sqrt{\langle c^2 \rangle} = \sqrt{\frac{3k_BT}{m}} = \sqrt{\frac{3RT}{M}}
+$$
 
 Where $M$ is the molar mass (kg mol$^{-1}$).
 
@@ -402,7 +436,9 @@ Where $M$ is the molar mass (kg mol$^{-1}$).
 
 Calculate the rms speed of nitrogen molecules ($M = 0.028 \mathrm{ kg mol}^{-1}$) at $300$ K.
 
-$$c_{\mathrm{rms}} = \sqrt{\frac{3(8.31)(300)}{0.028}} = \sqrt{\frac{7479}{0.028}} = \sqrt{267107} \approx 517 \mathrm{ m s}^{-1}$$
+$$
+c_{\mathrm{rms}} = \sqrt{\frac{3(8.31)(300)}{0.028}} = \sqrt{\frac{7479}{0.028}} = \sqrt{267107} \approx 517 \mathrm{ m s}^{-1}
+$$
 
 > **Exam Tip:** When converting between $c_{\mathrm{rms}}$ forms, remember that $m$ is the mass of a
 > **single molecule** ($m = M/N_A$) while $M$ is the **molar mass**. Mixing these up is a very
@@ -417,7 +453,9 @@ Real gases deviate from ideal behaviour at **high pressure** and **low temperatu
 
 The **van der Waals equation** corrects for these:
 
-$$\left(P + \frac{an^2}{V^2}\right)(V - nb) = nRT$$
+$$
+\left(P + \frac{an^2}{V^2}\right)(V - nb) = nRT
+$$
 
 Where $a$ accounts for intermolecular attraction and $b$ accounts for molecular volume.
 
@@ -450,13 +488,19 @@ Kinetic energy.
 
 ### Key Definitions
 
+<div class="table-wrap">
+
 | Quantity                             | Symbol | Definition                   | Unit                 |
 | :----------------------------------- | :----- | :--------------------------- | :------------------- |
 | Specific heat capacity               | $c$    | Energy to raise 1 kg by 1 K  | J kg$^{-1}$ K$^{-1}$ |
 | Specific latent heat of fusion       | $L_f$  | Energy to melt 1 kg at $T_f$ | J kg$^{-1}$          |
 | Specific latent heat of vaporisation | $L_v$  | Energy to boil 1 kg at $T_b$ | J kg$^{-1}$          |
 
+</div>
+
 ### Evaporation vs Boiling
+
+<div class="table-wrap">
 
 | Property      | Evaporation                      | Boiling                       |
 | :------------ | :------------------------------- | :---------------------------- |
@@ -464,6 +508,8 @@ Kinetic energy.
 | Location      | Surface only                     | Throughout the liquid         |
 | Bubbles       | No                               | Yes                           |
 | Energy source | From the liquid itself (cooling) | External heat source required |
+
+</div>
 
 ### Pressure and Boiling Point
 
@@ -477,9 +523,11 @@ Therefore:
 ### Worked Example: Phase Change Energy
 
 Calculate the total energy required to convert $2.0$ kg of ice at $-20$ degrees C to steam at $120$
-Degrees C. (Data: $c_{\mathrm{ice}} = 2100$ J kg$^{-1}$ K$^{-1}$, $c_{\mathrm{water}} = 4200$ J
+degrees C. (Data: $c_{\mathrm{ice}} = 2100$ J kg$^{-1}$ K$^{-1}$, $c_{\mathrm{water}} = 4200$ J
 Kg$^{-1}$ K$^{-1}$$c_{\mathrm{steam}} = 2000$ J kg$^{-1}$ K$^{-1}$$L_f = 3.34 \times 10^5$ J
 Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
+
+<div class="table-wrap">
 
 | Stage                           | Calculation               | Energy (J)                |
 | :------------------------------ | :------------------------ | :------------------------ |
@@ -489,6 +537,8 @@ Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
 | Boiling at $100$ degrees C      | $(2.0)(2.26 \times 10^6)$ | 4,520,000                 |
 | Steam: $100$ to $120$ degrees C | $(2.0)(2000)(20)$         | 80,000                    |
 | **Total**                       |                           | **6,192,000 J (6.19 MJ)** |
+
+</div>
 
 > **Exam Tip:** IB examiners frequently ask multi-stage heating problems. Always identify each
 > stage, write the formula, and compute separately before summing. Forgetting the phase change
@@ -507,6 +557,8 @@ Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
 
 ## Quick Reference: Key Formulas
 
+<div class="table-wrap">
+
 | Formula                                                | Application                     |
 | :----------------------------------------------------- | :------------------------------ |
 | $P = \frac{F}{A}$                                      | Pressure definition             |
@@ -518,6 +570,8 @@ Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
 | $c_{\mathrm{rms}} = \sqrt{\frac{3RT}{M}}$              | RMS molecular speed             |
 | $Q = mc\Delta T$                                       | Specific heat (no phase change) |
 | $Q = mL$                                               | Latent heat (phase change)      |
+
+</div>
 
 </details>
 
@@ -538,27 +592,9 @@ Thermal physics connects microscopic molecular motion to macroscopic temperature
 
 4. Rounding intermediate answers too early, which compounds errors in multi-step calculations.
 
-
-```mermaid
-flowchart TD
-    A[9_Wrap Up] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Numerical Methods] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
@@ -73,36 +62,46 @@ one real root.
 
 $x_0 = 0$: $f(0) = 2$, $f'(0) = -2$.
 
-$$x_1 = 0 - \frac{2}{-2} = 1$$
+$$
+x_1 = 0 - \frac{2}{-2} = 1
+$$
 
 $x_1 = 1$: $f(1) = 1$, $f'(1) = 1$.
 
-$$x_2 = 1 - \frac{1}{1} = 0$$
+$$
+x_2 = 1 - \frac{1}{1} = 0
+$$
 
 $x_2 = 0$: $f(0) = 2$, $f'(0) = -2$.
 
-$$x_3 = 0 - \frac{2}{-2} = 1$$
+$$
+x_3 = 0 - \frac{2}{-2} = 1
+$$
 
 The iteration cycles: $0, 1, 0, 1, 0, 1, \ldots$
 
-**(c)** The iteration fails because at $x_0 = 0$The tangent to the curve has gradient
-$f'(0) = -2$Which points towards $x = 1$ rather than towards the root at $x \approx -1.77$. The
+**(c)** The iteration fails because at $x_0 = 0$ The tangent to the curve has gradient
+$f'(0) = -2$ Which points towards $x = 1$ rather than towards the root at $x \approx -1.77$. The
 Newton-Raphson method overshoots dramatically because the tangent at $x = 0$ intersects the $x$-axis
-at $x = 1$Which is on the opposite side of the local minimum. The iteration then gets trapped in a
+at $x = 1$ Which is on the opposite side of the local minimum. The iteration then gets trapped in a
 2-cycle between $x = 0$ and $x = 1$.
 
 More precisely, the problem is that $f'(0) \neq 0$ but the initial guess is far from the root
 relative to the curvature of the function. The function has a local minimum at $x \approx 0.816$
-with $f \approx 0.91 \gt 0$Creating a barrier that the iteration cannot cross.
+with $f \approx 0.91 \gt 0$ Creating a barrier that the iteration cannot cross.
 
 **(d)** Any $x_0 \lt -\sqrt{2/3} \approx -0.816$ will converge, since on this interval $f$ is
 strictly decreasing (and hence $f$ and $f'$ have useful properties for convergence).
 
 For example, $x_0 = -2$: $f(-2) = -2$, $f'(-2) = 10$.
 
-$$x_1 = -2 - \frac{-2}{10} = -2 + 0.2 = -1.8$$
+$$
+x_1 = -2 - \frac{-2}{10} = -2 + 0.2 = -1.8
+$$
 
-$$x_2 = -1.8 - \frac{-1.8^3 + 3.6 + 2}{3(3.24)-2} = -1.8 - \frac{-5.832 + 5.6}{7.72} = -1.8 + \frac{0.232}{7.72} \approx -1.770$$
+$$
+x_2 = -1.8 - \frac{-1.8^3 + 3.6 + 2}{3(3.24)-2} = -1.8 - \frac{-5.832 + 5.6}{7.72} = -1.8 + \frac{0.232}{7.72} \approx -1.770
+$$
 
 This converges rapidly to the root.
 
@@ -121,7 +120,7 @@ This converges rapidly to the root.
 
 **Question:**
 
-The equation $x = g(x)$ is to be solved by fixed-point iteration $x_{n+1} = g(x_n)$Where
+The equation $x = g(x)$ is to be solved by fixed-point iteration $x_{n+1} = g(x_n)$ Where
 $g(x) = \frac{1}{2}(x + \frac{3}{x})$.
 
 **(a)** Show that the equation $x = g(x)$ is equivalent to $x^2 = 3$ And hence state the positive
@@ -147,11 +146,17 @@ Positive root: $\alpha = \sqrt{3}$.
 
 **(b)** $x_0 = 2$:
 
-$$x_1 = \frac{1}{2}\left(2 + \frac{3}{2}\right) = \frac{7}{4} = 1.75$$
+$$
+x_1 = \frac{1}{2}\left(2 + \frac{3}{2}\right) = \frac{7}{4} = 1.75
+$$
 
-$$x_2 = \frac{1}{2}\left(\frac{7}{4} + \frac{3 \times 4}{7}\right) = \frac{1}{2}\left(\frac{7}{4} + \frac{12}{7}\right) = \frac{1}{2} \cdot \frac{49 + 48}{28} = \frac{97}{56} \approx 1.73214$$
+$$
+x_2 = \frac{1}{2}\left(\frac{7}{4} + \frac{3 \times 4}{7}\right) = \frac{1}{2}\left(\frac{7}{4} + \frac{12}{7}\right) = \frac{1}{2} \cdot \frac{49 + 48}{28} = \frac{97}{56} \approx 1.73214
+$$
 
-$$x_3 = \frac{1}{2}\left(\frac{97}{56} + \frac{3 \times 56}{97}\right) = \frac{1}{2}\left(\frac{97}{56} + \frac{168}{97}\right) = \frac{1}{2} \cdot \frac{9409 + 9408}{5432} = \frac{18817}{10864} \approx 1.73205$$
+$$
+x_3 = \frac{1}{2}\left(\frac{97}{56} + \frac{3 \times 56}{97}\right) = \frac{1}{2}\left(\frac{97}{56} + \frac{168}{97}\right) = \frac{1}{2} \cdot \frac{9409 + 9408}{5432} = \frac{18817}{10864} \approx 1.73205
+$$
 
 The iteration converges rapidly to $\sqrt{3} \approx 1.73205$.
 
@@ -159,23 +164,29 @@ The iteration converges rapidly to $\sqrt{3} \approx 1.73205$.
 
 At $x = \alpha = \sqrt{3}$: $g'(\sqrt{3}) = \frac{1}{2}(1 - 1) = 0$.
 
-Since $\lvert g'(\sqrt{3}) \rvert = 0 \lt 1$The fixed-point iteration converges (with quadratic
+Since $\lvert g'(\sqrt{3}) \rvert = 0 \lt 1$ The fixed-point iteration converges (with quadratic
 convergence, since $g'(\alpha) = 0$).
 
 **(d)** $g(x) = x^2 - 3 + x$. $g'(x) = 2x + 1$.
 
 At $x = \sqrt{3}$: $g'(\sqrt{3}) = 2\sqrt{3} + 1 \approx 4.464$.
 
-Since $\lvert g'(\sqrt{3}) \rvert \approx 4.464 \gt 1$The fixed-point theorem tells us this
+Since $\lvert g'(\sqrt{3}) \rvert \approx 4.464 \gt 1$ The fixed-point theorem tells us this
 iteration diverges near the root.
 
 Verification with $x_0 = 2$:
 
-$$x_1 = 4 - 3 + 2 = 3$$
+$$
+x_1 = 4 - 3 + 2 = 3
+$$
 
-$$x_2 = 9 - 3 + 3 = 9$$
+$$
+x_2 = 9 - 3 + 3 = 9
+$$
 
-$$x_3 = 81 - 3 + 9 = 87$$
+$$
+x_3 = 81 - 3 + 9 = 87
+$$
 
 diverging.
 
@@ -194,7 +205,7 @@ diverging.
 
 **Question:**
 
-**(a)** Use the trapezium rule with 4 strips to estimate $\int_0^2 \sqrt{x}\, dx$Giving your answer
+**(a)** Use the trapezium rule with 4 strips to estimate $\int_0^2 \sqrt{x}\, dx$ Giving your answer
 to 4 decimal places.
 
 **(b)** Determine whether your estimate is an overestimate or underestimate, justifying your answer
@@ -214,24 +225,34 @@ error bound formula for determining required strip count.]
 
 **(a)** $n = 4$ strips, width $h = \frac{2-0}{4} = 0.5$.
 
+<div class="table-wrap">
+
 | $x$            | 0   | 0.5                                             | 1   | 1.5                         | 2                         |
 | -------------- | --- | ----------------------------------------------- | --- | --------------------------- | ------------------------- |
 | $y = \sqrt{x}$ | 0   | $\frac{1}{\sqrt{2}} \approx 0.7071$ | 1   | $\sqrt{1.5} \approx 1.2247$ | $\sqrt{2} \approx 1.4142$ |
 
-$$T_4 = \frac{0.5}{2}\left[0 + 2(0.7071 + 1 + 1.2247) + 1.4142\right]$$
+</div>
 
-$$= 0.25[0 + 5.8636 + 1.4142] = 0.25 \times 7.2778 = 1.8194$$
+$$
+T_4 = \frac{0.5}{2}\left[0 + 2(0.7071 + 1 + 1.2247) + 1.4142\right]
+$$
+
+$$
+= 0.25[0 + 5.8636 + 1.4142] = 0.25 \times 7.2778 = 1.8194
+$$
 
 **(b)** $f(x) = x^{1/2}$. $f'(x) = \frac{1}{2}x^{-1/2}$. $f''(x) = -\frac{1}{4}x^{-3/2}$.
 
 For $x \in (0, 2]$: $f''(x) = -\frac{1}{4}x^{-3/2} \lt 0$.
 
-Since $f''(x) \lt 0$ on $(0, 2]$The curve is concave down. The trapezium rule **overestimates** when
+Since $f''(x) \lt 0$ on $(0, 2]$ The curve is concave down. The trapezium rule **overestimates** when
 the curve is concave down (the trapezia lie above the curve).
 
 **(c)** Exact value: $\frac{4\sqrt{2}}{3} \approx 1.8856$.
 
-$$\text{Percentage error} = \frac{\lvert 1.8194 - 1.8856 \rvert}{1.8856} \times 100\% \approx 3.51\%$$
+$$
+\text{Percentage error} = \frac{\lvert 1.8194 - 1.8856 \rvert}{1.8856} \times 100\% \approx 3.51\%
+$$
 
 **(d)** The error bound:
 $\lvert E \rvert \leq \frac{(b-a)^3}{12n^2}\max_{[a,b]}\lvert f''(x) \rvert$.
@@ -300,9 +321,13 @@ combining numerical methods with differentiation.]
 
 **(a)** $f(x) = x^4 - 4x^3 + 8x^2 - 8x + 3$.
 
-$$f'(x) = 4x^3 - 12x^2 + 16x - 8$$
+$$
+f'(x) = 4x^3 - 12x^2 + 16x - 8
+$$
 
-$$f''(x) = 12x^2 - 24x + 16$$
+$$
+f''(x) = 12x^2 - 24x + 16
+$$
 
 **(b)** We apply Newton-Raphson to $g(x) = f'(x) = 4x^3 - 12x^2 + 16x - 8$:
 
@@ -310,7 +335,7 @@ $g'(x) = f''(x) = 12x^2 - 24x + 16$.
 
 $x_0 = 1$: $g(1) = 4 - 12 + 16 - 8 = 0$.
 
-Since $g(1) = 0$The Newton-Raphson formula gives $x_1 = 1 - \frac{0}{g'(1)} = 1$. The iteration has
+Since $g(1) = 0$ The Newton-Raphson formula gives $x_1 = 1 - \frac{0}{g'(1)} = 1$. The iteration has
 already converged.
 
 The stationary point is at $x = 1$.
@@ -341,7 +366,7 @@ The point $(1, 0)$ is a local minimum.
 
 But $f(x) = x^4 - 4x^3 + 8x^2 - 8x + 3 \neq (x-1)^4$.
 
-Let me check: $(x-1)^4 = x^4 - 4x^3 + 6x^2 - 4x + 1$While $f(x) = x^4 - 4x^3 + 8x^2 - 8x + 3$.
+Let me check: $(x-1)^4 = x^4 - 4x^3 + 6x^2 - 4x + 1$ While $f(x) = x^4 - 4x^3 + 8x^2 - 8x + 3$.
 
 These are different. The question's claim is incorrect.
 
@@ -351,7 +376,7 @@ $f'(x) = 4x^3 - 12x^2 + 16x - 8 = 4(x^3 - 3x^2 + 4x - 2) = 4(x-1)(x^2 - 2x + 2)$
 $x^2 - 2x + 2 = (x-1)^2 + 1 \gt 0$ for all real $x$ So $x = 1$ is the only stationary point.
 
 The Newton-Raphson method converges rapidly because $f'(x) = 4(x-1)((x-1)^2+1)$ has a simple root at
-$x = 1$ (multiplicity 1), so $g'(1) = f''(1) = 4 \neq 0$Ensuring quadratic convergence near the
+$x = 1$ (multiplicity 1), so $g'(1) = f''(1) = 4 \neq 0$ Ensuring quadratic convergence near the
 root.
 
 ---
@@ -401,25 +426,45 @@ exactly one root.
 
 **(b)** $x_0 = 0.5$:
 
-$$x_1 = \cos(0.5) \approx 0.87758$$
+$$
+x_1 = \cos(0.5) \approx 0.87758
+$$
 
-$$x_2 = \cos(0.87758) \approx 0.63901$$
+$$
+x_2 = \cos(0.87758) \approx 0.63901
+$$
 
-$$x_3 = \cos(0.63901) \approx 0.80269$$
+$$
+x_3 = \cos(0.63901) \approx 0.80269
+$$
 
-$$x_4 = \cos(0.80269) \approx 0.69478$$
+$$
+x_4 = \cos(0.80269) \approx 0.69478
+$$
 
-$$x_5 = \cos(0.69478) \approx 0.76820$$
+$$
+x_5 = \cos(0.69478) \approx 0.76820
+$$
 
-$$x_6 = \cos(0.76820) \approx 0.71917$$
+$$
+x_6 = \cos(0.76820) \approx 0.71917
+$$
 
-$$x_7 = \cos(0.71917) \approx 0.75236$$
+$$
+x_7 = \cos(0.71917) \approx 0.75236
+$$
 
-$$x_8 = \cos(0.75236) \approx 0.73012$$
+$$
+x_8 = \cos(0.75236) \approx 0.73012
+$$
 
-$$x_9 = \cos(0.73012) \approx 0.74512$$
+$$
+x_9 = \cos(0.73012) \approx 0.74512
+$$
 
-$$x_{10} = \cos(0.74512) \approx 0.73501$$
+$$
+x_{10} = \cos(0.74512) \approx 0.73501
+$$
 
 This converges slowly (oscillating above and below the root). After approximately 25-30 iterations,
 $x_n \approx 0.73909$.
@@ -431,18 +476,24 @@ To 5 decimal places: $\alpha \approx 0.73909$.
 At the root $\alpha \approx 0.739$:
 $\lvert g'(\alpha) \rvert = \lvert -\sin(0.739) \rvert \approx \sin(0.739) \approx 0.674$.
 
-Since $\lvert g'(\alpha) \rvert \approx 0.674 \lt 1$The fixed-point iteration converges (linearly,
+Since $\lvert g'(\alpha) \rvert \approx 0.674 \lt 1$ The fixed-point iteration converges (linearly,
 since $0 \lt \lvert g'(\alpha) \rvert \lt 1$).
 
 **(d)** Newton-Raphson: $f(x) = \cos x - x$, $f'(x) = -\sin x - 1$.
 
 $x_0 = 0.5$: $f(0.5) = \cos 0.5 - 0.5 \approx 0.37758$, $f'(0.5) = -\sin 0.5 - 1 \approx -1.47943$.
 
-$$x_1 = 0.5 - \frac{0.37758}{-1.47943} \approx 0.5 + 0.25521 = 0.75521$$
+$$
+x_1 = 0.5 - \frac{0.37758}{-1.47943} \approx 0.5 + 0.25521 = 0.75521
+$$
 
-$$x_2 = 0.75521 - \frac{\cos 0.75521 - 0.75521}{-\sin 0.75521 - 1} \approx 0.75521 - \frac{-0.02760}{-1.68560} \approx 0.75521 - 0.01637 = 0.73884$$
+$$
+x_2 = 0.75521 - \frac{\cos 0.75521 - 0.75521}{-\sin 0.75521 - 1} \approx 0.75521 - \frac{-0.02760}{-1.68560} \approx 0.75521 - 0.01637 = 0.73884
+$$
 
-$$x_3 \approx 0.73884 - \frac{\cos 0.73884 - 0.73884}{-\sin 0.73884 - 1} \approx 0.73884 - \frac{0.00004}{-1.67378} \approx 0.73909$$
+$$
+x_3 \approx 0.73884 - \frac{\cos 0.73884 - 0.73884}{-\sin 0.73884 - 1} \approx 0.73884 - \frac{0.00004}{-1.67378} \approx 0.73909
+$$
 
 Newton-Raphson converges in 3 iterations to 5 decimal places, compared to approximately 25-30
 iterations for fixed-point iteration. Newton-Raphson has quadratic convergence while fixed-point has
@@ -465,7 +516,7 @@ linear convergence in this case.
 
 The integral $\int_0^1 e^{-x^2}\, dx$ cannot be evaluated in terms of elementary functions.
 
-**(a)** Use the trapezium rule with 4 strips to estimate $\int_0^1 e^{-x^2}\, dx$Giving your answer
+**(a)** Use the trapezium rule with 4 strips to estimate $\int_0^1 e^{-x^2}\, dx$ Giving your answer
 to 5 decimal places.
 
 **(b)** Use the trapezium rule with 8 strips and compare. Determine whether doubling the number of
@@ -484,23 +535,39 @@ integral, and error analysis via concavity.]
 
 **(a)** $n = 4$, $h = 0.25$.
 
+<div class="table-wrap">
+
 | $x$        | 0   | 0.25                          | 0.5                         | 0.75                          | 1                        |
 | ---------- | --- | ----------------------------- | --------------------------- | ----------------------------- | ------------------------ |
 | $e^{-x^2}$ | 1   | $e^{-0.0625} \approx 0.93941$ | $e^{-0.25} \approx 0.77880$ | $e^{-0.5625} \approx 0.56978$ | $e^{-1} \approx 0.36788$ |
 
-$$T_4 = \frac{0.25}{2}[1 + 2(0.93941 + 0.77880 + 0.56978) + 0.36788]$$
+</div>
 
-$$= 0.125[1 + 4.57598 + 0.36788] = 0.125 \times 5.94386 = 0.74298$$
+$$
+T_4 = \frac{0.25}{2}[1 + 2(0.93941 + 0.77880 + 0.56978) + 0.36788]
+$$
+
+$$
+= 0.125[1 + 4.57598 + 0.36788] = 0.125 \times 5.94386 = 0.74298
+$$
 
 **(b)** $n = 8$, $h = 0.125$.
+
+<div class="table-wrap">
 
 | $x$        | 0   | 0.125   | 0.25    | 0.375   | 0.5     | 0.625   | 0.75    | 0.875   | 1       |
 | ---------- | --- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 | $e^{-x^2}$ | 1   | 0.98450 | 0.93941 | 0.86936 | 0.77880 | 0.67706 | 0.56978 | 0.46353 | 0.36788 |
 
-$$T_8 = \frac{0.125}{2}[1 + 2(0.98450 + 0.93941 + 0.86936 + 0.77880 + 0.67706 + 0.56978 + 0.46353) + 0.36788]$$
+</div>
 
-$$= 0.0625[1 + 2 \times 5.28244 + 0.36788] = 0.0625[1 + 10.56488 + 0.36788] = 0.0625 \times 11.93276 = 0.74580$$
+$$
+T_8 = \frac{0.125}{2}[1 + 2(0.98450 + 0.93941 + 0.86936 + 0.77880 + 0.67706 + 0.56978 + 0.46353) + 0.36788]
+$$
+
+$$
+= 0.0625[1 + 2 \times 5.28244 + 0.36788] = 0.0625[1 + 10.56488 + 0.36788] = 0.0625 \times 11.93276 = 0.74580
+$$
 
 The exact value (to 5 d.p.) is $\int_0^1 e^{-x^2}\, dx \approx 0.74682$.
 
@@ -517,7 +584,7 @@ $f'(x) = -2xe^{-x^2}$.
 
 $f''(x) = -2e^{-x^2} + 4x^2 e^{-x^2} = e^{-x^2}(4x^2 - 2)$.
 
-$f''(x) = 0$ when $4x^2 = 2$I.e. $x = \frac{1}{\sqrt{2}} \approx 0.707$.
+$f''(x) = 0$ when $4x^2 = 2$ I.e. $x = \frac{1}{\sqrt{2}} \approx 0.707$.
 
 For $0 \leq x \lt \frac{1}{\sqrt{2}}$: $4x^2 - 2 \lt 0$ So $f''(x) \lt 0$ (concave down).
 
@@ -530,9 +597,13 @@ are below the exact value).
 
 **(d)** Using the first four terms of the Maclaurin series:
 
-$$\int_0^1 \left(1 - x^2 + \frac{x^4}{2} - \frac{x^6}{6}\right) dx = \left[x - \frac{x^3}{3} + \frac{x^5}{10} - \frac{x^7}{42}\right]_0^1$$
+$$
+\int_0^1 \left(1 - x^2 + \frac{x^4}{2} - \frac{x^6}{6}\right) dx = \left[x - \frac{x^3}{3} + \frac{x^5}{10} - \frac{x^7}{42}\right]_0^1
+$$
 
-$$= 1 - \frac{1}{3} + \frac{1}{10} - \frac{1}{42} = \frac{210 - 70 + 21 - 5}{210} = \frac{156}{210} = \frac{26}{35} \approx 0.74286$$
+$$
+= 1 - \frac{1}{3} + \frac{1}{10} - \frac{1}{42} = \frac{210 - 70 + 21 - 5}{210} = \frac{156}{210} = \frac{26}{35} \approx 0.74286
+$$
 
 Comparison:
 

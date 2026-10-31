@@ -33,7 +33,7 @@ The change is in how the bytes are formatted on the wire, not in what they mean.
 ### Binary Framing Layer
 
 HTTP/1.1 is a text protocol. HTTP/2 is a binary protocol. Every HTTP/2 communication is performed
-Over a single TCP connection, and all communication is split into smaller messages and frames.
+over a single TCP connection, and all communication is split into smaller messages and frames.
 
 ```
 +-----------------------------------------------+
@@ -76,7 +76,7 @@ No ordering requirement exists between streams. The server can send stream 5"s d
 
 HTTP/2 implements flow control at the stream level and the connection level. Each side advertises a
 Window size (initially 65,535 bytes, configurable via SETTINGS). The sender must not send more data
-Than the receiver's window allows. The receiver sends WINDOW_UPDATE frames to increase the window.
+than the receiver's window allows. The receiver sends WINDOW_UPDATE frames to increase the window.
 
 This prevents a fast sender from overwhelming a slow receiver. Without flow control, a server
 Sending a large response could exhaust the client's receive buffer.
@@ -93,13 +93,13 @@ Client                                          Server
 ### HPACK Header Compression
 
 HTTP/1.1 sends headers as plain text, repeated on every request. For a typical page load with 30-100
-Requests, headers like `User-Agent``Accept``Cookie`And `Accept-Encoding` are sent dozens of Times,
+Requests, headers like `User-Agent`, `Accept`, `Cookie` and `Accept-Encoding` are sent dozens of Times,
 each time consuming hundreds of bytes.
 
 HPACK (RFC 7541) compresses headers using three techniques:
 
 1. **Static table:** 61 predefined common header field/value pairs (e.g., `:method: GET`
-   `:path: /``accept-encoding: gzip, deflate`)
+   `:path: /`, `accept-encoding: gzip, deflate`)
 2. **Dynamic table:** Header fields sent in previous messages are cached and referenced by index
    number
 3. **Huffman coding:** Literal header values are encoded using Huffman coding, which reduces common
@@ -128,7 +128,7 @@ Values in a way that leaks information.
 ### Server Push
 
 HTTP/2 allows the server to proactively send resources to the client before the client requests
-Them. The server sends a PUSH_PROMISE frame that includes the request headers for the pushed
+them. The server sends a PUSH_PROMISE frame that includes the request headers for the pushed
 Resource. The client can reject pushed resources with a RST_STREAM frame.
 
 ```
@@ -156,7 +156,7 @@ Push complicates the client's cache state. Use `&lt;link rel="preload"&gt;` inst
 
 HTTP/2 allows clients to assign priorities to streams using a dependency tree. Each stream can have
 A parent stream and a weight (1-256). This helps the server decide which resources to send first
-When multiple streams are active.
+when multiple streams are active.
 
 ```text
         [stream 0: root]
@@ -174,7 +174,7 @@ Subtree, stream 7 gets more bandwidth than stream 5 (weight 20 vs 12).
 
 :::caution
 Often underwhelming. Most implementations use simple FIFO ordering. Do not rely on stream priority
-For critical performance optimization.
+for critical performance optimization.
 
 ### Connection Preface
 
@@ -191,6 +191,8 @@ Acknowledged until the receiver sends a SETTINGS_ACK frame.
 
 The SETTINGS frame configures connection-level parameters:
 
+<div class="table-wrap">
+
 | Parameter              | Default   | Description                                  |
 | ---------------------- | --------- | -------------------------------------------- |
 | HEADER_TABLE_SIZE      | 4096      | Maximum size of the HPACK dynamic table      |
@@ -199,6 +201,8 @@ The SETTINGS frame configures connection-level parameters:
 | INITIAL_WINDOW_SIZE    | 65535     | Initial flow control window for new streams  |
 | MAX_FRAME_SIZE         | 16384     | Maximum frame payload size (16384 to 2^24-1) |
 | MAX_HEADER_LIST_SIZE   | unlimited | Maximum total header size                    |
+
+</div>
 
 ```bash
 ## Test HTTP/2 with curl
@@ -217,10 +221,10 @@ nghttp -v https://example.com
 
 This is the fundamental limitation of HTTP/2. While HTTP/2 eliminates head-of-line blocking between
 Streams (a stalled stream does not block other streams), it does not eliminate head-of-line blocking
-At the TCP level.
+at the TCP level.
 
 When a TCP packet is lost, all subsequent TCP segments cannot be delivered to the application until
-The lost packet is retransmitted and arrives in order. This means a single lost packet blocks ALL
+the lost packet is retransmitted and arrives in order. This means a single lost packet blocks ALL
 HTTP/2 streams on that connection, even if the lost packet belongs to only one stream.
 
 ```
@@ -238,20 +242,22 @@ After loss: ALL streams blocked until packet 3 is retransmitted
 ```
 
 This is especially problematic on lossy networks (mobile, satellite) where packet loss rates of 1-5%
-Are common. On a 1% loss network, HTTP/2 can perform worse than HTTP/1.1 with multiple connections
-Because HTTP/1.1's multiple TCP connections provide independent loss recovery.
+are common. On a 1% loss network, HTTP/2 can perform worse than HTTP/1.1 with multiple connections
+because HTTP/1.1's multiple TCP connections provide independent loss recovery.
 
 ## HTTP/3
 
 ### Overview
 
 HTTP/3 (RFC 9114) replaces TCP with QUIC as the transport layer. QUIC runs over UDP and implements
-Its own reliability, congestion control, and flow control. The key advantage: QUIC handles loss
+its own reliability, congestion control, and flow control. The key advantage: QUIC handles loss
 Recovery per-stream, so a lost packet on one stream does not block other streams.
 
 ### QUIC as Transport
 
 QUIC (RFC 9000) is a general-purpose transport protocol, not specific to HTTP/3. Key properties:
+
+<div class="table-wrap">
 
 | Property                  | TCP + TLS                | QUIC                     |
 | ------------------------- | ------------------------ | ------------------------ |
@@ -262,6 +268,8 @@ QUIC (RFC 9000) is a general-purpose transport protocol, not specific to HTTP/3.
 | Connection identification | 4-tuple (IP+port)        | Connection ID            |
 | Connection migration      | No                       | Yes (IP/port change)     |
 | Middlebox interference    | Significant              | Minimal (encrypted)      |
+
+</div>
 
 ### 0-RTT Connection Establishment
 
@@ -296,7 +304,7 @@ Repeat connection (0-RTT):
 
 QUIC uses connection IDs (CID) instead of the 4-tuple to identify connections. When a client's IP
 Address changes (WiFi to cellular, VPN connect/disconnect), the connection survives because the CID
-Is unchanged.
+is unchanged.
 
 ```
 Client on WiFi                              Client on Cellular
@@ -341,6 +349,8 @@ Carried in QUIC CRYPTO frames. All QUIC packets (except Version Negotiation) are
 
 ## HTTP/3 vs HTTP/2 Comparison
 
+<div class="table-wrap">
+
 | Feature              | HTTP/2              | HTTP/3                      |
 | -------------------- | ------------------- | --------------------------- |
 | Transport            | TCP                 | QUIC (over UDP)             |
@@ -354,13 +364,15 @@ Carried in QUIC CRYPTO frames. All QUIC packets (except Version Negotiation) are
 | Prioritization       | Weight/dependency   | Extensible prioritization   |
 | Binary framing       | Yes                 | Yes (different format)      |
 
+</div>
+
 ### QPACK Header Compression
 
 QPACK is the HTTP/3 successor to HPACK. It uses the same static and dynamic table approach but fixes
 A head-of-line blocking issue in HPACK: in HTTP/2, if the decoder needs a header from the dynamic
 Table that has not arrived yet (due to packet loss), all subsequent headers are blocked. QPACK
 Allows the decoder to proceed without waiting for the table update, using an encoded data stream
-That can be processed independently.
+that can be processed independently.
 
 ## Alt-Svc Header (HTTP/3 Discovery)
 
@@ -413,12 +425,16 @@ Clients should always fall back gracefully:
 
 Major CDNs support HTTP/3:
 
+<div class="table-wrap">
+
 | CDN        | HTTP/3 Support | Alt-Svc Header      |
 | ---------- | -------------- | ------------------- |
 | Cloudflare | Yes (default)  | h3=":443"; ma=86400 |
 | Fastly     | Yes            | h3=":443"; ma=86400 |
 | Akamai     | Yes            | h3=":443"; ma=86400 |
 | AWS CF     | Yes            | h3=":443"; ma=86400 |
+
+</div>
 
 ### Browser Support
 
@@ -436,11 +452,15 @@ All modern browsers support HTTP/3:
 HTTP/3's 1-RTT handshake (vs HTTP/2's 2-3 RTT) provides a measurable latency improvement for first
 Connections. For repeat connections with 0-RTT, the improvement is even more significant.
 
+<div class="table-wrap">
+
 | Scenario             | HTTP/1.1             | HTTP/2             | HTTP/3                       |
 | -------------------- | -------------------- | ------------------ | ---------------------------- |
 | New connection       | 3 RTT                | 3 RTT              | 1 RTT                        |
 | Repeat connection    | 1 RTT                | 1 RTT              | 0 RTT                        |
 | Lost packet (mobile) | 1 RTT per connection | Blocks all streams | Only affected stream blocked |
+
+</div>
 
 ### Throughput
 
@@ -451,12 +471,16 @@ Lossy networks (mobile, satellite) due to the elimination of TCP-level HOL block
 
 Measured over a 100ms RTT link:
 
+<div class="table-wrap">
+
 | Protocol           | Setup Time    | Data First Byte |
 | ------------------ | ------------- | --------------- |
 | HTTP/1.1 + TLS 1.2 | 300ms (3 RTT) | 400ms (4 RTT)   |
 | HTTP/2 + TLS 1.2   | 300ms (3 RTT) | 400ms (4 RTT)   |
 | HTTP/3 (new)       | 100ms (1 RTT) | 200ms (2 RTT)   |
 | HTTP/3 (repeat)    | 0ms (0-RTT)   | 100ms (1 RTT)   |
+
+</div>
 
 ## HTTP/4 and Beyond
 
@@ -471,7 +495,7 @@ Group are focused on:
 - **MASQUE:** Proxying over QUIC (RFC 9298), enabling better VPN and proxy performance
 
 The trend is toward QUIC as the universal transport, with HTTP/3 as the primary application protocol
-And WebTransport for specialized use cases.
+and WebTransport for specialized use cases.
 
 ## Practical Deployment
 
@@ -525,7 +549,7 @@ curl --http3-only https://example.com
 ### 1. HTTP/2 Over HTTPS Only
 
 All browsers implement HTTP/2 only over TLS (h2). The plaintext version (h2c) is defined in the spec
-But not supported by browsers. If you configure HTTP/2 without TLS, browsers fall back to HTTP/1.1.
+but not supported by browsers. If you configure HTTP/2 without TLS, browsers fall back to HTTP/1.1.
 
 ### 2. Flow Control Mismatches
 
@@ -538,7 +562,7 @@ Implementations use the default (65,535 bytes) and rely on WINDOW_UPDATE to adju
 Over-pushing wastes bandwidth and can slow down the page load (pushed resources compete with
 Explicitly requested resources for bandwidth). In practice, server push should only be used for
 Critical resources that the client will definitely need (CSS, JS referenced in the HTML head) and
-That are not already cached.
+that are not already cached.
 
 ### 4. HTTP/3 and UDP Firewall Rules
 
@@ -612,7 +636,7 @@ Carries request or response headers. May also carry the END_STREAM flag if the r
 ### SETTINGS (0x4)
 
 Sets connection-level parameters. Sent by both client and server. Each endpoint acknowledges the
-Other's SETTINGS with a SETTINGS_ACK frame.
+other's SETTINGS with a SETTINGS_ACK frame.
 
 ### WINDOW_UPDATE (0x8)
 
@@ -631,6 +655,8 @@ Further frames can be sent on that stream.
 
 Error codes:
 
+<div class="table-wrap">
+
 | Code | Name                | Description                                     |
 | ---- | ------------------- | ----------------------------------------------- |
 | 0x0  | NO_ERROR            | Graceful shutdown                               |
@@ -647,6 +673,8 @@ Error codes:
 | 0xb  | ENHANCE_YOUR_CALM   | Too many frames (stop sending so fast)          |
 | 0xc  | INADEQUATE_SECURITY | TLS not acceptable                              |
 | 0xd  | HTTP_1_1_REQUIRED   | Use HTTP/1.1 instead                            |
+
+</div>
 
 ### GOAWAY (0x7)
 
@@ -721,6 +749,8 @@ Frame {
 
 ### HTTP/3 Frame Types
 
+<div class="table-wrap">
+
 | Type | Name         | Description                                    |
 | ---- | ------------ | ---------------------------------------------- |
 | 0x00 | DATA         | Request or response body                       |
@@ -735,9 +765,13 @@ Frame {
 | 0x41 | CONNECT_IP   | Extended CONNECT for IP proxying               |
 | 0x42 | CONNECT_UDP  | Extended CONNECT for UDP proxying              |
 
+</div>
+
 ### Variable-Length Integer Encoding
 
 HTTP/3 uses QUIC's variable-length integer encoding to save bytes:
+
+<div class="table-wrap">
 
 | First 2 Bits | Length  | Usable Bits | Maximum Value             |
 | ------------ | ------- | ----------- | ------------------------- |
@@ -745,6 +779,8 @@ HTTP/3 uses QUIC's variable-length integer encoding to save bytes:
 | 01           | 2 bytes | 14          | 16,383                    |
 | 10           | 4 bytes | 30          | 1,073,741,823             |
 | 11           | 8 bytes | 62          | 4,611,686,018,427,387,903 |
+
+</div>
 
 Small values (common in practice) use fewer bytes. For example, a DATA frame with 50 bytes of
 Payload needs only 1 byte for the length field (50 fits in 6 bits), whereas HTTP/2 always uses 3
@@ -760,12 +796,12 @@ Control a DNS response and obtain a wildcard or multi-SAN certificate could pote
 Connections from unrelated origins onto a single connection, enabling cross-origin timing attacks.
 
 Mitigation: browsers implement strict connection coalescing rules. Certificates must explicitly list
-All coalescable origins. Wildcards do not match across subdomain boundaries.
+all coalescable origins. Wildcards do not match across subdomain boundaries.
 
 ### HTTP/3 and 0-RTT Replay
 
 As mentioned earlier, 0-RTT data can be replayed. An attacker who captures a 0-RTT flight can replay
-It to the server. The server has no way to distinguish a replay from a legitimate request.
+it to the server. The server has no way to distinguish a replay from a legitimate request.
 
 Mitigations:
 
@@ -868,7 +904,7 @@ Headers per request regardless of compression.
 ### Dependency-Based Priority
 
 HTTP/2 clients build a priority tree where streams depend on other streams. The root (stream 0) is
-The implicit parent. Each stream has a weight (1-256) and an optional exclusive flag.
+the implicit parent. Each stream has a weight (1-256) and an optional exclusive flag.
 
 In practice, browser implementations vary:
 
@@ -878,7 +914,7 @@ In practice, browser implementations vary:
 
 The HTTP/3 working group recognized that the dependency-based priority scheme was too complex and
 Replaced it with a simpler extensible priority scheme (RFC 9218) that uses absolute urgency values
-And incremental priority updates.
+and incremental priority updates.
 
 ## HTTP/2 Stream Lifecycle
 
@@ -900,16 +936,6 @@ A stream in the `closed` state no longer exists on the endpoint. However, the pe
 Stream is closed if the close frame is lost. The endpoint must be prepared to receive frames for a
 Closed stream for a short time window (the maximum of the idle timeout and 3 RTTs).
 
-```mermaid
-flowchart TD
-    A[Http 2 And 3] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of http/2 and http/3, including underlying theory, practical
@@ -922,9 +948,6 @@ implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

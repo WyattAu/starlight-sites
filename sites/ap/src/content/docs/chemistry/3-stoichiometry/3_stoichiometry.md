@@ -22,7 +22,7 @@ categories:
 
 ## The Mole Concept (CED Unit 1)
 
-### Avogadro"s Number
+### Avogadro's Number
 
 $$
 N_A = 6.022 \times 10^{23} \mathrm{ particles/mol
@@ -34,7 +34,9 @@ The mole is defined such that the molar mass of carbon-12 is exactly 12 g/mol.
 ### Molar Mass
 
 The molar mass of a substance is the mass of one mole, expressed in g/mol. It is numerically equal
-To the atomic/molecular formula mass in amu.
+to the atomic/molecular formula mass in amu.
+
+<div class="table-wrap">
 
 | Substance                              | Molar Mass (g/mol) |
 | -------------------------------------- | ------------------ |
@@ -42,6 +44,8 @@ To the atomic/molecular formula mass in amu.
 | NaCl                                   | 58.44              |
 | $\mathrm{CaCO_3$                       | 100.09             |
 | $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$ | 180.16             |
+
+</div>
 
 ### Conversions
 
@@ -54,8 +58,8 @@ $$
 $$
 
 These two equations are the foundation of all stoichiometric calculations. Always start by
-Converting the given information to moles, then use the balanced equation to relate moles of
-Different substances.
+converting the given information to moles, then use the balanced equation to relate moles of
+different substances.
 
 ### Percent Composition
 
@@ -75,7 +79,7 @@ $$
 $$
 
 Percent composition is useful for verifying empirical formulas and for determining the formula of an
-Unknown compound from experimental data.
+unknown compound from experimental data.
 
 ### Worked Example: Percent Composition Verification
 
@@ -83,11 +87,17 @@ Verify that the percent composition of $\mathrm{Na_2\mathrm{CO_3$ is correct.
 
 Molar mass: $2(22.99) + 12.01 + 3(16.00) = 105.99$ g/mol.
 
-$$\%\mathrm{Na = \frac{45.98}{105.99} \times 100 = 43.38\%$$
+$$
+\%\mathrm{Na = \frac{45.98}{105.99} \times 100 = 43.38\%
+$$
 
-$$\%\mathrm{C = \frac{12.01}{105.99} \times 100 = 11.33\%$$
+$$
+\%\mathrm{C = \frac{12.01}{105.99} \times 100 = 11.33\%
+$$
 
-$$\%\mathrm{O = \frac{48.00}{105.99} \times 100 = 45.29\%$$
+$$
+\%\mathrm{O = \frac{48.00}{105.99} \times 100 = 45.29\%
+$$
 
 Sum: $43.38 + 11.33 + 45.29 = 100.00\%$. Verified.
 
@@ -96,7 +106,7 @@ Sum: $43.38 + 11.33 + 45.29 = 100.00\%$. Verified.
 ### Empirical Formula
 
 The simplest whole-number ratio of atoms in a compound. It gives the relative numbers of atoms but
-Not the actual numbers.
+not the actual numbers.
 
 ### Molecular Formula
 
@@ -133,7 +143,7 @@ Molecular formula: $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$ (glucose).
 ### Combustion Analysis
 
 When an unknown compound containing C, H, and possibly O is burned completely, the masses of CO$_2$
-And H$_2$O produced are measured. These give the amounts of C and H in the original compound.
+and H$_2$O produced are measured. These give the amounts of C and H in the original compound.
 
 $$
 \mathrm{mol C = \mathrm{mol CO_2 = \frac{\mathrm{mass of CO_2}{44.01}
@@ -144,24 +154,36 @@ $$
 $$
 
 If the mass of C + mass of H is less than the total mass of the sample, the difference is the mass
-Of oxygen.
+of oxygen.
 
 ### Worked Example: Combustion Analysis
 
 A 0.250 g sample of a compound containing C, H, and O produces 0.366 g CO$_2$ and 0.150 g H$_2$O on
-Combustion. Find the empirical formula.
+combustion. Find the empirical formula.
 
-$$\mathrm{mol C = \frac{0.366}{44.01} = 0.00832 \mathrm{ mol$$
+$$
+\mathrm{mol C = \frac{0.366}{44.01} = 0.00832 \mathrm{ mol
+$$
 
-$$\mathrm{mass C = 0.00832 \times 12.01 = 0.0999 \mathrm{ g$$
+$$
+\mathrm{mass C = 0.00832 \times 12.01 = 0.0999 \mathrm{ g
+$$
 
-$$\mathrm{mol H = 2 \times \frac{0.150}{18.02} = 0.0166 \mathrm{ mol$$
+$$
+\mathrm{mol H = 2 \times \frac{0.150}{18.02} = 0.0166 \mathrm{ mol
+$$
 
-$$\mathrm{mass H = 0.0166 \times 1.008 = 0.0168 \mathrm{ g$$
+$$
+\mathrm{mass H = 0.0166 \times 1.008 = 0.0168 \mathrm{ g
+$$
 
-$$\mathrm{mass O = 0.250 - 0.0999 - 0.0168 = 0.133 \mathrm{ g$$
+$$
+\mathrm{mass O = 0.250 - 0.0999 - 0.0168 = 0.133 \mathrm{ g
+$$
 
-$$\mathrm{mol O = \frac{0.133}{16.00} = 0.00833 \mathrm{ mol$$
+$$
+\mathrm{mol O = \frac{0.133}{16.00} = 0.00833 \mathrm{ mol
+$$
 
 Ratio: $0.00832 : 0.0166 : 0.00833 = 1 : 2 : 1$.
 
@@ -170,12 +192,14 @@ Empirical formula: $\mathrm{CH_2\mathrm{O$.
 ### Worked Example: Molecular Formula from Empirical Formula
 
 A compound has the empirical formula $\mathrm{C_3\mathrm{H_4\mathrm{O_3$ and a molecular mass of
-Approximately $176 \mathrm{ g/mol$. Find the molecular formula.
+approximately $176 \mathrm{ g/mol$. Find the molecular formula.
 
 Empirical formula mass:
 $3(12.01) + 4(1.008) + 3(16.00) = 36.03 + 4.032 + 48.00 = 88.06 \mathrm{ g/mol$.
 
-$$n = \frac{176}{88.06} \approx 2$$
+$$
+n = \frac{176}{88.06} \approx 2
+$$
 
 Molecular formula: $\mathrm{C_6\mathrm{H_8\mathrm{O_6$.
 
@@ -186,19 +210,31 @@ CO$_2$0.180 g H$\_2$O, and
 0.069 g of N$\_2$ on combustion with excess oxygen. Find the empirical
 formula.
 
-$$\mathrm{mol C = \frac{0.441}{44.01} = 0.01002 \mathrm{ mol$$
+$$
+\mathrm{mol C = \frac{0.441}{44.01} = 0.01002 \mathrm{ mol
+$$
 
-$$\mathrm{mass C = 0.01002 \times 12.01 = 0.1204 \mathrm{ g$$
+$$
+\mathrm{mass C = 0.01002 \times 12.01 = 0.1204 \mathrm{ g
+$$
 
-$$\mathrm{mol H = 2 \times \frac{0.180}{18.02} = 0.01998 \mathrm{ mol$$
+$$
+\mathrm{mol H = 2 \times \frac{0.180}{18.02} = 0.01998 \mathrm{ mol
+$$
 
-$$\mathrm{mass H = 0.01998 \times 1.008 = 0.02014 \mathrm{ g$$
+$$
+\mathrm{mass H = 0.01998 \times 1.008 = 0.02014 \mathrm{ g
+$$
 
-$$\mathrm{mol N = \frac{0.069}{28.02} = 0.00246 \mathrm{ mol$$
+$$
+\mathrm{mol N = \frac{0.069}{28.02} = 0.00246 \mathrm{ mol
+$$
 
-$$\mathrm{mass N = 0.00246 \times 14.01 = 0.0345 \mathrm{ g$$
+$$
+\mathrm{mass N = 0.00246 \times 14.01 = 0.0345 \mathrm{ g
+$$
 
-Total mass accounted for: $0.1204 + 0.02014 + 0.0345 = 0.1750 \mathrm{ g$Which matches the sample
+Total mass accounted for: $0.1204 + 0.02014 + 0.0345 = 0.1750 \mathrm{ g$ Which matches the sample
 Mass within rounding.
 
 Ratio: $0.01002 : 0.01998 : 0.00246 = 4.07 : 8.12 : 1 \approx 4 : 8 : 1$.
@@ -245,7 +281,9 @@ H: 10 on left, so $5\mathrm{H_2\mathrm{O$ on right.
 
 O on right: $4(2) + 5(1) = 13$. Need $\frac{13}{2}\mathrm{O_2$. Multiply all by 2:
 
-$$2\mathrm{C_4\mathrm{H_{10} + 13\mathrm{O_2 \to 8\mathrm{CO_2 + 10\mathrm{H_2\mathrm{O$$
+$$
+2\mathrm{C_4\mathrm{H_{10} + 13\mathrm{O_2 \to 8\mathrm{CO_2 + 10\mathrm{H_2\mathrm{O
+$$
 
 ## Stoichiometric Calculations (CED Unit 4)
 
@@ -263,7 +301,7 @@ $$
 ### Limiting Reactant
 
 The **limiting reactant** is the reactant that is completely consumed first and determines the
-Maximum amount of product formed.
+maximum amount of product formed.
 
 **Steps:**
 
@@ -272,7 +310,7 @@ Maximum amount of product formed.
 3. The smallest value corresponds to the limiting reactant.
 
 This method works because dividing by the coefficient gives the "number of reaction batches" each
-Reactant could support. The limiting reactant supports the fewest batches.
+reactant could support. The limiting reactant supports the fewest batches.
 
 ### Percent Yield
 
@@ -282,7 +320,7 @@ $$
 
 Theoretical yield is calculated from the limiting reactant. Actual yield is measured experimentally.
 Yield is always less than 100% due to side reactions, incomplete reactions, and product loss during
-Purification.
+purification.
 :::
 
 :::note[Example]
@@ -324,7 +362,7 @@ $$
 
 The limiting reactant method divides moles by the stoichiometric coefficient because the coefficient
 Represents the number of moles of each reactant consumed per "batch" of reaction. Dividing gives the
-Number of complete batches each reactant could support. The reactant that supports the fewest
+number of complete batches each reactant could support. The reactant that supports the fewest
 Batches limits the overall reaction, since the excess reactant will be left over after the limiting
 Reactant is exhausted.
 
@@ -347,7 +385,7 @@ M_1 V_1 = M_2 V_2
 $$
 
 This equation holds because dilution changes the volume but not the number of moles of solute. It is
-Valid for any concentration unit that is moles per volume.
+valid for any concentration unit that is moles per volume.
 
 ### Solution Stoichiometry
 
@@ -381,42 +419,64 @@ The product must be pure and filterable.
 
 **Example:** To determine the amount of sulfate in a solution, add excess barium chloride. Filter,
 Dry, and weigh the BaSO$_4$ precipitate. Use the mass of BaSO$_4$ to calculate the moles and hence
-The concentration of sulfate.
+the concentration of sulfate.
 
 ### Worked Example: Gravimetric Calculation
 
 A $0.500 \mathrm{ g$ sample of an iron ore is dissolved and the iron is precipitated as
 $\mathrm{Fe_2\mathrm{O_3$ by heating. If the mass of $\mathrm{Fe_2\mathrm{O_3$ obtained is
-$0.350 \mathrm{ g$Calculate the percentage of iron in the ore.
+$0.350 \mathrm{ g$ Calculate the percentage of iron in the ore.
 
-$$\mathrm{mol Fe_2\mathrm{O_3 = \frac{0.350}{159.69} = 0.00219 \mathrm{ mol$$
+$$
+\mathrm{mol Fe_2\mathrm{O_3 = \frac{0.350}{159.69} = 0.00219 \mathrm{ mol
+$$
 
-$$\mathrm{mol Fe = 2 \times 0.00219 = 0.00438 \mathrm{ mol$$
+$$
+\mathrm{mol Fe = 2 \times 0.00219 = 0.00438 \mathrm{ mol
+$$
 
-$$\mathrm{mass Fe = 0.00438 \times 55.85 = 0.245 \mathrm{ g$$
+$$
+\mathrm{mass Fe = 0.00438 \times 55.85 = 0.245 \mathrm{ g
+$$
 
-$$\%\mathrm{ Fe = \frac{0.245}{0.500} \times 100 = 49.0\%$$
+$$
+\%\mathrm{ Fe = \frac{0.245}{0.500} \times 100 = 49.0\%
+$$
 
 ### Worked Example: Back Titration
 
 A $2.00 \mathrm{ g$ sample of impure limestone ($\mathrm{CaCO_3$) is reacted with $50.0 \mathrm{ mL$
 of $1.00 \mathrm{ M  \mathrm{HCl$ (excess). The remaining acid is titrated With
-$0.500 \mathrm{ M  \mathrm{NaOH$Requiring $32.0 \mathrm{ mL$. Calculate the percentage Purity of
+$0.500 \mathrm{ M  \mathrm{NaOH$ Requiring $32.0 \mathrm{ mL$. Calculate the percentage Purity of
 $\mathrm{CaCO_3$.
 
-$$\mathrm{mol HCl total = 1.00 \times 0.0500 = 0.0500 \mathrm{ mol$$
+$$
+\mathrm{mol HCl total = 1.00 \times 0.0500 = 0.0500 \mathrm{ mol
+$$
 
-$$\mathrm{mol NaOH = 0.500 \times 0.0320 = 0.0160 \mathrm{ mol$$
+$$
+\mathrm{mol NaOH = 0.500 \times 0.0320 = 0.0160 \mathrm{ mol
+$$
 
-$$\mathrm{mol HCl remaining = 0.0160 \mathrm{ mol$$
+$$
+\mathrm{mol HCl remaining = 0.0160 \mathrm{ mol
+$$
 
-$$\mathrm{mol HCl reacted = 0.0500 - 0.0160 = 0.0340 \mathrm{ mol$$
+$$
+\mathrm{mol HCl reacted = 0.0500 - 0.0160 = 0.0340 \mathrm{ mol
+$$
 
-$$\mathrm{mol CaCO_3 = \frac{0.0340}{2} = 0.0170 \mathrm{ mol$$
+$$
+\mathrm{mol CaCO_3 = \frac{0.0340}{2} = 0.0170 \mathrm{ mol
+$$
 
-$$\mathrm{mass CaCO_3 = 0.0170 \times 100.09 = 1.70 \mathrm{ g$$
+$$
+\mathrm{mass CaCO_3 = 0.0170 \times 100.09 = 1.70 \mathrm{ g
+$$
 
-$$\%\mathrm{ purity = \frac{1.70}{2.00} \times 100 = 85.0\%$$
+$$
+\%\mathrm{ purity = \frac{1.70}{2.00} \times 100 = 85.0\%
+$$
 
 ## Gas Laws (CED Unit 3)
 
@@ -445,7 +505,7 @@ P_{\mathrm{total} = P_1 + P_2 + \cdots + P_n
 $$
 
 The partial pressure of a gas is the pressure it would exert if it alone occupied the entire volume.
-For an ideal gas: $P_i = \chi_i \cdot P_{\mathrm{total}$Where $\chi_i$ is the mole fraction.
+For an ideal gas: $P_i = \chi_i \cdot P_{\mathrm{total}$ Where $\chi_i$ is the mole fraction.
 
 ### STP
 
@@ -483,14 +543,16 @@ Or using molar volume at STP: $V = 0.0612 \times 22.4 = 1.37 \mathrm{ L$.
 ### Derivation: The Ideal Gas Law from Empirical Laws
 
 Boyle's law: $PV = k_1$ (at constant $T$$n$). Charles's law: $V/T = k_2$ (at constant $P$$n$).
-Avogadro's law: $V/n = k_3$ (at constant $P$$T$). Combining all three: $PV/(nT) = k = R$Giving
+Avogadro's law: $V/n = k_3$ (at constant $P$$T$). Combining all three: $PV/(nT) = k = R$ Giving
 $PV = nRT$.
 
 ### Derivation: Molar Volume at STP
 
 At STP ($T = 273.15 \mathrm{ K$$P = 1.00 \mathrm{ atm$):
 
-$$V = \frac{nRT}{P} = \frac{(1.00)(0.08206)(273.15)}{1.00} = 22.4 \mathrm{ L$$
+$$
+V = \frac{nRT}{P} = \frac{(1.00)(0.08206)(273.15)}{1.00} = 22.4 \mathrm{ L
+$$
 
 This is a useful shortcut: one mole of any ideal gas occupies $22.4 \mathrm{ L$ at STP.
 
@@ -501,13 +563,21 @@ $2\mathrm{KClO_3(s) \to 2\mathrm{KCl(s) + 3\mathrm{O_2(g)$. The oxygen is collec
 $25^{\circ}\mathrm{C$ and $0.980 \mathrm{ atm$. Vapour pressure of water at $25^{\circ}\mathrm{C$ Is
 $23.8 \mathrm{ mmHg$. Calculate the volume of dry oxygen.
 
-$$\mathrm{mol KClO_3 = \frac{0.200}{122.55} = 0.00163 \mathrm{ mol$$
+$$
+\mathrm{mol KClO_3 = \frac{0.200}{122.55} = 0.00163 \mathrm{ mol
+$$
 
-$$\mathrm{mol O_2 = 0.00163 \times \frac{3}{2} = 0.00245 \mathrm{ mol$$
+$$
+\mathrm{mol O_2 = 0.00163 \times \frac{3}{2} = 0.00245 \mathrm{ mol
+$$
 
-$$P_{\mathrm{O_2} = P_{\mathrm{total} - P_{\mathrm{H_2\mathrm{O} = 0.980 - \frac{23.8}{760} = 0.980 - 0.0313 = 0.949 \mathrm{ atm$$
+$$
+P_{\mathrm{O_2} = P_{\mathrm{total} - P_{\mathrm{H_2\mathrm{O} = 0.980 - \frac{23.8}{760} = 0.980 - 0.0313 = 0.949 \mathrm{ atm
+$$
 
-$$V = \frac{nRT}{P} = \frac{(0.00245)(0.08206)(298)}{0.949} = 0.0630 \mathrm{ L = 63.0 \mathrm{ mL$$
+$$
+V = \frac{nRT}{P} = \frac{(0.00245)(0.08206)(298)}{0.949} = 0.0630 \mathrm{ L = 63.0 \mathrm{ mL
+$$
 
 ## Net Ionic Equations (CED Unit 4)
 
@@ -520,6 +590,8 @@ $$V = \frac{nRT}{P} = \frac{(0.00245)(0.08206)(298)}{0.949} = 0.0630 \mathrm{ L 
 
 ### Solubility Rules
 
+<div class="table-wrap">
+
 | Soluble                                     | Exceptions                                                        |
 | ------------------------------------------- | ----------------------------------------------------------------- |
 | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$ | None                                                              |
@@ -528,12 +600,18 @@ $$V = \frac{nRT}{P} = \frac{(0.00245)(0.08206)(298)}{0.949} = 0.0630 \mathrm{ L 
 | Chlorides ($\mathrm{Cl^-$)                  | $\mathrm{Ag^+$$\mathrm{Pb^{2+}$$\mathrm{Hg_2^{2+}$                |
 | Sulfates ($\mathrm{SO_4^{2-}$)              | $\mathrm{Ba^{2+}$$\mathrm{Pb^{2+}$$\mathrm{Ca^{2+}$$\mathrm{Ag^+$ |
 
+</div>
+
+<div class="table-wrap">
+
 | Insoluble                        | Exceptions                                                                    |
 | -------------------------------- | ----------------------------------------------------------------------------- |
 | Hydroxides ($\mathrm{OH^-$)      | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{Ba^{2+}$$\mathrm{Ca^{2+}$ (slightly)      |
 | Carbonates ($\mathrm{CO_3^{2-}$) | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$                                   |
 | Phosphates ($\mathrm{PO_4^{3-}$) | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$                                   |
 | Sulfides ($\mathrm{S^{2-}$)      | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$$\mathrm{Ca^{2+}$$\mathrm{Ba^{2+}$ |
+
+</div>
 
 ### Strong Acids and Bases
 
@@ -543,7 +621,7 @@ $\mathrm{H_2\mathrm{SO_4$$\mathrm{HClO_4$.
 **Strong bases:** Group 1 hydroxides, $\mathrm{Ca(OH)_2$$\mathrm{Sr(OH)_2$$\mathrm{Ba(OH)_2$.
 
 Only strong electrolytes are split into ions in the complete ionic equation. Weak acids and bases
-Are written as intact molecules.
+are written as intact molecules.
 :::
 
 :::note[Example]
@@ -556,17 +634,9 @@ $\mathrm{Pb^{2+}(aq) + 2\mathrm{NO_3^-(aq) + 2\mathrm{K^+(aq) + 2\mathrm{I^-(aq)
 
 Net ionic: $\mathrm{Pb^{2+}(aq) + 2\mathrm{I^-(aq) \to \mathrm{PbI_2(s)$
 
-```mermaid
-flowchart TD
-    A[3_Stoichiometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Solubility Rules Quick Reference
+
+<div class="table-wrap">
 
 | Ion Type          | Generally Soluble With These Exceptions:                   |
 | ----------------- | ---------------------------------------------------------- |
@@ -580,7 +650,11 @@ flowchart TD
 | Phosphates        | Group 1, NH$_4^+$ (soluble); rest insoluble                |
 | Sulfides          | Group 1, NH$_4^+$Ca$^{2+}$Ba$^{2+}$ (soluble)              |
 
+</div>
+
 ## Summary Table: Common Gas Law Relationships
+
+<div class="table-wrap">
 
 | Law          | Variables  | Constant | Relationship                   |
 | ------------ | ---------- | -------- | ------------------------------ |
@@ -591,6 +665,8 @@ flowchart TD
 | Ideal Gas    | P, V, n, T | none     | $PV = nRT$                     |
 | Combined     | P, V, T    | n        | $P_1 V_1/T_1 = P_2 V_2/T_2$    |
 | Dalton's     | P$_i$      | V, T     | $P_{\mathrm{total} = \sum P_i$ |
+
+</div>
 
 ## Common Pitfalls
 
@@ -672,7 +748,7 @@ flowchart TD
     mass, leaving $2.45 \mathrm{ g$ of anhydrous $\mathrm{MgSO_4$. Determine the formula of the
     hydrate.
 
-18. At $25^\circ\mathrm{C$ and $1.00 \mathrm{ atm$What is the density of $\mathrm{O_2$ gas in g/L?
+18. At $25^\circ\mathrm{C$ and $1.00 \mathrm{ atm$ What is the density of $\mathrm{O_2$ gas in g/L?
 
 19. Balance the following redox equation in acidic solution:
     $\mathrm{MnO_4^- + \mathrm{Fe^{2+} \to \mathrm{Mn^{2+} + \mathrm{Fe^{3+}$.
@@ -680,7 +756,7 @@ flowchart TD
 20. A $0.500 \mathrm{ g$ sample of a compound containing only C, H, and O is burned in excess
     oxygen, producing $1.10 \mathrm{ g$ of $\mathrm{CO_2$ and $0.450 \mathrm{ g$ of
     $\mathrm{H_2\mathrm{O$. Find the empirical formula. If the molecular mass is approximately
-    $180 \mathrm{ g/mol$Determine the molecular formula.
+    $180 \mathrm{ g/mol$ Determine the molecular formula.
 
 21. Calculate the mass of $\mathrm{AgCl$ precipitate formed when $25.0 \mathrm{ mL$ of
     $0.150 \mathrm{ M $ $\mathrm{AgNO_3$ is mixed with $15.0 \mathrm{ mL$ of
@@ -771,7 +847,7 @@ $V = \frac{nRT}{P} = \frac{0.0612 \times 0.0821 \times 298}{0.969} = \frac{1.496
 <summary>Question 3: Empirical and molecular formula</summary>
 
 A compound contains $40.0\%$ carbon, $6.7\%$ hydrogen, and $53.3\%$ oxygen by mass. Its molar mass
-Is approximately $180 \mathrm{ g/mol$. Determine the empirical and molecular formulas.
+is approximately $180 \mathrm{ g/mol$. Determine the empirical and molecular formulas.
 
 </details>
 
@@ -821,7 +897,7 @@ $\mathrm{H_2\mathrm{SO_4 = 0.0250 \times 0.100 = 0.00250 \mathrm{ mol$. This req
 $0.00500 \mathrm{ mol$ $\mathrm{NaOH$. Volume of
 $\mathrm{NaOH = 0.00500 / 0.200 = 25.0 \mathrm{ mL$. Total volume = $50.0 \mathrm{ mL$.
 
-The solution contains $\mathrm{Na_2\mathrm{SO_4$The salt of a strong base and a strong acid (for The
+The solution contains $\mathrm{Na_2\mathrm{SO_4$ The salt of a strong base and a strong acid (for The
 first proton). The $\mathrm{SO_4^{2-}$ is a very weak base, so the pH is approximately 7 (actually
 slightly below 7 because $\mathrm{HSO_4^-$ is a weak acid).
 
@@ -837,7 +913,7 @@ $\mathrm{pH = 14 - 1.74 = 12.26$.
 <summary>Question 5: Solution dilution and concentration</summary>
 
 How many millilitres of $12.0 \mathrm{ M$ $\mathrm{HCl$ must be diluted to $500.0 \mathrm{ mL$ to
-Prepare a $0.500 \mathrm{ M$ solution? Calculate the mass of $\mathrm{NaOH$ required to completely
+prepare a $0.500 \mathrm{ M$ solution? Calculate the mass of $\mathrm{NaOH$ required to completely
 Neutralise $25.0 \mathrm{ mL$ of the diluted solution.
 
 </details>
@@ -864,22 +940,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 :::
 
 ## Intuition

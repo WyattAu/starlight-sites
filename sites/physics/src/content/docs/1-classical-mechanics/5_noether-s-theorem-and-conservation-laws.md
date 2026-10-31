@@ -5,7 +5,7 @@ title: Noether's Theorem and Conservation Laws
 tags:
   - Physics
   - University
-description: "For every continuous symmetry of the action, there is a Corresponding conserved  Comprehensive educational content coverage with definitions and practice proble"
+description: "Noether's theorem: every continuous symmetry of the action gives a conserved quantity. Proof, the symmetry-to-conservation dictionary, the Galilean boost subtlety, and applications from particle physics to general relativity. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -17,7 +17,45 @@ description: "For every continuous symmetry of the action, there is a Correspond
 }
 </script>
 
-### 5.1 Statement of Noether"s Theorem
+## Recall prompts
+
+Attempt these from memory before reading.
+
+- State Noether's theorem in one sentence.
+- Which symmetry gives conservation of momentum? Of angular momentum? Of energy?
+- What does "up to a boundary term" mean in the statement?
+- Is Noether's theorem about symmetries of the equations, or of the Lagrangian?
+
+## Motivation: the dictionary between symmetry and conservation
+
+Before Noether (1918), conservation laws were empirical facts, each proved
+separately: momentum conservation from Newton's third law, energy conservation
+from the work-energy theorem, angular momentum from central forces. Nothing
+connected them.
+
+Noether's theorem says they are all the same phenomenon. A continuous symmetry
+of the action produces a conserved quantity, and each familiar conservation law
+is the conserved quantity for one particular symmetry:
+
+<div class="table-wrap">
+
+| Symmetry of the Lagrangian | Conserved quantity |
+| -------------------------- | ------------------ |
+| translation in $x$         | linear momentum $p_x$ |
+| translation in $t$         | energy $H$ |
+| rotation about $z$         | angular momentum $L_z$ |
+| Galilean boost             | centre-of-mass motion |
+
+</div>
+
+Reading the table backwards is the useful direction. If you can *guess* a
+symmetry, you get a conservation law without solving anything. That is how
+conserved quantities are found in particle physics, where the Lagrangian is
+written down from symmetry requirements rather than from forces -- and it is why
+Emmy Noether's theorem is arguably the most important result in theoretical
+physics.
+
+### 5.1 Statement of Noether's Theorem
 
 **Theorem 5.1 (Noether's Theorem).** For every continuous symmetry of the action, there is a
 Corresponding conserved quantity.
@@ -25,7 +63,9 @@ Corresponding conserved quantity.
 More precisely: if the action is invariant (up to a boundary term) under the infinitesimal
 transformation $q_j \to q_j + \epsilon f_j(q, \dot{q}, t)$ Then
 
-$$Q = \sum_j \frac{\partial L}{\partial \dot{q}_j} f_j$$
+$$
+Q = \sum_j \frac{\partial L}{\partial \dot{q}_j} f_j
+$$
 
 Is a constant of motion.
 
@@ -34,29 +74,41 @@ Is a constant of motion.
 **Theorem 5.2 (Noether's Theorem --- Full Proof).** Suppose the Lagrangian transforms under an
 infinitesimal transformation $q_j \to q_j + \epsilon \delta q_j$ as:
 
-$$L \to L + \epsilon \frac{dF}{dt}$$
+$$
+L \to L + \epsilon \frac{dF}{dt}
+$$
 
 For some function $F(q, t)$. Then the quantity
 
-$$Q = \sum_j p_j\, \delta q_j - F$$
+$$
+Q = \sum_j p_j\, \delta q_j - F
+$$
 
 Is conserved.
 
 _Proof._ The variation of the action is:
 
-$$\delta S = \int_{t_1}^{t_2} \left[\sum_j \left(\frac{\partial L}{\partial q_j}\delta q_j + \frac{\partial L}{\partial \dot{q}_j}\delta\dot{q}_j\right)\right] dt = \int_{t_1}^{t_2} \frac{dF}{dt}\, dt$$
+$$
+\delta S = \int_{t_1}^{t_2} \left[\sum_j \left(\frac{\partial L}{\partial q_j}\delta q_j + \frac{\partial L}{\partial \dot{q}_j}\delta\dot{q}_j\right)\right] dt = \int_{t_1}^{t_2} \frac{dF}{dt}\, dt
+$$
 
 Where the second equality uses the assumption that the action changes by at most a boundary term.
 Using the Euler-Lagrange equations
 $\frac{\partial L}{\partial q_j} = \frac{d}{dt}\frac{\partial L}{\partial \dot{q}_j}$:
 
-$$\delta S = \int_{t_1}^{t_2} \sum_j \left[\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right)\delta q_j + \frac{\partial L}{\partial \dot{q}_j}\frac{d}{dt}\delta q_j\right] dt$$
+$$
+\delta S = \int_{t_1}^{t_2} \sum_j \left[\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right)\delta q_j + \frac{\partial L}{\partial \dot{q}_j}\frac{d}{dt}\delta q_j\right] dt
+$$
 
-$$= \int_{t_1}^{t_2} \frac{d}{dt}\left(\sum_j p_j\, \delta q_j\right) dt$$
+$$
+= \int_{t_1}^{t_2} \frac{d}{dt}\left(\sum_j p_j\, \delta q_j\right) dt
+$$
 
 Setting this equal to $\int_{t_1}^{t_2} \frac{dF}{dt}\, dt$:
 
-$$\frac{d}{dt}\left(\sum_j p_j\, \delta q_j - F\right) = 0$$
+$$
+\frac{d}{dt}\left(\sum_j p_j\, \delta q_j - F\right) = 0
+$$
 
 Therefore $Q = \sum_j p_j\, \delta q_j - F$ is constant. $\blacksquare$
 
@@ -67,15 +119,17 @@ Therefore $Q = \sum_j p_j\, \delta q_j - F$ is constant. $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-Consider an infinitesimal translation $x \to x + \epsilon$I.e., $\delta x = 1$, $\delta y = 0$,
+Consider an infinitesimal translation $x \to x + \epsilon$ I.e., $\delta x = 1$, $\delta y = 0$,
 $\delta z = 0$.
 
-For a free particle, $L = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2 + \dot{z}^2)$Which is invariant
+For a free particle, $L = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2 + \dot{z}^2)$ Which is invariant
 ($\delta L = 0$ So $F = 0$).
 
 By Noether's theorem:
 
-$$Q = p_x \cdot 1 + p_y \cdot 0 + p_z \cdot 0 - 0 = p_x = \mathrm{const}$$
+$$
+Q = p_x \cdot 1 + p_y \cdot 0 + p_z \cdot 0 - 0 = p_x = \mathrm{const}
+$$
 
 This is conservation of the $x$-component of linear momentum. Translation invariance in all three
 directions gives conservation of the full momentum vector $\mathbf{p}$. $\blacksquare$
@@ -91,7 +145,9 @@ directions gives conservation of the full momentum vector $\mathbf{p}$. $\blacks
 
 Consider an infinitesimal rotation by angle $\epsilon$ about the $z$-axis:
 
-$$\delta x = -\epsilon y, \quad \delta y = \epsilon x, \quad \delta z = 0$$
+$$
+\delta x = -\epsilon y, \quad \delta y = \epsilon x, \quad \delta z = 0
+$$
 
 For a free particle,
 $\delta L = m(\dot{x}\,\delta\dot{x} + \dot{y}\,\delta\dot{y}) = m(\dot{x}(-\epsilon\dot{y}) + \dot{y}(\epsilon\dot{x})) = 0$ So
@@ -99,7 +155,9 @@ $F = 0$.
 
 By Noether's theorem:
 
-$$Q = p_x(-y) + p_y(x) - 0 = x\, p_y - y\, p_x = L_z$$
+$$
+Q = p_x(-y) + p_y(x) - 0 = x\, p_y - y\, p_x = L_z
+$$
 
 This is the $z$-component of angular momentum. Full rotational invariance gives conservation of the
 entire angular momentum vector $\mathbf{L} = \mathbf{r} \times \mathbf{p}$. $\blacksquare$
@@ -118,19 +176,25 @@ $q_j(t) \to q_j(t + \epsilon) \approx q_j(t) + \epsilon \dot{q}_j(t)$ So $\delta
 
 If $L$ does not depend explicitly on time, then:
 
-$$\delta L = \sum_j \left(\frac{\partial L}{\partial q_j}\dot{q}_j + \frac{\partial L}{\partial \dot{q}_j}\ddot{q}_j\right)\epsilon = \frac{dL}{dt}\epsilon = \frac{d}{dt}\left(\epsilon L\right)$$
+$$
+\delta L = \sum_j \left(\frac{\partial L}{\partial q_j}\dot{q}_j + \frac{\partial L}{\partial \dot{q}_j}\ddot{q}_j\right)\epsilon = \frac{dL}{dt}\epsilon = \frac{d}{dt}\left(\epsilon L\right)
+$$
 
-So $F = \epsilon L$Giving $F = L$ (per unit $\epsilon$).
+So $F = \epsilon L$ Giving $F = L$ (per unit $\epsilon$).
 
 By Noether's theorem:
 
-$$Q = \sum_j p_j \dot{q}_j - L = h$$
+$$
+Q = \sum_j p_j \dot{q}_j - L = h
+$$
 
 This is the energy function, which equals $T + V$ for natural systems. $\blacksquare$
 
 </details>
 
 ### 5.6 Summary: Symmetry-Conservation Correspondence
+
+<div class="table-wrap">
 
 | Symmetry            | Transformation             | Conserved Quantity     |
 | ------------------- | -------------------------- | ---------------------- |
@@ -139,16 +203,7 @@ This is the energy function, which equals $T + V$ for natural systems. $\blacksq
 | Rotation about $z$  | $\phi \to \phi + \epsilon$ | Angular momentum $L_z$ |
 | Galilean boost      | $x \to x + \epsilon t$     | Centre-of-mass motion  |
 
-
-```mermaid
-flowchart TD
-    A[5_Noether S Theorem And Conservation Laws] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 
@@ -161,11 +216,15 @@ conserved.
 
 _Solution._ In spherical coordinates $(r, \theta, \phi)$ with $V = V(r)$:
 
-$$L = \frac{1}{2}m(\dot{r}^2 + r^2\dot{\theta}^2 + r^2\sin^2\theta\,\dot{\phi}^2) - V(r)$$
+$$
+L = \frac{1}{2}m(\dot{r}^2 + r^2\dot{\theta}^2 + r^2\sin^2\theta\,\dot{\phi}^2) - V(r)
+$$
 
 Since $L$ does not depend on $\phi$ (rotational symmetry about the $z$-axis):
 
-$$p_\phi = \frac{\partial L}{\partial \dot{\phi}} = mr^2\sin^2\theta\,\dot{\phi} = \mathrm{const}$$
+$$
+p_\phi = \frac{\partial L}{\partial \dot{\phi}} = mr^2\sin^2\theta\,\dot{\phi} = \mathrm{const}
+$$
 
 This is the $z$-component of angular momentum. By Noether's theorem, the full angular momentum
 vector Is conserved for any central potential. $\blacksquare$
@@ -181,31 +240,84 @@ The conserved quantity $Q = \sum_j p_j \delta q_j - F$ is not the same as the in
 **Mistake 3: Applying Noether's theorem to systems with explicit time dependence in the Lagrangian**
 When the Lagrangian depends explicitly on time, the action is not invariant under time translations, so energy is not conserved. The quantity $h = \sum_j p_j \dot{q}_j - L$ is still well-defined but is not conserved. Students often assume $h$ is always the energy, but it only equals the conserved energy when $\partial L/\partial t = 0$.
 
+## The Galilean boost: a conservation law that surprises people
+
+Boost symmetry is the case where the naive statement is wrong, and it is worth
+working through.
+
+A free particle has $L = \frac12 m \dot x^2$, which is *not* invariant under a
+Galilean boost $x \to x + vt$: the kinetic energy picks up
+$m v \dot x + \frac12 m v^2 t$. But those extra terms are a total time
+derivative, $\frac{d}{dt}(m v x + \frac12 m v^2 t)$, and Noether's theorem is
+stated "up to a boundary term" exactly for this reason.
+
+The conserved quantity is then
+
+$$
+Q = m\dot x - m v,
+$$
+
+which is the momentum in the boosted frame. The boost symmetry gives
+conservation of *the velocity of the centre of mass*, not a new independent
+quantity. Getting this wrong -- expecting a new conserved quantity from every
+transformation -- is the standard error.
+
+## Counterexamples worth knowing by name
+
+<div class="table-wrap">
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Discrete symmetries give conserved quantities | no | parity is a symmetry of electromagnetism but nothing is conserved by it |
+| Every conserved quantity comes from a symmetry of $q$ | no | momentum can be conserved with no obvious coordinate symmetry |
+| Symmetry of the *equations* is enough | no | the theorem needs symmetry of the *action* |
+| Noether's theorem applies to dissipative systems | no | friction is not derivable from a Lagrangian |
+
+</div>
+
+The first row is the one most often asserted wrongly. It is *continuous*
+symmetries only, because the proof differentiates with respect to the
+transformation parameter. Parity is a symmetry and charge conjugation is a
+symmetry, and neither produces a Noether current.
+
+## Where the theorem is used at research level
+
+- **Particle physics.** The Standard Model Lagrangian is written down by
+  requiring invariance under $SU(3) \times SU(2) \times U(1)$. Each gauge
+  symmetry gives a conserved current, and the associated charges are electric
+  charge, weak isospin and colour.
+- **General relativity.** Killing vectors of a spacetime metric play the role of
+  symmetry generators; a Killing vector gives a conserved quantity along
+  geodesics, which is how energy and angular momentum are defined for orbits
+  around a black hole.
+- **Integrable systems.** The solitons of the Korteweg-de Vries equation carry
+  infinitely many conserved quantities, each from a symmetry of a Lax pair --
+  the reason that equation is exactly solvable.
+
+## Interleaving problems
+
+Mix these with material from Lagrangian mechanics, Hamiltonian mechanics and
+the symplectic structure page.
+
+1. (Lagrangian.) Show that for a central potential $V(r)$ the Lagrangian is
+   invariant under rotations, and recover conservation of $L_z$ from Noether's
+   theorem.
+2. (Hamiltonian.) Show that if $G$ generates a symmetry then $\{G, H\} = 0$,
+   connecting the Poisson-bracket statement of conservation to Noether's.
+3. (Relativity.) Show that the Lagrangian of a free relativistic particle,
+   $L = -mc^2\sqrt{1 - v^2/c^2}$, is invariant under Lorentz boosts up to a
+   boundary term, and identify the conserved quantity.
+4. (Fields.) For a complex scalar field with $L = |\partial\phi|^2 - m^2|\phi|^2$,
+   show that invariance under $\phi \to e^{i\alpha}\phi$ gives a conserved
+   current $j^\mu$, and compute the charge.
+5. (Symplectic structure.) Show that a symmetry generated by $G$ preserves the
+   symplectic form, connecting Noether's theorem to the geometry of phase space.
+
 ## Cross-References
 
 - **[Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)**: The Hamiltonian formalism expresses conserved quantities as functions of phase space variables.
 - **[Central Force Problems](/1-classical-mechanics/6_central-force-problems/)**: Central potentials exhibit rotational symmetry, leading to angular momentum conservation via Noether's theorem.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

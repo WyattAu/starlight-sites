@@ -22,7 +22,7 @@ categories: [ib-economics]
 
 Game theory is the study of strategic decision-making among interdependent agents. Each agent's
 Payoff depends not only on their own actions but also on the actions of others. The framework was
-Formalised by John von Neumann and Oskar Morgenstern (1944) and extended by John Nash.
+formalised by John von Neumann and Oskar Morgenstern (1944) and extended by John Nash.
 
 A **game** consists of:
 
@@ -48,23 +48,25 @@ A **game** consists of:
 ### Dominant Strategies
 
 A **dominant strategy** is a strategy that yields a higher payoff for a player regardless of what
-The other players do. If every player has a dominant strategy, the game has a **dominant strategy
+the other players do. If every player has a dominant strategy, the game has a **dominant strategy
 Equilibrium**.
 
 A **strictly dominant strategy** is always strictly better than any other strategy. A **weakly
 Dominant strategy** is at least as good as any other strategy, and strictly better against at least
-One opponent strategy.
+one opponent strategy.
 
 ### Nash Equilibrium
 
 A **Nash equilibrium** is a set of strategies where no player can improve their payoff by
-Unilaterally changing their strategy, given the strategies chosen by all other players. Formally,
+unilaterally changing their strategy, given the strategies chosen by all other players. Formally,
 For each player $i$ with strategy $s_i^*$:
 
-$$u_i(s_i^*, s_{-i}^*) \geq u_i(s_i, s_{-i}^*) \quad \forall \; s_i$$
+$$
+u_i(s_i^*, s_{-i}^*) \geq u_i(s_i, s_{-i}^*) \quad \forall \; s_i
+$$
 
 Where $u_i$ is player $i$'s payoff function and $s_{-i}^*$ represents the strategies of all other
-Players.
+players.
 
 Key properties:
 
@@ -77,10 +79,10 @@ Key properties:
 ### Mixed Strategies
 
 A **pure strategy** is a deterministic choice of one action. A **mixed strategy** assigns a
-Probability distribution over the available pure strategies.
+probability distribution over the available pure strategies.
 
 In a mixed strategy Nash equilibrium, each player randomises over their strategies such that no
-Player can gain by changing their probabilities. The equilibrium is reached when each player is
+player can gain by changing their probabilities. The equilibrium is reached when each player is
 **indifferent** between their pure strategies given the other player's mixed strategy.
 
 ## The Prisoner's Dilemma
@@ -90,10 +92,14 @@ Player can gain by changing their probabilities. The equilibrium is reached when
 Two suspects are arrested and interrogated separately. Each can either **Cooperate** (stay silent)
 Or **Defect** (betray the other). The payoff matrix (years in prison, so lower is better):
 
+<div class="table-wrap">
+
 |                  | B Cooperates | B Defects   |
 | ---------------- | ------------ | ----------- |
 | **A Cooperates** | A: 1, B: 1   | A: 10, B: 0 |
 | **A Defects**    | A: 0, B: 10  | A: 5, B: 5  |
+
+</div>
 
 **Analysis:**
 
@@ -101,14 +107,14 @@ Or **Defect** (betray the other). The payoff matrix (years in prison, so lower i
   Defect is A's dominant strategy.
 - For B: by symmetric reasoning, defect is B's dominant strategy.
 - The Nash equilibrium is (Defect, Defect) with payoffs $(5, 5)$.
-- The socially optimal outcome is (Cooperate, Cooperate) with payoffs $(1, 1)$Which is Pareto
+- The socially optimal outcome is (Cooperate, Cooperate) with payoffs $(1, 1)$ Which is Pareto
   superior.
 
 ### The Core Insight
 
 The prisoner's dilemma demonstrates that individually rational behaviour can lead to collectively
 Suboptimal outcomes. The Nash equilibrium is not Pareto efficient, both players would be better off
-Cooperating, but neither has the incentive to do so unilaterally.
+cooperating, but neither has the incentive to do so unilaterally.
 
 ### Applications in Economics
 
@@ -126,7 +132,7 @@ Cooperating, but neither has the incentive to do so unilaterally.
 
 In a **one-shot** prisoner's dilemma, defection is the only rational strategy. In an **infinitely
 Repeated** (or indefinitely repeated) game, cooperation can be sustained as a Nash equilibrium
-Through strategies such as:
+through strategies such as:
 
 - **Grim trigger**: cooperate until the other player defects, then defect forever. This makes the
   threat of permanent punishment credible.
@@ -140,7 +146,7 @@ Rational payoff can be sustained as a Nash equilibrium, provided the discount fa
 Placed on future payoffs) is sufficiently high.
 
 In **finitely repeated** games with a known endpoint, backward induction leads to defection in every
-Round (the unraveling argument). However, if the number of rounds is uncertain or players use
+round (the unraveling argument). However, if the number of rounds is uncertain or players use
 Bounded rationality, cooperation may still emerge.
 
 ## Other Key Games
@@ -148,13 +154,17 @@ Bounded rationality, cooperation may still emerge.
 ### Battle of the Sexes
 
 Two players prefer to coordinate on the same activity but disagree on which activity. There are two
-Pure strategy Nash equilibria and one mixed strategy equilibrium. This game illustrates coordination
+pure strategy Nash equilibria and one mixed strategy equilibrium. This game illustrates coordination
 Problems.
+
+<div class="table-wrap">
 
 |                 | B: Opera   | B: Football |
 | --------------- | ---------- | ----------- |
 | **A: Opera**    | A: 3, B: 2 | A: 0, B: 0  |
 | **A: Football** | A: 0, B: 0 | A: 2, B: 3  |
+
+</div>
 
 ### Chicken (Hawk-Dove)
 
@@ -166,7 +176,7 @@ Relations and competitive business strategies.
 
 Two hunters can cooperate to catch a stag (high payoff for both) or hunt hare individually (moderate
 Payoff, certain). The stag hunt has two Nash equilibria: both cooperate (Pareto efficient) and both
-Defect (risk-dominant). It illustrates the tension between safety and social cooperation.
+defect (risk-dominant). It illustrates the tension between safety and social cooperation.
 
 ## Behavioural Economics
 
@@ -175,12 +185,12 @@ Defect (risk-dominant). It illustrates the tension between safety and social coo
 Traditional (neoclassical) economics assumes that agents are **Homo economicus**: fully rational,
 Self-interested utility maximisers with perfect information, consistent preferences, and unlimited
 Cognitive capacity. Behavioural economics relaxes these assumptions, drawing on psychology and
-Empirical evidence to model how people actually make decisions.
+empirical evidence to model how people actually make decisions.
 
 ### Bounded Rationality
 
 Herbert Simon (1955) proposed that individuals are **boundedly rational**: they make satisfactory
-Rather than optimal decisions because of limited information, limited cognitive processing capacity,
+rather than optimal decisions because of limited information, limited cognitive processing capacity,
 And limited time. People use **heuristics**, mental shortcuts, to simplify complex decisions.
 
 ### Heuristics and Biases
@@ -204,7 +214,7 @@ A gain.
 
 **Overconfidence bias**: individuals systematically overestimate their own knowledge, ability, and
 The precision of their predictions. This affects investment decisions, entrepreneurial activity, and
-Risk assessment.
+risk assessment.
 
 **Confirmation bias**: people seek, interpret, and remember information that confirms their existing
 Beliefs while ignoring or discounting contradictory evidence.
@@ -237,19 +247,23 @@ The **value function** in prospect theory is:
 
 Traditional models assume exponential discounting:
 
-$$U = \sum_{t=0}^{T} \delta^t \cdot u(c_t)$$
+$$
+U = \sum_{t=0}^{T} \delta^t \cdot u(c_t)
+$$
 
 Where $\delta$ is a constant discount factor.
 
 Behavioural evidence supports **hyperbolic discounting**, where the discount rate declines over
-Time:
+time:
 
-$$U = \sum_{t=0}^{T} \frac{1}{(1 + k \cdot t)^b} \cdot u(c_t)$$
+$$
+U = \sum_{t=0}^{T} \frac{1}{(1 + k \cdot t)^b} \cdot u(c_t)
+$$
 
 Where $k > 0$ governs impatience and $b > 0$ governs the degree of hyperbolic discounting.
 
 This produces **present bias**: individuals disproportionately prefer immediate gratification over
-Future rewards, even when they know the long-term consequences are worse. This explains
+future rewards, even when they know the long-term consequences are worse. This explains
 Procrastination, undersaving for retirement, and difficulty maintaining diets.
 
 ### Social Preferences
@@ -265,8 +279,8 @@ Procrastination, undersaving for retirement, and difficulty maintaining diets.
 ### Nudge Theory
 
 Richard Thaler and Cass Sunstein (2008) proposed that choice architecture, the way options are
-Presented, can influence decisions without restricting freedom of choice. A **nudge** is any aspect
-Of that architecture that alters behaviour predictably without forbidding options or significantly
+presented, can influence decisions without restricting freedom of choice. A **nudge** is any aspect
+of that architecture that alters behaviour predictably without forbidding options or significantly
 Changing economic incentives.
 
 **Examples of nudges:**
@@ -283,7 +297,7 @@ Changing economic incentives.
 
 **Libertarian paternalism**: the philosophical foundation of nudge theory. It holds that it is both
 Legitimate and desirable for institutions to influence choices in ways that make people better off,
-While preserving their freedom to choose otherwise.
+while preserving their freedom to choose otherwise.
 
 ### Criticisms of Behavioural Economics
 
@@ -317,12 +331,16 @@ While preserving their freedom to choose otherwise.
 <summary>Problem 1: Finding Nash Equilibria</summary>
 
 Two firms, Alpha and Beta, are deciding whether to advertise (Ad) or not advertise (No Ad). The
-Payoff matrix shows profits in millions:
+payoff matrix shows profits in millions:
+
+<div class="table-wrap">
 
 |                  | Beta: Ad | Beta: No Ad |
 | ---------------- | -------- | ----------- |
 | **Alpha: Ad**    | (4, 4)   | (8, 2)      |
 | **Alpha: No Ad** | (2, 8)   | (6, 6)      |
+
+</div>
 
 Find all Nash equilibria.
 
@@ -339,7 +357,7 @@ Check each cell:
 4. (No Ad, No Ad): Alpha gets 6. If Alpha switches to Ad, Alpha gets 8 (better). Not an equilibrium.
 
 The only Nash equilibrium is (Ad, Ad) with payoffs $(4, 4)$. This is a prisoner's dilemma: both
-Would be better off at (No Ad, No Ad) with $(6, 6)$ But neither has the incentive to unilaterally
+would be better off at (No Ad, No Ad) with $(6, 6)$ But neither has the incentive to unilaterally
 Stop advertising.
 
 <summary>Problem 2: Mixed Strategy Nash Equilibrium</summary>
@@ -347,31 +365,41 @@ Stop advertising.
 In a zero-sum game, Player 1 can play Up or Down; Player 2 can play Left or Right. The payoff matrix
 Shows Player 1's payoff (Player 2's payoff is the negative):
 
+<div class="table-wrap">
+
 |          | Left | Right |
 | -------- | ---- | ----- |
 | **Up**   | 3    | -1    |
 | **Down** | -2   | 4     |
 
+</div>
+
 Find the mixed strategy Nash equilibrium.
 
 Let Player 1 play Up with probability $p$ and Down with probability $1 - p$. For Player 2 to be
-Indifferent between Left and Right:
+indifferent between Left and Right:
 
-$$\mathrm{Expected payoff (Left)} = p(-3) + (1-p)(2)$$
-$$\mathrm{Expected payoff (Right)} = p(1) + (1-p)(-4)$$
+$$
+\mathrm{Expected payoff (Left)} = p(-3) + (1-p)(2)
+$$
+$$
+\mathrm{Expected payoff (Right)} = p(1) + (1-p)(-4)
+$$
 
 Setting them equal:
 
 $$-3p + 2 - 2p = p - 4 + 4p$$ $$2 - 5p = 5p - 4$$ $$6 = 10p$$ $$p = 0.6$$
 
 Let Player 2 play Left with probability $q$ and Right with probability $1 - q$. For Player 1 to be
-Indifferent:
+indifferent:
 
 $$3q - 1(1-q) = -2q + 4(1-q)$$ $$3q - 1 + q = -2q + 4 - 4q$$ $$4q - 1 = -6q + 4$$ $$10q = 5$$
-$$q = 0.5$$
+$$
+q = 0.5
+$$
 
 The mixed strategy Nash equilibrium is: Player 1 plays Up with probability $0.6$ and Down with
-Probability $0.4$; Player 2 plays Left with probability $0.5$ and Right with probability $0.5$.
+probability $0.4$; Player 2 plays Left with probability $0.5$ and Right with probability $0.5$.
 
 <summary>Problem 3: Behavioural Biases in Decision-Making</summary>
 
@@ -387,9 +415,9 @@ Equivalent (a 70% chance of gaining is the same as a 30% chance of losing).
 
 This is an example of **framing bias**: the way information is presented (framed as a gain vs.
 Framed as a loss) affects decisions. Prospect theory predicts that people are risk-averse in the
-Domain of gains and risk-seeking in the domain of losses. The positive frame ("gaining value")
+domain of gains and risk-seeking in the domain of losses. The positive frame ("gaining value")
 Triggers a more favourable evaluation than the negative frame ("losing value"), even though the
-Underlying probabilities are identical.
+underlying probabilities are identical.
 
 Loss aversion also plays a role: the word "losing" activates a stronger emotional response than
 "gaining," making Product B seem less attractive despite its mathematical equivalence.
@@ -401,7 +429,7 @@ A person is offered a choice: `USD 100` today or `USD 120` in one month. Most pe
 choose `USD 120` in 13 months. Explain this inconsistency using behavioural economics.
 
 This pattern is explained by **present bias** (or hyperbolic discounting). When the reward is
-Immediate, the person heavily discounts the future one-month delay, preferring `USD 100` now. But
+immediate, the person heavily discounts the future one-month delay, preferring `USD 100` now. But
 when Both options are in the future, the one-month difference feels much less significant, and the
 person Is more patient.
 
@@ -415,16 +443,16 @@ This has important implications for savings behaviour, health decisions, and com
 <summary>Problem 5: Nudge Theory Application</summary>
 
 A government wants to increase organ donation rates. Currently, citizens must actively opt in to
-Become donors, and the participation rate is $25\%$. Design a nudge-based intervention and evaluate
-Its potential effectiveness and ethical considerations.
+become donors, and the participation rate is $25\%$. Design a nudge-based intervention and evaluate
+its potential effectiveness and ethical considerations.
 
 **Intervention: Change the default from opt-in to opt-out.** Under an opt-out (presumed consent)
 System, all citizens are automatically registered as organ donors unless they actively withdraw.
 
 **Expected effectiveness:** Evidence from countries that have implemented opt-out systems (e.g.,
 Spain, Austria, Wales) shows dramatic increases in donation rates, often exceeding $90\%$. This is
-Because of **status quo bias** and **inertia**: people tend to stick with the default option rather
-Than actively changing it.
+because of **status quo bias** and **inertia**: people tend to stick with the default option rather
+than actively changing it.
 
 **Ethical considerations:**
 
@@ -453,11 +481,15 @@ Occurs, the incumbent decides whether to accommodate or fight (engage in a price
 
 **Payoffs (entrant, incumbent):**
 
+<div class="table-wrap">
+
 | Path               | Entrant  | Incumbent |
 | ------------------ | -------- | --------- |
 | Stay out           | (0, 10)  | --        |
 | Enter, Accommodate | (3, 5)   | --        |
 | Enter, Fight       | (-2, -1) | --        |
+
+</div>
 
 **Backward induction:**
 
@@ -482,16 +514,22 @@ defects, switch to the Nash equilibrium (competitive) outcome forever.
 For collusion to be sustainable, the present value of cooperation must exceed the one-time gain From
 defection:
 
-$$\frac{\pi_{\text{collusion}}}{1 - \delta} \geq \pi_{\text{defection}} + \frac{\delta \cdot \pi_{\text{Nash}}}{1 - \delta}$$
+$$
+\frac{\pi_{\text{collusion}}}{1 - \delta} \geq \pi_{\text{defection}} + \frac{\delta \cdot \pi_{\text{Nash}}}{1 - \delta}
+$$
 
 Where $\delta$ is the discount factor ($0 < \delta < 1$). Rearranging:
 
-$$\delta \geq \frac{\pi_{\text{defection}} - \pi_{\text{collusion}}}{\pi_{\text{defection}} - \pi_{\text{Nash}}}$$
+$$
+\delta \geq \frac{\pi_{\text{defection}} - \pi_{\text{collusion}}}{\pi_{\text{defection}} - \pi_{\text{Nash}}}
+$$
 
 **Numerical example:** In the pricing game from earlier, $\pi_{\text{collusion}} = 8$ (High, High),
 $\pi_{\text{defection}} = 12$ (Low while other plays High), $\pi_{\text{Nash}} = 5$ (Low, Low).
 
-$$\delta \geq \frac{12 - 8}{12 - 5} = \frac{4}{7} = 0.571$$
+$$
+\delta \geq \frac{12 - 8}{12 - 5} = \frac{4}{7} = 0.571
+$$
 
 If $\delta \geq 0.571$ (i.e., firms value future profits at least 57.1% as much as current Profits),
 collusion is sustainable. This requires:
@@ -518,7 +556,7 @@ collusion is sustainable. This requires:
 
 The dramatic difference between Cournot and Bertrand outcomes (oligopoly power vs. Perfect
 Competition) highlights the importance of the strategic variable (quantity vs. Price) and the
-Assumption about product differentiation.
+assumption about product differentiation.
 
 ### Stackelberg as a Sequential Game
 
@@ -572,7 +610,9 @@ People value goods more highly because they own them. In experiments, participan
 demanded a higher price to sell it than participants who did not own the mug were willing To pay to
 buy it.
 
-$$\text{WTA (willingness to accept)} > \text{WTP (willingness to pay)}$$
+$$
+\text{WTA (willingness to accept)} > \text{WTP (willingness to pay)}
+$$
 
 This violates the standard Coase theorem prediction that transaction costs aside, initial Ownership
 should not affect the efficiency of outcomes.
@@ -625,7 +665,7 @@ and follow the crowd because they assume the crowd is better informed.
 
 **Overconfidence:** investors overestimate their ability to pick winning stocks and underestimate
 Risk. This leads to excessive trading (reducing returns through transaction costs) and
-Under-diversification.
+under-diversification.
 
 **Representativeness in investing:** investors extrapolate past performance into the future,
 Assuming that recent high returns will continue. This contributes to momentum effects and Eventual
@@ -647,16 +687,20 @@ reversals.
 <summary>Problem 6: Sequential Game with Credible Threats</summary>
 
 Amazon is considering entering the market for online groceries in a country where FreshCo is the
-Dominant player. Amazon first decides whether to enter. If Amazon enters, FreshCo decides whether To
+dominant player. Amazon first decides whether to enter. If Amazon enters, FreshCo decides whether To
 accommodate (share the market) or fight (price war).
 
 Payoffs (Amazon, FreshCo):
+
+<div class="table-wrap">
 
 | Scenario                            | Amazon   | FreshCo |
 | ----------------------------------- | -------- | ------- |
 | Amazon stays out                    | (0, 20)  | --      |
 | Amazon enters, FreshCo accommodates | (5, 8)   | --      |
 | Amazon enters, FreshCo fights       | (-3, -2) | --      |
+
+</div>
 
 (a) Find the subgame perfect Nash equilibrium using backward induction.
 
@@ -698,13 +742,17 @@ SPNE: (Enter, Accommodate) with payoffs (5, 8).
 Two airlines, Alpha and Beta, compete on a route. Each can set a High or Low fare. Weekly payoffs
 (in millions):
 
+<div class="table-wrap">
+
 |                 | Beta: High | Beta: Low |
 | --------------- | ---------- | --------- |
 | **Alpha: High** | (6, 6)     | (1, 10)   |
 | **Alpha: Low**  | (10, 1)    | (3, 3)    |
 
+</div>
+
 The game is repeated weekly. Both airlines use a grim trigger strategy: cooperate (High fare) as
-Long as the other cooperates; if either defects (Low fare), play the Nash equilibrium (Low fare)
+long as the other cooperates; if either defects (Low fare), play the Nash equilibrium (Low fare)
 Forever.
 
 (a) What is the Nash equilibrium of the one-shot game?
@@ -723,7 +771,9 @@ both play Low. Nash equilibrium: (Low, Low) with payoffs (3, 3).
 Gain from defection: $10 - 6 = 4$ (one-time gain) Loss from punishment: $6 - 3 = 3$ per period
 forever
 
-$$\delta \geq \frac{4}{4 + 3} = \frac{4}{7} \approx 0.571$$
+$$
+\delta \geq \frac{4}{4 + 3} = \frac{4}{7} \approx 0.571
+$$
 
 The discount factor must be at least 0.571. If firms interact weekly and use a weekly discount Rate
 of $r$ Then $\delta = 1/(1 + r)$. For $\delta = 0.571$: $r \leq 0.751$ (75.1% per week), Which is
@@ -756,7 +806,7 @@ Effectiveness and potential drawbacks.
 **Behavioural principles applied:**
 
 1. **Status quo bias / inertia**: workers are automatically enrolled and must actively opt out.
-   Evidence from the UK (2006) and the US shows automatic enrolment increases participation to over
+   evidence from the UK (2006) and the US shows automatic enrolment increases participation to over
    90%
 
 2. **Default effect**: the default contribution rate of 6% anchors expectations. Research shows that
@@ -869,7 +919,9 @@ In common-value auctions, each bidder has an estimate of the item's true value, 
 are imperfect. The bidder with the highest estimate (the winner) is likely to have Overestimated the
 value, because the highest of several noisy estimates tends to exceed the True value.
 
-$$E[\text{True value} | \text{Winning} ] < \text{Winning bid}$$
+$$
+E[\text{True value} | \text{Winning} ] < \text{Winning bid}
+$$
 
 **Example:** bidding for an oil lease. Each firm commissions a geological survey estimating the
 Amount of oil. The firm with the highest estimate wins the auction but discovers that the Actual
@@ -937,7 +989,7 @@ to public goods (free riding). Experimental evidence consistently contradicts th
 ### Fairness and the Ultimatum Game
 
 In the ultimatum game, Player 1 proposes a split of a fixed sum (e.g., `USD 10`). Player 2 can
-Accept (both receive the proposed split) or reject (both receive nothing).
+accept (both receive the proposed split) or reject (both receive nothing).
 
 **Standard prediction:** Player 1 offers the minimum possible (e.g., `USD 0.01`); Player 2 Accepts
 because something is better than nothing.
@@ -1004,7 +1056,7 @@ who bids their true valuation (between 700 and 800). You would lose an item you 
 less than 800, earning a positive surplus.
 
 If you bid more (e.g., `USD 900`), you risk winning when the second-highest bid is between 800
-And 900. You would pay more than your valuation (800), earning a negative surplus.
+and 900. You would pay more than your valuation (800), earning a negative surplus.
 
 (b) You win if your bid (800) is the highest of the four bids. The other three bids are Uniformly
 distributed on [0, 1000]. The probability that all three are below 800 is:
@@ -1024,7 +1076,7 @@ Expected surplus unconditional: $0.512 \times 200 = \$102.40$.
 
 A village of 100 households is considering contributing to a new well that costs `USD 10,000`. Each
 household values the well at `USD 200`. The village leader proposes that each household Contributes
-`USD 100`With the government covering the remaining `USD 0` (since $100 \times 100 = 10,000$).
+`USD 100`. With the government covering the remaining `USD 0` (since $100 \times 100 = 10,000$).
 
 (a) Is this project socially efficient? Explain.
 
@@ -1075,7 +1127,7 @@ free-riding is possible.
 
 In the games discussed so far, all players know the payoffs of all other players. In reality,
 Players often have private information that others do not know. A **Bayesian game** (or **game of
-Incomplete information**) models this situation using probability distributions.
+incomplete information**) models this situation using probability distributions.
 
 **Harsanyi's transformation (1967):** any game of incomplete information can be represented as A
 Bayesian game by introducing **types** and **beliefs**:
@@ -1092,7 +1144,9 @@ response to the strategies of all other types, given their beliefs.
 
 Formally, for each player $i$ with type $\theta_i$:
 
-$$s_i^*(\theta_i) \in \arg\max_{s_i} \sum_{\theta_{-i}} p_i(\theta_{-i} | \theta_i) \cdot u_i(s_i, s_{-i}^*, \theta_i, \theta_{-i})$$
+$$
+s_i^*(\theta_i) \in \arg\max_{s_i} \sum_{\theta_{-i}} p_i(\theta_{-i} | \theta_i) \cdot u_i(s_i, s_{-i}^*, \theta_i, \theta_{-i})
+$$
 
 ### Worked Example: Entry Game with Incomplete Information
 
@@ -1102,23 +1156,27 @@ believes each is equally likely ($p = 0.5$).
 
 **Payoffs (entrant, incumbent):**
 
+<div class="table-wrap">
+
 | Scenario                               | Strong Incumbent | Weak Incumbent |
 | -------------------------------------- | ---------------- | -------------- |
 | Entrant stays out                      | (0, 10)          | (0, 10)        |
 | Entrant enters, Incumbent accommodates | (3, 5)           | (3, 5)         |
 | Entrant enters, Incumbent fights       | (-2, 3)          | (-2, -3)       |
 
+</div>
+
 **Analysis:**
 
 For the **strong** incumbent: if the entrant enters, compare Accommodate (5) vs. Fight (3). The
-Strong incumbent fights (payoff $3 > 5$ is false; actually $3 < 5$ So the strong incumbent
+strong incumbent fights (payoff $3 > 5$ is false; actually $3 < 5$ So the strong incumbent
 Accommodates). Wait -- let me re-examine. With payoffs as stated:
 
-For the **strong** incumbent: Accommodate $= 5$Fight $= 3$. Since $5 > 3$The strong Incumbent
+For the **strong** incumbent: Accommodate $= 5$ Fight $= 3$. Since $5 > 3$ The strong Incumbent
 accommodates.
 
-For the **weak** incumbent: Accommodate $= 5$Fight $= -3$. Since $5 > -3$The weak incumbent also
-Accommodates.
+For the **weak** incumbent: Accommodate $= 5$ Fight $= -3$. Since $5 > -3$ The weak incumbent also
+accommodates.
 
 In this case, the entrant knows the incumbent will always accommodate, so the entrant always Enters.
 This is not very interesting. Let me adjust the payoffs to create a meaningful Incomplete
@@ -1126,21 +1184,27 @@ information game:
 
 **Revised payoffs:**
 
+<div class="table-wrap">
+
 | Scenario                               | Strong Incumbent | Weak Incumbent |
 | -------------------------------------- | ---------------- | -------------- |
 | Entrant stays out                      | (0, 10)          | (0, 10)        |
 | Entrant enters, Incumbent accommodates | (3, 5)           | (3, 5)         |
 | Entrant enters, Incumbent fights       | (-2, 6)          | (-2, -3)       |
 
-For the **strong** incumbent: Accommodate $= 5$Fight $= 6$. Since $6 > 5$The strong incumbent
+</div>
+
+For the **strong** incumbent: Accommodate $= 5$ Fight $= 6$. Since $6 > 5$ The strong incumbent
 Fights.
 
-For the **weak** incumbent: Accommodate $= 5$Fight $= -3$. Since $5 > -3$The weak incumbent
+For the **weak** incumbent: Accommodate $= 5$ Fight $= -3$. Since $5 > -3$ The weak incumbent
 Accommodates.
 
 The entrant's expected payoff from entering:
 
-$$E[\text{payoff}] = 0.5 \times (-2) + 0.5 \times 3 = -1 + 1.5 = 0.5$$
+$$
+E[\text{payoff}] = 0.5 \times (-2) + 0.5 \times 3 = -1 + 1.5 = 0.5
+$$
 
 Since $0.5 > 0$ (the payoff from staying out), the entrant enters.
 
@@ -1163,14 +1227,18 @@ costs $c_L > c_H$.
 A **separating equilibrium** exists if the cost difference is large enough that high-productivity
 Workers obtain education while low-productivity workers do not:
 
-$$w_H - w_L > c_H \cdot e \quad \text{but} \quad w_H - w_L < c_L \cdot e$$
+$$
+w_H - w_L > c_H \cdot e \quad \text{but} \quad w_H - w_L < c_L \cdot e
+$$
 
 Where $e$ is the required education level, $w_H$ is the wage paid to educated workers, and $w_L$ is
-The wage paid to uneducated workers.
+the wage paid to uneducated workers.
 
 The separating equilibrium condition is:
 
-$$\frac{w_H - w_L}{c_H} > e > \frac{w_H - w_L}{c_L}$$
+$$
+\frac{w_H - w_L}{c_H} > e > \frac{w_H - w_L}{c_L}
+$$
 
 This interval must be non-empty for a separating equilibrium to exist.
 
@@ -1190,11 +1258,15 @@ despite the higher premium. The menu of contracts **screens** the two types.
 
 The screening condition for the safe type to choose partial coverage:
 
-$$u_s(\text{partial}) > u_s(\text{full})$$
+$$
+u_s(\text{partial}) > u_s(\text{full})
+$$
 
 And for the reckless type to choose full coverage:
 
-$$u_r(\text{full}) > u_r(\text{partial})$$
+$$
+u_r(\text{full}) > u_r(\text{partial})
+$$
 
 Where $u$ denotes expected utility under each contract.
 
@@ -1231,7 +1303,7 @@ achieve a desired outcome, anticipating how rational agents will respond.
 <summary>Problem 11: Bayesian Nash Equilibrium</summary>
 
 Two firms are bidding for a government contract. Firm 1's cost of completing the project is Either
-$c_L = 10$ or $c_H = 20$Each with probability 0.5. Firm 2's cost is always $c_2 = 15$. Firm 1 knows
+$c_L = 10$ or $c_H = 20$ Each with probability 0.5. Firm 2's cost is always $c_2 = 15$. Firm 1 knows
 its own cost but Firm 2 only knows the probability distribution.
 
 The government uses a first-price sealed-bid auction. The firm with the lowest bid wins and is Paid
@@ -1241,19 +1313,25 @@ its bid.
 
 (b) What is Firm 2's equilibrium bid?
 
-(a) Firm 1's strategy: if its cost is $c_L = 10$It bids $b_L$; if its cost is $c_H = 20$It bids
+(a) Firm 1's strategy: if its cost is $c_L = 10$ It bids $b_L$; if its cost is $c_H = 20$ It bids
 $b_H$.
 
 In a first-price auction with independent private values, the equilibrium bid for a player with Cost
 $c_i$ drawn from distribution $F$ on $[\underline{c}, \overline{c}]$ is:
 
-$$b_i(c_i) = \frac{1}{F(c_i)} \int_{\underline{c}}^{c_i} y \, f(y) \, dy$$
+$$
+b_i(c_i) = \frac{1}{F(c_i)} \int_{\underline{c}}^{c_i} y \, f(y) \, dy
+$$
 
 For Firm 1 with cost $c \sim \text{Uniform}[10, 20]$:
 
-$$b_1(c) = \frac{1}{(c - 10)/10} \int_{10}^{c} y \cdot \frac{1}{10} \, dy = \frac{10}{c - 10} \cdot \frac{y^2}{20} \bigg|_{10}^{c} = \frac{10}{c - 10} \cdot \frac{c^2 - 100}{20}$$
+$$
+b_1(c) = \frac{1}{(c - 10)/10} \int_{10}^{c} y \cdot \frac{1}{10} \, dy = \frac{10}{c - 10} \cdot \frac{y^2}{20} \bigg|_{10}^{c} = \frac{10}{c - 10} \cdot \frac{c^2 - 100}{20}
+$$
 
-$$b_1(c) = \frac{c^2 - 100}{2(c - 10)} = \frac{(c - 10)(c + 10)}{2(c - 10)} = \frac{c + 10}{2}$$
+$$
+b_1(c) = \frac{c^2 - 100}{2(c - 10)} = \frac{(c - 10)(c + 10)}{2(c - 10)} = \frac{c + 10}{2}
+$$
 
 When $c = 10$: $b_1 = (10 + 10)/2 = 10$ (bids at cost, earning zero surplus)
 
@@ -1275,7 +1353,9 @@ $b_1$ is uniform on $[10, 15]$.
 
 Firm 2 wins when its bid is below Firm 1's bid. Firm 2's expected profit when bidding $b_2$:
 
-$$E[\pi_2] = (b_2 - 15) \cdot P(b_2 < b_1) = (b_2 - 15) \cdot \frac{b_2 - 10}{5}$$
+$$
+E[\pi_2] = (b_2 - 15) \cdot P(b_2 < b_1) = (b_2 - 15) \cdot \frac{b_2 - 10}{5}
+$$
 
 Maximising: $\frac{d}{db_2}\left[(b_2 - 15)(b_2 - 10)\right] = 2b_2 - 25 = 0$
 
@@ -1293,7 +1373,7 @@ about the winner's bid relative to competitors' costs.
 
 A job applicant's productivity is either $\theta_H = 50$ or $\theta_L = 20$. The employer cannot
 Observe productivity but offers wage $w_H = 40$ to college graduates and $w_L = 25$ to
-Non-graduates. Education costs $e$ years; the cost per year is $c_H = 4$ for high-productivity
+non-graduates. Education costs $e$ years; the cost per year is $c_H = 4$ for high-productivity
 Workers and $c_L = 10$ for low-productivity workers.
 
 (a) Find the range of education levels $e$ that can sustain a separating equilibrium.
@@ -1337,7 +1417,7 @@ The student's reference point is a score of 60.
 
 (a) Calculate the expected value of each strategy.
 
-(b) Using prospect theory (loss aversion coefficient $\lambda = 2$Probability weighting function
+(b) Using prospect theory (loss aversion coefficient $\lambda = 2$ Probability weighting function
 $\pi(p) = p^{0.65}$), calculate the prospect theory value of each strategy.
 
 (c) Which strategy does prospect theory predict the student will choose?
@@ -1361,7 +1441,9 @@ Probability weights: $\pi(0.70) = 0.70^{0.65} = 0.792$, $\pi(0.30) = 0.30^{0.65}
 
 Prospect theory value:
 
-$$V_A = \pi(0.70) \cdot v(10) + \pi(0.30) \cdot v(-20)$$
+$$
+V_A = \pi(0.70) \cdot v(10) + \pi(0.30) \cdot v(-20)
+$$
 
 Using the value function $v(x) = x^{0.88}$ for gains and $v(x) = -\lambda|x|^{0.88}$ for losses:
 
@@ -1420,9 +1502,13 @@ A, as both strategies would involve only gains.
 When the prisoner's dilemma is repeated a known, finite number of times, backward induction Predicts
 defection in every round:
 
-$$\text{Round } T: \text{defect (no future punishment possible)}$$
+$$
+\text{Round } T: \text{defect (no future punishment possible)}
+$$
 $$\text{Round } T-1: \text{defect (round } T \text{ will be defection regardless)}$$ $$\vdots$$
-$$\text{Round 1: defect}$$
+$$
+\text{Round 1: defect}
+$$
 
 The unique subgame perfect equilibrium is (Defect, Defect) in every round.
 
@@ -1437,7 +1523,9 @@ Defects once, defect forever.
 **Cooperation condition:** cooperation is sustainable if the present discounted value of Cooperating
 exceeds the one-time gain from defection:
 
-$$\frac{g}{1 - \delta} \geq t$$
+$$
+\frac{g}{1 - \delta} \geq t
+$$
 
 Where:
 
@@ -1447,7 +1535,9 @@ Where:
 
 Rearranging:
 
-$$\delta \geq \frac{t - g}{t - p}$$
+$$
+\delta \geq \frac{t - g}{t - p}
+$$
 
 Where $p$ is the punishment payoff (mutual defection).
 
@@ -1455,10 +1545,14 @@ Where $p$ is the punishment payoff (mutual defection).
 
 Payoff matrix:
 
+<div class="table-wrap">
+
 |           | Cooperate | Defect |
 | --------- | --------- | ------ |
 | Cooperate | (3, 3)    | (0, 5) |
 | Defect    | (5, 0)    | (1, 1) |
+
+</div>
 
 $g = 3 - 1 = 2$, $t = 5$, $p = 1$.
 
@@ -1488,7 +1582,9 @@ competed against each other. The winner was **Tit-for-Tat** (Anatol Rapoport):
 1. **Oligopoly pricing:** firms in an oligopoly can sustain collusive (monopoly) pricing if the game
    is repeated and the discount factor is high enough. The condition is:
 
-$$\delta \geq \frac{1}{n}$$
+$$
+\delta \geq \frac{1}{n}
+$$
 
 Where $n$ is the number of firms. More firms make cooperation harder (the discount factor must Be
 higher). With 2 firms, $\delta \geq 0.5$; with 10 firms, $\delta \geq 0.9$.
@@ -1534,13 +1630,17 @@ $s_i = V + \epsilon_i$ Where $\epsilon_i$ is noise.
 
 The expected value of $V$ given that you won the auction is:
 
-$$E[V | s_i \text{ is the highest signal}] < s_i$$
+$$
+E[V | s_i \text{ is the highest signal}] < s_i
+$$
 
 Because winning the auction provides information that your signal was likely the most optimistic.
 
 **Mitigation:** rational bidders should shade their bids below their signal:
 
-$$\text{Optimal bid} = s_i - \frac{\sigma^2}{s_i}$$
+$$
+\text{Optimal bid} = s_i - \frac{\sigma^2}{s_i}
+$$
 
 Where $\sigma^2$ is the variance of the signal noise. The more uncertain the value, the more Bidders
 should shade their bids.
@@ -1577,10 +1677,14 @@ Company A should bid approximately 96 million rather than 100 million to avoid t
 Two firms, A and B, compete in a market. They can either set a high price (cooperate) or a low Price
 (defect). The payoff matrix (annual profits in USD million) is:
 
+<div class="table-wrap">
+
 |            | High Price | Low Price |
 | ---------- | ---------- | --------- |
 | High Price | (10, 10)   | (0, 15)   |
 | Low Price  | (15, 0)    | (3, 3)    |
+
+</div>
 
 The discount factor is $\delta = 0.8$.
 
@@ -1597,7 +1701,7 @@ Equilibrium is (Low Price, Low Price) with payoffs (3, 3).
 
 Grim trigger condition: $\delta \geq (t - g)/(t - p) = (15 - 10)/(15 - 3) = 5/12 = 0.417$
 
-Since $\delta = 0.8 > 0.417$Cooperation is sustainable. The present value of cooperation:
+Since $\delta = 0.8 > 0.417$ Cooperation is sustainable. The present value of cooperation:
 $10 + 10(0.8) + 10(0.8)^2 + \cdots = 10/(1 - 0.8) = 50$.
 
 The present value of defection:
@@ -1609,7 +1713,7 @@ $50 > 27$: cooperation yields higher lifetime profits.
 
 $\delta \geq 1/n = 1/3 = 0.333$
 
-Since $\delta = 0.8 > 0.333$Cooperation is still sustainable in theory. However, with more Firms,
+Since $\delta = 0.8 > 0.333$ Cooperation is still sustainable in theory. However, with more Firms,
 the incentive to defect increases because each firm's share of the cooperative payoff Decreases, and
 monitoring becomes harder. The probability of accidental defection or deviation Rises with the
 number of firms.
@@ -1628,9 +1732,11 @@ marks]
 revenue is the same as the first-price auction. [5 marks]
 
 (a) In a first-price sealed-bid auction with two bidders and valuations uniformly distributed on
-$[0, V]$The symmetric equilibrium bidding strategy is:
+$[0, V]$ The symmetric equilibrium bidding strategy is:
 
-$$b(v) = \frac{n-1}{n} \cdot v = \frac{1}{2} v$$
+$$
+b(v) = \frac{n-1}{n} \cdot v = \frac{1}{2} v
+$$
 
 Each bidder shades their bid to half their valuation.
 
@@ -1725,7 +1831,7 @@ incomplete monitoring:
 ### Behavioural Economics in Practice: UK Behavioural Insights Team
 
 The UK's Behavioural Insights Team ("Nudge Unit"), established in 2010, was the world's first
-Government unit dedicated to applying behavioural economics to policy:
+government unit dedicated to applying behavioural economics to policy:
 
 1. **Tax compliance:** sending letters informing taxpayers that "9 out of 10 people in your town pay
    their tax on time" increased on-time payments by 15 percentage points
@@ -1748,7 +1854,9 @@ In evolutionary game theory, strategies are not chosen rationally but spread thr
 Based on their relative fitness (payoff). The **replicator equation** describes how the Frequency of
 a strategy changes over time:
 
-$$\frac{dx_i}{dt} = x_i \left[ f_i(\mathbf{x}) - \bar{f}(\mathbf{x}) \right]$$
+$$
+\frac{dx_i}{dt} = x_i \left[ f_i(\mathbf{x}) - \bar{f}(\mathbf{x}) \right]
+$$
 
 Where:
 
@@ -1763,20 +1871,28 @@ Strategies with above-average fitness grow; those with below-average fitness shr
 A strategy $s^*$ is an **evolutionary stable strategy** if, when adopted by the entire population,
 No mutant strategy can invade:
 
-$$u(s^*, s^*) \geq u(s, s^*) \text{ for all } s$$
+$$
+u(s^*, s^*) \geq u(s, s^*) \text{ for all } s
+$$
 
 And for any neutral mutant ($u(s, s^*) = u(s^*, s^*)$):
 
-$$u(s^*, s) > u(s, s)$$
+$$
+u(s^*, s) > u(s, s)
+$$
 
 **Application to the Prisoner's Dilemma:**
 
 In a population of Cooperators and Defectors, the payoff matrix is:
 
+<div class="table-wrap">
+
 |           | Cooperate | Defect |
 | --------- | --------- | ------ |
 | Cooperate | (3, 3)    | (0, 5) |
 | Defect    | (5, 0)    | (1, 1) |
+
+</div>
 
 If the population fraction of Cooperators is $x$:
 
@@ -1788,7 +1904,9 @@ Average fitness: $\bar{f} = x(3x) + (1-x)(1+4x) = 3x^2 + 1 + 4x - x - 4x^2 = 1 +
 
 Replicator dynamics:
 
-$$\frac{dx}{dt} = x(3x - 1 - 3x + x^2) = x(x^2 - 1) = x(x-1)(x+1)$$
+$$
+\frac{dx}{dt} = x(3x - 1 - 3x + x^2) = x(x^2 - 1) = x(x-1)(x+1)
+$$
 
 Since $x \in [0, 1]$, $\frac{dx}{dt} < 0$ for all $x \in (0, 1)$. Cooperators always decline.
 
@@ -1798,7 +1916,7 @@ a one-shot prisoner's dilemma.
 ### Spatial Games and Cooperation
 
 When players interact with neighbours rather than randomly, cooperation can persist because
-Cooperators cluster together and benefit from mutual cooperation, while defectors at the Boundary of
+cooperators cluster together and benefit from mutual cooperation, while defectors at the Boundary of
 cooperator clusters are outcompeted.
 
 **Spatial prisoner's dilemma:** if each cell in a grid plays the prisoner's dilemma with its Four
@@ -1815,10 +1933,14 @@ This explains why cooperation is observed in nature despite the prisoner's dilem
 
 The Hawk-Dove game models conflict over a resource of value $V$:
 
+<div class="table-wrap">
+
 |      | Hawk                                        | Dove                                    |
 | ---- | ------------------------------------------- | --------------------------------------- |
 | Hawk | $\left(\frac{V-C}{2}, \frac{V-C}{2}\right)$ | $(V, 0)$                                |
 | Dove | $(0, V)$                                    | $\left(\frac{V}{2}, \frac{V}{2}\right)$ |
+
+</div>
 
 Where $C$ is the cost of fighting.
 
@@ -1849,7 +1971,7 @@ $p = 4/(4+6) = 0.4$.
 The ESS is: play Hawk with probability 0.4, Dove with probability 0.6.
 
 In a population at equilibrium, 40% play Hawk and 60% play Dove. The average payoff for both
-Strategies is equal:
+strategies is equal:
 
 Hawk payoff $= 0.4 \times (-1) + 0.6 \times 4 = -0.4 + 2.4 = 2.0$
 
@@ -1934,7 +2056,7 @@ Check: $f_H = (2/3)(-1) + (1/3)(4) = -2/3 + 4/3 = 2/3$
 
 $f_D = (2/3)(0) + (1/3)(2) = 2/3$
 
-Now the payoffs are equal at $2/3$. The correct ESS is $p^* = V/C$Not $V/(V+C)$.
+Now the payoffs are equal at $2/3$. The correct ESS is $p^* = V/C$ Not $V/(V+C)$.
 
 (The formula $V/(V+C)$ applies to a different normalisation of the game. With the standard Payoffs
 above, the correct ESS is $p^* = V/C$.)
@@ -1985,7 +2107,9 @@ Future, leading to time-inconsistent preferences.
 
 **Quasi-hyperbolic discounting (Laibson, 1997):**
 
-$$U = u(c_t) + \beta \sum_{s=1}^{T} \delta^s u(c_{t+s})$$
+$$
+U = u(c_t) + \beta \sum_{s=1}^{T} \delta^s u(c_{t+s})
+$$
 
 Where $\beta < 1$ captures present bias ( $\beta \approx 0.7$) and $\delta$ is the Standard
 exponential discount factor.
@@ -2039,9 +2163,9 @@ intended use, treating money differently depending on the account.
 <summary>Question 4: Present Bias and Savings Behaviour (10 marks)</summary>
 
 A worker earns USD 50,000 per year and can save either USD 5,000 or USD 2,000 per year for
-Retirement. At age 25, the worker plans to save USD 5,000 per year for 40 years.
+retirement. At age 25, the worker plans to save USD 5,000 per year for 40 years.
 
-With $\beta = 0.7$ and $\delta = 0.95$The present bias makes the worker save only USD 2,000 per
+With $\beta = 0.7$ and $\delta = 0.95$ The present bias makes the worker save only USD 2,000 per
 year.
 
 (a) Calculate the retirement savings at age 65 under both plans, assuming a 5% annual return. [4
@@ -2085,21 +2209,25 @@ Evidence: SEED (Save, Earn, Enjoy Deposit) accounts in the Philippines increased
 percentage points among participants.
 
 Both policies work by changing the choice architecture or adding commitment mechanisms that
-Counteract present bias.
+counteract present bias.
 
 <summary>Question 5: Evolutionary Game Theory and International Cooperation (10 marks)</summary>
 
 Two countries are negotiating a climate agreement. Each can either Abide (reduce emissions) Or
-Defect (continue business as usual). The payoff matrix (welfare in USD billion) is:
+defect (continue business as usual). The payoff matrix (welfare in USD billion) is:
+
+<div class="table-wrap">
 
 |        | Abide    | Defect   |
 | ------ | -------- | -------- |
 | Abide  | (50, 50) | (10, 70) |
 | Defect | (70, 10) | (20, 20) |
 
+</div>
+
 (a) Find the Nash equilibrium of the one-shot game. [2 marks]
 
-(b) If the game is repeated indefinitely with discount factor $\delta$Find the minimum $\delta$ for
+(b) If the game is repeated indefinitely with discount factor $\delta$ Find the minimum $\delta$ for
 cooperation under grim trigger. [4 marks]
 
 (c) Explain how evolutionary game theory predicts the outcome in a population of countries where
@@ -2142,7 +2270,9 @@ mechanisms (enforcement, penalties, reputation).
 The **Nash bargaining solution** maximises the product of the players' gains over their Disagreement
 (threat) points:
 
-$$\max_{(u_1, u_2)} (u_1 - d_1)(u_2 - d_2)$$
+$$
+\max_{(u_1, u_2)} (u_1 - d_1)(u_2 - d_2)
+$$
 
 Subject to $u_1 \geq d_1$, $u_2 \geq d_2$ And $(u_1, u_2)$ being feasible.
 
@@ -2161,7 +2291,7 @@ $\max_w (100 - w - 70)(w - 0) = (30 - w)w$
 
 FOC: $30 - 2w = 0 \implies w = 15$.
 
-The Nash solution gives $w = 15$With the firm earning profit $= 85$ and the union receiving
+The Nash solution gives $w = 15$ With the firm earning profit $= 85$ and the union receiving
 $u = 15$.
 
 **Alternative threat point:** if the union can strike and reduce the firm's profit to 20 During the
@@ -2172,7 +2302,7 @@ $\max_w (100 - w - 20)(w - 10) = (80 - w)(w - 10)$
 FOC: $80 - w - (w - 10) = 90 - 2w = 0 \implies w = 45$.
 
 The union's stronger threat point (strike pay of 10 vs. 0) raises the negotiated wage from 15 To 45.
-This illustrates a key insight: **bargaining power depends on the threat point.**
+this illustrates a key insight: **bargaining power depends on the threat point.**
 
 ### The Ultimatum Game
 
@@ -2266,7 +2396,7 @@ With the agreement, total welfare increases to 250. The surplus (70) must be div
 (a) Calculate the Nash bargaining solution. [3 marks]
 
 (b) If Country B's threat point improves to 90 (e.g., by signing an alternative agreement with
-Country C), what is the new Nash solution? [3 marks]
+country C), what is the new Nash solution? [3 marks]
 
 (c) Evaluate the Nash bargaining solution as a model of international negotiations. [4 marks]
 
@@ -2397,7 +2527,9 @@ Behavioural economics and experimental evidence demonstrate that people have **s
 
 Individuals maximise:
 
-$$U_i = x_i - \alpha_i \frac{1}{n-1} \sum_{j \neq i} \max(x_j - x_i, 0) - \beta_i \frac{1}{n-1} \sum_{j \neq i} \max(x_i - x_j, 0)$$
+$$
+U_i = x_i - \alpha_i \frac{1}{n-1} \sum_{j \neq i} \max(x_j - x_i, 0) - \beta_i \frac{1}{n-1} \sum_{j \neq i} \max(x_i - x_j, 0)
+$$
 
 Where:
 
@@ -2506,7 +2638,7 @@ threshold (the "aspiration level"), rather than searching for the optimal option
 1. Define an aspiration level $A$
 2. Search options sequentially
 3. Accept the first option with value $v \geq A$
-4. If no option meets $A$Adjust $A$ downward (reduce aspirations)
+4. If no option meets $A$ Adjust $A$ downward (reduce aspirations)
 
 **Contrast with optimisation:**
 
@@ -2553,7 +2685,7 @@ with $U \geq 5$.
 If the consumer evaluates plans in random order, the average number of plans evaluated Before
 finding one with $U \geq 5$ depends on the distribution of $U$ across plans.
 
-If 30% of plans have $U \geq 5$The expected number of evaluations before acceptance is
+If 30% of plans have $U \geq 5$ The expected number of evaluations before acceptance is
 $1/0.30 = 3.3$ plans. The satisficer evaluates 3.3 plans on average, compared to 100 for The
 optimiser.
 
@@ -2579,7 +2711,7 @@ Daniel Kahneman (2011) distinguished two modes of thinking:
 - Analytical, effortful, logical
 - Requires attention and cognitive resources
 - Can override System 1 but is lazy (minimises effort)
-- Example: solving $17 \times 24$Comparing investment options
+- Example: solving $17 \times 24$ Comparing investment options
 
 **Economic implications:**
 
@@ -2601,10 +2733,14 @@ equilibria. The challenge is to coordinate on one equilibrium.
 
 Two firms choose between Technology A and Technology B.
 
+<div class="table-wrap">
+
 |        | Tech A | Tech B |
 | ------ | ------ | ------ |
 | Tech A | (5, 5) | (0, 0) |
 | Tech B | (0, 0) | (3, 3) |
+
+</div>
 
 Two pure-strategy Nash equilibria: (A, A) and (B, B). Both firms prefer (A, A) but must Coordinate.
 If each firm expects the other to choose A, both choose A. If each expects B, Both choose B.
@@ -2620,10 +2756,14 @@ If each firm expects the other to choose A, both choose A. If each expects B, Bo
 
 ### Battle of the Sexes
 
+<div class="table-wrap">
+
 |          | Opera  | Football |
 | -------- | ------ | -------- |
 | Opera    | (3, 2) | (0, 0)   |
 | Football | (0, 0) | (2, 3)   |
+
+</div>
 
 Two Nash equilibria: (Opera, Opera) and (Football, Football). Each player prefers a Different
 equilibrium. This models situations where players want to coordinate but have Different preferences
@@ -2644,15 +2784,19 @@ probability 0.4.
 
 ### Stag Hunt Game
 
+<div class="table-wrap">
+
 |      | Stag   | Hare   |
 | ---- | ------ | ------ |
 | Stag | (4, 4) | (0, 3) |
 | Hare | (3, 0) | (2, 2) |
 
+</div>
+
 Two Nash equilibria: (Stag, Stag) with payoff (4, 4) and (Hare, Hare) with payoff (2, 2).
 
 The Stag equilibrium is Pareto-superior but risk-dominant only if players trust each other. If
-Player 1 is unsure whether Player 2 will cooperate, playing Hare is safer (guaranteed 2 Vs. Risky 0
+player 1 is unsure whether Player 2 will cooperate, playing Hare is safer (guaranteed 2 Vs. Risky 0
 or 4).
 
 **Application to international cooperation:** the Stag Hunt models climate agreements. Full
@@ -2669,7 +2813,7 @@ structure.
 **Examples:**
 
 1. Two people must meet in New York City on a given day but cannot communicate. Many coordinate on
-   Grand Central Station at noon (the most prominent meeting point)
+   grand Central Station at noon (the most prominent meeting point)
 2. Two people must name a positive number. If they name the same number, they both win a prize. Many
    coordinate on "1" (the simplest number)
 3. In the Stag Hunt, shared norms, communication, or institutional frameworks can serve as focal
@@ -2688,16 +2832,6 @@ equilibrium (no run) coexists with the inefficient equilibrium (run).
 
 **Policy solution:** deposit insurance (FDIC in the US) eliminates the incentive to run by
 Guaranteeing deposits. This changes the payoff structure, eliminating the run equilibrium.
-
-```mermaid
-flowchart TD
-    A[1_Game Theory And Behavioural] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

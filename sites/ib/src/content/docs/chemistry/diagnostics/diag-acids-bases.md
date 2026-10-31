@@ -17,17 +17,6 @@ tableOfContents: false
 
 ## Acids and Bases, Diagnostic Tests
 
-
-```mermaid
-flowchart TD
-    A[Diag Acids Bases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Acids and bases are like chemical opposites, they neutralize each other in a proton-transfer handshake:** The pH scale measures the intensity of acidity or basicity, governing everything from enzyme function to ocean chemistry
@@ -206,7 +195,7 @@ $\text{pH} = -\log(9.27 \times 10^{-5}) = 4.03$
 Justification for ignoring second dissociation: $K_{a2} \ll K_{a1}$ (ratio $\approx 10^{-4}$). The
 second dissociation ($\text{HCO}_3^- \rightleftharpoons \text{H}^+ + \text{CO}_3^{2-}$) produces a
 negligible additional $[\text{H}^+]$ compared to the first. The additional $[\text{H}^+]$ from the
-second step would be approximately $K_{a2} \approx 4.8 \times 10^{-11}$Which is orders of magnitude
+second step would be approximately $K_{a2} \approx 4.8 \times 10^{-11}$ Which is orders of magnitude
 smaller than $9.27 \times 10^{-5}$. The second dissociation contributes less than $0.00005\%$ of the
 total $[\text{H}^+]$.
 

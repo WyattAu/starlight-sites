@@ -134,7 +134,7 @@ case 4:
 
 ## For Loops
 
-Go has exactly one looping construct: `for`. There is no `while`No `do-while`No `loop`.
+Go has exactly one looping construct: `for`. There is no `while`. No `do-while`. No `loop`.
 
 ### Classic For
 
@@ -256,7 +256,7 @@ for _, p := range items {
 
 ## Break and Continue
 
-`break` exits the innermost `for``switch`Or `select`. `continue` skips to the next iteration of The
+`break` exits the innermost `for`, `switch` or `select`. `continue` skips to the next iteration of The
 innermost `for` loop.
 
 ### Labeled Break
@@ -315,7 +315,7 @@ invalid:
 }
 ```
 
-`goto` is rarely used in idiomatic Go. Prefer structured control flow (`for``if`Functions).
+`goto` is rarely used in idiomatic Go. Prefer structured control flow (`for`, `if`Functions).
 
 ## Defer
 
@@ -396,17 +396,6 @@ Fix: pass as an argument `go func(val int) { ... }(v)`.
 3. **Range copies values.** Modifying the range variable does not modify the original element. Use
    index-based access for mutations.
 
-
-```mermaid
-flowchart TD
-    A[Control Flow] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of control flow, including underlying theory, practical
@@ -420,13 +409,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

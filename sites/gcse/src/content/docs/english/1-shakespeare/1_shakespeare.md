@@ -29,14 +29,14 @@ categories:
 
 William Shakespeare (1564--1616) is the only writer whose work is prescribed on every GCSE English
 Literature specification in the United Kingdom. This is not merely an act of institutional
-Conservatism. Shakespeare"s plays occupy a unique position in the English literary canon: they are
-The most frequently performed, the most widely studied, and the most thoroughly critiqued works in
-The language. They have shaped the development of English drama, influenced virtually every major
+Conservatism. Shakespeare's plays occupy a unique position in the English literary canon: they are
+the most frequently performed, the most widely studied, and the most thoroughly critiqued works in
+the language. They have shaped the development of English drama, influenced virtually every major
 Writer who followed, and continue to be adapted into film, fiction, and theatre worldwide.
 
 From an examination perspective, Shakespeare tests the full range of literary-critical skills: close
 Reading of complex language, interpretation of dramatic structure, analysis of character development
-Across an entire play, and the integration of historical context into literary argument. A student
+across an entire play, and the integration of historical context into literary argument. A student
 Who can write well about Shakespeare can write well about almost anything on the syllabus.
 
 ## 2. Shakespeare's Context
@@ -44,10 +44,10 @@ Who can write well about Shakespeare can write well about almost anything on the
 ### 2.1 Elizabethan and Jacobean England
 
 Shakespeare's career spanned the reigns of Elizabeth I (1558--1603) and James I (1603--1625). The
-Transition from the Elizabethan to the Jacobean period coincides with a shift in the tone and
-Subject matter of the plays. The comedies of the 1590s tend toward romance and festive resolution;
+transition from the Elizabethan to the Jacobean period coincides with a shift in the tone and
+subject matter of the plays. The comedies of the 1590s tend toward romance and festive resolution;
 The tragedies of the early 1600s are darker, more psychologically complex, and more preoccupied with
-Political instability.
+political instability.
 
 Key contextual factors for GCSE study include:
 
@@ -69,8 +69,8 @@ Key contextual factors for GCSE study include:
 ### 2.2 The Globe Theatre
 
 Shakespeare's plays were performed at the Globe Theatre on the south bank of the Thames from 1599.
-Understanding the physical conditions of the Globe is essential to understanding how the plays work
-As drama.
+understanding the physical conditions of the Globe is essential to understanding how the plays work
+as drama.
 
 - **The stage was thrust into the audience.** There was no proscenium arch separating actors from
   spectators. Audience members stood in the yard (the "groundlings") or sat in the galleries that
@@ -90,7 +90,7 @@ As drama.
 ### 2.3 Acting Companies
 
 Shakespeare was a shareholder in the Lord Chamberlain's Men (later the King's Men), one of two
-Leading playing companies in London. The company system shaped the plays in several ways:
+leading playing companies in London. The company system shaped the plays in several ways:
 
 - **Fixed repertoire.** A company might have thirty or more plays in active rotation. This meant
   that plays had to be memorable and immediately engaging -- there was no expectation that the
@@ -114,7 +114,7 @@ Cadence of spoken English, which is one reason it is so effective for drama.
 
 The regularity of the iambic pentameter provides a structural baseline against which Shakespeare
 Creates expressive variation. A line that departs from the pattern draws attention to itself and
-Signals emotional disturbance, urgency, or significance.
+signals emotional disturbance, urgency, or significance.
 
 ### 3.2 Blank Verse
 
@@ -153,7 +153,7 @@ English than to Middle English (Chaucer) but retains features that can cause dif
 ### 3.5 Wordplay, Puns, and Double Meanings
 
 Shakespeare is extraordinarily fond of wordplay. His puns range from crude bawdy humour to
-Sophisticated intellectual irony. In _Macbeth_, the Porter's scene (2.3) is a tour de force of
+sophisticated intellectual irony. In _Macbeth_, the Porter's scene (2.3) is a tour de force of
 Equivocation -- the pun on "lie" (to recline, to tell a falsehood, to have sexual intercourse)
 Simultaneously provides comic relief and deepens the play's thematic preoccupation with deception.
 In _Richard III_, Gloucester's opening line -- "Now is the winter of our discontent / Made glorious
@@ -165,19 +165,19 @@ Yorkist faction.
 Shakespeare's figurative language is his most powerful analytical tool. Extended metaphors (or
 **conceits**) structure whole passages or scenes. The "taper" (candle) metaphor in _Macbeth_ 5.5 --
 "She should have died hereafter; / There would have been a time for such a word" -- develops into
-The image of life as a "poor player / That struts and frets his hour upon the stage," linking the
-Themes of mortality, performance, and meaninglessness.
+the image of life as a "poor player / That struts and frets his hour upon the stage," linking the
+themes of mortality, performance, and meaninglessness.
 
 Imagery clusters are crucial for GCSE analysis. In _Macbeth_, the recurring imagery of blood,
 Darkness, and disorder reinforces the play's central concerns with guilt and the corruption of the
-Natural order. In _Romeo and Juliet_, the opposition between light and dark imagery structures the
-Presentation of the lovers' relationship. Students should trace imagery patterns across a play
-Rather than treating individual images in isolation.
+natural order. In _Romeo and Juliet_, the opposition between light and dark imagery structures the
+presentation of the lovers' relationship. Students should trace imagery patterns across a play
+rather than treating individual images in isolation.
 
 ## 4. Key Plays by Category
 
 Shakespeare's plays are traditionally divided into three genres: tragedy, comedy, and history. (The
-First Folio of 1623 adds a fourth category -- "tragi-comedy" -- for _Cymbeline_, _The Winter's
+first Folio of 1623 adds a fourth category -- "tragi-comedy" -- for _Cymbeline_, _The Winter's
 Tale_, and _The Tempest_.) The genre conventions of each category provide an analytical framework:
 Tragedy follows the fall of a great figure through fatal error; comedy moves toward social
 Reconciliation and marriage; history dramatises the English monarchy.
@@ -187,13 +187,13 @@ Reconciliation and marriage; history dramatises the English monarchy.
 #### Macbeth (c. 1606)
 
 The most commonly set Shakespeare play on GCSE specifications, _Macbeth_ dramatises the murder of
-King Duncan by the Scottish thane Macbeth, egged on by his wife and the prophecies of the Weird
+king Duncan by the Scottish thane Macbeth, egged on by his wife and the prophecies of the Weird
 Sisters. The play traces Macbeth's descent from heroic warrior to paranoid tyrant and his eventual
 Defeat and death.
 
 **Key themes:** Ambition and its consequences; the corruption of power; the relationship between
 Masculinity and violence; fate versus free will; kingship and the natural order; guilt and
-Psychological disintegration; appearance versus reality.
+psychological disintegration; appearance versus reality.
 
 **Key scenes for analysis:**
 
@@ -216,9 +216,9 @@ Psychological disintegration; appearance versus reality.
 #### Romeo and Juliet (c. 1595)
 
 Set in Verona, the play tells the story of two young lovers from feuding families, the Montagues and
-The Capulets, whose secret marriage ends in both their deaths. The play is notable for its extreme
+the Capulets, whose secret marriage ends in both their deaths. The play is notable for its extreme
 Compression of time (the entire action takes place over fewer than five days) and its blending of
-Tragic and comic elements.
+tragic and comic elements.
 
 **Key themes:** Love versus hate; the destructive power of feuding; fate and coincidence; youth
 Versus age; the individual versus society; passion and reason.
@@ -250,7 +250,7 @@ Versus age; the individual versus society; passion and reason.
   is among the most profound in Shakespeare.
 - **Hamlet (c. 1600--01):** The tragedy of indecision. Hamlet's delay in avenging his father's
   murder by his uncle Claudius has generated more critical commentary than any other aspect of
-  Shakespeare. The play's self-consciousness about theatre ("the play within the play") and its
+  shakespeare. The play's self-consciousness about theatre ("the play within the play") and its
   preoccupation with death, madness, and moral corruption make it the most intellectually demanding
   of the tragedies.
 
@@ -260,7 +260,7 @@ Versus age; the individual versus society; passion and reason.
 
 Set in Messina, the play interweaves two love plots: the witty, combative courtship of Beatrice and
 Benedick, and the conventional romance of Claudio and Hero. The near-destruction of Hero through
-False accusation introduces a serious dimension that complicates the comic tone.
+false accusation introduces a serious dimension that complicates the comic tone.
 
 **Key themes:** Deception (both malignant and benign); honour and reputation; gender roles; the
 Contrast between appearance and reality; the power of language (gossip, slander, persuasion).
@@ -281,7 +281,7 @@ Contrast between appearance and reality; the power of language (gossip, slander,
 
 A comedy of mistaken identity, gender disguise, and unrequited love. Viola, shipwrecked in Illyria,
 Disguises herself as a man (Cesario) and enters the service of Duke Orsino, with whom she falls in
-Love. Orsino, however, is in love with Olivia, who falls in love with Cesario -- not realising that
+love. Orsino, however, is in love with Olivia, who falls in love with Cesario -- not realising that
 Cesario is Viola.
 
 **Key themes:** Love and desire (in all their irrationality); gender and identity; performance and
@@ -316,11 +316,11 @@ Disguise; madness (both feigned and genuine); social class and ambition; the pai
 The final play in Shakespeare's first tetralogy of English history plays. Richard, Duke of
 Gloucester, systematically eliminates his rivals -- including his own brother Clarence and the young
 Princes in the Tower -- to seize the throne. His brief reign ends with defeat and death at the
-Battle of Bosworth Field in 1485.
+battle of Bosworth Field in 1485.
 
 **Key themes:** The corrupting pursuit of power; the relationship between physical deformity and
 Moral character; divine retribution and providential history; the theatricality of politics; the
-Role of women as witnesses and victims of male violence.
+role of women as witnesses and victims of male violence.
 
 **Key scenes for analysis:**
 
@@ -335,7 +335,7 @@ Role of women as witnesses and victims of male violence.
 
 The play follows the young King Henry V's campaign in France, culminating in the Battle of Agincourt
 (1415). It is a complex text that resists simple categorisation as either patriotic celebration or
-Anti-war critique.
+anti-war critique.
 
 **Key themes:** Leadership and kingship; war and its costs; nationalism and identity; the burden of
 Power; rhetoric and persuasion.
@@ -382,28 +382,28 @@ When analysing a soliloquy, address the following elements:
 ## 6. Shakespearean Criticism
 
 Engaging with critical perspectives can elevate a GCSE response, although it is not required by any
-Specification. The following are key critical traditions relevant to the plays most commonly studied
-At GCSE.
+specification. The following are key critical traditions relevant to the plays most commonly studied
+at GCSE.
 
 ### 6.1 Samuel Johnson (1765)
 
 Johnson's _Preface to Shakespeare_ defended Shakespeare against neoclassical criticism. He argued
-That Shakespeare's plays should be judged not by adherence to classical rules of unity (time, place,
+that Shakespeare's plays should be judged not by adherence to classical rules of unity (time, place,
 Action) but by their fidelity to human nature. Johnson praised Shakespeare's "just representation of
-General nature" -- his ability to create characters who are universal in their recognisability.
+general nature" -- his ability to create characters who are universal in their recognisability.
 
 ### 6.2 A.C. Bradley (1904)
 
 Bradley's _Shakespearean Tragedy_ established the character-based approach to Shakespeare criticism
-That still dominates secondary education. Bradley treated Shakespeare's characters as if they were
-Real people whose motivations could be analysed psychologically. His readings of Hamlet, Othello,
+that still dominates secondary education. Bradley treated Shakespeare's characters as if they were
+real people whose motivations could be analysed psychologically. His readings of Hamlet, Othello,
 Lear, and Macbeth remain influential, though they have been challenged for treating the plays as if
-They were novels rather than drama.
+they were novels rather than drama.
 
 ### 6.3 Jan Kott (1961)
 
 In _Shakespeare Our Contemporary_, Kott argued that Shakespeare's plays spoke directly to the
-Anxieties of the twentieth century: totalitarianism, existential absurdity, and political violence.
+anxieties of the twentieth century: totalitarianism, existential absurdity, and political violence.
 His reading of _Macbeth_ as a study of political terror and _King Lear_ as an existential allegory
 Opened new avenues for performance and interpretation.
 
@@ -414,7 +414,7 @@ Greenblatt's _Renaissance Self-Fashioning_ (1980) and _Will in the World_ (2004)
 Shakespeare's plays engage with the political, religious, and social tensions of Elizabethan and
 Jacobean England. This approach is particularly relevant to GCSE because it directly addresses AO3
 (context). For example, reading _Macbeth_ through a New Historicist lens means attending not only to
-The play's internal themes of ambition and guilt but also to its engagement with the Gunpowder Plot,
+the play's internal themes of ambition and guilt but also to its engagement with the Gunpowder Plot,
 The Stuart succession, and contemporary anxieties about treason.
 
 ### 6.5 Feminist Criticism
@@ -422,7 +422,7 @@ The Stuart succession, and contemporary anxieties about treason.
 Feminist criticism examines the representation of women in Shakespeare's plays and the gender
 Dynamics that structure the dramatic action. Juliet Dusinberre's _Shakespeare and the Nature of
 Women_ (1975) argued that Shakespeare was more sympathetic to women than his contemporaries, while
-Critics such as Kathleen McLuskie have argued that the plays ultimately reinforce patriarchal
+critics such as Kathleen McLuskie have argued that the plays ultimately reinforce patriarchal
 Structures. For GCSE, feminist criticism is most useful when applied to characters such as Lady
 Macbeth, Beatrice, and Juliet, whose defiance of gender norms is central to their dramatic
 Significance.
@@ -434,19 +434,20 @@ Significance.
 Shakespeare's plays are divided into five acts, a convention inherited from Roman comedy. The
 Five-act structure follows this pattern:
 
+<div class="table-wrap">
+
 | Act                  | Function                                                                             |
 | -------------------- | ------------------------------------------------------------------------------------ |
 | Act 1                | **Exposition.** Introduction of characters, setting, and the central conflict.       |
 | Act 2                | **Rising action.** Development of the conflict; complications and obstacles.         |
-| Act 3                | **Climax.** The turning point of the play. In tragedy, this is often the point of no |
-| return.              |
-| Act 4                | **Falling action.** The consequences of the climax unfold. In tragedy, the hero's    |
-| decline accelerates. |
-| Act 5                | **Resolution.** The conclusion: in tragedy, death; in comedy, marriage and           |
-| reconciliation.      |
+| Act 3 | **Climax.** The turning point of the play. In tragedy, this is often the point of no return. |
+| Act 4 | **Falling action.** The consequences of the climax unfold. In tragedy, the hero's decline accelerates. |
+| Act 5 | **Resolution.** The conclusion: in tragedy, death; in comedy, marriage and reconciliation. |
+
+</div>
 
 Students should be able to identify the structural function of any given scene within this framework
-And to explain how Shakespeare uses structure to shape the audience's experience.
+and to explain how Shakespeare uses structure to shape the audience's experience.
 
 ### 7.2 Character
 
@@ -471,7 +472,7 @@ Themes.
 ### 7.4 Theme
 
 Shakespeare's plays explore themes through the interaction of character, language, and structure. A
-Thematic analysis should not merely list themes but should trace how they develop across the play.
+thematic analysis should not merely list themes but should trace how they develop across the play.
 For example, the theme of ambition in _Macbeth_ is introduced in Act 1, developed through Macbeth's
 Internal conflict, externalised in the murder of Duncan, intensified in the murders of Banquo and
 Macduff's family, and resolved only through Macbeth's death and Malcolm's restoration of order.
@@ -479,8 +480,8 @@ Macduff's family, and resolved only through Macbeth's death and Malcolm's restor
 ### 7.5 Context
 
 Contextual analysis must be integrated into the argument, not bolted on as an afterthought. The
-Strongest contextual points explain how a specific aspect of the play is shaped by, responds to, or
-Challenges the historical circumstances of its composition.
+strongest contextual points explain how a specific aspect of the play is shaped by, responds to, or
+challenges the historical circumstances of its composition.
 
 <details>
 <summary>Example: Integrating Context into a Paragraph on Macbeth</summary>
@@ -489,11 +490,11 @@ Shakespeare presents Macbeth's ambition as a force that violates the natural ord
 Contemplates the murder of Duncan, the imagery of cosmic disruption -- "Stars, hide your fires; /
 Let not light see my black and deep desires" (1.4) -- connects his personal ambition to the larger
 Framework of the Great Chain of Being. In Jacobean England, the murder of a divinely appointed king
-Was not merely a political act but a sacrilege that threatened to unravel the entire moral fabric of
-The universe. Shakespeare's audience, acutely aware of the recent Gunpowder Plot (1605), would have
-Understood Macbeth's regicide as a direct analogue to the Catholic conspiracy against James I. The
-Image of the stars hiding their light thus operates on both a personal level (Macbeth's desire to
-Conceal his thoughts) and a cosmic level (the disruption of the divine order).
+was not merely a political act but a sacrilege that threatened to unravel the entire moral fabric of
+the universe. Shakespeare's audience, acutely aware of the recent Gunpowder Plot (1605), would have
+understood Macbeth's regicide as a direct analogue to the Catholic conspiracy against James I. The
+image of the stars hiding their light thus operates on both a personal level (Macbeth's desire to
+conceal his thoughts) and a cosmic level (the disruption of the divine order).
 
 </details>
 
@@ -511,7 +512,7 @@ AQA requires the study of one Shakespeare play from the following set text list:
 - _Twelfth Night_
 
 The examination consists of a single essay question on the chosen play. Students are given an
-Extract from the play and must write about the extract and the play as a whole. The question carries
+extract from the play and must write about the extract and the play as a whole. The question carries
 34 marks (30 for content, 4 for SPaG). The paper is closed-book.
 
 ### Edexcel
@@ -526,7 +527,7 @@ Edexcel requires the study of one Shakespeare play from:
 - _Julius Caesar_
 
 The examination consists of two parts: a short extract-based question (10 marks) and a longer essay
-On the play as a whole (20 marks). The paper is closed-book.
+on the play as a whole (20 marks). The paper is closed-book.
 
 ### OCR
 
@@ -540,8 +541,8 @@ OCR requires the study of one Shakespeare play from:
 - _Twelfth Night_
 
 OCR also requires study of a pre-1900 poetry anthology alongside Shakespeare in Paper 1. The
-Shakespeare component is open-book: students may bring a clean copy of the play into the
-Examination. The question requires students to write about both an extract and the play as a whole.
+shakespeare component is open-book: students may bring a clean copy of the play into the
+examination. The question requires students to write about both an extract and the play as a whole.
 
 ### WJEC/Eduqas
 
@@ -601,17 +602,6 @@ answer using the appropriate terminology.
 Multi-step problems in Shakespeare often combine two or more concepts. Break the problem down:
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[1_Shakespeare] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

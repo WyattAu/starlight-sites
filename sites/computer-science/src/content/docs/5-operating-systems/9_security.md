@@ -42,12 +42,16 @@ Capability.
   original does not affect copies (solved by indirection: capabilities point to a kernel-managed
   object table entry that can be invalidated).
 
+<div class="table-wrap">
+
 | Property       | ACLs                   | Capabilities         |
 | -------------- | ---------------------- | -------------------- |
 | Association    | With objects           | With subjects        |
 | Revocation     | Easy (modify the list) | Difficult            |
 | Delegation     | Requires policy        | Natural (copy token) |
 | Implementation | POSIX, NTFS            | seL4, Capsicum, FUSE |
+
+</div>
 
 ### 9.2 Principle of Least Privilege
 
@@ -124,9 +128,11 @@ the damage from any single vulnerability.
 1. Fork a child process before performing any privileged operations.
 2. Drop all capabilities in the parent (monitor) using `prctl(PR_CAP_AMBIENT, PR_CAP_AMBIENT_DROP_ALL)`.
 3. Restrict IPC to a minimal set of verified message types.
-4. Use `seccomp` filters in the monitor to block dangerous syscalls (e.g., `execve``mount`).
+4. Use `seccomp` filters in the monitor to block dangerous syscalls (e.g., `execve`, `mount`).
 
 **Common privilege separation violations:**
+
+<div class="table-wrap">
 
 | Violation | Consequence | Mitigation |
 | --------- | ----------- | ---------- |
@@ -135,7 +141,11 @@ the damage from any single vulnerability.
 | setuid on complex binaries | Large attack surface for privilege escalation | Avoid setuid; use capability-based access instead |
 | Shared writable memory between privilege levels | Data corruption or privilege leakage | Use message-passing with strict validation |
 
+</div>
+
 ### 9.5 Summary of Key Relationships
+
+<div class="table-wrap">
 
 | Defence Layer | Mechanism | What It Prevents | Limitation |
 | ------------- | --------- | ---------------- | ---------- |
@@ -146,15 +156,7 @@ the damage from any single vulnerability.
 | Privilege separation | Limits damage from compromised components | Full system compromise | Complexity; IPC design errors |
 | Least privilege | Reduces attack surface | Unauthorised access | Requires careful capability analysis |
 
-```mermaid
-flowchart TD
-    A[9_Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 

@@ -20,7 +20,7 @@ categories:
 
 ## Generators (`std::generator<T>`) and Synchronous Yielding
 
-This section covers C++23's `std::generator<T>``co_yield` as syntactic sugar, lazy evaluation
+This section covers C++23's `std::generator<T>`, `co_yield` as syntactic sugar, lazy evaluation
 Semantics, a comparison with Python generators, and a complete Fibonacci generator example with
 Composable pipeline operations.
 
@@ -28,7 +28,7 @@ Composable pipeline operations.
 
 C++23 introduced `std::generator<T>` [N4950 §25.4.4], a standard library type that wraps a coroutine
 Producing a sequence of values via `co_yield`. It is an input iterator whose `operator++` resumes
-The coroutine and whose `operator*` returns the yielded value.
+the coroutine and whose `operator*` returns the yielded value.
 
 The declaration (simplified) [N4950 §25.4.4]:
 
@@ -40,7 +40,7 @@ class generator : public ranges::view_interface<generator<Ref, V, Allocator>> {
 ```
 
 `std::generator<T>` is a **view**, it is lightweight, non-owning, and models `input_range`. Values
-Are computed lazily on demand.
+are computed lazily on demand.
 
 ## `co_yield` as Syntactic Sugar
 
@@ -67,6 +67,8 @@ produced.
 
 ## Comparison with Python Generators
 
+<div class="table-wrap">
+
 | Feature                     | Python `generator`                        | C++ `std::generator<T>` (C++23)                |
 | :-------------------------- | :---------------------------------------- | :--------------------------------------------- |
 | Syntax                      | `yield expr`                              | `co_yield expr`                                |
@@ -76,6 +78,8 @@ produced.
 | Composable via `yield from` | Yes (`yield from gen`)                    | Via nested coroutine calls or range adapters   |
 | Exception propagation       | `throw` inside generator caught by caller | Same, exceptions propagate through `co_await` |
 | Standard library support    | Built-in since Python 2.2                 | C++23 (`<generator>`)                          |
+
+</div>
 
 ## Complete Example: Fibonacci Generator with `std::generator`
 
@@ -163,7 +167,7 @@ Sum: 4613732
 ```
 
 :::tip
-`std::views::filter``std::views::transform`Etc. However, be aware that range adaptors are eager On
+`std::views::filter`, `std::views::transform`. Etc. However, be aware that range adaptors are eager On
 the iteration step, each `++it` call on the adapted view will advance the underlying generator By
 one element.
 :::
@@ -186,8 +190,8 @@ When `co_yield expr` is executed, the coroutine:
 1. Evaluates `expr` and passes it to `promise.yield_value(expr)`.
 2. The promise stores the value (by reference, copy, or move depending on the signature).
 3. `yield_value` returns a suspend-awaiter ( `std::suspend_always`), suspending the coroutine.
-4. The caller advances the generator's iterator via `++it`Which resumes the coroutine.
-5. Execution continues after the `co_yield` until the next `co_yield``co_return`Or end of scope.
+4. The caller advances the generator's iterator via `++it`. Which resumes the coroutine.
+5. Execution continues after the `co_yield` until the next `co_yield`, `co_return` or end of scope.
 
 ```cpp
 #include <generator>
@@ -268,6 +272,8 @@ int main() {
 
 ## Generator vs Iterator
 
+<div class="table-wrap">
+
 | Aspect             | Manual Iterator                                         | `std::generator`                          |
 | :----------------- | :------------------------------------------------------ | :---------------------------------------- |
 | State storage      | Manual (member variables)                               | Automatic (coroutine frame)               |
@@ -278,10 +284,12 @@ int main() {
 | Composability      | Limited                                                 | Nest coroutines, use range adaptors       |
 | Memory overhead    | `sizeof(iterator)`                                      | Coroutine frame ( ~100-300 bytes)         |
 
+</div>
+
 ## Recursive Generators
 
 Generators can call themselves recursively. Each recursive invocation creates a new coroutine frame
-On the heap. This is useful for tree traversal, combinatorial generation, and recursive descent
+on the heap. This is useful for tree traversal, combinatorial generation, and recursive descent
 Parsing.
 
 ```cpp
@@ -419,6 +427,8 @@ int main() {
 
 ## Generator Performance Characteristics
 
+<div class="table-wrap">
+
 | Metric                     | Typical Value                                    |
 | :------------------------- | :----------------------------------------------- |
 | Coroutine frame allocation | 1 heap allocation per `std::generator` creation  |
@@ -426,6 +436,8 @@ int main() {
 | Resume/suspend overhead    | ~10–50ns (comparable to a virtual function call) |
 | Memory usage (per element) | $\mathcal{O}(1)$, no accumulation               |
 | Cache behavior             | Poor if frame is large and accessed infrequently |
+
+</div>
 
 :::caution
 Microsecond-latency systems, this can be a concern. C++26 is expected to add `std::generator` with
@@ -516,16 +528,6 @@ int main() {
 - **Range adaptor eager materialization.** Some range adaptors (like `std::views::reverse`) may need
   to buffer elements, defeating the lazy evaluation benefit of generators.
 
-```mermaid
-flowchart TD
-    A[3_Generators] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to generators (std::generator),
@@ -539,13 +541,7 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

@@ -41,14 +41,14 @@ HL, with additional material at HL level.
 ### 1. Number and Algebra
 
 This foundational topic covers the properties of number systems, algebraic manipulation, sequences
-And series, and the binomial theorem. It provides the algebraic tools required across all other
-Topics.
+and series, and the binomial theorem. It provides the algebraic tools required across all other
+topics.
 
 - **SL content:** Arithmetic and geometric sequences and series, sigma notation, the binomial
   theorem for positive integer exponents, logarithms (laws and solving equations), and proof by
   mathematical induction (simple cases).
 - **HL extension:** Counting principles and the binomial theorem for rational exponents. Partial
-  fractions, complex numbers (Cartesian, polar, and exponential forms, De Moivre"s theorem, roots of
+  fractions, complex numbers (Cartesian, polar, and exponential forms, De Moivre's theorem, roots of
   complex numbers), and proof by mathematical induction (extended cases including divisibility and
   inequalities).
 
@@ -62,7 +62,7 @@ Find the sum of the first 10 terms and the sum to infinity of the series $3 + 1.
 <details>
 <summary>Solution</summary>
 
-- **Identify:** $u_1 = 3$, $r = 1.5/3 = 0.5$. Since $|r| \lt 1$The sum to infinity converges.
+- **Identify:** $u_1 = 3$, $r = 1.5/3 = 0.5$. Since $|r| \lt 1$ The sum to infinity converges.
 - **Sum of first 10 terms:**
   $S_{10} = \dfrac{u_1(1 - r^{10})}{1 - r} = \dfrac{3(1 - 0.5^{10})}{1 - 0.5} = \dfrac{3(1 - 0.000977)}{0.5} = 5.994$
 - **Sum to infinity:** $S_\infty = \dfrac{u_1}{1 - r} = \dfrac{3}{0.5} = 6$
@@ -142,14 +142,14 @@ Let $f(x) = 2x + 1$ and $g(x) = x^2 - 3$. Find $(f \circ g)(x)$ and $f^{-1}(x)$.
 <summary>Solution</summary>
 
 - \*\*$(f \circ g)(x) = f(g(x)) = f(x^2 - 3) = 2(x^2 - 3) + 1 = 2x^2 - 5$
-- **$f^{-1}(x)$:** Set $y = 2x + 1$Swap $x$ and $y$: $x = 2y + 1$.
+- **$f^{-1}(x)$:** Set $y = 2x + 1$ Swap $x$ and $y$: $x = 2y + 1$.
 - $y = \dfrac{x - 1}{2}$ So $f^{-1}(x) = \dfrac{x - 1}{2}$
 
 </details>
 
 ### Worked Example: Factor and Remainder Theorems (HL)
 
-Given $f(x) = 2x^3 - 5x^2 + x + 2$Show that $(x - 2)$ is a factor and hence factorise $f(x)$
+Given $f(x) = 2x^3 - 5x^2 + x + 2$ Show that $(x - 2)$ is a factor and hence factorise $f(x)$
 Completely.
 
 <details>
@@ -165,7 +165,7 @@ Completely.
 ### 3. Geometry and Trigonometry
 
 This topic covers Euclidean geometry in two and three dimensions, trigonometric functions and
-Identities, and an introduction to vector geometry.
+identities, and an introduction to vector geometry.
 
 - **SL content:** Right-angled triangle trigonometry, the sine and cosine rules, area of a triangle
   using trigonometry, the unit circle and radian measure, trigonometric identities (Pythagorean,
@@ -190,7 +190,7 @@ In triangle $ABC$, $a = 8$ cm, $b = 5$ cm, and $A = 60$ degrees. Find angle $B$.
 - $\dfrac{8}{\sin 60^\circ} = \dfrac{5}{\sin B}$
 - $\sin B = \dfrac{5 \sin 60^\circ}{8} = \dfrac{5 \times 0.8660}{8} = 0.5413$
 - $B = \arcsin(0.5413) = 32.8$ degrees
-- **Check for ambiguous case:** Since $A = 60$ degrees $\lt 90$ and $b = 5 \lt 8 = a$There is only
+- **Check for ambiguous case:** Since $A = 60$ degrees $\lt 90$ and $b = 5 \lt 8 = a$ There is only
   one solution.
 
 </details>
@@ -232,7 +232,7 @@ $\mathbf{b} = \begin{pmatrix} 4 \\ -1 \\ 2 \end{pmatrix}$.
 ### 4. Statistics and Probability
 
 This topic covers descriptive statistics, probability theory, and statistical inference. It develops
-The ability to collect, analyse, and interpret data.
+the ability to collect, analyse, and interpret data.
 
 - **SL content:** Collection and organisation of data, measures of central tendency and dispersion,
   grouped data, cumulative frequency diagrams, box plots, probability (sample space, mutually
@@ -273,7 +273,7 @@ g. Find the probability that a randomly selected bag has mass greater than $515$
 ### Worked Example: Conditional Probability (SL)
 
 In a class of 40 students, 25 play football, 18 play basketball, and 10 play both. A student is
-Chosen at random. Given that they play basketball, find the probability they also play football.
+chosen at random. Given that they play basketball, find the probability they also play football.
 
 <details>
 <summary>Solution</summary>
@@ -288,7 +288,7 @@ Chosen at random. Given that they play basketball, find the probability they als
 ### 5. Calculus
 
 This topic introduces the fundamental concepts of differential and integral calculus. It is the most
-Heavily weighted topic in the examination and forms the basis for much of the HL extension work.
+heavily weighted topic in the examination and forms the basis for much of the HL extension work.
 
 - **SL content:** Limits and continuity (informal), differentiation of polynomial, exponential,
   logarithmic, and trigonometric functions, the chain, product, and quotient rules, applications of
@@ -331,7 +331,7 @@ the total surface area.
 - **Differentiate:** $\dfrac{dA}{dx} = 2x - \dfrac{1024}{x^2}$
 - **Set to zero:** $2x = \dfrac{1024}{x^2} \implies 2x^3 = 1024 \implies x^3 = 512 \implies x = 8$
 - **Find $h$:** $h = 256/64 = 4$
-- **Verify minimum:** $\dfrac{d^2A}{dx^2} = 2 + \dfrac{2048}{x^3}$At $x = 8$: $2 + 4 = 6 \gt 0$
+- **Verify minimum:** $\dfrac{d^2A}{dx^2} = 2 + \dfrac{2048}{x^3}$ At $x = 8$: $2 + 4 = 6 \gt 0$
   (minimum confirmed)
 - **Dimensions:** $8$ cm $\times$ $8$ cm $\times$ $4$ cm
 
@@ -367,7 +367,7 @@ Evaluate $\displaystyle\int x e^{2x}\,dx$.
 ### Discrete Mathematics (HL Extension)
 
 This additional topic is studied at HL level only. It covers logic, set theory, graph theory, and
-Algorithms.
+algorithms.
 
 - **Content:** Propositional and predicate logic, truth tables, logical equivalence, implications
   and contrapositives, set operations, Venn and Euler diagrams, and an introduction to graph theory
@@ -389,12 +389,16 @@ Algorithms.
 
 ## Assessment Overview
 
+<div class="table-wrap">
+
 | Component   | Description                                                                                                                                           | Weighting          |
 | :---------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- |
 | **Paper 1** | Non-calculator paper. Short-response and extended-response questions covering the full syllabus. Duration: 1.5h (SL), 2h (HL).                        | 40% (SL), 30% (HL) |
 | **Paper 2** | Graphical display calculator (GDC) required. Short-response and extended-response questions covering the full syllabus. Duration: 1.5h (SL), 2h (HL). | 40% (SL), 30% (HL) |
 | **Paper 3** | HL only. Extended-response problem-solving questions focusing on the HL extension material. Duration: 1h.                                             | 20% (HL)           |
 | **IA**      | Internal Assessment -- a mathematical exploration on a topic of the student's choosing, up to 12--20 pages.                                           | 20% (SL), 20% (HL) |
+
+</div>
 
 ---
 
@@ -441,7 +445,7 @@ $\displaystyle\int_a^b f(x)\,dx = F(b) - F(a)$
 ## Approaches to Problem-Solving
 
 IB Mathematics AA rewards clear, logical reasoning. The following strategies are applicable across
-All topics:
+all topics:
 
 - **Show all working:** Examination marks are awarded for method as well as for the final answer. An
   unexplained result receives no credit, even if numerically correct.
@@ -519,9 +523,9 @@ $S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$
 - $\Delta = 0$: One repeated real root
 - $\Delta \lt 0$: No real roots (two complex conjugate roots)
 
-**Vertex form:** $f(x) = a(x - h)^2 + k$Where $(h, k)$ is the vertex.
+**Vertex form:** $f(x) = a(x - h)^2 + k$ Where $(h, k)$ is the vertex.
 
-**Finding inverse:** Replace $f(x)$ with $y$Swap $x$ and $y$Solve for $y$ Then write $f^{-1}(x)$.
+**Finding inverse:** Replace $f(x)$ with $y$ Swap $x$ and $y$ Solve for $y$ Then write $f^{-1}(x)$.
 
 ### Calculus -- Key Results
 
@@ -571,7 +575,7 @@ $S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$
 
 1. **Wrong mode (radians vs degrees).** Most IB questions assume radians unless stated otherwise.
    Check your calculator mode before every exam.
-2. **Missing brackets.** $\dfrac{1}{2x}$ on a calculator requires `1/(2x)`Not `1/2x` (which the
+2. **Missing brackets.** $\dfrac{1}{2x}$ on a calculator requires `1/(2x)`. Not `1/2x` (which the
    calculator reads as $\dfrac{1}{2} \cdot x$).
 3. **Not using exact values when required.** If a question asks for an exact answer, do not use the
    GDC to give a decimal approximation.
@@ -596,7 +600,7 @@ $S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$
 This paper tests your algebraic fluency and conceptual understanding. Key strategies:
 
 - **Memorise exact values:**
-  $\sin 30^{\circ} = 1/2$$\cos 60^{\circ} = 1/2$$\tan 45^{\circ} = 1$$\sin 0 = 0$ $\cos 0 = 1$Etc.
+  $\sin 30^{\circ} = 1/2$$\cos 60^{\circ} = 1/2$$\tan 45^{\circ} = 1$$\sin 0 = 0$ $\cos 0 = 1$ Etc.
 - **Practise algebraic manipulation:** Partial fractions, simplifying expressions, solving equations
   without a calculator.
 - **Know your identities:** Double angle formulas, Pythagorean identities, and log laws should be at
@@ -640,6 +644,8 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 
 ### Algebra
 
+<div class="table-wrap">
+
 | Mistake                                        | Correction                                        |
 | :--------------------------------------------- | :------------------------------------------------ |
 | $\sqrt{a^2 + b^2} = a + b$                     | $\sqrt{a^2 + b^2} \neq a + b$                     |
@@ -648,7 +654,11 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 | $\ln(a+b) = \ln a + \ln b$                     | $\ln(ab) = \ln a + \ln b$ (product, not sum)      |
 | Forgetting $+C$ in indefinite integrals        | Always include the constant of integration        |
 
+</div>
+
 ### Calculus
+
+<div class="table-wrap">
 
 | Mistake                                                       | Correction                                                |
 | :------------------------------------------------------------ | :-------------------------------------------------------- |
@@ -658,7 +668,11 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 | Confusing $\dfrac{d}{dx}(\sin x)$ and $\dfrac{d}{dx}(\cos x)$ | $\sin x \to \cos x$; $\cos x \to -\sin x$                 |
 | Definite integral sign errors                                 | $\displaystyle\int_a^b = F(b) - F(a)$ (upper minus lower) |
 
+</div>
+
 ### Trigonometry
+
+<div class="table-wrap">
 
 | Mistake                        | Correction                                                          |
 | :----------------------------- | :------------------------------------------------------------------ |
@@ -666,13 +680,19 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 | Forgetting domain restrictions | $\sin x = 0.5$ has infinitely many solutions; state the range asked |
 | Radians vs degrees             | Check what the question specifies; default to radians               |
 
+</div>
+
 ### Probability and Statistics
+
+<div class="table-wrap">
 
 | Mistake                                    | Correction                                                                      |
 | :----------------------------------------- | :------------------------------------------------------------------------------ |
 | $P(A \mathrm{ or } B) = P(A) + P(B)$       | Only if mutually exclusive; otherwise $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ |
 | $P(A \mathrm{ and } B) = P(A) \times P(B)$ | Only if independent; otherwise use conditional probability                      |
 | Confusing $\mu$ and $\bar{x}$              | $\mu$ is the population mean; $\bar{x}$ is the sample mean                      |
+
+</div>
 
 ---
 
@@ -688,7 +708,7 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 ## Internal Assessment (IA) Tips
 
 The mathematical exploration is worth 20% of your final grade. It is an opportunity to explore a
-Topic of personal interest in depth.
+topic of personal interest in depth.
 
 ### Choosing a Topic
 
@@ -834,7 +854,7 @@ If you get this wrong, revise: Conditional probability and independence (Topic 4
 
 </details>
 
-1. A random variable $X \sim N(\mu, 9)$. Given $P(X \lt 22) = 0.8413$Find $\mu$.
+1. A random variable $X \sim N(\mu, 9)$. Given $P(X \lt 22) = 0.8413$ Find $\mu$.
 
 <details>
 <summary>Solution</summary>
@@ -926,24 +946,7 @@ Mathematics is the science of patterns. Algebra captures relationships between q
 
 4. Cancelling terms instead of factors, $\frac{ab + ac}{a}$ simplifies to $b + c$, not $bc$.
 
-
-```mermaid
-flowchart TD
-    A[Maths] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

@@ -147,12 +147,16 @@ def inner():
 outer()  # Works fine, RLock allows same thread to re-acquire
 ```
 
+<div class="table-wrap">
+
 | Feature               | `Lock`         | `RLock`                  |
 | --------------------- | -------------- | ------------------------ |
 | Reentrant             | No (deadlocks) | Yes                      |
 | Release by any thread | Yes            | No (must be same thread) |
 | `acquire()` counting  | No             | Yes                      |
 | Overhead              | Lower          | Slightly higher          |
+
+</div>
 
 :::caution
 thread must call `release()` the same number of times it called `acquire()`.
@@ -293,7 +297,7 @@ if __name__ == "__main__":
 ```
 
 :::caution
-Parent process memory (copy-on-write). On Windows, it uses `spawn()`Which re-imports the module.
+Parent process memory (copy-on-write). On Windows, it uses `spawn()`. Which re-imports the module.
 Always protect entry points with `if __name__ == "__main__"` to avoid infinite recursion on Windows.
 :::
 
@@ -562,10 +566,14 @@ Multiple native threads from executing Python bytecodes simultaneously.
 
 ### CPU-Bound vs I/O-Bound
 
+<div class="table-wrap">
+
 | Workload  | Threading                         | Multiprocessing                   |
 | --------- | --------------------------------- | --------------------------------- |
 | CPU-bound | No speedup (GIL bottleneck)       | Linear speedup (up to core count) |
 | I/O-bound | Speedup (GIL released during I/O) | Overkill (higher overhead)        |
+
+</div>
 
 ```python
 import threading
@@ -917,16 +925,6 @@ for t in threads: t.join()
 
 Use a `threading.Lock()` around `print()` calls or use the `logging` module which is thread-safe.
 
-```mermaid
-flowchart TD
-    A[05 Concurrency Primitives] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of concurrency primitives, including underlying theory,
@@ -939,9 +937,6 @@ practical implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

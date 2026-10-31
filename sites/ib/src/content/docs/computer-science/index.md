@@ -98,7 +98,7 @@ Sorting, searching, linked lists, stacks, queues, trees, and graphs
 ## Related Content
 
 - **A-Level Computer Science:**
-  [A-Level Computer Science](https://alevel.wyattau.com/docs/computer-science)
+  [A-Level Computer Science](https://alevel.wyattau.com/computer-science/)
 - **DSE Computer Science:**
   [DSE Computer Science](https://dse.wyattau.com/docs/dse/computer-science)
 - **University Computer Science:**
@@ -155,8 +155,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Computer Science content for the Ib qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -196,8 +194,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Cross-References
 

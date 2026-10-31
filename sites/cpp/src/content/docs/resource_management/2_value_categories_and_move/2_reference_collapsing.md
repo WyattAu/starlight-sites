@@ -22,9 +22,9 @@ categories:
 ## Reference Collapsing and Forwarding References
 
 Reference collapsing is the template mechanism that enables a single function template to accept
-Both lvalues and rvalues while preserving their original value category. Combined with
-`std::forward`This enables **perfect forwarding**, the foundation behind `std::make_unique`
-`std::make_shared``emplace_back`And virtually every factory function in the standard library.
+both lvalues and rvalues while preserving their original value category. Combined with
+`std::forward`. This enables **perfect forwarding**, the foundation behind `std::make_unique`
+`std::make_shared`, `emplace_back` and virtually every factory function in the standard library.
 
 ## 3.1 The Rules
 
@@ -32,12 +32,16 @@ Reference collapsing occurs when a reference to a reference is formed during **t
 Deduction** or **typedef/alias template substitution** [N4950 §13.3.2.3]. The language defines four
 Rules:
 
+<div class="table-wrap">
+
 | Form     | Collapses To |
 | :------- | :----------: |
 | `T& &`   |     `T&`     |
 | `T& &&`  |     `T&`     |
 | `T&& &`  |     `T&`     |
 | `T&& &&` |    `T&&`     |
+
+</div>
 
 The rule is simple: **if any component is an lvalue reference (`&`), the result is an lvalue
 Reference.** Only when both components are rvalue references (`&&`) does the result remain an rvalue
@@ -92,7 +96,7 @@ void collapsing_demo() {
 
 :::note
 (Section 4). Without collapsing, a `T&&` parameter could not bind to lvalues, the deduction would
-Always produce `T&&`Which cannot accept lvalues. Collapsing allows `T&&` to become `T&` when an
+Always produce `T&&`. Which cannot accept lvalues. Collapsing allows `T&&` to become `T&` when an
 Lvalue is passed, making perfect forwarding possible.
 :::
 
@@ -100,13 +104,13 @@ Lvalue is passed, making perfect forwarding possible.
 
 The syntax `T&&` has two distinct meanings depending on context:
 
-1. **Rvalue reference:** `void f(int&& x)``T` is a concrete type, not deduced. This function
+1. **Rvalue reference:** `void f(int&& x)`, `T` is a concrete type, not deduced. This function
    accepts **only rvalues**.
-2. **Forwarding reference (universal reference):** `template<typename T> void f(T&& x)``T` is a
+2. **Forwarding reference (universal reference):** `template<typename T> void f(T&& x)`, `T` is a
    deduced template parameter. This function accepts **both lvalues and rvalues**.
 
 The critical distinction is whether `T` is being **deduced** [N4950 §13.3.2.3]. If `T` appears in a
-`template<typename T>` parameter list and is used as `T&&`It is a forwarding reference. Otherwise,
+`template<typename T>` parameter list and is used as `T&&`. It is a forwarding reference. Otherwise,
 It is a plain rvalue reference.
 
 ```cpp
@@ -173,9 +177,9 @@ requires that `T` be a freshly deduced, unconstrained type parameter.
 `std::forward<T>(x)` casts `x` to `T&&`. Combined with reference collapsing, this preserves the
 Original value category of the argument:
 
-- If the caller passed an **lvalue**, `T` was deduced as `U&`So `T&&` collapses to `U&`
+- If the caller passed an **lvalue**, `T` was deduced as `U&`. So `T&&` collapses to `U&`
   `std::forward` returns an lvalue reference.
-- If the caller passed an **rvalue**, `T` was deduced as `U`So `T&&` is `U&&``std::forward`
+- If the caller passed an **rvalue**, `T` was deduced as `U`. So `T&&` is `U&&`, `std::forward`
   returns an rvalue reference.
 
 ```cpp
@@ -283,7 +287,7 @@ int main() {
 :::note
 `std::vector::emplace_back`And virtually every factory or emplacement function in the standard
 Library. Without forwarding references and `std::forward`These functions would be forced to copy
-Their arguments or require separate overloads for every combination of lvalue/rvalue parameters, a
+their arguments or require separate overloads for every combination of lvalue/rvalue parameters, a
 Combinatorial explosion.
 :::
 
@@ -298,7 +302,7 @@ Combinatorial explosion.
 Reference collapsing is not a runtime mechanism, it is purely a compile-time type substitution rule
 Enforced by the C++ core language. When the compiler instantiates a template and deduces `T` to be a
 Reference type, any `T&&` or `T&` formed from that `T` undergoes collapsing according to the table
-Above. This happens during **type alias substitution** [N4950 §13.3.2.3].
+above. This happens during **type alias substitution** [N4950 §13.3.2.3].
 
 Consider what the compiler does when you write:
 
@@ -354,7 +358,7 @@ void auto_forwarding_ref() {
 
 This is the mechanism behind **range-based for loops**. The standard specifies that the loop
 Variable in `for (auto&& elem : container)` uses a forwarding reference, which means it can bind to
-Both lvalue and rvalue elements without copying:
+both lvalue and rvalue elements without copying:
 
 ```cpp
 #include <utility>
@@ -436,7 +440,7 @@ Constructor or move assignment operator that accepts `T&&`).
 ## 5.4 Forwarding References with `const` and CV-Qualifiers
 
 When an lvalue with cv-qualifiers is passed to a forwarding reference, the qualifiers are preserved
-In the deduced type:
+in the deduced type:
 
 ```cpp
 #include <type_traits>
@@ -510,7 +514,7 @@ void cv_forwarding_demo() {
 ## 5.5 Forwarding References in Variadic Templates
 
 The pack expansion `Args&&... args` is the most common use of forwarding references. Each argument
-In the pack undergoes independent reference collapsing:
+in the pack undergoes independent reference collapsing:
 
 ```cpp
 #include <utility>
@@ -550,7 +554,7 @@ Literal `42` produces a `const int&` in the tuple, which dangles if the tuple ou
 Expression). `std::make_tuple` decays its arguments, so rvalues are copied/moved, but lvalues are
 Stored as references. For safe capture, use `std::make_tuple(std::decay_t&lt;Args>(args)...)` to
 Always store by value, or `std::forward_as_tuple(args...)` which explicitly stores references with
-The same lifetime concerns documented.
+the same lifetime concerns documented.
 :::
 
 ## 5.6 Forwarding in Class Templates
@@ -613,7 +617,9 @@ struct SafeWidget {
 };
 ```
 
-## 5.7 `std::forward` vs `std::move`When to Use Which
+## 5.7 `std::forward` vs `std::move`. When to Use Which
+
+<div class="table-wrap">
 
 | Situation                         | Use                  | Reason                                     |
 | :-------------------------------- | :------------------- | :----------------------------------------- |
@@ -621,6 +627,8 @@ struct SafeWidget {
 | Unconditionally casting to rvalue | `std::move(x)`       | Intentionally discarding the source object |
 | Moving a local variable           | `std::move(x)`       | Local is about to be destroyed anyway      |
 | In a factory/emplacement function | `std::forward<Args>` | Each arg may be lvalue or rvalue           |
+
+</div>
 
 `std::move` is equivalent to `std::forward<T>` where `T` is deduced as a non-reference type. It is
 Syntactic sugar for `static_cast<T&&>(x)`. Use `std::forward` only when you have a forwarding
@@ -660,7 +668,7 @@ void move_vs_forward() {
    equivalent to `std::forward<remove_reference_t<decltype(x)>>(x)`. But `std::forward<T>(x)`
    requires `T` to be the **deduced** template parameter from a forwarding reference. If you call
    `std::forward<int>(x)` where `x` is an lvalue, you get an rvalue reference, this is effectively
-   `std::move`Not forwarding. The distinction matters only for correctness of intent.
+   `std::move`. Not forwarding. The distinction matters only for correctness of intent.
 
 2. **Using `std::forward` more than once on the same object:** `std::forward` does not move the
    object, it casts it. But the _recipient_ of the cast may move from it. If you forward the same
@@ -685,16 +693,6 @@ void move_vs_forward() {
    temporary. If `T` is a non-reference type, you return an rvalue reference to a local, which
    always dangles. Return by value instead and let NRVO or move semantics handle it.
 
-```mermaid
-flowchart TD
-    A[2_Reference_Collapsing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of reference collapsing and forwarding references, including
@@ -708,13 +706,7 @@ underlying theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

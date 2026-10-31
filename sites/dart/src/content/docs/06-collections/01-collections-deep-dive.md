@@ -30,7 +30,7 @@ Describes how to produce elements but does not materialize them until a terminal
 #### map()
 
 Returns a new lazy `Iterable` by applying a function to each element. The function is not executed
-Until the iterable is consumed.
+until the iterable is consumed.
 
 ```dart
 final names = ['alice', 'bob', 'charlie'];
@@ -113,7 +113,7 @@ print(nums.skipWhile((n) => n < 4).toList()); // [4, 5, 1, 2], skips until first
 ```
 
 Unlike `where`These are **not** applied to all elements, they operate from the start and stop at
-The first element that fails the condition.
+the first element that fails the condition.
 
 #### firstWhere(), lastWhere(), singleWhere()
 
@@ -158,7 +158,7 @@ final csv = [1, 2, 3].join(', '); // '1, 2, 3'
 
 ### Lazy vs Eager Evaluation
 
-This is critical for performance. Methods like `map``where``expand``takeWhile``skipWhile` `cast`And
+This is critical for performance. Methods like `map`, `where`, `expand`, `takeWhile`, `skipWhile` `cast`And
 `skip`/`take` return **lazy** iterables. No work happens until you consume the iterable.
 
 ```dart
@@ -238,7 +238,7 @@ final unmod = List<int>.unmodifiable([1, 2, 3]);
 ```
 
 The distinction matters at the VM level. Fixed-length lists pre-allocate a backing store of exactly
-The right size. Growable lists use amortized doubling (see Performance Considerations below).
+the right size. Growable lists use amortized doubling (see Performance Considerations below).
 
 ### Mutation Operations
 
@@ -279,7 +279,7 @@ list.replaceRange(2, 4, [99]); // [0, 10, 99, 4, 5]
 ```
 
 `sublist` allocates a new list. `getRange` does not, but the returned iterable holds a reference to
-The original list, so mutations to the original are visible through the range view.
+the original list, so mutations to the original are visible through the range view.
 
 ### asMap()
 
@@ -358,7 +358,7 @@ set.removeAll({2, 6}); // {3, 4, 5}
 set.retainAll({3, 4}); // {3, 4}
 ```
 
-`add` returns `bool``true` if the element was added (not already present), `false` if it was
+`add` returns `bool`, `true` if the element was added (not already present), `false` if it was
 Already in the set. This is useful for deduplication logic:
 
 ```dart
@@ -391,7 +391,7 @@ superset.containsAll(subset); // true
 ### lookup()
 
 Returns the element in the set that is equal to the argument, or `null` if not found. This is useful
-When you have a canonical version of an object and want to retrieve it:
+when you have a canonical version of an object and want to retrieve it:
 
 ```dart
 final users = {User(id: 1, name: "Alice''), User(id: 2, name: "Bob')};
@@ -404,7 +404,7 @@ final found = users.lookup(query); // Returns the actual object in the set
 
 ### HashSet vs LinkedHashSet vs SplayTreeSet
 
-The default `Set()` constructor returns a `LinkedHashSet`Which preserves insertion order and
+The default `Set()` constructor returns a `LinkedHashSet`. Which preserves insertion order and
 Provides O(1) amortized operations.
 
 ```dart
@@ -429,16 +429,20 @@ splay.add(2);
 print(splay.toList()); // [1, 2, 3], always sorted
 ```
 
+<div class="table-wrap">
+
 | Type            | Order                 | add/contains/remove | Use Case                                        |
 | --------------- | --------------------- | ------------------- | ----------------------------------------------- |
 | `LinkedHashSet` | Insertion             | O(1) amortized      | Default choice, predictable iteration           |
 | `HashSet`       | Unspecified           | O(1) amortized      | When order does not matter                      |
 | `SplayTreeSet`  | Sorted (`Comparable`) | O(log n)            | When you need sorted iteration or range queries |
 
+</div>
+
 ### Custom Equality via operator== and hashCode
 
-For custom objects in a `Set`You **must** override both `operator==` and `hashCode`. The contract:
-If `a == b`Then `a.hashCode == b.hashCode`. The reverse is not required (hash collisions are
+For custom objects in a `Set`. You **must** override both `operator==` and `hashCode`. The contract:
+If `a == b`. Then `a.hashCode == b.hashCode`. The reverse is not required (hash collisions are
 Allowed).
 
 ```dart
@@ -459,12 +463,12 @@ final set = <UserId>{UserId('abc'), UserId('def')};
 print(set.contains(UserId('abc'))); // true, custom equality works
 ```
 
-If you only override `==` without `hashCode`The set will use the default `Object.hashCode`
+If you only override `==` without `hashCode`. The set will use the default `Object.hashCode`
 (identity-based), and `contains` will fail to find logically equal objects.
 
 ## Map
 
-A `Map<K, V>` maps keys to values. The default implementation is `LinkedHashMap`Which preserves
+A `Map<K, V>` maps keys to values. The default implementation is `LinkedHashMap`. Which preserves
 Insertion order.
 
 ### Constructors
@@ -570,7 +574,7 @@ Note: this returns a lazy `Map`the transformation is applied on access.
 
 ### Iteration Order
 
-The default `Map()` and `{}` literal create a `LinkedHashMap`Which guarantees insertion order for
+The default `Map()` and `{}` literal create a `LinkedHashMap`. Which guarantees insertion order for
 Iteration. This is a language guarantee, not an implementation detail.
 
 ```dart
@@ -586,7 +590,7 @@ If you need sorted iteration, wrap the keys: `map.keys.toList()..sort()` or use 
 
 ### Custom Key Types
 
-Like `Set``Map` keys rely on `operator==` and `hashCode`. The same contract applies: equal keys Must
+Like `Set`, `Map` keys rely on `operator==` and `hashCode`. The same contract applies: equal keys Must
 have equal hash codes.
 
 ```dart
@@ -721,12 +725,16 @@ Runtime. Use it for configuration, lookup tables, and any data that is truly con
 
 ### When to Use Which
 
+<div class="table-wrap">
+
 | Mechanism             | Copies?            | Mutability                  | Compile-time | Use Case                                                  |
 | --------------------- | ------------------ | --------------------------- | ------------ | --------------------------------------------------------- |
 | `const`               | No (canonicalized) | Immutable (compile-time)    | Yes          | True constants, config                                    |
 | `List.unmodifiable()` | No (view)          | Read-only (runtime)         | No           | API return values, defensive copies of internal state     |
 | `List.of()`           | Yes (copy)         | Mutable                     | No           | When you need a snapshot                                  |
 | `final list = [...]`  | No                 | Mutable, reference is final | No           | Local mutable collections with non-reassignable reference |
+
+</div>
 
 ## Sorting and Custom Comparators
 
@@ -812,6 +820,8 @@ listCompare([1, 2, 3], [1, 2, 3]); // true
 Dart's growable `List` is backed by a contiguous array that doubles in capacity when full. This
 Gives:
 
+<div class="table-wrap">
+
 | Operation                   | Complexity                       |
 | --------------------------- | -------------------------------- |
 | `add()` (append)            | O(1) amortized                   |
@@ -822,6 +832,8 @@ Gives:
 | `indexOf(x)`                | O(n) (linear scan)               |
 | `sort()`                    | O(n log n)                       |
 
+</div>
+
 The amortized O(1) for `add()` is the critical insight: individual appends are cheap, but
 Occasionally a resize occurs that copies the entire array. For large lists where you know the final
 Size upfront, use `List(growable: true)` with a pre-allocated capacity, or use `List.filled()` with
@@ -831,6 +843,8 @@ Size upfront, use `List(growable: true)` with a pre-allocated capacity, or use `
 
 Dart's default `LinkedHashSet` is a hash table with open addressing:
 
+<div class="table-wrap">
+
 | Operation        | Complexity           |
 | ---------------- | -------------------- |
 | `add(x)`         | O(1) amortized       |
@@ -839,13 +853,17 @@ Dart's default `LinkedHashSet` is a hash table with open addressing:
 | `intersection()` | O(min(\|A\|, \|B\|)) |
 | `union()`        | O(\|A\| + \|B\|)     |
 
+</div>
+
 Hash collisions degrade to O(n) in the worst case, but this is rare with a good hash function. If
-Your custom `hashCode` implementation is poor (e.g., always returns the same value), you get a
+your custom `hashCode` implementation is poor (e.g., always returns the same value), you get a
 Degenerate linked list and O(n) for everything.
 
 ### Map, Hash Table
 
 Same characteristics as `Set`:
+
+<div class="table-wrap">
 
 | Operation       | Complexity     |
 | --------------- | -------------- |
@@ -853,6 +871,8 @@ Same characteristics as `Set`:
 | `operator[]=`   | O(1) amortized |
 | `containsKey()` | O(1) amortized |
 | `remove()`      | O(1) amortized |
+
+</div>
 
 ### Choosing the Right Collection
 
@@ -920,7 +940,7 @@ print(a.length == b.length &&
 ```
 
 Dart's `List.==` and `Map.==` use identity comparison (`identical()`), not structural equality. This
-Is by design, structural equality on large collections is expensive, and the language avoids
+is by design, structural equality on large collections is expensive, and the language avoids
 Implicit O(n) operations.
 
 ### 3. Unmodifiable Views Are Not Copies
@@ -1041,17 +1061,7 @@ map.containsKey('nonexistent'); // false, the key does not exist
 ```
 
 This ambiguity is inherent to any map type that allows null values. Always use `containsKey()` when
-You need to distinguish between "key absent" and "key present with null value."
-
-```mermaid
-flowchart TD
-    A[01 Collections Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+you need to distinguish between "key absent" and "key present with null value."
 
 ## Summary
 
@@ -1066,13 +1076,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

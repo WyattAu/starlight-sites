@@ -20,6 +20,8 @@ tableOfContents: false
 
 ### Microeconomics
 
+<div class="table-wrap">
+
 | Diagnostic File                                              | Topics Covered                                                                                           | Source File                                             |
 | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | `diag-./1-basic-economic-concepts/1_basic-economic-concepts` | Scarcity, opportunity cost, PPC, economic systems, division of labour, specialisation                    | `./1-basic-economic-concepts/1_basic-economic-concepts` |
@@ -27,7 +29,11 @@ tableOfContents: false
 | `diag-market-structure.md`                                   | Perfect competition, monopoly, monopolistic competition, oligopoly, barriers to entry, game theory       | `market-structure-and-theory-of-the-firm.md`            |
 | `diag-market-failure.md`                                     | Externalities, Pigouvian tax, public goods, free rider problem, information asymmetry, adverse selection | `market-failure-and-government-intervention.md`         |
 
+</div>
+
 ### Macroeconomics
+
+<div class="table-wrap">
 
 | Diagnostic File                  | Topics Covered                                                                                      | Source File                                      |
 | -------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
@@ -35,6 +41,8 @@ tableOfContents: false
 | `diag-money-banking.md`          | Money creation, money multiplier, functions of money, interest rate determination, banking system   | `./8-money-and-banking/1_money-and-banking`      |
 | `diag-fiscal-monetary-policy.md` | Fiscal multiplier, monetary transmission, budget balance, policy mix, supply-side policy            | `fiscal-and-monetary-policy.md`                  |
 | `diag-international-trade.md`    | Comparative advantage, exchange rates, tariffs/quotas, balance of payments, PPP, impossible trinity | `international-trade-and-finance.md`             |
+
+</div>
 
 ## Grading Rubric
 
@@ -88,6 +96,8 @@ National Income and Macroeconomic Indicators
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic                     | Recommended Time | Notes                                                |
 | ------------------------------ | ---------------- | ---------------------------------------------------- |
 | `diag-basic-economic-concepts` | 30 minutes       | Conceptual questions with some calculation           |
@@ -98,6 +108,8 @@ National Income and Macroeconomic Indicators
 | `diag-money-banking`           | 35 minutes       | Money multiplier and interest rate calculations      |
 | `diag-fiscal-monetary-policy`  | 45 minutes       | Multiplier and policy analysis                       |
 | `diag-international-trade`     | 40 minutes       | Comparative advantage and exchange rate calculations |
+
+</div>
 
 **Total recommended time:** approximately 5 hours (spread across 3--4 sessions).
 
@@ -134,7 +146,7 @@ pressure on the exchange rate peg. The central bank would be forced to sell fore
 domestic currency, reversing the interest rate cut. Monetary policy is effectively determined by the
 anchor currency"s central bank.
 
-(b) Required output increase $= 5\%$ of potential GDP. If multiplier $= 2$Required fiscal injection
+(b) Required output increase $= 5\%$ of potential GDP. If multiplier $= 2$ Required fiscal injection
 $= \frac{5\%}{2} = 2.5\%$ of GDP. This could be achieved through increased government spending, tax
 cuts, or a combination. For a GDP of $\$500$ billion, the required injection $= \$12.5$ billion.
 
@@ -178,7 +190,7 @@ HK$10,000 units).
 CS after $= \frac{1}{2}(5000 - 1500 + 3500 - 1500)(100) = \frac{1}{2}(3500 + 2000)(100) = 275\,000$.
 
 Note: The demand price at $Q = 100$ is
-$P = 500 - 1000/0.1 = 500 - 1000 = $ wait, recalculate: $Q_d = 500 - 0.1P$So
+$P = 500 - 1000/0.1 = 500 - 1000 = $ wait, recalculate: $Q_d = 500 - 0.1P$ So
 $P = (500 - Q)/0.1 = 5000 - 10Q$. At $Q = 100$: $P = 5000 - 1000 = 4000$.
 
 CS after
@@ -228,7 +240,7 @@ these would be more effective than price controls.
 ### SQ-3: Development Economics and the DSE
 
 **Question:** Compare Country A (GDP per capita $\$50,000$, growth rate 2%, HDI 0.92, literacy rate
-99%, life expectancy 83) with Country B (GDP per capita $\$5,000$Growth rate 7%, HDI 0.65, literacy
+99%, life expectancy 83) with Country B (GDP per capita $\$5,000$ Growth rate 7%, HDI 0.65, literacy
 rate 75%, life expectancy 68). (a) Calculate how many years it will take for Country B's GDP per
 capita to equal Country A's current level, assuming constant growth rates. (b) Explain three reasons
 why GDP per capita alone is an inadequate measure of development. (c) Using the HDI components,
@@ -334,7 +346,7 @@ initially raises import prices, but over time, a weaker currency can boost expor
   exchange reserves during periods of currency strength.
 
 (d) **Hong Kong's LERS:** Hong Kong's Currency Board is the opposite of the recommendation for
-Country X because Hong Kong's fundamentals are entirely different. Hong Kong has: (i) massive
+country X because Hong Kong's fundamentals are entirely different. Hong Kong has: (i) massive
 foreign exchange reserves (US$180+ billion, equivalent to over 40% of GDP), (ii) fiscal reserves of
 HK$800+ billion, (iii) low inflation (anchored by the USD peg), (iv) a persistent current account
 surplus. The Currency Board works for Hong Kong because: the fiscal position is strong (no
@@ -372,14 +384,7 @@ solution.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

@@ -153,11 +153,11 @@ $2(3)+1 = 7 \checkmark$. $y' = 2y$? A: $2(2) = 4 \checkmark$. B: $2(2) = 4 \chec
 $2(6) = 12 \checkmark$.
 
 This is an **enlargement** with scale factor 2 and centre of enlargement at $(1, 0)$: each point is
-mapped such that $(x', y') = (2x + 1, 2y)$Which corresponds to an enlargement by factor 2 about
+mapped such that $(x', y') = (2x + 1, 2y)$ Which corresponds to an enlargement by factor 2 about
 centre $(-1, 0)$.
 
 Verification: Centre $(-1, 0)$. A $(1, 2)$: distance from centre is $(2, 2)$. Scaled by 2: $(4, 4)$.
-New position: $(-1+4, 0+4) = (3, 4) \checkmark$.
+new position: $(-1+4, 0+4) = (3, 4) \checkmark$.
 
 This is an **enlargement with scale factor 2 about centre $(-1, 0)$**.
 
@@ -200,27 +200,9 @@ the question does not specify, assuming same material, the weight ratio equals t
 
 **The key insight:** In circle geometry, the angle at the center is always double the angle at the circumference when subtended by the same arc, this single fact unlocks dozens of problems.
 
-
-```mermaid
-flowchart TD
-    A[Diag Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

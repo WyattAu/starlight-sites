@@ -20,30 +20,22 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[02 Demand Supply And Equilibrium] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## 1. Demand
 
 ### 1.1 Definition
 
 We define **demand** as the quantity of a good or service that consumers are _willing and able_ to
-Purchase at each possible price during a given time period, _ceteris paribus_.
+purchase at each possible price during a given time period, _ceteris paribus_.
 
-$$Q_d = f(P, Y, P_s, P_c, T, E, N)$$
+$$
+Q_d = f(P, Y, P_s, P_c, T, E, N)
+$$
 
 Where $P$ = price of the good, $Y$ = income, $P_s$ = price of substitutes, $P_c$ = price of
-Complements, $T$ = tastes, $E$ = expectations, $N$ = population.
+complements, $T$ = tastes, $E$ = expectations, $N$ = population.
 
 The **law of demand** states that, ceteris paribus, as price rises, quantity demanded falls. This
-Follows from:
+follows from:
 
 1. **Income effect**: a higher price reduces real purchasing power
 2. **Substitution effect**: a higher price makes substitutes relatively more attractive
@@ -51,7 +43,7 @@ Follows from:
 ### 1.2 Deriving Individual Demand from Utility Maximisation
 
 Consider a consumer with utility function $U(x, y)$ facing prices $P_x$, $P_y$ and income $M$. The
-Consumer solves:
+consumer solves:
 
 $$
 \begin{aligned}
@@ -62,17 +54,25 @@ $$
 
 The Lagrangian is:
 
-$$\mathcal{L} = U(x, y) + \lambda(M - P_x \cdot x - P_y \cdot y)$$
+$$
+\mathcal{L} = U(x, y) + \lambda(M - P_x \cdot x - P_y \cdot y)
+$$
 
 First-order conditions:
 
-$$\frac{\partial \mathcal{L}}{\partial x} = \frac{\partial U}{\partial x} - \lambda P_x = 0 \implies \frac{MU_x}{P_x} = \lambda$$
+$$
+\frac{\partial \mathcal{L}}{\partial x} = \frac{\partial U}{\partial x} - \lambda P_x = 0 \implies \frac{MU_x}{P_x} = \lambda
+$$
 
-$$\frac{\partial \mathcal{L}}{\partial y} = \frac{\partial U}{\partial y} - \lambda P_y = 0 \implies \frac{MU_y}{P_y} = \lambda$$
+$$
+\frac{\partial \mathcal{L}}{\partial y} = \frac{\partial U}{\partial y} - \lambda P_y = 0 \implies \frac{MU_y}{P_y} = \lambda
+$$
 
 Therefore:
 
-$$\frac{MU_x}{MU_y} = \frac{P_x}{P_y} \implies \mathrm{MRS}_{xy} = \frac{P_x}{P_y}$$
+$$
+\frac{MU_x}{MU_y} = \frac{P_x}{P_y} \implies \mathrm{MRS}_{xy} = \frac{P_x}{P_y}
+$$
 
 This equates the marginal rate of substitution (the consumer"s internal valuation) with the price
 Ratio (the market's valuation). Solving for $x$ as a function of $P_x$ (holding other parameters
@@ -82,7 +82,9 @@ Constant) yields the **individual demand curve** $x = d_i(P_x)$.
 
 The **market demand curve** is derived by **horizontal summation** of individual demand curves:
 
-$$Q_D(P) = \sum_{i=1}^{n} d_i(P) = d_1(P) + d_2(P) + \cdots + d_n(P)$$
+$$
+Q_D(P) = \sum_{i=1}^{n} d_i(P) = d_1(P) + d_2(P) + \cdots + d_n(P)
+$$
 
 At each price, we add up the quantities demanded by all consumers.
 
@@ -95,6 +97,8 @@ At each price, we add up the quantities demanded by all consumers.
 
 ### 1.5 Determinants of Demand
 
+<div class="table-wrap">
+
 | Determinant                               | Effect on Demand                                       | Example                                                |
 | ----------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
 | Income ($\uparrow$)                       | Normal goods: $\uparrow$; Inferior goods: $\downarrow$ | Demand for bus travel falls as income rises (inferior) |
@@ -103,6 +107,8 @@ At each price, we add up the quantities demanded by all consumers.
 | Tastes (towards good)                     | $\uparrow$                                             | Health campaigns increase demand for fruit             |
 | Expectations of future price ($\uparrow$) | $\uparrow$ (current demand)                            | Consumers stockpile before expected price rise         |
 | Population ($\uparrow$)                   | $\uparrow$                                             | UK population growth increases housing demand          |
+
+</div>
 
 :::caution
 Demanded" means a _movement along the curve_ due to a price change. These are fundamentally
@@ -114,39 +120,51 @@ Different. Examiners penalise imprecise language.
 ### 2.1 Definition
 
 We define **supply** as the quantity of a good or service that producers are _willing and able_ to
-Offer for sale at each possible price during a given time period, _ceteris paribus_.
+offer for sale at each possible price during a given time period, _ceteris paribus_.
 
-$$Q_s = g(P, C, T, S, E, n)$$
+$$
+Q_s = g(P, C, T, S, E, n)
+$$
 
 Where $C$ = costs of production, $T$ = technology, $S$ = subsidies/taxes, $E$ = expectations, $n$ =
 Number of firms.
 
 The **law of supply** states that, ceteris paribus, as price rises, quantity supplied rises. This
-Follows from profit maximisation.
+follows from profit maximisation.
 
 ### 2.2 Deriving Supply from Profit Maximisation
 
 A firm with cost function $C(Q)$ and facing price $P$ maximises profit:
 
-$$\pi(Q) = P \cdot Q - C(Q)$$
+$$
+\pi(Q) = P \cdot Q - C(Q)
+$$
 
 First-order condition:
 
-$$\frac{d\pi}{dQ} = P - C'(Q) = 0 \implies P = MC(Q)$$
+$$
+\frac{d\pi}{dQ} = P - C'(Q) = 0 \implies P = MC(Q)
+$$
 
 Where $MC(Q) = C'(Q)$ is marginal cost. Second-order condition requires $C''(Q) \gt 0$ (MC Rising).
 The **supply curve** of a competitive firm is the portion of its $MC$ curve above the Average
 variable cost (AVC) curve.
 
-$$Q_s(P) = MC^{-1}(P) \quad \mathrm{for } P \geq \min AVC$$
+$$
+Q_s(P) = MC^{-1}(P) \quad \mathrm{for } P \geq \min AVC
+$$
 
 ### 2.3 Market Supply
 
-$$Q_S(P) = \sum_{j=1}^{m} s_j(P)$$
+$$
+Q_S(P) = \sum_{j=1}^{m} s_j(P)
+$$
 
 Horizontal summation of individual firm supply curves.
 
 ### 2.4 Determinants of Supply
+
+<div class="table-wrap">
 
 | Determinant                               | Effect on Supply              | Example                                           |
 | ----------------------------------------- | ----------------------------- | ------------------------------------------------- |
@@ -157,6 +175,8 @@ Horizontal summation of individual firm supply curves.
 | Expectations of future price ($\uparrow$) | $\downarrow$ (current supply) | Farmers withhold supply expecting higher prices   |
 | Number of firms ($\uparrow$)              | $\uparrow$                    | Entry of new coffee shops increases market supply |
 
+</div>
+
 ## 3. Market Equilibrium
 
 ### 3.1 Definition and Stability
@@ -164,7 +184,9 @@ Horizontal summation of individual firm supply curves.
 We define **market equilibrium** as the price-quantity pair $(P^*, Q^*)$ at which quantity demanded
 Equals quantity supplied:
 
-$$Q_D(P^*) = Q_S(P^*)$$
+$$
+Q_D(P^*) = Q_S(P^*)
+$$
 
 **Stability proof.** Suppose price $P_1 \gt P^*$. Then $Q_S(P_1) \gt Q_D(P_1)$, there is excess
 Supply (a surplus). Unsold goods pile up, so firms cut prices. As price falls, quantity demanded
@@ -172,7 +194,7 @@ Rises and quantity supplied falls until equilibrium is restored.
 
 Suppose price $P_2 \lt P^*$. Then $Q_D(P_2) \gt Q_S(P_2)$, there is excess demand (a shortage).
 Consumers bid up prices. As price rises, quantity supplied rises and quantity demanded falls until
-Equilibrium is restored.
+equilibrium is restored.
 
 Therefore, the equilibrium is **stable**: any deviation sets in motion forces that restore
 Equilibrium. $\blacksquare$
@@ -201,12 +223,16 @@ Allocating resources without central direction. It performs three functions:
 
 We define the **price elasticity of demand** as:
 
-$$\mathrm{PED} = \frac{\%\Delta Q_d}{\%\Delta P} = \frac{\Delta Q_d / Q_d}{\Delta P / P} = \frac{P}{Q_d} \cdot \frac{\Delta Q_d}{\Delta P}$$
+$$
+\mathrm{PED} = \frac{\%\Delta Q_d}{\%\Delta P} = \frac{\Delta Q_d / Q_d}{\Delta P / P} = \frac{P}{Q_d} \cdot \frac{\Delta Q_d}{\Delta P}
+$$
 
 Since the demand curve slopes downward, $\mathrm{PED} \lt 0$. We often state the _absolute value_
 $|\mathrm{PED}|$.
 
 **Classification:**
+
+<div class="table-wrap">
 
 | Value                           | Description         | Interpretation               |
 | ------------------------------- | ------------------- | ---------------------------- |
@@ -216,11 +242,15 @@ $|\mathrm{PED}|$.
 | $1 \lt \mathrm{PED} \lt \infty$ | Elastic             | %$\Delta Q$ &gt; %$\Delta P$ |
 | $\mathrm{PED} = \infty$         | Perfectly elastic   | Horizontal demand curve      |
 
+</div>
+
 ### 4.2 PED and Total Revenue
 
 **Total revenue** is $TR = P \times Q$.
 
-$$\frac{d(TR)}{dP} = Q + P \cdot \frac{dQ}{dP} = Q\left(1 + \frac{P}{Q} \cdot \frac{dQ}{dP}\right) = Q(1 + \mathrm{PED})$$
+$$
+\frac{d(TR)}{dP} = Q + P \cdot \frac{dQ}{dP} = Q\left(1 + \frac{P}{Q} \cdot \frac{dQ}{dP}\right) = Q(1 + \mathrm{PED})
+$$
 
 Since PED < 0:
 
@@ -233,17 +263,19 @@ Since PED < 0:
 **Proposition: Total revenue is maximised where $|\mathrm{PED}| = 1$.**
 
 _Proof._ We showed $\frac{d(TR)}{dP} = Q(1 + \mathrm{PED})$. Setting $\frac{d(TR)}{dP} = 0$:
-$1 + \mathrm{PED} = 0$ So $\mathrm{PED} = -1$I.e., $|\mathrm{PED}| = 1$. The second derivative
+$1 + \mathrm{PED} = 0$ So $\mathrm{PED} = -1$ I.e., $|\mathrm{PED}| = 1$. The second derivative
 Confirms this is a maximum (for downward-sloping demand). $\blacksquare$
 
 ### 4.3 PED Varies Along a Linear Demand Curve
 
-**Proposition:** For a linear demand curve $Q = a - bP$PED varies from $0$ (at the quantity axis) To
+**Proposition:** For a linear demand curve $Q = a - bP$ PED varies from $0$ (at the quantity axis) To
 $-\infty$ (at the price axis), with $|\mathrm{PED}| = 1$ at the midpoint.
 
 _Proof._ $P = \frac{a - Q}{b}$ So:
 
-$$\mathrm{PED} = \frac{P}{Q} \cdot \frac{dQ}{dP} = \frac{P}{Q} \cdot (-b) = \frac{-bP}{Q} = \frac{-b(a - Q)/b}{Q} = -\frac{a - Q}{Q} = -\frac{a}{Q} + 1$$
+$$
+\mathrm{PED} = \frac{P}{Q} \cdot \frac{dQ}{dP} = \frac{P}{Q} \cdot (-b) = \frac{-bP}{Q} = \frac{-b(a - Q)/b}{Q} = -\frac{a - Q}{Q} = -\frac{a}{Q} + 1
+$$
 
 At the midpoint, $Q = a/2$: $\mathrm{PED} = -\frac{a}{a/2} + 1 = -1$. As $Q \to 0$ (price axis):
 $\mathrm{PED} \to -\infty$ (perfectly elastic). As $Q \to a$ (quantity axis): $\mathrm{PED} \to 0$
@@ -261,7 +293,11 @@ $\mathrm{PED} \to -\infty$ (perfectly elastic). As $Q \to a$ (quantity axis): $\
 
 ### 4.5 Income Elasticity of Demand (YED)
 
-$$\mathrm{YED} = \frac{\%\Delta Q_d}{\%\Delta Y} = \frac{\Delta Q_d / Q_d}{\Delta Y / Y}$$
+$$
+\mathrm{YED} = \frac{\%\Delta Q_d}{\%\Delta Y} = \frac{\Delta Q_d / Q_d}{\Delta Y / Y}
+$$
+
+<div class="table-wrap">
 
 | YED         | Type of Good       | Example                            |
 | ----------- | ------------------ | ---------------------------------- |
@@ -269,9 +305,15 @@ $$\mathrm{YED} = \frac{\%\Delta Q_d}{\%\Delta Y} = \frac{\Delta Q_d / Q_d}{\Delt
 | 0 < YED < 1 | Normal (necessity) | Bread, electricity                 |
 | YED > 1     | Normal (luxury)    | Designer clothes, foreign holidays |
 
+</div>
+
 ### 4.6 Cross-Price Elasticity of Demand (XED)
 
-$$\mathrm{XED}_{AB} = \frac{\%\Delta Q_A}{\%\Delta P_B}$$
+$$
+\mathrm{XED}_{AB} = \frac{\%\Delta Q_A}{\%\Delta P_B}
+$$
+
+<div class="table-wrap">
 
 | XED     | Relationship | Example            |
 | ------- | ------------ | ------------------ |
@@ -279,12 +321,16 @@ $$\mathrm{XED}_{AB} = \frac{\%\Delta Q_A}{\%\Delta P_B}$$
 | XED < 0 | Complements  | Petrol and cars    |
 | XED = 0 | Unrelated    | Books and tomatoes |
 
+</div>
+
 The _magnitude_ of XED indicates the closeness of the relationship, relevant for competition policy
 (defining the relevant market).
 
 ### 4.7 Price Elasticity of Supply (PES)
 
-$$\mathrm{PES} = \frac{\%\Delta Q_s}{\%\Delta P} = \frac{\Delta Q_s / Q_s}{\Delta P / P}$$
+$$
+\mathrm{PES} = \frac{\%\Delta Q_s}{\%\Delta P} = \frac{\Delta Q_s / Q_s}{\Delta P / P}
+$$
 
 **Determinants of PES:**
 
@@ -301,7 +347,9 @@ $$\mathrm{PES} = \frac{\%\Delta Q_s}{\%\Delta P} = \frac{\Delta Q_s / Q_s}{\Delt
 **Consumer surplus** is the difference between what consumers are willing to pay and what they
 Actually pay:
 
-$$CS = \int_0^{Q^*} [P_d(Q) - P^*] \, dQ$$
+$$
+CS = \int_0^{Q^*} [P_d(Q) - P^*] \, dQ
+$$
 
 Where $P_d(Q)$ is the inverse demand function (the maximum price consumers will pay for quantity
 $Q$).
@@ -309,7 +357,9 @@ $Q$).
 **Producer surplus** is the difference between the price received and the minimum price producers
 Would accept:
 
-$$PS = \int_0^{Q^*} [P^* - P_s(Q)] \, dQ$$
+$$
+PS = \int_0^{Q^*} [P^* - P_s(Q)] \, dQ
+$$
 
 Where $P_s(Q)$ is the inverse supply function.
 

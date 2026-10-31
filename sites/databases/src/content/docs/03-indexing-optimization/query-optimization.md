@@ -20,7 +20,7 @@ description: "Study notes for Query Optimization with worked examples, practice 
 
 **Rule-Based Optimizer (RBO):** Uses a fixed set of heuristics to transform queries. Access paths
 Are chosen based on rules like "use an index if available" and "avoid full table scans." RBO does
-Not consider data distribution, row counts, or I/O costs. Oracle deprecated RBO in Oracle 10g.
+not consider data distribution, row counts, or I/O costs. Oracle deprecated RBO in Oracle 10g.
 
 **Cost-Based Optimizer (CBO):** Estimates the cost of alternative execution plans using statistics
 About the data (row counts, column distributions, index sizes) and system parameters (CPU speed,
@@ -66,6 +66,8 @@ WHERE tablename = "orders'
 ORDER BY attname;
 ```
 
+<div class="table-wrap">
+
 | Statistic           | Meaning                                                                             |
 | ------------------- | ----------------------------------------------------------------------------------- |
 | `null_frac`         | Fraction of rows with NULL in this column                                           |
@@ -75,6 +77,8 @@ ORDER BY attname;
 | `most_common_vals`  | Most frequent values (MCV list)                                                     |
 | `most_common_freqs` | Frequencies of MCV values                                                           |
 | `histogram_bounds`  | Boundaries for histogram of non-MCV values                                          |
+
+</div>
 
 ### Histograms
 
@@ -124,11 +128,15 @@ ANALYZE orders;
 SELECT * FROM pg_stats_ext WHERE tablename = 'orders';
 ```
 
+<div class="table-wrap">
+
 | Statistic Type | Captures                              | Use Case                               |
 | -------------- | ------------------------------------- | -------------------------------------- |
 | `ndistinct`    | Distinct count of column combinations | GROUP BY multiple columns              |
 | `dependencies` | Functional dependencies               | WHERE a = 1 AND b = 2 (b depends on a) |
 | `mcv`          | Most common value combinations        | Multi-column filter selectivity        |
+
+</div>
 
 ## Join Strategies
 
@@ -197,6 +205,8 @@ Best when: both sides already sorted (index order), or when a presorted merge is
 
 ### Join Strategy Selection Guide
 
+<div class="table-wrap">
+
 | Condition                                          | Preferred Strategy      |
 | -------------------------------------------------- | ----------------------- |
 | One table is very small (&lt; 1000 rows)           | Nested Loop             |
@@ -205,6 +215,8 @@ Best when: both sides already sorted (index order), or when a presorted merge is
 | Both sides sorted on join key                      | Merge Join              |
 | Non-equijoin (e.g., range condition)               | Nested Loop             |
 | Inner table large, no index, insufficient work_mem | Merge Join (after sort) |
+
+</div>
 
 ## Subquery Optimization
 
@@ -242,7 +254,7 @@ SELECT * FROM orders WHERE EXISTS (SELECT 1 FROM premium_customers WHERE id = cu
 ### Materialized Subqueries
 
 CTEs in PostgreSQL 12+ may be inlined or materialized. When materialized, the subquery is executed
-Once and stored:
+once and stored:
 
 ```sql
 -- The CTE may be materialized if referenced multiple times
@@ -302,6 +314,8 @@ SELECT * FROM large_a JOIN large_b ON a.id = b.id;
 
 ### When Parallel Query Helps (and When It Does Not)
 
+<div class="table-wrap">
+
 | Scenario                       | Parallel Helps? | Reason                                     |
 | ------------------------------ | --------------- | ------------------------------------------ |
 | Full table scan on large table | Yes             | Work distributed across workers            |
@@ -310,9 +324,11 @@ SELECT * FROM large_a JOIN large_b ON a.id = b.id;
 | Foreign data wrapper queries   | No              | FDW does not support parallel execution    |
 | Queries returning few rows     | No              | Gather overhead exceeds benefit            |
 
+</div>
+
 :::caution
 Uses 4x `work_mem` for hash tables. Set `work_mem` conservatively on parallel-capable systems, or
-You risk OOM.
+you risk OOM.
 
 ## Covering Indexes
 
@@ -433,6 +449,8 @@ CREATE INDEX idx_logs_created_brin
     WITH (pages_per_range = 128);
 ```
 
+<div class="table-wrap">
+
 | Index Type | Size (relative) | Best For                            | Worst For                 |
 | ---------- | --------------- | ----------------------------------- | ------------------------- |
 | B-tree     | Large           | General purpose, equality + range   | Large tables, few queries |
@@ -440,6 +458,8 @@ CREATE INDEX idx_logs_created_brin
 | Hash       | Medium          | Equality only                       | Range queries, ordering   |
 | GIN        | Large           | Array, full-text, JSONB containment | Exact match, small keys   |
 | GiST       | Medium          | Geometric, range, full-text (trgm)  | Simple equality           |
+
+</div>
 
 ## GIN and GiST Indexes
 
@@ -510,11 +530,15 @@ server_idle_timeout = 600
 
 ### Pool Modes
 
+<div class="table-wrap">
+
 | Mode          | Behavior                                           | Best For                               |
 | ------------- | -------------------------------------------------- | -------------------------------------- |
 | `session`     | Connection assigned to client for entire session   | Applications using SET/ advisory locks |
 | `transaction` | Connection returned to pool after each transaction | Most web applications (default choice) |
 | `statement`   | Connection returned to pool after each statement   | Very high concurrency, stateless       |
+
+</div>
 :::
 
 :::caution
@@ -544,7 +568,7 @@ DEALLOCATE get_orders_by_customer;
 ### Plan Caching
 
 PostgreSQL uses a **generic plan** for prepared statements after 5 executions. The generic plan does
-Not use the specific parameter values for planning, which can lead to suboptimal plans when data
+not use the specific parameter values for planning, which can lead to suboptimal plans when data
 Distribution is skewed.
 
 ```sql
@@ -737,7 +761,7 @@ ALTER TABLE orders SET (autovacuum_analyze_scale_factor = 0.01);
 ### work_mem Too Low for Hash Joins
 
 The default `work_mem` is 4MB. A hash join on a table with 10 million rows likely requires much
-More. If the hash table spills to disk, performance degrades by 10-100x:
+more. If the hash table spills to disk, performance degrades by 10-100x:
 
 ```sql
 -- Per-session
@@ -814,7 +838,7 @@ WHERE tablename = 'orders' AND attname = 'status';
 
 When a query filters on a value that is NOT in the MCV list, the planner uses the histogram to
 Estimate selectivity. If the histogram has too few buckets (low `statistics_target`), the estimate
-Can be wildly wrong.
+can be wildly wrong.
 
 ```sql
 -- Increase statistics for skewed distributions
@@ -880,6 +904,8 @@ CREATE INDEX idx_docs_body_gist ON documents USING GiST (body gist_trgm_ops);
 -- Less selective for short patterns
 ```
 
+<div class="table-wrap">
+
 | Feature        | GIN trigram        | GiST trigram      |
 | -------------- | ------------------ | ----------------- |
 | Substring LIKE | Fast               | Moderate          |
@@ -888,6 +914,8 @@ CREATE INDEX idx_docs_body_gist ON documents USING GiST (body gist_trgm_ops);
 | Write speed    | Slow               | Fast              |
 | Read speed     | Fast (exact match) | Moderate          |
 | Best for       | Read-heavy         | Write-heavy       |
+
+</div>
 
 ## Partition Pruning Details
 
@@ -915,7 +943,7 @@ WHERE created_at >= '2024-01-01' AND created_at &lt; '2024-04-01';
 ### Partition-Wise Joins
 
 PostgreSQL 11+ supports partition-wise joins, where the optimizer joins matching partitions directly
-Instead of joining entire partitioned tables:
+instead of joining entire partitioned tables:
 
 ```sql
 -- Enable partition-wise joins
@@ -939,6 +967,8 @@ Tables.
 
 ## Statistics Target Tuning Guide
 
+<div class="table-wrap">
+
 | Column Pattern                          | Recommended statistics_target | Reason                                        |
 | --------------------------------------- | ----------------------------- | --------------------------------------------- |
 | Boolean (low cardinality)               | 100 (default)                 | Few distinct values, MCV covers all           |
@@ -948,6 +978,8 @@ Tables.
 | Column used in JOINs                    | 200-500                       | Join cardinality estimates matter             |
 | Column used in WHERE with range queries | 200-500                       | Histogram boundaries affect range selectivity |
 | Unique or near-unique                   | 100 (default)                 | n_distinct is sufficient                      |
+
+</div>
 
 ```sql
 -- Set statistics target per column

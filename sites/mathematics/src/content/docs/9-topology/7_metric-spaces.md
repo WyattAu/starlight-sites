@@ -32,17 +32,23 @@ $B_r(p) = \{x : d(x, p) < r\}$.
 
 **Example 7.1 (Euclidean metric).** On $\mathbb{R}^n$:
 
-$$d_2(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}.$$
+$$
+d_2(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}.
+$$
 
 **Example 7.2 ($p$-norm metrics).** For $1 \leq p \leq \infty$:
 
-$$d_p(\mathbf{x}, \mathbf{y}) = \left(\sum_{i=1}^{n} |x_i - y_i|^p\right)^{1/p}, \qquad d_\infty(\mathbf{x}, \mathbf{y}) = \max_{1 \leq i \leq n} |x_i - y_i|.$$
+$$
+d_p(\mathbf{x}, \mathbf{y}) = \left(\sum_{i=1}^{n} |x_i - y_i|^p\right)^{1/p}, \qquad d_\infty(\mathbf{x}, \mathbf{y}) = \max_{1 \leq i \leq n} |x_i - y_i|.
+$$
 
 All of these induce the standard topology on $\mathbb{R}^n$.
 
 **Example 7.3 (Discrete metric).** For any set $X$:
 
-$$d(x, y) = \begin{cases} 0 & \text{if } x = y, \\ 1 & \text{if } x \neq y. \end{cases}$$
+$$
+d(x, y) = \begin{cases} 0 & \text{if } x = y, \\ 1 & \text{if } x \neq y. \end{cases}
+$$
 
 The discrete metric induces the discrete topology.
 
@@ -93,6 +99,8 @@ $d(x^*, y^*) = d(f(x^*), f(y^*)) \leq c \cdot d(x^*, y^*)$, so $d(x^*, y^*) = 0$
 
 ### 7.6 Key Relationships Between Metric Spaces
 
+<div class="table-wrap">
+
 | Property         | Definition                                          | Example                        |
 | ---------------- | --------------------------------------------------- | ------------------------------ |
 | Metric space     | Set + distance function satisfying triangle ineq    | $\mathbb{R}^n$ with $d_2$      |
@@ -100,6 +108,8 @@ $d(x^*, y^*) = d(f(x^*), f(y^*)) \leq c \cdot d(x^*, y^*)$, so $d(x^*, y^*) = 0$
 | Compact metric   | Every open cover has finite subcover                | $[0,1]$ with Euclidean metric  |
 | Connected metric | Cannot be partitioned into two disjoint open sets   | $\mathbb{R}^n$, any interval   |
 | Totally bounded  | For every $\varepsilon > 0$, finite $\varepsilon$-net | $[0,1]$ but not $\mathbb{R}$ |
+
+</div>
 
 Compact $\Rightarrow$ complete and totally bounded. Complete + totally bounded $\Rightarrow$ compact.
 
@@ -161,17 +171,6 @@ A complete metric space need not be compact; compactness requires both completen
 **Mistake 3: Forgetting that contractions require a uniform contraction constant**
 The Banach fixed-point theorem requires $d(f(x), f(y)) \leq c \cdot d(x, y)$ for a fixed $c < 1$ and all $x, y$. A map satisfying $d(f(x), f(y)) < d(x, y)$ for all $x \neq y$ (strictly contractive but without a uniform constant) need not have a fixed point. For example, $f(x) = x + 1/x$ on $(1, \infty)$ is strictly contractive but has no fixed point.
 
-
-```mermaid
-flowchart TD
-    A[7_Metric Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)**: The metric topology induces open and closed sets whose properties are studied using closure and interior operations.
@@ -179,7 +178,7 @@ flowchart TD
 - **[Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)**: Convergence of sequences in metric spaces generalises the real-number convergence studied in analysis.
 - **[Introduction to Algebraic Topology](/9-topology/9_introduction-to-algebraic-topology/)**: Completeness and compactness of metric spaces are prerequisites for understanding covering spaces and fundamental groups.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

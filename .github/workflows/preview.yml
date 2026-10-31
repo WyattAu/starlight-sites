@@ -79,7 +79,12 @@ jobs:
         id: deploy
         working-directory: sites/${{ matrix.site }}
         run: |
-          DEPLOYMENT_URL=$(bunx wrangler pages deploy dist --project-name ${{ matrix.project }} --branch "pr-${{ github.event.pull_request.number }}" 2>&1 | grep -oP 'https://[^\s]+' | head -1)
+          dist_dir="$PWD/dist"
+          if [ ! -f "$dist_dir/index.html" ]; then
+            echo "::error::No index.html in $dist_dir — refusing to upload a build that is empty or landed somewhere else"
+            exit 1
+          fi
+          DEPLOYMENT_URL=$(bunx wrangler pages deploy "$dist_dir" --project-name ${{ matrix.project }} --branch "pr-${{ github.event.pull_request.number }}" 2>&1 | grep -oP 'https://[^\s]+' | head -1)
           echo "url=$DEPLOYMENT_URL" >> "$GITHUB_OUTPUT"
           echo "## ${{ matrix.site }} Preview" >> $GITHUB_STEP_SUMMARY
           echo "- **URL**: $DEPLOYMENT_URL" >> $GITHUB_STEP_SUMMARY

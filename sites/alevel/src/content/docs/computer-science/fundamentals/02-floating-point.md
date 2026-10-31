@@ -24,7 +24,7 @@ categories:
 
 Fixed-point representation allocates a fixed number of bits to the integer and fractional parts,
 Limiting both range and precision. **Floating-point representation** decouples these: it uses a form
-Of scientific notation in binary, allowing a vastly larger range at the cost of variable precision.
+of scientific notation in binary, allowing a vastly larger range at the cost of variable precision.
 
 ## 2. IEEE 754 Single Precision (32-bit)
 
@@ -37,17 +37,23 @@ An IEEE 754 single-precision number uses 32 bits partitioned as follows:
 | Sign S | Exponent E |    Mantissa/Fraction M |
 ```
 
+<div class="table-wrap">
+
 | Field          | Bits | Purpose                                                |
 | -------------- | ---- | ------------------------------------------------------ |
 | Sign ($S$)     | 1    | 0 = positive, 1 = negative                             |
 | Exponent ($E$) | 8    | Biased exponent: stored as $E = e + 127$               |
 | Mantissa ($M$) | 23   | Fractional part of the significand; implicit leading 1 |
 
+</div>
+
 ### Decoding the Value
 
 The represented value is:
 
-$$(-1)^S \times 1.M \times 2^{E - 127}$$
+$$
+(-1)^S \times 1.M \times 2^{E - 127}
+$$
 
 Where $1.M$ denotes the binary number $1 + \sum_{i=1}^{23} m_i \cdot 2^{-i}$. The leading 1 is
 **implicit**, it is not stored but always assumed (for normalised numbers). This is called the
@@ -62,11 +68,15 @@ Where $1.M$ denotes the binary number $1 + \sum_{i=1}^{23} m_i \cdot 2^{-i}$. Th
 
 **Largest positive normalised number:**
 
-$$+1.111\ldots1 \times 2^{127} = (2 - 2^{-23}) \times 2^{127} \approx 3.403 \times 10^{38}$$
+$$
++1.111\ldots1 \times 2^{127} = (2 - 2^{-23}) \times 2^{127} \approx 3.403 \times 10^{38}
+$$
 
 **Smallest positive normalised number:**
 
-$$+1.000\ldots0 \times 2^{-126} = 2^{-126} \approx 1.175 \times 10^{-38}$$
+$$
++1.000\ldots0 \times 2^{-126} = 2^{-126} \approx 1.175 \times 10^{-38}
+$$
 
 **General range (normalised):** approximately $\pm 1.175 \times 10^{-38}$ to
 $\pm 3.403 \times 10^{38}$.
@@ -74,9 +84,11 @@ $\pm 3.403 \times 10^{38}$.
 ### Precision
 
 With 23 explicit mantissa bits plus 1 implicit bit, the significand has 24 bits of precision. This
-Gives approximately $24 \times \log_{10}(2) \approx 7.22$ decimal digits of precision.
+gives approximately $24 \times \log_{10}(2) \approx 7.22$ decimal digits of precision.
 
 ### Special Values
+
+<div class="table-wrap">
 
 | Exponent $E$ | Mantissa $M$ | Meaning               |
 | ------------ | ------------ | --------------------- |
@@ -85,11 +97,15 @@ Gives approximately $24 \times \log_{10}(2) \approx 7.22$ decimal digits of prec
 | 255          | 0            | $\pm \infty$          |
 | 255          | $\neq 0$     | NaN (Not a Number)    |
 
+</div>
+
 ### Denormalised Numbers
 
-When $E = 0$ and $M \neq 0$The value is:
+When $E = 0$ and $M \neq 0$ The value is:
 
-$$(-1)^S \times 0.M \times 2^{-126}$$
+$$
+(-1)^S \times 0.M \times 2^{-126}
+$$
 
 Note: the implicit bit is now **0** (not 1), and the exponent is fixed at $-126$ (not $-127$).
 
@@ -97,7 +113,9 @@ Note: the implicit bit is now **0** (not 1), and the exponent is fixed at $-126$
 Normalised number ($2^{-126} \approx 1.18 \times 10^{-38}$). Denormalised numbers fill this gap,
 Providing a **smooth gradual underflow**. The smallest positive denormalised number is:
 
-$$0.000\ldots001 \times 2^{-126} = 2^{-23} \times 2^{-126} = 2^{-149} \approx 1.4 \times 10^{-45}$$
+$$
+0.000\ldots001 \times 2^{-126} = 2^{-23} \times 2^{-126} = 2^{-149} \approx 1.4 \times 10^{-45}
+$$
 
 <details>
 <summary>Example: Decode IEEE 754 single-precision 0x41280000</summary>
@@ -140,7 +158,9 @@ Result: `1 10000001 10100000000000000000000`
 A floating-point number is **normalised** when the leading bit of the significand is 1. In binary,
 This means the number is expressed in the form:
 
-$$\pm 1.xxxxxx \times 2^e$$
+$$
+\pm 1.xxxxxx \times 2^e
+$$
 
 **Procedure for normalising:**
 
@@ -172,13 +192,13 @@ In IEEE 754: $e = -3$, $E = -3 + 127 = 124 = 01111100_2$.
 
 $0.1_{10} = \frac{1}{10} = \frac{1}{2 \times 5}$
 
-For a number to have a finite representation in base $b$When reduced to lowest terms
-$\frac{p}{q}$The denominator $q$ must divide some power of $b$. Here $q = 10 = 2 \times 5$ And $5$
+For a number to have a finite representation in base $b$ When reduced to lowest terms
+$\frac{p}{q}$ The denominator $q$ must divide some power of $b$. Here $q = 10 = 2 \times 5$ And $5$
 does not divide any power of $2$. Therefore $0.1_{10}$ has no finite binary expansion. $\square$
 
 When stored in IEEE 754, $0.1_{10}$ is approximated by the nearest representable binary value.
 Similarly for $0.2_{10}$ and $0.3_{10}$. Since the approximations introduce rounding errors, the sum
-Of the approximations of $0.1$ and $0.2$ does not exactly equal the approximation of $0.3$.
+of the approximations of $0.1$ and $0.2$ does not exactly equal the approximation of $0.3$.
 
 ```python
 >>> 0.1 + 0.2
@@ -191,9 +211,13 @@ False
 
 Given an exact value $x$ and an approximate value $\tilde{x}$:
 
-$$\mathrm{Absolute Error} = |x - \tilde{x}|$$
+$$
+\mathrm{Absolute Error} = |x - \tilde{x}|
+$$
 
-$$\mathrm{Relative Error} = \frac{|x - \tilde{x}|}{|x|}$$
+$$
+\mathrm{Relative Error} = \frac{|x - \tilde{x}|}{|x|}
+$$
 
 **Machine epsilon** ($\epsilon$) is the smallest number such that $1 + \epsilon \gt 1$ in
 Floating-point arithmetic. For IEEE 754 single precision,
@@ -255,6 +279,8 @@ Result: `1 1011 101`
 
 ## 6. Fixed-Point vs Floating-Point Comparison
 
+<div class="table-wrap">
+
 | Property        | Fixed-Point                 | Floating-Point                          |
 | --------------- | --------------------------- | --------------------------------------- |
 | Range           | Limited by bit allocation   | Very large ($\sim 10^{\pm38}$)          |
@@ -264,6 +290,8 @@ Result: `1 1011 101`
 | Representation  | Simple to understand        | Complex (normalisation, special values) |
 | Rounding errors | Predictable                 | Less predictable near boundaries        |
 | Use case        | Financial, embedded systems | Scientific computing, graphics          |
+
+</div>
 
 <hr />
 
@@ -368,7 +396,7 @@ Write $0.2$ as a fraction in lowest terms. Apply the same argument used for $0.1
 $0.2 = \frac{2}{10} = \frac{1}{5}$
 
 For a finite binary expansion, the denominator must divide a power of 2 when the fraction is in
-Lowest terms. Since $5$ is prime and does not divide any power of $2$$1/5$ has no finite binary
+lowest terms. Since $5$ is prime and does not divide any power of $2$$1/5$ has no finite binary
 Representation. $\square$
 
 </details>
@@ -414,7 +442,7 @@ Use implicit leading 0 and fixed exponent $-126$.
 
 Without denormalised numbers, there would be a sudden jump from the smallest normalised number
 ($\approx 1.18 \times 10^{-38}$) to zero. Any computation producing a result smaller than this
-Threshold would "flush to zero," losing all precision. Denormalised numbers provide a gradual
+threshold would "flush to zero," losing all precision. Denormalised numbers provide a gradual
 Transition, maintaining relative precision longer.
 
 </details>
@@ -433,7 +461,7 @@ Count the combinations of sign, exponent, and mantissa for each category.
 <summary>Answer</summary>
 
 Normalised: Exponent $E$ ranges from 1 to 254 (254 values). Mantissa $M$ has $2^{23}$ values. Sign
-Has 2 values. Total: $2 \times 254 \times 2^{23} = 4,261,412,864$.
+has 2 values. Total: $2 \times 254 \times 2^{23} = 4,261,412,864$.
 
 Denormalised: $E = 0$$M \neq 0$. Total: $2 \times (2^{23} - 1) = 16,777,214$.
 
@@ -452,7 +480,7 @@ Think about the precision of single-precision float relative to the magnitude of
 <details>
 <summary>Answer</summary>
 
-Single precision has approximately 7 decimal digits of precision. When $a = 10^7$The smallest
+Single precision has approximately 7 decimal digits of precision. When $a = 10^7$ The smallest
 Representable difference between consecutive floats near $a$ is approximately
 $a \times \epsilon \approx 10^7 \times 10^{-7} = 1$. Since $b = 10^{-8}$ is much smaller than the
 Gap between representable numbers near $a$$a + b$ rounds to $a$ itself. Then $a - a = 0$.
@@ -493,15 +521,21 @@ $\frac{3.33 \times 10^{-7}}{1/3} = 3.33 \times 10^{-7} \times 3 = 10^{-6} = 0.00
 | Sign S | Exponent E |    Mantissa M        |
 ```
 
+<div class="table-wrap">
+
 | Field          | Bits | Purpose                             |
 | -------------- | ---- | ----------------------------------- |
 | Sign ($S$)     | 1    | 0 = positive, 1 = negative          |
 | Exponent ($E$) | 11   | Biased exponent: $E = e + 1023$     |
 | Mantissa ($M$) | 52   | Fractional part; implicit leading 1 |
 
+</div>
+
 ### Decoding
 
-$$(-1)^S \times 1.M \times 2^{E - 1023}$$
+$$
+(-1)^S \times 1.M \times 2^{E - 1023}
+$$
 
 ### Range
 
@@ -510,6 +544,8 @@ $$(-1)^S \times 1.M \times 2^{E - 1023}$$
 - **Precision:** $52 + 1 = 53$ bits $\approx 15.95$ decimal digits
 
 ### Comparison: Single vs Double
+
+<div class="table-wrap">
 
 | Property        | Single (32-bit)                       | Double (64-bit)                        |
 | --------------- | ------------------------------------- | -------------------------------------- |
@@ -520,6 +556,8 @@ $$(-1)^S \times 1.M \times 2^{E - 1023}$$
 | Max value       | ~$3.4 \times 10^{38}$                 | ~$1.8 \times 10^{308}$                 |
 | Min normal      | ~$1.2 \times 10^{-38}$                | ~$2.2 \times 10^{-308}$                |
 | Machine epsilon | $2^{-23} \approx 1.19 \times 10^{-7}$ | $2^{-52} \approx 2.22 \times 10^{-16}$ |
+
+</div>
 
 <hr />
 
@@ -547,6 +585,8 @@ Represents overflow or division by zero:
 
 Arithmetic rules:
 
+<div class="table-wrap">
+
 | Operation               | Result    |
 | ----------------------- | --------- |
 | $x / 0$ (for $x \gt 0$) | $+\infty$ |
@@ -556,6 +596,8 @@ Arithmetic rules:
 | $\infty \times \infty$  | $+\infty$ |
 | $0 \times \infty$       | NaN       |
 | $\infty / \infty$       | NaN       |
+
+</div>
 
 ### NaN (Not a Number)
 
@@ -567,12 +609,16 @@ Represents undefined or indeterminate results:
 
 NaN is produced by:
 
+<div class="table-wrap">
+
 | Operation         | Result |
 | ----------------- | ------ |
 | $0 / 0$           | NaN    |
 | $\infty - \infty$ | NaN    |
 | $\sqrt{-1}$       | NaN    |
 | $\infty \times 0$ | NaN    |
+
+</div>
 
 Key property: **NaN is not equal to anything, including itself.**
 
@@ -633,6 +679,8 @@ print(abs(x - y) < epsilon)  # True
 
 ## 10. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                            | Explanation                                            | Solution                                                       |
 | ---------------------------------- | ------------------------------------------------------ | -------------------------------------------------------------- |
 | Using `==` for float comparison    | Rounding errors mean exact equality rarely holds       | Compare with tolerance: `abs(a - b) &lt; epsilon`              |
@@ -642,6 +690,8 @@ print(abs(x - y) < epsilon)  # True
 | Checking `x == float('nan')`       | NaN is not equal to itself by definition               | Use `math.isnan(x)`                                            |
 | Ignoring denormalised numbers      | Assuming all numbers have 24-bit precision             | Denormalised numbers near zero have fewer significant bits     |
 | Mixing single and double precision | Implicit conversions can lose precision                | Be consistent with precision throughout the calculation        |
+
+</div>
 
 <hr />
 
@@ -697,15 +747,15 @@ Are the results different?
 <summary>Answer</summary>
 
 `1.0 / 0.0` produces $+\infty$. This represents mathematical division where a non-zero quantity is
-Divided by zero, the result tends to infinity.
+divided by zero, the result tends to infinity.
 
 `0.0 / 0.0` produces NaN. This represents an indeterminate form: the limit depends on how both
-Numerator and denominator approach zero (e.g., $\lim_{x \to 0} x/x = 1$ but
+numerator and denominator approach zero (e.g., $\lim_{x \to 0} x/x = 1$ but
 $\lim_{x \to 0} 2x/x = 2$). Since the result is not uniquely determined, IEEE 754 returns NaN.
 
 The distinction is important because $+\infty$ can participate meaningfully in further arithmetic
 (e.g., $1 / \infty = 0$), while NaN propagates through all operations, signalling that the result is
-Invalid.
+invalid.
 
 </details>
 
@@ -723,7 +773,7 @@ def quadratic(a, b, c):
 <details>
 <summary>Answer</summary>
 
-**Problem: Catastrophic cancellation.** When $4ac$ is small compared to $b^2$The discriminant is
+**Problem: Catastrophic cancellation.** When $4ac$ is small compared to $b^2$ The discriminant is
 Close to $b^2$. Then $\sqrt{b^2 - 4ac} \approx |b|$ And one of the numerators becomes $-b + |b|$ or
 $-b - |b|$. If $b \gt 0$ Then $-b + \sqrt{b^2 - 4ac}$ subtracts nearly equal numbers, losing
 Precision.
@@ -749,7 +799,7 @@ Relationship, both roots maintain full precision.
 </details>
 
 **Problem 5.** In IEEE 754 single precision, what is the smallest positive number that, when added
-To $1.0$Produces a result different from $1.0$? Explain why.
+To $1.0$ Produces a result different from $1.0$? Explain why.
 
 <details>
 <summary>Answer</summary>
@@ -758,15 +808,15 @@ This is the definition of **machine epsilon**: the smallest $\epsilon$ such that
 $1 + \epsilon \gt 1$.
 
 In single precision, the mantissa has 23 bits. The value $1.0$ is represented as
-$1.000\ldots0 \times 2^0$. The next representable number is $1.000\ldots01 \times 2^0$Where the Last
+$1.000\ldots0 \times 2^0$. The next representable number is $1.000\ldots01 \times 2^0$ Where the Last
 bit of the mantissa is 1.
 
 This value is $1 + 2^{-23} \approx 1.0000001192092896$.
 
 So $\epsilon = 2^{-23} \approx 1.19 \times 10^{-7}$.
 
-Any value smaller than $\epsilon$When added to $1.0$Rounds back to $1.0$ because there are not
-Enough mantissa bits to represent the difference. For example, $1.0 + 2^{-24} = 1.0$ in single
+Any value smaller than $\epsilon$ When added to $1.0$ Rounds back to $1.0$ because there are not
+enough mantissa bits to represent the difference. For example, $1.0 + 2^{-24} = 1.0$ in single
 Precision.
 
 </details>
@@ -774,16 +824,6 @@ Precision.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
-```mermaid
-flowchart TD
-    A[02 Floating Point] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -798,13 +838,7 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

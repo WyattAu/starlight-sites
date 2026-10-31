@@ -24,7 +24,7 @@ explain and evaluate developmental theories using relevant research evidence and
 variations in developmental processes.
 
 Developmental psychology is inherently integrative because developmental processes cannot be
-explained at a single level of analysis. Attachment, for example, has biological roots (Bowlby"s
+explained at a single level of analysis. Attachment, for example, has biological roots (Bowlby's
 evolutionary theory, oxytocin systems), cognitive components (internal working models that shape
 expectations about relationships), and sociocultural dimensions (culturally specific caregiving
 practices as documented by Van IJzendoorn and Kroonenberg). Similarly, cognitive development is
@@ -176,6 +176,8 @@ children and tracking change over time:
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Researcher (Year)                     | Focus                               | Key Finding                                                                                                                                                                                         |
 | ------------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ainsworth (1970)                      | Attachment classification           | The Strange Situation procedure identified three attachment types: secure, insecure-avoidant, and insecure-resistant, linked to caregiver sensitivity and responsiveness.                           |
@@ -184,16 +186,7 @@ children and tracking change over time:
 | Vygotsky (1978)                       | Sociocultural theory of development | Argued that cognitive development occurs through social interaction within the ZPD, where scaffolding by a more knowledgeable other enables the child to achieve higher cognitive functions.        |
 | Steinberg (2008)                      | Adolescent risk-taking              | Reviewed evidence for the dual-systems model: the socioemotional system matures earlier than the cognitive-control system, explaining heightened risk-taking in mid-adolescence.                    |
 
-
-```mermaid
-flowchart TD
-    A[Developmental Psychology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Summary
 
@@ -209,11 +202,15 @@ populations.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                           | Link                                                            |
 | ------------------------------- | --------------------------------------------------------------- |
 | Attachment Theory               | [View](/psychology/developmental/attachment-theory/)     |
 | Cognitive Development           | [View](/psychology/developmental/cognitive-development/) |
 | Sociocultural Level of Analysis | [View](/psychology/sociocultural-level-of-analysis/)     |
+
+</div>
 
 ## Intuition
 

@@ -21,7 +21,7 @@ categories:
 
 Supervised learning is the field of training models to act as a mapping between a set of inputs to a
 Set of output. To conduct supervised learning, a training set $N$ is given in the form of pairs
-$D = {x_n, y_n}^N_{n=1}$Where a input $x_n$ is paire with the correct output $y_n$.
+$D = {x_n, y_n}^N_{n=1}$ Where a input $x_n$ is paire with the correct output $y_n$.
 
 ## Classification
 
@@ -36,7 +36,7 @@ would be determining the car model from an image.
 
 When considering a small dataset, a common practice is to store them in a design matrix, a
 $N \times D$ matrix that represent example in row and features in column. Many features however does
-Not share the same value type, an example being a sequence of words or characters rather than
+not share the same value type, an example being a sequence of words or characters rather than
 Fixed-length vectors. This problem is solved by featuriszation where a mapping first convert The
 data into a type of fixed size representation and processed afterwards, an example being the
 Infamous "bag of words" algorithm for sequential data.
@@ -46,9 +46,9 @@ Infamous "bag of words" algorithm for sequential data.
 Many tabular data have small amount of features, to observe data patterns, a lot of these data with
 Dimension are plotted with a pair plot, with each feature on one axis, often this allow clear
 Visualization of classification as data with similar features should share a region and the logic
-For the classification would be correctly partitioning each classification with a corrosponding
+for the classification would be correctly partitioning each classification with a corrosponding
 Region separated by the decision boundary. An example being classifying planetary objects, where the
-One dimensional feature, radius can determine whether the input given is a planet or a star this is
+one dimensional feature, radius can determine whether the input given is a planet or a star this is
 Called a decision rule, the decision boundary will therefore be the radius where it behaves as a
 Binary case, where bellow the radius threshold, the model will classfied the input as planet.
 
@@ -56,10 +56,10 @@ Binary case, where bellow the radius threshold, the model will classfied the inp
 
 However for non-binary classification, a singular decision boundary is not enough, a decision
 Surface maybe needed to fully determine the features a class poses. This classification of surfaces
-Can be implemented as a decision tree, nesting decisions to determine the class of the input. This
+can be implemented as a decision tree, nesting decisions to determine the class of the input. This
 Classification tree will be defined by parameters $\theta$ that denote nodes with feature index and
 Threshold, a binary tree that will determines the mapping by evaluating each input to leaf nodes
-That corrsponse to the predicted class $f(x_n;\theta)$.
+that corrsponse to the predicted class $f(x_n;\theta)$.
 
 ### Performance Measurement
 
@@ -100,12 +100,16 @@ from market indicators.
 The choice of loss function encodes assumptions about the data-generating process and the cost of
 prediction errors:
 
+<div class="table-wrap">
+
 | Loss Function | Formula                              | Sensitivity          | Use Case                       |
-| ------------- | ------------------------------------ | -------------------- | ------------------------------ | ------------------ | -------------------------- |
+| ------------- | ------------------------------------ | -------------------- | ------------------------------ |
 | Squared (L2)  | $\sum (y_n - \hat{y}_n)^2$           | High to outliers     | Gaussian noise assumption      |
-| Absolute (L1) | $\sum                                | y_n - \hat{y}\_n     | $                              | Robust to outliers | Laplacian noise assumption |
+| Absolute (L1) | $\sum                                \| y_n - \hat{y}\_n     \| $                              | Robust to outliers | Laplacian noise assumption |
 | Huber         | Hybrid L1/L2 with threshold $\delta$ | Tunable              | Balanced robustness/smoothness |
 | Cross-entropy | $-\sum y_n \log \hat{y}_n$           | N/A (classification) | Probabilistic classification   |
+
+</div>
 
 The squared error loss is the negative log-likelihood of a Gaussian likelihood:
 $p(y \mid x, \theta) = \mathcal{N}(y; f(x; \theta), \sigma^2)$. The absolute error corresponds to a
@@ -129,7 +133,9 @@ minimize it. Two estimation paradigms dominate:
 
 Gradient descent is the workhorse optimizer. The parameter update rule:
 
-$$\theta^{(t+1)} = \theta^{(t)} - \eta \nabla_\theta \mathcal{L}(\theta^{(t)})$$
+$$
+\theta^{(t+1)} = \theta^{(t)} - \eta \nabla_\theta \mathcal{L}(\theta^{(t)})
+$$
 
 where $\eta$ is the learning rate. Key variants:
 
@@ -145,7 +151,9 @@ critical for convergence in practice.
 
 The bias-variance decomposition frames generalization error:
 
-$$\text{Generalization Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}$$
+$$
+\text{Generalization Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}
+$$
 
 - **Underfitting (high bias)**: the model is too simple to capture the true data-generating
   distribution. High training error and high test error. Remedy: increase model capacity, add
@@ -201,27 +209,9 @@ statistical convenience.
 4. Not making connections between different topics within the subject to build a coherent
    understanding.
 
-
-```mermaid
-flowchart TD
-    A[1_Supervised_Learning] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

@@ -123,12 +123,16 @@ Every hypothesis test follows the same five-step structure:
 
 ### Distribution Selection Guide
 
+<div class="table-wrap">
+
 | Scenario                            | Distribution           | Key Parameters              |
 | ----------------------------------- | ---------------------- | --------------------------- |
 | Counting events in a fixed interval | Poisson($\lambda$)     | Mean = Variance = $\lambda$ |
 | First success in repeated trials    | Geometric($p$)         | $P(X=x) = (1-p)^{x-1}p$     |
 | Continuous waiting time             | Exponential($\lambda$) | Mean = $\frac{1}{\lambda}$  |
 | Testing goodness of fit             | $\chi^2$               | Degrees of freedom $\nu$    |
+
+</div>
 
 ## How to Use These Notes
 
@@ -173,8 +177,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## See Also
 

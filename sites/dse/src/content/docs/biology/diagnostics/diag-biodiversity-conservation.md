@@ -16,11 +16,13 @@ tableOfContents: false
 
 ## DSE Biology Diagnostic: Biodiversity and Conservation
 
-## Unit Test 1: Species Richness, Species Evenness, and Simpson"s Diversity Index
+## Unit Test 1: Species Richness, Species Evenness, and Simpson's Diversity Index
 
 **Question**
 
 Two nature reserves, A and B, were surveyed for the number and abundance of butterfly species.
+
+<div class="table-wrap">
 
 | Species   | Reserve A (number of individuals) | Reserve B (number of individuals) |
 | --------- | :-------------------------------: | :-------------------------------: |
@@ -31,11 +33,15 @@ Two nature reserves, A and B, were surveyed for the number and abundance of butt
 | Species 5 |                 1                 |                20                 |
 | **Total** |              **100**              |              **100**              |
 
+</div>
+
 (a) Define the terms **species richness** and **species evenness**. [2 marks]
 
 (b) Calculate Simpson's Diversity Index (D) for Reserve A and Reserve B using the formula:
 
-$$D = 1 - \sum \left(\frac{n}{N}\right)^{2}$$
+$$
+D = 1 - \sum \left(\frac{n}{N}\right)^{2}
+$$
 
 Where $n$ = number of individuals of a species, and $N$ = total number of individuals. [4 marks]
 
@@ -64,23 +70,35 @@ community dominated by one or a few species has low evenness.
 
 (b) **Reserve A** ($N = 100$):
 
-$$D = 1 - \left[\left(\frac{90}{100}\right)^{2} + \left(\frac{5}{100}\right)^{2} + \left(\frac{3}{100}\right)^{2} + \left(\frac{1}{100}\right)^{2} + \left(\frac{1}{100}\right)^{2}\right]$$
+$$
+D = 1 - \left[\left(\frac{90}{100}\right)^{2} + \left(\frac{5}{100}\right)^{2} + \left(\frac{3}{100}\right)^{2} + \left(\frac{1}{100}\right)^{2} + \left(\frac{1}{100}\right)^{2}\right]
+$$
 
-$$D = 1 - [0.81 + 0.0025 + 0.0009 + 0.0001 + 0.0001]$$
+$$
+D = 1 - [0.81 + 0.0025 + 0.0009 + 0.0001 + 0.0001]
+$$
 
-$$D = 1 - 0.8136 = 0.1864$$
+$$
+D = 1 - 0.8136 = 0.1864
+$$
 
 **Reserve B** ($N = 100$):
 
-$$D = 1 - 5 \times \left(\frac{20}{100}\right)^{2}$$
+$$
+D = 1 - 5 \times \left(\frac{20}{100}\right)^{2}
+$$
 
-$$D = 1 - 5 \times 0.04$$
+$$
+D = 1 - 5 \times 0.04
+$$
 
-$$D = 1 - 0.20 = 0.80$$
+$$
+D = 1 - 0.20 = 0.80
+$$
 
 (c) **Reserve B is more biodiverse** (D = 0.80 vs D = 0.19). Both have the same species richness (5
 species), but Reserve B has much higher **species evenness** (all species equally abundant), while
-Reserve A is dominated by Species 1 (90% of individuals).
+reserve A is dominated by Species 1 (90% of individuals).
 
 A higher Simpson's Diversity Index indicates greater biodiversity. A more biodiverse ecosystem is
 generally **more stable** and **more resilient** to environmental changes (e.g. Disease, climate
@@ -254,17 +272,6 @@ than a occurring 200-hectare forest because of:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Biodiversity Conservation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

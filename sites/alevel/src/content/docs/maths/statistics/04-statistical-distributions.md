@@ -23,6 +23,8 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper      | Notes                                    |
 | ---------- | ---------- | ---------------------------------------- |
 | AQA        | Paper 1, 2 | Binomial and normal in P1; Poisson in P2 |
@@ -30,9 +32,11 @@ categories:
 | OCR (A)    | Paper 1, 2 | Binomial in P1; normal and Poisson in P2 |
 | CIE (9709) | P1, P6     | Binomial in P1; normal and Poisson in P6 |
 
+</div>
+
 :::note
 Distributions, and the normal distribution function. You must know when to use each distribution and
-How to find probabilities.
+how to find probabilities.
 :::
 
 <hr />
@@ -49,8 +53,12 @@ Probabilities $P(X = x_i) = p_i$ satisfying:
 
 ### 1.2 Expectation and variance
 
-$$E(X) = \mu = \sum x_i\,p_i$$
-$$\mathrm{Var}(X) = \sigma^2 = E(X^2) - [E(X)]^2 = \sum x_i^2\,p_i - \mu^2$$
+$$
+E(X) = \mu = \sum x_i\,p_i
+$$
+$$
+\mathrm{Var}(X) = \sigma^2 = E(X^2) - [E(X)]^2 = \sum x_i^2\,p_i - \mu^2
+$$
 
 <hr />
 
@@ -59,7 +67,7 @@ $$\mathrm{Var}(X) = \sigma^2 = E(X^2) - [E(X)]^2 = \sum x_i^2\,p_i - \mu^2$$
 ### 2.1 Derivation from Bernoulli trials
 
 A **Bernoulli trial** is an experiment with exactly two outcomes: success (probability $p$) and
-Failure (probability $1-p$).
+failure (probability $1-p$).
 
 If we perform $n$ independent Bernoulli trials, the number of successes $X$ follows a **Binomial
 Distribution**: $X \sim B(n, p)$.
@@ -68,7 +76,9 @@ Distribution**: $X \sim B(n, p)$.
 $p^k(1-p)^{n-k}$. The number of such sequences is $\binom{n}{k}$ (choosing which $k$ of the $n$
 Trials are successes). Therefore:
 
-$$P(X = k) = \binom{n}{k}p^k(1-p)^{n-k}, \quad k = 0, 1, \ldots, n$$
+$$
+P(X = k) = \binom{n}{k}p^k(1-p)^{n-k}, \quad k = 0, 1, \ldots, n
+$$
 
 ### 2.2 Proof that $E(X) = np$
 
@@ -99,20 +109,26 @@ $\blacksquare$
 ### 2.5 Direct derivation of $E(X) = np$ from the PMF
 
 The proofs in Sections 2.2 and 2.3 use indicator variables. Here we derive the same results directly
-From the probability mass function using algebraic identities.
+from the probability mass function using algebraic identities.
 
 **Proof.** Starting from the definition of expectation applied to the binomial PMF:
 
-$$E(X) = \sum_{k=0}^{n} k \binom{n}{k}p^k(1-p)^{n-k}$$
+$$
+E(X) = \sum_{k=0}^{n} k \binom{n}{k}p^k(1-p)^{n-k}
+$$
 
 The $k=0$ term vanishes, so begin the sum at $k=1$. Apply the identity
 $k\binom{n}{k} = n\binom{n-1}{k-1}$:
 
-$$E(X) = \sum_{k=1}^{n} n\binom{n-1}{k-1}p^k(1-p)^{n-k} = np\sum_{k=1}^{n}\binom{n-1}{k-1}p^{k-1}(1-p)^{(n-1)-(k-1)}$$
+$$
+E(X) = \sum_{k=1}^{n} n\binom{n-1}{k-1}p^k(1-p)^{n-k} = np\sum_{k=1}^{n}\binom{n-1}{k-1}p^{k-1}(1-p)^{(n-1)-(k-1)}
+$$
 
 Substitute $j = k - 1$:
 
-$$E(X) = np\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j}$$
+$$
+E(X) = np\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j}
+$$
 
 By the binomial theorem, $\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j} = [p + (1-p)]^{n-1} = 1$.
 
@@ -122,22 +138,30 @@ Therefore $E(X) = np$. $\blacksquare$
 
 **Proof.** First compute $E(X(X-1))$:
 
-$$E(X(X-1)) = \sum_{k=0}^{n} k(k-1)\binom{n}{k}p^k(1-p)^{n-k}$$
+$$
+E(X(X-1)) = \sum_{k=0}^{n} k(k-1)\binom{n}{k}p^k(1-p)^{n-k}
+$$
 
 Terms with $k = 0, 1$ are zero. Apply the identity $k(k-1)\binom{n}{k} = n(n-1)\binom{n-2}{k-2}$:
 
-$$E(X(X-1)) = \sum_{k=2}^{n} n(n-1)\binom{n-2}{k-2}p^k(1-p)^{n-k} = n(n-1)p^2\sum_{k=2}^{n}\binom{n-2}{k-2}p^{k-2}(1-p)^{(n-2)-(k-2)}$$
+$$
+E(X(X-1)) = \sum_{k=2}^{n} n(n-1)\binom{n-2}{k-2}p^k(1-p)^{n-k} = n(n-1)p^2\sum_{k=2}^{n}\binom{n-2}{k-2}p^{k-2}(1-p)^{(n-2)-(k-2)}
+$$
 
 Substitute $j = k - 2$:
 
-$$E(X(X-1)) = n(n-1)p^2\sum_{j=0}^{n-2}\binom{n-2}{j}p^j(1-p)^{n-2-j} = n(n-1)p^2$$
+$$
+E(X(X-1)) = n(n-1)p^2\sum_{j=0}^{n-2}\binom{n-2}{j}p^j(1-p)^{n-2-j} = n(n-1)p^2
+$$
 
 The final equality follows from the binomial theorem:
 $\sum_{j=0}^{n-2}\binom{n-2}{j}p^j(1-p)^{n-2-j} = 1$.
 
 Now $E(X^2) = E(X(X-1)) + E(X) = n(n-1)p^2 + np$.
 
-$$\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = n(n-1)p^2 + np - n^2p^2 = np - np^2 = np(1-p) \quad \blacksquare$$
+$$
+\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = n(n-1)p^2 + np - n^2p^2 = np - np^2 = np(1-p) \quad \blacksquare
+$$
 
 <hr />
 
@@ -147,16 +171,18 @@ $$\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = n(n-1)p^2 + np - n^2p^2 = np - np^2 = np
 
 The **Central Limit Theorem (CLT)** states that the sum (or mean) of a large number of independent,
 Identically distributed random variables is approximately normally distributed, regardless of the
-Original distribution.
+original distribution.
 
 This is why the normal distribution appears so widely in nature: any quantity that is the sum of
-Many small independent effects (height, measurement error, etc.) will be approximately normal.
+many small independent effects (height, measurement error, etc.) will be approximately normal.
 
 ### 3.2 Definition
 
 $X \sim N(\mu, \sigma^2)$ has PDF
 
-$$f(x) = \frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
+$$
+f(x) = \frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+$$
 
 ### 3.3 Properties
 
@@ -174,13 +200,17 @@ Probabilities are found using the standard normal table or a calculator"s invers
 
 ### 3.5 Finding probabilities
 
-$$P(a < X < b) = P\!\left(\frac{a-\mu}{\sigma} < Z < \frac{b-\mu}{\sigma}\right) = \Phi\!\left(\frac{b-\mu}{\sigma}\right) - \Phi\!\left(\frac{a-\mu}{\sigma}\right)$$
+$$
+P(a < X < b) = P\!\left(\frac{a-\mu}{\sigma} < Z < \frac{b-\mu}{\sigma}\right) = \Phi\!\left(\frac{b-\mu}{\sigma}\right) - \Phi\!\left(\frac{a-\mu}{\sigma}\right)
+$$
 
 ### 3.6 Normal approximation to Binomial
 
 For large $n$ with $np \gt 5$ and $n(1-p) \gt 5$:
 
-$$B(n, p) \approx N(np, np(1-p))$$
+$$
+B(n, p) \approx N(np, np(1-p))
+$$
 
 With **continuity correction**:
 $P(X \leq k) \approx P\!\left(Z \lt \frac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)$.
@@ -198,7 +228,9 @@ inequality Direction.
 $X \sim \mathrm{Po}(\lambda)$ models the number of events in a fixed interval when events occur
 Independently at a constant average rate $\lambda$.
 
-$$P(X = k) = \frac{e^{-\lambda}\lambda^k}{k!}, \quad k = 0, 1, 2, \ldots$$
+$$
+P(X = k) = \frac{e^{-\lambda}\lambda^k}{k!}, \quad k = 0, 1, 2, \ldots
+$$
 
 ### 4.2 Derivation as a limit of the Binomial
 
@@ -222,7 +254,9 @@ Consider each factor as $n \to \infty$:
 
 Therefore:
 
-$$P(X = k) \to \frac{1}{k!} \cdot \lambda^k \cdot e^{-\lambda} = \frac{e^{-\lambda}\lambda^k}{k!} \quad \blacksquare$$
+$$
+P(X = k) \to \frac{1}{k!} \cdot \lambda^k \cdot e^{-\lambda} = \frac{e^{-\lambda}\lambda^k}{k!} \quad \blacksquare
+$$
 
 ### 4.3 Proof that $E(X) = \lambda$
 
@@ -267,7 +301,7 @@ The Poisson distribution is appropriate when all of the following hold:
   **negligible**.
 
 These are sometimes called the **Poisson postulates**. When they are satisfied, the number of events
-In any interval of length $t$ follows $\mathrm{Po}(\lambda t)$.
+in any interval of length $t$ follows $\mathrm{Po}(\lambda t)$.
 
 Typical applications include: calls arriving at a call centre per hour, typing errors per page,
 Radioactive decays per second, and cars passing a checkpoint per minute.
@@ -278,12 +312,12 @@ bursts, the Poisson model is not appropriate.
 
 ### 4.7 Poisson approximation to the Binomial
 
-**Practical rule.** When $n \gt 50$ and $p \lt 0.1$We may approximate $B(n, p)$ by
+**Practical rule.** When $n \gt 50$ and $p \lt 0.1$ We may approximate $B(n, p)$ by
 $\mathrm{Po}(\lambda)$ where $\lambda = np$.
 
 **Justification.** The theoretical result in Section 4.2 shows that as $n \to \infty$ and $p \to 0$
 With $np = \lambda$ held constant, the binomial PMF converges pointwise to the Poisson PMF. The
-Conditions $n \gt 50$ and $p \lt 0.1$ are practical thresholds that ensure:
+conditions $n \gt 50$ and $p \lt 0.1$ are practical thresholds that ensure:
 
 1. **$n$ is large enough** that the discrete binomial is well-approximated by a limit distribution.
 2. **$p$ is small enough** that the "rare event" assumption of the Poisson model is satisfied.
@@ -301,11 +335,15 @@ normal handles the Case of many trials with moderate success probability.
 
 ## 5. Choosing the Right Distribution
 
+<div class="table-wrap">
+
 | Situation                                  | Distribution                   |
 | ------------------------------------------ | ------------------------------ |
 | Fixed $n$ trials, success/failure          | Binomial $B(n,p)$              |
 | Events in continuous interval, rare events | Poisson $\mathrm{Po}(\lambda)$ |
 | Continuous, bell-shaped                    | Normal $N(\mu,\sigma^2)$       |
+
+</div>
 
 <hr />
 
@@ -325,9 +363,11 @@ shifting and scaling a distribution.
 
 **Proof.** Applying the definition of expectation to $Y$:
 
-$$E(Y) = \sum (ax_i + b)\,p_i = a\sum x_i\,p_i + b\sum p_i = aE(X) + b \cdot 1 = aE(X) + b \quad \blacksquare$$
+$$
+E(Y) = \sum (ax_i + b)\,p_i = a\sum x_i\,p_i + b\sum p_i = aE(X) + b \cdot 1 = aE(X) + b \quad \blacksquare
+$$
 
-The key step is $\sum p_i = 1$Since the probabilities sum to 1.
+The key step is $\sum p_i = 1$ Since the probabilities sum to 1.
 
 ### 6.3 Effect on variance
 
@@ -355,9 +395,11 @@ Measured in **squared units** of the original variable.
 
 ### 6.4 Effect on standard deviation
 
-Since $\mathrm{Var}(Y) = a^2\mathrm{Var}(X)$Taking square roots gives:
+Since $\mathrm{Var}(Y) = a^2\mathrm{Var}(X)$ Taking square roots gives:
 
-$$\mathrm{SD}(Y) = |a|\,\mathrm{SD}(X)$$
+$$
+\mathrm{SD}(Y) = |a|\,\mathrm{SD}(X)
+$$
 
 The absolute value ensures the standard deviation remains non-negative regardless of the sign of
 $a$.
@@ -537,15 +579,19 @@ $P(X + Y = 6) = \dfrac{e^{-8}(8)^6}{6!} = \dfrac{e^{-8} \times 262144}{720} \app
 
 <details>
 <summary>Problem 11</summary>
-Starting from the definition $E(X) = \sum_{k=0}^{n} k\binom{n}{k}p^k(1-p)^{n-k}$Derive $E(X) = np$ using the identity $k\binom{n}{k} = n\binom{n-1}{k-1}$ and the binomial theorem.
+Starting from the definition $E(X) = \sum_{k=0}^{n} k\binom{n}{k}p^k(1-p)^{n-k}$ Derive $E(X) = np$ using the identity $k\binom{n}{k} = n\binom{n-1}{k-1}$ and the binomial theorem.
 </details>
 
 <details>
 <summary>Solution 11</summary>
 
-$$E(X) = \sum_{k=0}^{n} k\binom{n}{k}p^k(1-p)^{n-k} = \sum_{k=1}^{n} n\binom{n-1}{k-1}p^k(1-p)^{n-k}$$
+$$
+E(X) = \sum_{k=0}^{n} k\binom{n}{k}p^k(1-p)^{n-k} = \sum_{k=1}^{n} n\binom{n-1}{k-1}p^k(1-p)^{n-k}
+$$
 
-$$= np\sum_{k=1}^{n}\binom{n-1}{k-1}p^{k-1}(1-p)^{(n-1)-(k-1)} = np\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j}$$
+$$
+= np\sum_{k=1}^{n}\binom{n-1}{k-1}p^{k-1}(1-p)^{(n-1)-(k-1)} = np\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j}
+$$
 
 By the binomial theorem: $\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j} = [p+(1-p)]^{n-1} = 1$.
 
@@ -618,14 +664,16 @@ Section 6.
 
 <details>
 <summary>Problem 15</summary>
-Starting from $E(X(X-1)) = \sum_{k=0}^{n} k(k-1)\binom{n}{k}p^k(1-p)^{n-k}$Derive $\mathrm{Var}(X) = np(1-p)$ for $X \sim B(n,p)$.
+Starting from $E(X(X-1)) = \sum_{k=0}^{n} k(k-1)\binom{n}{k}p^k(1-p)^{n-k}$ Derive $\mathrm{Var}(X) = np(1-p)$ for $X \sim B(n,p)$.
 </details>
 
 <details>
 <summary>Solution 15</summary>
 Using $k(k-1)\binom{n}{k} = n(n-1)\binom{n-2}{k-2}$:
 
-$$E(X(X-1)) = \sum_{k=2}^{n} n(n-1)\binom{n-2}{k-2}p^k(1-p)^{n-k} = n(n-1)p^2\sum_{j=0}^{n-2}\binom{n-2}{j}p^j(1-p)^{n-2-j} = n(n-1)p^2$$
+$$
+E(X(X-1)) = \sum_{k=2}^{n} n(n-1)\binom{n-2}{k-2}p^k(1-p)^{n-k} = n(n-1)p^2\sum_{j=0}^{n-2}\binom{n-2}{j}p^j(1-p)^{n-2-j} = n(n-1)p^2
+$$
 
 Then $E(X^2) = E(X(X-1)) + E(X) = n(n-1)p^2 + np$.
 
@@ -649,7 +697,9 @@ $\lambda = np = 120 \times 0.025 = 3$.
 
 (b) $X \approx \mathrm{Po}(3)$.
 
-$$P(X = 5) = \frac{e^{-3} \times 3^5}{5!} = \frac{e^{-3} \times 243}{120} = 2.025\,e^{-3} \approx 2.025 \times 0.0498 \approx 0.1008$$
+$$
+P(X = 5) = \frac{e^{-3} \times 3^5}{5!} = \frac{e^{-3} \times 243}{120} = 2.025\,e^{-3} \approx 2.025 \times 0.0498 \approx 0.1008
+$$
 
 (c) For the normal approximation we need $np \gt 5$ and $n(1-p) \gt 5$. Here $np = 3 \lt 5$ So the
 normal approximation is not appropriate. The Poisson approximation is the correct choice Since $p$
@@ -715,26 +765,9 @@ building a personal test matrix.
 4. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-```mermaid
-flowchart TD
-    A[04 Statistical Distributions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

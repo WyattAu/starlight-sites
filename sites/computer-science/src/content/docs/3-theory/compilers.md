@@ -38,6 +38,8 @@ Source Code
 
 A data structure maintained throughout compilation storing:
 
+<div class="table-wrap">
+
 | Entry      | Description                    |
 | ---------- | ------------------------------ |
 | Name       | Lexeme / identifier            |
@@ -46,6 +48,8 @@ A data structure maintained throughout compilation storing:
 | Scope      | Block, function, file          |
 | Offset     | Memory location                |
 | Attributes | Array dimensions, parameters   |
+
+</div>
 
 ## 2. Lexical Analysis
 
@@ -64,8 +68,10 @@ Tokens:  <TYPE, "int"> <ID, "x"> <OP, "="> <INT_LIT, "42"> <OP, "+"> <ID, "y"> <
 
 ### 2.2 Regular Expressions for Tokens
 
+<div class="table-wrap">
+
 | Token      | Regular Expression                 |
-| ---------- | ---------------------------------- | ---- | ----- | ------ | --- | ---- | --- | --- |
+| ---------- | ---------------------------------- |
 | Identifier | `[a-zA-Z_][a-zA-Z0-9_]*`           |
 | Integer    | `[0-9]+`                           |
 | Float      | `[0-9]+\.[0-9]+([eE][+-]?[0-9]+)?` |
@@ -73,9 +79,11 @@ Tokens:  <TYPE, "int"> <ID, "x"> <OP, "="> <INT_LIT, "42"> <OP, "+"> <ID, "y"> <
 | Operator   | `+                                 | -    | \*    | /      | ==  | !=   | <=  | >=` |
 | Whitespace | `[ \t\n\r]+` (skip)                |
 
+</div>
+
 ### 2.3 Finite Automata for Lexing
 
-Build a DFA from token regexes using Thompson"s construction + subset construction. The DFA accepts
+Build a DFA from token regexes using Thompson's construction + subset construction. The DFA accepts
 the longest matching prefix (maximal munch).
 
 ```
@@ -116,7 +124,9 @@ F → ( E ) | id | num
 
 **Leftmost derivation:** Always expand the leftmost variable.
 
-$$E \Rightarrow E + T \Rightarrow T + T \Rightarrow F + T \Rightarrow \mathbf{id} + T \Rightarrow \mathbf{id} + T * F \Rightarrow \mathbf{id} + F * F \Rightarrow \mathbf{id} + \mathbf{id} * \mathbf{id}$$
+$$
+E \Rightarrow E + T \Rightarrow T + T \Rightarrow F + T \Rightarrow \mathbf{id} + T \Rightarrow \mathbf{id} + T * F \Rightarrow \mathbf{id} + F * F \Rightarrow \mathbf{id} + \mathbf{id} * \mathbf{id}
+$$
 
 **Rightmost derivation:** Always expand the rightmost variable (used in bottom-up parsing).
 
@@ -181,9 +191,13 @@ For each production A → α:
 
 **FIRST and FOLLOW sets:**
 
-$$\text{FIRST}(\alpha) = \{a : \alpha \Rightarrow^* a\beta\} \cup \{\epsilon\} \text{ if } \alpha \Rightarrow^* \epsilon$$
+$$
+\text{FIRST}(\alpha) = \{a : \alpha \Rightarrow^* a\beta\} \cup \{\epsilon\} \text{ if } \alpha \Rightarrow^* \epsilon
+$$
 
-$$\text{FOLLOW}(A) = \{a : S \Rightarrow^* \alpha Aa\beta\} \cup \{\$ \text{ if } S \Rightarrow^* \alpha A\}$$
+$$
+\text{FOLLOW}(A) = \{a : S \Rightarrow^* \alpha Aa\beta\} \cup \{\$ \text{ if } S \Rightarrow^* \alpha A\}
+$$
 
 **LL(1) condition:** No multiple entries in the parsing table.
 
@@ -217,17 +231,25 @@ LR_PARSE(input):
 
 **LR parsing table = ACTION + GOTO:**
 
+<div class="table-wrap">
+
 | State | ACTION                               | GOTO                       |
 | ----- | ------------------------------------ | -------------------------- |
 |       | Shift to state, Reduce by production | Go to state on nonterminal |
 
+</div>
+
 ### 3.6 LR Variants
+
+<div class="table-wrap">
 
 | Variant | Power          | Table Size | Construction Cost |
 | ------- | -------------- | ---------- | ----------------- |
 | SLR(1)  | Least powerful | Small      | Low               |
 | LALR(1) | Medium         | Medium     | Medium            |
 | LR(1)   | Most powerful  | Large      | High              |
+
+</div>
 
 **SLR(1):** Uses FOLLOW sets for reduce decisions. May miss valid reductions.
 
@@ -337,11 +359,15 @@ TYPE_CHECK(node):
 
 **Type coercion rules:**
 
+<div class="table-wrap">
+
 | Expression    | Rule                          |
 | ------------- | ----------------------------- |
 | `int + int`   | `int`                         |
 | `int + float` | `float` (coerce int to float) |
 | `int / int`   | `int` (integer division)      |
+
+</div>
 
 ### 5.2 Type Inference
 
@@ -488,11 +514,15 @@ BUILD_BASIC_BLOCKS(instructions):
 
 ### 7.1 Optimization Levels
 
+<div class="table-wrap">
+
 | Level           | When Applied       | Scope                    |
 | --------------- | ------------------ | ------------------------ |
 | Local           | Within basic block | Single block             |
 | Global          | Within a function  | Single function with CFG |
 | Interprocedural | Across functions   | Whole program            |
+
+</div>
 
 ### 7.2 Common Optimizations
 
@@ -576,12 +606,18 @@ for i = 0; i < 96; i += 4:
 
 **Reaching definitions:** Which definitions of a variable may reach each program point?
 
-$$\text{OUT}[B] = \text{gen}[B] \cup (\text{IN}[B] - \text{kill}[B])$$
-$$\text{IN}[B] = \bigcup_{P \in \text{pred}(B)} \text{OUT}[P]$$
+$$
+\text{OUT}[B] = \text{gen}[B] \cup (\text{IN}[B] - \text{kill}[B])
+$$
+$$
+\text{IN}[B] = \bigcup_{P \in \text{pred}(B)} \text{OUT}[P]
+$$
 
 Iterate until convergence (fixed point).
 
 **Other analyses:**
+
+<div class="table-wrap">
 
 | Analysis               | Purpose                      |
 | ---------------------- | ---------------------------- |
@@ -589,6 +625,8 @@ Iterate until convergence (fixed point).
 | Available expressions  | Enable CSE                   |
 | Very busy expressions  | Enable code motion           |
 | Constant propagation   | Fold constants               |
+
+</div>
 
 ### 7.4 Register Allocation
 
@@ -714,16 +752,6 @@ c - d; t3 = t1_ t2; x = t3. The three-address code uses temporary variables t1, 
 instruction has at most one operator on the right side. A basic block contains these four
 instructions in sequence.
 
-```mermaid
-flowchart TD
-    A[Compilers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Lexical analysis** converts source to tokens using regex and finite automata.
@@ -743,11 +771,15 @@ Compilers translate source code to machine code through phases: lexical analysis
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                         | Link                                                                    |
 | ----------------------------- | ----------------------------------------------------------------------- |
 | Automata and Formal Languages | [View](/3-theory/automata-and-formal-languages/) |
 | Algorithm Design              | [View](/1-algorithms/algorithm-design/)              |
 | Complexity Theory             | [View](/1-algorithms/complexity-theory/)             |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

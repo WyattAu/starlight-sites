@@ -24,8 +24,8 @@ TypeScript program. TypeScript adds a compile-time type system that is erased du
 Producing standard JavaScript output.
 
 The type system is **structural**, meaning type compatibility is determined by the shape of values
-Rather than by explicit inheritance relationships or nominal declarations. This design choice aligns
-With JavaScript"s own duck-typing semantics while providing compile-time guarantees that catch a
+rather than by explicit inheritance relationships or nominal declarations. This design choice aligns
+with JavaScript's own duck-typing semantics while providing compile-time guarantees that catch a
 Broad class of errors before runtime.
 
 ## Relationship to JavaScript
@@ -39,9 +39,11 @@ Tasks:
 
 Because TypeScript is a superset, existing JavaScript codebases can be adopted incrementally. The
 Compiler's `strict` flag can be enabled progressively, allowing teams to tighten type safety at
-Their own pace.
+their own pace.
 
 ## Key Language Features
+
+<div class="table-wrap">
 
 | Feature               | Description                                                                                                                          |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -54,6 +56,8 @@ Their own pace.
 | Type narrowing        | Discriminated unions, `typeof``instanceof``in` operator, user-defined type guards                                                    |
 | Toolchain integration | `tsconfig.json`Declaration files (`.d.ts`), `@types/` packages, project references                                                   |
 
+</div>
+
 ## The Toolchain
 
 ### Compiler (`tsc`)
@@ -64,7 +68,7 @@ Behaviour is controlled by `tsconfig.json` at the project root. Key compiler opt
 - **`strict`** -- enables all strict type-checking options.
 - **`target`** -- the ECMAScript version for emitted JavaScript.
 - **`module`** -- the module system for emitted code (CommonJS, ESNext, etc.).
-- **`moduleResolution`** -- the strategy for resolving module imports (`node``bundler` `classic`).
+- **`moduleResolution`** -- the strategy for resolving module imports (`node`, `bundler` `classic`).
 - **`noEmit`** -- type-check without producing output files.
 
 ### Configuration (`tsconfig.json`)
@@ -98,7 +102,7 @@ This course is organised into the following modules, each with its own dedicated
 6. **Advanced Patterns** -- recursive types, branded types, builder patterns, variadic tuples.
 7. **Tooling and Configuration** -- `tsconfig.json`Project references, ESLint integration.
 8. **TypeScript with React** -- component typing, hooks, context, refs.
-9. **Error Handling** -- `never``unknown`Assert functions, Result types.
+9. **Error Handling** -- `never`, `unknown`Assert functions, Result types.
 
 Each module contains rigorous definitions, compile-ready code examples, comparison tables, and
 Common-pitfall warnings. Cross-references between modules are provided where topics are
@@ -139,27 +143,9 @@ The type checker in TypeScript is like a building inspector who reviews your blu
 6. **Avoid type assertions (`as`)**. Prefer type guards and narrowing. Every `as` is a hole in the
    type system that the compiler cannot verify.
 
-
-```mermaid
-flowchart TD
-    A[Typescript] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

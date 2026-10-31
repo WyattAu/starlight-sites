@@ -40,9 +40,11 @@ American colonies depended on enslaved African labour.
 Imperial competition with France and Spain produced a series of wars, King William's War, Queen
 Anne's War, the War of Jenkins' Ear, and the Seven Years' War, that tested and expanded British
 global reach. By 1763, Britain had emerged as the dominant colonial power, possessing territories in
-North America, the Caribbean, and India.
+north America, the Caribbean, and India.
 
 ### Chronological Overview
+
+<div class="table-wrap">
 
 | Period                   | Dates     | Key Themes                                                             |
 | ------------------------ | --------- | ---------------------------------------------------------------------- |
@@ -51,6 +53,8 @@ North America, the Caribbean, and India.
 | Atlantic expansion       | 1713-1739 | Growth of colonial settlements, triangular trade, plantation economies |
 | Imperial conflict        | 1739-1748 | War of Jenkins' Ear, War of Austrian Succession                        |
 | Global war and dominance | 1754-1763 | Seven Years' War, conquest of Canada, Plassey, Treaty of Paris         |
+
+</div>
 
 ## Key Events with Dates and Significance
 
@@ -152,6 +156,8 @@ North America, the Caribbean, and India.
 
 ## Key Figures and Their Roles
 
+<div class="table-wrap">
+
 | Figure                 | Role                         | Significance                                                                                           |
 | ---------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------ |
 | William III            | King 1689-1702               | Committed to opposing France; promoted commercial and naval expansion                                  |
@@ -162,6 +168,8 @@ North America, the Caribbean, and India.
 | General Wolfe          | Military commander           | Captured Quebec (1759); became a martyr-hero of British imperial expansion                             |
 | Warren Hastings        | East India Company official  | Later period (first Governor-General 1773); established administrative structures in India             |
 | Job Charnock           | East India Company agent     | Founded Calcutta (1690)                                                                                |
+
+</div>
 
 ## Historiographical Debates
 
@@ -340,17 +348,6 @@ specifically; the Treaty of Paris was the most significant turning point for the
 ## Intuition
 
 Think of the early British Empire not as a single machine but as a network of competing traders, sailors, and soldiers who happened to fly the same flag. The Glorious Revolution was less a grand ideological moment and more a boardroom takeover that happened to involve armies. The East India Company started as a group of merchants chasing pepper and silk, then stumbled into governing millions of people because no one else was paying attention. The triangular trade resembles a three-legged stool: remove any leg and the entire structure collapses. The Seven Years' War showed that a small island could outmanoeuvre continental empires by controlling sea lanes rather than border territory.
-
-
-```mermaid
-flowchart TD
-    A[1_British Empire] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

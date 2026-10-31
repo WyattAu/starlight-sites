@@ -26,7 +26,7 @@ tags:
 
 ## 1. Historical Development of Atomic Theory
 
-### Dalton"s Atomic Theory (1803)
+### Dalton's Atomic Theory (1803)
 
 John Dalton proposed that:
 
@@ -37,12 +37,12 @@ John Dalton proposed that:
 5. Chemical reactions involve the rearrangement of atoms; atoms are neither created nor destroyed.
 
 Dalton's theory explained the law of conservation of mass and the law of definite proportions. It
-Could not explain the existence of isotopes or subatomic particles.
+could not explain the existence of isotopes or subatomic particles.
 
 ### Thomson's Plum Pudding Model (1897)
 
 J.J. Thomson discovered the electron using cathode ray experiments. He proposed that atoms are
-Spheres of positive charge with embedded electrons (like plums in pudding).
+spheres of positive charge with embedded electrons (like plums in pudding).
 
 Key evidence: cathode rays were deflected by electric and magnetic fields, had a fixed
 Charge-to-mass ratio, and were independent of the cathode material.
@@ -50,7 +50,7 @@ Charge-to-mass ratio, and were independent of the cathode material.
 ### Rutherford's Nuclear Model (1911)
 
 Ernest Rutherford directed alpha particles at a thin gold foil. Most passed through, but some were
-Deflected at large angles, and a few rebounded directly.
+deflected at large angles, and a few rebounded directly.
 
 **Observations:**
 
@@ -111,7 +111,7 @@ $$
 $$
 
 This means electrons cannot be described as orbiting in fixed paths. Instead, we describe regions of
-Probability.
+probability.
 
 ### Schrodinger Wave Equation (1926)
 
@@ -121,12 +121,14 @@ $$
 \hat{H}\Psi = E\Psi
 $$
 
-Where $\hat{H}$ is the Hamiltonian operator. The square of the wave function, $|\Psi|^2$Gives the
-Probability density of finding the electron at a given position.
+Where $\hat{H}$ is the Hamiltonian operator. The square of the wave function, $|\Psi|^2$ Gives the
+probability density of finding the electron at a given position.
 
 This is the basis of the **quantum mechanical model** of the atom.
 
 ### Summary of Atomic Models
+
+<div class="table-wrap">
 
 | Model      | Key Feature         | Explained                                  | Could Not Explain             |
 | ---------- | ------------------- | ------------------------------------------ | ----------------------------- |
@@ -135,6 +137,8 @@ This is the basis of the **quantum mechanical model** of the atom.
 | Rutherford | Nuclear atom        | Alpha scattering                           | Atomic stability, spectra     |
 | Bohr       | Quantised orbits    | Hydrogen spectrum                          | Multi-electron atoms          |
 | Quantum    | Orbital probability | All atomic spectra                         | Relativistic effects          |
+
+</div>
 
 ---
 
@@ -153,12 +157,16 @@ This is the basis of the **quantum mechanical model** of the atom.
 
 Each electron is described by four quantum numbers:
 
+<div class="table-wrap">
+
 | Number    | Symbol | Meaning              | Allowed values               |
 | --------- | ------ | -------------------- | ---------------------------- |
 | Principal | $n$    | Shell (energy level) | $1, 2, 3, \ldots$            |
 | Azimuthal | $l$    | Subshell             | $0, 1, \ldots, n-1$          |
 | Magnetic  | $m_l$  | Orbital orientation  | $-l, \ldots, 0, \ldots, +l$  |
 | Spin      | $m_s$  | Spin direction       | $+\frac{1}{2}, -\frac{1}{2}$ |
+
+</div>
 
 Subshell notation: $l = 0 \to s$$l = 1 \to p$$l = 2 \to d$$l = 3 \to f$.
 
@@ -179,7 +187,7 @@ Holds a maximum of two electrons with opposite spins.
 ### Hund's Rule
 
 Within a degenerate set of orbitals, electrons occupy separate orbitals with parallel spins before
-Pairing.
+pairing.
 
 ### Writing Configurations
 
@@ -198,12 +206,16 @@ $$
 ### Exceptions to the Aufbau Principle
 
 Half-filled ($d^5$) and fully-filled ($d^{10}$) subshells have extra stability from exchange energy
-And symmetry:
+and symmetry:
+
+<div class="table-wrap">
 
 | Element       | Expected                      | Actual                           | Reason            |
 | ------------- | ----------------------------- | -------------------------------- | ----------------- |
 | $\mathrm{Cr}$ | $[\mathrm{Ar}]\, 4s^2\, 3d^4$ | $[\mathrm{Ar}]\, 4s^1\, 3d^5$    | Half-filled $3d$  |
 | $\mathrm{Cu}$ | $[\mathrm{Ar}]\, 4s^2\, 3d^9$ | $[\mathrm{Ar}]\, 4s^1\, 3d^{10}$ | Fully-filled $3d$ |
+
+</div>
 
 ### Ions
 
@@ -239,11 +251,15 @@ $$
 
 ### Shapes of Orbitals
 
+<div class="table-wrap">
+
 | Orbital | Shape      | Nodes                   | Max electrons     |
 | ------- | ---------- | ----------------------- | ----------------- |
 | $s$     | Spherical  | $n - 1$ total           | $2$               |
 | $p$     | Dumbbell   | Angular node at nucleus | $6$ per subshell  |
 | $d$     | Cloverleaf | $2$ angular nodes       | $10$ per subshell |
+
+</div>
 
 ### Radial and Angular Nodes
 
@@ -274,8 +290,8 @@ For the $3p$ orbital ($n = 3$$l = 1$):
 The $s$ orbitals have the greatest penetration, followed by $p$ Then $d$ Then $f$.
 
 This explains why $4s$ fills before $3d$: the $4s$ electron has greater penetration and lower energy
-Than the $3d$ electron. However, once the $3d$ subshell is occupied, the increased shielding raises
-The energy of $4s$ above $3d$.
+than the $3d$ electron. However, once the $3d$ subshell is occupied, the increased shielding raises
+the energy of $4s$ above $3d$.
 
 ### Effective Nuclear Charge
 
@@ -339,17 +355,25 @@ $$
 
 ### Periodic Trends
 
+<div class="table-wrap">
+
 | Trend                     | Explanation                                           |
 | ------------------------- | ----------------------------------------------------- |
 | Increases across a period | Increasing $Z_{\mathrm{eff}}$ pulls electrons closer  |
 | Decreases down a group    | Greater distance from nucleus and increased shielding |
 
+</div>
+
 ### Deviations Across a Period
+
+<div class="table-wrap">
 
 | Deviation               | Elements | Explanation                                                                                    |
 | ----------------------- | -------- | ---------------------------------------------------------------------------------------------- |
 | Drop Group $2$ to $13$  | Be to B  | Be has a stable filled $2s$ subshell; B removes a $2p$ electron (higher energy, less shielded) |
 | Drop Group $15$ to $16$ | N to O   | N has stable half-filled $2p^3$; O has a paired $2p$ electron experiencing extra repulsion     |
+
+</div>
 
 ### Successive Ionization Energies
 
@@ -389,18 +413,26 @@ $3.98$.
 
 ### Periodic Trends
 
+<div class="table-wrap">
+
 | Trend                     | Explanation                    |
 | ------------------------- | ------------------------------ |
 | Increases across a period | Increasing $Z_{\mathrm{eff}}$  |
 | Decreases down a group    | Greater distance and shielding |
 
+</div>
+
 ### Electronegativity and Bonding
+
+<div class="table-wrap">
 
 | $\Delta\chi$ | Bond type          |
 | ------------ | ------------------ |
 | $0.0$--$0.4$ | Non-polar covalent |
 | $0.5$--$1.7$ | Polar covalent     |
 | $\gt 1.7$    | Ionic              |
+
+</div>
 
 ### Polarising Power and Polarizability
 
@@ -472,10 +504,10 @@ $$
 Z_{\mathrm{eff}}(4s) = 26 - 22.25 = 3.75
 $$
 
-Wait, this gives $Z_{\mathrm{eff}}(3d) \gt Z_{\mathrm{eff}}(4s)$Which suggests $4s$ is higher in
-Energy. For a neutral atom, the $4s$ has lower energy due to its greater penetration. Once the $3d$
+Wait, this gives $Z_{\mathrm{eff}}(3d) \gt Z_{\mathrm{eff}}(4s)$ Which suggests $4s$ is higher in
+energy. For a neutral atom, the $4s$ has lower energy due to its greater penetration. Once the $3d$
 Subshell is occupied, however, the $3d$ electrons shield the $4s$ electrons, raising $4s$ above $3d$
-In energy. Therefore, upon ionization, the $4s$ electrons (now at higher energy) are removed first.
+in energy. Therefore, upon ionization, the $4s$ electrons (now at higher energy) are removed first.
 
 </details>
 
@@ -488,10 +520,10 @@ $11577$$14842$. Identify the element and explain your reasoning.
 **Solution:**
 
 The large jump occurs between $IE_3$ and $IE_4$ (from $2745$ to $11577\mathrm{ kJ/mol}$), indicating
-That the first three electrons are valence electrons and the fourth is from an inner shell. This
-Corresponds to a Group 13 element with three valence electrons.
+that the first three electrons are valence electrons and the fourth is from an inner shell. This
+corresponds to a Group 13 element with three valence electrons.
 
-$IE_1 = 578\mathrm{ kJ/mol}$ matches aluminium ($\mathrm{Al}$$Z = 13$Configuration
+$IE_1 = 578\mathrm{ kJ/mol}$ matches aluminium ($\mathrm{Al}$$Z = 13$ Configuration
 $[\mathrm{Ne}]\, 3s^2\, 3p^1$).
 
 </details>
@@ -500,18 +532,18 @@ $[\mathrm{Ne}]\, 3s^2\, 3p^1$).
 <summary>Problem 3</summary>
 
 Explain why the second ionization energy of sodium ($4562\mathrm{ kJ/mol}$) is much larger than the
-First ($496\mathrm{ kJ/mol}$), while the second ionization energy of magnesium
+first ($496\mathrm{ kJ/mol}$), while the second ionization energy of magnesium
 ($1451\mathrm{ kJ/mol}$) is less than twice the first ($738\mathrm{ kJ/mol}$).
 
 **Solution:**
 
 For sodium: $IE_1$ removes a $3s$ valence electron. $IE_2$ removes a $2p$ electron from the $n = 2$
 Shell, which is much closer to the nucleus and experiences far greater $Z_{\mathrm{eff}}$ with much
-Less shielding. This accounts for the nearly tenfold increase.
+less shielding. This accounts for the nearly tenfold increase.
 
 For magnesium: both $IE_1$ and $IE_2$ remove $3s$ electrons from the same valence shell. The
-Increase from $IE_1$ to $IE_2$ is due to reduced electron-electron repulsion after the first
-Electron is removed, increasing $Z_{\mathrm{eff}}$ on the remaining electron. But both are still
+increase from $IE_1$ to $IE_2$ is due to reduced electron-electron repulsion after the first
+electron is removed, increasing $Z_{\mathrm{eff}}$ on the remaining electron. But both are still
 Valence electrons, so the jump is modest.
 
 </details>
@@ -520,11 +552,11 @@ Valence electrons, so the jump is modest.
 <summary>Problem 4</summary>
 
 The electron configuration of a transition metal ion is $[\mathrm{Ar}]\, 3d^5$. The ion has a charge
-Of $+2$. Identify the element and determine whether the ion is paramagnetic or diamagnetic.
+of $+2$. Identify the element and determine whether the ion is paramagnetic or diamagnetic.
 
 **Solution:**
 
-The neutral atom would be $[\mathrm{Ar}]\, 4s^2\, 3d^5$Which is manganese ($\mathrm{Mn}$ $Z = 25$).
+The neutral atom would be $[\mathrm{Ar}]\, 4s^2\, 3d^5$ Which is manganese ($\mathrm{Mn}$ $Z = 25$).
 The ion $\mathrm{Mn}^{2+}$ has five unpaired $d$-electrons (all in separate orbitals Following
 Hund's rule), so it is strongly paramagnetic.
 
@@ -586,24 +618,24 @@ $11577$$14842$. Identify the element and justify your reasoning.
 **Step 1: Locate the large jump.**
 
 The jump between $IE_3$ ($2745\mathrm{ kJ/mol}$) and $IE_4$ ($11577\mathrm{ kJ/mol}$) is
-Approximately a factor of 4. This is the largest discontinuity in the series.
+approximately a factor of 4. This is the largest discontinuity in the series.
 
 **Step 2: Interpret the jump.**
 
 A large jump indicates that the $n$-th electron is being removed from a new, inner shell. The jump
-From $IE_3$ to $IE_4$ means the first three electrons are valence electrons and the fourth is from
-An inner shell. This corresponds to a Group 13 element.
+from $IE_3$ to $IE_4$ means the first three electrons are valence electrons and the fourth is from
+an inner shell. This corresponds to a Group 13 element.
 
 **Step 3: Identify the element.**
 
-$IE_1 = 578\mathrm{ kJ/mol}$ matches aluminium ($\mathrm{Al}$$Z = 13$Configuration
+$IE_1 = 578\mathrm{ kJ/mol}$ matches aluminium ($\mathrm{Al}$$Z = 13$ Configuration
 $[\mathrm{Ne}]\, 3s^2\, 3p^1$).
 
 **Step 4: Verify.**
 
 $IE_1$ removes a $3p$ electron. $IE_2$ removes a $3s$ electron. $IE_3$ removes the second $3s$
 Electron. $IE_4$ would remove a $2p$ electron from the $n = 2$ shell, which is much closer to the
-Nucleus with far greater $Z_{\mathrm{eff}}$.
+nucleus with far greater $Z_{\mathrm{eff}}$.
 
 </details>
 
@@ -656,19 +688,31 @@ and wavelength of the emitted photon, and identify the spectral series.
 <details>
 <summary>Solution</summary>
 
-$$E_n = -\frac{2.18 \times 10^{-18}\mathrm{ J}}{n^2}$$
+$$
+E_n = -\frac{2.18 \times 10^{-18}\mathrm{ J}}{n^2}
+$$
 
-$$E_4 = -\frac{2.18 \times 10^{-18}}{16} = -1.3625 \times 10^{-19}\mathrm{ J}$$
+$$
+E_4 = -\frac{2.18 \times 10^{-18}}{16} = -1.3625 \times 10^{-19}\mathrm{ J}
+$$
 
-$$E_2 = -\frac{2.18 \times 10^{-18}}{4} = -5.45 \times 10^{-19}\mathrm{ J}$$
+$$
+E_2 = -\frac{2.18 \times 10^{-18}}{4} = -5.45 \times 10^{-19}\mathrm{ J}
+$$
 
-$$\Delta E = E_4 - E_2 = (-1.3625 \times 10^{-19}) - (-5.45 \times 10^{-19}) = 4.0875 \times 10^{-19}\mathrm{ J}$$
+$$
+\Delta E = E_4 - E_2 = (-1.3625 \times 10^{-19}) - (-5.45 \times 10^{-19}) = 4.0875 \times 10^{-19}\mathrm{ J}
+$$
 
 The negative sign of $\Delta E$ confirms energy is released (photon emitted).
 
-$$\nu = \frac{\Delta E}{h} = \frac{4.0875 \times 10^{-19}}{6.626 \times 10^{-34}} = 6.17 \times 10^{14}\mathrm{ Hz}$$
+$$
+\nu = \frac{\Delta E}{h} = \frac{4.0875 \times 10^{-19}}{6.626 \times 10^{-34}} = 6.17 \times 10^{14}\mathrm{ Hz}
+$$
 
-$$\lambda = \frac{c}{\nu} = \frac{3.00 \times 10^8}{6.17 \times 10^{14}} = 4.86 \times 10^{-7}\mathrm{ m} = 486\mathrm{ nm}$$
+$$
+\lambda = \frac{c}{\nu} = \frac{3.00 \times 10^8}{6.17 \times 10^{14}} = 4.86 \times 10^{-7}\mathrm{ m} = 486\mathrm{ nm}
+$$
 
 This wavelength (486 nm) is in the visible region (blue-green). The transition terminates at $n = 2$
 Placing it in the **Balmer series**.
@@ -688,7 +732,9 @@ Electrons and state whether the ion is paramagnetic or diamagnetic.
 **Forming $\mathrm{Co}^{2+}$:** Remove the $4s$ electrons first (they are at higher energy once the
 $3d$ subshell is occupied).
 
-$$\mathrm{Co}^{2+}: [\mathrm{Ar}]\, 3d^7$$
+$$
+\mathrm{Co}^{2+}: [\mathrm{Ar}]\, 3d^7
+$$
 
 **Orbital diagram for $3d^7$:**
 
@@ -725,7 +771,7 @@ $\mathrm{Co}^{2+}$ is **paramagnetic** with three unpaired electrons.
 
 - **Removing the wrong electrons when forming cations**: Transition metal ions lose $4s$ electrons
   before $3d$ electrons, despite $4s$ filling first. $\mathrm{Fe}$ is $[\mathrm{Ar}]\, 4s^2\, 3d^6$
-  but $\mathrm{Fe}^{2+}$ is $[\mathrm{Ar}]\, 3d^6$Not $[\mathrm{Ar}]\, 4s^2\, 3d^4$.
+  but $\mathrm{Fe}^{2+}$ is $[\mathrm{Ar}]\, 3d^6$ Not $[\mathrm{Ar}]\, 4s^2\, 3d^4$.
 
 - **Confusing penetration with shielding**: Penetration describes how close an electron can approach
   the nucleus ($s \gt p \gt d \gt f$). Shielding describes how other electrons reduce the effective
@@ -824,16 +870,6 @@ $\mathrm{Co}^{2+}$ is **paramagnetic** with three unpaired electrons.
 - **Redox half-equations and oxidation states** → Review
   [..../9-redox/2_redox-advanced](/chemistry/9-redox/2_redox-advanced/)
 
-```mermaid
-flowchart TD
-    A[1_Atomic Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential chemistry of atomic theory, including key reactions, underlying
@@ -852,9 +888,13 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site    | Link                                                                                                             |
 | ------------------ | ------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Atomic Structure] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/atomic-structure)                               |
-| [Atomic Structure] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/2-atomic-structure/1_atomic-theory)                              |
-| [Atomic Structure] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding) |
+| [Atomic Structure] | IB      | [View](https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory/)                              |
+| [Atomic Structure] | DSE     | [View](https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/) |
+
+</div>
 :::

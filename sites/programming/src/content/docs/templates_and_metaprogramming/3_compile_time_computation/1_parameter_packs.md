@@ -145,7 +145,7 @@ Important idioms in modern C++ template programming.
 ## Variadic Class Templates
 
 Parameter packs are not limited to function templates. A **variadic class template** accepts a pack
-Of type parameters, enabling type-safe heterogeneous containers and mixin-style composition [N4950
+of type parameters, enabling type-safe heterogeneous containers and mixin-style composition [N4950
 §13.7.3].
 
 ```cpp
@@ -217,7 +217,7 @@ int main() {
 ## `sizeof...` Operator
 
 `sizeof...(pack)` returns the number of elements in a parameter pack as a `std::size_t` [N4950
-§8.3.3]. It is a constant expression usable in `if constexpr``static_assert`And template
+§8.3.3]. It is a constant expression usable in `if constexpr`, `static_assert` and template
 Metaprogramming. It works on both type packs and non-type packs.
 
 ```cpp
@@ -454,7 +454,7 @@ int main() {
 
 **Parameter packs are like a bag of types:** Instead of writing separate template parameters for each type (`T1, T2, T3`), you pack them all into one bag (`Types...`). It's like the difference between carrying three separate grocery bags and one big bag with everything inside. The `...` syntax expands the pack, `Types...` becomes `T1, T2, T3`. You can access individual elements with `std::tuple_element`iterate with fold expressions, or use `sizeof...(Types)` to count them.
 
-**Why it matters:** Parameter packs enable variadic templates, functions and classes that accept any number of arguments. This is the foundation of `std::make_unique``std::tuple``std::variant`and many other modern C++ features. Without parameter packs, you'd need to write separate overloads for each number of arguments (like the old `printf` approach).
+**Why it matters:** Parameter packs enable variadic templates, functions and classes that accept any number of arguments. This is the foundation of `std::make_unique`, `std::tuple`, `std::variant`and many other modern C++ features. Without parameter packs, you'd need to write separate overloads for each number of arguments (like the old `printf` approach).
 
 **The key insight:** Parameter packs expand at compile time, the compiler generates separate code for each element in the pack, which is why variadic templates are zero-cost abstractions.
 
@@ -492,7 +492,7 @@ Overload resolution rules [N4950 §12.4.3], but it can be surprising.
 ### Ambiguous Overloads with Variadics
 
 A variadic template can shadow all other overloads in the same scope. The workaround is to constrain
-The variadic with `requires` or SFINAE:
+the variadic with `requires` or SFINAE:
 
 ```cpp
 #include <iostream>
@@ -526,7 +526,7 @@ int main() {
 ### Expanding Into the Wrong Context
 
 Pack expansion must appear in a valid expansion context [N4950 §13.7.3]. You cannot expand a pack in
-An arbitrary position:
+an arbitrary position:
 
 ```cpp
 #include <iostream>
@@ -553,7 +553,7 @@ int main() {
 ### Perfect Forwarding with Parameter Packs
 
 When using forwarding references (`Args&&...`) with parameter packs, always use `std::forward` in
-The expansion. Forgetting to forward degrades rvalues to lvalues:
+the expansion. Forgetting to forward degrades rvalues to lvalues:
 
 ```cpp
 #include <iostream>
@@ -595,16 +595,6 @@ int main() {
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 
-```mermaid
-flowchart TD
-    A[1_Parameter_Packs] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of parameter packs and variadic templates, including underlying
@@ -618,10 +608,5 @@ theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

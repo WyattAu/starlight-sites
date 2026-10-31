@@ -39,12 +39,12 @@ $$
 J = \frac{I}{A}
 $$
 
-The current density is a vector: $\vec{J} = nq\vec{v}_d$Where $n$ is the charge carrier density and
+The current density is a vector: $\vec{J} = nq\vec{v}_d$ Where $n$ is the charge carrier density and
 $\vec{v}_d$ is the drift velocity.
 
 ### Microscopic View of Current
 
-In a conductor with $n$ charge carriers per unit volume, each with charge $q$Moving with drift
+In a conductor with $n$ charge carriers per unit volume, each with charge $q$ Moving with drift
 velocity $v_d$:
 
 $$
@@ -54,7 +54,7 @@ $$
 The drift velocity is very small (on the order of mm/s), even though the signal propagates at Nearly
 the speed of light.
 
-## Resistance and Ohm"s Law
+## Resistance and Ohm's Law
 
 Ohm's law (for ohmic materials):
 
@@ -107,7 +107,7 @@ The current is the same through all resistors. The voltage divides proportionall
 **Parallel:** $\dfrac{1}{R_{\text{eq}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \cdots + \dfrac{1}{R_n}$
 
 The voltage is the same across all resistors. The current divides inversely proportionally to
-Resistance.
+resistance.
 
 ### Kirchhoff's Laws
 
@@ -172,11 +172,11 @@ $$
 ## RC Circuits
 
 An RC circuit contains a resistor and a capacitor. The behavior is governed by a first-order ODE and
-Exhibits exponential charging and discharging.
+exhibits exponential charging and discharging.
 
 ### Charging a Capacitor
 
-With the switch closed at $t = 0$Apply KVL to the loop:
+With the switch closed at $t = 0$ Apply KVL to the loop:
 
 $$
 \mathcal{E} - IR - \frac{Q}{C} = 0
@@ -216,7 +216,7 @@ $$
 
 ### Discharging a Capacitor
 
-With the battery removed and the capacitor initially charged to $Q_0$KVL gives:
+With the battery removed and the capacitor initially charged to $Q_0$ KVL gives:
 
 $$
 -IR - \frac{Q}{C} = 0 \implies R\frac{dQ}{dt} + \frac{Q}{C} = 0
@@ -315,8 +315,8 @@ $$
 - **Voltmeter:** Measures potential difference. Connected in parallel. Ideal voltmeter has infinite
   resistance.
 
-A real ammeter has small resistance $R_A$Which slightly increases the total resistance of the
-circuit. A real voltmeter has finite resistance $R_V$Which draws a small current and slightly
+A real ammeter has small resistance $R_A$ Which slightly increases the total resistance of the
+circuit. A real voltmeter has finite resistance $R_V$ Which draws a small current and slightly
 reduces the Voltage across the measured component.
 
 ## Intuition
@@ -341,10 +341,10 @@ Circuits are **networks of energy transfer**, charges gain energy from batteries
    $-IR$; against gives $+IR$.
 3. **Misidentifying series and parallel elements.** Two elements are in series only if the same
    current flows through both. Two elements are in parallel only if the same voltage is across both.
-   When in doubt, redraw the circuit.
+   when in doubt, redraw the circuit.
 4. **Forgetting that the time constant determines the rate, not the final values.** $\tau = RC$
    controls how fast the capacitor charges or discharges. The final charge $Q_{\max} = C\mathcal{E}$
-   depends only on $C$ and $\mathcal{E}$Not on $R$.
+   depends only on $C$ and $\mathcal{E}$ Not on $R$.
 5. **Assuming current through an open switch or no current through a capacitor at steady state.** At
    steady state (DC), a fully charged capacitor acts as an open circuit (no current through it), and
    an inductor acts as a short circuit.
@@ -379,7 +379,7 @@ Circuits are **networks of energy transfer**, charges gain energy from batteries
    after 3 s, and (c) the time for the charge to drop to $10\,\mu\text{C$.
 
 6. In an RC charging circuit, the capacitor reaches 90% of its maximum charge in 5 s. If the
-   capacitance is $20\,\mu\text{F$Find the resistance.
+   capacitance is $20\,\mu\text{F$ Find the resistance.
 
 <details>
 <summary>Question 7: AP Exam-Style -- RC circuit with a switch</summary>
@@ -397,28 +397,38 @@ $R_1$.
 <details>
 <summary>Answer</summary>
 
-(a) At $t = 0$The capacitor is uncharged ($V_C = 0$), so it acts as a short circuit. $R_2$ is in
-Parallel with a short circuit, so all current flows through the capacitor branch. The equivalent
+(a) At $t = 0$ The capacitor is uncharged ($V_C = 0$), so it acts as a short circuit. $R_2$ is in
+parallel with a short circuit, so all current flows through the capacitor branch. The equivalent
 Resistance seen by the battery is just $R_1 = 10\,\text{k\Omega$.
 
-$$I_{\text{initial} = \frac{\mathcal{E}}{R_1} = \frac{30}{10000} = 3.0\,\text{mA$$
+$$
+I_{\text{initial} = \frac{\mathcal{E}}{R_1} = \frac{30}{10000} = 3.0\,\text{mA
+$$
 
 (b) At steady state, the capacitor is fully charged and acts as an open circuit. The current flows
-Through $R_1$ and $R_2$ in series.
+through $R_1$ and $R_2$ in series.
 
-$$I_{\text{steady} = \frac{\mathcal{E}}{R_1 + R_2} = \frac{30}{10000 + 20000} = 1.0\,\text{mA$$
+$$
+I_{\text{steady} = \frac{\mathcal{E}}{R_1 + R_2} = \frac{30}{10000 + 20000} = 1.0\,\text{mA
+$$
 
 (c) At steady state, the voltage across the capacitor equals the voltage across $R_2$:
 
-$$V_C = I_{\text{steady} R_2 = (0.001)(20000) = 20\,\text{V$$
+$$
+V_C = I_{\text{steady} R_2 = (0.001)(20000) = 20\,\text{V
+$$
 
-$$Q = CV_C = (5 \times 10^{-6})(20) = 100\,\mu\text{C$$
+$$
+Q = CV_C = (5 \times 10^{-6})(20) = 100\,\mu\text{C
+$$
 
 (d) The time constant is found by Thevenin analysis. The Thevenin resistance seen by the capacitor
 is
 $R_{\text{Th} = R_1 \| R_2 = \frac{R_1 R_2}{R_1 + R_2} = \frac{10 \times 20}{30} = 6.67\,\text{k\Omega$.
 
-$$\tau = R_{\text{Th} C = (6670)(5 \times 10^{-6}) = 0.0333\,\text{s = 33.3\,\text{ms$$
+$$
+\tau = R_{\text{Th} C = (6670)(5 \times 10^{-6}) = 0.0333\,\text{s = 33.3\,\text{ms
+$$
 
 </details>
 
@@ -426,7 +436,7 @@ $$\tau = R_{\text{Th} C = (6670)(5 \times 10^{-6}) = 0.0333\,\text{s = 33.3\,\te
 <summary>Question 8: AP Exam-Style -- Energy analysis in an RC circuit</summary>
 
 A $50\,\mu\text{F$ capacitor is charged through a $100\,\Omega$ resistor by a $10$ V battery. (a)
-Find The total energy delivered by the battery. (b) Find the total energy dissipated in the
+find The total energy delivered by the battery. (b) Find the total energy dissipated in the
 resistor. (c) Find The energy stored in the capacitor at steady state. Verify that energy is
 conserved.
 
@@ -438,29 +448,23 @@ conserved.
 (a)
 $W_{\text{battery} = \int_0^\infty \mathcal{E}\, I\, dt = \frac{\mathcal{E}^2}{R}\int_0^\infty e^{-t/(RC)}\, dt = \frac{\mathcal{E}^2}{R} \cdot RC = C\mathcal{E}^2$
 
-$$W_{\text{battery} = (50 \times 10^{-6})(10)^2 = 5.0 \times 10^{-3}\,\text{J = 5.0\,\text{mJ$$
+$$
+W_{\text{battery} = (50 \times 10^{-6})(10)^2 = 5.0 \times 10^{-3}\,\text{J = 5.0\,\text{mJ
+$$
 
 (b)
 $W_R = W_{\text{battery} - U_{\text{cap} = C\mathcal{E}^2 - \frac{1}{2}C\mathcal{E}^2 = \frac{1}{2}C\mathcal{E}^2$
 
-$$W_R = \frac{1}{2}(50 \times 10^{-6})(100) = 2.5 \times 10^{-3}\,\text{J = 2.5\,\text{mJ$$
+$$
+W_R = \frac{1}{2}(50 \times 10^{-6})(100) = 2.5 \times 10^{-3}\,\text{J = 2.5\,\text{mJ
+$$
 
 (c) $U_{\text{cap} = \frac{1}{2}CV^2 = \frac{1}{2}(50 \times 10^{-6})(10)^2 = 2.5\,\text{mJ$
 
 Verification: $W_{\text{battery} = W_R + U_{\text{cap} = 2.5 + 2.5 = 5.0\,\text{mJ$. Energy is
-Conserved.
+conserved.
 
 </details>
-
-```mermaid
-flowchart TD
-    A[7_Circuits] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

@@ -53,12 +53,16 @@ The Korean War (1950-1953) and the United Nations trade embargo against China di
 
 **Key milestones:**
 
+<div class="table-wrap">
+
 | Period | Development |
 | -------- | ------------- |
 | 1950s | Textile industry dominance; establishment of major factories |
 | 1960s | Diversification into electronics, toys, and watches |
 | 1970s | Financial sector development; emergence of the stock market |
 | 1980s | Transition to services and finance as manufacturing moved to mainland China |
+
+</div>
 
 The industrialisation process created a new working class and a distinctive urban culture. Workers lived in cramped conditions in factory dormitories or squatter settlements, with limited social protections. The colonial government maintained a policy of positive non-interventionism, providing infrastructure and legal frameworks while avoiding direct economic planning.
 
@@ -123,17 +127,6 @@ The period after 1997 has been marked by significant political, economic, and so
 
 The post-handover period has seen ongoing debates about Hong Kong's autonomy and its relationship with mainland China.
 
-
-```mermaid
-flowchart TD
-    A[Modern Hk] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Modern Hong Kong is a story of transformation under pressure. The handover was like a relay race where the baton was passed mid-sprint, the runners had different techniques but had to keep the race going. The Basic Law was designed as a bridge between two systems, promising that Hong Kong's way of life would remain unchanged for fifty years. The challenge has been keeping that bridge stable when the two banks it connects are pulling in different directions. Economic development shows how a small territory can punch above its weight by being a gateway between East and West, but this advantage depends on maintaining trust on both sides.
@@ -160,65 +153,3 @@ Modern Hong Kong is a story of transformation under pressure. The handover was l
 
 **Assuming the Basic Law was universally accepted:** The drafting process was contentious, with debates over democratic reform, the pace of elections, and the relationship between the NPCSC and Hong Kong courts. Many provisions were contested.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

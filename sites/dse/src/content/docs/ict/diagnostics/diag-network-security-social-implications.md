@@ -147,17 +147,6 @@ opt out and request deletion.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Network Security Social Implications] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A castle and its moat:** Network security is like defending a castle, firewalls are the walls, encryption is the secret code, and authentication checks who's trying to enter. Attackers find new paths, defenders build new walls.
@@ -214,7 +203,7 @@ hospital's IP address from potential attackers on the same network.
 
 **Question:** A social media platform stores user data as follows: username (plain text), password
 (hashed with salt), email (AES encrypted), posts (plain text), location metadata (encrypted). (a)
-Explain why passwords are hashed rather than encrypted. (b) If the hashing algorithm produces a
+explain why passwords are hashed rather than encrypted. (b) If the hashing algorithm produces a
 256-bit output and the salt is 128 bits, calculate the total storage per user record for the
 password field. (c) The platform suffers a data breach and the posts database is stolen. Explain why
 this is a greater privacy concern than the password database breach. (d) Describe the principle of
@@ -249,7 +238,7 @@ or aggregating analytics data so it cannot be linked to individual users.
 
 **Question:** (a) A student writes a program to check if their school's website has SQL injection
 vulnerabilities without authorisation. Explain whether this is legal and ethical. (b) Describe the
-Computer Misuse Act's key offences. (c) A company's employee database is leaked, containing names,
+computer Misuse Act's key offences. (c) A company's employee database is leaked, containing names,
 addresses, salaries, and bank details. Identify which data protection principles have been violated
 and what the legal consequences might be. (d) Explain the concept of "responsible disclosure" in
 cybersecurity.

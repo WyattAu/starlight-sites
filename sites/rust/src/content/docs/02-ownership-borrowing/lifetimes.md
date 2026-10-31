@@ -15,17 +15,6 @@ description: "Rust' s borrow checker must ensure that every reference is valid f
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Lifetimes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why Lifetimes Exist
 
 Rust's borrow checker must ensure that every reference is valid for its entire use. Without lifetime
@@ -41,12 +30,12 @@ fn dangle() -> &String {
 }
 ```
 
-The compiler rejects this because `s` is dropped at the end of `dangle`But the function promises To
+The compiler rejects this because `s` is dropped at the end of `dangle`. But the function promises To
 return a reference. The returned reference would point to freed memory. Lifetimes are the Mechanism
 by which the compiler tracks and enforces this constraint.
 
 Every reference in Rust has a lifetime, a region of code during which the reference is valid. In
-Most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
+most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
 Relationship between input and output lifetimes is ambiguous.
 
 ## Lifetime Annotation Syntax
@@ -87,7 +76,7 @@ fn first<'a, 'b>(x: &'a str, _y: &'b str) -> &'a str {
 ```
 
 The return type's lifetime is tied only to `'a`. The compiler does not require `'a` and `'b` to have
-Any relationship, they are independent.
+any relationship, they are independent.
 
 ## Function Lifetimes
 
@@ -124,68 +113,6 @@ let s: &'static str = "hello";
 let s: &str = "hello";  // &'static is inferred for literals
 ```
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 ## See also
 
 - [Interior Mutability](/02-ownership-borrowing/interior-mutability/)

@@ -698,7 +698,7 @@ end
 
 ### Hot Code Upgrades
 
-One of BEAM"s most distinctive features is hot code swapping -- loading new code without stopping
+One of BEAM's most distinctive features is hot code swapping -- loading new code without stopping
 the system:
 
 ```elixir
@@ -933,16 +933,6 @@ Trade-offs:
 **Why it matters:** Good testing practices prevent bugs and improve code quality. Automated deployment ensures consistency and reliability.
 
 **The key insight:** Test early, test often, catching bugs early is much cheaper than fixing them in production.
-
-```mermaid
-flowchart TD
-    A[2_Testing And Deployment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

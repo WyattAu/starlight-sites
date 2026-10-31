@@ -29,7 +29,7 @@ Charge is a fundamental property of matter. There are two types: positive and ne
 - Charge is conserved: the net charge in an isolated system is constant.
 - Conductors allow free movement of charge; insulators do not.
 
-### Coulomb"s Law
+### Coulomb's Law
 
 The electrostatic force between two point charges is:
 
@@ -114,12 +114,12 @@ $$
 E_x = \frac{1}{4\pi\epsilon_0} \frac{x}{(R^2 + x^2)^{3/2}} \int dq = \frac{1}{4\pi\epsilon_0} \frac{Qx}{(R^2 + x^2)^{3/2}}
 $$
 
-At the center ($x = 0$): $E = 0$As expected by symmetry.
+At the center ($x = 0$): $E = 0$ As expected by symmetry.
 :::
 
 :::note
 Example: Electric field of an infinite line of charge
-For an infinite line with linear charge density $\lambda$Use cylindrical symmetry. Place the line
+for an infinite line with linear charge density $\lambda$ Use cylindrical symmetry. Place the line
 along The $z$-axis. A segment $dz$ at the origin produces a field with perpendicular component:
 
 $$
@@ -149,7 +149,7 @@ $$
 
 ### Choosing a Gaussian Surface
 
-Choose a surface where $\vec{E}$ is either constant and parallel to $d\vec{A}$Or perpendicular to
+Choose a surface where $\vec{E}$ is either constant and parallel to $d\vec{A}$ Or perpendicular to
 $d\vec{A}$ (contributing zero flux). Common choices exploit symmetry: spheres, cylinders, and boxes.
 
 ### Applications of Gauss's Law
@@ -165,7 +165,7 @@ $$
 
 This result is independent of distance from the plane.
 
-#### Field of a Uniformly Charged Sphere (total charge $Q$Radius $R$)
+#### Field of a Uniformly Charged Sphere (total charge $Q$ Radius $R$)
 
 **Outside ($r > R$):** Choose a spherical Gaussian surface of radius $r$.
 
@@ -184,9 +184,9 @@ $$
 
 The field inside grows linearly with $r$ and reaches its maximum at $r = R$.
 
-#### Field of an Infinite Cylindrical Shell (radius $R$Linear charge density $\lambda$)
+#### Field of an Infinite Cylindrical Shell (radius $R$ Linear charge density $\lambda$)
 
-**Outside ($r > R$):** Cylindrical Gaussian surface of radius $r$Length $L$.
+**Outside ($r > R$):** Cylindrical Gaussian surface of radius $r$ Length $L$.
 
 $$
 \oint \vec{E} \cdot d\vec{A} = E \cdot 2\pi r L = \frac{\lambda L}{\epsilon_0} \implies E = \frac{\lambda}{2\pi\epsilon_0 r}
@@ -198,7 +198,7 @@ $$
 :::note
 Example: Non-conducting sphere with non-uniform charge density
 A sphere of radius $R$ has charge density $\rho(r) = \rho_0 (1 - r/R)$ for $0 \le r \le R$. Find $E$
-Inside and outside.
+inside and outside.
 
 $Q_{\text{enc}(r) = \int_0^r \rho(r') \cdot 4\pi r'^2\, dr' = 4\pi\rho_0 \int_0^r \left(r'^2 - \frac{r'^3}{R}\right) dr'$
 
@@ -315,7 +315,7 @@ $V = Ed = Qd/(\epsilon_0 A)$ So $C = Q/V = \epsilon_0 A/d$.
 
 ### Cylindrical Capacitor
 
-Inner radius $a$Outer radius $b$Length $L$.
+Inner radius $a$ Outer radius $b$ Length $L$.
 
 By Gauss's law, the field at radius $r$ ($a \le r \le b$) is $E = \lambda/(2\pi\epsilon_0 r)$ where
 $\lambda = Q/L$.
@@ -330,7 +330,7 @@ $$
 
 ### Spherical Capacitor
 
-Inner radius $a$Outer radius $b$.
+Inner radius $a$ Outer radius $b$.
 
 $$
 E = \frac{Q}{4\pi\epsilon_0 r^2} \quad (a \le r \le b)
@@ -456,7 +456,7 @@ Electrostatics is about **how stationary charges create fields and exert forces*
 7. **Incorrectly handling series and parallel capacitors.** In series, the charge on each capacitor
    is the same. In parallel, the voltage across each capacitor is the same.
 8. **Forgetting the factor of $1/2$ in potential energy of a charge distribution.** The energy to
-   assemble $n$ charges is $\frac{1}{2}\sum q_i V_i$Not $\sum q_i V_i$. Without the factor of $1/2$
+   assemble $n$ charges is $\frac{1}{2}\sum q_i V_i$ Not $\sum q_i V_i$. Without the factor of $1/2$
    each pair is counted twice.
 
 ## Practice Questions
@@ -501,19 +501,31 @@ cylinder.
 
 (a) Inside ($r < R$): Use a cylindrical Gaussian surface of radius $r$ and length $L$.
 
-$$Q_{\text{enc} = \int_0^r \rho(r') \cdot 2\pi r' L\, dr' = \frac{2\pi \rho_0 L}{R} \int_0^r r'^2\, dr' = \frac{2\pi \rho_0 L r^3}{3R}$$
+$$
+Q_{\text{enc} = \int_0^r \rho(r') \cdot 2\pi r' L\, dr' = \frac{2\pi \rho_0 L}{R} \int_0^r r'^2\, dr' = \frac{2\pi \rho_0 L r^3}{3R}
+$$
 
-$$E \cdot 2\pi r L = \frac{Q_{\text{enc}}{\epsilon_0} = \frac{2\pi \rho_0 r^3 L}{3R\epsilon_0}$$
+$$
+E \cdot 2\pi r L = \frac{Q_{\text{enc}}{\epsilon_0} = \frac{2\pi \rho_0 r^3 L}{3R\epsilon_0}
+$$
 
-$$E = \frac{\rho_0 r^2}{3R\epsilon_0}$$
+$$
+E = \frac{\rho_0 r^2}{3R\epsilon_0}
+$$
 
 (b) Outside ($r > R$):
 
-$$Q_{\text{total} = \frac{2\pi \rho_0 R^3 L}{3R} = \frac{2\pi \rho_0 R^2 L}{3}$$
+$$
+Q_{\text{total} = \frac{2\pi \rho_0 R^3 L}{3R} = \frac{2\pi \rho_0 R^2 L}{3}
+$$
 
-$$E \cdot 2\pi r L = \frac{2\pi \rho_0 R^2 L}{3\epsilon_0}$$
+$$
+E \cdot 2\pi r L = \frac{2\pi \rho_0 R^2 L}{3\epsilon_0}
+$$
 
-$$E = \frac{\rho_0 R^2}{3\epsilon_0 r}$$
+$$
+E = \frac{\rho_0 R^2}{3\epsilon_0 r}
+$$
 
 </details>
 
@@ -533,32 +545,30 @@ Let the arc span from $\theta = -\pi/2$ to $\theta = \pi/2$. The linear charge d
 $\lambda = Q/(\pi R)$.
 
 (a) By symmetry, the field points along the axis of symmetry (let us call it the $y$-direction, with
-The arc opening to the right). A charge element $dq = \lambda R\, d\theta$ at angle $\theta$
+the arc opening to the right). A charge element $dq = \lambda R\, d\theta$ at angle $\theta$
 produces:
 
-$$dE_y = \frac{1}{4\pi\epsilon_0}\frac{dq}{R^2}\sin\theta = \frac{\lambda}{4\pi\epsilon_0 R}\sin\theta\, d\theta$$
+$$
+dE_y = \frac{1}{4\pi\epsilon_0}\frac{dq}{R^2}\sin\theta = \frac{\lambda}{4\pi\epsilon_0 R}\sin\theta\, d\theta
+$$
 
-$$E_y = \frac{\lambda}{4\pi\epsilon_0 R}\int_{-\pi/2}^{\pi/2}\sin\theta\, d\theta = \frac{\lambda}{4\pi\epsilon_0 R}[-\cos\theta]_{-\pi/2}^{\pi/2} = \frac{\lambda}{4\pi\epsilon_0 R}(1 - (-1)) = \frac{2\lambda}{4\pi\epsilon_0 R}$$
+$$
+E_y = \frac{\lambda}{4\pi\epsilon_0 R}\int_{-\pi/2}^{\pi/2}\sin\theta\, d\theta = \frac{\lambda}{4\pi\epsilon_0 R}[-\cos\theta]_{-\pi/2}^{\pi/2} = \frac{\lambda}{4\pi\epsilon_0 R}(1 - (-1)) = \frac{2\lambda}{4\pi\epsilon_0 R}
+$$
 
-$$E = \frac{2Q}{4\pi^2\epsilon_0 R^2} = \frac{Q}{2\pi^2\epsilon_0 R^2}$$
+$$
+E = \frac{2Q}{4\pi^2\epsilon_0 R^2} = \frac{Q}{2\pi^2\epsilon_0 R^2}
+$$
 
 The $x$-components cancel by symmetry.
 
 (b) Every charge element is at distance $R$ from the center:
 
-$$V = \frac{1}{4\pi\epsilon_0}\int \frac{dq}{R} = \frac{Q}{4\pi\epsilon_0 R}$$
+$$
+V = \frac{1}{4\pi\epsilon_0}\int \frac{dq}{R} = \frac{Q}{4\pi\epsilon_0 R}
+$$
 
 </details>
-
-```mermaid
-flowchart TD
-    A[6_Electrostatics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

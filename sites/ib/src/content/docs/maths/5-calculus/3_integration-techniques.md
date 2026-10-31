@@ -28,6 +28,8 @@ Where $C$ is the constant of integration.
 
 ### Basic Integration Rules
 
+<div class="table-wrap">
+
 | Rule              | Formula                                                                   |
 | ----------------- | ------------------------------------------------------------------------- |
 | Power rule        | $\displaystyle\int x^n\,dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$   |
@@ -35,7 +37,11 @@ Where $C$ is the constant of integration.
 | Constant multiple | $\displaystyle\int kf(x)\,dx = k\int f(x)\,dx$                            |
 | Sum/difference    | $\displaystyle\int [f(x) \pm g(x)]\,dx = \int f(x)\,dx \pm \int g(x)\,dx$ |
 
+</div>
+
 ### Standard Integrals
+
+<div class="table-wrap">
 
 | $f(x)$                    | $\int f(x)\,dx$          |
 | ------------------------- | ------------------------ |
@@ -48,6 +54,8 @@ Where $C$ is the constant of integration.
 | $\sec x \tan x$           | $\sec x + C$             |
 | $\dfrac{1}{\sqrt{1-x^2}}$ | $\arcsin x + C$          |
 | $\dfrac{1}{1+x^2}$        | $\arctan x + C$          |
+
+</div>
 
 ---
 
@@ -117,7 +125,7 @@ $$
 
 :::caution[Exam Tip]
 Always check if a function is odd or even before integrating over a symmetric interval. This can
-Save significant computation time.
+save significant computation time.
 :::
 
 :::note[Example]
@@ -163,7 +171,7 @@ $$
 :::note[Example]
 Evaluate $\displaystyle\int 2x\sqrt{x^2+1}\,dx$.
 
-Let $u = x^2 + 1$ So $\dfrac{du}{dx} = 2x$Giving $du = 2x\,dx$.
+Let $u = x^2 + 1$ So $\dfrac{du}{dx} = 2x$ Giving $du = 2x\,dx$.
 
 $$
 \int \sqrt{u}\,du = \int u^{1/2}\,du = \frac{2}{3}u^{3/2} + C = \frac{2}{3}(x^2+1)^{3/2} + C
@@ -185,11 +193,15 @@ $$
 
 Certain integrals can be simplified using trigonometric substitutions:
 
+<div class="table-wrap">
+
 | Expression         | Substitution      | Identity                          |
 | ------------------ | ----------------- | --------------------------------- |
 | $\sqrt{a^2 - x^2}$ | $x = a\sin\theta$ | $1 - \sin^2\theta = \cos^2\theta$ |
 | $\sqrt{a^2 + x^2}$ | $x = a\tan\theta$ | $1 + \tan^2\theta = \sec^2\theta$ |
 | $\sqrt{x^2 - a^2}$ | $x = a\sec\theta$ | $\sec^2\theta - 1 = \tan^2\theta$ |
+
+</div>
 :::
 
 :::note[Example]
@@ -258,7 +270,7 @@ $$
 
 ### Repeated Integration by Parts
 
-For integrals like $\displaystyle\int x^2 e^x\,dx$ or $\displaystyle\int x^2 \sin x\,dx$Apply
+For integrals like $\displaystyle\int x^2 e^x\,dx$ or $\displaystyle\int x^2 \sin x\,dx$ Apply
 Integration by parts repeatedly.
 :::
 
@@ -286,7 +298,7 @@ $$
 ### Cyclic Integration by Parts
 
 Integrals like $\displaystyle\int e^x \sin x\,dx$ require applying integration by parts twice and
-Solving algebraically.
+solving algebraically.
 :::
 
 :::note[Example]
@@ -332,15 +344,19 @@ $$
 ## Partial Fractions
 
 When the integrand is a rational function with a denominator that can be factorised, decompose into
-Partial fractions.
+partial fractions.
 
 ### Types of Decomposition
+
+<div class="table-wrap">
 
 | Denominator     | Partial Fractions                       |
 | --------------- | --------------------------------------- |
 | $(ax+b)(cx+d)$  | $\dfrac{A}{ax+b} + \dfrac{B}{cx+d}$     |
 | $(ax+b)^2$      | $\dfrac{A}{ax+b} + \dfrac{B}{(ax+b)^2}$ |
 | $(ax+b)(x^2+c)$ | $\dfrac{A}{ax+b} + \dfrac{Bx+C}{x^2+c}$ |
+
+</div>
 :::
 
 :::note[Example]
@@ -384,7 +400,7 @@ $$
 $$
 
 If the curve crosses the $x$-axis, split the integral at the zeros and take the absolute value of
-Each part.
+each part.
 
 ### Area Between Two Curves
 
@@ -467,7 +483,7 @@ $y$-axis.
 
 Using the disc method (in terms of $y$):
 
-$x = \sqrt{y}$From $y = 0$ to $y = 1$.
+$x = \sqrt{y}$ From $y = 0$ to $y = 1$.
 
 $$
 V = \pi\int_0^1 (\sqrt{y})^2\,dy = \pi\int_0^1 y\,dy = \pi\left[\frac{y^2}{2}\right]_0^1 = \frac{\pi}{2}
@@ -535,11 +551,15 @@ $$
 
 Find when $v = 0$: $t^2 - 4t + 3 = 0 \implies (t-1)(t-3) = 0 \implies t = 1, 3$.
 
+<div class="table-wrap">
+
 | Interval        | Sign of $v$ | Motion   |
 | --------------- | ----------- | -------- |
 | $0 \lt t \lt 1$ | $+$         | Forward  |
 | $1 \lt t \lt 3$ | $-$         | Backward |
 | $3 \lt t \lt 5$ | $+$         | Forward  |
+
+</div>
 
 $$
 \mathrm{Distance} = \int_0^1 v\,dt + \left|\int_1^3 v\,dt\right| + \int_3^5 v\,dt
@@ -742,17 +762,9 @@ $$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[3_Integration Techniques] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table of Techniques
+
+<div class="table-wrap">
 
 | Technique         | When to Use                                  | Key Idea                           |
 | ----------------- | -------------------------------------------- | ---------------------------------- |
@@ -761,6 +773,8 @@ flowchart TD
 | By parts          | Product of different function types          | $\int u\,dv = uv - \int v\,du$     |
 | Partial fractions | Rational functions, factorisable denominator | Decompose then integrate each term |
 | Trig substitution | $\sqrt{a^2 \pm x^2}$ or $\sqrt{x^2 - a^2}$   | Replace with trig function         |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
@@ -787,7 +801,7 @@ Many trigonometric integrals require using identities to simplify before integra
 
 #### Powers of Sine and Cosine
 
-**Odd power of sine**: Factor out one $\sin x$Convert the rest to cosines using
+**Odd power of sine**: Factor out one $\sin x$ Convert the rest to cosines using
 $\sin^2 x = 1 - \cos^2 x$ Then substitute $u = \cos x$.
 :::
 
@@ -828,7 +842,7 @@ $$
 
 #### Products of Sine and Cosine
 
-For $\displaystyle\int \sin mx \cos nx\,dx$Use the product-to-sum identities:
+For $\displaystyle\int \sin mx \cos nx\,dx$ Use the product-to-sum identities:
 
 $$
 \sin A \cos B = \frac{1}{2}[\sin(A+B) + \sin(A-B)]
@@ -924,13 +938,13 @@ $$
 The arc length of a curve $y = f(x)$ from $x = a$ to $x = b$:
 
 $$
-L = \int_a^b \sqrt{1 + \left(\frac`\{dy}``\{dx}`\right)^2}\,dx
+L = \int_a^b \sqrt{1 + \left(\frac`\{dy}`, `\{dx}`\right)^2}\,dx
 $$
 
 For a parametric curve $(x(t), y(t))$ from $t = t_1$ to $t = t_2$:
 
 $$
-L = \int_{t_1}^{t_2} \sqrt{\left(\frac`\{dx}``\{dt}`\right)^2 + \left(\frac`\{dy}``\{dt}`\right)^2}\,dt
+L = \int_{t_1}^{t_2} \sqrt{\left(\frac`\{dx}`, `\{dt}`\right)^2 + \left(\frac`\{dy}`, `\{dt}`\right)^2}\,dt
 $$
 :::
 
@@ -938,15 +952,15 @@ $$
 Find the arc length of $y = \dfrac{x^3}{6} + \dfrac{1}{2x}$ from $x = 1$ to $x = 3$.
 
 $$
-\frac`\{dy}``\{dx}` = \frac{x^2}{2} - \frac{1}{2x^2}
+\frac`\{dy}`, `\{dx}` = \frac{x^2}{2} - \frac{1}{2x^2}
 $$
 
 $$
-\left(\frac`\{dy}``\{dx}`\right)^2 = \frac{x^4}{4} - \frac{1}{2} + \frac{1}{4x^4}
+\left(\frac`\{dy}`, `\{dx}`\right)^2 = \frac{x^4}{4} - \frac{1}{2} + \frac{1}{4x^4}
 $$
 
 $$
-1 + \left(\frac`\{dy}``\{dx}`\right)^2 = \frac{x^4}{4} + \frac{1}{2} + \frac{1}{4x^4} = \left(\frac{x^2}{2} + \frac{1}{2x^2}\right)^2
+1 + \left(\frac`\{dy}`, `\{dx}`\right)^2 = \frac{x^4}{4} + \frac{1}{2} + \frac{1}{4x^4} = \left(\frac{x^2}{2} + \frac{1}{2x^2}\right)^2
 $$
 
 $$

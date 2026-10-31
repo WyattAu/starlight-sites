@@ -20,26 +20,18 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[03 Market Failure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## 1. Definition of Market Failure
 
 We define **market failure** as the condition in which the free market allocation of resources is
 _allocatively inefficient_, that is, the market fails to produce the Pareto-optimal quantity of
-Goods and services.
+goods and services.
 
 Formally, market failure occurs when the price mechanism does not equate marginal social benefit
-With marginal social cost:
+with marginal social cost:
 
-$$P \neq MSC \quad \mathrm{or equivalently} \quad MSB \neq MSC$$
+$$
+P \neq MSC \quad \mathrm{or equivalently} \quad MSB \neq MSC
+$$
 
 This leads to a **deadweight welfare loss**: the total surplus (consumer + producer + third-party)
 Is not maximised.
@@ -61,17 +53,21 @@ Outcomes.
 ### 2.1 Externalities
 
 We define an **externality** as a cost or benefit arising from production or consumption that
-Affects a third party who is not part of the transaction.
+affects a third party who is not part of the transaction.
 
 **Negative externality**: the social cost exceeds the private cost.
 
-$$MSC = MPC + MEC$$
+$$
+MSC = MPC + MEC
+$$
 
 Where $MPC$ = marginal private cost, $MEC$ = marginal external cost.
 
 **Positive externality**: the social benefit exceeds the private benefit.
 
-$$MSB = MPB + MEB$$
+$$
+MSB = MPB + MEB
+$$
 
 Where $MPB$ = marginal private benefit, $MEB$ = marginal external benefit.
 
@@ -80,18 +76,24 @@ Where $MPB$ = marginal private benefit, $MEB$ = marginal external benefit.
 Consider a good with a negative production externality (e.g., pollution from a factory). The market
 Equilibrium is where demand (MPB) equals supply (MPC):
 
-$$\mathrm{Market equilibrium: } MPB = MPC \implies Q_{mkt}, P_{mkt}$$
+$$
+\mathrm{Market equilibrium: } MPB = MPC \implies Q_{mkt}, P_{mkt}
+$$
 
 The socially optimal outcome is where marginal social benefit equals marginal social cost:
 
-$$\mathrm{Social optimum: } MSB = MSC \implies Q^*, P^*$$
+$$
+\mathrm{Social optimum: } MSB = MSC \implies Q^*, P^*
+$$
 
 Since $MSC > MPC$ (there is an external cost), the social optimum quantity $Q^*$ is _less than_ the
-Market quantity $Q_{mkt}$. The free market **over-produces** the good.
+market quantity $Q_{mkt}$. The free market **over-produces** the good.
 
 The deadweight welfare loss (DWL) is:
 
-$$\mathrm{DWL} = \frac{1}{2}(Q_{mkt} - Q^*)(MSC(Q_{mkt}) - MSB(Q_{mkt}))$$
+$$
+\mathrm{DWL} = \frac{1}{2}(Q_{mkt} - Q^*)(MSC(Q_{mkt}) - MSB(Q_{mkt}))
+$$
 
 This is the area of the triangle between the MSC and MSB curves from $Q^*$ to $Q_{mkt}$.
 
@@ -115,10 +117,14 @@ The market over-produces by 10 units, creating a welfare loss of 150.
 
 #### Types of Externalities
 
+<div class="table-wrap">
+
 |              | Production                             | Consumption                                 |
 | ------------ | -------------------------------------- | ------------------------------------------- |
 | **Negative** | Factory pollution ($MSC > MPC$)        | Second-hand smoke, congestion ($MSC > MPB$) |
 | **Positive** | Beekeeping near orchards ($MSC < MPC$) | Vaccination, education ($MSB > MPB$)        |
+
+</div>
 
 ### 2.2 Public Goods
 
@@ -128,15 +134,21 @@ We define a **public good** as a good that is:
    consuming the good
 2. **Non-rivalrous**: one person"s consumption does not reduce the quantity available to others
 
-$$Q_{total} = Q_{individual} \quad \mathrm{(non-rivalry)}$$
+$$
+Q_{total} = Q_{individual} \quad \mathrm{(non-rivalry)}
+$$
 
 Contrast with **private goods**: excludable and rivalrous (your consumption of an apple means I
-Cannot eat it).
+cannot eat it).
+
+<div class="table-wrap">
 
 |                    | Rivalrous                                    | Non-rivalrous                                    |
 | ------------------ | -------------------------------------------- | ------------------------------------------------ |
 | **Excludable**     | Private goods (food, clothing)               | Club goods (cable TV, cinema)                    |
 | **Non-excludable** | Common resources (fish stocks, grazing land) | Public goods (national defence, street lighting) |
+
+</div>
 
 #### The Free-Rider Problem
 
@@ -146,46 +158,48 @@ _Proof._ Suppose a public good costs $C$ to provide and benefits each of $n$ ind
 The socially optimal provision requires $\sum_{i=1}^{n} B_i \geq C$. However, each individual $i$
 Reasons: "If others pay, I can enjoy the good without paying (non-excludability). If others don't
 Pay, my contribution is insufficient to provide the good." Therefore, it is individually rational
-For each person not to contribute, the **dominant strategy is to free-ride**. By the same logic, no
-One contributes, and the good is not provided, even when $\sum B_i \gg C$. $\blacksquare$
+for each person not to contribute, the **dominant strategy is to free-ride**. By the same logic, no
+one contributes, and the good is not provided, even when $\sum B_i \gg C$. $\blacksquare$
 
 **Quasi-public goods**: goods that are largely non-rivalrous but are excludable (e.g., roads,
 Education, healthcare). These are often provided by the government because the market would
-Under-provide them.
+under-provide them.
 
 ### 2.3 Information Asymmetry
 
 We define **information asymmetry** as a situation in which one party to a transaction has more or
-Better information than the other.
+better information than the other.
 
 #### Adverse Selection (Akerlof's Lemons Model)
 
 Akerlof (1970) analysed the market for used cars. Sellers know the quality of their car; buyers do
-Not. There are two types of cars:
+not. There are two types of cars:
 
-- **"Peaches"** (high quality): value to seller $= £8\,000$Value to buyer $= £10\,000$
-- **"Lemons"** (low quality): value to seller $= £4\,000$Value to buyer $= £6\,000$
+- **"Peaches"** (high quality): value to seller $= £8\,000$ Value to buyer $= £10\,000$
+- **"Lemons"** (low quality): value to seller $= £4\,000$ Value to buyer $= £6\,000$
 
 If buyers can distinguish quality, both types trade at mutually beneficial prices. But if buyers
-Cannot distinguish, and 50% of cars are peaches and 50% are lemons, the **expected value** to a
-Buyer of a random car is:
+cannot distinguish, and 50% of cars are peaches and 50% are lemons, the **expected value** to a
+buyer of a random car is:
 
-$$E[V] = 0.5 \times 10\,000 + 0.5 \times 6\,000 = £8\,000$$
+$$
+E[V] = 0.5 \times 10\,000 + 0.5 \times 6\,000 = £8\,000
+$$
 
 Buyers are willing to pay at most £8,000. But at this price, sellers of peaches (£8,000 value to
-Seller) will not sell, only lemons are offered. Buyers, anticipating this, revise their offer
+seller) will not sell, only lemons are offered. Buyers, anticipating this, revise their offer
 Downward to £6,000. Now _only_ lemons trade. **The market for high-quality cars collapses**, this
-Is adverse selection: asymmetric information drives high-quality products out of the market.
+is adverse selection: asymmetric information drives high-quality products out of the market.
 
 #### Moral Hazard
 
 We define **moral hazard** as a situation in which one party alters their behaviour after entering
-Into an agreement, knowing that the other party bears some of the cost of that behaviour.
+into an agreement, knowing that the other party bears some of the cost of that behaviour.
 
 <details>
 <summary>Example</summary>
 After purchasing comprehensive car insurance, a driver may take more risks (driving faster, parking
-In unsafe areas) because the insurance company bears the cost of accidents. The driver's behaviour
+in unsafe areas) because the insurance company bears the cost of accidents. The driver's behaviour
 Changes _because_ they are insured, this is moral hazard.
 </details>
 
@@ -204,14 +218,14 @@ qualifications.
 or information gaps.
 
 Both types of immobility prevent the market from clearing, leading to structural unemployment and
-Inefficient allocation of labour.
+inefficient allocation of labour.
 
 ### 2.6 Inequality
 
 Markets reward factors of production according to marginal productivity. Those who own scarce,
 Highly productive factors (skilled labour, capital, land) receive higher incomes. Without
-Redistribution, this can lead to extreme inequality, which many consider a form of market failure
-Because:
+redistribution, this can lead to extreme inequality, which many consider a form of market failure
+because:
 
 1. Unequal incomes $\Rightarrow$ unequal access to education, healthcare, opportunities
 2. High inequality may reduce aggregate demand (the rich have a lower MPC)
@@ -222,24 +236,30 @@ Because:
 ### 3.1 Lorenz Curve
 
 The **Lorenz curve** plots the cumulative share of income received by the cumulative share of the
-Population, ordered from poorest to richest.
+population, ordered from poorest to richest.
 
 If income were perfectly equally distributed, the Lorenz curve would be the 45° line (line of
-Perfect equality). The greater the deviation (bow) of the Lorenz curve from the 45° line, the
-Greater the inequality.
+perfect equality). The greater the deviation (bow) of the Lorenz curve from the 45° line, the
+greater the inequality.
 
 ### 3.2 Gini Coefficient
 
 We define the **Gini coefficient** as:
 
-$$G = \frac{A}{A + B}$$
+$$
+G = \frac{A}{A + B}
+$$
 
 Where $A$ is the area between the 45° line and the Lorenz curve, and $B$ is the area under the
 Lorenz curve.
 
 Since $A + B = \frac{1}{2}$ (area of the triangle below the 45° line):
 
-$$G = \frac{A}{A + B} = 2A = 1 - 2B$$
+$$
+G = \frac{A}{A + B} = 2A = 1 - 2B
+$$
+
+<div class="table-wrap">
 
 | Gini Value  | Interpretation                                       |
 | ----------- | ---------------------------------------------------- |
@@ -249,22 +269,26 @@ $$G = \frac{A}{A + B} = 2A = 1 - 2B$$
 | $0.3 - 0.4$ | Moderate inequality (e.g., UK: 0.35)                 |
 | $0.5 - 0.6$ | High inequality (e.g., South Africa: 0.63)           |
 
+</div>
+
 ## 4. Government Intervention
 
 :::note
 Tradable permits with evaluation of each. **Edexcel** expects diagrammatic analysis showing the
-Effect of Pigouvian taxes and subsidies on equilibrium. **CIE (9708)** covers government
+effect of Pigouvian taxes and subsidies on equilibrium. **CIE (9708)** covers government
 Intervention alongside cost-benefit analysis and requires understanding of when intervention may
-Fail. **OCR (A)** emphasises the link between market failure and government failure, requiring
+fail. **OCR (A)** emphasises the link between market failure and government failure, requiring
 Students to evaluate whether intervention worsens outcomes.
 :::
 
 ### 4.1 Pigouvian Taxation
 
 For a negative externality, the optimal **Pigouvian tax** equals the marginal external cost at the
-Socially optimal quantity:
+socially optimal quantity:
 
-$$t^* = MEC(Q^*)$$
+$$
+t^* = MEC(Q^*)
+$$
 
 **Proof of optimality.** With a specific tax $t$ per unit, the firm's private cost becomes
 $MPC + t$. The firm produces where demand equals private cost plus tax: $MPB = MPC + t$. For this to
@@ -272,7 +296,7 @@ Equal the social optimum ($MPB = MSC = MPC + MEC$), we need $t = MEC$ at the opt
 $\blacksquare$
 
 The tax **internalises the externality**: the firm now faces the full social cost of its production
-And reduces output to $Q^*$.
+and reduces output to $Q^*$.
 
 <details>
 <summary>Example: Carbon Tax</summary>
@@ -290,7 +314,7 @@ $100 - Q = 28 + Q \Rightarrow Q = 36$ ✓
 ### 4.2 Subsidies
 
 For positive externalities, a **Pigouvian subsidy** equal to the marginal external benefit can
-Internalise the externality and increase output to the social optimum.
+internalise the externality and increase output to the social optimum.
 
 **Limitation**: subsidies require government revenue (from taxation), which may itself create
 Distortions.
@@ -312,7 +336,7 @@ The government can directly regulate production or consumption:
 ### 4.4 Tradable Permits
 
 The government sets a total quantity of pollution allowed and issues permits that firms can trade
-Among themselves. This combines quantity regulation with market efficiency:
+among themselves. This combines quantity regulation with market efficiency:
 
 - Firms with low abatement costs reduce pollution and sell permits
 - Firms with high abatement costs buy permits instead
@@ -337,7 +361,7 @@ Government can reduce information asymmetry by:
 ## 5. Government Failure
 
 We define **government failure** as the situation in which government intervention to correct a
-Market failure worsens the outcome.
+market failure worsens the outcome.
 
 ### 5.1 Types of Government Failure
 

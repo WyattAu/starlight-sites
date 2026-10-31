@@ -22,7 +22,7 @@ categories:
 ## Overload Resolution
 
 C++ function resolution is not a simple name match. The compiler performs a multi-phase search
-Through namespaces, ranks candidate functions against a strict hierarchy of conversion ranks, and
+through namespaces, ranks candidate functions against a strict hierarchy of conversion ranks, and
 Selects a single best viable function, or rejects the call as ambiguous.
 
 ## 1.1 Name Lookup [N4950 §6.5.4]
@@ -60,7 +60,7 @@ The ADL rule is the reason `std::cout << "hello"` works: the left operand has ty
 Contribution). ADL adds the namespace `std` to the search set, where `operator<<` is found.
 
 :::note
-Call to `operator<<``operator==`Or a custom swap function would require explicit namespace
+Call to `operator<<`, `operator==` or a custom swap function would require explicit namespace
 Qualification, breaking generic programming.
 :::
 
@@ -74,7 +74,7 @@ Set:
 - The type of each base class.
 - The type of each member of the class.
 
-The fundamental types (`int``double``bool`Etc.) and types whose associated namespaces are the Global
+The fundamental types (`int`, `double`, `bool`. Etc.) and types whose associated namespaces are the Global
 namespace contribute no additional search scope.
 
 ```cpp
@@ -102,7 +102,7 @@ int main() {
 
 ADL interacts with template argument deduction in a subtle way. When an unqualified function call
 Involves a template, ADL adds function template candidates from associated namespaces in addition to
-Those found by ordinary unqualified lookup [N4950 §13.10.3.6]:
+those found by ordinary unqualified lookup [N4950 §13.10.3.6]:
 
 ```cpp
 #include <iostream>
@@ -166,11 +166,11 @@ Implicit conversion sequences required. A function $f_1$ is a better match than 
 
 ### Formal Statement of the Viable Function Selection
 
-Let $C$ be the candidate set from name lookup. For each candidate $c \in C$Let $n_c$ be the number
-Of parameters of $c$ And let $k$ be the number of arguments in the call. Candidate $c$ is viable if
-And only if all of the following hold:
+Let $C$ be the candidate set from name lookup. For each candidate $c \in C$ Let $n_c$ be the number
+of parameters of $c$ And let $k$ be the number of arguments in the call. Candidate $c$ is viable if
+and only if all of the following hold:
 
-1. $n_c = k$Or $c$ has a trailing parameter pack and $n_c \le k$Or $c$ is variadic and $n_c \le k$.
+1. $n_c = k$ Or $c$ has a trailing parameter pack and $n_c \le k$ Or $c$ is variadic and $n_c \le k$.
 2. For each argument $a_i$ (where $1 \le i \le k$), there exists an implicit conversion sequence
    converting $a_i$ to the type of the $i$-th parameter of $c$.
 
@@ -191,6 +191,8 @@ Ranking hierarchy. If no unique best viable function exists, the call is ambiguo
 
 The conversion ranking hierarchy (from best to worst) is:
 
+<div class="table-wrap">
+
 | Rank                        | Description                                               | Example                              |
 | :-------------------------- | :-------------------------------------------------------- | :----------------------------------- |
 | **Exact Match**             | No conversion, or trivial conversion (lval→rval, cv-qual) | `int` → `int``int` → `const int&`    |
@@ -199,10 +201,14 @@ The conversion ranking hierarchy (from best to worst) is:
 | **User-Defined Conversion** | One user-defined conversion + standard conv               | `class A` → `class B` (via `B(A)`)   |
 | **Ellipsis**                | `...` catch-all                                           | any type                             |
 
+</div>
+
 ### Complete Conversion Rank Table
 
 The following table enumerates every standard conversion recognized by [N4950 §7.3.3] and its
 Ranking within overload resolution:
+
+<div class="table-wrap">
 
 | Conversion                                      | Category     | Rank         |
 | :---------------------------------------------- | :----------- | :----------- |
@@ -223,6 +229,8 @@ Ranking within overload resolution:
 | User-defined converting constructor             | User-Defined | User-Defined |
 | User-defined conversion operator                | User-Defined | User-Defined |
 | Ellipsis conversion                             | Ellipsis     | Ellipsis     |
+
+</div>
 
 ### Sub-Ranking Within Exact Match
 
@@ -297,13 +305,13 @@ int main() {
 
 ### Proof: Integral Promotion Beats Integral Conversion
 
-**Claim:** When the argument is of an integral type that promotes to `int`The promotion to `int` Is
+**Claim:** When the argument is of an integral type that promotes to `int`. The promotion to `int` Is
 preferred over any integral conversion.
 
 **Proof:**
 
-1. By [N4950 §7.3.7], integral promotion applies to types `bool``char``signed char`
-   `unsigned char``short``unsigned short`And their bit-field equivalents. These types are promoted
+1. By [N4950 §7.3.7], integral promotion applies to types `bool`, `char`, `signed char`
+   `unsigned char`, `short`, `unsigned short` and their bit-field equivalents. These types are promoted
    to `int` (or `unsigned int` if `int` cannot represent all values).
 
 2. By [N4950 §12.4.3.2.2], a promotion is a distinct rank that is strictly better than a standard
@@ -335,7 +343,7 @@ int main() {
 
 **Partial ordering** of function templates resolves ambiguities between template functions. When
 Both an ordinary function and a function template are viable, the ordinary function is preferred
-Unless the template provides a more specialized match [N4950 §13.7.6.6.5].
+unless the template provides a more specialized match [N4950 §13.7.6.6.5].
 
 ### Ambiguity with Reference Binding
 
@@ -357,7 +365,7 @@ int main() {
 
 Note: In practice, some compilers resolve this in favor of `k(int)` because the reference binding
 Requires an additional (albeit trivial) qualification conversion step, but the Standard considers
-Both as exact match rank. The ambiguity is real and portable code must provide a disambiguating
+both as exact match rank. The ambiguity is real and portable code must provide a disambiguating
 Overload.
 
 ## 1.6 Complete ADL Example: `operator<<`
@@ -389,7 +397,7 @@ int main() {
 
 :::caution
 Idiom, defining the operator as a friend inside the class, restricts the operator to being found
-Only via ADL, preventing unintended overloads:
+only via ADL, preventing unintended overloads:
 
 ```cpp
 struct Vec3 {
@@ -681,7 +689,7 @@ Argument and no worse for any argument, then $f_1$ is selected.
 
 **Proof:**
 
-1. Let $k$ be the number of arguments. For each argument $i \in \{1, \ldots, k\}$Let
+1. Let $k$ be the number of arguments. For each argument $i \in \{1, \ldots, k\}$ Let
    $\mathrm{ICS_{f_1}(i)$ and $\mathrm{ICS_{f_2}(i)$ be the implicit conversion sequences for $f_1$
    and $f_2$ respectively.
 
@@ -827,7 +835,7 @@ Class type is present.
 Access control (public, protected, private) is applied **after** overload resolution. A candidate
 Function that is the best match by conversion ranking is selected, and only then is its access
 Checked. If it is inaccessible, the program is ill-formed, but the compiler does not fall back to a
-Less-preferred accessible candidate:
+less-preferred accessible candidate:
 
 ```cpp
 #include <iostream>
@@ -863,7 +871,7 @@ Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pr
 ## Common Pitfalls
 
 - **Ambiguous overloads with mixed types.** `f(short, long)` vs `f(long, short)` called as `f(1, 1)`
-  is ambiguous because both arguments are `int`Which converts equally well to `short` (truncation)
+  is ambiguous because both arguments are `int`. Which converts equally well to `short` (truncation)
   or `long` (promotion). Use explicit casts or provide an `f(int, int)` overload.
 - **Surprising `bool` conversions.** `bool` is an integral type. `f(bool)` is a viable candidate for
   `f(42)` via the boolean conversion (`42 → true`). This can cause surprising overload selection.
@@ -876,7 +884,7 @@ Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pr
   call time. You cannot pass an overloaded function name directly to `std::function` without
   disambiguation.
 - **`nullptr` overload resolution.** `f(int)` and `f(int*)` called with `f(nullptr)` selects
-  `f(int*)` because `nullptr` has type `std::nullptr_t`Which converts to any pointer type but not to
+  `f(int*)` because `nullptr` has type `std::nullptr_t`. Which converts to any pointer type but not to
   `int`. However, `f(0)` selects `f(int)` because `0` is an `int` literal.
 - **Access control is not a filter.** A private member function can "win" overload resolution,
   causing a hard error. The compiler will not fall back to a less-preferred public overload. Always
@@ -931,9 +939,6 @@ A strong understanding of these principles, combined with regular practice of qu
 and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

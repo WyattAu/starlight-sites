@@ -19,16 +19,6 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Methods And Blocks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Methods and blocks are Ruby's building blocks for code organisation. Methods encapsulate reusable logic, and blocks provide closures that capture their surrounding context. The interplay between methods, procs, and lambdas creates a flexible system where behaviour can be passed as data. Blocks enable the iterator pattern that Ruby uses extensively, replacing traditional loops with expressive method calls like `map`, `select`, and `reduce`.
@@ -306,7 +296,7 @@ end
 
 ## Blocks
 
-Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby"s most
+Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby's most
 powerful features.
 
 ### Block Syntax
@@ -524,12 +514,16 @@ return_from_lambda  # => prints "This line DOES execute", returns nil from the m
 
 ### Proc vs Lambda Summary
 
+<div class="table-wrap">
+
 | Feature     | Proc                          | Lambda                        |
 | ----------- | ----------------------------- | ----------------------------- |
 | Creation    | `Proc.new {}` or `proc {}`    | `-> {}` or `lambda {}`        |
 | Arity check | Lenient (fills with nil)      | Strict (raises ArgumentError) |
 | Return      | Returns from enclosing method | Returns from lambda only      |
 | `lambda?`   | `false`                       | `true`                        |
+
+</div>
 
 ```ruby
 # Checking the type

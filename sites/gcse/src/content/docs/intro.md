@@ -23,7 +23,7 @@ categories:
 
 These notes are written with the rigour of an undergraduate textbook, but targeted at the GCSE
 Syllabus. Every definition is precise, every result is derived (or its derivation is sketched with
-Enough detail for you to complete it), and every formula is justified from first principles.
+enough detail for you to complete it), and every formula is justified from first principles.
 
 The goal is not just exam preparation -- it is to build the deep mathematical, scientific, literary,
 And logical intuition that makes exam questions feel like applications of things you truly
@@ -31,12 +31,16 @@ Understand.
 
 ## Exam Boards Covered
 
+<div class="table-wrap">
+
 | Board                 | Specification                                                                                    | Notes                                    |
 | --------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------- |
 | **AQA**               | 8702 (English Lit), 8300 (Maths), 8463 (Physics), 8462 (Chemistry), 8461 (Biology), 8525 (CS)    | Content annotated where AQA diverges     |
 | **Edexcel (Pearson)** | 1ET0 (English Lit), 1MA1 (Maths), 1PH0 (Physics), 1CH0 (Chemistry), 1BI0 (Biology), 1CP2 (CS)    | Content annotated where Edexcel diverges |
 | **OCR**               | J352 (English Lit), J560 (Maths), J259 (Physics), J258 (Chemistry), J257 (Biology), J277 (CS)    | Content annotated where OCR diverges     |
 | **WJEC/Eduqas**       | 7222 (English Lit), 3000U (Maths), C400 (Physics), C420 (Chemistry), C410 (Biology), 3510QS (CS) | Content annotated where WJEC diverges    |
+
+</div>
 
 > Where boards agree on a topic (which is most of the core content), you will find a single unified
 > treatment. Where they diverge -- in specific required practicals, formulae given in data sheets,
@@ -69,14 +73,7 @@ Understand.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -123,8 +120,6 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Intuition
 
 These notes are built on a single belief: if you truly understand something, you can explain it yourself, solve problems you have never seen before, and spot mistakes in your own reasoning. Memorising facts and formulae will get you part of the way there, but real understanding means you can derive, connect, and apply ideas flexibly.
@@ -136,44 +131,6 @@ The exam is the place where you demonstrate understanding, not where you first e
 ## Overview
 
 This introduction provides comprehensive coverage of Gcse content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Common Mistakes
 

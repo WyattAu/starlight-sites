@@ -53,11 +53,15 @@ Ionic compounds form **giant ionic lattices** -- extended three-dimensional arra
 cations and anions. The structure is determined by the relative sizes of the ions (radius ratio
 rule):
 
+<div class="table-wrap">
+
 | Radius ratio $r^+/r^-$ | Coordination number | Geometry    | Example         |
 | ---------------------- | ------------------- | ----------- | --------------- |
 | 0.225 -- 0.414         | 4                   | Tetrahedral | $\mathrm{ZnS}$  |
 | 0.414 -- 0.732         | 6                   | Octahedral  | $\mathrm{NaCl}$ |
 | 0.732 -- 1.000         | 8                   | Cubic       | $\mathrm{CsCl}$ |
+
+</div>
 
 ### Properties of Ionic Compounds
 
@@ -76,7 +80,7 @@ The **lattice enthalpy** $\Delta H_\mathrm{lat}$ is the enthalpy change when one
 compound is formed from its gaseous ions under standard conditions. It is always exothermic
 (negative).
 
-Born-Haber cycles apply Hess"s Law to determine lattice enthalpies indirectly, since they cannot be
+Born-Haber cycles apply Hess's Law to determine lattice enthalpies indirectly, since they cannot be
 measured directly. The cycle for $\mathrm{NaCl}$ is:
 
 $$
@@ -126,7 +130,7 @@ density maximum between the bonded atoms.
 ### Sigma ($\sigma$) and Pi ($\pi$) Bonds
 
 A **sigma bond** is formed by end-on (head-on) overlap of atomic orbitals along the internuclear
-axis. Sigma bonds can arise from $s$-$s$, $s$-$p$Or $p$-$p$ overlap. All single bonds are sigma
+axis. Sigma bonds can arise from $s$-$s$, $s$-$p$ Or $p$-$p$ overlap. All single bonds are sigma
 bonds.
 
 A **pi bond** is formed by sideways overlap of parallel $p$ orbitals above and below the
@@ -149,6 +153,8 @@ $$
 **Electronegativity** ($\chi$) is the power of an atom to attract electron density towards itself in
 a covalent bond. The Pauling scale is most commonly used:
 
+<div class="table-wrap">
+
 | Element | $\chi$ (Pauling) |
 | ------- | ---------------- |
 | F       | 3.98             |
@@ -159,6 +165,8 @@ a covalent bond. The Pauling scale is most commonly used:
 | H       | 2.20             |
 | Na      | 0.93             |
 | K       | 0.82             |
+
+</div>
 
 When two atoms of different electronegativity form a covalent bond, the electron pair is unequally
 shared, creating a **polar bond** with a **bond dipole**. The dipole moment $\mu$ is:
@@ -237,12 +245,12 @@ hydrogen bonds.
 ### Hydrogen Bonding
 
 Hydrogen bonding is a special, strong type of dipole-dipole interaction that occurs when hydrogen is
-covalently bonded to a highly electronegative atom ($\mathrm{N}$, $\mathrm{O}$Or $\mathrm{F}$). The
+covalently bonded to a highly electronegative atom ($\mathrm{N}$, $\mathrm{O}$ Or $\mathrm{F}$). The
 conditions are:
 
-1. Hydrogen bonded to $\mathrm{N}$, $\mathrm{O}$Or $\mathrm{F}$.
+1. Hydrogen bonded to $\mathrm{N}$, $\mathrm{O}$ Or $\mathrm{F}$.
 2. The hydrogen has a large partial positive charge ($\delta^+$).
-3. A lone pair on a nearby $\mathrm{N}$, $\mathrm{O}$Or $\mathrm{F}$ atom interacts with the
+3. A lone pair on a nearby $\mathrm{N}$, $\mathrm{O}$ Or $\mathrm{F}$ atom interacts with the
    $\delta^+$ hydrogen.
 
 Hydrogen bonds are approximately 10-40 kJ/mol, compared with 2-5 kJ/mol for typical dipole-dipole
@@ -272,6 +280,8 @@ that atom than bonding pairs, which are shared between two atoms.
 
 ### Molecular Geometries
 
+<div class="table-wrap">
+
 | Electron domains | Bonding pairs | Lone pairs | Geometry             | Bond angle                      | Example                                  |
 | ---------------- | ------------- | ---------- | -------------------- | ------------------------------- | ---------------------------------------- |
 | 2                | 2             | 0          | Linear               | $180^\circ$                     | $\mathrm{BeCl}_2$, $\mathrm{CO}_2$       |
@@ -288,10 +298,12 @@ that atom than bonding pairs, which are shared between two atoms.
 | 6                | 5             | 1          | Square pyramidal     | $\lt 90^\circ$                  | $\mathrm{BrF}_5$                         |
 | 6                | 4             | 2          | Square planar        | $90^\circ$                      | $\mathrm{XeF}_4$                         |
 
+</div>
+
 ### Why $\mathrm{NH}_3$ is $107^\circ$ and $\mathrm{H}_2\mathrm{O}$ is $104.5^\circ$
 
-Both have four electron domains (tetrahedral electron pair geometry). In $\mathrm{NH}_3$One lone
-pair compresses the H-N-H angle from $109.5^\circ$ to $107^\circ$. In $\mathrm{H}_2\mathrm{O}$Two
+Both have four electron domains (tetrahedral electron pair geometry). In $\mathrm{NH}_3$ One lone
+pair compresses the H-N-H angle from $109.5^\circ$ to $107^\circ$. In $\mathrm{H}_2\mathrm{O}$ Two
 lone pairs exert greater compression, reducing the H-O-H angle further to $104.5^\circ$.
 
 ## Giant Covalent Structures
@@ -453,6 +465,8 @@ generally stronger.
 Electronegativity ($\chi$) is the ability of an atom to attract the bonding electrons in a covalent
 bond. Pauling electronegativity values:
 
+<div class="table-wrap">
+
 | Element | $\chi$ |
 | ------- | ------ |
 | F       | 3.98   |
@@ -466,17 +480,23 @@ bond. Pauling electronegativity values:
 | Na      | 0.93   |
 | K       | 0.82   |
 
+</div>
+
 ### Predicting Bond Type from Electronegativity Difference
 
 $$
 \Delta\chi = |\chi_A - \chi_B|
 $$
 
+<div class="table-wrap">
+
 | $\Delta\chi$ | Bond type          | Character                  |
 | ------------ | ------------------ | -------------------------- |
 | 0--0.4       | Non-polar covalent | Electrons shared equally   |
 | 0.4--1.7     | Polar covalent     | Electrons shared unequally |
 | $>$1.7       | Ionic              | Electron transfer          |
+
+</div>
 
 ### Dipole Moments
 
@@ -529,7 +549,7 @@ Requirements for hydrogen bonding:
 1. H bonded to N, O, or F.
 2. A lone pair on N, O, or F on the neighbouring molecule.
 
-Hydrogen bonds are $5$--$40\,\mathrm{kJ/mol}$Compared with $0.1$--$5\,\mathrm{kJ/mol}$ for
+Hydrogen bonds are $5$--$40\,\mathrm{kJ/mol}$ Compared with $0.1$--$5\,\mathrm{kJ/mol}$ for
 dipole-dipole and London forces.
 
 **Effects of hydrogen bonding:**
@@ -578,11 +598,15 @@ repeating pattern, held together by strong electrostatic attraction in all direc
 
 ### Lattice Structures
 
+<div class="table-wrap">
+
 | Structure         | Coordination number | Example                       | Description                                             |
 | ----------------- | ------------------- | ----------------------------- | ------------------------------------------------------- |
 | NaCl (rock salt)  | 6:6                 | $\mathrm{NaCl}$$\mathrm{MgO}$ | Octahedral coordination; face-centred cubic arrangement |
 | CsCl              | 8:8                 | $\mathrm{CsCl}$               | Cubic coordination; body-centred arrangement            |
 | ZnS (zinc blende) | 4:4                 | $\mathrm{ZnS}$                | Tetrahedral coordination                                |
+
+</div>
 
 ## Giant Metallic Structures
 
@@ -592,6 +616,8 @@ delocalised electrons.
 
 ### Properties of Metals Explained
 
+<div class="table-wrap">
+
 | Property                        | Explanation                                                                                                                                      |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Electrical conductivity         | Delocalised electrons are free to move under an applied potential difference                                                                     |
@@ -599,6 +625,8 @@ delocalised electrons.
 | Malleability and ductility      | Layers of cations can slide over each other without breaking the metallic bond (the electron sea adjusts)                                        |
 | High melting points (generally) | Strength of metallic bonding depends on charge density of cations and number of delocalised electrons                                            |
 | Variable melting points         | $\mathrm{Na}$ (mp $98^\circ\mathrm{C}$1 delocalised electron per ion) vs $\mathrm{Al}$ (mp $661^\circ\mathrm{C}$3 delocalised electrons per ion) |
+
+</div>
 
 ## Giant Covalent Structures
 
@@ -633,6 +661,8 @@ silicon atoms, forming a giant covalent structure similar to diamond.
 
 ### Comparison of Giant Structures
 
+<div class="table-wrap">
+
 | Property                         | Ionic   | Metallic              | Giant covalent         |
 | -------------------------------- | ------- | --------------------- | ---------------------- |
 | Melting point                    | High    | Variable (often high) | Very high              |
@@ -641,9 +671,13 @@ silicon atoms, forming a giant covalent structure similar to diamond.
 | Solubility in water              | soluble | Insoluble             | Insoluble              |
 | Hardness                         | Brittle | Malleable             | Hard (except graphite) |
 
+</div>
+
 ## VSEPR Theory: Comprehensive Examples
 
 ### Common Molecular Geometries
+
+<div class="table-wrap">
 
 | Electron pairs | Bonding pairs | Lone pairs | Geometry             | Bond angle            | Example                                  |
 | -------------- | ------------- | ---------- | -------------------- | --------------------- | ---------------------------------------- |
@@ -661,13 +695,15 @@ silicon atoms, forming a giant covalent structure similar to diamond.
 | 6              | 5             | 1          | Square pyramidal     | $<90^\circ$           | $\mathrm{BrF}_5$                         |
 | 6              | 4             | 2          | Square planar        | $90^\circ$            | $\mathrm{XeF}_4$                         |
 
+</div>
+
 ### Effect of Lone Pairs on Bond Angle
 
 Lone pairs occupy more space than bonding pairs because they are held by only one nucleus and spread
 out more. This compresses the bond angles:
 
-- $\mathrm{NH}_3$: ideal tetrahedral $109.5^\circ$Actual $107^\circ$ (one lone pair compresses)
-- $\mathrm{H}_2\mathrm{O}$: ideal tetrahedral $109.5^\circ$Actual $104.5^\circ$ (two lone pairs
+- $\mathrm{NH}_3$: ideal tetrahedral $109.5^\circ$ Actual $107^\circ$ (one lone pair compresses)
+- $\mathrm{H}_2\mathrm{O}$: ideal tetrahedral $109.5^\circ$ Actual $104.5^\circ$ (two lone pairs
   compress more)
 - $\mathrm{CH}_4$: exactly $109.5^\circ$ (no lone pairs)
 
@@ -697,7 +733,7 @@ angle is less than $120^\circ$ due to lone pair repulsion.
 <summary>Problem 4</summary>
 
 Explain why $\mathrm{SiO}_2$ has a very high melting point ($\approx 1700^\circ\mathrm{C}$) while
-$\mathrm{CO}_2$ sublimes at $-78^\circ\mathrm{C}$Despite both containing group 4 elements bonded to
+$\mathrm{CO}_2$ sublimes at $-78^\circ\mathrm{C}$ Despite both containing group 4 elements bonded to
 oxygen.
 
 **Solution:**
@@ -745,6 +781,8 @@ London forces) and additional dipole-dipole interactions.
 
 ### Intermolecular Forces: Detailed Comparison
 
+<div class="table-wrap">
+
 | Force               | Strength ($\mathrm{kJ/mol}$) | Directionality                     | Example                                       |
 | ------------------- | ---------------------------- | ---------------------------------- | --------------------------------------------- |
 | London (dispersion) | $0.1$--$40$                  | Non-directional                    | All molecules                                 |
@@ -755,9 +793,13 @@ London forces) and additional dipole-dipole interactions.
 | Covalent (single)   | $200$--$400$                 | Directional (along bond axis)      | $\mathrm{C}-\mathrm{C}$                       |
 | Metallic bonding    | $100$--$500$                 | Non-directional (sea of electrons) | Fe, Cu                                        |
 
+</div>
+
 ### Electronegativity and Bond Polarity
 
 The Pauling electronegativity scale:
+
+<div class="table-wrap">
 
 | Element | Electronegativity |
 | ------- | ----------------- |
@@ -772,6 +814,8 @@ The Pauling electronegativity scale:
 | K       | 0.82              |
 | Cs      | 0.79 (lowest)     |
 
+</div>
+
 **Electronegativity trends:**
 
 - Increases across a period (increasing nuclear charge, decreasing atomic radius)
@@ -780,6 +824,8 @@ The Pauling electronegativity scale:
 ### VSEPR Theory: Advanced Shapes
 
 **Molecules with lone pairs on the central atom:**
+
+<div class="table-wrap">
 
 | Electron domains | Lone pairs | Bonding pairs | Shape                                    | Example                                 |
 | ---------------- | ---------- | ------------- | ---------------------------------------- | --------------------------------------- |
@@ -791,10 +837,14 @@ The Pauling electronegativity scale:
 | 6                | 2          | 4             | Square planar                            | $\mathrm{XeF}_4$                        |
 | 6                | 1          | 5             | Square pyramidal                         | $\mathrm{BrF}_5$                        |
 
+</div>
+
 Lone pairs occupy more space than bonding pairs because they are held closer to the nucleus. This
 compresses the bond angles in molecules with lone pairs.
 
 ### Hybridisation and Bonding
+
+<div class="table-wrap">
 
 | Hybridisation | Geometry             | Bond angle            | Example                                                  |
 | ------------- | -------------------- | --------------------- | -------------------------------------------------------- |
@@ -803,6 +853,8 @@ compresses the bond angles in molecules with lone pairs.
 | $sp^3$        | Tetrahedral          | $109.5^\circ$         | $\mathrm{CH}_4}$$\mathrm{NH}_3}$$\mathrm{H}_2\mathrm{O}$ |
 | $sp^3d$       | Trigonal bipyramidal | $90^\circ$$120^\circ$ | $\mathrm{PCl}_5}$                                        |
 | $sp^3d^2$     | Octahedral           | $90^\circ$            | $\mathrm{SF}_6}$                                         |
+
+</div>
 
 ### Metallic Bonding and Properties
 
@@ -834,11 +886,15 @@ together by weak London forces, allowing graphite to be a good lubricant. The in
 The melting point of an ionic compound depends on the strength of the electrostatic attraction
 between ions, which is proportional to $\frac{z^+ z^-}{r_+ + r_-}$:
 
+<div class="table-wrap">
+
 | Compound                    | Charge product | Ionic radii sum (pm) | Melting point ($^\circ\mathrm{C}$) |
 | --------------------------- | -------------- | -------------------- | ---------------------------------- |
 | $\mathrm{NaCl}$             | $1 \times 1$   | $102 + 181 = 283$    | 801                                |
 | $\mathrm{MgO}$              | $2 \times 2$   | $72 + 140 = 212$     | 2852                               |
 | $\mathrm{Al}_2\mathrm{O}_3$ | $3 \times 2$   | $54 + 140 = 194$     | 2072                               |
+
+</div>
 
 Higher charge and smaller ionic radii give stronger electrostatic attraction and higher melting
 points.
@@ -941,22 +997,9 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Bonding and
 Structure with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemical bonds are like握手, atoms sharing or transferring electrons to become more stable.**
-
-```mermaid
-flowchart TD
-    A[Bonding And Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

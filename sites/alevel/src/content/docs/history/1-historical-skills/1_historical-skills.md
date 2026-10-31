@@ -88,6 +88,8 @@ suggests that", "the most important factor was..."
 Understanding how and why historical interpretations change over time is essential. Key schools of
 thought include:
 
+<div class="table-wrap">
+
 | School           | Approach                               | Example                                              |
 | ---------------- | -------------------------------------- | ---------------------------------------------------- |
 | Orthodox         | Contemporary or early accounts         | Allied blame on Germany for WWI                      |
@@ -95,6 +97,8 @@ thought include:
 | Post-revisionist | Synthesises earlier positions          | Both sides share responsibility for the Cold War     |
 | Marxist          | Economic and class-driven explanations | The Reformation as a social revolution               |
 | Whig             | Progress towards modernity             | British history as inevitable democratic development |
+
+</div>
 
 When evaluating an interpretation, ask:
 
@@ -158,11 +162,15 @@ When given two historical interpretations to evaluate:
 
 ### NOP Framework
 
+<div class="table-wrap">
+
 | Element     | Questions to Ask                                                                    |
 | ----------- | ----------------------------------------------------------------------------------- |
 | **N**ature  | What type of source is this? (Letter, speech, photograph, cartoon, official report) |
 | **O**rigin  | Who created it? When? Where?                                                        |
 | **P**urpose | Why was it created? What was the intended effect?                                   |
+
+</div>
 
 ### Utility Assessment
 
@@ -261,17 +269,6 @@ a clear judgement about how useful it is for the specific enquiry.
 ## Intuition
 
 Historical thinking is like being a detective at a crime scene that happened centuries ago. You cannot interview witnesses, so you examine the fingerprints they left behind in documents, buildings, and artefacts. Every source is a witness with a motive, and your job is to figure out what they are hiding as much as what they are revealing. Historiography is the trail of previous detectives who investigated the same case, each influenced by the tools and assumptions of their own era. Strong historical argument is not about being right; it is about building a case so well-reasoned that your interpretation commands respect even from those who disagree.
-
-
-```mermaid
-flowchart TD
-    A[1_Historical Skills] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

@@ -54,7 +54,7 @@ parent-repo/
 ```
 
 There is no `.gitmodules` file. There is no `.git` directory inside `vendor/lib/`. The files exist
-As normal blobs in the parent repository's object database. Any Git operation on the parent
+as normal blobs in the parent repository's object database. Any Git operation on the parent
 (touching files in `vendor/lib/`Committing changes, branching, merging) works exactly the same as It
 would for any other directory.
 
@@ -92,7 +92,7 @@ Date:   Mon Jun 2 10:00:00 2025 +0000
  create mode 100644 vendor/lib/Makefile
 ```
 
-With `--squash`The framework creates a single merge commit whose tree contains the subtree files.
+With `--squash`. The framework creates a single merge commit whose tree contains the subtree files.
 The synthetic commit message records the upstream commit SHA that was squashed. This is critical,
 It is the bookmark that `git subtree pull` uses to find the starting point for the next pull.
 
@@ -102,7 +102,7 @@ It is the bookmark that `git subtree pull` uses to find the starting point for t
 git subtree add --prefix=vendor/lib https://github.com/org/library.git main
 ```
 
-Without `--squash`Every upstream commit is replayed as a separate commit in the parent repository.
+Without `--squash`. Every upstream commit is replayed as a separate commit in the parent repository.
 The commit messages are preserved, and `git log` shows the full interleaved history:
 
 ```bash
@@ -244,7 +244,7 @@ Upstream repositories.
 
 Only changes under the specified prefix are pushed. Changes in other directories of the parent
 Repository are not included. The push creates a linear history on the upstream branch containing
-Only commits that touched files in the subtree directory.
+only commits that touched files in the subtree directory.
 
 ### The `--squash` Complication
 
@@ -263,6 +263,8 @@ History instead.
 
 ### Detailed Comparison
 
+<div class="table-wrap">
+
 | Dimension                | Submodules                                                    | Subtrees                                                  |
 | ------------------------ | ------------------------------------------------------------- | --------------------------------------------------------- |
 | **Storage model**        | Parent stores a commit reference (mode 160000)                | Parent stores the actual files as regular blobs           |
@@ -279,6 +281,8 @@ History instead.
 | **Contributor friction** | High, new contributors forget submodule init                 | Low, clone and go                                        |
 | **Removing**             | `git rm` + `git submodule deinit` + clean `.git/modules`      | `git rm -rf <prefix>` + `git remote rm`                   |
 | **Best for**             | Large, independently-developed dependencies                   | Vendor libraries, shared code, small dependencies         |
+
+</div>
 
 ### When to Use Subtrees
 
@@ -340,7 +344,7 @@ Used when you have made changes to the subtree locally and want to push them ups
 $ git subtree split --prefix=vendor/lib --rejoin -b lib-only
 ```
 
-After `--rejoin`The current branch has a new merge commit that ties the split history back to the
+After `--rejoin`. The current branch has a new merge commit that ties the split history back to the
 Parent. This enables subsequent `git subtree push` operations to find the correct starting point.
 
 ### Limitations of Split
@@ -355,7 +359,7 @@ Parent. This enables subsequent `git subtree push` operations to find the correc
 ### Recovering from a Split Gone Wrong
 
 If a split produces unexpected results (wrong files, missing commits), delete the temporary branch
-And try again:
+and try again:
 
 ```bash
 git branch -D lib-only
@@ -510,20 +514,20 @@ Significant pain later.
 
 **Recommendation**: Use `--squash` for one-way dependencies (you pull from upstream but never push
 Back). Use full history for bidirectional workflows (you both pull and push). This decision should
-Be made at the time of `git subtree add` and must remain consistent, mixing squashed and
-Non-squashed operations on the same subtree leads to conflicts.
+be made at the time of `git subtree add` and must remain consistent, mixing squashed and
+non-squashed operations on the same subtree leads to conflicts.
 
 ### Merge Conflicts on Pull
 
 If you modified files in the subtree directory and the upstream also modified those same files,
 `git subtree pull` produces merge conflicts. The conflict resolution is a standard Git merge
 Conflict, edit the files, stage them, commit. But the experience is worse than a normal merge
-Because:
+because:
 
 - The conflict markers appear in files you may not fully understand (they are upstream code).
-- If you used `--squash`The conflict is between your local changes and a squash commit containing
+- If you used `--squash`. The conflict is between your local changes and a squash commit containing
   all upstream changes since the last pull. This can be a large diff.
-- If you did not use `--squash`The conflict is between your local changes and individual upstream
+- If you did not use `--squash`. The conflict is between your local changes and individual upstream
   commits, which can be easier to resolve incrementally.
 
 ### Large Repository Bloat
@@ -541,8 +545,8 @@ Mitigate by:
 ### Forgetting the Remote URL
 
 The `git subtree pull` and `git subtree push` commands require the repository URL every time. If you
-Do not add a named remote, you must type the full URL on every command, and it must match exactly
-What you used for `git subtree add`:
+do not add a named remote, you must type the full URL on every command, and it must match exactly
+what you used for `git subtree add`:
 
 ```bash
 # WRONG: different URL (even if it resolves to the same repo)
@@ -560,27 +564,27 @@ $ git subtree pull --prefix=vendor/lib --squash lib-upstream main
 
 `git subtree split` replays every commit in the repository's history that touched the prefix. On a
 Repository with 100,000 commits, this can take 10+ minutes. There is no way to speed this up, it is
-An inherent limitation of the algorithm. If you need to split frequently, consider using
+an inherent limitation of the algorithm. If you need to split frequently, consider using
 `git filter-repo` instead, which is significantly faster.
 
 ### Concurrent Pushes from Multiple Parent Repos
 
 If two parent repositories both use subtrees pointing to the same upstream, and both push changes,
 The upstream will have conflicting histories. Git cannot resolve this automatically. The second push
-Will fail with a non-fast-forward error, and the pusher must pull, resolve conflicts, and push
+will fail with a non-fast-forward error, and the pusher must pull, resolve conflicts, and push
 Again. This is fundamentally a coordination problem, subtrees assume a single source of truth for
-The upstream.
+the upstream.
 
 ### Deleting and Re-adding a Subtree
 
 If you `git rm -rf vendor/lib` and later `git subtree add --prefix=vendor/lib` again, the framework
-Cannot reuse the previous history. The new subtree add starts fresh. If you need to re-add a
+cannot reuse the previous history. The new subtree add starts fresh. If you need to re-add a
 Subtree, consider whether `git subtree pull` (to update the existing subtree) is what you actually
 Want.
 
 ### Subtree Commands Are Slow for Large Prefixes
 
-`git subtree add``pull`And `push` all involve `git fetch``git read-tree`And `git merge`. For Large
+`git subtree add`, `pull` and `push` all involve `git fetch`, `git read-tree` and `git merge`. For Large
 subtrees (thousands of files), these operations can be slow. The framework does not support Partial
 subtree operations, you always operate on the entire prefix. If performance is a concern And the
 upstream is large, submodules may be a better choice.
@@ -606,17 +610,6 @@ $ git subtree add --prefix=vendor\lib --squash https://github.com/org/library.gi
 $ git subtree add --prefix=vendor/lib --squash https://github.com/org/library.git main
 ```
 
-
-```mermaid
-flowchart TD
-    A[12 Subtrees] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of git subtrees, including underlying theory, practical
@@ -630,13 +623,7 @@ implementation, and key applications.
 - rebasing and cherry-picking
 - Git workflows (GitFlow, trunk-based)
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

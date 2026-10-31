@@ -30,7 +30,7 @@ $z_0$).
    finite.
 3. **Essential singularity**: infinitely many non-zero $a_n$ with $n \lt 0$.
 
-**Proposition 8.1 (Riemann"s Removable Singularity Theorem).** If $f$ is bounded near $z_0$ Then
+**Proposition 8.1 (Riemann's Removable Singularity Theorem).** If $f$ is bounded near $z_0$ Then
 $z_0$ is a removable singularity.
 
 **Proposition 8.2.** $z_0$ is a pole of order $m$ if and only if $\lim_{z \to z_0} (z - z_0)^m f(z)$
@@ -78,7 +78,9 @@ No negative powers, so $z = 0$ is a removable singularity with $f(0) = 1$.
 **Definition.** The **residue** of $f$ at an isolated singularity $z_0$ is the coefficient $a_{-1}$
 In the Laurent expansion:
 
-$$\mathrm{Res}(f, z_0) = a_{-1} = \frac{1}{2\pi i}\int_\gamma f(z)\, dz$$
+$$
+\mathrm{Res}(f, z_0) = a_{-1} = \frac{1}{2\pi i}\int_\gamma f(z)\, dz
+$$
 
 Where $\gamma$ is a small positively oriented circle around $z_0$.
 
@@ -86,15 +88,21 @@ Where $\gamma$ is a small positively oriented circle around $z_0$.
 
 **For a simple pole at $z_0$:**
 
-$$\mathrm{Res}(f, z_0) = \lim_{z \to z_0} (z - z_0)f(z)$$
+$$
+\mathrm{Res}(f, z_0) = \lim_{z \to z_0} (z - z_0)f(z)
+$$
 
 If $f = g/h$ where $g(z_0) \neq 0$, $h(z_0) = 0$, $h'(z_0) \neq 0$:
 
-$$\mathrm{Res}(f, z_0) = \frac{g(z_0)}{h'(z_0)}$$
+$$
+\mathrm{Res}(f, z_0) = \frac{g(z_0)}{h'(z_0)}
+$$
 
 **For a pole of order $m$ at $z_0$:**
 
-$$\mathrm{Res}(f, z_0) = \frac{1}{(m-1)!}\lim_{z \to z_0} \frac{d^{m-1}}{dz^{m-1}}\left[(z - z_0)^m f(z)\right]$$
+$$
+\mathrm{Res}(f, z_0) = \frac{1}{(m-1)!}\lim_{z \to z_0} \frac{d^{m-1}}{dz^{m-1}}\left[(z - z_0)^m f(z)\right]
+$$
 
 <details>
 <summary>Solution</summary>
@@ -120,11 +128,13 @@ At $z = 2$ (simple pole): $\mathrm{Res} = \frac{e^2}{(2-1)^2} = e^2$.
 
 **Theorem 8.4 (Residue Theorem).** If $f$ is analytic inside and on a simple closed positively
 Oriented contour $\gamma$ except for isolated singularities $z_1, z_2, \ldots, z_n$ inside $\gamma$
-Then
+then
 
-$$\int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)$$
+$$
+\int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)
+$$
 
-_Proof._ For each singularity $z_k$Draw a small circle $\gamma_k$ around it. By Cauchy's theorem
+_Proof._ For each singularity $z_k$ Draw a small circle $\gamma_k$ around it. By Cauchy's theorem
 Applied to the multiply connected region between $\gamma$ and the $\gamma_k$:
 
 $\int_\gamma f\, dz = \sum_{k=1}^n \int_{\gamma_k} f\, dz = \sum_{k=1}^n 2\pi i \cdot \mathrm{Res}(f, z_k)$.
@@ -160,17 +170,6 @@ $\int_\gamma \frac{dz}{z^4 + 1} = 2\pi i \cdot 0 = 0$. $\blacksquare$
 
 ### 8.8 Common Mistakes
 
-
-```mermaid
-flowchart TD
-    A[8_Singularities And Residue Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Singularities are points where a holomorphic function misbehaves, it either blows up, has a limit, or oscillates infinitely. The Laurent series decomposes a function near a singularity into a regular part (non-negative powers) and a principal part (negative powers). The residue is the coefficient of $1/(z - z_0)$, and it captures the "amount of singularity" in a precise sense. The residue theorem says that the integral around a closed curve equals $2\pi i$ times the sum of residues inside, integrating around a singularity picks up a topological quantity that depends only on what is inside, not on the exact path. This converts hard integration problems into bookkeeping.
@@ -198,5 +197,5 @@ The residue at a pole of order $m$ is given by $\mathrm{Res}(f, z_0) = \frac{1}{
 - **[Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)**: Cauchy's theorem for multiply connected domains leads to the residue theorem.
 - **[Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)**: The residue theorem is applied to evaluate real integrals and solve physics problems.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

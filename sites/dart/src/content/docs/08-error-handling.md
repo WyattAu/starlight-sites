@@ -21,9 +21,9 @@ categories:
 ## Exception vs Error Hierarchy
 
 Dart draws a sharp line between two families of throwable objects: `Exception` and `Error`. This is
-Not a stylistic preference, it is a semantic contract. `Exception` means "something went wrong at
+not a stylistic preference, it is a semantic contract. `Exception` means "something went wrong at
 Runtime that a caller might reasonably recover from." `Error` means "the program has entered a state
-That indicates a programming bug, and recovery is not safe."
+that indicates a programming bug, and recovery is not safe."
 
 ### The Full Hierarchy
 
@@ -94,9 +94,9 @@ void processList(List<int> items) {
 ### The `catch (e)` Anti-Pattern
 
 Catching bare `catch (e)` without specifying a type will catch **both** `Exception` and `Error`.
-This is almost always wrong. It swallows `StackOverflowError``OutOfMemoryError`And other signals
-That the program is in an unrecoverable state. Always prefer `on Exception catch (e)` if you intend
-To handle runtime failures, and let `Error` propagate to the top-level handler.
+This is almost always wrong. It swallows `StackOverflowError`, `OutOfMemoryError` and other signals
+that the program is in an unrecoverable state. Always prefer `on Exception catch (e)` if you intend
+to handle runtime failures, and let `Error` propagate to the top-level handler.
 
 ## try / on / catch / finally
 
@@ -159,7 +159,7 @@ General ones.
 ### finally Always Runs
 
 The `finally` block executes regardless of whether an exception was thrown, caught, or not thrown at
-All. It runs even if a `catch` block returns or throws. This is the correct place for cleanup logic.
+all. It runs even if a `catch` block returns or throws. This is the correct place for cleanup logic.
 
 ```dart
 final file = File('data.bin');
@@ -236,7 +236,7 @@ class UserParseException implements Exception {
    request URLs).
 3. **Chain exceptions**. Include the original cause so the full chain of failure is inspectable.
 4. **Implement `toString()`**. The default `Exception.toString()` returns
-   `"Instance of 'MyException'"`Which is useless in logs. Always override it with a meaningful
+   `"Instance of 'MyException'"`. Which is useless in logs. Always override it with a meaningful
    message.
 
 ### Exception Hierarchies for Domains
@@ -329,9 +329,11 @@ void logAndRethrow() {
 
 `rethrow` re-throws the caught exception with its **original** stack trace intact. The resulting
 Trace points to the line inside `riskyOperation()` where the exception was originally thrown, not
-The `rethrow` line.
+the `rethrow` line.
 
 ### When to Use Each
+
+<div class="table-wrap">
 
 | Situation                                                            | Use                                      |
 | -------------------------------------------------------------------- | ---------------------------------------- |
@@ -339,6 +341,8 @@ The `rethrow` line.
 | You want to wrap the exception in a new type (exception chaining)    | `throw MyException(..., cause: e)`       |
 | You want to convert one exception type to another                    | `throw newException` (intentional reset) |
 | You want to suppress and throw something entirely different          | `throw` (new object)                     |
+
+</div>
 
 ### Exception Wrapping vs Rethrow
 
@@ -367,7 +371,7 @@ Future<User> fetchUser(String id) async {
 
 A `StackTrace` is an opaque string-like object representing the call stack at the point of a throw.
 It is not parseable via a structured API, it is a formatted string that you read visually or send
-To an error reporting service.
+to an error reporting service.
 
 ```dart
 try {
@@ -397,7 +401,7 @@ Reporters.
 
 ### Chain.forTrace() (package:stack_trace)
 
-The `stack_trace` package (from the `async` meta-package) provides `Chain.forTrace()`Which parses A
+The `stack_trace` package (from the `async` meta-package) provides `Chain.forTrace()`. Which parses A
 raw `StackTrace` into a `Chain` of `Frame` objects. This enables programmatic inspection:
 
 ```dart
@@ -425,9 +429,9 @@ A Dart stack trace frame has the format:
 
 - `#0` is the throw site (innermost frame).
 - Higher numbers are callers further up the stack.
-- `dart:core``dart:async``dart:isolate` frames are VM-internal, skip these when debugging.
+- `dart:core`, `dart:async`, `dart:isolate` frames are VM-internal, skip these when debugging.
 - `package:your_app/` frames are your application code, start here.
-- `package:http/``package:flutter/` frames are third-party, the bug may be in how you called them,
+- `package:http/`, `package:flutter/` frames are third-party, the bug may be in how you called them,
   not in the library itself.
 
 ## Error Handling in Async
@@ -435,7 +439,7 @@ A Dart stack trace frame has the format:
 ### Uncaught Async Errors
 
 In synchronous code, an uncaught exception crashes the isolate. In async code, the behavior depends
-On whether the `Future` has an error handler attached:
+on whether the `Future` has an error handler attached:
 
 ```dart
 // Synchronous, crashes immediately
@@ -528,7 +532,7 @@ Prints to stderr but does **not** terminate the isolate. This is by design, in a
 Application (Flutter), a single failed network request should not bring down the entire app.
 
 This means uncaught async errors are **silent by default**. The only output is a stderr print. This
-Is why you must either:
+is why you must either:
 
 1. Use `runZonedGuarded` to install a global error handler that reports to a crash reporting
    service.
@@ -562,7 +566,7 @@ controller.close();   // Stream closed
 ### onError Handler
 
 The `onError` callback in `listen()` handles error events. Without it, the error is dispatched to
-The zone's error handler.
+the zone's error handler.
 
 ### handleError()
 
@@ -577,7 +581,7 @@ final safeStream = riskyStream.handleError(
 );
 ```
 
-Like `catchError` on `Future`The `test` parameter restricts which errors are handled.
+Like `catchError` on `Future`. The `test` parameter restricts which errors are handled.
 
 ### transformError()
 
@@ -736,11 +740,13 @@ result.match(
 );
 ```
 
-`fpdart` provides `Either``Option``TaskEither` (async Either), `IO` (synchronous side effects), And
+`fpdart` provides `Either`, `Option`, `TaskEither` (async Either), `IO` (synchronous side effects), And
 a full suite of functional programming primitives. `dartz` is the older, more established
 Alternative with similar capabilities.
 
 ### When to Use Result vs Exceptions
+
+<div class="table-wrap">
 
 | Scenario                                                 | Use                                     |
 | -------------------------------------------------------- | --------------------------------------- |
@@ -748,6 +754,8 @@ Alternative with similar capabilities.
 | I/O failures (network, filesystem)                       | `Exception` (or `Result` if you prefer) |
 | Programming bugs (null dereference, index out of bounds) | Let `Error` propagate                   |
 | Library boundary where you want explicit failure types   | `Result`/`Either`                       |
+
+</div>
 
 ## Flutter Error Boundaries
 
@@ -1079,17 +1087,6 @@ void writeLog(String message) async {
 Alternatively, use the `using` pattern from `package:resource` or Dart's `Resource` class (Dart
 3.3+) for scope-bound resource management.
 
-
-```mermaid
-flowchart TD
-    A[08 Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical
@@ -1103,13 +1100,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

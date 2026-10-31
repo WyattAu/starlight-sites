@@ -112,12 +112,12 @@ Development must not compromise the ability of future generations to meet their 
 ### The Environmental Kuznets Curve
 
 The environmental Kuznets curve hypothesises an inverted-U relationship between economic development
-And environmental degradation: pollution rises during early industrialisation but eventually falls
-As societies become wealthier, invest in cleaner technology, and demand stronger environmental
+and environmental degradation: pollution rises during early industrialisation but eventually falls
+as societies become wealthier, invest in cleaner technology, and demand stronger environmental
 Regulation.
 
 This pattern does not hold universally, carbon dioxide emissions and some pollutants have not
-Declined in many wealthy countries without deliberate policy intervention.
+declined in many wealthy countries without deliberate policy intervention.
 
 ## Market-Oriented vs. Interventionist Approaches (HL Extension)
 
@@ -246,14 +246,16 @@ Questions of **climate justice**.
 ### Microfinance
 
 Microfinance refers to the provision of small loans (microcredit), savings accounts, insurance, and
-Other financial services to low-income individuals who lack access to traditional banking.
+other financial services to low-income individuals who lack access to traditional banking.
 
 **Mechanism:**
 
 The group lending model (pioneered by Grameen Bank, Muhammad Yunus) uses social collateral instead
-Of physical collateral:
+of physical collateral:
 
-$$\text{Default by one member} \implies \text{Group liability} \implies \text{Social sanctions}$$
+$$
+\text{Default by one member} \implies \text{Group liability} \implies \text{Social sanctions}
+$$
 
 This creates peer monitoring and mutual accountability, overcoming the asymmetric information
 problem That prevents traditional banks from lending to the poor.
@@ -573,7 +575,7 @@ resources from tradables to non-tradables.
 
 **Evaluation:** each policy has trade-offs. Sterilised intervention is inflationary; saving aid
 Delays its benefits; export subsidies are trade-distorting. The best approach depends on the
-Country's specific circumstances.
+country's specific circumstances.
 
 </details>
 
@@ -1070,17 +1072,6 @@ Country C skips landline telephone infrastructure entirely and moves directly to
 Mobile penetration reaches 80% within 5 years, enabling mobile banking (M-Pesa model), agricultural
 price information, and health monitoring, services that would have required decades of traditional
 infrastructure development.
-
-
-```mermaid
-flowchart TD
-    A[3 Trade And Aid] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

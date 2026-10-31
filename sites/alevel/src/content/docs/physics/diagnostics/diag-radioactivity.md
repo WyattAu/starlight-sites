@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Radioactivity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Radioactivity is like a population of unstable atoms, each has a fixed probability of decaying at any moment, like rolling a loaded die. The more atoms you have, the more predictable the overall decay rate becomes, even though each individual decay is random.**
@@ -70,19 +59,31 @@ Total: $R = 100 + 424 = 524\,\text{Bq}$
 
 Setting $dR/dt = 0$:
 
-$$-400 \times 0.1386 e^{-0.1386t} - 600 \times 0.03465 e^{-0.03465t} = 0$$
+$$
+-400 \times 0.1386 e^{-0.1386t} - 600 \times 0.03465 e^{-0.03465t} = 0
+$$
 
-$$-55.44 e^{-0.1386t} = 20.79 e^{-0.03465t}$$
+$$
+-55.44 e^{-0.1386t} = 20.79 e^{-0.03465t}
+$$
 
-$$e^{-0.10395t} = \frac{20.79}{55.44} = 0.3750$$
+$$
+e^{-0.10395t} = \frac{20.79}{55.44} = 0.3750
+$$
 
-$$-0.10395t = \ln(0.3750) = -0.9808$$
+$$
+-0.10395t = \ln(0.3750) = -0.9808
+$$
 
-$$t = 9.43\,\text{days}$$
+$$
+t = 9.43\,\text{days}
+$$
 
 (c) $400e^{-0.1386t} = 600e^{-0.03465t}$
 
-$$e^{-0.10395t} = 600/400 = 1.5$$
+$$
+e^{-0.10395t} = 600/400 = 1.5
+$$
 
 This requires $e$ raised to a positive power to equal $1.5$ But $-0.10395t \lt 0$ for all $t \gt 0$ So
 $e^{-0.10395t} \lt 1$ always.
@@ -92,7 +93,7 @@ always decays faster than $R_B$ (larger decay constant), so $R_A$ is always less
 $t \gt 0$.
 
 For the activities to be equal, we would need $R_{A0} \gt R_{B0}$ (isotope $A$ starts with higher
-activity) and then they would cross at some time. With $R_{A0} \lt R_{B0}$The activities never
+activity) and then they would cross at some time. With $R_{A0} \lt R_{B0}$ The activities never
 cross.
 
 ---
@@ -124,17 +125,25 @@ $X$ is present with $N_{X0} = 1000$ atoms.
 
 (a) $\frac{dN_X}{dt} = -\lambda_X N_X$
 
-$$\frac{dN_Y}{dt} = \lambda_X N_X - \lambda_Y N_Y$$
+$$
+\frac{dN_Y}{dt} = \lambda_X N_X - \lambda_Y N_Y
+$$
 
-$$\frac{dN_Z}{dt} = \lambda_Y N_Y$$
+$$
+\frac{dN_Z}{dt} = \lambda_Y N_Y
+$$
 
 (b) $N_X(t) = N_{X0}e^{-\lambda_X t} = 1000e^{-0.10 \times 20} = 1000e^{-2} = 135.3$
 
 For $N_Y(t)$ (Bateman equation for $\lambda_X \ne \lambda_Y$):
 
-$$N_Y(t) = \frac{\lambda_X N_{X0}}{\lambda_Y - \lambda_X}(e^{-\lambda_X t} - e^{-\lambda_Y t})$$
+$$
+N_Y(t) = \frac{\lambda_X N_{X0}}{\lambda_Y - \lambda_X}(e^{-\lambda_X t} - e^{-\lambda_Y t})
+$$
 
-$$= \frac{0.10 \times 1000}{0.05 - 0.10}(e^{-2} - e^{-1}) = \frac{100}{-0.05}(0.1353 - 0.3679) = -2000 \times (-0.2326) = 465.2$$
+$$
+= \frac{0.10 \times 1000}{0.05 - 0.10}(e^{-2} - e^{-1}) = \frac{100}{-0.05}(0.1353 - 0.3679) = -2000 \times (-0.2326) = 465.2
+$$
 
 So approximately $465$ atoms of $Y$ at $t = 20\,\text{s}$.
 
@@ -144,9 +153,9 @@ $\lambda_X \gt \lambda_Y$. This is the opposite of secular equilibrium -- it is 
 equilibrium** ($\lambda_Y \lt \lambda_X$).
 
 In transient equilibrium, after sufficient time, the ratio $N_Y/N_X$ approaches a constant:
-$\lambda_X N_X = \lambda_Y N_Y$Giving $N_Y/N_X = \lambda_X/\lambda_Y = 2.0$.
+$\lambda_X N_X = \lambda_Y N_Y$ Giving $N_Y/N_X = \lambda_X/\lambda_Y = 2.0$.
 
-At $t = 20\,\text{s}$: $N_Y/N_X = 465/135 = 3.44$Which has not yet reached the equilibrium value of
+At $t = 20\,\text{s}$: $N_Y/N_X = 465/135 = 3.44$ Which has not yet reached the equilibrium value of
 $2.0$. More time is needed.
 
 ---
@@ -166,7 +175,9 @@ $2.0$. More time is needed.
 
 The isotope carbon-14 undergoes beta-minus decay to nitrogen-14:
 
-$$^{14}_{\ 6}\text{C} \to ^{14}_{\ 7}\text{N} + ^{\ 0}_{-1}\text{e} + \bar{\nu}_e$$
+$$
+^{14}_{\ 6}\text{C} \to ^{14}_{\ 7}\text{N} + ^{\ 0}_{-1}\text{e} + \bar{\nu}_e
+$$
 
 The Q-value of the decay is $0.156\,\text{MeV}$.
 
@@ -185,7 +196,7 @@ $m_e = 9.11 \times 10^{-31}\,\text{kg}$$c = 3.00 \times 10^8\,\text{m}\,\text{s}
 (a) In beta-minus decay, a neutron converts to a proton, electron, and electron antineutrino:
 $n \to p + e^- + \bar{\nu}_e$. Without the antineutrino, the decay would violate conservation of
 energy and momentum simultaneously. The kinetic energy of the beta particle varies from zero to
-$Q$With the antineutrino carrying the remaining energy. The antineutrino ensures that both energy
+$Q$ With the antineutrino carrying the remaining energy. The antineutrino ensures that both energy
 and momentum are conserved for every individual decay, not just on average.
 
 Additionally, beta decay involves the weak nuclear force (mediated by $W^-$ bosons), and the leptons
@@ -202,12 +213,14 @@ zero momentum. All momentum must be carried by the beta particle.
 
 $K_{\max} = 0.156\,\text{MeV} = 0.156 \times 10^6 \times 1.60 \times 10^{-19} = 2.496 \times 10^{-14}\,\text{J}$
 
-Since $K \ll m_e c^2 = 0.511\,\text{MeV}$We can use non-relativistic mechanics:
+Since $K \ll m_e c^2 = 0.511\,\text{MeV}$ We can use non-relativistic mechanics:
 
-$$p = \sqrt{2m_e K} = \sqrt{2 \times 9.11 \times 10^{-31} \times 2.496 \times 10^{-14}} = \sqrt{4.548 \times 10^{-44}} = 2.13 \times 10^{-22}\,\text{kg}\,\text{m}\,\text{s}^{-1}$$
+$$
+p = \sqrt{2m_e K} = \sqrt{2 \times 9.11 \times 10^{-31} \times 2.496 \times 10^{-14}} = \sqrt{4.548 \times 10^{-44}} = 2.13 \times 10^{-22}\,\text{kg}\,\text{m}\,\text{s}^{-1}
+$$
 
 Alternatively, using
-$pc = \sqrt{2m_e c^2 K} = \sqrt{2 \times 0.511 \times 0.156}\,\text{MeV} = \sqrt{0.159}\,\text{MeV} = 0.399\,\text{MeV}$Giving
+$pc = \sqrt{2m_e c^2 K} = \sqrt{2 \times 0.511 \times 0.156}\,\text{MeV} = \sqrt{0.159}\,\text{MeV} = 0.399\,\text{MeV}$ Giving
 $p = 0.399\,\text{MeV}/c$.
 
 ## Integration Tests
@@ -224,7 +237,7 @@ $5730\,\text{years}$.
 
 (b) Calculate the percentage of original carbon-14 remaining.
 
-(c) If the measurement uncertainty in the activity is $\pm 0.1\,\text{Bq}\,\text{g}^{-1}$Calculate
+(c) If the measurement uncertainty in the activity is $\pm 0.1\,\text{Bq}\,\text{g}^{-1}$ Calculate
 the uncertainty in the age.
 
 **Solution:**
@@ -234,12 +247,14 @@ the uncertainty in the age.
 $\lambda = \ln 2/5730 = 1.209 \times 10^{-4}\,\text{year}^{-1}$
 
 **Note:** The stated sample activity of $1.2\,\text{Bq}\,\text{g}^{-1}$ exceeds the living-wood
-baseline of $0.23\,\text{Bq}\,\text{g}^{-1}$Which is physically inconsistent with radioactive decay
+baseline of $0.23\,\text{Bq}\,\text{g}^{-1}$ Which is physically inconsistent with radioactive decay
 (a sample cannot have more C-14 than living material). This indicates either measurement error or
 contamination. Assuming the intended value is $A = 0.12\,\text{Bq}\,\text{g}^{-1}$ (approximately
 half the living value):
 
-$$t = \frac{1}{\lambda}\ln\frac{A_0}{A} = \frac{1}{1.209 \times 10^{-4}}\ln\frac{0.23}{0.12} = 8271 \times 0.652 = 5393\,\text{years}$$
+$$
+t = \frac{1}{\lambda}\ln\frac{A_0}{A} = \frac{1}{1.209 \times 10^{-4}}\ln\frac{0.23}{0.12} = 8271 \times 0.652 = 5393\,\text{years}
+$$
 
 (b) Fraction remaining: $N/N_0 = A/A_0 = 0.12/0.23 = 0.522 = 52.2\%$
 
@@ -290,16 +305,22 @@ $A = 9.25 \times 10^7\,\text{Bq}$
 
 (b) The effective decay constant combines physical and biological processes:
 
-$$\lambda_{\text{eff}} = \lambda_{\text{physical}} + \lambda_{\text{biological}} = \frac{\ln 2}{6.0} + \frac{\ln 2}{4.8}$$
+$$
+\lambda_{\text{eff}} = \lambda_{\text{physical}} + \lambda_{\text{biological}} = \frac{\ln 2}{6.0} + \frac{\ln 2}{4.8}
+$$
 
-$$= 0.1155 + 0.1444 = 0.2599\,\text{hour}^{-1}$$
+$$
+= 0.1155 + 0.1444 = 0.2599\,\text{hour}^{-1}
+$$
 
 Effective half-life:
 $t_{1/2,\text{eff}} = \ln 2/\lambda_{\text{eff}} = 0.693/0.2599 = 2.67\,\text{hours}$
 
 Time to reach $1\%$: $0.01 = e^{-0.2599t}$
 
-$$t = \ln(100)/0.2599 = 4.605/0.2599 = 17.7\,\text{hours}$$
+$$
+t = \ln(100)/0.2599 = 4.605/0.2599 = 17.7\,\text{hours}
+$$
 
 (c) $A_0 = \lambda N_0 \Rightarrow N_0 = A_0/\lambda$
 
@@ -348,7 +369,9 @@ Concrete: $x_{1/2} = 0.693/0.15 = 4.62\,\text{cm}$
 
 (b) $I/I_0 = 0.001 = e^{-1.20x}$
 
-$$x = \ln(1000)/1.20 = 6.908/1.20 = 5.76\,\text{cm}$$
+$$
+x = \ln(1000)/1.20 = 6.908/1.20 = 5.76\,\text{cm}
+$$
 
 Alternatively: number of HVTs needed $= \log_2(1000) = 9.97 \approx 10$
 
@@ -356,7 +379,9 @@ $x = 10 \times 0.578 = 5.78\,\text{cm}$. Consistent.
 
 (c) $120 = I_0 e^{-0.15 \times 5.0} = I_0 e^{-0.75} = I_0 \times 0.472$
 
-$$I_0 = 120/0.472 = 254\,\text{counts}\,\text{min}^{-1}$$
+$$
+I_0 = 120/0.472 = 254\,\text{counts}\,\text{min}^{-1}
+$$
 
 Without the wall, the count rate would be $254\,\text{counts}\,\text{min}^{-1}$ above background.
 The $5\,\text{cm}$ concrete wall reduces the count rate by approximately $53\%$.

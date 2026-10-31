@@ -29,7 +29,7 @@ tags:
 ### Postulates of Cell Theory
 
 Cell theory, formulated by Schleiden and Schwann (1838--1839) and later refined by Virchow, rests on
-Three principles:
+three principles:
 
 1. All living organisms are composed of one or more cells.
 2. The cell is the smallest unit of life.
@@ -41,7 +41,7 @@ Three principles:
 ### Evidence for Cell Theory
 
 - **Microscopy**: light and electron microscopy confirm that all examined living tissue is cellular.
-- **Biogenesis experiments**: Pasteur"s swan-neck flask experiment (1859) demonstrated that
+- **Biogenesis experiments**: Pasteur's swan-neck flask experiment (1859) demonstrated that
   microorganisms arise only from existing microorganisms, not from non-living matter.
 - **Cell culture**: individual cells can be grown in vitro and give rise to colonies, confirming
   that single cells are viable living units.
@@ -71,6 +71,8 @@ Three principles:
 Prokaryotes (bacteria and archaea) lack a membrane-bound nucleus. Their DNA is found as a single,
 Circular chromosome in the **nucleoid region**.
 
+<div class="table-wrap">
+
 | Feature               | Description                                                           |
 | --------------------- | --------------------------------------------------------------------- |
 | Cell wall             | Peptidoglycan (bacteria) or pseudopeptidoglycan (archaea)             |
@@ -82,9 +84,13 @@ Circular chromosome in the **nucleoid region**.
 | Pili                  | Hair-like appendages for adhesion and conjugation                     |
 | Capsule / slime layer | Polysaccharide layer for protection and adhesion                      |
 
+</div>
+
 ### Eukaryotic Cells
 
 Eukaryotes (animals, plants, fungi, protists) possess a **membrane-bound nucleus** and organelles.
+
+<div class="table-wrap">
 
 | Feature               | Animal Cell                     | Plant Cell                           |
 | --------------------- | ------------------------------- | ------------------------------------ |
@@ -95,7 +101,11 @@ Eukaryotes (animals, plants, fungi, protists) possess a **membrane-bound nucleus
 | Lysosomes             | Present                         | Rare or absent (vacuoles serve role) |
 | Plastids              | Absent                          | Present                              |
 
+</div>
+
 ### Comparison
+
+<div class="table-wrap">
 
 | Feature                   | Prokaryote               | Eukaryote                                        |
 | ------------------------- | ------------------------ | ------------------------------------------------ |
@@ -105,6 +115,8 @@ Eukaryotes (animals, plants, fungi, protists) possess a **membrane-bound nucleus
 | Ribosome size             | $70\mathrm{S}$           | $80\mathrm{S}$ ($60\mathrm{S}$ + $40\mathrm{S}$) |
 | Cell diameter             | $1$--$5\;\mathrm{\mu m}$ | $10$--$100\;\mathrm{\mu m}$                      |
 | Reproduction              | Binary fission           | Mitosis / meiosis                                |
+
+</div>
 
 ---
 
@@ -122,7 +134,7 @@ Eukaryotes (animals, plants, fungi, protists) possess a **membrane-bound nucleus
 ### The Fluid Mosaic Model
 
 The cell membrane is described by the **fluid mosaic model** (Singer and Nicolson, 1972). The
-Membrane is a dynamic, two-dimensional fluid of phospholipids in which proteins are embedded
+membrane is a dynamic, two-dimensional fluid of phospholipids in which proteins are embedded
 ("mosaic").
 
 **Structure:**
@@ -143,7 +155,7 @@ Membrane is a dynamic, two-dimensional fluid of phospholipids in which proteins 
 #### Simple Diffusion
 
 Passive movement of molecules from a region of higher concentration to lower concentration, down the
-Concentration gradient. Only small, non-polar molecules ($\mathrm{O}_2$, $\mathrm{CO}_2$Steroid
+concentration gradient. Only small, non-polar molecules ($\mathrm{O}_2$, $\mathrm{CO}_2$ Steroid
 Hormones) diffuse directly through the bilayer.
 
 **Fick's Law:**
@@ -155,7 +167,7 @@ $$
 #### Facilitated Diffusion
 
 Polar or charged molecules (glucose, ions, amino acids) require transmembrane proteins. No ATP is
-Consumed; transport is passive and specific.
+consumed; transport is passive and specific.
 
 - **Channel proteins**: form hydrophilic pores (e.g., aquaporins for water).
 - **Carrier proteins**: undergo conformational change to shuttle substances across.
@@ -169,11 +181,15 @@ Solute concentration (lower water potential).
 **Water potential** ($\psi$) is measured in pressure units ($\mathrm{kPa}$). Pure water at standard
 Conditions has $\psi = 0\;\mathrm{kPa}$. Adding solutes decreases $\psi$ (makes it negative).
 
+<div class="table-wrap">
+
 | Solution type | Effect on animal cell                 | Effect on plant cell     |
 | ------------- | ------------------------------------- | ------------------------ |
 | Hypotonic     | Swells, may lyse (crenation opposite) | Turgid (normal, healthy) |
 | Isotonic      | No net change                         | Flaccid                  |
 | Hypertonic    | Crenates (shrinks)                    | Plasmolysed              |
+
+</div>
 
 #### Active Transport
 
@@ -238,7 +254,7 @@ Site of **aerobic respiration** (oxidative phosphorylation), producing ATP.
 ### Golgi Apparatus
 
 A stack of flattened, membrane-bound cisternae that modifies, sorts, and packages proteins and
-Lipids received from the ER.
+lipids received from the ER.
 
 - **Cis face** (receiving side): accepts vesicles from the ER.
 - **Trans face** (shipping side): releases vesicles to the plasma membrane, lysosomes, or for
@@ -282,7 +298,7 @@ Provides structural support and prevents osmotic lysis.
 ### Mitosis
 
 Mitosis produces two genetically identical **diploid** ($2n$) daughter cells, maintaining the
-Chromosome number. It is the basis of growth, repair, and asexual reproduction.
+chromosome number. It is the basis of growth, repair, and asexual reproduction.
 
 **Definition.** A **diploid** cell contains two complete sets of chromosomes ($2n$). A **haploid**
 Cell contains one set ($n$).
@@ -295,12 +311,16 @@ The same length, centromere position, and gene loci.
 
 #### Phases of Mitosis
 
+<div class="table-wrap">
+
 | Phase         | Key Events                                                                                                                                             |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Prophase**  | Chromatin condenses into visible chromosomes; spindle microtubules begin to form from the centrosomes; nucleolus disappears.                           |
 | **Metaphase** | Chromosomes align at the **metaphase plate** (cell equator); spindle fibres attach to kinetochores at centromeres.                                     |
 | **Anaphase**  | Sister chromatids separate at the centromere and are pulled to opposite poles by shortening spindle fibres. Chromatids are now individual chromosomes. |
 | **Telophase** | Chromosomes decondense; nuclear envelope reforms around each set of chromosomes; nucleolus reappears.                                                  |
+
+</div>
 
 **Cytokinesis** (division of the cytoplasm) follows mitosis:
 
@@ -326,6 +346,8 @@ Parent cell. It is essential for sexual reproduction, producing **gametes** (spe
 
 #### Meiosis I (Reductional Division)
 
+<div class="table-wrap">
+
 | Phase           | Key Events                                                                                                                                                                 |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Prophase I**  | Homologous chromosomes pair up (**synapsis**) forming **bivalents**; **crossing over** occurs at **chiasmata**, exchanging genetic material between non-sister chromatids. |
@@ -333,9 +355,13 @@ Parent cell. It is essential for sexual reproduction, producing **gametes** (spe
 | **Anaphase I**  | Homologous chromosomes separate and move to opposite poles. Sister chromatids remain attached.                                                                             |
 | **Telophase I** | Two haploid cells form (each chromosome still consists of two chromatids).                                                                                                 |
 
+</div>
+
 #### Meiosis II (Equational Division)
 
 Similar to mitosis but with haploid cells:
+
+<div class="table-wrap">
 
 | Phase            | Key Events                                                   |
 | ---------------- | ------------------------------------------------------------ |
@@ -343,6 +369,8 @@ Similar to mitosis but with haploid cells:
 | **Metaphase II** | Individual chromosomes align at the metaphase plate.         |
 | **Anaphase II**  | Sister chromatids separate and move to opposite poles.       |
 | **Telophase II** | Four haploid daughter cells form, each genetically distinct. |
+
+</div>
 
 #### Sources of Genetic Variation
 
@@ -367,6 +395,8 @@ Similar to mitosis but with haploid cells:
 
 Multicellular organisms have differentiated (specialised) cell types:
 
+<div class="table-wrap">
+
 | Cell type          | Adaptation                                   | Function                 |
 | ------------------ | -------------------------------------------- | ------------------------ |
 | Red blood cell     | Biconcave disc, no nucleus, high haemoglobin | $\mathrm{O}_2$ transport |
@@ -375,6 +405,8 @@ Multicellular organisms have differentiated (specialised) cell types:
 | Muscle cell        | Many mitochondria, contractile filaments     | Contraction              |
 | Root hair cell     | Elongated projection, large surface area     | Mineral and water uptake |
 | Palisade mesophyll | Many chloroplasts, elongated shape           | Photosynthesis           |
+
+</div>
 
 ---
 
@@ -435,7 +467,7 @@ Structural difference allows selective toxicity against bacterial cells.
 <summary>Question 2: Surface Area to Volume Ratio</summary>
 
 A spherical cell has a radius of $5\;\mathrm{\mu m}$. Calculate its surface area, volume, and
-Surface-area-to-volume ratio. Explain why cells are generally small.
+surface-area-to-volume ratio. Explain why cells are generally small.
 
 </details>
 
@@ -452,7 +484,7 @@ $\frac{A}{V} = \frac{3}{r} = \frac{3}{5} = 0.6\;\mathrm{\mu m}^{-1}$
 
 Cells are small because the surface-area-to-volume ratio decreases as cell size increases. A lower
 Ratio means insufficient surface area for nutrient uptake and waste removal relative to the
-Metabolic demands of the cell volume.
+metabolic demands of the cell volume.
 
 </details>
 
@@ -461,7 +493,7 @@ Metabolic demands of the cell volume.
 
 An animal cell with a water potential of $-700\;\mathrm{kPa}$ is placed in a solution with a water
 Potential of $-400\;\mathrm{kPa}$. Predict the net movement of water and describe the effect on the
-Cell.
+cell.
 
 </details>
 
@@ -470,8 +502,8 @@ Cell.
 
 Water moves from higher water potential ($-400\;\mathrm{kPa}$) to lower water potential
 ($-700\;\mathrm{kPa}$). The net movement of water is into the cell by osmosis. The cell will swell
-As water enters, and if the volume increase is sufficient, the cell may undergo lysis (burst), since
-Animal cells lack a rigid cell wall.
+as water enters, and if the volume increase is sufficient, the cell may undergo lysis (burst), since
+animal cells lack a rigid cell wall.
 
 </details>
 
@@ -479,7 +511,7 @@ Animal cells lack a rigid cell wall.
 <summary>Question 4: Meiosis and Genetic Variation</summary>
 
 A diploid organism has $2n = 8$ chromosomes. How many genetically distinct gametes can be produced
-From independent assortment alone? If a single pair of homologous chromosomes undergoes a single
+from independent assortment alone? If a single pair of homologous chromosomes undergoes a single
 Crossover, how many chromatids are affected?
 
 </details>
@@ -487,7 +519,7 @@ Crossover, how many chromatids are affected?
 <details>
 <summary>Answer</summary>
 
-With $2n = 8$The haploid number is $n = 4$. Independent assortment alone yields $2^n = 2^4 = 16$
+With $2n = 8$ The haploid number is $n = 4$. Independent assortment alone yields $2^n = 2^4 = 16$
 Possible chromosome combinations.
 
 A single crossover between non-sister chromatids of one homologous pair affects exactly **two**
@@ -500,7 +532,7 @@ A single crossover between non-sister chromatids of one homologous pair affects 
 
 An electron micrograph shows a double-membrane organelle with inner folds and a dense matrix
 Containing DNA. Identify the organelle and explain two features visible in the micrograph that
-Support its function.
+support its function.
 
 </details>
 
@@ -508,7 +540,7 @@ Support its function.
 <summary>Answer</summary>
 
 The organelle is a **mitochondrion**. The **inner folds (cristae)** increase the surface area for
-The electron transport chain and ATP synthase, maximising ATP production. The **presence of its own
+the electron transport chain and ATP synthase, maximising ATP production. The **presence of its own
 DNA** supports the endosymbiotic theory and allows the mitochondrion to produce some of its own
 Proteins independently of nuclear genes.
 
@@ -531,7 +563,7 @@ Proteins independently of nuclear genes.
 
 A cuboidal epithelial cell has a side length of $10\;\mathrm{\mu m}$. It doubles in each linear
 Dimension to become $20\;\mathrm{\mu m}$ per side. Calculate the surface-area-to-volume ratio before
-And after the enlargement, and determine the factor by which the ratio decreases.
+and after the enlargement, and determine the factor by which the ratio decreases.
 
 <details>
 <summary>Solution</summary>
@@ -555,7 +587,7 @@ volume.
 **Worked Example: Magnification Calculation from a Micrograph**
 
 An electron micrograph of a chloroplast shows a granum that measures $4.2\;\mathrm{cm}$ across the
-Image. The scale bar indicates that $1\;\mathrm{cm}$ on the image represents $0.5\;\mathrm{\mu m}$
+image. The scale bar indicates that $1\;\mathrm{cm}$ on the image represents $0.5\;\mathrm{\mu m}$
 in Reality. Calculate the actual width of the granum and the magnification of the micrograph.
 
 <details>
@@ -594,11 +626,11 @@ $5\;\mathrm{mmol/L}$ out):
 $\frac{[\mathrm{K}^+]_{\mathrm{in}}}{[\mathrm{K}^+]_{\mathrm{out}}} = \frac{150}{5} = 30$
 
 The pump is **electrogenic** because it moves $3$ positive charges out but only $2$ positive charges
-In per cycle, resulting in a net export of one positive charge per ATP hydrolysed. This net outward
+in per cycle, resulting in a net export of one positive charge per ATP hydrolysed. This net outward
 Current contributes directly to the negative resting membrane potential (approximately
 $-70\;\mathrm{mV}$), alongside the $\mathrm{K}^+$ diffusion potential established by leak channels.
 If the pump moved equal numbers of cations in each direction, it would not directly contribute to
-The membrane potential.
+the membrane potential.
 
 </details>
 
@@ -624,7 +656,7 @@ $\frac{1050\;\mathrm{cells}}{10^{-4}\;\mathrm{mL}} = 1.05 \times 10^7\;\mathrm{c
 
 This technique is essential in microbiology for determining cell density in culture, monitoring
 Growth curves, and standardising inocula for experiments. A dilution factor must be applied if the
-Suspension was diluted before loading.
+suspension was diluted before loading.
 
 </details>
 
@@ -679,8 +711,10 @@ Suspension was diluted before loading.
 
 A student places potato cylinders of identical dimensions ($5\;\mathrm{cm} \times 0.5\;\mathrm{cm}$
 Diameter) into a series of sucrose solutions ranging from $0.0$ to $0.6\;\mathrm{mol/L}$ at
-$0.1\;\mathrm{mol/L}$ intervals. After $24$ hours at $20^\circ\mathrm{C}$The student measures the
+$0.1\;\mathrm{mol/L}$ intervals. After $24$ hours at $20^\circ\mathrm{C}$ The student measures the
 Mass change of each cylinder. The results are:
+
+<div class="table-wrap">
 
 | Sucrose concentration (mol/L) | Mass change (%) |
 | ----------------------------- | --------------- |
@@ -692,6 +726,8 @@ Mass change of each cylinder. The results are:
 | 0.5                           | -14.3           |
 | 0.6                           | -21.0           |
 
+</div>
+
 (a) Plot these data and estimate the water potential of the potato tissue. (b) Explain the
 biological basis for the trend observed. (c) Predict the result if the experiment were repeated at
 $35^\circ\mathrm{C}$.
@@ -702,9 +738,9 @@ $35^\circ\mathrm{C}$.
 <summary>Problem 2: Extended Response -- Endosymbiotic Theory</summary>
 
 Mitochondria possess their own circular DNA, $70\mathrm{S}$ ribosomes, a double membrane, and the
-Ability to replicate independently by binary fission. Evaluate the extent to which these features
+ability to replicate independently by binary fission. Evaluate the extent to which these features
 Support the endosymbiotic theory. In your response, address at least two alternative explanations
-And discuss additional evidence (e.g., molecular phylogenetics) that strengthens the argument.
+and discuss additional evidence (e.g., molecular phylogenetics) that strengthens the argument.
 
 </details>
 
@@ -712,6 +748,8 @@ And discuss additional evidence (e.g., molecular phylogenetics) that strengthens
 <summary>Problem 3: Quantitative -- Chi-Squared Test on Cell Cycle Data</summary>
 
 A researcher observes $200$ cells under a microscope and records their mitotic phases:
+
+<div class="table-wrap">
 
 | Phase      | Observed | Expected |
 | ---------- | -------- | -------- |
@@ -721,10 +759,12 @@ A researcher observes $200$ cells under a microscope and records their mitotic p
 | Anaphase   | 6        | 8        |
 | Telophase  | 4        | 8        |
 
+</div>
+
 The expected values assume each mitotic phase occupies equal time. Use the chi-squared test
 ($\chi^2 = \sum \frac{(O - E)^2}{E}$) at the $p = 0.05$ significance level (critical value $= 9.49$
-For $4$ degrees of freedom) to determine whether the observed distribution differs significantly
-From the expected. State your null hypothesis.
+for $4$ degrees of freedom) to determine whether the observed distribution differs significantly
+from the expected. State your null hypothesis.
 
 </details>
 
@@ -733,8 +773,8 @@ From the expected. State your null hypothesis.
 
 An electron micrograph shows a cell approximately $2\;\mathrm{\mu m}$ in diameter with no internal
 Membrane-bound organelles. Visible structures include a dense nucleoid region, free ribosomes, a
-Capsule, and several pili. (a) Identify this cell as prokaryotic or eukaryotic and justify with
-Three structural observations. (b) The cell is found in an environment with high antibiotic
+capsule, and several pili. (a) Identify this cell as prokaryotic or eukaryotic and justify with
+three structural observations. (b) The cell is found in an environment with high antibiotic
 Concentration. Explain why penicillin would be ineffective against this organism if it is an
 Archaeon rather than a bacterium.
 
@@ -744,8 +784,8 @@ Archaeon rather than a bacterium.
 <summary>Problem 5: Extended Response -- Membrane Fluidity</summary>
 
 Cholesterol modulates cell membrane fluidity. Describe and explain the dual role of cholesterol in
-Membrane fluidity at both low and high temperatures. Discuss how this relates to the observation
-That cold-water fish species have a higher proportion of unsaturated fatty acids in their membrane
+membrane fluidity at both low and high temperatures. Discuss how this relates to the observation
+that cold-water fish species have a higher proportion of unsaturated fatty acids in their membrane
 Phospholipids compared with warm-water species.
 
 </details>
@@ -768,7 +808,7 @@ Surface area is approximately $70\;\mathrm{m}^2$ and the diffusion distance (alv
 Capillary wall) is approximately $1.5\;\mathrm{\mu m}$. The $\mathrm{O}_2$ partial pressure
 Difference is approximately $8\;\mathrm{kPa}$. (a) Calculate the relative rate of $\mathrm{O}_2$
 Diffusion under these conditions. (b) Explain how emphysema, which destroys alveolar walls and
-Reduces total surface area to $35\;\mathrm{m}^2$Would affect this rate.
+reduces total surface area to $35\;\mathrm{m}^2$ Would affect this rate.
 
 </details>
 
@@ -777,7 +817,7 @@ Reduces total surface area to $35\;\mathrm{m}^2$Would affect this rate.
 
 Choose three specialised cells from different organ systems (e.g., small intestine epithelium,
 Alveolar epithelium, proximal convoluted tubule). For each cell, describe one structural adaptation
-That increases surface area, and explain how this adaptation relates to the cell's physiological
+that increases surface area, and explain how this adaptation relates to the cell's physiological
 Function. Use the concept of surface-area-to-volume ratio in your explanation.
 
 </details>
@@ -822,12 +862,16 @@ Function. Use the concept of surface-area-to-volume ratio in your explanation.
 **Definition.** **Stem cells** are undifferentiated cells that have the capacity to self-renew
 (divide to produce more stem cells) and differentiate into specialised cell types.
 
+<div class="table-wrap">
+
 | Type            | Source                                                     | Potency                                                                                     | Examples of differentiation                                                                              |
 | --------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | **Totipotent**  | Zygote, early morula (up to 8-cell)                        | Can form any cell type, including extraembryonic tissues (placenta, yolk sac).              | All cell types + embryonic membranes.                                                                    |
 | **Pluripotent** | Inner cell mass of blastocyst; embryonic stem cells (ESCs) | Can form any cell type of the body (all three germ layers), but NOT extraembryonic tissues. | Neurones, muscle, blood, liver, pancreatic cells, etc.                                                   |
 | **Multipotent** | Adult tissues (bone marrow, skin, gut)                     | Can form multiple but limited cell types within a given lineage.                            | Haematopoietic stem cells $\to$ all blood cell types; mesenchymal stem cells $\to$ bone, cartilage, fat. |
 | **Unipotent**   | Specific adult tissues                                     | Can form only one specialised cell type.                                                    | Spermatogonia $\to$ sperm; satellite cells $\to$ skeletal muscle.                                        |
+
+</div>
 
 ### Therapeutic Potential of Stem Cells
 
@@ -841,7 +885,7 @@ Function. Use the concept of surface-area-to-volume ratio in your explanation.
 ### Induced Pluripotent Stem Cells (iPSCs)
 
 IPSCs are adult somatic cells that have been reprogrammed to a pluripotent state by the introduction
-Of **transcription factors** (originally Oct4, Sox2, Klf4, c-Myc --- Yamanaka factors, 2006).
+of **transcription factors** (originally Oct4, Sox2, Klf4, c-Myc --- Yamanaka factors, 2006).
 
 **Advantages over embryonic stem cells**: no ethical concerns about embryo destruction;
 patient-specific (matching the donor's genetics, reducing rejection risk).
@@ -854,11 +898,15 @@ patient-specific (matching the donor's genetics, reducing rejection risk).
 The cell cycle is regulated at **checkpoints** by **cyclins** and **cyclin-dependent kinases
 (CDKs)**:
 
+<div class="table-wrap">
+
 | Checkpoint                                     | Location  | Cyclin-CDK complex             | Function                                                                                                                                                                                                                                                                                                                     |
 | ---------------------------------------------- | --------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **G1/S checkpoint**                            | Late G1   | Cyclin D-CDK4/6; Cyclin E-CDK2 | Checks cell size, nutrient availability, DNA damage. If conditions are unfavourable, the cell enters G0 (quiescence). The retinoblastoma protein (Rb) is a key regulator: when hypophosphorylated, Rb binds E2F (transcription factor) and blocks S-phase gene expression; cyclin D-CDK4/6 phosphorylates Rb, releasing E2F. |
 | **G2/M checkpoint**                            | Late G2   | Cyclin B-CDK1 (CDC2)           | Checks that DNA replication is complete and no DNA damage remains. Activated by phosphorylation by CDK-activating kinase (CAK).                                                                                                                                                                                              |
 | **Spindle assembly checkpoint (M checkpoint)** | Metaphase | Mad2, BubR1 proteins           | Ensures all chromosomes are correctly attached to spindle fibres via kinetochores before anaphase begins. Unattached kinetochores generate a "wait" signal that inhibits the anaphase-promoting complex/cyclosome (APC/C).                                                                                                   |
+
+</div>
 
 ### Apoptosis (Programmed Cell Death)
 
@@ -889,12 +937,16 @@ Is associated with some cancers (cells fail to undergo apoptosis).
 ### Cancer and the Cell Cycle
 
 Cancer is a disease of uncontrolled cell division resulting from mutations in genes that regulate
-The cell cycle.
+the cell cycle.
+
+<div class="table-wrap">
 
 | Gene type                   | Normal function                                              | Mutated in cancer (oncogene / tumour suppressor)                                                                       |
 | --------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | **Proto-oncogenes**         | Promote cell division                                        | **Oncogenes**: gain-of-function mutations; hyperactive or overexpressed (e.g., ras, HER2/neu, myc).                    |
 | **Tumour suppressor genes** | Inhibit cell division; promote DNA repair; promote apoptosis | Loss-of-function mutations (e.g., p53, Rb, BRCA1, BRCA2). Both alleles must be mutated (Knudson's two-hit hypothesis). |
+
+</div>
 
 **p53 ("guardian of the genome"):**
 
@@ -944,12 +996,16 @@ peptidoglycan layer ($2$--$7\;\mathrm{nm}$) with an outer membrane Containing **
 
 When bacteria are inoculated into fresh medium:
 
+<div class="table-wrap">
+
 | Phase                       | Description                                                                                                |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | **Lag phase**               | No immediate increase in cell number; cells are adapting, synthesising enzymes, and taking up nutrients.   |
 | **Exponential (log) phase** | Cells divide at maximum rate (binary fission); population doubles at a constant rate. $N = N_0 \times 2^n$ |
 | **Stationary phase**        | Growth rate = death rate; nutrients are depleted, waste products accumulate, and space is limited.         |
 | **Decline (death) phase**   | Death rate exceeds growth rate; cells die from nutrient starvation and toxin accumulation.                 |
+
+</div>
 
 **Growth rate**: $\mu = \frac{\ln(N_t / N_0)}{t}$ (specific growth rate, $\mathrm{h}^{-1}$).
 
@@ -1041,6 +1097,8 @@ The process of breaking open cells and separating organelles by differential cen
 
 ### Microscopy Techniques
 
+<div class="table-wrap">
+
 | Technique                     | Resolution                     | Sample preparation                                     | Information obtained                                  |
 | ----------------------------- | ------------------------------ | ------------------------------------------------------ | ----------------------------------------------------- |
 | **Light microscopy**          | $\approx 200\;\mathrm{nm}$     | Staining; live specimens possible                      | Overall cell structure; limited detail of organelles. |
@@ -1050,17 +1108,23 @@ The process of breaking open cells and separating organelles by differential cen
 | **Confocal microscopy**       | $\approx 200\;\mathrm{nm}$     | Same as fluorescence                                   | Optical sections; 3D reconstruction; reduced blur.    |
 | **Cryo-electron microscopy**  | $\approx 3\;\mathrm{nm}$       | Flash-frozen, no staining                              | Near-native state structure of large complexes.       |
 
+</div>
+
 **Magnification calculation:**
 
-$$\mathrm{Magnification} = \frac{\text{image size}}{\text{actual size}}$$
+$$
+\mathrm{Magnification} = \frac{\text{image size}}{\text{actual size}}
+$$
 
 **Resolution**: the minimum distance between two points that can be distinguished as separate. The
 Resolving power of a microscope is limited by the wavelength of the illuminating radiation:
 
-$$d = \frac{0.61\lambda}{n \sin\theta}$$
+$$
+d = \frac{0.61\lambda}{n \sin\theta}
+$$
 
 Where $\lambda$ is the wavelength, $n$ is the refractive index of the medium, and $\theta$ is the
-Half-angle of the cone of light entering the objective.
+half-angle of the cone of light entering the objective.
 
 ---
 
@@ -1079,7 +1143,7 @@ Half-angle of the cone of light entering the objective.
 <summary>Problem 9: Extended Response -- Stem Cells and Ethics</summary>
 
 Compare and contrast embryonic stem cells (ESCs) and induced pluripotent stem cells (iPSCs) with
-Regard to: (a) their origin and method of production, (b) their potency, (c) their therapeutic
+regard to: (a) their origin and method of production, (b) their potency, (c) their therapeutic
 Potential, and (d) the ethical issues associated with each. Discuss the significance of the Yamanaka
 Factors in the development of iPSC technology.
 
@@ -1092,8 +1156,8 @@ A researcher counts the number of cells in each stage of mitosis in a sample of 
 cells. The results are: interphase = 800, prophase = 60, metaphase = 30, anaphase = 10, telophase
 = 10. Total cells counted = 910. (a) Calculate the mitotic index (percentage of cells undergoing
 mitosis). (b) Estimate the duration of mitosis if the cell cycle takes 20 hours. (c) Explain why the
-Majority of cells are in interphase. (d) If colchicine (which disrupts spindle fibre formation) is
-Applied to the root tip, predict the effect on the mitotic index and explain why.
+majority of cells are in interphase. (d) If colchicine (which disrupts spindle fibre formation) is
+applied to the root tip, predict the effect on the mitotic index and explain why.
 
 </details>
 
@@ -1101,7 +1165,7 @@ Applied to the root tip, predict the effect on the mitotic index and explain why
 <summary>Problem 11: Extended Response -- Cancer Biology</summary>
 
 BRCA1 is a tumour suppressor gene involved in DNA repair. Inherited mutations in BRCA1 increase the
-Risk of breast and ovarian cancer. (a) Explain the normal function of BRCA1 in the cell cycle. (b)
+risk of breast and ovarian cancer. (a) Explain the normal function of BRCA1 in the cell cycle. (b)
 Using Knudson's two-hit hypothesis, explain why individuals with one inherited BRCA1 mutation have A
 higher cancer risk than the general population. (c) Explain why a double mastectomy reduces cancer
 Risk in BRCA1 carriers. (d) Discuss the ethical considerations of genetic testing for BRCA1
@@ -1113,8 +1177,8 @@ mutations.
 <summary>Problem 12: Quantitative -- Surface Area and Diffusion</summary>
 
 A spherical human egg cell has a diameter of $120\;\mathrm{\mu m}$. (a) Calculate its surface area
-And volume. (b) After fertilisation, the zygote undergoes 6 rounds of cleavage (mitosis without
-Growth) to form a morula of $64$ cells. Assuming the morula is roughly spherical with the same Total
+and volume. (b) After fertilisation, the zygote undergoes 6 rounds of cleavage (mitosis without
+growth) to form a morula of $64$ cells. Assuming the morula is roughly spherical with the same Total
 volume as the original zygote, calculate the surface-area-to-volume ratio of each cell in The morula
 (assuming equal cell sizes). (c) Explain the biological significance of the change in SA:V ratio
 during early embryonic development.
@@ -1174,7 +1238,7 @@ lysosomes for waste processing), and membrane Transport proteins for selective u
 
 A plant cell with a water potential of $-400\;\mathrm{kPa}$ is placed in a solution with water
 potential Of $-200\;\mathrm{kPa}$. The pressure potential of the cell is $+100\;\mathrm{kPa}$. (a)
-Calculate the Solute potential of the cell. (b) Predict the direction of water movement. (c)
+calculate the Solute potential of the cell. (b) Predict the direction of water movement. (c)
 Describe what happens to The cell over time (include changes in turgor pressure, volume, and water
 potential). (d) Repeat the Analysis if the external solution has a water potential of
 $-800\;\mathrm{kPa}$.
@@ -1205,7 +1269,7 @@ $-400\;\mathrm{kPa}$).
 - Eventually, the cell membrane pulls away from the cell wall (**plasmolysis**).
 - $\Psi_p$ reaches $0$ (no pressure against the wall). The cell's water potential
   $= \Psi_s = -500\;\mathrm{kPa}$.
-- Since $-500 > -800$Water continues to leave until the solute potential becomes more negative
+- Since $-500 > -800$ Water continues to leave until the solute potential becomes more negative
   (concentration increases). Equilibrium when $\Psi_{cell} = -800\;\mathrm{kPa}$:
   $\Psi_s + 0 = -800\;\mathrm{kPa}$ So $\Psi_s = -800\;\mathrm{kPa}$. The cell has lost significant
   water and is plasmolysed.
@@ -1464,9 +1528,9 @@ plated. Concentration $= \frac{72}{0.1\;\mathrm{mL}} \times 10^6 = 7.2 \times 10
 (c) Percentage viable $= \frac{7.2 \times 10^8}{9.6 \times 10^8} \times 100 = 75\%$.
 
 (d) The OD600 counts all cells (both viable and dead) because it measures light scattering by all
-Particles in suspension. The plate count only measures viable (living) cells that can form colonies.
+particles in suspension. The plate count only measures viable (living) cells that can form colonies.
 The $25\%$ difference represents dead or non-viable cells in the culture, which may have been killed
-By nutrient depletion, toxin accumulation, or being in a dormant (non-culturable) state.
+by nutrient depletion, toxin accumulation, or being in a dormant (non-culturable) state.
 
 </details>
 
@@ -1493,7 +1557,7 @@ from The inner cell mass of the blastocyst.
 
 **Multipotent**: can differentiate into a limited range of cell types within a particular lineage.
 Example: haematopoietic stem cells (bone marrow) can produce all blood cell types but not nerve or
-Muscle cells; mesenchymal stem cells can produce bone, cartilage, and fat cells.
+muscle cells; mesenchymal stem cells can produce bone, cartilage, and fat cells.
 
 (b) Cell differentiation is the process by which unspecialised stem cells become specialised cell
 types With specific structures and functions. The fundamental mechanism is **differential gene
@@ -1578,11 +1642,15 @@ activation Of new transcription factors and the silencing of genes for alternati
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic          | Site    | Link                                                                                            |
 | -------------- | ------- | ----------------------------------------------------------------------------------------------- |
 | [Cell Biology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/cells)                           |
-| [Cell Biology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/1-cell-biology/1_cell-biology)                    |
-| [Cell Biology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/1-cell-biology/1_cell-biology-and-biochemistry) |
+| [Cell Biology] | IB      | [View](https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology/)                    |
+| [Cell Biology] | DSE     | [View](https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry/) |
+
+</div>
 
 ## Supplementary: Membrane Structure and Transport in Detail (HL Extension)
 
@@ -1624,13 +1692,17 @@ prenylation, Myristoylation). Examples: alkaline phosphatase (GPI-anchored), Ras
 
 ### Types of Membrane Transport
 
+<div class="table-wrap">
+
 | Type                       | Direction         | Energy         | Carrier                    | Example                                                                               |
 | -------------------------- | ----------------- | -------------- | -------------------------- | ------------------------------------------------------------------------------------- |
-| Simple diffusion           | High to low conc. | None (passive) | None                       | $\mathrm{O}_2$, $\mathrm{CO}_2$Ethanol, steroid hormones                                |
+| Simple diffusion           | High to low conc. | None (passive) | None                       | $\mathrm{O}_2$, $\mathrm{CO}_2$ Ethanol, steroid hormones                                |
 | Facilitated diffusion      | High to low conc. | None (passive) | Channel or carrier protein | Glucose (via GLUT transporters), $\mathrm{Na}^+$ (via leak channels)                  |
 | Primary active transport   | Low to high conc. | ATP            | Pump protein               | $\mathrm{Na}^+/K^+$ pump, $\mathrm{Ca}^{2+}$ pump, $\mathrm{H}^+/K^+$ pump            |
 | Secondary active transport | Low to high conc. | Ion gradient   | Symporter or antiporter    | $\mathrm{Na}^+$/glucose symporter (SGLT1), $\mathrm{Na}^+/\mathrm{Ca}^{2+}$ exchanger |
 | Bulk transport             | Variable          | ATP            | Vesicles                   | Endocytosis, exocytosis, phagocytosis                                                 |
+
+</div>
 
 ### Channel Proteins
 
@@ -1675,7 +1747,9 @@ Produced by a resting neuron and $10$--$20\%$ of total body ATP at rest.
 
 Using the Goldman equation (constant field approximation) for a neuron:
 
-$$V_m = \frac{RT}{F}\ln\frac{P_{\mathrm{Na}}[\mathrm{Na}^+]_{out} + P_{\mathrm{K}}[\mathrm{K}^+]_{out} + P_{\mathrm{Cl}}[\mathrm{Cl}^-]_{in}}{P_{\mathrm{Na}}[\mathrm{Na}^+]_{in} + P_{\mathrm{K}}[\mathrm{K}^+]_{in} + P_{\mathrm{Cl}}[\mathrm{Cl}^-]_{out}}$$
+$$
+V_m = \frac{RT}{F}\ln\frac{P_{\mathrm{Na}}[\mathrm{Na}^+]_{out} + P_{\mathrm{K}}[\mathrm{K}^+]_{out} + P_{\mathrm{Cl}}[\mathrm{Cl}^-]_{in}}{P_{\mathrm{Na}}[\mathrm{Na}^+]_{in} + P_{\mathrm{K}}[\mathrm{K}^+]_{in} + P_{\mathrm{Cl}}[\mathrm{Cl}^-]_{out}}
+$$
 
 At $37^\circ\mathrm{C}$ ($RT/F = 26.7\;\mathrm{mV}$), with:
 
@@ -1700,17 +1774,6 @@ reflects The contribution of the electrogenic $\mathrm{Na}^+/K^+$ pump (approxim
 $-5\;\mathrm{mV}$), Which is not included in the Goldman equation.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[1_Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

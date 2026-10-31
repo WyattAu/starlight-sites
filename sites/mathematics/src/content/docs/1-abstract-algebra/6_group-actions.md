@@ -19,7 +19,7 @@ description: "A of on a set is a map Written Satisfying: Comprehensive education
 
 ### 6.1 Definition
 
-A **group action** of $G$ on a set $X$ is a map $G \times X \to X$Written $(g, x) \mapsto g \cdot x$
+A **group action** of $G$ on a set $X$ is a map $G \times X \to X$ Written $(g, x) \mapsto g \cdot x$
 Satisfying:
 
 1. $e \cdot x = x$ for all $x \in X$.
@@ -35,7 +35,9 @@ The **stabilizer** of $x \in X$ is $\mathrm{Stab}(x) = \{g \in G : g \cdot x = x
 
 **Theorem 6.2 (Orbit-Stabilizer Theorem).** For any $x \in X$
 
-$$|\mathrm{Orb}(x)| = [G : \mathrm{Stab}(x)] = \frac{|G|}{|\mathrm{Stab}(x)|}$$
+$$
+|\mathrm{Orb}(x)| = [G : \mathrm{Stab}(x)] = \frac{|G|}{|\mathrm{Stab}(x)|}
+$$
 
 _Proof._ Define $\phi : G \to \mathrm{Orb}(x)$ by $\phi(g) = g \cdot x$. Then $g$ and $h$ have the
 same Image iff $g \cdot x = h \cdot x$ iff $h^{-1}g \cdot x = x$ iff $h^{-1}g \in \mathrm{Stab}(x)$
@@ -43,12 +45,14 @@ Iff $g \in h\,\mathrm{Stab}(x)$. So the fibers of $\phi$ are precisely the coset
 $\mathrm{Stab}(x)$ And there are $[G : \mathrm{Stab}(x)]$ of them, each mapping to a distinct
 element of $\mathrm{Orb}(x)$. $\blacksquare$
 
-### 6.3 Burnside"s Lemma
+### 6.3 Burnside's Lemma
 
 **Theorem 6.3 (Burnside's Lemma).** If a finite group $G$ acts on a finite set $X$ Then the number Of
 orbits is
 
-$$\frac{1}{|G|} \sum_{g \in G} |\mathrm{Fix}(g)|$$
+$$
+\frac{1}{|G|} \sum_{g \in G} |\mathrm{Fix}(g)|
+$$
 
 Where $\mathrm{Fix}(g) = \{x \in X : g \cdot x = x\}$.
 
@@ -67,7 +71,9 @@ $C_G(x) = \{g \in G : gx = xg\}$.
 
 **Theorem 6.4 (Class Equation).** For a finite group $G$
 
-$$|G| = |Z(G)| + \sum_{i} [G : C_G(x_i)]$$
+$$
+|G| = |Z(G)| + \sum_{i} [G : C_G(x_i)]
+$$
 
 Where the sum is over representatives $x_i$ of the non-central conjugacy classes.
 
@@ -97,7 +103,7 @@ $180°$ rotation about the axis through the midpoints of that edge and its oppos
 
 **Faces.** The cube has $6$ faces. The action is transitive, so $|\mathrm{Orb}(f)| = 6$ and
 $|\mathrm{Stab}(f)| = 24/6 = 4$. The stabilizer of a face consists of rotations about the axis
-Through the center of that face and its opposite:
+through the center of that face and its opposite:
 $\{0°, 90°, 180°, 270°\} \cong \mathbb{Z}/4\mathbb{Z}$.
 
 This verifies: $24 = 8 \cdot 3 = 12 \cdot 2 = 6 \cdot 4$. $\blacksquare$
@@ -111,16 +117,20 @@ $n \geq 1$), then $Z(G)$ is non-trivial: $|Z(G)| \geq p$.
 
 _Proof._ By the class equation:
 
-$$|G| = |Z(G)| + \sum_{i=1}^{r} [G : C_G(x_i)]$$
+$$
+|G| = |Z(G)| + \sum_{i=1}^{r} [G : C_G(x_i)]
+$$
 
 Where $x_1, \ldots, x_r$ are representatives of the non-central conjugacy classes. For each $i$
 $x_i$ is non-central, so $C_G(x_i) \neq G$. Thus $[G : C_G(x_i)]$ is a divisor of $|G| = p^n$ That
-is strictly greater than $1$Hence $p$ divides $[G : C_G(x_i)]$. Since $p$ also divides $|G|$ We
+is strictly greater than $1$ Hence $p$ divides $[G : C_G(x_i)]$. Since $p$ also divides $|G|$ We
 have:
 
-$$|Z(G)| = |G| - \sum_{i=1}^{r} [G : C_G(x_i)] \equiv 0 - 0 \equiv 0 \pmod{p}$$
+$$
+|Z(G)| = |G| - \sum_{i=1}^{r} [G : C_G(x_i)] \equiv 0 - 0 \equiv 0 \pmod{p}
+$$
 
-Since $e \in Z(G)$We have $|Z(G)| \geq 1$. Therefore $|Z(G)| \geq p$. $\blacksquare$
+Since $e \in Z(G)$ We have $|Z(G)| \geq 1$. Therefore $|Z(G)| \geq p$. $\blacksquare$
 
 **Corollary 6.6.** Every group of order $p^2$ (where $p$ is prime) is abelian.
 
@@ -130,17 +140,6 @@ order $p$ and is therefore cyclic, say $G/Z(G) = \langle gZ(G) \rangle$. Then ev
 has the form $g^k z$ for some $k \in \mathbb{Z}$ and $z \in Z(G)$. For any two such elements
 $(g^{k_1}z_1)(g^{k_2}z_2) = g^{k_1+k_2}z_1z_2 = g^{k_2+k_1}z_2z_1 = (g^{k_2}z_2)(g^{k_1}z_1)$ So $G$
 is abelian, contradicting $|Z(G)| = p$. Thus $|Z(G)| = p^2$ and $G$ is abelian. $\blacksquare$
-
-
-```mermaid
-flowchart TD
-    A[6_Group Actions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -162,44 +161,3 @@ Group actions describe how symmetry groups interact with sets. A group acts on a
 - [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/) -- Group actions on conjugacy classes and Sylow subgroups drive the classification of small-order groups.
 - [Worked Examples](/1-abstract-algebra/15_worked-examples/) -- Several worked examples apply orbit-stabilizer and Burnside's lemma to concrete counting problems.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

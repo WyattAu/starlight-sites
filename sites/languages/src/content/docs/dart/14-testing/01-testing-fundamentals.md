@@ -22,7 +22,7 @@ categories:
 ## Why Test
 
 Testing is not a phase that comes after development. It is a structural property of the codebase
-That determines whether you can safely change it. The absence of tests does not mean you are moving
+that determines whether you can safely change it. The absence of tests does not mean you are moving
 Faster, it means every change is a gamble with unknown odds.
 
 ### Regression Prevention
@@ -43,7 +43,7 @@ Needs updating. This is more reliable than comments, which have no mechanism to 
 Code that is difficult to test is almost always poorly structured. Tight coupling, hidden
 Dependencies, side effects in constructors, and god classes all surface as untestable code. Writing
 Tests first (test-driven development) or writing tests immediately after forces you to confront
-These design problems while they are still cheap to fix.
+these design problems while they are still cheap to fix.
 
 ### Confidence in Refactoring
 
@@ -54,6 +54,8 @@ Something.
 
 ### Types of Testing
 
+<div class="table-wrap">
+
 | Type        | Scope                    | Speed      | What It Validates                               |
 | ----------- | ------------------------ | ---------- | ----------------------------------------------- |
 | Unit        | Single function or class | Millis     | Isolated logic correctness                      |
@@ -61,9 +63,11 @@ Something.
 | Integration | Multiple units together  | 100-1000ms | Unit interactions, data flow across boundaries  |
 | End-to-End  | Full application flow    | Seconds    | User-visible behavior from launch to completion |
 
+</div>
+
 Unit tests are the foundation. They are fast, deterministic, and cheap to maintain. Widget tests add
 Coverage for the UI layer. Integration tests validate that units compose correctly. End-to-end tests
-Are the most expensive and should be used sparingly, they catch issues that lower-level tests miss,
+are the most expensive and should be used sparingly, they catch issues that lower-level tests miss,
 But they are slow, flaky, and hard to debug.
 
 The testing pyramid is not a suggestion, it is a cost optimization. A project with 1000 unit tests,
@@ -183,7 +187,7 @@ group('Database Integration', () {
 
 `setUpAll` is for resources that are expensive to create (database connections, HTTP servers, test
 Fixtures). `setUp` is for resetting state between tests. Never share mutable state across tests
-Without resetting it, tests must be independent and order-invariant.
+without resetting it, tests must be independent and order-invariant.
 
 ### expect and the Matcher System
 
@@ -247,7 +251,7 @@ expect(value, isA<User>().having((u) => u.name, 'name', 'Alice'));
 ```
 
 `isA<T>()` checks `value is T` at runtime. The `.having()` combinator lets you assert properties of
-The matched object, the second argument is a description used in failure messages.
+the matched object, the second argument is a description used in failure messages.
 
 ### Numeric Comparisons
 
@@ -530,11 +534,11 @@ test('calculates total with tax', () {
 ```
 
 Keep the phases visually distinct with blank lines. This makes tests scannable and makes it obvious
-When a test is doing too much in one phase.
+when a test is doing too much in one phase.
 
 ### Test Organization
 
-Mirror the source structure. If `lib/src/orders/order_service.dart` contains `OrderService`The Test
+Mirror the source structure. If `lib/src/orders/order_service.dart` contains `OrderService`. The Test
 lives at `test/src/orders/order_service_test.dart`. This is not just convention, it makes
 Navigation trivial when the directory tree is the same in both `lib/` and `test/`.
 
@@ -671,7 +675,7 @@ test("logs analytics event on login', () async {
 ### reset
 
 `reset(mock)` clears all stubbings and call history on a mock. Use it when you want to reuse a mock
-Across tests without recreating it:
+across tests without recreating it:
 
 ```dart
 tearDown(() {
@@ -746,6 +750,8 @@ void main() {
 
 ### mockito vs mocktail
 
+<div class="table-wrap">
+
 | Factor        | mockito                               | mocktail                         |
 | ------------- | ------------------------------------- | -------------------------------- |
 | Code gen      | Required (`build_runner`)             | None                             |
@@ -755,6 +761,8 @@ void main() {
 | Ecosystem     | Larger, more mature                   | Lighter, simpler                 |
 | Type safety   | Strong (generated stubs)              | Weaker (manual `implements`)     |
 
+</div>
+
 Use `mocktail` for small projects or when you want zero build-time overhead. Use `mockito` for
 Larger projects where generated mocks provide stronger type guarantees and better IDE support.
 
@@ -762,7 +770,7 @@ Larger projects where generated mocks provide stronger type guarantees and bette
 
 ### Testing Future-Returning Functions
 
-A test body can be `async`. The test runner `await`S the returned Future:
+A test body can be `async`. The test runner `await`s the returned Future:
 
 ```dart
 test('fetches data from API', () async {
@@ -1034,7 +1042,7 @@ flutter test --coverage
 ```
 
 This produces `coverage/lcov.info`a machine-readable file listing every line in your source code
-And whether it was executed during the test run.
+and whether it was executed during the test run.
 
 ### Viewing Coverage with genhtml
 
@@ -1103,7 +1111,7 @@ test('divide does not crash', () {
 ```
 
 Branch coverage is more informative than line coverage, it measures whether each conditional branch
-Was taken. Some tools support this, but the Dart ecosystem's support is limited. Focus on line
+was taken. Some tools support this, but the Dart ecosystem's support is limited. Focus on line
 Coverage as a floor and supplement with manual review of assertion quality.
 
 ### Excluding Files from Coverage
@@ -1175,8 +1183,8 @@ flutter test -j 1
 ```
 
 Tests must be independent, they must not share mutable state, depend on execution order, or compete
-For external resources (ports, files). If tests fail under parallelism but pass sequentially, you
-Have a test isolation bug.
+for external resources (ports, files). If tests fail under parallelism but pass sequentially, you
+have a test isolation bug.
 
 ### Reporters
 
@@ -1407,19 +1415,8 @@ Everyone ignores, at which point the golden test has zero value. Run
 ### 10. Coverage as a Vanity Metric
 
 100% coverage is not the goal. A test suite with 80% coverage and strong assertions is more valuable
-Than one with 100% coverage and weak assertions. Coverage measures execution, not correctness. Use
-It as a floor, not a ceiling, and supplement it with code review of assertion quality.
-
-
-```mermaid
-flowchart TD
-    A[01 Testing Fundamentals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+than one with 100% coverage and weak assertions. Coverage measures execution, not correctness. Use
+it as a floor, not a ceiling, and supplement it with code review of assertion quality.
 
 ## Summary
 
@@ -1434,13 +1431,7 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

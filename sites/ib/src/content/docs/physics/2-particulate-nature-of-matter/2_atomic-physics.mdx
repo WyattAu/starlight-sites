@@ -16,7 +16,7 @@ import PhetSimulation from "@components/PhetSimulation";
 ### Thomson's Plum Pudding Model (1897)
 
 After discovering the electron, Thomson proposed that atoms consist of a uniform positive charge
-With electrons embedded within it, like plums in a pudding.
+with electrons embedded within it, like plums in a pudding.
 
 ### Rutherford Scattering (1911)
 
@@ -38,7 +38,7 @@ Bohr proposed a model for the hydrogen atom:
 1. Electrons orbit the nucleus in certain **allowed orbits** (stationary states).
 2. Electrons do not radiate energy while in a stationary state.
 3. An electron can jump between orbits by absorbing or emitting a photon.
-4. The angular momentum is quantised: $mvr = n\dfrac{h}{2\pi}$Where $n = 1, 2, 3, \ldots$
+4. The angular momentum is quantised: $mvr = n\dfrac{h}{2\pi}$ Where $n = 1, 2, 3, \ldots$
 
 ### Energy Levels
 
@@ -48,6 +48,8 @@ $$
 E_n = -\frac\{13.6\mathrm\{ eV\}\}\{n^2\}
 $$
 
+<div class="table-wrap">
+
 | Level          | $n$      | Energy (eV) |
 | -------------- | -------- | ----------- |
 | Ground state   | 1        | $-13.6$     |
@@ -55,6 +57,8 @@ $$
 | Second excited | 3        | $-1.51$     |
 | Third excited  | 4        | $-0.85$     |
 | Ionisation     | $\infty$ | $0$         |
+
+</div>
 
 ### Photon Emission and Absorption
 
@@ -92,11 +96,15 @@ This is the red line in the Balmer series (visible spectrum of hydrogen).
 
 ### Spectral Series of Hydrogen
 
+<div class="table-wrap">
+
 | Series  | Transitions to | Region      |
 | ------- | -------------- | ----------- |
 | Lyman   | $n = 1$        | Ultraviolet |
 | Balmer  | $n = 2$        | Visible     |
 | Paschen | $n = 3$        | Infrared    |
+
+</div>
 
 ---
 
@@ -106,7 +114,7 @@ This is the red line in the Balmer series (visible spectrum of hydrogen).
 
 The nucleus contains:
 
-- **Protons**: positive charge $+e$Mass $\approx 1.673 \times 10^{-27}\mathrm{ kg}$
+- **Protons**: positive charge $+e$ Mass $\approx 1.673 \times 10^{-27}\mathrm{ kg}$
 - **Neutrons**: no charge, mass $\approx 1.675 \times 10^{-27}\mathrm{ kg}$
 
 The **atomic number** $Z$ = number of protons (determines the element).
@@ -127,11 +135,15 @@ For example: $^{235}_{92}\mathrm U$ has 92 protons and 143 neutrons.
 
 Isotopes of an element have the same number of protons but different numbers of neutrons.
 
+<div class="table-wrap">
+
 | Isotope                        | Protons | Neutrons |
 | ------------------------------ | ------- | -------- |
 | $^{1}_1\mathrm H$ (protium)   | 1       | 0        |
 | $^{2}_1\mathrm H$ (deuterium) | 1       | 1        |
 | $^{3}_1\mathrm H$ (tritium)   | 1       | 2        |
+
+</div>
 
 ### Nuclear Forces
 
@@ -152,7 +164,7 @@ Where $R_0 \approx 1.2\mathrm{ fm}$.
 
 ### Nuclear Density
 
-Since $R \propto A^{1/3}$The volume $V \propto A$. All nuclei have approximately the same density:
+Since $R \propto A^{1/3}$ The volume $V \propto A$. All nuclei have approximately the same density:
 
 $$
 \rho \approx 2.3 \times 10^\{17\}\mathrm\{ kg/m\}^3
@@ -164,6 +176,8 @@ $$
 
 ### Types of Radiation
 
+<div class="table-wrap">
+
 | Property       | Alpha ($\alpha$)          | Beta ($\beta^-$)      | Gamma ($\gamma$) |
 | -------------- | ------------------------- | --------------------- | ---------------- |
 | Particle       | $^4_2\mathrm{He}$ nucleus | Electron ($e^-$)      | Photon           |
@@ -172,6 +186,8 @@ $$
 | Speed          | $\approx 0.05c$           | Up to $\approx 0.99c$ | $c$              |
 | Penetration    | Paper                     | Aluminium (few mm)    | Lead (few cm)    |
 | Ionising power | High                      | Medium                | Low              |
+
+</div>
 
 ### Alpha Decay
 
@@ -262,7 +278,7 @@ SI unit: becquerel ($\mathrm{Bq}$), where $1\mathrm{ Bq} = 1\mathrm{ decay/s}$.
 
 <Aside type="note" title="Example">
 A sample has a half-life of $5$ days and an initial activity of $800\mathrm{ Bq}$. Find the activity
-After $15$ days.
+after $15$ days.
 
 $$
 A = A_0 e^\{-\lambda t\}
@@ -334,6 +350,8 @@ The binding energy per nucleon curve shows:
 - Heavy nuclei (beyond Fe-56): fission increases binding energy per nucleon (releases energy).
 - Iron-56 has the highest binding energy per nucleon (most stable nucleus).
 
+<div class="table-wrap">
+
 | Nucleus                 | Binding Energy per Nucleon (MeV) |
 | ----------------------- | -------------------------------- |
 | $^2_1\mathrm H$        | 1.11                             |
@@ -341,10 +359,12 @@ The binding energy per nucleon curve shows:
 | $^{56}_{26}\mathrm{Fe}$ | 8.79                             |
 | $^{235}_{92}\mathrm U$ | 7.59                             |
 
+</div>
+
 ### Mass Defect and Binding Energy
 
 The mass defect $\Delta m$ is the difference between the mass of a nucleus and the sum of the masses
-Of its individual nucleons:
+of its individual nucleons:
 
 $$
 \Delta m = Zm_p + Nm_n - m_\{\mathrm\{nucleus\}\}
@@ -403,7 +423,7 @@ $$
 <PhetSimulation client:only="solid-js" simulationId="photoelectric" title="Photoelectric Effect"  />
 
 Shine light of different wavelengths and intensities onto a metal surface and observe the emission
-Of photoelectrons. Investigate how frequency, intensity, and the work function affect the maximum
+of photoelectrons. Investigate how frequency, intensity, and the work function affect the maximum
 Kinetic energy.
 
 ### Phenomenon
@@ -450,10 +470,10 @@ $$
 
 <Aside type="note" title="Example">
 The work function of sodium is $2.28\mathrm{ eV}$. Find the maximum kinetic energy of photoelectrons
-When light of wavelength $400\mathrm{ nm}$ is incident.
+when light of wavelength $400\mathrm{ nm}$ is incident.
 
 $$
-E_\{\mathrm\{photon\}\} = \frac`\{hc}`\{\lambda\} = \frac\{1240\mathrm\{ eV\}\cdot\mathrm\{nm\}\}\{400\mathrm\{ nm\}\} = 3.10\mathrm\{ eV\}
+E_{\mathrm\{photon\}\} = \frac\{hc}\{\lambda\} = \frac\{1240\mathrm{ eV}\cdot\mathrm{nm}\}\{400\mathrm\{ nm\}\} = 3.10\mathrm\{ eV\}
 $$
 
 $$
@@ -597,17 +617,9 @@ $$
 
 ---
 
-```mermaid
-flowchart TD
-    A[2_Atomic Physicsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
+
+<div class="table-wrap">
 
 | Concept               | Formula                                |
 | --------------------- | -------------------------------------- |
@@ -621,6 +633,8 @@ flowchart TD
 | Photoelectric effect  | $E_{k,\max} = hf - \phi$               |
 | de Broglie wavelength | $\lambda = \dfrac{h}{mv}$              |
 | Nuclear radius        | $R = R_0 A^{1/3}$                      |
+
+</div>
 </Aside>
 
 <Aside type="tip" title="Exam Strategy">
@@ -644,12 +658,16 @@ Energy level diagrams show the allowed energies of electrons in an atom:
 
 ### Absorption Spectrum vs Emission Spectrum
 
+<div class="table-wrap">
+
 | Feature      | Emission                              | Absorption                              |
 | ------------ | ------------------------------------- | --------------------------------------- |
 | How produced | Hot gas emits light                   | Cool gas absorbs from continuous source |
 | Appearance   | Bright lines on dark background       | Dark lines on continuous spectrum       |
 | Information  | Wavelengths emitted by the element    | Wavelengths absorbed by the element     |
 | Use          | Identifying elements in stars/nebulae | Identifying elements in atmospheres     |
+
+</div>
 
 ### Series Limits
 
@@ -679,7 +697,7 @@ The binding energy per nucleon curve reveals:
 Calculate the energy released when one nucleus of U-235 fissions into Ba-141 and Kr-92 with 3
 Neutrons.
 
-Masses: U-235 = $235.0439\mathrm{ u}$Ba-141 = $140.9139\mathrm{ u}$Kr-92 = $91.8970\mathrm{ u}$ N =
+Masses: U-235 = $235.0439\mathrm{ u}$ Ba-141 = $140.9139\mathrm{ u}$ Kr-92 = $91.8970\mathrm{ u}$ N =
 $1.00867\mathrm{ u}$.
 
 Reactants: $235.0439 + 1.00867 = 236.0526\mathrm{ u}$
@@ -703,11 +721,15 @@ Key components:
 
 ### Nuclear Waste
 
+<div class="table-wrap">
+
 | Type                               | Half-life          | Handling                      |
 | ---------------------------------- | ------------------ | ----------------------------- |
 | High-level (fission products)      | Years to centuries | Deep geological disposal      |
 | Transuranic waste                  | Thousands of years | Deep geological disposal      |
 | Low-level (contaminated materials) | Days to years      | Compaction and shallow burial |
+
+</div>
 
 ---
 
@@ -716,12 +738,16 @@ Key components:
 ### Wave-Particle Duality
 
 Both matter and electromagnetic radiation exhibit wave-like and particle-like properties depending
-On the experiment.
+on the experiment.
+
+<div class="table-wrap">
 
 | Phenomenon | Wave Nature               | Particle Nature                          |
 | ---------- | ------------------------- | ---------------------------------------- |
 | Light      | Diffraction, interference | Photoelectric effect, Compton scattering |
 | Electrons  | Electron diffraction      | Quantised energy levels                  |
+
+</div>
 
 ### Heisenberg Uncertainty Principle
 
@@ -818,9 +844,6 @@ within the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Atomic and
 Nuclear Physics with other physics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Intuition
 

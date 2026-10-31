@@ -83,7 +83,7 @@ cognitive, and biological explanations alongside evidence-based treatments.
 
 **Cognitive Explanations:**
 
-**Beck"s Cognitive Triad (1967):** Beck proposed that depression is maintained by three components
+**Beck's Cognitive Triad (1967):** Beck proposed that depression is maintained by three components
 of negative thinking:
 
 1. **Negative thoughts about the self** ("I am worthless")
@@ -216,6 +216,8 @@ clomipramine) or benzodiazepines may be prescribed.
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Study                | Researcher(s)   | Year | Method                      | Key Findings                                                                               | Evaluation                                                                                         |
 | -------------------- | --------------- | ---- | --------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | Little Albert        | Watson & Rayner | 1920 | Case study / lab experiment | Classically conditioned fear of white rat; generalised to other white objects              | Supports classical conditioning; single case; ethical concerns; confounding variables              |
@@ -225,7 +227,11 @@ clomipramine) or benzodiazepines may be prescribed.
 | Ideal mental health  | Jahoda          | 1958 | Theoretical analysis        | Six criteria for positive mental health                                                    | Comprehensive; culturally biased; unrealistic standard                                             |
 | Meta-analysis of CBT | Butler et al.   | 2006 | Meta-analysis               | CBT effective for depression, anxiety disorders, and OCD                                   | Large evidence base; publication bias may inflate effect sizes                                     |
 
+</div>
+
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term                       | Definition                                                                                               |
 | -------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -245,6 +251,8 @@ clomipramine) or benzodiazepines may be prescribed.
 | SSRI                       | Selective Serotonin Reuptake Inhibitor, a drug that increases serotonin availability                    |
 | Concordance rate           | The probability that one twin has a disorder given that the other twin has it                            |
 | Diathesis-stress model     | The idea that a genetic vulnerability (diathesis) combined with environmental stress triggers a disorder |
+
+</div>
 
 ## Evaluation Points
 
@@ -452,17 +460,6 @@ treatments such as systematic desensitisation are well supported. However, the a
 by its inability to explain phobias without a clear conditioning event and its neglect of biological
 and cognitive factors. A comprehensive understanding of phobias requires integrating behavioural,
 biological, and cognitive perspectives.
-
-
-```mermaid
-flowchart TD
-    A[1_Psychopathology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

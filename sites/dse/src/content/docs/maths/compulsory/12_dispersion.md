@@ -19,7 +19,7 @@ categories:
 </script>
 
 Statistics is the branch of mathematics concerned with the collection, organisation, analysis, and
-Interpretation of data. In the DSE compulsory syllabus, we focus on **descriptive
+interpretation of data. In the DSE compulsory syllabus, we focus on **descriptive
 ./4-statistics-and-probability/2_statistics** -- Summarising a dataset through measures of central
 tendency and measures of dispersion. This page Also covers grouped data techniques and graphical
 representations such as box-and-whisker plots. These tools are frequently combined with
@@ -62,12 +62,12 @@ The median is robust to outliers since only on the position of data points, not 
 <summary>Examples</summary>
 - Dataset: $\{3, 7, 1, 9, 5\}$. Sorted: $\{1, 3, 5, 7, 9\}$. Median = $5$ (position $3$ of $5$).
 - Dataset: $\{2, 4, 6, 8, 10, 12\}$. Median = $\frac{6+8}{2} = 7$ (average of positions $3$ and $4$).
-- Salaries: $\{18000, 20000, 22000, 25000, 150000\}$. Median = $22000$Which is far more representative than the mean of $47000$.
+- Salaries: $\{18000, 20000, 22000, 25000, 150000\}$. Median = $22000$ Which is far more representative than the mean of $47000$.
 
 ### Mode
 
 The **mode** is the value that occurs most frequently in a dataset. A dataset may be unimodal (one
-Mode), bimodal (two modes), multimodal, or have no mode at all.
+mode), bimodal (two modes), multimodal, or have no mode at all.
 
 The mode is the only measure of central tendency applicable to nominal (categorical) data.
 
@@ -79,16 +79,20 @@ The mode is the only measure of central tendency applicable to nominal (categori
 
 ### Comparison of the Three Measures
 
+<div class="table-wrap">
+
 | Measure | Uses all values | Affected by outliers | Applicable to categorical data | Unique value |
 | ------- | :-------------: | :------------------: | :----------------------------: | :----------: |
 | Mean    |       Yes       |         Yes          |               No               |     Yes      |
 | Median  |       No        |          No          |               No               |     Yes      |
 | Mode    |       No        |          No          |              Yes               |      No      |
 
+</div>
+
 ## Measures of Dispersion
 
 Measures of dispersion (spread) quantify how far individual data values deviate from the centre. Two
-Datasets can share the same mean yet have very different spreads.
+datasets can share the same mean yet have very different spreads.
 
 ### Range
 
@@ -99,12 +103,12 @@ $$
 $$
 
 The range is simple to compute but uses only two data points, making it highly sensitive to
-Outliers.
+outliers.
 
 </details>
 <summary>Examples</summary>
 - $\{12, 15, 18, 22, 25\}$: range $= 25 - 12 = 13$.
-- $\{5, 10, 10, 10, 10, 100\}$: range $= 95$Heavily distorted by the single outlier.
+- $\{5, 10, 10, 10, 10, 100\}$: range $= 95$ Heavily distorted by the single outlier.
 
 ### Interquartile Range (IQR)
 
@@ -124,7 +128,7 @@ The IQR is resistant to outliers since it ignores the most extreme $50\%$ of dat
 
 <details>
 <summary>Examples</summary>
-- Dataset: $\{3, 5, 7, 8, 12, 14, 18, 20, 25\}$ ($n=9$Odd).
+- Dataset: $\{3, 5, 7, 8, 12, 14, 18, 20, 25\}$ ($n=9$ Odd).
  - Lower half: $\{3, 5, 7, 8\}$, $Q_1 = \frac{5+7}{2} = 6$.
  - $Q_2 = 12$.
  - Upper half: $\{14, 18, 20, 25\}$, $Q_3 = \frac{18+20}{2} = 19$.
@@ -133,7 +137,7 @@ The IQR is resistant to outliers since it ignores the most extreme $50\%$ of dat
 ### Variance
 
 Variance measures the average squared deviation from the mean. There are two versions depending on
-Whether the data represents the **entire population** or a **sample** drawn from a larger
+whether the data represents the **entire population** or a **sample** drawn from a larger
 Population.
 
 **Population variance** (divides by $n$):
@@ -160,7 +164,7 @@ $$
 \end{aligned}
 $$
 
-**Why $n$ vs $n-1$?** Dividing by $n-1$ (Bessel"s correction) provides an _unbiased_ estimator of
+**Why $n$ vs $n-1$?** Dividing by $n-1$ (Bessel's correction) provides an _unbiased_ estimator of
 The population variance when working with a sample. Using only $n$ data points, the sample mean
 $\bar{x}$ is closer to the data points than the true population mean $\mu$ So the squared Deviations
 tend to underestimate the true spread. Dividing by $n-1$ compensates for this. In the DSE Syllabus,
@@ -178,7 +182,7 @@ $n$) is expected.
 ### Standard Deviation
 
 The **standard deviation** is the positive square root of the variance, restoring the units to match
-The original data:
+the original data:
 
 $$
 \begin{aligned}
@@ -187,7 +191,7 @@ $$
 $$
 
 Since the standard deviation is in the same units as the data, it is more interpretable than the
-Variance for comparing spread.
+variance for comparing spread.
 
 <details>
 <summary>Examples</summary>
@@ -202,7 +206,7 @@ We work with class intervals instead.
 ### Key Definitions
 
 - **Class boundaries**: The endpoints of each class interval, with no gaps between consecutive
-  classes. For example, if raw intervals are $10$--$19$ and $20$--$29$The class boundaries are
+  classes. For example, if raw intervals are $10$--$19$ and $20$--$29$ The class boundaries are
   $9.5$--$19.5$ and $19.5$--$29.5$.
 - **Class width**: The difference between the upper and lower class boundaries.
 - **Class mark (midpoint)**: $x_i = \dfrac{\mathrm{lower boundary} + \mathrm{upper boundary}}{2}$
@@ -235,6 +239,8 @@ This method simplifies calculation by working with small integer values of $d_i$
 <summary>Examples</summary>
 - The following frequency distribution records the marks of $40$ students:
 
+<div class="table-wrap">
+
 | Class interval | $f_i$ | Class mark $x_i$ | $d_i$ | $f_i d_i$ |
 | -------------- | ----- | ---------------- | ----- | --------- |
 | 30 -- 39       | 4     | 34.5             | $-2$  | $-8$      |
@@ -242,6 +248,8 @@ This method simplifies calculation by working with small integer values of $d_i$
 | 50 -- 59       | 14    | 54.5             | $0$   | $0$       |
 | 60 -- 69       | 10    | 64.5             | $1$   | $10$      |
 | 70 -- 79       | 4     | 74.5             | $2$   | $8$       |
+
+</div>
 
 Here $A = 54.5$, $h = 10$.
 
@@ -298,19 +306,19 @@ $$
 $$
 
 Adding a constant $b$ shifts all values equally and does not affect spread. Multiplying by $a$
-Scales the spread by $|a|$.
+scales the spread by $|a|$.
 
 For the mean: $\overline{aX+b} = a\bar{x} + b$.
 
 <details>
 <summary>Examples</summary>
 - If $\bar{x} = 50$ and $\sigma^2 = 16$ Then for $Y = 3X - 4$: $\bar{y} = 3(50)-4 = 146$ and $\mathrm{Var}(Y) = 9 \times 16 = 144$.
-- Temperatures recorded in Celsius have mean $25$ and standard deviation $3$. In Fahrenheit ($F = 1.8C + 32$): mean $= 1.8(25)+32 = 77$Standard deviation $= 1.8 \times 3 = 5.4$.
+- Temperatures recorded in Celsius have mean $25$ and standard deviation $3$. In Fahrenheit ($F = 1.8C + 32$): mean $= 1.8(25)+32 = 77$ Standard deviation $= 1.8 \times 3 = 5.4$.
 
 ### Combined Variance
 
-Given two datasets $X$ and $Y$ with sizes $n_1$ and $n_2$Means $\bar{x}_1$ and $\bar{x}_2$ And
-Variances $\sigma_1^2$ and $\sigma_2^2$The **combined variance** of the pooled dataset is:
+Given two datasets $X$ and $Y$ with sizes $n_1$ and $n_2$ Means $\bar{x}_1$ and $\bar{x}_2$ And
+variances $\sigma_1^2$ and $\sigma_2^2$ The **combined variance** of the pooled dataset is:
 
 $$
 \begin{aligned}
@@ -327,7 +335,7 @@ $$
 $$
 
 The additional terms $n_1(\bar{x}_1 - \bar{x}_c)^2$ and $n_2(\bar{x}_2 - \bar{x}_c)^2$ account for
-The between-group variation caused by the difference in means.
+the between-group variation caused by the difference in means.
 
 </details>
 <summary>Examples</summary>
@@ -348,7 +356,7 @@ $$
 ### Coefficient of Variation
 
 The **coefficient of variation (CV)** allows comparison of variability between datasets measured in
-Different units or with vastly different means:
+different units or with vastly different means:
 
 $$
 \begin{aligned}
@@ -360,8 +368,8 @@ A larger CV indicates greater relative dispersion.
 
 <details>
 <summary>Examples</summary>
-- Investment A: mean return $= 8\%$Standard deviation $= 2\%$. CV $= \frac{2}{8} \times 100\% = 25\%$.
-- Investment B: mean return $= 15\%$Standard deviation $= 5\%$. CV $= \frac{5}{15} \times 100\% \approx 33.3\%$.
+- Investment A: mean return $= 8\%$ Standard deviation $= 2\%$. CV $= \frac{2}{8} \times 100\% = 25\%$.
+- Investment B: mean return $= 15\%$ Standard deviation $= 5\%$. CV $= \frac{5}{15} \times 100\% \approx 33.3\%$.
 - Investment A has lower relative risk.
 
 ### Box-and-Whisker Plots
@@ -387,7 +395,7 @@ $Q_1 - 1.5 \times \mathrm{IQR}$ or above $Q_3 + 1.5 \times \mathrm{IQR}$.
  - IQR $= 28 - 12 = 16$.
  - Lower fence: $12 - 1.5(16) = -12$.
  - Upper fence: $28 + 1.5(16) = 52$.
- - Since $58 > 52$The value $58$ is an outlier. The upper whisker extends to $42$ instead.
+ - Since $58 > 52$ The value $58$ is an outlier. The upper whisker extends to $42$ instead.
 
 ### Skewness (DSE awareness)
 
@@ -419,7 +427,7 @@ While not computed algebraically in the compulsory syllabus, students should rec
 - Mode: none (all values are distinct).
 
 1. **Question:** A dataset has mean $20$ and variance $36$. Find the mean and variance of the
-Transformed dataset $Y = \dfrac{X - 20}{6}$.
+transformed dataset $Y = \dfrac{X - 20}{6}$.
 
 </details>
 <summary>Answer</summary>
@@ -430,6 +438,8 @@ Transformed dataset $Y = \dfrac{X - 20}{6}$.
 1. **Question:** For the grouped frequency distribution below, find the mean and standard deviation
    using the coding method.
 
+<div class="table-wrap">
+
 | Class    | Frequency |
 | -------- | --------- |
 | 10 -- 19 | 5         |
@@ -437,6 +447,8 @@ Transformed dataset $Y = \dfrac{X - 20}{6}$.
 | 30 -- 39 | 18        |
 | 40 -- 49 | 10        |
 | 50 -- 59 | 5         |
+
+</div>
 
 <details>
 <summary>Answer</summary>
@@ -486,7 +498,7 @@ Outliers.
 - No outliers (all values lie within $[757.5, 857.5]$).
 
 1. **Question:** A farmer records the yields (in kg) of two varieties of wheat over several seasons.
-Variety A: mean $= 45$Standard deviation $= 5$. Variety B: mean $= 60$Standard deviation $= 9$.
+Variety A: mean $= 45$ Standard deviation $= 5$. Variety B: mean $= 60$ Standard deviation $= 9$.
 Which variety has more consistent yield?
 
 </details>
@@ -496,7 +508,7 @@ Which variety has more consistent yield?
 - CV$_B = \frac{9}{60} \times 100\% = 15.0\%$.
 - Since CV$_A <$ CV$_B$Variety A has more consistent (less variable) yield relative to its mean.
 
-1. **Question:** Given the dataset $\{a, b, c\}$ with mean $10$ and variance $8$Find the value of
+1. **Question:** Given the dataset $\{a, b, c\}$ with mean $10$ and variance $8$ Find the value of
 $a^2 + b^2 + c^2$.
 
 <details>
@@ -507,7 +519,7 @@ $a^2 + b^2 + c^2$.
 - $\frac{a^2+b^2+c^2}{3} - 100 = 8 \implies a^2+b^2+c^2 = 324$.
 
 1. **Question:** A set of $20$ numbers has mean $15$ and standard deviation $3$. If each number is
-Multiplied by $2$ and then $5$ is added, find the new mean and new standard deviation.
+multiplied by $2$ and then $5$ is added, find the new mean and new standard deviation.
 
 </details>
 <summary>Answer</summary>
@@ -519,6 +531,8 @@ Multiplied by $2$ and then $5$ is added, find the new mean and new standard devi
 1. **Question:** The histogram below (described verbally) shows the distribution of weights of $50$
    apples. The class intervals and frequencies are:
 
+<div class="table-wrap">
+
 | Weight (g) | Frequency |
 | ---------- | --------- |
 | 100 -- 119 | 6         |
@@ -527,13 +541,15 @@ Multiplied by $2$ and then $5$ is added, find the new mean and new standard devi
 | 160 -- 179 | 8         |
 | 180 -- 199 | 2         |
 
+</div>
+
 Estimate the median weight from the cumulative frequency distribution.
 
 <details>
 <summary>Answer</summary>
 
 - Cumulative frequencies: $6, 20, 40, 48, 50$.
-- The median is the $\frac{50}{2} = 25$Th value, which lies in the class $140$--$159$ (cumulative
+- The median is the $\frac{50}{2} = 25$ Th value, which lies in the class $140$--$159$ (cumulative
   $20$ to $40$).
 - Using linear interpolation within the class:
   $, $
@@ -545,7 +561,7 @@ Estimate the median weight from the cumulative frequency distribution.
   $,
   $
 
-1. **Question:** For the dataset $\{3, 7, 7, 2, 9, 5, 1, 8, 6, 4\}$Find $\sum x_i$$\sum x_i^2$ The
+1. **Question:** For the dataset $\{3, 7, 7, 2, 9, 5, 1, 8, 6, 4\}$ Find $\sum x_i$$\sum x_i^2$ The
 mean, and the population variance. Verify your variance using both the definition formula and The
 computational formula.
 
@@ -573,7 +589,7 @@ computational formula.
 1. **Question:** The weekly wages (in dollars) of $8$ workers in a small factory are
 $3200, 3500, 3800, 4200, 4500, 4800, 5200, 12000$. The factory owner claims the average wage is
 `USD 5150`. Is this claim misleading? Explain using an appropriate measure of central tendency and
-Dispersion.
+dispersion.
 
 <details>
 <summary>Answer</summary>
@@ -588,7 +604,7 @@ Dispersion.
   Significant skewness, confirming the mean is a poor choice of summary statistic.
 
 1. **Question:** A set of data has variance $25$ and mean $0$. A new set is formed by removing the
-Value $10$ from the original set. If the original set had $n = 6$ values, find the new mean and new
+value $10$ from the original set. If the original set had $n = 6$ values, find the new mean and new
 Variance.
 
 </details>
@@ -596,7 +612,7 @@ Variance.
 
 - Original: $\bar{x} = 0$$\sigma^2 = 25$$n = 6$.
 - $\sum x_i = 0$ So $\sum x_i^2 = n\sigma^2 + \frac{(\sum x_i)^2}{n} = 6(25) + 0 = 150$.
-- After removing $10$: new sum $= 0 - 10 = -10$New $n' = 5$.
+- After removing $10$: new sum $= 0 - 10 = -10$ New $n' = 5$.
 - New mean: $\bar{x}' = \frac{-10}{5} = -2$.
 - New sum of squares: $150 - 100 = 50$.
 - New variance: $\sigma'^2 = \frac{50}{5} - (-2)^2 = 10 - 4 = 6$.
@@ -621,9 +637,6 @@ the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Dispersion
 with other DSE mathematics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -646,7 +659,7 @@ For ./4-statistics-and-probability/2_statistics problems in DSE Paper 1:
    $\sigma^2 = \dfrac{\sum x_i^2}{n} - \bar{x}^2$ and show both terms.
 3. For grouped data, show the class marks and the coding method in a table.
 4. For the coding method, state the assumed mean $A$ and class width $h$.
-5. For box plots, label all five values (min, $Q_1$$Q_2$$Q_3$Max).
+5. For box plots, label all five values (min, $Q_1$$Q_2$$Q_3$ Max).
 
 ### Significant Figures
 
@@ -698,9 +711,13 @@ scores 55. Express each score as a standardised score (z-score).
 <details>
 <summary>Solution</summary>
 
-$$z_A = \frac{75 - 60}{10} = 1.5$$
+$$
+z_A = \frac{75 - 60}{10} = 1.5
+$$
 
-$$z_B = \frac{55 - 60}{10} = -0.5$$
+$$
+z_B = \frac{55 - 60}{10} = -0.5
+$$
 
 Student A scored 1.5 standard deviations above the mean; Student B scored 0.5 standard deviations
 below.
@@ -754,6 +771,8 @@ The constraints may not be satisfiable with integers. In an exam, this would be 
 
 For the frequency distribution below, find the standard deviation using the assumed mean method.
 
+<div class="table-wrap">
+
 | Class    | Frequency |
 | -------- | --------- |
 | 5 -- 9   | 3         |
@@ -762,12 +781,16 @@ For the frequency distribution below, find the standard deviation using the assu
 | 20 -- 24 | 5         |
 | 25 -- 29 | 3         |
 
+</div>
+
 <details>
 <summary>Solution</summary>
 
 Class marks: $7$$12$$17$$22$$27$. $A = 17$$h = 5$.
 
 $d_i$: $-2$$-1$$0$$1$$2$.
+
+<div class="table-wrap">
 
 | $f_i$ | $d_i$ | $f_id_i$ | $f_id_i^2$ |
 | ----- | ----- | -------- | ---------- |
@@ -776,6 +799,8 @@ $d_i$: $-2$$-1$$0$$1$$2$.
 | 12    | 0     | 0        | 0          |
 | 5     | 1     | 5        | 5          |
 | 3     | 2     | 6        | 12         |
+
+</div>
 
 $n = 30$$\sum f_id_i = -2$$\sum f_id_i^2 = 36$.
 
@@ -813,13 +838,21 @@ Combined mean: $\bar{x}_c = \dfrac{40(65) + 60(72)}{100} = \dfrac{2600 + 4320}{1
 
 Combined variance:
 
-$$\sigma_c^2 = \frac{40(64) + 60(100) + 40(65 - 69.2)^2 + 60(72 - 69.2)^2}{100}$$
+$$
+\sigma_c^2 = \frac{40(64) + 60(100) + 40(65 - 69.2)^2 + 60(72 - 69.2)^2}{100}
+$$
 
-$$= \frac{2560 + 6000 + 40(17.64) + 60(7.84)}{100}$$
+$$
+= \frac{2560 + 6000 + 40(17.64) + 60(7.84)}{100}
+$$
 
-$$= \frac{8560 + 705.6 + 470.4}{100} = \frac{9736}{100} = 97.36$$
+$$
+= \frac{8560 + 705.6 + 470.4}{100} = \frac{9736}{100} = 97.36
+$$
 
-$$\sigma_c = \sqrt{97.36} \approx 9.87$$
+$$
+\sigma_c = \sqrt{97.36} \approx 9.87
+$$
 
 </details>
 
@@ -847,7 +880,7 @@ $\sigma_Y = 0.03281 \times 6.647 \approx 0.2181$ ft.
 
 </details>
 
-**DSE Practice 3.** For the dataset $\{1, 3, 5, 7, 9, 11, 13\}$Find the mean deviation (mean
+**DSE Practice 3.** For the dataset $\{1, 3, 5, 7, 9, 11, 13\}$ Find the mean deviation (mean
 absolute deviation) and compare it with the standard deviation.
 
 <details>
@@ -868,13 +901,13 @@ datasets that are not constant.
 </details>
 
 **DSE Practice 4.** A set of data has $\bar{x} = 50$ and $\sigma = 4$. If every value is increased
-by $k$The new standard deviation becomes 10. Find $k$ and explain your answer.
+by $k$ The new standard deviation becomes 10. Find $k$ and explain your answer.
 
 <details>
 <summary>Solution</summary>
 
 Adding a constant $k$ does not change the standard deviation. Therefore, the new standard deviation
-should still be $\sigma = 4$Not $10$.
+should still be $\sigma = 4$ Not $10$.
 
 There is no value of $k$ that changes the standard deviation from 4 to 10 by addition alone. To
 change the standard deviation, we would need to multiply by a constant. If $Y = aX + b$ Then
@@ -887,6 +920,8 @@ $\sigma_Y = 10$ for any $k$.
 
 **DSE Practice 5.** The table shows the distribution of marks in a test.
 
+<div class="table-wrap">
+
 | Marks     | Frequency |
 | --------- | --------- |
 | 0 -- 19   | 4         |
@@ -894,6 +929,8 @@ $\sigma_Y = 10$ for any $k$.
 | 40 -- 59  | 22        |
 | 60 -- 79  | 14        |
 | 80 -- 100 | 5         |
+
+</div>
 
 Estimate the mean and standard deviation.
 
@@ -908,6 +945,8 @@ $d_i$: $-2$, $-1$, $0$, $1$, $2$ (approximately; the last class has width 21).
 
 Using approximate equal widths:
 
+<div class="table-wrap">
+
 | $f_i$ | $x_i$ | $d_i$ | $f_id_i$ | $f_id_i^2$ |
 | ----- | ----- | ----- | -------- | ---------- |
 | 4     | 9.5   | $-2$  | $-8$     | 16         |
@@ -915,6 +954,8 @@ Using approximate equal widths:
 | 22    | 49.5  | 0     | 0        | 0          |
 | 14    | 69.5  | 1     | 14       | 14         |
 | 5     | 89.5  | 2     | 10       | 20         |
+
+</div>
 
 $n = 55$$\sum f_id_i = 6$$\sum f_id_i^2 = 60$.
 
@@ -938,17 +979,6 @@ $\sigma^2 = 1.079 \times 400 = 431.6$. $\sigma = \sqrt{431.6} \approx 20.8$.
   $\sigma^2 = \frac{\sum f x^2}{\sum f} - \bar{x}^2$ for grouped data with class midpoints. **Fix:**
   Use midpoints $x$ and frequencies $f$; do not use class boundaries directly.
 
-
-```mermaid
-flowchart TD
-    A[12_Dispersion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Mean $\bar{x} = \frac{\sum x_i}{n}$; variance $\sigma^2 = \frac{\sum(x_i - \bar{x})^2}{n}$;
@@ -965,9 +995,13 @@ flowchart TD
 
 **Solution.** $\bar{x} = \frac{4+7+8+10+11}{5} = \frac{40}{5} = 8$.
 
-$$\sigma^2 = \frac{(4-8)^2 + (7-8)^2 + (8-8)^2 + (10-8)^2 + (11-8)^2}{5} = \frac{16 + 1 + 0 + 4 + 9}{5} = \frac{30}{5} = 6$$
+$$
+\sigma^2 = \frac{(4-8)^2 + (7-8)^2 + (8-8)^2 + (10-8)^2 + (11-8)^2}{5} = \frac{16 + 1 + 0 + 4 + 9}{5} = \frac{30}{5} = 6
+$$
 
-$$\sigma = \sqrt{6} \approx 2.45$$
+$$
+\sigma = \sqrt{6} \approx 2.45
+$$
 
 $\blacksquare$
 
@@ -975,11 +1009,15 @@ $\blacksquare$
 
 **Problem.** Find the mean and variance of the following grouped data:
 
+<div class="table-wrap">
+
 | Class | Frequency |
 | ----- | --------- |
 | 0–10  | 3         |
 | 10–20 | 7         |
 | 20–30 | 5         |
+
+</div>
 
 **Solution.** Midpoints: $x = 5, 15, 25$. Frequencies: $f = 3, 7, 5$. Total: $n = 15$.
 
@@ -991,10 +1029,14 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic        | Site | Link                                                                                   |
 | ------------ | ---- | -------------------------------------------------------------------------------------- |
-| [Statistics] | IB   | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/2_statistics) |
-| [Statistics] | DSE  | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/12_dispersion)                |
+| [Statistics] | IB   | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics/) |
+| [Statistics] | DSE  | [View](https://dse.wyattau.com/maths/compulsory/12_dispersion/)                |
+
+</div>
 :::
 
 ## Intuition

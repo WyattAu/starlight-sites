@@ -185,12 +185,16 @@ Mussolini co-authored *The Doctrine of Fascism* (1932) with the philosopher Giov
 
 ### Methods of Consolidating Power
 
+<div class="table-wrap">
+
 | Feature | Fascist Italy | Nazi Germany | Stalinist USSR |
 | :------ | :------------ | :----------- | :------------- |
 | **Seizure of power** | Appointed through constitutional processes; gradual consolidation | Appointed through constitutional processes; rapid elimination of opposition | Rise through party apparatus; elimination of rivals after Lenin's death |
 | **One-party state** | Achieved by 1926 | Achieved by 1933 | Already in place since 1917 |
 | **Use of terror** | Moderate, OVRA, exile, imprisonment; less systematic than Nazi or Soviet terror | Systematic, Gestapo, SS, concentration camps; escalating to genocide | Systematic, NKVD, purges, Gulag; mass executions and deportations |
 | **Leader cult** | The Duce as father of the nation; personal authority | The Führer as embodiment of the racial state; semi-religious devotion | Stalin as the great leader, teacher, and "father of nations" |
+
+</div>
 
 ### Economic Policy
 
@@ -229,17 +233,6 @@ For IB Paper 2, Fascist Italy is examined under **Topic 3 (Authoritarian States)
 - Engage with historiographical debate (intentionalist vs structuralist, totalitarian vs authoritarian models).
 - Draw comparisons with other authoritarian regimes where the question permits.
 - Use precise evidence: dates, statistics, and specific examples of policy implementation.
-
-
-```mermaid
-flowchart TD
-    A[Fascism Italy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

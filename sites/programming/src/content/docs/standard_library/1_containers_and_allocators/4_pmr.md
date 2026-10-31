@@ -21,11 +21,11 @@ categories:
 
 ## Polymorphic Memory Resources (PMR) and Monotonic Buffers
 
-C++17 introduced **polymorphic memory resources** (PMR) in `&lt;memory_resource>`Enabling Containers
+C++17 introduced **polymorphic memory resources** (PMR) in `&lt;memory_resource>`. Enabling Containers
 to use different allocation strategies without changing their type. PMR decouples the Allocation
 strategy from the container, supporting patterns like arena allocation, pool allocation, And
 dependency injection of memory resources. This section covers the `memory_resource` abstraction,
-`monotonic_buffer_resource``unsynchronized_pool_resource`And practical integration patterns.
+`monotonic_buffer_resource`, `unsynchronized_pool_resource` and practical integration patterns.
 
 ### `std::pmr::memory_resource`: The Polymorphic Allocator Interface
 
@@ -90,8 +90,8 @@ int main() {
 
 `std::pmr::monotonic_buffer_resource` [N4950 §23.10.5] implements **arena allocation**: memory is
 Allocated from an initial buffer, and when that buffer is exhausted, a new buffer is obtained from
-An upstream resource. Critically, **individual deallocations are no-ops** --- all memory is released
-When the resource itself is destroyed.
+an upstream resource. Critically, **individual deallocations are no-ops** --- all memory is released
+when the resource itself is destroyed.
 
 This makes `monotonic_buffer_resource` ideal for scenarios with many short-lived allocations:
 
@@ -278,7 +278,7 @@ int main() {
 :::caution
 Create container A, then container B, and A still holds references to memory allocated from B's
 Objects, those references may dangle if B is destroyed and its memory is recycled. Arena allocation
-Is safest when all allocations share the same lifetime scope.
+is safest when all allocations share the same lifetime scope.
 :::
 
 ### Integration Pattern: Dependency Injection of Memory Resources
@@ -485,8 +485,8 @@ Single-threaded code, `unsynchronized_pool_resource` is strictly faster.
 ### Common Pitfalls
 
 **1. `monotonic_buffer_resource` and dangling references:** Since individual `deallocate` calls are
-No-ops, destroying a container that allocated from a monotonic buffer does not free memory. If
-Another object still holds a reference or pointer to memory from that destroyed container, the
+no-ops, destroying a container that allocated from a monotonic buffer does not free memory. If
+another object still holds a reference or pointer to memory from that destroyed container, the
 Reference dangles. All objects using a `monotonic_buffer_resource` should share the same lifetime
 Scope as the resource itself.
 
@@ -496,7 +496,7 @@ benefit. Profile actual allocation patterns and size the buffer accordingly. A c
 to measure peak allocation during a trial run and use that plus a safety margin.
 
 **3. `polymorphic_allocator` is not a drop-in replacement for `std::allocator`:** PMR containers
-Have a different type (`std::vector&lt;T, std::pmr::polymorphic_allocator&lt;T>>`) from standard
+have a different type (`std::vector&lt;T, std::pmr::polymorphic_allocator&lt;T>>`) from standard
 Containers (`std::vector&lt;T>`). They are not interchangeable in APIs that expect a specific
 Allocator type. Design APIs to accept `memory_resource*` and construct PMR containers internally.
 
@@ -513,7 +513,7 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Intuition
 
@@ -535,23 +535,7 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
-```mermaid
-flowchart TD
-    A[4_Pmr] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

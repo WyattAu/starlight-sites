@@ -44,7 +44,7 @@ Operand stack. Local variables of primitive type are stored directly on the stac
 Locals store a pointer to the heap. Stack memory is automatically reclaimed when a method returns.
 
 **Heap**, All objects and arrays are allocated on the heap. This includes `String` objects, wrapper
-Instances (`Integer``Double`), and user-defined class instances. The heap is shared across all
+Instances (`Integer`, `Double`), and user-defined class instances. The heap is shared across all
 Threads and managed by the garbage collector. Heap allocations are relatively expensive compared to
 Stack allocations.
 
@@ -82,6 +82,8 @@ Java defines eight primitive types. They are not objects, they hold raw bit patt
 Directly on the stack or within object layouts on the heap. Primitives have no methods, no identity
 (only value equality), and cannot be `null`.
 
+<div class="table-wrap">
+
 | Type      | Size (bits) | Size (bytes) | Default    | Range                          |
 | --------- | ----------: | -----------: | ---------- | ------------------------------ |
 | `byte`    |           8 |            1 | `0`        | -128 to 127                    |
@@ -93,6 +95,8 @@ Directly on the stack or within object layouts on the heap. Primitives have no m
 | `char`    |          16 |            2 | `'\u0000'` | 0 to 65,535 (UTF-16 code unit) |
 | `boolean` |           1 |            ~ | `false`    | `true` or `false`              |
 
+</div>
+
 :::note
 [JLS §4.2](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.2) defines primitive
 Types and their values.
@@ -102,7 +106,7 @@ Floating-point types and IEEE 754 conformance.
 
 ### Integral Types
 
-Java's integral types are **two's complement** signed integers. The `byte``short``int`And `long`
+Java's integral types are **two's complement** signed integers. The `byte`, `short`, `int` and `long`
 types use two's complement representation, meaning the most significant bit is the sign bit. The
 `char` type is the only unsigned integral type, it represents a UTF-16 code unit.
 
@@ -167,7 +171,7 @@ BigDecimal total = price.multiply(price.add(BigDecimal.ONE).multiply(tax))
 ### Design Decision: Why Java Has Both Primitives and Wrappers
 
 The JVM provides primitives for **performance**. Primitive values are stored inline on the stack or
-In object fields with no heap allocation, no indirection, and no object header overhead. A `double`
+in object fields with no heap allocation, no indirection, and no object header overhead. A `double`
 Takes exactly 8 bytes; a `Double` object requires 16+ bytes (12-16 byte object header + 8 byte
 Field + padding) plus a heap pointer.
 
@@ -185,8 +189,8 @@ The wrappers exist for two reasons:
 ## Reference Types
 
 A reference variable does not contain the object itself, it contains a **pointer** (or handle) to
-An object on the heap. The JVM specification does not mandate a specific pointer representation; it
-May be a direct pointer, an indirect handle, or a compressed oop (ordinary object pointer).
+an object on the heap. The JVM specification does not mandate a specific pointer representation; it
+may be a direct pointer, an indirect handle, or a compressed oop (ordinary object pointer).
 
 ```java
 String s = new String("hello");
@@ -196,12 +200,12 @@ String s = new String("hello");
 ```
 
 Reference types include: classes, interfaces, arrays, enums, annotations, and (since Java 14
-Preview) records. All reference variables can be `null`Meaning they point to no object.
+Preview) records. All reference variables can be `null`. Meaning they point to no object.
 
 ## Autoboxing and Unboxing
 
 Autoboxing is the automatic conversion from a primitive type to its corresponding wrapper class.
-Unboxing is the reverse. The compiler inserts calls to `Integer.valueOf()``Integer.intValue()` Etc.
+Unboxing is the reverse. The compiler inserts calls to `Integer.valueOf()`, `Integer.intValue()` Etc.
 
 ```java
 // Explicit boxing (pre-Java 5)
@@ -263,7 +267,7 @@ for (long i = 0; i < 1_000_000; i++) {
 Autoboxing was introduced to reduce verbosity, but it creates a false impression that primitives and
 Wrappers are interchangeable. They are not. The key problems are:
 
-1. **`NullPointerException` from unboxing null**: Unboxing a `null` reference throws `NPE`With no
+1. **`NullPointerException` from unboxing null**: Unboxing a `null` reference throws `NPE`. With no
    explicit null check in your source code.
 
 ```java
@@ -313,7 +317,7 @@ The `String` class is declared `final` and its internal `value` array is stored 
 
 ### Design Decision: Why String Is Immutable
 
-1. **Security**: String arguments are passed to `ClassLoader``FileInputStream``Runtime.exec()` JDBC
+1. **Security**: String arguments are passed to `ClassLoader`, `FileInputStream`, `Runtime.exec()` JDBC
    drivers, and many other sensitive APIs. Immutability prevents a caller from modifying the string
    after passing it, closing a class of security vulnerabilities.
 
@@ -396,17 +400,21 @@ Field names, string constants) make up a significant portion of the heap. Withou
 Occurrence of `"http"` across thousands of HTTP requests would allocate a separate object.
 
 The pool also enables the `==` comparison for interned strings, which is an O(1) pointer comparison
-Versus O(n) character-by-character comparison for `String.equals()`. The JVM uses this internally,
+versus O(n) character-by-character comparison for `String.equals()`. The JVM uses this internally,
 Class names, method descriptors, and string constants in the constant pool are all deduplicated via
 Interning.
 
 ### StringBuilder vs StringBuffer
+
+<div class="table-wrap">
 
 | Aspect      |  `StringBuilder` (Java 5+)  |     `StringBuffer` (Java 1.0+)     |
 | ----------- | :-------------------------: | :--------------------------------: |
 | Thread-safe |             No              |  Yes (all methods `synchronized`)  |
 | Performance | Faster (no synchronization) | Slower (lock acquisition overhead) |
 | API         |   Same as `StringBuffer`    |      Same as `StringBuilder`       |
+
+</div>
 
 ```java
 // Prefer StringBuilder in single-threaded contexts
@@ -467,6 +475,8 @@ Compile time and requires no runtime checks.
 
 ### Arrays vs ArrayList
 
+<div class="table-wrap">
+
 | Aspect           | `int[]`                                     | `ArrayList<Integer>`                          |
 | ---------------- | ------------------------------------------- | --------------------------------------------- |
 | Element type     | Primitives or references                    | References only (boxing required)             |
@@ -476,6 +486,8 @@ Compile time and requires no runtime checks.
 | Null elements    | For reference arrays only                   | Allowed                                       |
 | Length query     | `array.length` (field)                      | `list.size()` (method call)                   |
 | Generics support | Cannot use as generic type                  | Full generics support                         |
+
+</div>
 
 ```java
 // Primitive array, no boxing, cache-friendly, minimal overhead
@@ -494,7 +506,7 @@ boxed.add(2);  // autoboxing: Integer.valueOf(2)
 ## The `var` Keyword (Local Variable Type Inference)
 
 Introduced in Java 10 ([JEP 286](https://openjdk.org/jeps/286)), `var` enables the compiler to infer
-The type of local variables from the initializer. It does **not** make Java dynamically typed, the
+the type of local variables from the initializer. It does **not** make Java dynamically typed, the
 Inferred type is a concrete, compile-time type, and the variable cannot be reassigned to an
 Incompatible type.
 
@@ -567,7 +579,7 @@ Surprising.
 
 ### Explicit Casting (Narrowing)
 
-Narrowing conversions (e.g., `long` to `int``double` to `float`) may lose information and require An
+Narrowing conversions (e.g., `long` to `int`, `double` to `float`) may lose information and require An
 explicit cast. The compiler enforces this to prevent accidental data loss.
 
 ```java
@@ -682,14 +694,14 @@ if (obj instanceof String s && !s.isEmpty()) {
 ```
 
 :::note
-Semantics. If `obj instanceof String s` is `false`The right side of `&&` is never evaluated, so `s`
+Semantics. If `obj instanceof String s` is `false`. The right side of `&&` is never evaluated, so `s`
 cannot be used unsafely. The compiler verifies this using a concept called "flow analysis."
 :::
 
 ## Records (Java 14+)
 
 Records ([JEP 395](https://openjdk.org/jeps/395), standardized in Java 16) provide a compact syntax
-For declaring classes that are transparent carriers of immutable data.
+for declaring classes that are transparent carriers of immutable data.
 
 ```java
 public record Point(int x, int y) {}
@@ -928,9 +940,6 @@ The Java type system reflects a series of deliberate tradeoffs:
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

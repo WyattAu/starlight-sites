@@ -23,6 +23,8 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                    |
 | ---------- | ------- | ---------------------------------------- |
 | AQA        | Paper 1 | Straight lines, circles                  |
@@ -30,32 +32,42 @@ categories:
 | OCR (A)    | Paper 1 | Similar coverage                         |
 | CIE (9709) | P1      | Coordinate geometry of lines and circles |
 
+</div>
+
 <hr />
 
 ## 1. The Coordinate Plane
 
 **Definition.** The _Cartesian coordinate plane_ $\mathbb{R}^2$ is the set of all ordered pairs
 $(x, y)$ where $x, y \in \mathbb{R}$. The horizontal axis is the $x$-axis and the vertical axis is
-The $y$-axis.
+the $y$-axis.
 
 The _distance_ between two points $A(x_1, y_1)$ and $B(x_2, y_2)$ is given by Pythagoras" theorem:
 
 **Theorem (Distance Formula).**
 
-$$d(A, B) = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+$$
+d(A, B) = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+$$
 
 _Proof._ Construct the right triangle with legs parallel to the axes. The horizontal leg has length
 $|x_2 - x_1|$ and the vertical leg has length $|y_2 - y_1|$. By Pythagoras' theorem:
 
-$$d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$$
+$$
+d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2
+$$
 
 Taking the positive square root (since distance is non-negative):
 
-$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \quad \blacksquare$$
+$$
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \quad \blacksquare
+$$
 
 **Definition.** The _midpoint_ of the segment joining $A(x_1, y_1)$ and $B(x_2, y_2)$ is:
 
-$$M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$$
+$$
+M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)
+$$
 
 <hr />
 
@@ -66,38 +78,46 @@ $$M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$$
 **Definition.** The _gradient_ (slope) of the line passing through $A(x_1, y_1)$ and $B(x_2, y_2)$
 (with $x_1 \neq x_2$) is:
 
-$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+$$
+m = \frac{y_2 - y_1}{x_2 - x_1}
+$$
 
 **Theorem.** The gradient is well-defined: it does not depend on the choice of points on the line.
 
 _Proof._ Consider a third point $C(x_3, y_3)$ on the same line. By similar triangles (see intuition
-Below), $\frac{y_2 - y_1}{x_2 - x_1} = \frac{y_3 - y_1}{x_3 - x_1}$. Since any two points on the
-Line define the same ratio, the gradient is a property of the line itself, not the chosen points.
+below), $\frac{y_2 - y_1}{x_2 - x_1} = \frac{y_3 - y_1}{x_3 - x_1}$. Since any two points on the
+line define the same ratio, the gradient is a property of the line itself, not the chosen points.
 $\blacksquare$
 
 _Intuition (Similar Triangles)._ Imagine two right triangles formed by dropping perpendiculars from
-Any two pairs of points on the line to the $x$-axis. Both triangles share the angle that the line
+any two pairs of points on the line to the $x$-axis. Both triangles share the angle that the line
 Makes with the horizontal. By AA similarity, the triangles are similar, so the ratio of vertical to
-Horizontal sides is constant, this ratio is the gradient.
+horizontal sides is constant, this ratio is the gradient.
 
 ### 2.2 Equation of a Line
 
 The equation of a line with gradient $m$ passing through $(x_1, y_1)$ is:
 
-$$y - y_1 = m(x - x_1)$$
+$$
+y - y_1 = m(x - x_1)
+$$
 
 _Proof._ Any point $(x, y)$ on the line must satisfy the gradient condition:
 
-$$\frac{y - y_1}{x - x_1} = m$$
+$$
+\frac{y - y_1}{x - x_1} = m
+$$
 
 Multiplying both sides by $(x - x_1)$:
 
-$$y - y_1 = m(x - x_1) \quad \blacksquare$$
+$$
+y - y_1 = m(x - x_1) \quad \blacksquare
+$$
 
 **Other forms:**
 
-- _Gradient-intercept form:_ $y = mx + c$Where $c$ is the $y$-intercept.
-- _General form:_ $ax + by + c = 0$Where $a, b$ are not both zero.
+- _Gradient-intercept form:_ $y = mx + c$ Where $c$ is the $y$-intercept.
+- _General form:_ $ax + by + c = 0$ Where $a, b$ are not both zero.
 
 ### 2.3 Parallel and Perpendicular Lines
 
@@ -113,7 +133,9 @@ $(1, m_2)$ is $\mathbf{v} = (1, m_2)$.
 
 Since the lines are perpendicular, $\mathbf{u} \perp \mathbf{v}$ So their dot product is zero:
 
-$$1 \cdot 1 + m_1 \cdot m_2 = 0 \implies m_1 m_2 = -1 \quad \blacksquare$$
+$$
+1 \cdot 1 + m_1 \cdot m_2 = 0 \implies m_1 m_2 = -1 \quad \blacksquare
+$$
 
 <details>
 <summary>Example</summary>
@@ -123,9 +145,13 @@ Rearranging: $3y = 2x + 7$ So $y = \frac{2}{3}x + \frac{7}{3}$. Gradient: $m_1 =
 
 Perpendicular gradient: $m_2 = -\frac{3}{2}$.
 
-$$y + 1 = -\frac{3}{2}(x - 4)$$
+$$
+y + 1 = -\frac{3}{2}(x - 4)
+$$
 
-$$2y + 2 = -3x + 12 \implies 3x + 2y - 10 = 0$$
+$$
+2y + 2 = -3x + 12 \implies 3x + 2y - 10 = 0
+$$
 
 </details>
 
@@ -137,7 +163,9 @@ $$2y + 2 = -3x + 12 \implies 3x + 2y - 10 = 0$$
 
 **Theorem.** The circle with centre $(a, b)$ and radius $r$ has equation:
 
-$$(x - a)^2 + (y - b)^2 = r^2$$
+$$
+(x - a)^2 + (y - b)^2 = r^2
+$$
 
 _Proof._ By definition, a circle is the set of all points at distance $r$ from the centre $(a, b)$.
 A point $(x, y)$ lies on the circle if and only if its distance from $(a, b)$ equals $r$:
@@ -156,9 +184,13 @@ centre to any point on the circle is constant and equal to the radius.
 
 Expanding $(x - a)^2 + (y - b)^2 = r^2$:
 
-$$x^2 - 2ax + a^2 + y^2 - 2by + b^2 = r^2$$
+$$
+x^2 - 2ax + a^2 + y^2 - 2by + b^2 = r^2
+$$
 
-$$x^2 + y^2 - 2ax - 2by + (a^2 + b^2 - r^2) = 0$$
+$$
+x^2 + y^2 - 2ax - 2by + (a^2 + b^2 - r^2) = 0
+$$
 
 **Theorem.** The general equation $x^2 + y^2 + Dx + Ey + F = 0$ represents a circle with centre
 $\left(-\frac{D}{2}, -\frac{E}{2}\right)$ and radius
@@ -175,10 +207,12 @@ $$
 
 Substituting:
 
-$$\left(x + \frac{D}{2}\right)^2 + \left(y + \frac{E}{2}\right)^2 = \frac{D^2 + E^2}{4} - F$$
+$$
+\left(x + \frac{D}{2}\right)^2 + \left(y + \frac{E}{2}\right)^2 = \frac{D^2 + E^2}{4} - F
+$$
 
 This is a circle with centre $\left(-\frac{D}{2}, -\frac{E}{2}\right)$ and radius
-$\sqrt{\frac{D^2 + E^2}{4} - F}$Provided the right-hand side is positive. $\blacksquare$
+$\sqrt{\frac{D^2 + E^2}{4} - F}$ Provided the right-hand side is positive. $\blacksquare$
 
 > **Tip:** Tip $y$. This is faster and less error-prone than memorising the formula.
 <details>
@@ -193,7 +227,7 @@ $$
 \end{aligned}
 $$
 
-Centre: $(3, -2)$Radius: $5$.
+Centre: $(3, -2)$ Radius: $5$.
 
 </details>
 
@@ -208,11 +242,15 @@ Only if the discriminant of the resulting quadratic is zero.
 
 _Proof._ Substituting $y = mx + c$ into the circle equation:
 
-$$(x - a)^2 + (mx + c - b)^2 = r^2$$
+$$
+(x - a)^2 + (mx + c - b)^2 = r^2
+$$
 
 Expanding gives a quadratic in $x$:
 
-$$(1 + m^2)x^2 + \mathrm{(linear term)} + \mathrm{(constant)} = 0$$
+$$
+(1 + m^2)x^2 + \mathrm{(linear term)} + \mathrm{(constant)} = 0
+$$
 
 This quadratic has:
 
@@ -223,27 +261,35 @@ This quadratic has:
 - **No real roots** ($\Delta < 0$): the line does not intersect the circle. $\blacksquare$
 
 _Intuition._ A tangent touches the circle at exactly one point. Algebraically, "one point" means the
-Quadratic has a repeated root, the two intersection points have coalesced into one.
+quadratic has a repeated root, the two intersection points have coalesced into one.
 
 ### 4.2 Equation of a Tangent to a Circle
 
 **Theorem.** The tangent to the circle $x^2 + y^2 + Dx + Ey + F = 0$ at the point $(x_1, y_1)$ on
 The circle has equation:
 
-$$x x_1 + y y_1 + \frac{D}{2}(x + x_1) + \frac{E}{2}(y + y_1) + F = 0$$
+$$
+x x_1 + y y_1 + \frac{D}{2}(x + x_1) + \frac{E}{2}(y + y_1) + F = 0
+$$
 
 _Proof (for circle centred at origin)._ The circle $x^2 + y^2 = r^2$ has centre $(0, 0)$. The radius
-At $(x_1, y_1)$ has gradient $\frac{y_1}{x_1}$ (from origin to the point). The tangent is
-Perpendicular to this radius, so the tangent's gradient is $m = -\frac{x_1}{y_1}$ (using
+at $(x_1, y_1)$ has gradient $\frac{y_1}{x_1}$ (from origin to the point). The tangent is
+perpendicular to this radius, so the tangent's gradient is $m = -\frac{x_1}{y_1}$ (using
 $m_1 m_2 = -1$).
 
 The tangent passes through $(x_1, y_1)$:
 
-$$y - y_1 = -\frac{x_1}{y_1}(x - x_1)$$
+$$
+y - y_1 = -\frac{x_1}{y_1}(x - x_1)
+$$
 
-$$y y_1 - y_1^2 = -x x_1 + x_1^2$$
+$$
+y y_1 - y_1^2 = -x x_1 + x_1^2
+$$
 
-$$x x_1 + y y_1 = x_1^2 + y_1^2 = r^2$$
+$$
+x x_1 + y y_1 = x_1^2 + y_1^2 = r^2
+$$
 
 (since $(x_1, y_1)$ lies on the circle). $\blacksquare$
 
@@ -253,7 +299,9 @@ Find the equation of the tangent to $x^2 + y^2 = 25$ at the point $(3, 4)$.
 
 Using $x x_1 + y y_1 = r^2$:
 
-$$3x + 4y = 25$$
+$$
+3x + 4y = 25
+$$
 
 </details>
 
@@ -285,42 +333,58 @@ Since the product of gradients is $-1$, $AP \perp BP$. $\blacksquare$
 **Theorem.** The perpendicular (shortest) distance from the point $(x_0, y_0)$ to the line
 $ax + by + c = 0$ is:
 
-$$d = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}$$
+$$
+d = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}
+$$
 
 _Proof (Area method)._ Let $P(x_0, y_0)$ be the point and let $A$ and $B$ be two convenient points
-On the line. The triangle $PAB$ has area:
+on the line. The triangle $PAB$ has area:
 
-$$\mathrm{Area} = \frac{1}{2} \times \mathrm{base} \times \mathrm{height} = \frac{1}{2} \times |AB| \times d$$
+$$
+\mathrm{Area} = \frac{1}{2} \times \mathrm{base} \times \mathrm{height} = \frac{1}{2} \times |AB| \times d
+$$
 
 Where $d$ is the perpendicular distance from $P$ to the line. Rearranging:
 
-$$d = \frac{2 \times \mathrm{Area}}{|AB|}$$
+$$
+d = \frac{2 \times \mathrm{Area}}{|AB|}
+$$
 
 Choose $A$ and $B$ where the line meets the axes: set $y = 0$ to get $A\left(-\frac{c}{a}, 0\right)$
-And set $x = 0$ to get $B\left(0, -\frac{c}{b}\right)$. Then:
+and set $x = 0$ to get $B\left(0, -\frac{c}{b}\right)$. Then:
 
-$$|AB| = \sqrt{\frac{c^2}{a^2} + \frac{c^2}{b^2}} = \frac{|c|\sqrt{a^2 + b^2}}{|ab|}$$
+$$
+|AB| = \sqrt{\frac{c^2}{a^2} + \frac{c^2}{b^2}} = \frac{|c|\sqrt{a^2 + b^2}}{|ab|}
+$$
 
 The area of $\triangle PAB$ can also be computed using the determinant formula:
 
-$$\mathrm{Area} = \frac{1}{2}\left|x_0\left(0 - \left(-\frac{c}{b}\right)\right) + \left(-\frac{c}{a}\right)\left(\left(-\frac{c}{b}\right) - y_0\right) + 0 \cdot (y_0 - 0)\right|$$
+$$
+\mathrm{Area} = \frac{1}{2}\left|x_0\left(0 - \left(-\frac{c}{b}\right)\right) + \left(-\frac{c}{a}\right)\left(\left(-\frac{c}{b}\right) - y_0\right) + 0 \cdot (y_0 - 0)\right|
+$$
 
 This simplifies to $\frac{|ax_0 + by_0 + c| \cdot |c|}{2|ab|}$. Therefore:
 
-$$d = \frac{2 \cdot \frac{|ax_0 + by_0 + c| \cdot |c|}{2|ab|}}{\frac{|c|\sqrt{a^2 + b^2}}{|ab|}} = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}} \quad \blacksquare$$
+$$
+d = \frac{2 \cdot \frac{|ax_0 + by_0 + c| \cdot |c|}{2|ab|}}{\frac{|c|\sqrt{a^2 + b^2}}{|ab|}} = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}} \quad \blacksquare
+$$
 
 <details>
 <summary>Alternative proof (perpendicular line method)</summary>
 The line $ax + by + c = 0$ has gradient $m = -\frac{a}{b}$ (assuming $b \neq 0$).
 
-The perpendicular through $(x_0, y_0)$ has gradient $\frac{b}{a}$Giving equation:
+The perpendicular through $(x_0, y_0)$ has gradient $\frac{b}{a}$ Giving equation:
 
-$$y - y_0 = \frac{b}{a}(x - x_0) \implies bx - ay + (ay_0 - bx_0) = 0$$
+$$
+y - y_0 = \frac{b}{a}(x - x_0) \implies bx - ay + (ay_0 - bx_0) = 0
+$$
 
 Solving this simultaneously with $ax + by + c = 0$ gives the foot of the perpendicular $F$. Using
 Cramer's rule or substitution:
 
-$$x_F = \frac{b^2 x_0 - a b y_0 - a c}{a^2 + b^2}, \quad y_F = \frac{a^2 y_0 - a b x_0 - b c}{a^2 + b^2}$$
+$$
+x_F = \frac{b^2 x_0 - a b y_0 - a c}{a^2 + b^2}, \quad y_F = \frac{a^2 y_0 - a b x_0 - b c}{a^2 + b^2}
+$$
 
 The distance $PF$ is:
 
@@ -335,7 +399,9 @@ $$
 
 Taking the positive square root and absolute value:
 
-$$d = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}} \quad \blacksquare$$
+$$
+d = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}} \quad \blacksquare
+$$
 
 </details>
 
@@ -343,7 +409,9 @@ $$d = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}} \quad \blacksquare$$
 <summary>Worked example</summary>
 Find the shortest distance from $(5, -2)$ to the line $3x + 4y - 10 = 0$.
 
-$$d = \frac{|3(5) + 4(-2) - 10|}{\sqrt{9 + 16}} = \frac{|15 - 8 - 10|}{\sqrt{25}} = \frac{|-3|}{5} = \frac{3}{5}$$
+$$
+d = \frac{|3(5) + 4(-2) - 10|}{\sqrt{9 + 16}} = \frac{|15 - 8 - 10|}{\sqrt{25}} = \frac{|-3|}{5} = \frac{3}{5}
+$$
 
 </details>
 
@@ -356,7 +424,7 @@ $ax_0 + by_0 + c$ tells you which side of the line the point lies on.
 ## 7. Intersection of Two Circles
 
 **Theorem.** Two circles $C_1$ with centre $O_1$ and radius $r_1$ And $C_2$ with centre $O_2$ and
-Radius $r_2$Intersect if and only if the distance $d = |O_1 O_2|$ between their centres satisfies:
+Radius $r_2$ Intersect if and only if the distance $d = |O_1 O_2|$ between their centres satisfies:
 
 - **Two intersection points** when $|r_1 - r_2| < d < r_1 + r_2$;
 - **Externally tangent** (one point) when $d = r_1 + r_2$;
@@ -366,7 +434,7 @@ Radius $r_2$Intersect if and only if the distance $d = |O_1 O_2|$ between their 
 - **Concentric (no intersection unless $r_1 = r_2$)** when $d = 0$.
 
 _Proof._ The result follows directly from the triangle inequality applied to $\triangle O_1PO_2$
-Where $P$ is an intersection point. For $P$ to exist on both circles, $|O_1P| = r_1$ and
+where $P$ is an intersection point. For $P$ to exist on both circles, $|O_1P| = r_1$ and
 $|O_2P| = r_2$. The three lengths $r_1, r_2, d$ must form a valid triangle, which requires
 $|r_1 - r_2| < d < r_1 + r_2$. The boundary cases give tangency, and the impossible cases give no
 Intersection. $\blacksquare$
@@ -377,9 +445,11 @@ When two circles intersect, the line through both intersection points is called 
 To find its equation, subtract one circle equation from the other.
 
 **Method.** Given $C_1: x^2 + y^2 + D_1x + E_1y + F_1 = 0$ and
-$C_2: x^2 + y^2 + D_2x + E_2y + F_2 = 0$The common chord is:
+$C_2: x^2 + y^2 + D_2x + E_2y + F_2 = 0$ The common chord is:
 
-$$(D_1 - D_2)x + (E_1 - E_2)y + (F_1 - F_2) = 0$$
+$$
+(D_1 - D_2)x + (E_1 - E_2)y + (F_1 - F_2) = 0
+$$
 
 This is a straight line because subtracting eliminates the $x^2$ and $y^2$ terms.
 
@@ -389,16 +459,20 @@ Find the common chord of $C_1: x^2 + y^2 - 4x - 6y + 9 = 0$ and $C_2: x^2 + y^2 
 
 Subtracting $C_1$ from $C_2$:
 
-$$(2 - (-4))x + (2 - (-6))y + (-14 - 9) = 0$$
+$$
+(2 - (-4))x + (2 - (-6))y + (-14 - 9) = 0
+$$
 
-$$6x + 8y - 23 = 0$$
+$$
+6x + 8y - 23 = 0
+$$
 
 To verify, check that the centres are $(2, 3)$ and $(-1, -1)$ with radii $r_1 = \sqrt{4+9-9} = 2$
-And $r_2 = \sqrt{1+1+14} = 4$.
+and $r_2 = \sqrt{1+1+14} = 4$.
 
 Distance between centres: $d = \sqrt{(2-(-1))^2 + (3-(-1))^2} = \sqrt{9+16} = 5$.
 
-Since $|r_1 - r_2| = 2 < 5 < 6 = r_1 + r_2$The circles intersect at two points as expected.
+Since $|r_1 - r_2| = 2 < 5 < 6 = r_1 + r_2$ The circles intersect at two points as expected.
 
 </details>
 
@@ -420,7 +494,7 @@ X_3^2 + y_3^2 + D x_3 + E y_3 + F &= 0
 \end{aligned}
 $$
 
-Subtracting the first equation from the second and third eliminates $F$Yielding a $2 \times 2$
+Subtracting the first equation from the second and third eliminates $F$ Yielding a $2 \times 2$
 System in $D$ and $E$. Solve for $D$ and $E$ Then substitute back to find $F$.
 
 :::caution
@@ -464,14 +538,18 @@ Consistent with $AC$ being a diameter.
 
 **Definition.** A circle with centre $(a, b)$ and radius $r$ can be described parametrically as:
 
-$$x = a + r\cos\theta, \quad y = b + r\sin\theta$$
+$$
+x = a + r\cos\theta, \quad y = b + r\sin\theta
+$$
 
 Where $\theta$ is the angle measured anticlockwise from the positive $x$-direction to the radius
 Joining the centre to the point.
 
 For a circle centred at the origin this simplifies to:
 
-$$x = r\cos\theta, \quad y = r\sin\theta$$
+$$
+x = r\cos\theta, \quad y = r\sin\theta
+$$
 
 **Theorem.** Every point $(a + r\cos\theta, b + r\sin\theta)$ lies on the circle
 $(x - a)^2 + (y - b)^2 = r^2$.
@@ -487,8 +565,8 @@ $$
 \end{aligned}
 $$
 
-Since $\cos^2\theta + \sin^2\theta = 1$ for all $\theta$Every value of the parameter produces a
-Point on the circle.
+Since $\cos^2\theta + \sin^2\theta = 1$ for all $\theta$ Every value of the parameter produces a
+point on the circle.
 
 ### 9.1 Applications
 
@@ -505,13 +583,19 @@ A circle has centre $(2, -1)$ and radius $3$. Find the two points on the circle 
 
 Parametrically: $x = 2 + 3\cos\theta = 4$ So $\cos\theta = \frac{2}{3}$.
 
-$$\sin\theta = \pm\sqrt{1 - \frac{4}{9}} = \pm\frac{\sqrt{5}}{3}$$
+$$
+\sin\theta = \pm\sqrt{1 - \frac{4}{9}} = \pm\frac{\sqrt{5}}{3}
+$$
 
 The two points are:
 
-$$\left(4, -1 + 3 \cdot \frac{\sqrt{5}}{3}\right) = \left(4, -1 + \sqrt{5}\right)$$
+$$
+\left(4, -1 + 3 \cdot \frac{\sqrt{5}}{3}\right) = \left(4, -1 + \sqrt{5}\right)
+$$
 
-$$\left(4, -1 + 3 \cdot \left(-\frac{\sqrt{5}}{3}\right)\right) = \left(4, -1 - \sqrt{5}\right)$$
+$$
+\left(4, -1 + 3 \cdot \left(-\frac{\sqrt{5}}{3}\right)\right) = \left(4, -1 - \sqrt{5}\right)
+$$
 
 Verification using the Cartesian equation $(x-2)^2 + (y+1)^2 = 9$: when $x = 4$, $(y+1)^2 = 5$ So
 $y = -1 \pm \sqrt{5}$.
@@ -526,9 +610,13 @@ $y = -1 \pm \sqrt{5}$.
 
 <details>
 <summary>Solution</summary>
-$$m = \frac{3 - 5}{-1 - 2} = \frac{-2}{-3} = \frac{2}{3}$$
+$$
+m = \frac{3 - 5}{-1 - 2} = \frac{-2}{-3} = \frac{2}{3}
+$$
 
-$$y - 5 = \frac{2}{3}(x - 2) \implies 3y - 15 = 2x - 4 \implies 2x - 3y + 11 = 0$$
+$$
+y - 5 = \frac{2}{3}(x - 2) \implies 3y - 15 = 2x - 4 \implies 2x - 3y + 11 = 0
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Equation of a line](#22-equation-of-a-line)
@@ -547,7 +635,7 @@ $$
 \end{aligned}
 $$
 
-Centre: $(-4, 3)$Radius: $7$.
+Centre: $(-4, 3)$ Radius: $7$.
 
 </details>
 <b>If you get this wrong, revise:</b> [Expanded form](#32-expanded-form)
@@ -572,10 +660,10 @@ $$
 $x = 0$ or $x = -1$.
 
 Wait, that gives two intersection points. Let me check: actually $2x^2 + 2x = 0$ gives $x = 0$ and
-$x = -1$Which are two points $(0, 1)$ and $(-1, 0)$.
+$x = -1$ Which are two points $(0, 1)$ and $(-1, 0)$.
 
 So $y = x + 1$ is **not** tangent to $x^2 + y^2 = 1$. Let me reconsider the problem. Actually, this
-Line passes through two points on the circle, it is a secant, not a tangent.
+line passes through two points on the circle, it is a secant, not a tangent.
 
 If the problem instead asked about $y = x + c$ being tangent:
 
@@ -594,9 +682,13 @@ $4c^2 - 8(c^2 - 1) = 0 \implies -4c^2 + 8 = 0 \implies c = \pm\sqrt{2}$.
 <summary>Solution</summary>
 From (2): $x = y + 1$. Substitute into (1):
 
-$$3(y + 1) + 2y = 7 \implies 5y + 3 = 7 \implies y = \frac{4}{5}$$
+$$
+3(y + 1) + 2y = 7 \implies 5y + 3 = 7 \implies y = \frac{4}{5}
+$$
 
-$$x = \frac{4}{5} + 1 = \frac{9}{5}$$
+$$
+x = \frac{4}{5} + 1 = \frac{9}{5}
+$$
 
 Intersection: $\left(\frac{9}{5}, \frac{4}{5}\right)$.
 
@@ -630,11 +722,15 @@ Point $(4, 3)$.
 <summary>Solution</summary>
 The centre is $(2, -1)$. The gradient of the radius from $(2, -1)$ to $(4, 3)$ is:
 
-$$m_{\mathrm{radius}} = \frac{3 - (-1)}{4 - 2} = \frac{4}{2} = 2$$
+$$
+m_{\mathrm{radius}} = \frac{3 - (-1)}{4 - 2} = \frac{4}{2} = 2
+$$
 
 The tangent is perpendicular: $m_{\mathrm{tangent}} = -\frac{1}{2}$.
 
-$$y - 3 = -\frac{1}{2}(x - 4) \implies 2y - 6 = -x + 4 \implies x + 2y - 10 = 0$$
+$$
+y - 3 = -\frac{1}{2}(x - 4) \implies 2y - 6 = -x + 4 \implies x + 2y - 10 = 0
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Equation of a tangent](#42-equation-of-a-tangent-to-a-circle)
@@ -647,9 +743,13 @@ $$y - 3 = -\frac{1}{2}(x - 4) \implies 2y - 6 = -x + 4 \implies x + 2y - 10 = 0$
 <summary>Solution</summary>
 The perpendicular distance from $(x_0, y_0)$ to $ax + by + c = 0$ is:
 
-$$d = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}$$
+$$
+d = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}
+$$
 
-$$d = \frac{|2(3) - 1(1) + 4|}{\sqrt{4 + 1}} = \frac{|6 - 1 + 4|}{\sqrt{5}} = \frac{9}{\sqrt{5}} = \frac{9\sqrt{5}}{5}$$
+$$
+d = \frac{|2(3) - 1(1) + 4|}{\sqrt{4 + 1}} = \frac{|6 - 1 + 4|}{\sqrt{5}} = \frac{9}{\sqrt{5}} = \frac{9\sqrt{5}}{5}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Distance formula](#1-the-coordinate-plane)
@@ -663,7 +763,9 @@ At the point where $x = 1$.
 <summary>Solution</summary>
 When $x = 1$: $1 + y^2 - 4 + 6y + 4 = 0 \implies y^2 + 6y + 1 = 0$.
 
-$$y = \frac{-6 \pm \sqrt{36 - 4}}{2} = \frac{-6 \pm \sqrt{32}}{2} = -3 \pm 2\sqrt{2}$$
+$$
+y = \frac{-6 \pm \sqrt{36 - 4}}{2} = \frac{-6 \pm \sqrt{32}}{2} = -3 \pm 2\sqrt{2}
+$$
 
 Using the tangent formula for the general circle. First, rewrite as $(x - 2)^2 + (y + 3)^2 = 9$.
 Centre: $(2, -3)$.
@@ -673,11 +775,17 @@ $= \frac{-3 + 2\sqrt{2} + 3}{1 - 2} = \frac{2\sqrt{2}}{-1} = -2\sqrt{2}$.
 
 Tangent gradient: $\frac{1}{2\sqrt{2}} = \frac{\sqrt{2}}{4}$.
 
-$$y + 3 - 2\sqrt{2} = \frac{\sqrt{2}}{4}(x - 1)$$
+$$
+y + 3 - 2\sqrt{2} = \frac{\sqrt{2}}{4}(x - 1)
+$$
 
-$$4y + 12 - 8\sqrt{2} = \sqrt{2}\,x - \sqrt{2}$$
+$$
+4y + 12 - 8\sqrt{2} = \sqrt{2}\,x - \sqrt{2}
+$$
 
-$$\sqrt{2}\,x - 4y - 12 - 7\sqrt{2} = 0$$
+$$
+\sqrt{2}\,x - 4y - 12 - 7\sqrt{2} = 0
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Equation of a tangent](#42-equation-of-a-tangent-to-a-circle)
@@ -697,7 +805,9 @@ The line of centres is the $x$-axis. By symmetry, $PQ$ is perpendicular to the $
 
 Subtract the equations: $x^2 + y^2 - [(x-5)^2 + y^2] = 9 - 4$
 
-$$x^2 - x^2 + 10x - 25 = 5 \implies 10x = 30 \implies x = 3$$
+$$
+x^2 - x^2 + 10x - 25 = 5 \implies 10x = 30 \implies x = 3
+$$
 
 So $PQ$ is the vertical line $x = 3$. The $y$-coordinates satisfy $9 + y^2 = 9 \implies y = 0$.
 
@@ -722,7 +832,9 @@ Gradient of $AB$: $\frac{-1 - 7}{5 - 1} = \frac{-8}{4} = -2$.
 
 Perpendicular gradient: $\frac{1}{2}$.
 
-$$y - 3 = \frac{1}{2}(x - 3) \implies 2y - 6 = x - 3 \implies x - 2y + 3 = 0$$
+$$
+y - 3 = \frac{1}{2}(x - 3) \implies 2y - 6 = x - 3 \implies x - 2y + 3 = 0
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Perpendicular lines](#23-parallel-and-perpendicular-lines)
@@ -739,7 +851,9 @@ The line $3x + 4y - 5 = 0$ meets the axes at $A\!\left(\frac{5}{3}, 0\right)$ an
 
 Length of base $AB$:
 
-$$|AB| = \sqrt{\left(\frac{5}{3}\right)^2 + \left(\frac{5}{4}\right)^2} = \sqrt{\frac{25}{9} + \frac{25}{16}} = \sqrt{\frac{400 + 225}{144}} = \frac{\sqrt{625}}{12} = \frac{25}{12}$$
+$$
+|AB| = \sqrt{\left(\frac{5}{3}\right)^2 + \left(\frac{5}{4}\right)^2} = \sqrt{\frac{25}{9} + \frac{25}{16}} = \sqrt{\frac{400 + 225}{144}} = \frac{\sqrt{625}}{12} = \frac{25}{12}
+$$
 
 Area of $\triangle PAB$ using the determinant formula:
 
@@ -754,7 +868,9 @@ $$
 
 Since $\mathrm{Area} = \frac{1}{2} \times |AB| \times d$:
 
-$$\frac{65}{12} = \frac{1}{2} \times \frac{25}{12} \times d \implies d = \frac{65 \times 2}{25} = \frac{130}{25} = \frac{26}{5}$$
+$$
+\frac{65}{12} = \frac{1}{2} \times \frac{25}{12} \times d \implies d = \frac{65 \times 2}{25} = \frac{130}{25} = \frac{26}{5}
+$$
 
 Verification using the formula:
 $d = \frac{|3(1) + 4(7) - 5|}{\sqrt{9+16}} = \frac{|3 + 28 - 5|}{5} = \frac{26}{5}$.
@@ -772,30 +888,40 @@ $PQ$ and the length of $PQ$.
 <summary>Solution</summary>
 Subtracting $C_1$ from $C_2$:
 
-$$(2 - (-4))x + (4 - (-8))y + (-8 - 8) = 0$$
+$$
+(2 - (-4))x + (4 - (-8))y + (-8 - 8) = 0
+$$
 
-$$6x + 12y - 16 = 0 \implies 3x + 6y - 8 = 0$$
+$$
+6x + 12y - 16 = 0 \implies 3x + 6y - 8 = 0
+$$
 
 This is the equation of the common chord $PQ$.
 
-To find the length $PQ$First find the centres and radii.
+To find the length $PQ$ First find the centres and radii.
 
-$C_1$: $(x+1)^2 + (y-4)^2 = 1+16-8 = 9$ So centre $(-1, 4)$Radius $3$.
+$C_1$: $(x+1)^2 + (y-4)^2 = 1+16-8 = 9$ So centre $(-1, 4)$ Radius $3$.
 
-$C_2$: $(x-2)^2 + (y+2)^2 = 4+4+8 = 16$ So centre $(2, -2)$Radius $4$.
+$C_2$: $(x-2)^2 + (y+2)^2 = 4+4+8 = 16$ So centre $(2, -2)$ Radius $4$.
 
 Distance between centres: $d = \sqrt{(2-(-1))^2 + (-2-4)^2} = \sqrt{9+36} = \sqrt{45} = 3\sqrt{5}$.
 
 The distance from the centre of $C_1$ to the chord $PQ$ (line $3x + 6y - 8 = 0$):
 
-$$d_1 = \frac{|3(-1) + 6(4) - 8|}{\sqrt{9+36}} = \frac{|-3 + 24 - 8|}{\sqrt{45}} = \frac{13}{3\sqrt{5}}$$
+$$
+d_1 = \frac{|3(-1) + 6(4) - 8|}{\sqrt{9+36}} = \frac{|-3 + 24 - 8|}{\sqrt{45}} = \frac{13}{3\sqrt{5}}
+$$
 
 By Pythagoras' theorem in the right triangle formed by the centre, the midpoint of the chord, and an
-Endpoint:
+endpoint:
 
-$$\left(\frac{PQ}{2}\right)^2 = r_1^2 - d_1^2 = 9 - \frac{169}{45} = \frac{405 - 169}{45} = \frac{236}{45}$$
+$$
+\left(\frac{PQ}{2}\right)^2 = r_1^2 - d_1^2 = 9 - \frac{169}{45} = \frac{405 - 169}{45} = \frac{236}{45}
+$$
 
-$$PQ = 2\sqrt{\frac{236}{45}} = 2 \cdot \frac{2\sqrt{59}}{3\sqrt{5}} = \frac{4\sqrt{295}}{15}$$
+$$
+PQ = 2\sqrt{\frac{236}{45}} = 2 \cdot \frac{2\sqrt{59}}{3\sqrt{5}} = \frac{4\sqrt{295}}{15}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Intersection of two circles](#7-intersection-of-two-circles)
@@ -827,7 +953,7 @@ The circle is $x^2 + y^2 - 4x - 2y + 1 = 0$.
 
 Completing the square: $(x-2)^2 - 4 + (y-1)^2 - 1 + 1 = 0 \implies (x-2)^2 + (y-1)^2 = 4$.
 
-Centre: $(2, 1)$Radius: $2$. Note that $AC$ is a diameter: midpoint of $AC$ is $(2, 1)$ and
+Centre: $(2, 1)$ Radius: $2$. Note that $AC$ is a diameter: midpoint of $AC$ is $(2, 1)$ and
 $|AC| = 4 = 2r$.
 
 </details>
@@ -846,17 +972,23 @@ $\theta = \frac{\pi}{3}$.
 
 <details>
 <summary>Solution</summary>
-(a) Centre: $(1, -2)$Radius: $5$.
+(a) Centre: $(1, -2)$ Radius: $5$.
 
 (b) Set $y = -2 + 5\sin\theta = 1$ So $\sin\theta = \frac{3}{5}$.
 
-$$\cos\theta = \pm\sqrt{1 - \frac{9}{25}} = \pm\frac{4}{5}$$
+$$
+\cos\theta = \pm\sqrt{1 - \frac{9}{25}} = \pm\frac{4}{5}
+$$
 
 The two points are:
 
-$$\left(1 + 5 \cdot \frac{4}{5}, 1\right) = (5, 1)$$
+$$
+\left(1 + 5 \cdot \frac{4}{5}, 1\right) = (5, 1)
+$$
 
-$$\left(1 + 5 \cdot \left(-\frac{4}{5}\right), 1\right) = (-3, 1)$$
+$$
+\left(1 + 5 \cdot \left(-\frac{4}{5}\right), 1\right) = (-3, 1)
+$$
 
 (c) When $\theta = \frac{\pi}{3}$:
 $x = 1 + 5\cos\frac{\pi}{3} = 1 + \frac{5}{2} = \frac{7}{2}$
@@ -866,20 +998,30 @@ The point is $\left(\frac{7}{2}, -2 + \frac{5\sqrt{3}}{2}\right)$.
 
 The radius from $(1, -2)$ to this point has gradient:
 
-$$m_{\mathrm{radius}} = \frac{-2 + \frac{5\sqrt{3}}{2} - (-2)}{\frac{7}{2} - 1} = \frac{\frac{5\sqrt{3}}{2}}{\frac{5}{2}} = \sqrt{3}$$
+$$
+m_{\mathrm{radius}} = \frac{-2 + \frac{5\sqrt{3}}{2} - (-2)}{\frac{7}{2} - 1} = \frac{\frac{5\sqrt{3}}{2}}{\frac{5}{2}} = \sqrt{3}
+$$
 
 Tangent gradient:
 $m_{\mathrm{tangent}} = -\frac{1}{\sqrt{3}} = -\frac{\sqrt{3}}{3}$.
 
 Using point-slope form:
 
-$$y + 2 - \frac{5\sqrt{3}}{2} = -\frac{1}{\sqrt{3}}\left(x - \frac{7}{2}\right)$$
+$$
+y + 2 - \frac{5\sqrt{3}}{2} = -\frac{1}{\sqrt{3}}\left(x - \frac{7}{2}\right)
+$$
 
-$$\sqrt{3}\,y + 2\sqrt{3} - \frac{15}{2} = -x + \frac{7}{2}$$
+$$
+\sqrt{3}\,y + 2\sqrt{3} - \frac{15}{2} = -x + \frac{7}{2}
+$$
 
-$$x + \sqrt{3}\,y - \frac{7}{2} - 2\sqrt{3} + \frac{15}{2} = 0$$
+$$
+x + \sqrt{3}\,y - \frac{7}{2} - 2\sqrt{3} + \frac{15}{2} = 0
+$$
 
-$$x + \sqrt{3}\,y + 4 - 2\sqrt{3} = 0$$
+$$
+x + \sqrt{3}\,y + 4 - 2\sqrt{3} = 0
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Parametric equations of a circle](#9-parametric-equations-of-a-circle)
@@ -888,7 +1030,7 @@ $$x + \sqrt{3}\,y + 4 - 2\sqrt{3} = 0$$
 
 **Problem 15.** The circle $C$ has equation $x^2 + y^2 - 6x - 4y + 9 = 0$. The line $L$ passes
 Through the origin and is tangent to $C$. Find the possible equations of $L$ and the coordinates of
-The points of tangency.
+the points of tangency.
 
 <details>
 <summary>Solution</summary>
@@ -897,21 +1039,35 @@ Completing the square: $(x-3)^2 + (y-2)^2 = 4$ So centre $(3, 2)$ and radius $2$
 Let $L$ have equation $y = mx$ (passing through the origin). For $L$ to be tangent to $C$ Substitute
 into the circle equation:
 
-$$x^2 + m^2x^2 - 6x - 4mx + 9 = 0$$
+$$
+x^2 + m^2x^2 - 6x - 4mx + 9 = 0
+$$
 
-$$(1 + m^2)x^2 - (6 + 4m)x + 9 = 0$$
+$$
+(1 + m^2)x^2 - (6 + 4m)x + 9 = 0
+$$
 
 For tangency, $\Delta = 0$:
 
-$$(6 + 4m)^2 - 4(1 + m^2)(9) = 0$$
+$$
+(6 + 4m)^2 - 4(1 + m^2)(9) = 0
+$$
 
-$$36 + 48m + 16m^2 - 36 - 36m^2 = 0$$
+$$
+36 + 48m + 16m^2 - 36 - 36m^2 = 0
+$$
 
-$$-20m^2 + 48m = 0$$
+$$
+-20m^2 + 48m = 0
+$$
 
-$$-4m(5m - 12) = 0$$
+$$
+-4m(5m - 12) = 0
+$$
 
-$$m = 0 \quad \mathrm{or} \quad m = \frac{12}{5}$$
+$$
+m = 0 \quad \mathrm{or} \quad m = \frac{12}{5}
+$$
 
 **Case $m = 0$:** Line $y = 0$. Substituting back:
 $(1)x^2 - 6x + 9 = 0 \implies (x-3)^2 = 0 \implies x = 3$. Tangency point: $(3, 0)$.
@@ -919,9 +1075,13 @@ $(1)x^2 - 6x + 9 = 0 \implies (x-3)^2 = 0 \implies x = 3$. Tangency point: $(3, 
 **Case $m = \frac{12}{5}$:** Line $y = \frac{12}{5}x$. Substituting back:
 $\left(1 + \frac{144}{25}\right)x^2 - \left(6 + \frac{48}{5}\right)x + 9 = 0$.
 
-$$\frac{169}{25}x^2 - \frac{78}{5}x + 9 = 0 \implies 169x^2 - 390x + 225 = 0$$
+$$
+\frac{169}{25}x^2 - \frac{78}{5}x + 9 = 0 \implies 169x^2 - 390x + 225 = 0
+$$
 
-$$(13x - 15)^2 = 0 \implies x = \frac{15}{13}, \quad y = \frac{12}{5} \cdot \frac{15}{13} = \frac{36}{13}$$
+$$
+(13x - 15)^2 = 0 \implies x = \frac{15}{13}, \quad y = \frac{12}{5} \cdot \frac{15}{13} = \frac{36}{13}
+$$
 
 Tangency point: $\left(\frac{15}{13}, \frac{36}{13}\right)$.
 
@@ -975,21 +1135,7 @@ building a personal test matrix.
 - [Vectors](/maths/pure-mathematics/12-vectors/), The vector equation of a line and the dot product are applied in coordinate geometry proofs.
 - [Trigonometry](/maths/pure-mathematics/08-trigonometry/), Parametric equations of a circle use sine and cosine functions from trigonometry.
 
-```mermaid
-flowchart TD
-    A[04 Coordinates And Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

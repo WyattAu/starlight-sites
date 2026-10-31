@@ -37,12 +37,16 @@ storage mechanism. Version control is built on top of it.
 
 There are four types of Git objects:
 
+<div class="table-wrap">
+
 | Type       | Purpose           | Contains                                                               |
 | ---------- | ----------------- | ---------------------------------------------------------------------- |
 | **blob**   | File content      | Raw file bytes (no filename, no metadata)                              |
 | **tree**   | Directory listing | List of `(mode, name, SHA-1)` entries (blobs or subtrees)              |
 | **commit** | Snapshot metadata | Tree SHA-1, parent commit(s), author, committer, message, timestamp    |
 | **tag**    | Annotated tag     | Tag name, tagger, message, target commit SHA-1, optional GPG signature |
+
+</div>
 
 Every object is stored as a compressed file under `.git/objects/`Named by its SHA-1 hash. For
 example, an object with hash `a3f2b1c...` is stored at `.git/objects/a3/f2b1c...`.
@@ -128,11 +132,15 @@ copied configurations), identical content is stored exactly once.
 
 A tree object represents a **directory listing**. Each entry in a tree is a triple:
 
+<div class="table-wrap">
+
 | Field     | Description                                                                                                                |
 | --------- | -------------------------------------------------------------------------------------------------------------------------- |
 | **mode**  | File type and permissions (e.g., `100644` = regular file, `100755` = executable, `040000` = directory, `120000` = symlink) |
 | **name**  | Filename or directory name                                                                                                 |
 | **SHA-1** | Hash of the blob (for files) or subtree (for directories)                                                                  |
+
+</div>
 
 ### Tree Structure
 
@@ -186,12 +194,14 @@ must always produce the same tree hash.
 :::
 
 :::caution
-means `src` sorts as `src/`Which places it before `src-file` but after `src0`. This detail matters
+means `src` sorts as `src/`. Which places it before `src-file` but after `src0`. This detail matters
 if you are manually constructing tree objects.
 
 ## Commits
 
 A commit object is a **snapshot of the project at a point in time**, plus metadata. It contains:
+
+<div class="table-wrap">
 
 | Field         | Description                                                                                                          |
 | ------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -200,6 +210,8 @@ A commit object is a **snapshot of the project at a point in time**, plus metada
 | **author**    | Name, email, timestamp of the person who wrote the changes                                                           |
 | **committer** | Name, email, timestamp of the person who created the commit (may differ from author during `git rebase` or `git am`) |
 | **message**   | Commit message (includes optional trailers like `Co-authored-by:`)                                                   |
+
+</div>
 
 ### Commit Structure
 
@@ -240,11 +252,13 @@ In this graph:
 - `A` is the **root commit** (no parent).
 - `B` and `E` are **linear commits** (one parent each).
 - `F` is a **merge commit** (parents: `E` and `D`).
-- `main` points to `G``feature` points to `D`.
+- `main` points to `G`, `feature` points to `D`.
 
 ### Author vs Committer
 
 The distinction between author and committer is important in workflows where commits are rewritten:
+
+<div class="table-wrap">
 
 | Scenario                 | Author             | Committer          |
 | ------------------------ | ------------------ | ------------------ |
@@ -252,6 +266,8 @@ The distinction between author and committer is important in workflows where com
 | `git rebase`             | Original developer | Person who rebased |
 | `git am` (apply mailbox) | Patch sender       | Person who applied |
 | `git commit --amend`     | Original developer | Person who amended |
+
+</div>
 
 This separation preserves attribution while allowing history to be rewritten. `git log` shows both
 fields.
@@ -309,12 +325,16 @@ Release version 1.0
 
 ### When to Use Which
 
+<div class="table-wrap">
+
 | Use lightweight    | Use annotated                         |
 | ------------------ | ------------------------------------- |
 | Private bookmarks  | Public releases                       |
 | Temporary pointers | Signed releases (GPG)                 |
 | Personal workflow  | Semantic versioning milestones        |
 |                    | When you need metadata (date, tagger) |
+
+</div>
 :::
 
 :::tip
@@ -411,10 +431,6 @@ Use '--' to separate paths from revisions, like this:
 6. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

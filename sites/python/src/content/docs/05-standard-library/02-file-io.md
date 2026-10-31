@@ -28,7 +28,9 @@ Provides methods for reading, writing, and seeking.
 ### Modes
 
 The mode string controls what operations are permitted and whether the file is interpreted as text
-Or binary data. Modes are composed from the following characters:
+or binary data. Modes are composed from the following characters:
+
+<div class="table-wrap">
 
 | Character | Meaning                                                                                             |
 | --------- | --------------------------------------------------------------------------------------------------- |
@@ -39,6 +41,8 @@ Or binary data. Modes are composed from the following characters:
 | `b`       | Binary mode. Data is `bytes`No encoding, no newline translation.                                    |
 | `t`       | Text mode (default). Data is `str`Encoding applied, newline translation.                            |
 | `+`       | Update. Allows both reading and writing (file is not truncated on open for `r+`).                   |
+
+</div>
 
 The mode defaults to `"rt'` (read, text) if no mode is specified.
 
@@ -64,7 +68,7 @@ Newly created).
 
 The `x` mode is the safest way to create a new file because it fails atomically if the file already
 Exists. This prevents race conditions in concurrent environments where another process might create
-The file between your existence check and your open call.
+the file between your existence check and your open call.
 
 The `+` mode allows simultaneous reading and writing, but the seek position is shared. After
 Writing, the file position is at the end of the written data. You must seek back to the beginning to
@@ -90,7 +94,7 @@ Encodings include:
   byte).
 - `utf-16`: 2 or 4 bytes per character. May include a BOM (Byte Order Mark: `U+FEFF`) at the start.
   Files without a BOM are ambiguous in byte order. Rarely used for general text files.
-- `utf-16-le``utf-16-be`: Explicit endianness variants of UTF-16 without BOM.
+- `utf-16-le`, `utf-16-be`: Explicit endianness variants of UTF-16 without BOM.
 - `latin-1` / `iso-8859-1`: Single-byte encoding covering the first 256 Unicode code points. Every
   byte in `latin-1` is valid, so decoding never fails -- but the decoded text may be garbage if the
   file is not actually Latin-1.
@@ -102,6 +106,8 @@ Encodings include:
 
 Controls how encoding/decoding errors are handled:
 
+<div class="table-wrap">
+
 | Value                 | Behavior                                                                                                                                                          |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `"strict"` (default)  | Raises `UnicodeDecodeError` or `UnicodeEncodeError`.                                                                                                              |
@@ -112,9 +118,11 @@ Controls how encoding/decoding errors are handled:
 | `"namereplace"`       | Replaces unsupported characters with `\N{...}` escape sequences. Encode-only.                                                                                     |
 | `"xmlcharrefreplace"` | Replaces unsupported characters with XML numeric character references (e.g., `&#xff;`). Encode-only.                                                              |
 
+</div>
+
 The `surrogateescape` error handler is essential for handling filenames on Unix systems. Unix
 Filenames are arbitrary byte sequences (except `/` and `\0`), and they may not be valid UTF-8. When
-Python lists directory entries using `os.listdir()`It uses `surrogateescape` to decode the raw Bytes
+Python lists directory entries using `os.listdir()`. It uses `surrogateescape` to decode the raw Bytes
 into `str` objects. The resulting strings may contain surrogate code points, which are not Valid
 Unicode but can be round-tripped back to the original bytes by encoding with `surrogateescape`.
 
@@ -153,8 +161,10 @@ Parameters in Python's I/O system.
 By default (`newline=None`), Python performs **universal newline translation** on input and
 **platform-native newline writing** on output:
 
-- On read: `\n``\r\n`And `\r` are all translated to `\n`.
+- On read: `\n`, `\r\n` and `\r` are all translated to `\n`.
 - On write: `\n` is translated to the platform's line separator (`\n` on Unix, `\r\n` on Windows).
+
+<div class="table-wrap">
 
 | `newline` value     | Read behavior                          | Write behavior                              |
 | ------------------- | -------------------------------------- | ------------------------------------------- |
@@ -164,18 +174,20 @@ By default (`newline=None`), Python performs **universal newline translation** o
 | `"\r"`              | Only `\r` recognized as newline        | No translation                              |
 | `"\r\n"`            | Only `\r\n` recognized as newline      | No translation                              |
 
+</div>
+
 Setting `newline=""` (empty string) is the most common explicit choice. It enables universal newline
 Translation on read (so you always get `\n` regardless of the file's origin) while writing `\n`
 As-is on output (no platform-specific translation). This is what you want for source code files,
 Configuration files, and any text format that defines `\n` as the line separator.
 
 Setting `newline="\n"` disables all translation in both directions. The file is read and written
-As-is. Use this when you need to preserve the exact byte content of newlines.
+as-is. Use this when you need to preserve the exact byte content of newlines.
 
 ### The `closefd` Parameter
 
 When `closefd=True` (the default), closing the file object also closes the underlying file
-Descriptor. When `closefd=False`The file descriptor is not closed when the file object is closed.
+Descriptor. When `closefd=False`. The file descriptor is not closed when the file object is closed.
 This is only relevant when passing an existing file descriptor (integer) instead of a file path:
 
 ```python
@@ -215,18 +227,18 @@ finally:
 ```
 
 The `__enter__` method returns the file object itself (which is why `as f` gives you the same
-Object). The `__exit__` method calls `f.close()`Which flushes the write buffer and releases the File
+Object). The `__exit__` method calls `f.close()`. Which flushes the write buffer and releases the File
 descriptor back to the OS.
 
 ### Why You Must Always Use Context Managers for Files
 
-1. **Exception safety.** Without `with`Any exception between `open()` and `close()` leaks the file
+1. **Exception safety.** Without `with`. Any exception between `open()` and `close()` leaks the file
    descriptor. In a long-running process, leaked file descriptors accumulate until the process hits
    the OS limit ( 1024 or 65536 per process) and starts getting
    `OSError: [Errno 24] Too many open files`.
 
 2. **Buffer flushing.** `close()` flushes the write buffer. Without `close()`Data in the buffer may
-   never reach disk. The garbage collector will eventually call `close()`But the timing is
+   never reach disk. The garbage collector will eventually call `close()`. But the timing is
    nondeterministic -- it could be seconds or minutes later, and data could be lost if the process
    crashes.
 
@@ -247,7 +259,7 @@ The context manager protocol consists of two methods:
 - `__exit__(self, exc_type, exc_value, traceback)`: Called when the `with` block exits, whether
   normally or due to an exception. If an exception occurred, the three arguments are the exception
   type, value, and traceback. If no exception occurred, all three are `None`. If `__exit__` returns
-  `True`The exception is suppressed.
+  `True`. The exception is suppressed.
 
 For file objects, `__exit__` always calls `self.close()` and returns `None` (exceptions propagate).
 It does not suppress exceptions.
@@ -316,7 +328,7 @@ In binary mode:
 - Writing accepts `bytes` (or `bytearray`Or `memoryview`) objects. No encoding is performed.
 - No newline translation occurs. You get the raw bytes exactly as stored on disk.
 - `seek()` and `tell()` operate on byte positions. You can seek to any byte offset.
-- The `encoding``errors`And `newline` parameters are not accepted and will raise `ValueError`.
+- The `encoding`, `errors` and `newline` parameters are not accepted and will raise `ValueError`.
 
 ### When to Use Each
 
@@ -347,7 +359,7 @@ with open("file.txt", "r", encoding="utf-8") as f:
 ```
 
 This loads the entire file into memory. For large files (anything over available RAM minus the size
-Of other in-memory data), this will cause `MemoryError` or trigger aggressive swapping. Do not use
+of other in-memory data), this will cause `MemoryError` or trigger aggressive swapping. Do not use
 `f.read()` on files that may be large. Use iteration instead.
 
 ### `f.read(n)`
@@ -410,7 +422,7 @@ usage is bounded by the buffer size plus the longest line in the file, regardles
 size. This is the correct pattern for processing large files.
 
 The internal implementation uses a read-ahead buffer in `io.TextIOWrapper`. It reads a large chunk
-From the underlying `BufferedReader`Splits it into lines, and yields them one at a time. When the
+from the underlying `BufferedReader`Splits it into lines, and yields them one at a time. When the
 Buffer is exhausted, it reads another chunk. This amortizes the system call overhead while keeping
 Memory usage low.
 
@@ -419,11 +431,15 @@ Memory usage low.
 `f.tell()` returns the current position in the file (character offset in text mode, byte offset in
 Binary mode). `f.seek(offset, whence)` moves the position:
 
+<div class="table-wrap">
+
 | `whence`      | Meaning                                       |
 | ------------- | --------------------------------------------- |
 | `0` (default) | Absolute position from the start of the file. |
 | `1`           | Relative to the current position.             |
 | `2`           | Relative to the end of the file.              |
+
+</div>
 
 ```python
 with open("file.bin", "rb") as f:
@@ -436,19 +452,19 @@ with open("file.bin", "rb") as f:
 In text mode, seeking is restricted. You can only seek to positions returned by `f.tell()` (or to
 Position 0). Seeking to arbitrary positions is not allowed because the text wrapper cannot
 Efficiently determine character boundaries at arbitrary byte offsets. In binary mode, you can seek
-To any byte offset.
+to any byte offset.
 
 ### The Read Pointer
 
 The file position (read pointer, write pointer, or seek pointer -- it is a single pointer shared
-Between read and write operations in `+` mode) determines where the next read or write operation
-Will occur. Reads advance the pointer by the number of bytes/characters read. Writes advance it by
-The number of bytes/characters written. Seeks set it explicitly.
+between read and write operations in `+` mode) determines where the next read or write operation
+will occur. Reads advance the pointer by the number of bytes/characters read. Writes advance it by
+the number of bytes/characters written. Seeks set it explicitly.
 
 In `r+` mode, the initial position is at the start of the file. In `a` and `a+` mode, the initial
 Position for writing is at the end of the file, but the initial position for reading is at the
 Start. After a write in `a+` mode, a seek is required before reading (because the write position is
-At the end, but you may want to read from the beginning).
+at the end, but you may want to read from the beginning).
 
 ## Writing Files
 
@@ -466,7 +482,7 @@ with open("output.txt", "w", encoding="utf-8") as f:
 The return value may be less than the length of the input if the write was interrupted (e.g., by a
 Signal) or if the underlying system call performed a partial write. However, in practice on modern
 Operating systems with buffered I/O, the return value is almost always equal to the input length. If
-You need guaranteed complete writes, use `os.write()` on the raw file descriptor, or check the
+you need guaranteed complete writes, use `os.write()` on the raw file descriptor, or check the
 Return value and retry.
 
 ### `f.writelines()`
@@ -482,7 +498,7 @@ with open("output.txt", "w", encoding="utf-8") as f:
 Despite the name, `writelines()` does **not** add newlines between items. Each item must include its
 Own newline if desired. The name is misleading -- it writes all items from the iterable, not
 Individual lines. The primary advantage over a loop calling `f.write()` is that `writelines()` can
-Be more efficient because it avoids the overhead of repeated Python-level method calls.
+be more efficient because it avoids the overhead of repeated Python-level method calls.
 
 ### Flush Behavior
 
@@ -497,7 +513,7 @@ Buffer is flushed to the OS (via a `write()` system call) when:
 
 Note the distinction between "flushed to the OS" and "written to disk." The OS maintains its own
 Page cache. Data flushed from Python's buffer goes into the OS page cache, which may not be written
-To the physical disk for seconds or minutes. To ensure data is physically on disk (durability
+to the physical disk for seconds or minutes. To ensure data is physically on disk (durability
 Guarantee), you must call `os.fsync(f.fileno())` **after** `f.flush()`:
 
 ```python
@@ -508,7 +524,7 @@ with open("critical.dat", "wb") as f:
 ```
 
 `os.fsync()` is expensive because it forces a physical disk write (or at least an acknowledgment
-From the disk's write cache). Use it only when you need durability guarantees (database write-ahead
+from the disk's write cache). Use it only when you need durability guarantees (database write-ahead
 Logs, financial transaction records, etc.).
 
 ### Write Buffering Layers
@@ -532,7 +548,7 @@ When you call `f.write("data")`:
 
 Understanding this two-level buffering is critical for:
 
-- **Data loss scenarios.** If the process crashes after `f.write()` but before `f.flush()`The data
+- **Data loss scenarios.** If the process crashes after `f.write()` but before `f.flush()`. The data
   is in Python's buffer and is lost. If the process crashes after `f.flush()` but before the OS
   writes to disk, the data is in the OS page cache and is also lost (unless the disk has a
   battery-backed write cache).
@@ -543,11 +559,11 @@ Understanding this two-level buffering is critical for:
 ## `pathlib` Integration
 
 `pathlib.Path` provides a higher-level, object-oriented interface for file I/O. Every `Path` method
-That performs I/O has a corresponding `open()`-based implementation under the hood.
+that performs I/O has a corresponding `open()`-based implementation under the hood.
 
 ### `Path.open()`
 
-Equivalent to the built-in `open()`But the path is implicit:
+Equivalent to the built-in `open()`. But the path is implicit:
 
 ```python
 from pathlib import Path
@@ -609,9 +625,9 @@ Path("mydir/subdir").mkdir(parents=True, exist_ok=True)
 
 `parents=True` creates all intermediate directories (like `mkdir -p`). `exist_ok=True` suppresses
 `FileExistsError` if the directory already exists (but raises if the path exists as a file, not a
-Directory). Without `exist_ok=True``mkdir()` raises `FileExistsError` if the directory exists.
+Directory). Without `exist_ok=True`, `mkdir()` raises `FileExistsError` if the directory exists.
 
-### `Path.exists()``Path.is_file()``Path.is_dir()`
+### `Path.exists()`, `Path.is_file()`, `Path.is_dir()`
 
 ```python
 from pathlib import Path
@@ -624,7 +640,7 @@ print(p.is_dir())   # True if it's a directory (follows symlinks)
 
 Be aware of TOCTOU (Time Of Check, Time Of Use) races. Between calling `p.exists()` and opening the
 File, another process may delete or rename it. In concurrent environments, open the file and handle
-The `FileNotFoundError` rather than checking existence first.
+the `FileNotFoundError` rather than checking existence first.
 
 ### `Path.glob()` and `Path.rglob()`
 
@@ -660,7 +676,7 @@ List).
 ## `io` Module
 
 The `io` module provides Python's I/O stack as a set of composable classes. Understanding this stack
-Is essential for advanced I/O operations, custom stream implementations, and debugging I/O issues.
+is essential for advanced I/O operations, custom stream implementations, and debugging I/O issues.
 
 ### The I/O Stack
 
@@ -681,7 +697,7 @@ Application code (str/bytes)
 ```
 
 Each layer wraps the layer below it. The `open()` built-in assembles this stack automatically. You
-Can also construct it manually for fine-grained control.
+can also construct it manually for fine-grained control.
 
 ### `io.StringIO`
 
@@ -705,7 +721,7 @@ Use cases:
   necessarily faster than list-join for all cases).
 - Providing a file-like interface to string data.
 
-`io.StringIO` only works with `str`. If you need to work with `bytes`Use `io.BytesIO`.
+`io.StringIO` only works with `str`. If you need to work with `bytes`. Use `io.BytesIO`.
 
 ### `io.BytesIO`
 
@@ -738,7 +754,7 @@ view = buf.getbuffer()  # memoryview
 ### `io.BufferedReader` and `io.BufferedWriter`
 
 Buffered wrappers around raw I/O objects. You rarely construct these directly (the `open()` built-in
-Does it for you), but you may encounter them when working with sockets, pipes, or custom raw I/O:
+does it for you), but you may encounter them when working with sockets, pipes, or custom raw I/O:
 
 ```python
 import io
@@ -748,10 +764,10 @@ buffered = io.BufferedReader(raw, buffer_size=65536)
 data = buffered.read(1024)
 ```
 
-`BufferedReader` provides `read()``read1()` (unbuffered read of up to n bytes), `readinto()`
+`BufferedReader` provides `read()`, `read1()` (unbuffered read of up to n bytes), `readinto()`
 `peek()` (read without advancing the position), and `readline()`.
 
-`BufferedWriter` provides `write()``flush()`And internal buffer management.
+`BufferedWriter` provides `write()`, `flush()` and internal buffer management.
 
 ### `io.TextIOWrapper`
 
@@ -767,11 +783,11 @@ text = io.TextIOWrapper(buffered, encoding="utf-8", newline="\n")
 content = text.read()
 ```
 
-When you call `open("file.txt", "r", encoding="utf-8")`The returned object is an instance of
+When you call `open("file.txt", "r", encoding="utf-8")`. The returned object is an instance of
 `io.TextIOWrapper` that wraps a `io.BufferedReader` that wraps a `io.FileIO`.
 
 You can detach the underlying binary stream from a `TextIOWrapper` using `f.detach()`. This removes
-The text wrapper and returns the raw buffered stream. After detaching, the `TextIOWrapper` is
+the text wrapper and returns the raw buffered stream. After detaching, the `TextIOWrapper` is
 Unusable. This is useful when you need to switch between text and binary mode on the same underlying
 Stream (which is not otherwise possible with a single `open()` call).
 
@@ -803,7 +819,7 @@ Key parameters:
 - `suffix`: File extension. Useful for tools that inspect the extension.
 - `prefix`: Filename prefix for identification.
 - `dir`: Directory where the file is created. Defaults to the platform's temp directory.
-- `delete`: If `True` (default), the file is deleted when closed. If `False`The file persists.
+- `delete`: If `True` (default), the file is deleted when closed. If `False`. The file persists.
 
 **Critical limitation on Windows:** By default, `NamedTemporaryFile` opens the file with an
 Exclusive lock that prevents other processes from opening it. This means you cannot pass the
@@ -859,13 +875,13 @@ finally:
 ### Security Considerations
 
 `tempfile` uses `os.urandom()` to generate unpredictable filenames, preventing race conditions where
-An attacker pre-creates a file with a predictable name (symlink attacks). The default permissions
-Are `0o600` (owner read/write only). Never construct temporary filenames manually (e.g.,
+an attacker pre-creates a file with a predictable name (symlink attacks). The default permissions
+are `0o600` (owner read/write only). Never construct temporary filenames manually (e.g.,
 `f"/tmp/myapp_{os.getpid()}.dat"`) -- the predictability makes symlink attacks trivial.
 
 On shared systems (web servers, CI runners), the temp directory (`/tmp` on Unix) may be
 World-readable. Use `tempfile.mkstemp()` or `NamedTemporaryFile` with `dir` pointing to a directory
-With restricted permissions.
+with restricted permissions.
 
 ## Directory Traversal
 
@@ -932,7 +948,7 @@ Paths only (not directories without matches), and it is lazy (returns a generato
 
 `os.scandir()` is a lower-level directory iteration that returns `os.DirEntry` objects. Each
 `DirEntry` caches the `stat` result from the `readdir` system call, avoiding an extra `stat()` call
-When you check `entry.is_file()` or `entry.is_dir()`:
+when you check `entry.is_file()` or `entry.is_dir()`:
 
 ```python
 import os
@@ -986,7 +1002,7 @@ Using `os.walk()` and `os.unlink()` are error-prone and unnecessary.
 ### `mmap.mmap()`
 
 Memory-mapped files map a file's contents directly into the process's virtual address space. Reads
-And writes to the mapped region operate on the file data without explicit `read()` or `write()`
+and writes to the mapped region operate on the file data without explicit `read()` or `write()`
 Calls. The OS handles paging -- portions of the file are loaded into physical memory on demand and
 Written back when the OS decides to flush.
 
@@ -1066,7 +1082,7 @@ with open("file.txt", "w", encoding="utf-8") as f:
     f.write("café")
 ```
 
-On Windows, the default encoding is `cp1252`Which cannot encode characters outside the Latin-1 Range
+On Windows, the default encoding is `cp1252`. Which cannot encode characters outside the Latin-1 Range
 (e.g., CJK characters, emoji, many mathematical symbols). Writing such characters with the Default
 encoding raises `UnicodeEncodeError`. Always specify `encoding="utf-8"`.
 
@@ -1103,7 +1119,7 @@ reached, new `open()` calls raise `OSError: [Errno 24] Too many open files`.
 
 The garbage collector will eventually close files, but the timing is nondeterministic. In CPython,
 Reference counting closes files immediately when the last reference is dropped (in most cases), but
-In other implementations (PyPy, with its garbage collector), the delay can be significant. In all
+in other implementations (PyPy, with its garbage collector), the delay can be significant. In all
 Implementations, circular references prevent immediate collection.
 
 ```python
@@ -1121,7 +1137,7 @@ with open("file.txt", "r", encoding="utf-8") as f:
 ### Reading Large Files into Memory
 
 `f.read()` and `f.readlines()` load the entire file into memory. For a 10GB file, this requires 10GB
-Of RAM (plus Python object overhead, which roughly doubles the memory usage for text mode due to the
+of RAM (plus Python object overhead, which roughly doubles the memory usage for text mode due to the
 Str object structure). This triggers `MemoryError` or aggressive swapping.
 
 ```python
@@ -1175,7 +1191,7 @@ print(n)  # 5, not "hello"
 
 ### Mixing Read and Write in `+` Mode
 
-In `r+``w+`And `a+` modes, the file supports both reading and writing. However, the read and Write
+In `r+`, `w+` and `a+` modes, the file supports both reading and writing. However, the read and Write
 pointers are shared. After writing, you must seek or flush before reading. After reading, you Must
 seek before writing (because the read position may be in the middle of the file, and writing at That
 position would overwrite data without moving the write pointer to the end).
@@ -1187,14 +1203,14 @@ with open("file.txt", "r+", encoding="utf-8") as f:
     f.write(content.upper())
 ```
 
-Without the `f.seek(0)`The write would occur at the end of the file (where the read pointer
+Without the `f.seek(0)`. The write would occur at the end of the file (where the read pointer
 Stopped), not at the beginning.
 
 ### Using `pathlib` Methods Without Error Handling
 
 `Path.read_text()` raises `FileNotFoundError` if the file does not exist, `PermissionError` if
 Access is denied, and `UnicodeDecodeError` if the file content is not valid in the specified
-Encoding. These are the same errors as `open()`But the one-liner syntax makes it tempting to skip
+Encoding. These are the same errors as `open()`. But the one-liner syntax makes it tempting to skip
 Error handling:
 
 ```python
@@ -1259,13 +1275,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

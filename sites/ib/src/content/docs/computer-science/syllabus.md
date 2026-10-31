@@ -23,47 +23,55 @@ First assessment 2025. The course is organized into five core themes studied at 
 
 ### Theme 1: System Design
 
+<div class="table-wrap">
+
 | Topic                     | Level | Key Understanding                                                                                                                                                                 | Relevant Concepts                                                                                                                                                                                                          |
 | ------------------------- | ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1.1 System design         | SL/HL | Systems thinking principles, stakeholder perspectives, requirements specification, feasibility study, and project management methodologies for designing robust computing systems | Stakeholders, requirements, feasibility study, system specifications, project management (Gantt, PERT, agile, waterfall), prototyping, data flow diagrams (DFDs), system flowcharts, use case diagrams, process flowcharts |
 | 1.1 System design (HL)    | HL    | Extended system design including human-computer interaction, social and ethical considerations, and system integration complexities                                               | Human-computer interaction (HCI) principles, usability, accessibility, system integration, legacy systems, social and ethical considerations                                                                               |
 | 1.2 Computer architecture | SL/HL | Structure and function of processors, memory hierarchy, and the fetch-decode-execute cycle that underpins all computation                                                         | CPU components (ALU, CU, registers, buses), fetch-decode-execute cycle, RAM, ROM, cache, virtual memory, secondary storage, embedded systems, von Neumann architecture, Harvard architecture, parallel processing          |
-| 1.3 Boolean logic         | SL/HL | Application of Boolean algebra and truth tables to model and simplify digital logic circuits                                                                                      | Boolean operators (AND, OR, NOT, NAND, NOR, XOR, XNOR), truth tables, logic gates, Karnaugh maps, Boolean identities, De Morgan"s laws, simplification of expressions                                                      |
+| 1.3 Boolean logic         | SL/HL | Application of Boolean algebra and truth tables to model and simplify digital logic circuits                                                                                      | Boolean operators (AND, OR, NOT, NAND, NOR, XOR, XNOR), truth tables, logic gates, Karnaugh maps, Boolean identities, De Morgan's laws, simplification of expressions                                                      |
+
+</div>
 
 System design focuses on how computing systems are planned, analyzed, and constructed to meet
 Specified requirements. Students learn to identify all relevant stakeholders, gather both functional
-And non-functional requirements, and evaluate the feasibility of proposed solutions across
-Technical, economic, and operational dimensions. Project management methodologies such as Gantt
+and non-functional requirements, and evaluate the feasibility of proposed solutions across
+technical, economic, and operational dimensions. Project management methodologies such as Gantt
 Charts, PERT charts, and agile/waterfall models are used to plan and coordinate system development
 Timelines. Visual modeling tools including data flow diagrams (DFDs), system flowcharts, use case
 Diagrams, and process flowcharts are employed to communicate design decisions .
 
 At HL, system design extends to include human-computer interaction (HCI) principles, covering
 Usability heuristics, accessibility standards, and user experience design. Students consider the
-Challenges of system integration, particularly when incorporating legacy systems, and evaluate
+challenges of system integration, particularly when incorporating legacy systems, and evaluate
 Social and ethical considerations such as privacy, intellectual property, digital divide, and the
-Environmental impact of computing systems.
+environmental impact of computing systems.
 
 Computer architecture covers the internal structure of processors and the fetch-decode-execute
 Cycle. Students examine the von Neumann and Harvard architectures in depth, understand the role of
-The arithmetic logic unit (ALU), control unit (CU), registers (PC, MAR, MDR, CIR, accumulator), and
-System buses (data, address, control). The memory hierarchy from registers and cache (L1, L2, L3) to
+the arithmetic logic unit (ALU), control unit (CU), registers (PC, MAR, MDR, CIR, accumulator), and
+system buses (data, address, control). The memory hierarchy from registers and cache (L1, L2, L3) to
 RAM, ROM, and secondary storage devices (HDD, SSD, optical) is explored. Embedded systems and the
-Principles of parallel processing (multi-core, GPU computing) are also considered.
+principles of parallel processing (multi-core, GPU computing) are also considered.
 
 Boolean logic provides the mathematical foundation for digital circuits. Students construct truth
 Tables for expressions with up to four variables, apply Boolean identities and De Morgan's laws to
-Simplify expressions, and use Karnaugh maps for systematic optimization. Understanding of AND, OR,
+simplify expressions, and use Karnaugh maps for systematic optimization. Understanding of AND, OR,
 NOT, NAND, NOR, XOR, and XNOR gates is essential for analyzing and designing combinatorial logic
 Circuits.
 
 ### Theme 2: Computational Thinking
+
+<div class="table-wrap">
 
 | Topic                      | Level | Key Understanding                                                                                                                                 | Relevant Concepts                                                                                                                                                                                     |
 | -------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2.1 Computational thinking | SL/HL | Systematic approaches to problem decomposition, pattern recognition, abstraction, and algorithm design as foundational problem-solving strategies | Decomposition, pattern recognition, abstraction, algorithmic thinking, flowcharts, pseudocode, Nassi-Shneiderman diagrams, tracing algorithms                                                         |
 | 2.2 Algorithms             | SL/HL | Design, analysis, and comparison of standard algorithms for searching, sorting, and other common computational tasks                              | Linear search, binary search, bubble sort, selection sort, insertion sort, algorithm efficiency, Big-O notation (time and space complexity), best/average/worst case, recursion, recursive algorithms |
 | 2.3 Data structures        | SL/HL | Static and dynamic data structures for organizing, storing, and manipulating data in programs                                                     | Arrays (1D and 2D), records/structs, sets, linked lists, stacks, queues, trees (binary search trees), hash tables, comparison of structures, appropriate selection                                    |
+
+</div>
 
 Computational thinking is the cornerstone of the course and is assessed throughout all papers.
 Students practice four key techniques:
@@ -77,21 +85,23 @@ Flowcharts, pseudocode, and Nassi-Shneiderman diagrams are the standard notation
 Algorithms. Students must be able to trace through algorithms with test data and predict outputs.
 
 The algorithms topic covers fundamental searching and sorting algorithms. Students learn to
-Implement and trace linear search (O(n)) and binary search (O(log n)), as well as bubble sort
+implement and trace linear search (O(n)) and binary search (O(log n)), as well as bubble sort
 (O(n^2)), selection sort (O(n^2)), and insertion sort (O(n^2)). Algorithm efficiency is analyzed
 Using Big-O notation, distinguishing between best-case, average-case, and worst-case performance for
-Time and space complexity. Recursive algorithms and their base cases are introduced alongside
+time and space complexity. Recursive algorithms and their base cases are introduced alongside
 Iterative alternatives, with students expected to understand the call stack and how recursion is
-Resolved.
+resolved.
 
 Data structures at the SL/HL level include static structures such as one-dimensional and
-Two-dimensional arrays, records (structs), and sets, as well as dynamic structures including singly
-And doubly linked lists, stacks (LIFO), queues (FIFO), binary search trees, and hash tables.
+two-dimensional arrays, records (structs), and sets, as well as dynamic structures including singly
+and doubly linked lists, stacks (LIFO), queues (FIFO), binary search trees, and hash tables.
 Students evaluate the trade-offs between different structures in terms of access time, insertion,
 Deletion, searching, and memory usage, and must justify their choice of data structure for a given
 Problem.
 
 ### Theme 3: Programming
+
+<div class="table-wrap">
 
 | Topic                | Level | Key Understanding                                                                                                                        | Relevant Concepts                                                                                                                                                                                                                                                                                                                  |
 | -------------------- | ----- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -99,6 +109,8 @@ Problem.
 | 3.1 Programming (HL) | HL    | Advanced programming topics including concurrent processing, abstract data types, and further algorithm design                           | Concurrency, parallel processing, multi-threading, synchronization, deadlock, race conditions, advanced recursion                                                                                                                                                                                                                  |
 | 3.2 Abstraction      | SL/HL | The use of abstraction to manage complexity, including models, data abstraction, and the separation of specification from implementation | Conceptual vs. Physical models, data abstraction, procedural abstraction, classes as abstractions, APIs, information hiding, encapsulation, top-down design, stepwise refinement                                                                                                                                                   |
 | 3.3 Data management  | SL/HL | Principles of database design, data modeling, and query languages for efficient data storage, retrieval, and manipulation                | Relational databases, entity-relationship diagrams (ERDs), normalization (1NF, 2NF, 3NF), SQL (DDL, DML, queries, joins, subqueries), primary keys, foreign keys, referential integrity, transaction management (ACID), indexing, data dictionaries, big data concepts                                                             |
+
+</div>
 
 The programming theme covers fundamental constructs common to most imperative languages:
 
@@ -112,21 +124,23 @@ Students should understand the differences between programming paradigms includi
 Object-oriented, and functional approaches.
 
 Abstraction is explored as a strategy for managing complexity in software systems. Conceptual and
-Physical models are contrasted, and students learn how data abstraction and procedural abstraction
+physical models are contrasted, and students learn how data abstraction and procedural abstraction
 Reduce coupling between components. Classes serve as abstractions that encapsulate state
 (attributes) and behavior (methods). Application programming interfaces (APIs) and information
 Hiding demonstrate how specification is separated from implementation. Top-down design and stepwise
 Refinement are applied as structured approaches to program development.
 
 Data management introduces relational database design using entity-relationship diagrams (ERDs) to
-Model entities, attributes, relationships (one-to-one, one-to-many, many-to-many), and cardinality.
+model entities, attributes, relationships (one-to-one, one-to-many, many-to-many), and cardinality.
 Normalization to 1NF, 2NF, and 3NF eliminates redundancy and dependency anomalies. Students write
 SQL statements for DDL (CREATE, ALTER, DROP) and DML (INSERT, UPDATE, DELETE, SELECT with JOIN,
 GROUP BY, HAVING, ORDER BY, and subqueries). Transaction management, ACID properties, indexing, and
-Data dictionaries are covered alongside an introduction to big data concepts (volume, velocity,
+data dictionaries are covered alongside an introduction to big data concepts (volume, velocity,
 Variety, veracity).
 
 ### Theme 4: Networks
+
+<div class="table-wrap">
 
 | Topic                 | Level | Key Understanding                                                                                  | Relevant Concepts                                                                                                                                                                                                                                                                                              |
 | --------------------- | ----- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -134,9 +148,11 @@ Variety, veracity).
 | 4.1 Networks (HL)     | HL    | Advanced networking concepts including network security, encryption, and cloud computing           | Encryption (symmetric, asymmetric), digital certificates, PKI, VPN, firewalls, IDS/IPS, cloud computing models (IaaS, PaaS, SaaS), load balancing, quality of service (QoS), network troubleshooting                                                                                                           |
 | 4.2 Data transmission | SL/HL | Methods and principles of data transmission including signal types, protocols, and error detection | Analog vs. Digital signals, bit rate, baud rate, bandwidth, latency, synchronous vs. Asynchronous transmission, serial vs. Parallel transmission, simplex, half-duplex, full-duplex, multiplexing (FDM, TDM, STDM), error detection (parity check, checksum, CRC, Hamming code), error correction              |
 
+</div>
+
 Networks introduces the architecture, operation, and security of computer networks. Students study
 LAN, WAN, and WLAN configurations, compare network topologies (star, bus, ring, mesh, hybrid), and
-Distinguish between client-server and peer-to-peer models. The OSI seven-layer model (Physical, Data
+distinguish between client-server and peer-to-peer models. The OSI seven-layer model (Physical, Data
 Link, Network, Transport, Session, Presentation, Application) and the four-layer TCP/IP model
 Provide frameworks for understanding protocol stacks and the process of encapsulation.
 
@@ -163,14 +179,18 @@ Data transmission covers the physical characteristics of signal transmission:
 
 ### Theme 5: Computational Mathematics
 
+<div class="table-wrap">
+
 | Topic                      | Level | Key Understanding                                                                                                  | Relevant Concepts                                                                                                                                                                                                                                                                    |
 | -------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 5.1 Number systems         | SL/HL | Representation and conversion between number systems used in computing, and the handling of numeric data           | Binary, denary, hexadecimal, octal, conversions between bases, binary addition, subtraction (two's complement), representation of integers (signed magnitude, two's complement), representation of real numbers (floating point, IEEE 754), character encoding (ASCII, Unicode), BCD |
 | 5.2 Computational thinking | SL/HL | Mathematical foundations underpinning computational thinking including number theory, sequences, and combinatorics | Number theory (prime numbers, GCD, LCM), modular arithmetic, sequences and series, combinatorics (permutations, combinations), pigeonhole principle, mathematical induction, proof by contradiction                                                                                  |
 | 5.3 Logic gates            | SL/HL | Design and analysis of digital circuits using logic gates and Boolean expressions                                  | Logic gate diagrams, truth table construction from circuits, circuit simplification, half adder, full adder, multiplexers, flip-flops, D-type flip-flops, sequential logic, clock signals                                                                                            |
 
+</div>
+
 Number systems covers binary, denary (decimal), hexadecimal, and octal representations and
-Conversions between them. Students perform binary arithmetic including addition, subtraction using
+conversions between them. Students perform binary arithmetic including addition, subtraction using
 Two's complement, and multiplication. Integer representation methods (signed magnitude, one's
 Complement, two's complement) and floating-point representation following the IEEE 754 standard
 (sign bit, exponent, mantissa) are studied. Character encoding standards including ASCII (7-bit,
@@ -194,11 +214,15 @@ Multiplexers and demultiplexers as combinational selection circuits are also cov
 
 ### HL Extension
 
+<div class="table-wrap">
+
 | Topic                    | Level | Key Understanding                                                                                         | Relevant Concepts                                                                                                                                                                                    |
 | ------------------------ | ----- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Abstract data structures | HL    | Implementation and application of advanced data structures for efficient problem solving                  | Stacks, queues, linked lists, binary trees, BSTs, balanced trees (AVL), priority queues, heaps, graphs (adjacency matrix/list), Dijkstra's algorithm, minimum spanning tree (Prim's, Kruskal's)      |
 | Resource management      | HL    | Operating system concepts for managing hardware resources including memory, processes, and storage        | Process scheduling (FCFS, round robin, SJF, priority), memory management (paging, segmentation, virtual memory, page replacement: FIFO, LRU), disk scheduling, deadlock, multi-level feedback queues |
 | Control (OOP)            | HL    | Object-oriented programming principles and their role in software design, including advanced OOP concepts | Classes, objects, encapsulation, inheritance, polymorphism, abstraction, UML class diagrams, design patterns, SOLID principles                                                                       |
+
+</div>
 
 The HL extension deepens understanding in three areas exclusive to Higher Level students.
 
@@ -208,7 +232,7 @@ Queues, heaps (min-heap, max-heap), and graphs. Graph algorithms including Dijks
 Algorithm and minimum spanning tree algorithms (Prim's, Kruskal's) are studied, with students
 Expected to trace through these algorithms step by step. Both adjacency matrix and adjacency list
 Representations are used. Students must justify the selection of data structures based on the
-Specific requirements of a problem.
+specific requirements of a problem.
 
 **Resource management** focuses on operating system responsibilities for managing hardware
 Resources:
@@ -232,9 +256,11 @@ Observer, singleton) and SOLID principles illustrate advanced OOP design strateg
 ### Paper 1
 
 A theory paper assessing knowledge and understanding of the syllabus content. Contains a mix of
-Short-answer and extended-response questions covering all five themes. Questions may require
+short-answer and extended-response questions covering all five themes. Questions may require
 Students to explain concepts, compare methodologies, analyze scenarios, and evaluate solutions. HL
 Students answer additional questions on the HL Extension topics. Calculators are not permitted.
+
+<div class="table-wrap">
 
 | Aspect      | SL      | HL                 |
 | ----------- | ------- | ------------------ |
@@ -242,13 +268,17 @@ Students answer additional questions on the HL Extension topics. Calculators are
 | Total marks | 80      | 100                |
 | Weighting   | 45%     | 45%                |
 
+</div>
+
 ### Paper 2
 
 A paper focused on problem-solving and programming. Includes questions requiring algorithm design,
 Pseudocode or flowchart construction, and program tracing. Students may be asked to complete
 Pseudocode, trace through algorithms with given test data and input values, predict outputs, and
-Suggest modifications to existing solutions. HL students encounter more complex algorithmic
+suggest modifications to existing solutions. HL students encounter more complex algorithmic
 Problems. Calculators are not permitted.
+
+<div class="table-wrap">
 
 | Aspect      | SL     | HL                |
 | ----------- | ------ | ----------------- |
@@ -256,14 +286,18 @@ Problems. Calculators are not permitted.
 | Total marks | 45     | 70                |
 | Weighting   | 25%    | 25%               |
 
+</div>
+
 ### Paper 3 (HL only)
 
 An HL-specific paper based on a previously issued case study published by the IB at the start of the
-Examination session (approximately 6 months before the exam). The case study describes a real-world
+examination session (approximately 6 months before the exam). The case study describes a real-world
 Computational scenario in detail, and students are expected to research and prepare extensively
-Before the exam. The paper assesses the application of syllabus content to this scenario, requiring
+before the exam. The paper assesses the application of syllabus content to this scenario, requiring
 Extended analysis, evaluation, and synthesis of information. Students must demonstrate depth of
-Understanding by connecting multiple topics from across the syllabus to the case study context.
+understanding by connecting multiple topics from across the syllabus to the case study context.
+
+<div class="table-wrap">
 
 | Aspect      | HL     |
 | ----------- | ------ |
@@ -271,11 +305,13 @@ Understanding by connecting multiple topics from across the syllabus to the case
 | Total marks | 40     |
 | Weighting   | 20%    |
 
+</div>
+
 ### Internal Assessment (IA)
 
 A computational solution project where students identify a problem for a specified client, design,
 Develop, test, and evaluate a software solution. Students must produce a functioning program and
-Supporting documentation covering the entire software development lifecycle:
+supporting documentation covering the entire software development lifecycle:
 
 1. **Planning** -- identifying the problem and client, feasibility assessment
 2. **Design** -- algorithm design, data structure selection, UI mockups
@@ -284,15 +320,21 @@ Supporting documentation covering the entire software development lifecycle:
 5. **Evaluation** -- success criteria, limitations, recommendations for improvement
 
 The project is internally assessed by teachers and externally moderated by the IB. Maximum marks: 34
-For both SL and HL. The IA is an individual piece of work and must be the student's own authentic
+for both SL and HL. The IA is an individual piece of work and must be the student's own authentic
 Work.
+
+<div class="table-wrap">
 
 | Aspect        | SL  | HL  |
 | ------------- | --- | --- |
 | Maximum marks | 34  | 34  |
 | Weighting     | 30% | 20% |
 
+</div>
+
 ## SL and HL Comparison
+
+<div class="table-wrap">
 
 | Aspect              | SL              | HL                                                           |
 | ------------------- | --------------- | ------------------------------------------------------------ |
@@ -300,6 +342,8 @@ Work.
 | Themes covered      | 1-5 (core only) | 1-5 plus HL Extension                                        |
 | HL Extension topics | Not studied     | Abstract data structures, Resource management, Control (OOP) |
 | Paper 3             | Not taken       | Required (case study based)                                  |
+
+</div>
 
 ## Topic Pages
 
@@ -327,27 +371,9 @@ Work.
 4. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-
-```mermaid
-flowchart TD
-    A[Syllabus] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

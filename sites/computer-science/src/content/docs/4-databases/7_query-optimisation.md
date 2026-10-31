@@ -19,7 +19,9 @@ description: 'The optimiser estimates the cost of alternative execution plans an
 
 ### 7.1 Query Processing Pipeline
 
-$$\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}$$
+$$
+\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}
+$$
 
 ### 7.2 Cost-Based Optimisation
 
@@ -31,8 +33,10 @@ Dominates.
 **Catalog statistics:** Table cardinality ($n$), attribute value cardinality, number of distinct
 Values, histogram of value distribution, index information.
 
-**Selectivity estimation.** For a predicate $\sigma_{A = v}(R)$The selectivity is approximately
+**Selectivity estimation.** For a predicate $\sigma_{A = v}(R)$ The selectivity is approximately
 $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
+
+<div class="table-wrap">
 
 | Predicate type              | Selectivity estimate                             |
 | --------------------------- | ------------------------------------------------ |
@@ -41,35 +45,47 @@ $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 | $A_1 = v_1 \land A_2 = v_2$ | $1 / V(A_1) \times 1 / V(A_2)$                   |
 | $A_1 = v_1 \lor A_2 = v_2$  | $1/V(A_1) + 1/V(A_2) - 1/(V(A_1) \times V(A_2))$ |
 
+</div>
+
 ### 7.3 Join Algorithms
 
-**Nested-loop join.** For each tuple in $R$Scan all of $S$.
+**Nested-loop join.** For each tuple in $R$ Scan all of $S$.
 
-$$\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)$$
+$$
+\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)
+$$
 
 If one relation fits in memory, buffer it and scan the other: cost = $n_R + n_S$.
 
 **Block nested-loop join.** Use $B$ buffer pages. Load blocks of $R$ into $B - 2$ buffers, scan $S$
 With the remaining buffer.
 
-$$\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S$$
+$$
+\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S
+$$
 
 **Sort-merge join.** Sort both relations on the join attribute, then merge.
 
-$$\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S$$
+$$
+\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S
+$$
 
 Efficient for large relations, especially when both are already sorted.
 
 **Hash join.** Build a hash table on the smaller relation (build phase), then probe with the larger
 (probe phase).
 
-$$\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}$$
+$$
+\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}
+$$
 
 Best for equi-joins when one relation fits in memory.
 
-**Index nested-loop join.** For each tuple in $R$Use an index on $S$ to find matching tuples.
+**Index nested-loop join.** For each tuple in $R$ Use an index on $S$ to find matching tuples.
 
-$$\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)$$
+$$
+\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)
+$$
 
 Efficient if $S$ has an index on the join attribute and $n_R$ is small.
 
@@ -88,6 +104,8 @@ Practical optimisers use dynamic programming with pruning.
 
 ### 7.5 Key Relationships Between Join Algorithms
 
+<div class="table-wrap">
+
 | Algorithm            | Best use case                    | Cost (pages)                  | Memory required |
 | -------------------- | -------------------------------- | ----------------------------- | --------------- |
 | Nested-loop          | Small $n_R$ (outer small)        | $n_R \cdot n_S$               | Minimal         |
@@ -95,6 +113,8 @@ Practical optimisers use dynamic programming with pruning.
 | Sort-merge           | Large tables, sorted input       | $2n_R\log n_R + 2n_S\log n_S + n_R + n_S$ | $B$ pages |
 | Hash                 | Equi-join, one relation fits     | $3(n_R + n_S)$                | Build table     |
 | Index nested-loop    | Small outer, indexed inner       | $n_R \cdot \text{(index cost)}$ | Minimal       |
+
+</div>
 
 ### 7.6 Common Pitfalls
 
@@ -138,6 +158,8 @@ selectivity $\approx 1/20 = 0.05$. Assuming independence: combined selectivity $
 
 ### 7.9 Summary Table of Optimisation Techniques
 
+<div class="table-wrap">
+
 | Technique              | When to apply                       | Benefit                           |
 | ---------------------- | ----------------------------------- | --------------------------------- |
 | Predicate pushdown     | Filter after scan                   | Reduces rows early                |
@@ -146,16 +168,7 @@ selectivity $\approx 1/20 = 0.05$. Assuming independence: combined selectivity $
 | Index-only scan        | Covered query                       | Avoids table access               |
 | Materialised view      | Expensive aggregations              | Precomputes results               |
 
-
-```mermaid
-flowchart TD
-    A[7_Query Optimisation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 
@@ -169,23 +182,3 @@ Query optimisation is the difference between a librarian who checks every shelf 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

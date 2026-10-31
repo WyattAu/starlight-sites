@@ -22,11 +22,15 @@ description: "The classical fluctuation-dissipation theorem relates the autocorr
 The classical fluctuation-dissipation theorem relates the autocorrelation function of a fluctuating
 variable to the linear response function:
 
-$$\chi(t) = \frac{1}{k_BT}\frac{d}{dt}\langle A(t)A(0)\rangle$$
+$$
+\chi(t) = \frac{1}{k_BT}\frac{d}{dt}\langle A(t)A(0)\rangle
+$$
 
 For example, the velocity autocorrelation function of a Brownian particle:
 
-$$\langle v(t)v(0)\rangle = \frac{k_BT}{m}e^{-t/\tau}$$
+$$
+\langle v(t)v(0)\rangle = \frac{k_BT}{m}e^{-t/\tau}
+$$
 
 Gives the mobility $\mu = e\tau/m$ (Einstein relation).
 
@@ -34,27 +38,33 @@ Gives the mobility $\mu = e\tau/m$ (Einstein relation).
 
 The voltage noise spectrum across a resistor $R$ at temperature $T$:
 
-$$S_V(f) = 4k_BTR$$
+$$
+S_V(f) = 4k_BTR
+$$
 
 This is **white noise** (frequency-independent up to $f \sim k_BT/h$).
 
 The voltage fluctuation in bandwidth $\Delta f$:
 
-$$\langle V^2 \rangle = 4k_BTR\,\Delta f$$
+$$
+\langle V^2 \rangle = 4k_BTR\,\Delta f
+$$
 
 ### 19.3 Jarzynski Equality
 
 The **Jarzynski equality** (1997) connects non-equilibrium work to equilibrium free energy
 differences:
 
-$$\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$$
+$$
+\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}
+$$
 
 Where the average is over many realisations of a process that drives the system from equilibrium
 state $A$ to equilibrium state $B$ in time $\tau$.
 
 **Consequences:**
 
-- By Jensen"s inequality: $\langle W \rangle \geq \Delta F$ (the average work is never less than the
+- By Jensen's inequality: $\langle W \rangle \geq \Delta F$ (the average work is never less than the
   free energy change).
 - For quasi-static processes: $\langle W \rangle = \Delta F$ and the distribution of $W$ is a delta
   function.
@@ -68,34 +78,44 @@ DNA hairpins) using optical tweezers.
 
 The **Crooks theorem** (1999) relates the work distributions for forward and reverse processes:
 
-$$\frac{P_F(W)}{P_R(-W)} = e^{\beta(W - \Delta F)}$$
+$$
+\frac{P_F(W)}{P_R(-W)} = e^{\beta(W - \Delta F)}
+$$
 
 Where $P_F(W)$ is the probability distribution of work for the forward process and $P_R(W)$ for the
 reverse process.
 
 This implies the Jarzynski equality as a special case:
 
-$$\int P_F(W)\,e^{-\beta W}\,dW = \int P_R(-W)\,e^{-\beta\Delta F}\,dW = e^{-\beta\Delta F}$$
+$$
+\int P_F(W)\,e^{-\beta W}\,dW = \int P_R(-W)\,e^{-\beta\Delta F}\,dW = e^{-\beta\Delta F}
+$$
 
 <details>
 <summary>Worked Example 19.1: Jarzynski Equality for a Two-Level System</summary>
 
-Consider a two-level system with $\epsilon_1 = 0$ and $\epsilon_2 = \epsilon$Initially in
+Consider a two-level system with $\epsilon_1 = 0$ and $\epsilon_2 = \epsilon$ Initially in
 equilibrium at inverse temperature $\beta$.
 
 The free energy: $F = -k_BT\ln Z = -k_BT\ln(1 + e^{-\beta\epsilon})$.
 
 Now the energy gap is suddenly changed from $\epsilon$ to $\epsilon"$. The work done is:
 
-$$W = \begin{cases} 0 & \text{with} prob.  p_1 = 1/Z \\ \epsilon' - \epsilon & \text{with} prob.  p_2 = e^{-\beta\epsilon}/Z \end{cases}$$
+$$
+W = \begin{cases} 0 & \text{with} prob.  p_1 = 1/Z \\ \epsilon' - \epsilon & \text{with} prob.  p_2 = e^{-\beta\epsilon}/Z \end{cases}
+$$
 
 The Jarzynski average:
 
-$$\langle e^{-\beta W}\rangle = p_1 \cdot e^0 + p_2 \cdot e^{-\beta(\epsilon' - \epsilon)} = \frac{1}{Z} + \frac{e^{-\beta\epsilon'}}{Z} = \frac{1 + e^{-\beta\epsilon'}}{Z}$$
+$$
+\langle e^{-\beta W}\rangle = p_1 \cdot e^0 + p_2 \cdot e^{-\beta(\epsilon' - \epsilon)} = \frac{1}{Z} + \frac{e^{-\beta\epsilon'}}{Z} = \frac{1 + e^{-\beta\epsilon'}}{Z}
+$$
 
 The new free energy: $F' = -k_BT\ln(1 + e^{-\beta\epsilon'})$.
 
-$$e^{-\beta\Delta F} = e^{-\beta(F' - F)} = e^{-\beta F'}e^{\beta F} = (1 + e^{-\beta\epsilon'})\frac{1}{Z} = \langle e^{-\beta W}\rangle \quad \checkmark$$
+$$
+e^{-\beta\Delta F} = e^{-\beta(F' - F)} = e^{-\beta F'}e^{\beta F} = (1 + e^{-\beta\epsilon'})\frac{1}{Z} = \langle e^{-\beta W}\rangle \quad \checkmark
+$$
 
 The Jarzynski equality is verified exactly for this two-level system, even though the process is far
 from equilibrium (sudden quench).
@@ -104,6 +124,8 @@ from equilibrium (sudden quench).
 
 ### 19.5 Key Relationships
 
+<div class="table-wrap">
+
 | Theorem              | Statement                                                                     | Connection to equilibrium                      |
 | -------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------- |
 | Fluctuation-dissip.  | $\chi(t) = \frac{1}{k_BT}\frac{d}{dt}\langle A(t)A(0)\rangle$                 | Response $\leftrightarrow$ equilibrium fluctuations |
@@ -111,6 +133,8 @@ from equilibrium (sudden quench).
 | Einstein relation    | $D = \mu k_BT$                                                                | Diffusion $\leftrightarrow$ mobility            |
 | Jarzynski equality   | $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$                            | Non-equilibrium work $\leftrightarrow$ free energy |
 | Crooks theorem       | $P_F(W)/P_R(-W) = e^{\beta(W - \Delta F)}$                                    | Forward/reverse work distributions              |
+
+</div>
 
 The fluctuation-dissipation theorem unifies these: the Einstein relation and Johnson-Nyquist formula are special cases of the FDT applied to Brownian motion and electrical circuits, respectively.
 
@@ -131,6 +155,8 @@ The fluctuation-dissipation theorem unifies these: the Einstein relation and Joh
 
 ### 19.8 Summary Table
 
+<div class="table-wrap">
+
 | Concept                 | Type                | Domain                 | Key formula                                    |
 | ----------------------- | ------------------- | ---------------------- | ---------------------------------------------- |
 | Fluctuation-dissipation | General theorem     | Near equilibrium       | $\chi''(\omega) = \frac{\omega}{2k_BT}S_A(\omega)$ |
@@ -139,16 +165,7 @@ The fluctuation-dissipation theorem unifies these: the Einstein relation and Joh
 | Jarzynski equality      | Non-equilibrium     | Any driving protocol   | $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$ |
 | Crooks theorem          | Non-equilibrium     | Forward/reverse pairs  | $P_F(W)/P_R(-W) = e^{\beta(W - \Delta F)}$     |
 
-
-```mermaid
-flowchart TD
-    A[19_Irreversible Thermodynamics And Fluctuations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 
@@ -160,9 +177,13 @@ Irreversible thermodynamics describes systems that are driven away from equilibr
 
 **Solution.** The voltage noise spectral density is $S_V(f) = 4k_BTR = 4(1.38\times10^{-23})(300)(10^4) \approx 1.66\times10^{-16}$ V$^2$/Hz. In a $\Delta f = 1$ MHz bandwidth:
 
-$$\langle V^2\rangle = S_V\,\Delta f \approx 1.66\times10^{-16} \times 10^6 = 1.66\times10^{-10}\;\mathrm{V}^2$$
+$$
+\langle V^2\rangle = S_V\,\Delta f \approx 1.66\times10^{-16} \times 10^6 = 1.66\times10^{-10}\;\mathrm{V}^2
+$$
 
-$$V_{\rm rms} = \sqrt{1.66\times10^{-10}} \approx 1.29\times10^{-5}\;\mathrm{V} = 12.9\;\mu\mathrm{V}$$
+$$
+V_{\rm rms} = \sqrt{1.66\times10^{-10}} \approx 1.29\times10^{-5}\;\mathrm{V} = 12.9\;\mu\mathrm{V}
+$$
 
 The RC low-pass filter ($f_c = 1/(2\pi RC) \approx 16$ kHz) limits the effective bandwidth if the capacitor is considered, but at $f \ll f_c$ the full $1$ MHz bandwidth applies. This illustrates why sensitive electronics are cryogenically cooled: reducing $T$ from 300 K to 4 K reduces $V_{\rm rms}$ by $\sqrt{300/4} \approx 8.7\times$.
 
@@ -175,27 +196,7 @@ $\blacksquare$
 - [The Debye Model of Solids](/2-thermal-physics/16_the-debye-model-of-solids/) -- Phonon thermal conductivity in the Debye model is an irreversible transport process governed by the same fluctuation principles.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

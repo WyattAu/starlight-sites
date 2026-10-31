@@ -35,10 +35,7 @@ This section provides study materials and resources for geography. The Geography
 - [Practice Urban Environments](/geography/practice-urban-environments/)
 - [Urban Environments](/geography/urban-environments/)
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -48,7 +45,5 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 Keep practising and reviewing to master this topic.

@@ -32,6 +32,8 @@ Condition is met. It always works with a `std::unique_lock<std::mutex>`.
 
 Key operations:
 
+<div class="table-wrap">
+
 | Operation          | Description                                                          |
 | ------------------ | -------------------------------------------------------------------- |
 | `wait(lock)`       | Releases the lock, blocks the thread, re-acquires the lock on wakeup |
@@ -39,16 +41,18 @@ Key operations:
 | `notify_one()`     | Wakes one waiting thread                                             |
 | `notify_all()`     | Wakes all waiting threads                                            |
 
+</div>
+
 ### How `wait()` Works Internally
 
-When a thread calls `wait(lock)`The following sequence occurs:
+When a thread calls `wait(lock)`. The following sequence occurs:
 
 1. The thread atomically releases the mutex and blocks.
 2. When notified (or spuriously woken), the thread re-acquires the mutex before returning.
 3. The atomicity of "release mutex + block" is critical. Without it, a notification sent between
    the mutex release and the block would be lost.
 
-On Linux, `std::condition_variable` is implemented using `pthread_cond_t`Which uses the Futex system
+On Linux, `std::condition_variable` is implemented using `pthread_cond_t`. Which uses the Futex system
 call. The mutex is released atomically with the futex wait via `pthread_cond_wait` Which internally
 calls `futex_wait` with the mutex address as part of the wait queue.
 
@@ -132,7 +136,7 @@ int main() {
 ## `std::condition_variable_any`
 
 `std::condition_variable_any` [N4950 §31.5.5] is similar to `std::condition_variable` but can work
-With any **Lockable** type (not just `std::unique_lock<std::mutex>`). It may be less efficient than
+with any **Lockable** type (not just `std::unique_lock<std::mutex>`). It may be less efficient than
 `std::condition_variable` because it cannot use platform-specific optimizations that rely on
 `std::mutex`.
 
@@ -225,7 +229,7 @@ int main() {
 The predicate version of `wait_for` returns `true` if the predicate became `true` before the
 Timeout, and `false` if the timeout expired (regardless of whether the predicate is true at that
 Point). Without the predicate, `wait_for` returns `cv_status::no_timeout` if notified or
-`cv_status::timeout` if the timeout expired, spurious wakeups return `no_timeout`Which is another
+`cv_status::timeout` if the timeout expired, spurious wakeups return `no_timeout`. Which is another
 Reason to always use the predicate version.
 
 ## Producer-Consumer with Condition Variable
@@ -337,7 +341,9 @@ cv_.notify_one();  // Notify after lock is released
 
 `std::latch` [N4950 §31.4.4.3] is a one-shot synchronization primitive. It is initialized with a
 Count and threads decrement the count. When the count reaches zero, all threads waiting on the latch
-Are unblocked.
+are unblocked.
+
+<div class="table-wrap">
 
 | Operation            | Description                           |
 | -------------------- | ------------------------------------- |
@@ -345,6 +351,8 @@ Are unblocked.
 | `wait()`             | Blocks until the counter reaches zero |
 | `arrive_and_wait(n)` | Decrements by `n` and then waits      |
 | `try_wait()`         | Returns `true` if the counter is zero |
+
+</div>
 
 A latch is useful for **one-time barriers** such as waiting for all worker threads to finish
 Initialization before proceeding.
@@ -360,12 +368,16 @@ Once zero, the latch is "done" and all subsequent `wait()` calls return immediat
 `std::barrier` [N4950 §31.4.4.5] is a reusable synchronization point. Unlike `std::latch`A barrier
 Resets its counter after all threads arrive, allowing it to be reused across multiple phases.
 
+<div class="table-wrap">
+
 | Operation           | Description                                           |
 | ------------------- | ----------------------------------------------------- |
 | `arrive(arrival)`   | Decrements the expected count                         |
 | `wait()`            | Blocks until all threads have arrived                 |
 | `arrive_and_wait()` | Arrives and then waits                                |
 | `arrive_and_drop()` | Arrives and permanently decrements the expected count |
+
+</div>
 
 The barrier can accept a **completion function** that is executed once when all threads arrive,
 Before any waiting thread is released:
@@ -424,7 +436,7 @@ Threads from being released), and it must not throw.
 ### `arrive_and_drop`: Dynamic Thread Count
 
 `arrive_and_drop()` allows a thread to permanently reduce the expected thread count. This is useful
-When worker threads finish early and the remaining threads should synchronize with a smaller group:
+when worker threads finish early and the remaining threads should synchronize with a smaller group:
 
 ```cpp
 #include <iostream>
@@ -544,6 +556,8 @@ int main() {
 
 ## Choosing Between Synchronization Primitives
 
+<div class="table-wrap">
+
 | Requirement                         | Primitive                              | Rationale                       |
 | ----------------------------------- | -------------------------------------- | ------------------------------- |
 | One-time wait for N events          | `std::latch`                           | Single-use, no reset needed     |
@@ -551,6 +565,8 @@ int main() {
 | Wait for a condition to become true | `std::condition_variable`              | Flexible, works with predicates |
 | Wait for a single event (flag)      | `std::atomic<bool>` + `wait()` (C++20) | No mutex overhead               |
 | One-time initialization             | `std::call_once`                       | Guaranteed single execution     |
+
+</div>
 
 ## Intuition
 
@@ -600,7 +616,7 @@ cv.notify_one();
 ### Pitfall 3: Using `notify_all` When `notify_one` Suffices
 
 `notify_all` wakes every waiting thread, which causes a "thundering herd" problem: all threads wake
-Up, contend for the mutex, and all but one go back to sleep. Use `notify_one` when only one waiting
+up, contend for the mutex, and all but one go back to sleep. Use `notify_one` when only one waiting
 Thread can make progress:
 
 ```cpp
@@ -647,16 +663,6 @@ auto worker_safe = [&b](int id) {
 };
 ```
 
-```mermaid
-flowchart TD
-    A[4_Condition_Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to condition variables, latches, and
@@ -670,15 +676,10 @@ barriers, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## See Also
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

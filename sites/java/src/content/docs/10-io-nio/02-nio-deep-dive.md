@@ -18,10 +18,12 @@ description: "(New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-b
 ## NIO Overview
 
 `java.nio` (New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to
-The stream-based `java.io` API. NIO is designed for high-throughput I/O scenarios: network servers
+the stream-based `java.io` API. NIO is designed for high-throughput I/O scenarios: network servers
 Handling thousands of connections, file operations on large files, and memory-mapped I/O.
 
 ### Buffer vs Stream
+
+<div class="table-wrap">
 
 | Aspect          | Stream I/O (`java.io`)                    | NIO (`java.nio`)                            |
 | --------------- | ----------------------------------------- | ------------------------------------------- |
@@ -31,10 +33,12 @@ Handling thousands of connections, file operations on large files, and memory-ma
 | File operations | Sequential                                | Random access, memory-mapped                |
 | Threading model | One thread per connection                 | One thread for many connections (selectors) |
 
+</div>
+
 ## Buffers
 
 Buffers are the central data containers in NIO. A buffer is a fixed-capacity, in-memory container
-For data of a specific primitive type. All buffers extend `Buffer`.
+for data of a specific primitive type. All buffers extend `Buffer`.
 
 ### `ByteBuffer`
 
@@ -55,12 +59,16 @@ ByteBuffer wrapBuf = ByteBuffer.wrap(data);
 
 Every buffer has four core properties:
 
+<div class="table-wrap">
+
 | Property   | Description                                                                                                                            |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `capacity` | Maximum number of elements the buffer can hold. Set at creation, never changes.                                                        |
 | `position` | Index of the next element to read or write. Starts at 0, increments on read/write.                                                     |
 | `limit`    | First index that should not be read or written. For write mode, equals capacity. For read mode, equals the number of elements written. |
 | `mark`     | An optional bookmark (set via `mark()`Reset via `reset()`).                                                                            |
+
+</div>
 
 **Invariants:** `0 <= mark <= position <= limit <= capacity`
 
@@ -115,7 +123,7 @@ ByteBuffer direct = ByteBuffer.allocateDirect(1024);
 :::note
 Allocation cost is amortized over many I/O calls, and the avoidance of heap-to-native copies
 Improves throughput. Use heap buffers for short-lived buffers where allocation speed matters more
-Than I/O throughput.
+than I/O throughput.
 :::
 
 ### `get` and `put` Operations
@@ -176,7 +184,7 @@ Channels are bidirectional, a `FileChannel` can both read and write.
 ### `FileChannel`
 
 `FileChannel` provides random access to files. It is obtained from `FileInputStream`
-`FileOutputStream``RandomAccessFile`Or `FileChannel.open()`.
+`FileOutputStream`, `RandomAccessFile` or `FileChannel.open()`.
 
 ```java
 // From FileInputStream (read-only)
@@ -314,7 +322,7 @@ A `SelectionKey` represents the registration of a channel with a selector. It co
 
 - The channel being monitored.
 - The selector it is registered with.
-- The set of operations of interest (`OP_ACCEPT``OP_CONNECT``OP_READ``OP_WRITE`).
+- The set of operations of interest (`OP_ACCEPT`, `OP_CONNECT`, `OP_READ`, `OP_WRITE`).
 - The set of operations that are ready.
 - An attachment (arbitrary object).
 
@@ -610,11 +618,15 @@ try (FileChannel channel = FileChannel.open(Path.of("data.bin"),
 
 ### Map Modes
 
+<div class="table-wrap">
+
 | Mode         | Description                                                                          |
 | ------------ | ------------------------------------------------------------------------------------ |
 | `READ_ONLY`  | Read-only mapping. Attempts to modify the buffer throw `ReadOnlyBufferException`.    |
 | `READ_WRITE` | Read-write mapping. Changes are written back to the file.                            |
 | `PRIVATE`    | Copy-on-write. Changes are not written to the file; they are private to this buffer. |
+
+</div>
 
 ### Use Cases
 
@@ -794,7 +806,7 @@ public class BufferPool {
 
 Scatter/gather operations read from a channel into multiple buffers (scatter) or write from multiple
 Buffers to a channel (gather) in a single system call. This reduces the number of context switches
-Between user space and kernel space.
+between user space and kernel space.
 
 ```java
 // Gather write, write headers and body from separate buffers
@@ -995,17 +1007,11 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 NIO is built on three abstractions: buffers hold data, channels move data, and selectors monitor multiple channels for readiness. Think of a selector as a receptionist who handles many phone lines simultaneously, only picking up when someone calls. Selectors enable non-blocking I/O, where a single thread can manage thousands of connections. The buffer's flip, clear, and compact operations manage the transition between reading and writing modes, like flipping a notepad between write and read pages.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

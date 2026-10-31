@@ -25,7 +25,7 @@ categories:
 Computational thinking is a problem-solving approach that involves breaking down complex problems,
 Identifying patterns, abstracting details, and designing algorithms. This topic covers
 Decomposition, pattern recognition, abstraction, algorithm design, finite state machines, and
-Regular expressions.
+regular expressions.
 
 ## Four Pillars of Computational Thinking
 
@@ -58,7 +58,7 @@ Identifying similarities or trends in data or problems.
 
 **Example (OL):** When processing exam results, notice that the same steps apply to each subject:
 Read marks, calculate average, assign grade. The pattern can be generalised into a single function
-That accepts different data.
+that accepts different data.
 
 **Example (HL):** In a shopping system, the pattern for processing orders is the same regardless of
 Product type: validate order, check stock, process payment, generate receipt. A single
@@ -72,7 +72,7 @@ Focusing on the essential features of a problem while ignoring irrelevant detail
 Lights, while ignoring the colour of the cars or the brand.
 
 **Example (HL):** In object-oriented programming, a `Vehicle` class abstracts common properties
-(wheels, speed, colour) while `Car``Bicycle`And `Truck` inherit and specialise these properties.
+(wheels, speed, colour) while `Car`, `Bicycle` and `Truck` inherit and specialise these properties.
 
 ### Algorithm Design (OL/HL)
 
@@ -150,6 +150,8 @@ A vending machine accepts 50c and 1 euro coins and dispenses a drink costing 1.5
 
 **Inputs:** 50c, 1 euro.
 
+<div class="table-wrap">
+
 | Current state | Input  | Next state | Output                     |
 | ------------- | ------ | ---------- | -------------------------- |
 | $S_0$         | 50c    | $S_1$      | --                         |
@@ -158,6 +160,8 @@ A vending machine accepts 50c and 1 euro coins and dispenses a drink costing 1.5
 | $S_1$         | 1 euro | $S_3$      | Dispense drink             |
 | $S_2$         | 50c    | $S_3$      | Dispense drink             |
 | $S_2$         | 1 euro | $S_3$      | Dispense drink, return 50c |
+
+</div>
 
 ### State Transition Diagram
 
@@ -208,6 +212,8 @@ Unlocks it. Pushing it when unlocked lets one person through and locks it again.
 
 States: Locked, Unlocked. Inputs: coin, push.
 
+<div class="table-wrap">
+
 | State    | Input | Next State | Output         |
 | -------- | ----- | ---------- | -------------- |
 | Locked   | coin  | Unlocked   | --             |
@@ -215,11 +221,15 @@ States: Locked, Unlocked. Inputs: coin, push.
 | Unlocked | coin  | Unlocked   | --             |
 | Unlocked | push  | Locked     | Person through |
 
+</div>
+
 ## Regular Expressions (HL)
 
 A regular expression (regex) is a pattern used to match strings.
 
 ### Common Syntax
+
+<div class="table-wrap">
 
 | Symbol   | Meaning                                        |
 | -------- | ---------------------------------------------- |
@@ -235,6 +245,8 @@ A regular expression (regex) is a pattern used to match strings.
 | `\w`     | Any word character (alphanumeric + underscore) |
 | `{n}`    | Exactly n occurrences                          |
 | `{n,m}`  | Between n and m occurrences                    |
+
+</div>
 
 ### Examples in Python
 
@@ -277,7 +289,7 @@ print(re.match(pattern, "01-2345678"))   # No match
 ### Stepwise Refinement
 
 Break down the problem into sub-problems, then refine each sub-problem further until each step is
-Simple enough to implement.
+simple enough to implement.
 
 **Example (HL):** Calculate the average of a list of numbers, excluding the highest and lowest.
 
@@ -289,7 +301,7 @@ Level 1:
 4. Output the result.
 
 Level 2 (refine step 2): 2.1 Find the maximum value and its index. 2.2 Find the minimum value and
-Its index. 2.3 Remove both from the list.
+its index. 2.3 Remove both from the list.
 
 Level 3 (implement):
 
@@ -320,6 +332,8 @@ def mystery(n):
     return result
 ```
 
+<div class="table-wrap">
+
 | i   | result |
 | --- | ------ |
 | 1   | 1      |
@@ -327,6 +341,8 @@ def mystery(n):
 | 3   | 6      |
 | 4   | 24     |
 | 5   | 120    |
+
+</div>
 
 The function computes $n!$ (factorial). For $n = 5$: $5! = 120$.
 
@@ -341,6 +357,8 @@ def mystery2(n):
     return total
 ```
 
+<div class="table-wrap">
+
 | i   | n % i | n % i == 0 | total |
 | --- | ----- | ---------- | ----- |
 | 1   | 0     | True       | 1     |
@@ -348,6 +366,8 @@ def mystery2(n):
 | 3   | 0     | True       | 6     |
 | 4   | 2     | False      | 6     |
 | 5   | 1     | False      | 6     |
+
+</div>
 
 The function computes the sum of proper divisors of $n$. For $n = 6$: $1 + 2 + 3 = 6$. A number
 Equal to the sum of its proper divisors is called a **perfect number**.
@@ -417,7 +437,7 @@ print(f"Change: {change}")
 
 :::caution
 Denominations {1, 3, 4} and amount 6, the greedy approach gives 4 + 1 + 1 (3 coins), but the optimal
-Is 3 + 3 (2 coins).
+is 3 + 3 (2 coins).
 
 **Proof that greedy fails for {1, 3, 4} with amount 6.** Greedy: pick 4 (amount=2), pick 1
 (amount=1), pick 1 (amount=0). Total: 3 coins. Optimal: pick 3 (amount=3), pick 3 (amount=0). Total:
@@ -494,7 +514,7 @@ print(merge_sort(numbers))
 
 Split: [5, 2, 8] and [1, 9, 3]. Split [5, 2, 8]: [5] and [2, 8]. Split [2, 8]: [2] and [8]. Merge:
 [2, 8]. Merge [5] and [2, 8]: [2, 5, 8]. Split [1, 9, 3]: [1] and [9, 3]. Split [9, 3]: [9] and [3].
-Merge: [3, 9]. Merge [1] and [3, 9]: [1, 3, 9]. Merge [2, 5, 8] and [1, 3, 9]: [1, 2, 3, 5, 8, 9].
+merge: [3, 9]. Merge [1] and [3, 9]: [1, 3, 9]. Merge [2, 5, 8] and [1, 3, 9]: [1, 2, 3, 5, 8, 9].
 
 ## Greedy Algorithms in Detail (HL)
 
@@ -586,6 +606,8 @@ def mystery(n):
     return total
 ```
 
+<div class="table-wrap">
+
 | i   | n % i | n % i == 0 | total |
 | --- | ----- | ---------- | ----- |
 | 1   | 0     | True       | 1     |
@@ -594,7 +616,9 @@ def mystery(n):
 | 4   | 2     | False      | 6     |
 | 5   | 1     | False      | 6     |
 
-The function computes the sum of proper divisors. $1 + 2 + 3 = 6$. Since $6 = 6$The number 6 is A
+</div>
+
+The function computes the sum of proper divisors. $1 + 2 + 3 = 6$. Since $6 = 6$ The number 6 is A
 **perfect number**.
 
 ## Additional Practice Questions
@@ -693,8 +717,8 @@ otherwise.
 
 **Proof.** The loop examines every index from 0 to len(arr)-1.
 
-- If `target` is at index $k$: the loop reaches index $k$Finds `arr[k] == target`And returns $k$.
-- If `target` is not in the array: no index satisfies `arr[i] == target`So the loop completes
+- If `target` is at index $k$: the loop reaches index $k$ Finds `arr[k] == target`And returns $k$.
+- If `target` is not in the array: no index satisfies `arr[i] == target`. So the loop completes
   without returning, and the function returns -1.
 
 Both cases are correct. $lacksquare$
@@ -708,7 +732,7 @@ the End of the array.
 
 Base case ($k=0$): Before any passes, 0 elements are sorted. True.
 
-Inductive step: Assume after $k$ passes, the $k$ largest elements are sorted. In pass $k+1$Adjacent
+Inductive step: Assume after $k$ passes, the $k$ largest elements are sorted. In pass $k+1$ Adjacent
 Pairs are compared and swapped if out of order. The largest unsorted element "bubbles up" to
 position $n - k - 1$ (one position left of the previously sorted elements). After this pass, $k+1$
 elements Are sorted.
@@ -829,16 +853,6 @@ while x > 0:
 7. Write a regex that validates Irish car registration plates in the format XX-CC-XXXXXX (2 letters,
    2 digits, 1-6 digits).
 8. Explain the difference between backtracking and divide and conquer. Give an example of each.
-
-```mermaid
-flowchart TD
-    A[5_Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

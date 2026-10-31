@@ -55,6 +55,8 @@ $$
 \mathrm{dB = 10 \cdot \log_{10}\left(\frac{P_2}{P_1}\right)
 $$
 
+<div class="table-wrap">
+
 | Unit | Meaning                                     | Reference                |
 | ---- | ------------------------------------------- | ------------------------ |
 | dB   | Ratio of two power levels                   | $P_2 / P_1$              |
@@ -62,7 +64,11 @@ $$
 | dBi  | Antenna gain relative to isotropic radiator | Theoretical point source |
 | dBd  | Antenna gain relative to half-wave dipole   | Dipole antenna           |
 
+</div>
+
 Common dBm values:
+
+<div class="table-wrap">
 
 | Power  | dBm    |
 | ------ | ------ |
@@ -71,6 +77,8 @@ Common dBm values:
 | 100 mW | 20 dBm |
 | 1 W    | 30 dBm |
 | 4 W    | 36 dBm |
+
+</div>
 
 **Free Space Path Loss (FSPL):** The signal attenuation over distance in free space:
 
@@ -129,6 +137,8 @@ $$
 
 A higher SNR means better signal quality. Typical Wi-Fi requirements:
 
+<div class="table-wrap">
+
 | SNR (dB) | Quality     | Maximum MCS |
 | -------- | ----------- | ----------- |
 | $\lt$ 5  | Unusable    | --          |
@@ -139,10 +149,14 @@ A higher SNR means better signal quality. Typical Wi-Fi requirements:
 | 25 -- 40 | Excellent   | MCS 16-23   |
 | $\gt$ 40 | Outstanding | Maximum     |
 
+</div>
+
 **Signal-to-Interference-plus-Noise Ratio (SINR)** adds interference from other wireless devices to
 The noise floor. In dense environments, interference often dominates over thermal noise.
 
 ## 802.11 Standards Evolution
+
+<div class="table-wrap">
 
 | Standard | Wi-Fi Gen  | Year      | Freq (GHz) | Max PHY Rate | Modulation      | Max MIMO | Channel BW           |
 | -------- | ---------- | --------- | ---------- | ------------ | --------------- | -------- | -------------------- |
@@ -154,13 +168,15 @@ The noise floor. In dense environments, interference often dominates over therma
 | 802.11ax | Wi-Fi 6/6E | 2020/2021 | 2.4/5/6    | 9.6 Gbps     | OFDMA, 1024-QAM | 8x8      | 20/40/80/160 MHz     |
 | 802.11be | Wi-Fi 7    | 2024      | 2.4/5/6    | 46 Gbps      | 4096-QAM, MLO   | 16x16    | 20/40/80/160/320 MHz |
 
+</div>
+
 ### Key Improvements by Generation
 
 **802.11n (Wi-Fi 4):** Introduced MIMO (Multiple Input Multiple Output), channel bonding (40 MHz),
 And frame aggregation (A-MPDU, A-MSDU). These dramatically improved throughput and efficiency.
 
 **802.11ac (Wi-Fi 5):** Added wider channels (80/160 MHz), MU-MIMO (Multi-User MIMO) for downlink
-Only, 256-QAM modulation (8 bits per symbol), and explicit beamforming.
+only, 256-QAM modulation (8 bits per symbol), and explicit beamforming.
 
 **802.11ax (Wi-Fi 6/6E):** Introduced OFDMA (Orthogonal Frequency Division Multiple Access) for
 Efficient multi-user operation in both directions, BSS Coloring to reduce co-channel interference,
@@ -173,7 +189,7 @@ Flexible OFDMA scheduling.
 ### Theoretical vs Actual Throughput
 
 The PHY rate in the table above is the raw physical layer rate. Actual application-layer throughput
-Is significantly lower due to:
+is significantly lower due to:
 
 - 802.11 overhead: interframe spacing, ACKs, headers
 - Half-duplex nature: only one station transmits at a time
@@ -226,7 +242,7 @@ Emergency communication. No central management, no roaming support, and limited 
 
 **Fat AP (Autonomous AP):** The AP runs the full wireless protocol stack, handles all management
 Functions (authentication, roaming, RF management), and makes independent decisions. Configuration
-Is done on each AP individually. Scaling beyond a few APs becomes operationally burdensome.
+is done on each AP individually. Scaling beyond a few APs becomes operationally burdensome.
 
 **Thin AP (Lightweight AP):** The AP handles only the real-time 802.11 MAC layer functions. All
 Management, configuration, and policy decisions are made by a Wireless LAN Controller (WLC). The AP
@@ -251,8 +267,8 @@ CAPWAP (RFC 5415) defines the protocol between a WLC and its APs. It runs over U
 - **Data channel:** UDP port 5247 -- carries encapsulated client data frames.
 
 CAPWAP can operate in native (Layer 2) or tunnel (Layer 3) mode. In Layer 3 mode, the CAPWAP packets
-Are routed through the IP network, allowing the controller to be anywhere on the network, not just
-On the same subnet as the APs.
+are routed through the IP network, allowing the controller to be anywhere on the network, not just
+on the same subnet as the APs.
 
 ## 802.11 Frame Types
 
@@ -263,6 +279,8 @@ Control:
 
 Management frames are used for joining and leaving wireless networks. They are always sent at the
 Lowest mandatory data rate to ensure all stations can receive them.
+
+<div class="table-wrap">
 
 | Subtype | Name                   | Purpose                             |
 | ------- | ---------------------- | ----------------------------------- |
@@ -276,6 +294,8 @@ Lowest mandatory data rate to ensure all stations can receive them.
 | 10      | Authentication         | Open/Shared key authentication      |
 | 11      | Deauthentication       | Terminates association              |
 | 12      | Action                 | Spectrum management, QoS, etc.      |
+
+</div>
 
 Beacon frames are sent by the AP at a configurable interval (default: 100 ms, or 10 TUs -- Time
 Units, where 1 TU = 1024 microseconds). Beacons contain:
@@ -291,6 +311,8 @@ Units, where 1 TU = 1024 microseconds). Beacons contain:
 
 Control frames assist in the delivery of data frames. They do not carry upper-layer data.
 
+<div class="table-wrap">
+
 | Subtype | Name                  | Purpose                                        |
 | ------- | --------------------- | ---------------------------------------------- |
 | 8       | RTS (Request to Send) | Reserves the medium before transmission        |
@@ -298,14 +320,18 @@ Control frames assist in the delivery of data frames. They do not carry upper-la
 | 10      | ACK                   | Acknowledges successful frame reception        |
 | 11      | PS-Poll               | Sleeping client requests buffered data         |
 
+</div>
+
 RTS/CTS is used to mitigate the hidden node problem. Before transmitting a data frame, the sender
 Broadcasts an RTS. The receiver responds with a CTS. All stations hearing the CTS defer transmission
-For the duration specified in the CTS, even if they did not hear the RTS.
+for the duration specified in the CTS, even if they did not hear the RTS.
 
 ### Data Frames
 
 Data frames carry higher-layer (Layer 3+) payloads. They are the most common frame type on a busy
 Network.
+
+<div class="table-wrap">
 
 | Subtype | Name           | Purpose                                                                |
 | ------- | -------------- | ---------------------------------------------------------------------- |
@@ -314,6 +340,8 @@ Network.
 | 2       | Data + CF-Poll | Data with poll (Contention Free)                                       |
 | 4       | Null           | No data, used for power management (tells AP client is going to sleep) |
 | 12      | QoS Data       | Data frame with QoS priority (802.11e)                                 |
+
+</div>
 
 QoS Data frames include a QoS Control field that carries the Traffic Identifier (TID), UP (User
 Priority), and other QoS parameters. WMM (Wi-Fi Multimedia) maps the 8 User Priority values to 4
@@ -342,7 +370,7 @@ Minute.
 
 ### WPA (Wi-Fi Protected Access) -- Obsolete
 
-WPA was an interim solution designed to address WEP"s weaknesses before 802.11i was finalized.
+WPA was an interim solution designed to address WEP's weaknesses before 802.11i was finalized.
 
 - **Encryption:** TKIP (Temporal Key Integrity Protocol) -- still uses RC4, but adds a per-packet
   key mixing function, a 48-bit IV, and a cryptographic MIC (Michael).
@@ -350,7 +378,7 @@ WPA was an interim solution designed to address WEP"s weaknesses before 802.11i 
 - **Key derivation:** PBKDF2 with 4096 iterations, HMAC-SHA1
 
 WPA is also broken. TKIP's Michael MIC can be forged, and the Beck-Tews attack (2009) can recover
-The keystream and inject packets within 12-15 minutes.
+the keystream and inject packets within 12-15 minutes.
 
 ### WPA2 (802.11i) -- Minimum Acceptable
 
@@ -380,6 +408,8 @@ WPA2 is the current minimum standard for Wi-Fi security.
 
 WPA3 addresses several weaknesses in WPA2:
 
+<div class="table-wrap">
+
 | Feature                   | WPA2                           | WPA3                                    |
 | ------------------------- | ------------------------------ | --------------------------------------- |
 | Offline dictionary attack | Possible on captured handshake | Prevented by SAE                        |
@@ -387,6 +417,8 @@ WPA3 addresses several weaknesses in WPA2:
 | Open network encryption   | None                           | OWE (Opportunistic Wireless Encryption) |
 | Key length                | 128-bit default                | 192-bit in WPA3-Enterprise              |
 | IoT                       | Limited                        | Enhanced Open for public networks       |
+
+</div>
 
 **SAE (Simultaneous Authentication of Equals):** WPA3-Personal replaces the PSK 4-way handshake with
 SAE, a dragonfly key exchange (RFC 7664). SAE is resistant to offline dictionary attacks because the
@@ -409,9 +441,11 @@ Encrypted link that protects against passive eavesdropping but does not authenti
 
 The EAP (Extensible Authentication Protocol) runs between the supplicant and the authentication
 Server, encapsulated in EAPOL (EAP over LAN) between the supplicant and authenticator, and RADIUS
-Between the authenticator and the authentication server.
+between the authenticator and the authentication server.
 
 Common EAP methods:
+
+<div class="table-wrap">
 
 | Method        | Mutual Auth | Certificates | Notes                              |
 | ------------- | ----------- | ------------ | ---------------------------------- |
@@ -419,6 +453,8 @@ Common EAP methods:
 | PEAP-MSCHAPv2 | Yes         | Server only  | Most common in enterprise          |
 | EAP-TTLS      | Yes         | Server only  | Flexible inner authentication      |
 | EAP-FAST      | Yes         | Server (PAC) | Cisco-proprietary, less common     |
+
+</div>
 
 ## Channel Allocation
 
@@ -433,7 +469,7 @@ Adjacent channels, only three non-overlapping channels are available:
 - **Channel 11:** 2462 MHz (center)
 
 In the United States, channels 1-11 are available. In Europe and most other regions, channels 1-13
-Are available. Channel 14 (2484 MHz) is available only in Japan.
+are available. Channel 14 (2484 MHz) is available only in Japan.
 
 Using overlapping channels (e.g., channels 1, 2, 3) causes co-channel interference and severely
 Degrades performance. Always use channels 1, 6, and 11 in a 2.4 GHz deployment.
@@ -486,6 +522,8 @@ Disruption. Use DFS channels for capacity, not for critical primary coverage.
 
 Channel bonding combines adjacent 20 MHz channels into wider channels for higher throughput:
 
+<div class="table-wrap">
+
 | Bonded Width | Channels Combined | Throughput Gain | Interference Risk |
 | ------------ | ----------------- | --------------- | ----------------- |
 | 20 MHz       | 1                 | Baseline        | Lowest            |
@@ -494,8 +532,10 @@ Channel bonding combines adjacent 20 MHz channels into wider channels for higher
 | 160 MHz      | 8                 | ~8x             | Very high         |
 | 320 MHz      | 16                | ~16x            | Extreme           |
 
+</div>
+
 In the 2.4 GHz band, bonding 40 MHz consumes the entire available spectrum, leaving no room for
-Other channels. In the 5 GHz band, 80 MHz bonding is common but requires careful channel planning.
+other channels. In the 5 GHz band, 80 MHz bonding is common but requires careful channel planning.
 In the 6 GHz band (Wi-Fi 6E/7), 160 MHz and even 320 MHz channels are practical due to the vast
 Available spectrum.
 
@@ -504,6 +544,8 @@ Available spectrum.
 ### Signal Strength
 
 Wi-Fi signal strength is measured in dBm (decibels relative to 1 milliwatt). Typical thresholds:
+
+<div class="table-wrap">
 
 | Signal (dBm) | Quality    | Usability                          |
 | ------------ | ---------- | ---------------------------------- |
@@ -514,6 +556,8 @@ Wi-Fi signal strength is measured in dBm (decibels relative to 1 milliwatt). Typ
 | -67 to -70   | Weak       | Data only, video unreliable        |
 | -70 to -80   | Very weak  | Intermittent connectivity          |
 | $\lt$ -80    | Unusable   | Connection unlikely                |
+
+</div>
 
 ### Interference Types
 
@@ -537,7 +581,7 @@ Phones, radar (5 GHz DFS channels), and medical equipment. These sources raise t
 Cause frame retransmissions.
 
 Mitigation: Use spectrum analysis to identify non-Wi-Fi interferers. Relocate APs or switch to 5 GHz
-Where non-Wi-Fi interference is less prevalent.
+where non-Wi-Fi interference is less prevalent.
 
 ### Diagnostic Tools
 
@@ -658,6 +702,8 @@ A proper site survey follows these phases:
 
 Approximate AP density guidelines:
 
+<div class="table-wrap">
+
 | Environment               | AP Density (per 1000 sq ft) | Typical Design              |
 | ------------------------- | --------------------------- | --------------------------- |
 | Office (data only)        | 1                           | Coverage-based              |
@@ -665,9 +711,13 @@ Approximate AP density guidelines:
 | High-density (auditorium) | 5-10                        | Capacity-based, small cells |
 | Warehouse                 | 0.5-1                       | Coverage-based, high-mount  |
 
+</div>
+
 ### Power over Ethernet (PoE)
 
 Most enterprise APs require PoE:
+
+<div class="table-wrap">
 
 | Standard               | Power per Port | Max Cable Length |
 | ---------------------- | -------------- | ---------------- |
@@ -676,12 +726,14 @@ Most enterprise APs require PoE:
 | 802.3bt (PoE++) Type 3 | 60 W           | 100 m            |
 | 802.3bt (PoE++) Type 4 | 90 W           | 100 m            |
 
+</div>
+
 Wi-Fi 6/6E/7 APs with multiple radios require PoE+ (30 W) or PoE++ (60 W). Verify power Requirements
 before deployment.
 
 Note that PoE power is delivered over Cat5e or better cable at distances up to 100 meters. Power
 Dissipation in the cable increases with distance, so an AP at 100 meters receives less usable power
-Than one at 30 meters. The IEEE standards specify the minimum power guaranteed at the powered device
+than one at 30 meters. The IEEE standards specify the minimum power guaranteed at the powered device
 (PD): 12.95 W for 802.3af, 25.5 W for 802.3at, 51 W for Type 3, and 73 W for Type 4.
 
 ### Roaming Optimization
@@ -728,7 +780,7 @@ Underutilized.
 ### WPA2 Enterprise Without Certificates
 
 Using PEAP-MSCHAPv2 without properly validating the server certificate means clients are vulnerable
-To evil twin attacks. An attacker can set up a rogue AP with a self-signed certificate and capture
+to evil twin attacks. An attacker can set up a rogue AP with a self-signed certificate and capture
 User credentials.
 
 ### Not Planning for DFS Events
@@ -766,7 +818,7 @@ $$
 $$
 
 An SNR of 36 dB is in the "Excellent" range, supporting the highest MCS rates. This is well above
-The minimum for reliable data throughput.
+the minimum for reliable data throughput.
 
 </details>
 
@@ -786,11 +838,15 @@ Channels with maximum separation.
 
 Recommended plan (20 MHz channels):
 
+<div class="table-wrap">
+
 | Floor | AP1 | AP2 | AP3 | AP4 |
 | ----- | --- | --- | --- | --- |
 | 3rd   | 36  | 149 | 44  | 157 |
 | 2nd   | 149 | 36  | 157 | 44  |
 | 1st   | 44  | 157 | 36  | 149 |
+
+</div>
 
 This ensures that APs in the same column on adjacent floors use widely separated channels (36 and
 149, for example, are separated by over 4 GHz), minimizing inter-floor interference. APs on the same
@@ -870,7 +926,7 @@ Retransmissions, and interference. This illustrates why mesh hops should be mini
 
 Two APs are on the same 5 GHz channel (channel 36). Each AP has 5 associated clients, and all
 Clients are actively transmitting. If the channel utilization is at 80% (meaning 80% of the airtime
-Is occupied), estimate the per-client throughput assuming each client's traffic is symmetric (equal
+is occupied), estimate the per-client throughput assuming each client's traffic is symmetric (equal
 Upload and download) and the PHY rate is 300 Mbps.
 
 <details>
@@ -927,17 +983,6 @@ Opportunities.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[Wireless Networking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to wireless networking, including
@@ -951,13 +996,7 @@ key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

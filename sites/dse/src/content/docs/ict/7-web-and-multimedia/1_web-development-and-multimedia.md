@@ -60,6 +60,8 @@ Every HTML document follows this fundamental structure:
 </html>
 ```
 
+<div class="table-wrap">
+
 | Component          | Purpose                                                       |
 | ------------------ | ------------------------------------------------------------- |
 | `<!DOCTYPE html>`  | Declares the document type as HTML5                           |
@@ -72,10 +74,14 @@ Every HTML document follows this fundamental structure:
 | `<body>`           | Contains all visible page content                             |
 | `<script>`         | Links to or embeds JavaScript code                            |
 
+</div>
+
 ### Semantic HTML
 
 Semantic elements describe their meaning to both the browser and the developer. Using Semantic HTML
 improves accessibility, SEO, and code maintainability.
+
+<div class="table-wrap">
 
 | Semantic Element | Purpose                                          | Non-Semantic Equivalent |
 | ---------------- | ------------------------------------------------ | ----------------------- |
@@ -90,6 +96,8 @@ improves accessibility, SEO, and code maintainability.
 | `<figcaption>`   | Caption for a `<figure>`                         | `<span>` or ``          |
 | `<time>`         | Date/time                                        | `<span>`                |
 | `<mark>`         | Highlighted text                                 | `<span>`                |
+
+</div>
 
 ### HTML Forms
 
@@ -133,6 +141,8 @@ Forms collect user input and submit it to a server for processing.
 </form>
 ```
 
+<div class="table-wrap">
+
 | Input Type | Purpose                                          | Validation                     |
 | ---------- | ------------------------------------------------ | ------------------------------ |
 | `text`     | Single-line text                                 | `maxlength``pattern``required` |
@@ -149,7 +159,11 @@ Forms collect user input and submit it to a server for processing.
 | `submit`   | Submits the form                                 | Triggers `action` URL          |
 | `reset`    | Resets all form fields to defaults               |                                |
 
+</div>
+
 **Form attributes:**
+
+<div class="table-wrap">
 
 | Attribute     | Description                                                        |
 | ------------- | ------------------------------------------------------------------ |
@@ -162,6 +176,8 @@ Forms collect user input and submit it to a server for processing.
 | `required`    | Field must be filled before submission                             |
 | `placeholder` | Hint text shown inside the field before user types                 |
 | `autofocus`   | Field receives focus when page loads                               |
+
+</div>
 
 ### HTML Tables
 
@@ -203,6 +219,8 @@ Forms collect user input and submit it to a server for processing.
 </table>
 ```
 
+<div class="table-wrap">
+
 | Element     | Purpose                                |
 | ----------- | -------------------------------------- |
 | `<table>`   | Container for the table                |
@@ -213,6 +231,8 @@ Forms collect user input and submit it to a server for processing.
 | `<tr>`      | Table row                              |
 | `<th>`      | Header cell (bold, centred by default) |
 | `<td>`      | Data cell                              |
+
+</div>
 
 ---
 
@@ -231,6 +251,8 @@ Forms collect user input and submit it to a server for processing.
 
 CSS selectors determine which HTML elements are targeted by style rules.
 
+<div class="table-wrap">
+
 | Selector Type        | Syntax          | Description                        | Specificity |
 | -------------------- | --------------- | ---------------------------------- | ----------- |
 | **Universal**        | `*`             | Selects all elements               | 0-0-0       |
@@ -244,12 +266,16 @@ CSS selectors determine which HTML elements are targeted by style rules.
 | **Pseudo-class**     | `a:hover`       | Element in a specific state        | 0-1-0       |
 | **Pseudo-element**   | `p::first-line` | Specific part of an element        | 0-0-1       |
 
+</div>
+
 **Specificity ordering (low to high):** Universal &lt; Element &lt; Class/Attribute/Pseudo-class
 &lt; ID &lt; Inline style &lt; `!important`
 
 ### CSS Properties -- Core Reference
 
 #### Text and Font Properties
+
+<div class="table-wrap">
 
 | Property          | Description                       | Example                            |
 | ----------------- | --------------------------------- | ---------------------------------- |
@@ -263,6 +289,8 @@ CSS selectors determine which HTML elements are targeted by style rules.
 | `color`           | Text colour                       | `#333333``rgb(51,51,51)`           |
 | `letter-spacing`  | Space between characters          | `1px``0.05em`                      |
 | `text-transform`  | Capitalisation                    | `uppercase``lowercase``capitalize` |
+
+</div>
 
 #### Box Model Properties
 
@@ -283,6 +311,8 @@ The CSS box model describes how every HTML element is rendered as a rectangular 
 +--------------------------------------------------+
 ```
 
+<div class="table-wrap">
+
 | Property                 | Description                                     |
 | ------------------------ | ----------------------------------------------- |
 | `width``height`          | Dimensions of the content area                  |
@@ -291,19 +321,23 @@ The CSS box model describes how every HTML element is rendered as a rectangular 
 | `margin`                 | Space outside the border                        |
 | `box-sizing: border-box` | Includes padding and border in the width/height |
 
+</div>
+
 **Total element width** (default `content-box`):
 
 $$
 \mathrm{Total Width} = \mathrm{margin-left} + \mathrm{border-left} + \mathrm{padding-left} + \mathrm{width} + \mathrm{padding-right} + \mathrm{border-right} + \mathrm{margin-right}
 $$
 
-With `box-sizing: border-box`The `width` property includes content, padding, and border:
+With `box-sizing: border-box`. The `width` property includes content, padding, and border:
 
 $$
 \mathrm{Total Width} = \mathrm{margin-left} + \mathrm{width} + \mathrm{margin-right}
 $$
 
 #### Layout Properties
+
+<div class="table-wrap">
 
 | Property   | Description                                     |
 | ---------- | ----------------------------------------------- |
@@ -314,7 +348,11 @@ $$
 | `overflow` | `visible``hidden``scroll``auto`                 |
 | `z-index`  | Stacking order for positioned elements          |
 
+</div>
+
 **Display types:**
+
+<div class="table-wrap">
 
 | Display Value  | Behaviour                                                                       |
 | -------------- | ------------------------------------------------------------------------------- |
@@ -324,6 +362,8 @@ $$
 | `flex`         | Flexbox container for flexible 1D layouts                                       |
 | `grid`         | CSS Grid container for 2D layouts                                               |
 | `none`         | Element is hidden and removed from layout flow                                  |
+
+</div>
 
 ### Flexbox Layout
 
@@ -345,6 +385,8 @@ Flexbox is a one-dimensional layout system for arranging items in rows or column
 }
 ```
 
+<div class="table-wrap">
+
 | Property          | Values                                                                    | Description                     |
 | ----------------- | ------------------------------------------------------------------------- | ------------------------------- |
 | `flex-direction`  | `row``column``row-reverse``column-reverse`                                | Direction of main axis          |
@@ -355,6 +397,8 @@ Flexbox is a one-dimensional layout system for arranging items in rows or column
 | `flex-grow`       | Number                                                                    | How much the item grows         |
 | `flex-shrink`     | Number                                                                    | How much the item shrinks       |
 | `flex-basis`      | Length value                                                              | Initial size before grow/shrink |
+
+</div>
 
 ### CSS Grid Layout
 
@@ -382,6 +426,8 @@ CSS Grid is a two-dimensional layout system for creating complex page layouts.
 }
 ```
 
+<div class="table-wrap">
+
 | Property                | Description                        |
 | ----------------------- | ---------------------------------- |
 | `grid-template-columns` | Defines column widths              |
@@ -390,6 +436,8 @@ CSS Grid is a two-dimensional layout system for creating complex page layouts.
 | `grid-row`              | Row start and end positions        |
 | `gap`                   | Space between rows and columns     |
 | `grid-area`             | Shorthand for row/column start/end |
+
+</div>
 
 ### Responsive Design
 
@@ -423,6 +471,8 @@ Responsive design ensures a website displays well on all screen sizes (desktop, 
 
 **Responsive units:**
 
+<div class="table-wrap">
+
 | Unit   | Description                                   |
 | ------ | --------------------------------------------- |
 | `px`   | Absolute pixels                               |
@@ -434,13 +484,19 @@ Responsive design ensures a website displays well on all screen sizes (desktop, 
 | `vmin` | Percentage of the smaller viewport dimension  |
 | `vmax` | Percentage of the larger viewport dimension   |
 
+</div>
+
 ### The Three Ways to Apply CSS
+
+<div class="table-wrap">
 
 | Method             | Syntax                                       | Specificity | Reusability |
 | ------------------ | -------------------------------------------- | ----------- | ----------- |
 | **Inline style**   | `<p style="color: red;">`                    | Highest     | None        |
 | **Internal style** | `<style>` block in `<head>`                  | Medium      | Page-level  |
 | **External style** | `<link rel="stylesheet" href="style.css" />` | Medium      | Site-wide   |
+
+</div>
 
 External stylesheets are the recommended approach for maintainability, caching, and consistency.
 
@@ -465,13 +521,19 @@ let counter = 0; // Block-scoped, reassignable
 const PI = 3.14159; // Block-scoped, cannot be reassigned
 ```
 
+<div class="table-wrap">
+
 | Keyword | Scope    | Reassignable | Hoisted | Use case                    |
 | ------- | -------- | ------------ | ------- | --------------------------- |
 | `var`   | Function | Yes          | Yes     | Legacy code (avoid)         |
 | `let`   | Block    | Yes          | No      | Variables that change       |
 | `const` | Block    | No           | No      | Constants, fixed references |
 
+</div>
+
 ### Data Types
+
+<div class="table-wrap">
 
 | Type        | Description                                | Examples                           |
 | ----------- | ------------------------------------------ | ---------------------------------- |
@@ -482,6 +544,8 @@ const PI = 3.14159; // Block-scoped, cannot be reassigned
 | `undefined` | Variable declared but not assigned         | `undefined`                        |
 | `Object`    | Key-value pairs                            | `{ name: "Alice", age: 20 }`       |
 | `Array`     | Ordered collection                         | `[1, 2, 3, "four"]`                |
+
+</div>
 
 ### Functions
 
@@ -535,7 +599,7 @@ while (count > 0) {
 ### DOM Manipulation
 
 The Document Object Model (DOM) represents the HTML document as a tree of objects. JavaScript can
-Traverse and modify this tree to change page content, structure, and style dynamically.
+traverse and modify this tree to change page content, structure, and style dynamically.
 
 **Selecting elements:**
 
@@ -572,7 +636,7 @@ document.getElementById('container').appendChild(newParagraph);
 ### Event Handling
 
 Events are actions or occurrences (click, hover, key press, form submission) that JavaScript can
-Respond to.
+respond to.
 
 ```javascript
 // Using addEventListener (recommended)
@@ -597,6 +661,8 @@ document.getElementById(''myForm").addEventListener('submit', function (event) {
 });
 ```
 
+<div class="table-wrap">
+
 | Common Events | Trigger                           |
 | ------------- | --------------------------------- |
 | `click`       | Mouse click on an element         |
@@ -610,6 +676,8 @@ document.getElementById(''myForm").addEventListener('submit', function (event) {
 | `load`        | Page or resource finishes loading |
 | `focus`       | Element receives focus            |
 | `blur`        | Element loses focus               |
+
+</div>
 
 ### Arrays
 
@@ -659,6 +727,8 @@ scores.sort(function (a, b) {
 
 ### Web Hosting Types
 
+<div class="table-wrap">
+
 | Hosting Type         | Description                                               | Cost     | Performance | Control      | Suitable For                 |
 | -------------------- | --------------------------------------------------------- | -------- | ----------- | ------------ | ---------------------------- |
 | **Shared hosting**   | Multiple websites share one server''s resources            | Low      | Low-Medium  | Limited      | Small sites, beginners       |
@@ -667,12 +737,14 @@ scores.sort(function (a, b) {
 | **Cloud hosting**    | Resources distributed across multiple servers (scalable)  | Variable | Scalable    | Medium-High  | Variable traffic, apps       |
 | **Free hosting**     | Limited resources, often with advertisements              | Free     | Low         | Very limited | Personal projects, testing   |
 
+</div>
+
 ### Domain Name Registration Process
 
 1. **Choose a domain name:** Select a name that is memorable, relevant, and available.
 2. **Check availability:** Use a domain registrar"s search tool to verify the name is not already
    registered.
-3. **Choose a TLD:** Select the appropriate top-level domain (`.com``.org``.edu``.hk`Etc.).
+3. **Choose a TLD:** Select the appropriate top-level domain (`.com`, `.org`, `.edu`, `.hk`. Etc.).
 4. **Register with a registrar:** Use an accredited registrar (e.g., GoDaddy, Namecheap, HKDNR for
    `.hk` domains).
 5. **Provide registrant information:** Name, contact details, administrative and technical contacts.
@@ -683,6 +755,8 @@ scores.sort(function (a, b) {
 
 ### Uploading Files to a Web Server
 
+<div class="table-wrap">
+
 | Method               | Description                                                                           |
 | -------------------- | ------------------------------------------------------------------------------------- |
 | **FTP/SFTP**         | File Transfer Protocol (FTP) or Secure FTP (SFTP) using a client like FileZilla       |
@@ -690,6 +764,8 @@ scores.sort(function (a, b) {
 | **SSH/SCP**          | Secure copy via command line                                                          |
 | **Git deployment**   | Push to a repository that triggers automatic deployment (e.g., GitHub Pages, Netlify) |
 | **CI/CD**            | Continuous Integration/Continuous Deployment pipelines                                |
+
+</div>
 
 ---
 
@@ -706,6 +782,8 @@ scores.sort(function (a, b) {
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Aspect                 | Client-Side                              | Server-Side                               |
 | ---------------------- | ---------------------------------------- | ----------------------------------------- |
 | **Execution location** | User's browser                           | Web server                                |
@@ -717,7 +795,11 @@ scores.sort(function (a, b) {
 | **Offline capability** | Can work offline (if cached)             | Requires internet connection              |
 | **Browser dependency** | Depends on browser compatibility         | Independent of browser                    |
 
+</div>
+
 ### When to Use Each
+
+<div class="table-wrap">
 
 | Scenario                                   | Client-Side or Server-Side | Reason                                               |
 | ------------------------------------------ | -------------------------- | ---------------------------------------------------- |
@@ -728,6 +810,8 @@ scores.sort(function (a, b) {
 | Search engine indexing                     | Server-side                | Search engines need server-rendered content          |
 | Image manipulation (resize, filter)        | Client-side (preview)      | For immediate feedback; final processing server-side |
 | Payment processing                         | Server-side                | Security: API keys and transaction logic hidden      |
+
+</div>
 
 ### Server-Side Processing Example
 
@@ -753,6 +837,8 @@ When a user submits a login form:
 
 ### Image Editing
 
+<div class="table-wrap">
+
 | Feature                 | Description                                                   | Purpose                               |
 | ----------------------- | ------------------------------------------------------------- | ------------------------------------- |
 | **Cropping**            | Remove outer parts of an image                                | Focus on subject, remove distractions |
@@ -765,7 +851,11 @@ When a user submits a login form:
 | **Clone/stamp tool**    | Copy pixels from one area to another                          | Remove blemishes, duplicate elements  |
 | **Colour modes**        | RGB for screen, CMYK for print                                | Output-specific preparation           |
 
+</div>
+
 ### Video Editing
+
+<div class="table-wrap">
 
 | Feature                  | Description                                                | Purpose                            |
 | ------------------------ | ---------------------------------------------------------- | ---------------------------------- |
@@ -777,7 +867,11 @@ When a user submits a login form:
 | **Colour grading**       | Adjust colour, contrast, and tone                          | Consistent visual style            |
 | **Rendering/export**     | Convert the edited project into a distributable video file | Final output in appropriate format |
 
+</div>
+
 **Common video formats:**
+
+<div class="table-wrap">
 
 | Format | Container | Video Codec    | Audio Codec | Typical Use               |
 | ------ | --------- | -------------- | ----------- | ------------------------- |
@@ -787,7 +881,11 @@ When a user submits a login form:
 | MOV    | MOV       | H.264 / ProRes | AAC         | Apple ecosystem           |
 | WebM   | WebM      | VP8 / VP9      | Vorbis      | Web (open source)         |
 
+</div>
+
 ### Animation
+
+<div class="table-wrap">
 
 | Animation Type     | Description                                                 | Tools                 |
 | ------------------ | ----------------------------------------------------------- | --------------------- |
@@ -797,6 +895,8 @@ When a user submits a login form:
 | **JavaScript**     | Animated via DOM manipulation and requestAnimationFrame     | Text editor           |
 | **SVG animation**  | Animated using SMIL or CSS                                  | Text editor, Inkscape |
 | **3D animation**   | Three-dimensional animated models                           | Blender, Maya         |
+
+</div>
 
 ---
 
@@ -816,6 +916,8 @@ When a user submits a login form:
 These heuristics, developed by Jakob Nielsen, are widely used principles for evaluating user
 Interface design.
 
+<div class="table-wrap">
+
 | Heuristic | Principle                                                   | Description                                                                                                                                                      |
 | --------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1         | **Visibility of system status**                             | The system should always inform users about what is going on through appropriate feedback within reasonable time                                                 |
@@ -829,7 +931,11 @@ Interface design.
 | 9         | **Help users recognise, diagnose, and recover from errors** | Error messages should be expressed in plain language, precisely indicate the problem, and constructively suggest a solution                                      |
 | 10        | **Help and documentation**                                  | Although better if the system can be used without documentation, it may be necessary to provide help and documentation searchable and focused on the user's task |
 
+</div>
+
 ### Key Design Principles
+
+<div class="table-wrap">
 
 | Principle         | Description                                                          | Application Example                      |
 | ----------------- | -------------------------------------------------------------------- | ---------------------------------------- |
@@ -842,7 +948,11 @@ Interface design.
 | **Simplicity**    | Keep the interface clean and uncluttered                             | Minimal elements, clear calls to action  |
 | **Navigation**    | Users should always know where they are and how to get elsewhere     | Breadcrumbs, navigation menu, sitemap    |
 
+</div>
+
 ### Colour and Accessibility
+
+<div class="table-wrap">
 
 | Consideration            | Description                                                                              |
 | ------------------------ | ---------------------------------------------------------------------------------------- |
@@ -851,7 +961,11 @@ Interface design.
 | **Red-green deficiency** | Most common form of colour blindness (affects ~8% of males)                              |
 | **High contrast mode**   | Support system-level high contrast settings                                              |
 
+</div>
+
 ### Mobile Interface Considerations
+
+<div class="table-wrap">
 
 | Consideration       | Description                                               |
 | ------------------- | --------------------------------------------------------- |
@@ -860,6 +974,8 @@ Interface design.
 | **Orientation**     | Support both portrait and landscape modes                 |
 | **Gesture support** | Support swipe, pinch, and long-press where appropriate    |
 | **Performance**     | Minimise data transfer and processing for mobile networks |
+
+</div>
 
 ---
 
@@ -956,16 +1072,16 @@ Answer:
 ```
 
 (b) `GET` sends form data as URL parameters (appended to the `action` URL after `?`). It is visible
-In the browser address bar, has a length limit (approximately 2048 characters), and should be used
-For idempotent requests (search, filter). `POST` sends form data in the HTTP request body, is not
-Visible in the URL, has no practical length limit, and should be used for data that changes state on
-The server (login, registration, payment).
+in the browser address bar, has a length limit (approximately 2048 characters), and should be used
+for idempotent requests (search, filter). `POST` sends form data in the HTTP request body, is not
+visible in the URL, has no practical length limit, and should be used for data that changes state on
+the server (login, registration, payment).
 
 (c) The `<label>` element associates a text description with a form control via the `for` attribute
 (matching the input's `id`). It is important because: (1) clicking the label focuses the associated
 Input, increasing the clickable area for mouse/touch users. (2) Screen readers announce the label
 Text when the input receives focus, improving accessibility for visually impaired users. (3) It
-Creates a semantic association between the description and the input field.
+creates a semantic association between the description and the input field.
 
 </details>
 
@@ -976,7 +1092,7 @@ Creates a semantic association between the description and the input field.
 Area that fills the remaining space.
 
 (b) Write a media query that changes the layout to a single column (sidebar on top, content below)
-When the screen width is less than 768 pixels.
+when the screen width is less than 768 pixels.
 
 (c) Explain what `box-sizing: border-box` does and why it is commonly recommended.
 
@@ -1016,8 +1132,8 @@ Answer:
 (c) `box-sizing: border-box` makes the `width` and `height` properties include the content area,
 Padding, and border. Without it (the default `content-box`), `width` applies only to the content,
 And padding and border are added on top, making the total element wider than specified. This
-Commonly causes layout issues when elements exceed their container. With `border-box`If you set
-`width: 250px`The total rendered width including padding and border will be exactly 250px, making
+commonly causes layout issues when elements exceed their container. With `border-box`. If you set
+`width: 250px`. The total rendered width including padding and border will be exactly 250px, making
 Layout calculations predictable. Many developers apply `* { box-sizing: border-box; }` globally.
 
 </details>
@@ -1027,10 +1143,10 @@ Layout calculations predictable. Many developers apply `* { box-sizing: border-b
 
 (a) Write JavaScript code that: (i) finds an element with id `counter`(ii) adds a click event
 Listener that increments a counter variable and updates the element's text content to show the
-Current count.
+current count.
 
 (b) Write JavaScript to validate a form with id `loginForm`. If the password field (id `pass`) has
-Fewer than 8 characters, prevent form submission and display an alert.
+fewer than 8 characters, prevent form submission and display an alert.
 
 (c) Explain the difference between `textContent` and `innerHTML`.
 
@@ -1063,7 +1179,7 @@ document.getElementById(''loginForm").addEventListener('submit', function (event
 (c) `textContent` sets or returns the plain text content of an element. It does not parse HTML tags
 -- any HTML tags in the string are treated as literal text. `innerHTML` sets or returns the HTML
 Content of an element, including any child elements. HTML tags in the string are parsed and rendered
-As DOM elements. `textContent` is safer (no XSS risk) and faster. `innerHTML` is needed when you
+as DOM elements. `textContent` is safer (no XSS risk) and faster. `innerHTML` is needed when you
 Intentionally want to insert HTML elements.
 
 </details>
@@ -1072,7 +1188,7 @@ Intentionally want to insert HTML elements.
 <summary>Question 4: Client-Side vs Server-Side</summary>
 
 An e-commerce website needs to implement the following features. For each, state whether the
-Processing should be client-side, server-side, or both, and justify your answer.
+processing should be client-side, server-side, or both, and justify your answer.
 
 (a) Displaying a product image gallery with thumbnail navigation.
 
@@ -1088,7 +1204,7 @@ Answer:
 
 (a) **Client-side.** Image gallery navigation (switching between images, zoom, pan) requires
 Immediate responsiveness and does not need server involvement. JavaScript handles this in the
-Browser for the best user experience.
+browser for the best user experience.
 
 (b) **Both.** Client-side validation provides immediate feedback (format check, Luhn algorithm)
 Before the form is submitted, improving UX. Server-side validation is essential for security --
@@ -1100,13 +1216,13 @@ Keys must not be exposed to the client) and reliability (client-side processing 
 Insecure and unreliable).
 
 (d) **Client-side.** Updating the cart counter is a UI operation that should happen instantly when
-The user clicks "Add to cart." JavaScript can update the DOM without a server round-trip. The actual
+the user clicks "Add to cart." JavaScript can update the DOM without a server round-trip. The actual
 Cart data should be synced with the server (via an AJAX request), but the visual update is
-Client-side.
+client-side.
 
 (e) **Server-side.** Searching a database requires server-side processing (SQL query). The client
-Cannot directly access the database. The client sends the search query, and the server returns the
-Results. Client-side filtering (narrowing already-loaded results) could supplement this.
+cannot directly access the database. The client sends the search query, and the server returns the
+results. Client-side filtering (narrowing already-loaded results) could supplement this.
 
 </details>
 
@@ -1130,11 +1246,11 @@ Page (standard convention). Move the search bar to the header area where it is i
 
 **Icon-only navigation:** Violates the recognition rather than recall and accessibility principles.
 Icons alone are ambiguous -- users must guess what each icon means. Text labels provide clarity and
-Help screen readers. Add text labels below or beside each icon.
+help screen readers. Add text labels below or beside each icon.
 
 **"Error 404" messages:** Violates the "help users recognise, diagnose, and recover from errors"
 Heuristic. Technical error codes are meaningless to most users. Replace with plain language: "The
-Page you requested could not be found. Here are some suggestions..." with links to common pages.
+page you requested could not be found. Here are some suggestions..." with links to common pages.
 
 **Light grey text on white background:** Violates visibility and accessibility principles. The
 Contrast ratio is insufficient, making text hard to read, especially for users with visual
@@ -1143,21 +1259,10 @@ Requirements (4.5:1).
 
 **Form resubmission warning:** Violates user control and freedom. After form submission, the browser
 Shows a warning about resubmission when the user navigates back. This indicates the site uses POST
-Without the Post/Redirect/Get (PRG) pattern. Fix by redirecting (HTTP 302/303) to a results page
-After POST processing, so the Back button returns to the form, not the POST request.
+without the Post/Redirect/Get (PRG) pattern. Fix by redirecting (HTTP 302/303) to a results page
+after POST processing, so the Back button returns to the form, not the POST request.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[1_Web Development And Multimedia] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -1179,9 +1284,6 @@ marks in geography assessments.
 > > > > > > > Stashed changes:docs/docs_dse/ICT/web-development-and-multimedia.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Genetics Dna] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Genetics is like a recipe book, DNA holds the instructions, and proteins are the dishes that get cooked.**
@@ -75,7 +64,7 @@ polymerase cannot initiate synthesis without a primer.
 (b) **Meselson-Stahl experiment**:
 
 1. **Stage 1**: _E. Coli_ bacteria were grown for many generations in a medium containing the heavy
-   isotope $^{15}\text{N}$. All of the bacterial DNA incorporated $^{15}\text{N}$Making it "heavy"
+   isotope $^{15}\text{N}$. All of the bacterial DNA incorporated $^{15}\text{N}$ Making it "heavy"
    DNA.
 2. **Stage 2**: The bacteria were transferred to a medium containing the light isotope
    $^{14}\text{N}$ and allowed to replicate for one generation. DNA was extracted and analysed by
@@ -158,12 +147,16 @@ epistatic gene; gene B is the hypostatic gene.
 
 Punnett square (gametes: $AB$, $Ab$, $aB$, $ab$):
 
+<div class="table-wrap">
+
 |        | AB           | Ab           | aB            | ab            |
 | ------ | ------------ | ------------ | ------------- | ------------- |
 | **AB** | AABB (black) | AABb (black) | AaBB (black)  | AaBb (black)  |
 | **Ab** | AABb (black) | AAbb (brown) | AaBb (black)  | Aabb (brown)  |
 | **aB** | AaBB (black) | AaBb (black) | aaBB (albino) | aaBb (albino) |
 | **ab** | AaBb (black) | Aabb (brown) | aaBb (albino) | aabb (albino) |
+
+</div>
 
 Phenotypes:
 
@@ -180,12 +173,16 @@ dominant allele for purple flowers.
 
 A dihybrid cross $PpQq \times PpQq$:
 
+<div class="table-wrap">
+
 |        | PQ            | Pq            | pQ            | pq            |
 | ------ | ------------- | ------------- | ------------- | ------------- |
 | **PQ** | PPQQ (purple) | PPQq (purple) | PpQQ (purple) | PpQq (purple) |
 | **Pq** | PPQq (purple) | PPqq (white)  | PpQq (purple) | Ppqq (white)  |
 | **pQ** | PpQQ (purple) | PpQq (purple) | ppQQ (white)  | ppQq (white)  |
 | **pq** | PpQq (purple) | Ppqq (white)  | ppQq (white)  | ppqq (white)  |
+
+</div>
 
 Phenotypes:
 
@@ -195,7 +192,7 @@ Phenotypes:
 Expected phenotypic ratio: **9 purple : 7 white**
 
 (d) **Dominance** refers to the relationship between alleles of a **single gene**, one allele masks
-the expression of another allele at the same gene locus (e.g., in a heterozygote $Aa$The dominant
+the expression of another allele at the same gene locus (e.g., in a heterozygote $Aa$ The dominant
 allele $A$ masks the recessive allele $a$). **Epistasis** refers to the interaction between **two or
 more different genes**, the allele of one gene masks or modifies the expression of alleles at a
 different gene locus. Epistasis is an inter-gene interaction, whereas dominance is an intra-gene
@@ -460,10 +457,14 @@ rare.
 
 Gametes from female: $X^O$$X^B$ Gametes from male: $X^B$$Y$
 
+<div class="table-wrap">
+
 |           | $X^B$                           | $Y$                  |
 | --------- | ------------------------------- | -------------------- |
 | **$X^O$** | $X^OX^B$ (tortoiseshell female) | $X^OY$ (orange male) |
 | **$X^B$** | $X^BX^B$ (black female)         | $X^BY$ (black male)  |
+
+</div>
 
 Expected phenotypic ratio: **1 tortoiseshell female : 1 black female : 1 orange male : 1 black
 male** (1:1:1:1)
@@ -472,12 +473,16 @@ male** (1:1:1:1)
 
 Expected values (E) for each category = 140 / 4 = 35
 
+<div class="table-wrap">
+
 | Phenotype            | Observed (O) | Expected (E) | $(O - E)^2$ | $\frac{(O - E)^2}{E}$ |
 | -------------------- | ------------ | ------------ | ----------- | --------------------- |
 | Orange female        | 30           | 35           | 25          | 0.71                  |
 | Tortoiseshell female | 28           | 35           | 49          | 1.40                  |
 | Black male           | 55           | 35           | 400         | 11.43                 |
 | Orange male          | 27           | 35           | 64          | 1.83                  |
+
+</div>
 
 $\chi^2 = 0.71 + 1.40 + 11.43 + 1.83 = 15.37$
 

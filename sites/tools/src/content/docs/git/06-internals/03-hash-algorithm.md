@@ -30,12 +30,16 @@ Hash, producing a $2^{160}$ address space.
 
 ### SHA-1 Properties
 
+<div class="table-wrap">
+
 | Property             | Value                                       |
 | -------------------- | ------------------------------------------- |
 | Output size          | 160 bits (20 bytes, 40 hex characters)      |
 | Collision resistance | $2^{80}$ (theoretical), broken in practice |
 | Preimage resistance  | $2^{160}$ (unbroken)                        |
 | Speed                | Fast (hardware-accelerated on modern CPUs)  |
+
+</div>
 
 ### The SHA-1 Collision Problem
 
@@ -45,14 +49,14 @@ Approximately $2^{63.1}$ computations (far below the theoretical $2^{80}$).
 
 **Does this affect Git?** Directly, not much. The attack required significant computational
 Resources ($\sim$6,500 CPU-years) and was specifically crafted for PDF files. However, it proved
-That SHA-1"s collision resistance is weaker than assumed, and future advances could make attacks
+that SHA-1"s collision resistance is weaker than assumed, and future advances could make attacks
 Cheaper.
 
 ### Git's Defenses Against Collision Attacks
 
 Git has several properties that make collision attacks harder than generic SHA-1 collisions:
 
-1. **Object headers**: Git hashes `"<type> <size>\0<content>"`Not raw content. An attacker must
+1. **Object headers**: Git hashes `"<type> <size>\0<content>"`. Not raw content. An attacker must
    collide the full header+content.
 2. **Detect checks**: `git fsck` detects objects whose hash does not match their content.
 3. **Collision detection**: Git includes collision detection code that detects SHAttered-style
@@ -78,6 +82,8 @@ $ git config core.repositoryFormatVersion
 
 ### SHA-256 Properties
 
+<div class="table-wrap">
+
 | Property             | SHA-1              | SHA-256                     |
 | -------------------- | ------------------ | --------------------------- |
 | Output size          | 160 bits           | 256 bits                    |
@@ -86,10 +92,12 @@ $ git config core.repositoryFormatVersion
 | Hash length          | 40 hex chars       | 64 hex chars                |
 | Speed                | Faster             | $\sim$20% slower (software) |
 
+</div>
+
 ### Migration Challenges
 
 Migrating an existing repository from SHA-1 to SHA-256 is **not currently supported** by Git. This
-Is because:
+is because:
 
 1. **Every object hash changes**: All blobs, trees, commits, and tags get new hashes.
 2. **All references break**: Branches, tags, remotes. Everything must be updated.
@@ -127,7 +135,7 @@ $ git init --object-format=sha256
 ```
 
 This provides future-proofing at essentially zero cost (the slight speed difference is negligible
-For most workflows).
+for most workflows).
 
 ### For Existing Projects
 
@@ -150,6 +158,8 @@ If you are concerned about collision attacks:
 Git's choice of content-addressable storage (CAS) is fundamental to its design. The implications are
 Far-reaching:
 
+<div class="table-wrap">
+
 | Property                  | Benefit                                                                       |
 | ------------------------- | ----------------------------------------------------------------------------- |
 | **Deduplication**         | Identical files across commits produce one blob object                        |
@@ -158,9 +168,11 @@ Far-reaching:
 | **Deterministic builds**  | A commit hash uniquely identifies a project state                             |
 | **Garbage collection**    | Unreachable objects can be safely deleted without affecting reachable objects |
 
+</div>
+
 The trade-off is that Git cannot efficiently store files that change slightly and frequently (e.g.,
 Large binary files, databases). This is why Git LFS exists, it stores the large file content
-Outside the object store and tracks only a pointer.
+outside the object store and tracks only a pointer.
 
 ## Common Pitfalls
 
@@ -174,27 +186,9 @@ Outside the object store and tracks only a pointer.
 4. Misinterpreting graphs by confusing the independent and dependent variables or reading scales
    incorrectly.
 
-
-```mermaid
-flowchart TD
-    A[03 Hash Algorithm] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

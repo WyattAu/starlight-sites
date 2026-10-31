@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Coordinates And Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Geometry is the art of measuring and describing shapes, from simple triangles to complex solids.**
@@ -57,7 +46,7 @@ Gradient of $AB$: $m_{AB} = \frac{4-2}{5-1} = \frac{1}{2}$.
 
 Gradient of perpendicular bisector: $m_1 = -2$.
 
-Equation: $y - 3 = -2(x - 3)$I.e. $y = -2x + 9$.
+Equation: $y - 3 = -2(x - 3)$ I.e. $y = -2x + 9$.
 
 **Step 2: Find the perpendicular bisector of $BC$.**
 
@@ -67,19 +56,23 @@ Gradient of $BC$: $m_{BC} = \frac{8-4}{3-5} = \frac{4}{-2} = -2$.
 
 Gradient of perpendicular bisector: $m_2 = \frac{1}{2}$.
 
-Equation: $y - 6 = \frac{1}{2}(x - 4)$I.e. $y = \frac{1}{2}x + 4$.
+Equation: $y - 6 = \frac{1}{2}(x - 4)$ I.e. $y = \frac{1}{2}x + 4$.
 
 **Step 3: Find the centre (intersection of perpendicular bisectors).**
 
 $$-2x + 9 = \frac{1}{2}x + 4$$ $$5 = \frac{5}{2}x$$ $$x = 2$$
 
-$$y = -2(2) + 9 = 5$$
+$$
+y = -2(2) + 9 = 5
+$$
 
 The centre is $O = (2, 5)$.
 
 **Step 4: Find the radius.**
 
-$$r = |OA| = \sqrt{(2-1)^2 + (5-2)^2} = \sqrt{1 + 9} = \sqrt{10}$$
+$$
+r = |OA| = \sqrt{(2-1)^2 + (5-2)^2} = \sqrt{1 + 9} = \sqrt{10}
+$$
 
 **Verification with point $C$:** $|OC| = \sqrt{(2-3)^2 + (5-8)^2} = \sqrt{1+9} = \sqrt{10}$.
 Confirmed.
@@ -88,9 +81,11 @@ Confirmed.
 
 Standard form: $(x - 2)^2 + (y - 5)^2 = 10$.
 
-Expanded form: $x^2 - 4x + 4 + y^2 - 10y + 25 = 10$Giving:
+Expanded form: $x^2 - 4x + 4 + y^2 - 10y + 25 = 10$ Giving:
 
-$$x^2 + y^2 - 4x - 10y + 19 = 0$$
+$$
+x^2 + y^2 - 4x - 10y + 19 = 0
+$$
 
 ---
 
@@ -127,7 +122,7 @@ $$\Delta = (4k-4)^2 - 4(1+k^2)(4) = 0$$ $$16k^2 - 32k + 16 - 16 - 16k^2 = 0$$ $$
 
 **Step 3: Find the point of tangency.**
 
-With $k = 0$The line is $y = 5$. Substituting into the circle:
+With $k = 0$ The line is $y = 5$. Substituting into the circle:
 
 $$x^2 + 25 - 4x - 30 + 9 = 0$$ $$x^2 - 4x + 4 = 0$$ $$(x-2)^2 = 0$$ $$x = 2$$
 
@@ -154,7 +149,9 @@ $y = 5$ is at distance $|5-3| = 2$ from the centre, equal to the radius. Confirm
 The matrix $R$ represents a rotation anticlockwise by $90°$ about the origin, and the matrix $S$
 represents a reflection in the line $y = x$.
 
-$$R = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}, \quad S = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$
+$$
+R = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}, \quad S = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+$$
 
 **(a)** Find the matrix $RS$ and describe the single transformation it represents.
 
@@ -173,30 +170,40 @@ transformations, and the relationship between determinant and area.]
 
 **(a)**
 
-$$RS = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0\cdot0+(-1)\cdot1 & 0\cdot1+(-1)\cdot0 \\ 1\cdot0+0\cdot1 & 1\cdot1+0\cdot0 \end{pmatrix} = \begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$$
+$$
+RS = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0\cdot0+(-1)\cdot1 & 0\cdot1+(-1)\cdot0 \\ 1\cdot0+0\cdot1 & 1\cdot1+0\cdot0 \end{pmatrix} = \begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}
+$$
 
 This is a reflection in the $y$-axis.
 
 **(b)**
 
-$$SR = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0\cdot0+1\cdot1 & 0\cdot(-1)+1\cdot0 \\ 1\cdot0+0\cdot1 & 1\cdot(-1)+0\cdot0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
+$$
+SR = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0\cdot0+1\cdot1 & 0\cdot(-1)+1\cdot0 \\ 1\cdot0+0\cdot1 & 1\cdot(-1)+0\cdot0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
+$$
 
 This is a reflection in the $x$-axis.
 
-**Note:** $RS \neq SR$Confirming that transformations do not generally commute.
+**Note:** $RS \neq SR$ Confirming that transformations do not generally commute.
 
 **(c)** Applying $S$ first, then $R$: the image is
 $R \cdot S \cdot \begin{pmatrix} 3 \\ 1 \end{pmatrix}$.
 
-$$S\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}0&1\\1&0\end{pmatrix}\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}1\\3\end{pmatrix}$$
+$$
+S\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}0&1\\1&0\end{pmatrix}\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}1\\3\end{pmatrix}
+$$
 
-$$R\begin{pmatrix}1\\3\end{pmatrix} = \begin{pmatrix}0&-1\\1&0\end{pmatrix}\begin{pmatrix}1\\3\end{pmatrix} = \begin{pmatrix}-3\\1\end{pmatrix}$$
+$$
+R\begin{pmatrix}1\\3\end{pmatrix} = \begin{pmatrix}0&-1\\1&0\end{pmatrix}\begin{pmatrix}1\\3\end{pmatrix} = \begin{pmatrix}-3\\1\end{pmatrix}
+$$
 
 The image of $P$ is $(-3, 1)$.
 
 Alternatively, using $RS = \begin{pmatrix}-1&0\\0&1\end{pmatrix}$:
 
-$$RS\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}-3\\1\end{pmatrix}$$
+$$
+RS\begin{pmatrix}3\\1\end{pmatrix} = \begin{pmatrix}-3\\1\end{pmatrix}
+$$
 
 Confirmed.
 
@@ -241,22 +248,32 @@ gives the same minimiser.)
 
 A general point on the curve is $(x, x^2-4x+7)$.
 
-$$D^2 = (x - 1)^2 + (x^2 - 4x + 7 - 8)^2 = (x-1)^2 + (x^2-4x-1)^2$$
+$$
+D^2 = (x - 1)^2 + (x^2 - 4x + 7 - 8)^2 = (x-1)^2 + (x^2-4x-1)^2
+$$
 
 **Step 2: Differentiate with respect to $x$.**
 
-$$\frac{d(D^2)}{dx} = 2(x-1) + 2(x^2-4x-1)(2x-4)$$
+$$
+\frac{d(D^2)}{dx} = 2(x-1) + 2(x^2-4x-1)(2x-4)
+$$
 
 Set this equal to zero:
 
-$$(x-1) + (x^2-4x-1)(2x-4) = 0$$
+$$
+(x-1) + (x^2-4x-1)(2x-4) = 0
+$$
 
-$$(x-1) + 2(x-2)(x^2-4x-1) = 0$$
+$$
+(x-1) + 2(x-2)(x^2-4x-1) = 0
+$$
 
 Expand $(x-2)(x^2-4x-1) = x^3 - 4x^2 - x - 2x^2 + 8x + 2 = x^3 - 6x^2 + 7x + 2$.
 
 $$(x-1) + 2(x^3 - 6x^2 + 7x + 2) = 0$$ $$x - 1 + 2x^3 - 12x^2 + 14x + 4 = 0$$
-$$2x^3 - 12x^2 + 15x + 3 = 0$$
+$$
+2x^3 - 12x^2 + 15x + 3 = 0
+$$
 
 **Step 3: Solve the cubic.** Testing $x = 1$: $2 - 12 + 15 + 3 = 8 \neq 0$. Testing $x = -1$:
 $-2 - 12 - 15 + 3 = -26$. Testing $x = 3$: $54 - 108 + 45 + 3 = -6$. Testing $x = \frac{1}{2}$:
@@ -297,7 +314,7 @@ The closest point is approximately $(2.11, 3.01)$.
 
 **Question:**
 
-In triangle $ABC$The point $D$ lies on $BC$ such that $BD : DC = 2 : 1$. The point $E$ is the
+In triangle $ABC$ The point $D$ lies on $BC$ such that $BD : DC = 2 : 1$. The point $E$ is the
 midpoint of $AC$. The lines $AD$ and $BE$ intersect at point $F$.
 
 Using position vectors with origin at $A$ And taking $\overrightarrow{AB} = \mathbf{b}$ and
@@ -307,7 +324,7 @@ $\overrightarrow{AC} = \mathbf{c}$:
 
 **(b)** Find the ratio $AF : FD$.
 
-**(c)** If $|\mathbf{b}| = 5$, $|\mathbf{c}| = 7$ And $\mathbf{b} \cdot \mathbf{c} = 15$Find
+**(c)** If $|\mathbf{b}| = 5$, $|\mathbf{c}| = 7$ And $\mathbf{b} \cdot \mathbf{c} = 15$ Find
 $|\overrightarrow{AF}|$.
 
 [Difficulty: hard. Tests vector methods for concurrency problems and application of the dot
@@ -331,35 +348,53 @@ for some $0 \leq t \leq 1$.
 
 Equating coefficients of $\mathbf{b}$ and $\mathbf{c}$:
 
-$$\frac{s}{3} = 1 - t \quad \text{and} \quad \frac{2s}{3} = \frac{t}{2}$$
+$$
+\frac{s}{3} = 1 - t \quad \text{and} \quad \frac{2s}{3} = \frac{t}{2}
+$$
 
 From the second equation: $t = \frac{4s}{3}$.
 
-Substituting into the first: $\frac{s}{3} = 1 - \frac{4s}{3}$Giving $\frac{5s}{3} = 1$ So
+Substituting into the first: $\frac{s}{3} = 1 - \frac{4s}{3}$ Giving $\frac{5s}{3} = 1$ So
 $s = \frac{3}{5}$.
 
-$$\overrightarrow{OF} = \frac{3}{5}\left(\frac{1}{3}\mathbf{b} + \frac{2}{3}\mathbf{c}\right) = \frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}$$
+$$
+\overrightarrow{OF} = \frac{3}{5}\left(\frac{1}{3}\mathbf{b} + \frac{2}{3}\mathbf{c}\right) = \frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}
+$$
 
-**(b)** $AF : FD$. Since $s = 3/5$Point $F$ divides $AD$ in the ratio
+**(b)** $AF : FD$. Since $s = 3/5$ Point $F$ divides $AD$ in the ratio
 $s : (1-s) = 3/5 : 2/5 = 3 : 2$.
 
 So $AF : FD = 3 : 2$.
 
 **(c)**
 
-$$\overrightarrow{AF} = \frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}$$
+$$
+\overrightarrow{AF} = \frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}
+$$
 
-$$|\overrightarrow{AF}|^2 = \left(\frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}\right) \cdot \left(\frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}\right)$$
+$$
+|\overrightarrow{AF}|^2 = \left(\frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}\right) \cdot \left(\frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}\right)
+$$
 
-$$= \frac{1}{25}|\mathbf{b}|^2 + \frac{4}{25}\mathbf{b}\cdot\mathbf{c} + \frac{4}{25}|\mathbf{c}|^2$$
+$$
+= \frac{1}{25}|\mathbf{b}|^2 + \frac{4}{25}\mathbf{b}\cdot\mathbf{c} + \frac{4}{25}|\mathbf{c}|^2
+$$
 
-$$= \frac{1}{25}(25) + \frac{4}{25}(15) + \frac{4}{25}(49)$$
+$$
+= \frac{1}{25}(25) + \frac{4}{25}(15) + \frac{4}{25}(49)
+$$
 
-$$= 1 + \frac{60}{25} + \frac{196}{25}$$
+$$
+= 1 + \frac{60}{25} + \frac{196}{25}
+$$
 
-$$= 1 + \frac{256}{25} = \frac{281}{25}$$
+$$
+= 1 + \frac{256}{25} = \frac{281}{25}
+$$
 
-$$|\overrightarrow{AF}| = \frac{\sqrt{281}}{5}$$
+$$
+|\overrightarrow{AF}| = \frac{\sqrt{281}}{5}
+$$
 
 ---
 
@@ -378,7 +413,9 @@ $$|\overrightarrow{AF}| = \frac{\sqrt{281}}{5}$$
 
 A curve is defined parametrically by:
 
-$$x = t^2 - 2t, \quad y = (t^2 - 2t)^2 - 2(t^2 - 2t)$$
+$$
+x = t^2 - 2t, \quad y = (t^2 - 2t)^2 - 2(t^2 - 2t)
+$$
 
 For $t \in \mathbb{R}$.
 
@@ -400,18 +437,18 @@ Then $x = f(t)$ and $y = f(f(t)) = f(x)$.
 
 Therefore $y = x^2 - 2x = (x-1)^2 - 1$.
 
-This is a parabola with vertex at $(1, -1)$Opening upward.
+This is a parabola with vertex at $(1, -1)$ Opening upward.
 
-**(b)** $y = x^2 - 2x$. Since $x = (t-1)^2 - 1 \geq -1$ for all $t$The domain of the curve is
+**(b)** $y = x^2 - 2x$. Since $x = (t-1)^2 - 1 \geq -1$ for all $t$ The domain of the curve is
 $x \geq -1$.
 
 $\frac{dy}{dx} = 2x - 2$. Setting this to zero: $x = 1$.
 
 At $x = 1$: $y = 1 - 2 = -1$. This is the vertex.
 
-$\frac{d^2y}{dx^2} = 2 > 0$Confirming a minimum at $(1, -1)$.
+$\frac{d^2y}{dx^2} = 2 > 0$ Confirming a minimum at $(1, -1)$.
 
-The turning point is $(1, -1)$Which is a minimum.
+The turning point is $(1, -1)$ Which is a minimum.
 
 Note: there are no other turning points. The curve is a standard parabola restricted to $x \geq -1$.
 
@@ -420,13 +457,17 @@ turning point of the parabola itself.
 
 **(c)** The translation moves $(1, -1)$ to $(0, 0)$. The translation vector is $(-1, 1)$.
 
-Let $X = x - 1$ and $Y = y + 1$. Then $y = (x-1)^2 - 1$ becomes $Y - 1 = X^2 - 1$I.e.:
+Let $X = x - 1$ and $Y = y + 1$. Then $y = (x-1)^2 - 1$ becomes $Y - 1 = X^2 - 1$ I.e.:
 
-$$Y = X^2$$
+$$
+Y = X^2
+$$
 
 In terms of the original variables (after translation, using $x$ and $y$ for the new coordinates):
 
-$$y = x^2$$
+$$
+y = x^2
+$$
 
 So $a = 1$, $b = 0$, $c = 0$.
 

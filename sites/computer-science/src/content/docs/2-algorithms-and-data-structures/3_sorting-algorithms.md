@@ -37,7 +37,7 @@ $b = 2$, $f(n) = O(n) = O(n^{\log_b a})$ So $T(n) = O(n \log n)$. $\blacksquare$
 
 **Theorem 3.2.** Merge sort is stable and requires $O(n)$ auxiliary space.
 
-_Proof of stability._ In `Merge`When elements from the left and right halves are equal, we always
+_Proof of stability._ In `Merge`. When elements from the left and right halves are equal, we always
 take from the left half first. This preserves the relative order of equal elements. $\blacksquare$
 
 **Theorem 3.3 (Correctness of Merge).** The `Merge` procedure produces a sorted array from two
@@ -100,11 +100,15 @@ Let $X_{ij}$ be the indicator random variable that $z_i$ and $z_j$ are compared,
 $z_1, \ldots, z_n$ are the sorted elements. Since elements are compared only if one is an ancestor
 of the other in the recursion tree, and the pivot is chosen uniformly at random:
 
-$$\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}$$
+$$
+\mathrm{E}[X_{ij}] = \Pr(z_i \mathrm{~and~} z_j \mathrm{~are~compared}) = \frac{2}{j - i + 1}
+$$
 
 The total number of comparisons is $X = \sum_{i < j} X_{ij}$ So:
 
-$$\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)$$
+$$
+\mathrm{E}[X] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j - i + 1} \leq \sum_{k=1}^{n} n \cdot \frac{2}{k+1} = O(n \log n)
+$$
 
 Worst case occurs when the pivot is always the smallest or largest element (e.g., already sorted
 Array with first-element pivot): $T(n) = T(n-1) + O(n) = O(n^2)$. $\blacksquare$
@@ -137,7 +141,7 @@ Result: $[1, 2, 3, 4, 5, 5, 7, 8, 9]$
 Is not stable.
 
 _Proof._ Building the heap takes $O(n)$ by Theorem 2.11. Each of the $n$ extract-max operations
-takes $O(\log n)$For a total of $O(n \log n)$. Space is $O(1)$ since the heap is stored in-place.
+takes $O(\log n)$ For a total of $O(n \log n)$. Space is $O(1)$ since the heap is stored in-place.
 $\blacksquare$
 
 ### 3.4 Lower Bound on Comparison Sorting
@@ -149,7 +153,7 @@ _Proof._ A comparison-based sort can be modelled as a decision tree. The tree mu
 $n!$ Leaves (one for each permutation). A binary tree with $n!$ leaves has height at least
 $\log_2(n!) \geq \log_2((n/2)^{n/2}) = (n/2)\log_2(n/2) = \Omega(n \log n)$.
 
-More precisely, using Stirling"s approximation:
+More precisely, using Stirling's approximation:
 $\log_2(n!) = n \log_2 n - n \log_2 e + O(\log n) = \Omega(n \log n)$. $\blacksquare$
 
 ### 3.5 Counting Sort
@@ -178,7 +182,7 @@ stable sort (e.g., counting sort) as a subroutine.
 time.
 
 _Proof._ We perform $d$ passes of counting sort, each taking $O(n + b)$ time. After the $i$-th pass,
-the array is sorted by the $i$ least significant digits. By induction on $i$After $d$ passes the
+the array is sorted by the $i$ least significant digits. By induction on $i$ After $d$ passes the
 array is fully sorted. $\blacksquare$
 
 **Corollary 3.11.** For $d$-digit integers where $d = O(1)$ (e.g., 32-bit integers), radix sort runs
@@ -197,13 +201,13 @@ Range of values: $[1, 8]$ So $k = 8$.
 
 **Step 3, Place (iterate backwards):**
 
-- $A[6] = 1$: $C[1] = 1$Place at position 0. $C[1] = 0$.
-- $A[5] = 3$: $C[3] = 5$Place at position 4. $C[3] = 4$.
-- $A[4] = 3$: $C[3] = 4$Place at position 3. $C[3] = 3$.
-- $A[3] = 8$: $C[8] = 6$Place at position 5. $C[8] = 5$.
-- $A[2] = 2$: $C[2] = 3$Place at position 2. $C[2] = 2$.
-- $A[1] = 2$: $C[2] = 2$Place at position 1. $C[2] = 1$.
-- $A[0] = 4$: $C[4] = 6$Place at position 5. $C[4] = 5$.
+- $A[6] = 1$: $C[1] = 1$ Place at position 0. $C[1] = 0$.
+- $A[5] = 3$: $C[3] = 5$ Place at position 4. $C[3] = 4$.
+- $A[4] = 3$: $C[3] = 4$ Place at position 3. $C[3] = 3$.
+- $A[3] = 8$: $C[8] = 6$ Place at position 5. $C[8] = 5$.
+- $A[2] = 2$: $C[2] = 3$ Place at position 2. $C[2] = 2$.
+- $A[1] = 2$: $C[2] = 2$ Place at position 1. $C[2] = 1$.
+- $A[0] = 4$: $C[4] = 6$ Place at position 5. $C[4] = 5$.
 
 Result: $[1, 2, 2, 3, 3, 4, 8]$.
 
@@ -251,6 +255,8 @@ and cannot sort arbitrary objects.
 
 ### 3.8 Comparison of Sorting Algorithms
 
+<div class="table-wrap">
+
 | Algorithm     | Best          | Average       | Worst         | Space       | Stable |
 | ------------- | ------------- | ------------- | ------------- | ----------- | ------ |
 | Merge Sort    | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$      | Yes    |
@@ -258,18 +264,9 @@ and cannot sort arbitrary objects.
 | Heapsort      | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(1)$      | No     |
 | Counting Sort | $O(n + k)$    | $O(n + k)$    | $O(n + k)$    | $O(n + k)$  | Yes    |
 | Radix Sort    | $O(d(n+b))$   | $O(d(n+b))$   | $O(d(n+b))$   | $O(n + b)$  | Yes    |
+
+</div>
 :::
-
-
-```mermaid
-flowchart TD
-    A[3_Sorting Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

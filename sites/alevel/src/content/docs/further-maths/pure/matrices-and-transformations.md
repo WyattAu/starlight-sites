@@ -33,7 +33,7 @@ Transformations, and many applications in science and engineering.
 ### 1.1 Definitions
 
 An $m \times n$ **matrix** $A$ is a rectangular array of numbers with $m$ rows and $n$ columns. The
-Entry in row $i$Column $j$ is written $a_{ij}$.
+entry in row $i$ Column $j$ is written $a_{ij}$.
 
 **Addition.** If $A$ and $B$ are both $m \times n$ Then $(A + B)_{ij} = a_{ij} + b_{ij}$.
 
@@ -42,7 +42,9 @@ Entry in row $i$Column $j$ is written $a_{ij}$.
 **Matrix multiplication.** If $A$ is $m \times n$ and $B$ is $n \times p$ Then $C = AB$ is
 $m \times p$ with:
 
-$$c_{ij} = \sum_{k=1}^{n} a_{ik}\,b_{kj}$$
+$$
+c_{ij} = \sum_{k=1}^{n} a_{ik}\,b_{kj}
+$$
 
 ### 1.2 Properties of matrix multiplication
 
@@ -54,27 +56,35 @@ Matrix multiplication is:
 
 **Proof that matrix multiplication is not commutative.** Consider:
 
-$$A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}, \quad B = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}, \quad B = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}
+$$
 
-$$AB = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}, \quad BA = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}$$
+$$
+AB = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}, \quad BA = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}
+$$
 
 $AB \neq BA$. $\blacksquare$
 
 ### 1.3 The identity matrix
 
-The $n \times n$ **identity matrix** $I_n$ has $1$S on the main diagonal and $0$S elsewhere. For any
+The $n \times n$ **identity matrix** $I_n$ has $1$ S on the main diagonal and $0$ S elsewhere. For any
 $n \times n$ matrix $A$: $AI_n = I_n A = A$.
 
 ### 1.4 Worked example
 
 **Problem.** Given $A = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}$ and
-$B = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}$Find $AB$ and $BA$.
+$B = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}$ Find $AB$ and $BA$.
 
-$$AB = \begin{pmatrix} 2(1) + (-1)(-2) & 2(5) + (-1)(0) \\ 3(1) + 4(-2) & 3(5) + 4(0) \end{pmatrix} = \begin{pmatrix} 4 & 10 \\ -5 & 15 \end{pmatrix}$$
+$$
+AB = \begin{pmatrix} 2(1) + (-1)(-2) & 2(5) + (-1)(0) \\ 3(1) + 4(-2) & 3(5) + 4(0) \end{pmatrix} = \begin{pmatrix} 4 & 10 \\ -5 & 15 \end{pmatrix}
+$$
 
-$$BA = \begin{pmatrix} 1(2) + 5(3) & 1(-1) + 5(4) \\ -2(2) + 0(3) & -2(-1) + 0(4) \end{pmatrix} = \begin{pmatrix} 17 & 19 \\ -4 & 2 \end{pmatrix}$$
+$$
+BA = \begin{pmatrix} 1(2) + 5(3) & 1(-1) + 5(4) \\ -2(2) + 0(3) & -2(-1) + 0(4) \end{pmatrix} = \begin{pmatrix} 17 & 19 \\ -4 & 2 \end{pmatrix}
+$$
 
-$AB \neq BA$Confirming non-commutativity.
+$AB \neq BA$ Confirming non-commutativity.
 
 <hr />
 
@@ -82,13 +92,19 @@ $AB \neq BA$Confirming non-commutativity.
 
 ### 2.1 2x2 determinant
 
-$$\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$$
+$$
+\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc
+$$
 
 ### 2.2 3x3 determinant
 
-$$\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & k \end{pmatrix} = a\begin{vmatrix} e & f \\ h & k \end{vmatrix} - b\begin{vmatrix} d & f \\ g & k \end{vmatrix} + c\begin{vmatrix} d & e \\ g & h \end{vmatrix}$$
+$$
+\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & k \end{pmatrix} = a\begin{vmatrix} e & f \\ h & k \end{vmatrix} - b\begin{vmatrix} d & f \\ g & k \end{vmatrix} + c\begin{vmatrix} d & e \\ g & h \end{vmatrix}
+$$
 
-$$= a(ek - fh) - b(dk - fg) + c(dh - eg)$$
+$$
+= a(ek - fh) - b(dk - fg) + c(dh - eg)
+$$
 
 ### 2.3 Properties of determinants
 
@@ -102,7 +118,7 @@ $$= a(ek - fh) - b(dk - fg) + c(dh - eg)$$
 ### 2.4 Geometric interpretation
 
 For a $2 \times 2$ matrix, $|\det(A)|$ is the area scale factor of the transformation. If
-$\det(A) = 0$The transformation collapses the plane to a line or a point.
+$\det(A) = 0$ The transformation collapses the plane to a line or a point.
 
 For a $3 \times 3$ matrix, $|\det(A)|$ is the volume scale factor.
 
@@ -113,9 +129,13 @@ $A = \begin{pmatrix} 2 & 1 & 3 \\ 0 & -1 & 4 \\ 1 & 2 & 0 \end{pmatrix}$.
 
 Expanding along the first row:
 
-$$\det A = 2\begin{vmatrix} -1 & 4 \\ 2 & 0 \end{vmatrix} - 1\begin{vmatrix} 0 & 4 \\ 1 & 0 \end{vmatrix} + 3\begin{vmatrix} 0 & -1 \\ 1 & 2 \end{vmatrix}$$
+$$
+\det A = 2\begin{vmatrix} -1 & 4 \\ 2 & 0 \end{vmatrix} - 1\begin{vmatrix} 0 & 4 \\ 1 & 0 \end{vmatrix} + 3\begin{vmatrix} 0 & -1 \\ 1 & 2 \end{vmatrix}
+$$
 
-$$= 2(0 - 8) - 1(0 - 4) + 3(0 + 1) = -16 + 4 + 3 = -9$$
+$$
+= 2(0 - 8) - 1(0 - 4) + 3(0 + 1) = -16 + 4 + 3 = -9
+$$
 
 <hr />
 
@@ -125,21 +145,27 @@ $$= 2(0 - 8) - 1(0 - 4) + 3(0 + 1) = -16 + 4 + 3 = -9$$
 
 The **inverse** of a square matrix $A$ is a matrix $A^{-1}$ such that:
 
-$$AA^{-1} = A^{-1}A = I$$
+$$
+AA^{-1} = A^{-1}A = I
+$$
 
 An inverse exists if and only if $\det(A) \neq 0$. A matrix with no inverse is **singular**.
 
 ### 3.2 Inverse of a 2x2 matrix
 
-$$\begin{pmatrix} a & b \\ c & d \end{pmatrix}^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$$
+$$
+\begin{pmatrix} a & b \\ c & d \end{pmatrix}^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}
+$$
 
 **Verification:**
 
-$$\frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \frac{1}{ad - bc}\begin{pmatrix} ad - bc & 0 \\ 0 & ad - bc \end{pmatrix} = I$$
+$$
+\frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \frac{1}{ad - bc}\begin{pmatrix} ad - bc & 0 \\ 0 & ad - bc \end{pmatrix} = I
+$$
 
 ### 3.3 Inverse of a 3x3 matrix
 
-**Method 1: Adjugate matrix.** $A^{-1} = \dfrac{1}{\det A}\,\mathrm{adj}(A)$Where the
+**Method 1: Adjugate matrix.** $A^{-1} = \dfrac{1}{\det A}\,\mathrm{adj}(A)$ Where the
 Adjugate is the transpose of the cofactor matrix.
 
 **Method 2: Row reduction.** Form the augmented matrix $[A \mid I]$ and apply row operations to
@@ -155,12 +181,14 @@ $\det A = 1(1 - 0) - 2(0 - 3) + 0 = 1 + 6 = 7$.
 Cofactors: $C_{11} = 1$$C_{12} = 3$$C_{13} = -1$$C_{21} = -2$$C_{22} = 1$$C_{23} = 2$
 $C_{31} = 6$$C_{32} = -3$$C_{33} = 1$.
 
-$$A^{-1} = \frac{1}{7}\begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}$$
+$$
+A^{-1} = \frac{1}{7}\begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}
+$$
 
 ### 3.5 Solving systems of linear equations
 
 A system $A\mathbf{x} = \mathbf{b}$ has a unique solution $\mathbf{x} = A^{-1}\mathbf{b}$ if and
-Only if $\det A \neq 0$.
+only if $\det A \neq 0$.
 
 If $\det A = 0$: either no solution (inconsistent) or infinitely many solutions (dependent).
 
@@ -172,11 +200,15 @@ If $\det A = 0$: either no solution (inconsistent) or infinitely many solutions 
 
 A $2 \times 2$ matrix represents a linear transformation of the plane:
 
-$$\begin{pmatrix} x" \\ y' \end{pmatrix} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix}$$
+$$
+\begin{pmatrix} x" \\ y' \end{pmatrix} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix}
+$$
 
 Key property: the origin is always mapped to the origin.
 
 ### 4.2 Standard transformations
+
+<div class="table-wrap">
 
 | Transformation                   | Matrix                                                                              |
 | -------------------------------- | ----------------------------------------------------------------------------------- |
@@ -187,9 +219,11 @@ Key property: the origin is always mapped to the origin.
 | Enlargement scale $k$            | $\begin{pmatrix} k & 0 \\ 0 & k \end{pmatrix}$                                      |
 | Stretch parallel to $x$ (sf $k$) | $\begin{pmatrix} k & 0 \\ 0 & 1 \end{pmatrix}$                                      |
 
+</div>
+
 ### 4.3 Combined transformations
 
-If transformation $A$ is followed by transformation $B$The combined transformation is $BA$.
+If transformation $A$ is followed by transformation $B$ The combined transformation is $BA$.
 
 **Proof.** If $\mathbf{v}' = A\mathbf{v}$ and $\mathbf{v}'' = B\mathbf{v}'$ Then
 $\mathbf{v}'' = B(A\mathbf{v}) = (BA)\mathbf{v}$. $\blacksquare$
@@ -210,11 +244,11 @@ Check: this is equivalent to a reflection in the line $y = -x$.
 
 ### 4.5 Invariant points and lines
 
-An **invariant point** satisfies $A\mathbf{x} = \mathbf{x}$I.e. $(A - I)\mathbf{x} = \mathbf{0}$.
+An **invariant point** satisfies $A\mathbf{x} = \mathbf{x}$ I.e. $(A - I)\mathbf{x} = \mathbf{0}$.
 
 An **invariant line** is a line that is mapped to itself (points on the line may move along the
-Line). If $\mathbf{v}$ is a direction vector of the line, then $A\mathbf{v} = \lambda\mathbf{v}$ for
-Some scalar $\lambda$.
+line). If $\mathbf{v}$ is a direction vector of the line, then $A\mathbf{v} = \lambda\mathbf{v}$ for
+some scalar $\lambda$.
 
 <hr />
 
@@ -222,13 +256,15 @@ Some scalar $\lambda$.
 
 ### 5.1 Definition
 
-For a square matrix $A$A scalar $\lambda$ and a non-zero vector $\mathbf{v}$ are an **eigenvalue**
+For a square matrix $A$ A scalar $\lambda$ and a non-zero vector $\mathbf{v}$ are an **eigenvalue**
 And **eigenvector** of $A$ if:
 
-$$A\mathbf{v} = \lambda\mathbf{v}$$
+$$
+A\mathbf{v} = \lambda\mathbf{v}
+$$
 
 Geometrically, $A$ stretches or compresses the eigenvector by a factor of $\lambda$ without changing
-Its direction.
+its direction.
 
 ### 5.2 Finding eigenvalues
 
@@ -239,16 +275,20 @@ Equation**.
 
 For a $2 \times 2$ matrix:
 
-$$\det\begin{pmatrix} a - \lambda & b \\ c & d - \lambda \end{pmatrix} = (a - \lambda)(d - \lambda) - bc = 0$$
+$$
+\det\begin{pmatrix} a - \lambda & b \\ c & d - \lambda \end{pmatrix} = (a - \lambda)(d - \lambda) - bc = 0
+$$
 
-$$\lambda^2 - (a + d)\lambda + (ad - bc) = 0$$
+$$
+\lambda^2 - (a + d)\lambda + (ad - bc) = 0
+$$
 
 **Key result:** $\lambda_1 + \lambda_2 = \mathrm{tr}(A) = a + d$ (the trace) and
 $\lambda_1 \lambda_2 = \det A$.
 
 ### 5.3 Finding eigenvectors
 
-For each eigenvalue $\lambda_i$Solve $(A - \lambda_i I)\mathbf{v} = \mathbf{0}$.
+For each eigenvalue $\lambda_i$ Solve $(A - \lambda_i I)\mathbf{v} = \mathbf{0}$.
 
 ### 5.4 Worked example
 
@@ -257,19 +297,25 @@ $A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$.
 
 Characteristic equation: $(4 - \lambda)(3 - \lambda) - 2 = 0$
 
-$$\lambda^2 - 7\lambda + 10 = 0 \implies (\lambda - 5)(\lambda - 2) = 0$$
+$$
+\lambda^2 - 7\lambda + 10 = 0 \implies (\lambda - 5)(\lambda - 2) = 0
+$$
 
 $\lambda_1 = 5$$\lambda_2 = 2$.
 
 **For $\lambda_1 = 5$:**
 
-$$\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}
+$$
 
 $-x + y = 0 \implies y = x$. Eigenvector: $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
 **For $\lambda_2 = 2$:**
 
-$$\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}
+$$
 
 $2x + y = 0 \implies y = -2x$. Eigenvector: $\begin{pmatrix} 1 \\ -2 \end{pmatrix}$.
 
@@ -277,16 +323,22 @@ $2x + y = 0 \implies y = -2x$. Eigenvector: $\begin{pmatrix} 1 \\ -2 \end{pmatri
 
 If an $n \times n$ matrix $A$ has $n$ linearly independent eigenvectors, it can be diagonalised:
 
-$$A = PDP^{-1}$$
+$$
+A = PDP^{-1}
+$$
 
 Where $P$ has the eigenvectors as columns and $D$ is a diagonal matrix with the eigenvalues on the
-Diagonal.
+diagonal.
 
 **Worked example.** For the matrix above:
 
-$$P = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}, \quad D = \begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}, \quad D = \begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}
+$$
 
-$$\det P = -2 - 1 = -3, \quad P^{-1} = -\frac{1}{3}\begin{pmatrix} -2 & -1 \\ -1 & 1 \end{pmatrix} = \frac{1}{3}\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix}$$
+$$
+\det P = -2 - 1 = -3, \quad P^{-1} = -\frac{1}{3}\begin{pmatrix} -2 & -1 \\ -1 & 1 \end{pmatrix} = \frac{1}{3}\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix}
+$$
 
 Verify:
 $PDP^{-1} = \dfrac{1}{3}\begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}\begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix}$
@@ -297,13 +349,15 @@ $= \dfrac{1}{3}\begin{pmatrix} 5 & 2 \\ 5 & -4 \end{pmatrix}\begin{pmatrix} 2 & 
 
 Diagonalisation allows efficient computation of $A^n$:
 
-$$A^n = PD^n P^{-1}$$
+$$
+A^n = PD^n P^{-1}
+$$
 
 Since $D^n$ is the diagonal matrix with each eigenvalue raised to the power $n$.
 
 :::caution
 Has a full set of linearly independent eigenvectors. A matrix with repeated eigenvalues may or may
-Not be diagonalisable.
+not be diagonalisable.
 :::
 
 <hr />
@@ -370,7 +424,7 @@ Fibonacci number.
 <summary>Solution</summary>
 
 Eigenvalues of $A$: $\lambda^2 - \lambda - 2 = 0 \implies \lambda = \frac{1 \pm 3}{2}$
-So $\lambda_1 = 2$, $\lambda_2 = -1$.
+so $\lambda_1 = 2$, $\lambda_2 = -1$.
 
 Eigenvectors: for $\lambda = 2$: $(1, 1)$; for $\lambda = -1$: $(-2, 1)$.
 
@@ -380,7 +434,7 @@ $P^{-1} = \frac{1}{3}\begin{pmatrix} 1 & 2 \\ -1 & 1 \end{pmatrix}$.
 $\begin{pmatrix} F_{n+1} \\ F_n \end{pmatrix} = A^n\begin{pmatrix} 1 \\ 0 \end{pmatrix}$.
 
 This gives $F_n = \frac{2^n - (-1)^n}{3}$ (the Lucas sequence). For the standard Fibonacci sequence
-With $A = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$The result is
+with $A = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$ The result is
 $F_n = \frac{\phi^n - \psi^n}{\sqrt{5}}$ where
 $\phi = \frac{1+\sqrt{5}}{2}$.
 
@@ -404,23 +458,33 @@ $\phi = \frac{1+\sqrt{5}}{2}$.
 **Proof.** Let $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$ and
 $B = \begin{pmatrix} e & f \\ g & h \end{pmatrix}$.
 
-$$AB = \begin{pmatrix} ae + bg & af + bh \\ ce + dg & cf + dh \end{pmatrix}$$
+$$
+AB = \begin{pmatrix} ae + bg & af + bh \\ ce + dg & cf + dh \end{pmatrix}
+$$
 
-$$\det(AB) = (ae + bg)(cf + dh) - (af + bh)(ce + dg)$$
+$$
+\det(AB) = (ae + bg)(cf + dh) - (af + bh)(ce + dg)
+$$
 
-$$= acef + adeh + bcfg + bdgh - acef - adfg - bceh - bdgh$$
+$$
+= acef + adeh + bcfg + bdgh - acef - adfg - bceh - bdgh
+$$
 
-$$= adeh + bcfg - adfg - bceh$$
+$$
+= adeh + bcfg - adfg - bceh
+$$
 
-$$= ad(eh - fg) - bc(eh - fg) = (ad - bc)(eh - fg) = \det(A)\det(B) \quad \blacksquare$$
+$$
+= ad(eh - fg) - bc(eh - fg) = (ad - bc)(eh - fg) = \det(A)\det(B) \quad \blacksquare
+$$
 
 ### 7.2 Proof: $\det(A) \neq 0 \iff A$ is invertible
 
-**Proof.** ($\Rightarrow$) If $\det(A) \neq 0$The adjugate formula gives
+**Proof.** ($\Rightarrow$) If $\det(A) \neq 0$ The adjugate formula gives
 $A^{-1} = \dfrac{1}{\det A}\mathrm{adj}(A)$ So $A$ is invertible.
 
 ($\Leftarrow$) If $A$ is invertible with $A^{-1}$ Then
-$\det(A)\det(A^{-1}) = \det(AA^{-1}) = \det(I) = 1$. Since $1 \neq 0$We must have $\det(A) \neq 0$.
+$\det(A)\det(A^{-1}) = \det(AA^{-1}) = \det(I) = 1$. Since $1 \neq 0$ We must have $\det(A) \neq 0$.
 $\blacksquare$
 
 ### 7.3 Proof: the trace equals the sum of eigenvalues
@@ -432,7 +496,9 @@ $\det(A - \lambda I) = \lambda^2 - (a + d)\lambda + (ad - bc) = 0$.
 
 By Vieta's formulas, the sum of the roots is the negative coefficient of $\lambda$:
 
-$$\lambda_1 + \lambda_2 = a + d = \mathrm{tr}(A) \quad \blacksquare$$
+$$
+\lambda_1 + \lambda_2 = a + d = \mathrm{tr}(A) \quad \blacksquare
+$$
 
 ### 7.4 Proof: area scale factor via determinant
 
@@ -441,11 +507,13 @@ $|\det(A)|$.
 
 **Proof.** The unit square with vertices
 $\mathbf{0}, \mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_1 + \mathbf{e}_2$ is mapped to a parallelogram
-With vertices $\mathbf{0}, A\mathbf{e}_1, A\mathbf{e}_2, A\mathbf{e}_1 + A\mathbf{e}_2$.
+with vertices $\mathbf{0}, A\mathbf{e}_1, A\mathbf{e}_2, A\mathbf{e}_1 + A\mathbf{e}_2$.
 
 The area of this parallelogram is the magnitude of the cross product (in 2D, the determinant):
 
-$$\text{Area} = \left|\det\begin{pmatrix} a & b \\ c & d \end{pmatrix}\right| = |\det A|$$
+$$
+\text{Area} = \left|\det\begin{pmatrix} a & b \\ c & d \end{pmatrix}\right| = |\det A|
+$$
 
 Any region can be tiled by infinitesimal parallelograms, so the general scale factor is $|\det A|$.
 $\blacksquare$
@@ -516,11 +584,13 @@ Eigenvector: $\begin{pmatrix} 1 \\ -1 \end{pmatrix}$.
 Only one independent eigenvector, so $A$ is not diagonalisable.
 
 **(b)** Since $A$ is not diagonalisable, we cannot find $P$ and $D$ in the usual way. The best we
-Can do is Jordan form, which is beyond A-Level scope.
+can do is Jordan form, which is beyond A-Level scope.
 
 **(c)** For $A^n$ with a non-diagonalisable $2 \times 2$ matrix with repeated eigenvalue $\lambda$:
 
-$$A^n = \lambda^n I + n\lambda^{n-1}(A - \lambda I)$$
+$$
+A^n = \lambda^n I + n\lambda^{n-1}(A - \lambda I)
+$$
 
 $A - 2I = \begin{pmatrix} 1 & 1 \\ -1 & -1 \end{pmatrix}$.
 
@@ -533,7 +603,7 @@ $= \begin{pmatrix} 112 & 80 \\ -80 & -48 \end{pmatrix}$.
 ### Question 6
 
 **(a)** Find the $3 \times 3$ matrix $M$ that represents a rotation of $90^\circ$ anticlockwise
-About the $x$-axis.
+about the $x$-axis.
 
 **(b)** Verify that $\det(M) = 1$.
 
@@ -545,7 +615,9 @@ About the $x$-axis.
 **(a)** A rotation of $\theta$ about the $x$-axis leaves $x$ unchanged and rotates the $y$-$z$
 Plane:
 
-$$M = \begin{pmatrix} 1 & 0 & 0 \\ 0 & \cos 90^\circ & -\sin 90^\circ \\ 0 & \sin 90^\circ & \cos 90^\circ \end{pmatrix} = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & -1 \\ 0 & 1 & 0 \end{pmatrix}$$
+$$
+M = \begin{pmatrix} 1 & 0 & 0 \\ 0 & \cos 90^\circ & -\sin 90^\circ \\ 0 & \sin 90^\circ & \cos 90^\circ \end{pmatrix} = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & -1 \\ 0 & 1 & 0 \end{pmatrix}
+$$
 
 **(b)** Expanding along the first row:
 
@@ -585,14 +657,14 @@ $\begin{pmatrix} 2 & 3 \\ 0 & 2 \end{pmatrix}\begin{pmatrix} x \\ 0 \end{pmatrix
 
 The image $(2x, 0)$ also lies on $y = 0$ So $y = 0$ is an invariant line.
 
-**(c)** For an invariant line $y = mx$We need
+**(c)** For an invariant line $y = mx$ We need
 $A\begin{pmatrix} 1 \\ m \end{pmatrix} = \lambda\begin{pmatrix} 1 \\ m \end{pmatrix}$:
 
 $2 + 3m = \lambda$ and $2m = \lambda m$.
 
 From the second equation: $m(2 - \lambda) = 0$.
 
-If $m = 0$We get the line $y = 0$ (already found).
+If $m = 0$ We get the line $y = 0$ (already found).
 
 If $\lambda = 2$: $2 + 3m = 2 \implies m = 0$ again.
 
@@ -621,34 +693,48 @@ $A = \begin{pmatrix} 2 & 1 & 0 \\ 1 & 3 & 1 \\ 0 & 1 & 2 \end{pmatrix}$.
 
 **Solution.** Characteristic equation:
 
-$$\det(A - \lambda I) = \begin{vmatrix} 2-\lambda & 1 & 0 \\ 1 & 3-\lambda & 1 \\ 0 & 1 & 2-\lambda \end{vmatrix} = 0$$
+$$
+\det(A - \lambda I) = \begin{vmatrix} 2-\lambda & 1 & 0 \\ 1 & 3-\lambda & 1 \\ 0 & 1 & 2-\lambda \end{vmatrix} = 0
+$$
 
 Expanding along the first row:
 
-$$(2-\lambda)\begin{vmatrix} 3-\lambda & 1 \\ 1 & 2-\lambda \end{vmatrix} - 1\begin{vmatrix} 1 & 1 \\ 0 & 2-\lambda \end{vmatrix} + 0$$
+$$
+(2-\lambda)\begin{vmatrix} 3-\lambda & 1 \\ 1 & 2-\lambda \end{vmatrix} - 1\begin{vmatrix} 1 & 1 \\ 0 & 2-\lambda \end{vmatrix} + 0
+$$
 
-$$= (2-\lambda)[(3-\lambda)(2-\lambda)-1] - (2-\lambda)$$
+$$
+= (2-\lambda)[(3-\lambda)(2-\lambda)-1] - (2-\lambda)
+$$
 
-$$= (2-\lambda)[(3-\lambda)(2-\lambda) - 2] = (2-\lambda)[\lambda^2 - 5\lambda + 4] = (2-\lambda)(\lambda-1)(\lambda-4)$$
+$$
+= (2-\lambda)[(3-\lambda)(2-\lambda) - 2] = (2-\lambda)[\lambda^2 - 5\lambda + 4] = (2-\lambda)(\lambda-1)(\lambda-4)
+$$
 
 Eigenvalues: $\lambda_1 = 1$$\lambda_2 = 2$$\lambda_3 = 4$.
 
 **For $\lambda_1 = 1$:**
 
-$$\begin{pmatrix} 1 & 1 & 0 \\ 1 & 2 & 1 \\ 0 & 1 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \mathbf{0}$$
+$$
+\begin{pmatrix} 1 & 1 & 0 \\ 1 & 2 & 1 \\ 0 & 1 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \mathbf{0}
+$$
 
 $x + y = 0$$x + 2y + z = 0$$y + z = 0$. From the first: $x = -y$. From the third: $z = -y$.
 Eigenvector: $\begin{pmatrix} 1 \\ -1 \\ 1 \end{pmatrix}$.
 
 **For $\lambda_2 = 2$:**
 
-$$\begin{pmatrix} 0 & 1 & 0 \\ 1 & 1 & 1 \\ 0 & 1 & 0 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \mathbf{0}$$
+$$
+\begin{pmatrix} 0 & 1 & 0 \\ 1 & 1 & 1 \\ 0 & 1 & 0 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \mathbf{0}
+$$
 
 $y = 0$, $x + z = 0$. Eigenvector: $\begin{pmatrix} 1 \\ 0 \\ -1 \end{pmatrix}$.
 
 **For $\lambda_3 = 4$:**
 
-$$\begin{pmatrix} -2 & 1 & 0 \\ 1 & -1 & 1 \\ 0 & 1 & -2 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \mathbf{0}$$
+$$
+\begin{pmatrix} -2 & 1 & 0 \\ 1 & -1 & 1 \\ 0 & 1 & -2 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \mathbf{0}
+$$
 
 $-2x + y = 0 \implies y = 2x$. $y - 2z = 0 \implies z = x$. Eigenvector:
 $\begin{pmatrix} 1 \\ 2 \\ 1 \end{pmatrix}$.
@@ -663,19 +749,31 @@ $D = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 4 \end{pmatrix}$.
 
 $\det P = 1(0-(-2)) - 1((-1)-2) + 1(1-0) = 2 + 3 + 1 = 6$.
 
-$$P^{-1} = \frac{1}{6}\begin{pmatrix} 2 & 0 & 2 \\ 3 & 0 & -3 \\ 1 & 2 & 1 \end{pmatrix}$$
+$$
+P^{-1} = \frac{1}{6}\begin{pmatrix} 2 & 0 & 2 \\ 3 & 0 & -3 \\ 1 & 2 & 1 \end{pmatrix}
+$$
 
 $A^4 = PD^4P^{-1}$:
 
-$$D^4 = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 16 & 0 \\ 0 & 0 & 256 \end{pmatrix}$$
+$$
+D^4 = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 16 & 0 \\ 0 & 0 & 256 \end{pmatrix}
+$$
 
-$$PD^4 = \begin{pmatrix} 1 & 16 & 256 \\ -1 & 0 & 512 \\ 1 & -16 & 256 \end{pmatrix}$$
+$$
+PD^4 = \begin{pmatrix} 1 & 16 & 256 \\ -1 & 0 & 512 \\ 1 & -16 & 256 \end{pmatrix}
+$$
 
-$$A^4 = \frac{1}{6}\begin{pmatrix} 1 & 16 & 256 \\ -1 & 0 & 512 \\ 1 & -16 & 256 \end{pmatrix}\begin{pmatrix} 2 & 0 & 2 \\ 3 & 0 & -3 \\ 1 & 2 & 1 \end{pmatrix}$$
+$$
+A^4 = \frac{1}{6}\begin{pmatrix} 1 & 16 & 256 \\ -1 & 0 & 512 \\ 1 & -16 & 256 \end{pmatrix}\begin{pmatrix} 2 & 0 & 2 \\ 3 & 0 & -3 \\ 1 & 2 & 1 \end{pmatrix}
+$$
 
-$$= \frac{1}{6}\begin{pmatrix} 2+48+256 & 512-768+512 & 2-48+256 \\ -2+512 & 1024 & -2-768+512 \\ 2-48+256 & 512+256 & 2+48+256 \end{pmatrix}$$
+$$
+= \frac{1}{6}\begin{pmatrix} 2+48+256 & 512-768+512 & 2-48+256 \\ -2+512 & 1024 & -2-768+512 \\ 2-48+256 & 512+256 & 2+48+256 \end{pmatrix}
+$$
 
-$$= \frac{1}{6}\begin{pmatrix} 306 & 256 & 210 \\ 510 & 1024 & -258 \\ 210 & 768 & 306 \end{pmatrix} = \begin{pmatrix} 51 & 128/3 & 35 \\ 85 & 512/3 & -43 \\ 35 & 128 & 51 \end{pmatrix}$$
+$$
+= \frac{1}{6}\begin{pmatrix} 306 & 256 & 210 \\ 510 & 1024 & -258 \\ 210 & 768 & 306 \end{pmatrix} = \begin{pmatrix} 51 & 128/3 & 35 \\ 85 & 512/3 & -43 \\ 35 & 128 & 51 \end{pmatrix}
+$$
 
 ### Example 10.3: Reflection in an arbitrary line
 
@@ -688,16 +786,20 @@ Matrix is obtained by:
 2. Reflect in the $x$-axis.
 3. Rotate back by $\theta$.
 
-$$R_{-\theta} = \begin{pmatrix} \cos\theta & \sin\theta \\ \sin\theta & -\cos\theta \end{pmatrix}$$
+$$
+R_{-\theta} = \begin{pmatrix} \cos\theta & \sin\theta \\ \sin\theta & -\cos\theta \end{pmatrix}
+$$
 
 Wait -- the reflection matrix in a line at angle $\theta$ to the $x$-axis is:
 
-$$M = \begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}$$
+$$
+M = \begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}
+$$
 
 This can be derived as $R_\theta \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} R_{-\theta}$.
 
-For $m = 1$ ($\theta = \pi/4$): $M = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$Which is
-Reflection in $y = x$ (consistent with the standard table).
+For $m = 1$ ($\theta = \pi/4$): $M = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ Which is
+reflection in $y = x$ (consistent with the standard table).
 
 ### Example 10.4: Successive transformations and invariant lines
 
@@ -710,7 +812,9 @@ $-3 - 3\lambda + \lambda + \lambda^2 + 4 = 0 \implies \lambda^2 - 2\lambda + 1 =
 
 $\lambda = 1$ (repeated). Eigenvector: $(A-I)\mathbf{v} = \mathbf{0}$:
 
-$$\begin{pmatrix} 2 & -4 \\ 1 & -2 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \mathbf{0} \implies x - 2y = 0$$
+$$
+\begin{pmatrix} 2 & -4 \\ 1 & -2 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \mathbf{0} \implies x - 2y = 0
+$$
 
 Eigenvector: $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$ So the line $y = x/2$ is invariant.
 
@@ -722,11 +826,13 @@ For this to lie on $y = mx + c$: $(1-m)x - c = m(3-4m)x - 4mc + c$.
 
 Comparing coefficients of $x$: $1 - m = m(3 - 4m) = 3m - 4m^2$.
 
-$$4m^2 - 4m + 1 = 0 \implies (2m - 1)^2 = 0 \implies m = 1/2$$
+$$
+4m^2 - 4m + 1 = 0 \implies (2m - 1)^2 = 0 \implies m = 1/2
+$$
 
 Comparing constants: $-c = -4mc + c \implies 4mc = 2c \implies c(2m - 1) = 0$.
 
-Since $m = 1/2$: $c(0) = 0$Which is satisfied for all $c$.
+Since $m = 1/2$: $c(0) = 0$ Which is satisfied for all $c$.
 
 Therefore **every** line of the form $y = x/2 + c$ is invariant under $T$.
 
@@ -742,9 +848,13 @@ $\begin{pmatrix}x\\y\\1\end{pmatrix}$:
 2. Rotate by $\theta$.
 3. Translate back by $(a, b)$.
 
-$$M = \begin{pmatrix} 1 & 0 & a \\ 0 & 1 & b \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} \cos\theta & -\sin\theta & 0 \\ \sin\theta & \cos\theta & 0 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 & -a \\ 0 & 1 & -b \\ 0 & 0 & 1 \end{pmatrix}$$
+$$
+M = \begin{pmatrix} 1 & 0 & a \\ 0 & 1 & b \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} \cos\theta & -\sin\theta & 0 \\ \sin\theta & \cos\theta & 0 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 & -a \\ 0 & 1 & -b \\ 0 & 0 & 1 \end{pmatrix}
+$$
 
-$$= \begin{pmatrix} \cos\theta & -\sin\theta & a(1-\cos\theta)+b\sin\theta \\ \sin\theta & \cos\theta & b(1-\cos\theta)-a\sin\theta \\ 0 & 0 & 1 \end{pmatrix}$$
+$$
+= \begin{pmatrix} \cos\theta & -\sin\theta & a(1-\cos\theta)+b\sin\theta \\ \sin\theta & \cos\theta & b(1-\cos\theta)-a\sin\theta \\ 0 & 0 & 1 \end{pmatrix}
+$$
 
 ### Example 10.6: Determinant and area of a triangle
 
@@ -753,7 +863,9 @@ Determinants.
 
 **Solution.**
 
-$$\text{Area} = \frac{1}{2}\left|\det\begin{pmatrix} 1 & 2 & 1 \\ 4 & 6 & 1 \\ 3 & -1 & 1 \end{pmatrix}\right|$$
+$$
+\text{Area} = \frac{1}{2}\left|\det\begin{pmatrix} 1 & 2 & 1 \\ 4 & 6 & 1 \\ 3 & -1 & 1 \end{pmatrix}\right|
+$$
 
 Expanding along the third column:
 
@@ -767,17 +879,25 @@ $= \dfrac{1}{2}|(-4-18) - (-1-6) + (6-8)| = \dfrac{1}{2}|-22 + 7 - 2| = \dfrac{1
 
 **Solution.** The system is $A\mathbf{x} = \mathbf{b}$ where:
 
-$$A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & 1 & 1 \\ 1 & 1 & 2 \end{pmatrix}, \quad \mathbf{b} = \begin{pmatrix} 4 \\ 3 \\ 5 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & 1 \\ 2 & 1 & 1 \\ 1 & 1 & 2 \end{pmatrix}, \quad \mathbf{b} = \begin{pmatrix} 4 \\ 3 \\ 5 \end{pmatrix}
+$$
 
 $\det A = 1(2-1) - 2(4-1) + 1(2-1) = 1 - 6 + 1 = -4$.
 
 Using Cramer's rule:
 
-$$x = \frac{\det\begin{pmatrix} 4 & 2 & 1 \\ 3 & 1 & 1 \\ 5 & 1 & 2 \end{pmatrix}}{-4} = \frac{4(2-1) - 2(6-5) + 1(3-5)}{-4} = \frac{4 - 2 - 2}{-4} = 0$$
+$$
+x = \frac{\det\begin{pmatrix} 4 & 2 & 1 \\ 3 & 1 & 1 \\ 5 & 1 & 2 \end{pmatrix}}{-4} = \frac{4(2-1) - 2(6-5) + 1(3-5)}{-4} = \frac{4 - 2 - 2}{-4} = 0
+$$
 
-$$y = \frac{\det\begin{pmatrix} 1 & 4 & 1 \\ 2 & 3 & 1 \\ 1 & 5 & 2 \end{pmatrix}}{-4} = \frac{1(6-5) - 4(4-1) + 1(10-3)}{-4} = \frac{1 - 12 + 7}{-4} = 1$$
+$$
+y = \frac{\det\begin{pmatrix} 1 & 4 & 1 \\ 2 & 3 & 1 \\ 1 & 5 & 2 \end{pmatrix}}{-4} = \frac{1(6-5) - 4(4-1) + 1(10-3)}{-4} = \frac{1 - 12 + 7}{-4} = 1
+$$
 
-$$z = \frac{\det\begin{pmatrix} 1 & 2 & 4 \\ 2 & 1 & 3 \\ 1 & 1 & 5 \end{pmatrix}}{-4} = \frac{1(5-3) - 2(10-3) + 4(2-1)}{-4} = \frac{2 - 14 + 4}{-4} = 2$$
+$$
+z = \frac{\det\begin{pmatrix} 1 & 2 & 4 \\ 2 & 1 & 3 \\ 1 & 1 & 5 \end{pmatrix}}{-4} = \frac{1(5-3) - 2(10-3) + 4(2-1)}{-4} = \frac{2 - 14 + 4}{-4} = 2
+$$
 
 Solution: $x = 0$, $y = 1$, $z = 2$.
 
@@ -798,7 +918,7 @@ Solution: $x = 0$, $y = 1$, $z = 2$.
 
 Complex numbers $a + bi$ can be represented as $\begin{pmatrix}a & -b\\b & a\end{pmatrix}$.
 Multiplication of complex numbers corresponds to matrix multiplication, and $|z|^2 = \det$ of this
-Matrix. See [Complex Numbers](/further-maths/pure/complex-numbers/).
+matrix. See [Complex Numbers](/further-maths/pure/complex-numbers/).
 
 ### 11.2 Matrices and vectors
 
@@ -860,22 +980,26 @@ Eigenvector: $\begin{pmatrix}1\\0\\1\end{pmatrix}$.
 
 **(b)** Three independent eigenvectors, so $B$ is diagonalisable.
 
-$$P = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 0 \\ -1 & 0 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} -1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 0 \\ -1 & 0 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} -1 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3 \end{pmatrix}
+$$
 
 </details>
 
 ### Question 9
 
-Find the matrix representing an enlargement of scale factor $3$ from the point $(1, 2)$Using
+Find the matrix representing an enlargement of scale factor $3$ from the point $(1, 2)$ Using
 Homogeneous coordinates.
 
 <details>
 <summary>Solution</summary>
 
-In homogeneous coordinates, this is the composite of translate by $(-1, -2)$Enlarge by $3$ And
-Translate back by $(1, 2)$:
+In homogeneous coordinates, this is the composite of translate by $(-1, -2)$ Enlarge by $3$ And
+translate back by $(1, 2)$:
 
-$$M = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} 3 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 & -1 \\ 0 & 1 & -2 \\ 0 & 0 & 1 \end{pmatrix} = \begin{pmatrix} 3 & 0 & -2 \\ 0 & 3 & -4 \\ 0 & 0 & 1 \end{pmatrix}$$
+$$
+M = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} 3 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 & -1 \\ 0 & 1 & -2 \\ 0 & 0 & 1 \end{pmatrix} = \begin{pmatrix} 3 & 0 & -2 \\ 0 & 3 & -4 \\ 0 & 0 & 1 \end{pmatrix}
+$$
 
 </details>
 
@@ -887,16 +1011,16 @@ is diagonalisable.
 <details>
 <summary>Solution</summary>
 
-Since $\lambda_1 \neq \lambda_2$The eigenvectors $\mathbf{v}_1$ and $\mathbf{v}_2$ satisfy
+Since $\lambda_1 \neq \lambda_2$ The eigenvectors $\mathbf{v}_1$ and $\mathbf{v}_2$ satisfy
 $(A - \lambda_1 I)\mathbf{v}_1 = \mathbf{0}$ and $(A - \lambda_2 I)\mathbf{v}_2 = \mathbf{0}$.
 
 Suppose $\mathbf{v}_1$ and $\mathbf{v}_2$ are linearly dependent: $\mathbf{v}_2 = c\mathbf{v}_1$ for
-Some scalar $c$.
+some scalar $c$.
 
 Then $(A - \lambda_2 I)\mathbf{v}_1 = \mathbf{0}$ (dividing by $c$), which means $\lambda_1$ and
 $\lambda_2$ are both eigenvalues with eigenvector $\mathbf{v}_1$. But
 $(A - \lambda_1 I)\mathbf{v}_1 = \mathbf{0}$ and $(A - \lambda_2 I)\mathbf{v}_1 = \mathbf{0}$
-Together give $(\lambda_1 - \lambda_2)\mathbf{v}_1 = \mathbf{0}$Contradicting
+Together give $(\lambda_1 - \lambda_2)\mathbf{v}_1 = \mathbf{0}$ Contradicting
 $\lambda_1 \neq \lambda_2$ and $\mathbf{v}_1 \neq \mathbf{0}$.
 
 Therefore $\mathbf{v}_1$ and $\mathbf{v}_2$ are linearly independent, $P$ is invertible, and
@@ -926,17 +1050,17 @@ $A = \begin{pmatrix}4&2\\2&1\end{pmatrix}$.
 $\lambda = 0, 5$.
 
 $\lambda = 0$: $\begin{pmatrix}4&2\\2&1\end{pmatrix}\mathbf{v}=\mathbf{0} \implies v_1 = -v_2/2$.
-Eigenvector: $(1,-2)$Normalised: $\dfrac{1}{\sqrt{5}}(1,-2)$.
+Eigenvector: $(1,-2)$ Normalised: $\dfrac{1}{\sqrt{5}}(1,-2)$.
 
 $\lambda = 5$: $\begin{pmatrix}-1&2\\2&-4\end{pmatrix}\mathbf{v}=\mathbf{0} \implies v_1 = 2v_2$.
-Eigenvector: $(2,1)$Normalised: $\dfrac{1}{\sqrt{5}}(2,1)$.
+Eigenvector: $(2,1)$ Normalised: $\dfrac{1}{\sqrt{5}}(2,1)$.
 
 Orthogonality check: $(1)(2)+(-2)(1) = 0$. ✓ The eigenvectors are orthogonal (as expected for a
-Symmetric matrix).
+symmetric matrix).
 
 ### Example 13.2: Using diagonalisation to compute a matrix power
 
-**Problem.** Given $A = \begin{pmatrix}3&1\\0&2\end{pmatrix}$Find $A^{10}$.
+**Problem.** Given $A = \begin{pmatrix}3&1\\0&2\end{pmatrix}$ Find $A^{10}$.
 
 **Solution.** Eigenvalues: $(3-\lambda)(2-\lambda) = 0 \implies \lambda = 2, 3$.
 
@@ -990,7 +1114,7 @@ $(S-I)\mathbf{v} = \begin{pmatrix}0&k\\0&0\end{pmatrix}\mathbf{v} = \mathbf{0} \
 Only one eigenvector: $(1,0)$.
 
 The $x$-axis ($y=0$) is the only invariant line through the origin. All lines $y = c$ (for any
-Constant $c$) are invariant (but not through the origin, except $y=0$).
+constant $c$) are invariant (but not through the origin, except $y=0$).
 
 ### Example 13.6: Matrix equation $AX = B$
 
@@ -1067,7 +1191,9 @@ $\cos 2\theta = \cos^2\theta-\sin^2\theta = \dfrac{1-4}{5} = -\dfrac{3}{5}$.
 
 $\sin 2\theta = 2\sin\theta\cos\theta = \dfrac{4}{5}$.
 
-$$R = \begin{pmatrix}-\frac{3}{5}&\frac{4}{5}\\\frac{4}{5}&\frac{3}{5}\end{pmatrix}$$
+$$
+R = \begin{pmatrix}-\frac{3}{5}&\frac{4}{5}\\\frac{4}{5}&\frac{3}{5}\end{pmatrix}
+$$
 
 </details>
 
@@ -1096,7 +1222,7 @@ Properties:
 - Orthogonal transformations preserve lengths and angles
 
 Every $2\times 2$ orthogonal matrix with $\det = 1$ is a rotation; with $\det = -1$ it is a
-Reflection.
+reflection.
 
 ### 16.2 Diagonalisation revisited
 
@@ -1175,16 +1301,6 @@ $= \dfrac{1}{3}\begin{pmatrix}3125&32\\3125&-64\end{pmatrix}\begin{pmatrix}2&1\\
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
-```mermaid
-flowchart TD
-    A[Matrices And Transformations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

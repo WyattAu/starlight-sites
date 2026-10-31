@@ -22,6 +22,8 @@ description: 'The model defines seven layers of abstraction for network Communic
 The **Open Systems Interconnection (OSI)** model defines seven layers of abstraction for network
 Communication:
 
+<div class="table-wrap">
+
 | Layer | Name         | Function                                     | Examples                  |
 | ----- | ------------ | -------------------------------------------- | ------------------------- |
 | 7     | Application  | User-facing protocols                        | HTTP, DNS, SMTP, FTP      |
@@ -32,14 +34,20 @@ Communication:
 | 2     | Data Link    | Framing, error detection, MAC                | Ethernet, Wi-Fi, PPP      |
 | 1     | Physical     | Bit transmission on the medium               | Cables, hubs, radio waves |
 
+</div>
+
 **Encapsulation.** Each layer adds its own header (and possibly trailer) to the data from the layer
 Above, forming a **protocol data unit (PDU)**:
 
-$$\mathrm{Data} \xrightarrow{+\mathrm{th} \mathrm{Segment} \xrightarrow{+\mathrm{nh} \mathrm{Packet} \xrightarrow{+\mathrm{fh}+ft} \mathrm{Frame} \xrightarrow{\mathrm{encode} \mathrm{Bits}}}}$$
+$$
+\mathrm{Data} \xrightarrow{+\mathrm{th} \mathrm{Segment} \xrightarrow{+\mathrm{nh} \mathrm{Packet} \xrightarrow{+\mathrm{fh}+ft} \mathrm{Frame} \xrightarrow{\mathrm{encode} \mathrm{Bits}}}}
+$$
 
 ### 1.2 The TCP/IP Model
 
 The **TCP/IP** model is the practical standard used on the Internet, with four layers:
+
+<div class="table-wrap">
 
 | Layer          | OSI Equivalent | Protocols            |
 | -------------- | -------------- | -------------------- |
@@ -48,6 +56,8 @@ The **TCP/IP** model is the practical standard used on the Internet, with four l
 | Internet       | 3              | IP, ICMP, ARP        |
 | Network Access | 1, 2           | Ethernet, Wi-Fi, MAC |
 
+</div>
+
 ### 1.3 Comparison
 
 The OSI model is a theoretical reference used for teaching and design. The TCP/IP model reflects
@@ -55,6 +65,8 @@ Actual protocol implementations. The session and presentation layers in OSI are 
 Application layer in TCP/IP.
 
 **Detailed OSI vs TCP/IP comparison:**
+
+<div class="table-wrap">
 
 | Aspect                | OSI Model                              | TCP/IP Model                        |
 | --------------------- | -------------------------------------- | ----------------------------------- |
@@ -69,10 +81,14 @@ Application layer in TCP/IP.
 | Service interface     | Precisely defined (SAPs)               | Loosely defined                     |
 | Release               | 1984                                   | Developed 1970s, formalised 1980s   |
 
+</div>
+
 ### 1.4 Protocol Data Unit Encapsulation
 
 Each layer encapsulates data from the layer above by prepending a header (and appending a trailer at
 Layer 2). The resulting data unit is named according to its layer:
+
+<div class="table-wrap">
 
 | Layer       | PDU Name | Header Added         | Trailer | Size (typical) |
 | ----------- | -------- | -------------------- | ------- | -------------- |
@@ -81,6 +97,8 @@ Layer 2). The resulting data unit is named according to its layer:
 | Network     | Packet   | IP header            | None    | 20--60 bytes   |
 | Data Link   | Frame    | MAC header           | FCS     | 14--18 + 4 B   |
 | Physical    | Bits     | None (encoding)      | None    | N/A            |
+
+</div>
 
 **Encapsulation walkthrough.** Consider sending an HTTP GET request of 500 bytes through TCP/IP over
 Ethernet:
@@ -125,17 +143,6 @@ Consider an HTTP request traversing three networks: the client LAN (Ethernet), a
 
 At each hop, only the relevant layer headers are processed. The HTTP payload is untouched from client to server.
 
-
-```mermaid
-flowchart TD
-    A[1_Network Models] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Network models are the organisational charts of data communication. The OSI model separates concerns into seven layers, each with a specific job. Think of it as a relay race: each layer passes the baton (data) to the next, adding its own header (instructions). The TCP/IP model is the practical version used on the internet. Encapsulation is the key concept: each layer wraps the data from the layer above, like nesting dolls. Understanding layers helps you debug: a cable problem is Layer 1, an IP issue is Layer 3, and a web bug is Layer 7.
@@ -146,44 +153,3 @@ Network models are the organisational charts of data communication. The OSI mode
 - [Network Layer](/3-computer-networks/4_network-layer/)
 - [Transport Layer](/3-computer-networks/5_transport-layer/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

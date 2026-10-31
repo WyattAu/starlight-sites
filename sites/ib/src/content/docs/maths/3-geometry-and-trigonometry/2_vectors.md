@@ -23,8 +23,8 @@ categories:
 ### Parametric Form
 
 A vector line ($r$) in parametric form takes a scalar parameter ($\gamma$) to produce each point on
-The line. The line ($\bm{r}(\gamma)$) is a sum of a point on a line ($\bm{a}$ or $\bm{r_0}$) and a
-Direction vector ($\bm{b}$) scaled by the parameter $\gamma$:
+the line. The line ($\bm{r}(\gamma)$) is a sum of a point on a line ($\bm{a}$ or $\bm{r_0}$) and a
+direction vector ($\bm{b}$) scaled by the parameter $\gamma$:
 
 $$
 \begin`\{aligned}`
@@ -81,7 +81,7 @@ $$
 ### Point-normal Form
 
 A vector plane ($\bm{r}$) defined in point-normal form is defined by the dot product between the
-Normal ($\hat{n}$) and the direction vectors ($\bm{r}-\bm{r_0}$ or $\gamma \bm{b} + \mu \bm{c}$):
+normal ($\hat{n}$) and the direction vectors ($\bm{r}-\bm{r_0}$ or $\gamma \bm{b} + \mu \bm{c}$):
 
 $$
 \begin`\{aligned}`
@@ -93,7 +93,7 @@ $$
 ### Cartesian Form
 
 A vector plane ($\bm{r}$) defined in cartesian form is extended from the point-normal form by
-Expressing normal vector as its individual axis ($x,y,z$):
+expressing normal vector as its individual axis ($x,y,z$):
 
 $$
 \begin`\{aligned}`
@@ -115,7 +115,7 @@ $$
 $$
 
 Since $ax_0 + by_0 + cz_0$ produce a constant, the formula booklet uses a single constant $d$ to
-Represent it:
+represent it:
 
 $$
 \begin`\{aligned}`
@@ -328,20 +328,20 @@ To find where line $\bm{r} = \bm{a} + t\bm{b}$ intersects plane $\bm{r} \cdot \h
 2. Solve for $t$: $, $
    t = \frac{d - \bm{a} \cdot \hat{n}}{\bm{b} \cdot \hat{n}}
    $, $
-3. If $\bm{b} \cdot \hat{n} = 0$The line is parallel to the plane (no intersection or lies in the
+3. If $\bm{b} \cdot \hat{n} = 0$ The line is parallel to the plane (no intersection or lies in the
    plane)
 
 ### Worked Example 3: Line-Plane Intersection
 
 **Problem:** Find the intersection of line
 $\bm{r} = \begin{pmatrix} 1 \\ 0 \\ 2 \end{pmatrix} + t\begin{pmatrix} 2 \\ 1 \\ -1 \end{pmatrix}$
-With plane $2x - y + z = 5$.
+with plane $2x - y + z = 5$.
 
 **Solution:**
 
 Normal vector $\hat{n} = \begin{pmatrix} 2 \\ -1 \\ 1 \end{pmatrix}$$d = 5$.
 
-Point on line: $\bm{a} = \begin{pmatrix} 1 \\ 0 \\ 2 \end{pmatrix}$Direction:
+Point on line: $\bm{a} = \begin{pmatrix} 1 \\ 0 \\ 2 \end{pmatrix}$ Direction:
 $\bm{b} = \begin{pmatrix} 2 \\ 1 \\ -1 \end{pmatrix}$.
 
 $$
@@ -444,7 +444,7 @@ $$
 
 :::tip
 Your answer by substituting the point back into both equations. Common errors include sign mistakes
-In the cross product and forgetting to take the absolute value in distance formulas.
+in the cross product and forgetting to take the absolute value in distance formulas.
 :::
 
 ---
@@ -624,8 +624,8 @@ Vectors are arrows in space, they have both direction and magnitude. The dot pro
    always non-negative: use $|\bm{p} \cdot \hat{n} - d|$.
 
 4. **Assuming a line intersects a plane.** Always check that $\bm{b} \cdot \hat{n} \neq 0$ before
-   solving. If $\bm{b} \cdot \hat{n} = 0$ and $\bm{a} \cdot \hat{n} = d$The line lies in the plane.
-   If $\bm{b} \cdot \hat{n} = 0$ and $\bm{a} \cdot \hat{n} \neq d$The line is parallel to the plane.
+   solving. If $\bm{b} \cdot \hat{n} = 0$ and $\bm{a} \cdot \hat{n} = d$ The line lies in the plane.
+   If $\bm{b} \cdot \hat{n} = 0$ and $\bm{a} \cdot \hat{n} \neq d$ The line is parallel to the plane.
 
 5. **Angle between line and plane vs angle between line and normal.** The angle $\alpha$ between a
    line and a plane satisfies $\sin\alpha = \frac{|\bm{b} \cdot \hat{n}|}{|\bm{b}||\hat{n}|}$. The
@@ -691,7 +691,7 @@ $d = (1)(2) + (1)(1) + (1)(0) = 3$. Plane equation: $x + y + z = 3$.
 
 Find the point of intersection of the line
 $\bm{r} = \begin{pmatrix} 1 \\ -1 \\ 2 \end{pmatrix} + t\begin{pmatrix} 3 \\ 2 \\ -1 \end{pmatrix}$
-With the plane $2x - y + 2z = 8$.
+with the plane $2x - y + 2z = 8$.
 
 </details>
 
@@ -745,7 +745,7 @@ $D = \frac{|-1 - 6|}{3} = \frac{7}{3}$.
 
 Find the shortest distance between the skew lines:
 $L_1: \bm{r} = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix} + s\begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix}$
-And
+and
 $L_2: \bm{r} = \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix} + t\begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}$.
 
 </details>
@@ -799,16 +799,6 @@ $k = 2$. Since one vector is a scalar multiple of the other, the points are coll
 
 </details>
 
-```mermaid
-flowchart TD
-    A[2_Vectors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to vectors, including key
@@ -822,20 +812,18 @@ theorems, methods, and problem-solving approaches.
 - proof and geometric reasoning
 - equations of curves
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Cross-References
+
+<div class="table-wrap">
 
 | Topic     | Site    | Link                                                                                           |
 | --------- | ------- | ---------------------------------------------------------------------------------------------- |
 | [Vectors] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/12-vectors) |
-| [Vectors] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/3-geometry-and-trigonometry/2_vectors)             |
+| [Vectors] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors/)             |
+
+</div>
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

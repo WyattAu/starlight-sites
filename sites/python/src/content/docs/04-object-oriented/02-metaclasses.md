@@ -37,7 +37,7 @@ The full sequence when Python encounters `class Foo(Base, metaclass=Meta):` is:
    namespace mapping (by default, an empty `dict`). This namespace is where all assignments and
    function definitions in the class body will be stored.
 4. The class body is executed as a code block, using the namespace from step 3 as the local
-   namespace. Every `def`Every assignment, every expression at the top level of the class body runs
+   namespace. Every `def`. Every assignment, every expression at the top level of the class body runs
    right now.
 5. The resulting namespace dict, along with the class name and base classes, is passed to the
    metaclass's `__new__` and `__init__` methods to construct and initialize the class object.
@@ -134,7 +134,7 @@ Three distinct points, each with a different purpose and different capabilities.
 
 `__new__` is a class method (on the metaclass) that receives the metaclass itself, the class name,
 The base classes, and the namespace dict. It must return the newly created class object. This is
-Where you can modify the namespace before the class is built, reject the class entirely, or return a
+where you can modify the namespace before the class is built, reject the class entirely, or return a
 Completely different class object.
 
 ```python
@@ -160,7 +160,7 @@ class BadConfig(metaclass=ValidateFields):
 
 The `mcs` parameter is the metaclass itself (analogous to `cls` in a normal class method). It is
 Conventionally named `mcs` (for "metaclass") but any name works. The name, bases, and namespace are
-The three things that define a class.
+the three things that define a class.
 
 ### `__init__`: Controlling Class Initialization
 
@@ -193,13 +193,13 @@ print(RegisterSubclasses.registry)
 
 Note that `AbstractHandler` itself gets registered unless you explicitly exclude it. The `name`
 Check in `__init__` filters out base classes, but this is fragile. A more robust approach checks
-Whether the class defines the required abstract methods.
+whether the class defines the required abstract methods.
 
 ### `__prepare__`: Custom Namespace
 
 `__prepare__` is called before the class body is executed. It receives the class name and base
 Classes and must return a mapping object that will serve as the namespace for the class body. The
-Default implementation returns a plain `dict`But you can return an `OrderedDict` (or any mapping) To
+Default implementation returns a plain `dict`. But you can return an `OrderedDict` (or any mapping) To
 control the order in which attributes are recorded.
 
 ```python
@@ -230,7 +230,7 @@ print(Table._ordered_fields)
 
 Since Python 3.6, the default `dict` preserves insertion order as a language guarantee (not just a
 CPython implementation detail), so `__prepare__` returning `OrderedDict` is less necessary than it
-Was in Python 3.5. However, `__prepare__` is still useful when you need a namespace with custom
+was in Python 3.5. However, `__prepare__` is still useful when you need a namespace with custom
 Behavior -- for example, a namespace that deduplicates keys, tracks access patterns, or provides
 Validation on assignment during class body execution.
 
@@ -246,7 +246,7 @@ Validation on assignment during class body execution.
 3. Returns the instance.
 
 By overriding `__call__` on the metaclass, you can intercept and modify any of these steps. This is
-The mechanism behind `__init_subclass__`-style hooks and is how many frameworks (e.g., Django ORM,
+the mechanism behind `__init_subclass__`-style hooks and is how many frameworks (e.g., Django ORM,
 SQLAlchemy) implement singleton patterns, caching, and proxy objects.
 
 ```python
@@ -281,7 +281,7 @@ The order of operations in a metaclass is:
 
 `__init_subclass__` (PEP 487, Python 3.6) provides a hook that runs in the parent class whenever a
 Subclass is created. It eliminates many use cases that previously required metaclasses. The method
-Is defined on the parent class and receives the new subclass as `cls`Along with any keyword
+is defined on the parent class and receives the new subclass as `cls`Along with any keyword
 Arguments passed in the class header.
 
 ```python
@@ -400,15 +400,15 @@ The call sequence during class creation is:
 
 This means `__set_name__` runs before `__init__` on the metaclass but after the class body has fully
 Executed. It is implemented in `type.__new__` itself, so it works with the default metaclass without
-Any custom metaclass code.
+any custom metaclass code.
 
 ## Metaclass Use Cases
 
 ### Singleton Pattern
 
 The singleton pattern ensures that only one instance of a class exists. Metaclass-based singletons
-Are thread-safe in CPython because `__call__` acquires the GIL for the entire operation, but they
-Are not safe against truly concurrent access in free-threaded Python (PEP 703).
+are thread-safe in CPython because `__call__` acquires the GIL for the entire operation, but they
+are not safe against truly concurrent access in free-threaded Python (PEP 703).
 
 ```python
 class SingletonMeta(type):
@@ -566,7 +566,7 @@ a.balance = "not a float"  # TypeError
 
 While `abc.ABC` and `@abstractmethod` handle most abstract enforcement, a metaclass can enforce that
 Subclasses implement specific methods with particular signatures, or that certain class attributes
-Are defined.
+are defined.
 
 ```python
 class StrictABCMeta(type):
@@ -604,7 +604,7 @@ print("CacheService created successfully")
 ## Metaclass Conflicts
 
 When you combine two classes that have different metaclasses, Python must determine the metaclass
-For the resulting class. The rule is: **the metaclass of the derived class must be a subtype of the
+for the resulting class. The rule is: **the metaclass of the derived class must be a subtype of the
 Metaclasses of all base classes.** If this condition is not met, Python raises `TypeError`.
 
 ```python
@@ -690,6 +690,8 @@ Entirely because they do not introduce a new metaclass into the hierarchy.
 
 ## Comparison: Metaclasses vs Decorators vs Descriptors vs `__init_subclass__`
 
+<div class="table-wrap">
+
 | Criterion                                  | Metaclass                    | Class Decorator              | Descriptor          | `__init_subclass__`  |
 | ------------------------------------------ | ---------------------------- | ---------------------------- | ------------------- | -------------------- |
 | Intercepts namespace before class creation | Yes (`__new__``__prepare__`) | No (class already exists)    | No                  | No                   |
@@ -700,6 +702,8 @@ Entirely because they do not introduce a new metaclass into the hierarchy.
 | Metaclass conflict risk                    | Yes                          | No                           | No                  | No                   |
 | Complexity                                 | High                         | Low                          | Medium              | Low                  |
 | Visibility to readers                      | Low (implicit magic)         | High (explicit `@decorator`) | Medium              | Medium               |
+
+</div>
 
 **Use a class decorator when:** You need to modify a class after it is created, and the modification
 Does not need to propagate to subclasses. Decorators are the simplest tool and should be your first
@@ -715,7 +719,7 @@ Cases.
 
 **Use a metaclass when:** You need `__prepare__` (custom namespace), `__call__` (instance creation
 Control), or deep structural modification of the class that requires access to the raw namespace
-Before the class object exists.
+before the class object exists.
 
 ## When NOT to Use Metaclasses
 
@@ -753,7 +757,7 @@ Prefer these alternatives:
 
 `__init__` on the metaclass runs after the class object is created. It cannot modify the namespace
 Dict that was used to create the class -- it can only set attributes on the class object itself. If
-You need to remove, rename, or transform attributes before they become class attributes, use
+you need to remove, rename, or transform attributes before they become class attributes, use
 `__new__`.
 
 ```python
@@ -816,7 +820,7 @@ class BetterMeta(type):
 **5. Assuming metaclass methods are inherited like normal methods.**
 
 Metaclass methods are defined on the metaclass, not on the class. A class's `__init__` is inherited
-From its base class (a normal class). A class's metaclass `__init__` is inherited from the
+from its base class (a normal class). A class's metaclass `__init__` is inherited from the
 Metaclass's base class (a metaclass). These are different inheritance chains. If you override a
 Metaclass method in a subclass metaclass, the override applies only to classes using that subclass
 Metaclass, not to all classes using the parent metaclass.
@@ -905,13 +909,7 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

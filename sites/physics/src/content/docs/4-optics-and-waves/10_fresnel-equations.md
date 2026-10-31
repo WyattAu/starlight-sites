@@ -19,38 +19,50 @@ description: "When light strikes a planar interface between media with refractiv
 
 ### 10.1 Derivation at a Dielectric Interface
 
-When light strikes a planar interface between media with refractive indices $n_1$ and $n_2$The
+When light strikes a planar interface between media with refractive indices $n_1$ and $n_2$ The
 Amplitudes of the reflected and transmitted waves depend on the polarisation.
 
-For an incident wave with amplitude $E_i$The **reflection and transmission coefficients** are:
+For an incident wave with amplitude $E_i$ The **reflection and transmission coefficients** are:
 
 **s-polarisation** (perpendicular to the plane of incidence):
 
-$$r_s = \frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta_t}, \quad t_s = \frac{2n_1\cos\theta_i}{n_1\cos\theta_i + n_2\cos\theta_t}$$
+$$
+r_s = \frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta_t}, \quad t_s = \frac{2n_1\cos\theta_i}{n_1\cos\theta_i + n_2\cos\theta_t}
+$$
 
 **p-polarisation** (parallel to the plane of incidence):
 
-$$r_p = \frac{n_2\cos\theta_i - n_1\cos\theta_t}{n_2\cos\theta_i + n_1\cos\theta_t}, \quad t_p = \frac{2n_1\cos\theta_i}{n_2\cos\theta_i + n_1\cos\theta_t}$$
+$$
+r_p = \frac{n_2\cos\theta_i - n_1\cos\theta_t}{n_2\cos\theta_i + n_1\cos\theta_t}, \quad t_p = \frac{2n_1\cos\theta_i}{n_2\cos\theta_i + n_1\cos\theta_t}
+$$
 
 **Reflectance and transmittance** (energy fractions):
 
-$$R = |r|^2, \quad T = \frac{n_2\cos\theta_t}{n_1\cos\theta_i}|t|^2$$
+$$
+R = |r|^2, \quad T = \frac{n_2\cos\theta_t}{n_1\cos\theta_i}|t|^2
+$$
 
 With $R + T = 1$ (energy conservation).
 
-### 10.2 Brewster"s Angle
+### 10.2 Brewster's Angle
 
-At the **Brewster angle** $\theta_B$The reflected beam for p-polarised light has zero amplitude:
+At the **Brewster angle** $\theta_B$ The reflected beam for p-polarised light has zero amplitude:
 $r_p = 0$:
 
-$$\tan\theta_B = \frac{n_2}{n_1}$$
+$$
+\tan\theta_B = \frac{n_2}{n_1}
+$$
 
 **Proof.** Setting $r_p = 0$: $n_2\cos\theta_i = n_1\cos\theta_t$. Using Snell's law
 $n_1\sin\theta_i = n_2\sin\theta_t$:
 
-$$\frac{\cos\theta_i}{\sin\theta_i} = \frac{\cos\theta_t}{\sin\theta_t}$$
+$$
+\frac{\cos\theta_i}{\sin\theta_i} = \frac{\cos\theta_t}{\sin\theta_t}
+$$
 
-$$\cot\theta_i = \cot\theta_t \implies \theta_i + \theta_t = 90^\circ$$
+$$
+\cot\theta_i = \cot\theta_t \implies \theta_i + \theta_t = 90^\circ
+$$
 
 So $\tan\theta_i = \tan\theta_B = n_2/n_1$. $\blacksquare$
 
@@ -59,12 +71,14 @@ Filters work at specific angles for reflected glare.
 
 ### 10.3 Total Internal Reflection and the Evanescent Wave
 
-When $n_1 \gt n_2$ and $\theta_i \gt \theta_c = \arcsin(n_2/n_1)$, $\sin\theta_t \gt 1$So
+When $n_1 \gt n_2$ and $\theta_i \gt \theta_c = \arcsin(n_2/n_1)$, $\sin\theta_t \gt 1$ So
 $\cos\theta_t = i\sqrt{\sin^2\theta_t - 1}$ becomes imaginary.
 
 The transmitted field becomes an **evanescent wave**:
 
-$$E_t \propto e^{-\kappa x}\, e^{i(k_z z - \omega t)}$$
+$$
+E_t \propto e^{-\kappa x}\, e^{i(k_z z - \omega t)}
+$$
 
 Where $\kappa = k_0\sqrt{n_1^2\sin^2\theta_i - n_2^2}$ and $k_z = k_0 n_1\sin\theta_i$.
 
@@ -86,7 +100,9 @@ be positive or negative, indicating phase shifts:
 
 At normal incidence ($\theta_i = 0$):
 
-$$r_s = r_p = \frac{n_1 - n_2}{n_1 + n_2}$$
+$$
+r_s = r_p = \frac{n_1 - n_2}{n_1 + n_2}
+$$
 
 The reflection coefficient is negative when $n_1 < n_2$, corresponding to a $\pi$ phase shift. For
 $n_1 > n_2$, the reflection coefficient is positive (no phase shift).
@@ -104,7 +120,9 @@ The reflectance $R$ varies with angle of incidence:
 For a single-layer coating of index $n_c$ and thickness $\lambda/4$ on glass ($n_g$), the reflectance
 at wavelength $\lambda$ is:
 
-$$R = \left(\frac{n_c^2 - n_g}{n_c^2 + n_g}\right)^2$$
+$$
+R = \left(\frac{n_c^2 - n_g}{n_c^2 + n_g}\right)^2
+$$
 
 The reflectance is zero when $n_c = \sqrt{n_g}$. For crown glass ($n_g = 1.52$), the optimal coating
 index is $n_c \approx 1.23$, approximated by magnesium fluoride ($n \approx 1.38$), giving $R \approx 1\%$ per surface.
@@ -115,7 +133,9 @@ In total internal reflection, the reflected beam is laterally shifted relative t
 predicted path. This **Goos-Hanchen shift** arises because the evanescent wave penetrates the second
 medium before being reflected:
 
-$$D = \frac{\lambda}{\pi} \frac{\sin\theta_i}{\sqrt{\sin^2\theta_i - (n_2/n_1)^2}}$$
+$$
+D = \frac{\lambda}{\pi} \frac{\sin\theta_i}{\sqrt{\sin^2\theta_i - (n_2/n_1)^2}}
+$$
 
 The shift is of order one wavelength for angles near the critical angle and decreases as $\theta_i$
 increases beyond $\theta_c$.
@@ -146,9 +166,13 @@ reflection in glass ($n_1 = 1.5$) at $\theta_i = 60^\circ$ with $n_2 = 1$.
 
 From the Fresnel equations with complex $\cos\theta_t$:
 
-$$r_s = \frac{\cos\theta_i - i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}}{\cos\theta_i + i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}} = e^{i\delta_s}$$
+$$
+r_s = \frac{\cos\theta_i - i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}}{\cos\theta_i + i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}} = e^{i\delta_s}
+$$
 
-$$r_p = \frac{(n_2/n_1)^2\cos\theta_i - i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}}{(n_2/n_1)^2\cos\theta_i + i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}} = e^{i\delta_p}$$
+$$
+r_p = \frac{(n_2/n_1)^2\cos\theta_i - i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}}{(n_2/n_1)^2\cos\theta_i + i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}} = e^{i\delta_p}
+$$
 
 where $\delta_s = -2\arctan(\sqrt{\sin^2\theta_i - (n_2/n_1)^2}/\cos\theta_i)$ and
 $\delta_p = -2\arctan(\sqrt{\sin^2\theta_i - (n_2/n_1)^2}/((n_2/n_1)^2\cos\theta_i))$.
@@ -157,9 +181,13 @@ For $n_1 = 1.5$, $n_2 = 1$, $\theta_i = 60^\circ$: $(n_2/n_1)^2 \approx 0.444$,
 $\sin^2 60^\circ = 0.75$, so $\sqrt{\sin^2\theta_i - (n_2/n_1)^2} \approx \sqrt{0.75 - 0.444} \approx 0.553$,
 $\cos 60^\circ = 0.5$.
 
-$$\delta_s = -2\arctan(0.553/0.5) = -2\arctan(1.106) \approx -95.9^\circ$$
+$$
+\delta_s = -2\arctan(0.553/0.5) = -2\arctan(1.106) \approx -95.9^\circ
+$$
 
-$$\delta_p = -2\arctan(0.553/(0.444 \cdot 0.5)) = -2\arctan(2.491) \approx -136.2^\circ$$
+$$
+\delta_p = -2\arctan(0.553/(0.444 \cdot 0.5)) = -2\arctan(2.491) \approx -136.2^\circ
+$$
 
 The relative phase difference $\Delta = \delta_p - \delta_s \approx -40.3^\circ$, which is why TIR
 can convert linear to elliptical polarisation (the basis of Fresnel rhomb quarter-wave plates).
@@ -173,23 +201,16 @@ $\blacksquare$
 At $\theta_i = \theta_c = \arcsin(n_2/n_1)$, we have $\theta_t = 90^\circ$ and $\cos\theta_t = 0$.
 The Fresnel coefficients become:
 
-$$r_s = \frac{n_1\cos\theta_c - 0}{n_1\cos\theta_c + 0} = 1$$
+$$
+r_s = \frac{n_1\cos\theta_c - 0}{n_1\cos\theta_c + 0} = 1
+$$
 
-$$r_p = \frac{n_2\cos\theta_c - 0}{n_2\cos\theta_c + 0} = 1$$
+$$
+r_p = \frac{n_2\cos\theta_c - 0}{n_2\cos\theta_c + 0} = 1
+$$
 
 Both polarisations have $R = 1$ at the critical angle, and the transmitted wave propagates exactly
 along the interface with no energy flow into the second medium.
-
-
-```mermaid
-flowchart TD
-    A[10_Fresnel Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -215,6 +236,6 @@ For external reflection ($n_1 < n_2$), $r_s < 0$ at all angles, meaning the refl
 Fresnel equations describe how light splits at an interface between two media. At normal incidence, reflection and transmission depend only on the refractive index mismatch. As the angle of incidence increases, the two polarisations behave differently: s-polarised light reflects more strongly, while p-polarised light can reach zero reflection at Brewster's angle. Total internal reflection occurs beyond the critical angle, where the transmitted wave becomes evanescent. The Fresnel coefficients encode both amplitude and phase changes, which is essential for understanding thin-film coatings and anti-reflection layers. The key physical picture is that the boundary conditions for the electric and magnetic fields force the reflected and transmitted amplitudes to adjust continuously with angle.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

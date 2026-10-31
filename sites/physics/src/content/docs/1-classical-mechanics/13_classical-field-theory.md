@@ -24,10 +24,12 @@ sources:
 
 ### 12.1 Lagrangian Field Theory
 
-For a field $\phi(\mathbf{r}, t)$The Lagrangian density $\mathcal{L}$ replaces the discrete
+For a field $\phi(\mathbf{r}, t)$ The Lagrangian density $\mathcal{L}$ replaces the discrete
 Lagrangian $L = \sum_i T_i - V_i$:
 
-$$S = \int \mathcal{L}(\phi, \partial_\mu\phi)\,d^4x, \quad \delta S = 0 \implies \frac{\partial\mathcal{L}}{\partial\phi} - \partial_\mu\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)} = 0$$
+$$
+S = \int \mathcal{L}(\phi, \partial_\mu\phi)\,d^4x, \quad \delta S = 0 \implies \frac{\partial\mathcal{L}}{\partial\phi} - \partial_\mu\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)} = 0
+$$
 
 This is the **Euler--Lagrange equation for fields**.
 
@@ -35,7 +37,9 @@ This is the **Euler--Lagrange equation for fields**.
 
 A real scalar field of mass $m$:
 
-$$\mathcal{L} = \frac{1}{2}(\partial_\mu\phi)(\partial^\mu\phi) - \frac{1}{2}m^2\phi^2$$
+$$
+\mathcal{L} = \frac{1}{2}(\partial_\mu\phi)(\partial^\mu\phi) - \frac{1}{2}m^2\phi^2
+$$
 
 The equation of motion: $(\Box^2 + m^2)\phi = 0$ where
 $\Box^2 = \partial_\mu\partial^\mu = \nabla^2 - \partial^2/\partial t^2$.
@@ -43,11 +47,15 @@ $\Box^2 = \partial_\mu\partial^\mu = \nabla^2 - \partial^2/\partial t^2$.
 Plane wave solutions: $\phi \propto e^{i(\mathbf{k}\cdot\mathbf{r} - \omega t)}$ with
 $\omega^2 = k^2 + m^2$ (dispersion relation).
 
-### 12.3 Noether"s Theorem for Fields
+### 12.3 Noether's Theorem for Fields
 
 Every continuous symmetry of the action yields a conserved current:
 
-$$\partial_\mu j^\mu = 0 \implies Q = \int j^0\,d^3x = \text{const}$$
+$$
+\partial_\mu j^\mu = 0 \implies Q = \int j^0\,d^3x = \text{const}
+$$
+
+<div class="table-wrap">
 
 | Symmetry                                    | Conserved Quantity                                                         |
 | ------------------------------------------- | -------------------------------------------------------------------------- |
@@ -56,9 +64,13 @@ $$\partial_\mu j^\mu = 0 \implies Q = \int j^0\,d^3x = \text{const}$$
 | Rotation                                    | Angular momentum $\mathbf{L} = \int\mathbf{r}\times\boldsymbol{\pi}\,d^3x$ |
 | Phase rotation ($\phi \to e^{i\alpha}\phi$) | Charge $Q$                                                                 |
 
+</div>
+
 For the complex Klein--Gordon field, the conserved current is:
 
-$$j^\mu = i(\phi^*\partial^\mu\phi - \phi\partial^\mu\phi^*)$$
+$$
+j^\mu = i(\phi^*\partial^\mu\phi - \phi\partial^\mu\phi^*)
+$$
 
 With conserved charge $Q = \int(i\phi^*\dot{\phi} - \phi\dot{\phi}^*)\,d^3x$.
 
@@ -66,11 +78,15 @@ With conserved charge $Q = \int(i\phi^*\dot{\phi} - \phi\dot{\phi}^*)\,d^3x$.
 
 The **Hamiltonian density:**
 
-$$\mathcal{H} = \frac{\partial\mathcal{L}}{\partial\dot{\phi}}\dot{\phi} - \mathcal{L} = \frac{1}{2}\dot{\phi}^2 + \frac{1}{2}(\nabla\phi)^2 + \frac{1}{2}m^2\phi^2$$
+$$
+\mathcal{H} = \frac{\partial\mathcal{L}}{\partial\dot{\phi}}\dot{\phi} - \mathcal{L} = \frac{1}{2}\dot{\phi}^2 + \frac{1}{2}(\nabla\phi)^2 + \frac{1}{2}m^2\phi^2
+$$
 
 The **canonical energy-momentum tensor** (symmetric, Belinfante):
 
-$$T^{\mu\nu} = \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\partial^\nu\phi - g^{\mu\nu}\mathcal{L}$$
+$$
+T^{\mu\nu} = \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\partial^\nu\phi - g^{\mu\nu}\mathcal{L}
+$$
 
 $T^{00} = \mathcal{H}$ (energy density), $T^{0i}$ (momentum density), $T^{ij}$ (stress tensor).
 
@@ -82,19 +98,25 @@ $\delta\phi = i\epsilon\phi$ (a global U(1) transformation).
 
 The change in the Lagrangian density:
 
-$$\delta\mathcal{L} = \frac{\partial\mathcal{L}}{\partial\phi}\delta\phi + \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\partial_\mu(\delta\phi) = i\epsilon\left[\frac{\partial\mathcal{L}}{\partial\phi}\phi - \partial_\mu\!\left(\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\phi\right)\right]$$
+$$
+\delta\mathcal{L} = \frac{\partial\mathcal{L}}{\partial\phi}\delta\phi + \frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\partial_\mu(\delta\phi) = i\epsilon\left[\frac{\partial\mathcal{L}}{\partial\phi}\phi - \partial_\mu\!\left(\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\phi\right)\right]
+$$
 
 Using the E-L equation
 $\partial\mathcal{L}/\partial\phi = \partial_\mu(\partial\mathcal{L}/\partial(\partial_\mu\phi))$:
 
-$$\delta\mathcal{L} = -i\epsilon\,\partial_\mu\!\left(\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\phi\right) = \partial_\mu(-\epsilon\,j^\mu)$$
+$$
+\delta\mathcal{L} = -i\epsilon\,\partial_\mu\!\left(\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)}\phi\right) = \partial_\mu(-\epsilon\,j^\mu)
+$$
 
 Where $j^\mu = i[\phi^*(\partial^\mu\phi) - (\partial^\mu\phi^*)\phi]$ (using the complex
 Klein--Gordon Lagrangian for generality).
 
 By Noether's theorem: $\partial_\mu j^\mu = 0$ And the conserved charge:
 
-$$Q = \int j^0\,d^3x = \int i(\phi^*\dot{\phi} - \dot{\phi}^*\phi)\,d^3x$$
+$$
+Q = \int j^0\,d^3x = \int i(\phi^*\dot{\phi} - \dot{\phi}^*\phi)\,d^3x
+$$
 
 For a plane wave $\phi = e^{-i\omega t + i\mathbf{k}\cdot\mathbf{r}}$: $Q \propto 2\omega > 0$
 (positive frequency modes have positive charge).
@@ -144,17 +166,6 @@ $\blacksquare$
   non-holonomic constraints require Lagrange multipliers. **Fix:** For holonomic constraints,
   express the system in terms of independent generalised coordinates.
 
-
-```mermaid
-flowchart TD
-    A[13_Classical Field Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Newton's laws (vector approach) vs Lagrangian mechanics (scalar, energy-based approach).
@@ -169,6 +180,8 @@ Classical field theory extends mechanics from particles to continuous media. A f
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                          | Site        | Link                                                                      |
 | ------------------------------ | ----------- | ------------------------------------------------------------------------- |
 | Classical Mechanics (Overview) | WyattsNotes | [View](/1-classical-mechanics/14_flashcards-classical-mechanics/)                      |
@@ -176,27 +189,9 @@ Classical field theory extends mechanics from particles to continuous media. A f
 | Quantum Mechanics              | WyattsNotes | [View](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)                        |
 | Classical Mechanics, MIT 8.01 | MIT OCW     | [View](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

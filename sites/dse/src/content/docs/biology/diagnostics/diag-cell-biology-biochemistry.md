@@ -119,7 +119,7 @@ water. This arrangement creates a hydrophobic core in the centre of the bilayer.
 
 The membrane is partially permeable because:
 
-- **Small non-polar molecules** (e.g. $O_{2}$, $CO_{2}$Lipid-soluble steroid hormones) can diffuse
+- **Small non-polar molecules** (e.g. $O_{2}$, $CO_{2}$ Lipid-soluble steroid hormones) can diffuse
   directly through the hydrophobic core.
 - **Large polar molecules** (e.g. Glucose), **ions** (e.g. $Na^{+}$, $Cl^{-}$), and **charged
   molecules** cannot pass through the hydrophobic region and require transport proteins or vesicles.
@@ -159,6 +159,8 @@ The membrane is partially permeable because:
 An experiment was conducted to investigate the effect of substrate concentration on the rate of an
 enzyme-catalysed reaction. The results are shown below:
 
+<div class="table-wrap">
+
 | Substrate concentration (mmol/dm$^{3}$) | Rate of reaction (arbitrary units) |
 | :-------------------------------------: | :--------------------------------: |
 |                    2                    |                 8                  |
@@ -168,6 +170,8 @@ enzyme-catalysed reaction. The results are shown below:
 |                   10                    |                 24                 |
 |                   12                    |                24.5                |
 |                   14                    |                24.8                |
+
+</div>
 
 (a) Explain why the rate of reaction increases at low substrate concentrations but plateaus at high
 substrate concentrations. [3 marks]
@@ -234,17 +238,6 @@ than the active site), whereas a competitive inhibitor binds to the **active sit
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Cell Biology Biochemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Life's building blocks:** Cells are like factories, the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
@@ -260,12 +253,16 @@ flowchart TD
 A student is given four unknown solutions (W, X, Y, Z) and asked to identify the biological
 molecules they contain. The student performs the following tests:
 
+<div class="table-wrap">
+
 | Test                 | Result                              |
 | -------------------- | ----------------------------------- |
-| Benedict"s test on W | Brick-red precipitate after heating |
+| Benedict's test on W | Brick-red precipitate after heating |
 | Biuret test on X     | Violet/purple colour                |
 | Emulsion test on Y   | White emulsion forms                |
 | Iodine test on Z     | Blue-black colour                   |
+
+</div>
 
 (a) Identify the biological molecule present in each solution. For W, explain the chemical basis of
 the colour change. [4 marks]
@@ -363,8 +360,8 @@ ions out** of the cell and **$2K^{+}$ ions into** the cell per ATP molecule hydr
 ATP is hydrolysed to ADP and inorganic phosphate ($P_{i}$), and the phosphate group attaches to the
 pump protein, causing a **conformational change**. This change:
 
-1. Reduces the pump's affinity for $Na^{+}$Releasing $3Na^{+}$ outside the cell.
-2. Increases the pump's affinity for $K^{+}$Allowing $2K^{+}$ to bind from outside.
+1. Reduces the pump's affinity for $Na^{+}$ Releasing $3Na^{+}$ outside the cell.
+2. Increases the pump's affinity for $K^{+}$ Allowing $2K^{+}$ to bind from outside.
 3. Dephosphorylation returns the pump to its original shape, releasing $K^{+}$ inside the cell.
 
 This maintains a **high $Na^{+}$ concentration outside** the cell and a **low $Na^{+}$ concentration
@@ -438,7 +435,7 @@ optimum temperature, the rate of productive collisions is maximised before denat
 significant.
 
 (b) The claim is **imprecise**. Enzymes are not living organisms and cannot be "killed." The correct
-term is **denaturation**: at $80^{\circ}C$The excessive thermal energy breaks the hydrogen bonds,
+term is **denaturation**: at $80^{\circ}C$ The excessive thermal energy breaks the hydrogen bonds,
 ionic bonds, and other weak interactions maintaining the enzyme's **active site shape**. The
 tertiary structure unfolds irreversibly, and the active site can no longer bind the substrate.
 

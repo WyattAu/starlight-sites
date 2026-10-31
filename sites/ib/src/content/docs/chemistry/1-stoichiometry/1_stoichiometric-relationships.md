@@ -31,7 +31,7 @@ tags:
 The **mole** is the SI unit for amount of substance. One mole contains exactly
 $6.022 \times 10^{23}$ elementary entities (atoms, molecules, ions, etc.).
 
-### Avogadro"s Constant
+### Avogadro's Constant
 
 $$
 N_A = 6.022 \times 10^{23}\mathrm{ mol}^{-1}
@@ -53,6 +53,8 @@ $$
 
 Where $m$ is the mass in grams.
 
+<div class="table-wrap">
+
 | Substance   | Molar Mass (g/mol) |
 | ----------- | ------------------ |
 | H           | 1.01               |
@@ -65,6 +67,8 @@ Where $m$ is the mass in grams.
 | CO$_2$      | 44.01              |
 | NaCl        | 58.44              |
 | H$_2$SO$_4$ | 98.08              |
+
+</div>
 
 :::note[Example]
 Calculate the number of molecules in $5.0\mathrm{ g}$ of water.
@@ -115,7 +119,9 @@ Where $n$ is an integer.
 
 :::note[Example]
 A compound contains $40.0\%$ carbon, $6.7\%$ hydrogen, and $53.3\%$ oxygen by mass. Find its
-Empirical formula.
+empirical formula.
+
+<div class="table-wrap">
 
 | Element | Mass (g) | Molar Mass (g/mol) | Moles | Ratio |
 | ------- | -------- | ------------------ | ----- | ----- |
@@ -123,9 +129,11 @@ Empirical formula.
 | H       | 6.7      | 1.01               | 6.63  | 2     |
 | O       | 53.3     | 16.00              | 3.33  | 1     |
 
+</div>
+
 Empirical formula: CH$_2$O.
 
-If the molar mass is $180\mathrm{ g/mol}$The molecular formula is:
+If the molar mass is $180\mathrm{ g/mol}$ The molecular formula is:
 
 $$
 N = \frac{180}{30.03} = 6
@@ -182,7 +190,7 @@ Formula: CuSO$_4$, $\cdot$5H$\_2$O.
 ### Balancing Equations
 
 Chemical equations must be balanced: the number of atoms of each element must be the same on both
-Sides (conservation of mass).
+sides (conservation of mass).
 
 ### Steps
 
@@ -236,7 +244,7 @@ Net ionic: Ag$^+$(aq) + Cl$^-$ $\to$ AgCl(s)
 ### Limiting Reagent
 
 The **limiting reagent** is the reactant that is completely consumed first and therefore determines
-The maximum amount of product formed.
+the maximum amount of product formed.
 
 ### Steps
 
@@ -435,7 +443,7 @@ $$
 
 :::note[Example]
 What is the concentration of a solution made by dissolving $10.0\mathrm{ g}$ of NaCl in enough water
-To make $250\mathrm{ mL}$ of solution?
+to make $250\mathrm{ mL}$ of solution?
 
 $$
 N = \frac{10.0}{58.44} = 0.171\mathrm{ mol}
@@ -472,7 +480,7 @@ A standard solution is one of accurately known concentration. To prepare:
 ### Titration Calculations
 
 Titration is used to determine the concentration of an unknown solution by reacting it with a
-Standard solution.
+standard solution.
 :::
 
 :::note[Example]
@@ -509,13 +517,17 @@ $$
 ### Question 1 (Paper 1 style)
 
 What is the empirical formula of a compound that is $36.5\%$ sodium, $25.4\%$ sulfur, and $38.1\%$
-Oxygen?
+oxygen?
+
+<div class="table-wrap">
 
 | Element | Mass (g) | Molar Mass | Moles | Ratio |
 | ------- | -------- | ---------- | ----- | ----- |
 | Na      | 36.5     | 22.99      | 1.588 | 2     |
 | S       | 25.4     | 32.07      | 0.792 | 1     |
 | O       | 38.1     | 16.00      | 2.381 | 3     |
+
+</div>
 
 Empirical formula: Na$_2$SO$_3$.
 
@@ -547,7 +559,7 @@ $$
 ### Question 3 (Paper 1 style)
 
 A gas at $300\mathrm{ K}$ and $1.5\mathrm{ atm}$ occupies $4.0\mathrm{ L}$. What volume does it
-Occupy at $350\mathrm{ K}$ and $2.0\mathrm{ atm}$?
+occupy at $350\mathrm{ K}$ and $2.0\mathrm{ atm}$?
 
 $$
 \frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}
@@ -595,17 +607,9 @@ $$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Stoichiometric Relationships] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
+
+<div class="table-wrap">
 
 | Formula          | Expression                                                   |
 | ---------------- | ------------------------------------------------------------ |
@@ -617,11 +621,13 @@ flowchart TD
 | Charles's law    | $\dfrac{V_1}{T_1} = \dfrac{V_2}{T_2}$                        |
 | Dilution         | $c_1V_1 = c_2V_2$                                            |
 | Percentage yield | $\dfrac{\mathrm{actual}}{\mathrm{theoretical}} \times 100\%$ |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
 Always show your working with units. For gas calculations, ensure temperature is in Kelvin. For
-Titration calculations, identify the mole ratio from the balanced equation. Remember that Molar
+titration calculations, identify the mole ratio from the balanced equation. Remember that Molar
 volume at STP is 22.7 L/mol and at RTP is 24.8 L/mol.
 
 ---
@@ -656,7 +662,7 @@ Where $x_i$ is the mole fraction of gas $i$.
 ### Graham's Law of Diffusion
 
 The rate of diffusion (or effusion) of a gas is inversely proportional to the square root of its
-Molar mass:
+molar mass:
 
 $$
 \frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}
@@ -677,13 +683,13 @@ Helium diffuses about 2.83 times faster than oxygen.
 #### Molar Mass of a Gas
 
 $$
-M = \frac`\{mRT}``\{PV}`
+M = \frac`\{mRT}`, `\{PV}`
 $$
 
 #### Density of a Gas
 
 $$
-\rho = \frac`\{PM}``\{RT}`
+\rho = \frac`\{PM}`, `\{RT}`
 $$
 :::
 
@@ -711,11 +717,15 @@ The gas is likely O$_2$.
 
 ### Concentration Conversions
 
+<div class="table-wrap">
+
 | From            | To              | Method                                          |
 | --------------- | --------------- | ----------------------------------------------- |
 | Molarity        | Mass percentage | $c \times M \times 100 / (1000\rho)$            |
 | Mass percentage | Molarity        | $(\%\mathrm{/}100) \times \rho \times 1000 / M$ |
 | Molarity        | ppm             | $c \times M \times 10^6 / 1000\rho$             |
+
+</div>
 
 ### Colligative Properties
 
@@ -726,13 +736,17 @@ Properties that depend on the number of solute particles (not their identity):
 3. **Osmotic pressure**: $\Pi = icRT$
 
 Where $i$ is the van't Hoff factor (number of particles per formula unit), $K_b$ and $K_f$ are
-Constants, and $m$ is molality.
+constants, and $m$ is molality.
+
+<div class="table-wrap">
 
 | Solute                          | $i$ |
 | ------------------------------- | --- |
 | Non-electrolyte (e.g., glucose) | 1   |
 | NaCl                            | 2   |
 | CaCl$_2$                        | 3   |
+
+</div>
 
 ---
 
@@ -821,10 +835,10 @@ The salt Na$_2$SO$_4$ is formed from a strong acid and strong base. The solution
 Which contains the greatest number of molecules?
 
 A. $1\mathrm{ g}$ of H$_2$ B. $1\mathrm{ g}$ of O$_2$ C. $1\mathrm{ g}$ of N$_2$ D. $1\mathrm{ g}$
-Of CO$_2$
+of CO$_2$
 
 **Answer: A.** Since $n = m/M$ And H$_2$ has the smallest molar mass (2 g/mol), $1\mathrm{ g}$ of
-H$_2$ gives $0.5\mathrm{ mol}$Which is more moles (and thus more molecules) than the others.
+H$_2$ gives $0.5\mathrm{ mol}$ Which is more moles (and thus more molecules) than the others.
 
 ### Question 7 (Paper 2 style)
 
@@ -849,7 +863,7 @@ $$
 V = \frac`\{nRT}`{P} = \frac{4.00 \times 8.314 \times 673}{200 \times 101325} = \frac{22390}{20265000} = 1.105 \times 10^{-3}\mathrm{ m}^3 = 1.105\mathrm{ L}
 $$
 
-**(c)** If the actual yield is $3.20\mathrm{ mol}$Calculate the percentage yield.
+**(c)** If the actual yield is $3.20\mathrm{ mol}$ Calculate the percentage yield.
 
 $$
 \mathrm{Percentage yield} = \frac{3.20}{4.00} \times 100\% = 80.0\%
@@ -923,7 +937,7 @@ Gravimetric analysis determines the amount of an analyte by measuring mass.
 
 :::note[Example]
 A solution contains sulfate ions. BaCl$_2$ is added to precipitate BaSO$_4$. The precipitate is
-Filtered, dried, and weighed at $0.582\mathrm{ g}$.
+filtered, dried, and weighed at $0.582\mathrm{ g}$.
 
 $$
 N(\mathrm{BaSO}_4) = \frac{0.582}{233.39} = 0.00249\mathrm{ mol}
@@ -937,12 +951,16 @@ $$
 
 ### Gas Collection Methods
 
+<div class="table-wrap">
+
 | Method                         | Best For         | Gas Collected              |
 | ------------------------------ | ---------------- | -------------------------- |
 | Downward displacement of water | Insoluble gases  | Oxygen, hydrogen           |
 | Upward delivery                | Soluble gases    | Ammonia                    |
 | Gas syringe                    | Accurate volume  | Any gas                    |
 | Over water (eudiometer)        | Measuring volume | Gases that do not dissolve |
+
+</div>
 
 ### Ideal Gas Assumptions
 
@@ -1037,7 +1055,7 @@ $$
 <summary>Question 1: Empirical and Molecular Formula</summary>
 
 A compound contains $40.0\%$ carbon, $6.7\%$ hydrogen, and $53.3\%$ oxygen by mass. Its molar mass
-Is approximately $180\mathrm{ g/mol}$. Determine the empirical and molecular formulas.
+is approximately $180\mathrm{ g/mol}$. Determine the empirical and molecular formulas.
 
 </details>
 
@@ -1046,15 +1064,21 @@ Is approximately $180\mathrm{ g/mol}$. Determine the empirical and molecular for
 
 Convert percentages to moles:
 
+<div class="table-wrap">
+
 | Element | Mass (g) | Molar Mass (g/mol) | Moles  | Ratio |
 | ------- | -------- | ------------------ | ------ | ----- |
 | C       | $40.0$   | $12.01$            | $3.33$ | $1$   |
 | H       | $6.7$    | $1.01$             | $6.63$ | $2$   |
 | O       | $53.3$   | $16.00$            | $3.33$ | $1$   |
 
+</div>
+
 Empirical formula: **$\mathrm{CH}_2\mathrm{O}$** (molar mass $= 30.03\mathrm{ g/mol}$)
 
-$$n = \frac{180}{30.03} \approx 6$$
+$$
+n = \frac{180}{30.03} \approx 6
+$$
 
 Molecular formula: **$\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6$** (glucose)
 
@@ -1065,7 +1089,9 @@ Molecular formula: **$\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6$** (glucose)
 
 $8.0\mathrm{ g}$ of $\mathrm{CaCO}_3$ is heated with excess $\mathrm{HCl}$ according to:
 
-$$\mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2$$
+$$
+\mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2
+$$
 
 (a) Calculate the theoretical volume of $\mathrm{CO}_2$ produced at RTP.
 
@@ -1080,7 +1106,9 @@ $$\mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} +
 
 $$n(\mathrm{CO}_2) = 0.0800\mathrm{ mol}$$ (1:1 ratio)
 
-$$V_{\mathrm{theoretical}} = 0.0800 \times 24.8 = 1.98\mathrm{ L}$$
+$$
+V_{\mathrm{theoretical}} = 0.0800 \times 24.8 = 1.98\mathrm{ L}
+$$
 
 (b) $$\%\mathrm{ yield} = \frac{1.60}{1.98} \times 100\% = 80.8\%$$
 
@@ -1090,16 +1118,20 @@ $$V_{\mathrm{theoretical}} = 0.0800 \times 24.8 = 1.98\mathrm{ L}$$
 <summary>Question 3: Ideal Gas Law</summary>
 
 A gas occupies $3.00\mathrm{ L}$ at $350\mathrm{ K}$ and $150\mathrm{ kPa}$. What volume does it
-Occupy at STP ($273\mathrm{ K}$, $100\mathrm{ kPa}$)?
+occupy at STP ($273\mathrm{ K}$, $100\mathrm{ kPa}$)?
 
 </details>
 
 <details>
 <summary>Answer</summary>
 
-$$\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}$$
+$$
+\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}
+$$
 
-$$V_2 = \frac{P_1 V_1 T_2}{P_2 T_1} = \frac{150 \times 3.00 \times 273}{100 \times 350} = \frac{122850}{35000} = 3.51\mathrm{ L}$$
+$$
+V_2 = \frac{P_1 V_1 T_2}{P_2 T_1} = \frac{150 \times 3.00 \times 273}{100 \times 350} = \frac{122850}{35000} = 3.51\mathrm{ L}
+$$
 
 </details>
 
@@ -1108,20 +1140,28 @@ $$V_2 = \frac{P_1 V_1 T_2}{P_2 T_1} = \frac{150 \times 3.00 \times 273}{100 \tim
 
 $25.0\mathrm{ cm}^3$ of sulfuric acid is titrated with $0.200\mathrm{ M}$ $\mathrm{NaOH}$. The
 Endpoint is reached at $30.0\mathrm{ cm}^3$ of $\mathrm{NaOH}$. Calculate the concentration of the
-Sulfuric acid.
+sulfuric acid.
 
 </details>
 
 <details>
 <summary>Answer</summary>
 
-$$\mathrm{H}_2\mathrm{SO}_4 + 2\mathrm{NaOH} \to \mathrm{Na}_2\mathrm{SO}_4 + 2\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{H}_2\mathrm{SO}_4 + 2\mathrm{NaOH} \to \mathrm{Na}_2\mathrm{SO}_4 + 2\mathrm{H}_2\mathrm{O}
+$$
 
-$$n(\mathrm{NaOH}) = 0.200 \times 0.0300 = 0.00600\mathrm{ mol}$$
+$$
+n(\mathrm{NaOH}) = 0.200 \times 0.0300 = 0.00600\mathrm{ mol}
+$$
 
-$$n(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00600}{2} = 0.00300\mathrm{ mol}$$
+$$
+n(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00600}{2} = 0.00300\mathrm{ mol}
+$$
 
-$$c(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00300}{0.0250} = 0.120\mathrm{ mol/L}$$
+$$
+c(\mathrm{H}_2\mathrm{SO}_4) = \frac{0.00300}{0.0250} = 0.120\mathrm{ mol/L}
+$$
 
 </details>
 
@@ -1138,16 +1178,22 @@ Heated to constant mass of $3.14\mathrm{ g}$. Determine the value of $x$.
 
 Mass of water lost $= 6.44 - 3.14 = 3.30\mathrm{ g}$
 
-$$n(\mathrm{MgSO}_4) = \frac{3.14}{120.37} = 0.0261\mathrm{ mol}$$
+$$
+n(\mathrm{MgSO}_4) = \frac{3.14}{120.37} = 0.0261\mathrm{ mol}
+$$
 
-$$n(\mathrm{H}_2\mathrm{O}) = \frac{3.30}{18.02} = 0.183\mathrm{ mol}$$
+$$
+n(\mathrm{H}_2\mathrm{O}) = \frac{3.30}{18.02} = 0.183\mathrm{ mol}
+$$
 
-$$x = \frac{0.183}{0.0261} = 7.01 \approx 7$$
+$$
+x = \frac{0.183}{0.0261} = 7.01 \approx 7
+$$
 
 Formula: $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}$ (Epsom salt)
 
 For the A-Level treatment of this topic, see
-[Quantitative Chemistry](https://alevel.wyattau.com/docs/chemistry/quantitative-chemistry).
+[Quantitative Chemistry](https://alevel.wyattau.com/chemistry/quantitative-chemistry/).
 
 </details>
 
@@ -1165,11 +1211,15 @@ For the A-Level treatment of this topic, see
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic           | Site    | Link                                                                                                |
 | --------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Stoichiometry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/quantitative-chemistry)            |
-| [Stoichiometry] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/1-stoichiometry/1_stoichiometric-relationships)     |
-| [Stoichiometry] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry) |
+| [Stoichiometry] | IB      | [View](https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships/)     |
+| [Stoichiometry] | DSE     | [View](https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/) |
+
+</div>
 
 ## Worked Examples
 

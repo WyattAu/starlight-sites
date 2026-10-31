@@ -32,7 +32,9 @@ maximum, Or saddle point. The second derivative test (Section 4.2) distinguishes
 **Theorem 4.2 (Second Derivative Test).** Let $f$ have continuous second partial derivatives near a
 Critical point $(a,b)$ with $f_x(a,b) = f_y(a,b) = 0$. Let
 
-$$D = f_{xx}(a,b) f_{yy}(a,b) - [f_{xy}(a,b)]^2$$
+$$
+D = f_{xx}(a,b) f_{yy}(a,b) - [f_{xy}(a,b)]^2
+$$
 
 Be the **Hessian determinant**. Then:
 
@@ -41,47 +43,55 @@ Be the **Hessian determinant**. Then:
 - If $D \lt 0$: saddle point.
 - If $D = 0$: the test is inconclusive.
 
-_Proof._ By Taylor"s theorem to second order, for small $h, k$:
+_Proof._ By Taylor's theorem to second order, for small $h, k$:
 
-$$f(a+h, b+k) - f(a,b) = \frac{1}{2}\left[f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2\right] + R_2$$
+$$
+f(a+h, b+k) - f(a,b) = \frac{1}{2}\left[f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2\right] + R_2
+$$
 
 Where the remainder $R_2 = o(h^2 + k^2)$ and all partials are evaluated at $(a,b)$. The sign of the
 Right-hand side is determined by the quadratic form
 
-$$Q(h,k) = f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2 = \begin{pmatrix} h & k \end{pmatrix} H \begin{pmatrix} h \\ k \end{pmatrix}$$
+$$
+Q(h,k) = f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2 = \begin{pmatrix} h & k \end{pmatrix} H \begin{pmatrix} h \\ k \end{pmatrix}
+$$
 
 Where $H = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{xy} & f_{yy} \end{pmatrix}$ is the Hessian matrix.
 
 By Sylvester's criterion for $2 \times 2$ symmetric matrices:
 
 - If $\det(H) = D \gt 0$ and $f_{xx} \gt 0$ Then $H$ is positive definite, so $Q \gt 0$ for all
-  $(h,k) \neq (0,0)$Giving a local minimum.
+  $(h,k) \neq (0,0)$ Giving a local minimum.
 - If $\det(H) = D \gt 0$ and $f_{xx} \lt 0$ Then $H$ is negative definite, so $Q \lt 0$ for all
-  $(h,k) \neq (0,0)$Giving a local maximum.
+  $(h,k) \neq (0,0)$ Giving a local maximum.
 - If $\det(H) = D \lt 0$ Then $H$ is indefinite, so $Q$ takes both positive and negative values,
   giving a saddle point.
 
-When $D = 0$The quadratic form is degenerate and the sign is determined by higher-order terms.
+When $D = 0$ The quadratic form is degenerate and the sign is determined by higher-order terms.
 $\blacksquare$
 
 ### 4.3 Lagrange Multipliers
 
 **Theorem 4.3 (Method of Lagrange Multipliers).** To find the extrema of $f(x,y,z)$ subject to the
-Constraint $g(x,y,z) = 0$Solve the system:
+Constraint $g(x,y,z) = 0$ Solve the system:
 
-$$\nabla f = \lambda \nabla g, \quad g = 0$$
+$$
+\nabla f = \lambda \nabla g, \quad g = 0
+$$
 
 More generally, for $k$ constraints $g_1 = 0, \ldots, g_k = 0$:
 
-$$\nabla f = \lambda_1 \nabla g_1 + \cdots + \lambda_k \nabla g_k$$
+$$
+\nabla f = \lambda_1 \nabla g_1 + \cdots + \lambda_k \nabla g_k
+$$
 
 _Proof (single constraint, geometric justification)._ Let $M = \\{(x,y,z) : g(x,y,z) = 0\\}$ be the
 constraint surface. If $f$ has a local extremum on $M$ at $\mathbf{p}$ Then the directional
 derivative $D_{\mathbf{v}} f(\mathbf{p}) = 0$ for every tangent Vector $\mathbf{v}$ to $M$ at
-$\mathbf{p}$. Since $\nabla f(\mathbf{p}) \cdot \mathbf{v} = 0$ for all Such $\mathbf{v}$The
+$\mathbf{p}$. Since $\nabla f(\mathbf{p}) \cdot \mathbf{v} = 0$ for all Such $\mathbf{v}$ The
 gradient $\nabla f(\mathbf{p})$ must be orthogonal to the tangent space of $M$ At $\mathbf{p}$. But
 the tangent space of $M$ is orthogonal to $\nabla g(\mathbf{p})$ (by the implicit Function theorem).
-Therefore $\nabla f(\mathbf{p})$ must be parallel to $\nabla g(\mathbf{p})$I.e.,
+Therefore $\nabla f(\mathbf{p})$ must be parallel to $\nabla g(\mathbf{p})$ I.e.,
 $\nabla f(\mathbf{p}) = \lambda\, \nabla g(\mathbf{p})$ for some scalar $\lambda$. $\blacksquare$
 
 ### 4.4 Worked Example
@@ -116,13 +126,17 @@ $(\pm 1/\sqrt{2}, \mp 1/\sqrt{2})$. $\blacksquare$
 
 Compute the gradient:
 
-$$\nabla f = (4x^3 - 4y,\, 4y^3 - 4x)$$
+$$
+\nabla f = (4x^3 - 4y,\, 4y^3 - 4x)
+$$
 
 Set $\nabla f = (0,0)$:
 
-$$x^3 = y, \quad y^3 = x$$
+$$
+x^3 = y, \quad y^3 = x
+$$
 
-Substituting $y = x^3$ into $y^3 = x$: $(x^3)^3 = x$I.e., $x^9 = x$Giving $x(x^8 - 1) = 0$. So
+Substituting $y = x^3$ into $y^3 = x$: $(x^3)^3 = x$ I.e., $x^9 = x$ Giving $x(x^8 - 1) = 0$. So
 $x = 0$ or $x = \pm 1$.
 
 - $x = 0$: $y = 0$. Critical point: $(0, 0)$.
@@ -148,13 +162,17 @@ $f(-1,-1) = 1 + 1 - 4 = -2$. $\blacksquare$
 
 Compute the gradient:
 
-$$\nabla f = (3x^2 - 3y,\, 3y^2 - 3x)$$
+$$
+\nabla f = (3x^2 - 3y,\, 3y^2 - 3x)
+$$
 
 Set $\nabla f = (0,0)$:
 
-$$3x^2 - 3y = 0 \implies y = x^2, \quad 3y^2 - 3x = 0 \implies y^2 = x$$
+$$
+3x^2 - 3y = 0 \implies y = x^2, \quad 3y^2 - 3x = 0 \implies y^2 = x
+$$
 
-Substituting: $(x^2)^2 = x$ So $x^4 - x = 0$Giving $x(x^3 - 1) = 0$ So $x = 0$ or $x = 1$.
+Substituting: $(x^2)^2 = x$ So $x^4 - x = 0$ Giving $x(x^3 - 1) = 0$ So $x = 0$ or $x = 1$.
 
 - $x = 0$: $y = 0$. Critical point: $(0, 0)$.
 - $x = 1$: $y = 1$. Critical point: $(1, 1)$.
@@ -177,11 +195,15 @@ Minimise $f(x,y,z) = x^2 + y^2 + z^2$ subject to $g(x,y,z) = x + 2y + 3z - 6 = 0
 
 $\nabla f = \lambda \nabla g$:
 
-$$(2x, 2y, 2z) = \lambda(1, 2, 3)$$
+$$
+(2x, 2y, 2z) = \lambda(1, 2, 3)
+$$
 
 This gives $x = \lambda/2$, $y = \lambda$, $z = 3\lambda/2$. Substituting into the constraint:
 
-$$\frac{\lambda}{2} + 2\lambda + \frac{9\lambda}{2} = 6 \implies \frac{\lambda + 4\lambda + 9\lambda}{2} = 6 \implies 7\lambda = 6 \implies \lambda = \frac{6}{7}$$
+$$
+\frac{\lambda}{2} + 2\lambda + \frac{9\lambda}{2} = 6 \implies \frac{\lambda + 4\lambda + 9\lambda}{2} = 6 \implies 7\lambda = 6 \implies \lambda = \frac{6}{7}
+$$
 
 Therefore $x = 3/7$, $y = 6/7$, $z = 9/7$. The closest point is $(3/7,\, 6/7,\, 9/7)$ with Distance
 $\sqrt{9/49 + 36/49 + 81/49} = \sqrt{126/49} = \frac{3\sqrt{14}}{7}$. $\blacksquare$
@@ -197,15 +219,21 @@ $\sqrt{9/49 + 36/49 + 81/49} = \sqrt{126/49} = \frac{3\sqrt{14}}{7}$. $\blacksqu
 
 Set $g_1 = x + y + z - 1$ and $g_2 = x^2 + y^2 + z^2 - 1/3$. The Lagrange multiplier system is:
 
-$$\nabla f = \lambda_1 \nabla g_1 + \lambda_2 \nabla g_2$$
+$$
+\nabla f = \lambda_1 \nabla g_1 + \lambda_2 \nabla g_2
+$$
 
-$$(yz, xz, xy) = \lambda_1(1, 1, 1) + \lambda_2(2x, 2y, 2z)$$
+$$
+(yz, xz, xy) = \lambda_1(1, 1, 1) + \lambda_2(2x, 2y, 2z)
+$$
 
 This gives three equations:
 
-$$yz = \lambda_1 + 2\lambda_2 x, \quad xz = \lambda_1 + 2\lambda_2 y, \quad xy = \lambda_1 + 2\lambda_2 z$$
+$$
+yz = \lambda_1 + 2\lambda_2 x, \quad xz = \lambda_1 + 2\lambda_2 y, \quad xy = \lambda_1 + 2\lambda_2 z
+$$
 
-Subtracting the first two: $z(y - x) = 2\lambda_2(x - y)$Giving $(y - x)(z + 2\lambda_2) = 0$.
+Subtracting the first two: $z(y - x) = 2\lambda_2(x - y)$ Giving $(y - x)(z + 2\lambda_2) = 0$.
 
 Similarly, $(z - y)(x + 2\lambda_2) = 0$ and $(x - z)(y + 2\lambda_2) = 0$.
 
@@ -217,10 +245,10 @@ At $(1/3, 1/3, 1/3)$: $f = 1/27$.
 If $x \neq y$: Then $z + 2\lambda_2 = 0$. If also $y \neq z$: $x + 2\lambda_2 = 0$ So $x = z$.
 
 With $x = z$: from $x + y + z = 1$: $2x + y = 1$. From $2x^2 + y^2 = 1/3$: Substituting
-$y = 1 - 2x$: $6x^2 - 4x + 2/3 = 0$I.e., $(3x - 1)^2 = 0$ So $x = 1/3$ $y = 1/3$. This reduces to the
+$y = 1 - 2x$: $6x^2 - 4x + 2/3 = 0$ I.e., $(3x - 1)^2 = 0$ So $x = 1/3$ $y = 1/3$. This reduces to the
 symmetric case.
 
-Therefore the only critical point is $(1/3, 1/3, 1/3)$Which gives $f = 1/27$.
+Therefore the only critical point is $(1/3, 1/3, 1/3)$ Which gives $f = 1/27$.
 
 Since the constraint set is compact (intersection of a plane and a sphere in $\mathbb{R}^3$), the
 Extreme value theorem guarantees both a maximum and minimum exist. The maximum of $xyz$ is $1/27$ at
@@ -229,17 +257,6 @@ $(1/3, 1/3, 1/3)$. $\blacksquare$
 </details>
 
 ### 4.7 Common Pitfalls
-
-
-```mermaid
-flowchart TD
-    A[4_Optimization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -254,7 +271,7 @@ Optimization asks: what is the best I can do under constraints? In unconstrained
   determine which gives the max/min.
 - **Boundary vs. Interior.** For unconstrained problems on a closed, bounded domain, check both
   interior critical points and boundary points separately.
-- **Degenerate Hessian.** When the Hessian determinant $D = 0$The second derivative test is
+- **Degenerate Hessian.** When the Hessian determinant $D = 0$ The second derivative test is
   inconclusive. Use higher-order Taylor expansions or direct analysis of the function near the
   critical point.
 - **Non-normalised constraint gradients.** Ensure the constraint functions are written in the form
@@ -267,7 +284,7 @@ Optimization asks: what is the best I can do under constraints? In unconstrained
 - **[Vector Calculus](/4-multivariable-calculus/3_vector-calculus/)**: Lagrange multipliers use the geometric relationship between gradients and tangent spaces, which is formalised in the study of conservative fields.
 - **[Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)**: The extreme value theorem and convergence of iterative optimisation methods rely on completeness and compactness from real analysis.
 - **[Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)**: Computing volumes and moments over constraint surfaces uses the multiple integration techniques developed in this chapter.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

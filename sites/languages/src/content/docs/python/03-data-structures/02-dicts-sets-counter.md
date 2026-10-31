@@ -30,7 +30,7 @@ Each dict maintains three structures internally:
 3. **`dk_size`**. The size of the hash table (always a power of 2).
 
 The hash table uses **open addressing** with pseudo-random probing. When a collision occurs, CPython
-Does not follow a linked list (chaining) but instead probes subsequent slots using a perturbation
+does not follow a linked list (chaining) but instead probes subsequent slots using a perturbation
 Scheme.
 
 ```python
@@ -45,6 +45,8 @@ print(sys.getsizeof(d))  # In standard practice 232 bytes on 64-bit CPython 3.12
 Python calls `hash(key)` on every key. The hash must be an integer. Built-in types implement
 `__hash__` as follows:
 
+<div class="table-wrap">
+
 | Type        | Hash Strategy                                                                   |
 | ----------- | ------------------------------------------------------------------------------- |
 | `int`       | `hash(n) = n` (with `-1` mapped to `-2` to avoid collision with error sentinel) |
@@ -52,6 +54,8 @@ Python calls `hash(key)` on every key. The hash must be an integer. Built-in typ
 | `tuple`     | XOR of element hashes with per-position perturbation                            |
 | `frozenset` | XOR of element hashes with perturbation                                         |
 | `bytes`     | Truncated SipHash                                                               |
+
+</div>
 
 ```python
 hash(42)           # 42
@@ -106,7 +110,7 @@ for i in range(100):
 Before Python 3.6, dicts stored entries in a single sparse array. This wasted memory because most
 Slots were empty. The compact dict design splits the structure into:
 
-- An **indices array**, a sparse array of `int8``int16``int32`Or `int64` indices (sized based on
+- An **indices array**, a sparse array of `int8`, `int16`, `int32` or `int64` indices (sized based on
   table size).
 - A **dense entries array**, a compact array of `(hash, key, value)` triples.
 
@@ -135,6 +139,8 @@ od.popitem(last=False)    # Remove and return first item: ('third', 3)
 
 Since Python 3.7, regular `dict` also preserves insertion order. The differences are:
 
+<div class="table-wrap">
+
 | Feature                   | `dict`           | `OrderedDict` |
 | ------------------------- | ---------------- | ------------- |
 | Insertion order preserved | Yes (3.7+)       | Yes           |
@@ -142,6 +148,8 @@ Since Python 3.7, regular `dict` also preserves insertion order. The differences
 | `popitem(last=False)`     | No               | Yes           |
 | Equality checks order     | No (Python 3.7+) | Yes           |
 | Reversible                | Yes (3.8+)       | Yes           |
+
+</div>
 
 :::caution
 `OrderedDict([(1,2),(3,4)]) != OrderedDict([(3,4),(1,2)])`. Regular `dict` equality does **not**
@@ -373,10 +381,10 @@ print(config["timeout"])  # 30
 ```
 
 ChainMap is ideal for layered configuration systems: defaults, environment variables, CLI args, and
-Per-request overrides.
+per-request overrides.
 
 :::caution
-Layer, access it via `config.maps[0]``config.maps[1]`Etc.
+Layer, access it via `config.maps[0]`, `config.maps[1]`. Etc.
 :::
 
 ```python
@@ -402,6 +410,8 @@ print(s.remove(6))  # KeyError, raises if not present
 
 Set operations have the following average-case complexities:
 
+<div class="table-wrap">
+
 | Operation                      | Average Case           | Worst Case          |
 | ------------------------------ | ---------------------- | ------------------- |
 | `x in s`                       | O(1)                   | O(n)                |
@@ -411,6 +421,8 @@ Set operations have the following average-case complexities:
 | `s & t` (intersection)         | O(min(len(s), len(t))) | O(len(s) \* len(t)) |
 | `s - t` (difference)           | O(len(s))              | O(len(s) \* len(t)) |
 | `s ^ t` (symmetric difference) | O(len(s) + len(t))     | O(len(s) \* len(t)) |
+
+</div>
 
 ### frozenset
 
@@ -499,13 +511,13 @@ print(d["CONTENT-TYPE"])  # application/json
 print(list(d.keys()))      # ["Content-Type']
 ```
 
-By inheriting from `MutableMapping`We get `get``keys``values``items``pop``clear`
-`update``setdefault`And `__contains__` for free.
+By inheriting from `MutableMapping`. We get `get`, `keys`, `values`, `items`, `pop`, `clear`
+`update`, `setdefault` and `__contains__` for free.
 
 ## UserDict, UserList, UserString
 
 The `collections` module provides wrapper classes that allow subclassing without directly inheriting
-From built-in types:
+from built-in types:
 
 ```python
 from collections import UserDict
@@ -584,6 +596,8 @@ p.x = 10  # Mutable by default
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature        | `namedtuple`               | `dataclass`            | `TypedDict`       |
 | -------------- | -------------------------- | ---------------------- | ----------------- |
 | Immutable      | Yes                        | Opt-in (`frozen=True`) | N/A               |
@@ -594,6 +608,8 @@ p.x = 10  # Mutable by default
 | Memory         | Tuple-sized                | Class overhead         | Dict              |
 | Use case       | Lightweight records        | Rich objects           | Typed dict shapes |
 | `__slots__`    | Yes (built-in)             | Opt-in                 | N/A               |
+
+</div>
 
 ```python
 from typing import TypedDict
@@ -693,7 +709,7 @@ print(bottom5) # [0, 1, 2, 3, 4] (varies)
 ```
 
 `nlargest(k, data)` is O(N log k) where N = len(data), making it efficient for small `k` relative to
-The data size. It uses a min-heap of size `k` internally.
+the data size. It uses a min-heap of size `k` internally.
 
 ### Max-Heap Pattern
 
@@ -839,7 +855,7 @@ print(a)  # {1, 2, 3}
 print(c)  # {2, 3}
 ```
 
-Use the augmented assignment operators (`|=``&=``-=``^=`) for in-place modifications to avoid
+Use the augmented assignment operators (`|=`, `&=`, `-=`, `^=`) for in-place modifications to avoid
 Unnecessary allocations.
 
 ### 7. Defaultdict Can Hide Bugs
@@ -862,16 +878,6 @@ d2 = {}
 Use `defaultdict` when you intentionally want default values. For configuration or structured data
 Access, prefer regular dicts to catch typos early.
 
-```mermaid
-flowchart TD
-    A[02 Dicts Sets Counter] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dicts, sets, and collections deep dive, including underlying
@@ -885,13 +891,7 @@ theory, practical implementation, and key applications.
 - decorators and context managers
 - error handling with try/except
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

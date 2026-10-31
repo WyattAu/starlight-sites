@@ -136,11 +136,15 @@ eliminate the target value.
 
 (c) Searching for 18 in $[2, 5, 7, 11, 15, 18, 22, 25, 30, 34]$:
 
+<div class="table-wrap">
+
 | Step | Low | High | Mid | Mid Value | Comparison | Action            |
 | ---- | --- | ---- | --- | --------- | ---------- | ----------------- |
 | 1    | 0   | 9    | 4   | 15        | $18 > 15$  | Search upper half |
 | 2    | 5   | 9    | 7   | 25        | $18 < 25$  | Search lower half |
 | 3    | 5   | 6    | 5   | 18        | $18 = 18$  | Found at index 5  |
+
+</div>
 
 Mid is calculated as $\lfloor(\text{low} + \text{high}) / 2\rfloor$.
 
@@ -384,27 +388,9 @@ the data is nearly sorted if an optimised version with an early termination chec
 
 **The key insight:** Big O notation measures how algorithms scale, O(n) is linear, O(log n) is logarithmic, and O(n²) is quadratic. The difference matters at scale.
 
-
-```mermaid
-flowchart TD
-    A[Diag Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

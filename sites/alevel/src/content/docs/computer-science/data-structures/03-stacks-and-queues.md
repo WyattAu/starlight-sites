@@ -25,9 +25,11 @@ categories:
 ### Definition
 
 A **stack** is a linear data structure that follows the **Last In, First Out (LIFO)** principle: the
-Most recently added element is the first to be removed.
+most recently added element is the first to be removed.
 
 ### Abstract Data Type
+
+<div class="table-wrap">
 
 | Operation   | Description                             | Time   |
 | ----------- | --------------------------------------- | ------ |
@@ -36,6 +38,8 @@ Most recently added element is the first to be removed.
 | `peek()`    | Return the top element without removing | $O(1)$ |
 | `isEmpty()` | Check if the stack is empty             | $O(1)$ |
 | `size()`    | Return the number of elements           | $O(1)$ |
+
+</div>
 
 ### Array-Based Implementation
 
@@ -74,7 +78,7 @@ class ArrayStack:
 **Theorem.** All stack operations run in $O(1)$ time with an array-based implementation.
 
 **Proof.** `push` and `pop` each perform one index update and one array access, both $O(1)$.
-`peek``isEmpty`And `size` each inspect a single variable. $\square$
+`peek`, `isEmpty` and `size` each inspect a single variable. $\square$
 
 ### Linked List-Based Implementation
 
@@ -119,12 +123,16 @@ The earliest added element is the first to be removed.
 
 ### Abstract Data Type
 
+<div class="table-wrap">
+
 | Operation    | Description                               | Time   |
 | ------------ | ----------------------------------------- | ------ |
 | `enqueue(x)` | Add element $x$ to the rear               | $O(1)$ |
 | `dequeue()`  | Remove and return the front element       | $O(1)$ |
 | `front()`    | Return the front element without removing | $O(1)$ |
 | `isEmpty()`  | Check if the queue is empty               | $O(1)$ |
+
+</div>
 
 ### Circular Array Implementation
 
@@ -234,7 +242,7 @@ Examples: `3 4 +` (= 7), `5 1 2 + 4 * + 3 -` (= 14)
 2. For each token $t$:
 
 - If $t$ is an operand: `push(t)`
-- If $t$ is an operator $\oplus$: pop $b$Pop $a$Compute $a \oplus b$`push(result)`
+- If $t$ is an operator $\oplus$: pop $b$ Pop $a$ Compute $a \oplus b$`push(result)`
 
 1. The result is the single value remaining on the stack
 
@@ -261,7 +269,7 @@ def evaluate_rpn(tokens):
 **Correctness proof.** We prove by induction on the number of tokens processed.
 
 _Invariant._ After processing $k$ tokens, the stack contains the values of all sub-expressions that
-Have been fully read but whose results have not yet been consumed by a parent operator. The stack
+have been fully read but whose results have not yet been consumed by a parent operator. The stack
 Bottom corresponds to the leftmost unprocessed sub-expression.
 
 _Base case._ $k = 0$: stack is empty. The invariant holds .
@@ -283,6 +291,8 @@ _Termination._ After processing all $n$ tokens of a valid RPN expression, exactl
 <details>
 <summary>Example: Evaluate `5 1 2 + 4 * + 3 -`</summary>
 
+<div class="table-wrap">
+
 | Token | Stack (bottom → top) | Action                      |
 | ----- | -------------------- | --------------------------- |
 | 5     | [5]                  | Push 5                      |
@@ -294,6 +304,8 @@ _Termination._ After processing all $n$ tokens of a valid RPN expression, exactl
 | +     | [17]                 | Pop 12, 5; push 5 + 12 = 17 |
 | 3     | [17, 3]              | Push 3                      |
 | -     | [14]                 | Pop 3, 17; push 17 - 3 = 14 |
+
+</div>
 
 Result: 14 ✓
 
@@ -319,6 +331,8 @@ Verification: $5 + ((1 + 2) \times 4) - 3 = 5 + 12 - 3 = 14$ ✓
 <details>
 <summary>Example: Convert `(3 + 4) * 5` to RPN</summary>
 
+<div class="table-wrap">
+
 | Token | Output Queue   | Operator Stack | Action                        |
 | ----- | -------------- | -------------- | ----------------------------- |
 | (     |                | (              | Push (                        |
@@ -329,6 +343,8 @@ Verification: $5 + ((1 + 2) \times 4) - 3 = 5 + 12 - 3 = 14$ ✓
 | \*    | 3, 4, +        | \*             | Push \*                       |
 | 5     | 3, 4, +, 5     | \*             | Enqueue 5                     |
 | end   | 3, 4, +, 5, \* |                | Pop remaining                 |
+
+</div>
 
 Result: `3 4 + 5 *` ✓
 
@@ -359,9 +375,11 @@ Buffer, network packet buffer).
 ### Definition
 
 A **priority queue** is a queue where each element has an associated priority, and elements are
-Dequeued in priority order (highest first, or lowest first).
+dequeued in priority order (highest first, or lowest first).
 
 ### Implementation Options
+
+<div class="table-wrap">
 
 | Implementation | Insert           | Extract-Max      | Notes                       |
 | -------------- | ---------------- | ---------------- | --------------------------- |
@@ -370,9 +388,13 @@ Dequeued in priority order (highest first, or lowest first).
 | Linked list    | $O(1)$ or $O(n)$ | $O(1)$ or $O(n)$ | Depends on approach         |
 | Binary heap    | $O(\log n)$      | $O(\log n)$      | Optimal for general use     |
 
+</div>
+
 <hr />
 
 ## 6. Stack vs Queue Comparison
+
+<div class="table-wrap">
 
 | Property  | Stack                | Queue                      |
 | --------- | -------------------- | -------------------------- |
@@ -382,12 +404,14 @@ Dequeued in priority order (highest first, or lowest first).
 | Peek      | top element          | front element              |
 | Use cases | Recursion, undo, RPN | BFS, scheduling, buffering |
 
+</div>
+
 <hr />
 
 ## Problem Set
 
 **Problem 1.** A stack initially contains `[10, 20, 30]` (30 on top). After the operations
-`push(40)``pop()``push(50)``pop()``pop()`What is on the stack?
+`push(40)`, `pop()`, `push(50)`, `pop()`, `pop()`What is on the stack?
 
 <details>
 <summary>Answer</summary>
@@ -405,7 +429,7 @@ Stack: `[10, 20]` (20 on top)
 </details>
 
 **Problem 2.** A queue initially contains `[10, 20, 30]` (front = 10). After `enqueue(40)`
-`dequeue()``enqueue(50)``dequeue()`What remains?
+`dequeue()`, `enqueue(50)`, `dequeue()`What remains?
 
 <details>
 <summary>Answer</summary>
@@ -426,6 +450,8 @@ Queue: [30, 40, 50] (front = 30)
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Token | Stack     | Action                    |
 | ----- | --------- | ------------------------- |
 | 2     | [2]       | Push 2                    |
@@ -435,6 +461,8 @@ Queue: [30, 40, 50] (front = 30)
 | +     | [5]       | Pop 3, 2; push 2 + 3 = 5  |
 | 9     | [5, 9]    | Push 9                    |
 | -     | [-4]      | Pop 9, 5; push 5 - 9 = -4 |
+
+</div>
 
 Result: -4 ✓
 
@@ -448,7 +476,9 @@ Algorithm.
 <details>
 <summary>Answer</summary>
 
-Precedence: `*` > `+``-`
+Precedence: `*` > `+`, `-`
+
+<div class="table-wrap">
 
 | Token | Output            | Stack | Action                                  |
 | ----- | ----------------- | ----- | --------------------------------------- |
@@ -460,6 +490,8 @@ Precedence: `*` > `+``-`
 | -     | A, B, C, \*       | -     | Pop \* (≥ prec), pop + (≥ prec), push - |
 | D     | A, B, C, \*, D    | -     | Enqueue D                               |
 | end   | A, B, C, \*, D, - |       | Pop remaining                           |
+
+</div>
 
 Result: `A B C * + D -` ✓
 
@@ -480,13 +512,13 @@ The end, the stack must be empty.
 Are balanced.
 
 (_If_) Suppose the parentheses are balanced. Then every `)` matches a previous `(`. By the
-Well-formedness of balanced parentheses, when we encounter a `)`There is always a matching `(` on
-The stack (otherwise the prefix would have more `)` than `(`Contradicting balance). At the end, All
+Well-formedness of balanced parentheses, when we encounter a `)`. There is always a matching `(` on
+the stack (otherwise the prefix would have more `)` than `(`Contradicting balance). At the end, All
 `(` have been matched, so the stack is empty.
 
 (_Only if_) Suppose the algorithm returns "balanced" (stack empty at end, no underflow). No
-Underflow means every `)` matched a previous `(`. Empty stack means every `(` was matched. Hence the
-String is balanced. $\square$
+underflow means every `)` matched a previous `(`. Empty stack means every `(` was matched. Hence the
+string is balanced. $\square$
 
 Time: $O(n)$, one pass through the string. Space: $O(n)$, stack depth.
 
@@ -517,11 +549,11 @@ class StackQueue:
 `enqueue`: $O(1)$, push onto `in_stack`.
 
 `dequeue`: If `out_stack` is non-empty, $O(1)$. If empty, transfer all $n$ elements from `in_stack`
-To `out_stack` ($O(n)$), then pop ($O(1)$). Each element is transferred at most once per
+To `out_stack` ($O(n)$), then pop ($ O(1)$). Each element is transferred at most once per
 `enqueue`/`dequeue` pair, so the amortised cost per `dequeue` is $O(1)$.
 
 **Amortised proof.** Over a sequence of $n$ operations, each element is pushed to `in_stack` once
-($O(1)$), transferred to `out_stack` at most once ($O(1)$ amortised), and popped from `out_stack`
+($O(1)$), transferred to `out_stack` at most once ($ O(1)$ amortised), and popped from `out_stack`
 Once ($O(1)$). Total: $O(n)$ for $n$ operations → $O(1)$ amortised per operation. $\square$
 
 </details>
@@ -533,18 +565,20 @@ Text editor.
 <summary>Answer</summary>
 
 Each action in the editor (typing, deleting, formatting) can be represented as a state change. When
-The user performs "undo", we need to reverse the **most recent** action, this is exactly LIFO
+the user performs "undo", we need to reverse the **most recent** action, this is exactly LIFO
 Behaviour. Pushing each action onto a stack and popping on undo reverses actions in the Correct
 order. A queue would undo the **oldest** action first, which is not the desired behaviour.
 
 </details>
 
 **Problem 8.** A circular queue has capacity 5. Show the state of the queue (front, rear, size, and
-Array contents) after each operation: `enqueue(1)``enqueue(2)``dequeue()``enqueue(3)`
-`enqueue(4)``enqueue(5)``dequeue()``enqueue(6)`.
+Array contents) after each operation: `enqueue(1)`, `enqueue(2)`, `dequeue()`, `enqueue(3)`
+`enqueue(4)`, `enqueue(5)`, `dequeue()`, `enqueue(6)`.
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Operation  | front | rear | size | Array contents (indices 0-4) |
 | ---------- | ----- | ---- | ---- | ---------------------------- |
@@ -557,6 +591,8 @@ Array contents) after each operation: `enqueue(1)``enqueue(2)``dequeue()``enqueu
 | enqueue(5) | 1     | 0    | 4    | [5, 2, 3, 4, _]              |
 | dequeue()  | 2     | 0    | 3    | [5, _, 3, 4,_]              |
 | enqueue(6) | 2     | 1    | 4    | [5, 6, 3, 4, _]              |
+
+</div>
 
 Note: rear wraps around using `(rear + 1) % capacity`.
 
@@ -578,7 +614,7 @@ def reverse_queue(queue):
 
 **Correctness.** Dequeuing all elements and pushing them onto a stack reverses the order (LIFO).
 Then popping all elements and enqueuing them places them in the queue in the reversed order. Time:
-$O(n)$Space: $O(n)$.
+$O(n)$ Space: $O(n)$.
 
 </details>
 
@@ -591,13 +627,13 @@ Evaluates to exactly one value (the stack has exactly one element at the end).
 **Proof by induction on $n$ (number of operands).**
 
 _Base case._ $n = 1$: The expression is a single operand. After processing, the stack has one
-Element. ✓
+element. ✓
 
 _Inductive step._ Assume the claim holds for all expressions with $k$ operands ($k \geq 1$).
 Consider an expression with $k + 1$ operands. In a valid RPN expression, there exists a first
-Operator $\oplus$ that, when processed, reduces the stack by one (pops 2, pushes 1). Before this
-Operator, some prefix of the expression has evaluated to a stack with at least 2 elements. The
-Prefix before $\oplus$ is a valid sub-expression with $m$ operands and $m - 1$ operators (for some
+operator $\oplus$ that, when processed, reduces the stack by one (pops 2, pushes 1). Before this
+operator, some prefix of the expression has evaluated to a stack with at least 2 elements. The
+prefix before $\oplus$ is a valid sub-expression with $m$ operands and $m - 1$ operators (for some
 $m \geq 2$), and by the inductive hypothesis evaluates to exactly $m$ values, but we need exactly 2
 Values before $\oplus$.
 
@@ -615,7 +651,7 @@ For revision on complexity analysis, see
 ## Problems
 
 **Problem 1.** A stack is initially empty. Perform the following operations in order and show the
-Stack contents after each: `push(5)``push(12)``push(3)``pop()``push(8)``pop()``pop()` `push(1)`.
+Stack contents after each: `push(5)`, `push(12)`, `push(3)`, `pop()`, `push(8)`, `pop()`, `pop()` `push(1)`.
 What are the values returned by each `pop()` operation?
 
 <details>
@@ -629,6 +665,8 @@ A list with the top at the right.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Operation | Stack (top on right) | Value returned |
 | --------- | -------------------- | -------------- |
 | push(5)   | [5]                  |,              |
@@ -639,6 +677,8 @@ A list with the top at the right.
 | pop()     | [5, 12]              | 8              |
 | pop()     | [5]                  | 12             |
 | push(1)   | [5, 1]               |,              |
+
+</div>
 
 Values returned by `pop()` in order: **3, 8, 12**.
 
@@ -677,7 +717,7 @@ Final stack: **`[2, 7, 8]`** (8 on top).
 </details>
 
 **Problem 3.** A queue initially contains `[5, 10, 15, 20]` (front = 5). Perform `dequeue()`
-`enqueue(25)``dequeue()``enqueue(30)``dequeue()`. What remains in the queue?
+`enqueue(25)`, `dequeue()`, `enqueue(30)`, `dequeue()`. What remains in the queue?
 
 <details>
 <summary>Hint</summary>
@@ -689,6 +729,8 @@ A queue is FIFO, elements are removed from the front and added at the rear.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Operation   | Queue (front → rear) | Value returned |
 | ----------- | -------------------- | -------------- |
 | Initial     | [5, 10, 15, 20]      |,              |
@@ -698,24 +740,28 @@ A queue is FIFO, elements are removed from the front and added at the rear.
 | enqueue(30) | [15, 20, 25, 30]     |,              |
 | dequeue()   | [20, 25, 30]         | 15             |
 
+</div>
+
 Final queue: **`[20, 25, 30]`** (front = 20).
 
 </details>
 
 **Problem 4.** A circular queue has capacity 4. Trace the following operations, showing `front`
-`rear``size`And the array contents after each step: `enqueue(7)``enqueue(3)``enqueue(9)`
-`dequeue()``dequeue()``enqueue(5)``enqueue(1)``enqueue(8)`. What happens on the last Operation?
+`rear`, `size` and the array contents after each step: `enqueue(7)`, `enqueue(3)`, `enqueue(9)`
+`dequeue()`, `dequeue()`, `enqueue(5)`, `enqueue(1)`, `enqueue(8)`. What happens on the last Operation?
 
 <details>
 <summary>Hint</summary>
 
 Remember that `rear = (rear + 1) % capacity` and `front = (front + 1) % capacity`. The queue is full
-When `size == capacity`.
+when `size == capacity`.
 
 </details>
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Operation  | front | rear | size | Array [0, 1, 2, 3] |
 | ---------- | ----- | ---- | ---- | ------------------ |
@@ -728,9 +774,11 @@ When `size == capacity`.
 | enqueue(1) | 2     | 1    | 3    | [5, 1, 9, _]       |
 | enqueue(8) | 2     | 2    | 4    | [5, 1, 9, 8]       |
 
+</div>
+
 The last operation (`enqueue(8)`) succeeds. The queue is now **full** (size = capacity = 4). The
-`rear` wraps around: $(1 + 1) \% 4 = 2$. Note that `rear` now equals `front`But the queue is not
-Empty, we use the `size` variable to distinguish full from empty.
+`rear` wraps around: $(1 + 1) \% 4 = 2$. Note that `rear` now equals `front`. But the queue is not
+empty, we use the `size` variable to distinguish full from empty.
 
 </details>
 
@@ -749,6 +797,8 @@ Performance and memory characteristics.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Property              | Array-based            | Linked-list-based      |
 | --------------------- | ---------------------- | ---------------------- |
 | (a) Push/Pop time     | $O(1)$                 | $O(1)$                 |
@@ -756,9 +806,11 @@ Performance and memory characteristics.
 | (c) Memory overhead   | None per element       | One pointer (8 bytes)  |
 | (d) Cache performance | Excellent (contiguous) | Poor (scattered nodes) |
 
+</div>
+
 **Array-based preferable:** When the maximum stack depth is known in advance (e.g., recursion depth
 In a parser with known grammar). The contiguous memory layout gives better cache performance, and
-There is no per-element pointer overhead.
+there is no per-element pointer overhead.
 
 **Linked-list-based preferable:** When the maximum stack depth is unpredictable and could be very
 Large (e.g., a web browser's back-navigation stack that grows with user browsing). No need to
@@ -768,7 +820,7 @@ Pre-allocate a large array, and no risk of stack overflow from a fixed capacity.
 
 **Problem 6.** A queue is implemented using a simple (non-circular) array where `enqueue` adds at
 `rear` and `dequeue` removes from `front`Shifting all remaining elements left by one. What is the
-Time complexity of `enqueue` and `dequeue`? Explain why this implementation is inefficient for large
+time complexity of `enqueue` and `dequeue`? Explain why this implementation is inefficient for large
 Queues.
 
 <details>
@@ -782,12 +834,12 @@ Consider how many elements need to be moved when dequeuing from the front of a n
 <summary>Answer</summary>
 
 - `enqueue`: $O(1)$, add element at index `rear`Increment `rear`.
-- `dequeue`: $O(n)$, remove element at index `front`Then shift elements `front+1` through `rear-1`
+- `dequeue`: $O(n)$, remove element at index `front`. Then shift elements `front+1` through `rear-1`
   one position left.
 
 **Why inefficient:** After dequeuing, every remaining element must be shifted. For a queue of $n$
 Elements, dequeue performs $n-1$ assignments. If $n$ is large (e.g., a print queue with 10,000
-Jobs), each dequeue is expensive. Over $m$ operations, the total cost is $O(m \cdot n)$ in the worst
+jobs), each dequeue is expensive. Over $m$ operations, the total cost is $O(m \cdot n)$ in the worst
 Case.
 
 A circular array eliminates this by using modular arithmetic: `front = (front + 1) % capacity`
@@ -802,12 +854,14 @@ Processed.
 <summary>Hint</summary>
 
 Process each token left to right. Operands are pushed; operators pop two operands, compute, and push
-The result.
+the result.
 
 </details>
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Token | Stack (bottom → top) | Action                      |
 | ----- | -------------------- | --------------------------- |
@@ -818,6 +872,8 @@ The result.
 | \*    | [30]                 | Pop 5, 6; push 6 × 5 = 30   |
 | 4     | [30, 4]              | Push 4                      |
 | -     | [26]                 | Pop 4, 30; push 30 - 4 = 26 |
+
+</div>
 
 Result: **26**.
 
@@ -832,7 +888,7 @@ Verification: $(6 \times (2 + 3)) - 4 = 30 - 4 = 26$. ✓
 <summary>Hint</summary>
 
 Push opening brackets onto the stack. For each closing bracket, pop and check that it matches the
-Corresponding opening bracket.
+corresponding opening bracket.
 
 </details>
 
@@ -840,6 +896,8 @@ Corresponding opening bracket.
 <summary>Answer</summary>
 
 **Checking `{[()()]}`:**
+
+<div class="table-wrap">
 
 | Char | Stack (top on right) | Action                  |
 | ---- | -------------------- | ----------------------- |
@@ -852,9 +910,13 @@ Corresponding opening bracket.
 | `]`  | `[{]`                | Pop `[`matches `]` ✓ |
 | `}`  | `[]`                 | Pop `{`matches `}` ✓ |
 
+</div>
+
 Stack is empty → **balanced**. ✓
 
 **Checking `[{(})]`:**
+
+<div class="table-wrap">
 
 | Char | Stack (top on right) | Action                               |
 | ---- | -------------------- | ------------------------------------ |
@@ -863,12 +925,14 @@ Stack is empty → **balanced**. ✓
 | `(`  | `[{, {, (]`          | Push `(`                             |
 | `}`  | `[{, (]`             | Pop `(`expected `}` but got `(` ✗ |
 
+</div>
+
 Stack top is `(` but closing bracket is `}`**mismatch** → **not balanced**. ✗
 
 </details>
 
 **Problem 9.** Write pseudocode for the `dequeue` operation of a circular array queue. The queue has
-Variables `_data[]``_front``_size`And `_capacity`. Include error handling for an empty queue.
+Variables `_data[]`, `_front`, `_size` and `_capacity`. Include error handling for an empty queue.
 
 <details>
 <summary>Hint</summary>
@@ -908,11 +972,11 @@ ENDFUNCTION
 
 **Problem 10.** (Exam-style) A software company is building two features: (A) a web browser's
 Back/forward navigation system, and (B) a customer support ticket system where tickets are answered
-In the order they are received. For each feature, recommend whether a stack or a queue is the most
-Appropriate data structure. Justify your answer by explaining why the chosen structure's ordering
+in the order they are received. For each feature, recommend whether a stack or a queue is the most
+appropriate data structure. Justify your answer by explaining why the chosen structure's ordering
 Principle matches the feature's requirements, and explain why the alternative structure would be
-Incorrect. Include a discussion of how each structure would be implemented (array-based or
-Linked-list-based) and justify your choice.
+incorrect. Include a discussion of how each structure would be implemented (array-based or
+linked-list-based) and justify your choice.
 
 <details>
 <summary>Hint</summary>
@@ -928,16 +992,16 @@ First (LIFO) or the oldest item (FIFO)?
 **(A) Browser back/forward navigation, Stack**
 
 The back button must return to the **most recently visited** page, not the first page visited. This
-Is LIFO behaviour, a stack.
+is LIFO behaviour, a stack.
 
 Implementation: **Linked-list-based stack**. The number of pages visited is unpredictable and could
-Be very large. A linked list avoids pre-allocating a fixed capacity and eliminates the risk of
-Overflow. Push (visit a page) and pop (go back) are both $O(1)$. Two stacks are used: one for the
-Back history and one for the forward history.
+be very large. A linked list avoids pre-allocating a fixed capacity and eliminates the risk of
+overflow. Push (visit a page) and pop (go back) are both $O(1)$. Two stacks are used: one for the
+back history and one for the forward history.
 
 Why a queue would be wrong: A queue would return the user to the **first** page visited, not the
-Most recent. This would make the back button navigate to the homepage every time, which is
-Incorrect.
+most recent. This would make the back button navigate to the homepage every time, which is
+incorrect.
 
 **(B) Customer support tickets, Queue**
 
@@ -947,11 +1011,11 @@ Behaviour, a queue.
 Implementation: **Circular array queue**. The volume of support tickets can be estimated (allowing
 Capacity planning), and the contiguous memory gives better performance. Both enqueue (new ticket)
 And dequeue (next ticket to answer) are $O(1)$. If the volume is highly variable, a
-Linked-list-based queue would be more flexible.
+linked-list-based queue would be more flexible.
 
 Why a stack would be wrong: A stack would process the **most recently submitted** ticket first. This
-Means a customer who submitted a ticket hours ago would wait indefinitely while new tickets are
-Handled, unfair and violating the FIFO service guarantee.
+means a customer who submitted a ticket hours ago would wait indefinitely while new tickets are
+handled, unfair and violating the FIFO service guarantee.
 
 </details>
 
@@ -973,26 +1037,9 @@ Handled, unfair and violating the FIFO service guarantee.
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[03 Stacks And Queues] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

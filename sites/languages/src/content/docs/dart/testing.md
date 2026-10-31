@@ -32,7 +32,7 @@ dev_dependencies:
   test: ^1.25.0
 ```
 
-The core API consists of three functions: `test``group`and `expect`.
+The core API consists of three functions: `test`, `group`and `expect`.
 
 ```dart
 import "package:test/test.dart';
@@ -93,7 +93,7 @@ void main() {
 ### Matchers
 
 The `expect` function pairs a value with a matcher. Matchers are composable, they can be nested,
-combined with `allOf``anyOf`and negated with `isNot`.
+combined with `allOf`, `anyOf`and negated with `isNot`.
 
 ```dart
 import 'package:test/test.dart';
@@ -293,7 +293,7 @@ await tester.pumpAndSettle(); // Wait for all animations to complete
 
 ### Testing Async Widgets
 
-Widgets that depend on `FutureBuilder``StreamBuilder`or async initialization require explicit
+Widgets that depend on `FutureBuilder`, `StreamBuilder`or async initialization require explicit
 pumping to advance through loading states.
 
 ```dart
@@ -758,16 +758,6 @@ testWidgets('navigates to detail on tap', (tester) async {
    sense of security. A single well-structured test that exercises a real edge case is worth more
    than ten tests that assert nothing meaningful.
 
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Dart and Flutter provide a layered testing framework: unit tests for logic, widget tests for UI
@@ -779,9 +769,6 @@ strategy is not what you fail to test, but what you test incorrectly, a false-pa
 than no test at all.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

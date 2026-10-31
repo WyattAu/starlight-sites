@@ -42,9 +42,21 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'Theory Test', items: [{ autogenerate: { directory: 'theory-test' } }] },
-        { label: 'Practical Test', items: [{ autogenerate: { directory: 'practical-test' } }] },
-        { label: 'Country Guides', items: [{ autogenerate: { directory: 'country-guides' } }] },
+        {
+          label: 'Theory Test',
+          items: [{ autogenerate: { directory: 'theory-test' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Practical Test',
+          items: [{ autogenerate: { directory: 'practical-test' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Country Guides',
+          items: [{ autogenerate: { directory: 'country-guides' } }],
+          collapsed: true,
+        },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -78,9 +90,7 @@ export default defineConfig({
           tag: 'link',
           attrs: {
             rel: 'stylesheet',
-            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css',
-            integrity: 'sha384-irXK0JiCGinqGL+slwVklbhJetrjczNwaP2lANewD8lKAs9n61SbQ3As28iSqXUE',
-            crossorigin: 'anonymous',
+            href: '/katex/katex.min.css',
           },
         },
         {
@@ -90,7 +100,6 @@ export default defineConfig({
             content: 'https://driving-eu.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },
@@ -107,7 +116,6 @@ export default defineConfig({
             },
           }),
         },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
       ],
       customCss: [
         './src/styles/custom.css',

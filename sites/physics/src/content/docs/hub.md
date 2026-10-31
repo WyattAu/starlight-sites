@@ -22,6 +22,13 @@ categories:
 }
 </script>
 
+:::note[New to the subject, or from a different exam board?]
+Read **[Before You Begin: The Mathematics Physics Assumes](/before-you-begin/)** first. It rebuilds what the tracks assume -- vectors, trigonometry, coordinate geometry, and single-variable calculus including the chain and product rules --
+from first principles, defines every term before it is used, and ends with a
+self-test so confident readers can skip by assessment rather than by trust.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -39,17 +46,6 @@ categories:
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -72,6 +68,23 @@ These notes follow the standard undergraduate physics curriculum: from Newtonian
 - [FAQ](/hub/)
 
 ---
+
+## The Rigour Ladder
+
+Sections are marked so you can see how deep a given page goes. A fresh
+undergraduate should read every F and U on a topic, then the A sections of the
+topics they intend to specialise in.
+
+<div class="table-wrap">
+
+| Mark | Meaning |
+| ---- | ------- |
+| **F** Foundation | Definitions and first examples. Assumed later. |
+| **U** Undergraduate | The standard degree-level treatment, with proofs. |
+| **A** Advanced | Graduate-level: the machinery needed for research. |
+| **R** Research | Open problems, recent results, and where the machinery fails. |
+
+</div>
 
 ## Recommended Study Order
 
@@ -322,6 +335,33 @@ Particle physics identifies the fundamental building blocks of matter and the fo
 - [Problem Set](/7-particle-physics-and-cosmology/10_problem-set/)
 
 ---
+
+## Graduate and Research Tier
+
+The classical mechanics track continues past the undergraduate treatment into
+research-level material. These pages assume the mechanics and Hamiltonian
+content above and go further:
+
+<div class="table-wrap">
+
+| Module | Builds on | Tier |
+| ------ | --------- | ---- |
+| [Symplectic Structure and KAM Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/) | Hamiltonian mechanics, Noether's theorem | R |
+
+</div>
+
+Covers the symplectic form, Liouville's theorem, integrable systems and
+action-angle variables, the KAM theorem and the Diophantine condition on
+surviving frequencies, Arnold diffusion, and the open questions: whether the
+solar system is actually stable, and KAM for infinite-dimensional systems.
+
+The mathematics site carries the wider research tier: [spectral
+theory](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/),
+[stochastic calculus](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/1_ito-integration-and-formula/),
+[representation theory](https://mathematics.wyattau.com/15-graduate-representation-theory/1_representation-theory-of-finite-groups/),
+[Ricci flow](https://mathematics.wyattau.com/16-graduate-geometry/1_ricci-flow-and-geometrisation/)
+and [posterior
+asymptotics](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/).
 
 ## Diagnostics
 

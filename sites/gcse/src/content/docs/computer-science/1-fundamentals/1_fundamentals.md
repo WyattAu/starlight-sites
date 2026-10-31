@@ -41,13 +41,17 @@ Computers use **binary** (base 2), which has only two digits: 0 and 1. Each bina
 
 A group of 8 bits is called a **byte**.
 
+<div class="table-wrap">
+
 | Bit position | 128   | 64    | 32    | 16    | 8     | 4     | 2     | 1     |
 | ------------ | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | Power of 2   | $2^7$ | $2^6$ | $2^5$ | $2^4$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ |
 
+</div>
+
 **Why binary?** Digital circuits are built from transistors, which have two states: on (high
 Voltage) and off (low voltage). These two states map to 1 and 0. Binary arithmetic can be
-Implemented with simple logic gates (AND, OR, NOT), making hardware design tractable.
+implemented with simple logic gates (AND, OR, NOT), making hardware design tractable.
 
 ### 1.2 Converting Between Binary and Denary
 
@@ -55,11 +59,15 @@ Implemented with simple logic gates (AND, OR, NOT), making hardware design tract
 
 **Worked Example.** Convert 11010110 to denary.
 
-$$128 + 64 + 16 + 4 + 2 = 214$$
+$$
+128 + 64 + 16 + 4 + 2 = 214
+$$
 
 **Worked Example.** Convert 01011101 to denary.
 
-$$64 + 16 + 8 + 4 + 1 = 93$$
+$$
+64 + 16 + 8 + 4 + 1 = 93
+$$
 
 **Denary to binary:** Find the largest power of 2 that fits, subtract, and repeat.
 
@@ -83,6 +91,8 @@ Reading bottom to top: 11010110.
 
 ### 1.3 Units of Data
 
+<div class="table-wrap">
+
 | Unit            | Number of bytes          |
 | --------------- | ------------------------ |
 | 1 Kilobyte (KB) | $2^{10} = 1024$ bytes    |
@@ -90,18 +100,24 @@ Reading bottom to top: 11010110.
 | 1 Gigabyte (GB) | $2^{30}$ bytes           |
 | 1 Terabyte (TB) | $2^{40}$ bytes           |
 
+</div>
+
 :::caution
 Manufacturers often use 1000 for marketing purposes. A "500 GB" hard drive advertised by the
-Manufacturer is actually about 465 GiB when measured in binary. The IEC prefixes KiB, MiB, GiB refer
+manufacturer is actually about 465 GiB when measured in binary. The IEC prefixes KiB, MiB, GiB refer
 Specifically to powers of 1024.
 
 ### 1.4 Binary Addition
 
 Binary addition follows the same rules as denary addition, but with only two digits:
 
+<div class="table-wrap">
+
 | $0 + 0$ | $0 + 1$ | $1 + 0$ | $1 + 1$        |
 | ------- | ------- | ------- | -------------- |
 | 0       | 1       | 1       | 10 (0 carry 1) |
+
+</div>
 
 **Worked Example.** $0110 + 0101$
 
@@ -132,9 +148,9 @@ Binary addition follows the same rules as denary addition, but with only two dig
 
 The result (11000) requires 5 bits, but we are working with 4-bit numbers. The leftmost 1 is lost,
 Giving an incorrect result of 1000. This is called **overflow** and occurs when the result of an
-Operation exceeds the number of bits available.
+operation exceeds the number of bits available.
 
-### 1.5 Binary Subtraction Using Two"s Complement (Higher Tier)
+### 1.5 Binary Subtraction Using Two's Complement (Higher Tier)
 
 To subtract, add the two's complement of the number being subtracted.
 
@@ -144,7 +160,7 @@ To subtract, add the two's complement of the number being subtracted.
 
 $6 = 0110$$3 = 0011$
 
-Two's complement of 3: invert $0011 \to 1100$Add $1 \to 1101$.
+Two's complement of 3: invert $0011 \to 1100$ Add $1 \to 1101$.
 
 $0110 + 1101 = 10011$.
 
@@ -154,7 +170,7 @@ Discard the overflow bit: $0011 = 3$. Correct.
 
 $3 = 0011$$6 = 0110$.
 
-Two's complement of 6: invert $0110 \to 1001$Add $1 \to 1010$.
+Two's complement of 6: invert $0110 \to 1001$ Add $1 \to 1010$.
 
 $0011 + 1010 = 1101$.
 
@@ -164,22 +180,22 @@ In two's complement, $1101 = -8 + 4 + 0 + 1 = -3$. Correct.
 
 $15 = 01111$$8 = 01000$.
 
-Two's complement of 8: invert $01000 \to 10111$Add $1 \to 11000$.
+Two's complement of 8: invert $01000 \to 10111$ Add $1 \to 11000$.
 
 $01111 + 11000 = 100111$.
 
 Discard the overflow bit: $00111 = 7$. Correct.
 
 **Proof that two's complement negation works.** For an $n$-bit number $x$ with
-$0 \lt x \lt 2^{n-1}$Let $y$ be the bitwise complement of $x$ plus 1. Then $y = 2^n - x$. When we
+$0 \lt x \lt 2^{n-1}$ Let $y$ be the bitwise complement of $x$ plus 1. Then $y = 2^n - x$. When we
 Compute $x + y = x +
 (2^n - x) = 2^n$. In $N$-bit arithmetic, the leading 1 overflows and is
-Discarded, leaving 0. Therefore $y = -x$ in two's complement arithmetic. $\blacksquare$
+discarded, leaving 0. Therefore $y = -x$ in two's complement arithmetic. $\blacksquare$
 
 ### 1.6 Logical Binary Shifts (Higher Tier)
 
 A **logical left shift** moves all bits to the left by a specified number of positions. Zeros fill
-The vacated positions on the right. Each left shift multiplies by 2.
+the vacated positions on the right. Each left shift multiplies by 2.
 
 **Example.** $00001100$ (12) shifted left by 2: $00110000$ (48).
 
@@ -209,6 +225,8 @@ Hex is used as a shorthand for binary because:
 - Large binary numbers are easier to read and write in hex
 - Hex is easier for humans to work with than long strings of 0s and 1s
 
+<div class="table-wrap">
+
 | Binary | Hex | Denary |
 | ------ | --- | ------ |
 | 0000   | 0   | 0      |
@@ -227,6 +245,8 @@ Hex is used as a shorthand for binary because:
 | 1101   | D   | 13     |
 | 1110   | E   | 14     |
 | 1111   | F   | 15     |
+
+</div>
 
 ### 2.2 Conversions
 
@@ -257,7 +277,7 @@ Result: 16
 
 Result: 001111110111
 
-**Hex to denary:** Multiply each hex digit by its positional value ($16^0, 16^1, 16^2$Etc.) and Sum.
+**Hex to denary:** Multiply each hex digit by its positional value ($16^0, 16^1, 16^2$ Etc.) and Sum.
 
 **Worked Example.** Convert 2AF to denary.
 
@@ -297,13 +317,17 @@ $3 \times 16 + 12 = 48 + 12 = 60$.
 ### 3.1 Character Sets
 
 A **character set** is a collection of characters that a computer can recognise. Each character is
-Assigned a unique binary code.
+assigned a unique binary code.
+
+<div class="table-wrap">
 
 | Character Set  | Description                                        | Characters                              |
 | -------------- | -------------------------------------------------- | --------------------------------------- |
 | ASCII          | American Standard Code for Information Interchange | 128 characters (7 bits)                 |
 | Extended ASCII | Extended version                                   | 256 characters (8 bits)                 |
 | Unicode        | Universal character set                            | Over 140,000 characters (up to 32 bits) |
+
+</div>
 
 ### 3.2 ASCII
 
@@ -314,6 +338,8 @@ ASCII uses 7 bits, giving $2^7 = 128$ possible characters:
 
 **Key ASCII values:**
 
+<div class="table-wrap">
+
 | Character | ASCII Code | Character | ASCII Code |
 | --------- | ---------- | --------- | ---------- |
 | A         | 65         | a         | 97         |
@@ -321,6 +347,8 @@ ASCII uses 7 bits, giving $2^7 = 128$ possible characters:
 | Z         | 90         | z         | 122        |
 | 0         | 48         | 9         | 57         |
 | Space     | 32         | !         | 33         |
+
+</div>
 
 **Useful pattern:** The ASCII code for 'a' is 97, for 'b' is 98, ..., for 'z' is 122. The code for
 'A' is 65, for 'B' is 66, ..., for 'Z' is 90. The difference between uppercase and lowercase is 32.
@@ -345,7 +373,7 @@ C = 67 = 01000011, a = 97 = 01100001, t = 116 = 01110100.
 ### 3.3 Unicode
 
 Unicode supports multiple languages and special characters. The first 128 characters of Unicode are
-The same as ASCII (backwards compatible).
+the same as ASCII (backwards compatible).
 
 Unicode uses up to 4 bytes per character. Common encodings include UTF-8 (variable length, 1--4
 Bytes) and UTF-16.
@@ -363,11 +391,13 @@ English text is stored efficiently in UTF-8, while still supporting the full ran
 ### 4.1 Bitmap Images
 
 A **bitmap image** is made up of tiny squares called **pixels** (picture elements). Each pixel is
-Assigned a binary value that represents its colour.
+assigned a binary value that represents its colour.
 
 **Image resolution:** The number of pixels in the image (width $\times$ height).
 
 **Colour depth:** The number of bits used to represent each pixel.
+
+<div class="table-wrap">
 
 | Colour Depth      | Number of Colours      |
 | ----------------- | ---------------------- |
@@ -377,19 +407,29 @@ Assigned a binary value that represents its colour.
 | 24 bits (3 bytes) | 16777216 (True Colour) |
 | 32 bits           | Over 4 billion         |
 
+</div>
+
 **Why $2^n$ colours?** With $n$ bits per pixel, there are $2^n$ possible combinations of 0s and 1s.
 Each combination maps to a unique colour. So 24 bits gives $2^{24} = 16,777,216$ possible colours.
 
 ### 4.2 Calculating Image File Size
 
-$$\mathrm{File size (bits) = \mathrm{width \times \mathrm{height \times \mathrm{colour depth$$
+$$
+\mathrm{File size (bits) = \mathrm{width \times \mathrm{height \times \mathrm{colour depth
+$$
 
 **Worked Example.** An image is 1920 $\times$ 1080 pixels with 24-bit colour depth. Calculate the
 File size in megabytes.
 
-$$\mathrm{File size = 1920 \times 1080 \times 24 = 49766400 \mathrm{ bits$$
-$$= \frac{49766400}{8} = 6220800 \mathrm{ bytes$$
-$$= \frac{6220800}{1024 \times 1024} \approx 5.93 \mathrm{ MB$$
+$$
+\mathrm{File size = 1920 \times 1080 \times 24 = 49766400 \mathrm{ bits
+$$
+$$
+= \frac{49766400}{8} = 6220800 \mathrm{ bytes
+$$
+$$
+= \frac{6220800}{1024 \times 1024} \approx 5.93 \mathrm{ MB
+$$
 
 **Worked Example.** An image is 800 $\times$ 600 pixels with 32-bit colour depth.
 
@@ -408,7 +448,7 @@ $\mathrm{Colour depth = \frac{3 \times 1048576 \times 8}{4000000} = \frac{251658
 Bits.
 
 This is not an exact number, which suggests the file may include a header or metadata. Without
-Metadata, a 4-megapixel image at 24-bit colour depth would be: $4000000 \times 24 / 8 = 12000000$
+metadata, a 4-megapixel image at 24-bit colour depth would be: $4000000 \times 24 / 8 = 12000000$
 Bytes $\approx 11.44$ MB.
 
 ### 4.3 The Effect of Resolution and Colour Depth
@@ -447,6 +487,8 @@ Rather than as pixels.
 
 **Bitmap vs Vector comparison:**
 
+<div class="table-wrap">
+
 | Feature        | Bitmap                      | Vector                      |
 | -------------- | --------------------------- | --------------------------- |
 | Representation | Grid of pixels              | Mathematical descriptions   |
@@ -454,6 +496,8 @@ Rather than as pixels.
 | File size      | Depends on resolution       | Depends on complexity       |
 | Best for       | Photographs                 | Logos, icons, diagrams      |
 | Editing        | Pixel-level manipulation    | Edit individual shapes      |
+
+</div>
 
 ## 5. Representing Sound
 
@@ -469,10 +513,12 @@ This process is called **analogue to digital conversion (ADC)**.
 
 **Intuition.** Imagine drawing a smooth curve on graph paper by only plotting points at regular
 Intervals along the x-axis. The more points you plot (higher sample rate) and the more precisely you
-Measure each y-value (higher bit depth), the more accurately your plotted points will match the
-Original curve.
+measure each y-value (higher bit depth), the more accurately your plotted points will match the
+original curve.
 
 ### 5.2 Key Terms
+
+<div class="table-wrap">
 
 | Term                          | Definition                                               |
 | ----------------------------- | -------------------------------------------------------- |
@@ -480,19 +526,29 @@ Original curve.
 | Sample resolution (bit depth) | Number of bits per sample                                |
 | Bit rate                      | Sample rate $\times$ sample resolution (bits per second) |
 
+</div>
+
 ### 5.3 Calculating Sound File Size
 
-$$\mathrm{File size (bits) = \mathrm{sample rate \times \mathrm{sample resolution \times \mathrm{duration (seconds) \times \mathrm{channels$$
+$$
+\mathrm{File size (bits) = \mathrm{sample rate \times \mathrm{sample resolution \times \mathrm{duration (seconds) \times \mathrm{channels
+$$
 
 **Worked Example.** A 3-minute audio clip is recorded at 44100 Hz with 16-bit resolution (mono).
 Calculate the file size.
 
-$$\mathrm{File size = 44100 \times 16 \times 180 = 127008000 \mathrm{ bits$$
-$$= \frac{127008000}{8} = 15876000 \mathrm{ bytes \approx 15.14 \mathrm{ MB$$
+$$
+\mathrm{File size = 44100 \times 16 \times 180 = 127008000 \mathrm{ bits
+$$
+$$
+= \frac{127008000}{8} = 15876000 \mathrm{ bytes \approx 15.14 \mathrm{ MB
+$$
 
 **Worked Example.** A 2-minute stereo audio clip at 48000 Hz with 24-bit resolution.
 
-$$\mathrm{File size = 48000 \times 24 \times 120 \times 2 = 276480000 \mathrm{ bits \approx 32.94 \mathrm{ MB$$
+$$
+\mathrm{File size = 48000 \times 24 \times 120 \times 2 = 276480000 \mathrm{ bits \approx 32.94 \mathrm{ MB
+$$
 
 **Worked Example (Higher Tier).** A 5-minute mono recording at 22050 Hz has a file size of 12.5 MB.
 What is the bit depth?
@@ -518,14 +574,14 @@ Highest frequency in the sound. Human hearing ranges up to about 20,000 Hz, so a
 44,100 Hz (just above $2 \times 20000$) is sufficient for CD quality.
 
 **Proof sketch of the Nyquist theorem.** If a signal has maximum frequency $f_{\max}$ Then the Signal
-completes at most $f_{\max}$ cycles per second. If we sample at rate $f_s \ge 2 f_{\max}$We Take at
+completes at most $f_{\max}$ cycles per second. If we sample at rate $f_s \ge 2 f_{\max}$ We Take at
 least 2 samples per cycle. Two samples per cycle are sufficient to uniquely determine the Amplitude
-and phase of a sinusoidal component. If $f_s \lt 2 f_{\max}$Different frequencies Produce the same
+and phase of a sinusoidal component. If $f_s \lt 2 f_{\max}$ Different frequencies Produce the same
 sample values (aliasing), making reconstruction ambiguous. $\blacksquare$
 
 **Aliasing in practice.** If a 30,000 Hz tone is sampled at 44,100 Hz, the reconstructed frequency
 Is $|44100 - 30000| = 14100$ Hz, which is completely wrong. Anti-aliasing filters remove frequencies
-Above the Nyquist limit before sampling.
+above the Nyquist limit before sampling.
 
 ## 6. Data Compression
 
@@ -537,7 +593,7 @@ Without compression, a 2-hour HD film could require hundreds of gigabytes.
 ### 6.2 Lossy Compression
 
 Lossy compression permanently removes some data to reduce file size. The original file cannot be
-Perfectly reconstructed.
+perfectly reconstructed.
 
 **Examples:** JPEG (images), MP3 (audio), MP4 (video)
 
@@ -558,12 +614,16 @@ High-frequency components that are less perceptible. This is why heavily compres
 
 **Compression ratio comparison:**
 
+<div class="table-wrap">
+
 | Format | Type     | Typical Compression Ratio | Quality      |
 | ------ | -------- | ------------------------- | ------------ |
 | PNG    | Lossless | 2:1 to 3:1                | Perfect      |
 | JPEG   | Lossy    | 10:1 to 20:1              | Good to poor |
 | FLAC   | Lossless | 2:1                       | Perfect      |
 | MP3    | Lossy    | 10:1 to 12:1              | Good         |
+
+</div>
 
 ### 6.3 Lossless Compression
 
@@ -619,6 +679,8 @@ Characters get shorter codes, and no code is a prefix of another (prefix-free pr
 
 **Example.** For the string "BCCABBDDAECCBBAEDDCC":
 
+<div class="table-wrap">
+
 | Character | Frequency | Huffman Code |
 | --------- | --------- | ------------ |
 | B         | 5         | 00           |
@@ -627,12 +689,14 @@ Characters get shorter codes, and no code is a prefix of another (prefix-free pr
 | A         | 3         | 110          |
 | E         | 2         | 111          |
 
+</div>
+
 The most frequent character (C, 6 occurrences) gets the shortest code (01). The least frequent (E, 2
 Occurrences) gets the longest code (111).
 
 **Why prefix-free?** If the code for A were "1" and the code for B were "10", then "10" could be
 Decoded as either B or A followed by the start of another character. Prefix-free codes eliminate
-This ambiguity, making decoding unambiguous.
+this ambiguity, making decoding unambiguous.
 
 **Worked Example.** Calculate the total number of bits to encode "BCCABBDDAECCBBAEDDCC" using the
 Huffman codes above.
@@ -654,7 +718,7 @@ Lowest-frequency nodes:
 5. Combine DEA(9) and BC(11) to form the root
 
 The left branch gets 0 and the right branch gets 1 at each merge. This gives the codes shown in the
-Table above.
+table above.
 
 ## 7. Additional Worked Examples (Higher Tier)
 
@@ -662,7 +726,11 @@ Table above.
 
 For an $n$-bit two's complement number, the range is:
 
-$$-2^{n-1} \mathrm{ to  2^{n-1} - 1$$
+$$
+-2^{n-1} \mathrm{ to  2^{n-1} - 1
+$$
+
+<div class="table-wrap">
 
 | Bits | Range                     |
 | ---- | ------------------------- |
@@ -670,6 +738,8 @@ $$-2^{n-1} \mathrm{ to  2^{n-1} - 1$$
 | 8    | -128 to 127               |
 | 16   | -32768 to 32767           |
 | 32   | -2147483648 to 2147483647 |
+
+</div>
 
 **Why this asymmetry?** There is one more negative number than positive number because zero is
 Represented as all zeros (positive). The pattern $100\ldots0$ (MSB = 1, rest = 0) represents
@@ -712,7 +782,7 @@ $6 = 0110$, $3 = 0011$.
 - **Forgetting to pad binary numbers** when converting to hexadecimal. Always group from the right;
   add leading zeros if necessary.
 - **Confusing the MSB in two's complement** with a simple sign bit. In two's complement, the MSB
-  carries a negative weight of $-2^{n-1}$Not just a sign.
+  carries a negative weight of $-2^{n-1}$ Not just a sign.
 
 ## Practice Questions
 
@@ -777,17 +847,6 @@ Multi-step problems in Data Representation often combine two or more concepts. B
 down: identify what you need to find, recall the relevant formula or principle, substitute values,
 and state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[1_Fundamentals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of data representation, including underlying theory, practical
@@ -800,9 +859,6 @@ implementation, and key applications.
 - input/output systems
 - operating systems and scheduling
 - interrupts and polling
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 

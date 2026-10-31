@@ -79,7 +79,9 @@ With $\text{NaOH}$ (strong nucleophile) in ethanol, SN2 is favoured. With water 
 
 **Solution:**
 
-$$\text{CH}_3\text{CHBrCH}_2\text{CH}_3 + \text{KOH (alc)} \rightarrow \text{CH}_3\text{CH}=\text{CHCH}_3 + \text{CH}_3\text{CH}_2\text{CH}=\text{CH}_2$$
+$$
+\text{CH}_3\text{CHBrCH}_2\text{CH}_3 + \text{KOH (alc)} \rightarrow \text{CH}_3\text{CH}=\text{CHCH}_3 + \text{CH}_3\text{CH}_2\text{CH}=\text{CH}_2
+$$
 
 By Saytzeff's rule, the more substituted alkene (2-butene) is the major product:
 
@@ -97,13 +99,19 @@ The more substituted alkene is more stable (hyperconjugation).
 **Solution:**
 
 Step 1: Grignard reagent formation:
-$$\text{CH}_3\text{CH}_2\text{Br} + \text{Mg} \xrightarrow{\text{dry ether}} \text{CH}_3\text{CH}_2\text{MgBr}$$
+$$
+\text{CH}_3\text{CH}_2\text{Br} + \text{Mg} \xrightarrow{\text{dry ether}} \text{CH}_3\text{CH}_2\text{MgBr}
+$$
 
 Step 2: Reaction with formaldehyde:
-$$\text{CH}_3\text{CH}_2\text{MgBr} + \text{HCHO} \rightarrow \text{CH}_3\text{CH}_2\text{CH}_2\text{OMgBr}$$
+$$
+\text{CH}_3\text{CH}_2\text{MgBr} + \text{HCHO} \rightarrow \text{CH}_3\text{CH}_2\text{CH}_2\text{OMgBr}
+$$
 
 Step 3: Hydrolysis:
-$$\text{CH}_3\text{CH}_2\text{CH}_2\text{OMgBr} + \text{H}_2\text{O} \rightarrow \text{CH}_3\text{CH}_2\text{CH}_2\text{OH} + \text{Mg(OH)Br}$$
+$$
+\text{CH}_3\text{CH}_2\text{CH}_2\text{OMgBr} + \text{H}_2\text{O} \rightarrow \text{CH}_3\text{CH}_2\text{CH}_2\text{OH} + \text{Mg(OH)Br}
+$$
 
 Product: 1-propanol (primary alcohol)
 

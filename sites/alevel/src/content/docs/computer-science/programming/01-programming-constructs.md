@@ -25,9 +25,11 @@ categories:
 ### Variables
 
 A **variable** is a named storage location in memory that holds a value which can change during
-Program execution.
+program execution.
 
 ### Primitive Data Types
+
+<div class="table-wrap">
 
 | Type      | Typical Size | Range                     | Python equivalent |
 | --------- | ------------ | ------------------------- | ----------------- |
@@ -35,6 +37,8 @@ Program execution.
 | Float     | 8 bytes      | IEEE 754 double precision | `float`           |
 | Character | 1 byte       | ASCII/Unicode             | `str` (length 1)  |
 | Boolean   | 1 byte       | True / False              | `bool`            |
+
+</div>
 
 ### Constants
 
@@ -77,7 +81,7 @@ else:
 ### Nested Selection
 
 Selection statements can be nested, but excessive nesting reduces readability. Use guard clauses or
-Early returns where possible.
+early returns where possible.
 
 ```python
 def classify_grade(score):
@@ -110,7 +114,7 @@ for i in range(n):
     print(i)
 ```
 
-**Invariant for `for i in range(n)`:** At the start of iteration $i$The loop body has executed
+**Invariant for `for i in range(n)`:** At the start of iteration $i$ The loop body has executed
 Exactly $i$ times.
 
 ### Indefinite Iteration (While Loop)
@@ -161,7 +165,7 @@ while True:
 
 :::note
 And `WHILE ... ENDWHILE`. **CIE (9618)** uses its own pseudocode format; requires procedure and
-Function definitions with parameters. **OCR (A)** uses OCR-specific pseudocode format; requires
+function definitions with parameters. **OCR (A)** uses OCR-specific pseudocode format; requires
 Local and global variable scope understanding. **Edexcel** uses pseudocode similar to Python-style;
 Requires subroutines with parameters.
 :::
@@ -196,7 +200,9 @@ _Base case._ $n = 0$: returns 1 = $0!$. ✓
 
 _Inductive step._ Assume `factorial(k) = k!` for all $k \leq n$. Then:
 
-$$\mathrm{factorial}(n+1) = (n+1) \times \mathrm{factorial}(n) = (n+1) \times n! = (n+1)!$$
+$$
+\mathrm{factorial}(n+1) = (n+1) \times \mathrm{factorial}(n) = (n+1) \times n! = (n+1)!
+$$
 
 ✓ $\square$
 
@@ -207,7 +213,7 @@ $$\mathrm{factorial}(n+1) = (n+1) \times \mathrm{factorial}(n) = (n+1) \times n!
 **Proof.** Define a **variant function** $V(n) = n$. Each recursive call decreases $V$ by 1:
 $V(n-1) = n - 1 \lt n = V(n)$. $V$ is a non-negative integer that strictly decreases. By the
 Well-ordering principle, $V$ must eventually reach a base case ($V = 0$ or $V = 1$). Therefore, the
-Recursion terminates. $\square$
+recursion terminates. $\square$
 
 ### Example: Fibonacci
 
@@ -221,7 +227,7 @@ def fib(n):
 **Complexity:** $T(n) = T(n-1) + T(n-2) + O(1)$. This gives $T(n) = \Theta(\phi^n)$ where
 $\phi = \frac{1+\sqrt{5}}{2} \approx 1.618$ (the golden ratio).
 
-**Proof sketch.** The recurrence has characteristic equation $r^2 = r + 1$Giving roots $\phi$ and
+**Proof sketch.** The recurrence has characteristic equation $r^2 = r + 1$ Giving roots $\phi$ and
 $\psi = \frac{1-\sqrt{5}}{2}$. The solution is $T(n) = A\phi^n + B\psi^n$. Since
 $|\psi| \lt 1$ $T(n) = \Theta(\phi^n)$. $\square$
 
@@ -260,11 +266,15 @@ Minimum moves = $2^n - 1$. $\square$
 
 ### Procedures vs Functions
 
+<div class="table-wrap">
+
 | Feature      | Procedure                       | Function        |
 | ------------ | ------------------------------- | --------------- |
 | Return value | None                            | Returns a value |
 | Purpose      | Perform an action (side effect) | Compute a value |
 | Called as    | Statement                       | Expression      |
+
+</div>
 
 ```python
 def print_report(data):    # Procedure
@@ -311,12 +321,12 @@ def sum_digits(n):
 
 **Correctness.** By induction on the number of digits $d$.
 
-Base case ($d = 1$): $n \lt 10$Returns $n$. Sum of digits = $n$. ✓
+Base case ($d = 1$): $n \lt 10$ Returns $n$. Sum of digits = $n$. ✓
 
 Inductive step: Assume correct for all numbers with $\leq d$ digits. For a $(d+1)$-digit number $n$:
 $n \bmod 10$ gives the last digit, and $n // 10$ gives the remaining $d$ digits. By the inductive
 Hypothesis, `sum_digits(n // 10)` correctly sums those $d$ digits. Adding the last digit gives the
-Total sum. ✓
+total sum. ✓
 
 **Termination:** Variant function $V(n) = n$. Each call: $V(n // 10) = \lfloor n/10 \rfloor \lt n$
 For $n \geq 10$. ✓
@@ -371,6 +381,8 @@ Over the other?
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Aspect      | Iteration               | Recursion                          |
 | ----------- | ----------------------- | ---------------------------------- |
 | Mechanism   | Loop constructs         | Function calls itself              |
@@ -379,8 +391,10 @@ Over the other?
 | Readability | Better for simple loops | Better for tree/divide-and-conquer |
 | Risk        | Infinite loop           | Stack overflow                     |
 
+</div>
+
 Prefer iteration when: the problem has a natural loop structure, memory is constrained, or
-Performance is critical.
+performance is critical.
 
 Prefer recursion when: the problem has a natural recursive structure (trees, divide-and-conquer),
 The depth is bounded (e.g., $\log n$), or readability is paramount.
@@ -404,7 +418,7 @@ def is_palindrome(s):
 
 **Termination.** Variant function: $V(s) = \mathrm{len}(s)$. Each recursive call:
 $V(s[1:-1]) = \mathrm{len}(s) - 2 \lt V(s)$ for $\mathrm{len}(s) \geq 2$. Since $V$ is a
-Non-negative integer that strictly decreases, the function must reach a base case. ✓
+non-negative integer that strictly decreases, the function must reach a base case. ✓
 
 </details>
 
@@ -423,8 +437,8 @@ print(x)
 
 Output: `10`
 
-Explanation: Python passes the integer `10` by object reference. Inside `modify``x = 20` rebinds The
-local parameter `x` to a new integer object `20`. This does not affect the global `x`Which Remains
+Explanation: Python passes the integer `10` by object reference. Inside `modify`, `x = 20` rebinds The
+local parameter `x` to a new integer object `20`. This does not affect the global `x`. Which Remains
 `10`. Integers are immutable in Python, so there is no way to modify the original value Through the
 parameter.
 
@@ -518,11 +532,15 @@ for i in range(1, 4):
 
 **Trace:**
 
+<div class="table-wrap">
+
 | Iteration | `i` | `j` range                   | Output             |
 | --------- | --- | --------------------------- | ------------------ |
 | Outer 1   | 1   | `range(1, 2)`j = 1       | `*` then newline   |
 | Outer 2   | 2   | `range(1, 3)`j = 1, 2    | `**` then newline  |
 | Outer 3   | 3   | `range(1, 4)`j = 1, 2, 3 | `***` then newline |
+
+</div>
 
 **Output:**
 
@@ -535,7 +553,7 @@ for i in range(1, 4):
 ### Worked Example: Input Validation Loop
 
 Write a function that repeatedly asks the user for an integer between 1 and 100 (inclusive) until
-Valid input is provided.
+valid input is provided.
 
 ```python
 def get_valid_score():
@@ -602,12 +620,16 @@ factorial(4)
 
 Stack at deepest point (4 frames):
 
+<div class="table-wrap">
+
 | Frame | `n` | Waiting for                      |
 | ----- | --- | -------------------------------- |
 | 1     | 4   | `factorial(3)`                   |
 | 2     | 3   | `factorial(2)`                   |
 | 3     | 2   | `factorial(1)`                   |
 | 4     | 1   | (base case, returns immediately) |
+
+</div>
 
 ### Trace: Fibonacci of 5
 
@@ -653,11 +675,15 @@ Recursive Fibonacci is $O(\phi^n)$, it recomputes the same subproblems repeatedl
 
 Off-by-one errors occur when a loop iterates one time too many or one time too few.
 
+<div class="table-wrap">
+
 | Error               | Code                                       | Fix                                                   |
 | ------------------- | ------------------------------------------ | ----------------------------------------------------- |
 | Fencepost           | `for i in range(1, n)`iterates 1 to n-1 | Use `range(1, n + 1)` if you need 1 to n              |
 | Off-by-one in while | `while i &lt; n` vs `while i &lt;= n`      | Decide whether the boundary is inclusive or exclusive |
 | Array indexing      | `array[len(array)]`IndexError           | Valid indices are 0 to `len(array) - 1`               |
+
+</div>
 
 ### Infinite Loops
 
@@ -748,6 +774,8 @@ print(result)
 
 Trace each `(i, j)` pair:
 
+<div class="table-wrap">
+
 | `i` | `j` | Condition | `result` change | `result` |
 | --- | --- | --------- | --------------- | -------- |
 | 0   | 0   | i == j    | +1              | 1        |
@@ -759,6 +787,8 @@ Trace each `(i, j)` pair:
 | 2   | 0   | i &gt; j  | +2              | 15       |
 | 2   | 1   | i &gt; j  | +2              | 17       |
 | 2   | 2   | i == j    | +1              | 18       |
+
+</div>
 
 Output: `18`
 
@@ -795,7 +825,7 @@ Each recursive call either:
  `mid \lt= high`$V' \leq V - 1$.
 
 In both recursive cases, $V$ strictly decreases. Since $V$ is a non-negative integer, the function
-Must eventually reach the base case. ✓
+must eventually reach the base case. ✓
 
 </details>
 
@@ -914,7 +944,7 @@ print(append_to(2))
 
 **Explanation:** In Python, default arguments are evaluated **once** when the function is defined,
 Not each time the function is called. The list `[]` is created at definition time and shared across
-All calls that use the default.
+all calls that use the default.
 
 First call: `target` is the default list `[]`. After appending 1, it becomes `[1]`.
 
@@ -937,16 +967,6 @@ Now each call that omits `target` gets a fresh empty list.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
-```mermaid
-flowchart TD
-    A[01 Programming Constructs] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

@@ -89,10 +89,10 @@ areas from inside out: **content** (text, images), **padding** (space between co
 elements. Increasing padding makes the element larger; increasing margin pushes other elements away.
 
 (d) **Block-level elements** occupy the full width available and start on a new line. Examples:
-`<p>``<div>``<h1>`--`<h6>``<ul>``<section>`.
+`<p>`, `<div>`, `<h1>`--`<h6>`, `<ul>`, `<section>`.
 
 **Inline elements** only occupy as much width as necessary and do not start a new line. Examples:
-`<span>``<a>``<strong>``<em>``<img>`.
+`<span>`, `<a>`, `<strong>`, `<em>`, `<img>`.
 
 ### UT-2: Multimedia File Formats
 
@@ -104,13 +104,17 @@ examples. (d) Calculate the approximate file size of a 10-second audio clip at C
 
 **Solution:**
 
+<div class="table-wrap">
+
 | (a)          | Feature               | JPEG                                   | PNG                                    | GIF |
 | ------------ | --------------------- | -------------------------------------- | -------------------------------------- | --- |
-| Compression  | Lossy                 | Lossless                               | Lossless (limited)                     |
-| Colour depth | 16.7 million (24-bit) | Up to 16.7 million (24-bit) or 48-bit  | 256 colours (8-bit)                    |
-| Transparency | No                    | Yes (alpha channel)                    | Yes (1-bit, on/off)                    |
-| Animation    | No                    | No                                     | Yes (simple frame animation)           |
-| Best for     | Photographs           | Graphics with text, logos, screenshots | Simple animations, low-colour graphics |
+|  | Compression  | Lossy                 | Lossless                               | Lossless (limited)                     |
+|  | Colour depth | 16.7 million (24-bit) | Up to 16.7 million (24-bit) or 48-bit  | 256 colours (8-bit)                    |
+|  | Transparency | No                    | Yes (alpha channel)                    | Yes (1-bit, on/off)                    |
+|  | Animation    | No                    | No                                     | Yes (simple frame animation)           |
+|  | Best for     | Photographs           | Graphics with text, logos, screenshots | Simple animations, low-colour graphics |
+
+</div>
 
 (b) **PNG** is most appropriate because: (1) Logos have flat areas of colour and sharp edges -- PNG
 handles these perfectly with lossless compression. (2) Logos often need transparency (to be placed
@@ -184,16 +188,6 @@ impaired users can read content.
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Diag Web Multimedia] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A digital canvas:** Web development is like building with digital LEGO, HTML provides the structure, CSS adds the style, and JavaScript brings it to life. The box model is the invisible frame around every element.
@@ -254,7 +248,7 @@ $5000 \times 2 \text{ MB} = 10,000 \text{ MB} \approx 10$ GB. For 3 years: $30$ 
 
 **Question:** A school website needs to include: a welcome video (2 minutes, 720p), a campus photo
 gallery (50 photos, 4000 $\times$ 3000 pixels each), and background music on the homepage. (a)
-Calculate the total uncompressed size of all media assets. (b) Recommend appropriate compressed
+calculate the total uncompressed size of all media assets. (b) Recommend appropriate compressed
 formats and estimate the compressed sizes. (c) Explain how lazy loading improves page load
 performance for the photo gallery. (d) Describe how adaptive bitrate streaming (e.g., HLS) works for
 the video.

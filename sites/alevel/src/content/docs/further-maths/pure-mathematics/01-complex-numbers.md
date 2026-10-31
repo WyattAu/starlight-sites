@@ -20,24 +20,16 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[01 Complex Numbers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Complex Numbers
 
 Complex numbers extend the real number system by introducing a solution to the equation
 $x^2 + 1 = 0$. This seemingly abstract idea turns out to be indispensable in pure mathematics,
 Engineering, and physics, providing powerful tools for analysing rotations, oscillations, and
-Polynomial equations.
+polynomial equations.
 
 ### Board Coverage
+
+<div class="table-wrap">
 
 | Board   | Paper   | Notes                                                       |
 | ------- | ------- | ----------------------------------------------------------- |
@@ -45,6 +37,8 @@ Polynomial equations.
 | Edexcel | FP1/FP2 | De Moivre, roots of unity, loci in FP2                      |
 | OCR (A) | Paper 1 | De Moivre, exponential form, roots of unity                 |
 | CIE     | P1      | Loci required; exponential form and roots of unity in depth |
+
+</div>
 
 <hr />
 
@@ -70,10 +64,12 @@ $\operatorname{Im}(z)$. The complex number $z = a + bi$ is plotted as the point 
 
 - The _modulus_ $|z|$ is defined as $|z| = \sqrt{a^2 + b^2}$.
 - The _argument_ $\arg(z)$ is the angle $\theta$ (measured anticlockwise from the positive real
-  axis) such that $\tan\theta = \dfrac{b}{a}$With $-\pi < \theta \leq \pi$ (the _principal
+  axis) such that $\tan\theta = \dfrac{b}{a}$ With $-\pi < \theta \leq \pi$ (the _principal
   argument_).
 
-$$\boxed{z = a + bi = |z|(\cos\theta + i\sin\theta) = r(\cos\theta + i\sin\theta)}$$
+$$
+\boxed{z = a + bi = |z|(\cos\theta + i\sin\theta) = r(\cos\theta + i\sin\theta)}
+$$
 
 Where $r = |z|$ and $\theta = \arg(z)$.
 
@@ -97,11 +93,15 @@ Where $\overline{z_2} = c - di$ is the _complex conjugate_ of $z_2$.
 
 Find the modulus, argument, and polar form of $z = 1 - \sqrt{3}\,i$.
 
-$$|z| = \sqrt{1^2 + (-\sqrt{3})^2} = \sqrt{1 + 3} = 2$$
+$$
+|z| = \sqrt{1^2 + (-\sqrt{3})^2} = \sqrt{1 + 3} = 2
+$$
 
 Since $(a, b) = (1, -\sqrt{3})$ lies in the fourth quadrant:
 
-$$\arg(z) = \arctan\!\left(\frac{-\sqrt{3}}{1}\right) = -\frac{\pi}{3}$$
+$$
+\arg(z) = \arctan\!\left(\frac{-\sqrt{3}}{1}\right) = -\frac{\pi}{3}
+$$
 
 Polar form:
 $z = 2\!\left(\cos\!\left(-\dfrac{\pi}{3}\right) + i\sin\!\left(-\dfrac{\pi}{3}\right)\right)$.
@@ -110,11 +110,13 @@ $z = 2\!\left(\cos\!\left(-\dfrac{\pi}{3}\right) + i\sin\!\left(-\dfrac{\pi}{3}\
 
 <hr />
 
-## 2. De Moivre"s Theorem
+## 2. De Moivre's Theorem
 
 **Theorem (De Moivre).** For any integer $n$ and any angle $\theta$:
 
-$$\boxed{\left(\cos\theta + i\sin\theta\right)^n = \cos(n\theta) + i\sin(n\theta)}$$
+$$
+\boxed{\left(\cos\theta + i\sin\theta\right)^n = \cos(n\theta) + i\sin(n\theta)}
+$$
 
 ### Proof of De Moivre's Theorem (by induction for $n \geq 0$)
 
@@ -136,7 +138,7 @@ Using the compound angle identities. ✓
 
 For negative integers, note that
 $\dfrac{1}{\cos\theta + i\sin\theta} = \cos\theta - i\sin\theta = \cos(-\theta) + i\sin(-\theta)$
-So the result follows. $\square$
+so the result follows. $\square$
 
 **Intuition.** De Moivre's theorem says that raising a complex number on the unit circle to the
 $n$-th power multiplies its angle by $n$. This is because multiplication of complex numbers Adds
@@ -160,15 +162,21 @@ $$
 
 Equating real and imaginary parts:
 
-$$\boxed{\cos 3\theta = 4\cos^3\theta - 3\cos\theta}$$
+$$
+\boxed{\cos 3\theta = 4\cos^3\theta - 3\cos\theta}
+$$
 
-$$\boxed{\sin 3\theta = 3\sin\theta - 4\sin^3\theta}$$
+$$
+\boxed{\sin 3\theta = 3\sin\theta - 4\sin^3\theta}
+$$
 
 ### 2.2 Powers of Complex Numbers
 
 To compute $z^n$ where $z = r(\cos\theta + i\sin\theta)$:
 
-$$z^n = r^n\left(\cos(n\theta) + i\sin(n\theta)\right)$$
+$$
+z^n = r^n\left(\cos(n\theta) + i\sin(n\theta)\right)
+$$
 
 <details>
 <summary>Worked Example: Computing a high power</summary>
@@ -197,31 +205,39 @@ $$
 $n \in \mathbb{Z}^+$.
 
 By De Moivre's theorem, writing $1 = \cos 0 + i\sin 0 = \cos(2k\pi) + i\sin(2k\pi)$ for any integer
-$k$The $n$ distinct solutions are:
+$k$ The $n$ distinct solutions are:
 
-$$\boxed{z_k = \cos\!\left(\frac{2k\pi}{n}\right) + i\sin\!\left(\frac{2k\pi}{n}\right), \quad k = 0, 1, 2, \ldots, n-1}$$
+$$
+\boxed{z_k = \cos\!\left(\frac{2k\pi}{n}\right) + i\sin\!\left(\frac{2k\pi}{n}\right), \quad k = 0, 1, 2, \ldots, n-1}
+$$
 
 ### 3.1 Geometric Interpretation
 
 The $n$-th roots of unity lie on the unit circle $|z| = 1$ in the Argand diagram, equally spaced at
-Angles of $\dfrac{2\pi}{n}$ radians apart. They form the vertices of a regular $n$-gon
+angles of $\dfrac{2\pi}{n}$ radians apart. They form the vertices of a regular $n$-gon
 Inscribed in the unit circle, with one vertex at $z = 1$.
 
 ### 3.2 Sum and Product of Roots
 
-Since the roots satisfy $z^n - 1 = 0$The sum of all $n$-th roots of unity is zero:
+Since the roots satisfy $z^n - 1 = 0$ The sum of all $n$-th roots of unity is zero:
 
-$$\sum_{k=0}^{n-1} z_k = 0$$
+$$
+\sum_{k=0}^{n-1} z_k = 0
+$$
 
 This follows from the coefficient of $z^{n-1}$ in $z^n - 1 = 0$ being zero (by Vieta's formulas).
 Equivalently, the roots form a geometric series with ratio $\omega = e^{2\pi i/n}$ and first term 1,
 Giving:
 
-$$\sum_{k=0}^{n-1} \omega^k = \frac{1 - \omega^n}{1 - \omega} = \frac{1 - 1}{1 - \omega} = 0$$
+$$
+\sum_{k=0}^{n-1} \omega^k = \frac{1 - \omega^n}{1 - \omega} = \frac{1 - 1}{1 - \omega} = 0
+$$
 
 The product of all $n$-th roots of unity is:
 
-$$\prod_{k=0}^{n-1} z_k = (-1)^{n-1}$$
+$$
+\prod_{k=0}^{n-1} z_k = (-1)^{n-1}
+$$
 
 <details>
 <summary>Worked Example: Cube roots of unity</summary>
@@ -229,7 +245,7 @@ $$\prod_{k=0}^{n-1} z_k = (-1)^{n-1}$$
 Find all cube roots of unity and verify that their sum is zero.
 
 $z^3 = 1 \implies z_k = \cos\!\left(\dfrac{2k\pi}{3}\right) + i\sin\!\left(\dfrac{2k\pi}{3}\right)$
-For $k = 0, 1, 2$.
+for $k = 0, 1, 2$.
 
 $$
 \begin{aligned}
@@ -255,7 +271,9 @@ $1 \cdot \left(-\dfrac{1}{2} + \dfrac{\sqrt{3}}{2}\,i\right)\left(-\dfrac{1}{2} 
 
 **Definition.** The _exponential form_ of a complex number $z = r(\cos\theta + i\sin\theta)$ is:
 
-$$\boxed{z = re^{i\theta}}$$
+$$
+\boxed{z = re^{i\theta}}
+$$
 
 Where $e^{i\theta} \equiv \cos\theta + i\sin\theta$ by Euler's formula.
 
@@ -263,11 +281,17 @@ Where $e^{i\theta} \equiv \cos\theta + i\sin\theta$ by Euler's formula.
 
 The Maclaurin series for $e^x$, $\cos x$ And $\sin x$ are:
 
-$$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \cdots$$
+$$
+e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \cdots
+$$
 
-$$\cos x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots$$
+$$
+\cos x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots
+$$
 
-$$\sin x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots$$
+$$
+\sin x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots
+$$
 
 Substituting $x = i\theta$ into the series for $e^x$:
 
@@ -281,7 +305,9 @@ $$
 
 Using $i^2 = -1$$i^3 = -i$$i^4 = 1$$i^5 = i$ And so on. Grouping real and imaginary parts:
 
-$$e^{i\theta} = \underbrace{\left(1 - \frac{\theta^2}{2!} + \frac{\theta^4}{4!} - \cdots\right)}_{=\,\cos\theta} + i\underbrace{\left(\theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots\right)}_{=\,\sin\theta}$$
+$$
+e^{i\theta} = \underbrace{\left(1 - \frac{\theta^2}{2!} + \frac{\theta^4}{4!} - \cdots\right)}_{=\,\cos\theta} + i\underbrace{\left(\theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots\right)}_{=\,\sin\theta}
+$$
 
 Therefore $e^{i\theta} = \cos\theta + i\sin\theta$. $\square$
 
@@ -289,7 +315,9 @@ Therefore $e^{i\theta} = \cos\theta + i\sin\theta$. $\square$
 
 Setting $\theta = \pi$:
 
-$$\boxed{e^{i\pi} + 1 = 0}$$
+$$
+\boxed{e^{i\pi} + 1 = 0}
+$$
 
 This celebrated identity connects five fundamental constants: $e$$i$$\pi$$1$ And $0$.
 
@@ -316,10 +344,12 @@ $$
 
 ### 5.1 Circles: $|z - a| = r$
 
-**Definition.** The locus $|z - a| = r$Where $a \in \mathbb{C}$ and $r \in \mathbb{R}^+$Is a Circle
+**Definition.** The locus $|z - a| = r$ Where $a \in \mathbb{C}$ and $r \in \mathbb{R}^+$ Is a Circle
 with centre $a$ and radius $r$ in the Argand diagram.
 
-$$|z - a| = r \iff \sqrt{(x - \alpha)^2 + (y - \beta)^2} = r \iff (x - \alpha)^2 + (y - \beta)^2 = r^2$$
+$$
+|z - a| = r \iff \sqrt{(x - \alpha)^2 + (y - \beta)^2} = r \iff (x - \alpha)^2 + (y - \beta)^2 = r^2
+$$
 
 Where $a = \alpha + \beta i$ and $z = x + yi$.
 
@@ -327,7 +357,7 @@ The region $|z - a| < r$ is the _interior_ of the circle, and $|z - a| > r$ is t
 
 ### 5.2 Perpendicular Bisectors: $|z - a| = |z - b|$
 
-This locus represents all points equidistant from $a$ and $b$Which is the perpendicular bisector Of
+This locus represents all points equidistant from $a$ and $b$ Which is the perpendicular bisector Of
 the line segment joining $a$ and $b$.
 
 ### 5.3 Half-Lines: $\arg(z - a) = \alpha$
@@ -349,7 +379,7 @@ Regions, be careful about whether boundaries are included (solid line) or exclud
 
 :::tip
 Common exam technique: identify the boundary (circle, line, half-line), then determine which side of
-The boundary is included by testing a point.
+the boundary is included by testing a point.
 :::
 
 <details>
@@ -357,25 +387,25 @@ The boundary is included by testing a point.
 
 A complex number $z$ satisfies $|z - 2i| \leq 3$ and
 $0 \leq \arg(z) \leq \dfrac{\pi}{2}$. Find the greatest possible value of $|z|$ and the
-Least possible value of $|z|$.
+least possible value of $|z|$.
 
-The first condition: $|z - 2i| \leq 3$ is the closed disc of radius 3 centred at $2i$I.e. At
+The first condition: $|z - 2i| \leq 3$ is the closed disc of radius 3 centred at $2i$ I.e. At
 $(0, 2)$.
 
 The second condition: $0 \leq \arg(z) \leq \dfrac{\pi}{2}$ restricts $z$ to the first
-Quadrant (including axes).
+quadrant (including axes).
 
 The disc centre $(0, 2)$ with radius 3 extends from $y = -1$ to $y = 5$ and from $x = -3$ to
 $x = 3$.
 
 **Greatest $|z|$:** The point in the region farthest from the origin is where the boundary of the
 Disc intersects the first quadrant boundary furthest from the origin. The disc intersects the
-Positive $y$-axis at $(0, 5)$Giving $|z| = 5$.
+positive $y$-axis at $(0, 5)$ Giving $|z| = 5$.
 
 **Least $|z|$:** We need the closest point in the region to the origin. The disc boundary is
 $(x^2 + (y-2)^2) = 9$. The closest point on this circle to the origin lies along the line from the
-Origin through the centre $(0,2)$Which is the $y$-axis. The point $(0, -1)$ is outside the first
-Quadrant. Within the first quadrant, the closest point is where the circle meets the $x$-axis:
+Origin through the centre $(0,2)$ Which is the $y$-axis. The point $(0, -1)$ is outside the first
+quadrant. Within the first quadrant, the closest point is where the circle meets the $x$-axis:
 Setting $y = 0$, $x^2 + 4 = 9 \implies x = \sqrt{5}$. So $|z| = \sqrt{5}$.
 
 </details>
@@ -387,7 +417,7 @@ Setting $y = 0$, $x^2 + 4 = 9 \implies x = \sqrt{5}$. So $|z| = \sqrt{5}$.
 ### 6.1 The Mapping $w = f(z)$
 
 A complex transformation is a function $w = f(z)$ that maps points in the $z$-plane (Argand diagram
-For $z$) to points in the $w$-plane (Argand diagram for $w$).
+for $z$) to points in the $w$-plane (Argand diagram for $w$).
 
 ### 6.2 Linear Transformations: $w = az + b$
 
@@ -399,7 +429,7 @@ Writing $a = \lambda e^{i\alpha}$ and $b = \mu e^{i\beta}$:
 2. $\arg(a) = \alpha$ produces a _rotation_ through angle $\alpha$ about the origin.
 3. $b$ produces a _translation_ by the vector representing $b$.
 
-The composition is: enlarge by $|a|$Rotate by $\arg(a)$ Then translate by $b$.
+The composition is: enlarge by $|a|$ Rotate by $\arg(a)$ Then translate by $b$.
 
 ### 6.3 Inversion: $w = \dfrac{1}{z}$
 
@@ -427,15 +457,19 @@ Find the image of the line $\operatorname{Re}(z) = 1$ under the transformation $
 
 Let $z = x + yi$ with $x = 1$ So $z = 1 + yi$ and $y \in \mathbb{R}$.
 
-$$w = \frac{1}{1 + yi} = \frac{1 - yi}{1 + y^2} = \frac{1}{1 + y^2} - \frac{y}{1 + y^2}\,i$$
+$$
+w = \frac{1}{1 + yi} = \frac{1 - yi}{1 + y^2} = \frac{1}{1 + y^2} - \frac{y}{1 + y^2}\,i
+$$
 
 Let $w = u + vi$. Then $u = \dfrac{1}{1 + y^2}$ and $v = \dfrac{-y}{1 + y^2}$.
 
 Note that $v = -uy$ So $y = -\dfrac{v}{u}$ (when $u \neq 0$).
 
-Substituting: $u = \dfrac{1}{1 + v^2/u^2} = \dfrac{u^2}{u^2 + v^2}$Giving $u^2 + v^2 = u$I.e.:
+Substituting: $u = \dfrac{1}{1 + v^2/u^2} = \dfrac{u^2}{u^2 + v^2}$ Giving $u^2 + v^2 = u$ I.e.:
 
-$$u^2 - u + v^2 = 0 \implies \left(u - \frac{1}{2}\right)^2 + v^2 = \frac{1}{4}$$
+$$
+u^2 - u + v^2 = 0 \implies \left(u - \frac{1}{2}\right)^2 + v^2 = \frac{1}{4}
+$$
 
 This is a circle with centre $\left(\dfrac{1}{2}, 0\right)$ and radius $\dfrac{1}{2}$ in the
 $w$-plane.
@@ -450,19 +484,33 @@ Edexcel and OCR cover this topic with less depth. CIE focuses more on loci than 
 
 ## 7. Summary of Key Results
 
-$$\boxed{(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)}$$
+$$
+\boxed{(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)}
+$$
 
-$$\boxed{e^{i\theta} = \cos\theta + i\sin\theta}$$
+$$
+\boxed{e^{i\theta} = \cos\theta + i\sin\theta}
+$$
 
-$$\boxed{e^{i\pi} + 1 = 0}$$
+$$
+\boxed{e^{i\pi} + 1 = 0}
+$$
 
-$$\boxed{z_k = e^{2k\pi i/n} = \cos\!\left(\frac{2k\pi}{n}\right) + i\sin\!\left(\frac{2k\pi}{n}\right), \quad k = 0, 1, \ldots, n-1}$$
+$$
+\boxed{z_k = e^{2k\pi i/n} = \cos\!\left(\frac{2k\pi}{n}\right) + i\sin\!\left(\frac{2k\pi}{n}\right), \quad k = 0, 1, \ldots, n-1}
+$$
 
-$$\boxed{\sum_{k=0}^{n-1} z_k = 0}$$
+$$
+\boxed{\sum_{k=0}^{n-1} z_k = 0}
+$$
 
-$$\boxed{|z - a| = r \iff \mathrm{circle centre } a \mathrm{ radius } r}$$
+$$
+\boxed{|z - a| = r \iff \mathrm{circle centre } a \mathrm{ radius } r}
+$$
 
-$$\boxed{\arg(z - a) = \alpha \iff \mathrm{half-line from } a \mathrm{ at angle } \alpha}$$
+$$
+\boxed{\arg(z - a) = \alpha \iff \mathrm{half-line from } a \mathrm{ at angle } \alpha}
+$$
 
 <hr />
 
@@ -486,7 +534,9 @@ $|z| = \sqrt{3 + 1} = 2$.
 The point $(-\sqrt{3}, 1)$ is in the second quadrant.
 $\arg(z) = \pi - \arctan\!\left(\dfrac{1}{\sqrt{3}}\right) = \pi - \dfrac{\pi}{6} = \dfrac{5\pi}{6}$.
 
-$$z^5 = 2^5\!\left(\cos\frac{25\pi}{6} + i\sin\frac{25\pi}{6}\right) = 32\!\left(\cos\frac{\pi}{6} + i\sin\frac{\pi}{6}\right) = 32\!\left(\frac{\sqrt{3}}{2} + \frac{1}{2}\,i\right) = 16\sqrt{3} + 16i$$
+$$
+z^5 = 2^5\!\left(\cos\frac{25\pi}{6} + i\sin\frac{25\pi}{6}\right) = 32\!\left(\cos\frac{\pi}{6} + i\sin\frac{\pi}{6}\right) = 32\!\left(\frac{\sqrt{3}}{2} + \frac{1}{2}\,i\right) = 16\sqrt{3} + 16i
+$$
 
 </details>
 
@@ -526,7 +576,7 @@ $$
 
 <hr />
 
-**Problem 3.** Find all solutions to $z^4 = 16i$Expressing each in the form $a + bi$.
+**Problem 3.** Find all solutions to $z^4 = 16i$ Expressing each in the form $a + bi$.
 
 <details>
 <summary>Hint</summary>
@@ -540,7 +590,9 @@ Write $16i = 16e^{i\pi/2}$ and use the roots formula.
 
 $16i = 16\!\left(\cos\dfrac{\pi}{2} + i\sin\dfrac{\pi}{2}\right)$.
 
-$$z_k = 2\!\left(\cos\!\left(\frac{\pi/2 + 2k\pi}{4}\right) + i\sin\!\left(\frac{\pi/2 + 2k\pi}{4}\right)\right), \quad k = 0, 1, 2, 3$$
+$$
+z_k = 2\!\left(\cos\!\left(\frac{\pi/2 + 2k\pi}{4}\right) + i\sin\!\left(\frac{\pi/2 + 2k\pi}{4}\right)\right), \quad k = 0, 1, 2, 3
+$$
 
 $$
 \begin{aligned}
@@ -577,16 +629,22 @@ $\displaystyle\sum_{k=0}^{4}\omega^k = \frac{1 - \omega^5}{1 - \omega} = \frac{1
 
 Expanding using $\omega^k = \cos\frac{2k\pi}{5} + i\sin\frac{2k\pi}{5}$:
 
-$$\sum_{k=0}^{4}\omega^k = \underbrace{\sum_{k=0}^{4}\cos\frac{2k\pi}{5}}_{\mathrm{real}} + i\underbrace{\sum_{k=0}^{4}\sin\frac{2k\pi}{5}}_{\mathrm{imaginary}} = 0$$
+$$
+\sum_{k=0}^{4}\omega^k = \underbrace{\sum_{k=0}^{4}\cos\frac{2k\pi}{5}}_{\mathrm{real}} + i\underbrace{\sum_{k=0}^{4}\sin\frac{2k\pi}{5}}_{\mathrm{imaginary}} = 0
+$$
 
 The imaginary part is zero by symmetry ($\sin\theta = -\sin(2\pi - \theta)$). The real part gives:
 
-$$1 + \cos\frac{2\pi}{5} + \cos\frac{4\pi}{5} + \cos\frac{6\pi}{5} + \cos\frac{8\pi}{5} = 0$$
+$$
+1 + \cos\frac{2\pi}{5} + \cos\frac{4\pi}{5} + \cos\frac{6\pi}{5} + \cos\frac{8\pi}{5} = 0
+$$
 
 Since $\cos\frac{6\pi}{5} = \cos\frac{4\pi}{5}$ and
 $\cos\frac{8\pi}{5} = \cos\frac{2\pi}{5}$:
 
-$$1 + 2\cos\frac{2\pi}{5} + 2\cos\frac{4\pi}{5} = 0 \implies \cos\frac{2\pi}{5} + \cos\frac{4\pi}{5} = -\frac{1}{2} \quad \square$$
+$$
+1 + 2\cos\frac{2\pi}{5} + 2\cos\frac{4\pi}{5} = 0 \implies \cos\frac{2\pi}{5} + \cos\frac{4\pi}{5} = -\frac{1}{2} \quad \square
+$$
 
 </details>
 
@@ -594,7 +652,7 @@ $$1 + 2\cos\frac{2\pi}{5} + 2\cos\frac{4\pi}{5} = 0 \implies \cos\frac{2\pi}{5} 
 
 **Problem 5.** Sketch on separate Argand diagrams the loci given by (a) $|z - 1 - i| = |z - 3 + i|$
 And (b) $\arg(z - 2) = \dfrac{\pi}{3}$. Find the complex number(s) satisfying both
-Conditions simultaneously.
+conditions simultaneously.
 
 <details>
 <summary>Hint</summary>
@@ -617,9 +675,9 @@ $x > 2$.
 **Intersection:** Setting $x - 2 = \sqrt{3}(x - 2)$:
 
 $(x - 2)(1 - \sqrt{3}) = 0$ So $x = 2$ (gives $y = 0$ But the half-line requires $x > 2$) or
-$1 = \sqrt{3}$Which is false.
+$1 = \sqrt{3}$ Which is false.
 
-There is no intersection. The half-line from $(2, 0)$ at angle $\pi/3$ has slope $\sqrt{3}$While The
+There is no intersection. The half-line from $(2, 0)$ at angle $\pi/3$ has slope $\sqrt{3}$ While The
 perpendicular bisector has slope 1, and they only meet at the point $(2, 0)$ which is excluded From
 the half-line.
 
@@ -646,27 +704,45 @@ $w = \dfrac{z + 1}{z - 1} \implies wz - w = z + 1 \implies z(w - 1) = w + 1 \imp
 
 Since $|z| = 2$:
 
-$$\left|\frac{w + 1}{w - 1}\right| = 2 \implies |w + 1| = 2|w - 1|$$
+$$
+\left|\frac{w + 1}{w - 1}\right| = 2 \implies |w + 1| = 2|w - 1|
+$$
 
 Let $w = u + vi$:
 
-$$\sqrt{(u+1)^2 + v^2} = 2\sqrt{(u-1)^2 + v^2}$$
+$$
+\sqrt{(u+1)^2 + v^2} = 2\sqrt{(u-1)^2 + v^2}
+$$
 
 Squaring: $(u+1)^2 + v^2 = 4[(u-1)^2 + v^2]$
 
-$$u^2 + 2u + 1 + v^2 = 4u^2 - 8u + 4 + 4v^2$$
+$$
+u^2 + 2u + 1 + v^2 = 4u^2 - 8u + 4 + 4v^2
+$$
 
-$$0 = 3u^2 - 10u + 3 + 3v^2$$
+$$
+0 = 3u^2 - 10u + 3 + 3v^2
+$$
 
-$$3u^2 - 10u + 3v^2 + 3 = 0$$
+$$
+3u^2 - 10u + 3v^2 + 3 = 0
+$$
 
-$$3\!\left(u^2 - \frac{10}{3}u\right) + 3v^2 = -3$$
+$$
+3\!\left(u^2 - \frac{10}{3}u\right) + 3v^2 = -3
+$$
 
-$$3\!\left(u - \frac{5}{3}\right)^2 - \frac{25}{3} + 3v^2 = -3$$
+$$
+3\!\left(u - \frac{5}{3}\right)^2 - \frac{25}{3} + 3v^2 = -3
+$$
 
-$$3\!\left(u - \frac{5}{3}\right)^2 + 3v^2 = \frac{16}{3}$$
+$$
+3\!\left(u - \frac{5}{3}\right)^2 + 3v^2 = \frac{16}{3}
+$$
 
-$$\left(u - \frac{5}{3}\right)^2 + v^2 = \frac{16}{9}$$
+$$
+\left(u - \frac{5}{3}\right)^2 + v^2 = \frac{16}{9}
+$$
 
 This is a circle with centre $\left(\dfrac{5}{3}, 0\right)$ and radius $\dfrac{4}{3}$ in the
 $w$-plane.
@@ -689,9 +765,13 @@ Write each term in exponential form and use the laws of indices.
 
 $1 + i = \sqrt{2}\,e^{i\pi/4}$ and $1 - i\sqrt{3} = 2\,e^{-i\pi/3}$.
 
-$$\frac{(1+i)^6}{(1-i\sqrt{3})^4} = \frac{(\sqrt{2}\,e^{i\pi/4})^6}{(2\,e^{-i\pi/3})^4} = \frac{8e^{3\pi i/2}}{16\,e^{-4\pi i/3}} = \frac{1}{2}\,e^{i(3\pi/2 + 4\pi/3)}$$
+$$
+\frac{(1+i)^6}{(1-i\sqrt{3})^4} = \frac{(\sqrt{2}\,e^{i\pi/4})^6}{(2\,e^{-i\pi/3})^4} = \frac{8e^{3\pi i/2}}{16\,e^{-4\pi i/3}} = \frac{1}{2}\,e^{i(3\pi/2 + 4\pi/3)}
+$$
 
-$$3\pi/2 + 4\pi/3 = \frac{9\pi + 8\pi}{6} = \frac{17\pi}{6} = 2\pi + \frac{5\pi}{6}$$
+$$
+3\pi/2 + 4\pi/3 = \frac{9\pi + 8\pi}{6} = \frac{17\pi}{6} = 2\pi + \frac{5\pi}{6}
+$$
 
 So:
 $\dfrac{1}{2}\,e^{5\pi i/6} = \dfrac{1}{2}\!\left(\cos\dfrac{5\pi}{6} + i\sin\dfrac{5\pi}{6}\right) = \dfrac{1}{2}\!\left(-\dfrac{\sqrt{3}}{2} + \dfrac{1}{2}\,i\right) = -\dfrac{\sqrt{3}}{4} + \dfrac{1}{4}\,i$
@@ -707,7 +787,7 @@ $0 \leq \arg(z) \leq \dfrac{\pi}{4}$. Find and describe the image of $R$ under $
 <details>
 <summary>Hint</summary>
 
-Under $w = z^2$The modulus squares and the argument doubles.
+Under $w = z^2$ The modulus squares and the argument doubles.
 
 </details>
 
@@ -722,7 +802,7 @@ If $z = re^{i\theta}$ Then $w = r^2 e^{2i\theta}$.
   so $0 \leq \arg(w) \leq \dfrac{\pi}{2}$.
 
 The image is the region in the first quadrant of the $w$-plane between the circles $|w| = 1$ and
-$|w| = 4$Bounded by the rays $\arg(w) = 0$ and $\arg(w) = \dfrac{\pi}{2}$.
+$|w| = 4$ Bounded by the rays $\arg(w) = 0$ and $\arg(w) = \dfrac{\pi}{2}$.
 
 </details>
 
@@ -750,12 +830,14 @@ Equivalently, the roots are $e^{k\pi i/2}$ for $k = 1, 2, 3$.
 
 The sum of roots (by Vieta, coefficient of $z^2$ divided by leading coefficient) is $-1$:
 
-$$i + (-1) + (-i) = -1 \quad \checkmark$$
+$$
+i + (-1) + (-i) = -1 \quad \checkmark
+$$
 
 Now: $e^{i\pi/2} + e^{i\pi} + e^{3i\pi/2} = i + (-1) + (-i) = -1$.
 
 Separating real and imaginary parts:
-$\cos\dfrac{\pi}{2} + \cos\pi + \cos\dfrac{3\pi}{2} = -1$I.e.
+$\cos\dfrac{\pi}{2} + \cos\pi + \cos\dfrac{3\pi}{2} = -1$ I.e.
 $0 - 1 + 0 = -1$. ✓
 
 Alternatively, the claim as stated uses
@@ -768,10 +850,10 @@ $\cos\dfrac{2\pi}{4} + \cos\dfrac{4\pi}{4} + \cos\dfrac{6\pi}{4} = \cos\dfrac{\p
 
 **Problem 10.** (a) Show that
 $\dfrac{1}{e^{i\theta} - 1} = -\dfrac{1}{2} - \dfrac{i}{2}\cot\dfrac{\theta}{2}$
-For $\theta \notin 2\pi\mathbb{Z}$.
+for $\theta \notin 2\pi\mathbb{Z}$.
 
 (b) Hence, or otherwise, find $\displaystyle\sum_{k=1}^{n-1}\frac{1}{1 - \omega^k}$
-Where $\omega = e^{2\pi i/n}$.
+where $\omega = e^{2\pi i/n}$.
 
 <details>
 <summary>Hint</summary>
@@ -792,12 +874,16 @@ $e^{-i\theta} - 1 = \cos\theta - 1 - i\sin\theta = -2\sin^2\dfrac{\theta}{2} - 2
 
 Denominator: $2 - 2\cos\theta = 4\sin^2\dfrac{\theta}{2}$.
 
-$$\frac{1}{e^{i\theta} - 1} = \frac{-2\sin\frac{\theta}{2}\!\left(\sin\frac{\theta}{2} + i\cos\frac{\theta}{2}\right)}{4\sin^2\frac{\theta}{2}} = \frac{-\sin\frac{\theta}{2} - i\cos\frac{\theta}{2}}{2\sin\frac{\theta}{2}} = -\frac{1}{2} - \frac{i}{2}\cot\frac{\theta}{2} \quad \square$$
+$$
+\frac{1}{e^{i\theta} - 1} = \frac{-2\sin\frac{\theta}{2}\!\left(\sin\frac{\theta}{2} + i\cos\frac{\theta}{2}\right)}{4\sin^2\frac{\theta}{2}} = \frac{-\sin\frac{\theta}{2} - i\cos\frac{\theta}{2}}{2\sin\frac{\theta}{2}} = -\frac{1}{2} - \frac{i}{2}\cot\frac{\theta}{2} \quad \square
+$$
 
 **(b)** Using (a):
 $\dfrac{1}{1 - \omega^k} = -\dfrac{1}{e^{2k\pi i/n} - 1} = \dfrac{1}{2} + \dfrac{i}{2}\cot\dfrac{k\pi}{n}$.
 
-$$\sum_{k=1}^{n-1}\frac{1}{1 - \omega^k} = \sum_{k=1}^{n-1}\!\left(\frac{1}{2} + \frac{i}{2}\cot\frac{k\pi}{n}\right) = \frac{n-1}{2} + \frac{i}{2}\sum_{k=1}^{n-1}\cot\frac{k\pi}{n}$$
+$$
+\sum_{k=1}^{n-1}\frac{1}{1 - \omega^k} = \sum_{k=1}^{n-1}\!\left(\frac{1}{2} + \frac{i}{2}\cot\frac{k\pi}{n}\right) = \frac{n-1}{2} + \frac{i}{2}\sum_{k=1}^{n-1}\cot\frac{k\pi}{n}
+$$
 
 The cotangent sum is zero by symmetry:
 $\cot\dfrac{k\pi}{n} = -\cot\dfrac{(n-k)\pi}{n}$ So terms cancel in pairs.
@@ -827,19 +913,25 @@ Therefore: $\displaystyle\sum_{k=1}^{n-1}\frac{1}{1 - \omega^k} = \frac{n - 1}{2
 
 Expanding by the binomial theorem:
 
-$$(\cos\theta + i\sin\theta)^5 = \cos^5\theta + 5i\cos^4\theta\sin\theta - 10\cos^3\theta\sin^2\theta - 10i\cos^2\theta\sin^3\theta + 5\cos\theta\sin^4\theta + i\sin^5\theta$$
+$$
+(\cos\theta + i\sin\theta)^5 = \cos^5\theta + 5i\cos^4\theta\sin\theta - 10\cos^3\theta\sin^2\theta - 10i\cos^2\theta\sin^3\theta + 5\cos\theta\sin^4\theta + i\sin^5\theta
+$$
 
 Equating real parts:
 
-$$\boxed{\cos 5\theta = 16\cos^5\theta - 20\cos^3\theta + 5\cos\theta}$$
+$$
+\boxed{\cos 5\theta = 16\cos^5\theta - 20\cos^3\theta + 5\cos\theta}
+$$
 
 ### Example 8.2: Solving $z^6 = -64$
 
-**Problem.** Solve $z^6 = -64$Giving answers in exponential form.
+**Problem.** Solve $z^6 = -64$ Giving answers in exponential form.
 
 **Solution.** $-64 = 64e^{i\pi}$. The 6th roots are:
 
-$$z_k = 64^{1/6} \exp\!\left(\frac{i(\pi + 2k\pi)}{6}\right) = 2\exp\!\left(\frac{i(2k+1)\pi}{6}\right)$$
+$$
+z_k = 64^{1/6} \exp\!\left(\frac{i(\pi + 2k\pi)}{6}\right) = 2\exp\!\left(\frac{i(2k+1)\pi}{6}\right)
+$$
 
 For $k = 0, 1, 2, 3, 4, 5$.
 
@@ -854,15 +946,23 @@ These lie on a circle of radius 2, at angles $30°, 90°, 150°, 210°, 270°, 3
 
 **Solution.** Let $z = x + iy$.
 
-$$|z - (3+4i)| = |z - (-1+2i)|$$
+$$
+|z - (3+4i)| = |z - (-1+2i)|
+$$
 
-$$\sqrt{(x-3)^2 + (y-4)^2} = \sqrt{(x+1)^2 + (y-2)^2}$$
+$$
+\sqrt{(x-3)^2 + (y-4)^2} = \sqrt{(x+1)^2 + (y-2)^2}
+$$
 
 Squaring: $(x-3)^2 + (y-4)^2 = (x+1)^2 + (y-2)^2$.
 
-$$x^2 - 6x + 9 + y^2 - 8y + 16 = x^2 + 2x + 1 + y^2 - 4y + 4$$
+$$
+x^2 - 6x + 9 + y^2 - 8y + 16 = x^2 + 2x + 1 + y^2 - 4y + 4
+$$
 
-$$-8x - 4y + 20 = 0 \implies \boxed{2x + y = 5}$$
+$$
+-8x - 4y + 20 = 0 \implies \boxed{2x + y = 5}
+$$
 
 This is the perpendicular bisector of the segment joining $3+4i$ and $-1+2i$.
 
@@ -874,7 +974,7 @@ $0 \leq \arg(z) \leq \dfrac{\pi}{4}$.
 **Solution.** $|z - 2i| \leq 3$ is the closed disc of radius 3 centred at $2i$ (i.e., $(0, 2)$).
 
 $0 \leq \arg(z) \leq \dfrac{\pi}{4}$ is the sector between the positive real axis and
-The line $y = x$ (for $x \geq 0$).
+the line $y = x$ (for $x \geq 0$).
 
 The required region is the intersection: a segment of the disc in the first quadrant between angles
 $0$ and $\pi/4$.
@@ -886,7 +986,7 @@ And find the image of the line $\mathrm{Re}(z) = 1$.
 
 **Solution.** $w = (1+i)z + 2i = \sqrt{2}\,e^{i\pi/4}\,z + 2i$.
 
-$T$ is an enlargement by scale factor $\sqrt{2}$Rotation by $45°$ anticlockwise about the origin,
+$T$ is an enlargement by scale factor $\sqrt{2}$ Rotation by $45°$ anticlockwise about the origin,
 Followed by a translation by $2i$.
 
 For $\mathrm{Re}(z) = 1$: $z = 1 + it$.
@@ -903,7 +1003,9 @@ The image is the line $\boxed{u + v = 4}$ (where $w = u + iv$).
 
 **Solution.** This is a geometric series with ratio $\omega \neq 1$:
 
-$$\sum_{k=0}^{n-1} \omega^k = \frac{1 - \omega^n}{1 - \omega} = \frac{1 - 1}{1 - \omega} = 0$$
+$$
+\sum_{k=0}^{n-1} \omega^k = \frac{1 - \omega^n}{1 - \omega} = \frac{1 - 1}{1 - \omega} = 0
+$$
 
 $\blacksquare$
 
@@ -931,12 +1033,16 @@ $\blacksquare$
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                           | Correct Approach                                                                                             |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | -------- | --- | --- | --- | --- | --- | --- | ---------------------------------------- | --- | ---- | --- | --- | --- | --- |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Forgetting that $\arg(z)$ is measured from the positive real axis | $\arg(z)$ is the angle anticlockwise from the positive $x$-axis, range $(-\pi, \pi]$ or $[0, 2\pi)$          |
-| Confusing $                                                       | z-w                                                                                                          | $ with $ | z   | -   | w   | $   | $   | z-w | $ is the distance between $z$ and $w$; $ | z-w | \neq | z   | -   | w   | $   |
+| Confusing $                                                       \| z-w                                                                                                          \| $ with $ \| z   \| -   \| w   \| $   | $   \| z-w \| $ is the distance between $z$ and $w$; $ \| z-w \| \neq \| z   \| -   \| w   \| $   |
 | Missing roots when solving $z^n = w$                              | There are always exactly $n$ distinct roots; check your $k$ values cover $0$ to $n-1$                        |
 | Incorrectly applying de Moivre to non-integer powers              | De Moivre's theorem $(\cos\theta + i\sin\theta)^n = \cos n\theta + i\sin n\theta$ holds for integer $n$ only |
+
+</div>
 
 ---
 
@@ -953,7 +1059,7 @@ $\blacksquare$
 
 ### Question 8
 
-Solve $z^4 = 8(1 + i\sqrt{3})$Giving roots in the form $r(\cos\theta + i\sin\theta)$.
+Solve $z^4 = 8(1 + i\sqrt{3})$ Giving roots in the form $r(\cos\theta + i\sin\theta)$.
 
 <details>
 <summary>Solution</summary>
@@ -992,7 +1098,7 @@ The complex number $z$ satisfies $|z-1| = |z+1|$ and $|z-3i| = 3$. Find $z$.
 <details>
 <summary>Solution</summary>
 
-$|z-1| = |z+1|$: perpendicular bisector of $1$ and $-1$Giving $\mathrm{Re}(z) = 0$. So $z = iy$.
+$|z-1| = |z+1|$: perpendicular bisector of $1$ and $-1$ Giving $\mathrm{Re}(z) = 0$. So $z = iy$.
 
 $|z-3i| = 3 \implies |iy - 3i| = 3 \implies |y-3| = 3 \implies y - 3 = \pm 3$.
 
@@ -1041,16 +1147,20 @@ Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
 
 ## 12. Key Results Summary
 
+<div class="table-wrap">
+
 | Result                        | Formula                                                   |
-| ----------------------------- | --------------------------------------------------------- | --- | -------------------------------- | --- | --- |
-| Modulus                       | $                                                         | z   | = \sqrt{a^2+b^2}$ for $z = a+bi$ |
+| ----------------------------- | --------------------------------------------------------- |
+| Modulus                       | $                                                         \| z   \| = \sqrt{a^2+b^2}$ for $z = a+bi$ |
 | Argument                      | $\arg(z) = \arctan(b/a)$ (adjusting for quadrant)         |
 | Euler's formula               | $e^{i\theta} = \cos\theta+i\sin\theta$                    |
 | De Moivre                     | $(\cos\theta+i\sin\theta)^n = \cos n\theta+i\sin n\theta$ |
 | $n$-th roots of unity         | $z_k = e^{2\pi ik/n}$, $k = 0, \ldots, n-1$               |
-| Locus: circle                 | $                                                         | z-a | =r$                              |
-| Locus: perpendicular bisector | $                                                         | z-a | =                                | z-b | $   |
+| Locus: circle                 | $                                                         \| z-a \| =r$                              |
+| Locus: perpendicular bisector | $                                                         \| z-a \| =                                \| z-b \| $   |
 | Locus: half-line              | $\arg(z-a) = \theta$                                      |
+
+</div>
 
 ---
 
@@ -1067,13 +1177,13 @@ Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
 
 ### Question 11
 
-Solve $z^3 = -8i$Giving roots in Cartesian form.
+Solve $z^3 = -8i$ Giving roots in Cartesian form.
 
 <details>
 <summary>Solution</summary>
 
 $-8i = 8e^{-i\pi/2}$. Roots: $z_k = 2\exp\!\left(\dfrac{-i\pi/2 + 2k\pi i}{3}\right)$
-For $k=0,1,2$.
+for $k=0,1,2$.
 
 $z_0 = 2e^{-i\pi/6} = 2\!\left(\dfrac{\sqrt{3}}{2} - \dfrac{i}{2}\right) = \sqrt{3}-i$.
 
@@ -1132,9 +1242,11 @@ This connects five fundamental constants: $e$$i$$\pi$$1$ And $0$.
 ### 14.3 Complex conjugate and roots of polynomials
 
 If $P(z)$ is a polynomial with real coefficients and $z = a + bi$ is a root, then $\bar{z} = a - bi$
-Is also a root. This is because $\overline{P(z)} = P(\bar{z})$ for real-coefficient polynomials.
+is also a root. This is because $\overline{P(z)} = P(\bar{z})$ for real-coefficient polynomials.
 
 ### 14.4 Regions in the Argand diagram
+
+<div class="table-wrap">
 
 | Inequality                   | Region                             |
 | ---------------------------- | ---------------------------------- |
@@ -1144,11 +1256,15 @@ Is also a root. This is because $\overline{P(z)} = P(\bar{z})$ for real-coeffici
 | $\mathrm{Re}(z) > k$         | Half-plane to the right of $x = k$ |
 | $\mathrm{Im}(z) > k$         | Half-plane above $y = k$           |
 
+</div>
+
 ### 14.5 The exponential form of $\sin$ and $\cos$
 
 From $e^{i\theta} = \cos\theta + i\sin\theta$ and $e^{-i\theta} = \cos\theta - i\sin\theta$:
 
-$$\cos\theta = \frac{e^{i\theta}+e^{-i\theta}}{2}, \qquad \sin\theta = \frac{e^{i\theta}-e^{-i\theta}}{2i}$$
+$$
+\cos\theta = \frac{e^{i\theta}+e^{-i\theta}}{2}, \qquad \sin\theta = \frac{e^{i\theta}-e^{-i\theta}}{2i}
+$$
 
 These are essential for deriving trigonometric identities and solving certain integrals.
 
@@ -1204,7 +1320,7 @@ Let $z = x+iy$. Then $\bar{z} = x-iy$ and $z\bar{z} = x^2+y^2$.
 $x^2+y^2 + 2x = 3 \implies (x+1)^2 + y^2 = 4$.
 
 This is a circle with centre $(-1, 0)$ and radius $2$. All complex numbers on this circle satisfy
-The equation.
+the equation.
 
 </details>
 
@@ -1241,9 +1357,11 @@ This provides a geometric interpretation of all complex arithmetic.
 
 To solve $z^n = w = re^{i\phi}$:
 
-$$z_k = r^{1/n} \exp\!\left(\frac{i(\phi + 2k\pi)}{n}\right) \quad \text{for } k = 0, 1, \ldots, n-1$$
+$$
+z_k = r^{1/n} \exp\!\left(\frac{i(\phi + 2k\pi)}{n}\right) \quad \text{for } k = 0, 1, \ldots, n-1
+$$
 
-The roots lie on a circle of radius $r^{1/n}$Equally spaced.
+The roots lie on a circle of radius $r^{1/n}$ Equally spaced.
 
 ### 16.4 The complex exponential function
 
@@ -1412,7 +1530,7 @@ $|z+w|^2 + |z-w|^2 = (z+w)(\bar{z}+\bar{w}) + (z-w)(\bar{z}-\bar{w})$
 $= |z|^2+z\bar{w}+w\bar{z}+|w|^2 + |z|^2-z\bar{w}-w\bar{z}+|w|^2 = 2|z|^2 + 2|w|^2$.
 
 This is the parallelogram law: the sum of squares of the diagonals equals the sum of squares of all
-Four sides. $\blacksquare$
+four sides. $\blacksquare$
 
 </details>
 

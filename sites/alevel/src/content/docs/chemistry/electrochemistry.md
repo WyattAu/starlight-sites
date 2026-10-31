@@ -34,9 +34,9 @@ electronegativity. The rules for assigning oxidation states:
    charge.
 3. Group 1 metals: $+1$. Group 2 metals: $+2$. Al: $+3$.
 4. Hydrogen is $+1$ (except in metal hydrides, where it is $-1$).
-5. Oxygen is $-2$ (except in peroxides, where it is $-1$ And in $\mathrm{OF}_2$Where it is $+2$).
+5. Oxygen is $-2$ (except in peroxides, where it is $-1$ And in $\mathrm{OF}_2$ Where it is $+2$).
 6. Fluorine is always $-1$ in compounds.
-7. Halogens are $-1$Except when bonded to more electronegative elements or in polyatomic ions.
+7. Halogens are $-1$ Except when bonded to more electronegative elements or in polyatomic ions.
 
 **Worked Example.** Determine the oxidation state of $\mathrm{Cr}$ in
 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$.
@@ -121,6 +121,8 @@ salt bridge ( $\mathrm{KNO}_3$ solution) maintains electrical neutrality.
 
 ### The Electrochemical Series
 
+<div class="table-wrap">
+
 | Half-equation                                                                                           | $E^\circ$ (V) |
 | ------------------------------------------------------------------------------------------------------- | ------------- |
 | $\mathrm{F}_2 + 2e^- \rightleftharpoons 2\mathrm{F}^-$                                                  | $+2.87$       |
@@ -133,6 +135,8 @@ salt bridge ( $\mathrm{KNO}_3$ solution) maintains electrical neutrality.
 | $\mathrm{Zn}^{2+} + 2e^- \rightleftharpoons \mathrm{Zn}$                                                | $-0.76$       |
 | $\mathrm{Na}^+ + e^- \rightleftharpoons \mathrm{Na}$                                                    | $-2.71$       |
 | $\mathrm{Li}^+ + e^- \rightleftharpoons \mathrm{Li}$                                                    | $-3.04$       |
+
+</div>
 
 **Key observations:**
 
@@ -203,7 +207,7 @@ $$
 Where $Q$ is the reaction quotient (same form as the equilibrium expression but with initial
 concentrations).
 
-At $298\,\mathrm{K}$Substituting $R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$ and
+At $298\,\mathrm{K}$ Substituting $R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$ and
 $F = 96485\,\mathrm{C/mol}$:
 
 $$
@@ -318,12 +322,16 @@ inherently slow).
 
 ### Other Fuel Cell Types
 
+<div class="table-wrap">
+
 | Type                           | Fuel                              | Electrolyte                                            | Operating temp     | Application    |
 | ------------------------------ | --------------------------------- | ------------------------------------------------------ | ------------------ | -------------- |
 | PEM (proton exchange membrane) | $\mathrm{H}_2$                    | Solid polymer                                          | 80$^\circ$C        | Vehicles       |
 | Alkaline (AFC)                 | $\mathrm{H}_2$                    | KOH solution                                           | 60--200$^\circ$C   | Space (Apollo) |
-| Solid oxide (SOFC)             | $\mathrm{H}_2$CO, $\mathrm{CH}_4$ | Yttria-stabilised zirconia                             | 500--1000$^\circ$C | Power stations |
-| Molten carbonate (MCFC)        | $\mathrm{H}_2$CO, $\mathrm{CH}_4$ | $\mathrm{Li}_2\mathrm{CO}_3/\mathrm{K}_2\mathrm{CO}_3$ | 650$^\circ$C       | Power stations |
+| Solid oxide (SOFC)             | $\mathrm{H}_2$ CO, $\mathrm{CH}_4$ | Yttria-stabilised zirconia                             | 500--1000$^\circ$C | Power stations |
+| Molten carbonate (MCFC)        | $\mathrm{H}_2$ CO, $\mathrm{CH}_4$ | $\mathrm{Li}_2\mathrm{CO}_3/\mathrm{K}_2\mathrm{CO}_3$ | 650$^\circ$C       | Power stations |
+
+</div>
 
 Solid oxide fuel cells can use carbon monoxide and methane directly as fuels (internal reforming),
 and their high operating temperature makes them suitable for combined heat and power systems.
@@ -392,7 +400,7 @@ $$
 2\mathrm{H}_2\mathrm{O}(l) \to \mathrm{O}_2(g) + 4\mathrm{H}^+(aq) + 4e^-
 $$
 
-### Faraday"s Laws
+### Faraday's Laws
 
 **First Law:** The mass of substance deposited or liberated at an electrode is directly proportional
 to the quantity of electricity passed.
@@ -402,7 +410,7 @@ M = \frac{Q \cdot M}{n \cdot F}
 $$
 
 **Second Law:** When the same quantity of electricity is passed through different electrolytes, the
-masses of substances deposited are proportional to their equivalent masses ($M/n$Where $n$ is the
+masses of substances deposited are proportional to their equivalent masses ($M/n$ Where $n$ is the
 number of electrons transferred per ion).
 
 $$
@@ -458,6 +466,8 @@ iron(III) oxide (rust).
 
 ### Prevention Methods
 
+<div class="table-wrap">
+
 | Method                     | Principle                                                                                                   |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | Painting / oiling          | Physical barrier to water and oxygen                                                                        |
@@ -465,6 +475,8 @@ iron(III) oxide (rust).
 | Tin plating                | Physical barrier; if scratched, tin accelerates rusting (tin is less reactive than iron)                    |
 | Sacrificial protection     | Attaching blocks of a more reactive metal (e.g. $\mathrm{Mg}$$\mathrm{Zn}$) to the iron structure           |
 | Alloying (stainless steel) | Chromium forms a protective oxide layer                                                                     |
+
+</div>
 
 ## Common Pitfalls
 
@@ -476,7 +488,7 @@ iron(III) oxide (rust).
    (oxidation), cathode is negative (reduction). In a galvanic cell, the anode is negative
    (oxidation), cathode is positive (reduction). The signs are reversed.
 
-3. **Forgetting to halve the Faraday calculation for divalent ions.** For $\mathrm{Cu}^{2+}$Two
+3. **Forgetting to halve the Faraday calculation for divalent ions.** For $\mathrm{Cu}^{2+}$ Two
    moles of electrons deposit one mole of copper.
 
 4. **Incorrect half-equations for aqueous electrolysis.** Students often write the anion oxidation
@@ -531,6 +543,8 @@ $$
 
 ## Standard Electrode Potential Data Table
 
+<div class="table-wrap">
+
 | Half-equation                                                                                                           | $E^\circ$ (V)          |
 | ----------------------------------------------------------------------------------------------------------------------- | ---------------------- |
 | $\mathrm{F}_2 + 2e^- \rightleftharpoons 2\mathrm{F}^-$                                                                  | $+2.87$                |
@@ -559,6 +573,8 @@ $$
 | $\mathrm{K}^+ + e^- \rightleftharpoons \mathrm{K}$                                                                      | $-2.93$                |
 | $\mathrm{Li}^+ + e^- \rightleftharpoons \mathrm{Li}$                                                                    | $-3.04$                |
 
+</div>
+
 ## Electrolysis in Industry
 
 ### Extraction of Aluminium (Hall-Heroult Process)
@@ -566,7 +582,7 @@ $$
 - **Ore:** Bauxite ($\mathrm{Al}_2\mathrm{O}_3$), purified to alumina.
 - **Electrolyte:** Molten cryolite ($\mathrm{Na}_3\mathrm{AlF}_6$) at approximately
   $950^\circ\mathrm{C}$. Cryolite lowers the melting point of $\mathrm{Al}_2\mathrm{O}_3$ from
-  $2072^\circ\mathrm{C}$ to approximately $950^\circ\mathrm{C}$Making the process economically
+  $2072^\circ\mathrm{C}$ to approximately $950^\circ\mathrm{C}$ Making the process economically
   viable.
 - **Electrodes:** Carbon (graphite) anode and cathode.
 
@@ -611,7 +627,7 @@ $$
 E^\circ_\mathrm{cell} = 1.07 - 0.77 = +0.30\,\mathrm{V}
 $$
 
-Since $E^\circ_\mathrm{cell} \gt 0$The reaction is thermodynamically feasible.
+Since $E^\circ_\mathrm{cell} \gt 0$ The reaction is thermodynamically feasible.
 
 </details>
 
@@ -766,7 +782,7 @@ Electrons flow from the dilute side (anode) to the concentrated side (cathode).
 <details>
 <summary>Problem 6</summary>
 
-In the electrolysis of molten $\mathrm{NaCl}$A current of $2.00\,\mathrm{A}$ is passed for 2.00
+In the electrolysis of molten $\mathrm{NaCl}$ A current of $2.00\,\mathrm{A}$ is passed for 2.00
 hours. Calculate: (a) The mass of sodium produced at the cathode. (b) The volume of chlorine gas
 produced at the anode at $298\,\mathrm{K}$ and $100\,\mathrm{kPa}$.
 
@@ -796,11 +812,13 @@ $V = nRT/p = 0.0747 \times 8.314 \times 298 / (100 \times 10^3) = 1.85 \times 10
 
 The standard electrode potential of a cell indicates whether a redox reaction is feasible:
 
-$$E^\circ_\mathrm{cell} = E^\circ_\mathrm{cathode} - E^\circ_\mathrm{anode}$$
+$$
+E^\circ_\mathrm{cell} = E^\circ_\mathrm{cathode} - E^\circ_\mathrm{anode}
+$$
 
-If $E^\circ_\mathrm{cell} > +0.27\,\mathrm{V}$The reaction is considered thermodynamically feasible
+If $E^\circ_\mathrm{cell} > +0.27\,\mathrm{V}$ The reaction is considered thermodynamically feasible
 (proceeds to a significant extent) under standard conditions. If
-$E^\circ_\mathrm{cell} < +0.27\mathrm{V}$The equilibrium lies to the left and the reaction does not
+$E^\circ_\mathrm{cell} < +0.27\mathrm{V}$ The equilibrium lies to the left and the reaction does not
 proceed significantly.
 
 ### Worked Example: Predicting Redox Reactions
@@ -815,17 +833,23 @@ Half-equations:
 Zinc is the more reactive metal (more negative $E^\circ$), so it will be oxidised (anode). Copper
 ions will be reduced (cathode).
 
-$$E^\circ_\mathrm{cell} = 0.34 - (-0.76) = +1.10\,\mathrm{V}$$
+$$
+E^\circ_\mathrm{cell} = 0.34 - (-0.76) = +1.10\,\mathrm{V}
+$$
 
-Since $E^\circ_\mathrm{cell} > +0.27\,\mathrm{V}$The reaction is feasible:
+Since $E^\circ_\mathrm{cell} > +0.27\,\mathrm{V}$ The reaction is feasible:
 
-$$\mathrm{Zn}(s) + \mathrm{Cu}^{2+}(aq) \to \mathrm{Zn}^{2+}(aq) + \mathrm{Cu}(s)$$
+$$
+\mathrm{Zn}(s) + \mathrm{Cu}^{2+}(aq) \to \mathrm{Zn}^{2+}(aq) + \mathrm{Cu}(s)
+$$
 
 ### Worked Example: Non-Standard Conditions (Nernst Equation)
 
 The Nernst equation calculates the cell potential under non-standard conditions:
 
-$$E = E^\circ - \frac{RT}{nF}\ln Q$$
+$$
+E = E^\circ - \frac{RT}{nF}\ln Q
+$$
 
 Where $Q$ is the reaction quotient.
 
@@ -833,17 +857,29 @@ Where $Q$ is the reaction quotient.
 $\mathrm{Zn}|\mathrm{Zn}^{2+}(0.010\,\mathrm{mol\,dm^{-3})||\mathrm{Cu}^{2+}(0.001\,\mathrm{mol\,dm^{-3})|\mathrm{Cu}$
 at $298\,\mathrm{K}$.**
 
-$$E^\circ_\mathrm{cell} = 0.34 - (-0.76) = 1.10\,\mathrm{V}$$
+$$
+E^\circ_\mathrm{cell} = 0.34 - (-0.76) = 1.10\,\mathrm{V}
+$$
 
-$$Q = \frac{[\mathrm{Cu}^{2+}]}{[\mathrm{Zn}^{+}]} = \frac{0.001}{0.010} = 0.10$$
+$$
+Q = \frac{[\mathrm{Cu}^{2+}]}{[\mathrm{Zn}^{+}]} = \frac{0.001}{0.010} = 0.10
+$$
 
-$$E = 1.10 - \frac{8.314 \times 298}{2 \times 96485}\ln(0.10)$$
+$$
+E = 1.10 - \frac{8.314 \times 298}{2 \times 96485}\ln(0.10)
+$$
 
-$$= 1.10 - \frac{2478}{192970}\ln(0.10)$$
+$$
+= 1.10 - \frac{2478}{192970}\ln(0.10)
+$$
 
-$$= 1.10 - 0.01284 \times (-2.303)$$
+$$
+= 1.10 - 0.01284 \times (-2.303)
+$$
 
-$$= 1.10 + 0.0296 = 1.13\,\mathrm{V}$$
+$$
+= 1.10 + 0.0296 = 1.13\,\mathrm{V}
+$$
 
 The cell potential is slightly higher than $E^\circ$ because the lower product concentration
 ([Cu2+]) drives the reaction further to the right.
@@ -878,17 +914,27 @@ overpotentials and internal resistance.
 **Worked Example:** How long does it take to deposit $0.500\,\mathrm{g}$ of nickel from
 $\mathrm{NiSO}_4$ solution using a current of $2.50\,\mathrm{A}$?
 
-$$\mathrm{Ni}^{2+} + 2e^- \to \mathrm{Ni}$$
+$$
+\mathrm{Ni}^{2+} + 2e^- \to \mathrm{Ni}
+$$
 
-$$n(\mathrm{Ni}) = \frac{m}{M} = \frac{0.500}{58.69} = 0.00852\,\mathrm{mol}$$
+$$
+n(\mathrm{Ni}) = \frac{m}{M} = \frac{0.500}{58.69} = 0.00852\,\mathrm{mol}
+$$
 
-$$Q = n \times z \times F = 0.00852 \times 2 \times 96485 = 1643\,\mathrm{C}$$
+$$
+Q = n \times z \times F = 0.00852 \times 2 \times 96485 = 1643\,\mathrm{C}
+$$
 
-$$t = \frac{Q}{I} = \frac{1643}{2.50} = 657\,\mathrm{s} = 11.0\,\mathrm{min}$$
+$$
+t = \frac{Q}{I} = \frac{1643}{2.50} = 657\,\mathrm{s} = 11.0\,\mathrm{min}
+$$
 
 ### Electrochemical Series and Displacement Reactions
 
 The electrochemical series arranges species in order of their standard electrode potentials:
+
+<div class="table-wrap">
 
 | Species                        | $E^\circ$ (V) |
 | ------------------------------ | ------------- |
@@ -909,6 +955,8 @@ The electrochemical series arranges species in order of their standard electrode
 | $\mathrm{Br}_2/\mathrm{Br}^-$  | $+1.07$       |
 | $\mathrm{Cl}_2/\mathrm{Cl}^-$  | $+1.36$       |
 | $\mathrm{F}_2/\mathrm{F}^-$    | $+2.87$       |
+
+</div>
 
 A species will reduce any species below it in the series (more negative $E^\circ$). A species will
 be oxidised by any species above it (more positive $E^\circ$).
@@ -1003,22 +1051,9 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Electrochemistry with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Electrochemistry is like a conversation between electricity and chemistry, electrons flowing to create or consume reactions.**
-
-```mermaid
-flowchart TD
-    A[Electrochemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -1029,7 +1064,7 @@ theories, and practical applications.
 
 - standard electrode potentials
 - electrochemical cells
-- electrolysis and Faraday"s laws
+- electrolysis and Faraday's laws
 - corrosion and prevention
 - fuel cells
 

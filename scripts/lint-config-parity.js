@@ -40,9 +40,16 @@ const REQUIRED_HEAD = [
     label: 'jsDelivr dns-prefetch',
   },
   { needle: 'katex.min.css', label: 'KaTeX stylesheet' },
-  { needle: "src: '/cross-site-search.js'", label: 'cross-site search script' },
-  { needle: "src: '/page-search.js'", label: 'page search script' },
   { needle: 'application/ld+json', label: 'JSON-LD structured data' },
+]
+
+// Forbidden head entries. The cross-site-search.js and page-search.js
+// injectors duplicate the header's own search input (Header.astro renders
+// one and queries the API directly); loading them produced a second search
+// bar and double event listeners on every page. The head must not load them.
+const FORBIDDEN_HEAD = [
+  { needle: "src: '/cross-site-search.js'", label: 'legacy cross-site search injector' },
+  { needle: "src: '/page-search.js'", label: 'legacy page search injector' },
 ]
 
 // Required markdown/build pipeline fragments.
@@ -81,6 +88,12 @@ function check(siteId, configPath) {
   for (const { needle, label } of REQUIRED_HEAD) {
     if (!content.includes(needle)) {
       errors.push(`${siteId}: head is missing ${label}`)
+    }
+  }
+
+  for (const { needle, label } of FORBIDDEN_HEAD) {
+    if (content.includes(needle)) {
+      errors.push(`${siteId}: head must not load ${label} (duplicates the header search)`)
     }
   }
 

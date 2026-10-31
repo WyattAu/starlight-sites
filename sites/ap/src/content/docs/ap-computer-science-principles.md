@@ -20,6 +20,8 @@ AP Computer Science Principles introduces students to the foundational concepts 
 
 ### Big Ideas
 
+<div class="table-wrap">
+
 | Big Idea | Weight | Description |
 | ---------- | -------- | ------------- |
 | Creative Development | 10-15% | Collaboration, program design, abstraction |
@@ -29,18 +31,9 @@ AP Computer Science Principles introduces students to the foundational concepts 
 | Computing Systems and Networks | 10-15% | Internet, cybersecurity, parallel computing |
 | Impact of Computing | 10-15% | Beneficial/harmful effects, digital divide |
 
+</div>
+
 ---
-
-
-```mermaid
-flowchart TD
-    A[Ap Computer Science Principles] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Digital Information
 

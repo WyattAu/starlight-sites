@@ -23,7 +23,7 @@ categories:
 ## What is Git
 
 Git is a **distributed version control system** (DVCS) designed to track changes in source code
-During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce, where a
+during software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce, where a
 Single server holds the authoritative repository, Git treats every clone as a **fully-fledged
 Repository** with complete history. There is no intrinsic distinction between a "server" and a
 "client"; the difference is purely social (who pushes where).
@@ -31,10 +31,10 @@ Repository** with complete history. There is no intrinsic distinction between a 
 Git was created by Linus Torvalds in 2005 to manage the Linux kernel source tree after the
 Proprietary license for BitKeeper was revoked. The design constraints of the Linux kernel project
 (millions of lines of code, thousands of contributors, high concurrency of merges) fundamentally
-Shaped Git"s architecture.
+Shaped Git's architecture.
 
 :::note
-Here (e.g., `git switch``git restore`Sparse checkout) are unavailable in older versions.
+Here (e.g., `git switch`, `git restore`Sparse checkout) are unavailable in older versions.
 
 ## Design Philosophy
 
@@ -46,7 +46,7 @@ Workflow:
 Every repository clone contains the **complete object database**, every commit, every tree, every
 Blob. This means:
 
-- **Offline operation**: `git log``git diff``git blame``git show` all work without network access.
+- **Offline operation**: `git log`, `git diff`, `git blame`, `git show` all work without network access.
   You can commit, branch, and merge entirely offline.
 - **Speed**: Local operations read from the filesystem, not the network. `git log` on a cold
   repository scans the local object store.
@@ -60,7 +60,7 @@ The cost is **disk space**, a full clone of the Linux kernel is $\sim$5 GB. Miti
 
 Most VCS (CVS, Subversion, Perforce) store a series of **deltas**: file $v_2$ is expressed as "file
 $v_1$ with these lines changed." Git instead stores **full snapshots** of the entire project tree at
-Each commit. If a file has not changed between two commits, Git does not store it again, it stores
+each commit. If a file has not changed between two commits, Git does not store it again, it stores
 A pointer to the identical blob object.
 
 This design choice has deep implications:
@@ -74,14 +74,14 @@ This design choice has deep implications:
   makes it robust against complex history topologies.
 
 The cost is that Git's object store can appear larger than a delta-based store for repositories with
-Very large files that change frequently. This is why Git added the packfile format (see
+very large files that change frequently. This is why Git added the packfile format (see
 [Internals: Packing and Garbage Collection](/git/06-internals/02-packing-and-garbage-collection/)) to
 Compress objects using delta compression between similar objects.
 
 ### 3. Strong Integrity Guarantees
 
 Every Git object (blob, tree, commit, tag) is identified by a cryptographic hash of its **content
-Plus header**. This means:
+plus header**. This means:
 
 - **Tamper detection**: If a single byte in any object is modified, its hash changes, and all
   objects referencing it become invalid. `git fsck` can detect this.
@@ -92,21 +92,25 @@ Plus header**. This means:
 
 ### 4. Nearly Every Operation is Local
 
-With the exception of `git fetch``git pull``git push``git clone`And `git ls-remote`Every Git
+With the exception of `git fetch`, `git pull`, `git push`, `git clone` and `git ls-remote`. Every Git
 operation works on local data. This was a hard requirement for the Linux kernel workflow, where
 Contributors on dial-up connections needed to work efficiently.
 
 ## How Git Compares to Other VCS
 
+<div class="table-wrap">
+
 | Feature              | Git                                | Mercurial (Hg)                | Subversion (SVN)          | Perforce (P4)             |
 | -------------------- | ---------------------------------- | ----------------------------- | ------------------------- | ------------------------- |
 | Architecture         | Distributed                        | Distributed                   | Centralized               | Centralized               |
 | Storage model        | Content-addressable snapshots      | Content-addressable snapshots | Delta-based               | Delta-based (server-side) |
-| Branching model      | Pointer-based ($O(1)$)             | Bookmark-based ($O(1)$)       | Directory copy ($O(n)$)   | Streams (server-side)     |
+| Branching model      | Pointer-based ($O(1)$)             | Bookmark-based ($ O(1)$)       | Directory copy ($ O(n)$)   | Streams (server-side)     |
 | Offline commits      | Full                               | Full                          | No                        | Limited (shelving)        |
 | Performance at scale | Excellent (Linux kernel, Chromium) | Good (Facebook used it)       | Degrades with large trees | Excellent with Helix Core |
 | Learning curve       | Steep                              | Moderate                      | Shallow                   | Steep                     |
 | Binary file handling | Poor (use Git LFS)                 | Poor (use Largefiles)         | Good                      | Good                      |
+
+</div>
 :::
 
 :::tip
@@ -117,12 +121,16 @@ Git is optimized for text files.
 
 ### Installation
 
+<div class="table-wrap">
+
 | Platform              | Method                                                          |
 | --------------------- | --------------------------------------------------------------- |
 | Linux (Debian/Ubuntu) | `sudo apt install git`                                          |
 | Linux (Fedora)        | `sudo dnf install git`                                          |
 | macOS                 | `brew install git` (preferred over Xcode's bundled Git)         |
 | Windows               | [git-scm.com](https://git-scm.com/) or `winget install Git.Git` |
+
+</div>
 
 ### Essential Configuration
 
@@ -196,12 +204,14 @@ flowchart TB
 ```
 
 These three areas, **working directory**, **index**, and **repository**, form the foundation of
-Every Git operation. Understanding the transitions between them is essential. See
+every Git operation. Understanding the transitions between them is essential. See
 [The Three Trees](/git/02-fundamentals/01-the-three-trees/) for a deep dive.
 
 ## Guide Structure
 
 This guide is organized into the following sections:
+
+<div class="table-wrap">
 
 | Section                                                                     | Content                                                   |
 | --------------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -211,6 +221,8 @@ This guide is organized into the following sections:
 | [Advanced Topics](/git/05-advanced-topics/01-reflog/)                        | Reflog, stash, bisect, submodules, worktrees              |
 | [Internals](/git/06-internals/01-git-directory-structure/)                   | `.git` directory layout, pack files, hashing algorithm    |
 | [Others](/git/Others/gitea-on-truenas/)                                      | Self-hosting, commit history removal                      |
+
+</div>
 
 ## Common Pitfalls
 
@@ -231,10 +243,6 @@ This guide is organized into the following sections:
    constructs.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

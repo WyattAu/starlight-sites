@@ -45,10 +45,14 @@ the same characteristic. Humans have 23 pairs of chromosomes (46 total), contain
 
 Punnett square:
 
+<div class="table-wrap">
+
 |       | F   | f   |
 | ----- | --- | --- |
 | **f** | Ff  | ff  |
 | **f** | Ff  | ff  |
+
+</div>
 
 Genotypes: 50% Ff (free earlobes), 50% ff (attached earlobes). Probability of free earlobes
 $= 50\%$.
@@ -197,7 +201,7 @@ selection and genetic drift. (6) Eventually, even if the populations are brought
 have diverged so much that they can no longer interbreed to produce fertile offspring -- they are
 now separate species.
 
-(b) Using the Hardy-Weinberg principle: $p + q = 1$Where $p$ is the dominant allele frequency and
+(b) Using the Hardy-Weinberg principle: $p + q = 1$ Where $p$ is the dominant allele frequency and
 $q$ is the recessive allele frequency.
 
 Population A: $p = 0.3$$q = 1 - 0.3 = 0.7$. Population B: $p = 0.7$$q = 1 - 0.7 = 0.3$.
@@ -262,27 +266,9 @@ with genetic conditions.
 
 **The key insight:** Genes don't work alone, most traits are polygenic (controlled by many genes) and influenced by the environment.
 
-
-```mermaid
-flowchart TD
-    A[Diag Inheritance Variation Evolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

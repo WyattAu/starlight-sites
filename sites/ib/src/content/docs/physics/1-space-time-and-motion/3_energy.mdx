@@ -16,6 +16,8 @@ import PhetSimulation from "@components/PhetSimulation";
 Energy is a scalar quantity measured in joules ($\mathrm J$). It exists in many forms and can be
 Transformed from one form to another, but the total energy in a closed system is conserved.
 
+<div class="table-wrap">
+
 | Form                      | Description                                     |
 | ------------------------- | ----------------------------------------------- |
 | Kinetic                   | Energy of motion                                |
@@ -26,6 +28,8 @@ Transformed from one form to another, but the total energy in a closed system is
 | Nuclear                   | Energy stored in atomic nuclei                  |
 | Electrical                | Energy of moving charges                        |
 | Radiant (electromagnetic) | Energy of electromagnetic waves                 |
+
+</div>
 
 ---
 
@@ -89,12 +93,16 @@ Where $G = 6.674 \times 10^{-11}\mathrm{ N}\cdot\mathrm m^2/\mathrm{kg}^2$.
 
 ### Key Differences
 
+<div class="table-wrap">
+
 | Property        | Near Surface ($mgh$)       | Universal ($-GMm/r$)                    |
 | --------------- | -------------------------- | --------------------------------------- |
 | Reference level | Arbitrary ( ground)        | Zero at infinity                        |
 | Sign            | Positive above reference   | Negative (bound state)                  |
 | Validity        | $h \ll R_{\mathrm{Earth}}$ | Any distance                            |
 | Gradient        | $-\dfrac{dE_p}{dh} = -mg$  | $-\dfrac{dE_p}{dr} = -\dfrac{GMm}{r^2}$ |
+
+</div>
 </Aside>
 
 <Aside type="note" title="Example">
@@ -197,12 +205,16 @@ $$
 
 ### Conservative vs Non-Conservative Forces
 
+<div class="table-wrap">
+
 | Conservative Forces      | Non-Conservative Forces |
 | ------------------------ | ----------------------- |
 | Gravity                  | Friction                |
 | Elastic (spring)         | Air resistance          |
 | Electrostatic            | Applied pushes/pulls    |
 | Work is path-independent | Work is path-dependent  |
+
+</div>
 
 ### Applications
 </Aside>
@@ -369,13 +381,13 @@ $P = f_{\mathrm{drag}} \cdot v_{\max}$.
 
 <Aside type="note" title="Example">
 A car engine produces $80\mathrm{ kW}$ of power. The total resistive force is $800\mathrm{ N}$ at
-The car's maximum speed. Find the maximum speed.
+the car's maximum speed. Find the maximum speed.
 
 $$
 P = Fv \implies 80000 = 800v \implies v = 100\mathrm\{ m/s\}
 $$
 
-This is $360\mathrm{ km/h}$Which is unrealistic for a car with $80\mathrm{ kW}$, in practice, Drag
+This is $360\mathrm{ km/h}$ Which is unrealistic for a car with $80\mathrm{ kW}$, in practice, Drag
 increases with $v^2$ so the maximum speed would be lower.
 
 ---
@@ -385,7 +397,7 @@ increases with $v^2$ so the maximum speed would be lower.
 ### Definition
 
 $$
-\mathrm\{Efficiency\} = \frac\{\mathrm\{useful energy output\}\}\{\mathrm\{total energy input\}\} \times 100\%
+\mathrm{Efficiency} = \frac{\mathrm{useful energy output}}{\mathrm{total energy input}} \times 100\%
 $$
 
 ### Energy Degradation
@@ -413,9 +425,11 @@ $$
 \mathrm\{Efficiency\} = \frac\{10\}\{100\} \times 100\% = 10\%
 $$
 
-Power input $= 100\mathrm{ W}$Useful power output $= 10\mathrm{ W}$.
+Power input $= 100\mathrm{ W}$ Useful power output $= 10\mathrm{ W}$.
 
 ### Common Efficiencies
+
+<div class="table-wrap">
 
 | Device                  | Typical Efficiency |
 | ----------------------- | ------------------ |
@@ -427,6 +441,8 @@ Power input $= 100\mathrm{ W}$Useful power output $= 10\mathrm{ W}$.
 | Steam turbine           | 35--45%            |
 | Solar cell              | 15--25%            |
 | Human body              | 20--25%            |
+
+</div>
 
 ---
 
@@ -472,7 +488,7 @@ The total energy remains constant at all times.
 
 A roller coaster car of mass $500\mathrm{ kg}$ starts from rest at point `A` which is
 $30\mathrm{ m}$ above the ground. It travels along the track to point `B` which is $10\mathrm{ m}$
-Above the ground. Neglecting friction, find its speed at `B`.
+above the ground. Neglecting friction, find its speed at `B`.
 
 $$
 Mgh_A = mgh_B + \frac\{1\}\{2\}mv_B^2
@@ -521,7 +537,7 @@ A pump lifts $500\mathrm{ kg}$ of water per minute from a well $15\mathrm{ m}$ d
 Efficiency of 65%. Find the power input to the pump.
 
 $$
-P_\{\mathrm\{useful\}\} = \frac`\{mgh}`\{t\} = \frac\{500 \times 9.81 \times 15\}\{60\} = 1226\mathrm\{ W\}
+P_{\mathrm\{useful\}\} = \frac\{mgh}\{t\} = \frac\{500 \times 9.81 \times 15\}\{60\} = 1226\mathrm\{ W\}
 $$
 
 $$
@@ -550,7 +566,7 @@ $$
 **(b)** Find the total mechanical energy.
 
 $$
-E_\{\mathrm\{total\}\} = E_k + E_p = \frac\{1\}\{2\}mv^2 - \frac`\{GMm}`\{r\} = \frac\{1\}\{2\}m\frac`\{GM}`\{r\} - \frac`\{GMm}`\{r\} = -\frac`\{GMm}`\{2r\}
+E_{\mathrm{total\}\} = E_k + E_p = \frac{1\}\{2\}mv^2 - \\\{GMm}\{r\} = \frac{1\}\{2\}m\\\{GM}\{r\} - \\\{GMm}\{r\} = -\\\{GMm}\{2r\}
 $$
 
 $$
@@ -586,17 +602,9 @@ $$
 
 Energy is the universe's currency, and conservation is its accounting principle. A ball sitting on a shelf has stored credit in gravitational potential energy; when it falls, that credit converts to kinetic energy at a rate determined by gravity. Friction is the taxman who always takes a cut, converting useful mechanical energy into thermal energy that dissipates into the surroundings. The work-energy theorem reveals that the net work done on an object is directly the deposit or withdrawal from its kinetic energy account. Power measures how quickly you spend energy, which is why a powerful engine can accelerate a car faster even though both engines ultimately convert the same amount of fuel.
 
-```mermaid
-flowchart TD
-    A[3_Energyx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
+
+<div class="table-wrap">
 
 | Energy Type                     | Formula                                                         |
 | ------------------------------- | --------------------------------------------------------------- |
@@ -608,6 +616,8 @@ flowchart TD
 | Work-energy theorem             | $W_{\mathrm{net}} = \Delta E_k$                                 |
 | Power                           | $P = \dfrac{W}{t} = Fv$                                         |
 | Efficiency                      | $\eta = \dfrac{E_{\mathrm{out}}}{E_{\mathrm{in}}} \times 100\%$ |
+
+</div>
 </Aside>
 
 <Aside type="tip" title="Exam Strategy">
@@ -621,13 +631,17 @@ friction from the total mechanical energy.
 
 ### Gravitational Potential Energy Curves
 
-For two masses $M$ and $m$ separated by distance $r$The total energy determines the type of orbit:
+For two masses $M$ and $m$ separated by distance $r$ The total energy determines the type of orbit:
+
+<div class="table-wrap">
 
 | Total Energy $E$ | Orbit Type                    |
-| ---------------- | ----------------------------- | --- | --- | --- | ------------------ |
-| $E \lt 0$ (and $ | E                             | \lt | E_p | $)  | Bound (elliptical) |
-| $E = 0$          | Parabolic (escape trajectory) |     |     |     |                    |
+| ---------------- | ----------------------------- |
+| $E \lt 0$ (and $ \| E                             \| \lt \| E_p \| $)  | Bound (elliptical) |
+| $E = 0$ | Parabolic (escape trajectory) |
 | $E \gt 0$        | Hyperbolic (unbound)          |     |     |     |                    |
+
+</div>
 
 For a circular orbit:
 
@@ -638,7 +652,7 @@ $$
 ### Energy to Change Orbits
 
 To move from one circular orbit to another, energy must be supplied. The minimum energy required is
-The difference in total orbital energies.
+the difference in total orbital energies.
 </Aside>
 
 <Aside type="note" title="Example">
@@ -689,12 +703,12 @@ W = \int_0^\{-d\} (-kx)\,dx = \left[-\frac\{kx^2\}\{2\}\right]_0^\{-d\} = -\frac
 $$
 
 The negative sign indicates work is done on the spring (energy stored). The elastic potential energy
-Is $\dfrac{1}{2}kd^2$.
+is $\dfrac{1}{2}kd^2$.
 
 ### Force-Extension Graphs for Non-Hookean Materials
 
 For materials that do not obey Hooke's law, the area under the force-extension graph still equals
-The elastic potential energy, but it must be found by integration or by counting squares.
+the elastic potential energy, but it must be found by integration or by counting squares.
 
 ---
 
@@ -728,7 +742,7 @@ $$
 
 ### Friction and Heat
 
-When friction does work $W_f$The energy is converted to thermal energy:
+When friction does work $W_f$ The energy is converted to thermal energy:
 
 $$
 Q = W_f = \mu_k Nd
@@ -798,7 +812,7 @@ $$
 P = Fv = 1683 \times 20 = 33660\mathrm\{ W\} \approx 33.7\mathrm\{ kW\}
 $$
 
-**(c)** If the engine efficiency is $25\%$What is the rate of fuel energy consumption?
+**(c)** If the engine efficiency is $25\%$ What is the rate of fuel energy consumption?
 
 $$
 P_\{\mathrm\{input\}\} = \frac\{33660\}\{0.25\} = 134640\mathrm\{ W\} = 134.6\mathrm\{ kW\}
@@ -831,9 +845,6 @@ the IB specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Energy and
 Conservation with other physics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Common Pitfalls
 
 1. Rounding intermediate answers too early, which compounds errors in multi-step calculations.
@@ -849,11 +860,15 @@ self-marking and building a personal test matrix.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site    | Link                                                                                                |
 | ----------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Energy and Work] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/04-work-energy-power) |
-| [Energy and Work] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/3_energy)                     |
-| [Energy and Work] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/1-mechanics/3_energy-and-work)                      |
+| [Energy and Work] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/3_energy/)                     |
+| [Energy and Work] | DSE     | [View](https://dse.wyattau.com/physics/1-mechanics/3_energy-and-work/)                      |
+
+</div>
 
 ## Worked Examples
 

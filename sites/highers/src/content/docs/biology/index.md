@@ -93,14 +93,7 @@ most recent SQA documentation for definitive syllabus and assessment requirement
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -144,8 +137,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Overview
 

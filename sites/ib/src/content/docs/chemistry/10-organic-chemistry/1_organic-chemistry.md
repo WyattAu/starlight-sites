@@ -37,6 +37,8 @@ Organic compounds are named systematically using IUPAC rules:
 
 ### Alkyl Groups
 
+<div class="table-wrap">
+
 | Name   | Formula      |
 | ------ | ------------ |
 | Methyl | --CH$_3$     |
@@ -44,7 +46,11 @@ Organic compounds are named systematically using IUPAC rules:
 | Propyl | --C$_3$H$_7$ |
 | Butyl  | --C$_4$H$_9$ |
 
+</div>
+
 ### Carbon Chain Prefixes
+
+<div class="table-wrap">
 
 | Carbons | Prefix |
 | ------- | ------ |
@@ -59,7 +65,11 @@ Organic compounds are named systematically using IUPAC rules:
 | 9       | Non-   |
 | 10      | Dec-   |
 
+</div>
+
 ### Suffixes for Functional Groups
+
+<div class="table-wrap">
 
 | Functional Group | Suffix    | Example          |
 | ---------------- | --------- | ---------------- |
@@ -73,6 +83,8 @@ Organic compounds are named systematically using IUPAC rules:
 | Ester            | -oate     | Methyl ethanoate |
 | Amine            | -amine    | Ethanamine       |
 | Amide            | -amide    | Ethanamide       |
+
+</div>
 
 :::note[Example]
 Name: 2-methylbut-2-ene.
@@ -116,12 +128,16 @@ Methyl propanoate, ethyl ethanoate, etc.
 
 ### Physical Properties
 
+<div class="table-wrap">
+
 | Property                  | Trend                                                         |
 | ------------------------- | ------------------------------------------------------------- |
 | Boiling point             | Increases with chain length (more London forces)              |
 | Melting point             | Increases with chain length                                   |
 | State at room temperature | C$_1$--C$_4$: gas; C$_5$--C$_{17}$: liquid; C$_{18}^+$: solid |
 | Solubility                | Non-polar, insoluble in water                                 |
+
+</div>
 
 ### Reactions
 
@@ -229,10 +245,10 @@ $$
 \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br}
 $$
 
-### Markovnikov"s Rule
+### Markovnikov's Rule
 
 When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon with the greater number of
-Hydrogen atoms (the more substituted carbon gets the halogen).
+hydrogen atoms (the more substituted carbon gets the halogen).
 
 $$
 \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3 \mathrm{ (major product)}
@@ -349,6 +365,8 @@ $$
 
 **Reactions**:
 
+<div class="table-wrap">
+
 | Reaction       | Conditions                      | Product                                                     |
 | -------------- | ------------------------------- | ----------------------------------------------------------- |
 | Combustion     | Burns in air                    | CO$_2$ + H$_2$O                                             |
@@ -357,6 +375,8 @@ $$
 | Dehydration    | H$_2$SO$_4$Heat                 | Alkene                                                      |
 | Substitution   | PBr$_3$ or SOCl$_2$             | Alkyl halide                                                |
 | Esterification | Carboxylic acid, H$^+$ catalyst | Ester                                                       |
+
+</div>
 
 **Oxidation of Alcohols**:
 
@@ -388,12 +408,16 @@ Tertiary alcohol $\to$ Not oxidised
 
 **Reactions**:
 
+<div class="table-wrap">
+
 | Reaction                      | Product         |
 | ----------------------------- | --------------- |
 | With base                     | Salt + water    |
 | With alcohol (esterification) | Ester + water   |
 | With ammonia                  | Amide           |
 | Reduction (LiAlH$_4$)         | Primary alcohol |
+
+</div>
 
 ### Esters (R--COO--R')
 
@@ -463,6 +487,8 @@ $$
 - **Racemisation** occurs (equal mixture of inverted and retained configuration).
 - Favoured by: tertiary substrates, weak nucleophiles, polar protic solvents.
 
+<div class="table-wrap">
+
 | Feature              | $S_N1$                         | $S_N2$                               |
 | -------------------- | ------------------------------ | ------------------------------------ |
 | Steps                | Two (carbocation intermediate) | One (concerted)                      |
@@ -470,6 +496,8 @@ $$
 | Stereochemistry      | Racemisation                   | Inversion                            |
 | Substrate preference | Tertiary                       | Primary                              |
 | Carbocation          | Yes                            | No                                   |
+
+</div>
 
 ### Elimination ($E1$ and $E2$)
 
@@ -497,6 +525,8 @@ $$
 
 ### Factors Affecting $S_N$ vs $E$
 
+<div class="table-wrap">
+
 | Condition          | Favours Substitution ($S_N$) | Favours Elimination ($E$) |
 | ------------------ | ---------------------------- | ------------------------- |
 | Temperature        | Lower                        | Higher                    |
@@ -505,6 +535,8 @@ $$
 | Substrate          | Primary ($S_N2$)             | Tertiary                  |
 | Steric hindrance   | Low                          | High                      |
 | Solvent            | Polar protic ($S_N1$)        | -                         |
+
+</div>
 
 ---
 
@@ -523,6 +555,8 @@ $$
 
 Formed by addition polymerisation of alkenes (monomers with C=C bonds). No by-product.
 
+<div class="table-wrap">
+
 | Polymer     | Monomer           | Uses                  |
 | ----------- | ----------------- | --------------------- |
 | Polyethene  | Ethene            | Bags, bottles         |
@@ -530,6 +564,8 @@ Formed by addition polymerisation of alkenes (monomers with C=C bonds). No by-pr
 | PVC         | Chloroethene      | Pipes, insulation     |
 | Polystyrene | Phenylethene      | Packaging, insulation |
 | PTFE        | Tetrafluoroethene | Non-stick coatings    |
+
+</div>
 
 ### Condensation Polymers
 
@@ -559,6 +595,8 @@ Proteins are natural polyamides formed from amino acid monomers via peptide bond
 
 ### Biodegradability
 
+<div class="table-wrap">
+
 | Polymer               | Biodegradable? | Reason                                         |
 | --------------------- | -------------- | ---------------------------------------------- |
 | Polyethene            | No             | C--C backbone resists hydrolysis               |
@@ -566,6 +604,8 @@ Proteins are natural polyamides formed from amino acid monomers via peptide bond
 | Polyamides            | Partially      | Amide bonds can be hydrolysed (slowly)         |
 | Polylactic acid (PLA) | Yes            | Ester linkages, derived from renewable sources |
 | Cellulose             | Yes            | Natural polymer, readily broken down           |
+
+</div>
 
 ### Identifying Monomers
 
@@ -601,7 +641,7 @@ Name the following compound: CH$_3$CH(Cl)CH(CH$_3$)CH$_2$CH$_3$.
 **Compare the mechanisms of $S_N1$ and $S_N2$ reactions.**
 
 $S_N2$: One-step bimolecular mechanism. The nucleophile attacks the carbon bearing the leaving group
-From the opposite side, leading to inversion of configuration. The rate depends on both [substrate]
+from the opposite side, leading to inversion of configuration. The rate depends on both [substrate]
 And [nucleophile]. Favoured for primary substrates.
 
 $S_N1$: Two-step unimolecular mechanism. The leaving group departs first to form a carbocation
@@ -632,7 +672,7 @@ Ethanol $\to$ Ethanoic acid: Use acidified K$_2$Cr$_2$O$_7$ (potassium dichromat
 Which compound is the major product when 2-methylpropene reacts with HBr?
 
 By Markovnikov's rule, H adds to the less substituted carbon (C1) and Br adds to the more
-Substituted carbon (C2):
+substituted carbon (C2):
 
 $$
 \mathrm{CH}_2=\mathrm{C}(\mathrm{CH}_3)_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CBr}(\mathrm{CH}_3)_2
@@ -669,17 +709,9 @@ $$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Organic Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
+
+<div class="table-wrap">
 
 | Reaction Type  | Description                                              |
 | -------------- | -------------------------------------------------------- |
@@ -691,18 +723,24 @@ flowchart TD
 | Reduction      | Loss of oxygen or gain of hydrogen                       |
 | Polymerisation | Monomers join to form long chains                        |
 
+</div>
+
+<div class="table-wrap">
+
 | Mechanism | Characteristics                              |
 | --------- | -------------------------------------------- |
 | $S_N2$    | One step, inversion, primary substrates      |
 | $S_N1$    | Two steps, racemisation, tertiary substrates |
 | $E2$      | One step, strong base, Zaitsev product       |
 | $E1$      | Two steps, carbocation, weak base            |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
 For naming questions, always identify the longest chain first. For mechanism questions, draw clear
 Curly arrow mechanisms showing electron movement. For comparison questions ($S_N1$ vs $S_N2$), use a
-Table for clarity. For polymer questions, be able to identify the monomer from the polymer and vice
+table for clarity. For polymer questions, be able to identify the monomer from the polymer and vice
 Versa.
 
 ---
@@ -721,7 +759,7 @@ Versa.
 ### Optical Isomerism
 
 Optical isomers (enantiomers) are non-superimposable mirror images. They occur when a carbon atom
-Has four different groups attached (a chiral centre).
+has four different groups attached (a chiral centre).
 
 **Properties of enantiomers**:
 
@@ -733,7 +771,7 @@ Has four different groups attached (a chiral centre).
 ### Racemisation
 
 If a reaction creates a chiral centre but has no stereochemical control, a racemic mixture is
-Produced.
+produced.
 
 ### $R/S$ Nomenclature
 
@@ -741,7 +779,7 @@ The Cahn-Ingold-Prelog priority rules assign $R$ or $S$ to chiral centres:
 
 1. Assign priority (1--4) to groups around the chiral centre (atomic number).
 2. Orient the molecule so the lowest priority group points away.
-3. Trace 1 $\to$ 2 $\to$ 3: clockwise $= R$Counterclockwise $= S$.
+3. Trace 1 $\to$ 2 $\to$ 3: clockwise $= R$ Counterclockwise $= S$.
 
 ### Conformational Isomerism
 
@@ -772,6 +810,8 @@ Cycloalkanes can have cis-trans isomerism when substituents are on different sid
 
 Identifies functional groups by absorption of IR radiation.
 
+<div class="table-wrap">
+
 | Absorption (cm$^{-1}$) | Bond                   |
 | ---------------------- | ---------------------- |
 | 2500--3300             | O--H (broad), N--H     |
@@ -780,11 +820,13 @@ Identifies functional groups by absorption of IR radiation.
 | 1620--1680             | C=C                    |
 | 2100--2260             | C$\equiv$C, C$\equiv$N |
 
+</div>
+
 ### Mass Spectrometry
 
 - **Molecular ion peak**: gives the molecular mass.
 - **Fragmentation pattern**: helps identify the structure.
-- **Isotope pattern**: Cl has $^{35}$Cl:$^{37}$Cl $\approx$ 3:1 ratio; Br has $^{79}$Br:$^{81}$Br
+- **Isotope pattern**: Cl has $^{35}$ Cl:$^{37}$ Cl $\approx$ 3:1 ratio; Br has $^{79}$ Br:$^{81}$ Br
   $\approx$ 1:1.
 
 ### Nuclear Magnetic Resonance (NMR) Spectroscopy
@@ -945,7 +987,7 @@ When HBr adds to propene (CH$_3$CH=CH$_2$):
 5. Br$^-$ then attacks the carbocation, giving 2-bromopropane as the major product.
 
 Markovnikov's rule states that the hydrogen adds to the carbon with more hydrogen atoms because this
-Pathway proceeds through the more stable carbocation intermediate.
+pathway proceeds through the more stable carbocation intermediate.
 
 ## Practice Problems
 
@@ -972,7 +1014,7 @@ Name: **4-chloro-2-methylhexane**.
 <summary>Question 2: Alkene Addition Reactions</summary>
 
 Describe the products formed when propene ($\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2$) reacts with
-Each of the following:
+each of the following:
 
 (a) $\mathrm{HBr}$
 
@@ -988,19 +1030,25 @@ Each of the following:
 (a) By Markovnikov's rule, H adds to the less substituted carbon and Br adds to the more substituted
 Carbon:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3
+$$
 
 Product: **2-bromopropane**.
 
 (b) Halogenation (anti addition):
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{Br}$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{Br}
+$$
 
 Product: **1,2-dibromopropane**.
 
 (c) Acid-catalysed hydration (Markovnikov addition):
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3
+$$
 
 Product: **propan-2-ol**.
 
@@ -1027,11 +1075,13 @@ Steric hindrance, and $\mathrm{OH}^-$ is a strong nucleophile. $S_N2$ is favoure
 Substrates with strong nucleophiles.
 
 (b)
-$$\mathrm{Rate} = k[\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br}][\mathrm{OH}^-]$$
+$$
+\mathrm{Rate} = k[\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br}][\mathrm{OH}^-]
+$$
 
 (c) Inversion of configuration (Walden inversion) occurs at the carbon bearing the leaving group.
 The nucleophile attacks from the back of the C--Br bond, resulting in the product having the
-Opposite configuration.
+opposite configuration.
 
 </details>
 
@@ -1084,7 +1134,7 @@ $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$:
 <summary>Answer</summary>
 
 (a) Primary alcohol: oxidised first to propanal ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO}$), then
-Further oxidised to propanoic acid ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH}$). With acidified
+further oxidised to propanoic acid ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH}$). With acidified
 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ under reflux, the final product is **propanoic acid**.
 
 (b) Secondary alcohol: oxidised to propanone (acetone, $\mathrm{CH}_3\mathrm{COCH}_3$). The reaction
@@ -1110,9 +1160,9 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 ## Related Content at Other Levels
 
 - **A-Level Organic Chemistry:**
-  [Organic Chemistry](https://alevel.wyattau.com/docs/chemistry/organic-chemistry)
+  [Organic Chemistry](https://alevel.wyattau.com/chemistry/organic-chemistry/)
 - **DSE Carbon Chemistry:**
-  [Carbon Chemistry](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry)
+  [Carbon Chemistry](https://dse.wyattau.com/chemistry/7-organic-chemistry/)
 
 ## Common Pitfalls
 
@@ -1135,11 +1185,15 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Site    | Link                                                                                             |
 | ------------------- | ------- | ------------------------------------------------------------------------------------------------ |
 | [Organic Chemistry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/organic-chemistry/introduction) |
-| [Organic Chemistry] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/10-organic-chemistry/1_organic-chemistry)        |
-| [Organic Chemistry] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry/1_organic-chemistry)       |
+| [Organic Chemistry] | IB      | [View](https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry/)        |
+| [Organic Chemistry] | DSE     | [View](https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry/)       |
+
+</div>
 
 ## Worked Examples
 

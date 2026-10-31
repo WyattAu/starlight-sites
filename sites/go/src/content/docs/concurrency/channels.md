@@ -31,7 +31,7 @@ buf := make(chan int, 10)    // sender can buffer up to 10
 ## Select
 
 `select` allows a goroutine to wait on multiple channel operations simultaneously. It blocks until
-One of its cases can proceed, then executes that case:
+one of its cases can proceed, then executes that case:
 
 ```go
 ch1 := make(chan string)
@@ -261,6 +261,8 @@ Boundaries. It is the standard mechanism for propagating cancellation signals in
 
 ### Context Types
 
+<div class="table-wrap">
+
 | Type                   | Purpose                                           |
 | ---------------------- | ------------------------------------------------- |
 | `context.Background`   | Root context, never cancelled                     |
@@ -269,6 +271,8 @@ Boundaries. It is the standard mechanism for propagating cancellation signals in
 | `context.WithTimeout`  | Returns a context that cancels after a deadline   |
 | `context.WithDeadline` | Returns a context that cancels at a specific time |
 | `context.WithValue`    | Returns a context carrying a key-value pair       |
+
+</div>
 
 ### WithCancel
 
@@ -345,7 +349,7 @@ Client disconnects, the context is cancelled, propagating to all goroutines hand
 
 ## Common Pitfalls
 
-1. **Forgetting to call the cancel function.** `WithCancel``WithTimeout`And `WithDeadline` return a
+1. **Forgetting to call the cancel function.** `WithCancel`, `WithTimeout` and `WithDeadline` return a
    cancel function that must be called to release resources. Use `defer cancel()`.
 
 2. **Not propagating context through function calls.** If a function starts goroutines, accept a
@@ -368,17 +372,6 @@ Client disconnects, the context is cancelled, propagating to all goroutines hand
 7. **Race conditions with `select`.** If multiple cases are ready, `select` chooses uniformly at
    random. Do not assume a preferred order.
 
-
-```mermaid
-flowchart TD
-    A[Channels] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of channels and concurrency patterns, including underlying
@@ -392,13 +385,7 @@ theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

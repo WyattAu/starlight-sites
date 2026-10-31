@@ -50,8 +50,8 @@ OutputStream (abstract)
 └── PipedOutputStream, writes to a PipedInputStream (inter-thread)
 ```
 
-The core contract is minimal: `read()` (one byte), `read(byte[])``read(byte[], off, len)` for Input,
-and `write(int)``write(byte[])``write(byte[], off, len)` for output. The single-byte Methods are
+The core contract is minimal: `read()` (one byte), `read(byte[])`, `read(byte[], off, len)` for Input,
+and `write(int)`, `write(byte[])`, `write(byte[], off, len)` for output. The single-byte Methods are
 slow; use the bulk methods or wrap with a buffered stream.
 
 ```java
@@ -80,8 +80,8 @@ try (DataInputStream dis = new DataInputStream(
 ```
 
 The `FilterInputStream`/`FilterOutputStream` classes themselves are mostly pass-through; the
-Interesting behavior is in their subclasses (`BufferedInputStream``DataInputStream`
-`PushbackInputStream`Etc.).
+Interesting behavior is in their subclasses (`BufferedInputStream`, `DataInputStream`
+`PushbackInputStream`. Etc.).
 
 ### Reader and Writer Hierarchy
 
@@ -153,14 +153,14 @@ try (var in = new BufferedInputStream(new FileInputStream("large.bin"));
 
 `BufferedWriter.newLine()` writes the platform-dependent line separator. `BufferedReader.readLine()`
 Strips the line terminator and returns `null` at end-of-stream. If you need to distinguish between
-`\n``\r\n`And `\r`Use character-level reading instead. `BufferedReader` also exposes `lines()` Which
+`\n`, `\r\n` and `\r`. Use character-level reading instead. `BufferedReader` also exposes `lines()` Which
 returns a `Stream&lt;String&gt;`.
 
 ### File I/O Patterns with try-with-resources
 
 Try-with-resources (JDK 7) is the correct way to manage I/O resources. Every stream, reader, writer,
 Channel, and `Scanner` implements `AutoCloseable`. Resources are closed in reverse declaration order
-Even if an exception is thrown.
+even if an exception is thrown.
 
 ```java
 // Reading a text file line by line (the most common pattern)
@@ -205,7 +205,7 @@ Finalization is unreliable for cleanup.
 ### Serialization and Externalizable
 
 Java serialization (`java.io.Serializable`) converts an object graph into a byte stream and back. It
-Is deceptively easy to use and deceptively hard to use correctly.
+is deceptively easy to use and deceptively hard to use correctly.
 
 ```java
 public class User implements Serializable {
@@ -220,7 +220,7 @@ public class User implements Serializable {
 ```
 
 Serialization serializes the entire reachable object graph. Serializing a `HashMap` also serializes
-Every key and value object.
+every key and value object.
 
 **Common Pitfalls with Serialization:**
 
@@ -293,9 +293,11 @@ Single JVM or integrating with legacy APIs.
 ## NIO.2 (java.nio.file), The Path API
 
 NIO.2, introduced in JDK 7 (JSR 203), is a modern file API that addresses the deficiencies of
-`java.io.File`. The core types are `Path``Paths`And `Files`.
+`java.io.File`. The core types are `Path`, `Paths` and `Files`.
 
 ### Path vs File Comparison
+
+<div class="table-wrap">
 
 | Feature           | `java.io.File`                         | `java.nio.file.Path`                                  |
 | ----------------- | -------------------------------------- | ----------------------------------------------------- |
@@ -307,9 +309,11 @@ NIO.2, introduced in JDK 7 (JSR 203), is a modern file API that addresses the de
 | Atomic operations | Not supported                          | `Files.move()` with `ATOMIC_MOVE`                     |
 | Error reporting   | Returns `false` on failure             | Throws checked exceptions with details                |
 
+</div>
+
 `Path` is immutable and separates locating a file (`Path`) from accessing it (`Files`).
 `java.io.File` conflates both: its methods like `exists()` and `isDirectory()` query the filesystem
-But do not declare `SecurityException`.
+but do not declare `SecurityException`.
 
 ```java
 // Old way (java.io.File)
@@ -423,8 +427,8 @@ Safe file replacement (write to temp file, then atomic move).
 
 **Common Pitfall:** `Files.delete()` throws `NoSuchFileException` if the file does not exist, and
 `DirectoryNotEmptyException` if the directory is not empty. Use `Files.deleteIfExists()` if you want
-To ignore a missing file, and use `Files.walkFileTree()` with `DELETE_ON_CLOSE` or manual recursion
-To delete a non-empty directory.
+to ignore a missing file, and use `Files.walkFileTree()` with `DELETE_ON_CLOSE` or manual recursion
+to delete a non-empty directory.
 
 ```java
 // Delete a non-empty directory
@@ -445,7 +449,7 @@ Files.walkFileTree(dir, new SimpleFileVisitor<>() {
 
 ### File Attributes and Permissions
 
-NIO.2 provides a rich attribute API through `Files.getAttribute()``Files.readAttributes()`And The
+NIO.2 provides a rich attribute API through `Files.getAttribute()`, `Files.readAttributes()` and The
 `BasicFileAttributes` interface.
 
 ```java
@@ -599,6 +603,8 @@ Bidirectional where supported and support scatter/gather I/O (multiple buffers i
 
 Key channel types:
 
+<div class="table-wrap">
+
 | Channel               | Direction   | Blocking/Non-blocking | Use case                   |
 | --------------------- | ----------- | --------------------- | -------------------------- |
 | `FileChannel`         | Read/Write  | Blocking only         | File I/O                   |
@@ -607,6 +613,8 @@ Key channel types:
 | `ServerSocketChannel` | Accept only | Both                  | TCP server                 |
 | `Pipe.SourceChannel`  | Read only   | Blocking only         | Inter-thread communication |
 | `Pipe.SinkChannel`    | Write only  | Blocking only         | Inter-thread communication |
+
+</div>
 
 You obtain a `FileChannel` from a stream or directly:
 
@@ -760,7 +768,7 @@ Mapped byte buffers caveats:
 ### SocketChannel and ServerSocketChannel
 
 `SocketChannel` and `ServerSocketChannel` provide non-blocking TCP I/O. In non-blocking mode,
-`connect()``accept()``read()`And `write()` return immediately if they cannot complete; use a
+`connect()`, `accept()`, `read()` and `write()` return immediately if they cannot complete; use a
 `Selector` to determine readiness.
 
 ```java
@@ -801,7 +809,7 @@ try (ServerSocketChannel server = ServerSocketChannel.open()) {
 The polling loop above is inefficient. The proper pattern is to use a `Selector` (see next section).
 
 **Common Pitfall:** `write()` may write fewer bytes than the buffer contains; call `write()` again
-With the remaining bytes. Call `configureBlocking(false)` _before_ `connect()`Not after.
+With the remaining bytes. Call `configureBlocking(false)` _before_ `connect()`. Not after.
 
 ### Selector and SelectionKey (Reactor Pattern)
 
@@ -864,7 +872,7 @@ try (Selector selector = Selector.open();
 Key concepts:
 
 - **interestOps()**, the operations you registered for (modifiable at any time).
-- **readyOps()**, the operations currently ready (checked by `isAcceptable()``isReadable()` etc.).
+- **readyOps()**, the operations currently ready (checked by `isAcceptable()`, `isReadable()` etc.).
 - **attachment()**, arbitrary per-connection state (e.g., an output buffer).
 
 **Common Pitfalls:**
@@ -1026,6 +1034,8 @@ try (FileChannel ch = FileChannel.open(Path.of("data.db"),
 
 ## Common Pitfalls Summary
 
+<div class="table-wrap">
+
 | Pitfall                                 | Consequence                             | Fix                                              |
 | --------------------------------------- | --------------------------------------- | ------------------------------------------------ |
 | Not specifying charset                  | Silent character corruption             | Always use `StandardCharsets.UTF_8`              |
@@ -1040,16 +1050,7 @@ try (FileChannel ch = FileChannel.open(Path.of("data.db"),
 | `WatchService` not resetting key        | No further events delivered             | Always call `key.reset()`                        |
 | Not closing `Files.lines()` stream      | File handle leak                        | Use try-with-resources                           |
 
-
-```mermaid
-flowchart TD
-    A[01 Io Nio] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 

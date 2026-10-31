@@ -27,7 +27,7 @@ The following are conserved in all known interactions:
 - Electric charge $Q$
 - Colour charge
 - Baryon number $B$ (each quark has $B = 1/3$)
-- Lepton family numbers $L_e$, $L_\mu$, $L_\tau$ (each lepton has $L = +1$Each antilepton $L = -1$)
+- Lepton family numbers $L_e$, $L_\mu$, $L_\tau$ (each lepton has $L = +1$ Each antilepton $L = -1$)
 
 ### 2.2 Approximate or Partially Conserved Quantities
 
@@ -43,16 +43,20 @@ The following are conserved in all known interactions:
 ### 2.3 The Gell-Mann--Nishijima Formula
 
 The Gell-Mann--Nishijima formula relates the electric charge of a hadron to its isospin Projection
-$I_3$Baryon number $B$ And strangeness $S$:
+$I_3$ Baryon number $B$ And strangeness $S$:
 
-$$Q = I_3 + \frac{B + S}{2}$$
+$$
+Q = I_3 + \frac{B + S}{2}
+$$
 
-This can be generalised to include charm $C$Bottomness $B"$ And topness $T$:
+This can be generalised to include charm $C$ Bottomness $B"$ And topness $T$:
 
-$$Q = I_3 + \frac{1}{2}(B + S + C + B' + T)$$
+$$
+Q = I_3 + \frac{1}{2}(B + S + C + B' + T)
+$$
 
 **Derivation.** The formula follows from the definition of the hypercharge $Y = B + S$ and the
-Relation $Q = I_3 + Y/2$Which is a direct consequence of the embedding of
+Relation $Q = I_3 + Y/2$ Which is a direct consequence of the embedding of
 $\mathrm{U}(1)_{\mathrm{em}}$ Within $\mathrm{SU}(3)$ flavour. For the electroweak theory, the
 hypercharge is generalised to $Y = B + S + C + B' + T$ when additional flavours are included.
 
@@ -64,17 +68,23 @@ Verify the charges of the following hadrons:
 **(a) Proton ($uud$):** $B = 1$, $S = 0$, $C = 0$, $B' = 0$, $T = 0$. The proton belongs to The
 isospin doublet with $I = 1/2$, $I_3 = +1/2$.
 
-$$Q = \frac{1}{2} + \frac{1 + 0}{2} = \frac{1}{2} + \frac{1}{2} = 1 \quad \checkmark$$
+$$
+Q = \frac{1}{2} + \frac{1 + 0}{2} = \frac{1}{2} + \frac{1}{2} = 1 \quad \checkmark
+$$
 
 **(b) $\Xi^-$ ($ssd$):** $B = 1$, $S = -2$, $C = 0$, $B' = 0$, $T = 0$. The cascade Particle belongs
 to the isospin doublet with $I = 1/2$, $I_3 = -1/2$.
 
-$$Q = -\frac{1}{2} + \frac{1 + (-2)}{2} = -\frac{1}{2} + \left(-\frac{1}{2}\right) = -1 \quad \checkmark$$
+$$
+Q = -\frac{1}{2} + \frac{1 + (-2)}{2} = -\frac{1}{2} + \left(-\frac{1}{2}\right) = -1 \quad \checkmark
+$$
 
 **(c) $D^+$ ($c\bar{d}$):** $B = 0$, $S = 0$, $C = +1$, $B' = 0$, $T = 0$. The $D$ mesons form an
 isospin doublet with $I = 1/2$, $I_3 = +1/2$.
 
-$$Q = \frac{1}{2} + \frac{0 + 0 + 1}{2} = \frac{1}{2} + \frac{1}{2} = 1 \quad \checkmark$$
+$$
+Q = \frac{1}{2} + \frac{0 + 0 + 1}{2} = \frac{1}{2} + \frac{1}{2} = 1 \quad \checkmark
+$$
 
 </details>
 
@@ -85,14 +95,16 @@ $\mathbf{x} \to -\mathbf{x}$. Under parity, polar vectors change sign while axia
 
 In 1956, Lee and Yang proposed that parity might not be conserved in weak interactions. This was
 Confirmed by the **Wu experiment** (1957), which measured the angular distribution of electrons
-Emitted in the beta decay of polarised $^{60}$Co nuclei. The electrons were emitted preferentially
+Emitted in the beta decay of polarised $^{60}$ Co nuclei. The electrons were emitted preferentially
 Opposite to the nuclear spin direction, a clear parity-violating asymmetry.
 
 The weak interaction **maximally violates parity**: only left-handed fermions (and right-handed
 Antifermions) participate in charged-current weak interactions. This is encoded in the $V - A$
 structure of the weak current:
 
-$$J^\mu_{\mathrm{weak} = \bar{\psi}\gamma^\mu(1 - \gamma^5)\psi}$$
+$$
+J^\mu_{\mathrm{weak} = \bar{\psi}\gamma^\mu(1 - \gamma^5)\psi}
+$$
 
 Where the $(1 - \gamma^5)$ projector selects the left-handed chirality component.
 
@@ -105,11 +117,15 @@ Consider the decay $\Sigma^+ \to p + \pi^0$. Is this allowed?
 
 **Quantum numbers:**
 
+<div class="table-wrap">
+
 | Particle   | $Q$  | $B$ | $S$  | $I_3$  |
 | ---------- | ---- | --- | ---- | ------ |
 | $\Sigma^+$ | $+1$ | $1$ | $-1$ | $+1$   |
 | $p$        | $+1$ | $1$ | $0$  | $+1/2$ |
 | $\pi^0$    | $0$  | $0$ | $0$  | $0$    |
+
+</div>
 
 **Conservation checks:**
 
@@ -145,6 +161,8 @@ state), making it extremely suppressed: $\mathrm{BR}(\pi^0 \to e^+e^-) \approx 6
 
 **Noether's Theorem:** Every continuous symmetry of the action corresponds to a conserved quantity.
 
+<div class="table-wrap">
+
 | Symmetry          | Conserved Quantity |
 | ----------------- | ------------------ |
 | Time translation  | Energy             |
@@ -152,6 +170,8 @@ state), making it extremely suppressed: $\mathrm{BR}(\pi^0 \to e^+e^-) \approx 6
 | Rotation          | Angular momentum   |
 | U(1) gauge        | Electric charge    |
 | SU(3) gauge       | Colour charge      |
+
+</div>
 
 **Proof (sketch).** Consider an infinitesimal transformation $x^\mu \to x^\mu + \delta x^\mu$
 $\phi \to \phi + \delta\phi$. If the action $S = \int \mathcal{L}\,d^4x$ is invariant, then the
@@ -163,17 +183,6 @@ satisfies $\partial_\mu j^\mu = 0$, yielding a conserved charge $Q = \int j^0\,d
 Discrete symmetries ($P$, $C$, $T$) do not arise from Noether's theorem but are still powerful
 Constraints. The **CPT theorem** states that any Lorentz-invariant local quantum field theory is
 Invariant under the combined transformation $CPT$.
-
-
-```mermaid
-flowchart TD
-    A[2_Conservation Laws And Symmetries] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -204,6 +213,6 @@ Noether's theorem relates continuous symmetries to conserved quantities. Discret
 - **[Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)**: CP violation in the quark and lepton sectors is a manifestation of the symmetry properties studied here.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

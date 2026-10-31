@@ -16,16 +16,6 @@ description: "Gabriel Garcia Marquez is a leftist and critic of authoritarianism
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Chronicle Of A Death Foretold] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Chronicle is like a puzzle with missing pieces, the narrator reconstructs events, but gaps remain, mirroring the community's selective memory:** The novel's structure mimics the way communities construct narratives about traumatic events
@@ -37,9 +27,9 @@ flowchart TD
 ## Author Context
 
 Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for
-Social justice and progressive change. Most of his work align with socialist ideology, emphasizing
-On dismantling of oppressive structures (e.g., patriarchy, class hierarchies), as well as the need
-For collective accountability.
+social justice and progressive change. Most of his work align with socialist ideology, emphasizing
+on dismantling of oppressive structures (e.g., patriarchy, class hierarchies), as well as the need
+for collective accountability.
 
 ## Core Concepts
 
@@ -52,31 +42,31 @@ Rejecting universal grand narratives (e.g., absolute truth, objectivity).
 ### Magical Realism
 
 With prophetic dreams and the fantastical atmosphere, magical realism reflect the regulation of the
-Mundane by human believe.
+mundane by human believe.
 
 ### Critique of Patriarchy and honor
 
 Marquez dissect the machismo and societal obsession with honor, through a post structuralist stance
-To examine how rigid social hierarchies enforce destructive behaviors.
+to examine how rigid social hierarchies enforce destructive behaviors.
 
 ### Determinism
 
-The inevitability of Santiago"s death, shows a determinist worldview, where individual agency are
-Constrained, expressing concerns on the lack of power against systemic forces (here being societal
+The inevitability of Santiago's death, shows a determinist worldview, where individual agency are
+constrained, expressing concerns on the lack of power against systemic forces (here being societal
 Norms and honor).
 
 ### Collective Accountability
 
 Marquez invites the reader to reconstruct the murder through fragmented interviews, while allowing
 Readers to interpret the collective guilt of the community following a reader-response approach
-Rather than a new criticism approach.
+rather than a new criticism approach.
 
 ## Critiques
 
 ### Memory Fragility
 
 Through expression of memory misalignment between different perspectives, Marquez express the
-Fragility of memory and the decay of memory through time.
+fragility of memory and the decay of memory through time.
 
 ### Subjectivity of Narratives
 
@@ -89,12 +79,12 @@ Innocence)
 ### Novella
 
 Novella writings like Chronicle are a shorter novel that attempts to bring a moral lesson, a
-Critique of a social system or a satire that present a social issue.
+critique of a social system or a satire that present a social issue.
 
 ### First Person Narrative
 
 First person narrative is important to address the subjective and limiting nature of information
-From a single perspective.
+from a single perspective.
 
 ### New Journalism
 
@@ -110,7 +100,7 @@ Santiago Nasar is the protagonist as a victim of brutal murder.
 #### Reason for Construct
 
 He is constructed to criticize the focus on following performative religious practices but not
-Conforming to religion orthodoxy (ortho "correct" + doxa "belief) and orthopraxy (ortho "correct" +
+conforming to religion orthodoxy (ortho "correct" + doxa "belief) and orthopraxy (ortho "correct" +
 Praxis "action").
 
 - Criticism of performative rituals through the killing of Santiago Nasar
@@ -123,8 +113,8 @@ Praxis "action").
 ### Narrator
 
 Due to the new journalism approach, the narrator is constructed with subjectivism and as a character
-That interacts directly with the story. The narrator minimizes the discussions on himself and only
-Reviews that:
+that interacts directly with the story. The narrator minimizes the discussions on himself and only
+reviews that:
 
 - He is a good friend of Santiago
 - At the time of murder he was in love with Maria Alejandrina Cervantes
@@ -136,7 +126,7 @@ Reviews that:
 #### Reason for Construct
 
 The Narrator is constructed to explore the collective responsibility of the townsman and display the
-Subjectivity of narration.
+subjectivity of narration.
 
 - ## Display of subjectivism
 
@@ -148,21 +138,21 @@ Each of whom remembers events differently or omits crucial details.
 
 The novella opens by revealing that Santiago Nasar was murdered by the Vicario brothers, Pedro and
 Pablo. The narrator, returning to the town 27 years later, reconstructs the events through
-Interviews with the townspeople.
+interviews with the townspeople.
 
 Santiago Nasar returns home in the early morning after a wedding celebration for Angela Vicario and
 Bayardo San Roman. On her wedding night, Bayardo discovers Angela is not a virgin and returns her to
-Her family. Under pressure from their mother, Angela's twin brothers Pedro and Pablo declare they
-Must kill the man who dishonoured their sister. Angela names Santiago Nasar.
+her family. Under pressure from their mother, Angela's twin brothers Pedro and Pablo declare they
+must kill the man who dishonoured their sister. Angela names Santiago Nasar.
 
 The brothers announce their intention publicly, sharpening their knives in the butcher shop. Despite
-The town's awareness of the threat, no one effectively warns Santiago. The town priest, the police
+the town's awareness of the threat, no one effectively warns Santiago. The town priest, the police
 Lieutenant, and numerous bystanders all fail to act decisively. Santiago's mother, Placida Linero,
 Locks the front door, believing he has already entered, sealing his fate.
 
 The brothers kill Santiago in front of his house. He is stabbed repeatedly and dies from his wounds
-While walking into his home. The brothers surrender voluntarily and are sentenced to three years in
-Prison (later pardoned). Angela Vicario never reveals the true identity of her perpetrator.
+while walking into his home. The brothers surrender voluntarily and are sentenced to three years in
+prison (later pardoned). Angela Vicario never reveals the true identity of her perpetrator.
 
 ## Character Analysis
 
@@ -179,13 +169,13 @@ Who took her virginity, but the novel never confirms whether this is true.
 - After years of writing letters, Angela re-constructs her identity for Bayardo's approval
 
 Angela's character embodies the commodification of women under machismo culture. Her body is not her
-Own, it belongs first to her family's honour and then to her husband. Her act of naming Santiago
-May be revenge against the town, protection of the real perpetrator, or a desperate Fabrication.
+own, it belongs first to her family's honour and then to her husband. Her act of naming Santiago
+may be revenge against the town, protection of the real perpetrator, or a desperate Fabrication.
 
 ### Pedro and Pablo Vicario
 
 The twin brothers are reluctant killers who feel compelled by the honor code. They publicise their
-Intentions, sharpen their knives openly, and even tell people they hope someone will stop them.
+intentions, sharpen their knives openly, and even tell people they hope someone will stop them.
 
 - > "We killed him openly, but we're innocent" ~Vicario brothers
 - Their defence reveals the honour code's logic: murder is not a crime if motivated by honour
@@ -194,12 +184,12 @@ Intentions, sharpen their knives openly, and even tell people they hope someone 
 - The brothers are butcher by trade, their skill with knives makes the murder brutally efficient
 
 Their willingness to announce the murder yet relief when someone almost stops them reveals their
-Internal conflict between personal morality and social duty.
+internal conflict between personal morality and social duty.
 
 ### Bayardo San Roman
 
 Bayardo is wealthy, charming, and superficial. He "buys" Angela's love by presenting himself as the
-Ideal husband, without genuinely knowing her.
+ideal husband, without genuinely knowing her.
 
 - > "He's the perfect man" ~the women of the town
 - Bayardo is constructed as an object of desire rather than a real person
@@ -235,7 +225,7 @@ Placida locks the front door, believing Santiago has already entered. This act s
 ### Honor (Honour Code)
 
 The honor code is the central force driving the plot. It demands that the Vicario brothers restore
-Their family's reputation through violence. Marquez exposes this code as both performative and
+their family's reputation through violence. Marquez exposes this code as both performative and
 Hypocritical:
 
 - The brothers confess to the priest before committing the murder, suggesting they know it is a sin
@@ -246,8 +236,8 @@ Hypocritical:
 ### Fate and Determinism
 
 The title itself announces the inevitability of Santiago's death. Marquez constructs the narrative
-So that every character who could have prevented the murder fails to do so, creating a sense of
-Cosmic determinism.
+so that every character who could have prevented the murder fails to do so, creating a sense of
+cosmic determinism.
 
 - > "There had never been a death more foretold" ~Narrator
 - The opening line establishes fatalism before any detail is revealed
@@ -279,7 +269,7 @@ But no one took effective action:
 - Santiago's own mother locks the door at the critical moment
 
 Marquez suggests that collective guilt is worse than individual guilt, when everyone is
-Responsible, no one is accountable.
+responsible, no one is accountable.
 
 ### Memory and Truth
 
@@ -311,7 +301,7 @@ The narrator interviews witnesses and presents testimony, mimicking a journalist
 - Footnote-like precision about some details alongside gaps in others
 
 This technique implicates the reader, we must judge what happened, just as the town must judge its
-Own guilt.
+own guilt.
 
 ### Magical Realism
 
@@ -327,6 +317,8 @@ Culture.
 
 ## Key Quotes with Analysis
 
+<div class="table-wrap">
+
 | Quote                                                   | Analysis                                                                             |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | "There had never been a death more foretold"            | Establishes fatalism and collective complicity from the opening line                 |
@@ -336,6 +328,8 @@ Culture.
 | "She became a virgin again just for him"                | The performative nature of female purity under patriarchy                            |
 | "The bishop blessed him from the boat"                  | Religious authority passes by, offering symbolic but useless blessing                |
 | "He came with a suitcase full of letters... Unopened"   | Bayardo's romantic gesture is hollow, appearance without substance                  |
+
+</div>
 
 :::tip
 Journalistic) as well as the content. The way the story is told is as important as what happens.
@@ -357,8 +351,8 @@ Consider how Marquez uses the reader's knowledge of the ending to create dramati
 
 Both texts belong to Part 3 of the IB syllabus (Literature -- Texts and Contexts) and reward
 Comparative study. Despite differences in genre, setting, and period, they converge on a set of
-Shared concerns: the violence of honour codes, the commodification of women, and the destruction of
-The individual by social forces.
+shared concerns: the violence of honour codes, the commodification of women, and the destruction of
+the individual by social forces.
 
 For a full dedicated comparative guide, see
 [chronicle-streetcar](/english/comparitives/chronicle-streetcar/).
@@ -368,25 +362,25 @@ For a full dedicated comparative guide, see
 In both texts, the honour code functions as a mechanism through which communities police individual
 Behaviour. The honour code in Chronicle is **communal and public**: the entire town knows of the
 Vicario brothers' intention, and collective inaction constitutes endorsement. In Streetcar, the
-Honour code is **domestic and private**: Stanley's sense of affront is personal (Blanche insults his
+honour code is **domestic and private**: Stanley's sense of affront is personal (Blanche insults his
 Polishness, undermines his authority in his own home), and his violence is enacted behind closed
 Doors.
 
 Yet the structural parallel remains. In both texts, a man's honour is measured by his ability to
-Control a woman's body and reputation. The Vicario brothers must kill Santiago to restore Angela's
+control a woman's body and reputation. The Vicario brothers must kill Santiago to restore Angela's
 Purity; Stanley must destroy Blanche to restore his domestic sovereignty. Both acts of violence are
-Presented as restorative rather than transgressive.
+presented as restorative rather than transgressive.
 
 ### Blanche DuBois and Angela Vicario: Women Commodified by Patriarchy
 
 Both women are defined by their sexual purity -- or the loss of it. Angela is returned to her family
-Because she is not a virgin; Blanche is expelled from Laurel and ultimately committed because her
-Sexual history makes her unmarriageable. In both cases, the woman's value is reduced to a single
+because she is not a virgin; Blanche is expelled from Laurel and ultimately committed because her
+sexual history makes her unmarriageable. In both cases, the woman's value is reduced to a single
 Physical attribute.
 
 The difference lies in agency and response. Angela exercises a form of passive resistance: she
-Writes thousands of letters to Bayardo, reclaiming her voice within the very system that silenced
-Her. Blanche constructs elaborate illusions to survive, but her defences are progressively stripped
+writes thousands of letters to Bayardo, reclaiming her voice within the very system that silenced
+her. Blanche constructs elaborate illusions to survive, but her defences are progressively stripped
 Away. Both women are ultimately broken by the patriarchal systems they inhabit, but Angela achieves
 A kind of ambiguous reintegration (Bayardo returns), while Blanche is permanently exiled.
 
@@ -395,28 +389,30 @@ A kind of ambiguous reintegration (Bayardo returns), while Blanche is permanentl
 Stanley and the Vicario brothers are products of cultures that equate masculinity with violence. The
 Vicario brothers are butchers by trade; their skill with knives mirrors Stanley's physical
 Dominance. Both sets of men are publicly affirmed for their aggression: the brothers are pardoned
-After three years, and Stanley is never punished for raping Blanche.
+after three years, and Stanley is never punished for raping Blanche.
 
 The critical difference is self-awareness. The Vicario brothers are reluctant killers who hope to be
-Stopped; their public announcements of intent are implicitly pleas for intervention. Stanley, by
-Contrast, acts with full conviction and no remorse. Marquez presents machismo as a social trap that
+stopped; their public announcements of intent are implicitly pleas for intervention. Stanley, by
+contrast, acts with full conviction and no remorse. Marquez presents machismo as a social trap that
 Ensnares even its enforcers; Williams presents it as a will to power that is never checked.
 
 ### Death and Inevitability
 
 Both texts are structured around a death that feels predetermined. The title of Chronicle announces
-The murder; Streetcar's streetcar route -- Desire to Cemeteries to Elysian Fields -- maps Blanche's
+the murder; Streetcar's streetcar route -- Desire to Cemeteries to Elysian Fields -- maps Blanche's
 Trajectory toward psychic death. In both cases, the audience knows the destination before the
-Journey begins.
+journey begins.
 
 Santiago's death is literal and physical; Blanche's destruction is psychological and social. Yet
-Both are presented as the products of social forces rather than individual malice. No single person
+both are presented as the products of social forces rather than individual malice. No single person
 Kills Santiago -- the entire town is complicit. No single act destroys Blanche -- it is the
-Cumulative weight of social rejection, sexual violence, and the erasure of her identity.
+cumulative weight of social rejection, sexual violence, and the erasure of her identity.
 
 ### Form: Novella vs Play, Non-linear vs Linear
 
 The formal differences between the texts are as significant as their thematic parallels.
+
+<div class="table-wrap">
 
 | Feature               | Chronicle                                                               | Streetcar                                                               |
 | --------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -427,6 +423,8 @@ The formal differences between the texts are as significant as their thematic pa
 | Relationship to truth | Truth is uncertain, mediated by memory and testimony                    | Truth is contested between characters, but the audience sees everything |
 | Ending                | Ambiguous -- the reader never learns who really took Angela's virginity | Closed -- Blanche is committed, Stanley wins                            |
 
+</div>
+
 The non-linear structure of Chronicle implicates the reader in the act of reconstruction; the linear
 Structure of Streetcar implicates the audience as witnesses to a destruction they cannot prevent.
 Both forms produce complicity, but through different mechanisms.
@@ -434,18 +432,20 @@ Both forms produce complicity, but through different mechanisms.
 ### Magical Realism vs Expressionism
 
 Marquez uses magical realism to show how the extraordinary becomes normalised within a culture. The
-Bishop passing by boat, Santiago walking with his entrails, the prophetic dream -- all are presented
-In a deadpan tone that refuses to distinguish between the miraculous and the mundane.
+bishop passing by boat, Santiago walking with his entrails, the prophetic dream -- all are presented
+in a deadpan tone that refuses to distinguish between the miraculous and the mundane.
 
 Williams uses expressionism to externalise Blanche's psychological state. The Varsouviana polka, the
-Blue piano music, the paper lantern, the distorted lighting -- these are not realistic details but
-Subjective projections of Blanche's inner world.
+blue piano music, the paper lantern, the distorted lighting -- these are not realistic details but
+subjective projections of Blanche's inner world.
 
 Both techniques serve a similar function: they destabilise the boundary between objective reality
-And subjective experience, forcing the audience to question what is "real" within the world of the
-Text.
+and subjective experience, forcing the audience to question what is "real" within the world of the
+text.
 
 ### Quote Comparisons
+
+<div class="table-wrap">
 
 | Theme                          | Chronicle                                                           | Streetcar                                                                                         |
 | ------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -455,6 +455,8 @@ Text.
 | Religious hypocrisy            | The brothers confess before the murder and attend Mass after        | Blanche retreats into baths and prayer, but the text offers no divine intervention                |
 | Collective / social complicity | "They all saw him come out... And no one did anything"              | Stella chooses Stanley over Blanche: "I couldn't believe her story and go on living with Stanley" |
 | Escape from reality            | Placida Linero interprets dreams but dismisses Santiago's fatal one | "I don't want realism. I want magic!"                                                             |
+
+</div>
 
 ---
 
@@ -476,18 +478,18 @@ Aspects of the text that a purely thematic reading might overlook.
 
 A feminist reading foregrounds the systematic disempowerment of women in the novella's world. Angela
 Vicario has no agency: she does not choose her husband, she cannot defend her own body, and her
-Naming of Santiago is either a fabrication or a protection of the real perpetrator -- in either
-Case, an act born of powerlessness. The virginity code reduces her to a physical attribute whose
-Absence justifies public humiliation and murder.
+naming of Santiago is either a fabrication or a protection of the real perpetrator -- in either
+case, an act born of powerlessness. The virginity code reduces her to a physical attribute whose
+absence justifies public humiliation and murder.
 
 Maria Alejandrina Cervantes offers a counterpoint. As a sex worker, she occupies a paradoxical
 Position: she is socially marginalised yet economically independent. The narrator describes her as a
-Woman who "did it out of charity" and who "taught them the mysteries of love." Marquez constructs
-Her as a figure of genuine agency within a patriarchal world, suggesting that sexual autonomy and
-Economic self-sufficiency are inseparable.
+woman who "did it out of charity" and who "taught them the mysteries of love." Marquez constructs
+her as a figure of genuine agency within a patriarchal world, suggesting that sexual autonomy and
+economic self-sufficiency are inseparable.
 
 The feminist reading must also account for Placida Linero, whose act of locking the door -- the
-Final link in the chain of complicity -- is itself an expression of constrained female authority.
+final link in the chain of complicity -- is itself an expression of constrained female authority.
 She is the head of her household, yet her decision is fatal. Marquez shows that women who exercise
 Power within patriarchal systems do so at the system's mercy.
 
@@ -495,19 +497,19 @@ Power within patriarchal systems do so at the system's mercy.
 
 A Marxist reading examines the economic structures that underpin the honour code. Bayardo San
 Roman's wealth is central to his power: he "buys" Angela by arriving with a chest of gold and by
-Demonstrating social status that the Vicario family cannot refuse. Marriage in this world is not a
-Union of equals but a transaction in which women are exchanged for social and economic capital.
+demonstrating social status that the Vicario family cannot refuse. Marriage in this world is not a
+union of equals but a transaction in which women are exchanged for social and economic capital.
 
 The class hierarchy of the town is equally significant. The narrator is educated and of higher
 Social standing than most townspeople; his return to investigate the murder is itself an exercise of
-Class privilege. The town's institutions -- the church, the military, the legal system -- serve the
-Interests of the wealthy. The Vicario brothers receive a three-year sentence for premeditated
+class privilege. The town's institutions -- the church, the military, the legal system -- serve the
+interests of the wealthy. The Vicario brothers receive a three-year sentence for premeditated
 Murder, a leniency that reflects both the honour code's legitimacy and the legal system's
 Subservience to social elites.
 
 The butcher shop where the brothers sharpen their knives is a site of economic labour as well as
-Violence. Their trade -- butchery -- is working-class and physical, and it is their skill with
-Knives (a professional competency) that makes the murder possible. Marquez thus links economic
+violence. Their trade -- butchery -- is working-class and physical, and it is their skill with
+knives (a professional competency) that makes the murder possible. Marquez thus links economic
 Activity to violence in a way that a Marxist reading would find significant.
 
 ### Post-colonial Reading
@@ -515,44 +517,44 @@ Activity to violence in a way that a Marxist reading would find significant.
 The Latin American setting is not merely decorative. Colombia's history of colonisation, civil war,
 And authoritarian rule permeates the text. The town's authority figures -- Father Amador, Colonel
 Lazaro Aponte -- represent institutions (the Church, the military) that were imposed during the
-Colonial period and that continue to exercise power in post-independence society.
+colonial period and that continue to exercise power in post-independence society.
 
 The bishop's refusal to disembark from his boat is a potent image of colonial distance: spiritual
 Authority passes through without engaging with the community it supposedly serves. The townspeople's
 Adoration of the bishop -- preparing food, decorating the streets -- is unreciprocated, mirroring
-The extractive relationship between colonial centre and colonised periphery.
+the extractive relationship between colonial centre and colonised periphery.
 
 The legal system's failure to deliver justice for Santiago's murder reflects the broader dysfunction
-Of post-colonial institutions. The brothers are pardoned; the town continues as if the murder were a
-Natural event rather than a systemic failure. Marquez suggests that the legacy of colonialism is a
-Society in which justice is performative and accountability is impossible.
+of post-colonial institutions. The brothers are pardoned; the town continues as if the murder were a
+natural event rather than a systemic failure. Marquez suggests that the legacy of colonialism is a
+society in which justice is performative and accountability is impossible.
 
 ### Reader-response Reading
 
 A reader-response approach foregrounds the narrator's unreliability and the reader's role in
-Constructing meaning. The narrator returns 27 years after the event, and every witness he interviews
+constructing meaning. The narrator returns 27 years after the event, and every witness he interviews
 Provides a different version of events. The reader must navigate contradictions -- was it raining or
-Sunny? How many times was Santiago stabbed? Did Angela name Santiago truthfully? -- and must accept
-That no single, authoritative account exists.
+sunny? How many times was Santiago stabbed? Did Angela name Santiago truthfully? -- and must accept
+that no single, authoritative account exists.
 
 This approach aligns with Marquez's broader project: to reject the possibility of objective truth
-And to show that all narratives are constructed, partial, and ideologically motivated. The reader is
-Not a passive consumer of information but an active participant in the construction of meaning. The
-Text's power lies precisely in what it does not reveal: the identity of Angela's real perpetrator,
+and to show that all narratives are constructed, partial, and ideologically motivated. The reader is
+not a passive consumer of information but an active participant in the construction of meaning. The
+text's power lies precisely in what it does not reveal: the identity of Angela's real perpetrator,
 The full extent of the town's guilt, the reliability of the narrator's account.
 
 ### New Historicist Reading
 
 New Historicism insists that texts cannot be separated from their historical context. Chronicle was
-Published in 1981, but it is set in the 1950s, a period of intense social conservatism in Colombia.
+published in 1981, but it is set in the 1950s, a period of intense social conservatism in Colombia.
 The virginity code, the honour killings, and the town's collective silence all reflect real social
 Structures that Marquez observed and documented.
 
 The novella can be read as a critique not only of the specific events it depicts but of the broader
 Culture of impunity that characterised Colombian society during La Violencia (1948--1958), a period
-Of civil conflict in which an estimated 200,000 people died and in which state and paramilitary
+of civil conflict in which an estimated 200,000 people died and in which state and paramilitary
 Violence was normalised. Santiago's murder is a microcosm of this larger culture: violence is
-Publicly known, publicly tolerated, and never meaningfully punished.
+publicly known, publicly tolerated, and never meaningfully punished.
 
 ---
 
@@ -570,52 +572,52 @@ Publicly known, publicly tolerated, and never meaningfully punished.
 ### Trees
 
 Santiago dreams of trees the night before his death. His mother, Placida Linero, interprets dreams
-But dismisses this one as insignificant. Trees carry multiple symbolic resonances: rootedness,
+but dismisses this one as insignificant. Trees carry multiple symbolic resonances: rootedness,
 Growth, the tree of life, the tree of knowledge. That Santiago dreams of being alone in a forest of
-Trees suggests both isolation and a kind of natural abundance -- a life cut short before it can
-Fully grow. Placida's failure to interpret the dream correctly is the first of many failures that
-Lead to his death.
+trees suggests both isolation and a kind of natural abundance -- a life cut short before it can
+fully grow. Placida's failure to interpret the dream correctly is the first of many failures that
+lead to his death.
 
 ### Birds
 
 The bishop arrives by boat and is greeted by the townspeople, but he does not disembark. The
-Comparison between the bishop and a bird of passage is implicit: he arrives, is observed, and
-Departs without engagement. The townspeople's futile devotion to a distant authority mirrors the
-Broader theme of institutional failure. Birds also appear in Santiago's dream and in the imagery
+comparison between the bishop and a bird of passage is implicit: he arrives, is observed, and
+departs without engagement. The townspeople's futile devotion to a distant authority mirrors the
+broader theme of institutional failure. Birds also appear in Santiago's dream and in the imagery
 Surrounding Angela, suggesting freedom and the absence of it.
 
 ### Knives and Blades
 
 The Vicario brothers sharpen their knives in the butcher shop, an act that is both practical
 (preparation for murder) and symbolic (the blade as phallic symbol of patriarchal power). The knives
-Are taken by the colonel but replaced with lesser ones, a gesture that is both futile and symbolic
-Of institutional impotence. The description of Santiago's wounds is clinical and grotesque,
+are taken by the colonel but replaced with lesser ones, a gesture that is both futile and symbolic
+of institutional impotence. The description of Santiago's wounds is clinical and grotesque,
 Emphasising the physical reality of violence that the honour code abstracts into rhetoric.
 
 ### Weather and Atmosphere
 
 The weather is described in contradictory terms: some witnesses say it was raining, others that it
-Was sunny and clear. This contradiction is not accidental. It reflects the unreliability of
-Collective memory and the difficulty of establishing objective truth. The atmosphere of the town --
+was sunny and clear. This contradiction is not accidental. It reflects the unreliability of
+collective memory and the difficulty of establishing objective truth. The atmosphere of the town --
 Oppressive, humid, dreamlike -- contributes to the sense of a community trapped in its own myths.
 
 ### Letters
 
 Angela writes approximately 2,000 letters to Bayardo San Roman over more than two decades. The
-Letters constitute a form of written resistance within an oral, masculine culture. Writing is a
+letters constitute a form of written resistance within an oral, masculine culture. Writing is a
 Solitary, deliberate act; it allows Angela to construct and control her own narrative in a way that
-The town's gossip and testimony do not. The devastating irony is that Bayardo never reads any of
-Them. He returns not because of what the letters say but because of the gesture itself -- a
-Performative recognition of Angela's devotion that empties the letters of their communicative
+the town's gossip and testimony do not. The devastating irony is that Bayardo never reads any of
+them. He returns not because of what the letters say but because of the gesture itself -- a
+performative recognition of Angela's devotion that empties the letters of their communicative
 Function.
 
 ### The Colour White
 
 White recurs throughout the text as a marker of purity, innocence, and death. Angela's wedding
 Dress, the sheets that are inspected for blood, the bishop's vestments, and Santiago's shirt after
-The murder all invoke white. Marquez uses this colour ironically: the white that should signify
+the murder all invoke white. Marquez uses this colour ironically: the white that should signify
 Purity is stained by blood, hypocrisy, and violence. The white sheets become evidence in a trial
-That never really happens; the white shirt becomes a burial shroud. The colour thus links the
+that never really happens; the white shirt becomes a burial shroud. The colour thus links the
 Thematics of purity, honour, and death into a single visual motif.
 
 ---
@@ -688,7 +690,9 @@ Responsibility?"
 
 **Thesis:** Garcia Marquez uses the non-linear, journalistic form of the novella to distribute guilt
 Across the entire community, denying the reader a single villain and instead implicating the
-Collective mechanisms of honour, religion, and institutional authority in Santiago's murder.
+collective mechanisms of honour, religion, and institutional authority in Santiago's murder.
+
+<div class="table-wrap">
 
 | Paragraph | Focus                                                      | Key Evidence                                                               |
 | --------- | ---------------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -696,6 +700,8 @@ Collective mechanisms of honour, religion, and institutional authority in Santia
 | 2         | Journalistic technique and conflicting testimony           | Witnesses contradict each other; no authoritative account emerges          |
 | 3         | Institutional failure (Church, military, law)              | Father Amador, Colonel Aponte, the three-year sentence                     |
 | 4         | The narrator's unreliability as mirror of collective guilt | The narrator's friendship with Santiago biases his account                 |
+
+</div>
 
 For further guidance on Paper 2 structure and assessment criteria, see
 [ib-english-assessment-and-techniques](/english/ib-english-assessment-and-techniques/).
@@ -713,6 +719,8 @@ For further guidance on Paper 2 structure and assessment criteria, see
 
 ## Additional Key Quotes with Analysis
 
+<div class="table-wrap">
+
 | Quote                                                                                          | Analysis                                                                                                                                                                          |
 | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | "It was a matter of honour"                                                                    | The preposition "of" reduces honour to an object -- something external, impersonal, and transferable. It is not something the brothers feel but something they must carry out.    |
@@ -723,6 +731,8 @@ For further guidance on Paper 2 structure and assessment criteria, see
 | "I returned to this forgotten village trying to put the broken mirror of memory back together" | The metaphor of the "broken mirror" captures the impossibility of full reconstruction. Each fragment reflects a distorted version of events.                                      |
 | "He didn't even open the letters. He just counted them"                                        | Bayardo's gesture is quantitative, not qualitative. He values the fact of Angela's devotion but not its content -- reducing her words to numbers.                                 |
 | "The knife went through the palm of his right hand and then into his side"                     | The wound in the palm evokes the stigmata of Christ, constructing Santiago as a sacrificial victim whose death exposes the town's moral bankruptcy.                               |
+
+</div>
 
 ---
 
@@ -738,7 +748,7 @@ For further guidance on Paper 2 structure and assessment criteria, see
 ## Practice Questions: IB Paper 2 Style
 
 Each question below is formatted in the style of an IB Paper 2 prompt. Use the planning notes within
-The details blocks to guide your approach.
+the details blocks to guide your approach.
 
 <details>
 <summary>
@@ -746,7 +756,7 @@ Question 1
 </summary>
 
 **"In what ways do writers use narrative structure to explore the relationship between individual
-And society?"**
+and society?"**
 
 **Planning notes:**
 

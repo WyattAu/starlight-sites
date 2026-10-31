@@ -96,6 +96,8 @@ From the official Texas Driver Handbook:
 
 ## TX Fees and Milestones Quick Table
 
+<div class="table-wrap">
+
 | Milestone | Age | Requirement | Notes |
 |-----------|-----|-------------|-------|
 | Driver ed | 14-15 | 32h classroom | Parent-taught option exists |
@@ -105,7 +107,11 @@ From the official Texas Driver Handbook:
 | Provisional | 16+ | Road test | Midnight-5am curfew |
 | Full license | 18 | Restrictions lapse | Adult course for 18-24 |
 
+</div>
+
 ## Numeric Facts to Memorize
+
+<div class="table-wrap">
 
 | Fact | Value |
 |------|-------|
@@ -119,3 +125,5 @@ From the official Texas Driver Handbook:
 | Rural interstate | 70 mph |
 | School zone | 15 mph when flashing |
 | Work zones | Fines double with workers |
+
+</div>

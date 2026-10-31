@@ -29,6 +29,8 @@ Cross-architecture comparison table, and fence operations.
 
 The `std::memory_order` enum [N4950 §31.7.5] defines six values:
 
+<div class="table-wrap">
+
 | Value                  | Constant               | Ordering Guarantee                            |
 | ---------------------- | ---------------------- | --------------------------------------------- |
 | `memory_order_relaxed` | $\emptyset$            | No ordering                                   |
@@ -37,6 +39,8 @@ The `std::memory_order` enum [N4950 §31.7.5] defines six values:
 | `memory_order_release` | release                | No reads/writes before can be reordered after |
 | `memory_order_acq_rel` | acquire + release      | Both acquire and release                      |
 | `memory_order_seq_cst` | sequential consistency | Total order across all seq_cst operations     |
+
+</div>
 
 ### The Memory Model Hierarchy
 
@@ -58,7 +62,9 @@ Weaker ordering than required results in undefined behavior.
 Relaxed atomics guarantee **atomicity only**: the operation is indivisible, but there are no
 Ordering constraints with respect to other memory operations.
 
-$$\mathrm{relaxed:  \mathrm{atomicity \wedge \neg\mathrm{ordering$$
+$$
+\mathrm{relaxed:  \mathrm{atomicity \wedge \neg\mathrm{ordering
+$$
 
 Use cases:
 
@@ -123,17 +129,23 @@ void reader() {
 **Acquire** semantics [N4950 §31.7.5] prevent memory operations **after** the atomic operation from
 Being reordered **before** it:
 
-$$\mathrm{acquire:  \forall\, w \mathrm{ after  \mathrm{load: w \nrightarrow \mathrm{before load$$
+$$
+\mathrm{acquire:  \forall\, w \mathrm{ after  \mathrm{load: w \nrightarrow \mathrm{before load
+$$
 
 **Release** semantics prevent memory operations **before** the atomic operation from being reordered
 **after** it:
 
-$$\mathrm{release:  \forall\, r \mathrm{ before  \mathrm{store: r \nrightarrow \mathrm{after store$$
+$$
+\mathrm{release:  \forall\, r \mathrm{ before  \mathrm{store: r \nrightarrow \mathrm{after store
+$$
 
 When a release store synchronizes-with an acquire load, a **synchronizes-with** relationship is
 Established [N4950 §31.7.5]:
 
-$$\mathrm{store_{\mathrm{release}(x) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x)$$
+$$
+\mathrm{store_{\mathrm{release}(x) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x)
+$$
 
 This creates a happens-before edge, and all memory operations sequenced-before the release store are
 Visible to all operations sequenced-after the acquire load.
@@ -199,7 +211,9 @@ $\mathrm{S$ over all `seq_cst` operations such that:
 2. Every `seq_cst` load reads either the last preceding `seq_cst` store in $\mathrm{S$ or a value
    written by a non-`seq_cst` store.
 
-$$\forall\, a, b \in \mathrm{seq\_cst ops: a \lt_{\mathrm{total} b \mathrm{ or  b \lt_{\mathrm{total} a$$
+$$
+\forall\, a, b \in \mathrm{seq\_cst ops: a \lt_{\mathrm{total} b \mathrm{ or  b \lt_{\mathrm{total} a
+$$
 
 On x86, `seq_cst` stores require a `MFENCE` (or `LOCK XCHG`), and `seq_cst` loads require `LFENCE`
 On some implementations. On ARM, `seq_cst` operations use `dmb ish` barriers.
@@ -246,7 +260,7 @@ int main() {
 // Possible output: r1=0, r2=0 (surprising but valid with acquire/release)
 ```
 
-With `memory_order_seq_cst`The outcome `r1==0 && r2==0` is impossible because the total order on
+With `memory_order_seq_cst`. The outcome `r1==0 && r2==0` is impossible because the total order on
 `seq_cst` operations prevents it. The seq_cst total order ensures that either Thread 1's store to
 `x` happens before Thread 2's store to `y`Or vice versa, and in either case, the other thread's Load
 sees the store.
@@ -340,6 +354,8 @@ Multi-core systems.
 
 ## Memory Ordering Comparison Table
 
+<div class="table-wrap">
+
 | Operation       | x86                  | ARMv8            | POWER8                    | Compiler Barrier Only |
 | --------------- | -------------------- | ---------------- | ------------------------- | --------------------- |
 | `relaxed` load  | `mov`                | `ldar`           | `ld`                      | No                    |
@@ -349,6 +365,8 @@ Multi-core systems.
 | `seq_cst` load  | `mov`                | `ldar`           | `ld + sync`               | No                    |
 | `seq_cst` store | `MFENCE` (or `XCHG`) | `stlr + dmb ish` | `lwsync + st + sync`      | No                    |
 | `acq_rel` RMW   | `LOCK XADD`          | `ldaxr+stlxr`    | `sync + ldar + st + sync` | No                    |
+
+</div>
 
 :::tip
 require `MFENCE`). On ARM and POWER, acquire and release require explicit barrier instructions, so
@@ -372,7 +390,7 @@ Models:
 **ARMv8 (Weakly Ordered):**
 
 - No reordering guarantees by default.
-- All ordering must be explicitly requested via `LDAR``STLR`Or `DMB` instructions.
+- All ordering must be explicitly requested via `LDAR`, `STLR` or `DMB` instructions.
 - `LDAR` provides load-acquire semantics.
 - `STLR` provides store-release semantics.
 - `DMB ISH` provides a full barrier.
@@ -397,7 +415,7 @@ Operation:
   in the total seq_cst order.
 
 `std::atomic_signal_fence` [N4950 §31.7.8] is a lighter-weight fence that prevents reordering
-Between a signal handler and the code interrupted by the signal. It generates only a compiler
+between a signal handler and the code interrupted by the signal. It generates only a compiler
 Barrier (no hardware instructions).
 
 ```cpp
@@ -505,7 +523,7 @@ Careful reasoning. A release store paired with a relaxed load does NOT establish
 
 Even with correct memory ordering on the flag, non-atomic accesses to shared data without a
 Happens-before relationship constitute data races and are undefined behavior. Acquire/release must
-Be used on both the flag AND the data must be sequenced-before the release / after the acquire.
+be used on both the flag AND the data must be sequenced-before the release / after the acquire.
 
 ### Pitfall 3: seq_cst Does Not Prevent All Surprises
 
@@ -521,16 +539,6 @@ Issues like lost updates. A `seq_cst` `fetch_add` is still needed for atomic inc
 // counter.fetch_add(1, memory_order_seq_cst);
 ```
 
-```mermaid
-flowchart TD
-    A[4_Memory_Orderings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of memory orderings, including underlying theory, practical
@@ -544,13 +552,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

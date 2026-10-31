@@ -42,7 +42,7 @@ Faster than heap allocation.
 ## 2. The Stack Frame Layout
 
 A **Stack Frame** is the memory region dedicated to a single function call. Its structure adheres to
-The platform's ABI (Application Binary Interface).
+the platform's ABI (Application Binary Interface).
 
 ### The Sequence of a Function Call
 
@@ -69,6 +69,8 @@ When `Caller()` invokes `Callee()`:
 
 Consider the layout in memory (High addresses at top, Low at bottom):
 
+<div class="table-wrap">
+
 | Address     | Content            | Description                                         |
 | :---------- | :----------------- | :-------------------------------------------------- |
 | `0x7FFF08`  | `Arg N`            | Stack arguments (if any)                            |
@@ -77,6 +79,8 @@ Consider the layout in memory (High addresses at top, Low at bottom):
 | `0x7FFFF0`  | `local_var_1`      | Local variables of current function.                |
 | `0x7FFF...` | ...                | ...                                                 |
 | `0x7FFFE0`  | `buffer[0]`        | Start of a local array.                             |
+
+</div>
 
 ## 3. Buffer Overflows (Stack Smashing)
 
@@ -101,8 +105,8 @@ If `user_input` is 32 bytes long:
 2. Bytes 16-23 overwrite other local variables or the Saved RBP.
 3. **Bytes 24-31 overwrite the Return Address.**
 
-When `vulnerable_function` executes `ret`The CPU pops the corrupted Return Address into `RIP`. If
-The attacker crafts this address to point to malicious code (Shellcode) or existing library
+When `vulnerable_function` executes `ret`. The CPU pops the corrupted Return Address into `RIP`. If
+the attacker crafts this address to point to malicious code (Shellcode) or existing library
 Functions (Return Oriented Programming - ROP), they gain control of the process.
 
 ## 4. Architectural Mitigations
@@ -142,14 +146,14 @@ This makes it difficult for an attacker to predict the address of their shellcod
 Newer CPUs (Intel Tiger Lake+, AMD Zen 3+) support **Control-flow Enforcement Technology (CET)**.
 
 - The CPU maintains a second, hidden stack solely for Return Addresses.
-- On `call`The return address is pushed to _both_ the main stack and shadow stack.
-- On `ret`The CPU compares the two. If they differ (due to main stack corruption), a hardware
+- On `call`. The return address is pushed to _both_ the main stack and shadow stack.
+- On `ret`. The CPU compares the two. If they differ (due to main stack corruption), a hardware
   exception is raised.
 
 ## 5. C++23 Safety Strategies
 
 While compiler mitigations are powerful, the architectural solution is to avoid using constructs
-That allow unchecked writes.
+that allow unchecked writes.
 
 ### Avoid Raw Arrays
 
@@ -166,7 +170,7 @@ void process(int* ptr) \{
 ### Use `std::span` (C++20) and `std::array`
 
 `std::array` allocates on the stack but provides a class interface. `std::span` provides a
-Non-owning view with size information.
+non-owning view with size information.
 
 **Good:**
 
@@ -238,16 +242,20 @@ Look for `Security Cookie` entries.
 
 Every thread receives a fixed-size stack at creation time. The default size varies by platform:
 
+<div class="table-wrap">
+
 | Platform      | Default Stack Size                    | Configuration Mechanism                             |
 | :------------ | :------------------------------------ | :-------------------------------------------------- |
 | Linux (glibc) | 8 MB                                  | `ulimit -s` (soft limit), `setrlimit(RLIMIT_STACK)` |
 | macOS         | 8 MB (main thread), 512 KB (pthreads) | `ulimit -s, pthread_attr_setstacksize`              |
 | Windows       | 1 MB                                  | `/STACK:reserve,commit` linker flag                 |
 
+</div>
+
 ### Detecting Stack Exhaustion
 
 Stack overflow is not catchable via C++ exceptions. When the stack pointer crosses the guard page at
-The bottom of the stack region, the OS delivers a `SIGSEGV` (Linux/macOS) or a `STACK_OVERFLOW`
+the bottom of the stack region, the OS delivers a `SIGSEGV` (Linux/macOS) or a `STACK_OVERFLOW`
 Exception (Windows). These are fatal signals, there is no recovery.
 
 ```cpp
@@ -370,8 +378,8 @@ void aligned_stack_example() \{
 ```
 
 The compiler inserts padding in the stack frame to satisfy alignment requirements. If you inspect
-The assembly, you will see `sub rsp, 0x20` or similar, where the allocation size is rounded up to
-The next multiple of 16 (or 32 for AVX).
+the assembly, you will see `sub rsp, 0x20` or similar, where the allocation size is rounded up to
+the next multiple of 16 (or 32 for AVX).
 
 ### Manual Alignment with `alignas`
 
@@ -621,7 +629,7 @@ int x = dangling();  // Reads from deallocated stack memory
 ### 3. Stack Canaries and `-fno-omit-frame-pointer`
 
 When `-fstack-protector-strong` is enabled, the compiler may be forced to emit frame pointers even
-If `-fomit-frame-pointer` is specified, because the canary must be placed at a known offset from
+if `-fomit-frame-pointer` is specified, because the canary must be placed at a known offset from
 `RBP`. This costs one register on x86_64.
 
 ### 4. Debug Builds and Stack Usage
@@ -633,18 +641,7 @@ Debug builds (`-O0`) allocate more stack space than release builds because:
 - Additional stack probes may be inserted for debugging.
 
 A program that runs fine in debug mode may overflow the stack in release mode (or vice versa, though
-Less commonly) if stack usage is near the limit.
-
-
-```mermaid
-flowchart TD
-    A[4_Stackx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+less commonly) if stack usage is near the limit.
 
 ## Summary
 
@@ -659,13 +656,7 @@ and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

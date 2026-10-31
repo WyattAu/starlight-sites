@@ -38,7 +38,7 @@ I/O [N4950 §30.4]. A stream buffer manages two character buffers:
 
 The stream buffer is responsible for the actual transfer of characters between these in-memory
 Buffers and the external device (file, console, string, network socket). The high-level stream
-Classes (`std::istream``std::ostream`) are thin wrappers that perform formatting and parsing, then
+Classes (`std::istream`, `std::ostream`) are thin wrappers that perform formatting and parsing, then
 Delegate the actual I/O to their associated stream buffer.
 
 ```
@@ -66,6 +66,8 @@ Delegate the actual I/O to their associated stream buffer.
 
 The standard stream buffer operations [N4950 §30.4.4] are:
 
+<div class="table-wrap">
+
 | Virtual Function            | Direction | Purpose                                                                                |
 | :-------------------------- | :-------- | :------------------------------------------------------------------------------------- |
 | `overflow(int_type c)`      | Output    | Called when the put area is full; writes buffered characters and optionally stores `c` |
@@ -73,12 +75,14 @@ The standard stream buffer operations [N4950 §30.4.4] are:
 | `sync()`                    | Both      | Synchronizes the buffer with the external device (e.g., flushes to disk)               |
 | `setbuf(char*, streamsize)` | Both      | Sets the internal buffer (called by `std::streambuf::pubsetbuf`)                       |
 
+</div>
+
 ### Standard Stream Buffer Specializations
 
 The library provides three concrete stream buffer types [N4950 §30.4.2]:
 
 **`std::basic_stringbuf&lt;CharT>`**, reads from and writes to a `std::basic_string`. Used by
-`std::istringstream``std::ostringstream`And `std::stringstream`. The buffer stores characters
+`std::istringstream`, `std::ostringstream` and `std::stringstream`. The buffer stores characters
 Directly in a dynamically managed string, so no external device is involved [N4950 §30.4.2.3].
 
 **`std::basic_filebuf&lt;CharT>`**, reads from and writes to a file. Used by `std::ifstream`
@@ -86,7 +90,7 @@ Directly in a dynamically managed string, so no external device is involved [N49
 C++ semantics (RAII, locale awareness, codecvt for character set conversion) [N4950 §30.4.2.4].
 
 **`std::basic_spanbuf&lt;CharT>`** (C++23), reads from and writes to a contiguous sequence of
-Characters described by a `std::span`. Unlike `stringbuf`It does not own the underlying storage.
+Characters described by a `std::span`. Unlike `stringbuf`. It does not own the underlying storage.
 This enables zero-copy I/O into pre-allocated buffers, which is critical in embedded systems and
 High-performance networking where allocation is forbidden [N4950 §30.4.2.5].
 
@@ -136,6 +140,8 @@ Locale is cheap (shared ownership) [N4950 §30.3.1].
 
 The standard facets [N4950 §30.3.1.1.2]:
 
+<div class="table-wrap">
+
 | Facet                      | Header     | Purpose                                                  |
 | :------------------------- | :--------- | :------------------------------------------------------- |
 | `std::ctype&lt;CharT>`     | `<locale>` | Character classification and case conversion             |
@@ -146,6 +152,8 @@ The standard facets [N4950 §30.3.1.1.2]:
 | `std::money_get&lt;CharT>` | `<locale>` | Parsing monetary values                                  |
 | `std::money_put&lt;CharT>` | `<locale>` | Formatting monetary values                               |
 | `std::messages&lt;CharT>`  | `<locale>` | Message catalog lookup (gettext-like)                    |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -177,7 +185,7 @@ void locale_facet_demo() {
 
 :::note
 `""` locale (empty string) selects the user's preferred locale from environment variables (`LC_ALL`
-`LC_NUMERIC``LANG`). Be aware that locale-sensitive operations are **not** thread-safe in the
+`LC_NUMERIC`, `LANG`). Be aware that locale-sensitive operations are **not** thread-safe in the
 Standard: `std::locale::global()` modifies a global variable and is not safe to call concurrently
 [N4950 §30.3.1.3].
 :::
@@ -265,7 +273,7 @@ Output (example):
 
 :::tip
 Each character written to the stream. Buffering the line and flushing on `\n` gives you control over
-The output format. For thread-safe logging, wrap the `sputn` call in a mutex.
+the output format. For thread-safe logging, wrap the `sputn` call in a mutex.
 :::
 
 :::caution
@@ -275,7 +283,7 @@ The output format. For thread-safe logging, wrap the `sputn` call in a mutex.
 
 ### Connecting Stream Buffers to Streams
 
-A stream (`std::istream``std::ostream`) does not own its stream buffer. You can redirect a stream To
+A stream (`std::istream`, `std::ostream`) does not own its stream buffer. You can redirect a stream To
 a different buffer at any time using `rdbuf()`:
 
 ```cpp
@@ -303,7 +311,7 @@ State.
 - [Type-Safe Formatting](/standard_library/3_input_output_formatting/2_type_safe_formatting/)
 - [Unicode Support](/standard_library/3_input_output_formatting/3_unicode_support/)
 
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ### Put Area and Get Area Pointer Model
 
@@ -341,11 +349,15 @@ Empty), the stream calls `underflow()`.
 
 The stream buffer provides three input-related virtual functions [N4950 §30.4.4.4]:
 
+<div class="table-wrap">
+
 | Function       | Purpose                                                  | Modifies `gptr`? |
 | :------------- | :------------------------------------------------------- | :--------------- |
 | `underflow()`  | Fill the get area from the source; return the first char | No (peek)        |
 | `uflow()`      | Call `underflow()`Then advance `gptr`                    | Yes (consume)    |
 | `pbackfail(c)` | Put a character back into the get area (unget)           | Yes (retreat)    |
+
+</div>
 
 `underflow()` is a "peek" operation, it fills the buffer but does not advance the read position.
 `uflow()` calls `underflow()` and then increments `gptr`Consuming the character. Most custom Stream
@@ -420,13 +432,13 @@ void buffer_mode_demo() {
 
 :::caution
 I/O-heavy code. Each flush results in a `write()` system call, which is orders of magnitude slower
-Than writing to the in-memory buffer. Only use unitbuf for logging where immediate visibility is
+than writing to the in-memory buffer. Only use unitbuf for logging where immediate visibility is
 Critical.
 :::
 
 ### `std::ios::sync_with_stdio`
 
-`std::ios::sync_with_stdio(false)` decouples C++ streams from C stdio (`printf``scanf``fread`
+`std::ios::sync_with_stdio(false)` decouples C++ streams from C stdio (`printf`, `scanf`, `fread`
 `fwrite`) [N4950 §30.4.5.1]. By default, C++ streams are synchronized with C stdio to allow
 Interleaved use, which incurs a performance penalty.
 
@@ -556,12 +568,16 @@ Before seeking after a failed read, and avoid mixing reads and writes without an
 
 The stream state is controlled by a bitmask of `std::ios::iostate` flags [N4950 §30.4.3]:
 
+<div class="table-wrap">
+
 | Flag      | Meaning                                            | Test Method |
 | :-------- | :------------------------------------------------- | :---------- |
 | `goodbit` | No errors                                          | `good()`    |
 | `eofbit`  | End of file reached                                | `eof()`     |
 | `failbit` | Format error (e.g., `cin &gt;&gt;` on non-numeric) | `fail()`    |
 | `badbit`  | I/O error (stream corrupted, device failure)       | `bad()`     |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -599,10 +615,10 @@ void stream_state_demo() {
 
 2. **Returning EOF from `underflow()` incorrectly:** `underflow()` should return the next character
    (as an `int`) or `traits_type::eof()` if the source is exhausted. It should **not** advance
-   `gptr`. If you advance `gptr` in `underflow()`The first character will be silently skipped.
+   `gptr`. If you advance `gptr` in `underflow()`. The first character will be silently skipped.
 
 3. **Using `std::cout` and `printf` interchangeably without `sync_with_stdio`:** After calling
-   `sync_with_stdio(false)`The C++ and C I/O buffers are independent. Output may appear out of order
+   `sync_with_stdio(false)`. The C++ and C I/O buffers are independent. Output may appear out of order
    or be lost. Either stay synchronized (the default) or use only one I/O system.
 
 4. **`rdbuf()` ownership:** `std::cout.rdbuf(new_buf)` does **not** delete the old buffer. It
@@ -632,29 +648,13 @@ void stream_state_demo() {
 
 ## Intuition
 
-**Stream buffers are like water pipes:** The stream (`std::cout``std::ifstream`) is like the faucet, you turn it on and water flows. The stream buffer is like the pipe behind the wall, it actually carries the water from the source to the faucet. You rarely interact with stream buffers directly, but they're doing all the work. A custom stream buffer is like installing a water filter, the water still flows through the same faucet, but the pipe behind the wall processes it differently.
+**Stream buffers are like water pipes:** The stream (`std::cout`, `std::ifstream`) is like the faucet, you turn it on and water flows. The stream buffer is like the pipe behind the wall, it actually carries the water from the source to the faucet. You rarely interact with stream buffers directly, but they're doing all the work. A custom stream buffer is like installing a water filter, the water still flows through the same faucet, but the pipe behind the wall processes it differently.
 
 **Why it matters:** Stream buffers separate the interface (stream operations like `<<` and `>>`) from the implementation (where the data actually comes from or goes to). This lets you redirect `std::cout` to a file, a network socket, or a custom buffer without changing any code that writes to `std::cout`. It's the Strategy pattern applied to I/O.
 
 **The key insight:** Stream buffers separate I/O interface from implementation, you can redirect `std::cout` to anywhere by replacing its stream buffer.
 
-```mermaid
-flowchart TD
-    A[1_Stream_Buffers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

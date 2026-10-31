@@ -42,16 +42,6 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 Software development is not just about writing code, it is about writing code that works, that is maintainable, and that ships reliably. The tools you use determine how effectively you can write, test, debug, and deploy software. A developer who masters their tools can produce in hours what takes others days.
@@ -141,6 +131,8 @@ Unit tests verify individual functions or methods in isolation. They are fast, d
 
 **Frameworks by language:**
 
+<div class="table-wrap">
+
 | Language | Framework | Assertion Library |
 | ---------- | ----------- | ------------------- |
 | JavaScript/TypeScript | Jest, Vitest, Mocha | Jest assertions, Chai |
@@ -149,6 +141,8 @@ Unit tests verify individual functions or methods in isolation. They are fast, d
 | Go | testing (stdlib) | testify |
 | Rust | built-in (#[test]) | assert!, assert_eq! |
 | C++ | Google Test, Catch2 | built-in assertions |
+
+</div>
 
 **Writing good unit tests:**
 
@@ -219,6 +213,8 @@ Debugging is the art of finding and fixing defects in software. It is the most t
 
 ### Common Bug Categories
 
+<div class="table-wrap">
+
 | Category | Symptoms | Tools |
 | ---------- | ---------- | ------- |
 | Logic errors | Wrong output, no crash | Debugger, unit tests |
@@ -227,6 +223,8 @@ Debugging is the art of finding and fixing defects in software. It is the most t
 | Memory issues | Leaks, out-of-memory | Memory profilers |
 | Concurrency issues | Race conditions, deadlocks | Thread sanitisers, debuggers |
 | Configuration issues | Works locally, fails in production | Environment comparison tools |
+
+</div>
 
 ---
 
@@ -241,7 +239,7 @@ CI automatically builds and tests code every time a change is pushed to the repo
 **CI pipeline stages:**
 
 1. **Checkout**, pull the latest code
-2. **Install dependencies**, `npm install``pip install``cargo build`
+2. **Install dependencies**, `npm install`, `pip install`, `cargo build`
 3. **Lint**, check code style and catch common errors
 4. **Build**, compile or bundle the application
 5. **Test**, run unit, integration, and E2E tests
@@ -300,6 +298,8 @@ Code quality tools enforce standards, catch bugs early, and maintain consistency
 
 Linters analyse code for errors, style violations, and potential bugs.
 
+<div class="table-wrap">
+
 | Language | Linter | Configuration |
 | ---------- | -------- | --------------- |
 | JavaScript/TypeScript | ESLint | .eslintrc.json |
@@ -307,6 +307,8 @@ Linters analyse code for errors, style violations, and potential bugs.
 | Go | golangci-lint | .golangci.yml |
 | Rust | Clippy | built-in with Cargo |
 | Java | Checkstyle, SpotBugs | checkstyle.xml |
+
+</div>
 
 ### Formatters
 
@@ -429,7 +431,7 @@ Developer productivity is about managing attention, not just time.
 
 - Learn shell scripting (bash, zsh)
 - Master keyboard shortcuts in your terminal
-- Use tools like `fzf``ripgrep`and `fd` for fast file searching
+- Use tools like `fzf`, `ripgrep`and `fd` for fast file searching
 - Customise your shell prompt for context (git branch, exit status)
 
 ### Editor Mastery

@@ -570,6 +570,8 @@ newtype NewWrapper a = NewWrapper a
 
 Key differences:
 
+<div class="table-wrap">
+
 | Property         | `data`                | `newtype`                                 |
 | ---------------- | --------------------- | ----------------------------------------- |
 | Constructors     | One or more           | Exactly one                               |
@@ -578,6 +580,8 @@ Key differences:
 | Strictness       | Lazy by default       | Lazy by default                           |
 | Matching         | Always matches        | Always matches                            |
 | deriving         | Full support          | Full support + GeneralizedNewtypeDeriving |
+
+</div>
 
 ### GeneralizedNewtypeDeriving
 
@@ -725,16 +729,6 @@ myReverse = go []
 6. **Use `case` when matching on computed values**: Function equations match only on arguments.
 7. **Consider `-Wincomplete-patterns`**: GHC flag that turns incomplete pattern warnings into
    errors.
-
-```mermaid
-flowchart TD
-    A[1_Pattern Matching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

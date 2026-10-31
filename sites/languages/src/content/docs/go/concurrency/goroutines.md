@@ -46,7 +46,7 @@ for i := 0; i < 100000; i++ {
 
 Go uses an M:N scheduler: M goroutines are multiplexed onto N OS threads (called "M" in Go"s runtime
 Terminology, with "P" as logical processors). The scheduler uses work-stealing to balance load
-Across Ps.
+across Ps.
 
 Key components:
 
@@ -178,7 +178,7 @@ Vice versa). Use `Lock`/`Unlock` for writes.
 ### When to Use RWMutex vs Mutex
 
 Use `RWMutex` when reads significantly outnumber writes and the read critical section is not short.
-The overhead of `RWMutex` is higher than `Mutex`So if reads are rare or the Critical section is a
+The overhead of `RWMutex` is higher than `Mutex`. So if reads are rare or the Critical section is a
 single field read, `Mutex` may be faster.
 
 ## sync.Once
@@ -315,7 +315,7 @@ Use directional channels in function signatures to make the intended usage expli
    is ready. If no receiver exists, the goroutine blocks forever.
 
 5. **Copying a Mutex after use.** `sync.Mutex` must not be copied after first use. The same applies
-   to `sync.RWMutex``sync.WaitGroup``sync.Cond`And `sync.Pool`. Use pointers.
+   to `sync.RWMutex`, `sync.WaitGroup`, `sync.Cond` and `sync.Pool`. Use pointers.
 
 6. **Using goroutines without synchronization.** Starting a goroutine and not waiting for it or
    communicating with it via a channel leads to data races. Use `sync.WaitGroup` or channels to
@@ -323,17 +323,6 @@ Use directional channels in function signatures to make the intended usage expli
 
 7. **Deadlock with RWMutex.** A goroutine holding `RLock` cannot upgrade to `Lock` -- it must
    release `RLock` first. Attempting to call `Lock()` while holding `RLock()` deadlocks.
-
-
-```mermaid
-flowchart TD
-    A[Goroutines] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -348,13 +337,7 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

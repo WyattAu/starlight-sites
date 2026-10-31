@@ -211,17 +211,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Linear Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Testing your linear algebra foundations:** Diagnostic tests quickly reveal which concepts you have mastered and which need more work. They are like a health check for your mathematical understanding.
@@ -231,6 +220,8 @@ flowchart TD
 **The key insight:** If you cannot compute a determinant or eigenvalue by hand, you do not truly understand the concept, use diagnostic tests as a starting point for deeper study, not as an endpoint.
 
 ## Answer Key
+
+<div class="table-wrap">
 
 | Question | Correct Answer |
 |----------|---------------|
@@ -245,6 +236,8 @@ flowchart TD
 | 9        | C             |
 | 10       | B             |
 
+</div>
+
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of linear algebra fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
 ## Cross-References
@@ -253,7 +246,7 @@ flowchart TD
 - **[Systems of Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/)**: Several diagnostic questions involve solving linear systems and understanding solution structure.
 - **[Linear Transformations](/2-linear-algebra/6_linear-transformations/)**: Questions on kernel and image draw on the theory of linear maps between vector spaces.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ## Common Mistakes

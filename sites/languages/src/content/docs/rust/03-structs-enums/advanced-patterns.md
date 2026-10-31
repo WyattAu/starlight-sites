@@ -19,7 +19,7 @@ description: "Rust Advanced Struct and Enum Patterns notes covering key definiti
 
 The newtype pattern wraps an existing type in a tuple struct, creating a distinct type with the same
 Memory representation. This provides type safety without runtime overhead, the compiler eliminates
-The wrapper after optimization.
+the wrapper after optimization.
 
 ### Type Safety Through Wrapping
 
@@ -44,7 +44,7 @@ get_order(oid);
 ```
 
 The newtype pattern prevents accidentally passing an `OrderId` where a `UserId` is expected. Both
-Are `u64` internally, but the compiler treats them as completely different types.
+are `u64` internally, but the compiler treats them as completely different types.
 
 ### Memory Layout
 
@@ -83,7 +83,7 @@ assert_eq!(len, 1);
 
 :::caution
 `Deref`Callers can use the newtype as if it were the inner type, potentially defeating the purpose
-Of the wrapper. Only implement `Deref` when you intentionally want this behavior.
+of the wrapper. Only implement `Deref` when you intentionally want this behavior.
 
 ### Unit Conversion with Newtypes
 
@@ -329,7 +329,7 @@ let client = Client::new();
 ## Enum Dispatch
 
 Enum dispatch uses enums to implement polymorphism without trait objects, providing static dispatch
-And better performance:
+and better performance:
 
 ```rust
 enum Shape {
@@ -351,6 +351,8 @@ impl Shape {
 
 ### Enum Dispatch vs Trait Objects
 
+<div class="table-wrap">
+
 | Property           | Enum Dispatch               | Trait Objects (`dyn Trait`)  |
 | ------------------ | --------------------------- | ---------------------------- |
 | Dispatch mechanism | Static (branch table)       | Dynamic (vtable indirection) |
@@ -358,6 +360,8 @@ impl Shape {
 | Extensibility      | Closed (all variants known) | Open (any implementor)       |
 | Performance        | Predictable, inlinable      | Indirect call, not inlinable |
 | Type information   | Full at compile time        | Erased at runtime            |
+
+</div>
 
 ### When to Use Each
 
@@ -376,7 +380,7 @@ Use **trait objects** when:
 ## Zero-Sized Types (ZSTs)
 
 Zero-sized types occupy no memory at runtime. They are useful as marker types, phantom types, and
-For compile-time programming.
+for compile-time programming.
 
 ### Unit Structs
 
@@ -391,7 +395,7 @@ assert_eq!(std::mem::size_of::<Benchmark>(), 0);
 ### PhantomData
 
 `PhantomData<T>` is a zero-sized type that makes the compiler behave as if the struct contains a
-`T`Even though it does not. This is useful for variance and drop check annotations:
+`T`. Even though it does not. This is useful for variance and drop check annotations:
 
 ```rust
 use std::marker::PhantomData;
@@ -409,7 +413,7 @@ assert_eq!(std::mem::size_of::<Id<Vec<u8>>>(), 8);
 ```
 
 `PhantomData<T>` affects variance: `Id<T>` is covariant in `T` because `PhantomData<T>` is covariant
-In `T`.
+in `T`.
 
 ### ZST in Generics
 
@@ -449,7 +453,7 @@ let p2 = Point { y: 5.0, ..p1 };
 // p2.x == 1.0, p2.y == 5.0, p2.z == 3.0
 ```
 
-Struct update syntax moves the remaining fields. After `..p1``p1` is partially moved:
+Struct update syntax moves the remaining fields. After `..p1`, `p1` is partially moved:
 
 ```rust
 let p1 = Point { x: 1.0, y: 2.0, z: 3.0 };
@@ -928,7 +932,7 @@ enum Message {
 
 ## Common Pitfalls
 
-1. **Newtype field access verbosity.** Accessing the inner value requires `.0`Which is not
+1. **Newtype field access verbosity.** Accessing the inner value requires `.0`. Which is not
    descriptive. Implement methods or `Deref` to provide a cleaner API, but be aware that `Deref`
    weakens type safety.
 
@@ -998,9 +1002,6 @@ theory, practical implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

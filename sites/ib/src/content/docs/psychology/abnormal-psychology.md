@@ -55,7 +55,7 @@ attention to cultural variation in symptom expression and help-seeking behaviour
   serotonin in depression), and neural correlates (e.g., amygdala hyperactivity in anxiety). These
   explanations support biomedical treatments such as medication.
 - **Cognitive explanations** -- maladaptive thought patterns, negative schemas, cognitive biases,
-  and faulty information processing (e.g., Beck"s cognitive triad for depression). These support
+  and faulty information processing (e.g., Beck's cognitive triad for depression). These support
   cognitive-behavioural treatments.
 - **Sociocultural explanations** -- social stressors, cultural norms, poverty, and social learning
   as contributors to disorder onset and maintenance.
@@ -166,6 +166,8 @@ clinical populations:
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Researcher (Year)         | Focus                               | Key Finding                                                                                                                                                                          |
 | ------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Gottesman (1991)          | Genetics of depression              | Meta-analysis of twin studies found higher concordance rates for depression in MZ twins than DZ twins, supporting a genetic predisposition.                                          |
@@ -174,16 +176,7 @@ clinical populations:
 | Seligman (1971)           | Learned helplessness                | Dogs exposed to inescapable shock failed to escape avoidable shock in a subsequent condition, proposing learned helplessness as a model for depression.                              |
 | Healy and Whitaker (2003) | Cultural bias in diagnosis          | Demonstrated that Western diagnostic criteria may pathologise culturally normative behaviours, such as categorising spiritual experiences as psychotic symptoms.                     |
 
-
-```mermaid
-flowchart TD
-    A[Abnormal Psychology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Summary
 

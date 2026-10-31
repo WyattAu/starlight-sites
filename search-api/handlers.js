@@ -6,7 +6,7 @@ import { ASSET_REDIRECTS, RANKING_VARIANTS, SITE_AUTHORITY, SITES } from './conf
 import { renderDashboard } from './dashboard.js'
 import { log } from './log.js'
 import STATIC_INDEX from './merged-index.js'
-import { detectLanguage, hashString, searchIndex } from './ranking.js'
+import { detectLanguage, expandQuery, hashString, searchIndex } from './ranking.js'
 import { checkRateLimit } from './rate-limit.js'
 import { generateSuggestions } from './suggest.js'
 import { validateSearchQuery, validateTrackPayload } from './validate.js'
@@ -18,9 +18,15 @@ function jsonResponse(body, corsHeaders, { status = 200, headers = {} } = {}) {
   })
 }
 
+// Per-isolate memo of the merged search index. The index changes only when
+// the upload job writes a new version, and a stale read for one isolate's
+// lifetime (~minutes) is harmless: the next isolate picks up the new index.
+// This turns the per-request multi-megabyte KV read + JSON.parse (the dominant
+// latency cost, ~500ms) into one cost per isolate.
+let indexCache = null
+
 async function handleSearch(request, url, env, corsHeaders) {
   const startTime = Date.now()
-
   // Simple IP-based rate limiting (100 req/60s per IP).
   const rl = await checkRateLimit(request, env)
   if (!rl.allowed) {
@@ -83,8 +89,20 @@ async function handleSearch(request, url, env, corsHeaders) {
     return response
   }
 
-  // Fetch merged index from KV, fall back to static bundle
-  const index = (await env.SEARCH_KV?.get('merged-index', { type: 'json' })) || STATIC_INDEX
+  // Fetch merged index from KV, fall back to static bundle.
+  // Memoised per isolate: the index only changes on deploy, so repeat
+  // requests in the same isolate skip the multi-megabyte KV read + parse
+  // entirely (this is what brings search latency under the 200ms SLO).
+  if (!indexCache) {
+    indexCache = (async () => {
+      try {
+        return (await env.SEARCH_KV?.get('merged-index', { type: 'json' })) || STATIC_INDEX
+      } catch {
+        return STATIC_INDEX
+      }
+    })()
+  }
+  const index = await indexCache
   if (!index) {
     return jsonResponse({ error: 'Search index not available' }, corsHeaders, { status: 503 })
   }
@@ -92,12 +110,27 @@ async function handleSearch(request, url, env, corsHeaders) {
   // Search and rank with A/B weights
   let results = searchIndex(query, index, site, weights, detectedLang, subject)
 
+  // Zero-result recovery, tier 1: stem-synonym expansion. "gradient of x^2"
+  // finds nothing when the index says "derivative"; one curated substitution
+  // recovers it. Marked in the response so the UI can say "results for ...".
+  let expandedFrom = null
+  if (results.length === 0) {
+    for (const alt of expandQuery(query).slice(0, 3)) {
+      const altResults = searchIndex(alt, index, site, weights, detectedLang, subject)
+      if (altResults.length > 0) {
+        results = altResults
+        expandedFrom = query
+        break
+      }
+    }
+  }
+
   // Apply limit
   results = results.slice(0, limit)
 
-  // Zero-result recovery: surface alternative queries so the user is not
-  // presented with a dead end. Suggestions are derived from trending queries
-  // and a curated common-query list (see generateSuggestions).
+  // Zero-result recovery, tier 2: surface alternative queries so the user is
+  // not presented with a dead end. Suggestions are derived from trending
+  // queries and a curated common-query list (see generateSuggestions).
   let suggestions = []
   if (results.length === 0) {
     const trending = (await env.SEARCH_KV?.get('trending', { type: 'json' })) || []
@@ -106,6 +139,7 @@ async function handleSearch(request, url, env, corsHeaders) {
 
   const response = {
     query,
+    ...(expandedFrom ? { expandedFrom } : {}),
     total: results.length,
     variant: abVariant,
     lang: detectedLang,
@@ -136,15 +170,27 @@ async function handleSearch(request, url, env, corsHeaders) {
     })),
   }
 
-  // Cache hot queries in KV (top 1000)
+  // Cache hot queries in KV (top 1000). Best-effort: the daily KV write
+  // quota is shared across the account, and when it is exhausted this PUT
+  // throws -- which must never fail the search itself.
   if (results.length > 0) {
-    await env.SEARCH_KV?.put(kvCacheKey, JSON.stringify(response), { expirationTtl: 300 })
+    try {
+      await env.SEARCH_KV?.put(kvCacheKey, JSON.stringify(response), { expirationTtl: 300 })
+    } catch {
+      // Quota exhausted or KV unavailable; the response is still returned.
+    }
   }
 
-  // Log search query for analytics
+  // Log search query for analytics. Best-effort for the same reason: when
+  // the account's daily KV write quota is drained, these writes throw, and
+  // an analytics write must never turn a working search into a 500.
   const latencyMs = Date.now() - startTime
-  await logSearch(query, results.length, abVariant, env)
-  await trackSearchMetrics(query, results.length, latencyMs, env)
+  try {
+    await logSearch(query, results.length, abVariant, env)
+    await trackSearchMetrics(query, results.length, latencyMs, env)
+  } catch {
+    // Analytics lost, search preserved.
+  }
 
   // Cache in edge (Cloudflare Cache API)
   const edgeResponse = new Response(JSON.stringify(response), {

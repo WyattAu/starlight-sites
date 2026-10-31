@@ -28,13 +28,17 @@ categories:
 ### 1.1 Writing and Simplifying Ratios
 
 A **ratio** compares quantities of the same kind. Ratios are written in their simplest form by
-Dividing all parts by their highest common factor.
+dividing all parts by their highest common factor.
 
 **Worked Example.** Simplify the ratio $24 : 36 : 48$.
 
-$$\mathrm{HCF(24, 36, 48) = 12$$
+$$
+\mathrm{HCF(24, 36, 48) = 12
+$$
 
-$$24 : 36 : 48 = 2 : 3 : 4$$
+$$
+24 : 36 : 48 = 2 : 3 : 4
+$$
 
 **Worked Example.** Express the ratio $0.4 : 1.2$ in its simplest form.
 
@@ -51,14 +55,18 @@ Multiply both by 4: $10 : 15 = 2 : 3$.
 
 To share a quantity $Q$ in the ratio $a : b$:
 
-$$\mathrm{Each share = \frac{Q}{a + b}$$
+$$
+\mathrm{Each share = \frac{Q}{a + b}
+$$
 
-First share $= \frac{aQ}{a + b}$Second share $= \frac{bQ}{a + b}$.
+First share $= \frac{aQ}{a + b}$ Second share $= \frac{bQ}{a + b}$.
 
 **Worked Example.** Share 360 pounds in the ratio $2 : 3 : 4$.
 
 $$\mathrm{Total parts = 2 + 3 + 4 = 9$$ $$\mathrm{One part = \frac{360}{9} = 40$$
-$$\mathrm{Shares = 80, 120, 160$$
+$$
+\mathrm{Shares = 80, 120, 160
+$$
 
 **Worked Example (Higher Tier).** Share 560 pounds in the ratio
 $\frac{1}{2} : \frac{1}{3} : \frac{1}{4}$.
@@ -67,7 +75,7 @@ Multiply each part by 12: $6 : 4 : 3$.
 
 Total parts: 13. One part: $\frac{560}{13}$.
 
-Shares: $\frac{3360}{13}, \frac{2240}{13}, \frac{1680}{13}$Approximately 258.46, 172.31, 129.23
+Shares: $\frac{3360}{13}, \frac{2240}{13}, \frac{1680}{13}$ Approximately 258.46, 172.31, 129.23
 Pounds.
 
 ### 1.3 Ratios and Fractions
@@ -80,7 +88,9 @@ The ratio $a : b$ means:
 **Worked Example.** In a class, the ratio of boys to girls is $3 : 5$. What fraction of the class
 Are girls?
 
-$$\frac{5}{3 + 5} = \frac{5}{8}$$
+$$
+\frac{5}{3 + 5} = \frac{5}{8}
+$$
 
 ### 1.4 Combining Ratios
 
@@ -104,8 +114,12 @@ $A : B : C = 9 : 12 : 14$.
 
 **Worked Example.** 8 chocolate bars cost 3.60 pounds. Find the cost of 15 bars.
 
-$$\mathrm{Cost per bar = \frac{3.60}{8} = 0.45 \mathrm{ pounds$$
-$$\mathrm{Cost of 15 bars = 15 \times 0.45 = 6.75 \mathrm{ pounds$$
+$$
+\mathrm{Cost per bar = \frac{3.60}{8} = 0.45 \mathrm{ pounds
+$$
+$$
+\mathrm{Cost of 15 bars = 15 \times 0.45 = 6.75 \mathrm{ pounds
+$$
 
 **Worked Example (Higher Tier).** It takes 5 people 8 hours to paint a fence. How long would it take
 3 people?
@@ -160,13 +174,19 @@ $$24 = 8k \implies k = 3$$ $$y = 3 \times 125 = 375$$
 **Worked Example (Higher Tier).** The kinetic energy $E$ of an object is directly proportional to
 The square of its velocity $v$. When $v = 10$ m/s, $E = 500$ J. Find $E$ when $v = 15$ m/s.
 
-$$E = kv^2 \implies 500 = 100k \implies k = 5$$
+$$
+E = kv^2 \implies 500 = 100k \implies k = 5
+$$
 
-$$E = 5 \times 225 = 1125 \mathrm{ J$$
+$$
+E = 5 \times 225 = 1125 \mathrm{ J
+$$
 
 ## 3. Real-Life Graphs
 
 ### 3.1 Distance-Time Graphs
+
+<div class="table-wrap">
 
 | Feature            | Meaning                 |
 | ------------------ | ----------------------- |
@@ -174,6 +194,8 @@ $$E = 5 \times 225 = 1125 \mathrm{ J$$
 | Horizontal section | Stationary              |
 | Steeper section    | Faster speed            |
 | Downhill section   | Returning towards start |
+
+</div>
 
 **Worked Example.** A person walks at 2 m/s for 10 seconds, then stops for 5 seconds, then runs at 5
 M/s for 4 seconds. Draw and interpret the distance-time graph.
@@ -186,15 +208,19 @@ M/s for 4 seconds. Draw and interpret the distance-time graph.
 A curve. How would you find the instantaneous speed at $t = 4$ s?
 
 Draw the tangent to the curve at $t = 4$ s and find its gradient. Alternatively, differentiate the
-Distance function if given.
+distance function if given.
 
 ### 3.2 Speed-Time (Velocity-Time) Graphs
+
+<div class="table-wrap">
 
 | Feature              | Meaning                          |
 | -------------------- | -------------------------------- |
 | Gradient             | Acceleration                     |
 | Area under the graph | Distance travelled               |
 | Below the time axis  | Moving in the opposite direction |
+
+</div>
 
 **Key equations of motion (constant acceleration):**
 
@@ -206,7 +232,9 @@ Displacement.
 **Worked Example.** A car accelerates from rest at 3 m/s$^2$ for 8 seconds. Find the distance
 Travelled.
 
-$$s = 0 \times 8 + \frac{1}{2} \times 3 \times 64 = 96 \mathrm{ m$$
+$$
+s = 0 \times 8 + \frac{1}{2} \times 3 \times 64 = 96 \mathrm{ m
+$$
 
 **Worked Example (Higher Tier).** A car travels at 20 m/s for 5 s, then decelerates uniformly to
 Rest in 4 s. Find the total distance travelled.
@@ -222,19 +250,23 @@ Total: 140 m.
 
 The **rate of change** of a quantity is how fast it changes per unit of another quantity ( Time).
 
-$$\mathrm{Rate of change = \frac{\mathrm{change in quantity}{\mathrm{change in time}$$
+$$
+\mathrm{Rate of change = \frac{\mathrm{change in quantity}{\mathrm{change in time}
+$$
 
 This is the gradient of the graph of that quantity against time.
 
 **Worked Example.** The population of a town was 45000 in 2020 and 54000 in 2025. Find the average
 Rate of change.
 
-$$\mathrm{Rate = \frac{54000 - 45000}{2025 - 2020} = \frac{9000}{5} = 1800 \mathrm{ people per year$$
+$$
+\mathrm{Rate = \frac{54000 - 45000}{2025 - 2020} = \frac{9000}{5} = 1800 \mathrm{ people per year
+$$
 
 ### 3.4 Instantaneous Rate of Change
 
 The **instantaneous rate of change** at a point is the gradient of the **tangent** to the curve at
-That point.
+that point.
 
 **Worked Example.** The volume of water in a tank is given by $V = 2t^2 + 3t$ litres, where $t$ is
 In minutes. Find the rate at which the volume is increasing when $t = 4$.
@@ -247,18 +279,24 @@ $$\frac{dV}{dt} = 4t + 3$$ $$\mathrm{At  t = 4: \frac{dV}{dt} = 16 + 3 = 19 \mat
 
 ### 4.1 Exponential Growth
 
-$$y = a(1 + r)^t$$
+$$
+y = a(1 + r)^t
+$$
 
 Where $a$ is the initial amount, $r$ is the growth rate (as a decimal), and $t$ is time.
 
 ### 4.2 Exponential Decay
 
-$$y = a(1 - r)^t$$
+$$
+y = a(1 - r)^t
+$$
 
 **Worked Example.** A radioactive substance decays at a rate of 8% per hour. If there are initially
 500 g, how much remains after 12 hours?
 
-$$y = 500 \times 0.92^{12} = 500 \times 0.3677\ldots = 183.8 \mathrm{ g$$
+$$
+y = 500 \times 0.92^{12} = 500 \times 0.3677\ldots = 183.8 \mathrm{ g
+$$
 
 ### 4.3 Half-Life
 
@@ -266,23 +304,33 @@ The **half-life** is the time taken for a quantity to reduce to half its initial
 
 For exponential decay with rate $r$:
 
-$$t_{1/2} = \frac{\ln 2}{-\ln(1 - r)}$$
+$$
+t_{1/2} = \frac{\ln 2}{-\ln(1 - r)}
+$$
 
 **Worked Example.** A substance has a half-life of 6 hours. If the initial mass is 80 g, find the
 Mass after 24 hours.
 
-$$\mathrm{Number of half-lives = \frac{24}{6} = 4$$
-$$\mathrm{Mass = 80 \times \left(\frac{1}{2}\right)^4 = 80 \times \frac{1}{16} = 5 \mathrm{ g$$
+$$
+\mathrm{Number of half-lives = \frac{24}{6} = 4
+$$
+$$
+\mathrm{Mass = 80 \times \left(\frac{1}{2}\right)^4 = 80 \times \frac{1}{16} = 5 \mathrm{ g
+$$
 
 **Worked Example (Higher Tier).** The mass of a radioactive substance after $t$ years is given by
 $m = 200 \times 0.95^t$ grams. Find the half-life.
 
 $$100 = 200 \times 0.95^t$$ $$0.5 = 0.95^t$$
-$$t = \frac{\ln 0.5}{\ln 0.95} = \frac{-0.693}{-0.0513} \approx 13.5 \mathrm{ years$$
+$$
+t = \frac{\ln 0.5}{\ln 0.95} = \frac{-0.693}{-0.0513} \approx 13.5 \mathrm{ years
+$$
 
 ## 5. Compound Measures
 
 ### 5.1 Speed, Density, and Pressure
+
+<div class="table-wrap">
 
 | Measure  | Formula                                                 | Units            |
 | -------- | ------------------------------------------------------- | ---------------- |
@@ -290,21 +338,31 @@ $$t = \frac{\ln 0.5}{\ln 0.95} = \frac{-0.693}{-0.0513} \approx 13.5 \mathrm{ ye
 | Density  | $\rho = \frac{\mathrm{mass}{\mathrm{volume}$            | kg/m$^3$G/cm$^3$ |
 | Pressure | $P = \frac{\mathrm{force}{\mathrm{area}$                | Pa (N/m$^2$)     |
 
+</div>
+
 **Worked Example.** A block of metal has mass 1.8 kg and volume 200 cm$^3$. Find its density in
 G/cm$^3$.
 
-$$\rho = \frac{1800 \mathrm{ g}{200 \mathrm{ cm^3} = 9 \mathrm{ g/cm^3$$
+$$
+\rho = \frac{1800 \mathrm{ g}{200 \mathrm{ cm^3} = 9 \mathrm{ g/cm^3
+$$
 
 **Worked Example.** A force of 600 N acts on an area of 0.75 m$^2$. Find the pressure.
 
-$$P = \frac{600}{0.75} = 800 \mathrm{ Pa$$
+$$
+P = \frac{600}{0.75} = 800 \mathrm{ Pa
+$$
 
 **Worked Example (Higher Tier).** A pressure of 5000 Pa is exerted on an area of 0.04 m$^2$. Find
 The force.
 
-$$F = P \times A = 5000 \times 0.04 = 200 \mathrm{ N$$
+$$
+F = P \times A = 5000 \times 0.04 = 200 \mathrm{ N
+$$
 
 ### 5.2 Unit Conversions
+
+<div class="table-wrap">
 
 | Conversion               | Factor                     |
 | ------------------------ | -------------------------- |
@@ -314,9 +372,13 @@ $$F = P \times A = 5000 \times 0.04 = 200 \mathrm{ N$$
 | 1 litre = 1000 cm$^3$    | $\times 1000$              |
 | 1 kg = 1000 g            | $\times 1000$              |
 
+</div>
+
 **Worked Example.** Convert 72 km/h to m/s.
 
-$$72 \mathrm{ km/h = \frac{72000 \mathrm{ m}{3600 \mathrm{ s} = 20 \mathrm{ m/s$$
+$$
+72 \mathrm{ km/h = \frac{72000 \mathrm{ m}{3600 \mathrm{ s} = 20 \mathrm{ m/s
+$$
 
 **Shortcut:** To convert km/h to m/s, divide by 3.6. To convert m/s to km/h, multiply by 3.6.
 
@@ -324,12 +386,16 @@ $$72 \mathrm{ km/h = \frac{72000 \mathrm{ m}{3600 \mathrm{ s} = 20 \mathrm{ m/s$
 
 **Worked Example.** The exchange rate is 1 pound = 1.25 euros. Convert 240 pounds to euros.
 
-$$240 \times 1.25 = 300 \mathrm{ euros$$
+$$
+240 \times 1.25 = 300 \mathrm{ euros
+$$
 
 **Worked Example (Higher Tier).** The exchange rate is 1 dollar = 0.82 pounds. A laptop costs 899
 Dollars. How much is this in pounds?
 
-$$899 \times 0.82 = 737.18 \mathrm{ pounds$$
+$$
+899 \times 0.82 = 737.18 \mathrm{ pounds
+$$
 
 ### 5.4 Best Buy Problems
 
@@ -338,8 +404,12 @@ Compare the **unit cost** (cost per gram, per litre, etc.) of different products
 **Worked Example.** Brand A: 400 g for 3.20 pounds. Brand B: 650 g for 4.55 pounds. Which is better
 Value?
 
-$$\mathrm{Brand A:  \frac{320}{400} = 0.80 \mathrm{ p/g$$
-$$\mathrm{Brand B:  \frac{455}{650} = 0.70 \mathrm{ p/g$$
+$$
+\mathrm{Brand A:  \frac{320}{400} = 0.80 \mathrm{ p/g
+$$
+$$
+\mathrm{Brand B:  \frac{455}{650} = 0.70 \mathrm{ p/g
+$$
 
 Brand B is better value (lower cost per gram).
 
@@ -361,12 +431,14 @@ When interpreting real-life graphs:
 ### 6.3 Conversion Graphs
 
 A conversion graph between two units is always a straight line through the origin (if the conversion
-Is proportional).
+is proportional).
 
 **Worked Example.** A conversion graph between miles and kilometres passes through $(0, 0)$ and
 $(5, 8)$. Find the conversion factor.
 
-$$\mathrm{Gradient = \frac{8 - 0}{5 - 0} = 1.6$$
+$$
+\mathrm{Gradient = \frac{8 - 0}{5 - 0} = 1.6
+$$
 
 So 1 mile = 1.6 km.
 
@@ -393,8 +465,8 @@ Let red $= 3x$ and blue $= 5x$.
 $$\frac{3x + 8}{5x} = \frac{5}{6}$$ $$6(3x + 8) = 25x$$ $$18x + 48 = 25x$$ $$7x = 48$$
 
 Since $x$ must be an integer, there is no solution with whole counters. Let us re-check: $7x = 48$
-Gives $x = 48/7$Which is not an integer. This suggests the problem has no integer solution, which
-Would need to be re-examined in context.
+Gives $x = 48/7$ Which is not an integer. This suggests the problem has no integer solution, which
+would need to be re-examined in context.
 
 ### 7.3 More Complex Ratio Problems (Higher Tier)
 
@@ -421,7 +493,7 @@ This is consistent with the earlier worked example: $a = 12$ and $b = 20$.
 Let me verify: $12 : 20$ simplifies to $3 : 2$. After adding 15: $27 : 35$. But
 $27 : 35 \neq 5 : 4$.
 
-So the numbers $12$ and $20$ with added $4$ gave $5 : 6$Not $5 : 4$. Let me solve from scratch.
+So the numbers $12$ and $20$ with added $4$ gave $5 : 6$ Not $5 : 4$. Let me solve from scratch.
 
 $\frac{a + 15}{b + 15} = \frac{5}{4}$ and $\frac{a}{b} = \frac{3}{2}$.
 
@@ -465,8 +537,8 @@ Density $= \frac{0.180}{30 \times 10^{-6}} = \frac{0.180}{0.00003} = 6000 \mathr
 
 ## Common Pitfalls
 
-- **Mixing up the order of a ratio.** The ratio $A : B = 3 : 5$ means $A/B = 3/5$Not $B/A$.
-- **Forgetting to add all parts** when sharing in a ratio. The total number of parts is $a + b$Not
+- **Mixing up the order of a ratio.** The ratio $A : B = 3 : 5$ means $A/B = 3/5$ Not $B/A$.
+- **Forgetting to add all parts** when sharing in a ratio. The total number of parts is $a + b$ Not
   just $a$ or $b$.
 - **Confusing direct and inverse proportion graphs.** Direct proportion is a straight line through
   the origin; inverse proportion is a curve.
@@ -482,13 +554,19 @@ Density $= \frac{0.180}{30 \times 10^{-6}} = \frac{0.180}{0.00003} = 6000 \mathr
 
 ### 9.1 Compound Measures Summary
 
+<div class="table-wrap">
+
 | Measure  | Formula                          | Units            |
 | -------- | -------------------------------- | ---------------- |
 | Speed    | $\mathrm{speed = \frac{d}{t}$    | m/s, km/h        |
 | Density  | $\mathrm{density = \frac{m}{V}$  | kg/m$^3$G/cm$^3$ |
 | Pressure | $\mathrm{pressure = \frac{F}{A}$ | Pa (N/m$^2$)     |
 
+</div>
+
 ### 9.2 Proportionality: A Quick Reference
+
+<div class="table-wrap">
 
 | Type          | Equation        | Graph shape                  |
 | ------------- | --------------- | ---------------------------- |
@@ -496,6 +574,8 @@ Density $= \frac{0.180}{30 \times 10^{-6}} = \frac{0.180}{0.00003} = 6000 \mathr
 | Inverse       | $y = k/x$       | Reciprocal curve             |
 | Direct sq.    | $y = kx^2$      | Quadratic through origin     |
 | Direct sq.rt. | $y = k\sqrt{x}$ | Square root curve            |
+
+</div>
 
 **How to determine the type of proportionality from a table of values:**
 
@@ -506,9 +586,13 @@ Density $= \frac{0.180}{30 \times 10^{-6}} = \frac{0.180}{0.00003} = 6000 \mathr
 
 **Worked Example.** Given the table:
 
+<div class="table-wrap">
+
 | $x$ | 2   | 4   | 8   |
 | --- | --- | --- | --- |
 | $y$ | 6   | 12  | 24  |
+
+</div>
 
 Check $y/x$: $6/2 = 3$$12/4 = 3$$24/8 = 3$. Constant, so $y$ is directly proportional to $x$. The
 equation is $y = 3x$.
@@ -545,7 +629,7 @@ Total distance = $100 + 400 + 50 = 550$ m.
 ### 9.4 Reverse Percentage Problems
 
 A reverse percentage problem asks: "A price after VAT is 120 pounds. The VAT rate is 20%. What was
-The original price?"
+the original price?"
 
 The original price is NOT $120 - 24 = 96$ pounds. Instead:
 
@@ -575,7 +659,7 @@ Brand B is better value.
 ### 9.6 Exchange Rates
 
 If 1 pound = 1.18 euros, then to convert pounds to euros, multiply by 1.18. To convert euros to
-Pounds, divide by 1.18.
+pounds, divide by 1.18.
 
 **Worked Example.** A meal costs 45 euros. How much is this in pounds?
 
@@ -674,7 +758,7 @@ I = Prt
 $$
 
 Where $P$ is the principal, $r$ is the annual rate, and $t$ is the time in years. The total amount
-Is $A = P + Prt = P(1 + rt)$.
+is $A = P + Prt = P(1 + rt)$.
 
 **Compound interest** is calculated on the principal plus accumulated interest:
 
@@ -726,7 +810,7 @@ P = \frac{F}{A}
 $$
 
 **Worked Example.** A person weighing 600 N stands on the ground. If each foot has area
-$180\mathrm{ cm^2$Find the pressure.
+$180\mathrm{ cm^2$ Find the pressure.
 
 Total area $= 360\mathrm{ cm^2 = 0.036\mathrm{ m^2$.
 
@@ -770,8 +854,8 @@ $$
 \frac{\mathrm{total distance}{\mathrm{total time} = \frac{60}{4} = 15 \mathrm{ km/h
 $$
 
-The harmonic mean of 20 and 12 is $\frac{2}{1/20 + 1/12} = 15$Which equals the average speed for a
-Return journey.
+The harmonic mean of 20 and 12 is $\frac{2}{1/20 + 1/12} = 15$ Which equals the average speed for a
+return journey.
 
 ## Worked Examples
 
@@ -787,17 +871,6 @@ Multi-step problems in Ratio, Proportion, and Rates of Change often combine two 
 Break the problem down: identify what you need to find, recall the relevant formula or principle,
 substitute values, and state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[3_Ratio Proportion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to ratio, proportion, and rates
@@ -810,9 +883,6 @@ of change, including key theorems, methods, and problem-solving approaches.
 - polynomial division and the factor theorem
 - partial fractions
 - binomial expansion
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 ## Cross-References
 

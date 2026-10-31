@@ -15,17 +15,6 @@ sidebar_position: 30
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Cold War] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Diagnostic Test: Cold War
 
 Answer each question. Check your answers against the key at the end.
@@ -102,6 +91,8 @@ Answer each question. Check your answers against the key at the end.
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Q | Answer | Explanation |
 | --- | -------- | ------------- |
 | 1 | (B) | The Cold War was fundamentally a conflict between American capitalism and Soviet communism, shaping global alignments. |
@@ -114,6 +105,8 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Economic decline, Gorbachev's reforms, and rising nationalism in Soviet republics led to the USSR's dissolution. |
 | 9 | (B) | MAD deterred nuclear war by ensuring that any attack would result in the destruction of both attacker and defender. |
 | 10 | (C) | Gorbachev's glasnost (openness) and perestroika (restructuring) reforms weakened Soviet control and hastened the Cold War's end. |
+
+</div>
 
 ## Common Mistakes
 

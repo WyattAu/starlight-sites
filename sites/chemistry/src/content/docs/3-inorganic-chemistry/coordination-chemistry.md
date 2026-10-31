@@ -32,7 +32,9 @@ In an octahedral field, the five $d$ orbitals split into two groups:
 
 **Theorem 1 (Octahedral Crystal Field Splitting):**
 
-$$\Delta_o = 10\,Dq$$
+$$
+\Delta_o = 10\,Dq
+$$
 
 - **$e_g$ orbitals ($d_{z^2}$, $d_{x^2-y^2}$):** Higher energy, point directly at ligands.
 - **$t_{2g}$ orbitals ($d_{xy}$, $d_{xz}$, $d_{yz}$):** Lower energy, point between ligands.
@@ -50,28 +52,38 @@ $\blacksquare$
 
 **Theorem 2 (Tetrahedral Crystal Field Splitting):**
 
-$$\Delta_t = \frac{4}{9}\Delta_o$$
+$$
+\Delta_t = \frac{4}{9}\Delta_o
+$$
 
 The splitting is inverted and smaller:
 
 - **$e$ orbitals (lower):** $d_{z^2}$, $d_{x^2-y^2}$
 - **$t_2$ orbitals (higher):** $d_{xy}$, $d_{xz}$, $d_{yz}$
 
-$$E(t_2) = +0.6\,\Delta_t, \quad E(e) = -0.4\,\Delta_t$$
+$$
+E(t_2) = +0.6\,\Delta_t, \quad E(e) = -0.4\,\Delta_t
+$$
 
 ### 1.4 Square Planar Complexes
 
 Derived from octahedral by removing the two axial ligands. The $d$-orbital energies:
 
-$$d_{x^2-y^2} > d_{xy} > d_{z^2} > d_{xz}, d_{yz}$$
+$$
+d_{x^2-y^2} > d_{xy} > d_{z^2} > d_{xz}, d_{yz}
+$$
 
 Square planar complexes are common for $d^8$ metals (Ni$^{2+}$, Pd$^{2+}$, Pt$^{2+}$, Au$^{3+}$).
+
+<div class="table-wrap">
 
 | Geometry      | Most stable $d$-electron count | Common metals                   |
 | ------------- | ------------------------------ | ------------------------------- |
 | Octahedral    | $d^3$, $d^6$ (low-spin)        | Cr$^{3+}$, Co$^{3+}$            |
 | Tetrahedral   | $d^{10}$, $d^5$ (high-spin)    | Zn$^{2+}$, Fe$^{2+}$            |
 | Square planar | $d^8$                          | Ni$^{2+}$, Pd$^{2+}$, Pt$^{2+}$ |
+
+</div>
 
 ## 2. Spectrochemical Series and $\Delta$
 
@@ -80,17 +92,23 @@ Square planar complexes are common for $d^8$ metals (Ni$^{2+}$, Pd$^{2+}$, Pt$^{
 **Definition 2 (Spectrochemical Series):** Ranking of ligands by their ability to split $d$ orbitals
 (weak-field to strong-field):
 
-$$\text{I}^- < \text{Br}^- < \text{Cl}^- < \text{SCN}^- < \text{F}^- < \text{OH}^- < \text{ox}^{2-} < \text{H}_2\text{O} < \text{NCS}^- < \text{NH}_3 < \text{en} < \text{bipy} < \text{NO}_2^- < \text{CN}^- < \text{CO}$$
+$$
+\text{I}^- < \text{Br}^- < \text{Cl}^- < \text{SCN}^- < \text{F}^- < \text{OH}^- < \text{ox}^{2-} < \text{H}_2\text{O} < \text{NCS}^- < \text{NH}_3 < \text{en} < \text{bipy} < \text{NO}_2^- < \text{CN}^- < \text{CO}
+$$
 
 **Spectrochemical series of metals:**
 
-$$\text{Mn}^{2+} < \text{Ni}^{2+} < \text{Co}^{2+} < \text{Fe}^{2+} < \text{Fe}^{3+} < \text{Cr}^{3+} < \text{Co}^{3+} < \text{Rh}^{3+} < \text{Ir}^{3+} < \text{Pt}^{4+}$$
+$$
+\text{Mn}^{2+} < \text{Ni}^{2+} < \text{Co}^{2+} < \text{Fe}^{2+} < \text{Fe}^{3+} < \text{Cr}^{3+} < \text{Co}^{3+} < \text{Rh}^{3+} < \text{Ir}^{3+} < \text{Pt}^{4+}
+$$
 
 Higher oxidation states and heavier metals produce larger $\Delta$.
 
 ### 2.2 Factors Affecting $\Delta$
 
-$$\Delta \propto \frac{Z\,q}{r^5}$$
+$$
+\Delta \propto \frac{Z\,q}{r^5}
+$$
 
 where $Z$ is the metal charge, $q$ is the ligand charge, and $r$ is the metal-ligand distance.
 
@@ -112,12 +130,16 @@ where $Z$ is the metal charge, $q$ is the ligand charge, and $r$ is the metal-li
 
 ### 3.2 Electron Configurations
 
+<div class="table-wrap">
+
 | $d^n$ | High-spin (weak field)         | Low-spin (strong field)        |
 | ----- | ------------------------------ | ------------------------------ |
 | $d^4$ | $t_{2g}^3\,e_g^1$ (4 unpaired) | $t_{2g}^4\,e_g^0$ (2 unpaired) |
 | $d^5$ | $t_{2g}^3\,e_g^2$ (5 unpaired) | $t_{2g}^5\,e_g^0$ (1 unpaired) |
 | $d^6$ | $t_{2g}^4\,e_g^2$ (4 unpaired) | $t_{2g}^6\,e_g^0$ (0 unpaired) |
 | $d^7$ | $t_{2g}^5\,e_g^2$ (3 unpaired) | $t_{2g}^6\,e_g^1$ (1 unpaired) |
+
+</div>
 
 **Example 2:** $[\text{Fe(H}_2\text{O)}_6]^{2+}$ ($d^6$, $\Delta_o \approx 10,400$ cm$^{-1}$):
 High-spin ($\Delta_o < P$), $t_{2g}^4\,e_g^2$, 4 unpaired electrons.
@@ -133,18 +155,24 @@ $\blacksquare$
 
 **Definition 3 (CFSE):** The net energy lowering of a complex relative to the barycenter:
 
-$$\text{CFSE} = n_{t_{2g}}(-4\,Dq) + n_{e_g}(+6\,Dq) + n_p\,P$$
+$$
+\text{CFSE} = n_{t_{2g}}(-4\,Dq) + n_{e_g}(+6\,Dq) + n_p\,P
+$$
 
 where $n_{t_{2g}}$ and $n_{e_g}$ are electron counts, $P$ is the pairing energy, and $n_p$ is the
 number of extra electron pairs relative to the high-spin configuration.
 
 **Example 3:** CFSE for $d^6$ low-spin octahedral:
 
-$$\text{CFSE} = 6(-4\,Dq) + 0(+6\,Dq) + 3P = -24\,Dq + 3P$$
+$$
+\text{CFSE} = 6(-4\,Dq) + 0(+6\,Dq) + 3P = -24\,Dq + 3P
+$$
 
 For $d^6$ high-spin:
 
-$$\text{CFSE} = 4(-4\,Dq) + 2(+6\,Dq) + 0P = -4\,Dq$$
+$$
+\text{CFSE} = 4(-4\,Dq) + 2(+6\,Dq) + 0P = -4\,Dq
+$$
 
 $\blacksquare$
 
@@ -219,10 +247,14 @@ axis to lower the energy of the singly occupied orbital.
 
 **Theorem 5 (Spin-Only Magnetic Moment):**
 
-$$\mu_{\text{eff}} = \sqrt{n(n+2)}\,\mu_B$$
+$$
+\mu_{\text{eff}} = \sqrt{n(n+2)}\,\mu_B
+$$
 
 where $n$ is the number of unpaired electrons and $\mu_B = 9.274 \times 10^{-24}$ J/T is the Bohr
 magneton.
+
+<div class="table-wrap">
 
 | Unpaired Electrons $n$ | $\mu_{\text{eff}}$ ($\mu_B$) |
 | ---------------------- | ---------------------------- |
@@ -231,6 +263,8 @@ magneton.
 | 3                      | 3.87                         |
 | 4                      | 4.90                         |
 | 5                      | 5.92                         |
+
+</div>
 
 ### 7.2 Magnetic Properties
 
@@ -245,18 +279,24 @@ magneton.
 **Definition 5 (Formation Constant):** For the reaction
 $\text{M}^{n+} + \text{L} \rightleftharpoons \text{ML}^{n+}$:
 
-$$K_1 = \frac{[\text{ML}^{n+}]}{[\text{M}^{n+}][\text{L}]}$$
+$$
+K_1 = \frac{[\text{ML}^{n+}]}{[\text{M}^{n+}][\text{L}]}
+$$
 
 **Overall formation constant:**
 
-$$\beta_n = K_1 \cdot K_2 \cdot \ldots \cdot K_n = \frac{[\text{ML}_n^{n+}]}{[\text{M}^{n+}][\text{L}]^n}$$
+$$
+\beta_n = K_1 \cdot K_2 \cdot \ldots \cdot K_n = \frac{[\text{ML}_n^{n+}]}{[\text{M}^{n+}][\text{L}]^n}
+$$
 
 ### 8.2 Chelate Effect
 
 **Theorem 6 (Chelate Effect):** Multidentate ligands form more stable complexes than equivalent
 monodentate ligands:
 
-$$[\text{Ni(en)}_3]^{2+} \text{ (log } \beta_3 = 18.8) \gg [\text{Ni(NH}_3)_6]^{2+} \text{ (log } \beta_6 = 8.6)$$
+$$
+[\text{Ni(en)}_3]^{2+} \text{ (log } \beta_3 = 18.8) \gg [\text{Ni(NH}_3)_6]^{2+} \text{ (log } \beta_6 = 8.6)
+$$
 
 **Explanation:**
 
@@ -269,7 +309,9 @@ $$[\text{Ni(en)}_3]^{2+} \text{ (log } \beta_3 = 18.8) \gg [\text{Ni(NH}_3)_6]^{
 
 **Theorem 7 (Irving-Williams Series):** The stability of M$^{2+}$ complexes with a given ligand:
 
-$$\text{Mn}^{2+} < \text{Fe}^{2+} < \text{Co}^{2+} < \text{Ni}^{2+} < \text{Cu}^{2+} > \text{Zn}^{2+}$$
+$$
+\text{Mn}^{2+} < \text{Fe}^{2+} < \text{Co}^{2+} < \text{Ni}^{2+} < \text{Cu}^{2+} > \text{Zn}^{2+}
+$$
 
 Explained by a combination of CFSE (peaks at $d^8$ Ni$^{2+}$) and Jahn-Teller effects (extra
 stabilization for Cu$^{2+}$, $d^9$).
@@ -289,14 +331,18 @@ are inert. High-spin complexes and $d^{10}$ are labile.
 **S$\_\text{N}$1 (Dissociative):** First, a ligand leaves, creating a 5-coordinate intermediate;
 then the new ligand enters.
 
-$$[\text{ML}_6] \to [\text{ML}_5] + \text{L} \to [\text{ML}_5\text{L}"]$$
+$$
+[\text{ML}_6] \to [\text{ML}_5] + \text{L} \to [\text{ML}_5\text{L}"]
+$$
 
 Rate: $v = k[\text{complex}]$ (independent of incoming ligand).
 
 **S$\_\text{N}$2 (Associative):** The incoming ligand attacks to form a 7-coordinate intermediate;
 then a ligand leaves.
 
-$$[\text{ML}_6] + \text{L}' \to [\text{ML}_6\text{L}'] \to [\text{ML}_5\text{L}'] + \text{L}$$
+$$
+[\text{ML}_6] + \text{L}' \to [\text{ML}_6\text{L}'] \to [\text{ML}_5\text{L}'] + \text{L}
+$$
 
 Rate: $v = k[\text{complex}][\text{L}']$.
 
@@ -307,7 +353,9 @@ Rate: $v = k[\text{complex}][\text{L}']$.
 
 **Trans effect series:**
 
-$$\text{CN}^- \approx \text{CO} \approx \text{C}_2\text{H}_4 > \text{PR}_3 > \text{H}^- > \text{SC(NH}_2)_2 > \text{CH}_3^- > \text{SCN}^- > \text{I}^- > \text{Br}^- > \text{Cl}^- > \text{py} > \text{NH}_3 > \text{OH}^- > \text{H}_2\text{O}$$
+$$
+\text{CN}^- \approx \text{CO} \approx \text{C}_2\text{H}_4 > \text{PR}_3 > \text{H}^- > \text{SC(NH}_2)_2 > \text{CH}_3^- > \text{SCN}^- > \text{I}^- > \text{Br}^- > \text{Cl}^- > \text{py} > \text{NH}_3 > \text{OH}^- > \text{H}_2\text{O}
+$$
 
 This is exploited in the synthesis of square planar Pt complexes (e.g., cisplatin).
 
@@ -318,7 +366,9 @@ This is exploited in the synthesis of square planar Pt complexes (e.g., cisplati
 **Definition 9 (d–d Transition):** An electron is promoted from a lower-energy $d$ orbital to a
 higher-energy $d$ orbital, absorbing light in the visible or near-UV region.
 
-$$\Delta_o = h\nu = \frac{hc}{\lambda}$$
+$$
+\Delta_o = h\nu = \frac{hc}{\lambda}
+$$
 
 - The absorbed wavelength determines the color (complementary color is observed).
 - Selection rules: Laporte forbidden ($\Delta\ell = \pm 0$ not satisfied), but weakly allowed by
@@ -369,17 +419,6 @@ transitions ($\varepsilon \sim 1$–$100$).
    **Fix:** Use $\mu_{\text{eff}} = \sqrt{4S(S+1) + L(L+1)}\,\mu_B$ when orbital angular momentum is
    not quenched.
 
-
-```mermaid
-flowchart TD
-    A[Coordination Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **CFT:** $d$-orbital splitting in ligand fields; $\Delta_o$ (octahedral),
@@ -429,6 +468,8 @@ Coordination chemistry is the study of how metal ions bind to surrounding molecu
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                             | Site        | Link                                                                                      |
 | --------------------------------- | ----------- | ----------------------------------------------------------------------------------------- |
 | Atomic Structure                  | WyattsNotes | [View](/3-inorganic-chemistry/atomic-structure-and-periodicity/)                       |
@@ -436,7 +477,9 @@ Coordination chemistry is the study of how metal ions bind to surrounding molecu
 | Solid-State Chemistry             | WyattsNotes | [View](/3-inorganic-chemistry/solid-state-chemistry/)                                  |
 | Coordination Chemistry, MIT 5.03 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-03-principles-of-inorganic-chemistry-iii-fall-2005/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+</div>
+
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

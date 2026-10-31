@@ -41,7 +41,7 @@ monadic contexts (like `IORef` or `MVar`), and Haskell provides safe abstraction
 
 ## forkIO: Lightweight Threads
 
-Haskell"s `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
+Haskell's `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
 threads):
 
 ```haskell
@@ -640,6 +640,8 @@ results = map slowComputation [1..8] `using` parList rdeepseq
 
 ## Choosing Between Concurrency Primitives
 
+<div class="table-wrap">
+
 | Mechanism    | Best For                    | Trade-offs                         |
 | ------------ | --------------------------- | ---------------------------------- |
 | `forkIO`     | Fire-and-forget tasks       | No built-in result collection      |
@@ -648,6 +650,8 @@ results = map slowComputation [1..8] `using` parList rdeepseq
 | `STM`        | Complex coordination        | Slight overhead per transaction    |
 | `async`      | High-level concurrent tasks | Higher-level abstraction           |
 | `Strategies` | Data parallelism            | Deterministic, no side effects     |
+
+</div>
 
 ## Compiling for Parallelism
 
@@ -676,17 +680,6 @@ ghc -O2 -threaded -rtsopts -with-rtsopts=-N MyProgram.hs
    single-threaded
 7. **Profile before optimizing**: Use `+RTS -s` and ThreadScope to identify bottlenecks
 8. **Prefer pure parallelism with strategies**: When you do not need side effects
-
-
-```mermaid
-flowchart TD
-    A[2_Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

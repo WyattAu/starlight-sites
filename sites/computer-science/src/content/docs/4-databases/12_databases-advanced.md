@@ -30,16 +30,20 @@ includes:
 **Grouping and aggregation:** $\gamma_{F}(R)$ where $F$ is a list of aggregate functions and
 grouping attributes.
 
-$$\gamma_{\text{dept}, \text{AVG}(salary) \to \text{avg}\_sal}(\text{Employee})$$
+$$
+\gamma_{\text{dept}, \text{AVG}(salary) \to \text{avg}\_sal}(\text{Employee})
+$$
 
 **Generalised projection:** Allows arithmetic expressions in the projection list.
 
-$$\pi_{\text{name}, \text{salary} \times 12 \to \text{annual}(\text{Employee})}$$
+$$
+\pi_{\text{name}, \text{salary} \times 12 \to \text{annual}(\text{Employee})}
+$$
 
 **Outer join:** Preserves unmatched tuples from one or both relations.
 
-- **Left outer join** $R \bowtie_L S$: All tuples from $R$With NULLs for unmatched $S$ attributes.
-- **Right outer join** $R \bowtie_R S$: All tuples from $S$With NULLs for unmatched $R$ attributes.
+- **Left outer join** $R \bowtie_L S$: All tuples from $R$ With NULLs for unmatched $S$ attributes.
+- **Right outer join** $R \bowtie_R S$: All tuples from $S$ With NULLs for unmatched $R$ attributes.
 - **Full outer join** $R \bowtie_F S$: All tuples from both relations.
 
 **Recursive closure:** Not expressible in basic relational algebra. Requires recursive CTEs or
@@ -49,7 +53,9 @@ Datalog.
 
 **Theorem 1.1.** Division can be expressed using basic relational algebra:
 
-$$R \div S = \pi_{A}(R) - \pi_{A}\left(\pi_{A}(R) \times S - R\right)$$
+$$
+R \div S = \pi_{A}(R) - \pi_{A}\left(\pi_{A}(R) \times S - R\right)
+$$
 
 Where $A$ is the set of attributes of $R$ not in $S$.
 
@@ -57,7 +63,7 @@ _Proof._ Let $t \in \pi_A(R)$. We need to show $t \in R \div S$ if and only if
 $t \notin \pi_A(\pi_A(R) \times S - R)$.
 
 ($\Rightarrow$) If $t \in R \div S$ Then for every $s \in S$, $(t, s) \in R$. So
-$(t, s) \notin \pi_A(R) \times S - R$ for any $s$Hence $t \notin \pi_A(\pi_A(R) \times S - R)$.
+$(t, s) \notin \pi_A(R) \times S - R$ for any $s$ Hence $t \notin \pi_A(\pi_A(R) \times S - R)$.
 
 ($\Leftarrow$) If $t \notin \pi_A(\pi_A(R) \times S - R)$ Then there is no $s \in S$ such that
 $(t, s) \notin R$. This means for every $s \in S$, $(t, s) \in R$ So $t \in R \div S$. $\blacksquare$
@@ -119,7 +125,7 @@ is always less.
 **Syntax:** $\{t \mid \exists u (R(u) \wedge t.A = u.A \wedge \ldots)\}$
 
 **Safety.** A calculus expression is safe if its result is finite. Unsafe expressions can produce
-infinite relations (e.g., $\{t \mid \neg R(t)\}$ is the complement of $R$Which is infinite if the
+infinite relations (e.g., $\{t \mid \neg R(t)\}$ is the complement of $R$ Which is infinite if the
 domain is infinite).
 
 **Theorem 1.3 (Codd).** Every safe relational calculus query can be expressed in relational algebra,
@@ -145,7 +151,11 @@ FUNCTION(args) OVER (
 
 **Frame specification:**
 
-$$\text{ROWS} | RANGE BETWEEN frame_start AND frame_end$$
+$$
+\text{ROWS} | RANGE BETWEEN frame_start AND frame_end
+$$
+
+<div class="table-wrap">
 
 | Frame unit            | Meaning                                                  |
 | --------------------- | -------------------------------------------------------- |
@@ -157,6 +167,8 @@ $$\text{ROWS} | RANGE BETWEEN frame_start AND frame_end$$
 | `n PRECEDING`         | $n$ rows/range values before current                     |
 | `n FOLLOWING`         | $n$ rows/range values after current                      |
 
+</div>
+
 **Default frame:** `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` (when ORDER BY is present),
 or `ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING` (when no ORDER BY).
 
@@ -164,6 +176,8 @@ or `ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING` (when no ORDER BY)
 <summary>Worked Example: Running Totals and Rankings</summary>
 
 Table: Sales(salesperson, month, amount)
+
+<div class="table-wrap">
 
 | salesperson | month | amount |
 | ----------- | ----- | ------ |
@@ -173,6 +187,8 @@ Table: Sales(salesperson, month, amount)
 | Bob         | Jan   | 3000   |
 | Bob         | Feb   | 4000   |
 | Bob         | Mar   | 5000   |
+
+</div>
 
 **Running total per salesperson:**
 
@@ -188,9 +204,13 @@ FROM Sales;
 
 Result: | salesperson | month | amount | running_total |
 
+<div class="table-wrap">
+
 | ------------- | ------- | -------- | --------------- | | Alice | Jan | 5000 | 5000 | | Alice | Feb | 7000
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12000 | | Alice | Mar | 6000 | 18000 | | Bob | Jan | 3000 | 3000 | | Bob | Feb | 4000 | 7000 | |
+
+</div>
 Bob | Mar | 5000 | 12000 |
 
 **Ranking (RANK vs DENSE_RANK vs ROW_NUMBER):**
@@ -271,7 +291,7 @@ A **join dependency (JD)** $\bowtie\{R_1, R_2, \ldots, R_k\}$ holds over $R$ if
 $R = R_1 \bowtie R_2 \bowtie \cdots \bowtie R_k$.
 
 **Definition.** A relation $R$ is in **5NF (Project-Join Normal Form)** if for every non-trivial
-join dependency $\bowtie\{R_1, \ldots, R_k\}$ that holds over $R$Each $R_i$ is a superkey of $R$.
+join dependency $\bowtie\{R_1, \ldots, R_k\}$ that holds over $R$ Each $R_i$ is a superkey of $R$.
 
 5NF generalises 4NF: every 4NF violation is also a 5NF violation, but not vice versa.
 
@@ -283,12 +303,16 @@ Relation: Teaching(course, teacher, textbook).
 Constraint: Each course may have multiple teachers and multiple textbooks, but the teacher-textbook
 combination is independent (any teacher can use any textbook for a course they teach).
 
+<div class="table-wrap">
+
 | course | teacher | textbook |
 | ------ | ------- | -------- |
 | CS101  | Smith   | Knuth    |
 | CS101  | Smith   | Cormen   |
 | CS101  | Jones   | Knuth    |
 | CS101  | Jones   | Cormen   |
+
+</div>
 
 This satisfies 4NF (no multi-valued dependencies beyond those implied by the key).
 
@@ -303,7 +327,7 @@ Neither (course, teacher) nor (course, textbook) is a superkey. Therefore, the r
 - $R_1$(course, teacher): $\{(\text{CS101}, \text{Smith}), (\text{CS101}, \text{Jones})\}$
 - $R_2$(course, textbook): $\{(\text{CS101}, \text{Knuth}), (\text{CS101}, \text{Cormen})\}$
 
-This avoids the redundancy: adding a new teacher only requires adding one row to $R_1$Not $n$ rows
+This avoids the redundancy: adding a new teacher only requires adding one row to $R_1$ Not $n$ rows
 (one per textbook).
 
 </details>
@@ -322,6 +346,8 @@ DKNF. This is in contrast to BCNF and 4NF, which can always be achieved via loss
 
 ### 3.3 Normalisation Algorithm Summary
 
+<div class="table-wrap">
+
 | Normal Form | Condition                                       | Decomposition always possible? | Dependency preserving? |
 | ----------- | ----------------------------------------------- | ------------------------------ | ---------------------- |
 | 1NF         | Atomic values                                   | yes                            | Yes                    |
@@ -332,6 +358,8 @@ DKNF. This is in contrast to BCNF and 4NF, which can always be achieved via loss
 | 5NF         | No non-trivial JDs with non-superkey components | Not always                     | Not always             |
 | DKNF        | Only domain + key constraints                   | Not always                     | N/A                    |
 
+</div>
+
 ## 4. Query Optimisation in Depth
 
 ### 4.1 Cost-Based Optimisation
@@ -339,6 +367,8 @@ DKNF. This is in contrast to BCNF and 4NF, which can always be achieved via loss
 The optimiser estimates the cost of each query plan and chooses the cheapest one.
 
 **Cost model parameters:**
+
+<div class="table-wrap">
 
 | Parameter | Symbol | Description                                       |
 | --------- | ------ | ------------------------------------------------- |
@@ -348,7 +378,11 @@ The optimiser estimates the cost of each query plan and chooses the cheapest one
 | $bfr$     |        | Blocking factor (records per block)               |
 | $f_{rt}$  |        | Fan-out of internal nodes of a B+ tree            |
 
+</div>
+
 **Cost estimates for selection:**
+
+<div class="table-wrap">
 
 | Selection type                   | Cost (blocks)                                    |
 | -------------------------------- | ------------------------------------------------ |
@@ -357,10 +391,14 @@ The optimiser estimates the cost of each query plan and chooses the cheapest one
 | Linear scan                      | $\lceil R / bfr \rceil$                          |
 | Comparison on sorted file        | $\lceil \log_2 B \rceil + \lceil s / bfr \rceil$ |
 
+</div>
+
 **Theorem 4.1.** For a selection $\sigma_{A=v}(R)$ with $V(A, R)$ distinct values, the expected cost
 of a secondary B+ tree index lookup is $\lceil R / (V(A, R) \cdot f_{rt}) \rceil + h + 1$.
 
 ### 4.2 Join Algorithm Costs
+
+<div class="table-wrap">
 
 | Algorithm         | Cost                                                  | Best when                      |
 | ----------------- | ----------------------------------------------------- | ------------------------------ |
@@ -369,6 +407,8 @@ of a secondary B+ tree index lookup is $\lceil R / (V(A, R) \cdot f_{rt}) \rceil
 | Index nested-loop | $B_r + R_r \cdot (\text{cost} of index lookup on  S)$ | Index on join attribute of $S$ |
 | Sort-merge        | $B_r + B_s + \text{sort} cost$                        | Both relations large           |
 | Hash join         | $3(B_r + B_s)$                                        | Equi-join, no order required   |
+
+</div>
 
 Where $M$ is the number of available memory blocks.
 
@@ -507,11 +547,15 @@ acyclic, and by Theorem 5.1, the schedule is conflict-serialisable. $\blacksquar
 
 **Variants of 2PL:**
 
+<div class="table-wrap">
+
 | Variant      | Description                                                                   | Deadlock? |
 | ------------ | ----------------------------------------------------------------------------- | --------- |
 | Basic 2PL    | No restrictions on when locks are released                                    | Possible  |
 | Strict 2PL   | All locks held until commit/abort                                             | Possible  |
 | Rigorous 2PL | All locks held until commit/abort (same as strict for writes, but also reads) | Possible  |
+
+</div>
 
 :::caution
 (e.g., wait-die, wound-wait) or detection (wait-for graph) is still needed. Additionally, 2PL may
@@ -536,6 +580,8 @@ new versions.
 
 **MVCC vs locking:**
 
+<div class="table-wrap">
+
 | Aspect                | Locking                       | MVCC                               |
 | --------------------- | ----------------------------- | ---------------------------------- |
 | Read-write conflicts  | Readers block writers         | No blocking                        |
@@ -543,6 +589,8 @@ new versions.
 | Storage overhead      | Low                           | Higher (multiple versions)         |
 | Garbage collection    | Not needed                    | Needed (VACUUM in PostgreSQL)      |
 | Phantom reads         | Prevented by predicates locks | Not always prevented               |
+
+</div>
 
 **Snapshot Isolation.** Each transaction reads from a snapshot as of its start. Writes are checked
 for conflicts at commit time: if two transactions modify the same row, the later committer aborts.
@@ -553,8 +601,8 @@ possible under snapshot isolation.
 
 **Write skew example:**
 
-- $T_1$ reads rows where $x + y = 10$Checks $x > 3$Updates $x := x - 1$.
-- $T_2$ reads rows where $x + y = 10$Checks $y > 3$Updates $y := y - 1$.
+- $T_1$ reads rows where $x + y = 10$ Checks $x > 3$ Updates $x := x - 1$.
+- $T_2$ reads rows where $x + y = 10$ Checks $y > 3$ Updates $y := y - 1$.
 - Both commit successfully under snapshot isolation, but the invariant $x + y \geq 7$ may be
   violated.
 
@@ -589,12 +637,16 @@ or times out, the coordinator sends ABORT.
 
 **Failure scenarios:**
 
+<div class="table-wrap">
+
 | Failure                                     | Handling                                             |
 | ------------------------------------------- | ---------------------------------------------------- |
 | Participant crashes before voting           | Coordinator times out, sends ABORT                   |
 | Participant crashes after voting YES        | On recovery, ask coordinator for decision            |
 | Coordinator crashes before sending decision | Participants timeout, elect new coordinator or block |
 | Coordinator crashes after sending decision  | Participants re-send decision when asked             |
+
+</div>
 
 **Theorem 6.1.** 2PC guarantees atomicity: all participants commit or all abort. However, 2PC is a
 **blocking protocol**: if the coordinator crashes, participants may block indefinitely.
@@ -639,6 +691,8 @@ distinct values and $n$ rows, the index consists of $V$ bitmaps, each of $n$ bit
 
 **Example.** Column "colour" with values `\{Red, Green, Blue\}` and 8 rows:
 
+<div class="table-wrap">
+
 | Row | Colour |
 | --- | ------ |
 | 1   | Red    |
@@ -649,6 +703,8 @@ distinct values and $n$ rows, the index consists of $V$ bitmaps, each of $n$ bit
 | 6   | Green  |
 | 7   | Blue   |
 | 8   | Red    |
+
+</div>
 
 Bitmaps:
 
@@ -681,12 +737,16 @@ overflow buckets needed on average.
 
 **Comparison:**
 
+<div class="table-wrap">
+
 | Property          | Extendible            | Linear                      |
 | ----------------- | --------------------- | --------------------------- |
 | Bucket split      | Triggered by overflow | Gradual (one per insertion) |
 | Directory         | Yes (size $2^d$)      | No directory needed         |
 | Worst-case lookup | 2 disk accesses       | 1 disk access               |
 | Space utilisation | ~69%                  | ~77%                        |
+
+</div>
 
 ### 10.3 Multi-Dimensional Indexes
 
@@ -813,11 +873,15 @@ A **materialised view** stores the result of a query physically, like a table. U
 
 **Maintenance:**
 
+<div class="table-wrap">
+
 | Approach                   | Description                           | Overhead            |
 | -------------------------- | ------------------------------------- | ------------------- |
 | Complete refresh           | Recompute from scratch                | High, but simple    |
 | Incremental (fast refresh) | Apply only changes since last refresh | Low, but complex    |
 | On commit                  | Refresh after every transaction       | Highest consistency |
+
+</div>
 
 **Theorem 11.1.** Materialised view maintenance adds overhead to every update on the base tables.
 The overhead is proportional to the number of rows affected and the complexity of the view query.
@@ -843,6 +907,8 @@ COMMIT;
 
 A comprehensive summary of anomalies by isolation level:
 
+<div class="table-wrap">
+
 | Anomaly             | Read Uncommitted | Read Committed | Repeatable Read | Serializable |
 | ------------------- | ---------------- | -------------- | --------------- | ------------ |
 | Dirty read          | Possible         | Prevented      | Prevented       | Prevented    |
@@ -851,10 +917,12 @@ A comprehensive summary of anomalies by isolation level:
 | Write skew          | Possible         | Possible       | Possible        | Prevented    |
 | Read skew           | Possible         | Possible       | Prevented       | Prevented    |
 
+</div>
+
 **Read skew:** $T_1$ reads $A$ and $B$, $T_2$ updates $A$, $T_1$ reads $A$ again and sees a
 different value. Prevented by Repeatable Read (locks on read rows).
 
-**Write skew:** $T_1$ reads rows where $x + y > 10$Updates $x$; $T_2$ reads same rows, updates $y$.
+**Write skew:** $T_1$ reads rows where $x + y > 10$ Updates $x$; $T_2$ reads same rows, updates $y$.
 Both commit, but $x + y$ may now be $\leq 10$. NOT prevented by Repeatable Read (requires
 Serializable).
 
@@ -869,10 +937,14 @@ Serializable).
 
 **Validation types:**
 
+<div class="table-wrap">
+
 | Type                | Check                                                                           | Cost                              |
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------- |
 | Backward validation | Check against committed transactions that finished after our read phase started | $O(\text{committed} since start)$ |
 | Forward validation  | Check against active transactions that started before our validation phase      | $O(\text{currently} active)$      |
+
+</div>
 
 **Theorem 12.1.** OCC is serialisable if the validation phase ensures that for every pair of
 overlapping transactions (reading/writing the same data), at most one commits.
@@ -885,11 +957,15 @@ overlapping transactions (reading/writing the same data), at most one commits.
 
 **Partitioning strategies:**
 
+<div class="table-wrap">
+
 | Strategy           | Description                       | Hotspot risk                    |
 | ------------------ | --------------------------------- | ------------------------------- |
 | Hash partitioning  | $f(\text{key}) \mod n$            | Low                             |
 | Range partitioning | Key ranges assigned to nodes      | High (skewed ranges)            |
 | Directory-based    | Lookup service maps keys to nodes | Low (directory is a bottleneck) |
+
+</div>
 
 **Consistent hashing.** Nodes and keys are placed on a hash ring (e.g., $0$ to $2^{128} - 1$). Each
 key is assigned to the first node clockwise. Virtual nodes (replicas on the ring) improve balance.
@@ -902,11 +978,15 @@ most-loaded to least-loaded node is $O(\log n / k)$.
 **Single-leader replication.** One node accepts writes; others replicate asynchronously or
 synchronously.
 
+<div class="table-wrap">
+
 | Mode             | Latency                      | Durability | Consistency           |
 | ---------------- | ---------------------------- | ---------- | --------------------- |
 | Synchronous      | High (wait for all replicas) | High       | Strong (linearisable) |
 | Semi-synchronous | Medium (wait for majority)   | Medium     | Strong (with quorum)  |
 | Asynchronous     | Low (no wait)                | Low        | Eventual              |
+
+</div>
 
 **Multi-leader replication.** Any node accepts writes. Conflicts are resolved using CRDTs,
 last-write-wins, or application-specific logic.
@@ -927,7 +1007,9 @@ necessarily real-time order).
 
 **Consistency model hierarchy:**
 
-$$\text{Linearisable} \subset \text{Sequential} \subset \text{Causal} \subset \text{Eventual}$$
+$$
+\text{Linearisable} \subset \text{Sequential} \subset \text{Causal} \subset \text{Eventual}
+$$
 
 <details>
 <summary>Worked Example: Consistency Anomalies</summary>
@@ -964,7 +1046,9 @@ sort.
 
 **External merge sort cost for relation $R$ with $B$ blocks and $M$ memory blocks:**
 
-$$\text{Sort}(R) = 2B \left(1 + \lceil \log_{M-1} \lceil B / M \rceil \rceil \right)$$
+$$
+\text{Sort}(R) = 2B \left(1 + \lceil \log_{M-1} \lceil B / M \rceil \rceil \right)
+$$
 
 **Phase 2: Merge.** Both sorted relations are scanned simultaneously, outputting matching pairs.
 
@@ -983,7 +1067,7 @@ attribute as the key. If $R$ fits in $M - 1$ blocks: single-pass hash join.
 
 1. **Partition phase:** Hash both relations into $k = \lceil \min(B_r, B_s) / (M - 1) \rceil$
    partitions on disk. Each partition of $R$ must fit in memory.
-2. **Build + probe phase:** For each partition pair $(R_i, S_i)$Load $R_i$ into memory, build hash
+2. **Build + probe phase:** For each partition pair $(R_i, S_i)$ Load $R_i$ into memory, build hash
    table, and probe with $S_i$.
 
 **Cost:** Partition: $2(B_r + B_s)$. Build + probe: $B_r + B_s$. Total: $3(B_r + B_s)$.
@@ -993,17 +1077,23 @@ and the partition of $R$ fits in memory for each partition.
 
 ### 15.3 Index Nested-Loop Join Cost
 
-For each tuple in $R$Look up matching tuples in $S$ using an index on the join attribute.
+For each tuple in $R$ Look up matching tuples in $S$ using an index on the join attribute.
 
-$$\text{Cost} = B_r + R_r \cdot (\text{cost} per probe)$$
+$$
+\text{Cost} = B_r + R_r \cdot (\text{cost} per probe)
+$$
 
 Where $R_r$ is the number of records in $R$ and the cost per probe depends on the index:
+
+<div class="table-wrap">
 
 | Index type            | Cost per probe                                               |
 | --------------------- | ------------------------------------------------------------ |
 | B+ tree (clustered)   | $\lceil h + \text{matching} records / \text{fan}-out \rceil$ |
 | B+ tree (unclustered) | $\lceil h + \text{matching} records \rceil$                  |
 | Hash index            | $\approx 1.2$ (average)                                      |
+
+</div>
 
 <details>
 <summary>Worked Example: Join Cost Comparison</summary>
@@ -1243,19 +1333,19 @@ $BC^+ = \{B, C, D, E, A\}$ (via $C \to D$, $D \to E$, $E \to A$). So $BC$ is a c
 
 $CD^+ = \{C, D, E, A\}$ (no $B$ So not a candidate key).
 
-$DE^+ = \{D, E, A\}$ (no $B$Not a key).
+$DE^+ = \{D, E, A\}$ (no $B$ Not a key).
 
-$CE^+ = \{C, E, A, D\}$ (no $B$Not a key).
+$CE^+ = \{C, E, A, D\}$ (no $B$ Not a key).
 
-$BD^+ = \{B, D, E, A\}$ (no $C$Not a key).
+$BD^+ = \{B, D, E, A\}$ (no $C$ Not a key).
 
-$BE^+ = \{B, E, A\}$ (no $C$Not a key).
+$BE^+ = \{B, E, A\}$ (no $C$ Not a key).
 
 $AE^+ = \{A, E\}$ (not a key).
 
-$AC^+ = \{A, C, D, E\}$ (no $B$Not a key).
+$AC^+ = \{A, C, D, E\}$ (no $B$ Not a key).
 
-$AD^+ = \{A, D, E\}$ (no $B$Not a key).
+$AD^+ = \{A, D, E\}$ (no $B$ Not a key).
 
 Candidate keys: $\{AB, BC\}$.
 
@@ -1269,14 +1359,14 @@ $C \to D$ violates BCNF (LHS $C$ is not a superkey). Decompose $R$ into:
 Actually, $R_2$ has attributes $\{A, B, C, E\}$ and the restricted FDs are $AB \to C$, $E \to A$.
 
 $E \to A$ violates BCNF (LHS $E$ is not a superkey of $R_2$). Superkeys of $R_2$ include $AB$, $BC$
-(since $BC \to D$ is lost but $BC$ in $R_2$: $BC \to C$Not useful). Actually, $BC$ is not a key in
+(since $BC \to D$ is lost but $BC$ in $R_2$: $BC \to C$ Not useful). Actually, $BC$ is not a key in
 $R_2$ because we lost $D$.
 
 Keys of $R_2$: $AB$ is a key ($AB \to C$ And with $C$ we need... $ABC \to ?$ in $R_2$: $C$ doesn't
-give us $E$ in $R_2$. So $AB$ gives $\{A, B, C\}$Not $\{A, B, C, E\}$. So $AB$ is NOT a key in
+give us $E$ in $R_2$. So $AB$ gives $\{A, B, C\}$ Not $\{A, B, C, E\}$. So $AB$ is NOT a key in
 $R_2$!
 
-Hmm, let me recompute. In the original relation, $AB$ is a key. But after removing $D$The remaining
+Hmm, let me recompute. In the original relation, $AB$ is a key. But after removing $D$ The remaining
 FDs are $AB \to C$ and $E \to A$.
 
 $AB^+ = \{A, B, C\}$ in $R_2$. Not a superkey (missing $E$).

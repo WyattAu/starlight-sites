@@ -112,8 +112,8 @@ QED.
 
 This has a practical consequence: your move constructor must leave the source in a state where the
 Destructor and assignment operator can run safely. For a resource-owning type like `Buffer`Setting
-The source's pointer to `nullptr` and size to `0` achieves this because `delete[] nullptr` is a
-No-op and assignment to a zero-sized buffer is well-defined.
+the source's pointer to `nullptr` and size to `0` achieves this because `delete[] nullptr` is a
+no-op and assignment to a zero-sized buffer is well-defined.
 
 ### What "Valid-But-Unspecified" Means in Practice
 
@@ -147,7 +147,7 @@ int main() {
 ```
 
 The key takeaway: you may assign to a moved-from object and you may destroy it. You should not read
-From it (unless you check it first) and you should not assume it is in any particular state such as
+from it (unless you check it first) and you should not assume it is in any particular state such as
 Empty or default-constructed.
 
 ### Implicit vs. Explicit Move Constructors
@@ -165,6 +165,8 @@ Accessible.
 
 The following table summarizes when the compiler generates a default move constructor:
 
+<div class="table-wrap">
+
 | Condition                                  | Implicit Move Ctor Generated?            | Notes                                    |
 | :----------------------------------------- | :--------------------------------------- | :--------------------------------------- |
 | No user-declared special members           | Yes, if all members/base are movable     | Most common case for simple structs      |
@@ -174,6 +176,8 @@ The following table summarizes when the compiler generates a default move constr
 | `= delete` on move ctor                    | No                                       | Explicitly deleted                       |
 | Any member/base has deleted move ctor      | Implicit move ctor is defined as deleted | Must provide explicit move or fix member |
 | Any member/base has inaccessible move ctor | Implicit move ctor is defined as deleted | Access violation                         |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -231,7 +235,7 @@ int main() {
 
 The critical lesson: **declaring any of the Rule-of-Five special member functions suppresses the
 Implicit generation of the others** (with some exceptions for the copy operations when a destructor
-Is declared). This is why the Rule of Five exists, if you manually manage resources in one
+is declared). This is why the Rule of Five exists, if you manually manage resources in one
 Operation, you must manually manage them in all five.
 
 ## 6.2 Move Assignment Operator
@@ -303,7 +307,7 @@ Constructor [N4950 S11.4.5.3]. The compiler implicitly declares a move assignmen
 4. No user-declared destructor.
 
 And the implicit move assignment operator is **not deleted** only if every direct base class and
-Non-static data member has a move assignment operator that is not deleted and is accessible.
+non-static data member has a move assignment operator that is not deleted and is accessible.
 
 ```cpp
 #include <iostream>
@@ -346,7 +350,7 @@ pointer swaps and integer assignments, none of which can throw.
 ## 6.3 `noexcept` on Move Operations
 
 Marking move constructors and move assignment operators `noexcept` is **critical** for performance.
-Standard library containers (e.g., `std::vector``std::unordered_map`) use `noexcept` move Operations
+Standard library containers (e.g., `std::vector`, `std::unordered_map`) use `noexcept` move Operations
 to provide the **strong exception guarantee** during reallocation. If the move Constructor is not
 `noexcept`Containers fall back to copying, negating the benefit of move Semantics [N4950
 S16.4.5.2.6].
@@ -389,14 +393,14 @@ void container_demo() {
 :::caution
 Genuinely can throw (which is rare, moving should only perform pointer swaps and assignments). The
 `std::is_nothrow_move_constructible_v<T>` type trait is used by standard containers to select
-Between move and copy during reallocation. If your move is not `noexcept`Your types will be Silently
+between move and copy during reallocation. If your move is not `noexcept`Your types will be Silently
 copied in containers, which can be a severe performance regression.
 :::
 
 ### How `std::vector` Uses `noexcept` Move
 
 The `std::vector` reallocation strategy is defined in [N4950 S16.4.5.2.6]. If the move constructor
-Of `T` is `noexcept`Or if `T` is copyable, `vector` uses move operations during reallocation. If The
+of `T` is `noexcept`Or if `T` is copyable, `vector` uses move operations during reallocation. If The
 move constructor is potentially throwing and a copy constructor is available, `vector` falls Back to
 copying.
 
@@ -409,6 +413,8 @@ Special member functions will be wrong.
 [N4950 S11.4.5.3] defines the conditions under which the compiler implicitly declares each special
 Member function. The interaction between these rules produces the "Rule of Five" behavior:
 
+<div class="table-wrap">
+
 | You Declare      | Implicit Copy Ctor | Implicit Move Ctor | Implicit Copy Assign | Implicit Move Assign |
 | :--------------- | :----------------- | :----------------- | :------------------- | :------------------- |
 | Nothing          | Yes                | Yes                | Yes                  | Yes                  |
@@ -417,13 +423,15 @@ Member function. The interaction between these rules produces the "Rule of Five"
 | Move ctor only   | Deleted            |,                  | Deleted              | Deleted              |
 | Move assign only | Deleted            | Deleted            | Deleted              |,                    |
 
+</div>
+
 Key observations from this table:
 
 1. **Declaring a destructor suppresses implicit move operations.** This is the most common surprise.
-   If you write `~T() { ... }`The compiler will not generate a move constructor or move assignment
+   If you write `~T() { ... }`. The compiler will not generate a move constructor or move assignment
    operator, even if all members are movable. Move requests will silently fall back to copy.
 
-2. **Declaring a copy constructor suppresses everything else.** If you write `T(const T&)`The
+2. **Declaring a copy constructor suppresses everything else.** If you write `T(const T&)`. The
    compiler generates no move operations and no copy assignment operator.
 
 3. **Declaring a move constructor deletes the copy operations.** The rationale is that if you
@@ -579,6 +587,8 @@ public:
 
 ### Move-Only Types in the Standard Library
 
+<div class="table-wrap">
+
 | Type                              | Move-Only? | Reason                        |
 | :-------------------------------- | :--------- | :---------------------------- |
 | `std::unique_ptr<T>`              | Yes        | Exclusive ownership model     |
@@ -592,10 +602,12 @@ public:
 | `std::function<R(Args...)>`       | No         | Type-erased, copyable         |
 | `std::move_only_function` (C++23) | Yes        | Non-copyable callable wrapper |
 
+</div>
+
 ### Move-Only Types and Containers
 
 Move-only types can be stored in standard containers, but you must use move semantics to insert
-Them:
+them:
 
 ```cpp
 #include <vector>
@@ -627,8 +639,8 @@ Move semantics are like handing someone the keys to your car instead of buying t
 
 ## Common Pitfalls
 
-A move constructor takes `T&&`Which is an rvalue reference, not a forwarding reference. This means
-It can only accept rvalues. If you need a constructor that can accept both lvalues and rvalues with
+A move constructor takes `T&&`. Which is an rvalue reference, not a forwarding reference. This means
+it can only accept rvalues. If you need a constructor that can accept both lvalues and rvalues with
 Perfect forwarding, you use a variadic template:
 
 ```cpp
@@ -666,7 +678,7 @@ int main() {
 **Warning:** Overloading a forwarding constructor with a move constructor can lead to surprising
 Behavior. The forwarding constructor is a better match for many argument types than the move
 Constructor, because it accepts any `Args&&...`. Use `std::enable_if` or C++20 concepts to constrain
-The forwarding constructor:
+the forwarding constructor:
 
 ```cpp
 #include <utility>
@@ -795,7 +807,7 @@ After swap:  a.size=2000, b.size=1000
 ```
 
 :::tip
-Individual members. This ensures that if a member type has a custom `swap`It is found via ADL, While
+Individual members. This ensures that if a member type has a custom `swap`. It is found via ADL, While
 falling back to `std::swap` for types that do not.
 :::
 
@@ -889,7 +901,9 @@ self-assignment ).
 ## 7.5 Move-Only Types and the Standard Library
 
 The Standard Library makes extensive use of move-only types. Understanding which types are move-only
-And why is critical for writing correct generic code:
+and why is critical for writing correct generic code:
+
+<div class="table-wrap">
 
 | Type                              | Move-Only? | Reason                        |
 | :-------------------------------- | :--------- | :---------------------------- |
@@ -904,13 +918,15 @@ And why is critical for writing correct generic code:
 | `std::function<R(Args...)>`       | No         | Type-erased, copyable         |
 | `std::move_only_function` (C++23) | Yes        | Non-copyable callable wrapper |
 
+</div>
+
 When writing generic code that must accept any callable, prefer `std::move_only_function` (C++23)
 Over `std::function` if copyability is not required. This avoids the internal heap allocation that
 `std::function` performs for type erasure and enables capturing move-only types in the callable.
 
 ## Common Pitfalls
 
-- **Moving from const objects:** `std::move(const T&)` returns `const T&&`Which binds to a copy
+- **Moving from const objects:** `std::move(const T&)` returns `const T&&`. Which binds to a copy
   constructor (not move constructor). The move is silently downgraded to a copy. If you see this in
   a code review, the object should not be `const` in the first place.
 - **Using moved-from objects:** After a move, the source object is in a valid but unspecified state.
@@ -940,17 +956,7 @@ Over `std::function` if copyability is not required. This avoids the internal he
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
-```mermaid
-flowchart TD
-    A[4_Move_Constructors_Rvo] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Summary
 
@@ -964,9 +970,6 @@ underlying theory, practical implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

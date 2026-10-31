@@ -24,6 +24,8 @@ categories:
 Swift provides both **classes** (reference types) and **structs** (value types). The choice between
 them is a fundamental design decision.
 
+<div class="table-wrap">
+
 | Feature         | Struct                      | Class                           |
 | --------------- | --------------------------- | ------------------------------- |
 | Type            | Value type                  | Reference type                  |
@@ -34,6 +36,8 @@ them is a fundamental design decision.
 | Memory          | Stack (for small structs)             | Heap (ARC)                      |
 | Identity        | No (`==` compares values)   | Yes (`===` compares references) |
 | Implicit `init` | Yes (memberwise)            | No                              |
+
+</div>
 
 ### Choosing Between Struct and Class
 
@@ -367,7 +371,7 @@ class ColoredShape: Shape {
 ## Protocols
 
 Protocols define a **blueprint of methods, properties, and requirements** that conforming types must
-implement. They are central to Swift"s protocol-oriented programming paradigm.
+implement. They are central to Swift's protocol-oriented programming paradigm.
 
 ### Defining Protocols
 
@@ -734,6 +738,8 @@ class CreditCard {
 
 ## Access Control
 
+<div class="table-wrap">
+
 | Level         | Same module              | Different module         |
 | ------------- | ------------------------ | ------------------------ |
 | `open`        | Yes (subclass, override) | Yes (subclass, override) |
@@ -741,6 +747,8 @@ class CreditCard {
 | `internal`    | Yes                      | No                       |
 | `fileprivate` | Same file                | No                       |
 | `private`     | Same scope               | No                       |
+
+</div>
 
 ```swift
 open class PublicClass {
@@ -756,17 +764,6 @@ open class PublicClass {
         self.password = password
     }
 }
-```
-
-
-```mermaid
-flowchart TD
-    A[1_Classes And Structs] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary

@@ -31,9 +31,13 @@ categories:
 Photosynthesis is the process by which photoautotrophs convert light energy into chemical energy
 stored in organic molecules. The overall equation for photosynthesis:
 
-$$6\mathrm{CO_2} + 6\mathrm{H_2O} \xrightarrow{\text{light}} \mathrm{C_6H_{12}O_6} + 6\mathrm{O_2}$$
+$$
+6\mathrm{CO_2} + 6\mathrm{H_2O} \xrightarrow{\text{light}} \mathrm{C_6H_{12}O_6} + 6\mathrm{O_2}
+$$
 
-$$\Delta G = +2870\ \mathrm{kJ\ mol^{-1}}$$
+$$
+\Delta G = +2870\ \mathrm{kJ\ mol^{-1}}
+$$
 
 Photosynthesis is endergonic -- energy is required. This energy is supplied by light, captured by
 photosynthetic pigments and converted to chemical energy in the form of ATP and reduced NADP
@@ -41,13 +45,17 @@ photosynthetic pigments and converted to chemical energy in the form of ATP and 
 
 ### 1.2 The Two Stages
 
+<div class="table-wrap">
+
 | Feature         | Light-Dependent Reactions                           | Light-Independent Reactions (Calvin Cycle)                     |
 | --------------- | --------------------------------------------------- | -------------------------------------------------------------- |
 | Location        | Thylakoid membranes of chloroplasts                 | Stroma of chloroplasts                                         |
 | Light required? | Yes (directly)                                      | No (but requires the products of light reactions)              |
-| Inputs          | Light, $\mathrm{H_2O}$, $\mathrm{NADP^+}$ADP, $P_i$ | $\mathrm{CO_2}$ATP, $\mathrm{NADPH}$RuBP                       |
-| Outputs         | $\mathrm{O_2}$ATP, $\mathrm{NADPH}$                 | $\mathrm{C_6H_{12}O_6}$ (via G3P), $\mathrm{NADP^+}$ADP, $P_i$ |
+| Inputs          | Light, $\mathrm{H_2O}$, $\mathrm{NADP^+}$ ADP, $P_i$ | $\mathrm{CO_2}$ ATP, $\mathrm{NADPH}$ RuBP                       |
+| Outputs         | $\mathrm{O_2}$ ATP, $\mathrm{NADPH}$                 | $\mathrm{C_6H_{12}O_6}$ (via G3P), $\mathrm{NADP^+}$ ADP, $P_i$ |
 | Main products   | Energy carriers (ATP, NADPH)                        | Triose phosphate (G3P), which can form glucose                 |
+
+</div>
 
 ## 2. Chloroplast Structure
 
@@ -72,6 +80,8 @@ the efficiency of photosynthesis.
   communication between them.
 - **Starch granules**: temporary storage of carbohydrate produced by the Calvin cycle.
 
+<div class="table-wrap">
+
 | Structural Feature        | Adaptation for Photosynthesis                                                   |
 | ------------------------- | ------------------------------------------------------------------------------- |
 | Large surface area        | Maximises light absorption                                                      |
@@ -80,6 +90,8 @@ the efficiency of photosynthesis.
 | Thylakoid lumen           | Small compartment allows rapid proton accumulation for chemiosmosis             |
 | Stroma                    | Contains high concentration of Calvin cycle enzymes                             |
 | Transparent outer regions | Allow light to penetrate to inner thylakoids                                    |
+
+</div>
 
 ### 2.2 Evidence for the Endosymbiotic Theory
 
@@ -95,12 +107,16 @@ cell.
 Photosynthetic pigments absorb specific wavelengths of light and transfer the energy to the
 photosynthetic reaction centres.
 
+<div class="table-wrap">
+
 | Pigment       | Absorption Peaks                                                    | Colour Reflected | Location                           |
 | ------------- | ------------------------------------------------------------------- | ---------------- | ---------------------------------- |
 | Chlorophyll a | $\approx 430\ \mathrm{nm}$ (blue), $\approx 660\ \mathrm{nm}$ (red) | Green            | Reaction centre (PSI and PSII)     |
 | Chlorophyll b | $\approx 455\ \mathrm{nm}$ (blue), $\approx 640\ \mathrm{nm}$ (red) | Yellow-green     | Antenna complex (light-harvesting) |
 | Carotenoids   | $\approx 450$--$500\ \mathrm{nm}$ (blue-green)                      | Orange, yellow   | Antenna complex; photoprotection   |
 | Xanthophyll   | $\approx 450\ \mathrm{nm}$                                          | Yellow           | Antenna complex; photoprotection   |
+
+</div>
 
 Chlorophyll a is the **primary photosynthetic pigment** -- it is found at the reaction centres of
 both photosystems and directly participates in the light-dependent reactions. Chlorophyll b,
@@ -142,7 +158,9 @@ lowest, least soluble).
 
 The **$R_f$ value** (retention factor) can be calculated:
 
-$$R_f = \frac{\text{Distance travelled by pigment}}{\text{Distance travelled by solvent front}}$$
+$$
+R_f = \frac{\text{Distance travelled by pigment}}{\text{Distance travelled by solvent front}}
+$$
 
 ## 4. Light-Dependent Reactions
 
@@ -158,12 +176,16 @@ Photosystems are protein-pigment complexes embedded in the thylakoid membrane. E
 
 Two photosystems operate in series:
 
+<div class="table-wrap">
+
 | Feature           | Photosystem II (PSII)                                | Photosystem I (PSI)                                  |
 | ----------------- | ---------------------------------------------------- | ---------------------------------------------------- |
 | Primary pigment   | P680 (chlorophyll a absorbing at $680\ \mathrm{nm}$) | P700 (chlorophyll a absorbing at $700\ \mathrm{nm}$) |
 | Location          | Inner surface of thylakoid membrane                  | Outer surface of thylakoid membrane                  |
 | Function          | Splits water; feeds electrons into ETC               | Boosts electrons to $\mathrm{NADP^+}$                |
 | Electron acceptor | Plastoquinone (PQ)                                   | Ferredoxin                                           |
+
+</div>
 
 ### 4.2 Non-Cyclic Photophosphorylation (Z-Scheme)
 
@@ -178,7 +200,9 @@ very strong oxidising agent.
 **Step 2: Photolysis of water.** The strong oxidising power of $\mathrm{P680^+}$ is used to split
 water molecules in a process called **photolysis**:
 
-$$\mathrm{2H_2O \to 4H^+ + 4e^- + O_2}$$
+$$
+\mathrm{2H_2O \to 4H^+ + 4e^- + O_2}
+$$
 
 The electrons replace those lost by P680. The $\mathrm{O_2}$ is released as a by-product (all
 atmospheric $\mathrm{O_2}$ comes from photosynthesis). The $\mathrm{H^+}$ ions contribute to the
@@ -197,9 +221,11 @@ contributing to the proton gradient.
 re-exciting P700. P700 donates the electron to ferredoxin (Fd) via ferredoxin-NADP reductase (FNR).
 
 **Step 5: $\mathrm{NADPH}$ production.** The enzyme ferredoxin-NADP reductase (FNR) transfers
-electrons from ferredoxin to $\mathrm{NADP^+}$Reducing it to $\mathrm{NADPH}$:
+electrons from ferredoxin to $\mathrm{NADP^+}$ Reducing it to $\mathrm{NADPH}$:
 
-$$\mathrm{NADP^+ + 2e^- + H^+ \to NADPH}$$
+$$
+\mathrm{NADP^+ + 2e^- + H^+ \to NADPH}
+$$
 
 **Step 6: ATP synthesis by chemiosmosis.** The proton gradient across the thylakoid membrane (high
 $\mathrm{H^+}$ in the lumen, low in the stroma) drives ATP synthesis by ATP synthase. Protons flow
@@ -219,7 +245,7 @@ $\mathrm{O_2}$:
 
 1. Light is absorbed by PSI, exciting P700.
 2. P700 donates electrons to ferredoxin.
-3. Instead of passing to $\mathrm{NADP^+}$Electrons are passed back to the cytochrome $b_6f$
+3. Instead of passing to $\mathrm{NADP^+}$ Electrons are passed back to the cytochrome $b_6f$
    complex, then to plastocyanin, and back to PSI.
 4. Protons are pumped at the cytochrome $b_6f$ complex, creating a proton gradient for ATP
    synthesis.
@@ -247,7 +273,9 @@ $\mathrm{CO_2}$ with ribulose-1,5-bisphosphate (RuBP, 5-carbon) to produce an un
 intermediate. This immediately splits into two molecules of **glycerate-3-phosphate (GP, also called
 3-phosphoglycerate, 3-PGA)**, each with 3 carbons:
 
-$$\mathrm{CO_2 + RuBP\ (5C) \to 2\ GP\ (3C)}$$
+$$
+\mathrm{CO_2 + RuBP\ (5C) \to 2\ GP\ (3C)}
+$$
 
 Rubisco is the most abundant protein on Earth. It is also a relatively slow enzyme (turnover number
 $\approx 3\ \mathrm{s^{-1}}$), which limits the rate of photosynthesis.
@@ -255,9 +283,13 @@ $\approx 3\ \mathrm{s^{-1}}$), which limits the rate of photosynthesis.
 **Step 2: Reduction of GP to triose phosphate (TP).** GP is phosphorylated by ATP (from the
 light-dependent reactions) and then reduced by $\mathrm{NADPH}$:
 
-$$\mathrm{GP + ATP \to 1,3\text{-}bisphosphoglycerate + ADP}$$
+$$
+\mathrm{GP + ATP \to 1,3\text{-}bisphosphoglycerate + ADP}
+$$
 
-$$\mathrm{1,3\text{-}BPG + NADPH + H^+ \to triose\ phosphate\ (TP,\ G3P) + NADP^+ + P_i}$$
+$$
+\mathrm{1,3\text{-}BPG + NADPH + H^+ \to triose\ phosphate\ (TP,\ G3P) + NADP^+ + P_i}
+$$
 
 This step requires 1 ATP and 1 $\mathrm{NADPH}$ per molecule of GP (2 ATP and 2 $\mathrm{NADPH}$ per
 $\mathrm{CO_2}$ fixed).
@@ -274,6 +306,8 @@ phosphates) catalysed by several enzymes, consuming 3 ATP per turn.
 
 For every 3 turns (fixing 3 $\mathrm{CO_2}$):
 
+<div class="table-wrap">
+
 | Input                           | Output                                 |
 | ------------------------------- | -------------------------------------- |
 | 3 $\mathrm{CO_2}$               | 1 TP (G3P, net product)                |
@@ -281,9 +315,13 @@ For every 3 turns (fixing 3 $\mathrm{CO_2}$):
 | 6 $\mathrm{NADPH}$ (2 per turn) | 6 $\mathrm{NADP^+}$ + 6 $\mathrm{H^+}$ |
 | 5 TP (recycled)                 | 3 RuBP (regenerated)                   |
 
+</div>
+
 The net equation for the Calvin cycle (per glucose):
 
-$$6\mathrm{CO_2} + 18\ ATP + 12\ NADPH + 12\ H_2O \to C_6H_{12}O_6 + 18\ ADP + 18\ P_i + 12\ NADP^+$$
+$$
+6\mathrm{CO_2} + 18\ ATP + 12\ NADPH + 12\ H_2O \to C_6H_{12}O_6 + 18\ ADP + 18\ P_i + 12\ NADP^+
+$$
 
 ### 5.4 Fate of Triose Phosphate (G3P)
 
@@ -301,7 +339,7 @@ The TP produced by the Calvin cycle can be used to synthesise:
 ### 5.5 Photorespiration
 
 Rubisco has a dual activity: it can catalyse both the carboxylation of RuBP (fixing
-$\mathrm{CO_2}$Productive) and the oxygenation of RuBP (fixing $\mathrm{O_2}$Wasteful). When
+$\mathrm{CO_2}$ Productive) and the oxygenation of RuBP (fixing $\mathrm{O_2}$ Wasteful). When
 $\mathrm{O_2}$ combines with RuBP, one molecule of GP (3-carbon) and one molecule of
 phosphoglycolate (2-carbon) are produced. Phosphoglycolate is converted to glycolate, which enters a
 salvage pathway in peroxisomes and mitochondria that releases $\mathrm{CO_2}$ and consumes ATP and
@@ -309,7 +347,7 @@ $\mathrm{NADH}$ -- a net loss of energy and fixed carbon.
 
 **Photorespiration** is favoured by:
 
-- High temperature (increases Rubisco"s affinity for $\mathrm{O_2}$ over $\mathrm{CO_2}$).
+- High temperature (increases Rubisco's affinity for $\mathrm{O_2}$ over $\mathrm{CO_2}$).
 - High $\mathrm{O_2}$ concentration.
 - Low $\mathrm{CO_2}$ concentration.
 
@@ -353,7 +391,7 @@ $\mathrm{CO_2}$.
 
 ### 6.3 $\mathrm{CO_2}$ Concentration
 
-At low $\mathrm{CO_2}$ concentration (close to the atmospheric concentration of $\approx 0.04\%$Or
+At low $\mathrm{CO_2}$ concentration (close to the atmospheric concentration of $\approx 0.04\%$ Or
 $400\ \mathrm{ppm}$), $\mathrm{CO_2}$ is often the limiting factor. Increasing $\mathrm{CO_2}$
 concentration increases the rate of photosynthesis up to a plateau ( at approximately
 $0.5$--$1.0\%$), where another factor (light or temperature) becomes limiting.
@@ -392,10 +430,14 @@ When plotting the rate of photosynthesis against one factor at different levels 
 $\mu\mathrm{mol\ m^{-2}\ s^{-1}}$) at different light intensities and two $\mathrm{CO_2}$
 concentrations:
 
+<div class="table-wrap">
+
 | Light intensity (arbitrary units) | 5   | 10  | 20  | 40  | 80  |
 | --------------------------------- | --- | --- | --- | --- | --- |
 | Rate at $0.04\%\ \mathrm{CO_2}$   | 2   | 4   | 7   | 9   | 10  |
 | Rate at $0.10\%\ \mathrm{CO_2}$   | 2   | 5   | 10  | 14  | 16  |
+
+</div>
 
 At low light intensity (5 units), both curves give the same rate (2) -- light is the limiting
 factor. At higher light intensities, the $0.10\%\ \mathrm{CO_2}$ curve gives a higher rate,
@@ -425,7 +467,9 @@ maximising photosynthetic efficiency at high temperatures.
    affinity for $\mathrm{CO_2}$ than Rubisco and does not react with $\mathrm{O_2}$) by combining
    with phosphoenolpyruvate (PEP, 3-carbon) to form oxaloacetate (4-carbon, hence "$\mathrm{C_4}$").
 
-$$\mathrm{PEP + CO_2 \to oxaloacetate}$$
+$$
+\mathrm{PEP + CO_2 \to oxaloacetate}
+$$
 
 1. Oxaloacetate is converted to malate (or aspartate, another 4-carbon acid).
 
@@ -459,6 +503,8 @@ night is limited) but extremely high water-use efficiency.
 
 ### 7.4 Comparison
 
+<div class="table-wrap">
+
 | Feature                      | $\mathrm{C_3}$ Plants             | $\mathrm{C_4}$ Plants                     | CAM Plants                                |
 | ---------------------------- | --------------------------------- | ----------------------------------------- | ----------------------------------------- |
 | Initial fixation             | Rubisco ($\mathrm{C_3}$ compound) | PEP carboxylase ($\mathrm{C_4}$ compound) | PEP carboxylase ($\mathrm{C_4}$ at night) |
@@ -469,6 +515,8 @@ night is limited) but extremely high water-use efficiency.
 | Habitat                      | Cool, moist environments          | Hot, sunny environments                   | Arid, desert environments                 |
 | ATP cost per $\mathrm{CO_2}$ | 3 ATP                             | 5 ATP                                     | 5 ATP                                     |
 | Examples                     | Wheat, rice, soybean, trees       | Maize, sugarcane, sorghum                 | Cacti, pineapple, orchids, aloe vera      |
+
+</div>
 
 :::caution
 cycle." $\mathrm{C_4}$ plants do use the Calvin cycle -- it occurs in the bundle sheath cells, not
@@ -500,13 +548,19 @@ Common methods include:
 A student measures the volume of $\mathrm{O_2}$ produced by Elodea at different distances from a
 lamp:
 
+<div class="table-wrap">
+
 | Distance from lamp (cm)                           | 5   | 10  | 20  | 30  | 50  |
 | ------------------------------------------------- | --- | --- | --- | --- | --- |
 | $\mathrm{O_2}$ volume ($\mathrm{mm^3\ min^{-1}}$) | 45  | 42  | 32  | 22  | 10  |
 
+</div>
+
 Light intensity is inversely proportional to the square of the distance (inverse square law):
 
-$$I \propto \frac{1}{d^2}$$
+$$
+I \propto \frac{1}{d^2}
+$$
 
 Relative light intensities: $d = 5 \Rightarrow I = 400$; $d = 10 \Rightarrow I = 100$;
 $d = 20 \Rightarrow I = 25$; $d = 30 \Rightarrow I = 11.1$; $d = 50 \Rightarrow I = 4$.
@@ -528,7 +582,7 @@ electrons from water (photolysis: $\mathrm{2H_2O \to 4H^+ + 4e^- + O_2}$), relea
 as a by-product. Electrons pass from PSII through plastoquinone, the cytochrome $b_6f$ complex
 (which pumps protons into the thylakoid lumen), and plastocyanin to PSI. In PSI, light excites P700,
 which donates electrons to ferredoxin. Ferredoxin-NADP reductase transfers electrons to
-$\mathrm{NADP^+}$Reducing it to $\mathrm{NADPH}$. The proton gradient across the thylakoid membrane
+$\mathrm{NADP^+}$ Reducing it to $\mathrm{NADPH}$. The proton gradient across the thylakoid membrane
 (generated by photolysis, proton pumping, and $\mathrm{NADPH}$ production) drives ATP synthesis as
 protons flow through ATP synthase (chemiosmosis). The products are ATP, $\mathrm{NADPH}$ And
 $\mathrm{O_2}$.
@@ -547,7 +601,7 @@ to form two molecules of GP (3-carbon). This is the first step of the Calvin cyc
 route by which inorganic carbon enters the biosphere. Rubisco has a dual activity: it can also
 catalyse the oxygenation of RuBP (combining it with $\mathrm{O_2}$), producing one molecule of GP
 and one of phosphoglycolate. This is photorespiration, a wasteful process that releases
-$\mathrm{CO_2}$Consumes ATP, and reduces the net yield of photosynthesis. Photorespiration increases
+$\mathrm{CO_2}$ Consumes ATP, and reduces the net yield of photosynthesis. Photorespiration increases
 at high temperatures and low $\mathrm{CO_2}$ concentrations because Rubisco's affinity for
 $\mathrm{O_2}$ increases relative to $\mathrm{CO_2}$ under these conditions. $\mathrm{C_4}$ plants
 overcome this by using PEP carboxylase (which has no affinity for $\mathrm{O_2}$) to fix
@@ -563,15 +617,15 @@ for Rubisco's active site.
 
 <details>
 <summary>Problem 3</summary>
-A student investigates the effect of temperature on the rate of photosynthesis in a $\mathrm{C_3}$ plant. The results show that the rate increases from $10$ to $30\ ^\circ\mathrm{C}$Plateaus between $30$ and $35\ ^\circ\mathrm{C}$ And then decreases above $35\ ^\circ\mathrm{C}$. Explain these results. (5 marks)
+A student investigates the effect of temperature on the rate of photosynthesis in a $\mathrm{C_3}$ plant. The results show that the rate increases from $10$ to $30\ ^\circ\mathrm{C}$ Plateaus between $30$ and $35\ ^\circ\mathrm{C}$ And then decreases above $35\ ^\circ\mathrm{C}$. Explain these results. (5 marks)
 
-**Answer.** Between $10$ and $30\ ^\circ\mathrm{C}$The rate of photosynthesis increases because
+**Answer.** Between $10$ and $30\ ^\circ\mathrm{C}$ The rate of photosynthesis increases because
 increasing temperature increases the kinetic energy of molecules, leading to more frequent
 collisions between enzyme molecules (Rubisco and other Calvin cycle enzymes) and their substrates.
 This increases the rate of the enzyme-catalysed reactions in the Calvin cycle. The light-dependent
 reactions are less affected by temperature because they are photochemical rather than enzymatic.
-Between $30$ and $35\ ^\circ\mathrm{C}$The rate plateaus because another factor (likely
-$\mathrm{CO_2}$ concentration or light intensity) becomes limiting. Above $35\ ^\circ\mathrm{C}$The
+Between $30$ and $35\ ^\circ\mathrm{C}$ The rate plateaus because another factor (likely
+$\mathrm{CO_2}$ concentration or light intensity) becomes limiting. Above $35\ ^\circ\mathrm{C}$ The
 rate decreases because the high temperature causes denaturation of Calvin cycle enzymes,
 particularly Rubisco. The active site changes shape, reducing the enzyme's ability to catalyse
 carbon fixation. Additionally, the solubility of $\mathrm{CO_2}$ decreases at higher temperatures,
@@ -632,11 +686,15 @@ $\mathrm{O_2}$ and a net uptake of $\mathrm{CO_2}$.
 
 The compensation point varies between species:
 
+<div class="table-wrap">
+
 | Plant Type       | Typical Compensation Point (arbitrary units)             | Reason                                                                |
 | ---------------- | -------------------------------------------------------- | --------------------------------------------------------------------- |
 | Shade-tolerant   | Low (5--15)                                              | Efficient photosynthesis at low light; adapted to grow under a canopy |
 | Shade-intolerant | Higher (30--50)                                          | Require high light; grow rapidly in open habitats                     |
 | C4 plants        | Lower than $\mathrm{C_3}$ plants at the same temperature | More efficient at low $\mathrm{CO_2}$; compensate at lower light      |
+
+</div>
 
 ### 9.2 The Saturation Point
 
@@ -677,6 +735,8 @@ In temperate deciduous forests, photosynthetic activity varies seasonally:
 
 Commercial growers manipulate the environment to maximise crop yield:
 
+<div class="table-wrap">
+
 | Factor                     | How It Is Manipulated                        | Effect on Photosynthesis                                                              |
 | -------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------- |
 | $\mathrm{CO_2}$ enrichment | Supplying $\mathrm{CO_2}$ gas to greenhouses | Increases rate; raises the saturation point; shifts compensation point to lower light |
@@ -684,6 +744,8 @@ Commercial growers manipulate the environment to maximise crop yield:
 | Light supplementation      | Artificial lighting (e.g., LED grow lights)  | Extends the photoperiod; increases total photosynthate                                |
 | Water and nutrients        | Irrigation, fertiliser (nitrate, phosphate)  | Ensures raw materials are not limiting                                                |
 | Spacing and pruning        | Optimising plant density and leaf area       | Maximises light interception per unit area                                            |
+
+</div>
 
 ### 10.2 Maximising Light Interception
 
@@ -705,7 +767,9 @@ released by respiration.
 **Net photosynthesis** is the rate of $\mathrm{CO_2}$ uptake minus the rate of $\mathrm{CO_2}$
 release from respiration:
 
-$$\text{Net photosynthesis} = \text{Gross photosynthesis} - \text{Respiration}$$
+$$
+\text{Net photosynthesis} = \text{Gross photosynthesis} - \text{Respiration}
+$$
 
 **Worked Example.** A plant's leaves fix $\mathrm{CO_2}$ at a rate of
 $12.0\ \mu\mathrm{mol\ m^{-2}\ s^{-1}}$ (gross photosynthesis) and release $\mathrm{CO_2}$ at a rate
@@ -757,7 +821,9 @@ absorption.
 
 Aquatic plants face a unique challenge: $\mathrm{CO_2}$ dissolves in water and forms carbonic acid:
 
-$$\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^- \rightleftharpoons 2H^+ + CO_3^{2-}$$
+$$
+\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^- \rightleftharpoons 2H^+ + CO_3^{2-}
+$$
 
 This reduces the concentration of freely available $\mathrm{CO_2}$ (as dissolved $\mathrm{CO_2}$),
 potentially limiting photosynthesis. Aquatic plants have adaptations:
@@ -768,7 +834,7 @@ potentially limiting photosynthesis. Aquatic plants have adaptations:
 - Efficient use of bicarbonate ($\mathrm{HCO_3^-}$) as a carbon source.
 
 The pH of water also affects photosynthesis: lower pH (more acidic) shifts the equilibrium towards
-$\mathrm{CO_2}$ and $\mathrm{H_2CO_3}$Reducing the availability of bicarbonate. Some aquatic plants
+$\mathrm{CO_2}$ and $\mathrm{H_2CO_3}$ Reducing the availability of bicarbonate. Some aquatic plants
 (e.g., _Elodea_) are acid-tolerant and can photosynthesise effectively at lower pH than other
 species.
 
@@ -778,11 +844,15 @@ species.
 
 **Hydrogencarbonate indicator** (phenol red) changes colour with pH:
 
+<div class="table-wrap">
+
 | pH / $\mathrm{CO_2}$ level    | Colour     | Meaning                            |
 | ----------------------------- | ---------- | ---------------------------------- |
 | High pH (low $\mathrm{CO_2}$) | Purple     | Photosynthesis exceeds respiration |
 | Intermediate                  | Orange-red | Near compensation point            |
 | Low pH (high $\mathrm{CO_2}$) | Yellow     | Respiration exceeds photosynthesis |
+
+</div>
 
 In a photosynthesis investigation using hydrogencarbonate indicator:
 
@@ -793,6 +863,8 @@ In a photosynthesis investigation using hydrogencarbonate indicator:
 
 ### 12.2 Controlling Variables
 
+<div class="table-wrap">
+
 | Variable        | How to Control                                                                                         |
 | --------------- | ------------------------------------------------------------------------------------------------------ |
 | Light intensity | Use a lamp at measured distances; use a light meter to measure intensity; keep other light sources off |
@@ -801,16 +873,24 @@ In a photosynthesis investigation using hydrogencarbonate indicator:
 | Plant size      | Use the same length of the same species from the same plant                                            |
 | Time            | Start timing simultaneously for all tubes; use a stopwatch                                             |
 
+</div>
+
 ### 12.3 Worked Example: Light Intensity and Rate
 
 A student measures the time for hydrogencarbonate indicator to change from red to purple at
 different light intensities:
 
+<div class="table-wrap">
+
 | Light intensity ($\mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}}$) | 10  | 30  | 60  | 100 | 200 | 400 |
 | ------------------------------------------------------------ | --- | --- | --- | --- | --- | --- |
 | Time to colour change (minutes)                              | 25  | 14  | 8   | 5.5 | 3.2 | 3.0 |
 
+</div>
+
 The rate of photosynthesis is proportional to $1/\text{time}$:
+
+<div class="table-wrap">
 
 | Light intensity | Rate (1/time, $\mathrm{min^{-1}}$) | Rate ($\mu\mathrm{mol\ m^{-2}\ s^{-1}}$) |
 | --------------- | ---------------------------------- | ---------------------------------------- |
@@ -820,6 +900,8 @@ The rate of photosynthesis is proportional to $1/\text{time}$:
 | 100             | 0.182                              | 1.82                                     |
 | 200             | 0.313                              | 3.13                                     |
 | 400             | 0.333                              | 3.33                                     |
+
+</div>
 
 The rate increases with light intensity up to approximately 200
 $\mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}}$ Then plateaus. At very high intensities (400), the rate
@@ -843,14 +925,16 @@ $60 \times 10^{15}\mathrm{g\ C\ yr^{-1}}$.
 
 Human activities release approximately $9.5 \times 10^{15}\ \mathrm{g\ C\ yr^{-1}}$ as
 $\mathrm{CO_2}$ (fossil fuel combustion, cement production, deforestation). The net imbalance means
-atmospheric $\mathrm{CO_2}$ is increasing at approximately $2\ \mathrm{ppm\ yr^{-1}}$Driving global
+atmospheric $\mathrm{CO_2}$ is increasing at approximately $2\ \mathrm{ppm\ yr^{-1}}$ Driving global
 warming.
 
 ### 13.2 The Carbon Balance
 
 For a stable atmospheric $\mathrm{CO_2}$ concentration:
 
-$$\text{Photosynthetic fixation} = \text{Respiration} + \text{Combustion} + \text{Decomposition}$$
+$$
+\text{Photosynthetic fixation} = \text{Respiration} + \text{Combustion} + \text{Decomposition}
+$$
 
 Currently, anthropogenic $\mathrm{CO_2}$ emissions exceed the capacity of natural sinks
 (photosynthesis and ocean absorption), leading to accumulation. Deforestation reduces photosynthetic
@@ -869,7 +953,7 @@ redox potential traces a Z-shape when plotted:
    electrons. The electrons have a relatively low energy (high redox potential, approximately
    $+0.8\ \mathrm{V}$).
 2. Electrons pass through the electron transport chain (plastoquinone, cytochrome
-   $b_6f$Plastocyanin), losing energy at each step. This energy is used to pump $\mathrm{H^+}$ into
+   $b_6f$ Plastocyanin), losing energy at each step. This energy is used to pump $\mathrm{H^+}$ into
    the thylakoid lumen.
 3. The electrons reach PSI (low redox potential, approximately $-1.2\ \mathrm{V}$) and are
    re-energised by a second photon of light.
@@ -894,6 +978,8 @@ in approximately a 2.7:2 ratio). Cyclic flow makes up the ATP deficit.
 
 ### 14.3 Photophosphorylation vs Oxidative Phosphorylation
 
+<div class="table-wrap">
+
 | Feature                 | Photophosphorylation                                            | Oxidative Phosphorylation                                                               |
 | ----------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | Location                | Thylakoid membranes (chloroplasts)                              | Inner mitochondrial membrane                                                            |
@@ -904,6 +990,8 @@ in approximately a 2.7:2 ratio). Cyclic flow makes up the ATP deficit.
 | ATP synthase            | CF1CF0-ATP synthase (CF1 head in stroma)                        | F1F0-ATP synthase (F1 head in matrix)                                                   |
 | Products                | ATP, $\mathrm{NADPH}$$\mathrm{O_2}$                             | ATP, $\mathrm{H_2O}$$\mathrm{CO_2}$                                                     |
 
+</div>
+
 ### 14.4 Chemiosmosis in Chloroplasts
 
 The proton gradient across the thylakoid membrane has three contributors:
@@ -912,7 +1000,7 @@ The proton gradient across the thylakoid membrane has three contributors:
 2. **$\mathrm{Q}$ cycle (cytochrome $b_6f$ complex)**: pumps $\mathrm{H^+}$ from the stroma to the
    lumen (similar to Complex III in mitochondria).
 3. **NADP reductase**: consumes $\mathrm{H^+}$ in the stroma when reducing $\mathrm{NADP^+}$ to
-   $\mathrm{NADPH}$Increasing the $\mathrm{H^+}$ gradient.
+   $\mathrm{NADPH}$ Increasing the $\mathrm{H^+}$ gradient.
 
 The proton motive force drives ATP synthesis as $\mathrm{H^+}$ flows back to the stroma through ATP
 synthase. The pH of the lumen can reach approximately 5.0 (compared to pH 8.0 in the stroma), giving
@@ -995,9 +1083,13 @@ Chromatography separates mixtures based on differential partitioning between a *
 
 1. Calculate the **retention factor ($R_f$)** for each pigment:
 
-$$R_f = \frac{\text{Distance travelled by pigment}}{\text{Distance travelled by solvent front}}$$
+$$
+R_f = \frac{\text{Distance travelled by pigment}}{\text{Distance travelled by solvent front}}
+$$
 
 ### 16.2 Expected Results
+
+<div class="table-wrap">
 
 | Pigment       | Approximate $R_f$ Value | Colour        | Solubility in Solvent                         |
 | ------------- | ----------------------- | ------------- | --------------------------------------------- |
@@ -1006,11 +1098,13 @@ $$R_f = \frac{\text{Distance travelled by pigment}}{\text{Distance travelled by 
 | Chlorophyll a | $\approx 0.59$          | Blue-green    | Intermediate                                  |
 | Chlorophyll b | $\approx 0.42$          | Yellow-green  | Least soluble (most polar); travels least far |
 
+</div>
+
 ### 16.3 Worked Example
 
 A student carries out chromatography of leaf pigments. The solvent front travels
 $12.0\ \mathrm{cm}$. The distances travelled by each pigment spot are: carotene
-$= 11.4\ \mathrm{cm}$Xanthophyll $= 8.5\ \mathrm{cm}$Chlorophyll a $= 7.1\ \mathrm{cm}$Chlorophyll b
+$= 11.4\ \mathrm{cm}$ Xanthophyll $= 8.5\ \mathrm{cm}$ Chlorophyll a $= 7.1\ \mathrm{cm}$ Chlorophyll b
 $= 5.0\ \mathrm{cm}$.
 
 $R_f$ values: carotene $= \frac{11.4}{12.0} = 0.95$; xanthophyll $= \frac{8.5}{12.0} = 0.71$;
@@ -1035,6 +1129,8 @@ When plotting the rate of photosynthesis against one factor while keeping others
 A student investigates the effect of $\mathrm{CO_2}$ concentration on the rate of photosynthesis at
 two light intensities:
 
+<div class="table-wrap">
+
 | $\mathrm{CO_2}$ concentration (%) | Rate at low light ($\mu\mathrm{mol\ CO_2\ m^{-2}\ s^{-1}}$) | Rate at high light ($\mu\mathrm{mol\ CO_2\ m^{-2}\ s^{-1}}$) |
 | --------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
 | 0.01                              | 2                                                           | 4                                                            |
@@ -1043,6 +1139,8 @@ two light intensities:
 | 0.10                              | 8                                                           | 24                                                           |
 | 0.20                              | 8                                                           | 24                                                           |
 | 0.40                              | 8                                                           | 24                                                           |
+
+</div>
 
 At low light intensity, the rate plateaus at $8\ \mu\mathrm{mol\ CO_2\ m^{-2}\ s^{-1}}$ (at 0.10%
 $\mathrm{CO_2}$). Above this $\mathrm{CO_2}$ concentration, the rate does not increase, indicating
@@ -1103,7 +1201,9 @@ which are held constant.
 
 Light intensity follows the **inverse square law**:
 
-$$I \propto \frac{1}{d^2}$$
+$$
+I \propto \frac{1}{d^2}
+$$
 
 If the light intensity at 10 cm is $400\ \mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}}$ Then at 40 cm:
 
@@ -1114,6 +1214,8 @@ relationship between rate and distance is non-linear.
 
 ### 23.3 Sources of Error
 
+<div class="table-wrap">
+
 | Error                                   | Effect                                     | How to Minimise                                                                           |
 | --------------------------------------- | ------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | Elodea pieces of different sizes        | Different photosynthetic rates             | Measure and match pieces by mass/length                                                   |
@@ -1121,6 +1223,8 @@ relationship between rate and distance is non-linear.
 | Light from other sources                | Increases light intensity at all positions | Carry out in a dark room; use a blackout box                                              |
 | Evaporation from the indicator          | Changes concentration                      | Seal tubes properly; use narrow tubes                                                     |
 | Colour change is gradual and subjective | Timing errors                              | Use a colorimeter for more precise measurement; use the same person to judge the endpoint |
+
+</div>
 
 ---
 
@@ -1140,11 +1244,15 @@ relationship between rate and distance is non-linear.
 
 The light compensation point varies between species:
 
+<div class="table-wrap">
+
 | Plant Type                                        | Typical Compensation Point ($\mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}}$) | Adaptation                                                                          |
 | ------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | Shade-tolerant (e.g., ferns, forest floor plants) | 5--15                                                                   | Efficient photosynthesis at low light; large, thin leaves with many chloroplasts    |
 | Shade-intolerant (e.g., sunflowers, maize)        | 30--50                                                                  | Require high light; small, thick leaves; high photosynthetic capacity at high light |
 | $\mathrm{C_4}$ plants (e.g., maize, sugarcane)    | Lower than $\mathrm{C_3}$ at same temperature                           | $\mathrm{CO_2}$-concentrating mechanism reduces photorespiration                    |
+
+</div>
 
 ### 22.2 Greenhouse Gas Enrichment Calculations
 
@@ -1211,14 +1319,18 @@ Daily electricity cost $= 139 \times \pounds 0.15 = \pounds 20.85$.
 
 ### 18.1 Chloroplast Anatomy
 
+<div class="table-wrap">
+
 | Structure          | Description                                                           | Function                                                                                                  |
 | ------------------ | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | Double membrane    | Outer membrane (permeable) and inner membrane (selectively permeable) | Compartmentalisation; controls entry/exit of molecules                                                    |
-| Thylakoid membrane | Internal membrane system forming flattened sacs (thylakoids)          | Site of light-dependent reactions (PSII, cytochrome $b_6f$PSI, ATP synthase)                              |
+| Thylakoid membrane | Internal membrane system forming flattened sacs (thylakoids)          | Site of light-dependent reactions (PSII, cytochrome $b_6f$ PSI, ATP synthase)                              |
 | Thylakoid lumen    | Space inside the thylakoid                                            | Proton accumulation site for chemiosmosis (low pH, approximately 5)                                       |
 | Grana              | Stacks of thylakoids                                                  | Maximise surface area for light absorption                                                                |
 | Lamellae           | Thylakoids connecting grana                                           | Allow connections between grana for electron and proton transport                                         |
 | Stroma             | Fluid-filled space surrounding thylakoids                             | Site of the Calvin cycle (light-independent reactions); contains enzymes, DNA, ribosomes, starch granules |
+
+</div>
 
 ### 18.2 Chloroplast DNA and Endosymbiosis
 
@@ -1238,7 +1350,9 @@ engulfed by a eukaryotic cell (primary endosymbiosis). Evidence:
 The relationship between light intensity and photosynthetic rate can be described by a rectangular
 hyperbola:
 
-$$P = \frac{P_{\max} \times I}{K_m + I}$$
+$$
+P = \frac{P_{\max} \times I}{K_m + I}
+$$
 
 Where $P$ = photosynthetic rate, $P_{\max}$ = maximum rate (at saturation), $I$ = light intensity,
 $K_m$ = light intensity at which the rate is half of $P_{\max}$.
@@ -1248,7 +1362,7 @@ $K_m = 50\ \mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}}$:
 
 At $I = 50$:
 $P = \frac{20 \times 50}{50 + 50} = \frac{1000}{100} = 10\ \mu\mathrm{mol\ CO_2\ m^{-2}\ s^{-1}}$
-(half of $P_{\max}$As expected).
+(half of $P_{\max}$ As expected).
 
 At $I = 200$:
 $P = \frac{20 \times 200}{50 + 200} = \frac{4000}{250} = 16\ \mu\mathrm{mol\ CO_2\ m^{-2}\ s^{-1}}$.
@@ -1293,12 +1407,16 @@ rate even when light intensity is at its peak.
 **Step 1 (mesophyll cells):** $\mathrm{CO_2}$ is fixed by PEP carboxylase to form oxaloacetate (4C),
 which is converted to malate.
 
-$$\mathrm{PEP + CO_2 \xrightarrow{PEP\ carboxylase} oxaloacetate \to malate}$$
+$$
+\mathrm{PEP + CO_2 \xrightarrow{PEP\ carboxylase} oxaloacetate \to malate}
+$$
 
 **Step 2 (bundle sheath cells):** malate diffuses into the bundle sheath cells (through
 plasmodesmata) and is decarboxylated, releasing $\mathrm{CO_2}$.
 
-$$\mathrm{Malate \to pyruvate + CO_2}$$
+$$
+\mathrm{Malate \to pyruvate + CO_2}
+$$
 
 The released $\mathrm{CO_2}$ has a high concentration in the bundle sheath cells (up to 60 times
 atmospheric), which suppresses the oxygenase activity of Rubisco and minimises photorespiration.
@@ -1315,6 +1433,8 @@ compared to $\mathrm{C_3}$). This extra cost is worthwhile at high temperature a
 $\mathrm{CO_2}$ because it eliminates photorespiration, which wastes more energy than the
 $\mathrm{C_4}$ pathway consumes.
 
+<div class="table-wrap">
+
 | Condition                                       | $\mathrm{C_3}$ Advantage                   | $\mathrm{C_4}$ Advantage                                  |
 | ----------------------------------------------- | ------------------------------------------ | --------------------------------------------------------- |
 | Low temperature ($< 25$ degrees C)              | Less photorespiration; no extra ATP needed | Extra ATP wasted (photorespiration is minimal anyway)     |
@@ -1323,6 +1443,8 @@ $\mathrm{C_4}$ pathway consumes.
 | High light intensity                            | --                                         | More ATP available to fuel the $\mathrm{C_4}$ pathway     |
 | Arid conditions                                 | --                                         | Higher water-use efficiency (fewer stomata needed)        |
 | $\mathrm{CO_2}$ levels $< $ current atmospheric | Photorespiration is severe                 | Efficient at low $\mathrm{CO_2}$                          |
+
+</div>
 
 ### 20.3 CAM Photosynthesis in Detail
 
@@ -1340,7 +1462,7 @@ photosynthesis **temporally** rather than spatially:
 
 - Malate is released from vacuoles and decarboxylated, releasing $\mathrm{CO_2}$.
 - The $\mathrm{CO_2}$ enters the Calvin cycle (Rubisco operates at high internal
-  $\mathrm{CO_2}$Minimising photorespiration).
+  $\mathrm{CO_2}$ Minimising photorespiration).
 - Stomata are closed, minimising water loss.
 
 CAM plants have the highest water-use efficiency of all photosynthetic pathways, but the lowest
@@ -1372,7 +1494,9 @@ oxygen when illuminated in the presence of an artificial electron acceptor (e.g.
 This proved that oxygen production (photolysis of water) is separate from carbon fixation (the
 Calvin cycle), which requires $\mathrm{CO_2}$.
 
-$$2\mathrm{H_2O + 2\ \text{ferricyanide (oxidised)} \xrightarrow{\text{light, chloroplasts}} O_2 + 2\ \text{ferrocyanide (reduced)} + 4H^+}$$
+$$
+2\mathrm{H_2O + 2\ \text{ferricyanide (oxidised)} \xrightarrow{\text{light, chloroplasts}} O_2 + 2\ \text{ferrocyanide (reduced)} + 4H^+}
+$$
 
 ### 21.5 Calvin, Benson, and Bassham (1950s)
 
@@ -1433,14 +1557,18 @@ mitigation:
 
 ### 23.1 Photosynthesis and Respiration: The Carbon Cycle
 
+<div class="table-wrap">
+
 | Process                          | Location                     | Inputs                                            | Outputs                                                |
 | -------------------------------- | ---------------------------- | ------------------------------------------------- | ------------------------------------------------------ |
-| Photosynthesis (light reactions) | Thylakoid membrane           | Light, $\mathrm{H_2O}$ADP, $\mathrm{NADP^+}$      | $\mathrm{O_2}$ATP, $\mathrm{NADPH}$                    |
-| Photosynthesis (Calvin cycle)    | Stroma                       | $\mathrm{CO_2}$ATP, $\mathrm{NADPH}$              | TP, GP, RuBP, ADP, $\mathrm{NADP^+}$                   |
+| Photosynthesis (light reactions) | Thylakoid membrane           | Light, $\mathrm{H_2O}$ ADP, $\mathrm{NADP^+}$      | $\mathrm{O_2}$ ATP, $\mathrm{NADPH}$                    |
+| Photosynthesis (Calvin cycle)    | Stroma                       | $\mathrm{CO_2}$ ATP, $\mathrm{NADPH}$              | TP, GP, RuBP, ADP, $\mathrm{NADP^+}$                   |
 | Glycolysis                       | Cytoplasm                    | Glucose, ATP, $\mathrm{NAD^+}$                    | Pyruvate, ATP (net 2), $\mathrm{NADH}$                 |
-| Link reaction                    | Mitochondrial matrix         | Pyruvate, $\mathrm{NAD^+}$CoA                     | Acetyl CoA, $\mathrm{CO_2}$, $\mathrm{NADH}$           |
-| Krebs cycle                      | Mitochondrial matrix         | Acetyl CoA, $\mathrm{NAD^+}$FAD                   | $\mathrm{CO_2}$ATP, $\mathrm{NADH}$, $\mathrm{FADH_2}$ |
-| Oxidative phosphorylation        | Inner mitochondrial membrane | $\mathrm{NADH}$$\mathrm{FADH_2}$$\mathrm{O_2}$ADP | $\mathrm{H_2O}$ATP                                     |
+| Link reaction                    | Mitochondrial matrix         | Pyruvate, $\mathrm{NAD^+}$ CoA                     | Acetyl CoA, $\mathrm{CO_2}$, $\mathrm{NADH}$           |
+| Krebs cycle                      | Mitochondrial matrix         | Acetyl CoA, $\mathrm{NAD^+}$ FAD                   | $\mathrm{CO_2}$ ATP, $\mathrm{NADH}$, $\mathrm{FADH_2}$ |
+| Oxidative phosphorylation        | Inner mitochondrial membrane | $\mathrm{NADH}$$\mathrm{FADH_2}$$\mathrm{O_2}$ ADP | $\mathrm{H_2O}$ ATP                                     |
+
+</div>
 
 The products of photosynthesis (glucose, $\mathrm{O_2}$) are the reactants of respiration. The
 products of respiration ($\mathrm{CO_2}$$\mathrm{H_2O}$) are the reactants of photosynthesis.
@@ -1471,7 +1599,9 @@ RuBP.
 
 ### 23.3 Calculating Net Primary Productivity (NPP)
 
-$$\mathrm{NPP} = \mathrm{GPP} - R$$
+$$
+\mathrm{NPP} = \mathrm{GPP} - R
+$$
 
 Where:
 
@@ -1482,7 +1612,9 @@ Where:
 **Example:** A forest has a GPP of $20,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$ and respiratory losses of
 $12,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$.
 
-$$\mathrm{NPP} = 20,000 - 12,000 = 8,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$$
+$$
+\mathrm{NPP} = 20,000 - 12,000 = 8,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}
+$$
 
 The NPP represents the energy available to the next trophic level (herbivores). Only approximately
 10--20% of NPP is transferred to herbivores (the rest is lost as heat, uneaten material, or
@@ -1506,12 +1638,16 @@ Water deficit affects photosynthesis in several ways:
 
 ### 24.2 Temperature Stress
 
+<div class="table-wrap">
+
 | Temperature Range                                          | Effect on Photosynthesis                                                                               |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | Below optimum                                              | Enzyme activity decreases (Q10 effect); membrane fluidity decreases, affecting electron transport      |
 | Optimum (25--30 degrees C for C3; 30--40 degrees C for C4) | Maximum photosynthetic rate                                                                            |
 | Above optimum                                              | Enzymes denature (especially Rubisco activase); photorespiration increases; membranes become too fluid |
 | Extreme heat (> 40 degrees C)                              | Photosystem II is damaged; thylakoid membranes disrupted; irreversible photoinhibition                 |
+
+</div>
 
 ### 24.3 Light Stress
 
@@ -1529,6 +1665,8 @@ Water deficit affects photosynthesis in several ways:
 
 ### 25.1 Measuring the Rate of Photosynthesis
 
+<div class="table-wrap">
+
 | Method                                  | What is Measured                            | Procedure                                                                                              | Advantages                             | Limitations                                                         |
 | --------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------- | ------------------------------------------------------------------- |
 | Oxygen production (bubble count)        | Number of $\mathrm{O_2}$ bubbles per minute | Place aquatic plant (e.g., _Elodea_) in a test tube of water; count bubbles under different conditions | Simple; qualitative comparison         | Bubble size varies; not quantitative                                |
@@ -1536,6 +1674,8 @@ Water deficit affects photosynthesis in several ways:
 | Mass change of aquatic plant            | Change in mass per unit time                | Weigh plant before and after a period in light (blot dry)                                              | Simple                                 | Water adhering to plant affects mass; evaporation confounds results |
 | Sensor (dissolved $\mathrm{O_2}$ probe) | Dissolved $\mathrm{O_2}$ concentration      | Place probe in water with aquatic plant; record $\mathrm{O_2}$ concentration over time                 | Accurate; continuous data              | Expensive equipment; probe drift                                    |
 | $\mathrm{CO_2}$ uptake                  | Change in $\mathrm{CO_2}$ concentration     | Use $\mathrm{CO_2}$ sensor in a sealed chamber with plant                                              | Direct measure of substrate use        | Expensive; sealed chamber may alter conditions                      |
+
+</div>
 
 ### 25.2 Investigating the Effect of Light Intensity
 
@@ -1589,6 +1729,8 @@ primary photosynthetic pigment.
 
 ### 26.1 Detailed Chloroplast Anatomy
 
+<div class="table-wrap">
+
 | Structure                         | Description                                        | Function                                                                           |
 | --------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | Outer membrane                    | Smooth, freely permeable to small molecules        | Contains porins for passive diffusion of molecules up to 10 kDa                    |
@@ -1600,6 +1742,8 @@ primary photosynthetic pigment.
 | Granum (plural: grana)            | Stack of thylakoids                                | Increases surface area for light absorption                                        |
 | Lamellae (intergranal thylakoids) | Thylakoids connecting grana                        | Allow communication between grana; distribute products of light reactions          |
 | Starch granule                    | Stored in the stroma                               | Storage form of glucose (temporary)                                                |
+
+</div>
 
 ### 26.2 Chloroplast DNA and Endosymbiosis
 
@@ -1622,6 +1766,8 @@ photosynthetic bacteria (cyanobacteria) that were engulfed by a eukaryotic host 
 
 ### 26.3 Photosynthetic Pigments
 
+<div class="table-wrap">
+
 | Pigment                                        | Colour       | Absorption Peaks              | Solubility    | Location                                                            |
 | ---------------------------------------------- | ------------ | ----------------------------- | ------------- | ------------------------------------------------------------------- |
 | Chlorophyll $a$                                | Blue-green   | ~430 nm (blue), ~662 nm (red) | Fat-soluble   | Reaction centres of photosystems I and II                           |
@@ -1630,7 +1776,9 @@ photosynthetic bacteria (cyanobacteria) that were engulfed by a eukaryotic host 
 | Xanthophylls (e.g., lutein, violaxanthin)      | Yellow       | ~450 nm (blue-violet)         | Fat-soluble   | Photoprotection; NPQ (non-photochemical quenching)                  |
 | Phycobilins (e.g., phycoerythrin, phycocyanin) | Red/blue     | ~550 nm (green)               | Water-soluble | Accessory pigments in red algae and cyanobacteria                   |
 
-Accessory pigments (chlorophyll $b$Carotenoids) absorb light at wavelengths where chlorophyll $a$
+</div>
+
+Accessory pigments (chlorophyll $b$ Carotenoids) absorb light at wavelengths where chlorophyll $a$
 absorbs poorly (e.g., blue-green, green), extending the range of light that can be used for
 photosynthesis. Energy absorbed by accessory pigments is transferred to chlorophyll $a$ in the
 reaction centre by resonance energy transfer.
@@ -1672,12 +1820,18 @@ suppresses photorespiration:
 CAM (Crassulacean Acid Metabolism) plants (cacti, succulents, pineapple, _Kalanchoe_) separate the
 initial $\mathrm{CO_2}$ fixation and the Calvin cycle in time rather than in space:
 
+<div class="table-wrap">
+
 | Time  | Process                                | What Happens                                                                                                                                                                                                                                           |
 | ----- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Night | Stomata open; $\mathrm{CO_2}$ fixation | $\mathrm{CO_2}$ enters through open stomata; PEP carboxylase fixes $\mathrm{CO_2}$ into oxaloacetate, which is converted to malic acid and stored in vacuoles. Water loss is minimised because temperatures are lower and humidity is higher at night. |
 | Day   | Stomata closed; Calvin cycle           | Malic acid is released from vacuoles; decarboxylated to release $\mathrm{CO_2}$; $\mathrm{CO_2}$ enters the Calvin cycle. Light provides ATP and NADPH.                                                                                                |
 
+</div>
+
 ### 27.3 Comparison of C3, C4, and CAM
+
+<div class="table-wrap">
 
 | Feature                               | C3                                | C4                        | CAM                           |
 | ------------------------------------- | --------------------------------- | ------------------------- | ----------------------------- |
@@ -1691,17 +1845,21 @@ initial $\mathrm{CO_2}$ fixation and the Calvin cycle in time rather than in spa
 | Light saturation                      | Moderate                          | High                      | Low (slow growth)             |
 | Growth rate                           | Moderate                          | High                      | Low                           |
 
+</div>
+
 ## 28. Light-Dependent Reactions: Detailed Mechanism
 
 ### 28.1 Photosystem II (PSII)
 
-1. Light energy is absorbed by antenna pigments (chlorophyll $b$Carotenoids) and transferred to the
+1. Light energy is absorbed by antenna pigments (chlorophyll $b$ Carotenoids) and transferred to the
    reaction centre chlorophyll $a$ (P680) by resonance energy transfer.
 2. P680 becomes excited (P680\*) and donates an electron to the primary electron acceptor
    (pheophytin).
 3. P680+ is a very strong oxidising agent. It extracts electrons from water by photolysis:
 
-$$2\mathrm{H_2O \to 4H^+ + 4e^- + O_2}$$
+$$
+2\mathrm{H_2O \to 4H^+ + 4e^- + O_2}
+$$
 
 1. The electron passes through the PSII electron transport chain: pheophytin $\to$ plastoquinone
    (PQ) $\to$ cytochrome $b_6f$ complex.
@@ -1718,7 +1876,9 @@ $$2\mathrm{H_2O \to 4H^+ + 4e^- + O_2}$$
 4. Ferredoxin-NADP$^+$ reductase (FNR) transfers electrons from reduced ferredoxin to
    $\mathrm{NADP^+}$:
 
-$$\mathrm{NADP^+ + 2H^+ + 2e^- \to NADPH}$$
+$$
+\mathrm{NADP^+ + 2H^+ + 2e^- \to NADPH}
+$$
 
 The $\mathrm{H^+}$ ions come from the stroma (not the lumen).
 
@@ -1744,7 +1904,7 @@ When the Calvin cycle requires more ATP than $\mathrm{NADPH}$ (or when $\mathrm{
 PSI can operate in cyclic mode:
 
 1. Light excites P700, which donates an electron to ferredoxin.
-2. Instead of reducing $\mathrm{NADP^+}$The electron is transferred back to the cytochrome $b_6f$
+2. Instead of reducing $\mathrm{NADP^+}$ The electron is transferred back to the cytochrome $b_6f$
    complex (via ferredoxin-plastoquinone reductase, FQR).
 3. The electron returns to P700 via plastocyanin.
 4. $\mathrm{H^+}$ is pumped into the lumen, driving ATP synthesis.
@@ -1775,6 +1935,8 @@ PSI can operate in cyclic mode:
 
 ### 29.4 Summary: What Is Needed and Produced (per 3 $\mathrm{CO_2}$)?
 
+<div class="table-wrap">
+
 | Input           | Quantity                               | Output            | Quantity |
 | --------------- | -------------------------------------- | ----------------- | -------- |
 | $\mathrm{CO_2}$ | 3                                      | TP (exported)     | 1        |
@@ -1782,7 +1944,11 @@ PSI can operate in cyclic mode:
 | ATP             | 6 (3 in reduction + 3 in regeneration) | ADP               | 6        |
 | NADPH           | 6                                      | $\mathrm{NADP^+}$ | 6        |
 
+</div>
+
 ### 29.5 Factors Affecting the Calvin Cycle
+
+<div class="table-wrap">
 
 | Factor                        | Effect                                                                          | Explanation                                                                                    |
 | ----------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -1791,12 +1957,16 @@ PSI can operate in cyclic mode:
 | Light intensity               | Indirect effect: light is needed to produce ATP and NADPH                       | Without light reactions, the Calvin cycle stops due to lack of ATP and NADPH                   |
 | $\mathrm{O_2}$ concentration  | High $\mathrm{O_2}$ decreases net $\mathrm{CO_2}$ fixation (photorespiration)   | Rubisco also acts as an oxygenase; photorespiration wastes energy and releases $\mathrm{CO_2}$ |
 
+</div>
+
 ### 29.6 Photorespiration
 
 When $\mathrm{O_2}$ concentration is high (or $\mathrm{CO_2}$ is low), Rubisco catalyses the
 oxygenation of RuBP:
 
-$$\text{RuBP} + \mathrm{O_2} \to \text{1 GP (3C)} + \text{glycolate (2C)}$$
+$$
+\text{RuBP} + \mathrm{O_2} \to \text{1 GP (3C)} + \text{glycolate (2C)}
+$$
 
 Glycolate is transported to peroxisomes, where it is converted to glycine (2C). Two glycines are
 converted to serine (3C) + $\mathrm{CO_2}$ + $\mathrm{NH_3}$ (in mitochondria). Serine is converted
@@ -1813,6 +1983,8 @@ back to GP.
 
 ### 30.1 The Global Carbon Cycle
 
+<div class="table-wrap">
+
 | Process                      | $\mathrm{CO_2}$ Flux ($\mathrm{Gt\ C\ yr^{-1}}$) | Direction                                             |
 | ---------------------------- | ------------------------------------------------ | ----------------------------------------------------- |
 | Photosynthesis (terrestrial) | $\approx -120$                                   | Absorbs $\mathrm{CO_2}$                               |
@@ -1824,14 +1996,22 @@ back to GP.
 | Ocean uptake                 | $\approx -2.5$                                   | Absorbs $\mathrm{CO_2}$ (dissolves in water)          |
 | Net flux to atmosphere       | $\approx +5$                                     | Accumulating (increasing atmospheric $\mathrm{CO_2}$) |
 
+</div>
+
 ### 30.2 Compensation Point and Saturation Point
+
+<div class="table-wrap">
 
 | Concept            | Definition                                                                                                                               | Significance                                                                                                                |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Compensation point | The light intensity at which the rate of photosynthesis equals the rate of respiration (net gas exchange $= 0$)                          | Below this point, the plant respires more than it photosynthesises; above it, the plant has a net gain of organic compounds |
 | Saturation point   | The light intensity at which increasing light intensity no longer increases the rate of photosynthesis (another factor becomes limiting) | Above this point, $\mathrm{CO_2}$ concentration or temperature is the limiting factor                                       |
 
+</div>
+
 ### 30.3 Daily Pattern of Gas Exchange
+
+<div class="table-wrap">
 
 | Time of Day    | Net $\mathrm{CO_2}$ Exchange         | Net $\mathrm{O_2}$ Exchange          | Explanation                                                                                          |
 | -------------- | ------------------------------------ | ------------------------------------ | ---------------------------------------------------------------------------------------------------- |
@@ -1840,6 +2020,8 @@ back to GP.
 | Midday         | Maximum net $\mathrm{CO_2}$ uptake   | Maximum net $\mathrm{O_2}$ release   | Light intensity is at or above saturation point; temperature and $\mathrm{CO_2}$ may become limiting |
 | Late afternoon | Net $\mathrm{CO_2}$ uptake decreases | Net $\mathrm{O_2}$ release decreases | Light intensity decreases below saturation point                                                     |
 | Dusk           | Net exchange $= 0$                   | Net exchange $= 0$                   | Light intensity drops to compensation point                                                          |
+
+</div>
 
 ### 30.4 Crop Yield and Greenhouse Management
 
@@ -1883,6 +2065,8 @@ The volume of thiosulphate used is proportional to the dissolved $\mathrm{O_2}$ 
 
 ### 31.2 Factors Affecting DO in Water
 
+<div class="table-wrap">
+
 | Factor              | Effect on DO                                                                              |
 | ------------------- | ----------------------------------------------------------------------------------------- |
 | Temperature         | Higher temperature $\to$ lower DO (gases are less soluble in warm water)                  |
@@ -1893,9 +2077,13 @@ The volume of thiosulphate used is proportional to the dissolved $\mathrm{O_2}$ 
 | Altitude            | Higher altitude $\to$ lower atmospheric pressure $\to$ lower DO                           |
 | Salinity            | Higher salinity $\to$ lower DO (salt reduces $\mathrm{O_2}$ solubility)                   |
 
+</div>
+
 ### 31.3 Diurnal Variation in DO
 
 In a pond or lake:
+
+<div class="table-wrap">
 
 | Time          | DO Trend      | Explanation                                                                              |
 | ------------- | ------------- | ---------------------------------------------------------------------------------------- |
@@ -1905,11 +2093,15 @@ In a pond or lake:
 | Evening       | DO decreasing | Light intensity decreases; photosynthesis rate drops below respiration rate              |
 | Night         | DO decreasing | Only respiration occurs; DO steadily decreases until dawn                                |
 
+</div>
+
 ## 32. Photosynthesis and Human Nutrition
 
 ### 32.1 Essential Minerals for Plant Growth
 
 Plants require mineral ions for healthy growth:
+
+<div class="table-wrap">
 
 | Mineral Ion                          | Role in Plants                                              | Deficiency Symptom                                                               |
 | ------------------------------------ | ----------------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -1921,9 +2113,13 @@ Plants require mineral ions for healthy growth:
 | Iron ($\mathrm{Fe^{2+/3+}}$)         | Chlorophyll synthesis; electron transport chain components  | Interveinal chlorosis; severe chlorosis                                          |
 | Sulfur ($\mathrm{SO_4^{2-}}$)        | Amino acid synthesis (cysteine, methionine); coenzymes      | Yellowing of young leaves; general stunting                                      |
 
+</div>
+
 ### 32.2 Hydroponics
 
 Hydroponics is growing plants without soil, in a nutrient solution:
+
+<div class="table-wrap">
 
 | Advantages                                      | Disadvantages                                                                           |
 | ----------------------------------------------- | --------------------------------------------------------------------------------------- |
@@ -1933,9 +2129,13 @@ Hydroponics is growing plants without soil, in a nutrient solution:
 | Water-efficient (recirculating systems)         | Requires continuous monitoring of pH, EC (electrical conductivity), and nutrient levels |
 | Can grow anywhere (urban environments, deserts) | Energy costs (artificial lighting, pumps, heaters)                                      |
 
+</div>
+
 ## 33. Light-Independent Reactions: The Calvin Cycle in Detail
 
 ### 33.1 The Three Stages
+
+<div class="table-wrap">
 
 | Stage                | What Happens                                                                                           | Enzyme                                       | Key Molecules                                              |
 | -------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------- | ---------------------------------------------------------- |
@@ -1943,9 +2143,13 @@ Hydroponics is growing plants without soil, in a nutrient solution:
 | Reduction            | GP is reduced to TP (triose phosphate) using ATP and reduced NADP from the light-dependent reactions   | No named enzyme (uses ATP and NADPH)         | GP + ATP + NADPH $\to$ TP + NADP$^+$ + ADP + $P_i$         |
 | Regeneration of RuBP | 5 out of every 6 TP molecules are used to regenerate RuBP (the remaining 1 TP is used to make glucose) | Series of enzymes (phosphogluconate pathway) | 5 $\times$ TP (3C) $\to$ 3 $\times$ RuBP (5C); costs 3 ATP |
 
+</div>
+
 ### 33.2 ATP and NADP Requirements
 
 For every 3 turns of the Calvin cycle (fixing 3 $\mathrm{CO_2}$):
+
+<div class="table-wrap">
 
 | Molecule                              | Number Required                       |
 | ------------------------------------- | ------------------------------------- |
@@ -1956,6 +2160,8 @@ For every 3 turns of the Calvin cycle (fixing 3 $\mathrm{CO_2}$):
 | Reduced NADP consumed                 | 6 (in reduction only)                 |
 | TP produced                           | 6 (5 recycled, 1 exported)            |
 | Glucose produced (from 2 exported TP) | Requires 6 turns of the cycle         |
+
+</div>
 
 For one molecule of glucose ($\mathrm{C_6H_{12}O_6}$):
 
@@ -1968,13 +2174,19 @@ For one molecule of glucose ($\mathrm{C_6H_{12}O_6}$):
 
 ### 34.1 Limiting Factors at Different Light Intensities
 
+<div class="table-wrap">
+
 | Light Intensity | Limiting Factor                                | Explanation                                                                                                               |
 | --------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Low             | Light intensity                                | Few photons reach chlorophyll; rate of light-dependent reactions limits overall rate                                      |
 | Moderate        | $\mathrm{CO_2}$ concentration (or temperature) | Light is no longer limiting; $\mathrm{CO_2}$ supply to Rubisco becomes the bottleneck                                     |
 | High            | Temperature (or $\mathrm{CO_2}$)               | Light and $\mathrm{CO_2}$ are both saturating; enzyme activity (Rubisco) limits rate; temperature affects enzyme kinetics |
 
+</div>
+
 ### 34.2 Effects of Individual Limiting Factors
+
+<div class="table-wrap">
 
 | Factor                                   | Effect on Rate                           | Explanation                                                                                                                                                   |
 | ---------------------------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1983,16 +2195,24 @@ For one molecule of glucose ($\mathrm{C_6H_{12}O_6}$):
 | Temperature (increase)                   | Rate increases to optimum then decreases | Enzyme kinetics: rate doubles per $10\degree\mathrm{C}$ rise (Q10); above optimum ($\sim$25--30$\degree\mathrm{C}$), enzymes denature; membranes become leaky |
 | Water availability                       | Rate decreases                           | Water is a reactant in the light-dependent reactions; also causes stomatal closure (reducing $\mathrm{CO_2}$ uptake)                                          |
 
+</div>
+
 ### 34.3 Greenhouse Gas Effects on Photosynthesis
+
+<div class="table-wrap">
 
 | Gas                    | Current Atmospheric Concentration        | Effect on Plant Growth                                                                                                                                              |
 | ---------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $\mathrm{CO_2}$        | ~420 ppm (rising ~2.5 ppm/year)          | Higher $\mathrm{CO_2}$ increases photosynthetic rate in C3 plants (up to a point); C4 plants already have a $\mathrm{CO_2}$-concentrating mechanism so benefit less |
 | $\mathrm{O_3}$ (ozone) | Increasing near ground level (pollution) | Damages chlorophyll; reduces photosynthetic rate; damages stomatal function                                                                                         |
 
+</div>
+
 ## 35. Investigating the Rate of Photosynthesis
 
 ### 35.1 Common Practical Methods
+
+<div class="table-wrap">
 
 | Method                       | What Is Measured                                    | How                                                                                                                                                             | Limitations                                                                                                         |
 | ---------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -2001,7 +2221,11 @@ For one molecule of glucose ($\mathrm{C_6H_{12}O_6}$):
 | Mass change                  | Increase in dry mass of plant over time             | Harvest plants at intervals; dry to constant mass; weigh                                                                                                        | Destructive (different plants each time); slow                                                                      |
 | Absorbance (DCPIP)           | Rate of decolourisation of DCPIP                    | DCPIP is blue when oxidised and colourless when reduced (accepts electrons from the light-dependent reactions); time how long it takes for DCPIP to decolourise | DCPIP can act as an electron acceptor, potentially inhibiting normal electron flow; colour change can be subjective |
 
+</div>
+
 ### 35.2 Variables in Photosynthesis Experiments
+
+<div class="table-wrap">
 
 | Variable                      | Type        | How to Control/Vary                                                                     |
 | ----------------------------- | ----------- | --------------------------------------------------------------------------------------- |
@@ -2012,9 +2236,13 @@ For one molecule of glucose ($\mathrm{C_6H_{12}O_6}$):
 | Number/size of leaves         | Control     | Use same species, same age, same number of leaves                                       |
 | Time                          | Control     | Use a stopwatch                                                                         |
 
+</div>
+
 ## 36. Chloroplast Structure and Adaptations
 
 ### 36.1 Chloroplast Components
+
+<div class="table-wrap">
 
 | Component                         | Description                                                                                                        | Function                                                                                                          |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
@@ -2026,7 +2254,11 @@ For one molecule of glucose ($\mathrm{C_6H_{12}O_6}$):
 | Lamellae (intergranal thylakoids) | Thylakoid membranes connecting grana                                                                               | Connect grana; provide additional membrane surface for light-dependent reactions                                  |
 | Starch grains                     | Stored in the stroma                                                                                               | Temporary storage of carbohydrate produced by photosynthesis                                                      |
 
+</div>
+
 ### 36.2 Adaptations of the Chloroplast
+
+<div class="table-wrap">
 
 | Adaptation                                     | Benefit                                                                                                                                        |
 | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2036,9 +2268,13 @@ For one molecule of glucose ($\mathrm{C_6H_{12}O_6}$):
 | Chlorophyll pigments in thylakoid membranes    | Absorb light energy for photosynthesis                                                                                                         |
 | Thin thylakoid membranes                       | Short diffusion distance for protons and electrons                                                                                             |
 
+</div>
+
 ## 37. C3, C4, and CAM Photosynthesis Comparison
 
 ### 37.1 Key Differences
+
+<div class="table-wrap">
 
 | Feature                          | C3 Plants                                                         | C4 Plants                                                              | CAM Plants                                                                   |
 | -------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -2049,6 +2285,8 @@ For one molecule of glucose ($\mathrm{C_6H_{12}O_6}$):
 | Water use efficiency             | Low (loses more water per unit $\mathrm{CO_2}$ fixed)             | High                                                                   | Very high                                                                    |
 | Temperature optimum              | 20--25$\degree\mathrm{C}$                                         | 30--40$\degree\mathrm{C}$                                              | Hot, arid environments                                                       |
 | Examples                         | Wheat, rice, oats, soybean, most temperate plants                 | Maize, sugarcane, sorghum, tropical grasses                            | Cacti, pineapple, jade plant, _Kalanchoe_                                    |
+
+</div>
 
 ### 37.2 Why C4 Plants Are More Efficient in Hot Climates
 
@@ -2072,6 +2310,8 @@ C4 plants solve this by:
 
 ### 38.1 Photosystems
 
+<div class="table-wrap">
+
 | Feature            | Photosystem II (PSII)                                                        | Photosystem I (PSI)                                                                         |
 | ------------------ | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | Primary pigment    | P680 (chlorophyll a, absorbs at 680 nm)                                      | P700 (chlorophyll a, absorbs at 700 nm)                                                     |
@@ -2079,7 +2319,11 @@ C4 plants solve this by:
 | Function           | Absorbs light energy; splits water (photolysis); passes electrons to the ETC | Absorbs light energy (second photon); re-energises electrons; passes them to NADP reductase |
 | First in the chain | Yes (electrons enter the ETC here)                                           | No (receives electrons from PSII via ETC)                                                   |
 
+</div>
+
 ### 38.2 Non-Cyclic Photophosphorylation (Z-Scheme)
+
+<div class="table-wrap">
 
 | Step | Location | What Happens                                                                                                                                                                 |
 | ---- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2090,7 +2334,11 @@ C4 plants solve this by:
 | 5    | PSI      | Light energy excites electrons in P700; electrons are passed to ferredoxin, then to NADP reductase                                                                           |
 | 6    | Stroma   | NADP reductase reduces $\mathrm{NADP^+}$ to reduced NADP using the electrons and $\mathrm{H^+}$ from the stroma                                                              |
 
+</div>
+
 ### 38.3 Products of the Light-Dependent Reactions
+
+<div class="table-wrap">
 
 | Product                                                      | Used For                                                                          |
 | ------------------------------------------------------------ | --------------------------------------------------------------------------------- |
@@ -2098,9 +2346,13 @@ C4 plants solve this by:
 | Reduced NADP                                                 | Provides reducing power (electrons and $\mathrm{H^+}$) for the Calvin cycle       |
 | $\mathrm{O_2}$                                               | Released as a by-product of photolysis; used by organisms for aerobic respiration |
 
+</div>
+
 ## 39. Chlorophyll and Light Absorption
 
 ### 39.1 Types of Chlorophyll and Accessory Pigments
+
+<div class="table-wrap">
 
 | Pigment                                  | Colour         | Absorption Peaks               | Role                                                                                                                                                 |
 | ---------------------------------------- | -------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2108,6 +2360,8 @@ C4 plants solve this by:
 | Chlorophyll b                            | Yellow-green   | 453 nm (blue) and 642 nm (red) | Accessory pigment; absorbs light at wavelengths that chlorophyll a absorbs less efficiently; passes energy to chlorophyll a                          |
 | Carotenoids (carotene, xanthophyll)      | Yellow, orange | 400--500 nm (blue-violet)      | Accessory pigments; absorb blue light; pass energy to chlorophyll a; also photoprotective (quench singlet oxygen, preventing photo-oxidative damage) |
 | Phycobilins (phycocyanin, phycoerythrin) | Red, blue      | 500--650 nm                    | Accessory pigments in red algae and cyanobacteria                                                                                                    |
+
+</div>
 
 ### 39.2 Why Leaves Are Green
 
@@ -2117,10 +2371,14 @@ C4 plants solve this by:
 
 ### 39.3 Absorption and Action Spectra
 
+<div class="table-wrap">
+
 | Spectrum            | What It Shows                                              | How It Is Measured                                                                                                                                                       |
 | ------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Absorption spectrum | The range of wavelengths of light absorbed by each pigment | Extract pigments with solvent; pass white light through the extract; measure absorption at each wavelength using a spectrophotometer                                     |
 | Action spectrum     | The rate of photosynthesis at each wavelength of light     | Illuminate a plant with light of different wavelengths (using coloured filters); measure the rate of photosynthesis (e.g., $\mathrm{O_2}$ production) at each wavelength |
+
+</div>
 
 The action spectrum closely matches the absorption spectrum of chlorophyll, confirming that
 chlorophyll is the primary photosynthetic pigment.
@@ -2129,6 +2387,8 @@ chlorophyll is the primary photosynthetic pigment.
 
 ### 40.1 Auxins (IAA, Indole-3-Acetic Acid)
 
+<div class="table-wrap">
+
 | Feature            | Description                                                                                                                                                                                                                                                                                                                                    |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Site of production | Shoot tip (apical meristem); young leaves                                                                                                                                                                                                                                                                                                      |
@@ -2136,7 +2396,11 @@ chlorophyll is the primary photosynthetic pigment.
 | Effects            | Cell elongation (acid growth hypothesis: auxin activates proton pumps $\to$ cell wall becomes more acidic $\to$ cell wall-loosening enzymes (expansins) break cross-links $\to$ wall becomes extensible $\to$ cell expands); apical dominance (inhibits lateral bud growth); root initiation (cuttings); tropisms (phototropism, gravitropism) |
 | Commercial use     | Rooting powder (auxin in cuttings); weedkillers (synthetic auxins like 2,4-D cause uncontrolled growth and death in broad-leaved plants)                                                                                                                                                                                                       |
 
+</div>
+
 ### 40.2 Gibberellins
+
+<div class="table-wrap">
 
 | Feature            | Description                                                                                                                                                                                                                                                          |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2144,7 +2408,11 @@ chlorophyll is the primary photosynthetic pigment.
 | Effects            | Stem elongation; seed germination (gibberellin stimulates production of amylase in the aleurone layer of barley seeds $\to$ starch is hydrolysed to glucose $\to$ provides energy for the growing embryo); bolting (rapid stem elongation in response to day length) |
 | Commercial use     | Spraying grapes with gibberellic acid to produce larger fruits; brewing industry (gibberellins used in malting barley)                                                                                                                                               |
 
+</div>
+
 ### 40.3 Ethylene
+
+<div class="table-wrap">
 
 | Feature            | Description                                                                                                                                       |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2153,7 +2421,11 @@ chlorophyll is the primary photosynthetic pigment.
 | Effects            | Fruit ripening (converts starch to sugars; softens cell walls by breaking down pectin); leaf abscission (dropping of leaves); senescence (ageing) |
 | Commercial use     | Ripening bananas (expose unripe bananas to ethylene gas to trigger ripening)                                                                      |
 
+</div>
+
 ### 40.4 Cytokinins
+
+<div class="table-wrap">
 
 | Feature            | Description                                                                                                         |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------- |
@@ -2161,9 +2433,13 @@ chlorophyll is the primary photosynthetic pigment.
 | Effects            | Promote cell division (cytokinesis); delay leaf senescence; promote shoot growth (work antagonistically with auxin) |
 | Commercial use     | Used in tissue culture (with auxin) to stimulate shoot formation                                                    |
 
+</div>
+
 ## 41. Photosynthesis and the Carbon Cycle
 
 ### 41.1 The Carbon Cycle
+
+<div class="table-wrap">
 
 | Process                   | $\mathrm{CO_2}$ Change                   | Description                                                                                                                                    |
 | ------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2176,9 +2452,13 @@ chlorophyll is the primary photosynthetic pigment.
 | Deforestation             | Reduced $\mathrm{CO_2}$ absorption       | Fewer trees to absorb $\mathrm{CO_2}$; additionally, burning forests releases stored carbon                                                    |
 | Limestone formation       | $\mathrm{CO_2}$ removed (long-term)      | Marine organisms (coral, foraminifera) use $\mathrm{CO_2}$ to form calcium carbonate shells; over geological time, this becomes limestone rock |
 
+</div>
+
 ## 42. Fertilisation and Seed Development
 
 ### 42.1 Fertilisation in Flowering Plants
+
+<div class="table-wrap">
 
 | Step | What Happens                                                                                                                                |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2188,7 +2468,11 @@ chlorophyll is the primary photosynthetic pigment.
 | 4    | Double fertilisation: one male nucleus fuses with the egg cell (2n zygote); the other fuses with two polar nuclei (3n endosperm)            |
 | 5    | The zygote develops into the embryo; the endosperm develops into a nutrient store; the ovule integuments develop into the seed coat (testa) |
 
+</div>
+
 ### 42.2 Seed Structure
+
+<div class="table-wrap">
 
 | Part              | Origin                   | Function                                                                                                                             |
 | ----------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2199,9 +2483,13 @@ chlorophyll is the primary photosynthetic pigment.
 | Radicle           | Part of embryo           | Develops into the primary root                                                                                                       |
 | Plumule           | Part of embryo           | Develops into the shoot                                                                                                              |
 
+</div>
+
 ## 43. Plant Disease and Defence
 
 ### 43.1 Physical Plant Defences
+
+<div class="table-wrap">
 
 | Defence             | Description                                                                                               |
 | ------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -2213,7 +2501,11 @@ chlorophyll is the primary photosynthetic pigment.
 | Thorns and spines   | Deter herbivores                                                                                          |
 | Hairs (trichomes)   | Physical barrier to insect herbivores; can secrete sticky substances or toxins                            |
 
+</div>
+
 ### 43.2 Chemical Plant Defences
+
+<div class="table-wrap">
 
 | Defence        | Description                                                                                                                 | Example                                                                                                     |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -2223,12 +2515,16 @@ chlorophyll is the primary photosynthetic pigment.
 | Phytoalexins   | Antimicrobial compounds synthesised in response to pathogen attack                                                          | Resveratrol (grapes); camalexin (Arabidopsis)                                                               |
 | Salicylic acid | Plant hormone; activates systemic acquired resistance (SAR) -- whole-plant immunity                                         | Released at infection site; travels through the plant; activates defence genes throughout the plant         |
 
+</div>
+
 ## 44. Photorespiration
 
 ### 44.1 What Is Photorespiration?
 
 Photorespiration is a wasteful process that occurs when Rubisco binds $\mathrm{O_2}$ instead of
 $\mathrm{CO_2}$:
+
+<div class="table-wrap">
 
 | Step | What Happens                                                      | Result                                                                                       |
 | ---- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -2237,7 +2533,11 @@ $\mathrm{CO_2}$:
 | 3    | Glycine is converted to serine in the mitochondria                | Releases $\mathrm{NH_3}$                                                                     |
 | 4    | Serine is converted back to a Calvin cycle intermediate           | Costs ATP                                                                                    |
 
+</div>
+
 ### 44.2 Why Photorespiration Is Wasteful
+
+<div class="table-wrap">
 
 | Problem                | Description                                                                            |
 | ---------------------- | -------------------------------------------------------------------------------------- |
@@ -2247,7 +2547,11 @@ $\mathrm{CO_2}$:
 | Reduces yield          | Fewer carbohydrates are produced per unit of light energy                              |
 | Estimated loss         | May reduce photosynthetic efficiency by 20--50% in C3 plants under hot, dry conditions |
 
+</div>
+
 ### 44.3 Conditions That Increase Photorespiration
+
+<div class="table-wrap">
 
 | Condition                  | Why It Increases Photorespiration                                                                                                 |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -2255,9 +2559,13 @@ $\mathrm{CO_2}$:
 | High light intensity       | Increases $\mathrm{O_2}$ production from photolysis (more $\mathrm{O_2}$ available to compete with $\mathrm{CO_2}$)               |
 | Stomatal closure (drought) | Less $\mathrm{CO_2}$ enters the leaf; internal $\mathrm{CO_2}$ concentration drops; Rubisco is more likely to bind $\mathrm{O_2}$ |
 
+</div>
+
 ## 45. Measuring the Rate of Photosynthesis
 
 ### 45.1 Common Methods
+
+<div class="table-wrap">
 
 | Method                       | Principle                                                                                   | Measurement                                                               |
 | ---------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
@@ -2267,7 +2575,11 @@ $\mathrm{CO_2}$:
 | Chlorophyll fluorimeter      | Measures fluorescence emitted by chlorophyll when light is shone on a leaf                  | Efficiency of photosystem II ($F_v/F_m$ ratio)                            |
 | Infrared gas analysis (IRGA) | Measures $\mathrm{CO_2}$ uptake and $\mathrm{H_2O}$ release from a leaf in a sealed chamber | Net photosynthetic rate; transpiration rate; stomatal conductance         |
 
+</div>
+
 ### 45.2 Practical Considerations
+
+<div class="table-wrap">
 
 | Factor                        | How to Control/Measure                                                                                                 |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -2276,9 +2588,13 @@ $\mathrm{CO_2}$:
 | $\mathrm{CO_2}$ concentration | Sodium hydrogencarbonate solution (for aquatic plants); IRGA chamber with controlled $\mathrm{CO_2}$                   |
 | Chlorophyll concentration     | Extract chlorophyll with acetone; measure absorbance at 663 nm and 645 nm using a colorimeter                          |
 
+</div>
+
 ## 46. C3, C4, and CAM Plants Compared
 
 ### 46.1 Summary Comparison
+
+<div class="table-wrap">
 
 | Feature                          | C3 Plants                                                            | C4 Plants                                                         | CAM Plants                                                                                  |
 | -------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -2290,9 +2606,13 @@ $\mathrm{CO_2}$:
 | Examples                         | Wheat, rice, oats, soybean, most trees                               | Maize, sugarcane, sorghum, _Amaranthus_                           | Cactus, pineapple, _Kalanchoe_, succulents                                                  |
 | Leaf anatomy                     | No bundle sheath around veins                                        | Kranz anatomy (prominent bundle sheath cells around veins)        | No special anatomy (all reactions occur in the same mesophyll cell, but at different times) |
 
+</div>
+
 ## 47. Plant Mineral Ions
 
 ### 47.1 Essential Mineral Ions
+
+<div class="table-wrap">
 
 | Ion                               | Function                                                                  | Deficiency Symptom                                                      |
 | --------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -2303,13 +2623,19 @@ $\mathrm{CO_2}$:
 | Calcium ($\mathrm{Ca^{2+}}$)      | Component of middle lamella (calcium pectate); cell signalling            | Stunted growth; meristem death                                          |
 | Iron ($\mathrm{Fe^{2+/3+}}$)      | Required for chlorophyll synthesis (cofactor for enzymes)                 | Chlorosis of young leaves (interveinal chlorosis -- veins remain green) |
 
+</div>
+
 ### 47.2 Hydroponics
+
+<div class="table-wrap">
 
 | Feature         | Description                                                                                                                                       |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | What it is      | Growing plants in a nutrient solution without soil                                                                                                |
 | Advantages      | Precise control of mineral ion concentrations; no soil-borne diseases; can grow crops in areas with poor soil; higher yields                      |
 | Use in research | Used to investigate the effect of specific mineral deficiencies by omitting individual ions from the nutrient solution and comparing plant growth |
+
+</div>
 
 ## 48. Limiting Factors of Photosynthesis
 
@@ -2320,19 +2646,27 @@ in shortest supply. At any given moment, only one factor limits the rate of phot
 
 ### 48.2 Effects of Individual Limiting Factors
 
+<div class="table-wrap">
+
 | Factor                        | Effect on Rate                                                                                                                       | Graph Shape       |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------- |
 | Light intensity               | Rate increases proportionally at low light; levels off at high light (light saturation point) as another factor becomes limiting     | Plateau curve     |
 | $\mathrm{CO_2}$ concentration | Rate increases as $\mathrm{CO_2}$ increases; plateaus at high $\mathrm{CO_2}$                                                        | Plateau curve     |
 | Temperature                   | Rate increases with temperature (up to an optimum, ~25--35$^\circ$C); above the optimum, enzymes denature and the rate falls sharply | Bell-shaped curve |
 
+</div>
+
 ### 48.3 Interpreting Graphs
+
+<div class="table-wrap">
 
 | Scenario                                                                                                          | Interpretation                                                                                           |
 | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | Rate increases with light, then levels off                                                                        | Light was initially limiting; at the plateau, $\mathrm{CO_2}$ or temperature is now limiting             |
 | Two curves at different $\mathrm{CO_2}$ concentrations: the higher $\mathrm{CO_2}$ curve reaches a higher plateau | $\mathrm{CO_2}$ concentration limits the maximum rate; more $\mathrm{CO_2}$ allows a higher maximum rate |
 | Rate decreases at high temperature                                                                                | Temperature is above the optimum; enzymes (especially Rubisco) are denaturing                            |
+
+</div>
 
 ---
 
@@ -2373,7 +2707,9 @@ For 6 $\mathrm{CO_2}$: ATP $= 6 \times 3 = 18$. NADPH $= 6 \times 2 = 12$.
 Net product: 2 molecules of triose phosphate (G3P), which combine to form 1 molecule of glucose
 ($\mathrm{C_6H_{12}O_6}$).
 
-$$6\mathrm{CO_2} + 18\ \mathrm{ATP} + 12\ \mathrm{NADPH} + 12\ \mathrm{H_2O} \to \mathrm{C_6H_{12}O_6} + 18\ \mathrm{ADP} + 18\ P_i + 12\ \mathrm{NADP^+}$$
+$$
+6\mathrm{CO_2} + 18\ \mathrm{ATP} + 12\ \mathrm{NADPH} + 12\ \mathrm{H_2O} \to \mathrm{C_6H_{12}O_6} + 18\ \mathrm{ADP} + 18\ P_i + 12\ \mathrm{NADP^+}
+$$
 
 $\blacksquare$
 

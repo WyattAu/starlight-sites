@@ -71,7 +71,7 @@ to gravitational fields and material properties.
 
 ### Dynamics
 
-- **Newton"s laws of motion**, inertia, $F = ma$, action-reaction pairs
+- **Newton's laws of motion**, inertia, $F = ma$, action-reaction pairs
 - **Weight and mass**, $W = mg$; the distinction between gravitational field strength and
   acceleration
 - **Drag and terminal velocity**, the balance of weight and drag; why objects reach a terminal
@@ -167,8 +167,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 

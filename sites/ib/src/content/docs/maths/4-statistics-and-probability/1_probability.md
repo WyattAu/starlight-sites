@@ -76,7 +76,7 @@ $$
 
 :::note[Example]
 In a class of 40 students, 25 play football, 18 play basketball, and 8 play both. Find the
-Probability that a randomly selected student plays at least one sport.
+probability that a randomly selected student plays at least one sport.
 
 $$
 P(F \cup B) = P(F) + P(B) - P(F \cap B) = \frac{25}{40} + \frac{18}{40} - \frac{8}{40} = \frac{35}{40} = \frac{7}{8}
@@ -155,7 +155,7 @@ $$
 
 :::note[Example]
 A bag contains 5 red and 3 blue marbles. Two marbles are drawn without replacement. Find the
-Probability that both are red.
+probability that both are red.
 
 $$
 P(\mathrm{both red}) = P(\mathrm{first red}) \cdot P(\mathrm{second red} | \mathrm{first red}) = \frac{5}{8} \cdot \frac{4}{7} = \frac{20}{56} = \frac{5}{14}
@@ -168,7 +168,7 @@ Tree diagrams are useful for multi-stage experiments. Multiply along branches, a
 
 :::note[Example]
 A box contains 4 defective and 6 non-defective items. Two items are drawn without replacement. Find
-The probability that exactly one is defective.
+the probability that exactly one is defective.
 
 Paths giving exactly one defective:
 
@@ -215,7 +215,7 @@ Probability**.
 :::note[Example]
 A factory has three machines producing items. Machine `A` produces 50% of items with 2% defect rate.
 Machine `B` produces 30% with 3% defect rate. Machine `C` produces 20% with 1% defect rate. An item
-Is found to be defective. What is the probability it came from machine `B`?
+is found to be defective. What is the probability it came from machine `B`?
 
 $$
 P(\mathrm{defective}) = 0.5 \times 0.02 + 0.3 \times 0.03 + 0.2 \times 0.01 = 0.01 + 0.009 + 0.002 = 0.021
@@ -261,7 +261,7 @@ Carefully rather than relying on intuition for conditional probability questions
 ### Definition
 
 A **discrete random variable** $X$ takes a countable set of values $x_1, x_2, \ldots$ with
-Probabilities $P(X = x_i) = p_i$.
+probabilities $P(X = x_i) = p_i$.
 
 ### Probability Distribution
 
@@ -314,9 +314,13 @@ $$
 :::note[Example]
 A random variable $X$ has the following probability distribution:
 
+<div class="table-wrap">
+
 | $x$        | 0   | 1   | 2   | 3   |
 | ---------- | --- | --- | --- | --- |
 | $P(X = x)$ | 0.1 | 0.4 | 0.3 | 0.2 |
+
+</div>
 
 $$
 E(X) = 0(0.1) + 1(0.4) + 2(0.3) + 3(0.2) = 0 + 0.4 + 0.6 + 0.6 = 1.6
@@ -391,7 +395,7 @@ $$
 
 :::note[Example]
 A multiple-choice test has 20 questions, each with 5 options. A student guesses all answers. Find
-The probability of getting at least 10 correct.
+the probability of getting at least 10 correct.
 
 $X \sim B(20, 0.2)$.
 
@@ -451,7 +455,7 @@ $$
 :::
 
 :::note[Example]
-Given $X \sim N(50, 16)$Find $P(45 \lt X \lt 55)$.
+Given $X \sim N(50, 16)$ Find $P(45 \lt X \lt 55)$.
 
 $\mu = 50$, $\sigma = 4$.
 
@@ -507,7 +511,7 @@ $$
 
 :::note[Example]
 The weight of a parcel is $X \sim N(2, 0.04)$ kg. The packaging adds $Y \sim N(0.3, 0.01)$ kg. Find
-The probability that the total exceeds 2.5 kg.
+the probability that the total exceeds 2.5 kg.
 
 $$
 X + Y \sim N(2.3, 0.05)
@@ -707,7 +711,7 @@ $$
 
 **(c)** Find the mode.
 
-Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$The mode is $x = 2$.
+Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$ The mode is $x = 2$.
 
 ---
 
@@ -720,22 +724,18 @@ Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$The mode is $x = 2$.
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Probability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
+
+<div class="table-wrap">
 
 | Distribution | Notation           | $E(X)$ | $\mathrm{Var}(X)$ |
 | ------------ | ------------------ | ------ | ----------------- |
 | Binomial     | $B(n, p)$          | $np$   | $np(1-p)$         |
 | Normal       | $N(\mu, \sigma^2)$ | $\mu$  | $\sigma^2$        |
+
+</div>
+
+<div class="table-wrap">
 
 | Key Formula             | Expression                                   |
 | ----------------------- | -------------------------------------------- |
@@ -743,6 +743,8 @@ flowchart TD
 | Conditional probability | $P(A\|B) = \dfrac{P(A \cap B)}{P(B)}$        |
 | Bayes' theorem          | $P(A\|B) = \dfrac{P(B\|A) \cdot P(A)}{P(B)}$ |
 | Standardisation         | $Z = \dfrac{X - \mu}{\sigma}$                |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
@@ -872,7 +874,7 @@ Ways with at least 2 women $= 495 - 35 - 175 = 285$.
 ### Question 6 (Paper 2 style)
 
 A bag contains 4 red and 6 blue marbles. Marbles are drawn one at a time without replacement until a
-Red marble is drawn.
+red marble is drawn.
 
 **(a)** Find the probability that exactly 3 draws are needed.
 
@@ -925,7 +927,7 @@ $$
 ### Question 8 (Paper 2 style)
 
 The heights of Year 12 students follow a normal distribution with mean $165\mathrm{ cm}$ and
-Standard deviation $8\mathrm{ cm}$.
+standard deviation $8\mathrm{ cm}$.
 
 **(a)** What percentage of students are taller than $180\mathrm{ cm}$?
 
@@ -981,12 +983,16 @@ and building a personal test matrix.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic         | Site       | Link                                                                                               |
 | ------------- | ---------- | -------------------------------------------------------------------------------------------------- |
 | [Probability] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/03-probability)       |
-| [Probability] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/1_probability)            |
-| [Probability] | DSE        | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/11_probability)                           |
+| [Probability] | IB         | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability/)            |
+| [Probability] | DSE        | [View](https://dse.wyattau.com/maths/compulsory/11_probability/)                           |
 | [Probability] | University | [View](https://mathematics.wyattau.com/) |
+
+</div>
 
 ## Worked Examples
 

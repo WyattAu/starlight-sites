@@ -211,17 +211,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Checking your mechanics foundations:** Diagnostic tests quickly reveal which concepts you have mastered and which need more work. They are like a health check for your physics understanding.
@@ -231,6 +220,8 @@ flowchart TD
 **The key insight:** If you cannot draw a free body diagram and apply F=ma, you do not truly understand mechanics, use diagnostic tests as a starting point for deeper study, not as an endpoint.
 
 ## Answer Key
+
+<div class="table-wrap">
 
 | Question | Correct Answer |
 |----------|---------------|
@@ -244,6 +235,8 @@ flowchart TD
 | 8        | C             |
 | 9        | A             |
 | 10       | C             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of classical mechanics. Review the explanations in the practice problems for any questions you answered incorrectly.
 
@@ -261,5 +254,5 @@ flowchart TD
 - **Practice:** Practice problems for revision.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

@@ -15,16 +15,6 @@ tableOfContents: false
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Diag Statistical Distributions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
@@ -150,13 +140,21 @@ and sign errors.]
 
 Standardising:
 
-$$Z = \frac{X - 50}{2\sqrt{3}}, \quad Z \sim N(0, 1)$$
+$$
+Z = \frac{X - 50}{2\sqrt{3}}, \quad Z \sim N(0, 1)
+$$
 
-$$\mathrm{P}(X \lt 48) = \mathrm{P}\left(Z \lt \frac{48 - 50}{2\sqrt{3}}\right) = \mathrm{P}\left(Z \lt \frac{-2}{2\sqrt{3}}\right) = \mathrm{P}\left(Z \lt \frac{-1}{\sqrt{3}}\right)$$
+$$
+\mathrm{P}(X \lt 48) = \mathrm{P}\left(Z \lt \frac{48 - 50}{2\sqrt{3}}\right) = \mathrm{P}\left(Z \lt \frac{-2}{2\sqrt{3}}\right) = \mathrm{P}\left(Z \lt \frac{-1}{\sqrt{3}}\right)
+$$
 
-$$\frac{1}{\sqrt{3}} \approx 0.5774$$
+$$
+\frac{1}{\sqrt{3}} \approx 0.5774
+$$
 
-$$\mathrm{P}(Z \lt -0.5774) = \Phi(-0.5774) = 1 - \Phi(0.5774) = 1 - 0.7181 = 0.2819 \approx 0.282$$
+$$
+\mathrm{P}(Z \lt -0.5774) = \Phi(-0.5774) = 1 - \Phi(0.5774) = 1 - 0.7181 = 0.2819 \approx 0.282
+$$
 
 **(b)** $Y \sim B(80, 0.6)$.
 
@@ -166,14 +164,20 @@ $\sigma^2 = np(1-p) = 80 \times 0.6 \times 0.4 = 19.2$
 
 $\sigma = \sqrt{19.2}$
 
-**Continuity correction:** Since $Y$ is discrete and we want $\mathrm{P}(Y \leq 50)$We use
+**Continuity correction:** Since $Y$ is discrete and we want $\mathrm{P}(Y \leq 50)$ We use
 $Y \leq 50.5$ for the normal approximation.
 
-$$\mathrm{P}(Y \leq 50) \approx \mathrm{P}(X \leq 50.5) \quad \text{where } X \sim N(48, 19.2)$$
+$$
+\mathrm{P}(Y \leq 50) \approx \mathrm{P}(X \leq 50.5) \quad \text{where } X \sim N(48, 19.2)
+$$
 
-$$Z = \frac{50.5 - 48}{\sqrt{19.2}} = \frac{2.5}{\sqrt{19.2}} = \frac{2.5}{4.3818} = 0.5704$$
+$$
+Z = \frac{50.5 - 48}{\sqrt{19.2}} = \frac{2.5}{\sqrt{19.2}} = \frac{2.5}{4.3818} = 0.5704
+$$
 
-$$\mathrm{P}(Z \leq 0.5704) = \Phi(0.5704) = 0.7158 \approx 0.716$$
+$$
+\mathrm{P}(Z \leq 0.5704) = \Phi(0.5704) = 0.7158 \approx 0.716
+$$
 
 **(c)** The student has made **two errors**:
 
@@ -181,23 +185,29 @@ $$\mathrm{P}(Z \leq 0.5704) = \Phi(0.5704) = 0.7158 \approx 0.716$$
    approximated by a continuous one, $\mathrm{P}(Y \leq 50)$ should use 50.5, not 50.
 
 2. **Missing the subtraction in the numerator:** The student wrote
-   $\frac{50 - 48}{\sqrt{19.2}}$Which is actually correct for the standardisation
+   $\frac{50 - 48}{\sqrt{19.2}}$ Which is actually correct for the standardisation
    formula (though without the continuity correction). However, if the student had meant to compute
-   $\mathrm{P}(Y \geq 50)$ and wrote $\frac{48 - 50}{\sqrt{19.2}}$That would be a sign
+   $\mathrm{P}(Y \geq 50)$ and wrote $\frac{48 - 50}{\sqrt{19.2}}$ That would be a sign
    error. The standardisation is $Z = \frac{X - \mu}{\sigma}$ So the numerator must be
    $X - \mu = 50.5 - 48 = 2.5$ (or with continuity correction, $50.5 - 48$). The student"s version
-   gives $\frac{50 - 48}{\sqrt{19.2}} = \frac{2}{\sqrt{19.2}} = 0.4564$Which
+   gives $\frac{50 - 48}{\sqrt{19.2}} = \frac{2}{\sqrt{19.2}} = 0.4564$ Which
    underestimates the correct $z$-value of 0.5704.
 
 The correct calculation is:
 
-$$\mathrm{P}(Y \leq 50) \approx \mathrm{P}\left(Z \leq \frac{50.5 - 48}{\sqrt{19.2}}\right) = \mathrm{P}(Z \leq 0.5704) = 0.716$$
+$$
+\mathrm{P}(Y \leq 50) \approx \mathrm{P}\left(Z \leq \frac{50.5 - 48}{\sqrt{19.2}}\right) = \mathrm{P}(Z \leq 0.5704) = 0.716
+$$
 
 **(d)** Checking the criteria:
 
-$$np = 80 \times 0.6 = 48 > 5 \checkmark$$
+$$
+np = 80 \times 0.6 = 48 > 5 \checkmark
+$$
 
-$$n(1-p) = 80 \times 0.4 = 32 > 5 \checkmark$$
+$$
+n(1-p) = 80 \times 0.4 = 32 > 5 \checkmark
+$$
 
 Both criteria are satisfied, so the normal approximation is appropriate. The approximation will be
 good because both $np$ and $n(1-p)$ are well above 5 (they are 48 and 32 respectively).
@@ -237,17 +247,23 @@ standard deviations.]
 
 **(a)** $A \sim N(25, 9)$ So $\mu_A = 25$, $\sigma_A = 3$.
 
-$$\mathrm{P}(A \lt 22) = \mathrm{P}\left(Z \lt \frac{22 - 25}{3}\right) = \mathrm{P}(Z \lt -1) = 1 - \Phi(1) = 1 - 0.8413 = 0.1587$$
+$$
+\mathrm{P}(A \lt 22) = \mathrm{P}\left(Z \lt \frac{22 - 25}{3}\right) = \mathrm{P}(Z \lt -1) = 1 - \Phi(1) = 1 - 0.8413 = 0.1587
+$$
 
 **(b)** The total time is $T = A + B$.
 
 Since $A$ and $B$ are independent normal variables, $T$ is also normally distributed:
 
-$$T \sim N(\mu_A + \mu_B,\; \sigma_A^2 + \sigma_B^2) = N(25 + 30,\; 9 + 16) = N(55, 25)$$
+$$
+T \sim N(\mu_A + \mu_B,\; \sigma_A^2 + \sigma_B^2) = N(25 + 30,\; 9 + 16) = N(55, 25)
+$$
 
 So $\mu_T = 55$, $\sigma_T = 5$.
 
-$$\mathrm{P}(T \lt 60) = \mathrm{P}\left(Z \lt \frac{60 - 55}{5}\right) = \mathrm{P}(Z \lt 1) = 0.8413$$
+$$
+\mathrm{P}(T \lt 60) = \mathrm{P}\left(Z \lt \frac{60 - 55}{5}\right) = \mathrm{P}(Z \lt 1) = 0.8413
+$$
 
 The key result used here is: if $X \sim N(\mu_1, \sigma_1^2)$ and $Y \sim N(\mu_2, \sigma_2^2)$ are
 independent, then $X + Y \sim N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$. The variances add, not the
@@ -255,22 +271,32 @@ standard deviations.
 
 **(c)** $E = 3A - 2B$.
 
-$$\mathrm{E}(E) = 3\mathrm{E}(A) - 2\mathrm{E}(B) = 3(25) - 2(30) = 75 - 60 = 15$$
+$$
+\mathrm{E}(E) = 3\mathrm{E}(A) - 2\mathrm{E}(B) = 3(25) - 2(30) = 75 - 60 = 15
+$$
 
 For the variance, we use $\mathrm{Var}(aX + bY) = a^2\mathrm{Var}(X) + b^2\mathrm{Var}(Y)$ when $X$
 and $Y$ are independent:
 
-$$\mathrm{Var}(E) = 3^2\mathrm{Var}(A) + (-2)^2\mathrm{Var}(B) = 9(9) + 4(16) = 81 + 64 = 145$$
+$$
+\mathrm{Var}(E) = 3^2\mathrm{Var}(A) + (-2)^2\mathrm{Var}(B) = 9(9) + 4(16) = 81 + 64 = 145
+$$
 
 Note: the sign of the coefficient does not affect the variance because $(-2)^2 = 4$.
 
-$$\mathrm{SD}(E) = \sqrt{145} \approx 12.04 \text{ minutes}$$
+$$
+\mathrm{SD}(E) = \sqrt{145} \approx 12.04 \text{ minutes}
+$$
 
 **(d)** The student's error is adding standard deviations. The correct rule is:
 
-$$\mathrm{Var}(A + B) = \mathrm{Var}(A) + \mathrm{Var}(B) \quad \text{(for independent variables)}$$
+$$
+\mathrm{Var}(A + B) = \mathrm{Var}(A) + \mathrm{Var}(B) \quad \text{(for independent variables)}
+$$
 
-$$\mathrm{SD}(A + B) = \sqrt{\mathrm{Var}(A) + \mathrm{Var}(B)} = \sqrt{9 + 16} = \sqrt{25} = 5$$
+$$
+\mathrm{SD}(A + B) = \sqrt{\mathrm{Var}(A) + \mathrm{Var}(B)} = \sqrt{9 + 16} = \sqrt{25} = 5
+$$
 
 The student's answer of $\mathrm{SD}(A + B) = 7$ is incorrect. The correct answer is 5.
 
@@ -334,21 +360,29 @@ We need the critical region. The test is one-tailed (upper tail).
 
 We find the smallest value $c$ such that $\mathrm{P}(X \geq c \mid H_0) \leq 0.05$:
 
-$$\mathrm{P}(X \geq 9) = 1 - \mathrm{P}(X \leq 8)$$
+$$
+\mathrm{P}(X \geq 9) = 1 - \mathrm{P}(X \leq 8)
+$$
 
 Using the binomial cumulative distribution with $n = 20$, $p = 0.3$:
 
-$$\mathrm{P}(X \leq 8) = 0.8867 \quad \text{(from tables or calculator)}$$
+$$
+\mathrm{P}(X \leq 8) = 0.8867 \quad \text{(from tables or calculator)}
+$$
 
-$$\mathrm{P}(X \geq 9) = 1 - 0.8867 = 0.1133$$
+$$
+\mathrm{P}(X \geq 9) = 1 - 0.8867 = 0.1133
+$$
 
 Since $0.1133 > 0.05$9 is not in the critical region.
 
-$$\mathrm{P}(X \geq 10) = 1 - \mathrm{P}(X \leq 9) = 1 - 0.9520 = 0.0480$$
+$$
+\mathrm{P}(X \geq 10) = 1 - \mathrm{P}(X \leq 9) = 1 - 0.9520 = 0.0480
+$$
 
-Since $0.0480 \leq 0.05$The critical region is $X \geq 10$.
+Since $0.0480 \leq 0.05$ The critical region is $X \geq 10$.
 
-The observed value is $X = 9$Which does **not** fall in the critical region.
+The observed value is $X = 9$ Which does **not** fall in the critical region.
 
 **Conclusion:** There is insufficient evidence to reject $H_0$. The data does not provide sufficient
 evidence that the proportion of customers using reusable bags is greater than 30%.
@@ -356,7 +390,9 @@ evidence that the proportion of customers using reusable bags is greater than 30
 **(b)** The actual significance level is the probability of rejecting $H_0$ when $H_0$ is true,
 which equals the probability of falling in the critical region under $H_0$:
 
-$$\alpha_{\text{actual}} = \mathrm{P}(X \geq 10 \mid X \sim B(20, 0.3)) = 0.0480$$
+$$
+\alpha_{\text{actual}} = \mathrm{P}(X \geq 10 \mid X \sim B(20, 0.3)) = 0.0480
+$$
 
 This differs from the stated 5% because the binomial distribution is discrete. There is no critical
 value that gives exactly 5%. The closest we can get is 4.80% (with critical region $X \geq 10$) or
@@ -369,12 +405,14 @@ Using the normal approximation: $X \approx N(15, 10.5)$, $\sigma = \sqrt{10.5} \
 
 With continuity correction for $X \geq c$:
 
-$$\mathrm{P}(X \geq 20.5) = \mathrm{P}\left(Z \geq \frac{20.5 - 15}{\sqrt{10.5}}\right) = \mathrm{P}(Z \geq 1.70) = 1 - \Phi(1.70) = 1 - 0.9554 = 0.0446$$
+$$
+\mathrm{P}(X \geq 20.5) = \mathrm{P}\left(Z \geq \frac{20.5 - 15}{\sqrt{10.5}}\right) = \mathrm{P}(Z \geq 1.70) = 1 - \Phi(1.70) = 1 - 0.9554 = 0.0446
+$$
 
-Since $0.0446 < 0.05$The critical region is approximately $X \geq 20$.
+Since $0.0446 < 0.05$ The critical region is approximately $X \geq 20$.
 
 Alternatively, using exact binomial probabilities: $\mathrm{P}(X \geq 20 \mid B(50, 0.3))$. The
-observed value is $X = 21$Which is in the critical region.
+observed value is $X = 21$ Which is in the critical region.
 
 **Conclusion:** With the larger sample, there **is** sufficient evidence to reject $H_0$ at the 5%
 level. This demonstrates that a larger sample size provides more statistical power, even when the
@@ -385,11 +423,15 @@ observed proportion ($\frac{21}{50} = 0.42$) is similar to the smaller sample
 It equals $1 - \mathrm{P}(\text{Type II error})$.
 
 For this test, the power depends on the true value of $p$. If the true proportion were, say,
-$p = 0.5$The power would be:
+$p = 0.5$ The power would be:
 
-$$\text{Power} = \mathrm{P}(X \geq 10 \mid X \sim B(20, 0.5)) = 1 - \mathrm{P}(X \leq 9 \mid B(20, 0.5))$$
+$$
+\text{Power} = \mathrm{P}(X \geq 10 \mid X \sim B(20, 0.5)) = 1 - \mathrm{P}(X \leq 9 \mid B(20, 0.5))
+$$
 
-$$= 1 - 0.4119 = 0.5881$$
+$$
+= 1 - 0.4119 = 0.5881
+$$
 
 So the test has about 58.8% power to detect a true proportion of 0.5.
 
@@ -399,7 +441,7 @@ Increasing the sample size increases the power of the test because:
    critical region starts at a proportionally lower value.
 2. The distribution under $H_1$ also becomes more concentrated, but the separation between the $H_0$
    and $H_1$ distributions increases relative to their spread.
-3. This makes it easier to distinguish between $H_0$ and $H_1$Reducing the probability of a Type II
+3. This makes it easier to distinguish between $H_0$ and $H_1$ Reducing the probability of a Type II
    error and increasing the power.
 
 ---
@@ -445,45 +487,63 @@ integration.]
 
 **(a)** Let $X$ = number of calls in one minute. Then $X \sim \text{Po}(2.4)$.
 
-$$\mathrm{P}(X = 3) = \frac{e^{-2.4} \times 2.4^3}{3!} = \frac{e^{-2.4} \times 13.824}{6} = 2.304 \times e^{-2.4}$$
+$$
+\mathrm{P}(X = 3) = \frac{e^{-2.4} \times 2.4^3}{3!} = \frac{e^{-2.4} \times 13.824}{6} = 2.304 \times e^{-2.4}
+$$
 
-$$= 2.304 \times 0.09072 = 0.2090 \approx 0.209$$
+$$
+= 2.304 \times 0.09072 = 0.2090 \approx 0.209
+$$
 
 **(b)** Let $Y$ = number of calls in 25 minutes. Then
 $Y \sim \text{Po}(25 \times 2.4) = \text{Po}(60)$.
 
 Since $\lambda = 60$ is large, we can use the normal approximation $Y \approx N(60, 60)$.
 
-$$\mu = 60, \quad \sigma^2 = 60, \quad \sigma = \sqrt{60} \approx 7.746$$
+$$
+\mu = 60, \quad \sigma^2 = 60, \quad \sigma = \sqrt{60} \approx 7.746
+$$
 
 With continuity correction:
 
-$$\mathrm{P}(Y > 60) = \mathrm{P}(Y \geq 61) \approx \mathrm{P}\left(Z > \frac{60.5 - 60}{\sqrt{60}}\right) = \mathrm{P}\left(Z > \frac{0.5}{7.746}\right) = \mathrm{P}(Z > 0.0645)$$
+$$
+\mathrm{P}(Y > 60) = \mathrm{P}(Y \geq 61) \approx \mathrm{P}\left(Z > \frac{60.5 - 60}{\sqrt{60}}\right) = \mathrm{P}\left(Z > \frac{0.5}{7.746}\right) = \mathrm{P}(Z > 0.0645)
+$$
 
-$$= 1 - \Phi(0.0645) = 1 - 0.5257 = 0.4743 \approx 0.474$$
+$$
+= 1 - \Phi(0.0645) = 1 - 0.5257 = 0.4743 \approx 0.474
+$$
 
-The normal approximation is justified because $\lambda = 60 > 10$Which is the standard criterion for
+The normal approximation is justified because $\lambda = 60 > 10$ Which is the standard criterion for
 approximating a Poisson distribution with a normal distribution.
 
 **(c)** The student models $T \sim U(0, 0.5)$.
 
 The probability density function is:
 
-$$f(t) = \begin{cases} 2 & \quad 0 \leq t \leq 0.5 \\ 0 & \quad \text{otherwise} \end{cases}$$
+$$
+f(t) = \begin{cases} 2 & \quad 0 \leq t \leq 0.5 \\ 0 & \quad \text{otherwise} \end{cases}
+$$
 
 **(i)** 10 seconds $= \frac{10}{60} = \frac{1}{6} \approx 0.1667$ minutes.
 
-$$\mathrm{P}\left(T \lt \frac{1}{6}\right) = \int_0^{1/6} 2\,dt = 2 \times \frac{1}{6} = \frac{1}{3}$$
+$$
+\mathrm{P}\left(T \lt \frac{1}{6}\right) = \int_0^{1/6} 2\,dt = 2 \times \frac{1}{6} = \frac{1}{3}
+$$
 
 **(ii)** The median $m$ satisfies $\mathrm{P}(T \leq m) = 0.5$:
 
-$$\int_0^m 2\,dt = 2m = 0.5 \implies m = 0.25 \text{ minutes} = 15 \text{ seconds}$$
+$$
+\int_0^m 2\,dt = 2m = 0.5 \implies m = 0.25 \text{ minutes} = 15 \text{ seconds}
+$$
 
 For a uniform distribution, the median always equals the midpoint of the interval.
 
 **(iii)** The 90th percentile $p_{90}$ satisfies $\mathrm{P}(T \leq p_{90}) = 0.9$:
 
-$$2p_{90} = 0.9 \implies p_{90} = 0.45 \text{ minutes} = 27 \text{ seconds}$$
+$$
+2p_{90} = 0.9 \implies p_{90} = 0.45 \text{ minutes} = 27 \text{ seconds}
+$$
 
 **(d)** **Uniform model mean:** $\mathrm{E}(T) = \frac{0 + 0.5}{2} = 0.25$ minutes.
 
@@ -491,7 +551,7 @@ $$2p_{90} = 0.9 \implies p_{90} = 0.45 \text{ minutes} = 27 \text{ seconds}$$
 
 The uniform model mean (0.25 minutes = 15 seconds) is significantly lower than the true mean (0.417
 minutes = 25 seconds). The uniform model assigns equal probability density to all values in
-$[0, 0.5]$Which means it underestimates the likelihood of longer waiting times. The exponential
+$[0, 0.5]$ Which means it underestimates the likelihood of longer waiting times. The exponential
 distribution has a peak near 0 and a long right tail, which is more realistic for inter-arrival
 times.
 
@@ -548,7 +608,9 @@ calculation.]
 **(a)** Let $X$ = number of rolls until the first 6. Then $X \sim \text{Geo}(p)$ where
 $p = \frac{1}{6}$.
 
-$$\mathrm{P}(X = 3) = (1-p)^2 \cdot p = \left(\frac{5}{6}\right)^2 \cdot \frac{1}{6} = \frac{25}{36} \cdot \frac{1}{6} = \frac{25}{216}$$
+$$
+\mathrm{P}(X = 3) = (1-p)^2 \cdot p = \left(\frac{5}{6}\right)^2 \cdot \frac{1}{6} = \frac{25}{36} \cdot \frac{1}{6} = \frac{25}{216}
+$$
 
 **(b)** For $X \sim \text{Geo}(p)$: $\mathrm{E}(X) = \frac{1}{p} = 6$.
 
@@ -557,7 +619,9 @@ $\frac{1}{6}$ per roll, you expect to need $\frac{1}{1/6} = 6$ rolls.
 
 **(c)**
 
-$$\mathrm{P}(X > 4) = (1 - p)^4 = \left(\frac{5}{6}\right)^4 = \frac{625}{1296}$$
+$$
+\mathrm{P}(X > 4) = (1 - p)^4 = \left(\frac{5}{6}\right)^4 = \frac{625}{1296}
+$$
 
 This uses the memoryless property of the geometric distribution: $\mathrm{P}(X > n) = (1-p)^n$.
 
@@ -566,13 +630,19 @@ giving sum 8:
 
 (2,6), (3,5), (4,4), (5,3), (6,2) --- that is 5 outcomes out of 36.
 
-$$p = \frac{5}{36}$$
+$$
+p = \frac{5}{36}
+$$
 
 **(ii)** $N \sim \text{Geo}\left(\frac{5}{36}\right)$.
 
-$$\mathrm{E}(N) = \frac{1}{p} = \frac{36}{5} = 7.2$$
+$$
+\mathrm{E}(N) = \frac{1}{p} = \frac{36}{5} = 7.2
+$$
 
-$$\mathrm{Var}(N) = \frac{1-p}{p^2} = \frac{31/36}{(5/36)^2} = \frac{31}{36} \times \frac{1296}{25} = \frac{31 \times 36}{25} = \frac{1116}{25} = 44.64$$
+$$
+\mathrm{Var}(N) = \frac{1-p}{p^2} = \frac{31/36}{(5/36)^2} = \frac{31}{36} \times \frac{1296}{25} = \frac{31 \times 36}{25} = \frac{1116}{25} = 44.64
+$$
 
 **(iii)** Let the net gain be $G$. The player pays $\pounds 1$ per roll and receives $\pounds k$
 upon winning. The number of rolls is $N$.
@@ -584,17 +654,23 @@ Net gain $= k - N$.
 
 For a fair game: $\mathrm{E}(G) = 0$.
 
-$$\mathrm{E}(k - N) = k - \mathrm{E}(N) = 0$$
+$$
+\mathrm{E}(k - N) = k - \mathrm{E}(N) = 0
+$$
 
-$$k = \mathrm{E}(N) = \frac{36}{5} = 7.2$$
+$$
+k = \mathrm{E}(N) = \frac{36}{5} = 7.2
+$$
 
 The casino should pay $\pounds 7.20$ for the game to be fair.
 
 Alternatively, thinking of it per roll: the expected gain per roll is $-1 + k \cdot \frac{5}{36}$
-(lose $\pounds 1$ with probability $\frac{31}{36}$Gain $\pounds(k-1)$ with probability
+(lose $\pounds 1$ with probability $\frac{31}{36}$ Gain $\pounds(k-1)$ with probability
 $\frac{5}{36}$). Setting this to zero:
 
-$$-1 + k \cdot \frac{5}{36} = 0 \implies k = \frac{36}{5} = 7.2$$
+$$
+-1 + k \cdot \frac{5}{36} = 0 \implies k = \frac{36}{5} = 7.2
+$$
 
 Both approaches give the same answer, confirming the result.
 

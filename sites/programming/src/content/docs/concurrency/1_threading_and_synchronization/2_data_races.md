@@ -29,16 +29,18 @@ Detection tools, synchronization costs, and practical fixes.
 
 A **data race** [N4950 §6.9.4.2] occurs when two or more threads access the same memory location
 Concurrently, at least one of them performs a write, and there is no happens-before relationship
-Between the accesses. Formally, a data race is present when all three conditions hold:
+between the accesses. Formally, a data race is present when all three conditions hold:
 
-$$\mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedge \mathrm{access(t_2, m, r/w) \wedge \neg\mathrm{happens-before(t_1, t_2) \wedge \neg\mathrm{happens-before(t_2, t_1)$$
+$$
+\mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedge \mathrm{access(t_2, m, r/w) \wedge \neg\mathrm{happens-before(t_1, t_2) \wedge \neg\mathrm{happens-before(t_2, t_1)
+$$
 
 Where $m$ is a scalar memory location, $w$ denotes a write, $r$ denotes a read, and happens-before
-Is the order relation defined in [N4950 §6.9.4.1].
+is the order relation defined in [N4950 §6.9.4.1].
 
 :::caution
 potentially Eliminating loads, stores, or reordering operations in ways that are surprising and
-Non-deterministic.
+non-deterministic.
 :::
 
 ## Undefined Behavior of Data Races
@@ -55,12 +57,14 @@ The consequences of a data race include but are not limited to [N4950 §6.9.4.2]
 ## Critical Section
 
 A **critical section** is a region of code that accesses shared mutable state. Only one thread
-Should execute within a critical section at a time to prevent data races. The mutual exclusion of
+should execute within a critical section at a time to prevent data races. The mutual exclusion of
 Critical sections is the fundamental goal of synchronization primitives such as mutexes.
 
 ## Race Condition vs Data Race
 
 These terms are often confused but have distinct meanings:
+
+<div class="table-wrap">
 
 | Property                    | Data Race                    | Race Condition       |
 | --------------------------- | ---------------------------- | -------------------- |
@@ -68,6 +72,8 @@ These terms are often confused but have distinct meanings:
 | Results in UB               | Always                       | Not necessarily      |
 | Related to memory model     | Yes                          | No                   |
 | Fix mechanism               | Atomic operations or mutexes | Depends on the logic |
+
+</div>
 
 A **data race** is a formal term in the C++ memory model. A **race condition** is a broader,
 Informal term for any situation where the program"s outcome depends on the relative timing of
@@ -123,12 +129,16 @@ The expected result is $10 \times 100\,000 = 1\,000\,000$ But the actual result 
 
 Two threads can interleave these steps such that one increment is lost. For example:
 
+<div class="table-wrap">
+
 | Thread A          | Thread B          |
 | ----------------- | ----------------- |
 | load counter (0)  |                   |
 | increment (1)     | load counter (0)  |
 | store counter (1) | increment (1)     |
 |                   | store counter (1) |
+
+</div>
 
 After both threads complete, `counter` is 1 instead of 2. This is a **lost update**.
 
@@ -199,6 +209,8 @@ Conflicting access without a happens-before edge, it reports a data race.
 
 **Other tools:**
 
+<div class="table-wrap">
+
 | Tool                         | Method                         | Strengths                                  |
 | ---------------------------- | ------------------------------ | ------------------------------------------ |
 | ThreadSanitizer (TSan)       | Compile-time instrumentation   | Precise, low false-positive rate           |
@@ -206,10 +218,12 @@ Conflicting access without a happens-before edge, it reports a data race.
 | Intel Inspector              | Hardware-based sampling        | Low overhead, production-capable           |
 | Clang Thread Safety Analysis | Static analysis (annotations)  | Catches races at compile time              |
 
+</div>
+
 ## The Cost of Synchronization
 
 Synchronization is not free. Understanding the performance costs helps you make informed decisions
-About when and how to synchronize.
+about when and how to synchronize.
 
 ### Cache Line Bouncing
 
@@ -302,14 +316,14 @@ Prefer lock-free data structures for high-contention scenarios.
 ## Relaxed Memory Ordering
 
 `std::atomic` supports multiple memory orderings [N4950 §6.9.4.2]. The default is
-`memory_order_seq_cst`Which provides the strongest guarantees but also the highest overhead. Weaker
+`memory_order_seq_cst`. Which provides the strongest guarantees but also the highest overhead. Weaker
 orderings can be used when full sequential consistency is not required.
 
 ### `memory_order_relaxed`
 
 Relaxed atomics guarantee atomicity (no torn reads/writes) but provide **no ordering guarantees**
 With respect to other memory operations. They are sufficient for simple counters and statistics
-Where the exact order of updates does not matter:
+where the exact order of updates does not matter:
 
 ```cpp
 #include <atomic>
@@ -351,6 +365,8 @@ int main() {
 - Reference counting (must use `memory_order_acq_rel` to prevent use-after-free).
 - Any pattern where one thread's write must be visible to another thread before a flag is checked.
 
+<div class="table-wrap">
+
 | Memory Order           | Guarantees                                | Overhead (x86)                  | Use Case                      |
 | ---------------------- | ----------------------------------------- | ------------------------------- | ----------------------------- |
 | `memory_order_relaxed` | Atomicity only                            | Minimal (no fence)              | Simple counters, statistics   |
@@ -358,6 +374,8 @@ int main() {
 | `memory_order_release` | No reads/writes reordered after the store | Minimal (compiler fence on x86) | Guard writes, publishing data |
 | `memory_order_acq_rel` | Both acquire and release                  | Moderate                        | Reference counting            |
 | `memory_order_seq_cst` | Total order across all threads            | Full memory fence               | Default, when in doubt        |
+
+</div>
 
 :::caution
 On ARM, POWER, and RISC-V, these orderings emit explicit memory barrier instructions and have real
@@ -395,7 +413,7 @@ public:
 Config* Config::instance_ = nullptr;
 ```
 
-Two threads calling `Config::get()` simultaneously can both see `instance_ == nullptr`Both Allocate
+Two threads calling `Config::get()` simultaneously can both see `instance_ == nullptr`. Both Allocate
 a `Config`And both write to `instance_`. This is a data race on `instance_` and also Causes a memory
 leak (one of the two allocations is overwritten and never freed).
 
@@ -429,7 +447,7 @@ std::once_flag Config::init_flag_;
 ```
 
 `std::call_once` guarantees that the callable is invoked exactly once, even if multiple threads call
-It concurrently [N4950 §33.4.4]. The internal synchronization is handled by the `std::once_flag`.
+it concurrently [N4950 §33.4.4]. The internal synchronization is handled by the `std::once_flag`.
 
 ### The Fix: Meyer's Singleton (C++11 and later)
 
@@ -453,7 +471,7 @@ public:
 Since C++11, the initialization of function-local static variables is guaranteed to be thread-safe
 [N4950 §6.9.2.2]. The compiler emits guard variables and implicit synchronization to ensure that
 Exactly one thread performs the initialization, and all other threads wait until it completes. This
-Is the preferred idiom in modern C++.
+is the preferred idiom in modern C++.
 
 ## Intuition
 
@@ -522,17 +540,7 @@ public:
 - [Atomic Operations and Lock-Free Programming](/concurrency/2_memory_model_and_atomics/3_atomic_operations/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
-```mermaid
-flowchart TD
-    A[2_Data_Races] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Summary
 
@@ -547,10 +555,5 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

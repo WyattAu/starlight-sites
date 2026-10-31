@@ -69,7 +69,7 @@ Keys per internal node (order $m = 3$).
 
 **Insert 20.** Leaf: $[10, 20]$
 
-**Insert 5.** Leaf would be $[5, 10, 20]$ -- overflow (max 2 keys). Split: left leaf $[5]$Right Leaf
+**Insert 5.** Leaf would be $[5, 10, 20]$ -- overflow (max 2 keys). Split: left leaf $[5]$ Right Leaf
 $[10, 20]$. Push median (10) to new internal node.
 
 ```
@@ -126,7 +126,7 @@ Root: [15]
 
 Now delete 15. Leaf $[10, 15]$ becomes $[10]$. No underflow. Internal node key 15 changes to 10. But
 wait -- the internal node $[10]$ would need to distinguish between leaves $[5]$ and $[10]$. Since
-the left child contains keys $\lt 10$ and the right child contains keys $\geq 10$This Is still
+the left child contains keys $\lt 10$ and the right child contains keys $\geq 10$ This Is still
 correct.
 
 Now delete 10 from the left subtree"s right leaf. Leaf becomes empty -- underflow.
@@ -136,7 +136,7 @@ empty leaf with $[5]$. The merged leaf is $[5]$. The internal node $[10]$ now ha
 (the merged leaf), so it underflows.
 
 Since the internal node is a child of the root, and the root has two children, we can merge: remove
-The internal node and promote its remaining child to be a direct child of the root.
+the internal node and promote its remaining child to be a direct child of the root.
 
 ```
 Root: [30]
@@ -159,10 +159,10 @@ Average lookup: $O(1)$ under uniform hashing. No support for range queries.
 
 1. **Separate chaining:** Each bucket contains a linked list of entries. Lookup requires traversing
    the chain. Average chain length under uniform hashing is $n / B$.
-2. **Open addressing (linear probing):** If bucket $h(k)$ is full, try $h(k)+1$, $h(k)+2$Etc. (mod
+2. **Open addressing (linear probing):** If bucket $h(k)$ is full, try $h(k)+1$, $h(k)+2$ Etc. (mod
    $B$). Prone to **primary clustering**: consecutive occupied slots increase the average probe
    length.
-3. **Open addressing (quadratic probing):** Try $h(k) + 1^2, h(k) + 2^2, h(k) + 3^2$Etc. Reduces
+3. **Open addressing (quadratic probing):** Try $h(k) + 1^2, h(k) + 2^2, h(k) + 3^2$ Etc. Reduces
    clustering but may not probe all buckets.
 4. **Open addressing (double hashing):** Use a second hash function $h_2$: probe sequence is
    $h(k) + i \cdot h_2(k)$ for $i = 0, 1, 2, \ldots$. Minimises clustering.
@@ -181,6 +181,8 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 
 **Comparison:**
 
+<div class="table-wrap">
+
 | Property      | B+ Tree                 | Hash Index               |
 | ------------- | ----------------------- | ------------------------ |
 | Point query   | $O(\log_m n)$           | $O(1)$ average           |
@@ -189,10 +191,12 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 | Space         | Nodes may be half-empty | May have overflow chains |
 | Order         | Maintains key order     | No ordering              |
 
+</div>
+
 ### 5.3 Bitmap Indexes
 
 A **bitmap index** creates one bitmap per distinct value of an attribute. For a table with $n$ rows
-And attribute $A$ with values $\\{v_1, \ldots, v_k\\}$Store $k$ bitmaps of $n$ bits each, where
+and attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
 Bitmap $i$ has a 1 in position $j$ if row $j$ has $A = v_i$.
 
 **Use case:** Low-cardinality columns (gender, status, country). Bitmap indexes support fast bitwise
@@ -200,11 +204,15 @@ AND/OR for multi-criteria queries.
 
 **Bitwise operations for query evaluation:**
 
+<div class="table-wrap">
+
 | Query                   | Bitmap operation                                        |
 | ----------------------- | ------------------------------------------------------- |
 | $A = v_1$ AND $B = v_2$ | $\mathrm{bitmap_}{A,v_1}$ AND $\mathrm{bitmap_}{B,v_2}$ |
 | $A = v_1$ OR $A = v_2$  | $\mathrm{bitmap_}{A,v_1}$ OR $\mathrm{bitmap_}{A,v_2}$  |
 | $A \neq v_1$            | NOT $\mathrm{bitmap_}{A,v_1}$                           |
+
+</div>
 
 **Compression.** For columns with many distinct values, run-length encoding (WAH or BBC) compresses
 Bitmaps effectively while still supporting bitwise operations.
@@ -216,6 +224,8 @@ buffer Pool has $B$ pages and each disk page access costs one I/O.
 
 **Selection cost estimation:**
 
+<div class="table-wrap">
+
 | Access method           | Cost (I/Os)                                               |
 | ----------------------- | --------------------------------------------------------- |
 | Full table scan         | $\lceil n_R / B \rceil$ (or $n_R$ if $B$ pages available) |
@@ -223,15 +233,21 @@ buffer Pool has $B$ pages and each disk page access costs one I/O.
 | B+ tree range search    | $\log_f(n_R)$ leaf + $\lvert\mathrm{range} pages\rvert$   |
 | Hash equality search    | 1 (ideal)                                                 |
 
+</div>
+
 Where $f$ is the fanout (average number of children per internal node).
 
 **Join cost estimation (from Section 7):**
+
+<div class="table-wrap">
 
 | Algorithm         | Cost                                                      |
 | ----------------- | --------------------------------------------------------- |
 | Block nested-loop | $n_R + \lceil n_R/(B-2)\rceil \cdot n_S$                  |
 | Sort-merge        | $2n_R \log_{B-1}(n_R) + 2n_S \log_{B-1}(n_S) + n_R + n_S$ |
 | Hash join         | $3(n_R + n_S)$ (if build relation fits in $B$ pages)      |
+
+</div>
 
 <details>
 <summary>Worked Example 5.3: Comparing Access Methods</summary>

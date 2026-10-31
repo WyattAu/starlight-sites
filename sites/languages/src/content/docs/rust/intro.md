@@ -24,13 +24,13 @@ Rust combines C-level performance with memory safety guaranteed at compile time.
 Rust solves a problem that has plagued systems programming for decades: how to write fast,
 Memory-safe code without a garbage collector. C and C++ give you control and speed but let you shoot
 Yourself in the foot with use-after-free, buffer overflows, and data races. Java, Go, and C# give
-You safety but impose GC pauses and runtime overhead. Rust occupies the intersection: compile-time
+you safety but impose GC pauses and runtime overhead. Rust occupies the intersection: compile-time
 Memory safety verification with zero runtime cost.
 
 The language was originally developed at Mozilla (starting in 2006, sponsored by the Mozilla
 Foundation from 2009) for Servo, an experimental browser engine. It has since been adopted by AWS,
 Cloudflare, Microsoft (Windows kernel), Google (Android), Meta, the Linux kernel, and virtually
-Every large technology company that writes systems software.
+every large technology company that writes systems software.
 
 ## Design Philosophy
 
@@ -80,6 +80,8 @@ Borrow checker operates. MIR is also used for:
 
 Rust uses a unified toolchain managed by `rustup`:
 
+<div class="table-wrap">
+
 | Component       | Purpose                                                    |
 | --------------- | ---------------------------------------------------------- |
 | `rustup`        | Toolchain installer and version manager                    |
@@ -88,6 +90,8 @@ Rust uses a unified toolchain managed by `rustup`:
 | `rustfmt`       | Code formatter                                             |
 | `clippy`        | Lint checker (catches common mistakes beyond the compiler) |
 | `rust-analyzer` | LSP implementation for IDE support                         |
+
+</div>
 
 Install the toolchain:
 
@@ -138,6 +142,8 @@ Key changes in Rust 2024:
 
 ## Where Rust Runs
 
+<div class="table-wrap">
+
 | Target                                        | Use Case                             |
 | --------------------------------------------- | ------------------------------------ |
 | **Embedded** (`thumbv7m-none-eabi``cortex-m`) | Microcontrollers, real-time systems  |
@@ -146,15 +152,17 @@ Key changes in Rust 2024:
 | **Bare metal** (`x86_64-unknown-none`)        | OS kernels, bootloaders, hypervisors |
 | **Android/iOS**                               | Mobile via FFI or native modules     |
 
+</div>
+
 ## Common Pitfalls
 
 - **Fighting the borrow checker.** New Rustaceans often try to write C-style code with aliasing
   mutable references. The solution is almost always to restructure your data ownership, not to add
-  `clone()`. Interior mutability types (`Cell``RefCell``Mutex`) exist precisely for cases where you
+  `clone()`. Interior mutability types (`Cell`, `RefCell`, `Mutex`) exist precisely for cases where you
   need shared mutation.
 - **Ignoring clippy warnings.** Clippy catches real bugs. Run `cargo clippy -- -W clippy::all` and
   fix every warning before shipping.
-- **Overusing `unsafe`.** If you find yourself wrapping large blocks in `unsafe`You are likely
+- **Overusing `unsafe`.** If you find yourself wrapping large blocks in `unsafe`. You are likely
   working against the language. Re-examine your data structure design.
 
 ## Related Topics

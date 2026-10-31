@@ -28,7 +28,9 @@ categories:
 
 ### 1.1 Levels of Organisation in an Ecosystem
 
-$$\mathrm{Individual \to \mathrm{Population \to \mathrm{Community \to \mathrm{Ecosystem \to \mathrm{Biosphere$$
+$$
+\mathrm{Individual \to \mathrm{Population \to \mathrm{Community \to \mathrm{Ecosystem \to \mathrm{Biosphere
+$$
 
 - **Individual:** A single organism.
 - **Population:** All the organisms of one species in a habitat. The size of a population can change
@@ -76,11 +78,15 @@ A population of rabbits lives in a grassland. The population size is affected by
 
 Organisms are adapted to their environment through natural selection. Adaptations can be:
 
+<div class="table-wrap">
+
 | Type        | Description           | Example                                              |
 | ----------- | --------------------- | ---------------------------------------------------- |
 | Structural  | Physical features     | Thick fur in Arctic animals, spines on cacti         |
 | Behavioural | Ways organisms behave | Hibernation, migration, nocturnal activity           |
 | Functional  | Internal processes    | Producing venom, efficient kidneys in desert animals |
+
+</div>
 
 **Extremophiles:** Organisms adapted to extreme environments, such as:
 
@@ -107,7 +113,7 @@ Organisms are adapted to their environment through natural selection. Adaptation
   (reduces surface area, deters herbivores); swollen stem (stores water); shallow but extensive root
   system (quickly absorbs water after rain).
 - **Physiological:** CAM (Crassulacean Acid Metabolism) photosynthesis: stomata open at night to
-  take in $\mathrm{CO_2$Reducing water loss during the hot day.
+  take in $\mathrm{CO_2$ Reducing water loss during the hot day.
 
 **Worked Example: Surface-area-to-volume ratio and heat loss.**
 
@@ -123,7 +129,7 @@ For a cube with side length $s$:
 - SA:V ratio = $6/s$
 
 If $s$ doubles from 1 to 2: SA:V decreases from 6 to 3. Larger organisms lose proportionally less
-Heat.
+heat.
 
 ## 2. Feeding Relationships
 
@@ -131,7 +137,9 @@ Heat.
 
 A **food chain** shows the transfer of energy from one organism to another:
 
-$$\mathrm{Producer \to \mathrm{Primary consumer \to \mathrm{Secondary consumer \to \mathrm{Tertiary consumer$$
+$$
+\mathrm{Producer \to \mathrm{Primary consumer \to \mathrm{Secondary consumer \to \mathrm{Tertiary consumer
+$$
 
 - **Producer:** An organism that makes its own food by photosynthesis (e.g. Plants, algae).
   Producers are the base of all food chains because they are the organisms that convert light energy
@@ -145,12 +153,14 @@ $$\mathrm{Producer \to \mathrm{Primary consumer \to \mathrm{Secondary consumer \
   nutrients would be locked in dead material indefinitely.
 
 A **food web** shows many interconnected food chains in an ecosystem. Food webs are more realistic
-Than food chains because most organisms eat more than one type of food and are eaten by more than
-One type of predator.
+than food chains because most organisms eat more than one type of food and are eaten by more than
+one type of predator.
 
 ### 2.2 Trophic Levels
 
 Each step in a food chain is a **trophic level**:
+
+<div class="table-wrap">
 
 | Trophic Level | Organism           | Example |
 | ------------- | ------------------ | ------- |
@@ -158,6 +168,8 @@ Each step in a food chain is a **trophic level**:
 | 2             | Primary consumer   | Rabbit  |
 | 3             | Secondary consumer | Fox     |
 | 4             | Tertiary consumer  | Eagle   |
+
+</div>
 
 ### 2.3 Pyramids of Number, Biomass, and Energy
 
@@ -191,7 +203,7 @@ Pyramid of biomass:
 ```
 
 The pyramid shape shows that biomass decreases at each trophic level. Only about 10% of biomass is
-Transferred from one level to the next.
+transferred from one level to the next.
 
 ### 2.4 Energy Transfer
 
@@ -219,12 +231,16 @@ Chains are short ( 3--5 trophic levels): there is not enough energy left to supp
 
 ### 2.5 Calculating Efficiency
 
-$$\mathrm{Efficiency = \frac{\mathrm{energy available at next level}{\mathrm{energy available at current level} \times 100\%$$
+$$
+\mathrm{Efficiency = \frac{\mathrm{energy available at next level}{\mathrm{energy available at current level} \times 100\%
+$$
 
 **Worked Example 1.** 10,000 kJ of energy is available at the producer level. 1,000 kJ is
 Transferred to the primary consumer. Calculate the efficiency.
 
-$$\mathrm{Efficiency = \frac{1000}{10000} \times 100\% = 10\%$$
+$$
+\mathrm{Efficiency = \frac{1000}{10000} \times 100\% = 10\%
+$$
 
 **Worked Example 2.** If a primary consumer has 1,000 kJ of energy and 100 kJ is transferred to the
 Secondary consumer, the efficiency is 10%. The remaining 900 kJ is lost through the processes
@@ -235,7 +251,7 @@ Described above.
 A food chain: grass $\to$ rabbit $\to$ fox.
 
 Grass contains 20,000 kJ of energy. 10% is transferred to rabbits. 15% of the rabbit"s energy is
-Transferred to foxes.
+transferred to foxes.
 
 Energy in rabbits: $20,000 \times 0.10 = 2,000$ kJ.
 
@@ -250,7 +266,7 @@ This shows how little energy reaches the top of a food chain.
 ### 3.1 The Carbon Cycle
 
 Carbon is constantly recycled between the atmosphere, organisms, and the Earth. The total amount of
-Carbon on Earth is fixed, but it moves between different stores (reservoirs).
+carbon on Earth is fixed, but it moves between different stores (reservoirs).
 
 **Processes that remove $\mathrm{CO_2$ from the atmosphere:**
 
@@ -301,10 +317,12 @@ Water back down as precipitation).
 ### 3.3 Decomposition
 
 Decomposers (bacteria and fungi) break down dead organic matter, recycling nutrients back into the
-Soil. This process is essential because without decomposition, nutrients would remain locked in dead
+soil. This process is essential because without decomposition, nutrients would remain locked in dead
 Organisms and would be unavailable for producers.
 
 **Factors affecting the rate of decomposition:**
+
+<div class="table-wrap">
 
 | Factor              | Effect                                            |
 | ------------------- | ------------------------------------------------- |
@@ -313,10 +331,12 @@ Organisms and would be unavailable for producers.
 | Oxygen availability | Aerobic decomposition is faster than anaerobic    |
 | pH                  | Extreme pH slows decomposition                    |
 
+</div>
+
 **Why temperature matters.** Decomposition is carried out by enzymes in bacteria and fungi. Like all
 Enzymes, these work faster at higher temperatures (up to their optimum) because the substrate
 Molecules have more kinetic energy and collide more frequently with the active sites. Above the
-Optimum, the enzymes denature and decomposition slows.
+optimum, the enzymes denature and decomposition slows.
 
 ### 3.4 Required Practical: Investigating Decomposition
 
@@ -338,9 +358,9 @@ Optimum, the enzymes denature and decomposition slows.
 ### 3.5 Higher Tier: The Nitrogen Cycle
 
 The nitrogen cycle describes how nitrogen is converted between different chemical forms and
-Circulates through the ecosystem. Nitrogen is essential for making amino acids and proteins, DNA,
+circulates through the ecosystem. Nitrogen is essential for making amino acids and proteins, DNA,
 And other biomolecules, but most organisms cannot use atmospheric nitrogen ($\mathrm{N_2$) directly
-Because the triple bond between the two nitrogen atoms is very strong.
+because the triple bond between the two nitrogen atoms is very strong.
 
 **Key processes:**
 
@@ -361,12 +381,16 @@ Because the triple bond between the two nitrogen atoms is very strong.
 
 **Summary table: nitrogen cycle bacteria.**
 
+<div class="table-wrap">
+
 | Process           | Bacteria                  | Conversion                                           | Conditions        |
 | ----------------- | ------------------------- | ---------------------------------------------------- | ----------------- |
 | Nitrogen fixation | Rhizobium, Azotobacter    | $\mathrm{N_2 \to \mathrm{NH_3$                       | Aerobic           |
 | Nitrification     | Nitrosomonas, Nitrobacter | $\mathrm{NH_3 \to \mathrm{NO_2^- \to \mathrm{NO_3^-$ | Aerobic           |
 | Denitrification   | Pseudomonas, Thiobacillus | $\mathrm{NO_3^- \to \mathrm{N_2$                     | Anaerobic         |
 | Ammonification    | Various decomposers       | Organic N $\to \mathrm{NH_3$                         | Aerobic/anaerobic |
+
+</div>
 
 ## 4. Biodiversity and Human Impact
 
@@ -386,7 +410,9 @@ Particular habitat. It includes:
 - **Index of diversity:** Takes into account both the number of species and the abundance of each
   species. It is calculated using the following formula:
 
-$$D = \frac{N(N - 1)}{\sum n(n - 1)}$$
+$$
+D = \frac{N(N - 1)}{\sum n(n - 1)}
+$$
 
 Where $N$ is the total number of organisms and $n$ is the number of organisms of each species.
 
@@ -396,7 +422,9 @@ A higher index of diversity indicates greater biodiversity.
 
 $N = 50 + 30 + 20 = 100$.
 
-$$D = \frac{100 \times 99}{50 \times 49 + 30 \times 29 + 20 \times 19} = \frac{9900}{2450 + 870 + 380} = \frac{9900}{3700} = 2.68$$
+$$
+D = \frac{100 \times 99}{50 \times 49 + 30 \times 29 + 20 \times 19} = \frac{9900}{2450 + 870 + 380} = \frac{9900}{3700} = 2.68
+$$
 
 **Worked Example 2.** Compare two habitats.
 
@@ -405,7 +433,7 @@ Habitat 1: Species A (90), Species B (5), Species C (5). Total: 100. Species ric
 Habitat 2: Species A (34), Species B (33), Species C (33). Total: 100. Species richness: 3.
 
 Both habitats have the same species richness (3 species), but Habitat 2 has higher biodiversity
-Because the species are more evenly distributed.
+because the species are more evenly distributed.
 
 Habitat 1:
 $D = \frac{100 \times 99}{90 \times 89 + 5 \times 4 + 5 \times 4} = \frac{9900}{8010 + 20 + 20} = \frac{9900}{8050} = 1.23$
@@ -417,6 +445,8 @@ Habitat 2 has a higher index of diversity (3.06 vs 1.23), confirming it has grea
 
 ### 4.2 Threats to Biodiversity
 
+<div class="table-wrap">
+
 | Threat                           | Description                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------------- |
 | Deforestation                    | Destruction of habitats for agriculture, logging, urbanisation               |
@@ -427,7 +457,11 @@ Habitat 2 has a higher index of diversity (3.06 vs 1.23), confirming it has grea
 | Overexploitation                 | Overfishing, hunting, collecting                                             |
 | Introduction of invasive species | Non-native species outcompete native species for resources                   |
 
+</div>
+
 ### 4.3 Maintaining Biodiversity
+
+<div class="table-wrap">
 
 | Method                  | Description                                                   |
 | ----------------------- | ------------------------------------------------------------- |
@@ -440,6 +474,8 @@ Habitat 2 has a higher index of diversity (3.06 vs 1.23), confirming it has grea
 | Recycling               | Reduces the demand for raw materials and landfill             |
 | Education               | Raising public awareness about biodiversity                   |
 
+</div>
+
 ### 4.4 Trophic Levels and Toxins
 
 Some substances, such as pesticides and heavy metals, accumulate in organisms. Because only about
@@ -451,7 +487,7 @@ This is called **bioaccumulation** (build-up within a single organism over its l
 
 **Example:** DDT (a pesticide) accumulates in the fatty tissue of organisms. Top predators (e.g.
 Birds of prey) accumulate the highest concentrations, which can cause thinning of eggshells and
-Population decline. This is why DDT was banned in many countries.
+population decline. This is why DDT was banned in many countries.
 
 **Why biomagnification occurs.** Toxins that are soluble in fat (lipophilic) are not broken Down or
 excreted. When an organism eats many smaller organisms, it accumulates all the toxins from Its food.
@@ -489,7 +525,7 @@ from fertiliser runoff.
 
 ### 4.6 Global Warming
 
-**Greenhouse gases** ($\mathrm{CO_2$Methane, water vapour, nitrous oxide) trap heat in the
+**Greenhouse gases** ($\mathrm{CO_2$ Methane, water vapour, nitrous oxide) trap heat in the
 Atmosphere, causing the Earth's average temperature to rise. This is the **greenhouse effect**.
 
 **Evidence for climate change:**
@@ -539,7 +575,7 @@ in a habitat.
 ### 5.2 Transects
 
 A **transect** is a line across a habitat. A quadrat is placed at regular intervals along the
-Transect. This is useful for studying how species distribution changes across an environmental
+transect. This is useful for studying how species distribution changes across an environmental
 Gradient (e.g., from the shore of a lake into the surrounding field).
 
 **Types:**
@@ -560,7 +596,9 @@ Gradient (e.g., from the shore of a lake into the surrounding field).
 
 **Mark-release-recapture:**
 
-$$\mathrm{Estimated population = \frac{n_1 \times n_2}{n_3}$$
+$$
+\mathrm{Estimated population = \frac{n_1 \times n_2}{n_3}
+$$
 
 Where $n_1$ = number captured and marked first time, $n_2$ = number captured second time, $n_3$ =
 Number marked in second capture.
@@ -575,12 +613,16 @@ Number marked in second capture.
 **Worked Example.** 50 woodlice are captured, marked, and released. In a second capture, 40 woodlice
 Are caught, of which 10 are marked.
 
-$$\mathrm{Population = \frac{50 \times 40}{10} = 200$$
+$$
+\mathrm{Population = \frac{50 \times 40}{10} = 200
+$$
 
 **Worked Example 2:** 30 beetles are captured and marked. In a second capture of 50 beetles, 5 are
 Marked.
 
-$$\mathrm{Population = \frac{30 \times 50}{5} = 300$$
+$$
+\mathrm{Population = \frac{30 \times 50}{5} = 300
+$$
 
 ### 5.5 Higher Tier: Reliability and Validity in Ecological Sampling
 
@@ -679,8 +721,8 @@ Conditions).
 **Worked Example: Carbon in a food chain.**
 
 A food chain consists of grass $\to$ rabbit $\to$ fox. Assume 10% efficiency of energy transfer at
-Each trophic level. If the grass fixes 50,000 kJ of carbon (as glucose) per day through
-Photosynthesis:
+each trophic level. If the grass fixes 50,000 kJ of carbon (as glucose) per day through
+photosynthesis:
 
 1. Energy available to rabbits: $50,000 \times 0.10 = 5,000$ kJ/day.
 2. Energy available to foxes: $5,000 \times 0.10 = 500$ kJ/day.
@@ -688,8 +730,8 @@ Photosynthesis:
    kJ.
 
 This means 99% of the energy fixed by photosynthesis is lost before reaching the fox. This
-Illustrates why food chains are limited to a few trophic levels and why ecosystems can support far
-More herbivores than carnivores.
+illustrates why food chains are limited to a few trophic levels and why ecosystems can support far
+more herbivores than carnivores.
 
 ## 7. Higher Tier: Peat Bogs and Climate Change
 
@@ -701,27 +743,29 @@ Decomposition is very slow, and carbon accumulates over thousands of years.
 
 **Why peat bogs are carbon stores:** Peat bogs cover only about 3% of the Earth's land surface but
 Store approximately 30% of all soil carbon. This makes them one of the most important carbon stores
-On the planet.
+on the planet.
 
 **The problem:** When peat bogs are drained for agriculture (e.g., for palm oil plantations in
 Southeast Asia) or harvested for fuel, the peat is exposed to air. Aerobic decomposition resumes,
 And the stored carbon is released as $\mathrm{CO_2$. Drained tropical peatlands are estimated to
-Release approximately 1.5 billion tonnes of $\mathrm{CO_2$ per year, making them a major contributor
-To climate change.
+release approximately 1.5 billion tonnes of $\mathrm{CO_2$ per year, making them a major contributor
+to climate change.
 
 **Conservation:** Protecting and restoring peat bogs is an important strategy for mitigating climate
 Change. Rewetting drained peatlands can stop the release of stored carbon and allow the bogs to
-Begin accumulating carbon again.
+begin accumulating carbon again.
 
 ## 8. Higher Tier: Indicator Species
 
 Indicator species are organisms whose presence, absence, or abundance provides information about the
-Quality of the environment.
+quality of the environment.
 
 **Air quality indicators (lichens):**
 
 Lichens are symbiotic organisms composed of a fungus and an alga. They are sensitive to air
 Pollution, particularly sulphur dioxide ($\mathrm{SO_2$).
+
+<div class="table-wrap">
 
 | Lichen type             | Pollution sensitivity | Environment indicator              |
 | ----------------------- | --------------------- | ---------------------------------- |
@@ -729,12 +773,16 @@ Pollution, particularly sulphur dioxide ($\mathrm{SO_2$).
 | Leafy lichens           | Moderately sensitive  | Found in cleaner air               |
 | Bushy (shrubby) lichens | Most sensitive        | Found only in clean air            |
 
+</div>
+
 If bushy lichens are present, the air is clean. If only crusty lichens are present, the air is
-Polluted. If no lichens are present at all, the air is very heavily polluted.
+polluted. If no lichens are present at all, the air is very heavily polluted.
 
 **Water quality indicators (invertebrates):**
 
 The species of invertebrates found in a river or stream indicate the level of water pollution.
+
+<div class="table-wrap">
 
 | Indicator species             | Pollution sensitivity | What it indicates            |
 | ----------------------------- | --------------------- | ---------------------------- |
@@ -744,8 +792,10 @@ The species of invertebrates found in a river or stream indicate the level of wa
 | Bloodworms (red midge larvae) | Tolerant              | Polluted, low-oxygen water   |
 | Rat-tailed maggots            | Very tolerant         | Severely polluted water      |
 
+</div>
+
 If stonefly larvae are found, the water is clean. If only bloodworms and rat-tailed maggots are
-Found, the water is severely polluted with organic waste (e.g., sewage).
+found, the water is severely polluted with organic waste (e.g., sewage).
 
 ## 9. Higher Tier: The Impact of Land Use Change on Ecosystems
 
@@ -753,8 +803,8 @@ Land use change is one of the most significant drivers of biodiversity loss worl
 
 **Deforestation for agriculture:** Tropical rainforests are cleared for cattle ranching and soya
 Production. Rainforests contain an estimated 50% of all species on Earth, despite covering only
-About 6% of the land surface. Deforestation destroys habitats, fragments populations (making them
-More vulnerable to extinction), and releases stored carbon.
+about 6% of the land surface. Deforestation destroys habitats, fragments populations (making them
+more vulnerable to extinction), and releases stored carbon.
 
 **Urbanisation:** Building cities and roads on natural habitats removes vegetation, increases
 Surface runoff (leading to flooding), creates heat islands (urban areas are warmer than surrounding
@@ -791,7 +841,7 @@ After a volcanic eruption). Stages:
 
 **Secondary succession:** Occurs on a surface where an existing ecosystem has been disturbed (e.g.,
 After a forest fire, flood, or farming). The soil is already present, so succession proceeds faster
-Than primary succession. It begins with grasses and herbs rather than pioneer lichens.
+than primary succession. It begins with grasses and herbs rather than pioneer lichens.
 
 **Key concepts:**
 
@@ -930,17 +980,6 @@ the appropriate terminology.
 Multi-step problems in Ecology often combine two or more concepts. Break the problem down: identify
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[7_Ecology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

@@ -23,7 +23,7 @@ categories:
 ## Instructions
 
 This diagnostic test contains **45 questions** spanning all A Level Mathematics topics. Each
-Question tests a specific concept and requires 2-5 steps. Attempt all questions before checking
+question tests a specific concept and requires 2-5 steps. Attempt all questions before checking
 Solutions.
 
 - **Time:** Allow approximately 90 minutes.
@@ -168,7 +168,7 @@ $\dfrac{dy}{dx} = \dfrac{e^x(x^2+2x)\sin x - x^2e^x\cos x}{\sin^2 x}$.
 <summary>Q13. Find the stationary points of $y = x^3 - 3x + 2$ and classify them.</summary>
 $y' = 3x^2 - 3 = 0 \implies x = \pm 1$. $y'' = 6x$.
 
-$x=1$: $y'' = 6 \gt 0$Minimum at $(1, 0)$. $x=-1$: $y'' = -6 \lt 0$Maximum at $(-1, 4)$.
+$x=1$: $y'' = 6 \gt 0$ Minimum at $(1, 0)$. $x=-1$: $y'' = -6 \lt 0$ Maximum at $(-1, 4)$.
 
 **If you get this wrong, revise:**
 [Differentiation](/maths/pure-mathematics/10-differentiation/)
@@ -292,7 +292,7 @@ $\bar{x} = 10(3)+50 = 80$. $\sigma_x = 10(2) = 20$.
 ### Correlation and Regression
 
 <details>
-<summary>Q25. Given $S_{xx}=40$$S_{xy}=24$$S_{yy}=25$$\bar{x}=5$$\bar{y}=7$Find $r$ and the regression line of $y$ on $x$.</summary>
+<summary>Q25. Given $S_{xx}=40$$S_{xy}=24$$S_{yy}=25$$\bar{x}=5$$\bar{y}=7$ Find $r$ and the regression line of $y$ on $x$.</summary>
 $r = \dfrac{24}{\sqrt{40 \times 25}} = \dfrac{24}{\sqrt{1000}} = \dfrac{24}{31.62} \approx 0.759$.
 
 $b = 24/40 = 0.6$$a = 7 - 0.6(5) = 4$. Line: $y = 4 + 0.6x$.
@@ -483,7 +483,7 @@ $4(6) + 2(0) = 6v \implies v = 4\,\mathrm{m/s}$.
 </details>
 
 <details>
-<summary>Q44. A ball hits a wall at $10\,\mathrm{m/s}$ and rebounds at $7\,\mathrm{m/s}$. If its mass is $0.15\,\mathrm{kg}$Find the impulse.</summary>
+<summary>Q44. A ball hits a wall at $10\,\mathrm{m/s}$ and rebounds at $7\,\mathrm{m/s}$. If its mass is $0.15\,\mathrm{kg}$ Find the impulse.</summary>
 $J = m(v-u) = 0.15(-7-10) = 0.15(-17) = -2.55\,\mathrm{Ns}$. Magnitude: $2.55\,\mathrm{Ns}$.
 
 **If you get this wrong, revise:** [Momentum](/maths/mechanics/05-momentum/)
@@ -505,12 +505,16 @@ $3v_1+2(v_1+4) = 9 \implies 5v_1 = 1 \implies v_1 = 0.2\,\mathrm{m/s}$$v_2 = 4.2
 
 ## Scoring and Revision Guide
 
+<div class="table-wrap">
+
 | Score    | Action                              |
 | -------- | ----------------------------------- |
 | 40–45    | Excellent, focus on exam technique |
 | 30–39    | Good, revise weak topics           |
 | 20–29    | Fair, systematic revision needed   |
 | Below 20 | Significant revision required       |
+
+</div>
 
 Use the revision links under each question to jump directly to the relevant topic notes.
 
@@ -533,14 +537,7 @@ Use the revision links under each question to jump directly to the relevant topi
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

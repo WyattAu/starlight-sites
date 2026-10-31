@@ -46,7 +46,7 @@ The four **factors of production** are:
 ### Opportunity Cost
 
 The **opportunity cost** of a decision is the value of the next best alternative foregone. It is not
-The sum of all alternatives, but only the single most valuable one that was rejected.
+the sum of all alternatives, but only the single most valuable one that was rejected.
 
 Opportunity cost applies at every level:
 
@@ -62,15 +62,15 @@ Opportunity cost applies at every level:
 - **Economic profit** $= \text{Total Revenue} - \text{Explicit Costs} - \text{Implicit Costs}$
 
 Implicit costs include the opportunity cost of the owner"s time and capital. A firm may earn a
-Positive accounting profit but a negative economic profit if it could earn more by deploying its
-Resources elsewhere.
+positive accounting profit but a negative economic profit if it could earn more by deploying its
+resources elsewhere.
 
 ## Production Possibilities Frontier (PPF)
 
 ### Definition and Interpretation
 
 The PPF is a curve showing the maximum possible combinations of two goods or services an economy can
-Produce when all resources are fully and efficiently employed, given the current state of
+produce when all resources are fully and efficiently employed, given the current state of
 technology.
 
 Assume an economy produces two goods, capital goods ($K$) and consumer goods ($C$). The PPF curves
@@ -105,12 +105,14 @@ Improvement or resource increase is specific to one industry.
 ### PPF and Opportunity Cost
 
 The slope of the PPF at any point represents the **marginal opportunity cost** of producing one more
-Unit of the good on the x-axis, measured in terms of the good on the y-axis:
+unit of the good on the x-axis, measured in terms of the good on the y-axis:
 
-$$\text{Slope of PPF} = -\frac{\Delta C}{\Delta K}$$
+$$
+\text{Slope of PPF} = -\frac{\Delta C}{\Delta K}
+$$
 
 A linear PPF implies **constant opportunity costs** (resources are equally suited to producing both
-Goods). A concave PPF implies **increasing opportunity costs** (resources are not perfectly
+goods). A concave PPF implies **increasing opportunity costs** (resources are not perfectly
 Transferable between uses).
 
 ## Supply and Demand
@@ -119,7 +121,7 @@ Transferable between uses).
 
 The law of demand states that, _ceteris paribus_, as the price of a good rises, the quantity
 Demanded falls. The relationship is captured by a downward-sloping demand curve. A movement _along_
-The curve reflects a change in price (change in quantity demanded). A _shift_ of the curve reflects
+the curve reflects a change in price (change in quantity demanded). A _shift_ of the curve reflects
 A change in a non-price determinant of demand.
 
 **Non-price determinants of demand:**
@@ -132,12 +134,12 @@ A change in a non-price determinant of demand.
 
 A **substitute** has a positive cross-price elasticity of demand: if the price of coffee rises,
 Demand for tea shifts rightward. A **complement** has a negative cross-price elasticity: if the
-Price of petrol rises, demand for cars shifts leftward.
+price of petrol rises, demand for cars shifts leftward.
 
 ### The Law of Supply
 
 The law of supply states that, _ceteris paribus_, as price rises, quantity supplied increases. The
-Supply curve slopes upward because higher prices increase the profitability of production,
+supply curve slopes upward because higher prices increase the profitability of production,
 Incentivising firms to expand output.
 
 **Non-price determinants of supply:**
@@ -152,10 +154,10 @@ Incentivising firms to expand output.
 ### Market Equilibrium
 
 Equilibrium occurs where quantity demanded equals quantity supplied. The equilibrium price $P^*$ and
-Quantity $Q^*$ are found at the intersection of the demand and supply curves.
+quantity $Q^*$ are found at the intersection of the demand and supply curves.
 
-If the market price is above $P^*$A **surplus** (excess supply) exists, placing downward pressure On
-price. If the market price is below $P^*$A **shortage** (excess demand) exists, placing upward
+If the market price is above $P^*$ A **surplus** (excess supply) exists, placing downward pressure On
+price. If the market price is below $P^*$ A **shortage** (excess demand) exists, placing upward
 Pressure on price.
 
 The **rationing function** of price allocates scarce resources to those willing and able to pay. The
@@ -166,26 +168,34 @@ Producers.
 
 **Consumer surplus** is the difference between the maximum price a consumer is willing to pay and
 The actual market price. Graphically, it is the area below the demand curve and above the
-Equilibrium price.
+equilibrium price.
 
-$$\mathrm{CS} = \int_{0}^{Q^*} D(Q) \, dQ - P^* \cdot Q^*$$
+$$
+\mathrm{CS} = \int_{0}^{Q^*} D(Q) \, dQ - P^* \cdot Q^*
+$$
 
 For a linear demand curve $P = a - bQ$:
 
-$$\mathrm{CS} = \frac{1}{2}(a - P^*) \cdot Q^*$$
+$$
+\mathrm{CS} = \frac{1}{2}(a - P^*) \cdot Q^*
+$$
 
 **Producer surplus** is the difference between the actual market price and the minimum price a
 Producer is willing to accept. Graphically, it is the area above the supply curve and below the
-Equilibrium price.
+equilibrium price.
 
-$$\mathrm{PS} = P^* \cdot Q^* - \int_{0}^{Q^*} S(Q) \, dQ$$
+$$
+\mathrm{PS} = P^* \cdot Q^* - \int_{0}^{Q^*} S(Q) \, dQ
+$$
 
 For a linear supply curve $P = c + dQ$:
 
-$$\mathrm{PS} = \frac{1}{2}(P^* - c) \cdot Q^*$$
+$$
+\mathrm{PS} = \frac{1}{2}(P^* - c) \cdot Q^*
+$$
 
 At equilibrium, total welfare (consumer surplus + producer surplus) is maximised. Any deviation from
-Equilibrium creates a **deadweight loss** (DWL):
+equilibrium creates a **deadweight loss** (DWL):
 
 $$
 \mathrm{DWL} = \frac{1}{2} \times (\text{change in quantity}) \times (\text{difference in marginal
@@ -239,6 +249,8 @@ Prices serve several critical functions in a market economy:
 
 An economy can produce the following combinations of capital goods ($K$) and consumer goods ($C$):
 
+<div class="table-wrap">
+
 | Point | K (units) | C (units) |
 | ----- | --------- | --------- |
 | A     | 0         | 100       |
@@ -247,6 +259,8 @@ An economy can produce the following combinations of capital goods ($K$) and con
 | D     | 30        | 70        |
 | E     | 40        | 50        |
 | F     | 50        | 0         |
+
+</div>
 
 (a) Calculate the opportunity cost of increasing capital goods production from 20 to 30 units.
 
@@ -257,7 +271,9 @@ $C$? Explain.
 
 (a) Moving from point C (20 $K$85 $C$) to point D (30 $K$70 $C$):
 
-$$\text{Opportunity cost} = \frac{\Delta C}{\Delta K} = \frac{85 - 70}{30 - 20} = \frac{15}{10} = 1.5 \; C \text{ per } K$$
+$$
+\text{Opportunity cost} = \frac{\Delta C}{\Delta K} = \frac{85 - 70}{30 - 20} = \frac{15}{10} = 1.5 \; C \text{ per } K
+$$
 
 Producing 10 additional units of capital goods requires sacrificing 15 units of consumer goods.
 
@@ -273,15 +289,15 @@ The opportunity cost of each additional 10 units of $K$ increases as more $K$ is
 confirming Increasing opportunity costs (a concave PPF).
 
 (c) Point D is on the PPF (30 $K$70 $C$), so yes, the economy can produce this combination if all
-Resources are fully and efficiently employed. However, to move from point B to point D, the economy
-Must reallocate resources from consumer goods to capital goods, which requires time and adjustment.
+resources are fully and efficiently employed. However, to move from point B to point D, the economy
+must reallocate resources from consumer goods to capital goods, which requires time and adjustment.
 
 </details>
 
 <details>
 <summary>Problem 2: PED, YED, and XED Calculations</summary>
 
-The demand for good $X$ is given by $Q_{d,X} = 200 - 2P_X + 0.5Y + 0.8P_Y$Where $P_X = 20$ $Y = 400$
+The demand for good $X$ is given by $Q_{d,X} = 200 - 2P_X + 0.5Y + 0.8P_Y$ Where $P_X = 20$ $Y = 400$
 (income), and $P_Y = 30$ (price of related good $Y$).
 
 (a) Calculate the quantity demanded of $X$.
@@ -302,7 +318,7 @@ $\|\mathrm{PED}\| = 0.104 < 1$: demand is inelastic at this point.
 (c)
 $\mathrm{YED} = \frac{\partial Q}{\partial Y} \times \frac{Y}{Q} = 0.5 \times \frac{400}{384} = 0.521$
 
-YED $> 0$: $X$ is a normal good. Since $0 <$ YED $< 1$It is a necessity (income inelastic).
+YED $> 0$: $X$ is a normal good. Since $0 <$ YED $< 1$ It is a necessity (income inelastic).
 
 (d)
 $\mathrm{XED} = \frac{\partial Q}{\partial P_Y} \times \frac{P_Y}{Q} = 0.8 \times \frac{30}{384} = 0.0625$
@@ -331,17 +347,27 @@ The market for a chemical product has the following characteristics:
 
 (a) Market equilibrium: set demand $=$ supply:
 
-$$100 - Q = 20 + Q \implies 2Q = 80 \implies Q_{\text{private}} = 40$$
-$$P_{\text{private}} = 100 - 40 = 60$$
+$$
+100 - Q = 20 + Q \implies 2Q = 80 \implies Q_{\text{private}} = 40
+$$
+$$
+P_{\text{private}} = 100 - 40 = 60
+$$
 
 (b) Social optimum: MSC $=$ MPC $+$ MEC $= (20 + Q) + 10 = 30 + Q$. Set MSB $=$ MSC:
 
-$$100 - Q = 30 + Q \implies 2Q = 70 \implies Q_{\text{social}} = 35$$
-$$P_{\text{social}} = 100 - 35 = 65$$
+$$
+100 - Q = 30 + Q \implies 2Q = 70 \implies Q_{\text{social}} = 35
+$$
+$$
+P_{\text{social}} = 100 - 35 = 65
+$$
 
 (c) Deadweight loss:
 
-$$\mathrm{DWL} = \frac{1}{2} \times \mathrm{MEC} \times (Q_{\text{private}} - Q_{\text{social}}) = \frac{1}{2} \times 10 \times (40 - 35) = \frac{1}{2} \times 10 \times 5 = 25$$
+$$
+\mathrm{DWL} = \frac{1}{2} \times \mathrm{MEC} \times (Q_{\text{private}} - Q_{\text{social}}) = \frac{1}{2} \times 10 \times (40 - 35) = \frac{1}{2} \times 10 \times 5 = 25
+$$
 
 (d) The specific tax should equal the marginal external cost: a tax of `USD 10` per unit. This
 shifts The supply curve from $P = 20 + Q$ to $P = 30 + Q$ (which is MSC), leading to the socially
@@ -368,8 +394,12 @@ $\mathrm{MC} = \frac{d\mathrm{TC}}{dQ} = 10 + 2Q$.
 
 Set MR $=$ MC:
 
-$$150 - 4Q = 10 + 2Q \implies 6Q = 140 \implies Q_m = \frac{140}{6} = 23.33$$
-$$P_m = 150 - 2(23.33) = 150 - 46.67 = 103.33$$
+$$
+150 - 4Q = 10 + 2Q \implies 6Q = 140 \implies Q_m = \frac{140}{6} = 23.33
+$$
+$$
+P_m = 150 - 2(23.33) = 150 - 46.67 = 103.33
+$$
 
 (b) $\mathrm{TR} = P_m \times Q_m = 103.33 \times 23.33 = 2411.1$
 
@@ -383,8 +413,12 @@ $$150 - 2Q = 10 + 2Q \implies 4Q = 140 \implies Q_c = 35$$ $$P_c = 150 - 2(35) =
 
 (d) Deadweight loss:
 
-$$\mathrm{DWL} = \frac{1}{2} \times (P_m - P_c) \times (Q_c - Q_m) = \frac{1}{2} \times (103.33 - 80) \times (35 - 23.33)$$
-$$\mathrm{DWL} = \frac{1}{2} \times 23.33 \times 11.67 = 136.1$$
+$$
+\mathrm{DWL} = \frac{1}{2} \times (P_m - P_c) \times (Q_c - Q_m) = \frac{1}{2} \times (103.33 - 80) \times (35 - 23.33)
+$$
+$$
+\mathrm{DWL} = \frac{1}{2} \times 23.33 \times 11.67 = 136.1
+$$
 
 </details>
 
@@ -406,8 +440,8 @@ Imposes a specific tax of `USD 15` per unit.
 
 $$120 - P = 2P - 40 \implies 3P = 160 \implies P_0 = 53.33$$ $$Q_0 = 120 - 53.33 = 66.67$$
 
-(b) With a specific tax of $t = 15$The supply curve shifts upward. The new supply (price received by
-Producers) is $P_s = P_d - 15$. Setting $Q_d = Q_s$:
+(b) With a specific tax of $t = 15$ The supply curve shifts upward. The new supply (price received by
+producers) is $P_s = P_d - 15$. Setting $Q_d = Q_s$:
 
 $$120 - P_d = 2(P_d - 15) - 40 = 2P_d - 70$$ $$190 = 3P_d \implies P_d = 63.33$$
 $$P_s = 63.33 - 15 = 48.33$$ $$Q_t = 120 - 63.33 = 56.67$$
@@ -451,9 +485,11 @@ $$200Q - Q^2 = 500 + 40Q + Q^2$$ $$2Q^2 - 160Q + 500 = 0$$ $$Q^2 - 80Q + 250 = 0
 
 Using the quadratic formula:
 
-$$Q = \frac{80 \pm \sqrt{6400 - 1000}}{2} = \frac{80 \pm \sqrt{5400}}{2} = \frac{80 \pm 73.48}{2}$$
+$$
+Q = \frac{80 \pm \sqrt{6400 - 1000}}{2} = \frac{80 \pm \sqrt{5400}}{2} = \frac{80 \pm 73.48}{2}
+$$
 
-$Q = 76.74$ (the other root, $Q = 3.26$Gives a higher ATC).
+$Q = 76.74$ (the other root, $Q = 3.26$ Gives a higher ATC).
 
 $P = 200 - 76.74 = 123.26$
 
@@ -465,7 +501,7 @@ Excess capacity $= 76.74 - 22.36 = 54.38$ units. The firm operates well below it
 Scale.
 
 (c) No. Allocative efficiency requires $P = \mathrm{MC}$. Here, $P = 123.26$ while
-$\mathrm{MC} = 40 + 2(76.74) = 193.48$. Since $P < \mathrm{MC}$This suggests an issue. In practice,
+$\mathrm{MC} = 40 + 2(76.74) = 193.48$. Since $P < \mathrm{MC}$ This suggests an issue. In practice,
 the firm should also satisfy the MR $=$ MC Condition.
 $\mathrm{MR} = 200 - 2Q = 200 - 153.48 = 46.52$. Setting MR $=$ MC: $46.52 = 193.48$ is not
 Satisfied. The correct approach recognises that in long-run equilibrium for monopolistic
@@ -478,7 +514,7 @@ produces less than The socially optimal quantity.
 <summary>Problem 7: Subsidy Welfare Analysis</summary>
 
 The government provides a `USD 5` per unit subsidy on solar panels. Before the subsidy, the
-Equilibrium price was `USD 100` and the equilibrium quantity was $10000$ units. After the subsidy,
+equilibrium price was `USD 100` and the equilibrium quantity was $10000$ units. After the subsidy,
 the Quantity increases to $14000$ units. Calculate the total cost of the subsidy to the government
 and Discuss potential government failures.
 
@@ -502,10 +538,12 @@ Potential government failures include:
 ### Budget Constraints
 
 A consumer's budget constraint represents all combinations of two goods they can afford given their
-Income and the prices of the goods. If a consumer has income $M$The price of good $X$ is $P_X$And
-The price of good $Y$ is $P_Y$:
+income and the prices of the goods. If a consumer has income $M$ The price of good $X$ is $P_X$ And
+the price of good $Y$ is $P_Y$:
 
-$$P_X \cdot X + P_Y \cdot Y = M$$
+$$
+P_X \cdot X + P_Y \cdot Y = M
+$$
 
 The budget line has:
 
@@ -515,12 +553,12 @@ The budget line has:
 
 The budget constraint shifts outward when income increases or when the price of both goods falls
 Proportionally. A change in the price of one good rotates the budget line around the intercept of
-The other good.
+the other good.
 
 ### Indifference Curves
 
 An indifference curve shows all combinations of two goods that give the consumer the same level of
-Utility (satisfaction). The consumer is indifferent between any two points on the same curve.
+utility (satisfaction). The consumer is indifferent between any two points on the same curve.
 
 **Properties of indifference curves:**
 
@@ -535,32 +573,40 @@ Utility (satisfaction). The consumer is indifferent between any two points on th
 ### Marginal Rate of Substitution (MRS)
 
 The MRS measures the rate at which a consumer is willing to trade one good for another while
-Maintaining the same utility level:
+maintaining the same utility level:
 
-$$\mathrm{MRS}_{XY} = -\frac{\Delta Y}{\Delta X}$$
+$$
+\mathrm{MRS}_{XY} = -\frac{\Delta Y}{\Delta X}
+$$
 
 At any point on the indifference curve, the MRS equals the absolute value of the slope of the
-Indifference curve. As the consumer moves down along the curve, the MRS diminishes: the more of $X$
-And the less of $Y$ consumed, the less $Y$ the consumer is willing to give up for an additional unit
-Of $X$.
+indifference curve. As the consumer moves down along the curve, the MRS diminishes: the more of $X$
+and the less of $Y$ consumed, the less $Y$ the consumer is willing to give up for an additional unit
+of $X$.
 
 The MRS also equals the ratio of marginal utilities:
 
-$$\mathrm{MRS}_{XY} = \frac{MU_X}{MU_Y}$$
+$$
+\mathrm{MRS}_{XY} = \frac{MU_X}{MU_Y}
+$$
 
 ### Consumer Equilibrium
 
 A rational consumer maximises utility subject to their budget constraint. The optimal consumption
 Bundle occurs where the indifference curve is tangent to the budget line:
 
-$$\mathrm{MRS}_{XY} = \frac{P_X}{P_Y}$$
+$$
+\mathrm{MRS}_{XY} = \frac{P_X}{P_Y}
+$$
 
 Or equivalently:
 
-$$\frac{MU_X}{P_X} = \frac{MU_Y}{P_Y}$$
+$$
+\frac{MU_X}{P_X} = \frac{MU_Y}{P_Y}
+$$
 
 This condition states that the marginal utility per dollar spent must be equal across all goods. If
-$\frac{MU_X}{P_X} > \frac{MU_Y}{P_Y}$The consumer should buy more $X$ and less $Y$ until the Ratio
+$\frac{MU_X}{P_X} > \frac{MU_Y}{P_Y}$ The consumer should buy more $X$ and less $Y$ until the Ratio
 equalises.
 
 ### Income and Substitution Effects
@@ -601,11 +647,15 @@ $\mathrm{MRS} = \frac{MU_X}{MU_Y} = \frac{0.5 X^{-0.5} Y^{0.5}}{0.5 X^{0.5} Y^{-
 
 Setting $\mathrm{MRS} = P_X / P_Y$:
 
-$$\frac{Y}{X} = \frac{5}{2} \implies Y = 2.5X$$
+$$
+\frac{Y}{X} = \frac{5}{2} \implies Y = 2.5X
+$$
 
 Substituting into the budget constraint:
 
-$$5X + 2(2.5X) = 100 \implies 10X = 100 \implies X^* = 10, \quad Y^* = 25$$
+$$
+5X + 2(2.5X) = 100 \implies 10X = 100 \implies X^* = 10, \quad Y^* = 25
+$$
 
 ### Common Pitfalls in Consumer Choice
 
@@ -633,6 +683,8 @@ $45,000 and 150,000 units.
 
 An economy can produce the following combinations of food ($F$) and machines ($M$):
 
+<div class="table-wrap">
+
 | Combination | Food (units) | Machines (units) |
 | ----------- | ------------ | ---------------- |
 | A           | 0            | 100              |
@@ -641,21 +693,12 @@ An economy can produce the following combinations of food ($F$) and machines ($M
 | D           | 90           | 40               |
 | E           | 100          | 0                |
 
+</div>
+
 Moving from B to C, the opportunity cost of 30 additional units of food is 20 machines
 ($20/30 = 0.67$ machines per unit of food). Moving from C to D, the opportunity cost of 20
 additional units of food is 30 machines ($30/20 = 1.5$ machines per unit of food). The increasing
 opportunity cost reflects the concavity of the PPF.
-
-
-```mermaid
-flowchart TD
-    A[1_Supply And Demand] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

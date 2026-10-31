@@ -20,13 +20,13 @@ Welcome to the TypeScript notes. TypeScript is a superset of JavaScript that add
 
 ## Why This Matters
 
-TypeScript's type system catches bugs that JavaScript would only reveal at runtime. Generics enable reusable, type-safe code, utility types (`Partial``Pick``Omit`) transform existing types, and type guards narrow types at runtime. Understanding TypeScript's structural type system, declaration files, and compilation options is essential for modern web development.
+TypeScript's type system catches bugs that JavaScript would only reveal at runtime. Generics enable reusable, type-safe code, utility types (`Partial`, `Pick`, `Omit`) transform existing types, and type guards narrow types at runtime. Understanding TypeScript's structural type system, declaration files, and compilation options is essential for modern web development.
 
 ## What You Will Find
 
 - **Type system**: Primitive types, unions, intersections, type narrowing, and type guards
 - **Generics**: Write functions and classes that work with any type while preserving type safety
-- **Utility types**: Transform existing types, `Partial<T>``Pick<T,K>``Omit<T,K>``Record<K,V>`
+- **Utility types**: Transform existing types, `Partial<T>`, `Pick<T,K>`, `Omit<T,K>`, `Record<K,V>`
 - **Advanced patterns**: Mapped types, conditional types, template literal types
 - **React integration**: Typing components, hooks, props, and state in React applications
 
@@ -80,15 +80,9 @@ types from context. Start with strict mode enabled, use `unknown` instead of
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -98,48 +92,3 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.

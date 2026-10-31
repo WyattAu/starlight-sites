@@ -23,7 +23,7 @@ categories:
 ### SSH Hardening
 
 SSH is the primary remote administration protocol on Linux. Default configurations are permissive
-And must be hardened.
+and must be hardened.
 
 **Key-based authentication:**
 
@@ -33,7 +33,7 @@ ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server
 ```
 
 Ed25519 is preferred over RSA and ECDSA. It is faster, more secure, and has smaller keys. RSA keys
-Should be at least 4096 bits if used.
+should be at least 4096 bits if used.
 
 **sshd_config hardening:**
 
@@ -87,7 +87,7 @@ bantime = 3600
 - **findtime:** Time window in seconds (600 = 10 minutes).
 - **bantime:** Duration of the ban in seconds (3600 = 1 hour).
 
-For production servers, consider more aggressive settings: `maxretry = 2``bantime = 86400`.
+For production servers, consider more aggressive settings: `maxretry = 2`, `bantime = 86400`.
 
 ### File Permissions
 
@@ -95,11 +95,15 @@ Linux file permissions control access to files and directories. Every file has t
 Classes: owner (u), group (g), and others (o). Each class has three permissions: read (r), write
 (w), and execute (x).
 
+<div class="table-wrap">
+
 | Permission | Octal | File               | Directory                              |
 | ---------- | ----- | ------------------ | -------------------------------------- |
 | r          | 4     | Read file contents | List directory entries                 |
 | w          | 2     | Modify file        | Create/delete/rename entries           |
 | x          | 1     | Execute file       | Enter directory (access files by name) |
+
+</div>
 
 Common permissions:
 
@@ -127,7 +131,7 @@ With `umask 027`:
 #### SUID, SGID, and Sticky Bit
 
 **SUID (Set User ID):** When set on an executable file, the process runs with the permissions of the
-File"s owner, not the user who executed it. This is how `passwd` can modify `/etc/shadow` -- the
+File's owner, not the user who executed it. This is how `passwd` can modify `/etc/shadow` -- the
 `passwd` binary has SUID root.
 
 ```bash
@@ -170,7 +174,7 @@ admin:x:1000:1000:Admin User:/home/admin:/bin/bash
 Fields: `username:x:UID:GID:comment:home_dir:shell`
 
 The `x` in the password field means the password hash is stored in `/etc/shadow`. If the password
-Field contains anything other than `x`The account has a password stored directly in `/etc/passwd`
+Field contains anything other than `x`. The account has a password stored directly in `/etc/passwd`
 Which is a security issue (passwd is world-readable).
 
 #### /etc/shadow
@@ -249,7 +253,7 @@ Exempts root, which it does not).
 SELinux (Security-Enhanced Linux) was developed by the NSA and uses a policy-based MAC system. It
 Assigns a security context (label) to every process, file, port, and other system object. Access is
 Granted only if the policy explicitly allows the source context to access the target context's class
-With the specified permission.
+with the specified permission.
 
 Security context format: `user:role:type:level`
 
@@ -270,11 +274,15 @@ Common types:
 
 ### SELinux Modes
 
+<div class="table-wrap">
+
 | Mode       | Behavior                                                                         |
 | ---------- | -------------------------------------------------------------------------------- |
 | Enforcing  | Policy is enforced. Violations are blocked and logged.                           |
 | Permissive | Policy is not enforced. Violations are logged but not blocked. Used for testing. |
 | Disabled   | SELinux is completely disabled. No policy loaded, no logging.                    |
+
+</div>
 
 Check and set mode:
 
@@ -490,7 +498,7 @@ Dangerous misconfigurations:
 ### Cron Jobs
 
 Cron jobs run on a schedule with the privileges of the owning user. If a cron job executes a script
-That an unprivileged user can modify, the user can inject arbitrary commands that run with the cron
+that an unprivileged user can modify, the user can inject arbitrary commands that run with the cron
 Job's privileges.
 
 Enumeration:
@@ -546,14 +554,14 @@ Common kernel vulnerability classes:
 ### Path Hijacking
 
 If a directory in the PATH is writable by the current user, an attacker can place a malicious binary
-With the same name as a commonly used command in that directory. When the command is executed, the
+with the same name as a commonly used command in that directory. When the command is executed, the
 Malicious binary runs instead.
 
 ```bash
 echo $PATH
 ```
 
-**Defense:** Ensure system PATH directories (`/usr/bin``/bin``/usr/sbin``/sbin`) are owned by Root
+**Defense:** Ensure system PATH directories (`/usr/bin`, `/bin`, `/usr/sbin`, `/sbin`) are owned by Root
 and not writable by non-root users. Never put `.` (current directory) in PATH.
 
 ### Shared Library Injection (LD_PRELOAD)
@@ -584,7 +592,7 @@ Modern sudo versions).
 **Defense:**
 
 - Ensure `env_reset` is set in sudoers (default in most distributions).
-- Ensure `env_keep` does not include `LD_PRELOAD``LD_LIBRARY_PATH`Or similar.
+- Ensure `env_keep` does not include `LD_PRELOAD`, `LD_LIBRARY_PATH` or similar.
 - Use `Defaults secure_path` in sudoers to set a fixed PATH.
 
 ## Logging and Auditing
@@ -606,6 +614,8 @@ kern.*                   /var/log/kern.log
 
 Log severity levels (from lowest to highest):
 
+<div class="table-wrap">
+
 | Level | Keyword | Description               |
 | ----- | ------- | ------------------------- |
 | 0     | emerg   | System is unusable        |
@@ -616,6 +626,8 @@ Log severity levels (from lowest to highest):
 | 5     | notice  | Normal but significant    |
 | 6     | info    | Informational             |
 | 7     | debug   | Debug messages            |
+
+</div>
 
 ### journald
 
@@ -709,12 +721,16 @@ Centralized logging provides:
 
 ### Update Strategies
 
+<div class="table-wrap">
+
 | Strategy        | Description                         | Risk    | Best For                        |
 | --------------- | ----------------------------------- | ------- | ------------------------------- |
 | Rolling updates | Update one node at a time           | Lowest  | Stateful services, databases    |
 | Blue-green      | Maintain two identical environments | Low     | Stateless services              |
 | Canary          | Update a small subset first         | Low     | Large deployments               |
 | Big bang        | Update everything at once           | Highest | Homogeneous, small environments |
+
+</div>
 
 ### Automated Patching
 
@@ -798,6 +814,8 @@ Management architecture.
 Linux namespaces provide isolation for system resources. Each namespace type isolates a different
 Aspect:
 
+<div class="table-wrap">
+
 | Namespace | Isolates                              |
 | --------- | ------------------------------------- |
 | Mount     | Filesystem mount points               |
@@ -808,13 +826,15 @@ Aspect:
 | User      | User and group IDs                    |
 | Cgroup    | Cgroup root directory                 |
 
+</div>
+
 Namespaces are the fundamental building block of containers. Docker and Kubernetes use namespaces to
 Provide process isolation.
 
 ### cgroups
 
 Control groups (cgroups) limit and account for resource usage (CPU, memory, I/O, network) for a set
-Of processes. Cgroups v2 is the current standard.
+of processes. Cgroups v2 is the current standard.
 
 ```bash
 # Create a cgroup and limit memory to 512 MB
@@ -829,7 +849,7 @@ echo 100000 > /sys/fs/cgroup/cpu/limited/cpu.max
 
 Seccomp (Secure Computing Mode) restricts the system calls a process can make. There are two modes:
 
-- **Strict mode:** Allows only `read``write``_exit`And `sigreturn`. Too restrictive for most
+- **Strict mode:** Allows only `read`, `write`, `_exit` and `sigreturn`. Too restrictive for most
   applications.
 - **Filter mode (BPF):** Allows specifying a whitelist of permitted system calls using BPF programs.
 
@@ -844,6 +864,8 @@ Possible.
 
 Container isolation vs VM isolation:
 
+<div class="table-wrap">
+
 | Property          | Containers                   | VMs            |
 | ----------------- | ---------------------------- | -------------- |
 | Kernel            | Shared                       | Separate       |
@@ -852,12 +874,14 @@ Container isolation vs VM isolation:
 | Overhead          | Low                          | High           |
 | Startup time      | Seconds                      | Minutes        |
 
+</div>
+
 ## Secure Boot Chain
 
 ### UEFI Secure Boot
 
 UEFI Secure Boot ensures that only cryptographically signed bootloaders and kernels can be executed
-During the boot process. The firmware verifies the signature of each component before executing it:
+during the boot process. The firmware verifies the signature of each component before executing it:
 
 1. UEFI firmware verifies the bootloader (e.g., GRUB, shim)
 2. The bootloader verifies the kernel
@@ -919,7 +943,7 @@ Key security policies:
 ### BitLocker
 
 BitLocker provides full-disk encryption for Windows systems. It encrypts the entire volume and uses
-The TPM to protect the encryption key.
+the TPM to protect the encryption key.
 
 - **TPM-only mode:** The key is released automatically if the boot measurements are correct.
 - **TPM + PIN:** Requires a PIN in addition to TPM. Protects against physical attacks on a powered-
@@ -980,7 +1004,7 @@ Automated patching with a reboot window is the minimum. For critical systems, us
 ### Shared Library Path Issues
 
 Leaving `LD_LIBRARY_PATH` or `LD_PRELOAD` in sudoers `env_keep` allows privilege escalation through
-Shared library injection. Modern sudo defaults to `env_reset`But always verify.
+Shared library injection. Modern sudo defaults to `env_reset`. But always verify.
 
 ## Practice Problems
 
@@ -1035,7 +1059,7 @@ Both give owner-only access. This is a paranoid but secure default for multi-use
 ### Problem 3: SELinux Troubleshooting
 
 An Apache web server returns 403 Forbidden for files in `/var/www/html/app/`. The file permissions
-Are correct (644, owned by apache:apache). `ls -Z` shows:
+are correct (644, owned by apache:apache). `ls -Z` shows:
 
 ```
 -rw-r--r--. apache apache unconfined_u:object_r:default_t:s0 index.html
@@ -1046,7 +1070,7 @@ What is the problem, and how do you fix it?
 <details>
 <summary>Answer</summary>
 
-The SELinux context is `default_t`Which Apache (running as `httpd_t`) is not allowed to read. Web
+The SELinux context is `default_t`. Which Apache (running as `httpd_t`) is not allowed to read. Web
 Content should have the `httpd_sys_content_t` context.
 
 Fix:
@@ -1101,10 +1125,10 @@ touch archive.tar
 sudo tar cf archive.tar --use-compress-program=shell.sh *
 ```
 
-When `tar` processes the filename `--use-compress-program=shell.sh`It treats it as an option and
+When `tar` processes the filename `--use-compress-program=shell.sh`. It treats it as an option and
 Executes `shell.sh` as the compression program, which runs `/bin/bash -p` as root.
 
-**Defense:** Never allow `sudo` access to `tar``cp``find``vim``less``awk`Or any Interactive/editor
+**Defense:** Never allow `sudo` access to `tar`, `cp`, `find`, `vim`, `less`, `awk` or any Interactive/editor
 command. If archiving is needed, create a wrapper script that validates inputs And only allows
 operations on specific paths.
 
@@ -1124,10 +1148,10 @@ What does this rule do? Why is `auid!=4294967295` included?
 <summary>Answer</summary>
 
 This rule audits the `open` and `openat` system calls on 64-bit systems when the target path is
-Under `/etc` and the triggering user has a UID of 1000 or higher (regular users, not system
+under `/etc` and the triggering user has a UID of 1000 or higher (regular users, not system
 Accounts). The key `etc_access` allows filtering audit logs for this specific rule.
 
-`auid!=4294967295` excludes the "unset" login UID (4294967295 = $2^{32} - 1$Which is the value of
+`auid!=4294967295` excludes the "unset" login UID (4294967295 = $2^{32} - 1$ Which is the value of
 `-1` as an unsigned 32-bit integer). When a process is started by the system (not through a user
 Login), its audit UID is unset. Excluding this prevents the rule from triggering for system
 Processes that happen to access files in `/etc`Reducing noise in the audit logs.
@@ -1162,22 +1186,11 @@ Identify the security issues and provide the corrected values.
    source IP addresses in incoming packets, facilitating DDoS reflection attacks. **Fix:**
    `net.ipv4.conf.all.rp_filter = 1`.
 
-4. **`kernel.dmesg_restrict = 0`:** Any user can read the kernel ring buffer via `dmesg`Which may
+4. **`kernel.dmesg_restrict = 0`:** Any user can read the kernel ring buffer via `dmesg`. Which may
    contain sensitive information (kernel addresses, module loading, error messages). **Fix:**
    `kernel.dmesg_restrict = 1`.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[Os Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -1192,13 +1205,7 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

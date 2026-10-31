@@ -19,13 +19,15 @@ description: "Stability and Phase Plane Analysis: comprehensive educational cont
 
 ### 9.1 Autonomous Systems
 
-For $\mathbf{x}" = \mathbf{f}(\mathbf{x})$A **critical point** $\mathbf{x}^*$ satisfies
+For $\mathbf{x}" = \mathbf{f}(\mathbf{x})$ A **critical point** $\mathbf{x}^*$ satisfies
 $\mathbf{f}(\mathbf{x}^*) = \mathbf{0}$.
 
 ### 9.2 Linearization and Stability
 
 Let $A = J\mathbf{f}(\mathbf{x}^*)$ be the Jacobian at the critical point. The eigenvalues of $A$
 Determine the local stability:
+
+<div class="table-wrap">
 
 | Eigenvalues of $A$                    | Type            | Stability             |
 | ------------------------------------- | --------------- | --------------------- |
@@ -36,9 +38,11 @@ Determine the local stability:
 | Complex, $\mathrm{Re}(\lambda) > 0$   | Unstable spiral | Unstable              |
 | Purely imaginary                      | Center          | (Marginally) stable   |
 
+</div>
+
 ### 9.3 Lyapunov Stability
 
-**Definition.** A critical point $\mathbf{x}^*$ is **stable** if for every $\varepsilon > 0$There
+**Definition.** A critical point $\mathbf{x}^*$ is **stable** if for every $\varepsilon > 0$ There
 Exists $\delta > 0$ such that $\|\mathbf{x}(0) - \mathbf{x}^*\| \lt \delta$ implies
 $\|\mathbf{x}(t) - \mathbf{x}^*\| \lt \varepsilon$ for all $t > 0$.
 
@@ -47,7 +51,7 @@ $t \to \infty$.
 
 **Theorem 9.1 (Lyapunov).** If there exists a continuously differentiable function $V$ (a **Lyapunov
 Function**) such that $V(\mathbf{x}^*) = 0$, $V(\mathbf{x}) > 0$ for $\mathbf{x} \neq \mathbf{x}^*$
-And $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$ Then $\mathbf{x}^*$ is stable. If
+and $\dot{V} \leq 0$ in a neighbourhood of $\mathbf{x}^*$ Then $\mathbf{x}^*$ is stable. If
 $\dot{V} \lt 0$ for $\mathbf{x} \neq \mathbf{x}^*$ Then $\mathbf{x}^*$ is asymptotically stable.
 
 ### 9.4 Worked Example: Linearization
@@ -88,7 +92,7 @@ Negative determinant: **saddle point** (unstable). $\blacksquare$
 
 ### 9.5 Phase Portraits for 2D Nonlinear Systems
 
-For the nonlinear system $\mathbf{x}' = \mathbf{f}(\mathbf{x})$The **Hartman-Grobman theorem**
+For the nonlinear system $\mathbf{x}' = \mathbf{f}(\mathbf{x})$ The **Hartman-Grobman theorem**
 States that near a hyperbolic critical point (one where the Jacobian has no eigenvalues on the
 Imaginary axis), the nonlinear phase portrait is topologically equivalent to the linearized one.
 
@@ -114,7 +118,9 @@ much more complex behaviour (chaos) is possible.
 
 **Example: Van der Pol oscillator.** The equation
 
-$$x'' + \mu(x^2 - 1)x' + x = 0$$
+$$
+x'' + \mu(x^2 - 1)x' + x = 0
+$$
 
 With $\mu > 0$ has a unique stable limit cycle. This system models electrical circuits with
 Nonlinear resistance and arises in biology (cardiac rhythms, neuron firing).
@@ -138,7 +144,7 @@ $\mathrm{tr}(J) = 0$. Eigenvalues $\pm i\sqrt{2}$: **center**.
 
 _Remark._ For the linearized system, the center is (marginally) stable. However, for the Nonlinear
 Lotka-Volterra system, the trajectories are actually closed orbits surrounding $(1, 2)$. This can be
-verified using the first integral $H = x - \ln x + 2\ln y - y$Which is constant Along trajectories.
+verified using the first integral $H = x - \ln x + 2\ln y - y$ Which is constant Along trajectories.
 $\blacksquare$
 
 </details>
@@ -153,14 +159,16 @@ The Hartman-Grobman theorem guarantees that near a hyperbolic critical point (no
 
 The competing species model is:
 
-$$x' = x(r_1 - a_{11}x - a_{12}y), \quad y' = y(r_2 - a_{21}x - a_{22}y)$$
+$$
+x' = x(r_1 - a_{11}x - a_{12}y), \quad y' = y(r_2 - a_{21}x - a_{22}y)
+$$
 
 Where $r_i > 0$ are growth rates and $a_{ij} > 0$ are competition coefficients. The four critical
 Points are $(0, 0)$, $(r_1/a_{11}, 0)$, $(0, r_2/a_{22})$ And the coexistence point $(x^*, y^*)$
 where both $x'$ and $y'$ vanish.
 
 The stability of the coexistence point determines whether both species survive. If
-$a_{11}a_{22} > a_{12}a_{21}$Coexistence is stable; otherwise, one species drives the other To
+$a_{11}a_{22} > a_{12}a_{21}$ Coexistence is stable; otherwise, one species drives the other To
 extinction (competitive exclusion).
 
 ### 9.7 Common Mistakes
@@ -180,17 +188,6 @@ Critical points can be isolated or form a continuum (e.g., a line of critical po
 **Mistake 5: Confusing the phase plane with the phase portrait.**
 The phase plane is the coordinate space $(x, y)$, while the phase portrait is the collection of trajectories in the phase plane. Do not confuse the two; the phase portrait includes the trajectories, not just the coordinate axes.
 
-
-```mermaid
-flowchart TD
-    A[9_Stability And Phase Plane Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Systems of ODEs](/5-ordinary-differential-equations/4_systems-of-odes/)**: The eigenvalue analysis of the Jacobian matrix used here is developed systematically in the systems of ODEs chapter.
@@ -198,7 +195,7 @@ flowchart TD
 - **[First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)**: Phase plane methods reduce systems to qualitative analysis when first-order methods like separation of variables are unavailable.
 - **[Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)**: The Jacobian matrix and its eigenvalues, computed using partial derivatives, determine local stability.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

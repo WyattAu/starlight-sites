@@ -25,7 +25,7 @@ Classify the ODE $y"' + xy' + e^x y = \cos x$ by order, linearity, and homogenei
 <summary>Solution</summary>
 
 _Solution._ Second-order (highest derivative is $y''$), linear ($y$, $y'$, $y''$ appear linearly
-With coefficient functions of $x$ only), nonhomogeneous ($\cos x \neq 0$). $\blacksquare$
+with coefficient functions of $x$ only), nonhomogeneous ($\cos x \neq 0$). $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.2 (Classification of ODEs).
 
@@ -40,7 +40,7 @@ Solve $\frac{dy}{dx} = \frac{x}{y}$, $y(0) = 2$.
 
 _Solution._ Separating: $y\, dy = x\, dx$. Integrating: $\frac{y^2}{2} = \frac{x^2}{2} + C$.
 
-$y(0) = 2 \implies C = 2$ So $y^2 = x^2 + 4$Giving $y = \sqrt{x^2 + 4}$ (positive branch Since
+$y(0) = 2 \implies C = 2$ So $y^2 = x^2 + 4$ Giving $y = \sqrt{x^2 + 4}$ (positive branch Since
 $y(0) = 2 > 0$). $\blacksquare$
 
 _If you get this wrong, revise:_ Section 2.1 (Separable Equations).
@@ -96,7 +96,7 @@ Solve $y' - y = xy^2$.
 
 _Solution._ This is Bernoulli with $n = 2$, $P(x) = -1$, $Q(x) = x$.
 
-Substitution $v = y^{-1}$: $v' = -y^{-2}y'$ So $-v' - v = x$I.e., $v' + v = -x$.
+Substitution $v = y^{-1}$: $v' = -y^{-2}y'$ So $-v' - v = x$ I.e., $v' + v = -x$.
 
 Integrating factor: $e^x$. $(ve^x)' = -xe^x$.
 
@@ -242,7 +242,7 @@ _If you get this wrong, revise:_ Section 3.9 (Resonance).
 
 ### Problem 11 (Reduction of Order)
 
-Given that $y_1 = x$ solves $x^2 y'' - xy' + y = 0$ for $x > 0$Find the general solution.
+Given that $y_1 = x$ solves $x^2 y'' - xy' + y = 0$ for $x > 0$ Find the general solution.
 
 <details>
 <summary>Solution</summary>
@@ -418,7 +418,7 @@ _If you get this wrong, revise:_ Section 7.1 and 7.6 (Fourier Series).
 
 ### Problem 19 (Heat Equation)
 
-Solve $u_t = 4u_{xx}$ for $0 \lt x \lt \pi$, $t > 0$With $u(0, t) = u(\pi, t) = 0$ and
+Solve $u_t = 4u_{xx}$ for $0 \lt x \lt \pi$, $t > 0$ With $u(0, t) = u(\pi, t) = 0$ and
 $u(x, 0) = \sin x$.
 
 <details>
@@ -443,7 +443,7 @@ Find and classify the critical points of $x' = y - x^2$, $y' = x - y^2$.
 <details>
 <summary>Solution</summary>
 
-_Solution._ Set $y - x^2 = 0$ and $x - y^2 = 0$. From the first equation $y = x^2$Substituting Into
+_Solution._ Set $y - x^2 = 0$ and $x - y^2 = 0$. From the first equation $y = x^2$ Substituting Into
 the second: $x - x^4 = 0$ So $x(1 - x^3) = 0$.
 
 $x = 0 \implies y = 0$. Critical point: $(0, 0)$. $x = 1 \implies y = 1$. Critical point: $(1, 1)$.
@@ -503,17 +503,6 @@ Ordinary differential equations describe how quantities evolve, and each method 
   derivative after removing radicals and fractions. **Fix:** $y'' + 3y' + 2y = 0$: order 2,
   degree 1.
 
-
-```mermaid
-flowchart TD
-    A[11_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - First-order separable: $\frac{dy}{dx} = f(x)g(y) \implies \int \frac{dy}{g(y)} = \int f(x)\, dx$.
@@ -523,16 +512,20 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site       | Link                                                                                                                  |
 | ------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Differential Equations] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/07-differential-equations) |
-| [Differential Equations] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/5-calculus/5_differential-equations)                                      |
+| [Differential Equations] | IB         | [View](https://ib.wyattau.com/maths/5-calculus/5_differential-equations/)                                      |
 | [Differential Equations] | University | [View](https://mathematics.wyattau.com/)    |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+</div>
+
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## See Also
 

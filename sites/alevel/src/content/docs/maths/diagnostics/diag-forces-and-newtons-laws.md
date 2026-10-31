@@ -15,22 +15,11 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Forces And Newtons Laws] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Forces and Newton"s Laws, Diagnostic Tests
+## Forces and Newton's Laws, Diagnostic Tests
 
 ## Unit Tests
 
@@ -48,7 +37,7 @@ block and the surface is $\mu = 0.4$. A horizontal force $P$ is applied to the b
 **(b)** When $P = 20$ N, find the magnitude and direction of the frictional force acting on the
 block.
 
-**(c)** A student, upon seeing the value $\mu = 0.4$Immediately writes
+**(c)** A student, upon seeing the value $\mu = 0.4$ Immediately writes
 $F = \mu R = 0.4 \times 78.4 = 31.36$ N for the frictional force, regardless of the applied force
 $P$. Explain why this is incorrect for $P = 20$ N, and calculate the percentage by which the student
 overestimates the friction.
@@ -57,7 +46,7 @@ overestimates the friction.
 value of $P$ for which the block remains in equilibrium, and explain why this maximum is greater
 than the answer in part (a).
 
-[Difficulty: hard. Tests the critical distinction between $F \leq \mu R$ and $F = \mu R$Requiring
+[Difficulty: hard. Tests the critical distinction between $F \leq \mu R$ and $F = \mu R$ Requiring
 the student to recognise when friction is not at its limiting value, and how an angled force changes
 the normal reaction.]
 
@@ -79,7 +68,9 @@ The block remains in equilibrium for $0 \leq P \leq 31.36$ N.
 **(b)** When $P = 20$ N (which is less than $31.36$ N), the block does not move. The frictional
 force adjusts to exactly balance the applied force:
 
-$$F = P = 20 \text{ N}$$
+$$
+F = P = 20 \text{ N}
+$$
 
 The frictional force acts in the direction opposite to $P$ (i.e., opposing the tendency to move).
 
@@ -87,23 +78,33 @@ The frictional force acts in the direction opposite to $P$ (i.e., opposing the t
 assumed the block is on the point of sliding, but $P = 20 \text{ N} \lt 31.36 \text{ N}$ So the block
 is not even close to sliding. The friction adjusts to match the applied force.
 
-$$\text{Percentage overestimate} = \frac{31.36 - 20}{20} \times 100\% = 56.8\%$$
+$$
+\text{Percentage overestimate} = \frac{31.36 - 20}{20} \times 100\% = 56.8\%
+$$
 
 **(d)** Resolving perpendicular to the surface:
 
-$$R + P\sin 30° = mg \implies R = 78.4 - 0.5P$$
+$$
+R + P\sin 30° = mg \implies R = 78.4 - 0.5P
+$$
 
 Resolving horizontally, at limiting equilibrium:
 
-$$P\cos 30° = \mu R = 0.4(78.4 - 0.5P)$$
+$$
+P\cos 30° = \mu R = 0.4(78.4 - 0.5P)
+$$
 
-$$0.866P = 31.36 - 0.2P$$
+$$
+0.866P = 31.36 - 0.2P
+$$
 
-$$1.066P = 31.36 \implies P = \frac{31.36}{1.066} \approx 29.42 \text{ N}$$
+$$
+1.066P = 31.36 \implies P = \frac{31.36}{1.066} \approx 29.42 \text{ N}
+$$
 
 This is **less** than $31.36$ N, not greater. Applying the force at an angle above the horizontal
 reduces the normal reaction ($R = 78.4 - 0.5P \lt 78.4$), which in turn reduces the maximum
-friction. Although the horizontal component of $P$ is only $P\cos 30° \approx 0.866P$The reduction
+friction. Although the horizontal component of $P$ is only $P\cos 30° \approx 0.866P$ The reduction
 in $R$ means the maximum available horizontal force is reduced overall.
 
 ---
@@ -150,7 +151,7 @@ Force trying to pull $A$ up the plane $= 3g = 29.4$ N.
 
 Force opposing this $= 5g\sin 30° + \mu(5g\cos 30°) = 24.5 + 0.3(42.43) = 24.5 + 12.73 = 37.23$ N.
 
-Since $29.4 \lt 37.23$The system does **not** move with $B$ descending and $A$ ascending.
+Since $29.4 \lt 37.23$ The system does **not** move with $B$ descending and $A$ ascending.
 
 Now check if $A$ slides down the plane and $B$ ascends:
 
@@ -166,12 +167,16 @@ Since $11.77 \lt 29.4$, $A$ does not slide down either.
 
 **The system is in equilibrium.** The tension in the string equals the weight of $B$:
 
-$$T = 3g = 29.4 \text{ N}$$
+$$
+T = 3g = 29.4 \text{ N}
+$$
 
 The friction on $A$ balances the remaining forces along the plane. With $B$ hanging and $A$ on the
 plane, resolving along the plane for $A$ (taking up the plane as positive):
 
-$$T - 5g\sin 30° - F = 0 \implies 29.4 - 24.5 = F \implies F = 4.9 \text{ N}$$
+$$
+T - 5g\sin 30° - F = 0 \implies 29.4 - 24.5 = F \implies F = 4.9 \text{ N}
+$$
 
 Check: $F = 4.9 \text{ N} \lt \mu R = 12.73$ N. Confirmed: the block is not at limiting equilibrium.
 
@@ -180,7 +185,9 @@ Check: $F = 4.9 \text{ N} \lt \mu R = 12.73$ N. Confirmed: the block is not at l
 **(c)** The student's equation assumes $A$ moves up the plane. With $T = 3g = 29.4$ (since the
 system is in equilibrium):
 
-$$29.4 - 24.5 - 12.73 = 5a \implies -7.83 = 5a \implies a = -1.566 \text{ m/s}^2$$
+$$
+29.4 - 24.5 - 12.73 = 5a \implies -7.83 = 5a \implies a = -1.566 \text{ m/s}^2
+$$
 
 The negative acceleration means the assumed direction of motion is wrong. The particle $A$ does not
 move up the plane; in fact, the forces are insufficient to overcome friction plus the component of
@@ -225,13 +232,19 @@ the effect of braking on the tension direction in connected systems.]
 
 **(a)** Treating the system as a whole (car + trailer):
 
-$$F_{\text{net}} = 2400 - 200 - 100 = 2100 \text{ N}$$
+$$
+F_{\text{net}} = 2400 - 200 - 100 = 2100 \text{ N}
+$$
 
-$$a = \frac{F_{\text{net}}}{m_{\text{total}}} = \frac{2100}{1600} = 1.3125 \text{ m/s}^2$$
+$$
+a = \frac{F_{\text{net}}}{m_{\text{total}}} = \frac{2100}{1600} = 1.3125 \text{ m/s}^2
+$$
 
 For the trailer alone (tension $T$ pulls it forward, resistance opposes):
 
-$$T - 100 = 400 \times 1.3125 \implies T = 525 + 100 = 625 \text{ N}$$
+$$
+T - 100 = 400 \times 1.3125 \implies T = 525 + 100 = 625 \text{ N}
+$$
 
 Verification using the car:
 $2400 - 200 - T = 1200 \times 1.3125 \implies 2200 - T = 1575 \implies T = 625$ N. Consistent.
@@ -262,13 +275,19 @@ identify two distinct forces on two distinct bodies.
 
 **(d)** Now the braking force acts on the car (opposing motion):
 
-$$F_{\text{net}} = 2400 - 3000 - 200 - 100 = -900 \text{ N}$$
+$$
+F_{\text{net}} = 2400 - 3000 - 200 - 100 = -900 \text{ N}
+$$
 
-$$a = \frac{-900}{1600} = -0.5625 \text{ m/s}^2$$
+$$
+a = \frac{-900}{1600} = -0.5625 \text{ m/s}^2
+$$
 
 The system decelerates. For the trailer:
 
-$$T - 100 = 400(-0.5625) \implies T = -225 + 100 = -125 \text{ N}$$
+$$
+T - 100 = 400(-0.5625) \implies T = -225 + 100 = -125 \text{ N}
+$$
 
 The negative tension means the tow bar is now in **compression** rather than tension. The car is
 decelerating more than the trailer would on its own, so the tow bar pushes the trailer backward (or
@@ -295,7 +314,7 @@ equivalently, the trailer pushes forward on the car through the bar).
 **Question:**
 
 A particle of mass $2$ kg moves along the positive $x$-axis. At time $t$ seconds, the force acting
-on the particle is $F = (3t^2 - 12t + 9)$ N in the direction of motion. When $t = 0$The particle is
+on the particle is $F = (3t^2 - 12t + 9)$ N in the direction of motion. When $t = 0$ The particle is
 at rest at the origin.
 
 **(a)** Find the velocity of the particle at time $t$.
@@ -314,11 +333,15 @@ points, distance calculation, and verification of the work-energy theorem.]
 
 **(a)** By Newton's Second Law: $F = ma$ So $a = \frac{F}{m} = \frac{3t^2 - 12t + 9}{2}$.
 
-$$v = \int a\,dt = \int \frac{3t^2 - 12t + 9}{2}\,dt = \frac{t^3}{2} - 3t^2 + \frac{9t}{2} + C$$
+$$
+v = \int a\,dt = \int \frac{3t^2 - 12t + 9}{2}\,dt = \frac{t^3}{2} - 3t^2 + \frac{9t}{2} + C
+$$
 
 Since $v(0) = 0$: $C = 0$.
 
-$$v = \frac{t^3}{2} - 3t^2 + \frac{9t}{2} = \frac{t}{2}(t^2 - 6t + 9) = \frac{t}{2}(t - 3)^2$$
+$$
+v = \frac{t^3}{2} - 3t^2 + \frac{9t}{2} = \frac{t}{2}(t^2 - 6t + 9) = \frac{t}{2}(t - 3)^2
+$$
 
 **(b)** $v = 0 \implies \frac{t}{2}(t-3)^2 = 0 \implies t = 0$ or $t = 3$.
 
@@ -329,27 +352,39 @@ never reverses direction.
 **(c)** Since the particle never reverses direction, the total distance equals the magnitude of the
 displacement.
 
-$$s = \int_0^4 v\,dt = \int_0^4 \left(\frac{t^3}{2} - 3t^2 + \frac{9t}{2}\right)dt = \left[\frac{t^4}{8} - t^3 + \frac{9t^2}{4}\right]_0^4$$
+$$
+s = \int_0^4 v\,dt = \int_0^4 \left(\frac{t^3}{2} - 3t^2 + \frac{9t}{2}\right)dt = \left[\frac{t^4}{8} - t^3 + \frac{9t^2}{4}\right]_0^4
+$$
 
-$$= \frac{256}{8} - 64 + \frac{144}{4} = 32 - 64 + 36 = 4 \text{ m}$$
+$$
+= \frac{256}{8} - 64 + \frac{144}{4} = 32 - 64 + 36 = 4 \text{ m}
+$$
 
 Total distance $= 4$ m.
 
 **(d)** Work done by the force:
 
-$$W = \int_0^4 F\,ds = \int_0^4 F \cdot v\,dt = \int_0^4 (3t^2 - 12t + 9)\left(\frac{t^3}{2} - 3t^2 + \frac{9t}{2}\right)dt$$
+$$
+W = \int_0^4 F\,ds = \int_0^4 F \cdot v\,dt = \int_0^4 (3t^2 - 12t + 9)\left(\frac{t^3}{2} - 3t^2 + \frac{9t}{2}\right)dt
+$$
 
-$$= \int_0^4 \frac{(3t^2 - 12t + 9)(t^3 - 6t^2 + 9t)}{2}\,dt$$
+$$
+= \int_0^4 \frac{(3t^2 - 12t + 9)(t^3 - 6t^2 + 9t)}{2}\,dt
+$$
 
 Note that $3t^2 - 12t + 9 = 3(t-1)(t-3)$ and $t^3 - 6t^2 + 9t = t(t-3)^2$.
 
-$$W = \frac{1}{2}\int_0^4 3(t-1)(t-3) \cdot t(t-3)^2\,dt = \frac{3}{2}\int_0^4 t(t-1)(t-3)^3\,dt$$
+$$
+W = \frac{1}{2}\int_0^4 3(t-1)(t-3) \cdot t(t-3)^2\,dt = \frac{3}{2}\int_0^4 t(t-1)(t-3)^3\,dt
+$$
 
 Alternatively, use the work-energy theorem directly: $W = \Delta\mathrm{KE}$.
 
 $v(0) = 0$ and $v(4) = \frac{4}{2}(1)^2 = 2$ m/s.
 
-$$\Delta\mathrm{KE} = \frac{1}{2}(2)(2^2) - 0 = 4 \text{ J}$$
+$$
+\Delta\mathrm{KE} = \frac{1}{2}(2)(2^2) - 0 = 4 \text{ J}
+$$
 
 Therefore $W = 4$ J, consistent with the work-energy theorem.
 
@@ -369,9 +404,9 @@ Therefore $W = 4$ J, consistent with the work-energy theorem.
 **Question:**
 
 A uniform beam $AB$ of length $4$ m and weight $120$ N is hinged at $A$ to a vertical wall. The beam
-is held in a horizontal position by a light inextensible string $BC$Where $C$ is a point on the wall
+is held in a horizontal position by a light inextensible string $BC$ Where $C$ is a point on the wall
 vertically above $A$ with $AC = 3$ m. A particle of weight $80$ N is suspended from the beam at a
-point $D$Where $AD = 3$ m.
+point $D$ Where $AD = 3$ m.
 
 **(a)** Find the tension in the string $BC$ and the magnitude and direction of the reaction at the
 hinge $A$.
@@ -405,20 +440,30 @@ Alternatively, resolve the tension into components at $B$:
 
 Taking moments about $A$ (clockwise positive):
 
-$$\frac{3T}{5} \times 4 - 120 \times 2 - 80 \times 3 = 0$$
+$$
+\frac{3T}{5} \times 4 - 120 \times 2 - 80 \times 3 = 0
+$$
 
-$$\frac{12T}{5} = 240 + 240 = 480$$
+$$
+\frac{12T}{5} = 240 + 240 = 480
+$$
 
-$$T = \frac{480 \times 5}{12} = 200 \text{ N}$$
+$$
+T = \frac{480 \times 5}{12} = 200 \text{ N}
+$$
 
 Resolving horizontally at $A$ (the hinge reaction has components $H_A$ horizontal and $V_A$
 vertical):
 
-$$H_A = T\cos\theta = 200 \times \frac{4}{5} = 160 \text{ N (to the right)}$$
+$$
+H_A = T\cos\theta = 200 \times \frac{4}{5} = 160 \text{ N (to the right)}
+$$
 
 Resolving vertically:
 
-$$V_A + T\sin\theta = 120 + 80 \implies V_A + 120 = 200 \implies V_A = 80 \text{ N (upward)}$$
+$$
+V_A + T\sin\theta = 120 + 80 \implies V_A + 120 = 200 \implies V_A = 80 \text{ N (upward)}
+$$
 
 Magnitude of hinge reaction:
 $\sqrt{160^2 + 80^2} = \sqrt{25600 + 6400} = \sqrt{32000} = 80\sqrt{5} \approx 178.9$ N.
@@ -477,19 +522,29 @@ requiring the student to work entirely in vector form.]
 
 **(a)** For equilibrium, the resultant force must be zero:
 
-$$\mathbf{F}_1 + \mathbf{F}_2 + \mathbf{F}_3 = \mathbf{0}$$
+$$
+\mathbf{F}_1 + \mathbf{F}_2 + \mathbf{F}_3 = \mathbf{0}
+$$
 
-$$\begin{pmatrix} 3 \\ -1 \end{pmatrix} + \begin{pmatrix} -2 \\ 4 \end{pmatrix} + \begin{pmatrix} a \\ b \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 \\ -1 \end{pmatrix} + \begin{pmatrix} -2 \\ 4 \end{pmatrix} + \begin{pmatrix} a \\ b \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}
+$$
 
-$$\begin{pmatrix} 1 + a \\ 3 + b \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 + a \\ 3 + b \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}
+$$
 
-$$a = -1, \quad b = -3$$
+$$
+a = -1, \quad b = -3
+$$
 
 So $\mathbf{F}_3 = \begin{pmatrix} -1 \\ -3 \end{pmatrix}$ N.
 
 **(b)** With $\mathbf{F}_4$ added:
 
-$$\mathbf{F}_{\text{resultant}} = \mathbf{F}_1 + \mathbf{F}_2 + \mathbf{F}_3 + \mathbf{F}_4 = \mathbf{0} + \mathbf{F}_4 = \begin{pmatrix} 5 \\ 2 \end{pmatrix} \text{ N}$$
+$$
+\mathbf{F}_{\text{resultant}} = \mathbf{F}_1 + \mathbf{F}_2 + \mathbf{F}_3 + \mathbf{F}_4 = \mathbf{0} + \mathbf{F}_4 = \begin{pmatrix} 5 \\ 2 \end{pmatrix} \text{ N}
+$$
 
 (Since $\mathbf{F}_1 + \mathbf{F}_2 + \mathbf{F}_3 = \mathbf{0}$ from part (a).)
 
@@ -503,7 +558,9 @@ m/s$^2$.
 
 The velocity after $4$ seconds (starting from rest):
 
-$$\mathbf{v} = \mathbf{u} + \mathbf{a}t = \begin{pmatrix} 0 \\ 0 \end{pmatrix} + \begin{pmatrix} 5/3 \\ 2/3 \end{pmatrix} \times 4 = \begin{pmatrix} 20/3 \\ 8/3 \end{pmatrix} \text{ m/s}$$
+$$
+\mathbf{v} = \mathbf{u} + \mathbf{a}t = \begin{pmatrix} 0 \\ 0 \end{pmatrix} + \begin{pmatrix} 5/3 \\ 2/3 \end{pmatrix} \times 4 = \begin{pmatrix} 20/3 \\ 8/3 \end{pmatrix} \text{ m/s}
+$$
 
 Speed
 $= \sqrt{(20/3)^2 + (8/3)^2} = \sqrt{\frac{400 + 64}{9}} = \sqrt{\frac{464}{9}} = \frac{2\sqrt{116}}{3} \approx 7.18$

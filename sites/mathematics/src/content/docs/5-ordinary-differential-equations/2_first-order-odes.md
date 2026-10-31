@@ -21,28 +21,36 @@ description: "First-Order ODEs: comprehensive educational content notes with pre
 
 A first-order ODE $\frac{dy}{dx} = f(x, y)$ is **separable** if $f(x, y) = g(x)h(y)$.
 
-$$\frac{dy}{dx} = g(x)h(y) \implies \frac{dy}{h(y)} = g(x)\, dx$$
+$$
+\frac{dy}{dx} = g(x)h(y) \implies \frac{dy}{h(y)} = g(x)\, dx
+$$
 
 Integrating both sides: $\int \frac{dy}{h(y)} = \int g(x)\, dx + C$.
 
 **Example.** Solve $\frac{dy}{dx} = xy$.
 
 Separating: $\frac{dy}{y} = x\, dx$. Integrating: $\ln|y| = \frac{x^2}{2} + C$. Thus
-$y = Ce^{x^2/2}$ where $C \neq 0$Plus the trivial solution $y = 0$.
+$y = Ce^{x^2/2}$ where $C \neq 0$ Plus the trivial solution $y = 0$.
 
 ### 2.2 Linear First-Order Equations
 
 A **linear first-order ODE** has the form
 
-$$\frac{dy}{dx} + P(x)y = Q(x)$$
+$$
+\frac{dy}{dx} + P(x)y = Q(x)
+$$
 
 **Theorem 2.1 (Integrating Factor).** The solution is
 
-$$y(x) = e^{-\int P(x)\, dx}\left(\int Q(x) e^{\int P(x)\, dx}\, dx + C\right)$$
+$$
+y(x) = e^{-\int P(x)\, dx}\left(\int Q(x) e^{\int P(x)\, dx}\, dx + C\right)
+$$
 
 _Proof._ Multiply both sides by $\mu(x) = e^{\int P(x)\, dx}$:
 
-$$\frac{d}{dx}(\mu y) = \mu \frac{dy}{dx} + \mu P y = \mu \frac{dy}{dx} + \mu" y = \mu\left(\frac{dy}{dx} + Py\right) = \mu Q$$
+$$
+\frac{d}{dx}(\mu y) = \mu \frac{dy}{dx} + \mu P y = \mu \frac{dy}{dx} + \mu" y = \mu\left(\frac{dy}{dx} + Py\right) = \mu Q
+$$
 
 Integrating: $\mu y = \int \mu Q\, dx + C$. Solving for $y$ gives the result. $\blacksquare$
 
@@ -69,7 +77,7 @@ $\frac{\partial \Psi}{\partial y} = N$ And the solution is $\Psi(x, y) = C$.
 $M\, dx + N\, dy = 0$ is exact if and only if $M_y = N_x$.
 
 _Proof._ If exact, $M = \Psi_x$ and $N = \Psi_y$ So $M_y = \Psi_{xy} = \Psi_{yx} = N_x$ by Clairaut.
-Conversely, if $M_y = N_x$Define
+Conversely, if $M_y = N_x$ Define
 $\Psi(x, y) = \int_{x_0}^x M(t, y)\, dt + \int_{y_0}^y N(x_0, s)\, ds$. Then $\Psi_x = M(x, y)$ and
 $\Psi_y = \int_{x_0}^x M_y(t, y)\, dt + N(x_0, y) = \int_{x_0}^x N_x(t, y)\, dt + N(x_0, y) = N(x, y) - N(x_0, y) + N(x_0, y) = N(x, y)$.
 $\blacksquare$
@@ -88,7 +96,7 @@ Solution: $x^2 y + 3x - y = C$. $\blacksquare$
 
 ### 2.6 Integrating Factors for Non-Exact Equations
 
-If $M_y \neq N_x$One can sometimes find an **integrating factor** $\mu(x, y)$ such that
+If $M_y \neq N_x$ One can sometimes find an **integrating factor** $\mu(x, y)$ such that
 $(\mu M)_y = (\mu N)_x$.
 
 **Case 1:** If $\frac{M_y - N_x}{N}$ depends only on $x$ Then
@@ -101,16 +109,20 @@ $\mu(y) = e^{\int \frac{N_x - M_y}{M}\, dy}$.
 
 A **Bernoulli equation** has the form
 
-$$\frac{dy}{dx} + P(x)y = Q(x)y^n$$
+$$
+\frac{dy}{dx} + P(x)y = Q(x)y^n
+$$
 
 Where $n \neq 0, 1$. The substitution $v = y^{1-n}$ transforms it into a linear equation:
 
-$$\frac{dv}{dx} + (1 - n)P(x)v = (1 - n)Q(x)$$
+$$
+\frac{dv}{dx} + (1 - n)P(x)v = (1 - n)Q(x)
+$$
 
 **Example.** Solve $y' + y = y^2 e^x$.
 
 Here $n = 2$ So set $v = y^{-1}$. Then $v' = -y^{-2}y'$ And the equation becomes $v' - v = -e^x$.
-Integrating factor: $e^{-x}$. So $(v e^{-x})' = -1$Giving $ve^{-x} = -x + C$, $v = -xe^x + Ce^x$ And
+Integrating factor: $e^{-x}$. So $(v e^{-x})' = -1$ Giving $ve^{-x} = -x + C$, $v = -xe^x + Ce^x$ And
 $y = 1/(C - x)e^x$.
 
 ### 2.8 Existence and Uniqueness
@@ -129,10 +141,12 @@ Several substitutions reduce specific equations to separable or linear form:
 ### 2.10 Homogeneous Equations
 
 An ODE of the form $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$ is called **homogeneous** (not to be
-Confused with the linearity sense). The substitution $v = y/x$I.e., $y = vx$Gives $y' = v + xv'$ So
+Confused with the linearity sense). The substitution $v = y/x$ I.e., $y = vx$ Gives $y' = v + xv'$ So
 the equation becomes:
 
-$$v + x\frac{dv}{dx} = F(v) \implies x\frac{dv}{dx} = F(v) - v$$
+$$
+v + x\frac{dv}{dx} = F(v) \implies x\frac{dv}{dx} = F(v) - v
+$$
 
 This is separable: $\frac{dv}{F(v) - v} = \frac{dx}{x}$.
 
@@ -148,7 +162,7 @@ $F(v) = \frac{1 + v^2}{v}$.
 
 Set $y = vx$: $v + xv' = \frac{1 + v^2}{v} = v + \frac{1}{v}$.
 
-So $xv' = \frac{1}{v}$Giving $v\, dv = \frac{dx}{x}$.
+So $xv' = \frac{1}{v}$ Giving $v\, dv = \frac{dx}{x}$.
 
 Integrating: $\frac{v^2}{2} = \ln|x| + C$. Since $v = y/x$:
 
@@ -160,12 +174,16 @@ $\frac{y^2}{2x^2} = \ln|x| + C \implies y^2 = 2x^2(\ln|x| + C)$. $\blacksquare$
 
 A **Riccati equation** has the form
 
-$$\frac{dy}{dx} = q_0(x) + q_1(x)y + q_2(x)y^2$$
+$$
+\frac{dy}{dx} = q_0(x) + q_1(x)y + q_2(x)y^2
+$$
 
 If a particular solution $y_1(x)$ is known, the substitution $y = y_1 + \frac{1}{v}$ reduces the
 Riccati equation to a linear first-order equation in $v$:
 
-$$\frac{dv}{dx} = -(q_1 + 2q_2 y_1)v - q_2$$
+$$
+\frac{dv}{dx} = -(q_1 + 2q_2 y_1)v - q_2
+$$
 
 **Example.** Solve $y' = 1 + x^2 - 2xy + y^2$ given that $y_1 = x$ is a particular solution.
 
@@ -242,7 +260,7 @@ At $t = 30$: $Q(30) = 20e^{-0.9} \approx 20 \cdot 0.4066 \approx 8.13$ kg. $\bla
 
 _Solution._ $M = 3xy + 2y^2$, $N = x^2 + 2xy$.
 
-$M_y = 3x + 4y$, $N_x = 2x + 2y$. Since $M_y \neq N_x$Not exact.
+$M_y = 3x + 4y$, $N_x = 2x + 2y$. Since $M_y \neq N_x$ Not exact.
 
 Check Case 1:
 $\frac{M_y - N_x}{N} = \frac{x + 2y}{x^2 + 2xy} = \frac{x + 2y}{x(x + 2y)} = \frac{1}{x}$.
@@ -265,8 +283,8 @@ Solution: $x^3y + x^2y^2 = C$. $\blacksquare$
 
 ### 2.16 Orthogonal Trajectories
 
-Given a one-parameter family of curves $F(x, y, C) = 0$The **orthogonal trajectories** are curves
-That intersect every member of the family at right angles. To find them:
+Given a one-parameter family of curves $F(x, y, C) = 0$ The **orthogonal trajectories** are curves
+that intersect every member of the family at right angles. To find them:
 
 1. Find the differential equation $\frac{dy}{dx} = f(x, y)$ of the given family.
 2. Replace $\frac{dy}{dx}$ with $-\frac{dx}{dy}$ (equivalently, negate the slope).
@@ -278,7 +296,7 @@ $\frac{dy}{dx} = 2Cx = \frac{2y}{x}$.
 
 Orthogonal trajectories satisfy $\frac{dy}{dx} = -\frac{x}{2y}$.
 
-Separating: $2y\, dy = -x\, dx$. Integrating: $y^2 = -\frac{x^2}{2} + C$Or
+Separating: $2y\, dy = -x\, dx$. Integrating: $y^2 = -\frac{x^2}{2} + C$ Or
 $\frac{x^2}{2} + y^2 = C$. These are ellipses.
 
 ### 2.17 Common Pitfalls for First-Order ODEs
@@ -327,11 +345,15 @@ if concentrated fluid enters, the concentration increases toward the input conce
 This is a Bernoulli equation with $n = 2$, $P(x) = 1/x$, $Q(x) = x^3$. Set $v = y^{1-2} = y^{-1}$.
 Then $v' = -y^{-2}y'$, and the equation becomes
 
-$$v' - \frac{v}{x} = -x^3$$
+$$
+v' - \frac{v}{x} = -x^3
+$$
 
 This is linear in $v$. The integrating factor is $\mu(x) = e^{\int -1/x\,dx} = e^{-\ln x} = 1/x$.
 
-$$\frac{d}{dx}\left(\frac{v}{x}\right) = -x^2$$
+$$
+\frac{d}{dx}\left(\frac{v}{x}\right) = -x^2
+$$
 
 Integrating: $\frac{v}{x} = -\frac{x^3}{3} + C$, so $v = -\frac{x^4}{3} + Cx$.
 
@@ -364,21 +386,11 @@ $K$. The inflection point occurs at $P = K/2$, where the growth rate is maximal.
 
 </details>
 
-```mermaid
-flowchart TD
-    A[2_First Order Odes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)**: First-order ODEs are classified as separable, linear, exact, or Bernoulli as part of the broader ODE taxonomy.
 - **[Second-Order Linear ODEs](/5-ordinary-differential-equations/3_second-order-linear-odes/)**: Reduction of order converts certain second-order equations to first-order, linking these two chapters.
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: The Laplace transform provides an alternative algebraic method for solving linear first-order ODEs with initial conditions.
 - **[Stability and Phase Plane Analysis](/5-ordinary-differential-equations/9_stability-and-phase-plane-analysis/)**: Equilibria and their stability for first-order autonomous ODEs form the foundation for phase plane analysis.
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

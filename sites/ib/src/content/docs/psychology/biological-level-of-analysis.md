@@ -47,7 +47,7 @@ to any IB Psychology question benefits from acknowledging this multilevel comple
 ## Key Concepts
 
 - **Localisation of brain function** -- the idea that specific regions of the brain are responsible
-  for specific functions (e.g., the amygdala for fear processing, Broca"s area for speech
+  for specific functions (e.g., the amygdala for fear processing, Broca's area for speech
   production). Evidence comes from lesion studies and brain imaging.
 - **Neurotransmission** -- the process by which chemical signals are transmitted across synapses.
   Neurotransmitters (e.g., serotonin, dopamine, acetylcholine) influence mood, motivation, and
@@ -158,6 +158,8 @@ Research methods in the BLOA reflect its focus on physiological measurement:
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Researcher (Year)      | Focus                         | Key Finding                                                                                                                                                                            |
 | ---------------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Maguire et al. (2000)  | Neuroplasticity               | London taxi drivers had significantly larger posterior hippocampi than matched controls, demonstrating experience-dependent structural brain changes.                                  |
@@ -166,16 +168,7 @@ Research methods in the BLOA reflect its focus on physiological measurement:
 | LeDoux (1996)          | Emotion and brain function    | Identified two neural pathways for fear processing: a fast subcortical route through the amygdala and a slower cortical route, explaining rapid emotional responses.                   |
 | Harlow (1958)          | Attachment (biological basis) | Rhesus monkeys preferred a cloth-covered wire surrogate (contact comfort) over a wire surrogate that provided food, demonstrating that attachment is not solely driven by nourishment. |
 
-
-```mermaid
-flowchart TD
-    A[Biological Level Of Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Summary
 

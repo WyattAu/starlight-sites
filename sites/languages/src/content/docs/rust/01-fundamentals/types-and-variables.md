@@ -23,6 +23,8 @@ Rust's type system is its core safety mechanism. Every value has a definite type
 Rust provides signed and unsigned integers at every power-of-two width from 8 to 128 bits, plus
 Platform-dependent `isize` and `usize`:
 
+<div class="table-wrap">
+
 | Type              | Size (bytes) | Range (signed)                                                                                              | Range (unsigned)                                         |
 | ----------------- | ------------ | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | `i8` / `u8`       | 1            | -128 to 127                                                                                                 | 0 to 255                                                 |
@@ -32,8 +34,10 @@ Platform-dependent `isize` and `usize`:
 | `i128` / `u128`   | 16           | -170,141,183,460,469,231,731,687,303,715,884,105,728 to 170,141,183,460,469,231,731,687,303,715,884,105,727 | 0 to 340,282,366,920,938,463,463,374,607,431,768,211,455 |
 | `isize` / `usize` | 4 or 8       | Pointer-sized                                                                                               | Pointer-sized                                            |
 
+</div>
+
 The default integer type is `i32`. This is not an arbitrary choice, on x86-64, `i32` operations are
-As fast as any smaller integer width, and using `i32` avoids the implicit sign-extension or
+as fast as any smaller integer width, and using `i32` avoids the implicit sign-extension or
 Zero-extension overhead that `i8`/`u8` incur in many contexts.
 
 ### Integer Literals
@@ -47,7 +51,7 @@ let byte = b"A";        // u8 only
 ```
 
 The underscore separator is valid anywhere within a numeric literal for readability. It is ignored
-By the compiler.
+by the compiler.
 
 ### Integer Overflow
 
@@ -81,17 +85,21 @@ assert_eq!(std::mem::size_of::<bool>(), 1);
 ```
 
 Alignment determines the memory address at which a value must be stored. A `u64` with alignment 8
-Must be placed at an address divisible by 8. Misaligned access on x86-64 works but may be slower; on
+must be placed at an address divisible by 8. Misaligned access on x86-64 works but may be slower; on
 ARM without unaligned access support, it traps.
 
 ## Floating-Point Types
 
 Rust has two floating-point types conforming to IEEE 754-2008:
 
+<div class="table-wrap">
+
 | Type  | Size    | Precision             | Range (approximate) |
 | ----- | ------- | --------------------- | ------------------- |
 | `f32` | 4 bytes | ~6-7 decimal digits   | plus/minus 3.4e38   |
 | `f64` | 8 bytes | ~15-16 decimal digits | plus/minus 1.8e308  |
+
+</div>
 
 The default is `f64`. On modern x86-64 hardware, `f64` operations are as fast as `f32`there is no
 Performance penalty for using the larger type. Use `f32` only when you need to reduce memory
@@ -119,7 +127,7 @@ assert!(!nan.is_nan());        // false, use is_nan() for the check
 
 :::caution
 Impossible (NaN breaks reflexivity and transitivity). Use `f64::total_cmp()` (stable since 1.62) if
-You need a total ordering for sorting.
+you need a total ordering for sorting.
 
 ```rust
 let values = [f64::NAN, 1.0, 2.0, f64::INFINITY];
@@ -139,8 +147,8 @@ let x: bool = true;
 assert_eq!(std::mem::size_of::<bool>(), 1);
 ```
 
-`bool` implements `Copy``Clone``Debug``Display`And the bitwise operators (`!``&``|` `^`) via the
-`BitAnd``BitOr``BitXor``Not` traits.
+`bool` implements `Copy`, `Clone`, `Debug`, `Display` and the bitwise operators (`!`, `&`, `|` `^`) via the
+`BitAnd`, `BitOr`, `BitXor`, `Not` traits.
 
 ## Character Type
 
@@ -281,7 +289,7 @@ assert_eq!(first(&arr), Some(&10));
 ```
 
 This is a significant improvement over the pre-const-generics era where you had to work with slices
-And lose the compile-time size information.
+and lose the compile-time size information.
 
 ## Vectors
 
@@ -349,13 +357,17 @@ Removes elements that do not satisfy the predicate in-place.
 This is one of the most common sources of confusion for new Rust programmers. Rust has two string
 Types:
 
+<div class="table-wrap">
+
 | Type     | Ownership | Location                       | Size                                 | Growable |
 | -------- | --------- | ------------------------------ | ------------------------------------ | -------- |
 | `String` | Owned     | Heap                           | 24 bytes (ptr + len + cap on 64-bit) | Yes      |
 | `&str`   | Borrowed  | Anywhere (stack, heap, static) | 16 bytes (ptr + len)                 | No       |
 
+</div>
+
 `String` is a `Vec<u8>` guaranteed to hold valid UTF-8. `&str` is a slice of UTF-8 bytes. Every
-`String` can be dereferenced to `&str`But not vice versa.
+`String` can be dereferenced to `&str`. But not vice versa.
 
 ```rust
 let s: String = String::from("hello");
@@ -384,7 +396,7 @@ assert_eq!(s.chars().count(), 5);  // 5 characters
 ```
 
 Indexing into a string with `s[0]` is not valid because the index is byte-based, and a byte index
-May fall in the middle of a multi-byte character:
+may fall in the middle of a multi-byte character:
 
 ```rust
 let s = "こんにちは";
@@ -524,7 +536,7 @@ y = 6;     // OK
 
 Variable mutability (`let mut`) controls whether you can reassign the binding. Interior mutability
 (Cell, RefCell, Mutex) controls whether you can modify the value through a shared reference. These
-Are orthogonal concepts.
+are orthogonal concepts.
 
 ```rust
 let x = Cell::new(5);  // x is immutable
@@ -580,7 +592,7 @@ static GREETING: &str = "hello";
 - Has a single memory address for the entire program
 - Lives for `'static` lifetime
 - Must be `Sync` (accessible from multiple threads)
-- Can be mutated with interior mutability (`AtomicUsize``Mutex``OnceLock`)
+- Can be mutated with interior mutability (`AtomicUsize`, `Mutex`, `OnceLock`)
 
 ```rust
 use std::sync::atomic::{AtomicUsize, Ordering};
@@ -593,7 +605,7 @@ fn increment() {
 ```
 
 :::caution
-Requires `unsafe` blocks to access. Prefer `static` with `Mutex``AtomicUsize`Or `OnceLock` Instead.
+Requires `unsafe` blocks to access. Prefer `static` with `Mutex`, `AtomicUsize` or `OnceLock` Instead.
 :::
 
 ## Type Aliases
@@ -763,7 +775,7 @@ let y: Result<u8, _> = 256u32.try_into(); // Err(TryFromIntError)
 
 ## Raw Pointers
 
-Raw pointers (`*const T``*mut T`) exist but are restricted to `unsafe` blocks:
+Raw pointers (`*const T`, `*mut T`) exist but are restricted to `unsafe` blocks:
 
 ```rust
 let x = 42;
@@ -785,10 +797,10 @@ Necessary for FFI and for implementing safe abstractions over unsafe memory oper
 All primitive types are in the prelude and are always in scope. You do not need to import them. The
 Following is an approximate list of commonly used prelude items (see the
 [standard library prelude](https://doc.rust-lang.org/std/prelude/index.html) for the authoritative
-List): `Option``Result``Vec``String``Box``Drop``Clone``Copy``Deref``DerefMut`
-`AsRef``AsMut``From``Into``IntoIterator``Fn``FnMut``FnOnce``Send``Sync``Unpin`
-`Sized``Debug``Display``Iterator``Extend``PartialEq``PartialOrd``Eq``Ord``Hash`
-`Default``ToString``println``eprintln``format``vec``drop`.
+List): `Option`, `Result`, `Vec`, `String`, `Box`, `Drop`, `Clone`, `Copy`, `Deref`, `DerefMut`
+`AsRef`, `AsMut`, `From`, `Into`, `IntoIterator`, `Fn`, `FnMut`, `FnOnce`, `Send`, `Sync`, `Unpin`
+`Sized`, `Debug`, `Display`, `Iterator`, `Extend`, `PartialEq`, `PartialOrd`, `Eq`, `Ord`, `Hash`
+`Default`, `ToString`, `println`, `eprintln`, `format`, `vec`, `drop`.
 
 ## Common Pitfalls
 
@@ -801,7 +813,7 @@ List): `Option``Result``Vec``String``Box``Drop``Clone``Copy``Deref``DerefMut`
    literals without allocation.
 
 3. **Integer overflow in release mode.** The compiler does not check for overflow in release builds.
-   Use `wrapping_*``saturating_*``checked_*`Or `overflowing_*` methods explicitly when overflow is
+   Use `wrapping_*`, `saturating_*`, `checked_*` or `overflowing_*` methods explicitly when overflow is
    possible and wrapping is not desired.
 
 4. **Floating-point equality.** Never use `==` to compare floats for equality. Use an epsilon
@@ -831,16 +843,6 @@ List): `Option``Result``Vec``String``Box``Drop``Clone``Copy``Deref``DerefMut`
     slower. Use `#[repr(C)]` or `#[repr(align(N))]` when interfacing with C or when alignment
     matters.
 
-```mermaid
-flowchart TD
-    A[Types And Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of types and variables, including underlying theory, practical
@@ -854,13 +856,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

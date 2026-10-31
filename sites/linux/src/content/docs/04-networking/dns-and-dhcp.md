@@ -831,17 +831,6 @@ dig @10.0.0.1 db.internal
 # external resolver is being queried instead
 ```
 
-
-```mermaid
-flowchart TD
-    A[Dns And Dhcp] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dns and dhcp on linux, including underlying theory, practical
@@ -854,9 +843,6 @@ implementation, and key applications.
 - protocols (HTTP, FTP, SMTP)
 - encryption and security
 - client-server and peer-to-peer
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

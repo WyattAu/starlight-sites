@@ -34,10 +34,12 @@ the rate of the reverse reaction. At equilibrium:
 Dynamic equilibrium is only established in a **closed system** -- one in which no matter can enter
 or leave.
 
-## Le Chatelier"s Principle
+## Le Chatelier's Principle
 
 If a system at equilibrium is subjected to a change in conditions, the equilibrium position shifts
 to **counteract** the imposed change.
+
+<div class="table-wrap">
 
 | Change                                       | Effect on equilibrium position  | Effect on $K$ |
 | -------------------------------------------- | ------------------------------- | ------------- |
@@ -46,7 +48,9 @@ to **counteract** the imposed change.
 | Increase temperature (endothermic forward)   | Shifts in endothermic direction | Changes       |
 | Add catalyst                                 | No shift (speeds both equally)  | No change     |
 
-**Critical distinction:** Le Chatelier"s principle predicts the direction of the equilibrium shift
+</div>
+
+**Critical distinction:** Le Chatelier's principle predicts the direction of the equilibrium shift
 but does **not** change the value of the equilibrium constant (except for temperature changes).
 
 ## Equilibrium Constant $K_c$
@@ -75,12 +79,16 @@ $$
 
 If $(c+d) = (a+b)$, $K_c$ is dimensionless.
 
+<div class="table-wrap">
+
 | Reaction                                                                       | Units of $K_c$            |
 | ------------------------------------------------------------------------------ | ------------------------- |
 | $\mathrm{A} \rightleftharpoons \mathrm{B}$ (1:1)                               | No units                  |
 | $\mathrm{A} \rightleftharpoons 2\mathrm{B}$ (1:2)                              | $\mathrm{mol/dm}^3$       |
 | $\mathrm{A} + \mathrm{B} \rightleftharpoons \mathrm{C} + \mathrm{D}$ (1:1:1:1) | No units                  |
 | $\mathrm{N}_2 + 3\mathrm{H}_2 \rightleftharpoons 2\mathrm{NH}_3$               | $\mathrm{mol^{-2}\,dm^6}$ |
+
+</div>
 
 ### Worked Example: $K_c$ Calculation
 
@@ -92,11 +100,15 @@ $$
 \mathrm{H}_2(g) + \mathrm{I}_2(g) \rightleftharpoons 2\mathrm{HI}(g)
 $$
 
+<div class="table-wrap">
+
 | Species        | Initial (mol) | Change (mol) | Equilibrium (mol) | Equilibrium ($\mathrm{mol/dm}^3$) |
 | -------------- | ------------- | ------------ | ----------------- | --------------------------------- |
 | $\mathrm{H}_2$ | 1.00          | $-0.39$      | 0.61              | 0.61                              |
 | $\mathrm{I}_2$ | 1.00          | $-0.39$      | 0.61              | 0.61                              |
 | $\mathrm{HI}$  | 0             | $+0.78$      | 0.78              | 0.78                              |
+
+</div>
 
 $$
 K_c = \frac{[\mathrm{HI}]^2}{[\mathrm{H}_2][\mathrm{I}_2]} = \frac{(0.78)^2}{(0.61)(0.61)} = \frac{0.6084}{0.3721} = 1.64
@@ -131,7 +143,7 @@ The units depend on the stoichiometry. If $\Delta n_g = (c+d) - (a+b)$ is the ch
 of moles of gas:
 
 - $\Delta n_g = 0$: $K_p$ is dimensionless.
-- $\Delta n_g = 1$: units of pressure ($\mathrm{atm}$, $\mathrm{kPa}$Etc.).
+- $\Delta n_g = 1$: units of pressure ($\mathrm{atm}$, $\mathrm{kPa}$ Etc.).
 - $\Delta n_g = -2$: units of $\mathrm{pressure}^{-2}$.
 
 **Note:** The numerical value of $K_p$ depends on the units of pressure used. Always state the
@@ -147,11 +159,15 @@ $$
 2\mathrm{SO}_2(g) + \mathrm{O}_2(g) \rightleftharpoons 2\mathrm{SO}_3(g)
 $$
 
+<div class="table-wrap">
+
 | Species         | Initial (mol) | Change (mol) | Equilibrium (mol) |
 | --------------- | ------------- | ------------ | ----------------- |
 | $\mathrm{SO}_2$ | 2.00          | $-1.20$      | 0.80              |
 | $\mathrm{O}_2$  | 1.00          | $-0.60$      | 0.40              |
 | $\mathrm{SO}_3$ | 0             | $+1.20$      | 1.20              |
+
+</div>
 
 $n_\mathrm{total} = 0.80 + 0.40 + 1.20 = 2.40\,\mathrm{mol}$
 
@@ -276,12 +292,16 @@ $$
 \mathrm{N}_2(g) + 3\mathrm{H}_2(g) \rightleftharpoons 2\mathrm{NH}_3(g) \quad \Delta H = -92\,\mathrm{kJ/mol}
 $$
 
+<div class="table-wrap">
+
 | Condition                            | Effect on equilibrium            | Effect on rate             | Compromise               |
 | ------------------------------------ | -------------------------------- | -------------------------- | ------------------------ |
 | High pressure (200 atm)              | Favours products (fewer moles)   | Increases rate             | Expensive equipment      |
-| Moderate temperature (450 $^\circ$C) | Low temperature favours products | Low temperature slows rate | 450 $^\circ$C is optimal |
+| Moderate temperature (450 $^\circ$ C) | Low temperature favours products | Low temperature slows rate | 450 $^\circ$ C is optimal |
 | Iron catalyst                        | No effect on position            | Increases rate             | Cheap, effective         |
 | Removal of $\mathrm{NH}_3$           | Shifts equilibrium right         | --                         | Continuous removal       |
+
+</div>
 
 ### The Contact Process
 
@@ -289,7 +309,7 @@ $$
 2\mathrm{SO}_2(g) + \mathrm{O}_2(g) \rightleftharpoons 2\mathrm{SO}_3(g) \quad \Delta H = -197\,\mathrm{kJ/mol}
 $$
 
-- Temperature: 400--450 $^\circ$C (compromise between equilibrium and rate).
+- Temperature: 400--450 $^\circ$ C (compromise between equilibrium and rate).
 - Pressure: 1--2 atm (since $K$ is already large at this temperature, high pressure is not
   essential).
 - Catalyst: $\mathrm{V}_2\mathrm{O}_5$.
@@ -312,12 +332,16 @@ considerations.
 
 ### Common Solubility Products
 
+<div class="table-wrap">
+
 | Salt                | $K_{sp}$              | Expression                               |
 | ------------------- | --------------------- | ---------------------------------------- |
 | $\mathrm{AgCl}$     | $1.8 \times 10^{-10}$ | $[\mathrm{Ag}^+][\mathrm{Cl}^-]$         |
 | $\mathrm{PbI}_2$    | $1.4 \times 10^{-8}$  | $[\mathrm{Pb}^{2+}][\mathrm{I}^-]^2$     |
 | $\mathrm{BaSO}_4$   | $1.1 \times 10^{-10}$ | $[\mathrm{Ba}^{2+}][\mathrm{SO}_4^{2-}]$ |
 | $\mathrm{Ca(OH)}_2$ | $5.5 \times 10^{-6}$  | $[\mathrm{Ca}^{2+}][\mathrm{OH}^-]^2$    |
+
+</div>
 
 ### Worked Example: Calculating Solubility
 
@@ -376,7 +400,7 @@ The solubility is reduced by a factor of approximately $10^4$.
 3. **Incorrectly applying Le Chatelier to catalysts.** A catalyst speeds up both forward and reverse
    reactions equally; it does not shift the equilibrium position.
 
-4. **Ignoring the exponent in $K_{sp}$ expressions.** For $\mathrm{PbI}_2$The iodide concentration
+4. **Ignoring the exponent in $K_{sp}$ expressions.** For $\mathrm{PbI}_2$ The iodide concentration
    is squared in the $K_{sp}$ expression, leading to a factor of 4 in the solubility calculation.
 
 5. **Reversing $K$ incorrectly.** If a reaction is reversed,
@@ -384,7 +408,7 @@ The solubility is reduced by a factor of approximately $10^4$.
    $n$$K_\mathrm{new} = K_\mathrm{original}^n$.
 
 6. **Using concentration units incorrectly in $K_p$.** $K_p$ uses partial pressures (atm, Pa, or
-   bar). Partial pressure $p_i = x_i \times p_\mathrm{total}$Where $x_i$ is the mole fraction.
+   bar). Partial pressure $p_i = x_i \times p_\mathrm{total}$ Where $x_i$ is the mole fraction.
 
 7. **Assuming that changing the amount of a solid affects the equilibrium.** Changing the amount of
    a pure solid or liquid has no effect on the equilibrium position because its activity is
@@ -504,7 +528,7 @@ $K_\mathrm{forward} \times K_\mathrm{reverse} = 1$ for a pair of conjugate react
 <details>
 <summary>Problem 1</summary>
 
-At $700\,\mathrm{K}$The equilibrium
+At $700\,\mathrm{K}$ The equilibrium
 $\mathrm{H}_2(g) + \mathrm{I}_2(g) \rightleftharpoons 2\mathrm{HI}(g)$ has $K_c = 50.0$. If
 $0.200\,\mathrm{mol}$ of $\mathrm{H}_2$ and $0.200\,\mathrm{mol}$ of $\mathrm{I}_2$ are placed in a
 $5.00\,\mathrm{dm}^3$ vessel, calculate the equilibrium concentrations.
@@ -559,7 +583,7 @@ $[\mathrm{Cl}^-] = \frac{0.0050 \times 40.0}{50.0} = 0.0040\,\mathrm{mol/dm}^3$
 
 $Q = [\mathrm{Ag}^+][\mathrm{Cl}^-] = 0.0020 \times 0.0040 = 8.0 \times 10^{-6}$
 
-Since $Q = 8.0 \times 10^{-6} \gt K_{sp} = 1.8 \times 10^{-10}$A precipitate of $\mathrm{AgCl}$ will
+Since $Q = 8.0 \times 10^{-6} \gt K_{sp} = 1.8 \times 10^{-10}$ A precipitate of $\mathrm{AgCl}$ will
 form.
 
 </details>
@@ -567,7 +591,7 @@ form.
 <details>
 <summary>Problem 3</summary>
 
-At $298\,\mathrm{K}$The equilibrium
+At $298\,\mathrm{K}$ The equilibrium
 $\mathrm{PCl}_5(g) \rightleftharpoons \mathrm{PCl}_3(g) + \mathrm{Cl}_2(g)$ has
 $K_p = 12.5\,\mathrm{kPa}$. A sample of $\mathrm{PCl}_5$ is placed in a sealed vessel at
 $298\,\mathrm{K}$. At equilibrium, the total pressure is $200\,\mathrm{kPa}$ and the partial
@@ -592,7 +616,7 @@ $$
 K_p = \frac{p(\mathrm{PCl}_3) \times p(\mathrm{Cl}_2)}{p(\mathrm{PCl}_5)} = \frac{95 \times 95}{10} = \frac{9025}{10} = 902.5\,\mathrm{kPa}
 $$
 
-This does not equal $K_p = 12.5\,\mathrm{kPa}$Indicating that the given data is inconsistent with
+This does not equal $K_p = 12.5\,\mathrm{kPa}$ Indicating that the given data is inconsistent with
 $K_p = 12.5\,\mathrm{kPa}$. Either the total pressure or the $\mathrm{Cl}_2$ partial pressure is
 incorrect for the stated $K_p$.
 
@@ -690,7 +714,7 @@ The equilibrium $\mathrm{N}_2\mathrm{O}_4(g) \rightleftharpoons 2\mathrm{NO}_2(g
 $\Delta H = +58\,\mathrm{kJ/mol}$ and $K_p = 0.115\,\mathrm{atm}$ at $298\,\mathrm{K}$.
 
 (a) If the total pressure is increased, predict the effect on the equilibrium position. (b) If the
-temperature is increased to $350\,\mathrm{K}$Predict whether $K_p$ increases or decreases, and
+temperature is increased to $350\,\mathrm{K}$ Predict whether $K_p$ increases or decreases, and
 explain. (c) $1.00\,\mathrm{mol}$ of $\mathrm{N}_2\mathrm{O}_4$ is placed in a $10.0\,\mathrm{dm}^3$
 vessel at $298\,\mathrm{K}$. Calculate the equilibrium partial pressures of both gases.
 
@@ -706,7 +730,7 @@ equation: $\ln(K_2/K_1) = -(\Delta H/R)(1/T_2 - 1/T_1)$.
 
 (c) Let $x$ = moles of $\mathrm{N}_2\mathrm{O}_4$ dissociated.
 
-At equilibrium: $n(\mathrm{N}_2\mathrm{O}_4) = 1.00 - x$$n(\mathrm{NO}_2) = 2x$Total moles
+At equilibrium: $n(\mathrm{N}_2\mathrm{O}_4) = 1.00 - x$$n(\mathrm{NO}_2) = 2x$ Total moles
 $= 1.00 + x$.
 
 Total pressure: use $pV = nRT$:
@@ -748,7 +772,7 @@ $p(\mathrm{NO}_2) = \frac{0.217}{1.108} \times 247700(1.108) = 0.217 \times 2477
 
 $p(\mathrm{N}_2\mathrm{O}_4) = 0.892 \times 247700 = 220948\,\mathrm{Pa} = 2.18\,\mathrm{atm}$
 
-Verify: $K_p = (0.531)^2 / 2.18 = 0.282/2.18 = 0.129\,\mathrm{atm}$ (close to $0.115$The discrepancy
+Verify: $K_p = (0.531)^2 / 2.18 = 0.282/2.18 = 0.129\,\mathrm{atm}$ (close to $0.115$ The discrepancy
 is due to the approximation).
 
 </details>
@@ -763,7 +787,7 @@ change.
 
 **Worked Example:** For the equilibrium
 $\mathrm{N}_2\mathrm{O}_4(g) \rightleftharpoons 2\mathrm{NO}_2(g)$ with $K_p = 0.115\,\mathrm{atm}$
-at $298\,\mathrm{K}$What is the effect of doubling the total pressure by halving the volume?
+at $298\,\mathrm{K}$ What is the effect of doubling the total pressure by halving the volume?
 
 Initially, let $p(\mathrm{N}_2\mathrm{O}_4) = 1.00\,\mathrm{atm}$ and
 $p(\mathrm{NO}_2) = 0.339\,\mathrm{atm}$ (satisfying $K_p = (0.339)^2/1.00 = 0.115$).
@@ -773,7 +797,7 @@ $p(\mathrm{N}_2\mathrm{O}_4) = 2.00\,\mathrm{atm}$$p(\mathrm{NO}_2) = 0.678\,\ma
 
 The reaction quotient: $Q_p = (0.678)^2 / 2.00 = 0.230 > K_p$.
 
-Since $Q_p > K_p$The system shifts to the left (fewer moles of gas) to reduce $Q_p$ back towards
+Since $Q_p > K_p$ The system shifts to the left (fewer moles of gas) to reduce $Q_p$ back towards
 $K_p$. This is consistent with Le Chatelier's principle: increasing pressure favours the side with
 fewer gas molecules.
 
@@ -792,7 +816,9 @@ $K_p$.
 
 The relationship between $K$ and temperature is given by the van 't Hoff equation:
 
-$$\ln\frac{K_2}{K_1} = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\frac{K_2}{K_1} = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 ### Kp Calculations: Heterogeneous Equilibria
 
@@ -802,16 +828,20 @@ not appear in the $K_c$ or $K_p$ expression.
 
 **Example:** $\mathrm{CaCO}_3(s) \rightleftharpoons \mathrm{CaO}(s) + \mathrm{CO}_2(g)$
 
-$$K_p = p(\mathrm{CO}_2)$$
+$$
+K_p = p(\mathrm{CO}_2)
+$$
 
 At $900^\circ\mathrm{C}$$K_p = 1.04\,\mathrm{atm}$. This means that in a closed container,
 $\mathrm{CaCO}_3$ decomposes until the partial pressure of $\mathrm{CO}_2$ reaches
-$1.04\,\mathrm{atm}$At which point equilibrium is established.
+$1.04\,\mathrm{atm}$ At which point equilibrium is established.
 
 ### Industrial Application: Haber Process Equilibrium Analysis
 
 **Reaction:**
 $\mathrm{N}_2(g) + 3\mathrm{H}_2(g) \rightleftharpoons 2\mathrm{NH}_3(g)$$\Delta H = -92\,\mathrm{kJ/mol}$
+
+<div class="table-wrap">
 
 | Condition             | Effect on equilibrium                 | Effect on rate                        | Industrial choice                                                    |
 | --------------------- | ------------------------------------- | ------------------------------------- | -------------------------------------------------------------------- |
@@ -819,6 +849,8 @@ $\mathrm{N}_2(g) + 3\mathrm{H}_2(g) \rightleftharpoons 2\mathrm{NH}_3(g)$$\Delta
 | Low temperature       | Favours products (exothermic forward) | Decreases rate                        | $450^\circ\mathrm{C}$ (compromise: yield vs rate)                    |
 | Excess $\mathrm{N}_2$ | Shifts equilibrium right              | Increases rate of forward reaction    | $\mathrm{N}_2:\mathrm{H}_2 = 1:3$ (stoichiometric feed)              |
 | Iron catalyst         | No effect on position                 | Increases rate (lower $E_a$)          | Fe with $\mathrm{K}_2\mathrm{O}/\mathrm{Al}_2\mathrm{O}_3$ promoters |
+
+</div>
 
 The yield at $450^\circ\mathrm{C}$ and 200 atm is approximately 15% per pass. Unreacted
 $\mathrm{N}_2$ and $\mathrm{H}_2$ are recycled.
@@ -828,20 +860,30 @@ $\mathrm{N}_2$ and $\mathrm{H}_2$ are recycled.
 The solubility product is the equilibrium constant for the dissolution of a sparingly soluble ionic
 compound:
 
-$$\mathrm{M}_a\mathrm{X}_b(s) \rightleftharpoons a\mathrm{M}^{b+}(aq) + b\mathrm{X}^{a-}(aq)$$
+$$
+\mathrm{M}_a\mathrm{X}_b(s) \rightleftharpoons a\mathrm{M}^{b+}(aq) + b\mathrm{X}^{a-}(aq)
+$$
 
-$$K_{sp} = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b$$
+$$
+K_{sp} = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b
+$$
 
 **Worked Example:** Calculate the solubility of $\mathrm{BaSO}_4$ in pure water.
 $K_{sp}(\mathrm{BaSO}_4) = 1.08 \times 10^{-10}\,\mathrm{mol^2\,dm^{-6}}$.
 
-$$\mathrm{BaSO}_4(s) \rightleftharpoons \mathrm{Ba}^{2+}(aq) + \mathrm{SO}_4^{2-}(aq)$$
+$$
+\mathrm{BaSO}_4(s) \rightleftharpoons \mathrm{Ba}^{2+}(aq) + \mathrm{SO}_4^{2-}(aq)
+$$
 
 If $s$ is the solubility in $\mathrm{mol\,dm^{-3}}$:
 
-$$K_{sp} = s \times s = s^2$$
+$$
+K_{sp} = s \times s = s^2
+$$
 
-$$s = \sqrt{K_{sp}} = \sqrt{1.08 \times 10^{-10}} = 1.04 \times 10^{-5}\,\mathrm{mol\,dm^{-3}}$$
+$$
+s = \sqrt{K_{sp}} = \sqrt{1.08 \times 10^{-10}} = 1.04 \times 10^{-5}\,\mathrm{mol\,dm^{-3}}
+$$
 
 **Common ion effect:** The solubility of $\mathrm{BaSO}_4$ is reduced in the presence of
 $\mathrm{Na}_2\mathrm{SO}_4$ (a common source of $\mathrm{SO}_4^{2-}$). Adding $\mathrm{SO}_4^{2-}$
@@ -855,9 +897,11 @@ After mixing, concentrations are halved:
 
 $[\mathrm{Ba}^{2+}] = 0.0050\,\mathrm{mol\,dm^{-3}}$$[\mathrm{SO}_4^{2-}] = 0.0050\,\mathrm{mol\,dm^{-3}}$
 
-$$Q = [\mathrm{Ba}^{2+}][\mathrm{SO}_4^{2-}] = (0.0050)^2 = 2.5 \times 10^{-5}$$
+$$
+Q = [\mathrm{Ba}^{2+}][\mathrm{SO}_4^{2-}] = (0.0050)^2 = 2.5 \times 10^{-5}
+$$
 
-Since $Q = 2.5 \times 10^{-5} \gg K_{sp} = 1.08 \times 10^{-10}$Precipitation will occur until
+Since $Q = 2.5 \times 10^{-5} \gg K_{sp} = 1.08 \times 10^{-10}$ Precipitation will occur until
 $[\mathrm{Ba}^{2+}][\mathrm{SO}_4^{2-}] = K_{sp}$.
 
 ## Practical Techniques for Equilibrium
@@ -867,7 +911,9 @@ $[\mathrm{Ba}^{2+}][\mathrm{SO}_4^{2-}] = K_{sp}$.
 **Objective:** To determine the effect of concentration on the position of equilibrium for the
 reaction between iron(III) ions and thiocyanate ions.
 
-$$\mathrm{Fe}^{3+}(aq) + \mathrm{SCN}^-(aq) \rightleftharpoons \mathrm{FeSCN}^{2+}(aq)$$
+$$
+\mathrm{Fe}^{3+}(aq) + \mathrm{SCN}^-(aq) \rightleftharpoons \mathrm{FeSCN}^{2+}(aq)
+$$
 
 The $\mathrm{FeSCN}^{2+}$ ion is blood-red in colour. The intensity of the colour (measured by
 colorimetry) is proportional to its concentration.
@@ -912,22 +958,32 @@ $y(\mathrm{N}_2) = \frac{1-x}{4-2x}$$y(\mathrm{H}_2) = \frac{3-3x}{4-2x}$$y(\mat
 
 Partial pressures: $p_i = y_i \times P_\mathrm{total}$
 
-$$K_p = \frac{p(\mathrm{NH}_3)^2}{p(\mathrm{N}_2) \times p(\mathrm{H}_2)^3} = \frac{\left(\frac{2x}{4-2x} \times 200\right)^2}{\left(\frac{1-x}{4-2x} \times 200\right)\left(\frac{3-3x}{4-2x} \times 200\right)^3}$$
+$$
+K_p = \frac{p(\mathrm{NH}_3)^2}{p(\mathrm{N}_2) \times p(\mathrm{H}_2)^3} = \frac{\left(\frac{2x}{4-2x} \times 200\right)^2}{\left(\frac{1-x}{4-2x} \times 200\right)\left(\frac{3-3x}{4-2x} \times 200\right)^3}
+$$
 
 This simplifies to:
 
-$$K_p = \frac{4x^2(4-2x)^2}{(1-x)(3-3x)^3 \times 200^2}$$
+$$
+K_p = \frac{4x^2(4-2x)^2}{(1-x)(3-3x)^3 \times 200^2}
+$$
 
 Assuming $x$ is small (5% approximation): $4 - 2x \approx 4$$1 - x \approx 1$$3 - 3x \approx 3$:
 
-$$6.0 \times 10^{-3} = \frac{4x^2 \times 16}{1 \times 27 \times 40000} = \frac{64x^2}{1080000}$$
+$$
+6.0 \times 10^{-3} = \frac{4x^2 \times 16}{1 \times 27 \times 40000} = \frac{64x^2}{1080000}
+$$
 
-$$x^2 = \frac{6.0 \times 10^{-3} \times 1080000}{64} = \frac{6480}{64} = 101.25$$
+$$
+x^2 = \frac{6.0 \times 10^{-3} \times 1080000}{64} = \frac{6480}{64} = 101.25
+$$
 
-$$x \approx 10.1$$
+$$
+x \approx 10.1
+$$
 
 This is inconsistent with the assumption that $x$ is small (it exceeds the initial moles of
-$\mathrm{N}_2$). This shows that at 200 atm and $500^\circ\mathrm{C}$The equilibrium lies
+$\mathrm{N}_2$). This shows that at 200 atm and $500^\circ\mathrm{C}$ The equilibrium lies
 significantly towards products. A numerical or iterative solution would be required.
 
 (1 mark for setting up the $K_p$ expression, 1 mark for mole fractions, 1 mark for partial
@@ -938,7 +994,7 @@ pressures, 1 mark for substitution, 1 mark for recognising the approximation iss
 <details>
 <summary>Q2 (4 marks)</summary>
 
-For the equilibrium $\mathrm{PCl}_5(g) \rightleftharpoons \mathrm{PCl}_3(g) + \mathrm{Cl}_2(g)$State
+For the equilibrium $\mathrm{PCl}_5(g) \rightleftharpoons \mathrm{PCl}_3(g) + \mathrm{Cl}_2(g)$ State
 and explain the effect on the equilibrium position of:
 
 (a) Increasing the pressure at constant temperature. (2 marks)
@@ -979,7 +1035,9 @@ $\mathrm{CH}_3\mathrm{COOH} = 1.00 - 0.667 = 0.333\,\mathrm{mol}$$\mathrm{CH}_3\
 
 Since all species are in the same volume (cancels in $K_c$):
 
-$$K_c = \frac{[\mathrm{ester}][\mathrm{H}_2\mathrm{O}]}{[\mathrm{acid}][\mathrm{alcohol}]} = \frac{0.667 \times 0.667}{0.333 \times 0.333} = \frac{0.445}{0.111} = 4.01$$
+$$
+K_c = \frac{[\mathrm{ester}][\mathrm{H}_2\mathrm{O}]}{[\mathrm{acid}][\mathrm{alcohol}]} = \frac{0.667 \times 0.667}{0.333 \times 0.333} = \frac{0.445}{0.111} = 4.01
+$$
 
 (1 mark for equilibrium moles, 1 mark for expression, 1 mark for calculation.)
 
@@ -1006,13 +1064,19 @@ stoichiometric coefficient.
 
 Calculation (3 marks):
 
-$$\mathrm{PbI}_2(s) \rightleftharpoons \mathrm{Pb}^{2+}(aq) + 2\mathrm{I}^-(aq)$$
+$$
+\mathrm{PbI}_2(s) \rightleftharpoons \mathrm{Pb}^{2+}(aq) + 2\mathrm{I}^-(aq)
+$$
 
 If $s$ is the solubility: $[\mathrm{Pb}^{2+}] = s$$[\mathrm{I}^-] = 2s$
 
-$$K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{I}^-]^2 = s \times (2s)^2 = 4s^3$$
+$$
+K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{I}^-]^2 = s \times (2s)^2 = 4s^3
+$$
 
-$$s = \sqrt[3]{\frac{K_{sp}}{4}} = \sqrt[3]{\frac{9.8 \times 10^{-9}}{4}} = \sqrt[3]{2.45 \times 10^{-9}} = 1.35 \times 10^{-3}\,\mathrm{mol\,dm^{-3}}$$
+$$
+s = \sqrt[3]{\frac{K_{sp}}{4}} = \sqrt[3]{\frac{9.8 \times 10^{-9}}{4}} = \sqrt[3]{2.45 \times 10^{-9}} = 1.35 \times 10^{-3}\,\mathrm{mol\,dm^{-3}}
+$$
 
 (1 mark for expression, 1 mark for substitution, 1 mark for calculation.)
 
@@ -1035,22 +1099,9 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Chemical
 Equilibrium with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemical equilibrium is like a busy restaurant, dishes are constantly being prepared and eaten, but the overall number of plates stays the same.**
-
-```mermaid
-flowchart TD
-    A[Equilibrium] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

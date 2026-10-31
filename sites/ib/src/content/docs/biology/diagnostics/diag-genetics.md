@@ -17,17 +17,6 @@ tableOfContents: false
 
 ## Genetics, Diagnostic Tests
 
-
-```mermaid
-flowchart TD
-    A[Diag Genetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Genetics is like reading a biological instruction manual, DNA contains the blueprints for building and operating an organism:** Genes control traits through protein synthesis, and variations in genes create the diversity of life
@@ -53,9 +42,13 @@ Gametes from Parent 1 (TtRr): TR, Tr, tR, tr (each with probability 1/4) Gametes
 
 Punnett square (1 x 4):
 
+<div class="table-wrap">
+
 |     | TR   | Tr   | tR   | tr   |
 | --- | ---- | ---- | ---- | ---- |
 | tr  | TtRr | Ttrr | ttRr | ttrr |
+
+</div>
 
 Phenotypes:
 
@@ -96,7 +89,9 @@ Expected values (3:1 ratio, $n = 1000$):
 - Tall: $1000 \times 3/4 = 750$
 - Dwarf: $1000 \times 1/4 = 250$
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 Tall: $\frac{(732 - 750)^2}{750} = \frac{(-18)^2}{750} = \frac{324}{750} = 0.432$
 
@@ -108,14 +103,14 @@ Degrees of freedom: number of categories $- 1 = 2 - 1 = 1$.
 
 Critical value at $\alpha = 0.05$ with $df = 1$: $3.841$.
 
-Since $\chi^2_{\text{calc}} = 1.728 \lt 3.841 = \chi^2_{\text{crit}}$We **fail to reject** the null
+Since $\chi^2_{\text{calc}} = 1.728 \lt 3.841 = \chi^2_{\text{crit}}$ We **fail to reject** the null
 hypothesis.
 
 Conclusion: The observed data fits the expected 3:1 ratio at the 0.05 significance level. There is
 no statistically significant evidence that the inheritance pattern deviates from Mendelian
 expectations.
 
-The p-value for $\chi^2 = 1.728$ with $df = 1$ is approximately $0.19$Meaning there is a 19%
+The p-value for $\chi^2 = 1.728$ with $df = 1$ is approximately $0.19$ Meaning there is a 19%
 probability of observing this much deviation (or more) by chance alone.
 
 ---
@@ -139,7 +134,7 @@ probability that their son is colour-blind? What is the probability that a daugh
 
 Let $X^C$ = normal vision allele (dominant), $X^c$ = colour-blind allele (recessive).
 
-Woman"s genotype: Her father was $X^cY$ (colour-blind), so he passed $X^c$ to her. Her mother must
+Woman's genotype: Her father was $X^cY$ (colour-blind), so he passed $X^c$ to her. Her mother must
 have passed $X^C$ (since the woman has normal vision, she must have at least one $X^C$). Therefore,
 the woman is $X^CX^c$ (carrier).
 
@@ -163,7 +158,7 @@ mother (50% chance) = $1/2 = 50\%$. The other 50% would be $X^CX^C$ (normal, non
 ### IT-1: Genetics and Evolution (with Evolution)
 
 **Question:** In a population of 10000 humans, the frequency of the allele for cystic fibrosis
-($f$Recessive) is $0.02$. Assuming Hardy-Weinberg equilibrium: (a) calculate the expected number of
+($f$ Recessive) is $0.02$. Assuming Hardy-Weinberg equilibrium: (a) calculate the expected number of
 carriers, (b) calculate the expected number of individuals with cystic fibrosis, (c) if the
 population is in HWE and the disease reduces fitness by 90% ($w = 0.1$ for affected individuals),
 calculate the new allele frequency after one generation of selection.
@@ -229,7 +224,9 @@ Let $w_{AA} = 0.85$$w_{AS} = 1.00$$w_{SS} = 0.15$.
 
 At equilibrium under balancing selection, the frequency of allele S is:
 
-$$q = \frac{w_{AS} - w_{AA}}{2w_{AS} - w_{AA} - w_{SS}}$$
+$$
+q = \frac{w_{AS} - w_{AA}}{2w_{AS} - w_{AA} - w_{SS}}
+$$
 
 $q = \frac{1.00 - 0.85}{2(1.00) - 0.85 - 0.15} = \frac{0.15}{2.00 - 1.00} = \frac{0.15}{1.00} = 0.15$
 
@@ -303,13 +300,13 @@ Under the model (one parent Aa non-penetrant, other parent aa):
 
 P(affected) per child = $0.5 \times 0.8 = 0.4$ P(unaffected) per child = $1 - 0.4 = 0.6$
 
-Expected in 3 children: affected $= 3 \times 0.4 = 1.2$Unaffected $= 3 \times 0.6 = 1.8$.
+Expected in 3 children: affected $= 3 \times 0.4 = 1.2$ Unaffected $= 3 \times 0.6 = 1.8$.
 
-Observed: affected $= 1$Unaffected $= 2$.
+Observed: affected $= 1$ Unaffected $= 2$.
 
 $\chi^2 = \frac{(1 - 1.2)^2}{1.2} + \frac{(2 - 1.8)^2}{1.8} = \frac{0.04}{1.2} + \frac{0.04}{1.8} = 0.0333 + 0.0222 = 0.0556$
 
-With $df = 1$, $\chi^2_{\text{crit}} = 3.841$. Since $0.0556 \lt 3.841$The data is consistent with 80%
+With $df = 1$, $\chi^2_{\text{crit}} = 3.841$. Since $0.0556 \lt 3.841$ The data is consistent with 80%
 penetrance autosomal dominant inheritance. The probability of two unaffected parents having an
 affected child is 40% per child under this model.
 

@@ -27,7 +27,7 @@ Representing values that may be absent or that may hold one of several alternati
 ## 4.1 `std::optional<T>`
 
 `std::optional<T>` models a value that may or may not be present [N4950 §20.6]. It is allocated on
-The stack, stores at most one `T`And requires no heap allocation.
+the stack, stores at most one `T`And requires no heap allocation.
 
 ```cpp
 #include <iostream>
@@ -74,7 +74,7 @@ int main() {
 ## 4.2 `std::variant<T, U, V>`
 
 `std::variant` is a type-safe, stack-allocated union that holds exactly one of its alternative types
-At any time [N4950 §20.7].
+at any time [N4950 §20.7].
 
 ```cpp
 #include <iostream>
@@ -193,6 +193,8 @@ int main() {
 
 ## 4.4 Comparison with Exceptions
 
+<div class="table-wrap">
+
 | Aspect                | Exceptions           | `std::optional`              | `std::variant`                     |
 | --------------------- | -------------------- | ---------------------------- | ---------------------------------- |
 | Overhead (no error)   | ~0 (table-based)     | 0                            | 0                                  |
@@ -200,6 +202,8 @@ int main() {
 | Error type            | Any type             | `std::nullopt` only          | User-defined alternatives          |
 | Composability         | Implicit (unwinding) | Explicit (check `has_value`) | Explicit (`std::visit`/`std::get`) |
 | Catches missed errors | No (terminate)       | Yes (forgot to check)        | Yes (forgot to check)              |
+
+</div>
 
 ## See Also
 
@@ -284,11 +288,15 @@ int main() {
 
 C++23 added monadic operations that allow chaining optional operations without explicit null checks:
 
+<div class="table-wrap">
+
 | Operation   | Signature                            | Behavior                                                                          |
 | :---------- | :----------------------------------- | :-------------------------------------------------------------------------------- |
 | `transform` | `optional<U> transform(F&& f) const` | If engaged, returns `f(value)` wrapped in optional; otherwise `nullopt`           |
 | `and_then`  | `optional<U> and_then(F&& f) const`  | If engaged, calls `f(value)` which must return `optional<U>`; otherwise `nullopt` |
 | `or_else`   | `optional<T> or_else(F&& f) const`   | If empty, calls `f()` which must return `optional<T>`; otherwise returns `*this`  |
+
+</div>
 
 ```cpp
 #include <optional>
@@ -616,7 +624,7 @@ int main() {
 ## Common Pitfalls
 
 - **Using `*opt` without checking.** Dereferencing an empty `std::optional` is undefined behavior.
-  Always use `has_value()``value_or()`Or `std::get_if`.
+  Always use `has_value()`, `value_or()` or `std::get_if`.
 - **Storing references in `std::optional`.** `std::optional<T&>` is valid since C++23 but has
   different semantics from `std::optional<T>`. Before C++23, use
   `std::optional<std::reference_wrapper<T>>`.
@@ -627,17 +635,6 @@ int main() {
 - **Forgetting `std::monostate` for default-constructible variants.** If none of the alternatives is
   default-constructible, use `std::variant<std::monostate, T, U>` to make the variant itself
   default-constructible.
-
-
-```mermaid
-flowchart TD
-    A[4_Optional_Variant] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -652,10 +649,5 @@ std::optional and std::variant, including key theorems, methods, and problem-sol
 - partial fractions
 - binomial expansion
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

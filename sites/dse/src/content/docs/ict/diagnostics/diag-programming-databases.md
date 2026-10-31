@@ -66,7 +66,7 @@ END FUNCTION
 Time complexity: $O(n)$. For 1024 elements, worst case is 1024 comparisons. Binary search is
 exponentially faster for sorted data.
 
-(d) Binary search relies on the property that if `array[mid] < target`The target must be in the
+(d) Binary search relies on the property that if `array[mid] < target`. The target must be in the
 right half (since the array is sorted). In an unsorted array, the target could be anywhere
 regardless of the mid-value comparison, so the divide-and-conquer strategy does not work.
 
@@ -123,12 +123,16 @@ ALTER TABLE Results ADD COLUMN grade VARCHAR(2);
 
 **Question:** A school stores the following unnormalised data:
 
+<div class="table-wrap">
+
 | StudentID | Name         | Class | Subject | Teacher | Room |
 | --------- | ------------ | ----- | ------- | ------- | ---- |
 | 001       | Chan Tai Man | 5A    | Maths   | Mr Wong | R101 |
 | 001       | Chan Tai Man | 5A    | English | Ms Lee  | R203 |
 | 002       | Li Siu Ming  | 5A    | Maths   | Mr Wong | R101 |
 | 002       | Li Siu Ming  | 5A    | English | Ms Lee  | R203 |
+
+</div>
 
 (a) Identify the repeating groups and explain why this is in 1NF violation. (b) Convert to 2NF,
 explaining what functional dependencies are removed. (c) Convert to 3NF, explaining what transitive
@@ -172,17 +176,6 @@ Subject FK)
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diag Programming Databases", "url": "https://dse.wyattau.com/ict/diagnostics/diag-programming-databases"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Programming Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -330,9 +323,9 @@ handles null price, (4) all code branches are executed.
 (c) Boundary value analysis for quantity $\times$ price (assuming quantity: 1--9999, price:
 0.01--99999.99):
 
-1. **Minimum boundary:** quantity $= 1$Price $= 0.01$. Expected: total $= 0.01$. Test the minimum
+1. **Minimum boundary:** quantity $= 1$ Price $= 0.01$. Expected: total $= 0.01$. Test the minimum
    valid inputs.
-2. **Maximum boundary:** quantity $= 9999$Price $= 99999.99$. Expected: total $= 999,989,901.01$.
+2. **Maximum boundary:** quantity $= 9999$ Price $= 99999.99$. Expected: total $= 999,989,901.01$.
    Test for overflow or rounding errors.
 3. **Boundary edge cases:** quantity $= 0$ (should be rejected or handled), quantity $= 10000$
    (should be rejected), price $= 0$ (should be handled), price $= -1$ (should be rejected).

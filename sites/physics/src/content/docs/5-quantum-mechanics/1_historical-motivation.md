@@ -35,7 +35,7 @@ Spiral into the nucleus.
 
 ### 1.2 Key Experiments
 
-**Planck"s quantisation (1900).** Blackbody radiation is explained by assuming energy is emitted in
+**Planck's quantisation (1900).** Blackbody radiation is explained by assuming energy is emitted in
 Discrete quanta: $E = h\nu$ where $h = 6.626 \times 10^{-34}$ J$\cdot$S is Planck's constant.
 
 **Einstein's photon (1905).** Light consists of photons, each carrying energy $E = h\nu$ and
@@ -44,7 +44,9 @@ work Function.
 
 **Compton scattering (1923).** X-rays scattered off electrons show a wavelength shift:
 
-$$\Delta\lambda = \frac{h}{m_e c}(1 - \cos\theta)$$
+$$
+\Delta\lambda = \frac{h}{m_e c}(1 - \cos\theta)
+$$
 
 This confirms that photons carry momentum $p = h/\lambda$.
 
@@ -62,13 +64,15 @@ Kinetic energy $K_{\max}$ that depends on $\nu$ but **not** on the intensity.
 photon Strikes the surface, it transfers all its energy to a single electron. By energy
 conservation:
 
-$$h\nu = \phi + K_{\max}$$
+$$
+h\nu = \phi + K_{\max}
+$$
 
 Where $\phi$ is the work function (minimum energy to remove an electron from the metal).
 
 **Key predictions:**
 
-1. **Threshold frequency.** No electrons are emitted if $\nu \lt \nu_0 = \phi/h$Regardless of
+1. **Threshold frequency.** No electrons are emitted if $\nu \lt \nu_0 = \phi/h$ Regardless of
    intensity. This is because each photon must supply at least $\phi$.
 
 2. **Linear dependence on frequency.** $K_{\max} = h\nu - \phi$ is linear in $\nu$ with slope $h$
@@ -82,9 +86,11 @@ Where $\phi$ is the work function (minimum energy to remove an electron from the
 
 _Proof of the threshold frequency._ Setting $K_{\max} = 0$ in the energy balance:
 
-$$h\nu_0 = \phi \implies \nu_0 = \frac{\phi}{h}$$
+$$
+h\nu_0 = \phi \implies \nu_0 = \frac{\phi}{h}
+$$
 
-For frequencies $\nu \lt \nu_0$The photon energy is insufficient to liberate an electron, and No
+For frequencies $\nu \lt \nu_0$ The photon energy is insufficient to liberate an electron, and No
 photoelectric emission occurs regardless of intensity. $\blacksquare$
 
 **Millikan's experimental verification (1916).** Robert Millikan, who initially opposed Einstein's
@@ -101,7 +107,9 @@ Agreed with Planck's value from blackbody radiation to within $0.5\%$.
 The cutoff frequency is $\nu_0 = \phi/h = 2.28 \times 1.602 \times 10^{-19} / 6.626 \times 10^{-34}$
 $= 5.51 \times 10^{14}$ Hz. The cutoff wavelength is:
 
-$$\lambda_0 = \frac{c}{\nu_0} = \frac{3.00 \times 10^8}{5.51 \times 10^{14}} = 544\;\mathrm{nm}$$
+$$
+\lambda_0 = \frac{c}{\nu_0} = \frac{3.00 \times 10^8}{5.51 \times 10^{14}} = 544\;\mathrm{nm}
+$$
 
 This lies in the green region of the visible spectrum, explaining why sodium is sensitive to visible
 Light.
@@ -112,43 +120,59 @@ Light.
 
 Compton scattering provides direct evidence that photons carry momentum. When an X-ray photon of
 Wavelength $\lambda$ scatters off a free (or loosely bound) electron at rest, the scattered photon
-Has a longer wavelength $\lambda'$.
+has a longer wavelength $\lambda'$.
 
-**Setup.** Incident photon: energy $E = hc/\lambda$Momentum $p = h/\lambda$. Target electron: At
-rest, energy $m_e c^2$Momentum $0$. After scattering, the photon is deflected by angle $\theta$ And
+**Setup.** Incident photon: energy $E = hc/\lambda$ Momentum $p = h/\lambda$. Target electron: At
+rest, energy $m_e c^2$ Momentum $0$. After scattering, the photon is deflected by angle $\theta$ And
 the electron recoils at angle $\phi$.
 
 **Energy conservation:**
 
-$$\frac{hc}{\lambda} + m_e c^2 = \frac{hc}{\lambda'} + E_e$$
+$$
+\frac{hc}{\lambda} + m_e c^2 = \frac{hc}{\lambda'} + E_e
+$$
 
 **Momentum conservation (vector equation):**
 
-$$\frac{h}{\lambda}\hat{n} = \frac{h}{\lambda'}\hat{n}' + \mathbf{p}_e$$
+$$
+\frac{h}{\lambda}\hat{n} = \frac{h}{\lambda'}\hat{n}' + \mathbf{p}_e
+$$
 
 _Derivation of the wavelength shift._ From the relativistic energy-momentum relation for the
 Electron, $E_e^2 = (p_e c)^2 + (m_e c^2)^2$. Rearranging the energy conservation:
 
-$$E_e - m_e c^2 = hc\!\left(\frac{1}{\lambda} - \frac{1}{\lambda'}\right)$$
+$$
+E_e - m_e c^2 = hc\!\left(\frac{1}{\lambda} - \frac{1}{\lambda'}\right)
+$$
 
 Squaring the momentum equation:
 
-$$p_e^2 = \left(\frac{h}{\lambda}\right)^2 + \left(\frac{h}{\lambda'}\right)^2 - \frac{2h^2}{\lambda\lambda'}\cos\theta$$
+$$
+p_e^2 = \left(\frac{h}{\lambda}\right)^2 + \left(\frac{h}{\lambda'}\right)^2 - \frac{2h^2}{\lambda\lambda'}\cos\theta
+$$
 
 Using $E_e^2 = p_e^2 c^2 + m_e^2 c^4$ and writing $T_e = E_e - m_e c^2$:
 
-$$E_e^2 - m_e^2 c^4 = 2m_e c^2 T_e + T_e^2 = p_e^2 c^2$$
+$$
+E_e^2 - m_e^2 c^4 = 2m_e c^2 T_e + T_e^2 = p_e^2 c^2
+$$
 
 Substituting $T_e = hc(1/\lambda - 1/\lambda')$ and $p_e^2$ from above, then dividing by $c^2$ and
 Simplifying:
 
-$$2m_e c \cdot \frac{h}{\lambda\lambda'}(1 - \cos\theta) = 2h^2\!\left(\frac{1}{\lambda^2} + \frac{1}{\lambda'^2} - \frac{2\cos\theta}{\lambda\lambda'}\right)$$
+$$
+2m_e c \cdot \frac{h}{\lambda\lambda'}(1 - \cos\theta) = 2h^2\!\left(\frac{1}{\lambda^2} + \frac{1}{\lambda'^2} - \frac{2\cos\theta}{\lambda\lambda'}\right)
+$$
 
-$$\frac{1}{\lambda'} - \frac{1}{\lambda} = \frac{h}{m_e c}(1 - \cos\theta)\cdot\frac{1}{\lambda\lambda'}$$
+$$
+\frac{1}{\lambda'} - \frac{1}{\lambda} = \frac{h}{m_e c}(1 - \cos\theta)\cdot\frac{1}{\lambda\lambda'}
+$$
 
 Multiplying through by $\lambda\lambda'$ yields the **Compton formula**:
 
-$$\Delta\lambda = \lambda' - \lambda = \frac{h}{m_e c}(1 - \cos\theta)$$
+$$
+\Delta\lambda = \lambda' - \lambda = \frac{h}{m_e c}(1 - \cos\theta)
+$$
 
 The quantity $\lambda_C = h/(m_e c) \approx 2.426 \times 10^{-12}$ m is the **Compton wavelength**
 of The electron. $\blacksquare$
@@ -168,15 +192,23 @@ Wavelength of the scattered photon and the kinetic energy of the recoil electron
 <details>
 <summary>Solution</summary>
 
-$$\Delta\lambda = \lambda_C(1 - \cos 90°) = \lambda_C = 2.426 \times 10^{-12}\;\mathrm{m} = 0.00243\;\mathrm{nm}$$
+$$
+\Delta\lambda = \lambda_C(1 - \cos 90°) = \lambda_C = 2.426 \times 10^{-12}\;\mathrm{m} = 0.00243\;\mathrm{nm}
+$$
 
-$$\lambda' = \lambda + \Delta\lambda = 0.100 + 0.00243 = 0.10243\;\mathrm{nm}$$
+$$
+\lambda' = \lambda + \Delta\lambda = 0.100 + 0.00243 = 0.10243\;\mathrm{nm}
+$$
 
 The kinetic energy of the recoil electron:
 
-$$T_e = hc\!\left(\frac{1}{\lambda} - \frac{1}{\lambda'}\right) = \frac{hc\,\Delta\lambda}{\lambda\lambda'}$$
+$$
+T_e = hc\!\left(\frac{1}{\lambda} - \frac{1}{\lambda'}\right) = \frac{hc\,\Delta\lambda}{\lambda\lambda'}
+$$
 
-$$= \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)(2.43 \times 10^{-12})}{(1.00 \times 10^{-10})(1.0243 \times 10^{-10})} = 4.72 \times 10^{-17}\;\mathrm{J} = 295\;\mathrm{eV}$$
+$$
+= \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)(2.43 \times 10^{-12})}{(1.00 \times 10^{-10})(1.0243 \times 10^{-10})} = 4.72 \times 10^{-17}\;\mathrm{J} = 295\;\mathrm{eV}
+$$
 
 </details>
 
@@ -189,25 +221,33 @@ Hypothesis that particles have wave-like properties.
 Directed at a nickel crystal. The scattered electrons are detected at various angles $\phi$.
 
 **de Broglie relation.** An electron accelerated through potential $V$ has kinetic energy $K = eV$
-And momentum:
+and momentum:
 
-$$p = \sqrt{2m_e eV}$$
+$$
+p = \sqrt{2m_e eV}
+$$
 
 The de Broglie wavelength is:
 
-$$\lambda = \frac{h}{p} = \frac{h}{\sqrt{2m_e eV}}$$
+$$
+\lambda = \frac{h}{p} = \frac{h}{\sqrt{2m_e eV}}
+$$
 
 **Bragg condition.** The nickel crystal acts as a diffraction grating with lattice spacing $d$.
 Constructive interference occurs when:
 
-$$n\lambda = 2d\sin\phi$$
+$$
+n\lambda = 2d\sin\phi
+$$
 
 Where $\phi$ is the angle measured from the crystal surface.
 
 **The key observation.** At $V = 54$ V, a pronounced peak was observed at $\phi = 50°$. The De
 Broglie wavelength at this voltage is:
 
-$$\lambda = \frac{6.626 \times 10^{-34}}{\sqrt{2(9.109 \times 10^{-31})(1.602 \times 10^{-19})(54)}} = 0.167\;\mathrm{nm}$$
+$$
+\lambda = \frac{6.626 \times 10^{-34}}{\sqrt{2(9.109 \times 10^{-31})(1.602 \times 10^{-19})(54)}} = 0.167\;\mathrm{nm}
+$$
 
 The Bragg condition with the nickel lattice spacing gives excellent agreement with this Prediction,
 confirming that electrons exhibit wave-like diffraction.
@@ -217,17 +257,6 @@ De Broglie relation $\lambda = h/p$ was subsequently confirmed for neutrons, ato
 (C60 fullerenes in 1999), establishing it as a universal principle. In 2019, the de Broglie
 Wavelength of molecules exceeding 25,000 atomic mass units was demonstrated, pushing the boundary Of
 quantum mechanics to the macroscopic regime.
-
-
-```mermaid
-flowchart TD
-    A[1_Historical Motivation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -253,6 +282,6 @@ Quantum mechanics emerged because classical physics kept hitting walls. Imagine 
 - **[Electromagnetism](/3-electromagnetism/1_maxwell-s-equations/)**: Maxwell's equations describe classical electromagnetism, which fails to explain blackbody radiation and the photoelectric effect.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

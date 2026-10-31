@@ -22,27 +22,31 @@ description: "A defines a sequence by expressing in terms of previous terms. Com
 A **recurrence relation** defines a sequence $\{a_n\}$ by expressing $a_n$ in terms of previous
 terms.
 
-**Example.** Fibonacci: $F_n = F_{n-1} + F_{n-2}$With $F_0 = 0$, $F_1 = 1$.
+**Example.** Fibonacci: $F_n = F_{n-1} + F_{n-2}$ With $F_0 = 0$, $F_1 = 1$.
 
 ### 6.2 Linear Homogeneous Recurrences with Constant Coefficients
 
-$$a_n + c_1 a_{n-1} + \cdots + c_k a_{n-k} = 0$$
+$$
+a_n + c_1 a_{n-1} + \cdots + c_k a_{n-k} = 0
+$$
 
 **Solution method.** Form the **characteristic equation**:
 
-$$r^k + c_1 r^{k-1} + \cdots + c_k = 0$$
+$$
+r^k + c_1 r^{k-1} + \cdots + c_k = 0
+$$
 
 **Case 1 (distinct roots).** If $r_1, \ldots, r_k$ are distinct, then
 $a_n = A_1 r_1^n + \cdots + A_k r_k^n$.
 
-**Case 2 (repeated roots).** If $r$ has multiplicity $m$The contribution is
+**Case 2 (repeated roots).** If $r$ has multiplicity $m$ The contribution is
 $(A_1 + A_2 n + \cdots + A_m n^{m-1}) r^n$.
 
 ### 6.3 Worked Example
 
 **Problem.** Solve $a_n = 5a_{n-1} - 6a_{n-2}$ with $a_0 = 1$, $a_1 = 4$.
 
-_Solution._ Characteristic equation: $r^2 - 5r + 6 = 0$Giving $r_1 = 2$, $r_2 = 3$.
+_Solution._ Characteristic equation: $r^2 - 5r + 6 = 0$ Giving $r_1 = 2$, $r_2 = 3$.
 
 $a_n = A \cdot 2^n + B \cdot 3^n$.
 
@@ -69,7 +73,9 @@ So $a_n = (1 + 2n) \cdot 2^n$. $\blacksquare$
 
 The **generating function** of a sequence $\{a_n\}$ is
 
-$$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
+$$
+G(x) = \sum_{n=0}^{\infty} a_n x^n
+$$
 
 **Example.** The generating function for $a_n = 1$ (all ones) is $G(x) = 1/(1-x)$.
 
@@ -86,16 +92,20 @@ $F_n = F_{n-1} + F_{n-2}$ With $F_0 = 0$, $F_1 = 1$.
 
 Let $G(x) = \sum_{n=0}^{\infty} F_n x^n$.
 
-$$G(x) = x + \sum_{n=2}^{\infty} (F_{n-1} + F_{n-2}) x^n = x + x(G(x) - F_0) + x^2 G(x) = x + xG(x) + x^2 G(x)$$
+$$
+G(x) = x + \sum_{n=2}^{\infty} (F_{n-1} + F_{n-2}) x^n = x + x(G(x) - F_0) + x^2 G(x) = x + xG(x) + x^2 G(x)
+$$
 
-$$G(x)(1 - x - x^2) = x \implies G(x) = \frac{x}{1 - x - x^2}$$
+$$
+G(x)(1 - x - x^2) = x \implies G(x) = \frac{x}{1 - x - x^2}
+$$
 
 Factor: $1 - x - x^2 = (1 - \alpha x)(1 - \beta x)$ where $\alpha = (1 + \sqrt{5})/2$ and
 $\beta = (1 - \sqrt{5})/2$.
 
 Partial fractions give
 $G(x) = \frac{1}{\sqrt{5}} \left(\frac{1}{1 - \alpha x} - \frac{1}{1 - \beta x}\right)$ So
-$F_n = \frac{1}{\sqrt{5}}(\alpha^n - \beta^n)$ (Binet"s formula). $\blacksquare$
+$F_n = \frac{1}{\sqrt{5}}(\alpha^n - \beta^n)$ (Binet's formula). $\blacksquare$
 
 </details>
 
@@ -106,16 +116,20 @@ $F_n = \frac{1}{\sqrt{5}}(\alpha^n - \beta^n)$ (Binet"s formula). $\blacksquare$
 
 Let $G(x) = \sum_{n=0}^{\infty} a_n x^n$.
 
-$$G(x) = \sum_{n=1}^{\infty} (2a_{n-1} + 1) x^n = 2x G(x) + \sum_{n=1}^{\infty} x^n = 2x G(x) + \frac{x}{1-x}$$
+$$
+G(x) = \sum_{n=1}^{\infty} (2a_{n-1} + 1) x^n = 2x G(x) + \sum_{n=1}^{\infty} x^n = 2x G(x) + \frac{x}{1-x}
+$$
 
-$$(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}$$
+$$
+(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}
+$$
 
 Partial fractions: $\frac{x}{(1-x)(1-2x)} = \frac{A}{1-x} + \frac{B}{1-2x}$.
 
 $x = A(1-2x) + B(1-x)$. Setting $x = 0$: $A + B = 0$ So $B = -A$. Setting $x = 1$: $1 = -A$ So
 $A = -1$, $B = 1$.
 
-$G(x) = \frac{1}{1-2x} - \frac{1}{1-x}$Giving $a_n = 2^n - 1$. $\blacksquare$
+$G(x) = \frac{1}{1-2x} - \frac{1}{1-x}$ Giving $a_n = 2^n - 1$. $\blacksquare$
 
 </details>
 
@@ -127,7 +141,9 @@ manipulated algebraically.
 
 The Master Theorem provides asymptotic solutions to recurrences of the form
 
-$$T(n) = a\,T(n/b) + f(n)$$
+$$
+T(n) = a\,T(n/b) + f(n)
+$$
 
 Where $a \geq 1$, $b \gt 1$ are constants and $f(n)$ is asymptotically positive. Define
 $c_{\mathrm{crit{}} = \log_b a$ (the **critical exponent**).
@@ -151,7 +167,7 @@ condition**), then $T(n) = \Theta(f(n))$.
 
 $a = 3$, $b = 2$, $f(n) = n^2$. Critical exponent: $c_{\mathrm{crit{}} = \log_2 3 \approx 1.585$.
 
-Since $f(n) = n^2 = \Omega(n^c)$ for any $c \lt 2$ And $2 \gt 1.585 = c_{\mathrm{crit{}}$We are in
+Since $f(n) = n^2 = \Omega(n^c)$ for any $c \lt 2$ And $2 \gt 1.585 = c_{\mathrm{crit{}}$ We are in
 Case 3 (provided the regularity condition holds). Check:
 $3 \cdot (n/2)^2 = 3n^2/4 = 0.75\, n^2 \leq \delta\, n^2$ For $\delta = 0.75 \lt 1$. ✓
 
@@ -186,10 +202,12 @@ Therefore $T(n) = \Theta(n^2)$.
 </details>
 
 **Proof sketch of the Master Theorem.** Expand the recurrence tree. At level $j$ (root is level 0),
-There are $a^j$ subproblems, each of size $n/b^j$Each contributing $f(n/b^j)$ work. The tree has
+There are $a^j$ subproblems, each of size $n/b^j$ Each contributing $f(n/b^j)$ work. The tree has
 $\log_b n$ levels, with $a^{\log_b n} = n^{c_{\mathrm{crit{}}}$ leaves. The total work is
 
-$$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a^j \, f(n/b^j)}$$
+$$
+T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a^j \, f(n/b^j)}
+$$
 
 - **Case 1:** $f(n) = O(n^c)$ with $c \lt c_{\mathrm{crit{}}$. The sum is dominated by the leaves,
   giving $T(n) = \Theta(n^{c_{\mathrm{crit{}}})$.
@@ -202,16 +220,6 @@ $$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a
   (e.g., $f(n) = n \log n$ with $c_{\mathrm{crit{}} = 1$), the Master Theorem does not apply and the
   Akra--Bazzi method should be used Instead.
 :::
-
-```mermaid
-flowchart TD
-    A[6_Recurrence Relations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

@@ -66,20 +66,24 @@ The xvalue category occupies the intersection, it is both a glvalue (it has iden
 
 ## 1.3 Historical Evolution
 
+<div class="table-wrap">
+
 | Standard | Model         | Categories                               | Key Change                                              |
 | :------- | :------------ | :--------------------------------------- | :------------------------------------------------------ |
 | C++98/03 | Two-valued    | lvalue, rvalue                           | Simpler model; no move semantics                        |
 | C++11/14 | Five-valued   | lvalue, xvalue, prvalue, glvalue, rvalue | Move semantics, rvalue references introduced            |
 | C++17    | Three primary | lvalue, xvalue, prvalue                  | Guaranteed copy elision; prvalues are no longer objects |
 
+</div>
+
 C++98 distinguished only lvalues (things you can take the address of) and rvalues (everything else).
 C++11 introduced move semantics, requiring the xvalue category to represent "things that have
 Identity but are about to expire." C++17 refined the model by making prvalues non-objects until they
-Are materialized, which enabled guaranteed copy elision [N4950 S8.4.4].
+are materialized, which enabled guaranteed copy elision [N4950 S8.4.4].
 
 :::note
 (via reference binding rules), whether a move constructor or copy constructor is invoked, and
-Whether temporary lifetime extension applies. Understanding value categories is essential to
+whether temporary lifetime extension applies. Understanding value categories is essential to
 Understanding why move semantics work.
 :::
 
@@ -177,11 +181,15 @@ int main() {
 
 ## 2.4 Summary Table
 
+<div class="table-wrap">
+
 | Category | Has Identity? | Can Move From? | Typical Examples                                                             |
 | :------- | :------------ | :------------- | :--------------------------------------------------------------------------- |
 | lvalue   | Yes           | No             | named variables, `*ptr`String literals, `arr[i]`                             |
 | xvalue   | Yes           | Yes            | `std::move(x)``std::forward<T>(x)``return std::move(local);` (member access) |
 | prvalue  | No            | Yes            | `42``3.14``f()` (by-value return), `int{7}``a + b`                           |
+
+</div>
 
 :::note
 With reference qualifiers preserved, which is how the `static_assert` tests above work. Without the
@@ -228,17 +236,23 @@ $$
 
 ### Formal Definitions [N4950 S7.2.1]
 
+<div class="table-wrap">
+
 | Primary Category | Formal Definition                                                                                                                                                          |
 | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **lvalue**       | An expression that designates a function or an object [N4950 S7.2.1]. Example: a variable name, dereferenced pointer, array subscript, string literal.                     |
 | **xvalue**       | An expression that designates an object whose resources can be reused ( near end of lifetime) [N4950 S7.2.1]. Example: result of `std::move(x)`Member of rvalue reference. |
 | **prvalue**      | An expression that initializes an object or computes a value, has no identity [N4950 S7.2.1]. Example: literal, arithmetic result, by-value function return.               |
 
+</div>
+
 ### Value Category Matrix
 
 The following matrix shows how common expression forms are classified. Each entry maps an expression
 Form to its primary value category, the `decltype` of the expression, and the references it can bind
-To:
+to:
+
+<div class="table-wrap">
 
 | Expression            | Category | `decltype((e))`              | Binds to `T&`? | Binds to `T&&`? | Binds to `const T&`? |
 | :-------------------- | :------- | :--------------------------- | :------------- | :-------------- | :------------------- |
@@ -252,17 +266,21 @@ To:
 | `arr[i]`              | lvalue   | `int&`                       | Yes            | No              | Yes                  |
 | `std::move(s).member` | xvalue   | `int&&` (if member is `int`) | No             | Yes             | Yes                  |
 
+</div>
+
 **Key observations:**
 
 - Non-const lvalues are the only expressions that bind to non-const lvalue references (`T&`).
 - All rvalues (xvalues and prvalues) bind to rvalue references (`T&&`).
-- All expressions bind to `const T&`Which is why const lvalue references are the most permissive
+- All expressions bind to `const T&`. Which is why const lvalue references are the most permissive
   binding target.
 
 ## 3.2 `decltype` Behavior for Each Category
 
 The `decltype` specifier behaves differently depending on the value category of its argument. This
-Is critical for understanding template metaprogramming and SFINAE constraints.
+is critical for understanding template metaprogramming and SFINAE constraints.
+
+<div class="table-wrap">
 
 | Expression `e`             | `decltype(e)` | `decltype((e))`               | Explanation                           |
 | :------------------------- | :------------ | :---------------------------- | :------------------------------------ |
@@ -273,9 +291,11 @@ Is critical for understanding template metaprogramming and SFINAE constraints.
 | `42`                       | `int`         | `int` (prvalue, no reference) | Prvalues have no reference qualifier  |
 | `f()` (returns `int`)      | `int`         | `int` (prvalue)               | Function return is prvalue            |
 
+</div>
+
 The key rule: `decltype((e))` (with extra parentheses) yields the type of the **expression**, which
 Includes reference qualifiers. `decltype(e)` (without extra parentheses) yields the **declared type
-Of the identifier**, stripping references.
+of the identifier**, stripping references.
 
 ```cpp
 #include <type_traits>
@@ -324,11 +344,15 @@ Reference collapsing occurs during template argument deduction and `typedef`/`us
 Formation. When a reference to a reference is formed, the references **collapse** according to these
 Rules [N4950 S11.3.2]:
 
+<div class="table-wrap">
+
 | Template Argument `T` | Reference Type `T&` | Reference Type `T&&` |
 | :-------------------- | :------------------ | :------------------- |
 | `int`                 | `int&`              | `int&&`              |
 | `int&`                | `int&`              | `int&`               |
 | `int&&`               | `int&`              | `int&&`              |
+
+</div>
 
 The rules are:
 
@@ -340,7 +364,7 @@ More concisely: **only `T&& &&` collapses to `T&&`; all other combinations colla
 
 Reference collapsing is the mechanism that enables **perfect forwarding** through `std::forward`.
 When a forwarding reference `T&&` receives an lvalue, `T` is deduced as `U&`And `T&&` becomes
-`U& &&`Which collapses to `U&`. When it receives an rvalue, `T` is deduced as `U`And `T&&` is `U&&`.
+`U& &&`. Which collapses to `U&`. When it receives an rvalue, `T` is deduced as `U`And `T&&` is `U&&`.
 
 ```cpp
 #include <type_traits>
@@ -371,7 +395,7 @@ int main() {
 ## 3.4 Move Semantics as a Consequence of the Taxonomy
 
 Move semantics are not a separate language feature bolted onto C++, they are a **direct consequence
-Of the value category taxonomy**. The mechanism works as follows:
+of the value category taxonomy**. The mechanism works as follows:
 
 1. Overload resolution prefers rvalue reference bindings for rvalue arguments.
 2. `std::move` converts an lvalue to an xvalue (an rvalue).
@@ -445,7 +469,7 @@ int main() {
 ## 3.5 `std::move` and `std::forward` as Category Converters
 
 Both `std::move` and `std::forward` are casts that change the value category of an expression. They
-Do not move anything, they enable move semantics by converting the expression to an rvalue.
+do not move anything, they enable move semantics by converting the expression to an rvalue.
 
 ### `std::move`: lvalue $\to$ xvalue
 
@@ -458,7 +482,7 @@ constexpr typename std::remove_reference_t<T>&& move(T&& t) noexcept {
 ```
 
 `std::move` unconditionally casts its argument to an rvalue reference. The argument can be an lvalue
-Or an rvalue, in either case, the result is an xvalue.
+or an rvalue, in either case, the result is an xvalue.
 
 ### `std::forward`: preserves original category
 
@@ -530,12 +554,16 @@ When `T` is a deduced template parameter, `T&&` is a **forwarding reference** (a
 "universal reference" in pre-standard terminology). The deduction rules are special [N4950
 S13.3.3.1.3]:
 
+<div class="table-wrap">
+
 | Argument Type      | `T` Deduced As | `T&&` After Collapsing |
 | :----------------- | :------------- | :--------------------- |
 | `int` lvalue       | `int&`         | `int&`                 |
 | `const int` lvalue | `const int&`   | `const int&`           |
 | `int` rvalue       | `int`          | `int&&`                |
 | `const int` rvalue | `const int`    | `const int&&`          |
+
+</div>
 
 ### When Is `T&&` a Forwarding Reference?
 
@@ -619,7 +647,7 @@ Expanding the definition step by step for a call `std::move(x)` where `x` is an 
 `int`:
 
 1. **Template argument deduction:** `T` is deduced as `int&` (because `x` is an lvalue and the
-   parameter is `T&&`Which is a forwarding reference in this context).
+   parameter is `T&&`. Which is a forwarding reference in this context).
 2. **Remove reference:** `remove_reference_t&lt;int&amp;&gt;` = `int`.
 3. **Return type:** `int&&`.
 4. **Parameter type:** `T&&` = `int& &&` which collapses to `int&`.
@@ -631,7 +659,7 @@ No resources are transferred. The cast changes the value category from lvalue to
 allows overload resolution to select rvalue-reference overloads (move constructors, move Assignment
 operators).
 
-**Why this matters:** After `std::move(x)`The value of `x` is still valid but unspecified. The
+**Why this matters:** After `std::move(x)`. The value of `x` is still valid but unspecified. The
 Actual "move" happens in the move constructor or move assignment operator that receives the xvalue.
 `std::move` is therefore a misnomer, it should be called `std::rvalue_cast` or `std::as_rvalue`.
 The name is historical.
@@ -687,7 +715,7 @@ a.name after move ctor:
 ## 3.8 `decltype(auto)` and Perfect Forwarding
 
 `decltype(auto)` is a C++14 feature that uses the `decltype` rules to deduce the return type of a
-Function. Combined with `auto&&` parameters and `std::forward`It enables perfect forwarding of
+Function. Combined with `auto&&` parameters and `std::forward`. It enables perfect forwarding of
 Return types.
 
 ### `decltype(auto)` Rules
@@ -788,7 +816,7 @@ int y = x + 1;  // x is an lvalue, but '+' requires prvalues
 ```
 
 The lvalue-to-rvalue conversion does **not** change the value category of `x` itself, `x` remains
-An lvalue. The conversion produces a **new** prvalue expression from the value stored in `x`.
+an lvalue. The conversion produces a **new** prvalue expression from the value stored in `x`.
 
 ### Array-to-Pointer Conversion
 
@@ -813,7 +841,7 @@ void (*pf)() = f;  // f decays to prvalue void(*)()
 ### Temporary Materialization (C++17)
 
 In C++17, a prvalue is not an object, it is a recipe for constructing one. When a prvalue needs to
-Be treated as an object (to bind to a reference, take its address, or access a member), it is
+be treated as an object (to bind to a reference, take its address, or access a member), it is
 **materialized** into a temporary [N4950 S7.3.5]. This is the mechanism behind guaranteed copy
 Elision:
 
@@ -828,7 +856,7 @@ S obj = make_s();  // C++17: prvalue is directly materialized into obj (zero cop
 
 ## Common Pitfalls
 
-- **Using `std::move` on a `const` object.** `std::move(const T&)` returns `const T&&`Which binds to
+- **Using `std::move` on a `const` object.** `std::move(const T&)` returns `const T&&`. Which binds to
   copy constructors (not move constructors). The object cannot actually be moved from.
 
 - **Using `std::move` on a return value.** `return std::move(local);` prevents NRVO and forces a
@@ -843,16 +871,16 @@ S obj = make_s();  // C++17: prvalue is directly materialized into obj (zero cop
   Prvalues do not exist as objects until materialized (C++17+).
 
 - **Assuming `auto&&` is always a forwarding reference.** In a range-for loop, `auto&&` is a
-  forwarding reference. But in a simple declaration like `auto&& x = expr;``auto` may be deduced as
+  forwarding reference. But in a simple declaration like `auto&& x = expr;`, `auto` may be deduced as
   a concrete type, making `auto&&` a plain rvalue reference. For example, `auto&& x = 42;` deduces
-  `auto` as `int`So `x` has type `int&&`.
+  `auto` as `int`. So `x` has type `int&&`.
 
 - **Using `decltype(auto)` with parenthesized return.** `decltype(auto) f() { return (x); }` returns
-  a reference to `x`Not a copy. If `x` is a local variable, this is a dangling reference. Always use
+  a reference to `x`. Not a copy. If `x` is a local variable, this is a dangling reference. Always use
   `return x;` (no parentheses) for by-value returns.
 
 - **Overloading on rvalue references for forwarding.** If you write both `void f(T&&)` and
-  `void f(const T&)`The rvalue reference overload is preferred for non-const rvalues. But this is
+  `void f(const T&)`. The rvalue reference overload is preferred for non-const rvalues. But this is
   not forwarding, it only accepts rvalues. Use a template with a forwarding reference if you need
   to accept both lvalues and rvalues with a single overload.
 

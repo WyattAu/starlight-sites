@@ -22,18 +22,24 @@ description: "The Cauchy-Riemann Equations: comprehensive educational content no
 **Theorem 3.1 (Cauchy-Riemann Equations).** If $f(z) = u(x, y) + iv(x, y)$ is differentiable at
 $z = x + iy$ Then
 
-$$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \quad \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}$$
+$$
+\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \quad \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}
+$$
 
 _Proof._ Compute the limit along the real axis ($h \in \mathbb{R}$, $h \to 0$):
 
-$$f"(z) = \lim_{h \to 0} \frac{u(x+h, y) - u(x, y)}{h} + i\lim_{h \to 0} \frac{v(x+h, y) - v(x, y)}{h} = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x}$$
+$$
+f"(z) = \lim_{h \to 0} \frac{u(x+h, y) - u(x, y)}{h} + i\lim_{h \to 0} \frac{v(x+h, y) - v(x, y)}{h} = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x}
+$$
 
 Compute along the imaginary axis ($h = ik$, $k \in \mathbb{R}$, $k \to 0$):
 
-$$f'(z) = \lim_{k \to 0} \frac{u(x, y+k) - u(x, y)}{ik} + i\lim_{k \to 0} \frac{v(x, y+k) - v(x, y)}{ik} = -i\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y}$$
+$$
+f'(z) = \lim_{k \to 0} \frac{u(x, y+k) - u(x, y)}{ik} + i\lim_{k \to 0} \frac{v(x, y+k) - v(x, y)}{ik} = -i\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y}
+$$
 
 Equating real and imaginary parts: $\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}$
-And $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksquare$
+and $\frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$. $\blacksquare$
 
 ### 3.2 Sufficiency Condition
 
@@ -60,7 +66,9 @@ As $\Delta z \to 0$. $\blacksquare$
 
 When the Cauchy-Riemann equations hold:
 
-$$f'(z) = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x} = \frac{\partial v}{\partial y} - i\frac{\partial u}{\partial y}$$
+$$
+f'(z) = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x} = \frac{\partial v}{\partial y} - i\frac{\partial u}{\partial y}
+$$
 
 ### 3.4 Harmonic Functions
 
@@ -77,11 +85,11 @@ $u_{xx} + u_{yy} = v_{yx} - v_{xy} = 0$. Similarly for $v$. $\blacksquare$
 $v$ is the **harmonic conjugate** of $u$.
 
 **Proposition 3.4.** If $U$ is a connected domain and $u$ is harmonic on $U$ Then $u$ has A harmonic
-conjugate on $U$Unique up to an additive constant.
+conjugate on $U$ Unique up to an additive constant.
 
 _Proof._ Define $v(x, y) = \int_{(x_0, y_0)}^{(x, y)} (-u_y\, dx + u_x\, dy)$. The integrand is
 closed (since $(-u_y)_y = -u_{yy} = u_{xx} = (u_x)_x$) and since $U$ is Connected, $v$ is
-well-defined (path-independent) by Green's theorem. Then $v_x = -u_y$ and $v_y = u_x$Which are the
+well-defined (path-independent) by Green's theorem. Then $v_x = -u_y$ and $v_y = u_x$ Which are the
 CR equations. $\blacksquare$
 
 <details>
@@ -92,7 +100,7 @@ CR equations. $\blacksquare$
 Verify $u$ is harmonic: $u_{xx} = 6x$, $u_{yy} = -6x$ So $u_{xx} + u_{yy} = 0$. $\checkmark$
 
 By CR: $v_y = u_x = 3x^2 - 3y^2$ So $v = 3x^2 y - y^3 + g(x)$. Also $v_x = -u_y = 6xy$ So
-$6xy = 6xy + g'(x)$Giving $g'(x) = 0$ So $g(x) = C$.
+$6xy = 6xy + g'(x)$ Giving $g'(x) = 0$ So $g(x) = C$.
 
 Harmonic conjugate: $v(x, y) = 3x^2 y - y^3 + C$.
 
@@ -173,17 +181,6 @@ Analyticity requires differentiability in a neighborhood, not just at a point. A
 **Mistake 5: Forgetting to check that partial derivatives are continuous.**
 The sufficiency condition for the Cauchy-Riemann equations requires that the partial derivatives $u_x, u_y, v_x, v_y$ be continuous in a neighborhood. If the partial derivatives are not continuous, the function may not be differentiable even if the Cauchy-Riemann equations hold. Always verify continuity of partial derivatives.
 
-
-```mermaid
-flowchart TD
-    A[3_The Cauchy Riemann Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Cauchy-Riemann equations are the complex analogue of requiring a function to have the same derivative regardless of direction. In the real world, partial derivatives in x and y can be chosen independently, but complex differentiability forces them to be coupled. This coupling means the real part u and imaginary part v are harmonic conjugates, each satisfying Laplace's equation. Think of a fluid flow: u might represent pressure and v the velocity potential, and the Cauchy-Riemann equations ensure the flow is irrotational and incompressible simultaneously.
@@ -194,26 +191,6 @@ The Cauchy-Riemann equations are the complex analogue of requiring a function to
 - **[Complex Integration](/6-complex-analysis/4_complex-integration/)**: Cauchy's integral theorem relies on the Cauchy-Riemann equations for its proof.
 - **[Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)**: Analytic functions can be represented as power series, which follows from the Cauchy-Riemann equations.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

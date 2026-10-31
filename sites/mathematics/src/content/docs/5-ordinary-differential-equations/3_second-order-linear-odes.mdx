@@ -16,7 +16,9 @@ import DesmosGraph from "@components/DesmosGraph";
 
 A **second-order linear ODE** has the form
 
-$$y'' + p(x)y' + q(x)y = g(x)$$
+$$
+y'' + p(x)y' + q(x)y = g(x)
+$$
 
 **Theorem 3.1.** If $y_1$ and $y_2$ are solutions of the homogeneous equation $y'' + py' + qy = 0$
 Then $c_1 y_1 + c_2 y_2$ is also a solution (superposition principle).
@@ -24,18 +26,22 @@ Then $c_1 y_1 + c_2 y_2$ is also a solution (superposition principle).
 **Theorem 3.2 (Wronskian Criterion).** Two solutions $y_1, y_2$ of the homogeneous equation form a
 **fundamental set** (i.e., span all solutions) if and only if their Wronskian is non-zero:
 
-$$W(y_1, y_2)(x) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix} \neq 0$$
+$$
+W(y_1, y_2)(x) = \begin{vmatrix} y_1 & y_2 \\ y_1' & y_2' \end{vmatrix} \neq 0
+$$
 
 **Abel's identity** states that $W(x) = W(x_0) e^{-\int_{x_0}^x p(t)\, dt}$.
 
-**Theorem 3.3.** The general solution of $y'' + py' + qy = g$ is $y = y_h + y_p$Where $y_h$ is the
+**Theorem 3.3.** The general solution of $y'' + py' + qy = g$ is $y = y_h + y_p$ Where $y_h$ is the
 General solution of the homogeneous equation and $y_p$ is any particular solution.
 
 ### 3.2 Homogeneous Equations with Constant Coefficients
 
 For $y'' + ay' + by = 0$ with $a, b$ constants, try $y = e^{rx}$:
 
-$$r^2 + ar + b = 0$$
+$$
+r^2 + ar + b = 0
+$$
 
 **Case 1: Two distinct real roots $r_1 \neq r_2$.** $y_h = c_1 e^{r_1 x} + c_2 e^{r_2 x}$.
 
@@ -107,6 +113,8 @@ $y = e^{2x} + xe^{2x} = e^{2x}(1 + x)$. $\blacksquare$
 For equations $y'' + ay' + by = g(x)$ where $g(x)$ is a polynomial, exponential, sine, cosine, or
 Products of these, guess the form of $y_p$ and solve for coefficients.
 
+<div class="table-wrap">
+
 | $g(x)$                               | Guess for $y_p$                  |
 | ------------------------------------ | -------------------------------- |
 | $P_n(x)$                             | $A_n x^n + \cdots + A_0$         |
@@ -115,6 +123,8 @@ Products of these, guess the form of $y_p$ and solve for coefficients.
 | $e^{ax} P_n(x)$                      | $e^{ax}(A_n x^n + \cdots + A_0)$ |
 | $e^{ax}\sin(bx)$ or $e^{ax}\cos(bx)$ | $e^{ax}(A\sin(bx) + B\cos(bx))$  |
 
+</div>
+
 **Rule.** If any term of the guess is a solution of the homogeneous equation, multiply by $x$ (or
 $x^2$ if already multiplied by $x$).
 
@@ -122,7 +132,7 @@ $x^2$ if already multiplied by $x$).
 
 **Problem.** Solve $y'' - y = 2e^x$.
 
-_Solution._ Homogeneous: $r^2 - 1 = 0$Roots $\pm 1$. $y_h = c_1 e^x + c_2 e^{-x}$.
+_Solution._ Homogeneous: $r^2 - 1 = 0$ Roots $\pm 1$. $y_h = c_1 e^x + c_2 e^{-x}$.
 
 Since $e^x$ is a homogeneous solution, guess $y_p = Axe^x$. $y_p' = Ae^x + Axe^x$
 $y_p'' = 2Ae^x + Axe^x$. $y_p'' - y_p = (2Ae^x + Axe^x) - Axe^x = 2Ae^x = 2e^x$ So $A = 1$.
@@ -136,7 +146,7 @@ $y = c_1 e^x + c_2 e^{-x} + xe^x$. $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-_Solution._ Homogeneous: $r^2 + 3r + 2 = (r+1)(r+2) = 0$Roots $-1, -2$.
+_Solution._ Homogeneous: $r^2 + 3r + 2 = (r+1)(r+2) = 0$ Roots $-1, -2$.
 
 $y_h = c_1 e^{-x} + c_2 e^{-2x}$.
 
@@ -192,10 +202,12 @@ $y = c_1 e^{-x} + c_2 xe^{-x} - 3e^{-x}\sin x$. $\blacksquare$
 
 Consider the forced harmonic oscillator
 
-$$y'' + \omega_0^2 y = F_0 \cos(\omega t)$$
+$$
+y'' + \omega_0^2 y = F_0 \cos(\omega t)
+$$
 
 **Case 1: $\omega \neq \omega_0$ (Non-resonant).** The particular solution is
-$y_p = \frac{F_0}{\omega_0^2 - \omega^2}\cos(\omega t)$With bounded amplitude.
+$y_p = \frac{F_0}{\omega_0^2 - \omega^2}\cos(\omega t)$ With bounded amplitude.
 
 **Case 2: $\omega = \omega_0$ (Resonant).** Since $\cos(\omega_0 t)$ is a homogeneous solution,
 Guess $y_p = At\sin(\omega_0 t)$. Substituting:
@@ -204,7 +216,9 @@ $y_p'' + \omega_0^2 y_p = 2A\omega_0 \cos(\omega_0 t) - A\omega_0^2 t\sin(\omega
 
 Setting equal to $F_0 \cos(\omega_0 t)$: $A = \frac{F_0}{2\omega_0}$.
 
-$$y_p = \frac{F_0}{2\omega_0} t \sin(\omega_0 t)$$
+$$
+y_p = \frac{F_0}{2\omega_0} t \sin(\omega_0 t)
+$$
 
 The amplitude grows linearly with $t$ --- this is **resonance**. Physically, the system absorbs
 energy From the periodic forcing at its natural frequency, causing unbounded oscillations.
@@ -234,10 +248,12 @@ $y = t\sin(3t)$. $\blacksquare$
 
 ### 3.10 Variation of Parameters
 
-**Theorem 3.4 (Variation of Parameters).** For $y'' + p(x)y' + q(x)y = g(x)$Let $y_1, y_2$ be a
+**Theorem 3.4 (Variation of Parameters).** For $y'' + p(x)y' + q(x)y = g(x)$ Let $y_1, y_2$ be a
 Fundamental set of solutions of the homogeneous equation. Then a particular solution is
 
-$$y_p = -y_1 \int \frac{y_2 g}{W}\, dx + y_2 \int \frac{y_1 g}{W}\, dx$$
+$$
+y_p = -y_1 \int \frac{y_2 g}{W}\, dx + y_2 \int \frac{y_1 g}{W}\, dx
+$$
 
 Where $W = W(y_1, y_2) = y_1 y_2' - y_2 y_1'$.
 
@@ -246,7 +262,7 @@ Then $y_p' = u_1 y_1' + u_2 y_2'$ and $y_p'' = u_1' y_1' + u_1 y_1'' + u_2' y_2'
 Substituting into the ODE:
 $(u_1'y_1' + u_2'y_2') + u_1(y_1'' + py_1' + qy_1) + u_2(y_2'' + py_2' + qy_2) = g$. Since
 $y_1, y_2$ satisfy the homogeneous equation, this reduces to $u_1'y_1' + u_2'y_2' = g$. Together
-With $u_1'y_1 + u_2'y_2 = 0$Solving gives the formulas above. $\blacksquare$
+with $u_1'y_1 + u_2'y_2 = 0$ Solving gives the formulas above. $\blacksquare$
 
 ### 3.11 Worked Example: Variation of Parameters
 
@@ -268,7 +284,7 @@ $y = c_1 \cos x + c_2 \sin x - \cos x \ln|\sec x + \tan x|$. $\blacksquare$
 
 ### 3.12 Reduction of Order
 
-**Theorem 3.5.** Given one solution $y_1(x)$ of $y'' + p(x)y' + q(x)y = 0$A second linearly
+**Theorem 3.5.** Given one solution $y_1(x)$ of $y'' + p(x)y' + q(x)y = 0$ A second linearly
 Independent solution is obtained by setting $y_2 = y_1 \int \frac{e^{-\int p(x)\, dx}}{y_1^2}\, dx$.
 
 _Proof._ Seek $y_2 = v(x) y_1(x)$. Then $y_2' = v'y_1 + vy_1'$ and
@@ -282,15 +298,15 @@ Since $y_1$ satisfies the ODE, the coefficient of $v$ vanishes:
 
 $v''y_1 + v'(2y_1' + py_1) = 0$
 
-Let $w = v'$. Then $w'y_1 + w(2y_1' + py_1) = 0$A separable first-order ODE:
+Let $w = v'$. Then $w'y_1 + w(2y_1' + py_1) = 0$ A separable first-order ODE:
 
 $\frac{w'}{w} = -\frac{2y_1' + py_1}{y_1} = -2\frac{y_1'}{y_1} - p$
 
 $\ln w = -2\ln y_1 - \int p\, dx \implies w = \frac{e^{-\int p\, dx}}{y_1^2}$
 
-Since $w = v'$We obtain the result. $\blacksquare$
+Since $w = v'$ We obtain the result. $\blacksquare$
 
-**Worked Example.** Given that $y_1 = e^x$ solves $y'' - 2y' + y = 0$Find a second solution.
+**Worked Example.** Given that $y_1 = e^x$ solves $y'' - 2y' + y = 0$ Find a second solution.
 
 <details>
 <summary>Solution</summary>
@@ -299,7 +315,7 @@ _Solution._ Here $p(x) = -2$ So $e^{-\int p\, dx} = e^{2x}$.
 
 $y_2 = e^x \int \frac{e^{2x}}{e^{2x}}\, dx = e^x \int 1\, dx = xe^x$.
 
-This gives $y_h = c_1 e^x + c_2 xe^x$Consistent with the repeated-root case ($r = 1$ with
+This gives $y_h = c_1 e^x + c_2 xe^x$ Consistent with the repeated-root case ($r = 1$ with
 Multiplicity 2). $\blacksquare$
 
 </details>
@@ -308,11 +324,15 @@ Multiplicity 2). $\blacksquare$
 
 An **Euler-Cauchy (equidimensional) equation** has the form
 
-$$x^2 y'' + axy' + by = 0, \quad x > 0$$
+$$
+x^2 y'' + axy' + by = 0, \quad x > 0
+$$
 
 The substitution $y = x^r$ gives the characteristic equation
 
-$$r(r - 1) + ar + b = r^2 + (a - 1)r + b = 0$$
+$$
+r(r - 1) + ar + b = r^2 + (a - 1)r + b = 0
+$$
 
 **Case 1: Two distinct real roots $r_1 \neq r_2$.** $y_h = c_1 x^{r_1} + c_2 x^{r_2}$.
 
@@ -363,19 +383,27 @@ For $y^{(n)} + a_{n-1}y^{(n-1)} + \cdots + a_1 y' + a_0 y = 0$:
 A mass $m$ on a spring with spring constant $k$ and damping coefficient $c$, subject to external
 force $F(t)$, satisfies
 
-$$mx'' + cx' + kx = F(t)$$
+$$
+mx'' + cx' + kx = F(t)
+$$
 
 Dividing by $m$ and setting $\omega_0 = \sqrt{k/m}$, $\gamma = c/(2m)$:
 
-$$x'' + 2\gamma x' + \omega_0^2 x = \frac{F(t)}{m}$$
+$$
+x'' + 2\gamma x' + \omega_0^2 x = \frac{F(t)}{m}
+$$
 
 The homogeneous solution depends on the discriminant $\gamma^2 - \omega_0^2$:
+
+<div class="table-wrap">
 
 | Condition                 | Type        | Homogeneous Solution                                                                                    |
 | ------------------------- | ----------- | ------------------------------------------------------------------------------------------------------- |
 | $\gamma^2 \lt \omega_0^2$ | Underdamped | $e^{-\gamma t}(c_1 \cos(\omega_d t) + c_2 \sin(\omega_d t))$, $\omega_d = \sqrt{\omega_0^2 - \gamma^2}$ |
 | $\gamma^2 = \omega_0^2$   | Critical    | $e^{-\gamma t}(c_1 + c_2 t)$                                                                            |
 | $\gamma^2 > \omega_0^2$   | Overdamped  | $c_1 e^{r_1 t} + c_2 e^{r_2 t}$, $r_{1,2} = -\gamma \pm \sqrt{\gamma^2 - \omega_0^2}$                   |
+
+</div>
 
 ### 3.17 Intuition: What Does the Characteristic Equation Tell You?
 
@@ -414,7 +442,9 @@ grows:
 
 Consider the forced harmonic oscillator
 
-$$y'' + \omega_0^2 y = F_0 \cos(\omega t)$$
+$$
+y'' + \omega_0^2 y = F_0 \cos(\omega t)
+$$
 
 **Case 1: $\omega \neq \omega_0$ (Non-resonant).** The particular solution is
 $y_p = \frac{F_0}{\omega_0^2 - \omega^2}\cos(\omega t)$ with bounded amplitude.
@@ -426,7 +456,9 @@ $y_p'' + \omega_0^2 y_p = 2A\omega_0 \cos(\omega_0 t) - A\omega_0^2 t\sin(\omega
 
 Setting equal to $F_0 \cos(\omega_0 t)$: $A = \frac{F_0}{2\omega_0}$.
 
-$$y_p = \frac{F_0}{2\omega_0} t \sin(\omega_0 t)$$
+$$
+y_p = \frac{F_0}{2\omega_0} t \sin(\omega_0 t)
+$$
 
 The amplitude grows linearly with $t$ --- this is **resonance**. Physically, the system absorbs
 energy from the periodic forcing at its natural frequency, causing unbounded oscillations.
@@ -457,14 +489,14 @@ $y = t\sin(3t)$. $\blacksquare$
 <Aside type="caution">
 Common Pitfall When using undetermined coefficients, always check whether your guess
 
-Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails
-Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
+Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$ Guessing $y_p = Ae^{2x}$ fails
+because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 </Aside>
 
 <Aside type="caution">
 Common Pitfall For Euler-Cauchy equations, the substitution $y = x^r$ only works for
 
-$x > 0$. For $x < 0$Substitute $x = -e^t$ or use $y = (-x)^r$.
+$x > 0$. For $x < 0$ Substitute $x = -e^t$ or use $y = (-x)^r$.
 </Aside>
 
 <Aside type="caution">
@@ -478,7 +510,9 @@ Prefer undetermined coefficients --- it is much faster.
 **Theorem 3.6 (Abel's Identity).** If $y_1, y_2$ are solutions of $y'' + p(x)y' + q(x)y = 0$ Then
 their Wronskian satisfies
 
-$$W(x) = W(x_0) e^{-\int_{x_0}^x p(t)\, dt}$$
+$$
+W(x) = W(x_0) e^{-\int_{x_0}^x p(t)\, dt}
+$$
 
 _Proof._ Since $y_1, y_2$ satisfy the ODE:
 
@@ -490,7 +524,7 @@ $= y_1(-py_2' - qy_2) - (-py_1' - qy_1)y_2$
 
 $= -p(y_1 y_2' - y_1' y_2) = -pW$.
 
-So $W' + pW = 0$Giving $W = Ce^{-\int p\, dx}$ And evaluating at $x_0$ gives the result.
+So $W' + pW = 0$ Giving $W = Ce^{-\int p\, dx}$ And evaluating at $x_0$ gives the result.
 $\blacksquare$
 
 _Corollary._ $W(x)$ is either identically zero or never zero.
@@ -522,16 +556,6 @@ $y = c_1 e^{2x} + c_2 e^{-2x} - \frac{(x+2)e^x}{9}$. $\blacksquare$
 
 </details>
 </Aside>
-
-```mermaid
-flowchart TD
-    A[3_Second Order Linear Odesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 

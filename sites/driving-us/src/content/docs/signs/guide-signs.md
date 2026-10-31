@@ -56,12 +56,16 @@ canonical question: brown = **recreational and cultural interest**.
 
 ## Route Markers and Numbering Logic
 
+<div class="table-wrap">
+
 | Marker | Network | Numbering logic |
 |--------|---------|-----------------|
 | Red-white-blue shield | Interstate | Even = east-west, odd = north-south; 3-digit spurs serve cities |
 | White shield on black | US Highway | Same parity logic, older network |
 | State outline/pentagon | State routes | Formats vary by state |
 | Green/white county | County roads | Varies |
+
+</div>
 
 The interstate parity rule is a recurring test question: **even
 numbers run east-west, odd numbers run north-south**, and a leading
@@ -90,6 +94,8 @@ is the mile-based system.
 
 ## Quick Recall Table
 
+<div class="table-wrap">
+
 | Color | Domain | Example |
 |-------|--------|---------|
 | Green | Direction, distance, exits | "Chicago 212" mileage sign |
@@ -98,8 +104,12 @@ is the mile-based system.
 | Green/white shield | Interstate | I-80, I-405 |
 | Black/white shield | US route | US-101 |
 
+</div>
+
 
 ## Guide Sign Catalog
+
+<div class="table-wrap">
 
 | Sign | Color | Meaning |
 |------|-------|---------|
@@ -112,7 +122,11 @@ is the mile-based system.
 | Park/museum | Brown | Recreation and culture |
 | Scenic byway | Brown | Designated scenic route |
 
+</div>
+
 ## Interstate Numbering Drill
+
+<div class="table-wrap">
 
 | Number | Direction | Example |
 |--------|-----------|---------|
@@ -121,7 +135,11 @@ is the mile-based system.
 | 3-digit odd prefix | Spur into city | I-405 off I-5 corridor logic |
 | 3-digit even prefix | Belt/loop bypass | Beltways around metros |
 
+</div>
+
 ## Answer-Pattern Drill
+
+<div class="table-wrap">
 
 | Question mentions... | Answer... |
 |---------------------|-----------|
@@ -131,6 +149,8 @@ is the mile-based system.
 | I-405 | Spur off parent I-5 corridor |
 | Exit 212 | Mile marker 212 |
 | TO shield | Connector to that route |
+
+</div>
 ## See also
 
 - [Road Signs | Driving (US)](/road-signs/)

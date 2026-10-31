@@ -24,7 +24,7 @@ Completeness.
 
 Coverage tools work by **instrumenting** the binary. During compilation, the compiler inserts hidden
 Counter instructions at the entry points of every **Basic Block** (a linear sequence of code with
-One entry and one exit).
+one entry and one exit).
 
 When the program runs, these counters increment. Upon process termination, the runtime writes the
 Counter data to raw profile files on the disk, which are then mapped back to the source code by
@@ -59,7 +59,7 @@ This workflow applies to GCC on Linux and MinGW-w64 on Windows.
 ### Step 1: Compilation Flags
 
 To instrument the binary, pass `--coverage` to both the compiler and the linker. This is a shorthand
-For `-fprofile-arcs -ftest-coverage` and linking `libgcov`.
+for `-fprofile-arcs -ftest-coverage` and linking `libgcov`.
 
 ```bash
 g++ -std=c++23 --coverage -g -O0 main.cpp -o app
@@ -169,7 +169,7 @@ endif()
 ### Defining a Coverage Target
 
 Instead of manually typing `lcov` or `llvm-cov` commands, define a custom CMake target to automate
-The generation.
+the generation.
 
 ```cmake
 if(ENABLE_COVERAGE AND CMAKE_CXX_COMPILER_ID MATCHES "Clang")
@@ -200,7 +200,7 @@ endif()
 ## Continuous Integration (CI) Best Practices
 
 In a CI environment (GitHub Actions, GitLab CI), the goal is to fail the build if coverage drops
-Below a threshold or to upload reports to visualization services.
+below a threshold or to upload reports to visualization services.
 
 ### 1. Artifact Upload
 
@@ -236,7 +236,7 @@ Executes. Line coverage alone can give a false sense of completeness.
 ### Branch Coverage
 
 Measures the percentage of conditional branches (if/else, switch, ternary) where **both** the true
-And false paths have been taken.
+and false paths have been taken.
 
 ```text
 Branches: 234/300 (78.0%)
@@ -272,12 +272,16 @@ Internal logic.
 
 ### Metric Comparison
 
+<div class="table-wrap">
+
 | Metric        | Granularity              | False Confidence Risk | Cost to Achieve High % |
 | ------------- | ------------------------ | --------------------- | ---------------------- |
 | **Line**      | Coarse                   | High                  | Low                    |
 | **Branch**    | Medium                   | Low                   | Medium                 |
 | **Function**  | Coarse (per-function)    | High                  | Low                    |
 | **Condition** | Fine (per-subexpression) | Very Low              | High                   |
+
+</div>
 
 **Industry standard for critical systems:** Branch coverage &gt; 80%, line coverage &gt; 90%. For
 Safety-critical (automotive, medical), branch coverage &gt; 95% is often required (per ISO 26262 /
@@ -546,16 +550,6 @@ endif()
 - [CMake Targets and Properties](/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/), Custom targets for
   coverage automation
 
-```mermaid
-flowchart TD
-    A[6_Code_Coveragex] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to code coverage, including key
@@ -569,10 +563,5 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

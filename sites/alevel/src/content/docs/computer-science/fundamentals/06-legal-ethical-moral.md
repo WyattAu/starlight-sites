@@ -32,18 +32,20 @@ Evaluating the impact of technology on society.
 
 **Definition.** **Law** is a system of rules enforced by a sovereign state through institutions such
 As courts and police. Breach of law attracts sanctions (fines, imprisonment, civil liability). Laws
-Are codified, publicly available, and apply universally within a jurisdiction.
+are codified, publicly available, and apply universally within a jurisdiction.
 
 **Definition.** **Ethics** is the branch of philosophy concerned with systematising, defending, and
 Recommending concepts of right and wrong conduct. Ethical frameworks provide structured approaches
-To evaluating the moral dimensions of actions. Professional bodies publish codes of ethics that
-Members are expected to follow.
+to evaluating the moral dimensions of actions. Professional bodies publish codes of ethics that
+members are expected to follow.
 
 **Definition.** **Morals** are personal or cultural beliefs about right and wrong. They are not
 Necessarily codified or enforced by any institution. Morals may differ between individuals and
-Cultures, whereas laws aim for consistency within a jurisdiction.
+cultures, whereas laws aim for consistency within a jurisdiction.
 
 ### Key Distinctions
+
+<div class="table-wrap">
 
 | Dimension    | Law                               | Ethics                                       | Morals                            |
 | ------------ | --------------------------------- | -------------------------------------------- | --------------------------------- |
@@ -54,9 +56,11 @@ Cultures, whereas laws aim for consistency within a jurisdiction.
 | Change speed | Slow (parliamentary process)      | Moderate (reviewed periodically)             | Rapid (shifts with attitudes)     |
 | Example      | The Data Protection Act 2018      | BCS Code of Conduct                          | Belief that surveillance is wrong |
 
+</div>
+
 :::caution
 Scenario. "Legal" means identify the specific Act and explain how it applies. "Ethical" means apply
-An ethical framework or professional code. Do not confuse the two.
+an ethical framework or professional code. Do not confuse the two.
 :::
 
 ### Why This Matters for Computer Scientists
@@ -64,7 +68,7 @@ An ethical framework or professional code. Do not confuse the two.
 Software systems process personal data, make automated decisions, control physical infrastructure,
 And mediate communication. A system that is technically correct but legally non-compliant, ethically
 Questionable, or morally objectionable can cause real harm. Computer scientists must understand
-These frameworks because:
+these frameworks because:
 
 - **Design decisions** have legal consequences (e.g., storing user data without consent violates the
   Data Protection Act 2018)
@@ -90,6 +94,8 @@ Act 2015.
 
 #### Sections and Offences
 
+<div class="table-wrap">
+
 | Section | Offence                                                              | Description                                                                                                                                                                                     | Maximum Penalty              |
 | ------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
 | s.1     | Unauthorised access to computer material                             | Gaining access to a computer system (or data on it) without permission. The access itself is the offence, regardless of intent to cause harm or whether any data is viewed.                     | 2 years imprisonment / fine  |
@@ -99,6 +105,8 @@ Act 2015.
 | s.3ZA   | Unauthorised access to impair computer operation                     | Unauthorised access with intent to impair operation.                                                                                                                                            | 10 years imprisonment / fine |
 | s.3ZB   | Supplying or obtaining articles to impair computer operation         | Supplying or obtaining tools intended to impair operation.                                                                                                                                      | 14 years imprisonment / fine |
 | s.3ZC   | Encouraging or assisting offences                                    | Assisting or encouraging another person to commit a CMA offence.                                                                                                                                | 10 years imprisonment / fine |
+
+</div>
 
 #### Case Law
 
@@ -116,7 +124,7 @@ Act 2015.
 
 :::caution
 Not need to have damaged or stolen anything. Merely guessing a password and gaining entry is
-Sufficient for conviction. Distinguish s.1 (access only) from s.3 (impairment/damage).
+sufficient for conviction. Distinguish s.1 (access only) from s.3 (impairment/damage).
 :::
 
 ### 2.2 Data Protection Act 2018 and UK GDPR
@@ -127,10 +135,12 @@ Tested piece of legislation across all boards.
 
 **Definition.** The **Data Protection Act 2018** (DPA 2018) is the UK's implementation of the EU
 General Data Protection Regulation (GDPR). Following Brexit, the UK operates under "UK GDPR" which
-Mirrors the EU GDPR with minor differences. Together, the DPA 2018 and UK GDPR form the UK's data
+mirrors the EU GDPR with minor differences. Together, the DPA 2018 and UK GDPR form the UK's data
 Protection framework, overseen by the Information Commissioner's Office (ICO).
 
 #### Key Terminology
+
+<div class="table-wrap">
 
 | Term                                            | Definition                                                                                                                                                                                                          |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -142,7 +152,11 @@ Protection framework, overseen by the Information Commissioner's Office (ICO).
 | Processing                                      | Any operation performed on personal data: collection, recording, organisation, structuring, storage, adaptation, retrieval, consultation, use, disclosure, erasure, or destruction.                                 |
 | Consent                                         | Freely given, specific, informed, and unambiguous indication of the data subject's agreement to processing.                                                                                                         |
 
+</div>
+
 #### The Seven Principles (UK GDPR Article 5)
+
+<div class="table-wrap">
 
 | Principle                                   | Description                                                                                                                                                                                              |
 | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -154,7 +168,11 @@ Protection framework, overseen by the Information Commissioner's Office (ICO).
 | 6. Integrity and confidentiality (security) | Personal data must be processed with appropriate technical and organisational measures to ensure security, including protection against unauthorised access, accidental loss, destruction, or damage.    |
 | 7. Accountability                           | The controller must demonstrate compliance with all other principles.                                                                                                                                    |
 
+</div>
+
 #### Data Subject Rights
+
+<div class="table-wrap">
 
 | Right                                                 | Description                                                                                                                                             |
 | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -165,6 +183,8 @@ Protection framework, overseen by the Information Commissioner's Office (ICO).
 | Right to data portability (Art. 20)                   | The data subject may receive their data in a structured, commonly used, machine-readable format and transmit it to another controller.                  |
 | Right to object (Art. 21)                             | The data subject may object to processing based on legitimate interests or processing for direct marketing.                                             |
 | Rights related to automated decision-making (Art. 22) | The data subject has the right not to be subject to decisions based solely on automated processing that produce legal or similarly significant effects. |
+
+</div>
 
 #### Controller and Processor Obligations
 
@@ -207,7 +227,7 @@ The ICO can impose:
 
 :::caution
 Processor. The controller decides _why_ and _how_ data is processed; the processor carries out the
-Processing on the controller's behalf. Both have obligations under UK GDPR, but the controller bears
+processing on the controller's behalf. Both have obligations under UK GDPR, but the controller bears
 Primary responsibility.
 :::
 
@@ -223,6 +243,8 @@ Works from the moment of creation, without requiring registration.
 
 #### What Is Protected
 
+<div class="table-wrap">
+
 | Category       | Examples                                                                                        |
 | -------------- | ----------------------------------------------------------------------------------------------- |
 | Literary works | Source code, documentation, manuals, website text                                               |
@@ -232,10 +254,12 @@ Works from the moment of creation, without requiring registration.
 | Databases      | Original selection and arrangement of data (database right, separate from copyright in content) |
 | Software       | Source code and object code are protected as literary works                                     |
 
+</div>
+
 #### Infringement
 
 Copyright is infringed when a person, without the licence of the copyright owner, does any of the
-Following restricted acts:
+following restricted acts:
 
 - Copies the work (direct copying or substantial part copying)
 - Issues copies to the public
@@ -246,6 +270,8 @@ Following restricted acts:
 
 #### Software Licensing
 
+<div class="table-wrap">
+
 | Licence Type                 | Description                                                                                                                                                                     |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Proprietary                  | The copyright owner grants limited rights to use the software under specific conditions. Source code is not distributed. The user purchases a licence, not the software itself. |
@@ -255,6 +281,8 @@ Following restricted acts:
 | Creative Commons             | A family of licences for creative works. Allows creators to specify how their work may be used (e.g., CC BY-NC-SA: attribution required, non-commercial use only, share-alike). |
 | Freeware                     | Software provided at no cost, but copyright remains with the owner. Redistribution or modification may be restricted.                                                           |
 | Shareware                    | Software distributed on a trial basis. Users are expected to pay for continued use.                                                                                             |
+
+</div>
 
 #### Fair Dealing
 
@@ -268,8 +296,8 @@ UK law provides limited exceptions under the "fair dealing" framework:
   broadcast (excluding photographs)
 
 Fair dealing is a defence, not a right. Whether a particular use qualifies as "fair" depends on
-Factors including the purpose of use, the amount copied, and the effect on the market for the
-Original work.
+factors including the purpose of use, the amount copied, and the effect on the market for the
+original work.
 
 #### Duration
 
@@ -280,10 +308,12 @@ Years from the end of the calendar year of the author's death.
 
 **Definition.** The **Regulation of Investigatory Powers Act 2000** (RIPA) regulates the powers of
 Public bodies to carry out surveillance and investigation, and covers the interception of
-Communications. It was substantially replaced by the **Investigatory Powers Act 2016** (IPA),
+communications. It was substantially replaced by the **Investigatory Powers Act 2016** (IPA),
 Sometimes called the "Snooper's Charter."
 
 #### Key Provisions of the IPA 2016
+
+<div class="table-wrap">
 
 | Power                              | Description                                                                                                                                                   | Authorization Required                                                            |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
@@ -294,10 +324,12 @@ Sometimes called the "Snooper's Charter."
 | Bulk data sets                     | Retention and analysis of large datasets of personal data for national security purposes.                                                                     | Subject to oversight by the Investigatory Powers Commissioner                     |
 | Bulk interception                  | Large-scale interception of external communications (communications where at least one end is outside the UK).                                                | Judicial warrant                                                                  |
 
+</div>
+
 #### Oversight
 
 The IPA established the **Investigatory Powers Commissioner's Office** (IPCO) to oversee the use of
-These powers. The **Technology Advisory Panel** advises on the technical feasibility and proportion
+these powers. The **Technology Advisory Panel** advises on the technical feasibility and proportion
 Ality of surveillance capabilities.
 
 #### Relevance to Computer Science
@@ -313,7 +345,7 @@ Ality of surveillance capabilities.
 
 **Definition.** The **Freedom of Information Act 2000** (FOIA) gives the public a general right of
 Access to information held by public authorities. It promotes transparency and accountability in
-Government.
+government.
 
 #### Key Provisions
 
@@ -327,10 +359,14 @@ Government.
 
 #### Exemptions
 
+<div class="table-wrap">
+
 | Type      | Examples                                                                                                       | Absolute or Qualified                                                        |
 | --------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Absolute  | Information supplied by or relating to security bodies; court records; legislative drafts                      | Absolute: not subject to public interest test                                |
 | Qualified | Information that would prejudice law enforcement, commercial interests, or effective conduct of public affairs | Qualified: disclosure must be weighed against public interest in withholding |
+
+</div>
 
 #### Relevance
 
@@ -362,6 +398,8 @@ Prohibits discrimination on nine "protected characteristics":
 
 #### Types of Discrimination
 
+<div class="table-wrap">
+
 | Type                          | Description                                                                                                                   |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Direct                        | Treating someone less favourably because of a protected characteristic                                                        |
@@ -370,6 +408,8 @@ Prohibits discrimination on nine "protected characteristics":
 | Discrimination by perception  | Treating someone less favourably because they are perceived to have a protected characteristic (whether or not they do)       |
 | Harassment                    | Unwanted conduct related to a protected characteristic that violates dignity or creates an intimidating environment           |
 | Victimisation                 | Treating someone unfairly because they have made a complaint of discrimination or supported someone else's complaint          |
+
+</div>
 
 #### Algorithmic Discrimination
 
@@ -389,7 +429,7 @@ Insurance pricing), the Equality Act applies. Key concerns:
 
 **Case study:** Amazon scrapped an AI recruiting tool in 2018 after discovering it systematically
 Downgraded CVs containing the word "women's" (e.g., "women's chess club captain") because the
-Training data was dominated by male engineers' CVs.
+training data was dominated by male engineers' CVs.
 
 ### 2.7 Online Safety Act 2023
 
@@ -399,6 +439,8 @@ Content.
 
 #### Key Duties
 
+<div class="table-wrap">
+
 | Duty                        | Description                                                                                                                                                  |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Duty of care                | Providers must take reasonable steps to prevent users from encountering illegal content and content harmful to children.                                     |
@@ -407,6 +449,8 @@ Content.
 | Priority offences           | Specific offences including terrorism, child sexual abuse, fraud, revenge pornography, hate crime, promoting self-harm, and selling illegal drugs.           |
 | Transparency reporting      | Providers must publish transparency reports detailing how they handle harmful content.                                                                       |
 | Super-complaints            | Ofcom can investigate systemic failures based on super-complaints from designated bodies.                                                                    |
+
+</div>
 
 #### Enforcement
 
@@ -418,12 +462,14 @@ Failures.
 
 **Definition.** The **Telecommunications (Lawful Business Interception) Regulations 2000** permit
 Organisations to intercept communications on their own telecommunications systems without consent in
-Specified circumstances.
+specified circumstances.
 
 #### Permitted Interceptions
 
 An organisation may intercept communications without the consent of the sender or recipient for the
-Following purposes:
+following purposes:
+
+<div class="table-wrap">
 
 | Purpose                        | Description                                                                                                                                                       |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -433,6 +479,8 @@ Following purposes:
 | Preventing or detecting crime  | To prevent or detect crime                                                                                                                                        |
 | Investigating unauthorised use | To detect the unauthorised use of the telecommunications system                                                                                                   |
 | Business communications        | Monitoring (but not recording) communications to ascertain whether they are relevant to the business (e.g., ensuring personal calls are not made on company time) |
+
+</div>
 
 #### Conditions
 
@@ -445,7 +493,7 @@ Following purposes:
 #### Relevance
 
 This legislation allows employers to monitor employee emails, internet usage, and phone calls on
-Company systems. It is frequently examined in scenarios involving workplace surveillance.
+company systems. It is frequently examined in scenarios involving workplace surveillance.
 
 ### 2.9 Consumer Rights Act 2015
 
@@ -456,7 +504,9 @@ Content**, which is directly relevant to computer science.
 #### Digital Content Provisions
 
 When a consumer acquires digital content (software, apps, games, music, video, e-books) in exchange
-For payment (including paying through data provision), the content must:
+for payment (including paying through data provision), the content must:
+
+<div class="table-wrap">
 
 | Requirement          | Description                                                                                                                                                        |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -464,13 +514,19 @@ For payment (including paying through data provision), the content must:
 | Fit for purpose      | The content must be fit for any specific purpose made known to the trader before the contract is made.                                                             |
 | As described         | The content must match any description given by the trader.                                                                                                        |
 
+</div>
+
 #### Remedies for Digital Content
+
+<div class="table-wrap">
 
 | Remedy                | Description                                                                                                                                                                          |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Repair or replacement | The consumer may request the trader to repair or replace the digital content. Repair or replacement must be provided within a reasonable time and without significant inconvenience. |
 | Price reduction       | If repair or replacement is not possible, or not provided within a reasonable time, the consumer may request a price reduction.                                                      |
 | Refund                | If the fault is so significant that repair/replacement/price reduction is not adequate, the consumer may reject the content and claim a full refund.                                 |
+
+</div>
 
 #### When Digital Content Causes Device Damage
 
@@ -489,12 +545,16 @@ Happiness or well-being (utility) for the greatest number of people.
 
 #### Application to Computing
 
+<div class="table-wrap">
+
 | Scenario                          | Utilitarian Analysis                                                                                                                                         |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Mass surveillance                 | If surveillance prevents terrorist attacks (preventing massive suffering), a utilitarian may argue it is justified, even if it infringes individual privacy. |
 | Automation and job loss           | If automation increases overall economic output and reduces the cost of goods, the net utility gain may outweigh the harm to displaced workers.              |
 | Data collection by tech companies | If user data is used to improve services and medical research, the collective benefit may justify the privacy intrusion.                                     |
 | Open source vs proprietary        | Open source software may maximise utility by making tools freely available, but if it eliminates incentives for developers, overall innovation may decline.  |
+
+</div>
 
 The key difficulty is **measuring and comparing utility.** How do you quantify the harm of privacy
 Violation against the benefit of preventing crime? Bentham proposed a "felicific calculus" to weigh
@@ -527,6 +587,8 @@ Kant's **categorical imperative** has several formulations:
 
 #### Application to Computing
 
+<div class="table-wrap">
+
 | Scenario                        | Deontological Analysis                                                                                                                                           |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Mass surveillance               | Violates the duty to respect individual autonomy and privacy, regardless of security benefits. Kant would argue surveillance is wrong even if it prevents crime. |
@@ -534,15 +596,19 @@ Kant's **categorical imperative** has several formulations:
 | Software piracy                 | Violates the duty to respect others' property and labour. The act is wrong regardless of whether copying software causes measurable harm.                        |
 | Whistleblowing                  | May conflict between duties: the duty of loyalty to one's employer vs the duty to tell the truth and protect the public.                                         |
 
+</div>
+
 ### 3.3 Virtue Ethics
 
 **Definition.** **Virtue ethics**, associated with Aristotle, focuses on the character of the moral
 Agent rather than rules or consequences. An action is morally right if it is what a virtuous person
-Would do in the circumstances.
+would do in the circumstances.
 
 The key virtues include: honesty, justice, courage, temperance, prudence, compassion.
 
 #### Application to Computing
+
+<div class="table-wrap">
 
 | Scenario                | Virtue Ethics Analysis                                                                                                                                                             |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -550,13 +616,19 @@ The key virtues include: honesty, justice, courage, temperance, prudence, compas
 | Automation and job loss | A virtuous company considers the impact on its workers, provides retraining, and acts with compassion. Firing workers to increase profits lacks virtue.                            |
 | AI bias                 | A virtuous developer tests their systems for bias, seeks diverse perspectives, and takes responsibility for the social impact of their work.                                       |
 
+</div>
+
 ### 3.4 Comparison of Ethical Frameworks
+
+<div class="table-wrap">
 
 | Framework      | Focus                  | Key Question                           | Strengths                                    | Weaknesses                                                   |
 | -------------- | ---------------------- | -------------------------------------- | -------------------------------------------- | ------------------------------------------------------------ |
 | Utilitarianism | Outcomes/consequences  | Does this maximise overall well-being? | Pragmatic; considers collective welfare      | Difficult to measure utility; may justify harming minorities |
 | Deontology     | Rules/duties           | Does this conform to a moral rule?     | Clear principles; respects individual rights | Inflexible; duties may conflict                              |
 | Virtue Ethics  | Character of the agent | What would a virtuous person do?       | Flexible; considers context and motivation   | Vague; no clear decision procedure                           |
+
+</div>
 
 :::caution
 The framework, explain its core principle, and then apply it to the specific case. Stating "it is
@@ -590,12 +662,16 @@ A Code of Conduct binding on all members. Key obligations include:
 The **Association for Computing Machinery** (ACM) Code of Ethics and Professional Conduct (2018
 Revision) organises principles into four categories:
 
+<div class="table-wrap">
+
 | Category                           | Principles (summary)                                                                                                                                                                                                    |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | General ethical principles         | Contribute to society and human well-being; avoid harm; be honest and trustworthy; be fair and act to not discriminate; respect copyright and attribution; respect privacy; honour confidentiality.                     |
 | Professional responsibilities      | Strive for high quality; maintain professional competence; know and respect existing laws; accept and provide appropriate review; give comprehensive and thorough evaluations; respect privacy; honour confidentiality. |
 | Professional leadership principles | Articulate social responsibilities; manage personnel and resources; acknowledge and address conflicts of interest; support the code.                                                                                    |
 | Compliance with the code           | Uphold and promote the principles; treat violations as inconsistent with membership.                                                                                                                                    |
+
+</div>
 
 ### 3.6 Whistleblowing and the Public Interest Disclosure Act 1998
 
@@ -621,8 +697,8 @@ For a disclosure to be protected, the worker must:
 #### Disclosure Channels
 
 Workers are encouraged to disclose internally first (to their employer). External disclosures (to
-Regulators, the media) may still be protected if the worker reasonably believes they will be
-Subjected to detriment for internal disclosure, or if the evidence would be destroyed.
+regulators, the media) may still be protected if the worker reasonably believes they will be
+subjected to detriment for internal disclosure, or if the evidence would be destroyed.
 
 #### Case Studies
 
@@ -643,6 +719,8 @@ Subjected to detriment for internal disclosure, or if the evidence would be dest
 
 #### Types of Surveillance
 
+<div class="table-wrap">
+
 | Type                     | Description                                                                                                                                    | Legal Framework                                                             |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | CCTV                     | Video surveillance of public and private spaces. The UK has one of the highest densities of CCTV cameras in the world (estimated 5-6 million). | Data Protection Act 2018; Protection of Freedoms Act 2012                   |
@@ -651,6 +729,8 @@ Subjected to detriment for internal disclosure, or if the evidence would be dest
 | Cookies and web tracking | Websites storing small files on users' devices to track browsing behaviour across sites. Third-party cookies enable cross-site profiling.      | Privacy and Electronic Communications Regulations (PECR); UK GDPR           |
 | Data harvesting          | Aggregation of personal data from multiple sources (social media, purchase records, location data) to build detailed profiles.                 | Data Protection Act 2018; UK GDPR                                           |
 | Facial recognition       | Automated identification of individuals from images or video. Used by law enforcement, retail, and in public spaces.                           | No specific UK legislation; challenged under Equality Act 2010 and DPA 2018 |
+
+</div>
 
 #### The Consent Problem
 
@@ -688,6 +768,8 @@ Profiling raises concerns about:
 
 #### Sources of Bias
 
+<div class="table-wrap">
+
 | Source            | Description                                                                                                |
 | ----------------- | ---------------------------------------------------------------------------------------------------------- |
 | Historical bias   | Training data reflects historical inequalities (e.g., hiring data biased against women and minorities).    |
@@ -696,6 +778,8 @@ Profiling raises concerns about:
 | Aggregation bias  | A single model is applied to a heterogeneous population when different subgroups require different models. |
 | Selection bias    | Features are selected based on correlations that may not be causal or that embed biases.                   |
 | Confirmation bias | Developers interpret model outputs in ways that confirm their pre-existing beliefs.                        |
+
+</div>
 
 #### Real-World Examples
 
@@ -713,6 +797,8 @@ Profiling raises concerns about:
 
 #### Fairness Definitions
 
+<div class="table-wrap">
+
 | Definition          | Description                                                                                                                                           |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Demographic parity  | The proportion of positive outcomes should be equal across groups. A hiring algorithm should hire the same percentage of male and female applicants.  |
@@ -720,10 +806,12 @@ Profiling raises concerns about:
 | Individual fairness | Similar individuals should receive similar outcomes. Two applicants with identical qualifications should receive the same credit score.               |
 | Calibration         | Predicted probabilities should be equally accurate across groups. A predicted 80% probability of repayment should mean the same thing for all groups. |
 
+</div>
+
 :::caution
 Generally impossible to satisfy multiple fairness definitions simultaneously when base rates differ
-Between groups. This means that choosing a fairness definition is itself an ethical decision, not a
-Purely technical one.
+between groups. This means that choosing a fairness definition is itself an ethical decision, not a
+purely technical one.
 :::
 
 #### Mitigation Strategies
@@ -754,12 +842,16 @@ The impact of automation on employment can be analysed at three levels:
 
 #### Historical Context
 
+<div class="table-wrap">
+
 | Period                | Technology                     | Jobs Displaced                                         | Jobs Created                                                                   |
 | --------------------- | ------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | Industrial Revolution | Steam power, mechanisation     | Hand weavers, artisans                                 | Factory workers, engineers, mechanics, railway workers                         |
 | Early 20th century    | Electrification, assembly line | Craftsmen, farm workers                                | Manufacturing workers, electricians, appliance repair                          |
 | Late 20th century     | Computers, internet            | Typists, switchboard operators                         | Software developers, IT support, digital marketing, data analysts              |
 | 21st century          | AI, robotics, automation       | Truck drivers, retail workers, accountants, paralegals | AI engineers, data scientists, robot maintenance, new industries yet to emerge |
+
+</div>
 
 #### Arguments For Automation
 
@@ -793,6 +885,8 @@ Information and communication technology and those who do not.
 
 #### Dimensions of the Digital Divide
 
+<div class="table-wrap">
+
 | Dimension             | Description                                                                                                                                        |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Access divide         | Physical access to hardware (computers, smartphones) and internet connectivity. Includes affordability, availability of broadband infrastructure.  |
@@ -800,6 +894,8 @@ Information and communication technology and those who do not.
 | Usage divide          | How people use technology. Even with access and skills, not everyone uses technology in ways that provide economic or social benefit.              |
 | Content divide        | The availability of relevant content in local languages and formats.                                                                               |
 | Infrastructure divide | Differences in the quality and speed of internet infrastructure between urban and rural areas, and between developed and developing nations.       |
+
+</div>
 
 #### Causes
 
@@ -838,6 +934,8 @@ Information and communication technology and those who do not.
 
 #### Energy Consumption
 
+<div class="table-wrap">
+
 | Source                 | Environmental Impact                                                                                                                                   |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Data centres           | Global data centres consume approximately 1-2% of the world's electricity. Cooling systems add to this demand.                                         |
@@ -846,11 +944,13 @@ Information and communication technology and those who do not.
 | Device manufacturing   | Manufacturing electronics requires mining raw materials (lithium, cobalt, rare earth elements), energy-intensive processing, and chemical use.         |
 | Device usage           | Billions of devices consume electricity during operation. Standby power consumption ("vampire power") is significant in aggregate.                     |
 
+</div>
+
 #### E-Waste
 
 **Definition.** **E-waste** (electronic waste) refers to discarded electrical or electronic devices.
 The UN estimates approximately 50 million tonnes of e-waste are generated globally each year, of
-Which only about 20% is formally recycled.
+which only about 20% is formally recycled.
 
 Key issues:
 
@@ -881,7 +981,7 @@ Key issues:
 
 Freedom of expression is a fundamental human right (Article 10 of the European Convention on Human
 Rights, Article 19 of the Universal Declaration of Human Rights). However, this right is not
-Absolute and may be restricted for legitimate reasons:
+absolute and may be restricted for legitimate reasons:
 
 - **Public safety:** Content that incites violence or terrorism
 - **Protection of minors:** Content that is harmful to children
@@ -892,6 +992,8 @@ Absolute and may be restricted for legitimate reasons:
 
 #### Censorship Mechanisms
 
+<div class="table-wrap">
+
 | Mechanism                | Description                                                                                                                                               |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Government blocking      | Governments block access to specific websites or services (e.g., the Great Firewall of China blocks access to many international services).               |
@@ -899,6 +1001,8 @@ Absolute and may be restricted for legitimate reasons:
 | Algorithmic filtering    | Platforms use algorithms to demote, restrict, or remove content (e.g., YouTube content moderation, Twitter/X label policies).                             |
 | Self-censorship          | Individuals or organisations restrict their own expression due to fear of legal consequences, social backlash, or surveillance.                           |
 | Network-level filtering  | ISPs or network operators filter content at the network level (e.g., the UK's ISP-level filtering of child sexual abuse material via the IWF block list). |
+
+</div>
 
 #### The Role of Technology Companies
 
@@ -929,6 +1033,8 @@ Speech through their content moderation policies. Key questions:
 
 #### Tensions
 
+<div class="table-wrap">
+
 | Issue                 | Proprietary Model                                                 | Open Source Model                                                                                 |
 | --------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | Incentive to innovate | Strong: profit motive drives investment                           | Weaker: innovation driven by community, reputation, and service models                            |
@@ -937,6 +1043,8 @@ Speech through their content moderation policies. Key questions:
 | Business model        | Selling licences, subscriptions, or usage                         | Selling services (support, hosting, consulting), dual licensing, or sponsored development         |
 | Compatibility         | May create vendor lock-in                                         | Standards-based, interoperable                                                                    |
 | Quality               | Varies: commercial pressure may lead to rushed releases           | Varies: community-driven quality may be higher or lower depending on project maturity             |
+
+</div>
 
 <hr />
 
@@ -947,8 +1055,8 @@ Speech through their content moderation policies. Key questions:
 #### The Classic Trolley Problem
 
 A runaway trolley is heading toward five people who will be killed if it continues. You can pull a
-Lever to divert the trolley onto a side track, where it will kill one person instead. Do you pull
-The lever?
+lever to divert the trolley onto a side track, where it will kill one person instead. Do you pull
+the lever?
 
 #### Applied to Autonomous Vehicles
 
@@ -960,11 +1068,15 @@ An autonomous vehicle encounters an unavoidable collision. Its options are:
 
 #### Ethical Analysis
 
+<div class="table-wrap">
+
 | Framework      | Analysis                                                                                                                                                                 |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Utilitarianism | The car should minimise total harm. If swerving saves more lives, it should swerve, even if this kills the driver.                                                       |
 | Deontology     | The car should follow universalisable rules. If the rule is "protect the occupants," the car should not sacrifice the driver. If the rule is "minimise harm," it should. |
 | Virtue ethics  | A virtuous designer would consider all stakeholders, be transparent about the car's decision-making, and ensure the system is as safe as possible overall.               |
+
+</div>
 
 #### Real-World Complexity
 
@@ -993,7 +1105,7 @@ Vehicles. Key principles:
 #### The Case
 
 In 2016, the FBI obtained a court order compelling Apple to create a modified version of iOS that
-Would bypass the auto-erase security feature on an iPhone 5c used by one of the San Bernardino
+would bypass the auto-erase security feature on an iPhone 5c used by one of the San Bernardino
 Shooters. The FBI wanted to brute-force the passcode without triggering the 10-attempt data wipe.
 
 Apple refused, arguing that:
@@ -1006,15 +1118,19 @@ Apple refused, arguing that:
 5. The All Writs Act of 1789, cited by the FBI, does not grant such sweeping authority
 
 The FBI ultimately withdrew the request after paying a third party to unlock the phone using an
-Alternative method.
+alternative method.
 
 #### Ethical Analysis
+
+<div class="table-wrap">
 
 | Framework      | Analysis                                                                                                                                                                      |
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Utilitarianism | A utilitarian would weigh the harm of one unread phone against the harm of weakening encryption for billions of users. The latter is likely greater.                          |
 | Deontology     | Apple has a duty to protect the security of its customers. Creating a backdoor would violate the categorical imperative (would we will that all companies create backdoors?). |
 | Virtue ethics  | Apple's stance demonstrates integrity and courage. A virtuous company protects its customers' trust even under government pressure.                                           |
+
+</div>
 
 #### Broader Implications
 
@@ -1037,6 +1153,8 @@ Social media platforms host billions of pieces of user-generated content daily. 
 
 #### Key Challenges
 
+<div class="table-wrap">
+
 | Challenge                | Description                                                                                                                                  |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | Scale                    | The volume of content is too large for human review alone. Algorithms must make initial decisions, with human appeal.                        |
@@ -1045,6 +1163,8 @@ Social media platforms host billions of pieces of user-generated content daily. 
 | Inconsistency            | Content moderation decisions are often inconsistent. Users perceive bias when similar content is treated differently.                        |
 | Misinformation           | False or misleading information (e.g., about elections, public health) can cause real harm. But platforms are not neutral arbiters of truth. |
 | Cross-border differences | Content that is legal in one jurisdiction may be illegal in another. Platforms operate globally but must comply with local laws.             |
+
+</div>
 
 #### Ethical Analysis
 
@@ -1060,7 +1180,7 @@ Social media platforms host billions of pieces of user-generated content daily. 
 #### The Technology
 
 Facial recognition systems use cameras to capture images of faces, extract biometric features, and
-Match them against a database of known faces. Uses include:
+match them against a database of known faces. Uses include:
 
 - Law enforcement: identifying suspects in crowds, at borders, or from CCTV footage
 - Retail: identifying known shoplifters or VIP customers
@@ -1068,6 +1188,8 @@ Match them against a database of known faces. Uses include:
 - Public spaces: general surveillance
 
 #### Concerns
+
+<div class="table-wrap">
 
 | Concern            | Description                                                                                                                                                         |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1077,6 +1199,8 @@ Match them against a database of known faces. Uses include:
 | Function creep     | Data collected for one purpose (e.g., identifying suspects) may be used for other purposes (e.g., tracking political dissidents).                                   |
 | Mass surveillance  | Combined with widespread CCTV, facial recognition enables comprehensive tracking of individuals' movements.                                                         |
 | Lack of regulation | There is no specific UK legislation governing the use of live facial recognition by police or private entities.                                                     |
+
+</div>
 
 #### Case Studies
 
@@ -1104,6 +1228,8 @@ And when crimes are likely to occur, or to identify individuals who are likely t
 
 #### Concerns
 
+<div class="table-wrap">
+
 | Concern              | Description                                                                                                                                                                                                      |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Feedback loops       | Police are sent to areas predicted to have high crime. They find and record more crime in those areas. This data feeds back into the model, reinforcing the prediction. This creates a self-fulfilling prophecy. |
@@ -1112,7 +1238,11 @@ And when crimes are likely to occur, or to identify individuals who are likely t
 | Presumption of guilt | Predictive policing shifts the focus from responding to crimes that have occurred to pre-emptively policing individuals or areas predicted to produce crime.                                                     |
 | Due process          | Treating individuals as future criminals based on statistical predictions undermines the presumption of innocence.                                                                                               |
 
+</div>
+
 #### Ethical Analysis
+
+<div class="table-wrap">
 
 | Framework      | Analysis                                                                                                                                                                          |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1120,18 +1250,20 @@ And when crimes are likely to occur, or to identify individuals who are likely t
 | Deontology     | Predictive policing treats individuals as a means (data points) rather than ends in themselves. It violates the duty to treat people as innocent until proven guilty.             |
 | Virtue ethics  | A virtuous police force would use data with humility, recognise the limitations of predictions, and ensure that policing is fair and proportionate.                               |
 
+</div>
+
 <hr />
 
 ## 6. Exam Practice
 
 :::note
 Edexcel, and CIE examination papers. AQA and OCR favour structured questions with specific marks for
-Specific points. Edexcel and CIE favour extended discussion questions requiring evaluation.
+specific points. Edexcel and CIE favour extended discussion questions requiring evaluation.
 
 ### Question 1 (AQA-style, 6 marks)
 
 A company collects personal data from its customers and sells this data to third-party advertisers
-Without the customers' knowledge or consent.
+without the customers' knowledge or consent.
 
 (a) Identify the UK legislation that has been breached. (1 mark)
 
@@ -1175,7 +1307,7 @@ Protection. In this scenario, the ICO would:
 
 A software developer discovers that the company she works for has been collecting and storing
 Customer passwords in plain text. The database has been accessible to all employees. When she
-Reports this to her manager, she is told to ignore it.
+reports this to her manager, she is told to ignore it.
 
 Discuss the legal, ethical, and professional implications of this situation.
 
@@ -1208,7 +1340,7 @@ Discuss the legal, ethical, and professional implications of this situation.
 - The developer has a professional obligation to ensure the security of the systems she develops.
 - The Public Interest Disclosure Act 1998 protects the developer if she whistleblows to a prescribed
 Regulator (e.g., the ICO) because the failure to secure personal data likely constitutes a failure
-To comply with a legal obligation.
+to comply with a legal obligation.
 
 </details>
 
@@ -1267,7 +1399,7 @@ Decision-making may be needed. The Online Safety Act 2023 and the Equality Act 2
 Coverage, but a comprehensive AI Act (similar to the EU AI Act) would address gaps.
 
 The ethical frameworks each contribute to the solution: utilitarianism demands that AI be used only
-Where the benefits outweigh the risks; deontology requires that AI respects individuals' rights;
+where the benefits outweigh the risks; deontology requires that AI respects individuals' rights;
 Virtue ethics demands that developers and deployers act with integrity, competence, and care.
 
 </details>
@@ -1320,17 +1452,17 @@ Discuss the ethical and legal issues arising from this proposal.
 
 The proposal raises serious legal and ethical concerns. For it to be lawful, the council would need
 A clear legal basis, a DPIA, explicit safeguards for special category data, and compliance with the
-Equality Act. Ethically, the proposal should be subject to rigorous independent review, with
-Evidence that the system is accurate, effective, and that less intrusive alternatives have been
-Considered.
+equality Act. Ethically, the proposal should be subject to rigorous independent review, with
+evidence that the system is accurate, effective, and that less intrusive alternatives have been
+considered.
 
 </details>
 
 ### Question 5 (AQA-style, 9 marks)
 
 Explain the difference between the Computer Misuse Act 1990 and the Data Protection Act 2018 in
-Relation to a scenario where an employee of a company accesses a customer database without
-Authorisation and copies the personal data of 50,000 customers, selling it to a competitor.
+relation to a scenario where an employee of a company accesses a customer database without
+authorisation and copies the personal data of 50,000 customers, selling it to a competitor.
 
 <details>
 <summary>Answer</summary>
@@ -1338,17 +1470,17 @@ Authorisation and copies the personal data of 50,000 customers, selling it to a 
 **Computer Misuse Act 1990:**
 
 The employee has committed an offence under Section 1 (unauthorised access to computer material) by
-Accessing the customer database without permission. This carries a maximum penalty of 2 years
+accessing the customer database without permission. This carries a maximum penalty of 2 years
 Imprisonment.
 
 The employee has also committed an offence under Section 2 (unauthorised access with intent to
-Commit further offence) because they intended to commit fraud (selling the data to a competitor for
-Financial gain). This carries a maximum penalty of 5 years imprisonment.
+commit further offence) because they intended to commit fraud (selling the data to a competitor for
+financial gain). This carries a maximum penalty of 5 years imprisonment.
 
 **Data Protection Act 2018/UK GDPR:**
 
 The employee's actions constitute a data breach. The company (as data controller) has obligations
-Under the DPA 2018:
+under the DPA 2018:
 
 - The security principle (Article 5(1)(f)) has been violated because the company failed to prevent
   unauthorised access to personal data
@@ -1363,9 +1495,9 @@ Recklessly obtaining or disclosing personal data without the consent of the data
 **Distinction:**
 
 The CMA criminalises the _unauthorised access_ to the computer system itself. The DPA 2018 regulates
-The _processing of personal data_ and imposes obligations on data controllers to protect it. Both
-Apply simultaneously: the access is a CMA offence, and the data theft is a DPA 2018 offence. The
-Employee can be prosecuted under both Acts.
+the _processing of personal data_ and imposes obligations on data controllers to protect it. Both
+apply simultaneously: the access is a CMA offence, and the data theft is a DPA 2018 offence. The
+employee can be prosecuted under both Acts.
 
 </details>
 
@@ -1432,7 +1564,7 @@ A nuanced approach is needed. Developers should be held responsible for **neglig
 The Consumer Rights Act 2015 already provides a framework: consumers have rights against the
 _trader_ (the company selling the software), not individual developers. Professional negligence law
 Provides a mechanism for holding individuals accountable for grossly negligent work. What is needed
-Is not stricter individual liability, but better organisational practices (code review, testing,
+is not stricter individual liability, but better organisational practices (code review, testing,
 Continuous integration, responsible disclosure of vulnerabilities).
 
 </details>
@@ -1454,26 +1586,9 @@ Continuous integration, responsible disclosure of vulnerabilities).
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[06 Legal Ethical Moral] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

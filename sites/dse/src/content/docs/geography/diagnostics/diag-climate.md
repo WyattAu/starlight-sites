@@ -13,17 +13,6 @@ description: "Diagnostic test notes for dse Diagnostic Test: Climate covering ke
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Climate] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Diagnostic Test: Climate
 
 Answer each question. Check your answers against the key at the end.
@@ -100,6 +89,8 @@ Answer each question. Check your answers against the key at the end.
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Q | Answer | Explanation |
 | --- | -------- | ------------- |
 | 1 | (B) | The subtropical high-pressure belt around 30 degrees latitude drives trade winds toward the equator as part of the Hadley cell circulation. |
@@ -112,6 +103,8 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Tropical cyclones bring intense rainfall, storm surge, and flooding, posing significant hazards to Hong Kong. |
 | 9 | (B) | RCPs are scenarios used in IPCC reports projecting future greenhouse gas concentrations and their climate impacts. |
 | 10 | (A) | Hong Kong's seasonal temperatures are primarily influenced by latitude and the alternation between summer and winter monsoons. |
+
+</div>
 
 ## Common Mistakes
 

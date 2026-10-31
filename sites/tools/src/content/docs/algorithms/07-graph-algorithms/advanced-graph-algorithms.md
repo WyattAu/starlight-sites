@@ -26,9 +26,9 @@ description: "Algorithms Advanced Graph Algorithms notes covering key definition
 ## Strongly Connected Components
 
 A strongly connected component (SCC) of a directed graph is a maximal set of vertices such that
-There is a path from every vertex to every other vertex within the set.
+there is a path from every vertex to every other vertex within the set.
 
-### Kosaraju"s Algorithm
+### Kosaraju's Algorithm
 
 Kosaraju's algorithm finds all SCCs in $O(V + E)$ time using two DFS passes.
 
@@ -270,7 +270,7 @@ Cycle. Biconnected components are separated by articulation points.
 ## 2-SAT
 
 The 2-SAT problem asks whether a boolean formula in conjunctive normal form with exactly 2 literals
-Per clause is satisfiable. It reduces to finding SCCs in an implication graph.
+per clause is satisfiable. It reduces to finding SCCs in an implication graph.
 
 ### Reduction to Implication Graph
 
@@ -488,6 +488,8 @@ class Dinic:
 
 ### Max-Flow Algorithms Comparison
 
+<div class="table-wrap">
+
 | Algorithm        | Time Complexity  | Best For                             |
 | ---------------- | ---------------- | ------------------------------------ |
 | Ford-Fulkerson   | $O(E \cdot f^*)$ | Small flow values                    |
@@ -495,6 +497,8 @@ class Dinic:
 | Dinic's          | $O(V^2 E)$       | General purpose, fast in practice    |
 | Capacity scaling | $O(E^2 \log U)$  | Large capacities                     |
 | Push-relabel     | $O(V^3)$         | Dense graphs                         |
+
+</div>
 
 Where $f^*$ is the max flow value and $U$ is the maximum edge capacity.
 
@@ -696,11 +700,15 @@ An **Eulerian circuit** visits every edge exactly once and returns to the starti
 
 ### Conditions
 
+<div class="table-wrap">
+
 | Property    | Eulerian Circuit | Eulerian Path           |
 | ----------- | ---------------- | ----------------------- |
 | Connected   | Yes              | Yes (ignoring isolated) |
 | Even degree | All vertices     | All except exactly 2    |
 | Odd degree  | None             | Exactly 2               |
+
+</div>
 
 ### Hierholzer's Algorithm
 
@@ -846,7 +854,7 @@ def stoer_wagner(n, adj):
 
 ### 1. Confusing `tin` and `low` in Bridge Finding
 
-The condition for a bridge is `low[u] > tin[v]` (strictly greater). If you use `>=`You will
+The condition for a bridge is `low[u] > tin[v]` (strictly greater). If you use `>=`. You will
 Incorrectly classify back edges as bridges. The key distinction: `low[u] == tin[v]` means there is a
 Back edge from the subtree of `u` to `v` (or an ancestor of `v`), which means the edge `(v, u)` is
 NOT a bridge.
@@ -892,7 +900,7 @@ Output.
 ### 8. Flow Network Construction
 
 When reducing a problem to max-flow, ensure the flow network is correctly constructed: (1) all edges
-Have non-negative capacity, (2) the source has only outgoing edges, (3) the sink has only incoming
+have non-negative capacity, (2) the source has only outgoing edges, (3) the sink has only incoming
 Edges, (4) the graph is directed (or convert undirected edges to two directed edges), and (5)
 Capacities are integers if using Ford-Fulkerson with DFS.
 
@@ -908,9 +916,6 @@ including key theorems, methods, and problem-solving approaches.
 - proof and logical reasoning
 - problem-solving strategies
 - applications and modelling
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 ## Worked Examples
 

@@ -21,7 +21,7 @@ Brain imaging techniques allow researchers to observe the structure and function
 Brain without surgery. These techniques have revolutionised our understanding of brain-behaviour
 Relationships and are essential tools in biological psychology, cognitive neuroscience, and clinical
 Practice. Each technique has distinct strengths and limitations, and the choice of technique depends
-On the research question being addressed.
+on the research question being addressed.
 
 ## Structural Imaging Techniques
 
@@ -58,7 +58,7 @@ Of lesions or tumours, and grey matter/white matter differentiation.
 ### CT (Computed Tomography)
 
 CT scanning uses X-rays to create cross-sectional images of the brain. Multiple X-ray beams are
-Passed through the brain from different angles, and a computer reconstructs a three-dimensional
+passed through the brain from different angles, and a computer reconstructs a three-dimensional
 Image from the resulting data.
 
 **What it measures:** Brain structure, particularly useful for detecting bleeding, tumours, and
@@ -76,10 +76,10 @@ MRI for soft tissue.
 
 FMRI measures brain activity by detecting changes in blood oxygenation and blood flow (the
 Blood-oxygen-level-dependent, or BOLD, signal). When a brain region becomes more active, it consumes
-More oxygen, leading to an increase in local blood flow (a phenomenon known as the haemodynamic
+more oxygen, leading to an increase in local blood flow (a phenomenon known as the haemodynamic
 Response). Because the increase in blood flow exceeds the increase in oxygen consumption, the
-Concentration of oxygenated haemoglobin increases relative to deoxygenated haemoglobin. FMRI detects
-This difference, as oxygenated and deoxygenated haemoglobin have different magnetic properties.
+concentration of oxygenated haemoglobin increases relative to deoxygenated haemoglobin. FMRI detects
+this difference, as oxygenated and deoxygenated haemoglobin have different magnetic properties.
 
 **What it measures:** Changes in neural activity (indirectly, through the BOLD signal).
 
@@ -110,8 +110,8 @@ Response).
 #### Haxby et al. (2001): Distributed Neural Representation of Faces and Objects
 
 Haxby and colleagues used fMRI to investigate how the brain represents different categories of
-Visual objects. Participants viewed images of faces, cats, houses, chairs, scissors, shoes, and
-Bottles while undergoing fMRI scanning.
+visual objects. Participants viewed images of faces, cats, houses, chairs, scissors, shoes, and
+bottles while undergoing fMRI scanning.
 
 **Key findings:**
 
@@ -140,8 +140,8 @@ Bottles while undergoing fMRI scanning.
 PET involves injecting a radioactive tracer (a positron-emitting isotope attached to a biologically
 Active molecule, most commonly fluorodeoxyglucose, or FDG) into the bloodstream. The tracer
 Accumulates in active brain regions (because active neurons consume more glucose). As the
-Radioactive tracer decays, it emits positrons, which collide with electrons, producing gamma rays
-That are detected by the PET scanner. A computer reconstructs a three-dimensional image of brain
+radioactive tracer decays, it emits positrons, which collide with electrons, producing gamma rays
+that are detected by the PET scanner. A computer reconstructs a three-dimensional image of brain
 Activity from the gamma ray data.
 
 **What it measures:** Metabolic activity (glucose consumption), blood flow, or neurotransmitter
@@ -172,7 +172,7 @@ Receptor binding (depending on the tracer used).
 
 Hariri and colleagues used fMRI to investigate the relationship between a common genetic
 Polymorphism in the serotonin transporter gene (5-HTTLPR) and amygdala activation in response to
-Fearful faces.
+fearful faces.
 
 **Key findings:**
 
@@ -229,13 +229,13 @@ Activity).
 ### TMS (Transcranial Magnetic Stimulation)
 
 TMS uses a rapidly changing magnetic field to induce electrical currents in a specific region of the
-Cortex, either stimulating or temporarily disrupting neural activity in that region. A coil is
-Placed over the scalp, and brief magnetic pulses are delivered.
+cortex, either stimulating or temporarily disrupting neural activity in that region. A coil is
+placed over the scalp, and brief magnetic pulses are delivered.
 
 **What it measures:** Not primarily a measurement technique; rather, TMS is a method for causally
 Manipulating brain activity. By temporarily disrupting activity in a specific brain region and
-Observing the behavioural consequences, researchers can determine whether that region is necessary
-For a particular cognitive function.
+observing the behavioural consequences, researchers can determine whether that region is necessary
+for a particular cognitive function.
 
 **Strengths:**
 
@@ -261,12 +261,12 @@ Researchers can infer the functions of those regions.
 
 **Logic:** If damage to brain region X impairs function Y, then region X is necessary for function
 Y. This is the method of "necessity" (as opposed to fMRI, which identifies regions that are active
-During a task but does not demonstrate that they are necessary).
+during a task but does not demonstrate that they are necessary).
 
 **Strengths:**
 
 - Provide strong evidence for the necessity of specific brain regions for specific functions.
-- Have historically been the primary source of evidence for brain localisation (e.g., Broca"s and
+- Have historically been the primary source of evidence for brain localisation (e.g., Broca's and
   Wernicke's areas).
 - Can reveal functions that are not apparent from imaging studies of healthy individuals (e.g., the
   role of the hippocampus in memory was revealed by studying patient HM).
@@ -337,27 +337,9 @@ For an overview of biological topics, see
 4. Describing a study without evaluating its methodology (e.g., sample, controls, ecological
    validity).
 
-
-```mermaid
-flowchart TD
-    A[Brain Imaging Techniques] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

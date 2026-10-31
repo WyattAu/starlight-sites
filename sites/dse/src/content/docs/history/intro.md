@@ -82,7 +82,7 @@ Commonwealth, the Non-Aligned Movement, and the continuing influence of former c
 
 China's modernisation from the late Qing Dynasty to the present is a major examination theme. Key
 events include the Self-Strengthening Movement, the Hundred Days' Reform, the 1911 Revolution, the
-May Fourth Movement, the Northern Expedition, the Long March, the Yan'an period, the establishment
+may Fourth Movement, the Northern Expedition, the Long March, the Yan'an period, the establishment
 of the PRC, the Great Leap Forward, the Cultural Revolution, and the Reform and Opening Up under
 Deng Xiaoping.
 
@@ -122,7 +122,7 @@ covered, including the cession of Hong Kong Island (1842), the Kowloon Peninsula
 Territories (1898), the Japanese occupation (1941-1945), post-war economic development, the 1967
 riots, the Sino-British Joint Declaration (1984), the handover (1997), and subsequent political
 developments. Students should understand Hong Kong's unique position as a bridge between East and
-West, its economic transformation, and the tensions between its colonial legacy and Chinese
+west, its economic transformation, and the tensions between its colonial legacy and Chinese
 sovereignty.
 
 ## Assessment Structure

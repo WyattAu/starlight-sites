@@ -29,12 +29,16 @@ False sharing, and padding/alignment techniques to prevent false sharing in mult
 The **MESI protocol** is a widely used cache coherence protocol that maintains consistency across
 CPU caches. Each cache line is in one of four states:
 
+<div class="table-wrap">
+
 | State             | Description                                                     | Can Read? | Can Write?                                   |
 | ----------------- | --------------------------------------------------------------- | --------- | -------------------------------------------- |
 | **M** (Modified)  | This cache has the only valid copy; it differs from main memory | Yes       | Yes                                          |
 | **E** (Exclusive) | This cache has the only valid copy; it matches main memory      | Yes       | Yes (transitions to M)                       |
 | **S** (Shared)    | Multiple caches have valid copies matching main memory          | Yes       | No (must request exclusive)                  |
 | **I** (Invalid)   | This cache line is not valid                                    | No        | No (must request from other cache or memory) |
+
+</div>
 
 The MESI protocol is a **write-invalidate** protocol: when a core wants to write to a shared line,
 It first invalidates all other copies rather than updating them. This is simpler than a write-update
@@ -73,11 +77,17 @@ Machine:
 - **S:** No change.
 - **I:** No action.
 
-$$\mathrm{E \xrightarrow{\mathrm{write} \mathrm{M \quad \mathrm{S \xrightarrow{\mathrm{write request} \mathrm{RFO \to \mathrm{I \to \mathrm{M$$
+$$
+\mathrm{E \xrightarrow{\mathrm{write} \mathrm{M \quad \mathrm{S \xrightarrow{\mathrm{write request} \mathrm{RFO \to \mathrm{I \to \mathrm{M
+$$
 
-$$\mathrm{M \xrightarrow{\mathrm{snoop read} \mathrm{write-back \to \mathrm{S \quad \mathrm{I \xrightarrow{\mathrm{read miss} \mathrm{load \to \mathrm{S or E$$
+$$
+\mathrm{M \xrightarrow{\mathrm{snoop read} \mathrm{write-back \to \mathrm{S \quad \mathrm{I \xrightarrow{\mathrm{read miss} \mathrm{load \to \mathrm{S or E
+$$
 
 ### Formal State Transition Table
+
+<div class="table-wrap">
 
 | Current State | Event       | Action                                | New State |
 | :------------ | :---------- | :------------------------------------ | :-------- |
@@ -98,6 +108,8 @@ $$\mathrm{M \xrightarrow{\mathrm{snoop read} \mathrm{write-back \to \mathrm{S \q
 | I             | Snoop Read  | None                                  | I         |
 | I             | Snoop Write | None                                  | I         |
 
+</div>
+
 ## Cache Line Structure
 
 A cache line is the minimum unit of cache coherence. On modern x86-64 processors, a cache line is
@@ -108,11 +120,15 @@ A cache line is the minimum unit of cache coherence. On modern x86-64 processors
 
 The cache hierarchy on a typical modern CPU:
 
+<div class="table-wrap">
+
 | Level  | Size          | Latency (cycles) | Associativity |
 | :----- | :------------ | :--------------- | :------------ |
 | **L1** | 32-64 KB      | 3-4              | 8-way         |
 | **L2** | 256 KB - 1 MB | 10-14            | 8-16 way      |
 | **L3** | 4-64 MB       | 30-50            | 16-64 way     |
+
+</div>
 
 ### Cache Line Addressing
 
@@ -126,8 +142,8 @@ A memory address is decomposed into three fields for cache lookup:
 ```
 
 The set index selects which cache set to probe, the tag identifies which memory block is stored in
-That set, and the block offset selects the byte within the cache line. Two addresses that differ
-Only in the tag but share the same set index map to the same cache set (and may evict each other in
+that set, and the block offset selects the byte within the cache line. Two addresses that differ
+only in the tag but share the same set index map to the same cache set (and may evict each other in
 A direct-mapped or low-associativity cache).
 
 ## Write-Back vs. Write-Through Policies
@@ -163,11 +179,15 @@ Programs with frequent writes to shared data.
 
 The cost of an invalidation depends on the cache hierarchy level at which the line resides:
 
+<div class="table-wrap">
+
 | Scenario                          | Coherence Traffic         | Latency (approximate) |
 | :-------------------------------- | :------------------------ | :-------------------- |
 | Same core, different hyperthreads | None (shared L1)          | ~4 cycles             |
 | Same socket, different cores      | L3 snoop + invalidation   | ~40 cycles            |
 | Different sockets (NUMA)          | Inter-socket interconnect | ~100-200 cycles       |
+
+</div>
 
 ## False Sharing
 
@@ -175,7 +195,9 @@ The cost of an invalidation depends on the cache hierarchy level at which the li
 Same cache line ( 64 bytes). Even though the variables are logically independent, the Hardware
 treats them as a single unit for coherence purposes.
 
-$$\mathrm{False Sharing:  \mathrm{var_1 \in \mathrm{line_L \wedge \mathrm{var_2 \in \mathrm{line_L \wedge \mathrm{thread_1 \mathrm{ writes  \mathrm{var_1 \wedge \mathrm{thread_2 \mathrm{ writes  \mathrm{var_2$$
+$$
+\mathrm{False Sharing:  \mathrm{var_1 \in \mathrm{line_L \wedge \mathrm{var_2 \in \mathrm{line_L \wedge \mathrm{thread_1 \mathrm{ writes  \mathrm{var_1 \wedge \mathrm{thread_2 \mathrm{ writes  \mathrm{var_2
+$$
 
 Each write by one thread invalidates the cache line for the other thread, causing repeated cache
 Misses and coherence traffic. Performance can degrade by orders of magnitude compared to the
@@ -192,14 +214,14 @@ Writes per thread.
 1. Let `var_a` and `var_b` reside on the same cache line $L$ And let thread $T_1$ write to `var_a`
    while thread $T_2$ writes to `var_b`.
 2. Initially, both threads may hold $L$ in **Shared** state (after the first read).
-3. When $T_1$ writes to `var_a`The cache controller issues an RFO for $L$Invalidating $T_2$'s copy.
+3. When $T_1$ writes to `var_a`. The cache controller issues an RFO for $L$ Invalidating $T_2$'s copy.
    $T_1$'s line transitions to **Modified**.
-4. When $T_2$ writes to `var_b`Its copy is **Invalid** (due to step 3), so it incurs an L1 miss.
+4. When $T_2$ writes to `var_b`. Its copy is **Invalid** (due to step 3), so it incurs an L1 miss.
    $T_2$ issues an RFO, invalidating $T_1$'s copy. $T_2$'s line transitions to **Modified**.
 5. Step 3 and step 4 alternate for every write, producing a **ping-pong** pattern.
 6. Each ping-pong costs ~40-100ns (inter-core coherence latency), versus ~1-4ns for an L1 hit.
 7. For $n$ writes per thread, total coherence cost is
-   $\Theta(n \times \mathrm{coherence\_latency)$Versus $\Theta(n \times \mathrm{L1\_latency)$
+   $\Theta(n \times \mathrm{coherence\_latency)$ Versus $\Theta(n \times \mathrm{L1\_latency)$
    without false sharing.
 8. The speedup from eliminating false sharing is
    $\frac{\mathrm{coherence\_latency}{\mathrm{L1\_latency} \approx 10\mathrm{x\mathrm{--100\mathrm{x$.
@@ -394,13 +416,13 @@ struct Particles {
 ```
 
 Use SoA when you process one field at a time (e.g., updating all positions). Use AoS when you access
-All fields of individual entities (e.g., collision detection).
+all fields of individual entities (e.g., collision detection).
 
 1. **Compact data types:** Use `float` instead of `double` when precision allows. Use `int32_t`
    instead of `int64_t`. Smaller types mean more elements per cache line.
 
 2. **Avoid pointer chasing:** Linked lists, trees with heap-allocated nodes, and `std::map` cause
-   cache misses on every traversal. Prefer contiguous containers (`std::vector``std::deque`) and
+   cache misses on every traversal. Prefer contiguous containers (`std::vector`, `std::deque`) and
    flat data structures.
 
 3. **Hot/cold splitting:** Separate frequently accessed fields from rarely accessed fields:
@@ -464,7 +486,7 @@ The C++ memory model abstracts this into memory ordering constraints:
 
 **Cache coherence** is a hardware property: it ensures that all cores eventually see a consistent
 View of memory. The MESI protocol guarantees that, given sufficient time, all writes propagate to
-All caches.
+all caches.
 
 **Memory model** is a software contract: it defines which values a read may return and what ordering
 Guarantees exist. The C++ memory model [N4950 §6.9.2.2] is weaker than hardware cache coherence, it
@@ -551,8 +573,8 @@ The typical cache line size on modern x86 processors is 64 bytes. Key implicatio
 
 Modern CPUs use **store buffers** between the execution unit and the L1 cache to avoid stalling on
 Cache misses during writes. When a CPU writes to a cache line in Shared state, the write is placed
-In the store buffer and the CPU continues executing. The RFO (Read-For-Ownership) request is issued
-On the bus asynchronously.
+in the store buffer and the CPU continues executing. The RFO (Read-For-Ownership) request is issued
+on the bus asynchronously.
 
 This creates a subtle ordering problem: the CPU can read its own subsequent loads from the store
 Buffer (store forwarding) before the write is visible to other cores. This is one reason why memory
@@ -560,12 +582,14 @@ Barriers exist, they force the store buffer to drain before subsequent loads can
 
 For C++ atomics, `memory_order_release` ensures all prior stores are visible before the release
 Operation. On x86, the Total Store Order (TSO) model already guarantees that stores are visible to
-All cores in program order, so `memory_order_release` compiles to a no-op (or compiler barrier
-Only). On ARM/AArch64, it emits a `DMB ISH` instruction to ensure store buffer drain.
+all cores in program order, so `memory_order_release` compiles to a no-op (or compiler barrier
+only). On ARM/AArch64, it emits a `DMB ISH` instruction to ensure store buffer drain.
 
 ## The MOESI Protocol
 
 AMD processors use a five-state extension of MESI called **MOESI**, adding an **Owned** state:
+
+<div class="table-wrap">
 
 | State | Description                                                                                                                                                    |
 | :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -575,13 +599,15 @@ AMD processors use a five-state extension of MESI called **MOESI**, adding an **
 | **S** | Shared, matches memory, copies may exist in other caches                                                                                                      |
 | **I** | Invalid, not cached                                                                                                                                           |
 
+</div>
+
 The Owned state eliminates the write-back-to-memory step when a Modified line is read by another
 Core: the data is transferred cache-to-cache, reducing main memory traffic. This is particularly
 Beneficial on multi-socket systems where main memory access latency is higher.
 
 Intel processors do not use MOESI; they implement MESI with a snoop filter that achieves similar
 Cache-to-cache transfer efficiency through different microarchitectural means. The key difference is
-That Intel's MESI still requires the Modified cache to write back to memory before sharing, while
+that Intel's MESI still requires the Modified cache to write back to memory before sharing, while
 MOESI's Owned state allows direct cache-to-cache transfer.
 
 ## Detecting False Sharing with `perf`
@@ -745,9 +771,9 @@ int main() {
 }
 ```
 
-Even with `memory_order_relaxed`The `fetch_add` issues a read-modify-write on the cache line,
+Even with `memory_order_relaxed`. The `fetch_add` issues a read-modify-write on the cache line,
 Triggering MESI invalidation traffic. The padded version eliminates this by placing each atomic on
-Its own cache line.
+its own cache line.
 
 ## Cache Coherence and Lock-Free Data Structures
 
@@ -874,13 +900,7 @@ underlying theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

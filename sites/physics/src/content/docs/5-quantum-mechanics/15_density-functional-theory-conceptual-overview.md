@@ -32,13 +32,21 @@ principle applies: $E_0 \leq E[n]$ for any trial density $n(\mathbf{r})$.
 The interacting system is mapped to a fictitious system of non-interacting electrons in an effective
 potential:
 
-$$\left-\frac{\hbar^2}{2m}\nabla^2 + V_{\text{eff}[n\right]\psi_i(\mathbf{r}) = \varepsilon_i\psi_i(\mathbf{r})}$$
+$$
+\left-\frac{\hbar^2}{2m}\nabla^2 + V_{\text{eff}[n\right]\psi_i(\mathbf{r}) = \varepsilon_i\psi_i(\mathbf{r})}
+$$
 
-$$n(\mathbf{r}) = \sum_{i=1}^{N}|\psi_i(\mathbf{r})|^2 \quad \text{(summing over occupied states)}$$
+$$
+n(\mathbf{r}) = \sum_{i=1}^{N}|\psi_i(\mathbf{r})|^2 \quad \text{(summing over occupied states)}
+$$
 
-$$V_{\text{eff} = V_{\text{ext} + V_H[n] + V_{\text{xc}[n]}}}$$
+$$
+V_{\text{eff} = V_{\text{ext} + V_H[n] + V_{\text{xc}[n]}}}
+$$
 
-$$V_Hn = e^2\int\frac{n(\mathbf{r}")}{|\mathbf{r} - \mathbf{r}'|}\,d^3r' \quad \text{(Hartree potential)}$$
+$$
+V_Hn = e^2\int\frac{n(\mathbf{r}")}{|\mathbf{r} - \mathbf{r}'|}\,d^3r' \quad \text{(Hartree potential)}
+$$
 
 The exchange-correlation functional $V_{\text{xc}[n]}$ contains all many-body effects beyond the
 classical Hartree approximation.
@@ -61,14 +69,18 @@ Hybrid functionals (e.g., B3LYP, HSE06) and range-separated functionals partiall
 The simplest density functional theory: the Thomas--Fermi model treats the kinetic energy as a local
 functional of the density:
 
-$$T_{\text{TF}[n] = \frac{3\hbar^2}{10m}(3\pi^2)^{2/3}\int n^{5/3}(\mathbf{r})\,d^3r = C_{\text{TF}\int n^{5/3}\,d^3r}}$$
+$$
+T_{\text{TF}[n] = \frac{3\hbar^2}{10m}(3\pi^2)^{2/3}\int n^{5/3}(\mathbf{r})\,d^3r = C_{\text{TF}\int n^{5/3}\,d^3r}}
+$$
 
-For an atom with nuclear charge $Ze$Minimising
+For an atom with nuclear charge $Ze$ Minimising
 $E[n] = T_{\text{TF}[n] - Ze^2\int n(\mathbf{r})/r\,d^3r + \frac{1}{2}e^2\iint n(\mathbf{r})n(\mathbf{r}')/|\mathbf{r}-\mathbf{r}'|\,d^3rd^3r'}$:
 
 The variational equation gives:
 
-$$C_{\text{TF}\,n^{2/3} = \frac{Ze^2}{r} - e^2\int\frac{n(\mathbf{r}')}{|\mathbf{r}-\mathbf{r}'|}\,d^3r'}$$
+$$
+C_{\text{TF}\,n^{2/3} = \frac{Ze^2}{r} - e^2\int\frac{n(\mathbf{r}')}{|\mathbf{r}-\mathbf{r}'|}\,d^3r'}
+$$
 
 This integral equation can be solved by scaling: $n(r) = (Z/a_0^3)\,g(r/a_0 Z^{-1/3})$ where $g$ is
 a universal function.
@@ -80,17 +92,6 @@ This gives reasonable total energies for heavy atoms but fails qualitatively for
 shell structure, no chemical bonding).
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[15_Density Functional Theory Conceptual Overview] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Worked Examples
 
@@ -139,14 +140,18 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site       | Link                                                                                                       |
 | ----------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Quantum Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/nuclear-physics/03-quantum-physics)    |
-| [Quantum Physics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics) |
+| [Quantum Physics] | IB         | [View](https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics/) |
 | [Quantum Physics] | University | [View](https://physics.wyattau.com/)                |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Intuition
@@ -158,44 +163,3 @@ Density functional theory replaces the complicated many-body wavefunction with t
 - **Hohenberg--Kohn mapping.** The external potential $V_{\text{ext}}(\mathbf{r})$ is a unique functional of the ground-state density $n(\mathbf{r})$ (up to a constant), so all ground-state properties are functionals of $n$ alone.
 - **Kohn--Sham self-consistency.** The effective potential $V_{\text{eff}}[n]$ depends on $n(\mathbf{r})$, which is built from the Kohn--Sham orbitals that are themselves solutions of the equations with $V_{\text{eff}}[n]$. This requires iterative self-consistent solution.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

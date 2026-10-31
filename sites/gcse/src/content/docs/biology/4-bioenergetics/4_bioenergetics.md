@@ -29,26 +29,32 @@ categories:
 ### 1.1 The Equation
 
 Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water
-Into glucose and oxygen.
+into glucose and oxygen.
 
-$$6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \xrightarrow{\mathrm{light energy} \mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2$$
+$$
+6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \xrightarrow{\mathrm{light energy} \mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2
+$$
 
 Photosynthesis is an **endothermic** reaction -- it absorbs energy from the environment (in the form
-Of light). This energy is stored in the chemical bonds of glucose, which can later be released
-Through respiration.
+of light). This energy is stored in the chemical bonds of glucose, which can later be released
+through respiration.
 
 **Why this reaction matters.** Photosynthesis is the primary source of energy for nearly all life on
 Earth. It produces the oxygen in the atmosphere (essential for aerobic respiration) and fixes carbon
-From $\mathrm{CO_2$ into organic molecules that form the base of all food chains. Without
-Photosynthesis, there would be no food, no oxygen, and no complex life.
+from $\mathrm{CO_2$ into organic molecules that form the base of all food chains. Without
+photosynthesis, there would be no food, no oxygen, and no complex life.
 
 **Balancing the equation.** To check that the equation is balanced, count the atoms on each side:
+
+<div class="table-wrap">
 
 | Atom         | Left side  | Right side |
 | ------------ | ---------- | ---------- |
 | Carbon (C)   | 6          | 6          |
 | Hydrogen (H) | 12         | 12         |
 | Oxygen (O)   | 6 + 6 = 12 | 6 + 6 = 12 |
+
+</div>
 
 Both sides have the same number of each type of atom, so the equation is balanced.
 
@@ -59,6 +65,8 @@ That absorbs light energy (mainly red and blue wavelengths; green light is refle
 Plants appear green).
 
 **Adaptations of the leaf for photosynthesis:**
+
+<div class="table-wrap">
 
 | Adaptation                          | Function                                                 |
 | ----------------------------------- | -------------------------------------------------------- |
@@ -71,13 +79,17 @@ Plants appear green).
 | Waxy cuticle                        | Reduces water loss by evaporation                        |
 | Network of veins (xylem and phloem) | Xylem brings water; phloem removes products              |
 
+</div>
+
 **Stomata and gas exchange.** Stomata are pores on the underside of the leaf, surrounded by guard
 Cells that can open and close them. When guard cells are turgid (full of water), the stomata are
-Open, allowing $\mathrm{CO_2$ to enter for photosynthesis. When guard cells are flaccid (water has
-Been lost), the stomata close, reducing water loss. This is a trade-off: open stomata allow
+open, allowing $\mathrm{CO_2$ to enter for photosynthesis. When guard cells are flaccid (water has
+been lost), the stomata close, reducing water loss. This is a trade-off: open stomata allow
 Photosynthesis but also allow water to evaporate (transpiration).
 
 ### 1.3 Factors Affecting the Rate of Photosynthesis
+
+<div class="table-wrap">
 
 | Factor                       | Effect                                       | Reason                                                           |
 | ---------------------------- | -------------------------------------------- | ---------------------------------------------------------------- |
@@ -85,14 +97,16 @@ Photosynthesis but also allow water to evaporate (transpiration).
 | $\mathrm{CO_2$ concentration | Rate increases, then plateaus                | $\mathrm{CO_2$ is a raw material; limited supply limits the rate |
 | Temperature                  | Rate increases up to optimum, then decreases | Enzymes work faster; too hot and they denature                   |
 
+</div>
+
 **Limiting factors:** The factor that is in shortest supply limits the rate of photosynthesis. At
 Any given time, only ONE factor is limiting. This is known as the **law of limiting factors**
 (Blackman, 1905).
 
 **Understanding the graphs.** A graph of photosynthesis rate against any single factor shows the
 Same characteristic shape: the rate increases linearly at first (because the factor being increased
-Is the limiting factor), then levels off (because a different factor has become limiting). This
-Plateau tells you that increasing the original factor further will have no effect until the new
+is the limiting factor), then levels off (because a different factor has become limiting). This
+plateau tells you that increasing the original factor further will have no effect until the new
 Limiting factor is also increased.
 
 **Worked Example: Interpreting a limiting factor graph.**
@@ -152,19 +166,21 @@ Step-by-step interpretation:
 
 **Worked Example: Calculating light intensity.**
 
-Light intensity follows an inverse square law: intensity $\propto 1/d^2$Where $d$ is the distance
-From the lamp.
+Light intensity follows an inverse square law: intensity $\propto 1/d^2$ Where $d$ is the distance
+from the lamp.
 
 If the lamp is 10 cm from the pondweed and produces 100 bubbles per minute, what rate would you
-Expect at 20 cm?
+expect at 20 cm?
 
 At 20 cm, the distance is doubled, so the light intensity decreases by a factor of $2^2 = 4$. The
-Rate should decrease by a factor of 4: $100 / 4 = 25$ bubbles per minute (assuming light is still
-The limiting factor).
+rate should decrease by a factor of 4: $100 / 4 = 25$ bubbles per minute (assuming light is still
+the limiting factor).
 
 ### 1.5 Uses of Glucose from Photosynthesis
 
 Plants use the glucose produced by photosynthesis for:
+
+<div class="table-wrap">
 
 | Use                | Description                                                     |
 | ------------------ | --------------------------------------------------------------- |
@@ -174,22 +190,24 @@ Plants use the glucose produced by photosynthesis for:
 | Stored as starch   | Insoluble storage carbohydrate; does not affect water potential |
 | Stored as lipids   | In seeds; for energy storage (oils in seeds are energy-dense)   |
 
+</div>
+
 **Why plants store starch rather than glucose.** Starch is insoluble, so it does not dissolve in the
 Cell sap and does not affect the water potential of the cell. If plants stored glucose (which is
-Soluble), water would enter the cells by osmosis, potentially causing them to swell and burst.
+soluble), water would enter the cells by osmosis, potentially causing them to swell and burst.
 Starch is also a more compact energy store than glucose because it is a polymer (many glucose
 Molecules joined together in a small space).
 
 **Worked Example: Why nitrate ions are needed.**
 
 A farmer notices that a crop of wheat has pale leaves and stunted growth. The soil is deficient in
-Nitrate ions.
+nitrate ions.
 
 Without nitrate ions, the plant cannot make amino acids (amino acids contain nitrogen, which comes
-From nitrates). Without amino acids, the plant cannot make proteins. Proteins are needed for growth
+from nitrates). Without amino acids, the plant cannot make proteins. Proteins are needed for growth
 (new cells require proteins for their structure and enzymes), so the plant cannot grow properly. The
-Pale leaves are because the plant cannot make enough chlorophyll (chlorophyll contains nitrogen in
-Its structure), reducing the rate of photosynthesis.
+pale leaves are because the plant cannot make enough chlorophyll (chlorophyll contains nitrogen in
+its structure), reducing the rate of photosynthesis.
 
 ### 1.6 Higher Tier: Limiting Factors and Greenhouse Management
 
@@ -203,7 +221,7 @@ Commercial greenhouse operators manipulate limiting factors to maximise crop yie
 
 **The economic argument.** The cost of providing additional light, $\mathrm{CO_2$ And heat must be
 Weighed against the value of the increased crop yield. There is a point of diminishing returns where
-The cost of increasing a factor exceeds the value of the additional growth.
+the cost of increasing a factor exceeds the value of the additional growth.
 
 **Worked Example: Evaluating greenhouse management decisions.**
 
@@ -220,7 +238,7 @@ Additional revenue per plant: 10 pounds.
 
 If the greenhouse has 500 plants, the additional revenue is $500 \times 10 = 5000$ pounds per year.
 Since the cost is 2000 pounds per year, the net gain is $5000 - 2000 = 3000$ pounds per year. The
-Investment is worthwhile.
+investment is worthwhile.
 
 ### 1.7 Higher Tier: The Light-Dependent and Light-Independent Reactions
 
@@ -241,17 +259,21 @@ Photosynthesis occurs in two stages:
 
 The two stages are linked: the light-dependent reactions produce the ATP and NADPH that the Calvin
 Cycle needs. Without light, the light-dependent reactions stop, and the Calvin cycle gradually runs
-Out of ATP and NADPH.
+out of ATP and NADPH.
 
 **Summary table: comparing the two stages of photosynthesis.**
+
+<div class="table-wrap">
 
 | Feature             | Light-Dependent Reactions | Light-Independent Reactions    |
 | ------------------- | ------------------------- | ------------------------------ |
 | Location            | Thylakoid membranes       | Stroma                         |
 | Does it need light? | Yes, directly             | No (but needs products of LDR) |
-| Inputs              | Water, light, ADP, NADP+  | $\mathrm{CO_2$ATP, NADPH       |
+| Inputs              | Water, light, ADP, NADP+  | $\mathrm{CO_2$ ATP, NADPH       |
 | Outputs             | Oxygen, ATP, NADPH        | Glucose, ADP, NADP+            |
 | Key process         | Photolysis of water       | Carbon fixation by RuBisCO     |
+
+</div>
 
 ## 2. Respiration
 
@@ -259,7 +281,9 @@ Out of ATP and NADPH.
 
 Aerobic respiration uses oxygen to break down glucose, releasing a large amount of energy.
 
-$$\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \quad \mathrm{(energy released)$$
+$$
+\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \quad \mathrm{(energy released)
+$$
 
 Aerobic respiration occurs in the **mitochondria**. It is an **exothermic** reaction.
 
@@ -285,7 +309,9 @@ Respiration because glucose is only partially broken down.
 
 **In animals (including humans):**
 
-$$\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \to 2\mathrm{C_3\mathrm{H_6\mathrm{O_3$$
+$$
+\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \to 2\mathrm{C_3\mathrm{H_6\mathrm{O_3
+$$
 
 Glucose is broken down into **lactic acid**. This builds up in muscles during vigorous exercise,
 Causing fatigue and cramp. The lactic acid lowers the pH in the muscle cells, which inhibits enzyme
@@ -293,15 +319,19 @@ Activity and contributes to the feeling of muscle fatigue.
 
 **Oxygen debt:** After exercise, extra oxygen is needed to break down the lactic acid. This is why
 You continue to breathe heavily after exercise -- your body is taking in extra oxygen to repay the
-Oxygen debt. The lactic acid is transported to the liver, where it is converted back to pyruvate and
-Then either oxidised further (via the Krebs cycle) or converted back to glucose (via
-Gluconeogenesis).
+oxygen debt. The lactic acid is transported to the liver, where it is converted back to pyruvate and
+then either oxidised further (via the Krebs cycle) or converted back to glucose (via
+gluconeogenesis).
 
-$$2\mathrm{C_3\mathrm{H_6\mathrm{O_3 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O$$
+$$
+2\mathrm{C_3\mathrm{H_6\mathrm{O_3 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O
+$$
 
 **In yeast (fermentation):**
 
-$$\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \to 2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{CO_2$$
+$$
+\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \to 2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{CO_2
+$$
 
 Yeast converts glucose into **ethanol** (alcohol) and carbon dioxide. This process is used in:
 
@@ -322,16 +352,18 @@ During exercise, the body"s demand for energy increases. Several changes occur t
 **Why these changes happen.** Muscles need more ATP for contraction during exercise. ATP is produced
 By aerobic respiration, which requires oxygen and glucose. Increasing breathing rate and heart rate
 Delivers more oxygen and glucose to the muscles and removes more $\mathrm{CO_2$. Dilating the
-Arteries increases blood flow, further improving delivery.
+arteries increases blood flow, further improving delivery.
 
 **Worked Example: Calculating oxygen debt.**
 
 A student runs 400 metres and builds up 120 mg of lactic acid in their muscles. After the race, they
-Breathe heavily to repay the oxygen debt.
+breathe heavily to repay the oxygen debt.
 
 To oxidise lactic acid fully:
 
-$$2\mathrm{C_3\mathrm{H_6\mathrm{O_3 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O$$
+$$
+2\mathrm{C_3\mathrm{H_6\mathrm{O_3 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O
+$$
 
 The molar mass of lactic acid is 90 g/mol. So 120 mg = 0.12 g = $0.12/90 = 0.00133$ mol.
 
@@ -344,7 +376,7 @@ At room temperature and pressure, 1 mole of gas occupies approximately 24 litres
 Volume of $\mathrm{O_2$ needed: $0.004 \times 24000 = 96$ mL of extra oxygen.
 
 This is why the student continues to breathe heavily for several minutes after the race -- they need
-To take in this extra oxygen to fully oxidise the accumulated lactic acid.
+to take in this extra oxygen to fully oxidise the accumulated lactic acid.
 
 ### 2.4 Metabolism
 
@@ -368,6 +400,8 @@ To take in this extra oxygen to fully oxidise the accumulated lactic acid.
 
 **Summary of liver functions.**
 
+<div class="table-wrap">
+
 | Function        | Process                | Description                                   |
 | --------------- | ---------------------- | --------------------------------------------- |
 | Detoxification  | Oxidation              | Alcohol $\to$ ethanal $\to$ ethanoic acid     |
@@ -375,6 +409,8 @@ To take in this extra oxygen to fully oxidise the accumulated lactic acid.
 | Glycogenolysis  | Glycogen $\to$ glucose | Releases glucose when blood sugar is low      |
 | Deamination     | Amino acid $\to$ urea  | Removes amino group; urea excreted by kidneys |
 | Bile production | --                     | Emulsifies fats; neutralises stomach acid     |
+
+</div>
 
 ## 3. Required Practical: Respiration
 
@@ -392,8 +428,8 @@ To take in this extra oxygen to fully oxidise the accumulated lactic acid.
 
 **Why soda lime is essential.** Respiration produces $\mathrm{CO_2$ as well as consuming
 $\mathrm{O_2$. If the $\mathrm{CO_2$ were not absorbed, the volume change would be the difference
-Between $\mathrm{O_2$ consumed and $\mathrm{CO_2$ produced, not the true rate of oxygen consumption.
-Since soda lime absorbs $\mathrm{CO_2$The measured volume change reflects only $\mathrm{O_2$
+between $\mathrm{O_2$ consumed and $\mathrm{CO_2$ produced, not the true rate of oxygen consumption.
+Since soda lime absorbs $\mathrm{CO_2$ The measured volume change reflects only $\mathrm{O_2$
 Consumption.
 
 ### 3.2 Interpreting Results
@@ -406,21 +442,29 @@ Consumption.
 **Worked Example: Calculating the rate of respiration.**
 
 A respirometer containing germinating peas shows that the coloured liquid moves 12 mm along the
-Capillary tube in 5 minutes. The capillary tube has an internal diameter of 1 mm.
+capillary tube in 5 minutes. The capillary tube has an internal diameter of 1 mm.
 
 Step 1: Calculate the cross-sectional area of the capillary tube.
 
-$$A = \pi r^2 = \pi \times (0.5)^2 = 0.785 \mathrm{ mm^2$$
+$$
+A = \pi r^2 = \pi \times (0.5)^2 = 0.785 \mathrm{ mm^2
+$$
 
 Step 2: Calculate the volume of oxygen consumed.
 
-$$V = A \times d = 0.785 \times 12 = 9.42 \mathrm{ mm^3 = 0.00942 \mathrm{ mL$$
+$$
+V = A \times d = 0.785 \times 12 = 9.42 \mathrm{ mm^3 = 0.00942 \mathrm{ mL
+$$
 
 Step 3: Calculate the rate.
 
-$$\mathrm{Rate = 0.00942 / 5 = 0.00188 \mathrm{ mL/min$$
+$$
+\mathrm{Rate = 0.00942 / 5 = 0.00188 \mathrm{ mL/min
+$$
 
 ## 4. Higher Tier: Aerobic and Anaerobic Respiration Compared
+
+<div class="table-wrap">
 
 | Feature              | Aerobic Respiration                       | Anaerobic Respiration                                     |
 | -------------------- | ----------------------------------------- | --------------------------------------------------------- |
@@ -431,10 +475,12 @@ $$\mathrm{Rate = 0.00942 / 5 = 0.00188 \mathrm{ mL/min$$
 | Speed                | Slower                                    | Faster (but less efficient)                               |
 | Toxicity of products | Non-toxic                                 | Lactic acid / ethanol can be toxic                        |
 
+</div>
+
 **Why anaerobic respiration is faster but less efficient.** Aerobic respiration involves the
 Complete oxidation of glucose through glycolysis, the Krebs cycle, and the electron transport chain.
 This produces many ATP but requires oxygen and involves many steps. Anaerobic respiration only
-Involves glycolysis (the first stage of respiration), which is fast because it involves fewer steps,
+involves glycolysis (the first stage of respiration), which is fast because it involves fewer steps,
 But it produces only 2 ATP per glucose because the rest of the energy remains locked in the lactic
 Acid or ethanol.
 
@@ -455,9 +501,11 @@ Acid or ethanol.
 - Rate decreases sharply above 40$^{\circ}$C (enzymes denature).
 
 This graph has the same characteristic shape as the enzyme activity graph, because respiration is
-Controlled by enzymes.
+controlled by enzymes.
 
 ## 6. Higher Tier: Photosynthesis vs. Respiration -- A Detailed Comparison
+
+<div class="table-wrap">
 
 | Feature            | Photosynthesis                            | Respiration                               |
 | ------------------ | ----------------------------------------- | ----------------------------------------- |
@@ -469,10 +517,12 @@ Controlled by enzymes.
 | When it occurs     | Only in light                             | 24 hours a day                            |
 | Reactants/Products | They are essentially reverse reactions    | --                                        |
 
+</div>
+
 **Key point about the relationship.** In the dark, plants only respire. In bright light, the rate of
 Photosynthesis exceeds the rate of respiration, so the plant has a net uptake of $\mathrm{CO_2$ and
-Net release of $\mathrm{O_2$. At a certain light intensity (the compensation point), the rate of
-Photosynthesis exactly equals the rate of respiration, so there is no net gas exchange.
+net release of $\mathrm{O_2$. At a certain light intensity (the compensation point), the rate of
+photosynthesis exactly equals the rate of respiration, so there is no net gas exchange.
 
 ## Common Pitfalls
 
@@ -587,7 +637,7 @@ Suspended in a hydrogen carbonate indicator solution.
 2. Place a known number of algal balls into a test tube containing hydrogen carbonate indicator
    (which changes colour depending on the pH, which changes with $\mathrm{CO_2$ concentration).
 3. Expose the test tube to light of a specific intensity for a set time.
-4. As photosynthesis occurs, the algae absorb $\mathrm{CO_2$Raising the pH. The indicator changes
+4. As photosynthesis occurs, the algae absorb $\mathrm{CO_2$ Raising the pH. The indicator changes
    from red/orange (high $\mathrm{CO_2$) to purple (low $\mathrm{CO_2$).
 5. Use a colorimeter to measure the exact colour change, which corresponds to the amount of
    $\mathrm{CO_2$ absorbed.
@@ -615,6 +665,8 @@ Sufficient to absorb enough $\mathrm{CO_2$ to cause the colour change within 8 m
 Plants require a range of mineral ions, absorbed from the soil by active transport in the root
 Hairs, for healthy growth:
 
+<div class="table-wrap">
+
 | Mineral Ion                     | Function                                                   | Deficiency Symptom                        |
 | ------------------------------- | ---------------------------------------------------------- | ----------------------------------------- |
 | Nitrate ($\mathrm{NO_3^-$)      | Making amino acids and proteins, chlorophyll               | Stunted growth, yellowing of older leaves |
@@ -623,10 +675,12 @@ Hairs, for healthy growth:
 | Potassium ($\mathrm{K^+$)       | Regulating stomatal opening and closing, enzyme activation | Wilting, yellow leaves with dead spots    |
 | Calcium ($\mathrm{Ca^{2+}$)     | Making cell walls (calcium pectate)                        | Stunted growth, leaves curl               |
 
+</div>
+
 **Why mineral deficiencies affect photosynthesis.** Both nitrates and magnesium are needed for
 Chlorophyll production. Without chlorophyll, leaves cannot absorb light energy, and photosynthesis
-Cannot occur. Without nitrates, the plant cannot make proteins, so new cells cannot be built and
-Growth stops. Without phosphate, the plant cannot make ATP (the energy currency of the cell) or DNA,
+cannot occur. Without nitrates, the plant cannot make proteins, so new cells cannot be built and
+growth stops. Without phosphate, the plant cannot make ATP (the energy currency of the cell) or DNA,
 So cell division cannot occur.
 
 **Worked Example: Diagnosing a mineral deficiency.**
@@ -637,7 +691,7 @@ The older leaves are affected first.
 **Diagnosis:** This is a classic symptom of **magnesium deficiency**. Magnesium is a central
 Component of the chlorophyll molecule. Without magnesium, the plant cannot synthesise chlorophyll,
 So the leaves lose their green colour (chlorosis). The yellowing appears between the veins because
-The veins still contain some chlorophyll. Older leaves are affected first because the plant
+the veins still contain some chlorophyll. Older leaves are affected first because the plant
 Redistributes its limited magnesium supply to younger, growing leaves.
 
 ## 9. Higher Tier: Respirometer Calculations in Context
@@ -646,8 +700,8 @@ Redistributes its limited magnesium supply to younger, growing leaves.
 
 A student sets up two respirometers. Respirometer A contains 5 g of germinating peas at
 20$\degree$C. Respirometer B contains 5 g of germinating peas at 10$\degree$C. After 10 minutes, the
-Liquid in A moves 15 mm and the liquid in B moves 8 mm. The capillary tube has an internal diameter
-Of 0.8 mm.
+liquid in A moves 15 mm and the liquid in B moves 8 mm. The capillary tube has an internal diameter
+of 0.8 mm.
 
 Calculate the rate of oxygen consumption per gram per minute for each respirometer.
 
@@ -698,7 +752,7 @@ yeast at higher concentrations. Stronger alcoholic drinks require distillation.
 
 **Biofuel production:** Yeast can ferment sugars from plant material (e.g., corn, sugarcane) to
 Produce bioethanol, which can be used as a renewable fuel. The advantage of bioethanol is that it is
-Carbon-neutral in principle: the $\mathrm{CO_2$ released when it is burned was originally absorbed
+carbon-neutral in principle: the $\mathrm{CO_2$ released when it is burned was originally absorbed
 by The plants during photosynthesis. However, growing biofuel crops requires land that could
 otherwise Be used for food production, creating a conflict between energy and food security.
 
@@ -728,35 +782,35 @@ Allowed for acclimatisation.
 
 **Worked Example: Interpreting the results.**
 
-At 1% $\mathrm{CO_2$The rate is 5 bubbles/min. At 2% $\mathrm{CO_2$The rate is 9 bubbles/min. At 3%
-$\mathrm{CO_2$The rate is 10 bubbles/min. At 4% $\mathrm{CO_2$The rate is 10 bubbles/min.
+At 1% $\mathrm{CO_2$ The rate is 5 bubbles/min. At 2% $\mathrm{CO_2$ The rate is 9 bubbles/min. At 3%
+$\mathrm{CO_2$ The rate is 10 bubbles/min. At 4% $\mathrm{CO_2$ The rate is 10 bubbles/min.
 
 Between 1% and 2%, the rate increases from 5 to 9 bubbles/min (an increase of 4). Between 2% and 3%,
-The rate increases from 9 to 10 (an increase of only 1). Between 3% and 4%, there is no increase at
-All. This shows that above 3% $\mathrm{CO_2$, $\mathrm{CO_2$ is no longer the limiting factor.
+the rate increases from 9 to 10 (an increase of only 1). Between 3% and 4%, there is no increase at
+all. This shows that above 3% $\mathrm{CO_2$, $\mathrm{CO_2$ is no longer the limiting factor.
 Another Factor (light intensity or temperature) is now limiting, and increasing $\mathrm{CO_2$
 further has no Effect.
 
 ## 12. Higher Tier: Anaerobic Respiration in Sport
 
 Understanding anaerobic respiration is important for sports science. During intense exercise, the
-Body's demand for energy exceeds what aerobic respiration can supply, even with increased heart rate
-And breathing rate. The muscles switch to anaerobic respiration to produce additional ATP.
+body's demand for energy exceeds what aerobic respiration can supply, even with increased heart rate
+and breathing rate. The muscles switch to anaerobic respiration to produce additional ATP.
 
 **The lactate threshold:** The exercise intensity at which lactate begins to accumulate in the blood
 Faster than it can be removed. Above this threshold, the athlete is relying increasingly on
-Anaerobic respiration.
+anaerobic respiration.
 
 **Training effects:** Endurance training increases the lactate threshold by improving the body's
 Ability to deliver oxygen to muscles (increased capillary density, increased myoglobin content) and
-By increasing the number and size of mitochondria in muscle cells. This allows trained athletes to
-Sustain higher exercise intensities before reaching their lactate threshold.
+by increasing the number and size of mitochondria in muscle cells. This allows trained athletes to
+sustain higher exercise intensities before reaching their lactate threshold.
 
 **Recovery:** After intense exercise, the accumulated lactate is transported to the liver, where it
 Is converted back to pyruvate (by the enzyme lactate dehydrogenase). The pyruvate can then be
-Oxidised through the Krebs cycle (if oxygen is available) or converted back to glucose
+oxidised through the Krebs cycle (if oxygen is available) or converted back to glucose
 (gluconeogenesis). This process requires oxygen, explaining the continued heavy breathing after
-Exercise stops.
+exercise stops.
 
 ## Practice Problems
 
@@ -880,17 +934,6 @@ answer using the appropriate terminology.
 Multi-step problems in Bioenergetics often combine two or more concepts. Break the problem down:
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[4_Bioenergetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

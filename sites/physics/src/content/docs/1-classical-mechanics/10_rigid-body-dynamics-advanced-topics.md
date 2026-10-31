@@ -22,16 +22,22 @@ sources:
 }
 </script>
 
-### 9.1 Euler"s Equations in the Body Frame
+### 9.1 Euler's Equations in the Body Frame
 
 For a rigid body rotating freely (no external torques), the angular momentum in the body frame
 satisfies:
 
-$$I_1\dot{\omega}_1 - (I_2 - I_3)\omega_2\omega_3 = 0$$
+$$
+I_1\dot{\omega}_1 - (I_2 - I_3)\omega_2\omega_3 = 0
+$$
 
-$$I_2\dot{\omega}_2 - (I_3 - I_1)\omega_3\omega_1 = 0$$
+$$
+I_2\dot{\omega}_2 - (I_3 - I_1)\omega_3\omega_1 = 0
+$$
 
-$$I_3\dot{\omega}_3 - (I_1 - I_2)\omega_1\omega_2 = 0$$
+$$
+I_3\dot{\omega}_3 - (I_1 - I_2)\omega_1\omega_2 = 0
+$$
 
 Where $I_1, I_2, I_3$ are the principal moments of inertia and $\omega_1, \omega_2, \omega_3$ are
 the angular velocity components in the body frame.
@@ -59,9 +65,13 @@ For an axisymmetric body ($I_1 = I_2 \neq I_3$):
 **Proof of instability for intermediate axis.** Linearise Euler's equations about
 $\boldsymbol{\omega} = (0, \Omega, 0)$:
 
-$$I_1\dot{\omega}_1 = (I_2 - I_3)\Omega\,\omega_3$$
+$$
+I_1\dot{\omega}_1 = (I_2 - I_3)\Omega\,\omega_3
+$$
 
-$$I_3\dot{\omega}_3 = (I_1 - I_2)\Omega\,\omega_1$$
+$$
+I_3\dot{\omega}_3 = (I_1 - I_2)\Omega\,\omega_1
+$$
 
 Combining: $\ddot{\omega}_1 = \frac{(I_2 - I_3)(I_1 - I_2)}{I_1 I_3}\Omega^2\,\omega_1$. Since
 $I_1 < I_2 < I_3$, both factors in the numerator are negative, giving a positive coefficient:
@@ -81,39 +91,55 @@ angles $(\phi, \theta, \psi)$.
 
 The Lagrangian:
 
-$$L = \frac{1}{2}I_1(\dot{\theta}^2 + \dot{\phi}^2\sin^2\theta) + \frac{1}{2}I_3(\dot{\psi} + \dot{\phi}\cos\theta)^2 - Mgd\cos\theta$$
+$$
+L = \frac{1}{2}I_1(\dot{\theta}^2 + \dot{\phi}^2\sin^2\theta) + \frac{1}{2}I_3(\dot{\psi} + \dot{\phi}\cos\theta)^2 - Mgd\cos\theta
+$$
 
 **Conserved quantities:** $p_\phi$ (angular momentum about the vertical) and $p_\psi$ (angular
 momentum about the symmetry axis) are cyclic:
 
-$$p_\phi = I_1\dot{\phi}\sin^2\theta + I_3(\dot{\psi} + \dot{\phi}\cos\theta)\cos\theta = \text{const}$$
+$$
+p_\phi = I_1\dot{\phi}\sin^2\theta + I_3(\dot{\psi} + \dot{\phi}\cos\theta)\cos\theta = \text{const}
+$$
 
-$$p_\psi = I_3(\dot{\psi} + \dot{\phi}\cos\theta) = \text{const}$$
+$$
+p_\psi = I_3(\dot{\psi} + \dot{\phi}\cos\theta) = \text{const}
+$$
 
 **Steady precession.** For $\dot{\theta} = 0$ (constant inclination $\theta_0$):
 
-$$\dot{\phi} = \frac{Mgd}{I_3\omega_3} \quad \text{(regular precession)}$$
+$$
+\dot{\phi} = \frac{Mgd}{I_3\omega_3} \quad \text{(regular precession)}
+$$
 
 **Nutation.** When $\theta$ varies, the tip of the symmetry axis traces a nutation path. The
 effective potential:
 
-$$V_{\text{eff}}(\theta) = \frac{(p_\phi - p_\psi\cos\theta)^2}{2I_1\sin^2\theta} + Mgd\cos\theta$$
+$$
+V_{\text{eff}}(\theta) = \frac{(p_\phi - p_\psi\cos\theta)^2}{2I_1\sin^2\theta} + Mgd\cos\theta
+$$
 
 has a minimum at $\theta_0$ for stable regular precession. Oscillation about $\theta_0$ gives
 nutation with frequency:
 
-$$\omega_{\text{nut}} = \frac{I_3\omega_3}{I_1} \quad \text{(for rapid spin)}$$
+$$
+\omega_{\text{nut}} = \frac{I_3\omega_3}{I_1} \quad \text{(for rapid spin)}
+$$
 
 ### 9.4 Gyroscopic Precession
 
 A spinning wheel with angular momentum $\mathbf{L}$ subject to a torque $\boldsymbol{\tau}$ precesses:
 
-$$\boldsymbol{\Omega}_{\text{prec}} = \frac{\boldsymbol{\tau} \times \mathbf{L}}{L^2}$$
+$$
+\boldsymbol{\Omega}_{\text{prec}} = \frac{\boldsymbol{\tau} \times \mathbf{L}}{L^2}
+$$
 
 **Why the wheel doesn't fall.** Gravity produces a torque perpendicular to $\mathbf{L}$, causing
 $\mathbf{L}$ to rotate horizontally rather than the wheel falling. The precession rate is:
 
-$$\Omega_{\text{prec}} = \frac{Mgd}{I_3\omega_3}$$
+$$
+\Omega_{\text{prec}} = \frac{Mgd}{I_3\omega_3}
+$$
 
 **Gyroscopic inertia.** A rapidly spinning top resists tilting because changing the direction of
 $\mathbf{L}$ requires a torque proportional to $\omega_3$.
@@ -153,14 +179,18 @@ avoid gimbal lock entirely.
 
 The effective potential for the $\theta$ motion:
 
-$$V_{\text{eff}(\theta) = \frac{(p_\phi - p_\psi\cos\theta)^2}{2I_1\sin^2\theta} + \frac{p_\psi^2}{2I_3} + Mgd\cos\theta}$$
+$$
+V_{\text{eff}(\theta) = \frac{(p_\phi - p_\psi\cos\theta)^2}{2I_1\sin^2\theta} + \frac{p_\psi^2}{2I_3} + Mgd\cos\theta}
+$$
 
 **Nutation:** The top nutates (oscillates in $\theta$) while precessing in $\phi$ and spinning in
 $\psi$. The type of nutation (looping, cusped, or smooth) depends on the initial conditions.
 
 **Fast top** ($p_\psi \gg Mgd$): The precession rate is:
 
-$$\dot{\phi} \approx \frac{Mgd}{p_\psi} = \frac{Mgd}{I_3\omega_3}$$
+$$
+\dot{\phi} \approx \frac{Mgd}{p_\psi} = \frac{Mgd}{I_3\omega_3}
+$$
 
 This is independent of $\theta$ to leading order (steady precession).
 
@@ -172,7 +202,9 @@ centre of mass $d = 0.05$ m, and spins at $\omega_3 = 300$ rad/s.
 
 The precession rate:
 
-$$\dot{\phi} = \frac{Mgd}{I_3\omega_3} = \frac{0.5 \times 9.81 \times 0.05}{5 \times 10^{-4} \times 300} = \frac{0.245}{0.15} = 1.63\ \text{rad}/s \approx 15.6\ \text{rpm}$$
+$$
+\dot{\phi} = \frac{Mgd}{I_3\omega_3} = \frac{0.5 \times 9.81 \times 0.05}{5 \times 10^{-4} \times 300} = \frac{0.245}{0.15} = 1.63\ \text{rad}/s \approx 15.6\ \text{rpm}
+$$
 
 The precession period: $T = 2\pi/\dot{\phi} = 3.85$ s.
 
@@ -196,22 +228,13 @@ steady precession and topples.
   axis spontaneously flips 180° periodically, visible in microgravity. This confirms the
   instability of intermediate-axis rotation predicted by Euler's equations.
 
-
-```mermaid
-flowchart TD
-    A[10_Rigid Body Dynamics Advanced Topics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Rigid body dynamics describes how extended objects rotate, where the distribution of mass matters as much as the total mass. The moment of inertia generalizes mass to rotation, depending on how far the mass is distributed from the axis. Euler's equations govern free rotation: a body spinning about its fastest or slowest axis is stable, but rotation about the intermediate axis is unstable, causing the Dzhanibekov flipping effect. A spinning top precesses because gravity exerts a torque that changes the angular momentum direction without changing its magnitude. Nutation adds a wobble on top of precession, arising from the competition between gravitational torque and gyroscopic stiffness.
 
 ### Key Relationships Summary
+
+<div class="table-wrap">
 
 | Quantity | Expression | Notes |
 | --- | --- | --- |
@@ -219,6 +242,8 @@ Rigid body dynamics describes how extended objects rotate, where the distributio
 | Tilted top precession | $\dot{\phi} = I_3\omega_3/(I_1\omega_1)$ | Angle between $\mathbf{L}$ and symmetry axis |
 | Fast-top precession | $\dot{\phi} \approx Mgd/(I_3\omega_3)$ | Independent of $\theta$ to leading order |
 | Nutation frequency | $\dot{\theta}$ oscillates in $V_{\text{eff}}$ | Looping/cusped/smooth types |
+
+</div>
 
 These relationships apply to free rigid bodies (no external torque) and tops (constant gravity). For
 coupled or driven systems, numerical integration of the full Euler equations is required.
@@ -230,4 +255,4 @@ coupled or driven systems, numerical integration of the full Euler equations is 
 - **[Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)**: The Hamiltonian formalism provides phase space representation of rigid body motion.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

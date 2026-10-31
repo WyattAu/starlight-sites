@@ -55,7 +55,9 @@ Thermodynamics describes the energy changes and spontaneity of reactions through
 
 Consider a reaction with $\Delta H = -92.2 \text{ kJ mol}^{-1}$ and $\Delta S = -198.7 \text{ J K}^{-1} \text{mol}^{-1}$ at $T = 298 \text{ K}$. Converting entropy to kJ: $\Delta S = -0.1987 \text{ kJ K}^{-1} \text{mol}^{-1}$. Applying the equation:
 
-$$\Delta G = -92.2 - (298)(-0.1987) = -92.2 + 59.2 = -33.0 \text{ kJ mol}^{-1}$$
+$$
+\Delta G = -92.2 - (298)(-0.1987) = -92.2 + 59.2 = -33.0 \text{ kJ mol}^{-1}
+$$
 
 Since $\Delta G < 0$, the reaction is spontaneous under these conditions.
 
@@ -82,8 +84,6 @@ University-level physical chemistry notes covering thermodynamics, kinetics, qua
 Start with the introductory sections to build foundational knowledge, then progress to more advanced topics. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -124,7 +124,7 @@ Entropy is a quantitative thermodynamic quantity measured in $\text{J K}^{-1}$, 
 - **[Inorganic Chemistry](../3-inorganic-chemistry/):** Explores coordination chemistry and solid-state chemistry that use thermodynamic and kinetic concepts.
 - **[Chemical Kinetics](/1-physical-chemistry/chemical-kinetics/):** Detailed notes on reaction rates, rate laws, and activation energy.
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

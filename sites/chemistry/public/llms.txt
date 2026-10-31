@@ -43,6 +43,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Overview
 
 - [About](https://chemistry.wyattau.com/about/)
+- [Before You Begin](https://chemistry.wyattau.com/before-you-begin/)
 - [Glossary](https://chemistry.wyattau.com/glossary/)
 - [Hub](https://chemistry.wyattau.com/hub/)
 - [Index](https://chemistry.wyattau.com/)

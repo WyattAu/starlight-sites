@@ -33,6 +33,8 @@ fi
 
 Three test constructs exist, with important differences:
 
+<div class="table-wrap">
+
 | Feature             | `[ ]` (POSIX test) | `[[ ]]` (bash)      |
 | ------------------- | ------------------ | ------------------- |
 | Word splitting      | Yes (quote vars)   | No                  |
@@ -41,6 +43,8 @@ Three test constructs exist, with important differences:
 | Regex matching      | No                 | Yes (`=~`)          |
 | Logical operators   | `-a``-o`           | `&&``\|\|`          |
 | Empty string safety | Requires quoting   | Safe without quotes |
+
+</div>
 
 ```bash
 ## POSIX test, requires quoting
@@ -767,7 +771,7 @@ false
 :::
 
 :::caution
-`pipefail`The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
+`pipefail`. The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
 `ERR` trap in complex pipelines, explicit error checking is more reliable.
 
 ## Signal Handling
@@ -805,6 +809,8 @@ done
 
 ### Signal Reference
 
+<div class="table-wrap">
+
 | Signal  | Number | Description             | Default Action |
 | ------- | ------ | ----------------------- | -------------- |
 | SIGHUP  | 1      | Terminal hangup         | Terminate      |
@@ -817,6 +823,8 @@ done
 | SIGPIPE | 13     | Broken pipe             | Terminate      |
 | SIGSTOP | 19     | Stop (cannot be caught) | Stop           |
 | SIGTSTP | 20     | Stop (Ctrl+Z)           | Stop           |
+
+</div>
 
 ```bash
 # List all signals
@@ -849,6 +857,8 @@ echo "$VAR"
 
 Common shellcheck warnings and fixes:
 
+<div class="table-wrap">
+
 | Code   | Issue                                    | Fix                               |
 | ------ | ---------------------------------------- | --------------------------------- |
 | SC2086 | Double-quote to prevent globbing         | `"$VAR"` instead of `$VAR`        |
@@ -857,6 +867,8 @@ Common shellcheck warnings and fixes:
 | SC2034 | Variable appears unused                  | Remove or use the variable        |
 | SC2155 | Declare and assign separately            | Split `local a=$(cmd)` into two   |
 | SC1091 | Not following sourced file               | Add `# shellcheck source=...`     |
+
+</div>
 
 ### Quoting
 
@@ -1174,16 +1186,6 @@ files=(*.txt)
 ls "${files[@]}"
 ```
 
-```mermaid
-flowchart TD
-    A[Bash Scripting] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of bash scripting, including underlying theory, practical
@@ -1197,17 +1199,11 @@ implementation, and key applications.
 - shell scripting with bash
 - package management
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Bash scripting is like writing a recipe for a computer chef -- variables are the ingredients, conditionals (if/else) are the decision points, loops (for/while) are the repetition instructions, and functions are sub-recipes. The shebang (#!/bin/bash) tells the system which chef to use. Bash is not just a command language -- it is a full programming language with variables, arrays, string manipulation, and arithmetic. The key to good scripts is error handling: always check return codes, quote your variables, and use set -e to stop on errors. A script without error handling is like a recipe without safety instructions.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

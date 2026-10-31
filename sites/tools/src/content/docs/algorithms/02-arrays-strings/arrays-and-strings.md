@@ -33,9 +33,11 @@ Single instruction: load from `base + i * element_size`.
 ### Memory Layout and Cache Behaviour
 
 Arrays have excellent spatial locality: accessing `arr[i]` loads the entire cache line ( 64 Bytes)
-into L1 cache, so accessing `arr[i+1]``arr[i+2]`Etc. Hits cache. This is why a linear Scan through
+into L1 cache, so accessing `arr[i+1]`, `arr[i+2]`. Etc. Hits cache. This is why a linear Scan through
 an array is 10-100x faster than following pointers through a linked list, Even though both are
 $O(n)$ in theory.
+
+<div class="table-wrap">
 
 | Property         | Array                       | Linked List              |
 | ---------------- | --------------------------- | ------------------------ |
@@ -45,6 +47,8 @@ $O(n)$ in theory.
 | Insert in middle | $O(n)$                      | $O(1)$ with pointer      |
 | Cache behaviour  | Excellent (contiguous)      | Poor (pointer chasing)   |
 | Memory overhead  | None (or small for dynamic) | One pointer per element  |
+
+</div>
 
 ### Dynamic Arrays
 
@@ -104,12 +108,16 @@ Numbering over 149,000 characters across code points 0x0000 to 0x10FFFF.
 
 UTF-8 is a variable-width encoding of Unicode:
 
+<div class="table-wrap">
+
 | Code Point Range    | Byte Pattern | Binary Representation                 |
 | ------------------- | ------------ | ------------------------------------- |
 | U+0000 to U+007F    | 1 byte       | `0xxxxxxx`                            |
 | U+0080 to U+07FF    | 2 bytes      | `110xxxxx 10xxxxxx`                   |
 | U+0800 to U+FFFF    | 3 bytes      | `1110xxxx 10xxxxxx 10xxxxxx`          |
 | U+10000 to U+10FFFF | 4 bytes      | `11110xxx 10xxxxxx 10xxxxxx 10xxxxxx` |
+
+</div>
 
 Key properties of UTF-8:
 
@@ -120,10 +128,12 @@ Key properties of UTF-8:
 
 This matters for algorithms: iterating over a UTF-8 string by code point is $O(n)$ in bytes, but
 Finding the $k$-th code point is $O(k)$ unless you build an index. In Python, strings are sequences
-Of Unicode code points (so `len(s)` gives the number of code points), but the underlying storage is
+of Unicode code points (so `len(s)` gives the number of code points), but the underlying storage is
 UTF-8 (in CPython 3.3+, PEP 393).
 
 ### String Complexity
+
+<div class="table-wrap">
 
 | Operation        | Python `str`        | C `char[]`             | Notes                     |
 | ---------------- | ------------------- | ---------------------- | ------------------------- |
@@ -133,6 +143,8 @@ UTF-8 (in CPython 3.3+, PEP 393).
 | Substring        | $O(k)$              | $O(k)$                 | $k$ = length of substring |
 | Split            | $O(n)$              | $O(n)$                 | Scans entire string       |
 | Find (substring) | $O(nm)$ to $O(n+m)$ | $O(nm)$ to $O(n+m)$    | Depends on algorithm      |
+
+</div>
 
 ## Two-Pointer Technique
 
@@ -208,7 +220,7 @@ def is_palindrome(s):
 ## Sliding Window
 
 The sliding window technique maintains a contiguous subarray (window) that expands or contracts as
-It moves through the array. It is applicable when you need to find a subarray satisfying some
+it moves through the array. It is applicable when you need to find a subarray satisfying some
 Constraint.
 
 ### Fixed-Size Window
@@ -271,7 +283,7 @@ def longest_substring_without_repeats(s):
 
 :::note
 Nor `right` ever moves backward. This is what gives the $O(n)$ time bound: each element is added to
-And removed from the window at most once.
+and removed from the window at most once.
 
 ## Prefix Sums
 
@@ -425,11 +437,15 @@ class HashMapChaining:
 **Open addressing:** All elements are stored in the array itself. When a collision occurs, probe for
 The next empty slot using a deterministic sequence.
 
+<div class="table-wrap">
+
 | Strategy          | Probe Sequence                          | Clustering           |
 | ----------------- | --------------------------------------- | -------------------- |
 | Linear probing    | $h(k), h(k)+1, h(k)+2, \ldots$          | Primary clustering   |
 | Quadratic probing | $h(k), h(k)+1^2, h(k)+2^2, \ldots$      | Secondary clustering |
 | Double hashing    | $h(k), h(k)+h'(k), h(k)+2h'(k), \ldots$ | No clustering        |
+
+</div>
 
 **Robin Hood hashing:** A variant of open addressing where elements with shorter probe distances are
 Favoured. When inserting, if the new element has a longer probe distance than the existing element,
@@ -846,7 +862,7 @@ def majority_element(arr):
 Sliding window problems are rife with off-by-one errors. The most common: confusing "exclusive upper
 Bound" with "inclusive upper bound." Decide on a convention (Python-style `[left, right)` is
 Recommended) and stick to it consistently. The number of elements in the window is always
-`right - left`Never `right - left + 1`.
+`right - left`. Never `right - left + 1`.
 
 ### 2. Integer Overflow in Rolling Hashes
 
@@ -859,7 +875,7 @@ Independent hash functions to reduce collision probability.
 
 Empty arrays, single-element arrays, arrays with all identical elements, and arrays where no valid
 Pair exists are all edge cases that two-pointer solutions must handle. Test your solution with `[]`
-`[1]``[1, 1, 1, 1]`And a case where no solution exists.
+`[1]`, `[1, 1, 1, 1]` and a case where no solution exists.
 
 ### 4. Treating Strings as Arrays of Bytes
 
@@ -870,31 +886,21 @@ Handle grapheme clusters (e.g., the emoji flags sequence). Use language-appropri
 ### 5. Hash Map Key Mutability
 
 If you use a mutable object as a hash map key and then mutate it, the object's hash changes and you
-Can no longer find it in the map. In Python, this manifests as a `dict` key becoming invisible after
+can no longer find it in the map. In Python, this manifests as a `dict` key becoming invisible after
 Mutation. Always use immutable types (tuples, frozensets, strings) as keys, or ensure keys are never
 Mutated after insertion.
 
 ### 6. Prefix Sum Integer Overflow
 
 For large arrays, prefix sums can overflow 32-bit integers. A sum of $10^6$ elements each up to
-$10^9$ gives $10^{15}$Which exceeds 32-bit range. Use 64-bit integers (`int` in Python is always
+$10^9$ gives $10^{15}$ Which exceeds 32-bit range. Use 64-bit integers (`int` in Python is always
 Arbitrary precision, but in C/C++/Java, use `long long`/`long`).
 
 ### 7. Ignoring the Difference Between "At Most k" and "Exactly k"
 
 In sliding window problems, "at most k distinct elements" requires shrinking the window when the
-Count exceeds $k$While "exactly k distinct elements" requires maintaining two windows (one for at
-Most $k$ and one for at most $k-1$). Conflating these leads to incorrect solutions.
-
-```mermaid
-flowchart TD
-    A[Arrays And Strings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+Count exceeds $k$ While "exactly k distinct elements" requires maintaining two windows (one for at
+most $k$ and one for at most $k-1$). Conflating these leads to incorrect solutions.
 
 ## Summary
 
@@ -908,9 +914,6 @@ implementation, and key applications.
 - sorting algorithms (bubble, merge, quick)
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

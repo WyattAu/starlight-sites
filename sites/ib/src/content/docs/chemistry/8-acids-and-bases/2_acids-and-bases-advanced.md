@@ -85,7 +85,7 @@ X = \sqrt{1.8 \times 10^{-5} \times 0.010} = \sqrt{1.8 \times 10^{-7}} = 4.24 \t
 $$
 
 Check: $\dfrac{4.24 \times 10^{-4}}{0.010} \times 100\% = 4.24\% \lt 5\%$. The approximation is
-Valid.
+valid.
 
 $$
 \mathrm{pH} = -\log(4.24 \times 10^{-4}) = 3.37
@@ -107,7 +107,7 @@ $K_{a2} = 1.2 \times 10^{-2}$.
 
 ### Common Pitfalls
 
-- The 5% rule: if $x/c_0 \gt 5\%$Use the quadratic formula.
+- The 5% rule: if $x/c_0 \gt 5\%$ Use the quadratic formula.
 - For very dilute strong acids ($c_0 \lt 10^{-6}\mathrm{ M}$), the contribution of water"s
   autoionization ($[\mathrm{H}^+] = 10^{-7}\mathrm{ M}$) becomes significant.
 - $\mathrm{pOH} = 14 - \mathrm{pH}$ only holds at $25\degree\mathrm{C}$.
@@ -140,7 +140,7 @@ Where $\mathrm{p}K_a = -\log K_a$.
 
 ### Buffer Capacity
 
-Buffer capacity is maximised when $[\mathrm{HA}] = [\mathrm{A}^-]$I.e., when
+Buffer capacity is maximised when $[\mathrm{HA}] = [\mathrm{A}^-]$ I.e., when
 $\mathrm{pH} = \mathrm{p}K_a$. A buffer is effective within $\pm 1$ unit of its $\mathrm{p}K_a$.
 
 ### Preparing a Buffer
@@ -205,7 +205,7 @@ $$
 $$
 
 The $\mathrm{pH}$ changed by only $0.09$ units. Without the buffer, $0.01\mathrm{ M}$ $\mathrm{HCl}$
-Would give $\mathrm{pH} = 2.00$.
+would give $\mathrm{pH} = 2.00$.
 
 ### Common Pitfalls
 
@@ -232,7 +232,7 @@ Would give $\mathrm{pH} = 2.00$.
 ### How Indicators Work
 
 Acid-base indicators are weak acids ($\mathrm{HIn}$) where the acid and conjugate base forms have
-Different colours:
+different colours:
 
 $$
 \mathrm{HIn} \rightleftharpoons \mathrm{H}^+ + \mathrm{In}^- \qquad K_{\mathrm{In}} = \frac{[\mathrm{H}^+][\mathrm{In}^-]}{[\mathrm{HIn}]}
@@ -240,11 +240,15 @@ $$
 
 The observed colour depends on the ratio $[\mathrm{In}^-]/[\mathrm{HIn}]$:
 
+<div class="table-wrap">
+
 | Condition                                       | Dominant species | Colour observed |
 | ----------------------------------------------- | ---------------- | --------------- |
 | $\mathrm{pH} \ll \mathrm{p}K_{\mathrm{In}}$     | $\mathrm{HIn}$   | Acid colour     |
 | $\mathrm{pH} \approx \mathrm{p}K_{\mathrm{In}}$ | Both present     | Transition      |
 | $\mathrm{pH} \gg \mathrm{p}K_{\mathrm{In}}$     | $\mathrm{In}^-$  | Base colour     |
+
+</div>
 
 ### Effective Range
 
@@ -258,6 +262,8 @@ $$
 
 The indicator's transition range should overlap with the equivalence point of the titration.
 
+<div class="table-wrap">
+
 | Titration type           | Equivalence point pH | Suitable indicator    |
 | ------------------------ | -------------------- | --------------------- |
 | Strong acid--strong base | $\mathrm{pH} = 7$    | Bromothymol blue      |
@@ -265,13 +271,19 @@ The indicator's transition range should overlap with the equivalence point of th
 | Weak acid--strong base   | $\mathrm{pH} \gt 7$  | Phenolphthalein       |
 | Weak acid--weak base     | No sharp change      | No suitable indicator |
 
+</div>
+
 ### Common Indicators
+
+<div class="table-wrap">
 
 | Indicator        | $\mathrm{pH}$ range | Acid colour | Base colour |
 | ---------------- | ------------------- | ----------- | ----------- |
 | Methyl orange    | $3.1$--$4.4$        | Red         | Yellow      |
 | Bromothymol blue | $6.0$--$7.6$        | Yellow      | Blue        |
 | Phenolphthalein  | $8.3$--$10.0$       | Colourless  | Pink        |
+
+</div>
 
 ---
 
@@ -318,13 +330,17 @@ $$
 
 ### Environmental Effects
 
+<div class="table-wrap">
+
 | Effect             | Mechanism                                                               |
 | ------------------ | ----------------------------------------------------------------------- |
-| Soil acidification | Leaches $\mathrm{Ca}^{2+}$, $\mathrm{Mg}^{2+}$Releases $\mathrm{Al}^{3+}$ |
+| Soil acidification | Leaches $\mathrm{Ca}^{2+}$, $\mathrm{Mg}^{2+}$ Releases $\mathrm{Al}^{3+}$ |
 | Lake acidification | Reduces biodiversity, mobilises toxic $\mathrm{Al}^{3+}$                |
 | Plant damage       | Damages leaves, inhibits root growth                                    |
 | Building corrosion | $\mathrm{CaCO}_3$ (limestone/marble) reacts with acid                   |
 | Respiratory issues | Fine sulfate/nitrate particles irritate lungs                           |
+
+</div>
 
 ### Mitigation
 
@@ -355,12 +371,14 @@ $$
 $$
 
 $$
-K_`\{sp}` = [\mathrm{M}^{y+}]^x[\mathrm{A}^{x-}]^y
+K_{sp} = [\mathrm{M}^{y+}]^x[\mathrm{A}^{x-}]^y
 $$
 
 $K_{sp}$ is the equilibrium constant for the dissolution of a solid. It is temperature-dependent.
 
 ### Common $K_{sp}$ Values
+
+<div class="table-wrap">
 
 | Compound            | $K_{sp}$              |
 | ------------------- | --------------------- |
@@ -371,6 +389,8 @@ $K_{sp}$ is the equilibrium constant for the dissolution of a solid. It is tempe
 | $\mathrm{CaCO}_3$   | $3.4 \times 10^{-9}$  |
 | $\mathrm{PbI}_2$    | $7.1 \times 10^{-9}$  |
 | $\mathrm{Mg(OH)}_2$ | $1.8 \times 10^{-11}$ |
+
+</div>
 
 ### Solubility Calculations
 :::
@@ -383,7 +403,7 @@ $$
 $$
 
 $$
-K_`\{sp}` = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s^2
+K_{sp} = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s^2
 $$
 
 $$
@@ -403,7 +423,7 @@ Adding a common ion **decreases** the solubility of a sparingly soluble salt.
 Calculate the solubility of $\mathrm{AgCl}$ in $0.10\mathrm{ M}$ $\mathrm{NaCl}$.
 
 $$
-K_`\{sp}` = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s \times 0.10
+K_{sp} = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s \times 0.10
 $$
 
 $$
@@ -411,7 +431,7 @@ S = \frac{1.8 \times 10^{-10}}{0.10} = 1.8 \times 10^{-9}\mathrm{ mol/L}
 $$
 
 Compared to pure water ($1.3 \times 10^{-5}\mathrm{ mol/L}$), the solubility decreased by a factor
-Of about $7000$.
+of about $7000$.
 
 ### Precipitation
 
@@ -421,11 +441,15 @@ $$
 Q = [\mathrm{M}^{y+}]^x[\mathrm{A}^{x-}]^y
 $$
 
+<div class="table-wrap">
+
 | Condition      | Result                       |
 | -------------- | ---------------------------- |
 | $Q \lt K_{sp}$ | No precipitate (unsaturated) |
 | $Q = K_{sp}$   | Saturated, at equilibrium    |
 | $Q \gt K_{sp}$ | Precipitate forms            |
+
+</div>
 
 ### Common Pitfalls
 
@@ -489,7 +513,7 @@ $$
 <summary>Problem 2</summary>
 
 Will a precipitate form when $50.0\mathrm{ mL}$ of $1.0 \times 10^{-4}\mathrm{ M}$ $\mathrm{AgNO}_3$
-Is mixed with $50.0\mathrm{ mL}$ of $1.0 \times 10^{-4}\mathrm{ M}$ $\mathrm{NaCl}$?
+is mixed with $50.0\mathrm{ mL}$ of $1.0 \times 10^{-4}\mathrm{ M}$ $\mathrm{NaCl}$?
 ($K_{sp}(\mathrm{AgCl}) = 1.8 \times 10^{-10}$)
 
 **Solution:**
@@ -508,7 +532,7 @@ $$
 Q = (5.0 \times 10^{-5})^2 = 2.5 \times 10^{-9}
 $$
 
-Since $Q = 2.5 \times 10^{-9} \gt K_{sp} = 1.8 \times 10^{-10}$A precipitate of $\mathrm{AgCl}$ Will
+Since $Q = 2.5 \times 10^{-9} \gt K_{sp} = 1.8 \times 10^{-10}$ A precipitate of $\mathrm{AgCl}$ Will
 form.
 
 </details>
@@ -551,7 +575,7 @@ $\mathrm{pH}$.
 
 **Solution:**
 
-$\mathrm{NH}_4\mathrm{Cl}$ dissociates completely to give $\mathrm{NH}_4^+$The conjugate acid of
+$\mathrm{NH}_4\mathrm{Cl}$ dissociates completely to give $\mathrm{NH}_4^+$ The conjugate acid of
 $\mathrm{NH}_3$. This is the **common ion effect**:
 
 $$
@@ -559,7 +583,7 @@ $$
 $$
 
 Adding $\mathrm{NH}_4^+$ shifts the equilibrium to the left (Le Chatelier's principle), decreasing
-$[\mathrm{OH}^-]$ and therefore increasing $[\mathrm{H}^+]$Which lowers the $\mathrm{pH}$.
+$[\mathrm{OH}^-]$ and therefore increasing $[\mathrm{H}^+]$ Which lowers the $\mathrm{pH}$.
 
 </details>
 
@@ -588,19 +612,31 @@ At this concentration, the contribution from water autoionization
 ($[\mathrm{H}^+] = 10^{-7}\mathrm{ M}$) is Significant and cannot be ignored. Let
 $x = [\mathrm{OH}^-]$ from water autoionization:
 
-$$[\mathrm{H}^+]_{\mathrm{total}} = 1.0 \times 10^{-8} + x$$
+$$
+[\mathrm{H}^+]_{\mathrm{total}} = 1.0 \times 10^{-8} + x
+$$
 
-$$K_w = [\mathrm{H}^+][\mathrm{OH}^-] = (1.0 \times 10^{-8} + x)(x) = 1.0 \times 10^{-14}$$
+$$
+K_w = [\mathrm{H}^+][\mathrm{OH}^-] = (1.0 \times 10^{-8} + x)(x) = 1.0 \times 10^{-14}
+$$
 
-$$x^2 + 1.0 \times 10^{-8}x - 1.0 \times 10^{-14} = 0$$
+$$
+x^2 + 1.0 \times 10^{-8}x - 1.0 \times 10^{-14} = 0
+$$
 
 Using the quadratic formula:
 
-$$x = \frac{-1.0 \times 10^{-8} + \sqrt{(1.0 \times 10^{-8})^2 + 4(1.0 \times 10^{-14})}}{2} = \frac{-1.0 \times 10^{-8} + 2.00 \times 10^{-7}}{2} = 9.5 \times 10^{-8}$$
+$$
+x = \frac{-1.0 \times 10^{-8} + \sqrt{(1.0 \times 10^{-8})^2 + 4(1.0 \times 10^{-14})}}{2} = \frac{-1.0 \times 10^{-8} + 2.00 \times 10^{-7}}{2} = 9.5 \times 10^{-8}
+$$
 
-$$[\mathrm{H}^+]_{\mathrm{total}} = 1.0 \times 10^{-8} + 9.5 \times 10^{-8} = 1.05 \times 10^{-7}\mathrm{ M}$$
+$$
+[\mathrm{H}^+]_{\mathrm{total}} = 1.0 \times 10^{-8} + 9.5 \times 10^{-8} = 1.05 \times 10^{-7}\mathrm{ M}
+$$
 
-$$\mathrm{pH} = -\log(1.05 \times 10^{-7}) = 6.98$$
+$$
+\mathrm{pH} = -\log(1.05 \times 10^{-7}) = 6.98
+$$
 
 The $\mathrm{pH}$ is close to 7 but slightly acidic, as expected for a very dilute strong acid.
 Ignoring Water autoionization would give the incorrect result $\mathrm{pH} = 8.00$ (a basic
@@ -619,25 +655,43 @@ $\mathrm{NaOH}$.
 
 At the equivalence point, all of the weak acid has been converted to its conjugate base:
 
-$$n(\mathrm{CH}_3\mathrm{COOH}) = 0.0250 \times 0.100 = 0.00250\mathrm{ mol}$$
+$$
+n(\mathrm{CH}_3\mathrm{COOH}) = 0.0250 \times 0.100 = 0.00250\mathrm{ mol}
+$$
 
-$$V(\mathrm{NaOH}) = \frac{0.00250}{0.100} = 25.0\mathrm{ mL}$$
+$$
+V(\mathrm{NaOH}) = \frac{0.00250}{0.100} = 25.0\mathrm{ mL}
+$$
 
-$$V_{\mathrm{total}} = 50.0\mathrm{ mL} = 0.0500\mathrm{ L}$$
+$$
+V_{\mathrm{total}} = 50.0\mathrm{ mL} = 0.0500\mathrm{ L}
+$$
 
-$$[\mathrm{CH}_3\mathrm{COO}^-] = \frac{0.00250}{0.0500} = 0.0500\mathrm{ M}$$
+$$
+[\mathrm{CH}_3\mathrm{COO}^-] = \frac{0.00250}{0.0500} = 0.0500\mathrm{ M}
+$$
 
 The conjugate base hydrolyses water:
 
-$$\mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{CH}_3\mathrm{COOH} + \mathrm{OH}^-$$
+$$
+\mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{CH}_3\mathrm{COOH} + \mathrm{OH}^-
+$$
 
-$$K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.56 \times 10^{-10}$$
+$$
+K_b = \frac{K_w}{K_a} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.56 \times 10^{-10}
+$$
 
-$$[\mathrm{OH}^-] = \sqrt{K_b \times [\mathrm{CH}_3\mathrm{COO}^-]} = \sqrt{5.56 \times 10^{-10} \times 0.0500} = 5.27 \times 10^{-6}\mathrm{ M}$$
+$$
+[\mathrm{OH}^-] = \sqrt{K_b \times [\mathrm{CH}_3\mathrm{COO}^-]} = \sqrt{5.56 \times 10^{-10} \times 0.0500} = 5.27 \times 10^{-6}\mathrm{ M}
+$$
 
-$$\mathrm{pOH} = -\log(5.27 \times 10^{-6}) = 5.28$$
+$$
+\mathrm{pOH} = -\log(5.27 \times 10^{-6}) = 5.28
+$$
 
-$$\mathrm{pH} = 14.00 - 5.28 = 8.72$$
+$$
+\mathrm{pH} = 14.00 - 5.28 = 8.72
+$$
 
 The equivalence point is basic because the conjugate base of a weak acid is itself a weak base.
 Phenolphthalein (transition range 8.3--10.0) is a suitable indicator. Bromothymol blue (6.0--7.6)
@@ -661,11 +715,15 @@ second salt begins To precipitate.
 
 For $\mathrm{AgCl}$:
 
-$$[\mathrm{Ag}^+] = \frac{K_{sp}}{[\mathrm{Cl}^-]} = \frac{1.8 \times 10^{-10}}{0.020} = 9.0 \times 10^{-9}\mathrm{ M}$$
+$$
+[\mathrm{Ag}^+] = \frac{K_{sp}}{[\mathrm{Cl}^-]} = \frac{1.8 \times 10^{-10}}{0.020} = 9.0 \times 10^{-9}\mathrm{ M}
+$$
 
 For $\mathrm{Ag}_2\mathrm{CrO}_4$:
 
-$$[\mathrm{Ag}^+] = \sqrt{\frac{K_{sp}}{[\mathrm{CrO}_4^{2-}]}} = \sqrt{\frac{1.1 \times 10^{-12}}{0.020}} = 7.4 \times 10^{-6}\mathrm{ M}$$
+$$
+[\mathrm{Ag}^+] = \sqrt{\frac{K_{sp}}{[\mathrm{CrO}_4^{2-}]}} = \sqrt{\frac{1.1 \times 10^{-12}}{0.020}} = 7.4 \times 10^{-6}\mathrm{ M}
+$$
 
 **Step 2: Identify which precipitates first.**
 
@@ -677,7 +735,9 @@ precipitate.**
 
 When $[\mathrm{Ag}^+] = 7.4 \times 10^{-6}\mathrm{ M}$:
 
-$$[\mathrm{Cl}^-]_{\mathrm{remaining}} = \frac{K_{sp}}{[\mathrm{Ag}^+]} = \frac{1.8 \times 10^{-10}}{7.4 \times 10^{-6}} = 2.4 \times 10^{-5}\mathrm{ M}$$
+$$
+[\mathrm{Cl}^-]_{\mathrm{remaining}} = \frac{K_{sp}}{[\mathrm{Ag}^+]} = \frac{1.8 \times 10^{-10}}{7.4 \times 10^{-6}} = 2.4 \times 10^{-5}\mathrm{ M}
+$$
 
 Fraction of $\mathrm{Cl}^-$ precipitated:
 $\dfrac{0.020 - 2.4 \times 10^{-5}}{0.020} \times 100\% = 99.9\%$
@@ -699,27 +759,43 @@ $\mathrm{NH}_3$.
 
 **Step 1: Find the $\mathrm{p}K_a$ of the conjugate acid $\mathrm{NH}_4^+$.**
 
-$$\mathrm{p}K_b = -\log(1.8 \times 10^{-5}) = 4.74$$
+$$
+\mathrm{p}K_b = -\log(1.8 \times 10^{-5}) = 4.74
+$$
 
-$$\mathrm{p}K_a = 14.00 - 4.74 = 9.26$$
+$$
+\mathrm{p}K_a = 14.00 - 4.74 = 9.26
+$$
 
 **Step 2: Apply the Henderson-Hasselbalch equation.**
 
-$$9.50 = 9.26 + \log\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]}$$
+$$
+9.50 = 9.26 + \log\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]}
+$$
 
-$$\log\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]} = 0.24$$
+$$
+\log\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]} = 0.24
+$$
 
-$$\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]} = 10^{0.24} = 1.74$$
+$$
+\frac{[\mathrm{NH}_3]}{[\mathrm{NH}_4^+]} = 10^{0.24} = 1.74
+$$
 
 **Step 3: Solve for the required $[\mathrm{NH}_4^+]$.**
 
-$$[\mathrm{NH}_4^+] = \frac{0.200}{1.74} = 0.115\mathrm{ M}$$
+$$
+[\mathrm{NH}_4^+] = \frac{0.200}{1.74} = 0.115\mathrm{ M}
+$$
 
 **Step 4: Calculate the mass of $\mathrm{NH}_4\mathrm{Cl}$.**
 
-$$n(\mathrm{NH}_4\mathrm{Cl}) = 0.115 \times 0.500 = 0.0575\mathrm{ mol}$$
+$$
+n(\mathrm{NH}_4\mathrm{Cl}) = 0.115 \times 0.500 = 0.0575\mathrm{ mol}
+$$
 
-$$m(\mathrm{NH}_4\mathrm{Cl}) = 0.0575 \times 53.49 = 3.08\mathrm{ g}$$
+$$
+m(\mathrm{NH}_4\mathrm{Cl}) = 0.0575 \times 53.49 = 3.08\mathrm{ g}
+$$
 
 </details>
 
@@ -738,12 +814,16 @@ Suitable indicators.
 All $\mathrm{H}_3\mathrm{PO}_4$ is converted to $\mathrm{H}_2\mathrm{PO}_4^-$ (an amphoteric
 species).
 
-$$[\mathrm{H}_2\mathrm{PO}_4^-] = \frac{0.00250}{0.0500} = 0.0500\mathrm{ M}$$
+$$
+[\mathrm{H}_2\mathrm{PO}_4^-] = \frac{0.00250}{0.0500} = 0.0500\mathrm{ M}
+$$
 
 For an amphoteric species, the $\mathrm{pH}$ is approximately the average of the two relevant
 $\mathrm{p}K_a$ values:
 
-$$\mathrm{pH} \approx \frac{\mathrm{p}K_{a1} + \mathrm{p}K_{a2}}{2} = \frac{2.12 + 7.21}{2} = 4.67$$
+$$
+\mathrm{pH} \approx \frac{\mathrm{p}K_{a1} + \mathrm{p}K_{a2}}{2} = \frac{2.12 + 7.21}{2} = 4.67
+$$
 
 A suitable indicator: bromocresol green (3.8--5.4) or methyl red (4.4--6.2).
 
@@ -751,9 +831,13 @@ A suitable indicator: bromocresol green (3.8--5.4) or methyl red (4.4--6.2).
 
 All $\mathrm{H}_2\mathrm{PO}_4^-$ is converted to $\mathrm{HPO}_4^{2-}$ (also amphoteric).
 
-$$[\mathrm{HPO}_4^{2-}] = \frac{0.00250}{0.0750} = 0.0333\mathrm{ M}$$
+$$
+[\mathrm{HPO}_4^{2-}] = \frac{0.00250}{0.0750} = 0.0333\mathrm{ M}
+$$
 
-$$\mathrm{pH} \approx \frac{\mathrm{p}K_{a2} + \mathrm{p}K_{a3}}{2} = \frac{7.21 + 12.32}{2} = 9.76$$
+$$
+\mathrm{pH} \approx \frac{\mathrm{p}K_{a2} + \mathrm{p}K_{a3}}{2} = \frac{7.21 + 12.32}{2} = 9.76
+$$
 
 A suitable indicator: phenolphthalein (8.3--10.0).
 
@@ -777,7 +861,7 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 
 - **Assuming complete dissociation for all diprotic acids**: $\mathrm{H}_2\mathrm{SO}_4$ has a
   complete first dissociation but a partial second ($K_{a2} = 1.2 \times 10^{-2}$), so
-  $[\mathrm{H}^+] \neq 2[\mathrm{acid}]$. For $\mathrm{H}_2\mathrm{CO}_3$Both dissociation steps are
+  $[\mathrm{H}^+] \neq 2[\mathrm{acid}]$. For $\mathrm{H}_2\mathrm{CO}_3$ Both dissociation steps are
   weak. Always check the magnitude of each $K_a$ before making simplifying assumptions.
 
 - **Using $\mathrm{pOH} = 14 - \mathrm{pH}$ without specifying temperature**:
@@ -800,7 +884,7 @@ A suitable indicator: phenolphthalein (8.3--10.0).
   calculate molar solubility from $K_{sp}$ before comparing.
 
 - **Ignoring water autoionization for dilute solutions**: When the calculated $[\mathrm{H}^+]$ from
-  the acid or base alone is below $10^{-6}\mathrm{ M}$The contribution from water
+  the acid or base alone is below $10^{-6}\mathrm{ M}$ The contribution from water
   ($10^{-7}\mathrm{ M}$) is comparable and must be included via the full quadratic.
 
 - **Confusing buffer capacity with buffer range**: Buffer capacity (total moles of acid or base that
@@ -835,7 +919,7 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 
 1. Calculate the $\mathrm{pH}$ of the solution formed when $15.0\mathrm{ mL}$ of $0.100\mathrm{ M}$
    $\mathrm{H}_2\mathrm{SO}_4$ is added to $35.0\mathrm{ mL}$ of $0.100\mathrm{ M}$ $\mathrm{NaOH}$
-   at $25\degree\mathrm{C}$. ($K_{a2}$ of $\mathrm{HSO}_4^-$ = $1.2 \times 10^{-2}$.) State all
+   at $25\degree\mathrm{C}$. ($ K_{a2}$ of $\mathrm{HSO}_4^-$ = $1.2 \times 10^{-2}$.) State all
    assumptions and justify their validity. **[Medium]**
 
 2. A buffer is prepared by dissolving $4.10\mathrm{ g}$ of sodium ethanoate
@@ -870,13 +954,13 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 
 7. A student prepares a buffer by mixing $100\mathrm{ mL}$ of $0.200\mathrm{ M}$
    $\mathrm{CH}_3\mathrm{COOH}$ with $100\mathrm{ mL}$ of $0.100\mathrm{ M}$ $\mathrm{NaOH}$. (a)
-   Calculate the buffer $\mathrm{pH}$. (b) Determine the maximum volume of $0.100\mathrm{ M}$
+   calculate the buffer $\mathrm{pH}$. (b) Determine the maximum volume of $0.100\mathrm{ M}$
    $\mathrm{HCl}$ that can be added before the $\mathrm{pH}$ drops below $4.00$. (c) Comment on
    whether this buffer would be effective at $\mathrm{pH} = 4.00$ given the $\mathrm{p}K_a$ of
    ethanoic acid. **[Hard]**
 
 8. An environmental scientist measures the $\mathrm{pH}$ of a lake at $4.50$. (a) Calculate
-   $[\mathrm{H}^+]$ and $[\mathrm{SO}_4^{2-}]$Assuming the acidity is entirely from dissolved
+   $[\mathrm{H}^+]$ and $[\mathrm{SO}_4^{2-}]$ Assuming the acidity is entirely from dissolved
    $\mathrm{H}_2\mathrm{SO}_4$ with complete dissociation of both protons. (b) Determine whether
    $\mathrm{CaSO}_4$ would precipitate if $[\mathrm{Ca}^{2+}] = 1.5 \times 10^{-3}\mathrm{ M}$.
    $K_{sp}(\mathrm{CaSO}_4) = 2.4 \times 10^{-5}$. (c) Calculate the minimum $[\mathrm{Ca}^{2+}]$
@@ -903,16 +987,6 @@ A suitable indicator: phenolphthalein (8.3--10.0).
   [..../11-measurement-and-data-processing/1_measurement-and-data-processing](/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing/)
 - **Electron configurations and ion formation** → Review
   [..../2-atomic-structure/1_atomic-theory](/chemistry/2-atomic-structure/1_atomic-theory/)
-
-```mermaid
-flowchart TD
-    A[2_Acids And Bases Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

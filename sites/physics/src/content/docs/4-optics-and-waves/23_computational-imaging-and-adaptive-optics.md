@@ -22,7 +22,9 @@ description: "(Candes, Tao, Donoho, 2006) shows that signals that are in some ba
 **Compressed sensing** (Candes, Tao, Donoho, 2006) shows that signals that are **sparse** in some
 basis can be reconstructed from far fewer measurements than Nyquist sampling requires:
 
-$$\hat{\mathbf{x}} = \arg\min_{\mathbf{x}} \|\mathbf{x}\|_1 \quad \text{subject} to  \mathbf{y} = \Phi\mathbf{x}$$
+$$
+\hat{\mathbf{x}} = \arg\min_{\mathbf{x}} \|\mathbf{x}\|_1 \quad \text{subject} to  \mathbf{y} = \Phi\mathbf{x}
+$$
 
 Where $\Phi$ is the measurement matrix and $|\cdot|_1$ is the $L^1$ norm promoting sparsity.
 
@@ -31,7 +33,9 @@ Where $\Phi$ is the measurement matrix and $|\cdot|_1$ is the $L^1$ norm promoti
 **Atmospheric turbulence** causes phase distortions in astronomical images. **Adaptive optics (AO)**
 corrects these in real time using a deformable mirror. The Strehl ratio:
 
-$$S = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\langle\Delta\phi^2\rangle\right]$$
+$$
+S = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\langle\Delta\phi^2\rangle\right]
+$$
 
 For diffraction-limited imaging ($S > 0.8$): $\Delta\phi_{\text{rms} < \lambda/14}$. On an 8 m
 telescope at visible wavelengths, the deformable mirror must update at $>500$ Hz to track the
@@ -78,37 +82,32 @@ Computational imaging combines optical hardware with algorithmic processing to o
   math). Fresnel: near-field. **Fix:** Fraunhofer: $a \sin\theta = n\lambda$. Fresnel: requires
   Fresnel integrals or numerical methods.
 
-
-```mermaid
-flowchart TD
-    A[23_Computational Imaging And Adaptive Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Phase velocity: $v_p = \omega/k$. Group velocity: $v_g = d\omega/dk$; energy/information travels
   at $v_g$.
 - Interference: thin films, Michelson interferometer, Fabry-Pérot etalon.
 - Diffraction: single slit, double slit, diffraction grating; Rayleigh criterion for resolution.
-- Polarisation: Brewster"s angle, Malus’s law ($I = I_0 \cos^2 \theta$).
+- Polarisation: Brewster's angle, Malus’s law ($I = I_0 \cos^2 \theta$).
 
 ## Cross-References
+
+<div class="table-wrap">
 
 | Topic                   | Site       | Link                                                                                                                   |
 | ----------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- |
 | [Refraction and Optics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/waves/03-refraction-and-total-internal-reflection) |
-| [Refraction and Optics] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/2-waves/2_waves-and-optics)                                            |
+| [Refraction and Optics] | DSE        | [View](https://dse.wyattau.com/physics/2-waves/2_waves-and-optics/)                                            |
 | [Refraction and Optics] | University | [View](https://physics.wyattau.com/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ### 19.3 Key Relationships
+
+<div class="table-wrap">
 
 | Concept               | Formula                                                               | Meaning                                                 |
 | --------------------- | --------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -117,6 +116,8 @@ flowchart TD
 | Strehl ratio          | $S = \exp[-(2\pi/\lambda)^2\langle\Delta\phi^2\rangle]$               | Measure of image quality after AO correction            |
 | Greenwood frequency   | $f_G = 0.427\,(v_w/r_0)$                                             | Required AO update rate for given wind speed $v_w$      |
 | Fried parameter       | $r_0 \propto \lambda^{6/5}(\cos\gamma)^{3/5}$                        | Coherence length of atmospheric turbulence              |
+
+</div>
 
 ### 19.4 Common Pitfalls
 
@@ -135,6 +136,8 @@ flowchart TD
 
 ### 19.6 Summary Table
 
+<div class="table-wrap">
+
 | Technique            | Problem addressed                     | Key mathematics                      | Typical hardware              |
 | -------------------- | ------------------------------------- | ------------------------------------ | ----------------------------- |
 | Compressed sensing   | Sub-Nyquist sampling                  | $\ell_1$-minimisation, RIP           | Single-pixel camera, sparse arrays |
@@ -142,15 +145,21 @@ flowchart TD
 | Deconvolution        | Blur from PSF                         | Wiener filter, Richardson-Lucy       | Post-processing (software)    |
 | Synthetic aperture   | Limited aperture size                 | Fourier-domain interpolation         | Antenna array, telescope array |
 
+</div>
+
 ### 19.7 Worked Example: Strehl Ratio and Wavefront Error
 
 **Problem.** An AO system reduces the wavefront RMS error to $\Delta\phi_{\rm rms} = \lambda/20$ at $\lambda = 500$ nm. Compute the Strehl ratio. Is the system diffraction-limited?
 
 **Solution.** The Strehl ratio is:
 
-$$S = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\langle\Delta\phi^2\rangle\right] = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\left(\frac{\lambda}{20}\right)^2\right]$$
+$$
+S = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\langle\Delta\phi^2\rangle\right] = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\left(\frac{\lambda}{20}\right)^2\right]
+$$
 
-$$S = \exp\left[-\left(\frac{2\pi}{20}\right)^2\right] = \exp\left[-\left(\frac{\pi}{10}\right)^2\right] = \exp(-\pi^2/100) \approx \exp(-0.0987) \approx 0.906$$
+$$
+S = \exp\left[-\left(\frac{2\pi}{20}\right)^2\right] = \exp\left[-\left(\frac{\pi}{10}\right)^2\right] = \exp(-\pi^2/100) \approx \exp(-0.0987) \approx 0.906
+$$
 
 Since $S > 0.8$, the system is diffraction-limited. This meets the Marechal criterion ($S > 0.8$), corresponding to $\Delta\phi_{\rm rms} < \lambda/14$. Our $\lambda/20$ exceeds this requirement.
 
@@ -162,44 +171,3 @@ $\blacksquare$
 - [The Wave Equation](/4-optics-and-waves/1_the-wave-equation/)
 - [Fresnel Equations](/4-optics-and-waves/10_fresnel-equations/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

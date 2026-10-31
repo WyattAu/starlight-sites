@@ -657,6 +657,8 @@ associativity = do
 
 ## Choosing the Right Monad
 
+<div class="table-wrap">
+
 | Monad      | Use Case        | When to Use                                |
 | ---------- | --------------- | ------------------------------------------ |
 | `Maybe`    | Optional values | Computations that may fail with no details |
@@ -668,15 +670,7 @@ associativity = do
 | `[]`       | Non-determinism | Multiple possible results                  |
 | `Identity` | No effect       | The simplest monad, wraps a plain value    |
 
-```mermaid
-flowchart TD
-    A[1_Monads And Functors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 

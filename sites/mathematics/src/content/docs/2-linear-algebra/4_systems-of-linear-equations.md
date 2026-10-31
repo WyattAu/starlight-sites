@@ -5,7 +5,7 @@ title: "Systems of Linear Equations"
 tags:
   - Mathematics
   - University
-description: 'A system of linear equations in unknowns can be written as Where Comprehensive educational content coverage with definitions and practice problems.'
+description: "Systems of linear equations: Gaussian elimination, existence and uniqueness, LU decomposition, partial pivoting, least squares, and the geometry of what elimination actually does. Every outcome is one of three -- no solution, one solution, or infinitely many -- and row reduction tells you which. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -17,9 +17,57 @@ description: 'A system of linear equations in unknowns can be written as Where C
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- What are the three possible outcomes for a linear system?
+- What does it mean for a matrix to be in row echelon form? Reduced form?
+- What does pivoting protect against, and why is it needed at all?
+- State the rank-nullity theorem and say what it predicts for an $m \times n$
+  system.
+- When is the least-squares solution the right answer?
+
+Check your answers against the text. Prompt 2 is the practical core: every
+claim about existence and uniqueness in this page is read off a row echelon
+form, so knowing what you are allowed to conclude from one is the skill.
+
+## Motivation: elimination is a change of basis, not an algorithm
+
+Gaussian elimination is usually taught as a procedure with steps. It is better
+understood as applying a sequence of *invertible* row operations, each of which
+is multiplication by a simple matrix.
+
+$$
+E_k \cdots E_2 E_1 A = U
+$$
+
+Each $E_i$ is invertible, so the product $E_k \cdots E_1$ is invertible, and an
+invertible map does not change the solution set. **That is why elimination is
+allowed to work at all**: every row operation produces a system with exactly
+the same solutions.
+
+Reading the product the other way gives the LU decomposition:
+
+$$
+A = (E_k \cdots E_1)^{-1} U = LU,
+$$
+
+where $L$ is lower triangular with the multipliers on its entries. So LU is
+not a separate technique from elimination -- it is the elimination *recorded*,
+which is why factoring once and solving many times is cheaper than eliminating
+from scratch for every right-hand side.
+
+**Why pivoting is needed.** Dividing by a pivot that is small -- or zero -- is
+what breaks elimination. Swapping rows to bring the largest available entry to
+the pivot position costs nothing and avoids dividing by something tiny. In
+exact arithmetic it is unnecessary; in floating point it is the difference
+between an answer and noise, because a tiny pivot amplifies rounding error
+into every entry below it.
+
 ### 4.1 Gaussian Elimination
 
-A system of $m$ linear equations in $n$ unknowns can be written as $A\mathbf{x} = \mathbf{b}$Where
+A system of $m$ linear equations in $n$ unknowns can be written as $A\mathbf{x} = \mathbf{b}$ Where
 $A \in \mathcal{M}_{m \times n}(\mathbb{R})$, $\mathbf{x} \in \mathbb{R}^n$ And
 $\mathbf{b} \in \mathbb{R}^m$.
 
@@ -49,14 +97,16 @@ Have the same RREF.
 **Theorem 4.2 (Rouché--Capelli).** The system $A\mathbf{x} = \mathbf{b}$ is consistent (has at least
 one Solution) if and only if
 
-$$\mathrm{rank}(A) = \mathrm{rank}([A \mid \mathbf{b}])$$
+$$
+\mathrm{rank}(A) = \mathrm{rank}([A \mid \mathbf{b}])
+$$
 
 If consistent, the solution set has $\dim(\mathrm{null}(A))$ free parameters, where
 $\dim(\mathrm{null}(A)) = n - \mathrm{rank}(A)$.
 
 _Proof._ Let the RREF of $[A \mid \mathbf{b}]$ have $r = \mathrm{rank}(A)$ pivots in the coefficient
 Columns. The system is inconsistent if and only if the last non-zero row is $[0 \cdots 0 \mid 1]$
-Which occurs precisely when the augmented column contains a pivot, i.e., when
+which occurs precisely when the augmented column contains a pivot, i.e., when
 $\mathrm{rank}([A \mid \mathbf{b}]) \gt r$.
 
 If consistent, the $r$ pivot variables are determined by the $n - r$ free variables, yielding
@@ -75,26 +125,34 @@ Triangular portion. The resulting upper triangular matrix is $U$ And the multipl
 
 **Worked Example.** Find the LU decomposition of
 
-$$A = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Step 1: Eliminate below $a_{11}$. $m_{21} = 4/2 = 2$, $m_{31} = 8/2 = 4$.
 
-$$\begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 3 & 5 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 3 & 5 \end{pmatrix}
+$$
 
 Step 2: Eliminate below $a_{22}$. $m_{32} = 3/1 = 3$.
 
-$$U = \begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 2 \end{pmatrix}$$
+$$
+U = \begin{pmatrix} 2 & 1 & 1 \\ 0 & 1 & 1 \\ 0 & 0 & 2 \end{pmatrix}
+$$
 
-$$L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ 4 & 3 & 1 \end{pmatrix}$$
+$$
+L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ 4 & 3 & 1 \end{pmatrix}
+$$
 
 Verify: $LU = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix} = A$. $\blacksquare$
 
 </details>
 
-To solve $A\mathbf{x} = \mathbf{b}$First solve $L\mathbf{y} = \mathbf{b}$ (forward substitution),
+To solve $A\mathbf{x} = \mathbf{b}$ First solve $L\mathbf{y} = \mathbf{b}$ (forward substitution),
 Then $U\mathbf{x} = \mathbf{y}$ (back substitution).
 
 ### 4.4 Gaussian Elimination with Partial Pivoting
@@ -105,30 +163,42 @@ Stability.
 
 **Problem.** Solve the system using Gaussian elimination with partial pivoting:
 
-$$\begin{aligned} x_1 + 2x_2 + x_3 &= 5 \\ 3x_1 + x_2 - x_3 &= 2 \\ 2x_1 + 3x_2 + 4x_3 &= 11 \end{aligned}$$
+$$
+\begin{aligned} x_1 + 2x_2 + x_3 &= 5 \\ 3x_1 + x_2 - x_3 &= 2 \\ 2x_1 + 3x_2 + 4x_3 &= 11 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Augmented matrix:
 
-$$[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 2 & 1 & 5 \\ 3 & 1 & -1 & 2 \\ 2 & 3 & 4 & 11 \end{pmatrix}$$
+$$
+[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 2 & 1 & 5 \\ 3 & 1 & -1 & 2 \\ 2 & 3 & 4 & 11 \end{pmatrix}
+$$
 
 **Step 1.** Column 1: largest entry is 3 in row 2. Swap $R_1 \leftrightarrow R_2$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 1 & 2 & 1 & 5 \\ 2 & 3 & 4 & 11 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 1 & 2 & 1 & 5 \\ 2 & 3 & 4 & 11 \end{pmatrix}
+$$
 
 $R_2 \to R_2 - \frac{1}{3}R_1$, $R_3 \to R_3 - \frac{2}{3}R_1$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 5/3 & 4/3 & 13/3 \\ 0 & 7/3 & 14/3 & 29/3 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 5/3 & 4/3 & 13/3 \\ 0 & 7/3 & 14/3 & 29/3 \end{pmatrix}
+$$
 
 **Step 2.** Column 2: largest entry below pivot is $7/3$ in row 3. Swap $R_2 \leftrightarrow R_3$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 5/3 & 4/3 & 13/3 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 5/3 & 4/3 & 13/3 \end{pmatrix}
+$$
 
 $R_3 \to R_3 - \frac{5}{7}R_2$:
 
-$$\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 0 & -2/7 & -6/7 \end{pmatrix}$$
+$$
+\begin{pmatrix} 3 & 1 & -1 & 2 \\ 0 & 7/3 & 14/3 & 29/3 \\ 0 & 0 & -2/7 & -6/7 \end{pmatrix}
+$$
 
 **Back substitution.** From row 3: $-\frac{2}{7}x_3 = -\frac{6}{7}$ So $x_3 = 3$.
 
@@ -149,7 +219,9 @@ We seek $\mathbf{x}$ that minimises $\lVert A\mathbf{x} - \mathbf{b} \rVert^2$.
 
 **Theorem 4.4 (Normal Equations).** The least squares solution $\hat{\mathbf{x}}$ satisfies
 
-$$A^T A \hat{\mathbf{x}} = A^T \mathbf{b}$$
+$$
+A^T A \hat{\mathbf{x}} = A^T \mathbf{b}
+$$
 
 If $A$ has full column rank, then $A^T A$ is invertible and
 $\hat{\mathbf{x}} = (A^T A)^{-1} A^T \mathbf{b}$.
@@ -157,7 +229,7 @@ $\hat{\mathbf{x}} = (A^T A)^{-1} A^T \mathbf{b}$.
 _Proof._ The error vector $\mathbf{e} = A\mathbf{x} - \mathbf{b}$ is minimised when
 $\mathbf{e} \perp \mathrm{col}(A)$ I.e., when $A^T \mathbf{e} = \mathbf{0}$. This gives
 $A^T(A\mathbf{x} - \mathbf{b}) = \mathbf{0}$ Or $A^T A \mathbf{x} = A^T \mathbf{b}$. If $A$ has full
-column rank, then $\ker(A) = \{\mathbf{0}\}$ So $\ker(A^T A) = \ker(A) = \{\mathbf{0}\}$Meaning
+column rank, then $\ker(A) = \{\mathbf{0}\}$ So $\ker(A^T A) = \ker(A) = \{\mathbf{0}\}$ Meaning
 $A^T A$ is invertible. $\blacksquare$
 
 **Problem.** Find the least squares line $y = ax + b$ fitting the data points $(1, 1)$, $(2, 1)$,
@@ -193,30 +265,44 @@ The least squares line is $y = x - 1/3$. $\blacksquare$
 
 **Problem.** Solve the system:
 
-$$\begin{aligned} x_1 + 2x_2 - x_3 + 3x_4 &= 1 \\ 2x_1 + 4x_2 - x_3 + 5x_4 &= 2 \\ x_1 + 2x_2 + x_3 + x_4 &= 0 \end{aligned}$$
+$$
+\begin{aligned} x_1 + 2x_2 - x_3 + 3x_4 &= 1 \\ 2x_1 + 4x_2 - x_3 + 5x_4 &= 2 \\ x_1 + 2x_2 + x_3 + x_4 &= 0 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & -1 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & -1 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & -1 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & -1 \end{pmatrix}
+$$
 
 The last row reads $0 = -1$ So the system is **inconsistent** (no solution).
 
 **Revised problem:** Change the last equation to $x_1 + 2x_2 + x_3 + x_4 = 2$:
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 1 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 1 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 1 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 1 \end{pmatrix}
+$$
 
 Still inconsistent! The RREF reveals $0 = 1$ in the last row.
 
 **Revised again:** Change the last equation to $x_1 + 2x_2 + x_3 + x_4 = 1$:
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 2 & 4 & -1 & 5 & 2 \\ 1 & 2 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 2 & -2 & 0 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & -1 & 3 & 1 \\ 0 & 0 & 1 & -1 & 0 \\ 0 & 0 & 0 & 0 & 0 \end{pmatrix}
+$$
 
 Now the system is consistent. Pivots in columns 1 and 3; free variables are $x_2$ and $x_4$. From
 row 2: $x_3 = x_4$. From row 1: $x_1 = 1 - 2x_2 + x_3 - 3x_4 = 1 - 2x_2 - 2x_4$.
@@ -272,26 +358,36 @@ intersect in a line, plane, or higher-dimensional flat, reflecting the infinitel
 
 **Problem.** Solve the system:
 
-$$\begin{aligned} x_1 + x_2 + x_3 + x_4 &= 10 \\ 2x_1 + 3x_2 + x_3 + 2x_4 &= 19 \\ x_1 + 2x_2 + 3x_3 + x_4 &= 16 \\ 3x_1 + x_2 + 2x_3 + 3x_4 &= 23 \end{aligned}$$
+$$
+\begin{aligned} x_1 + x_2 + x_3 + x_4 &= 10 \\ 2x_1 + 3x_2 + x_3 + 2x_4 &= 19 \\ x_1 + 2x_2 + 3x_3 + x_4 &= 16 \\ 3x_1 + x_2 + 2x_3 + 3x_4 &= 23 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Augmented matrix:
 
-$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 2 & 3 & 1 & 2 & 19 \\ 1 & 2 & 3 & 1 & 16 \\ 3 & 1 & 2 & 3 & 23 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 2 & 3 & 1 & 2 & 19 \\ 1 & 2 & 3 & 1 & 16 \\ 3 & 1 & 2 & 3 & 23 \end{pmatrix}
+$$
 
 $R_2 - 2R_1$, $R_3 - R_1$, $R_4 - 3R_1$:
 
-$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 1 & 2 & 0 & 6 \\ 0 & -2 & -1 & 0 & -7 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 1 & 2 & 0 & 6 \\ 0 & -2 & -1 & 0 & -7 \end{pmatrix}
+$$
 
 $R_3 - R_2$, $R_4 + 2R_2$:
 
-$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 0 & 3 & 0 & 7 \\ 0 & 0 & -3 & 0 & -9 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 0 & 3 & 0 & 7 \\ 0 & 0 & -3 & 0 & -9 \end{pmatrix}
+$$
 
 $R_4 + R_3$:
 
-$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 0 & 3 & 0 & 7 \\ 0 & 0 & 0 & 0 & -2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 0 & 3 & 0 & 7 \\ 0 & 0 & 0 & 0 & -2 \end{pmatrix}
+$$
 
 The last row gives $0 = -2$, so the system is **inconsistent** (no solution).
 
@@ -318,16 +414,77 @@ Gaussian elimination is the systematic process of untangling a web of simultaneo
 
 The deeper insight is that row reduction preserves the solution space while simplifying its description. The row echelon form makes the structure of the solution set transparent: pivot columns identify the dependent variables, free columns identify the independent degrees of freedom, and the rank tells you the dimension of the solution space. This is why the same technique extends to function spaces and operator theory, where infinite-dimensional systems of equations arise logically.
 
+## Counterexamples worth knowing by name
 
-```mermaid
-flowchart TD
-    A[4_Systems Of Linear Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+<div class="table-wrap">
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| A system with the same number of equations as unknowns has a unique solution | no | $x + y = 2$ and $2x + 2y = 4$ has infinitely many; $x+y=2$ and $x+y=3$ has none |
+| A square system always has a solution | no | $x + y = 1$, $x + y = 2$ is square and inconsistent |
+| More equations than unknowns means no solution | no | duplicate or dependent equations collapse; three copies of one equation in one unknown has a solution |
+| Row operations change the solution set | no | they are invertible, which is the *reason* elimination is valid |
+| Least squares solves the system | no | it solves a different system, $A^TAx = A^Tb$, whose solution is the best approximation when $Ax = b$ has none |
+| A zero row in echelon form means no solution | no | a zero row means infinitely many solutions if the augmented entry is also zero, and no solution if it is not -- read the *augmented* column |
+| Partial pivoting changes the exact answer | no | it changes the rounding behaviour only; in exact arithmetic the solutions are identical |
+| The LU factorisation exists for every matrix | no | it requires non-zero pivots in order; pivoting gives a permuted factorisation $PA = LU$ |
+
+</div>
+
+The first row is the one to internalise, because the shape of the *coefficient
+matrix* does not determine the outcome. Two systems can look identical in
+shape and differ in every way that matters -- which is why the answer is read
+from the echelon form of the *augmented* matrix.
+
+The least-squares row is the bridge to the next idea: when $Ax = b$ has no
+solution, asking for the best $x$ is still a sensible question, and the normal
+equations answer it.
+
+## Where the research frontier is
+
+- **Sparse elimination.** For matrices from real problems, most entries are
+  zero, and the *ordering* of elimination determines how much fill-in appears.
+  Choosing a good ordering is NP-hard in general, so heuristics -- minimum
+  degree, nested dissection -- are where the practical gains live.
+- **Iterative methods.** For very large systems, factorisation is too
+  expensive and Krylov subspace methods (conjugate gradient, GMRES) are used
+  instead; their convergence theory is where the research is.
+- **Randomised linear algebra.** Sketching a large system down to a smaller
+  one and solving that, with probability bounds on the error.
+- **Rounding-error analysis.** The classic backward-error results are decades
+  old, and extending them to structured and low-rank matrices is active.
+- **Complexity.** Whether Gaussian elimination is optimal, and the exponent of
+  matrix multiplication, connect this page to the open problem on the
+  [matrices page](/2-linear-algebra/3_matrices/).
+
+## Interleaving problems
+
+Mix these with [Linear Independence, Span, Basis and
+Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/),
+[Matrices](/2-linear-algebra/3_matrices/), [Eigenvalues and
+Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/), [Singular
+Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/) and
+[Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/).
+
+1. (Dimension.) A consistent system with rank $r$ in $n$ unknowns has $n - r$
+   free parameters. Derive that from rank-nullity rather than from elimination,
+   and say what the null space is.
+2. (Matrices.) Show that a system is uniquely solvable exactly when the
+   coefficient matrix is invertible, and that this is equivalent to a non-zero
+   determinant and to full rank. Three statements, one fact.
+3. (LU.) Carry out elimination on a $3\times3$ matrix and read the multipliers
+   off into $L$. Verify $A = LU$ by multiplication, and explain why $U$ has the
+   pivots on its diagonal.
+4. (Eigenvalues.) Show that the eigenvalues of a triangular matrix are its
+   diagonal entries, and explain why that makes reduction to triangular form
+   the standard route to eigenvalues.
+5. (Inner products.) Derive the normal equations $A^TAx = A^Tb$ from the
+   geometry: the residual $b - Ax$ must be orthogonal to the column space. Then
+   explain why orthogonality, rather than "as close as possible", is the real
+   condition.
+6. (Numerical analysis.) Construct a $2\times2$ system where elimination
+   without pivoting produces a wildly wrong answer, and show that partial
+   pivoting fixes it. One small pivot is enough.
 
 ## Cross-References
 
@@ -346,5 +503,5 @@ flowchart TD
 }
 </script>
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

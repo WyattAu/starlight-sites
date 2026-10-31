@@ -1,0 +1,1020 @@
+# Finance — Wyatt's Notes (full content)
+
+> The complete content of every page on this site, in Markdown, for LLM consumption.
+> Each page is preceded by its canonical URL.
+
+## Principles
+
+---
+
+## Index
+URL: https://finance.wyattau.com/1-principles/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "Principles of Finance", "url": "https://finance.wyattau.com/1-principles"}]}
+</script>
+
+Everything static in finance descends from one principle: portfolios with identical payoffs must
+have identical prices. This track states the principle precisely, proves its immediate
+corollaries, and builds the present-value machinery on it.
+
+- **No-arbitrage and the law of one price** — definitions, the proof that arbitrage-free prices
+  satisfy the law of one price, and the bound arguments for instruments without perfect
+  replicas.
+- **Present value and the term structure** — discounting derived from the one-period price of
+  riskless claims; forward rates from the law of one price applied across horizons.
+
+Opening pages landing next in this track.
+
+## Prerequisites
+
+Arithmetic with fractions and exponents. The discounting algebra is derived from the pricing of
+riskless one-period claims, so nothing is assumed about interest rates beyond their definition.
+
+## What the track is for
+
+Most finance mistakes trace to present-value arithmetic done by formula without the law of one
+price underneath. This track does it the other way: the principle first, the formulas as
+corollaries. When a real instrument has no perfect replica, the corollaries become bounds — and
+knowing which side of the bound a price violates is the practical skill the track leaves you
+with.
+
+## Notation used in the track
+
+Cash flows are dated subscripts: $C_t$ arrives at time $t$, and $r_t$ is the one-period rate for
+horizon $t$. Prices of riskless claims pin the discount function; under certainty every
+multi-period price follows from the one-period prices by the law of one price applied along the
+timeline. The track keeps the certainty case and the risky case in separate sections, because
+mixing them is where the subject's standard confusion (risk premia versus pure discounting)
+comes from.
+
+## What lands next
+
+The track's opening pages land in order: no-arbitrage and the law of one price first, then the
+present-value apparatus, then the bound arguments. Each page closes with a self-test, and the
+harder items ask which portfolio replicates which claim — the reflex the whole subject runs on.
+
+---
+
+## No Arbitrage
+URL: https://finance.wyattau.com/1-principles/1_no-arbitrage/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "1 Principles", "url": "https://finance.wyattau.com/1-principles"}, {"name": "No-Arbitrage and the Law of One Price", "url": "https://finance.wyattau.com/1-principles/1_no-arbitrage"}]
+}
+</script>
+
+### 1. States, Payoffs, Portfolios
+
+**Definition.** Fix a set of states of the world. A **claim** is anything with a payoff in each
+state: $X_\omega$ in state $\omega$. A **portfolio** is a bundle of claims; its payoff is the sum
+of the parts, state by state.
+
+**Definition.** An **arbitrage** is a portfolio with zero cost today, nonnegative payoff in
+every state, and positive payoff in at least one state.
+
+The principle: **in a functioning market, arbitrage does not exist** — or more precisely,
+prices adjust until it does not. This is not an assumption about anyone's preferences. It needs
+only that market participants prefer more money to less and act on it at the margin.
+
+### 2. The Law of One Price
+
+**Theorem 2.1 (Law of One Price).** Two claims with identical payoffs in every state must have
+identical prices.
+
+**Proof.** Suppose claims $A$ and $B$ pay the same in every state but $A$ costs more than $B$.
+Sell $A$, buy $B$, pocket the difference: zero net cost today, zero net payoff in every state
+(the payoffs cancel exactly), positive cash now. That portfolio is an arbitrage — contradiction.
+So $P(A) = P(B)$. $\blacksquare$
+
+Everything in this sentence — "identical payoffs, identical prices" — is the engine of the
+derivatives track: an option is priced by building the portfolio that copies it and pricing the
+copy. The proof shows why no preference assumption is needed: the argument never asks whether
+investors like risk, only whether they take free money.
+
+### 3. Present Value as a No-Arbitrage Consequence
+
+**Theorem 3.1.** If the one-period risk-free rate is $r$, then a claim paying $C$ for certain
+next period costs $\frac{C}{1+r}$ today.
+
+**Proof.** Suppose the claim costs more than $\frac{C}{1+r}$: sell the claim for $P >
+\frac{C}{1+r}$, invest $\frac{C}{1+r}$ at the risk-free rate, and owe $C$ next period — which
+the investment repays exactly. Zero cost now, zero payoff later, positive cash now: arbitrage.
+If the claim costs less than $\frac{C}{1+r}$, reverse the trades. So
+$P = \frac{C}{1+r}$. $\blacksquare$
+
+Multi-period discounting follows by applying the argument period by period: the two-period price
+is the one-period price of a one-period claim on next period's price. The discount factor
+compounds because the arbitrage can be rolled.
+
+### 4. Bounds When Replication Fails
+
+When no perfect replica exists, the law of one price is silent — but no-arbitrage still
+delivers **bounds**. Suppose a claim pays at least $\underline{X}$ in every state and at most
+$\overline{X}$: then its price must lie in $[\frac{\underline{X}}{1+r}, \frac{\overline{X}}{1+r}]$.
+
+**Proof.** If the price were below $\frac{\underline{X}}{1+r}$: buy the claim, short
+$\frac{\underline{X}}{1+r}$ of the risk-free bond. Cost zero; next period the bond owes its
+face, the claim pays at least $\underline{X}$, covering it — nonnegative everywhere, positive
+wherever the claim beats its floor. Arbitrage. The upper bound is symmetric. $\blacksquare$
+
+This is the template for option bounds: an option's payoffs are bounded by portfolio payoffs
+constructed from the underlying and bonds, and the no-arbitrage prices of those portfolios bound
+the option's price — before any model of the underlying's dynamics is written down.
+
+### 5. What No-Arbitrage Does Not Say
+
+- It does not say prices are *fair*, *correct*, or *equilibrium* — only that they are mutually
+  consistent. Two expensive mistakes both survive no-arbitrage if they are expensive together.
+- It requires the trades to be executable: shorting allowed, borrowing and lending at $r$, no
+  transaction costs. Where shorting is constrained, the bounds loosen and the looseness is the
+  empirical content.
+- It is silent on *level*: no-arbitrage prices one claim relative to others. The risk-free rate
+  itself, the level of the market — those come from preferences and endowments, the equilibrium
+  layer the portfolio-theory track begins.
+
+### Self-test
+
+1. Why does the arbitrage in Theorem 2.1 need identical payoffs *in every state*, including
+   states the trader thinks impossible? (Because an arbitrage is defined statewise — "impossible"
+   states occur; the definition is what makes the theorem binding.)
+2. Where does Theorem 3.1's proof use that the rate is risk-free? (The borrowed amount is known
+   to be repaid regardless of state, so the rolled trade has zero riskless cost and no statewise
+   shortfall.)
+3. An option pays at least zero in every state — what no-arbitrage bound follows immediately?
+   (Nonnegative price: an option cannot be a source of free negative cash. The lower bound of
+   §4 with $\underline{X} = 0$.)
+
+## Portfolio-Theory
+
+---
+
+## Index
+URL: https://finance.wyattau.com/2-portfolio-theory/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "Portfolio Theory", "url": "https://finance.wyattau.com/2-portfolio-theory"}]}
+</script>
+
+Portfolio theory turns "diversify" from advice into arithmetic: with correlated returns, portfolio
+variance is a quadratic form, and its minimisation has a closed form. The track proves the
+two-fund separation theorem and derives the CAPM from it.
+
+- **Mean--variance optimisation** — the frontier derived by Lagrangian; why the minimum-variance
+  combination of two risky assets has the closed form it has.
+- **Two-fund separation and the CAPM** — with a risk-free asset, every investor holds a mix of
+  the risk-free asset and one tangency portfolio; market clearing makes the tangency portfolio
+  the market portfolio; the CAPM falls out.
+
+Opening pages landing next in this track.
+
+## Prerequisites
+
+Expectation, variance, covariance, and the Lagrangian method. The mathematics site's probability
+and multivariable-calculus tracks cover both.
+
+## What the track is for
+
+The mean--variance machinery is usually taught as calculation. Here it is taught as an optimisation
+problem whose Lagrangian has a closed form — and whose solution's structure (two funds, market
+clearing, beta) is read off the algebra rather than asserted. The CAPM's testability, and its
+well-known empirical failures, are econometrics questions; the derivation here is what the tests
+are testing.
+
+## Notation used in the track
+
+Returns are random variables with means $\mu_i$ and covariance matrix $\Sigma$; a portfolio is a
+weight vector $w$ with $\mathbf{1}'w = 1$. Portfolio mean is $w'\mu$, variance $w'\Sigma w$.
+The Lagrangian method does all the work, and the matrix algebra is kept at the level where every
+step can be checked by writing the sums out for two assets.
+
+## Reading the results
+
+Two-fund separation is the theorem to internalise: once it holds, every investor's problem
+reduces to choosing a point on one line, and the market portfolio's role in the CAPM stops being
+mysterious. The derivation is a page; the vocabulary it explains is the rest of the subject.
+
+---
+
+## Mean Variance And Capm
+URL: https://finance.wyattau.com/2-portfolio-theory/1_mean-variance-and-capm/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "2 Portfolio Theory", "url": "https://finance.wyattau.com/2-portfolio-theory"}, {"name": "Mean--Variance Optimisation", "url": "https://finance.wyattau.com/2-portfolio-theory/1_mean-variance-and-capm"}]
+}
+</script>
+
+### 1. The Investor's Problem
+
+**Definition.** With $n$ risky assets, expected returns $\mu \in \mathbb{R}^n$, and covariance
+matrix $\Sigma$ (symmetric, positive definite), a portfolio is a weight vector $w$ with
+$\mathbf{1}'w = 1$. Its mean is $w'\mu$ and its variance is $w'\Sigma w$. The investor picks $w$
+to minimise variance for a target mean $\mu_p$:
+
+$$
+\min_w \; \tfrac{1}{2} w'\Sigma w \quad \text{s.t.} \quad \mathbf{1}'w = 1, \;\; \mu'w = \mu_p.
+$$
+
+Positive definiteness of $\Sigma$ is the assumption doing the work: without it, some direction
+reduces variance indefinitely (an arbitrage in disguise), and the minimiser is not unique.
+
+### 2. The Frontier Is Two Funds
+
+**Theorem 2.1 (Two-fund separation, risky case).** Every minimum-variance portfolio is a
+combination of two fixed portfolios.
+
+**Proof.** The Lagrangian is
+
+$$
+\mathcal{L} = \tfrac{1}{2} w'\Sigma w - \lambda\left(\mathbf{1}'w - 1\right) - \gamma\left(\mu'w - \mu_p\right).
+$$
+
+The first-order condition, using $\Sigma' = \Sigma$:
+
+$$
+\Sigma w = \lambda \mathbf{1} + \gamma \mu
+\quad\Longrightarrow\quad
+w = \lambda\, \Sigma^{-1}\mathbf{1} + \gamma\, \Sigma^{-1}\mu,
+$$
+
+dividing by $\lambda + \gamma\mu_p \neq 0$ and defining
+
+$$
+w_g = \frac{\Sigma^{-1}\mathbf{1}}{\mathbf{1}'\Sigma^{-1}\mathbf{1}}, \qquad
+w_d = \frac{\Sigma^{-1}\mu}{\mathbf{1}'\Sigma^{-1}\mu},
+$$
+
+every frontier portfolio is $w = A\, w_g + (1 - A)\, w_d$ for some scalar $A$: a combination of
+the **global minimum-variance portfolio** $w_g$ and any single distinct frontier portfolio $w_d$.
+The two constraint equations pin $\lambda$ and $\gamma$ for each $\mu_p$; the structure above is
+what the theorem asserts. $\blacksquare$
+
+This is why "two funds" — an investor holding any efficient combination needs only those two
+portfolios, regardless of how many assets exist.
+
+### 3. Adding a Risk-Free Asset: The Tangency Portfolio
+
+**Definition.** With a risk-free asset returning $r_f < \min_i \mu_i$, weights extend to
+$w \in \mathbb{R}^n$ with the remainder $1 - \mathbf{1}'w$ in the risk-free asset. The problem
+loses the budget constraint:
+
+$$
+\min_w \; \tfrac{1}{2} w'\Sigma w \quad \text{s.t.} \quad \mu'w + r_f(1 - \mathbf{1}'w) = \mu_p.
+$$
+
+**Theorem 3.1.** Every efficient portfolio holds the risk-free asset and one fixed risky
+portfolio, the **tangency portfolio**:
+
+$$
+w_t = \frac{\Sigma^{-1}(\mu - r_f \mathbf{1})}{\mathbf{1}'\Sigma^{-1}(\mu - r_f \mathbf{1})}.
+$$
+
+**Proof.** The Lagrangian's first-order condition:
+
+$$
+\Sigma w = \gamma(\mu - r_f \mathbf{1})
+\quad\Longrightarrow\quad
+w \propto \Sigma^{-1}(\mu - r_f \mathbf{1}).
+$$
+
+For each target $\mu_p$, the scalar $\gamma$ scales the *same* direction
+$\Sigma^{-1}(\mu - r_f\mathbf{1})$ — only the risk-free allocation $1 - \mathbf{1}'w$ adjusts.
+Normalising the risky weights to sum to one gives $w_t$. Every efficient portfolio is
+$(1 - \alpha) R_f + \alpha\, w_t$: cash plus the tangency. $\blacksquare$
+
+Geometrically: in mean--standard-deviation space, efficient combinations trace the line from
+$(0, r_f)$ tangent to the risky frontier — the line with the maximum Sharpe ratio. The tangency
+point is $w_t$; its slope is $\max$ Sharpe.
+
+### 4. Market Clearing Makes the Tangency the Market
+
+**Theorem 4.1 (CAPM).** If every investor holds the tangency portfolio and markets clear, then
+for every asset $i$:
+
+$$
+\mu_i - r_f = \beta_i (\mu_M - r_f), \qquad
+\beta_i = \frac{\operatorname{Cov}(r_i, r_M)}{\operatorname{Var}(r_M)}.
+$$
+
+**Proof.** Summing every investor's risky holdings: aggregate risky demand is proportional to
+$w_t$ (each investor holds $w_t$ scaled by her wealth and risk appetite). Market clearing says
+aggregate demand equals the aggregate supply of risky assets — the value-weighted **market
+portfolio** $M$. So $M = w_t$: the tangency *is* the market.
+
+Now use the tangency's first-order condition. From $\Sigma w_t = \gamma(\mu - r_f\mathbf{1})$,
+row $i$ reads $\operatorname{Cov}(r_i, r_{w_t}) = \gamma(\mu_i - r_f)$ — since row $i$ of
+$\Sigma w_t$ is exactly $\operatorname{Cov}(r_i, r_{w_t})$. Multiply both sides by $w_t'$ and
+sum: $\operatorname{Var}(r_{w_t}) = \gamma(\mu_{w_t} - r_f)$, so
+$\gamma = \operatorname{Var}(r_M)/(\mu_M - r_f)$. Substituting back with $w_t = M$:
+
+$$
+\mu_i - r_f = \beta_i (\mu_M - r_f). \qquad \blacksquare
+$$
+
+### 5. Reading the Theorem
+
+- **Only one risk is priced.** The CAPM prices covariance with the market; an asset's own
+  variance appears nowhere. Idiosyncratic risk goes unpaid *because* it diversifies away — the
+  arithmetic of Theorem 2.1's covariance structure, not a claim about investor psychology.
+- **Beta is a ratio of covariances.** Estimating it is the econometrics track's regression
+  problem; the theory here says what the population value means.
+- **The assumptions are the content.** Everyone holds the tangency requires same beliefs
+  (common $\mu, \Sigma$), a single horizon, frictionless borrowing at $r_f$, and no taxes.
+  Each failure has a named descendant: Black's zero-beta CAPM (no risk-free asset),
+  intertemporal models (repeated horizons), and factor models (multiple priced risks) — the
+  CAPM is the one-factor special case of the machinery, not the end of it.
+
+### 6. Self-test
+
+1. Where does positive definiteness of $\Sigma$ enter? (§2 — $\Sigma^{-1}$ exists and the
+   minimiser is unique; an indefinite $\Sigma$ means a riskless arbitrage.)
+2. Why does dropping the budget constraint change *two funds* into *one fund*? (§3 — the
+   risk-free asset absorbs the scale decision, so only the risky direction
+   $\Sigma^{-1}(\mu - r_f\mathbf{1})$ matters.)
+3. Which step of the CAPM proof is market clearing, and which is optimisation? (Optimisation:
+   $\Sigma w_t = \gamma(\mu - r_f\mathbf{1})$. Clearing: identifying $w_t$ with $M$. The
+   derivation mixes them only once, and mixing them is where the theorem's assumptions live.)
+4. What does the CAPM predict for a zero-beta asset? (§4 — $\beta_i = 0$ gives
+   $\mu_i = r_f$: only covariance with the market is paid.)
+
+## Derivatives
+
+---
+
+## Binomial Model
+URL: https://finance.wyattau.com/3-derivatives/1_binomial-model/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "3 Derivatives", "url": "https://finance.wyattau.com/3-derivatives"}, {"name": "The Binomial Model", "url": "https://finance.wyattau.com/3-derivatives/1_binomial-model"}]
+}
+</script>
+
+### 1. The One-Period Binomial Market
+
+**Definition.** A stock trades today at $S_0$. Tomorrow it takes one of two values: $u S_0$ (up)
+or $d S_0$ (down), with $d < R < u$ where $R = 1 + r_f$ is the gross risk-free rate. A bond
+costs 1 today and pays $R$. A call option pays $C_u = \max(uS_0 - K, 0)$ or
+$C_d = \max(dS_0 - K, 0)$ tomorrow.
+
+The condition $d < R < u$ is **no-arbitrage on the stock**: if $R \geq u$, borrowing to buy the
+stock dominates (stock cannot beat the bond even in its best state); if $R \leq d$, shorting the
+stock and lending dominates. Both are arbitrages, so both are ruled out — and the same inequality
+is exactly what makes the denominator in the construction below positive.
+
+### 2. Pricing by Replication
+
+**Theorem 2.1.** The call's no-arbitrage price is the cost of the portfolio (Δ shares, $B$ in
+bonds) that replicates its payoffs:
+
+$$
+\Delta = \frac{C_u - C_d}{(u - d)S_0}, \qquad
+B = \frac{C_d - \Delta\, d S_0}{R},
+$$
+
+and the price equals
+
+$$
+C_0 = \Delta S_0 + B = \frac{q\,C_u + (1 - q)\,C_d}{R}, \qquad
+q = \frac{R - d}{u - d}.
+$$
+
+**Proof.** Replication requires the portfolio to match the option state by state:
+
+$$
+\Delta\, u S_0 + R B = C_u, \qquad \Delta\, d S_0 + R B = C_d.
+$$
+
+Subtracting: $\Delta (u - d) S_0 = C_u - C_d$, giving $\Delta$. Substituting back: $B$ as stated.
+The replicating portfolio's cost is its price under the law of one price — any other price for
+the call, and buying the cheap one and selling the expensive copy is an arbitrage (zero cost,
+zero net payoff tomorrow, cash today).
+
+For the $q$ form: substitute $\Delta$ and $B$ into $\Delta S_0 + B$ and collect terms over
+$(u - d) S_0 R$:
+
+$$
+C_0 = \frac{C_u (R - d) + C_d (u - R)}{R (u - d)}.
+$$
+
+Defining $q = \frac{R - d}{u - d}$ makes $1 - q = \frac{u - R}{u - d}$, and the numerator is
+$q C_u + (1 - q) C_d$. Note $0 < q < 1$ precisely because $d < R < u$. $\blacksquare$
+
+### 3. Risk-Neutral Probabilities
+
+The quantity $q$ looks like a probability, and the pricing formula reads "discount the expected
+payoff at the risk-free rate." It is a probability **under which the stock is fairly priced**:
+check $S_0 = \frac{q\, u S_0 + (1 - q)\, d S_0}{R}$ by substituting $q$ — it holds identically.
+
+**Theorem 3.1.** Absence of arbitrage in the binomial market is equivalent to the existence of
+$q \in (0, 1)$ with both the stock and the bond fairly priced under $q$; and under such $q$,
+*every* claim's price is its discounted $q$-expectation.
+
+**Proof.** ($\Leftarrow$) If both assets are fairly priced under $q$, any portfolio with payoff
+$X$ costs $\frac{E_q[X]}{R}$, and zero cost forces $E_q[X] = 0$; a nonnegative-everywhere,
+positive-somewhere payoff has $E_q[X] > 0$ — no arbitrage.
+
+($\Rightarrow$) No-arbitrage forces $d < R < u$ (§1), which makes
+$q = \frac{R - d}{u - d}$ lie in $(0, 1)$. The stock and bond are then fairly priced under $q$
+by direct substitution. Every attainable claim is a portfolio of stock and bond; its price is
+its portfolio cost; linearity of expectation under $q$ makes that cost
+$\frac{E_q[X]}{R}$. $\blacksquare$
+
+The interpretation is the trap to avoid: $q$ is **not** the probability the stock rises. It is
+the pseudo-probability under which risk preferences vanish from pricing — the investor
+risk-aversion lives in the gap between $q$ and the true probability, and pricing never touches
+it. That is why the argument needed no utility, no beliefs, and no risk premium.
+
+### 4. Multi-Period by Backward Induction
+
+**Theorem 4.1.** With $T$ periods, the price is
+$C_0 = \frac{E_q[C_T]}{R^T}$, and dynamic replication achieves it.
+
+**Proof sketch (induction).** At time $T - 1$, each node has a two-state continuation: Theorem
+2.1 prices the remaining option at that node, and Δ can be re-constructed node by node. So
+holding the replicating portfolio at $T-1$ and *re-balancing* it after observing the state
+replicates the $T$-period payoff — the self-financing condition holds because the re-balanced
+portfolio's cost equals the portfolio's value at that node (no outside cash). Inducting down to
+time 0 gives $C_0 = \frac{E_q[C_T]}{R^T}$. $\blacksquare$
+
+The induction hides one genuine idea: **dynamic replication**. Static replication fails after one
+period because the state space grows; but option trading is *sequential*, and at each node the
+next step is again one-period binomial. This is why American features (early exercise) are
+handled by a maximum at each node — $\max(\text{intrinsic}, \text{continuation})$ — in the same
+backward pass.
+
+### 5. Self-test
+
+1. Where does the no-arbitrage condition $d < R < u$ enter the algebra? (§2 — it makes
+   $q \in (0, 1)$; outside that range the "probability" is meaningless and an arbitrage exists.)
+2. Why is the call's price independent of the true probability of an up move? (§3 — pricing uses
+   only $q$, which is pinned by $R, u, d$; the true probability affects who trades, not the
+   price.)
+3. What breaks in a multi-period tree if you never re-balance? (§4 — static replication matches
+   only one date's payoffs; the option's payoff at $T$ requires re-balancing at every node.)
+4. An American put in the same tree: where does early exercise enter the induction? (§4 — at
+   each node take the max of continuation value and intrinsic value before propagating
+   backward.)
+
+---
+
+## Index
+URL: https://finance.wyattau.com/3-derivatives/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "Derivatives", "url": "https://finance.wyattau.com/3-derivatives"}]}
+</script>
+
+Derivatives are where no-arbitrage earns its keep: the replication argument prices an option
+without knowing anyone's risk preferences, and the binomial model is the cleanest laboratory for
+it.
+
+- **The binomial model** — one period, two states: the replicating portfolio solved, the
+  risk-neutral probability constructed, and multi-period extension by backward induction.
+- **Put-call parity and bounds** — from no-arbitrage directly, with the bound arguments for
+  American features.
+
+Opening pages landing next in this track.
+
+## Prerequisites
+
+The [principles track](/1-principles/) — specifically replication and the law of one price — and
+conditional expectation from probability. The continuous-time limit is stated honestly as a
+limit; no stochastic calculus is assumed at this level.
+
+## What the track is for
+
+Replication is the whole subject: an option is worth what the portfolio that copies it costs.
+The binomial model makes that statement checkable by hand — every quantity is visible — and the
+continuous-time models are the same statement in the limit. The track keeps the replication
+logic visible at every step, because that is what transfers when the products get exotic.
+
+## Notation used in the track
+
+The binomial tree is written with up and down factors $u, d$ and the risk-free gross rate $R =
+1 + r$. The replicating portfolio is $(\Delta, B)$: $\Delta$ shares and $B$ in the risk-free
+asset. The risk-neutral probability is constructed, not assumed — the track's central point is
+that $q$ is whatever makes the replicated price match, and that its existence is equivalent to
+the absence of arbitrage.
+
+## What the limit buys
+
+The continuous-time models compress the tree's logic into a differential statement. The track
+stops at the threshold and says what is lost: the binomial argument is complete and checkable,
+and the Black--Scholes formula is its limit once stochastic calculus is on the table.
+
+## Overview
+
+---
+
+## About
+URL: https://finance.wyattau.com/about/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "About", "url": "https://finance.wyattau.com/about"}]
+}
+</script>
+
+This site provides free, university-level finance notes in which the core arguments are proved.
+No-arbitrage arguments are written out completely; optimisation results are derived, not stated;
+and every model says which frictions it ignores.
+
+## The standard
+
+Theorems carry proofs or honestly-labelled sketches. Hypotheses are named where they are used.
+Assumptions famous for being false in practice — frictionless markets, continuous trading,
+common beliefs — are stated as assumptions, with the robustness question, what survives their
+failure, addressed rather than hidden.
+
+## Prerequisites and company
+
+Probability through expectation and variance is the only mathematical prerequisite. The
+[economics site's](https://economics.wyattau.com) econometrics track is the empirical
+continuation, and the [mathematics site](https://mathematics.wyattau.com) covers the
+foundations both assume.
+
+## Not investment advice
+
+The models here are teaching models. Their assumptions are false in the real market, on purpose
+and in instructive ways; nothing on this site is a recommendation, and the gap between model and
+market is where practitioner skill lives — this site teaches the models.
+
+## Corrections
+
+Mistakes in pricing arguments are worse than useless — they teach miscalibration. Anything found
+wrong is fixed and the correction is recorded in the page, because knowing where a document was
+wrong is part of knowing how much to trust it.
+
+## Self-tests
+
+Each page closes with self-test items keyed to its sections, written as retrieval practice. The
+harder ones ask where an argument used no-arbitrage versus where it used a preference assumption
+— the distinction that separates pricing results from equilibrium results, and the one exam
+answers most often blur.
+
+## The writing convention
+
+Definitions inline, arguments broken at their genuine moves, and cross-references that name what
+the referenced page proves. The static results (law of one price, parity, bounds) are separated
+cleanly from the equilibrium results (CAPM) — pricing needs only no-arbitrage; equilibrium needs
+preferences and clearing — and the site keeps that boundary visible, because conflating the two
+is the most common confusion in the subject.
+
+## The writing convention
+
+Definitions inline, arguments broken at their genuine moves, and cross-references that name what
+the referenced page proves. The static results — law of one price, parity, bounds — are kept
+cleanly separate from the equilibrium results — CAPM — because pricing needs only no-arbitrage
+while equilibrium needs preferences and clearing, and conflating the two is the most common
+confusion in the subject.
+
+## The maintenance model
+
+Content is checked by tooling on every change: depth minimums, frontmatter validity, link
+integrity, and LaTeX parseability. The pricing arguments carry proofs precisely so that the
+tooling-checked pages teach checkable things.
+
+## The network
+
+This site is part of a network: exam-board sites for the school-facing treatments, subject sites
+(mathematics, physics, chemistry, computer science, economics, accounting) for the
+discipline-facing layer, and a machine-learning site for the applied layer. Cross-references
+between them are maintained by tooling.
+
+## How to report an error
+
+Anything that looks wrong — a replication step, a bound, a definition — is worth reporting. The
+fix lands with the correction recorded, and a page that needs repeated patches gets a rewrite,
+because repeated patches mean the structure is wrong rather than the sentences.
+
+## The level in one paragraph
+
+The level is the university asset-pricing sequence: present value done properly, mean--variance
+from the Lagrangian, the CAPM from clearing, the binomial model with the replication proof. That
+sequence is the spine of the subject; the pages are its complete arguments, with the empirical
+and institutional layers named as theirs.
+
+## The self-test convention
+
+Self-test items are keyed to sections and written as retrieval practice. The harder items ask
+which assumption an argument used — no-arbitrage, market clearing, or a preference restriction —
+because pricing results and equilibrium results fail differently, and the diagnosis starts with
+knowing which family an argument belongs to.
+
+## What to read first
+
+The study hub's track summaries, then Principles. Everything else is sequenced from there. The
+glossary is the reference layer, not the entry point — terms are defined where they are first
+used, and the glossary collects them for recall.
+
+## The proof standard, restated
+
+A proof on this site means every inequality and every equality is justified at the step where it
+appears, with the justification named: a law, a definition, or a previous theorem. Steps that are
+obvious may be compressed; steps that are merely plausible may not. That is the same standard the
+mathematics site uses, and it is the reason arguments here transfer to exams and to papers
+unchanged.
+
+## The standard, restated
+
+Proved not cited, hypotheses named, assumptions honest, corrections recorded. Four sentences of
+standard; the site is their execution.
+
+---
+
+## Before You Begin
+URL: https://finance.wyattau.com/before-you-begin/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "Before You Begin", "url": "https://finance.wyattau.com/before-you-begin"}]
+}
+</script>
+
+University finance assumes four tools, and the [Principles track](/1-principles/) uses them from
+its first page: percentage arithmetic you can do in your head, expectation and variance, the
+time-value reflex (discounting without a calculator), and payoff diagrams read as functions. This
+page rebuilds each, with a self-test at the end so confident readers can skip by assessment.
+
+### 1. Percentage and Compound Arithmetic
+
+A return of 10% followed by 10% is **not** 20%: $(1.10)(1.10) = 1.21$ — 21%. Compounding
+multiplies; de-compounding divides: to undo $+10\%$, divide by $1.10$, not subtract 10%
+($\frac{1}{1.1} \approx 0.909$, a 9.09% fall). The asymmetry of gains and losses (−50% needs
++100% to recover) is pure arithmetic and drives half the risk management in the subject.
+
+Annualisation: a 5% half-year return compounds to $(1.05)^2 - 1 = 10.25\%$ per year — more than
+10%, and the difference *is* the interest on interest. Reverse: to annualise a monthly rate,
+compound it twelve times, never multiply by twelve.
+
+### 2. Expectation and Variance
+
+**Definition.** For outcomes $x_1, \dots, x_n$ with probabilities $p_1, \dots, p_n$:
+
+$$
+E[X] = \sum_i p_i x_i, \qquad \operatorname{Var}(X) = E[X^2] - (E[X])^2.
+$$
+
+Three facts finance uses hourly:
+
+1. **Linearity**: $E[aX + bY] = aE[X] + bE[Y]$ — always, no independence needed.
+2. **Covariance enters variance**: $\operatorname{Var}(X + Y) = \operatorname{Var}(X) +
+   \operatorname{Var}(Y) + 2\operatorname{Cov}(X, Y)$. The covariance term is why
+   diversification works and why the portfolio track is a covariance-matrix subject.
+3. **Independence kills the covariance**: with independent $X, Y$, the term vanishes — the
+   arithmetic behind "don't put all your eggs in one basket".
+
+Worked check: an asset pays +20% or −10% with equal probability. $E = 0.05$ (5% mean),
+$E[X^2] = \frac{0.04 + 0.01}{2} = 0.025$, variance $= 0.025 - 0.0025 = 0.0225$, standard
+deviation $= 0.15$ (15%). Being able to do that in your head is the fluency the track assumes.
+
+### 3. The Time-Value Reflex
+
+A euro today is a claim you can invest at $r$: it becomes $1 + r$ euro next period. So next
+period's certain euro costs $\frac{1}{1+r}$ today — its **present value**. The reflex to build:
+
+- A cash flow $C$ in $t$ years at rate $r$: $PV = \frac{C}{(1+r)^t}$.
+- A stream: sum the pieces — never discount a total with an average rate.
+- Rate conversions match the period: a 12% annual rate is 1% monthly *if* simple; compounded,
+  $(1.12)^{1/12} - 1 \approx 0.9489\%$ — know which convention you're using.
+
+The [Principles track](/1-principles/1_no-arbitrage/) derives why discounting *must* work this
+way from no-arbitrage — the reflex is a consequence, not a rule to memorise.
+
+### 4. Payoff Diagrams as Functions
+
+An option's payoff diagram is a piecewise function of the underlying's price $S_T$ at expiry.
+For a call with strike $K$: payoff $= \max(S_T - K, 0)$ — flat at zero for $S_T \leq K$,
+slope-45° above. A put: $\max(K - S_T, 0)$. Two reads to own:
+
+1. **Kinks are the exercise decision**: the function is max of two linear pieces; the kink sits
+   at the strike.
+2. **Combining instruments**: selling a call against a held share ("covered call") truncates the
+   upside — read the combined payoff by adding the functions pointwise. The [derivatives
+   track](/3-derivatives/) prices these combinations; first you must read them.
+
+### 5. Self-test
+
+1. A fund returns +25% then −20%. Net? (§1 — $1.25 \times 0.80 = 1.00$: flat, not +5%.)
+2. $E[X] = 8$, $E[Y] = 3$, $\operatorname{Var}(X) = 4$, $\operatorname{Var}(Y) = 9$,
+   $\operatorname{Cov} = 2$. For a 50/50 mix of $X$ and $Y$: mean and variance? (§2 — mean 5.5;
+   variance $0.25 \cdot 4 + 0.25 \cdot 9 + 2 \cdot 0.5 \cdot 0.5 \cdot 2 = 1 + 2.25 + 1 = 4.25$.)
+3. €1,000 arrives in 3 years, $r = 4\%$. Present value? (§3 — $1000/1.04^3 \approx 889$.)
+4. Sketch the payoff of buying a put with strike 50 while holding the share. (§4 — the share's
+   45° line plus the put truncates the downside at 50: portfolio value
+   $\max(S_T, 50)$.)
+
+### Where to go next
+
+- [Principles of Finance](/1-principles/) — no-arbitrage and present value, proved.
+- [Portfolio Theory](/2-portfolio-theory/) — the covariance arithmetic above, scaled up to the
+  CAPM.
+- The [study hub](/hub/) — the track map and prerequisites.
+
+### 6. Vocabulary to Pre-Load
+
+Five words whose everyday meanings mislead: **principal** (the amount invested, not a
+principle); **yield** (return as a rate, not a quantity); **short** (having sold what you do
+not own — a negative position, not "short-term"); **liquidity** (how fast something converts to
+cash without price cost, not how "liquid" it looks); **nominal vs real** (before vs after
+inflation — every historical return in this site is nominal unless marked real).
+
+The glossary carries the full set; these five are the ones that bite in the first week.
+
+### 7. What You Can Skip
+
+If you can do §2's worked check cold and §3's reflex without pausing, skip to the
+[Principles track](/1-principles/) — the track re-derives everything here in passing, and
+re-reading what you already own is the least efficient form of study. The self-test exists so
+that "skip" is an assessment, not an assumption.
+
+### 8. The Standard, Restated
+
+Every number in the tracks is either given, derived, or cited — never decorative. The
+self-test's role is to move that standard from the pages into your working habits: derive it,
+check it, then trust it.
+
+---
+
+## Glossary
+URL: https://finance.wyattau.com/glossary/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "Glossary", "url": "https://finance.wyattau.com/glossary"}]
+}
+</script>
+
+- **Arbitrage** — a trade with nonnegative payoff in every state, positive payoff in some, and
+  zero initial cost. Its impossibility in equilibrium is the subject's organising principle.
+- **Complete market** — one where every state-contingent payoff can be replicated. Completeness
+  is what makes risk-neutral pricing fully general; incompleteness is why some risks have no
+  unique price.
+- **Diversification** — combining assets whose payoffs are less than perfectly correlated, so
+  portfolio variance falls below the average of the parts. The arithmetic behind the phrase
+  "don't put all your eggs in one basket", and the reason idiosyncratic risk goes unpaid.
+- **Hedge portfolio** — the portfolio constructed to replicate an instrument's payoffs state by
+  state; its cost pins the instrument's price under no-arbitrage.
+- **Law of one price** — two portfolios with identical payoffs in every state must have
+  identical prices. Everything static in this site descends from it.
+- **Market portfolio** — the value-weighted portfolio of all risky assets; the tangency portfolio
+  when markets clear (two-fund separation).
+- **Present value** — the price today of a deterministic future cash flow, discounted at the
+  risk-free rate: $PV = C/(1+r)^t$. Under no-arbitrage this is a definition of consistency, not
+  an opinion about value.
+- **Replication** — constructing a portfolio whose payoffs match a target instrument state by
+  state. Its cost is the instrument's price under the law of one price.
+- **Risk-neutral probability** — the pseudo-probabilities under which every traded asset earns
+  the risk-free rate. Not anyone's beliefs; a pricing device whose existence is equivalent to
+  no-arbitrage.
+- **Sharpe ratio** — excess return per unit of standard deviation; the slope of a line from the
+  risk-free point through a portfolio in mean--standard-deviation space. The tangency portfolio
+  maximises it.
+- **Tangency portfolio** — the mean--variance-efficient portfolio maximising the Sharpe ratio;
+  with a risk-free asset it is the unique efficient risky portfolio, and the CAPM's market
+  portfolio when markets clear.
+
+Missing a term? The page using it defines it; the glossary collects the shared vocabulary.
+
+## Conventions
+
+Time is discrete in this site's core arguments, with the continuous-time limit treated as a
+limit. Rates are annualised unless stated; "return" means net return unless prefixed by gross.
+Payoffs are written state by state, and a "price" always means the cost now of a payoff stream —
+the subject has one verb, discount, and the glossary exists so its objects are named precisely.
+
+## Portfolio and pricing terms
+
+- **Covariance** — the co-movement measure driving portfolio variance:
+  $\operatorname{Var}(w'R) = w'\Sigma w$ where $\Sigma$ is the covariance matrix. Negative
+  covariance is what makes diversification beat the average of the parts.
+- **Efficient frontier** — the set of portfolios with minimum variance for each level of expected
+  return. With a risk-free asset, the frontier collapses to a line through the tangency
+  portfolio.
+- **Beta** — the covariance of an asset with the market portfolio divided by the market's
+  variance: the CAPM's sole priced risk measure, derived from everyone holding the tangency.
+
+## How entries are written
+
+Each entry says what the thing is and what it is for. Entries never cite a page as their
+definition — the pages are the primary source and the glossary is the index. If a glossary entry
+and a page disagree, the page is wrong and gets fixed.
+
+## How entries are ordered
+
+Entries are grouped by the track where they first appear, then alphabetically within the group.
+Shared terms live in a shared section at the end. The grouping is a map of the site: reading the
+glossary's headings in order is reading the dependency chain.
+
+- **Put-call parity** — the no-arbitrage identity linking a call, a put, the underlying, and a
+  risk-free bond at the same strike and maturity. Two portfolios, same payoffs, one price.
+- **Replicating portfolio** — the trading strategy whose payoffs match a derivative at every
+  node. The derivative's price is its cost; finding it is the whole exercise.
+- **Two-fund separation** — the result that every mean--variance investor's optimal portfolio is
+  a mix of the risk-free asset and one common tangency portfolio, regardless of risk appetite.
+
+- **Risk-free asset** — an asset whose payoff is known with certainty; the vertex of every
+  mean--variance frontier and the denominator of every Sharpe ratio.
+- **Short position** — a negative holding: selling what you do not own, with payoffs the mirror
+  of the long position. Replication routinely requires it, which is one reason frictionless
+  shorting is a modelling assumption worth naming.
+- **State** — a complete description of what happens; payoffs are functions of states, and the
+  law of one price is a statement about agreements across states.
+- **Strike price** — the price at which an option's holder may transact; the axis of every
+  payoff diagram in the derivatives track.
+- **Underlying** — the asset a derivative's payoff is written on. The replication portfolio
+  always includes it, which is why the underlying's price process is the model's input.
+- **Variance** — the second moment of a return; the risk measure of mean--variance theory, and
+  the object the covariance matrix assembles for portfolios.
+- **Wealth** — the budget the investor allocates; the constraint that makes portfolio choice an
+  optimisation rather than a wish.
+- **Yield** — return expressed as a rate; the yield curve plots it against maturity, and the
+  principles track derives forward yields from it by the law of one price.
+
+---
+
+## Hub
+URL: https://finance.wyattau.com/hub/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "Study Hub", "url": "https://finance.wyattau.com/hub"}]
+}
+</script>
+
+Finance on this site is built the way it is taught at strong universities: from the no-arbitrage
+principle outward. Nearly every headline result — the law of one price, put-call parity, the
+CAPM, risk-neutral pricing — is either a direct consequence of no-arbitrage or a theorem proved
+from it, and the proofs are short enough to actually learn rather than memorise.
+
+## The tracks
+
+- **[Principles of Finance](/1-principles/)** — present value, the law of one price, and
+  no-arbitrage bounds proved; the time value of money done properly, with the discounting
+  algebra derived rather than asserted.
+- **[Portfolio Theory](/2-portfolio-theory/)** — mean--variance optimisation solved by
+  Lagrangian, the two-fund separation theorem proved, and the CAPM derived from market clearing
+  plus everyone holding the tangency portfolio.
+- **[Derivatives](/3-derivatives/)** — the binomial model as the cleanest laboratory: the
+  replication argument proved, risk-neutral probabilities constructed, put-call parity from
+  no-arbitrage, and the road toward the continuous-time limit.
+
+## What the proofs buy
+
+Finance is unusually kind to the reader: its core arguments are complete in a few lines. Put-call
+parity is two portfolios; the risk-neutral argument is one change of measure justified by
+replication; two-fund separation is a Lagrangian and a market-clearing observation. Learning them
+as proofs — rather than as slogans — is what lets you see which assumption a real market violates
+and what that violation does to the price.
+
+## Prerequisites and reading order
+
+Probability through expectation and variance is the only mathematical prerequisite; the
+[mathematics site](https://mathematics.wyattau.com) covers it. The tracks are sequential:
+[Principles](/1-principles/) before [Portfolio Theory](/2-portfolio-theory/) before
+[Derivatives](/3-derivatives/). The [economics site's](https://economics.wyattau.com)
+econometrics track is the natural continuation for the empirical side — factor models are
+tested, not just derived.
+
+## What the models are not
+
+The models here are teaching models: frictionless, complete where needed, and false in precisely
+the ways that make them illuminating. Their assumptions are stated because the gap between model
+and market is where practitioner skill lives — and this site teaches the models, not the
+execution craft, which does not survive transfer through a page.
+
+## Corrections and error reporting
+
+Pricing arguments are checkable, and checkable arguments should be checked. Errors found by
+readers are fixed and recorded on the page. The same policy covers assumptions: if a result
+silently requires market completeness or continuous trading, and the page did not say so, the
+omission is the error.
+
+## The exam-board connection
+
+School-level business and economics syllabi touch present value and diversification informally;
+the exam-board sites carry those treatments. This site is the layer underneath — the arguments
+the informal versions gesture at — and the cross-references are maintained by tooling.
+
+## The self-test convention
+
+Each page closes with a self-test keyed to its sections, written as retrieval practice. The
+harder items ask where an argument used no-arbitrage versus where it used a preference
+assumption — the distinction that separates pricing results from equilibrium results, and the one
+exam answers most often blur.
+
+## Corrections
+
+Pricing arguments are checkable, and checkable arguments should be checked. Errors found by
+readers are fixed and recorded on the page. The same policy covers assumptions: if a result
+silently requires market completeness or continuous trading and the page did not say so, the
+omission is the error.
+
+## Where the site is going
+
+The principles and portfolio tracks' opening pages land next, then the binomial model, then
+put-call parity and the bounds, then the road to the continuous-time limit. Every addition keeps
+the replication logic visible, because that is what transfers when the products get exotic.
+
+## The self-test standard
+
+Self-test items are execution-first: replicate this payoff, derive this frontier, check this
+bound. The verification habit — every price checked against a replication — is the subject's
+own discipline, and the self-tests are where it gets rehearsed before it matters.
+
+## The teaching order inside a page
+
+Pages open with the claim, then the argument, then the reading — what the result means and where
+its assumptions bind. That order is deliberate: arguments land better when the destination is
+named first, and the reading section is where the assumptions stop being formal and start being
+economic.
+
+## The one-sentence version
+
+Price = cost of the portfolio that copies the payoffs; portfolios that everyone must hold become
+the benchmark everyone is priced against. The tracks prove the first sentence, then the second.
+
+## The line that summarises the site
+
+Price what you can replicate; require a price for what you cannot; know which one you are doing.
+The tracks teach the first sentence as arithmetic, the second as theory, and the distinction as
+judgment — the order matters, and the hub exists to keep it visible.
+
+## The reading discipline
+
+One track at a time, self-tests before the next page, and the replication check after every
+price. The site is short by design; the discipline is what makes the shortness complete rather
+than thin.
+
+---
+
+## Index
+URL: https://finance.wyattau.com/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Finance",
+  "url": "https://finance.wyattau.com"
+}
+</script>
+
+Finance at university level is built from one principle outward: no-arbitrage. Nearly every
+headline result — the law of one price, put-call parity, two-fund separation, the CAPM,
+risk-neutral pricing — is either a direct consequence of no-arbitrage or a theorem proved from
+it, and the proofs are short enough to learn completely.
+
+<div class="table-wrap">
+
+| Track | What it proves |
+| --- | --- |
+| [Principles](/1-principles/) | The law of one price, present value as a no-arbitrage consequence, bound arguments |
+| [Portfolio Theory](/2-portfolio-theory/) | Mean--variance optimisation, two-fund separation, the CAPM |
+| [Derivatives](/3-derivatives/) | The binomial replication argument, risk-neutral probabilities, put-call parity |
+
+</div>
+
+## Start here
+
+- Begin with [No-Arbitrage and the Law of One Price](/1-principles/1_no-arbitrage/) — the proof
+  needs no preference assumptions, and everything downstream reuses its motion.
+- Then the [portfolio track](/2-portfolio-theory/): the Lagrangian, the tangency portfolio, and
+  the CAPM as a market-clearing consequence.
+- The [derivatives track](/3-derivatives/) finishes the static spine: replication, risk-neutral
+  pricing, parity.
+
+## The standard
+
+Every theorem carries its proof or an honestly-labelled sketch with the complete argument
+referenced. Assumptions famous for being false in practice are stated as assumptions, with the
+robustness question addressed rather than hidden. The [study hub](/hub/), [about page](/about/),
+and [glossary](/glossary/) carry the details.

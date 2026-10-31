@@ -47,6 +47,8 @@ Units of rate: $\mathrm{mol\,dm^{-3}\,s^{-1}}$.
 
 ### Methods of Measuring Rate
 
+<div class="table-wrap">
+
 | Method          | Observable                  | Suitable Reactions                                                     |
 | --------------- | --------------------------- | ---------------------------------------------------------------------- |
 | Gas collection  | Volume of gas vs time       | Reactions producing gaseous products ($\mathrm{CO}_2$, $\mathrm{H}_2$) |
@@ -55,6 +57,8 @@ Units of rate: $\mathrm{mol\,dm^{-3}\,s^{-1}}$.
 | Titration       | Concentration by quenching  | Slow reactions; samples withdrawn and quenched                         |
 | Conductivity    | Conductance vs time         | Reactions changing the number or type of ions                          |
 | Clock reactions | Time to reach a fixed point | Initial rate determination (e.g. Iodine clock)                         |
+
+</div>
 
 ## Collision Theory
 
@@ -134,7 +138,7 @@ to the left, dramatically increasing the fraction of molecules that can react.
 
 ## Rate Equations
 
-For a reaction $a\mathrm{A} + b\mathrm{B} \to \mathrm{products}$The **rate equation** has the form:
+For a reaction $a\mathrm{A} + b\mathrm{B} \to \mathrm{products}$ The **rate equation** has the form:
 
 $$
 \mathrm{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n
@@ -155,12 +159,16 @@ mechanism, not from the overall equation.
 
 The units of $k$ depend on the overall order of reaction:
 
+<div class="table-wrap">
+
 | Overall order | Rate equation                     | Units of $k$                      |
 | ------------- | --------------------------------- | --------------------------------- |
 | 0             | $\mathrm{Rate} = k$               | $\mathrm{mol\,dm^{-3}\,s^{-1}}$   |
 | 1             | $\mathrm{Rate} = k[\mathrm{A}]$   | $\mathrm{s^{-1}}$                 |
 | 2             | $\mathrm{Rate} = k[\mathrm{A}]^2$ | $\mathrm{mol^{-1}\,dm^3\,s^{-1}}$ |
 | 3             | $\mathrm{Rate} = k[\mathrm{A}]^3$ | $\mathrm{mol^{-2}\,dm^6\,s^{-1}}$ |
+
+</div>
 
 : $\mathrm{Units of } k = (\mathrm{mol\,dm^{-3}})^{1-\mathrm{order}} \times \mathrm{s^{-1}}$.
 
@@ -213,11 +221,15 @@ Measure the initial rate for each experiment. Compare rates to determine orders.
 
 **Worked Example.** For the reaction between $\mathrm{A}$ and $\mathrm{B}$:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{A}]$ ($\mathrm{mol/dm}^3$) | $[\mathrm{B}]$ ($\mathrm{mol/dm}^3$) | Initial rate ($\mathrm{mol\,dm^{-3}\,s^{-1}}$) |
 | ---------- | ------------------------------------ | ------------------------------------ | ---------------------------------------------- |
 | 1          | 0.10                                 | 0.10                                 | $1.2 \times 10^{-3}$                           |
 | 2          | 0.20                                 | 0.10                                 | $2.4 \times 10^{-3}$                           |
 | 3          | 0.10                                 | 0.20                                 | $4.8 \times 10^{-3}$                           |
+
+</div>
 
 Comparing 1 and 2: $[\mathrm{A}]$ doubles, rate doubles. Order with respect to A: $m = 1$.
 
@@ -354,7 +366,7 @@ equation $\mathrm{Rate} = k[\mathrm{NO}_2]^2$. The proposed mechanism is:
 
 **Step 2 (fast):** $\mathrm{NO}_3 + \mathrm{CO} \to \mathrm{NO}_2 + \mathrm{CO}_2$
 
-The rate equation depends on the RDS (Step 1): $\mathrm{Rate} = k_1[\mathrm{NO}_2]^2$Consistent with
+The rate equation depends on the RDS (Step 1): $\mathrm{Rate} = k_1[\mathrm{NO}_2]^2$ Consistent with
 the experimental rate equation. Note that $\mathrm{CO}$ does not appear in the rate equation because
 it is not involved in the RDS.
 
@@ -422,7 +434,7 @@ $$
 $$
 
 This leads (after simplification) to a rate equation of the form
-$\mathrm{Rate} = k_\mathrm{eff}[\mathrm{N}_2\mathrm{O}_5]$Showing that the reaction is
+$\mathrm{Rate} = k_\mathrm{eff}[\mathrm{N}_2\mathrm{O}_5]$ Showing that the reaction is
 experimentally first-order, consistent with observation. The key insight is that the intermediate
 $\mathrm{NO}_3$ is consumed as fast as it is formed.
 
@@ -463,11 +475,15 @@ amount constant, the orders of reaction with respect to each reactant can be det
 **Worked Example.** In an iodine clock experiment, the following data were obtained at constant
 temperature:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{S}_2\mathrm{O}_8^{2-}]$ ($\mathrm{mol/dm}^3$) | $[\mathrm{I}^-]$ ($\mathrm{mol/dm}^3$) | Time for colour change (s) |
 | ---------- | ------------------------------------------------------- | -------------------------------------- | -------------------------- |
 | 1          | 0.040                                                   | 0.040                                  | 52                         |
 | 2          | 0.080                                                   | 0.040                                  | 26                         |
 | 3          | 0.040                                                   | 0.080                                  | 26                         |
+
+</div>
 
 Determine the rate equation.
 
@@ -530,7 +546,7 @@ The catalyst increases the rate by a factor of approximately 24,000 at room temp
 
 8. **Confusing zero-order and first-order half-life behaviour.** For a first-order reaction,
    $t_{1/2}$ is constant (independent of $[\mathrm{A}]_0$). For a zero-order reaction,
-   $t_{1/2} = [\mathrm{A}]_0 / (2k)$Which depends on the initial concentration. This is a key
+   $t_{1/2} = [\mathrm{A}]_0 / (2k)$ Which depends on the initial concentration. This is a key
    experimental distinction.
 
 9. **Using the wrong rate expression for gas-phase reactions.** For gas reactions, rate can be
@@ -664,11 +680,15 @@ Conductivity increases as $\mathrm{H}^+$ and $\mathrm{Br}^-$ are produced.
 
 ### Determining the Order from Concentration-Time Graphs
 
+<div class="table-wrap">
+
 | Order | Plot of [A] vs t                  | Linearised plot | Half-life behaviour   |
 | ----- | --------------------------------- | --------------- | --------------------- |
 | 0     | Straight line (negative gradient) | [A] vs t        | Decreases with [A]\_0 |
 | 1     | Exponential decay                 | ln[A] vs t      | Constant              |
 | 2     | Curved, steeper at start          | 1/[A] vs t      | Decreases with [A]\_0 |
+
+</div>
 
 To determine the order experimentally: plot the data in all three linearised forms. The one that
 gives the best straight line (highest $R^2$ value) indicates the order.
@@ -677,6 +697,8 @@ gives the best straight line (highest $R^2$ value) indicates the order.
 
 The hydrolysis of a halogenoalkane $\mathrm{R-X}$ was monitored by measuring conductivity. The
 following data were obtained:
+
+<div class="table-wrap">
 
 | Time (s) | Conductivity ($\mu\mathrm{S/cm}$) |
 | -------- | --------------------------------- |
@@ -687,11 +709,15 @@ following data were obtained:
 | 240      | 49.8                              |
 | $\infty$ | 64.0                              |
 
+</div>
+
 The conductivity at $t = \infty$ (complete reaction) is $64.0$. The conductivity is proportional to
 the concentration of product.
 
 $[\mathrm{P}] \propto (\kappa_t - \kappa_0) = (\kappa_t - 12.0)$ And
 $[\mathrm{R-X}] \propto (\kappa_\infty - \kappa_t) = (64.0 - \kappa_t)$.
+
+<div class="table-wrap">
 
 | Time (s) | $[\mathrm{R-X}]$ (arb. Units) | $\ln[\mathrm{R-X}]$ | $1/[\mathrm{R-X}]$ |
 | -------- | ----------------------------- | ------------------- | ------------------ |
@@ -700,6 +726,8 @@ $[\mathrm{R-X}] \propto (\kappa_\infty - \kappa_t) = (64.0 - \kappa_t)$.
 | 120      | 27.6                          | 3.318               | 0.0362             |
 | 180      | 19.8                          | 2.986               | 0.0505             |
 | 240      | 14.2                          | 2.653               | 0.0704             |
+
+</div>
 
 Plotting $\ln[\mathrm{R-X}]$ vs $t$: the points (0, 3.951), (60, 3.643), (120, 3.318), (180, 2.986),
 (240, 2.653) give an approximately straight line. The gradient is approximately
@@ -723,7 +751,7 @@ Step 1 (slow, RDS): $\mathrm{A} + \mathrm{B} \to \mathrm{X}$ (intermediate)
 
 Step 2 (fast): $\mathrm{X} + \mathrm{B} \to \mathrm{C}$
 
-Rate equation: $\mathrm{Rate} = k_1[\mathrm{A}][\mathrm{B}]$Which matches.
+Rate equation: $\mathrm{Rate} = k_1[\mathrm{A}][\mathrm{B}]$ Which matches.
 
 </details>
 
@@ -765,12 +793,16 @@ $$
 The rate of the reaction $\mathrm{A} + 2\mathrm{B} \to \mathrm{C}$ was studied at $298\,\mathrm{K}$.
 The following initial rate data were obtained:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{A}]$ ($\mathrm{mol/dm}^3$) | $[\mathrm{B}]$ ($\mathrm{mol/dm}^3$) | Initial rate ($\mathrm{mol\,dm^{-3}\,s^{-1}}$) |
 | ---------- | ------------------------------------ | ------------------------------------ | ---------------------------------------------- |
 | 1          | 0.10                                 | 0.10                                 | $1.2 \times 10^{-3}$                           |
 | 2          | 0.20                                 | 0.10                                 | $2.4 \times 10^{-3}$                           |
 | 3          | 0.10                                 | 0.20                                 | $4.8 \times 10^{-3}$                           |
 | 4          | 0.20                                 | 0.20                                 | $9.6 \times 10^{-3}$                           |
+
+</div>
 
 (a) Determine the order with respect to $\mathrm{A}$ and $\mathrm{B}$. (b) Write the rate equation
 and calculate the rate constant. (c) Calculate the initial rate when $[\mathrm{A}] = 0.15$ and
@@ -843,7 +875,9 @@ the molecularity of the rate-determining step.
 
 **Example:** The reaction between propanone and iodine in acidic solution:
 
-$$\mathrm{CH}_3\mathrm{COCH}_3 + \mathrm{I}_2 \to \mathrm{CH}_2\mathrm{ICOCH}_3 + \mathrm{HI}$$
+$$
+\mathrm{CH}_3\mathrm{COCH}_3 + \mathrm{I}_2 \to \mathrm{CH}_2\mathrm{ICOCH}_3 + \mathrm{HI}
+$$
 
 The observed rate equation is: Rate $= k[\mathrm{CH}_3\mathrm{COCH}_3}][\mathrm{H}^+]$
 
@@ -854,15 +888,21 @@ participates in a fast step after the rate-determining step.
 
 Step 1 (slow, rate-determining): Protonation of propanone:
 
-$$\mathrm{CH}_3\mathrm{COCH}_3 + \mathrm{H}^+ \to \mathrm{CH}_3\mathrm{C(OH}^+)\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{COCH}_3 + \mathrm{H}^+ \to \mathrm{CH}_3\mathrm{C(OH}^+)\mathrm{CH}_3
+$$
 
 Step 2 (fast): Enolisation:
 
-$$\mathrm{CH}_3\mathrm{C(OH}^+)\mathrm{CH}_3 \to \mathrm{CH}_2=\mathrm{C(OH})\mathrm{CH}_3 + \mathrm{H}^+$$
+$$
+\mathrm{CH}_3\mathrm{C(OH}^+)\mathrm{CH}_3 \to \mathrm{CH}_2=\mathrm{C(OH})\mathrm{CH}_3 + \mathrm{H}^+
+$$
 
 Step 3 (fast): Reaction with iodine:
 
-$$\mathrm{CH}_2=\mathrm{C(OH})\mathrm{CH}_3 + \mathrm{I}_2 \to \mathrm{CH}_2\mathrm{ICOCH}_3 + \mathrm{HI}$$
+$$
+\mathrm{CH}_2=\mathrm{C(OH})\mathrm{CH}_3 + \mathrm{I}_2 \to \mathrm{CH}_2\mathrm{ICOCH}_3 + \mathrm{HI}
+$$
 
 The rate equation (Rate $= k[\mathrm{CH}_3\mathrm{COCH}_3}][\mathrm{H}^+]$) matches step 1,
 confirming it is the rate-determining step.
@@ -876,7 +916,9 @@ consumption).
 
 **Example:** The decomposition of $\mathrm{N}_2\mathrm{O}_5$:
 
-$$2\mathrm{N}_2\mathrm{O}_5 \to 4\mathrm{NO}_2 + \mathrm{O}_2$$
+$$
+2\mathrm{N}_2\mathrm{O}_5 \to 4\mathrm{NO}_2 + \mathrm{O}_2
+$$
 
 Mechanism:
 
@@ -890,9 +932,11 @@ Step 3: $\mathrm{NO} + \mathrm{NO}_3 \to 2\mathrm{NO}_2$ (fast)
 Applying the steady-state approximation to the intermediates $\mathrm{NO}_2$ and $\mathrm{NO}_3$
 gives the rate equation:
 
-$$\text{Rate} = k[\mathrm{N}_2\mathrm{O}_5]$$
+$$
+\text{Rate} = k[\mathrm{N}_2\mathrm{O}_5]
+$$
 
-This is first-order with respect to $\mathrm{N}_2\mathrm{O}_5$Consistent with experimental
+This is first-order with respect to $\mathrm{N}_2\mathrm{O}_5$ Consistent with experimental
 observation.
 
 ### Catalysis in Detail
@@ -942,17 +986,23 @@ For a first-order reaction, the half-life is constant and independent of concent
 concentration vs time and measure the time for the concentration to halve at several points. If the
 half-life is constant, the reaction is first-order.
 
-$$t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}$$
+$$
+t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}
+$$
 
 ### Arrhenius Applications: Catalyst Effect on Activation Energy
 
 **Worked Example:** A reaction has $E_a = 75\,\mathrm{kJ/mol}$ without a catalyst and
 $E_a = 50\,\mathrm{kJ/mol}$ with a catalyst. Calculate the ratio of rate constants at
-$298\,\mathrm{K}$Assuming the pre-exponential factor $A$ is unchanged.
+$298\,\mathrm{K}$ Assuming the pre-exponential factor $A$ is unchanged.
 
-$$\frac{k_\text{cat}}{k_\text{uncat}} = \frac{Ae^{-E_{a,\text{cat}}/RT}}{Ae^{-E_{a,\text{uncat}}/RT}} = e^{(E_{a,\text{uncat}} - E_{a,\text{cat}})/RT}$$
+$$
+\frac{k_\text{cat}}{k_\text{uncat}} = \frac{Ae^{-E_{a,\text{cat}}/RT}}{Ae^{-E_{a,\text{uncat}}/RT}} = e^{(E_{a,\text{uncat}} - E_{a,\text{cat}})/RT}
+$$
 
-$$= e^{(75000 - 50000)/(8.314 \times 298)} = e^{25000/2478} = e^{10.09} = 2.4 \times 10^4$$
+$$
+= e^{(75000 - 50000)/(8.314 \times 298)} = e^{25000/2478} = e^{10.09} = 2.4 \times 10^4
+$$
 
 The catalyst increases the rate by a factor of approximately 24,000 at $298\,\mathrm{K}$.
 
@@ -964,11 +1014,15 @@ The catalyst increases the rate by a factor of approximately 24,000 at $298\,\ma
 The reaction $\mathrm{A} + 2\mathrm{B} \to \mathrm{C}$ was studied at $298\,\mathrm{K}$. The
 following initial rate data were obtained:
 
+<div class="table-wrap">
+
 | $[\mathrm{A}]$ ($\mathrm{mol\,dm^{-3}}$) | $[\mathrm{B}]$ ($\mathrm{mol\,dm^{-3}}$) | Initial rate ($\mathrm{mol\,dm^{-3}\,s^{-1}}$) |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------------- |
 | 0.10                                     | 0.10                                     | $1.2 \times 10^{-4}$                           |
 | 0.20                                     | 0.10                                     | $2.4 \times 10^{-4}$                           |
 | 0.10                                     | 0.20                                     | $4.8 \times 10^{-4}$                           |
+
+</div>
 
 (a) Deduce the rate equation. (3 marks)
 
@@ -1062,19 +1116,6 @@ within the A-Level specification for this topic, each with a full worked solutio
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Chemical
 Kinetics with other chemistry topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
-
-```mermaid
-flowchart TD
-    A[Kinetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

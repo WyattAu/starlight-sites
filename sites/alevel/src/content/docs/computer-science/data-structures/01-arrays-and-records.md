@@ -29,7 +29,9 @@ Type, stored in **contiguous memory locations**. Each element is accessed by an 
 
 Formally, an array $A$ of type $T$ with $n$ elements maps indices to memory:
 
-$$A: \{0, 1, \ldots, n-1\} \to \mathrm{Memory addresses}$$
+$$
+A: \{0, 1, \ldots, n-1\} \to \mathrm{Memory addresses}
+$$
 
 Where $A[i]$ is stored at base address $b + i \times s$ And $s$ is the size (in bytes) of one Element
 of type $T$.
@@ -38,7 +40,9 @@ of type $T$.
 
 **Address calculation:**
 
-$$\mathrm{addr}(A[i]) = b + i \cdot s$$
+$$
+\mathrm{addr}(A[i]) = b + i \cdot s
+$$
 
 Where $b$ is the base address of the array, $i$ is the index, and $s$ is the element size.
 
@@ -53,6 +57,8 @@ Constant-time operations. No traversal is needed. $\square$
 Consider `int A[5] = {10, 20, 30, 40, 50}` where each `int` is 4 bytes and the base address is
 $b = 1000$:
 
+<div class="table-wrap">
+
 | Index | Value | Address   |
 | ----- | ----- | --------- |
 | 0     | 10    | 1000–1003 |
@@ -61,11 +67,15 @@ $b = 1000$:
 | 3     | 40    | 1012–1015 |
 | 4     | 50    | 1016–1019 |
 
+</div>
+
 $A[3]$ is at $1000 + 3 \times 4 = 1012$. ✓
 
 </details>
 
 ### Operations and Complexity
+
+<div class="table-wrap">
 
 | Operation     | Time             | Notes                          |
 | ------------- | ---------------- | ------------------------------ |
@@ -75,6 +85,8 @@ $A[3]$ is at $1000 + 3 \times 4 = 1012$. ✓
 | Insert at end | $O(1)$ amortised | Dynamic array                  |
 | Insert at $i$ | $O(n)$           | Must shift elements $i..n-1$   |
 | Delete at $i$ | $O(n)$           | Must shift elements $i+1..n-1$ |
+
+</div>
 
 ### Python Implementation
 
@@ -108,7 +120,9 @@ class StaticArray:
 A **two-dimensional array** is an array of arrays, a matrix with $m$ rows and $n$ columns.
 Formally:
 
-$$A: \{0,\ldots,m-1\} \times \{0,\ldots,n-1\} \to \mathrm{Memory}$$
+$$
+A: \{0,\ldots,m-1\} \times \{0,\ldots,n-1\} \to \mathrm{Memory}
+$$
 
 ### Memory Layouts
 
@@ -116,7 +130,9 @@ $$A: \{0,\ldots,m-1\} \times \{0,\ldots,n-1\} \to \mathrm{Memory}$$
 
 Elements of each row are stored contiguously. Row 0 first, then row 1, etc.
 
-$$\mathrm{addr}(A[i][j]) = b + (i \cdot n + j) \cdot s$$
+$$
+\mathrm{addr}(A[i][j]) = b + (i \cdot n + j) \cdot s
+$$
 
 This is the default in C, C++, Python (NumPy default), and most modern languages.
 
@@ -124,7 +140,9 @@ This is the default in C, C++, Python (NumPy default), and most modern languages
 
 Elements of each column are stored contiguously. Column 0 first, then column 1, etc.
 
-$$\mathrm{addr}(A[i][j]) = b + (j \cdot m + i) \cdot s$$
+$$
+\mathrm{addr}(A[i][j]) = b + (j \cdot m + i) \cdot s
+$$
 
 This is the default in Fortran, MATLAB, R, and Julia.
 
@@ -169,7 +187,9 @@ Consider a dynamic array that starts at capacity 1 and doubles when full.
 **Proof.** A resize at capacity $c$ copies $c$ elements. Resizes occur at capacities
 $1, 2, 4, 8, \ldots, 2^{\lfloor \log_2 n \rfloor}$. The total cost of all copies is:
 
-$$\sum_{k=0}^{\lfloor \log_2 n \rfloor} 2^k = 2^{\lfloor \log_2 n \rfloor + 1} - 1 \leq 2n - 1 = O(n)$$
+$$
+\sum_{k=0}^{\lfloor \log_2 n \rfloor} 2^k = 2^{\lfloor \log_2 n \rfloor + 1} - 1 \leq 2n - 1 = O(n)
+$$
 
 Over $n$ operations, the amortised cost per operation is $O(n)/n = O(1)$. $\square$
 
@@ -199,6 +219,8 @@ class DynamicArray:
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Property     | Static Array      | Dynamic Array            |
 | ------------ | ----------------- | ------------------------ |
 | Size         | Fixed at creation | Grows/shrinks at runtime |
@@ -206,6 +228,8 @@ class DynamicArray:
 | Access time  | $O(1)$            | $O(1)$                   |
 | Append       | N/A (fixed size)  | $O(1)$ amortised         |
 | Memory waste | Exact allocation  | Up to 2× allocated       |
+
+</div>
 
 <hr />
 
@@ -227,7 +251,7 @@ class Student:
 ### Memory Layout
 
 Fields are stored contiguously in memory, in the order declared. The size of a record is the sum of
-Its field sizes, plus any **padding** added for alignment.
+its field sizes, plus any **padding** added for alignment.
 
 **Alignment rule:** On most architectures, an $n$-byte field must be stored at an address that is a
 Multiple of $n$ (or the largest alignment requirement).
@@ -245,6 +269,8 @@ struct Example {
 
 Layout (on a 32-bit system with 4-byte alignment):
 
+<div class="table-wrap">
+
 | Offset | Field | Size | Padding |
 | ------ | ----- | ---- | ------- |
 | 0      | c     | 1    |,       |
@@ -253,11 +279,15 @@ Layout (on a 32-bit system with 4-byte alignment):
 | 8–9    | s     | 2    |,       |
 | 10–11  |,     | 2    | padding |
 
+</div>
+
 Total size: 12 bytes (not 7).
 
 </details>
 
 ### Records vs Arrays
+
+<div class="table-wrap">
 
 | Property     | Array                    | Record                        |
 | ------------ | ------------------------ | ----------------------------- |
@@ -265,6 +295,8 @@ Total size: 12 bytes (not 7).
 | Access       | By integer index         | By named field                |
 | Size         | Homogeneous              | Heterogeneous                 |
 | Use case     | Collections of same data | Grouping related attributes   |
+
+</div>
 
 :::note
 - **AQA** distinguishes between static arrays (fixed size, compile-time) and dynamic arrays (runtime
@@ -296,7 +328,7 @@ Bounds checking.
 ## 6. Arrays of Records
 
 An array of records combines both structures: each element of the array is a record. This is
-Extremely common in practice.
+extremely common in practice.
 
 ```python
 students = [
@@ -365,7 +397,7 @@ $O(n)$ time.
 <summary>Answer</summary>
 
 All $n$ existing elements must be shifted one position to the right to make room at index 0. Each
-Shift is a constant-time assignment, so the total cost is $n$ assignments = $O(n)$.
+shift is a constant-time assignment, so the total cost is $n$ assignments = $O(n)$.
 
 </details>
 
@@ -392,7 +424,7 @@ $\Omega(n)$ comparisons in the worst case.
 <summary>Answer</summary>
 
 In an unsorted array, there is no relationship between the values at different indices. To determine
-Whether a target value $x$ exists in the array, any algorithm must potentially examine every element
+whether a target value $x$ exists in the array, any algorithm must potentially examine every element
 - if it skips any unchecked element, that element could be $x$. Therefore, the worst case requires
 $n$ comparisons, giving $\Omega(n)$.
 
@@ -407,6 +439,8 @@ value 9 and count the number of comparisons made.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Step | Index | A[index] | Comparison    | Count |
 | ---- | ----- | -------- | ------------- | ----- |
 | 1    | 0     | 3        | 3 ≠ 9         | 1     |
@@ -415,6 +449,8 @@ value 9 and count the number of comparisons made.
 | 4    | 3     | 1        | 1 ≠ 9         | 4     |
 | 5    | 4     | 5        | 5 ≠ 9         | 5     |
 | 6    | 5     | 9        | 9 = 9 → found | 6     |
+
+</div>
 
 Total comparisons: 6. The value 9 is at index 5.
 
@@ -428,8 +464,8 @@ For revision on searching, see
 ## Problems
 
 **Problem 1.** A character array `C` has base address 3000 and stores lowercase letters. Each
-Character occupies 1 byte. What are the addresses of `C[0]``C[4]`And `C[12]`? If `C` is declared
-With size 10, what happens when you access `C[12]`?
+Character occupies 1 byte. What are the addresses of `C[0]`, `C[4]` and `C[12]`? If `C` is declared
+with size 10, what happens when you access `C[12]`?
 
 <details>
 <summary>Hint</summary>
@@ -480,18 +516,20 @@ The value stored at address 512 is **41**.
 
 **Problem 3.** A record `Book` is defined with fields: `title` (string, 30 bytes), `pages` (int, 4
 Bytes), `price` (float, 8 bytes), `available` (bool, 1 byte). Assuming 8-byte alignment, calculate
-The offset of each field and the total size of the record.
+the offset of each field and the total size of the record.
 
 <details>
 <summary>Hint</summary>
 
 Place each field at an offset that is a multiple of its alignment requirement. Pad between fields if
-Needed, and pad at the end to make the total a multiple of the largest alignment.
+needed, and pad at the end to make the total a multiple of the largest alignment.
 
 </details>
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Field     | Size | Alignment | Offset | Padding before |
 | --------- | ---- | --------- | ------ | -------------- |
@@ -503,18 +541,20 @@ Needed, and pad at the end to make the total a multiple of the largest alignment
 | available | 1    | 1         | 48     |,              |
 | (padding) | 7    |,         | 49     | 7 bytes        |
 
+</div>
+
 Total size: 56 bytes.
 
 The `title` field occupies offsets 0–29. Offset 30 is not a multiple of 8 (required for `price`), so
 2 bytes of padding are added. After `pages` at offset 32 (4 bytes), offset 36 is not a multiple of
 8, so 4 more bytes of padding. After `available` at offset 48 (1 byte), 7 bytes of padding bring the
-Total to 56 (a multiple of 8).
+total to 56 (a multiple of 8).
 
 </details>
 
 **Problem 4.** A nested record is defined: `Student` has fields `name` (20 bytes) and `exam` which
 Is a record with fields `subject` (10 bytes) and `score` (4 bytes). Assuming 4-byte alignment, what
-Is the offset of `exam.score` within a `Student` record?
+is the offset of `exam.score` within a `Student` record?
 
 <details>
 <summary>Hint</summary>
@@ -553,7 +593,7 @@ Used by `S` and `D`. Which uses more memory and why?
 <summary>Hint</summary>
 
 The static array allocates exactly 100 slots. The dynamic array doubles at powers of 2, what is the
-Capacity after 100 insertions?
+capacity after 100 insertions?
 
 </details>
 
@@ -566,8 +606,8 @@ Dynamic array `D`: After 100 insertions, capacity is 128 (next power of 2 ≥ 10
 Sequence is 1, 2, 4, 8, 16, 32, 64, 128). Memory used: $128 \times 4 = 512$ bytes.
 
 The dynamic array uses **112 more bytes** (28% more) because it pre-allocates extra capacity to
-Achieve $O(1)$ amortised append. However, the static array cannot grow beyond 100 elements, while
-The dynamic array can continue to accept more.
+achieve $O(1)$ amortised append. However, the static array cannot grow beyond 100 elements, while
+the dynamic array can continue to accept more.
 
 </details>
 
@@ -578,7 +618,7 @@ Arrays. Your answer should reference memory allocation and performance.
 <summary>Hint</summary>
 
 Consider where each type is stored (stack vs heap), whether the size can change, and the
-Implications for performance and memory efficiency.
+implications for performance and memory efficiency.
 
 </details>
 
@@ -597,7 +637,7 @@ Implications for performance and memory efficiency.
 1. **Fixed size:** Cannot grow or shrink. If you need more elements, you must create a new array and
    copy (or pick a larger size upfront, wasting memory).
 2. **Stack overflow risk:** Large static arrays stored on the stack can cause stack overflow. The
-Stack is limited (e.g., 1–8 MB), while the heap is much larger.
+stack is limited (e.g., 1–8 MB), while the heap is much larger.
 
 </details>
 
@@ -610,12 +650,12 @@ M = [[5, 12, 3, 8],
 ```
 
 Write pseudocode to calculate the sum of all elements in row 1, and the sum of all elements in
-Column 2.
+column 2.
 
 <details>
 <summary>Hint</summary>
 
-Row 1 is `M[1][0]` through `M[1][3]`. Column 2 is `M[0][2]``M[1][2]``M[2][2]`.
+Row 1 is `M[1][0]` through `M[1][3]`. Column 2 is `M[0][2]`, `M[1][2]`, `M[2][2]`.
 
 </details>
 
@@ -663,7 +703,7 @@ What is the address of `A[2][1]`? What value is stored there?
 <summary>Hint</summary>
 
 Use the row-major formula: $\mathrm{addr}(A[i][j]) = b + (i \cdot n + j) \cdot s$ where $n$ is the
-Number of columns.
+number of columns.
 
 </details>
 
@@ -684,7 +724,7 @@ Verification of all addresses:
 
 **Problem 9.** Write pseudocode to insert the value 25 at index 2 of the array
 `A = {10, 20, 30, 40, 50}`. The array has capacity for 6 elements and currently holds 5. Show the
-State of the array after the insertion.
+state of the array after the insertion.
 
 <details>
 <summary>Hint</summary>
@@ -721,9 +761,9 @@ This takes $O(n)$ time because $n - 2 = 3$ elements were shifted.
 
 **Problem 10.** (Exam-style) A school needs to store data about 500 students. For each student, they
 Need: name (string), age (integer), and a list of up to 10 exam grades (integers). The system must
-Support: (a) looking up any student by their position in a class list, (b) calculating the average
+support: (a) looking up any student by their position in a class list, (b) calculating the average
 Grade for a student, (c) adding a new student to the end of the list when they enrol. Evaluate
-Whether a static array, a dynamic array, or an array of records is the most appropriate data
+whether a static array, a dynamic array, or an array of records is the most appropriate data
 Structure. Justify your choice with reference to the operations required and their time
 Complexities.
 
@@ -744,7 +784,7 @@ Growth).
 
 **Why records?** Each student has fields of different types: a string (name), an integer (age), and
 An array of integers (grades). An array alone stores elements of the same type. A record groups
-These heterogeneous fields under one name, making the code readable and the data logically
+these heterogeneous fields under one name, making the code readable and the data logically
 Organised.
 
 **Why a dynamic array (not static)?** Requirement (c) states that new students can be added when
@@ -760,8 +800,8 @@ Memory or running out of space. A dynamic array grows automatically with $O(1)$ 
 - (c) Add new student at end: $O(1)$ amortised, dynamic array append
 
 A linked list would also support insertion but would not provide $O(1)$ access by position (it would
-Be $O(n)$), making it worse for operation (a). The array of records with dynamic sizing is therefore
-The optimal choice.
+be $O(n)$), making it worse for operation (a). The array of records with dynamic sizing is therefore
+the optimal choice.
 
 </details>
 
@@ -783,23 +823,7 @@ The optimal choice.
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[01 Arrays And Records] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

@@ -96,8 +96,6 @@ Start with the real number system to build foundational knowledge, then progress
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -137,5 +135,5 @@ Many proofs in real analysis implicitly rely on the Archimedean property (for an
 - **Multivariable Calculus:** Extensions to several variables.
 - **Measure Theory:** Lebesgue integration extending Riemann integration.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

@@ -76,7 +76,7 @@ physics.
 - **Nuclear fission**, splitting heavy nuclei (uranium-235, plutonium-239); chain reactions;
   controlled (reactor) vs. uncontrolled (weapon)
 - **Nuclear fusion**, combining light nuclei (hydrogen isotopes); conditions required (high
-  temperature, high pressure); the Sun"s energy source
+  temperature, high pressure); the Sun's energy source
 - **Calculations**, determining energy released from mass difference:
   $\Delta E = \Delta m \times c^2$
 
@@ -161,8 +161,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Common Mistakes
 

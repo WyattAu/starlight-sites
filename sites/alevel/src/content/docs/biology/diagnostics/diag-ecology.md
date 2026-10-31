@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Ecology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Ecology is like a web of relationships, every organism depends on others in a delicate balance.**
@@ -115,7 +104,7 @@ locked away in geological deposits over millions of years. This CO$_2$ is releas
 atmosphere much faster than natural processes (photosynthesis, dissolution in oceans) can remove it,
 creating an imbalance in the carbon cycle. The atmospheric CO$_2$ concentration has increased from
 approximately 280 ppm (pre-industrial) to over 420 ppm currently. CO$_2$ is a **greenhouse gas**,
-it absorbs and re-radiates infrared radiation (heat) emitted by the Earth"s surface, trapping heat
+it absorbs and re-radiates infrared radiation (heat) emitted by the Earth's surface, trapping heat
 in the atmosphere (the enhanced greenhouse effect). This leads to **global warming** (increased
 average global temperature) and **climate change**, with consequences including rising sea levels
 (thermal expansion of oceans and melting ice caps), more frequent extreme weather events (droughts,
@@ -366,7 +355,9 @@ minimising environmental damage.
 **Solution:**
 
 (a) Ecological efficiency from cereal to cattle:
-$$\text{Efficiency} = \frac{\text{energy in cattle biomass}}{\text{energy consumed by cattle}} \times 100 = \frac{3,600}{36,000} \times 100 = 10\%$$
+$$
+\text{Efficiency} = \frac{\text{energy in cattle biomass}}{\text{energy consumed by cattle}} \times 100 = \frac{3,600}{36,000} \times 100 = 10\%
+$$
 
 The ecological efficiency is approximately **10%** (this is consistent with the typical 10% rule for
 energy transfer between trophic levels).
@@ -576,7 +567,7 @@ runoff from the field.
 
 (a) **Nitrogen** is required by plants for the synthesis of:
 
-- **Amino acids**, nitrogen is a component of the amino group ($-$NH$_2$) in amino acids, which are
+- **Amino acids**, nitrogen is a component of the amino group ($-$ NH$_2$) in amino acids, which are
   the monomers of proteins. Proteins are essential for growth (enzymes, structural proteins,
   transport proteins, antibodies).
 - **Nucleotides**, nitrogen is found in the nitrogenous bases (adenine, guanine, cytosine, thymine,

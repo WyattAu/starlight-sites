@@ -172,16 +172,22 @@ Output.
 
 Install VS Code, then add these extensions:
 
+<div class="table-wrap">
+
 | Extension        | ID                          | Purpose                                    |
 | ---------------- | --------------------------- | ------------------------------------------ |
 | Dart             | `dart-code.dart-code`       | Syntax, analysis, debugging, pub support   |
 | Flutter          | `dart-code.flutter`         | Widget editing, DevTools, emulator control |
 | Flutter Snippets | `alexisvt.flutter-snippets` | Boilerplate code generation                |
 
+</div>
+
 After installing, open a Dart/Flutter project folder. VS Code will prompt you to select the Flutter
 SDK location if it is not already in PATH.
 
 Key VS Code shortcuts for Dart:
+
+<div class="table-wrap">
 
 | Action           | Shortcut                               |
 | ---------------- | -------------------------------------- |
@@ -192,10 +198,12 @@ Key VS Code shortcuts for Dart:
 | Quick fix        | `Ctrl+.` / `Cmd+.`                     |
 | Format document  | `Shift+Alt+F` / `Shift+Option+F`       |
 
+</div>
+
 ### Android Studio
 
 Android Studio includes the Dart and Flutter plugins by default when you install the Flutter SDK
-Through its installer:
+through its installer:
 
 1. Download Android Studio from <https://developer.android.com/studio>
 2. Install the Flutter and Dart plugins: **Settings &gt; Plugins &gt; Marketplace &gt; "Flutter"**
@@ -238,7 +246,7 @@ cd my_cli
 dart run
 ```
 
-This creates a minimal console application with a `pubspec.yaml``bin/`And `test/` directory.
+This creates a minimal console application with a `pubspec.yaml`, `bin/` and `test/` directory.
 
 ### Flutter application
 
@@ -248,8 +256,8 @@ cd my_app
 flutter run
 ```
 
-This creates a full Flutter project with platform-specific directories (`android/``ios/``web/`
-`macos/``linux/``windows/`).
+This creates a full Flutter project with platform-specific directories (`android/`, `ios/`, `web/`
+`macos/`, `linux/`, `windows/`).
 
 ### Project structure after `dart create -t console`
 
@@ -301,7 +309,7 @@ Android Studio.
 
 ### Configuring environment variables
 
-Add these to your shell profile (`~/.bashrc``~/.zshrc`Etc.):
+Add these to your shell profile (`~/.bashrc`, `~/.zshrc`. Etc.):
 
 ```bash
 export ANDROID_HOME=$HOME/Android/Sdk
@@ -324,6 +332,8 @@ SDK**
 
 Required components:
 
+<div class="table-wrap">
+
 | Component                                    | Purpose                            |
 | -------------------------------------------- | ---------------------------------- |
 | Android SDK Platform 34 (or latest)          | Target API level                   |
@@ -332,6 +342,8 @@ Required components:
 | Android SDK Command-line Tools               | `sdkmanager` CLI                   |
 | Android Emulator                             | `emulator` binary                  |
 | Intel x86 Emulator Accelerator (HAXM) or KVM | Hardware acceleration for emulator |
+
+</div>
 
 ### Verifying Android setup
 
@@ -448,17 +460,6 @@ dart pub global deactivate fvm
 rm -rf ~/.fvm
 ```
 
-
-```mermaid
-flowchart TD
-    A[01 Installation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of installation, including underlying theory, practical
@@ -472,13 +473,7 @@ implementation, and key applications.
 - shell scripting with bash
 - package management
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

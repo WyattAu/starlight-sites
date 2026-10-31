@@ -23,7 +23,7 @@ Git hooks are automation points that fire at specific moments in the Git workflo
 
 Git hooks are scripts that Git executes automatically before or after specific events in the
 Repository lifecycle, commits, pushes, rebases, checkouts, and so on. They live at the boundary
-Between your workflow and Git"s internal state machine, and they are the primary mechanism for
+between your workflow and Git's internal state machine, and they are the primary mechanism for
 Enforcing local policy without requiring a central server.
 
 ### When Hooks Run
@@ -36,7 +36,7 @@ Git aborts the operation, this is the entire enforcement mechanism.
 Hooks are divided into two categories based on where they execute:
 
 **Client-side hooks** run on the local machine performing the Git operation. They are triggered by
-Commands like `git commit``git push``git checkout`And `git rebase`. Client-side hooks cannot Be
+Commands like `git commit`, `git push`, `git checkout` and `git rebase`. Client-side hooks cannot Be
 enforced remotely, a user with filesystem access can always bypass them with `--no-verify`. Their
 purpose is **convenience and local policy**, not security.
 
@@ -76,6 +76,8 @@ does not error).
 Every hook has a fixed name. Git iterates through the hooks directory and matches filenames against
 A hardcoded list. The naming is not configurable:
 
+<div class="table-wrap">
+
 | Hook Name            | Type   | Trigger Point                   |
 | -------------------- | ------ | ------------------------------- |
 | `pre-commit`         | Client | Before commit, after staging    |
@@ -90,6 +92,8 @@ A hardcoded list. The naming is not configurable:
 | `update`             | Server | Once per ref being updated      |
 | `post-receive`       | Server | After refs are updated          |
 
+</div>
+
 ### What Happens When a Hook Fails
 
 The contract is simple: **exit code 0 means success, anything else means failure**. When a pre-hook
@@ -101,12 +105,14 @@ error: failed to push some refs to 'origin'
 hint: Updates were rejected because the pre-push hook exited with error code 1.
 ```
 
-Post-hooks (`post-commit``post-receive`Etc.) are informational. If a post-hook fails, Git prints A
+Post-hooks (`post-commit`, `post-receive`. Etc.) are informational. If a post-hook fails, Git prints A
 warning but does **not** abort the operation, the commit or push has already succeeded.
 
 ## Client-Side Hooks
 
 ### Full Reference Table
+
+<div class="table-wrap">
 
 | Hook                 | Arguments                                                                                        | stdin                                                                                | Fail Aborts? | Typical Use                                |
 | -------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------ | ------------------------------------------ |
@@ -119,6 +125,8 @@ warning but does **not** abort the operation, the commit or push has already suc
 | `post-merge`         | `$1`=flag (1=squash merge)                                                                       | None                                                                                 | No           | Submodule update, dependency install       |
 | `pre-push`           | None                                                                                             | Lines: `&lt;local ref&gt; &lt;local sha1&gt; &lt;remote ref&gt; &lt;remote sha1&gt;` | Yes          | Test suite, prevent force-push to main     |
 | `pre-auto-gc`        | None                                                                                             | None                                                                                 | Yes          | Prevent automatic garbage collection       |
+
+</div>
 
 ### pre-commit
 
@@ -247,7 +255,7 @@ curl -s -X POST "https://ci.example.com/hooks/git" \
 
 The `pre-rebase` hook runs before `git rebase` begins. It receives two arguments: the upstream
 Branch and the branch being rebased. You can use it to prevent rebasing branches that should never
-Be rebased:
+be rebased:
 
 ```bash
 #!/usr/bin/env bash
@@ -264,7 +272,7 @@ fi
 
 ### post-checkout
 
-This hook fires after `git checkout``git switch`Or `git clone`. It receives the previous HEAD, The
+This hook fires after `git checkout`, `git switch` or `git clone`. It receives the previous HEAD, The
 new HEAD, and a flag indicating whether it was a branch checkout (1) or a file checkout (0):
 
 ```bash
@@ -347,7 +355,7 @@ fi
 
 Server-side hooks live in the bare repository on the remote. They execute within the
 `git-receive-pack` process on the server. A client cannot bypass them because the server controls
-The filesystem.
+the filesystem.
 
 ### pre-receive
 
@@ -398,7 +406,7 @@ exit 0
 ### update
 
 The `update` hook runs **once per ref** being updated. It receives three arguments: the ref name,
-The old SHA, and the new SHA. Unlike `pre-receive`This hook can reject individual refs without
+The old SHA, and the new SHA. Unlike `pre-receive`. This hook can reject individual refs without
 Rejecting the entire push:
 
 ```bash
@@ -459,7 +467,7 @@ echo "Running pre-commit checks..."
 exit 0
 ```
 
-The shebang line matters. If you write `#!/bin/bash`The hook will fail on systems where bash is Not
+The shebang line matters. If you write `#!/bin/bash`. The hook will fail on systems where bash is Not
 at `/bin/bash` (Alpine Linux, for example). Use `#!/usr/bin/env bash` for portability.
 
 ### Python Scripts
@@ -534,6 +542,8 @@ chmod +x .githooks/pre-commit
 Git sets several environment variables before invoking a hook. These provide context about the
 Repository and the operation in progress:
 
+<div class="table-wrap">
+
 | Variable              | Available In    | Description                                 |
 | --------------------- | --------------- | ------------------------------------------- |
 | `GIT_DIR`             | All hooks       | Path to the `.git` directory                |
@@ -547,8 +557,10 @@ Repository and the operation in progress:
 | `GIT_PREFIX`          | `post-checkout` | The path to the worktree root (for subdirs) |
 | `GIT_REFLOG_ACTION`   | All hooks       | The operation being performed               |
 
+</div>
+
 **Important**: the `PATH` environment variable in hooks is often minimal. If your hook invokes tools
-Like `eslint``shellcheck`Or custom binaries, they may not be found. Either use absolute paths or
+Like `eslint`, `shellcheck` or custom binaries, they may not be found. Either use absolute paths or
 Explicitly set `PATH` at the top of your hook:
 
 ```bash
@@ -563,7 +575,7 @@ export PATH="/usr/local/bin:$HOME/.local/bin:$HOME/.nvm/versions/node/$(ls $HOME
 Hooks in `.git/hooks/` are not tracked by Git. They are local to each clone. This means every
 Developer on a team must manually install and maintain their own hooks. This is unmaintainable at
 Scale. The industry has converged on two solutions: store hooks in the repository and redirect Git
-To them, or use a framework.
+to them, or use a framework.
 
 ### Redirecting with core.hooksPath
 
@@ -631,7 +643,7 @@ pre-commit:
       run: yamllint {staged_files}
 ```
 
-Lefthook"s advantages over Husky:
+Lefthook's advantages over Husky:
 
 - **Language-agnostic**: no npm dependency required for contributors
 - **Parallel execution**: hooks run concurrently when possible
@@ -687,6 +699,8 @@ repos:
 
 The `pre-commit-hooks` repository provides widely-used, battle-tested hooks:
 
+<div class="table-wrap">
+
 | Hook ID                                | What It Does                                     | Fix? |
 | -------------------------------------- | ------------------------------------------------ | ---- |
 | `trailing-whitespace`                  | Removes trailing whitespace from all lines       | Yes  |
@@ -699,6 +713,8 @@ The `pre-commit-hooks` repository provides widely-used, battle-tested hooks:
 | `check-case-conflict`                  | Detects filename case conflicts (Linux vs macOS) | No   |
 | `check-executables-have-shebangs`      | Ensures executable files have shebangs           | No   |
 | `check-shebang-scripts-are-executable` | Ensures files with shebangs are executable       | No   |
+
+</div>
 
 ### Running in CI
 
@@ -761,7 +777,7 @@ repos:
 ```
 
 The `language` field determines how the hook is executed. `system` runs the entry directly on the
-Host. Other options include `python``node``docker`And `docker_image` for sandboxed execution.
+Host. Other options include `python`, `node`, `docker` and `docker_image` for sandboxed execution.
 
 ## Hook Debugging
 
@@ -849,7 +865,7 @@ Legitimate uses of `--no-verify`:
 
 Files in `.git/hooks/` are ignored by Git. If you want version-controlled hooks, you must use
 `core.hooksPath` to point to a tracked directory. Forgetting this and wondering why teammates don't
-Have your hooks is the single most common hook-related mistake.
+have your hooks is the single most common hook-related mistake.
 
 ### Non-Executable Hook Files
 
@@ -866,19 +882,19 @@ $ chmod +x .githooks/pre-commit
 
 ### PATH Differences in Hooks
 
-Hooks run with a minimal `PATH`. Tools installed in `~/.local/bin``~/go/bin`Or via `nvm` may not Be
+Hooks run with a minimal `PATH`. Tools installed in `~/.local/bin`, `~/go/bin` or via `nvm` may not Be
 found. Always explicitly set `PATH` or use absolute paths to tools in your hook scripts.
 
 ### pre-commit Sees Staged Content, Not Working Tree
 
 If you edit a file after staging it, the hook inspects the **staged** version. This causes confusion
-When developers run `git add file.py`Then fix a lint error, then commit, the hook still sees the
+when developers run `git add file.py`. Then fix a lint error, then commit, the hook still sees the
 Old staged content. Run `git add` again after fixing.
 
 ### Hooks Do Not Apply to Amended Commits by Default
 
 `git commit --amend` does trigger `pre-commit` and `commit-msg` hooks, but the `prepare-commit-msg`
-Hook receives `COMMIT_SOURCE=commit`Which is the same as a new commit. If your hook tries to Inject
+Hook receives `COMMIT_SOURCE=commit`. Which is the same as a new commit. If your hook tries to Inject
 a ticket number based on the branch, it may double-inject on amend. Check for the amend case:
 
 ```bash
@@ -899,7 +915,7 @@ Want to reject some refs but accept others, use the `update` hook instead, which
 
 The `pre-commit` framework creates isolated virtual environments for each hook repository. This
 Means hooks run with their own dependencies, not your project's dependencies. If a hook needs access
-To your project's Python environment, use `language: system` and manage dependencies yourself.
+to your project's Python environment, use `language: system` and manage dependencies yourself.
 
 ### Hook Performance and Large Monorepos
 
@@ -908,7 +924,7 @@ Hooks that scan every staged file can be slow in large repositories. Mitigate th
 1. Using glob patterns to limit which files each hook processes
 2. Running hooks in parallel (Lefthook does this automatically)
 3. Caching results (the `pre-commit` framework caches hook results and skips unchanged files)
-4. Only running expensive checks (full test suites) on `pre-push`Not `pre-commit`
+4. Only running expensive checks (full test suites) on `pre-push`. Not `pre-commit`
 
 ### Windows Line Endings in Hooks
 
@@ -921,17 +937,6 @@ git config core.autocrlf input
 ```
 
 Or configure your text editor to save files in `.githooks/` with LF line endings.
-
-
-```mermaid
-flowchart TD
-    A[07 Hooks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -946,13 +951,7 @@ implementation, and key applications.
 - rebasing and cherry-picking
 - Git workflows (GitFlow, trunk-based)
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

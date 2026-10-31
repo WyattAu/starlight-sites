@@ -50,7 +50,9 @@ This practice test covers 30 problems across four major domains of university ma
 
 Evaluate the double integral:
 
-$$\iint_D e^{x^2} \, dA$$
+$$
+\iint_D e^{x^2} \, dA
+$$
 
 where $D$ is the region bounded by $y = 0$, $y = x$, and $x = 1$.
 
@@ -58,11 +60,15 @@ where $D$ is the region bounded by $y = 0$, $y = x$, and $x = 1$.
 
 The region $D$ is described by $0 \leq x \leq 1$ and $0 \leq y \leq x$. Since $e^{x^2}$ has no elementary antiderivative with respect to $x$, we must integrate with respect to $y$ first:
 
-$$\int_0^1 \int_0^x e^{x^2} \, dy \, dx = \int_0^1 x \, e^{x^2} \, dx$$
+$$
+\int_0^1 \int_0^x e^{x^2} \, dy \, dx = \int_0^1 x \, e^{x^2} \, dx
+$$
 
 Substituting $u = x^2$, $du = 2x \, dx$:
 
-$$= \frac{1}{2} \int_0^1 e^u \, du = \frac{1}{2}(e - 1)$$
+$$
+= \frac{1}{2} \int_0^1 e^u \, du = \frac{1}{2}(e - 1)
+$$
 
 `medium`1 mark
 
@@ -76,19 +82,27 @@ Find the directional derivative of $f(x,y,z) = x^2 y + yz^3$ at the point $(1,2,
 
 The gradient is:
 
-$$\nabla f = (2xy, \, x^2 + z^3, \, 3yz^2)$$
+$$
+\nabla f = (2xy, \, x^2 + z^3, \, 3yz^2)
+$$
 
 At $(1,2,-1)$:
 
-$$\nabla f(1,2,-1) = (4, \, 1 - 1, \, 3 \cdot 2 \cdot 1) = (4, 0, 6)$$
+$$
+\nabla f(1,2,-1) = (4, \, 1 - 1, \, 3 \cdot 2 \cdot 1) = (4, 0, 6)
+$$
 
 The unit vector in the direction of $\mathbf{v}$ is:
 
-$$\hat{\mathbf{v}} = \frac{1}{3}(2, -1, 2)$$
+$$
+\hat{\mathbf{v}} = \frac{1}{3}(2, -1, 2)
+$$
 
 The directional derivative is:
 
-$$D_{\hat{\mathbf{v}}} f = \nabla f \cdot \hat{\mathbf{v}} = \frac{1}{3}(8 + 0 + 12) = \frac{20}{3}$$
+$$
+D_{\hat{\mathbf{v}}} f = \nabla f \cdot \hat{\mathbf{v}} = \frac{1}{3}(8 + 0 + 12) = \frac{20}{3}
+$$
 
 `medium`1 mark
 
@@ -104,9 +118,13 @@ $\mathbf{r}'(t) = (-\sin t, \cos t, 1)$.
 
 $\mathbf{F}(\mathbf{r}(t)) = (\sin t, \cos t, t)$.
 
-$$\mathbf{F} \cdot \mathbf{r}' = -\sin^2 t + \cos^2 t + t = \cos 2t + t$$
+$$
+\mathbf{F} \cdot \mathbf{r}' = -\sin^2 t + \cos^2 t + t = \cos 2t + t
+$$
 
-$$\int_0^{2\pi} (\cos 2t + t) \, dt = \left[\frac{\sin 2t}{2} + \frac{t^2}{2}\right]_0^{2\pi} = 2\pi^2$$
+$$
+\int_0^{2\pi} (\cos 2t + t) \, dt = \left[\frac{\sin 2t}{2} + \frac{t^2}{2}\right]_0^{2\pi} = 2\pi^2
+$$
 
 `medium`1 mark
 
@@ -120,19 +138,27 @@ Find the flux of $\mathbf{F} = (x, y, z)$ across the portion of the sphere $x^2 
 
 Using the Divergence Theorem on the closed region bounded by the spherical cap and the disk $x^2 + y^2 \leq 3$ at $z = 1$:
 
-$$\iiint_V (\nabla \cdot \mathbf{F}) \, dV = \iiint_V 3 \, dV = 3 \, \text{Vol}(V)$$
+$$
+\iiint_V (\nabla \cdot \mathbf{F}) \, dV = \iiint_V 3 \, dV = 3 \, \text{Vol}(V)
+$$
 
 The volume of the spherical cap of height $h = 1$ from a sphere of radius $R = 2$:
 
-$$V_{\text{cap}} = \frac{\pi h^2}{3}(3R - h) = \frac{\pi}{3}(6 - 1) = \frac{5\pi}{3}$$
+$$
+V_{\text{cap}} = \frac{\pi h^2}{3}(3R - h) = \frac{\pi}{3}(6 - 1) = \frac{5\pi}{3}
+$$
 
 The flux through the disk (normal $-\mathbf{k}$, $z = 1$):
 
-$$\iint_{\text{disk}} \mathbf{F} \cdot (-\mathbf{k}) \, dA = -\iint_{\text{disk}} 1 \, dA = -3\pi$$
+$$
+\iint_{\text{disk}} \mathbf{F} \cdot (-\mathbf{k}) \, dA = -\iint_{\text{disk}} 1 \, dA = -3\pi
+$$
 
 Therefore the flux through the spherical cap:
 
-$$\Phi_{\text{cap}} = 3 \cdot \frac{5\pi}{3} - (-3\pi) = 5\pi + 3\pi = 8\pi$$
+$$
+\Phi_{\text{cap}} = 3 \cdot \frac{5\pi}{3} - (-3\pi) = 5\pi + 3\pi = 8\pi
+$$
 
 `hard`1 mark
 
@@ -146,11 +172,15 @@ Use Green's Theorem to evaluate $\oint_C (xy \, dx + x^2 \, dy)$ where $C$ is th
 
 By Green's Theorem with $P = xy$, $Q = x^2$:
 
-$$\oint_C P \, dx + Q \, dy = \iint_D \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right) dA = \iint_D (2x - x) \, dA = \iint_D x \, dA$$
+$$
+\oint_C P \, dx + Q \, dy = \iint_D \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right) dA = \iint_D (2x - x) \, dA = \iint_D x \, dA
+$$
 
 The region is bounded by $y = x^2$ (below) and $y = x$ (above), with $0 \leq x \leq 1$:
 
-$$\int_0^1 \int_{x^2}^x x \, dy \, dx = \int_0^1 x(x - x^2) \, dx = \int_0^1 (x^2 - x^3) \, dx = \frac{1}{3} - \frac{1}{4} = \frac{1}{12}$$
+$$
+\int_0^1 \int_{x^2}^x x \, dy \, dx = \int_0^1 x(x - x^2) \, dx = \int_0^1 (x^2 - x^3) \, dx = \frac{1}{3} - \frac{1}{4} = \frac{1}{12}
+$$
 
 `medium`1 mark
 
@@ -164,15 +194,21 @@ Verify Stokes' Theorem for $\mathbf{F} = (z, x, y)$ on the hemisphere $z = \sqrt
 
 On $C$: $\mathbf{r}(t) = (\cos t, \sin t, 0)$, $\mathbf{r}'(t) = (-\sin t, \cos t, 0)$.
 
-$$\oint_C \mathbf{F} \cdot d\mathbf{r} = \int_0^{2\pi} (0 \cdot (-\sin t) + \cos t \cdot \cos t + \sin t \cdot 0) \, dt = \int_0^{2\pi} \cos^2 t \, dt = \pi$$
+$$
+\oint_C \mathbf{F} \cdot d\mathbf{r} = \int_0^{2\pi} (0 \cdot (-\sin t) + \cos t \cdot \cos t + \sin t \cdot 0) \, dt = \int_0^{2\pi} \cos^2 t \, dt = \pi
+$$
 
 For the surface integral, $\nabla \times \mathbf{F} = (1, 1, 1)$. On the hemisphere with outward normal:
 
-$$\iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} = \iint_S \frac{x + y + z}{\sqrt{1-x^2-y^2}} \cdot \frac{1}{\sqrt{1-x^2-y^2}} \, dA$$
+$$
+\iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} = \iint_S \frac{x + y + z}{\sqrt{1-x^2-y^2}} \cdot \frac{1}{\sqrt{1-x^2-y^2}} \, dA
+$$
 
 By symmetry, $\iint x \, dA = \iint y \, dA = 0$, leaving:
 
-$$\iint_D \frac{z}{z^2} \cdot z^2 \, dA = \iint_D 1 \, dA = \pi$$
+$$
+\iint_D \frac{z}{z^2} \cdot z^2 \, dA = \iint_D 1 \, dA = \pi
+$$
 
 Both integrals equal $\pi$, confirming Stokes' Theorem.
 
@@ -192,7 +228,9 @@ First partials: $f_x = e^x \cos y$, $f_y = -e^x \sin y$. At $(0,0)$: $f_x = 1$, 
 
 Second partials: $f_{xx} = e^x \cos y$, $f_{xy} = -e^x \sin y$, $f_{yy} = -e^x \cos y$. At $(0,0)$: $f_{xx} = 1$, $f_{xy} = 0$, $f_{yy} = -1$.
 
-$$T_2(x,y) = 1 + x + \frac{1}{2}(x^2 - y^2) + \cdots$$
+$$
+T_2(x,y) = 1 + x + \frac{1}{2}(x^2 - y^2) + \cdots
+$$
 
 `easy`1 mark
 
@@ -210,7 +248,9 @@ $\nabla f = \lambda \nabla g$ gives $1 = 2\lambda x$, $2 = 2\lambda y$, $3 = 2\l
 
 Substituting into the constraint:
 
-$$\frac{1 + 4 + 9}{4\lambda^2} = 1 \implies \lambda = \pm\frac{\sqrt{14}}{2}$$
+$$
+\frac{1 + 4 + 9}{4\lambda^2} = 1 \implies \lambda = \pm\frac{\sqrt{14}}{2}
+$$
 
 Maximum: $f = \frac{1}{2\lambda}(1 + 4 + 9) = \frac{14}{2\lambda} = \sqrt{14}$ at $(x,y,z) = \frac{1}{\sqrt{14}}(1,2,3)$.
 
@@ -226,13 +266,17 @@ Minimum: $f = -\sqrt{14}$ at $(x,y,z) = -\frac{1}{\sqrt{14}}(1,2,3)$.
 
 Find the eigenvalues and eigenvectors of the matrix:
 
-$$A = \begin{pmatrix} 3 & 1 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 5 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 3 & 1 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 5 \end{pmatrix}
+$$
 
 **Solution:**
 
 The characteristic polynomial is:
 
-$$\det(A - \lambda I) = (3-\lambda)(2-\lambda)(5-\lambda) = 0$$
+$$
+\det(A - \lambda I) = (3-\lambda)(2-\lambda)(5-\lambda) = 0
+$$
 
 Eigenvalues: $\lambda_1 = 2$, $\lambda_2 = 3$, $\lambda_3 = 5$.
 
@@ -276,7 +320,9 @@ $\langle x^2, 1 \rangle = \frac{1}{3}$, $\langle x^2, x - 1/2 \rangle = \int_0^1
 
 $\langle x - 1/2, x - 1/2 \rangle = \int_0^1 (x - 1/2)^2 \, dx = \frac{1}{12}$.
 
-$$e_3 = x^2 - \frac{1/3}{1} \cdot 1 - \frac{1/12}{1/12}\left(x - \frac{1}{2}\right) = x^2 - x + \frac{1}{6}$$
+$$
+e_3 = x^2 - \frac{1/3}{1} \cdot 1 - \frac{1/12}{1/12}\left(x - \frac{1}{2}\right) = x^2 - x + \frac{1}{6}
+$$
 
 The orthogonal basis is $\left\{1, \, x - \frac{1}{2}, \, x^2 - x + \frac{1}{6}\right\}$.
 
@@ -292,11 +338,15 @@ Let $T: \mathbb{R}^3 \to \mathbb{R}^3$ be defined by $T(x,y,z) = (x + y, y + z, 
 
 The matrix of $T$ relative to the standard basis is:
 
-$$A = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 1 & 0 & 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 1 & 0 & 1 \end{pmatrix}
+$$
 
 Row reducing:
 
-$$\begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 0 & -1 & 1 \end{pmatrix} \to \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 0 & 0 & 2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 0 & -1 & 1 \end{pmatrix} \to \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 0 & 0 & 2 \end{pmatrix}
+$$
 
 The rank is 3 and the nullity is 0 (since $\det(A) = 2 \neq 0$). $T$ is invertible.
 
@@ -312,7 +362,9 @@ Classify the quadratic form $Q(x,y,z) = x^2 + 4y^2 + z^2 + 2xy - 2xz$.
 
 The associated symmetric matrix is:
 
-$$A = \begin{pmatrix} 1 & 1 & -1 \\ 1 & 4 & 0 \\ -1 & 0 & 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 1 & -1 \\ 1 & 4 & 0 \\ -1 & 0 & 1 \end{pmatrix}
+$$
 
 Leading principal minors: $\Delta_1 = 1 > 0$, $\Delta_2 = 4 - 1 = 3 > 0$, $\Delta_3 = \det(A) = 1(4) - 1(1) + (-1)(4) = 4 - 1 - 4 = -1 < 0$.
 
@@ -338,7 +390,9 @@ Let $W = \{A \in M_{2 \times 2} : A^T = A\}$.
 
 A general symmetric $2 \times 2$ matrix has the form $\begin{pmatrix} a & b \\ b & d \end{pmatrix}$, parameterised by $(a, b, d)$. The basis is:
 
-$$\left\{\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}\right\}$$
+$$
+\left\{\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}\right\}
+$$
 
 The dimension is 3.
 
@@ -378,11 +432,17 @@ We write $A = 2I + N$ where $N = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0
 
 Using the binomial theorem (valid since $2I$ and $N$ commute):
 
-$$A^{10} = \sum_{k=0}^{2} \binom{10}{k} 2^{10-k} N^k = 2^{10}I + 10 \cdot 2^9 N + 45 \cdot 2^8 N^2$$
+$$
+A^{10} = \sum_{k=0}^{2} \binom{10}{k} 2^{10-k} N^k = 2^{10}I + 10 \cdot 2^9 N + 45 \cdot 2^8 N^2
+$$
 
-$$= \begin{pmatrix} 1024 & 0 & 0 \\ 0 & 1024 & 0 \\ 0 & 0 & 1024 \end{pmatrix} + \begin{pmatrix} 0 & 5120 & 0 \\ 0 & 0 & 5120 \\ 0 & 0 & 0 \end{pmatrix} + \begin{pmatrix} 0 & 0 & 11520 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$$
+$$
+= \begin{pmatrix} 1024 & 0 & 0 \\ 0 & 1024 & 0 \\ 0 & 0 & 1024 \end{pmatrix} + \begin{pmatrix} 0 & 5120 & 0 \\ 0 & 0 & 5120 \\ 0 & 0 & 0 \end{pmatrix} + \begin{pmatrix} 0 & 0 & 11520 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}
+$$
 
-$$A^{10} = \begin{pmatrix} 1024 & 5120 & 11520 \\ 0 & 1024 & 5120 \\ 0 & 0 & 1024 \end{pmatrix}$$
+$$
+A^{10} = \begin{pmatrix} 1024 & 5120 & 11520 \\ 0 & 1024 & 5120 \\ 0 & 0 & 1024 \end{pmatrix}
+$$
 
 `hard`1 mark
 
@@ -402,7 +462,9 @@ Let $|G| = 4$. By Lagrange's theorem, every non-identity element has order 2 or 
 
 **Case 2:** Every non-identity element has order 2. Then $g^2 = e$ for all $g \in G$, so $g = g^{-1}$. For any $a, b \in G$:
 
-$$ab = (ab)^{-1} = b^{-1}a^{-1} = ba$$
+$$
+ab = (ab)^{-1} = b^{-1}a^{-1} = ba
+$$
 
 Therefore $G$ is abelian. In fact, $G \cong \mathbb{Z}_2 \times \mathbb{Z}_2$ (the Klein four-group).
 
@@ -456,7 +518,9 @@ Let $\phi: G \to H$ be a group homomorphism. Prove that $\ker(\phi)$ is a normal
 
 2. **Normal:** For any $g \in G$ and $k \in \ker(\phi)$:
 
-$$\phi(gkg^{-1}) = \phi(g)\phi(k)\phi(g)^{-1} = \phi(g) \cdot e_H \cdot \phi(g)^{-1} = e_H$$
+$$
+\phi(gkg^{-1}) = \phi(g)\phi(k)\phi(g)^{-1} = \phi(g) \cdot e_H \cdot \phi(g)^{-1} = e_H
+$$
 
 So $gkg^{-1} \in \ker(\phi)$, proving $\ker(\phi) \trianglelefteq G$.
 
@@ -520,7 +584,9 @@ $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}(\sqrt{2})] = 2$ with basis $\{1, \
 
 By the tower law:
 
-$$[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}] = [\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}(\sqrt{2})] \cdot [\mathbb{Q}(\sqrt{2}) : \mathbb{Q}] = 2 \cdot 2 = 4$$
+$$
+[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}] = [\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}(\sqrt{2})] \cdot [\mathbb{Q}(\sqrt{2}) : \mathbb{Q}] = 2 \cdot 2 = 4
+$$
 
 A basis is $\{1, \sqrt{2}, \sqrt{3}, \sqrt{6}\}$.
 
@@ -559,7 +625,9 @@ Prove that the sequence $a_n = \frac{n}{n+1}$ converges, and find its limit.
 
 **Proof:** For any $\epsilon > 0$, choose $N > \frac{1}{\epsilon}$. For all $n > N$:
 
-$$|a_n - 1| = \left|\frac{n}{n+1} - 1\right| = \frac{1}{n+1} < \frac{1}{n} < \frac{1}{N} < \epsilon$$
+$$
+|a_n - 1| = \left|\frac{n}{n+1} - 1\right| = \frac{1}{n+1} < \frac{1}{n} < \frac{1}{N} < \epsilon
+$$
 
 Therefore $\lim_{n \to \infty} a_n = 1$.
 
@@ -575,7 +643,9 @@ Determine whether $\sum_{n=1}^{\infty} \frac{n^2}{2^n}$ converges.
 
 Apply the ratio test:
 
-$$\frac{a_{n+1}}{a_n} = \frac{(n+1)^2}{2^{n+1}} \cdot \frac{2^n}{n^2} = \frac{1}{2}\left(\frac{n+1}{n}\right)^2 \to \frac{1}{2} < 1$$
+$$
+\frac{a_{n+1}}{a_n} = \frac{(n+1)^2}{2^{n+1}} \cdot \frac{2^n}{n^2} = \frac{1}{2}\left(\frac{n+1}{n}\right)^2 \to \frac{1}{2} < 1
+$$
 
 Since the limit is less than 1, the series **converges** by the ratio test.
 
@@ -597,7 +667,9 @@ If $|x - 3| < 1$, then $2 < x < 4$, so $|x + 3| < 7$.
 
 Choose $\delta = \min\left(1, \frac{\epsilon}{7}\right)$. Then:
 
-$$|x^2 - 9| = |x - 3| \cdot |x + 3| < \delta \cdot 7 \leq \epsilon$$
+$$
+|x^2 - 9| = |x - 3| \cdot |x + 3| < \delta \cdot 7 \leq \epsilon
+$$
 
 `medium`1 mark
 
@@ -611,13 +683,17 @@ Show that $f_n(x) = \frac{x}{n}$ converges pointwise but not uniformly on $\math
 
 **Pointwise convergence:** For each fixed $x \in \mathbb{R}$:
 
-$$\lim_{n \to \infty} f_n(x) = \lim_{n \to \infty} \frac{x}{n} = 0$$
+$$
+\lim_{n \to \infty} f_n(x) = \lim_{n \to \infty} \frac{x}{n} = 0
+$$
 
 So $f_n \to f$ where $f(x) = 0$.
 
 **Not uniform:** For uniform convergence, we need $\sup_{x \in \mathbb{R}} |f_n(x) - f(x)| \to 0$. But:
 
-$$\sup_{x \in \mathbb{R}} \frac{|x|}{n} = \infty$$
+$$
+\sup_{x \in \mathbb{R}} \frac{|x|}{n} = \infty
+$$
 
 for every $n$, so the convergence is not uniform on $\mathbb{R}$.
 
@@ -635,7 +711,9 @@ State and prove the Mean Value Theorem.
 
 **Theorem:** If $f$ is continuous on $[a,b]$ and differentiable on $(a,b)$, then there exists $c \in (a,b)$ such that:
 
-$$f'(c) = \frac{f(b) - f(a)}{b - a}$$
+$$
+f'(c) = \frac{f(b) - f(a)}{b - a}
+$$
 
 **Proof:** Define $g(x) = f(x) - f(a) - \frac{f(b)-f(a)}{b-a}(x-a)$. Then $g(a) = g(b) = 0$.
 
@@ -655,7 +733,9 @@ Prove that if $f$ is Riemann integrable on $[a,b]$ and $f(x) \geq 0$ for all $x$
 
 For any partition $P = \{x_0, x_1, \ldots, x_n\}$ of $[a,b]$, the lower Darboux sum is:
 
-$$L(f, P) = \sum_{i=1}^n m_i \Delta x_i$$
+$$
+L(f, P) = \sum_{i=1}^n m_i \Delta x_i
+$$
 
 where $m_i = \inf_{x \in [x_{i-1}, x_i]} f(x)$. Since $f(x) \geq 0$ everywhere, $m_i \geq 0$ for all $i$, and $\Delta x_i > 0$, so $L(f, P) \geq 0$.
 

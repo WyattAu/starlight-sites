@@ -29,6 +29,8 @@ When both hold, DP reduces an exponential-time recursive solution to polynomial 
 
 ### Top-Down (Memoisation) vs Bottom-Up (Tabulation)
 
+<div class="table-wrap">
+
 | Aspect        | Top-Down (Memoisation)           | Bottom-Up (Tabulation)                      |
 | ------------- | -------------------------------- | ------------------------------------------- |
 | Approach      | Recursive with caching           | Iterative, fill table from base cases       |
@@ -38,13 +40,17 @@ When both hold, DP reduces an exponential-time recursive solution to polynomial 
 | Debugging     | Easier to reason about           | Harder to see the recurrence                |
 | Performance   | Slight overhead from recursion   | Slightly faster (no function call overhead) |
 
+</div>
+
 ## 1D DP
 
 ### Climbing Stairs
 
 How many distinct ways to climb $n$ stairs, taking 1 or 2 steps at a time?
 
-$$dp[i] = dp[i-1] + dp[i-2]$$
+$$
+dp[i] = dp[i-1] + dp[i-2]
+$$
 
 ```python
 def climb_stairs(n):
@@ -77,9 +83,11 @@ def climb_stairs_memo(n, memo=None):
 ### House Robber
 
 Given an array of non-negative integers representing money at each house, maximise the amount you
-Can rob without robbing two adjacent houses.
+can rob without robbing two adjacent houses.
 
-$$dp[i] = \max(dp[i-1], dp[i-2] + nums[i])$$
+$$
+dp[i] = \max(dp[i-1], dp[i-2] + nums[i])
+$$
 
 ```python
 def house_robber(nums):
@@ -105,9 +113,11 @@ def house_robber(nums):
 ### Coin Change
 
 Given coins of different denominations and a target amount, find the minimum number of coins needed
-To make that amount. Return -1 if it is not possible.
+to make that amount. Return -1 if it is not possible.
 
-$$dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin$$
+$$
+dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin
+$$
 
 ```python
 def coin_change(coins, amount):
@@ -145,7 +155,7 @@ def coin_change_combinations(coins, amount):
 :::caution
 And coins second, you count permutations (different orderings of the same coins are counted
 Separately). If you iterate coins first and amount second, you count combinations (each combination
-Is counted once). This is a common source of incorrect DP solutions.
+is counted once). This is a common source of incorrect DP solutions.
 
 ## 2D DP
 
@@ -241,6 +251,8 @@ def edit_distance(s1, s2):
     return dp[n][m]
 ```
 
+<div class="table-wrap">
+
 | Operation                    | Cost               | Intuition                |
 | ---------------------------- | ------------------ | ------------------------ |
 | Delete `s1[i]`               | $dp[i-1][j] + 1$   | Remove character from s1 |
@@ -248,12 +260,16 @@ def edit_distance(s1, s2):
 | Replace `s1[i]` with `s2[j]` | $dp[i-1][j-1] + 1$ | Change one character     |
 | Match `s1[i] == s2[j]`       | $dp[i-1][j-1]$     | No operation needed      |
 
+</div>
+
 ### Knapsack Problem
 
-Given items with weights and values, and a knapsack with capacity $W$Maximise the total value
-Without exceeding the capacity.
+Given items with weights and values, and a knapsack with capacity $W$ Maximise the total value
+without exceeding the capacity.
 
-$$dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w$$
+$$
+dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w
+$$
 
 ```python
 def knapsack_01(weights, values, capacity):
@@ -440,7 +456,9 @@ Given a chain of matrices with dimensions $d_0 \times d_1$, $d_1 \times d_2$...,
 $d_{n-1} \times
 D_n$, find the minimum number of scalar multiplications to compute the product.
 
-$$dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + d_i \cdot d_{k+1} \cdot d_{j+1})$$
+$$
+dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + d_i \cdot d_{k+1} \cdot d_{j+1})
+$$
 
 ```python
 def matrix_chain_order(dims):
@@ -466,7 +484,7 @@ def matrix_chain_order(dims):
 ### Burst Balloons
 
 Given `nums` where `nums[i]` is the value of the $i$-th balloon, burst all balloons to maximise
-Coins. When you burst balloon $i$You get `nums[left] * nums[i] * nums[right]` coins, where `left`
+Coins. When you burst balloon $i$ You get `nums[left] * nums[i] * nums[right]` coins, where `left`
 And `right` are the nearest unburst balloons.
 
 ```python
@@ -501,7 +519,9 @@ Number of elements is small ( $n \le 20$), giving $2^n$ states.
 
 Find the minimum cost to visit all cities exactly once and return to the start.
 
-$$dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \\{i\\}][j] + dist[j][i])$$
+$$
+dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \\{i\\}][j] + dist[j][i])
+$$
 
 ```python
 def tsp(dist):
@@ -628,6 +648,8 @@ Solution. DP considers all possibilities and chooses the globally optimal one.
 Greedy works when the problem has the **greedy-choice property**, a locally optimal choice leads to
 A globally optimal solution. This holds for matroid structures.
 
+<div class="table-wrap">
+
 | Problem                    | Greedy?            | DP?                | Greedy Complexity |
 | -------------------------- | ------------------ | ------------------ | ----------------- |
 | Activity selection         | Yes                | Yes                | $O(n \log n)$     |
@@ -637,6 +659,8 @@ A globally optimal solution. This holds for matroid structures.
 | 0/1 knapsack               | **No**             | Yes                |,                 |
 | Longest common subsequence | **No**             | Yes                |,                 |
 | Edit distance              | **No**             | Yes                |,                 |
+
+</div>
 
 ### Activity Selection (Greedy Works)
 
@@ -737,17 +761,17 @@ The hardest part of DP is defining the state. A good state should be:
 - **Minimal**, the state does not contain redundant information
 
 Common mistake: trying to use too many state variables. Start with a recursive solution, identify
-What parameters change in recursive calls, and those are your state variables.
+what parameters change in recursive calls, and those are your state variables.
 
 ### 2. Wrong Base Case
 
 DP base cases are analogous to loop initialisation. Getting them wrong produces wrong answers for
 Small inputs that cascade into wrong answers for large inputs. Always test with the smallest
-Non-trivial input (e.g., $n = 1$Empty string, single element).
+non-trivial input (e.g., $n = 1$ Empty string, single element).
 
 ### 3. Wrong Fill Order in Bottom-Up DP
 
-Bottom-up DP must fill the table in an order such that when computing $dp[state]$All states that
+Bottom-up DP must fill the table in an order such that when computing $dp[state]$ All states that
 $dp[state]$ depends on have already been computed. For interval DP, shorter intervals before longer.
 For 0/1 knapsack with space optimisation, iterate $w$ in reverse. Getting the fill order wrong
 Produces undefined behaviour (using uninitialised values).
@@ -755,7 +779,7 @@ Produces undefined behaviour (using uninitialised values).
 ### 4. Integer Overflow in DP
 
 DP values can grow exponentially (e.g., Fibonacci, counting paths in a grid). For $n = 100$
-$F_{100} \approx 3.5 \times 10^{20}$Which exceeds 64-bit range. Use arbitrary-precision integers
+$F_{100} \approx 3.5 \times 10^{20}$ Which exceeds 64-bit range. Use arbitrary-precision integers
 (Python's `int` is always arbitrary precision) or modular arithmetic when appropriate.
 
 ### 5. Confusing Subsequence with Subarray
@@ -781,7 +805,7 @@ Still stack overflow for large $n$. Use bottom-up DP for problems with deep recu
 ### 8. Using the Wrong Subproblem Decomposition
 
 Many DP problems have multiple valid decompositions, but some lead to efficient solutions and others
-Do not. For the longest increasing subsequence, the $O(n^2)$ DP ($dp[i]$ = length of LIS ending at
+do not. For the longest increasing subsequence, the $O(n^2)$ DP ($dp[i]$ = length of LIS ending at
 $i$) works but the $O(n \log n)$ solution using patience sorting requires a different approach
 Entirely. Always consider whether a more efficient state representation exists.
 
@@ -790,7 +814,7 @@ Entirely. Always consider whether a more efficient state representation exists.
 ### Digit DP
 
 Digit DP solves counting problems on ranges by processing numbers digit by digit. It is applicable
-When the problem involves counting numbers in a range that satisfy a property based on their digits.
+when the problem involves counting numbers in a range that satisfy a property based on their digits.
 
 ```python
 def count_numbers_without_digit(n, forbidden):
@@ -874,7 +898,7 @@ def house_robber_tree(root):
 ### DP with Bitmask (Revisited)
 
 For problems where the state involves a subset of elements, bitmask DP provides a compact
-Representation. The state space is $O(2^n)$Limiting applicability to $n \le 20$.
+Representation. The state space is $O(2^n)$ Limiting applicability to $n \le 20$.
 
 **Assignment problem:** Assign $n$ workers to $n$ jobs with minimum total cost.
 
@@ -942,16 +966,6 @@ DP is applicable when a problem has these characteristics:
 - Greedy works (the greedy choice property holds)
 - The problem is on a tree/graph with no obvious DP state (may need tree/graph-specific techniques)
 
-```mermaid
-flowchart TD
-    A[Dynamic Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dynamic programming, including underlying theory, practical
@@ -964,9 +978,6 @@ implementation, and key applications.
 - object-oriented programming
 - error handling and debugging
 - modular design
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

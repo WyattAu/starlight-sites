@@ -92,8 +92,8 @@ revision and drill practice.
 
 ## Related Content
 
-- **IB Mathematics:** [IB Mathematics](https://ib.wyattau.com/docs/maths)
-- **A-Level Mathematics:** [A-Level Maths](https://alevel.wyattau.com/docs/maths)
+- **IB Mathematics:** [IB Mathematics](https://ib.wyattau.com/maths/)
+- **A-Level Mathematics:** [A-Level Maths](https://alevel.wyattau.com/maths/)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.
@@ -136,8 +136,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Maths content for the Dse qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -178,4 +176,3 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.

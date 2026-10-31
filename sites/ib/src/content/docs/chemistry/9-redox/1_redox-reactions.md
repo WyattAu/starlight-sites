@@ -48,7 +48,7 @@ description: "1. The oxidation state of an element in its standard state is (e.g
 = +7.
 
 (b) Cr in K$_2$Cr$_2$O$_7$: K = +1 (two K = +2), O = -2 (seven O = -14). Sum = 0:
-$+2 + 2\mathrm{Cr} + 7(-2) = 0$ So $2\mathrm{Cr} = +12$Cr = +6.
+$+2 + 2\mathrm{Cr} + 7(-2) = 0$ So $2\mathrm{Cr} = +12$ Cr = +6.
 
 (c) S in H$_2$SO$_4$: H = +1 (two H = +2), O = -2 (four O = -8). Sum = 0:
 $+2 + \mathrm{S} + 4(-2) = 0$ So S = +6.
@@ -65,10 +65,14 @@ This is a mixed oxidation state compound (Fe$_2$O$_3$ $\cdot$ FeO, with Fe(III) 
 
 ### Oxidation and Reduction
 
+<div class="table-wrap">
+
 | Process       | Oxidation State | Electron Transfer                            |
 | ------------- | --------------- | -------------------------------------------- |
 | **Oxidation** | Increases       | Loss of electrons (OIL -- Oxidation Is Loss) |
 | **Reduction** | Decreases       | Gain of electrons (RIG -- Reduction Is Gain) |
+
+</div>
 
 **Oxidising agent:** The species that causes oxidation (itself gets reduced). Electron acceptor.
 
@@ -203,7 +207,7 @@ $$
 2\mathrm{CrO}_4^{2-} + 6\mathrm{H}_2\mathrm{O} + \mathrm{Br}^- + 6\mathrm{OH}^- + 6e^- \to 2\mathrm{Cr(OH)}_3 + 8\mathrm{OH}^- + \mathrm{BrO}_3^- + 3\mathrm{H}_2\mathrm{O} + 6e^-
 $$
 
-Simplify (cancel 6 $e^-$Subtract common terms):
+Simplify (cancel 6 $e^-$ Subtract common terms):
 
 $$
 2\mathrm{CrO}_4^{2-} + 3\mathrm{H}_2\mathrm{O} + \mathrm{Br}^- \to 2\mathrm{Cr(OH)}_3 + 2\mathrm{OH}^- + \mathrm{BrO}_3^-
@@ -309,7 +313,7 @@ $$
 $$
 
 The **single vertical line** represents a phase boundary. The **double vertical line** represents
-The salt bridge. The anode is written on the left (oxidation), and the cathode on the right
+the salt bridge. The anode is written on the left (oxidation), and the cathode on the right
 (reduction).
 
 **Example:** Zn-Cu Daniel cell:
@@ -362,6 +366,8 @@ Gas at $100\mathrm{ kPa}$.
 
 All electrode potentials are tabulated as **reduction potentials**:
 
+<div class="table-wrap">
+
 | Half-Reaction                                                                                           | $E^\circ$ (V) |
 | ------------------------------------------------------------------------------------------------------- | ------------- |
 | $\mathrm{Li}^+ + e^- \rightleftharpoons \mathrm{Li}$                                                    | -3.04         |
@@ -379,10 +385,12 @@ All electrode potentials are tabulated as **reduction potentials**:
 | $\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 5e^- \rightleftharpoons \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O}$ | +1.51         |
 | $\mathrm{F}_2 + 2e^- \rightleftharpoons 2\mathrm{F}^-$                                                  | +2.87         |
 
+</div>
+
 ### Calculating Cell EMF
 
 The standard cell potential ($E^\circ_{\mathrm{cell}}$) is the difference between the cathode and
-Anode reduction potentials:
+anode reduction potentials:
 
 $$
 E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}}
@@ -416,7 +424,7 @@ $$
 E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}} = 0.34 - (-0.76) = +1.10\mathrm{ V}
 $$
 
-Since $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
+Since $E^\circ_{\mathrm{cell}} \gt 0$ The reaction is spontaneous.
 
 Cell notation:
 $\mathrm{Zn}(s) \mid \mathrm{Zn}^{2+}(aq) \parallel \mathrm{Cu}^{2+}(aq) \mid \mathrm{Cu}(s)$
@@ -440,11 +448,13 @@ $$
 E^\circ_{\mathrm{cell}} = 0.77 - 0.54 = +0.23\mathrm{ V}
 $$
 
-Since $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
+Since $E^\circ_{\mathrm{cell}} \gt 0$ The reaction is spontaneous.
 
 </details>
 
 ### Electrochemical Series vs Reactivity Series
+
+<div class="table-wrap">
 
 | Electrochemical Series                             | Reactivity Series                                 |
 | -------------------------------------------------- | ------------------------------------------------- |
@@ -452,6 +462,8 @@ Since $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
 | Measures tendency to be reduced                    | Measures tendency to lose electrons (be oxidised) |
 | More positive $E^\circ$ = stronger oxidising agent | More reactive metal = stronger reducing agent     |
 | $E^\circ$ for Li$^+$/Li = -3.04 V (least reduced)  | K is the most reactive metal                      |
+
+</div>
 
 The two series are consistent: a more reactive metal has a more negative $E^\circ$ value.
 
@@ -489,9 +501,11 @@ Electrolysis uses electrical energy to drive a non-spontaneous redox reaction.
 ### Electrolysis of Aqueous Solutions
 
 When water is present, both the cation and water compete for reduction at the cathode, and both the
-Anion and water compete for oxidation at the anode.
+anion and water compete for oxidation at the anode.
 
 **Cathode (reduction):**
+
+<div class="table-wrap">
 
 | Cation                                        | Product                                 |
 | --------------------------------------------- | --------------------------------------- |
@@ -499,12 +513,18 @@ Anion and water compete for oxidation at the anode.
 | Zn$^{2+}$Fe$^{2+}$Ni$^{2+}$Sn$^{2+}$Pb$^{2+}$ | Metal (variable, depends on conditions) |
 | Cu$^{2+}$Ag$^+$Au$^{3+}$                      | Metal                                   |
 
+</div>
+
 **Anode (oxidation):**
+
+<div class="table-wrap">
 
 | Anion                          | Product                     |
 | ------------------------------ | --------------------------- |
 | Halides (Cl$^-$Br$^-$I$^-$)    | Halogen (Cl$_2$Br$_2$I$_2$) |
 | SO$_4^{2-}$NO$_3^-$CO$_3^{2-}$ | O$_2$ (from water)          |
+
+</div>
 
 **At the anode (from water):** $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$
 
@@ -512,11 +532,11 @@ Anion and water compete for oxidation at the anode.
 
 :::caution
 Exam Tip The rules above are simplified. In reality, the product at an electrode depends
-On the relative electrode potentials and concentrations (overpotential effects). For IB exams, use
-The rules as stated.
+on the relative electrode potentials and concentrations (overpotential effects). For IB exams, use
+the rules as stated.
 :::
 
-### Faraday"s Laws
+### Faraday's Laws
 
 **Faraday's First Law:** The amount of substance produced at an electrode is directly proportional
 To the quantity of charge passed.
@@ -527,7 +547,7 @@ $$
 
 **Faraday's Second Law:** When the same quantity of charge is passed through different electrolytes,
 The masses of substances produced are proportional to their equivalent masses (molar mass divided by
-Number of electrons transferred).
+number of electrons transferred).
 
 **Where:**
 
@@ -543,7 +563,7 @@ Number of electrons transferred).
 <summary>Worked Example 7: Electrolysis Calculation</summary>
 
 A current of $2.50\mathrm{ A}$ is passed through molten Al$_2$O$_3$ for $30.0$ minutes. Calculate
-The mass of aluminium produced. ($M_r(\mathrm{Al}) = 27.0\mathrm{ g/mol}$)
+the mass of aluminium produced. ($M_r(\mathrm{Al}) = 27.0\mathrm{ g/mol}$)
 
 Cathode half-reaction: $\mathrm{Al}^{3+} + 3e^- \to \mathrm{Al}$ So $n = 3$.
 
@@ -608,7 +628,7 @@ $$
 <summary>Worked Example 9: Faraday's Second Law</summary>
 
 The same charge is passed through two separate electrolytic cells: one containing molten NaCl and
-The other containing molten Al$_2$O$_3$. If $2.30\mathrm{ g}$ of Na is produced in the first cell,
+the other containing molten Al$_2$O$_3$. If $2.30\mathrm{ g}$ of Na is produced in the first cell,
 What mass of Al is produced in the second?
 
 Answer:
@@ -668,6 +688,8 @@ $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm{H}_2\mathrm{O}$.
 
 ### Methods of Corrosion Prevention
 
+<div class="table-wrap">
+
 | Method                                      | Description                                       | How It Works                                                                                                          |
 | ------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | **Coating (painting, oiling)**              | Physical barrier between Fe and O$_2$/H$_2$O      | Prevents contact with the corrosive environment                                                                       |
@@ -677,9 +699,11 @@ $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm{H}_2\mathrm{O}$.
 | **Alloying**                                | Adding Cr and/or Ni to Fe to make stainless steel | Chromium forms a passive oxide layer that protects the surface                                                        |
 | **Electrochemical protection**              | Applying a negative voltage to the iron structure | Makes the iron the cathode, preventing its oxidation                                                                  |
 
+</div>
+
 :::caution
 Exam Tip The key distinction: **galvanising** (Zn coating) provides both barrier and
-Sacrificial protection. **Tin plating** provides only barrier protection and actually accelerates
+sacrificial protection. **Tin plating** provides only barrier protection and actually accelerates
 Rusting if the coating is damaged, because Sn is less reactive than Fe and Fe becomes the anode.
 
 ---
@@ -718,12 +742,16 @@ $\mathrm{O}_2(g) + 2\mathrm{H}_2\mathrm{O}(l) + 4e^- \to 4\mathrm{OH}^-(aq)$
 
 ### Advantages and Disadvantages
 
+<div class="table-wrap">
+
 | Advantages                                        | Disadvantages                                 |
 | ------------------------------------------------- | --------------------------------------------- |
 | High efficiency (~60--80%)                        | H$_2$ is expensive to produce and store       |
 | No greenhouse gas emissions (only H$_2$O)         | H$_2$ infrastructure is limited               |
 | Quiet operation                                   | Fuel cells use expensive catalysts (Pt)       |
 | Continuous operation (refuel instead of recharge) | H$_2$ production often relies on fossil fuels |
+
+</div>
 
 ---
 
@@ -798,13 +826,13 @@ Answer:
 (a) K = +1 (two K = +2). O = -2 (seven O = -14). $+2 + 2\mathrm{Cr} - 14 = 0$$2\mathrm{Cr} = +12$ Cr
 = +6.
 
-(b) H = +1 (two H = +2). $+2 + 2\mathrm{O} = 0$$2\mathrm{O} = -2$O = -1. (Hydrogen peroxide.)
+(b) H = +1 (two H = +2). $+2 + 2\mathrm{O} = 0$$2\mathrm{O} = -2$ O = -1. (Hydrogen peroxide.)
 
 (c) H = +1 (four H = +4). $+4 + \mathrm{N} = +1$ (charge of ion), N = -3.
 
-(d) O = -2 (four O = -8). $\mathrm{Mn} - 8 = -2$Mn = +6.
+(d) O = -2 (four O = -8). $\mathrm{Mn} - 8 = -2$ Mn = +6.
 
-(e) O = -2 (three O = -6). $\mathrm{S} - 6 = -2$S = +4.
+(e) O = -2 (three O = -6). $\mathrm{S} - 6 = -2$ S = +4.
 
 </details>
 
@@ -855,12 +883,16 @@ $$
 
 Given the following standard reduction potentials:
 
+<div class="table-wrap">
+
 | Half-Reaction                                 | $E^\circ$ (V) |
 | --------------------------------------------- | ------------- |
 | $\mathrm{Ag}^+ + e^- \to \mathrm{Ag}$         | +0.80         |
 | $\mathrm{Fe}^{3+} + e^- \to \mathrm{Fe}^{2+}$ | +0.77         |
 | $\mathrm{Zn}^{2+} + 2e^- \to \mathrm{Zn}$     | -0.76         |
 | $\mathrm{Ni}^{2+} + 2e^- \to \mathrm{Ni}$     | -0.25         |
+
+</div>
 
 (a) Calculate $E^\circ_{\mathrm{cell}}$ for the reaction:
 $\mathrm{Zn}(s) + 2\mathrm{Ag}^+(aq) \to \mathrm{Zn}^{2+}(aq) + 2\mathrm{Ag}(s)$
@@ -889,7 +921,7 @@ $$
 E^\circ_{\mathrm{cell}} = 0.77 - (-0.25) = +1.02\mathrm{ V}
 $$
 
-Since $E^\circ_{\mathrm{cell}} = +1.02\mathrm{ V} \gt 0$Ni will spontaneously reduce Fe$^{3+}$.
+Since $E^\circ_{\mathrm{cell}} = +1.02\mathrm{ V} \gt 0$ Ni will spontaneously reduce Fe$^{3+}$.
 
 </details>
 
@@ -897,7 +929,7 @@ Since $E^\circ_{\mathrm{cell}} = +1.02\mathrm{ V} \gt 0$Ni will spontaneously re
 <summary>Question 4: Electrolysis Quantitative</summary>
 
 A $3.00\mathrm{ A}$ current is passed through aqueous CuSO$_4$ using copper electrodes for 1.50
-Hours.
+hours.
 
 (a) Calculate the mass of copper deposited at the cathode.
 
@@ -919,16 +951,16 @@ M(\mathrm{Cu}) = \frac{Q \times M}{n \times F} = \frac{16200 \times 63.5}{2 \tim
 $$
 
 (b) In electrolysis of CuSO$_4$ with copper electrodes (electrorefining), the anode is made of
-Impure copper. At the anode, copper oxidises: $\mathrm{Cu}(s) \to \mathrm{Cu}^{2+}(aq) + 2e^-$. This
-Means the anode loses mass as copper atoms dissolve into solution. The Cu$^{2+}$ ions then travel to
-The cathode where they are deposited as pure copper.
+impure copper. At the anode, copper oxidises: $\mathrm{Cu}(s) \to \mathrm{Cu}^{2+}(aq) + 2e^-$. This
+means the anode loses mass as copper atoms dissolve into solution. The Cu$^{2+}$ ions then travel to
+the cathode where they are deposited as pure copper.
 
 Note: With **inert** electrodes (e.g., graphite), oxygen is produced at the anode from water
 Oxidation, not from copper dissolution. The question specifies copper electrodes, so copper
 Oxidation occurs.
 
 (c) With **copper electrodes**, the anode reaction is $\mathrm{Cu} \to \mathrm{Cu}^{2+} + 2e^-$ And
-No O$_2$ is produced. If the electrodes were inert (graphite), then:
+no O$_2$ is produced. If the electrodes were inert (graphite), then:
 
 At the anode: $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$
 
@@ -954,7 +986,7 @@ A hydrogen-oxygen fuel cell (alkaline) operates at a constant current of $10.0\m
 (b) Calculate the mass of hydrogen consumed per hour.
 
 (c) If the fuel cell has an efficiency of 65% and $\Delta H$ for the reaction is
-$-286\mathrm{ kJ/mol}$Calculate the electrical energy output per hour.
+$-286\mathrm{ kJ/mol}$ Calculate the electrical energy output per hour.
 
 Answer:
 
@@ -1016,7 +1048,7 @@ Corrosion.
 
 (b) If the tin coating is scratched, the pipe would **not** be protected and would actually corrode
 **faster**. Sn has a less negative $E^\circ$ ($-0.14\mathrm{ V}$) than Fe ($-0.44\mathrm{ V}$), so
-At the scratch, Fe becomes the anode and Sn becomes the cathode:
+at the scratch, Fe becomes the anode and Sn becomes the cathode:
 
 - Anode: $\mathrm{Fe} \to \mathrm{Fe}^{2+} + 2e^-$ (oxidation of Fe)
 - Cathode: $\mathrm{O}_2 + 2\mathrm{H}_2\mathrm{O} + 4e^- \to 4\mathrm{OH}^-$ (reduction at Sn
@@ -1082,13 +1114,13 @@ Cl$^-$ is a halide and is discharged in preference to OH$^-$/water.
 $\mathrm{Cl}_2 + 2\mathrm{OH}^- \to \mathrm{Cl}^- + \mathrm{ClO}^- + \mathrm{H}_2\mathrm{O}$
 
 However, if Cl$_2$ escapes (which it tends to do), the remaining solution contains OH$^-$ and
-Unreacted Na$^+$Making it basic, not acidic. The question implies that Cl$_2$ reacts with water:
+unreacted Na$^+$Making it basic, not acidic. The question implies that Cl$_2$ reacts with water:
 
 $\mathrm{Cl}_2 + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{HCl} + \mathrm{HClO}$
 
 This produces HCl (a strong acid), making the solution acidic. In practice, with thorough mixing,
 The solution becomes more acidic because Cl$_2$ dissolves and hydrolyses to form HCl and HClO, while
-The OH$^-$ at the cathode is consumed by this acid.
+the OH$^-$ at the cathode is consumed by this acid.
 
 </details>
 
@@ -1106,19 +1138,9 @@ The OH$^-$ at the cathode is consumed by this acid.
 ## Related Content at Other Levels
 
 - **A-Level Redox and Electrochemistry:**
-  [Electrochemistry](https://alevel.wyattau.com/docs/chemistry/electrochemistry)
+  [Electrochemistry](https://alevel.wyattau.com/chemistry/electrochemistry/)
 - **DSE Redox and Electrochemistry:**
-  [Redox and Electrochemistry](https://dse.wyattau.com/docs/dse/chemistry/6-redox-and-electrochemistry)
-
-```mermaid
-flowchart TD
-    A[1_Redox Reactions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+  [Redox and Electrochemistry](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/)
 
 ## Summary
 
@@ -1138,15 +1160,16 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site | Link                                                                                                         |
 | ----------------- | ---- | ------------------------------------------------------------------------------------------------------------ |
-| [Redox Reactions] | IB   | [View](https://ib.wyattau.com/docs/ib/chemistry/9-redox/1_redox-reactions)                                   |
-| [Redox Reactions] | DSE  | [View](https://dse.wyattau.com/docs/dse/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry) |
+| [Redox Reactions] | IB   | [View](https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions/)                                   |
+| [Redox Reactions] | DSE  | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
+
+</div>
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

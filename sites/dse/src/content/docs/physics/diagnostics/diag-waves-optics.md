@@ -14,22 +14,11 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Waves Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Waves and Optics, Diagnostic Tests
 
 ## Unit Tests
 
-### UT-1: Young"s Double Slit with Non-Axial Source
+### UT-1: Young's Double Slit with Non-Axial Source
 
 **Question:**
 
@@ -45,17 +34,25 @@ maximum on the screen and the fringe spacing.
 When the source is displaced toward $S_1$ by $0.2$ mm, the central maximum (zero path difference)
 shifts away from $S_1$ on the screen. The displacement $y$ of the central maximum is:
 
-$$y = \frac{D}{d} \times \Delta s$$
+$$
+y = \frac{D}{d} \times \Delta s
+$$
 
 Where $\Delta s = 0.2$ mm is the source displacement:
 
-$$y = \frac{1500}{0.5} \times 0.2 = 3000 \times 0.2 = 600 \text{ mm} = 60 \text{ cm}$$
+$$
+y = \frac{1500}{0.5} \times 0.2 = 3000 \times 0.2 = 600 \text{ mm} = 60 \text{ cm}
+$$
 
-$$y = \frac{D}{d} \times \Delta s = \frac{1.5}{0.5 \times 10^{-3}} \times 2 \times 10^{-4} = \frac{1.5 \times 2 \times 10^{-4}}{5 \times 10^{-4}} = 0.6 \text{ m} = 60 \text{ cm}$$
+$$
+y = \frac{D}{d} \times \Delta s = \frac{1.5}{0.5 \times 10^{-3}} \times 2 \times 10^{-4} = \frac{1.5 \times 2 \times 10^{-4}}{5 \times 10^{-4}} = 0.6 \text{ m} = 60 \text{ cm}
+$$
 
 **Fringe spacing:**
 
-$$\Delta y = \frac{\lambda D}{d} = \frac{550 \times 10^{-9} \times 1.5}{0.5 \times 10^{-3}} = \frac{8.25 \times 10^{-7}}{5 \times 10^{-4}} = 1.65 \times 10^{-3} \text{ m} = 1.65 \text{ mm}$$
+$$
+\Delta y = \frac{\lambda D}{d} = \frac{550 \times 10^{-9} \times 1.5}{0.5 \times 10^{-3}} = \frac{8.25 \times 10^{-7}}{5 \times 10^{-4}} = 1.65 \times 10^{-3} \text{ m} = 1.65 \text{ mm}
+$$
 
 **Result:** The central maximum is displaced $60$ cm from the axis (toward the side opposite $S_1$),
 and the fringe spacing is $1.65$ mm. The entire interference pattern shifts by $60$ cm but the
@@ -111,28 +108,40 @@ Maximum when $\sin\theta = 1$: $n_{\max} = \frac{d}{\lambda}$
 
 **(c) Overlap condition:**
 
-Overlap occurs when the $(n+1)$Th order of violet coincides with the $n$Th order of red:
+Overlap occurs when the $(n+1)$ Th order of violet coincides with the $n$ Th order of red:
 
-$$(n+1)\lambda_v = n\lambda_r$$
+$$
+(n+1)\lambda_v = n\lambda_r
+$$
 
-$$(n+1)(400) = n(700)$$
+$$
+(n+1)(400) = n(700)
+$$
 
-$$400n + 400 = 700n$$
+$$
+400n + 400 = 700n
+$$
 
-$$300n = 400$$
+$$
+300n = 400
+$$
 
-$$n = \frac{4}{3}$$
+$$
+n = \frac{4}{3}
+$$
 
 Since $n$ must be an integer, the first overlap occurs between $n = 2$ (red) and $n = 3$ (violet):
 
-Check: $2 \times 700 = 1400$ nm, $3 \times 400 = 1200$ nm. Since $1200 \lt 1400$The 3rd order Violet
+Check: $2 \times 700 = 1400$ nm, $3 \times 400 = 1200$ nm. Since $1200 \lt 1400$ The 3rd order Violet
 ($\lambda_v = 400$ nm) falls at a smaller angle than the 2nd order red ($\lambda_r = 700$ nm). More
 precisely, overlap begins when the upper end of one order meets the lower end of the next. The 2nd
 order of red ends at $44.43°$ and the 3rd order of violet begins at:
 
-$$\sin\theta = \frac{3 \times 400 \times 10^{-9}}{2 \times 10^{-6}} = 0.60, \quad \theta = 36.87°$$
+$$
+\sin\theta = \frac{3 \times 400 \times 10^{-9}}{2 \times 10^{-6}} = 0.60, \quad \theta = 36.87°
+$$
 
-Since $36.87° \lt 44.43°$The 3rd-order violet spectrum overlaps with the 2nd-order red spectrum.
+Since $36.87° \lt 44.43°$ The 3rd-order violet spectrum overlaps with the 2nd-order red spectrum.
 
 ---
 
@@ -152,7 +161,7 @@ Since $36.87° \lt 44.43°$The 3rd-order violet spectrum overlaps with the 2nd-o
 Light is incident from air ($n = 1$) onto a glass surface ($n = 1.5$). (a) Calculate Brewster's
 angle. (b) If unpolarized light is incident at Brewster's angle, describe the polarization state of
 the reflected and refracted rays. (c) A second glass surface is placed parallel to the first.
-Explain what happens to the reflected and refracted beams after both surfaces.
+explain what happens to the reflected and refracted beams after both surfaces.
 
 **Solution:**
 
@@ -160,13 +169,19 @@ Explain what happens to the reflected and refracted beams after both surfaces.
 
 At Brewster's angle, the reflected and refracted rays are perpendicular:
 
-$$\theta_B + \theta_r = 90°$$
+$$
+\theta_B + \theta_r = 90°
+$$
 
 Using Snell's law: $\sin\theta_B = n \sin(90° - \theta_B) = n \cos\theta_B$
 
-$$\tan\theta_B = n = 1.5$$
+$$
+\tan\theta_B = n = 1.5
+$$
 
-$$\theta_B = \tan^{-1}(1.5) = 56.31°$$
+$$
+\theta_B = \tan^{-1}(1.5) = 56.31°
+$$
 
 **(b) Polarization states:**
 
@@ -218,11 +233,17 @@ envelope, and (c) the positions of missing orders.
 
 For single slit diffraction, the first minimum occurs at:
 
-$$a \sin\theta = \lambda$$
+$$
+a \sin\theta = \lambda
+$$
 
-$$\sin\theta = \frac{\lambda}{a} = \frac{500 \times 10^{-9}}{0.04 \times 10^{-3}} = 0.0125$$
+$$
+\sin\theta = \frac{\lambda}{a} = \frac{500 \times 10^{-9}}{0.04 \times 10^{-3}} = 0.0125
+$$
 
-$$\theta = 0.0125 \text{ rad}$$
+$$
+\theta = 0.0125 \text{ rad}
+$$
 
 Angular width of central maximum $= 2\theta = 0.0250$ rad $= 1.43°$.
 
@@ -233,7 +254,9 @@ $\Delta\theta = \frac{\lambda}{d} = \frac{500 \times 10^{-9}}{0.2 \times 10^{-3}
 
 Number of fringes from centre to first diffraction minimum:
 
-$$\frac{0.0125}{0.00250} = 5$$
+$$
+\frac{0.0125}{0.00250} = 5
+$$
 
 So there are 5 bright fringes on each side of the central maximum, plus the central maximum itself
 $= 11$ bright fringes in total within the central envelope.
@@ -242,12 +265,14 @@ $= 11$ bright fringes in total within the central envelope.
 
 Missing orders occur when a double slit maximum coincides with a single slit minimum:
 
-$$\frac{d}{a} = \frac{0.2}{0.04} = 5$$
+$$
+\frac{d}{a} = \frac{0.2}{0.04} = 5
+$$
 
 So every 5th order is missing: the 5th, 10th, 15th, ... Orders are absent.
 
-Verification: At the 5th double slit maximum: $d \sin\theta = 5\lambda$Which gives
-$a \sin\theta = a \times \frac{5\lambda}{d} = 5\lambda \times \frac{a}{d} = 5\lambda \times \frac{1}{5} = \lambda$Which
+Verification: At the 5th double slit maximum: $d \sin\theta = 5\lambda$ Which gives
+$a \sin\theta = a \times \frac{5\lambda}{d} = 5\lambda \times \frac{a}{d} = 5\lambda \times \frac{1}{5} = \lambda$ Which
 is exactly the condition for the first single slit minimum.
 
 **Key insight:** In a real double slit, the slits have finite width, producing a diffraction
@@ -285,9 +310,13 @@ At the second surface (soap to air), light reflects from a less dense medium: no
 
 For constructive interference in reflected light, the total path difference must satisfy:
 
-$$2nt = \left(m + \frac{1}{2}\right)\lambda \quad (m = 0, 1, 2, \ldots)$$
+$$
+2nt = \left(m + \frac{1}{2}\right)\lambda \quad (m = 0, 1, 2, \ldots)
+$$
 
-$$\lambda = \frac{2nt}{m + 1/2} = \frac{2 \times 1.33 \times 300}{m + 0.5} = \frac{798}{m + 0.5}$$
+$$
+\lambda = \frac{2nt}{m + 1/2} = \frac{2 \times 1.33 \times 300}{m + 0.5} = \frac{798}{m + 0.5}
+$$
 
 - $m = 0$: $\lambda = \frac{798}{0.5} = 1596$ nm (infrared, not visible)
 - $m = 1$: $\lambda = \frac{798}{1.5} = 532$ nm (green, visible)
@@ -304,9 +333,13 @@ Green ($532$ nm). The film appears green by reflection.
 For transmitted light, constructive interference occurs when reflected light has destructive
 interference:
 
-$$2nt = m\lambda$$
+$$
+2nt = m\lambda
+$$
 
-$$\lambda = \frac{2nt}{m} = \frac{798}{m}$$
+$$
+\lambda = \frac{2nt}{m} = \frac{798}{m}
+$$
 
 - $m = 1$: $\lambda = 798$ nm (not visible)
 - $m = 2$: $\lambda = 399$ nm (violet, just visible)
@@ -346,21 +379,35 @@ spectrum of X-rays.
 The shortest wavelength corresponds to the maximum photon energy, which occurs when ALL the kinetic
 energy of an electron is converted to a single photon:
 
-$$eV = \frac{hc}{\lambda_{\min}}$$
+$$
+eV = \frac{hc}{\lambda_{\min}}
+$$
 
-$$\lambda_{\min} = \frac{hc}{eV} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{1.6 \times 10^{-19} \times 50000}$$
+$$
+\lambda_{\min} = \frac{hc}{eV} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{1.6 \times 10^{-19} \times 50000}
+$$
 
-$$\lambda_{\min} = \frac{1.989 \times 10^{-25}}{8 \times 10^{-15}} = 2.486 \times 10^{-11} \text{ m} = 0.0249 \text{ nm}$$
+$$
+\lambda_{\min} = \frac{1.989 \times 10^{-25}}{8 \times 10^{-15}} = 2.486 \times 10^{-11} \text{ m} = 0.0249 \text{ nm}
+$$
 
 **(b) First-order diffraction angle (Bragg's law):**
 
-$$2d \sin\theta = n\lambda$$
+$$
+2d \sin\theta = n\lambda
+$$
 
-$$2(0.28 \times 10^{-9}) \sin\theta = 1 \times 2.486 \times 10^{-11}$$
+$$
+2(0.28 \times 10^{-9}) \sin\theta = 1 \times 2.486 \times 10^{-11}
+$$
 
-$$\sin\theta = \frac{2.486 \times 10^{-11}}{5.6 \times 10^{-10}} = 0.04439$$
+$$
+\sin\theta = \frac{2.486 \times 10^{-11}}{5.6 \times 10^{-10}} = 0.04439
+$$
 
-$$\theta = 2.54°$$
+$$
+\theta = 2.54°
+$$
 
 **(c) Explanation of minimum wavelength:**
 

@@ -71,7 +71,7 @@ block and the surface is $\mu = 0.4$. A horizontal force $P$ is applied to the b
 **(b)** When $P = 20$ N, find the magnitude and direction of the frictional force acting on the
 block. [2 marks]
 
-**(c)** A student, upon seeing the value $\mu = 0.4$Immediately writes
+**(c)** A student, upon seeing the value $\mu = 0.4$ Immediately writes
 $F = \mu R = 0.4 \times 78.4 = 31.36$ N for the frictional force, regardless of the applied force
 $P$. Explain why this is incorrect for $P = 20$ N, and calculate the percentage by which the student
 overestimates the friction. [3 marks]
@@ -99,7 +99,7 @@ vertically). Find the new moment about $A$ and explain why it is larger than the
 A car of mass $800$ kg travels on a level road. The engine works at constant power $40$ kW. The
 resistance to motion is a constant $200$ N.
 
-**(a)** Show that the acceleration of the car is given by $a = \frac{P}{mv} - \frac{R}{m}$Where $P$
+**(a)** Show that the acceleration of the car is given by $a = \frac{P}{mv} - \frac{R}{m}$ Where $P$
 is the power, $v$ is the speed, and $R$ is the resistance. [2 marks]
 
 **(b)** Find the maximum speed of the car. [2 marks]
@@ -159,10 +159,12 @@ For $1 \lt t \lt 5$: test $t = 3$, $v = 18 - 9 - 5 = 4 \gt 0$ (moving in positiv
 For $t \gt 5$: test $t = 6$, $v = 36 - 36 - 5 = -5 \lt 0$ (moving in negative direction).
 
 The particle reverses direction at $t = 1$ and $t = 5$. Total distance requires integrating
-$\lvert v \rvert$Which means splitting at the turning points and taking the magnitude of each
+$\lvert v \rvert$ Which means splitting at the turning points and taking the magnitude of each
 segment.
 
-$$s(t) = \int v\,dt = \int (6t - t^2 - 5)\,dt = 3t^2 - \frac{t^3}{3} - 5t + C$$
+$$
+s(t) = \int v\,dt = \int (6t - t^2 - 5)\,dt = 3t^2 - \frac{t^3}{3} - 5t + C
+$$
 
 With $s(0) = 0$: $C = 0$ So $s(t) = 3t^2 - \frac{t^3}{3} - 5t$.
 
@@ -172,20 +174,30 @@ $s(5) = 75 - \frac{125}{3} - 25 = 50 - \frac{125}{3} = \frac{150 - 125}{3} = \fr
 
 $s(7) = 147 - \frac{343}{3} - 35 = 112 - \frac{343}{3} = \frac{336 - 343}{3} = -\frac{7}{3}$ m.
 
-$$\text{Distance} = \lvert s(1) - s(0) \rvert + \lvert s(5) - s(1) \rvert + \lvert s(7) - s(5) \rvert$$
+$$
+\text{Distance} = \lvert s(1) - s(0) \rvert + \lvert s(5) - s(1) \rvert + \lvert s(7) - s(5) \rvert
+$$
 
-$$= \left\lvert -\frac{7}{3} \right\rvert + \left\lvert \frac{25}{3} - \left(-\frac{7}{3}\right) \right\rvert + \left\lvert -\frac{7}{3} - \frac{25}{3} \right\rvert$$
+$$
+= \left\lvert -\frac{7}{3} \right\rvert + \left\lvert \frac{25}{3} - \left(-\frac{7}{3}\right) \right\rvert + \left\lvert -\frac{7}{3} - \frac{25}{3} \right\rvert
+$$
 
-$$= \frac{7}{3} + \frac{32}{3} + \frac{32}{3} = \frac{71}{3} \approx 23.67 \text{ m}$$
+$$
+= \frac{7}{3} + \frac{32}{3} + \frac{32}{3} = \frac{71}{3} \approx 23.67 \text{ m}
+$$
 
 **(c)** The student's displacement answer:
 
-$$\text{Displacement} = s(7) - s(0) = -\frac{7}{3} \approx -2.33 \text{ m}$$
+$$
+\text{Displacement} = s(7) - s(0) = -\frac{7}{3} \approx -2.33 \text{ m}
+$$
 
 The student claims the distance is $2.33$ m (taking the magnitude). Actual distance is
 $\frac{71}{3} \approx 23.67$ m.
 
-$$\text{Percentage error} = \frac{\lvert \frac{71}{3} - \frac{7}{3} \rvert}{\frac{71}{3}} \times 100\% = \frac{64}{71} \times 100\% \approx 90.1\%$$
+$$
+\text{Percentage error} = \frac{\lvert \frac{71}{3} - \frac{7}{3} \rvert}{\frac{71}{3}} \times 100\% = \frac{64}{71} \times 100\% \approx 90.1\%
+$$
 
 The student underestimates the distance by approximately 90%, a catastrophic error caused by not
 accounting for the two direction reversals.
@@ -208,7 +220,9 @@ The block remains in equilibrium for $0 \leq P \leq 31.36$ N.
 **(b)** When $P = 20$ N (which is less than $31.36$ N), the block does not move. The frictional
 force adjusts to exactly balance the applied force:
 
-$$F = P = 20 \text{ N}$$
+$$
+F = P = 20 \text{ N}
+$$
 
 The frictional force acts in the direction opposite to $P$ (i.e., opposing the tendency to move).
 
@@ -216,23 +230,33 @@ The frictional force acts in the direction opposite to $P$ (i.e., opposing the t
 assumed the block is on the point of sliding, but $20 \lt 31.36$ N, so the block is not even close
 to sliding. The friction adjusts to match the applied force.
 
-$$\text{Percentage overestimate} = \frac{31.36 - 20}{20} \times 100\% = 56.8\%$$
+$$
+\text{Percentage overestimate} = \frac{31.36 - 20}{20} \times 100\% = 56.8\%
+$$
 
 **(d)** Resolving perpendicular to the surface:
 
-$$R + P\sin 30° = mg \implies R = 78.4 - 0.5P$$
+$$
+R + P\sin 30° = mg \implies R = 78.4 - 0.5P
+$$
 
 Resolving horizontally, at limiting equilibrium:
 
-$$P\cos 30° = \mu R = 0.4(78.4 - 0.5P)$$
+$$
+P\cos 30° = \mu R = 0.4(78.4 - 0.5P)
+$$
 
-$$0.866P = 31.36 - 0.2P$$
+$$
+0.866P = 31.36 - 0.2P
+$$
 
-$$1.066P = 31.36 \implies P = \frac{31.36}{1.066} \approx 29.42 \text{ N}$$
+$$
+1.066P = 31.36 \implies P = \frac{31.36}{1.066} \approx 29.42 \text{ N}
+$$
 
 This is **less** than $31.36$ N, not greater. Applying the force at an angle above the horizontal
 reduces the normal reaction ($R = 78.4 - 0.5P \lt 78.4$), which in turn reduces the maximum
-friction. Although the horizontal component of $P$ is only $P\cos 30° \approx 0.866P$The reduction
+friction. Although the horizontal component of $P$ is only $P\cos 30° \approx 0.866P$ The reduction
 in $R$ means the maximum available horizontal force is reduced overall.
 
 ### Q3
@@ -243,23 +267,35 @@ distance** from the point to the line of action of the force.
 The force acts vertically downwards at $B$. The perpendicular distance from $A$ to the vertical line
 through $B$ is the horizontal distance from $A$ to $B$:
 
-$$d = AB \times \cos 40° = 3\cos 40° \approx 2.298 \text{ m}$$
+$$
+d = AB \times \cos 40° = 3\cos 40° \approx 2.298 \text{ m}
+$$
 
-$$\text{Moment} = F \times d = 50 \times 3\cos 40° = 150\cos 40° \approx 114.9 \text{ Nm}$$
+$$
+\text{Moment} = F \times d = 50 \times 3\cos 40° = 150\cos 40° \approx 114.9 \text{ Nm}
+$$
 
 **(b)** The student used the distance $AB = 3$ m instead of the perpendicular distance
-$3\cos 40° \approx 2.298$ m. The moment is $F \times d_{\perp}$Not $F \times d_{\text{along rod}}$.
+$3\cos 40° \approx 2.298$ m. The moment is $F \times d_{\perp}$ Not $F \times d_{\text{along rod}}$.
 
-$$\text{Student's answer} = 150 \text{ Nm}$$
+$$
+\text{Student's answer} = 150 \text{ Nm}
+$$
 
-$$\text{Correct answer} = 150\cos 40° \approx 114.9 \text{ Nm}$$
+$$
+\text{Correct answer} = 150\cos 40° \approx 114.9 \text{ Nm}
+$$
 
-$$\text{Percentage overestimate} = \frac{150 - 150\cos 40°}{150\cos 40°} \times 100\% = \frac{1 - \cos 40°}{\cos 40°} \times 100\% = \left(\frac{1}{\cos 40°} - 1\right) \times 100\% \approx 30.5\%$$
+$$
+\text{Percentage overestimate} = \frac{150 - 150\cos 40°}{150\cos 40°} \times 100\% = \frac{1 - \cos 40°}{\cos 40°} \times 100\% = \left(\frac{1}{\cos 40°} - 1\right) \times 100\% \approx 30.5\%
+$$
 
-**(c)** If the $50$ N force acts perpendicular to the rod at $B$The perpendicular distance from $A$
+**(c)** If the $50$ N force acts perpendicular to the rod at $B$ The perpendicular distance from $A$
 to the line of action is the length of the rod:
 
-$$\text{Moment} = 50 \times 3 = 150 \text{ Nm}$$
+$$
+\text{Moment} = 50 \times 3 = 150 \text{ Nm}
+$$
 
 This is larger because the perpendicular distance equals the full length of the rod ($3$ m), whereas
 in part (a) the perpendicular distance was only $3\cos 40° \approx 2.298$ m. A force applied
@@ -274,19 +310,27 @@ Net force $= F - R = \frac{P}{v} - R$.
 
 By Newton's Second Law: $ma = \frac{P}{v} - R$.
 
-$$a = \frac{P}{mv} - \frac{R}{m} \quad \blacksquare$$
+$$
+a = \frac{P}{mv} - \frac{R}{m} \quad \blacksquare
+$$
 
 **(b)** At maximum speed, $a = 0$:
 
-$$\frac{P}{v_{\max}} = R \implies v_{\max} = \frac{P}{R} = \frac{40000}{200} = 200 \text{ m/s}$$
+$$
+\frac{P}{v_{\max}} = R \implies v_{\max} = \frac{P}{R} = \frac{40000}{200} = 200 \text{ m/s}
+$$
 
 **(c)** At $v = 10$ m/s:
 
-$$a = \frac{40000}{800 \times 10} - \frac{200}{800} = 5 - 0.25 = 4.75 \text{ m/s}^2$$
+$$
+a = \frac{40000}{800 \times 10} - \frac{200}{800} = 5 - 0.25 = 4.75 \text{ m/s}^2
+$$
 
 At $v = 100$ m/s:
 
-$$a = \frac{40000}{800 \times 100} - \frac{200}{800} = 0.5 - 0.25 = 0.25 \text{ m/s}^2$$
+$$
+a = \frac{40000}{800 \times 100} - \frac{200}{800} = 0.5 - 0.25 = 0.25 \text{ m/s}^2
+$$
 
 **(d)** The acceleration at $10$ m/s is $4.75$ m/s$^2$ and at $100$ m/s is $0.25$ m/s$^2$. The
 acceleration decreases by a factor of 19 as the speed increases by a factor of 10. Constant power
@@ -294,23 +338,37 @@ does not imply constant acceleration; in fact, the acceleration decreases hyperb
 
 **(e)** From $a = \frac{dv}{dt} = \frac{P}{mv} - \frac{R}{m}$:
 
-$$dt = \frac{dv}{\frac{P}{mv} - \frac{R}{m}} = \frac{mv\,dv}{P - Rv}$$
+$$
+dt = \frac{dv}{\frac{P}{mv} - \frac{R}{m}} = \frac{mv\,dv}{P - Rv}
+$$
 
-$$t = \int_{5}^{15} \frac{mv}{P - Rv}\,dv = 800\int_{5}^{15} \frac{v}{40000 - 200v}\,dv$$
+$$
+t = \int_{5}^{15} \frac{mv}{P - Rv}\,dv = 800\int_{5}^{15} \frac{v}{40000 - 200v}\,dv
+$$
 
 Let $u = 40000 - 200v$$du = -200\,dv$$dv = -\frac{du}{200}$$v = \frac{40000 - u}{200}$:
 
-$$t = 800\int \frac{(40000 - u)/200}{u} \cdot \left(-\frac{du}{200}\right) = 800 \times \frac{-1}{40000}\int \frac{40000 - u}{u}\,du$$
+$$
+t = 800\int \frac{(40000 - u)/200}{u} \cdot \left(-\frac{du}{200}\right) = 800 \times \frac{-1}{40000}\int \frac{40000 - u}{u}\,du
+$$
 
-$$= -\frac{1}{50}\int \left(\frac{40000}{u} - 1\right)du = -\frac{1}{50}[40000\ln u - u]$$
+$$
+= -\frac{1}{50}\int \left(\frac{40000}{u} - 1\right)du = -\frac{1}{50}[40000\ln u - u]
+$$
 
 Evaluating from $v = 5$ ($u = 39000$) to $v = 15$ ($u = 37000$):
 
-$$t = -\frac{1}{50}\left[(40000\ln 37000 - 37000) - (40000\ln 39000 - 39000)\right]$$
+$$
+t = -\frac{1}{50}\left[(40000\ln 37000 - 37000) - (40000\ln 39000 - 39000)\right]
+$$
 
-$$= \frac{1}{50}\left[40000\ln\!\left(\frac{39000}{37000}\right) + 2000\right]$$
+$$
+= \frac{1}{50}\left[40000\ln\!\left(\frac{39000}{37000}\right) + 2000\right]
+$$
 
-$$= 800\ln\!\left(\frac{39}{37}\right) + 40 \approx 800(0.05263) + 40 \approx 42.1 + 40 = 82.1 \text{ s}$$
+$$
+= 800\ln\!\left(\frac{39}{37}\right) + 40 \approx 800(0.05263) + 40 \approx 42.1 + 40 = 82.1 \text{ s}
+$$
 
 ### Q5
 
@@ -329,14 +387,18 @@ m/s.
 
 **(b)** Coefficient of restitution:
 
-$$e = \frac{\text{relative speed of separation}}{\text{relative speed of approach}}$$
+$$
+e = \frac{\text{relative speed of separation}}{\text{relative speed of approach}}
+$$
 
 Relative speed of approach $= 5 - (-3) = 8$ m/s.
 
 Relative speed of separation $= v_B - v_A = \frac{5}{3} - (-2) = \frac{5}{3} + 2 = \frac{11}{3}$
 m/s.
 
-$$e = \frac{11/3}{8} = \frac{11}{24} \approx 0.458$$
+$$
+e = \frac{11/3}{8} = \frac{11}{24} \approx 0.458
+$$
 
 **(c)** With positive = $B$'s initial motion (to the left):
 
@@ -353,13 +415,19 @@ The negative sign means $B$ moves in the opposite direction to the defined posit
 initial direction. This is the same physical velocity as $\frac{5}{3}$ m/s in $A$'s initial
 direction, confirming the result is convention-independent.
 
-**(d)** Since $e = \frac{11}{24} \approx 0.458$ and $0 \lt e \lt 1$The collision is **inelastic**.
+**(d)** Since $e = \frac{11}{24} \approx 0.458$ and $0 \lt e \lt 1$ The collision is **inelastic**.
 
-$$\text{KE}_{\text{before}} = \frac{1}{2}(4)(25) + \frac{1}{2}(6)(9) = 50 + 27 = 77 \text{ J}$$
+$$
+\text{KE}_{\text{before}} = \frac{1}{2}(4)(25) + \frac{1}{2}(6)(9) = 50 + 27 = 77 \text{ J}
+$$
 
-$$\text{KE}_{\text{after}} = \frac{1}{2}(4)(4) + \frac{1}{2}(6)\!\left(\frac{25}{9}\right) = 8 + \frac{75}{9} = 8 + \frac{25}{3} = \frac{49}{3} \approx 16.33 \text{ J}$$
+$$
+\text{KE}_{\text{after}} = \frac{1}{2}(4)(4) + \frac{1}{2}(6)\!\left(\frac{25}{9}\right) = 8 + \frac{75}{9} = 8 + \frac{25}{3} = \frac{49}{3} \approx 16.33 \text{ J}
+$$
 
-$$\Delta\text{KE} = 77 - \frac{49}{3} = \frac{231 - 49}{3} = \frac{182}{3} \approx 60.67 \text{ J lost}$$
+$$
+\Delta\text{KE} = 77 - \frac{49}{3} = \frac{231 - 49}{3} = \frac{182}{3} \approx 60.67 \text{ J lost}
+$$
 
 ---
 
@@ -374,40 +442,26 @@ $$\Delta\text{KE} = 77 - \frac{49}{3} = \frac{231 - 49}{3} = \frac{182}{3} \appr
 
 ## Marking Guide
 
+<div class="table-wrap">
+
 | Question  | Topic                    |  Marks | Key Skills Tested                                                                                        |
 | --------- | ------------------------ | -----: | -------------------------------------------------------------------------------------------------------- |
-| Q1        | Kinematics               |     10 | Displacement vs distance, direction changes from $v = 0$Splitting integrals, percentage error            |
-| Q2        | Forces and Newton's Laws |     10 | Static friction inequality $F \leq \mu R$Non-limiting friction, angled force and normal reaction         |
+| Q1        | Kinematics               |     10 | Displacement vs distance, direction changes from $v = 0$ Splitting integrals, percentage error            |
+| Q2        | Forces and Newton's Laws |     10 | Static friction inequality $F \leq \mu R$ Non-limiting friction, angled force and normal reaction         |
 | Q3        | Moments                  |     10 | Perpendicular distance vs distance to pivot, trigonometric moments, percentage error analysis            |
 | Q4        | Energy and Work          |     10 | $P = Fv$ derivation, maximum speed, decreasing acceleration at constant power, integration for time      |
 | Q5        | Momentum                 |     10 | Sign convention consistency, conservation of momentum, coefficient of restitution, energy classification |
 | **Total** |                          | **50** |                                                                                                          |
 
+</div>
+
 ## Intuition
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-
-```mermaid
-flowchart TD
-    A[Paper 3 Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

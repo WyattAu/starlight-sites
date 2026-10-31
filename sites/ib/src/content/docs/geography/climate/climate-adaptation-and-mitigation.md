@@ -33,19 +33,19 @@ Change.
 
 **Adaptation** refers to adjustments in ecological, social, or economic systems in response to
 Actual or expected climate stimuli and their effects. Adaptation addresses the consequences of
-Climate change.
+climate change.
 
 Both are necessary. Even under the most ambitious mitigation scenarios, some degree of additional
 Warming and its associated impacts are already locked in due to the thermal inertia of the climate
 System and the long atmospheric lifetime of $\mathrm{CO_2}$. Adaptation is therefore required
-Regardless of mitigation efforts.
+regardless of mitigation efforts.
 
 ## Mitigation Strategies
 
 ### Energy Sector
 
 The energy sector (electricity generation, heat, and transport) accounts for approximately 73% of
-Global greenhouse gas emissions. Mitigation in this sector involves:
+global greenhouse gas emissions. Mitigation in this sector involves:
 
 **Renewable energy deployment.** Replacing fossil fuel generation with renewable sources (solar,
 Wind, hydroelectric, geothermal, biomass).
@@ -69,7 +69,7 @@ public safety concerns following the Chernobyl (1986) and Fukushima (2011) accid
 Service delivered. Key measures include: building energy codes (requiring improved insulation,
 Efficient windows, heat pumps); fuel efficiency standards for vehicles; industrial energy
 Management; efficient lighting (LED technology has reduced global lighting electricity consumption
-By approximately 15% since 2010).
+by approximately 15% since 2010).
 
 ### Land Use, Forestry, and Agriculture
 
@@ -79,14 +79,14 @@ Deforestation and land-use change).
 **Reducing deforestation.** Halting tropical deforestation (which releases approximately 4.8 Gt
 $\mathrm{CO_2}$ per year) is among the most cost-effective mitigation strategies. Approaches
 Include: strengthening and enforcing forest protection laws; providing economic alternatives to
-Deforestation (sustainable agriculture, ecotourism, payment for ecosystem services); addressing the
-Demand-side drivers of deforestation (soy, palm oil, beef, timber); and REDD+ (see Carbon Cycle and
-Sequestration).
+deforestation (sustainable agriculture, ecotourism, payment for ecosystem services); addressing the
+demand-side drivers of deforestation (soy, palm oil, beef, timber); and REDD+ (see Carbon Cycle and
+sequestration).
 
 **Afforestation and reforestation.** Establishing forests on previously non-forested land or
 Replanting degraded forests can sequester carbon while providing biodiversity, watershed protection,
 And livelihood co-benefits. The Bonn Challenge (2011) aims to restore 350 million hectares of
-Degraded and deforested land by 2030; approximately 200 million hectares have been pledged.
+degraded and deforested land by 2030; approximately 200 million hectares have been pledged.
 
 **Sustainable agriculture.** Reducing agricultural emissions through improved nitrogen management
 (precision fertiliser application to reduce $\mathrm{N_2}\mathrm{O}$ emissions), improved livestock
@@ -101,19 +101,19 @@ The transport sector accounts for approximately 16% of global emissions.
 
 **Electric vehicles (EVs).** EV sales exceeded 14 million globally in 2023, representing
 Approximately 18% of total car sales. Norway leads with approximately 90% of new car sales being
-Electric; China and the EU are rapidly expanding. EVs produce zero tailpipe emissions but the net
+electric; China and the EU are rapidly expanding. EVs produce zero tailpipe emissions but the net
 Carbon benefit depends on the electricity grid mix (EVs charged on coal-generated electricity have a
-Higher lifecycle carbon footprint than those charged on renewable electricity).
+higher lifecycle carbon footprint than those charged on renewable electricity).
 
 **Public transport and active travel.** Investing in efficient public transport (bus rapid transit,
 Metro, rail) and infrastructure for walking and cycling can reduce per-capita transport emissions by
-Reducing car dependence. The IPCC estimates that shifting urban trips from cars to public transport
-And active travel could reduce transport emissions by approximately 20--40% in cities.
+reducing car dependence. The IPCC estimates that shifting urban trips from cars to public transport
+and active travel could reduce transport emissions by approximately 20--40% in cities.
 
 **Sustainable aviation fuels (SAF).** Aviation is one of the hardest sectors to decarbonise because
 Of its high energy density requirements. SAFs, produced from biomass or synthetic processes
 (power-to-liquid), can reduce aviation lifecycle emissions by approximately 50--80%, but are
-Currently expensive (2--4 times the cost of conventional jet fuel) and limited in supply.
+currently expensive (2--4 times the cost of conventional jet fuel) and limited in supply.
 
 ## Adaptation Strategies
 
@@ -123,6 +123,8 @@ Climate change poses severe risks to food security through altered precipitation
 Temperature stress, increased pest and disease pressure, and increased frequency of extreme events
 (droughts, floods, heat waves).
 
+<div class="table-wrap">
+
 | Strategy                                | Description                                                                                                  | Example                                                                                                                         |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
 | **Drought-resistant crop varieties**    | Breeding or genetic modification of crops to tolerate heat and water stress                                  | Drought-tolerant maize varieties developed by CGIAR centres for Sub-Saharan Africa; salt-tolerant rice varieties for Bangladesh |
@@ -131,21 +133,27 @@ Temperature stress, increased pest and disease pressure, and increased frequency
 | **Adjusted planting dates**             | Shifting sowing and harvesting dates to match changing seasonal patterns                                     | Farmers in the Sahel shifting planting dates earlier to take advantage of changing onset of rains                               |
 | **Crop diversification**                | Reducing reliance on a single crop to spread climate risk                                                    | Promoting millet and sorghum alongside maize in southern Africa                                                                 |
 
+</div>
+
 ### Infrastructural Adaptation
+
+<div class="table-wrap">
 
 | Strategy                             | Description                                                                    | Example                                                                                                                                                                                                        |
 | ------------------------------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Sea walls and coastal defences**   | Hard engineering structures to protect against sea level rise and storm surges | Netherlands Delta Programme (EUR 20+ billion); MOSE barrier in Venice (EUR 5.5 billion)                                                                                                                        |
-| **Flood-resistant infrastructure**   | Designing buildings, roads, and utilities to withstand flooding                | Bangladesh"s elevated schools and cyclone shelters; floating housing in the Netherlands                                                                                                                        |
+| **Flood-resistant infrastructure**   | Designing buildings, roads, and utilities to withstand flooding                | Bangladesh's elevated schools and cyclone shelters; floating housing in the Netherlands                                                                                                                        |
 | **Improved drainage**                | Upgrading urban drainage systems to handle increased rainfall intensity        | Sustainable Urban Drainage Systems (SUDS) in UK cities; Tokyo's underground floodwater storage (the Metropolitan Area Outer Underground Discharge Channel, completed 2006, stores 670 000 m$^3$ of floodwater) |
 | **Climate-resilient building codes** | Updating construction standards to account for projected climate conditions    | Caribbean building codes for hurricane resistance; Japan's earthquake and tsunami-resistant standards                                                                                                          |
+
+</div>
 
 ### Community-Based Adaptation
 
 Community-based adaptation (CBA) involves local communities in identifying, designing, and
-Implementing adaptation strategies. It is grounded in the recognition that local communities possess
+implementing adaptation strategies. It is grounded in the recognition that local communities possess
 Detailed knowledge of their environmental conditions and vulnerabilities, and that adaptation is
-More effective and equitable when communities are active participants rather than passive
+more effective and equitable when communities are active participants rather than passive
 Recipients.
 
 **Characteristics of CBA:**
@@ -161,7 +169,7 @@ As models of good practice. The Comprehensive Disaster Management Programme (CDM
 Communities in flood preparedness, early warning dissemination, first aid, and evacuation
 Procedures. The Union Disaster Management Committees (UDMCs) at the village level develop local risk
 Reduction plans and coordinate community responses. Floating agriculture (baira) allows communities
-To continue cultivation during seasonal flooding. These programmes have significantly reduced
+to continue cultivation during seasonal flooding. These programmes have significantly reduced
 Cyclone mortality: Cyclone Bhola (1970) killed approximately 300 000--500 000 people; Cyclone Sidr
 (2007) killed approximately 3400, despite being of similar magnitude, thanks to improved early
 Warning and preparedness.
@@ -171,7 +179,7 @@ Warning and preparedness.
 ### The Paris Agreement (2015)
 
 The Paris Agreement, adopted by 196 parties at COP21, is the primary international framework for
-Climate action.
+climate action.
 
 **Key features:**
 
@@ -198,9 +206,11 @@ Ratchet mechanism creates a framework for progressive ambition.
 Non-compliance; current NDCs are insufficient (the UN Environment Programme estimates that full
 Implementation of current NDCs would result in warming of approximately 2.5$^\circ$--2.9$^\circ$C by
 2100); the USD 100 billion climate finance target is inadequate (developing countries estimate that
-Approximately USD 1 trillion per year is needed for both mitigation and adaptation).
+approximately USD 1 trillion per year is needed for both mitigation and adaptation).
 
 ### Key COP Outcomes
+
+<div class="table-wrap">
 
 | COP                         | Year | Key Outcome                                                                                                                                                              |
 | --------------------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -210,15 +220,17 @@ Approximately USD 1 trillion per year is needed for both mitigation and adaptati
 | **COP27 (Sharm el-Sheikh)** | 2022 | Establishment of a Loss and Damage Fund                                                                                                                                  |
 | **COP28 (Dubai)**           | 2023 | First Global Stocktake; operationalisation of the Loss and Damage Fund (initial pledges approximately USD 700 million); agreement to "transition away from fossil fuels" |
 
+</div>
+
 ## Case Study: The Netherlands
 
 The Netherlands (26% of land below sea level, 59% flood-prone) exemplifies both adaptation and
-Mitigation.
+mitigation.
 
 **Adaptation:** the Delta Programme (2010--2050) invests over EUR 20 billion in climate-adaptive
 Water management, including strengthening dikes, the Maeslantkering storm surge barrier, and the
-Room for the River programme (giving rivers more space to flood safely). The Netherlands is also
-Investing in climate-resilient agriculture (water-efficient farming, salt-tolerant crops) and urban
+room for the River programme (giving rivers more space to flood safely). The Netherlands is also
+investing in climate-resilient agriculture (water-efficient farming, salt-tolerant crops) and urban
 Adaptation (green roofs, permeable surfaces, climate-adaptive building codes).
 
 **Mitigation:** the Netherlands aims to reduce greenhouse gas emissions by 49% by 2030 (relative
@@ -234,14 +246,14 @@ M above sea level, making it one of the world's most vulnerable countries to cli
 
 **Adaptation:** construction of artificial islands (Hulhumale, built 2 m above sea level, designed
 To accommodate 130 000 residents); sea walls around vulnerable islands; desalination plants to
-Address freshwater scarcity from saltwater intrusion; coral reef restoration to maintain coastal
+address freshwater scarcity from saltwater intrusion; coral reef restoration to maintain coastal
 Protection; and advocacy for international climate action (former President Nasheed held an
-Underwater cabinet meeting in 2009).
+underwater cabinet meeting in 2009).
 
 **Mitigation:** the Maldives contributes negligibly to global emissions (approximately 1.2 million
 Tonnes $\mathrm{CO_2}$ per year) but has set ambitious targets: achieving net-zero emissions
-By 2030. Strategies include: transitioning to solar power (targeting 30% of electricity from solar
-By 2030); reducing diesel dependency in electricity generation; and promoting electric vehicle
+by 2030. Strategies include: transitioning to solar power (targeting 30% of electricity from solar
+by 2030); reducing diesel dependency in electricity generation; and promoting electric vehicle
 Adoption.
 
 <details>
@@ -249,10 +261,10 @@ Adoption.
 
 Adaptation and mitigation are not alternatives; both are necessary. The IPCC is clear that limiting
 Warming to 1.5$^\circ$C requires rapid, deep emission reductions (mitigation) combined with
-Large-scale investment in adaptation. Some strategies have both mitigation and adaptation
+large-scale investment in adaptation. Some strategies have both mitigation and adaptation
 Co-benefits: mangrove restoration sequesters carbon (mitigation) and provides coastal protection
 (adaptation); urban green infrastructure reduces the urban heat island effect (adaptation) and
-Sequesters carbon (mitigation). However, not all adaptation strategies have mitigation co-benefits,
+sequesters carbon (mitigation). However, not all adaptation strategies have mitigation co-benefits,
 And not all mitigation strategies have adaptation co-benefits. Some strategies involve trade-offs:
 Air conditioning adapts to heat (adaptation) but increases energy demand and emissions (undermining
 Mitigation). When evaluating climate strategies, always consider both mitigation and adaptation
@@ -278,24 +290,7 @@ For related topics, see [./atmospheric-systems](/geography/climate/atmospheric-s
 4. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-
-```mermaid
-flowchart TD
-    A[Climate Adaptation And Mitigation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

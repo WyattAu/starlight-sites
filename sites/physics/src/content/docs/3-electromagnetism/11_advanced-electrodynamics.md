@@ -19,10 +19,12 @@ description: "The scalar potential of a localised charge distribution at large d
 
 ### 11.1 Multipole Expansion
 
-The scalar potential of a localised charge distribution at large distances ($r \gg d$Where $d$ is
+The scalar potential of a localised charge distribution at large distances ($r \gg d$ Where $d$ is
 the size of the distribution):
 
-$$\phi(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0}\left[\frac{Q}{r} + \frac{\mathbf{p}\cdot\hat{\mathbf{r}}}{r^2} + \frac{1}{2}\sum_{ij}Q_{ij}\frac{\hat{r}_i\hat{r}_j}{r^3} + \cdots\right]$$
+$$
+\phi(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0}\left[\frac{Q}{r} + \frac{\mathbf{p}\cdot\hat{\mathbf{r}}}{r^2} + \frac{1}{2}\sum_{ij}Q_{ij}\frac{\hat{r}_i\hat{r}_j}{r^3} + \cdots\right]
+$$
 
 **Monopole term:** $Q = \int \rho\, dV$ (total charge).
 
@@ -39,11 +41,15 @@ deviation from spherical symmetry.
 
 The scalar and vector potentials are not unique. The **gauge transformation**:
 
-$$\mathbf{A}' = \mathbf{A} + \nabla\chi, \quad \phi' = \phi - \frac{\partial\chi}{\partial t}$$
+$$
+\mathbf{A}' = \mathbf{A} + \nabla\chi, \quad \phi' = \phi - \frac{\partial\chi}{\partial t}
+$$
 
 Leaves $\mathbf{E}$ and $\mathbf{B}$ unchanged for any scalar function $\chi(\mathbf{r}, t)$.
 
 **Common gauges:**
+
+<div class="table-wrap">
 
 | Gauge    | Condition                                                                    | Use                                |
 | -------- | ---------------------------------------------------------------------------- | ---------------------------------- |
@@ -51,9 +57,13 @@ Leaves $\mathbf{E}$ and $\mathbf{B}$ unchanged for any scalar function $\chi(\ma
 | Lorenz   | $\nabla \cdot \mathbf{A} + \frac{1}{c^2}\frac{\partial\phi}{\partial t} = 0$ | Relativistic problems, radiation   |
 | Temporal | $\phi = 0$                                                                   | Some scattering problems           |
 
+</div>
+
 In the Lorenz gauge, both $\mathbf{A}$ and $\phi$ satisfy wave equations with sources:
 
-$$\Box^2\mathbf{A} = -\mu_0\mathbf{J}, \quad \Box^2\phi = -\frac{\rho}{\varepsilon_0}$$
+$$
+\Box^2\mathbf{A} = -\mu_0\mathbf{J}, \quad \Box^2\phi = -\frac{\rho}{\varepsilon_0}
+$$
 
 Where $\Box^2 = \nabla^2 - \frac{1}{c^2}\frac{\partial^2}{\partial t^2}$ is the d'Alembertian.
 
@@ -62,18 +72,26 @@ Where $\Box^2 = \nabla^2 - \frac{1}{c^2}\frac{\partial^2}{\partial t^2}$ is the 
 The electromagnetic stress-energy tensor $T^{\mu\nu}$ encodes the energy density, momentum density,
 and stress:
 
-$$T^{00} = \frac{1}{2}\left(\varepsilon_0 E^2 + \frac{B^2}{\mu_0}\right) \quad \text{(energy density)}$$
+$$
+T^{00} = \frac{1}{2}\left(\varepsilon_0 E^2 + \frac{B^2}{\mu_0}\right) \quad \text{(energy density)}
+$$
 
-$$T^{0i} = \frac{1}{c}(\mathbf{E} \times \mathbf{B})_i = \frac{S_i}{c} \quad \text{(momentum density)}$$
+$$
+T^{0i} = \frac{1}{c}(\mathbf{E} \times \mathbf{B})_i = \frac{S_i}{c} \quad \text{(momentum density)}
+$$
 
-$$T^{ij} = -\varepsilon_0 E_i E_j - \frac{1}{\mu_0}B_i B_j + \frac{1}{2}\delta_{ij}\left(\varepsilon_0 E^2 + \frac{B^2}{\mu_0}\right) \quad \text{(Maxwell stress tensor)}$$
+$$
+T^{ij} = -\varepsilon_0 E_i E_j - \frac{1}{\mu_0}B_i B_j + \frac{1}{2}\delta_{ij}\left(\varepsilon_0 E^2 + \frac{B^2}{\mu_0}\right) \quad \text{(Maxwell stress tensor)}
+$$
 
 **Conservation law:** $\partial_\mu T^{\mu\nu} = -f^\nu$ where $f^\nu$ is the Lorentz force density
 on charges.
 
 **Radiation pressure:** For a normally incident plane wave with intensity $I$:
 
-$$P_{\text{rad} = \frac{I}{c} = \frac{1}{2}\varepsilon_0 E_0^2}$$
+$$
+P_{\text{rad} = \frac{I}{c} = \frac{1}{2}\varepsilon_0 E_0^2}
+$$
 
 For a perfect reflector, the radiation pressure is $2I/c$ (momentum transfer is doubled).
 
@@ -84,7 +102,9 @@ Solar constant at Earth: $I = 1361$ W/m$^2$.
 
 Radiation pressure on a perfectly absorbing surface:
 
-$$P = \frac{I}{c} = \frac{1361}{3 \times 10^8} = 4.54 \times 10^{-6}\ \text{N}/m^2 = 4.54\ \mu\text{Pa}$$
+$$
+P = \frac{I}{c} = \frac{1361}{3 \times 10^8} = 4.54 \times 10^{-6}\ \text{N}/m^2 = 4.54\ \mu\text{Pa}
+$$
 
 For a perfect reflector: $P = 9.07\,\mu\text{Pa}$.
 
@@ -107,7 +127,7 @@ This is tiny compared to atmospheric pressure ($10^5$ Pa), but is significant fo
 2. **Gauge choice matters for potentials, not fields:** Different gauges give different $\mathbf{A}$
    and $\phi$ for the same $\mathbf{E}$ and $\mathbf{B}$. In quantum mechanics, the Hamiltonian
    depends on the gauge, but all physical observables are gauge-invariant. The Aharonov--Bohm effect
-   shows that even in regions where $\mathbf{E} = \mathbf{B} = 0$The vector potential $\mathbf{A}$
+   shows that even in regions where $\mathbf{E} = \mathbf{B} = 0$ The vector potential $\mathbf{A}$
    has measurable physical effects.
 
 3. **Multipole expansion convergence:** The multipole expansion converges only outside a sphere that
@@ -144,25 +164,35 @@ loss is minimised by making the broad wall dimension $a$ as large as possible (f
 
 (a) For TE$_{10}$: $B_z = B_0\cos(\pi x/a)\,e^{i(\beta z - \omega t)}$.
 
-$$E_x = 0, \quad E_y = \frac{i\omega\mu_0 a}{\pi}B_0\sin\!\left(\frac{\pi x}{a}\right)e^{i(\beta z - \omega t)}$$
+$$
+E_x = 0, \quad E_y = \frac{i\omega\mu_0 a}{\pi}B_0\sin\!\left(\frac{\pi x}{a}\right)e^{i(\beta z - \omega t)}
+$$
 
-$$E_z = 0$$
+$$
+E_z = 0
+$$
 
-$$B_x = -\frac{i\beta a}{\pi}B_0\sin\!\left(\frac{\pi x}{a}\right)e^{i(\beta z - \omega t)}, \quad B_y = 0$$
+$$
+B_x = -\frac{i\beta a}{\pi}B_0\sin\!\left(\frac{\pi x}{a}\right)e^{i(\beta z - \omega t)}, \quad B_y = 0
+$$
 
-$$B_z = B_0\cos\!\left(\frac{\pi x}{a}\right)e^{i(\beta z - \omega t)}$$
+$$
+B_z = B_0\cos\!\left(\frac{\pi x}{a}\right)e^{i(\beta z - \omega t)}
+$$
 
 (b) The electric field $E_y$ is purely vertical, with a $\sin(\pi x/a)$ profile: zero at the side
 walls ($x = 0, a$) and maximum at the centre ($x = a/2$). The magnetic field forms closed loops in
 the $xz$-plane.
 
 (c) Surface current $\mathbf{K} = \hat{\mathbf{n}} \times \mathbf{H}$. On the broad walls
-($y = 0, b$): $\mathbf{K}$ has components from $B_x$ and $B_z$With maximum at $x = a/2$ (where
+($y = 0, b$): $\mathbf{K}$ has components from $B_x$ and $B_z$ With maximum at $x = a/2$ (where
 $\sin(\pi x/a) = 1$). The power loss per unit length is:
 
-$$P_{\text{loss} = \frac{R_s}{2}\oint |\mathbf{K}|^2\, dl}$$
+$$
+P_{\text{loss} = \frac{R_s}{2}\oint |\mathbf{K}|^2\, dl}
+$$
 
-Where $R_s = \sqrt{\omega\mu_0/(2\sigma)}$ is the surface resistance. For fixed $f$Increasing $a$
+Where $R_s = \sqrt{\omega\mu_0/(2\sigma)}$ is the surface resistance. For fixed $f$ Increasing $a$
 reduces the current density on the broad walls and increases the power-handling capacity.
 
 </details>
@@ -172,7 +202,9 @@ reduces the current density on the broad walls and increases the power-handling 
 
 A half-wave dipole antenna of length $\ell = \lambda/2$ carries a sinusoidal current distribution:
 
-$$I(z) = I_0\cos(kz), \quad -\lambda/4 \leq z \leq \lambda/4$$
+$$
+I(z) = I_0\cos(kz), \quad -\lambda/4 \leq z \leq \lambda/4
+$$
 
 (a) Calculate the radiation fields $\mathbf{E}$ and $\mathbf{B}$ in the far field.
 
@@ -185,32 +217,48 @@ result $R_{\text{rad} = 197(\ell/\lambda)^2\,\Omega}$.
 
 (a) The vector potential in the far field:
 
-$$A_z = \frac{\mu_0}{4\pi}\frac{e^{ikr}}{r}\int_{-\lambda/4}^{\lambda/4}I_0\cos(kz')\,e^{-ikz'\cos\theta}\,dz'$$
+$$
+A_z = \frac{\mu_0}{4\pi}\frac{e^{ikr}}{r}\int_{-\lambda/4}^{\lambda/4}I_0\cos(kz')\,e^{-ikz'\cos\theta}\,dz'
+$$
 
 The integral evaluates to:
 
-$$A_z = \frac{\mu_0 I_0}{4\pi}\frac{e^{ikr}}{r}\frac{2\cos\!\left(\frac{\pi}{2}\cos\theta\right)}{k\sin^2\theta}$$
+$$
+A_z = \frac{\mu_0 I_0}{4\pi}\frac{e^{ikr}}{r}\frac{2\cos\!\left(\frac{\pi}{2}\cos\theta\right)}{k\sin^2\theta}
+$$
 
 The radiation fields:
 
-$$E_\theta = ikA_z\sin\theta = \frac{i\mu_0 c I_0}{4\pi}\frac{e^{ikr}}{r}\frac{\cos\!\left(\frac{\pi}{2}\cos\theta\right)}{\sin\theta}$$
+$$
+E_\theta = ikA_z\sin\theta = \frac{i\mu_0 c I_0}{4\pi}\frac{e^{ikr}}{r}\frac{\cos\!\left(\frac{\pi}{2}\cos\theta\right)}{\sin\theta}
+$$
 
-$$B_\phi = E_\theta/c$$
+$$
+B_\phi = E_\theta/c
+$$
 
 (b) The angular distribution:
 
-$$\frac{dP}{d\Omega} = \frac{r^2}{2Z_0}|E_\theta|^2 = \frac{Z_0 I_0^2}{32\pi^2}\frac{\cos^2\!\left(\frac{\pi}{2}\cos\theta\right)}{\sin^2\theta}$$
+$$
+\frac{dP}{d\Omega} = \frac{r^2}{2Z_0}|E_\theta|^2 = \frac{Z_0 I_0^2}{32\pi^2}\frac{\cos^2\!\left(\frac{\pi}{2}\cos\theta\right)}{\sin^2\theta}
+$$
 
 (c) Total power:
 
-$$P = \frac{Z_0 I_0^2}{32\pi^2}\int_0^{2\pi}\!\!\int_0^\pi \frac{\cos^2\!\left(\frac{\pi}{2}\cos\theta\right)}{\sin^2\theta}\sin\theta\,d\theta\,d\phi$$
+$$
+P = \frac{Z_0 I_0^2}{32\pi^2}\int_0^{2\pi}\!\!\int_0^\pi \frac{\cos^2\!\left(\frac{\pi}{2}\cos\theta\right)}{\sin^2\theta}\sin\theta\,d\theta\,d\phi
+$$
 
-$$= \frac{Z_0 I_0^2}{16\pi}\int_0^\pi \frac{\cos^2\!\left(\frac{\pi}{2}\cos\theta\right)}{\sin\theta}\,d\theta$$
+$$
+= \frac{Z_0 I_0^2}{16\pi}\int_0^\pi \frac{\cos^2\!\left(\frac{\pi}{2}\cos\theta\right)}{\sin\theta}\,d\theta
+$$
 
 With the substitution $u = \cos\theta$: $\int_{-1}^{1}\frac{\cos^2(\pi u/2)}{1-u^2}\,du = 1.2188$
 (the Siegel integral).
 
-$$P = \frac{377 \times 1.2188}{16\pi}I_0^2 = 9.16\,I_0^2$$
+$$
+P = \frac{377 \times 1.2188}{16\pi}I_0^2 = 9.16\,I_0^2
+$$
 
 Radiation resistance: $R_{\text{rad} = 2P/I_0^2 = 18.3\,\Omega}$.
 
@@ -231,20 +279,9 @@ dipole ($D = 1.5$).
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/) -- The Larmor formula and radiation resistance connect the multipole expansion to practical antenna calculations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-```mermaid
-flowchart TD
-    A[11_Advanced Electrodynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

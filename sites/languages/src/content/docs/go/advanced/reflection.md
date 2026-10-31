@@ -62,9 +62,9 @@ fmt.Println(t.Name()) // MyInt
 fmt.Println(t.Kind()) // int
 ```
 
-`Kind` is one of: `Bool``Int``Int8``Int16``Int32``Int64``Uint``Uint8``Uint16`
-`Uint32``Uint64``Float32``Float64``Complex64``Complex128``String``Array``Slice`
-`Map``Chan``Func``Interface``Struct``Ptr``UnsafePointer`.
+`Kind` is one of: `Bool`, `Int`, `Int8`, `Int16`, `Int32`, `Int64`, `Uint`, `Uint8`, `Uint16`
+`Uint32`, `Uint64`, `Float32`, `Float64`, `Complex64`, `Complex128`, `String`, `Array`, `Slice`
+`Map`, `Chan`, `Func`, `Interface`, `Struct`, `Ptr`, `UnsafePointer`.
 
 ## Modifying Values
 
@@ -252,7 +252,7 @@ reflect.ValueOf(&p).Elem().FieldByName("Name").SetString("Alice")
 ```
 
 If performance is critical, avoid reflection. Consider code generation (text/template) or generics
-As alternatives.
+as alternatives.
 
 ## Intuition
 
@@ -285,17 +285,6 @@ As alternatives.
 7. **Ignoring `CanAddr` and `CanSet`.** Not all `reflect.Value` objects are addressable or settable.
    Always check before attempting modification.
 
-
-```mermaid
-flowchart TD
-    A[Reflection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of reflection, including underlying theory, practical
@@ -309,13 +298,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

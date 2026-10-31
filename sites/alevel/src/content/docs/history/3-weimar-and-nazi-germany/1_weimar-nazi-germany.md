@@ -27,7 +27,7 @@ state represent one of the most studied and consequential periods in modern hist
 
 ## Historical Context and Chronology
 
-Germany"s first democratic experiment, the Weimar Republic (1919-1933), was born in defeat and
+Germany's first democratic experiment, the Weimar Republic (1919-1933), was born in defeat and
 revolution at the end of the First World War. It faced existential challenges from the outset: the
 stigma of the "stab-in-the-back" myth (Dolchstosslegende), punitive reparations, hyperinflation, and
 violent political extremism from both left and right.
@@ -43,6 +43,8 @@ approximately six million Jews and millions of other victims.
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Period                  | Dates     | Key Themes                                                        |
 | ----------------------- | --------- | ----------------------------------------------------------------- |
 | Revolution and founding | 1918-1919 | Abdication of Kaiser, Spartacist uprising, Treaty of Versailles   |
@@ -52,6 +54,8 @@ approximately six million Jews and millions of other victims.
 | Consolidation           | 1933-1934 | Gleichschaltung, Night of the Long Knives, Führerstaat            |
 | Nazi state              | 1934-1939 | Economic policy, social policies, persecution of Jews, rearmament |
 | War and genocide        | 1939-1945 | WWII, Holocaust, total war, defeat                                |
+
+</div>
 
 ## Key Events with Dates and Significance
 
@@ -134,6 +138,8 @@ approximately six million Jews and millions of other victims.
 
 ## Key Figures and Their Roles
 
+<div class="table-wrap">
+
 | Figure            | Role                                | Significance                                                                              |
 | ----------------- | ----------------------------------- | ----------------------------------------------------------------------------------------- |
 | Friedrich Ebert   | First Weimar President              | Established the Republic; compromised with the old elite and military                     |
@@ -145,6 +151,8 @@ approximately six million Jews and millions of other victims.
 | Ernst Röhm        | Leader of the SA                    | Threatened army dominance; murdered in the Night of the Long Knives                       |
 | Albert Speer      | Armaments Minister                  | Managed wartime production; presented himself as the "apolitical technocrat" at Nuremberg |
 | Rosa Luxemburg    | Communist leader                    | Murdered in 1919; symbol of revolutionary socialism in Germany                            |
+
+</div>
 
 ## Historiographical Debates
 
@@ -301,17 +309,6 @@ reality. Terror and propaganda were effective but never achieved total control o
 ## Intuition
 
 The Weimar Republic was like a bridge built from two ends that never quite met in the middle: democratic ideals from one side, entrenched military and aristocratic traditions from the other. The Depression was the truck that proved the bridge was not strong enough. Hitler did not storm the building; he was handed the keys by people who thought they could control him, like hiring a wolf to guard the sheep. The Nazi state itself resembled a corporation with too many rival departments, each pursuing its own agenda while competing for the boss's approval. This chaos, paradoxically, made the regime more dangerous, not less.
-
-
-```mermaid
-flowchart TD
-    A[1_Weimar Nazi Germany] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

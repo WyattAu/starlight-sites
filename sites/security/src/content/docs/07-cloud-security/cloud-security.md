@@ -21,7 +21,7 @@ categories:
 ## Shared Responsibility Model
 
 Cloud security is governed by a shared responsibility model. The division of responsibility between
-The cloud provider and the customer depends on the service model (IaaS, PaaS, or SaaS).
+the cloud provider and the customer depends on the service model (IaaS, PaaS, or SaaS).
 Misunderstanding this boundary is the single most common cause of cloud security incidents.
 
 ### IaaS (Infrastructure as a Service)
@@ -30,6 +30,8 @@ In IaaS (e.g., EC2, VMs), the provider secures the physical infrastructure: the 
 Servers, storage hardware, and the hypervisor. The customer is responsible for everything above the
 Hypervisor: the operating system, runtime, application, data, and network configuration (security
 Groups, NACLs).
+
+<div class="table-wrap">
 
 | Responsibility                             | Provider                            | Customer        |
 | ------------------------------------------ | ----------------------------------- | --------------- |
@@ -43,10 +45,14 @@ Groups, NACLs).
 | Identity and access management             | No (they run IAM; you configure it) | Yes             |
 | Client-side encryption                     | No                                  | Yes             |
 
+</div>
+
 ### PaaS (Platform as a Service)
 
 In PaaS (e.g., Lambda, App Engine, Azure Functions), the provider also manages the operating system
-And runtime. The customer is responsible only for the application code, data, and access controls.
+and runtime. The customer is responsible only for the application code, data, and access controls.
+
+<div class="table-wrap">
 
 | Responsibility                    | Provider              | Customer |
 | --------------------------------- | --------------------- | -------- |
@@ -56,10 +62,14 @@ And runtime. The customer is responsible only for the application code, data, an
 | Data encryption                   | Partial               | Yes      |
 | IAM configuration                 | No (runs the service) | Yes      |
 
+</div>
+
 ### SaaS (Software as a Service)
 
 In SaaS (e.g., Office 365, Salesforce, Gmail), the provider manages nearly everything. The customer
-Is responsible only for data and access.
+is responsible only for data and access.
+
+<div class="table-wrap">
 
 | Responsibility                                           | Provider | Customer |
 | -------------------------------------------------------- | -------- | -------- |
@@ -67,6 +77,8 @@ Is responsible only for data and access.
 | Data classification and governance                       | No       | Yes      |
 | User access management                                   | Partial  | Yes      |
 | Compliance verification                                  | No       | Yes      |
+
+</div>
 
 ### The Key Principle
 
@@ -82,7 +94,7 @@ You always own the responsibility for:
 ## Identity and Access Management (IAM)
 
 IAM is the foundational security control in cloud environments. It determines who can do what to
-Which resources.
+which resources.
 
 ### Core Concepts
 
@@ -98,7 +110,7 @@ Which resources.
 ### Least Privilege
 
 Every principal should have only the permissions necessary to perform its intended function. This is
-The principle of least privilege. In practice, this means:
+the principle of least privilege. In practice, this means:
 
 - Use read-only permissions for workloads that do not need to write.
 - Scope permissions to specific resources, not wildcards (`*`).
@@ -136,12 +148,12 @@ IAM policy evaluation follows a deterministic order:
 3. Default deny (implicit)
 
 A policy that denies access to a resource will always override an allow, even if the allow comes
-From a higher-priority policy.
+from a higher-priority policy.
 
 ### S3 Bucket Policies
 
 S3 bucket policies are resource-based policies attached to S3 buckets. They define what principals
-Can access the bucket and under what conditions.
+can access the bucket and under what conditions.
 
 Common misconfigurations:
 
@@ -178,6 +190,8 @@ Secure bucket policy example:
 
 ### Security Groups vs NACLs
 
+<div class="table-wrap">
+
 | Property        | Security Groups                         | NACLs                                          |
 | --------------- | --------------------------------------- | ---------------------------------------------- |
 | Layer           | Instance-level                          | Subnet-level                                   |
@@ -186,8 +200,10 @@ Secure bucket policy example:
 | Rule evaluation | All rules evaluated (first match wins)  | Rules evaluated in order (lowest number first) |
 | Applies to      | ENI (Elastic Network Interface)         | All instances in the subnet                    |
 
+</div>
+
 Security groups are the primary defense. NACLs provide an additional layer but should not be relied
-Upon as the sole defense mechanism.
+upon as the sole defense mechanism.
 
 ### KMS (Key Management Service)
 
@@ -254,7 +270,7 @@ Azure RBAC defines permissions at the resource, resource group, or subscription 
 
 - **Built-in roles:** Owner, Contributor, Reader, User Access Administrator, and many
   service-specific roles (e.g., Storage Blob Data Contributor).
-- **Custom roles:** JSON-defined roles with `actions``notActions``dataActions`And
+- **Custom roles:** JSON-defined roles with `actions`, `notActions`, `dataActions` and
   `assignableScopes`.
 - **Key principle:** Use the most restrictive built-in role, and create custom roles only when
   necessary.
@@ -262,7 +278,7 @@ Azure RBAC defines permissions at the resource, resource group, or subscription 
 ### Azure Policy
 
 Azure Policy enforces organizational standards. It evaluates resources against policy definitions
-And can enforce or audit compliance. Examples:
+and can enforce or audit compliance. Examples:
 
 - Require encryption on storage accounts.
 - Restrict VM sizes to approved SKUs.
@@ -405,7 +421,7 @@ Metadata service is accessible from within the instance.
 - **GCP:** `http://metadata.google.internal/computeMetadata/v1/`
 
 An attacker who can trigger an SSRF vulnerability in your application can query the metadata service
-And steal IAM credentials.
+and steal IAM credentials.
 
 Prevention:
 
@@ -462,15 +478,15 @@ Misconfigured.
 
 Key security controls:
 
-1. **Minimal base image.** Use `scratch``alpine`Or `distroless` images. Do not install unnecessary
+1. **Minimal base image.** Use `scratch`, `alpine` or `distroless` images. Do not install unnecessary
    packages.
 2. **Run as non-root.** The default Dockerfile `USER root` is dangerous. Always create a non-root
    user and use `USER <username>`.
 3. **Read-only filesystem.** Use `--read-only` flag to prevent runtime modifications to the
    filesystem.
 4. **Drop capabilities.** Use `--cap-drop ALL` and add only the specific capabilities needed
-   (`--cap-add NET_BIND_SERVICE`For example).
-5. **Resource limits.** Set CPU and memory limits (`--cpus``--memory`) to prevent resource
+   (`--cap-add NET_BIND_SERVICE`. For example).
+5. **Resource limits.** Set CPU and memory limits (`--cpus`, `--memory`) to prevent resource
    exhaustion.
 6. **Network isolation.** Use user-defined bridge networks instead of the default bridge. Use
    network policies to restrict inter-container communication.
@@ -558,6 +574,8 @@ CSPM tools continuously monitor cloud environments for misconfigurations and com
 
 ### Tools
 
+<div class="table-wrap">
+
 | Tool                        | Cloud(s)    | Notes                                                 |
 | --------------------------- | ----------- | ----------------------------------------------------- |
 | AWS Security Hub            | AWS         | Aggregates findings from GuardDuty, Config, Inspector |
@@ -567,6 +585,8 @@ CSPM tools continuously monitor cloud environments for misconfigurations and com
 | Prisma Cloud (Palo Alto)    | Multi-cloud | CSPM + CWPP + CNAPP                                   |
 | Orca Security               | Multi-cloud | Agentless, side-scanning                              |
 | Lacework                    | Multi-cloud | Polygraph data platform                               |
+
+</div>
 
 ### CSPM Implementation Strategy
 
@@ -602,7 +622,7 @@ SOC 2 defines criteria for managing customer data based on five Trust Services C
 ISO 27001 is an international standard for information security management systems (ISMS). It
 Provides a framework for establishing, implementing, maintaining, and continually improving an ISMS.
 Cloud providers (AWS, Azure, GCP) are ISO 27001 certified, but the customer's use of cloud services
-Must also comply.
+must also comply.
 
 ### FedRAMP
 
@@ -619,7 +639,7 @@ AWS GovCloud, Azure Government, and GCP FedRAMP programs provide compliant envir
 ### GDPR and Cloud
 
 The General Data Protection Regulation (GDPR) applies to any organization processing personal data
-Of EU residents, regardless of where the organization is located. In cloud environments, GDPR
+of EU residents, regardless of where the organization is located. In cloud environments, GDPR
 Compliance requires:
 
 - **Data residency.** Know where data is stored and processed. Use region-locked deployments.
@@ -644,8 +664,8 @@ Default to allow all outbound traffic. Always review and harden defaults.
 ### Not Enabling Logging
 
 Without CloudTrail, Azure Activity Logs, or GCP Audit Logs, you have no visibility into who is doing
-What in your environment. After a breach, you will not be able to determine the scope or timeline of
-The attack.
+what in your environment. After a breach, you will not be able to determine the scope or timeline of
+the attack.
 
 ### Cross-Account Trust Misconfiguration
 
@@ -660,7 +680,7 @@ Egress. Monitor and restrict outbound traffic, especially to unexpected IP range
 ### Stale Credentials
 
 Service account keys, access keys, and certificates that are never rotated or revoked. A key that
-Was created 3 years ago and has not been used in 2 years should be deleted.
+was created 3 years ago and has not been used in 2 years should be deleted.
 
 ## Practice Problems
 
@@ -668,7 +688,7 @@ Was created 3 years ago and has not been used in 2 years should be deleted.
 
 A company uses AWS Lambda to run an API backend. The Lambda function reads from an S3 bucket and
 Writes to a DynamoDB table. Who is responsible for patching the operating system? Who is responsible
-For securing the API endpoint?
+for securing the API endpoint?
 
 <details>
 <summary>Answer</summary>
@@ -708,7 +728,7 @@ The user attempts to access `s3://prod-data/secret/report.pdf`. Is the access gr
 
 Policy B explicitly denies access to `prod-data/secret/*`. The resource
 `prod-data/secret/report.pdf` matches this path. Even though Policy A allows access to
-`prod-data/*`The explicit deny in Policy B takes precedence. Access is denied.
+`prod-data/*`. The explicit deny in Policy B takes precedence. Access is denied.
 
 </details>
 
@@ -770,8 +790,8 @@ An attacker gains code execution inside the container. What can they do?
 <details>
 <summary>Answer</summary>
 
-With `--privileged`The container has full access to all host devices (equivalent to `--cap-add ALL`
-plus access to all `/dev` devices). Combined with `-v /:/host-root`Which mounts The host's root
+With `--privileged`. The container has full access to all host devices (equivalent to `--cap-add ALL`
+plus access to all `/dev` devices). Combined with `-v /:/host-root`. Which mounts The host's root
 filesystem into the container, the attacker can:
 
 1. **Modify host files:** Write to `/host-root/etc/shadow` to add a backdoor user, or modify
@@ -903,17 +923,6 @@ Access.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[Cloud Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to cloud security, including key
@@ -927,13 +936,7 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

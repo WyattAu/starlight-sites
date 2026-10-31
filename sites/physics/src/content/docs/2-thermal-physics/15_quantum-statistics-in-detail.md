@@ -21,7 +21,9 @@ description: 'Quantum Statistics in Detail: comprehensive educational content no
 
 For non-interacting quantum particles:
 
-$$\langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} \pm 1}$$
+$$
+\langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} \pm 1}
+$$
 
 Where $+$ is for fermions (Fermi--Dirac) and $-$ for bosons (Bose--Einstein).
 
@@ -34,53 +36,77 @@ when $\epsilon_i = \mu$.
 
 For a 3D gas of $N$ non-interacting fermions in volume $V$:
 
-$$N = \sum_{\mathbf{k}} \frac{1}{e^{\beta(\hbar^2 k^2/2m - \mu)} + 1} \xrightarrow{\text{continuum} \frac{V}{(2\pi)^3}\int d^3k\, f(\epsilon_k)}$$
+$$
+N = \sum_{\mathbf{k}} \frac{1}{e^{\beta(\hbar^2 k^2/2m - \mu)} + 1} \xrightarrow{\text{continuum} \frac{V}{(2\pi)^3}\int d^3k\, f(\epsilon_k)}
+$$
 
 The **Fermi energy** at $T = 0$:
 
-$$\epsilon_F = \frac{\hbar^2}{2m}(3\pi^2 n)^{2/3}$$
+$$
+\epsilon_F = \frac{\hbar^2}{2m}(3\pi^2 n)^{2/3}
+$$
 
 Where $n = N/V$ is the number density. The **Fermi temperature** is $T_F = \epsilon_F/k_B$.
 
 At low temperature ($T \ll T_F$), the Sommerfeld expansion gives:
 
-$$E = \frac{3}{5}N\epsilon_F\left[1 + \frac{5\pi^2}{12}\left(\frac{T}{T_F}\right)^2 + \cdots\right]$$
+$$
+E = \frac{3}{5}N\epsilon_F\left[1 + \frac{5\pi^2}{12}\left(\frac{T}{T_F}\right)^2 + \cdots\right]
+$$
 
-$$C_V = Nk_B\frac{\pi^2}{2}\frac{T}{T_F} + \cdots$$
+$$
+C_V = Nk_B\frac{\pi^2}{2}\frac{T}{T_F} + \cdots
+$$
 
 The linear specific heat is a hallmark of degenerate Fermi systems.
 
 ### 15.3 The Bose Gas and Bose--Einstein Condensation
 
 For bosons, the chemical potential must satisfy $\mu \leq \epsilon_0$ (ground state energy). When
-$\mu \to \epsilon_0$A macroscopic fraction of particles condenses into the ground state.
+$\mu \to \epsilon_0$ A macroscopic fraction of particles condenses into the ground state.
 
 The **critical temperature** for BEC in 3D:
 
-$$T_c = \frac{2\pi\hbar^2}{mk_B}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$$
+$$
+T_c = \frac{2\pi\hbar^2}{mk_B}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}
+$$
 
 Where $\zeta(3/2) \approx 2.612$.
 
-Below $T_c$The condensate fraction is:
+Below $T_c$ The condensate fraction is:
 
-$$\frac{N_0}{N} = 1 - \left(\frac{T}{T_c}\right)^{3/2}$$
+$$
+\frac{N_0}{N} = 1 - \left(\frac{T}{T_c}\right)^{3/2}
+$$
 
 <details>
 <summary>Worked Example 15.1: Fermi Energy of Copper</summary>
 
 Copper has one conduction electron per atom, atomic mass $63.5$ g/mol, density $8.96$ g/cm$^3$.
 
-$$n = \frac{8.96 \times 10^3 \text{ kg/m}^3}{63.5 \times 10^{-3} \text{ kg/mol} \times N_A = 1.41 \times 10^{29} \text{ m}^{-3} \times 6.022 \times 10^{23} = 8.49 \times 10^{28} \text{ m}^{-3}}$$
+$$
+n = \frac{8.96 \times 10^3 \text{ kg/m}^3}{63.5 \times 10^{-3} \text{ kg/mol} \times N_A = 1.41 \times 10^{29} \text{ m}^{-3} \times 6.022 \times 10^{23} = 8.49 \times 10^{28} \text{ m}^{-3}}
+$$
 
-$$\epsilon_F = \frac{\hbar^2}{2m_e}(3\pi^2 \times 8.49 \times 10^{28})^{2/3}$$
+$$
+\epsilon_F = \frac{\hbar^2}{2m_e}(3\pi^2 \times 8.49 \times 10^{28})^{2/3}
+$$
 
-$$= \frac{(1.055 \times 10^{-34})^2}{2 \times 9.109 \times 10^{-31}} \times (2.52 \times 10^{30})^{2/3}$$
+$$
+= \frac{(1.055 \times 10^{-34})^2}{2 \times 9.109 \times 10^{-31}} \times (2.52 \times 10^{30})^{2/3}
+$$
 
-$$= \frac{1.113 \times 10^{-68}}{1.822 \times 10^{-30}} \times 1.846 \times 10^{20}$$
+$$
+= \frac{1.113 \times 10^{-68}}{1.822 \times 10^{-30}} \times 1.846 \times 10^{20}
+$$
 
-$$= 6.11 \times 10^{-39} \times 1.846 \times 10^{20} = 1.13 \times 10^{-18} \text{ J}$$
+$$
+= 6.11 \times 10^{-39} \times 1.846 \times 10^{20} = 1.13 \times 10^{-18} \text{ J}
+$$
 
-$$T_F = \frac{1.13 \times 10^{-18}}{1.38 \times 10^{-23}} \approx 81\,900 \text{ K}$$
+$$
+T_F = \frac{1.13 \times 10^{-18}}{1.38 \times 10^{-23}} \approx 81\,900 \text{ K}
+$$
 
 This is enormously higher than room temperature, confirming that conduction electrons in metals form
 a highly degenerate Fermi gas.
@@ -93,21 +119,31 @@ a highly degenerate Fermi gas.
 For $N = 10^6$ rubidium-87 atoms in a harmonic trap with frequency $\bar{\omega}/(2\pi) = 100$ Hz:
 
 In a harmonic trap, the density of states is
-$g(\epsilon) = \epsilon^2/(2\hbar^3\bar{\omega}^3)$Giving:
+$g(\epsilon) = \epsilon^2/(2\hbar^3\bar{\omega}^3)$ Giving:
 
-$$T_c = \frac{\hbar\bar{\omega}}{k_B}\left(\frac{6N}{\pi^2\zeta(3)}\right)^{1/3}$$
+$$
+T_c = \frac{\hbar\bar{\omega}}{k_B}\left(\frac{6N}{\pi^2\zeta(3)}\right)^{1/3}
+$$
 
-$$= \frac{1.055 \times 10^{-34} \times 2\pi \times 100}{1.38 \times 10^{-23}}\left(\frac{6 \times 10^6}{\pi^2 \times 1.202}\right)^{1/3}$$
+$$
+= \frac{1.055 \times 10^{-34} \times 2\pi \times 100}{1.38 \times 10^{-23}}\left(\frac{6 \times 10^6}{\pi^2 \times 1.202}\right)^{1/3}
+$$
 
-$$= \frac{6.63 \times 10^{-32}}{1.38 \times 10^{-23}} \times (5.07 \times 10^5)^{1/3}$$
+$$
+= \frac{6.63 \times 10^{-32}}{1.38 \times 10^{-23}} \times (5.07 \times 10^5)^{1/3}
+$$
 
-$$= 4.81 \times 10^{-9} \times 79.7 \approx 383 \text{ nK}$$
+$$
+= 4.81 \times 10^{-9} \times 79.7 \approx 383 \text{ nK}
+$$
 
 This is consistent with the 1995 Cornell--Wieman BEC experiment.
 
 </details>
 
 ### Key Relationships
+
+<div class="table-wrap">
 
 | Concept | Relation | Significance |
 | --------- | ---------- | -------------- |
@@ -117,16 +153,7 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 | Sommerfeld expansion | $C_V \propto T/T_F$ | Linear specific heat at low $T$ |
 | Condensate fraction | $N_0/N = 1 - (T/T_c)^{3/2}$ | Order parameter for BEC |
 
-
-```mermaid
-flowchart TD
-    A[15_Quantum Statistics In Detail] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 
@@ -158,6 +185,8 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 
 ### Summary Table: Comparison of Quantum and Classical Gases
 
+<div class="table-wrap">
+
 | Property | Maxwell--Boltzmann | Fermi--Dirac | Bose--Einstein |
 | ---------- | ------------------- | ------------- | ---------------- |
 | Particles | Distinguishable | Indistinguishable fermions | Indistinguishable bosons |
@@ -167,6 +196,8 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 | Validity condition | $n\lambda_{\text{th}}^3 \ll 1$ | $n\lambda_{\text{th}}^3 \gtrsim 1$ | $n\lambda_{\text{th}}^3 \gtrsim 2.612$ |
 | Symmetry of wavefunction | No constraint | Antisymmetric | Symmetric |
 
+</div>
+
 ## Cross-References
 
 - **[Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)**: The Maxwell-Boltzmann distribution emerges as the high-temperature limit of both quantum distributions derived here.
@@ -174,48 +205,7 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 - **[Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)**: The Fermi-Dirac distribution is applied to electrons in metals, giving the linear specific heat and Fermi surface.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -37,11 +37,15 @@ Requirements and to identify defects.
 
 ### Verification vs Validation
 
+<div class="table-wrap">
+
 | Aspect   | Verification                         | Validation                           |
 | -------- | ------------------------------------ | ------------------------------------ |
 | Question | "Are we building the product right?" | "Are we building the right product?" |
 | Focus    | Conformance to specification         | Meets user needs and expectations    |
 | Activity | Reviews, inspections, walkthroughs   | Testing with real-world scenarios    |
+
+</div>
 
 <hr />
 
@@ -75,11 +79,15 @@ def test_add():
 
 **Approaches:**
 
+<div class="table-wrap">
+
 | Approach  | Description                                                  |
 | --------- | ------------------------------------------------------------ |
 | Top-down  | Test from the top module down, using stubs for lower modules |
 | Bottom-up | Test from the bottom up, using drivers for higher modules    |
 | Big Bang  | Integrate all modules at once and test                       |
+
+</div>
 
 ### 2.3 System Testing
 
@@ -96,11 +104,15 @@ Types:
 **Definition:** Testing by the customer or end-user to determine if the system meets their
 Requirements.
 
+<div class="table-wrap">
+
 | Type                 | Description                                             |
 | -------------------- | ------------------------------------------------------- |
 | Alpha testing        | Testing by the development team at the developer"s site |
 | Beta testing         | Testing by selected users at their own sites            |
 | User acceptance test | Formal testing to determine if requirements are met     |
+
+</div>
 
 :::note
 - **AQA** requires unit testing, integration testing, system testing, acceptance testing; requires
@@ -123,15 +135,19 @@ Implementation. Tests are based on requirements and specifications.
 ### Equivalence Partitioning
 
 Divide input data into **equivalence classes**, groups of inputs that the system should treat the
-Same way. Test one representative from each class.
+same way. Test one representative from each class.
 
 **Example:** A function accepts ages 0-120.
+
+<div class="table-wrap">
 
 | Equivalence class  | Range      | Test value |
 | ------------------ | ---------- | ---------- |
 | Valid              | $[0, 120]$ | 25         |
 | Invalid (too low)  | $\lt 0$    | -1         |
 | Invalid (too high) | $\gt 120$  | 150        |
+
+</div>
 
 ### Boundary Value Analysis
 
@@ -141,10 +157,14 @@ Test values at the **boundaries** of equivalence classes, where errors are most 
 
 **Example:** Age range $[0, 120]$:
 
+<div class="table-wrap">
+
 | Boundary | Test values   |
 | -------- | ------------- |
 | Lower    | -1, 0, 1      |
 | Upper    | 119, 120, 121 |
+
+</div>
 
 **Why boundaries?** Off-by-one errors are among the most common programming mistakes. If a developer
 Writes `age < 120` instead of `age <= 120`Boundary testing catches it immediately.
@@ -153,12 +173,16 @@ Writes `age < 120` instead of `age <= 120`Boundary testing catches it immediatel
 
 Create a table listing all combinations of conditions and the expected actions.
 
+<div class="table-wrap">
+
 | Condition 1 | Condition 2 | Action |
 | ----------- | ----------- | ------ |
 | True        | True        | A      |
 | True        | False       | B      |
 | False       | True        | C      |
 | False       | False       | D      |
+
+</div>
 
 ### State Transition Testing
 
@@ -179,13 +203,17 @@ Tests are based on code paths, branches, and conditions.
 
 **Definition:** The percentage of executable statements that have been executed by the test suite.
 
-$$\mathrm{Statement coverage} = \frac{\mathrm{Statements executed}}{\mathrm{Total statements}} \times 100\%$$
+$$
+\mathrm{Statement coverage} = \frac{\mathrm{Statements executed}}{\mathrm{Total statements}} \times 100\%
+$$
 
 ### Branch (Decision) Coverage
 
 **Definition:** The percentage of decision outcomes (true/false branches) that have been taken.
 
-$$\mathrm{Branch coverage} = \frac{\mathrm{Branches taken}}{\mathrm{Total branches}} \times 100\%$$
+$$
+\mathrm{Branch coverage} = \frac{\mathrm{Branches taken}}{\mathrm{Total branches}} \times 100\%
+$$
 
 **Theorem.** 100% statement coverage does not imply 100% branch coverage.
 
@@ -232,9 +260,16 @@ But only 50% branch coverage (the false branch of the if-statement is never take
 **Traceability** links requirements to test cases, ensuring every requirement is tested and every
 Test case maps to a requirement.
 
+```mermaid
+flowchart LR
+    R[Requirement] --> D[Design]
+    D --> C[Code]
+    C --> T[Test Case]
+    T --> V[Test Result]
 ```
-Requirement → Design → Code → Test Case → Test Result
-```
+
+Every stage leaves an artefact that the next stage can check against — if a test result cannot be
+traced back to a requirement, either the test or the requirement is missing.
 
 A **traceability matrix** maps each requirement to the test cases that verify it.
 
@@ -256,6 +291,8 @@ Using equivalence partitioning and boundary value analysis, identify all test ca
 
 **Equivalence classes:**
 
+<div class="table-wrap">
+
 | Class              | Range          | Test value |
 | ------------------ | -------------- | ---------- |
 | Child              | $[0, 12]$      | 6          |
@@ -264,7 +301,11 @@ Using equivalence partitioning and boundary value analysis, identify all test ca
 | Senior             | $[65, \infty)$ | 70         |
 | Invalid (negative) | $\lt 0$        | -1         |
 
+</div>
+
 **Boundary value analysis:**
+
+<div class="table-wrap">
 
 | Boundary | Values     |
 | -------- | ---------- |
@@ -272,6 +313,8 @@ Using equivalence partitioning and boundary value analysis, identify all test ca
 | 12/13    | 12, 13, 14 |
 | 17/18    | 17, 18, 19 |
 | 64/65    | 64, 65, 66 |
+
+</div>
 
 Total test cases: 5 (equivalence) + 12 (boundary) = 17 (some overlap).
 
@@ -286,7 +329,9 @@ A **stub** is a simple replacement for a dependency that returns predefined resp
 Canned answers to calls.
 
 A **mock** is a more sophisticated replacement that **verifies** how it was called, it records the
-Calls and can assert that specific methods were called with specific arguments.
+calls and can assert that specific methods were called with specific arguments.
+
+<div class="table-wrap">
 
 | Feature    | Stub                                  | Mock                                  |
 | ---------- | ------------------------------------- | ------------------------------------- |
@@ -294,6 +339,8 @@ Calls and can assert that specific methods were called with specific arguments.
 | Asserts    | On return values                      | On method calls                       |
 | Complexity | Simple                                | More complex                          |
 | Example    | Fake database returning fixed records | Verify `send_email()` was called once |
+
+</div>
 
 </details>
 
@@ -380,7 +427,7 @@ Example.
 <summary>Answer</summary>
 
 100% statement coverage means every line of code has been executed at least once, but it does not
-Guarantee:
+guarantee:
 
 1. All combinations of conditions are tested
 2. All data flows are tested
@@ -441,6 +488,8 @@ Modules may be found late
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Rule | User    | Password  | Locked | Action                         |
 | ---- | ------- | --------- | ------ | ------------------------------ |
 | 1    | Valid   | Correct   | No     | Login success                  |
@@ -449,8 +498,10 @@ Modules may be found late
 | 4    | Valid   | Incorrect | Yes    | Show "account locked"          |
 | 5    | Invalid | Any       | Any    | Show "user not found"          |
 
+</div>
+
 Rules 3, 4, 5 could potentially be merged (locked or invalid user always shows an error), but for
-Completeness, they're listed separately.
+completeness, they're listed separately.
 
 </details>
 
@@ -494,12 +545,18 @@ One digit, and one special character.
 
 **Boundary value analysis for length:**
 
+<div class="table-wrap">
+
 | Boundary        | Values     | Expected               |
 | --------------- | ---------- | ---------------------- |
 | Min length (8)  | 7, 8, 9    | Reject, Accept, Accept |
 | Max length (20) | 19, 20, 21 | Accept, Accept, Reject |
 
+</div>
+
 **Equivalence partitioning for character requirements:**
+
+<div class="table-wrap">
 
 | Class           | Test input                         | Expected |
 | --------------- | ---------------------------------- | -------- |
@@ -510,11 +567,15 @@ One digit, and one special character.
 | Too short       | `Abc1!`                            | Reject   |
 | Too long        | `Abcdefghijklmnopqr1!x` (22 chars) | Reject   |
 
+</div>
+
 ### Worked Example: Equivalence Partitioning for a Date Validator
 
 A function accepts dates in the format `DD/MM/YYYY` where the year must be between 1900 and 2100.
 
 **Equivalence classes:**
+
+<div class="table-wrap">
 
 | Class          | Description                          | Test value   | Expected |
 | -------------- | ------------------------------------ | ------------ | -------- |
@@ -525,6 +586,8 @@ A function accepts dates in the format `DD/MM/YYYY` where the year must be betwe
 | Year too late  | Year &gt; 2100                       | `15/06/2101` | Reject   |
 | Invalid format | Wrong separator or order             | `06-15-2024` | Reject   |
 
+</div>
+
 **Boundary values for year:** `1899, 1900, 1901` and `2099, 2100, 2101`
 
 **Additional boundary values for day:** Test February 29 (leap year): `29/02/2024` (accept),
@@ -532,8 +595,10 @@ A function accepts dates in the format `DD/MM/YYYY` where the year must be betwe
 
 ### Worked Example: Test Cases for a Stack with Fixed Size
 
-A stack has a maximum capacity of 5 elements. Operations: `push(item)``pop()``peek()`
-`is_empty()``is_full()`.
+A stack has a maximum capacity of 5 elements. Operations: `push(item)`, `pop()`, `peek()`
+`is_empty()`, `is_full()`.
+
+<div class="table-wrap">
 
 | Test case            | Input                          | Expected output             |
 | -------------------- | ------------------------------ | --------------------------- |
@@ -547,15 +612,25 @@ A stack has a maximum capacity of 5 elements. Operations: `push(item)``pop()``pe
 | Pop then push        | Push 5, pop 1, push 1          | Stack has 5 items, no error |
 | Order preserved      | Push 1, 2, 3; pop twice        | Returns 3, then 2           |
 
+</div>
+
 <hr />
 
 ## 8. Test-Driven Development Workflow
 
 ### Detailed TDD Cycle
 
+```mermaid
+flowchart LR
+    W[Write failing test] --> F[See it fail — Red]
+    F --> M[Write minimum code]
+    M --> P[See it pass — Green]
+    P --> R[Refactor]
+    R --> W
 ```
-Write failing test → See it fail (Red) → Write minimum code → See it pass (Green) → Refactor → Repeat
-```
+
+The loop is the point: each cycle adds one small, verified behaviour, and the tests accumulated
+from previous cycles guard against regressions while you refactor.
 
 ### Worked Example: TDD for an `is_prime` Function
 
@@ -620,6 +695,8 @@ def test_is_prime():
 
 ### Benefits of TDD in Practice
 
+<div class="table-wrap">
+
 | Benefit                | Explanation                                                                       |
 | ---------------------- | --------------------------------------------------------------------------------- |
 | Design improvement     | Writing tests first forces you to think about the interface before implementation |
@@ -628,9 +705,13 @@ def test_is_prime():
 | Living documentation   | Tests demonstrate how the code is intended to be used                             |
 | Smaller code           | Writing only enough code to pass the test discourages over-engineering            |
 
+</div>
+
 <hr />
 
 ## 9. Common Pitfalls
+
+<div class="table-wrap">
 
 | Pitfall                         | Explanation                                                          | Avoidance                                                                        |
 | ------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -640,6 +721,8 @@ def test_is_prime():
 | Test interdependence            | Tests that depend on execution order produce false passes/failures   | Each test should set up its own state and clean up after itself                  |
 | Ignoring non-functional testing | Performance, security, and usability bugs reach production           | Include load tests, security scans, and user acceptance tests                    |
 | Over-reliance on code coverage  | 100% coverage does not mean 100% correctness                         | Combine coverage metrics with manual test design (equivalence partitioning, BVA) |
+
+</div>
 
 <hr />
 
@@ -661,16 +744,22 @@ Boundaries are at BMI values: 18.5, 25, and 30.
 
 For each boundary, test the value, and the values immediately above and below:
 
+<div class="table-wrap">
+
 | Boundary | Test values      | Expected                       |
 | -------- | ---------------- | ------------------------------ |
 | 18.5     | 18.4, 18.5, 18.6 | Underweight, Normal, Normal    |
 | 25.0     | 24.9, 25.0, 25.1 | Normal, Overweight, Overweight |
 | 30.0     | 29.9, 30.0, 30.1 | Overweight, Obese, Obese       |
 
+</div>
+
 To produce these BMIs from weight and height, choose fixed height (e.g., 1.7m) and calculate the
-Corresponding weights.
+corresponding weights.
 
 For height = 1.7m: BMI = weight / (1.7 \* 1.7) = weight / 2.89
+
+<div class="table-wrap">
 
 | Target BMI | Weight (kg) |
 | ---------- | ----------- |
@@ -684,6 +773,8 @@ For height = 1.7m: BMI = weight / (1.7 \* 1.7) = weight / 2.89
 | 30.0       | 86.7        |
 | 30.1       | 87.0        |
 
+</div>
+
 </details>
 
 **Problem 2.** A function `merge_sorted(a, b)` merges two sorted arrays into one sorted array. Write
@@ -693,6 +784,8 @@ A set of test cases using equivalence partitioning.
 <summary>Answer</summary>
 
 **Equivalence classes for inputs:**
+
+<div class="table-wrap">
 
 | Class                    | Description            | Test input             | Expected             |
 | ------------------------ | ---------------------- | ---------------------- | -------------------- |
@@ -705,6 +798,8 @@ A set of test cases using equivalence partitioning.
 | Negative values          | Include negatives      | `[-3, -1]``[-2, 0]`    | `[-3, -2, -1, 0]`    |
 | Different lengths        | Unequal arrays         | `[1]``[2, 3, 4, 5]`    | `[1, 2, 3, 4, 5]`    |
 | One contains all smaller | No interleaving needed | `[1, 2]``[3, 4]`       | `[1, 2, 3, 4]`       |
+
+</div>
 
 </details>
 
@@ -803,7 +898,7 @@ Notation, multi-character numerals), then implements just enough code to satisfy
 
 **Problem 5.** A software team has 500 test cases. Running all tests takes 2 hours. After a code
 Change, the team only wants to run the tests most likely to fail. Describe a strategy for selecting
-Which tests to run.
+which tests to run.
 
 <details>
 <summary>Answer</summary>
@@ -830,7 +925,7 @@ Which tests to run.
    security-related tests. If the change is to the UI, prioritise UI tests.
 
 The most practical approach: run smoke tests on every commit, run affected module tests on every
-Pull request, and run the full suite nightly.
+pull request, and run the full suite nightly.
 
 </details>
 
@@ -846,16 +941,6 @@ Pull request, and run the full suite nightly.
 
 5. **Writing tests that depend on execution order.** Each test should set up its own state and clean up after itself. Tests that depend on previous tests produce false passes (a bug masked by a prior test) or false failures (a test fails because a previous test didn't clean up).
 
-```mermaid
-flowchart TD
-    A[02 Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of testing, including underlying theory, practical
@@ -868,9 +953,6 @@ implementation, and key applications.
 - input/output systems
 - operating systems and scheduling
 - interrupts and polling
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 

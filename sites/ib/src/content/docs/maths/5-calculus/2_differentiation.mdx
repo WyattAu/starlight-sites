@@ -16,7 +16,7 @@ import DesmosGraph from "@components/DesmosGraph";
 ### Intuitive Notion of a Limit
 
 The limit of a function $f(x)$ as $x$ approaches $a$ is the value that $f(x)$ approaches, regardless
-Of whether $f(a)$ is defined:
+of whether $f(a)$ is defined:
 
 $$
 \lim_\{x \to a\} f(x) = L
@@ -45,6 +45,8 @@ $$
 
 Since the one-sided limits are not equal, the limit does not exist.
 
+<div class="table-wrap">
+
 | Limit                                                             | Value |
 | ----------------------------------------------------------------- | ----- |
 | $\displaystyle\lim_{x \to 0} \frac{\sin x}{x}$                    | $1$   |
@@ -53,6 +55,8 @@ Since the one-sided limits are not equal, the limit does not exist.
 | $\displaystyle\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x$ | $e$   |
 | $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{x}$                   | $1$   |
 | $\displaystyle\lim_{x \to 0} \frac{\ln(1+x)}{x}$                  | $1$   |
+
+</div>
 
 ### The Squeeze Theorem
 
@@ -68,7 +72,7 @@ Then $\displaystyle\lim_{x \to a} f(x) = L$.
 <Aside type="note" title="Example">
 Show that $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}\right) = 0$.
 
-Since $-1 \le \sin\!\left(\frac{1}{x}\right) \le 1$We have
+Since $-1 \le \sin\!\left(\frac{1}{x}\right) \le 1$ We have
 $-x^2 \le x^2 \sin\!\left(\frac{1}{x}\right) \le x^2$.
 
 Both $\displaystyle\lim_{x \to 0}(-x^2) = 0$ and $\displaystyle\lim_{x \to 0} x^2 = 0$.
@@ -152,13 +156,13 @@ $$
 ### Constant Multiple Rule
 
 $$
-\frac\{d\}`\{dx}`[cf(x)] = c \cdot f'(x)
+\frac{d\}\{dx}[cf(x)] = c \cdot f'(x)
 $$
 
 ### Sum and Difference Rule
 
 $$
-\frac\{d\}`\{dx}`[f(x) \pm g(x)] = f'(x) \pm g'(x)
+\frac{d\}\{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)
 $$
 
 ### The Product Rule
@@ -186,7 +190,7 @@ $$
 
 <Aside type="caution" title="Exam Tip">
 A useful mnemonic for the quotient rule: "low d-high minus high d-low, over the square of what's
-Below."
+below."
 </Aside>
 
 <Aside type="note" title="Example">
@@ -240,6 +244,8 @@ $$
 
 ## Derivatives of Standard Functions
 
+<div class="table-wrap">
+
 | $f(x)$      | $f'(x)$                    |
 | ----------- | -------------------------- |
 | $x^n$       | $nx^{n-1}$                 |
@@ -256,23 +262,25 @@ $$
 | $\arcsin x$ | $\dfrac{1}{\sqrt{1-x^2}}$  |
 | $\arccos x$ | $\dfrac{-1}{\sqrt{1-x^2}}$ |
 | $\arctan x$ | $\dfrac{1}{1+x^2}$         |
+
+</div>
 </Aside>
 
 <Aside type="caution" title="Exam Tip">
 The IB formula booklet provides the derivatives of $\sin x$$\cos x$$\tan x$$e^x$ And $\ln x$.
 Memorise the derivatives of the reciprocal trig functions and inverse trig functions as they may not
-Be in all booklets.
+be in all booklets.
 
 ---
 
 ## Implicit Differentiation
 
-When a function is not given explicitly as $y = f(x)$ but as a relation between $x$ and $y$We
+When a function is not given explicitly as $y = f(x)$ but as a relation between $x$ and $y$ We
 Differentiate both sides with respect to $x$ and solve for $\dfrac{dy}{dx}$.
 
 ### Key Idea
 
-When differentiating a term involving $y$ with respect to $x$Use the chain rule:
+When differentiating a term involving $y$ with respect to $x$ Use the chain rule:
 
 $$
 \frac\{d\}`\{dx}`[y^n] = ny^\{n-1\}\frac`\{dy}, \{dx}`
@@ -316,7 +324,7 @@ $$
 
 ### Second Derivatives Implicitly
 
-To find $\dfrac{d^2y}{dx^2}$Differentiate $\dfrac{dy}{dx}$ again, remembering that $\dfrac{dy}{dx}$
+To find $\dfrac{d^2y}{dx^2}$ Differentiate $\dfrac{dy}{dx}$ again, remembering that $\dfrac{dy}{dx}$
 is an expression in both $x$ and $y$.
 </Aside>
 
@@ -328,7 +336,7 @@ We have $\dfrac{dy}{dx} = -\dfrac{x}{y}$.
 Differentiate with respect to $x$:
 
 $$
-\frac\{d^2y\}\{dx^2\} = -\frac\{y \cdot 1 - x \cdot \frac`\{dy}, \{dx}`\}\{y^2\}
+\frac{d^2y\}\{dx^2\} = -\frac{y \cdot 1 - x \cdot \\\{dy}, \{dx}\}\{y^2\}
 $$
 
 Substitute $\dfrac{dy}{dx} = -\dfrac{x}{y}$:
@@ -353,7 +361,7 @@ When two or more quantities are related by an equation, their rates of change ar
 
 <Aside type="note" title="Example">
 A spherical balloon is being inflated at a rate of $10\mathrm{ cm}^3\mathrm{/s}$. Find the rate at
-Which the radius is increasing when the radius is $5\mathrm{ cm}$.
+which the radius is increasing when the radius is $5\mathrm{ cm}$.
 
 Volume of a sphere: $V = \dfrac{4}{3}\pi r^3$.
 
@@ -449,7 +457,7 @@ Find the equation of the tangent and normal to $y = x^3 - 3x + 2$ at $x = 1$.
 
 At $x = 1$: $y = 1 - 3 + 2 = 0$ and $y' = 3x^2 - 3 = 0$.
 
-Since $y' = 0$The tangent is horizontal: $y = 0$.
+Since $y' = 0$ The tangent is horizontal: $y = 0$.
 
 The normal is vertical: $x = 1$.
 
@@ -463,16 +471,20 @@ The normal is vertical: $x = 1$.
 
 A **stationary point** occurs where $f'(x) = 0$. There are three types:
 
+<div class="table-wrap">
+
 | Type                | First Derivative Test        | Second Derivative Test            |
 | ------------------- | ---------------------------- | --------------------------------- |
 | Local maximum       | $f'$ changes from $+$ to $-$ | $f''(x) \lt 0$                    |
 | Local minimum       | $f'$ changes from $-$ to $+$ | $f''(x) \gt 0$                    |
 | Point of inflection | $f'$ does not change sign    | $f''(x) = 0$ (inconclusive alone) |
+
+</div>
 </Aside>
 
 <Aside type="caution" title="Exam Tip">
 When $f''(x) = 0$ at a stationary point, the second derivative test is inconclusive. You must use
-The first derivative test or check the sign of $f'$ on either side.
+the first derivative test or check the sign of $f'$ on either side.
 </Aside>
 
 <Aside type="note" title="Example">
@@ -523,11 +535,15 @@ $$
 
 $f''(x) = 0$ when $x = 0$ or $x = 2$.
 
+<div class="table-wrap">
+
 | Interval        | Sign of $f''$ | Concavity    |
 | --------------- | ------------- | ------------ |
 | $x \lt 0$       | $+$           | Concave up   |
 | $0 \lt x \lt 2$ | $-$           | Concave down |
 | $x \gt 2$       | $+$           | Concave up   |
+
+</div>
 
 Concavity changes at both $x = 0$ and $x = 2$ So both are points of inflection.
 
@@ -593,7 +609,7 @@ $$
 H = \frac\{500\}\{\pi \cdot \left(\frac\{500\}\{\pi\}\right)^\{2/3\}\} = \left(\frac\{500\}\{\pi\}\right)^\{1/3\} \approx 5.42 \mathrm\{ cm\}
 $$
 
-The optimal open-top can has $h = r$I.e., height equals radius.
+The optimal open-top can has $h = r$ I.e., height equals radius.
 
 ---
 
@@ -618,7 +634,7 @@ $$
 \lim_\{x \to 0\}\frac\{e^x - 1\}\{2x\}
 $$
 
-Still $\dfrac{0}{0}$Apply again:
+Still $\dfrac{0}{0}$ Apply again:
 
 $$
 \lim_\{x \to 0\}\frac\{e^x\}\{2\} = \frac\{1\}\{2\}
@@ -667,10 +683,10 @@ $$
 ### Question 2 (Paper 2 style)
 
 A rectangular garden is to be constructed adjacent to a house, with the house forming one side of
-The rectangle. Fencing is required for the other three sides. $60\mathrm{ m}$ of fencing is
+the rectangle. Fencing is required for the other three sides. $60\mathrm{ m}$ of fencing is
 Available.
 
-**(a)** If the side parallel to the house has length $x\mathrm{ m}$Show that the area is:
+**(a)** If the side parallel to the house has length $x\mathrm{ m}$ Show that the area is:
 
 $$
 A = x\left(30 - \frac\{x\}\{2\}\right) = 30x - \frac\{x^2\}\{2\}
@@ -750,7 +766,7 @@ $\dfrac{d^2y}{dx^2} = 0 \implies x = 2$.
 
 At $x = 2$: $y = 2e^{-2} = \dfrac{2}{e^2}$.
 
-Since $\dfrac{d^2y}{dx^2}$ changes sign at $x = 2$This is a point of inflection at
+Since $\dfrac{d^2y}{dx^2}$ changes sign at $x = 2$ This is a point of inflection at
 $\left(2, \dfrac{2}{e^2}\right)$.
 
 **(d)** Find the equation of the tangent at $x = 0$.
@@ -764,7 +780,7 @@ $$
 ### Question 5 (Paper 1 style)
 
 The radius of a circle is increasing at a rate of $0.5\mathrm{ cm/s}$. Find the rate of change of
-The area when the radius is $4\mathrm{ cm}$.
+the area when the radius is $4\mathrm{ cm}$.
 
 $$
 A = \pi r^2
@@ -810,17 +826,9 @@ The denominator $x^2 + 1 \neq 0$ for all real $x$ So there are no vertical asymp
 
 ---
 
-```mermaid
-flowchart TD
-    A[2_Differentiationx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary of Key Results
+
+<div class="table-wrap">
 
 | Concept                | Formula                                                     |
 | ---------------------- | ----------------------------------------------------------- |
@@ -835,6 +843,8 @@ flowchart TD
 | Decreasing             | $f'(x) \lt 0$                                               |
 | Local max              | $f'(a) = 0$$f''(a) \lt 0$                                   |
 | Local min              | $f'(a) = 0$$f''(a) \gt 0$                                   |
+
+</div>
 </Aside>
 
 <Aside type="tip" title="Exam Strategy">
@@ -883,10 +893,14 @@ Differentiation asks a deceptively simple question: how fast is something changi
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site    | Link                                                                                                   |
 | ----------------- | ------- | ------------------------------------------------------------------------------------------------------ |
 | [Differentiation] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/10-differentiation) |
-| [Differentiation] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/5-calculus/2_differentiation)                              |
+| [Differentiation] | IB      | [View](https://ib.wyattau.com/maths/5-calculus/2_differentiation/)                              |
+
+</div>
 
 ## Worked Examples
 

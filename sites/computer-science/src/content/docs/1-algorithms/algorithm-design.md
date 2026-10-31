@@ -78,7 +78,7 @@ PARTITION(A, l, r):
 
 **Not stable.** In-place (no extra memory beyond recursion stack).
 
-### 1.4 Strassen"s Matrix Multiplication
+### 1.4 Strassen's Matrix Multiplication
 
 Multiply two $n \times n$ matrices faster than the naive $O(n^3)$.
 
@@ -113,15 +113,21 @@ For recurrences of the form $T(n) = aT(n/b) + f(n)$ where $a \geq 1$, $b > 1$:
 
 Compare $f(n)$ with $n^{\log_b a}$:
 
+<div class="table-wrap">
+
 | Case | Condition                                          | Solution                        |
 | ---- | -------------------------------------------------- | ------------------------------- |
 | 1    | $f(n) = O(n^{\log_b a - \epsilon})$ for $\epsilon > 0$ | $T(n) = \Theta(n^{\log_b a})$ |
 | 2    | $f(n) = \Theta(n^{\log_b a} \log^k n)$, $k \geq 0$ | $T(n) = \Theta(n^{\log_b a} \log^{k+1} n)$ |
 | 3    | $f(n) = \Omega(n^{\log_b a + \epsilon})$ and regularity | $T(n) = \Theta(f(n))$         |
 
+</div>
+
 **Regularity condition (Case 3):** $a f(n/b) \leq c f(n)$ for some $c < 1$.
 
 **Examples:**
+
+<div class="table-wrap">
 
 | Recurrence | $a$ | $b$ | $n^{\log_b a}$ | $f(n)$ | Case | Result |
 | ----------------------------------- | --- | --- | -------------- | --------- | ---- | ------------------ |
@@ -129,6 +135,8 @@ Compare $f(n)$ with $n^{\log_b a}$:
 | $T(n) = 4T(n/2) + n$ | 4 | 2 | $n^2$ | $n$ | 1 | $\Theta(n^2)$ |
 | $T(n) = 4T(n/2) + n^2 \log n$ | 4 | 2 | $n^2$ | $n^2 \log n$ | 2 (k=1) | $\Theta(n^2 \log^2 n)$ |
 | $T(n) = 2T(n/2) + n^2$ | 2 | 2 | $n$ | $n^2$ | 3 | $\Theta(n^2)$ |
+
+</div>
 
 ## 2. Greedy Algorithms
 
@@ -538,17 +546,6 @@ TSP_RECURSE(cost, path, visited, curr, curr_cost, best):
 **Problem:** Given a set of coin denominations {1, 3, 4} and a target amount of 6, find the minimum number of coins. Does the greedy approach work?
 **Solution:** Greedy: take largest coin first: 4 + 1 + 1 = 3 coins. Optimal: 3 + 3 = 2 coins. Greedy fails here because the coin denominations are not canonical. Dynamic programming: dp[0]=0, dp[1]=1, dp[2]=2, dp[3]=1, dp[4]=1, dp[5]=2, dp[6]=2. Optimal solution: 2 coins (two 3s).
 
-
-```mermaid
-flowchart TD
-    A[Algorithm Design] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Divide and conquer** splits problems into independent subproblems: merge sort, quicksort, Strassen. The Master theorem solves recurrences of the form $T(n) = aT(n/b) + f(n)$.
@@ -563,11 +560,15 @@ Algorithm design is the art of solving problems efficiently. Divide and conquer 
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic | Link |
 | ------- | ------ |
 | Data Structures | [View](/1-algorithms/data-structures/) |
 | Algorithms Overview | View |
 | Complexity Theory | [View](/1-algorithms/complexity-theory/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

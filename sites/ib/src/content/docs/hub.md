@@ -40,18 +40,19 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
+
+
+:::note[Heading to university next?]
+These notes are calibrated to your exam. University mathematics and physics are
+not: they assume you can read a proof, define a limit from the epsilon-delta
+definition, and work with vectors and set notation. The destination sites have
+free transition pages written exactly for that step -- start with
+**[Before You Begin: From School to University Mathematics](https://mathematics.wyattau.com/before-you-begin/)**
+and continue to
+**[the physics version](https://physics.wyattau.com/before-you-begin/)**.
+Both end with a self-test, so you know which sections to study.
+:::
 
 The IB Diploma Programme demands breadth and depth across six subject groups, plus the Core (TOK, Extended Essay, and CAS). This hub page is your roadmap to every resource on this site, organised by subject, with study strategies tailored to IB's unique assessment approach.
 
@@ -360,6 +361,8 @@ The IB requires simultaneous preparation across six subjects, plus TOK, the Exte
 
 **Weekly schedule framework:**
 
+<div class="table-wrap">
+
 | Day | Focus | Time |
 | ----- | ------- | ------ |
 | Monday | HL Subject 1 + SL Subject 1 | 2–3 hours |
@@ -368,6 +371,8 @@ The IB requires simultaneous preparation across six subjects, plus TOK, the Exte
 | Thursday | TOK + Extended Essay work | 1–2 hours |
 | Friday | Weakest subject (extra practice) | 2 hours |
 | Weekend | Revision, flashcards, practice papers | 3–4 hours total |
+
+</div>
 
 ### The IB Assessment Approach
 

@@ -55,14 +55,13 @@ graph TD
     C --> D[Energy Methods]
 ```
 
-
 ## Contents
 
 1. [Newtonian Mechanics Review](/1-classical-mechanics/1_newtonian-mechanics-review/)
 2. [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
 3. [Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)
 4. [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
-5. [Noether"s Theorem and Conservation Laws](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/)
+5. [Noether's Theorem and Conservation Laws](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/)
 6. [Central Force Problems](/1-classical-mechanics/6_central-force-problems/)
 7. [Small Oscillations and Normal Modes](/1-classical-mechanics/7_small-oscillations-and-normal-modes/)
 8. [Rigid Body Dynamics](/1-classical-mechanics/8_rigid-body-dynamics/)
@@ -96,8 +95,6 @@ Start with Lagrangian mechanics to build foundational knowledge, then progress t
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -124,7 +121,7 @@ Each section includes:
 - **Mathematics:** Multivariable calculus, linear algebra, and differential equations are the mathematical tools of classical mechanics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

@@ -46,9 +46,11 @@ MAX_SCORE = 100
 
 **Why use constants?** If a value like the VAT rate (20%) appears in many places in your code, using
 A constant `VAT_RATE = 0.20` means you only need to change it in one place if the rate changes. This
-Reduces errors and makes the code easier to maintain.
+reduces errors and makes the code easier to maintain.
 
 **Data types:**
+
+<div class="table-wrap">
 
 | Type       | Description                 | Example          |
 | ---------- | --------------------------- | ---------------- |
@@ -57,6 +59,8 @@ Reduces errors and makes the code easier to maintain.
 | String     | Text enclosed in quotes     | "Hello", "World' |
 | Character  | A single character          | 'A', '7'         |
 | Boolean    | True or False               | True, False      |
+
+</div>
 
 **Type casting** converts a value from one type to another:
 
@@ -115,8 +119,8 @@ else:
 ```
 
 **Nested IF pitfall.** In the example above, the inner `if score >= 70` only executes when
-`score >= 50`. If `score = 80`The output is "Grade A". If `score = 60`The output is "Grade C". If
-`score = 40`The output is "Fail". Think carefully about the nesting order to avoid unreachable
+`score >= 50`. If `score = 80`. The output is "Grade A". If `score = 60`. The output is "Grade C". If
+`score = 40`. The output is "Fail". Think carefully about the nesting order to avoid unreachable
 Branches.
 
 **CASE / SELECT statements (pseudocode):**
@@ -303,14 +307,14 @@ student["age"] = 16
 ```
 
 Records are useful because they group related data. Instead of having separate variables
-`student_name``student_age``student_form`A record keeps them together logically.
+`student_name`, `student_age`, `student_form`A record keeps them together logically.
 
 ## 3. Subprograms
 
 ### 3.1 Procedures and Functions
 
 A **procedure** performs a task but does not return a value. A **function** performs a task and
-Returns a value.
+returns a value.
 
 ```python
 # Procedure
@@ -388,7 +392,7 @@ print(total)  # 10
 
 **Scope rules:** A variable created inside a function is **local** to that function and cannot be
 Accessed from outside. A variable created outside any function is **global** and can be read by any
-Function, but can only be modified with the `global` keyword.
+function, but can only be modified with the `global` keyword.
 
 **Best practice:** Use local variables wherever possible to avoid unintended side effects. Global
 Variables make code harder to debug because any function can modify them.
@@ -412,15 +416,15 @@ print(factorial(5))  # 120
 
 - 4 _3_ 2 _factorial(1) = 5_ 4 _3_ 2 _1_ factorial(0) = 5 _4_ 3 _2_ 1 \* 1 = 120.
 
-**The call stack.** Each recursive call adds a new frame to the call stack. For `factorial(5)`The
+**The call stack.** Each recursive call adds a new frame to the call stack. For `factorial(5)`. The
 Stack grows to 6 frames before the base case is reached. Then the frames are unwound as each call
 Returns. If there is no base case, the stack grows until memory is exhausted, causing a
 **StackOverflowError**.
 
 **When to use recursion vs iteration:** Any recursive function can be rewritten as an iterative
 Version (using a loop). Iteration is generally more memory-efficient because it does not add frames
-To the call stack. Recursion is more natural for problems with a self-similar structure, such as
-Tree traversal or divide-and-conquer algorithms.
+to the call stack. Recursion is more natural for problems with a self-similar structure, such as
+tree traversal or divide-and-conquer algorithms.
 
 ## 4. String Manipulation
 
@@ -536,7 +540,7 @@ file.close()
 ### 5.3 The `with` Statement
 
 The `with` statement automatically closes the file, even if an exception occurs. This is the
-Recommended approach.
+recommended approach.
 
 ```python
 with open("data.txt", "r") as file:
@@ -567,6 +571,8 @@ with open("output.csv", "w", newline="") as file:
 
 **Validation** checks that data is sensible and reasonable (but not necessarily correct).
 
+<div class="table-wrap">
+
 | Type           | Check                               | Example                     |
 | -------------- | ----------------------------------- | --------------------------- |
 | Range check    | Value is within an acceptable range | Age between 0 and 120       |
@@ -574,6 +580,8 @@ with open("output.csv", "w", newline="") as file:
 | Length check   | Correct number of characters        | Password is 8-20 characters |
 | Presence check | Data has been entered               | Name field is not empty     |
 | Format check   | Correct pattern (e.g. Email format) | Contains @ symbol           |
+
+</div>
 
 ```python
 def validate_age(age):
@@ -737,17 +745,6 @@ answer using the appropriate terminology.
 Multi-step problems in Programming often combine two or more concepts. Break the problem down:
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[5_Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

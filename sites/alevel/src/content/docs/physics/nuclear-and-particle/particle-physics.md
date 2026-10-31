@@ -26,10 +26,12 @@ categories: [Physics]
 The Standard Model classifies all known fundamental particles and their interactions. It describes:
 
 - **12 fermions** (matter particles): 6 quarks and 6 leptons, each with an antiparticle.
-- **5 gauge bosons** (force carriers): photon, $W^+$, $W^-$, $Z^0$Gluon (8 types).
+- **5 gauge bosons** (force carriers): photon, $W^+$, $W^-$, $Z^0$ Gluon (8 types).
 - **1 scalar boson:** Higgs ($H^0$), responsible for giving mass to $W$, $Z$ bosons and fermions.
 
 ### The Four Fundamental Interactions
+
+<div class="table-wrap">
 
 | Interaction     | Mediator                | Acts on           | Range             | Relative strength |
 | --------------- | ----------------------- | ----------------- | ----------------- | ----------------- |
@@ -38,6 +40,8 @@ The Standard Model classifies all known fundamental particles and their interact
 | Weak            | $W^\pm$, $Z^0$          | All fermions      | $\sim 10^{-18}$ m | $\sim 10^{-6}$    |
 | Gravitational   | Graviton (hypothetical) | All mass/energy   | Infinite          | $\sim 10^{-39}$   |
 
+</div>
+
 ## 2. Quarks
 
 Quarks are fundamental particles that experience the strong force. They carry fractional electric
@@ -45,11 +49,15 @@ Charge and a colour charge (red, green, or blue).
 
 ### The Six Flavours
 
+<div class="table-wrap">
+
 | Generation | Up-type     | Charge  | Down-type     | Charge |
 | ---------- | ----------- | ------- | ------------- | ------ |
 | 1          | Up ($u$)    | $+2e/3$ | Down ($d$)    | $-e/3$ |
 | 2          | Charm ($c$) | $+2e/3$ | Strange ($s$) | $-e/3$ |
 | 3          | Top ($t$)   | $+2e/3$ | Bottom ($b$)  | $-e/3$ |
+
+</div>
 
 ### Quark Confinement
 
@@ -57,7 +65,7 @@ Quarks are never observed in isolation. They are always bound into colour-neutra
 
 - **Baryons:** Three quarks (one of each colour, or colour-anticolour combinations that cancel).
   Examples: proton ($uud$), neutron ($udd$).
-- **Mesons:** A quark--antiquark pair. Examples: pion ($\pi^+ = u\bar{d}$), kaon ($K^+ = u\bar{s}$).
+- **Mesons:** A quark--antiquark pair. Examples: pion ($\pi^+ = u\bar{d}$), kaon ($ K^+ = u\bar{s}$).
 
 The strong force increases with distance (unlike gravity and electromagnetism, which decrease).
 Pulling Quarks apart stores energy in the colour field until it is energetically favourable to
@@ -74,20 +82,26 @@ Leptons are fundamental particles that do **not** experience the strong force.
 
 ### The Six Leptons
 
+<div class="table-wrap">
+
 | Generation | Charged lepton   | Neutrino                    |
 | ---------- | ---------------- | --------------------------- |
 | 1          | Electron ($e^-$) | Electron neutrino ($\nu_e$) |
 | 2          | Muon ($\mu^-$)   | Muon neutrino ($\nu_\mu$)   |
 | 3          | Tau ($\tau^-$)   | Tau neutrino ($\nu_\tau$)   |
 
-Each lepton has a corresponding antiparticle ($e^+$, $\bar{\nu}_e$Etc.).
+</div>
+
+Each lepton has a corresponding antiparticle ($e^+$, $\bar{\nu}_e$ Etc.).
 
 ### Conservation of Lepton Number
 
 Lepton number $L_e$, $L_\mu$, $L_\tau$ are conserved separately in all interactions. For example, In
 beta-minus decay:
 
-$$n \to p + e^- + \bar{\nu}_e$$
+$$
+n \to p + e^- + \bar{\nu}_e
+$$
 
 $L_e$: $0 \to 0 + 1 + (-1) = 0$. Conserved.
 
@@ -99,6 +113,8 @@ Hadrons are composite particles made of quarks that experience the strong force.
 
 Baryons consist of three quarks. They have baryon number $B = +1$ (antibaryons: $B = -1$).
 
+<div class="table-wrap">
+
 | Particle      | Quark content | Charge | Strangeness |
 | ------------- | ------------- | ------ | ----------- |
 | Proton ($p$)  | $uud$         | $+e$   | $0$         |
@@ -107,9 +123,13 @@ Baryons consist of three quarks. They have baryon number $B = +1$ (antibaryons: 
 | $\Xi^-$       | $dss$         | $-e$   | $-2$        |
 | $\Omega^-$    | $sss$         | $-e$   | $-3$        |
 
+</div>
+
 ### Mesons
 
 Mesons consist of a quark--antiquark pair. They have baryon number $B = 0$.
+
+<div class="table-wrap">
 
 | Particle | Quark content            | Charge | Strangeness |
 | -------- | ------------------------ | ------ | ----------- |
@@ -118,6 +138,8 @@ Mesons consist of a quark--antiquark pair. They have baryon number $B = 0$.
 | $\pi^0$  | $u\bar{u}$ or $d\bar{d}$ | $0$    | $0$         |
 | $K^+$    | $u\bar{s}$               | $+e$   | $+1$        |
 | $K^-$    | $\bar{u}s$               | $-e$   | $-1$        |
+
+</div>
 
 ### Verifying Quark Content
 
@@ -129,11 +151,15 @@ $\checkmark$
 
 **Beta-minus decay of a neutron:**
 
-$$udd \to uud + e^- + \bar{\nu}_e$$
+$$
+udd \to uud + e^- + \bar{\nu}_e
+$$
 
 A $d$ quark converts to a $u$ quark (via the weak interaction, mediated by a $W^-$ boson):
 
-$$d \to u + W^-, \qquad W^- \to e^- + \bar{\nu}_e$$
+$$
+d \to u + W^-, \qquad W^- \to e^- + \bar{\nu}_e
+$$
 
 Strangeness changes by $\Delta S = +1$ (a strange quark is destroyed), consistent with the weak
 Interaction (which does not conserve strangeness).
@@ -141,6 +167,8 @@ Interaction (which does not conserve strangeness).
 ## 5. Conservation Laws
 
 In all particle interactions, the following quantities are **always conserved**:
+
+<div class="table-wrap">
 
 | Quantity                                 | Conserved in all interactions? |
 | ---------------------------------------- | ------------------------------ |
@@ -150,6 +178,8 @@ In all particle interactions, the following quantities are **always conserved**:
 | Lepton number ($L_e$, $L_\mu$, $L_\tau$) | Yes                            |
 | Baryon number ($B$)                      | Yes                            |
 | Strangeness ($S$)                        | Strong and EM only (not weak)  |
+
+</div>
 
 :::caution
 (associated production) Via the strong interaction (conserving $S$) but decay individually via the
@@ -180,30 +210,38 @@ $\Lambda^0 = uds$$\pi^0 = u\bar{u}$ or $d\bar{d}$.
 Every particle has a corresponding antiparticle with the same mass but opposite values of all
 quantum Numbers (charge, baryon number, lepton number, strangeness).
 
+<div class="table-wrap">
+
 | Particle           | Antiparticle                 | Key difference                    |
 | ------------------ | ---------------------------- | --------------------------------- |
 | Electron ($e^-$)   | Positron ($e^+$)             | Charge reversed                   |
 | Proton ($p$)       | Antiproton ($\bar{p}$)       | Charge and baryon number reversed |
 | Neutrino ($\nu_e$) | Antineutrino ($\bar{\nu}_e$) | Lepton number reversed            |
 
+</div>
+
 ### Pair Production and Annihilation
 
 **Pair production:** A photon with energy at least $2m_e c^2 = 1.022$ MeV can create an
 Electron--positron pair ( near a nucleus to conserve momentum):
 
-$$\gamma \to e^- + e^+$$
+$$
+\gamma \to e^- + e^+
+$$
 
 **Annihilation:** When a particle meets its antiparticle, they annihilate, converting their combined
 Rest mass energy into photons:
 
-$$e^- + e^+ \to 2\gamma$$
+$$
+e^- + e^+ \to 2\gamma
+$$
 
 Two photons are required (not one) to conserve both energy and momentum.
 
-### Dirac"s Prediction
+### Dirac's Prediction
 
 Dirac (1928) combined quantum mechanics with special relativity, obtaining an equation that
-Predicted antiparticles. The positron ($e^+$) was discovered by Anderson (1932) in cosmic ray
+predicted antiparticles. The positron ($e^+$) was discovered by Anderson (1932) in cosmic ray
 Photographs, confirming Dirac's prediction.
 
 ## 7. Feynman Diagrams
@@ -224,7 +262,9 @@ A mathematical term in the perturbation theory expansion of the interaction ampl
 
 ### Beta-Minus Decay
 
-$$n \to p + e^- + \bar{\nu}_e$$
+$$
+n \to p + e^- + \bar{\nu}_e
+$$
 
 **Diagram:** A $d$ quark line enters, emits a $W^-$ boson (wavy line), and continues as a $u$ quark
 Line. The $W^-$ decays into an electron line and an antineutrino line.
@@ -233,7 +273,9 @@ At the quark level: $d \to u + W^-$ Then $W^- \to e^- + \bar{\nu}_e$.
 
 ### Electron--Positron Annihilation
 
-$$e^- + e^+ \to \gamma \to \mu^- + \mu^+$$
+$$
+e^- + e^+ \to \gamma \to \mu^- + \mu^+
+$$
 
 **Diagram:** An $e^-$ line and an $e^+$ line (arrow reversed) meet at a vertex, connected by a
 photon Line. The photon line connects to a second vertex where a $\mu^-$ line and $\mu^+$ line
@@ -242,7 +284,7 @@ emerge.
 ### Key Vertices
 
 Each vertex in a Feynman diagram represents a fundamental interaction and must conserve all
-Applicable quantum numbers:
+applicable quantum numbers:
 
 1. **QED vertex:** A fermion line, an antifermion line, and a photon line meet. Charge is conserved.
 2. **Weak vertex:** A fermion line changes flavour (e.g., $d \to u$), connected by a $W$ or $Z$
@@ -254,9 +296,11 @@ Applicable quantum numbers:
 ### Einstein's Equation
 
 When photons of frequency $f$ strike a metal surface, electrons are emitted only if $hf \gt \phi$
-Where $\phi$ is the work function of the metal.
+where $\phi$ is the work function of the metal.
 
-$$\boxed{hf = E_k^{\max} + \phi}$$
+$$
+\boxed{hf = E_k^{\max} + \phi}
+$$
 
 Where $E_k^{\max}$ is the maximum kinetic energy of the emitted photoelectrons.
 
@@ -274,9 +318,11 @@ Where $E_k^{\max}$ is the maximum kinetic energy of the emitted photoelectrons.
 
 At the threshold, $E_k^{\max} = 0$ So $hf_0 = \phi$:
 
-$$\boxed{f_0 = \frac{\phi}{h}}$$
+$$
+\boxed{f_0 = \frac{\phi}{h}}
+$$
 
-For frequencies below $f_0$No electron can be emitted regardless of intensity, because each photon
+For frequencies below $f_0$ No electron can be emitted regardless of intensity, because each photon
 Carries insufficient energy. Increasing intensity means more photons, not more energy per photon.
 
 <details>
@@ -288,7 +334,7 @@ Energy of the emitted photoelectrons and determine whether emission occurs.
 $E_{\mathrm{photon}} = hf = hc/\lambda = (6.63 \times 10^{-34} \times 3.00 \times 10^8)/(400 \times 10^{-9}) = 4.97 \times 10^{-19}$
 J $= 3.11$ eV.
 
-Since $3.11\ \mathrm{eV} \lt 4.30\ \mathrm{eV} = \phi$No photoelectrons are emitted.
+Since $3.11\ \mathrm{eV} \lt 4.30\ \mathrm{eV} = \phi$ No photoelectrons are emitted.
 
 For emission, the minimum wavelength is:
 $\lambda_{\min} = hc/\phi = (6.63 \times 10^{-34} \times 3.00 \times 10^8)/(4.30 \times 1.60 \times 10^{-19}) = 2.89 \times 10^{-7}$
@@ -302,7 +348,9 @@ m $= 289$ nm (UV).
 
 **Hypothesis.** Every particle with momentum $p$ has an associated wavelength:
 
-$$\boxed{\lambda = \frac{h}{p}}$$
+$$
+\boxed{\lambda = \frac{h}{p}}
+$$
 
 Where $h = 6.63 \times 10^{-34}$ J s is Planck's constant.
 
@@ -313,11 +361,17 @@ Interference) just as electromagnetic waves exhibit particle-like properties (ph
 
 An electron accelerated through potential difference $V$ gains kinetic energy:
 
-$$\frac{1}{2}m_e v^2 = eV \implies v = \sqrt{\frac{2eV}{m_e}}$$
+$$
+\frac{1}{2}m_e v^2 = eV \implies v = \sqrt{\frac{2eV}{m_e}}
+$$
 
-$$p = m_e v = \sqrt{2m_e eV}$$
+$$
+p = m_e v = \sqrt{2m_e eV}
+$$
 
-$$\boxed{\lambda = \frac{h}{\sqrt{2m_e eV}}}$$
+$$
+\boxed{\lambda = \frac{h}{\sqrt{2m_e eV}}}
+$$
 
 For $V = 100$ V:
 $\lambda = 6.63 \times 10^{-34}/\sqrt{2 \times 9.11 \times 10^{-31} \times 1.60 \times 10^{-19} \times 100} = 1.23 \times 10^{-10}$
@@ -332,11 +386,15 @@ Davisson and Germer directed a beam of electrons at a nickel crystal and observe
 Pattern, sharp intensity maxima at specific angles. The angles matched the prediction of the de
 Broglie wavelength using the Bragg condition:
 
-$$n\lambda = 2d\sin\theta$$
+$$
+n\lambda = 2d\sin\theta
+$$
 
 This provided direct experimental confirmation of wave--particle duality for matter.
 
 ### Evidence for Wave Nature of Particles
+
+<div class="table-wrap">
 
 | Phenomenon            | Particle             | Evidence of wave nature            |
 | --------------------- | -------------------- | ---------------------------------- |
@@ -344,6 +402,8 @@ This provided direct experimental confirmation of wave--particle duality for mat
 | Neutron diffraction   | Neutron              | Crystal diffraction patterns       |
 | Electron interference | Electron             | Double-slit experiment             |
 | Molecular diffraction | $C_{60}$ (fullerene) | Interference fringes (Arndt, 1999) |
+
+</div>
 
 <details>
 <summary>Worked Example: de Broglie Wavelength</summary>
@@ -367,11 +427,15 @@ Because of its much larger mass.
 
 The de Broglie relation $\lambda = h/p$ and the Einstein relation $E = hf$ together imply:
 
-$$E = hf = \frac{hc}{\lambda} = pc$$
+$$
+E = hf = \frac{hc}{\lambda} = pc
+$$
 
 For massless particles (photons). For massive particles in the non-relativistic limit:
 
-$$E_k = \frac{p^2}{2m} = \frac{h^2}{2m\lambda^2}$$
+$$
+E_k = \frac{p^2}{2m} = \frac{h^2}{2m\lambda^2}
+$$
 
 These relations are the foundation of quantum mechanics. The wave function $\Psi$ of a particle
 Satisfies the Schrodinger equation, and the probability of finding the particle in a region is
@@ -445,7 +509,7 @@ $W^+$ then decays to $e^+ + \nu_e$.
 <details>
 <summary>Problem 6</summary>
 Calculate the de Broglie wavelength of a neutron with kinetic energy 0.025 eV (thermal neutron at
-Room temperature).
+room temperature).
 
 **Answer.** $E_k = 0.025 \times 1.60 \times 10^{-19} = 4.0 \times 10^{-21}$ J.
 $v = \sqrt{2E_k/m_n} = \sqrt{2 \times 4.0 \times 10^{-21}/1.67 \times 10^{-27}} = 2189$ m
@@ -454,7 +518,7 @@ $\lambda = h/(m_n v) = 6.63 \times 10^{-34}/(1.67 \times 10^{-27} \times 2189) =
 m $= 0.182$ nm.
 
 This wavelength is comparable to interatomic spacing, which is why thermal neutrons are used for
-Neutron diffraction studies of crystal structures.
+neutron diffraction studies of crystal structures.
 
 </details>
 
@@ -489,7 +553,7 @@ $m = h^2/(2eV\lambda^2) = (6.63 \times 10^{-34})^2/(2 \times 1.60 \times 10^{-19
 kg.
 
 Comparing with known masses: $m_e = 9.11 \times 10^{-31}$ kg, $m_p = 1.67 \times 10^{-27}$ kg. The
-mass is approximately $3.2\,m_e$Which does not match a known fundamental particle. This Suggests a
+mass is approximately $3.2\,m_e$ Which does not match a known fundamental particle. This Suggests a
 systematic error or that the particle is a muon ($m_\mu = 1.88 \times 10^{-28}$ kg). For a muon:
 $\lambda = 6.63 \times 10^{-34}/\sqrt{2 \times 1.88 \times 10^{-28} \times 1.60 \times 10^{-19} \times 500} = 6.63 \times 10^{-34}/\sqrt{3.01 \times 10^{-44}} = 6.63 \times 10^{-34}/1.74 \times 10^{-22} = 3.82 \times 10^{-12}$
 m.
@@ -513,22 +577,7 @@ m). The discrepancy suggests an experimental issue or different scattering geome
 4. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
-
-```mermaid
-flowchart TD
-    A[Particle Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

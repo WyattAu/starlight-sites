@@ -1,6 +1,5 @@
 ---
 
-
 title: "Further Pure Mathematics 1"
 description: "Study notes for Further Pure Mathematics 1 | A-Level with worked examples and practice questions."
 ---------- | ----------- | ----------------------------------------------------------- | | AQA | Paper 2 | Complex numbers,"
@@ -25,12 +24,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper       | Notes                                                       |
 | ---------- | ----------- | ----------------------------------------------------------- |
 | AQA        | Paper 2     | Complex numbers, matrices, series, proof                    |
 | Edexcel    | FP1         | Complex numbers, matrices, polar coords, proof by induction |
 | OCR (A)    | Pure Core 1 | Complex numbers, matrices, polar coords, hyperbolic         |
 | CIE (9709) | Paper 3     | Complex numbers, polars, further calculus, induction        |
+
+</div>
 
 :::note
 Mathematics. You must be confident with all Core Pure topics before tackling these.
@@ -49,7 +52,9 @@ imaginary axis).
 - The **argument** $\arg(z) = \theta$ is the angle from the positive real axis, measured
   anticlockwise. Principal argument: $-\pi < \theta \leq \pi$.
 
-$$z = x + iy = r(\cos\theta + i\sin\theta) = re^{i\theta}$$
+$$
+z = x + iy = r(\cos\theta + i\sin\theta) = re^{i\theta}
+$$
 
 ### 1.2 Modulus-Argument Form
 
@@ -60,13 +65,17 @@ arguments subtract.
 
 **Modulus properties:**
 
-$$|z_1 z_2| = |z_1|\,|z_2| \qquad |z_1 + z_2| \leq |z_1| + |z_2| \qquad |z^n| = |z|^n$$
+$$
+|z_1 z_2| = |z_1|\,|z_2| \qquad |z_1 + z_2| \leq |z_1| + |z_2| \qquad |z^n| = |z|^n
+$$
 
-### 1.3 de Moivre"s Theorem
+### 1.3 de Moivre's Theorem
 
 For integer $n$:
 
-$$[r(\cos\theta + i\sin\theta)]^n = r^n(\cos n\theta + i\sin n\theta)$$
+$$
+[r(\cos\theta + i\sin\theta)]^n = r^n(\cos n\theta + i\sin n\theta)
+$$
 
 Equivalently: $(e^{i\theta})^n = e^{in\theta}$.
 
@@ -79,7 +88,9 @@ Equivalently: $(e^{i\theta})^n = e^{in\theta}$.
 
 The $n$th roots of unity are the solutions to $z^n = 1$:
 
-$$z_k = e^{2\pi i k / n} = \cos\frac{2\pi k}{n} + i\sin\frac{2\pi k}{n}, \quad k = 0, 1, 2, \ldots, n-1$$
+$$
+z_k = e^{2\pi i k / n} = \cos\frac{2\pi k}{n} + i\sin\frac{2\pi k}{n}, \quad k = 0, 1, 2, \ldots, n-1
+$$
 
 They lie on the unit circle at vertices of a regular $n$-gon. The sum of all $n$th roots of unity is
 $0$.
@@ -126,11 +137,15 @@ number of rows of $B$. As a general principle, $AB \neq BA$.
 
 **Determinant of $2 \times 2$:**
 
-$$\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$$
+$$
+\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc
+$$
 
 **Inverse of $2 \times 2$:**
 
-$$\begin{pmatrix} a & b \\ c & d \end{pmatrix}^{-1} = \frac{1}{ad-bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$$
+$$
+\begin{pmatrix} a & b \\ c & d \end{pmatrix}^{-1} = \frac{1}{ad-bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}
+$$
 
 A matrix has an inverse if and only if its determinant is non-zero (it is **non-singular**).
 
@@ -138,13 +153,17 @@ A matrix has an inverse if and only if its determinant is non-zero (it is **non-
 
 Expand by cofactors along any row or column. Along row 1:
 
-$$\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = a\begin{vmatrix} e & f \\ h & i \end{vmatrix} - b\begin{vmatrix} d & f \\ g & i \end{vmatrix} + c\begin{vmatrix} d & e \\ g & h \end{vmatrix}$$
+$$
+\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = a\begin{vmatrix} e & f \\ h & i \end{vmatrix} - b\begin{vmatrix} d & f \\ g & i \end{vmatrix} + c\begin{vmatrix} d & e \\ g & h \end{vmatrix}
+$$
 
 ### 2.3 Inverse of $3 \times 3$
 
 Form the matrix of cofactors, transpose it (giving the adjugate), then divide by the determinant:
 
-$$A^{-1} = \frac{1}{|A|}\text{adj}(A)$$
+$$
+A^{-1} = \frac{1}{|A|}\text{adj}(A)
+$$
 
 **Solving $A\mathbf{x} = \mathbf{b}$:** $\mathbf{x} = A^{-1}\mathbf{b}$ (unique solution when
 $|A| \neq 0$).
@@ -154,12 +173,16 @@ $|A| \neq 0$).
 A matrix $M$ represents a linear transformation. The image of point $(x, y)$ is
 $M\begin{pmatrix} x \\ y \end{pmatrix}$.
 
+<div class="table-wrap">
+
 | Transformation                  | Matrix                                                                              |
 | ------------------------------- | ----------------------------------------------------------------------------------- |
 | Reflection in $y = x$           | $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$                                      |
 | Rotation $\theta$ anticlockwise | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ |
 | Enlargement scale factor $k$    | $\begin{pmatrix} k & 0 \\ 0 & k \end{pmatrix}$                                      |
 | Reflection in $x$-axis          | $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$                                     |
+
+</div>
 
 **Area scale factor** $= |\det(M)|$.
 
@@ -198,7 +221,9 @@ necessarily itself).
 
 ### 3.1 Integration by Parts
 
-$$\int u\,dv = uv - \int v\,du$$
+$$
+\int u\,dv = uv - \int v\,du
+$$
 
 **Choosing $u$ and $dv$:** Use the LIATE priority: **L**ogarithmic, **I**nverse trig, **A**lgebraic,
 **T**rigonometric, **E**xponential. Choose $u$ from higher priority.
@@ -208,9 +233,13 @@ $x^n \sin ax$, or $x^n \cos ax$.
 
 ### 3.2 Standard Integrals
 
-$$\int \frac{1}{x^2 + a^2}\,dx = \frac{1}{a}\tan^{-1}\frac{x}{a} + C \qquad \int \frac{1}{\sqrt{a^2 - x^2}}\,dx = \sin^{-1}\frac{x}{a} + C$$
+$$
+\int \frac{1}{x^2 + a^2}\,dx = \frac{1}{a}\tan^{-1}\frac{x}{a} + C \qquad \int \frac{1}{\sqrt{a^2 - x^2}}\,dx = \sin^{-1}\frac{x}{a} + C
+$$
 
-$$\int \frac{1}{x^2 - a^2}\,dx = \frac{1}{2a}\ln\left|\frac{x-a}{x+a}\right| + C$$
+$$
+\int \frac{1}{x^2 - a^2}\,dx = \frac{1}{2a}\ln\left|\frac{x-a}{x+a}\right| + C
+$$
 
 ### 3.3 First Order Differential Equations
 
@@ -219,9 +248,13 @@ integrate both sides.
 
 **Integrating factor method** for $\dfrac{dy}{dx} + P(x)y = Q(x)$:
 
-$$\text{Integrating factor } \mu = e^{\int P(x)\,dx}$$
+$$
+\text{Integrating factor } \mu = e^{\int P(x)\,dx}
+$$
 
-$$y \cdot \mu = \int Q(x)\mu\,dx + C$$
+$$
+y \cdot \mu = \int Q(x)\mu\,dx + C
+$$
 
 **General solution:** contains an arbitrary constant $C$.
 
@@ -235,15 +268,21 @@ Homogeneous equation: $a\dfrac{d^2y}{dx^2} + b\dfrac{dy}{dx} + cy = 0$
 
 **Case 1, Distinct real roots $m_1, m_2$:**
 
-$$y = Ae^{m_1 x} + Be^{m_2 x}$$
+$$
+y = Ae^{m_1 x} + Be^{m_2 x}
+$$
 
 **Case 2, Repeated root $m$:**
 
-$$y = (Ax + B)e^{mx}$$
+$$
+y = (Ax + B)e^{mx}
+$$
 
 **Case 3, Complex roots $\alpha \pm i\beta$:**
 
-$$y = e^{\alpha x}(A\cos\beta x + B\sin\beta x)$$
+$$
+y = e^{\alpha x}(A\cos\beta x + B\sin\beta x)
+$$
 
 ---
 
@@ -262,7 +301,9 @@ $$y = e^{\alpha x}(A\cos\beta x + B\sin\beta x)$$
 
 A point with Cartesian coordinates $(x, y)$ and polar coordinates $(r, \theta)$:
 
-$$x = r\cos\theta \qquad y = r\sin\theta \qquad r = \sqrt{x^2 + y^2} \qquad \tan\theta = \frac{y}{x}$$
+$$
+x = r\cos\theta \qquad y = r\sin\theta \qquad r = \sqrt{x^2 + y^2} \qquad \tan\theta = \frac{y}{x}
+$$
 
 ### 4.2 Sketching Polar Curves
 
@@ -276,6 +317,8 @@ Given $r = f(\theta)$:
 
 **Common curves:**
 
+<div class="table-wrap">
+
 | Equation                | Shape                                |
 | ----------------------- | ------------------------------------ |
 | $r = a$                 | Circle, radius $a$, centre at origin |
@@ -283,16 +326,22 @@ Given $r = f(\theta)$:
 | $r = a(1 + \cos\theta)$ | Cardioid                             |
 | $r^2 = a^2\cos 2\theta$ | Lemniscate                           |
 
+</div>
+
 ### 4.3 Area Enclosed by a Polar Curve
 
-$$A = \frac{1}{2}\int_{\alpha}^{\beta} r^2\,d\theta$$
+$$
+A = \frac{1}{2}\int_{\alpha}^{\beta} r^2\,d\theta
+$$
 
 **For a full curve** traced once as $\theta$ goes from $\alpha$ to $\beta$, substitute the full
 range.
 
 **Sector area** between two values $\theta_1$ and $\theta_2$:
 
-$$A = \frac{1}{2}\int_{\theta_1}^{\theta_2} r^2\,d\theta$$
+$$
+A = \frac{1}{2}\int_{\theta_1}^{\theta_2} r^2\,d\theta
+$$
 
 ---
 
@@ -309,36 +358,54 @@ $$A = \frac{1}{2}\int_{\theta_1}^{\theta_2} r^2\,d\theta$$
 
 ### 5.1 Definitions
 
-$$\cosh x = \frac{e^x + e^{-x}}{2} \qquad \sinh x = \frac{e^x - e^{-x}}{2} \qquad \tanh x = \frac{\sinh x}{\cosh x}$$
+$$
+\cosh x = \frac{e^x + e^{-x}}{2} \qquad \sinh x = \frac{e^x - e^{-x}}{2} \qquad \tanh x = \frac{\sinh x}{\cosh x}
+$$
 
 **Key values:** $\cosh 0 = 1$, $\sinh 0 = 0$, $\tanh 0 = 0$.
 
 ### 5.2 Identities
 
 $$\cosh^2 x - \sinh^2 x = 1$$ $$1 - \tanh^2 x = \text{sech}^2\, x$$
-$$\coth^2 x - 1 = \text{cosech}^2\, x$$
+$$
+\coth^2 x - 1 = \text{cosech}^2\, x
+$$
 
 **Compound angle (Osborn's rule):** Replace every $\sin^2$ with $-\sinh^2$ in a standard trig
 identity.
 
-$$\cosh(x + y) = \cosh x \cosh y + \sinh x \sinh y$$
-$$\sinh(x + y) = \sinh x \cosh y + \cosh x \sinh y$$
+$$
+\cosh(x + y) = \cosh x \cosh y + \sinh x \sinh y
+$$
+$$
+\sinh(x + y) = \sinh x \cosh y + \cosh x \sinh y
+$$
 
 ### 5.3 Calculus of Hyperbolic Functions
 
-$$\frac{d}{dx}\sinh x = \cosh x \qquad \frac{d}{dx}\cosh x = \sinh x \qquad \frac{d}{dx}\tanh x = \text{sech}^2\, x$$
+$$
+\frac{d}{dx}\sinh x = \cosh x \qquad \frac{d}{dx}\cosh x = \sinh x \qquad \frac{d}{dx}\tanh x = \text{sech}^2\, x
+$$
 
-$$\int \cosh x\,dx = \sinh x + C \qquad \int \sinh x\,dx = \cosh x + C$$
+$$
+\int \cosh x\,dx = \sinh x + C \qquad \int \sinh x\,dx = \cosh x + C
+$$
 
 ### 5.4 Inverse Hyperbolic Functions
 
-$$\sinh^{-1} x = \ln\left(x + \sqrt{x^2 + 1}\right) \qquad \cosh^{-1} x = \ln\left(x + \sqrt{x^2 - 1}\right)\text{ for } x \geq 1$$
+$$
+\sinh^{-1} x = \ln\left(x + \sqrt{x^2 + 1}\right) \qquad \cosh^{-1} x = \ln\left(x + \sqrt{x^2 - 1}\right)\text{ for } x \geq 1
+$$
 
-$$\tanh^{-1} x = \frac{1}{2}\ln\frac{1+x}{1-x}\text{ for } |x| < 1$$
+$$
+\tanh^{-1} x = \frac{1}{2}\ln\frac{1+x}{1-x}\text{ for } |x| < 1
+$$
 
 **Derivatives:**
 
-$$\frac{d}{dx}\sinh^{-1} x = \frac{1}{\sqrt{1+x^2}} \qquad \frac{d}{dx}\cosh^{-1} x = \frac{1}{\sqrt{x^2-1}}$$
+$$
+\frac{d}{dx}\sinh^{-1} x = \frac{1}{\sqrt{1+x^2}} \qquad \frac{d}{dx}\cosh^{-1} x = \frac{1}{\sqrt{x^2-1}}
+$$
 
 ---
 
@@ -433,7 +500,9 @@ $y'(0) = 2A + 3B = 5$. Solving: $B = 3$, $A = -2$. Solution: $y = 3e^{3x} - 2e^{
 
 **Problem:** Find the area enclosed by one loop of the curve $r = a\sin 2\theta$. **Solution:** One
 loop is traced as $\theta$ goes from $0$ to $\pi/2$ (where $r$ returns to zero).
-$$A = \frac{1}{2}\int_0^{\pi/2} a^2\sin^2 2\theta\,d\theta = \frac{a^2}{2}\int_0^{\pi/2}\frac{1 - \cos 4\theta}{2}\,d\theta = \frac{a^2}{4}\left[\theta - \frac{\sin 4\theta}{4}\right]_0^{\pi/2} = \frac{a^2\pi}{8}$$
+$$
+A = \frac{1}{2}\int_0^{\pi/2} a^2\sin^2 2\theta\,d\theta = \frac{a^2}{2}\int_0^{\pi/2}\frac{1 - \cos 4\theta}{2}\,d\theta = \frac{a^2}{4}\left[\theta - \frac{\sin 4\theta}{4}\right]_0^{\pi/2} = \frac{a^2\pi}{8}
+$$
 
 ## Intuition
 
@@ -447,17 +516,6 @@ Further Pure 1 extends familiar algebra into the complex plane and beyond. Compl
   $A^{-1}\mathbf{b}$, not $\mathbf{b}A^{-1}$.
 - **Wrong polar area formula:** Use $\frac{1}{2}\int r^2\,d\theta$, not $\int r\,d\theta$. The extra
   $r/2$ factor is frequently missed.
-
-
-```mermaid
-flowchart TD
-    A[Further Pure 1] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

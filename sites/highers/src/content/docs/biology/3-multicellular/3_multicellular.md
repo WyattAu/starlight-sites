@@ -31,6 +31,8 @@ Types.
 
 **Types:**
 
+<div class="table-wrap">
+
 | Type        | Source                            | Potential                                      |
 | ----------- | --------------------------------- | ---------------------------------------------- |
 | Totipotent  | Early embryo                      | Can become any cell type (including placental) |
@@ -38,13 +40,15 @@ Types.
 | Multipotent | Adult tissues (e.g., bone marrow) | Can become limited range of cell types         |
 | Unipotent   | Adult tissues                     | Can become only one cell type                  |
 
+</div>
+
 **Cell differentiation:** The process by which cells become specialised. All body cells have the
 Same genes, but different genes are switched on (expressed) or off in different cell types.
 
 **Transcription factors** and **epigenetic modifications** (e.g., DNA methylation, histone
 Modification) control which genes are expressed.
 
-**Worked Example: Stem cell therapy for Parkinson"s disease.**
+**Worked Example: Stem cell therapy for Parkinson's disease.**
 
 Parkinson's disease is caused by the death of dopamine-producing neurones in the brain. Stem cell
 Therapy involves:
@@ -56,15 +60,15 @@ Therapy involves:
 
 **Ethical considerations:** The use of embryonic stem cells is controversial because it involves the
 Destruction of embryos. Adult stem cells and induced pluripotent stem cells (iPSCs) avoid this issue
-But may be less versatile.
+but may be less versatile.
 
 **Worked Example: Induced pluripotent stem cells (iPSCs).**
 
 In 2006, Shinya Yamanaka discovered that adult somatic cells could be reprogrammed to become
 Pluripotent by introducing four transcription factors (Oct4, Sox2, Klf4, c-Myc) -- the "Yamanaka
 Factors." iPSCs behave like embryonic stem cells and can differentiate into any cell type. This has
-Enormous potential for regenerative medicine because it avoids the ethical issues associated with
-Embryonic stem cells and allows patient-specific therapies (using the patient's own cells).
+enormous potential for regenerative medicine because it avoids the ethical issues associated with
+embryonic stem cells and allows patient-specific therapies (using the patient's own cells).
 
 ### Tissues, Organs, and Systems
 
@@ -122,14 +126,14 @@ Stimulated again. This ensures one-way transmission.
 **Worked Example: Saltatory conduction.**
 
 In a myelinated axon, the action potential "jumps" from one node of Ranvier to the next, rather than
-Propagating along the entire length of the axon membrane. This speeds up transmission because:
+propagating along the entire length of the axon membrane. This speeds up transmission because:
 
 1. Less membrane needs to be depolarised (only at the nodes, not along the entire internode).
 2. The local currents between nodes are larger because the myelin insulates the internode,
    preventing current leakage.
 
 The speed of conduction in a myelinated axon can be up to 100 m/s, compared to about 1 m/s in an
-Unmyelinated axon of the same diameter.
+unmyelinated axon of the same diameter.
 
 ### Synapses
 
@@ -159,9 +163,11 @@ depolarisation reaches threshold, an action potential is generated in the Postsy
 ### The Endocrine System
 
 The endocrine system uses chemical messengers (hormones) secreted by endocrine glands into the
-Bloodstream.
+bloodstream.
 
 **Key differences from the nervous system:**
+
+<div class="table-wrap">
 
 | Feature  | Nervous            | Endocrine                         |
 | -------- | ------------------ | --------------------------------- |
@@ -171,7 +177,11 @@ Bloodstream.
 | Target   | Specific           | Widespread (cells with receptors) |
 | Pathway  | Neurones           | Bloodstream                       |
 
+</div>
+
 **Examples of hormones:**
+
+<div class="table-wrap">
 
 | Hormone    | Gland                  | Function                      |
 | ---------- | ---------------------- | ----------------------------- |
@@ -181,6 +191,8 @@ Bloodstream.
 | Thyroxine  | Thyroid                | Regulates metabolism          |
 | ADH        | Posterior pituitary    | Water reabsorption in kidneys |
 | FSH/LH     | Anterior pituitary     | Reproductive cycle            |
+
+</div>
 
 ### Blood Glucose Regulation
 
@@ -220,6 +232,8 @@ Bloodstream.
 
 **Blood vessels:**
 
+<div class="table-wrap">
+
 | Feature        | Artery | Vein | Capillary      |
 | -------------- | ------ | ---- | -------------- |
 | Wall thickness | Thick  | Thin | One cell thick |
@@ -227,6 +241,8 @@ Bloodstream.
 | Valves         | No     | Yes  | No             |
 | Blood pressure | High   | Low  | Low            |
 | Blood flow     | Fast   | Slow | Very slow      |
+
+</div>
 
 **Double circulatory system:**
 
@@ -241,11 +257,15 @@ Bloodstream.
 
 **Cardiac output:**
 
-$$\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate$$
+$$
+\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate
+$$
 
 **Example:** If stroke volume is $70 \mathrm{ mL$ and heart rate is $72 \mathrm{ bpm$:
 
-$$\mathrm{Cardiac output = 70 \times 72 = 5040 \mathrm{ mL/min \approx 5.0 \mathrm{ L/min$$
+$$
+\mathrm{Cardiac output = 70 \times 72 = 5040 \mathrm{ mL/min \approx 5.0 \mathrm{ L/min
+$$
 
 ### The Respiratory System
 
@@ -261,11 +281,15 @@ $$\mathrm{Cardiac output = 70 \times 72 = 5040 \mathrm{ mL/min \approx 5.0 \math
 
 **Fick's Law of Diffusion:**
 
-$$\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}$$
+$$
+\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}
+$$
 
 ### The Digestive System
 
 **Macromolecule digestion:**
+
+<div class="table-wrap">
 
 | Macromolecule | Enzyme                     | Products               | Site                     |
 | ------------- | -------------------------- | ---------------------- | ------------------------ |
@@ -275,9 +299,11 @@ $$\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Co
 | Lipids        | Lipase                     | Fatty acids + glycerol | Small intestine          |
 | DNA/RNA       | Nuclease                   | Nucleotides            | Small intestine          |
 
+</div>
+
 **Absorption:** The small intestine is adapted for absorption with villi and microvilli, which
 Increase surface area. Each villus has a dense capillary network (for amino acids and glucose) and a
-Lacteal (for fatty acids and glycerol).
+lacteal (for fatty acids and glycerol).
 
 ---
 
@@ -390,7 +416,7 @@ Lacteal (for fatty acids and glycerol).
 ## Review: The Immune System in Detail
 
 The immune system has two main components: the innate immune system (non-specific, immediate) and
-The adaptive immune system (specific, slower but long-lasting).
+the adaptive immune system (specific, slower but long-lasting).
 
 **Innate immune system:**
 
@@ -432,6 +458,8 @@ The adaptive immune system (specific, slower but long-lasting).
 
 **Primary vs secondary immune response:**
 
+<div class="table-wrap">
+
 | Feature        | Primary Response            | Secondary Response         |
 | -------------- | --------------------------- | -------------------------- |
 | Speed          | Slower (5--10 days to peak) | Faster (2--3 days to peak) |
@@ -439,6 +467,8 @@ The adaptive immune system (specific, slower but long-lasting).
 | Antibody class | Mainly IgM initially        | Mainly IgG                 |
 | Memory cells   | Formed during response      | Already present            |
 | Duration       | Short-lived                 | Longer-lasting             |
+
+</div>
 
 ## Review: Gas Exchange in the Lungs
 
@@ -471,7 +501,7 @@ The alveolar ventilation is lower because some air (approximately 150 mL) remain
 Alveolar ventilation $= 15 \times (500 - 150) = 15 \times 350 = 5250$ mL/min $= 5.25$ L/min.
 
 This shows that a significant proportion of each breath does not reach the alveoli and therefore
-Does not contribute to gas exchange.
+does not contribute to gas exchange.
 
 ## Review: Osmoregulation and the Kidney
 
@@ -479,11 +509,11 @@ The kidney plays a central role in maintaining water and ion balance in the body
 
 **Ultrafiltration:** In the glomerulus, high blood pressure forces water, glucose, amino acids,
 Urea, and ions out of the blood and into the Bowman's capsule. Large proteins and blood cells are
-Too large to pass through the basement membrane and remain in the blood.
+too large to pass through the basement membrane and remain in the blood.
 
 **Selective reabsorption:** As the filtrate passes through the proximal convoluted tubule, all
 Glucose, all amino acids, and most water and ions are reabsorbed into the blood by active transport
-And diffusion.
+and diffusion.
 
 **The loop of Henle:** Creates a concentration gradient in the medulla of the kidney. The descending
 Limb is permeable to water but not ions; water leaves by osmosis into the increasingly concentrated
@@ -493,20 +523,22 @@ multiplier Mechanism allows the kidney to produce concentrated urine.
 
 **ADH (antidiuretic hormone):** Released by the posterior pituitary gland in response to increased
 Blood osmolarity (detected by osmoreceptors in the hypothalamus). ADH makes the collecting duct more
-Permeable to water by inserting aquaporin channels into the membrane. More water is reabsorbed, and
-More concentrated urine is produced. When water intake is high, ADH secretion is reduced, less water
-Is reabsorbed, and dilute urine is produced.
+permeable to water by inserting aquaporin channels into the membrane. More water is reabsorbed, and
+more concentrated urine is produced. When water intake is high, ADH secretion is reduced, less water
+is reabsorbed, and dilute urine is produced.
 
 **Worked Example: Why glucose is not normally found in urine.**
 
 In a healthy person, all glucose is reabsorbed in the proximal convoluted tubule by active
 Transport. The transporters have a maximum capacity (transport maximum, Tm) of approximately 375
 Mg/min. If blood glucose levels are normal (approximately 5 mmol/L), the filtered load of glucose is
-Well below Tm, and all glucose is reabsorbed. In a person with uncontrolled diabetes, blood glucose
+well below Tm, and all glucose is reabsorbed. In a person with uncontrolled diabetes, blood glucose
 Levels can exceed 10 mmol/L, and the filtered load exceeds Tm. The excess glucose cannot be
-Reabsorbed and appears in the urine (glycosuria).
+reabsorbed and appears in the urine (glycosuria).
 
 ## Review: Summary Table of Hormones
+
+<div class="table-wrap">
 
 | Hormone    | Source           | Target       | Function                                        |
 | ---------- | ---------------- | ------------ | ----------------------------------------------- |
@@ -517,6 +549,8 @@ Reabsorbed and appears in the urine (glycosuria).
 | Thyroxine  | Thyroid          | All cells    | Increases metabolic rate                        |
 | FSH        | Pituitary        | Ovaries      | Stimulates follicle development                 |
 | LH         | Pituitary        | Ovaries      | Triggers ovulation                              |
+
+</div>
 
 ## Review: The Reproductive System
 
@@ -539,7 +573,7 @@ The male reproductive system produces and delivers sperm.
 **Spermatogenesis:** The process of sperm production in the seminiferous tubules. Spermatogonia
 (diploid) undergo mitosis to produce more spermatogonia and primary spermatocytes. Primary
 Spermatocytes undergo meiosis I to produce secondary spermatocytes, which undergo meiosis II to
-Produce spermatids. Spermatids mature into spermatozoa (sperm) through a process called
+produce spermatids. Spermatids mature into spermatozoa (sperm) through a process called
 Spermiogenesis.
 
 ### Female Reproductive System
@@ -574,7 +608,7 @@ Development.
 Fertilisation occurs in the fallopian tube when a sperm penetrates the egg. The sperm releases
 Enzymes from its acrosome to digest the outer layers of the egg. When one sperm enters, the egg
 Undergoes a cortical reaction that prevents polyspermy (entry of additional sperm). The nuclei of
-The sperm and egg fuse, forming a diploid zygote.
+the sperm and egg fuse, forming a diploid zygote.
 
 The zygote divides by mitosis as it travels along the fallopian tube, forming a ball of cells called
 A blastocyst. The blastocyst implants in the endometrium approximately 6-7 days after fertilisation.
@@ -636,7 +670,7 @@ Calcium ions ($\mathrm{Ca^{2+}$) are essential cofactors at multiple steps in th
 Without calcium ions, thromboplastin cannot convert prothrombin to thrombin, and thrombin cannot
 Convert fibrinogen to fibrin. This is why calcium chelators (substances that bind and remove calcium
 Ions) such as EDTA are used as anticoagulants in blood collection tubes. Similarly, the
-Anticoagulant drug heparin works by enhancing the activity of antithrombin, which inactivates
+anticoagulant drug heparin works by enhancing the activity of antithrombin, which inactivates
 Thrombin, preventing fibrin formation.
 
 ## Review: Lymphatic System
@@ -658,16 +692,16 @@ System.
 
 **Lymph circulation:** Lymph moves through lymphatic vessels by contraction of surrounding skeletal
 Muscles and by breathing. Valves in the lymphatic vessels prevent backflow. Lymph is returned to the
-Bloodstream via the thoracic duct (drains the left side of the body and both legs) and the right
+bloodstream via the thoracic duct (drains the left side of the body and both legs) and the right
 Lymphatic duct (drains the right side of the body) into the subclavian veins.
 
 **Worked Example: Oedema and the lymphatic system.**
 
 Oedema (swelling) occurs when excess fluid accumulates in the tissues. This can happen if the
-Lymphatic system is blocked (e.g., by a parasitic infection such as elephantiasis, which is caused
-By filarial worms blocking lymphatic vessels). If lymphatic drainage is impaired, the excess
+lymphatic system is blocked (e.g., by a parasitic infection such as elephantiasis, which is caused
+by filarial worms blocking lymphatic vessels). If lymphatic drainage is impaired, the excess
 Interstitial fluid cannot be returned to the bloodstream, and the tissue swells. This demonstrates
-The critical role of the lymphatic system in maintaining fluid balance.
+the critical role of the lymphatic system in maintaining fluid balance.
 
 ## Review: Types of Muscle Tissue
 
@@ -702,7 +736,7 @@ The human body contains three types of muscle tissue:
 **Worked Example: The sliding filament mechanism of muscle contraction.**
 
 When a muscle contracts, the actin (thin) and myosin (thick) filaments slide past each other,
-Shortening the sarcomere. The process:
+shortening the sarcomere. The process:
 
 1. An action potential arrives at the neuromuscular junction, releasing acetylcholine.
 2. The action potential spreads along the muscle fibre membrane and into T-tubules.
@@ -734,6 +768,8 @@ Muscles use three sources of ATP during contraction:
 
 **Muscle fibre types:**
 
+<div class="table-wrap">
+
 | Feature            | Type I (slow-twitch)      | Type IIa (fast-twitch oxidative) | Type IIb (fast-twitch glycolytic) |
 | ------------------ | ------------------------- | -------------------------------- | --------------------------------- |
 | Contraction speed  | Slow                      | Fast                             | Very fast                         |
@@ -744,6 +780,8 @@ Muscles use three sources of ATP during contraction:
 | Primary fuel       | Fatty acids, glucose      | Glucose, glycogen                | Glycogen, phosphocreatine         |
 | Example activity   | Marathon running, posture | Sprinting, swimming              | Weightlifting, jumping            |
 
+</div>
+
 ## Worked Examples
 
 **Example 1: Comparing mitosis and meiosis**
@@ -753,6 +791,8 @@ genetic variation.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature           | Mitosis                              | Meiosis                                     |
 | ----------------- | ------------------------------------ | ------------------------------------------- |
 | Divisions         | 1                                    | 2                                           |
@@ -761,16 +801,7 @@ genetic variation.
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
 
-
-```mermaid
-flowchart TD
-    A[3_Multicellular] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 

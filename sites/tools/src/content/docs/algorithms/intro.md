@@ -56,7 +56,7 @@ graph LR
 ```
 
 The relationship is not one-to-one. A hash table can implement a set or a map. A balanced BST can do
-The same. Which one you choose depends on whether you need ordered iteration, worst-case guarantees,
+the same. Which one you choose depends on whether you need ordered iteration, worst-case guarantees,
 Or amortised constant-time operations. These trade-offs are the substance of systems engineering.
 
 ## Mathematical Prerequisites
@@ -77,22 +77,26 @@ This subject assumes familiarity with:
 
 ## What This Subject Covers
 
+<div class="table-wrap">
+
 | Chapter                      | Focus                                                                    | Key Algorithms                    |
 | ---------------------------- | ------------------------------------------------------------------------ | --------------------------------- |
 | Complexity Analysis          | Asymptotic notation, Master Theorem, amortised analysis, NP-completeness |,                                 |
 | Arrays and Strings           | Two pointers, sliding window, prefix sums, hashing, string matching      | Rabin-Karp, KMP                   |
-| Linked Lists, Stacks, Queues | Linear structures, monotonic structures, union-find                      | Floyd"s cycle detection           |
+| Linked Lists, Stacks, Queues | Linear structures, monotonic structures, union-find                      | Floyd's cycle detection           |
 | Trees and Graphs             | BSTs, balanced trees, heaps, tries, graph traversal, topological sort    | BFS, DFS                          |
 | Sorting                      | Comparison and non-comparison sorting, stability, adaptive behaviour     | Merge sort, quicksort, radix sort |
 | Dynamic Programming          | Memoisation, tabulation, state space reduction, common DP patterns       | Knapsack, LCS, edit distance      |
 | Graph Algorithms             | Shortest paths, MSTs, network flow, strong connectivity                  | Dijkstra, Kruskal, Ford-Fulkerson |
+
+</div>
 
 ## How to Use These Notes
 
 These notes are written for systems engineers who need to understand algorithms at the level
 Required to make informed design decisions, not just pass an interview. Each chapter includes
 Complexity analysis, practical implementation considerations, and a "Common Pitfalls" section drawn
-From real production failures.
+from real production failures.
 
 Read the chapters in order if you are building foundational knowledge. Use them as reference
 Material if you are looking up a specific algorithm or trying to understand why a particular data
@@ -104,14 +108,7 @@ Inputs. Use the pseudocode here as a starting point, but write the code yourself
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -129,65 +126,3 @@ Algorithms are step-by-step recipes for solving problems. The key question is ef
 - [Arrays and Strings](/algorithms/02-arrays-strings/arrays-and-strings/)
 - [Sorting](/algorithms/05-sorting/sorting/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

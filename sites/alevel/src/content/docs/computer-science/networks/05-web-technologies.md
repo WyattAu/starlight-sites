@@ -34,6 +34,8 @@ Switches, and servers, communicating via the TCP/IP protocol suite.
 The **World Wide Web** (WWW) is an application running on top of the Internet: a system of
 Interlinked documents accessed via browsers using URLs, HTTP, and HTML.
 
+<div class="table-wrap">
+
 | Aspect    | Internet                              | World Wide Web                 |
 | --------- | ------------------------------------- | ------------------------------ |
 | Nature    | Physical infrastructure               | Application/service            |
@@ -41,6 +43,8 @@ Interlinked documents accessed via browsers using URLs, HTTP, and HTML.
 | Protocols | TCP/IP, BGP, OSPF                     | HTTP, HTML, URL                |
 | Scope     | All networked communication           | Document and resource sharing  |
 | Access    | Any application (email, gaming, VoIP) | Web browsers                   |
+
+</div>
 
 ### Historical Development
 
@@ -56,6 +60,8 @@ Interlinked documents accessed via browsers using URLs, HTTP, and HTML.
 
 ### Key Internet Protocols
 
+<div class="table-wrap">
+
 | Protocol | Full Name                   | Port  | Purpose                      |
 | -------- | --------------------------- | ----- | ---------------------------- |
 | TCP      | Transmission Control Proto  |,     | Reliable, ordered delivery   |
@@ -67,6 +73,8 @@ Interlinked documents accessed via browsers using URLs, HTTP, and HTML.
 | SMTP     | Simple Mail Transfer Proto  | 25    | Sending email                |
 | POP3     | Post Office Protocol v3     | 110   | Retrieving email (download)  |
 | IMAP     | Internet Message Access Pr  | 143   | Accessing email on server    |
+
+</div>
 
 <hr />
 
@@ -99,6 +107,8 @@ HTML (HyperText Markup Language) defines the structure and content of web pages:
 
 Semantic elements describe meaning to browsers and assistive technologies:
 
+<div class="table-wrap">
+
 | Element     | Purpose                                      |
 | ----------- | -------------------------------------------- |
 | `<header>`  | Introductory content or navigation links     |
@@ -109,6 +119,8 @@ Semantic elements describe meaning to browsers and assistive technologies:
 | `<section>` | Thematic grouping of content with a heading  |
 | `<aside>`   | Tangentially related content (sidebars)      |
 | `<figure>`  | Self-contained content (images, diagrams)    |
+
+</div>
 
 ### Common HTML Elements
 
@@ -145,6 +157,8 @@ selector {
 }
 ```
 
+<div class="table-wrap">
+
 | Selector     | Example   | Selects                      |
 | ------------ | --------- | ---------------------------- |
 | Element      | `p`       | All `` elements              |
@@ -152,6 +166,8 @@ selector {
 | ID           | `#header` | Element with `id="header"`   |
 | Descendant   | `nav a`   | All `<a>` inside `<nav>`     |
 | Pseudo-class | `a:hover` | `<a>` when hovered           |
+
+</div>
 
 **Specificity** (highest to lowest): inline style &gt; ID &gt; class &gt; element.
 
@@ -223,7 +239,7 @@ box-sizing: border-box;
 }
 ```
 
-**Viewport units** (`vw``vh`) scale relative to the browser window:
+**Viewport units** (`vw`, `vh`) scale relative to the browser window:
 
 ```css
 .hero {
@@ -271,9 +287,11 @@ button.addEventListener('click', () => {
 });
 ```
 
-Common events: `click``keydown``keyup``mouseover``submit``load``change`.
+Common events: `click`, `keydown`, `keyup`, `mouseover`, `submit`, `load`, `change`.
 
 ### Client-Side vs Server-Side Validation
+
+<div class="table-wrap">
 
 | Aspect   | Client-side                       | Server-side                |
 | -------- | --------------------------------- | -------------------------- |
@@ -281,6 +299,8 @@ Common events: `click``keydown``keyup``mouseover``submit``load``change`.
 | Speed    | Instant feedback                  | Requires round-trip        |
 | Security | Can be bypassed                   | Cannot be bypassed         |
 | Purpose  | UX, reducing unnecessary requests | Data integrity, security   |
+
+</div>
 
 **Best practice:** Always perform both. Client-side for UX; server-side for security.
 
@@ -308,6 +328,8 @@ function validateForm(event) {
 
 ### HTTP Methods
 
+<div class="table-wrap">
+
 | Method | Purpose                     | Idempotent | Has body |
 | ------ | --------------------------- | ---------- | -------- |
 | GET    | Retrieve a resource         | Yes        | No       |
@@ -315,9 +337,13 @@ function validateForm(event) {
 | PUT    | Replace a resource entirely | Yes        | Yes      |
 | DELETE | Remove a resource           | Yes        | No       |
 
+</div>
+
 **Idempotent:** making the same request multiple times produces the same result as once.
 
 ### HTTP Status Codes
+
+<div class="table-wrap">
 
 | Code | Name                | Meaning                        |
 | ---- | ------------------- | ------------------------------ |
@@ -325,6 +351,8 @@ function validateForm(event) {
 | 301  | Moved Permanently   | Resource permanently relocated |
 | 404  | Not Found           | Resource does not exist        |
 | 500  | Internal Server Err | Server-side failure            |
+
+</div>
 
 Ranges: 1xx (information), 2xx (success), 3xx (redirection), 4xx (client error), 5xx (server error).
 
@@ -365,6 +393,8 @@ Authentication (server identity verified via certificates), and SEO (search engi
 Set-Cookie: session_id=abc123; HttpOnly; Secure; SameSite=Strict
 ```
 
+<div class="table-wrap">
+
 | Flag       | Purpose                                  |
 | ---------- | ---------------------------------------- |
 | `HttpOnly` | Prevents JavaScript access (XSS defence) |
@@ -372,8 +402,10 @@ Set-Cookie: session_id=abc123; HttpOnly; Secure; SameSite=Strict
 | `SameSite` | Controls cross-site request behaviour    |
 | `Max-Age`  | Cookie lifetime in seconds               |
 
+</div>
+
 A **session** is server-side state. The server stores the session and sends the session ID as a
-Cookie. On subsequent requests, the cookie identifies the session.
+cookie. On subsequent requests, the cookie identifies the session.
 
 <hr />
 
@@ -389,6 +421,8 @@ Cookie. On subsequent requests, the cookie identifies the session.
 
 ### On-Page SEO
 
+<div class="table-wrap">
+
 | Technique        | Description                                        |
 | ---------------- | -------------------------------------------------- |
 | Title tag        | Unique, descriptive `<title>` per page             |
@@ -397,6 +431,8 @@ Cookie. On subsequent requests, the cookie identifies the session.
 | Semantic HTML    | `<article>``<section>``<nav>` for structure        |
 | Alt text         | Describe images for accessibility                  |
 | URL structure    | Clean URLs: `/products/laptops` not `/p?id=3`      |
+
+</div>
 
 ### Off-Page SEO
 
@@ -485,7 +521,7 @@ The **Internet** is the global physical infrastructure (cables, routers, servers
 **World Wide Web** is one application on the Internet, interlinked documents accessed via browsers
 Using HTTP, HTML, and URLs, invented by Tim Berners-Lee at CERN in 1989. Many services (email via
 SMTP, VoIP) use the Internet but are not part of the Web. The Internet existed for 20 years before
-The Web was created.
+the Web was created.
 
 </details>
 
@@ -523,12 +559,12 @@ Article, and a footer. Why does semantic HTML improve accessibility?
 ```
 
 Semantic HTML improves accessibility because screen readers can distinguish navigation from content
-From footer, allowing users to jump between sections. Search engines also better understand page
+from footer, allowing users to jump between sections. Search engines also better understand page
 Structure for indexing.
 
 </details>
 
-**Problem 3.** An element has `width: 200px``padding: 20px``border: 5px solid black`And
+**Problem 3.** An element has `width: 200px`, `padding: 20px`, `border: 5px solid black` and
 `margin: 15px`. Calculate total space for both `content-box` and `border-box`.
 
 <details>
@@ -552,9 +588,9 @@ Necessary?
 Check). **Server-side** runs after submission against backend resources (e.g., checking a database).
 
 Server-side validation is always necessary because: (1) JavaScript can be disabled; (2) attackers
-Can send crafted HTTP requests directly, bypassing the browser entirely; (3) only the server can
-Verify business rules (sufficient funds, item in stock). Client-side validation is UX only, not
-Security.
+can send crafted HTTP requests directly, bypassing the browser entirely; (3) only the server can
+verify business rules (sufficient funds, item in stock). Client-side validation is UX only, not
+security.
 
 </details>
 
@@ -583,13 +619,13 @@ Displayed.
 
 **Stored XSS:** Attacker submits malicious script via an input field; server stores it uns
 Sanitised. Every user who views the page executes the script. **Prevent:** sanitise and encode all
-User input; use CSP headers.
+user input; use CSP headers.
 
 **Reflected XSS:** Attacker crafts a URL with script in a parameter; server reflects it without
 Encoding. Victim must click the link. **Prevent:** encode all user-supplied data in responses.
 
 **DOM-based XSS:** Entirely client-side. JavaScript reads user input and inserts it via `innerHTML`
-Unsafely. **Prevent:** use `textContent``createElement()`And `appendChild()`.
+Unsafely. **Prevent:** use `textContent`, `createElement()` and `appendChild()`.
 
 **General:** Content Security Policy, `HttpOnly` cookies, input validation, output encoding.
 
@@ -685,21 +721,7 @@ Boundary.
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[05 Web Technologies] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

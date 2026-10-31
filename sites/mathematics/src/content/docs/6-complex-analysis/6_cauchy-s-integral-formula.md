@@ -19,10 +19,12 @@ description: "If is analytic on a connected domain Containing a simple closed po
 
 ### 6.1 Statement
 
-**Theorem 6.1 (Cauchy"s Integral Formula).** If $f$ is analytic on a connected domain Containing a
+**Theorem 6.1 (Cauchy's Integral Formula).** If $f$ is analytic on a connected domain Containing a
 simple closed positively oriented contour $\gamma$ And $z_0$ is inside $\gamma$ Then
 
-$$f(z_0) = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{z - z_0}\, dz$$
+$$
+f(z_0) = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{z - z_0}\, dz
+$$
 
 _Proof._ Let $\gamma_\varepsilon$ be a small circle of radius $\varepsilon$ around $z_0$. Since
 $\frac{f(z)}{z - z_0}$ is analytic on the region between $\gamma$ and $\gamma_\varepsilon$
@@ -42,7 +44,9 @@ $\varepsilon \to 0$ by the ML inequality. $\blacksquare$
 
 **Theorem 6.2 (Cauchy's Integral Formula for Derivatives).** Under the same conditions,
 
-$$f^{(n)}(z_0) = \frac{n!}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz$$
+$$
+f^{(n)}(z_0) = \frac{n!}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz
+$$
 
 _Proof._ We proceed by induction. The base case $n = 0$ is Theorem 6.1. For the inductive step,
 Assume the formula holds for $n$. Using the difference quotient:
@@ -64,7 +68,9 @@ This is remarkable: a single complex derivative implies the existence of all der
 **Corollary 6.4 (Cauchy's Estimates).** If $f$ is analytic on and inside a circle $|z - z_0| = R$
 And $|f(z)| \leq M$ on the circle, then
 
-$$|f^{(n)}(z_0)| \leq \frac{n!M}{R^n}$$
+$$
+|f^{(n)}(z_0)| \leq \frac{n!M}{R^n}
+$$
 
 _Proof._ From the integral formula:
 $|f^{(n)}(z_0)| = \frac{n!}{2\pi}\left|\int_{|z-z_0|=R} \frac{f(z)}{(z-z_0)^{n+1}}\, dz\right|
@@ -76,7 +82,7 @@ $\blacksquare$
 **Theorem 6.5 (Liouville's Theorem).** Every bounded entire function is constant.
 
 _Proof._ If $|f(z)| \leq M$ for all $z$ Then by Cauchy's estimates with $R$ arbitrarily large:
-$|f'(z_0)| \leq \frac{M}{R} \to 0$ as $R \to \infty$. So $f'(z) = 0$ for all $z$Meaning $f$ is
+$|f'(z_0)| \leq \frac{M}{R} \to 0$ as $R \to \infty$. So $f'(z) = 0$ for all $z$ Meaning $f$ is
 Constant. $\blacksquare$
 
 **Corollary 6.6.** If $f$ is entire and $|f(z)| \geq M$ for all $z$ (bounded away from zero), then
@@ -103,7 +109,7 @@ Counting multiplicities.
 
 **Problem.** Evaluate $\int_\gamma \frac{e^z}{z - 1}\, dz$ where $\gamma$ is $|z| = 2$.
 
-_Solution._ The function $\frac{e^z}{z - 1}$ has a singularity at $z = 1$Which lies inside $\gamma$.
+_Solution._ The function $\frac{e^z}{z - 1}$ has a singularity at $z = 1$ Which lies inside $\gamma$.
 By Cauchy's integral formula with $f(z) = e^z$ and $z_0 = 1$:
 
 $\int_\gamma \frac{e^z}{z - 1}\, dz = 2\pi i \cdot f(1) = 2\pi i \cdot e^1 = 2\pi i e$.
@@ -151,17 +157,6 @@ $= \frac{\pi i e^{-2}}{2} - \frac{\pi i e^2}{2} + 2\pi i e^2 = \frac{\pi i e^{-2
 - Confusing the orientation: the contour must be positively oriented (counterclockwise).
 - Neglecting to check that $f$ is analytic **on and inside** $\gamma$, not just on $\gamma$.
 
-
-```mermaid
-flowchart TD
-    A[6_Cauchy S Integral Formula] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Cauchy's integral formula says the value of an analytic function inside a contour is completely determined by its values on the contour itself. This is extraordinary: the interior is enslaved to the boundary. Imagine knowing the temperature along the edge of a drum skin and being able to compute the temperature at any interior point. The formula works because analytic functions cannot have local extrema, so information propagates inward from the boundary. The derivative formula extends this: not just the function but all its derivatives are recoverable from boundary data, making complex analysis a boundary theory.
@@ -172,47 +167,6 @@ Cauchy's integral formula says the value of an analytic function inside a contou
 - **[Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)**: The integral formula leads to power series representations of analytic functions.
 - **[Liouville's Theorem](/6-complex-analysis/11_liouville-s-theorem-and-the-maximum-modulus-principle/)**: Liouville's theorem follows from Cauchy's estimates and characterizes bounded entire functions.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

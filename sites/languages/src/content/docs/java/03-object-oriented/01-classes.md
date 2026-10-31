@@ -116,7 +116,7 @@ public class Person {
 
 `this(...)` calls another constructor in the **same class**. `super(...)` calls a constructor in the
 **direct superclass**. Both must be the **first statement** in a constructor body. If you omit
-`super(...)`The compiler inserts `super()` (no-arg superclass constructor) automatically.
+`super(...)`. The compiler inserts `super()` (no-arg superclass constructor) automatically.
 
 ```java
 public class Employee extends Person {
@@ -139,7 +139,7 @@ public class Employee extends Person {
 }
 ```
 
-The constructor chaining order at runtime is: the most-derived constructor calls `super()`Which
+The constructor chaining order at runtime is: the most-derived constructor calls `super()`. Which
 Calls its superclass constructor, all the way up to `Object()`. Then initialization proceeds
 Top-down -- `Object`'s instance initializer runs first, then each subclass's field initializers and
 Initializer blocks, finally the body of each constructor completes bottom-up.
@@ -193,12 +193,16 @@ graph TB
     end
 ```
 
+<div class="table-wrap">
+
 | Modifier        | Same Class | Same Package | Subclass (diff pkg) | Unrelated |
 | --------------- | :--------: | :----------: | :-----------------: | :-------: |
 | `public`        |     Y      |      Y       |          Y          |     Y     |
 | `protected`     |     Y      |      Y       |          Y          |     N     |
 | package-private |     Y      |      Y       |          N          |     N     |
 | `private`       |     Y      |      N       |          N          |     N     |
+
+</div>
 
 ```java
 public class AccessDemo {
@@ -249,7 +253,7 @@ class SubclassDemo extends AccessDemo {
 :::caution
 Package can access a `protected` member only through `this` or a reference of the subclass's own
 Type. It cannot access the `protected` member through a reference of the superclass type, even if
-The actual object is an instance of the subclass.
+the actual object is an instance of the subclass.
 :::
 
 :::note
@@ -361,7 +365,7 @@ public final class String {
 }
 ```
 
-Other common `final` classes: `Integer``Long``Double``StringBuilder``java.time.LocalDate`.
+Other common `final` classes: `Integer`, `Long`, `Double`, `StringBuilder`, `java.time.LocalDate`.
 
 ### Final Methods
 
@@ -457,7 +461,7 @@ public interface Serializable {
 ### Default Methods (Java 8+)
 
 Default methods provide a concrete implementation in an interface, allowing interface evolution
-Without breaking existing implementations.
+without breaking existing implementations.
 
 ```java
 public interface List<E> extends Collection<E> {
@@ -554,21 +558,21 @@ Predicate<String> isValid = isNotEmpty.and(s -> s.length() <= 255);
 
 The `@FunctionalInterface` annotation is optional but causes the compiler to verify that the
 Interface has exactly one abstract method. Standard functional interfaces in `java.util.function`:
-`Function<T,R>``Consumer<T>``Supplier<T>``Predicate<T>``BiFunction<T,U,R>`
-`UnaryOperator<T>``BinaryOperator<T>`.
+`Function<T,R>`, `Consumer<T>`, `Supplier<T>`, `Predicate<T>`, `BiFunction<T,U,R>`
+`UnaryOperator<T>`, `BinaryOperator<T>`.
 
 ### Design Decision: Why Interfaces Got Default Methods
 
 Before Java 8, adding a method to a public interface broke every existing implementation. This made
-Interface evolution practically impossible for widely-used interfaces like `Collection``List`And
-`Map`. When the Streams API was added in Java 8, methods like `stream()``forEach()`And
+Interface evolution practically impossible for widely-used interfaces like `Collection`, `List` and
+`Map`. When the Streams API was added in Java 8, methods like `stream()`, `forEach()` and
 `spliterator()` needed to be added to `Collection`. Without default methods, every single
 `Collection` implementation in every library on Earth would have to be updated and recompiled.
 
 Default methods solve this by providing a **default implementation** that existing classes inherit
 Automatically. The implementing class does not need to change. This is fundamentally an API
 Evolution mechanism, not a mixin or trait system -- Java chose to keep the solution minimal rather
-Than introducing full multiple inheritance of behavior.
+than introducing full multiple inheritance of behavior.
 
 The diamond problem is resolved by explicit rules: if a class inherits the same default method from
 Two interfaces, it must override the method and resolve the conflict explicitly using
@@ -652,8 +656,8 @@ LinkedList<String> list = new LinkedList<>();
 ### Anonymous Class
 
 An anonymous class is an unnamed class that is declared and instantiated in a single expression. It
-Is most commonly used for implementing functional interfaces before Java 8, and for abstract classes
-That need a one-off implementation.
+is most commonly used for implementing functional interfaces before Java 8, and for abstract classes
+that need a one-off implementation.
 
 ```java
 // Anonymous class implementing an interface
@@ -735,12 +739,16 @@ public Iterator<E> filteredIterator(final Predicate<? super E> predicate) {
 
 ### Inner Class Summary
 
+<div class="table-wrap">
+
 | Type          | Holds enclosing ref? | Can access enclosing members? | Needs enclosing instance? | Can be `static`? |
 | ------------- | :------------------: | :---------------------------: | :-----------------------: | :--------------: |
 | Static nested |          No          |      Static members only      |            No             |       Yes        |
 | Member inner  |         Yes          |          All members          |            Yes            |        No        |
 | Anonymous     |         Yes          |          All members          |            Yes            |        No        |
 | Local         |         Yes          |          All members          |            Yes            |        No        |
+
+</div>
 
 :::caution
 Implicit reference to its enclosing instance, which can prevent garbage collection of the enclosing
@@ -802,7 +810,7 @@ graph TD
 
 ### Liskov Substitution Principle (LSP)
 
-The Liskov Substitution Principle states that if `S` is a subtype of `T`Then objects of type `T` May
+The Liskov Substitution Principle states that if `S` is a subtype of `T`. Then objects of type `T` May
 be replaced with objects of type `S` without altering any of the desirable properties of the
 Program.
 
@@ -844,7 +852,7 @@ void resize(Rectangle r, int width, int height) {
 ```
 
 The LSP violation occurs because `Square` cannot satisfy `Rectangle`'s behavioral contract. The fix
-Is composition: `Square` should contain a `Rectangle` rather than extend it, or both should
+is composition: `Square` should contain a `Rectangle` rather than extend it, or both should
 Implement a common `Shape` interface.
 
 ## Method Overriding vs Hiding
@@ -940,14 +948,14 @@ Dog clone = original.copy();  // returns Dog, not Animal
 
 ## Object Methods
 
-Every class inherits from `java.lang.Object`Which defines methods that every object has.
+Every class inherits from `java.lang.Object`. Which defines methods that every object has.
 Understanding and correctly implementing these methods is essential for writing correct Java
 Programs.
 
 ### toString()
 
 Returns a string representation of the object. The default implementation returns
-`getClass().getName() + "@" + Integer.toHexString(hashCode())`Which is rarely useful.
+`getClass().getName() + "@" + Integer.toHexString(hashCode())`. Which is rarely useful.
 
 ```java
 public class Person {
@@ -970,7 +978,7 @@ public class Person {
 
 ### Design Decision: Why the equals/hashCode Contract Exists
 
-The contract exists because hash-based collections (`HashMap``HashSet``Hashtable`) depend on two
+The contract exists because hash-based collections (`HashMap`, `HashSet`, `Hashtable`) depend on two
 Invariants:
 
 1. **If two objects are equal, they MUST have the same hash code.** If this is violated, equal
@@ -979,23 +987,23 @@ Invariants:
 2. **If two objects have the same hash code, they need NOT be equal.** This is a normal collision
    that hash tables handle correctly via linear probing or chaining.
 
-If you override `equals()` without overriding `hashCode()`You break invariant 1. Objects that your
-`equals()` says are equal will have different hash codes (from `Object.hashCode()`Which is based on
+If you override `equals()` without overriding `hashCode()`. You break invariant 1. Objects that your
+`equals()` says are equal will have different hash codes (from `Object.hashCode()`. Which is based on
 memory address), causing them to be placed in different buckets. A `HashSet` Would then contain
 duplicates, and a `HashMap` would fail to find keys.
 
 The contract, as defined in `Object.hashCode()`:
 
-- If two objects are equal according to `equals(Object)`Then calling `hashCode()` on each must
+- If two objects are equal according to `equals(Object)`. Then calling `hashCode()` on each must
   produce the same integer result.
-- If two objects are unequal according to `equals(Object)`It is NOT required that they produce
+- If two objects are unequal according to `equals(Object)`. It is NOT required that they produce
   distinct hash codes. However, distinct hash codes improve hash table performance.
 
 The contract for `equals(Object)`As defined in `Object.equals()`:
 
 - **Reflexive**: `x.equals(x)` must return `true`.
 - **Symmetric**: `x.equals(y)` must return the same result as `y.equals(x)`.
-- **Transitive**: if `x.equals(y)` and `y.equals(z)`Then `x.equals(z)`.
+- **Transitive**: if `x.equals(y)` and `y.equals(z)`. Then `x.equals(z)`.
 - **Consistent**: multiple invocations of `x.equals(y)` must consistently return `true` or `false`
   provided neither object is modified.
 - `x.equals(null)` must return `false`.
@@ -1039,7 +1047,7 @@ public int hashCode() {
 ```
 
 :::caution
-state in a way that changes `equals()` or `hashCode()`The collection will behave incorrectly. The
+state in a way that changes `equals()` or `hashCode()`. The collection will behave incorrectly. The
 object may become "lost" in the wrong bucket. Always use immutable objects as hash keys, or Ensure
 that fields used in `equals()`/`hashCode()` are never modified after insertion.
 :::
@@ -1047,7 +1055,7 @@ that fields used in `equals()`/`hashCode()` are never modified after insertion.
 ### clone()
 
 The `clone()` method is intended to create a field-for-field copy of an object. However, its design
-Is widely considered flawed.
+is widely considered flawed.
 
 ```java
 // The Cloneable interface is a marker interface with NO methods.
@@ -1240,13 +1248,13 @@ public enum Operation {
 [JLS §8.9](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.9) defines enum
 Declarations. Enum constants are implicitly `public static final`. Enum types implicitly extend
 `java.lang.Enum` and cannot be instantiated with `new`. Enum types are implicitly `final` unless
-They have constant-specific class bodies.
+they have constant-specific class bodies.
 :::
 
 ## Generics Basics
 
 Generics allow you to parameterize types -- classes, interfaces, and methods can operate on types
-That the client specifies at declaration time. Generics provide compile-time type safety and
+that the client specifies at declaration time. Generics provide compile-time type safety and
 Eliminate the need for explicit casting.
 
 ### Type Parameters
@@ -1466,7 +1474,7 @@ graph TD
 
 6. **Generics provide compile-time type safety through type erasure.** The JVM does not know about
    generic types at runtime -- it sees raw types. This design was chosen for backward compatibility
-   with pre-generics Java code. The cost is that you cannot use `new T()``instanceof T`Or create
+   with pre-generics Java code. The cost is that you cannot use `new T()`, `instanceof T` or create
    arrays of generic types.
 
 ## Common Pitfalls
@@ -1483,9 +1491,6 @@ graph TD
    implementation in code.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

@@ -51,3 +51,6 @@ Each site below exposes its own `/llms.txt` page index.
 - [TrueNAS](https://truenas.wyattau.com/): https://truenas.wyattau.com/llms.txt
 - [Tuning](https://tuning.wyattau.com/): https://tuning.wyattau.com/llms.txt
 - [TypeScript](https://typescript.wyattau.com/): https://typescript.wyattau.com/llms.txt
+- [Economics](https://economics.wyattau.com/): https://economics.wyattau.com/llms.txt
+- [Finance](https://finance.wyattau.com/): https://finance.wyattau.com/llms.txt
+- [Accounting](https://accounting.wyattau.com/): https://accounting.wyattau.com/llms.txt

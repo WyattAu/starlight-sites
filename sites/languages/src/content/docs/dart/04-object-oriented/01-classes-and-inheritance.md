@@ -142,7 +142,7 @@ class Rectangle {
 
 :::tip
 More efficient, they initialize fields directly, while the constructor body runs after all fields
-Have been initialized (to their default values first).
+have been initialized (to their default values first).
 
 ## Inheritance
 
@@ -294,6 +294,8 @@ mixin Persistable on Serializable {
 
 ### Mixin vs Inheritance vs Interface
 
+<div class="table-wrap">
+
 | Feature                 | `extends`         | `implements`            | `with` (mixin)            |
 | ----------------------- | ----------------- | ----------------------- | ------------------------- |
 | Inherit implementation  | Yes               | No                      | Yes                       |
@@ -301,6 +303,8 @@ mixin Persistable on Serializable {
 | Multiple                | No (single)       | Yes                     | Yes                       |
 | Can have constructors   | Yes               | No (if mixin)           | No                        |
 | Use case                | Is-a relationship | Has-capability contract | Code reuse across classes |
+
+</div>
 :::
 
 :::tip
@@ -380,7 +384,7 @@ Syntactic sugar for static function calls. This means they cannot be used polymo
 
 **Why it matters:** Single inheritance keeps the hierarchy simple, mixins prevent the "diamond problem," and implicit interfaces mean you can write test doubles for any class without designing for testability upfront.
 
-**The key insight:** Dart's three mechanisms (`extends``implements``with`) map to three distinct relationships: is-a, has-contract, and has-capability, choose the right one for each design problem.
+**The key insight:** Dart's three mechanisms (`extends`, `implements`, `with`) map to three distinct relationships: is-a, has-contract, and has-capability, choose the right one for each design problem.
 
 ## Common Pitfalls
 
@@ -397,14 +401,7 @@ Syntactic sugar for static function calls. This means they cannot be used polymo
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

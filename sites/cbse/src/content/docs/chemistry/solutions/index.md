@@ -72,7 +72,9 @@ Assume 1 L of solution:
 - Mass of H$_2$SO$_4$ = $18 \times 98 = 1764 \text{ g}$
 - Mass of solvent = $1800 - 1764 = 36 \text{ g} = 0.036 \text{ kg}$
 
-$$\text{Molality} = \frac{18}{0.036} = 500 \text{ m}$$
+$$
+\text{Molality} = \frac{18}{0.036} = 500 \text{ m}
+$$
 
 **Common mistake:** Confusing mass of solution with mass of solvent. The denominator in molality is mass of solvent only.
 
@@ -84,9 +86,11 @@ $$\text{Molality} = \frac{18}{0.036} = 500 \text{ m}$$
 
 NaCl dissociates into Na$^+$ and Cl$^-$, so $i = 2$.
 
-$$\Delta T_b = i \cdot K_b \cdot m = 2 \times 0.52 \times 0.5 = 0.52 \text{ K}$$
+$$
+\Delta T_b = i \cdot K_b \cdot m = 2 \times 0.52 \times 0.5 = 0.52 \text{ K}
+$$
 
-Boiling point = $100 + 0.52 = 100.52^\circ$C
+Boiling point = $100 + 0.52 = 100.52^\circ$ C
 
 **Common mistake:** Forgetting the van't Hoff factor for electrolytes. Using $i = 1$ gives $\Delta T_b = 0.26$ K, which is wrong.
 
@@ -96,12 +100,18 @@ Boiling point = $100 + 0.52 = 100.52^\circ$C
 
 **Solution:**
 
-$$\pi = CRT \implies C = \frac{\pi}{RT}$$
+$$
+\pi = CRT \implies C = \frac{\pi}{RT}
+$$
 
-$$C = \frac{2500}{8.314 \times 300} = 1.002 \text{ mol/m}^3 = 1.002 \times 10^{-3} \text{ mol/L}$$
+$$
+C = \frac{2500}{8.314 \times 300} = 1.002 \text{ mol/m}^3 = 1.002 \times 10^{-3} \text{ mol/L}
+$$
 
 Concentration in g/L:
-$$1.002 \times 10^{-3} \times 50{,}000 = 50.1 \text{ g/L}$$
+$$
+1.002 \times 10^{-3} \times 50{,}000 = 50.1 \text{ g/L}
+$$
 
 **Common mistake:** Using $R = 0.0821$ L atm/(mol K) when pressure is in kPa. Either convert pressure to atm or use $R = 8.314$ J/(mol K) with SI units.
 
@@ -113,9 +123,11 @@ $$1.002 \times 10^{-3} \times 50{,}000 = 50.1 \text{ g/L}$$
 
 CaCl$_2$ dissociates into Ca$^{2+}$ and 2Cl$^-$, so $i = 3$.
 
-$$\Delta T_f = i \cdot K_f \cdot m = 3 \times 1.86 \times 1.0 = 5.58 \text{ K}$$
+$$
+\Delta T_f = i \cdot K_f \cdot m = 3 \times 1.86 \times 1.0 = 5.58 \text{ K}
+$$
 
-Freezing point = $0 - 5.58 = -5.58^\circ$C
+Freezing point = $0 - 5.58 = -5.58^\circ$ C
 
 **Common mistake:** Using $i = 2$ instead of $i = 3$ for CaCl$_2$. The van't Hoff factor equals the number of ions produced per formula unit.
 

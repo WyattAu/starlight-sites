@@ -40,18 +40,19 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
+
+
+:::note[Heading to university next?]
+These notes are calibrated to your exam. University mathematics and physics are
+not: they assume you can read a proof, define a limit from the epsilon-delta
+definition, and work with vectors and set notation. The destination sites have
+free transition pages written exactly for that step -- start with
+**[Before You Begin: From School to University Mathematics](https://mathematics.wyattau.com/before-you-begin/)**
+and continue to
+**[the physics version](https://physics.wyattau.com/before-you-begin/)**.
+Both end with a self-test, so you know which sections to study.
+:::
 
 The DSE (Diploma of Secondary Education) is the standardised examination taken by all Hong Kong students at the end of secondary school. It determines university admissions and shapes career pathways. This hub page links every resource on this site, organised by subject, with study plans and exam strategies to help you prepare efficiently.
 
@@ -287,12 +288,16 @@ Preparing for the DSE is a marathon, not a sprint. Here is a structured approach
 
 ### Daily Routine
 
+<div class="table-wrap">
+
 | Time | Activity |
 | ------ | ---------- |
 | Morning | Active recall, flashcards for 20 minutes |
 | Afternoon | Topic study, read notes on one new topic |
 | Evening | Practice, complete 5–10 practice questions |
 | Weekend | Diagnostic quiz + review weak areas |
+
+</div>
 
 ---
 

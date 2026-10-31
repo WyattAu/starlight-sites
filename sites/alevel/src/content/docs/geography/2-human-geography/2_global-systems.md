@@ -41,6 +41,8 @@ challenges such as climate change.
 
 ## Key Concepts and Definitions
 
+<div class="table-wrap">
+
 | Term                                | Definition                                                                                                                                |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | **Globalisation**                   | The process by which the world is becoming increasingly interconnected through flows of goods, capital, people, information, and ideas    |
@@ -59,6 +61,8 @@ challenges such as climate change.
 | **Core countries**                  | Wealthy, developed nations that dominate global economic and political systems                                                            |
 | **Periphery countries**             | Less developed nations that are economically dependent on core countries                                                                  |
 | **Semi-periphery**                  | Countries that are between core and periphery, industrialising but not yet dominant                                                      |
+
+</div>
 
 ---
 
@@ -100,6 +104,8 @@ borders.
 
 ### Drivers of Globalisation
 
+<div class="table-wrap">
+
 | Driver                         | Contribution                                                                                                                                                                       |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Technological change**       | The internet, mobile communications, and satellite technology enable instant global communication and coordination. Containerisation revolutionised shipping.                      |
@@ -109,11 +115,13 @@ borders.
 | **TNC expansion**              | TNCs drive globalisation by locating different stages of production in different countries to minimise costs and maximise market access.                                           |
 | **International institutions** | The IMF, World Bank, and WTO provide frameworks that facilitate and regulate global economic integration.                                                                          |
 
+</div>
+
 ### Impacts of Globalisation
 
 **Positive impacts:**
 
-- Economic growth in many developing countries (e.g., China"s GDP per capita increased approximately
+- Economic growth in many developing countries (e.g., China's GDP per capita increased approximately
   25-fold since 1980)
 - Poverty reduction, the proportion of the global population living in extreme poverty fell from
   approximately 42% in 1981 to under 10% by 2015
@@ -162,6 +170,8 @@ political tensions.
 
 ### Trade Blocs and Agreements
 
+<div class="table-wrap">
+
 | Bloc/Agreement                                   | Members                    | Key Features                                                                                                |
 | ------------------------------------------------ | -------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | **European Union (EU)**                          | 27 member states           | Single market, free movement of goods, services, capital, and people; common external tariff; customs union |
@@ -169,6 +179,8 @@ political tensions.
 | **ASEAN**                                        | 10 Southeast Asian nations | Free trade area, economic integration, political cooperation                                                |
 | **CPTPP**                                        | 11 Pacific Rim nations     | Comprehensive trade agreement covering tariffs, services, and intellectual property                         |
 | **African Continental Free Trade Area (AfCFTA)** | 54 AU member states        | Aims to create the world's largest free trade area by number of countries                                   |
+
+</div>
 
 **Advantages of trade blocs**: Larger markets, economies of scale, increased competition and
 efficiency, political cooperation, FDI attraction.
@@ -243,6 +255,8 @@ TNCs influence global systems through:
 
 ### Institutions of Global Governance
 
+<div class="table-wrap">
+
 | Institution                           | Role                                                                                                               |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | **United Nations (UN)**               | Maintaining international peace and security, promoting human rights, facilitating development (193 member states) |
@@ -251,6 +265,8 @@ TNCs influence global systems through:
 | **World Bank**                        | Providing development loans and grants to developing countries for infrastructure and poverty reduction            |
 | **G20**                               | Forum for international economic cooperation among the world's 20 largest economies                                |
 | **World Health Organization (WHO)**   | Directing international health, setting standards, coordinating responses to health emergencies                    |
+
+</div>
 
 ### Criticisms of Global Governance
 
@@ -293,6 +309,8 @@ restraint would benefit all.
 
 ### Types of Migration
 
+<div class="table-wrap">
+
 | Type                        | Description                                                      | Example                                                                          |
 | --------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | **Economic migration**      | Movement for employment and better wages                         | Polish workers to the UK after 2004 EU accession                                 |
@@ -301,6 +319,8 @@ restraint would benefit all.
 | **International migration** | Movement between countries                                       | Mexican migration to the USA                                                     |
 | **Return migration**        | Migrants returning to their country of origin                    | Return of skilled Indians from the US and UK                                     |
 | **Irregular migration**     | Movement outside legal frameworks                                | Mediterranean crossings to Europe                                                |
+
+</div>
 
 ### Impacts of Migration
 
@@ -363,7 +383,7 @@ war) and supply chain disruptions (COVID-19), expanding production in India and 
 ### Case Study 2: The Syrian Refugee Crisis and European Migration
 
 The Syrian Civil War, beginning in 2011, created one of the largest refugee crises since the Second
-World War. By 2023, approximately 6.8 million Syrians were registered as refugees, primarily in
+world War. By 2023, approximately 6.8 million Syrians were registered as refugees, primarily in
 Turkey (approximately 3.6 million), Lebanon (approximately 830,000), and Jordan (approximately
 660,000). Approximately 6.9 million were internally displaced within Syria.
 
@@ -493,17 +513,6 @@ affecting households and national accounts.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[2_Global Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

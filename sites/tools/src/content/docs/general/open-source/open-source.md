@@ -56,6 +56,8 @@ Open source contribution benefits you as a systems engineer in several ways:
 
 Many projects label beginner-friendly issues:
 
+<div class="table-wrap">
+
 | Label               | Meaning                           | Where to Find                 |
 | ------------------- | --------------------------------- | ----------------------------- |
 | `good first issue`  | Suitable for new contributors     | GitHub issue filters          |
@@ -63,6 +65,8 @@ Many projects label beginner-friendly issues:
 | `help wanted`       | Maintainers actively seeking help | GitHub issue filters          |
 | `easy`              | Low complexity                    | Project-specific              |
 | `documentation`     | Docs need improvement             | Often overlooked, high impact |
+
+</div>
 
 ### Choosing a Project
 
@@ -82,6 +86,8 @@ Criteria for selecting a project to contribute to:
 
 ### Sources for Finding Projects
 
+<div class="table-wrap">
+
 | Source            | URL                 | Best For                      |
 | ----------------- | ------------------- | ----------------------------- |
 | GitHub Explore    | github.com/explore  | Trending projects             |
@@ -90,6 +96,8 @@ Criteria for selecting a project to contribute to:
 | Up For Grabs      | up-for-grabs.net    | Projects seeking contributors |
 | CodeTriage        | codetriage.com      | Projects needing issue triage |
 | 24 Pull Requests  | 24pullrequests.com  | Holiday contribution drive    |
+
+</div>
 
 ---
 
@@ -119,7 +127,7 @@ Criteria for selecting a project to contribute to:
    reading implementation code.
 2. **Use `git log --follow`** to understand the history of a file. The commit messages explain why
    changes were made.
-3. **Use the project"s search tools.** `grep -r``rg`Or the IDE's "Find in Files" to locate where a
+3. **Use the project"s search tools.** `grep -r`, `rg` or the IDE's "Find in Files" to locate where a
    function is defined and used.
 4. **Draw diagrams.** Sketch the component relationships, data flow, or call graph on paper. This
    forces you to understand the structure.
@@ -206,7 +214,7 @@ Follow the project's convention (check CONTRIBUTING). Common formats:
 <footer>
 ```
 
-Types: `feat``fix``docs``style``refactor``perf``test``build``ci``chore`
+Types: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`
 
 Example:
 
@@ -251,16 +259,6 @@ git rebase -i HEAD~5
 ### PR Description Template
 
 ```markdown
-
-```mermaid
-flowchart TD
-    A[Open Source] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -344,6 +342,8 @@ Any caveats, follow-up work, or questions for reviewers
 
 ### Common Open Source Licenses
 
+<div class="table-wrap">
+
 | License      | Copyleft | Patent Grant | Commercial Use | Distribution Requirement |
 | ------------ | -------- | ------------ | -------------- | ------------------------ |
 | MIT          | No       | No           | Yes            | Include license          |
@@ -351,6 +351,8 @@ Any caveats, follow-up work, or questions for reviewers
 | GPL v3       | Yes      | No           | Yes            | Source code disclosure   |
 | BSD 2-Clause | No       | No           | Yes            | Include license          |
 | Unlicense    | No       | No           | Yes            | None                     |
+
+</div>
 
 ### CLA vs. DCO
 
@@ -397,11 +399,15 @@ git commit -s -m "Fix memory leak in parser"
 
 ### Semantic Versioning
 
+<div class="table-wrap">
+
 | Change Type                       | Version Bump | Example        |
 | --------------------------------- | ------------ | -------------- |
 | Breaking API change               | MAJOR        | 1.x.x to 2.0.0 |
 | New feature (backward compatible) | MINOR        | 1.0.x to 1.1.0 |
 | Bug fix (backward compatible)     | PATCH        | 1.0.0 to 1.0.1 |
+
+</div>
 
 ---
 
@@ -450,6 +456,8 @@ git commit -s -m "Fix memory leak in parser"
 
 ## Popular Communities
 
+<div class="table-wrap">
+
 | Platform                   | Focus                      | Notable Projects                       |
 | -------------------------- | -------------------------- | -------------------------------------- |
 | GitHub                     | General                    | Most major open source projects        |
@@ -458,6 +466,8 @@ git commit -s -m "Fix memory leak in parser"
 | Apache Software Foundation | Enterprise software        | Kafka, Spark, Lucene                   |
 | CNCF                       | Cloud native               | Kubernetes, Prometheus, Envoy          |
 | Linux Foundation           | Infrastructure             | Linux kernel, Node.js, PyTorch         |
+
+</div>
 
 ---
 
@@ -488,7 +498,7 @@ Read CONTRIBUTING.md before your first contribution.
 
 Submitting a PR and then not responding to review feedback for weeks is a negative signal.
 Maintainers may close stale PRs. If you cannot address feedback promptly, communicate that (e.g., "I
-Will address this next week, currently traveling").
+will address this next week, currently traveling").
 
 ### Taking Rejection Personally
 
@@ -544,7 +554,7 @@ A welcoming project culture is critical for first-time contributors:
 Start with the highest-level abstraction and work down:
 
 1. **README.md:** What does the project do? How is it structured?
-2. **Entry point:** Where does execution begin? (`main()``index.js``app.py`)
+2. **Entry point:** Where does execution begin? (`main()`, `index.js`, `app.py`)
 3. **Configuration:** What are the default settings? What can be configured?
 4. **Core module:** What is the central abstraction or data structure?
 5. **Plugin/extension points:** How is the system extended?
@@ -710,7 +720,7 @@ If your PR is closed without merge:
 Many potential contributors believe their code is "not good enough" to submit. This is a cognitive
 Bias, everyone's code has room for improvement. Submit imperfect code and let the review process
 Improve it. A beginner's PR with one issue fixed is infinitely more valuable than a perfect PR that
-Was never submitted.
+was never submitted.
 
 ### Contributing Only to Fix Your Own Bugs
 
@@ -729,7 +739,7 @@ Open source projects need more than code:
 - **Design:** Contributing to RFCs and design discussions.
 
 These contributions are often more valuable than code because they multiply the effectiveness of all
-Other contributors.
+other contributors.
 
 ## Monorepo vs Polyrepo for Open Source Projects
 
@@ -737,6 +747,8 @@ The choice between monorepo and polyrepo affects contribution workflow, CI/CD co
 Dependency management. Understanding the trade-offs helps you navigate different project structures.
 
 ### Monorepo Characteristics
+
+<div class="table-wrap">
 
 | Aspect                | Monorepo                                 | Polyrepo                               |
 | --------------------- | ---------------------------------------- | -------------------------------------- |
@@ -746,6 +758,8 @@ Dependency management. Understanding the trade-offs helps you navigate different
 | Code reuse            | Trivial (same repo)                      | Requires published packages            |
 | Onboarding            | Larger clone, but single source of truth | Smaller clones, but more repos to find |
 | Branching model       | Feature branches across all packages     | Independent per-package branches       |
+
+</div>
 
 ### Build Systems for Monorepos
 
@@ -844,6 +858,8 @@ jobs:
 
 ### Test Categories for Systems Software
 
+<div class="table-wrap">
+
 | Test Type        | Scope                         | Tools                          | Examples                                  |
 | ---------------- | ----------------------------- | ------------------------------ | ----------------------------------------- |
 | Unit             | Single function/module        | pytest, jest, go test          | Testing a hash function                   |
@@ -853,10 +869,14 @@ jobs:
 | Fuzzing          | Security and crash resistance | libFuzzer, AFL                 | Finding buffer overflows                  |
 | Load/Performance | Under stress                  | k6, wrk, locust                | Verifying latency under 10k RPS           |
 
+</div>
+
 ## License Compatibility Matrix
 
 When contributing to open source, understanding license compatibility prevents legal issues for both
-You and the project. The most common licenses in systems software:
+you and the project. The most common licenses in systems software:
+
+<div class="table-wrap">
 
 | License        | Commercial Use | Modify | Distribute               | Patent Grant | Copyleft     |
 | -------------- | -------------- | ------ | ------------------------ | ------------ | ------------ |
@@ -870,11 +890,13 @@ You and the project. The most common licenses in systems software:
 | BSL 1.1        | Varies         | Varies | Varies                   | Yes          | No (delayed) |
 | Unlicense      | Yes            | Yes    | Yes                      | No           | No           |
 
+</div>
+
 ### Key Compatibility Rules
 
 1. **MIT/Apache/BSD code can be included in GPL projects.** The GPL project must honor the original
    license for those specific files, but the overall project remains GPL.
-2. **GPL code cannot be included in MIT/Apache projects.** This would violate the GPL"s copyleft
+2. **GPL code cannot be included in MIT/Apache projects.** This would violate the GPL's copyleft
    requirement because the MIT project does not require source distribution.
 3. **Apache 2.0 and GPL 3.0 are compatible** (Apache 2.0 has an explicit GPL 3.0 compatibility
    clause). Apache 2.0 and GPL 2.0 are not compatible due to patent clause differences.
@@ -946,6 +968,8 @@ Culture, responsiveness, and newcomer friendliness.
 
 ### Community Comparison
 
+<div class="table-wrap">
+
 | Community         | Primary Language | Culture                        | Newcomer Friendliness                         |
 | ----------------- | ---------------- | ------------------------------ | --------------------------------------------- |
 | Kubernetes (CNCF) | Go               | Formal, governance-heavy       | Good docs, steep learning curve               |
@@ -956,6 +980,8 @@ Culture, responsiveness, and newcomer friendliness.
 | Linux Kernel      | C                | Meritocratic, strict           | Challenging, requires patch submission        |
 | PostgreSQL        | C                | Professional, consensus-driven | Good contribution guide, mailing list culture |
 | Home Assistant    | Python           | Community-focused              | Very welcoming, active Discord                |
+
+</div>
 
 ### Finding Your Niche
 

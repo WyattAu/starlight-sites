@@ -114,7 +114,7 @@ fmt.Println(a) // [0 99 2 3]
 #### Append
 
 `append` adds elements to a slice. If the capacity is exceeded, a new underlying array is allocated
-And all elements are copied:
+and all elements are copied:
 
 ```go
 s := []int{1, 2}
@@ -186,13 +186,13 @@ emptySlice := []int{}    // not nil, len=0, cap=0
 madeSlice := make([]int, 0) // not nil, len=0, cap=0
 ```
 
-The difference matters for JSON marshaling: `nil` marshals to `null`While `[]int{}` marshals to
+The difference matters for JSON marshaling: `nil` marshals to `null`. While `[]int{}` marshals to
 `[]`. For most other purposes, they are interchangeable.
 
 ## Maps
 
 Maps are hash tables mapping keys to values. The zero value is `nil`. A `nil` map is empty but
-Cannot be written to.
+cannot be written to.
 
 ```go
 var m map[string]int   // nil map
@@ -308,7 +308,7 @@ fmt.Println(d.Name) // "test" -- promoted field
 ```
 
 Promoted fields are accessed directly on the embedding struct. This is syntactic sugar -- there is
-No inheritance hierarchy. The embedded struct"s methods are also promoted.
+no inheritance hierarchy. The embedded struct"s methods are also promoted.
 
 ### Comparing Structs
 
@@ -355,17 +355,6 @@ Structs containing slices or maps are not comparable.
 6. **Struct embedding is not inheritance.** There is no `super` call, no method overriding in the
    OOP sense. Embedding is composition with syntactic sugar for field/method promotion.
 
-
-```mermaid
-flowchart TD
-    A[Arrays Slices Maps] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of arrays, slices, and maps, including underlying theory,
@@ -379,13 +368,7 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

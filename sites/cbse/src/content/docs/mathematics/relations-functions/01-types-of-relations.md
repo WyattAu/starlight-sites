@@ -18,17 +18,6 @@ description: "Study notes for Types of relations with worked examples, practice 
 
 A relation $R$ from a set $A$ to a set $B$ is a subset of the Cartesian product $A \times B$. If $(a, b) \in R$, we write $aRb$ and say "$a$ is related to $b$ by $R$."
 
-
-```mermaid
-flowchart TD
-    A[01 Types Of Relations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Key Concepts
 
 ### Definition and Notation
@@ -36,20 +25,28 @@ flowchart TD
 Given sets $A$ and $B$, a relation $R \subseteq A \times B$ is a rule that assigns to each element $a \in A$ zero or more elements $b \in B$.
 
 **Example:** Let $A = \{1, 2, 3\}$ and $B = \{2, 4, 6\}$. The relation "$a$ divides $b$" is:
-$$R = \{(1,2), (1,4), (1,6), (2,2), (2,4), (2,6), (3,6)\}$$
+$$
+R = \{(1,2), (1,4), (1,6), (2,2), (2,4), (2,6), (3,6)\}
+$$
 
 ### Types of Relations on a Set
 
 A relation $R$ on a set $A$ (i.e., $R \subseteq A \times A$) can be:
 
 **Reflexive:** $aRa$ for every $a \in A$.
-$$\forall a \in A, \quad (a, a) \in R$$
+$$
+\forall a \in A, \quad (a, a) \in R
+$$
 
 **Symmetric:** If $aRb$ then $bRa$.
-$$\forall a, b \in A, \quad (a, b) \in R \implies (b, a) \in R$$
+$$
+\forall a, b \in A, \quad (a, b) \in R \implies (b, a) \in R
+$$
 
 **Transitive:** If $aRb$ and $bRc$, then $aRc$.
-$$\forall a, b, c \in A, \quad (a, b) \in R \land (b, c) \in R \implies (a, c) \in R$$
+$$
+\forall a, b, c \in A, \quad (a, b) \in R \land (b, c) \in R \implies (a, c) \in R
+$$
 
 ### Equivalence Relations
 
@@ -102,8 +99,10 @@ A relation that is reflexive, symmetric, and transitive is called an **equivalen
 **Symmetric:** If $aRb$, then $3 \mid (a - b)$, so $a - b = 3k$ for some integer $k$. Then $b - a = -3k = 3(-k)$, so $3 \mid (b - a)$, giving $bRa$.
 
 **Transitive:** If $aRb$ and $bRc$, then $a - b = 3k$ and $b - c = 3m$ for integers $k, m$. Then:
-$$a - c = (a - b) + (b - c) = 3k + 3m = 3(k + m)$$
-So $3 \mid (a - c)$, giving $aRc$.
+$$
+a - c = (a - b) + (b - c) = 3k + 3m = 3(k + m)
+$$
+so $3 \mid (a - c)$, giving $aRc$.
 
 **Equivalence classes:**
 
@@ -176,44 +175,3 @@ Relations are rules that connect elements from one set to another. A relation on
 - **Forgetting that transitivity requires checking all triples:** Transitivity is not just about adjacent pairs. You must verify that for every $(a, b) \in R$ and $(b, c) \in R$, the pair $(a, c)$ is also in $R$.
 - **Confusing equivalence relations with partial orders:** Equivalence relations are reflexive, symmetric, and transitive. Partial orders are reflexive, antisymmetric, and transitive. Symmetry and antisymmetry are mutually exclusive (except for equality).
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

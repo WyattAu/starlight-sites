@@ -33,6 +33,8 @@ Energy.
 
 ### Cell Components
 
+<div class="table-wrap">
+
 | Component        | Function                                             |
 | ---------------- | ---------------------------------------------------- |
 | Anode            | Site of oxidation; negative electrode                |
@@ -40,6 +42,8 @@ Energy.
 | Salt bridge      | Maintains electrical neutrality by allowing ion flow |
 | External circuit | Allows electron flow from anode to cathode           |
 | Electrolyte      | Provides ions for internal conduction                |
+
+</div>
 
 ### Half-Reactions and Cell Notation
 
@@ -66,6 +70,8 @@ Standard conditions: $298\mathrm{ K}$, $1\mathrm{ M}$ solutions, $100\mathrm{ kP
 
 ### Standard Reduction Potentials (Selected)
 
+<div class="table-wrap">
+
 | Half-reaction                                                                            | $E^\circ$ (V) |
 | ---------------------------------------------------------------------------------------- | ------------- |
 | $\mathrm{F}_2 + 2e^- \to 2\mathrm{F}^-$                                                  | $+2.87$       |
@@ -77,6 +83,8 @@ Standard conditions: $298\mathrm{ K}$, $1\mathrm{ M}$ solutions, $100\mathrm{ kP
 | $\mathrm{Fe}^{2+} + 2e^- \to \mathrm{Fe}$                                                | $-0.44$       |
 | $\mathrm{Zn}^{2+} + 2e^- \to \mathrm{Zn}$                                                | $-0.76$       |
 | $\mathrm{Na}^+ + e^- \to \mathrm{Na}$                                                    | $-2.71$       |
+
+</div>
 
 ### Calculating Standard Cell Potential
 
@@ -99,11 +107,15 @@ $$
 
 ### Predicting Spontaneity
 
+<div class="table-wrap">
+
 | Condition                       | Result                                       |
 | ------------------------------- | -------------------------------------------- |
 | $E_{\mathrm{cell}}^\circ \gt 0$ | Spontaneous (galvanic cell)                  |
 | $E_{\mathrm{cell}}^\circ = 0$   | At equilibrium                               |
 | $E_{\mathrm{cell}}^\circ \lt 0$ | Non-spontaneous (electrolytic cell required) |
+
+</div>
 
 The more positive $E^\circ$ value, the stronger the oxidizing agent. The more negative $E^\circ$
 Value, the stronger the reducing agent.
@@ -131,10 +143,10 @@ Value, the stronger the reducing agent.
 For non-standard conditions, the cell potential is given by the Nernst equation:
 
 $$
-E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac`\{RT}``\{nF}`\ln Q
+E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac`\{RT}`, `\{nF}`\ln Q
 $$
 
-At $298\mathrm{ K}$This simplifies to:
+At $298\mathrm{ K}$ This simplifies to:
 
 $$
 E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac{0.0592}{n}\log Q
@@ -159,7 +171,7 @@ $$
 At equilibrium, $E_{\mathrm{cell}} = 0$ and $\Delta G = 0$ So:
 
 $$
-E_{\mathrm{cell}}^\circ = \frac`\{RT}``\{nF}`\ln K = \frac{0.0592}{n}\log K
+E_{\mathrm{cell}}^\circ = \frac`\{RT}`, `\{nF}`\ln K = \frac{0.0592}{n}\log K
 $$
 :::
 
@@ -198,7 +210,7 @@ Cell has:
 - Cathode: negative electrode (reduction)
 - External power source drives electrons from anode to cathode
 
-### Faraday"s Laws
+### Faraday's Laws
 
 **First law**: The amount of substance produced at an electrode is proportional to the charge
 Passed.
@@ -246,23 +258,31 @@ $$
 
 **At the cathode**: the species with the **least negative** (most positive) $E^\circ$ is reduced.
 
+<div class="table-wrap">
+
 | Cathode products | Condition                                                                    |
 | ---------------- | ---------------------------------------------------------------------------- |
 | Metal            | If the metal is less reactive than hydrogen ($E^\circ \gt -0.83\mathrm{ V}$) |
 | Hydrogen         | If the metal is more reactive than hydrogen                                  |
 
+</div>
+
 **At the anode**: the species with the **least positive** (most negative) $E^\circ$ is oxidized.
+
+<div class="table-wrap">
 
 | Anode products              | Condition                             |
 | --------------------------- | ------------------------------------- |
 | Halogen (Cl$_2$Br$_2$I$_2$) | If halide ions present (except F$^-$) |
 | Oxygen                      | Otherwise (from water oxidation)      |
+
+</div>
 :::
 
 :::note
 Example, Electrolysis of $\mathrm{CuSO}_4$(aq) with inert electrodes
-Cathode: $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}$ ($E^\circ = +0.34\mathrm{ V}$More positive than
-Water's $-0.83\mathrm{ V}$)
+Cathode: $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}$ ($E^\circ = +0.34\mathrm{ V}$ More positive than
+water's $-0.83\mathrm{ V}$)
 
 Anode: $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$ (sulfate is not oxidised;
 Water is oxidised instead)
@@ -284,7 +304,7 @@ This is the Downs process for industrial sodium production.
 ### Common Pitfalls
 
 - In aqueous solutions, water may be preferentially discharged instead of the expected ion.
-- Faraday's constant is $96485\mathrm{ C/mol}$Not $96500$ (though $96500$ is often used for
+- Faraday's constant is $96485\mathrm{ C/mol}$ Not $96500$ (though $96500$ is often used for
   estimation).
 - The anode in an electrolytic cell is positive (opposite to a galvanic cell).
 
@@ -334,12 +354,16 @@ Overall: $4\mathrm{Fe} + 3\mathrm{O}_2 + 6\mathrm{H}_2\mathrm{O} \to 4\mathrm{Fe
 
 **Prevention methods:**
 
+<div class="table-wrap">
+
 | Method                     | Principle                                    |
 | -------------------------- | -------------------------------------------- |
 | Sacrificial anode (Zn)     | Zn is more reactive, corrodes preferentially |
 | Galvanization (Zn coating) | Same principle; Zn acts as sacrificial anode |
 | Painting/oiling            | Barrier between Fe and O$_2$/H$_2$O          |
 | Alloying (stainless steel) | Cr forms protective oxide layer              |
+
+</div>
 
 ---
 
@@ -405,7 +429,7 @@ $$
 
 Use the Nernst equation to calculate the cell potential for
 $\mathrm{Zn} \mid \mathrm{Zn}^{2+}(0.010\mathrm{ M}) \parallel \mathrm{Cu}^{2+}(1.0\mathrm{ M}) \mid \mathrm{Cu}$
-At $298\mathrm{ K}$.
+at $298\mathrm{ K}$.
 
 **Solution:**
 
@@ -422,7 +446,7 @@ E_{\mathrm{cell}} = 1.10 - \frac{0.0592}{2}\log(0.010) = 1.10 - \frac{0.0592}{2}
 $$
 
 The lower concentration of $\mathrm{Zn}^{2+}$ drives the reaction further (Le Chatelier), increasing
-The cell potential.
+the cell potential.
 
 </details>
 
@@ -442,7 +466,7 @@ $$
 $$
 
 The electrons flow to the iron, which becomes the cathode where oxygen reduction occurs. Since the
-Iron is not oxidised, it does not corrode. The zinc is the "sacrificial anode" and is periodically
+iron is not oxidised, it does not corrode. The zinc is the "sacrificial anode" and is periodically
 Replaced.
 
 </details>
@@ -675,7 +699,7 @@ toward equilibrium.
   oxidation).
 
 - **Nernst equation sign errors:** The Nernst equation is $E = E^\circ - (0.0592/n)\log Q$. If you
-  use $\ln$ instead of $\log$The factor is $RT/nF = 0.0257/n$Not $0.0592/n$. Mixing these up yields
+  use $\ln$ instead of $\log$ The factor is $RT/nF = 0.0257/n$ Not $0.0592/n$. Mixing these up yields
   a wrong answer.
 
 ---
@@ -698,7 +722,7 @@ toward equilibrium.
 
 2. **[Hard]** A current of $4.00\mathrm{ A}$ is passed through molten $\mathrm{Al}_2\mathrm{O}_3$
    for $45.0$ minutes. Calculate: (a) the mass of aluminium produced, (b) the volume of oxygen gas
-   produced at STP ($22.7\mathrm{ L/mol}$). ($M_r(\mathrm{Al}) = 27.0$)
+   produced at STP ($22.7\mathrm{ L/mol}$). ($ M_r(\mathrm{Al}) = 27.0$)
 
 3. **[Medium]** In an $\mathrm{H}_2/\mathrm{O}_2$ fuel cell, the standard cell potential is
    $+1.23\mathrm{ V}$. Calculate $\Delta G^\circ$ for the overall reaction
@@ -709,8 +733,8 @@ toward equilibrium.
    $\mathrm{Fe}^{3+}$ and $\mathrm{Fe}^{2+}$ at equal concentrations. The measured cell potential is
    $+0.77\mathrm{ V}$. Write the spontaneous cell reaction and calculate the equilibrium constant.
 
-5. **[Medium]** Explain why, during the electrolysis of concentrated $\mathrm{NaCl}(aq)$The product
-   at the anode is $\mathrm{Cl}_2$ rather than $\mathrm{O}_2$Even though the standard reduction
+5. **[Medium]** Explain why, during the electrolysis of concentrated $\mathrm{NaCl}(aq)$ The product
+   at the anode is $\mathrm{Cl}_2$ rather than $\mathrm{O}_2$ Even though the standard reduction
    potential for $\mathrm{O}_2/\mathrm{H}_2\mathrm{O}$ ($+1.23\mathrm{ V}$) is less positive than
    that of $\mathrm{Cl}_2/\mathrm{Cl}^-$ ($+1.36\mathrm{ V}$).
 
@@ -725,7 +749,7 @@ toward equilibrium.
    $= 8.96\mathrm{ g/cm}^3$, $M_r(\mathrm{Cu}) = 63.55$)
 
 8. **[Hard]** For the cell
-   $\mathrm{Zn} \mid \mathrm{Zn}^{2+}(1.0\mathrm{ M}) \parallel \mathrm{Fe}^{2+}(0.010\mathrm{ M}) \mid \mathrm{Fe}$Determine:
+   $\mathrm{Zn} \mid \mathrm{Zn}^{2+}(1.0\mathrm{ M}) \parallel \mathrm{Fe}^{2+}(0.010\mathrm{ M}) \mid \mathrm{Fe}$ Determine:
    (a) $E_{\mathrm{cell}}^\circ$(b) $E_{\mathrm{cell}}$ at the given concentrations, (c) $\Delta G$
    for the reaction under these non-standard conditions.
    ($E^\circ(\mathrm{Zn}^{2+}/\mathrm{Zn}) = -0.76\mathrm{ V}$, $E^\circ(\mathrm{Fe}^{2+}/\mathrm{Fe}) = -0.44\mathrm{ V}$)
@@ -763,9 +787,13 @@ Cathode (reduction): $\mathrm{Ag}^+(aq, 0.100\;\mathrm{M}) + e^- \to \mathrm{Ag}
 
 Since $E_{\mathrm{cell}}^\circ = 0$ (same half-reaction), the Nernst equation gives:
 
-$$E_{\mathrm{cell}} = 0 - \frac{0.0592}{1}\log\!\left(\frac{[\mathrm{Ag}^+]_{\mathrm{anode}}}{[\mathrm{Ag}^+]_{\mathrm{cathode}}}\right)$$
+$$
+E_{\mathrm{cell}} = 0 - \frac{0.0592}{1}\log\!\left(\frac{[\mathrm{Ag}^+]_{\mathrm{anode}}}{[\mathrm{Ag}^+]_{\mathrm{cathode}}}\right)
+$$
 
-$$E_{\mathrm{cell}} = -0.0592\log\!\left(\frac{0.0010}{0.100}\right) = -0.0592\log(0.010) = -0.0592 \times (-2) = +0.118\;\mathrm{V}$$
+$$
+E_{\mathrm{cell}} = -0.0592\log\!\left(\frac{0.0010}{0.100}\right) = -0.0592\log(0.010) = -0.0592 \times (-2) = +0.118\;\mathrm{V}
+$$
 
 The cell potential is $+0.118\;\mathrm{V}$. The reaction spontaneously proceeds to equalise the
 concentrations, and the cell potential decreases to zero as the concentrations converge.
@@ -786,33 +814,51 @@ efficiency for $\mathrm{Cl}_2$ production and the mass of $\mathrm{O}_2$ produce
 
 **Theoretical mass of $\mathrm{Cl}_2$:**
 
-$$Q = It = 5.00 \times 7200 = 36000\;\mathrm{C}$$
+$$
+Q = It = 5.00 \times 7200 = 36000\;\mathrm{C}
+$$
 
-$$n(e^-) = \frac{Q}{F} = \frac{36000}{96485} = 0.373\;\mathrm{mol\;e^-}$$
+$$
+n(e^-) = \frac{Q}{F} = \frac{36000}{96485} = 0.373\;\mathrm{mol\;e^-}
+$$
 
 For $\mathrm{Cl}_2$: $2\;\mathrm{mol\;e^-}$ per mol $\mathrm{Cl}_2$:
 
-$$n(\mathrm{Cl}_2)_{\mathrm{theoretical}} = \frac{0.373}{2} = 0.187\;\mathrm{mol}$$
+$$
+n(\mathrm{Cl}_2)_{\mathrm{theoretical}} = \frac{0.373}{2} = 0.187\;\mathrm{mol}
+$$
 
-$$m(\mathrm{Cl}_2)_{\mathrm{theoretical}} = 0.187 \times 71.0 = 13.2\;\mathrm{g}$$
+$$
+m(\mathrm{Cl}_2)_{\mathrm{theoretical}} = 0.187 \times 71.0 = 13.2\;\mathrm{g}
+$$
 
 **Current efficiency:**
 
-$$\mathrm{Efficiency} = \frac{8.90}{13.2} \times 100 = 67.4\%$$
+$$
+\mathrm{Efficiency} = \frac{8.90}{13.2} \times 100 = 67.4\%
+$$
 
 **Electrons used for $\mathrm{Cl}_2$:**
 
-$$n(e^-)_{\mathrm{Cl}_2} = 2 \times \frac{8.90}{71.0} = 0.251\;\mathrm{mol\;e^-}$$
+$$
+n(e^-)_{\mathrm{Cl}_2} = 2 \times \frac{8.90}{71.0} = 0.251\;\mathrm{mol\;e^-}
+$$
 
 **Remaining electrons used for $\mathrm{O}_2$:**
 
-$$n(e^-)_{\mathrm{O}_2} = 0.373 - 0.251 = 0.122\;\mathrm{mol\;e^-}$$
+$$
+n(e^-)_{\mathrm{O}_2} = 0.373 - 0.251 = 0.122\;\mathrm{mol\;e^-}
+$$
 
 For $\mathrm{O}_2$: $4\;\mathrm{mol\;e^-}$ per mol $\mathrm{O}_2$:
 
-$$n(\mathrm{O}_2) = \frac{0.122}{4} = 0.0305\;\mathrm{mol}$$
+$$
+n(\mathrm{O}_2) = \frac{0.122}{4} = 0.0305\;\mathrm{mol}
+$$
 
-$$m(\mathrm{O}_2) = 0.0305 \times 32.0 = 0.976\;\mathrm{g}$$
+$$
+m(\mathrm{O}_2) = 0.0305 \times 32.0 = 0.976\;\mathrm{g}
+$$
 
 </details>
 
@@ -829,21 +875,35 @@ $\Delta G$ when $[\mathrm{Ag}^+] = 0.010\;\mathrm{M}$ and $[\mathrm{Cu}^{2+}] = 
 
 **(a) Standard conditions:**
 
-$$E_{\mathrm{cell}}^\circ = E_{\mathrm{cathode}}^\circ - E_{\mathrm{anode}}^\circ = 0.80 - 0.34 = +0.46\;\mathrm{V}$$
+$$
+E_{\mathrm{cell}}^\circ = E_{\mathrm{cathode}}^\circ - E_{\mathrm{anode}}^\circ = 0.80 - 0.34 = +0.46\;\mathrm{V}
+$$
 
-$$\Delta G^\circ = -nFE_{\mathrm{cell}}^\circ = -2 \times 96485 \times 0.46 = -88\,766\;\mathrm{J/mol} = -88.8\;\mathrm{kJ/mol}$$
+$$
+\Delta G^\circ = -nFE_{\mathrm{cell}}^\circ = -2 \times 96485 \times 0.46 = -88\,766\;\mathrm{J/mol} = -88.8\;\mathrm{kJ/mol}
+$$
 
-$$\log K = \frac{nE^\circ}{0.0592} = \frac{2 \times 0.46}{0.0592} = 15.5$$
+$$
+\log K = \frac{nE^\circ}{0.0592} = \frac{2 \times 0.46}{0.0592} = 15.5
+$$
 
-$$K = 10^{15.5} = 3.2 \times 10^{15}$$
+$$
+K = 10^{15.5} = 3.2 \times 10^{15}
+$$
 
 **(b) Non-standard conditions:**
 
-$$Q = \frac{[\mathrm{Cu}^{2+}]}{[\mathrm{Ag}^+]^2} = \frac{0.10}{(0.010)^2} = \frac{0.10}{0.00010} = 1000$$
+$$
+Q = \frac{[\mathrm{Cu}^{2+}]}{[\mathrm{Ag}^+]^2} = \frac{0.10}{(0.010)^2} = \frac{0.10}{0.00010} = 1000
+$$
 
-$$E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac{0.0592}{n}\log Q = 0.46 - \frac{0.0592}{2}\log(1000) = 0.46 - \frac{0.0592}{2} \times 3 = 0.46 - 0.0888 = 0.371\;\mathrm{V}$$
+$$
+E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac{0.0592}{n}\log Q = 0.46 - \frac{0.0592}{2}\log(1000) = 0.46 - \frac{0.0592}{2} \times 3 = 0.46 - 0.0888 = 0.371\;\mathrm{V}
+$$
 
-$$\Delta G = -nFE_{\mathrm{cell}} = -2 \times 96485 \times 0.371 = -71\,600\;\mathrm{J/mol} = -71.6\;\mathrm{kJ/mol}$$
+$$
+\Delta G = -nFE_{\mathrm{cell}} = -2 \times 96485 \times 0.371 = -71\,600\;\mathrm{J/mol} = -71.6\;\mathrm{kJ/mol}
+$$
 
 The reaction is still spontaneous ($\Delta G < 0$, $E_{\mathrm{cell}} > 0$) but less strongly so
 because the high product-to-reactant ratio pushes the reaction back toward equilibrium.
@@ -867,7 +927,9 @@ because the high product-to-reactant ratio pushes the reaction back toward equil
 <summary>Problem 9: Quantitative -- Lead-Acid Battery Discharge</summary>
 
 A $12\;\mathrm{V}$ car battery contains six lead-acid cells in series. The overall cell reaction is:
-$$\mathrm{Pb}(s) + \mathrm{PbO}_2(s) + 2\mathrm{H}_2\mathrm{SO}_4(aq) \to 2\mathrm{PbSO}_4(s) + 2\mathrm{H}_2\mathrm{O}(l)$$
+$$
+\mathrm{Pb}(s) + \mathrm{PbO}_2(s) + 2\mathrm{H}_2\mathrm{SO}_4(aq) \to 2\mathrm{PbSO}_4(s) + 2\mathrm{H}_2\mathrm{O}(l)
+$$
 
 (a) Calculate $E_{\mathrm{cell}}^\circ$ per cell given that $K = 1.0 \times 10^{81}$ at
 $298\;\mathrm{K}$. (b) If the battery can deliver $4.0\;\mathrm{A}$ for $60\;\mathrm{minutes}$
@@ -924,7 +986,9 @@ electrically connected to the magnesium block. (d) Discuss why impressed-current
 
 During the electrolysis of $\mathrm{CuSO}_4(aq)$ with inert electrodes, $\mathrm{O}_2$ is produced
 at the anode and $\mathrm{Cu}$ is deposited at the cathode. The overall reaction is:
-$$2\mathrm{Cu}^{2+}(aq) + 2\mathrm{H}_2\mathrm{O}(l) \to 2\mathrm{Cu}(s) + 4\mathrm{H}^+(aq) + \mathrm{O}_2(g)$$
+$$
+2\mathrm{Cu}^{2+}(aq) + 2\mathrm{H}_2\mathrm{O}(l) \to 2\mathrm{Cu}(s) + 4\mathrm{H}^+(aq) + \mathrm{O}_2(g)
+$$
 
 A current of $2.50\;\mathrm{A}$ is passed through $500\;\mathrm{mL}$ of $0.200\;\mathrm{M}$
 $\mathrm{CuSO}_4$ solution for $30.0\;\mathrm{minutes}$. (a) Calculate the concentration of
@@ -961,8 +1025,8 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$ And calculate the voltage efficienc
 
 - **Forgetting to convert between volts and joules in $\Delta G$ calculations**: $\Delta G = -nFE$
   requires $F$ in $\mathrm{C/mol}$ and $E$ in $\mathrm{V}$. Since
-  $1\;\mathrm{V} = 1\;\mathrm{J/C}$The product $nFE$ is automatically in joules. However, if you
-  need the answer in $\mathrm{kJ/mol}$You must divide by $1000$.
+  $1\;\mathrm{V} = 1\;\mathrm{J/C}$ The product $nFE$ is automatically in joules. However, if you
+  need the answer in $\mathrm{kJ/mol}$ You must divide by $1000$.
 
 - **Confusing $Q$ (reaction quotient) with $K$ (equilibrium constant)**: $Q$ uses the current
   (non-equilibrium) concentrations, while $K$ uses equilibrium concentrations. In the Nernst
@@ -975,7 +1039,7 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$ And calculate the voltage efficienc
 
 - **Using the standard hydrogen electrode incorrectly in cell diagrams**: The SHE is always written
   on the side (anode or cathode) that makes $E_{\mathrm{cell}}^\circ$ positive. If the unknown
-  half-cell has $E^\circ > 0$The SHE is the anode. If $E^\circ < 0$The SHE is the cathode.
+  half-cell has $E^\circ > 0$ The SHE is the anode. If $E^\circ < 0$ The SHE is the cathode.
 
 - **Neglecting the stoichiometry of electrons when using $\Delta G = -nFE$**: The $n$ must be the
   total number of electrons transferred in the balanced equation, not per mole of a specific
@@ -984,7 +1048,7 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$ And calculate the voltage efficienc
 
 - **Assuming standard conditions apply to real batteries**: A car battery at $12\;\mathrm{V}$ (open
   circuit) delivers less than $12\;\mathrm{V}$ under load due to internal resistance. The terminal
-  voltage is $V = E_{\mathrm{cell}} - Ir_{\mathrm{internal}}$Where $I$ is the current drawn.
+  voltage is $V = E_{\mathrm{cell}} - Ir_{\mathrm{internal}}$ Where $I$ is the current drawn.
 
 ---
 
@@ -1009,16 +1073,6 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$ And calculate the voltage efficienc
   [..../2-atomic-structure/1_atomic-theory](/chemistry/2-atomic-structure/1_atomic-theory/)
 - **Acids, bases, and pH** → Review
   [..../8-acids-and-bases/2_acids-and-bases-advanced](/chemistry/8-acids-and-bases/2_acids-and-bases-advanced/)
-
-```mermaid
-flowchart TD
-    A[2_Redox Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

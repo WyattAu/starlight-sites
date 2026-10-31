@@ -19,7 +19,7 @@ categories:
 }
 </script>
 
-## Python"s Type System
+## Python's Type System
 
 Python is **dynamically typed** and **strongly typed**. These two properties are frequently
 Confused, so it is worth being precise about what they mean.
@@ -55,7 +55,7 @@ Type declarations is a genuine barrier. Dynamic typing enables:
 
 - Rapid prototyping without ceremony
 - Highly polymorphic code (duck typing)
-- Metaprogramming and runtime introspection via `getattr``setattr``dir`And `type`
+- Metaprogramming and runtime introspection via `getattr`, `setattr`, `dir` and `type`
 
 The trade-off is that errors a compiler would catch in statically-typed languages surface at
 Runtime. Python mitigates this with extensive testing culture and, since Python 3.5, optional static
@@ -69,14 +69,14 @@ Implicit coercion. The principle is that **surprising implicit behavior is more 
 Explicit errors**.
 
 :::note
-Subclass of `int`So `True + 1 == 2`. Numeric towers allow `int + float` because the `int` is
+Subclass of `int`. So `True + 1 == 2`. Numeric towers allow `int + float` because the `int` is
 Promoted to `float`. These are the result of deliberate subtype relationships, not general-purpose
 Coercion rules.
 
 ## Type Hierarchy
 
 Every object in Python is an instance of `object`. The built-in types form a hierarchy rooted at
-`object`With `int``str`And others as direct or indirect subclasses.
+`object`. With `int`, `str` and others as direct or indirect subclasses.
 
 ```mermaid
 classDiagram
@@ -184,7 +184,7 @@ classDiagram
 
 This hierarchy has immediate consequences. Because `bool` is a subclass of `int`
 `isinstance(True, int)` returns `True`. Because `type` is a subclass of `object`And `object` is an
-Instance of `type`The relationship is circular -- this is the metaclass mechanism.
+Instance of `type`. The relationship is circular -- this is the metaclass mechanism.
 
 ## Numeric Types
 
@@ -210,7 +210,7 @@ print(sys.maxsize)  # 2**63 - 1 on 64-bit systems (platform pointer size)
 Source of silent, catastrophic errors. Python's target audience (non-systems-programmers) is less
 Likely to think about bit widths. The cost is performance: big-integer arithmetic is slower than
 Fixed-width register arithmetic. Python accepts this trade-off because correctness is prioritized
-Over raw speed.
+over raw speed.
 
 Internally, CPython represents integers as variable-length arrays of digits (base $2^{30}$ on 64-bit
 Systems). Small integers in the range $[-5, 256]$ are **pre-allocated and interned** -- every
@@ -272,7 +272,7 @@ print(abs(z))        # 5.0 (magnitude)
 ### `decimal.Decimal`: Exact Decimal Arithmetic
 
 The `decimal` module provides arbitrary-precision, base-10 arithmetic with configurable rounding. It
-Is essential for financial calculations and any domain where binary floating-point representation
+is essential for financial calculations and any domain where binary floating-point representation
 Errors are unacceptable.
 
 ```python
@@ -382,7 +382,7 @@ CPython uses a flexible format:
 - **UCS-4 (4 bytes per character):** Used when any character exceeds U+FFFF.
 
 This is a CPython implementation detail (PEP 393, "Flexible String Representation") that optimizes
-The common case of ASCII-only strings to use 1 byte per character, while still supporting the full
+the common case of ASCII-only strings to use 1 byte per character, while still supporting the full
 Unicode range without surrogate pairs.
 
 ```python
@@ -472,7 +472,7 @@ Handle edge cases (empty strings, prefix longer than string) correctly.
 
 ## Booleans
 
-`bool` is a subclass of `int`. There are exactly two instances: `True` and `False`Which are the
+`bool` is a subclass of `int`. There are exactly two instances: `True` and `False`. Which are the
 Integer values 1 and 0 respectively.
 
 ```python
@@ -483,8 +483,10 @@ print(sum([True, False, True])) # 2
 
 ### Truthiness
 
-In boolean contexts (`if``while``and``or``not``bool()`), Python applies a well-defined set Of rules
+In boolean contexts (`if`, `while`, `and`, `or`, `not`, `bool()`), Python applies a well-defined set Of rules
 to determine the truth value of any object:
+
+<div class="table-wrap">
 
 | Value                     | Truth Value | Reason                                           |
 | ------------------------- | :---------: | ------------------------------------------------ |
@@ -493,6 +495,8 @@ to determine the truth value of any object:
 | Zero of any numeric type  |    False    | `0``0.0``0j``Decimal(0)``Fraction(0, 1)`         |
 | Empty sequence/collection |    False    | `""``()``[]``{}``set()``range(0)`                |
 | Everything else           |    True     | Including objects with `__bool__` returning True |
+
+</div>
 
 This behavior is governed by two dunder methods on every object:
 
@@ -560,7 +564,7 @@ result = value or 0                  # compute_default() is NOT called
 ## `None` and `NoneType`
 
 `None` is the singleton instance of `NoneType`. It represents the absence of a value -- Python's
-Equivalent of `null``nil`Or `NoneType` in other languages.
+Equivalent of `null`, `nil` or `NoneType` in other languages.
 
 ```python
 print(type(None))    # <class 'NoneType'>
@@ -588,7 +592,7 @@ if x == None:
 ```
 
 Using `is None` rather than `== None` is important because a custom class can override `__eq__` to
-Return `True` when compared to `None`Which would be semantically incorrect. The `is` operator Cannot
+Return `True` when compared to `None`. Which would be semantically incorrect. The `is` operator Cannot
 be overridden.
 
 ### Default Argument Pitfall
@@ -642,7 +646,7 @@ optional: str | None = None
 
 ### The `typing` Module and Modern Alternatives
 
-Since Python 3.9, built-in collections (`list``dict``set``tuple`) can be used directly in type
+Since Python 3.9, built-in collections (`list`, `dict`, `set`, `tuple`) can be used directly in type
 Annotations, replacing the `typing` module equivalents:
 
 ```python
@@ -659,7 +663,7 @@ def process(items: List[str]) -> Dict[str, int]:
 ### `TypeVar` and Generic Functions
 
 `TypeVar` enables writing generic functions where the relationship between input and output types
-Must be preserved:
+must be preserved:
 
 ```python
 from typing import TypeVar
@@ -705,7 +709,7 @@ def get_name(obj: T) -> str:
 
 ### `Protocol`: Structural Subtyping (PEP 544)
 
-Python"s type system supports both nominal typing (based on inheritance) and structural typing
+Python's type system supports both nominal typing (based on inheritance) and structural typing
 (based on shape). `Protocol` enables structural typing -- a type satisfies a protocol if it has the
 Required attributes and methods, regardless of inheritance.
 
@@ -768,7 +772,7 @@ def process(value: Union[int, str, None]) -> str:
 ### `typing.cast`
 
 When you know more about a type than the type checker does, use `cast` to assert the type without
-Any runtime overhead:
+any runtime overhead:
 
 ```python
 from typing import cast, Any
@@ -782,7 +786,7 @@ names: list[str] = cast(list[str], data)
 ## Type Checking with `mypy`
 
 `mypy` is the reference static type checker for Python. It analyzes source code without executing it
-And reports type errors.
+and reports type errors.
 
 ### Installation and Basic Usage
 
@@ -793,6 +797,8 @@ mypy my_module.py
 
 ### Key `mypy` Flags
 
+<div class="table-wrap">
+
 | Flag                       | Purpose                                                 |
 | -------------------------- | ------------------------------------------------------- |
 | `--strict`                 | Enable all optional checks                              |
@@ -800,6 +806,8 @@ mypy my_module.py
 | `--no-implicit-optional`   | Do not treat `None` as compatible with untyped defaults |
 | `--warn-return-any`        | Warn when a function returns `Any`                      |
 | `--ignore-missing-imports` | Suppress errors for untyped third-party libraries       |
+
+</div>
 
 ### Configuration (`pyproject.toml`)
 
@@ -828,9 +836,9 @@ Type checkers are best-effort static analysis tools. They have inherent limitati
 
 1. **No runtime enforcement.** Type hints are annotations, not constraints. `mypy` catches errors at
    development time, but a misconfigured CI pipeline means errors can reach production.
-2. **`Any` is infectious.** Once a value has type `Any`It propagates through the entire call graph,
+2. **`Any` is infectious.** Once a value has type `Any`. It propagates through the entire call graph,
    effectively disabling type checking for anything that touches it.
-3. **Dynamically dispatched code is hard to type.** `getattr``__getattr__`And `**kwargs` defeat
+3. **Dynamically dispatched code is hard to type.** `getattr`, `__getattr__` and `**kwargs` defeat
    static analysis.
 4. **Generics are erased at runtime.** `list[str]` and `list[int]` are both `list` at runtime.
    `isinstance(x, list[str])` raises a `TypeError`.
@@ -885,7 +893,7 @@ print(tail)   # 5
 
 ### Augmented Assignment
 
-Augmented assignment operators (`+=``-=``*=`Etc.) are syntactic sugar, but they are not always
+Augmented assignment operators (`+=`, `-=`, `*=`. Etc.) are syntactic sugar, but they are not always
 Equivalent to the expanded form. The key difference is that `x += y` calls `__iadd__` if it exists,
 Which allows in-place modification:
 
@@ -899,7 +907,7 @@ a = a + [5]  # calls list.__add__, creates a new list
 print(a is b)  # False -- new object
 ```
 
-For immutable types (`int``str``tuple`), there is no `__iadd__`So `+=` is equivalent to `= +` -- it
+For immutable types (`int`, `str`, `tuple`), there is no `__iadd__`. So `+=` is equivalent to `= +` -- it
 always creates a new object.
 
 ### Scope: LEGB Rule
@@ -909,7 +917,7 @@ Python resolves names using the **LEGB rule**, searching namespaces in this orde
 1. **L**ocal -- the current function
 2. **E**nclosing -- enclosing functions (for nested functions)
 3. **G**lobal -- the module-level namespace
-4. **B**uilt-in -- the `builtins` module (`print``len``range`Etc.)
+4. **B**uilt-in -- the `builtins` module (`print`, `len`, `range`. Etc.)
 
 ```python
 x = "global"
@@ -970,10 +978,6 @@ Using classes.
    data).
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

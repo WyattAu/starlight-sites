@@ -24,7 +24,7 @@ categories:
 
 Probability and statistics appear on both papers of the Leaving Certificate Mathematics examination.
 This topic covers counting principles, probability rules, distributions, hypothesis testing, and
-Statistical measures.
+statistical measures.
 
 ## Counting Principles
 
@@ -32,7 +32,7 @@ Statistical measures.
 
 If task A can be done in $m$ ways and task B in $n$ ways, then A followed by B can be done in
 $m \times n$ ways. This extends to any finite sequence of tasks: multiply the number of choices at
-Each step.
+each step.
 
 **Example (OL):** How many ways can 3 different books be arranged on a shelf?
 
@@ -96,17 +96,17 @@ $$
 \frac{10!}{3! \cdot 3! \cdot 2!} = \frac{3628800}{6 \times 6 \times 2} = \frac{3628800}{72} = 50400
 $$
 
-### Pascal"s Triangle and Binomial Coefficients (HL)
+### Pascal's Triangle and Binomial Coefficients (HL)
 
-Each entry in Pascal's triangle is the sum of the two entries above it. The $r$Th entry in row $n$
-Is $\binom{n}{r}$.
+Each entry in Pascal's triangle is the sum of the two entries above it. The $r$ Th entry in row $n$
+is $\binom{n}{r}$.
 
 **Pascal's identity:** $\binom{n}{r} = \binom{n-1}{r-1} + \binom{n-1}{r}$.
 
 **Proof of Pascal's identity.** Consider choosing $r$ people from $n$ people. Fix one particular
 Person, say Alice. Either Alice is chosen (leaving $\binom{n-1}{r-1}$ ways to choose the remaining
 $r-1$ from $n-1$ others) or Alice is not chosen (leaving $\binom{n-1}{r}$ ways to choose all $r$
-From $n-1$ others). These cases are mutually exclusive and exhaustive.
+from $n-1$ others). These cases are mutually exclusive and exhaustive.
 
 **Binomial theorem:** $(a + b)^n = \sum_{r=0}^{n} \binom{n}{r} a^{n-r} b^r$.
 
@@ -152,7 +152,7 @@ P(A \cap B) = P(A) \cdot P(B)
 $$
 
 Two events are **independent** if and only if $P(A \cap B) = P(A)P(B)$. This is not the same as
-Mutually exclusive (which means $P(A \cap B) = 0$).
+mutually exclusive (which means $P(A \cap B) = 0$).
 
 **Conditional probability:**
 
@@ -203,7 +203,7 @@ Only about 32.4% of positive tests are true positives. This is the "base rate fa
 **Example (HL) -- Extended Bayes':** A factory has three machines producing bolts. Machine A
 Produces 50% of bolts with 2% defect rate, Machine B produces 30% with 3% defect rate, Machine C
 Produces 20% with 1% defect rate. A randomly selected bolt is defective. What is the probability it
-Came from Machine B?
+came from Machine B?
 
 $$
 P(B|\mathrm{def) = \frac{P(\mathrm{def|B)P(B)}{P(\mathrm{def|A)P(A) + P(\mathrm{def|B)P(B) + P(\mathrm{def|C)P(C)}
@@ -235,11 +235,15 @@ $$
 
 These concepts are frequently confused:
 
+<div class="table-wrap">
+
 | Property            | Independent                                 | Mutually Exclusive |
-| ------------------- | ------------------------------------------- | ------------------ | ---- | ------- |
+| ------------------- | ------------------------------------------- | ------------------ |
 | Definition          | $P(A \cap B) = P(A)P(B)$                    | $P(A \cap B) = 0$  |
 | Meaning             | Occurrence of one does not affect the other | Cannot both occur  |
-| If $P(A), P(B) > 0$ | $P(A                                        | B) = P(A)$         | $P(A | B) = 0$ |
+| If $P(A), P(B) > 0$ | $P(A                                        \| B) = P(A)$         | $P(A \| B) = 0$ |
+
+</div>
 
 **Important:** If two events with positive probability are mutually exclusive, they cannot be
 Independent (since $P(A \cap B) = 0 \neq P(A)P(B)$ when both probabilities are positive).
@@ -311,7 +315,7 @@ $$
 E(X) = np, \quad \mathrm{Var(X) = np(1-p)
 $$
 
-**Conditions:** fixed $n$Independent trials, two outcomes, constant $p$.
+**Conditions:** fixed $n$ Independent trials, two outcomes, constant $p$.
 
 **Proof that $E(X) = np$ for $X \sim \mathrm{Bin(n, p)$.** Let $X_i$ be the indicator variable for
 Success on trial $i$ (so $X_i = 1$ with probability $p$$X_i = 0$ with probability $1-p$). Then
@@ -373,7 +377,7 @@ $X \sim N(\mu, \sigma^2)$. The standard normal $Z = \frac{X - \mu}{\sigma}$ has 
 
 **Why the normal distribution is special.** The Central Limit Theorem states that the mean of a
 Large number of independent random variables is approximately normally distributed, regardless of
-The original distribution. This is why the normal distribution appears everywhere in nature.
+the original distribution. This is why the normal distribution appears everywhere in nature.
 
 **Example (HL):** Exam marks are normally distributed with $\mu = 60$$\sigma = 10$. Find the
 Probability a student scores above 75.
@@ -395,7 +399,7 @@ $P(X \le k) \approx P\!\left(Z \lt \frac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)$.
 
 **Why continuity correction is needed.** The binomial is discrete (defined on integers) while the
 Normal is continuous. Without the correction, we would compute $P(X \le 5) = P(X \lt 6)$ But the
-Normal approximation for $P(X \lt 5)$ would miss the entire bar at $X = 5$.
+normal approximation for $P(X \lt 5)$ would miss the entire bar at $X = 5$.
 
 ### Bernoulli Trials (HL)
 
@@ -444,18 +448,18 @@ $$
 
 ### Box Plots (HL)
 
-A box plot displays five statistics: minimum, $Q_1$Median, $Q_3$Maximum.
+A box plot displays five statistics: minimum, $Q_1$ Median, $Q_3$ Maximum.
 
 **Outlier:** A value below $Q_1 - 1.5 \times \mathrm{IQR$ or above $Q_3 + 1.5 \times \mathrm{IQR$.
 
-**Example (HL):** A data set has $Q_1 = 25$$Q_3 = 45$Minimum $= 10$Maximum $= 65$. Identify Any
+**Example (HL):** A data set has $Q_1 = 25$$Q_3 = 45$ Minimum $= 10$ Maximum $= 65$. Identify Any
 outliers.
 
 $\mathrm{IQR = 45 - 25 = 20$.
 
-Lower fence: $25 - 1.5(20) = -5$. Since the minimum is $10 > -5$No low outliers.
+Lower fence: $25 - 1.5(20) = -5$. Since the minimum is $10 > -5$ No low outliers.
 
-Upper fence: $45 + 1.5(20) = 75$. Since the maximum is $65 < 75$No high outliers.
+Upper fence: $45 + 1.5(20) = 75$. Since the maximum is $65 < 75$ No high outliers.
 
 ### Skewness (HL)
 
@@ -464,7 +468,7 @@ Upper fence: $45 + 1.5(20) = 75$. Since the maximum is $65 < 75$No high outliers
 - **Symmetric:** Mean = Median.
 
 In a box plot, positive skew means the right whisker is longer; negative skew means the left whisker
-Is longer.
+is longer.
 
 ## Hypothesis Testing (HL)
 
@@ -479,12 +483,16 @@ Is longer.
 
 ### One-Tailed vs. Two-Tailed Tests (HL)
 
+<div class="table-wrap">
+
 | Feature         | One-tailed             | Two-tailed              |
 | --------------- | ---------------------- | ----------------------- |
 | $H_1$           | $p > p_0$ or $p < p_0$ | $p \neq p_0$            |
 | Critical region | One tail only          | Both tails              |
 | Critical value  | $z_{1-\alpha}$         | $z_{1-\alpha/2}$        |
 | p-value         | One tail area          | Two tail areas combined |
+
+</div>
 
 :::caution
 Results.
@@ -504,7 +512,7 @@ $Z = \frac{114.5 - 100}{7.071} \approx 2.05$.
 
 Critical values at $\alpha = 0.05$ (two-tailed): $z = \pm 1.96$.
 
-Since $2.05 > 1.96$We reject $H_0$. There is sufficient evidence to suggest the coin is biased.
+Since $2.05 > 1.96$ We reject $H_0$. There is sufficient evidence to suggest the coin is biased.
 
 ### t-test for a Mean (HL)
 
@@ -525,17 +533,21 @@ T = \frac{23.4 - 25}{2.1/\sqrt{8}} = \frac{-1.6}{0.7423} \approx -2.156
 $$
 
 Degrees of freedom $= 7$. The critical value from t-tables at $\alpha = 0.05$ (two-tailed, 7 df) is
-Approximately $\pm 2.365$.
+approximately $\pm 2.365$.
 
-Since $|-2.156| = 2.156 < 2.365$We do not reject $H_0$. There is insufficient evidence to conclude
-The population mean differs from 25.
+Since $|-2.156| = 2.156 < 2.365$ We do not reject $H_0$. There is insufficient evidence to conclude
+the population mean differs from 25.
 
 ### Type I and Type II Errors (HL)
+
+<div class="table-wrap">
 
 | Error Type | Description                                 | Probability |
 | ---------- | ------------------------------------------- | ----------- |
 | Type I     | Rejecting $H_0$ when $H_0$ is true          | $\alpha$    |
 | Type II    | Failing to reject $H_0$ when $H_0$ is false | $\beta$     |
+
+</div>
 
 The **power** of a test is $1 - \beta$: the probability of correctly rejecting a false $H_0$.
 
@@ -555,7 +567,7 @@ $$
 
 **Interpretation:** If we were to take many samples and construct a 95% confidence interval from
 Each, approximately 95% of those intervals would contain the true population mean. It does NOT mean
-There is a 95% probability that $\mu$ lies in any particular interval.
+there is a 95% probability that $\mu$ lies in any particular interval.
 
 ## Correlation and Regression (HL)
 
@@ -576,9 +588,9 @@ Correlation (but there may be a non-linear relationship).
 ### Coefficient of Determination (HL)
 
 The coefficient of determination $r^2$ represents the proportion of variance in $y$ explained by the
-Linear relationship with $x$.
+linear relationship with $x$.
 
-If $r = 0.8$ Then $r^2 = 0.64$Meaning 64% of the variation in $y$ is accounted for by the linear
+If $r = 0.8$ Then $r^2 = 0.64$ Meaning 64% of the variation in $y$ is accounted for by the linear
 Regression on $x$. The remaining 36% is due to other factors.
 
 ### Line of Best Fit (Least Squares) (HL)
@@ -597,7 +609,7 @@ $$
 
 The least squares line minimises $\sum(y_i - (a + bx_i))^2$.
 
-**Example (HL):** For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$Find the correlation
+**Example (HL):** For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$ Find the correlation
 Coefficient and regression line.
 
 $n = 5$$\sum x = 15$$\sum y = 25$$\sum xy = 1(3)+2(5)+3(4)+4(7)+5(6) = 3+10+12+28+30 = 83$
@@ -657,7 +669,7 @@ See the examples integrated throughout the sections above.
 3. A bag contains 3 red and 5 green balls. Two are drawn at random without replacement. Find the
    probability both are green.
 4. Find the mean, median, and mode of: 3, 5, 5, 7, 8, 9, 12.
-5. Given $E(X) = 4$ and $\mathrm{Var(X) = 9$Find $E(X^2)$.
+5. Given $E(X) = 4$ and $\mathrm{Var(X) = 9$ Find $E(X^2)$.
 6. In a class of 35 students, 20 study maths, 15 study physics, and 8 study both. How many study
    neither?
 
@@ -668,7 +680,7 @@ See the examples integrated throughout the sections above.
    the probability a randomly selected person is between 160 cm and 180 cm tall.
 3. A sample of 8 measurements has $\bar{x} = 23.4$ and $s = 2.1$. Test at the 5% level whether the
    population mean is 25.
-4. For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$Find the correlation coefficient $r$ and
+4. For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$ Find the correlation coefficient $r$ and
    the equation of the regression line of $y$ on $x$.
 5. Prove that $\binom{n}{r} = \binom{n}{n-r}$.
 6. A test for a disease has 99% sensitivity and 1% false positive rate. If 0.5% of the population
@@ -708,9 +720,13 @@ See the examples integrated throughout the sections above.
     approximation.
 6. Given the data below, calculate the Spearman rank correlation coefficient:
 
+<div class="table-wrap">
+
 | $x$ | 1   | 2   | 3   | 4   | 5   |
 | --- | --- | --- | --- | --- | --- |
 | $y$ | 3   | 1   | 4   | 2   | 5   |
+
+</div>
 
 1. Prove that if $A$ and $B$ are independent, then so are $A$ and $B'$.
 2. The regression line of $y$ on $x$ is $y = 2.5x - 3.0$ and the regression line of $x$ on $y$ is
@@ -719,14 +735,14 @@ See the examples integrated throughout the sections above.
 ### 8.4 Poisson Approximation to the Binomial
 
 When $n$ is large, $p$ is small, and $np$ is moderate, the binomial distribution can be approximated
-By a Poisson distribution with $\lambda = np$:
+by a Poisson distribution with $\lambda = np$:
 
 $$
 \mathrm{Bin(n, p) \approx \mathrm{Po(np)
 $$
 
 This avoids calculating large binomial coefficients. As a rule of thumb, the approximation is good
-When $n \ge 50$ and $p \le 0.1$.
+when $n \ge 50$ and $p \le 0.1$.
 
 **Example (HL):** A machine produces items with a defect rate of 2%. In a batch of 200 items, find
 The probability of at most 3 defects using the Poisson approximation.
@@ -739,11 +755,15 @@ $$
 
 ### 8.5 Choosing the Right Distribution
 
+<div class="table-wrap">
+
 | Distribution | When to use                                        | Parameters      |
 | ------------ | -------------------------------------------------- | --------------- |
 | Binomial     | Fixed number of trials, two outcomes, constant $p$ | $n, p$          |
 | Poisson      | Events occur at constant rate, independently       | $\lambda$       |
 | Normal       | Continuous data, symmetric bell shape              | $\mu, \sigma^2$ |
+
+</div>
 
 :::tip
 If it mentions "out of $n$ trials," think Binomial.
@@ -763,7 +783,7 @@ The three main distributions covered in this topic are connected:
 ### 8.7 Law of Large Numbers (HL - awareness)
 
 The law of large numbers states that as the number of trials increases, the sample mean converges to
-The expected value. Formally, for i.i.d. Random variables $X_1, X_2, \ldots$ with mean $\mu$:
+the expected value. Formally, for i.i.d. Random variables $X_1, X_2, \ldots$ with mean $\mu$:
 
 $$
 \bar{X}_n = \frac{X_1 + X_2 + \cdots + X_n}{n} \to \mu \mathrm{ as  n \to \infty
@@ -771,16 +791,6 @@ $$
 
 This is why a coin tossed many times gives a proportion of heads close to 0.5, even if short
 Sequences may deviate significantly.
-
-```mermaid
-flowchart TD
-    A[4_Probability Statistics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -794,9 +804,6 @@ including key theorems, methods, and problem-solving approaches.
 - hypothesis testing
 - correlation and regression
 - sampling methods
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 ## See Also
 

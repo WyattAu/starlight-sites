@@ -25,7 +25,7 @@ Repository integrity, and multi-tree management.
 
 ## Intuition
 
-**Power tools for Git experts:** Advanced Git commands are like power tools in a workshop, you do not need them every day, but when you do, they save hours of manual work. Commands like `git bisect``git stash`and `git worktree` solve specific problems that basic Git cannot handle efficiently.
+**Power tools for Git experts:** Advanced Git commands are like power tools in a workshop, you do not need them every day, but when you do, they save hours of manual work. Commands like `git bisect`, `git stash`and `git worktree` solve specific problems that basic Git cannot handle efficiently.
 
 **Why it matters:** These commands solve real-world problems, `git bisect` finds the exact commit that introduced a bug in minutes instead of hours, `git stash` lets you context-switch without losing work, and `git worktree` lets you work on multiple branches simultaneously.
 
@@ -69,7 +69,7 @@ git replace -d $(git replace -l)
 
 When you run `git replace A B`Git creates a ref at `refs/replace/A` pointing to `B`. During any
 Object lookup, Git checks whether the requested object has an entry under `refs/replace/`. If it
-Does, Git returns the replacement instead.
+does, Git returns the replacement instead.
 
 ```
 refs/replace/
@@ -119,7 +119,7 @@ git replace --graft <commit> <parent1> <parent2>
 
 :::note
 `refs/replace/`. They differ from the older `~/.git/info/grafts` mechanism, which was not ref-based
-And could not be pushed or shared.
+and could not be pushed or shared.
 
 ### Editing an Object for Replacement
 
@@ -143,7 +143,7 @@ Use cases for `--edit`:
 #### Rewriting History Without Rebase
 
 Suppose commit `abc1234` has a bad message, but it is 50 commits deep with many branches depending
-On it. An interactive rebase would be disruptive. Instead:
+on it. An interactive rebase would be disruptive. Instead:
 
 ```bash
 # Create a new commit with the same tree but different message
@@ -192,9 +192,11 @@ git filter-repo --replace-refs delete-no-add
 
 :::caution
 History. If the replacement changes commit hashes, downstream branches may break. Coordinate with
-Your team before pushing replacement refs.
+your team before pushing replacement refs.
 
 ### Comparison Table
+
+<div class="table-wrap">
 
 | Operation             | Mechanism                 | Permanence        | Pushes by default |
 | --------------------- | ------------------------- | ----------------- | ----------------- |
@@ -203,6 +205,8 @@ Your team before pushing replacement refs.
 | `~/.git/info/grafts`  | Grafts file (legacy)      | Local only        | No                |
 | `git rebase`          | New commit objects        | Permanent         | Yes               |
 | `git filter-branch`   | Rewrites object store     | Permanent         | Yes               |
+
+</div>
 
 ---
 
@@ -225,7 +229,7 @@ distributable.
 
 **Definition.** A Git note is a blob object associated with a specific commit, stored in a tree
 Under `refs/notes/commits`. The mapping from commit to note is maintained through a tree structure
-Where each path component corresponds to characters of the commit hash.
+where each path component corresponds to characters of the commit hash.
 
 ### Basic Syntax
 
@@ -330,12 +334,16 @@ $ git notes merge -s cat-sort-uniq refs/notes/commits-from-other-branch
 
 Available merge strategies:
 
+<div class="table-wrap">
+
 | Strategy        | Behavior                                   |
 | --------------- | ------------------------------------------ |
 | `ours`          | Discard incoming notes, keep local         |
 | `theirs`        | Discard local notes, take incoming         |
 | `manual`        | Leave conflicts for manual resolution      |
 | `cat-sort-uniq` | Concatenate, sort lines, remove duplicates |
+
+</div>
 
 ### Note Namespaces
 
@@ -511,12 +519,16 @@ v2.3.1-14-ga3f2b1c
 
 Breakdown:
 
+<div class="table-wrap">
+
 | Component | Meaning                                                     |
 | --------- | ----------------------------------------------------------- |
 | `v2.3.1`  | The nearest annotated tag that is an ancestor of the commit |
 | `-14`     | 14 commits after the tag                                    |
 | `-g`      | Literal "g" (for "git")                                     |
 | `a3f2b1c` | Abbreviated commit hash                                     |
+
+</div>
 
 If the commit itself is tagged, `git describe` outputs just the tag name:
 
@@ -525,6 +537,8 @@ v2.3.1
 ```
 
 ### Flags Reference
+
+<div class="table-wrap">
 
 | Flag                  | Effect                                                      |
 | --------------------- | ----------------------------------------------------------- |
@@ -540,6 +554,8 @@ v2.3.1
 | `--exclude=<pattern>` | Exclude tags matching the glob pattern                      |
 | `--contains`          | Find the tag that contains the commit (tag is a descendant) |
 | `--first-parent`      | Follow only the first parent when traversing                |
+
+</div>
 
 ### Using in Build Versioning
 
@@ -652,6 +668,8 @@ repo/
 
 Git also reads from:
 
+<div class="table-wrap">
+
 | Location                           | Scope                     |
 | ---------------------------------- | ------------------------- |
 | `.gitattributes` in repo root      | All files in the repo     |
@@ -659,6 +677,8 @@ Git also reads from:
 | `$GIT_DIR/info/attributes`         | Local repo, not committed |
 | `~/.gitattributes`                 | User-global, all repos    |
 | `/etc/gitattributes`               | System-wide               |
+
+</div>
 
 ### Syntax
 
@@ -706,6 +726,8 @@ docs/_build/* linguist-generated
 
 Attributes can be set, unset, or set to a value:
 
+<div class="table-wrap">
+
 | Syntax                 | Meaning                           |
 | ---------------------- | --------------------------------- |
 | `text`                 | Set the attribute                 |
@@ -713,9 +735,13 @@ Attributes can be set, unset, or set to a value:
 | `text` (after `!text`) | Unset the attribute (explicitly)  |
 | `diff=markdown`        | Set attribute to value `markdown` |
 
+</div>
+
 ### Line Ending Normalization
 
 The `text` attribute controls CRLF/LF conversion:
+
+<div class="table-wrap">
 
 | Setting         | Behavior                                                               |
 | --------------- | ---------------------------------------------------------------------- |
@@ -724,6 +750,8 @@ The `text` attribute controls CRLF/LF conversion:
 | `text eol=crlf` | Convert LF to CRLF on checkout (force Windows line endings)            |
 | `-text`         | No conversion at all (binary-like)                                     |
 | `binary`        | Equivalent to `-text -diff`                                            |
+
+</div>
 
 ```gitattributes
 # Force LF for everything (recommended for cross-platform projects)
@@ -740,7 +768,7 @@ The `text` attribute controls CRLF/LF conversion:
 
 :::note
 (not binary). Using `* text=auto eol=lf` in the root `.gitattributes` is the recommended practice
-For cross-platform projects. It normalizes committed files to LF while letting Windows developers
+for cross-platform projects. It normalizes committed files to LF while letting Windows developers
 Check out with CRLF if their `core.autocrlf` is set.
 
 ### Binary Detection
@@ -805,10 +833,14 @@ $ git config merge.json.recursive binary
 
 Available built-in merge strategies:
 
+<div class="table-wrap">
+
 | Driver         | Behavior                                 |
 | -------------- | ---------------------------------------- |
 | `merge=ours`   | Keep our version, ignore theirs entirely |
 | `merge=binary` | No merging; conflict on any modification |
+
+</div>
 
 ### Export-Subst
 
@@ -838,6 +870,8 @@ $ git archive --format=tar.gz HEAD > release.tar.gz
 
 Available format specifiers:
 
+<div class="table-wrap">
+
 | Specifier | Expands to                             |
 | --------- | -------------------------------------- |
 | `%H`      | Full commit hash                       |
@@ -850,6 +884,8 @@ Available format specifiers:
 | `%ce`     | Committer email                        |
 | `%s`      | Subject (first line of commit message) |
 | `%b`      | Body (rest of commit message)          |
+
+</div>
 
 ### Whitespace Rules
 
@@ -867,6 +903,8 @@ Available format specifiers:
 Makefile whitespace=indent-with-non-tab
 ```
 
+<div class="table-wrap">
+
 | Whitespace Attribute  | Error Detected                                                |
 | --------------------- | ------------------------------------------------------------- |
 | `trailing-space`      | Trailing whitespace, blank lines with whitespace              |
@@ -875,6 +913,8 @@ Makefile whitespace=indent-with-non-tab
 | `cr-at-eol`           | Carriage return at end of line (not an error, just detection) |
 | `blank-at-eol`        | Trailing whitespace at end of line                            |
 | `blank-at-eof`        | Blank lines at end of file                                    |
+
+</div>
 
 ### Linguist-Generated (GitHub Specific)
 
@@ -911,7 +951,7 @@ image.png: binary: set
 :::
 
 :::caution
-Line endings. After adding or modifying `.gitattributes`You must re-normalize existing files:
+Line endings. After adding or modifying `.gitattributes`. You must re-normalize existing files:
 
 ```bash
 # Renormalize all files according to new .gitattributes
@@ -1027,6 +1067,8 @@ Repository. Always follow the full removal procedure.
 
 ### Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                          | Solution                                                                              |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------- |
 | Submodule directory empty after clone            | Run `git submodule update --init --recursive`                                         |
@@ -1034,6 +1076,8 @@ Repository. Always follow the full removal procedure.
 | Forgot to commit `.gitmodules` changes           | Stage `.gitmodules` and the submodule path before committing                          |
 | Stale submodule in `.git/modules/` after removal | Manually remove `.git/modules/<name>`                                                 |
 | Submodule at wrong commit                        | `cd libs/repo && git checkout <commit>` then `cd ../.. && git add libs/repo`          |
+
+</div>
 
 ---
 
@@ -1056,7 +1100,7 @@ Fetched from as if they were a remote.
 
 **Definition.** A Git bundle is a self-contained binary file encoding a Git packfile and a ref
 Index. It represents a slice of repository history defined by a set of prerequisites (commits that
-Must already exist) and a set of included refs.
+must already exist) and a set of included refs.
 
 ### Creating Bundles
 
@@ -1200,12 +1244,12 @@ Use `git bundle create repo.bundle --all --reflog`.
 ### Overview
 
 `git worktree` manages multiple working directories linked to the same repository. Each worktree can
-Be checked out to a different branch, enabling parallel work without stashing or committing
+be checked out to a different branch, enabling parallel work without stashing or committing
 Incomplete changes.
 
 **Definition.** A linked worktree is a separate directory tree that shares the same object database,
 Refs, and configuration as the main repository. Each worktree has its own working directory, index
-(staging area), and `HEAD`But all write operations go to the same `.git` directory.
+(staging area), and `HEAD`. But all write operations go to the same `.git` directory.
 
 ### Basic Syntax
 
@@ -1356,17 +1400,21 @@ $ make -C ../build-v2.4 release
 
 ### Limitations and Constraints
 
+<div class="table-wrap">
+
 | Constraint                                          | Details                                                         |
 | --------------------------------------------------- | --------------------------------------------------------------- |
 | Branch can only be checked out in one worktree      | Git prevents checking out the same branch in multiple worktrees |
 | No nested worktrees                                 | You cannot create a worktree inside another worktree            |
 | `core.bare` must be unset for main worktree         | Bare repos can only have linked worktrees, not a main worktree  |
 | `git init` and `git clone` create the main worktree | You cannot convert a standalone repo into a linked worktree     |
+
+</div>
 :::
 
 :::caution
 `git worktree remove`Git leaves stale administrative files. Run `git worktree prune` to clean them
-Up. The branch that was checked out in the deleted worktree may remain locked until you prune.
+up. The branch that was checked out in the deleted worktree may remain locked until you prune.
 
 ---
 
@@ -1384,7 +1432,7 @@ Up. The branch that was checked out in the deleted worktree may remain locked un
 ### Overview
 
 The reflog records every movement of branch tips and HEAD. It is Git's primary recovery mechanism
-For operations that seem destructive, such as `git reset --hard``git rebase`Or `git commit --amend`.
+for operations that seem destructive, such as `git reset --hard`, `git rebase` or `git commit --amend`.
 
 ### Basic Syntax
 
@@ -1570,6 +1618,8 @@ git fsck --no-reflogs
 
 ### What It Checks
 
+<div class="table-wrap">
+
 | Check                | Description                                     |
 | -------------------- | ----------------------------------------------- |
 | Missing objects      | References point to objects that do not exist   |
@@ -1581,6 +1631,8 @@ git fsck --no-reflogs
 | Invalid tree entries | Tree entries with invalid mode or filename      |
 | Invalid parent links | Commits referencing non-existent parent commits |
 | Tag signature        | Verification of signed tags (with `--tag`)      |
+
+</div>
 
 ### Common Output
 
@@ -1753,7 +1805,7 @@ $ git commit -m "Merge main into feature-branch"
 #### Long-Lived Feature Branches
 
 If a feature branch lives for weeks and you merge `main` into it regularly, the same conflicts tend
-To recur. `rerere` eliminates the need to resolve them repeatedly.
+to recur. `rerere` eliminates the need to resolve them repeatedly.
 
 #### Maintaining Patches Across Branches
 
@@ -1772,11 +1824,15 @@ $ cp -r .git/rr-cache/ /path/to/other-clone/.git/rr-cache/
 
 ### Configuration Options
 
+<div class="table-wrap">
+
 | Option              | Default | Description                                 |
 | ------------------- | ------- | ------------------------------------------- |
 | `rerere.enabled`    | `false` | Enable rerere                               |
 | `rerere.autoupdate` | `false` | Automatically stage the recorded resolution |
 | `rerere.autogc`     | `true`  | Run `git gc` on rr-cache when it gets large |
+
+</div>
 :::
 
 :::note
@@ -2059,6 +2115,8 @@ $ git send-email --suppress-cc=body,sob,misc-cmd 0001-*.patch
 
 ### Cc Suppression Options
 
+<div class="table-wrap">
+
 | Flag                     | Suppresses Cc from                 |
 | ------------------------ | ---------------------------------- |
 | `--suppress-cc=author`   | Patch author                       |
@@ -2068,6 +2126,8 @@ $ git send-email --suppress-cc=body,sob,misc-cmd 0001-*.patch
 | `--suppress-cc=body`     | Entire patch body                  |
 | `--suppress-cc=misc-cmd` | Output of --cc-cmd                 |
 | `--suppress-cc=all`      | All of the above                   |
+
+</div>
 
 ### Common Workflow
 
@@ -2100,6 +2160,8 @@ $ git send-email --to maintainer@project.org \
 
 ### Configuration Reference
 
+<div class="table-wrap">
+
 | Config Key                 | Description                              |
 | -------------------------- | ---------------------------------------- |
 | `sendemail.from`           | Default From address                     |
@@ -2112,6 +2174,8 @@ $ git send-email --to maintainer@project.org \
 | `sendemail.chainReplyTo`   | Chain emails as replies to cover letter  |
 | `sendemail.thread`         | Enable threading                         |
 | `sendemail.confirm`        | `auto``always``never``cc``compose`       |
+
+</div>
 
 :::caution
 Accidental send to hundreds of subscribers is difficult to undo. Double-check recipient lists and
@@ -2159,7 +2223,7 @@ $ git diff -- main src/file.c   # Diff between two commits/files (ambiguous with
 
 :::caution
 `git restore` for files. These modern commands eliminate the ambiguity that `git checkout` suffers
-From.
+from.
 
 ### Ambiguous Argument Errors
 
@@ -2213,7 +2277,7 @@ Explicitly run `git submodule update --init --recursive` after pulling. Configur
 git config submodule.recurse true
 ```
 
-This makes `git pull``git checkout`And `git switch` also update submodules recursively.
+This makes `git pull`, `git checkout` and `git switch` also update submodules recursively.
 
 ### Worktree and Branch Conflicts
 
@@ -2268,11 +2332,15 @@ $ git push --force origin feature
 $ git push --force-with-lease origin feature
 ```
 
+<div class="table-wrap">
+
 | Command                        | Behavior                                                                              |
 | ------------------------------ | ------------------------------------------------------------------------------------- |
 | `git push --force`             | Unconditionally overwrites the remote branch                                          |
 | `git push --force-with-lease`  | Only overwrites if the remote ref matches your tracking branch                        |
 | `git push --force-if-includes` | Like force-with-lease, but also checks that your local branch includes the remote tip |
+
+</div>
 :::
 
 :::caution
@@ -2338,16 +2406,6 @@ The `binary` merge driver marks the file as unmergeable, and Git will keep which
 last modified (based on the merge strategy). This avoids generating conflict markers in binary
 Files.
 
-```mermaid
-flowchart TD
-    A[Advanced Git Commands] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of advanced git commands, including underlying theory, practical
@@ -2360,9 +2418,6 @@ implementation, and key applications.
 - resolving merge conflicts
 - rebasing and cherry-picking
 - Git workflows (GitFlow, trunk-based)
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

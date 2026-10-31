@@ -114,17 +114,6 @@ sidebar_position: 40
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Macroeconomics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Macroeconomics is like reading the economy's vital signs, GDP, inflation, and unemployment reveal the health of the system:** Macroeconomic variables are interconnected, policies affecting one often have ripple effects across the economy
@@ -134,6 +123,8 @@ flowchart TD
 **The key insight:** Macroeconomic variables are interconnected, policies affecting one often have ripple effects across the economy
 
 ## Answer Key
+
+<div class="table-wrap">
 
 | Question | Answer | Topic                    |
 | :------: | :----: | :----------------------- |
@@ -147,6 +138,8 @@ flowchart TD
 |    8     |  (B)   | Exchange Rates           |
 |    9     |  (B)   | Fiscal Policy            |
 |    10    |  (B)   | GDP Measurement          |
+
+</div>
 
 ---
 

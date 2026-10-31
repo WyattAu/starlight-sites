@@ -83,12 +83,16 @@ function Card({ title, children }: CardProps) {
 
 ### Component Typing Comparison
 
+<div class="table-wrap">
+
 | Approach                               | `children`           | Pros                            | Cons                                            |
 | -------------------------------------- | -------------------- | ------------------------------- | ----------------------------------------------- |
 | `FC<Props>`                            | Implicit             | Concise, includes ref typing    | Implicit children, deprecated in React 18 types |
 | `(props: Props) => JSX.Element`        | Explicit if declared | Full control, modern convention | Must type return explicitly                     |
 | `(props: Props) => React.ReactElement` | Explicit if declared | Precise return type             | Does not allow `null` or `string` returns       |
 | `function Component(props: Props)`     | Explicit if declared | Readable, supports overloads    | Verbose                                         |
+
+</div>
 
 ### `ComponentPropsWithRef` and `ComponentPropsWithoutRef`
 
@@ -107,11 +111,15 @@ Including all HTML attributes but excluding `ref`. Use `ComponentPropsWithRef` t
 
 ### `ReactNode` vs `JSX.Element` vs `ReactElement`
 
+<div class="table-wrap">
+
 | Type                 | Description                                                                                       |
 | -------------------- | ------------------------------------------------------------------------------------------------- |
 | `React.ReactNode`    | Anything React can render: elements, strings, numbers, `null``undefined`Booleans, arrays, portals |
 | `React.ReactElement` | A React element (result of `createElement` or JSX)                                                |
 | `JSX.Element`        | Alias for `React.ReactElement` in the current JSX namespace                                       |
+
+</div>
 
 For component return types and `children` props, `React.ReactNode` is the most permissive and
 Generally correct choice.
@@ -156,6 +164,8 @@ function Input() {
 
 ### Event Type Reference
 
+<div class="table-wrap">
+
 | Event Type          | Target Element                  |
 | ------------------- | ------------------------------- |
 | `MouseEvent<T>`     | `<div>``<button>``<a>`Etc.      |
@@ -166,6 +176,8 @@ function Input() {
 | `DragEvent<T>`      | Any draggable element           |
 | `WheelEvent<T>`     | Any element                     |
 | `ClipboardEvent<T>` | Any element                     |
+
+</div>
 
 ### Inline Event Handlers
 
@@ -200,7 +212,7 @@ const [user, setUser] = useState<User | null>(null);
 const [data, setData] = useState<ApiResponse | undefined>(undefined);
 ```
 
-**Common Pitfall:** Using `useState(null)` without a type parameter produces `useState<null>`Which
+**Common Pitfall:** Using `useState(null)` without a type parameter produces `useState<null>`. Which
 Means the state can only ever be `null`. Always provide the union type:
 `useState<Type | null>(null)`.
 
@@ -503,7 +515,7 @@ function useConfig() {
 }
 ```
 
-When a default value is provided, `useContext` never returns `null`So the null-check in the hook Is
+When a default value is provided, `useContext` never returns `null`. So the null-check in the hook Is
 unnecessary. However, this approach is less type-safe because the default value may not match the
 Actual provider value.
 
@@ -603,11 +615,15 @@ Produces `unknown` for the ref type.
 
 ### `RefObject` vs `MutableRefObject` vs `Ref<T>`
 
+<div class="table-wrap">
+
 | Type                  | Description                                       |
 | --------------------- | ------------------------------------------------- |
 | `RefObject<T>`        | Immutable ref object (`current` is readonly)      |
 | `MutableRefObject<T>` | Mutable ref object (`current` is writable)        |
 | `Ref<T>`              | `RefObject<T> \| ((instance: T) => void) \| null` |
+
+</div>
 
 ```tsx
 const immutableRef = useRef<HTMLDivElement>(null);
@@ -779,7 +795,7 @@ Using `MouseEvent` instead of `React.MouseEvent` causes type errors:
 const handleClick = (e: MouseEvent) => {};
 ```
 
-This types `e` as the native DOM `MouseEvent`Not React's synthetic event. Use
+This types `e` as the native DOM `MouseEvent`. Not React's synthetic event. Use
 `React.MouseEvent<HTMLButtonElement>`.
 
 ### Pitfall 2: `useRef` for DOM Elements Without `null` Initial Value
@@ -788,7 +804,7 @@ This types `e` as the native DOM `MouseEvent`Not React's synthetic event. Use
 const ref = useRef<HTMLDivElement>();
 ```
 
-This creates `MutableRefObject<HTMLDivElement | undefined>`Which is not compatible with JSX `ref`
+This creates `MutableRefObject<HTMLDivElement | undefined>`. Which is not compatible with JSX `ref`
 Props that expect `Ref<HTMLDivElement>`. Always initialise DOM refs with `null`:
 
 ```tsx
@@ -797,7 +813,7 @@ const ref = useRef<HTMLDivElement>(null);
 
 ### Pitfall 3: Missing Exhaustive Checks in Reducers
 
-When using `useReducer`Always add a default case that returns the current state or calls
+When using `useReducer`. Always add a default case that returns the current state or calls
 `assertNever` to ensure new action types are handled:
 
 ```tsx
@@ -814,7 +830,7 @@ function reducer(state: State, action: Action): State {
 ### Pitfall 4: Overly Broad `children` Types
 
 Using `JSX.Element` instead of `React.ReactNode` for `children` excludes valid React render values
-Like strings, numbers, `null`And arrays:
+like strings, numbers, `null`And arrays:
 
 ```tsx
 interface Bad {
@@ -824,16 +840,6 @@ interface Bad {
 interface Good {
   children: React.ReactNode;
 }
-```
-
-```mermaid
-flowchart TD
-    A[Typescript With React] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -849,13 +855,7 @@ implementation, and key applications.
 - modules and namespaces
 - type guards and narrowing
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

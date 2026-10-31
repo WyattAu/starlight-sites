@@ -23,6 +23,8 @@ categories:
 Traefik is a modern HTTP reverse proxy and load balancer designed for microservices and
 Containerized environments. Key advantages over alternatives:
 
+<div class="table-wrap">
+
 | Feature                           | Traefik                            | Nginx Proxy Manager   | Caddy            |
 | --------------------------------- | ---------------------------------- | --------------------- | ---------------- |
 | Auto-discovery from Docker labels | Yes (native)                       | No (manual UI)        | Yes (via plugin) |
@@ -32,6 +34,8 @@ Containerized environments. Key advantages over alternatives:
 | Learning curve                    | Medium                             | Low                   | Low              |
 | Dashboard                         | Built-in                           | Built-in              | No               |
 | Docker Compose integration        | Excellent (labels on each service) | Separate container    | Good             |
+
+</div>
 
 Traefik shines in a homelab because it eliminates manual proxy configuration. When you start a new
 Container with the right labels, Traefik picks it up and routes traffic immediately, no restart, no
@@ -54,7 +58,7 @@ Before deploying, understand the core routing model:
 - **Services**: Define the backend (container IP + port)
 - **EntryPoints**: Listening ports (80 for HTTP, 443 for HTTPS, 8080 for dashboard)
 - **Providers**: Sources of configuration (Docker labels, file provider, etc.)
-- **TLS Stores/Certificates**: Managed by ACME (Let"s Encrypt) with automatic renewal
+- **TLS Stores/Certificates**: Managed by ACME (Let's Encrypt) with automatic renewal
 
 ## Docker Compose Deployment
 
@@ -255,7 +259,7 @@ http:
       service: noop@internal
 ```
 
-## TLS with Let"s Encrypt
+## TLS with Let's Encrypt
 
 Traefik handles Let's Encrypt certificate provisioning and renewal automatically. Two challenge
 Types are commonly used:
@@ -345,7 +349,7 @@ labels:
 ```
 
 This redirects unauthenticated users to an Authelia login page. After login, users are authenticated
-Across all services without re-entering credentials.
+across all services without re-entering credentials.
 
 ### Rate Limiting
 
@@ -512,7 +516,7 @@ Compose, or ensure the Docker socket path is correct for the SCALE Kubernetes-ba
 
 Let's Encrypt enforces strict rate limits: 50 certificates per registered domain per week, 5
 Duplicate certificates per week. If you are experimenting and restarting containers frequently, you
-Can hit this limit. Use the Let's Encrypt staging environment during development:
+can hit this limit. Use the Let's Encrypt staging environment during development:
 
 ```yaml
 command:
@@ -568,17 +572,6 @@ Etc.) which requires no inbound ports.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[Traefik] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to setup traefik, including key
@@ -592,17 +585,11 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 Traefik is a modern reverse proxy that automatically discovers services and configures routes, like a concierge who learns about new hotel rooms as they are added and automatically assigns guests to them. Unlike traditional proxies that require manual configuration for each service, Traefik watches for new containers or services and provisions routing rules on the fly. It integrates with Let's Encrypt to automatically obtain and renew TLS certificates, so your services are always accessible over HTTPS without manual certificate management.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

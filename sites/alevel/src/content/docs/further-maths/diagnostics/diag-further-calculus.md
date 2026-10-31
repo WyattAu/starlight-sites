@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Further Calculus] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -109,7 +98,7 @@ $\frac{d^2y}{dx^2} = \frac{6/3 + 2}{8/(-3\sqrt{3})} = -\frac{3\sqrt{3}}{2} \lt 0
 
 (d) At $t = 2$: $x = 5$, $y = 6$. $\frac{dy}{dx} = \frac{12-1}{4} = \frac{11}{4}$.
 
-Normal gradient $= -\frac{4}{11}$. Equation: $y - 6 = -\frac{4}{11}(x - 5)$I.e.,
+Normal gradient $= -\frac{4}{11}$. Equation: $y - 6 = -\frac{4}{11}(x - 5)$ I.e.,
 $11y - 66 = -4x + 20$ So $4x + 11y = 86$.
 
 ---
@@ -149,7 +138,7 @@ $\frac{P}{1000-P} = \frac{e^t}{9}$. $P = \frac{1000e^t}{9 + e^t}$.
 (c) $P(5) = \frac{1000e^5}{9 + e^5} = \frac{1000(148.4)}{157.4} = 942.8$.
 
 (d) As $t \to \infty$: $P \to 1000$. The population approaches the **carrying capacity** of 1000.
-The growth is initially approximately exponential when $P$ is small, but slows as $P$
+the growth is initially approximately exponential when $P$ is small, but slows as $P$
 approaches 1000.
 
 ### IT-2: Integration Techniques (with Maclaurin Series)

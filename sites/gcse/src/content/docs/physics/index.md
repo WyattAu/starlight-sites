@@ -70,7 +70,7 @@ curriculum and organised by topic for easy navigation.
 
 - **Energy**, energy stores and transfers, conservation of energy, specific heat capacity, latent
   heat, efficiency, renewable and non-renewable resources, national and global energy use
-- **Electricity**, circuit symbols, current, potential difference and resistance, Ohm"s law, series
+- **Electricity**, circuit symbols, current, potential difference and resistance, Ohm's law, series
   and parallel circuits, power and energy transfer, domestic electricity, the National Grid
 - **Forces**, scalar and vector quantities, Newton's laws, weight and mass, resultant forces, work
   done, momentum, stopping distances, elasticity, pressure in fluids
@@ -108,14 +108,7 @@ curriculum and organised by topic for easy navigation.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -169,8 +162,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Key Equations to Remember
 

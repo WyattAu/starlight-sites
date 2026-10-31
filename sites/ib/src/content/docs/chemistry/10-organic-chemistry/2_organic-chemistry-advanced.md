@@ -48,6 +48,8 @@ $$
 
 **Characteristics:**
 
+<div class="table-wrap">
+
 | Feature              | SN1                                      |
 | -------------------- | ---------------------------------------- |
 | Kinetics             | First order                              |
@@ -57,6 +59,8 @@ $$
 | Nucleophile strength | Weak nucleophiles are sufficient         |
 | Leaving group        | Needs a good leaving group               |
 | Rearrangements       | Possible (hydride or alkyl shifts)       |
+
+</div>
 
 ### SN2 Mechanism (Bimolecular Nucleophilic Substitution)
 
@@ -71,6 +75,8 @@ $$
 
 **Characteristics:**
 
+<div class="table-wrap">
+
 | Feature              | SN2                                      |
 | -------------------- | ---------------------------------------- |
 | Kinetics             | Second order                             |
@@ -80,6 +86,8 @@ $$
 | Nucleophile strength | Strong nucleophiles required             |
 | Leaving group        | Needs a good leaving group               |
 | Rearrangements       | Not possible                             |
+
+</div>
 
 ### E1 Mechanism (Unimolecular Elimination)
 
@@ -104,6 +112,8 @@ $$
 
 ### Comparing SN1, SN2, E1, E2
 
+<div class="table-wrap">
+
 | Factor             | Favours SN1/E1                        | Favours SN2/E2                                 |
 | ------------------ | ------------------------------------- | ---------------------------------------------- |
 | Substrate          | Tertiary                              | Primary, methyl                                |
@@ -113,7 +123,9 @@ $$
 | Solvent            | Polar protic (stabilises carbocation) | Polar aprotic (does not stabilise carbocation) |
 | Base concentration | Low                                   | High                                           |
 
-### Zaitsev"s Rule
+</div>
+
+### Zaitsev's Rule
 
 When multiple alkenes can form, the **more substituted** (more stable) alkene is the major product:
 
@@ -153,7 +165,7 @@ Centre (stereocentre) is a carbon atom bonded to four different groups.
 
 **Definition.** **Enantiomers** are non-superimposable mirror images. They have identical physical
 Properties (melting point, solubility) except for their interaction with plane-polarised light and
-With other chiral molecules.
+with other chiral molecules.
 
 ### Optical Activity
 
@@ -183,6 +195,8 @@ Restricted rotation around a C=C double bond or a ring gives rise to geometric i
 For C=C: assign priorities using CIP rules. If the two higher-priority groups are on the same side:
 $Z$ (zusammen). Opposite sides: $E$ (entgegen).
 
+<div class="table-wrap">
+
 | Isomer  | Description                      | Example                       |
 | ------- | -------------------------------- | ----------------------------- |
 | $cis$   | Same side (similar groups)       | $cis$-but-2-ene               |
@@ -190,13 +204,19 @@ $Z$ (zusammen). Opposite sides: $E$ (entgegen).
 | $Z$     | Higher priority groups same side | $(Z)$-1-bromo-1-chloropropene |
 | $E$     | Higher priority groups opposite  | $(E)$-1-bromo-1-chloropropene |
 
+</div>
+
 ### Optical vs Geometric Isomerism
+
+<div class="table-wrap">
 
 | Property            | Optical Isomerism          | Geometric Isomerism             |
 | ------------------- | -------------------------- | ------------------------------- |
 | Cause               | Chiral centre              | Restricted rotation (C=C, ring) |
 | Mirror images       | Non-superimposable         | Not necessarily mirror images   |
 | Physical properties | Identical (except optical) | Different                       |
+
+</div>
 
 ### Common Pitfalls
 
@@ -222,7 +242,7 @@ $Z$ (zusammen). Opposite sides: $E$ (entgegen).
 ### Mechanism
 
 Addition polymers form from alkene monomers via free-radical addition. The double bond opens and
-Monomers link together in a chain.
+monomers link together in a chain.
 
 **Initiation**: A peroxide or other radical initiator generates free radicals.
 
@@ -240,6 +260,8 @@ $$
 
 ### Common Addition Polymers
 
+<div class="table-wrap">
+
 | Monomer                       | Polymer          | Uses                                      |
 | ----------------------------- | ---------------- | ----------------------------------------- |
 | Ethene                        | Polyethene (PE)  | Bags, bottles, film                       |
@@ -248,10 +270,12 @@ $$
 | Phenylethene (styrene)        | Polystyrene (PS) | Packaging, insulation, CD cases           |
 | Tetrafluoroethene             | PTFE (Teflon)    | Non-stick coatings, electrical insulation |
 
+</div>
+
 ### Biodegradability
 
 Most addition polymers are non-biodegradable because the strong C--C backbone resists chemical and
-Biological breakdown. Disposal by landfill or incineration creates environmental problems.
+biological breakdown. Disposal by landfill or incineration creates environmental problems.
 
 ### Common Pitfalls
 
@@ -326,6 +350,8 @@ Strength. Used in body armour, tyres, and aerospace.
 
 ### Comparison of Polymer Types
 
+<div class="table-wrap">
+
 | Property         | Addition polymer            | Condensation polymer                       |
 | ---------------- | --------------------------- | ------------------------------------------ |
 | Monomers         | Alkenes                     | Diols + diacids / diamines + diacids       |
@@ -333,6 +359,8 @@ Strength. Used in body armour, tyres, and aerospace.
 | Biodegradability | Generally non-biodegradable | Some are biodegradable                     |
 | Bond type        | C--C backbone               | Contains ester or amide bonds              |
 | Examples         | PE, PP, PVC, PTFE           | PET, Nylon, Kevlar                         |
+
+</div>
 
 ---
 
@@ -367,6 +395,8 @@ $$
 
 ### Degree of Unsaturation Examples
 
+<div class="table-wrap">
+
 | Molecular formula             | DBE | Possible features                          |
 | ----------------------------- | --- | ------------------------------------------ |
 | $\mathrm{C}_4\mathrm{H}_{10}$ | $0$ | No double bonds, no rings (alkane)         |
@@ -374,7 +404,11 @@ $$
 | $\mathrm{C}_4\mathrm{H}_6$    | $2$ | Two double bonds, one triple, or two rings |
 | $\mathrm{C}_6\mathrm{H}_6$    | $4$ | Benzene ring (three double bonds + ring)   |
 
+</div>
+
 ### Characteristic IR Absorptions (Recap)
+
+<div class="table-wrap">
 
 | Bond           | Range ($\mathrm{cm}^{-1}$)  |
 | -------------- | --------------------------- |
@@ -387,7 +421,11 @@ $$
 | C=O            | $1700$--$1750$              |
 | C=C            | $1600$--$1680$              |
 
+</div>
+
 ### Key NMR Chemical Shifts (Recap)
+
+<div class="table-wrap">
 
 | Proton type     | $\delta$ (ppm) |
 | --------------- | -------------- |
@@ -397,6 +435,8 @@ $$
 | Aromatic        | $6.5$--$8.0$   |
 | Aldehyde        | $9.0$--$10.0$  |
 | Carboxylic acid | $10.0$--$12.0$ |
+
+</div>
 
 ### Common Pitfalls
 
@@ -470,7 +510,7 @@ Confirmed.
 <summary>Problem 3</summary>
 
 Draw the repeating unit of the polyester formed from propane-1,3-diol and butanedioic acid. Write
-The equation for its formation.
+the equation for its formation.
 
 **Solution:**
 
@@ -486,7 +526,7 @@ Repeating unit: $-\mathrm{OCH_2CH_2CH_2OOCCH_2CH_2CO}-$
 <summary>Problem 4</summary>
 
 A compound $\mathrm{C}_5\mathrm{H}_{10}\mathrm{O}$ shows the following spectra. IR: strong peak at
-$1700\mathrm{ cm}^{-1}$No broad O--H. $\mathrm{^1H}$ NMR: $\delta\ 1.0\ (t,\ 3\mathrm{H})$
+$1700\mathrm{ cm}^{-1}$ No broad O--H. $\mathrm{^1H}$ NMR: $\delta\ 1.0\ (t,\ 3\mathrm{H})$
 $\delta\ 1.6\ (m,\ 2\mathrm{H})$, $\delta\ 2.1\ (s,\ 3\mathrm{H})$ $\delta\ 2.3\ (t,\ 2\mathrm{H})$.
 Identify the compound.
 
@@ -519,7 +559,7 @@ Total protons: $3 + 2 + 3 + 2 = 10 = \mathrm{C}_5\mathrm{H}_{10}\mathrm{O}$. Con
 **Worked Example: Predicting the major organic product of a substitution reaction**
 
 Predict the major product when $(CH_3)_3CBr$ is heated with $\mathrm{KOH}$ in ethanol. State the
-Mechanism, draw the transition state or intermediate, and explain the regiochemistry.
+mechanism, draw the transition state or intermediate, and explain the regiochemistry.
 
 <details>
 <summary>Solution</summary>
@@ -537,15 +577,19 @@ SN1 is also possible but elevated temperature shifts the product distribution to
 The base abstracts a proton from a $\beta$-carbon while the leaving group departs. By Zaitsev's
 Rule, the more substituted (more stable) alkene is the major product:
 
-$$\mathrm{(CH_3)_3CBr + KOH \to (CH_3)_2C=CH_2 + KBr + H_2O}$$
+$$
+\mathrm{(CH_3)_3CBr + KOH \to (CH_3)_2C=CH_2 + KBr + H_2O}
+$$
 
 This is the **Hofmann product** (less substituted). The Zaitsev product would require removing a
-Proton from a methyl group:
+proton from a methyl group:
 
-$$\mathrm{(CH_3)_3CBr + KOH \to CH_3CH=C(CH_3)_2 + KBr + H_2O}$$
+$$
+\mathrm{(CH_3)_3CBr + KOH \to CH_3CH=C(CH_3)_2 + KBr + H_2O}
+$$
 
-Actually, for $(CH_3)_3CBr$There are no $\beta$-hydrogens on the carbon bearing two methyl groups
-That are distinct from the terminal methyl groups. The only elimination products are
+Actually, for $(CH_3)_3CBr$ There are no $\beta$-hydrogens on the carbon bearing two methyl groups
+that are distinct from the terminal methyl groups. The only elimination products are
 $(CH_3)_2C=CH_2$ (the only possible alkene). Since there is only one type of $\beta$-hydrogen,
 Zaitsev's rule does not apply here --- there is only one elimination product.
 
@@ -599,7 +643,7 @@ Configuration would be R. Always orient H away before assigning.
 **Worked Example: Drawing the repeating unit of a condensation polymer**
 
 Draw the repeating unit of the polyester formed from propane-1,3-diol and butanedioic acid. Write
-The balanced equation for its formation and identify the by-product.
+the balanced equation for its formation and identify the by-product.
 
 <details>
 <summary>Solution</summary>
@@ -612,7 +656,9 @@ Butanedioic acid (succinic acid): $\mathrm{HOOCCH_2CH_2COOH}$
 
 **Step 2: Write the condensation equation.**
 
-$$n\mathrm{HOCH_2CH_2CH_2OH} + n\mathrm{HOOCCH_2CH_2COOH} \to \left[-\mathrm{OCH_2CH_2CH_2OOCCH_2CH_2CO}-\right]_n + 2n\mathrm{H_2O}$$
+$$
+n\mathrm{HOCH_2CH_2CH_2OH} + n\mathrm{HOOCCH_2CH_2COOH} \to \left[-\mathrm{OCH_2CH_2CH_2OOCCH_2CH_2CO}-\right]_n + 2n\mathrm{H_2O}
+$$
 
 **Step 3: Identify the repeating unit.**
 
@@ -629,14 +675,18 @@ $\mathrm{C}_7\mathrm{H}_{14}\mathrm{O}_6$
 Wait --- let me recount. Each repeat consumes one diol ($\mathrm{C}_3\mathrm{H}_8\mathrm{O}_2$) And
 one diacid ($\mathrm{C}_4\mathrm{H}_6\mathrm{O}_4$):
 
-$$\mathrm{C}_3\mathrm{H}_8\mathrm{O}_2 + \mathrm{C}_4\mathrm{H}_6\mathrm{O}_4 \to \mathrm{C}_7\mathrm{H}_{12}\mathrm{O}_4 \mathrm{(repeating unit)} + 2\mathrm{H_2O}$$
+$$
+\mathrm{C}_3\mathrm{H}_8\mathrm{O}_2 + \mathrm{C}_4\mathrm{H}_6\mathrm{O}_4 \to \mathrm{C}_7\mathrm{H}_{12}\mathrm{O}_4 \mathrm{(repeating unit)} + 2\mathrm{H_2O}
+$$
 
 Check atoms: LHS = $\mathrm{C}_7\mathrm{H}_{14}\mathrm{O}_6$. RHS =
 $\mathrm{C}_7\mathrm{H}_{12}\mathrm{O}_4 + \mathrm{H_4}\mathrm{O}_2 = \mathrm{C}_7\mathrm{H}_{16}\mathrm{O}_6$.
 
 That does not balance. The correct stoichiometry is:
 
-$$\mathrm{C}_3\mathrm{H}_8\mathrm{O}_2 + \mathrm{C}_4\mathrm{H}_6\mathrm{O}_4 \to \mathrm{C}_7\mathrm{H}_{10}\mathrm{O}_4 + 2\mathrm{H_2O}$$
+$$
+\mathrm{C}_3\mathrm{H}_8\mathrm{O}_2 + \mathrm{C}_4\mathrm{H}_6\mathrm{O}_4 \to \mathrm{C}_7\mathrm{H}_{10}\mathrm{O}_4 + 2\mathrm{H_2O}
+$$
 
 Check: LHS = $\mathrm{C}_7\mathrm{H}_{14}\mathrm{O}_6$. RHS =
 $\mathrm{C}_7\mathrm{H}_{10}\mathrm{O}_4 + \mathrm{H_4}\mathrm{O}_2 = \mathrm{C}_7\mathrm{H}_{14}\mathrm{O}_6$.
@@ -659,14 +709,16 @@ Identify the compound.
 
 **Step 1: Calculate the degree of unsaturation.**
 
-$$\mathrm{DBE} = 8 + 1 - \frac{8}{2} = 5$$
+$$
+\mathrm{DBE} = 8 + 1 - \frac{8}{2} = 5
+$$
 
 DBE = 5 is consistent with a benzene ring (DBE = 4) plus one additional unsaturation (likely C=O).
 
 **Step 2: Analyse IR data.**
 
 - $3060\mathrm{ cm}^{-1}$: aromatic C--H stretch (above $3000\mathrm{ cm}^{-1}$ confirms sp2 C--H).
-- $1690\mathrm{ cm}^{-1}$: C=O stretch (slightly below $1700$Suggesting conjugation with the
+- $1690\mathrm{ cm}^{-1}$: C=O stretch (slightly below $1700$ Suggesting conjugation with the
   aromatic ring).
 - $1600$, $1580\mathrm{ cm}^{-1}$: aromatic C=C stretches.
 - $750\mathrm{ cm}^{-1}$: mono-substituted benzene (ortho-disubstituted shows near
@@ -718,7 +770,9 @@ $\mathrm{H}_2\mathrm{O}$ at $25\degree\mathrm{C}$:
 
 Mechanism: **SN2** (primary substrates do not form stable carbocations, so SN1/E1 are not possible).
 
-$$\mathrm{CH_3CH_2Br + OH^- \to CH_3CH_2OH + Br^-}$$
+$$
+\mathrm{CH_3CH_2Br + OH^- \to CH_3CH_2OH + Br^-}
+$$
 
 Product: ethanol ($\mathrm{CH_3CH_2OH}$). Stereochemistry: Walden inversion at carbon.
 
@@ -739,7 +793,7 @@ Product: 2-methylpropan-2-ol (tert-butanol). Minor E1 product: 2-methylpropene.
 **(c) $\mathrm{CH_3CHBrCH_3}$ (secondary substrate):**
 
 Mechanism: **competition between SN1 and SN2**. Secondary substrates can proceed via either pathway
-Depending on exact conditions. With $\mathrm{NaOH}$ in water at $25\degree\mathrm{C}$Both SN2 and
+Depending on exact conditions. With $\mathrm{NaOH}$ in water at $25\degree\mathrm{C}$ Both SN2 and
 SN1 are possible, but SN2 is slightly favoured because $\mathrm{OH}^-$ is a strong nucleophile.
 
 Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: propene.
@@ -871,16 +925,6 @@ Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: pro
 - **Stoichiometry of polymer reactions** → Review
   [../../../../../../qualifications/src/content/docs/gcse/chemistry/8-organic-chemistry/8_organic-chemistry.md](https://gcse.wyattau.com/chemistry/8-organic-chemistry/8_organic-chemistry/)
 
-```mermaid
-flowchart TD
-    A[2_Organic Chemistry Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential chemistry of organic chemistry (advanced), including key reactions,
@@ -899,8 +943,12 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                        | Site | Link                                                                                               |
 | ---------------------------- | ---- | -------------------------------------------------------------------------------------------------- |
-| [Advanced Organic Chemistry] | IB   | [View](https://ib.wyattau.com/docs/ib/chemistry/10-organic-chemistry/2_organic-chemistry-advanced) |
-| [Advanced Organic Chemistry] | DSE  | [View](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry/2_carbon-chemistry)          |
+| [Advanced Organic Chemistry] | IB   | [View](https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced/) |
+| [Advanced Organic Chemistry] | DSE  | [View](https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry/)          |
+
+</div>
 :::

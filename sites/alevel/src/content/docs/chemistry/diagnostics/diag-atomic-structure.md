@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Atomic Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Atomic structure is like a solar system, electrons orbit the nucleus, but with quantum rules instead of gravity.**
@@ -38,10 +27,10 @@ flowchart TD
 
 **Question:**
 
-(a) Write the full electron configuration of $\text{Cr}^{3+}$ and $\text{Cu}^+$Explaining any
+(a) Write the full electron configuration of $\text{Cr}^{3+}$ and $\text{Cu}^+$ Explaining any
 deviation from the expected $4s$-before-$3d$ filling order.
 
-(b) The third ionisation energy of chromium is $2987\,\text{kJ mol}^{-1}$While the fourth ionisation
+(b) The third ionisation energy of chromium is $2987\,\text{kJ mol}^{-1}$ While the fourth ionisation
 energy is $4743\,\text{kJ mol}^{-1}$. Explain why this jump occurs and identify which electron is
 being removed at the fourth ionisation.
 
@@ -54,7 +43,9 @@ distribution.
 
 $\text{Cr}^{3+}$: Remove the $4s^1$ electron first, then two $3d$ electrons:
 
-$$\text{Cr}^{3+}: 1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^3$$
+$$
+\text{Cr}^{3+}: 1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^3
+$$
 
 $\text{Cu}$ has atomic number 29. Its ground state configuration is
 $1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^{10}\,4s^1$ (not $3d^9\,4s^2$). A fully-filled $3d$ subshell
@@ -62,7 +53,9 @@ provides extra stability.
 
 $\text{Cu}^+$: Remove the $4s^1$ electron:
 
-$$\text{Cu}^+: 1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^{10}$$
+$$
+\text{Cu}^+: 1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^{10}
+$$
 
 **Key point:** When forming cations, $4s$ electrons are removed before $3d$ electrons, despite $4s$
 filling before $3d$. This is because once the $3d$ subshell is occupied, the $3d$ orbital energy
@@ -92,9 +85,13 @@ from a lower-energy subshell with significantly higher nuclear attraction.
 
 The first eight successive ionisation energies of an element $X$ are shown below:
 
+<div class="table-wrap">
+
 | Ionisation                | 1st | 2nd  | 3rd  | 4th  | 5th   | 6th   | 7th   | 8th   |
 | ------------------------- | --- | ---- | ---- | ---- | ----- | ----- | ----- | ----- |
 | $IE / \text{kJ mol}^{-1}$ | 789 | 1577 | 3232 | 4356 | 16092 | 17980 | 26722 | 31730 |
+
+</div>
 
 (a) Identify the group of element $X$ in the periodic table, explaining your reasoning.
 
@@ -178,7 +175,7 @@ nuclear charge of Al.
 
 (c) P has the configuration $[\text{Ne}]\,3s^2\,3p^3$ (half-filled $3p$ subshell). A half-filled
 subshell has extra stability due to exchange energy (parallel spins in each $p$ orbital minimise
-electron-electron repulsion). S has $[\text{Ne}]\,3s^2\,3p^4$Where the fourth $3p$ electron must
+electron-electron repulsion). S has $[\text{Ne}]\,3s^2\,3p^4$ Where the fourth $3p$ electron must
 pair with an electron in an already-occupied orbital. The pairing introduces additional
 electron-electron repulsion, making this electron slightly easier to remove despite the higher
 nuclear charge.
@@ -198,9 +195,13 @@ half-filled subshell means P $\gt$ Si.
 
 Element $Y$ has the following first five ionisation energies:
 
+<div class="table-wrap">
+
 | Ionisation                | 1st | 2nd  | 3rd  | 4th   | 5th   |
 | ------------------------- | --- | ---- | ---- | ----- | ----- |
 | $IE / \text{kJ mol}^{-1}$ | 577 | 1816 | 2745 | 11577 | 14842 |
+
+</div>
 
 (a) Identify element $Y$ and explain your reasoning.
 
@@ -248,7 +249,7 @@ overcome these strong forces and break the lattice, hence the high melting point
 An electron in a hydrogen atom is excited from the $n = 1$ ground state to the $n = 4$ energy level,
 then relaxes back to the ground state.
 
-(a) Calculate the energy, in $\text{kJ mol}^{-1}$Of a photon emitted when the electron transitions
+(a) Calculate the energy, in $\text{kJ mol}^{-1}$ Of a photon emitted when the electron transitions
 directly from $n = 4$ to $n = 2$. Use $E_n = -1312/n^2\,\text{kJ mol}^{-1}$.
 
 (b) Calculate the wavelength of this photon in nm. Use
@@ -263,26 +264,34 @@ the transition from $n = 4$ to $n = 1$ produces a photon in a different region.
 
 Energy at $n = 2$: $E_2 = -1312/4 = -328.0\,\text{kJ mol}^{-1}$
 
-$$\Delta E = E_2 - E_4 = -328.0 - (-82.0) = -246.0\,\text{kJ mol}^{-1}$$
+$$
+\Delta E = E_2 - E_4 = -328.0 - (-82.0) = -246.0\,\text{kJ mol}^{-1}
+$$
 
 The negative sign indicates energy is released. The photon energy is $246.0\,\text{kJ mol}^{-1}$.
 
 (b) Converting to energy per photon:
 
-$$E_{\text{photon}} = \frac{246.0 \times 10^3}{6.02 \times 10^{23}} = 4.086 \times 10^{-19}\,\text{J}$$
+$$
+E_{\text{photon}} = \frac{246.0 \times 10^3}{6.02 \times 10^{23}} = 4.086 \times 10^{-19}\,\text{J}
+$$
 
-$$\lambda = \frac{hc}{E} = \frac{6.63 \times 10^{-34} \times 3.00 \times 10^8}{4.086 \times 10^{-19}} = \frac{1.989 \times 10^{-25}}{4.086 \times 10^{-19}} = 4.868 \times 10^{-7}\,\text{m} = 486.8\,\text{nm}$$
+$$
+\lambda = \frac{hc}{E} = \frac{6.63 \times 10^{-34} \times 3.00 \times 10^8}{4.086 \times 10^{-19}} = \frac{1.989 \times 10^{-25}}{4.086 \times 10^{-19}} = 4.868 \times 10^{-7}\,\text{m} = 486.8\,\text{nm}
+$$
 
 (c) $486.8\,\text{nm}$ lies in the **visible region** of the electromagnetic spectrum (specifically,
 blue-green light). This is part of the Balmer series.
 
 The transition from $n = 4$ to $n = 1$ involves a much larger energy change:
 
-$$\Delta E = E_1 - E_4 = -1312 - (-82.0) = -1230\,\text{kJ mol}^{-1}$$
+$$
+\Delta E = E_1 - E_4 = -1312 - (-82.0) = -1230\,\text{kJ mol}^{-1}
+$$
 
 This corresponds to a much shorter wavelength ($\approx 97\,\text{nm}$), placing it in the
 **ultraviolet region** (Lyman series). The energy difference between $n = 1$ and $n = 4$ is much
-larger than between $n = 2$ and $n = 4$Because the energy levels converge (get closer together) as
+larger than between $n = 2$ and $n = 4$ Because the energy levels converge (get closer together) as
 $n$ increases.
 
 ---
@@ -306,7 +315,7 @@ Consider the elements Na, Mg, Al, Si, P, S, Cl, and Ar.
 Explain the trend, identifying which element(s) are conductors, semiconductors, and insulators.
 
 (b) The melting points of Na ($98\,^\circ\text{C}$), Mg ($650\,^\circ\text{C}$), Al
-($660\,^\circ\text{C}$), Si ($1414\,^\circ\text{C}$), P ($44\,^\circ\text{C}$White), S
+($660\,^\circ\text{C}$), Si ($1414\,^\circ\text{C}$), P ($44\,^\circ\text{C}$ White), S
 ($115\,^\circ\text{C}$), Cl ($-101\,^\circ\text{C}$), and Ar ($-189\,^\circ\text{C}$) show a complex
 pattern. Explain this pattern in terms of bonding and structure, accounting for why Si has the
 highest melting point.
@@ -361,7 +370,7 @@ because the extra electrons can move freely through the lattice.
 
 #### UT-4: Ionisation Energy Calculation
 
-**Question:** The first three ionisation energies of aluminium are $578$, $1817$And
+**Question:** The first three ionisation energies of aluminium are $578$, $1817$ And
 $2745\,\mathrm{kJ\,mol^{-1}}$. Explain why the second ionisation energy is so much larger than the
 first, and why the third is larger still but the jump from second to third is smaller than from
 first to second.
@@ -392,9 +401,13 @@ relative atomic mass of boron is $10.81$. Calculate the percentage abundance of 
 
 Let $x$ be the fraction of $\mathrm{^{10}B}$ and $(1-x)$ be the fraction of $\mathrm{^{11}B}$.
 
-$$10.81 = 10.00x + 11.00(1-x) = 10.00x + 11.00 - 11.00x = 11.00 - x$$
+$$
+10.81 = 10.00x + 11.00(1-x) = 10.00x + 11.00 - 11.00x = 11.00 - x
+$$
 
-$$x = 11.00 - 10.81 = 0.19$$
+$$
+x = 11.00 - 10.81 = 0.19
+$$
 
 $\mathrm{^{10}B}$: $19.0\%$, $\mathrm{^{11}B}$: $81.0\%$
 
@@ -410,7 +423,7 @@ Nitrogen has the electron configuration $1s^2\,2s^2\,2p^3$ with one electron in 
 $2p$ orbitals (Hund's rule). Each electron in a separate orbital experiences minimal
 electron-electron repulsion within the subshell (1 mark).
 
-Oxygen has the configuration $1s^2\,2s^2\,2p^4$Meaning one of the $2p$ orbitals must contain a pair
+Oxygen has the configuration $1s^2\,2s^2\,2p^4$ Meaning one of the $2p$ orbitals must contain a pair
 of electrons. The paired electrons in the same orbital repel each other, making it easier to remove
 one of them compared to removing an unpaired electron from nitrogen (1 mark).
 

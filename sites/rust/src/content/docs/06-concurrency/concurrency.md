@@ -59,7 +59,7 @@ handle.join().unwrap();
 // s is no longer valid here, it was moved
 ```
 
-Without `move`The closure would attempt to borrow `s`But the borrow checker cannot guarantee That
+Without `move`. The closure would attempt to borrow `s`. But the borrow checker cannot guarantee That
 the spawned thread will not outlive `s` (the thread might run after `s` is dropped).
 
 ### Thread Return Values
@@ -112,7 +112,7 @@ assert_eq!(results, vec![3, 7, 5]);
 
 The key guarantee: all threads spawned within `scope` are joined before `scope` returns. This means
 Borrowed data is guaranteed to be valid for the lifetime of the scoped threads, eliminating the need
-For `'static` bounds.
+for `'static` bounds.
 
 :::note
 From the parent scope. They are safer (no `'static` requirement) and more ergonomic.
@@ -185,12 +185,16 @@ tx.send(1).unwrap();  // OK, buffer not full
 
 ### `send` and `recv` Semantics
 
+<div class="table-wrap">
+
 | Method                 | Behavior                                                         |
 | ---------------------- | ---------------------------------------------------------------- |
 | `tx.send(val)`         | Blocks if bounded channel is full. Moves `val` into the channel. |
 | `rx.recv()`            | Blocks until a message is available or all senders are dropped.  |
 | `rx.try_recv()`        | Non-blocking. Returns `Ok(val)` or `Err(TryRecvError)`.          |
 | `rx.recv_timeout(dur)` | Blocks with timeout. Returns `Err(RecvTimeoutError)` on timeout. |
+
+</div>
 
 ## Shared State
 
@@ -240,7 +244,7 @@ match lock {
 ```
 
 Use `lock().unwrap()` when you are confident panics inside the critical section are impossible, or
-When a panic means the entire process should terminate.
+when a panic means the entire process should terminate.
 
 ### `RwLock<T>`
 
@@ -268,11 +272,15 @@ let lock = RwLock::new(5);
 
 #### When to Use `RwLock` vs `Mutex`
 
+<div class="table-wrap">
+
 | Condition                       | Use                                               |
 | ------------------------------- | ------------------------------------------------- |
 | Mostly writes, low contention   | `Mutex`simpler, lower overhead                 |
 | Mostly reads, occasional writes | `RwLock`allows concurrent reads                |
 | Very high contention            | Reconsider your design, locks are the bottleneck |
+
+</div>
 
 ### `Arc<T>`Atomic Reference Counting
 
@@ -335,6 +343,8 @@ loop {
 
 ### Memory Orderings
 
+<div class="table-wrap">
+
 | Ordering  | Guarantee                                                              |
 | --------- | ---------------------------------------------------------------------- |
 | `Relaxed` | No ordering, only atomicity guaranteed                                |
@@ -342,6 +352,8 @@ loop {
 | `Acquire` | All subsequent reads see writes from the last release on this location |
 | `AcqRel`  | Both acquire and release semantics                                     |
 | `SeqCst`  | Sequentially consistent, total ordering across all threads            |
+
+</div>
 
 ```rust
 use std::sync::atomic::{AtomicBool, Ordering};
@@ -371,12 +383,16 @@ Option.
 
 ### Available Atomic Types
 
+<div class="table-wrap">
+
 | Type                                | Operations                                                                          |
 | ----------------------------------- | ----------------------------------------------------------------------------------- |
 | `AtomicBool`                        | `load``store``swap``compare_exchange``fetch_and``fetch_or``fetch_xor`               |
 | `AtomicU8`–`AtomicU64``AtomicUsize` | All integer atomics: `fetch_add``fetch_sub``fetch_max``fetch_min``compare_exchange` |
 | `AtomicI8`–`AtomicI64``AtomicIsize` | Same as unsigned, with signed comparison                                            |
 | `AtomicPtr<T>`                      | Pointer-sized atomic operations                                                     |
+
+</div>
 
 ## Deadlock Prevention
 
@@ -446,7 +462,7 @@ fn process(data: &Mutex<Vec<i32>>) {
 
 OS threads are expensive: each thread uses 8 MB of stack (default on Linux), context switches cost
 1,000–10,000 nanoseconds, and creating threads has significant overhead. For I/O-bound workloads
-With thousands of concurrent tasks (web servers, database connections), threads do not scale
+with thousands of concurrent tasks (web servers, database connections), threads do not scale
 Efficiently.
 
 Async/await provides lightweight concurrency, thousands of tasks on a handful of OS threads.
@@ -466,7 +482,7 @@ pub enum Poll<T> {
 ```
 
 A `Future` represents an asynchronous computation. `poll` is called by the executor to check whether
-The computation has completed (`Ready`) or needs more time (`Pending`). When `Pending` is returned,
+the computation has completed (`Ready`) or needs more time (`Pending`). When `Pending` is returned,
 The future registers the current `Waker` with the reactor, which will wake the future when the I/O
 Operation completes.
 
@@ -511,7 +527,7 @@ Time →
 
 `Pin` is a wrapper that prevents the wrapped pointer from being moved. This is necessary because
 Async futures contain self-referential data (pointers from the state machine to local variables on
-The stack). If the future were moved, these pointers would become invalid.
+the stack). If the future were moved, these pointers would become invalid.
 
 ```rust
 use std::pin::Pin;
@@ -530,7 +546,7 @@ Most types are `Unpin`they can be safely moved even when pinned. Types that are 
 ### `Send` and `Sync` Bounds for Futures
 
 A future must be `Send` to be spawned on an async runtime (like tokio). If a future captures a
-Non-`Send` type (like `Rc` or `&RefCell`), it cannot be spawned:
+non-`Send` type (like `Rc` or `&RefCell`), it cannot be spawned:
 
 ```rust
 use std::rc::Rc;
@@ -674,7 +690,7 @@ Coming from JavaScript's `Promise.race`.
 ### Data Races vs Race Conditions
 
 A **data race** is undefined behavior, two threads access the same memory location concurrently, at
-Least one of them writes, and there is no synchronization. Rust's type system prevents data races at
+least one of them writes, and there is no synchronization. Rust's type system prevents data races at
 Compile time (in safe code).
 
 A **race condition** is a logical error where the outcome depends on the timing of concurrent
@@ -793,7 +809,7 @@ data.par_iter().enumerate().for_each(|(i, &x)| {
 ```
 
 Rayon uses a work-stealing scheduler: each thread has a local deque of tasks. When a thread finishes
-Its work, it steals tasks from other threads' deques. This provides automatic load balancing without
+its work, it steals tasks from other threads' deques. This provides automatic load balancing without
 Central coordination.
 
 ### Async Mutex (tokio)
@@ -837,6 +853,8 @@ The compiler automatically implements `Send` and `Sync` based on the composition
 - A type is `Send` if all its members are `Send`.
 - A type is `Sync` if all its members are `Sync` (equivalently, if `&T` is `Send`).
 
+<div class="table-wrap">
+
 | Type                                    | `Send` | `Sync`                |
 | --------------------------------------- | ------ | --------------------- |
 | `i32``f64``bool`                        | Yes    | Yes                   |
@@ -847,6 +865,8 @@ The compiler automatically implements `Send` and `Sync` based on the composition
 | `&T` where `T: Sync`                    | Yes    | Yes                   |
 | `&mut T` where `T: Send`                | Yes    | No                    |
 | `Mutex<T>` where `T: Send`              | Yes    | Yes                   |
+
+</div>
 
 ### Manual Implementation
 
@@ -862,15 +882,15 @@ unsafe impl Sync for MyType {}
 
 :::danger
 Automatic analysis is wrong and that your type is actually safe to send/share across threads. If
-Your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove
+your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove
 Thread safety (e.g., when using platform-specific synchronization primitives that the compiler
-Cannot see).
+cannot see).
 
 ## Common Pitfalls
 
-1. **Blocking the async executor.** Calling `std::thread::sleep``std::fs::read_to_string`Or any
+1. **Blocking the async executor.** Calling `std::thread::sleep`, `std::fs::read_to_string` or any
    blocking operation inside an async task blocks the entire OS thread. All other tasks on that
-   thread are stalled. Use `tokio::time::sleep``tokio::fs`Or `spawn_blocking`.
+   thread are stalled. Use `tokio::time::sleep`, `tokio::fs` or `spawn_blocking`.
 
 2. **Holding a `std::sync::Mutex` across `.await`.** This blocks the thread even while the future is
    suspended. Either use `tokio::sync::Mutex` or restructure the code to drop the lock before
@@ -900,7 +920,7 @@ Cannot see).
    Ignoring this error silently swallows panics, which may indicate serious bugs. Always check join
    results or use a supervision mechanism.
 
-9. **Using `Rc` in async code.** `Rc` is not `Send`So any future capturing an `Rc` cannot be spawned
+9. **Using `Rc` in async code.** `Rc` is not `Send`. So any future capturing an `Rc` cannot be spawned
    on tokio. Use `Arc` instead. This is one of the most common async Rust compilation errors.
 
 10. **`select!` dropping futures.** When `select!` completes, all non-selected branches are dropped.
@@ -942,9 +962,6 @@ implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

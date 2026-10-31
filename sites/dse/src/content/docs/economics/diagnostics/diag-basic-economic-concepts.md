@@ -39,10 +39,10 @@ $= 30 \times 2 = 60$ consumer goods. New consumer goods output $= 120 - 60 = 60$
 
 However, in reality the PPC is concave because resources are not perfectly adaptable. As the economy
 Shifts from producing consumer goods to capital goods, it must reassign resources that are
-Increasingly less suited to capital goods production. For example, farmland that is excellent for
-Growing food may be poor for building factories. This means the opportunity cost increases as more
-Capital goods are produced -- the law of increasing opportunity cost. Each additional unit of
-Capital goods requires giving up an increasingly larger amount of consumer goods.
+increasingly less suited to capital goods production. For example, farmland that is excellent for
+growing food may be poor for building factories. This means the opportunity cost increases as more
+capital goods are produced -- the law of increasing opportunity cost. Each additional unit of
+capital goods requires giving up an increasingly larger amount of consumer goods.
 
 ### UT-2: Economic Systems Comparison
 
@@ -72,23 +72,23 @@ quality improvement; chronic shortages and surpluses.
 **Mixed Economy:** (a) Both the market and the government play roles. The market handles most
 Allocation decisions, while the government intervenes to correct market failures, redistribute
 Income, and provide public goods. (b) Prices are primarily determined by supply and demand, but the
-Government may set price controls, taxes, and subsidies. (c) Advantage: Combines market efficiency
-With government correction of failures; can achieve both growth and equity. Disadvantage: Government
+government may set price controls, taxes, and subsidies. (c) Advantage: Combines market efficiency
+with government correction of failures; can achieve both growth and equity. Disadvantage: Government
 Intervention may itself cause inefficiency (e.g., regulatory capture, crowding out).
 
 Hong Kong is a mixed economy with a strong free-market tradition. The government follows a "positive
-Non-interventionist" policy -- most prices are market-determined, and there is no sales tax or
-Capital gains tax. However, the government provides public housing (housing nearly half the
-Population), public healthcare, and subsidised education. The government also regulates monopolies
+non-interventionist" policy -- most prices are market-determined, and there is no sales tax or
+capital gains tax. However, the government provides public housing (housing nearly half the
+population), public healthcare, and subsidised education. The government also regulates monopolies
 (e.g., through the Competition Ordinance) and provides infrastructure.
 
 ### UT-3: Division of Labour and Specialisation
 
 **Question:** A factory produces 1000 units of a product per day when workers perform all stages of
 Production themselves. After introducing division of labour, the factory produces 3000 units per day
-With the same number of workers. (a) Calculate the percentage increase in output. (b) Explain three
-Reasons why division of labour increases productivity. (c) Identify two limitations of division of
-Labour.
+with the same number of workers. (a) Calculate the percentage increase in output. (b) Explain three
+reasons why division of labour increases productivity. (c) Identify two limitations of division of
+labour.
 
 **Solution:**
 
@@ -127,14 +127,14 @@ Labour.
 
 **Question:** An economy produces two goods: rice ($R$) and textiles ($T$). Its PPC is given by
 $R = 100 - 0.5T^2$ for $0 \le T \le \sqrt{200}$. The domestic demand for rice is $P_R = 50 - 0.1Q_R$
-And for textiles is $P_T = 80 - 0.2Q_T$. If the economy is producing at a point where $T = 10$: (a)
-Calculate the maximum rice output at this point, (b) calculate the marginal rate of transformation
+and for textiles is $P_T = 80 - 0.2Q_T$. If the economy is producing at a point where $T = 10$: (a)
+calculate the maximum rice output at this point, (b) calculate the marginal rate of transformation
 (MRT) of textiles into rice, (c) explain what the MRT represents in terms of opportunity cost.
 
 **Solution:**
 
 (a) At $T = 10$: $R = 100 - 0.5(10)^2 = 100 - 50 = 50$. So the economy can produce 50 units of rice
-And 10 units of textiles.
+and 10 units of textiles.
 
 (b) The MRT is the absolute value of the slope of the PPC:
 $MRT = \left|\frac{\text{dR}}{    ext{dT}}\right| = |-T| = T$. At $T = 10$: $MRT = 10$. This means 1
@@ -142,8 +142,8 @@ Additional unit of textiles costs 10 units of rice in opportunity cost.
 
 (c) The MRT represents the opportunity cost of producing one more unit of textiles in terms of rice
 Forgone. It is equal to the ratio of marginal costs: $MRT = \frac{\text{MC_T}}{    ext{MC_R}}$. As more
-Textiles are produced, the MRT increases (increasing opportunity cost), reflecting the concave shape
-Of the PPC. For allocative efficiency, the MRT should equal the ratio of marginal benefits (prices):
+textiles are produced, the MRT increases (increasing opportunity cost), reflecting the concave shape
+of the PPC. For allocative efficiency, the MRT should equal the ratio of marginal benefits (prices):
 $MRT = \frac{\text{P_T}}{    ext{P_R}}$. If MRT $\gt$ price ratio, the economy should produce more rice;
 If MRT $\lt$ price ratio, it should produce more textiles.
 
@@ -179,10 +179,10 @@ A per-unit subsidy of $\$50,000$ would shift the effective demand curve, achievi
 
 (c) In a free market, consumers only consider their private benefit (individual health improvement)
 And private cost (medical bills). They do not account for the positive externalities their
-Consumption creates for others (e.g., reduced disease transmission, a more productive workforce,
+consumption creates for others (e.g., reduced disease transmission, a more productive workforce,
 Lower public health spending). Because the private benefit is less than the social benefit,
 Consumers demand less than is socially optimal. Given the fundamental problem of scarcity, this
-Means resources are underallocated to healthcare -- society could be made better off by shifting
+means resources are underallocated to healthcare -- society could be made better off by shifting
 Resources from other uses to healthcare. Government intervention (subsidies, public provision)
 Corrects this by internalising the externality.
 
@@ -190,9 +190,9 @@ Corrects this by internalising the externality.
 
 **Question:** Country X can produce 100 tonnes of wheat or 50 tonnes of cloth per day. Country Y can
 Produce 40 tonnes of wheat or 80 tonnes of cloth per day. (a) Calculate the opportunity cost of 1
-Tonne of wheat in each country. (b) Which country has a comparative advantage in wheat? In cloth?
+tonne of wheat in each country. (b) Which country has a comparative advantage in wheat? In cloth?
 (c) If they specialise and trade at an exchange rate of 1 wheat $=$ 1 cloth, show that both
-Countries can consume beyond their PPCs. (d) Explain how this relates to the concept of opportunity
+countries can consume beyond their PPCs. (d) Explain how this relates to the concept of opportunity
 Cost from basic economic concepts.
 
 **Solution:**
@@ -225,7 +225,7 @@ Wheat and 10 cloth). Both are better off.
 (d) Comparative advantage is fundamentally about opportunity cost -- the value of the next best
 Alternative forgone. A country should specialise in the good for which it has the lower opportunity
 Cost (the smaller sacrifice of the other good). This is a direct application of the concept of
-Opportunity cost from basic economic concepts: resources are scarce, so choosing to produce one good
+opportunity cost from basic economic concepts: resources are scarce, so choosing to produce one good
 Means giving up the opportunity to produce another. By specialising according to comparative
 Advantage and trading, countries can escape the constraint of their own PPCs, achieving consumption
 Possibilities that were previously unattainable.
@@ -238,7 +238,7 @@ Possibilities that were previously unattainable.
 $K = 200 - 2\sqrt{C}$ for $0 \le C \le 10\,000$. Currently, the economy produces at
 $C = 2500$, $K = 100$. (a) Verify that this point is on the PPC. (b) Calculate the opportunity cost of
 increasing consumer goods from 2500 to 3600. (c) If the economy invests in new technology, shifting
-the PPC to $K = 240 - 2\sqrt{C}$Can the economy now produce $C = 3600$ and $K = 120$ simultaneously?
+the PPC to $K = 240 - 2\sqrt{C}$ Can the economy now produce $C = 3600$ and $K = 120$ simultaneously?
 Show your working. (d) Explain the difference between a movement along the PPC and a shift of the
 PPC.
 
@@ -375,7 +375,7 @@ spending ratios among developed economies.
    Cathedral). By restricting or releasing land, the government profoundly influences the property
    market and economic activity without it appearing as expenditure.
 4. **Implicit guarantees:** The government's guarantee of bank deposits (up to HK$500,000), the
-   Exchange Fund's backing of the monetary base, and the implicit guarantee of MTR safety all
+   exchange Fund's backing of the monetary base, and the implicit guarantee of MTR safety all
    represent government intervention not captured in the expenditure ratio.
 
 (d) **Evaluation of "positive non-interventionism":**
@@ -444,7 +444,7 @@ costs less there, even accounting for transport and coordination costs.
 
 1. **Financial services:** Hong Kong is one of the world's top three financial centres (alongside
    New York and London). Sources of advantage: the rule of law (independent judiciary based on
-   English common law), free capital flows, the Linked Exchange Rate providing currency stability,
+   english common law), free capital flows, the Linked Exchange Rate providing currency stability,
    low taxation, and a deep pool of financial professionals. Hong Kong is the premier offshore
    Renminbi centre and the gateway for international capital entering and exiting China.
 
@@ -455,20 +455,9 @@ costs less there, even accounting for transport and coordination costs.
 
 3. **Professional services (legal, accounting, consulting):** Hong Kong has a concentration of
    internationally qualified professionals. Sources of advantage: the legal system is based on
-   English common law (recognised internationally for dispute resolution), a large number of
+   english common law (recognised internationally for dispute resolution), a large number of
    internationally qualified accountants (CPA, ACCA), and proximity to mainland Chinese firms
    seeking international expertise.
-
-
-```mermaid
-flowchart TD
-    A[Diag Basic Economic Concepts] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

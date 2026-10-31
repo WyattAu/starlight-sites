@@ -32,11 +32,15 @@ C++17 introduced **execution policies** as the first argument to many standard a
 Parallel and vectorized execution [N4950 §25.5]. The three standard policies are defined in
 `<execution>`:
 
+<div class="table-wrap">
+
 | Policy                      | Type                  | Behavior [N4950 §25.5.2]                                     |
 | --------------------------- | --------------------- | ------------------------------------------------------------ |
 | `std::execution::seq`       | Sequenced             | Sequential execution (default if no policy specified)        |
 | `std::execution::par`       | Parallel              | May execute in multiple threads                              |
 | `std::execution::par_unseq` | Parallel + Vectorized | May execute in multiple threads AND vectorize within threads |
+
+</div>
 
 #### Formal Semantics of Execution Policies
 
@@ -96,7 +100,7 @@ int main() {
 }
 ```
 
-### `std::sort``std::for_each`And `std::reduce` with Parallel Policies
+### `std::sort`, `std::for_each` and `std::reduce` with Parallel Policies
 
 Several standard algorithms accept execution policies [N4950 §25.7]:
 
@@ -172,7 +176,7 @@ int main() {
 ### Data Races in Parallel Algorithms
 
 :::caution
-Uses `std::execution::par`The user-provided function objects may be called concurrently from
+Uses `std::execution::par`. The user-provided function objects may be called concurrently from
 Multiple threads. The standard imposes specific requirements [N4950 §25.5.1]:
 
 1. The function object must not modify elements of the input range (unless the algorithm is
@@ -337,12 +341,12 @@ A_{r_k}]$ where each subrange is reduced
 Independently and the partial results are combined, the final result equals `accumulate`'s
 Left-to-right evaluation. This is possible for all partitionings only if `op` is associative
 (re-grouping does not change the result) and commutative (re-ordering within or across subranges
-Does not change the result).
+does not change the result).
 
 ($\Leftarrow$) If `op` is associative and commutative, then any binary tree of `op` applications
-Over the multiset $\{init, a_1, \ldots, a_n\}$ produces the same result. Since `reduce` may apply
+over the multiset $\{init, a_1, \ldots, a_n\}$ produces the same result. Since `reduce` may apply
 `op` in any tree structure and `accumulate` applies it in one specific left-associative tree, and
-Both operate on the same multiset, they must produce the same result. QED.
+both operate on the same multiset, they must produce the same result. QED.
 
 This proof shows why floating-point addition is problematic: IEEE 754 addition is neither
 Associative nor commutative (due to rounding), so `reduce` may produce a different bit Pattern than
@@ -392,12 +396,12 @@ int main() {
 
 The restriction on `par_unseq` is that the element access function must be **vectorization-safe**:
 It must not synchronize with other invocations (no mutexes, no atomics, no blocking calls). This is
-Because SIMD lanes within a single thread process multiple elements "simultaneously" --- a mutex
+because SIMD lanes within a single thread process multiple elements "simultaneously" --- a mutex
 Acquire in one lane would deadlock the others.
 
 ### Interaction with Standard Allocators
 
-Parallel algorithms that modify elements in-place (e.g., `std::sort``std::transform`) do not
+Parallel algorithms that modify elements in-place (e.g., `std::sort`, `std::transform`) do not
 Allocate through user-provided allocators. However, the internal thread management of the parallel
 Execution engine may allocate through the default allocator for thread-local storage or task
 Scheduling data structures [N4950 §25.5.1].
@@ -517,6 +521,8 @@ int main() {
 
 ### Comparison Table: Execution Policies
 
+<div class="table-wrap">
+
 | Property                 | `seq`              | `par`                    | `par_unseq`                 |
 | ------------------------ | ------------------ | ------------------------ | --------------------------- |
 | Threading                | Single             | Multiple                 | Multiple + SIMD             |
@@ -527,6 +533,8 @@ int main() {
 | Blocking calls           | Allowed            | Allowed                  | **Forbidden**               |
 | SIMD auto-vectorization  | Compiler-dependent | Implementation-dependent | Guaranteed permitted        |
 | Best for                 | Small data, debug  | Large data, CPU-bound    | Array math, no side effects |
+
+</div>
 
 ### Algorithmic Parallelism vs Task Parallelism
 
@@ -540,7 +548,7 @@ The key distinction:
   but not _how_ to parallelize. The standard library implementation chooses the partitioning
   strategy, grain size, and thread count. This is declarative and portable but gives less control.
 
-- **Task parallelism** (`std::thread``std::async`): The programmer explicitly defines parallel tasks
+- **Task parallelism** (`std::thread`, `std::async`): The programmer explicitly defines parallel tasks
   and their dependencies. This is imperative and gives full control over synchronization, load
   balancing, and resource usage, but is more error-prone.
 
@@ -602,7 +610,7 @@ int main() {
 
 ### Parallelism with Standard Allocators
 
-When a parallel algorithm modifies elements in-place (e.g., `std::sort``std::transform`), the
+When a parallel algorithm modifies elements in-place (e.g., `std::sort`, `std::transform`), the
 Element access function runs on multiple threads simultaneously. If the function constructs
 Temporary objects, those temporaries use the default allocator (`operator new`). The parallel
 Algorithm's internal thread pool management also uses the default allocator for thread-local
@@ -613,6 +621,8 @@ PMR allocator, but the algorithm's internal bookkeeping (task queues, thread con
 Default allocator. This separation is transparent to the user.
 
 ### Complete List of Parallel-Capable Algorithms [N4950 S25.7]
+
+<div class="table-wrap">
 
 | Algorithm                              | Parallel Overload | Notes                              |
 | -------------------------------------- | :---------------: | :--------------------------------- |
@@ -660,6 +670,8 @@ Default allocator. This separation is transparent to the user.
 | `std::min_element` / `max_element`     |        Yes        | Returns any extremum               |
 | `std::minmax_element`                  |        Yes        |                                    |
 
+</div>
+
 ### Common Pitfalls
 
 **1. Using `par_unseq` with locking:** The element access function in `par_unseq` must not acquire
@@ -684,12 +696,12 @@ Fewer than ~10,000 elements.
 
 **5. Exception safety in parallel algorithms.** If the element access function throws, the
 Implementation calls `std::terminate` [N4950 §25.5.1]. There is no mechanism to catch exceptions
-From individual elements and continue. If your function may throw, catch exceptions inside the
+from individual elements and continue. If your function may throw, catch exceptions inside the
 Function and handle them gracefully.
 
 **6. Deadlock with `par_unseq` and shared state.** The `par_unseq` policy may interleave element
 Access function invocations from the same thread via SIMD. If the function accesses shared state
-Without proper atomics, the interleaving causes data races even within a single thread. This is
+without proper atomics, the interleaving causes data races even within a single thread. This is
 Unique to `par_unseq` and does not occur with `par` (where each thread's invocations are
 Sequential).
 
@@ -806,10 +818,6 @@ flowchart TD
 ```
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Intuition
 

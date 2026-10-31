@@ -755,7 +755,7 @@ print(m == f)  # False, Meter.__eq__ returns False
 print(f == m)  # Could be True, asymmetric!
 ```
 
-Always return `NotImplemented` for unsupported types to enable Python"s fallback mechanism.
+Always return `NotImplemented` for unsupported types to enable Python's fallback mechanism.
 
 ### 3. \_\_str\_\_ Returning Non-String
 
@@ -860,16 +860,6 @@ class User:
         return f"User({self.name!r}, {self.email!r})"
 ```
 
-```mermaid
-flowchart TD
-    A[04 Protocols Dunder Methods] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of protocols and dunder methods, including underlying theory,
@@ -883,17 +873,11 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Dunder methods are the hooks where Python's built-in operations call your custom code. When you write `len(obj)`, Python is actually calling `obj.__len__()`, which is like giving your object a personality that responds to questions about itself. Protocols are social contracts in Python: if your object walks like a duck and quacks like a duck, Python treats it as a duck. This is more flexible than rigid inheritance because it lets unrelated objects cooperate directly by implementing the right methods, the way strangers can play a pickup game of basketball without joining the same team.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

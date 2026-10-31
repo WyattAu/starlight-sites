@@ -57,7 +57,7 @@ pitfalls, and exam-style problems.
 - **[Number and Algebra](/maths/1-number-and-algebra/1_number-and-algebra/)**, Sequences, series,
   binomial theorem, and proof by induction
 - **[Complex Numbers](/maths/1-number-and-algebra/2_complex-numbers/)**, Complex arithmetic, polar form,
-  and De Moivre"s theorem
+  and De Moivre's theorem
 - **[Complex Numbers (Overview)](/maths/1-number-and-algebra/2_complex-numbers/)**, Complex arithmetic,
   polar form, De Moivre's theorem, and roots of unity
 
@@ -119,8 +119,8 @@ Matrix operations, determinants, inverses, solving systems, and eigenvalues
 
 ## Related Content
 
-- **A-Level Maths:** [A-Level Maths](https://alevel.wyattau.com/docs/maths)
-- **DSE Maths:** [DSE Maths](https://dse.wyattau.com/docs/dse/maths)
+- **A-Level Maths:** [A-Level Maths](https://alevel.wyattau.com/maths/)
+- **DSE Maths:** [DSE Maths](https://dse.wyattau.com/maths/)
 - **University Maths:** [University Maths](https://mathematics.wyattau.com/)
 
 ## Intuition
@@ -172,4 +172,3 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.

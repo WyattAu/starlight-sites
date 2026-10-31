@@ -39,7 +39,7 @@ Therefore when Dart code uses Flutter, compiler explorer cannot be used and Dart
 Dart is an OOP focus programming language developed by Google, desgined for native support by
 Compiling to native machine code with AOT (Ahead-of-Time) compilation, and fast reiteration with JIT
 (Just-in-Time) compilation that enables hot-reload. Parallelism in Dart relies on isolates instead
-Of threads appraoch, which are thread-like execution units that have separate memory, therefore no
+of threads appraoch, which are thread-like execution units that have separate memory, therefore no
 State sharing is possible and rely on messaging when communcation between isolates are needed.
 Memory management in Dart relies on garbage collector, with no direct memory access allowed.
 
@@ -53,6 +53,8 @@ Developing Flutter relies heavily on widget compositions and core primitives.
 
 Dart is a general-purpose language with four primary compilation targets:
 
+<div class="table-wrap">
+
 | Target               | Compilation                           | Use Case                                            |
 | -------------------- | ------------------------------------- | --------------------------------------------------- |
 | **Native (AOT)**     | Ahead-of-Time to ARM/x64 machine code | Mobile (iOS/Android), desktop (macOS/Windows/Linux) |
@@ -60,9 +62,11 @@ Dart is a general-purpose language with four primary compilation targets:
 | **Server (AOT/JIT)** | Native AOT or VM JIT                  | Backend services, CLI tools                         |
 | **Flutter runtime**  | AOT (release) or JIT (debug)          | Cross-platform GUI applications                     |
 
+</div>
+
 The dual JIT/AOT strategy is the defining architectural decision in Dart. During development, the VM
 Uses JIT compilation with **hot reload**, the VM injects updated source into the running process
-Without restarting. In release, the AOT compiler (`dart2native` / `flutter build`) produces a
+without restarting. In release, the AOT compiler (`dart2native` / `flutter build`) produces a
 Standalone binary with no runtime dependency on the VM. This is not an interpreter trick; the AOT
 Compiler performs tree-shaking, type inference, and inlining to produce code competitive with C++ on
 Numeric benchmarks.
@@ -72,14 +76,14 @@ Numeric benchmarks.
 Flutter is the primary consumer of Dart. It is a multi-platform UI framework (iOS, Android, Windows,
 MacOS, Linux, web) that relies heavily on immutable widgets. Lifecycle, state, and layout are
 Handled by the rendering pipeline (Impeller as of Flutter 3.29+). Developing Flutter relies heavily
-On widget composition and core primitives.
+on widget composition and core primitives.
 
 ### Server-side Dart
 
 Dart runs on the server via `dart run` or compiled AOT binaries via `dart compile exe`. The `shelf`
 Package provides middleware-based HTTP handling, and the `dart:io` library gives you sockets, file
-I/O, and process management. Google"s internal infrastructure runs significant Dart services, and
-The ecosystem includes ORM-like packages (`drift`), gRPC support (`grpc`), and Docker base images
+I/O, and process management. Google's internal infrastructure runs significant Dart services, and
+the ecosystem includes ORM-like packages (`drift`), gRPC support (`grpc`), and Docker base images
 (`dart:stable`).
 
 ### Dart for the Web
@@ -107,6 +111,8 @@ Via user-defined operators. It does not support multiple inheritance or raw poin
 
 ## Dart vs Kotlin vs Swift
 
+<div class="table-wrap">
+
 | Feature          | Dart                                | Kotlin                         | Swift                           |
 | ---------------- | ----------------------------------- | ------------------------------ | ------------------------------- |
 | Null safety      | Sound, default                      | Sound, default                 | Sound, optional                 |
@@ -117,6 +123,8 @@ Via user-defined operators. It does not support multiple inheritance or raw poin
 | Memory           | GC                                  | GC (JVM) / ARC (Native)        | ARC (manual optional)           |
 | Primary use      | Flutter, server                     | Android, server, multiplatform | Apple platforms, server         |
 | Package manager  | `pub`                               | `gradle` / `maven`             | `swift-package-manager`         |
+
+</div>
 
 Key differences for systems engineers:
 
@@ -151,8 +159,8 @@ void main() {
 
 This is a complete Dart program. Let's dissect it:
 
-- **`void`**, The return type. `main()` returns nothing. Dart supports `void``int``double`
-  `bool``String``Null`And user-defined types. `void` is a special type indicating no value.
+- **`void`**, The return type. `main()` returns nothing. Dart supports `void`, `int`, `double`
+  `bool`, `String`, `Null` and user-defined types. `void` is a special type indicating no value.
 - **`main()`**, The entry point. The Dart VM looks for a top-level function named `main`. It can
   optionally accept `List<String> args` for command-line arguments.
 - **`print()`**, A top-level function from `dart:core` (implicitly imported). Writes to stdout with
@@ -280,12 +288,12 @@ The GC runs concurrently with the mutator (application code) for old-space colle
 Pause times are under 1ms even for large heaps. This is a practical advantage over JVM's
 Stop-the-world GC pauses.
 
-You have no direct control over GC. There is no `System.gc()`No `free()`No `autoreleasepool`. The GC
+You have no direct control over GC. There is no `System.gc()`. No `free()`. No `autoreleasepool`. The GC
 is tuned for low-latency UI applications, which means it favors pause time over throughput.
 
 ## Asynchronous Programming
 
-Dart's async model is based on `Future` and `Stream`With `async`/`await` syntax sugar.
+Dart's async model is based on `Future` and `Stream`. With `async`/`await` syntax sugar.
 
 ```dart
 Future&lt;String&gt; fetchData() async {
@@ -330,6 +338,8 @@ void main() {
 
 The central package repository is [pub.dev](https://pub.dev). Notable packages:
 
+<div class="table-wrap">
+
 | Package                 | Purpose                                |
 | ----------------------- | -------------------------------------- |
 | `http`                  | HTTP client                            |
@@ -341,6 +351,8 @@ The central package repository is [pub.dev](https://pub.dev). Notable packages:
 | `dio`                   | Advanced HTTP client with interceptors |
 | `get_it` / `injectable` | Dependency injection                   |
 | `args`                  | Command-line argument parsing          |
+
+</div>
 
 ### Build System: build_runner
 
@@ -363,6 +375,8 @@ Sublime Text all have Dart LSP support.
 
 ## Version History
 
+<div class="table-wrap">
+
 | Version | Year | Key Feature                              |
 | ------- | ---- | ---------------------------------------- |
 | 1.0     | 2013 | Initial release                          |
@@ -370,6 +384,8 @@ Sublime Text all have Dart LSP support.
 | 2.12    | 2021 | Sound null safety                        |
 | 3.0     | 2023 | Records, patterns, sealed classes, Wasm  |
 | 3.5     | 2024 | Improved interop, macros (experimental)  |
+
+</div>
 
 Dart follows a 6-week release cycle for stable channel releases. Each release is
 Backward-compatible.
@@ -387,13 +403,7 @@ theory, practical implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

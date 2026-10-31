@@ -44,7 +44,9 @@ stabilised or are experiencing counter-urbanisation.
 
 Urbanisation can be measured by:
 
-$$\text{Urbanisation Rate} = \frac{\text{Urban Population}}{\text{Total Population}} \times 100$$
+$$
+\text{Urbanisation Rate} = \frac{\text{Urban Population}}{\text{Total Population}} \times 100
+$$
 
 Hong Kong's urbanisation rate exceeds 100% in a geographical sense because virtually the entire
 territory is urbanised. The population density in urban areas reaches extraordinary levels: Kowloon
@@ -56,7 +58,7 @@ globally.
 ### Burgess Concentric Zone Model (1925)
 
 Ernest Burgess proposed that cities grow in a series of concentric rings radiating outward from the
-Central Business District (CBD). The five zones are:
+central Business District (CBD). The five zones are:
 
 1. **CBD:** Central business and commercial activities, highest land values, densest development.
 2. **Zone of transition:** Mixed use, including light industry and older residential accommodation.
@@ -68,7 +70,9 @@ Central Business District (CBD). The five zones are:
 The model reflects bid-rent theory: land values decrease with distance from the CBD because
 accessibility declines.
 
-$$\text{Bid Rent} \propto \frac{1}{\text{Distance from CBD}}$$
+$$
+\text{Bid Rent} \propto \frac{1}{\text{Distance from CBD}}
+$$
 
 ### Hoyt Sector Model (1939)
 
@@ -172,17 +176,6 @@ functions. Urban renewal in Hong Kong faces the challenge of balancing:
 
 The Kowloon Walled City demolition (1993-1994) represents a major earlier urban renewal project,
 converting a densely packed, unregulated settlement into the Kowloon Walled City Park.
-
-
-```mermaid
-flowchart TD
-    A[Urbanization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

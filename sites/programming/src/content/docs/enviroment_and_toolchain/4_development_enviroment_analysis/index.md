@@ -9,9 +9,6 @@ date: 2026-01-01T00:00:00Z
 sources:
   - text: McConnell - Code Complete
 
-
-This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
-
 # Development Environment Analysis
 
 A development environment encompasses all the tools, configurations, and workflows that support writing, testing, debugging, and deploying code. Understanding your development environment is not merely a matter of convenience, it directly affects your productivity, code quality, and ability to collaborate effectively. A well-configured environment catches errors early, provides intelligent assistance, and streamlines repetitive tasks, while a poorly configured one introduces friction at every step.
@@ -134,6 +131,8 @@ GDB is the standard debugger on Linux systems. While its command-line interface 
 
 **Essential GDB commands:**
 
+<div class="table-wrap">
+
 | Command | Abbreviation | Description |
 |---------|-------------|-------------|
 | `break main` | `b main` | Set breakpoint at main function |
@@ -151,6 +150,8 @@ GDB is the standard debugger on Linux systems. While its command-line interface 
 | `delete 3` | `d 3` | Delete breakpoint number 3 |
 | `watch var` | - | Break when variable changes |
 | `quit` | `q` | Exit GDB |
+
+</div>
 
 **Example GDB session:**
 
@@ -409,10 +410,7 @@ The four tools discussed in this section are most effective when used together a
 - *Advanced Programming in the UNIX Environment* by Stevens and Rago, Deep dive into system-level programming and debugging
 - LLVM/Clang documentation, Official documentation for clang-tidy, ASan, and other LLVM tools
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -423,4 +421,3 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.

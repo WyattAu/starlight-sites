@@ -249,13 +249,19 @@ IB History is assessed against the following criteria:
 
 ### Paper 1 (24 marks)
 
+<div class="table-wrap">
+
 | Criterion | Description |
 | :-------- | :---------- |
 | **A: Knowledge and Understanding** | Accurate, relevant factual knowledge. Correct use of terminology. |
 | **B: Analysis and Evaluation** | Critical analysis of sources. Evaluation of origin, purpose, content, value, and limitation. |
 | **C: Thinking and Communication** | Clear, organised writing. Effective synthesis across sources. Logical argument structure. |
 
+</div>
+
 ### Paper 2 (30 marks)
+
+<div class="table-wrap">
 
 | Criterion | Description |
 | :-------- | :---------- |
@@ -263,13 +269,19 @@ IB History is assessed against the following criteria:
 | **B: Analysis and Evaluation** | Analysis of causation, comparison, or change over time. Engagement with multiple perspectives. |
 | **C: Thinking and Communication** | Clear, coherent argument. Effective use of evidence. Logical structure with introduction, body, and conclusion. |
 
+</div>
+
 ### Internal Assessment (20 marks at SL and HL)
+
+<div class="table-wrap">
 
 | Criterion | Description |
 | :-------- | :---------- |
 | **A: Identification and Evaluation of Sources (6 marks)** | Quality of research question. Critical evaluation of two sources (origin, purpose, content, value, limitation). |
 | **B: Investigation (15 marks)** | Depth and breadth of research. Quality of analysis and argument. Use of primary and secondary sources. |
 | **C: Reflection (4 marks)** | Reflection on the research process, challenges encountered, and lessons learned about historical methodology. |
+
+</div>
 
 ---
 
@@ -299,17 +311,6 @@ IB History is assessed against the following criteria:
 7. **Introducing new evidence in the conclusion.** The conclusion synthesises what has already been argued. New points should be made in the body paragraphs.
 
 8. **Confusing causes and consequences.** Maintain clarity about chronological and causal relationships. A cause precedes an event; a consequence follows it.
-
-
-```mermaid
-flowchart TD
-    A[Essay Techniques] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

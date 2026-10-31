@@ -25,15 +25,15 @@ categories:
 Code generation in Dart is the process of automatically producing Dart source code from annotations,
 Builders, and configuration at build time. It reduces boilerplate, eliminates human error in
 Repetitive code (serialization, equality, copyWith), and ensures consistency between models and
-Their derived code.
+their derived code.
 
 The Dart ecosystem relies on the `build_runner` package as the foundation for all code generation
-Workflows. Packages like `freezed``json_serializable``injectable``retrofit`And `auto_route` All use
+Workflows. Packages like `freezed`, `json_serializable`, `injectable`, `retrofit` and `auto_route` All use
 `build_runner` under the hood.
 
 ### Why Code Generation
 
-1. **Boilerplate reduction**: `copyWith``==``hashCode``toString``fromJson`/`toJson` are generated,
+1. **Boilerplate reduction**: `copyWith`, `==`, `hashCode`, `toString`, `fromJson`/`toJson` are generated,
    not hand-written
 2. **Consistency**: generated code is always in sync with the model. Change a field, regenerate,
    and serialization updates
@@ -197,7 +197,7 @@ global_options:
 
 ## freezed
 
-`freezed` generates immutable data classes with `copyWith``==``hashCode``toString`And union Type
+`freezed` generates immutable data classes with `copyWith`, `==`, `hashCode`, `toString` and union Type
 support using Dart sealed classes.
 
 ### Basic Usage
@@ -250,7 +250,7 @@ void main() {
 ### Union Types
 
 `freezed` excels at modeling sealed class hierarchies, union types where a value can be one of
-Several variants:
+several variants:
 
 ```dart
 import "package:freezed_annotation/freezed_annotation.dart';
@@ -686,6 +686,8 @@ class Task {
 Different code generation packages produce files with specific suffixes. Understanding these
 Conventions helps with `.gitignore` configuration and debugging.
 
+<div class="table-wrap">
+
 | Suffix          | Package                                   | Purpose                                                                |
 | --------------- | ----------------------------------------- | ---------------------------------------------------------------------- |
 | `.g.dart`       | `json_serializable``injectable``retrofit` | General generated code (fromJson/toJson, DI registration, API clients) |
@@ -693,6 +695,8 @@ Conventions helps with `.gitignore` configuration and debugging.
 | `.gr.dart`      | `retrofit``auto_route`                    | Retrofit API client, AutoRoute router generated files                  |
 | `.config.dart`  | `injectable`                              | Generated dependency configuration                                     |
 | `.chopper.dart` | `chopper`                                 | Chopper API client generated code                                      |
+
+</div>
 
 ### .gitignore Configuration
 
@@ -864,7 +868,7 @@ dart run build_runner watch --delete-conflicting-outputs
 
 Watch mode monitors all files in the project and triggers regeneration when annotated source files
 Change. This is useful during active model development but consumes resources, consider stopping it
-When working on unrelated files.
+when working on unrelated files.
 
 ### Cleaning Stale Generated Files
 
@@ -920,7 +924,7 @@ jobs:
 
 ### Generated Files Not in VCS but Needed for Compilation
 
-When generated files are in `.gitignore`Every developer and CI runner must generate them before
+When generated files are in `.gitignore`. Every developer and CI runner must generate them before
 Compilation. This means:
 
 ```bash
@@ -1020,7 +1024,7 @@ dart run build_runner clean && dart run build_runner build --delete-conflicting-
 
 ### build_runner Version Mismatches
 
-Using incompatible versions of `build_runner``source_gen`And builder packages (e.g., `freezed`
+Using incompatible versions of `build_runner`, `source_gen` and builder packages (e.g., `freezed`
 `json_serializable`) causes cryptic errors:
 
 ```
@@ -1039,7 +1043,7 @@ Check the builder package's changelog for compatible `build_runner` versions.
 ### Watching Too Many Files (Performance)
 
 `build_runner watch` monitors all files in the project by default. In large monorepos or projects
-With many assets, this causes excessive file system activity:
+with many assets, this causes excessive file system activity:
 
 ```bash
 # Limit watch scope with generate_for in build.yaml
@@ -1101,7 +1105,7 @@ part 'user.freezed.dart';
 ### Mixing Annotation Packages
 
 Using `freezed` with `json_serializable` requires specific import and part configuration. Forgetting
-The `@JsonSerializable` integration step or missing the `.g.dart` part directive causes partial
+the `@JsonSerializable` integration step or missing the `.g.dart` part directive causes partial
 Generation:
 
 ```dart
@@ -1130,16 +1134,6 @@ class User with _$User {
 }
 ```
 
-```mermaid
-flowchart TD
-    A[13 Code Generation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of code generation, including underlying theory, practical
@@ -1153,13 +1147,7 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

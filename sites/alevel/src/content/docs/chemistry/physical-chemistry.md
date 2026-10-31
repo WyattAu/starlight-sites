@@ -43,11 +43,15 @@ across all major exam boards.
 
 ### Subatomic Particles
 
+<div class="table-wrap">
+
 | Particle | Relative Mass    | Relative Charge | Location |
 | -------- | ---------------- | --------------- | -------- |
 | Proton   | 1                | +1              | Nucleus  |
 | Neutron  | 1                | 0               | Nucleus  |
 | Electron | $\frac{1}{1836}$ | $-1$            | Shells   |
+
+</div>
 
 **Atomic number ($Z$)** = number of protons **Mass number ($A$)** = protons + neutrons **Isotopes**
 = same $Z$, different $A$ (different number of neutrons)
@@ -56,12 +60,16 @@ across all major exam boards.
 
 Electrons fill shells in order: 1 → 2 → 3 → 4...
 
+<div class="table-wrap">
+
 | Shell | Maximum electrons | Elements filled |
 | ----- | ----------------- | --------------- |
 | 1     | 2                 | H, He           |
 | 2     | 8                 | Li – Ne         |
 | 3     | 18                | Na – Ar         |
 | 4     | 32                | K – Kr          |
+
+</div>
 
 **Exceptions to remember:**
 
@@ -72,7 +80,9 @@ Electrons fill shells in order: 1 → 2 → 3 → 4...
 
 **First ionisation energy:** energy to remove one mole of electrons from one mole of gaseous atoms:
 
-$$\mathrm{X}(g) \to \mathrm{X}^+(g) + e^-$$
+$$
+\mathrm{X}(g) \to \mathrm{X}^+(g) + e^-
+$$
 
 **Trends:**
 
@@ -93,7 +103,9 @@ $$\mathrm{X}(g) \to \mathrm{X}^+(g) + e^-$$
 
 The **relative atomic mass** is calculated from the weighted average of isotopes:
 
-$$A_r = \frac{\sum(m_i \times a_i)}{\sum a_i}$$
+$$
+A_r = \frac{\sum(m_i \times a_i)}{\sum a_i}
+$$
 
 ---
 
@@ -141,11 +153,15 @@ bonds).
 
 ### Intermolecular Forces
 
+<div class="table-wrap">
+
 | Force               | Strength  | Occurs Between                                | Example                                         |
 | ------------------- | --------- | --------------------------------------------- | ----------------------------------------------- |
 | London (dispersion) | Weakest   | All molecules                                 | All                                             |
 | Dipole-dipole       | Moderate  | Polar molecules                               | $\mathrm{HCl}$, $\mathrm{SO_2}$                 |
 | Hydrogen bonding    | Strongest | Molecules with $\mathrm{N, O, F}$ bonded to H | $\mathrm{H_2O}$, $\mathrm{NH_3}$, $\mathrm{HF}$ |
+
+</div>
 
 **London forces** increase with: more electrons (larger $A_r$), larger surface area (chain length).
 
@@ -170,7 +186,11 @@ bonds).
 
 ### Enthalpy Changes
 
-$$\Delta H = H_{\text{products}} - H_{\text{reactants}}$$
+$$
+\Delta H = H_{\text{products}} - H_{\text{reactants}}
+$$
+
+<div class="table-wrap">
 
 | Type                                                   | Definition                                                                    |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------- |
@@ -178,29 +198,37 @@ $$\Delta H = H_{\text{products}} - H_{\text{reactants}}$$
 | Standard enthalpy of combustion ($\Delta_c H^\ominus$) | Enthalpy change when 1 mol of substance burns completely in $\mathrm{O_2}$    |
 | Standard enthalpy of neutralisation                    | Enthalpy change per mole of water formed from acid–base reaction              |
 
+</div>
+
 **Exothermic:** $\Delta H < 0$ (energy released to surroundings) **Endothermic:** $\Delta H > 0$
 (energy absorbed from surroundings)
 
-### Hess"s Law
+### Hess's Law
 
 The enthalpy change for a reaction is independent of the route taken, the answer varies by context
 only on initial and final states.
 
-$$\Delta H_{\text{reaction}} = \sum \Delta H_f^\ominus(\text{products}) - \sum \Delta H_f^\ominus(\text{reactants})$$
+$$
+\Delta H_{\text{reaction}} = \sum \Delta H_f^\ominus(\text{products}) - \sum \Delta H_f^\ominus(\text{reactants})
+$$
 
 ### Bond Enthalpies
 
 Mean bond enthalpy is the average energy required to break one mole of a particular bond in the
 gaseous state.
 
-$$\Delta H \approx \sum(\text{bonds broken}) - \sum(\text{bonds formed})$$
+$$
+\Delta H \approx \sum(\text{bonds broken}) - \sum(\text{bonds formed})
+$$
 
 > **Limitation:** Bond enthalpies are averaged values from many different compounds, so they are
 > less accurate than calorimetry-based $\Delta H$ values.
 
 ### Calorimetry
 
-$$q = mc\Delta T$$
+$$
+q = mc\Delta T
+$$
 
 - $q$ = heat energy (J)
 - $m$ = mass of solution (g)
@@ -211,7 +239,9 @@ $$q = mc\Delta T$$
 
 Used to calculate lattice enthalpies for ionic compounds. The cycle links:
 
-$$\Delta_f H^\ominus = \text{atomisation} + \text{ionisation} + \text{electron affinity} + \text{lattice enthalpy} + \text{other terms}$$
+$$
+\Delta_f H^\ominus = \text{atomisation} + \text{ionisation} + \text{electron affinity} + \text{lattice enthalpy} + \text{other terms}
+$$
 
 ---
 
@@ -230,7 +260,9 @@ $$\Delta_f H^\ominus = \text{atomisation} + \text{ionisation} + \text{electron a
 
 For a reaction $\mathrm{A} + \mathrm{B} \to \text{products}$, the rate equation is:
 
-$$\text{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n$$
+$$
+\text{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n
+$$
 
 - $k$ = rate constant (units depend on overall order)
 - $m$, $n$ = orders of reaction with respect to each reactant
@@ -250,9 +282,13 @@ the rate equation are in most cases involved in or before the rate-determining s
 
 ### Arrhenius Equation
 
-$$k = A e^{-E_a / RT}$$
+$$
+k = A e^{-E_a / RT}
+$$
 
-$$\ln k = \ln A - \frac{E_a}{RT}$$
+$$
+\ln k = \ln A - \frac{E_a}{RT}
+$$
 
 A plot of $\ln k$ vs $\frac{1}{T}$ gives a straight line:
 
@@ -283,6 +319,8 @@ A plot of $\ln k$ vs $\frac{1}{T}$ gives a straight line:
 
 If a system at equilibrium is subjected to a change, the equilibrium shifts to oppose that change.
 
+<div class="table-wrap">
+
 | Change               | Effect on Equilibrium                                 |
 | -------------------- | ----------------------------------------------------- |
 | Increase [reactant]  | Shifts to products                                    |
@@ -290,15 +328,21 @@ If a system at equilibrium is subjected to a change, the equilibrium shifts to o
 | Increase temperature | Shifts endothermic direction                          |
 | Add catalyst         | No shift, speeds up both forward and reverse equally |
 
+</div>
+
 ### Equilibrium Constants
 
 **$K_c$** (concentration):
 
-$$K_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b}$$
+$$
+K_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b}
+$$
 
 **$K_p$** (partial pressure, for gas-phase reactions):
 
-$$K_p = \frac{(p_{\mathrm{C}})^c(p_{\mathrm{D}})^d}{(p_{\mathrm{A}})^a(p_{\mathrm{B}})^b}$$
+$$
+K_p = \frac{(p_{\mathrm{C}})^c(p_{\mathrm{D}})^d}{(p_{\mathrm{A}})^a(p_{\mathrm{B}})^b}
+$$
 
 - Equilibrium constants are **temperature-dependent** only
 - $K > 1$: products favoured at equilibrium
@@ -307,10 +351,14 @@ $$K_p = \frac{(p_{\mathrm{C}})^c(p_{\mathrm{D}})^d}{(p_{\mathrm{A}})^a(p_{\mathr
 
 ### Industrial Processes
 
+<div class="table-wrap">
+
 | Process | Equation                                        | Conditions Chosen                           | Reason                                                                        |
 | ------- | ----------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------- |
 | Haber   | $\mathrm{N_2 + 3H_2 \rightleftharpoons 2NH_3}$  | 450 °C, 200 atm, $\mathrm{Fe}$ catalyst     | Compromise: lower $T$ favoured, but too slow; high $P$ favoured but expensive |
 | Contact | $\mathrm{2SO_2 + O_2 \rightleftharpoons 2SO_3}$ | 450 °C, 1–2 atm, $\mathrm{V_2O_5}$ catalyst | High $T$ for rate, moderate $P$ for cost                                      |
+
+</div>
 
 ---
 
@@ -327,7 +375,9 @@ $$K_p = \frac{(p_{\mathrm{C}})^c(p_{\mathrm{D}})^d}{(p_{\mathrm{A}})^a(p_{\mathr
 
 ### pH Scale
 
-$$\mathrm{pH} = -\log_{10}[\mathrm{H}^+]$$
+$$
+\mathrm{pH} = -\log_{10}[\mathrm{H}^+]
+$$
 
 - pH 0–6: acidic; pH 7: neutral; pH 8–14: alkaline
 - At 25 °C: $[\mathrm{H}^+][\mathrm{OH}^-] = 10^{-14}$
@@ -340,9 +390,13 @@ $$\mathrm{pH} = -\log_{10}[\mathrm{H}^+]$$
 
 ### Acid Dissociation Constant ($K_a$)
 
-$$K_a = \frac{[\mathrm{H}^+][\mathrm{A}^-]}{[\mathrm{HA}]}$$
+$$
+K_a = \frac{[\mathrm{H}^+][\mathrm{A}^-]}{[\mathrm{HA}]}
+$$
 
-$$\mathrm{p}K_a = -\log_{10} K_a$$
+$$
+\mathrm{p}K_a = -\log_{10} K_a
+$$
 
 For a weak monoprotic acid: $[\mathrm{H}^+] \approx \sqrt{K_a \times [\mathrm{HA}]}$
 
@@ -352,11 +406,15 @@ A **buffer** resists changes in pH when small amounts of acid or base are added.
 
 **Acidic buffer:** weak acid + its conjugate base (e.g. $\mathrm{CH_3COOH}$ + $\mathrm{CH_3COO}^-$)
 
-$$[\mathrm{H}^+] = K_a \times \frac{[\text{acid}]}{[\text{salt}]}$$
+$$
+[\mathrm{H}^+] = K_a \times \frac{[\text{acid}]}{[\text{salt}]}
+$$
 
 **Henderson-Hasselbalch equation:**
 
-$$\mathrm{pH} = \mathrm{p}K_a + \log_{10}\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}$$
+$$
+\mathrm{pH} = \mathrm{p}K_a + \log_{10}\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}
+$$
 
 ### Indicators
 
@@ -402,7 +460,9 @@ Balance half-equations: atoms → charge → combine → cancel electrons.
 A voltaic cell converts chemical energy to electrical energy. The more negative $E^\ominus$ value is
 the oxidation half-reaction (anode); the more positive is the reduction half-reaction (cathode).
 
-$$E^\ominus_{\text{cell}} = E^\ominus_{\text{reduction}} - E^\ominus_{\text{oxidation}}$$
+$$
+E^\ominus_{\text{cell}} = E^\ominus_{\text{reduction}} - E^\ominus_{\text{oxidation}}
+$$
 
 If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard conditions.
 
@@ -426,6 +486,8 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 
 ## 8. Key Equations Reference
 
+<div class="table-wrap">
+
 | Topic             | Equation                                                                          | Notes                 |
 | ----------------- | --------------------------------------------------------------------------------- | --------------------- |
 | Ionisation        | $\mathrm{pH} = -\log[\mathrm{H}^+]$                                               |                       |
@@ -438,6 +500,8 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 | Hess              | $\Delta H = \sum \Delta H_f(\text{products}) - \sum \Delta H_f(\text{reactants})$ |                       |
 | Calorimetry       | $q = mc\Delta T$                                                                  |                       |
 | Cell potential    | $E^\ominus_{\text{cell}} = E^\ominus_{\text{red}} - E^\ominus_{\text{ox}}$        |                       |
+
+</div>
 
 ---
 
@@ -487,17 +551,6 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
 
-
-```mermaid
-flowchart TD
-    A[Physical Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Physical chemistry underpins all other branches of chemistry. The key themes are:
@@ -515,9 +568,6 @@ kinetics and equilibrium arguments, or how Le Chatelier's principle relates quan
 changes in $K_c$.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

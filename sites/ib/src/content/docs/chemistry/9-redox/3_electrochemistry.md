@@ -29,7 +29,7 @@ Mnemonic: **OIL RIG** -- Oxidation Is Loss, Reduction Is Gain.
 
 **Definition.** An **oxidizing agent** is a species that causes oxidation in another species by
 Accepting electrons (it is itself reduced). A **reducing agent** is a species that causes reduction
-In another species by donating electrons (it is itself oxidized).
+in another species by donating electrons (it is itself oxidized).
 
 ### Oxidation States (Oxidation Numbers)
 
@@ -39,8 +39,8 @@ Rules for assigning oxidation states:
    $\mathrm{Fe}$, $\mathrm{Cl}_2$).
 2. For a monatomic ion, the oxidation state equals the charge (e.g., $\mathrm{Na}^+$ is $+1$
    $\mathrm{O}^{2-}$ is $-2$).
-3. Oxygen is $-2$Except in peroxides ($-1$) and with fluorine ($+2$).
-4. Hydrogen is $+1$Except in metal hydrides where it is $-1$.
+3. Oxygen is $-2$ Except in peroxides ($-1$) and with fluorine ($+2$).
+4. Hydrogen is $+1$ Except in metal hydrides where it is $-1$.
 5. The sum of oxidation states in a neutral compound is zero; in a polyatomic ion it equals the ion
    charge.
 6. Fluorine is always $-1$ in compounds.
@@ -186,6 +186,8 @@ All standard electrode potentials ($E^\circ$) are measured under:
 
 The electrochemical series ranks species by their tendency to be reduced. Some key values:
 
+<div class="table-wrap">
+
 | Half-Reaction                                                                                           | $E^\circ$ (V) |
 | ------------------------------------------------------------------------------------------------------- | ------------- |
 | $\mathrm{F}_2 + 2e^- \rightleftharpoons 2\mathrm{F}^-$                                                  | $+2.87$       |
@@ -199,14 +201,16 @@ The electrochemical series ranks species by their tendency to be reduced. Some k
 | $\mathrm{Na}^+ + e^- \rightleftharpoons \mathrm{Na}$                                                    | $-2.71$       |
 | $\mathrm{Li}^+ + e^- \rightleftharpoons \mathrm{Li}$                                                    | $-3.04$       |
 
+</div>
+
 **Definition.** A more positive $E^\circ$ value indicates a greater tendency for the species to be
 Reduced (stronger oxidizing agent). A more negative $E^\circ$ indicates a greater tendency for the
-Species to be oxidized (stronger reducing agent).
+species to be oxidized (stronger reducing agent).
 
 ### Measuring Standard Electrode Potential
 
 To measure the standard electrode potential of a half-cell, connect it to the SHE and measure the
-Cell potential using a high-resistance voltmeter (so negligible current flows).
+cell potential using a high-resistance voltmeter (so negligible current flows).
 
 - If the half-cell is the cathode (reduction occurs):
   $E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}} = E^\circ_{\mathrm{half-cell}} - 0.00$
@@ -222,7 +226,7 @@ E^\circ_{\mathrm{cell}} \gt 0
 $$
 
 This means the reduction half-reaction (cathode) must have a more positive $E^\circ$ than the
-Oxidation half-reaction (anode).
+oxidation half-reaction (anode).
 
 **Definition.** A spontaneous redox reaction will occur when a species with a more positive
 Reduction potential is paired with a species with a more negative reduction potential.
@@ -230,8 +234,8 @@ Reduction potential is paired with a species with a more negative reduction pote
 
 :::caution[Common Mistake]
 $E^\circ$ values are intensive properties. They are NOT multiplied by stoichiometric coefficients
-When calculating $E^\circ_{\mathrm{cell}}$. Do not multiply $E^\circ$ values by the number of
-Electrons transferred.
+when calculating $E^\circ_{\mathrm{cell}}$. Do not multiply $E^\circ$ values by the number of
+electrons transferred.
 
 ---
 
@@ -254,6 +258,8 @@ Circuit.
 
 ### Cell Components
 
+<div class="table-wrap">
+
 | Component            | Function                                                                                                                                                                   |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Anode**            | Electrode where oxidation occurs. Electrons are released. Negative electrode in galvanic cells.                                                                            |
@@ -261,6 +267,8 @@ Circuit.
 | **Salt bridge**      | Completes the internal circuit by allowing ion migration. Maintains electrical neutrality. Contains an inert electrolyte (e.g., $\mathrm{KNO}_3$(aq), $\mathrm{KCl}$(aq)). |
 | **External circuit** | Wire connecting the two electrodes through which electrons flow.                                                                                                           |
 | **Voltmeter**        | Measures the potential difference between the two half-cells.                                                                                                              |
+
+</div>
 
 ### Salt Bridge
 
@@ -274,7 +282,7 @@ Functioning as excess charge accumulates. The ions in the salt bridge migrate to
 
 **Definition.** The salt bridge must contain ions that do not react with the cell components.
 $\mathrm{KNO}_3$ is commonly used because $\mathrm{K}^+$ and $\mathrm{NO}_3^-$ are spectator ions
-For most systems.
+for most systems.
 
 ### Cell Diagram Notation (SL)
 
@@ -330,11 +338,13 @@ $$
 E^\circ_{\mathrm{cell}} = 0.34 - (-0.76) = +1.10\mathrm{ V}
 $$
 
-Since $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
+Since $E^\circ_{\mathrm{cell}} \gt 0$ The reaction is spontaneous.
 
 ### Anode/Cathode Sign Convention
 
 In a galvanic cell:
+
+<div class="table-wrap">
 
 | Feature               | Anode                 | Cathode                |
 | --------------------- | --------------------- | ---------------------- |
@@ -342,12 +352,14 @@ In a galvanic cell:
 | Electron flow         | Electrons leave       | Electrons arrive       |
 | Sign in galvanic cell | Negative ($-$)        | Positive ($+$)         |
 | Ion migration         | Anions migrate toward | Cations migrate toward |
+
+</div>
 :::
 
 :::caution[Common Mistake]
 Do not confuse the sign of the electrode in galvanic vs. Electrolytic cells. In galvanic cells, the
-Anode is negative. In electrolytic cells, the anode is positive (connected to the positive terminal
-Of the external power supply).
+anode is negative. In electrolytic cells, the anode is positive (connected to the positive terminal
+of the external power supply).
 :::
 
 :::note[IB Exam Tip]
@@ -356,7 +368,7 @@ When asked to predict whether a reaction is spontaneous, always:
 1. Identify the two relevant half-reactions from the data booklet.
 2. Assign cathode (more positive $E^\circ$) and anode (more negative $E^\circ$).
 3. Calculate $E^\circ_{\mathrm{cell}}$.
-4. If $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
+4. If $E^\circ_{\mathrm{cell}} \gt 0$ The reaction is spontaneous.
 
 ---
 
@@ -379,6 +391,8 @@ Direction to what would occur spontaneously.
 
 ### Key Differences: Galvanic vs. Electrolytic
 
+<div class="table-wrap">
+
 | Feature               | Galvanic Cell                                 | Electrolytic Cell                                 |
 | --------------------- | --------------------------------------------- | ------------------------------------------------- |
 | Energy conversion     | Chemical to electrical                        | Electrical to chemical                            |
@@ -388,10 +402,12 @@ Direction to what would occur spontaneously.
 | External power supply | Not required                                  | Required                                          |
 | Salt bridge           | Yes                                           | Not required (single cell)                        |
 
+</div>
+
 ### Electrolysis of Molten Compounds
 
 When a molten ionic compound is electrolyzed, the cation is reduced at the cathode and the anion is
-Oxidized at the anode.
+oxidized at the anode.
 
 **Example:** Electrolysis of molten $\mathrm{NaCl}$:
 
@@ -407,16 +423,20 @@ Oxidized at the anode.
 ### Electrolysis of Aqueous Solutions
 
 In aqueous solutions, both the cation and $\mathrm{H}^+$ can be reduced at the cathode. Both the
-Anion and $\mathrm{H}_2\mathrm{O}$ can be oxidized at the anode. The species that is discharged
+anion and $\mathrm{H}_2\mathrm{O}$ can be oxidized at the anode. The species that is discharged
 Depends on the **relative ease of discharge** (electrode potential and overpotential).
 
 #### Discharge at the Cathode (Reduction)
+
+<div class="table-wrap">
 
 | Cation present                                                                 | Species discharged                                  | Reason                                                          |
 | ------------------------------------------------------------------------------ | --------------------------------------------------- | --------------------------------------------------------------- |
 | Group 1 ($\mathrm{Li}^+$$\mathrm{Na}^+$$\mathrm{K}^+$)                         | $\mathrm{H}_2\mathrm{O}$ (producing $\mathrm{H}_2$) | These cations are very hard to reduce ($E^\circ$ very negative) |
 | Group 2 ($\mathrm{Mg}^{2+}$$\mathrm{Ca}^{2+}$)                                 | $\mathrm{H}_2\mathrm{O}$ (producing $\mathrm{H}_2$) | Still too hard to reduce in aqueous solution                    |
 | Transition metals and below ($\mathrm{Cu}^{2+}$$\mathrm{Ag}^+$$\mathrm{Au}^+$) | Metal cation                                        | These are easier to reduce than water                           |
+
+</div>
 
 The reduction of water at the cathode:
 
@@ -426,10 +446,14 @@ $$
 
 #### Discharge at the Anode (Oxidation)
 
+<div class="table-wrap">
+
 | Anion present                                             | Species discharged                                    | Reason                                               |
 | --------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------- |
 | Halides ($\mathrm{Cl}^-$$\mathrm{Br}^-$$\mathrm{I}^-$)    | Halide ion (except with concentrated $\mathrm{Cl}^-$) | Easier to oxidize than water (except $\mathrm{F}^-$) |
 | $\mathrm{SO}_4^{2-}$$\mathrm{NO}_3^-$$\mathrm{CO}_3^{2-}$ | $\mathrm{H}_2\mathrm{O}$ (producing $\mathrm{O}_2$)   | These anions are not discharged in aqueous solution  |
+
+</div>
 
 The oxidation of water at the anode:
 
@@ -487,9 +511,11 @@ Contains ions of the plating metal.
 - Electrolyte: $\mathrm{AgNO}_3$(aq) or $\mathrm{K}[\mathrm{Ag(CN)}_2]$(aq)
 
 As silver deposits on the spoon, the silver anode dissolves to maintain the silver ion concentration
-In solution.
+in solution.
 
 ### Factors Affecting Electroplating Quality
+
+<div class="table-wrap">
 
 | Factor                  | Effect                                                                       |
 | ----------------------- | ---------------------------------------------------------------------------- |
@@ -498,6 +524,8 @@ In solution.
 | Ion concentration       | Higher concentration generally improves deposit quality                      |
 | Electrolyte composition | Adding complexing agents (e.g., cyanide) improves smoothness                 |
 | Cathode preparation     | Surface must be clean and free of oxides                                     |
+
+</div>
 
 ### Electrorefining of Copper
 
@@ -508,7 +536,7 @@ Copper is purified by electrolysis using impure copper as the anode and pure cop
 - Electrolyte: $\mathrm{CuSO}_4$(aq) with dilute $\mathrm{H}_2\mathrm{SO}_4$
 
 Impurities settle as **anode sludge** beneath the anode. This sludge is economically significant
-Because it contains precious metals (Ag, Au, Pt).
+because it contains precious metals (Ag, Au, Pt).
 
 ### Aluminum Extraction -- Hall-Heroult Process (HL)
 
@@ -544,9 +572,11 @@ Using a membrane cell:
   $2\mathrm{NaCl}(aq) + 2\mathrm{H}_2\mathrm{O}(l) \to \mathrm{Cl}_2(g) + \mathrm{H}_2(g) + 2\mathrm{NaOH}(aq)$
 
 The ion-exchange membrane allows $\mathrm{Na}^+$ to pass but prevents $\mathrm{OH}^-$ from reaching
-The anode, which would react with $\mathrm{Cl}_2$ to form hypochlorite.
+the anode, which would react with $\mathrm{Cl}_2$ to form hypochlorite.
 
 Comparison of chlor-alkali cell types:
+
+<div class="table-wrap">
 
 | Feature                | Membrane Cell    | Diaphragm Cell | Mercury Cell        |
 | ---------------------- | ---------------- | -------------- | ------------------- |
@@ -554,11 +584,13 @@ Comparison of chlor-alkali cell types:
 | Energy consumption     | Moderate         | Higher         | Highest             |
 | Environmental impact   | Low              | Moderate       | High (Hg pollution) |
 | Current usage          | Primary method   | Declining      | Phased out          |
+
+</div>
 :::
 
 :::note[IB Exam Tip]
 The membrane cell is the preferred method for the chlor-alkali process. Know the half-equations at
-Each electrode and the purpose of the membrane.
+each electrode and the purpose of the membrane.
 
 ---
 
@@ -596,10 +628,10 @@ $$
 Dividing both sides by $-nF$:
 
 $$
-\boxed{E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac`\{RT}``\{nF}`\ln Q}
+\boxed{E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac`\{RT}`, `\{nF}`\ln Q}
 $$
 
-This is the **Nernst equation**. At $298\mathrm{ K}$Substituting $R = 8.314\mathrm{ J/(mol K)}$
+This is the **Nernst equation**. At $298\mathrm{ K}$ Substituting $R = 8.314\mathrm{ J/(mol K)}$
 $F = 96485\mathrm{ C/mol}$ And converting to $\log_{10}$:
 
 $$
@@ -633,7 +665,7 @@ Solids and pure liquids are omitted from $Q$.
 ### Effect of Concentration on Cell Potential
 
 From the Nernst equation, increasing the concentration of reactants (or decreasing products)
-Increases $E_{\mathrm{cell}}$While decreasing reactant concentration (or increasing products)
+Increases $E_{\mathrm{cell}}$ While decreasing reactant concentration (or increasing products)
 Decreases $E_{\mathrm{cell}}$.
 
 **Example:** For the cell
@@ -644,7 +676,7 @@ Q = \frac{[\mathrm{Zn}^{2+}]}{[\mathrm{Cu}^{2+}]}
 $$
 
 If $[\mathrm{Cu}^{2+}]$ increases, $Q$ decreases, and $E_{\mathrm{cell}}$ increases (the reaction is
-More spontaneous).
+more spontaneous).
 
 ### Equilibrium Connection
 
@@ -652,11 +684,11 @@ At equilibrium, $\Delta G = 0$ So $E_{\mathrm{cell}} = 0$ and $Q = K$ (the equil
 Substituting into the Nernst equation:
 
 $$
-0 = E^\circ_{\mathrm{cell}} - \frac`\{RT}``\{nF}`\ln K
+0 = E^\circ_{\mathrm{cell}} - \frac`\{RT}`, `\{nF}`\ln K
 $$
 
 $$
-E^\circ_{\mathrm{cell}} = \frac`\{RT}``\{nF}`\ln K = \frac{0.0592}{n}\log_{10} K \quad \mathrm{at } 298\mathrm{ K}
+E^\circ_{\mathrm{cell}} = \frac`\{RT}`, `\{nF}`\ln K = \frac{0.0592}{n}\log_{10} K \quad \mathrm{at } 298\mathrm{ K}
 $$
 
 **Definition.** At equilibrium, the cell potential is zero. The standard cell potential directly
@@ -665,7 +697,7 @@ Determines the equilibrium constant.
 
 :::note[IB Exam Tip]
 A useful relationship: a larger positive $E^\circ_{\mathrm{cell}}$ means a larger equilibrium
-Constant $K$Meaning the reaction proceeds further to completion. For
+Constant $K$ Meaning the reaction proceeds further to completion. For
 $E^\circ_{\mathrm{cell}} \gt 0.3\mathrm{ V}$ (approximately), $K \gt 1$ And the reaction can be
 Considered to go essentially to completion.
 
@@ -688,7 +720,7 @@ If $[\mathrm{Fe}^{2+}] \gt [\mathrm{Fe}^{3+}]$ Then $E \lt E^\circ$ (less tenden
 
 :::caution[Common Mistake]
 When applying the Nernst equation to a half-cell, ensure the reduced form is in the numerator and
-The oxidized form is in the denominator. Reversing this will give the wrong answer.
+the oxidized form is in the denominator. Reversing this will give the wrong answer.
 
 ---
 
@@ -744,7 +776,7 @@ $$
 $$
 
 $$
-\boxed{E^\circ_{\mathrm{cell}} = \frac`\{RT}``\{nF}`\ln K}
+\boxed{E^\circ_{\mathrm{cell}} = \frac`\{RT}`, `\{nF}`\ln K}
 $$
 
 At $298\mathrm{ K}$:
@@ -774,18 +806,22 @@ This extremely large $K$ confirms the reaction goes essentially to completion.
 
 ### Summary of Relationships
 
+<div class="table-wrap">
+
 | Equation                                                           | What it Gives                                                             |
 | ------------------------------------------------------------------ | ------------------------------------------------------------------------- |
 | $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$                      | Spontaneity ($\Delta G^\circ \lt 0$ when $E^\circ_{\mathrm{cell}} \gt 0$) |
 | $E^\circ_{\mathrm{cell}} = \frac{RT}{nF}\ln K$                     | Equilibrium constant from cell potential                                  |
 | $E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac{RT}{nF}\ln Q$ | Cell potential under non-standard conditions                              |
 | $\Delta G = -nFE_{\mathrm{cell}}$                                  | Gibbs free energy under non-standard conditions                           |
+
+</div>
 :::
 
 :::caution[Common Mistake]
-When using $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$Ensure $n$ is the number of moles of
-Electrons for the **balanced overall equation**, not per half-reaction. If you write the equation as
-$2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$ Then $n = 2$Not $n = 1$.
+When using $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$ Ensure $n$ is the number of moles of
+electrons for the **balanced overall equation**, not per half-reaction. If you write the equation as
+$2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$ Then $n = 2$ Not $n = 1$.
 
 ---
 
@@ -800,7 +836,7 @@ $2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$ Then $n = 2$N
 
 ## 8. Electrolysis Quantitative Problems (HL)
 
-### Faraday"s Laws
+### Faraday's Laws
 
 **Faraday's First Law.** The mass of substance deposited or liberated at an electrode during
 Electrolysis is directly proportional to the quantity of electricity passed.
@@ -912,7 +948,7 @@ $24.0\mathrm{ dm}^3\mathrm{/mol}$ at RTP ($298\mathrm{ K}$$100\mathrm{ kPa}$).
 ### Current Efficiency
 
 In practice, not all the current is used for the desired reaction. **Current efficiency** is defined
-As:
+as:
 
 $$
 \mathrm{Current efficiency} = \frac{\mathrm{actual mass deposited}}{\mathrm{theoretical mass deposited}} \times 100\%
@@ -961,6 +997,8 @@ The PEM allows only $\mathrm{H}^+$ ions to pass. Both electrodes contain a plati
 
 ### Comparison of Fuel Cell Types
 
+<div class="table-wrap">
+
 | Feature        | Alkaline Fuel Cell (AFC)            | PEM Fuel Cell                      |
 | -------------- | ----------------------------------- | ---------------------------------- |
 | Electrolyte    | Concentrated $\mathrm{KOH}$         | Solid polymer membrane             |
@@ -969,6 +1007,8 @@ The PEM allows only $\mathrm{H}^+$ ions to pass. Both electrodes contain a plati
 | Catalyst       | Platinum or nickel                  | Platinum                           |
 | Efficiency     | ~60%                                | ~40-50%                            |
 | Applications   | Space missions (Apollo, Shuttle)    | Vehicles, portable power           |
+
+</div>
 
 ### Thermodynamic Efficiency
 
@@ -993,6 +1033,8 @@ Transport limitations, $40\mathrm{-}60\%$.
 
 ### Advantages and Disadvantages of Fuel Cells
 
+<div class="table-wrap">
+
 | Advantages                                                         | Disadvantages                                    |
 | ------------------------------------------------------------------ | ------------------------------------------------ |
 | High efficiency compared to combustion engines                     | Hydrogen storage and transport challenges        |
@@ -1000,12 +1042,14 @@ Transport limitations, $40\mathrm{-}60\%$.
 | Quiet operation                                                    | Platinum catalysts are expensive                 |
 | Continuous operation with fuel supply                              | Limited infrastructure for hydrogen refuelling   |
 | Scalable design                                                    | Water management in PEM cells                    |
+
+</div>
 :::
 
 :::note[IB Exam Tip]
 When comparing fuel cells to combustion engines, emphasize that fuel cells are more efficient
-Because they are not limited by the Carnot cycle. Also, note that the overall reaction is the same
-As combustion of hydrogen, but the energy conversion pathway is different.
+because they are not limited by the Carnot cycle. Also, note that the overall reaction is the same
+as combustion of hydrogen, but the energy conversion pathway is different.
 
 ---
 
@@ -1057,6 +1101,8 @@ $\mathrm{Fe(OH)}_3$ dehydrates to form $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm
 
 ### Factors Affecting Corrosion Rate
 
+<div class="table-wrap">
+
 | Factor                          | Effect on Corrosion                                                |
 | ------------------------------- | ------------------------------------------------------------------ |
 | Presence of water and oxygen    | Both required for rusting                                          |
@@ -1067,12 +1113,14 @@ $\mathrm{Fe(OH)}_3$ dehydrates to form $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm
 | Contact with more active metals | Iron acts as cathode and is protected (galvanic protection)        |
 | Stress in metal                 | Stressed regions are more anodic and corrode faster                |
 
+</div>
+
 ### Prevention Methods
 
 #### 1. Barrier Coatings
 
 Paint, oil, grease, plastic, or enamel coatings prevent contact between the iron surface and
-Water/oxygen. This is effective only as long as the coating remains intact. If scratched, rusting
+water/oxygen. This is effective only as long as the coating remains intact. If scratched, rusting
 Occurs at the defect.
 
 #### 2. Galvanizing
@@ -1093,15 +1141,15 @@ $$
 
 **Definition.** **Sacrificial anodes** are blocks of a more reactive metal ( zinc, magnesium, Or
 aluminum) attached to the iron structure. The more reactive metal acts as the anode and corrodes
-Instead of the iron.
+instead of the iron.
 
 Applications: ship hulls, underground pipelines, water heaters, offshore oil platforms.
 
 #### 4. Alloying
 
 Stainless steel contains chromium (minimum 10.5%) which forms a thin, adherent layer of
-Chromium(III) oxide ($\mathrm{Cr}_2\mathrm{O}_3$) on the surface. This oxide layer is self-healing
-And prevents further corrosion.
+chromium(III) oxide ($\mathrm{Cr}_2\mathrm{O}_3$) on the surface. This oxide layer is self-healing
+and prevents further corrosion.
 
 #### 5. Cathodic Protection (Impressed Current)
 
@@ -1110,6 +1158,8 @@ Surface, preventing its oxidation. Used for large structures like pipelines and 
 
 ### Comparison of Protection Methods
 
+<div class="table-wrap">
+
 | Method                     | Mechanism             | Advantages                     | Limitations                                  |
 | -------------------------- | --------------------- | ------------------------------ | -------------------------------------------- |
 | Barrier coating            | Physical barrier      | Simple, inexpensive            | Fails if scratched                           |
@@ -1117,12 +1167,14 @@ Surface, preventing its oxidation. Used for large structures like pipelines and 
 | Sacrificial anodes         | Galvanic protection   | Replaceable, effective         | Anodes must be periodically replaced         |
 | Alloying (stainless steel) | Passive oxide layer   | Very durable                   | Expensive, not suitable for all applications |
 | Impressed current          | Forced cathode        | Effective for large structures | Requires continuous power supply             |
+
+</div>
 :::
 
 :::note[IB Exam Tip]
 When explaining why zinc protects iron in galvanizing, reference the electrochemical series: zinc
-Has a more negative $E^\circ$ than iron, so zinc is preferentially oxidized. This is the same
-Principle as sacrificial anodes.
+has a more negative $E^\circ$ than iron, so zinc is preferentially oxidized. This is the same
+principle as sacrificial anodes.
 
 ---
 
@@ -1141,7 +1193,7 @@ Principle as sacrificial anodes.
 
 **Definition.** A **concentration cell** is an electrochemical cell where both half-cells contain
 The same species but at different concentrations. The cell potential arises solely from the
-Concentration difference.
+concentration difference.
 
 **Example:**
 $\mathrm{Cu}(s) \mid \mathrm{Cu}^{2+}(0.10\mathrm{ M}) \parallel \mathrm{Cu}^{2+}(1.0\mathrm{ M}) \mid \mathrm{Cu}(s)$
@@ -1158,14 +1210,14 @@ E_{\mathrm{cell}} = 0 - \frac{0.0592}{2}\log_{10}\frac{0.10}{1.0} = -\frac{0.059
 $$
 
 The half-cell with the lower concentration undergoes oxidation (anode), and the half-cell with the
-Higher concentration undergoes reduction (cathode). The cell operates until the concentrations
+higher concentration undergoes reduction (cathode). The cell operates until the concentrations
 Equalize.
 
 ### Lead-Acid Batteries
 
 **Definition.** A **lead-acid battery** is a rechargeable battery commonly used in automobiles. It
 Consists of lead dioxide ($\mathrm{PbO}_2$) as the cathode, lead ($\mathrm{Pb}$) as the anode, and
-Sulfuric acid ($\mathrm{H}_2\mathrm{SO}_4$) as the electrolyte.
+sulfuric acid ($\mathrm{H}_2\mathrm{SO}_4$) as the electrolyte.
 
 **Discharging:**
 
@@ -1185,11 +1237,15 @@ The state of charge can be determined by measuring the density of the electrolyt
 Discharges, $\mathrm{H}_2\mathrm{SO}_4$ is consumed and $\mathrm{H}_2\mathrm{O}$ is produced,
 Decreasing the electrolyte density.
 
+<div class="table-wrap">
+
 | Parameter                                 | Fully Charged  | Discharged     |
 | ----------------------------------------- | -------------- | -------------- |
 | Electrolyte density                       | ~1.28 g/cm$^3$ | ~1.10 g/cm$^3$ |
 | Cell voltage                              | ~2.1 V         | ~1.8 V         |
 | $\mathrm{H}_2\mathrm{SO}_4$ concentration | High           | Low            |
+
+</div>
 
 ### Lithium-Ion Batteries
 
@@ -1214,6 +1270,8 @@ Key features:
 - Memory effect is negligible.
 - Degradation occurs over time due to electrolyte decomposition and electrode material degradation.
 
+<div class="table-wrap">
+
 | Feature             | Lead-Acid      | Lithium-Ion          |
 | ------------------- | -------------- | -------------------- |
 | Cell voltage        | 2.0 V          | 3.7 V                |
@@ -1223,12 +1281,14 @@ Key features:
 | Toxicity            | Lead is toxic  | Less toxic materials |
 | Cost                | Lower          | Higher               |
 | Weight              | Heavy          | Lightweight          |
+
+</div>
 :::
 
 :::note[IB Exam Tip]
 Know the half-reactions for the lead-acid battery. The key insight is that during discharge, both
-Electrodes are converted to $\mathrm{PbSO}_4$ And during charging, the reaction is reversed. This
-Reversibility is what makes the battery rechargeable.
+electrodes are converted to $\mathrm{PbSO}_4$ And during charging, the reaction is reversed. This
+reversibility is what makes the battery rechargeable.
 
 ---
 
@@ -1247,10 +1307,14 @@ Reversibility is what makes the battery rechargeable.
 
 Consider the following standard reduction potentials:
 
+<div class="table-wrap">
+
 | Half-Reaction                                            | $E^\circ$ (V) |
 | -------------------------------------------------------- | ------------- |
 | $\mathrm{Mg}^{2+} + 2e^- \rightleftharpoons \mathrm{Mg}$ | $-2.37$       |
 | $\mathrm{Ag}^+ + e^- \rightleftharpoons \mathrm{Ag}$     | $+0.80$       |
+
+</div>
 
 **(a)** Write the cell diagram notation for a galvanic cell constructed from these two half-cells.
 (1 mark)
@@ -1472,7 +1536,7 @@ $\mathrm{Efficiency} = \frac{\Delta G^\circ}{\Delta H^\circ} \times 100\% = \fra
 ### Question 6 (SL/HL, 4 marks)
 
 A piece of iron piping is connected to a block of magnesium using a conducting wire. Both are buried
-In moist soil.
+in moist soil.
 
 **(a)** Identify which metal acts as the anode and which acts as the cathode. (1 mark)
 
@@ -1488,8 +1552,8 @@ In moist soil.
 **(b)** $\mathrm{Mg}(s) \to \mathrm{Mg}^{2+}(aq) + 2e^-$
 
 **(c)** Since magnesium is more reactive than iron, it is preferentially oxidized (corrodes instead
-Of iron). Electrons flow from magnesium to iron, making the iron surface electron-rich and
-Preventing the oxidation of iron. This is called sacrificial (cathodic) protection. The magnesium
+of iron). Electrons flow from magnesium to iron, making the iron surface electron-rich and
+preventing the oxidation of iron. This is called sacrificial (cathodic) protection. The magnesium
 Block must be replaced periodically as it is consumed.
 
 ---
@@ -1523,7 +1587,7 @@ $K = 10^{37.16} = 1.4 \times 10^{37}$
 **(b)** Since $K$ is extremely large, the forward reaction is essentially irreversible under
 Standard conditions. The reverse reaction is not feasible
 ($K_{\mathrm{reverse}} = 1/K = 7.1 \times 10^{-38}$), meaning the equilibrium lies overwhelmingly
-Toward the products.
+toward the products.
 
 ---
 
@@ -1536,17 +1600,9 @@ Toward the products.
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[3_Electrochemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary of Key Equations
+
+<div class="table-wrap">
 
 | Equation                                                                          | Application                              |
 | --------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -1558,6 +1614,8 @@ flowchart TD
 | $\mathrm{Efficiency} = \frac{\Delta G^\circ}{\Delta H^\circ} \times 100\%$        | Fuel cell theoretical efficiency         |
 | $E^\circ_{\mathrm{cell}} = \frac{\Delta G^\circ}{-nF} = \frac{RT}{nF}\ln K$       | Thermodynamic relationships              |
 
+</div>
+
 ## Practice Problems
 
 <details>
@@ -1565,12 +1623,16 @@ flowchart TD
 
 Given the following standard reduction potentials:
 
+<div class="table-wrap">
+
 | Half-Reaction                                                | $E^\circ$ (V) |
 | ------------------------------------------------------------ | ------------- |
 | $\mathrm{Fe}^{3+} + e^- \rightleftharpoons \mathrm{Fe}^{2+}$ | $+0.77$       |
 | $\mathrm{I}_2 + 2e^- \rightleftharpoons 2\mathrm{I}^-$       | $+0.54$       |
 | $\mathrm{Br}_2 + 2e^- \rightleftharpoons 2\mathrm{Br}^-$     | $+1.07$       |
 | $\mathrm{Zn}^{2+} + 2e^- \rightleftharpoons \mathrm{Zn}$     | $-0.76$       |
+
+</div>
 
 (a) Will $\mathrm{Fe}^{3+}$ oxidise $\mathrm{I}^-$ to $\mathrm{I}_2$? Calculate
 $E^\circ_{\mathrm{cell}}$.
@@ -1587,18 +1649,22 @@ $E^\circ_{\mathrm{cell}}$.
 
 Anode (oxidation): $2\mathrm{I}^- \to \mathrm{I}_2 + 2e^-$$E^\circ = +0.54\mathrm{ V}$
 
-$$E^\circ_{\mathrm{cell}} = 0.77 - 0.54 = +0.23\mathrm{ V}$$
+$$
+E^\circ_{\mathrm{cell}} = 0.77 - 0.54 = +0.23\mathrm{ V}
+$$
 
-Since $E^\circ_{\mathrm{cell}} \gt 0$Yes, $\mathrm{Fe}^{3+}$ will spontaneously oxidise
+Since $E^\circ_{\mathrm{cell}} \gt 0$ Yes, $\mathrm{Fe}^{3+}$ will spontaneously oxidise
 $\mathrm{I}^-$.
 
 (b) Cathode (reduction): $\mathrm{Br}_2 + 2e^- \to 2\mathrm{Br}^-$, $E^\circ = +1.07\mathrm{ V}$
 
 Anode (oxidation): $\mathrm{Fe}^{2+} \to \mathrm{Fe}^{3+} + e^-$, $E^\circ = +0.77\mathrm{ V}$
 
-$$E^\circ_{\mathrm{cell}} = 1.07 - 0.77 = +0.30\mathrm{ V}$$
+$$
+E^\circ_{\mathrm{cell}} = 1.07 - 0.77 = +0.30\mathrm{ V}
+$$
 
-Since $E^\circ_{\mathrm{cell}} \gt 0$Yes, $\mathrm{Br}_2$ will spontaneously oxidise
+Since $E^\circ_{\mathrm{cell}} \gt 0$ Yes, $\mathrm{Br}_2$ will spontaneously oxidise
 $\mathrm{Fe}^{2+}$.
 
 </details>
@@ -1620,15 +1686,19 @@ An aqueous solution of $\mathrm{CuSO}_4$ is electrolysed using inert graphite el
 <summary>Answer</summary>
 
 (a) Copper(II) ions are below aluminium in the reactivity series, so $\mathrm{Cu}^{2+}$ is
-Preferentially discharged over $\mathrm{H}_2\mathrm{O}$:
+preferentially discharged over $\mathrm{H}_2\mathrm{O}$:
 
-$$\mathrm{Cu}^{2+}(aq) + 2e^- \to \mathrm{Cu}(s)$$
+$$
+\mathrm{Cu}^{2+}(aq) + 2e^- \to \mathrm{Cu}(s)
+$$
 
 Product: orange-brown solid (copper metal) deposits on the cathode.
 
 (b) Sulfate ions are not discharged; water is oxidised instead:
 
-$$2\mathrm{H}_2\mathrm{O}(l) \to \mathrm{O}_2(g) + 4\mathrm{H}^+(aq) + 4e^-$$
+$$
+2\mathrm{H}_2\mathrm{O}(l) \to \mathrm{O}_2(g) + 4\mathrm{H}^+(aq) + 4e^-
+$$
 
 Product: colourless oxygen gas bubbles at the anode.
 
@@ -1642,10 +1712,12 @@ Fades as $\mathrm{Cu}^{2+}$ is removed. Anode: colourless gas bubbles (oxygen) a
 
 A galvanic cell is constructed as:
 
-$$\mathrm{Zn}(s) \mid \mathrm{Zn}^{2+}(0.0010\mathrm{ M}) \parallel \mathrm{Cu}^{2+}(0.10\mathrm{ M}) \mid \mathrm{Cu}(s)$$
+$$
+\mathrm{Zn}(s) \mid \mathrm{Zn}^{2+}(0.0010\mathrm{ M}) \parallel \mathrm{Cu}^{2+}(0.10\mathrm{ M}) \mid \mathrm{Cu}(s)
+$$
 
 Given $E^\circ(\mathrm{Zn}^{2+}/\mathrm{Zn}) = -0.76\mathrm{ V}$ and
-$E^\circ(\mathrm{Cu}^{2+}/\mathrm{Cu}) = +0.34\mathrm{ V}$Calculate the cell potential at
+$E^\circ(\mathrm{Cu}^{2+}/\mathrm{Cu}) = +0.34\mathrm{ V}$ Calculate the cell potential at
 $298\mathrm{ K}$.
 
 </details>
@@ -1653,16 +1725,24 @@ $298\mathrm{ K}$.
 <details>
 <summary>Answer</summary>
 
-$$E^\circ_{\mathrm{cell}} = 0.34 - (-0.76) = +1.10\mathrm{ V}$$
+$$
+E^\circ_{\mathrm{cell}} = 0.34 - (-0.76) = +1.10\mathrm{ V}
+$$
 
 Overall reaction: $\mathrm{Zn}(s) + \mathrm{Cu}^{2+}(aq) \to \mathrm{Zn}^{2+}(aq) + \mathrm{Cu}(s)$
 $n = 2$
 
-$$Q = \frac{[\mathrm{Zn}^{2+}]}{[\mathrm{Cu}^{2+}]} = \frac{0.0010}{0.10} = 0.010$$
+$$
+Q = \frac{[\mathrm{Zn}^{2+}]}{[\mathrm{Cu}^{2+}]} = \frac{0.0010}{0.10} = 0.010
+$$
 
-$$E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac{0.0592}{n}\log_{10} Q = 1.10 - \frac{0.0592}{2}\log_{10}(0.010)$$
+$$
+E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac{0.0592}{n}\log_{10} Q = 1.10 - \frac{0.0592}{2}\log_{10}(0.010)
+$$
 
-$$= 1.10 - 0.0296 \times (-2) = 1.10 + 0.0592 = 1.16\mathrm{ V}$$
+$$
+= 1.10 - 0.0296 \times (-2) = 1.10 + 0.0592 = 1.16\mathrm{ V}
+$$
 
 </details>
 
@@ -1677,15 +1757,23 @@ $\mathrm{Al}_2\mathrm{O}_3$ for $2.00$ hours?
 <details>
 <summary>Answer</summary>
 
-$$Q = It = 5.00 \times 2.00 \times 3600 = 36000\mathrm{ C}$$
+$$
+Q = It = 5.00 \times 2.00 \times 3600 = 36000\mathrm{ C}
+$$
 
-$$n_e = \frac{Q}{F} = \frac{36000}{96500} = 0.373\mathrm{ mol of } e^-$$
+$$
+n_e = \frac{Q}{F} = \frac{36000}{96500} = 0.373\mathrm{ mol of } e^-
+$$
 
 For $\mathrm{Al}^{3+} + 3e^- \to \mathrm{Al}$, $n = 3$:
 
-$$n(\mathrm{Al}) = \frac{n_e}{3} = \frac{0.373}{3} = 0.124\mathrm{ mol}$$
+$$
+n(\mathrm{Al}) = \frac{n_e}{3} = \frac{0.373}{3} = 0.124\mathrm{ mol}
+$$
 
-$$m(\mathrm{Al}) = 0.124 \times 26.98 = 3.35\mathrm{ g}$$
+$$
+m(\mathrm{Al}) = 0.124 \times 26.98 = 3.35\mathrm{ g}
+$$
 
 </details>
 
@@ -1694,7 +1782,9 @@ $$m(\mathrm{Al}) = 0.124 \times 26.98 = 3.35\mathrm{ g}$$
 
 Balance the following equation in basic solution:
 
-$$\mathrm{MnO}_4^- + \mathrm{SO}_3^{2-} \to \mathrm{MnO}_2 + \mathrm{SO}_4^{2-}$$
+$$
+\mathrm{MnO}_4^- + \mathrm{SO}_3^{2-} \to \mathrm{MnO}_2 + \mathrm{SO}_4^{2-}
+$$
 
 </details>
 
@@ -1703,25 +1793,37 @@ $$\mathrm{MnO}_4^- + \mathrm{SO}_3^{2-} \to \mathrm{MnO}_2 + \mathrm{SO}_4^{2-}$
 
 Reduction half-reaction (in acidic conditions):
 
-$$\mathrm{MnO}_4^- + 4\mathrm{H}^+ + 3e^- \to \mathrm{MnO}_2 + 2\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{MnO}_4^- + 4\mathrm{H}^+ + 3e^- \to \mathrm{MnO}_2 + 2\mathrm{H}_2\mathrm{O}
+$$
 
 Oxidation half-reaction (in acidic conditions):
 
-$$\mathrm{SO}_3^{2-} + \mathrm{H}_2\mathrm{O} \to \mathrm{SO}_4^{2-} + 2\mathrm{H}^+ + 2e^-$$
+$$
+\mathrm{SO}_3^{2-} + \mathrm{H}_2\mathrm{O} \to \mathrm{SO}_4^{2-} + 2\mathrm{H}^+ + 2e^-
+$$
 
 Multiply reduction by 2 and oxidation by 3 to balance electrons:
 
-$$2\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 6e^- \to 2\mathrm{MnO}_2 + 4\mathrm{H}_2\mathrm{O}$$
+$$
+2\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 6e^- \to 2\mathrm{MnO}_2 + 4\mathrm{H}_2\mathrm{O}
+$$
 
-$$3\mathrm{SO}_3^{2-} + 3\mathrm{H}_2\mathrm{O} \to 3\mathrm{SO}_4^{2-} + 6\mathrm{H}^+ + 6e^-$$
+$$
+3\mathrm{SO}_3^{2-} + 3\mathrm{H}_2\mathrm{O} \to 3\mathrm{SO}_4^{2-} + 6\mathrm{H}^+ + 6e^-
+$$
 
 Add both half-reactions:
 
-$$2\mathrm{MnO}_4^- + 3\mathrm{SO}_3^{2-} + 2\mathrm{H}^+ \to 2\mathrm{MnO}_2 + 3\mathrm{SO}_4^{2-} + \mathrm{H}_2\mathrm{O}$$
+$$
+2\mathrm{MnO}_4^- + 3\mathrm{SO}_3^{2-} + 2\mathrm{H}^+ \to 2\mathrm{MnO}_2 + 3\mathrm{SO}_4^{2-} + \mathrm{H}_2\mathrm{O}
+$$
 
 Now convert to basic conditions by adding $2\mathrm{OH}^-$ to both sides:
 
-$$2\mathrm{MnO}_4^- + 3\mathrm{SO}_3^{2-} + \mathrm{H}_2\mathrm{O} \to 2\mathrm{MnO}_2 + 3\mathrm{SO}_4^{2-} + 2\mathrm{OH}^-$$
+$$
+2\mathrm{MnO}_4^- + 3\mathrm{SO}_3^{2-} + \mathrm{H}_2\mathrm{O} \to 2\mathrm{MnO}_2 + 3\mathrm{SO}_4^{2-} + 2\mathrm{OH}^-
+$$
 
 </details>
 
@@ -1748,11 +1850,15 @@ $$2\mathrm{MnO}_4^- + 3\mathrm{SO}_3^{2-} + \mathrm{H}_2\mathrm{O} \to 2\mathrm{
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site    | Link                                                                                                         |
 | ------------------ | ------- | ------------------------------------------------------------------------------------------------------------ |
 | [Electrochemistry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/electrochemistry)                           |
-| [Electrochemistry] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/9-redox/3_electrochemistry)                                  |
-| [Electrochemistry] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry) |
+| [Electrochemistry] | IB      | [View](https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry/)                                  |
+| [Electrochemistry] | DSE     | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
+
+</div>
 
 ## Worked Examples
 

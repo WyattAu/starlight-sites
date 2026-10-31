@@ -223,7 +223,7 @@ int main() {
 
 **Correct: A** (index 0)
 
-Template argument deduction deduces `T` as `int``double`and `char` from the arguments. `maximum(3,7)` returns 7, `maximum(3.5,2.1)` returns 3.5, and `maximum('a','z')` returns 'z'. The `char` is printed as the character 'z'.
+Template argument deduction deduces `T` as `int`, `double`and `char` from the arguments. `maximum(3,7)` returns 7, `maximum(3.5,2.1)` returns 3.5, and `maximum('a','z')` returns 'z'. The `char` is printed as the character 'z'.
 
 `easy`1 mark
 
@@ -639,7 +639,7 @@ Which iterator category supports random access?
 
 **Correct: D** (index 3)
 
-Random access iterators (like those of `std::vector` and `std::deque`) support `it + n``it - n``it1 - it2`and `it[n]`allowing jumps to any position in constant time. Bidirectional iterators only support `++` and `--`.
+Random access iterators (like those of `std::vector` and `std::deque`) support `it + n`, `it - n`, `it1 - it2`and `it[n]`allowing jumps to any position in constant time. Bidirectional iterators only support `++` and `--`.
 
 `easy`1 mark
 

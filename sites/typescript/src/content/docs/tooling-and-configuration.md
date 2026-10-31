@@ -42,6 +42,8 @@ Configuration:
 
 #### Language and Environment
 
+<div class="table-wrap">
+
 | Option               | Description                               | Recommended                      |
 | -------------------- | ----------------------------------------- | -------------------------------- |
 | `target`             | ECMAScript version for emitted JavaScript | `"ES2022"` or `"ESNext"`         |
@@ -50,7 +52,11 @@ Configuration:
 | `jsxFactory`         | JSX factory function                      | `"React.createElement"` (legacy) |
 | `jsxFragmentFactory` | JSX fragment factory                      | `"React.Fragment"` (legacy)      |
 
+</div>
+
 #### Module Resolution
+
+<div class="table-wrap">
 
 | Option              | Description                                       | Recommended               |
 | ------------------- | ------------------------------------------------- | ------------------------- |
@@ -62,7 +68,11 @@ Configuration:
 | `resolveJsonModule` | Allow importing `.json` files                     | `true`                    |
 | `isolatedModules`   | Ensure each file can be transpiled independently  | `true`                    |
 
+</div>
+
 #### Type Checking
+
+<div class="table-wrap">
 
 | Option                         | Description                                                     | Recommended                  |
 | ------------------------------ | --------------------------------------------------------------- | ---------------------------- |
@@ -79,7 +89,11 @@ Configuration:
 | `noFallthroughCasesInSwitch`   | Error on switch case fallthrough                                | `true`                       |
 | `exactOptionalPropertyTypes`   | Distinguish between optional and `undefined`-present properties | `true`                       |
 
+</div>
+
 #### Output
+
+<div class="table-wrap">
 
 | Option           | Description                           | Recommended                   |
 | ---------------- | ------------------------------------- | ----------------------------- |
@@ -88,6 +102,8 @@ Configuration:
 | `declarationMap` | Generate sourcemaps for `.d.ts` files | `true` for libraries          |
 | `sourceMap`      | Generate sourcemaps                   | `true`                        |
 | `noEmit`         | Type-check without emitting files     | `true` for type-checking only |
+
+</div>
 
 ### The `strict` Flag
 
@@ -119,7 +135,7 @@ const a: Config = {};
 const b: Config = { host: undefined };
 ```
 
-Under `exactOptionalPropertyTypes`The second line is an error. To explicitly allow `undefined`
+Under `exactOptionalPropertyTypes`. The second line is an error. To explicitly allow `undefined`
 Declare the property as `host?: string | undefined`.
 
 ## Module Resolution Strategies
@@ -146,12 +162,16 @@ Themselves (TypeScript 5.0+). Does not enforce Node.js-specific resolution rules
 
 ### Resolution Comparison
 
+<div class="table-wrap">
+
 | Feature                            | `node`          | `node16`           | `bundler`        |
 | ---------------------------------- | --------------- | ------------------ | ---------------- |
 | ESM-aware                          | No              | Yes                | No               |
 | Requires file extensions in ESM    | No              | Yes                | No               |
 | Checks `exports` in `package.json` | No              | Yes                | Yes              |
 | Best for                           | Legacy projects | Node.js native ESM | Bundled web apps |
+
+</div>
 
 ## @types Packages and DefinitelyTyped
 
@@ -267,7 +287,7 @@ Configuration for `ts-node` in `tsconfig.json`:
 ```
 
 `transpileOnly: true` skips type checking for faster execution (useful during development). Remove
-It for production scripts where type safety is critical.
+it for production scripts where type safety is critical.
 
 **Common Pitfall:** `ts-node` with ESM requires additional configuration. Set `"esm": true` in the
 `ts-node` section of `tsconfig.json` and ensure `package.json` has `"type": "module"`.
@@ -305,8 +325,10 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 
 ### Key Rules
 
+<div class="table-wrap">
+
 | Rule                                               | Description                      |
-| -------------------------------------------------- | -------------------------------- | --- | --- |
+| -------------------------------------------------- | -------------------------------- |
 | `@typescript-eslint/no-explicit-any`               | Disallow `any` type              |
 | `@typescript-eslint/no-unused-vars`                | Disallow unused variables        |
 | `@typescript-eslint/explicit-function-return-type` | Require explicit return types    |
@@ -315,6 +337,8 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 | `@typescript-eslint/prefer-nullish-coalescing`     | Prefer `??` over ` |     | `   |
 | `@typescript-eslint/prefer-optional-chain`         | Prefer `?.` over manual checks   |
 | `@typescript-eslint/no-non-null-assertion`         | Disallow `!` non-null assertions |
+
+</div>
 
 **Common Pitfall:** The `@typescript-eslint/recommended-requiring-type-checking` config requires
 `parserOptions.project` to point to a valid `tsconfig.json`. This makes linting slower because it
@@ -461,6 +485,8 @@ declare module 'another-untyped' {
 
 ### `jsx` Option Values
 
+<div class="table-wrap">
+
 | Value            | Output                                                           |
 | ---------------- | ---------------------------------------------------------------- |
 | `"preserve"`     | Emit `.jsx` files (for further processing by Babel)              |
@@ -468,6 +494,8 @@ declare module 'another-untyped' {
 | `"react-native"` | `React.createElement` (preserves JSX as `React.NativeComponent`) |
 | `"react-jsx"`    | `_jsx` from `react/jsx-runtime` (React 17+)                      |
 | `"react-jsxdev"` | `_jsxDev` from `react/jsx-dev-runtime` (React 17+ dev)           |
+
+</div>
 
 ### Custom JSX Factory
 
@@ -481,7 +509,7 @@ declare module 'another-untyped' {
 }
 ```
 
-This configuration uses `h` instead of `React.createElement`Which is the convention for Preact.
+This configuration uses `h` instead of `React.createElement`. Which is the convention for Preact.
 
 ## New Features (TypeScript 5.0+)
 
@@ -503,7 +531,7 @@ const debug: boolean = config.debug;
 ```
 
 Without `satisfies`Assigning to `Record<string, string | number | boolean>` would widen the Property
-types. With `satisfies`The literal types are preserved while still validating against the Broader
+types. With `satisfies`. The literal types are preserved while still validating against the Broader
 type.
 
 ### `satisfies` vs Type Annotation
@@ -535,7 +563,7 @@ function createRoute<const T extends string[]>(path: `/${string}`, params: T): v
 createRoute('/users/:id', ['id'] as const);
 ```
 
-Without `const` on the type parameter, `T` would be inferred as `string[]`. With `const``T` is
+Without `const` on the type parameter, `T` would be inferred as `string[]`. With `const`, `T` is
 Inferred as `readonly ["id"]`.
 
 ### Decorator Metadata (TypeScript 5.2+)
@@ -561,7 +589,7 @@ function example(): void {
 ```
 
 The `using` keyword ensures that `dispose()` is called when the variable goes out of scope, even if
-An exception is thrown.
+an exception is thrown.
 
 ## Intuition
 
@@ -580,7 +608,7 @@ Specific reason.
 ### Pitfall 2: Path Aliases Not Resolved at Runtime
 
 Path aliases in `tsconfig.json` (`paths`) are resolved only by the TypeScript compiler. The bundler
-Or runtime must be configured separately to resolve these aliases. Without matching bundler
+or runtime must be configured separately to resolve these aliases. Without matching bundler
 Configuration, imports will fail at runtime.
 
 ### Pitfall 3: `composite` Requires Explicit File Listing
@@ -593,17 +621,6 @@ Full list of input files without filesystem traversal.
 
 When `isolatedModules` is enabled, declaration files must be careful about re-exports. Re-exporting
 Types and values from the same module can cause issues with some bundlers.
-
-
-```mermaid
-flowchart TD
-    A[Tooling And Configuration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -618,13 +635,7 @@ practical implementation, and key applications.
 - modules and namespaces
 - type guards and narrowing
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

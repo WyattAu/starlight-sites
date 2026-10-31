@@ -18,7 +18,7 @@ description: "is the central logging daemon in systemd-based systems. It collect
 ## systemd-journald Architecture
 
 `systemd-journald` is the central logging daemon in systemd-based systems. It collects log messages
-From multiple sources and stores them in a structured, indexed binary format.
+from multiple sources and stores them in a structured, indexed binary format.
 
 ```mermaid
 flowchart LR
@@ -33,6 +33,8 @@ flowchart LR
 
 ### Log Sources
 
+<div class="table-wrap">
+
 | Source           | Description                                 |
 | ---------------- | ------------------------------------------- |
 | stdout/stderr    | All service output captured by systemd      |
@@ -40,7 +42,9 @@ flowchart LR
 | syslog()         | Traditional syslog calls                    |
 | Audit events     | Kernel audit subsystem                      |
 | /dev/kmsg        | Kernel log device                           |
-| Internal journal | Journal"s own diagnostic messages           |
+| Internal journal | Journal's own diagnostic messages           |
+
+</div>
 
 ### Storage Modes
 
@@ -370,7 +374,7 @@ logrotate -d /etc/logrotate.d/nginx
 ## rsyslog
 
 `rsyslog` is the traditional syslog daemon that can receive messages from journald and process them
-With rules-based routing.
+with rules-based routing.
 
 ### Configuration
 

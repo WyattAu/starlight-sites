@@ -64,7 +64,9 @@ Polymers are large molecules made of repeating structural units (monomers). This
 
 **Problem:** Identify the monomer(s) for the following polymer:
 
-$$\left[-\text{NH}-(\text{CH}_2)_6-\text{NH}-\text{CO}-(\text{CH}_2)_4-\text{CO}-\right]_n$$
+$$
+\left[-\text{NH}-(\text{CH}_2)_6-\text{NH}-\text{CO}-(\text{CH}_2)_4-\text{CO}-\right]_n
+$$
 
 **Solution:**
 
@@ -89,7 +91,9 @@ Monomer: vinyl chloride $\text{CH}_2=\text{CHCl}$
 
 Addition polymerization (no small molecule lost):
 
-$$n\text{CH}_2=\text{CHCl} \xrightarrow{\text{initiator}} \left[-\text{CH}_2-\text{CHCl}-\right]_n$$
+$$
+n\text{CH}_2=\text{CHCl} \xrightarrow{\text{initiator}} \left[-\text{CH}_2-\text{CHCl}-\right]_n
+$$
 
 The double bond opens and monomers add end-to-end.
 
@@ -103,7 +107,9 @@ The double bond opens and monomers add end-to-end.
 
 PHBV (polyhydroxybutyrate-co-valerate) is a copolymer of 3-hydroxybutanoic acid and 3-hydroxypentanoic acid:
 
-$$\left[-\text{O}-\text{CH}(\text{CH}_3)-\text{CH}_2-\text{CO}-\right]_x \left[-\text{O}-\text{CH}(\text{C}_2\text{H}_5)-\text{CH}_2-\text{CO}-\right]_y$$
+$$
+\left[-\text{O}-\text{CH}(\text{CH}_3)-\text{CH}_2-\text{CO}-\right]_x \left[-\text{O}-\text{CH}(\text{C}_2\text{H}_5)-\text{CH}_2-\text{CO}-\right]_y
+$$
 
 It is biodegradable because:
 

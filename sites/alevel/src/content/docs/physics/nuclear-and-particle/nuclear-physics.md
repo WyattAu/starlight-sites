@@ -42,15 +42,21 @@ and Is repelled by the Coulomb force.
 ### Closest Approach Distance
 
 For a head-on collision, the alpha particle momentarily stops (all kinetic energy converted to
-Electric potential energy):
+electric potential energy):
 
-$$\frac{1}{2}m_\alpha v^2 = \frac{Z_{\mathrm{Au}} \cdot 2e^2}{4\pi\varepsilon_0 d}$$
+$$
+\frac{1}{2}m_\alpha v^2 = \frac{Z_{\mathrm{Au}} \cdot 2e^2}{4\pi\varepsilon_0 d}
+$$
 
-$$\boxed{d = \frac{Z_{\mathrm{Au}} e^2}{2\pi\varepsilon_0 E_k}}$$
+$$
+\boxed{d = \frac{Z_{\mathrm{Au}} e^2}{2\pi\varepsilon_0 E_k}}
+$$
 
 Where $d$ is the distance of closest approach. For 5.5 MeV alpha particles on gold ($Z = 79$):
 
-$$d = \frac{79 \times (1.60 \times 10^{-19})^2}{2\pi \times 8.85 \times 10^{-12} \times 5.5 \times 10^6 \times 1.60 \times 10^{-19}} \approx 4.1 \times 10^{-14}\ \mathrm{m}$$
+$$
+d = \frac{79 \times (1.60 \times 10^{-19})^2}{2\pi \times 8.85 \times 10^{-12} \times 5.5 \times 10^6 \times 1.60 \times 10^{-19}} \approx 4.1 \times 10^{-14}\ \mathrm{m}
+$$
 
 This gives an upper bound on the nuclear radius of gold ($\sim 10^{-14}$ m, compared to the atomic
 Radius of $\sim 10^{-10}$ m).
@@ -63,11 +69,15 @@ strong nuclear force Has a very short range).
 
 The nucleus contains **protons** and **neutrons** (collectively, **nucleons**).
 
+<div class="table-wrap">
+
 | Property | Proton  | Neutron | Electron        |
 | -------- | ------- | ------- | --------------- |
 | Charge   | $+e$    | $0$     | $-e$            |
 | Mass (u) | 1.00728 | 1.00867 | 0.00055         |
 | Location | Nucleus | Nucleus | Electron shells |
+
+</div>
 
 **Notation.** A nuclide $\prescript{A}{Z}\mathrm{X}$ has mass number $A$ (total nucleons) and Atomic
 number $Z$ (protons). The neutron number is $N = A - Z$.
@@ -82,30 +92,38 @@ Identical chemical properties but different nuclear properties (stability, half-
 ### Mass Defect
 
 The mass of a nucleus is **less** than the sum of the masses of its constituent nucleons. The
-Difference is the **mass defect**:
+difference is the **mass defect**:
 
-$$\boxed{\Delta m = Zm_p + Nm_n - m_{\mathrm{nucleus}}}$$
+$$
+\boxed{\Delta m = Zm_p + Nm_n - m_{\mathrm{nucleus}}}
+$$
 
 ### Einstein's Mass--Energy Equivalence
 
-$$\boxed{E = mc^2}$$
+$$
+\boxed{E = mc^2}
+$$
 
 The mass defect corresponds to the binding energy, the energy released when the nucleus was formed
-From its constituent nucleons, or equivalently, the energy required to separate the nucleus into its
-Individual nucleons.
+from its constituent nucleons, or equivalently, the energy required to separate the nucleus into its
+individual nucleons.
 
-$$\boxed{E_b = \Delta m\,c^2}$$
+$$
+\boxed{E_b = \Delta m\,c^2}
+$$
 
 ### Binding Energy per Nucleon
 
 The binding energy per nucleon is a measure of nuclear stability:
 
-$$\boxed{\frac{E_b}{A} = \frac{\Delta m\,c^2}{A}}$$
+$$
+\boxed{\frac{E_b}{A} = \frac{\Delta m\,c^2}{A}}
+$$
 
 <details>
 <summary>Worked Example: Binding Energy of Helium-4</summary>
 Calculate the binding energy per nucleon of $\prescript{4}{2}\mathrm{He}$.
-Given: $m_p = 1.00728$ u, $m_n = 1.00867$ u, $m_{\mathrm{He}} = 4.00151$ u,
+given: $m_p = 1.00728$ u, $m_n = 1.00867$ u, $m_{\mathrm{He}} = 4.00151$ u,
 $1\ \mathrm{u} = 931.5$ MeV/c$^2$.
 
 **Answer.**
@@ -145,9 +163,11 @@ the Increasing Coulomb repulsion between protons.
 
 **Why not all-neutron nuclei?** The Pauli exclusion principle forces neutrons into progressively
 Higher energy states. Adding protons allows nucleons to occupy lower-energy states, reducing the
-Total energy. For light nuclei, the balance favours $N \approx Z$.
+total energy. For light nuclei, the balance favours $N \approx Z$.
 
 ### Decay Modes and Stability
+
+<div class="table-wrap">
 
 | Condition       | Dominant decay                      | Reason                     |
 | --------------- | ----------------------------------- | -------------------------- |
@@ -156,14 +176,16 @@ Total energy. For light nuclei, the balance favours $N \approx Z$.
 | $A \gt 150$     | Alpha decay                         | Reduces both $N$ and $Z$   |
 | Excited state   | Gamma decay                         | Releases excess energy     |
 
+</div>
+
 **Alpha decay** occurs predominantly for $A \gt 150$ because the alpha particle is exceptionally
 Stable (high binding energy per nucleon of 7.08 MeV), making it energetically favourable to emit.
 
 ### Magic Numbers
 
 Nuclei with $Z$ or $N$ equal to 2, 8, 20, 28, 50, 82, or 126 are unusually stable, analogous to
-Noble gas electron configurations. These "magic numbers" arise from the shell structure of the
-Nucleus, predicted by the nuclear shell model (Mayer and Jensen, 1949).
+noble gas electron configurations. These "magic numbers" arise from the shell structure of the
+nucleus, predicted by the nuclear shell model (Mayer and Jensen, 1949).
 
 ## 5. Radioactive Decay
 
@@ -171,7 +193,9 @@ Nucleus, predicted by the nuclear shell model (Mayer and Jensen, 1949).
 
 An alpha particle ($\prescript{4}{2}\alpha = \prescript{4}{2}\mathrm{He}$) is emitted:
 
-$$\prescript{A}{Z}\mathrm{X} \to \prescript{A-4}{Z-2}\mathrm{Y} + \prescript{4}{2}\alpha$$
+$$
+\prescript{A}{Z}\mathrm{X} \to \prescript{A-4}{Z-2}\mathrm{Y} + \prescript{4}{2}\alpha
+$$
 
 **Conservation:** $A$ decreases by 4, $Z$ decreases by 2. Highly ionising, stopped by paper.
 
@@ -179,26 +203,32 @@ $$\prescript{A}{Z}\mathrm{X} \to \prescript{A-4}{Z-2}\mathrm{Y} + \prescript{4}{
 
 A neutron converts to a proton, emitting an electron and an antineutrino:
 
-$$\prescript{A}{Z}\mathrm{X} \to \prescript{A}{Z+1}\mathrm{Y} + \prescript{0}{-1}\beta^- + \bar{\nu}_e$$
+$$
+\prescript{A}{Z}\mathrm{X} \to \prescript{A}{Z+1}\mathrm{Y} + \prescript{0}{-1}\beta^- + \bar{\nu}_e
+$$
 
 **Conservation:** $A$ unchanged, $Z$ increases by 1. The antineutrino was postulated (Pauli, 1930;
 Fermi, 1934) to conserve energy and momentum, the continuous electron energy spectrum requires a
-Third particle to carry away the remaining energy.
+third particle to carry away the remaining energy.
 
 ### Beta-Plus Decay
 
 A proton converts to a neutron, emitting a positron and a neutrino:
 
-$$\prescript{A}{Z}\mathrm{X} \to \prescript{A}{Z-1}\mathrm{Y} + \prescript{0}{+1}\beta^+ + \nu_e$$
+$$
+\prescript{A}{Z}\mathrm{X} \to \prescript{A}{Z-1}\mathrm{Y} + \prescript{0}{+1}\beta^+ + \nu_e
+$$
 
 This requires $m_{\mathrm{parent}} \gt m_{\mathrm{daughter}} + 2m_e$ (the positron mass must be
-Created).
+created).
 
 ### Gamma Decay
 
 Excited nucleus de-excites by emitting a high-energy photon:
 
-$$\prescript{A}{Z}\mathrm{X}^* \to \prescript{A}{Z}\mathrm{X} + \gamma$$
+$$
+\prescript{A}{Z}\mathrm{X}^* \to \prescript{A}{Z}\mathrm{X} + \gamma
+$$
 
 No change in $A$ or $Z$. Weakly ionising, highly penetrating (requires thick lead or concrete).
 
@@ -211,21 +241,31 @@ decay.
 ### Derivation
 
 The decay constant $\lambda$ is the probability per unit time that a single nucleus will decay. If
-There are $N$ nuclei:
+there are $N$ nuclei:
 
-$$\frac{dN}{dt} = -\lambda N$$
+$$
+\frac{dN}{dt} = -\lambda N
+$$
 
 Separating variables and integrating from $N_0$ at $t = 0$ to $N$ at time $t$:
 
-$$\int_{N_0}^{N}\frac{dN'}{N'} = -\int_0^t \lambda\,dt'$$
+$$
+\int_{N_0}^{N}\frac{dN'}{N'} = -\int_0^t \lambda\,dt'
+$$
 
-$$\ln\left(\frac{N}{N_0}\right) = -\lambda t$$
+$$
+\ln\left(\frac{N}{N_0}\right) = -\lambda t
+$$
 
-$$\boxed{N = N_0 e^{-\lambda t}}$$
+$$
+\boxed{N = N_0 e^{-\lambda t}}
+$$
 
 ### Activity
 
-$$\boxed{A = \lambda N = -\frac{dN}{dt}}$$
+$$
+\boxed{A = \lambda N = -\frac{dN}{dt}}
+$$
 
 SI unit: becquerel (Bq). $1\ \mathrm{Bq} = 1\ \mathrm{decay\,s}^{-1}$.
 
@@ -233,9 +273,13 @@ SI unit: becquerel (Bq). $1\ \mathrm{Bq} = 1\ \mathrm{decay\,s}^{-1}$.
 
 Setting $N = N_0/2$ at $t = t_{1/2}$:
 
-$$\frac{1}{2} = e^{-\lambda t_{1/2}} \implies t_{1/2} = \frac{\ln 2}{\lambda}$$
+$$
+\frac{1}{2} = e^{-\lambda t_{1/2}} \implies t_{1/2} = \frac{\ln 2}{\lambda}
+$$
 
-$$\boxed{t_{1/2} = \frac{\ln 2}{\lambda}}$$
+$$
+\boxed{t_{1/2} = \frac{\ln 2}{\lambda}}
+$$
 
 ## 7. Nuclear Fission
 
@@ -245,7 +289,9 @@ A heavy nucleus ( $\prescript{235}_{92}\mathrm{U}$ or $\prescript{239}_{94}\math
 neutron, becoming unstable and splitting into two lighter nuclei (fission fragments) plus 2--3
 neutrons and energy:
 
-$$\prescript{235}_{92}\mathrm{U} + \prescript{1}_{0}\mathrm{n} \to \prescript{236}_{92}\mathrm{U}^* \to \prescript{141}_{56}\mathrm{Ba} + \prescript{92}_{36}\mathrm{Kr} + 3\prescript{1}_{0}\mathrm{n} + \mathrm{energy}$$
+$$
+\prescript{235}_{92}\mathrm{U} + \prescript{1}_{0}\mathrm{n} \to \prescript{236}_{92}\mathrm{U}^* \to \prescript{141}_{56}\mathrm{Ba} + \prescript{92}_{36}\mathrm{Kr} + 3\prescript{1}_{0}\mathrm{n} + \mathrm{energy}
+$$
 
 ### Energy Release
 
@@ -264,7 +310,7 @@ Cause another fission) must equal 1.
 - $k \gt 1$: supercritical (exponential growth, nuclear weapon).
 
 **Critical mass:** The minimum mass of fissile material required to sustain a chain reaction. For
-$\prescript{235}_{92}\mathrm{U}$This is approximately 50 kg (sphere). The critical mass depends On
+$\prescript{235}_{92}\mathrm{U}$ This is approximately 50 kg (sphere). The critical mass depends On
 geometry, density, and the presence of a neutron reflector.
 
 ### Nuclear Reactor
@@ -295,7 +341,9 @@ strong Nuclear force ($\sim 10^{-15}$ m). This requires:
 
 The product of these three quantities is the Lawson criterion:
 
-$$n\tau \gt 10^{20}\ \mathrm{s\,m^{-3}}$$
+$$
+n\tau \gt 10^{20}\ \mathrm{s\,m^{-3}}
+$$
 
 For deuterium--tritium fusion.
 
@@ -304,7 +352,9 @@ For deuterium--tritium fusion.
 In the Sun's core ($T \approx 1.5 \times 10^7$ K), hydrogen fuses to helium via the proton--proton
 Chain:
 
-$$4\prescript{1}{1}\mathrm{H} \to \prescript{4}{2}\mathrm{He} + 2\prescript{0}{+1}\beta^+ + 2\nu_e + 2\gamma$$
+$$
+4\prescript{1}{1}\mathrm{H} \to \prescript{4}{2}\mathrm{He} + 2\prescript{0}{+1}\beta^+ + 2\nu_e + 2\gamma
+$$
 
 Net energy release: $\sim 26.7$ MeV per helium-4 nucleus formed.
 
@@ -371,7 +421,7 @@ Check: $A$: $14 = 14 + 0 + 0$. $Z$: $6 = 7 + (-1) + 0$. Both conserved.
 <details>
 <summary>Problem 4</summary>
 A sample has activity 400 Bq and half-life 5.0 hours. Calculate the activity after 20 hours and the
-Number of nuclei present initially.
+number of nuclei present initially.
 
 **Answer.** After 20 hours: $n = 20/5 = 4$ half-lives. $A = 400/2^4 = 25$ Bq.
 
@@ -415,7 +465,7 @@ within the Range of the strong nuclear force ($\sim 10^{-15}$ m).
 
 A moderator slows neutrons down, which is needed for fission (thermal neutrons have larger fission
 Cross-sections). In fusion, the reactants are positively charged nuclei, not neutrons, and the
-Reaction requires them to be fast (high energy), not slow. A moderator would be counterproductive.
+reaction requires them to be fast (high energy), not slow. A moderator would be counterproductive.
 
 </details>
 
@@ -447,26 +497,9 @@ $\lambda t = \ln 16 = 4\ln 2$. $t = 4\ln 2/\lambda = 4t_{1/2} = 4 \times 8.04 = 
 6. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
 
-```mermaid
-flowchart TD
-    A[Nuclear Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

@@ -11,6 +11,18 @@ categories:
 
 ## Complete A-Level Study Guide
 
+
+:::note[Heading to university next?]
+These notes are calibrated to your exam. University mathematics and physics are
+not: they assume you can read a proof, define a limit from the epsilon-delta
+definition, and work with vectors and set notation. The destination sites have
+free transition pages written exactly for that step -- start with
+**[Before You Begin: From School to University Mathematics](https://mathematics.wyattau.com/before-you-begin/)**
+and continue to
+**[the physics version](https://physics.wyattau.com/before-you-begin/)**.
+Both end with a self-test, so you know which sections to study.
+:::
+
 A-Levels are the standard qualifications for university entry in the UK, taken by students aged 16-18. This hub page connects you to all our A-Level study materials across every subject.
 
 ### Available Subjects
@@ -65,12 +77,16 @@ Aim for at least 20-30 practice questions per topic, mixing worked examples with
 
 ## Exam Boards and Specifications
 
+<div class="table-wrap">
+
 | Board | Sciences | Maths | Humanities | Notes |
 |-------|----------|-------|------------|-------|
 | AQA | Biology, Chemistry, Physics | Maths, Further Maths | History, Geography, English | Largest entry cohort; practicals teacher-assessed |
 | Edexcel | Biology, Chemistry, Physics | Maths, Further Maths | History, Economics | IAL variant for international centres |
 | OCR | Biology A/B, Chemistry A/B, Physics A/B | Maths (MEI option) | History A, English Literature | Gateway (A) vs Salters (B) tracks |
 | WJEC/Eduqas | Biology, Chemistry, Physics | Maths | History, RS | Eduqas is the England-facing brand |
+
+</div>
 
 Confirm your centre's board before using past papers, specification wording and option topics differ.
 
@@ -105,6 +121,8 @@ Keep doors open: two facilitating subjects (maths, sciences, history, geography,
 
 ## Quick Subject Index
 
+<div class="table-wrap">
+
 | Subject | Tier | Topics | Practice Sets |
 |---------|------|--------|---------------|
 | Biology | Tier 3 | 12 modules | 48 problems |
@@ -119,7 +137,11 @@ Keep doors open: two facilitating subjects (maths, sciences, history, geography,
 | History | Tier 2 | 6 modules | 18 essays |
 | Psychology | Tier 2 | 5 modules | 20 problems |
 
+</div>
+
 ## Grade Boundary Context
+
+<div class="table-wrap">
 
 | Grade | Typical raw boundary | Notes |
 |-------|---------------------|-------|
@@ -127,5 +149,7 @@ Keep doors open: two facilitating subjects (maths, sciences, history, geography,
 | A | 65-80% | Consistency across papers matters |
 | B | 55-65% | Most competitive-course floor |
 | C | 45-55% | Solid pass with full course coverage |
+
+</div>
 
 Boundaries move each session with paper difficulty and cohort performance, never target a fixed percentage; target full syllabus competence.

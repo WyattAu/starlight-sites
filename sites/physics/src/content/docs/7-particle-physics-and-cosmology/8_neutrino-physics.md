@@ -20,16 +20,20 @@ description: "Neutrinos are produced and detected in flavour eigenstates But pro
 ### 8.1 Neutrino Oscillations
 
 Neutrinos are produced and detected in flavour eigenstates $(\nu_e, \nu_\mu, \nu_\tau)$ But propagate
-As mass eigenstates $(\nu_1, \nu_2, \nu_3)$ related by the **PMNS mixing matrix** $U$:
+as mass eigenstates $(\nu_1, \nu_2, \nu_3)$ related by the **PMNS mixing matrix** $U$:
 
-$$|\nu_\alpha\rangle = \sum_i U_{\alpha i}^* |\nu_i\rangle$$
+$$
+|\nu_\alpha\rangle = \sum_i U_{\alpha i}^* |\nu_i\rangle
+$$
 
 As a neutrino of flavour $\alpha$ propagates, the mass eigenstates acquire different phases:
-$\exp(-im_i^2 L/(2E))$Leading to oscillations.
+$\exp(-im_i^2 L/(2E))$ Leading to oscillations.
 
 **Two-flavour oscillation probability:**
 
-$$P(\nu_\alpha \to \nu_\beta) = \sin^2(2\theta)\sin^2\left(\frac{\Delta m^2 L}{4E}\right)$$
+$$
+P(\nu_\alpha \to \nu_\beta) = \sin^2(2\theta)\sin^2\left(\frac{\Delta m^2 L}{4E}\right)
+$$
 
 Where $\Delta m^2 = m_2^2 - m_1^2$, $\theta$ is the mixing angle, $L$ is the distance, and $E$ is
 the Energy.
@@ -46,7 +50,9 @@ $\sum m_\nu \lt 0.12$ eV (Planck 2018).
 In the Standard Model, neutrinos are massless. Their masses require physics beyond the Standard
 Model, most commonly via the **seesaw mechanism**:
 
-$$m_\nu \sim \frac{m_D^2}{M}$$
+$$
+m_\nu \sim \frac{m_D^2}{M}
+$$
 
 Where $m_D$ is a Dirac mass and $M \gg m_D$ is the mass of a heavy right-handed neutrino.
 
@@ -54,7 +60,7 @@ Where $m_D$ is a Dirac mass and $M \gg m_D$ is the mass of a heavy right-handed 
 <summary>Example 8.1: Atmospheric neutrino oscillation calculation</summary>
 
 Atmospheric neutrinos are produced when cosmic rays strike the upper atmosphere, creating Pions that
-decay: $\pi^+ \to \mu^+ + \nu_\mu$Followed by $\mu^+ \to e^+ + \bar{\nu}_\mu + \nu_e$.
+decay: $\pi^+ \to \mu^+ + \nu_\mu$ Followed by $\mu^+ \to e^+ + \bar{\nu}_\mu + \nu_e$.
 
 Super-Kamiokande (1998) observed that upward-going muon neutrinos (travelling through the Earth,
 $L \sim 10^4$ km) were significantly depleted relative to downward-going ones ($L \sim 10$ km),
@@ -66,32 +72,46 @@ mixing):
 
 For upward-going $\nu_\mu$ with $E = 1$ GeV and $L = 10\,000$ km:
 
-$$\frac{\Delta m^2 L}{4E} = \frac{2.5 \times 10^{-3}\;\mathrm{eV}^2 \times 10^4\;\mathrm{km}{4 \times 1\;\mathrm{GeV}}}$$
+$$
+\frac{\Delta m^2 L}{4E} = \frac{2.5 \times 10^{-3}\;\mathrm{eV}^2 \times 10^4\;\mathrm{km}{4 \times 1\;\mathrm{GeV}}}
+$$
 
 Converting to natural units ($\hbar c = 1.973 \times 10^{-7}$ eV$\cdot$M): $L = 10^7$ m, so
 $L/E = 10^7 / 10^9 = 10^{-2}$ eV$^{-1}$.
 
-$$\frac{\Delta m^2 L}{4E} = \frac{2.5 \times 10^{-3} \times 10^{-2}}{4} = 6.25 \times 10^{-6}\;\mathrm{eV}^2\cdot\mathrm{eV}^{-1}$$
+$$
+\frac{\Delta m^2 L}{4E} = \frac{2.5 \times 10^{-3} \times 10^{-2}}{4} = 6.25 \times 10^{-6}\;\mathrm{eV}^2\cdot\mathrm{eV}^{-1}
+$$
 
 Wait --- we need to be more careful with units. Using the practical formula:
 
-$$\frac{\Delta m^2 [\mathrm{eV}^2] \cdot L [\mathrm{km}]}{4E [\mathrm{GeV}]} = \frac{2.5 \times 10^{-3} \times 10^4}{4 \times 1} = \frac{25}{4} = 6.25\;\mathrm{rad}$$
+$$
+\frac{\Delta m^2 [\mathrm{eV}^2] \cdot L [\mathrm{km}]}{4E [\mathrm{GeV}]} = \frac{2.5 \times 10^{-3} \times 10^4}{4 \times 1} = \frac{25}{4} = 6.25\;\mathrm{rad}
+$$
 
-$$P(\nu_\mu \to \nu_\mu) = 1 - \sin^2(2\theta_{23})\sin^2(6.25) = 1 - 1 \times \sin^2(6.25) \approx 1 - 0.018 \approx 0.98$$
+$$
+P(\nu_\mu \to \nu_\mu) = 1 - \sin^2(2\theta_{23})\sin^2(6.25) = 1 - 1 \times \sin^2(6.25) \approx 1 - 0.018 \approx 0.98
+$$
 
 Hmm, this gives almost no oscillation. Let me reconsider. Actually:
 
-$$P(\nu_\mu \to \nu_\tau) = \sin^2(2\theta)\sin^2\left(\frac{\Delta m^2 L}{4E}\right) = \sin^2(6.25) \approx 0.018$$
+$$
+P(\nu_\mu \to \nu_\tau) = \sin^2(2\theta)\sin^2\left(\frac{\Delta m^2 L}{4E}\right) = \sin^2(6.25) \approx 0.018
+$$
 
 This seems small. But at $E = 0.5$ GeV:
 
-$$\frac{\Delta m^2 L}{4E} = \frac{25}{2} = 12.5\;\mathrm{rad}$$
+$$
+\frac{\Delta m^2 L}{4E} = \frac{25}{2} = 12.5\;\mathrm{rad}
+$$
 
-$$\sin^2(12.5) \approx \sin^2(0.35) \approx 0.12$$
+$$
+\sin^2(12.5) \approx \sin^2(0.35) \approx 0.12
+$$
 
 And at the first oscillation maximum,
 $L/E = 2\pi/(\Delta m^2) = 2\pi/(2.5 \times 10^{-3}) \approx 2513$ km/GeV. For $E = 1$ GeV,
-$L_{\mathrm{osc} \approx 2513}$ km, which is comparable to the Earth"s diameter ($\sim 12\,700$ km).
+$L_{\mathrm{osc} \approx 2513}$ km, which is comparable to the Earth's diameter ($\sim 12\,700$ km).
 The observed deficit is an average over many oscillations and energies, Giving roughly
 $\langle P\rangle \approx 1/2$ for maximal mixing, consistent with the Super-Kamiokande observation
 of approximately half the expected upward-going $\nu_\mu$ flux.
@@ -100,6 +120,8 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 
 ### 8.3 Key Relationships
 
+<div class="table-wrap">
+
 | Parameter | Value (best fit) | Experiment | Role |
 | ------------------ | ---------------------- | ------------------------------- | --------------------------------------- |
 | $\Delta m^2_{21}$ | $7.5 \times 10^{-5}$ eV$^2$ | Solar (SNO, Borexino) | Drives solar $\nu_e \to \nu_{\mu,\tau}$ |
@@ -107,6 +129,8 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 | $\sin^2(2\theta_{12})$ | 0.86 | Solar (SNO) | Solar mixing angle |
 | $\sin^2(2\theta_{23})$ | 1.0 (maximal) | Atmospheric (Super-K) | Atmospheric mixing angle |
 | $\sin^2(2\theta_{13})$ | 0.092 | Reactor (Daya Bay, RENO, Double Chooz) | Non-zero, enables CP violation |
+
+</div>
 
 ### 8.4 Common Pitfalls
 
@@ -117,13 +141,15 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 
 ### 8.5 Applications
 
-- **Solar neutrino spectroscopy:** Precise measurement of solar neutrino fluxes (pp, $^7$Be, $^8$B) tests solar models and constrains the MSW effect transition between vacuum and matter-dominated oscillations.
+- **Solar neutrino spectroscopy:** Precise measurement of solar neutrino fluxes (pp, $^7$ Be, $^8$ B) tests solar models and constrains the MSW effect transition between vacuum and matter-dominated oscillations.
 - **Reactor neutrino monitoring:** Antineutrino detectors at nuclear reactors (Daya Bay, Double Chooz) measure $\theta_{13}$ and can monitor reactor power and fuel composition for non-proliferation.
 - **Supernova neutrinos:** Core-collapse supernovae release $\sim 99\%$ of their gravitational binding energy as neutrinos. Detecting these (SN 1987A, $\sim 20$ events) tests models of stellar death and neutron star formation.
 - **Neutrino telescopes:** IceCube and KM3NeT detect high-energy astrophysical neutrinos from blazars, gamma-ray bursts, and possibly dark matter annihilation.
 - **Cosmology:** The sum of neutrino masses $\sum m_\nu < 0.12$ eV (Planck + BAO) affects structure formation; future surveys (Euclid, DESI) will tighten constraints and potentially determine the mass hierarchy.
 
 ### 8.6 Summary Table
+
+<div class="table-wrap">
 
 | Neutrino source  | Typical energy | Baseline $L$      | Oscillation probed      | Key experiment        |
 | ---------------- | -------------- | ----------------- | ----------------------- | --------------------- |
@@ -132,23 +158,14 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 | Reactor          | 1-10 MeV       | 0.1-100 km        | $\theta_{13}$, $\Delta m^2_{21}$ | Daya Bay, RENO, KamLAND |
 | Accelerator      | 0.1-10 GeV     | 100-1000 km       | $\delta_{\rm CP}$       | T2K, NO$\nu$A, DUNE   |
 
+</div>
+
 ### 8.7 Open Questions
 
 - **Mass hierarchy:** Is the ordering $m_1 < m_2 < m_3$ (normal) or $m_3 < m_1 < m_2$ (inverted)? Future experiments like JUNO and DUNE aim to resolve this via matter effects in oscillation probabilities.
 - **CP violation in the lepton sector:** The phase $\delta_{\rm CP}$ in the PMNS matrix determines whether neutrinos and antineutrinos oscillate differently. A non-zero $\delta_{\rm CP}$ could help explain the matter-antimatter asymmetry via leptogenesis.
 - **Dirac vs. Majorana nature:** Are neutrinos their own antiparticles? Neutrinoless double-beta decay ($0\nu\beta\beta$) experiments search for this; a positive signal would prove the Majorana nature and fix the absolute mass scale.
 - **Absolute mass scale:** Oscillations only measure mass-squared differences. KATRIN measures the electron neutrino mass via tritium beta decay, currently constraining $m_{\nu_e} < 0.8$ eV.
-
-
-```mermaid
-flowchart TD
-    A[8_Neutrino Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -162,46 +179,5 @@ Neutrinos are the most mysterious particles in the Standard Model: nearly massle
 - **[Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)**: Neutrino decoupling and the effective number of relativistic species affect Big Bang nucleosynthesis and the CMB.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

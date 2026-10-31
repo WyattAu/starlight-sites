@@ -24,16 +24,22 @@ description: 'describes the correlation of a wave with itself at different times
 
 For a quasi-monochromatic source with bandwidth $\Delta\omega$:
 
-$$\tau_c \sim \frac{2\pi}{\Delta\omega} = \frac{1}{\Delta\nu}$$
+$$
+\tau_c \sim \frac{2\pi}{\Delta\omega} = \frac{1}{\Delta\nu}
+$$
 
 The **coherence length**: $l_c = c\tau_c = \lambda^2/\Delta\lambda$.
 
+<div class="table-wrap">
+
 | Source           | $\Delta\lambda$   | $l_c$            |
 | ---------------- | ----------------- | ---------------- |
-| White light      | $\sim 300$ nm     | $\sim 1.5\,\mu$M |
+| White light      | $\sim 300$ nm     | $\sim 1.5\,\mu$ M |
 | Na D line        | $\sim 0.6$ nm     | $\sim 0.5$ mm    |
 | He-Ne laser      | $\sim 0.002$ nm   | $\sim 20$ cm     |
 | Stabilised laser | $\sim 10^{-6}$ nm | $\sim 400$ km    |
+
+</div>
 
 ### 16.2 Spatial Coherence
 
@@ -41,7 +47,9 @@ The **coherence length**: $l_c = c\tau_c = \lambda^2/\Delta\lambda$.
 time. The **van Cittert--Zernike theorem** states that the spatial coherence of light from an
 extended incoherent source is given by the Fourier transform of the source intensity distribution:
 
-$$\gamma(\Delta x) = \frac{\iint I(\xi, \eta)\,e^{-ik(\xi\Delta x)/(R)}\,d\xi\,d\eta}{\iint I(\xi, \eta)\,d\xi\,d\eta}$$
+$$
+\gamma(\Delta x) = \frac{\iint I(\xi, \eta)\,e^{-ik(\xi\Delta x)/(R)}\,d\xi\,d\eta}{\iint I(\xi, \eta)\,d\xi\,d\eta}
+$$
 
 Where $I(\xi, \eta)$ is the source intensity distribution and $R$ is the distance to the source.
 
@@ -49,7 +57,9 @@ Where $I(\xi, \eta)$ is the source intensity distribution and $R$ is the distanc
 of starlight, from which the angular diameter of the star can be determined. The first fringe
 visibility minimum occurs at:
 
-$$d = \frac{0.61\lambda}{\alpha}$$
+$$
+d = \frac{0.61\lambda}{\alpha}
+$$
 
 Where $\alpha$ is the angular diameter and $d$ is the aperture separation.
 
@@ -58,13 +68,19 @@ Where $\alpha$ is the angular diameter and $d$ is the aperture separation.
 The **complex degree of coherence** $\gamma_{12}(\tau)$ between fields at points 1 and 2 with time
 delay $\tau$:
 
-$$\gamma_{12}(\tau) = \frac{\langle E_1^*(t)E_2(t+\tau)\rangle}{\sqrt{\langle|E_1|^2\rangle\langle|E_2|^2\rangle}}$$
+$$
+\gamma_{12}(\tau) = \frac{\langle E_1^*(t)E_2(t+\tau)\rangle}{\sqrt{\langle|E_1|^2\rangle\langle|E_2|^2\rangle}}
+$$
 
 This satisfies $0 \leq |\gamma_{12}| \leq 1$. The **visibility** of interference fringes is:
 
-$$V = \frac{I_{\max} - I_{\min}}{I_{\max} + I_{\min}} = |\gamma_{12}|$$
+$$
+V = \frac{I_{\max} - I_{\min}}{I_{\max} + I_{\min}} = |\gamma_{12}|
+$$
 
 ### 16.4 Key Relationships
+
+<div class="table-wrap">
 
 | Coherence property | Measured by                 | Determined by               | Typical value                |
 | ------------------ | --------------------------- | --------------------------- | ---------------------------- |
@@ -72,6 +88,8 @@ $$V = \frac{I_{\max} - I_{\min}}{I_{\max} + I_{\min}} = |\gamma_{12}|$$
 | Temporal           | Coherence length $l_c$      | Source bandwidth $\Delta\lambda$ | $1.5\ \mu$m (white light) |
 | Spatial            | Coherence area $A_c$        | Source size and distance    | $(\lambda R / w)^2$          |
 | Mutual coherence   | $\Gamma_{12}(\tau)$         | Both spatial and temporal   | Depends on source geometry   |
+
+</div>
 
 ### 16.5 Common Pitfalls
 
@@ -108,20 +126,26 @@ separation $d$).
 
 By the van Cittert--Zernike theorem, the spatial coherence at the slits is:
 
-$$|\gamma| = \left|\frac{\sin(\pi wd/(\lambda D))}{\pi wd/(\lambda D)}\right|$$
+$$
+|\gamma| = \left|\frac{\sin(\pi wd/(\lambda D))}{\pi wd/(\lambda D)}\right|
+$$
 
-The fringe visibility vanishes when $\pi wd/(\lambda D) = \pi$I.e., $d = \lambda D/w$.
+The fringe visibility vanishes when $\pi wd/(\lambda D) = \pi$ I.e., $d = \lambda D/w$.
 
 For a candle flame ($w \approx 1$ mm) at $D = 1$ m with $\lambda = 550$ nm:
 
-$$d_{\text{max} = \frac{550 \times 10^{-9} \times 1}{10^{-3}} = 5.5 \times 10^{-4}\,\text{m} = 0.55\,\text{mm}}$$
+$$
+d_{\text{max} = \frac{550 \times 10^{-9} \times 1}{10^{-3}} = 5.5 \times 10^{-4}\,\text{m} = 0.55\,\text{mm}}
+$$
 
 Beyond this slit separation, the fringes wash out. For a star ($w \sim 10^8$ km, $D \sim 10^{14}$
 km):
 
-$$d_{\text{max} = \frac{550 \times 10^{-9} \times 10^{17}}{10^{11}} = 550\,\text{m}}$$
+$$
+d_{\text{max} = \frac{550 \times 10^{-9} \times 10^{17}}{10^{11}} = 550\,\text{m}}
+$$
 
-This is the basis of the Michelson stellar interferometer: by measuring $d_{\text{max}}$The stellar
+This is the basis of the Michelson stellar interferometer: by measuring $d_{\text{max}}$ The stellar
 diameter is determined.
 
 </details>
@@ -144,17 +168,6 @@ $\pi w d/(\lambda D) = \pi \times 2\times10^{-4} \times 5\times10^{-4} / (5.5\ti
 $= \pi \times 10^{-7} / (2.75\times10^{-7}) = \pi \times 0.364 = 1.143$ rad. $|\gamma| = |\sin(1.143)/1.143| = 0.81/1.143 = 0.709$.
 Fringe visibility $V = 0.71$ (71%). $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[20_Coherence Theory 16] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Coherence theory bridges the gap between perfectly monochromatic waves and reality. Temporal coherence measures how long a wave maintains predictable phase, like how long a singer holds a steady note. Spatial coherence measures how correlated the phase is across different points, like how synchronised a crowd of clappers is. The van Cittert-Zernike theorem is the central insight: even an incoherent source produces spatial coherence over a finite area, and the coherence width is inversely proportional to source size. This is why starlight, despite originating from an incoherent source, can produce interference fringes.
@@ -166,25 +179,5 @@ Coherence theory bridges the gap between perfectly monochromatic waves and reali
 - [Common Pitfalls in Optics](/4-optics-and-waves/18_common-pitfalls/) -- Confusing temporal and spatial coherence and misidentifying coherence length are among the most common errors in optics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -15,17 +15,6 @@ sidebar_position: 30
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Poetry Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Diagnostic Test: Poetry Analysis
 
 Answer each question. Check your answers against the key at the end.
@@ -102,6 +91,8 @@ Answer each question. Check your answers against the key at the end.
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Q | Answer | Explanation |
 | --- | -------- | ------------- |
 | 1 | (B) | Enjambment runs a sentence over a line break without punctuation, creating momentum and urgency or blurring syntactic boundaries. |
@@ -114,6 +105,8 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Effective comparison identifies meaningful parallels and distinctions, demonstrating analytical depth rather than mere summary. |
 | 9 | (B) | Structure shapes meaning; formal constraints and free verse each carry interpretive significance. |
 | 10 | (B) | An extended metaphor develops a single comparison across multiple lines, creating a sustained framework for exploration. |
+
+</div>
 
 ## Common Mistakes
 

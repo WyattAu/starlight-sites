@@ -36,12 +36,16 @@ Random errors affect precision but not accuracy.
 From the true value. It arises from instrument calibration faults or methodological biases.
 Systematic errors affect accuracy but not precision.
 
+<div class="table-wrap">
+
 | Property       | Random Error                     | Systematic Error                  |
 | -------------- | -------------------------------- | --------------------------------- |
 | Direction      | Scatters above and below         | Consistently in one direction     |
 | Affects        | Precision                        | Accuracy                          |
 | Reduction      | Repeated measurements, averaging | Calibration, improved methodology |
 | Identification | Spread of repeated readings      | Comparison with accepted value    |
+
+</div>
 
 ### Absolute and Percentage Uncertainty
 
@@ -134,6 +138,8 @@ $$
 5. Trailing zeros without a decimal point are **not** significant (ambiguous. Use scientific
    notation).
 
+<div class="table-wrap">
+
 | Value               | Sig Figs | Notes                               |
 | ------------------- | -------- | ----------------------------------- |
 | $0.00420$           | $3$      | Leading zeros not significant       |
@@ -142,7 +148,11 @@ $$
 | $3.200 \times 10^3$ | $4$      | Scientific notation is clear        |
 | $0.001005$          | $4$      | Only leading zeros are ignored      |
 
+</div>
+
 ### Arithmetic with Significant Figures
+
+<div class="table-wrap">
 
 | Operation               | Rule                                                                     |
 | ----------------------- | ------------------------------------------------------------------------ |
@@ -150,6 +160,8 @@ $$
 | Multiplication/division | Result has the same number of sig figs as the term with the fewest       |
 | Logarithms              | Number of decimal places in result = sig figs in argument                |
 | Antilogarithms          | Number of sig figs in result = decimal places in argument                |
+
+</div>
 :::
 
 :::note[Example]
@@ -195,7 +207,7 @@ $$
 $$
 
 The y-intercept uncertainty follows the same procedure using the maximum and minimum gradient lines
-At $x = 0$.
+at $x = 0$.
 
 ### Interpolation and Extrapolation
 
@@ -204,10 +216,10 @@ At $x = 0$.
 
 ### Using Graphs to Verify Relationships
 
-For $y = kx^n$Plotting $\log y$ versus $\log x$ gives a straight line with gradient $n$ and
+For $y = kx^n$ Plotting $\log y$ versus $\log x$ gives a straight line with gradient $n$ and
 Y-intercept $\log k$.
 
-For $y = kx^n$ with $n = 1$The graph of $y$ versus $x$ is linear through the origin.
+For $y = kx^n$ with $n = 1$ The graph of $y$ versus $x$ is linear through the origin.
 
 ### Common Pitfalls
 
@@ -231,7 +243,7 @@ For $y = kx^n$ with $n = 1$The graph of $y$ versus $x$ is linear through the ori
 ### Principle
 
 IR spectroscopy measures the absorption of infrared radiation by molecular bonds. Absorption occurs
-When the photon energy matches the energy difference between vibrational states:
+when the photon energy matches the energy difference between vibrational states:
 
 $$
 \Delta E = h\nu = \frac`\{hc}`{\lambda}
@@ -251,6 +263,8 @@ The useful range for organic analysis is approximately $400$--$4000\mathrm{ cm}^
 
 ### Characteristic Absorptions
 
+<div class="table-wrap">
+
 | Bond                   | Wavenumber ($\mathrm{cm}^{-1}$) | Notes                         |
 | ---------------------- | ------------------------------- | ----------------------------- |
 | O--H (alcohol, free)   | $3550$--$3200$                  | Broad, rounded                |
@@ -266,10 +280,12 @@ The useful range for organic analysis is approximately $400$--$4000\mathrm{ cm}^
 | O--H bend (alcohol)    | $1200$--$1000$                  |                               |
 | N--H bend              | $1640$--$1550$                  |                               |
 
+</div>
+
 ### Fingerprint Region
 
 The region below $1500\mathrm{ cm}^{-1}$ contains complex absorptions unique to each molecule. It is
-Used to confirm identity by comparison with a reference spectrum.
+used to confirm identity by comparison with a reference spectrum.
 
 ### Identifying Functional Groups
 
@@ -280,7 +296,7 @@ Used to confirm identity by comparison with a reference spectrum.
 :::
 
 :::note[Example]
-An unknown compound shows: broad absorption at $3300\mathrm{ cm}^{-1}$Sharp absorption at
+An unknown compound shows: broad absorption at $3300\mathrm{ cm}^{-1}$ Sharp absorption at
 $1700\mathrm{ cm}^{-1}$ And a C--O stretch at $1200\mathrm{ cm}^{-1}$. This is consistent with a
 Carboxylic acid.
 
@@ -304,6 +320,8 @@ Spectrum plots relative abundance against $m/z$.
 
 ### Key Information from MS
 
+<div class="table-wrap">
+
 | Feature       | Information                                                |
 | ------------- | ---------------------------------------------------------- |
 | Molecular ion | Molar mass of the compound                                 |
@@ -311,13 +329,17 @@ Spectrum plots relative abundance against $m/z$.
 | M + 2 peak    | Presence of $\mathrm{Cl}$ ($3:1$) or $\mathrm{Br}$ ($1:1$) |
 | Fragmentation | Structural information about the molecule                  |
 
+</div>
+
 ### Nitrogen Rule
 
 If the molecular ion has an **odd** nominal mass, the compound likely contains an **odd** number of
-Nitrogen atoms. If **even**, it likely contains an **even** number (including zero) of nitrogen
+nitrogen atoms. If **even**, it likely contains an **even** number (including zero) of nitrogen
 Atoms.
 
 ### Fragmentation Patterns
+
+<div class="table-wrap">
 
 | Fragment ($m/z$) | Likely species                                               |
 | ---------------- | ------------------------------------------------------------ |
@@ -329,6 +351,8 @@ Atoms.
 | $45$             | $\mathrm{COOH}^+$ or $\mathrm{C}_2\mathrm{H}_5\mathrm{O}^+$  |
 | $77$             | $\mathrm{C}_6\mathrm{H}_5^+$ (benzene ring)                  |
 | $91$             | $\mathrm{C}_7\mathrm{H}_7^+$ (tropylium ion, alkylbenzene)   |
+
+</div>
 
 ### Common Pitfalls
 
@@ -351,8 +375,8 @@ Atoms.
 ### Principle
 
 Nuclei with non-zero spin ($I = 1/2$ for $\mathrm{^1H}$ and $\mathrm{^{13}C}$) align with or against
-An external magnetic field. Radiofrequency radiation causes transitions between spin states. The
-Resonance frequency depends on the electronic environment.
+an external magnetic field. Radiofrequency radiation causes transitions between spin states. The
+resonance frequency depends on the electronic environment.
 
 ### Chemical Shift
 
@@ -366,6 +390,8 @@ TMS is assigned $\delta = 0\mathrm{ ppm}$.
 
 ### $\mathrm{^1H}$ NMR Features
 
+<div class="table-wrap">
+
 | Feature            | What it tells you                                  |
 | ------------------ | -------------------------------------------------- |
 | Number of signals  | Number of chemically distinct proton environments  |
@@ -373,10 +399,14 @@ TMS is assigned $\delta = 0\mathrm{ ppm}$.
 | Splitting pattern  | Number of protons on adjacent carbons (n + 1 rule) |
 | Chemical shift     | Electronic environment of each proton              |
 
+</div>
+
 ### The n + 1 Rule
 
 A signal is split into $n + 1$ peaks, where $n$ is the number of equivalent protons on adjacent
 Carbons.
+
+<div class="table-wrap">
 
 | Neighbouring H count | Splitting | Name   |
 | -------------------- | --------- | ------ |
@@ -386,7 +416,11 @@ Carbons.
 | $3$                  | Quartet   | $q$    |
 | $4$                  | Quintet   | $quin$ |
 
+</div>
+
 ### Characteristic $\mathrm{^1H}$ NMR Chemical Shifts
+
+<div class="table-wrap">
 
 | Proton type           | $\delta$ (ppm)       |
 | --------------------- | -------------------- |
@@ -399,11 +433,15 @@ Carbons.
 | Carboxylic acid       | $10.0$--$12.0$       |
 | Alcohol (R--OH)       | $0.5$--$5.0$ (broad) |
 
+</div>
+
 ### $\mathrm{^{13}C}$ NMR
 
 - Each chemically distinct carbon produces one signal.
 - Peak areas are **not** proportional to the number of carbons (no quantitative integration).
 - Splitting is normally removed by proton decoupling, so all signals are singlets.
+
+<div class="table-wrap">
 
 | Carbon type         | $\delta$ (ppm) |
 | ------------------- | -------------- |
@@ -415,16 +453,22 @@ Carbons.
 | Ester/amide C=O     | $155$--$185$   |
 | Aldehyde            | $190$--$220$   |
 
+</div>
+
 ### Solvent Peaks
 
 Deuterated solvents are used (e.g., $\mathrm{CDCl}_3$, $\mathrm{D}_2\mathrm{O}$). Residual proton
 Peaks appear at known positions:
+
+<div class="table-wrap">
 
 | Solvent                      | Residual $\mathrm{^1H}$ $\delta$ (ppm) |
 | ---------------------------- | -------------------------------------- |
 | $\mathrm{CDCl}_3$            | $7.26$                                 |
 | $\mathrm{D}_2\mathrm{O}$     | $4.79$                                 |
 | $\mathrm{DMSO}\mathrm{-}d_6$ | $2.50$                                 |
+
+</div>
 
 ### Common Pitfalls
 
@@ -574,8 +618,8 @@ $\delta\ 1.0\ (t,\ 3\mathrm{H})$, $\delta\ 2.1\ (s,\ 3\mathrm{H})$ $\delta\ 2.4\
 The septet pattern does not match.
 
 The correct answer is: the formula must be $\mathrm{C}_5\mathrm{H}_{12}\mathrm{O}$ for an isopropyl
-Group with a $\mathrm{CH}_3$. If restricted to $\mathrm{C}_4\mathrm{H}_8\mathrm{O}$Re-examine:
-2-methylpropanal, $\mathrm{(CH}_3)_2\mathrm{CHCHO}$Has the correct formula. Its NMR:
+Group with a $\mathrm{CH}_3$. If restricted to $\mathrm{C}_4\mathrm{H}_8\mathrm{O}$ Re-examine:
+2-methylpropanal, $\mathrm{(CH}_3)_2\mathrm{CHCHO}$ Has the correct formula. Its NMR:
 $\delta\ 1.1\ (d,\ 6\mathrm{H})$, $\delta\ 2.4\ (septet,\ 1\mathrm{H})$
 $\delta\ 9.7\ (s,\ 1\mathrm{H})$. The singlet at $\delta\ 2.1$ does not match.
 
@@ -627,20 +671,30 @@ Calculate the concentration of $\mathrm{HCl}$ and its absolute uncertainty.
 
 **Step 1: Calculate the concentration.**
 
-$$n(\mathrm{NaOH}) = 0.1050 \times 0.02345 = 2.4623 \times 10^{-3}\mathrm{ mol}$$
+$$
+n(\mathrm{NaOH}) = 0.1050 \times 0.02345 = 2.4623 \times 10^{-3}\mathrm{ mol}
+$$
 
 By stoichiometry (1:1 reaction):
 $n(\mathrm{HCl}) = n(\mathrm{NaOH}) = 2.4623 \times 10^{-3}\mathrm{ mol}$
 
-$$[\mathrm{HCl}] = \frac{n}{V} = \frac{2.4623 \times 10^{-3}}{0.02500} = 0.09849\mathrm{ M}$$
+$$
+[\mathrm{HCl}] = \frac{n}{V} = \frac{2.4623 \times 10^{-3}}{0.02500} = 0.09849\mathrm{ M}
+$$
 
 **Step 2: Calculate percentage uncertainties.**
 
-$$\%\mathrm{u}([\mathrm{NaOH}]) = \frac{0.0005}{0.1050} \times 100\% = 0.476\%$$
+$$
+\%\mathrm{u}([\mathrm{NaOH}]) = \frac{0.0005}{0.1050} \times 100\% = 0.476\%
+$$
 
-$$\%\mathrm{u}(V_{\mathrm{NaOH}}) = \frac{0.08}{23.45} \times 100\% = 0.341\%$$
+$$
+\%\mathrm{u}(V_{\mathrm{NaOH}}) = \frac{0.08}{23.45} \times 100\% = 0.341\%
+$$
 
-$$\%\mathrm{u}(V_{\mathrm{HCl}}) = \frac{0.03}{25.00} \times 100\% = 0.120\%$$
+$$
+\%\mathrm{u}(V_{\mathrm{HCl}}) = \frac{0.03}{25.00} \times 100\% = 0.120\%
+$$
 
 **Step 3: Propagate uncertainties.**
 
@@ -648,17 +702,23 @@ The calculation is
 $[\mathrm{HCl}] = \dfrac{[\mathrm{NaOH}] \times V_{\mathrm{NaOH}}}{V_{\mathrm{HCl}}}$ So we add
 percentage uncertainties (multiplication and division):
 
-$$\%\mathrm{u}([\mathrm{HCl}]) = 0.476\% + 0.341\% + 0.120\% = 0.937\% \approx 0.9\%$$
+$$
+\%\mathrm{u}([\mathrm{HCl}]) = 0.476\% + 0.341\% + 0.120\% = 0.937\% \approx 0.9\%
+$$
 
 **Step 4: Calculate absolute uncertainty.**
 
-$$\Delta[\mathrm{HCl}] = 0.09849 \times 0.00937 = 0.00092\mathrm{ M}$$
+$$
+\Delta[\mathrm{HCl}] = 0.09849 \times 0.00937 = 0.00092\mathrm{ M}
+$$
 
-$$[\mathrm{HCl}] = 0.0985 \pm 0.0009\mathrm{ M}$$
+$$
+[\mathrm{HCl}] = 0.0985 \pm 0.0009\mathrm{ M}
+$$
 
 The dominant source of uncertainty is the $\mathrm{NaOH}$ concentration, contributing approximately
 51% of the total uncertainty. Improving the accuracy of the standard solution preparation would most
-Effectively reduce the overall uncertainty.
+effectively reduce the overall uncertainty.
 
 </details>
 
@@ -673,32 +733,38 @@ Determine the molecular formula.
 
 **Step 1: Estimate the number of carbon atoms.**
 
-The M+1 peak arises primarily from $^{13}\mathrm{C}$Which has a natural abundance of 1.1% per Carbon
+The M+1 peak arises primarily from $^{13}\mathrm{C}$ Which has a natural abundance of 1.1% per Carbon
 atom.
 
-$$\mathrm{Number\ of\ C\ atoms} \approx \frac{\%\mathrm{abundance\ of\ M+1}}{1.1\%} = \frac{6.6\%}{1.1\%} = 6$$
+$$
+\mathrm{Number\ of\ C\ atoms} \approx \frac{\%\mathrm{abundance\ of\ M+1}}{1.1\%} = \frac{6.6\%}{1.1\%} = 6
+$$
 
 **Step 2: Calculate the remaining mass.**
 
 Mass from 6 C atoms: $6 \times 12 = 72$
 
-Remaining mass: $78 - 72 = 6$Corresponding to 6 hydrogen atoms.
+Remaining mass: $78 - 72 = 6$ Corresponding to 6 hydrogen atoms.
 
 **Step 3: Propose the molecular formula.**
 
-$$\mathrm{C}_6\mathrm{H}_6$$
+$$
+\mathrm{C}_6\mathrm{H}_6
+$$
 
 **Step 4: Verify with the degree of unsaturation.**
 
-$$\mathrm{DBE} = C + 1 - \frac{H}{2} = 6 + 1 - \frac{6}{2} = 4$$
+$$
+\mathrm{DBE} = C + 1 - \frac{H}{2} = 6 + 1 - \frac{6}{2} = 4
+$$
 
 A DBE of 4 is characteristic of an aromatic ring (one ring + three double bonds), consistent with
-Benzene.
+benzene.
 
 **Step 5: Confirm the M+2 peak.**
 
 With no chlorine or bromine present, the M+2 peak should be very small (from $^{18}\mathrm{O}$
-$^{2}\mathrm{H}$Etc.). The absence of a significant M+2 peak is consistent with
+$^{2}\mathrm{H}$ Etc.). The absence of a significant M+2 peak is consistent with
 $\mathrm{C}_6\mathrm{H}_6$.
 
 </details>
@@ -706,7 +772,7 @@ $\mathrm{C}_6\mathrm{H}_6$.
 **Worked Example: Combined spectroscopic identification**
 
 An unknown compound has $\mathrm{M}^+ = 88$. IR: strong broad peak at
-$2500$--$3300\mathrm{ cm}^{-1}$Strong peak at $1715\mathrm{ cm}^{-1}$ And a C--O stretch at
+$2500$--$3300\mathrm{ cm}^{-1}$ Strong peak at $1715\mathrm{ cm}^{-1}$ And a C--O stretch at
 $1050\mathrm{ cm}^{-1}$. $^{1}\mathrm{H}$ NMR: $\delta\ 0.9\ (t,\ 3\mathrm{H})$
 $\delta\ 1.6\ (sextet,\ 2\mathrm{H})$, $\delta\ 2.3\ (t,\ 2\mathrm{H})$
 $\delta\ 11.0\ (s,\ 1\mathrm{H})$. $^{13}\mathrm{C}$ NMR: 4 signals. Identify the compound.
@@ -718,7 +784,9 @@ $\delta\ 11.0\ (s,\ 1\mathrm{H})$. $^{13}\mathrm{C}$ NMR: 4 signals. Identify th
 
 $\mathrm{M} = 88$. Try $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$: $4(12) + 8(1) + 2(16) = 88$.
 
-$$\mathrm{DBE} = 4 + 1 - \frac{8}{2} = 1$$
+$$
+\mathrm{DBE} = 4 + 1 - \frac{8}{2} = 1
+$$
 
 **Step 2: Analyse IR data.**
 
@@ -758,28 +826,34 @@ Concentration is $0.10\mathrm{ M}$ and the acid is monoprotic.
 
 **Step 1: Convert pH to $[\mathrm{H}^+]$.**
 
-$$[\mathrm{H}^+] = 10^{-\mathrm{pH}} = 10^{-4.35} = 4.5 \times 10^{-5}\mathrm{ M}$$
+$$
+[\mathrm{H}^+] = 10^{-\mathrm{pH}} = 10^{-4.35} = 4.5 \times 10^{-5}\mathrm{ M}
+$$
 
 The mantissa of the $\mathrm{pH}$ (4.35) has two decimal places, so $[\mathrm{H}^+]$ has two
-Significant figures: $4.5 \times 10^{-5}\mathrm{ M}$.
+significant figures: $4.5 \times 10^{-5}\mathrm{ M}$.
 
 **Step 2: Calculate $K_a$.**
 
 For a monoprotic weak acid $\mathrm{HA}$ with $c_0 = 0.10\mathrm{ M}$:
 
-$$K_a = \frac{[\mathrm{H}^+]^2}{c_0 - [\mathrm{H}^+]} = \frac{(4.5 \times 10^{-5})^2}{0.10 - 4.5 \times 10^{-5}}$$
+$$
+K_a = \frac{[\mathrm{H}^+]^2}{c_0 - [\mathrm{H}^+]} = \frac{(4.5 \times 10^{-5})^2}{0.10 - 4.5 \times 10^{-5}}
+$$
 
 Since $[\mathrm{H}^+] \ll c_0$:
 $K_a \approx \dfrac{(4.5 \times 10^{-5})^2}{0.10} = \dfrac{2.025 \times 10^{-9}}{0.10}$
 
-$$K_a = 2.0 \times 10^{-8}$$
+$$
+K_a = 2.0 \times 10^{-8}
+$$
 
 Two significant figures, matching the two significant figures in $[\mathrm{H}^+]$.
 
 **Step 3: Common error to avoid.**
 
 Writing $K_a = 2.025 \times 10^{-8}$ would be incorrect --- the result cannot be more precise than
-The input data. The $\mathrm{pH}$ was given to two decimal places, limiting all derived quantities
+the input data. The $\mathrm{pH}$ was given to two decimal places, limiting all derived quantities
 to Two significant figures.
 
 </details>
@@ -798,21 +872,33 @@ $-5000\mathrm{ K}$. Calculate $E_a$ and its absolute uncertainty.
 
 From the Arrhenius equation: $\ln(k) = -\dfrac{E_a}{R} \cdot \dfrac{1}{T} + \ln(A)$
 
-$$\mathrm{gradient} = -\frac{E_a}{R}$$
+$$
+\mathrm{gradient} = -\frac{E_a}{R}
+$$
 
-$$E_a = -\mathrm{gradient} \times R = -(-5400) \times 8.314 = 44900\mathrm{ J/mol} = 44.9\mathrm{ kJ/mol}$$
+$$
+E_a = -\mathrm{gradient} \times R = -(-5400) \times 8.314 = 44900\mathrm{ J/mol} = 44.9\mathrm{ kJ/mol}
+$$
 
 **Step 2: Calculate $E_a$ from the maximum and minimum gradients.**
 
-$$E_{a,\max} = 5800 \times 8.314 = 48200\mathrm{ J/mol} = 48.2\mathrm{ kJ/mol}$$
+$$
+E_{a,\max} = 5800 \times 8.314 = 48200\mathrm{ J/mol} = 48.2\mathrm{ kJ/mol}
+$$
 
-$$E_{a,\min} = 5000 \times 8.314 = 41600\mathrm{ J/mol} = 41.6\mathrm{ kJ/mol}$$
+$$
+E_{a,\min} = 5000 \times 8.314 = 41600\mathrm{ J/mol} = 41.6\mathrm{ kJ/mol}
+$$
 
 **Step 3: Calculate the absolute uncertainty.**
 
-$$\Delta E_a = \frac{E_{a,\max} - E_{a,\min}}{2} = \frac{48.2 - 41.6}{2} = 3.3\mathrm{ kJ/mol}$$
+$$
+\Delta E_a = \frac{E_{a,\max} - E_{a,\min}}{2} = \frac{48.2 - 41.6}{2} = 3.3\mathrm{ kJ/mol}
+$$
 
-$$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
+$$
+E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}
+$$
 
 </details>
 
@@ -830,7 +916,7 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
 ## Common Pitfalls
 
 - **Using the smallest division (not half) for analogue instrument uncertainty**: A ruler with 1 mm
-  divisions has an absolute uncertainty of $\pm 0.5\mathrm{ mm}$Not $\pm 1\mathrm{ mm}$. A
+  divisions has an absolute uncertainty of $\pm 0.5\mathrm{ mm}$ Not $\pm 1\mathrm{ mm}$. A
   thermometer with $1\degree\mathrm{C}$ divisions has $\pm 0.5\degree\mathrm{C}$.
 
 - **Confusing absolute and percentage uncertainty during propagation**: For addition/subtraction,
@@ -854,7 +940,7 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
   from the $^{1}\mathrm{H}$ NMR spectrum. This is a definitive test for labile protons.
 
 - **Forcing a line of best fit through the origin**: Only force through $(0, 0)$ if the data
-  physically require it (e.g., Charles"s law at absolute zero). For most experimental data, the
+  physically require it (e.g., Charles's law at absolute zero). For most experimental data, the
   intercept has physical meaning and should be determined from the fit.
 
 - **Ignoring anomalous points instead of justifying their exclusion**: Outliers must be identified
@@ -884,7 +970,7 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
 
 1. A student measures the density of a metal cylinder using a vernier caliper (absolute uncertainty
    $\pm 0.02\mathrm{ mm}$) and a balance (absolute uncertainty $\pm 0.01\mathrm{ g}$). The diameter
-   is $12.50\mathrm{ mm}$The height is $25.00\mathrm{ mm}$ And the mass is $20.00\mathrm{ g}$.
+   is $12.50\mathrm{ mm}$ The height is $25.00\mathrm{ mm}$ And the mass is $20.00\mathrm{ g}$.
    Calculate the density and its percentage uncertainty. The density formula is
    $\rho = \dfrac{m}{\pi(d/2)^2 h}$. **[Medium]**
 
@@ -901,7 +987,7 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
 
 4. A student performs an experiment to determine $K_c$ for a reaction and obtains the following
    values in three trials: $4.2 \times 10^{-2}$$3.8 \times 10^{-2}$$4.5 \times 10^{-2}$. (a)
-   Calculate the mean and standard deviation. (b) Express the result as mean $\pm$ uncertainty. (c)
+   calculate the mean and standard deviation. (b) Express the result as mean $\pm$ uncertainty. (c)
    Is the spread of results consistent with random error only? **[Medium]**
 
 5. The mass spectrum of a compound shows the molecular ion at $m/z\ 94$ (base peak) and a prominent
@@ -915,7 +1001,7 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
    absorbance $0.350 \pm 0.005$. Calculate the concentration of the unknown and its uncertainty.
    **[Hard]**
 
-7. Calculate $\log(3.20 \times 10^{-4})$ and $10^{-7.45}$Each to the correct number of significant
+7. Calculate $\log(3.20 \times 10^{-4})$ and $10^{-7.45}$ Each to the correct number of significant
    figures. State the rule that governs significant figures in logarithmic and antilogarithmic
    operations. **[Easy]**
 
@@ -946,16 +1032,6 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
 - **Equilibrium constant expressions** → Review
   [..../7-equilibrium/1_equilibrium](/chemistry/7-equilibrium/1_equilibrium/)
 
-```mermaid
-flowchart TD
-    A[1_Measurement And Data Processing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential chemistry of measurement and data processing, including key
@@ -974,8 +1050,12 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                             | Site    | Link                                                                                                                  |
 | --------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Measurement and Data Processing] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/quantitative-chemistry)                              |
-| [Measurement and Data Processing] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing) |
+| [Measurement and Data Processing] | IB      | [View](https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing/) |
+
+</div>
 :::

@@ -116,6 +116,8 @@ sidebar_position: 40
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Answer | Topic                  |
 | :------: | :----: | :--------------------- |
 |    1     |  (B)   | Behaviourist Approach  |
@@ -128,6 +130,8 @@ sidebar_position: 40
 |    8     |  (B)   | Evaluation of Behaviourism |
 |    9     |  (B)   | Humanistic Approach    |
 |    10    |  (C)   | Cognitive Approach     |
+
+</div>
 
 ---
 
@@ -167,17 +171,6 @@ sidebar_position: 40
 - **[Memory](/psychology/flashcards-memory/):** Approaches explain cognitive processes
 - **[Social Influence](/psychology/practice-social-influence/):** Social influence theories use approaches
 - **[Research Methods](https://ib.wyattau.com/psychology/research-methods/):** Each approach uses specific methods
-
-
-```mermaid
-flowchart TD
-    A[Diag Approaches] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

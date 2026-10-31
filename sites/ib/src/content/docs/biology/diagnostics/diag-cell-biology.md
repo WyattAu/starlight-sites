@@ -17,16 +17,6 @@ tableOfContents: false
 
 ## Cell Biology, Diagnostic Tests
 
-```mermaid
-flowchart TD
-    A[Diag Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A cell is like a factory, the nucleus is the office, mitochondria are the power plant, ribosomes are the assembly line:** Cell structure is inseparable from function, each organelle's design enables its specific role
@@ -46,6 +36,8 @@ eukaryotes.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature       | Prokaryotic                                                | Eukaryotic                                                           |
 | ------------- | ---------------------------------------------------------- | -------------------------------------------------------------------- |
 | Cell wall     | Peptidoglycan (murein)                                     | None in animals; cellulose in plants; chitin in fungi                |
@@ -53,7 +45,9 @@ eukaryotes.
 | Ribosomes     | 70S (30S + 50S subunits)                                   | 80S (40S + 60S subunits); 70S in mitochondria/chloroplasts           |
 | Organelles    | None (no nucleus, mitochondria, ER, etc.)                  | Membrane-bound organelles present (nucleus, mitochondria, ER, Golgi) |
 | Cell division | Binary fission (no spindle)                                | Mitosis (and meiosis); spindle apparatus involved                    |
-| Size          | 0.5--5 $\mu$M                                              | 10--100 $\mu$M                                                       |
+| Size          | 0.5--5 $\mu$ M                                              | 10--100 $\mu$ M                                                       |
+
+</div>
 
 Prokaryotes reproduce faster because: (1) binary fission is simpler than mitosis -- no spindle
 formation or nuclear envelope breakdown; (2) they have a smaller genome to replicate (circular DNA,

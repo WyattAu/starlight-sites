@@ -27,7 +27,9 @@ categories:
 (TM) is mentally disassembled into simpler precursors by applying known reactions in reverse. Each
 step is denoted by the retrosynthetic arrow $\Rightarrow$.
 
-$$\text{TM} \Rightarrow \text{Precursor}_1 \Rightarrow \text{Precursor}_2 \Rightarrow \ldots \Rightarrow \text{Starting Materials}$$
+$$
+\text{TM} \Rightarrow \text{Precursor}_1 \Rightarrow \text{Precursor}_2 \Rightarrow \ldots \Rightarrow \text{Starting Materials}
+$$
 
 Developed by E.J. Corey (Nobel Prize, 1990).
 
@@ -43,7 +45,9 @@ reacting species. A synthon may or may not correspond to a real reagent.
 
 **Example 1:** Disconnection of a secondary alcohol:
 
-$$\text{R}–\text{CH(OH)}–\text{R}" \xRightarrow{\text{disconnect C–OH}} \text{RCHO} + \text{R}'\text{MgBr}$$
+$$
+\text{R}–\text{CH(OH)}–\text{R}" \xRightarrow{\text{disconnect C–OH}} \text{RCHO} + \text{R}'\text{MgBr}
+$$
 
 Synthons: $^+\text{R}'$ (electrophile, equivalent = R'Br) and $^-\text{OH}$ (nucleophile, equivalent
 = formaldehyde or a carbonyl).
@@ -67,14 +71,18 @@ $\blacksquare$
 
 ### 1.4 Synthons and Their Equivalents
 
+<div class="table-wrap">
+
 | Synthon  | Type         | Synthetic Equivalent           |
 | -------- | ------------ | ------------------------------ |
 | R$^-$    | Nucleophile  | Grignard (RMgBr), organolithium |
 | R$^+$    | Electrophile | Alkyl halide (R–X)             |
-| $^-$CH(OH)R | Nucleophile | Aldehyde (RCHO)               |
-| $^+$CHO  | Electrophile | Formyl cation equiv. (DMF, etc.) |
+| $^-$ CH(OH)R | Nucleophile | Aldehyde (RCHO)               |
+| $^+$ CHO  | Electrophile | Formyl cation equiv. (DMF, etc.) |
 | Ac$^-$   | Nucleophile  | Malonate ester, acetylide       |
 | Ac$^+$   | Electrophile | Acid chloride, acyl anhydride   |
+
+</div>
 
 ## 2. Functional Group Interconversions
 
@@ -82,25 +90,45 @@ $\blacksquare$
 
 **Theorem 2 (FGI Map):** The major functional group interconversions:
 
-$$\text{Alkane} \xrightarrow{\text{X}_2/h\nu} \text{Alkyl halide} \xrightarrow{\text{NaOH}} \text{Alcohol} \xrightarrow{[\text{O}]} \text{Aldehyde} \xrightarrow{[\text{O}]} \text{Carboxylic acid}$$
+$$
+\text{Alkane} \xrightarrow{\text{X}_2/h\nu} \text{Alkyl halide} \xrightarrow{\text{NaOH}} \text{Alcohol} \xrightarrow{[\text{O}]} \text{Aldehyde} \xrightarrow{[\text{O}]} \text{Carboxylic acid}
+$$
 
-$$\text{Alcohol} \xrightarrow{\text{PBr}_3} \text{Alkyl bromide}$$
+$$
+\text{Alcohol} \xrightarrow{\text{PBr}_3} \text{Alkyl bromide}
+$$
 
-$$\text{Alcohol} \xrightarrow{\text{SOCl}_2} \text{Alkyl chloride}$$
+$$
+\text{Alcohol} \xrightarrow{\text{SOCl}_2} \text{Alkyl chloride}
+$$
 
-$$\text{Alcohol} \xrightarrow{\text{TsCl}} \text{Tosylate} \xrightarrow{\text{Nu}^-} \text{Nu–R}$$
+$$
+\text{Alcohol} \xrightarrow{\text{TsCl}} \text{Tosylate} \xrightarrow{\text{Nu}^-} \text{Nu–R}
+$$
 
-$$\text{Aldehyde} \xrightarrow{\text{NaBH}_4} \text{Primary alcohol}$$
+$$
+\text{Aldehyde} \xrightarrow{\text{NaBH}_4} \text{Primary alcohol}
+$$
 
-$$\text{Ketone} \xrightarrow{\text{NaBH}_4 \text{ or LiAlH}_4} \text{Secondary alcohol}$$
+$$
+\text{Ketone} \xrightarrow{\text{NaBH}_4 \text{ or LiAlH}_4} \text{Secondary alcohol}
+$$
 
-$$\text{Carboxylic acid} \xrightarrow{\text{LiAlH}_4} \text{Primary alcohol}$$
+$$
+\text{Carboxylic acid} \xrightarrow{\text{LiAlH}_4} \text{Primary alcohol}
+$$
 
-$$\text{Ester} \xrightarrow{\text{LiAlH}_4} \text{Primary alcohol}$$
+$$
+\text{Ester} \xrightarrow{\text{LiAlH}_4} \text{Primary alcohol}
+$$
 
-$$\text{Nitrile} \xrightarrow{\text{LiAlH}_4} \text{Primary amine}$$
+$$
+\text{Nitrile} \xrightarrow{\text{LiAlH}_4} \text{Primary amine}
+$$
 
 ### 2.2 Oxidation and Reduction
+
+<div class="table-wrap">
 
 | Transformation           | Reagent                    | Notes                    |
 | ------------------------ | -------------------------- | ------------------------ |
@@ -111,6 +139,8 @@ $$\text{Nitrile} \xrightarrow{\text{LiAlH}_4} \text{Primary amine}$$
 | Alkene → diol             | OsO$_4$/NMO or KMnO$_4$(cold) | cis-Diol               |
 | Alkyne → trans-alkene     | Na/NH$_3$(l)               | Birch-type reduction     |
 | Alkyne → cis-alkene       | H$_2$/Lindlar's catalyst   | Z-alkene                 |
+
+</div>
 
 ## 3. Protecting Groups
 
@@ -129,6 +159,8 @@ its participation in a reaction, removable under conditions that do not affect o
 
 **Alcohols:**
 
+<div class="table-wrap">
+
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
 | TBDMS (TMS) ether   | TBDMSCl, imidazole  | TBAF or acid        |
@@ -137,7 +169,11 @@ its participation in a reaction, removable under conditions that do not affect o
 | MOM ether           | MOMCl, base         | Acid                |
 | Acetate             | Ac$_2$O, pyridine   | Base (K$_2$CO$_3$)  |
 
+</div>
+
 **Carbonyls (acetals):**
+
+<div class="table-wrap">
 
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
@@ -146,21 +182,31 @@ its participation in a reaction, removable under conditions that do not affect o
 | Dithiane            | 1,3-propanedithiol, BF$_3$ | HgO, HgCl$_2$   |
 | Ethylene ketal      | Ethylene glycol, TsOH | Acid              |
 
+</div>
+
 **Amines:**
+
+<div class="table-wrap">
 
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
-| Boc (t-butyloxycarbonyl) | (Boc)$_2$O, base | TFA or HCl        |
+| Boc (t-butyloxycarbonyl) | (Boc)$_2$ O, base | TFA or HCl        |
 | Cbz                 | Cbz-Cl, base        | H$_2$/Pd-C          |
 | Fmoc                | Fmoc-Cl, base       | Piperidine         |
 
+</div>
+
 **Carboxylic Acids:**
+
+<div class="table-wrap">
 
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
 | Methyl ester        | CH$_2$N$_2$ or MeOH/H$^+$ | LiOH or NaOH   |
-| t-Butyl ester       | (t-Bu)$_2$O or t-BuOH/DCC | TFA             |
+| t-Butyl ester       | (t-Bu)$_2$ O or t-BuOH/DCC | TFA             |
 | Benzyl ester        | BnBr, K$_2$CO$_3$   | H$_2$/Pd-C          |
+
+</div>
 
 ## 4. Carbon-Carbon Bond Forming Reactions
 
@@ -169,7 +215,11 @@ its participation in a reaction, removable under conditions that do not affect o
 **Theorem 4 (Grignard Reaction):** Organomagnesium halides (Grignard reagents) act as nucleophiles
 toward carbonyl compounds:
 
-$$\text{R–MgBr} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C(OMgBr)R} \xrightarrow{\text{H}_3\text{O}^+} \text{R}'_2\text{CHOH–R}$$
+$$
+\text{R–MgBr} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C(OMgBr)R} \xrightarrow{\text{H}_3\text{O}^+} \text{R}'_2\text{CHOH–R}
+$$
+
+<div class="table-wrap">
 
 | Carbonyl Substrate | Product            |
 | ------------------ | ------------------ |
@@ -179,14 +229,18 @@ $$\text{R–MgBr} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C(OMgBr)R} \xrigh
 | Ester              | Tertiary alcohol   |
 | CO$_2$             | Carboxylic acid    |
 
+</div>
+
 **Limitations:** Grignard reagents are strong bases, incompatible with acidic protons (OH, NH,
-$\equiv$CH). They also react with epoxides (ring opening).
+$\equiv$ CH). They also react with epoxides (ring opening).
 
 ### 4.2 Wittig Reaction
 
 **Theorem 5 (Wittig Reaction):** Phosphorus ylides convert carbonyls to alkenes:
 
-$$\text{Ph}_3\text{P}=\text{CHR} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C}=\text{CHR} + \text{Ph}_3\text{PO}$$
+$$
+\text{Ph}_3\text{P}=\text{CHR} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C}=\text{CHR} + \text{Ph}_3\text{PO}
+$$
 
 - Non-stabilized ylides (R = alkyl): Z-alkene favored (kinetic).
 - Stabilized ylides (R = COOR, CN): E-alkene favored (thermodynamic).
@@ -197,7 +251,9 @@ $$\text{Ph}_3\text{P}=\text{CHR} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C}
 
 **Theorem 6 (Aldol Reaction):** Enolates of carbonyl compounds add to other carbonyl compounds:
 
-$$\text{CH}_3\text{CHO} \xrightarrow{\text{OH}^-} \text{CH}_2=\text{CH(O}^-)\text{CHO} \xrightarrow{\text{CH}_3\text{CHO}} \text{CH}_3\text{CH(OH)}\text{CH}_2\text{CHO}$$
+$$
+\text{CH}_3\text{CHO} \xrightarrow{\text{OH}^-} \text{CH}_2=\text{CH(O}^-)\text{CHO} \xrightarrow{\text{CH}_3\text{CHO}} \text{CH}_3\text{CH(OH)}\text{CH}_2\text{CHO}
+$$
 
 **Features:**
 
@@ -208,26 +264,34 @@ $$\text{CH}_3\text{CHO} \xrightarrow{\text{OH}^-} \text{CH}_2=\text{CH(O}^-)\tex
 
 **Directed aldol with LDA:**
 
-$$\text{RCHO} \xrightarrow{\text{LDA}, -78°C} \text{RCH}=\text{CHO}^- \xrightarrow{\text{R'}_2\text{C}=O} \text{RCH(OH)CHR'}_2\text{C}=O$$
+$$
+\text{RCHO} \xrightarrow{\text{LDA}, -78°C} \text{RCH}=\text{CHO}^- \xrightarrow{\text{R'}_2\text{C}=O} \text{RCH(OH)CHR'}_2\text{C}=O
+$$
 
 ### 4.4 Claisen and Dieckmann Condensation
 
 **Theorem 7 (Claisen Condensation):** Two esters condense to form a $\beta$-keto ester:
 
-$$\text{CH}_3\text{COOEt} \xrightarrow{\text{OEt}^-} \text{CH}_3\text{C(OEt)}=\text{CHCOOEt} \xrightarrow{\text{H}^+} \text{CH}_3\text{COCH}_2\text{COOEt}$$
+$$
+\text{CH}_3\text{COOEt} \xrightarrow{\text{OEt}^-} \text{CH}_3\text{C(OEt)}=\text{CHCOOEt} \xrightarrow{\text{H}^+} \text{CH}_3\text{COCH}_2\text{COOEt}
+$$
 
 **Dieckmann condensation:** Intramolecular Claisen; cyclizes diesters to 5- and 6-membered
 $\beta$-keto esters.
 
 **Acetoacetic ester synthesis:** Alkylation of ethyl acetoacetate, followed by decarboxylation:
 
-$$\text{CH}_3\text{COCH}_2\text{COOEt} \xrightarrow{\text{1. OEt}^- \text{ 2. R–X}} \text{CH}_3\text{COCH(R)COOEt} \xrightarrow{\text{H}_3\text{O}^+, \Delta} \text{CH}_3\text{COCH}_2\text{R}$$
+$$
+\text{CH}_3\text{COCH}_2\text{COOEt} \xrightarrow{\text{1. OEt}^- \text{ 2. R–X}} \text{CH}_3\text{COCH(R)COOEt} \xrightarrow{\text{H}_3\text{O}^+, \Delta} \text{CH}_3\text{COCH}_2\text{R}
+$$
 
 ### 4.5 Diels-Alder Reaction
 
 **Theorem 8 (Diels-Alder in Synthesis):** A powerful [4+2] cycloaddition forming six-membered rings:
 
-$$\text{diene} + \text{dienophile} \to \text{cyclohexene derivative}$$
+$$
+\text{diene} + \text{dienophile} \to \text{cyclohexene derivative}
+$$
 
 **Synthetic advantages:**
 
@@ -240,32 +304,44 @@ $$\text{diene} + \text{dienophile} \to \text{cyclohexene derivative}$$
 
 **Theorem 9 (Friedel-Crafts Alkylation):**
 
-$$\text{ArH} + \text{RCl} \xrightarrow{\text{AlCl}_3} \text{ArR} + \text{HCl}$$
+$$
+\text{ArH} + \text{RCl} \xrightarrow{\text{AlCl}_3} \text{ArR} + \text{HCl}
+$$
 
 **Limitation:** Can undergo polyalkylation and carbocation rearrangement.
 
 **Theorem 10 (Friedel-Crafts Acylation):**
 
-$$\text{ArH} + \text{RCOCl} \xrightarrow{\text{AlCl}_3} \text{ArCOR} + \text{HCl}$$
+$$
+\text{ArH} + \text{RCOCl} \xrightarrow{\text{AlCl}_3} \text{ArCOR} + \text{HCl}
+$$
 
 **Advantage over alkylation:** No rearrangement; deactivates the ring (prevents polyacylation).
 The acyl group can be reduced to alkyl (Clemmensen or Wolff-Kishner):
 
-$$\text{ArCOR} \xrightarrow{\text{Zn(Hg)/HCl or NH}_2\text{NH}_2/\text{KOH}} \text{ArCH}_2\text{R}$$
+$$
+\text{ArCOR} \xrightarrow{\text{Zn(Hg)/HCl or NH}_2\text{NH}_2/\text{KOH}} \text{ArCH}_2\text{R}
+$$
 
 ### 4.7 Additional C–C Bond Forming Reactions
 
 **Heck reaction:** Palladium-catalyzed arylation of alkenes.
 
-$$\text{Ar–X} + \text{CH}_2=\text{CHR} \xrightarrow{\text{Pd(0)}, \text{base}} \text{Ar–CH}=\text{CHR}$$
+$$
+\text{Ar–X} + \text{CH}_2=\text{CHR} \xrightarrow{\text{Pd(0)}, \text{base}} \text{Ar–CH}=\text{CHR}
+$$
 
 **Suzuki coupling:** Palladium-catalyzed cross-coupling of boronic acids with aryl/vinyl halides.
 
-$$\text{Ar–X} + \text{Ar'–B(OH)}_2 \xrightarrow{\text{Pd(0)}, \text{base}} \text{Ar–Ar'}$$
+$$
+\text{Ar–X} + \text{Ar'–B(OH)}_2 \xrightarrow{\text{Pd(0)}, \text{base}} \text{Ar–Ar'}
+$$
 
 **Sonogashira coupling:** Cross-coupling with terminal alkynes.
 
-$$\text{Ar–X} + \text{HC}\equiv\text{CR} \xrightarrow{\text{Pd(0)}, \text{CuI}, \text{base}} \text{Ar–C}\equiv\text{CR}$$
+$$
+\text{Ar–X} + \text{HC}\equiv\text{CR} \xrightarrow{\text{Pd(0)}, \text{CuI}, \text{base}} \text{Ar–C}\equiv\text{CR}
+$$
 
 **Mizoroki-Heck:** Aryl halide + alkene → aryl-substituted alkene.
 
@@ -276,12 +352,18 @@ $$\text{Ar–X} + \text{HC}\equiv\text{CR} \xrightarrow{\text{Pd(0)}, \text{CuI}
 **Definition 6 (Convergent Synthesis):** Two or more fragments are prepared separately and then
 joined in the final step. Higher overall yield.
 
-$$\text{A} \to \text{B} \quad \text{C} \to \text{D}$$
-$$\text{B} + \text{D} \to \text{TM}$$
+$$
+\text{A} \to \text{B} \quad \text{C} \to \text{D}
+$$
+$$
+\text{B} + \text{D} \to \text{TM}
+$$
 
 **Definition 7 (Linear Synthesis):** Each step builds upon the previous one. Lower overall yield.
 
-$$\text{SM} \to \text{I}_1 \to \text{I}_2 \to \ldots \to \text{TM}$$
+$$
+\text{SM} \to \text{I}_1 \to \text{I}_2 \to \ldots \to \text{TM}
+$$
 
 For $n$ steps at 90% yield: linear gives $0.9^n$; convergent gives higher overall yield.
 
@@ -297,9 +379,13 @@ For $n$ steps at 90% yield: linear gives $0.9^n$; convergent gives higher overal
 
 **Retrosynthesis:**
 
-$$\text{4-MeO-C}_6\text{H}_4\text{-COCH}_3 \Rightarrow \text{4-MeO-C}_6\text{H}_5 + \text{CH}_3\text{COCl} \quad \text{(Friedel-Crafts acylation)}$$
+$$
+\text{4-MeO-C}_6\text{H}_4\text{-COCH}_3 \Rightarrow \text{4-MeO-C}_6\text{H}_5 + \text{CH}_3\text{COCl} \quad \text{(Friedel-Crafts acylation)}
+$$
 
-$$\text{4-MeO-C}_6\text{H}_5 \Rightarrow \text{C}_6\text{H}_5\text{-OH} \xRightarrow{\text{CH}_3\text{I}} \text{C}_6\text{H}_5\text{-OCH}_3$$
+$$
+\text{4-MeO-C}_6\text{H}_5 \Rightarrow \text{C}_6\text{H}_5\text{-OH} \xRightarrow{\text{CH}_3\text{I}} \text{C}_6\text{H}_5\text{-OCH}_3
+$$
 
 **Forward synthesis:**
 
@@ -315,7 +401,9 @@ $\blacksquare$
 **Definition 8 (Enantioselectivity):** The preferential formation of one enantiomer over the other.
 Measured by enantiomeric excess (ee):
 
-$$ee = \frac{|\text{major} - \text{minor}|}{\text{major} + \text{minor}} \times 100\%$$
+$$
+ee = \frac{|\text{major} - \text{minor}|}{\text{major} + \text{minor}} \times 100\%
+$$
 
 ### 6.2 Chiral Auxiliaries
 
@@ -336,6 +424,8 @@ chiral ligands) induces enantioselectivity in a reaction.
 
 **Key asymmetric catalysts:**
 
+<div class="table-wrap">
+
 | Catalyst / Ligand         | Reaction Type                |
 | ------------------------ | ---------------------------- |
 | BINAP-Ru (Noyori)        | Asymmetric hydrogenation    |
@@ -344,6 +434,8 @@ chiral ligands) induces enantioselectivity in a reaction.
 | Proline (organocatalyst)  | Aldol, Mannich, Michael      |
 | CBS reduction (oxazaborolidine) | Ketone reduction       |
 | DIPAMP (Rh complex)       | Asymmetric hydrogenation    |
+
+</div>
 
 ### 6.4 Sharpless Epoxidation
 
@@ -382,17 +474,6 @@ Enzymes provide extremely high enantioselectivity under mild conditions:
 7. **Misapplying asymmetric methods.** Chiral auxiliaries give diastereoselectivity, not
    enantioselectivity directly; the auxiliary must be removed. **Fix:** Choose between auxiliary,
    catalyst, or resolution based on the specific system.
-
-
-```mermaid
-flowchart TD
-    A[Synthesis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -436,6 +517,8 @@ Synthetic chemistry is like molecular LEGO: you start with simple, available bui
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
 | Structure and Bonding    | WyattsNotes | [View](/2-organic-chemistry/structure-and-bonding/)              |
@@ -443,5 +526,7 @@ Synthetic chemistry is like molecular LEGO: you start with simple, available bui
 | Spectroscopy             | WyattsNotes | [View](/2-organic-chemistry/spectroscopy/)                       |
 | Organic Synthesis, MIT 5.34 | MIT OCW | [View](https://ocw.mit.edu/courses/5-34-advanced-organic-chemistry-spring-2003/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+</div>
+
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

@@ -14,17 +14,6 @@ description: "Study notes for Comprehension with worked examples, practice probl
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Comprehension] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Comprehension
 
 SAT reading study notes - Comprehension
@@ -40,6 +29,8 @@ SAT reading study notes - Comprehension
 
 ## Question Type Strategy
 
+<div class="table-wrap">
+
 | Question Type | Signal Words | Strategy |
 | --------------- | ------------- | ---------- |
 | Main idea | "primary purpose", "central claim" | Find the thesis; check first/last paragraph |
@@ -48,6 +39,8 @@ SAT reading study notes - Comprehension
 | Purpose | "the author includes X to" | Ask why that detail serves the argument |
 | Tone | "the author's attitude" | Look at word choice (connotations) |
 | Vocabulary | "as used in line X", "most nearly means" | Replace the word in context; test each option |
+
+</div>
 
 ## Worked Examples
 
@@ -134,65 +127,3 @@ Reading comprehension is like being a detective at a crime scene, every sentence
 - [Writing Essay](/writing/essay/) -- Evidence-based essay writing draws on the same analytical skills used in reading comprehension.
 - [Algebra](/mathematics/algebra/) -- Interpreting data and graphs in passages requires algebraic reasoning about trends and relationships.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

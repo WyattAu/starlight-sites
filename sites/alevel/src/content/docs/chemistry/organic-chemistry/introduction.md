@@ -23,13 +23,13 @@ categories:
 ## Organic Chemistry Introduction
 
 Organic chemistry is the study of the structure, properties, composition, reactions, and preparation
-Of carbon-containing compounds. Carbon occupies a unique position in the periodic table: its ability
-To form four covalent bonds, catenate (form chains and rings), and hybridise in multiple
+of carbon-containing compounds. Carbon occupies a unique position in the periodic table: its ability
+to form four covalent bonds, catenate (form chains and rings), and hybridise in multiple
 Configurations ($sp^3$, $sp^2$, $sp$) produces a combinatorial space of molecules that dwarfs all
-Other branches of chemistry combined.
+other branches of chemistry combined.
 
 This module serves as the conceptual foundation for every subsequent organic topic. It defines the
-Systematic rules for naming, classifying, and reasoning about organic molecules.
+systematic rules for naming, classifying, and reasoning about organic molecules.
 
 ## IUPAC Nomenclature
 
@@ -71,7 +71,7 @@ $\mathrm{CH}_3\mathrm{CH}(\mathrm{Cl})\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\math
 ### Multiplying Prefixes and Complex Substituents
 
 When identical substituents appear, use di-, tri-, tetra- as multiplying prefixes. These are ignored
-In alphabetical ordering.
+in alphabetical ordering.
 
 Complex substituents are named as branched alkyl groups and enclosed in parentheses:
 
@@ -82,8 +82,10 @@ Complex substituents are named as branched alkyl groups and enclosed in parenthe
 ## Homologous Series
 
 A homologous series is a family of organic compounds with the same functional group, the same
-General formula, and successive members differing by $-\mathrm{CH}_2-$. Each member exhibits a
-Gradual, predictable change in physical properties.
+general formula, and successive members differing by $-\mathrm{CH}_2-$. Each member exhibits a
+gradual, predictable change in physical properties.
+
+<div class="table-wrap">
 
 | Series          | General Formula                 | Functional Group                         | Suffix    |
 | --------------- | ------------------------------- | ---------------------------------------- | --------- |
@@ -99,11 +101,13 @@ Gradual, predictable change in physical properties.
 | Amine           | --                              | $-\mathrm{NH}_2$                         | -amine    |
 | Amide           | --                              | $-\mathrm{CONH}_2$                       | -amide    |
 
+</div>
+
 ### Trend: Boiling Points Within a Series
 
 As chain length increases, boiling point increases approximately linearly. This is because longer
 Chains have greater surface area and therefore stronger London (dispersion) forces. The increment
-Per $-\mathrm{CH}_2-$ unit is roughly 20--30 K for liquids near room temperature.
+per $-\mathrm{CH}_2-$ unit is roughly 20--30 K for liquids near room temperature.
 
 ### Trend: Boiling Points Between Series
 
@@ -112,16 +116,16 @@ For compounds of similar molecular mass:
 Alkanes $\lt$ Ethers $\lt$ Aldehydes/Ketones $\lt$ Alcohols $\lt$ Carboxylic Acids
 
 This ordering reflects the increasing strength of intermolecular forces: London forces only $\to$
-Permanent dipole-dipole $\to$ hydrogen bonding $\to$ dimeric hydrogen bonding (carboxylic acids form
+permanent dipole-dipole $\to$ hydrogen bonding $\to$ dimeric hydrogen bonding (carboxylic acids form
 Dimers in the liquid phase).
 
 ## Functional Group Classification
 
 Functional groups are specific groups of atoms within molecules that are responsible for the
-Characteristic chemical reactions of those molecules. The reactivity of an organic compound is
-Determined almost entirely by its functional group(s).
+characteristic chemical reactions of those molecules. The reactivity of an organic compound is
+determined almost entirely by its functional group(s).
 
-Electron-rich groups (nucleophilic sites): $-\mathrm{OH}$, $-\mathrm{NH}_2$C=C, benzene ring.
+Electron-rich groups (nucleophilic sites): $-\mathrm{OH}$, $-\mathrm{NH}_2$ C=C, benzene ring.
 
 Electron-deficient groups (electrophilic sites): C=O (carbonyl carbon), C$\equiv$N (nitrile carbon),
 $-\mathrm{COOH}$.
@@ -129,12 +133,12 @@ $-\mathrm{COOH}$.
 A compound may contain multiple functional groups. In such cases, the most senior group (see
 Priority order above) takes the suffix, and all others are named as prefixes. For example,
 2-hydroxypropanoic acid contains both an alcohol and a carboxylic acid; the carboxylic acid is
-Senior.
+senior.
 
 ## Isomerism
 
 Isomers are compounds with the same molecular formula but different structural arrangements of
-Atoms. Isomerism is divided into two broad categories: structural isomerism and stereoisomerism.
+atoms. Isomerism is divided into two broad categories: structural isomerism and stereoisomerism.
 
 ### Structural Isomerism
 
@@ -142,7 +146,7 @@ Structural isomers differ in the connectivity of their atoms. There are three su
 
 **Chain isomerism:** Different carbon skeletons. For $\mathrm{C}_4\mathrm{H}_{10}$: butane (straight
 Chain) vs 2-methylpropane (branched). Branched isomers have slightly lower boiling points due to
-Reduced surface area for London forces.
+reduced surface area for London forces.
 
 **Positional isomerism:** The functional group occupies a different position on the same carbon
 Chain. For $\mathrm{C}_3\mathrm{H}_8\mathrm{O}$: propan-1-ol vs propan-2-ol. These have different
@@ -156,7 +160,7 @@ $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$: propanal (aldehyde), propanone (ketone), m
 ### Stereoisomerism
 
 Stereoisomers have the same structural formula and the same atom connectivity but differ in the
-Spatial arrangement of atoms.
+spatial arrangement of atoms.
 
 #### E/Z Isomerism (Geometric Isomerism)
 
@@ -178,7 +182,7 @@ Assignment:
 - **E (entgegen, "opposite"):** The two highest-priority groups are on opposite sides.
 
 The older cis/trans nomenclature is only unambiguous when each carbon carries one hydrogen and one
-Non-hydrogen group. In all other cases, E/Z must be used.
+non-hydrogen group. In all other cases, E/Z must be used.
 
 **Worked Example.** Assign E/Z to
 $\mathrm{CH}_3\mathrm{CH}=\mathrm{C}(\mathrm{CH}_3)\mathrm{CH}_2\mathrm{CH}_3$.
@@ -187,7 +191,7 @@ Left carbon: $-\mathrm{CH}_3$ (atomic number 6) vs $-\mathrm{H}$ (atomic number 
 $-\mathrm{CH}_3 \gt -\mathrm{H}$.
 
 Right carbon: $-\mathrm{CH}_3$ (atomic number 6) vs $-\mathrm{CH}_2\mathrm{CH}_3$. At the first atom
-Both are C. At the second atom: $-\mathrm{CH}_3$ has (H, H, H) vs $-\mathrm{CH}_2\mathrm{CH}_3$ has
+both are C. At the second atom: $-\mathrm{CH}_3$ has (H, H, H) vs $-\mathrm{CH}_2\mathrm{CH}_3$ has
 (C, H, H). Priority: $-\mathrm{CH}_2\mathrm{CH}_3 \gt -\mathrm{CH}_3$.
 
 If the $-\mathrm{CH}_3$ (high on left) and $-\mathrm{CH}_3$ (low on right) are on the same side,
@@ -199,7 +203,7 @@ A chiral centre (stereocentre) is a carbon atom bonded to four different groups.
 Exist as two non-superimposable mirror images called **enantiomers**.
 
 The property of existing in non-superimposable mirror-image forms is called **chirality**. The most
-Common cause of chirality in organic molecules is a tetrahedral carbon with four different
+common cause of chirality in organic molecules is a tetrahedral carbon with four different
 Substituents.
 
 **Properties of enantiomers:**
@@ -223,10 +227,14 @@ The rotations cancel. Racemic mixtures have different physical properties from t
 
 ### Summary of Isomerism Types
 
+<div class="table-wrap">
+
 | Type            | Basis                                            | Subtypes                            |
 | --------------- | ------------------------------------------------ | ----------------------------------- |
 | Structural      | Different connectivity                           | Chain, positional, functional group |
 | Stereoisomerism | Same connectivity, different spatial arrangement | E/Z isomerism, optical isomerism    |
+
+</div>
 
 ## General Principles of Organic Reactions
 
@@ -271,7 +279,7 @@ $\pi$ bond acts as a nucleophile. The mechanism proceeds via a carbocation inter
 
 **Electrophilic aromatic substitution ($\mathrm{SE}_Ar$):** An electrophile substitutes a hydrogen
 On an aromatic ring. The aromatic system is temporarily disrupted (arenium ion intermediate) but
-Restored by loss of a proton. Covered in [arenes](/chemistry/organic-chemistry/arenes/).
+restored by loss of a proton. Covered in [arenes](/chemistry/organic-chemistry/arenes/).
 
 **Nucleophilic addition ($\mathrm{Ad}_N$):** A nucleophile adds to the carbonyl carbon of an
 Aldehyde or ketone. The C=O $\pi$ bond is broken. Covered in
@@ -284,7 +292,7 @@ in [halogenoalkanes](/chemistry/organic-chemistry/halogenoalkanes/).
 ### Curly Arrow Conventions
 
 Curly arrows are the formal notation for showing electron movement in organic mechanisms. The rules
-Are strict:
+are strict:
 
 1. A curly arrow starts from a lone pair, a bond, or a negative charge.
 2. A curly arrow ends at an atom, a bond, or a positive charge.
@@ -297,7 +305,7 @@ Are strict:
 ### Reaction Coordinate Diagrams
 
 A reaction coordinate diagram plots the potential energy of the system against the progress of the
-Reaction. Key features:
+reaction. Key features:
 
 - **Reactants:** Starting energy level.
 - **Transition state:** The highest-energy point on the reaction pathway. Denoted with a double
@@ -324,9 +332,9 @@ $\mathrm{I}^- \gt \mathrm{Br}^- \gt \mathrm{Cl}^- \gg \mathrm{F}^- \gg \mathrm{O
 $\mathrm{NH}_2^-$$\mathrm{CH}_3^-$.
 
 The trend follows basicity (weaker base = better leaving group) and the stability of the conjugate
-Acid. Water ($\mathrm{H}_2\mathrm{O}$) is a much better leaving group than $-\mathrm{OH}$Which is
-Why acid catalysis is often used to protonate $-\mathrm{OH}$ groups before substitution or
-Elimination.
+Acid. Water ($\mathrm{H}_2\mathrm{O}$) is a much better leaving group than $-\mathrm{OH}$ Which is
+why acid catalysis is often used to protonate $-\mathrm{OH}$ groups before substitution or
+elimination.
 
 ## Common Pitfalls
 
@@ -434,7 +442,7 @@ pair of enantiomers: (2R)-3-chloro-2-methylpentane and (2S)-3-chloro-2-methylpen
 ### Rules for Drawing Curly Arrows
 
 1. **Curly arrows show the movement of electron pairs.** A full-headed arrow ($\curvearrowright$)
-   shows movement of a pair of electrons. A half-headed arrow ($\hookrightarrow$Fishhook) shows
+   shows movement of a pair of electrons. A half-headed arrow ($\hookrightarrow$ Fishhook) shows
    movement of a single electron (used in radical mechanisms).
 
 2. **Arrows start from electron-rich sites:** lone pairs, pi bonds, sigma bonds, or negative
@@ -461,7 +469,7 @@ $$
 \mathrm{C}=\mathrm{C} \curvearrowright \mathrm{E}^+
 $$
 
-**Proton transfer:** Arrow from a lone pair to $\mathrm{H}^+$Or from a bond to $\mathrm{H}$ (to
+**Proton transfer:** Arrow from a lone pair to $\mathrm{H}^+$ Or from a bond to $\mathrm{H}$ (to
 break it).
 
 $$
@@ -489,11 +497,15 @@ shown with a dotted line between C and both the incoming $\mathrm{OH}$ and outgo
 
 ### Types of Stereoisomerism
 
+<div class="table-wrap">
+
 | Type                    | Requirement                                | Example                                |
 | ----------------------- | ------------------------------------------ | -------------------------------------- |
 | Optical (enantiomers)   | Chiral centre (no plane of symmetry)       | $(R)$- and $(S)$-2-chlorobutane        |
 | E/Z (geometric)         | Restricted rotation about C=C or C=N       | $(E)$- and $(Z)$-but-2-ene             |
 | Optical (diastereomers) | Multiple chiral centres, not mirror images | $(2R,3R)$- and $(2R,3S)$-tartaric acid |
+
+</div>
 
 ### Enantiomers vs Diastereomers
 
@@ -552,6 +564,8 @@ one pair of enantiomers $(2R,3R)/(2S,3S)$ and one meso compound $(2R,3S)$.
 The following table summarises the key interconversions covered across the organic chemistry
 modules:
 
+<div class="table-wrap">
+
 | From            | To                  | Reagent/conditions                                                         | Mechanism                                   |
 | --------------- | ------------------- | -------------------------------------------------------------------------- | ------------------------------------------- |
 | Alkene          | Alkane              | $\mathrm{H}_2$ / Ni catalyst                                               | Addition (hydrogenation)                    |
@@ -560,19 +574,19 @@ modules:
 | Alkene          | Alcohol             | $\mathrm{H}_3\mathrm{PO}_4$ / steam, $300^\circ\mathrm{C}$                 | Electrophilic addition                      |
 | Alkene          | Diol                | Cold dilute $\mathrm{KMnO}_4$                                              | Oxidation                                   |
 | Alkane          | Halogenoalkane      | $\mathrm{Cl}_2$ / UV                                                       | Free radical substitution                   |
-| Alcohol         | Halogenoalkane      | $\mathrm{PBr}_3$$\mathrm{SOCl}_2$Or HX                                     | Substitution                                |
+| Alcohol         | Halogenoalkane      | $\mathrm{PBr}_3$$\mathrm{SOCl}_2$ Or HX                                     | Substitution                                |
 | Alcohol         | Aldehyde            | Distillation with $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ / $\mathrm{H}^+$ | Oxidation                                   |
 | Alcohol         | Carboxylic acid     | Reflux with $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ / $\mathrm{H}^+$       | Oxidation                                   |
 | Alcohol         | Alkene              | $\mathrm{H}_2\mathrm{SO}_4$$170^\circ\mathrm{C}$                           | Elimination (dehydration)                   |
 | Alcohol         | Ester               | Carboxylic acid / $\mathrm{H}_2\mathrm{SO}_4$ reflux                       | Esterification                              |
-| Halogenoalkane  | Alcohol             | $\mathrm{NaOH}(aq)$Heat                                                    | Nucleophilic substitution (SN2/SN1)         |
+| Halogenoalkane  | Alcohol             | $\mathrm{NaOH}(aq)$ Heat                                                    | Nucleophilic substitution (SN2/SN1)         |
 | Halogenoalkane  | Alkene              | $\mathrm{NaOH}$ in ethanol, heat                                           | Elimination (E2/E1)                         |
 | Halogenoalkane  | Nitrile             | $\mathrm{KCN}$ in ethanol                                                  | Nucleophilic substitution                   |
 | Halogenoalkane  | Amine               | Excess $\mathrm{NH}_3$                                                     | Nucleophilic substitution                   |
 | Halogenoalkane  | Amine (primary)     | Phthalimide / $\mathrm{KOH}$ (Gabriel)                                     | Nucleophilic substitution                   |
 | Halogenoalkane  | Ether               | Alkoxide ($\mathrm{RO}^-\mathrm{Na}^+$)                                    | Williamson synthesis (SN2)                  |
 | Nitrile         | Primary amine       | $\mathrm{LiAlH}_4$ then $\mathrm{H}_2\mathrm{O}$                           | Reduction                                   |
-| Nitrile         | Carboxylic acid     | $\mathrm{H}_3\mathrm{O}^+$Reflux                                           | Hydrolysis                                  |
+| Nitrile         | Carboxylic acid     | $\mathrm{H}_3\mathrm{O}^+$ Reflux                                           | Hydrolysis                                  |
 | Amide           | Amine               | $\mathrm{LiAlH}_4$ then $\mathrm{H}_2\mathrm{O}$                           | Reduction                                   |
 | Amide           | Carboxylic acid     | $\mathrm{HCl}$ reflux or $\mathrm{NaOH}$ reflux                            | Hydrolysis                                  |
 | Aldehyde        | Primary alcohol     | $\mathrm{NaBH}_4$ then $\mathrm{H}^+$                                      | Nucleophilic addition                       |
@@ -591,6 +605,8 @@ modules:
 | Benzene         | Phenyl ketone       | $\mathrm{RCOCl}$ / $\mathrm{AlCl}_3$ (Friedel-Crafts)                      | Electrophilic substitution                  |
 | Nitrobenzene    | Phenylamine         | $\mathrm{Sn}$ / $\mathrm{HCl}$ then $\mathrm{NaOH}$                        | Reduction                                   |
 | Phenylamine     | Diazonium salt      | $\mathrm{NaNO}_2$ / $\mathrm{HCl}$$0$--$5^\circ\mathrm{C}$                 | Diazotisation                               |
+
+</div>
 
 ## Determining the Structure of an Unknown Organic Compound
 
@@ -611,12 +627,16 @@ $$
 Where $C$ = number of carbons, $H$ = hydrogens, $N$ = nitrogens, $X$ = halogens. Oxygen does not
 affect the DoU.
 
+<div class="table-wrap">
+
 | DoU | Possible structural features                                                |
 | --- | --------------------------------------------------------------------------- |
 | 0   | Acyclic, saturated (only single bonds)                                      |
 | 1   | One ring OR one double bond                                                 |
 | 2   | Two rings, two double bonds, one triple bond, or one ring + one double bond |
 | 4   | Often suggests a benzene ring (3 double bonds + 1 ring)                     |
+
+</div>
 
 ### Step 3: IR Spectroscopy -- Identify Functional Groups
 
@@ -635,15 +655,15 @@ data.
 ### Step 5: Mass Spectrometry -- Confirm and Find Fragments
 
 The molecular ion confirms the molecular mass. Fragment peaks provide information about
-substructures (e.g. Loss of 15 = $\mathrm{CH}_3$Loss of 17 = $\mathrm{OH}$Loss of 29 =
-$\mathrm{CHO}$ or $\mathrm{C}_2\mathrm{H}_5$Loss of 31 = $\mathrm{OCH}_3$Loss of 45 =
+substructures (e.g. Loss of 15 = $\mathrm{CH}_3$ Loss of 17 = $\mathrm{OH}$ Loss of 29 =
+$\mathrm{CHO}$ or $\mathrm{C}_2\mathrm{H}_5$ Loss of 31 = $\mathrm{OCH}_3$ Loss of 45 =
 $\mathrm{COOH}$).
 
 ### Worked Example: Complete Structure Determination
 
 An unknown compound has:
 
-- Mass spec: $M^+ = 120$M+1 peak approximately $7.7\%$ of $M^+$
+- Mass spec: $M^+ = 120$ M+1 peak approximately $7.7\%$ of $M^+$
 - IR: $1705\,\mathrm{cm}^{-1}$ (strong), $2850$--$2950\,\mathrm{cm}^{-1}$ (strong), no O--H, no C--O
 - $^1\mathrm{H}$ NMR: $\delta\, 1.2$ (t, 6H), $\delta\, 2.9$ (q, 4H), $\delta\, 7.5$ (t, 2H),
   $\delta\, 7.9$ (d, 2H)
@@ -676,7 +696,7 @@ $\delta\, 1.2$ suggest two ethyl groups.
 
 **Structure:** 1,4-diacetylbenzene or 4-ethoxyacetophenone, etc. The correct structure consistent
 with all data is **1-phenylpropan-1-one** (propiophenone) if we have 5 aromatic protons... But we
-only have 4 aromatic protons. With $\mathrm{C}_8\mathrm{H}_8\mathrm{O}$DoU = 5, a benzene ring (4
+only have 4 aromatic protons. With $\mathrm{C}_8\mathrm{H}_8\mathrm{O}$ DoU = 5, a benzene ring (4
 unsaturations) plus C=O: para-ethylacetophenone
 ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{C}_6\mathrm{H}_4\mathrm{COCH}_3$) =
 $\mathrm{C}_9\mathrm{H}_{10}\mathrm{O}$ (wrong formula).
@@ -691,14 +711,14 @@ acetophenone would have 5 aromatic protons and a $\mathrm{CH}_3$ singlet, not ma
 triplet/quartet pattern.
 
 **Correct answer:** The NMR pattern (t, 6H; q, 4H) is characteristic of a diethyl ketone fragment.
-With $M = 120$ and $\mathrm{C}_8\mathrm{H}_8\mathrm{O}$The structure is **phenacyl ethyl ether**
+With $M = 120$ and $\mathrm{C}_8\mathrm{H}_8\mathrm{O}$ The structure is **phenacyl ethyl ether**
 ($\mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_2\mathrm{CH}_3$) = butyrophenone. But this is
 $\mathrm{C}_{10}\mathrm{H}_{12}\mathrm{O}$...
 
 The key insight: with triplet (6H) and quartet (4H), there are two $-\mathrm{CH}_2\mathrm{CH}_3$
 groups. With 4 aromatic protons (1,4-disubstituted), C=O, and formula
-$\mathrm{C}_8\mathrm{H}_8\mathrm{O}$The molecule is too small. The formula must be reconsidered:
-$\mathrm{C}_9\mathrm{H}_{12}\mathrm{O}$ has $M = 136$. With $M = 120$The only option with two ethyl
+$\mathrm{C}_8\mathrm{H}_8\mathrm{O}$ The molecule is too small. The formula must be reconsidered:
+$\mathrm{C}_9\mathrm{H}_{12}\mathrm{O}$ has $M = 136$. With $M = 120$ The only option with two ethyl
 groups is not possible with $\mathrm{C}_8\mathrm{H}_8\mathrm{O}$.
 
 This example illustrates the importance of cross-checking all data. In an exam, if the data are
@@ -778,6 +798,8 @@ alcohol.
 When naming organic compounds, the principal functional group gets the lowest possible locant.
 Priority order (highest to lowest):
 
+<div class="table-wrap">
+
 | Priority | Functional Group | Suffix    | Prefix                         |
 | -------- | ---------------- | --------- | ------------------------------ |
 | 1        | Carboxylic acid  | -oic acid | --                             |
@@ -792,6 +814,8 @@ Priority order (highest to lowest):
 | 10       | Alkyne           | -yne      | --                             |
 | 11       | Halogenoalkane   | --        | halo- (chloro-, bromo-, iodo-) |
 | 12       | Ether            | --        | alkoxy-                        |
+
+</div>
 
 **Worked Example:** Name
 $\mathrm{HOOC}-\mathrm{CH}(\mathrm{OH})-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{NH}_2$.
@@ -835,6 +859,8 @@ Lactic acid is **$(S)$-lactic acid** (L-(+)-lactic acid).
 
 ### Reaction Classification: Complete Reference
 
+<div class="table-wrap">
+
 | Reaction type                           | Bond change                                     | Typical reagents                                                                | Example                                               |
 | --------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | **Nucleophilic substitution** (SN1/SN2) | One group replaced by a nucleophile             | $\mathrm{OH}^-$$\mathrm{CN}^-$$\mathrm{NH}_3$                                   | Halogenoalkane $\to$ alcohol                          |
@@ -842,13 +868,15 @@ Lactic acid is **$(S)$-lactic acid** (L-(+)-lactic acid).
 | **Electrophilic substitution**          | Electrophile replaces H on aromatic ring        | $\mathrm{Br}^+$$\mathrm{NO}_2^+$$\mathrm{CH}_3\mathrm{CO}^+$                    | Benzene $\to$ bromobenzene                            |
 | **Elimination** (E1/E2)                 | Loss of small molecule to form C=C              | Base in ethanol, $\Delta$                                                       | Halogenoalkane $\to$ alkene                           |
 | **Nucleophilic addition**               | Nucleophile adds to C=O                         | $\mathrm{NaBH}_4$$\mathrm{LiAlH}_4$$\mathrm{HCN}$                               | Aldehyde $\to$ alcohol                                |
-| **Nucleophilic addition-elimination**   | Addition to C=O followed by loss                | $\mathrm{NH}_3$$\mathrm{H}_2\mathrm{O}$Alcohols                                 | Acyl chloride $\to$ amide                             |
-| **Oxidation**                           | Increase in O:C ratio or loss of H              | $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7/\mathrm{H}^+$Acidified $\mathrm{KMnO}_4$ | Primary alcohol $\to$ aldehyde $\to$ acid             |
+| **Nucleophilic addition-elimination**   | Addition to C=O followed by loss                | $\mathrm{NH}_3$$\mathrm{H}_2\mathrm{O}$ Alcohols                                 | Acyl chloride $\to$ amide                             |
+| **Oxidation**                           | Increase in O:C ratio or loss of H              | $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7/\mathrm{H}^+$ Acidified $\mathrm{KMnO}_4$ | Primary alcohol $\to$ aldehyde $\to$ acid             |
 | **Reduction**                           | Decrease in O:C ratio or gain of H              | $\mathrm{NaBH}_4$$\mathrm{LiAlH}_4$$\mathrm{H}_2$/Ni                            | Aldehyde $\to$ primary alcohol                        |
 | **Hydrolysis**                          | Reaction with water (often base/acid-catalysed) | $\mathrm{NaOH}(\mathrm{aq})$$\mathrm{H}^+(\mathrm{aq})$                         | Ester $\to$ acid + alcohol                            |
 | **Condensation**                        | Two molecules join with loss of small molecule  | Concentrated $\mathrm{H}_2\mathrm{SO}_4$$\Delta$                                | Alcohol + acid $\to$ ester + $\mathrm{H}_2\mathrm{O}$ |
 | **Free radical substitution**           | Atom replaced via radical chain                 | $\mathrm{Cl}_2/h\nu$$\mathrm{Br}_2/h\nu$                                        | Alkane $\to$ haloalkane                               |
-| **Free radical addition**               | Radicals add across C=C                         | $\mathrm{HF}$Peroxides, $\Delta$                                                | Anti-Markovnikov alkene addition                      |
+| **Free radical addition**               | Radicals add across C=C                         | $\mathrm{HF}$ Peroxides, $\Delta$                                                | Anti-Markovnikov alkene addition                      |
+
+</div>
 
 ### Structural Isomerism: Complete Classification
 
@@ -992,7 +1020,7 @@ $\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}\mathrm{CH}_3 + \mathrm{Br}_2 \to \mathrm{C
 
 (a) Mechanism (3 marks):
 
-- The $\pi$ electrons of the C=C attack one Br atom in $\mathrm{Br}_2$Forming a C--Br bond and
+- The $\pi$ electrons of the C=C attack one Br atom in $\mathrm{Br}_2$ Forming a C--Br bond and
   heterolytically cleaving the Br--Br bond (the arrow goes from the $\pi$ bond to one Br, and
   another arrow goes from the Br--Br bond to the other Br, forming $\mathrm{Br}^-$) (2 marks).
 - The $\mathrm{Br}^-$ ion then attacks the carbocation from the opposite side (back-side attack),
@@ -1054,9 +1082,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Organic
 Chemistry Introduction with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Worked Examples
 
 **Example 1: Mole calculation**
@@ -1065,22 +1090,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 :::
 
 ## Cross-References

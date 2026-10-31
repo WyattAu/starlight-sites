@@ -25,6 +25,8 @@ Scheduler, which requires an I/O event, and which is initiated by the process it
 
 **Solution.** (Revision: §2.1)
 
+<div class="table-wrap">
+
 | Transition           | Trigger              |
 | -------------------- | -------------------- |
 | New → Ready          | OS admission         |
@@ -34,6 +36,8 @@ Scheduler, which requires an I/O event, and which is initiated by the process it
 | Blocked → Ready      | I/O completion       |
 | Running → Terminated | `exit()` system call |
 
+</div>
+
 The scheduler triggers Ready → Running and Running → Ready (preemption). I/O events trigger Running
 → Blocked and Blocked → Ready. The process itself initiates Running → Terminated.
 
@@ -42,9 +46,9 @@ The scheduler triggers Ready → Running and Running → Ready (preemption). I/O
 <details>
 <summary>Problem 2, Kernel Architecture Trade-offs</summary>
 
-A microkernel-based OS adds 2 $\mu$S of message-passing overhead per system call compared to a
+A microkernel-based OS adds 2 $\mu$ S of message-passing overhead per system call compared to a
 Monolithic kernel. If a web server makes $10^6$ system calls per second, what is the total overhead
-As a fraction of CPU time on a 3 GHz processor?
+as a fraction of CPU time on a 3 GHz processor?
 
 **Solution.** (Revision: §1.2)
 
@@ -64,12 +68,16 @@ Processes arrive in the order $P_1$ (burst 10, arrival 0), $P_2$ (burst 5, arriv
 
 Gantt: $\lvert P_1(10) \rvert P_2(5) \rvert P_3(2) \rvert$ at times 0, 10, 15, 17.
 
+<div class="table-wrap">
+
 | Process | Waiting  | Turnaround |
 | ------- | -------- | ---------- |
 | $P_1$   | 0        | 10         |
 | $P_2$   | 9        | 14         |
 | $P_3$   | 13       | 15         |
 | **Avg** | **7.33** | **13**     |
+
+</div>
 
 $P_3$ waits the longest despite having the shortest burst, the convoy effect.
 
@@ -82,10 +90,12 @@ Using the same processes as Problem 3, compute the schedule under non-preemptive
 
 **Solution.** (Revision: §2.4)
 
-At $t = 0$Only $P_1$ is available. $P_1$ runs 0--10. At $t = 10$, $P_2$ (burst 5) and $P_3$
+At $t = 0$ Only $P_1$ is available. $P_1$ runs 0--10. At $t = 10$, $P_2$ (burst 5) and $P_3$
 (burst 2) are both ready. SJF selects $P_3$ Then $P_2$.
 
 Gantt: $\lvert P_1(10) \rvert P_3(2) \rvert P_2(5) \rvert$ at times 0, 10, 12, 17.
+
+<div class="table-wrap">
 
 | Process | Waiting | Turnaround |
 | ------- | ------- | ---------- |
@@ -94,6 +104,8 @@ Gantt: $\lvert P_1(10) \rvert P_3(2) \rvert P_2(5) \rvert$ at times 0, 10, 12, 1
 | $P_3$   | 8       | 10         |
 | **Avg** | **6**   | **11.67**  |
 
+</div>
+
 Average waiting time improves from 7.33 to 6 compared to FCFS.
 
 </details>
@@ -101,7 +113,7 @@ Average waiting time improves from 7.33 to 6 compared to FCFS.
 <details>
 <summary>Problem 5, Round Robin Scheduling</summary>
 
-Using the processes from Problem 3 with quantum $q = 2$Draw the Gantt chart and compute the Average
+Using the processes from Problem 3 with quantum $q = 2$ Draw the Gantt chart and compute the Average
 turnaround time.
 
 **Solution.** (Revision: §2.4)
@@ -112,12 +124,16 @@ $\lvert P_1(2) \rvert P_2(2) \rvert P_3(2) \rvert P_1(2) \rvert P_2(2) \rvert P_
 
 Times: 0, 2, 4, 6, 8, 10, 12, 13, 15, 17.
 
+<div class="table-wrap">
+
 | Process | Completion | Turnaround |
 | ------- | ---------- | ---------- |
 | $P_1$   | 17         | 17         |
 | $P_2$   | 13         | 12         |
 | $P_3$   | 6          | 4          |
 | **Avg** |            | **11**     |
+
+</div>
 
 Round Robin gives the fastest turnaround for $P_3$ (4 vs 10 under SJF) at the cost of slower Average
 turnaround.
@@ -139,6 +155,8 @@ $P_2$ completes. $P_1$ resumes (remaining 6). $t=14$: $P_1$ completes.
 
 Gantt: $\lvert P_1(1) \rvert P_2(1) \rvert P_3(2) \rvert P_2(4) \rvert P_1(6) \rvert$
 
+<div class="table-wrap">
+
 | Process | Completion | Turnaround | Waiting |
 | ------- | ---------- | ---------- | ------- |
 | $P_1$   | 14         | 14         | 6       |
@@ -146,13 +164,15 @@ Gantt: $\lvert P_1(1) \rvert P_2(1) \rvert P_3(2) \rvert P_2(4) \rvert P_1(6) \r
 | $P_3$   | 4          | 2          | 0       |
 | **Avg** |            | **7.67**   | **3**   |
 
+</div>
+
 </details>
 
 <details>
 <summary>Problem 7, Critical Section</summary>
 
-Show that the following solution to the critical section problem is incorrect (Peterson"s algorithm
-With the order of `flag[i] = true` and `turn = j` swapped):
+Show that the following solution to the critical section problem is incorrect (Peterson's algorithm
+with the order of `flag[i] = true` and `turn = j` swapped):
 
 ```c
 // Process i:
@@ -211,7 +231,7 @@ while (count == BUFFER_SIZE) {
 
 Without `empty` and `full` semaphores, the producer must busy-wait or use condition variables.
 Semaphores provide **blocking** semantics: the producer blocks on `empty` when the buffer is full
-And is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
+and is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
 Busy-waiting (wasting CPU cycles) or requires the programmer to correctly implement the Wait/signal
 protocol, which is exactly what semaphores encapsulate.
 
@@ -226,13 +246,13 @@ Second. Is deadlock possible? If so, identify the deadlocked set.
 **Solution.** (Revision: §4.1)
 
 Yes. If $P_0$ holds $R_0$ and requests $R_1$; $P_1$ holds $R_1$ and requests $R_2$; $P_2$ holds
-$R_2$ and requests $R_0$We have circular wait: $P_0 \to R_1 \to P_1 \to R_2 \to P_2 \to R_0
+$R_2$ and requests $R_0$ We have circular wait: $P_0 \to R_1 \to P_1 \to R_2 \to P_2 \to R_0
 \to P_0$.
 All four Coffman conditions hold (mutual exclusion, hold-and-wait, no preemption, Circular wait), so
 deadlock exists. The deadlocked set is $\{P_0, P_1, P_2\}$.
 
 If instead $P_0$ holds $R_0$ and requests $R_2$; $P_1$ holds $R_1$ and requests $R_0$; $P_2$ holds
-$R_2$ and requests $R_1$The same circular wait exists.
+$R_2$ and requests $R_1$ The same circular wait exists.
 
 </details>
 
@@ -241,11 +261,15 @@ $R_2$ and requests $R_1$The same circular wait exists.
 
 Three processes, three resource types. Available = $(3, 2, 1)$.
 
+<div class="table-wrap">
+
 | Process | Allocation | Max       | Need      |
 | ------- | ---------- | --------- | --------- |
 | $P_0$   | (1, 0, 0)  | (3, 2, 1) | (2, 2, 1) |
 | $P_1$   | (1, 0, 1)  | (2, 1, 2) | (1, 1, 1) |
 | $P_2$   | (1, 1, 0)  | (2, 1, 1) | (1, 0, 1) |
+
+</div>
 
 Determine if the system is in a safe state.
 
@@ -314,7 +338,7 @@ _TLB hit, no fault_ ($0.90 \times 0.999$): $2 + 100 = 102$ ns. _TLB miss, no fau
 ($0.001$): $2 + 100 + 100 + 6 \times 10^6 = 6000002$ ns.
 
 $\mathrm{EAT} = 0.8991 \times 102 + 0.0999 \times 202 + 0.001 \times 6000002$
-$= 91.71 + 20.18 + 6000.20 = 6112.09$ ns $\approx 6.11$ $\mu$S.
+$= 91.71 + 20.18 + 6000.20 = 6112.09$ ns $\approx 6.11$ $\mu$ S.
 
 </details>
 
@@ -345,6 +369,8 @@ under LRU and under FIFO. Does Belady's anomaly occur?
 
 _FIFO (4 frames):_
 
+<div class="table-wrap">
+
 | Ref | F1  | F2  | F3  | F4  | Fault?                     |
 | --- | --- | --- | --- | --- | -------------------------- |
 | 1   | 1   |     |     |     | Yes                        |
@@ -359,9 +385,13 @@ _FIFO (4 frames):_
 | 3   | 5   | 1   | 2   | 3   | Yes                        |
 | 4   | 5   | 1   | 2   | 3   | No (wait, 4 not in frames) |
 
+</div>
+
 Let me redo FIFO more carefully. FIFO replaces the oldest page in memory.
 
 Frames after each reference (FIFO queue, front = oldest):
+
+<div class="table-wrap">
 
 | Ref | Queue (oldest→newest) | Fault? |
 | --- | --------------------- | ------ |
@@ -378,12 +408,16 @@ Frames after each reference (FIFO queue, front = oldest):
 | 4   | [1, 2, 3, 4]          | Yes    |
 | 5   | [2, 3, 4, 5]          | Yes    |
 
+</div>
+
 FIFO faults: **10**.
 
 With 3 frames: faults = **9** (from Belady's anomaly example in the text). With 4 frames: faults =
 **10**. Belady's anomaly occurs: more frames produce more faults.
 
 _LRU (4 frames):_ LRU replaces the least recently used page.
+
+<div class="table-wrap">
 
 | Ref | Frames       | Fault? |
 | --- | ------------ | ------ |
@@ -399,6 +433,8 @@ _LRU (4 frames):_ LRU replaces the least recently used page.
 | 3   | [5, 1, 2, 3] | Yes    |
 | 4   | [4, 1, 2, 3] | Yes    |
 | 5   | [4, 5, 2, 3] | Yes    |
+
+</div>
 
 LRU faults: **10**. LRU does not exhibit Belady's anomaly (it is a stack algorithm), but in this
 Particular reference string, 3 and 4 frames happen to produce the same count under LRU.
@@ -434,16 +470,16 @@ Counterexample from the text (1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with 3 vs 4 fra
 <summary>Problem 17, Working Set and Thrashing</summary>
 
 A system has 40 frames. Process $P_1$ has a working set of 15 pages, $P_2$ has 12 pages, and $P_3$
-Has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
-Of 8 pages is added?
+has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
+of 8 pages is added?
 
 **Solution.** (Revision: §5.8)
 
 Without $P_4$: total working set = $15 + 12 + 18 = 45 \gt 40$. Thrashing occurs. Only two Processes
-can run concurrently (e.g., $P_1 + P_2 = 27 \leq 40$Or $P_2 + P_3 = 30 \leq 40$).
+can run concurrently (e.g., $P_1 + P_2 = 27 \leq 40$ Or $P_2 + P_3 = 30 \leq 40$).
 
 With $P_4$: total = $15 + 12 + 18 + 8 = 53 \gt 40$. Even worse. Using working set admission, we
-Would run at most two processes. The best combination that fits is $P_1 + P_3 = 33$ or
+would run at most two processes. The best combination that fits is $P_1 + P_3 = 33$ or
 $P_2 + P_3 =
 30$.
 
@@ -527,7 +563,7 @@ gaining control of execution when the function returns.
 - **ASLR:** Randomises the stack base address, so the attacker cannot predict where `buffer` (and
   therefore the shellcode) will be in memory.
 - **DEP (W\^X):** Marks the stack as non-executable. Even if the attacker overwrites the return
-  address to point to the shellcode in `buffer`The CPU will fault when trying to execute it.
+  address to point to the shellcode in `buffer`. The CPU will fault when trying to execute it.
 - **CFI:** Verifies that the return address points to a valid call site. A crafted address injected
 by the overflow would fail the CFI check.
 
@@ -571,17 +607,6 @@ forms a cycle (circular wait), so there is a deadlock.
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[10_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Process management: scheduling algorithms (FCFS, SJF, Round Robin), deadlock (conditions,
@@ -592,10 +617,14 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Site       | Link                                                                                                       |
 | ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Operating Systems] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/fundamentals/05-operating-systems) |
 | [Operating Systems] | University | [View](https://computer-science.wyattau.com/)              |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

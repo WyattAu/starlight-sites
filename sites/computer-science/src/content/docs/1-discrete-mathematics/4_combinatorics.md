@@ -34,9 +34,11 @@ $n$.
 
 **Theorem 4.1 (Binomial Theorem).**
 
-$$(x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r$$
+$$
+(x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r
+$$
 
-**Theorem 4.2 (Pascal"s Identity).** $\binom{n}{r} = \binom{n-1}{r} + \binom{n-1}{r-1}$
+**Theorem 4.2 (Pascal's Identity).** $\binom{n}{r} = \binom{n-1}{r} + \binom{n-1}{r-1}$
 
 _Proof._ Every $r$-subset of $\\{1, \ldots, n\\}$ either contains $n$ (giving $\binom{n-1}{r-1}$
 ways To choose the remaining $r-1$) or does not contain $n$ (giving $\binom{n-1}{r}$ ways to choose
@@ -46,7 +48,9 @@ all $r$ From $\\{1, \ldots, n-1\\}$). $\blacksquare$
 
 **Theorem 4.3 (Inclusion-Exclusion).** For finite sets $A_1, \ldots, A_n$:
 
-$$\left|\bigcup_{i=1}^{n} A_i\right| = \sum_i |A_i| - \sum_{i \lt j} |A_i \cap A_j| + \sum_{i \lt j \lt k} |A_i \cap A_j \cap A_k| - \cdots + (-1)^{n+1}|A_1 \cap \cdots \cap A_n|$$
+$$
+\left|\bigcup_{i=1}^{n} A_i\right| = \sum_i |A_i| - \sum_{i \lt j} |A_i \cap A_j| + \sum_{i \lt j \lt k} |A_i \cap A_j \cap A_k| - \cdots + (-1)^{n+1}|A_1 \cap \cdots \cap A_n|
+$$
 
 _Proof (for two sets)._ Every element of $A_1 \cup A_2$ is in $A_1$ or $A_2$ or both. Counting
 $|A_1| + |A_2|$ counts elements in $A_1 \cap A_2$ twice, so we subtract $|A_1 \cap A_2|$ once:
@@ -127,7 +131,7 @@ Directly by stars and bars: $\binom{20 + 4 - 1}{4 - 1} = \binom{23}{3} = 1771$. 
 at Least one box contains at least $\lceil n/k \rceil$ objects.
 
 _Proof._ If every box contained at most $\lceil n/k \rceil - 1$ objects, the total would be at most
-$k(\lceil n/k \rceil - 1) \lt k \cdot n/k = n$Contradicting that there are $n$ objects.
+$k(\lceil n/k \rceil - 1) \lt k \cdot n/k = n$ Contradicting that there are $n$ objects.
 $\blacksquare$
 
 **Worked Example.** In a class of 400 students, at least how many were born in the same month?
@@ -140,7 +144,7 @@ at least $\lceil 400/12 \rceil = \lceil 33.33\ldots \rceil = 34$ students.
 
 </details>
 
-**Worked Example.** Show that among any $n + 1$ integers from $\\{1, 2, \ldots, 2n\\}$Two of them
+**Worked Example.** Show that among any $n + 1$ integers from $\\{1, 2, \ldots, 2n\\}$ Two of them
 Differ by exactly $n$.
 
 <details>
@@ -150,7 +154,7 @@ Partition $\\{1, 2, \ldots, 2n\\}$ into $n$ pigeonholes: $\\{1, n+1\\}$, $\\{2, 
 $\\{n, 2n\\}$. Each pair sums to $n + (n+k) = 2n + k$... Let me rephrase.
 
 Partition into $\\{1, n+1\\}$, $\\{2, n+2\\}$, $\ldots$, $\\{n, 2n\\}$. These are $n$ disjoint sets.
-If we select $n + 1$ integers from $\\{1, \ldots, 2n\\}$By the pigeonhole principle two must lie in
+If we select $n + 1$ integers from $\\{1, \ldots, 2n\\}$ By the pigeonhole principle two must lie in
 the Same set $\\{i, n+i\\}$ And their difference is $(n + i) - i = n$. $\blacksquare$
 
 </details>
@@ -161,19 +165,19 @@ the Same set $\\{i, n+i\\}$ And their difference is $(n + i) - i = n$. $\blacksq
 <details>
 <summary>Solution</summary>
 
-Let $a_1, a_2, \ldots, a_{n^2+1}$ be the sequence. For each $a_i$Let $d_i$ be the length of the
+Let $a_1, a_2, \ldots, a_{n^2+1}$ be the sequence. For each $a_i$ Let $d_i$ be the length of the
 Longest increasing subsequence starting at $a_i$ And $e_i$ the length of the longest decreasing
 Subsequence starting at $a_i$.
 
 Suppose for contradiction that every monotone subsequence has length at most $n$. Then
 $1 \leq d_i \leq n$ and $1 \leq e_i \leq n$ So there are at most $n^2$ distinct ordered pairs
 $(d_i, e_i)$. Since we have $n^2 + 1$ elements, by the pigeonhole principle two indices $i \lt j$
-Have $(d_i, e_i) = (d_j, e_j)$.
+have $(d_i, e_i) = (d_j, e_j)$.
 
 If $a_i \lt a_j$ Then $d_i \geq d_j + 1$ (append $a_i$ before the increasing subsequence starting At
 $a_j$), contradicting $d_i = d_j$.
 
-If $a_i \gt a_j$ Then $e_i \geq e_j + 1$Contradicting $e_i = e_j$.
+If $a_i \gt a_j$ Then $e_i \geq e_j + 1$ Contradicting $e_i = e_j$.
 
 Either way we have a contradiction. $\blacksquare$
 
@@ -190,7 +194,7 @@ at most $m$ objects, then the total number of objects is at most $km$.
 <summary>Solution</summary>
 
 There are 3 colours (boxes). By the generalised pigeonhole principle, drawing $n$ socks guarantees
-At least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$Giving
+at least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$ Giving
 $n \geq 10$.
 
 With 9 socks it is possible to have 3 of each colour (no colour reaches 4). With 10 socks, one
@@ -215,7 +219,9 @@ Pigeonhole principle, at least two people have the same count. $\blacksquare$
 
 The $n$-th **Catalan number** is
 
-$$C_n = \frac{1}{n+1}\binom{2n}{n} = \frac{(2n)!}{(n+1)!\,n!}$$
+$$
+C_n = \frac{1}{n+1}\binom{2n}{n} = \frac{(2n)!}{(n+1)!\,n!}
+$$
 
 The first few values: $C_0 = 1$, $C_1 = 1$, $C_2 = 2$, $C_3 = 5$, $C_4 = 14$, $C_5 = 42$.
 
@@ -228,7 +234,9 @@ The first few values: $C_0 = 1$, $C_1 = 1$, $C_2 = 2$, $C_3 = 5$, $C_4 = 14$, $C
 
 **Recurrence.** $C_0 = 1$ and for $n \geq 1$:
 
-$$C_n = \sum_{i=0}^{n-1} C_i \, C_{n-1-i}$$
+$$
+C_n = \sum_{i=0}^{n-1} C_i \, C_{n-1-i}
+$$
 
 **Worked Example.** Verify $C_3 = 5$ by listing all valid sequences of 3 pairs of parentheses.
 
@@ -245,9 +253,13 @@ Checking: $C_3 = \frac{1}{4}\binom{6}{3} = \frac{1}{4} \cdot 20 = 5$. ✓
 
 The **ordinary generating function (OGF)** of a sequence $\\{a_n\\}$ is
 
-$$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
+$$
+G(x) = \sum_{n=0}^{\infty} a_n x^n
+$$
 
 **Common generating functions:**
+
+<div class="table-wrap">
 
 | Sequence $a_n$   | Generating function $G(x)$ |
 | ---------------- | -------------------------- |
@@ -256,6 +268,8 @@ $$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
 | $\binom{n+k}{k}$ | $\dfrac{1}{(1-x)^{k+1}}$   |
 | $n$              | $\dfrac{x}{(1-x)^2}$       |
 | $n^2$            | $\dfrac{x(1+x)}{(1-x)^3}$  |
+
+</div>
 
 **Key operations.** If $A(x)$ generates $\\{a_n\\}$ and $B(x)$ generates $\\{b_n\\}$:
 
@@ -271,26 +285,19 @@ And 5p coins.
 
 The generating function is
 
-$$G(x) = \underbrace{(1 + x + x^2 + \cdots)}_{\mathrm{1p\; coins{}} \cdot \underbrace{(1 + x^2 + x^4 + \cdots)}_{\mathrm{2p\; coins{}} \cdot \underbrace{(1 + x^5 + x^{10} + \cdots)}_{\mathrm{5p\; coins{}}$$
+$$
+G(x) = \underbrace{(1 + x + x^2 + \cdots)}_{\mathrm{1p\; coins{}} \cdot \underbrace{(1 + x^2 + x^4 + \cdots)}_{\mathrm{2p\; coins{}} \cdot \underbrace{(1 + x^5 + x^{10} + \cdots)}_{\mathrm{5p\; coins{}}
+$$
 
-$$= \frac{1}{1-x} \cdot \frac{1}{1-x^2} \cdot \frac{1}{1-x^5}$$
+$$
+= \frac{1}{1-x} \cdot \frac{1}{1-x^2} \cdot \frac{1}{1-x^5}
+$$
 
 The coefficient of $x^n$ in the expansion gives the number of ways. For example, expanding the First
 few terms: $1 + x + 2x^2 + 2x^3 + 3x^4 + 4x^5 + \cdots$ So there are 4 ways to make 5p (5×1p; 3×1p +
 1×2p; 1×1p + 2×2p; 1×5p).
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[4_Combinatorics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

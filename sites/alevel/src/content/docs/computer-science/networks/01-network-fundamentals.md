@@ -35,7 +35,7 @@ Characteristics:
 ### WAN (Wide Area Network)
 
 A network spanning large geographical areas (cities, countries, continents). The internet is the
-Largest WAN. Characteristics:
+largest WAN. Characteristics:
 
 - Lower speed than LAN
 - Higher latency
@@ -48,6 +48,8 @@ A LAN using wireless communication (Wi-Fi, IEEE 802.11 standards).
 
 ### Network Models
 
+<div class="table-wrap">
+
 | Model | Scope            | Ownership           | Example            |
 | ----- | ---------------- | ------------------- | ------------------ |
 | LAN   | Building, campus | Single organisation | Office network     |
@@ -55,6 +57,8 @@ A LAN using wireless communication (Wi-Fi, IEEE 802.11 standards).
 | WLAN  | Building         | Single organisation | Wi-Fi in a café    |
 | PAN   | Personal (room)  | Individual          | Bluetooth devices  |
 | MAN   | City             | Single provider     | City-wide cable TV |
+
+</div>
 
 <hr />
 
@@ -90,6 +94,8 @@ Devices form a circular loop. Data travels in one direction.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Property      | Star            | Mesh           | Bus            | Ring           |
 | ------------- | --------------- | -------------- | -------------- | -------------- |
 | Cost          | Low             | High           | Low            | Medium         |
@@ -97,11 +103,15 @@ Devices form a circular loop. Data travels in one direction.
 | Scalability   | High            | Low            | Low            | Low            |
 | Cable failure | Isolates device | Multiple paths | Entire network | Entire network |
 
+</div>
+
 <hr />
 
 ## 3. The OSI Model
 
 ### Seven Layers
+
+<div class="table-wrap">
 
 | Layer | Name         | Function                             | Protocol examples    |
 | ----- | ------------ | ------------------------------------ | -------------------- |
@@ -112,6 +122,8 @@ Devices form a circular loop. Data travels in one direction.
 | 3     | Network      | Routing, logical addressing          | IP, ICMP, ARP        |
 | 2     | Data Link    | Frame transmission, MAC addressing   | Ethernet, Wi-Fi      |
 | 1     | Physical     | Bit transmission over physical media | Cables, signals      |
+
+</div>
 
 ### Data Encapsulation
 
@@ -129,12 +141,16 @@ Physical:     [Bits on wire]
 
 ### TCP/IP Model (4 layers)
 
+<div class="table-wrap">
+
 | TCP/IP Layer   | OSI Layers                         | Protocols            |
 | -------------- | ---------------------------------- | -------------------- |
 | Application    | Application, Presentation, Session | HTTP, FTP, DNS, SMTP |
 | Transport      | Transport                          | TCP, UDP             |
 | Internet       | Network                            | IP, ICMP             |
 | Network Access | Data Link, Physical                | Ethernet, Wi-Fi      |
+
+</div>
 
 <hr />
 
@@ -158,6 +174,8 @@ Physical:     [Bits on wire]
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Property    | TCP                       | UDP                    |
 | ----------- | ------------------------- | ---------------------- |
 | Connection  | Connection-oriented       | Connectionless         |
@@ -166,6 +184,8 @@ Physical:     [Bits on wire]
 | Speed       | Slower (overhead)         | Faster                 |
 | Header      | 20+ bytes                 | 8 bytes                |
 | Use cases   | Web, email, file transfer | Streaming, gaming, DNS |
+
+</div>
 
 :::note
 - TCP: HTTP, HTTPS, FTP, SMTP, SSH
@@ -190,12 +210,16 @@ A 32-bit address written as four octets: `192.168.1.1`
 
 **Address classes:**
 
+<div class="table-wrap">
+
 | Class | Range                       | First bits | Default subnet mask |
 | ----- | --------------------------- | ---------- | ------------------- |
 | A     | 1.0.0.0 – 126.255.255.255   | 0          | 255.0.0.0           |
 | B     | 128.0.0.0 – 191.255.255.255 | 10         | 255.255.0.0         |
 | C     | 192.0.0.0 – 223.255.255.255 | 110        | 255.255.255.0       |
 | D     | 224.0.0.0 – 239.255.255.255 | 1110       | Multicast           |
+
+</div>
 
 ### Subnetting
 
@@ -220,11 +244,15 @@ Subnet masks divide an IP address into **network** and **host** portions.
 
 ### Private vs Public IP Addresses
 
+<div class="table-wrap">
+
 | Range                         | Class | Use           |
 | ----------------------------- | ----- | ------------- |
 | 10.0.0.0 – 10.255.255.255     | A     | Private (LAN) |
 | 172.16.0.0 – 172.31.255.255   | B     | Private (LAN) |
 | 192.168.0.0 – 192.168.255.255 | C     | Private (LAN) |
+
+</div>
 
 Private addresses are not routable on the internet. **NAT** (Network Address Translation) translates
 Private addresses to a public address at the router.
@@ -268,6 +296,8 @@ Root DNS servers (.)
 
 ## 7. Common Protocols
 
+<div class="table-wrap">
+
 | Protocol | Layer       | Port  | Purpose                     |
 | -------- | ----------- | ----- | --------------------------- |
 | HTTP     | Application | 80    | Web pages                   |
@@ -280,6 +310,8 @@ Root DNS servers (.)
 | DHCP     | Application | 67/68 | Auto-assign IP addresses    |
 | SSH      | Application | 22    | Secure remote access        |
 | Telnet   | Application | 23    | Remote access (unencrypted) |
+
+</div>
 
 <hr />
 
@@ -325,10 +357,10 @@ Subnet addresses (increment by 32):
 
 **Why two-way is insufficient:** A two-way handshake cannot prevent **stale duplicate SYNs** from
 Establishing spurious connections. If a client sends a SYN that is delayed by the network, and the
-Client times out and sends another SYN, the first SYN may arrive later. With a two-way handshake,
+client times out and sends another SYN, the first SYN may arrive later. With a two-way handshake,
 Both SYNs would create separate connections. The third ACK in the three-way handshake allows the
-Server to identify and discard stale connections: if the server receives an ACK for a connection it
-Didn't establish, it rejects it.
+server to identify and discard stale connections: if the server receives an ACK for a connection it
+didn't establish, it rejects it.
 
 </details>
 
@@ -390,7 +422,7 @@ Which would you recommend for a hospital network? Justify.
 
 **Recommendation for a hospital:** A **partial mesh** or **redundant star** topology. Hospital
 Networks require high reliability (life-critical systems cannot have downtime), but a full mesh is
-Prohibitively expensive. A practical approach: multiple star networks connected by redundant links
+prohibitively expensive. A practical approach: multiple star networks connected by redundant links
 (partial mesh at the backbone level). Critical systems (ICU monitors) may have redundant
 Connections.
 
@@ -467,7 +499,7 @@ For internet access. This:
 (Session):** A session is established with the mail server. **Layer 4 (Transport):** Data is
 Segmented and wrapped in a TCP segment with port 25. TCP ensures reliable delivery. **Layer 3
 (Network):** IP header is added with source and destination IP addresses. Routing determines the
-Path. **Layer 2 (Data Link):** Ethernet frame is created with MAC addresses of the next hop. **Layer
+path. **Layer 2 (Data Link):** Ethernet frame is created with MAC addresses of the next hop. **Layer
 1 (Physical):** Bits are transmitted as electrical/optical signals over the network cable.
 
 At the receiving end, each layer removes its header in reverse order (Layers 1→7).
@@ -500,6 +532,8 @@ Operate?
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Property   | Switch                             | Router                                  |
 | ---------- | ---------------------------------- | --------------------------------------- |
 | OSI layer  | Layer 2 (Data Link)                | Layer 3 (Network)                       |
@@ -509,8 +543,10 @@ Operate?
 | Broadcast  | Forwards broadcasts within LAN     | Blocks broadcasts between networks      |
 | Use case   | Building/campus network            | Internet connectivity                   |
 
+</div>
+
 A switch operates at Layer 2, forwarding frames within a single network segment. A router operates
-At Layer 3, making decisions about which network to forward packets to, enabling inter-network
+at Layer 3, making decisions about which network to forward packets to, enabling inter-network
 Communication.
 
 For revision on network security, see
@@ -542,7 +578,7 @@ range.
 Step 1: Subnet mask in binary for the third and fourth octets:
 
 `/20` means the first 20 bits are network. The third octet contributes 4 bits (since 16 bits from
-First two octets).
+first two octets).
 
 Third octet mask: `11110000` = `240`
 
@@ -561,7 +597,7 @@ Step 3: Broadcast address (all host bits = 1):
 
 Broadcast: `10.150.79.255`
 
-Step 4: Usable range: `10.150.64.1``10.150.79.254`
+Step 4: Usable range: `10.150.64.1`, `10.150.79.254`
 
 Hosts per subnet: $2^{12} - 2 = 4094$
 
@@ -589,6 +625,8 @@ Different network addresses, different subnets.
 
 ### SSH (Secure Shell)
 
+<div class="table-wrap">
+
 | Property       | Value                                                             |
 | -------------- | ----------------------------------------------------------------- |
 | Port           | 22                                                                |
@@ -597,11 +635,15 @@ Different network addresses, different subnets.
 | Authentication | Password or public-key                                            |
 | Purpose        | Secure remote shell access, file transfer (SCP/SFTP)              |
 
+</div>
+
 SSH establishes an encrypted tunnel before any data is transmitted. The key exchange uses
 Diffie-Hellman to establish a shared secret without transmitting it. All subsequent data is
-Encrypted with this shared secret using AES.
+encrypted with this shared secret using AES.
 
 ### FTP (File Transfer Protocol)
+
+<div class="table-wrap">
 
 | Property   | Value                                  |
 | ---------- | -------------------------------------- |
@@ -610,11 +652,15 @@ Encrypted with this shared secret using AES.
 | Encryption | None (SFTP adds encryption over SSH)   |
 | Purpose    | Upload and download files              |
 
+</div>
+
 FTP uses two separate connections: a control connection (commands) and a data connection (file
 Content). In **active mode**, the server initiates the data connection back to the client,
 Problematic through firewalls. In **passive mode**, the client initiates both connections.
 
 ### HTTP vs HTTPS
+
+<div class="table-wrap">
 
 | Property    | HTTP         | HTTPS              |
 | ----------- | ------------ | ------------------ |
@@ -623,10 +669,14 @@ Problematic through firewalls. In **passive mode**, the client initiates both co
 | Security    | Plaintext    | Encrypted          |
 | Certificate | Not required | Required (from CA) |
 
+</div>
+
 HTTP sends all data (including passwords) in plaintext. HTTPS adds a TLS layer: the server presents
 A certificate, and all traffic is encrypted. Modern browsers flag HTTP sites as "not secure."
 
 ### SMTP (Simple Mail Transfer Protocol)
+
+<div class="table-wrap">
 
 | Property   | Value                              |
 | ---------- | ---------------------------------- |
@@ -635,12 +685,16 @@ A certificate, and all traffic is encrypted. Modern browsers flag HTTP sites as 
 | Encryption | Optional (STARTTLS)                |
 | Purpose    | Sending email between mail servers |
 
+</div>
+
 SMTP is a push protocol, the sender pushes the message to the receiver's mail server. For
-Receiving, POP3 or IMAP is used.
+receiving, POP3 or IMAP is used.
 
 <hr />
 
 ## 10. Common Pitfalls
+
+<div class="table-wrap">
 
 | Pitfall                                     | Explanation                                                 | Correct approach                                                |
 | ------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
@@ -650,6 +704,8 @@ Receiving, POP3 or IMAP is used.
 | Assuming DNS uses TCP                       | DNS primarily uses UDP port 53                              | TCP is only used for zone transfers or responses over 512 bytes |
 | Confusing SSH with Telnet                   | Both provide remote access, but only SSH encrypts           | Never use Telnet on untrusted networks                          |
 | Off-by-one in subnet boundaries             | Including the network or broadcast address as a usable host | First usable = network + 1, last usable = broadcast - 1         |
+
+</div>
 
 <hr />
 
@@ -679,7 +735,7 @@ Supporting at least 200 hosts. Determine a suitable subnet mask and verify the r
 
 Subnets needed: 100. Borrowing bits: $2^6 = 64$ (not enough), $2^7 = 128$ (enough). Borrow 7 bits.
 
-New mask: `/16 + 7 = /23``255.255.254.0`
+New mask: `/16 + 7 = /23`, `255.255.254.0`
 
 Hosts per subnet: $2^{32-23} - 2 = 2^9 - 2 = 510$ (meets the 200 host requirement).
 
@@ -735,7 +791,7 @@ Gateway `192.168.1.1`. The computer wants to send a packet to `192.168.1.50` and
 <summary>Answer</summary>
 
 The computer performs an AND operation between the destination IP and its subnet mask to determine
-The network address.
+the network address.
 
 **Packet to `192.168.1.50`:**
 
@@ -754,23 +810,13 @@ This does not match `192.168.1.0`.
 
 Result: The destination is on a **different network**. The computer forwards the packet to the
 **default gateway** (`192.168.1.1`). The computer uses ARP to find the MAC address of the gateway
-And sends the frame there.
+and sends the frame there.
 
 </details>
 
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
-```mermaid
-flowchart TD
-    A[01 Network Fundamentals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -785,5 +831,3 @@ implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.

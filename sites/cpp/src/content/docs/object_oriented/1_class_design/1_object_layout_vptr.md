@@ -76,7 +76,7 @@ Structs.
 ## 1.2 The `this` Pointer [N4950 §11.4.3.2]
 
 Every non-static member function receives an implicit first parameter: a pointer to the object on
-Which the function is invoked. This pointer is named `this` and has the type `T*` in a non-const
+which the function is invoked. This pointer is named `this` and has the type `T*` in a non-const
 Member function, `const T*` in a const member function, and `volatile T*` in a volatile member
 Function.
 
@@ -150,8 +150,8 @@ int main() {
 ## 1.4 Empty Base Optimization (EBO)
 
 The Standard requires that every complete object has a unique address [N4950 §6.9]. This means that
-Even an empty class, one with no non-static data members and no virtual functions, must occupy at
-Least one byte:
+even an empty class, one with no non-static data members and no virtual functions, must occupy at
+least one byte:
 
 ```cpp
 #include <cstddef>
@@ -291,7 +291,7 @@ int main() {
 ### The `this` Pointer Adjustment Problem
 
 When a virtual function is called through a pointer to a non-first base, the compiler must adjust
-The `this` pointer before invoking the function. This adjustment is encoded in the **vtable** or
+the `this` pointer before invoking the function. This adjustment is encoded in the **vtable** or
 Performed by a **thunk** (a small code stub):
 
 ```cpp
@@ -303,7 +303,7 @@ Performed by a **thunk** (a small code stub):
 ```
 
 This has a runtime cost: one additional instruction (a `sub` or `add` on the `this` pointer) for
-Every virtual call through a non-first base pointer. In hot paths, this can be measurable.
+every virtual call through a non-first base pointer. In hot paths, this can be measurable.
 
 ## 1.7 Virtual Inheritance Layout
 
@@ -380,7 +380,7 @@ Often stores virtual base offsets in the vtable itself.
 
 **Performance cost:** Every access to a virtual base member requires an additional indirection
 Through the vbptr table. Construction of a diamond object requires multiple `this` adjustments as
-Each base constructor is called.
+each base constructor is called.
 
 ## 1.8 vtable Internals
 
@@ -497,7 +497,7 @@ int main() {
 ## 1.9 Virtual Destructors and Object Destruction
 
 When deleting an object through a base class pointer, the destructor must be virtual to ensure the
-Derived destructor runs. Without `virtual`Only the base destructor runs, causing resource leaks And
+Derived destructor runs. Without `virtual`. Only the base destructor runs, causing resource leaks And
 Undefined Behavior.
 
 ```cpp
@@ -578,9 +578,9 @@ int main() {
 
 1. **Static type analysis:** If the object is allocated locally and never escapes (no pointers to it
    are stored), the compiler can track its exact type.
-2. **`final` on the class:** If the class is `final`No further derivation is possible, so the
+2. **`final` on the class:** If the class is `final`. No further derivation is possible, so the
    dynamic type is always the static type.
-3. **`final` on the method:** If the virtual function is `final`No override exists, so the compiler
+3. **`final` on the method:** If the virtual function is `final`. No override exists, so the compiler
    can use the static type's vtable entry.
 4. **Speculative devirtualization:** At `-O2`/`-O3`Compilers may emit speculative direct calls
    guarded by a type check (comparing the vptr against the expected vtable).
@@ -624,14 +624,14 @@ struct Polymorphic {
 
 Any class that is intended to be used as a base class with polymorphic deletion must have a virtual
 Destructor. This is the single most common C++ bug related to object layout. If a destructor is
-Non-virtual and the class has any virtual functions, deleting through a base pointer causes
+non-virtual and the class has any virtual functions, deleting through a base pointer causes
 Undefined Behavior.
 
 ### 4. Multiple Inheritance `this` Pointer Adjustments
 
 When casting between base class pointers in a multiple inheritance hierarchy, the pointer value may
 Change. This is surprising but correct, the different base subobjects are at different offsets
-Within the derived object. Always use `static_cast` for known-safe downcasts and `dynamic_cast` for
+within the derived object. Always use `static_cast` for known-safe downcasts and `dynamic_cast` for
 Runtime-checked downcasts.
 
 ### 5. EBO Failure with Same-Type Bases
@@ -650,16 +650,6 @@ struct Combined : EmptyBase<struct A>, EmptyBase<struct B> {
 static_assert(sizeof(Combined) == sizeof(int));  // EBO applies for both
 ```
 
-```mermaid
-flowchart TD
-    A[1_Object_Layout_Vptr] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to object layout, vptr, and the this
@@ -673,13 +663,7 @@ pointer, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

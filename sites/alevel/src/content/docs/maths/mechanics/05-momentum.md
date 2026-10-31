@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                          |
 | ---------- | ------- | ------------------------------ |
 | AQA        | Paper 1 | Momentum, impulse, collisions  |
 | Edexcel    | P1      | Similar                        |
 | OCR (A)    | Paper 1 | Includes 2D collisions         |
 | CIE (9709) | P4      | Momentum, impulse, restitution |
+
+</div>
 
 :::note
 Signs.
@@ -42,7 +46,9 @@ Signs.
 
 **Definition.** The momentum of a body of mass $m$ moving with velocity $\mathbf{v}$ is
 
-$$\mathbf{p} = m\mathbf{v}$$
+$$
+\mathbf{p} = m\mathbf{v}
+$$
 
 Momentum is a vector with SI units kg m/s.
 
@@ -54,24 +60,30 @@ Momentum is a vector with SI units kg m/s.
 
 **Theorem.** In a closed system (no external forces), the total momentum is conserved:
 
-$$\sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}$$
+$$
+\sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}
+$$
 
-### 2.2 Derivation from Newton"s Laws
+### 2.2 Derivation from Newton's Laws
 
 **Proof.** Newton's Third Law states that for any two interacting bodies $A$ and $B$:
 
-$$\mathbf{F}_{AB} = -\mathbf{F}_{BA}$$
+$$
+\mathbf{F}_{AB} = -\mathbf{F}_{BA}
+$$
 
 By Newton's Second Law: $\mathbf{F}_{AB} = \dfrac{d\mathbf{p}_A}{dt}$ and
 $\mathbf{F}_{BA} = \dfrac{d\mathbf{p}_B}{dt}$.
 
-$$\frac{d\mathbf{p}_A}{dt} + \frac{d\mathbf{p}_B}{dt} = 0 \implies \frac{d}{dt}(\mathbf{p}_A + \mathbf{p}_B) = 0$$
+$$
+\frac{d\mathbf{p}_A}{dt} + \frac{d\mathbf{p}_B}{dt} = 0 \implies \frac{d}{dt}(\mathbf{p}_A + \mathbf{p}_B) = 0
+$$
 
 So $\mathbf{p}_A + \mathbf{p}_B = \mathrm{constant}$. $\blacksquare$
 
 **Intuition.** Momentum conservation is a direct consequence of Newton's Third Law (every action has
 An equal and opposite reaction). If two bodies collide, the momentum gained by one equals the
-Momentum lost by the other.
+momentum lost by the other.
 
 <hr />
 
@@ -81,17 +93,23 @@ Momentum lost by the other.
 
 **Definition.** The impulse $J$ of a force $F$ acting over a time interval $\Delta t$ is
 
-$$\mathbf{J} = \mathbf{F}\,\Delta t = \Delta\mathbf{p} = m\mathbf{v} - m\mathbf{u}$$
+$$
+\mathbf{J} = \mathbf{F}\,\Delta t = \Delta\mathbf{p} = m\mathbf{v} - m\mathbf{u}
+$$
 
 ### 3.2 Derivation
 
 **Proof.** From Newton's Second Law:
 
-$$\mathbf{F} = \frac{d\mathbf{p}}{dt} \implies \mathbf{F}\,dt = d\mathbf{p}$$
+$$
+\mathbf{F} = \frac{d\mathbf{p}}{dt} \implies \mathbf{F}\,dt = d\mathbf{p}
+$$
 
 Integrating over $[t_1, t_2]$:
 
-$$\int_{t_1}^{t_2}\mathbf{F}\,dt = \int_{\mathbf{p}_1}^{\mathbf{p}_2}d\mathbf{p} = \mathbf{p}_2 - \mathbf{p}_1$$
+$$
+\int_{t_1}^{t_2}\mathbf{F}\,dt = \int_{\mathbf{p}_1}^{\mathbf{p}_2}d\mathbf{p} = \mathbf{p}_2 - \mathbf{p}_1
+$$
 
 For constant force: $\mathbf{J} = \mathbf{F}(t_2 - t_1) = \mathbf{F}\,\Delta t$. $\blacksquare$
 
@@ -101,7 +119,9 @@ The SI unit of impulse is the newton-second (Ns) = kg m/s.
 
 The impulse equals the area under a force-time graph. For a variable force:
 
-$$J = \int_{t_1}^{t_2}F(t)\,dt$$
+$$
+J = \int_{t_1}^{t_2}F(t)\,dt
+$$
 
 <hr />
 
@@ -110,9 +130,11 @@ $$J = \int_{t_1}^{t_2}F(t)\,dt$$
 ### 4.1 Direct collisions
 
 For a one-dimensional collision between masses $m_1$ and $m_2$ with velocities $u_1$, $u_2$ before
-And $v_1$, $v_2$ after:
+and $v_1$, $v_2$ after:
 
-$$m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2$$
+$$
+m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2
+$$
 
 ### 4.2 Oblique (2D) collisions
 
@@ -127,10 +149,14 @@ Independently.
 
 **Definition.** The coefficient of restitution $e$ between two colliding bodies is
 
-$$e = \frac{\mathrm{relative speed of separation}}{\mathrm{relative speed of approach}}$$
+$$
+e = \frac{\mathrm{relative speed of separation}}{\mathrm{relative speed of approach}}
+$$
 
 For a collision between a body and a wall:
-$$e = \frac{v_{\mathrm{after}}}{u_{\mathrm{before}}}$$
+$$
+e = \frac{v_{\mathrm{after}}}{u_{\mathrm{before}}}
+$$
 
 For two bodies: $$e = \frac{v_2 - v_1}{u_1 - u_2}$$
 
@@ -146,19 +172,27 @@ $0 \leq e \leq 1$.
 
 The kinetic energy lost in a collision is:
 
-$$\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2)$$
+$$
+\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2)
+$$
 
 **Proof.** From conservation of momentum and the restitution equation:
 
-$$v_1 = \frac{m_1u_1 + m_2u_2 - m_2e(u_1-u_2)}{m_1+m_2}$$
+$$
+v_1 = \frac{m_1u_1 + m_2u_2 - m_2e(u_1-u_2)}{m_1+m_2}
+$$
 
-$$v_2 = \frac{m_1u_1 + m_2u_2 + m_1e(u_1-u_2)}{m_1+m_2}$$
+$$
+v_2 = \frac{m_1u_1 + m_2u_2 + m_1e(u_1-u_2)}{m_1+m_2}
+$$
 
 $\Delta\mathrm{KE} = \tfrac{1}{2}m_1u_1^2 + \tfrac{1}{2}m_2u_2^2 - \tfrac{1}{2}m_1v_1^2 - \tfrac{1}{2}m_2v_2^2$
 
 After substitution and simplification:
 
-$$\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2) \quad \blacksquare$$
+$$
+\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2) \quad \blacksquare
+$$
 
 **Intuition.** When $e = 1$: $\Delta\mathrm{KE} = 0$ (no energy lost). When $e = 0$: maximum energy
 Loss. The energy lost increases as $(1-e^2)$, a small decrease in $e$ causes a relatively small
@@ -174,18 +208,24 @@ Each other). If $u_1 \gt u_2$ (body 1 approaches body 2), then after collision w
 $v_2 \geq v_1$ (body 2 moves away from body 1). Therefore $v_2 - v_1 \geq 0$ and
 $u_1 - u_2 \gt 0$ So:
 
-$$e = \frac{v_2 - v_1}{u_1 - u_2} \geq 0$$
+$$
+e = \frac{v_2 - v_1}{u_1 - u_2} \geq 0
+$$
 
 **Proof of $e \leq 1$.** Kinetic energy cannot be created in a collision, so
-$\mathrm{KE}_{\mathrm{after}} \leq \mathrm{KE}_{\mathrm{before}}$Which means
+$\mathrm{KE}_{\mathrm{after}} \leq \mathrm{KE}_{\mathrm{before}}$ Which means
 $\Delta\mathrm{KE} \geq 0$. From the energy loss formula in Section 5.3:
 
-$$\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2) \geq 0$$
+$$
+\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2) \geq 0
+$$
 
 Since $\frac{1}{2} \gt 0$, $\frac{m_1m_2}{m_1+m_2} \gt 0$ (for positive masses), and
-$(u_1-u_2)^2 \geq 0$We must have:
+$(u_1-u_2)^2 \geq 0$ We must have:
 
-$$1 - e^2 \geq 0 \implies e^2 \leq 1 \implies e \leq 1$$
+$$
+1 - e^2 \geq 0 \implies e^2 \leq 1 \implies e \leq 1
+$$
 
 Combining both results: $0 \leq e \leq 1$. $\blacksquare$
 
@@ -198,7 +238,9 @@ Combining both results: $0 \leq e \leq 1$. $\blacksquare$
 
 **Theorem.** The impulse exerted on a body equals the change in its momentum:
 
-$$\mathbf{J} = \int_{t_1}^{t_2}\mathbf{F}\,dt = \Delta\mathbf{p} = m\mathbf{v}_{\mathrm{final}} - m\mathbf{v}_{\mathrm{initial}}$$
+$$
+\mathbf{J} = \int_{t_1}^{t_2}\mathbf{F}\,dt = \Delta\mathbf{p} = m\mathbf{v}_{\mathrm{final}} - m\mathbf{v}_{\mathrm{initial}}
+$$
 
 This holds for both constant and variable forces.
 
@@ -206,18 +248,24 @@ This holds for both constant and variable forces.
 
 Newton's Second Law in its most general form expresses force as the rate of change of momentum:
 
-$$\mathbf{F} = \frac{d\mathbf{p}}{dt}$$
+$$
+\mathbf{F} = \frac{d\mathbf{p}}{dt}
+$$
 
 This is more fundamental than $\mathbf{F} = m\mathbf{a}$ because it remains valid even when mass
 Changes (e.g. Rocket propulsion). Rearranging and integrating:
 
-$$\mathbf{F}\,dt = d\mathbf{p} \implies \int_{t_1}^{t_2}\mathbf{F}\,dt = \int_{\mathbf{p}_1}^{\mathbf{p}_2}d\mathbf{p} = \mathbf{p}_2 - \mathbf{p}_1 \quad \blacksquare$$
+$$
+\mathbf{F}\,dt = d\mathbf{p} \implies \int_{t_1}^{t_2}\mathbf{F}\,dt = \int_{\mathbf{p}_1}^{\mathbf{p}_2}d\mathbf{p} = \mathbf{p}_2 - \mathbf{p}_1 \quad \blacksquare
+$$
 
 ### 6.3 Constant force simplification
 
 When $\mathbf{F}$ is constant over $[t_1, t_2]$:
 
-$$\mathbf{J} = \mathbf{F}\int_{t_1}^{t_2}dt = \mathbf{F}(t_2 - t_1) = \mathbf{F}\,\Delta t$$
+$$
+\mathbf{J} = \mathbf{F}\int_{t_1}^{t_2}dt = \mathbf{F}(t_2 - t_1) = \mathbf{F}\,\Delta t
+$$
 
 This is the form most commonly used in A-level problems.
 
@@ -225,9 +273,13 @@ This is the form most commonly used in A-level problems.
 
 Since impulse and momentum are both vectors, the impulse-momentum theorem applies component-wise:
 
-$$J_x = \int_{t_1}^{t_2}F_x\,dt = \Delta p_x = m v_{x,\mathrm{final}} - m v_{x,\mathrm{initial}}$$
+$$
+J_x = \int_{t_1}^{t_2}F_x\,dt = \Delta p_x = m v_{x,\mathrm{final}} - m v_{x,\mathrm{initial}}
+$$
 
-$$J_y = \int_{t_1}^{t_2}F_y\,dt = \Delta p_y = m v_{y,\mathrm{final}} - m v_{y,\mathrm{initial}}$$
+$$
+J_y = \int_{t_1}^{t_2}F_y\,dt = \Delta p_y = m v_{y,\mathrm{final}} - m v_{y,\mathrm{initial}}
+$$
 
 This is particularly useful for oblique impacts where the impulse acts in a specific direction.
 
@@ -243,7 +295,9 @@ how much Momentum a force transfers over a given time interval.
 
 For a closed system with no external forces, the vector equation
 
-$$\sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}$$
+$$
+\sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}
+$$
 
 Is equivalent to two independent scalar equations obtained by resolving into perpendicular
 Components.
@@ -252,18 +306,22 @@ Components.
 
 Choosing $x$- and $y$-axes, momentum is conserved in each direction independently:
 
-$$\sum m_i u_{x,i} = \sum m_i v_{x,i} \qquad \mathrm{(x-momentum conserved)}$$
+$$
+\sum m_i u_{x,i} = \sum m_i v_{x,i} \qquad \mathrm{(x-momentum conserved)}
+$$
 
-$$\sum m_i u_{y,i} = \sum m_i v_{y,i} \qquad \mathrm{(y-momentum conserved)}$$
+$$
+\sum m_i u_{y,i} = \sum m_i v_{y,i} \qquad \mathrm{(y-momentum conserved)}
+$$
 
 **Justification.** If $\mathbf{F}_{\mathrm{net}} = \mathbf{0}$ Then $F_x = 0$ and $F_y = 0$
-Independently. Since $F_x = \dfrac{dp_x}{dt} = 0$It follows that $p_x$ is constant. Similarly for
+Independently. Since $F_x = \dfrac{dp_x}{dt} = 0$ It follows that $p_x$ is constant. Similarly for
 $p_y$.
 
 ### 7.3 Worked example
 
 A particle of mass $3\,\mathrm{kg}$ moving at $4\,\mathrm{m/s}$ collides with a stationary particle
-Of mass $2\,\mathrm{kg}$. The $3\,\mathrm{kg}$ particle is deflected through $30^\circ$ and the
+of mass $2\,\mathrm{kg}$. The $3\,\mathrm{kg}$ particle is deflected through $30^\circ$ and the
 $2\,\mathrm{kg}$ particle moves off at angle $\theta$ below the original line of motion. Both
 Particles have speed $3\,\mathrm{m/s}$ after collision. Find $\theta$.
 
@@ -291,7 +349,7 @@ $1.5\sqrt{3} = \frac{3\sqrt{3}}{2}$,
 $12 - 4.5\sqrt{3} = 12 - \frac{9\sqrt{3}}{2}$. From $y$: $\sin\theta = 0.75$,
 $\cos\theta = \sqrt{1 - 0.5625} = \sqrt{0.4375} \approx 0.6614$. From $x$:
 $\cos\theta = (12 - 4.5\sqrt{3})/6 \approx 0.701$. These are not equal, indicating the stated speeds
-Are not exactly consistent with momentum conservation, a useful check in exam problems.
+are not exactly consistent with momentum conservation, a useful check in exam problems.
 
 <hr />
 
@@ -300,7 +358,7 @@ Are not exactly consistent with momentum conservation, a useful check in exam pr
 ### 8.1 Line of centres
 
 For a collision between two smooth spheres, the **line of centres** is the line joining the centres
-At the instant of impact. The fundamental principle for smooth spheres is:
+at the instant of impact. The fundamental principle for smooth spheres is:
 
 > The impulse acts only along the line of centres. There is no impulse perpendicular to this line.
 
@@ -323,8 +381,8 @@ Consequences:
 ### 8.3 Worked example
 
 Two smooth spheres $A$ (mass $3\,\mathrm{kg}$) and $B$ (mass $2\,\mathrm{kg}$) collide. Before
-Collision, $A$ moves with velocity $5\,\mathrm{m/s}$ and $B$ is stationary. The line of centres
-Makes an angle of $30^\circ$ with the direction of motion of $A$. Given $e = 0.6$Find the speed And
+collision, $A$ moves with velocity $5\,\mathrm{m/s}$ and $B$ is stationary. The line of centres
+Makes an angle of $30^\circ$ with the direction of motion of $A$. Given $e = 0.6$ Find the speed And
 direction of each sphere after collision.
 
 **Solution.** Resolving parallel ($\parallel$) and perpendicular ($\perp$) to the line of centres:
@@ -344,7 +402,9 @@ direction of each sphere after collision.
 Momentum:
 $3 \cdot \frac{5\sqrt{3}}{2} + 2 \cdot 0 = 3\,v_{A,\parallel} + 2\,v_{B,\parallel}$
 
-$$\frac{15\sqrt{3}}{2} = 3\,v_{A,\parallel} + 2\,v_{B,\parallel}$$
+$$
+\frac{15\sqrt{3}}{2} = 3\,v_{A,\parallel} + 2\,v_{B,\parallel}
+$$
 
 Restitution:
 $v_{B,\parallel} - v_{A,\parallel} = 0.6 \cdot \frac{5\sqrt{3}}{2} = \frac{3\sqrt{3}}{2}$
@@ -352,13 +412,21 @@ $v_{B,\parallel} - v_{A,\parallel} = 0.6 \cdot \frac{5\sqrt{3}}{2} = \frac{3\sqr
 So $v_{B,\parallel} = v_{A,\parallel} + \frac{3\sqrt{3}}{2}$. Substituting into the
 momentum Equation:
 
-$$\frac{15\sqrt{3}}{2} = 3\,v_{A,\parallel} + 2\!\left(v_{A,\parallel} + \frac{3\sqrt{3}}{2}\right) = 5\,v_{A,\parallel} + 3\sqrt{3}$$
+$$
+\frac{15\sqrt{3}}{2} = 3\,v_{A,\parallel} + 2\!\left(v_{A,\parallel} + \frac{3\sqrt{3}}{2}\right) = 5\,v_{A,\parallel} + 3\sqrt{3}
+$$
 
-$$5\,v_{A,\parallel} = \frac{15\sqrt{3}}{2} - 3\sqrt{3} = \frac{15\sqrt{3} - 6\sqrt{3}}{2} = \frac{9\sqrt{3}}{2}$$
+$$
+5\,v_{A,\parallel} = \frac{15\sqrt{3}}{2} - 3\sqrt{3} = \frac{15\sqrt{3} - 6\sqrt{3}}{2} = \frac{9\sqrt{3}}{2}
+$$
 
-$$v_{A,\parallel} = \frac{9\sqrt{3}}{10} \approx 1.559\,\mathrm{m/s}$$
+$$
+v_{A,\parallel} = \frac{9\sqrt{3}}{10} \approx 1.559\,\mathrm{m/s}
+$$
 
-$$v_{B,\parallel} = \frac{9\sqrt{3}}{10} + \frac{3\sqrt{3}}{2} = \frac{9\sqrt{3} + 15\sqrt{3}}{10} = \frac{24\sqrt{3}}{10} = \frac{12\sqrt{3}}{5} \approx 4.157\,\mathrm{m/s}$$
+$$
+v_{B,\parallel} = \frac{9\sqrt{3}}{10} + \frac{3\sqrt{3}}{2} = \frac{9\sqrt{3} + 15\sqrt{3}}{10} = \frac{24\sqrt{3}}{10} = \frac{12\sqrt{3}}{5} \approx 4.157\,\mathrm{m/s}
+$$
 
 **Speed of $A$:**
 $|v_A| = \sqrt{v_{A,\parallel}^2 + v_{A,\perp}^2} = \sqrt{\left(\frac{9\sqrt{3}}{10}\right)^2 + 2.5^2} = \sqrt{2.43 + 6.25} = \sqrt{8.68} \approx 2.95\,\mathrm{m/s}$
@@ -374,7 +442,7 @@ the line of centres only).
 ### 9.1 Principle
 
 When a smooth particle strikes a smooth fixed surface at an angle of incidence $\alpha$ to the
-Normal:
+normal:
 
 - The **normal component** of velocity is reversed and scaled by $e$.
 - The **tangential component** of velocity is unchanged (no friction).
@@ -395,11 +463,15 @@ Let the particle approach with speed $u$ at angle $\alpha$ to the normal of the 
 
 The speed after collision is:
 
-$$v = \sqrt{v_n^2 + v_t^2} = u\sqrt{e^2\cos^2\alpha + \sin^2\alpha}$$
+$$
+v = \sqrt{v_n^2 + v_t^2} = u\sqrt{e^2\cos^2\alpha + \sin^2\alpha}
+$$
 
 The angle of rebound $\beta$ to the normal satisfies:
 
-$$\tan\beta = \frac{v_t}{|v_n|} = \frac{u\sin\alpha}{e\,u\cos\alpha} = \frac{\tan\alpha}{e}$$
+$$
+\tan\beta = \frac{v_t}{|v_n|} = \frac{u\sin\alpha}{e\,u\cos\alpha} = \frac{\tan\alpha}{e}
+$$
 
 ### 9.3 Angle relationships
 
@@ -416,7 +488,7 @@ Special cases:
 ### 9.4 Successive bounces
 
 When a particle bounces repeatedly on a horizontal surface, the vertical component of velocity is
-Multiplied by $e$ at each bounce while the horizontal component is unchanged.
+multiplied by $e$ at each bounce while the horizontal component is unchanged.
 
 After $n$ bounces:
 
@@ -430,9 +502,11 @@ Covered tends to a finite limit as $n \to \infty$.
 ### 9.5 Impulse exerted by the surface
 
 The impulse exerted by the surface on the particle is directed along the normal (since the surface
-Is smooth):
+is smooth):
 
-$$J = m(v_n - u_n) = m(-e\,u\cos\alpha - u\cos\alpha) = -m(1+e)\,u\cos\alpha$$
+$$
+J = m(v_n - u_n) = m(-e\,u\cos\alpha - u\cos\alpha) = -m(1+e)\,u\cos\alpha
+$$
 
 The magnitude of the impulse is $m(1+e)\,u\cos\alpha$.
 
@@ -546,7 +620,7 @@ Section 5.
 
 <details>
 <summary>Problem 7</summary>
-A force acts on a $5\,\mathrm{kg}$ body for $0.3\,\mathrm{s}$Giving it an impulse of $15\,\mathrm{Ns}$. Find the change in velocity.
+A force acts on a $5\,\mathrm{kg}$ body for $0.3\,\mathrm{s}$ Giving it an impulse of $15\,\mathrm{Ns}$. Find the change in velocity.
 </details>
 
 <details>
@@ -559,7 +633,7 @@ $J = m\Delta v \implies 15 = 5\Delta v \implies \Delta v = 3\,\mathrm{m/s}$.
 
 <details>
 <summary>Problem 8</summary>
-A $3\,\mathrm{kg}$ particle moving at $6\,\mathrm{m/s}$ collides with a $2\,\mathrm{kg}$ particle moving at $-3\,\mathrm{m/s}$. If $e = 0.6$Find the velocities after collision and the kinetic energy lost.
+A $3\,\mathrm{kg}$ particle moving at $6\,\mathrm{m/s}$ collides with a $2\,\mathrm{kg}$ particle moving at $-3\,\mathrm{m/s}$. If $e = 0.6$ Find the velocities after collision and the kinetic energy lost.
 </details>
 
 <details>
@@ -636,7 +710,7 @@ $v_1 = 3u - 2v_2 \gt 0 \implies v_2 \lt 1.5u$.
 $e = (u - v_2)/u$. Max when $v_2 \to 0$: $e \to 1$. Min when $v_2 \to 1.5u$: $e \to -0.5$.
 
 Hmm, the question likely assumes a specific convention. The answer $e \leq 1/3$ arises when we
-Require $v_1 \lt v_2$ (so the $m$ body doesn't overtake the $2m$ body):
+require $v_1 \lt v_2$ (so the $m$ body doesn't overtake the $2m$ body):
 
 $v_1 \lt v_2 \implies 3u - 2v_2 \lt v_2 \implies v_2 \gt 1.5u$... But then $v_1 = 3u - 2v_2 \lt 0$.
 
@@ -663,7 +737,7 @@ For $v_2 \lt 0$: $e = 1 + v_2/u \lt 1$. ✓ For $v_1 \lt 0$:
 $-3u - 2v_2 \lt 0 \implies v_2 \gt -3u/2$ So $e \gt 1 + (-3/2) = -1/2$. Since $e \geq 0$:
 $v_2 \geq -u$ So $e \geq 0$.
 
-If the problem says $e \leq 1/3$There may be additional constraints. Given the complexity, the key
+If the problem says $e \leq 1/3$ There may be additional constraints. Given the complexity, the key
 Idea is shown.
 
 **If you get this wrong, revise:** [Coefficient of Restitution](#5-coefficient-of-restitution),
@@ -691,7 +765,7 @@ Speed: $|v| = \sqrt{(-2)^2 + (-2\sqrt{3})^2} = \sqrt{4 + 12} = \sqrt{16} = 4\,\m
 
 Direction:
 $\theta = \arctan\!\left(\frac{-2\sqrt{3}}{-2}\right) = \arctan(\sqrt{3}) = 60^\circ$
-Below the horizontal (south-west).
+below the horizontal (south-west).
 
 **If you get this wrong, revise:**
 [Conservation of Momentum in Two Dimensions](#7-conservation-of-momentum-in-two-dimensions),
@@ -729,13 +803,13 @@ $v = \sqrt{3.574^2 + 7.660^2} = \sqrt{12.77 + 58.68} = \sqrt{71.45} \approx 8.45
 
 <details>
 <summary>Problem 13</summary>
-Two smooth spheres $A$ and $B$ have masses $2\,\mathrm{kg}$ and $3\,\mathrm{kg}$. $A$ moves at $6\,\mathrm{m/s}$ and $B$ moves at $2\,\mathrm{m/s}$ at right angles to $A$. They collide when the line of centres is parallel to the direction of $A$'s motion. If $e = 0.5$Find the velocity of each sphere after collision.
+Two smooth spheres $A$ and $B$ have masses $2\,\mathrm{kg}$ and $3\,\mathrm{kg}$. $A$ moves at $6\,\mathrm{m/s}$ and $B$ moves at $2\,\mathrm{m/s}$ at right angles to $A$. They collide when the line of centres is parallel to the direction of $A$'s motion. If $e = 0.5$ Find the velocity of each sphere after collision.
 </details>
 
 <details>
 <summary>Solution 13</summary>
 Line of centres is parallel to $A$'s motion (horizontal). So we resolve parallel (horizontal) and
-Perpendicular (vertical).
+perpendicular (vertical).
 
 **Before collision:**
 
@@ -762,8 +836,8 @@ $v_{B,\parallel} = 3.6\,\mathrm{m/s}$.
 
 **After collision:**
 
-- $A$: $\mathbf{v}_A = (0.6, 0)\,\mathrm{m/s}$Speed $= 0.6\,\mathrm{m/s}$
-- $B$: $\mathbf{v}_B = (3.6, 2)\,\mathrm{m/s}$Speed
+- $A$: $\mathbf{v}_A = (0.6, 0)\,\mathrm{m/s}$ Speed $= 0.6\,\mathrm{m/s}$
+- $B$: $\mathbf{v}_B = (3.6, 2)\,\mathrm{m/s}$ Speed
   $= \sqrt{3.6^2 + 2^2} = \sqrt{12.96 + 4} = \sqrt{16.96} \approx 4.12\,\mathrm{m/s}$
 
 **If you get this wrong, revise:**
@@ -781,15 +855,17 @@ Prove that the coefficient of restitution satisfies $e \leq 1$ by showing that $
 <summary>Solution 14</summary>
 Suppose $e \gt 1$. From the energy loss formula:
 
-$$\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2)$$
+$$
+\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2)
+$$
 
 If $e \gt 1$ Then $e^2 \gt 1$ and $1 - e^2 \lt 0$.
 
 Since $\frac{1}{2} \gt 0$, $\frac{m_1m_2}{m_1+m_2} \gt 0$ (for positive masses), and
-$(u_1-u_2)^2 \geq 0$We get $\Delta\mathrm{KE} \lt 0$.
+$(u_1-u_2)^2 \geq 0$ We get $\Delta\mathrm{KE} \lt 0$.
 
 $\Delta\mathrm{KE} \lt 0$ means
-$\mathrm{KE}_{\mathrm{after}} \gt \mathrm{KE}_{\mathrm{before}}$Which would require kinetic Energy
+$\mathrm{KE}_{\mathrm{after}} \gt \mathrm{KE}_{\mathrm{before}}$ Which would require kinetic Energy
 to be created during the collision. This violates conservation of energy (no external work is Done
 during the collision).
 
@@ -872,9 +948,13 @@ $2v_{A,\parallel} = (1-e)\,u\cos\theta \implies v_{A,\parallel} = \frac{(1-e)}{2
 
 The angle between $\mathbf{v}_A$ and $\mathbf{v}_B$ is found by computing their dot product:
 
-$$\mathbf{v}_A \cdot \mathbf{v}_B = v_{A,\parallel}\,v_{B,\parallel} + v_{A,\perp}\,v_{B,\perp} = \frac{(1-e)}{2}\,u\cos\theta \cdot \frac{(1+e)}{2}\,u\cos\theta + u\sin\theta \cdot 0$$
+$$
+\mathbf{v}_A \cdot \mathbf{v}_B = v_{A,\parallel}\,v_{B,\parallel} + v_{A,\perp}\,v_{B,\perp} = \frac{(1-e)}{2}\,u\cos\theta \cdot \frac{(1+e)}{2}\,u\cos\theta + u\sin\theta \cdot 0
+$$
 
-$$= \frac{(1-e^2)}{4}\,u^2\cos^2\theta$$
+$$
+= \frac{(1-e^2)}{4}\,u^2\cos^2\theta
+$$
 
 Wait, this is not zero unless $e = 1$. Let me reconsider.
 
@@ -882,18 +962,18 @@ Actually, the angle between $\mathbf{v}_A$ and the line of centres is $\alpha$ w
 $\tan\alpha = \frac{v_{A,\perp}}{v_{A,\parallel}} = \frac{u\sin\theta}{\frac{(1-e)}{2}\,u\cos\theta} = \frac{2\tan\theta}{1-e}$.
 
 The angle between $\mathbf{v}_B$ and the line of centres is $0$ (it moves along the line of
-Centres).
+centres).
 
 So the angle between $\mathbf{v}_A$ and $\mathbf{v}_B$ is $\alpha$. For them to be perpendicular, we
-Need $\alpha = 90^\circ$ But $\tan\alpha$ is finite for $0 \lt e \lt 1$.
+need $\alpha = 90^\circ$ But $\tan\alpha$ is finite for $0 \lt e \lt 1$.
 
 The claim that the spheres move at right angles is only true for $e = 1$ (perfectly elastic
 Collision). In that case $v_{A,\parallel} = 0$ and $\mathbf{v}_A = u\sin\theta$ (perpendicular to
-Line of centres), while $\mathbf{v}_B = u\cos\theta$ (along line of centres), so they are indeed
+line of centres), while $\mathbf{v}_B = u\cos\theta$ (along line of centres), so they are indeed
 Perpendicular.
 
-For general $e$The spheres do **not** move at right angles. The problem as stated is only correct
-For the elastic case. $\blacksquare$
+For general $e$ The spheres do **not** move at right angles. The problem as stated is only correct
+for the elastic case. $\blacksquare$
 
 **If you get this wrong, revise:**
 [Two-Dimensional Collisions Between Particles](#8-two-dimensional-collisions-between-particles),
@@ -935,21 +1015,7 @@ building a personal test matrix.
 4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
-```mermaid
-flowchart TD
-    A[05 Momentum] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

@@ -28,7 +28,7 @@ This note assumes the reader is already familiar with:
 These topics are covered in the introductory [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) note. Readers who have completed the DSE compulsory mathematics core should proceed directly; others should review the introductory functions material first.
 
 This note extends the treatment of functions covered in [Functions](/maths/compulsory/1_functions/), focusing on
-Domain restrictions, composite and inverse functions with non-trivial domains, and graphical
+domain restrictions, composite and inverse functions with non-trivial domains, and graphical
 Transformations.
 
 ## Domain and Range
@@ -38,11 +38,15 @@ Transformations.
 The **natural domain** of a function is the largest subset of $\mathbb{R}$ for which the function
 Expression is defined. Restrictions arise from:
 
+<div class="table-wrap">
+
 | Restriction      | Condition              | Example                                                                   |
 | ---------------- | ---------------------- | ------------------------------------------------------------------------- |
 | Division by zero | Denominator $\neq 0$   | $f(x) = \dfrac{1}{x - 2}$: $\mathrm{dom}(f) = \mathbb{R} \setminus \{2\}$ |
 | Even root        | Radicand $\geqslant 0$ | $f(x) = \sqrt{x - 3}$: $\mathrm{dom}(f) = [3, \infty)$                    |
 | Logarithm        | Argument $\gt 0$       | $f(x) = \ln(x + 1)$: $\mathrm{dom}(f) = (-1, \infty)$                     |
+
+</div>
 
 ### Finding the Range
 
@@ -59,7 +63,7 @@ Find the domain and range of $f(x) = \sqrt{4 - x^2}$.
 Domain: $4 - x^2 \geqslant 0 \implies x^2 \leqslant 4 \implies -2 \leqslant x \leqslant 2$.
 
 Range: Since $4 - x^2$ ranges from $0$ (at $x = \pm 2$) to $4$ (at $x = 0$), and $\sqrt{\cdot}$ is
-Non-negative: $\mathrm{range}(f) = [0, 2]$.
+non-negative: $\mathrm{range}(f) = [0, 2]$.
 
 ---
 
@@ -76,13 +80,17 @@ Non-negative: $\mathrm{range}(f) = [0, 2]$.
 
 ### Definition
 
-Given $f$ and $g$The composite $f \circ g$ is:
+Given $f$ and $g$ The composite $f \circ g$ is:
 
-$$(f \circ g)(x) = f(g(x))$$
+$$
+(f \circ g)(x) = f(g(x))
+$$
 
 ### Domain of a Composite
 
-$$\mathrm{dom}(f \circ g) = \{x \in \mathrm{dom}(g) : g(x) \in \mathrm{dom}(f)\}$$
+$$
+\mathrm{dom}(f \circ g) = \{x \in \mathrm{dom}(g) : g(x) \in \mathrm{dom}(f)\}
+$$
 
 ### Worked Example 2
 
@@ -90,10 +98,12 @@ Let $f(x) = \sqrt{x + 1}$ and $g(x) = x^2 - 4$. Find $\mathrm{dom}(f \circ g)$.
 
 $\mathrm{dom}(g) = \mathbb{R}$.
 
-$\mathrm{dom}(f) = [ -1, \infty)$ So we need $g(x) \geqslant -1$I.e.,
+$\mathrm{dom}(f) = [ -1, \infty)$ So we need $g(x) \geqslant -1$ I.e.,
 $x^2 - 4 \geqslant -1 \implies x^2 \geqslant 3$.
 
-$$\mathrm{dom}(f \circ g) = (-\infty, -\sqrt{3}] \cup [\sqrt{3}, \infty)$$
+$$
+\mathrm{dom}(f \circ g) = (-\infty, -\sqrt{3}] \cup [\sqrt{3}, \infty)
+$$
 
 ### Worked Example 3
 
@@ -121,7 +131,7 @@ $\mathrm{dom} = \mathbb{R} \setminus \{0\}$.
 ### Existence Condition
 
 A function $f$ has an inverse $f^{-1}$ if and only if $f$ is bijective (one-to-one and onto). If the
-Natural domain of $f$ does not yield injectivity, restrict the domain.
+natural domain of $f$ does not yield injectivity, restrict the domain.
 
 ### Procedure to Find $f^{-1}$
 
@@ -143,9 +153,11 @@ Set $y = \dfrac{2x - 3}{x + 1}$.
 
 $y(x + 1) = 2x - 3 \implies yx + y = 2x - 3 \implies yx - 2x = -3 - y \implies x(y - 2) = -(y + 3)$
 
-$$x = \frac{-(y + 3)}{y - 2} = \frac{y + 3}{2 - y}$$
+$$
+x = \frac{-(y + 3)}{y - 2} = \frac{y + 3}{2 - y}
+$$
 
-Therefore $f^{-1}(x) = \dfrac{x + 3}{2 - x}$With domain $\mathbb{R} \setminus \{2\}$.
+Therefore $f^{-1}(x) = \dfrac{x + 3}{2 - x}$ With domain $\mathbb{R} \setminus \{2\}$.
 
 ---
 
@@ -164,12 +176,16 @@ Therefore $f^{-1}(x) = \dfrac{x + 3}{2 - x}$With domain $\mathbb{R} \setminus \{
 
 Given $y = f(x)$:
 
+<div class="table-wrap">
+
 | Transformation | Effect on Graph                                               |
-| -------------- | ------------------------------------------------------------- | --- | ----------------------------------- |
-| $y = f(x) + c$ | Vertical shift up by $c$ ($c \gt 0$) or down ($c \lt 0$)      |     |                                     |
+| -------------- | ------------------------------------------------------------- |
+| $y = f(x) + c$ | Vertical shift up by $c$ ($c \gt 0$) or down ($c \lt 0$) |
 | $y = f(x - h)$ | Horizontal shift right by $h$ ($h \gt 0$) or left ($h \lt 0$) |     |                                     |
-| $y = af(x)$    | Vertical stretch by factor $                                  | a   | $; reflect in $x$-axis if $a \lt 0$ |
-| $y = f(kx)$    | Horizontal stretch by factor $1/                              | k   | $; reflect in $y$-axis if $k \lt 0$ |
+| $y = af(x)$    | Vertical stretch by factor $                                  \| a   \| $; reflect in $x$-axis if $a \lt 0$ |
+| $y = f(kx)$    | Horizontal stretch by factor $1/                              \| k   \| $; reflect in $y$-axis if $k \lt 0$ |
+
+</div>
 
 ### Combined Transformation: $y = af(x + b) + c$
 
@@ -217,7 +233,9 @@ A piecewise function is defined by different expressions on different intervals 
 
 ### Worked Example 7
 
-$$f(x) = \begin{cases} x^2 & \mathrm{if } x \lt 0 \\ 2x + 1 & \mathrm{if } 0 \leqslant x \leqslant 3 \\ 10 - x & \mathrm{if } x \gt 3 \end{cases}$$
+$$
+f(x) = \begin{cases} x^2 & \mathrm{if } x \lt 0 \\ 2x + 1 & \mathrm{if } 0 \leqslant x \leqslant 3 \\ 10 - x & \mathrm{if } x \gt 3 \end{cases}
+$$
 
 Find $f(-2)$, $f(0)$, $f(3)$ And $f(5)$.
 
@@ -236,7 +254,7 @@ $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5
 
 ## Common Pitfalls
 
-- When finding the domain of $f \circ g$Applying the domain restrictions of $f$ to $x$ instead of to
+- When finding the domain of $f \circ g$ Applying the domain restrictions of $f$ to $x$ instead of to
   $g(x)$. The argument of $f$ must be valid, so it is $g(x)$ that must fall in $\mathrm{dom}(f)$.
 - Forgetting that $f \circ g \neq g \circ f$ . Always check the order.
 - When finding an inverse, forgetting to verify that the function is one-to-one on the given domain.
@@ -254,17 +272,9 @@ $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[2_Functions Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table
+
+<div class="table-wrap">
 
 | Topic                 | Key Result                                             |
 | --------------------- | ------------------------------------------------------ |
@@ -274,6 +284,8 @@ flowchart TD
 | $f(f^{-1}(x)) = x$    | For all $x \in \mathrm{dom}(f^{-1})$                   |
 | Graph of inverse      | Reflection in $y = x$                                  |
 | $y = f(x - h)$        | Shift right by $h$                                     |
+
+</div>
 
 ---
 
@@ -307,7 +319,7 @@ $f^{-1}(x) = \dfrac{2x + 1}{x - 3}$$\mathrm{dom}(f^{-1}) = \mathbb{R} \setminus 
 
 1. **Question:** Let $f(x) = x^2 - 4x + 3$ with domain $[1, \infty)$. Find $f^{-1}(0)$.
 
-First find $f^{-1}$. Set $y = (x - 2)^2 - 1$. Since domain is $[1, \infty)$Range is $[-1, \infty)$.
+First find $f^{-1}$. Set $y = (x - 2)^2 - 1$. Since domain is $[1, \infty)$ Range is $[-1, \infty)$.
 
 $(x - 2)^2 = y + 1 \implies x - 2 = \sqrt{y + 1}$ (positive root since $x \geqslant 1$).
 
@@ -318,7 +330,7 @@ $f^{-1}(0) = 2 + \sqrt{0 + 1} = 2 + 1 = 3$.
 Verification: $f(3) = 9 - 12 + 3 = 0$. Confirmed.
 
 1. **Question:** The graph of $y = f(x)$ has a minimum at $(1, -2)$ and passes through $(0, 3)$.
-   Find the corresponding points on $y = 3f(2x) + 1$.
+   find the corresponding points on $y = 3f(2x) + 1$.
 
 $(1, -2) \to$ set $2x = 1 \implies x = 0.5$$y = 3(-2) + 1 = -5$. Point: $(0.5, -5)$.
 
@@ -335,7 +347,7 @@ $x \leqslant 0$).
 
 $f^{-1}(x) = -\sqrt{2 - x}$$\mathrm{dom}(f^{-1}) = (-\infty, 2]$.
 
-1. **Question:** Given $f(x) = \sqrt{x - 1}$ and $g(x) = x^2 + x + 1$Find $\mathrm{dom}(g \circ f)$.
+1. **Question:** Given $f(x) = \sqrt{x - 1}$ and $g(x) = x^2 + x + 1$ Find $\mathrm{dom}(g \circ f)$.
 
 $\mathrm{dom}(f) = [1, \infty)$$\mathrm{dom}(g) = \mathbb{R}$.
 
@@ -354,16 +366,18 @@ Range: $x^2 + 1 \geqslant 1$ So $0 \lt \dfrac{1}{x^2 + 1} \leqslant 1$. $\mathrm
 
 Critical points at $x = 3$ and $x = -1$:
 
-$$f(x) = \begin{cases} -(x - 3) + -(x + 1) = -2x + 2 & \mathrm{if } x \lt -1 \\ -(x - 3) + (x + 1) = 4 & \mathrm{if } -1 \leqslant x \leqslant 3 \\ (x - 3) + (x + 1) = 2x - 2 & \mathrm{if } x \gt 3 \end{cases}$$
+$$
+f(x) = \begin{cases} -(x - 3) + -(x + 1) = -2x + 2 & \mathrm{if } x \lt -1 \\ -(x - 3) + (x + 1) = 4 & \mathrm{if } -1 \leqslant x \leqslant 3 \\ (x - 3) + (x + 1) = 2x - 2 & \mathrm{if } x \gt 3 \end{cases}
+$$
 
-For $x \lt -1$: $f(x) = -2x + 2$Which is decreasing (as $x$ increases towards $-1$). As
+For $x \lt -1$: $f(x) = -2x + 2$ Which is decreasing (as $x$ increases towards $-1$). As
 $x \to -1^-$: $f(x) \to 4$.
 
 For $-1 \leqslant x \leqslant 3$: $f(x) = 4$ (constant).
 
-For $x \gt 3$: $f(x) = 2x - 2$Which is increasing.
+For $x \gt 3$: $f(x) = 2x - 2$ Which is increasing.
 
-Minimum value: $4$Attained for all $x \in [-1, 3]$.
+Minimum value: $4$ Attained for all $x \in [-1, 3]$.
 
 </details>
 
@@ -390,7 +404,7 @@ $\mathrm{dom}(g \circ f)$.
 
 $\mathrm{dom}(g) = [3, \infty)$. $\mathrm{dom}(f) = \mathbb{R} \setminus \{2\}$.
 
-**For $f \circ g$:** We need $g(x) \in \mathrm{dom}(f)$I.e., $\sqrt{x-3} \neq 2$.
+**For $f \circ g$:** We need $g(x) \in \mathrm{dom}(f)$ I.e., $\sqrt{x-3} \neq 2$.
 
 $\sqrt{x-3} = 2 \implies x = 7$. So exclude $x = 7$.
 
@@ -398,9 +412,13 @@ $\mathrm{dom}(f \circ g) = [3, \infty) \setminus \{7\}$.
 
 **For $g \circ f$:** We need $x \in \mathrm{dom}(f)$ and $f(x) \geq 3$.
 
-$$\frac{x+1}{x-2} \geq 3 \implies \frac{x+1-3(x-2)}{x-2} \geq 0 \implies \frac{-2x+7}{x-2} \geq 0$$
+$$
+\frac{x+1}{x-2} \geq 3 \implies \frac{x+1-3(x-2)}{x-2} \geq 0 \implies \frac{-2x+7}{x-2} \geq 0
+$$
 
 Critical points: $x = \dfrac{7}{2}$ and $x = 2$.
+
+<div class="table-wrap">
 
 | Interval                   | Sign of $\dfrac{-2x+7}{x-2}$     |
 | -------------------------- | -------------------------------- |
@@ -408,7 +426,9 @@ Critical points: $x = \dfrac{7}{2}$ and $x = 2$.
 | $2 \lt x \lt \dfrac{7}{2}$ | positive / positive $=$ positive |
 | $x \gt \dfrac{7}{2}$       | negative / positive $=$ negative |
 
-At $x = \dfrac{7}{2}$: expression equals $0$Which satisfies $\geq 0$.
+</div>
+
+At $x = \dfrac{7}{2}$: expression equals $0$ Which satisfies $\geq 0$.
 
 $\mathrm{dom}(g \circ f) = \left(2,\; \dfrac{7}{2}\right]$.
 
@@ -423,20 +443,26 @@ Let $f(x) = 2x^2 - 8x + 5$ with domain $[2, \infty)$. Find $f^{-1}$ and state it
 
 Complete the square: $f(x) = 2(x^2 - 4x) + 5 = 2\!\left[(x-2)^2 - 4\right] + 5 = 2(x-2)^2 - 3$.
 
-Since the domain is $[2, \infty)$ and the vertex is at $x = 2$The function is strictly increasing
+Since the domain is $[2, \infty)$ and the vertex is at $x = 2$ The function is strictly increasing
 and hence one-to-one.
 
 Range: $[-3, \infty)$.
 
 Set $y = 2(x-2)^2 - 3$:
 
-$$(x-2)^2 = \frac{y+3}{2}$$
+$$
+(x-2)^2 = \frac{y+3}{2}
+$$
 
-$$x = 2 + \sqrt{\frac{y+3}{2}}$$
+$$
+x = 2 + \sqrt{\frac{y+3}{2}}
+$$
 
 (positive root since $x \geq 2$)
 
-$$f^{-1}(x) = 2 + \sqrt{\frac{x+3}{2}}$$
+$$
+f^{-1}(x) = 2 + \sqrt{\frac{x+3}{2}}
+$$
 
 $\mathrm{dom}(f^{-1}) = [-3, \infty)$$\mathrm{range}(f^{-1}) = [2, \infty)$.
 
@@ -454,16 +480,20 @@ corresponding points on $y = 2f(3x - 6) + 5$.
 
 Rewrite: $y = 2f(3(x-2)) + 5$.
 
-**For $(1, 4)$ on $y = f(x)$:** Set $3(x-2) = 1$ So $x - 2 = \dfrac{1}{3}$Giving $x = \dfrac{7}{3}$.
+**For $(1, 4)$ on $y = f(x)$:** Set $3(x-2) = 1$ So $x - 2 = \dfrac{1}{3}$ Giving $x = \dfrac{7}{3}$.
 
-$$y = 2(4) + 5 = 13$$
+$$
+y = 2(4) + 5 = 13
+$$
 
 Corresponding point: $\left(\dfrac{7}{3},\; 13\right)$.
 
-**For the minimum at $(2, -1)$:** Set $3(x-2) = 2$ So $x - 2 = \dfrac{2}{3}$Giving
+**For the minimum at $(2, -1)$:** Set $3(x-2) = 2$ So $x - 2 = \dfrac{2}{3}$ Giving
 $x = \dfrac{8}{3}$.
 
-$$y = 2(-1) + 5 = 3$$
+$$
+y = 2(-1) + 5 = 3
+$$
 
 Corresponding point: $\left(\dfrac{8}{3},\; 3\right)$. This is the minimum of the transformed graph.
 
@@ -481,7 +511,7 @@ $\mathrm{dom}(g) = \mathbb{R}$, $\mathrm{dom}(f) = (1, \infty)$.
 
 **$(f \circ g)(x) = f(g(x)) = \ln(x^2 + 1 - 1) = \ln(x^2)$.**
 
-Domain: need $g(x) \in \mathrm{dom}(f)$I.e., $x^2 + 1 \gt 1 \implies x^2 \gt 0 \implies x \neq 0$.
+Domain: need $g(x) \in \mathrm{dom}(f)$ I.e., $x^2 + 1 \gt 1 \implies x^2 \gt 0 \implies x \neq 0$.
 
 $\mathrm{dom}(f \circ g) = \mathbb{R} \setminus \{0\}$.
 
@@ -500,15 +530,21 @@ Show that $f(x) = \dfrac{3x - 2}{x - 3}$ ($x \neq 3$) is self-inverse.
 
 Set $y = \dfrac{3x - 2}{x - 3}$:
 
-$$y(x - 3) = 3x - 2 \implies xy - 3y = 3x - 2 \implies xy - 3x = 3y - 2$$
+$$
+y(x - 3) = 3x - 2 \implies xy - 3y = 3x - 2 \implies xy - 3x = 3y - 2
+$$
 
-$$x(y - 3) = 3y - 2 \implies x = \frac{3y - 2}{y - 3}$$
+$$
+x(y - 3) = 3y - 2 \implies x = \frac{3y - 2}{y - 3}
+$$
 
 Interchanging $x$ and $y$:
 
-$$f^{-1}(x) = \frac{3x - 2}{x - 3} = f(x)$$
+$$
+f^{-1}(x) = \frac{3x - 2}{x - 3} = f(x)
+$$
 
-Since $f^{-1} = f$The function is self-inverse.
+Since $f^{-1} = f$ The function is self-inverse.
 
 </details>
 
@@ -526,22 +562,22 @@ Since $f^{-1} = f$The function is self-inverse.
 ## Additional Common Pitfalls
 
 1. **Applying domain restrictions to $x$ instead of $g(x)$.** When finding
-   $\mathrm{dom}(f \circ g)$The condition $g(x) \in \mathrm{dom}(f)$ must be applied to the
-   expression $g(x)$Not to $x$ directly. Always substitute first, then impose domain conditions.
+   $\mathrm{dom}(f \circ g)$ The condition $g(x) \in \mathrm{dom}(f)$ must be applied to the
+   expression $g(x)$ Not to $x$ directly. Always substitute first, then impose domain conditions.
 
 2. **Assuming injectivity on the natural domain.** A quadratic $ax^2 + bx + c$ is only one-to-one on
    a half-domain $(-\infty,\; -b/(2a)]$ or $[-b/(2a),\; \infty)$. Before finding an inverse, verify
    or restrict the domain.
 
 3. **Choosing the wrong branch of the inverse.** When $f(x) = x^2$ is restricted to
-   $(-\infty, 0]$The inverse is $f^{-1}(x) = -\sqrt{x}$Not $+\sqrt{x}$. Always match the sign to the
+   $(-\infty, 0]$ The inverse is $f^{-1}(x) = -\sqrt{x}$ Not $+\sqrt{x}$. Always match the sign to the
    restricted domain.
 
 4. **Composition order confusion.** $(f \circ g)(x) = f(g(x))$ means $g$ is applied first, then $f$.
    The notation reads right-to-left: $(f \circ g)(x)$ is "$f$ of $g$ of $x$".
 
-5. **Transformation order errors.** For $y = af(kx + b) + c$Apply from inside out: horizontal shift
-   by $-b$Horizontal stretch by $1/k$Vertical stretch by $a$Vertical shift by $c$. Mixing up this
+5. **Transformation order errors.** For $y = af(kx + b) + c$ Apply from inside out: horizontal shift
+   by $-b$ Horizontal stretch by $1/k$ Vertical stretch by $a$ Vertical shift by $c$. Mixing up this
    order is a very common mistake.
 
 6. **Ignoring the range when checking invertibility.** Even if $f$ is one-to-one on its domain, the
@@ -574,7 +610,9 @@ $(f \circ g)(x)$ and its domain.
 <details>
 <summary>Solution</summary>
 
-$$(f \circ g)(x) = f(\sqrt{x+2}) = \frac{2\sqrt{x+2} + 3}{\sqrt{x+2} - 1}$$
+$$
+(f \circ g)(x) = f(\sqrt{x+2}) = \frac{2\sqrt{x+2} + 3}{\sqrt{x+2} - 1}
+$$
 
 $\mathrm{dom}(g) = [-2, \infty)$. $\mathrm{dom}(f) = \mathbb{R} \setminus \{1\}$.
 
@@ -592,19 +630,31 @@ whether $f(x) = f^{-1}(x)$ has any real solutions.
 
 Set $y = \dfrac{2x-1}{x+3}$: $y(x+3) = 2x-1 \implies xy + 3y = 2x - 1 \implies x(y-2) = -1 - 3y$.
 
-$$f^{-1}(x) = \frac{-1-3x}{x-2} = \frac{3x+1}{2-x}$$
+$$
+f^{-1}(x) = \frac{-1-3x}{x-2} = \frac{3x+1}{2-x}
+$$
 
 For $f(x) = f^{-1}(x)$:
 
-$$\frac{2x-1}{x+3} = \frac{3x+1}{2-x}$$
+$$
+\frac{2x-1}{x+3} = \frac{3x+1}{2-x}
+$$
 
-$$(2x-1)(2-x) = (3x+1)(x+3)$$
+$$
+(2x-1)(2-x) = (3x+1)(x+3)
+$$
 
-$$4x - 2x^2 - 2 + x = 3x^2 + 9x + x + 3$$
+$$
+4x - 2x^2 - 2 + x = 3x^2 + 9x + x + 3
+$$
 
-$$-2x^2 + 5x - 2 = 3x^2 + 10x + 3$$
+$$
+-2x^2 + 5x - 2 = 3x^2 + 10x + 3
+$$
 
-$$-5x^2 - 5x - 5 = 0 \implies x^2 + x + 1 = 0$$
+$$
+-5x^2 - 5x - 5 = 0 \implies x^2 + x + 1 = 0
+$$
 
 $\Delta = 1 - 4 = -3 \lt 0$. No real solutions.
 
@@ -621,7 +671,9 @@ Range: $[-4, \infty)$. Since $5 \geq -4$, $f^{-1}(5)$ exists.
 
 Set $(x+2)^2 - 4 = 5 \implies (x+2)^2 = 9 \implies x + 2 = 3$ (positive root).
 
-$$x = 1$$
+$$
+x = 1
+$$
 
 $f^{-1}(5) = 1$. Verification: $f(1) = 1 + 4 = 5$. Correct.
 
@@ -653,18 +705,20 @@ First, $(g \circ f)(x) = g(f(x)) = \left(\dfrac{1}{x+1}\right)^2 = \dfrac{1}{(x+
 
 Then:
 
-$$(f \circ g \circ f)(x) = f\!\left(\frac{1}{(x+1)^2}\right) = \frac{1}{\dfrac{1}{(x+1)^2} + 1} = \frac{(x+1)^2}{(x+1)^2 + 1} = \frac{(x+1)^2}{x^2 + 2x + 2}$$
+$$
+(f \circ g \circ f)(x) = f\!\left(\frac{1}{(x+1)^2}\right) = \frac{1}{\dfrac{1}{(x+1)^2} + 1} = \frac{(x+1)^2}{(x+1)^2 + 1} = \frac{(x+1)^2}{x^2 + 2x + 2}
+$$
 
 Domain: need $x + 1 \neq 0 \implies x \neq -1$ And $\dfrac{1}{(x+1)^2} + 1 \neq 0$.
 
-Since $\dfrac{1}{(x+1)^2} \geq 0$ for all $x \neq -1$The second expression is always at least
+Since $\dfrac{1}{(x+1)^2} \geq 0$ for all $x \neq -1$ The second expression is always at least
 $1 > 0$.
 
 $\mathrm{dom}(f \circ g \circ f) = \mathbb{R} \setminus \{-1\}$.
 
 </details>
 
-**Problem 6.** Given $f(x) = |2x - 1| + |x + 3|$Find the minimum value of $f$.
+**Problem 6.** Given $f(x) = |2x - 1| + |x + 3|$ Find the minimum value of $f$.
 
 <details>
 <summary>Solution</summary>
@@ -679,22 +733,26 @@ For $x \geq \dfrac{1}{2}$: $f(x) = (2x-1) + (x+3) = 3x + 2$ (increasing).
 
 The minimum occurs at the transition from decreasing to increasing, i.e., at $x = \dfrac{1}{2}$:
 
-$$f\!\left(\frac{1}{2}\right) = 3\!\left(\frac{1}{2}\right) + 2 = \frac{7}{2}$$
+$$
+f\!\left(\frac{1}{2}\right) = 3\!\left(\frac{1}{2}\right) + 2 = \frac{7}{2}
+$$
 
-Minimum value: $\dfrac{7}{2}$Attained at $x = \dfrac{1}{2}$.
+Minimum value: $\dfrac{7}{2}$ Attained at $x = \dfrac{1}{2}$.
 
 </details>
 
-**Problem 7.** If $f(x) = \dfrac{x}{x^2 + 1}$Find the range of $f$.
+**Problem 7.** If $f(x) = \dfrac{x}{x^2 + 1}$ Find the range of $f$.
 
 <details>
 <summary>Solution</summary>
 
 Let $y = \dfrac{x}{x^2 + 1}$. Then $yx^2 + y = x \implies yx^2 - x + y = 0$.
 
-For real $x$This quadratic in $x$ must have $\Delta \geq 0$:
+For real $x$ This quadratic in $x$ must have $\Delta \geq 0$:
 
-$$\Delta = 1 - 4y^2 \geq 0 \implies y^2 \leq \frac{1}{4} \implies -\frac{1}{2} \leq y \leq \frac{1}{2}$$
+$$
+\Delta = 1 - 4y^2 \geq 0 \implies y^2 \leq \frac{1}{4} \implies -\frac{1}{2} \leq y \leq \frac{1}{2}
+$$
 
 When $y = \dfrac{1}{2}$:
 $\dfrac{1}{2}x^2 - x + \dfrac{1}{2} = 0 \implies (x-1)^2 = 0 \implies x = 1$. Attainable.
@@ -706,7 +764,7 @@ Range: $\left[-\dfrac{1}{2},\; \dfrac{1}{2}\right]$.
 
 </details>
 
-**Problem 8.** If $f(x) = 2x - 1$ and $g(x) = x + 3$Find the linear function $h(x)$ such that
+**Problem 8.** If $f(x) = 2x - 1$ and $g(x) = x + 3$ Find the linear function $h(x)$ such that
 $(f \circ h)(x) = (g \circ f)(x)$ for all $x$.
 
 <details>
@@ -760,9 +818,6 @@ the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Functions
 (Advanced) with other DSE mathematics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -782,7 +837,7 @@ For function problems in DSE Paper 1:
 
 1. When finding the domain of a composite function, explicitly state $\mathrm{dom}(g)$ and the
    condition $g(x) \in \mathrm{dom}(f)$.
-2. When finding an inverse, write $y = f(x)$Solve for $x$ And then interchange.
+2. When finding an inverse, write $y = f(x)$ Solve for $x$ And then interchange.
 3. When checking invertibility, verify that the function is one-to-one (strictly increasing or
    decreasing on the domain).
 4. For transformation problems, identify the sequence of transformations from inside out.
@@ -822,7 +877,7 @@ $\mathrm{dom}(g \circ f)$.
 
 $\mathrm{dom}(f) = (2, \infty)$ (need $x - 2 > 0$). $\mathrm{dom}(g) = \mathbb{R}$.
 
-**$f \circ g$:** Need $g(x) \in \mathrm{dom}(f)$I.e., $x^2 + 1 > 2 \implies x^2 > 1 \implies x < -1$
+**$f \circ g$:** Need $g(x) \in \mathrm{dom}(f)$ I.e., $x^2 + 1 > 2 \implies x^2 > 1 \implies x < -1$
 or $x > 1$.
 
 $\mathrm{dom}(f \circ g) = (-\infty, -1) \cup (1, \infty)$.
@@ -846,11 +901,17 @@ one-to-one on $(3, \infty)$.
 
 Set $y = \dfrac{2x}{x - 3}$:
 
-$$y(x - 3) = 2x \implies yx - 3y = 2x \implies x(y - 2) = 3y$$
+$$
+y(x - 3) = 2x \implies yx - 3y = 2x \implies x(y - 2) = 3y
+$$
 
-$$x = \frac{3y}{y - 2}$$
+$$
+x = \frac{3y}{y - 2}
+$$
 
-$$f^{-1}(x) = \frac{3x}{x - 2}$$
+$$
+f^{-1}(x) = \frac{3x}{x - 2}
+$$
 
 To find the domain of $f^{-1}$: since $\mathrm{range}(f)$ must equal $\mathrm{dom}(f^{-1})$.
 
@@ -867,7 +928,9 @@ Determine whether $f(x) = \dfrac{x}{x^2 + 1}$ is even, odd, or neither.
 <details>
 <summary>Solution</summary>
 
-$$f(-x) = \frac{-x}{(-x)^2 + 1} = \frac{-x}{x^2 + 1} = -f(x)$$
+$$
+f(-x) = \frac{-x}{(-x)^2 + 1} = \frac{-x}{x^2 + 1} = -f(x)
+$$
 
 Since $f(-x) = -f(x)$ for all real $x$, $f$ is an odd function.
 
@@ -883,13 +946,19 @@ Find the range of $f(x) = \dfrac{x^2 - x + 1}{x^2 + x + 1}$.
 Let $y = \dfrac{x^2 - x + 1}{x^2 + x + 1}$. Since
 $x^2 + x + 1 = \left(x + \dfrac{1}{2}\right)^2 + \dfrac{3}{4} > 0$ for all $x$:
 
-$$y(x^2 + x + 1) = x^2 - x + 1 \implies (y - 1)x^2 + (y + 1)x + (y - 1) = 0$$
+$$
+y(x^2 + x + 1) = x^2 - x + 1 \implies (y - 1)x^2 + (y + 1)x + (y - 1) = 0
+$$
 
 For real $x$, $\Delta \geq 0$:
 
-$$(y + 1)^2 - 4(y - 1)^2 \geq 0 \implies (y + 1 - 2y + 2)(y + 1 + 2y - 2) \geq 0$$
+$$
+(y + 1)^2 - 4(y - 1)^2 \geq 0 \implies (y + 1 - 2y + 2)(y + 1 + 2y - 2) \geq 0
+$$
 
-$$(-y + 3)(3y - 1) \geq 0 \implies (y - 3)(3y - 1) \leq 0 \implies \frac{1}{3} \leq y \leq 3$$
+$$
+(-y + 3)(3y - 1) \geq 0 \implies (y - 3)(3y - 1) \leq 0 \implies \frac{1}{3} \leq y \leq 3
+$$
 
 Range: $\left[\dfrac{1}{3},\; 3\right]$.
 
@@ -976,7 +1045,7 @@ $\mathrm{dom}(h) = \mathrm{dom}(f) \cap \mathrm{dom}(g) = \mathbb{R} \setminus \
 
 </details>
 
-**DSE Practice 6.** Given $f(x) = \dfrac{x}{x + 1}$ for $x \neq -1$Find $f^{-1}$ and solve
+**DSE Practice 6.** Given $f(x) = \dfrac{x}{x + 1}$ for $x \neq -1$ Find $f^{-1}$ and solve
 $f(x) = f^{-1}(x)$.
 
 <details>
@@ -991,7 +1060,7 @@ $f(x) = f^{-1}(x)$: $\dfrac{x}{x + 1} = \dfrac{x}{x - 1}$.
 If $x = 0$: both sides equal $0$. So $x = 0$ is a solution.
 
 If $x \neq 0$:
-$\dfrac{1}{x + 1} = \dfrac{1}{x - 1} \implies x - 1 = x + 1 \implies -1 = 1$Contradiction.
+$\dfrac{1}{x + 1} = \dfrac{1}{x - 1} \implies x - 1 = x + 1 \implies -1 = 1$ Contradiction.
 
 Solution: $x = 0$.
 

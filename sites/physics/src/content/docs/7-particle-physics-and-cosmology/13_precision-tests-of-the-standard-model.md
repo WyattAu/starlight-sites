@@ -21,11 +21,15 @@ description: "The anomalous magnetic moment of the electron and muon: Comprehens
 
 The anomalous magnetic moment of the electron and muon:
 
-$$a_e = \frac{g_e - 2}{2}, \quad a_\mu = \frac{g_\mu - 2}{2}$$
+$$
+a_e = \frac{g_e - 2}{2}, \quad a_\mu = \frac{g_\mu - 2}{2}
+$$
 
 The Dirac equation predicts $g = 2$ exactly, but QED radiative corrections give:
 
-$$a_e^{\text{QED} = \frac{\alpha}{2\pi} - 0.328\,478\,966\left(\frac{\alpha}{\pi}\right)^2 + 1.181\,241\,456\left(\frac{\alpha}{\pi}\right)^3 - 1.9144(35)\left(\frac{\alpha}{\pi}\right)^4}$$
+$$
+a_e^{\text{QED} = \frac{\alpha}{2\pi} - 0.328\,478\,966\left(\frac{\alpha}{\pi}\right)^2 + 1.181\,241\,456\left(\frac{\alpha}{\pi}\right)^3 - 1.9144(35)\left(\frac{\alpha}{\pi}\right)^4}
+$$
 
 The experimental value agrees with theory to 12 significant figures, making $a_e$ the most precisely
 verified prediction in all of physics.
@@ -33,7 +37,9 @@ verified prediction in all of physics.
 **The muon $g$-2:** The muon is $\sim 207$ times heavier than the electron, so it is more sensitive
 to virtual particles beyond the Standard Model (supersymmetry, dark photons, etc.).
 
-$$a_\mu^{\text{exp} - a_\mu^{\text{SM} = (251 \pm 59) \times 10^{-11}}}$$
+$$
+a_\mu^{\text{exp} - a_\mu^{\text{SM} = (251 \pm 59) \times 10^{-11}}}
+$$
 
 This $\sim 4.2\sigma$ discrepancy (as of 2023) is one of the strongest hints of physics beyond the
 SM.
@@ -52,10 +58,12 @@ The **$Z$-pole observables** measured at LEP and SLC test the SM at the per-mil 
 The $S$, $T$, $U$ parameterisation (Peskin, Takeuchi) provides a model-independent framework for
 comparing these measurements:
 
-$$\alpha_{\text{em}(m_Z) = \frac{\sqrt{2}G_F m_W^2(1 - m_W^2/m_Z^2)}{\pi\alpha} \times \frac{1}{1 - \Delta r}}$$
+$$
+\alpha_{\text{em}(m_Z) = \frac{\sqrt{2}G_F m_W^2(1 - m_W^2/m_Z^2)}{\pi\alpha} \times \frac{1}{1 - \Delta r}}
+$$
 
 Where $\Delta r$ is the radiative correction depending on $S$, $T$, $U$. Current data give
-$S = 0.05 \pm 0.11$ and $T = 0.09 \pm 0.13$Consistent with the SM ($S = T = 0$) but leaving room for
+$S = 0.05 \pm 0.11$ and $T = 0.09 \pm 0.13$ Consistent with the SM ($S = T = 0$) but leaving room for
 new physics.
 
 ### 13.3 Rare Decays and Flavour Physics
@@ -83,12 +91,14 @@ observed, it would prove that neutrinos are Majorana particles (identical to the
 
 The half-life:
 
-$$(T_{1/2}^{0\nu})^{-1} = G_{0\nu}|M_{0\nu}|^2\frac{\langle m_{\beta\beta}\rangle^2}{m_e^2}$$
+$$
+(T_{1/2}^{0\nu})^{-1} = G_{0\nu}|M_{0\nu}|^2\frac{\langle m_{\beta\beta}\rangle^2}{m_e^2}
+$$
 
 Where $G_{0\nu}$ is the phase space factor, $M_{0\nu}$ is the nuclear matrix element, and
 $\langle m_{\beta\beta}\rangle$ is the effective Majorana mass.
 
-Current best limit: $T_{1/2}^{0\nu} > 1.8 \times 10^{26}$ yr ($^{76}$Ge, GERDA), corresponding to
+Current best limit: $T_{1/2}^{0\nu} > 1.8 \times 10^{26}$ yr ($^{76}$ Ge, GERDA), corresponding to
 $\langle m_{\beta\beta}\rangle < 0.07$--$0.16$ eV.
 
 <details>
@@ -96,22 +106,30 @@ $\langle m_{\beta\beta}\rangle < 0.07$--$0.16$ eV.
 
 The leading QED correction to $a_e$:
 
-$$a_e^{(1)} = \frac{\alpha}{2\pi} = \frac{1/137.036}{2\pi} = 0.001161 \times 10^{-3}$$
+$$
+a_e^{(1)} = \frac{\alpha}{2\pi} = \frac{1/137.036}{2\pi} = 0.001161 \times 10^{-3}
+$$
 
 The full QED + hadronic + weak correction:
 
-$$a_e^{\text{total} = 1\,159\,652\,180.73(0.28) \times 10^{-12}}$$
+$$
+a_e^{\text{total} = 1\,159\,652\,180.73(0.28) \times 10^{-12}}
+$$
 
 Experimental (Gabrielse group, Harvard, 2023):
 
-$$a_e^{\text{exp} = 1\,159\,652\,180.59(0.22) \times 10^{-12}}$$
+$$
+a_e^{\text{exp} = 1\,159\,652\,180.59(0.22) \times 10^{-12}}
+$$
 
-The agreement is at the level of $0.2 \times 10^{-12}$ out of $1160 \times 10^{-9}$I.e., relative
+The agreement is at the level of $0.2 \times 10^{-12}$ out of $1160 \times 10^{-9}$ I.e., relative
 precision of $1.7 \times 10^{-13}$. This is the most precise test of any prediction in physics.
 
 The comparison also determines $\alpha$ to higher precision than any direct measurement:
 
-$$\alpha^{-1} = 137.035\,999\,166(15)$$
+$$
+\alpha^{-1} = 137.035\,999\,166(15)
+$$
 
 </details>
 
@@ -153,17 +171,6 @@ Precision tests of the Standard Model are like checking a clock against atomic t
   due to relative motion. **Fix:** For distant galaxies, cosmological redshift dominates;
   $z \approx H_0 d/c$ for small $z$.
 
-
-```mermaid
-flowchart TD
-    A[13_Precision Tests Of The Standard Model] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Standard Model: quarks, leptons, gauge bosons, Higgs boson; four fundamental forces.
@@ -174,13 +181,17 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site       | Link                                                                                                                  |
 | ------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Particle Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/nuclear-physics/04-particle-physics)              |
 | [Particle Physics] | University | [View](https://physics.wyattau.com/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ## See Also
 
@@ -188,23 +199,3 @@ flowchart TD
 - [The Standard Model](/7-particle-physics-and-cosmology/1_the-standard-model/)
 - [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

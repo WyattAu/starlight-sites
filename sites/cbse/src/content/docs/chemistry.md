@@ -49,6 +49,8 @@ and Organic Chemistry (28 marks).
 
 **Quantum numbers:**
 
+<div class="table-wrap">
+
 | Quantum number | Symbol | Values | Describes |
 | --- | --- | --- | --- |
 | Principal | $n$ | $1, 2, 3, \ldots$ | Energy level / shell |
@@ -56,7 +58,9 @@ and Organic Chemistry (28 marks).
 | Magnetic | $m_l$ | $-l, \ldots, 0, \ldots, l$ | Orbital orientation |
 | Spin | $m_s$ | $+1/2, -1/2$ | Electron spin |
 
-**Electronic configurations** follow the Aufbau principle, Hund"s rule, and Pauli exclusion principle.
+</div>
+
+**Electronic configurations** follow the Aufbau principle, Hund's rule, and Pauli exclusion principle.
 
 **Exceptions:** $\text{Cr} = [\text{Ar}]\,3d^5\,4s^1$; $\text{Cu} = [\text{Ar}]\,3d^{10}\,4s^1$ (half-filled and
 fully-filled $d$-subshells are more stable).
@@ -77,6 +81,8 @@ molecule is stable.
 
 **Hybridisation:**
 
+<div class="table-wrap">
+
 | Hybridisation | Geometry | Bond angle | Example |
 | --- | --- | --- | --- |
 | $sp$ | Linear | $180°$ | $\text{BeCl}_2$, $\text{C}_2\text{H}_2$ |
@@ -84,6 +90,8 @@ molecule is stable.
 | $sp^3$ | Tetrahedral | $109.5°$ | $\text{CH}_4$, $\text{NH}_3$ |
 | $sp^3d$ | Trigonal bipyramidal | $90°, 120°$ | $\text{PCl}_5$ |
 | $sp^3d^2$ | Octahedral | $90°$ | $\text{SF}_6$ |
+
+</div>
 
 **Hydrogen bonding:** Strong dipole-dipole interaction involving H bonded to F, O, or N. Explains high
 boiling points of water, HF, NH$_3$.
@@ -101,7 +109,9 @@ boiling points of water, HF, NH$_3$.
 
 **Key relations:**
 
-$$\Delta G = \Delta H - T\Delta S$$
+$$
+\Delta G = \Delta H - T\Delta S
+$$
 
 - $\Delta G < 0$: spontaneous
 - $\Delta G = 0$: at equilibrium
@@ -113,7 +123,9 @@ $$\Delta G = \Delta H - T\Delta S$$
 
 **Law of mass action:** For $aA + bB \rightleftharpoons cC + dD$:
 
-$$K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}$$
+$$
+K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}
+$$
 
 **Le Chatelier's principle:** If a system at equilibrium is disturbed, it shifts to oppose the change.
 
@@ -198,12 +210,16 @@ chemical bond).
 
 **Periodic trends:**
 
+<div class="table-wrap">
+
 | Property | Across a period | Down a group |
 | --- | --- | --- |
 | Atomic radius | Decreases | Increases |
 | Ionisation energy | Increases | Decreases |
 | Electron affinity | Generally increases | Generally decreases |
 | Electronegativity | Increases | Decreases |
+
+</div>
 
 **Shielding effect:** Inner electrons shield outer electrons from the nuclear charge.
 
@@ -296,7 +312,7 @@ Crystal field splitting energy $\Delta_o$. Weak field (high spin) vs. strong fie
 3. Name and number substituents alphabetically (ignoring prefixes like di-, tri-).
 4. For functional groups, assign the principal functional group the lowest number; name others as prefixes.
 
-**Functional group priority** (highest to lowest for suffix): $-$COOH $>$ $-$CHO $>$ $-$C=O $>$ $-$OH $>$ $-$NH_2 $>$ $>$ C=C $>$ $-$C≡C.
+**Functional group priority** (highest to lowest for suffix): $-$ COOH $>$ $-$ CHO $>$ $-$ C=O $>$ $-$ OH $>$ $-$ NH_2 $>$ $>$ C=C $>$ $-$ C≡C.
 
 ### 3.2 Hydrocarbons
 
@@ -311,7 +327,7 @@ alkenes but in two steps), acetylide formation.
 
 **Aromatic hydrocarbons:** Benzene ring with delocalised $\pi$-electrons (6$\pi$). Electrophilic aromatic
 substitution: nitration, sulphonation, halogenation, Friedel-Crafts alkylation/acylation. Activating
-groups ($-$OH, $-$NH$_2$, $-$CH$_3$) and deactivating groups ($-$NO$_2$, $-$COOH, $-$CHO).
+groups ($-$ OH, $-$ NH$_2$, $-$ CH$_3$) and deactivating groups ($-$ NO$_2$, $-$ COOH, $-$ CHO).
 
 ### 3.3 Halogen Derivatives
 
@@ -326,10 +342,10 @@ groups ($-$OH, $-$NH$_2$, $-$CH$_3$) and deactivating groups ($-$NO$_2$, $-$COOH
 
 ### 3.4 Oxygen-Containing Compounds
 
-**Alcohols ($-$OH):** Hydrogen bonding, soluble in water. Oxidation: $1° \to$ aldehyde $\to$ carboxylic acid;
+**Alcohols ($-$ OH):** Hydrogen bonding, soluble in water. Oxidation: $1° \to$ aldehyde $\to$ carboxylic acid;
 $2° \to$ ketone; $3°$ resistant. Dehydration: forms alkenes (conc. H$_2$SO$_4$, 170°C).
 
-**Phenols:** Aromatic $-$OH. More acidic than alcohols due to resonance stabilisation of phenoxide ion.
+**Phenols:** Aromatic $-$ OH. More acidic than alcohols due to resonance stabilisation of phenoxide ion.
 Reactions: electrophilic substitution (ortho-para directing), Kolbe's reaction, Reimer-Tiemann reaction.
 
 **Ethers:** $\text{R-O-R}'$. Relatively inert. Williamson's synthesis: $\text{R-X} + \text{NaOR}' \to \text{R-O-R}'$.
@@ -342,12 +358,12 @@ NH$_3$ derivatives). Aldol condensation, Cannizzaro reaction, Clemmensen reducti
 
 ### 3.5 Nitrogen-Containing Compounds
 
-**Amines ($-$NH$_2$):** Classified as $1°$, $2°$, $3°$ (and quaternary ammonium salts). Basic nature due to
+**Amines ($-$ NH$_2$):** Classified as $1°$, $2°$, $3°$ (and quaternary ammonium salts). Basic nature due to
 lone pair on N. Order of basicity in gas phase: $3° > 2° > 1° > \text{NH}_3$. In aqueous solution:
 $2° > 3° > 1° > \text{NH}_3$ (steric + solvation effects). Carbylamine reaction (isocyanide test) for $1°$ amines.
 
 **Diazonium salts:** $\text{ArN}_2^+\text{Cl}^-$ formed by nitrous acid with aromatic $1°$ amines. Used for
-Sandmeyer reactions to introduce $-$Cl, $-$Br, $-$CN, $-$OH groups on the aromatic ring.
+Sandmeyer reactions to introduce $-$ Cl, $-$ Br, $-$ CN, $-$ OH groups on the aromatic ring.
 
 ### 3.6 Polymers
 
@@ -364,7 +380,7 @@ Sandmeyer reactions to introduce $-$Cl, $-$Br, $-$CN, $-$OH groups on the aromat
 **Carbohydrates:** Polyhydroxy aldehydes/ketones. Classified as monosaccharides (glucose, fructose),
 disaccharides (sucrose, lactose, maltose), polysaccharides (starch, cellulose, glycogen).
 
-**Proteins:** Polymers of amino acids joined by peptide bonds ($-$CO$-$NH$-$). Primary, secondary ($\alpha$-helix,
+**Proteins:** Polymers of amino acids joined by peptide bonds ($-$ CO$-$NH$-$). Primary, secondary ($\alpha$-helix,
 $\beta$-pleated sheet), tertiary, and quaternary structure. Denaturation: loss of biological activity due to
 disruption of secondary/tertiary structure.
 
@@ -388,6 +404,8 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 
 ## 4. Key Definitions
 
+<div class="table-wrap">
+
 | Term | Definition |
 | --- | --- |
 | **Enthalpy of combustion** | Heat released when 1 mol of a substance burns completely in O$_2$ |
@@ -405,6 +423,8 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 | **Carbocation** | Positively charged carbon with three bonds and an empty $p$-orbital |
 | **Tautomerism** | Structural isomerism involving the migration of a proton and a double bond |
 | **Inert pair effect** | Reluctance of $ns^2$ electrons in heavier p-block elements to participate in bonding |
+
+</div>
 
 ---
 
@@ -480,17 +500,6 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 
 **Problem:** A first-order reaction has a rate constant k = 0.0693 min^-1. What fraction of the reactant remains after 20 minutes?
 **Solution:** t_1/2 = 0.693/0.0693 = 10 min. In 20 minutes, that is 2 half-lives. Fraction remaining = (1/2)^2 = 0.25, or 25%. Alternatively: [A] = [A]_0 e^{-kt} = [A]_0 e^{-0.0693 x 20} = [A]_0 e^{-1.386} = [A]_0 x 0.250.
-
-
-```mermaid
-flowchart TD
-    A[Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

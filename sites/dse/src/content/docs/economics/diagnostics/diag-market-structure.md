@@ -22,8 +22,8 @@ tableOfContents: false
 
 **Question:** A perfectly competitive firm has total cost $TC = 200 + 10Q + 0.5Q^2$ and faces a
 Market price of $\$50$. (a) Calculate the profit-maximising output. (b) Calculate the profit at this
-Output. (c) Determine whether the firm is in the short run or long run equilibrium. (d) Calculate
-The shutdown price.
+output. (c) Determine whether the firm is in the short run or long run equilibrium. (d) Calculate
+the shutdown price.
 
 **Solution:**
 
@@ -33,20 +33,20 @@ $10 + Q = 50$ So $Q^* = 40$.
 (b) Profit
 $= TR - TC = 50(40) - [200 + 10(40) + 0.5(40)^2] = 2000 - [200 + 400 + 800] = 2000 - 1400 = \$600$.
 
-(c) Since profit $\gt 0$The firm is **not** in long-run equilibrium. In long-run equilibrium under
-Perfect competition, economic profit $= 0$ (firms enter until price $=$ minimum ATC).
+(c) Since profit $\gt 0$ The firm is **not** in long-run equilibrium. In long-run equilibrium under
+perfect competition, economic profit $= 0$ (firms enter until price $=$ minimum ATC).
 
 (d) Shutdown price $= $ minimum AVC. $VC = 10Q + 0.5Q^2$ So $AVC = 10 + 0.5Q$. Minimum AVC occurs
-Where $\frac{\text{dAVC}}{    ext{dQ}} = 0.5 = 0$Which is at $Q = 0$. At $Q = 0$: $AVC = 10$. So the
-Shutdown price is $\$10$. If price falls below $\$10$The firm shuts down because it cannot even
+where $\frac{\text{dAVC}}{    ext{dQ}} = 0.5 = 0$ Which is at $Q = 0$. At $Q = 0$: $AVC = 10$. So the
+shutdown price is $\$10$. If price falls below $\$10$ The firm shuts down because it cannot even
 Cover its variable costs.
 
 ### UT-2: Monopoly Pricing and Deadweight Loss
 
 **Question:** A monopolist faces demand $P = 100 - 2Q$ and has total cost $TC = 50 + 10Q + Q^2$. (a)
 Calculate the profit-maximising price and quantity. (b) Calculate the monopolist"s profit. (c) What
-Would the price and quantity be under perfect competition? (d) Calculate the deadweight loss of
-Monopoly.
+would the price and quantity be under perfect competition? (d) Calculate the deadweight loss of
+monopoly.
 
 **Solution:**
 
@@ -63,15 +63,15 @@ $P_c = 100 - 2(22.5) = \$55$.
 $DWL = \frac{1}{2} \times (P_m - P_c) \times (Q_c - Q_m) = \frac{1}{2} \times (70 - 55) \times (22.5 - 15) = \frac{1}{2} \times 15 \times 7.5 = \$56.25$.
 
 The deadweight loss represents the loss of total surplus due to the monopolist restricting output
-And raising price above the competitive level.
+and raising price above the competitive level.
 
 ### UT-3: Monopolistic Competition in the Long Run
 
 **Question:** A monopolistically competitive firm faces demand $P = 80 - Q$ and has total cost
 $TC = 100 + 20Q + 0.5Q^2$. (a) Calculate the short-run profit-maximising output, price, and profit.
 (b) In the long run, new firms enter. What condition defines long-run equilibrium? (c) If in
-Long-run equilibrium the demand shifts to $P = a - Q$ and costs remain the same, calculate the value
-Of $a$ where economic profit is zero.
+long-run equilibrium the demand shifts to $P = a - Q$ and costs remain the same, calculate the value
+of $a$ where economic profit is zero.
 
 **Solution:**
 
@@ -132,9 +132,9 @@ $a \approx 44.49$.
 Adult tickets is $P_A = 40 - 0.5Q_A$ and for student tickets is $P_S = 20 - 0.5Q_S$. The cinema's
 Marginal cost is constant at $\$4$ per ticket with no fixed costs. (a) If the cinema cannot price
 Discriminate, calculate the profit-maximising price and quantity (combined demand). (b) If the
-Cinema practises third-degree price discrimination, calculate the price and quantity for each group.
+cinema practises third-degree price discrimination, calculate the price and quantity for each group.
 (c) Calculate the deadweight loss under each scenario. (d) The government considers regulating the
-Cinema. Which form of regulation would maximise social welfare?
+cinema. Which form of regulation would maximise social welfare?
 
 **Solution:**
 
@@ -146,13 +146,13 @@ Inverse demand for $P \le 20$: $P = 30 - 0.25Q$.
 
 $MR = 30 - 0.5Q$. Set $MR = MC = 4$: $30 - 0.5Q = 4$$0.5Q = 26$$Q = 52$. $P = 30 - 0.25(52) = \$17$.
 
-Since $P = 17 \le 20$Both groups are served. Profit $= 17(52) - 4(52) = 13(52) = \$676$.
+Since $P = 17 \le 20$ Both groups are served. Profit $= 17(52) - 4(52) = 13(52) = \$676$.
 
 (b) Third-degree price discrimination:
 
 - Adults: $MR_A = 40 - Q_A = 4$$Q_A = 36$$P_A = 40 - 0.5(36) = \$22$.
 - Students: $MR_S = 20 - Q_S = 4$$Q_S = 16$$P_S = 20 - 0.5(16) = \$12$.
-- Total $Q = 52$Profit $= 22(36) + 12(16) - 4(52) = 792 + 192 - 208 = \$776$.
+- Total $Q = 52$ Profit $= 22(36) + 12(16) - 4(52) = 792 + 192 - 208 = \$776$.
 
 (c) Under no discrimination ($P = 17$$Q = 52$): competitive output would be where $P = MC = 4$.
 $Q_c = 120 - 4(4) = 104$. $DWL = \frac{1}{2}(17 - 4)(104 - 52) = \frac{1}{2}(13)(52) = \$338$.
@@ -169,23 +169,27 @@ $DWL_d = \frac{1}{2}(22 - 4)(72 - 36) + \frac{1}{2}(12 - 4)(32 - 16) = \frac{1}{
 
 (d) To maximise social welfare, the government could regulate the cinema to charge $P = MC = \$4$
 (marginal cost pricing). This would eliminate deadweight loss entirely but leave the cinema unable
-To cover any fixed costs (which are zero in this case, so it is feasible). With positive fixed
+to cover any fixed costs (which are zero in this case, so it is feasible). With positive fixed
 Costs, the government might use average cost pricing instead.
 
 ### IT-2: Oligopoly and Game Theory (with Demand and Supply)
 
 **Question:** Two firms, A and B, are duopolists in the market for bottled water. Each can choose a
 High price ($P_H = \$10$) or a low price ($P_L = \$6$). The payoff matrix (monthly profit in
-Thousands of HKD) is:
+thousands of HKD) is:
+
+<div class="table-wrap">
 
 |             | B: High       | B: Low        |
 | ----------- | ------------- | ------------- |
 | **A: High** | A: 80, B: 80  | A: 30, B: 100 |
 | **A: Low**  | A: 100, B: 30 | A: 50, B: 50  |
 
+</div>
+
 (a) Identify the Nash equilibrium. (b) Is this a prisoner's dilemma? Explain. (c) If the firms
 Collude and split the market equally, what happens to their profits? Why might collusion be
-Unstable? (d) The market demand is $P = 20 - 0.2Q$ and each firm has $MC = 4$. Calculate the Cournot
+unstable? (d) The market demand is $P = 20 - 0.2Q$ and each firm has $MC = 4$. Calculate the Cournot
 Equilibrium and compare with the collusive outcome.
 
 **Solution:**
@@ -196,11 +200,11 @@ Equilibrium: (Low, Low)** with profits (50, 50).
 
 (b) Yes, this is a prisoner's dilemma. Both firms would be better off at (High, High) with profits
 (80, 80) each, but the dominant strategy of Low leads to (Low, Low) with only (50, 50) each. The
-Individual incentive to deviate from cooperation leads to a worse outcome for both.
+individual incentive to deviate from cooperation leads to a worse outcome for both.
 
 (c) If they collude at (High, High), each earns 80 -- more than the Nash equilibrium of 50. However,
 Collusion is unstable because each firm has an incentive to secretly cut price to Low, earning 100
-While the other still charges High. Once one firm cheats, the other retaliates, and both end up at
+while the other still charges High. Once one firm cheats, the other retaliates, and both end up at
 (Low, Low). This is why cartels tend to break down without enforcement mechanisms.
 
 (d) Cournot: each firm chooses $q_i$ taking the other's output as given. $Q = q_A + q_B$.
@@ -227,7 +231,7 @@ their quota.
 
 **Question:** Compare a perfectly competitive market and a monopoly market with the same cost
 Structure: $TC = 100 + 2Q + 0.1Q^2$. The competitive market price is $\$12$. (a) Calculate the
-Competitive market output and the monopoly output. (b) Calculate consumer surplus, producer surplus,
+competitive market output and the monopoly output. (b) Calculate consumer surplus, producer surplus,
 And total surplus under each market structure. (c) Calculate the deadweight loss of monopoly. (d)
 Explain why a monopoly is allocatively inefficient, relating to the concept of marginal benefit
 Equals marginal cost.
@@ -260,23 +264,12 @@ $MC = 2 + 0.2(33.33) = 8.67$. At $Q_c = 50$: $P_c = MC = 12$.
 
 $DWL = \frac{1}{2}(P_m - MC_m)(Q_c - Q_m) = \frac{1}{2}(15.33 - 8.67)(50 - 33.33) = \frac{1}{2}(6.67)(16.67) = \$55.6$.
 
-(d) Allocative efficiency requires $P = MC$Meaning marginal benefit (reflected in willingness to
-Pay) equals marginal cost. In perfect competition, firms produce where $P = MC$Maximising total
+(d) Allocative efficiency requires $P = MC$ Meaning marginal benefit (reflected in willingness to
+pay) equals marginal cost. In perfect competition, firms produce where $P = MC$ Maximising total
 Surplus. The monopoly restricts output to $Q_m \lt Q_c$ So for the units between $Q_m$ and $Q_c$
 Consumers' marginal benefit exceeds the marginal cost of production. These mutually beneficial
 Trades do not occur, creating a deadweight loss. The monopoly maximises its own profit rather than
-Total social surplus, leading to an underallocation of resources to this good.
-
-
-```mermaid
-flowchart TD
-    A[Diag Market Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+total social surplus, leading to an underallocation of resources to this good.
 
 ## Intuition
 
@@ -347,7 +340,7 @@ permitted return) while protecting consumers from excessive prices.
 **Question:** The market for a homogeneous good is perfectly competitive. Each firm has cost
 function $TC = 100 + 2Q + 0.5Q^2$. Market demand is $P = 50 - 0.1Q$ (where $Q$ is total market
 output in thousands). (a) Calculate the long-run equilibrium price, output per firm, and number of
-firms. (b) If demand increases to $P = 60 - 0.1Q$Calculate the new long-run equilibrium. (c)
+firms. (b) If demand increases to $P = 60 - 0.1Q$ Calculate the new long-run equilibrium. (c)
 Calculate the short-run response (before new firms enter) and explain the adjustment process. (d)
 Explain why firms earn zero economic profit in long-run perfect competition.
 
@@ -409,7 +402,7 @@ in the market because they are earning exactly what they could earn in their nex
 **Question:** An oligopolistic firm faces a kinked demand curve. At the current price of $\$50$, the
 firm sells 100 units. For price increases, demand is elastic with $PED = -3$. For price decreases,
 demand is inelastic with $PED = -0.5$. The firm's marginal cost is $\$30$ at current output. (a)
-Calculate the price and quantity ranges over which the demand curve is elastic and inelastic. (b)
+calculate the price and quantity ranges over which the demand curve is elastic and inelastic. (b)
 Calculate the marginal revenue for the elastic and inelastic segments at the current price. (c)
 Explain why the kinked demand curve model predicts price rigidity. (d) Calculate the range of
 marginal cost over which the firm would not change its price.
@@ -442,7 +435,7 @@ kink) to $MR_2 = -50$ (just below the kink). As long as marginal cost falls with
 ($-50 < MC < 33.33$), the profit-maximising output and price remain unchanged. This explains why
 oligopolistic prices tend to be rigid even when costs change moderately.
 
-(d) The price will not change as long as MC is in the range $MR_2 < MC < MR_1$I.e.,
+(d) The price will not change as long as MC is in the range $MR_2 < MC < MR_1$ I.e.,
 $-50 < MC < 33.33$.
 
 Since MC cannot be negative, the practical range is $0 < MC < 33.33$. The firm's current MC is
@@ -504,7 +497,7 @@ scale).
 multiplied by actual output.
 
 $ATC_{LR} = \frac{200 + 20(8.17) + 8.17^2}{8.17} = \frac{200 + 163.4 + 66.7}{8.17} = \frac{430.1}{8.17} = 52.65$
-(which equals $P_{LR}$Confirming zero profit).
+(which equals $P_{LR}$ Confirming zero profit).
 
 Welfare loss per unit $= 52.65 - 48.28 = 4.37$. Total welfare loss $= 4.37 \times 8.17 = 35.7$.
 
@@ -588,7 +581,7 @@ power.
 
 1. **Confusing the demand curve with the marginal revenue curve:** In monopoly, the MR curve is
    always below the demand curve (for a linear demand, MR has twice the slope). The
-   profit-maximising output is where $MR = MC$Not where $D = MC$. Setting $P = MC$ gives the
+   profit-maximising output is where $MR = MC$ Not where $D = MC$. Setting $P = MC$ gives the
    allocatively efficient output (used for regulation), not the profit-maximising output.
 
 2. **Forgetting that monopolistic competition leads to zero long-run profit but not allocative

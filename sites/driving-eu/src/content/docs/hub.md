@@ -40,17 +40,6 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 Driving in Europe requires understanding a system that differs significantly from both the UK and US approaches. While each EU member state administers its own driving test and issues its own licence, the European Union has harmonised many aspects of driving law through directives and regulations. Road sign conventions follow the Vienna Convention on Road Signs and Signals, creating a recognisable system across most of Europe.
@@ -245,12 +234,16 @@ Preparing for an EU driving test requires understanding both the general Europea
 
 ### Daily Routine
 
+<div class="table-wrap">
+
 | Time | Activity |
 | ------ | ---------- |
 | Morning | Flashcards: 15 minutes of signs and regulations |
 | Afternoon | Topic study: read one section of your country's driving rules |
 | Evening | Practice: one practice test or 20 practice questions |
 | Weekend | Full practice test plus review of wrong answers |
+
+</div>
 
 ---
 

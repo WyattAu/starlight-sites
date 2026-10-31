@@ -75,7 +75,7 @@ int main() {
 ## 3.2 `std::move_if_noexcept`
 
 The standard library uses `std::move_if_noexcept` to provide the strong exception safety guarantee
-During reallocation [N4950 §20.2.4]. If an element"s move constructor might throw, the library falls
+during reallocation [N4950 §20.2.4]. If an element"s move constructor might throw, the library falls
 Back to copying:
 
 $$
@@ -171,7 +171,7 @@ int main() {
 
 The default for destructors is `noexcept(true)` since C++11 [N4950 §14.5.3]. Use `noexcept(false)`
 Only when absolutely necessary (and the "destructor must never throw" rule still applies, see
-Below).
+below).
 
 ```cpp
 #include <iostream>
@@ -238,7 +238,7 @@ int main() {
 ## 3.6 The `noexcept` Operator
 
 The `noexcept` operator is a **compile-time** constant expression that evaluates to `true` if the
-Given expression is guaranteed not to throw [N4950 §14.5.2]. It does not evaluate the expression at
+given expression is guaranteed not to throw [N4950 §14.5.2]. It does not evaluate the expression at
 Runtime, it only examines the `noexcept` specifiers of the functions called within it:
 
 ```cpp
@@ -347,6 +347,8 @@ int main() {
 
 The relevant type traits for querying noexcept properties:
 
+<div class="table-wrap">
+
 | Trait                                | Meaning                                          |
 | ------------------------------------ | ------------------------------------------------ |
 | `std::is_nothrow_constructible`      | Can be constructed without throwing              |
@@ -354,6 +356,8 @@ The relevant type traits for querying noexcept properties:
 | `std::is_nothrow_copy_constructible` | Copy constructor is noexcept                     |
 | `std::is_nothrow_move_assignable`    | Move assignment operator is noexcept             |
 | `std::is_nothrow_destructible`       | Destructor is noexcept (always true since C++11) |
+
+</div>
 
 ## 3.8 `noexcept` Function Overloading
 
@@ -391,7 +395,7 @@ int main() {
 ```
 
 This is particularly useful for dispatching to optimized code paths when a callback is known to be
-Non-throwing.
+non-throwing.
 
 ## 3.9 `noexcept` in Template Metaprogramming
 
@@ -491,7 +495,7 @@ int main() {
 
 ### 3. Conditional `noexcept` and Undefined Behavior
 
-When writing conditional `noexcept`The condition must accurately reflect whether the function can
+When writing conditional `noexcept`. The condition must accurately reflect whether the function can
 Throw. If the condition evaluates to `true` but the function actually throws, `std::terminate()` is
 Called. If the condition evaluates to `false` when the function cannot throw, you lose the
 Optimization benefit but correctness is preserved:
@@ -523,8 +527,8 @@ int main() {
 ### 4. `noexcept(false)` on Destructors
 
 Marking a destructor `noexcept(false)` does not make it safe to throw from. If a destructor throws
-During stack unwinding (while another exception is active), `std::terminate()` is called regardless
-Of the `noexcept` specification [N4950 §14.7]. The only safe use of `noexcept(false)` on a
+during stack unwinding (while another exception is active), `std::terminate()` is called regardless
+of the `noexcept` specification [N4950 §14.7]. The only safe use of `noexcept(false)` on a
 Destructor is when you want to catch and handle exceptions thrown by member destructors:
 
 ```cpp
@@ -569,16 +573,6 @@ int main() {
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[3_Noexcept] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to the noexcept specifier,
@@ -592,10 +586,5 @@ including key theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

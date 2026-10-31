@@ -21,7 +21,7 @@ description: "Study notes for Water Scarcity and Management with worked examples
 ### Physical vs Economic Scarcity
 
 Water scarcity exists when the demand for freshwater exceeds the available supply. It is critical to
-Distinguish between two fundamentally different types:
+distinguish between two fundamentally different types:
 
 **Physical water scarcity** occurs when annual renewable freshwater resources fall below a defined
 Threshold relative to population. The most widely used threshold is the Falkenmark indicator:
@@ -35,11 +35,13 @@ Inaccessible due to inadequate infrastructure (lack of dams, treatment plants, p
 Financial constraints (communities cannot afford to develop or access water), institutional failures
 (weak governance, corruption, absence of property rights), or conflict. The International Water
 Management Institute (IWMI) estimated in 2007 that approximately 1.6 billion people live in areas of
-Economic water scarcity, predominantly in Sub-Saharan Africa and parts of South and Southeast Asia.
+economic water scarcity, predominantly in Sub-Saharan Africa and parts of South and Southeast Asia.
 
 ### Water Stress Indices
 
 Several composite indices measure water stress at national and subnational scales:
+
+<div class="table-wrap">
 
 | Index                                       | Description                                                             | Key Variables                                                  |
 | ------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------- |
@@ -48,9 +50,11 @@ Several composite indices measure water stress at national and subnational scale
 | **Water Poverty Index (WPI)**               | Combines water availability with access, capacity, use, and environment | Five components: resources, access, capacity, use, environment |
 | **UN Water SDG 6 Indicator 6.4.2**          | Water-use efficiency (value added per unit of water withdrawn)          | GDP, total freshwater withdrawals                              |
 
+</div>
+
 The WRI Aqueduct tool classifies water stress into five categories: extremely high ($\gt{80}\%$ of
-Available supply withdrawn), high (40--80%), medium to high (20--40%), low to medium (10--20%), and
-Low ($\lt{10}\%$). As of 2023, 17 countries extract more than 80% of their available renewable
+available supply withdrawn), high (40--80%), medium to high (20--40%), low to medium (10--20%), and
+low ($\lt{10}\%$). As of 2023, 17 countries extract more than 80% of their available renewable
 Freshwater annually, including Saudi Arabia, Egypt, United Arab Emirates, and Pakistan.
 
 ## Scale of the Global Water Crisis
@@ -71,14 +75,14 @@ The United Nations World Water Development Report (2023) documents the scale of 
 ## Supply-Side Management Strategies
 
 Supply-side strategies increase the quantity of freshwater available for use. They are essential in
-Regions of physical water scarcity but often involve high capital costs, significant environmental
+regions of physical water scarcity but often involve high capital costs, significant environmental
 Impacts, and long lead times.
 
 ### Dams and Reservoirs
 
 Dams create reservoirs that store water during wet periods for release during dry periods, providing
 A more reliable and constant supply. The world has over 57 000 large dams (exceeding 15 m in
-Height).
+height).
 
 **Advantages:** reliable year-round supply, flood control downstream, hydroelectric power
 Generation, recreational amenities, irrigation for agriculture.
@@ -106,7 +110,7 @@ M$^3$/day).
 
 **Costs and limitations:** energy-intensive (approximately 3--4 kWh per m$^3$ by RO, higher for
 Thermal methods); brine disposal contaminates marine environments (global brine production is
-Approximately 142 million m$^3$/day, with ecological impacts including increased salinity,
+approximately 142 million m$^3$/day, with ecological impacts including increased salinity,
 Temperature, and heavy metal concentrations); high capital cost (approximately USD 0.5--1.5 per
 M$^3$ for RO, depending on scale and energy costs).
 
@@ -115,17 +119,23 @@ M$^3$ for RO, depending on scale and energy costs).
 Inter-basin transfers move water from basins with surplus to basins with deficit via canals,
 Tunnels, or pipelines.
 
+<div class="table-wrap">
+
 | Scheme                              | Location             | Scale                                                                                            | Issues                                                                                                                    |
 | ----------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 | **South-to-North Water Transfer**   | China                | Three routes transferring up to 45 billion m$^3$/year from the Yangtze to the Yellow River basin | Cost approximately USD 62 billion; displacement of over 300 000 people; ecological impacts on source and receiving basins |
 | **California Aqueduct**             | USA                  | Transfers approximately 5 billion m$^3$/year from northern to southern California                | Energy-intensive (pumping water over the Tehachapi Mountains); ecological impacts on the Sacramento-San Joaquin Delta     |
-| **Lesotho Highlands Water Project** | Lesotho/South Africa | Transfers approximately 780 million m$^3$/year from Lesotho to South Africa"s Gauteng province   | Displacement of communities in Lesotho; dependence of Gauteng on a foreign water source                                   |
+| **Lesotho Highlands Water Project** | Lesotho/South Africa | Transfers approximately 780 million m$^3$/year from Lesotho to South Africa's Gauteng province   | Displacement of communities in Lesotho; dependence of Gauteng on a foreign water source                                   |
+
+</div>
 
 ## Demand-Side Management Strategies
 
 Demand-side strategies reduce water consumption without increasing supply. They are generally
 Cheaper, more environmentally sustainable, and faster to implement than supply-side strategies, but
-Their effectiveness depends on strong governance, appropriate pricing, and behavioural change.
+their effectiveness depends on strong governance, appropriate pricing, and behavioural change.
+
+<div class="table-wrap">
 
 | Strategy                       | Mechanism                                                                                                               | Effectiveness                                                                                              | Limitations                                                                                                             |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -136,11 +146,13 @@ Their effectiveness depends on strong governance, appropriate pricing, and behav
 | **Public education campaigns** | Promoting water conservation behaviour (shorter showers, full washing loads, fixing leaks)                              | Modest effect alone (5--10% reduction); most effective when combined with pricing measures                 | Difficult to measure impact; effect may diminish over time without reinforcement                                        |
 | **Industrial water recycling** | Closed-loop systems that treat and reuse process water within factories                                                 | Can reduce industrial freshwater consumption by 50--90%                                                    | Capital-intensive; requires process redesign                                                                            |
 
+</div>
+
 <details>
 <summary>Common Pitfalls: Evaluating Water Management Strategies in Isolation</summary>
 
 Examination questions often ask students to evaluate water management strategies. A common error is
-To evaluate supply-side or demand-side strategies in isolation, without comparing them. A strong
+to evaluate supply-side or demand-side strategies in isolation, without comparing them. A strong
 Answer will compare specific strategies, recognising that the optimal approach depends on context:
 Physical water scarcity (where supply must be increased) vs economic water scarcity (where demand
 Management and infrastructure development are priorities), available finance, governance capacity,
@@ -153,32 +165,32 @@ Metering, public education) can achieve water security even in a water-scarce co
 ## Case Study: The Colorado River, USA/Mexico
 
 The Colorado River basin illustrates the consequences of over-allocation and the challenges of
-Managing a transboundary water resource under increasing scarcity.
+managing a transboundary water resource under increasing scarcity.
 
 **Over-allocation.** The Colorado Compact of 1922 allocated 7.5 million acre-feet (approximately
 9.25 billion m$^3$) per year to each of the upper and lower basin states, plus 1.5 million acre-feet
-To Mexico, based on an estimated average annual flow of 17.5 million acre-feet. Subsequent analysis
-Has shown that the long-term average flow is approximately 14.8 million acre-feet -- the river was
-Over-allocated from the outset. Total allocations now exceed the river"s flow by approximately
+to Mexico, based on an estimated average annual flow of 17.5 million acre-feet. Subsequent analysis
+has shown that the long-term average flow is approximately 14.8 million acre-feet -- the river was
+over-allocated from the outset. Total allocations now exceed the river"s flow by approximately
 20--30%.
 
 **Consequences.** Lake Mead (the largest reservoir in the USA by volume) fell to 27% of capacity in
 2023, triggering Tier 2 shortage conditions. The river no longer consistently reaches the Gulf of
 California; the Colorado River Delta has largely dried up, destroying a once-productive wetland
 Ecosystem. Water quality has declined as agricultural return flows concentrate salts, selenium, and
-Other contaminants.
+other contaminants.
 
 **Management response.** The 2023 post-2026 operating guidelines commit the lower basin states to
 Reducing consumption by approximately 3 million acre-feet by 2026, with federal compensation for
-Water conservation. Longer-term strategies include water recycling (the Metropolitan Water District
-Of Southern California is constructing a recycling facility that will produce approximately 570 000
+water conservation. Longer-term strategies include water recycling (the Metropolitan Water District
+of Southern California is constructing a recycling facility that will produce approximately 570 000
 M$^3$/day of purified water by 2028), agricultural efficiency improvements, and potentially
 Desalination.
 
 ## Case Study: Singapore NEWater
 
 Singapore (population approximately 5.9 million) has limited natural freshwater resources and no
-Significant aquifers. Despite this, it has achieved near-universal access to clean water through the
+significant aquifers. Despite this, it has achieved near-universal access to clean water through the
 "Four National Taps" strategy:
 
 1. **Local catchment:** approximately 17 reservoirs capture rainfall from approximately two-thirds
@@ -194,7 +206,7 @@ Singapore's governance model is distinctive: the Public Utilities Board (PUB) ma
 Water cycle in an integrated manner. Water is priced at full cost recovery with a conservation
 Tariff that increases with consumption volume, creating strong incentives for conservation. Domestic
 Water consumption has declined from approximately 165 litres per person per day in 2003 to
-Approximately 141 litres per person per day in 2023.
+approximately 141 litres per person per day in 2023.
 
 ## Case Study: China South-North Water Transfer Project
 
@@ -224,7 +236,7 @@ Depletion: the aquifer beneath the plain has declined by over 50 m in some areas
 
 **Impacts.** The Central Route now supplies approximately 70% of Beijing's municipal water. However,
 The project has been criticised for its enormous cost (estimated at over USD 62 billion), the
-Displacement of communities, reduced flows in the lower Yangtze and Han rivers (with ecological
+displacement of communities, reduced flows in the lower Yangtze and Han rivers (with ecological
 Consequences including reduced fish habitat and increased saltwater intrusion in the Yangtze
 Estuary), and the perpetuation of unsustainable water consumption patterns in northern China.
 
@@ -250,24 +262,7 @@ Water scarcity is not just about how much rain falls but about whether societies
 4. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
-
-```mermaid
-flowchart TD
-    A[Water Scarcity And Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

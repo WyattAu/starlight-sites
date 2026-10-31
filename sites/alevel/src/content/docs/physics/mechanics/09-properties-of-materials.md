@@ -23,19 +23,21 @@ categories:
 ## Properties of Materials
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel CP1 | OCR (A) Paper 1 | CIE P1
-The mechanical properties of materials, how they deform, stretch, compress, and break, are central
-To engineering and physics. This topic sits within the "Mechanics & Materials" strand on every A
-Level board.
+the mechanical properties of materials, how they deform, stretch, compress, and break, are central
+to engineering and physics. This topic sits within the "Mechanics & Materials" strand on every A
+level board.
 
-## 1. Hooke"s Law
+## 1. Hooke's Law
 
 When an elastic object such as a spring or wire is stretched, the extension is (up to a limit)
 Proportional to the applied force.
 
-$$\boxed{F = k\,\Delta x}$$
+$$
+\boxed{F = k\,\Delta x}
+$$
 
 Where $F$ is the applied force, $k$ is the **spring constant** (N m$^{-1}$), and $\Delta x$ is the
-Extension from the natural length.
+extension from the natural length.
 
 **Definition.** The **spring constant** $k$ is the force per unit extension required to stretch an
 Elastic object. A stiff spring has a large $k$; a soft spring has a small $k$.
@@ -58,11 +60,15 @@ For two springs with spring constants $k_1$ and $k_2$:
 
 **Series** (force is the same through both, extensions add):
 
-$$\frac{1}{k_{\mathrm{series}}} = \frac{1}{k_1} + \frac{1}{k_2}$$
+$$
+\frac{1}{k_{\mathrm{series}}} = \frac{1}{k_1} + \frac{1}{k_2}
+$$
 
 **Parallel** (extension is the same for both, forces add):
 
-$$k_{\mathrm{parallel}} = k_1 + k_2$$
+$$
+k_{\mathrm{parallel}} = k_1 + k_2
+$$
 
 <details>
 <summary>Example</summary>
@@ -83,14 +89,18 @@ Geometry, we use **stress** and **strain**.
 
 **Definition.** **Stress** $\sigma$ is the force per unit cross-sectional area:
 
-$$\boxed{\sigma = \frac{F}{A}}$$
+$$
+\boxed{\sigma = \frac{F}{A}}
+$$
 
 Units: pascals (Pa), where $1\;\mathrm{Pa} = 1\;\mathrm{N m}^{-2}$. Typical values range from
 $\sim 10^6$ Pa for soft metals to $\sim 10^9$ Pa for steel.
 
 **Definition.** **Strain** $\varepsilon$ is the extension per unit original length:
 
-$$\boxed{\varepsilon = \frac{\Delta L}{L}}$$
+$$
+\boxed{\varepsilon = \frac{\Delta L}{L}}
+$$
 
 Strain is dimensionless (a ratio). It is often expressed as a percentage.
 
@@ -106,12 +116,16 @@ like Concrete.
 **Definition.** The **Young's modulus** $E$ of a material is the ratio of tensile stress to tensile
 Strain, within the limit of proportionality:
 
-$$\boxed{E = \frac{\sigma}{\varepsilon} = \frac{F/A}{\Delta L/L} = \frac{FL}{A\,\Delta L}}$$
+$$
+\boxed{E = \frac{\sigma}{\varepsilon} = \frac{F/A}{\Delta L/L} = \frac{FL}{A\,\Delta L}}
+$$
 
 Young's modulus is a measure of **stiffness**, the resistance of a material to elastic deformation
-Under tensile loading. It has units of Pa (same as stress, since strain is dimensionless).
+under tensile loading. It has units of Pa (same as stress, since strain is dimensionless).
 
 ### Typical Values
+
+<div class="table-wrap">
 
 | Material     | Young's Modulus (GPa) | Type            |
 | ------------ | --------------------- | --------------- |
@@ -123,6 +137,8 @@ Under tensile loading. It has units of Pa (same as stress, since strain is dimen
 | Copper       | 130                   | Metal           |
 | Steel        | 200                   | Metal           |
 | Diamond      | 1200                  | Ceramic/Crystal |
+
+</div>
 
 :::caution
 **strong**. Glass is stiffer than rubber ($E \approx 70$ GPa vs $0.01$ GPa) but rubber is
@@ -147,7 +163,7 @@ Alternatively, plot stress against strain, the gradient is $E$ directly.
 <details>
 <summary>Worked Example</summary>
 A steel wire of diameter $0.50$ mm and length $2.0$ m extends by $1.2$ mm when a $50$ N force is
-Applied. Calculate Young's modulus.
+applied. Calculate Young's modulus.
 
 **Answer.** $A = \pi(0.50 \times 10^{-3}/2)^2 = 1.96 \times 10^{-7}$ m$^2$.
 
@@ -159,7 +175,7 @@ $E = \sigma/\varepsilon = 2.55 \times 10^8 / 6.0 \times 10^{-4} = 4.25 \times 10
 GPa.
 
 (This is somewhat high for steel; typical values are 180–210 GPa, the discrepancy may indicate the
-Wire has exceeded its limit of proportionality.)
+wire has exceeded its limit of proportionality.)
 
 </details>
 
@@ -167,15 +183,21 @@ Wire has exceeded its limit of proportionality.)
 
 Starting from Hooke's law in its force-extension form:
 
-$$F = k\,\Delta x$$
+$$
+F = k\,\Delta x
+$$
 
 Multiply both sides by $L/(A\,\Delta x)$:
 
-$$\frac{FL}{A\,\Delta x} = \frac{kL}{A}$$
+$$
+\frac{FL}{A\,\Delta x} = \frac{kL}{A}
+$$
 
 Define $\sigma = F/A$, $\varepsilon = \Delta x/L$:
 
-$$\frac{\sigma}{\varepsilon} = \frac{kL}{A} = E$$
+$$
+\frac{\sigma}{\varepsilon} = \frac{kL}{A} = E
+$$
 
 Since $k$, $L$ And $A$ are all constants for a given sample (within the proportional limit), $E$ is A
 constant of the material, it does not depend on the dimensions of the sample. $\square$
@@ -183,7 +205,7 @@ constant of the material, it does not depend on the dimensions of the sample. $\
 ## 4. Stress-Strain Graphs
 
 The stress-strain graph is the most important tool for characterising the mechanical behaviour of a
-Material.
+material.
 
 ### Regions of the Graph
 
@@ -248,30 +270,42 @@ Deformed elastic body.
 From Hooke's law, the force varies linearly from $0$ to $F$ as the spring extends from $0$ to
 $\Delta x$. The energy stored equals the area under the force-extension graph:
 
-$$\boxed{E_e = \frac{1}{2}F\,\Delta x = \frac{1}{2}k\,\Delta x^2}$$
+$$
+\boxed{E_e = \frac{1}{2}F\,\Delta x = \frac{1}{2}k\,\Delta x^2}
+$$
 
 ### Proof of Energy Stored in a Wire
 
 Consider a wire of original length $L$ and cross-sectional area $A$. When stretched by an increment
-$d(\Delta L)$The work done is:
+$d(\Delta L)$ The work done is:
 
-$$dW = F\,d(\Delta L)$$
+$$
+dW = F\,d(\Delta L)
+$$
 
 Since $F = \sigma A$ and $\sigma = E\varepsilon = E\,\Delta L/L$:
 
-$$dW = \sigma A\,d(\Delta L) = E\varepsilon A \cdot L\,d\varepsilon = EAL\,\varepsilon\,d\varepsilon$$
+$$
+dW = \sigma A\,d(\Delta L) = E\varepsilon A \cdot L\,d\varepsilon = EAL\,\varepsilon\,d\varepsilon
+$$
 
 Integrating from $\varepsilon = 0$ to $\varepsilon = \varepsilon_{\max}$:
 
-$$E_e = \int_0^{\varepsilon_{\max}} EAL\,\varepsilon\,d\varepsilon = EAL\left[\frac{\varepsilon^2}{2}\right]_0^{\varepsilon_{\max}} = \frac{1}{2}EAL\,\varepsilon_{\max}^2$$
+$$
+E_e = \int_0^{\varepsilon_{\max}} EAL\,\varepsilon\,d\varepsilon = EAL\left[\frac{\varepsilon^2}{2}\right]_0^{\varepsilon_{\max}} = \frac{1}{2}EAL\,\varepsilon_{\max}^2
+$$
 
 Since $E\varepsilon = \sigma$ and $AL = V$ (volume of the wire):
 
-$$\boxed{E_e = \frac{1}{2}\,\frac{\sigma^2}{E}\,V}$$
+$$
+\boxed{E_e = \frac{1}{2}\,\frac{\sigma^2}{E}\,V}
+$$
 
 Alternatively, using $\varepsilon = \sigma/E$:
 
-$$E_e = \frac{1}{2}\,E\,V\,\varepsilon^2 = \frac{1}{2}\,\sigma\,\varepsilon\,V$$
+$$
+E_e = \frac{1}{2}\,E\,V\,\varepsilon^2 = \frac{1}{2}\,\sigma\,\varepsilon\,V
+$$
 
 $\square$
 
@@ -284,6 +318,8 @@ which must be found by Integration or by counting squares.
 
 ### Metals
 
+<div class="table-wrap">
+
 | Property        | Steel               | Copper             | Aluminium            |
 | --------------- | ------------------- | ------------------ | -------------------- |
 | $E$ (GPa)       | 200                 | 130                | 70                   |
@@ -293,10 +329,14 @@ which must be found by Integration or by counting squares.
 | Behaviour       | Ductile, strong     | Ductile, malleable | Ductile, lightweight |
 | Applications    | Construction, tools | Wiring, plumbing   | Aircraft, packaging  |
 
+</div>
+
 Metals are ductile because their crystalline structure allows dislocations (defects in the crystal
 Lattice) to move under stress. This is the basis of plastic deformation in metals.
 
 ### Polymers
+
+<div class="table-wrap">
 
 | Property     | Polyethylene (HDPE)     | Rubber                    |
 | ------------ | ----------------------- | ------------------------- |
@@ -306,11 +346,15 @@ Lattice) to move under stress. This is the basis of plastic deformation in metal
 | Behaviour    | Thermoplastic, stiffens | Elastomer, highly elastic |
 | Applications | Bottles, pipes          | Tyres, elastic bands      |
 
+</div>
+
 Polymers consist of long-chain molecules. In rubber, the chains are tangled and uncoiled when
-Stretched, this is why it can undergo large elastic strains. In thermoplastics like polyethylene,
+stretched, this is why it can undergo large elastic strains. In thermoplastics like polyethylene,
 The chains can slide past each other, leading to plastic deformation.
 
 ### Ceramics
+
+<div class="table-wrap">
 
 | Property                   | Glass           | Concrete               |
 | -------------------------- | --------------- | ---------------------- |
@@ -319,6 +363,8 @@ The chains can slide past each other, leading to plastic deformation.
 | Tensile strength (MPa)     | 30–90           | 3–5                    |
 | Behaviour                  | Brittle         | Brittle (in tension)   |
 | Applications               | Windows, optics | Buildings, foundations |
+
+</div>
 
 Ceramics are **strong in compression but weak in tension**. This is because their ionic/covalent
 Bonding is very strong but cracks propagate under tensile stress. Concrete is Reinforced with steel
@@ -343,6 +389,8 @@ Examples:
 
 ## 7. Key Definitions Summary
 
+<div class="table-wrap">
+
 | Term                          | Definition                                                                                                  |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | **Young's modulus**           | The ratio of tensile stress to tensile strain within the limit of proportionality: $E = \sigma/\varepsilon$ |
@@ -355,6 +403,8 @@ Examples:
 | **Stiffness**                 | Resistance to elastic deformation; measured by Young's modulus                                              |
 | **Toughness**                 | The energy absorbed before fracture; area under the full stress-strain curve                                |
 | **Hardness**                  | Resistance to surface indentation or scratching                                                             |
+
+</div>
 
 ## 8. Loading, Unloading, and Hysteresis
 
@@ -370,13 +420,13 @@ When a material is loaded beyond the elastic limit and then unloaded:
 
 **Hysteresis** is the lag between the loading and unloading curves. It is particularly important for
 Rubber and viscoelastic materials. In a rubber band, the energy dissipated per cycle is the area of
-The hysteresis loop, this is why a stretched rubber band feels warm when released.
+the hysteresis loop, this is why a stretched rubber band feels warm when released.
 
 ## 9. Fatigue and Creep
 
 **Fatigue** is the progressive and localised structural damage that occurs when a material is
 Subjected to cyclic loading. Even stresses well below the yield stress can cause failure after
-Millions of cycles. This is critical in aircraft wings, bridges, and engine components.
+millions of cycles. This is critical in aircraft wings, bridges, and engine components.
 
 **Creep** is the slow, time-dependent deformation of a material under a constant load, especially at
 Elevated temperatures. It is important in power station components, turbine blades, and lead
@@ -405,7 +455,7 @@ Applied, (b) the elastic potential energy stored.
 <details>
 <summary>Problem 2</summary>
 A copper wire of diameter $1.0$ mm and length $3.0$ m supports a load of $80$ N. Calculate the
-Stress and the strain, given that Young's modulus for copper is $1.3 \times 10^{11}$ Pa.
+stress and the strain, given that Young's modulus for copper is $1.3 \times 10^{11}$ Pa.
 
 **Answer.** $A = \pi(0.50 \times 10^{-3})^2 = 7.85 \times 10^{-7}$ m$^2$.
 
@@ -457,7 +507,7 @@ The rubber cord extends $40,000$ times more than the steel wire under the same l
 <details>
 <summary>Problem 5</summary>
 A material has a Young's modulus of $5.0$ GPa and a breaking stress of $50$ MPa. Calculate the
-Breaking strain.
+breaking strain.
 
 **Answer.** $\varepsilon = \sigma/E = 50 \times 10^6 / 5.0 \times 10^9 = 0.010 = 1.0\%$.
 
@@ -468,7 +518,7 @@ Breaking strain.
 <details>
 <summary>Problem 6</summary>
 A force-extension graph for a metal wire is linear up to an extension of $0.80$ mm with a gradient
-Of $2.5 \times 10^5$ N m$^{-1}$. Beyond this point the wire yields and breaks at an extension of
+of $2.5 \times 10^5$ N m$^{-1}$. Beyond this point the wire yields and breaks at an extension of
 $4.0$ mm under a force of $300$ N. (a) Calculate the energy stored up to the limit of
 Proportionality. (b) Estimate the total energy stored up to fracture.
 
@@ -477,7 +527,7 @@ $E_e = \frac{1}{2}F\,\Delta x = \frac{1}{2} \times (2.5 \times 10^5 \times 0.80 
 J.
 
 (b) The total energy is the area under the full force-extension curve up to fracture. Approximating
-As a triangle from the origin to the breaking point:
+as a triangle from the origin to the breaking point:
 $E_{\mathrm{total}} \approx \frac{1}{2} \times 300 \times 4.0 \times 10^{-3} = 0.60$ J. (A better
 Estimate would account for the non-linear region, but this is a reasonable approximation.)
 
@@ -488,13 +538,13 @@ Estimate would account for the non-linear region, but this is a reasonable appro
 <details>
 <summary>Problem 7</summary>
 Explain why concrete is reinforced with steel bars. Refer to the stress-strain behaviour of each
-Material.
+material.
 
 **Answer.** Concrete is strong in compression but weak in tension (UTS $\approx 3$–$5$ MPa in
 Tension). Steel is strong in both tension and compression (UTS $\approx 400$–$2000$ MPa) and is
-Ductile. In reinforced concrete, the steel bars carry the tensile loads while the concrete carries
-The compressive loads. The steel's ductility also means the composite structure deforms gradually
-Rather than failing suddenly, giving warning before collapse.
+ductile. In reinforced concrete, the steel bars carry the tensile loads while the concrete carries
+the compressive loads. The steel's ductility also means the composite structure deforms gradually
+rather than failing suddenly, giving warning before collapse.
 
 <b>If you get this wrong, revise:</b>
 [Material Properties Comparison](#6-material-properties-comparison)
@@ -504,7 +554,7 @@ Rather than failing suddenly, giving warning before collapse.
 <details>
 <summary>Problem 8</summary>
 A steel wire of length $2.5$ m and diameter $0.80$ mm is stretched by $3.0$ mm. Calculate the
-Elastic potential energy stored. ($E_{\mathrm{steel}} = 2.0 \times 10^{11}$ Pa)
+elastic potential energy stored. ($E_{\mathrm{steel}} = 2.0 \times 10^{11}$ Pa)
 
 **Answer.** $A = \pi(0.40 \times 10^{-3})^2 = 5.03 \times 10^{-7}$ m$^2$.
 $V = AL = 5.03 \times 10^{-7} \times 2.5 = 1.26 \times 10^{-6}$ m$^3$.
@@ -530,7 +580,7 @@ Linear region, breaking point. No plastic region, no yield point.
 
 (b) Ductile: straight line from origin (linear region), then yield point, then curve rises to a peak
 (UTS), then declines as necking occurs, finally fracture at high strain (10–40%). Label: limit of
-Proportionality, elastic limit, yield point, UTS, necking, fracture.
+proportionality, elastic limit, yield point, UTS, necking, fracture.
 
 <b>If you get this wrong, revise:</b> [Stress-Strain Graphs](#4-stress-strain-graphs)
 
@@ -540,7 +590,7 @@ Proportionality, elastic limit, yield point, UTS, necking, fracture.
 <summary>Problem 10</summary>
 A student measures Young's modulus for a wire and obtains a value 30% higher than the accepted
 Value. Give three possible sources of error, and state whether each would make the result too high
-Or too low.
+or too low.
 
 **Answer.**
 
@@ -617,19 +667,6 @@ self-marking and building a personal test matrix.
    before writing equations.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
-```mermaid
-flowchart TD
-    A[09 Properties Of Materials] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

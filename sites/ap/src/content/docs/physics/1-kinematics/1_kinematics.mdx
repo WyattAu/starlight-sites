@@ -21,6 +21,8 @@ Kinematics describes the motion of objects without considering the forces that c
 
 ### Scalar vs Vector Quantities
 
+<div class="table-wrap">
+
 | Quantity     | Type   | Description                                        |
 | ------------ | ------ | -------------------------------------------------- |
 | Displacement | Vector | Change in position, $\Delta \vec{r}$               |
@@ -28,6 +30,8 @@ Kinematics describes the motion of objects without considering the forces that c
 | Velocity     | Vector | Rate of change of displacement                     |
 | Speed        | Scalar | Rate of change of distance (magnitude of velocity) |
 | Acceleration | Vector | Rate of change of velocity                         |
+
+</div>
 
 ### Definitions Using Calculus
 
@@ -62,8 +66,6 @@ constant acceleration. If you understand the calculus, you understand the kinema
 ## One-Dimensional Kinematics
 
 <PhetSimulation client:only="solid-js" simulationId="projectile-motion" title="Projectile Motion" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ### Constant Acceleration Equations
 
@@ -135,12 +137,16 @@ Each of the four kinematic equations relates a different subset of the five vari
 $a$, $t$, $x - x_0$). Choose the equation that contains the variables you know and the variable you Need
 to find:
 
+<div class="table-wrap">
+
 | Known variables    | Use equation                        |
 | ------------------ | ----------------------------------- |
 | $v_0$, $a$, $t$        | $v = v_0 + at$                      |
 | $v_0$, $a$, $t$        | $x - x_0 = v_0 t + \frac{1}{2}at^2$ |
 | $v_0$, $a$, $\Delta x$ | $v^2 = v_0^2 + 2a\Delta x$          |
 | $v_0$, $v$, $t$        | $\Delta x = \frac{v_0 + v}{2} t$    |
+
+</div>
 
 The variable that does _not_ appear in each equation tells you when to use it.
 
@@ -173,7 +179,7 @@ $$
 An object thrown upward and an object dropped from the same height take the same time to reach the
 Ground (if air resistance is negligible). This is because the motion is symmetric about the peak:
 The time to rise equals the time to fall, and the speed at any height on the way up equals the speed
-At the same height on the way down. The symmetry is a direct consequence of the equations being
+at the same height on the way down. The symmetry is a direct consequence of the equations being
 Quadratic in $t$.
 </Aside>
 
@@ -200,7 +206,7 @@ In projectile motion, the horizontal and vertical motions are independent.
 ### Why Horizontal and Vertical Motions Are Independent
 
 The horizontal component of velocity has no effect on the vertical acceleration (which is always
-$g$Downward), and vice versa. This is because the gravitational force acts only vertically. There Is
+$g$ Downward), and vice versa. This is because the gravitational force acts only vertically. There Is
 no horizontal force (ignoring air resistance), so the horizontal acceleration is zero. The two
 Components of motion are completely decoupled, and can be analyzed separately using the same
 Kinematic equations.
@@ -252,9 +258,9 @@ Using the double-angle identity $\sin 2\theta = 2\sin\theta \cos\theta$.
 ### Why Maximum Range Is at 45 Degrees
 
 The range $R = (v_0^2/g)\sin 2\theta$ is maximized when $\sin 2\theta$ is maximized, i.e., when
-$2\theta = 90^{\circ}$Giving $\theta = 45^{\circ}$. Complementary angles give the same range:
+$2\theta = 90^{\circ}$ Giving $\theta = 45^{\circ}$. Complementary angles give the same range:
 $\sin 2\theta = \sin 2(90^{\circ} - \theta)$. A projectile launched at $30^{\circ}$ and one launched
-At $60^{\circ}$ with the same speed will travel the same horizontal distance, but the $60^{\circ}$
+at $60^{\circ}$ with the same speed will travel the same horizontal distance, but the $60^{\circ}$
 Launch goes higher and stays in the air longer.
 
 ### The Trajectory Is a Parabola
@@ -275,7 +281,7 @@ Confirms that the parabola opens downward.
 
 <Aside type="note" title="Example">
 A projectile is launched at $50 \mathrm{ m/s$ at $37^\circ$ above horizontal from ground level. Find
-The range and maximum height.
+the range and maximum height.
 
 $\cos 37^\circ \approx 0.8$, $\sin 37^\circ \approx 0.6$.
 
@@ -312,7 +318,7 @@ $y(t) = 0$ Then compute $R = v_0\cos\theta \cdot t$.
 - **Positive slope on $x$-vs-$t$:** moving in the positive direction.
 - **Zero slope on $x$-vs-$t$:** at rest.
 - **Negative slope on $x$-vs-$t$:** moving in the negative direction.
-- **Curvature on $x$-vs-$t$:** indicates acceleration (concave up = positive $a$Concave down =
+- **Curvature on $x$-vs-$t$:** indicates acceleration (concave up = positive $a$ Concave down =
   negative $a$).
 
 ### Inflection Points and Velocity Extrema
@@ -343,7 +349,7 @@ $$
 ### Derivation of Centripetal Acceleration
 
 Consider a particle moving at constant speed $v$ on a circle of radius $r$. Over a small time
-Interval $\Delta t$The velocity vector changes direction by angle $\Delta\theta$ while maintaining
+Interval $\Delta t$ The velocity vector changes direction by angle $\Delta\theta$ while maintaining
 Magnitude $v$.
 
 The change in velocity $\Delta\vec{v}$ is perpendicular to $\vec{v}$ and has magnitude:
@@ -367,7 +373,7 @@ $$
 ### Why Centripetal Acceleration Does Not Change Speed
 
 Centripetal acceleration is always perpendicular to the velocity. Since the dot product
-$\vec{a}_c \cdot \vec{v} = 0$The power delivered is $P = \vec{F} \cdot \vec{v} = 0$ And the Kinetic
+$\vec{a}_c \cdot \vec{v} = 0$ The power delivered is $P = \vec{F} \cdot \vec{v} = 0$ And the Kinetic
 energy $\frac{1}{2}mv^2$ is constant. The speed does not change; only the direction of the Velocity
 vector changes. This is why "centripetal" means "centre-seeking" -- the acceleration always Points
 toward the center, never along the velocity.
@@ -399,7 +405,7 @@ $$
 ### Displacement as Area Under the Curve
 
 When $a(t)$ or $v(t)$ is given graphically rather than analytically, the displacement can be found
-By computing the area under the $v$-vs-$t$ curve. For non-linear curves, this requires numerical
+by computing the area under the $v$-vs-$t$ curve. For non-linear curves, this requires numerical
 Integration (counting squares, the trapezoidal rule, or Simpson's rule).
 </Aside>
 
@@ -434,7 +440,7 @@ $$
 
 ## Relative Motion
 
-In one dimension with two reference frames $S$ and $S'$Where $S'$ moves with velocity $v_{S'/S}$
+In one dimension with two reference frames $S$ and $S'$ Where $S'$ moves with velocity $v_{S'/S}$
 Relative to $S$:
 
 $$
@@ -477,7 +483,7 @@ Downstream distance: $d = 3 \times 25 = 75 \mathrm{ m$.
 ### Crossing the River Perpendicular to the Bank
 
 To land directly across the river, the boat must angle upstream so that the downstream component of
-Its velocity relative to the water cancels the river current. If the boat has speed $v_b$ and the
+its velocity relative to the water cancels the river current. If the boat has speed $v_b$ and the
 River flows at $v_r$:
 
 $$
@@ -558,7 +564,7 @@ Kinematics is the **language of motion**, it describes _what_ is happening witho
 For a curved $x$-vs-$t$ graph, the instantaneous velocity at any point is the gradient of the
 Tangent to the curve at that point. A straight-line section indicates constant velocity (zero
 Acceleration). A section that curves upward (concave up) indicates positive acceleration; a section
-That curves downward (concave down) indicates negative acceleration.
+that curves downward (concave down) indicates negative acceleration.
 
 ### Worked Example: Interpreting a Velocity-Time Graph
 
@@ -571,14 +577,20 @@ S.
 
 **Displacement from $t = 0$ to $t = 4$:**
 
-$$\Delta x = \int_0^4 (4t - t^2)\, dt = \left[2t^2 - \frac{t^3}{3}\right]_0^4 = 32 - \frac{64}{3} = 32 - 21.33 = 10.67 \mathrm{ m$$
+$$
+\Delta x = \int_0^4 (4t - t^2)\, dt = \left[2t^2 - \frac{t^3}{3}\right]_0^4 = 32 - \frac{64}{3} = 32 - 21.33 = 10.67 \mathrm{ m
+$$
 
 **Total distance from $t = 0$ to $t = 5$:** The velocity is zero at $t = 0$ and $t = 4$. For
 $0 \lt t \lt 4$$v \gt 0$. For $4 \lt t \lt 5$$v \lt 0$.
 
-$$d = \int_0^4 (4t - t^2)\, dt + \left|\int_4^5 (4t - t^2)\, dt\right| = 10.67 + \left|\left[2t^2 - \frac{t^3}{3}\right]_4^5\right|$$
+$$
+d = \int_0^4 (4t - t^2)\, dt + \left|\int_4^5 (4t - t^2)\, dt\right| = 10.67 + \left|\left[2t^2 - \frac{t^3}{3}\right]_4^5\right|
+$$
 
-$$= 10.67 + \left|(50 - 41.67) - (32 - 21.33)\right| = 10.67 + |8.33 - 10.67| = 10.67 + 2.33 = 13.0 \mathrm{ m$$
+$$
+= 10.67 + \left|(50 - 41.67) - (32 - 21.33)\right| = 10.67 + |8.33 - 10.67| = 10.67 + 2.33 = 13.0 \mathrm{ m
+$$
 
 ## Uniform Circular Motion: Extended Analysis
 
@@ -586,24 +598,38 @@ $$= 10.67 + \left|(50 - 41.67) - (32 - 21.33)\right| = 10.67 + |8.33 - 10.67| = 
 
 For an object in uniform circular motion:
 
-$$\omega = 2\pi f = \frac{2\pi}{T}, \qquad v = \frac{2\pi r}{T} = 2\pi rf, \qquad a_c = \frac{4\pi^2 r}{T^2} = \omega^2 r = \frac{v^2}{r}$$
+$$
+\omega = 2\pi f = \frac{2\pi}{T}, \qquad v = \frac{2\pi r}{T} = 2\pi rf, \qquad a_c = \frac{4\pi^2 r}{T^2} = \omega^2 r = \frac{v^2}{r}
+$$
 
 ### Worked Example: Geostationary Orbit
 
 A geostationary satellite orbits above the equator with a period of 24 hours. Given Earth's radius
 $R_E = 6.371 \times 10^6$ m and mass $M_E = 5.97 \times 10^{24}$ kg, find the altitude of the orbit.
 
-$$T = 86400 \mathrm{ s$$
+$$
+T = 86400 \mathrm{ s
+$$
 
-$$T^2 = \frac{4\pi^2 r^3}{GM}$$
+$$
+T^2 = \frac{4\pi^2 r^3}{GM}
+$$
 
-$$r^3 = \frac{GMT^2}{4\pi^2} = \frac{6.674 \times 10^{-11} \times 5.97 \times 10^{24} \times 86400^2}{4\pi^2}$$
+$$
+r^3 = \frac{GMT^2}{4\pi^2} = \frac{6.674 \times 10^{-11} \times 5.97 \times 10^{24} \times 86400^2}{4\pi^2}
+$$
 
-$$r^3 = \frac{2.987 \times 10^{24}}{39.48} = 7.566 \times 10^{22}$$
+$$
+r^3 = \frac{2.987 \times 10^{24}}{39.48} = 7.566 \times 10^{22}
+$$
 
-$$r = \sqrt[3]{7.566 \times 10^{22}} = 4.225 \times 10^7 \mathrm{ m$$
+$$
+r = \sqrt[3]{7.566 \times 10^{22}} = 4.225 \times 10^7 \mathrm{ m
+$$
 
-$$h = r - R_E = 4.225 \times 10^7 - 6.371 \times 10^6 = 3.588 \times 10^7 \mathrm{ m \approx 35880 \mathrm{ km$$
+$$
+h = r - R_E = 4.225 \times 10^7 - 6.371 \times 10^6 = 3.588 \times 10^7 \mathrm{ m \approx 35880 \mathrm{ km
+$$
 
 This is approximately 36000 km above Earth's surface, the standard geostationary orbit altitude.
 
@@ -613,9 +639,13 @@ This is approximately 36000 km above Earth's surface, the standard geostationary
 
 The position of a particle is $x(t) = t^4 - 4t^3 + 6t^2$ m.
 
-$$v(t) = \frac{dx}{dt} = 4t^3 - 12t^2 + 12t$$
+$$
+v(t) = \frac{dx}{dt} = 4t^3 - 12t^2 + 12t
+$$
 
-$$a(t) = \frac{dv}{dt} = 12t^2 - 24t + 12 = 12(t^2 - 2t + 1) = 12(t-1)^2$$
+$$
+a(t) = \frac{dv}{dt} = 12t^2 - 24t + 12 = 12(t^2 - 2t + 1) = 12(t-1)^2
+$$
 
 The acceleration is always non-negative (it is zero at $t = 1$). The particle is never decelerating.
 
@@ -630,27 +660,25 @@ A particle starts from rest. For $0 \le t \le 3$ s, $a = 6t$ m/s$^2$. For $t \gt
 
 **Phase 1 ($0 \le t \le 3$):**
 
-$$v(t) = \int_0^t 6t'\, dt' = 3t^2$$
+$$
+v(t) = \int_0^t 6t'\, dt' = 3t^2
+$$
 
-$$x(t) = \int_0^t 3t'^2\, dt' = t^3$$
+$$
+x(t) = \int_0^t 3t'^2\, dt' = t^3
+$$
 
 At $t = 3$: $v = 27$ m/s, $x = 27$ m.
 
 **Phase 2 ($t \gt 3$):** Constant velocity $v = 27$ m/s.
 
-$$x(t) = 27 + 27(t - 3)$$
-
-```mermaid
-flowchart TD
-    A[1_Kinematicsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+$$
+x(t) = 27 + 27(t - 3)
+$$
 
 ## Summary Table: Kinematic Equations
+
+<div class="table-wrap">
 
 | Equation                            | Missing Variable | Best Used When                                      |
 | ----------------------------------- | ---------------- | --------------------------------------------------- |
@@ -658,6 +686,8 @@ flowchart TD
 | $x - x_0 = v_0 t + \frac{1}{2}at^2$ | $v$              | You know initial velocity, acceleration, time       |
 | $v^2 = v_0^2 + 2a(x - x_0)$         | $t$              | You know velocities and displacement                |
 | $x - x_0 = \frac{v_0 + v}{2}t$      | $a$              | You know velocities and time (uniform acceleration) |
+
+</div>
 
 ## Common Pitfalls: Extended
 
@@ -683,7 +713,7 @@ flowchart TD
 
 ## Practice Questions (Additional)
 
-1. A particle moves along the $x$-axis with acceleration $a(t) = 8t - 6$ m/s$^2$. At $t = 0$The
+1. A particle moves along the $x$-axis with acceleration $a(t) = 8t - 6$ m/s$^2$. At $t = 0$ The
     particle is at $x = 2$ m with velocity $v = -3$ m/s. Find (a) the time when the particle is at
     rest, (b) the position at that time, and (c) the total distance traveled between $t = 0$ and
     $t = 3$ s.
@@ -710,19 +740,29 @@ $60^\circ$ east of north. Find the velocity of A relative to B.
 
 **Step 1: Write velocity vectors**
 
-$$\vec{v}_A = 250\hat{j} \mathrm{ m/s$$
+$$
+\vec{v}_A = 250\hat{j} \mathrm{ m/s
+$$
 
-$$\vec{v}_B = 200\sin 60°\hat{i} + 200\cos 60°\hat{j} = 173.2\hat{i} + 100\hat{j} \mathrm{ m/s$$
+$$
+\vec{v}_B = 200\sin 60°\hat{i} + 200\cos 60°\hat{j} = 173.2\hat{i} + 100\hat{j} \mathrm{ m/s
+$$
 
 **Step 2: Relative velocity**
 
-$$\vec{v}_{AB} = \vec{v}_A - \vec{v}_B = -173.2\hat{i} + (250 - 100)\hat{j} = -173.2\hat{i} + 150\hat{j} \mathrm{ m/s$$
+$$
+\vec{v}_{AB} = \vec{v}_A - \vec{v}_B = -173.2\hat{i} + (250 - 100)\hat{j} = -173.2\hat{i} + 150\hat{j} \mathrm{ m/s
+$$
 
 **Step 3: Magnitude and direction**
 
-$$|\vec{v}_{AB}| = \sqrt{173.2^2 + 150^2} = \sqrt{29998 + 22500} = \sqrt{52498} = 229.1 \mathrm{ m/s$$
+$$
+|\vec{v}_{AB}| = \sqrt{173.2^2 + 150^2} = \sqrt{29998 + 22500} = \sqrt{52498} = 229.1 \mathrm{ m/s
+$$
 
-$$\theta = \arctan\left(\frac{150}{-173.2}\right) = 180° - 40.9° = 139.1° \mathrm{ from east$$
+$$
+\theta = \arctan\left(\frac{150}{-173.2}\right) = 180° - 40.9° = 139.1° \mathrm{ from east
+$$
 
 So the velocity of A relative to B is $229.1 \mathrm{ m/s$ at $139.1^\circ$ from east (or
 $50.9^\circ$ west of North).
@@ -736,7 +776,9 @@ Find (a) when the particle is at rest, (b) the total distance travelled, and (c)
 
 **Step 1: Find when the particle is at rest**
 
-$$v(t) = t^3 - 6t^2 + 9t = t(t^2 - 6t + 9) = t(t - 3)^2 = 0$$
+$$
+v(t) = t^3 - 6t^2 + 9t = t(t^2 - 6t + 9) = t(t - 3)^2 = 0
+$$
 
 $t = 0$ or $t = 3 \mathrm{ s$.
 
@@ -750,22 +792,28 @@ $t = 3$).
 
 **Step 3: Total distance = displacement (since $v \ge 0$ always)**
 
-$$s(5) - s(0) = \int_0^5 (t^3 - 6t^2 + 9t) \, dt = \left[ \frac{t^4}{4} - 2t^3 + \frac{9t^2}{2} \right]_0^5$$
+$$
+s(5) - s(0) = \int_0^5 (t^3 - 6t^2 + 9t) \, dt = \left[ \frac{t^4}{4} - 2t^3 + \frac{9t^2}{2} \right]_0^5
+$$
 
-$$= \frac{625}{4} - 250 + \frac{225}{2} = 156.25 - 250 + 112.5 = 18.75 \mathrm{ m$$
+$$
+= \frac{625}{4} - 250 + \frac{225}{2} = 156.25 - 250 + 112.5 = 18.75 \mathrm{ m
+$$
 
 **Step 4: Acceleration at key points**
 
-$$a(t) = 3t^2 - 12t + 9 = 3(t^2 - 4t + 3) = 3(t - 1)(t - 3)$$
+$$
+a(t) = 3t^2 - 12t + 9 = 3(t^2 - 4t + 3) = 3(t - 1)(t - 3)
+$$
 
 At $t = 0$: $a = 9 \mathrm{ m/s^2$ (speeding up) At $t = 3$: $a = 3(9 - 12 + 3) = 0 \mathrm{ m/s^2$
 (momentarily stationary, inflection point)
 
 <Aside type="note">
-Even though the particle is stationary at $t = 3 \mathrm{ s$The acceleration is also zero
+Even though the particle is stationary at $t = 3 \mathrm{ s$ The acceleration is also zero
 
 There, so the particle does not reverse direction. Compare this to projectile motion at the top of
-The trajectory where $v = 0$ but $a = g \ne 0$ So the projectile immediately starts moving Downward.
+the trajectory where $v = 0$ but $a = g \ne 0$ So the projectile immediately starts moving Downward.
 
 ### Example 18: Kinematics with Air Resistance
 
@@ -777,7 +825,9 @@ $10 \mathrm{ s$ And (c) the distance fallen after $10 \mathrm{ s$.
 
 At terminal velocity: $mg = kv_T^2$
 
-$$v_T = \sqrt{\frac{mg}{k}} = \sqrt{\frac{70 \times 9.8}{0.25}} = \sqrt{2744} = 52.4 \mathrm{ m/s$$
+$$
+v_T = \sqrt{\frac{mg}{k}} = \sqrt{\frac{70 \times 9.8}{0.25}} = \sqrt{2744} = 52.4 \mathrm{ m/s
+$$
 
 **Step 2: Analytical solution**
 
@@ -785,21 +835,33 @@ The equation of motion is $m\frac{dv}{dt} = mg - kv^2$.
 
 This has the solution:
 
-$$v(t) = v_T \tanh\left(\frac{gt}{v_T}\right)$$
+$$
+v(t) = v_T \tanh\left(\frac{gt}{v_T}\right)
+$$
 
-$$v(10) = 52.4 \times \tanh\left(\frac{9.8 \times 10}{52.4}\right) = 52.4 \times \tanh(1.870)$$
+$$
+v(10) = 52.4 \times \tanh\left(\frac{9.8 \times 10}{52.4}\right) = 52.4 \times \tanh(1.870)
+$$
 
-$$\tanh(1.870) = \frac{e^{3.74} - e^{-3.74}}{e^{3.74} + e^{-3.74}} = \frac{42.10 - 0.0238}{42.10 + 0.0238} = 0.9989$$
+$$
+\tanh(1.870) = \frac{e^{3.74} - e^{-3.74}}{e^{3.74} + e^{-3.74}} = \frac{42.10 - 0.0238}{42.10 + 0.0238} = 0.9989
+$$
 
-$$v(10) = 52.4 \times 0.9989 = 52.3 \mathrm{ m/s$$
+$$
+v(10) = 52.4 \times 0.9989 = 52.3 \mathrm{ m/s
+$$
 
 The skydiver has essentially reached terminal velocity after $10 \mathrm{ s$.
 
 **Step 3: Distance fallen**
 
-$$y(t) = \frac{v_T^2}{g}\ln\left(\cosh\left(\frac{gt}{v_T}\right)\right)$$
+$$
+y(t) = \frac{v_T^2}{g}\ln\left(\cosh\left(\frac{gt}{v_T}\right)\right)
+$$
 
-$$y(10) = \frac{2744}{9.8}\ln(\cosh(1.870)) = 280 \times \ln(3.263) = 280 \times 1.183 = 331.2 \mathrm{ m$$
+$$
+y(10) = \frac{2744}{9.8}\ln(\cosh(1.870)) = 280 \times \ln(3.263) = 280 \times 1.183 = 331.2 \mathrm{ m
+$$
 
 ## Common Pitfalls Extended
 
@@ -820,7 +882,7 @@ They are equal only for motion in one direction without reversing.
 The slope of a displacement-time graph gives instantaneous velocity. The slope of a velocity-time
 Graph gives instantaneous acceleration. However, for curved graphs, the slope changes continuously.
 You must draw a tangent at the specific point to find the instantaneous value -- the average slope
-Between two points is not the same as the instantaneous slope.
+between two points is not the same as the instantaneous slope.
 
 ## Additional Practice Problems
 
@@ -874,7 +936,7 @@ Height: $y_1 = 20(4.42) - 4.9(4.42)^2 = 88.4 - 95.7 = -7.3 \mathrm{ m$.
 This is negative, meaning the balls don't meet before ball 1 hits the ground. Ball 1 lands when
 $y_1 = 0$: $20t - 4.9t^2 = 0$, $t = 20/4.9 = 4.08 \mathrm{ s$.
 
-Since $4.42 > 4.08$Ball 1 has already landed. The balls do not meet in the air.
+Since $4.42 > 4.08$ Ball 1 has already landed. The balls do not meet in the air.
 
 </details>
 
@@ -919,8 +981,8 @@ Displacement = $\int_0^4 v \, dt = [2t^3 - 9t^2 + 12t]_0^4 = 128 - 144 + 48 = 32
 
 Total distance = $\int_0^1 v \, dt + |\int_1^2 v \, dt| + \int_2^4 v \, dt$.
 
-$\int_0^1 = [2 - 9 + 12] = 5$. $\int_1^2 = [16 - 36 + 24] - [2 - 9 + 12] = 4 - 5 = -1$Absolute value
-= 1. $\int_2^4 = [128 - 144 + 48] - [16 - 36 + 24] = 32 - 44 = -12$Absolute value = 12.
+$\int_0^1 = [2 - 9 + 12] = 5$. $\int_1^2 = [16 - 36 + 24] - [2 - 9 + 12] = 4 - 5 = -1$ Absolute value
+= 1. $\int_2^4 = [128 - 144 + 48] - [16 - 36 + 24] = 32 - 44 = -12$ Absolute value = 12.
 
 Total distance = $5 + 1 + 12 = 18 \mathrm{ m$.
 

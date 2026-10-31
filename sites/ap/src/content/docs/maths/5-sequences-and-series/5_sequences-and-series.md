@@ -23,8 +23,8 @@ categories:
 ## Sequences (CED BC Unit 10)
 
 A **sequence** is an ordered list of numbers: $a_1, a_2, a_3, \ldots$. Formally, a sequence is a
-Function from the positive integers (or a subset thereof) to the real numbers:
-$a \colon \mathbb{N} \to \mathbb{R}$Written as $\{a_n\}_{n=1}^{\infty}$ or $\{a_n\}$.
+function from the positive integers (or a subset thereof) to the real numbers:
+$a \colon \mathbb{N} \to \mathbb{R}$ Written as $\{a_n\}_{n=1}^{\infty}$ or $\{a_n\}$.
 
 A sequence $\{a_n\}$ **converges** to a limit $L$ if:
 
@@ -32,7 +32,7 @@ $$
 \lim_{n \to \infty} a_n = L
 $$
 
-This means: for every $\epsilon \gt 0$There exists an integer $N$ such that $|a_n - L| \lt \epsilon$
+This means: for every $\epsilon \gt 0$ There exists an integer $N$ such that $|a_n - L| \lt \epsilon$
 for all $n \ge N$. The terms eventually get and stay arbitrarily close to $L$.
 
 If no such limit exists, the sequence **diverges**.
@@ -48,23 +48,27 @@ If no such limit exists, the sequence **diverges**.
 
 **Monotone Convergence Theorem.** Every bounded monotone sequence converges. This is one of the most
 Powerful existence theorems in analysis: it guarantees convergence without requiring you to find the
-Limit explicitly.
+limit explicitly.
 
 **Corollary:** A monotone increasing sequence that is not bounded above diverges to $+\infty$. A
 Monotone decreasing sequence that is not bounded below diverges to $-\infty$.
 
 ### Common Sequences
 
+<div class="table-wrap">
+
 | Sequence                               | Convergence | Limit   |
-| -------------------------------------- | ----------- | ------- | --------- | --- |
+| -------------------------------------- | ----------- | ------- |
 | $a_n = \frac{1}{n}$                    | Converges   | $0$     |
-| $a_n = r^n$ ($                         | r           | \lt 1$) | Converges | $0$ |
-| $a_n = r^n$ ($                         | r           | \ge 1$) | Diverges  | --  |
+| $a_n = r^n$ ($                         \| r           \| \lt 1$) | Converges | $0$ |
+| $a_n = r^n$ ($                         \| r           \| \ge 1$) | Diverges  | --  |
 | $a_n = \left(1 + \frac{1}{n}\right)^n$ | Converges   | $e$     |
 | $a_n = \frac{n!}{n^n}$                 | Converges   | $0$     |
 | $a_n = (-1)^n$                         | Diverges    | --      |
 | $a_n = \sqrt{n+1} - \sqrt{n}$          | Converges   | $0$     |
 | $a_n = \frac{\ln n}{n}$                | Converges   | $0$     |
+
+</div>
 
 ### Proof: $\frac{n!}{n^n} \to 0$
 
@@ -84,8 +88,8 @@ By the squeeze theorem, $\frac{n!}{n^n} \to 0$.
 
 ### Proof: $\frac{\ln n}{n} \to 0$
 
-Since $\ln n$ grows slower than any positive power of $n$We have $\ln n \lt \sqrt{n}$ for
-Sufficiently large $n$. Therefore
+Since $\ln n$ grows slower than any positive power of $n$ We have $\ln n \lt \sqrt{n}$ for
+sufficiently large $n$. Therefore
 $0 \lt \frac{\ln n}{n} \lt \frac{\sqrt{n}}{n} = \frac{1}{\sqrt{n}}$ And $\frac{1}{\sqrt{n}} \to 0$ So
 by the squeeze theorem, $\frac{\ln n}{n} \to 0$.
 
@@ -99,8 +103,8 @@ $$
 
 ### Partial Sums
 
-The $n$Th partial sum is $S_n = \sum_{k=1}^{n} a_k$. The series converges if and only if the
-Sequence of partial sums $\{S_n\}$ converges:
+The $n$ Th partial sum is $S_n = \sum_{k=1}^{n} a_k$. The series converges if and only if the
+sequence of partial sums $\{S_n\}$ converges:
 
 $$
 \sum_{n=1}^{\infty} a_n = L \iff \lim_{n \to \infty} S_n = L
@@ -108,14 +112,14 @@ $$
 
 If $\{S_n\}$ diverges, the series diverges.
 
-### The $n$Th-Term Test (Divergence Test)
+### The $n$ Th-Term Test (Divergence Test)
 
 If $\displaystyle\lim_{n \to \infty} a_n \ne 0$ Then $\displaystyle\sum a_n$ diverges.
 
 **Proof (by contrapositive):** If $\sum a_n$ converges to $L$ Then $S_n \to L$ and $S_{n-1} \to L$.
-Since $a_n = S_n - S_{n-1}$We get $a_n \to L - L = 0$.
+Since $a_n = S_n - S_{n-1}$ We get $a_n \to L - L = 0$.
 
-**Caution:** If $\displaystyle\lim_{n \to \infty} a_n = 0$The test is inconclusive. The series may
+**Caution:** If $\displaystyle\lim_{n \to \infty} a_n = 0$ The test is inconclusive. The series may
 Converge or diverge. The harmonic series $\sum \frac{1}{n}$ is the canonical counterexample.
 
 :::note[Example]
@@ -125,7 +129,7 @@ $$
 \lim_{n \to \infty} \frac{n}{n+1} = 1 \ne 0
 $$
 
-By the $n$Th-term test, the series diverges.
+By the $n$ Th-term test, the series diverges.
 
 ### The Harmonic Series
 
@@ -133,7 +137,7 @@ $$
 \sum_{n=1}^{\infty} \frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots
 $$
 
-Even though $\frac{1}{n} \to 0$This series diverges. The proof groups terms:
+Even though $\frac{1}{n} \to 0$ This series diverges. The proof groups terms:
 
 $$
 1 + \frac{1}{2} + \left(\frac{1}{3} + \frac{1}{4}\right) + \left(\frac{1}{5} + \frac{1}{6} + \frac{1}{7} + \frac{1}{8}\right) + \cdots
@@ -141,7 +145,7 @@ $$
 
 Each group exceeds $\frac{1}{2}$:
 $\frac{1}{3} + \frac{1}{4} \gt \frac{1}{4} + \frac{1}{4} = \frac{1}{2}$ And so on. Since we can Form
-infinitely many groups each exceeding $\frac{1}{2}$The partial sums diverge to $+\infty$.
+infinitely many groups each exceeding $\frac{1}{2}$ The partial sums diverge to $+\infty$.
 
 ## Geometric Series (CED BC Unit 10.2)
 
@@ -151,7 +155,7 @@ $$
 
 The series diverges when $|r| \ge 1$.
 
-**Derivation.** The $n$Th partial sum is $S_n = a + ar + ar^2 + \cdots + ar^{n-1}$. Then:
+**Derivation.** The $n$ Th partial sum is $S_n = a + ar + ar^2 + \cdots + ar^{n-1}$. Then:
 
 $$
 RS_n = ar + ar^2 + \cdots + ar^n
@@ -172,7 +176,7 @@ When $|r| \lt 1$, $r^n \to 0$ So $S_n \to \frac{a}{1 - r}$.
 Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{3}{2^n}$.
 
 Rewrite as $\displaystyle\sum_{n=1}^{\infty} 3\left(\frac{1}{2}\right)^n$. Here $a = \frac{3}{2}$
-And $r = \frac{1}{2}$.
+and $r = \frac{1}{2}$.
 
 $$
 \sum_{n=1}^{\infty} \frac{3}{2^n} = \frac{3/2}{1 - 1/2} = \frac{3/2}{1/2} = 3
@@ -272,10 +276,10 @@ $$
 - Diverges if $p \le 1$
 
 This follows directly from the integral test: $\int_1^{\infty} \frac{dx}{x^p}$ converges if and only
-If $p \gt 1$.
+if $p \gt 1$.
 
 The $p$-series with $p = 1$ is the harmonic series, which diverges. This is the "boundary case" that
-Separates convergence from divergence.
+separates convergence from divergence.
 
 ## Comparison Tests (CED BC Unit 10.5)
 
@@ -302,7 +306,7 @@ $$
 - If $L = \infty$ and $\sum b_n$ diverges, then $\sum a_n$ diverges.
 
 The case $0 \lt L \lt \infty$ is the most commonly used: it says the two series have the "same order
-Of magnitude," so they share the same convergence behavior.
+of magnitude," so they share the same convergence behavior.
 :::
 
 :::note[Example]
@@ -314,7 +318,7 @@ $$
 \lim_{n \to \infty} \frac{1/(n^2+1)}{1/n^2} = \lim_{n \to \infty} \frac{n^2}{n^2 + 1} = 1
 $$
 
-Since $0 \lt 1 \lt \infty$Both series converge by the limit comparison test.
+Since $0 \lt 1 \lt \infty$ Both series converge by the limit comparison test.
 
 ### Worked Example: Choosing the Right Comparison
 
@@ -328,11 +332,11 @@ $$
 \lim_{n \to \infty} \frac{(3n+1)/(n^3-2)}{1/n^2} = \lim_{n \to \infty} \frac{n^2(3n+1)}{n^3-2} = \lim_{n \to \infty} \frac{3n^3 + n^2}{n^3 - 2} = 3
 $$
 
-Since $L = 3 \in (0, \infty)$Both series converge.
+Since $L = 3 \in (0, \infty)$ Both series converge.
 
 ## The Ratio Test (CED BC Unit 10.7)
 
-For $\displaystyle\sum a_n$Compute:
+For $\displaystyle\sum a_n$ Compute:
 
 $$
 L = \lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|
@@ -343,7 +347,7 @@ $$
 - If $L = 1$: the test is **inconclusive**.
 
 The ratio test is especially useful when the terms involve factorials or exponentials, because the
-Ratio tends to simplify dramatically.
+ratio tends to simplify dramatically.
 
 **Why it connects to geometric series.** If $\left|\frac{a_{n+1}}{a_n}\right| \to L \lt 1$ Then for
 Large $n$ the terms behave like a geometric series with ratio $L$ And geometric series converge When
@@ -357,7 +361,7 @@ $$
 L = \lim_{n \to \infty} \frac{(n+1)! / 10^{n+1}}{n! / 10^n} = \lim_{n \to \infty} \frac{n+1}{10} = \infty
 $$
 
-Since $L = \infty \gt 1$The series diverges.
+Since $L = \infty \gt 1$ The series diverges.
 :::
 
 :::note[Example]
@@ -367,7 +371,7 @@ $$
 L = \lim_{n \to \infty} \frac{2^{n+1} / (n+1)!}{2^n / n!} = \lim_{n \to \infty} \frac{2}{n+1} = 0
 $$
 
-Since $L = 0 \lt 1$The series converges absolutely.
+Since $L = 0 \lt 1$ The series converges absolutely.
 
 ## The Alternating Series Test (Leibniz Test)
 
@@ -381,29 +385,29 @@ Then the alternating series $\displaystyle\sum_{n=1}^{\infty} (-1)^{n-1} a_n$ co
 
 **Intuition:** The partial sums oscillate, but the oscillations shrink because the terms decrease.
 The odd-indexed partial sums $S_1, S_3, S_5, \ldots$ form a decreasing sequence bounded below, and
-The even-indexed partial sums $S_2, S_4, S_6, \ldots$ form an increasing sequence bounded above.
-Both converge to the same limit.
+the even-indexed partial sums $S_2, S_4, S_6, \ldots$ form an increasing sequence bounded above.
+both converge to the same limit.
 
 ### Alternating Series Estimation Theorem
 
 If $S = \displaystyle\sum_{n=1}^{\infty} (-1)^{n-1} a_n$ is a convergent alternating series, then
-The error in using $S_n$ to approximate $S$ satisfies:
+the error in using $S_n$ to approximate $S$ satisfies:
 
 $$
 |R_n| = |S - S_n| \le a_{n+1}
 $$
 
 That is, the error is bounded by the first omitted term. This is remarkably useful: you can control
-The error by counting terms.
+the error by counting terms.
 :::
 
 :::note[Example]
 How many terms of $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}$ are needed to approximate
-The sum with error less than $0.001$?
+the sum with error less than $0.001$?
 
-The terms are $a_n = \frac{1}{n}$Which decrease and approach 0.
+The terms are $a_n = \frac{1}{n}$ Which decrease and approach 0.
 
-We need $a_{n+1} = \frac{1}{n+1} \lt 0.001$ So $n + 1 \gt 1000$Meaning $n \ge 1000$.
+We need $a_{n+1} = \frac{1}{n+1} \lt 0.001$ So $n + 1 \gt 1000$ Meaning $n \ge 1000$.
 
 At least 1000 terms are needed.
 
@@ -421,7 +425,7 @@ $\sum a_n = \sum (a_n + |a_n|) - \sum |a_n|$ converges as the difference of two 
 
 **Riemann rearrangement theorem.** A conditionally convergent series can be rearranged to converge
 To any real number, or to diverge. This is not true for absolutely convergent series, whose sum is
-Invariant under rearrangement.
+invariant under rearrangement.
 :::
 
 :::note[Example]
@@ -448,16 +452,20 @@ Series is: for which values of $x$ does it converge?
 ### Interval and Radius of Convergence
 
 Every power series converges in an interval $(a - R, a + R)$ where $R$ is the **radius of
-Convergence**:
+convergence**:
 
 - Use the ratio test to find $R$: $\displaystyle R = \frac{1}{\lim_{n \to \infty} |c_{n+1}/c_n|}$.
 - Check the endpoints separately (the ratio test is inconclusive when $L = 1$).
+
+<div class="table-wrap">
 
 | Case                 | Interval of Convergence             |
 | -------------------- | ----------------------------------- |
 | $R = 0$              | Single point $\{a\}$                |
 | $R = \infty$         | $(-\infty, \infty)$                 |
 | $0 \lt R \lt \infty$ | Check endpoints of $(a - R, a + R)$ |
+
+</div>
 :::
 
 :::note[Example]
@@ -469,8 +477,8 @@ $$
 L = \lim_{n \to \infty} \left|\frac{(x-2)^{n+1}/(n+1)!}{(x-2)^n/n!}\right| = \lim_{n \to \infty} \frac{|x-2|}{n+1} = 0
 $$
 
-Since $L = 0 \lt 1$ for all $x$The series converges for all real numbers. The interval of
-Convergence is $(-\infty, \infty)$ with $R = \infty$.
+Since $L = 0 \lt 1$ for all $x$ The series converges for all real numbers. The interval of
+convergence is $(-\infty, \infty)$ with $R = \infty$.
 :::
 
 :::note[Example]
@@ -480,7 +488,7 @@ $$
 L = \lim_{n \to \infty} \left|\frac{(x-1)^{n+1}/(n+1)}{(x-1)^n/n}\right| = |x - 1| \cdot \lim_{n \to \infty} \frac{n}{n+1} = |x - 1|
 $$
 
-Converges when $|x - 1| \lt 1$I.e., $0 \lt x \lt 2$. Radius $R = 1$.
+Converges when $|x - 1| \lt 1$ I.e., $0 \lt x \lt 2$. Radius $R = 1$.
 
 **Check $x = 0$:** $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$ converges (alternating
 Series).
@@ -502,7 +510,7 @@ $$
 $$
 
 Differentiation and integration of power series do not change the radius of convergence (though the
-Behaviour at the endpoints may change).
+behaviour at the endpoints may change).
 
 ## Taylor and Maclaurin Series (CED BC Unit 10.11)
 
@@ -512,13 +520,13 @@ $$
 F(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x - a)^n
 $$
 
-When $a = 0$This is called a **Maclaurin series**.
+When $a = 0$ This is called a **Maclaurin series**.
 
 ### Why Taylor Series Work
 
 The Taylor polynomial $T_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x-a)^k$ is the unique
 Polynomial of degree $\le n$ whose value and first $n$ derivatives at $x = a$ match those of $f$. As
-$n \to \infty$If the remainder $R_n(x) = f(x) - T_n(x) \to 0$ Then the Taylor series converges to
+$n \to \infty$ If the remainder $R_n(x) = f(x) - T_n(x) \to 0$ Then the Taylor series converges to
 $f(x)$.
 
 ### Common Maclaurin Series
@@ -551,7 +559,7 @@ $$
 \arctan x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1} = x - \frac{x^3}{3} + \frac{x^5}{5} - \cdots, \quad R = 1
 $$
 
-### Taylor"s Inequality (Remainder Estimation)
+### Taylor's Inequality (Remainder Estimation)
 
 The remainder after $n$ terms of the Taylor series satisfies:
 
@@ -660,13 +668,13 @@ $$
    sequence does not imply a convergent series (e.g., $a_n = \frac{1}{n}$ converges to 0, but
    $\sum \frac{1}{n}$ diverges).
 
-2. **Using the $n$Th-term test incorrectly.** $\lim a_n = 0$ does not prove convergence (e.g.,
+2. **Using the $n$ Th-term test incorrectly.** $\lim a_n = 0$ does not prove convergence (e.g.,
    harmonic series). The test only detects divergence.
 
 3. **Forgetting to check endpoints** of the interval of convergence for power series. The ratio test
    always gives $L = 1$ at the endpoints, so you must use a different test.
 
-4. **Misidentifying the center** of a Taylor series. For $\sum c_n(x - 3)^n$The center is $a = 3$.
+4. **Misidentifying the center** of a Taylor series. For $\sum c_n(x - 3)^n$ The center is $a = 3$.
 
 5. **Applying the ratio test when $L = 1$.** The test is inconclusive; use a different test
    (comparison, integral, alternating series).
@@ -755,7 +763,7 @@ $a_n = \frac{2^n x^n}{n!}$.
 
 $\displaystyle L = \lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right| = \lim_{n \to \infty} \left|\frac{2^{n+1} x^{n+1} / (n+1)!}{2^n x^n / n!}\right| = \lim_{n \to \infty} \frac{2|x|}{n+1} = 0$.
 
-Since $L = 0 \lt 1$ for all $x$The radius of convergence is $R = \infty$. The series converges for
+Since $L = 0 \lt 1$ for all $x$ The radius of convergence is $R = \infty$. The series converges for
 all real $x$. (This is the Maclaurin series for $e^{2x}$.)
 
 </details>
@@ -796,9 +804,9 @@ We know $\frac{1}{1-x} = \sum_{n=0}^{\infty} x^n$ for $|x| \lt 1$.
 Differentiate both sides:
 $\frac{1}{(1-x)^2} = \sum_{n=1}^{\infty} nx^{n-1} = \sum_{n=0}^{\infty} (n+1)x^n$.
 
-Interval of convergence: $|x| \lt 1$Or $(-1, 1)$.
+Interval of convergence: $|x| \lt 1$ Or $(-1, 1)$.
 
-Check endpoints: at $x = 1$Series is $\sum (n+1)$ which diverges. At $x = -1$Series is
+Check endpoints: at $x = 1$ Series is $\sum (n+1)$ which diverges. At $x = -1$ Series is
 $\sum (-1)^n(n+1)$ which diverges by the divergence test.
 
 </details>
@@ -844,16 +852,6 @@ See for instructions
 on self-marking and building a personal test matrix.
 :::
 
-```mermaid
-flowchart TD
-    A[5_Sequences And Series] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to sequences and series,
@@ -867,13 +865,7 @@ including key theorems, methods, and problem-solving approaches.
 - convergence tests
 - mathematical induction
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

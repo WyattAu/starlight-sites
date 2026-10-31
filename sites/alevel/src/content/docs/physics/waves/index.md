@@ -67,7 +67,7 @@ explaining phenomena from sound to light to quantum mechanics.
 - **Principle of superposition**, resultant displacement is the sum of individual displacements
 - **Constructive interference**, path difference $= n\lambda$; amplitudes add
 - **Destructive interference**, path difference $= (n + \frac{1}{2})\lambda$; amplitudes cancel
-- **Two-source interference**, Young"s double slit: fringe spacing
+- **Two-source interference**, Young's double slit: fringe spacing
   $\Delta y = \frac{\lambda D}{s}$; coherent sources required
 - **Diffraction gratings**, $d\sin\theta = n\lambda$; calculating wavelength or grating spacing;
   resolving power
@@ -101,12 +101,16 @@ can be polarised, longitudinal waves (sound) cannot.
 
 ### Stationary vs. Progressive Waves
 
+<div class="table-wrap">
+
 | Property        | Progressive Wave                              | Stationary Wave                             |
 | --------------- | --------------------------------------------- | ------------------------------------------- |
 | Energy transfer | Yes                                           | No (energy stored)                          |
 | Amplitude       | Constant for all points                       | Varies: zero at nodes, maximum at antinodes |
 | Phase           | Changes along the wave                        | All points between nodes are in phase       |
 | Wavelength      | Distance between consecutive identical points | Twice the distance between adjacent nodes   |
+
+</div>
 
 ## Study Tips
 
@@ -164,8 +168,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 

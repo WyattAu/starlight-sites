@@ -23,8 +23,8 @@ categories:
 
 CPython is the reference implementation of Python, written in C. It is the most widely used
 Implementation and the one most people mean when they say "Python." Understanding its architecture
-Is essential for performance tuning, debugging segfaults in C extensions, and reasoning about
-Python"s memory and concurrency behavior.
+is essential for performance tuning, debugging segfaults in C extensions, and reasoning about
+Python's memory and concurrency behavior.
 
 The execution pipeline in CPython is:
 
@@ -111,7 +111,7 @@ Machine instruction, while a Python `int` addition involves:
 9. Set the result's `ob_refcnt` to 1.
 10. Decrement the reference count of both operands.
 
-The `ob_type` pointer enables dynamic dispatch. When Python evaluates `a + b`It follows `a.ob_type`
+The `ob_type` pointer enables dynamic dispatch. When Python evaluates `a + b`. It follows `a.ob_type`
 to the type object, then looks up the `tp_as_number->nb_add` slot to find the addition Function.
 This is a two-level indirection per operation. The `tp_slots` mechanism is how Python's Data model
 (dunder methods) maps to C function pointers.
@@ -120,8 +120,8 @@ This is a two-level indirection per operation. The `tp_slots` mechanism is how P
 
 The type object is itself a `PyObject` (with its own reference count and type pointer -- the type of
 A type is `type`And the type of `type` is `type`). It additionally contains a large struct with
-Function pointers for every operation the object supports: `tp_repr``tp_hash``tp_call`
-`tp_iternext``tp_as_sequence``tp_as_mapping`And dozens more. These slots are the C-level Equivalent
+Function pointers for every operation the object supports: `tp_repr`, `tp_hash`, `tp_call`
+`tp_iternext`, `tp_as_sequence`, `tp_as_mapping` and dozens more. These slots are the C-level Equivalent
 of dunder methods.
 
 ## Reference Counting
@@ -226,19 +226,19 @@ Collected. The same logic applies for generation 2.
 ### What the GC Tracks
 
 The GC only tracks container objects that can participate in cycles: lists, dicts, sets, instances
-Of user-defined classes, tuples, and similar. It does not track immutable atomic objects (integers,
+of user-defined classes, tuples, and similar. It does not track immutable atomic objects (integers,
 Strings, floats) because they cannot hold references to other objects. Note that tuples are tracked
-Because they can contain references to mutable objects, even though the tuple itself is immutable.
+because they can contain references to mutable objects, even though the tuple itself is immutable.
 
 ### `__del__` and the Finalizer Problem
 
 Objects with `__del__` methods complicate garbage collection. The GC cannot safely break a cycle
-That includes objects with `__del__`Because breaking the cycle requires deallocating at least one
-Object, which triggers `__del__`Which might access other objects in the cycle that have already Been
+that includes objects with `__del__`. Because breaking the cycle requires deallocating at least one
+Object, which triggers `__del__`. Which might access other objects in the cycle that have already Been
 deallocated.
 
 In CPython 3.4+, the GC handles this by placing such objects in a list (`gc.garbage`) and reporting
-Them as unreachable but uncollectible. The programmer must explicitly break the cycle.
+them as unreachable but uncollectible. The programmer must explicitly break the cycle.
 
 ```python
 import gc
@@ -309,7 +309,7 @@ def get_user(user_id):
 ```
 
 This is the correct pattern for caches where you want entries to be evicted automatically when no
-Other code holds a reference to the cached object.
+other code holds a reference to the cached object.
 
 ### `gc.disable()` and When to Use It
 
@@ -333,7 +333,7 @@ def latency_critical_section():
 ```
 
 This defers GC to the end of the critical section. The `finally` block ensures the GC is re-enabled
-Even if `perform_work()` raises an exception.
+even if `perform_work()` raises an exception.
 
 ## Bytecode and the `dis` Module
 
@@ -397,7 +397,7 @@ for instr in bc:
 ### The Stack-Based VM
 
 CPython's eval loop is a stack-based virtual machine. Most bytecode instructions either push a value
-Onto the stack, pop a value from the stack, or both. Binary operations like `BINARY_ADD` pop two
+onto the stack, pop a value from the stack, or both. Binary operations like `BINARY_ADD` pop two
 Values, compute the result, and push it. `LOAD_FAST` pushes a local variable onto the stack.
 `RETURN_VALUE` pops the top of stack and returns it.
 
@@ -430,11 +430,13 @@ Key attributes:
 - `co_varnames`: Names of local variables (including parameters).
 - `co_argcount`: Number of positional arguments (excluding `*args`).
 - `co_consts`: Tuple of constants used in the function (literal values loaded by `LOAD_CONST`).
-- `co_names`: Names of global variables and attributes (used by `LOAD_GLOBAL``LOAD_ATTR`).
+- `co_names`: Names of global variables and attributes (used by `LOAD_GLOBAL`, `LOAD_ATTR`).
 - `co_freevars`: Names of free variables (variables from enclosing scopes, used by closures).
 - `co_cellvars`: Names of cell variables (local variables referenced by nested functions).
 
 ### Common Bytecode Instructions
+
+<div class="table-wrap">
 
 | Instruction                | Stack Effect                         | Description                            |
 | -------------------------- | ------------------------------------ | -------------------------------------- |
@@ -453,6 +455,8 @@ Key attributes:
 | `BUILD_LIST size`          | pop size items, push list            | Build a list from stack items          |
 | `GET_ITER`                 | pop iterable, push iterator          | Get iterator from iterable             |
 | `FOR_ITER target`          | push next or jump                    | Iterator loop                          |
+
+</div>
 
 ### Reading Bytecode for Optimization
 
@@ -505,7 +509,7 @@ Strings that are NOT automatically interned:
 
 1. Strings created at runtime via concatenation, formatting, or `str()`.
 2. Strings read from files, network, or user input.
-3. Strings created by `str.join()``str.replace()`Or other string methods.
+3. Strings created by `str.join()`, `str.replace()` or other string methods.
 
 ```python
 a = "hello"
@@ -588,7 +592,7 @@ Different caching strategies or no caching at all.
 Small integers are extremely common in Python programs (loop counters, boolean results, short lists
 Indices, enum values). Caching them eliminates the overhead of allocating a new `PyObject` for every
 Occurrence. The range `[-5, 256]` was chosen empirically to cover the vast majority of use cases
-Without consuming excessive memory.
+without consuming excessive memory.
 
 ## `__dict__` vs `__slots__`
 
@@ -736,7 +740,7 @@ Contend for the GIL simultaneously.
 
 The GIL is released (and later re-acquired) during:
 
-1. **I/O operations:** `open()``read()``write()``socket.recv()``socket.send()`And all other blocking
+1. **I/O operations:** `open()`, `read()`, `write()`, `socket.recv()`, `socket.send()` and all other blocking
    I/O. The C extension performing the I/O releases the GIL before the blocking call and re-acquires
    it after.
 2. **`time.sleep()`:** Explicitly releases the GIL.
@@ -744,7 +748,7 @@ The GIL is released (and later re-acquired) during:
    `Py_END_ALLOW_THREADS` macros. NumPy, Pandas, and similar libraries do this for CPU-intensive
    computation.
 4. **Blocking C library calls:** `ctypes` calls to C functions release the GIL by default.
-5. **`subprocess``threading``multiprocessing` primitives:** Wait operations on locks, events,
+5. **`subprocess`, `threading`, `multiprocessing` primitives:** Wait operations on locks, events,
    queues, and semaphores release the GIL.
 
 ### Why Removing the GIL Is Hard
@@ -785,16 +789,6 @@ As of Python 3.13, the free-threaded build is experimental and not recommended f
 Popular packages (NumPy, Pandas, etc.) do not yet fully support it. The expectation is that by
 Python 3.15-3.16, free-threading will be production-ready and the GIL will be optional by default.
 
-```mermaid
-flowchart TD
-    A[05 Python Internals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 CPython is an interpreter, not a compiler. It reads your code, compiles it to bytecode, an intermediate representation, and then executes it one instruction at a time on a virtual machine. This virtual machine is like a stack of plates: operations push results on top and pop operands off. The GIL is a single key to a shared bathroom, only one thread can hold it, so only one thread can execute Python code at a time. Reference counting is Python's memory janitor: every time something points to an object, the refcount goes up; every time it stops pointing, the refcount goes down. When refcount hits zero, the object is immediately cleaned up. This is fast but cannot handle circular references, which is why a periodic garbage collector exists as a backup.
@@ -820,7 +814,7 @@ Objects.
 **2. Assuming `__del__` will be called promptly.**
 
 Reference counting means `__del__` is called immediately when the last reference drops -- most of
-The time. But if the object is in a reference cycle, `__del__` is not called until the garbage
+the time. But if the object is in a reference cycle, `__del__` is not called until the garbage
 Collector runs, which may be much later or never (if the GC is disabled).
 
 ```python
@@ -856,7 +850,7 @@ print(sys.getrefcount(x))
 ```
 
 The returned count is always at least 2 for a local variable: one for the variable itself, one for
-The temporary reference created by passing it to `getrefcount`.
+the temporary reference created by passing it to `getrefcount`.
 
 **5. Forgetting that `__slots__` must be defined on every class in the hierarchy.**
 
@@ -886,14 +880,11 @@ Bytecode behavior.
 **8. Ignoring the GC's impact on real-time performance.**
 
 A full garbage collection (`gc.collect()`) can take milliseconds to seconds depending on the number
-Of tracked objects. In latency-sensitive applications (trading systems, game loops, real- time
+of tracked objects. In latency-sensitive applications (trading systems, game loops, real- time
 Signal processing), an unexpected GC pause can cause deadline misses. Profile your GC behavior with
 `gc.get_stats()` (Python 3.4+) and tune thresholds accordingly.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

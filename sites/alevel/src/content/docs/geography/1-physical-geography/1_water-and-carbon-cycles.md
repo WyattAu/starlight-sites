@@ -20,7 +20,7 @@ description: "A-Level Geography Water and Carbon Cycles notes covering key defin
 
 ## Introduction
 
-The water and carbon cycles are global systems that transfer energy and matter across the Earth"s
+The water and carbon cycles are global systems that transfer energy and matter across the Earth's
 surface and atmosphere. Understanding these cycles is fundamental to explaining climate patterns,
 ecosystem functioning, and the impacts of human activity on the environment. This topic examines the
 stores, flows, and feedback mechanisms within both cycles, with particular emphasis on how they
@@ -38,6 +38,8 @@ interact and respond to change.
 </script>
 
 ## Key Concepts and Definitions
+
+<div class="table-wrap">
 
 | Term                                   | Definition                                                                                           |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -62,6 +64,8 @@ interact and respond to change.
 | **Hydrosphere**                        | All the water on or near the Earth's surface                                                         |
 | **Atmosphere**                         | The layer of gases surrounding the Earth                                                             |
 
+</div>
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -80,6 +84,8 @@ interact and respond to change.
 The global water cycle is a closed system, no water enters or leaves (in significant quantities).
 The major stores are:
 
+<div class="table-wrap">
+
 | Store                 | Volume (km³)  | Percentage |
 | --------------------- | ------------- | ---------- |
 | Oceans                | 1,338,000,000 | 96.5%      |
@@ -88,6 +94,8 @@ The major stores are:
 | Surface water         | 189,000       | 0.014%     |
 | Atmosphere            | 12,900        | 0.001%     |
 | Biosphere             | 1,120         | 0.0001%    |
+
+</div>
 
 **Key flows** in order of magnitude: surface runoff, evaporation, precipitation, groundwater flow,
 transpiration.
@@ -164,6 +172,8 @@ is at field capacity.
 
 The carbon cycle is also a closed system at the global scale. Major stores:
 
+<div class="table-wrap">
+
 | Store                                  | Carbon (Gt C) |
 | -------------------------------------- | ------------- |
 | Ocean (dissolved inorganic)            | 38,000        |
@@ -172,6 +182,8 @@ The carbon cycle is also a closed system at the global scale. Major stores:
 | Soil                                   | 1,500         |
 | Atmosphere (as CO₂)                    | 750           |
 | Vegetation (biomass)                   | 560           |
+
+</div>
 
 **Key flows**: photosynthesis, respiration, decomposition, combustion, ocean-atmosphere exchange,
 weathering, volcanic outgassing.
@@ -467,17 +479,6 @@ the ocean's buffering capacity, potentially weakening its future role as a carbo
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[1_Water And Carbon Cycles] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

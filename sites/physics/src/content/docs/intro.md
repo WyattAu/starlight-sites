@@ -14,6 +14,13 @@ description: "Study notes for Physics with worked examples, practice problems, a
 }
 </script>
 
+:::note[New to the subject, or from a different exam board?]
+Read **[Before You Begin: The Mathematics Physics Assumes](/before-you-begin/)** first. It rebuilds what the tracks assume -- vectors, trigonometry, coordinate geometry, and single-variable calculus including the chain and product rules --
+from first principles, defines every term before it is used, and ends with a
+self-test so confident readers can skip by assessment rather than by trust.
+:::
+
+
 ## Physics
 
 Welcome to the physics notes. These notes cover undergraduate physics, from classical mechanics through quantum theory and statistical mechanics.
@@ -47,11 +54,13 @@ Physics describes the fundamental laws governing the universe, from the motion o
 - **[Quantum Mechanics](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)**: Quantum theory governs behaviour at atomic and subatomic scales.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Core Concepts
+
+<div class="table-wrap">
 
 | Domain | Core Principle | Key Equations | Connection to Other Branches |
 | -------- | --------------- | --------------- | ------------------------------ |
@@ -62,6 +71,8 @@ Physics describes the fundamental laws governing the universe, from the motion o
 | Statistical Mechanics | Microstates determine macrostates | $S = k_B \ln \Omega$ | Derives thermodynamics from particles |
 | Optics | Light behaves as a wave | $I = I_0 \cos^2\theta$ (Malus) | Applications in lasers, fibre optics |
 | Solid State | Periodic potentials create band gaps | $E(k) = E_0 + 2t\cos(ka)$ | Explains conductors, insulators, semiconductors |
+
+</div>
 
 ## Exam Strategy
 
@@ -79,18 +90,11 @@ Physics describes the fundamental laws governing the universe, from the motion o
 
 **Ignoring sig figs and unit consistency:** Physics answers must have correct significant figures and consistent units. Dropping units mid-calculation leads to dimensional errors.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -100,50 +104,3 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.

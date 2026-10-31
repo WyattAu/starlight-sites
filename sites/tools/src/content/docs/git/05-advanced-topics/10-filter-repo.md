@@ -22,7 +22,7 @@ Filter-repo is a tool for rewriting Git history that replaces the deprecated and
 ## What filter-repo Is
 
 `git-filter-repo` is a Python-based tool for rewriting Git repository history. It is the modern,
-Recommended replacement for `git filter-branch`Which has been deprecated since Git 2.24 (December
+Recommended replacement for `git filter-branch`. Which has been deprecated since Git 2.24 (December
 2019). `git-filter-repo` was written by Elijah Newren, a Git core contributor, and addresses the
 Fundamental design flaws of `filter-branch`.
 
@@ -113,6 +113,8 @@ $ which git-filter-repo
 
 ### Operation Reference Table
 
+<div class="table-wrap">
+
 | Operation                        | Command                                                      | Effect                                                                 |
 | -------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------- |
 | Remove a file from all history   | `git filter-repo --path path/to/file --invert-paths`         | Deletes the file and all commits that only touched that file           |
@@ -125,6 +127,8 @@ $ which git-filter-repo
 | Replace blob content             | `git filter-repo --blob-callback 'return blob.replace(...)'` | Python callback for arbitrary blob modifications                       |
 | Rename files                     | `git filter-repo --path-rename old/path:new/path`            | Renames files/directories across all history                           |
 | Add a prefix to all paths        | `git filter-repo --prefix new-prefix/`                       | Prepends a directory prefix to all file paths                          |
+
+</div>
 
 ### Removing a File from All History
 
@@ -140,7 +144,7 @@ $ git filter-repo --path-glob '*.pem' --invert-paths
 ```
 
 The `--invert-paths` flag inverts the selection: `--path X --invert-paths` means "keep everything
-Except X." Without `--invert-paths``--path X` means "keep only X."
+except X." Without `--invert-paths`, `--path X` means "keep only X."
 
 After removing files, commits that become empty (they only touched the removed files) are also
 Removed. This is the desired behavior, but it can be surprising if you expected those Commits to
@@ -286,7 +290,7 @@ EOF
 
 ### Replacement References
 
-In regex replacements, `\1``\2`Etc. Reference captured groups:
+In regex replacements, `\1`, `\2`. Etc. Reference captured groups:
 
 ```
 # Mask the password but keep the username and host
@@ -307,6 +311,8 @@ $ git filter-repo --replace-text expressions.txt
 
 ### Feature Comparison
 
+<div class="table-wrap">
+
 | Feature                    | `filter-branch`                          | `filter-repo`                                 |
 | -------------------------- | ---------------------------------------- | --------------------------------------------- |
 | Speed                      | Slow (shell-based, sequential)           | Fast (Python, streaming via fast-export)      |
@@ -320,9 +326,13 @@ $ git filter-repo --replace-text expressions.txt
 | Maintenance status         | Deprecated since Git 2.24                | Actively maintained                           |
 | Repository state after run | Dirty (needs manual cleanup)             | Clean (fully gc'd)                            |
 
+</div>
+
 ### Performance Comparison
 
 On a repository with 50,000 commits and 10,000 files:
+
+<div class="table-wrap">
 
 | Operation            | `filter-branch` | `filter-repo` |
 | -------------------- | --------------- | ------------- |
@@ -330,6 +340,8 @@ On a repository with 50,000 commits and 10,000 files:
 | Rewrite author info  | 30 minutes      | 90 seconds    |
 | Remove large blobs   | 60 minutes      | 3 minutes     |
 | Extract subdirectory | 50 minutes      | 2.5 minutes   |
+
+</div>
 
 These numbers are approximate and depend on hardware, but the order-of-magnitude difference is
 Consistent. `filter-repo` is 15-30x faster because it avoids creating intermediate Git objects, it
@@ -575,7 +587,7 @@ After removing a file from commit B:
 ```
 
 The content of commits D and E may be identical to before, but their SHAs are different because
-Their ancestors changed.
+their ancestors changed.
 
 ### Force Push Is Destructive
 
@@ -633,7 +645,7 @@ $ git verify-commit HEAD
 error: no signature found
 ```
 
-If `commit.gpgsign = true`You can re-sign all commits during the rewrite using a callback, but This
+If `commit.gpgsign = true`. You can re-sign all commits during the rewrite using a callback, but This
 is complex and not recommended for most use cases.
 
 ### CI/CD Build Caches
@@ -671,7 +683,7 @@ $ cd /tmp/repo-clean
 $ git filter-repo --path secret.key --invert-paths
 ```
 
-If you must run on an existing clone, use `--force`But understand the risks:
+If you must run on an existing clone, use `--force`. But understand the risks:
 
 ```bash
 git filter-repo --path secret.key --invert-paths --force
@@ -692,7 +704,7 @@ $ git filter-repo --replace-text /tmp/expressions.txt
 
 ### Not Verifying the Result
 
-After running `filter-repo`Always verify that:
+After running `filter-repo`. Always verify that:
 
 - The secret is completely removed from all history
 - The repository builds and tests pass
@@ -781,17 +793,6 @@ After rewriting history, any CI/CD pipelines that reference specific commit SHAs
 - Release notes that reference commit SHAs
 - Issue tracker links that reference commits
 
-
-```mermaid
-flowchart TD
-    A[10 Filter Repo] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of filter-repo (history rewriting), including underlying theory,
@@ -805,13 +806,7 @@ practical implementation, and key applications.
 - transaction processing (ACID)
 - NoSQL and distributed databases
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

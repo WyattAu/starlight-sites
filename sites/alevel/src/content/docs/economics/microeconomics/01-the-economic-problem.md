@@ -25,18 +25,18 @@ categories:
 ### 1.1 Scarcity
 
 We define **scarcity** as the condition in which human wants exceed the resources available to
-Satisfy them. Formally, if we denote the set of all desired goods and services by $\mathcal{W}$ and
-The set of all producible goods and services by $\mathcal{P}$ Then scarcity is the statement that
+satisfy them. Formally, if we denote the set of all desired goods and services by $\mathcal{W}$ and
+the set of all producible goods and services by $\mathcal{P}$ Then scarcity is the statement that
 $\mathcal{W} \supsetneq \mathcal{P}$. This is not a temporary condition, it is a permanent feature
-Of human existence, because wants are effectively unlimited while resources (land, labour, capital,
+of human existence, because wants are effectively unlimited while resources (land, labour, capital,
 Entrepreneurship) are finite.
 
 Scarcity is the fundamental constraint that makes economics a discipline. Without scarcity, every
-Want could be satisfied simultaneously and there would be no need to choose, allocate, or optimise.
+want could be satisfied simultaneously and there would be no need to choose, allocate, or optimise.
 
 :::note
 The start of the syllabus. CIE (9708) Paper 1 frequently opens with MCQs testing precise definitions
-Of scarcity and opportunity cost.
+of scarcity and opportunity cost.
 :::
 
 ### 1.2 Choice
@@ -49,9 +49,11 @@ Maximises an objective function subject to constraints.
 ### 1.3 Opportunity Cost
 
 We define the **opportunity cost** of a decision as the value of the next-best alternative forgone
-As a result of that decision.
+as a result of that decision.
 
-$$\mathrm{Opportunity cost of } A = \max_{B \neq A} \{U(B)\}$$
+$$
+\mathrm{Opportunity cost of } A = \max_{B \neq A} \{U(B)\}
+$$
 
 Where $U(B)$ is the utility (or value) of alternative $B$. This is not the sum of all alternatives,
 Only the single best one that was rejected.
@@ -96,18 +98,18 @@ Horizons.
 
 The concept of opportunity cost, while fundamental, has limitations. In practice, measuring the
 "value" of the next-best alternative is often subjective and difficult to quantify. How does one
-Compare the utility of three years of travel against three years of work experience? The assumption
-That individuals can identify and rank all alternatives is itself questionable, behavioural
+compare the utility of three years of travel against three years of work experience? The assumption
+that individuals can identify and rank all alternatives is itself questionable, behavioural
 Economics shows that people suffer from _choice overload_ and often fail to consider relevant
 Alternatives (Simon, 1955). Furthermore, in macroeconomic policy, the "next-best alternative" is
-Itself contested: economists disagree on what the government _would have done_ with resources not
-Spent on a particular programme, making opportunity cost estimates inherently debatable.
+itself contested: economists disagree on what the government _would have done_ with resources not
+spent on a particular programme, making opportunity cost estimates inherently debatable.
 
 ### 1.4 Rational Decision Making
 
 A **rational economic agent** seeks to maximise utility (for consumers) or profit (for firms)
 Subject to constraints. For a consumer choosing between goods $x$ and $y$ at prices $P_x$ and $P_y$
-With income $M$:
+with income $M$:
 
 $$
 \begin{aligned}
@@ -118,7 +120,7 @@ $$
 $$
 
 This constrained optimisation problem is the foundation of consumer theory. The solution, the
-Consumer's optimal bundle, depends on the shape of the utility function and the budget constraint.
+consumer's optimal bundle, depends on the shape of the utility function and the budget constraint.
 
 **Satisficing** is an alternative model (Simon, 1955): agents choose the first option that meets a
 Minimum acceptable threshold, rather than optimising. This accounts for bounded rationality,
@@ -135,11 +137,13 @@ Questions.
 
 ### 2.1 Derivation
 
-Consider an economy that produces two goods, $X$ and $Y$Using a fixed quantity of resources. We
-Define the **production possibility frontier (PPF)** as the set of all maximum combinations of $X$
-And $Y$ that the economy can produce when all resources are fully and efficiently employed.
+Consider an economy that produces two goods, $X$ and $Y$ Using a fixed quantity of resources. We
+define the **production possibility frontier (PPF)** as the set of all maximum combinations of $X$
+and $Y$ that the economy can produce when all resources are fully and efficiently employed.
 
-$$\mathrm{PPF} = \{(x, y) : x = f_X(L_X), \; y = f_Y(L_Y), \; L_X + L_Y = \bar{L}, \; f'_X, f'_Y > 0\}$$
+$$
+\mathrm{PPF} = \{(x, y) : x = f_X(L_X), \; y = f_Y(L_Y), \; L_X + L_Y = \bar{L}, \; f'_X, f'_Y > 0\}
+$$
 
 Where $L_X$ and $L_Y$ are the quantities of labour allocated to goods $X$ and $Y$ respectively, and
 $\bar{L}$ is total labour available.
@@ -150,7 +154,7 @@ The PPF is **concave to the origin** (bowed outward). We prove this by showing t
 cost of producing additional units of $X$ increases as more $X$ is produced.
 
 **Proof.** Resources are not perfectly adaptable between uses. As we shift resources from $Y$ to
-$X$We first transfer those resources that are _most_ suited to $X$ production. The initial units Of
+$X$ We first transfer those resources that are _most_ suited to $X$ production. The initial units Of
 $X$ gained are large relative to the $Y$ given up. As we continue transferring, we must use
 Resources that are less suited to $X$ and more suited to $Y$. Each additional unit of $X$ requires
 Giving up _more_ $Y$.
@@ -158,7 +162,9 @@ Giving up _more_ $Y$.
 Formally, if the marginal product of labour in $X$ is diminishing ($f''_X < 0$) and the marginal
 Product in $Y$ is also diminishing, then:
 
-$$\frac{dy}{dx} = -\frac{f'_Y(L_Y)}{f'_X(L_X)}$$
+$$
+\frac{dy}{dx} = -\frac{f'_Y(L_Y)}{f'_X(L_X)}
+$$
 
 As $L_X$ increases, $f'_X(L_X)$ decreases (diminishing returns). As $L_Y$ decreases, $f'_Y(L_Y)$
 Increases. Therefore $\left|\frac{dy}{dx}\right|$ increases, the slope becomes steeper, producing
@@ -194,25 +200,31 @@ We define two types of efficiency:
 **Productive efficiency**: achieved when the economy is producing on the PPF (not inside it). All
 Resources are fully employed and used in their most productive applications.
 
-$$\mathrm{Productive efficiency} \iff (x, y) \in \mathrm{PPF}$$
+$$
+\mathrm{Productive efficiency} \iff (x, y) \in \mathrm{PPF}
+$$
 
 **Allocative efficiency**: achieved when the economy is producing the combination of goods that
 _society values most_. This requires that the marginal rate of transformation equals the marginal
 Rate of substitution:
 
-$$\mathrm{MRT}_{XY} = \mathrm{MRS}_{XY}$$
+$$
+\mathrm{MRT}_{XY} = \mathrm{MRS}_{XY}
+$$
 
 Where $\mathrm{MRT}_{XY} = \left|\frac{dy}{dx}\right|$ is the slope of the PPF and
 $\mathrm{MRS}_{XY} = \frac{MU_X}{MU_Y}$ is the ratio of marginal utilities.
 
 A point inside the PPF represents inefficiency, resources are unemployed or misallocated. A point
-Outside the PPF is unattainable given current resources and technology.
+outside the PPF is unattainable given current resources and technology.
 
 <details>
 <summary>Example: PPF Analysis</summary>
 An economy can produce either guns or butter. Its PPF is given by:
 
-$$y = 100 - x^2$$
+$$
+y = 100 - x^2
+$$
 
 Where $x$ = guns, $y$ = butter (both in thousands of units).
 
@@ -221,7 +233,7 @@ Where $x$ = guns, $y$ = butter (both in thousands of units).
 - At $x = 10$: $y = 0$ (all resources to guns)
 
 The opportunity cost of increasing guns from 5 to 6 is $100 - 36 - 75 = -11$ thousand butter. The
-Opportunity cost of increasing guns from 0 to 1 is $100 - 1 - 100 = -1$ thousand butter. Opportunity
+opportunity cost of increasing guns from 0 to 1 is $100 - 1 - 100 = -1$ thousand butter. Opportunity
 Cost rises as gun production increases.
 
 </details>
@@ -230,18 +242,18 @@ Cost rises as gun production increases.
 
 **Productive inefficiency** is widespread during economic downturns. The UK during the 2008
 Financial crisis is a clear example: GDP fell by over 6% from peak to trough, representing a
-Movement inside the PPF as workers and factories sat idle. The COVID-19 pandemic in 2020 produced an
-Even sharper contraction, the UK economy shrank by 9.9% in a single year as lockdowns forced
+movement inside the PPF as workers and factories sat idle. The COVID-19 pandemic in 2020 produced an
+even sharper contraction, the UK economy shrank by 9.9% in a single year as lockdowns forced
 Businesses to close.
 
 **Allocative inefficiency** can occur even when an economy is on its PPF. Consider an economy at
 Full employment that devotes the majority of output to military spending rather than healthcare or
-Education. It is productively efficient (on the frontier) but allocatively inefficient if society
-Would prefer more civilian goods. The Soviet Union in the 1970s and 1980s exemplified this: high
+education. It is productively efficient (on the frontier) but allocatively inefficient if society
+would prefer more civilian goods. The Soviet Union in the 1970s and 1980s exemplified this: high
 Military output alongside chronic shortages of consumer goods.
 
 The concept of **Pareto efficiency** is closely related: an allocation is Pareto efficient if no one
-Can be made better off without making someone else worse off. Every point on the PPF is Pareto
+can be made better off without making someone else worse off. Every point on the PPF is Pareto
 Efficient in production, but different points on the PPF represent different distributions of output
 - and hence different distributions of welfare between consumers of $X$ and $Y$.
 
@@ -259,17 +271,19 @@ The PPF can shift due to:
 #### Evaluation of PPF Shifts
 
 Not all PPF shifts are equally beneficial. An outward shift driven by capital accumulation may come
-At the cost of current consumption (the classic guns vs butter trade-off). An economy that invests
+at the cost of current consumption (the classic guns vs butter trade-off). An economy that invests
 Heavily in capital goods today sacrifices current living standards for future growth, but if the
-Investment is misdirected (e.g., ghost cities in China), the outward shift may not materialise.
+investment is misdirected (e.g., ghost cities in China), the outward shift may not materialise.
 Similarly, resource discovery (such as North Sea oil in the 1970s) can shift the PPF outward but may
-Also cause "Dutch disease", the resource sector crowds out manufacturing, leading to
-Deindustrialisation. The net effect on welfare depends on how the additional output is distributed
-And whether it satisfies society's most pressing needs.
+also cause "Dutch disease", the resource sector crowds out manufacturing, leading to
+deindustrialisation. The net effect on welfare depends on how the additional output is distributed
+and whether it satisfies society's most pressing needs.
 
 ### 2.5 Economic Systems
 
 We compare three systems using PPF analysis:
+
+<div class="table-wrap">
 
 | Feature      | Free Market        | Command                   | Mixed    |
 | ------------ | ------------------ | ------------------------- | -------- |
@@ -279,6 +293,8 @@ We compare three systems using PPF analysis:
 | Efficiency   | High (competitive) | Low (information problem) | Variable |
 | Equity       | Low                | High (in theory)          | Moderate |
 | PPF position | Near frontier      | Often inside frontier     | Between  |
+
+</div>
 
 **Free market economies** tend to operate near the PPF because price signals allocate resources
 Efficiently. However, they may not achieve allocative efficiency (due to market failure, see Topic
@@ -306,20 +322,20 @@ Correct market failures and promote equity.
 
 The comparison between economic systems is more nuanced than the textbook model suggests. Pure
 Command and pure market economies are theoretical extremes, no real economy operates at either
-Pole. China's economy, for instance, combines state-owned enterprises in strategic sectors with
-Vigorous private enterprise in consumer goods and technology. The "information problem" identified
-By Hayek (1945) and Mises (1920) remains the strongest theoretical argument against central
+pole. China's economy, for instance, combines state-owned enterprises in strategic sectors with
+vigorous private enterprise in consumer goods and technology. The "information problem" identified
+by Hayek (1945) and Mises (1920) remains the strongest theoretical argument against central
 Planning: no planner can possess the dispersed, tacit knowledge held by millions of individuals.
 However, market economies also suffer from information problems, asymmetric information between
-Buyers and sellers can lead to market failure (Akerlof, 1970). The optimal degree of government
+buyers and sellers can lead to market failure (Akerlof, 1970). The optimal degree of government
 Intervention remains one of the central debates in economics and depends on the specific context:
 The effectiveness of institutions, the nature of the goods being produced, and societal values
-Regarding equity and freedom.
+regarding equity and freedom.
 
 :::note
 Economic systems together, often asking 9-mark questions comparing market and command economies.
 Edexcel (Theme 1, 1.1.4) emphasises the role of the price mechanism in allocating resources and
-Expects students to evaluate when government intervention improves outcomes. OCR (H460) expects
+expects students to evaluate when government intervention improves outcomes. OCR (H460) expects
 Students to apply economic systems to contemporary issues such as climate change. CIE (9708) Paper 2
 Essay questions frequently ask students to assess the relative merits of different economic systems.
 :::
@@ -329,14 +345,18 @@ Essay questions frequently ask students to assess the relative merits of differe
 ### 3.1 Definitions
 
 A **positive statement** is a claim about what _is_, it can be tested against evidence and is
-Either true or false.
+either true or false.
 
-$$\mathrm{Example: "A 10\% increase in the minimum wage reduces employment by 2\%."}$$
+$$
+\mathrm{Example: "A 10\% increase in the minimum wage reduces employment by 2\%."}
+$$
 
 A **normative statement** is a claim about what _ought to be_, it involves value judgements and
-Cannot be tested.
+cannot be tested.
 
-$$\mathrm{Example: "The government should increase the minimum wage."}$$
+$$
+\mathrm{Example: "The government should increase the minimum wage."}
+$$
 
 ### 3.2 The Distinction Matters
 
@@ -369,14 +389,14 @@ Classify each statement:
 #### Evaluation of the Positive-Normative Distinction
 
 While the positive-normative distinction is a useful analytical tool, it is not always clear-cut in
-Practice. Some statements blend positive and normative elements. For example, "The government should
-Raise the minimum wage because it reduces poverty" contains a normative claim ("should raise")
+practice. Some statements blend positive and normative elements. For example, "The government should
+raise the minimum wage because it reduces poverty" contains a normative claim ("should raise")
 Embedded within a positive claim ("reduces poverty"). The effectiveness of the positive claim does
-Not settle the normative debate, even if a minimum wage reduces poverty, one could still argue
-Against it on the grounds that it causes unemployment. Furthermore, the choice of what to study (the
-Research agenda itself) is shaped by normative concerns. Economists who prioritise research into
-Inequality are making a value judgement about what matters. The positive-normative distinction is
-Therefore best understood as a continuum rather than a binary classification.
+not settle the normative debate, even if a minimum wage reduces poverty, one could still argue
+against it on the grounds that it causes unemployment. Furthermore, the choice of what to study (the
+research agenda itself) is shaped by normative concerns. Economists who prioritise research into
+inequality are making a value judgement about what matters. The positive-normative distinction is
+therefore best understood as a continuum rather than a binary classification.
 
 :::note
 Positive-normative distinction, with 2-4 mark MCQs or short-answer questions asking Students to
@@ -388,6 +408,8 @@ asks students to identify the positive and normative components within a single 
 
 We define the four factors of production:
 
+<div class="table-wrap">
+
 | Factor               | Definition                                                                   | Reward   |
 | -------------------- | ---------------------------------------------------------------------------- | -------- |
 | **Land**             | All natural resources (physical space, minerals, water, forests)             | Rent     |
@@ -395,16 +417,18 @@ We define the four factors of production:
 | **Capital**          | Manufactured goods used to produce other goods (machinery, tools, factories) | Interest |
 | **Entrepreneurship** | The organisation of the other three factors, bearing risk                    | Profit   |
 
+</div>
+
 **Key distinction**: Capital is _produced_ (it is itself an output of the production process),
 Whereas land and labour are not. Entrepreneurship is a form of human capital but is distinguished
-Because it involves decision-making under uncertainty.
+because it involves decision-making under uncertainty.
 
 :::note
 Rewards explicitly in the specification and frequently asks students to identify which factor is
-Being described in a given scenario. AQA (4.1.1.1) covers factors of production within the broader
+being described in a given scenario. AQA (4.1.1.1) covers factors of production within the broader
 Topic of scarcity and choice. CIE (9708) expects students to distinguish between factor rewards and
-Understand the concept of factor mobility. OCR (H460) may ask students to explain how changes in the
-Quantity or quality of a factor of production affect the PPF.
+understand the concept of factor mobility. OCR (H460) may ask students to explain how changes in the
+quantity or quality of a factor of production affect the PPF.
 :::
 
 ## 5. Specialisation and Division of Labour
@@ -428,7 +452,7 @@ Stops), risk of structural unemployment if demand patterns change.
 #### Real-World Examples of Specialisation
 
 Adam Smith's pin factory remains the classic example: a single worker could produce perhaps 20 pins
-Per day, but 10 workers specialising in distinct tasks (drawing wire, cutting, pointing, grinding,
+per day, but 10 workers specialising in distinct tasks (drawing wire, cutting, pointing, grinding,
 Heading, whitening, papering) could produce over 48,000 pins per day. In modern economies,
 Specialisation extends far beyond individual workers:
 
@@ -445,12 +469,12 @@ Specialisation extends far beyond individual workers:
 While specialisation drives productivity gains, it carries significant risks. Excessive
 Specialisation makes workers vulnerable to structural unemployment when technology or demand
 Changes. The decline of manufacturing employment in the UK (from over 25% of the workforce in 1979
-To under 8% today) illustrates this: workers with highly specific skills struggled to find new
+to under 8% today) illustrates this: workers with highly specific skills struggled to find new
 Employment when factories closed. Moreover, extreme division of labour can lead to **alienation**,
 A concept developed by Karl Marx, where workers lose connection to the final product and find their
-Work meaningless. Henry Ford's assembly lines achieved extraordinary productivity but also produced
+work meaningless. Henry Ford's assembly lines achieved extraordinary productivity but also produced
 High worker turnover until he introduced the USD 5/day wage in 1914. The gig economy represents a
-Partial reversal: platforms like Uber allow flexible, multi-task work but sacrifice the productivity
+partial reversal: platforms like Uber allow flexible, multi-task work but sacrifice the productivity
 Gains of deep specialisation. On balance, the benefits of specialisation outweigh the Costs, but the
 distribution of those benefits is uneven and requires policy attention (retraining Programmes,
 education systems, social safety nets).
@@ -458,8 +482,8 @@ education systems, social safety nets).
 :::note
 Division of labour, with AQA placing more emphasis on the link to international trade and Edexcel
 Focusing on the efficiency gains within firms. CIE (9708) Paper 2 may ask students to evaluate the
-Effects of specialisation on an economy. OCR (H460) often links specialisation to broader questions
-About globalisation and its discontents.
+effects of specialisation on an economy. OCR (H460) often links specialisation to broader questions
+about globalisation and its discontents.
 :::
 
 ## 6. Critical Evaluation
@@ -480,8 +504,8 @@ About globalisation and its discontents.
 
 :::note
 E.g., "Using a PPF diagram, explain how a country might reallocate resources from consumer goods to
-Capital goods and evaluate the consequences." Focus on the trade-off between current consumption and
-Future growth.
+capital goods and evaluate the consequences." Focus on the trade-off between current consumption and
+future growth.
 :::
 
 #### Additional Evaluation Points
@@ -502,13 +526,13 @@ Future growth.
 
 ## 7. Problem Set
 
-**Problem 1.** An economy's PPF is given by $y = 50 - \frac{x^2}{10}$Where $x$ and $y$ are in
+**Problem 1.** An economy's PPF is given by $y = 50 - \frac{x^2}{10}$ Where $x$ and $y$ are in
 Millions of units. Calculate the opportunity cost of producing the 10th unit of $x$ and the 20th
 Unit of $x$. What does the comparison tell you?
 
 <details>
 <summary>Hint</summary>
-Opportunity cost of the $n$Th unit of $x$ = $y(n-1) - y(n)$. Compute $y(9)$ and $y(10)$ for the 10th unit, then $y(19)$ and $y(20)$ for the 20th unit.
+Opportunity cost of the $n$ Th unit of $x$ = $y(n-1) - y(n)$. Compute $y(9)$ and $y(10)$ for the 10th unit, then $y(19)$ and $y(20)$ for the 20th unit.
 </details>
 
 **Problem 2.** Prove that if the PPF is linear ($y = a - bx$), then the opportunity cost of $x$ in
@@ -538,7 +562,7 @@ This is an asymmetric shock, it affects food production capacity but not directl
 
 **Problem 5.** Classify each statement as positive or normative, explaining your reasoning: (a) "The
 UK's Gini coefficient is 0.35." (b) "A Gini coefficient of 0.35 is unacceptable." (c) "Increasing
-The income tax rate to 50% for earners above £100,000 would raise £5 billion." (d) "The government
+the income tax rate to 50% for earners above £100,000 would raise £5 billion." (d) "The government
 Ought to raise taxes on the wealthy."
 
 <details>
@@ -548,7 +572,7 @@ Ought to raise taxes on the wealthy."
 
 **Problem 6.** Using the PPF model, explain how an increase in the quality of education (e.g., more
 Graduates) would affect an economy's capacity to produce both consumer goods and capital goods in
-The long run.
+the long run.
 
 <details>
 <summary>Hint</summary>
@@ -556,13 +580,13 @@ Better education improves human capital $\Rightarrow$ resources become more prod
 </details>
 
 **Problem 7.** A student has 6 hours to revise for two exams: Economics and Mathematics. Her
-Expected marks are $E_E = 20\sqrt{t_E}$ and $E_M = 15\sqrt{t_M}$Where $t_E + t_M = 6$. Find the
-Allocation that maximises her total mark. What is the opportunity cost of the last hour spent on
-Economics?
+Expected marks are $E_E = 20\sqrt{t_E}$ and $E_M = 15\sqrt{t_M}$ Where $t_E + t_M = 6$. Find the
+allocation that maximises her total mark. What is the opportunity cost of the last hour spent on
+economics?
 
 <details>
 <summary>Hint</summary>
-Set up the Lagrangian: $\mathcal{L} = 20\sqrt{t_E} + 15\sqrt{t_M} + \lambda(6 - t_E - t_M)$. Take derivatives and set to zero: $\frac{10}{\sqrt{t_E}} = \lambda$ and $\frac{7.5}{\sqrt{t_M}} = \lambda$. So $\frac{10}{\sqrt{t_E}} = \frac{7.5}{\sqrt{t_M}}$Giving $\frac{t_E}{t_M} = \frac{16}{9}$ So $t_E = \frac{96}{25} = 3.84$ hours, $t_M = 2.16$ hours.
+Set up the Lagrangian: $\mathcal{L} = 20\sqrt{t_E} + 15\sqrt{t_M} + \lambda(6 - t_E - t_M)$. Take derivatives and set to zero: $\frac{10}{\sqrt{t_E}} = \lambda$ and $\frac{7.5}{\sqrt{t_M}} = \lambda$. So $\frac{10}{\sqrt{t_E}} = \frac{7.5}{\sqrt{t_M}}$ Giving $\frac{t_E}{t_M} = \frac{16}{9}$ So $t_E = \frac{96}{25} = 3.84$ hours, $t_M = 2.16$ hours.
 </details>
 
 **Problem 8.** Evaluate the argument that "scarcity can be eliminated through technological
@@ -575,7 +599,7 @@ While technology shifts the PPF outward, it cannot eliminate scarcity because hu
 
 **Problem 9.** A command economy decides to allocate all resources to military production during a
 War. Using PPF analysis, explain: (a) The short-run trade-off (b) The long-run consequences when the
-War ends (c) Why a market economy might make different choices
+war ends (c) Why a market economy might make different choices
 
 <details>
 <summary>Hint</summary>
@@ -593,8 +617,8 @@ Even a "free" school meal costs resources that could have been used elsewhere (t
 **Problem 11.** An economy produces capital goods ($K$) and consumer goods ($C$) with PPF
 $C = 400 - K^2$. The economy currently produces at $K = 10, C = 300$. (a) Is this point on, inside,
 Or outside the PPF? (b) If the government wants to increase capital goods production to $K = 15$
-What is the opportunity cost in terms of consumer goods? (c) Evaluate whether this trade-off is
-Justified for a developing economy seeking long-term growth.
+what is the opportunity cost in terms of consumer goods? (c) Evaluate whether this trade-off is
+justified for a developing economy seeking long-term growth.
 
 <details>
 <summary>Hint</summary>
@@ -618,6 +642,8 @@ This is an evaluative essay question typical of AQA and Edexcel A Level papers. 
 **Problem 13.** The table below shows the maximum output of two goods that Country A can produce
 With its available resources:
 
+<div class="table-wrap">
+
 | Product | Quantity (units) |
 | ------- | ---------------: |
 | Cars    |                0 |
@@ -625,9 +651,11 @@ With its available resources:
 | Wheat   |              200 |
 | Wheat   |                0 |
 
+</div>
+
 (a) Plot the PPF and explain its shape. (b) Calculate the opportunity cost of producing 1 additional
 Car when 50 cars are being produced. (c) If a new technology doubles wheat productivity but has no
-Effect on car production, explain how the PPF changes.
+effect on car production, explain how the PPF changes.
 
 <details>
 <summary>Hint</summary>
@@ -686,18 +714,22 @@ This question requires evaluating the assumptions of rational choice theory agai
 **Example.** An economy produces two goods: capital goods ($K$) and consumer goods ($C$). The PPF is
 given by:
 
-$$C = 100 - 0.01K^2$$
+$$
+C = 100 - 0.01K^2
+$$
 
 **Current production:** $K = 40$, $C = 100 - 0.01(1600) = 84$.
 
 **Opportunity cost of increasing $K$ from 40 to 50:**
-$$\Delta C = C(50) - C(40) = (100 - 0.01(2500)) - (100 - 0.01(1600)) = 75 - 84 = -9$$
+$$
+\Delta C = C(50) - C(40) = (100 - 0.01(2500)) - (100 - 0.01(1600)) = 75 - 84 = -9
+$$
 
 The opportunity cost of 10 additional units of $K$ is 9 units of $C$.
 
 **Marginal opportunity cost at $K = 40$:** $$\frac{dC}{dK} = -0.02K = -0.02(40) = -0.8$$
 
-At $K = 40$Each additional unit of $K$ costs 0.8 units of $C$.
+At $K = 40$ Each additional unit of $K$ costs 0.8 units of $C$.
 
 **At $K = 60$:** $$\frac{dC}{dK} = -0.02(60) = -1.2$$
 
@@ -722,14 +754,18 @@ used, requiring larger sacrifices of consumer goods.
 **Capital accumulation.** If the economy produces at $K = 60$, $C = 64$ And the capital stock grows
 at 5% per year:
 
-$$K_{t+1} = K_t + 0.05K_t = 1.05K_t$$
+$$
+K_{t+1} = K_t + 0.05K_t = 1.05K_t
+$$
 
 The new PPF (next period): $C = 100(1.05)^2 - 0.01K^2 \approx 110.25 - 0.01K^2$.
 
 Wait -- this is not quite right. Capital accumulation shifts the PPF outward because it increases
 the economy's productive capacity. If the PPF shifts proportionally:
 
-$$C = a(100 - 0.01K^2)$$
+$$
+C = a(100 - 0.01K^2)
+$$
 
 Where $a = 1.05$ (5% growth). New PPF: $C = 105 - 0.0105K^2$.
 
@@ -762,6 +798,8 @@ between current consumption and future growth.
 
 The production possibilities (millions of tonnes):
 
+<div class="table-wrap">
+
 | Wheat (million tonnes) | Barley (million tonnes) | Marginal opportunity cost of wheat |
 | :--------------------: | :---------------------: | :--------------------------------: |
 |           0            |           5.0           |                 --                 |
@@ -770,6 +808,8 @@ The production possibilities (millions of tonnes):
 |          3.0           |           3.6           |             0.8 barley             |
 |          4.0           |           2.4           |             1.2 barley             |
 |          5.0           |           0.0           |             2.4 barley             |
+
+</div>
 
 **Current production:** 2 million tonnes of wheat, 4.4 million tonnes of barley.
 
@@ -810,10 +850,14 @@ price ratio ($P_w/P_b$).
 
 **Example.** Two countries, UK and Portugal, produce cloth and wine. Output per worker per day:
 
+<div class="table-wrap">
+
 |          | Cloth (metres) | Wine (litres) |
 | -------- | :------------: | :-----------: |
 | UK       |       4        |       2       |
 | Portugal |       1        |       3       |
+
+</div>
 
 **Absolute advantage:**
 
@@ -822,10 +866,14 @@ price ratio ($P_w/P_b$).
 
 **Opportunity costs:**
 
+<div class="table-wrap">
+
 |          | Opportunity cost of 1m cloth | Opportunity cost of 1L wine |
 | -------- | ---------------------------- | --------------------------- |
 | UK       | 2/4 = 0.5L wine              | 4/2 = 2m cloth              |
 | Portugal | 3/1 = 3L wine                | 1/3 = 0.33m cloth           |
+
+</div>
 
 **Comparative advantage:**
 
@@ -836,17 +884,17 @@ price ratio ($P_w/P_b$).
 
 **Without trade (autarky):** Each country splits workers 50-50.
 
-UK: Cloth = $50 \times 4 = 200$M, Wine = $50 \times 2 = 100$L. Portugal: Cloth =
-$50 \times 1 = 50$M, Wine = $50 \times 3 = 150$L. Total: Cloth = 250m, Wine = 250L.
+UK: Cloth = $50 \times 4 = 200$ M, Wine = $50 \times 2 = 100$ L. Portugal: Cloth =
+$50 \times 1 = 50$ M, Wine = $50 \times 3 = 150$ L. Total: Cloth = 250m, Wine = 250L.
 
-**With specialisation:** UK: 100 workers in cloth. Cloth = $100 \times 4 = 400$M, Wine = 0.
-Portugal: 100 workers in wine. Cloth = 0, Wine = $100 \times 3 = 300$L. Total: Cloth = 400m, Wine =
+**With specialisation:** UK: 100 workers in cloth. Cloth = $100 \times 4 = 400$ M, Wine = 0.
+Portugal: 100 workers in wine. Cloth = 0, Wine = $100 \times 3 = 300$ L. Total: Cloth = 400m, Wine =
 300L.
 
 **Gains from specialisation:**
 
-- Cloth: $400 - 250 = 150$M more.
-- Wine: $300 - 250 = 50$L more.
+- Cloth: $400 - 250 = 150$ M more.
+- Wine: $300 - 250 = 50$ L more.
 - Total world output has increased by 150m cloth and 50L wine.
 
 **Terms of trade.** For trade to benefit both, the exchange rate must lie between the opportunity
@@ -854,16 +902,20 @@ costs: $$0.33 < \frac{P_{cloth}}{P_{wine}} < 2$$
 
 Suppose the terms of trade are 1m cloth = 1L wine.
 
-**If UK exports 150m cloth and imports 150L wine:** UK consumption: Cloth = $400 - 150 = 250$M, Wine
-= $150$L. Portugal consumption: Cloth = $150$M, Wine = $300 - 150 = 150$L.
+**If UK exports 150m cloth and imports 150L wine:** UK consumption: Cloth = $400 - 150 = 250$ M, Wine
+= $150$ L. Portugal consumption: Cloth = $150$ M, Wine = $300 - 150 = 150$ L.
 
 **Comparison with autarky:**
+
+<div class="table-wrap">
 
 |         | UK Cloth | UK Wine | Portugal Cloth | Portugal Wine |
 | ------- | :------: | :-----: | :------------: | :-----------: |
 | Autarky |   200    |   100   |       50       |      150      |
 | Trade   |   250    |   150   |      150       |      150      |
 | Gain    |   +50    |   +50   |      +100      |       0       |
+
+</div>
 
 The UK gains 50m cloth and 50L wine. Portugal gains 100m cloth (but no wine). Both are better off in
 at least one good and no worse off in the other.
@@ -877,12 +929,16 @@ to the terms of trade gains less.
 
 **Example.** A small open economy can produce food ($F$) and clothing ($C$). Its PPF is:
 
-$$F = 500 - 0.005C^2$$
+$$
+F = 500 - 0.005C^2
+$$
 
 **Autarky equilibrium (no trade):** The domestic price ratio is $P_F/P_C = 0.01C$ (the slope of the
 PPF). If consumer preferences give an MRS of 2 (consumers value food at twice clothing):
 
-$$0.01C = 2 \Rightarrow C = 200, F = 500 - 0.005(40000) = 300$$
+$$
+0.01C = 2 \Rightarrow C = 200, F = 500 - 0.005(40000) = 300
+$$
 
 **With trade at world price ratio $P_F/P_C = 1$:** The economy specialises according to comparative
 advantage. The world price of 1 is BELOW the autarky price of 2, meaning food is relatively cheaper
@@ -898,10 +954,14 @@ Consumption: $F = 450 - 150 = 300$, $C = 100 + 150 = 250$.
 
 **Comparison:**
 
+<div class="table-wrap">
+
 |         | Food | Clothing | Utility (assume $U = F^{0.5}C^{0.5}$) |
 | ------- | :--: | :------: | :-----------------------------------: |
 | Autarky | 300  |   200    | $\sqrt{300 \times 200} = 244.9$ |
 | Trade   | 300  |   250    | $\sqrt{300 \times 250} = 273.9$ |
+
+</div>
 
 Utility has increased by 11.8% due to trade. The economy can now consume a bundle that was
 previously unattainable (outside the PPF).
@@ -951,7 +1011,7 @@ inequality and market failures.
 **Question 2 (12 marks).** An economy produces capital goods ($K$) and consumer goods ($C$)
 according to the PPF $C = 200 - 0.02K^2$. (a) Calculate the maximum output of each good. (b) Find
 the opportunity cost of the 50th unit of capital goods. (c) If the economy currently produces
-$K = 60$How much does a 5% increase in the capital stock shift the PPF outward (assuming
+$K = 60$ How much does a 5% increase in the capital stock shift the PPF outward (assuming
 proportional growth)?
 
 <details>
@@ -970,7 +1030,9 @@ $C(49) = 200 - 0.02(2401) = 151.98$. Opportunity cost $= 151.98 - 150 = 1.98 \ap
 
 **(c) PPF shift from 5% capital growth (5 marks).** A 5% increase in the capital stock means the
 productive capacity of the economy grows by 5%. If the PPF shifts proportionally:
-$$C = 1.05(200 - 0.02K^2) = 210 - 0.021K^2$$
+$$
+C = 1.05(200 - 0.02K^2) = 210 - 0.021K^2
+$$
 
 New maximum consumer goods: $C = 210$ (was 200). Increase of 10 units (5%). New maximum capital
 goods: $K = \sqrt{210/0.021} = \sqrt{10000} = 100$. No change in maximum $K$ because the
@@ -997,21 +1059,7 @@ consumer goods at any given level of capital goods production.
 4. Using circular reasoning by assuming the conclusion when evaluating economic policy
    effectiveness.
 
-```mermaid
-flowchart TD
-    A[01 The Economic Problem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ---
 

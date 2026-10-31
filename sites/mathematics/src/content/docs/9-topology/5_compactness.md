@@ -48,12 +48,14 @@ $\mathbb{R}$).
 
 **Proof.** Let $\mathcal{U} = \{U_\alpha\}$ be an open cover of $[a, b]$. Let
 
-$$S = \{x \in [a, b] : [a, x] \text{ has a finite subcover from } \mathcal{U}\}.$$
+$$
+S = \{x \in [a, b] : [a, x] \text{ has a finite subcover from } \mathcal{U}\}.
+$$
 
 Then $a \in S$ (since $a \in$ some $U_\alpha$), so $S \neq \emptyset$. Let $s = \sup S$. One shows
 $s \in S$ and $s = b$, completing the proof. $\square$
 
-### 5.4 Products: Tychonoff"s Theorem
+### 5.4 Products: Tychonoff's Theorem
 
 **Theorem 5.3 (Tychonoff).** The product of any collection of compact spaces is compact.
 
@@ -136,7 +138,9 @@ This characterisation is often more convenient for proofs. For example, it immed
 
 **Stereographic projection** maps $S^n \setminus \{N\}$ (sphere minus north pole) to $\mathbb{R}^n$. For $S^1$, the map is:
 
-$$f(x, y) = \frac{x}{1 - y}$$
+$$
+f(x, y) = \frac{x}{1 - y}
+$$
 
 with inverse $f^{-1}(t) = \left(\frac{2t}{t^2 + 1}, \frac{t^2 - 1}{t^2 + 1}\right)$.
 
@@ -184,24 +188,13 @@ Tychonoff's theorem states that the product of any collection of compact spaces 
 **Mistake 5: Confusing local compactness with compactness.**
 A space is locally compact if every point has a compact neighbourhood, but this does not imply that the space itself is compact. For example, $\mathbb{R}$ is locally compact (every point has a compact neighbourhood) but not compact (it is not bounded). Local compactness is a weaker condition than compactness.
 
-
-```mermaid
-flowchart TD
-    A[5_Compactness] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Topological Spaces](/9-topology/2_topological-spaces/)**: Topological spaces provide the framework for defining compactness through open covers.
 - **[Connectedness](/9-topology/6_connectedness/)**: Compactness and connectedness are both fundamental topological properties that characterize space structure.
 - **[Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)**: Continuous functions preserve compactness, and homeomorphisms preserve all topological properties.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

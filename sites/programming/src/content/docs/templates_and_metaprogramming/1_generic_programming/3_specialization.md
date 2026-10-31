@@ -105,7 +105,7 @@ int main() {
 Resolution at the same level, while specializations do not. A full specialization of a function
 Template is only considered if the primary template is already the best match, which can lead to
 Surprising behavior. Per [N4950 S13.7.5/4], a full function template specialization is selected only
-After overload resolution has already chosen the primary template. This means that a non-template
+after overload resolution has already chosen the primary template. This means that a non-template
 Overload that is a better match will always be preferred over a specialization.
 
 ## Partial Specialization
@@ -197,8 +197,8 @@ int main() {
 ## Partial Ordering Rules
 
 When multiple partial specializations match, the compiler uses **partial ordering** to select the
-Most specialized one [N4950 S13.7.5.5]. Informally, specialization $A$ is more specialized than $B$
-If every type accepted by $A$ is also accepted by $B$ But not vice versa.
+most specialized one [N4950 S13.7.5.5]. Informally, specialization $A$ is more specialized than $B$
+if every type accepted by $A$ is also accepted by $B$ But not vice versa.
 
 ```cpp
 #include <iostream>
@@ -235,7 +235,7 @@ The partial ordering algorithm [N4950 S13.7.5.5/2] works by **synthetic substitu
 1. Given two partial specializations $A$ and $B$ that both match a given set of template arguments,
    the compiler attempts to determine which is "more specialized."
 
-2. To test whether $A$ is at least as specialized as $B$The compiler replaces each template
+2. To test whether $A$ is at least as specialized as $B$ The compiler replaces each template
    parameter of $A$ with a **unique synthetic type** and checks whether the resulting pattern
    matches $B$. If it does, $A$ is at least as specialized as $B$.
 
@@ -279,9 +279,9 @@ int main() {
 
 When two partial specializations are equally specialized, the program is ill-formed [N4950
 S13.7.5.5/1]. The reasoning is as follows: partial ordering is a **strict weak ordering** on the set
-Of matching specializations. If neither $A \le B$ nor $B \le A$ holds (where $\le$ means "at least
-As specialized as"), then $A$ and $B$ are **incomparable** under the ordering. Since the ordering
-Must produce a unique maximum element, incomparable elements represent an ambiguity, and the
+of matching specializations. If neither $A \le B$ nor $B \le A$ holds (where $\le$ means "at least
+as specialized as"), then $A$ and $B$ are **incomparable** under the ordering. Since the ordering
+must produce a unique maximum element, incomparable elements represent an ambiguity, and the
 Standard requires a diagnostic.
 
 ```cpp
@@ -302,7 +302,7 @@ struct Ambig<T* const> {};     // matches: T = const int
 Type $U$: we get `const U*`. Does this match $B$ (`T* const`)? Yes, with $T = \mathrm{const
 U$. Now
 Replace `T` in $B$ with a unique type $V$: we get `V* const`. Does this match $A$ (`const T*`)? Yes,
-With $T = V \mathrm{ const$. Since $A$ matches $B$ **and** $B$ matches $A$Neither is strictly More
+With $T = V \mathrm{ const$. Since $A$ matches $B$ **and** $B$ matches $A$ Neither is strictly More
 specialized. The program is ill-formed.
 
 The fix is to provide a disambiguating specialization that is strictly more specialized than both:
@@ -367,7 +367,7 @@ int main() {
 SFINAE applies differently in partial specializations than in function template overload resolution.
 In a partial specialization, the SFINAE check occurs when the compiler tries to match the
 Specialization pattern against the given template arguments. If the substitution of arguments into
-The specialization pattern fails, the specialization is not considered --- it is not an Error:
+the specialization pattern fails, the specialization is not considered --- it is not an Error:
 
 ```cpp
 #include <iostream>
@@ -469,7 +469,7 @@ int main() {
 C++17 relaxed the rules for template template parameter matching [N4950 S13.3.3]. Previously, a
 Template template parameter had to match the exact parameter list of the template argument
 (including default arguments). C++17 allows a template template parameter with fewer parameters than
-The template argument, as long as the parameters are deducible:
+the template argument, as long as the parameters are deducible:
 
 ```cpp
 #include <iostream>
@@ -869,16 +869,6 @@ int main() {
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[3_Specialization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of explicit and partial specialization, including underlying
@@ -892,10 +882,5 @@ theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

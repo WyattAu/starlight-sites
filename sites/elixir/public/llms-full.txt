@@ -51,7 +51,7 @@ of building fault-tolerant distributed systems.
 
 Valim was drawn to the Erlang ecosystem -- specifically its proven track record in
 telecommunications, messaging systems, and fault-tolerant infrastructure (WhatsApp, Discord,
-RabbitMQ all run on Erlang/BEAM). However, he found Erlang"s syntax arcane and its tooling lacking
+RabbitMQ all run on Erlang/BEAM). However, he found Erlang's syntax arcane and its tooling lacking
 the developer experience he had come to expect from the Ruby world. His goal was to create a
 language that would:
 
@@ -216,6 +216,8 @@ end
 **Mix** is the build tool that ships with Elixir. It handles project creation, dependency
 management, compilation, testing, and more. Key Mix commands:
 
+<div class="table-wrap">
+
 | Command                        | Description                           |
 | ------------------------------ | ------------------------------------- |
 | `mix new my_app`               | Create a new Elixir project           |
@@ -228,6 +230,8 @@ management, compilation, testing, and more. Key Mix commands:
 | `mix hex.outdated`             | Check for outdated dependencies       |
 | `mix release`                  | Create a deployable release           |
 | `mix ecto.create`              | Create database (with Ecto)           |
+
+</div>
 
 Mix configurations are organized by environment (`dev`, `test`, `prod`) in `config/config.exs` and
 environment-specific files like `config/dev.exs`.
@@ -399,6 +403,8 @@ import_file("path/to/script.exs")
 
 ### IEx Helpers
 
+<div class="table-wrap">
+
 | Command         | Description                                        |
 | --------------- | -------------------------------------------------- |
 | `h/1`           | Show documentation for a function or module        |
@@ -415,6 +421,8 @@ import_file("path/to/script.exs")
 | `pwd/0`         | Print working directory                            |
 | `ls/0`          | List files in current directory                    |
 | `import_file/1` | Evaluate code from a file                          |
+
+</div>
 
 ### IEx.pry and Debugging
 
@@ -765,6 +773,8 @@ Benchee.run(%{
 
 ### Elixir vs Erlang
 
+<div class="table-wrap">
+
 | Feature         | Elixir                 | Erlang                   |
 | --------------- | ---------------------- | ------------------------ |
 | Syntax          | Ruby-like, minimal     | Prolog-like, verbose     |
@@ -776,7 +786,11 @@ Benchee.run(%{
 | Community       | Growing, web-focused   | Telecom, embedded        |
 | Structs         | Native support         | Records (less ergonomic) |
 
+</div>
+
 ### Elixir vs Ruby
+
+<div class="table-wrap">
 
 | Feature      | Elixir                      | Ruby                      |
 | ------------ | --------------------------- | ------------------------- |
@@ -786,7 +800,11 @@ Benchee.run(%{
 | Typing       | Dynamic + optional Dialyzer | Dynamic + optional Sorbet |
 | Deployment   | BEAM releases               | Gems / Bundler            |
 
+</div>
+
 ### Elixir vs Go
+
+<div class="table-wrap">
 
 | Feature         | Elixir                         | Go                                 |
 | --------------- | ------------------------------ | ---------------------------------- |
@@ -794,6 +812,8 @@ Benchee.run(%{
 | Paradigm        | Functional                     | Imperative with some FP            |
 | Error handling  | Pattern matching on :ok/:error | Multiple return values, panic      |
 | Fault tolerance | Supervision trees              | Manual recovery                    |
+
+</div>
 
 ## Summary
 
@@ -974,7 +994,7 @@ true
 
 ### Strings
 
-Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang"s
+Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang's
 string type, which is a list of integers).
 
 ```elixir
@@ -1829,6 +1849,8 @@ updated = %{original | b: 99}
 
 Understanding immutability's performance characteristics:
 
+<div class="table-wrap">
+
 | Operation                 | Time Complexity | Notes                     |
 | ------------------------- | --------------- | ------------------------- |
 | List prepend `[h\|t]`     | $O(1)$          | Always prefer over append |
@@ -1838,6 +1860,8 @@ Understanding immutability's performance characteristics:
 | Tuple access `elem(t, i)` | $O(1)$          |                           |
 | Tuple update `put_elem`   | $O(n)$          | Must copy the tuple       |
 
+</div>
+
 ### When Immutability Matters Most
 
 1. **Concurrency**: No locks needed since data cannot change
@@ -1845,16 +1869,6 @@ Understanding immutability's performance characteristics:
 3. **Undo/redo**: Keep old versions of data for free
 4. **Caching**: Results of pure functions can be safely cached
 5. **Testing**: No setup/teardown needed for state mutation
-
-```mermaid
-flowchart TD
-    A[1_Basics And Pattern Matching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -2220,6 +2234,8 @@ end
 
 Common module attributes:
 
+<div class="table-wrap">
+
 | Attribute         | Purpose                               |
 | ----------------- | ------------------------------------- |
 | `@moduledoc`      | Documentation for the module          |
@@ -2234,6 +2250,8 @@ Common module attributes:
 | `@on_definition`  | Callback on every function definition |
 | `@derive`         | Auto-implement protocol               |
 | `@enforce_keys`   | Enforce keys in struct                |
+
+</div>
 
 ### Nested Modules
 
@@ -2317,12 +2335,16 @@ import Enum, only: :macros
 
 Key differences:
 
+<div class="table-wrap">
+
 | Directive | Effect                             | Common Use         |
 | --------- | ---------------------------------- | ------------------ |
 | `require` | Makes macros available             | `require Logger`   |
 | `use`     | Calls `__using__/1` macro          | `use GenServer`    |
 | `import`  | Brings functions/macros into scope | `import Enum`      |
 | `alias`   | Creates short name                 | `alias MyApp.User` |
+
+</div>
 
 ## Structs
 
@@ -2393,6 +2415,8 @@ true
 
 ### Structs vs Maps
 
+<div class="table-wrap">
+
 | Feature                         | Struct                         | Map             |
 | ------------------------------- | ------------------------------ | --------------- |
 | Fixed keys                      | Yes                            | No              |
@@ -2402,6 +2426,8 @@ true
 | Pattern matching specificity    | Yes (specific struct type)     | No              |
 | Compile-time dispatch           | Yes (protocols)                | No              |
 | Performance                     | Slightly faster for known keys | General purpose |
+
+</div>
 
 ## Protocols
 
@@ -2465,6 +2491,8 @@ end
 
 Elixir ships with several built-in protocols:
 
+<div class="table-wrap">
+
 | Protocol       | Purpose               | Key Functions                     |
 | -------------- | --------------------- | --------------------------------- |
 | `Inspect`      | String representation | `inspect/1`                       |
@@ -2472,6 +2500,8 @@ Elixir ships with several built-in protocols:
 | `Enumerable`   | Collection operations | `Enum.reduce/3`, `Enum.member?/2` |
 | `List.Chars`   | Charlist conversion   | `to_charlist/1`                   |
 | `Collectable`  | Into collection       | `Enum.into/2`                     |
+
+</div>
 
 ### @derive
 
@@ -2744,16 +2774,6 @@ rescue
 end
 ```
 
-```mermaid
-flowchart TD
-    A[1_Functions And Modules] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Functions and modules are the organizational backbone of Elixir:
@@ -3005,6 +3025,8 @@ end
 
 ### spawn vs spawn_link vs spawn_monitor
 
+<div class="table-wrap">
+
 | Feature            | `spawn`         | `spawn_link`          | `spawn_monitor`          |
 | ------------------ | --------------- | --------------------- | ------------------------ |
 | Bidirectional link | No              | Yes                   | No                       |
@@ -3012,6 +3034,8 @@ end
 | Exit propagation   | None            | Yes (both directions) | No (message only)        |
 | Process isolation  | Yes             | No                    | Yes                      |
 | Use case           | Fire-and-forget | Paired processes      | Observe without coupling |
+
+</div>
 
 ## GenServer
 
@@ -3090,6 +3114,8 @@ end
 
 ### GenServer Callbacks
 
+<div class="table-wrap">
+
 | Callback        | Signature                                          | Purpose                      |
 | --------------- | -------------------------------------------------- | ---------------------------- |
 | `init/1`        | `(args) -> {:ok, state} or {:stop, reason}`        | Initialize server state      |
@@ -3098,6 +3124,8 @@ end
 | `handle_info/2` | `(msg, state) -> {:noreply, state}`                | Handle unexpected messages   |
 | `terminate/2`   | `(reason, state) -> :ok`                           | Cleanup on shutdown          |
 | `code_change/3` | `(old_vsn, state, extra) -> {:ok, new_state}`      | Hot code upgrade             |
+
+</div>
 
 ### call vs cast
 
@@ -3212,6 +3240,8 @@ Each child process has a specification that defines how it should be started and
 
 Child spec fields:
 
+<div class="table-wrap">
+
 | Field      | Values                                   | Default      | Description                     |
 | ---------- | ---------------------------------------- | ------------ | ------------------------------- |
 | `id`       | any                                      | Module name  | Unique identifier for the child |
@@ -3221,13 +3251,19 @@ Child spec fields:
 | `type`     | `:worker`, `:supervisor`                 | `:worker`    | Whether child is a supervisor   |
 | `modules`  | `[module]`, `:dynamic`                   | From start   | Modules for hot upgrades        |
 
+</div>
+
 ### Restart Strategies
+
+<div class="table-wrap">
 
 | Strategy        | Description                                                 | Use Case                  |
 | --------------- | ----------------------------------------------------------- | ------------------------- |
 | `:one_for_one`  | Restart only the crashed child                              | Independent workers       |
 | `:one_for_all`  | Restart ALL children when one crashes                       | Tightly coupled processes |
 | `:rest_for_one` | Restart the crashed child and all children started after it | Sequential dependencies   |
+
+</div>
 
 ```elixir
 # :one_for_one - each child is independent
@@ -3248,6 +3284,8 @@ Supervisor.start_link(children, strategy: :rest_for_one)
 
 ### Strategy Comparison
 
+<div class="table-wrap">
+
 | Scenario                     | Recommended Strategy | Reason                         |
 | ---------------------------- | -------------------- | ------------------------------ |
 | Web server workers           | `:one_for_one`       | Workers are independent        |
@@ -3255,6 +3293,8 @@ Supervisor.start_link(children, strategy: :rest_for_one)
 | Cache + CacheWarmer          | `:rest_for_one`      | CacheWarmer depends on Cache   |
 | Socket manager + handlers    | `:rest_for_one`      | Handlers depend on manager     |
 | All services tightly coupled | `:one_for_all`       | Cannot function partially      |
+
+</div>
 
 ### Nested Supervisors
 
@@ -3619,16 +3659,6 @@ defmodule TaskManager.Supervisor do
 end
 ```
 
-```mermaid
-flowchart TD
-    A[1_Concurrency Otp] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Elixir's concurrency model is built on lightweight processes, message passing, and the OTP
@@ -3688,7 +3718,7 @@ Metaprogramming in Elixir is the ability to write code that generates or transfo
 time. The primary mechanism for this is the **macro** system, which allows you to manipulate the
 Abstract Syntax Tree (AST) of Elixir code before it is compiled.
 
-Elixir"s macro system is similar to Lisp's but with important differences:
+Elixir's macro system is similar to Lisp's but with important differences:
 
 - Macros operate on Elixir's own AST representation, not S-expressions
 - Macros are hygienic by default (they do not accidentally capture or overwrite variables)
@@ -4389,16 +4419,6 @@ Protocol.consolidate(Size, [List, Map, Tuple])
 
 Consolidation is the default in production builds. It eliminates the dispatch overhead of looking up
 implementations at runtime.
-
-```mermaid
-flowchart TD
-    A[1_Metaprogramming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5128,7 +5148,7 @@ end
 
 ### Hot Code Upgrades
 
-One of BEAM"s most distinctive features is hot code swapping -- loading new code without stopping
+One of BEAM's most distinctive features is hot code swapping -- loading new code without stopping
 the system:
 
 ```elixir
@@ -5356,16 +5376,6 @@ Trade-offs:
 - Test runtimes are longer
 - Complex dependency graphs between sub-apps
 
-```mermaid
-flowchart TD
-    A[2_Testing And Deployment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Elixir provides a comprehensive testing and deployment story:
@@ -5451,8 +5461,6 @@ This site provides comprehensive study materials covering:
 - Concurrency
 - Phoenix
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -5477,8 +5485,6 @@ programming fundamentals
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -5496,18 +5502,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Elixir Flashcards (Basics)](/flashcards-elixir-basics/)
 - [Elixir Practice (Basics)](/practice-elixir-basics/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -5516,54 +5515,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -5610,18 +5561,11 @@ Elixir is a functional language built on the Erlang VM (BEAM), designed for conc
 - **[Site Home](../../):** Main landing page for elixir notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -5630,100 +5574,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -5752,9 +5602,9 @@ URL: https://elixir.wyattau.com/glossary/
 
 ## Data Types
 
-**Atom**: A constant whose name is its value: `:ok``:error``:not_found`. Lightweight and fast to compare.
+**Atom**: A constant whose name is its value: `:ok`, `:error`, `:not_found`. Lightweight and fast to compare.
 
-**Tuple**: An ordered, fixed-size collection of values: `{:ok, data}``{:error, reason}`.
+**Tuple**: An ordered, fixed-size collection of values: `{:ok, data}`, `{:error, reason}`.
 
 **List**: A singly-linked list, immutable. `[1, 2, 3]`. Good for prepending, poor for random access.
 
@@ -5871,7 +5721,7 @@ data |> fetch() |> parse() |> save()
 
 **Supervision Tree**: A hierarchy of supervisors and workers providing fault tolerance through the "let it crash" philosophy.
 
-**Behaviour**: An interface contract (like `GenServer``GenEvent``GenStateMachine`) that modules can implement.
+**Behaviour**: An interface contract (like `GenServer`, `GenEvent`, `GenStateMachine`) that modules can implement.
 
 **ETS (Erlang Term Storage)**: An in-memory key-value store supporting concurrent access.
 
@@ -5947,16 +5797,6 @@ URL: https://elixir.wyattau.com/hub/
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 Elixir is a functional language built on the Erlang VM (BEAM). It combines the simplicity of functional programming with the concurrency, fault tolerance, and distribution capabilities of Erlang. Elixir's process model makes concurrent programming straightforward, processes are lightweight, isolated, and communicate through message passing. The Phoenix framework provides a productive web development experience with real-time capabilities out of the box.
@@ -5993,7 +5833,7 @@ Elixir's fundamentals build on functional programming principles. Everything is 
 
 **Pattern matching with `=`**, The match operator destructures data. `{a, b} = {1, 2}` binds `a` to 1 and `b` to 2. Pattern matching is used in function heads, case expressions, and with chains. It is the primary way to handle different data shapes.
 
-**Atoms** are constants whose name is their value. `:ok``:error``:not_found`atoms are lightweight and fast to compare. They are commonly used as tags, keys, and enum values.
+**Atoms** are constants whose name is their value. `:ok`, `:error`, `:not_found`atoms are lightweight and fast to compare. They are commonly used as tags, keys, and enum values.
 
 **The `with` construct** chains operations that may fail. Each step is pattern-matched against the expected success case. If any step does not match, the non-matching value is returned. `with {:ok, data} <- fetch(url), {:ok, parsed} <- parse(data), do: {:ok, parsed}`.
 
@@ -6014,7 +5854,7 @@ Elixir is a functional language, functions are first-class citizens, data is imm
 
 **The pipe operator `|>`** passes the result of the left expression as the first argument to the right function. `data |> fetch() |> parse() |> save()` reads top-to-bottom, left-to-right. Pipelines make Elixir code highly readable.
 
-**Enum module** provides powerful functions for working with collections. `Enum.map``Enum.filter``Enum.reduce``Enum.flat_map`and `Enum.group_by` cover most collection operations. The Stream module provides lazy evaluation for large datasets.
+**Enum module** provides powerful functions for working with collections. `Enum.map`, `Enum.filter`, `Enum.reduce`, `Enum.flat_map`and `Enum.group_by` cover most collection operations. The Stream module provides lazy evaluation for large datasets.
 
 **Protocols** enable polymorphism through protocol dispatch. A protocol defines a set of functions. Types implement the protocol by providing implementations. Protocols dispatch on the type of the first argument at runtime.
 
@@ -6318,18 +6158,11 @@ the explanation.
 - **[Site Home](../../):** Main landing page for elixir notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -6338,100 +6171,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 

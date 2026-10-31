@@ -37,7 +37,9 @@ functional $\omega_p$ on $T_p M$.
 
 **Definition.** If $F : M \to N$ is a smooth map, the **pullback** $F^* : \Omega^k(N) \to \Omega^k(M)$ is defined by:
 
-$$(F^*\omega)_p(v_1, \ldots, v_k) = \omega_{F(p)}(dF_p(v_1), \ldots, dF_p(v_k))$$
+$$
+(F^*\omega)_p(v_1, \ldots, v_k) = \omega_{F(p)}(dF_p(v_1), \ldots, dF_p(v_k))
+$$
 
 for $v_i \in T_p M$.
 
@@ -51,11 +53,15 @@ for $v_i \in T_p M$.
 
 **Definition.** The **interior product** (contraction) of a vector field $X$ with a $k$-form $\omega$ is the $(k-1)$-form $\iota_X \omega$ defined by:
 
-$$(\iota_X \omega)(v_1, \ldots, v_{k-1}) = \omega(X, v_1, \ldots, v_{k-1})$$
+$$
+(\iota_X \omega)(v_1, \ldots, v_{k-1}) = \omega(X, v_1, \ldots, v_{k-1})
+$$
 
 **Proposition 4.2 (Cartan's Magic Formula).** The Lie derivative $\mathcal{L}_X$ of a differential form satisfies:
 
-$$\mathcal{L}_X \omega = d(\iota_X \omega) + \iota_X(d\omega)$$
+$$
+\mathcal{L}_X \omega = d(\iota_X \omega) + \iota_X(d\omega)
+$$
 
 ### 4.4 Exterior Derivative
 
@@ -77,7 +83,9 @@ $\omega = d\eta$ for some $(k - 1)$-form $\eta$.
 The **wedge product** $\wedge : \Omega^k(M) \times \Omega^\ell(M) \to \Omega^{k+\ell}(M)$ is the
 bilinear, associative, anti-commutative operation:
 
-$$\alpha \wedge \beta = (-1)^{k\ell}\, \beta \wedge \alpha$$
+$$
+\alpha \wedge \beta = (-1)^{k\ell}\, \beta \wedge \alpha
+$$
 
 ### 4.6 Stokes" Theorem
 
@@ -85,7 +93,9 @@ $$\alpha \wedge \beta = (-1)^{k\ell}\, \beta \wedge \alpha$$
 $\partial M$ (with the induced orientation). If $\omega$ is a compactly supported $(n-1)$-form on
 $M$, then:
 
-$$\int_{\partial M} \omega = \int_M d\omega$$
+$$
+\int_{\partial M} \omega = \int_M d\omega
+$$
 
 **Special Cases:**
 
@@ -97,11 +107,155 @@ $$\int_{\partial M} \omega = \int_M d\omega$$
 - **Divergence Theorem** ($n = 3$):
   $\oint_{\partial V} \mathbf{F} \cdot d\mathbf{S} = \iiint_V (\nabla \cdot \mathbf{F})\, dV$.
 
-### 4.7 Integration of Differential Forms
+## Proofs
+
+Three proofs. The first is the identity the whole subject stands on — $d^2 = 0$ —
+and it deserves the computation rather than the phrase "one line to verify": the
+line hides *why* it is true, which is that mixed partial derivatives are
+symmetric while the wedge product is antisymmetric, and a symmetric object
+contracted with an antisymmetric one vanishes. The second is naturality of $d$.
+The third is Stokes' theorem, reduced to the fundamental theorem of calculus on
+a cube.
+
+**Proposition 4.3 ($d^2 = 0$), with the computation.** For any $k$-form
+$\omega$, $d(d\omega) = 0$.
+
+*Proof.* By linearity it suffices to check a monomial
+$\omega = f\,dx^{i_1} \wedge \cdots \wedge dx^{i_k}$. By the definition of $d$,
+
+$$
+d\omega = df \wedge dx^{i_1} \wedge \cdots \wedge dx^{i_k},
+\qquad
+df = \sum_{j=1}^n \frac{\partial f}{\partial x^j}\, dx^j.
+$$
+
+Applying $d$ again, with the product rule on each term
+$\frac{\partial f}{\partial x^j}\,dx^j \wedge dx^{i_1} \wedge \cdots \wedge dx^{i_k}$:
+
+$$
+d^2\omega = \sum_{j=1}^{n}\sum_{m=1}^{n}
+\frac{\partial^2 f}{\partial x^m \partial x^j}\,
+dx^m \wedge dx^j \wedge dx^{i_1} \wedge \cdots \wedge dx^{i_k}.
+$$
+
+Now pair the terms $m = j$ and $m \neq j$. When $m = j$ the wedge
+$dx^j \wedge dx^j = 0$ vanishes outright. When $m \neq j$, swap the names of the
+summation indices $m \leftrightarrow j$ in the double sum: the second-derivative
+coefficient is *unchanged* — Schwarz's theorem, $\partial^2 f/\partial x^m \partial x^j = \partial^2 f/\partial x^j \partial x^m$ — while the wedge factor
+picks up one transposition, hence a factor $-1$:
+
+$$
+dx^m \wedge dx^j \wedge (\cdots) = -\,dx^j \wedge dx^m \wedge (\cdots),
+$$
+
+so the sum equals minus itself and must be zero. $\blacksquare$
+
+The computation says exactly where the identity comes from: $d^2 = 0$ holds
+*because* $d$ builds second derivatives and the wedge product is antisymmetric.
+In the other order — symmetric coefficients, antisymmetric basis — every term
+cancels its transposed partner. Any putative "boundary of a boundary" argument
+must reduce to this cancellation, and any function $d'$ with symmetric second
+derivatives and an antisymmetric wedge would satisfy it equally, which is why
+the definition of $d$ is pinned down by requiring $d^2 = 0$, normalisation, and
+the product rule together.
+
+**Proposition (naturality).** For any smooth $f : M \to N$ and any form
+$\omega$ on $N$: $d(f^*\omega) = f^*(d\omega)$.
+
+*Proof.* Both sides are linear in $\omega$, so reduce to a monomial
+$\omega = g\,dy^{i_1} \wedge \cdots \wedge dy^{i_k}$ with $g$ a function on $N$.
+Then $f^*\omega = (g \circ f)\,d(f^*y^{i_1}) \wedge \cdots$, and applying $d$
+with the product rule:
+
+$$
+d(f^*\omega) = d(g\circ f) \wedge f^*dy^{i_1} \wedge \cdots + (g\circ f)\sum_r
+d^2(f^*y^{i_r}) \wedge \cdots
+$$
+
+The $d^2$ terms vanish by Proposition 4.3. And
+$d(g \circ f) = f^*(dg)$ by the chain rule, so
+
+$$
+d(f^*\omega) = f^*(dg) \wedge f^*dy^{i_1} \wedge \cdots = f^*(dg \wedge dy^{i_1}
+\wedge \cdots) = f^*(d\omega). \qquad\blacksquare
+$$
+
+Naturality is what makes cohomology functorial — the proof on
+[the de Rham page](/12-differential-geometry/13_de-rham-cohomology/) uses exactly
+this — and it is why the pullback is the *right* map between form spaces: it
+commutes with the operator the cohomology is built from.
+
+**Theorem 4.5 (Stokes).** For an oriented $n$-manifold $M$ with boundary and a
+compactly supported $(n-1)$-form $\omega$:
+$\int_M d\omega = \int_{\partial M}\omega$, with $\partial M$ carrying the
+induced (boundary-first) orientation.
+
+*Proof.* Choose an oriented atlas and a subordinate partition of unity
+$\{\psi_i\}$ with each $\psi_i$ supported in a chart; both sides of the identity
+are linear in $\omega$, so it suffices to prove the case
+$\omega = \psi_i\,\omega_0$ for one chart, i.e. to work on $\mathbb{R}^n$ or on
+the half-space $\mathbb{H}^n = \{x^n \geq 0\}$ — the two model cases.
+
+*The $\mathbb{R}^n$ case, no boundary.* By linearity and the support, reduce to
+a monomial missing one differential. If $\omega$ contains all $n$ of the
+$dx^i$, then $d\omega$ is proportional to $dx^1\wedge\cdots\wedge dx^n$ times
+*derivatives of the compactly supported coefficient*, whose integral over
+$\mathbb{R}^n$ vanishes by Fubini and the fundamental theorem of calculus
+applied one variable at a time — the integral of a pure derivative in $x^i$
+over the whole line is zero. So both sides are zero and agree. If $\omega$ is
+missing $dx^i$, write
+$\omega = a(x)\,dx^1 \wedge \cdots \wedge \widehat{dx^i} \wedge \cdots \wedge dx^n$; then
+
+$$
+d\omega = (-1)^{i-1}\,\frac{\partial a}{\partial x^i}\,
+dx^1 \wedge \cdots \wedge dx^n,
+$$
+
+the sign $(-1)^{i-1}$ counting how many transpositions move $dx^i$ to the front.
+Integrating $x^i$ first and applying the fundamental theorem of calculus in
+that variable:
+
+$$
+\int_{\mathbb{R}^n} d\omega
+= (-1)^{i-1}\int \left[a\right]_{x^i = -\infty}^{x^i = +\infty}
+dx^1 \wedge \cdots \wedge \widehat{dx^i} \wedge \cdots = 0 = \int_{\partial\mathbb{R}^n}\omega,
+$$
+
+since $\partial\mathbb{R}^n = \emptyset$.
+
+*The half-space case.* $\mathbb{H}^n = \{x^n \geq 0\}$ has boundary the
+hyperplane $x^n = 0$. If the monomial $\omega$ is missing $dx^n$ — the boundary
+direction — write
+$\omega = a\,dx^1\wedge\cdots\wedge dx^{n-1}$; then
+$d\omega = (-1)^{n-1}\frac{\partial a}{\partial x^n}dx^1 \wedge \cdots \wedge dx^n$, and Fubini + the fundamental theorem in $x^n$ give
+
+$$
+\int_{\mathbb{H}^n} d\omega
+= (-1)^{n-1}\int_{\partial\mathbb{H}^n} a\big|_{x^n=0}\,
+dx^1\wedge\cdots\wedge dx^{n-1}
+= -\int_{\partial\mathbb{H}^n}\omega,
+$$
+
+while $\int_{\mathbb{H}^n}\omega$-monomials containing $dx^n$ integrate to zero
+by the $\mathbb{R}^n$ case. The boundary orientation of $\mathbb{H}^n$ is
+*decreasing* $x^n$ — outward normal first — which supplies exactly the factor
+$-1$: $\int_{\partial\mathbb{H}^n}\omega = -\int_{x^n=0}\omega$ in the
+coordinates as written. So $\int_{\mathbb{H}^n}d\omega = \int_{\partial\mathbb{H}^n}\omega$, and summing over the partition of unity
+gives the theorem on general $M$. $\blacksquare$
+
+The sign $(-1)^{n-1}$ is where every treatment hides a small lie: the boundary
+orientation is "outward normal *first*", and getting that convention backwards
+flips the sign of every Stokes formula in the subject. The reduction to cubes is
+what lets the proof be elementary — the general theorem follows by the partition
+of unity, which is local by construction.
+
+## 4.7 Integration of Differential Forms
 
 Integration of an $n$-form over an $n$-dimensional oriented manifold is defined by pulling back to $\mathbb{R}^n$ and integrating in coordinates. If $\omega = f\,dx^1 \wedge \cdots \wedge dx^n$ on a coordinate chart $U$ with parametrisation $\phi : U \to \mathbb{R}^n$:
 
-$$\int_U \omega = \int_{\phi(U)} f(x^1, \ldots, x^n)\, dx^1 \cdots dx^n$$
+$$
+\int_U \omega = \int_{\phi(U)} f(x^1, \ldots, x^n)\, dx^1 \cdots dx^n
+$$
 
 ### 4.8 Worked Example: Integrating a 2-Form on the Sphere
 
@@ -114,17 +268,27 @@ Parametrise $S^2$ by spherical coordinates: $x = \sin\theta\cos\phi$, $y = \sin\
 
 Compute $dy \wedge dz$, $dz \wedge dx$, $dx \wedge dy$ in terms of $d\theta \wedge d\phi$:
 
-$$dy \wedge dz = (\sin\theta\cos\phi\,d\theta + \cos\theta\cos\phi\,d\phi) \wedge (-\sin\theta\,d\theta) = \sin^2\theta\cos\phi\,d\theta \wedge d\phi$$
+$$
+dy \wedge dz = (\sin\theta\cos\phi\,d\theta + \cos\theta\cos\phi\,d\phi) \wedge (-\sin\theta\,d\theta) = \sin^2\theta\cos\phi\,d\theta \wedge d\phi
+$$
 
-$$dz \wedge dx = (-\sin\theta\,d\theta) \wedge (\cos\theta\cos\phi\,d\theta - \sin\theta\sin\phi\,d\phi) = \sin^2\theta\sin\phi\,d\theta \wedge d\phi$$
+$$
+dz \wedge dx = (-\sin\theta\,d\theta) \wedge (\cos\theta\cos\phi\,d\theta - \sin\theta\sin\phi\,d\phi) = \sin^2\theta\sin\phi\,d\theta \wedge d\phi
+$$
 
-$$dx \wedge dy = (\cos\theta\cos\phi\,d\theta - \sin\theta\sin\phi\,d\phi) \wedge (\cos\theta\sin\phi\,d\theta + \sin\theta\cos\phi\,d\phi) = \sin\theta\cos\theta\,d\theta \wedge d\phi$$
+$$
+dx \wedge dy = (\cos\theta\cos\phi\,d\theta - \sin\theta\sin\phi\,d\phi) \wedge (\cos\theta\sin\phi\,d\theta + \sin\theta\cos\phi\,d\phi) = \sin\theta\cos\theta\,d\theta \wedge d\phi
+$$
 
 Substituting and simplifying:
 
-$$\omega = (\sin^3\theta\cos^2\phi + \sin^3\theta\sin^2\phi + \sin\theta\cos^2\theta)\,d\theta \wedge d\phi = \sin\theta\,d\theta \wedge d\phi$$
+$$
+\omega = (\sin^3\theta\cos^2\phi + \sin^3\theta\sin^2\phi + \sin\theta\cos^2\theta)\,d\theta \wedge d\phi = \sin\theta\,d\theta \wedge d\phi
+$$
 
-$$\int_{S^2} \omega = \int_0^{2\pi} \int_0^\pi \sin\theta\,d\theta\,d\phi = 4\pi$$
+$$
+\int_{S^2} \omega = \int_0^{2\pi} \int_0^\pi \sin\theta\,d\theta\,d\phi = 4\pi
+$$
 
 $\blacksquare$
 
@@ -148,17 +312,6 @@ The product rule for the exterior derivative is $d(\alpha \wedge \beta) = d\alph
 
 **Mistake 3: Assuming $d^2 = 0$ means every closed form is exact on any manifold**
 The Poincare lemma guarantees that closed forms are exact only on contractible (or star-shaped) domains. On manifolds with nontrivial topology like $S^1$ or $S^2$, there exist closed forms that are not exact. For example, the angular form $d\theta$ on $S^1$ is closed but not exact.
-
-
-```mermaid
-flowchart TD
-    A[4_Differential Forms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -187,28 +340,8 @@ The identity $d^2 = 0$ becomes $\nabla \times (\nabla f) = 0$ and $\nabla \cdot 
 - **[Riemannian Geometry](/12-differential-geometry/5_riemannian-geometry/)**: The Hodge star operator on differential forms uses the Riemannian metric to relate $k$-forms to $(n-k)$-forms.
 - **[Curvature](/12-differential-geometry/7_curvature/)**: The curvature tensor can be expressed using differential forms and the exterior derivative.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -93,7 +93,7 @@ impl std::fmt::Display for MyVec {
 ## Default Methods
 
 Default methods can call required methods, allowing the implementing type to provide a single method
-And get additional behavior for free:
+and get additional behavior for free:
 
 ```rust
 trait Processor {
@@ -285,8 +285,8 @@ impl<T: Clone> Maybe<T> {
 ## Monomorphization
 
 Rust performs **monomorphization**, the compiler generates a separate copy of each generic function
-For every concrete type used. This happens at compile time and produces optimized, specialized code
-With no runtime overhead.
+for every concrete type used. This happens at compile time and produces optimized, specialized code
+with no runtime overhead.
 
 ```rust
 fn id<T>(x: T) -> T { x }
@@ -317,6 +317,8 @@ fn process_dyn(item: &dyn Display) {
 }
 ```
 
+<div class="table-wrap">
+
 | Property       | Static Dispatch        | Dynamic Dispatch       |
 | -------------- | ---------------------- | ---------------------- |
 | Overhead       | None (after inlining)  | Vtable lookup per call |
@@ -324,6 +326,8 @@ fn process_dyn(item: &dyn Display) {
 | Inlining       | Yes                    | No (indirect call)     |
 | Flexibility    | Compile-time only      | Runtime polymorphism   |
 | Cache behavior | Better (direct call)   | Worse (indirect call)  |
+
+</div>
 
 ## Trait Objects
 
@@ -385,7 +389,7 @@ Not all traits can be used as trait objects. A trait is **object safe** if:
 1. It does not have any associated `const` or `fn` items with type parameters, generic methods, or
    methods that return `Self` (except `&Self`/`&mut Self`).
 2. It does not have any associated `type` that uses `Self` in non-trivial ways.
-3. All methods have a receiver (`&self``&mut self`Or `self`). No associated functions.
+3. All methods have a receiver (`&self`, `&mut self` or `self`). No associated functions.
 
 ```rust
 // Object-safe
@@ -435,7 +439,7 @@ let base: Box<dyn Base> = derived;  // upcast
 ## Blanket Implementations
 
 A blanket implementation implements a trait for all types that satisfy certain bounds. This is one
-Of Rust's most powerful patterns:
+of Rust's most powerful patterns:
 
 ```rust
 impl<T: Display> ToString for T {
@@ -501,7 +505,7 @@ Types where all fields are `Copy`. Types with destructors (`Drop`) cannot be `Co
 
 ### `Clone`
 
-`Clone` explicitly defines how to create a deep copy. Unlike `Copy``Clone` may involve heap
+`Clone` explicitly defines how to create a deep copy. Unlike `Copy`, `Clone` may involve heap
 Allocation or other non-trivial operations.
 
 ### `Sized`
@@ -521,7 +525,7 @@ print_len("hello");  // &str is ?Sized, works because we take a reference
 ```
 
 `?Sized` is primarily used for trait objects (`dyn Trait` is `!Sized`) and for `[T]` slices (which
-Are dynamically sized).
+are dynamically sized).
 
 ## Supertraits
 
@@ -656,7 +660,7 @@ fn configure<T: BaudRate>() -> u32 {
 ## Const Generics
 
 Const generics allow you to use constant values as generic parameters. This is particularly useful
-For arrays and type-level programming:
+for arrays and type-level programming:
 
 ```rust
 struct Array<T, const N: usize> {
@@ -738,7 +742,7 @@ Same bounds and a blanket implementation, or to use a type alias on generic para
 ## Newtype Pattern with Traits
 
 The newtype pattern combined with traits is a powerful way to extend functionality without violating
-The orphan rule:
+the orphan rule:
 
 ```rust
 struct Wrapper<T>(Vec<T>);
@@ -771,8 +775,8 @@ impl<T> DerefMut for Wrapper<T> {
 }
 ```
 
-By implementing `Deref` and `DerefMut`The `Wrapper` type gains access to all `Vec<T>` methods
-Through deref coercion. This means you get custom behavior (`display_all`) plus all of `Vec<T>`'s
+By implementing `Deref` and `DerefMut`. The `Wrapper` type gains access to all `Vec<T>` methods
+through deref coercion. This means you get custom behavior (`display_all`) plus all of `Vec<T>`'s
 Methods.
 
 ## Trait Objects vs Generics: Decision Framework
@@ -819,7 +823,7 @@ impl MyTrait for MyType {
 ```
 
 Since `private::Sealed` is in a private module, external crates cannot implement it, and therefore
-Cannot implement `MyTrait`. This is the standard pattern for "private trait, public methods" in
+cannot implement `MyTrait`. This is the standard pattern for "private trait, public methods" in
 Library design.
 
 ### Extension Traits
@@ -892,7 +896,7 @@ Wizard::fly(&person);              // Wizard::fly
 
 ## Common Pitfalls
 
-1. **Implementing `Clone` without considering `Copy`.** If all fields are `Copy`You should also
+1. **Implementing `Clone` without considering `Copy`.** If all fields are `Copy`. You should also
    derive `Copy`. Forgetting `Copy` on a type that could be `Copy` forces callers to clone
    explicitly, which is unnecessary overhead and a code smell.
 
@@ -945,9 +949,6 @@ implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

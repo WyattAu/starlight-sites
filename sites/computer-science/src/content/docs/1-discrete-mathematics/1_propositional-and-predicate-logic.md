@@ -24,6 +24,8 @@ Propositions and their combinations using logical connectives.
 
 **Basic connectives:**
 
+<div class="table-wrap">
+
 | Symbol     | Name          | Meaning        |
 | ---------- | ------------- | -------------- |
 | $\neg$     | Negation      | NOT            |
@@ -31,6 +33,8 @@ Propositions and their combinations using logical connectives.
 | $\lor$     | Disjunction   | OR             |
 | $\implies$ | Implication   | IF...THEN      |
 | $\iff$     | Biconditional | IF AND ONLY IF |
+
+</div>
 
 **Truth tables.** The implication $p \implies q$ is false only when $p$ is true and $q$ is false.
 
@@ -54,13 +58,19 @@ Same truth value for all assignments.
 
 **Negation of quantifiers:**
 
-$$\neg \forall x\, P(x) \equiv \exists x\, \neg P(x)$$
+$$
+\neg \forall x\, P(x) \equiv \exists x\, \neg P(x)
+$$
 
-$$\neg \exists x\, P(x) \equiv \forall x\, \neg P(x)$$
+$$
+\neg \exists x\, P(x) \equiv \forall x\, \neg P(x)
+$$
 
 **Nested quantifiers** must be read carefully. The order matters:
 
-$$\forall x\, \exists y\, P(x, y) \not\equiv \exists y\, \forall x\, P(x, y)$$
+$$
+\forall x\, \exists y\, P(x, y) \not\equiv \exists y\, \forall x\, P(x, y)
+$$
 
 The first says "for every $x$ there is a (possibly different) $y$." The second says "there exists a Single $y$ that works for all $x$."
 
@@ -81,7 +91,7 @@ Binary $n$-tuples from $(0, \ldots, 0)$ to $(1, \ldots, 1)$. The first variable 
 (only every $2^{n-1}$ rows), while the last variable alternates every row.
 
 **Method 2: Recursive splitting.** For $n$ variables, the table splits into two blocks of $2^{n-1}$
-Rows: the top block has the first variable as $T$The bottom as $F$. Recurse on the remaining $n - 1$
+Rows: the top block has the first variable as $T$ The bottom as $F$. Recurse on the remaining $n - 1$
 variables within each block.
 
 **Worked Example.** Construct the truth table for $(p \implies q) \land (q \implies r)$.
@@ -90,6 +100,8 @@ variables within each block.
 <summary>Solution</summary>
 
 With 3 variables we have $2^3 = 8$ rows.
+
+<div class="table-wrap">
 
 | $p$ | $q$ | $r$ | $p \implies q$ | $q \implies r$ | $\phi$ |
 | --- | --- | --- | -------------- | -------------- | ------ |
@@ -101,6 +113,8 @@ With 3 variables we have $2^3 = 8$ rows.
 | F   | T   | F   | T              | F              | F      |
 | F   | F   | T   | T              | T              | T      |
 | F   | F   | F   | T              | T              | T      |
+
+</div>
 
 The formula is satisfiable (e.g., $p = F, q = F, r = T$) but not a tautology (e.g.,
 $p = T, q = T, r = F$).
@@ -115,6 +129,8 @@ $(p \implies q) \land (q \implies r) \implies (p \implies r)$ is a tautology.
 
 Extending the table above:
 
+<div class="table-wrap">
+
 | $p$ | $q$ | $r$ | $\phi$ | $p \implies r$ | $\phi \implies (p \implies r)$ |
 | --- | --- | --- | ------ | -------------- | ------------------------------ |
 | T   | T   | T   | T      | T              | T                              |
@@ -126,7 +142,9 @@ Extending the table above:
 | F   | F   | T   | T      | T              | T                              |
 | F   | F   | F   | T      | T              | T                              |
 
-The final column is all $T$Confirming the tautology.
+</div>
+
+The final column is all $T$ Confirming the tautology.
 
 </details>
 
@@ -137,6 +155,8 @@ mathematical reasoning. Each connective Has **introduction rules** (how to \_der
 that connective) and **elimination rules** (how to *use* a formula with that connective).
 
 **Rules of inference:**
+
+<div class="table-wrap">
 
 | Rule          | Premises                               | Conclusion  |
 | ------------- | -------------------------------------- | ----------- |
@@ -152,6 +172,8 @@ that connective) and **elimination rules** (how to *use* a formula with that con
 | $\neg$-E      | $A$, $\neg A$                          | $\bot$      |
 | DNE           | $\neg\neg A$                           | $A$         |
 | RAA           | $[\neg A] \vdash \bot$                 | $A$         |
+
+</div>
 
 Square brackets $[A]$ denote an assumption that is **discharged** after the rule is applied.
 
@@ -230,9 +252,9 @@ DNF.
 
 **Conversion to CNF:**
 
-1. Eliminate $\iff$ and $\implies$: $A \implies B \equiv \neg A \lor B$And
+1. Eliminate $\iff$ and $\implies$: $A \implies B \equiv \neg A \lor B$ And
    $A \iff B \equiv (\neg A \lor B) \land (A \lor \neg B)$.
-2. Push $\neg$ inward using De Morgan"s laws and double negation ($\neg\neg A \equiv A$) until every
+2. Push $\neg$ inward using De Morgan's laws and double negation ($\neg\neg A \equiv A$) until every
    $\neg$ applies to a single variable.
 3. Distribute $\lor$ over $\land$: $A \lor (B \land C) \equiv (A \lor B) \land (A \lor C)$.
 
@@ -281,8 +303,8 @@ growth underlies the hardness Of many satisfiability problems.
 The **resolution rule** is a single inference rule that is refutation-complete for propositional
 Logic.
 
-**Resolution rule.** From clauses $(A \lor x)$ and $(B \lor \neg x)$Derive the **resolvent**
-$(A \lor B)$Where $A$ and $B$ are (possibly empty) sets of literals and $x$ is a propositional
+**Resolution rule.** From clauses $(A \lor x)$ and $(B \lor \neg x)$ Derive the **resolvent**
+$(A \lor B)$ Where $A$ and $B$ are (possibly empty) sets of literals and $x$ is a propositional
 Variable.
 
 **Resolution refutation.** To show that clauses $\{C_1, \ldots, C_k\}$ entail clause $C$:
@@ -313,7 +335,7 @@ Since $\bot$ is derived, the entailment holds. $\blacksquare$
 
 ### 1.8 The SAT Problem
 
-The **Boolean satisfiability problem (SAT)** asks: given a propositional formula $\phi$Is there a
+The **Boolean satisfiability problem (SAT)** asks: given a propositional formula $\phi$ Is there a
 Truth assignment that makes $\phi$ true?
 
 **Definition.** An instance of SAT is a propositional formula. The answer is YES if $\phi$ is
@@ -336,16 +358,6 @@ AI planning. Modern solvers routinely handle instances with millions of variable
 it is true under _some_ Assignment; it is _valid_ (a tautology) if true under _all_ assignments.
 Checking validity is Co-NP-complete, not NP-complete.
 :::
-
-```mermaid
-flowchart TD
-    A[1_Propositional And Predicate Logic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

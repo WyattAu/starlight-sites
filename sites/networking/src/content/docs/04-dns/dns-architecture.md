@@ -45,11 +45,11 @@ Interface is where you:
 ### Registries
 
 Registries operate the TLD (Top-Level Domain) zone. They maintain the authoritative name servers for
-The TLD and accept registrations from registrars. Examples:
+the TLD and accept registrations from registrars. Examples:
 
 - Verisign operates `.com` and `.net`
 - PIR operates `.org`
-- Google Registry operates `.dev``.app``.page`
+- Google Registry operates `.dev`, `.app`, `.page`
 - Nominet operates `.uk`
 
 The registry does not interact with end users. The registrar communicates with the registry on
@@ -66,6 +66,8 @@ Servers respond to queries asking "where is the authoritative name server for ex
 The root zone (`.`) is the apex of the DNS hierarchy. ICANN coordinates the root zone, which is
 Served by 13 logical root server networks (A through M) operated by different organizations:
 
+<div class="table-wrap">
+
 | Label | Operator                          | Anycast instances |
 | ----- | --------------------------------- | ----------------- |
 | A     | Verisign                          | 100+              |
@@ -81,6 +83,8 @@ Served by 13 logical root server networks (A through M) operated by different or
 | K     | RIPE NCC                          | 30+               |
 | L     | ICANN                             | 20+               |
 | M     | WIDE Project                      | 10+               |
+
+</div>
 
 The "13" is a historical limit from the original DNS specification (UDP packet size constraints).
 Today, each logical root server is deployed as an anycast cluster with dozens to hundreds of
@@ -119,7 +123,7 @@ Serial number formats:
 
 :::caution
 Higher). This is a common mistake when migrating DNS providers. Always ensure the serial is higher
-Than the current value on all slaves.
+than the current value on all slaves.
 
 ### Zone Transfers
 
@@ -258,6 +262,8 @@ zone. The ZSK is rotated frequently (monthly) because it is used for every recor
 
 ### Record Types
 
+<div class="table-wrap">
+
 | Type   | Purpose                                               |
 | ------ | ----------------------------------------------------- |
 | DNSKEY | Public key for the zone                               |
@@ -265,6 +271,8 @@ zone. The ZSK is rotated frequently (monthly) because it is used for every recor
 | RRSIG  | Digital signature over a resource record set (RRset)  |
 | NSEC   | Points to the next name in the zone (proves NXDOMAIN) |
 | NSEC3  | Hashed NSEC (prevents zone enumeration)               |
+
+</div>
 
 ### Signing a Zone
 
@@ -282,7 +290,7 @@ ldns-signzone example.com.signed example.com Kexample.com.+013+*.key
 ### Key Rotation
 
 ZSK rotation is straightforward: generate a new ZSK, sign the zone with both old and new ZSKs, wait
-For the old RRSIGs to expire, then remove the old ZSK.
+for the old RRSIGs to expire, then remove the old ZSK.
 
 KSK rotation is more involved because the DS record in the parent zone must be updated. The process
 (RFC 8078):
@@ -318,7 +326,7 @@ Provides weaker security but better performance for large zones.
 ### How Anycast Works
 
 Anycast assigns the same IP address to multiple servers in different locations. BGP routes traffic
-To the nearest (topologically closest) server. For DNS, this means queries are answered by the
+to the nearest (topologically closest) server. For DNS, this means queries are answered by the
 Closest name server instance.
 
 ```
@@ -455,6 +463,8 @@ This is how CDNs direct users to the nearest edge server.
 
 ### Internal/External Split
 
+<div class="table-wrap">
+
 | Aspect     | Internal DNS                            | External DNS                     |
 | ---------- | --------------------------------------- | -------------------------------- |
 | Purpose    | Corporate infrastructure resolution     | Public-facing services           |
@@ -464,6 +474,8 @@ This is how CDNs direct users to the nearest edge server.
 | Forwarding | Internal recursive resolvers            | ISP or public resolvers          |
 | Security   | Protected by firewall, no public access | Public, DDoS protected           |
 | DNSSEC     | Optional (internal trust)               | Recommended                      |
+
+</div>
 
 ### Active Directory Integration
 
@@ -512,7 +524,7 @@ forward-zone:
 ### dig +trace
 
 The most important DNS troubleshooting command. It traces the full resolution path from the root
-Down to the authoritative server.
+down to the authoritative server.
 
 ```bash
 # Full resolution trace
@@ -687,7 +699,7 @@ host 93.184.216.1
 ### 5. Breaking DNSSEC During Migration
 
 When migrating between DNS providers, the DNSSEC chain of trust must be maintained. If you remove
-The old DS record before the new one is published, DNSSEC validation fails and your domain becomes
+the old DS record before the new one is published, DNSSEC validation fails and your domain becomes
 Unreachable. Always overlap: publish the new DS first, verify it validates, then remove the old DS.
 
 ### 6. CNAME at the Zone Apex
@@ -702,7 +714,7 @@ Use ALIAS/ANAME records (provider-specific) or CNAME flattening to work around t
 
 DNS-over-TLS encrypts DNS queries and responses using TLS. The standard port is 853. The client
 Establishes a TCP connection to the resolver, performs a TLS handshake, and then sends DNS queries
-Within the TLS tunnel.
+within the TLS tunnel.
 
 ```bash
 # Test DoT with kdig (Knot DNS utilities)
@@ -728,6 +740,8 @@ kdig @https://dns.google example.com +https
 
 ### DoH vs DoT Comparison
 
+<div class="table-wrap">
+
 | Feature            | DoT (853)             | DoH (443)                    |
 | ------------------ | --------------------- | ---------------------------- |
 | Port               | 853 (dedicated)       | 443 (shared with HTTPS)      |
@@ -736,11 +750,13 @@ kdig @https://dns.google example.com +https
 | Overhead           | Lower (no HTTP)       | Higher (HTTP framing)        |
 | Detection          | Easy to detect/block  | Hard to detect/block         |
 | Client support     | Android, iOS, Linux   | Browsers, curl, most OS      |
+
+</div>
 :::
 
 :::caution
 Content filtering. Users can configure their browsers to use an external DoH resolver (e.g.,
-`dns.google``cloudflare-dns.com`), making it impossible for IT to enforce DNS-based policies. Some
+`dns.google`, `cloudflare-dns.com`), making it impossible for IT to enforce DNS-based policies. Some
 Enterprises block DoH at the firewall to maintain control.
 
 ## DNS Performance Tuning
@@ -755,6 +771,8 @@ Application resolver -> OS cache -> Local recursive resolver -> ISP cache -> Aut
 
 Typical latencies at each level:
 
+<div class="table-wrap">
+
 | Level                 | Latency  | TTL influence          |
 | --------------------- | -------- | ---------------------- |
 | Application cache     | 0ms      | Application-controlled |
@@ -762,6 +780,8 @@ Typical latencies at each level:
 | Local recursive cache | 0-5ms    | Respects TTL           |
 | ISP cache hit         | 5-50ms   | Respects TTL           |
 | Authoritative (cold)  | 50-500ms | Fresh answer           |
+
+</div>
 
 ### Negative Caching
 
@@ -777,7 +797,7 @@ dig nonexist.example.com | grep -i "nxdomain\|soa"
 ### Prefetching
 
 Some resolvers (Unbound, Knot Resolver) support DNS prefetching: proactively refreshing records
-Before they expire, so that the cached answer is always fresh when the application queries.
+before they expire, so that the cached answer is always fresh when the application queries.
 
 ```text
 # Unbound prefetch configuration
@@ -800,7 +820,7 @@ dig +subnet=192.168.1.0/24 www.example.com @8.8.8.8
 
 :::caution
 Privacy-focused resolvers (Cloudflare 1.1.1.1, Quad9) zero out ECS by default or randomize it. If
-You operate an authoritative server behind a CDN, ensure ECS is configured correctly -- incorrect
+you operate an authoritative server behind a CDN, ensure ECS is configured correctly -- incorrect
 ECS processing can route clients to the wrong CDN edge.
 
 ## DNS Failover and High Availability
@@ -841,16 +861,6 @@ dig @ns1.example.com example.com SOA +timeout=2 +tries=1
 echo $?    # 0 = success, non-zero = failure
 ```
 
-```mermaid
-flowchart TD
-    A[Dns Architecture] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dns architecture and operations, including underlying theory,
@@ -864,13 +874,7 @@ practical implementation, and key applications.
 - error handling (Result, Option)
 - concurrency with threads and async
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

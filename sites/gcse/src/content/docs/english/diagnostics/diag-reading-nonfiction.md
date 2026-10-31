@@ -32,7 +32,7 @@ Read the following article extract about urban cycling:
 > by over 70%, and cycling became the dominant mode of transport. Today, 61% of all journeys in
 > Groningen are made by bicycle, compared with just 2% in most British cities. Critics argue that
 > what worked in a flat Dutch city of 200,000 people cannot be transplanted to a congested
-> British metropolis of millions. They may be right. But the principle behind Groningen"s approach
+> British metropolis of millions. They may be right. But the principle behind Groningen's approach
 > -- that infrastructure determines behaviour -- is applicable everywhere.
 
 (a) According to the text, what was the key change made to Groningen's city centre in the 1970s?
@@ -363,27 +363,9 @@ conclusion rather than a simplistic verdict.
 
 **The key insight:** Every non-fiction text has a purpose, understanding the writer's intent helps you evaluate their arguments more effectively.
 
-
-```mermaid
-flowchart TD
-    A[Diag Reading Nonfiction] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

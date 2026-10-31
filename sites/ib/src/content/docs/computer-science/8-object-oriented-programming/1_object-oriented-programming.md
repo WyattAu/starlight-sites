@@ -22,7 +22,7 @@ categories:
 ## Java Examination Tool Sebset (JETS)
 
 The IB does not expect a specific standard of Java to be taught but a subset of Java called JETS for
-Students to present OOP concepts
+students to present OOP concepts
 
 ## Intuition
 
@@ -36,12 +36,16 @@ Students to present OOP concepts
 
 ### Styles
 
+<div class="table-wrap">
+
 | Token               | Conventions        |
 | ------------------- | ------------------ |
 | Classes identifier  | `CapitalCamelCase` |
 | Variable identifier | `camelCase`        |
 | Method identifier   | `camelCase`        |
 | Constant identifier | `UPPER_CASE`       |
+
+</div>
 
 ### Ordering
 
@@ -149,7 +153,7 @@ JETS is designed to demonstrate these core principles.
 ### Encapsulation
 
 Encapsulation is the bundling of data (attributes) and methods that operate on that data within a
-Single unit (class), while restricting direct access to some of the object's components.
+single unit (class), while restricting direct access to some of the object's components.
 
 - **Private attributes** can only be accessed through public methods (getters and setters).
 - This protects the internal state of an object from unauthorised or accidental modification.
@@ -237,7 +241,7 @@ class Dog extends Animal {
 ### Polymorphism
 
 Polymorphism means "many forms." It allows objects of different classes to be treated through a
-Common interface.
+common interface.
 
 **Method overriding:** A subclass provides a specific implementation of a method already defined in
 Its superclass.
@@ -345,6 +349,8 @@ Programs. IB exams frequently include UML diagrams and ask you to interpret or c
 
 ### Key UML Notation
 
+<div class="table-wrap">
+
 | Element         | Symbol                                          | Meaning                                    |
 | :-------------- | :---------------------------------------------- | :----------------------------------------- |
 | Class           | Rectangle with three sections                   | Class name, attributes, methods            |
@@ -355,6 +361,8 @@ Programs. IB exams frequently include UML diagrams and ask you to interpret or c
 | Association     | Solid line with arrow                           | "Has-a" relationship                       |
 | Aggregation     | Solid line with hollow diamond                  | "Has-a" (weak ownership)                   |
 | Composition     | Solid line with filled diamond                  | "Has-a" (strong ownership)                 |
+
+</div>
 
 ### Example UML Diagram (Text Representation)
 
@@ -589,7 +597,7 @@ int binarySearch(int[] arr, int target) {
 ### Bubble Sort
 
 Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the
-Wrong order.
+wrong order.
 
 ```java
 void bubbleSort(int[] arr) {
@@ -645,7 +653,7 @@ void selectionSort(int[] arr) {
 
 ## IB Exam Tips for JETS
 
-1. **Know the access modifiers:** Understand when to use `public``private`And `protected`. Most
+1. **Know the access modifiers:** Understand when to use `public`, `private` and `protected`. Most
    attributes should be `private`; most methods should be `public`.
 
 2. **Constructors come first:** In JETS convention, constructors are placed as the first method in a
@@ -681,32 +689,18 @@ void selectionSort(int[] arr) {
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                         | Site    | Link                                                                                                                |
 | ----------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
 | [Object-Oriented Programming] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/programming/02-object-oriented-programming) |
-| [Object-Oriented Programming] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/8-object-oriented-programming/1_object-oriented-programming) |
+| [Object-Oriented Programming] | IB      | [View](https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming/) |
 
-
-```mermaid
-flowchart TD
-    A[1_Object Oriented Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

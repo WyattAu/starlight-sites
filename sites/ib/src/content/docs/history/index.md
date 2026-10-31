@@ -33,10 +33,7 @@ This section provides study materials and resources for history. If History feel
 - [The Cold War](/history/the-cold-war/)
 - [The Move To Global War](/history/the-move-to-global-war/)
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -47,22 +44,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 Keep practising and reviewing to master this topic.

@@ -29,6 +29,8 @@ A **relational database** organises data into **relations** (tables), each consi
 
 ### Terminology
 
+<div class="table-wrap">
+
 | Relational term | SQL equivalent | Description                               |
 | --------------- | -------------- | ----------------------------------------- |
 | Relation        | Table          | A set of tuples                           |
@@ -37,6 +39,8 @@ A **relational database** organises data into **relations** (tables), each consi
 | Domain          | Data type      | Set of allowable values                   |
 | Primary key     | PRIMARY KEY    | Unique identifier for each tuple          |
 | Foreign key     | FOREIGN KEY    | References a primary key in another table |
+
+</div>
 
 ### Keys
 
@@ -101,6 +105,8 @@ HAVING AVG(salary) > 50000
 ORDER BY avg_salary DESC;
 ```
 
+<div class="table-wrap">
+
 | Function  | Description     |
 | --------- | --------------- |
 | COUNT(\*) | Count of rows   |
@@ -108,6 +114,8 @@ ORDER BY avg_salary DESC;
 | AVG(col)  | Arithmetic mean |
 | MIN(col)  | Minimum value   |
 | MAX(col)  | Maximum value   |
+
+</div>
 
 ### Subqueries
 
@@ -164,18 +172,26 @@ Normalisation eliminates **data redundancy** and **anomalies**:
 
 **Violation example:**
 
+<div class="table-wrap">
+
 | student_id | name  | courses        |
 | ---------- | ----- | -------------- |
 | 1          | Alice | CS101, MATH201 |
+
+</div>
 
 **Problem:** `courses` contains multiple values in a single cell.
 
 **1NF solution:** Split into separate rows (each cell contains one value).
 
+<div class="table-wrap">
+
 | student_id | name  | course  |
 | ---------- | ----- | ------- |
 | 1          | Alice | CS101   |
 | 1          | Alice | MATH201 |
+
+</div>
 
 ### Second Normal Form (2NF)
 
@@ -186,9 +202,13 @@ A partial dependency exists when a non-key attribute depends on only part of a c
 
 **Violation example:**
 
+<div class="table-wrap">
+
 | student_id | course_id | student_name | course_title |
 | ---------- | --------- | ------------ | ------------ |
 | 1          | CS101     | Alice        | Programming  |
+
+</div>
 
 Composite key: (student_id, course_id).
 
@@ -209,14 +229,18 @@ A transitive dependency: $A \to B \to C$ (where $A$ is a key, $B$ and $C$ are no
 
 **Violation example:**
 
+<div class="table-wrap">
+
 | student_id | name  | department | dept_location |
 | ---------- | ----- | ---------- | ------------- |
 | 1          | Alice | CS         | Building A    |
 
+</div>
+
 Key: student_id.
 
 Transitive dependency: student_id → department → dept_location. (dept_location depends on
-Department, not directly on student_id.)
+department, not directly on student_id.)
 
 **3NF solution:** Split:
 
@@ -240,7 +264,7 @@ Keys: (student, course) and (student, teacher).
 
 In 3NF: teacher → course is a transitive dependency through (student, teacher) → course. Wait,
 Teacher is not a non-prime attribute in 3NF's definition (it's part of a candidate key). So this
-Relation is in 3NF.
+relation is in 3NF.
 
 But: teacher → course, and teacher is NOT a superkey. So this violates BCNF.
 
@@ -250,9 +274,11 @@ But: teacher → course, and teacher is NOT a superkey. So this violates BCNF.
 - (teacher, course), teacher teaches course
 
 This is in BCNF but loses the dependency (student, course) → teacher (a join is needed to recover
-It).
+it).
 
 ### Normalisation Summary
+
+<div class="table-wrap">
 
 | Form | Requirement                                     | Eliminates              |
 | ---- | ----------------------------------------------- | ----------------------- |
@@ -260,6 +286,8 @@ It).
 | 2NF  | 1NF + no partial dependencies on composite keys | Partial dependencies    |
 | 3NF  | 2NF + no transitive dependencies                | Transitive dependencies |
 | BCNF | 3NF + every determinant is a candidate key      | Remaining anomalies     |
+
+</div>
 
 :::note
 - **AQA** requires SQL (SELECT, INSERT, UPDATE, DELETE, JOIN, GROUP BY), normalisation to 3NF, and
@@ -277,12 +305,16 @@ It).
 
 Transactions in a database must satisfy the **ACID** properties:
 
+<div class="table-wrap">
+
 | Property    | Description                                                                 |
 | ----------- | --------------------------------------------------------------------------- |
 | Atomicity   | A transaction is all-or-nothing, either all operations complete or none do |
 | Consistency | The database transitions from one valid state to another                    |
 | Isolation   | Concurrent transactions do not interfere with each other                    |
 | Durability  | Once a transaction commits, its effects are permanent (survive crashes)     |
+
+</div>
 
 ### Example: Bank Transfer
 
@@ -327,11 +359,15 @@ Resolved into:
 
 **Problem 1.** Given the following unnormalised table, normalise it to 3NF.
 
+<div class="table-wrap">
+
 | OrderID | CustomerName | CustomerCity | Product | Quantity | ProductPrice |
 | ------- | ------------ | ------------ | ------- | -------- | ------------ |
 | 1       | Alice        | London       | Book    | 2        | 15           |
 | 1       | Alice        | London       | Pen     | 5        | 2            |
 | 2       | Bob          | Paris        | Book    | 1        | 15           |
+
+</div>
 
 <details>
 <summary>Answer</summary>
@@ -398,10 +434,14 @@ LIMIT 1;
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Clause | Applied to      | Timing          | Filters                  |
 | ------ | --------------- | --------------- | ------------------------ |
 | WHERE  | Individual rows | Before grouping | Rows before aggregation  |
 | HAVING | Groups          | After grouping  | Groups after aggregation |
+
+</div>
 
 `WHERE` filters rows before `GROUP BY` is applied. `HAVING` filters the groups created by
 `GROUP BY`.
@@ -425,7 +465,7 @@ HAVING COUNT(*) > 5        -- Filter groups
 
 **Proof.** Recall:
 
-- 3NF: For every non-trivial dependency $A \to B$Either $A$ is a superkey, or $B$ is a prime
+- 3NF: For every non-trivial dependency $A \to B$ Either $A$ is a superkey, or $B$ is a prime
   attribute (part of some candidate key).
 - BCNF: For every non-trivial dependency $A \to B$, $A$ is a superkey.
 
@@ -457,7 +497,7 @@ WHERE salary > (
 ```
 
 For each employee, the subquery computes the average salary of that employee's department. If the
-Employee's salary exceeds this average, the row is included.
+employee's salary exceeds this average, the row is included.
 
 </details>
 
@@ -535,11 +575,11 @@ R(A, B, C) with functional dependencies: AB → C, C → B
 
 **Step 1: Find candidate keys.** By the closure of AB: AB⁺ = \{A, B, C\}, so AB is a candidate key.
 By the closure of AC: AC → C → B (by C → B and augmentation), so AC → ABC, making AC also a
-Candidate key.
+candidate key.
 
 **Step 2: Identify BCNF violations.** BCNF requires that for every non-trivial FD X → Y, X must be a
 Superkey. The FD C → B is non-trivial, but C is not a superkey (C does not determine A). Therefore R
-Is not in BCNF.
+is not in BCNF.
 
 **Step 3: Decompose.** We decompose along the violating FD C → B:
 
@@ -552,14 +592,14 @@ lossless (by the chase test / BCNF decomposition theorem). ✓
 **Step 5: Dependency preservation.** The original FDs are $\\{AB \to C,\; C \to B\\}$.
 
 - $C \to B$ is preserved in $R_1(C, B)$. ✓
-- $AB \to C$: to check this, we need to compute $C$ from $A$ and $B$. In $R_2(A, C)$Given $A$ we
+- $AB \to C$: to check this, we need to compute $C$ from $A$ and $B$. In $R_2(A, C)$ Given $A$ we
   cannot determine $C$ without additional information. We would need to join $R_1$ and $R_2$: from
   $(A, B)$ we cannot join because $B$ is not in $R_2$. So $AB \to C$ is **not preserved**. ✗
 
 **Conclusion.** This is a classic example where BCNF and dependency preservation are incompatible.
 We must choose: either accept 3NF (which preserves dependencies but allows redundancy) or accept
 BCNF (which eliminates redundancy but loses the FD $AB \to C$). In practice, 3NF is often preferred
-When dependency preservation is critical.
+when dependency preservation is critical.
 
 </details>
 
@@ -570,6 +610,8 @@ When dependency preservation is critical.
 **Problem 1.** Given the following `Employees` table, write an SQL query to find all employees in
 The 'Sales' department who earn more than 45000.
 
+<div class="table-wrap">
+
 | emp_id | name  | department | salary |
 | ------ | ----- | ---------- | ------ |
 | 1      | Alice | Sales      | 50000  |
@@ -577,6 +619,8 @@ The 'Sales' department who earn more than 45000.
 | 3      | Carol | Sales      | 42000  |
 | 4      | Dave  | Sales      | 48000  |
 | 5      | Eve   | IT         | 60000  |
+
+</div>
 
 <details>
 <summary>Hint</summary>
@@ -596,13 +640,17 @@ WHERE department = 'Sales' AND salary > 45000;
 
 Result:
 
+<div class="table-wrap">
+
 | name  | salary |
 | ----- | ------ |
 | Alice | 50000  |
 | Dave  | 48000  |
 
+</div>
+
 The WHERE clause filters rows where both conditions are true simultaneously: the employee must be in
-Sales AND earn more than 45000. Carol is excluded because her salary (42000) is not > 45000. Bob and
+sales AND earn more than 45000. Carol is excluded because her salary (42000) is not > 45000. Bob and
 Eve are excluded because they are in IT.
 
 </details>
@@ -612,13 +660,19 @@ JOIN to list each student's name alongside the titles of all courses they are en
 
 **Students:**
 
+<div class="table-wrap">
+
 | student_id | name  |
 | ---------- | ----- |
 | 1          | Alice |
 | 2          | Bob   |
 | 3          | Carol |
 
+</div>
+
 **Enrolments:**
+
+<div class="table-wrap">
 
 | enrolment_id | student_id | course_id |
 | ------------ | ---------- | --------- |
@@ -627,13 +681,19 @@ JOIN to list each student's name alongside the titles of all courses they are en
 | 3            | 2          | CS101     |
 | 4            | 2          | PHYS101   |
 
+</div>
+
 **Courses:**
+
+<div class="table-wrap">
 
 | course_id | title               |
 | --------- | ------------------- |
 | CS101     | Computer Science    |
 | MATH201   | Linear Algebra      |
 | PHYS101   | Classical Mechanics |
+
+</div>
 
 <details>
 <summary>Hint</summary>
@@ -656,6 +716,8 @@ ORDER BY Students.name, Courses.title;
 
 Result:
 
+<div class="table-wrap">
+
 | name  | title               |
 | ----- | ------------------- |
 | Alice | Computer Science    |
@@ -663,13 +725,17 @@ Result:
 | Bob   | Classical Mechanics |
 | Bob   | Computer Science    |
 
+</div>
+
 Carol does not appear because she has no enrolments, and INNER JOIN excludes unmatched rows. If we
-Wanted Carol to appear with NULL values, we would use LEFT JOIN starting from Students.
+wanted Carol to appear with NULL values, we would use LEFT JOIN starting from Students.
 
 </details>
 
 **Problem 3.** The following table stores information about hospital patients. Identify all
 Functional dependencies and normalise the table to 2NF.
+
+<div class="table-wrap">
 
 | patient_id | patient_name | ward_id | ward_name  | doctor_id | doctor_name |
 | ---------- | ------------ | ------- | ---------- | --------- | ----------- |
@@ -677,11 +743,13 @@ Functional dependencies and normalise the table to 2NF.
 | P002       | Jane Doe     | W01     | Cardiology | D002      | Dr Brown    |
 | P003       | Bob Wilson   | W02     | Neurology  | D001      | Dr Adams    |
 
+</div>
+
 <details>
 <summary>Hint</summary>
 
 First identify the candidate key(s). Then check for partial dependencies, non-key attributes that
-Depend on only part of a composite key.
+depend on only part of a composite key.
 
 </details>
 
@@ -725,11 +793,15 @@ Each table is now in 3NF with no transitive dependencies.
 **Problem 4.** The following table records module results for university students. Identify all
 Functional dependencies and normalise to 3NF.
 
+<div class="table-wrap">
+
 | student_id | student_name | module_code | module_title | credits | lecturer | grade |
 | ---------- | ------------ | ----------- | ------------ | ------- | -------- | ----- |
 | S001       | Alice        | CS101       | Programming  | 20      | Dr Lee   | A     |
 | S001       | Alice        | CS201       | Databases    | 20      | Dr Patel | B     |
 | S002       | Bob          | CS101       | Programming  | 20      | Dr Lee   | C     |
+
+</div>
 
 <details>
 <summary>Hint</summary>
@@ -773,7 +845,7 @@ Dependency. ✓
 In Students: key is student_id, only non-key attribute is student_name. No transitive dependency. ✓
 
 In Modules: key is module_code, non-key attributes are module_title, credits, lecturer. No
-Transitive dependency (all depend directly on module_code). ✓
+transitive dependency (all depend directly on module_code). ✓
 
 All three tables are in 3NF.
 
@@ -789,7 +861,7 @@ Relationships:
 - A Teacher **teaches** many Classes (Many-to-Many)
 
 (a) How many junction (link) tables are needed to resolve the Many-to-Many relationships? (b) Write
-The schema for each table, including primary and foreign keys.
+the schema for each table, including primary and foreign keys.
 
 <details>
 <summary>Hint</summary>
@@ -837,7 +909,7 @@ Referencing the two entities it connects.
 - PRIMARY KEY (teacher_id, class_id)
 
 The junction tables use composite primary keys (the combination of the two foreign keys) to ensure
-Each student-class or teacher-class pairing is unique.
+each student-class or teacher-class pairing is unique.
 
 </details>
 
@@ -864,10 +936,14 @@ Mean the "Many" side (Booking) holds the foreign keys.
 
 **Foreign keys in the Booking table:**
 
+<div class="table-wrap">
+
 | Foreign Key Column | References       | Reason                                                           |
 | ------------------ | ---------------- | ---------------------------------------------------------------- |
 | guest_id           | Guest.guest_id   | Each booking belongs to one guest (1:Many from Guest to Booking) |
 | room_number        | Room.room_number | Each booking is for one room (1:Many from Room to Booking)       |
+
+</div>
 
 **Explanation:**
 
@@ -876,7 +952,7 @@ Mean the "Many" side (Booking) holds the foreign keys.
   made the booking.
 - The Room-to-Booking relationship is 1:Many because one room can be booked multiple times (on
   different dates), but each booking is for exactly one room. The foreign key `room_number` in
-  Booking records which room is booked.
+  booking records which room is booked.
 
 **Primary keys:**
 
@@ -893,6 +969,8 @@ Relationships.
 Product: (id=6, name='Monitor', category='Electronics', price=299.99) (b) Update the price of
 'Keyboard' to 45.00 (c) Delete all products in the 'Furniture' category
 
+<div class="table-wrap">
+
 | product_id | name     | category    | price  |
 | ---------- | -------- | ----------- | ------ |
 | 1          | Laptop   | Electronics | 999.99 |
@@ -900,6 +978,8 @@ Product: (id=6, name='Monitor', category='Electronics', price=299.99) (b) Update
 | 3          | Desk     | Furniture   | 249.99 |
 | 4          | Chair    | Furniture   | 199.99 |
 | 5          | Mouse    | Electronics | 29.99  |
+
+</div>
 
 <details>
 <summary>Hint</summary>
@@ -940,6 +1020,8 @@ This removes rows where product_id is 3 (Desk) and 4 (Chair).
 
 **Final table state:**
 
+<div class="table-wrap">
+
 | product_id | name     | category    | price  |
 | ---------- | -------- | ----------- | ------ |
 | 1          | Laptop   | Electronics | 999.99 |
@@ -947,11 +1029,13 @@ This removes rows where product_id is 3 (Desk) and 4 (Chair).
 | 5          | Mouse    | Electronics | 29.99  |
 | 6          | Monitor  | Electronics | 299.99 |
 
+</div>
+
 </details>
 
 **Problem 8.** A library uses the following tables. Write SQL statements to: (a) Add a new member:
 (member_id=1001, name='Sarah', join_date='2025-03-15') (b) Update the status of all books borrowed
-Before '2025-01-01' to 'overdue' (c) Delete the borrow record for member 50 returning book BK004
+before '2025-01-01' to 'overdue' (c) Delete the borrow record for member 50 returning book BK004
 
 **Members** (member_id, name, join_date) **Books** (book_id, title, author) **Borrows** (borrow_id,
 Member_id, book_id, borrow_date, return_date, status)
@@ -983,7 +1067,7 @@ WHERE borrow_date < '2025-01-01';
 ```
 
 This updates all borrow records where the borrow date is before 1st January 2025 and sets their
-Status to 'overdue'. This is a bulk update, multiple rows may be affected.
+status to 'overdue'. This is a bulk update, multiple rows may be affected.
 
 **(c) Delete a specific borrow record:**
 
@@ -993,7 +1077,7 @@ WHERE member_id = 50 AND book_id = 'BK004';
 ```
 
 Both conditions are needed in the WHERE clause to identify the correct record (since member_id alone
-Is not unique in the Borrows table, a member can borrow multiple books).
+is not unique in the Borrows table, a member can borrow multiple books).
 
 </details>
 
@@ -1065,13 +1149,13 @@ Operations. The business has:
 (a) Design a normalised schema (at least 3NF) for this system. State each table, its columns,
 Primary keys, and foreign keys. (b) Write SQL to create the Employees table with appropriate
 Constraints. (c) Write an SQL query to find the names of all employees who work on projects with a
-Budget greater than 50000. (d) Write an SQL query to find the total salary bill for each department.
+budget greater than 50000. (d) Write an SQL query to find the total salary bill for each department.
 
 <details>
 <summary>Hint</summary>
 
 For (a), you need a junction table for the Many-to-Many employee-project relationship. For (c), you
-Need to join three tables. For (d), use GROUP BY with SUM.
+need to join three tables. For (d), use GROUP BY with SUM.
 
 </details>
 
@@ -1121,7 +1205,7 @@ DISTINCT is used because an employee may work on multiple high-budget projects, 
 Listed once.
 
 Result example: If Alice works on Project A (budget 60000) and Project B (budget 30000), she appears
-Once (due to DISTINCT).
+once (due to DISTINCT).
 
 **(d) Total salary bill per department:**
 
@@ -1135,11 +1219,15 @@ ORDER BY total_salary DESC;
 
 Example result:
 
+<div class="table-wrap">
+
 | dept_name | total_salary |
 | --------- | ------------ |
 | IT        | 165000.00    |
 | Sales     | 142000.00    |
 | HR        | 98000.00     |
+
+</div>
 
 </details>
 
@@ -1156,26 +1244,9 @@ Example result:
 4. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
 
-```mermaid
-flowchart TD
-    A[01 Relational Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Mistakes
 

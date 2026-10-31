@@ -34,6 +34,8 @@ Git also supports a third protocol, the unauthenticated `git://` protocol, but i
 Default on all major hosting platforms due to its lack of authentication (it was the vector for
 CVE-2014-9398, a buffer overflow vulnerability). It is not covered here.
 
+<div class="table-wrap">
+
 | Aspect                | HTTPS                                      | SSH                                       |
 | --------------------- | ------------------------------------------ | ----------------------------------------- |
 | Default port          | 443                                        | 22                                        |
@@ -44,6 +46,8 @@ CVE-2014-9398, a buffer overflow vulnerability). It is not covered here.
 | CI/CD suitability     | Excellent (token as env var)               | Good (deploy key)                         |
 | Enterprise proxy      | Works through HTTP(S) proxies              | Requires ProxyCommand or jump hosts       |
 | Performance           | Slightly slower (TLS overhead per request) | Slightly faster (persistent multiplexing) |
+
+</div>
 
 Git does not enforce a single protocol for a repository. You can fetch over HTTPS and push over SSH,
 Or use different protocols for different remotes. The choice is per-remote URL, not per-repository.
@@ -78,12 +82,16 @@ Your public key has been saved in /home/user/.ssh/id_ed25519.pub
 
 ### Key Type Comparison
 
+<div class="table-wrap">
+
 | Algorithm | Key Size | Security Level | Speed (sign) | Speed (verify) | Recommendation |
 | --------- | -------- | -------------- | ------------ | -------------- | -------------- |
 | Ed25519   | 256 bit  | ~128 bit       | Very fast    | Very fast      | Default choice |
 | RSA       | 2048 bit | ~112 bit       | Slow         | Moderate       | Legacy minimum |
 | RSA       | 4096 bit | ~140 bit       | Very slow    | Moderate       | Overkill       |
 | ECDSA     | 256 bit  | ~128 bit       | Moderate     | Moderate       | Avoid (NIST)   |
+
+</div>
 
 **Ed25519** is the default choice for all new keys. Use RSA-4096 only if you must interoperate with
 Systems that do not support Ed25519 (rare, but some older enterprise SSH servers and FIPS-140-2
@@ -114,7 +122,7 @@ Becomes tedious with frequent Git operations, which is why `ssh-agent` exists.
 
 `ssh-agent` is a daemon that holds your decrypted private keys in memory. Once you add a key to the
 Agent and authenticate once (entering the passphrase), subsequent SSH connections use the cached key
-Without prompting.
+without prompting.
 
 ```bash
 # Start ssh-agent (or verify it is running)
@@ -143,7 +151,7 @@ $ ssh-add -D
 #### Persisting ssh-agent Across Sessions
 
 On Linux, `ssh-agent` does not persist across reboots or terminal sessions. You must start it in
-Each session, or configure your shell to auto-start it:
+each session, or configure your shell to auto-start it:
 
 ```bash
 # Add to ~/.bashrc or ~/.zshrc
@@ -159,7 +167,7 @@ Windows, the OpenSSH Agent service handles this automatically.
 #### ssh-agent Lifetime
 
 The agent retains keys in RAM until it exits or the keys are explicitly removed. For security, you
-Can set a lifetime:
+can set a lifetime:
 
 ```bash
 # Add key with a 1-hour lifetime
@@ -170,7 +178,7 @@ $ ssh-add -t 4h ~/.ssh/id_ed25519
 ```
 
 After the lifetime expires, the key is removed from the agent and you must re-add it (re-entering
-The passphrase).
+the passphrase).
 
 ### Adding the Public Key to a Hosting Platform
 
@@ -258,6 +266,8 @@ Host gitea.internal
 
 ### Key Directives
 
+<div class="table-wrap">
+
 | Directive        | Purpose                                                        | Example                          |
 | ---------------- | -------------------------------------------------------------- | -------------------------------- |
 | `Host`           | Pattern-matching alias for the host                            | `Host github-work`               |
@@ -269,6 +279,8 @@ Host gitea.internal
 | `ForwardAgent`   | Forward the local ssh-agent to the remote host                 | `ForwardAgent yes`               |
 | `AddKeysToAgent` | Automatically add the key to ssh-agent on first use            | `AddKeysToAgent yes`             |
 | `Compression`    | Enable compression for slow connections                        | `Compression yes`                |
+
+</div>
 
 ### IdentitiesOnly
 
@@ -336,11 +348,15 @@ Host *
     ControlPersist 600
 ```
 
+<div class="table-wrap">
+
 | Directive            | Purpose                                                                  |
 | -------------------- | ------------------------------------------------------------------------ |
 | `ControlMaster auto` | Enable multiplexing; auto-create a master connection if none exists      |
 | `ControlPath`        | Path to the control socket file (`%r` = user, `%h` = host, `%p` = port)  |
 | `ControlPersist 600` | Keep the master connection alive for 600 seconds (10 min) after last use |
+
+</div>
 
 The socket directory must exist:
 
@@ -367,7 +383,7 @@ $ git push origin main
 
 HTTPS authentication to GitHub and GitLab uses Personal Access Tokens (PATs) instead of passwords.
 GitHub deprecated password authentication for Git operations in August 2021 (and removed it entirely
-In August 2022). GitLab deprecated it in 2022.
+in August 2022). GitLab deprecated it in 2022.
 
 A PAT is a long-lived token (configurable expiry) that acts as a bearer credential for API and Git
 Operations. It can be scoped to limit its permissions.
@@ -382,10 +398,14 @@ Operations. It can be scoped to limit its permissions.
 # Classic tokens: scoped by permission categories (repo, admin, etc.)
 ```
 
+<div class="table-wrap">
+
 | Token Type   | Scope Granularity        | Repository-Level | Expiry       | Recommended For      |
 | ------------ | ------------------------ | ---------------- | ------------ | -------------------- |
 | Fine-grained | Per-repo, per-permission | Yes              | Configurable | New projects         |
 | Classic      | Permission categories    | No (global)      | Configurable | Legacy compatibility |
+
+</div>
 
 #### Creating a GitLab PAT
 
@@ -415,7 +435,7 @@ $ git clone https://user:ghp_xxxx@github.com/user/repo.git
 ```
 
 Embedding tokens directly in URLs is insecure. The token is stored in plaintext in `.git/config` and
-Is visible in `ps aux` output. Always use credential helpers instead.
+is visible in `ps aux` output. Always use credential helpers instead.
 
 ### Switching Between Protocols
 
@@ -486,7 +506,7 @@ Prompts the user. If no helper is configured, Git falls back to prompting on the
 #### git-credential-cache (In-Memory)
 
 Stores credentials in memory for a configurable duration. The daemon runs as a background process
-And is shared across all terminal sessions.
+and is shared across all terminal sessions.
 
 ```bash
 # Enable with 15-minute default timeout
@@ -548,7 +568,7 @@ $ git config --global credential.helper /usr/lib/git-core/git-credential-libsecr
 #### git-credential-manager-core (Cross-Platform)
 
 Git Credential Manager Core (GCM Core) is maintained by GitHub and supports multiple backends. It is
-The default credential helper on Windows when you install Git for Windows.
+the default credential helper on Windows when you install Git for Windows.
 
 ```bash
 # Install on Linux
@@ -585,6 +605,8 @@ $ git config --global credential.helper osxkeychain
 
 ### Choosing a Helper
 
+<div class="table-wrap">
+
 | Platform | Recommended Helper                            | Security                           |
 | -------- | --------------------------------------------- | ---------------------------------- |
 | Linux    | `libsecret` or `manager-core`                 | Encrypted at rest (keyring)        |
@@ -592,6 +614,8 @@ $ git config --global credential.helper osxkeychain
 | Windows  | `manager-core` (default with Git for Windows) | Encrypted at rest (Credential Mgr) |
 | CI/CD    | `cache` (short timeout) or env variable       | Ephemeral / job-scoped             |
 | Docker   | `store` (in container) or `cache`             | Container-isolated                 |
+
+</div>
 
 ### Per-Remote Credential Configuration
 
@@ -626,6 +650,8 @@ Enables new features like partial clone.
 
 **Protocol v2** addresses these:
 
+<div class="table-wrap">
+
 | Feature                | Protocol v1            | Protocol v2                           |
 | ---------------------- | ---------------------- | ------------------------------------- |
 | Ref advertisement      | All refs, uncompressed | Filtered, can use packfile URIs       |
@@ -634,6 +660,8 @@ Enables new features like partial clone.
 | Filter support         | Not supported          | `--filter=blob:none``--filter=tree:0` |
 | Symref support         | Implicit               | Explicit `symref` capability          |
 | Packfile URIs          | Not supported          | Offload packfile downloads to CDN     |
+
+</div>
 
 ### Verifying Protocol Version
 
@@ -655,15 +683,17 @@ $ git -c protocol.version=1 ls-remote origin
 
 For typical operations, the performance difference between v1 and v2 is modest (5-15% faster for
 `fetch` on repos with thousands of refs). For monorepos with hundreds of thousands of refs, v2 can
-Be 3-5x faster for the initial ref advertisement phase.
+be 3-5x faster for the initial ref advertisement phase.
 
 The real performance win comes from **packfile URIs**, in v2, the server can return a URI for the
 Packfile alongside a thin pack, allowing the client to download the bulk data from a CDN rather than
-The Git server directly. This is used by GitHub and GitLab to reduce load on their origin servers.
+the Git server directly. This is used by GitHub and GitLab to reduce load on their origin servers.
 
 ## When to Use SSH vs HTTPS
 
 ### Decision Matrix
+
+<div class="table-wrap">
 
 | Factor                     | SSH Wins                                 | HTTPS Wins                                  |
 | -------------------------- | ---------------------------------------- | ------------------------------------------- |
@@ -677,6 +707,8 @@ The Git server directly. This is used by GitHub and GitLab to reduce load on the
 | Security (credential leak) | Private key never transmitted            | Token transmitted on every request          |
 | Performance                | Faster with multiplexing (ControlMaster) | Slightly slower (TLS per-request)           |
 | Self-hosted server         | Simple (add key to authorized_keys)      | Requires TLS cert + PAT or LDAP setup       |
+
+</div>
 
 ### Practical Recommendations
 
@@ -827,8 +859,8 @@ $ git config --global credential.helper cache
 
 ### Committing SSH Private Keys to a Repository
 
-The private key file (`id_ed25519``id_rsa`) must never be committed. It provides full access to
-Every service where the public key is registered.
+The private key file (`id_ed25519`, `id_rsa`) must never be committed. It provides full access to
+every service where the public key is registered.
 
 ```bash
 # Add SSH keys to .gitignore (belt and suspenders)
@@ -859,7 +891,7 @@ $ git config --global credential.helper 'cache --timeout=900'
 
 ### Hardcoding Tokens in CI/CD Configuration Files
 
-Storing tokens directly in `.github/workflows/*.yml``.gitlab-ci.yml`Or `Jenkinsfile` is a Security
+Storing tokens directly in `.github/workflows/*.yml`, `.gitlab-ci.yml` or `Jenkinsfile` is a Security
 risk. Use the platform's secret management:
 
 ```bash
@@ -930,17 +962,6 @@ Host bastion.trusted-company.com
 If you need SSH agent forwarding (e.g., to access a Git server behind a bastion), use it only on
 Bastion hosts you control and trust.
 
-
-```mermaid
-flowchart TD
-    A[04 Transfer Protocols And Auth] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of transfer protocols and authentication, including underlying
@@ -954,13 +975,7 @@ theory, practical implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

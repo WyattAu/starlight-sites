@@ -5,7 +5,7 @@ title: "Vectors and Vector Spaces"
 tags:
   - Mathematics
   - University
-description: 'A over a field ( or ) is a set equipped With two operations: Comprehensive educational content coverage with definitions and practice problems.'
+description: "Vectors and vector spaces: the axioms, subspaces, and why the definition is what it is -- a set closed under two operations that satisfy eight rules, chosen so that linear combinations stay inside. The definition is not arbitrary: every axiom is needed, and the examples include function spaces. With recall prompts, counterexamples by name and interleaving problems. Tier F-U."
 ---
 
 :::note[Historical Context]
@@ -23,6 +23,51 @@ The vector space was introduced by Giuseppe Peano (1888), building on Grassmann'
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- What two operations define a vector space?
+- How many axioms are there, and what are the two identity elements?
+- Is the empty set a vector space? Why not?
+- What is the smallest subspace any vector space has?
+- Give three examples of vector spaces that are not $\mathbb{R}^n$.
+
+Check your answers against the text. Prompt 3 is the one that stops people
+writing nonsense: an empty set has no zero vector, and the axioms cannot even
+be stated without one.
+
+## Motivation: the axioms are reverse-engineered, not invented
+
+A definition in mathematics is often presented as a decree. The definition of
+a vector space is better read as the answer to a question: *what is the
+smallest structure that makes linear combinations meaningful?*
+
+Everything on this page exists so that the phrase "$a v + b w$" has a unique
+answer that stays in the set. That requires two operations (add the vectors,
+scale by a scalar), associativity and commutativity so that order does not
+matter, identities so that "add nothing" and "scale by one" do something
+sensible, and distributivity so that scaling distributes over the two kinds of
+addition. The axioms are not a list to memorise -- they are the minimum
+conditions under which the phrase you already wanted to write is well defined.
+
+**Why this is worth the abstraction.** The same eight axioms are satisfied by
+arrows in space, by polynomials, by continuous functions, by solutions of a
+differential equation, and by $n$-tuples of any field. Nothing in the theory
+refers to what the vectors *are* -- only to what you can *do* with them. One
+proof covers all of them, which is the entire point of axiomatising.
+
+**The non-obvious example is the most useful one.** The set of solutions of a
+homogeneous linear differential equation is a vector space: adding two
+solutions gives a solution, and scaling one gives a solution. That single
+observation is why the solution space of a homogeneous ODE has a dimension,
+and why "general solution" means "linear combination of independent
+solutions". Without the vector space axioms, that sentence has no meaning.
+
+> **Exercise.** Check that the set of polynomials of degree at most 3 is a
+> vector space, and find its dimension. Then check that the polynomials of
+> degree *exactly* 3 are not, and identify which axiom fails.
+
 ### 1.1 Definition of a Vector Space
 
 A **vector space** over a field $F$ ( $\mathbb{R}$ or $\mathbb{C}$) is a set $V$ equipped With two
@@ -39,7 +84,7 @@ $\alpha, \beta \in F$:
    $(\mathbf{u} + \mathbf{v}) + \mathbf{w} = \mathbf{u} + (\mathbf{v} + \mathbf{w})$
 3. **Additive identity**: There exists $\mathbf{0} \in V$ such that
    $\mathbf{v} + \mathbf{0} = \mathbf{v}$
-4. **Additive inverse**: For each $\mathbf{v}$There exists $-\mathbf{v}$ such that
+4. **Additive inverse**: For each $\mathbf{v}$ There exists $-\mathbf{v}$ such that
    $\mathbf{v} + (-\mathbf{v}) = \mathbf{0}$
 5. **Compatibility of scalar multiplication**: $\alpha(\beta \mathbf{v}) = (\alpha\beta)\mathbf{v}$
 6. **Identity element of scalar multiplication**: $1 \cdot \mathbf{v} = \mathbf{v}$
@@ -59,9 +104,9 @@ space Over $\mathbb{R}$.
 
 **Example 2.** The set $\mathcal{P}_n$ of all polynomials of degree at most $n$ with real
 coefficients, With the usual polynomial addition and scalar multiplication, is a vector space over
-$\mathbb{R}$. Its dimension is $n + 1$With standard basis $\{1, x, x^2, \ldots, x^n\}$.
+$\mathbb{R}$. Its dimension is $n + 1$ With standard basis $\{1, x, x^2, \ldots, x^n\}$.
 
-**Example 3.** The set $C[a,b]$ of all continuous real-valued functions on $[a,b]$With point-wise
+**Example 3.** The set $C[a,b]$ of all continuous real-valued functions on $[a,b]$ With point-wise
 Addition and scalar multiplication, is a vector space over $\mathbb{R}$. This space is
 Infinite-dimensional.
 
@@ -81,7 +126,7 @@ Infinite-dimensional analogue of $\mathbb{R}^n$ and is fundamental in functional
 ### 1.3 Subspaces
 
 A **subspace** $W$ of a vector space $V$ is a subset $W \subseteq V$ that is itself a vector space
-Under the same operations.
+under the same operations.
 
 **Theorem 1.1 (Subspace Criterion).** A non-empty subset $W \subseteq V$ is a subspace if and only
 If for all $\mathbf{u}, \mathbf{v} \in W$ and all $\alpha \in F$:
@@ -90,21 +135,25 @@ If for all $\mathbf{u}, \mathbf{v} \in W$ and all $\alpha \in F$:
 2. $\alpha \mathbf{u} \in W$ (closed under scalar multiplication)
 
 _Proof._ If $W$ is a subspace, closure is immediate from the definition. Conversely, if $W$ is
-Non-empty and closed under both operations, pick $\mathbf{u} \in W$. Then
+non-empty and closed under both operations, pick $\mathbf{u} \in W$. Then
 $-\mathbf{u} = (-1)\mathbf{u} \in W$ By closure under scalar multiplication, and
 $\mathbf{u} + (-\mathbf{u}) = \mathbf{0} \in W$ by closure Under addition. The remaining axioms are
 inherited from $V$. $\blacksquare$
 
 **Proposition 1.2 (Closure under Linear Combinations).** If $W$ is a subspace of $V$ Then $W$ is
 Closed under all finite linear combinations: for all $\mathbf{v}_1, \ldots, \mathbf{v}_k \in W$ and
-All $\alpha_1, \ldots, \alpha_k \in F$
+all $\alpha_1, \ldots, \alpha_k \in F$
 
-$$\alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k \in W$$
+$$
+\alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k \in W
+$$
 
 _Proof._ We proceed by induction on $k$. For $k = 1$, $\alpha_1 \mathbf{v}_1 \in W$ by closure under
 Scalar multiplication. Assume the result holds for $k - 1$ vectors. Then
 
-$$\alpha_1 \mathbf{v}_1 + \cdots + \alpha_k \mathbf{v}_k = (\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1}) + \alpha_k \mathbf{v}_k$$
+$$
+\alpha_1 \mathbf{v}_1 + \cdots + \alpha_k \mathbf{v}_k = (\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1}) + \alpha_k \mathbf{v}_k
+$$
 
 By the inductive hypothesis,
 $\alpha_1 \mathbf{v}_1 + \cdots + \alpha_{k-1} \mathbf{v}_{k-1} \in W$ And
@@ -112,7 +161,7 @@ $\alpha_k \mathbf{v}_k \in W$ by closure under scalar multiplication. Their sum 
 under addition. $\blacksquare$
 
 **Example 7.** The set of all solutions to the homogeneous equation $A\mathbf{x} = \mathbf{0}$ forms
-a Subspace of $\mathbb{R}^n$Called the **null space** of $A$.
+a Subspace of $\mathbb{R}^n$ Called the **null space** of $A$.
 
 ### 1.4 Worked Example: Verifying Subspace Criteria
 
@@ -130,22 +179,26 @@ a Subspace of $\mathbb{R}^n$Called the **null space** of $A$.
 **(a)** Let $\mathbf{u} = (x_1, y_1, z_1)$ and $\mathbf{v} = (x_2, y_2, z_2)$ be in $W_1$ So
 $x_1 + 2y_1 - z_1 = 0$ and $x_2 + 2y_2 - z_2 = 0$. Then
 
-$$(x_1 + x_2) + 2(y_1 + y_2) - (z_1 + z_2) = (x_1 + 2y_1 - z_1) + (x_2 + 2y_2 - z_2) = 0 + 0 = 0$$
+$$
+(x_1 + x_2) + 2(y_1 + y_2) - (z_1 + z_2) = (x_1 + 2y_1 - z_1) + (x_2 + 2y_2 - z_2) = 0 + 0 = 0
+$$
 
 So $\mathbf{u} + \mathbf{v} \in W_1$. For $\alpha \in \mathbb{R}$
 
-$$(\alpha x_1) + 2(\alpha y_1) - (\alpha z_1) = \alpha(x_1 + 2y_1 - z_1) = \alpha \cdot 0 = 0$$
+$$
+(\alpha x_1) + 2(\alpha y_1) - (\alpha z_1) = \alpha(x_1 + 2y_1 - z_1) = \alpha \cdot 0 = 0
+$$
 
 So $\alpha \mathbf{u} \in W_1$. Since $W_1$ is non-empty (e.g., $\mathbf{0} \in W_1$), it is a
 subspace.
 
 **(b)** $W_2$ is not a subspace. For instance, $(1, 0, 0) \in W_2$ since $1^2 + 0^2 = 1$ But
 $2 \cdot (1, 0, 0) = (2, 0, 0) \notin W_2$ since $2^2 + 0^2 = 4 \neq 1$. So $W_2$ is not closed
-Under scalar multiplication.
+under scalar multiplication.
 
 **(c)** Let $\mathbf{u} = (0, a, a)$ and $\mathbf{v} = (0, b, b)$ be in $W_3$. Then
 $\mathbf{u} + \mathbf{v} = (0, a + b, a + b) \in W_3$ and
-$\alpha \mathbf{u} = (0, \alpha a, \alpha a) \in W_3$. Since $(0, 0, 0) \in W_3$It is a non-empty
+$\alpha \mathbf{u} = (0, \alpha a, \alpha a) \in W_3$. Since $(0, 0, 0) \in W_3$ It is a non-empty
 subspace.
 
 $\blacksquare$
@@ -168,7 +221,7 @@ $U \cap W = \{(x, y, z) : z = 0 \mathrm{~and~} x = 0\} = \{(0, y, 0) : y \in \ma
 basis $\{(0, 1, 0)\}$ and dimension 1.
 
 $U + W = \mathrm{span}\{(1,0,0), (0,1,0), (0,1,0), (0,0,1)\} = \mathrm{span}\{(1,0,0), (0,1,0), (0,0,1)\} = \mathbb{R}^3$
-So $\dim(U + W) = 3$.
+so $\dim(U + W) = 3$.
 
 Verify: $\dim(U + W) = \dim(U) + \dim(W) - \dim(U \cap W) = 2 + 2 - 1 = 3$. $\checkmark$
 $\blacksquare$
@@ -248,12 +301,16 @@ $\mathrm{null}(A)$ and verify it is a subspace of $\mathbb{R}^3$.
 
 Row-reduce $A$:
 
-$$\begin{pmatrix} 1 & 2 & -1 \\ 2 & 4 & -2 \end{pmatrix} \xrightarrow{R_2 - 2R_1} \begin{pmatrix} 1 & 2 & -1 \\ 0 & 0 & 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 \\ 2 & 4 & -2 \end{pmatrix} \xrightarrow{R_2 - 2R_1} \begin{pmatrix} 1 & 2 & -1 \\ 0 & 0 & 0 \end{pmatrix}
+$$
 
 The RREF has one pivot (column 1). The free variables are $x_2$ and $x_3$. Setting $x_2 = s$,
 $x_3 = t$: $x_1 = -2s + t$.
 
-$$\mathrm{null}(A) = \left\{ s\begin{pmatrix} -2 \\ 1 \\ 0 \end{pmatrix} + t\begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix} : s, t \in \mathbb{R} \right\}$$
+$$
+\mathrm{null}(A) = \left\{ s\begin{pmatrix} -2 \\ 1 \\ 0 \end{pmatrix} + t\begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix} : s, t \in \mathbb{R} \right\}
+$$
 
 A basis is $\{(-2, 1, 0)^T, (1, 0, 1)^T\}$ and $\dim(\mathrm{null}(A)) = 2$.
 
@@ -323,20 +380,81 @@ The connection to function spaces is where the abstraction pays off most. In qua
 Vector spaces are the foundation of quantum computing: qubits exist in a 2-dimensional complex vector space, and quantum gates are unitary linear transformations. Google's quantum supremacy experiment (2019, Sycamore processor) demonstrated a computation in a 53-qubit vector space that would take classical supercomputers ~10,000 years. Current research includes: quantum error correction (surface codes on stabiliser codes), topological quantum computing (Majorana fermions), and the intersection of linear algebra with machine learning (neural network weight spaces, kernel methods, dimensionality reduction via SVD/PCA).
 :::
 
-```mermaid
-flowchart TD
-    A[1_Vectors And Vector Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+## Counterexamples worth knowing by name
+
+<div class="table-wrap">
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| The empty set is a vector space | no | the axioms require a zero vector, so no vector space is empty |
+| $\mathbb{R}^2$ is a subspace of $\mathbb{R}^3$ | no | it is *isomorphic* to a subspace; as literally written its elements are pairs, not triples |
+| The union of two subspaces is a subspace | no | two distinct lines through the origin have a union that is not closed under addition |
+| Polynomials of degree exactly $n$ form a vector space | no | adding two of them can cancel the leading term |
+| Every vector space has a zero vector | yes, and it is unique | this follows from the axioms, and it is the reason the empty set fails |
+| The solution set of $Ax = b$ is a subspace | no | unless $b = 0$; it does not contain the zero vector |
+| A vector space needs an order on its vectors | no | the axioms never mention one; imposing one is an extra structure, not part of the space |
+| Functions form a vector space only if they are continuous | no | *all* functions from a set to a field form a vector space; continuity is extra structure |
+
+</div>
+
+The third row is the classic, and it is worth seeing why: the union of the
+$x$-axis and the $y$-axis contains $(1,0)$ and $(0,1)$ but not their sum. The
+*sum* of subspaces is a subspace; the union almost never is.
+
+The seventh row is the one that matters for the rest of mathematics. A vector
+space has no notion of length, angle or order. Those come later -- inner
+product spaces, normed spaces, ordered fields -- and confusing an added
+structure with part of the definition is how people end up trying to take
+"intra-vector" dot products before an inner product has been defined.
+
+## Where the research frontier is
+
+- **Infinite-dimensional spaces.** Everything here carries over, but bases
+  become unconstructible and dimension becomes a cardinal. That is the
+  boundary between algebra and functional analysis, and it is crossed on the
+  [functional analysis track](/11-functional-analysis/1_normed-spaces-and-banach-spaces/).
+- **Fields other than $\mathbb{R}$ and $\mathbb{C}$.** Vector spaces over a
+  finite field underpin error-correcting codes and cryptography, and the theory
+  changes character when the field is not ordered.
+- **Modules.** Drop the requirement that the scalars form a field and keep a
+  ring, and bases can stop existing entirely. The structure theorem for
+  finitely generated modules over a principal ideal domain is what survives,
+  and it is what produces the Jordan form.
+- **Category theory.** Vector spaces and linear maps form a category, and the
+  whole of linear algebra can be restated as the statement that this category
+  has certain properties. That restatement is what makes quantum information
+  theory possible to write down.
+
+## Interleaving problems
+
+Mix these with [Linear Independence, Span, Basis and
+Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/),
+[Systems of Linear
+Equations](/2-linear-algebra/4_systems-of-linear-equations/), [Newtonian Mechanics
+Review](https://physics.wyattau.com/1-classical-mechanics/1_newtonian-mechanics-review/) and
+[Functional
+Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/).
+
+1. (Axioms.) Verify that the set of all $2\times2$ matrices is a vector space
+   over $\mathbb{R}$, listing each axiom as you check it. Then show that the
+   invertible ones are not, by exhibiting a failure of closure.
+2. (Subspaces.) Show that the set of polynomials with $p(0) = 0$ is a subspace
+   of the polynomial space, and find its dimension.
+3. (Subspaces.) Give two subspaces of $\mathbb{R}^2$ whose union is not a
+   subspace, and compute the smallest subspace containing both.
+4. (Null space.) Show that the solution set of a *homogeneous* system $Ax = 0$
+   is a subspace, and identify exactly which step fails when $b \neq 0$.
+5. (Functional analysis.) Show that the set of solutions of $y'' + y = 0$ is a
+   two-dimensional vector space, and find a basis. Then explain why this makes
+   "general solution" a precise statement.
+6. (Research.) Show that the axiom "every vector space has a basis" implies
+   the axiom of choice. This is why infinite-dimensional bases are
+   unconstructible and why analysis avoids them.
 
 ## Cross-References
 
 - **[Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)**: Basis and dimension are defined in terms of linear independence and span of vector space elements.
 - **[Matrices](/2-linear-algebra/3_matrices/)**: Matrices represent linear transformations between finite-dimensional vector spaces.
 - **[Linear Transformations](/2-linear-algebra/6_linear-transformations/)**: Linear transformations are maps between vector spaces that preserve linear structure.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

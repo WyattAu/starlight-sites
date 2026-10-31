@@ -12,7 +12,7 @@ categories:
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 Compiling C++ is computationally expensive. Each Translation Unit (TU) must be preprocessed, parsed
-Into an Abstract Syntax Tree (AST), optimized, and assembled into machine code. In a typical
+into an Abstract Syntax Tree (AST), optimized, and assembled into machine code. In a typical
 Workflow, changing a single header file can force the recompilation of hundreds of source files.
 
 **Build Caching** intercepts compiler calls. It hashes the inputs (source code, compiler flags, and
@@ -57,6 +57,8 @@ Compilation** for unchanged units.
 
 ### Comparison Table
 
+<div class="table-wrap">
+
 | Feature             | CCache          | Sccache        | BuildCache   | Bazel          |
 | :------------------ | :-------------- | :------------- | :----------- | :------------- |
 | Language            | C/C++           | C/C++, Rust    | C/C++, Rust  | Any (Starlark) |
@@ -66,6 +68,8 @@ Compilation** for unchanged units.
 | Cache key           | Content hash    | Content hash   | Content hash | Content hash   |
 | Precompiled headers | Limited         | Yes            | Yes          | Yes            |
 | Locking             | Filesystem      | Internal       | Internal     | Internal       |
+
+</div>
 
 ## 2. Installation
 
@@ -134,7 +138,7 @@ cargo install sccache
 ## 3. How Caching Works: Hash Computation
 
 The cache key is a cryptographic hash of all inputs that affect compilation output. Understanding
-What goes into this hash is critical for debugging cache misses.
+what goes into this hash is critical for debugging cache misses.
 
 ### CCache Preprocessor Mode
 
@@ -159,7 +163,7 @@ $$
 $$
 
 Direct mode is significantly faster but can produce false positives (cache hits when the output
-Would differ) if the compiler's include resolution differs from ccache's. The `-o` flag in direct
+would differ) if the compiler's include resolution differs from ccache's. The `-o` flag in direct
 Mode sets the level of safety.
 
 ### Proof of Cache Correctness
@@ -196,7 +200,7 @@ Caching tool command _before_ the compiler command in the build system execution
 ### Strategy 1: Global Configuration (User-Level)
 
 Do not modify the project `CMakeLists.txt`. Instead, modify the **CMake Preset** or pass the flag
-During configuration. This ensures developers who lack caching tools can still build the project.
+during configuration. This ensures developers who lack caching tools can still build the project.
 
 **Using CMake Presets (`CMakePresets.json`):**
 
@@ -236,7 +240,7 @@ endif()
 ### Strategy 3: Per-Target Caching
 
 Not all targets benefit equally from caching. Frequently-modified targets may not see cache hits at
-All, while stable dependency targets benefit enormously. You can selectively enable caching:
+all, while stable dependency targets benefit enormously. You can selectively enable caching:
 
 ```cmake
 # Only cache compilation of third-party dependencies
@@ -369,7 +373,7 @@ sccache --set-max-size 10G
 ### LRU vs Content-Addressable Eviction
 
 Both ccache and sccache use content-addressable storage: the cache key is a hash of the input, and
-The value is the output object file. When the cache exceeds its size limit, both tools use an LRU
+the value is the output object file. When the cache exceeds its size limit, both tools use an LRU
 (Least Recently Used) eviction policy. This means infrequently used cache entries are evicted first,
 Which is generally optimal for development workflows.
 
@@ -451,7 +455,7 @@ cmake --build build
 ### Build Reproducibility
 
 A build is reproducible if the same source code, compiler, and flags produce byte-identical output
-Every time. Reproducibility is a prerequisite for effective caching:
+every time. Reproducibility is a prerequisite for effective caching:
 
 ```bash
 # Ensure reproducible builds
@@ -508,7 +512,7 @@ Change on actual releases.
 ### 3. Absolute Paths in Debug Symbols
 
 Debug symbols often contain absolute paths. Use `-fdebug-prefix-map` (GCC/Clang) to map local paths
-To generic ones to improve cache sharing across different users.
+to generic ones to improve cache sharing across different users.
 
 ```bash
 cmake -DCMAKE_CXX_FLAGS="-fdebug-prefix-map=$\{PWD\}=." -B build
@@ -517,7 +521,7 @@ cmake -DCMAKE_CXX_FLAGS="-fdebug-prefix-map=$\{PWD\}=." -B build
 ### 4. Random or Non-Deterministic Code
 
 Code that includes random elements (UUIDs, timestamps in generated code) produces different output
-On every compilation. Isolate such code into separate translation units that are not cached.
+on every compilation. Isolate such code into separate translation units that are not cached.
 
 ### 5. `__FILE__` Macro
 
@@ -531,7 +535,7 @@ cmake -DCMAKE_CXX_FLAGS="-fmacro-prefix-map=$\{PWD\}=src" -B build
 ### 6. Non-Reproducible Builds
 
 If different compilers or compiler versions are used (e.g., GCC 12 on one machine, GCC 13 on
-Another), the cached objects are incompatible. Ensure all cache participants use the same compiler
+another), the cached objects are incompatible. Ensure all cache participants use the same compiler
 Version.
 
 ### 7. Cache Poisoning
@@ -547,7 +551,7 @@ Retrieve the corrupted object. Mitigation:
 ## 10. Distributed Caching Architecture
 
 For large organizations, a centralized cache provides the greatest benefit. The typical architecture
-Is:
+is:
 
 ```
 Developer A ──┐                    ┌── CI Agent 1
@@ -565,7 +569,7 @@ medium-sized team. This is negligible compared to developer time saved.
 ### Cache Warmup Strategy
 
 When onboarding a new developer or setting up a new CI runner, the cache is cold (empty). To warm
-The cache:
+the cache:
 
 1. Run a full clean build on one machine.
 2. The cache is now populated with all object files.
@@ -636,6 +640,8 @@ Systems, the I/O savings outweigh the compression cost.
 
 ### CCache Environment Variables
 
+<div class="table-wrap">
+
 | Variable               | Purpose                                            | Default          |
 | :--------------------- | :------------------------------------------------- | :--------------- |
 | `CCACHE_DIR`           | Cache storage directory                            | `~/.ccache`      |
@@ -652,6 +658,8 @@ Systems, the I/O savings outweigh the compression cost.
 | `CCACHE_BASEDIR`       | Base directory for path normalization              | (empty)          |
 | `CCACHE_DISABLE`       | Disable ccache entirely (pass through to compiler) | `false`          |
 
+</div>
+
 ### CCache with Precompiled Headers
 
 Precompiled headers (PCH) complicate caching because the PCH file depends on the same headers as the
@@ -664,7 +672,7 @@ export CCACHE_SLOPPINESS="pch_defines"
 ```
 
 Without this sloppiness, changes to the PCH defines may not properly invalidate the cache for TUs
-That include the PCH.
+that include the PCH.
 
 ## 13. Sccache Advanced Configuration
 
@@ -723,7 +731,7 @@ Common causes of unexpected misses:
 ### Reproducible Builds: Formal Requirements
 
 A build is reproducible if, given the same source code, compiler, flags, and toolchain, the output
-Is byte-identical every time. This is a prerequisite for meaningful caching in a distributed
+is byte-identical every time. This is a prerequisite for meaningful caching in a distributed
 Environment.
 
 The following conditions must hold for reproducible builds:
@@ -750,23 +758,12 @@ diff <(find build1 -name '*.o' -exec md5sum \{\} \; | sort) \
 ```
 
 If the diff is empty, the builds are reproducible. Any difference indicates a source of
-Non-determinism that will cause cache misses in a distributed environment.
+non-determinism that will cause cache misses in a distributed environment.
 
 ## See Also
 
 - [CMake Presets and Toolchain Files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
 - [Ninja and Parallelism](/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)
-
-
-```mermaid
-flowchart TD
-    A[4_Build_Cachingx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -781,10 +778,5 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

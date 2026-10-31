@@ -86,8 +86,6 @@ Start with operating systems fundamentals, then progress to architecture and net
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:

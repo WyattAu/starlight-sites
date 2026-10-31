@@ -27,9 +27,9 @@ categories:
 ### 1.1 The Introduction
 
 The introduction has three functions: to engage the reader, to establish the essay"s argument, and
-To provide a roadmap for the discussion that follows. An effective introduction for GCSE English
+to provide a roadmap for the discussion that follows. An effective introduction for GCSE English
 Literature should be concise (no more than four or five sentences) and should accomplish the
-Following:
+following:
 
 1. **Address the question directly.** The first sentence should respond to the specific wording of
    the question, not merely restate the topic terms.
@@ -45,10 +45,10 @@ Following:
 Shakespeare presents ambition as a destructive force that corrodes the moral and psychological
 Fabric of the individual. Through the progressive deterioration of Macbeth's character -- from a
 Valiant soldier who initially recoils from the prospect of murder to a tyrant who orders the
-Slaughter of women and children -- Shakespeare demonstrates how the desire for power, once awakened,
+slaughter of women and children -- Shakespeare demonstrates how the desire for power, once awakened,
 Becomes an insatiable compulsion that destroys everything it touches. This essay will examine how
 Shakespeare uses the imagery of blood and darkness, the structure of Macbeth's soliloquies, and the
-Contrast between Macbeth and Banquo to develop this vision of ambition as both alluring and
+contrast between Macbeth and Banquo to develop this vision of ambition as both alluring and
 Annihilating.
 
 </details>
@@ -56,15 +56,15 @@ Annihilating.
 ### 1.2 Body Paragraphs
 
 Each body paragraph should develop a single point that supports the thesis. The paragraph should
-Begin with a topic sentence that states the point, followed by evidence (quotation), analysis of
-That evidence, and a linking sentence that connects the paragraph back to the thesis or to the next
+begin with a topic sentence that states the point, followed by evidence (quotation), analysis of
+that evidence, and a linking sentence that connects the paragraph back to the thesis or to the next
 Paragraph. See Section 2 below for detailed paragraph structures.
 
 ### 1.3 The Conclusion
 
 The conclusion should not merely repeat the introduction. It should synthesise the essay's findings,
 Demonstrate how the argument has been developed, and offer a final, evaluative statement about the
-Significance of the analysis. An effective conclusion might:
+significance of the analysis. An effective conclusion might:
 
 - Restate the thesis in a more developed or nuanced form, reflecting the complexity that the essay's
   analysis has uncovered.
@@ -81,6 +81,8 @@ Arguments.
 
 The most widely used paragraph structure for GCSE English Literature:
 
+<div class="table-wrap">
+
 | Element            | Function                                         | Example                                                                                                                                                                                                                                                                                             |
 | ------------------ | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **P** -- Point     | Topic sentence stating the argument              | "Shakespeare presents ambition as a force that isolates the individual from society."                                                                                                                                                                                                               |
@@ -89,48 +91,50 @@ The most widely used paragraph structure for GCSE English Literature:
 | **A** -- Analysis  | Explanation of how the technique creates meaning | The metaphor suggests that Macbeth's thoughts have become a source of self-torment; the scorpions are both real (his anxiety) and self-generated (his guilt). The address to Lady Macbeth -- "dear wife" -- reveals his need for her support, even as his ambition has driven a wedge between them. |
 | **L** -- Link      | Connection back to the thesis or question        | This image of internal torment reinforces Shakespeare's presentation of ambition as a force that turns the individual against themselves.                                                                                                                                                           |
 
+</div>
+
 ### 2.2 PEEL
 
 Point, Evidence, Explanation, Link. This structure is simpler than PETAL and does not require the
-Explicit identification of technique. It is suitable for students who find PETAL overly
+explicit identification of technique. It is suitable for students who find PETAL overly
 Prescriptive, but it risks insufficient attention to how the text creates meaning.
 
 ### 2.3 PEA
 
 Point, Evidence, Analysis. The most minimal paragraph structure. It is useful for timed examinations
-When speed is essential, but it risks underdeveloped analysis. Each PEA paragraph should be
-Developed with sufficient detail to avoid superficiality.
+when speed is essential, but it risks underdeveloped analysis. Each PEA paragraph should be
+developed with sufficient detail to avoid superficiality.
 
 ### 2.4 TEEL
 
 Topic sentence, Evidence, Explanation, Link. Functionally equivalent to PEEL. Some teachers prefer
-The term "topic sentence" to "point" because it emphasises that the first sentence of the paragraph
-Should state the topic of the paragraph, not merely a general point.
+the term "topic sentence" to "point" because it emphasises that the first sentence of the paragraph
+should state the topic of the paragraph, not merely a general point.
 
 ### 2.5 TEAC
 
 Topic sentence, Evidence, Analysis, Context. This structure ensures that contextual knowledge is
-Integrated into every paragraph, which is essential for addressing AO3. It is particularly useful
-For the 19th-century novel and Shakespeare components.
+integrated into every paragraph, which is essential for addressing AO3. It is particularly useful
+for the 19th-century novel and Shakespeare components.
 
 ### 2.6 The ABC Method
 
 Developed by the National Association for the Teaching of English (NATE), the ABC method provides a
-Flexible framework:
+flexible framework:
 
 - **A -- Answer.** Begin the paragraph by answering part of the question.
 - **B -- Build.** Build on the answer with textual evidence and detailed analysis.
 - **C -- Comment.** Comment on the effect of the writer's choices and link back to the question.
 
 The ABC method is less prescriptive than PETAL and encourages a more fluid, essayistic style. It is
-Suitable for higher-ability students who have mastered the fundamentals of paragraph structure.
+suitable for higher-ability students who have mastered the fundamentals of paragraph structure.
 
 ### 2.7 Choosing a Structure
 
 No single paragraph structure is inherently superior. The best structure is the one that the student
-Can execute most effectively under examination conditions. Students should practise with PETAL as
-Their default structure, experiment with alternatives, and develop a personal style that is
-Consistent, logical, and well-supported with evidence.
+can execute most effectively under examination conditions. Students should practise with PETAL as
+their default structure, experiment with alternatives, and develop a personal style that is
+consistent, logical, and well-supported with evidence.
 
 ## 3. Analytical, Evaluative, and Argumentative Essays
 
@@ -139,7 +143,7 @@ Consistent, logical, and well-supported with evidence.
 An analytical essay breaks down a text into its component parts -- language, structure, form,
 Character, theme -- and explains how those parts work together to create meaning. Most GCSE English
 Literature questions require analytical essays. The key is to explain _how_ the text produces its
-Effects, not merely _what_ those effects are.
+effects, not merely _what_ those effects are.
 
 ### 3.2 Evaluative Essays
 
@@ -153,7 +157,7 @@ Or quality of a text or a particular aspect of it. Evaluative language includes 
 - "Owen's imagery is devastating in its..."
 
 Evaluation is not required by all specifications, but it distinguishes the highest-mark responses
-From merely competent ones.
+from merely competent ones.
 
 ### 3.3 Argumentative Essays
 
@@ -180,11 +184,11 @@ Is the cornerstone of the argumentative essay.
 
 **Integrated comparison** (alternating between texts within each paragraph) is the preferred
 Approach because it demonstrates genuine comparative thinking. Each paragraph makes a point about
-Both texts, showing how they are similar, different, or related.
+both texts, showing how they are similar, different, or related.
 
 **Block comparison** (writing about one text in full, then the other) is easier to manage but is
 Generally less effective because it does not require the student to make connections between the
-Texts as they write. It tends to produce two separate essays rather than a single comparative
+texts as they write. It tends to produce two separate essays rather than a single comparative
 Argument.
 
 <details>
@@ -193,14 +197,14 @@ Argument.
 Both Owen's "Dulce et Decorum Est" and Hughes's "Bayonet Charge" present war as a dehumanising
 Experience that strips soldiers of their individuality. Owen describes the gas victim as
 "flound'ring like a man in fire or lime," the simile reducing the soldier to a generic figure of
-Suffering; the word "flound'ring" suggests both physical helplessness and the loss of coordination
-And agency. Similarly, Hughes describes the soldier in "Bayonet Charge" as caught in "cold
+suffering; the word "flound'ring" suggests both physical helplessness and the loss of coordination
+and agency. Similarly, Hughes describes the soldier in "Bayonet Charge" as caught in "cold
 Clockwork," an extended metaphor that reduces him to a component of a mechanical system. However,
 While Owen's focus is on the physical suffering of the victim, Hughes's focus is on the
-Psychological disorientation of the combatant: the soldier "was bewildered" and "bewildering,"
+psychological disorientation of the combatant: the soldier "was bewildered" and "bewildering,"
 Caught between instinct and obligation. This difference in focus reflects the distinct purposes of
-The two poems: Owen's poem is an indictment of those who glorify war, while Hughes's is an
-Exploration of the individual's experience of being caught in forces beyond his control.
+the two poems: Owen's poem is an indictment of those who glorify war, while Hughes's is an
+exploration of the individual's experience of being caught in forces beyond his control.
 
 </details>
 
@@ -209,8 +213,8 @@ Exploration of the individual's experience of being caught in forces beyond his 
 ### 5.1 Quotations
 
 A quotation is the verbatim reproduction of a writer's words, enclosed in quotation marks. In a
-Closed-book examination, quotations must be memorised. In an open-book examination, quotations
-Should be copied accurately.
+closed-book examination, quotations must be memorised. In an open-book examination, quotations
+should be copied accurately.
 
 **Rules for quotations:**
 
@@ -238,9 +242,9 @@ Suggesting that the fog is not merely weather but a shroud that blankets and suf
 ### 5.3 Paraphrasing
 
 Paraphrasing is the restatement of a writer's ideas in your own words. Paraphrase is useful for
-Conveying the content of a passage when a direct quotation is not necessary, but it does not
-Substitute for quotation. In GCSE English Literature, the examiner expects to see direct quotations
-As evidence. Paraphrase should support, not replace, quotation.
+conveying the content of a passage when a direct quotation is not necessary, but it does not
+substitute for quotation. In GCSE English Literature, the examiner expects to see direct quotations
+as evidence. Paraphrase should support, not replace, quotation.
 
 ### 5.4 References
 
@@ -254,13 +258,13 @@ Examination, references should be included where relevant.
 
 **Historical context** refers to the events, conditions, and circumstances of the period in which
 The text was written. For Shakespeare: the Elizabethan and Jacobean periods, the divine right of
-Kings, the Great Chain of Being. For the 19th-century novel: the Industrial Revolution, the Poor
+kings, the Great Chain of Being. For the 19th-century novel: the Industrial Revolution, the Poor
 Law, the class system. For modern texts: the World Wars, the rise of socialism, the feminist
 Movement.
 
 **Social context** refers to the attitudes, beliefs, and values of the society in which the text was
 Produced and/or set. For _Macbeth_: attitudes to kingship, gender, and the supernatural. For _An
-Inspector Calls_: Edwardian class attitudes, the social consequences of industrial capitalism.
+inspector Calls_: Edwardian class attitudes, the social consequences of industrial capitalism.
 
 **Literary context** refers to the literary traditions, genres, and influences that shape the text.
 For _Jekyll and Hyde_: the Gothic tradition, the influence of Romanticism, the novella form. For
@@ -269,7 +273,7 @@ Owen's war poetry: the tradition of Georgian poetry that Owen reacted against.
 **Biographical context** refers to the life of the author and how it may have influenced the text.
 This is the least important form of context for GCSE and should be used sparingly. Shakespeare's
 Biography, for example, tells us almost nothing useful about _Macbeth_ that is not already evident
-In the text.
+in the text.
 
 ### 6.2 Integrating Context into Analysis
 
@@ -291,13 +295,13 @@ Priestley presents the Inspector as a figure of moral authority who challenges t
 Complacent acceptance of capitalist individualism. The Inspector's final speech -- "We don't live
 Alone. We are members of one body. We are responsible for each other" -- articulates Priestley's
 Socialist philosophy in its most direct form. The play was written in 1945, at the end of the Second
-World War, when the British electorate had just voted in a Labour government committed to the
-Creation of the welfare state. Priestley, a committed socialist, intended the play as a contribution
-To the post-war debate about the kind of society Britain should become. By setting the play in 1912
+world War, when the British electorate had just voted in a Labour government committed to the
+creation of the welfare state. Priestley, a committed socialist, intended the play as a contribution
+to the post-war debate about the kind of society Britain should become. By setting the play in 1912
 -- before the First World War, before the Russian Revolution, before the Labour Party became a
 Significant political force -- Priestley creates dramatic irony: the audience of 1945 knows the
-Catastrophic consequences of the attitudes that the Birlings express with such confidence, and the
-Inspector's message reads as both a warning from the past and a call to action in the present.
+catastrophic consequences of the attitudes that the Birlings express with such confidence, and the
+inspector's message reads as both a warning from the past and a call to action in the present.
 
 </details>
 
@@ -306,7 +310,7 @@ Inspector's message reads as both a warning from the past and a call to action i
 ### 7.1 AO1: Read, Understand, and Respond
 
 This objective rewards clear comprehension, logical argument, and accurate written expression. To
-Address AO1 effectively:
+address AO1 effectively:
 
 - Answer the question directly. Do not write about the text ; write about the specific aspect the
   question asks about.
@@ -362,13 +366,19 @@ Extended essays under timed conditions.
 
 **AQA Paper 1 (1 hr 45 min, 64 marks):**
 
+<div class="table-wrap">
+
 | Section                                   | Time   | Marks  |
 | ----------------------------------------- | ------ | ------ |
 | Shakespeare (extract + whole play)        | 45 min | 30 + 4 |
 | 19th-Century Novel (extract + whole play) | 45 min | 30 + 4 |
 | Planning and checking                     | 15 min | --     |
 
+</div>
+
 **AQA Paper 2 (2 hrs 15 min, 96 marks):**
+
+<div class="table-wrap">
 
 | Section                     | Time   | Marks  |
 | --------------------------- | ------ | ------ |
@@ -378,7 +388,11 @@ Extended essays under timed conditions.
 | Unseen Poetry (comparison)  | 10 min | 8      |
 | Planning and checking       | 15 min | --     |
 
+</div>
+
 **Edexcel Paper 1 (1 hr 45 min, 50 marks):**
+
+<div class="table-wrap">
 
 | Section                       | Time   | Marks |
 | ----------------------------- | ------ | ----- |
@@ -386,15 +400,17 @@ Extended essays under timed conditions.
 | Modern Text (essay)           | 40 min | 20    |
 | Planning and checking         | 15 min | --    |
 
+</div>
+
 These timings are indicative. Students should adjust them based on their own strengths and
-Weaknesses, and should practise under timed conditions before the examination.
+weaknesses, and should practise under timed conditions before the examination.
 
 ## 9. Common Pitfalls
 
 ### 9.1 Narrative Summary
 
 The single most common error in GCSE English Literature essays is retelling the story instead of
-Analysing how it is written. Narrative summary tells the examiner what happens; analysis explains
+analysing how it is written. Narrative summary tells the examiner what happens; analysis explains
 How the text creates meaning. Every sentence in an essay should explain _how_ or _why_, not merely
 _what_.
 
@@ -404,29 +420,29 @@ Narrating, not analysing.
 ### 9.2 Feature Spotting
 
 Feature spotting occurs when a student identifies literary techniques without explaining their
-Effects. "The poet uses a simile" is feature spotting. "The simile 'like a man in fire or lime'
+effects. "The poet uses a simile" is feature spotting. "The simile 'like a man in fire or lime'
 Creates a visceral image of suffering by comparing the gas victim to a figure consumed by flame,
 Suggesting the total, engulfing nature of his agony" is analysis. Always explain the effect of the
-Technique.
+technique.
 
 ### 9.3 The "Context Dump"
 
 A context dump is a paragraph or section of an essay that provides historical or biographical
 Information without connecting it to the text. Contextual information earns marks only when it is
-Integrated into analysis and linked to specific textual evidence.
+integrated into analysis and linked to specific textual evidence.
 
 ### 9.4 Over-Quotation
 
 Including too many quotations at the expense of analysis produces an essay that reads like a
 Patchwork of other people's words. A single, precisely chosen and thoroughly analysed quotation is
-Worth more than three quotations with minimal analysis.
+worth more than three quotations with minimal analysis.
 
 ### 9.5 Vague Thesis Statements
 
 A thesis statement that is so general that it could apply to any text is not a thesis at all.
 "Shakespeare presents ambition in Macbeth" is not an argument; it is a statement of the obvious.
 "Shakespeare presents ambition as a self-destructive force that isolates the individual from both
-Society and self" is a thesis because it is specific, debatable, and grounded in the text.
+society and self" is a thesis because it is specific, debatable, and grounded in the text.
 
 ### 9.6 Ignoring the Question
 
@@ -438,8 +454,8 @@ identify its key terms, and ensure that every paragraph addresses those terms.
 ### 9.7 Weak Conclusions
 
 A conclusion that merely repeats the introduction or summarises the essay's content without offering
-Any evaluative insight wastes the final opportunity to impress the examiner. Use the conclusion to
-Synthesise, evaluate, and leave a final impression.
+any evaluative insight wastes the final opportunity to impress the examiner. Use the conclusion to
+synthesise, evaluate, and leave a final impression.
 
 ## 10. Worked Example Essay with Annotations
 
@@ -453,20 +469,20 @@ Synthesise, evaluate, and leave a final impression.
 Shakespeare presents ambition as a self-corrosive force that destroys the individual from within.
 Macbeth's initial reluctance -- "I have no spur / To prick the sides of my intent, but only /
 Vaulting ambition, which o'erleaps itself" (1.7) -- reveals his awareness that ambition is an
-Inadequate and dangerous motivation, yet his subsequent actions demonstrate that this awareness is
-Insufficient to restrain it. Through the progressive deterioration of Macbeth's character, the use
-Of blood and darkness imagery, and the structural contrast with Banquo, Shakespeare develops a
-Vision of ambition as a compulsion that annihilates the very things it seeks to attain.
+inadequate and dangerous motivation, yet his subsequent actions demonstrate that this awareness is
+insufficient to restrain it. Through the progressive deterioration of Macbeth's character, the use
+of blood and darkness imagery, and the structural contrast with Banquo, Shakespeare develops a
+vision of ambition as a compulsion that annihilates the very things it seeks to attain.
 
 [**Paragraph 1: PETAL structure. Point, Evidence, Technique, Analysis, Link.**]
 
 Shakespeare presents ambition as a force that inverts Macbeth's moral framework. In Act 1, Scene 7,
 Macbeth acknowledges that Duncan has been "clear in his great office" and that his murder would be a
-Betrayal of the "double trust" of kingship and hospitality. The language of duty and obligation
+betrayal of the "double trust" of kingship and hospitality. The language of duty and obligation
 ("bound," "strong both against the deed," "his host") reveals a moral awareness that ambition will
-Subsequently overwrite. Lady Macbeth's accusation that Macbeth is "too full o' the milk of human
+subsequently overwrite. Lady Macbeth's accusation that Macbeth is "too full o' the milk of human
 Kindness" uses a metaphor that associates compassion with nourishment and natural humanity; by
-Implication, ambition requires the rejection of these qualities. The rapidity with which Macbeth
+implication, ambition requires the rejection of these qualities. The rapidity with which Macbeth
 Succumbs to her persuasion -- "I am settled, and bend up / Each corporal agent to this terrible
 Feat" (1.7) -- demonstrates the fragility of his moral resistance in the face of ambition's pull.
 
@@ -474,45 +490,45 @@ Feat" (1.7) -- demonstrates the fragility of his moral resistance in the face of
 
 As the play progresses, ambition ceases to be a motive and becomes a compulsion. In Act 3, Scene 1,
 Macbeth no longer needs external prompting: he plots the murder of Banquo independently, driven by
-The paranoid logic that "To be thus is nothing, but to be safely thus" (3.1). The repetition of
+the paranoid logic that "To be thus is nothing, but to be safely thus" (3.1). The repetition of
 "thus" -- to be king is meaningless unless one is securely king -- reveals how ambition has
-Transformed from a desire for power into an anxiety about its loss. The structural parallel between
-The murder of Duncan (Act 2) and the murder of Banquo (Act 3) demonstrates the escalation of
+transformed from a desire for power into an anxiety about its loss. The structural parallel between
+the murder of Duncan (Act 2) and the murder of Banquo (Act 3) demonstrates the escalation of
 Macbeth's ambition: each murder makes the next one both more necessary and more horrific.
 
 [**Paragraph 3: introduces contextual knowledge, integrated with analysis.**]
 
 Shakespeare's presentation of ambition as a threat to the natural order reflects the Jacobean belief
-In the divine right of kings and the Great Chain of Being. Macbeth's regicide is not merely a
-Political act but a sacrilege that disrupts the cosmic order, symbolised by the unnatural events
-That follow Duncan's murder: "Tis unnatural, / Even like the deed that's done. On Tuesday last, / A
+in the divine right of kings and the Great Chain of Being. Macbeth's regicide is not merely a
+political act but a sacrilege that disrupts the cosmic order, symbolised by the unnatural events
+that follow Duncan's murder: "Tis unnatural, / Even like the deed that's done. On Tuesday last, / A
 Falcon, towering in her pride of place, / Was by a mousing owl hawked at and killed" (2.4). The
-Image of the owl killing the falcon -- a creature of prey killed by a creature normally below it in
-The natural hierarchy -- mirrors Macbeth's violation of the social and cosmic order. For a Jacobean
+image of the owl killing the falcon -- a creature of prey killed by a creature normally below it in
+the natural hierarchy -- mirrors Macbeth's violation of the social and cosmic order. For a Jacobean
 Audience, who had witnessed the Gunpowder Plot of 1605, this association between political treason
-And cosmic disorder would have been immediately resonant and politically charged.
+and cosmic disorder would have been immediately resonant and politically charged.
 
 [**Paragraph 4: introduces Banquo as a structural contrast.**]
 
 Shakespeare uses Banquo as a structural foil to Macbeth in order to demonstrate that ambition need
-Not be destructive. Like Macbeth, Banquo receives a prophecy from the Weird Sisters, but his
-Response -- "If you can look into the seeds of time, / And say which grain will grow and which will
-Not, / Speak then to me" (1.3) -- is characterised by curiosity rather than covetousness. The
-Metaphor of the "seeds of time" suggests that Banquo accepts the uncertainty of the future, whereas
+not be destructive. Like Macbeth, Banquo receives a prophecy from the Weird Sisters, but his
+response -- "If you can look into the seeds of time, / And say which grain will grow and which will
+not, / Speak then to me" (1.3) -- is characterised by curiosity rather than covetousness. The
+metaphor of the "seeds of time" suggests that Banquo accepts the uncertainty of the future, whereas
 Macbeth demands certainty and acts to secure it. Banquo's self-knowledge -- "there is no art / To
-Find the mind's construction in the face" (1.4) -- contrasts with Macbeth's inability to recognise
-His own moral corruption, and his murder at Macbeth's command confirms the play's central argument:
+find the mind's construction in the face" (1.4) -- contrasts with Macbeth's inability to recognise
+his own moral corruption, and his murder at Macbeth's command confirms the play's central argument:
 Ambition destroys not only the ambitious individual but those around them.
 
 [**Conclusion: synthesises the argument and offers an evaluative judgement.**]
 
 Shakespeare's presentation of ambition in _Macbeth_ is not that ambition is evil -- a trivial Moral
 that would not sustain the play's complexity -- but that ambition, once activated, becomes a
-Self-sustaining and self-destructive force that the individual cannot control. The progression from
+self-sustaining and self-destructive force that the individual cannot control. The progression from
 Macbeth's initial reluctance to his final nihilism ("Tomorrow, and tomorrow, and tomorrow") traces
-The complete arc of ambition's corrosive power. The play's enduring power lies in its recognition
-That ambition is not an external temptation but an internal compulsion, and that the line between
-Aspiration and destruction is terrifyingly thin.
+the complete arc of ambition's corrosive power. The play's enduring power lies in its recognition
+that ambition is not an external temptation but an internal compulsion, and that the line between
+aspiration and destruction is terrifyingly thin.
 
 </details>
 
@@ -539,7 +555,7 @@ Aspiration and destruction is terrifyingly thin.
 
 **Estimated grade: Level 6 (high).** The essay demonstrates sustained, perceptive analysis,
 Effective use of evidence, and integrated contextual knowledge. With more explicit attention to form
-And structure, it would achieve the highest level.
+and structure, it would achieve the highest level.
 
 </details>
 
@@ -569,17 +585,6 @@ tested, and structure your answer using the appropriate terminology.
 Multi-step problems in Essay Writing for GCSE English Literature often combine two or more concepts.
 Break the problem down: identify what you need to find, recall the relevant formula or principle,
 substitute values, and state your answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[4_Essay Writing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

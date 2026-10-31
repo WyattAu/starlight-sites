@@ -39,6 +39,8 @@ student"s results in their HSC or VCE studies.
 
 Although the two systems share a common purpose, they differ in several important ways:
 
+<div class="table-wrap">
+
 | Feature                | HSC (NSW)                                     | VCE (Victoria)                               |
 | ---------------------- | --------------------------------------------- | -------------------------------------------- |
 | Administering body     | NESA                                          | VCAA                                         |
@@ -48,6 +50,8 @@ Although the two systems share a common purpose, they differ in several importan
 | External exam          | NESA-set final exams                          | VCAA-set final exams                         |
 | Scaling method         | Raw marks scaled by NESA                      | Study scores scaled by VCAA                  |
 | ATAR conversion        | UAC                                           | VTAC                                         |
+
+</div>
 
 ## Subject Structure
 
@@ -112,7 +116,7 @@ scores with exam performance.
 
 **HSC:** Most HSC courses include a written external examination set and marked by NESA. These exams
 are in most cases held in October–November. Some courses (e.g., Visual Arts, Music, Design and
-Technology) also include a major work or performance submitted externally.
+technology) also include a major work or performance submitted externally.
 
 **VCE:** Written examinations are set by VCAA and held in October–November. Performance and oral
 exams are conducted earlier (in most cases June for LOTE and October for performance-based studies).
@@ -198,14 +202,7 @@ solutions.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

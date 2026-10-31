@@ -27,11 +27,15 @@ Configuration, atomic spectra, and periodic trends.
 
 ## Subatomic Particles (OL/HL)
 
+<div class="table-wrap">
+
 | Particle | Symbol | Relative mass          | Relative charge | Location |
 | -------- | ------ | ---------------------- | --------------- | -------- |
 | Proton   | $p^+$  | 1                      | $+1$            | Nucleus  |
 | Neutron  | $n^0$  | 1                      | $0$             | Nucleus  |
 | Electron | $e^-$  | $\approx 0$ ($1/1836$) | $-1$            | Shells   |
+
+</div>
 
 ### Atomic Number and Mass Number
 
@@ -42,7 +46,7 @@ Notation: $^A_Z X$
 
 ### Isotopes (OL/HL)
 
-Atoms of the same element with different numbers of neutrons (same $Z$Different $A$).
+Atoms of the same element with different numbers of neutrons (same $Z$ Different $A$).
 
 **Example (OL):** Carbon has two common isotopes: $^{12}_6\mathrm{C$ (98.9%) and $^{13}_6\mathrm{C$
 (1.1%).
@@ -60,22 +64,30 @@ A_r = \frac{75 \times 35 + 25 \times 37}{100} = \frac{2625 + 925}{100} = 35.5
 $$
 
 **Worked Example 1 (HL):** The relative atomic mass of boron is 10.81. If boron has two isotopes,
-$^{10}\mathrm{B$ and $^{11}\mathrm{B$Calculate their percentage abundances.
+$^{10}\mathrm{B$ and $^{11}\mathrm{B$ Calculate their percentage abundances.
 
 Let $x$ = percentage of $^{10}\mathrm{B$ and $(100 - x)$ = percentage of $^{11}\mathrm{B$.
 
-$$10x + 11(100 - x) = 10.81 \times 100$$
+$$
+10x + 11(100 - x) = 10.81 \times 100
+$$
 
-$$10x + 1100 - 11x = 1081$$
+$$
+10x + 1100 - 11x = 1081
+$$
 
-$$-x = -19 \implies x = 19\%$$
+$$
+-x = -19 \implies x = 19\%
+$$
 
 $^{10}\mathrm{B = 19\%$, $^{11}\mathrm{B = 81\%$.
 
 **Worked Example 2 (OL):** Calculate the relative atomic mass of neon from its isotopes:
 $^{20}\mathrm{Ne$ (90.5%) and $^{22}\mathrm{Ne$ (9.5%).
 
-$$A_r = \frac{90.5 \times 20 + 9.5 \times 22}{100} = \frac{1810 + 209}{100} = \frac{2019}{100} = 20.19$$
+$$
+A_r = \frac{90.5 \times 20 + 9.5 \times 22}{100} = \frac{1810 + 209}{100} = \frac{2019}{100} = 20.19
+$$
 
 ## The Bohr Model and Electron Shells (OL/HL)
 
@@ -83,12 +95,16 @@ $$A_r = \frac{90.5 \times 20 + 9.5 \times 22}{100} = \frac{1810 + 209}{100} = \f
 
 Electrons occupy shells (energy levels) around the nucleus:
 
+<div class="table-wrap">
+
 | Shell | $n$ | Maximum electrons |
 | ----- | --- | ----------------- |
 | K     | 1   | 2                 |
 | L     | 2   | 8                 |
 | M     | 3   | 18                |
 | N     | 4   | 32                |
+
+</div>
 
 Maximum electrons in shell $n$: $2n^2$.
 
@@ -111,12 +127,16 @@ Potassium has 19 electrons. Filling shells: K (2), L (8), M (8), N (1). Configur
 
 Shells are divided into subshells: $s$, $p$, $d$, $f$.
 
+<div class="table-wrap">
+
 | Subshell | Orbitals | Max electrons |
 | -------- | -------- | ------------- |
 | $s$      | 1        | 2             |
 | $p$      | 3        | 6             |
 | $d$      | 5        | 10            |
 | $f$      | 7        | 14            |
+
+</div>
 
 ### Aufbau Principle (HL)
 
@@ -136,23 +156,27 @@ This is because a half-filled $d$ subshell ($3d^5$) is more stable than a partia
 ($3d^4$). Similarly, copper ($Z = 29$) is $[\mathrm{Ar]\,4s^1 3d^{10}$ rather than
 $[\mathrm{Ar]\,4s^2 3d^9$.
 
-### Hund"s Rule (HL)
+### Hund's Rule (HL)
 
 When filling degenerate orbitals (same energy), electrons occupy separate orbitals with parallel
 Spins before pairing.
 
 **Example:** The $2p$ subshell of nitrogen ($Z = 7$):
 
-$$\underset{\uparrow}{\boxed{2p_x}} \quad \underset{\uparrow}{\boxed{2p_y}} \quad \underset{\uparrow}{\boxed{2p_z}}$$
+$$
+\underset{\uparrow}{\boxed{2p_x}} \quad \underset{\uparrow}{\boxed{2p_y}} \quad \underset{\uparrow}{\boxed{2p_z}}
+$$
 
 Three unpaired electrons with parallel spins.
 
 ### Pauli Exclusion Principle (HL)
 
 No two electrons in an atom can have the same set of four quantum numbers. An orbital holds at most
-Two electrons with opposite spins.
+two electrons with opposite spins.
 
 ## Quantum Numbers (HL)
+
+<div class="table-wrap">
 
 | Quantum number   | Symbol   | Values                       | Describes                  |
 | ---------------- | -------- | ---------------------------- | -------------------------- |
@@ -161,19 +185,21 @@ Two electrons with opposite spins.
 | Magnetic         | $m_\ell$ | $-\ell$ to $+\ell$           | Orbital orientation        |
 | Spin             | $m_s$    | $+\frac{1}{2}, -\frac{1}{2}$ | Electron spin              |
 
+</div>
+
 **Worked Example 5 (HL):** List all possible quantum numbers for a $3p$ electron.
 
 $n = 3$$\ell = 1$ (p subshell), $m_\ell = -1, 0, +1$$m_s = +\frac{1}{2}$ or $-\frac{1}{2}$.
 
 There are 6 possible combinations: 3 orbitals $\times$ 2 spins = 6 electrons (matches the maximum
-For the $p$ subshell).
+for the $p$ subshell).
 
 ## Atomic Emission Spectra (HL)
 
 ### Hydrogen Spectrum
 
 When hydrogen atoms absorb energy, electrons are excited to higher energy levels. When they return
-To lower levels, they emit photons:
+to lower levels, they emit photons:
 
 $$
 \Delta E = E_{\mathrm{higher} - E_{\mathrm{lower} = hf = \frac{hc}{\lambda}
@@ -187,12 +213,14 @@ $$
 
 **Derivation of the energy levels of hydrogen:**
 
-The energy of an electron in the $n$Th level of hydrogen is:
+The energy of an electron in the $n$ Th level of hydrogen is:
 
-$$E_n = -\frac{13.6}{n^2} \mathrm{ eV$$
+$$
+E_n = -\frac{13.6}{n^2} \mathrm{ eV
+$$
 
 This is derived from the Bohr model, which postulates that the angular momentum of the electron is
-Quantised: $mvr = n\hbar$. Solving for the allowed radii and energies gives the above formula.
+quantised: $mvr = n\hbar$. Solving for the allowed radii and energies gives the above formula.
 
 **Example (HL):** Find the wavelength of the photon emitted when an electron in hydrogen drops from
 $n = 4$ to $n = 2$.
@@ -210,19 +238,31 @@ This is the blue-green line in the Balmer series.
 **Worked Example 6 (HL):** A photon of wavelength $97.2\mathrm{ nm$ is emitted from a hydrogen atom.
 Identify the transition involved.
 
-$$\Delta E = \frac{1240}{97.2} = 12.76 \mathrm{ eV$$
+$$
+\Delta E = \frac{1240}{97.2} = 12.76 \mathrm{ eV
+$$
 
-$$12.76 = 13.6\left(\frac{1}{n_f^2} - \frac{1}{n_i^2}\right)$$
+$$
+12.76 = 13.6\left(\frac{1}{n_f^2} - \frac{1}{n_i^2}\right)
+$$
 
 This is a large energy, suggesting a transition to $n = 1$ (Lyman series):
 
-$$12.76 = 13.6\left(1 - \frac{1}{n_i^2}\right)$$
+$$
+12.76 = 13.6\left(1 - \frac{1}{n_i^2}\right)
+$$
 
-$$\frac{12.76}{13.6} = 1 - \frac{1}{n_i^2}$$
+$$
+\frac{12.76}{13.6} = 1 - \frac{1}{n_i^2}
+$$
 
-$$\frac{1}{n_i^2} = 1 - 0.938 = 0.062$$
+$$
+\frac{1}{n_i^2} = 1 - 0.938 = 0.062
+$$
 
-$$n_i^2 = 16.1 \implies n_i = 4$$
+$$
+n_i^2 = 16.1 \implies n_i = 4
+$$
 
 Transition: $n = 4 \to n = 1$ (Lyman series).
 
@@ -258,16 +298,16 @@ $p$-subshell, or because pairing begins.
 Magnesium.
 
 Magnesium has the electron configuration $[\mathrm{Ne]\,3s^2$ -- a filled $3s$ subshell. Aluminium
-Has $[\mathrm{Ne]\,3s^2 3p^1$. The $3p$ electron in aluminium is at a higher energy level and is
-Shielded by the $3s$ electrons, so it is easier to remove.
+has $[\mathrm{Ne]\,3s^2 3p^1$. The $3p$ electron in aluminium is at a higher energy level and is
+shielded by the $3s$ electrons, so it is easier to remove.
 
 **Worked Example 8 (HL):** Explain why the first ionisation energy of sulfur is lower than that of
 Phosphorus.
 
 Phosphorus: $[\mathrm{Ne]\,3s^2 3p^3$ -- each $3p$ orbital has one electron (half-filled subshell,
 Stable). Sulfur: $[\mathrm{Ne]\,3s^2 3p^4$ -- one $3p$ orbital has two electrons. The pairing energy
-In sulfur's $3p^4$ configuration makes the fourth electron slightly easier to remove than
-Phosphorus's third $3p$ electron.
+in sulfur's $3p^4$ configuration makes the fourth electron slightly easier to remove than
+phosphorus's third $3p$ electron.
 
 ### Electronegativity (OL/HL)
 
@@ -280,6 +320,8 @@ Fluorine is the most electronegative element (3.98 on the Pauling scale).
 
 ### Summary of Periodic Trends
 
+<div class="table-wrap">
+
 | Property                | Across a period            | Down a group |
 | ----------------------- | -------------------------- | ------------ |
 | Atomic radius           | Decreases                  | Increases    |
@@ -287,6 +329,8 @@ Fluorine is the most electronegative element (3.98 on the Pauling scale).
 | Electronegativity       | Increases                  | Decreases    |
 | Metallic character      | Decreases                  | Increases    |
 | Melting point (metals)  | Increases                  | Decreases    |
+
+</div>
 
 ## Mass Spectrometry (HL)
 
@@ -312,7 +356,9 @@ Fragments.
 **Worked Example 9 (HL):** The mass spectrum of an element shows peaks at $m/z = 52$ (83%) and
 $m/z = 54$ (17%). Calculate the relative atomic mass.
 
-$$A_r = \frac{83 \times 52 + 17 \times 54}{100} = \frac{4316 + 918}{100} = \frac{5234}{100} = 52.34$$
+$$
+A_r = \frac{83 \times 52 + 17 \times 54}{100} = \frac{4316 + 918}{100} = \frac{5234}{100} = 52.34
+$$
 
 This element is chromium.
 
@@ -371,12 +417,12 @@ This element is chromium.
 3. A photon of wavelength $97.2\mathrm{ nm$ is emitted from a hydrogen atom. Identify the transition
    involved.
 4. The relative atomic mass of boron is 10.81. If boron has two isotopes, $^{10}\mathrm{B$ and
-   $^{11}\mathrm{B$Calculate their percentage abundances.
+   $^{11}\mathrm{B$ Calculate their percentage abundances.
 
 ### Extended Questions
 
 1. Explain why the first ionisation energy of neon is much higher than that of sodium.
-2. Write the electron configuration of $\mathrm{Fe^{2+}$ and $\mathrm{Fe^{3+}$Explaining why
+2. Write the electron configuration of $\mathrm{Fe^{2+}$ and $\mathrm{Fe^{3+}$ Explaining why
    $\mathrm{Fe^{3+}$ is more stable.
 3. Calculate the energy of a photon with wavelength $121.6\mathrm{ nm$ and identify the hydrogen
    transition that produces it.
@@ -407,6 +453,8 @@ A shell have been removed, the next ionisation energy increases significantly.
 
 For sodium ($Z = 11$):
 
+<div class="table-wrap">
+
 | Ionisation | Energy (kJ/mol) | Jump?      |
 | ---------- | --------------- | ---------- |
 | 1st        | 496             | --         |
@@ -421,8 +469,10 @@ For sodium ($Z = 11$):
 | 10th       | 141362          | Large jump |
 | 11th       | 159076          | --         |
 
+</div>
+
 The large jump between the 9th and 10th ionisation energies indicates that the 10th electron is
-Being removed from an inner shell (closer to the nucleus, less shielded). This confirms the electron
+being removed from an inner shell (closer to the nucleus, less shielded). This confirms the electron
 Configuration 2, 8, 1.
 
 ### Using Successive Ionisation Energies to Identify Elements
@@ -434,7 +484,7 @@ $738, 1451, 7733, 10540 \mathrm{ kJ/mol$
 Identify the element and explain your reasoning.
 
 The large jump between the 2nd and 3rd ionisation energies indicates that the first two electrons
-Are in the outer shell and the third is in an inner shell. The element has 2 valence electrons,
+are in the outer shell and the third is in an inner shell. The element has 2 valence electrons,
 Which corresponds to Group 2. The low values ($738, 1451$) are consistent with magnesium ($Z = 12$
 Electron configuration $2, 8, 2$).
 
@@ -455,19 +505,23 @@ Electron configuration $2, 8, 2$).
 
 Louis de Broglie proposed that all matter has wave properties:
 
-$$\lambda = \frac{h}{mv} = \frac{h}{p}$$
+$$
+\lambda = \frac{h}{mv} = \frac{h}{p}
+$$
 
 Where $h$ is Planck's constant, $m$ is mass, and $v$ is velocity.
 
 For an electron in an orbital, the standing wave condition requires that an integer number of
-Wavelengths fit around the orbit: $n\lambda = 2\pi r$.
+wavelengths fit around the orbit: $n\lambda = 2\pi r$.
 
 This explains why only certain energy levels are allowed: only orbits that satisfy the standing wave
 Condition are stable.
 
 ### Heisenberg Uncertainty Principle
 
-$$\Delta x \cdot \Delta p \geq \frac{h}{4\pi}$$
+$$
+\Delta x \cdot \Delta p \geq \frac{h}{4\pi}
+$$
 
 It is impossible to simultaneously know both the exact position and exact momentum of an electron.
 This is why we use probability distributions (orbitals) rather than fixed orbits to describe
@@ -500,9 +554,9 @@ Each orbital is described by a wave function $\psi$ And $|\psi|^2$ gives the pro
 ### Radial Distribution Functions
 
 The radial distribution function shows the probability of finding an electron at a given distance
-From the nucleus. For the $1s$ orbital, the most probable distance equals the Bohr radius
+from the nucleus. For the $1s$ orbital, the most probable distance equals the Bohr radius
 ($a_0 = 52.9 \mathrm{ pm$). For the $2s$ orbital, there is a node (zero probability) at a certain
-Distance.
+distance.
 
 ---
 
@@ -525,11 +579,13 @@ When transition metals form ions, the $4s$ electrons are removed before the $3d$
 
 $\mathrm{Fe^{2+}$: $[\mathrm{Ar]\,3d^6$ (two $4s$ electrons removed)
 
-$\mathrm{Fe^{3+}$: $[\mathrm{Ar]\,3d^5$ (three electrons removed: two from $4s$One from $3d$)
+$\mathrm{Fe^{3+}$: $[\mathrm{Ar]\,3d^5$ (three electrons removed: two from $4s$ One from $3d$)
 
 Note: $\mathrm{Fe^{3+}$ has a half-filled $3d$ subshell, making it particularly stable.
 
 ### Common Ion Configurations
+
+<div class="table-wrap">
 
 | Ion               | Electron configuration             |
 | ----------------- | ---------------------------------- |
@@ -540,6 +596,8 @@ Note: $\mathrm{Fe^{3+}$ has a half-filled $3d$ subshell, making it particularly 
 | $\mathrm{Cu^+$    | $[\mathrm{Ar]\,3d^{10}$            |
 | $\mathrm{Zn^{2+}$ | $[\mathrm{Ar]\,3d^{10}$            |
 
+</div>
+
 ### Isoelectronic Series
 
 Ions with the same number of electrons are isoelectronic.
@@ -549,7 +607,9 @@ Electrons ($[\mathrm{Ne]$ configuration).
 
 **Trend in ionic radius:** For isoelectronic ions, the radius decreases as nuclear charge increases:
 
-$$\mathrm{O^{2-} > \mathrm{F^-> \mathrm{Ne > \mathrm{Na^+ > \mathrm{Mg^{2+}$$
+$$
+\mathrm{O^{2-} > \mathrm{F^-> \mathrm{Ne > \mathrm{Na^+ > \mathrm{Mg^{2+}
+$$
 
 ---
 
@@ -566,12 +626,16 @@ $$\mathrm{O^{2-} > \mathrm{F^-> \mathrm{Ne > \mathrm{Na^+ > \mathrm{Mg^{2+}$$
 
 ### Blocks of the Periodic Table
 
+<div class="table-wrap">
+
 | Block   | Subshell being filled | Groups                 | Examples                             |
 | ------- | --------------------- | ---------------------- | ------------------------------------ |
 | s-block | $s$                   | 1, 2                   | $\mathrm{Na$$\mathrm{Mg$             |
 | p-block | $p$                   | 13-18                  | $\mathrm{Al$$\mathrm{Cl$$\mathrm{Ar$ |
 | d-block | $d$                   | 3-12                   | $\mathrm{Fe$$\mathrm{Cu$             |
 | f-block | $f$                   | Lanthanides, Actinides | $\mathrm{U$$\mathrm{Ce$              |
+
+</div>
 
 ### Periodic Trends in Detail: Atomic Radius
 
@@ -595,6 +659,8 @@ The first ionisation energy increases across a period with two notable dips:
 
 ### Comparison of Group 1 and Group 17 Properties
 
+<div class="table-wrap">
+
 | Property          | Group 1 (Alkali metals)     | Group 17 (Halogens)         |
 | ----------------- | --------------------------- | --------------------------- |
 | Atomic radius     | Large, increases down group | Small, increases down group |
@@ -604,6 +670,8 @@ The first ionisation energy increases across a period with two notable dips:
 | Type of element   | Metal                       | Non-metal                   |
 | Bonding           | Metallic/ionic              | Covalent                    |
 | Typical ion       | $+1$                        | $-1$                        |
+
+</div>
 
 ---
 
@@ -620,7 +688,9 @@ The first ionisation energy increases across a period with two notable dips:
 
 The effective nuclear charge ($Z_{\mathrm{eff}$) experienced by an electron is:
 
-$$Z_{\mathrm{eff} = Z - S$$
+$$
+Z_{\mathrm{eff} = Z - S
+$$
 
 Where $Z$ is the actual nuclear charge and $S$ is the shielding constant (Slater's rules).
 
@@ -641,9 +711,13 @@ For a $3p$ electron:
 - Electrons in $n = 2$: 8 electrons $\times 0.85 = 6.80$
 - Electrons in $n = 1$: 2 electrons $\times 1.00 = 2.00$
 
-$$S = 2.45 + 6.80 + 2.00 = 11.25$$
+$$
+S = 2.45 + 6.80 + 2.00 = 11.25
+$$
 
-$$Z_{\mathrm{eff} = 17 - 11.25 = 5.75$$
+$$
+Z_{\mathrm{eff} = 17 - 11.25 = 5.75
+$$
 
 This relatively high $Z_{\mathrm{eff}$ explains chlorine's high electronegativity and small atomic
 Radius.
@@ -662,12 +736,14 @@ Radius.
 ## X-ray Spectra and Moseley's Law (HL)
 
 Henry Moseley discovered that the frequency of characteristic X-rays emitted by an element is
-Related to its atomic number:
+related to its atomic number:
 
-$$\sqrt{f} = a(Z - b)$$
+$$
+\sqrt{f} = a(Z - b)
+$$
 
 Where $a$ and $b$ are constants. This established that atomic number (not atomic mass) is the
-Fundamental property that determines an element's identity, leading to the modern periodic table.
+fundamental property that determines an element's identity, leading to the modern periodic table.
 
 ---
 
@@ -686,7 +762,7 @@ Fundamental property that determines an element's identity, leading to the moder
 
 Lasers rely on stimulated emission: an excited electron is stimulated to drop to a lower energy
 Level by an incoming photon of exactly the right energy, emitting a second photon with the same
-Wavelength, phase, and direction.
+wavelength, phase, and direction.
 
 Conditions for laser action:
 
@@ -697,7 +773,7 @@ Conditions for laser action:
 ### Fluorescence
 
 When atoms or molecules absorb UV light, electrons are excited to higher energy levels. They then
-Return to lower levels in steps, emitting visible light. This is the principle behind fluorescent
+return to lower levels in steps, emitting visible light. This is the principle behind fluorescent
 Lamps and biological staining.
 
 ### Electron Microscopy
@@ -717,18 +793,9 @@ And scanning electron microscopy (SEM) are two common types.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[1_Atomic Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary: Atomic Structure Key Relationships
+
+<div class="table-wrap">
 
 | Concept                  | Formula/Relationship                  | Key Idea                      |
 | ------------------------ | ------------------------------------- | ----------------------------- |
@@ -739,6 +806,8 @@ flowchart TD
 | Effective nuclear charge | $Z_{\mathrm{eff} = Z - S$             | Shielding effects             |
 | Shell capacity           | $2n^2$                                | Maximum electrons per shell   |
 | Moseley's law            | $\sqrt{f} = a(Z - b)$                 | Atomic number defines element |
+
+</div>
 
 ---
 
@@ -793,6 +862,8 @@ flowchart TD
 
 ### Key Developments
 
+<div class="table-wrap">
+
 | Scientist   | Contribution                                                      | Date |
 | ----------- | ----------------------------------------------------------------- | ---- |
 | Dalton      | Atomic theory: all matter is made of atoms                        | 1808 |
@@ -803,10 +874,12 @@ flowchart TD
 | Heisenberg  | Uncertainty principle                                             | 1927 |
 | Schrodinger | Wave equation for electrons                                       | 1926 |
 
+</div>
+
 ### Rutherford's Gold Foil Experiment
 
 Most alpha particles passed straight through the gold foil, but a few were deflected at large angles
-And some bounced back. This led to the conclusion that:
+and some bounced back. This led to the conclusion that:
 
 1. Most of the atom is empty space (most particles pass through)
 2. The nucleus is very small, dense, and positively charged (few particles deflected)
@@ -816,12 +889,12 @@ And some bounced back. This led to the conclusion that:
 
 Before Rutherford, Thomson proposed that the atom was a sphere of positive charge with electrons
 Embedded in it (like plums in a pudding). The gold foil experiment disproved this model because the
-Large-angle deflections could not be explained by a diffuse positive charge.
+large-angle deflections could not be explained by a diffuse positive charge.
 
 ### Limitations of the Bohr Model
 
 The Bohr model successfully explained the hydrogen spectrum but failed for multi-electron atoms
-Because:
+because:
 
 1. It treats electrons as particles in fixed orbits, not as standing waves
 2. It cannot explain the fine structure of spectral lines (splitting due to spin-orbit coupling)

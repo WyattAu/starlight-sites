@@ -24,7 +24,7 @@ categories:
 
 Computational thinking is a problem-solving approach that involves breaking down complex problems,
 Finding patterns, abstracting details, and designing step-by-step solutions. It is not about
-Thinking like a computer -- it is about expressing problems in a way that a computer can solve.
+thinking like a computer -- it is about expressing problems in a way that a computer can solve.
 
 ### Four Pillars
 
@@ -36,7 +36,7 @@ Thinking like a computer -- it is about expressing problems in a way that a comp
 **Why these four matter together.** Decomposition tells you _what_ the subproblems are. Pattern
 Recognition tells you _which_ subproblems are instances of problems you already know how to solve.
 Abstraction tells you _which details matter_ for each subproblem. Algorithm design turns the
-Abstracted subproblems into _precise, executable steps_.
+abstracted subproblems into _precise, executable steps_.
 
 **Worked Example.** Design a program to manage a school library.
 
@@ -81,7 +81,7 @@ Highest and lowest scores.
 ## Abstraction (CED Unit 2)
 
 Abstraction is the process of reducing complexity by hiding unnecessary details and exposing only
-The essential features.
+the essential features.
 
 ### Why Abstraction Matters
 
@@ -98,6 +98,8 @@ Quick sort, or heap sort -- only that it sorts correctly.
 
 ### Levels of Abstraction
 
+<div class="table-wrap">
+
 | Level    | Example                  | Detail Level |
 | -------- | ------------------------ | ------------ |
 | High     | A web browser            | Very low     |
@@ -106,14 +108,16 @@ Quick sort, or heap sort -- only that it sorts correctly.
 | Very low | Machine code / binary    | Very high    |
 | Hardware | Logic gates, transistors | Maximum      |
 
+</div>
+
 Moving down the ladder reveals more detail. Moving up hides detail behind simpler interfaces. The
-Key insight of abstraction is that you rarely need to go all the way down -- you work at the level
+key insight of abstraction is that you rarely need to go all the way down -- you work at the level
 Appropriate to the problem.
 
 ### Procedural Abstraction
 
 A procedure (function/method) provides a named interface that hides its implementation. The caller
-Only needs to know what the procedure does (its specification), not how it does it.
+only needs to know what the procedure does (its specification), not how it does it.
 
 **Benefits:**
 
@@ -123,7 +127,7 @@ Only needs to know what the procedure does (its specification), not how it does 
 
 **Formal notion: preconditions and postconditions.** A procedure's contract specifies what must be
 True before it is called (precondition) and what it guarantees after it returns (postcondition). The
-Implementation can change as long as it satisfies this contract.
+implementation can change as long as it satisfies this contract.
 
 ### Data Abstraction
 
@@ -155,15 +159,15 @@ public class Rectangle {
 ```
 
 The caller uses `getArea()` and `getPerimeter()` without knowing that `width` and `height` are
-Stored as doubles. The implementation could be changed to store different data (e.g., coordinates of
-Corners) without affecting any code that uses this class.
+stored as doubles. The implementation could be changed to store different data (e.g., coordinates of
+corners) without affecting any code that uses this class.
 :::
 
 ### Information Hiding
 
 Information hiding is the principle that the internal details of a module should be hidden from
-Other modules. Only the public interface is exposed. This reduces coupling between modules, making
-The system easier to understand, test, and modify.
+other modules. Only the public interface is exposed. This reduces coupling between modules, making
+the system easier to understand, test, and modify.
 
 In Java, the `private` keyword enforces information hiding. A `private` field cannot be accessed
 Directly from outside the class, forcing callers to use the public methods.
@@ -430,14 +434,14 @@ PROCEDURE reverseList(list)
 
 **Proof of termination.** The loop variable `i` starts at LENGTH(list) and decreases by 1 each
 Iteration until it reaches 1. Since LENGTH(list) is a finite positive integer, the loop terminates
-After LENGTH(list) iterations. $\blacksquare$
+after LENGTH(list) iterations. $\blacksquare$
 
 ## Problem Solving Strategies
 
 ### Top-Down Design
 
 Start with the main problem, then decompose into subproblems. Each subproblem is further decomposed
-Until the tasks are simple enough to implement directly.
+until the tasks are simple enough to implement directly.
 
 **Example:** "Build a student management system."
 
@@ -450,7 +454,7 @@ Level 3 (under Add student): Validate name, validate ID, check for duplicates, s
 ### Stepwise Refinement
 
 Gradually add detail to a high-level design. Start with pseudocode, then refine each step into more
-Specific instructions.
+specific instructions.
 
 **Example:**
 
@@ -496,6 +500,8 @@ An algorithm is a finite set of unambiguous instructions that solves a problem o
 
 ### Deciding Between Representations
 
+<div class="table-wrap">
+
 | Representation   | Precision | Readability | Executable |
 | ---------------- | --------- | ----------- | ---------- |
 | Natural language | Low       | High        | No         |
@@ -503,13 +509,15 @@ An algorithm is a finite set of unambiguous instructions that solves a problem o
 | Flowchart        | Medium    | High        | No         |
 | Programming code | High      | Low         | Yes        |
 
+</div>
+
 Pseudocode is the best compromise for communicating algorithms between humans. It is precise enough
-To unambiguously describe the logic, but does not require knowledge of a specific language's syntax.
+to unambiguously describe the logic, but does not require knowledge of a specific language's syntax.
 
 ### Proving Termination
 
 An algorithm terminates if every loop has a well-defined condition that is eventually satisfied, and
-Every recursive call makes progress toward a base case.
+every recursive call makes progress toward a base case.
 
 **Example.** The following algorithm always terminates:
 
@@ -543,7 +551,7 @@ By induction, `factorial(n) = n!` for all $n \ge 0$. $\blacksquare$
 ### Abstract Data Types
 
 An Abstract Data Type (ADT) defines a data type by its behavior (operations) rather than its
-Implementation. The user interacts with the ADT through a well-defined interface.
+implementation. The user interacts with the ADT through a well-defined interface.
 
 **Stack ADT:**
 
@@ -553,7 +561,7 @@ Implementation. The user interacts with the ADT through a well-defined interface
 - `isEmpty()`: Return true if the stack is empty.
 
 The user does not need to know whether the stack is implemented using an array, a linked list, or
-Something else.
+something else.
 
 **Queue ADT:**
 
@@ -603,6 +611,8 @@ public class ArrayStack {
 
 **Time complexity of stack operations:**
 
+<div class="table-wrap">
+
 | Operation | Time Complexity |
 | --------- | --------------- |
 | push      | $O(1)$          |
@@ -610,6 +620,8 @@ public class ArrayStack {
 | peek      | $O(1)$          |
 | isEmpty   | $O(1)$          |
 | search    | $O(n)$          |
+
+</div>
 
 ### Using Stacks: Balanced Parentheses
 
@@ -710,6 +722,8 @@ A trace table records the values of variables as an algorithm executes.
 
 **Example:** Trace `findMax` on the list [3, 7, 2, 9, 5].
 
+<div class="table-wrap">
+
 | Iteration | item | max (before) | max (after) |
 | --------- | ---- | ------------ | ----------- |
 | 1         | 3    | 3            | 3           |
@@ -718,15 +732,21 @@ A trace table records the values of variables as an algorithm executes.
 | 4         | 9    | 7            | 9           |
 | 5         | 5    | 9            | 9           |
 
+</div>
+
 Final result: 9. Correct.
 
 **Example:** Trace `binarySearch` on [2, 5, 8, 12, 16, 23, 38] searching for 16.
+
+<div class="table-wrap">
 
 | Iteration | low | high | mid | list[mid] | Action  |
 | --------- | --- | ---- | --- | --------- | ------- |
 | 1         | 1   | 7    | 4   | 12        | 12 < 16 |
 | 2         | 5   | 7    | 6   | 23        | 23 > 16 |
 | 3         | 5   | 5    | 5   | 16        | Found!  |
+
+</div>
 
 Result: index 5. Correct.
 
@@ -818,7 +838,7 @@ Result: index 5. Correct.
     are anagrams of each other. What is the time complexity?
 
 21. Explain how information hiding reduces coupling between modules. Give a concrete example from
-    Java programming.
+    java programming.
 
 22. Write pseudocode for a procedure that determines whether a list contains any duplicate values.
     What is the most efficient approach?
@@ -1031,16 +1051,6 @@ maximum.
 
 </details>
 
-```mermaid
-flowchart TD
-    A[1_Computational Thinking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of computational thinking, including underlying theory,
@@ -1053,9 +1063,6 @@ practical implementation, and key applications.
 - sorting algorithms (bubble, merge, quick)
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

@@ -36,7 +36,7 @@ A range that is not necessarily an iterator.
 
 The key distinction from the traditional iterator-pair model:
 
-- **Traditional (C++17)**: A range is defined by a pair of iterators `[begin, end)`Both of the same
+- **Traditional (C++17)**: A range is defined by a pair of iterators `[begin, end)`. Both of the same
   type `I`.
 - **C++20**: A range is defined by an iterator `begin` and a sentinel `end`Potentially of different
   types `I` and `S` where `std::sentinel_for&lt;S, I>` holds [N4950 §25.3.5.2].
@@ -215,11 +215,13 @@ Ranges, it avoids computing the end pointer from a base + count.
 
 ## Iterator Concepts Hierarchy
 
-C++20 replaced the legacy iterator category tags (`std::input_iterator_tag`Etc.) with a hierarchy Of
+C++20 replaced the legacy iterator category tags (`std::input_iterator_tag`. Etc.) with a hierarchy Of
 concepts [N4950 §25.3.4]. Understanding this hierarchy is essential for implementing custom
 Sentinels and ranges.
 
 ### The Concept Refinement Chain
+
+<div class="table-wrap">
 
 | Concept                         | Refines                                                                             | Capabilities                                                      |
 | :------------------------------ | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------- |
@@ -230,6 +232,8 @@ Sentinels and ranges.
 | `std::bidirectional_iterator`   | `std::forward_iterator`                                                             | Can decrement (`--it`)                                            |
 | `std::random_access_iterator`   | `std::bidirectional_iterator`                                                       | Arithmetic (`it + n``it - n`), comparison (`&lt;``&gt;`)          |
 | `std::contiguous_iterator`      | `std::random_access_iterator`                                                       | Elements are contiguous in memory; `std::to_address(it)` is valid |
+
+</div>
 
 ### The `std::semiregular` Constraint on Sentinels
 
@@ -271,8 +275,8 @@ static_assert(std::semiregular<LimitSentinel>);
 ## Sentinel with State
 
 A sentinel can carry state that influences the comparison logic. This is where the type distinction
-Between iterators and sentinels provides real value, a sentinel that encodes termination criteria
-As state avoids computing an end iterator.
+between iterators and sentinels provides real value, a sentinel that encodes termination criteria
+as state avoids computing an end iterator.
 
 ```cpp
 #include <iostream>
@@ -322,7 +326,7 @@ Iteration terminates as soon as the condition is met.
 
 ## Range-For Loop Desugaring
 
-The range-for loop in C++20 is desugared to use `std::ranges::begin` and `std::ranges::end`Which
+The range-for loop in C++20 is desugared to use `std::ranges::begin` and `std::ranges::end`. Which
 Support iterator-sentinel pairs [N4950 §9.5.5].
 
 ### C++17 Desugaring (Iterator Pair)
@@ -363,7 +367,7 @@ for (auto elem : range) { /* ... */ }
 
 The `!=` comparison between different types (`I` and `S`) is what enables sentinel semantics. This
 Means you can write custom range types where `begin()` and `end()` return different types and they
-Will work correctly with range-for:
+will work correctly with range-for:
 
 ```cpp
 #include <iostream>
@@ -392,11 +396,11 @@ int main() {
 ## Bounded vs. Unbounded Ranges
 
 The iterator-sentinel model formalizes the distinction between ranges with known bounds and those
-Without.
+without.
 
 ### Sized Ranges
 
-A **sized range** models `std::sized_range`Meaning `ranges::size(r)` is available in O(1) time
+A **sized range** models `std::sized_range`. Meaning `ranges::size(r)` is available in O(1) time
 [N4950 §25.3.6]. For standard containers, this is implemented via a stored size counter or By
 computing `end() - begin()` for random-access iterators.
 
@@ -516,8 +520,8 @@ This is identical in cost to a hand-written counted loop.
 ### Sentinel-Eligible Algorithm Optimizations
 
 The standard library algorithms are aware of sentinel types. When an algorithm receives
-`unreachable_sentinel`It can eliminate bounds-checking branches in inner loops. When it receives a
-`default_sentinel`It can use count-based loop termination instead of pointer comparison.
+`unreachable_sentinel`. It can eliminate bounds-checking branches in inner loops. When it receives a
+`default_sentinel`. It can use count-based loop termination instead of pointer comparison.
 
 ## `std::ranges::subrange` Details
 
@@ -563,7 +567,7 @@ int main() {
 ### 1. Sentinel Comparison Must Be Heterogeneous
 
 The `sentinel_for` concept requires that `S` and `I` be **weakly-equality-comparable-with** each
-Other, but they do not need to be the same type. A common mistake is implementing `==` only for
+other, but they do not need to be the same type. A common mistake is implementing `==` only for
 `(I, I)` pairs and forgetting the `(I, S)` and `(S, I)` overloads:
 
 ```cpp
@@ -606,17 +610,7 @@ auto bad() {
 Using `unreachable_sentinel` is a contract: you are guaranteeing to the standard library that the
 Range is infinite (or at least large enough). If the range is shorter than the algorithm expects,
 You get buffer overread, and unlike with bounds-checked iterators, there is no diagnostic. Use this
-Only when you have proven the bounds at a higher level.
-
-```mermaid
-flowchart TD
-    A[1_Iterator_Sentinel] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+only when you have proven the bounds at a higher level.
 
 ## Summary
 
@@ -631,14 +625,9 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Iterators are the reading heads of a tape player: they point to one element at a time and can move forward, backward, or jump to a position. Sentinels mark the end of the tape, telling the algorithm when to stop. The key insight is that iterators decouple algorithms from containers: the same `std::sort` works on vectors, arrays, and even custom data structures, the way the same key can open different locks if they share the same mechanism.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

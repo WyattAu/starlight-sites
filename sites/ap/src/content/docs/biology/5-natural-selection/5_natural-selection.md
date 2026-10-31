@@ -22,7 +22,7 @@ categories:
 
 ## Evolution and Natural Selection (CED Units 6-8)
 
-### Darwin"s Theory of Natural Selection
+### Darwin's Theory of Natural Selection
 
 1. **Variation:** Individuals in a population exhibit heritable variation.
 2. **Overproduction:** Populations produce more offspring than the environment can support.
@@ -53,8 +53,8 @@ categories:
 ## Hardy-Weinberg Equilibrium (CED Unit 7)
 
 The Hardy-Weinberg principle describes a hypothetical, non-evolving population. If a population is
-In Hardy-Weinberg equilibrium, allele and genotype frequencies remain constant from generation to
-Generation.
+in Hardy-Weinberg equilibrium, allele and genotype frequencies remain constant from generation to
+generation.
 
 ### Equations
 
@@ -88,7 +88,7 @@ If any condition is violated, the population evolves (allele frequencies change)
 
 :::note[Worked Example 1]
 In a population of 1000 individuals, 160 have the recessive phenotype (aa). Find the frequencies of
-All genotypes and alleles.
+all genotypes and alleles.
 
 $$
 Q^2 = \frac{160}{1000} = 0.16 \implies q = 0.4
@@ -111,7 +111,7 @@ Check: $360 + 480 + 160 = 1000$.
 
 :::note[Worked Example 2]
 The frequency of the dominant allele for a trait is 0.7 in a population of 5000. How many
-Individuals are expected to be heterozygous?
+individuals are expected to be heterozygous?
 
 $p = 0.7$, $q = 0.3$.
 
@@ -132,7 +132,7 @@ $2pq = 2(0.6)(0.4) = 0.48 = 48\%$.
 
 :::note[Worked Example 4]
 A population has the following genotype frequencies: AA = 0.42, Aa = 0.36, aa = 0.22. Is this
-Population in Hardy-Weinberg equilibrium?
+population in Hardy-Weinberg equilibrium?
 
 $p = p^2 + \frac{1}{2}(2pq) = 0.42 + 0.18 = 0.60$.
 
@@ -146,7 +146,7 @@ Observed: $p^2 = 0.42$$2pq = 0.36$$q^2 = 0.22$.
 
 The observed and expected frequencies differ, so the population is not in Hardy-Weinberg
 Equilibrium. The excess of homozygotes (AA and aa) suggests non-random mating (possibly inbreeding
-Or assortative mating).
+or assortative mating).
 
 ## Mechanisms of Evolution
 
@@ -165,17 +165,21 @@ Three types based on the effect on the phenotype distribution:
 
 **Summary table of selection types.**
 
+<div class="table-wrap">
+
 | Type        | Effect on distribution    | Example                     |
 | ----------- | ------------------------- | --------------------------- |
 | Directional | Shifts toward one extreme | Antibiotic resistance       |
 | Stabilizing | Narrows around the mean   | Human birth weight          |
 | Disruptive  | Two peaks at extremes     | Seedcracker finch beak size |
 
+</div>
+
 **Worked Example: Directional selection in Darwin's finches.**
 
 During a drought on the Galapagos Islands, the available seeds became larger and harder. Finches
-With larger, stronger beaks could crack these seeds more efficiently and had higher survival and
-Reproductive success. The average beak size in the population increased over the drought period.
+with larger, stronger beaks could crack these seeds more efficiently and had higher survival and
+reproductive success. The average beak size in the population increased over the drought period.
 This is an example of directional selection. When the drought ended and smaller seeds became
 Available again, beak size shifted back towards the original average, demonstrating that natural
 Selection is responsive to environmental changes.
@@ -205,7 +209,7 @@ allele $a$ has decreased from 0.5 to 0.2.
 **Worked Example: The founder effect in the Amish population.**
 
 The Amish population of Pennsylvania was founded by approximately 200 individuals. Among the
-Founders was one person carrying the allele for Ellis-van Creveld syndrome (a form of dwarfism).
+founders was one person carrying the allele for Ellis-van Creveld syndrome (a form of dwarfism).
 Because the Amish population was small and isolated (high rate of intermarriage), the allele
 Frequency increased through genetic drift. Today, the incidence of this syndrome in the Amish
 Population is far higher than in the general population.
@@ -263,6 +267,8 @@ A form of natural selection based on mating success.
 
 **Prezygotic barriers** (prevent mating or fertilization):
 
+<div class="table-wrap">
+
 | Type                 | Description                          | Example                        |
 | -------------------- | ------------------------------------ | ------------------------------ |
 | Habitat isolation    | Different habitats                   | Lion vs tiger                  |
@@ -271,7 +277,11 @@ A form of natural selection based on mating success.
 | Mechanical isolation | Incompatible reproductive structures | Insect genitalia               |
 | Gametic isolation    | Sperm cannot fertilize egg           | Sea urchin species             |
 
+</div>
+
 **Postzygotic barriers** (prevent viable, fertile offspring):
+
+<div class="table-wrap">
 
 | Type                     | Description                                       | Example                      |
 | ------------------------ | ------------------------------------------------- | ---------------------------- |
@@ -279,10 +289,12 @@ A form of natural selection based on mating success.
 | Reduced hybrid fertility | Offspring are sterile                             | Mule (horse $\times$ donkey) |
 | Hybrid breakdown         | First-generation hybrids are fine, but F2 are not | Rice hybrids                 |
 
+</div>
+
 ### Allopatric Speciation
 
 Speciation that occurs when populations are geographically separated. Gene flow is interrupted, and
-The populations diverge through genetic drift, natural selection, and/or mutation.
+the populations diverge through genetic drift, natural selection, and/or mutation.
 
 **Process:**
 
@@ -294,7 +306,7 @@ The populations diverge through genetic drift, natural selection, and/or mutatio
 **Worked Example: Allopatric speciation in the Kaibab squirrel.**
 
 The Kaibab squirrel lives on the north rim of the Grand Canyon, while the Abert squirrel lives on
-The south rim. The two populations were separated by the formation of the Grand Canyon approximately
+the south rim. The two populations were separated by the formation of the Grand Canyon approximately
 10,000 years ago. Despite being very similar in appearance, they have evolved enough genetic
 Differences that they are now considered separate species. The Grand Canyon acts as a geographic
 Barrier that prevents gene flow.
@@ -336,12 +348,12 @@ Classification based on **shared derived characteristics** (synapomorphies).
 ### Molecular Clocks
 
 The rate of mutation in DNA sequences is roughly constant over time. By comparing DNA sequences of
-Two species, the time since they diverged can be estimated.
+two species, the time since they diverged can be estimated.
 
 **Worked Example: Using a molecular clock.**
 
 Two species of rodents have a DNA sequence that differs by 12 base substitutions per 1000 bases. The
-Known mutation rate for this gene is 2 substitutions per 1000 bases per million years.
+known mutation rate for this gene is 2 substitutions per 1000 bases per million years.
 
 Time since divergence: $12 / 2 = 6$ million years.
 
@@ -471,12 +483,12 @@ Humans and yeast differ by about 45 amino acids.
 **Molecular clocks:** The rate of neutral mutations in DNA is relatively constant over time. By
 Counting the number of differences in DNA sequences between two species, scientists can estimate how
 Long ago they diverged from a common ancestor. This method assumes a roughly constant mutation rate
-And must be calibrated using the fossil record.
+and must be calibrated using the fossil record.
 
 **Pseudogenes:** These are non-functional copies of genes that have accumulated mutations over time.
 The presence of the same pseudogene at the same chromosomal location in different species is strong
 Evidence for common ancestry. For example, the GULO pseudogene (involved in vitamin C synthesis) is
-Present in humans, chimpanzees, and gorillas, all of which have lost the ability to synthesise
+present in humans, chimpanzees, and gorillas, all of which have lost the ability to synthesise
 Vitamin C.
 
 **Worked Example: Using molecular data to construct a phylogenetic tree.**
@@ -491,22 +503,22 @@ Four species have the following number of amino acid differences in a particular
 - Species C vs D: 15 differences
 
 The pair with the fewest differences (A and B, 5) are most closely related. The tree would show A
-And B sharing the most recent common ancestor, followed by C, with D being the most distantly
+and B sharing the most recent common ancestor, followed by C, with D being the most distantly
 Related.
 
 ## Review: Types of Natural Selection
 
 **Directional selection:** Favouring one extreme of the phenotype range. Example: antibiotic
 Resistance in bacteria -- bacteria with resistance alleles are favoured when antibiotics are
-Present, shifting the population towards resistance.
+present, shifting the population towards resistance.
 
 **Stabilising selection:** Favouring the intermediate phenotype and selecting against both extremes.
 Example: human birth weight -- very low and very high birth weights have higher mortality, so the
-Intermediate weight is favoured.
+intermediate weight is favoured.
 
 **Disruptive selection:** Favouring both extremes and selecting against the intermediate. Example:
 In a population of birds, large beaks are favoured for cracking hard seeds and small beaks for
-Picking small seeds, but medium beaks are inefficient at both.
+picking small seeds, but medium beaks are inefficient at both.
 
 **Frequency-dependent selection:** The fitness of a phenotype depends on its frequency in the
 Population. In negative frequency-dependent selection, rare phenotypes have an advantage. Example:
@@ -517,7 +529,7 @@ And each is favoured when it is rare.
 
 Genetic drift is the random fluctuation of allele frequencies in small populations due to chance
 Events. Unlike natural selection, genetic drift is non-adaptive -- it can increase or decrease the
-Frequency of both beneficial and harmful alleles.
+frequency of both beneficial and harmful alleles.
 
 **Bottleneck effect:** A population is drastically reduced in size (e.g., by a natural disaster or
 Overhunting). The surviving individuals may not represent the genetic diversity of the original
@@ -529,16 +541,16 @@ a subset of the total genetic variation.
 
 **Why drift matters more in small populations:** In a population of 10,000, the random loss of one
 Individual changes allele frequencies by only 0.01%. In a population of 10, the loss of one
-Individual changes allele frequencies by 10%. Small populations are therefore much more susceptible
-To random changes in allele frequencies.
+individual changes allele frequencies by 10%. Small populations are therefore much more susceptible
+to random changes in allele frequencies.
 
 **Worked Example: Cheetahs and the bottleneck effect.**
 
 Cheetahs experienced a severe bottleneck approximately 10,000 years ago, reducing the population to
 A very small number of individuals. As a result, modern cheetahs have extremely low genetic
 Diversity -- they are so genetically similar that skin grafts between unrelated cheetahs are not
-Rejected. This low diversity makes cheetahs vulnerable to disease and environmental changes because
-There is little genetic variation for natural selection to act upon.
+rejected. This low diversity makes cheetahs vulnerable to disease and environmental changes because
+there is little genetic variation for natural selection to act upon.
 
 ## Review: Hybrid Zones and Speciation
 
@@ -564,41 +576,41 @@ Acts as a selective pressure on the other, leading to reciprocal evolutionary ch
 **Predator-prey coevolution:** Predators evolve traits that make them better at catching prey (e.g.,
 Faster running speed, sharper claws), while prey evolve traits that help them escape (e.g.,
 Camouflage, toxicity, speed). This creates an evolutionary "arms race" where neither species gains a
-Permanent advantage.
+permanent advantage.
 
 **Plant-herbivore coevolution:** Plants evolve chemical defences (toxins, alkaloids) to deter
 Herbivores. Herbivores, in turn, evolve resistance to these toxins. Example: milkweed produces
 Cardiac glycosides that are toxic to most herbivores, but monarch butterfly caterpillars have
-Evolved the ability to sequester these compounds and use them for their own defence.
+evolved the ability to sequester these compounds and use them for their own defence.
 
 **Parasite-host coevolution:** Parasites evolve mechanisms to exploit their hosts, while hosts
 Evolve immune defences. This often leads to a highly specific, co-adapted relationship. Example: the
 Plasmodium parasite (malaria) has evolved to evade the human immune system, while humans in
-Malaria-endemic regions have evolved sickle-cell trait (heterozygote advantage against malaria).
+malaria-endemic regions have evolved sickle-cell trait (heterozygote advantage against malaria).
 
 **Mutualistic coevolution:** Both species benefit from the interaction. Example: flowering plants
 And their pollinators. Plants evolve specific flower shapes, colours, and scents to attract
 Particular pollinators, while pollinators evolve specialised mouthparts and behaviours to access
 Nectar efficiently. Orchids and their pollinating moths are a classic example: some orchid species
-Have flowers with nectar spurs that match the exact proboscis length of their moth pollinator.
+have flowers with nectar spurs that match the exact proboscis length of their moth pollinator.
 
 ## Review: Evolutionary Developmental Biology (Evo-Devo)
 
 Evolutionary developmental biology studies how changes in developmental processes contribute to
-Evolutionary change. It has revealed that small changes in regulatory genes can produce large
+evolutionary change. It has revealed that small changes in regulatory genes can produce large
 Morphological changes.
 
 **Homeotic (Hox) genes:** These are master regulatory genes that control the body plan of an
 Organism during embryonic development. They determine where body parts (head, thorax, abdomen,
 Limbs) form along the anterior-posterior axis. Remarkably, Hox genes are highly conserved across the
-Animal kingdom: the same basic set of Hox genes controls body plan development in fruit flies, mice,
+animal kingdom: the same basic set of Hox genes controls body plan development in fruit flies, mice,
 And humans.
 
 **How Hox gene mutations drive evolution:** A mutation that changes where a Hox gene is expressed
 Can dramatically alter body plan. For example, in fruit flies, a mutation in the Ultrabithorax gene
 Causes a pair of wings to develop where halteres (balancing organs) normally form, producing a
 Four-winged fly. Similar changes in Hox gene expression during evolution may have produced the
-Diversity of body plans seen in different animal phyla.
+diversity of body plans seen in different animal phyla.
 
 **Modularity in development:** The development of body structures is modular -- different structures
 Develop semi-independently under the control of different genes. This modularity allows one body
@@ -609,17 +621,17 @@ Calmodulin) that regulate beak development, without affecting other body structu
 **Worked Example: The evolution of limb loss in snakes.**
 
 Snakes evolved from four-legged lizard ancestors. The loss of limbs in snakes is associated with
-Changes in the expression of Hox genes that control limb development. Specifically, the expansion of
-The Hox gene expression domain along the body axis during embryonic development prevents limb bud
+changes in the expression of Hox genes that control limb development. Specifically, the expansion of
+the Hox gene expression domain along the body axis during embryonic development prevents limb bud
 Formation in the regions where limbs would normally develop. This is an example of how a change in
-The regulation of existing genes (rather than the evolution of entirely new genes) can produce a
-Major morphological change.
+the regulation of existing genes (rather than the evolution of entirely new genes) can produce a
+major morphological change.
 
 ## Review: Genetic Evidence for Common Ancestry
 
 The universality of the genetic code is among the strongest evidence for common ancestry. In nearly
-All organisms, the same codons specify the same amino acids. For example, AUG codes for methionine
-In bacteria, plants, fungi, and humans. This shared genetic code is most explained by common Descent
+all organisms, the same codons specify the same amino acids. For example, AUG codes for methionine
+in bacteria, plants, fungi, and humans. This shared genetic code is most explained by common Descent
 from a single ancestral organism.
 
 **Shared endogenous retroviruses (ERVs):** ERVs are viral sequences that have been inserted into the
@@ -630,22 +642,22 @@ Far fewer, consistent with the closer evolutionary relationship between humans a
 
 **Shared pseudogenes:** Pseudogenes are non-functional gene copies that have accumulated disabling
 Mutations. The GULO pseudogene, which is involved in vitamin C synthesis, is present in the same
-Location on chromosome 8 in humans, chimpanzees, and orangutans. The specific mutations disabling
-The gene are shared among these species, indicating that the gene was inactivated in their common
+location on chromosome 8 in humans, chimpanzees, and orangutans. The specific mutations disabling
+the gene are shared among these species, indicating that the gene was inactivated in their common
 Ancestor.
 
 **Comparative genomics:** Genome-wide comparisons show that humans share approximately 98.7% of
 Their DNA sequence with chimpanzees, approximately 85% with mice, and approximately 60% with
-Bananas. The degree of sequence similarity correlates with the evolutionary relatedness determined
-By the fossil record and other evidence.
+bananas. The degree of sequence similarity correlates with the evolutionary relatedness determined
+by the fossil record and other evidence.
 
 **Molecular clocks:**
 
 The molecular clock hypothesis proposes that mutations accumulate in DNA at a roughly constant rate
-Over time. By comparing the number of sequence differences between two species in a gene that
-Evolves at a relatively constant rate (such as cytochrome c), researchers can estimate the time
-Since the two species diverged from a common ancestor. This provides an independent method for
-Estimating divergence times that complements the fossil record.
+over time. By comparing the number of sequence differences between two species in a gene that
+evolves at a relatively constant rate (such as cytochrome c), researchers can estimate the time
+since the two species diverged from a common ancestor. This provides an independent method for
+estimating divergence times that complements the fossil record.
 
 **Key assumptions of the molecular clock:**
 
@@ -667,24 +679,26 @@ Estimating divergence times that complements the fossil record.
 If gene X in species A and species B differs by 60 nucleotide substitutions, and the estimated
 Mutation rate for gene X is 2 substitutions per million years, then:
 
-$$\mathrm{Time since divergence = \frac{60}{2 \times 2} = 15 \mathrm{ million years$$
+$$
+\mathrm{Time since divergence = \frac{60}{2 \times 2} = 15 \mathrm{ million years
+$$
 
 The factor of 2 accounts for the fact that substitutions have accumulated along both lineages since
-Divergence.
+divergence.
 
 **Phylogenetic trees from molecular data:**
 
 Molecular data (DNA and protein sequences) are used to construct phylogenetic trees using
 Computational methods such as maximum parsimony, maximum likelihood, and Bayesian inference. These
-Methods analyse the patterns of shared derived characters (synapomorphies) to infer the most likely
+methods analyse the patterns of shared derived characters (synapomorphies) to infer the most likely
 Evolutionary relationships among species. Molecular phylogenies have resolved many relationships
-That were unclear from morphological data alone, such as the division of life into three domains
+that were unclear from morphological data alone, such as the division of life into three domains
 (Bacteria, Archaea, and Eukarya).
 
 **Convergent evolution:**
 
 Convergent evolution occurs when unrelated species independently evolve similar traits as a result
-Of adapting to similar environments or ecological niches. These similarities are analogous
+of adapting to similar environments or ecological niches. These similarities are analogous
 Structures (similar function but different evolutionary origin), not homologous structures (similar
 Origin but possibly different function).
 
@@ -715,7 +729,7 @@ To determine whether similar structures are homologous or analogous, biologists 
 **Speciation and reproductive isolation:**
 
 Speciation occurs when populations of a single species become reproductively isolated and diverge to
-The point where they can no longer produce fertile offspring. Reproductive isolation can be:
+the point where they can no longer produce fertile offspring. Reproductive isolation can be:
 
 - **Pre-zygotic:** Geographic isolation, temporal isolation (different breeding seasons),
   behavioural isolation (different courtship rituals), mechanical isolation (incompatible
@@ -727,8 +741,8 @@ The point where they can no longer produce fertile offspring. Reproductive isola
 **Allopatric speciation example:**
 
 The Kaibab squirrel and Abert's squirrel are found on opposite sides of the Grand Canyon. They
-Descended from a common ancestor but became geographically isolated when the canyon formed. Over
-Millions of years, the two populations accumulated genetic differences. They now differ in coat
+descended from a common ancestor but became geographically isolated when the canyon formed. Over
+millions of years, the two populations accumulated genetic differences. They now differ in coat
 Colour and skull morphology, and are considered separate subspecies (or possibly species).
 
 ## Practice Problems
@@ -739,7 +753,7 @@ Colour and skull morphology, and are considered separate subspecies (or possibly
 In a population, the ABO blood group alleles have the following frequencies: $p(I^A) = 0.3$
 $q(I^B) = 0.1$, $r(i) = 0.6$. Calculate the expected frequency of each blood type (A, B, AB, O)
 Assuming Hardy-Weinberg equilibrium. What percentage of the population can donate blood to a person
-With type O blood?
+with type O blood?
 
 </details>
 
@@ -756,7 +770,7 @@ Expected genotype frequencies:
 Check: $0.45 + 0.13 + 0.06 + 0.36 = 1.00$.
 
 A person with type O blood can only receive type O blood (no A or B antigens). Therefore, only
-Individuals with blood type O (genotype $ii$) can donate to them: 36% of the population.
+individuals with blood type O (genotype $ii$) can donate to them: 36% of the population.
 
 </details>
 
@@ -767,7 +781,7 @@ In a population of beetles, body colour is determined by a single gene with two 
 Dominant) and b (green, recessive). The initial allele frequencies are $p = 0.5$, $q = 0.5$. Brown
 Beetles have a fitness of 0.7 on light-coloured tree bark (they are more visible to predators),
 While green beetles have a fitness of 1.0. Calculate the allele frequencies after one generation of
-Selection.
+selection.
 
 </details>
 
@@ -781,13 +795,15 @@ Initial genotype frequencies: $p^2 = 0.25$$2pq = 0.50$$q^2 = 0.25$.
 Mean fitness: $\bar{w} = (0.25)(0.7) + (0.50)(0.7) + (0.25)(1.0) = 0.175 + 0.35 + 0.25 = 0.775$.
 
 New frequency of B:
-$$p' = \frac{p^2 \cdot w_{BB} + pq \cdot w_{Bb}}{\bar{w}} = \frac{0.25(0.7) + 0.25(0.7)}{0.775} = \frac{0.175 + 0.175}{0.775} = \frac{0.35}{0.775} \approx 0.452$$
+$$
+p' = \frac{p^2 \cdot w_{BB} + pq \cdot w_{Bb}}{\bar{w}} = \frac{0.25(0.7) + 0.25(0.7)}{0.775} = \frac{0.175 + 0.175}{0.775} = \frac{0.35}{0.775} \approx 0.452
+$$
 
 New frequency of b: $$q' = 1 - p' = 1 - 0.452 = 0.548$$
 
 After one generation, the recessive allele $b$ (green, favoured) has increased from 0.5 to 0.548,
-And the dominant allele $B$ (brown, selected against) has decreased from 0.5 to 0.452. This
-Demonstrates directional selection against the brown phenotype.
+and the dominant allele $B$ (brown, selected against) has decreased from 0.5 to 0.452. This
+demonstrates directional selection against the brown phenotype.
 
 </details>
 
@@ -796,7 +812,7 @@ Demonstrates directional selection against the brown phenotype.
 
 Two species of primates have a cytochrome c gene that differs by 8 nucleotide substitutions in a
 300-base-pair region. The known mutation rate for this gene is 1 substitution per 100 base pairs per
-Million years. Estimate the time since these two species diverged from their common ancestor.
+million years. Estimate the time since these two species diverged from their common ancestor.
 
 </details>
 
@@ -804,16 +820,22 @@ Million years. Estimate the time since these two species diverged from their com
 <summary>Answer</summary>
 
 First, calculate the substitution rate per base pair per million years:
-$$\mathrm{Rate = \frac{1 \mathrm{ substitution}{100 \mathrm{ base pairs \times 1 \mathrm{ million years} = 0.01 \mathrm{ substitutions/bp/Myr$$
+$$
+\mathrm{Rate = \frac{1 \mathrm{ substitution}{100 \mathrm{ base pairs \times 1 \mathrm{ million years} = 0.01 \mathrm{ substitutions/bp/Myr
+$$
 
 Total substitutions observed: 8 in 300 base pairs, so the substitution frequency per base pair is:
-$$\frac{8}{300} = 0.0267 \mathrm{ substitutions/bp$$
+$$
+\frac{8}{300} = 0.0267 \mathrm{ substitutions/bp
+$$
 
 Time since divergence (accounting for both lineages):
-$$\mathrm{Time = \frac{0.0267}{2 \times 0.01} = \frac{0.0267}{0.02} = 1.33 \mathrm{ million years$$
+$$
+\mathrm{Time = \frac{0.0267}{2 \times 0.01} = \frac{0.0267}{0.02} = 1.33 \mathrm{ million years
+$$
 
 The factor of 2 accounts for the fact that substitutions have accumulated along both lineages since
-Divergence. The two species diverged approximately 1.33 million years ago.
+divergence. The two species diverged approximately 1.33 million years ago.
 
 </details>
 
@@ -822,7 +844,7 @@ Divergence. The two species diverged approximately 1.33 million years ago.
 
 A mainland population of birds has allele frequencies $p(A) = 0.8$, $q(a) = 0.2$ for a gene
 Controlling beak shape. Five birds colonise a new island. By chance, the founders have the
-Genotypes: $AA$, $Aa$, $Aa$, $aa$, $Aa$. Calculate the allele frequencies in the founder population.
+genotypes: $AA$, $Aa$, $Aa$, $aa$, $Aa$. Calculate the allele frequencies in the founder population.
 Has genetic drift increased or decreased the frequency of allele $a$?
 
 </details>
@@ -842,7 +864,7 @@ New allele frequencies: $p = 5/10 = 0.5$, $q = 5/10 = 0.5$.
 
 Genetic drift has dramatically increased the frequency of allele $a$ from $0.2$ on the mainland to
 $0.5$ on the island. This is an example of the founder effect: the small founding population does
-Not represent the genetic diversity of the source population, and allele frequencies can shift
+not represent the genetic diversity of the source population, and allele frequencies can shift
 Substantially by chance alone.
 
 </details>
@@ -852,7 +874,7 @@ Substantially by chance alone.
 
 Two species of frogs live in the same pond. Species A breeds in March, and species B breeds in June.
 When researchers artificially induce breeding at the same time and perform cross-fertilisation, the
-Hybrid tadpoles develop normally but the adult hybrids are sterile. Classify each reproductive
+hybrid tadpoles develop normally but the adult hybrids are sterile. Classify each reproductive
 Barrier and explain whether these two species are likely to remain distinct.
 
 </details>
@@ -862,7 +884,7 @@ Barrier and explain whether these two species are likely to remain distinct.
 
 The temporal difference in breeding seasons (March vs June) is a **temporal isolation** barrier,
 Which is a prezygotic barrier. It prevents the species from mating in nature because they reproduce
-At different times.
+at different times.
 
 The sterility of adult hybrids is a **reduced hybrid fertility** barrier, which is a postzygotic
 Barrier. Even if fertilisation occurs (as in the artificial experiment), the hybrids cannot produce
@@ -874,16 +896,6 @@ produced (artificially), they cannot contribute genes back to either parent popu
 combination of barriers makes gene flow between the species extremely unlikely.
 
 </details>
-
-```mermaid
-flowchart TD
-    A[5_Natural Selection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

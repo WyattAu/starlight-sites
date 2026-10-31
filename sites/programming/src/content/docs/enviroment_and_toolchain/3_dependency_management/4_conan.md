@@ -35,7 +35,7 @@ When a project requests a dependency (e.g., `fmt/10.1.0`), Conan computes a SHA-
 ID) based on the input configuration:
 
 1. **Settings:** Global project configuration (OS, Arch, Compiler Version, C++ Standard).
-2. **Options:** Package-specific configuration (Shared/Static, `fPIC``with_ssl`).
+2. **Options:** Package-specific configuration (Shared/Static, `fPIC`, `with_ssl`).
 3. **Requirements:** Version of transitive dependencies.
 
 ### Resolution Logic
@@ -57,8 +57,8 @@ $$
 \mathrm{PackageID = \mathrm{SHA1(\mathrm{settings \| \mathrm{options \| \mathrm{requires)
 $$
 
-Where `settings` is a sorted dictionary of `os``arch``compiler``compiler.version`
-`compiler.libcxx``build_type`Etc. The `options` dictionary is package-specific. The `requires` List
+Where `settings` is a sorted dictionary of `os`, `arch`, `compiler`, `compiler.version`
+`compiler.libcxx`, `build_type`. Etc. The `options` dictionary is package-specific. The `requires` List
 captures transitive dependency versions.
 
 **Theorem:** Two machines with identical profiles and identical dependency version constraints will
@@ -67,7 +67,7 @@ Compute the same Package ID.
 **Proof:** SHA-1 is a deterministic function: identical inputs always produce identical outputs. The
 Profile defines the `settings` dictionary. The `conanfile.txt` (or `conanfile.py`) defines the
 `options` and `requires`. If both are identical on two machines, the SHA-1 input is identical, and
-Therefore the output is identical. $\blacksquare$
+therefore the output is identical. $\blacksquare$
 
 **Corollary:** If two machines have the same Package ID for a dependency, they can share the same
 Pre-compiled binary. This is the foundation of Conan's binary caching.
@@ -304,6 +304,8 @@ Executes a five-stage pipeline defined in your `conanfile.py`:
 
 ### The Five Stages of `conan create`
 
+<div class="table-wrap">
+
 | Stage     | Method in `conanfile.py` | Purpose                                                  |
 | :-------- | :----------------------- | :------------------------------------------------------- |
 | `layout`  | `layout()`               | Configure source/build/package folder structure          |
@@ -311,6 +313,8 @@ Executes a five-stage pipeline defined in your `conanfile.py`:
 | `build`   | `build()`                | Compile the library (invoke CMake, Make, etc.)           |
 | `package` | `package()`              | Copy build artifacts (headers, libs) into package folder |
 | `test`    | `test()`                 | Run consumer tests against the built package             |
+
+</div>
 
 ### Complete Recipe Example
 
@@ -385,7 +389,7 @@ The `package_info()` method is critical: it defines what consumers see when they
 `find_package(mylib)`. It specifies:
 
 - **`self.cpp_info.libs`**: Library files to link (without prefix/suffix).
-- **`self.cpp_info.system_libs`**: System libraries (e.g., `pthread``dl``ws2_32`).
+- **`self.cpp_info.system_libs`**: System libraries (e.g., `pthread`, `dl`, `ws2_32`).
 - **`self.cpp_info.defines`**: Preprocessor definitions consumers should inherit.
 - **`self.cpp_info.cxxflags`**: Compiler flags to propagate.
 - **`self.cpp_info.bindirs` / `includedirs`**: Search paths for binaries and headers.
@@ -417,7 +421,9 @@ def package_info(self):
 ### What `CMakeToolchain` Generates
 
 The `CMakeToolchain` generator creates a `conan_toolchain.cmake` file that sets CMake variables
-Before the project's `CMakeLists.txt` is processed. This file configures:
+before the project's `CMakeLists.txt` is processed. This file configures:
+
+<div class="table-wrap">
 
 | CMake Variable                            | Purpose                                       |
 | :---------------------------------------- | :-------------------------------------------- |
@@ -426,6 +432,8 @@ Before the project's `CMakeLists.txt` is processed. This file configures:
 | `CMAKE_POSITION_INDEPENDENT_CODE`         | Set to ON when building shared libraries      |
 | `BUILD_SHARED_LIBS`                       | Controlled by the `*:shared` option           |
 | `CMAKE_PREFIX_PATH`                       | Paths to dependency package folders           |
+
+</div>
 
 ### What `CMakeDeps` Generates
 
@@ -560,6 +568,8 @@ class MyLibConan(ConanFile):
     #     self.tool_requires("cmake/3.28.1")
 ```
 
+<div class="table-wrap">
+
 | Aspect                       | `requires`            | `tool_requires`       |
 | :--------------------------- | :-------------------- | :-------------------- |
 | **Affects Package ID**       | Yes                   | No                    |
@@ -567,6 +577,8 @@ class MyLibConan(ConanFile):
 | **Examples**                 | `fmt``openssl``boost` | `cmake``ninja``meson` |
 | **Binary needed at runtime** | Yes                   | No                    |
 | **Build-time only**          | No                    | Yes                   |
+
+</div>
 
 ---
 
@@ -634,6 +646,8 @@ conan cache path fmt/10.1.1:<package_id_hash>
 Conan 2.x introduced breaking changes designed to simplify the API and improve performance. The
 Following table highlights the key differences.
 
+<div class="table-wrap">
+
 | Feature                | Conan 1.x                            | Conan 2.x                                  |
 | :--------------------- | :----------------------------------- | :----------------------------------------- |
 | **Configuration file** | `conan.conf` in `~/.conan`           | No global config (profile-based)           |
@@ -648,6 +662,8 @@ Following table highlights the key differences.
 | **Cache location**     | `~/.conan/data/`                     | `~/.conan2/cache/`                         |
 | **Python API**         | Many deprecated functions            | Cleaned-up, fewer functions                |
 | **`build_requires`**   | `self.build_requires("cmake/...")`   | `self.tool_requires("cmake/...")`          |
+
+</div>
 
 ### Key Migration Steps
 
@@ -670,6 +686,8 @@ Following table highlights the key differences.
 
 ## Conan vs vcpkg: Architectural Trade-offs
 
+<div class="table-wrap">
+
 | Aspect             | Conan                                              | vcpkg                                           |
 | :----------------- | :------------------------------------------------- | :---------------------------------------------- |
 | **Binary model**   | Binary-first: downloads pre-built binaries         | Source-first: compiles from source by default   |
@@ -679,6 +697,8 @@ Following table highlights the key differences.
 | **Binary caching** | Built-in, per-configuration SHA-1 based            | Binary caching via NuGet feeds or Azure         |
 | **Versioning**     | Semantic version ranges                            | Versions in port manifest                       |
 | **Ecosystem**      | Widely used in embedded, gaming, enterprise        | Microsoft-backed, strong on Windows             |
+
+</div>
 
 Conan's binary-first approach makes it significantly faster for CI pipelines where the same
 Dependency is built repeatedly. Vcpkg's source-first approach guarantees reproducibility (you always
@@ -750,7 +770,7 @@ class HeaderOnlyLibConan(ConanFile):
         self.cpp_info.libdirs = []
 ```
 
-The key technique is `self.info.clear()` in `package_id()`Which tells Conan that all compiler
+The key technique is `self.info.clear()` in `package_id()`. Which tells Conan that all compiler
 Settings produce the same package (since there is no binary). This means only one package is ever
 Cached, regardless of the consumer's profile.
 
@@ -865,17 +885,6 @@ conan install . -r company --build=missing
 - [CPM.cmake](/enviroment_and_toolchain/3_dependency_management/2_cpm/) -- Lightweight source-based alternative
 - [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/) -- Conan's binary caching architecture
 
-
-```mermaid
-flowchart TD
-    A[4_Conan] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to conan, including key principles
@@ -889,13 +898,7 @@ and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -909,4 +912,4 @@ Conan is a decentralized C++ package manager with a large community-maintained r
 - [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - Binary package distribution
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)

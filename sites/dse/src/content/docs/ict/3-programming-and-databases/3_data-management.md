@@ -37,6 +37,8 @@ data Ethics. Database design and SQL are covered in
 
 ### Primitive Data Types
 
+<div class="table-wrap">
+
 | Data Type  | Description                   | Size (typical) | Example Values       |
 | ---------- | ----------------------------- | -------------- | -------------------- |
 | Integer    | Whole numbers                 | 2--8 bytes     | -32768, 0, 42, 32767 |
@@ -46,7 +48,11 @@ data Ethics. Database design and SQL are covered in
 | String     | Sequence of characters        | Variable       | "Hello World"        |
 | Date       | Calendar date                 | 4--8 bytes     | 2026-01-15           |
 
+</div>
+
 ### Composite Data Structures
+
+<div class="table-wrap">
 
 | Structure         | Description                                                 | Example                                 |
 | ----------------- | ----------------------------------------------------------- | --------------------------------------- |
@@ -57,6 +63,8 @@ data Ethics. Database design and SQL are covered in
 | **Stack**         | Last-In-First-Out (LIFO) structure                          | Undo operations, function call stack    |
 | **Queue**         | First-In-First-Out (FIFO) structure                         | Print queue, task scheduling            |
 
+</div>
+
 ### Arrays in Detail
 
 An array stores multiple values of the same data type in contiguous memory locations, accessed by An
@@ -64,17 +72,25 @@ index.
 
 **One-dimensional array:**
 
+<div class="table-wrap">
+
 | Index | 0   | 1   | 2   | 3   | 4   |
 | ----- | --- | --- | --- | --- | --- |
 | Value | 10  | 25  | 30  | 15  | 40  |
 
+</div>
+
 **Two-dimensional array (matrix):**
+
+<div class="table-wrap">
 
 | Row\Col | 0   | 1   | 2   |
 | ------- | --- | --- | --- |
 | 0       | 1   | 2   | 3   |
 | 1       | 4   | 5   | 6   |
 | 2       | 7   | 8   | 9   |
+
+</div>
 
 Access: `matrix[1][2]` returns `6`.
 
@@ -95,6 +111,8 @@ Access: `matrix[1][2]` returns `6`.
 
 A flat-file database stores all data in a single table (file), as a CSV or spreadsheet.
 
+<div class="table-wrap">
+
 | Advantage                | Disadvantage                          |
 | ------------------------ | ------------------------------------- |
 | Simple to set up and use | Data redundancy (duplication)         |
@@ -102,6 +120,8 @@ A flat-file database stores all data in a single table (file), as a CSV or sprea
 | Suitable for small data  | Limited query capabilities            |
 | Low technical overhead   | Poor scalability                      |
 | Portable (single file)   | No multi-user support                 |
+
+</div>
 
 **Example flat-file database (students.csv):**
 
@@ -119,6 +139,8 @@ The student name and class are repeated for each subject -- this is data redunda
 
 A relational database stores data in multiple related tables, linked by primary and foreign keys.
 
+<div class="table-wrap">
+
 | Advantage                    | Disadvantage                         |
 | ---------------------------- | ------------------------------------ |
 | Minimal data redundancy      | More complex to design and set up    |
@@ -127,6 +149,8 @@ A relational database stores data in multiple related tables, linked by primary 
 | Multi-user concurrent access | More expensive infrastructure        |
 | Scalable to large datasets   | Requires a DBMS                      |
 | Data independence            |                                      |
+
+</div>
 
 **Example relational database:**
 
@@ -153,15 +177,21 @@ School
 │   └── Teacher 4
 ```
 
+<div class="table-wrap">
+
 | Advantage                       | Disadvantage                       |
 | ------------------------------- | ---------------------------------- |
 | Intuitive for hierarchical data | Complex many-to-many relationships |
 | Fast navigation (follow tree)   | No standard query language         |
 | Clear parent-child structure    | Deleting a parent deletes children |
 
+</div>
+
 ### Network Database
 
 An extension of the hierarchical model that allows many-to-many relationships through sets.
+
+<div class="table-wrap">
 
 | Advantage              | Disadvantage                  |
 | ---------------------- | ----------------------------- |
@@ -169,7 +199,11 @@ An extension of the hierarchical model that allows many-to-many relationships th
 | Flexible relationships | No universal standard         |
 | Efficient data access  | Difficult to modify structure |
 
+</div>
+
 ### Database Model Comparison
+
+<div class="table-wrap">
 
 | Feature           | Flat File    | Hierarchical | Network      | Relational      |
 | ----------------- | ------------ | ------------ | ------------ | --------------- |
@@ -180,6 +214,8 @@ An extension of the hierarchical model that allows many-to-many relationships th
 | Flexibility       | Low          | Medium       | High         | High            |
 | Design complexity | Very low     | Medium       | High         | Medium          |
 | Modern usage      | Simple lists | File systems | Rare         | Most common     |
+
+</div>
 
 ---
 
@@ -198,6 +234,8 @@ An extension of the hierarchical model that allows many-to-many relationships th
 
 Validation checks that data entered meets specified rules before it is accepted into the system.
 
+<div class="table-wrap">
+
 | Validation Type       | Description                                                  | Example                                  |
 | --------------------- | ------------------------------------------------------------ | ---------------------------------------- |
 | **Presence check**    | Ensures a field is not empty                                 | Name cannot be blank                     |
@@ -209,10 +247,14 @@ Validation checks that data entered meets specified rules before it is accepted 
 | **Consistency check** | Compares two fields to ensure they are logically consistent  | End date must be after start date        |
 | **Limit check**       | A type of range check that sets a maximum value              | Quantity ordered cannot exceed 999       |
 
+</div>
+
 <details>
 <summary>Worked Example: Applying Validation to a Registration Form</summary>
 
 A school registration form collects: Student Name, Date of Birth, Gender, Class, Email, Phone.
+
+<div class="table-wrap">
 
 | Field        | Validation Type   | Rule                                  |
 | ------------ | ----------------- | ------------------------------------- |
@@ -227,17 +269,23 @@ A school registration form collects: Student Name, Date of Birth, Gender, Class,
 | Phone        | Format check      | Must be exactly 8 digits (Hong Kong)  |
 | Phone        | Type check        | Must be numeric                       |
 
+</div>
+
 </details>
 
 ### Verification -- Ensuring Data is Accurate
 
 Verification checks that data entered matches the original source document.
 
+<div class="table-wrap">
+
 | Method           | Description                                                                                 | When Used                                         |
 | ---------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | **Double entry** | Data is entered twice by different operators; system compares the two entries               | Critical data entry (exam marks, medical records) |
 | **Visual check** | The operator visually compares the entered data with the source document                    | General data entry                                |
 | **Check digit**  | A digit calculated from the other digits using a mathematical formula; appended to the data | Product codes (ISBN, HKID), barcodes              |
+
+</div>
 
 <details>
 <summary>Worked Example: Check Digit Calculation</summary>
@@ -249,11 +297,15 @@ The ISBN-13 for a book is `978-1-86197-876-?`. Calculate the check digit.
 1. Take the first 12 digits: `9 7 8 1 8 6 1 9 7 8 7 6`
 2. Multiply odd-position digits by 1 and even-position digits by 3:
 
+<div class="table-wrap">
+
 | Position | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  |
 | -------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Digit    | 9   | 7   | 8   | 1   | 8   | 6   | 1   | 9   | 7   | 8   | 7   | 6   |
 | Weight   | 1   | 3   | 1   | 3   | 1   | 3   | 1   | 3   | 1   | 3   | 1   | 3   |
 | Product  | 9   | 21  | 8   | 3   | 8   | 18  | 1   | 27  | 7   | 24  | 7   | 18  |
+
+</div>
 
 1. Sum: $9 + 21 + 8 + 3 + 8 + 18 + 1 + 27 + 7 + 24 + 7 + 18 = 151$
 2. Check digit = $(10 - (151 \mod 10)) \mod 10 = (10 - 1) \mod 10 = 9$
@@ -266,6 +318,8 @@ To verify: sum all 13 digits with weights. The total should be divisible by 10.
 
 ### Validation vs Verification
 
+<div class="table-wrap">
+
 | Aspect      | Validation                                     | Verification                                    |
 | ----------- | ---------------------------------------------- | ----------------------------------------------- |
 | **Purpose** | Checks data is reasonable                      | Checks data matches the original source         |
@@ -273,6 +327,8 @@ To verify: sum all 13 digits with weights. The total should be divisible by 10.
 | **Method**  | Rules, formats, ranges                         | Double entry, visual check, check digit         |
 | **Catches** | Out-of-range values, wrong types, missing data | Typing errors, transcription errors             |
 | **Example** | Score must be between 0 and 100                | Entering 52 instead of 25 (visual check needed) |
+
+</div>
 
 ---
 
@@ -289,6 +345,8 @@ To verify: sum all 13 digits with weights. The total should be divisible by 10.
 
 ### Threats to Data Security
 
+<div class="table-wrap">
+
 | Threat                  | Description                                                 | Impact                              |
 | ----------------------- | ----------------------------------------------------------- | ----------------------------------- |
 | **Unauthorised access** | Someone gains access to data they should not see            | Privacy breach, data theft          |
@@ -299,7 +357,11 @@ To verify: sum all 13 digits with weights. The total should be divisible by 10.
 | **Physical threats**    | Fire, flood, theft, hardware failure                        | Complete data loss                  |
 | **Human error**         | Accidental deletion, overwriting, misconfiguration          | Data loss, downtime                 |
 
+</div>
+
 ### Security Measures
+
+<div class="table-wrap">
 
 | Measure                | Description                                                        | Protects Against                    |
 | ---------------------- | ------------------------------------------------------------------ | ----------------------------------- |
@@ -312,7 +374,11 @@ To verify: sum all 13 digits with weights. The total should be divisible by 10.
 | **Physical security**  | Locks, security cameras, restricted access to server rooms         | Physical theft, unauthorised access |
 | **User training**      | Educating users on security best practices                         | Phishing, social engineering        |
 
+</div>
+
 ### Access Control Methods
+
+<div class="table-wrap">
 
 | Method                | Description                                              | Security Level |
 | --------------------- | -------------------------------------------------------- | -------------- |
@@ -322,6 +388,8 @@ To verify: sum all 13 digits with weights. The total should be divisible by 10.
 | **Smart card**        | Physical card with embedded chip + PIN                   | High           |
 | **Two-factor (2FA)**  | Combination of two methods (e.g., password + phone code) | Very High      |
 | **Role-based (RBAC)** | Access based on job role (e.g., manager, clerk, viewer)  | Medium-High    |
+
+</div>
 
 ---
 
@@ -339,9 +407,11 @@ To verify: sum all 13 digits with weights. The total should be divisible by 10.
 ### Hong Kong: Personal Data Privacy Ordinance (PDPO)
 
 The PDPO (Cap. 486) is Hong Kong's primary data protection law, enforced by the Office of the
-Privacy Commissioner for Personal Data (PCPD).
+privacy Commissioner for Personal Data (PCPD).
 
 **Six Data Protection Principles (DPPs):**
+
+<div class="table-wrap">
 
 | DPP | Principle              | Key Requirement                                                                           |
 | --- | ---------------------- | ----------------------------------------------------------------------------------------- |
@@ -352,6 +422,8 @@ Privacy Commissioner for Personal Data (PCPD).
 | 5   | Information openness   | Be open about data handling policies and practices                                        |
 | 6   | Access                 | Allow data subjects to access and correct their personal data                             |
 
+</div>
+
 **Key PDPO provisions for DSE exams:**
 
 - Direct marketing requires **opt-in consent** from the data subject.
@@ -361,6 +433,8 @@ Privacy Commissioner for Personal Data (PCPD).
 
 ### General Data Protection Regulation (GDPR) -- EU
 
+<div class="table-wrap">
+
 | Feature          | PDPO (Hong Kong)             | GDPR (EU)                     |
 | ---------------- | ---------------------------- | ----------------------------- |
 | Jurisdiction     | Hong Kong                    | Global (EU residents)         |
@@ -369,6 +443,8 @@ Privacy Commissioner for Personal Data (PCPD).
 | Right to erasure | Not explicit                 | Yes ("right to be forgotten") |
 | Data portability | Not explicit                 | Yes                           |
 | Maximum fine     | HKD 1,000,000 + imprisonment | EUR 20M or 4% global turnover |
+
+</div>
 
 ### Personal Data (Privacy) Ordinance -- Exam Focus
 
@@ -402,6 +478,8 @@ Privacy Commissioner for Personal Data (PCPD).
 
 ### Backup Strategies
 
+<div class="table-wrap">
+
 | Strategy         | Description                                        | Recovery Point                 | Cost     |
 | ---------------- | -------------------------------------------------- | ------------------------------ | -------- |
 | **Full backup**  | Copies all data every time                         | Last backup                    | High     |
@@ -409,9 +487,13 @@ Privacy Commissioner for Personal Data (PCPD).
 | **Differential** | Copies all data changed since the last full backup | Last full + last differential  | Medium   |
 | **Snapshot**     | Point-in-time copy of the entire system state      | Exact point of snapshot        | Variable |
 
+</div>
+
 ### The 3-2-1 Backup Rule
 
 A widely recommended backup strategy:
+
+<div class="table-wrap">
 
 | Rule  | Requirement                                              |
 | ----- | -------------------------------------------------------- |
@@ -419,9 +501,13 @@ A widely recommended backup strategy:
 | **2** | Store the copies on at least **2** different media types |
 | **1** | Keep at least **1** copy offsite (or in the cloud)       |
 
+</div>
+
 Example: Original on SSD + full backup on external HDD + incremental backup to cloud storage.
 
 ### Backup Media
+
+<div class="table-wrap">
 
 | Media             | Capacity     | Speed                | Cost         | Durability                |
 | ----------------- | ------------ | -------------------- | ------------ | ------------------------- |
@@ -431,7 +517,11 @@ Example: Original on SSD + full backup on external HDD + incremental backup to c
 | **Cloud storage** | Unlimited    | Depends on bandwidth | Subscription | Depends on provider       |
 | **Optical disc**  | 25--100 GB   | Slow                 | Low          | High (if stored properly) |
 
+</div>
+
 ### Recovery Procedures
+
+<div class="table-wrap">
 
 | Recovery Scenario       | Procedure                                                    |
 | ----------------------- | ------------------------------------------------------------ |
@@ -440,6 +530,8 @@ Example: Original on SSD + full backup on external HDD + incremental backup to c
 | **Hardware failure**    | Replace hardware, restore from backup                        |
 | **Data corruption**     | Identify point of corruption, restore from last clean backup |
 | **Natural disaster**    | Restore from offsite/cloud backup on new hardware            |
+
+</div>
 
 **Recovery Time Objective (RTO):** The maximum acceptable time to restore the system after a
 failure.
@@ -467,6 +559,8 @@ Traditional data processing methods.
 
 ### The 5 V's of Big Data
 
+<div class="table-wrap">
+
 | V            | Description                                                             | Example                                  |
 | ------------ | ----------------------------------------------------------------------- | ---------------------------------------- |
 | **Volume**   | The sheer scale of data (terabytes to petabytes and beyond)             | Social media generates TBs daily         |
@@ -475,7 +569,11 @@ Traditional data processing methods.
 | **Veracity** | The uncertainty and trustworthiness of the data                         | Inconsistent, incomplete, or biased data |
 | **Value**    | The useful information and insights that can be extracted               | Customer behaviour patterns, trends      |
 
+</div>
+
 ### Sources of Big Data
+
+<div class="table-wrap">
 
 | Source                | Data Type            | Volume      | Example                              |
 | --------------------- | -------------------- | ----------- | ------------------------------------ |
@@ -486,7 +584,11 @@ Traditional data processing methods.
 | **Financial markets** | Time-series          | High        | Stock prices, trading data           |
 | **Government**        | Various              | High        | Census data, tax records, traffic    |
 
+</div>
+
 ### Big Data Processing
+
+<div class="table-wrap">
 
 | Approach               | Description                                                | Example Tools                        |
 | ---------------------- | ---------------------------------------------------------- | ------------------------------------ |
@@ -495,7 +597,11 @@ Traditional data processing methods.
 | **Data mining**        | Discover patterns and relationships in large datasets      | Machine learning algorithms          |
 | **Data visualisation** | Present insights through interactive charts and dashboards | Tableau, Power BI, D3.js             |
 
+</div>
+
 ### Implications of Big Data
+
+<div class="table-wrap">
 
 | Area         | Implication                                                              |
 | ------------ | ------------------------------------------------------------------------ |
@@ -504,6 +610,8 @@ Traditional data processing methods.
 | **Ethics**   | Use of personal data for profiling, discrimination, manipulation         |
 | **Accuracy** | Big data analysis can produce misleading results if data is biased       |
 | **Cost**     | Storage, processing, and skilled personnel are expensive                 |
+
+</div>
 
 ---
 
@@ -520,6 +628,8 @@ Traditional data processing methods.
 
 ### Key Ethical Principles
 
+<div class="table-wrap">
+
 | Principle              | Description                                                             |
 | ---------------------- | ----------------------------------------------------------------------- |
 | **Informed consent**   | Individuals should know what data is collected and how it is used       |
@@ -531,7 +641,11 @@ Traditional data processing methods.
 | **Security**           | Adequate measures must protect data from breaches                       |
 | **Accuracy**           | Data should be kept accurate and up to date                             |
 
+</div>
+
 ### Ethical Issues in Data Use
+
+<div class="table-wrap">
 
 | Issue                | Description                                                         | Example                                     |
 | -------------------- | ------------------------------------------------------------------- | ------------------------------------------- |
@@ -541,6 +655,8 @@ Traditional data processing methods.
 | **Data ownership**   | Who owns the data -- the individual or the platform?                | Social media posts, search history          |
 | **Algorithmic bias** | Automated decisions that systematically disadvantage certain groups | Hiring algorithms, criminal risk assessment |
 | **Consent fatigue**  | Users agree to terms without reading them due to volume             | App terms of service, cookie consent        |
+
+</div>
 
 ### Data Ethics in the Context of Hong Kong
 
@@ -634,6 +750,8 @@ For each field, state an appropriate validation type and the validation rule.
 
 Answer:
 
+<div class="table-wrap">
+
 | Field            | Validation Type   | Rule                                               |
 | ---------------- | ----------------- | -------------------------------------------------- |
 | Guest name       | Presence check    | Cannot be empty                                    |
@@ -649,13 +767,15 @@ Answer:
 | Credit card      | Type check        | Must be numeric                                    |
 | Credit card      | Check digit       | Must pass Luhn algorithm validation                |
 
+</div>
+
 </details>
 
 <details>
 <summary>Question 2: Database Models Comparison</summary>
 
 A school needs to manage student records, including personal details, enrolment in subjects, and
-Term grades.
+term grades.
 
 (a) Explain why a relational database is more suitable than a flat-file database for this purpose.
 
@@ -672,14 +792,14 @@ Subject-term combination, causing data redundancy. (2) If a student's class chan
 Requires updating every row for that student, risking inconsistency. A relational database stores
 the Student details once in a Student table and references them via foreign keys. (3) The relational
 model Supports complex queries (e.g., "find all students who scored above 80 in both Maths and
-English") That would be extremely difficult with a flat file.
+english") That would be extremely difficult with a flat file.
 
 (b) **Advantages over hierarchical:** (1) Relational databases support many-to-many relationships
 (e.g., students to subjects), while hierarchical databases only support one-to-many. (2) Relational
 Databases use SQL for flexible querying; hierarchical databases require navigation through the tree
 Structure. **Disadvantage:** Relational databases are more complex to design, requiring knowledge of
-Normalisation and SQL, while hierarchical databases have a simpler tree structure that is intuitive
-For hierarchical data.
+normalisation and SQL, while hierarchical databases have a simpler tree structure that is intuitive
+for hierarchical data.
 
 (c) **Tables and keys:**
 
@@ -713,7 +833,7 @@ informing members. Analyse whether this violates the PDPO.
 Answer:
 
 (a) **DPP 1 (Purpose and collection):** The fitness centre must inform members at the time of
-Collection that their data will be used for promotional emails. The purpose must be lawful and
+collection that their data will be used for promotional emails. The purpose must be lawful and
 specific. **DPP 3 (Use):** The data should only be used for the stated purpose (promotional emails
 about the Fitness centre's own services). Using it for other purposes requires additional consent.
 **DPP 4 (Security):** The fitness centre must implement appropriate security measures (encryption,
@@ -728,7 +848,7 @@ depends on Whether the data is still needed for the stated purpose. If the membe
 their membership And the data is no longer needed, DPP 2 (retention) suggests it should be deleted.
 
 (c) Yes, this likely violates DPP 1 (purpose and collection) and DPP 3 (use). Members provided their
-Email addresses for the fitness centre's own promotional purposes. Sharing with a third-party
+email addresses for the fitness centre's own promotional purposes. Sharing with a third-party
 Supplement company is a different purpose that was not stated at collection. Under DPP 3, personal
 data Must only be used for the purpose stated at collection or a directly related purpose. Selling
 or sharing Email addresses with an unrelated third party without consent violates this principle.
@@ -806,11 +926,11 @@ revenue By enabling precisely targeted marketing.
 
 (b) **Ethical concern 1: Informed consent and transparency.** Users may not fully understand how
 their Data is being collected, analysed, and used for profiling. Privacy policies are often long and
-Complex, and users may not realise the extent of profiling.
+complex, and users may not realise the extent of profiling.
 
 **Ethical concern 2: Discrimination and manipulation.** Targeted advertising based on detailed
 Profiles can be used to manipulate behaviour (e.g., showing job ads only to certain demographics) or
-Exploit vulnerable users (e.g., targeting gambling ads at individuals with behavioural patterns
+exploit vulnerable users (e.g., targeting gambling ads at individuals with behavioural patterns
 Suggesting addiction).
 
 (c) **Measure 1:** Provide clear, concise privacy notices that explain in plain language what data
@@ -821,17 +941,6 @@ stated Purpose, and allow users to view, correct, and delete their profile data.
 easy-to-use Privacy dashboard.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[3_Data Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -847,9 +956,6 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/data-management.md
 
 ## Intuition
@@ -858,5 +964,3 @@ Data management is the art of keeping information organized, accessible, and sec
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

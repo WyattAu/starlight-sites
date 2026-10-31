@@ -78,8 +78,6 @@ Start with the introductory sections to build foundational knowledge, then progr
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -119,7 +117,7 @@ The trans effect governs the rate of ligand substitution in square planar comple
 - **[Organic Chemistry](../2-organic-chemistry/):** Covers reaction mechanisms and synthesis that complement inorganic coordination chemistry.
 - **[Coordination Chemistry](/3-inorganic-chemistry/coordination-chemistry/):** Detailed notes on transition metal complexes and ligand field theory.
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

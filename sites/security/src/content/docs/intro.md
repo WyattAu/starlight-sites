@@ -18,7 +18,7 @@ description: "Information security is not a feature you bolt on after the fact. 
 ## The Threat Landscape
 
 Information security is not a feature you bolt on after the fact. It is a property of a system that
-Must be designed in from the start, validated continuously, and treated as a first-class engineering
+must be designed in from the start, validated continuously, and treated as a first-class engineering
 Concern alongside reliability, performance, and correctness.
 
 The modern threat landscape is defined by scale and sophistication. Nation-state actors operate with
@@ -47,11 +47,15 @@ Violated.
 
 Every security property ultimately reduces to one or more of:
 
+<div class="table-wrap">
+
 | Property            | Question                                     | Failure Mode                     |
 | ------------------- | -------------------------------------------- | -------------------------------- |
 | **Confidentiality** | Can unauthorized parties read this data?     | Data breach, information leakage |
 | **Integrity**       | Can unauthorized parties modify this data?   | Data tampering, code injection   |
 | **Availability**    | Can authorized parties access this resource? | Denial of service, data deletion |
+
+</div>
 
 Most real-world incidents violate multiple triad elements simultaneously. A ransomware attack
 Compromises confidentiality (data exfiltration before encryption), integrity (file encryption), and
@@ -60,9 +64,9 @@ Availability (system lockout) in a single operation.
 ## Defense in Depth
 
 No single security control is sufficient. Defense in depth layers multiple independent controls so
-That the failure of any one mechanism does not result in total compromise. A web application
+that the failure of any one mechanism does not result in total compromise. A web application
 Protected by WAF, input validation, parameterized queries, and least-privilege database credentials
-Is resilient in ways that an application relying on any single one of those controls is not.
+is resilient in ways that an application relying on any single one of those controls is not.
 
 The key insight is **independence**, controls must fail independently. Two firewalls from the same
 Vendor with the same rule set are not two independent controls.
@@ -74,7 +78,7 @@ Drift, assume attackers have more information than you think, and assume that wh
 Explicitly deny is permitted.
 
 This is adversarial thinking, not paranoia, but disciplined skepticism. The question is not "does
-This work?" but "what happens when this is used in ways I did not intend?"
+this work?" but "what happens when this is used in ways I did not intend?"
 
 ## Scope of This Section
 
@@ -95,18 +99,11 @@ This section covers the core security competencies expected of a systems enginee
 
 :::tip
 Administration. The focus is on understanding how security controls work at the implementation level
-And why they fail when they do.
+and why they fail when they do.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -156,8 +153,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Further Resources
 

@@ -17,17 +17,6 @@ tableOfContents: false
 
 ## Atomic Structure and Atomic Theory, Diagnostic Tests
 
-
-```mermaid
-flowchart TD
-    A[Diag Atomic Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Atomic structure is like Russian nesting dolls, protons and neutrons form the nucleus, surrounded by electron clouds at various energy levels:** Electron configuration determines chemical behavior, the outermost electrons dictate how atoms bond and react
@@ -44,8 +33,8 @@ flowchart TD
 ($Z = 29$). Explain why neither follows the expected aufbau filling order, referring to the relative
 stability of half-filled and fully filled $d$-subshells.
 
-**Solution:** Chromium: expected $[Ar]\, 4s^2\, 3d^4$Actual $[Ar]\, 4s^1\, 3d^5$. Copper: expected
-$[Ar]\, 4s^2\, 3d^9$Actual $[Ar]\, 4s^1\, 3d^{10}$.
+**Solution:** Chromium: expected $[Ar]\, 4s^2\, 3d^4$ Actual $[Ar]\, 4s^1\, 3d^5$. Copper: expected
+$[Ar]\, 4s^2\, 3d^9$ Actual $[Ar]\, 4s^1\, 3d^{10}$.
 
 The $4s$ orbital is filled before $3d$ according to aufbau, but once electrons occupy the $3d$
 subshell, the $3d$ orbital drops in energy below $4s$. A half-filled $d$-subshell ($d^5$) has extra
@@ -73,7 +62,9 @@ configuration. How many electrons maximum can occupy the $n = 3$ shell, and why?
 
 **Solution:** The $2p$ subshell has
 $n = 2$$\ell = 1$$m_\ell \in \{-1, 0, +1\}$$m_s = \pm \tfrac{1}{2}$. With four electrons, applying
-Hund"s rule (maximum multiplicity first):
+Hund's rule (maximum multiplicity first):
+
+<div class="table-wrap">
 
 | Electron | $n$ | $\ell$ | $m_\ell$ | $m_s$           |
 | -------- | --- | ------ | -------- | --------------- |
@@ -81,6 +72,8 @@ Hund"s rule (maximum multiplicity first):
 | 2        | 2   | 1      | 0        | $+\tfrac{1}{2}$ |
 | 3        | 2   | 1      | -1       | $+\tfrac{1}{2}$ |
 | 4        | 2   | 1      | +1       | $-\tfrac{1}{2}$ |
+
+</div>
 
 The $n = 3$ shell has subshells $3s$ ($\ell = 0$2 electrons), $3p$ ($\ell = 1$6 electrons), and $3d$
 ($\ell = 2$10 electrons). Maximum capacity: $2 + 6 + 10 = 18$ electrons.
@@ -105,13 +98,21 @@ percentage abundance of each isotope to three significant figures.
 **Solution:** Let $x$ be the fraction of $^{35}\text{Cl}$. Then $1 - x$ is the fraction of
 $^{37}\text{Cl}$.
 
-$$34.969x + 36.966(1 - x) = 35.453$$
+$$
+34.969x + 36.966(1 - x) = 35.453
+$$
 
-$$34.969x + 36.966 - 36.966x = 35.453$$
+$$
+34.969x + 36.966 - 36.966x = 35.453
+$$
 
-$$-1.997x = 35.453 - 36.966 = -1.513$$
+$$
+-1.997x = 35.453 - 36.966 = -1.513
+$$
 
-$$x = \frac{1.513}{1.997} = 0.7576$$
+$$
+x = \frac{1.513}{1.997} = 0.7576
+$$
 
 $^{35}\text{Cl}$: $75.8\%$$^{37}\text{Cl}$: $24.2\%$.
 
@@ -189,7 +190,7 @@ $\Delta E = \frac{hc \times 0.5 \times 10^{-9}}{(434.0 \times 10^{-9})^2} = \fra
 
 ### IT-3: Electron Configuration and Chemical Properties (with Chemical Bonding)
 
-**Question:** Sodium ($Z = 11$) readily forms $\text{Na}^+$Whereas neon ($Z = 10$) is chemically
+**Question:** Sodium ($Z = 11$) readily forms $\text{Na}^+$ Whereas neon ($Z = 10$) is chemically
 inert. Use electron configuration and ionisation energy data to explain this difference. The first
 three ionisation energies of sodium are $496$$4562$ And $6912\ \text{kJ mol}^{-1}$. What do these
 values reveal about the stability of the $\text{Na}^+$ ion?
@@ -204,7 +205,7 @@ tendency to lose or gain electrons under normal conditions.
 Sodium has a single $3s$ electron outside a filled $[Ne]$ core. This valence electron is far from
 the nucleus and well-shielded by the inner 10 electrons. The first ionisation energy
 ($496\ \text{kJ mol}^{-1}$) is relatively low, so Na readily loses this electron to form
-$\text{Na}^+$Achieving the stable $[Ne]$ configuration.
+$\text{Na}^+$ Achieving the stable $[Ne]$ configuration.
 
 The huge jump between the first ($496$) and second ($4562$) ionisation energies confirms that
 removing the first electron is easy but removing a second electron requires breaking into the stable

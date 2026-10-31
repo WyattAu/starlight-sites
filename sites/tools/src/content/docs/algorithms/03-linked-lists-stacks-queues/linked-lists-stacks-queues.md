@@ -30,7 +30,7 @@ The linked list was first described by Hans Peter Luhn at IBM (1953). The concep
 
 A singly linked list is a sequence of nodes where each node contains a value and a reference to the
 Next node. The list is accessed through a head pointer; traversal requires following pointers from
-The head.
+the head.
 
 ```python
 class ListNode:
@@ -74,7 +74,7 @@ def delete_node(head, val):
 
 :::note
 Position (given a pointer to the preceding node). The critical disadvantage is $O(n)$ random access
-And poor cache locality. In practice, arrays dominate because cache effects matter more than
+and poor cache locality. In practice, arrays dominate because cache effects matter more than
 Theoretical complexity for typical data sizes.
 
 ### Reversal
@@ -109,7 +109,7 @@ def reverse_recursive(head):
     return new_head
 ```
 
-### Cycle Detection (Floyd"s Tortoise and Hare)
+### Cycle Detection (Floyd's Tortoise and Hare)
 
 Floyd's algorithm uses two pointers moving at different speeds. If there is a cycle, the fast
 Pointer will eventually catch up to the slow pointer.
@@ -152,7 +152,7 @@ def find_cycle_start(head):
 **Why this works:** Let $\mu$ be the distance from head to cycle start, and $\lambda$ be the cycle
 Length. When slow and fast meet, slow has travelled $\mu + a\lambda$ steps and fast has travelled
 $\mu + a\lambda + b\lambda$ steps for some non-negative integers $a, b$. Since fast moves twice as
-Fast: $2(\mu + a\lambda) = \mu + a\lambda + b\lambda$Which gives $\mu = (b - a)\lambda$. So the
+Fast: $2(\mu + a\lambda) = \mu + a\lambda + b\lambda$ Which gives $\mu = (b - a)\lambda$. So the
 Distance from the meeting point to the cycle start (going around the cycle) is exactly $\mu$, the
 Same as the distance from head to cycle start.
 
@@ -504,7 +504,7 @@ Minimum (or maximum) priority element. The standard implementation uses a binary
 
 A binary heap is a complete binary tree where every node is less than or equal to its children
 (min-heap) or greater than or equal to its children (max-heap). Stored as an array where for node at
-Index $i$: parent is at $(i-1)/2$Left child is at $2i+1$Right child is at $2i+2$.
+Index $i$: parent is at $(i-1)/2$ Left child is at $2i+1$ Right child is at $2i+2$.
 
 ```python
 class MinHeap:
@@ -571,6 +571,8 @@ class MinHeap:
             self._sift_down(i)
 ```
 
+<div class="table-wrap">
+
 | Operation        | Binary Heap | Sorted Array  | Unsorted Array |
 | ---------------- | ----------- | ------------- | -------------- |
 | Insert           | $O(\log n)$ | $O(n)$        | $O(1)$         |
@@ -578,10 +580,12 @@ class MinHeap:
 | Peek             | $O(1)$      | $O(1)$        | $O(n)$         |
 | Build from array | $O(n)$      | $O(n \log n)$ | $O(1)$         |
 
+</div>
+
 ## Monotonic Stack
 
 A monotonic stack maintains elements in either strictly increasing or strictly decreasing order. It
-Is used to find the next greater/lesser element, previous greater/lesser element, and similar
+is used to find the next greater/lesser element, previous greater/lesser element, and similar
 Patterns.
 
 ### Next Greater Element
@@ -714,7 +718,7 @@ class UnionFind:
 
 ### Time Complexity
 
-The amortised time complexity of both `find` and `union` is $O(\alpha(n))$Where $\alpha$ is the
+The amortised time complexity of both `find` and `union` is $O(\alpha(n))$ Where $\alpha$ is the
 Inverse Ackermann function. For all practical values of $n$ (up to $2^{2^{2^{65536}}}$),
 $\alpha(n) \le 4$. This is effectively constant time.
 
@@ -796,7 +800,7 @@ Extra lines) and the performance difference is enormous for large inputs.
 Python's default recursion limit is 1000. For linked lists with more than 1000 nodes, recursive
 Solutions (recursive reversal, recursive palindrome check) will crash with `RecursionError`. Use
 Iterative solutions for production code, or increase the limit with `sys.setrecursionlimit()` if you
-Are certain the input size is bounded.
+are certain the input size is bounded.
 
 ### 7. Priority Queue Inefficiency for Update Operations
 
@@ -804,16 +808,6 @@ Standard binary heaps do not support efficient decrease-key operations (common i
 Algorithm). The workaround, insert a new entry and ignore stale entries, works but increases the
 Heap size. For algorithms that require frequent decrease-key, a Fibonacci heap provides $O(1)$
 Amortised decrease-key, but has large constant factors and is rarely used in practice.
-
-```mermaid
-flowchart TD
-    A[Linked Lists Stacks Queues] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -827,9 +821,6 @@ theory, practical implementation, and key applications.
 - object-oriented Python
 - decorators and context managers
 - error handling with try/except
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

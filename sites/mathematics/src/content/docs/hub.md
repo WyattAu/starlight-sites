@@ -22,6 +22,16 @@ categories:
 }
 </script>
 
+:::note[New to proof-based mathematics? Start here]
+If your school background is exam-focused, or your exam board did not cover
+proofs, limits from the definition, or set notation, read
+**[Before You Begin: From School to University Mathematics](/before-you-begin/)**
+first. It defines every term the tracks use, proves every rule it states, and is
+written to be skimmed by confident readers: take the self-test at the end, and
+only study the sections whose answers surprise you.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -39,17 +49,6 @@ categories:
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -77,6 +76,27 @@ Work through the Mathematics sections in order, starting with Abstract Algebra a
 - [FAQ](/hub/)
 
 ---
+
+## The Rigour Ladder
+
+Sections are marked so you can see how deep a given page goes. A fresh
+undergraduate should read every F and U on a topic, then the A sections of the
+topics they intend to specialise in.
+
+<div class="table-wrap">
+
+| Mark | Meaning |
+| ---- | ------- |
+| **F** Foundation | Definitions and first examples. Assumed later. |
+| **U** Undergraduate | The standard degree-level treatment, with proofs. |
+| **A** Advanced | Graduate-level: the machinery needed for research. |
+| **R** Research | Open problems, recent results, and where the machinery fails. |
+
+</div>
+
+See [How to Use These Notes](/how-to-use/) for the method behind the notes:
+worked examples before problem solving, retrieval practice, spacing and
+interleaving.
 
 ## Prerequisite Map
 
@@ -109,6 +129,8 @@ Linear Algebra ←────────────────────�
 
 ### Recommended Starting Points
 
+<div class="table-wrap">
+
 | Your Background | Start Here |
 | ---------------- | ------------ |
 | Just finished high school | [Linear Algebra](/2-linear-algebra/), the most broadly applicable subject |
@@ -116,6 +138,8 @@ Linear Algebra ←────────────────────�
 | Interested in algebra | [Abstract Algebra](/1-abstract-algebra/), groups, rings, and fields |
 | Need calculus for physics | [Multivariable Calculus](/4-multivariable-calculus/), practical and immediately useful |
 | Interested in applied maths | [ODEs](/5-ordinary-differential-equations/), the language of dynamical systems |
+
+</div>
 
 ---
 
@@ -251,6 +275,36 @@ Complex analysis studies functions of a complex variable. The central result, di
 
 ---
 
+## Graduate and Research Tier
+
+These modules assume the undergraduate treatment and go further: they are the
+bridge from a completed degree into research-level material. Each one states
+which undergraduate topics it builds on, and the recall prompts at the top of
+each page tell you quickly whether you are ready.
+
+Read [How to Use These Notes](/how-to-use/) first. It explains the method these
+pages are built on -- worked examples before problem solving, retrieval
+practice, spacing, and the rigour ladder.
+
+<div class="table-wrap">
+
+| Module | Subject | Builds on | Tier |
+| ------ | ------- | --------- | ---- |
+| [Spectral Theory of Self-Adjoint Operators](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/) | Functional Analysis | Banach and Hilbert spaces, measure theory, real analysis | A |
+| [Stochastic Calculus: Ito Integration](/14-graduate-stochastic-analysis/1_ito-integration-and-formula/) | Probability | Probability spaces, measure theory, real analysis, functional analysis | R |
+| [Stochastic PDEs and Regularity Structures](/14-graduate-stochastic-analysis/2_stochastic-pdes-and-regularity-structures/) | Stochastic Analysis | Itô integration, measure theory, functional analysis | R |
+| [Posterior Asymptotics and Bernstein-von Mises](/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/) | Statistics | Probability, measure theory, point estimation | R |
+| [Representation Theory of Finite Groups](/15-graduate-representation-theory/1_representation-theory-of-finite-groups/) | Algebra | Group theory, linear algebra | A-R |
+| [Ricci Flow and Geometrisation](/16-graduate-geometry/1_ricci-flow-and-geometrisation/) | Geometry | Riemannian geometry, curvature, geodesics, PDE | R |
+
+</div>
+
+Each module carries recall prompts, counterexamples by name, an interleaving
+problem set that reaches into earlier modules, and a section on where the
+subject's research frontier currently is.
+
+---
+
 ## Number Theory
 
 Number theory studies the properties of integers, divisibility, primes, congruences, and Diophantine equations. It is both one of the oldest branches of mathematics and one with profound modern applications in cryptography and coding theory.
@@ -270,7 +324,8 @@ Probability theory provides the mathematical framework for uncertainty. Starting
 - [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/), marginal and conditional distributions, covariance, and correlation
 - [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/), law of large numbers and central limit theorem
 - [Transformations and Convolutions](/8-probability-and-statistics/5_transformations-and-convolutions/), changing variables and adding random variables
-- [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/), estimation, hypothesis testing, and confidence intervals
+- [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/), the combined probability and statistics reference
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/), maximum likelihood, the Cramer-Rao bound, the Neyman-Pearson lemma, p-values and the standard tests
 
 ---
 
@@ -384,6 +439,8 @@ Mathematics provides the foundations for physics and applied fields:
 
 Proof-based mathematics requires mastery of several proof strategies. Knowing which technique to reach for is the core skill of mathematical reasoning.
 
+<div class="table-wrap">
+
 | Technique | When to Use | Example |
 | ----------- | ------------- | --------- |
 | Direct proof | Implication P ⇒ Q | "If n is even, then n² is even" |
@@ -392,6 +449,8 @@ Proof-based mathematics requires mastery of several proof strategies. Knowing wh
 | Induction | Statement about natural numbers | Σi = n(n+1)/2 |
 | Construction | Existence proof | "There exist infinitely many primes" |
 | Case analysis | Statement splits into cases | "Every integer is even or odd" |
+
+</div>
 
 ### Tips for Writing Proofs
 

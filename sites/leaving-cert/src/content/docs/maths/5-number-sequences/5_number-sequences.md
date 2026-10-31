@@ -23,11 +23,13 @@ categories:
 ## Number Sets and Sequences
 
 This topic covers number systems, set theory, sequences, series, and financial mathematics. These
-Concepts underpin much of the algebra and calculus in the Leaving Certificate course.
+concepts underpin much of the algebra and calculus in the Leaving Certificate course.
 
 ## Number Systems
 
 ### Classification (OL/HL)
+
+<div class="table-wrap">
 
 | Symbol       | Name             | Description                                                                  |
 | ------------ | ---------------- | ---------------------------------------------------------------------------- |
@@ -36,6 +38,8 @@ Concepts underpin much of the algebra and calculus in the Leaving Certificate co
 | $\mathbb{Q}$ | Rational numbers | Numbers expressible as $\frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$ |
 | $\mathbb{R}$ | Real numbers     | All rational and irrational numbers                                          |
 | $\mathbb{C}$ | Complex numbers  | Numbers of the form $a + bi$ where $a, b \in \mathbb{R}$                     |
+
+</div>
 
 The inclusions are:
 $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}$.
@@ -54,10 +58,10 @@ The real numbers satisfy the following axioms:
 
 **Identity elements:** $a + 0 = a$ and $a \cdot 1 = a$.
 
-**Inverse elements:** For every $a$There exists $-a$ such that $a + (-a) = 0$. For every
-$a \neq 0$There exists $a^{-1}$ such that $a \cdot a^{-1} = 1$.
+**Inverse elements:** For every $a$ There exists $-a$ such that $a + (-a) = 0$. For every
+$a \neq 0$ There exists $a^{-1}$ such that $a \cdot a^{-1} = 1$.
 
-**Ordered field properties:** For any $a, b \in \mathbb{R}$Exactly one of $a \lt b$, $a = b$
+**Ordered field properties:** For any $a, b \in \mathbb{R}$ Exactly one of $a \lt b$, $a = b$
 $a \gt b$ holds. The order is compatible with addition and multiplication by positive numbers.
 
 ### Irrational Numbers (HL)
@@ -78,24 +82,24 @@ irrational.
 **Example:** Prove that $\sqrt{2} + \sqrt{3}$ is irrational.
 
 Assume $\sqrt{2} + \sqrt{3} = r$ where $r \in \mathbb{Q}$. Then $\sqrt{3} = r - \sqrt{2}$ So
-$3 = r^2 - 2r\sqrt{2} + 2$Giving:
+$3 = r^2 - 2r\sqrt{2} + 2$ Giving:
 
 $$
 2r\sqrt{2} = r^2 - 1 \implies \sqrt{2} = \frac{r^2 - 1}{2r}
 $$
 
-Since $r \in \mathbb{Q}$, $\frac{r^2 - 1}{2r} \in \mathbb{Q}$Contradicting the irrationality of
+Since $r \in \mathbb{Q}$, $\frac{r^2 - 1}{2r} \in \mathbb{Q}$ Contradicting the irrationality of
 $\sqrt{2}$.
 
 **Example:** Prove that $\sqrt{2} \cdot \sqrt{3} = \sqrt{6}$ is irrational.
 
 Assume $\sqrt{6} = \frac{p}{q}$ in lowest terms. Then $p^2 = 6q^2$ So $p$ is even. Let $p = 2k$. Then
-$4k^2 = 6q^2$Giving $2k^2 = 3q^2$ So $q$ is even. Contradiction.
+$4k^2 = 6q^2$ Giving $2k^2 = 3q^2$ So $q$ is even. Contradiction.
 
 **Example (HL):** Prove that $\sqrt{2} + \sqrt{5}$ is irrational.
 
 Assume $\sqrt{2} + \sqrt{5} = r \in \mathbb{Q}$. Then $\sqrt{5} = r - \sqrt{2}$ So
-$5 = r^2 - 2r\sqrt{2} + 2$Giving:
+$5 = r^2 - 2r\sqrt{2} + 2$ Giving:
 
 $$
 2r\sqrt{2} = r^2 - 3 \implies \sqrt{2} = \frac{r^2 - 3}{2r} \in \mathbb{Q}
@@ -105,7 +109,7 @@ This contradicts the irrationality of $\sqrt{2}$.
 
 **Example (HL):** Prove that $\log_2 3$ is irrational.
 
-Assume $\log_2 3 = \frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$In lowest terms. Then
+Assume $\log_2 3 = \frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$ In lowest terms. Then
 $2^{p/q} = 3$ So $2^p = 3^q$.
 
 The left side is even (since $p \ge 1$) but the right side is odd. Contradiction.
@@ -118,25 +122,29 @@ $\sin x$ and the assumption that $\pi = a/b$ is rational.
 
 ### Density of $\mathbb{Q}$ in $\mathbb{R}$ (HL - awareness)
 
-Between any two real numbers $a \lt b$There exists a rational number. This is a consequence of the
-Archimedean property: since $b - a > 0$There exists a positive integer $n$ such that $n(b-a) > 1$
-I.e., $nb - na > 1$. Then there exists an integer $m$ with $na \lt m \lt nb$Giving
+Between any two real numbers $a \lt b$ There exists a rational number. This is a consequence of the
+Archimedean property: since $b - a > 0$ There exists a positive integer $n$ such that $n(b-a) > 1$
+I.e., $nb - na > 1$. Then there exists an integer $m$ with $na \lt m \lt nb$ Giving
 $a \lt m/n \lt b$.
 
 ## Set Theory
 
 ### Notation (OL/HL)
 
+<div class="table-wrap">
+
 | Symbol            | Meaning                                        |
-| ----------------- | ---------------------------------------------- | --- | ------------------ |
+| ----------------- | ---------------------------------------------- |
 | $\in$             | Is an element of                               |
 | $\subset$         | Is a subset of                                 |
 | $\cup$            | Union                                          |
 | $\cap$            | Intersection                                   |
 | $A"$ or $\bar{A}$ | Complement of $A$                              |
 | $\emptyset$       | Empty set                                      |
-| $                 | A                                              | $   | Cardinality of $A$ |
+| $                 \| A                                              \| $   | Cardinality of $A$ |
 | $A \setminus B$   | $A$ minus $B$ (elements in $A$ but not in $B$) |
+
+</div>
 
 **Subset vs. Proper subset.** $A \subset B$ allows $A = B$. $A \subsetneq B$ requires $A \neq B$.
 
@@ -157,7 +165,7 @@ Neither: $30 - 25 = 5$.
 
 **Example (HL):** In a survey of 100 people, 60 like tea, 45 like coffee, 35 like juice, 20 like
 Both tea and coffee, 15 like both tea and juice, 10 like both coffee and juice, and 5 like all
-Three. How many like none of the three?
+three. How many like none of the three?
 
 By inclusion-exclusion for three sets:
 
@@ -197,7 +205,7 @@ $x \in (A \cap B)' \iff x \notin A \cap B \iff x \notin A \mathrm{ or  x \notin 
 
 **Proof of the inclusion-exclusion principle for two sets.** Every element of $A \cup B$ is in $A$
 Or in $B$ or in both. Counting elements of $A$ and $B$ separately double-counts those in $A \cap B$
-So we subtract $|A \cap B|$ to correct:
+so we subtract $|A \cap B|$ to correct:
 
 $$
 |A \cup B| = |A| + |B| - |A \cap B|
@@ -255,7 +263,7 @@ Subtracting: $7d = 21$ So $d = 3$. Then $a = 17 - 12 = 5$.
 ### Arithmetic Mean (HL)
 
 The arithmetic mean of two numbers $a$ and $b$ is $\frac{a+b}{2}$. In an arithmetic sequence, each
-Term is the arithmetic mean of its neighbours:
+term is the arithmetic mean of its neighbours:
 
 $$
 T_n = \frac{T_{n-1} + T_{n+1}}{2}
@@ -281,7 +289,7 @@ $$
 
 $rS_n = ar + ar^2 + \cdots + ar^{n-1} + ar^n$
 
-Subtracting: $S_n - rS_n = a - ar^n$ So $S_n(1-r) = a(1 - r^n)$Giving
+Subtracting: $S_n - rS_n = a - ar^n$ So $S_n(1-r) = a(1 - r^n)$ Giving
 $S_n = \frac{a(1-r^n)}{1-r} = \frac{a(r^n-1)}{r-1}$.
 
 **Example (OL):** Find the sum of the first 8 terms of 2, 6, 18, 54, ...
@@ -295,7 +303,7 @@ $$
 ### Geometric Mean (HL)
 
 The geometric mean of two positive numbers $a$ and $b$ is $\sqrt{ab}$. In a geometric sequence, each
-Term is the geometric mean of its neighbours (when all terms are positive):
+term is the geometric mean of its neighbours (when all terms are positive):
 
 $$
 T_n = \sqrt{T_{n-1} \cdot T_{n+1}}
@@ -309,8 +317,8 @@ $$
 
 With equality if and only if $a = b$.
 
-**Proof.** Since $(\sqrt{a} - \sqrt{b})^2 \geq 0$We have $a - 2\sqrt{ab} + b \geq 0$ So
-$a + b \geq 2\sqrt{ab}$Giving $\frac{a+b}{2} \geq \sqrt{ab}$.
+**Proof.** Since $(\sqrt{a} - \sqrt{b})^2 \geq 0$ We have $a - 2\sqrt{ab} + b \geq 0$ So
+$a + b \geq 2\sqrt{ab}$ Giving $\frac{a+b}{2} \geq \sqrt{ab}$.
 
 ### Sum to Infinity (HL)
 
@@ -589,8 +597,8 @@ The general solution is $T_n = L + (T_1 - L)a^{n-1}$.
 
 **Why this works.** Let $U_n = T_n - L$. Then
 $U_{n+1} = T_{n+1} - L = aT_n + b - L = aT_n + b - \frac{b}{1-a} = aT_n + \frac{b - b + ab}{1-a} = aT_n + \frac{ab}{1-a}$.
-Since $L = \frac{b}{1-a}$We have $aL = \frac{ab}{1-a}$ So $U_{n+1} = aT_n - aL = aU_n$. This is a
-Geometric sequence with ratio $a$.
+Since $L = \frac{b}{1-a}$ We have $aL = \frac{ab}{1-a}$ So $U_{n+1} = aT_n - aL = aU_n$. This is a
+geometric sequence with ratio $a$.
 
 **Example:** Solve $T_1 = 3$, $T_{n+1} = 2T_n + 5$.
 
@@ -608,13 +616,13 @@ $$
 T_n = 1 + (1 - 1) \cdot 4^{n-1} = 1
 $$
 
-Indeed: $T_2 = 4(1) - 3 = 1$, $T_3 = 4(1) - 3 = 1$Etc. The sequence is constant at 1, which is the
-Fixed point.
+Indeed: $T_2 = 4(1) - 3 = 1$, $T_3 = 4(1) - 3 = 1$ Etc. The sequence is constant at 1, which is the
+fixed point.
 
 ### Second Order Recurrence Relations (HL - awareness)
 
 A second-order linear recurrence $T_{n+2} = aT_{n+1} + bT_n$ with constant coefficients is solved by
-Finding the roots of the characteristic equation $\lambda^2 - a\lambda - b = 0$.
+finding the roots of the characteristic equation $\lambda^2 - a\lambda - b = 0$.
 
 **Example:** The Fibonacci sequence $F_1 = 1$$F_2 = 1$$F_{n+2} = F_{n+1} + F_n$.
 
@@ -644,13 +652,13 @@ See the examples integrated throughout the sections above.
 
 ## Common Pitfalls
 
-1. **Mixing up arithmetic and geometric** formulas -- arithmetic has $d$Geometric has $r$. Remember:
+1. **Mixing up arithmetic and geometric** formulas -- arithmetic has $d$ Geometric has $r$. Remember:
    arithmetic adds, geometric multiplies.
-2. **Sum to infinity** only converges when $|r| \lt 1$. If $|r| \ge 1$The sum diverges.
+2. **Sum to infinity** only converges when $|r| \lt 1$. If $|r| \ge 1$ The sum diverges.
 3. **Financial mathematics** -- ensure the rate and time period match (e.g., annual rate with annual
    compounding, or monthly rate with monthly compounding).
 4. **Limits** -- always divide by the highest power of $n$ in both numerator and denominator.
-5. **Sigma notation** -- be careful with the lower and upper limits. $\sum_{r=1}^{n} 1 = n$Not $1$.
+5. **Sigma notation** -- be careful with the lower and upper limits. $\sum_{r=1}^{n} 1 = n$ Not $1$.
 6. **Set notation** -- do not confuse $\subset$ (subset) with $\in$ (element of).
 7. **Proof by contradiction** -- always state the assumption, derive a contradiction, and state what
    this proves.
@@ -714,7 +722,7 @@ See the examples integrated throughout the sections above.
 7. Prove that there are infinitely many prime numbers (Euclid's proof).
 8. EUR 10000 is invested at $r\%$ per annum compounded annually. After 10 years it is worth
     EUR 18000. Find $r$.
-9. The sum of the first $n$ terms of an arithmetic sequence is $S_n = 3n^2 + n$. Find the $n$Th
+9. The sum of the first $n$ terms of an arithmetic sequence is $S_n = 3n^2 + n$. Find the $n$ Th
     term $T_n$ and the common difference.
 10. Prove that $\frac{1}{\sqrt{2}}$ is irrational.
 
@@ -722,7 +730,7 @@ See the examples integrated throughout the sections above.
 
 #### Sum of an Arithmetic Series from $S_n$
 
-Given the sum formula $S_n = \frac{n}{2}[2a + (n-1)d]$We can find the $n$Th term from the sum:
+Given the sum formula $S_n = \frac{n}{2}[2a + (n-1)d]$ We can find the $n$ Th term from the sum:
 
 $$
 T_n = S_n - S_{n-1} = \frac{n}{2}[2a + (n-1)d] - \frac{n-1}{2}[2a + (n-2)d]
@@ -736,12 +744,12 @@ $$
 = \frac{1}{2}\left[2a + (n-1)d(2)\right] = a + (n-1)d
 $$
 
-This confirms that the $n$Th term can always be recovered from the sum.
+This confirms that the $n$ Th term can always be recovered from the sum.
 
 #### Geometric Series Derivation (Alternative)
 
 An alternative derivation of $S_n = \frac{a(1-r^n)}{1-r}$ uses the formula for the sum of a
-Geometric progression by recognising:
+geometric progression by recognising:
 
 $$
 (1-r)S_n = (1-r)(a + ar + ar^2 + \cdots + ar^{n-1})
@@ -779,17 +787,6 @@ $$
 
 This is an arithmetic sequence with first term $T_1 = 6(1) - 2 = 4$ and common difference $d = 6$.
 
-
-```mermaid
-flowchart TD
-    A[5_Number Sequences] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to number sets and sequences,
@@ -802,9 +799,6 @@ including key theorems, methods, and problem-solving approaches.
 - recurrence relations
 - convergence tests
 - mathematical induction
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 ## See Also
 

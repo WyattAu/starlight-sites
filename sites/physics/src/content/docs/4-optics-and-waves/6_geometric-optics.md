@@ -22,35 +22,45 @@ description: "The angle of incidence equals the angle of reflection: (both measu
 **Law of Reflection:** The angle of incidence equals the angle of reflection: $\theta_i = \theta_r$
 (both measured from the normal).
 
-**Snell"s Law:** $n_1 \sin\theta_1 = n_2 \sin\theta_2$.
+**Snell's Law:** $n_1 \sin\theta_1 = n_2 \sin\theta_2$.
 
 **Derivation of Snell's law from Fermat’s principle.** The optical path length from point $A$ in
 Medium 1 to point $B$ in medium 2 via a point on the interface at $x$ is:
 
-$$\Lambda(x) = n_1\sqrt{a^2 + x^2} + n_2\sqrt{b^2 + (d - x)^2}$$
+$$
+\Lambda(x) = n_1\sqrt{a^2 + x^2} + n_2\sqrt{b^2 + (d - x)^2}
+$$
 
 Setting $d\Lambda/dx = 0$:
 
-$$n_1 \frac{x}{\sqrt{a^2 + x^2}} = n_2 \frac{d - x}{\sqrt{b^2 + (d-x)^2}}$$
+$$
+n_1 \frac{x}{\sqrt{a^2 + x^2}} = n_2 \frac{d - x}{\sqrt{b^2 + (d-x)^2}}
+$$
 
 Which gives $n_1 \sin\theta_1 = n_2 \sin\theta_2$. $\blacksquare$
 
 ### 6.2 Total Internal Reflection
 
 When light travels from a denser to a rarer medium ($n_1 \gt n_2$), total internal reflection occurs
-When $\theta_1 \geq \theta_c$ where:
+when $\theta_1 \geq \theta_c$ where:
 
-$$\sin\theta_c = \frac{n_2}{n_1}$$
+$$
+\sin\theta_c = \frac{n_2}{n_1}
+$$
 
 **Evanescent wave.** Beyond the critical angle, the transmitted field decays exponentially:
 
-$$E_t \propto e^{-\kappa x}$$
+$$
+E_t \propto e^{-\kappa x}
+$$
 
 Where $\kappa = \frac{2\pi}{\lambda}\sqrt{n_1^2 \sin^2\theta_1 - n_2^2}$.
 
 ### 6.3 The Thin Lens Equation
 
-$$\frac{1}{s} + \frac{1}{s'} = \frac{1}{f}$$
+$$
+\frac{1}{s} + \frac{1}{s'} = \frac{1}{f}
+$$
 
 Where $s$ is the object distance, $s'$ is the image distance, and $f$ is the focal length.
 
@@ -59,7 +69,9 @@ $f \gt 0$ For converging lenses, $f \lt 0$ for diverging.
 
 **Magnification:**
 
-$$M = -\frac{s'}{s}$$
+$$
+M = -\frac{s'}{s}
+$$
 
 Negative $M$ indicates an inverted image.
 
@@ -67,7 +79,9 @@ Negative $M$ indicates an inverted image.
 
 For a thin lens with radii of curvature $R_1$ and $R_2$:
 
-$$\frac{1}{f} = (n - 1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right)$$
+$$
+\frac{1}{f} = (n - 1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right)
+$$
 
 ### 6.5 Matrix Optics (Ray Transfer Matrix)
 
@@ -76,11 +90,15 @@ Height and $\theta$ is the angle with the optical axis.
 
 **Free space propagation** by distance $d$:
 
-$$M_{\mathrm{prop} = \begin{pmatrix} 1 & d \\ 0 & 1 \end{pmatrix}}$$
+$$
+M_{\mathrm{prop} = \begin{pmatrix} 1 & d \\ 0 & 1 \end{pmatrix}}
+$$
 
 **Thin lens** of focal length $f$:
 
-$$M_{\mathrm{lens} = \begin{pmatrix} 1 & 0 \\ -1/f & 1 \end{pmatrix}}$$
+$$
+M_{\mathrm{lens} = \begin{pmatrix} 1 & 0 \\ -1/f & 1 \end{pmatrix}}
+$$
 
 **System matrix:** The overall transformation is the product of individual matrices (applied in
 Reverse order): $M_{\mathrm{sys} = M_n \cdots M_2 M_1}$.
@@ -89,7 +107,9 @@ Reverse order): $M_{\mathrm{sys} = M_n \cdots M_2 M_1}$.
 
 For a spherical mirror of radius $R$ (with $R \gt 0$ for concave, $R \lt 0$ for convex):
 
-$$\frac{1}{s} + \frac{1}{s'} = \frac{2}{R}$$
+$$
+\frac{1}{s} + \frac{1}{s'} = \frac{2}{R}
+$$
 
 The focal length is $f = R/2$. The magnification is $M = -s'/s$ (negative for inverted images).
 
@@ -97,7 +117,9 @@ The focal length is $f = R/2$. The magnification is $M = -s'/s$ (negative for in
 At height $y$ reflects such that $\theta_i = \theta_r$. In the paraxial approximation ($y \ll R$),
 Applying the law of reflection and the small-angle approximation $\sin\theta \approx \theta$:
 
-$$\frac{h}{s} + \frac{h'}{s'} = \frac{2y}{R}$$
+$$
+\frac{h}{s} + \frac{h'}{s'} = \frac{2y}{R}
+$$
 
 Dividing through by $y$ and using $h/s = y/s$, $h'/s' = y/s'$ (paraxial rays) yields the mirror
 Equation. $\blacksquare$
@@ -123,18 +145,24 @@ Image height: $h' = Mh = -4.0 \times 2.0 = -8.0$ cm (inverted, magnified by 4$\t
 
 **Magnifying glass.** Angular magnification when the image is at the near point $D$:
 
-$$M = 1 + \frac{D}{f}$$
+$$
+M = 1 + \frac{D}{f}
+$$
 
 **Compound microscope.** Total magnification:
 
-$$M_{\mathrm{total} = -\frac{L}{f_o} \cdot \frac{D}{f_e}}$$
+$$
+M_{\mathrm{total} = -\frac{L}{f_o} \cdot \frac{D}{f_e}}
+$$
 
 Where $L$ is the tube length, $f_o$ is the objective focal length, and $f_e$ is the eyepiece focal
 Length.
 
 **Refracting telescope.** Angular magnification:
 
-$$M = -\frac{f_o}{f_e}$$
+$$
+M = -\frac{f_o}{f_e}
+$$
 
 For large magnification, the objective should have a long focal length and the eyepiece a short one.
 The length of the telescope tube is approximately $f_o + f_e$.
@@ -168,17 +196,6 @@ The negative sign indicates the image is inverted.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-```mermaid
-flowchart TD
-    A[6_Geometric Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Geometric optics treats light as rays that travel in straight lines and bend when they cross between materials. Snell's law is nature minimizing travel time: light bends at an interface because it travels at different speeds in different media, just as a lifeguard running on sand and swimming in water takes a path that minimizes total rescue time. Total internal reflection is like a one-way mirror: light coming from the dense side at a shallow enough angle cannot escape and bounces back perfectly, which is how fiber optic cables trap and guide light over kilometers. A lens is like a carefully shaped hill that redirects rays to converge at a focal point. The thin lens equation is directly counting how much bending each surface contributes. Mirrors work the same way but with reflection instead of refraction.
@@ -194,23 +211,3 @@ A real image is formed by converging rays and can be projected onto a screen. A 
 **Mistake 3: Misidentifying the direction of total internal reflection**
 Total internal reflection occurs only when light travels from a denser medium to a rarer medium ($n_1 > n_2$) at an angle greater than the critical angle. It does not occur in the opposite direction. Students sometimes apply the critical angle formula regardless of the direction of propagation, which gives incorrect results.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

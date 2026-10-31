@@ -119,11 +119,15 @@ $2^{16} = 65536$ bytes = 64 KB.
 
 **Bus comparison:**
 
+<div class="table-wrap">
+
 | Bus         | Direction      | Carries                                         |
 | ----------- | -------------- | ----------------------------------------------- |
 | Address bus | CPU to memory  | Memory addresses                                |
 | Data bus    | CPU to/from    | Data and instructions                           |
 | Control bus | CPU to devices | Control signals (read, write, clock, interrupt) |
+
+</div>
 
 ## Performance (OL/HL)
 
@@ -188,6 +192,8 @@ Data simultaneously. This limits throughput.
 
 ### Types of Memory
 
+<div class="table-wrap">
+
 | Memory           | Volatile? | Speed     | Use                    |
 | ---------------- | --------- | --------- | ---------------------- |
 | Registers        | Yes       | Fastest   | CPU operations         |
@@ -196,9 +202,13 @@ Data simultaneously. This limits throughput.
 | Hard Drive (HDD) | No        | Slow      | Long-term storage      |
 | SSD              | No        | Moderate  | Fast long-term storage |
 
+</div>
+
 **Volatile:** data is lost when power is off. **Non-volatile:** data persists when power is off.
 
 ### RAM vs ROM (OL/HL)
+
+<div class="table-wrap">
 
 | Feature    | RAM            | ROM                           |
 | ---------- | -------------- | ----------------------------- |
@@ -209,13 +219,15 @@ Data simultaneously. This limits throughput.
 | Speed      | Fast           | Fast                          |
 | Cost       | Higher per MB  | Lower per MB                  |
 
+</div>
+
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** Contains the BIOS/UEFI, which is the first code the CPU executes when
 The computer is powered on. The BIOS initialises hardware and loads the operating system from disk
-Into RAM. ROM is non-volatile so the computer can always start up.
+into RAM. ROM is non-volatile so the computer can always start up.
 
 **DRAM vs SRAM (HL):**
 
@@ -223,6 +235,8 @@ Into RAM. ROM is non-volatile so the computer can always start up.
   thousands of times per second. Cheaper, higher density.
 - **SRAM:** Used for CPU cache. Stores each bit in a flip-flop (transistor circuit). No refreshing
   needed. Faster but more expensive and lower density.
+
+<div class="table-wrap">
 
 | Feature  | DRAM              | SRAM                 |
 | -------- | ----------------- | -------------------- |
@@ -232,6 +246,8 @@ Into RAM. ROM is non-volatile so the computer can always start up.
 | Density  | Higher            | Lower                |
 | Refresh  | Required          | Not required         |
 | Power    | Less (when idle)  | More                 |
+
+</div>
 
 ### Virtual Memory (HL)
 
@@ -247,13 +263,13 @@ Solution is to close programs or add more RAM.
 **Worked Example (HL).** A computer has 4 GB RAM. Programs require 7 GB total. Explain what happens.
 
 The OS uses 3 GB of virtual memory on the SSD. When a program accesses data in virtual memory, a
-Page fault occurs, causing a delay of milliseconds (vs nanoseconds for RAM). The system may thrash
-If too many programs are running.
+page fault occurs, causing a delay of milliseconds (vs nanoseconds for RAM). The system may thrash
+if too many programs are running.
 
 **Worked Example (HL).** A computer has 8 GB of RAM and runs programs that require 12 GB total. The
 Operating system allocates 8 GB to RAM and uses 4 GB of virtual memory on the SSD. When a program
 Accesses data in virtual memory, a page fault occurs and the OS swaps the required page from the SSD
-Into RAM, potentially moving a less-used page from RAM to the SSD.
+into RAM, potentially moving a less-used page from RAM to the SSD.
 
 ### Cache Memory (HL)
 
@@ -275,13 +291,19 @@ Average = $0.95 \times 2 + 0.05 \times 80 = 1.9 + 4.0 = 5.9$ ns.
 
 **Cache levels:**
 
+<div class="table-wrap">
+
 | Level | Location            | Size                   | Speed             |
 | ----- | ------------------- | ---------------------- | ----------------- |
 | L1    | Inside CPU core     | Smallest (few KB)      | Fastest           |
 | L2    | Inside CPU          | Larger (256 KB - 1 MB) | Fast              |
 | L3    | Shared across cores | Largest (up to 64 MB)  | Slower than L1/L2 |
 
+</div>
+
 ### Memory Hierarchy Summary (HL)
+
+<div class="table-wrap">
 
 | Level     | Speed     | Capacity | Cost    | Volatile? |
 | --------- | --------- | -------- | ------- | --------- |
@@ -290,6 +312,8 @@ Average = $0.95 \times 2 + 0.05 \times 80 = 1.9 + 4.0 = 5.9$ ns.
 | RAM       | Fast      | Medium   | Medium  | Yes       |
 | SSD       | Moderate  | Large    | Medium  | No        |
 | HDD       | Slow      | Largest  | Lowest  | No        |
+
+</div>
 
 **Why the hierarchy exists.** Faster memory is more expensive per byte. The hierarchy exploits
 Locality of reference. By keeping the most frequently used data in small, fast memory near the CPU,
@@ -308,7 +332,7 @@ The average access time is dramatically reduced compared to using only RAM.
 ### I/O Controllers
 
 I/O devices are connected to the CPU through I/O controllers, which manage data transfer between the
-Device and the CPU/memory.
+device and the CPU/memory.
 
 ### Interrupts (HL)
 
@@ -327,6 +351,8 @@ Restores the saved state, and resumes the calculation. The user does not notice 
 
 **Types of interrupts:**
 
+<div class="table-wrap">
+
 | Type         | Source                    | Priority | Example              |
 | ------------ | ------------------------- | -------- | -------------------- |
 | Hardware     | Hardware devices          | High     | Disk I/O complete    |
@@ -334,9 +360,13 @@ Restores the saved state, and resumes the calculation. The user does not notice 
 | Timer        | System clock              | Variable | Scheduler time slice |
 | Non-maskable | Critical hardware failure | Highest  | Memory parity error  |
 
+</div>
+
 ### Secondary Storage
 
 **HDD vs SSD:**
+
+<div class="table-wrap">
 
 | Metric      | HDD              | SSD             |
 | ----------- | ---------------- | --------------- |
@@ -347,6 +377,8 @@ Restores the saved state, and resumes the calculation. The user does not notice 
 | Cost per GB | Low              | Higher          |
 | Durability  | Mechanical parts | No moving parts |
 | Power usage | Higher           | Lower           |
+
+</div>
 
 **Choosing storage:** A photographer needs high capacity (HDD or cloud). A video editor needs speed
 (SSD). A student needs portability (USB flash drive).
@@ -379,6 +411,8 @@ Reading remainders upward: $11001_2$.
 
 Base 16. Digits: 0--9, A--F.
 
+<div class="table-wrap">
+
 | Hex | Binary | Decimal |
 | --- | ------ | ------- |
 | 0   | 0000   | 0       |
@@ -398,6 +432,8 @@ Base 16. Digits: 0--9, A--F.
 | E   | 1110   | 14      |
 | F   | 1111   | 15      |
 
+</div>
+
 **Conversion:** group binary digits in sets of 4 and convert each group.
 
 $11010111_2 = 1101\ 0111 = \mathrm{D7_{16}$
@@ -414,9 +450,13 @@ Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
 
 **Addition rules:**
 
+<div class="table-wrap">
+
 | $0 + 0$ | $0 + 1$ | $1 + 0$ | $1 + 1$        |
 | ------- | ------- | ------- | -------------- |
 | 0       | 1       | 1       | 10 (0 carry 1) |
+
+</div>
 
 **Example (HL):** $1011 + 0110$
 
@@ -427,7 +467,7 @@ Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
  10001
 ```
 
-**Two"s complement:** used to represent negative numbers. Invert the bits and add 1.
+**Two's complement:** used to represent negative numbers. Invert the bits and add 1.
 
 **Example (HL):** Represent $-5$ in 8-bit two's complement.
 
@@ -437,21 +477,23 @@ $5 = 00000101$. Invert: $11111010$. Add 1: $11111011$.
 
 $20 = 00010100$. $14 = 00001110$.
 
-Two's complement of 14: invert $00001110 \to 11110001$Add 1 $\to 11110010$.
+Two's complement of 14: invert $00001110 \to 11110001$ Add 1 $\to 11110010$.
 
 $00010100 + 11110010 = 100000110$. Discard overflow: $00000110 = 6$. Correct.
 
 **Worked Example (HL).** Represent $-20$ in 8-bit two's complement and add it to $15$ in two's
 Complement.
 
-$-20$: $20 = 00010100$Flip $= 11101011$Add 1 $= 11101100$.
+$-20$: $20 = 00010100$ Flip $= 11101011$ Add 1 $= 11101100$.
 
 $15 = 00001111$.
 
-$11101100 + 00001111 = 11111011$. MSB is 1, so negative. Flip $= 00000100$Add 1 $= 00000101 = 5$.
+$11101100 + 00001111 = 11111011$. MSB is 1, so negative. Flip $= 00000100$ Add 1 $= 00000101 = 5$.
 Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 
 **Two's complement range:**
+
+<div class="table-wrap">
 
 | Bits | Minimum        | Maximum       |
 | ---- | -------------- | ------------- |
@@ -459,9 +501,13 @@ Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 | 16   | -32,768        | 32,767        |
 | 32   | -2,147,483,648 | 2,147,483,647 |
 
+</div>
+
 ## Logic Gates (OL/HL)
 
 ### Basic Gates
+
+<div class="table-wrap">
 
 | Gate | Symbol | Expression             | Output                           |
 | ---- | ------ | ---------------------- | -------------------------------- |
@@ -472,9 +518,13 @@ Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 | NAND | NAND   | $\overline{A \cdot B}$ | NOT AND                          |
 | NOR  | NOR    | $\overline{A + B}$     | NOT OR                           |
 
+</div>
+
 ### Truth Tables (OL/HL)
 
 **AND gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A AND B |
 | --- | --- | ------- |
@@ -483,7 +533,11 @@ Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 | 1   | 0   | 0       |
 | 1   | 1   | 1       |
 
+</div>
+
 **OR gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A OR B |
 | --- | --- | ------ |
@@ -492,7 +546,11 @@ Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 | 1   | 0   | 1      |
 | 1   | 1   | 1      |
 
+</div>
+
 **XOR gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A XOR B |
 | --- | --- | ------- |
@@ -501,8 +559,12 @@ Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 | 1   | 0   | 1       |
 | 1   | 1   | 0       |
 
+</div>
+
 **Example (HL):** Draw a logic circuit and truth table for the expression
 $F = (A \cdot B) + \bar{C}$.
+
+<div class="table-wrap">
 
 | A   | B   | C   | A AND B | NOT C | F   |
 | --- | --- | --- | ------- | ----- | --- |
@@ -515,11 +577,17 @@ $F = (A \cdot B) + \bar{C}$.
 | 1   | 1   | 0   | 1       | 1     | 1   |
 | 1   | 1   | 1   | 1       | 0     | 1   |
 
+</div>
+
 ### De Morgan's Laws (HL)
 
-$$\overline{A \cdot B} = \bar{A} + \bar{B}$$
+$$
+\overline{A \cdot B} = \bar{A} + \bar{B}
+$$
 
-$$\overline{A + B} = \bar{A} \cdot \bar{B}$$
+$$
+\overline{A + B} = \bar{A} \cdot \bar{B}
+$$
 
 **Worked Example (HL).** Simplify $\overline{A \cdot \bar{B}}$ using De Morgan's Laws.
 
@@ -531,12 +599,16 @@ $\overline{A + B \cdot \bar{C}} = \bar{A} \cdot \overline{B \cdot \bar{C}} = \ba
 
 **Proof of De Morgan's first law by truth table:**
 
+<div class="table-wrap">
+
 | A   | B   | $A \cdot B$ | $\overline{A \cdot B}$ | $\bar{A}$ | $\bar{B}$ | $\bar{A} + \bar{B}$ |
 | --- | --- | ----------- | ---------------------- | --------- | --------- | ------------------- |
 | 0   | 0   | 0           | 1                      | 1         | 1         | 1                   |
 | 0   | 1   | 0           | 1                      | 1         | 0         | 1                   |
 | 1   | 0   | 0           | 1                      | 0         | 1         | 1                   |
 | 1   | 1   | 1           | 0                      | 0         | 0         | 0                   |
+
+</div>
 
 Columns 4 and 7 are identical. $\blacksquare$
 
@@ -547,12 +619,16 @@ A half adder adds two bits:
 - Sum = $A \oplus B$
 - Carry = $A \cdot B$
 
+<div class="table-wrap">
+
 | A   | B   | Sum | Carry |
 | --- | --- | --- | ----- |
 | 0   | 0   | 0   | 0     |
 | 0   | 1   | 1   | 0     |
 | 1   | 0   | 1   | 0     |
 | 1   | 1   | 0   | 1     |
+
+</div>
 
 ### Full Adder (HL)
 
@@ -566,6 +642,8 @@ Stage becomes the carry-in of the next.
 
 **Worked Example (HL).** Add 0110 and 0011 using full adders.
 
+<div class="table-wrap">
+
 | Position  | 3 (MSB) | 2   | 1   | 0 (LSB) |
 | --------- | ------- | --- | --- | ------- |
 | A         | 0       | 1   | 1   | 0       |
@@ -573,6 +651,8 @@ Stage becomes the carry-in of the next.
 | Carry in  | 0       | 0   | 1   | 0       |
 | Sum       | 0       | 1   | 0   | 1       |
 | Carry out | 0       | 0   | 1   | 0       |
+
+</div>
 
 Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 
@@ -589,6 +669,8 @@ Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 
 ### Types of Operating System
 
+<div class="table-wrap">
+
 | Type      | Description                             | Examples              |
 | --------- | --------------------------------------- | --------------------- |
 | Desktop   | Personal use, multitasking              | Windows, macOS, Linux |
@@ -598,7 +680,11 @@ Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 | Embedded  | Limited resources, dedicated            | Car ECU, smart TV     |
 | Batch     | Jobs processed without user interaction | Payroll processing    |
 
+</div>
+
 **GUI vs CLI:**
+
+<div class="table-wrap">
 
 | Feature     | GUI                   | CLI                            |
 | ----------- | --------------------- | ------------------------------ |
@@ -608,7 +694,11 @@ Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 | Automation  | Limited               | Easy with scripting            |
 | Examples    | Windows, macOS        | Linux terminal, Command Prompt |
 
+</div>
+
 **Process scheduling algorithms:**
+
+<div class="table-wrap">
 
 | Algorithm                | Description                                            | Fairness |
 | ------------------------ | ------------------------------------------------------ | -------- |
@@ -617,12 +707,14 @@ Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 | First-come, first-served | Processes served in order of arrival                   | Medium   |
 | Shortest job first       | The process with the shortest expected time runs first | Medium   |
 
+</div>
+
 **Worked Example (HL).** Explain why a real-time operating system is needed in a car's anti-lock
 Braking system (ABS).
 
 The ABS must respond within milliseconds to prevent wheel lockup. A general-purpose OS (like
 Windows) cannot guarantee response times because it may be busy with other tasks. A RTOS guarantees
-That the ABS process receives CPU time within a fixed deadline, ensuring safety.
+that the ABS process receives CPU time within a fixed deadline, ensuring safety.
 
 ### Embedded Systems (HL)
 
@@ -632,6 +724,8 @@ Function.
 **Examples:** Washing machines, microwaves, car engine management, traffic lights, pacemakers, Smart
 thermostats.
 
+<div class="table-wrap">
+
 | Feature                | Embedded System       | General-Purpose Computer  |
 | ---------------------- | --------------------- | ------------------------- |
 | Purpose                | Single, specific task | Multiple tasks            |
@@ -639,6 +733,8 @@ thermostats.
 | User interface         | Minimal or none       | Full GUI                  |
 | Processing power       | Limited               | High                      |
 | Real-time requirements | Often required        | Not required              |
+
+</div>
 
 ### Embedded Systems (HL)
 
@@ -657,6 +753,8 @@ thermostats.
 - Reliable and designed to run continuously
 - Operate in real-time (must respond within strict time constraints)
 
+<div class="table-wrap">
+
 | Feature                | Embedded System       | General-Purpose Computer  |
 | ---------------------- | --------------------- | ------------------------- |
 | Purpose                | Single, specific task | Multiple tasks            |
@@ -665,9 +763,11 @@ thermostats.
 | Processing power       | Limited               | High                      |
 | Real-time requirements | Often required        | Not required              |
 
+</div>
+
 **Worked Example (HL).** A traffic light controller is an embedded system. It runs a fixed program
 Stored in ROM that cycles through red, amber, and green at set intervals. It has no screen or
-Keyboard -- its only output is the lights themselves. It must respond within strict time limits
+keyboard -- its only output is the lights themselves. It must respond within strict time limits
 (real-time) for safety.
 
 ### The Systems Life Cycle (OL/HL)
@@ -684,6 +784,8 @@ Keyboard -- its only output is the lights themselves. It must respond within str
 
 **Types of testing:**
 
+<div class="table-wrap">
+
 | Type                | Description                                               |
 | ------------------- | --------------------------------------------------------- |
 | Unit testing        | Testing individual components in isolation                |
@@ -692,6 +794,8 @@ Keyboard -- its only output is the lights themselves. It must respond within str
 | Acceptance testing  | Customer tests the system to ensure it meets requirements |
 | Alpha testing       | Testing by the development team                           |
 | Beta testing        | Testing by a group of real users                          |
+
+</div>
 
 **Black-box vs white-box testing:**
 
@@ -731,9 +835,13 @@ C = 67 = 01000011, a = 97 = 01100001, t = 116 = 01110100.
 
 **Example:** $1920     imes 1080$ image with 24-bit colour:
 
-$$1920     imes 1080     imes 24 / 8 = 6220800     ext{ bytes} pprox 5.93     ext{ MB}$$
+$$
+1920     imes 1080     imes 24 / 8 = 6220800     ext{ bytes} pprox 5.93     ext{ MB}
+$$
 
 **Vector images:** Mathematical descriptions of shapes. Scale without quality loss.
+
+<div class="table-wrap">
 
 | Feature        | Bitmap                      | Vector                      |
 | -------------- | --------------------------- | --------------------------- |
@@ -741,6 +849,8 @@ $$1920     imes 1080     imes 24 / 8 = 6220800     ext{ bytes} pprox 5.93     e
 | Scaling        | Loses quality when enlarged | No quality loss at any size |
 | File size      | Depends on resolution       | Depends on complexity       |
 | Best for       | Photographs                 | Logos, icons, diagrams      |
+
+</div>
 
 #### Representing Sound
 
@@ -772,6 +882,8 @@ original 8 bytes).
 
 **HDD vs SSD:**
 
+<div class="table-wrap">
+
 | Metric      | HDD              | SSD             |
 | ----------- | ---------------- | --------------- |
 | Read speed  | 50-200 MB/s      | 200-550 MB/s    |
@@ -779,6 +891,8 @@ original 8 bytes).
 | Latency     | 5-10 ms          | 0.05-0.1 ms     |
 | Cost per GB | Low              | Higher          |
 | Durability  | Mechanical parts | No moving parts |
+
+</div>
 
 ## Intuition
 
@@ -820,7 +934,7 @@ See the examples integrated throughout the sections above.
 
 1. Explain how cache memory improves CPU performance.
 2. A program has $2 \times 10^9$ instructions. The CPU runs at 2.5 GHz with an average CPI of 3.
-   Calculate the execution time.
+   calculate the execution time.
 3. Represent $-20$ in 8-bit two's complement and add it to $15$ in two's complement.
 4. Design a logic circuit for a half adder and provide the truth table.
 
@@ -840,17 +954,6 @@ See the examples integrated throughout the sections above.
 14. Add the binary numbers 10110110 and 01101101. Show all working including carries.
 15. Draw a truth table for a full adder. Show all eight rows for inputs A, B, and carry-in.
 
-
-```mermaid
-flowchart TD
-    A[1_Hardware] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of computer systems, including underlying theory, practical
@@ -863,9 +966,6 @@ implementation, and key applications.
 - input/output systems
 - operating systems and scheduling
 - interrupts and polling
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ---
 

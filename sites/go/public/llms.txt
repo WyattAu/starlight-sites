@@ -7,6 +7,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Overview
 
 - [About](https://go.wyattau.com/about/)
+- [Before You Begin](https://go.wyattau.com/before-you-begin/)
 - [Flashcards Standard Library](https://go.wyattau.com/flashcards-standard-library/)
 - [Glossary](https://go.wyattau.com/glossary/)
 - [Hub](https://go.wyattau.com/hub/)

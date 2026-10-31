@@ -17,7 +17,7 @@ description: "The suite has replaced the legacy () as the Standard Linux network
 
 ## Network Interface Management (iproute2)
 
-The `iproute2` suite has replaced the legacy `net-tools` (`ifconfig``route``netstat`) as the
+The `iproute2` suite has replaced the legacy `net-tools` (`ifconfig`, `route`, `netstat`) as the
 Standard Linux network management toolset. It provides a consistent interface for managing
 Interfaces, addresses, routes, tunnels, and policies.
 
@@ -70,6 +70,8 @@ ip addr show eth0
 
 Modern Linux uses **predictable network interface names** instead of `eth0`:
 
+<div class="table-wrap">
+
 | Naming Scheme | Format                             | Example           |
 | ------------- | ---------------------------------- | ----------------- |
 | `biosdevname` | BIOS-provided names                | `em1``p1p1`       |
@@ -77,6 +79,8 @@ Modern Linux uses **predictable network interface names** instead of `eth0`:
 | `slot`        | Physical slot number               | `enp3s0`          |
 | `path`        | Physical topology path             | `enx78e7d1ea46da` |
 | `mac`         | MAC address (for USB/dock devices) | `enx78e7d1ea46da` |
+
+</div>
 
 To revert to classic names, add `net.ifnames=0 biosdevname=0` to the kernel command line.
 
@@ -142,7 +146,7 @@ ip route flush table cache    # flush routing cache
 ### Policy Routing
 
 Linux supports multiple routing tables and policy-based routing (PBR). The `ip rule` command selects
-Which routing table to use based on source address, destination address, TOS, firewall mark, etc.
+which routing table to use based on source address, destination address, TOS, firewall mark, etc.
 
 ```bash
 # List routing rules
@@ -225,7 +229,7 @@ hosts: files dns mdns4_minimal [NOTFOUND=return] dns
 
 The lookup order: local files (`/etc/hosts`) first, then DNS. The `mdns4_minimal` entry handles
 Multicast DNS (`.local` domain) and returns NOTFOUND for non-`.local` names, which then falls
-Through to regular DNS.
+through to regular DNS.
 
 ### `dig` and `nslookup`
 
@@ -257,7 +261,7 @@ dig +dnssec example.com
 ## Netfilter Framework
 
 Netfilter is the kernel-level packet filtering framework that provides hooks at five points in the
-Networking stack. It is the foundation for `iptables``nftables`And connection tracking.
+Networking stack. It is the foundation for `iptables`, `nftables` and connection tracking.
 
 ### Netfilter Hooks
 
@@ -274,6 +278,8 @@ graph LR
     H --> I[Outgoing Packet]
 ```
 
+<div class="table-wrap">
+
 | Hook                     | Chains (iptables) | Description                                 |
 | ------------------------ | ----------------- | ------------------------------------------- |
 | **NF_INET_PRE_ROUTING**  | `PREROUTING`      | Before routing decision, DNAT, mangling    |
@@ -282,10 +288,14 @@ graph LR
 | **NF_INET_LOCAL_OUT**    | `OUTPUT`          | Packets originating from local processes    |
 | **NF_INET_POST_ROUTING** | `POSTROUTING`     | After routing decision, SNAT, masquerading |
 
+</div>
+
 ### Connection Tracking (conntrack)
 
 The `nf_conntrack` module tracks the state of network connections. It classifies packets into
 Connection states:
+
+<div class="table-wrap">
 
 | State         | Description                                                           |
 | ------------- | --------------------------------------------------------------------- |
@@ -294,6 +304,8 @@ Connection states:
 | `RELATED`     | Packet related to an existing connection (e.g., FTP data, ICMP error) |
 | `UNREPLIED`   | Connection entry exists but no response packet seen                   |
 | `INVALID`     | Packet does not match any known connection                            |
+
+</div>
 
 ```bash
 # View connection tracking table
@@ -328,6 +340,8 @@ And rules with matches and targets.
 
 ### Tables and Chains
 
+<div class="table-wrap">
+
 | Table      | Chains Available                                | Purpose                                          |
 | ---------- | ----------------------------------------------- | ------------------------------------------------ |
 | `filter`   | INPUT, FORWARD, OUTPUT                          | Packet filtering (accept/drop/reject)            |
@@ -335,6 +349,8 @@ And rules with matches and targets.
 | `mangle`   | PREROUTING, INPUT, FORWARD, OUTPUT, POSTROUTING | Packet modification (TOS, TTL, marks)            |
 | `raw`      | PREROUTING, OUTPUT                              | Disable connection tracking for specific packets |
 | `security` | INPUT, FORWARD, OUTPUT                          | SELinux security context filtering               |
+
+</div>
 
 ### Common iptables Operations
 
@@ -397,6 +413,8 @@ iptables-restore < /etc/iptables/rules.v4
 iptables -t table -A chain [matches] -j target
 ```
 
+<div class="table-wrap">
+
 | Component   | Examples                                          |
 | ----------- | ------------------------------------------------- |
 | `-p proto`  | `tcp``udp``icmp``all`                             |
@@ -409,12 +427,16 @@ iptables -t table -A chain [matches] -j target
 | `-m match`  | Module: `conntrack``limit``multiport``state``mac` |
 | `-j target` | `ACCEPT``DROP``REJECT``LOG``RETURN``DNAT``SNAT`   |
 
+</div>
+
 ## nftables
 
 Nftables is the successor to iptables, designed from the ground up for better performance, more
 Consistent syntax, and atomic rule replacement.
 
 ### Key Differences from iptables
+
+<div class="table-wrap">
 
 | Aspect             | iptables                              | nftables                          |
 | ------------------ | ------------------------------------- | --------------------------------- |
@@ -424,6 +446,8 @@ Consistent syntax, and atomic rule replacement.
 | **Syntax**         | Multiple commands, inconsistent flags | Single consistent syntax          |
 | **Kernel module**  | Multiple (xt\_)                       | Single `nf_tables`                |
 | **IPv4/IPv6**      | Separate (`iptables`/`ip6tables`)     | Unified (`nft`)                   |
+
+</div>
 
 ### nftables Configuration
 
@@ -835,7 +859,7 @@ iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
 ### Pitfall: Loopback Not Allowed
 
-If `INPUT` policy is `DROP`You must explicitly allow loopback traffic. Many local services (MySQL,
+If `INPUT` policy is `DROP`. You must explicitly allow loopback traffic. Many local services (MySQL,
 PostgreSQL, web servers) communicate over the loopback interface:
 
 ```bash
@@ -877,9 +901,6 @@ implementation, and key applications.
 - protocols (HTTP, FTP, SMTP)
 - encryption and security
 - client-server and peer-to-peer
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

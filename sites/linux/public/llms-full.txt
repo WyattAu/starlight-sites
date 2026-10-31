@@ -37,6 +37,8 @@ fi
 
 Three test constructs exist, with important differences:
 
+<div class="table-wrap">
+
 | Feature             | `[ ]` (POSIX test) | `[[ ]]` (bash)      |
 | ------------------- | ------------------ | ------------------- |
 | Word splitting      | Yes (quote vars)   | No                  |
@@ -45,6 +47,8 @@ Three test constructs exist, with important differences:
 | Regex matching      | No                 | Yes (`=~`)          |
 | Logical operators   | `-a``-o`           | `&&``\|\|`          |
 | Empty string safety | Requires quoting   | Safe without quotes |
+
+</div>
 
 ```bash
 ## POSIX test, requires quoting
@@ -771,7 +775,7 @@ false
 :::
 
 :::caution
-`pipefail`The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
+`pipefail`. The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
 `ERR` trap in complex pipelines, explicit error checking is more reliable.
 
 ## Signal Handling
@@ -809,6 +813,8 @@ done
 
 ### Signal Reference
 
+<div class="table-wrap">
+
 | Signal  | Number | Description             | Default Action |
 | ------- | ------ | ----------------------- | -------------- |
 | SIGHUP  | 1      | Terminal hangup         | Terminate      |
@@ -821,6 +827,8 @@ done
 | SIGPIPE | 13     | Broken pipe             | Terminate      |
 | SIGSTOP | 19     | Stop (cannot be caught) | Stop           |
 | SIGTSTP | 20     | Stop (Ctrl+Z)           | Stop           |
+
+</div>
 
 ```bash
 # List all signals
@@ -853,6 +861,8 @@ echo "$VAR"
 
 Common shellcheck warnings and fixes:
 
+<div class="table-wrap">
+
 | Code   | Issue                                    | Fix                               |
 | ------ | ---------------------------------------- | --------------------------------- |
 | SC2086 | Double-quote to prevent globbing         | `"$VAR"` instead of `$VAR`        |
@@ -861,6 +871,8 @@ Common shellcheck warnings and fixes:
 | SC2034 | Variable appears unused                  | Remove or use the variable        |
 | SC2155 | Declare and assign separately            | Split `local a=$(cmd)` into two   |
 | SC1091 | Not following sourced file               | Add `# shellcheck source=...`     |
+
+</div>
 
 ### Quoting
 
@@ -1178,16 +1190,6 @@ files=(*.txt)
 ls "${files[@]}"
 ```
 
-```mermaid
-flowchart TD
-    A[Bash Scripting] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of bash scripting, including underlying theory, practical
@@ -1201,17 +1203,11 @@ implementation, and key applications.
 - shell scripting with bash
 - package management
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Bash scripting is like writing a recipe for a computer chef -- variables are the ingredients, conditionals (if/else) are the decision points, loops (for/while) are the repetition instructions, and functions are sub-recipes. The shebang (#!/bin/bash) tells the system which chef to use. Bash is not just a command language -- it is a full programming language with variables, arrays, string manipulation, and arithmetic. The key to good scripts is error handling: always check return codes, quote your variables, and use set -e to stop on errors. A script without error handling is like a recipe without safety instructions.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -1239,12 +1235,12 @@ URL: https://linux.wyattau.com/01-cli-fundamentals/core-utilities/
 
 GNU coreutils is the package that provides the fundamental file, shell, and text manipulation
 Utilities on virtually every Linux distribution. These utilities implement the POSIX specifications
-And extend them with GNU-specific options. The package contains roughly 105 programs, grouped into:
+and extend them with GNU-specific options. The package contains roughly 105 programs, grouped into:
 
-- **File utilities**: `ls``cp``mv``rm``ln``chmod``chown``touch``mkdir``rmdir` `stat``du``df``sync`
-- **Text utilities**: `cat``head``tail``sort``uniq``tr``cut``paste``join``wc` `nl``fmt``fold``pr`
-- **Shell utilities**: `echo``printf``date``tee``basename``dirname``sleep``true`
-  `false``test``expr``yes``timeout`
+- **File utilities**: `ls`, `cp`, `mv`, `rm`, `ln`, `chmod`, `chown`, `touch`, `mkdir`, `rmdir` `stat`, `du`, `df`, `sync`
+- **Text utilities**: `cat`, `head`, `tail`, `sort`, `uniq`, `tr`, `cut`, `paste`, `join`, `wc` `nl`, `fmt`, `fold`, `pr`
+- **Shell utilities**: `echo`, `printf`, `date`, `tee`, `basename`, `dirname`, `sleep`, `true`
+  `false`, `test`, `expr`, `yes`, `timeout`
 
 ## Text Processing Pipeline Patterns
 
@@ -1257,11 +1253,15 @@ Competency.
 `grep` searches input lines for patterns matching a regular expression and prints matching lines.
 Three main variants exist:
 
+<div class="table-wrap">
+
 | Variant   | Regex Flavor | Description                         |
 | --------- | ------------ | ----------------------------------- |
 | `grep`    | BRE          | Basic Regular Expressions (default) |
 | `grep -E` | ERE          | Extended Regular Expressions        |
 | `grep -P` | PCRE         | Perl-Compatible Regular Expressions |
+
+</div>
 
 ```bash
 ## Basic pattern matching
@@ -1303,6 +1303,8 @@ grep --color=always "pattern" file
 
 #### BRE vs ERE vs PCRE
 
+<div class="table-wrap">
+
 | Feature             | BRE      | ERE     | PCRE                     |
 | ------------------- | -------- | ------- | ------------------------ |
 | Literal match       | `abc`    | `abc`   | `abc`                    |
@@ -1319,6 +1321,8 @@ grep --color=always "pattern" file
 | Named capture       | No       | No      | `(?P&lt;name&gt;...)`    |
 | Backreference       | `\1`     | `\1`    | `\1` or `\k&lt;name&gt;` |
 | Unicode properties  | No       | No      | `\p{L}`                  |
+
+</div>
 
 :::caution
 special meaning. In ERE, the reverse is true, they are special by default and must be escaped To be
@@ -1470,7 +1474,7 @@ awk 'FNR==1 {print "=== " FILENAME " ==="} {print}' *.log
 awk '{print | "sort -rn"}' unsorted.txt
 ```
 
-### `sort``uniq``wc``cut``tr`
+### `sort`, `uniq`, `wc`, `cut`, `tr`
 
 These utilities form the backbone of text processing pipelines:
 
@@ -1541,7 +1545,7 @@ find . -name "*.conf" -exec sed -i 's/oldhost.example.com/newhost.example.com/g'
 ### `find`File System Traversal
 
 `find` recursively traverses a directory tree and evaluates expressions against each file. It is one
-Of the most powerful tools available but also one of the most commonly misused.
+of the most powerful tools available but also one of the most commonly misused.
 
 ```bash
 # Basic search
@@ -1606,12 +1610,16 @@ find . -name "*.log" -print0 | xargs -0 -P 4 gzip
 find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
 ```
 
+<div class="table-wrap">
+
 | Method            | Invocation Count | Safety             | Use Case                           |
 | ----------------- | ---------------- | ------------------ | ---------------------------------- |
 | `-exec {} \;`     | Once per file    | Safest             | Few files, complex commands        |
 | `-exec {} +`      | Batched          | Safe               | Many files, simple commands        |
 | `xargs` (default) | Batched          | Unsafe with spaces | Simple filenames                   |
 | `xargs -0`        | Batched          | Safe               | Any filenames (use with `-print0`) |
+
+</div>
 :::
 
 :::caution
@@ -1746,6 +1754,8 @@ tar --preserve-permissions --same-owner -xvf archive.tar
 
 ### Compression Formats
 
+<div class="table-wrap">
+
 | Format | Command           | Compression     | Speed     | Typical Ratio |
 | ------ | ----------------- | --------------- | --------- | ------------- |
 | gzip   | `gzip`/`gunzip`   | Deflate         | Fast      | 5:1 - 8:1     |
@@ -1753,6 +1763,8 @@ tar --preserve-permissions --same-owner -xvf archive.tar
 | xz     | `xz`/`unxz`       | LZMA2           | Slower    | 10:1 - 15:1   |
 | zstd   | `zstd`/`unzstd`   | Zstandard       | Fastest   | 5:1 - 10:1    |
 | lz4    | `lz4`/`unlz4`     | LZ4             | Very fast | 3:1 - 5:1     |
+
+</div>
 
 ```bash
 # gzip
@@ -1824,6 +1836,8 @@ Type   Owner    Group    Other
 -       rwx      r-x      r--
 ```
 
+<div class="table-wrap">
+
 | Bit Position | Name      | Value | Description                            |
 | ------------ | --------- | ----- | -------------------------------------- |
 | 0-2          | Other     | 0-7   | Permissions for others                 |
@@ -1831,7 +1845,11 @@ Type   Owner    Group    Other
 | 6-8          | Owner     | 0-7   | Permissions for file owner             |
 | 9-11         | File type |,     | Regular file, directory, symlink, etc. |
 
+</div>
+
 Each permission triplet:
+
+<div class="table-wrap">
 
 | Octal | Binary | Permissions            |
 | ----- | ------ | ---------------------- |
@@ -1843,6 +1861,8 @@ Each permission triplet:
 | 5     | 101    | Read + Execute         |
 | 6     | 110    | Read + Write           |
 | 7     | 111    | Read + Write + Execute |
+
+</div>
 
 ```bash
 # Symbolic mode
@@ -1867,11 +1887,15 @@ chmod --reference=reference_file target_file
 
 ### Special Permission Bits
 
+<div class="table-wrap">
+
 | Bit    | Octal | Name   | Effect on Files       | Effect on Directories       |
 | ------ | ----- | ------ | --------------------- | --------------------------- |
 | setuid | 4000  | SUID   | Execute as file owner |,                           |
 | setgid | 2000  | SGID   | Execute as file group | New files inherit group     |
 | sticky | 1000  | Sticky |,                     | Only owner can delete files |
+
+</div>
 
 ```bash
 # Set SUID (execute as owner)
@@ -1927,7 +1951,7 @@ Even if the umask would allow it.
 ### ACLs, Access Control Lists
 
 Standard Unix permissions provide only three permission classes (owner, group, other). ACLs extend
-This model with per-user and per-group rules.
+this model with per-user and per-group rules.
 
 ```bash
 # Check ACL support
@@ -1990,7 +2014,7 @@ chown --reference=ref_file target_file
 
 ### Pitfall: `grep` Returning Non-Zero on No Matches
 
-In scripts, `grep` returns exit code 1 when no lines match. With `set -e`This terminates the Script:
+In scripts, `grep` returns exit code 1 when no lines match. With `set -e`. This terminates the Script:
 
 ```bash
 # WRONG, exits script if no matches
@@ -2037,7 +2061,7 @@ sort -s -k2,2n data.txt
 ### Pitfall: `sed -i` on Symlinks
 
 `sed -i` (in-place editing) breaks symlinks by replacing the symlink with a regular file containing
-The edited content. Always use `sed --follow-symlinks -i` or avoid `-i` on symlinks.
+the edited content. Always use `sed --follow-symlinks -i` or avoid `-i` on symlinks.
 
 ### Pitfall: `awk` Floating-Point Precision
 
@@ -2107,7 +2131,7 @@ true | xargs -r echo
 
 ### Pitfall: `sort -h` Availability
 
-The `-h` flag (human-numeric sort, handling `K``M``G` suffixes) is a GNU extension. It is not
+The `-h` flag (human-numeric sort, handling `K`, `M`, `G` suffixes) is a GNU extension. It is not
 Available on BSD/macOS `sort`. On those systems, convert sizes to bytes first or use `numfmt`.
 
 ## Summary
@@ -2123,17 +2147,11 @@ implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Core utilities are the Swiss Army knife of Linux -- ls lists files like a directory reader, cp copies files like a photocopier, mv moves files like a filing clerk, rm deletes files like a shredder, and chmod changes permissions like a security manager. The power comes from combining them: ls | grep '.txt' | wc -l counts text files by piping the directory listing through a filter and counting the results. Understanding the core utilities is like learning the alphabet -- once you know the letters, you can write anything. The GNU extensions add extra features, but the POSIX basics are universal.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -2160,10 +2178,12 @@ URL: https://linux.wyattau.com/01-cli-fundamentals/shell-basics/
 ## Shell Invocation
 
 A shell is both an **interactive command interpreter** and a **scripting language interpreter**.
-When you open a terminal emulator, it spawns a shell process, `bash``zsh`Or `dash`. When you run a
-script with `./script.sh`The shebang line determines which interpreter processes The file.
+When you open a terminal emulator, it spawns a shell process, `bash`, `zsh` or `dash`. When you run a
+script with `./script.sh`. The shebang line determines which interpreter processes The file.
 
 ### Interactive vs Non-Interactive
+
+<div class="table-wrap">
 
 | Aspect            | Interactive                           | Non-Interactive                        |
 | ----------------- | ------------------------------------- | -------------------------------------- |
@@ -2174,10 +2194,12 @@ script with `./script.sh`The shebang line determines which interpreter processes
 | **Aliases**       | Expanded                              | Expanded (in bash) or not (POSIX mode) |
 | **Exit on error** | Does not exit on error                | Same unless `set -e`                   |
 
+</div>
+
 The shell"s startup sequence differs depending on whether it is a **login shell** or a **non-login
 Shell**:
 
-- **Login shell**: Sourced on first login (SSH, `su -``login`). Reads `/etc/profile`Then
+- **Login shell**: Sourced on first login (SSH, `su -`, `login`). Reads `/etc/profile`. Then
   `~/.bash_profile` or `~/.bash_login` or `~/.profile` (first one found).
 - **Non-login interactive shell**: Reads `~/.bashrc`.
 - **Non-login non-interactive shell**: Inherits exported environment variables. Does not read
@@ -2208,6 +2230,8 @@ POSIX specifies a shell standard (IEEE 1003.1, also known as the Single UNIX Spe
 Largely POSIX-compliant but adds extensions. When writing portable scripts, target POSIX sh. When
 Writing for known-bash environments, use bash features deliberately.
 
+<div class="table-wrap">
+
 | Feature                | POSIX sh | Bash                        |
 | ---------------------- | -------- | --------------------------- |
 | Arrays                 | No       | Yes (`arr=()`)              |
@@ -2219,8 +2243,10 @@ Writing for known-bash environments, use bash features deliberately.
 | `${var:offset:length}` | No       | Yes (substring expansion)   |
 | `&\>\&2` redirection   | No       | Yes                         |
 
+</div>
+
 On Debian and Ubuntu, `/bin/sh` is `dash`a minimal POSIX shell that is significantly faster than
-Bash but lacks bash extensions. Scripts that use bash features must use `#!/bin/bash`Not
+Bash but lacks bash extensions. Scripts that use bash features must use `#!/bin/bash`. Not
 `#!/bin/sh`.
 
 ## Command Structure
@@ -2238,12 +2264,12 @@ The shell performs the following steps before executing a command:
 2. **Alias expansion**: Replace aliases (only in interactive shells, and not for the first word in
    certain contexts).
 3. **Brace expansion**: Expand `{a,b,c}` patterns.
-4. **Tilde expansion**: Replace `~` with `$HOME``~user` with user's home directory.
-5. **Parameter expansion**: Expand `$VAR``${VAR}``${VAR:-default}`Etc.
-6. **Command substitution**: Execute `$(cmd)` or `` `Cmd` `` and replace with stdout.
+4. **Tilde expansion**: Replace `~` with `$HOME`, `~user` with user's home directory.
+5. **Parameter expansion**: Expand `$VAR`, `${VAR}`, `${VAR:-default}`. Etc.
+6. **Command substitution**: Execute `$(cmd)` or `` ``, ``Cmd``, `` `` and replace with stdout.
 7. **Arithmetic expansion**: Evaluate `$((expression))`.
 8. **Word splitting**: Split results on `IFS` (except in contexts where it is suppressed).
-9. **Pathname expansion (globbing)**: Expand `*``?``[...]` patterns.
+9. **Pathname expansion (globbing)**: Expand `*`, `?`, `[...]` patterns.
 10. **Quote removal**: Remove quoting characters that are not part of expansions.
 11. **Redirection**: Set up I/O redirections.
 12. **Command execution**: Execute the command using the resolved path.
@@ -2251,7 +2277,7 @@ The shell performs the following steps before executing a command:
 
 :::caution
 Means `VAR="*.txt"` followed by `ls $VAR` will expand to `ls *.txt` and then glob-expand. If there
-Are no matching files, the shell behavior depends on the `nullglob` option.
+are no matching files, the shell behavior depends on the `nullglob` option.
 
 ## I/O Redirection
 
@@ -2259,14 +2285,18 @@ Are no matching files, the shell behavior depends on the `nullglob` option.
 
 Every process in Linux has three standard file descriptors at startup:
 
+<div class="table-wrap">
+
 | FD  | Name   | Default Destination | Description             |
 | --- | ------ | ------------------- | ----------------------- |
 | 0   | stdin  | Keyboard            | Input stream            |
 | 1   | stdout | Terminal            | Normal output           |
 | 2   | stderr | Terminal            | Error/diagnostic output |
 
+</div>
+
 The shell can redirect any file descriptor to a file, another descriptor, a pipe, or a
-Here-document.
+here-document.
 
 ### Basic Redirection Operators
 
@@ -2390,6 +2420,8 @@ The shell expands glob patterns into matching filenames before passing them to t
 Fundamentally different from regex, globbing operates on filenames in the filesystem, not on
 Arbitrary text.
 
+<div class="table-wrap">
+
 | Pattern  | Meaning                                         | Example     | Matches                     |
 | -------- | ----------------------------------------------- | ----------- | --------------------------- |
 | `*`      | Any sequence of characters (except leading dot) | `*.log`     | `app.log``error.log`        |
@@ -2398,6 +2430,8 @@ Arbitrary text.
 | `[a-z]`  | One character from the range                    | `[a-m]*`    | `apple``banana``middle`     |
 | `[!abc]` | One character NOT in the set                    | `[!0-9]*`   | `file``name`                |
 | `**`     | Recursive glob (bash 4.0+, `globstar` option)   | `**/*.py`   | All `.py` files recursively |
+
+</div>
 
 ```bash
 # Enable recursive globbing
@@ -2423,6 +2457,8 @@ The original Unix glob behavior, you must explicitly use `.*` or enable `dotglob
 
 Extended globbing provides pattern matching similar to regex quantifiers:
 
+<div class="table-wrap">
+
 | Pattern                 | Meaning                           | Regex equivalent   |
 | ----------------------- | --------------------------------- | ------------------ |
 | `?(pattern)`            | Match zero or one occurrence      | `pattern?`         |
@@ -2430,6 +2466,8 @@ Extended globbing provides pattern matching similar to regex quantifiers:
 | `+(pattern)`            | Match one or more occurrences     | `pattern+`         |
 | `@(pattern1\|pattern2)` | Match exactly one of the patterns | `(p1\|p2)`         |
 | `!(pattern)`            | Match anything except the pattern | Negative lookahead |
+
+</div>
 
 ```bash
 shopt -s extglob
@@ -2521,7 +2559,7 @@ disown -h %1  # prevents SIGHUP on shell exit
 The difference: `nohup` modifies the signal handling of the child process itself, while `disown`
 tells the shell not to send `SIGHUP` when it exits. If the shell crashes (SIGKILL),
 `nohup`-protected processes survive, but `disown`-ed processes may still receive `SIGHUP` depending
-On the terminal driver behavior.
+on the terminal driver behavior.
 
 ## Environment Variables
 
@@ -2558,6 +2596,8 @@ unset MY_VAR
 
 ### Special Shell Variables
 
+<div class="table-wrap">
+
 | Variable | Meaning                                                    |
 | -------- | ---------------------------------------------------------- |
 | `$?`     | Exit status of the last command (0 = success)              |
@@ -2573,6 +2613,8 @@ unset MY_VAR
 | `${10}`  | Positional parameter 10+ (must use braces)                 |
 | `IFS`    | Internal Field Separator (default: space, tab, newline)    |
 | `PATH`   | Colon-separated list of directories to search for commands |
+
+</div>
 
 ### Parameter Expansion
 
@@ -2626,6 +2668,8 @@ echo "${VAR,,}"
 
 ### Common Environment Files
 
+<div class="table-wrap">
+
 | File               | Sourced by                    | Purpose                             |
 | ------------------ | ----------------------------- | ----------------------------------- |
 | `/etc/environment` | PAM                           | System-wide environment variables   |
@@ -2636,6 +2680,8 @@ echo "${VAR,,}"
 | `~/.bash_profile`  | Login shells (bash)           | Alternative to `.profile`           |
 | `~/.bash_login`    | Login shells (bash, fallback) | Fallback if `.bash_profile` missing |
 | `/etc/profile.d/*` | `/etc/profile`                | Drop-in system scripts              |
+
+</div>
 
 ## Shell Scripting
 
@@ -2653,7 +2699,7 @@ Direct command (`./script.sh`):
 ```
 
 The `env` form is preferred for languages that may be installed in different locations
-(`/usr/bin/bash``/usr/local/bin/bash``/opt/homebrew/bin/bash`). The kernel only allows one Argument
+(`/usr/bin/bash`, `/usr/local/bin/bash`, `/opt/homebrew/bin/bash`). The kernel only allows one Argument
 on the shebang line, so `#!/usr/bin/bash -e` works but `#!/usr/bin/env bash -e` does not, `bash -e`
 is treated as a single argument to `env`.
 
@@ -2661,11 +2707,15 @@ is treated as a single argument to `env`.
 
 Quoting controls word splitting and globbing. The rules are:
 
+<div class="table-wrap">
+
 | Quote Type  | Expansions Performed                                  |
 | ----------- | ----------------------------------------------------- |
 | No quotes   | All expansions, word splitting, globbing              |
 | Double `""` | Parameter expansion, command substitution, arithmetic |
 | Single `''` | None, literal string                                 |
+
+</div>
 
 ```bash
 VAR="hello world"
@@ -2941,7 +2991,7 @@ done < file.txt
 ### Pitfall: `#!/bin/sh` with Bash Features
 
 Scripts using `[[`Arrays, `(( ))`Or `local` must use `#!/bin/bash`. On Debian/Ubuntu, `/bin/sh` Is
-`dash`Which does not support these. The script will fail with syntax errors that are hard to
+`dash`. Which does not support these. The script will fail with syntax errors that are hard to
 Diagnose because the error messages come from dash, not bash.
 
 ### Pitfall: Unquoted Variable Expansion in `[ ]`
@@ -2991,7 +3041,7 @@ printf '%-20s %5d\n' "filename" 42
 printf 'Error: %s (code %d)\n' "$msg" "$code"
 ```
 
-`printf` interprets C-style format specifiers (`%s``%d``%f``%x``%o`) and is the recommended Way to
+`printf` interprets C-style format specifiers (`%s`, `%d`, `%f`, `%x`, `%o`) and is the recommended Way to
 produce formatted output in shell scripts.
 
 ## Summary
@@ -3007,17 +3057,11 @@ implementation, and key applications.
 - rebasing and cherry-picking
 - Git workflows (GitFlow, trunk-based)
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 The shell is like a translator between you and the operating system -- you speak human (commands), the kernel speaks machine (syscalls), and the shell bridges the gap. Bash is the most common translator, but zsh and dash are alternatives with different strengths. The shell's prompt (PS1) is like a conversation indicator -- it tells you who you are, where you are, and what the shell is ready to do. Environment variables are like the shell's memory -- they store settings (PATH, HOME) that affect how commands run. Understanding the shell means understanding how Linux works at the most fundamental level.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -3044,15 +3088,19 @@ URL: https://linux.wyattau.com/01-cli-fundamentals/text-processing/
 ## Regular Expressions
 
 Regular expressions are the backbone of text processing on Linux. Three major flavors exist, each
-With different capabilities and syntax.
+with different capabilities and syntax.
 
 ### BRE vs ERE vs PCRE
 
+<div class="table-wrap">
+
 | Flavor | Engine          | Activator          | Metacharacters Require Escape | Lookaround |
-| ------ | --------------- | ------------------ | ----------------------------- | ---------- | --- |
+| ------ | --------------- | ------------------ | ----------------------------- | ---------- |
 | BRE    | POSIX `grep`    | Default            | `+`?`{``                      |`(`)`      | No  |
 | ERE    | POSIX `grep -E` | `grep -E``egrep`   | None                          | No         |
 | PCRE   | Perl-compatible | `grep -P``ripgrep` | None                          | Yes        |
+
+</div>
 
 ```text
 BRE:  \{1,3\}    \+    \?    \(group\)
@@ -4067,16 +4115,6 @@ sed -i 's/old/new/g' /readonly/file.txt  # may fail
 sed "s/old/new/g" /readonly/file.txt > /tmp/file.txt && sudo cp /tmp/file.txt /readonly/file.txt
 ```
 
-```mermaid
-flowchart TD
-    A[Text Processing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of text processing, including underlying theory, practical
@@ -4090,17 +4128,11 @@ implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Text processing in Linux is like having a team of specialised editors -- grep finds lines matching a pattern, sed makes find-and-replace changes, awk processes structured data, and sort/order/uniq organise the results. Regular expressions are the pattern language that these tools share: they let you describe what you are looking for with precision. The Unix philosophy of small, composable tools means you can chain them together like building blocks: cat file | grep error | sort | uniq -c finds all error lines, sorts them, and counts duplicates. This pipeline approach turns complex text transformations into simple, readable commands.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -4129,12 +4161,14 @@ URL: https://linux.wyattau.com/02-file-systems/file-permissions/
 ## Unix Permission Model
 
 Every file and directory on a Linux system carries a set of permission bits that control which users
-Can read, write, or execute it. The kernel enforces these permissions during every file system
+can read, write, or execute it. The kernel enforces these permissions during every file system
 Operation.
 
 ### Permission Bits
 
 Each file has three categories of permissions, each with three bits:
+
+<div class="table-wrap">
 
 | Category      | Read (r)                                    | Write (w)                                     | Execute (x)                |
 | ------------- | ------------------------------------------- | --------------------------------------------- | -------------------------- |
@@ -4142,7 +4176,11 @@ Each file has three categories of permissions, each with three bits:
 | **Group (g)** | Same as owner for group members             | Same                                          | Same                       |
 | **Other (o)** | Same for everyone else                      | Same                                          | Same                       |
 
+</div>
+
 ### Octal Notation
+
+<div class="table-wrap">
 
 | Octal | Binary | Permission |
 | ----- | ------ | ---------- |
@@ -4155,7 +4193,11 @@ Each file has three categories of permissions, each with three bits:
 | 6     | 110    | rw-        |
 | 7     | 111    | rwx        |
 
+</div>
+
 Common permission sets:
+
+<div class="table-wrap">
 
 | Octal | Meaning   | Use Case                                    |
 | ----- | --------- | ------------------------------------------- |
@@ -4165,6 +4207,8 @@ Common permission sets:
 | 600   | rw------- | SSH keys, config files                      |
 | 400   | r-------- | Read-only secrets                           |
 | 711   | rwx--x--x | Public directories (listable only by owner) |
+
+</div>
 
 ### Viewing Permissions
 
@@ -4188,11 +4232,15 @@ stat /etc/passwd
 
 Directory permissions have different semantics than file permissions:
 
+<div class="table-wrap">
+
 | Permission | File                 | Directory                                      |
 | ---------- | -------------------- | ---------------------------------------------- |
 | r          | Read file contents   | List filenames (requires x)                    |
 | w          | Modify file contents | Create/delete/rename files (requires x)        |
 | x          | Execute as a program | Enter directory (cd), access inode information |
+
+</div>
 
 ```text
 To list directory contents:    r + x
@@ -4293,10 +4341,14 @@ Member of. This is enforced by the kernel: the `chown(2)` system call checks `ca
 The umask (user file creation mask) determines the default permissions for newly created files and
 Directories. It is a mask that is subtracted from the maximum permissions:
 
+<div class="table-wrap">
+
 | Creation     | Maximum | Applied as         | umask 0022 result |
 | ------------ | ------- | ------------------ | ----------------- |
 | Regular file | 0666    | 0666 & ~022 = 0644 | rw-r--r--         |
 | Directory    | 0777    | 0777 & ~022 = 0755 | rwxr-xr-x         |
+
+</div>
 
 ```bash
 # View current umask
@@ -4552,6 +4604,8 @@ Assignment without full root access.
 
 ### Common Capabilities
 
+<div class="table-wrap">
+
 | Capability             | Description                                      |
 | ---------------------- | ------------------------------------------------ |
 | `CAP_NET_BIND_SERVICE` | Bind to privileged ports (&lt;1024)              |
@@ -4565,6 +4619,8 @@ Assignment without full root access.
 | `CAP_SETGID`           | Set group ID                                     |
 | `CAP_KILL`             | Send signals to any process                      |
 | `CAP_SYSLOG`           | Use privileged syslog                            |
+
+</div>
 
 ### setcap and getcap
 
@@ -4624,9 +4680,11 @@ capsh --drop="cap_net_raw" -- -c "ping -c 1 localhost"
 ## File Attributes
 
 File attributes (managed by `chattr`/`lsattr`) are separate from permissions. They are enforced by
-The ext4 filesystem (and others that support them) and cannot be overridden by root or capabilities.
+the ext4 filesystem (and others that support them) and cannot be overridden by root or capabilities.
 
 ### Common Attributes
+
+<div class="table-wrap">
 
 | Attribute | Description                                             |
 | --------- | ------------------------------------------------------- |
@@ -4638,6 +4696,8 @@ The ext4 filesystem (and others that support them) and cannot be overridden by r
 | `S`       | Synchronous updates, write changes to disk immediately |
 | `e`       | Extents format, uses extents (ext4 default)            |
 | `d`       | No dump, exclude from dump backups                     |
+
+</div>
 
 ### chattr and lsattr
 
@@ -4711,12 +4771,16 @@ rsync -aX /src/ /dest/
 
 Common extended attribute namespaces:
 
+<div class="table-wrap">
+
 | Namespace   | Description                                    |
 | ----------- | ---------------------------------------------- |
 | `user.`     | User-defined (any user can set on owned files) |
 | `system.`   | System-managed (POSIX ACLs stored here)        |
 | `security.` | SELinux labels stored here                     |
 | `trusted.`  | Kernel-managed, root only                      |
+
+</div>
 
 ## Permission Checking Algorithm
 
@@ -4747,7 +4811,7 @@ flowchart TD
 :::note
 Specific first), owning group or named groups, mask, other. The first matching entry that grants or
 Denies the requested access determines the result. The mask limits the maximum effective permissions
-For all named users, named groups, and the owning group.
+for all named users, named groups, and the owning group.
 
 ### Permission Check Summary
 
@@ -4927,17 +4991,11 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 File permissions are like the security system of a building -- the owner has the master key (full access), the group has a shared keycard (limited access), and everyone else gets whatever the building manager allows. The permission bits (rwx for owner, group, others) are like three sets of switches: read lets you look, write lets you change, and execute lets you use. chmod is the tool that flips these switches, and chown changes who holds the master key. The principle of least privilege means giving each user only the permissions they need -- like giving the janitor access to the maintenance closet but not the CEO's office.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -4964,9 +5022,9 @@ URL: https://linux.wyattau.com/02-file-systems/filesystems-and-mounting/
 ## Virtual File System (VFS) Layer
 
 The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file
-System types simultaneously. Application code calls `open(2)``read(2)``write(2)`And `stat(2)`
+System types simultaneously. Application code calls `open(2)`, `read(2)`, `write(2)` and `stat(2)`
 Without knowing whether the underlying storage uses ext4, XFS, Btrfs, NFS, or a pseudo-filesystem
-Like procfs.
+like procfs.
 
 ```mermaid
 graph TD
@@ -4991,12 +5049,16 @@ graph TD
 
 The VFS maintains four primary object types:
 
+<div class="table-wrap">
+
 | Object         | Description                                                        | Kernel Type          |
 | -------------- | ------------------------------------------------------------------ | -------------------- |
 | **superblock** | Describes a mounted file system (type, size, flags)                | `struct super_block` |
 | **inode**      | Represents a single file (metadata: permissions, size, timestamps) | `struct inode`       |
 | **dentry**     | Directory entry, maps a name to an inode                          | `struct dentry`      |
 | **file**       | Represents an open file (current offset, access mode)              | `struct file`        |
+
+</div>
 
 The dentry cache (dcache) holds the directory hierarchy in memory, avoiding disk lookups for
 Frequently accessed paths. The inode cache (icache) keeps recently accessed inodes in memory. Both
@@ -5014,15 +5076,17 @@ Includes a `struct file_system_type` that provides:
 - Module owner (for loadable modules)
 
 When `mount(2)` is called, the VFS invokes the appropriate file system"s mount function, which reads
-The superblock from disk and populates the VFS superblock object.
+the superblock from disk and populates the VFS superblock object.
 
 ## Inode Structure
 
 An inode (index node) is the fundamental data structure representing a file on disk. It contains all
 Metadata about a file except the filename (which is stored in the directory's data blocks, not in
-The inode itself).
+the inode itself).
 
 ### Inode Fields
+
+<div class="table-wrap">
 
 | Field        | Description                                       |
 | ------------ | ------------------------------------------------- |
@@ -5038,6 +5102,8 @@ The inode itself).
 | `st_atim`    | Last access time (can be disabled with `noatime`) |
 | `st_mtim`    | Last modification time (data change)              |
 | `st_ctim`    | Last status change time (metadata change)         |
+
+</div>
 
 ### Hard Links and the Inode
 
@@ -5065,6 +5131,8 @@ stat file3.txt
 
 The file type is encoded in the upper bits of `st_mode`:
 
+<div class="table-wrap">
+
 | Octal  | Type              | Description                           |
 | ------ | ----------------- | ------------------------------------- |
 | 010000 | Regular file      | Normal data file                      |
@@ -5074,6 +5142,8 @@ The file type is encoded in the upper bits of `st_mode`:
 | 006000 | Block device      | Buffered access (e.g., `/dev/sda`)    |
 | 002000 | Character device  | Unbuffered access (e.g., `/dev/null`) |
 | 014000 | Socket            | Network communication endpoint        |
+
+</div>
 
 ```bash
 # Test file types
@@ -5097,6 +5167,8 @@ Ext2 and ext3, adding extents, larger volumes, journal checksumming, and delayed
 
 ### Key Features
 
+<div class="table-wrap">
+
 | Feature             | ext4 Details                                          |
 | ------------------- | ----------------------------------------------------- |
 | **Max volume size** | 1 EiB (2^64 bytes theoretical, 64 TiB practical)      |
@@ -5108,10 +5180,12 @@ Ext2 and ext3, adding extents, larger volumes, journal checksumming, and delayed
 | **Checksums**       | Journal checksums, metadata checksums (metadata_csum) |
 | **Timestamps**      | nanosecond granularity                                |
 
+</div>
+
 ### Extents
 
 Traditional ext2/ext3 used indirect block mapping, the inode pointed to a block of pointers, which
-Could point to more pointer blocks (up to 3 levels of indirection). This was inefficient for large
+could point to more pointer blocks (up to 3 levels of indirection). This was inefficient for large
 Files because even a contiguous file required multiple block pointer lookups.
 
 Ext4 introduces **extents**, a descriptor that maps a contiguous range of blocks. An extent can
@@ -5129,11 +5203,15 @@ Extent descriptor:
 Ext4 uses a journal to ensure file system consistency after a crash. The journal records metadata
 Changes (and optionally data changes) before committing them to the main file system.
 
+<div class="table-wrap">
+
 | Journal Mode        | What is Journaled                                      | Performance | Safety  |
 | ------------------- | ------------------------------------------------------ | ----------- | ------- |
 | `ordered` (default) | Metadata only (data written before metadata committed) | Good        | High    |
 | `writeback`         | Metadata only (no ordering guarantee)                  | Best        | Medium  |
 | `journal`           | Both metadata and data                                 | Slowest     | Highest |
+
+</div>
 
 ```bash
 # View current journal mode
@@ -5147,11 +5225,11 @@ mount -o data=journal /dev/sda1 /mnt
 
 Ext4 uses **delayed allocation** (delalloc): when a process writes data, the blocks are not
 Immediately allocated on disk. Instead, the data is held in memory, and allocation is deferred until
-The kernel flushes it. This allows the allocator to make better decisions about contiguous block
+the kernel flushes it. This allows the allocator to make better decisions about contiguous block
 Placement, significantly reducing fragmentation.
 
 The downside: a crash before flush can lose more data than with immediate allocation. For databases
-That manage their own I/O (MySQL, PostgreSQL), delayed allocation should be disabled:
+that manage their own I/O (MySQL, PostgreSQL), delayed allocation should be disabled:
 
 ```bash
 # Disable delayed allocation for database volumes
@@ -5189,10 +5267,12 @@ resize2fs /dev/sda1 500G     # grow to 500 GiB
 ## XFS
 
 XFS is a high-performance journaling file system developed by SGI in 1993, designed for parallel I/O
-And large files. It is the default on RHEL/CentOS 7+ and is well-suited for large data volumes,
+and large files. It is the default on RHEL/CentOS 7+ and is well-suited for large data volumes,
 Media workloads, and databases.
 
 ### Key Features
+
+<div class="table-wrap">
 
 | Feature               | XFS Details                                             |
 | --------------------- | ------------------------------------------------------- |
@@ -5203,6 +5283,8 @@ Media workloads, and databases.
 | **Journaling**        | Metadata-only journal (separate log device supported)   |
 | **Allocation**        | B+tree-based extent allocation                          |
 | **Allocation Groups** | Independent regions for parallel allocation             |
+
+</div>
 
 ### Allocation Groups
 
@@ -5238,6 +5320,8 @@ Number of disk seeks required for lookups.
 
 ### XFS vs ext4
 
+<div class="table-wrap">
+
 | Aspect                 | ext4                            | XFS                                         |
 | ---------------------- | ------------------------------- | ------------------------------------------- |
 | **Volume resize**      | Can grow online, shrink offline | Can grow online, cannot shrink              |
@@ -5247,6 +5331,8 @@ Number of disk seeks required for lookups.
 | **Small files**        | Better                          | Good (more metadata overhead)               |
 | **Fragmentation**      | More susceptible                | Less (extents + AGs)                        |
 | **Snapshots**          | No native support               | No native support (use LVM/Btrfs)           |
+
+</div>
 
 ### XFS Tuning
 
@@ -5279,9 +5365,11 @@ Smaller size, and restore. Plan your volume sizes carefully when choosing XFS.
 
 Btrfs (B-tree file system, pronounced "butter-fs") is a copy-on-write (COW) file system with
 Built-in volume management, snapshots, checksumming, and compression. It is the default on Fedora
-And is used by Synology NAS systems.
+and is used by Synology NAS systems.
 
 ### Key Features
+
+<div class="table-wrap">
 
 | Feature             | Btrfs Details                                            |
 | ------------------- | -------------------------------------------------------- |
@@ -5293,6 +5381,8 @@ And is used by Synology NAS systems.
 | **Compression**     | LZ4 (default), ZSTD, LZO, ZLIB                           |
 | **Send/Receive**    | Efficient incremental snapshot transfer                  |
 | **Defragmentation** | Online defragmentation with `btrfs filesystem defrag`    |
+
+</div>
 
 ### Copy-on-Write (COW)
 
@@ -5325,7 +5415,7 @@ mount -o compress=zstd /dev/sdb1 /mnt/btrfs
 ### Subvolumes and Snapshots
 
 A subvolume is an independently mountable file tree within a Btrfs volume. Snapshots are subvolumes
-That share data blocks with their source.
+that share data blocks with their source.
 
 ```bash
 # Create a subvolume
@@ -5354,7 +5444,7 @@ btrfs send -p /mnt/btrfs/@home_snapshot_2023 /mnt/btrfs/@home_snapshot_2024 | \
 ### Btrfs RAID
 
 Btrfs implements RAID at the file system level (not block level like mdadm). This means RAID is
-Per-extent, not per-device, and can be configured differently for data and metadata:
+per-extent, not per-device, and can be configured differently for data and metadata:
 
 ```bash
 # RAID 1 for data, DUP for metadata (single device)
@@ -5419,6 +5509,8 @@ sequenceDiagram
 
 Common FUSE file systems:
 
+<div class="table-wrap">
+
 | File System  | Purpose                             |
 | ------------ | ----------------------------------- |
 | `sshfs`      | Mount remote directories over SSH   |
@@ -5428,6 +5520,8 @@ Common FUSE file systems:
 | `rclone`     | Mount cloud storage (S3, GCS, etc.) |
 | `fuseiso`    | Mount ISO images                    |
 | `exfat-fuse` | Read/write exFAT support            |
+
+</div>
 
 ```bash
 # Mount remote directory via SSH
@@ -5489,6 +5583,8 @@ UUID=ccc333-ddd444                           /swap          swap    defaults    
 tmpfs                                        /tmp           tmpfs   defaults,nosuid,nodev   0       0
 ```
 
+<div class="table-wrap">
+
 | Column      | Description                                                 |
 | ----------- | ----------------------------------------------------------- |
 | Device      | Device path, UUID=, LABEL=, or special (proc, sysfs, tmpfs) |
@@ -5498,7 +5594,11 @@ tmpfs                                        /tmp           tmpfs   defaults,nos
 | Dump        | Whether to include in `dump` backups (0 = no, 1 = yes)      |
 | Pass        | `fsck` check order (0 = skip, 1 = root, 2 = others)         |
 
+</div>
+
 ### Common Mount Options
+
+<div class="table-wrap">
 
 | Option                | Effect                                                    |
 | --------------------- | --------------------------------------------------------- |
@@ -5516,6 +5616,8 @@ tmpfs                                        /tmp           tmpfs   defaults,nos
 | `users`               | Allow any user to mount (implies noexec, nosuid, nodev)   |
 | `nofail`              | Do not fail boot if device is missing                     |
 | `x-systemd.requires=` | systemd dependency declaration                            |
+
+</div>
 
 ### systemd Automount
 
@@ -5603,6 +5705,8 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 
 ### Choosing the Right File System
 
+<div class="table-wrap">
+
 | Workload                      | Recommended FS | Rationale                                      |
 | ----------------------------- | -------------- | ---------------------------------------------- |
 | General-purpose server        | ext4           | Mature, well-tested, can shrink                |
@@ -5611,6 +5715,8 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 | Containers, overlays          | overlayfs      | Layered union mount, designed for containers   |
 | Temporary data, builds        | tmpfs          | RAM-backed, no disk I/O                        |
 | Removable media               | exFAT          | Cross-platform compatibility                   |
+
+</div>
 
 ### I/O Scheduler Selection
 
@@ -5622,6 +5728,8 @@ cat /sys/block/sda/queue/scheduler
 echo 'mq-deadline' > /sys/block/sda/queue/scheduler
 ```
 
+<div class="table-wrap">
+
 | Scheduler     | Use Case                                    |
 | ------------- | ------------------------------------------- |
 | `mq-deadline` | General-purpose, spinning disks, SATA       |
@@ -5629,15 +5737,21 @@ echo 'mq-deadline' > /sys/block/sda/queue/scheduler
 | `bfq`         | Desktop interactivity, slow devices         |
 | `kyber`       | Fast block devices (NVMe)                   |
 
+</div>
+
 ### Block Size Selection
 
 Block size affects performance based on workload:
+
+<div class="table-wrap">
 
 | Block Size | Small Files (lots of &lt; 4 KiB) | Large Files (streaming) |
 | ---------- | -------------------------------- | ----------------------- |
 | 1 KiB      | Efficient (less wasted space)    | More I/O operations     |
 | 4 KiB      | Good balance                     | Good balance            |
 | 64 KiB     | Wasted space                     | Fewer I/O operations    |
+
+</div>
 
 For databases and VM images, larger block sizes reduce metadata overhead. For mail servers and
 Source code repositories, smaller block sizes reduce wasted space.
@@ -5646,7 +5760,7 @@ Source code repositories, smaller block sizes reduce wasted space.
 
 ### Pitfall: Mounting Without `nofail` on Removable Drives
 
-If an `/etc/fstab` entry for a USB drive or network share does not include `nofail`The system will
+If an `/etc/fstab` entry for a USB drive or network share does not include `nofail`. The system will
 Drop to emergency shell on boot when the device is absent:
 
 ```text
@@ -5659,13 +5773,13 @@ Drop to emergency shell on boot when the device is absent:
 
 ### Pitfall: Running `fsck` on a Mounted File System
 
-Never run `fsck` (or `e2fsck``xfs_repair`) on a mounted file system. This can cause severe
+Never run `fsck` (or `e2fsck`, `xfs_repair`) on a mounted file system. This can cause severe
 Corruption. Always unmount first, or run from a live system.
 
 ### Pitfall: ext4 `inode exhaustion`
 
 Ext4 creates inodes at format time. If you have millions of small files, you can run out of inodes
-Before running out of disk space:
+before running out of disk space:
 
 ```bash
 # Check inode usage
@@ -5692,7 +5806,7 @@ chattr +C /var/lib/mysql
 
 `mount --bind` creates a new mount point for an existing directory without changing the file system.
 `mount --move` moves a mount point to a new location entirely. The difference matters for containers
-And chroots:
+and chroots:
 
 ```bash
 # Bind mount, makes /existing visible at /new-location
@@ -5705,13 +5819,13 @@ mount --move /old-mount-point /new-mount-point
 ### Pitfall: `/proc` and `/sys` Are Not Real Files
 
 Reading from `/proc` or `/sys` is not like reading a regular file. The kernel generates the content
-On each read. The output of a single `cat` may show inconsistent state if the kernel is modifying
-The data concurrently. For atomic reads, prefer sysctl or direct kernel interfaces.
+on each read. The output of a single `cat` may show inconsistent state if the kernel is modifying
+the data concurrently. For atomic reads, prefer sysctl or direct kernel interfaces.
 
 ### Pitfall: XFS Cannot Be Shrunk
 
 If you allocate a 1 TiB XFS volume and later need only 500 GiB, you cannot shrink it. You must back
-Up, recreate with the smaller size, and restore. Always size XFS volumes conservatively or plan to
+up, recreate with the smaller size, and restore. Always size XFS volumes conservatively or plan to
 Add space later.
 
 ## Summary
@@ -5727,17 +5841,11 @@ practical implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 File systems are like different filing systems in an office -- ext4 is the reliable, well-organised filing cabinet; XFS is the high-performance system for large files; Btrfs is the modern system with snapshots and compression. The VFS layer is the universal filing interface that lets you use any filing system without changing how you access files. Mounting is like opening a filing cabinet: you attach a storage device to a directory so its contents become accessible. The mount point is the door through which you access the files. Unmounting is like closing the cabinet -- you must finish using it before you can safely disconnect it.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -5810,6 +5918,8 @@ systemctl enable --now crond
 
 ### Special Strings
 
+<div class="table-wrap">
+
 | String      | Equivalent  | Description                     |
 | ----------- | ----------- | ------------------------------- |
 | `@yearly`   | `0 0 1 1 *` | Once per year                   |
@@ -5820,6 +5930,8 @@ systemctl enable --now crond
 | `@midnight` | `0 0 * * *` | Same as @daily                  |
 | `@hourly`   | `0 * * * *` | Once per hour                   |
 | `@reboot`   | (special)   | Run once at cron daemon startup |
+
+</div>
 
 ```bash
 # System backup every day at midnight
@@ -6014,7 +6126,7 @@ chmod 755 /etc/cron.daily/my-daily-job
 
 `anacron` (anachronistic cron) is designed for systems that are not running 24/7. Unlike cron, which
 Assumes the system is always on, anacron ensures that jobs run at the specified intervals relative
-To the last run, even if the system was off.
+to the last run, even if the system was off.
 
 ```bash
 # anacron configuration
@@ -6047,6 +6159,8 @@ ls -la /var/spool/anacron/
 
 ### cron vs anacron
 
+<div class="table-wrap">
+
 | Feature      | cron                  | anacron                     |
 | ------------ | --------------------- | --------------------------- |
 | System type  | 24/7 servers          | Desktops, laptops           |
@@ -6055,6 +6169,8 @@ ls -la /var/spool/anacron/
 | Runs at      | Exact specified times | After boot (with delay)     |
 | Per-user     | Yes                   | No (system-wide only)       |
 | Suitable for | Precise scheduling    | Ensuring periodic tasks run |
+
+</div>
 
 ## systemd Timers
 
@@ -6154,6 +6270,8 @@ systemctl show backup.timer --property=NextElapseUSecRealtime
 
 ### systemd Timers vs cron
 
+<div class="table-wrap">
+
 | Feature             | cron                     | systemd timer            |
 | ------------------- | ------------------------ | ------------------------ |
 | Boot catch-up       | No (missed jobs skipped) | Yes (`Persistent=true`)  |
@@ -6166,6 +6284,8 @@ systemctl show backup.timer --property=NextElapseUSecRealtime
 | Precision           | 1 minute                 | 1 minute (`AccuracySec`) |
 | Built-in monitoring | No                       | Yes (`systemctl status`) |
 | Timezone handling   | System timezone          | Per-timer `Timezone=`    |
+
+</div>
 
 :::note
 Logging, dependency management, and missed-job handling. However, cron remains ubiquitous and is
@@ -6687,16 +6807,6 @@ done
 # AccuracySec=1s
 ```
 
-```mermaid
-flowchart TD
-    A[Cron And Scheduling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of cron and task scheduling, including underlying theory,
@@ -6710,17 +6820,11 @@ practical implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Cron is like having a tireless personal assistant who checks your to-do list every minute and executes tasks at the scheduled times. The crontab is your list of instructions, and the five time fields (minute, hour, day, month, weekday) are like setting multiple alarms. The key is understanding the difference between cron (periodic tasks at fixed times) and at (one-time tasks at a specific time). Anacron extends cron to handle tasks that should run even if the machine was off -- it catches up on missed jobs when the system comes back online. Think of cron as your automation backbone: if you do something more than once, schedule it.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -6751,12 +6855,16 @@ Needed. File descriptors are non-negative integers maintained by the kernel per-
 
 ### Standard File Descriptors
 
+<div class="table-wrap">
+
 | FD  | Name   | Default Destination | Description                          |
 | --- | ------ | ------------------- | ------------------------------------ |
 | 0   | stdin  | Keyboard (terminal) | Input stream                         |
 | 1   | stdout | Terminal            | Normal output                        |
 | 2   | stderr | Terminal            | Error and diagnostic output          |
 | 3+  | custom | (none)              | Application-defined file descriptors |
+
+</div>
 
 ```bash
 ## View file descriptors for a process
@@ -7595,17 +7703,11 @@ practical implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 I/O redirection is like rerouting pipes in a plumbing system -- stdout is the main water flow, stderr is the overflow drain, and you can redirect either to a different destination. The > operator sends output to a file (like diverting a river into a reservoir), >> appends to a file (adding to the reservoir), and < reads from a file (drawing from the reservoir). Pipes (|) connect the output of one command to the input of another, like linking water pipes in series. File descriptors are the pipe labels: 0 is stdin (input pipe), 1 is stdout (output pipe), and 2 is stderr (error pipe). The key insight is that everything in Unix is a file, and redirection is how you control the flow of data between files and processes.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -7636,7 +7738,7 @@ Virtual address space, file descriptors, and execution context. The kernel manag
 A `task_struct` (in `include/linux/sched.h`), which tracks PID, state, scheduling priority, open
 Files, signal handlers, and more.
 
-### Creating Processes: `fork``exec``wait`
+### Creating Processes: `fork`, `exec`, `wait`
 
 The POSIX process creation model consists of three operations:
 
@@ -7678,7 +7780,7 @@ if (pid == -1) {
 
 Modern Linux uses **Copy-on-Write (COW)** pages for `fork`: the parent's page tables are duplicated,
 But the physical pages are shared and marked read-only. When either process writes to a page, a copy
-Is made. This means `fork` is O(n) in page table size, not O(n) in memory.
+is made. This means `fork` is O(n) in page table size, not O(n) in memory.
 
 #### `execve(2)`
 
@@ -7696,13 +7798,13 @@ perror("execve");
 exit(1);
 ```
 
-Variants of `exec`: `execl``execlp``execle``execv``execvp``execvpe`they differ in how Arguments
+Variants of `exec`: `execl`, `execlp`, `execle`, `execv`, `execvp`, `execvpe`they differ in how Arguments
 and environment are passed.
 
 #### `wait(2)` / `waitpid(2)`
 
 A parent must call `wait` (or `waitpid`) to collect the child's exit status. If a child terminates
-And the parent does not wait, the child becomes a **zombie** (state `Z`), it retains its PID and
+and the parent does not wait, the child becomes a **zombie** (state `Z`), it retains its PID and
 Exit status in the kernel's process table until the parent waits.
 
 ```c
@@ -7720,6 +7822,8 @@ if (WIFEXITED(status)) {
 
 ### Process Identification
 
+<div class="table-wrap">
+
 | Identifier   | Field in `task_struct` | Description                               |
 | ------------ | ---------------------- | ----------------------------------------- |
 | **PID**      | `pid`                  | Process identifier (unique system-wide)   |
@@ -7729,6 +7833,8 @@ if (WIFEXITED(status)) {
 | **SID**      | `signal->leader->pid`  | Session ID (for job control)              |
 | **UID/EUID** | `real_cred/cred`       | Real and effective user ID                |
 | **GID/EGID** | `real_cred/cred`       | Real and effective group ID               |
+
+</div>
 
 In Linux, threads are implemented as processes that share certain resources (address space, file
 Descriptors, signal handlers). Each thread has its own TID, but all threads in a process share the
@@ -7775,6 +7881,8 @@ stateDiagram-v2
     ZOMBIE --> [*]: parent calls wait
 ```
 
+<div class="table-wrap">
+
 | State                    | Code | Description                                                    |
 | ------------------------ | ---- | -------------------------------------------------------------- |
 | **TASK_RUNNING**         | R    | Runnable (either executing or on a run queue)                  |
@@ -7784,6 +7892,8 @@ stateDiagram-v2
 | **TASK_TRACED**          | t    | Stopped by debugger (ptrace)                                   |
 | **EXIT_ZOMBIE**          | Z    | Terminated, parent has not called `wait`                       |
 | **EXIT_DEAD**            | X    | Completely dead, waiting to be reaped                          |
+
+</div>
 
 ```bash
 # View process states
@@ -7813,6 +7923,8 @@ User-space processes.
 
 ### Standard Signals
 
+<div class="table-wrap">
+
 | Signal    | Number | Default Action | Description                                    |
 | --------- | ------ | -------------- | ---------------------------------------------- |
 | `SIGHUP`  | 1      | Terminate      | Terminal hangup (daemon reload convention)     |
@@ -7834,6 +7946,8 @@ User-space processes.
 | `SIGTSTP` | 20     | Stop           | Terminal stop (Ctrl+Z)                         |
 | `SIGTTIN` | 21     | Stop           | Background read from terminal                  |
 | `SIGTTOU` | 22     | Stop           | Background write to terminal                   |
+
+</div>
 
 ### Real-Time Signals
 
@@ -7887,11 +8001,11 @@ sigaction(SIGTERM, &amp;sa, NULL);
 ```
 
 **Signal-safe functions**: Only async-signal-safe functions may be called from within a signal
-Handler. Calling non-signal-safe functions (like `printf``malloc``free`) from a handler is Undefined
+Handler. Calling non-signal-safe functions (like `printf`, `malloc`, `free`) from a handler is Undefined
 behavior if the handler interrupts one of those functions in the main program.
 
-Signal-safe functions include: `write``read``_exit``kill``sigaction``sigprocmask`
-`sigaddset``sigemptyset``sigfillset`.
+Signal-safe functions include: `write`, `read`, `_exit`, `kill`, `sigaction`, `sigprocmask`
+`sigaddset`, `sigemptyset`, `sigfillset`.
 
 ```c
 // CORRECT signal handler
@@ -8077,12 +8191,16 @@ ionice -c 3 command             # idle (only uses I/O when no one else is)
 
 ### Real-Time Scheduling Policies
 
+<div class="table-wrap">
+
 | Policy           | `sched_setscheduler` | Description                                          |
 | ---------------- | -------------------- | ---------------------------------------------------- |
 | `SCHED_FIFO`     | 1                    | First-in, first-out, runs until blocked or preempted |
 | `SCHED_RR`       | 2                    | Round-robin with configurable time quantum           |
 | `SCHED_DEADLINE` | 6                    | Earliest Deadline First (EDF) scheduling             |
 | `SCHED_OTHER`    | 0                    | Default CFS policy                                   |
+
+</div>
 
 ```bash
 # View scheduling policy
@@ -8099,7 +8217,7 @@ chrt -d 1000000 5000000 200000 command  # runtime, deadline, period (ns)
 
 :::caution
 Consume 100% CPU and lock out all other processes, including the kernel's management threads. Use
-Only for well-understood, bounded workloads (audio processing, industrial control).
+only for well-understood, bounded workloads (audio processing, industrial control).
 
 ## cgroups
 
@@ -8109,6 +8227,8 @@ Kubernetes, systemd).
 
 ### cgroups v1 vs v2
 
+<div class="table-wrap">
+
 | Aspect      | cgroups v1                    | cgroups v2                         |
 | ----------- | ----------------------------- | ---------------------------------- |
 | Hierarchy   | Multiple (one per controller) | Single unified hierarchy           |
@@ -8116,6 +8236,8 @@ Kubernetes, systemd).
 | Controllers | Independent, per-subsystem    | Unified, coordinated               |
 | Delegation  | Complex                       | Simplified                         |
 | Default     | Legacy systems                | Modern distributions (since ~2020) |
+
+</div>
 
 ```bash
 # Check cgroups version
@@ -8160,7 +8282,7 @@ cat /sys/fs/cgroup/mygroup/io.stat
 ### systemd and cgroups
 
 Systemd manages cgroups automatically. Each service gets its own cgroup, which means resource limits
-Can be configured directly in the unit file:
+can be configured directly in the unit file:
 
 ```ini
 # /etc/systemd/system/myapp.service
@@ -8208,11 +8330,15 @@ ulimit -u 4096     # increase max processes
 # root      hard  nproc   unlimited
 ```
 
+<div class="table-wrap">
+
 | Limit Type  | Soft Limit                     | Hard Limit                              |
 | ----------- | ------------------------------ | --------------------------------------- |
 | Definition  | Enforced for the process       | Maximum the soft limit can be raised to |
 | Who can set | Any process (up to hard limit) | Root (can lower from any value)         |
 | Per-process | Yes                            | Yes                                     |
+
+</div>
 :::
 
 :::caution
@@ -8293,7 +8419,7 @@ ltrace -e strlen,strcpy ./myprogram
 ### Pitfall: `SIGKILL` Cannot Be Caught
 
 `SIGKILL` (9) and `SIGSTOP` (19) cannot be caught, blocked, or ignored. If a process does not
-Respond to `SIGKILL`It is almost certainly in the **D state** (uninterruptible sleep), waiting for
+Respond to `SIGKILL`. It is almost certainly in the **D state** (uninterruptible sleep), waiting for
 Kernel resources that will never become available.
 
 ```bash
@@ -8306,7 +8432,7 @@ cat /proc/$PID/stack    # kernel stack trace (requires CONFIG_STACKTRACE)
 
 ### Pitfall: `waitpid` and Signal Races
 
-If a child terminates before the parent calls `waitpid`The child becomes a zombie. If the parent
+If a child terminates before the parent calls `waitpid`. The child becomes a zombie. If the parent
 Terminates before the child, the child is reparented to PID 1. In neither case is the exit status
 Lost, but zombies accumulate if the parent never waits:
 
@@ -8370,7 +8496,7 @@ trap "wait" SIGCHLD
 ### Pitfall: `ulimit` Not Applied to systemd Services
 
 Setting `nofile` in `/etc/security/limits.conf` has no effect on systemd services because systemd
-Does not use PAM. Instead, configure limits in the service unit:
+does not use PAM. Instead, configure limits in the service unit:
 
 ```ini
 # systemctl edit myservice
@@ -8412,17 +8538,11 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Processes are like workers in a factory -- each has a task (program), a workspace (memory), and a status (running, sleeping, stopped). Fork is like cloning a worker: the child gets a copy of the parent's workspace. Exec is like giving the clone a new task -- same worker, different job. Wait is the parent checking in on the child. Signals are like alarm bells: SIGTERM asks a process to shut down politely, SIGKILL forces it to stop immediately, and SIGHUP tells it to re-read its configuration. The key insight is that process management is about resource allocation: the kernel decides which worker gets the CPU, how much memory they can use, and when they get休息.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -9264,17 +9384,6 @@ dig @10.0.0.1 db.internal
 # external resolver is being queried instead
 ```
 
-
-```mermaid
-flowchart TD
-    A[Dns And Dhcp] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dns and dhcp on linux, including underlying theory, practical
@@ -9287,9 +9396,6 @@ implementation, and key applications.
 - protocols (HTTP, FTP, SMTP)
 - encryption and security
 - client-server and peer-to-peer
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 
@@ -9343,6 +9449,8 @@ flowchart LR
     POST --> OUT["Outgoing Packet"]
 ```
 
+<div class="table-wrap">
+
 | Hook        | Triggers When                          |
 | ----------- | -------------------------------------- |
 | PREROUTING  | Any incoming packet, before routing    |
@@ -9351,7 +9459,11 @@ flowchart LR
 | OUTPUT      | Packet generated by local process      |
 | POSTROUTING | Any outgoing packet, after routing     |
 
+</div>
+
 ### Tables
+
+<div class="table-wrap">
 
 | Table    | Purpose                                            |
 | -------- | -------------------------------------------------- |
@@ -9360,6 +9472,8 @@ flowchart LR
 | mangle   | Packet modification (TOS, TTL, marks)              |
 | raw      | Connection tracking exemptions                     |
 | security | LSM security hooks (used by SELinux/AppArmor)      |
+
+</div>
 
 ### Chains
 
@@ -9740,6 +9854,8 @@ nft add rule ip nat postrouting ip saddr 10.0.0.0/24 snat to 203.0.113.1
 
 ### nftables vs iptables
 
+<div class="table-wrap">
+
 | Aspect              | iptables                      | nftables                                 |
 | ------------------- | ----------------------------- | ---------------------------------------- |
 | Syntax              | Multiple commands             | Single atomic ruleset                    |
@@ -9749,6 +9865,8 @@ nft add rule ip nat postrouting ip saddr 10.0.0.0/24 snat to 203.0.113.1
 | Extensibility       | Kernel modules                | Extensible expressions                   |
 | Configuration       | Scattered across commands     | Single file                              |
 | Connection tracking | Same backend (nf_conntrack)   | Same backend                             |
+
+</div>
 
 ```bash
 # Convert iptables rules to nftables
@@ -10283,13 +10401,7 @@ implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -10348,18 +10460,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -10382,7 +10482,7 @@ URL: https://linux.wyattau.com/04-networking/linux-networking/
 
 ## Network Interface Management (iproute2)
 
-The `iproute2` suite has replaced the legacy `net-tools` (`ifconfig``route``netstat`) as the
+The `iproute2` suite has replaced the legacy `net-tools` (`ifconfig`, `route`, `netstat`) as the
 Standard Linux network management toolset. It provides a consistent interface for managing
 Interfaces, addresses, routes, tunnels, and policies.
 
@@ -10435,6 +10535,8 @@ ip addr show eth0
 
 Modern Linux uses **predictable network interface names** instead of `eth0`:
 
+<div class="table-wrap">
+
 | Naming Scheme | Format                             | Example           |
 | ------------- | ---------------------------------- | ----------------- |
 | `biosdevname` | BIOS-provided names                | `em1``p1p1`       |
@@ -10442,6 +10544,8 @@ Modern Linux uses **predictable network interface names** instead of `eth0`:
 | `slot`        | Physical slot number               | `enp3s0`          |
 | `path`        | Physical topology path             | `enx78e7d1ea46da` |
 | `mac`         | MAC address (for USB/dock devices) | `enx78e7d1ea46da` |
+
+</div>
 
 To revert to classic names, add `net.ifnames=0 biosdevname=0` to the kernel command line.
 
@@ -10507,7 +10611,7 @@ ip route flush table cache    # flush routing cache
 ### Policy Routing
 
 Linux supports multiple routing tables and policy-based routing (PBR). The `ip rule` command selects
-Which routing table to use based on source address, destination address, TOS, firewall mark, etc.
+which routing table to use based on source address, destination address, TOS, firewall mark, etc.
 
 ```bash
 # List routing rules
@@ -10590,7 +10694,7 @@ hosts: files dns mdns4_minimal [NOTFOUND=return] dns
 
 The lookup order: local files (`/etc/hosts`) first, then DNS. The `mdns4_minimal` entry handles
 Multicast DNS (`.local` domain) and returns NOTFOUND for non-`.local` names, which then falls
-Through to regular DNS.
+through to regular DNS.
 
 ### `dig` and `nslookup`
 
@@ -10622,7 +10726,7 @@ dig +dnssec example.com
 ## Netfilter Framework
 
 Netfilter is the kernel-level packet filtering framework that provides hooks at five points in the
-Networking stack. It is the foundation for `iptables``nftables`And connection tracking.
+Networking stack. It is the foundation for `iptables`, `nftables` and connection tracking.
 
 ### Netfilter Hooks
 
@@ -10639,6 +10743,8 @@ graph LR
     H --> I[Outgoing Packet]
 ```
 
+<div class="table-wrap">
+
 | Hook                     | Chains (iptables) | Description                                 |
 | ------------------------ | ----------------- | ------------------------------------------- |
 | **NF_INET_PRE_ROUTING**  | `PREROUTING`      | Before routing decision, DNAT, mangling    |
@@ -10647,10 +10753,14 @@ graph LR
 | **NF_INET_LOCAL_OUT**    | `OUTPUT`          | Packets originating from local processes    |
 | **NF_INET_POST_ROUTING** | `POSTROUTING`     | After routing decision, SNAT, masquerading |
 
+</div>
+
 ### Connection Tracking (conntrack)
 
 The `nf_conntrack` module tracks the state of network connections. It classifies packets into
 Connection states:
+
+<div class="table-wrap">
 
 | State         | Description                                                           |
 | ------------- | --------------------------------------------------------------------- |
@@ -10659,6 +10769,8 @@ Connection states:
 | `RELATED`     | Packet related to an existing connection (e.g., FTP data, ICMP error) |
 | `UNREPLIED`   | Connection entry exists but no response packet seen                   |
 | `INVALID`     | Packet does not match any known connection                            |
+
+</div>
 
 ```bash
 # View connection tracking table
@@ -10693,6 +10805,8 @@ And rules with matches and targets.
 
 ### Tables and Chains
 
+<div class="table-wrap">
+
 | Table      | Chains Available                                | Purpose                                          |
 | ---------- | ----------------------------------------------- | ------------------------------------------------ |
 | `filter`   | INPUT, FORWARD, OUTPUT                          | Packet filtering (accept/drop/reject)            |
@@ -10700,6 +10814,8 @@ And rules with matches and targets.
 | `mangle`   | PREROUTING, INPUT, FORWARD, OUTPUT, POSTROUTING | Packet modification (TOS, TTL, marks)            |
 | `raw`      | PREROUTING, OUTPUT                              | Disable connection tracking for specific packets |
 | `security` | INPUT, FORWARD, OUTPUT                          | SELinux security context filtering               |
+
+</div>
 
 ### Common iptables Operations
 
@@ -10762,6 +10878,8 @@ iptables-restore < /etc/iptables/rules.v4
 iptables -t table -A chain [matches] -j target
 ```
 
+<div class="table-wrap">
+
 | Component   | Examples                                          |
 | ----------- | ------------------------------------------------- |
 | `-p proto`  | `tcp``udp``icmp``all`                             |
@@ -10774,12 +10892,16 @@ iptables -t table -A chain [matches] -j target
 | `-m match`  | Module: `conntrack``limit``multiport``state``mac` |
 | `-j target` | `ACCEPT``DROP``REJECT``LOG``RETURN``DNAT``SNAT`   |
 
+</div>
+
 ## nftables
 
 Nftables is the successor to iptables, designed from the ground up for better performance, more
 Consistent syntax, and atomic rule replacement.
 
 ### Key Differences from iptables
+
+<div class="table-wrap">
 
 | Aspect             | iptables                              | nftables                          |
 | ------------------ | ------------------------------------- | --------------------------------- |
@@ -10789,6 +10911,8 @@ Consistent syntax, and atomic rule replacement.
 | **Syntax**         | Multiple commands, inconsistent flags | Single consistent syntax          |
 | **Kernel module**  | Multiple (xt\_)                       | Single `nf_tables`                |
 | **IPv4/IPv6**      | Separate (`iptables`/`ip6tables`)     | Unified (`nft`)                   |
+
+</div>
 
 ### nftables Configuration
 
@@ -11200,7 +11324,7 @@ iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
 ### Pitfall: Loopback Not Allowed
 
-If `INPUT` policy is `DROP`You must explicitly allow loopback traffic. Many local services (MySQL,
+If `INPUT` policy is `DROP`. You must explicitly allow loopback traffic. Many local services (MySQL,
 PostgreSQL, web servers) communicate over the loopback interface:
 
 ```bash
@@ -11243,9 +11367,6 @@ implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -11280,7 +11401,7 @@ URL: https://linux.wyattau.com/05-systemd/journal-and-logging/
 ## systemd-journald Architecture
 
 `systemd-journald` is the central logging daemon in systemd-based systems. It collects log messages
-From multiple sources and stores them in a structured, indexed binary format.
+from multiple sources and stores them in a structured, indexed binary format.
 
 ```mermaid
 flowchart LR
@@ -11295,6 +11416,8 @@ flowchart LR
 
 ### Log Sources
 
+<div class="table-wrap">
+
 | Source           | Description                                 |
 | ---------------- | ------------------------------------------- |
 | stdout/stderr    | All service output captured by systemd      |
@@ -11302,7 +11425,9 @@ flowchart LR
 | syslog()         | Traditional syslog calls                    |
 | Audit events     | Kernel audit subsystem                      |
 | /dev/kmsg        | Kernel log device                           |
-| Internal journal | Journal"s own diagnostic messages           |
+| Internal journal | Journal's own diagnostic messages           |
+
+</div>
 
 ### Storage Modes
 
@@ -11632,7 +11757,7 @@ logrotate -d /etc/logrotate.d/nginx
 ## rsyslog
 
 `rsyslog` is the traditional syslog daemon that can receive messages from journald and process them
-With rules-based routing.
+with rules-based routing.
 
 ### Configuration
 
@@ -12290,6 +12415,8 @@ graph TD
 A **unit** is the fundamental object that systemd manages. Each unit has a configuration file and a
 Type that determines its behavior.
 
+<div class="table-wrap">
+
 | Unit Type     | File Extension | Description                                |
 | ------------- | -------------- | ------------------------------------------ |
 | **Service**   | `.service`     | A system service (daemon or one-shot)      |
@@ -12303,6 +12430,8 @@ Type that determines its behavior.
 | **Scope**     | `.scope`       | An externally created process group        |
 | **Swap**      | `.swap`        | A swap device                              |
 | **Device**    | `.device`      | A kernel device                            |
+
+</div>
 
 ### Finding Unit Files
 
@@ -12399,6 +12528,8 @@ WantedBy=multi-user.target
 
 ### `[Unit]` Section
 
+<div class="table-wrap">
+
 | Directive       | Description                                                 |
 | --------------- | ----------------------------------------------------------- |
 | `Description`   | Human-readable description                                  |
@@ -12411,7 +12542,11 @@ WantedBy=multi-user.target
 | `Conflicts=`    | If the listed unit is running, this unit cannot start       |
 | `PartOf=`       | When the listed unit is stopped/restarted, this unit is too |
 
+</div>
+
 ### `[Service]` Section, Service Type
+
+<div class="table-wrap">
 
 | Type               | Behavior                                                                              | Use Case                      |
 | ------------------ | ------------------------------------------------------------------------------------- | ----------------------------- |
@@ -12423,6 +12558,8 @@ WantedBy=multi-user.target
 | `notify`           | Service sends `sd_notify()` when ready. Systemd waits for the notification.           | Modern daemons with sd_notify |
 | `notify-reload`    | Like `notify`But supports `sd_notify(RELOADING=1)` for reload.                        | Daemons with reload support   |
 | `idle`             | Like `simple`But started after all active jobs are dispatched.                        | Avoids blocking boot output   |
+
+</div>
 
 ### `[Service]` Section, Lifecycle Directives
 
@@ -12457,6 +12594,8 @@ EnvironmentFile=-/etc/myapp/env.local    # - means file is optional
 
 ### `[Service]` Section, Restart Policy
 
+<div class="table-wrap">
+
 | Directive             | Behavior                                             |
 | --------------------- | ---------------------------------------------------- |
 | `Restart=no`          | Never restart (default)                              |
@@ -12466,6 +12605,8 @@ EnvironmentFile=-/etc/myapp/env.local    # - means file is optional
 | `Restart=on-abort`    | Restart on signal (not clean exit)                   |
 | `Restart=on-watchdog` | Restart on watchdog timeout                          |
 | `Restart=always`      | Always restart, regardless of exit status            |
+
+</div>
 
 ```ini
 Restart=on-failure
@@ -12536,6 +12677,8 @@ Targets are synchronization points that group units. They replace the SysV runle
 
 ### Target Equivalents to Runlevels
 
+<div class="table-wrap">
+
 | SysV Runlevel | systemd Target      | Description                   |
 | ------------- | ------------------- | ----------------------------- |
 | 0             | `poweroff.target`   | Halt/shutdown                 |
@@ -12546,6 +12689,8 @@ Targets are synchronization points that group units. They replace the SysV runle
 | 6             | `reboot.target`     | Reboot                        |
 |,             | `emergency.target`  | Emergency shell               |
 |,             | `default.target`    | Symlink to the default target |
+
+</div>
 
 ```bash
 # View current target
@@ -12662,7 +12807,7 @@ Does not exist, logs are stored in `/run/log/journal/` (volatile, lost on reboot
 ## Timers
 
 Systemd timers replace cron for scheduled tasks. They support one-shot and recurring timers with
-More precise scheduling than cron.
+more precise scheduling than cron.
 
 ### Timer Unit File
 
@@ -12804,9 +12949,11 @@ systemctl list-sockets | grep myapp
 ## Service Hardening
 
 Systemd provides a comprehensive set of directives for restricting what a service can do. These are
-The primary mechanism for securing systemd-managed services.
+the primary mechanism for securing systemd-managed services.
 
 ### Filesystem Restrictions
+
+<div class="table-wrap">
 
 | Directive              | Effect                                           |
 | ---------------------- | ------------------------------------------------ |
@@ -12824,7 +12971,11 @@ The primary mechanism for securing systemd-managed services.
 | `BindReadOnlyPaths=`   | Mount paths read-only into service namespace     |
 | `BindPaths=`           | Mount paths read-write into service namespace    |
 
+</div>
+
 ### Process and Capability Restrictions
+
+<div class="table-wrap">
 
 | Directive                    | Effect                                           |
 | ---------------------------- | ------------------------------------------------ |
@@ -12841,6 +12992,8 @@ The primary mechanism for securing systemd-managed services.
 | `RestrictRealtime=yes`       | Deny real-time scheduling                        |
 | `MemoryDenyWriteExecute=yes` | Deny creating writable+executable memory         |
 | `LockPersonality=yes`        | Lock the execution domain (personality)          |
+
+</div>
 
 ### Hardening Example
 
@@ -12918,6 +13071,8 @@ systemd-analyze verify myapp.service
 
 Systemd manages two categories of services:
 
+<div class="table-wrap">
+
 | Aspect            | System Services                    | User Services                        |
 | ----------------- | ---------------------------------- | ------------------------------------ |
 | **PID 1 scope**   | Managed by system systemd (PID 1)  | Managed by per-user systemd instance |
@@ -12925,6 +13080,8 @@ Systemd manages two categories of services:
 | **Manages**       | System daemons, hardware           | User applications, session services  |
 | **Run as**        | Any user ( root)                   | The user who started them            |
 | **Lifespan**      | System-wide, from boot to shutdown | From login to logout (or linger)     |
+
+</div>
 
 ```bash
 # User service management (note --user flag)
@@ -13042,7 +13199,7 @@ Journal. This means:
 
 `EnvironmentFile` reads a file of `KEY=VALUE` pairs. It does **not** perform shell variable
 Expansion. If you need expansion, use `ExecStart` with a shell wrapper or use `${VARIABLE}` in
-`ExecStart` (systemd performs its own expansion for `%i``%n`Etc.):
+`ExecStart` (systemd performs its own expansion for `%i`, `%n`. Etc.):
 
 ```ini
 # This works, systemd expands %n, %i, %f, etc.
@@ -13083,9 +13240,6 @@ implementation, and key applications.
 - protocols (HTTP, FTP, SMTP)
 - encryption and security
 - client-server and peer-to-peer
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 
@@ -13189,6 +13343,8 @@ Associated permissions.
 
 ### User and Group Files
 
+<div class="table-wrap">
+
 | File              | Purpose                                                         |
 | ----------------- | --------------------------------------------------------------- |
 | `/etc/passwd`     | User accounts (UID, home dir, shell, password in shadow)       |
@@ -13197,6 +13353,8 @@ Associated permissions.
 | `/etc/gshadow`    | Group password hashes (readable by root only)                   |
 | `/etc/skel/`      | Template directory for new user home directories                |
 | `/etc/login.defs` | Default settings for user creation (UID range, password policy) |
+
+</div>
 
 ```bash
 ## View user information
@@ -13239,12 +13397,16 @@ Administration.
 
 ### Special UIDs
 
+<div class="table-wrap">
+
 | UID   | Name         | Description                                      |
 | ----- | ------------ | ------------------------------------------------ |
 | 0     | root         | Superuser, unrestricted access to all resources |
 | 1     | daemon       | System daemons                                   |
 | 65534 | nobody       | Unprivileged user (used for NFS, some services)  |
 | -1    | (4294967295) | `nobody` on some systems, overflow of 32-bit UID |
+
+</div>
 
 ### NSS, Name Service Switch
 
@@ -13269,6 +13431,8 @@ Or `/etc/pam.conf`.
 
 ### PAM Module Types
 
+<div class="table-wrap">
+
 | Type       | Purpose                                                 |
 | ---------- | ------------------------------------------------------- |
 | `auth`     | Verify the user's identity (password, token, biometric) |
@@ -13276,7 +13440,11 @@ Or `/etc/pam.conf`.
 | `password` | Password change/verification                            |
 | `session`  | Session setup and teardown (logging, resource limits)   |
 
+</div>
+
 ### PAM Control Flags
+
+<div class="table-wrap">
 
 | Flag         | Behavior                                                                                      |
 | ------------ | --------------------------------------------------------------------------------------------- |
@@ -13286,6 +13454,8 @@ Or `/etc/pam.conf`.
 | `optional`   | Module result is ignored unless it is the only module for the type                            |
 | `include`    | Include all lines from another PAM configuration file                                         |
 | `substack`   | Run another PAM stack independently                                                           |
+
+</div>
 
 ### PAM Configuration Example
 
@@ -13319,6 +13489,8 @@ session required    pam_unix.so
 
 ### Key PAM Modules
 
+<div class="table-wrap">
+
 | Module                        | Purpose                                                 |
 | ----------------------------- | ------------------------------------------------------- |
 | `pam_unix.so`                 | Standard UNIX authentication (/etc/passwd, /etc/shadow) |
@@ -13329,6 +13501,8 @@ session required    pam_unix.so
 | `pam_mkhomedir.so`            | Auto-create home directories on first login             |
 | `pam_sssd.so`                 | Authentication via SSSD (LDAP, AD, IPA)                 |
 | `pam_google_authenticator.so` | TOTP two-factor authentication                          |
+
+</div>
 
 ### Password Policy with pam_pwquality
 
@@ -13370,6 +13544,8 @@ Granting a process full root access, you can grant only the specific capabilitie
 
 ### Common Capabilities
 
+<div class="table-wrap">
+
 | Capability             | Description                                            |
 | ---------------------- | ------------------------------------------------------ |
 | `CAP_NET_BIND_SERVICE` | Bind to privileged ports (&lt; 1024)                   |
@@ -13387,6 +13563,8 @@ Granting a process full root access, you can grant only the specific capabilitie
 | `CAP_FSETID`           | Set setuid/setgid bits                                 |
 | `CAP_SETPCAP`          | Modify capability bounding set                         |
 | `CAP_AUDIT_WRITE`      | Write to the audit log                                 |
+
+</div>
 
 ### Managing Capabilities
 
@@ -13425,7 +13603,7 @@ NoNewPrivileges=yes
 
 :::tip
 Is especially dangerous as it encompasses many sub-capabilities. Use more specific capabilities
-Whenever possible.
+whenever possible.
 
 ## SELinux
 
@@ -13435,11 +13613,15 @@ Policies are enforced by the kernel and cannot be overridden by the file owner.
 
 ### SELinux Modes
 
+<div class="table-wrap">
+
 | Mode         | Enforcement | Description                                               |
 | ------------ | ----------- | --------------------------------------------------------- |
 | `enforcing`  | Yes         | Policy violations are blocked and logged                  |
 | `permissive` | No          | Policy violations are logged but not blocked (audit mode) |
 | `disabled`   | No          | SELinux is completely disabled (not recommended)          |
+
+</div>
 
 ```bash
 # View current mode
@@ -13466,12 +13648,16 @@ user:role:type:level
 system_u:object_r:httpd_sys_content_t:s0
 ```
 
+<div class="table-wrap">
+
 | Component | Example               | Description                                        |
 | --------- | --------------------- | -------------------------------------------------- |
 | **User**  | `system_u``user_u`    | SELinux user identity                              |
 | **Role**  | `object_r``staff_r`   | Role determines which types can be accessed        |
 | **Type**  | `httpd_sys_content_t` | Type enforcement policy (most important component) |
 | **Level** | `s0``s0-s15:c0.c1023` | MLS/MCS level (for multi-level security)           |
+
+</div>
 
 ```bash
 # View file context
@@ -13545,11 +13731,15 @@ sealert -l &lt;audit-event-id&gt;
 
 ### SELinux Policy Types
 
+<div class="table-wrap">
+
 | Policy     | Description                                                  |
 | ---------- | ------------------------------------------------------------ |
 | `targeted` | Confines specific system services (httpd, mysqld, etc.)      |
 | `mls`      | Multi-Level Security, mandatory for classified environments |
 | `minimum`  | Minimal policy for embedded systems                          |
+
+</div>
 
 ## AppArmor
 
@@ -13621,6 +13811,8 @@ apparmor_parser -r /etc/apparmor.d/*
 
 ### AppArmor vs SELinux
 
+<div class="table-wrap">
+
 | Aspect          | SELinux                                  | AppArmor                              |
 | --------------- | ---------------------------------------- | ------------------------------------- |
 | **Model**       | Label-based (security context on inodes) | Path-based (profiles reference paths) |
@@ -13631,6 +13823,8 @@ apparmor_parser -r /etc/apparmor.d/*
 | **Granularity** | Finer (type enforcement)                 | Coarser (path matching)               |
 | **File moves**  | Context preserved with inode             | Broken if file moves to new path      |
 
+</div>
+
 ## seccomp-bpf
 
 Seccomp (secure computing mode) restricts the system calls a process can make. When combined with
@@ -13638,11 +13832,15 @@ BPF (Berkeley Packet Filter), it provides fine-grained syscall filtering.
 
 ### seccomp Modes
 
+<div class="table-wrap">
+
 | Mode       | Description                                          |
 | ---------- | ---------------------------------------------------- |
 | `disabled` | No restrictions (default)                            |
 | `strict`   | Only `read``write``_exit``sigreturn` allowed         |
 | `filter`   | BPF program defines allowed syscalls (most flexible) |
+
+</div>
 
 ### seccomp in Docker
 
@@ -13886,7 +14084,7 @@ restorecon -Rv /custom/path
 ### Pitfall: `CAP_SYS_ADMIN` Is Too Broad
 
 `CAP_SYS_ADMIN` covers many sub-operations (mount, pivot_root, IPC, etc.). Granting it is equivalent
-To granting near-root access. Always use more specific capabilities:
+to granting near-root access. Always use more specific capabilities:
 
 ```bash
 # WRONG
@@ -13944,7 +14142,7 @@ chmod 600 ~/.ssh/authorized_keys
 ### Pitfall: Disabling SELinux vs Permissive Mode
 
 Setting `SELINUX=disabled` in `/etc/selinux/config` requires a reboot and relabels the filesystem
-With no SELinux contexts, making it hard to re-enable. Instead, use `SELINUX=permissive` during
+with no SELinux contexts, making it hard to re-enable. Instead, use `SELINUX=permissive` during
 Troubleshooting and switch back to `enforcing` when done:
 
 ```bash
@@ -13958,7 +14156,7 @@ setenforce 1    # enforcing
 ### Pitfall: Password Hashes in /etc/passwd
 
 Historically, `/etc/passwd` contained password hashes. Modern systems store hashes in `/etc/shadow`
-(readable only by root). If you see a hash in `/etc/passwd`The system is misconfigured:
+(readable only by root). If you see a hash in `/etc/passwd`. The system is misconfigured:
 
 ```bash
 # Check: second field should be 'x'
@@ -13970,18 +14168,8 @@ grep root /etc/passwd
 ### Pitfall: Forgetting `setenforce` Is Temporary
 
 `setenforce 0` changes the mode only for the running system. After a reboot, the system returns to
-The mode specified in `/etc/selinux/config`. Do not rely on `setenforce` for persistent
+the mode specified in `/etc/selinux/config`. Do not rely on `setenforce` for persistent
 Configuration changes.
-
-```mermaid
-flowchart TD
-    A[Linux Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -13995,9 +14183,6 @@ implementation, and key applications.
 - protocols (HTTP, FTP, SMTP)
 - encryption and security
 - client-server and peer-to-peer
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 
@@ -14897,9 +15082,6 @@ and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -14936,10 +15118,14 @@ URL: https://linux.wyattau.com/07-package-management/package-management/
 A Linux package is an archive containing compiled software, configuration files, metadata (version,
 Description, dependencies), and install/uninstall scripts. Two dominant package formats exist:
 
+<div class="table-wrap">
+
 | Format  | Specification     | Distributions                            | Extension |
 | ------- | ----------------- | ---------------------------------------- | --------- |
 | **DEB** | Debian Policy     | Debian, Ubuntu, Mint, Proxmox            | `.deb`    |
 | **RPM** | RPM Specification | RHEL, Fedora, CentOS, SUSE, OpenMandriva | `.rpm`    |
+
+</div>
 
 ### Package Anatomy
 
@@ -15040,6 +15226,8 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.
 APT pinning allows you to control which version of a package is installed when multiple sources
 Provide different versions. Pins have a priority (0-1001):
 
+<div class="table-wrap">
+
 | Priority Range | Effect                                            |
 | -------------- | ------------------------------------------------- |
 | 0              | Never install (used for blocking)                 |
@@ -15048,6 +15236,8 @@ Provide different versions. Pins have a priority (0-1001):
 | 500            | Default priority (any version from this source)   |
 | 990            | Prefer over default priority                      |
 | 1001           | Install even if downgrading                       |
+
+</div>
 
 ```bash
 # /etc/apt/preferences.d/docker
@@ -15320,6 +15510,8 @@ graph TD
     G --> I["/nix/store/hash3-package-name/"]
 ```
 
+<div class="table-wrap">
+
 | Concept        | Description                                                  |
 | -------------- | ------------------------------------------------------------ |
 | **Derivation** | A build recipe (input sources, build commands, dependencies) |
@@ -15327,6 +15519,8 @@ graph TD
 | **Profile**    | A set of packages linked together in a user environment      |
 | **Channel**    | A named set of Nix expressions (like a repository)           |
 | **Shell**      | An isolated environment with specific packages               |
+
+</div>
 
 ### Nix Commands
 
@@ -15473,6 +15667,8 @@ snap info firefox
 
 ### Flatpak vs Snap
 
+<div class="table-wrap">
+
 | Aspect                   | Flatpak                            | Snap                           |
 | ------------------------ | ---------------------------------- | ------------------------------ |
 | **Backend**              | OSTree (content-addressable)       | SquashFS (custom mount)        |
@@ -15483,12 +15679,14 @@ snap info firefox
 | **Disk usage**           | Shares runtimes between apps       | Each snap includes its runtime |
 | **Boot impact**          | None                               | Snap daemon starts at boot     |
 
+</div>
+
 ## Dependency Resolution
 
 ### How Dependency Resolution Works
 
 Package managers must solve a **dependency graph**, finding a set of package versions that satisfy
-All dependency constraints simultaneously. This is a SAT problem (Boolean satisfiability), which is
+all dependency constraints simultaneously. This is a SAT problem (Boolean satisfiability), which is
 NP-complete in the worst case.
 
 ```mermaid
@@ -15502,6 +15700,8 @@ graph LR
 
 ### Resolution Algorithms
 
+<div class="table-wrap">
+
 | Manager     | Algorithm                       | Characteristics                                   |
 | ----------- | ------------------------------- | ------------------------------------------------- |
 | **APT**     | C++ resolver                    | Greedy, deterministic, handles conflicts          |
@@ -15509,6 +15709,8 @@ graph LR
 | **pacman**  | Simple dependency following     | No SAT solver, less robust for complex conflicts  |
 | **Nix**     | Built-in (functional)           | No global conflicts by design                     |
 | **Portage** | C++ resolver with slot handling | Gentoo's package manager, handles slots           |
+
+</div>
 
 ### Common Dependency Issues
 
@@ -15711,7 +15913,7 @@ pacman -Syu
 ### Pitfall: Nix Disk Usage
 
 The Nix store grows continuously as new package versions are added. Without garbage collection, it
-Can consume tens or hundreds of gigabytes:
+can consume tens or hundreds of gigabytes:
 
 ```bash
 # Check Nix store size
@@ -15791,9 +15993,6 @@ implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -15860,8 +16059,6 @@ This site provides comprehensive study materials covering:
 - Networking
 - Security
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -15886,8 +16083,6 @@ basic computing
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -15905,18 +16100,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Introduction to Linux](/intro/)
 - [LVM and Disk Partitioning](/lvm-and-disk-partitioning/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -15925,54 +16113,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -16005,7 +16145,7 @@ sudo apt update
 sudo -u www-data whoami
 ```
 
-**Daemon**: A background process that runs without user interaction, providing system services (e.g., `sshd``nginx``systemd`).
+**Daemon**: A background process that runs without user interaction, providing system services (e.g., `sshd`, `nginx`, `systemd`).
 
 **Service**: A daemon managed by the init system (systemd), which can be started, stopped, and enabled at boot.
 
@@ -16614,17 +16754,6 @@ URL: https://linux.wyattau.com/hub/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 Linux powers the majority of the world's servers, cloud infrastructure, embedded systems, and supercomputers. Whether you are managing a home server, deploying applications to the cloud, or administering enterprise infrastructure, Linux administration is an essential skill for any systems professional.
@@ -16693,6 +16822,8 @@ Linux distributions package the Linux kernel with system libraries, package mana
 
 ### Choosing a Distribution
 
+<div class="table-wrap">
+
 | Use Case | Recommended Distribution |
 | ---------- | ------------------------ |
 | Enterprise servers | RHEL, AlmaLinux, Rocky Linux |
@@ -16701,6 +16832,8 @@ Linux distributions package the Linux kernel with system libraries, package mana
 | Learning Linux | Arch Linux, Gentoo |
 | Home servers | Ubuntu Server, Debian |
 | Security testing | Kali Linux, Parrot OS |
+
+</div>
 
 ---
 
@@ -16763,12 +16896,16 @@ chown -R user:group dir # Recursive ownership change
 
 **Permission meanings:**
 
+<div class="table-wrap">
+
 | Number | Permission | Symbol |
 | -------- | ------------ | -------- |
 | 4 | Read | r |
 | 2 | Write | w |
 | 1 | Execute | x |
 | 0 | None | --- |
+
+</div>
 
 ### Piping and Redirection
 
@@ -16818,6 +16955,8 @@ Understanding Linux file systems is essential for managing storage, permissions,
 
 ### File System Types
 
+<div class="table-wrap">
+
 | Type | Description | Use Case |
 | ------ | ------------- | ---------- |
 | ext4 | Default Linux file system | General purpose |
@@ -16826,6 +16965,8 @@ Understanding Linux file systems is essential for managing storage, permissions,
 | ZFS | Advanced; RAID, compression, snapshots | Storage servers |
 | tmpfs | RAM-based file system | /tmp, /run |
 | proc | Virtual file system | Process and kernel info |
+
+</div>
 
 ### Mounting
 
@@ -16883,6 +17024,8 @@ jobs                    # List background jobs
 
 ### Process States
 
+<div class="table-wrap">
+
 | State | Description |
 | ------- | ------------- |
 | R | Running or runnable |
@@ -16890,6 +17033,8 @@ jobs                    # List background jobs
 | D | Uninterruptible sleep (usually I/O) |
 | Z | Zombie (terminated but not reaped) |
 | T | Stopped (by signal) |
+
+</div>
 
 ### Resource Monitoring
 
@@ -17372,6 +17517,8 @@ Context switch for kernel-internal operations.
 
 Key subsystems:
 
+<div class="table-wrap">
+
 | Subsystem             | Responsibility                                         |
 | --------------------- | ------------------------------------------------------ |
 | **Process Scheduler** | CFS (Completely Fair Scheduler), real-time scheduling  |
@@ -17381,6 +17528,8 @@ Key subsystems:
 | **Device Model**      | `sysfs``udev`Driver model, `kobject` hierarchy         |
 | **IPC**               | Pipes, shared memory, signals, `epoll``eventfd`        |
 | **Security**          | SELinux, AppArmor, capabilities, seccomp, audit        |
+
+</div>
 
 ## Distribution Families
 
@@ -17405,6 +17554,8 @@ graph LR
     S[Gentoo] --> T[Source-based]
 ```
 
+<div class="table-wrap">
+
 | Family  | Package Format | Package Manager | Init System | Typical Use Case              |
 | ------- | -------------- | --------------- | ----------- | ----------------------------- |
 | Debian  | `.deb`         | APT             | systemd     | Servers, desktops, containers |
@@ -17412,6 +17563,8 @@ graph LR
 | Arch    | `.pkg.tar.zst` | pacman          | systemd     | Power users, rolling release  |
 | Alpine  | `.apk`         | apk             | OpenRC      | Docker containers             |
 | SUSE    | `.rpm`         | zypper          | systemd     | Enterprise, SAP workloads     |
+
+</div>
 
 ## Why This Matters for Systems Engineers
 
@@ -17426,7 +17579,7 @@ Linux is the dominant operating system in every infrastructure domain you will e
 - **High-performance computing**: 100% of the TOP500 supercomputers run Linux.
 
 Understanding Linux at the systems level, how processes are scheduled, how memory is managed, how
-The network stack processes packets, how file systems journal writes, is not academic. It is the
+the network stack processes packets, how file systems journal writes, is not academic. It is the
 Difference between "restarting the service fixed it" and understanding _why_ it failed and
 Preventing recurrence.
 
@@ -17463,20 +17616,13 @@ Run.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
-:::## Cross-References
+## Cross-References
 
 - **[Site Home](../../):** Main landing page for linux notes.
 - **Practice:** Practice problems for revision.
@@ -17509,6 +17655,8 @@ Page cache.
 
 Naming conventions:
 
+<div class="table-wrap">
+
 | Device Type   | Path Pattern   | Example        | Notes                               |
 | ------------- | -------------- | -------------- | ----------------------------------- |
 | SCSI/SATA     | `/dev/sdX`     | `/dev/sda`     | Letters assigned in detection order |
@@ -17518,6 +17666,8 @@ Naming conventions:
 | Loop          | `/dev/loopX`   | `/dev/loop0`   | Loopback-mounted files              |
 | Device Mapper | `/dev/dm-X`    | `/dev/dm-0`    | LVM, crypt, multipath               |
 | MD RAID       | `/dev/mdX`     | `/dev/md0`     | Software RAID arrays                |
+
+</div>
 
 Partitions are numbered after the device name:
 
@@ -17539,6 +17689,8 @@ Describes the layout of partitions, their starting sectors, sizes, types, and st
 MBR uses a 512-byte boot sector at LBA 0 containing a 446-byte bootstrap code area, a 64-byte
 Partition table (four 16-byte entries), and a 2-byte signature (`0x55AA`).
 
+<div class="table-wrap">
+
 | Property          | MBR                                         |
 | ----------------- | ------------------------------------------- |
 | Max disk size     | 2 TiB (32-bit sector count)                 |
@@ -17547,12 +17699,16 @@ Partition table (four 16-byte entries), and a 2-byte signature (`0x55AA`).
 | Boot method       | Legacy BIOS only                            |
 | Partition ID      | 1-byte type code                            |
 
+</div>
+
 MBR is obsolete. Use it only when you need legacy BIOS boot on hardware that lacks UEFI.
 
 #### GPT (GUID Partition Table)
 
 GPT is part of the UEFI specification. It stores partition entries in a linked list structure with a
 Protective MBR at LBA 0 for backward compatibility.
+
+<div class="table-wrap">
 
 | Property          | GPT                                   |
 | ----------------- | ------------------------------------- |
@@ -17562,6 +17718,8 @@ Protective MBR at LBA 0 for backward compatibility.
 | Boot method       | UEFI (with protective MBR for compat) |
 | Partition ID      | 128-bit GUID type + 128-bit GUID name |
 | Redundancy        | Backup partition table at end of disk |
+
+</div>
 
 ```text
 GPT disk layout:
@@ -17574,14 +17732,18 @@ GPT disk layout:
 ```
 
 :::note
-disks, and GPT"s backup table provides redundancy against corruption at the start of the Disk.
+disks, and GPT's backup table provides redundancy against corruption at the start of the Disk.
 
 ### Sector Size
+
+<div class="table-wrap">
 
 | Sector Size | Common On              | Notes                                                |
 | ----------- | ---------------------- | ---------------------------------------------------- |
 | 512 bytes   | Older HDDs, SATA SSD   | Traditional physical sector size                     |
 | 4096 bytes  | Modern HDDs, many SSDs | 4K native (4Kn) or 512e (emulated) for compatibility |
+
+</div>
 
 512e drives present 512-byte logical sectors to the OS but use 4096-byte physical sectors
 Internally. Misaligned writes on 512e drives cause read-modify-write cycles, degrading performance.
@@ -17600,13 +17762,19 @@ lsblk -o NAME,LOG-SEC,PHY-SEC /dev/sda
 
 #### MBR Partition Types
 
+<div class="table-wrap">
+
 | Type     | Description                                                         |
 | -------- | ------------------------------------------------------------------- |
 | Primary  | One of the four entries in the MBR table                            |
 | Extended | A primary partition that acts as a container for logical partitions |
 | Logical  | Created inside an extended partition using an EBR chain             |
 
+</div>
+
 #### GPT Partition Types (GUIDs)
+
+<div class="table-wrap">
 
 | GUID                                   | Type                 |
 | -------------------------------------- | -------------------- |
@@ -17616,6 +17784,8 @@ lsblk -o NAME,LOG-SEC,PHY-SEC /dev/sda
 | `933AC7E1-2EB4-4F13-B844-0E14E2AEF915` | Linux swap           |
 | `E3C9E316-0B5C-4DB8-817D-F92DF00215AE` | Microsoft reserved   |
 | `EBD0A0A2-B9E5-4433-87C0-68B6B72699C7` | Windows data         |
+
+</div>
 
 ```bash
 # View partition type GUIDs
@@ -17629,7 +17799,7 @@ sgdisk -L
 
 Device names are assigned in kernel detection order and are **not stable** across reboots. A SATA
 Disk that was `/dev/sda` today may become `/dev/sdb` after a hardware change. Never use device names
-In `/etc/fstab` for persistent mounts.
+in `/etc/fstab` for persistent mounts.
 
 **Definition.** A UUID (Universally Unique Identifier) is a 128-bit number assigned to a filesystem
 At creation time. It is globally unique and does not change when the disk is moved between systems.
@@ -17833,6 +18003,8 @@ PARTUUID=12345678-1234-1234-1234-1234567890ab /boot/efi      vfat    defaults   
 /mnt/iso.iso                                  /mnt/cdrom     iso9660 loop,ro          0       0
 ```
 
+<div class="table-wrap">
+
 | Field       | Description                                                                           |
 | ----------- | ------------------------------------------------------------------------------------- |
 | Device      | UUID=, PARTUUID=, LABEL=, device path, or special filesystem (proc, tmpfs)            |
@@ -17842,7 +18014,11 @@ PARTUUID=12345678-1234-1234-1234-1234567890ab /boot/efi      vfat    defaults   
 | Dump        | Whether `dump` includes this filesystem in backups (0 = no, 1 = yes; mostly obsolete) |
 | Pass        | Order for `fsck` at boot: 0 = skip, 1 = root filesystem, 2 = all other filesystems    |
 
+</div>
+
 #### Common Mount Options
+
+<div class="table-wrap">
 
 | Option                | Effect                                                                                 |
 | --------------------- | -------------------------------------------------------------------------------------- |
@@ -17861,6 +18037,8 @@ PARTUUID=12345678-1234-1234-1234-1234567890ab /boot/efi      vfat    defaults   
 | `sync`                | Synchronous writes (slow, used for USB drives)                                         |
 | `user`                | Allow non-root users to mount                                                          |
 | `x-gvfs-show`         | Show in desktop file managers                                                          |
+
+</div>
 
 ```bash
 # Mount by UUID
@@ -17998,11 +18176,15 @@ xfs_fsr -v /mnt/data
 
 ### Journaling Modes
 
+<div class="table-wrap">
+
 | Mode        | What is Journaled                                              | Performance | Data Safety |
 | ----------- | -------------------------------------------------------------- | ----------- | ----------- |
 | `ordered`   | Metadata only; data written to disk before metadata committed  | Good        | High        |
 | `writeback` | Metadata only; no ordering guarantee between data and metadata | Best        | Medium      |
 | `journal`   | Both data and metadata journaled                               | Slowest     | Highest     |
+
+</div>
 
 ```bash
 # Set journal mode at mount time
@@ -18059,7 +18241,7 @@ Partitions.
 
 **Physical Extent (PE):** The smallest unit of allocation in LVM. Default size is 4 MiB. A PE on a
 PV maps 1:1 to a Logical Extent (LE) on an LV. When you extend an LV, you allocate additional PEs
-From the VG.
+from the VG.
 
 ### LVM Metadata
 
@@ -18071,7 +18253,7 @@ LVM metadata is stored at the start of each PV (in the first few MiB). It descri
 - Snapshot relationships
 
 Metadata is stored in circular text format at two locations on each PV for redundancy. If one copy
-Is corrupted, LVM can recover from the backup copy.
+is corrupted, LVM can recover from the backup copy.
 
 ```bash
 # View raw LVM metadata from a PV
@@ -18103,7 +18285,7 @@ A typical production layout:
 
 :::note
 Provides a layer of protection, if LVM metadata is corrupted, partition boundaries remain visible
-To non-LVM tools for recovery.
+to non-LVM tools for recovery.
 
 ## LVM Operations
 
@@ -18202,6 +18384,8 @@ lvchange -ay -K /dev/vg_data/lv_mysql  # ignore monitoring (for broken VG)
 
 ### LVM Command Summary
 
+<div class="table-wrap">
+
 | Task             | PV Command       | VG Command       | LV Command       |
 | ---------------- | ---------------- | ---------------- | ---------------- |
 | Create           | `pvcreate`       | `vgcreate`       | `lvcreate`       |
@@ -18213,6 +18397,8 @@ lvchange -ay -K /dev/vg_data/lv_mysql  # ignore monitoring (for broken VG)
 | Move data        | N/A              | `pvmove`         | N/A              |
 | Backup metadata  | N/A              | `vgcfgbackup`    | N/A              |
 | Restore metadata | N/A              | `vgcfgrestore`   | N/A              |
+
+</div>
 
 ## Resizing
 
@@ -18430,6 +18616,8 @@ lvcreate --type raid10 -i 2 -m 1 -L 100G -n lv_raid10 vg_data
 
 ### LVM RAID vs mdadm
 
+<div class="table-wrap">
+
 | Aspect      | LVM RAID                      | mdadm                                        |
 | ----------- | ----------------------------- | -------------------------------------------- |
 | Management  | Integrated with LVM commands  | Separate toolchain                           |
@@ -18440,6 +18628,8 @@ lvcreate --type raid10 -i 2 -m 1 -L 100G -n lv_raid10 vg_data
 | Flexibility | Can mix RAID and non-RAID LVs | Array is a fixed block device                |
 | Maturity    | Less widely used              | Very mature, battle-tested                   |
 | Metadata    | LVM metadata                  | md superblock (1.0, 1.1, 1.2, 0.9)           |
+
+</div>
 
 ### LVM RAID Maintenance
 
@@ -18525,7 +18715,7 @@ lvextend --poolmetadatasize +2G vg_data/thinpool
 
 Thin provisioning is inherently dangerous because the sum of thin volume sizes can exceed the
 Physical pool size. When the pool fills up, writes to thin volumes **fail silently** (the filesystem
-On the thin volume sees I/O errors).
+on the thin volume sees I/O errors).
 
 ```bash
 # Monitor thin pool usage
@@ -18549,11 +18739,13 @@ lvextend -L +50G /dev/vg_data/thinpool
 :::caution
 Corrupt, and recovery is difficult. Always monitor thin pool usage with alerting. Set
 `thin_pool_autoextend_threshold` in `/etc/lvm/lvm.conf` to 70-80% as a safety net, but do not rely
-On it as your only protection.
+on it as your only protection.
 
 ## mdadm Software RAID
 
 ### RAID Levels
+
+<div class="table-wrap">
 
 | Level | Min Disks | Redundancy | Read Perf | Write Perf | Capacity  | Use Case                      |
 | ----- | --------- | ---------- | --------- | ---------- | --------- | ----------------------------- |
@@ -18562,6 +18754,8 @@ On it as your only protection.
 | 5     | 3         | 1 disk     | Good      | Moderate   | n-1 disks | File servers, general storage |
 | 6     | 4         | 2 disks    | Good      | Moderate   | n-2 disks | Large arrays, critical data   |
 | 10    | 4         | 1 disk     | Highest   | Good       | n/2 disks | Databases, high I/O workloads |
+
+</div>
 
 ### Creating RAID Arrays
 
@@ -18670,12 +18864,16 @@ mdadm --monitor --scan --daemonise --mail=root@localhost
 
 ### Superblock Versions
 
+<div class="table-wrap">
+
 | Version | Location         | Notes                                                |
 | ------- | ---------------- | ---------------------------------------------------- |
 | 0.9     | End of device    | Legacy, 64 KiB, no bitmap support                    |
 | 1.0     | End of device    | Modern default for boot arrays, compatible with GRUB |
 | 1.1     | Start of device  | Near beginning, 4 KiB offset                         |
 | 1.2     | 4 KiB from start | Recommended for non-boot arrays, compatible with LVM |
+
+</div>
 
 ```bash
 # Create with specific superblock version
@@ -18746,7 +18944,7 @@ swapon --show
 
 :::caution
 And the file must not be copy-on-write. Use `chattr +C` on the containing directory before creating
-The swap file, or place it on a dedicated non-CoW subvolume. On some Btrfs configurations, swap
+the swap file, or place it on a dedicated non-CoW subvolume. On some Btrfs configurations, swap
 Files may not work at all, use a swap partition or swap file on a loop device instead.
 
 ### Swappiness
@@ -18776,7 +18974,7 @@ sysctl --system
 ### zram
 
 Zram creates compressed RAM-based block devices that act as swap. Data written to zram is compressed
-In memory, effectively giving you more swap space without disk I/O.
+in memory, effectively giving you more swap space without disk I/O.
 
 ```bash
 # Load zram module
@@ -18951,6 +19149,8 @@ ncdu -e /var                         # enable extended info
 **Definition.** LUKS (Linux Unified Key Setup) is a disk encryption standard that provides a
 Platform-independent on-disk format for encrypted block devices.
 
+<div class="table-wrap">
+
 | Feature        | LUKS1              | LUKS2                                 |
 | -------------- | ------------------ | ------------------------------------- |
 | Header version | 1                  | 2                                     |
@@ -18961,6 +19161,8 @@ Platform-independent on-disk format for encrypted block devices.
 | Token support  | No                 | Yes (systemd, keyring, etc.)          |
 | Integrity      | No                 | Optional (dm-integrity)               |
 | Header backup  | `luksHeaderBackup` | `luksHeaderBackup` (larger header)    |
+
+</div>
 
 ```bash
 # Check LUKS version
@@ -19035,12 +19237,16 @@ crypt_data     /dev/disk/by-id/ata-ST5000  none                 luks
 crypt_swap     /dev/disk/by-uuid/def67890  /dev/urandom         swap,cipher=aes-xts-plain64,size=256
 ```
 
+<div class="table-wrap">
+
 | Field   | Description                                                             |
 | ------- | ----------------------------------------------------------------------- |
 | Name    | Mapper name (appears as `/dev/mapper/<name>`)                           |
 | Device  | UUID, device path, or `/dev/disk/by-id/` identifier                     |
 | Keyfile | Path to key file, `none` for passphrase prompt, `/dev/urandom` for swap |
 | Options | Comma-separated: `luks``discard``timeout=X``try-empty-password`         |
+
+</div>
 
 ### LVM on LUKS vs LUKS on LVM
 
@@ -19067,6 +19273,8 @@ LUKS on LVM:
         lv_root   (unencrypted, filesystem: /)
 ```
 
+<div class="table-wrap">
+
 | Aspect           | LVM on LUKS                              | LUKS on LVM                       |
 | ---------------- | ---------------------------------------- | --------------------------------- |
 | Security         | Better (entire VG is encrypted)          | LV-level granularity              |
@@ -19075,6 +19283,8 @@ LUKS on LVM:
 | Key management   | Single key unlocks entire VG             | Per-LV keys                       |
 | Boot complexity  | Higher (need initramfs with cryptsetup)  | Lower (root can be unencrypted)   |
 | Typical use case | Laptops, full-disk encryption            | Servers with selective encryption |
+
+</div>
 
 ## Troubleshooting
 
@@ -19210,7 +19420,7 @@ lvchange -ay -K /dev/vg_data/lv_mysql    # ignore monitoring
 ### Shrinking in the Wrong Direction
 
 When shrinking an LV and filesystem, the filesystem must be shrunk **first**, then the LV. Shrinking
-The LV before the filesystem truncates the filesystem and causes corruption.
+the LV before the filesystem truncates the filesystem and causes corruption.
 
 ```text
 CORRECT ORDER for shrinking:
@@ -19230,7 +19440,7 @@ Correct order. Never run `lvreduce` without `--resizefs` unless you know exactly
 
 ### Forgetting to Resize the Filesystem After Extending the LV
 
-After extending an LV with `lvextend`The filesystem does not automatically grow to fill the new
+After extending an LV with `lvextend`. The filesystem does not automatically grow to fill the new
 Space. You must explicitly resize the filesystem.
 
 ```bash
@@ -19286,7 +19496,7 @@ Block mappings.
 
 ### Forgetting to Reload Partition Table
 
-After modifying partition tables with `fdisk``parted`Or `sgdisk`The kernel does not always Detect
+After modifying partition tables with `fdisk`, `parted` or `sgdisk`. The kernel does not always Detect
 the changes automatically.
 
 ```bash
@@ -19373,17 +19583,11 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 LVM is like having a storage system with rubber walls -- you can resize, move, and rearrange partitions without unplugging drives or losing data. Physical volumes are the raw drives, volume groups are pools of storage assembled from multiple drives, and logical volumes are the partitions you actually use. The key advantage over traditional partitioning is flexibility: if you run out of space on one volume, you can add a new drive to the pool and extend the volume without downtime. Snapshots in LVM are like taking a photograph of your storage at a point in time -- useful for backups and testing. Think of LVM as the difference between carved-in-stone partitions and adjustable shelves.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -19848,6 +20052,8 @@ URL: https://linux.wyattau.com/diagnostics/diag-linux/
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | B             |
@@ -19861,18 +20067,9 @@ URL: https://linux.wyattau.com/diagnostics/diag-linux/
 | 9        | B             |
 | 10       | B             |
 
+</div>
+
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of Linux fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
-
-
-```mermaid
-flowchart TD
-    A[Diag Linux] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

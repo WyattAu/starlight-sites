@@ -25,6 +25,8 @@ As repositories grow into monorepos containing hundreds of thousands of files, t
 Clone becomes prohibitive. The problem manifests in three dimensions: **time**, **disk space**, and
 **bandwidth**.
 
+<div class="table-wrap">
+
 | Repository                 | Size (Full Clone) | Files | Build Time (Full Clone)             |
 | -------------------------- | ----------------- | ----- | ----------------------------------- |
 | Android (AOSP)             | 300+ GB           | 5M+   | N/A (not practical for individuals) |
@@ -33,10 +35,12 @@ Clone becomes prohibitive. The problem manifests in three dimensions: **time**, 
 | Meta (Buck2)               | 70+ GB            | 500K+ | 20+ min                             |
 | Microsoft (Windows)        | 300+ GB           | 4M+   | N/A                                 |
 
+</div>
+
 A frontend developer working on the Chromium monorepo does not need the `chrome/browser/`
 `chrome/test/`Or `third_party/ffmpeg/` directories. A backend developer does not need `ui/` or
 `chrome/renderer/`. Yet a full `git clone` downloads every object in the repository regardless of
-What the developer intends to work on.
+what the developer intends to work on.
 
 This is where **sparse checkout** and **partial clone** come in. They are two complementary
 Mechanisms that solve different parts of the problem:
@@ -50,13 +54,13 @@ They can be used independently or combined for maximum efficiency.
 
 Sparse checkout allows you to check out only a subset of the repository"s directories into your
 Working tree. The repository still contains all objects (commits, trees, blobs), the working tree
-Is a filtered view of the tree at HEAD.
+is a filtered view of the tree at HEAD.
 
 ### Cone Mode (Default Since Git 2.37)
 
 Cone mode is the modern and recommended approach. It works with directories (not file patterns) and
-Is significantly faster than non-cone mode because Git can use directory-based pathspec matching
-Instead of evaluating every pattern against every file.
+is significantly faster than non-cone mode because Git can use directory-based pathspec matching
+instead of evaluating every pattern against every file.
 
 ```bash
 ## Initialize sparse checkout with cone mode (the default in Git 2.37+)
@@ -76,14 +80,14 @@ src/tests/
 src/utils/
 ```
 
-After `git sparse-checkout init --cone`The working tree is emptied except for the directories you
+After `git sparse-checkout init --cone`. The working tree is emptied except for the directories you
 Explicitly include. The `.git` directory retains all objects and refs, only the working tree is
 Filtered.
 
 ### How Cone Mode Works
 
 Cone mode treats the specified directories as "root" directories. Everything under those directories
-Is included, and everything outside them is excluded. The matching is directory-level, not
+is included, and everything outside them is excluded. The matching is directory-level, not
 File-level.
 
 ```
@@ -116,7 +120,7 @@ Specific directories are included.
 ### Non-Cone Mode (Legacy)
 
 Non-cone mode accepts arbitrary gitignore-style patterns. It is slower because Git must evaluate
-Every file path against every pattern on every checkout operation. It is retained for backward
+every file path against every pattern on every checkout operation. It is retained for backward
 Compatibility but should not be used for new projects.
 
 ```bash
@@ -134,7 +138,7 @@ docs/*.md
 
 The performance difference between cone and non-cone mode is significant. On a repository with 500K
 Files, cone mode evaluates patterns in milliseconds. Non-cone mode with complex patterns can take
-Several seconds.
+several seconds.
 
 ### Disabling Sparse Checkout
 
@@ -203,7 +207,7 @@ Receiving objects: 100% (3000/3000), done.  # Much smaller!
 ```
 
 The initial download includes all commit objects and tree objects (directory structures) but no file
-Content. When you run `git log``git diff``git status`Or `git show`Git transparently fetches The
+Content. When you run `git log`, `git diff`, `git status` or `git show`Git transparently fetches The
 blobs it needs:
 
 ```bash
@@ -254,7 +258,7 @@ When you create a partial clone, Git writes the filter configuration to `.git/co
 
 The `extensions.partialClone = origin` line tells Git that the `origin` remote supports lazy
 Fetching. When Git encounters a missing object, it checks whether a promisor remote exists, and if
-So, fetches the object from that remote.
+so, fetches the object from that remote.
 
 ### Fetching with Filters
 
@@ -275,6 +279,8 @@ $ git fetch --filter=blob:none origin feature-branch
 
 These two features solve different problems and can be used independently or together.
 
+<div class="table-wrap">
+
 | Aspect                  | Sparse Checkout                     | Partial Clone                                  |
 | ----------------------- | ----------------------------------- | ---------------------------------------------- |
 | What it controls        | Working tree contents               | Object database contents                       |
@@ -284,6 +290,8 @@ These two features solve different problems and can be used independently or tog
 | Network usage           | Full download                       | Partial download (fetch on demand)             |
 | Requires server support | No (client-side only)               | Yes (Git protocol v2)                          |
 | Offline behavior        | Full (all objects are local)        | Limited (missing objects cause fetch failures) |
+
+</div>
 
 ### Sparse Checkout Only
 
@@ -363,8 +371,8 @@ $ git sparse-checkout add src/backend
 ## Promisor Objects
 
 A **promisor object** is an object that Git knows exists (because it saw a reference to it in a tree
-Or commit) but has not yet downloaded. It is a placeholder that promises the object can be fetched
-From a promisor remote.
+or commit) but has not yet downloaded. It is a placeholder that promises the object can be fetched
+from a promisor remote.
 
 ### How Promisor Objects Work
 
@@ -430,12 +438,12 @@ origin
 ```
 
 If you delete this config, Git will not attempt to lazy-fetch missing objects, and any operation
-That needs a missing object will fail with "bad object."
+that needs a missing object will fail with "bad object."
 
 ## Shallow Clones vs Partial Clones
 
 Shallow clones (`--depth`) and partial clones (`--filter`) are often confused because both reduce
-The initial download size. They solve different problems.
+the initial download size. They solve different problems.
 
 ### Shallow Clones (--depth)
 
@@ -466,6 +474,8 @@ So a shallow clone saves history but downloads all file content. A partial clone
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature                   | Shallow Clone (`--depth=1`)                         | Partial Clone (`--filter=blob:none`) |
 | ------------------------- | --------------------------------------------------- | ------------------------------------ |
 | What is omitted           | Ancestral commits                                   | File contents (blobs)                |
@@ -478,6 +488,8 @@ So a shallow clone saves history but downloads all file content. A partial clone
 | Git bisect                | No (not enough history)                             | Yes                                  |
 | Server requirements       | None (works with any Git server)                    | Protocol v2                          |
 | Best for                  | CI/CD checkouts, one-off scripts                    | Long-lived development, monorepos    |
+
+</div>
 
 ### Combining Shallow + Partial
 
@@ -503,6 +515,8 @@ And `clone`.
 
 ### Hosting Platform Support
 
+<div class="table-wrap">
+
 | Platform                  | Partial Clone Support | Protocol v2 Default | Notes                                                         |
 | ------------------------- | --------------------- | ------------------- | ------------------------------------------------------------- |
 | GitHub.com                | Yes (since 2020)      | Yes                 | `--filter=blob:none` and `--filter=tree:0` supported          |
@@ -514,6 +528,8 @@ And `clone`.
 | Gitea                     | Yes (1.16+)           | Yes (default 1.21+) |                                                               |
 | Gerrit                    | Yes                   | Yes                 |                                                               |
 | Custom (git-http-backend) | Yes (Git 2.22+)       | Configurable        | Requires `http.receivepack=true` and protocol v2              |
+
+</div>
 
 ### Self-Hosted Server Configuration
 
@@ -643,7 +659,7 @@ build_frontend:
 ### Trying to Use Partial Clone with an Old Git Version
 
 Partial clone requires Git 2.22+ on the client and Git 2.22+ with protocol v2 on the server. Using
-An older client produces confusing errors:
+an older client produces confusing errors:
 
 ```bash
 $ git clone --filter=blob:none https://github.com/org/repo.git
@@ -684,7 +700,7 @@ $ git log --oneline -- src/frontend/
 
 A common misconception is that sparse checkout reduces the `.git` directory size. It does not. All
 Objects (commits, trees, blobs) are downloaded regardless of the sparse checkout configuration. Only
-The working tree is smaller.
+the working tree is smaller.
 
 ```bash
 $ git clone https://github.com/org/monorepo.git
@@ -727,7 +743,7 @@ $ npm run build   # Now succeeds
 ### Partial Clone Breaks When Offline
 
 Promisor objects cannot be fetched when you are offline. Any operation that needs a missing blob
-Will fail:
+will fail:
 
 ```bash
 # You are offline (no network)
@@ -819,17 +835,6 @@ On Git 2.37+, `--cone` is the default, so `git sparse-checkout init` and
 Recommended for documentation and compatibility with older Git versions (where it is silently
 Accepted but not the default).
 
-
-```mermaid
-flowchart TD
-    A[11 Sparse Checkout And Partial Clone] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of sparse checkout and partial clone, including underlying
@@ -843,13 +848,7 @@ theory, practical implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

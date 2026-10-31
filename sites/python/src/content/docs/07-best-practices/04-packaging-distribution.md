@@ -125,7 +125,7 @@ branch = true
 ```
 
 :::note
-Scattered across `setup.py``setup.cfg`And `setup.cfg`/`pyproject.toml`. The new standard
+Scattered across `setup.py`, `setup.cfg` and `setup.cfg`/`pyproject.toml`. The new standard
 Consolidates everything into one file.
 :::
 
@@ -176,7 +176,7 @@ where = ["src"]
 
 :::caution
 `setup.py` file can still exist for complex build logic that cannot be expressed declaratively, but
-Most projects do not need it.
+most projects do not need it.
 :::
 
 ## setuptools
@@ -434,6 +434,8 @@ poetry build
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature         | pip                   | poetry            | pipenv         | conda             |
 | --------------- | --------------------- | ----------------- | -------------- | ----------------- |
 | Lock file       | Manual (pip-tools)    | `poetry.lock`     | `Pipfile.lock` | `environment.yml` |
@@ -442,6 +444,8 @@ poetry build
 | Build system    | setuptools/hatch/flit | Built-in          | pip            | Built-in          |
 | Speed           | Fast                  | Medium            | Slow           | Slow              |
 | Ecosystem       | Largest               | Growing           | Declining      | Scientific        |
+
+</div>
 
 ## Package Structure
 
@@ -779,6 +783,8 @@ Packages.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature        | setuptools  | hatch    | flit       |
 | -------------- | ----------- | -------- | ---------- |
 | Maturity       | Most mature | Modern   | Minimal    |
@@ -787,6 +793,8 @@ Packages.
 | Speed          | Medium      | Fast     | Fast       |
 | Complexity     | High        | Medium   | Low        |
 | VCS versioning | Via plugin  | Built-in | Via plugin |
+
+</div>
 
 :::tip
 Need compatibility with existing tooling or complex build requirements (e.g., C extensions).
@@ -1009,9 +1017,6 @@ practical implementation, and key applications.
 - resolving merge conflicts
 - rebasing and cherry-picking
 - Git workflows (GitFlow, trunk-based)
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

@@ -146,7 +146,7 @@ fmt.Println(apply(add, 3, 4)) // 7
 ```
 
 Function values are comparable. Two function values are equal if they refer to the same function or
-Were created by evaluating the same function literal:
+were created by evaluating the same function literal:
 
 ```go
 fn1 := func() {}
@@ -255,7 +255,7 @@ fmt.Println(p.Area()) // OK -- auto-dereferences
 ### Method Sets
 
 The method set of a type `T` contains all value receiver methods. The method set of `*T` contains
-All methods (value and pointer receiver). This matters for interface satisfaction -- if an interface
+all methods (value and pointer receiver). This matters for interface satisfaction -- if an interface
 Requires a method with a pointer receiver, only `*T` satisfies it, not `T`.
 
 ## Anonymous Functions
@@ -333,17 +333,6 @@ Key rules:
 6. **Comparing function values.** Function values are comparable but comparison only returns true
    for identical function instances. Two closures with identical bodies are not equal.
 
-
-```mermaid
-flowchart TD
-    A[Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, including key
@@ -357,13 +346,7 @@ theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

@@ -20,14 +20,18 @@ description: "Study notes for Storage Tuning - Wyatt's Notes with worked example
 
 ### Storage Technologies Compared
 
+<div class="table-wrap">
+
 | Technology          | Sequential Read    | Sequential Write  | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency       |
 | ------------------- | ------------------ | ----------------- | --------------------- | ---------------------- | ------------- |
 | HDD (7200 RPM)      | 150–250 MB/s       | 150–250 MB/s      | 100–200               | 100–200                | 5–10 ms       |
-| SATA SSD            | 500–560 MB/s       | 400–530 MB/s      | 50,000–100,000        | 50,000–90,000          | 50–100 $\mu$S |
-| NVMe SSD (PCIe 3.0) | 3,000–3,500 MB/s   | 2,500–3,000 MB/s  | 200,000–500,000       | 200,000–400,000        | 10–30 $\mu$S  |
-| NVMe SSD (PCIe 4.0) | 5,000–7,500 MB/s   | 4,500–7,000 MB/s  | 500,000–1,000,000     | 400,000–800,000        | 5–20 $\mu$S   |
-| NVMe SSD (PCIe 5.0) | 10,000–14,000 MB/s | 9,000–12,000 MB/s | 1,000,000–2,000,000   | 800,000–1,500,000      | 3–10 $\mu$S   |
-| Intel Optane P5800X | 7,200 MB/s         | 6,200 MB/s        | 1,500,000             | 1,100,000              | 6–10 $\mu$S   |
+| SATA SSD            | 500–560 MB/s       | 400–530 MB/s      | 50,000–100,000        | 50,000–90,000          | 50–100 $\mu$ S |
+| NVMe SSD (PCIe 3.0) | 3,000–3,500 MB/s   | 2,500–3,000 MB/s  | 200,000–500,000       | 200,000–400,000        | 10–30 $\mu$ S  |
+| NVMe SSD (PCIe 4.0) | 5,000–7,500 MB/s   | 4,500–7,000 MB/s  | 500,000–1,000,000     | 400,000–800,000        | 5–20 $\mu$ S   |
+| NVMe SSD (PCIe 5.0) | 10,000–14,000 MB/s | 9,000–12,000 MB/s | 1,000,000–2,000,000   | 800,000–1,500,000      | 3–10 $\mu$ S   |
+| Intel Optane P5800X | 7,200 MB/s         | 6,200 MB/s        | 1,500,000             | 1,100,000              | 6–10 $\mu$ S   |
+
+</div>
 
 ### Choosing the Right Storage
 
@@ -72,7 +76,7 @@ Key architectural advantages over AHCI/SATA:
 3. **Deep queue depths:** The large number of queue entries allows the storage device to optimize
    its internal command scheduling and garbage collection.
 4. **Lower latency:** NVMe eliminates the SATA protocol overhead (command encoding, FIS framing,
-   spread spectrum clocking), reducing command latency by 2–5 $\mu$S.
+   spread spectrum clocking), reducing command latency by 2–5 $\mu$ S.
 
 ### NVMe Namespaces
 
@@ -95,17 +99,21 @@ nvme id-ns /dev/nvme0n1
 
 NVMe defines several power states (PS0–PS4) that trade off power consumption against latency:
 
+<div class="table-wrap">
+
 | Power State           | Power    | Exit Latency | Entry Latency |
 | --------------------- | -------- | ------------ | ------------- |
 | PS0 (Active)          | Highest  | 0            | N/A           |
-| PS1                   | Moderate | ~10 $\mu$S   | ~10 $\mu$S    |
-| PS2                   | Low      | ~100 $\mu$S  | ~100 $\mu$S   |
+| PS1                   | Moderate | ~10 $\mu$ S   | ~10 $\mu$ S    |
+| PS2                   | Low      | ~100 $\mu$ S  | ~100 $\mu$ S   |
 | PS3 (Deep Sleep)      | Very Low | ~10 ms       | ~10 ms        |
 | PS4 (Deep Power Down) | Minimal  | ~20 ms       | ~20 ms        |
 
+</div>
+
 APST (Autonomous Power State Transition) allows the SSD to transition between power states
 Automatically. On desktops, this is generally fine. On servers with latency-sensitive workloads, you
-May want to restrict APST to prevent the SSD from entering deep sleep states.
+may want to restrict APST to prevent the SSD from entering deep sleep states.
 
 ```bash
 # Disable APST on Linux
@@ -130,12 +138,16 @@ echo 0 | sudo tee /sys/module/nvme_core/parameters/default_ps_max_latency_us
 NAND flash stores data in cells, with each cell holding one or more bits. More bits per cell
 Increases density but reduces endurance and performance.
 
+<div class="table-wrap">
+
 | NAND Type | Bits per Cell | Write Endurance (P/E Cycles) | Relative Cost | Performance               |
 | --------- | ------------- | ---------------------------- | ------------- | ------------------------- |
 | SLC       | 1             | 100,000                      | Highest       | Best                      |
 | MLC       | 2             | 3,000–10,000                 | High          | Good                      |
 | TLC       | 3             | 1,000–3,000                  | Medium        | Moderate                  |
 | QLC       | 4             | 100–1,000                    | Lowest        | Worst (especially writes) |
+
+</div>
 
 Modern "3D NAND" stacks memory cells vertically (64, 128, or 176 layers), increasing density without
 Shrinking the cell size. This improves endurance compared to planar NAND at the same technology
@@ -147,15 +159,19 @@ Most TLC and QLC SSDs implement an SLC cache, a portion of the NAND operates in 
 (one bit per cell) to boost write performance. When the SLC cache is full, write speeds drop
 Dramatically as data must be folded from SLC into the TLC/QLC area.
 
+<div class="table-wrap">
+
 | SSD                       | SLC Cache Size | SLC Cache Speed | Full Speed |
 | ------------------------- | -------------- | --------------- | ---------- |
 | Samsung 990 Pro 2TB       | ~210 GB        | 6,650 MB/s      | 2,000 MB/s |
 | WD Black SN850X 2TB       | ~300 GB        | 6,600 MB/s      | 1,500 MB/s |
 | Crucial P3 Plus 2TB (QLC) | ~160 GB        | 5,000 MB/s      | 200 MB/s   |
 
+</div>
+
 :::caution
 MB/s to under 200 MB/s. This is a fundamental limitation of QLC NAND, not a defect. Avoid QLC SSDs
-For write-heavy workloads (video editing, database, OS drive).
+for write-heavy workloads (video editing, database, OS drive).
 :::
 
 ### Wear Leveling
@@ -206,7 +222,7 @@ amount of over-provisioning.
 
 TRIM is a SATA/NVMe command that tells the SSD which LBAs (Logical Block Addresses) are no longer in
 Use. Without TRIM, the SSD treats all previously written LBAs as valid data and must copy them
-During garbage collection, even if the OS has deleted the files. TRIM allows the SSD to skip copying
+during garbage collection, even if the OS has deleted the files. TRIM allows the SSD to skip copying
 Deleted data, improving garbage collection efficiency and maintaining write performance.
 
 ```bash
@@ -239,11 +255,15 @@ Reserved space is not accessible to the host but provides:
 3. **Sustained write performance**, because the SLC cache and garbage collection have more room to
    work.
 
+<div class="table-wrap">
+
 | OP Level         | Usable Capacity (1 TB drive) | Write Performance | Endurance |
 | ---------------- | ---------------------------- | ----------------- | --------- |
 | 0% (no OP)       | 1 TB                         | Worst             | Worst     |
 | 7% (standard)    | ~930 GB                      | Good              | Good      |
 | 28% (enterprise) | ~720 GB                      | Best              | Best      |
+
+</div>
 
 Consumer SSDs have 7% OP built in. Enterprise SSDs have 28% or more. Some consumer SSDs (e.g.,
 Samsung 840 EVO) allowed you to manually increase OP by shrinking the user-accessible Partition.
@@ -263,6 +283,8 @@ Samsung 840 EVO) allowed you to manually increase OP by shrinking the user-acces
 
 ### RAID Comparison
 
+<div class="table-wrap">
+
 | RAID Level | Min Drives | Fault Tolerance | Capacity     | Read Performance | Write Performance | Use Case                |
 | ---------- | ---------- | --------------- | ------------ | ---------------- | ----------------- | ----------------------- |
 | 0 (Stripe) | 2          | None            | N × size     | N ×              | N ×               | Scratch space, cache    |
@@ -274,11 +296,13 @@ Samsung 840 EVO) allowed you to manually increase OP by shrinking the user-acces
 | Z2         | 4          | 2 drives        | ~80% of raw  | Good             | Moderate          | ZFS equivalent of RAID6 |
 | Z3         | 5          | 3 drives        | ~75% of raw  | Good             | Moderate          | Critical data, ZFS      |
 
+</div>
+
 ### RAID Write Hole
 
 Traditional RAID 5/6 has a "write hole" vulnerability: if power is lost during a stripe write, the
 Parity may be inconsistent with the data, leading to silent data corruption. Hardware RAID cards
-With battery-backed write cache (BBWC) or ZFS's copy-on-write transaction model address this.
+with battery-backed write cache (BBWC) or ZFS's copy-on-write transaction model address this.
 
 ### Why ZFS Is Preferred
 
@@ -292,7 +316,7 @@ ZFS eliminates many traditional RAID problems:
 
 :::caution
 The storage pool. Hardware RAID hides the disks behind a virtual block device, which prevents ZFS
-From performing its error detection and correction.
+from performing its error detection and correction.
 :::
 
 ---
@@ -312,12 +336,16 @@ From performing its error detection and correction.
 
 Modern Linux (kernel 5.0+) uses multi-queue block layer (blk-mq) I/O schedulers:
 
+<div class="table-wrap">
+
 | Scheduler      | Description                                            | Best For                                            |
 | -------------- | ------------------------------------------------------ | --------------------------------------------------- |
 | `none` (no-op) | No reordering; FIFO dispatch                           | NVMe SSDs (the SSD controller handles optimization) |
 | `mq-deadline`  | Deadline-based scheduling with FIFO guarantees         | SATA SSDs, mixed workloads                          |
 | `bfq`          | Budget Fair Queueing; per-process bandwidth allocation | Desktop, interactive workloads                      |
 | `kyber`        | Low-latency scheduler for fast devices                 | NVMe SSDs                                           |
+
+</div>
 
 ### Selecting a Scheduler
 
@@ -389,6 +417,8 @@ echo 0 | sudo tee /sys/block/nvme0n1/queue/read_ahead_kb
 
 ### Filesystem Comparison
 
+<div class="table-wrap">
+
 | Filesystem | Features                                     | Best For                       |
 | ---------- | -------------------------------------------- | ------------------------------ |
 | ext4       | Mature, journaling, robust                   | General purpose, compatibility |
@@ -396,6 +426,8 @@ echo 0 | sudo tee /sys/block/nvme0n1/queue/read_ahead_kb
 | btrfs      | Copy-on-write, snapshots, checksums          | NAS, desktop (with caution)    |
 | f2fs       | Optimized for flash storage                  | Android, embedded, SD cards    |
 | zfs        | Data integrity, snapshots, RAID, compression | NAS, servers, backup           |
+
+</div>
 
 ### mount Options for SSDs
 
@@ -438,7 +470,7 @@ For ZFS on SSD, key tunables include:
 ### Key SMART Attributes
 
 SMART (Self-Monitoring, Analysis, and Reporting Technology) provides predictive failure information
-For storage devices.
+for storage devices.
 
 ```bash
 # Install smartmontools
@@ -462,6 +494,8 @@ sudo smartctl -l selftest /dev/nvme0n1
 
 ### Critical SMART Attributes for SSDs
 
+<div class="table-wrap">
+
 | Attribute                       | What It Means               | Warning Threshold       |
 | ------------------------------- | --------------------------- | ----------------------- |
 | Percentage Used                 | Life remaining based on TBW | &lt; 10%                |
@@ -471,6 +505,8 @@ sudo smartctl -l selftest /dev/nvme0n1
 | Available Spare                 | Reserved blocks remaining   | &lt; 10%                |
 | Power Cycles                    | Number of power cycles      | Not directly predictive |
 | Power On Hours                  | Total operating time        | Compare against MTBF    |
+
+</div>
 
 ### Automated SMART Monitoring
 
@@ -513,7 +549,7 @@ RAIDZ2/Z3 for arrays with drives larger than 4 TB.
 ### Not Enabling TRIM
 
 Without TRIM, SSD performance degrades over time as the garbage collector must process stale data
-That the OS has already deleted. This can cause write speeds to drop by 50–80% over weeks or months.
+that the OS has already deleted. This can cause write speeds to drop by 50–80% over weeks or months.
 Enable TRIM either continuously (`discard` mount option) or periodically (`fstrim.timer`).
 
 ### Using QLC SSDs for Write-Heavy Workloads
@@ -606,12 +642,16 @@ nvme id-ns /dev/nvme0n1
 NVMe supports optional end-to-end data protection using protection information (PI) appended to each
 Logical block:
 
+<div class="table-wrap">
+
 | PI Type   | Size    | Protection                                            |
 | --------- | ------- | ----------------------------------------------------- |
 | PI Type 0 | 0 bytes | No protection                                         |
 | PI Type 1 | 8 bytes | Guard + Application Tag + Logical Block Reference Tag |
 | PI Type 2 | 4 bytes | Guard + Logical Block Reference Tag                   |
 | PI Type 3 | 8 bytes | Guard + Application Tag                               |
+
+</div>
 
 Type 1 is the most comprehensive and is recommended for enterprise workloads where data integrity is
 Critical.
@@ -812,14 +852,18 @@ fio --name=endurance-test --ioengine=libaio --iodepth=32 --rw=write \
 
 Key metrics to analyze from fio JSON output:
 
+<div class="table-wrap">
+
 | Metric   | Description                 | Good Value                                  |
 | -------- | --------------------------- | ------------------------------------------- |
 | iops     | I/O operations per second   | Workload-dependent                          |
 | lat_ns   | Latency in nanoseconds      | p99 &lt; 1ms for NVMe                       |
 | clat_ns  | Completion latency          | Lower is better                             |
-| slat_ns  | Submission latency          | Should be &lt; 10 $\mu$S                    |
+| slat_ns  | Submission latency          | Should be &lt; 10 $\mu$ S                    |
 | bw       | Bandwidth in KB/s           | Near theoretical max                        |
 | cpu_util | CPU utilization during test | &lt; 80% (CPU should not be the bottleneck) |
+
+</div>
 
 ## Storage Reliability Engineering
 
@@ -827,11 +871,15 @@ Key metrics to analyze from fio JSON output:
 
 Every storage medium has a specified UBER, the probability of an unrecoverable bit error:
 
+<div class="table-wrap">
+
 | Medium          | UBER       | Probability of reading error for 1 TB |
 | --------------- | ---------- | ------------------------------------- |
 | HDD             | $10^{-14}$ | ~1 in 9 million full reads            |
 | Enterprise SSD  | $10^{-17}$ | ~1 in 9 billion full reads            |
 | Enterprise NVMe | $10^{-17}$ | ~1 in 9 billion full reads            |
+
+</div>
 
 While these numbers seem reassuring, they compound in large-scale deployments:
 
@@ -840,7 +888,7 @@ P(\mathrm{error in array) = 1 - (1 - UBER)^{N_{drives} \times N_{reads}}
 $$
 
 This is why ZFS checksumming is essential, it detects and corrects these errors that would
-Otherwise cause silent data corruption.
+otherwise cause silent data corruption.
 
 ### Wear Leveling Depth
 
@@ -880,14 +928,18 @@ Significantly reduce this.
 Intel Optane DC P5800X and P4800X drives are the gold standard for ZFS SLOG devices due to their
 Consistent low latency regardless of workload:
 
+<div class="table-wrap">
+
 | Drive         | Read Latency | Write Latency | Endurance | Capacity       |
 | ------------- | ------------ | ------------- | --------- | -------------- |
-| Optane P5800X | 6 $\mu$S     | 6 $\mu$S      | 100 DWPD  | 400 GB–1.6 TB  |
-| Samsung PM9A3 | 25 $\mu$S    | 45 $\mu$S     | 3 DWPD    | 960 GB–7.68 TB |
-| Intel P4510   | 40 $\mu$S    | 60 $\mu$S     | 1 DWPD    | 1–8 TB         |
+| Optane P5800X | 6 $\mu$ S     | 6 $\mu$ S      | 100 DWPD  | 400 GB–1.6 TB  |
+| Samsung PM9A3 | 25 $\mu$ S    | 45 $\mu$ S     | 3 DWPD    | 960 GB–7.68 TB |
+| Intel P4510   | 40 $\mu$ S    | 60 $\mu$ S     | 1 DWPD    | 1–8 TB         |
+
+</div>
 
 DWPD (Drive Writes Per Day) measures endurance relative to capacity. A 100 DWPD drive can be written
-To 100 times its capacity every day for 5 years.
+to 100 times its capacity every day for 5 years.
 
 ### L2ARC Sizing Guidelines
 
@@ -909,7 +961,7 @@ ARC_{metadata} \approx 70 \mathrm{ bytes \times \mathrm{L2ARC\_entries
 $$
 
 For a 1 TB L2ARC with 4 KB average block size, this is approximately 17.5 GB of ARC metadata. Ensure
-You have sufficient RAM to accommodate both the ARC and L2ARC metadata.
+you have sufficient RAM to accommodate both the ARC and L2ARC metadata.
 
 ## Storage Tiering Strategies
 
@@ -990,9 +1042,6 @@ implementation, and key applications.
 - entity-relationship diagrams
 - transaction processing (ACID)
 - NoSQL and distributed databases
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

@@ -12,12 +12,14 @@ categories:
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 Every object in C++ has a **storage duration** that determines when its storage is allocated, when
-It is released, and what its initial state is. Storage duration is orthogonal to scope -- an object
-At block scope can have static storage duration, and a namespace-scope object always has static
+it is released, and what its initial state is. Storage duration is orthogonal to scope -- an object
+at block scope can have static storage duration, and a namespace-scope object always has static
 Storage duration. Understanding these four categories is essential for reasoning about lifetime,
 Thread safety, and program startup/shutdown behavior.
 
 ## The Four Storage Durations
+
+<div class="table-wrap">
 
 | Storage Duration | Allocation Time        | Deallocation Time            | Initial State                                | Thread Safety                         |
 | :--------------- | :--------------------- | :--------------------------- | :------------------------------------------- | :------------------------------------ |
@@ -25,6 +27,8 @@ Thread safety, and program startup/shutdown behavior.
 | **Static**       | Program startup        | Program termination          | Zero-initialized, then constant/dynamic init | Safe (guaranteed by [N4950 §6.6.3.2]) |
 | **Thread**       | Thread creation        | Thread termination           | Zero-initialized, then constant/dynamic init | Per-thread copy                       |
 | **Dynamic**      | `new` / `operator new` | `delete` / `operator delete` | Indeterminate                                | Must synchronize externally           |
+
+</div>
 
 [N4950 §6.7] defines these categories and their semantics.
 
@@ -169,7 +173,7 @@ The compiler generates a guard variable (e.g., `_ZGV15get_databaseE9instance`) a
 
 #### `constexpr` Initialization as a Solution
 
-If the object can be `constexpr`It is initialized at compile time and sidesteps the fiasco Entirely:
+If the object can be `constexpr`. It is initialized at compile time and sidesteps the fiasco Entirely:
 
 ```cpp
 struct Flags \{
@@ -198,11 +202,15 @@ void worker(int id) \{
 
 TLS can be implemented in several ways:
 
+<div class="table-wrap">
+
 | Implementation                        | Description                                                | Trade-off                                  |
 | :------------------------------------ | :--------------------------------------------------------- | :----------------------------------------- |
 | **PEB/TLS slots** (Windows)           | Per-thread array of pointers, allocated on thread creation | Fast access, limited slots                 |
 | **`__thread` / `thread_local`** (ELF) | Compiler reserves a TLS segment in the binary              | Fast access via `fs`/`gs` segment register |
 | **`pthread_getspecific`**             | Runtime key-value lookup                                   | Slow, but unlimited slots                  |
+
+</div>
 
 ### Initialization Order
 
@@ -316,6 +324,8 @@ Similarly, `operator delete` handles deallocation, and the destructor runs befor
 
 ### The Global Allocation Functions
 
+<div class="table-wrap">
+
 | Function                            | Behavior                      | Customization        |
 | :---------------------------------- | :---------------------------- | :------------------- |
 | `operator new(size_t)`              | Single-object allocation      | Replaceable globally |
@@ -323,6 +333,8 @@ Similarly, `operator delete` handles deallocation, and the destructor runs befor
 | `operator new(size_t, nothrow_t)`   | Returns `nullptr` on failure  | Replaceable globally |
 | `operator new(size_t, align_val_t)` | C++17 aligned allocation      | Replaceable globally |
 | `operator new(size_t, void* p)`     | Placement new (no allocation) | Not replaceable      |
+
+</div>
 
 ## Storage Duration Summary Table
 
@@ -456,12 +468,16 @@ public:
 
 ### Thread Safety and Storage Duration
 
+<div class="table-wrap">
+
 | Storage Duration | Thread Safety for Initialization | Thread Safety for Access     |
 | :--------------- | :------------------------------- | :--------------------------- |
 | Automatic        | N/A (stack is per-thread)        | Must synchronize shared data |
 | Static           | Thread-safe (C++11 guarantee)    | Must synchronize writes      |
 | Thread           | Thread-safe per-thread init      | Inherently per-thread        |
 | Dynamic          | Not thread-safe                  | Must synchronize externally  |
+
+</div>
 
 ### Static Destruction Order
 
@@ -487,7 +503,7 @@ Config global_config;
 ```
 
 The Construct On First Use idiom also solves the destruction order problem: function-local statics
-Are destroyed in reverse order of their **first access**, not their declaration.
+are destroyed in reverse order of their **first access**, not their declaration.
 
 ## Common Pitfalls
 
@@ -550,16 +566,6 @@ Use the `nothrow` variant when exceptions are undesirable.
 - **Module 10 (Ownership and RAII)**: RAII pattern for managing dynamic storage duration
 - **Module 13 (Error Handling)**: Exception safety during object construction and destruction
 
-```mermaid
-flowchart TD
-    A[1_Storage_Durationx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Storage duration determines when an object's lifetime begins and ends. Automatic storage (stack variables) is like borrowing tools from a shared workshop: they appear when you start working and vanish when you leave. Static storage persists for the entire program, like permanent fixtures in a building. Dynamic storage (heap) is like renting a storage unit: you choose when to acquire and release it, but you must remember to return the key or the space leaks.
@@ -573,6 +579,8 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Operation | Stack (top → bottom) | Popped |
 | --------- | -------------------- | ------ |
 | push(5)   | [5]                  |,      |
@@ -581,3 +589,5 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 | push(8)   | [8, 5]               |,      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
+
+</div>

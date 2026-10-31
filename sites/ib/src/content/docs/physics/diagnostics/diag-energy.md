@@ -17,17 +17,6 @@ tableOfContents: false
 
 ## Energy and Conservation, Diagnostic Tests
 
-
-```mermaid
-flowchart TD
-    A[Diag Energy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Energy is like currency, it can't be created or destroyed, only transferred between accounts (objects) or converted between currencies (forms):** The conservation of energy is the most powerful tool in physics, it lets us solve problems without knowing all the details of what happens in between
@@ -114,13 +103,21 @@ the same speed. Show that this claim is correct for the limiting case $m_2 \to \
 
 (a) Conservation of momentum:
 
-$$m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2$$
+$$
+m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2
+$$
 
-$$2.0 \times 4.0 + m_2 \times 0 = 2.0 \times 1.0 + m_2 \times 3.0$$
+$$
+2.0 \times 4.0 + m_2 \times 0 = 2.0 \times 1.0 + m_2 \times 3.0
+$$
 
-$$8.0 = 2.0 + 3.0\,m_2$$
+$$
+8.0 = 2.0 + 3.0\,m_2
+$$
 
-$$m_2 = \frac{6.0}{3.0} = 2.0\,\text{kg}$$
+$$
+m_2 = \frac{6.0}{3.0} = 2.0\,\text{kg}
+$$
 
 (b) Kinetic energy before: $KE_i = \frac{1}{2}(2.0)(4.0)^2 + 0 = 16.0\,\text{J}$
 
@@ -139,11 +136,15 @@ $3.0\,\text{m}\,\text{s}^{-1}$) are inconsistent with an elastic collision.
 
 (c) For a head-on elastic collision with $m_2$ initially at rest:
 
-$$v_1 = \frac{m_1 - m_2}{m_1 + m_2} u_1$$
+$$
+v_1 = \frac{m_1 - m_2}{m_1 + m_2} u_1
+$$
 
 As $m_2 \to \infty$:
 
-$$v_1 \to \frac{-m_2}{m_2} u_1 = -u_1$$
+$$
+v_1 \to \frac{-m_2}{m_2} u_1 = -u_1
+$$
 
 So $m_1$ rebounds with speed $u_1$ in the opposite direction, confirming the student"s claim.
 
@@ -182,21 +183,33 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
 Net force up the hill: $F_{\text{net}} = P/v - mg\sin\theta - F_{\text{res}}$
 
-$$F_{\text{net}} = \frac{P}{v} - mg\sin\theta - 300 - 2v^2$$
+$$
+F_{\text{net}} = \frac{P}{v} - mg\sin\theta - 300 - 2v^2
+$$
 
 Since $F_{\text{net}} = ma$:
 
-$$ma = \frac{P}{v} - mg\sin\theta - 300 - 2v^2$$
+$$
+ma = \frac{P}{v} - mg\sin\theta - 300 - 2v^2
+$$
 
 Terminal velocity occurs when $a = 0$:
 
-$$\frac{30000}{v_t} - 1200 \times 9.81 \times 0.05 - 300 - 2v_t^2 = 0$$
+$$
+\frac{30000}{v_t} - 1200 \times 9.81 \times 0.05 - 300 - 2v_t^2 = 0
+$$
 
-$$\frac{30000}{v_t} - 588.6 - 300 - 2v_t^2 = 0$$
+$$
+\frac{30000}{v_t} - 588.6 - 300 - 2v_t^2 = 0
+$$
 
-$$\frac{30000}{v_t} = 888.6 + 2v_t^2$$
+$$
+\frac{30000}{v_t} = 888.6 + 2v_t^2
+$$
 
-$$30000 = 888.6v_t + 2v_t^3$$
+$$
+30000 = 888.6v_t + 2v_t^3
+$$
 
 This cubic equation can be solved by trial. Trying $v_t = 15$:
 
@@ -214,15 +227,25 @@ So $v_t \approx 18.9\,\text{m}\,\text{s}^{-1}$.
 
 (b) At $v = 15.0\,\text{m}\,\text{s}^{-1}$:
 
-$$F = \frac{30000}{15.0} = 2000\,\text{N}$$
+$$
+F = \frac{30000}{15.0} = 2000\,\text{N}
+$$
 
-$$F_{\text{res}} = 300 + 2.0 \times 225 = 300 + 450 = 750\,\text{N}$$
+$$
+F_{\text{res}} = 300 + 2.0 \times 225 = 300 + 450 = 750\,\text{N}
+$$
 
-$$F_{\text{gravity}} = 1200 \times 9.81 \times 0.05 = 588.6\,\text{N}$$
+$$
+F_{\text{gravity}} = 1200 \times 9.81 \times 0.05 = 588.6\,\text{N}
+$$
 
-$$F_{\text{net}} = 2000 - 750 - 588.6 = 661.4\,\text{N}$$
+$$
+F_{\text{net}} = 2000 - 750 - 588.6 = 661.4\,\text{N}
+$$
 
-$$a = \frac{661.4}{1200} = 0.551\,\text{m}\,\text{s}^{-2}$$
+$$
+a = \frac{661.4}{1200} = 0.551\,\text{m}\,\text{s}^{-2}
+$$
 
 (c) The maximum speed is the terminal velocity, which occurs when $a = 0$:
 
@@ -250,15 +273,23 @@ via a Hohmann transfer ellipse. Calculate the total energy change required.
 
 (a) Total energy in circular orbit: $E = -\frac{GMm}{2r}$
 
-$$E_1 = -\frac{6.67 \times 10^{-11} \times 6.0 \times 10^{24} \times 500}{2 \times 7.0 \times 10^6}$$
+$$
+E_1 = -\frac{6.67 \times 10^{-11} \times 6.0 \times 10^{24} \times 500}{2 \times 7.0 \times 10^6}
+$$
 
-$$E_1 = -\frac{2.001 \times 10^{17}}{1.4 \times 10^7} = -1.429 \times 10^{10}\,\text{J}$$
+$$
+E_1 = -\frac{2.001 \times 10^{17}}{1.4 \times 10^7} = -1.429 \times 10^{10}\,\text{J}
+$$
 
 (b) Total energy in the higher orbit:
 
-$$E_2 = -\frac{6.67 \times 10^{-11} \times 6.0 \times 10^{24} \times 500}{2 \times 1.4 \times 10^7}$$
+$$
+E_2 = -\frac{6.67 \times 10^{-11} \times 6.0 \times 10^{24} \times 500}{2 \times 1.4 \times 10^7}
+$$
 
-$$E_2 = -\frac{2.001 \times 10^{17}}{2.8 \times 10^7} = -7.146 \times 10^9\,\text{J}$$
+$$
+E_2 = -\frac{2.001 \times 10^{17}}{2.8 \times 10^7} = -7.146 \times 10^9\,\text{J}
+$$
 
 Energy change:
 $\Delta E = E_2 - E_1 = -7.146 \times 10^9 - (-1.429 \times 10^{10}) = 7.14 \times 10^9\,\text{J}$
@@ -267,24 +298,36 @@ This energy must be supplied by the rocket engines.
 
 (c) For the Hohmann transfer ellipse, the semi-major axis is:
 
-$$a = \frac{r_1 + r_2}{2} = \frac{7.0 \times 10^6 + 1.4 \times 10^7}{2} = 1.05 \times 10^7\,\text{m}$$
+$$
+a = \frac{r_1 + r_2}{2} = \frac{7.0 \times 10^6 + 1.4 \times 10^7}{2} = 1.05 \times 10^7\,\text{m}
+$$
 
 Energy of the transfer orbit:
 $E_t = -\frac{GMm}{2a} = -\frac{2.001 \times 10^{17}}{2.1 \times 10^7} = -9.53 \times 10^9\,\text{J}$
 
 At perigee ($r = r_1$), using $E_t = \frac{1}{2}mv_p^2 - \frac{GMm}{r_1}$:
 
-$$-9.53 \times 10^9 = \frac{1}{2} \times 500 \times v_p^2 - \frac{2.001 \times 10^{17}}{7.0 \times 10^6}$$
+$$
+-9.53 \times 10^9 = \frac{1}{2} \times 500 \times v_p^2 - \frac{2.001 \times 10^{17}}{7.0 \times 10^6}
+$$
 
-$$-9.53 \times 10^9 = 250v_p^2 - 2.859 \times 10^{10}$$
+$$
+-9.53 \times 10^9 = 250v_p^2 - 2.859 \times 10^{10}
+$$
 
-$$250v_p^2 = 2.859 \times 10^{10} - 9.53 \times 10^9 = 1.906 \times 10^{10}$$
+$$
+250v_p^2 = 2.859 \times 10^{10} - 9.53 \times 10^9 = 1.906 \times 10^{10}
+$$
 
-$$v_p = \sqrt{\frac{1.906 \times 10^{10}}{250}} = \sqrt{7.624 \times 10^7} = 8732\,\text{m}\,\text{s}^{-1}$$
+$$
+v_p = \sqrt{\frac{1.906 \times 10^{10}}{250}} = \sqrt{7.624 \times 10^7} = 8732\,\text{m}\,\text{s}^{-1}
+$$
 
 At apogee ($r = r_2$), using conservation of angular momentum: $mv_pr_1 = mv_ar_2$
 
-$$v_a = v_p \times \frac{r_1}{r_2} = 8732 \times \frac{7.0 \times 10^6}{1.4 \times 10^7} = 8732 \times 0.5 = 4366\,\text{m}\,\text{s}^{-1}$$
+$$
+v_a = v_p \times \frac{r_1}{r_2} = 8732 \times \frac{7.0 \times 10^6}{1.4 \times 10^7} = 8732 \times 0.5 = 4366\,\text{m}\,\text{s}^{-1}
+$$
 
 ---
 
@@ -318,22 +361,36 @@ compression.
 (a) First, find the velocity immediately after the inelastic collision using conservation of
 momentum:
 
-$$m_1 u_1 = (m_1 + m_2) v$$
+$$
+m_1 u_1 = (m_1 + m_2) v
+$$
 
-$$4.0 \times 6.0 = (4.0 + 6.0) v$$
+$$
+4.0 \times 6.0 = (4.0 + 6.0) v
+$$
 
-$$v = \frac{24.0}{10.0} = 2.4\,\text{m}\,\text{s}^{-1}$$
+$$
+v = \frac{24.0}{10.0} = 2.4\,\text{m}\,\text{s}^{-1}
+$$
 
-The combined block then compresses the spring. At maximum compression $x$All kinetic energy converts
+The combined block then compresses the spring. At maximum compression $x$ All kinetic energy converts
 to elastic potential energy:
 
-$$\frac{1}{2}(m_1 + m_2)v^2 = \frac{1}{2}kx^2$$
+$$
+\frac{1}{2}(m_1 + m_2)v^2 = \frac{1}{2}kx^2
+$$
 
-$$\frac{1}{2} \times 10.0 \times 2.4^2 = \frac{1}{2} \times 800 \times x^2$$
+$$
+\frac{1}{2} \times 10.0 \times 2.4^2 = \frac{1}{2} \times 800 \times x^2
+$$
 
-$$28.8 = 400x^2$$
+$$
+28.8 = 400x^2
+$$
 
-$$x = \sqrt{\frac{28.8}{400}} = \sqrt{0.072} = 0.268\,\text{m}$$
+$$
+x = \sqrt{\frac{28.8}{400}} = \sqrt{0.072} = 0.268\,\text{m}
+$$
 
 (b) Initial kinetic energy: $KE_i = \frac{1}{2} \times 4.0 \times 6.0^2 = 72.0\,\text{J}$
 
@@ -365,7 +422,7 @@ profile is given by $h(x) = 0.002x^2 - 0.05x$ where $h$ is in metres and $x$ is 
 distance in metres. The cyclist maintains constant power output $P = 250\,\text{W}$. The total
 resistive force (air resistance + rolling friction) is $F_r = 15 + 0.5v^2\,\text{N}$.
 
-At position $x = 50\,\text{m}$The cyclist is moving at $v = 8.0\,\text{m}\,\text{s}^{-1}$.
+At position $x = 50\,\text{m}$ The cyclist is moving at $v = 8.0\,\text{m}\,\text{s}^{-1}$.
 
 (a) Calculate the gradient of the road at $x = 50\,\text{m}$ and determine whether the cyclist is
 going uphill or downhill.
@@ -380,7 +437,7 @@ going uphill or downhill.
 
 At $x = 50\,\text{m}$: $\frac{dh}{dx} = 0.004 \times 50 - 0.05 = 0.20 - 0.05 = 0.15$
 
-Since $dh/dx \gt 0$The cyclist is going **uphill**.
+Since $dh/dx \gt 0$ The cyclist is going **uphill**.
 
 The angle of the incline: $\sin\theta \approx \tan\theta \approx 0.15$ (small angle approximation is
 valid here since $\theta \approx 8.5^\circ$).

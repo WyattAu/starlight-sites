@@ -21,7 +21,9 @@ date: 2026-04-08T00:00:00.000Z
 
 A reversible reaction is one that can proceed in both the forward and reverse directions.
 
-$$\mathrm{A} + \mathrm{B} \rightleftharpoons \mathrm{C} + \mathrm{D}$$
+$$
+\mathrm{A} + \mathrm{B} \rightleftharpoons \mathrm{C} + \mathrm{D}
+$$
 
 ### Conditions for Dynamic Equilibrium
 
@@ -51,16 +53,18 @@ Dynamic equilibrium is established when:
 }
 </script>
 
-## Le Chatelier"s Principle
+## Le Chatelier's Principle
 
 ### Statement
 
 If a system at equilibrium is subjected to a change in concentration, temperature, or pressure, the
-System will adjust to oppose the change and restore a new equilibrium.
+system will adjust to oppose the change and restore a new equilibrium.
 
 ### Effect of Changes on Equilibrium
 
 #### Change in Concentration
+
+<div class="table-wrap">
 
 | Change              | System Response        | Position of Equilibrium        |
 | ------------------- | ---------------------- | ------------------------------ |
@@ -69,16 +73,18 @@ System will adjust to oppose the change and restore a new equilibrium.
 | Increase [product]  | Consumes some product  | Shifts to the left (reactants) |
 | Decrease [product]  | Produces more product  | Shifts to the right (products) |
 
+</div>
+
 **Worked example 1:** For
-$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$What happens if More
+$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$ What happens if More
 $\mathrm{N}_2$ is added?
 
 <details>
 <summary>Answer</summary>
 
 The system opposes the increase in $\mathrm{N}_2$ by consuming some of it. The forward reaction is
-Favoured, shifting equilibrium to the right. More $\mathrm{NH}_3$ is produced, and some
-$\mathrm{H}_2$ is consumed. The new equilibrium has higher $[\mathrm{N}_2]$Higher
+favoured, shifting equilibrium to the right. More $\mathrm{NH}_3$ is produced, and some
+$\mathrm{H}_2$ is consumed. The new equilibrium has higher $[\mathrm{N}_2]$ Higher
 $[\mathrm{NH}_3]$ And lower $[\mathrm{H}_2]$ compared to the original equilibrium.
 
 </details>
@@ -86,15 +92,19 @@ $[\mathrm{NH}_3]$ And lower $[\mathrm{H}_2]$ compared to the original equilibriu
 #### Change in Pressure (for gaseous systems)
 
 Pressure affects equilibrium only when the number of moles of gas differs between reactants and
-Products.
+products.
+
+<div class="table-wrap">
 
 | Change            | System Response              | Position of Equilibrium           |
 | ----------------- | ---------------------------- | --------------------------------- |
 | Increase pressure | Reduces total moles of gas   | Shifts towards fewer moles of gas |
 | Decrease pressure | Increases total moles of gas | Shifts towards more moles of gas  |
 
+</div>
+
 **Worked example 2:** For
-$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$What happens when
+$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$ What happens when
 Pressure is increased?
 
 <details>
@@ -115,14 +125,20 @@ with more moles of Gas, because the partial pressures of the reacting gases decr
 
 #### Change in Temperature
 
+<div class="table-wrap">
+
 | Change               | System Response | Position of Equilibrium                  |
 | -------------------- | --------------- | ---------------------------------------- |
 | Increase temperature | Absorbs heat    | Shifts towards the endothermic direction |
 | Decrease temperature | Releases heat   | Shifts towards the exothermic direction  |
 
+</div>
+
 For the Haber process (exothermic forward reaction):
 
-$$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)} \quad \Delta H = -92 \mathrm{ kJ/mol}$$
+$$
+\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)} \quad \Delta H = -92 \mathrm{ kJ/mol}
+$$
 
 Increasing temperature shifts equilibrium to the left (endothermic direction), reducing the yield of
 $\mathrm{NH}_3$. Decreasing temperature increases the yield but slows the rate.
@@ -130,7 +146,9 @@ $\mathrm{NH}_3$. Decreasing temperature increases the yield but slows the rate.
 #### Effect of a Catalyst
 
 A catalyst increases both the forward and reverse rates equally. It has **no effect** on the
-Position of equilibrium or the equilibrium yield. It only helps the system reach equilibrium faster.
+position of equilibrium or the equilibrium yield. It only helps the system reach equilibrium faster.
+
+<div class="table-wrap">
 
 | Factor        | Affects Rate?   | Affects Equilibrium Position? | Affects $K_c$? |
 | ------------- | --------------- | ----------------------------- | -------------- |
@@ -138,6 +156,8 @@ Position of equilibrium or the equilibrium yield. It only helps the system reach
 | Pressure      | Yes (initially) | Yes (gases only)              | No             |
 | Temperature   | Yes             | Yes                           | Yes            |
 | Catalyst      | Yes             | No                            | No             |
+
+</div>
 
 ---
 
@@ -156,11 +176,15 @@ Position of equilibrium or the equilibrium yield. It only helps the system reach
 
 For a reversible reaction at equilibrium:
 
-$$a\mathrm{A} + b\mathrm{B} \rightleftharpoons c\mathrm{C} + d\mathrm{D}$$
+$$
+a\mathrm{A} + b\mathrm{B} \rightleftharpoons c\mathrm{C} + d\mathrm{D}
+$$
 
 The equilibrium constant in terms of concentration is:
 
-$$K_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b}$$
+$$
+K_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b}
+$$
 
 Where all concentrations are equilibrium concentrations in mol/dm$^3$.
 
@@ -175,11 +199,15 @@ Where all concentrations are equilibrium concentrations in mol/dm$^3$.
 
 ### Magnitude of $K_c$
 
+<div class="table-wrap">
+
 | $K_c$ Value                    | Interpretation                                       |
 | ------------------------------ | ---------------------------------------------------- |
 | $K_c \gg 1$ (e.g., $10^{10}$)  | Equilibrium lies far to the right; products favoured |
 | $K_c \approx 1$                | Significant amounts of both reactants and products   |
 | $K_c \ll 1$ (e.g., $10^{-10}$) | Equilibrium lies far to the left; reactants favoured |
+
+</div>
 
 ### Effect of Temperature on $K_c$
 
@@ -198,9 +226,13 @@ For an endothermic reaction ($\Delta H \gt 0$):
 For reactions involving solids or pure liquids, only gaseous and aqueous species appear in the $K_c$
 Expression.
 
-$$\mathrm{CaCO}_{3(s)} \rightleftharpoons \mathrm{CaO}_{(s)} + \mathrm{CO}_{2(g)}$$
+$$
+\mathrm{CaCO}_{3(s)} \rightleftharpoons \mathrm{CaO}_{(s)} + \mathrm{CO}_{2(g)}
+$$
 
-$$K_c = [\mathrm{CO}_2]$$
+$$
+K_c = [\mathrm{CO}_2]
+$$
 
 ---
 
@@ -223,10 +255,14 @@ ICE (Initial, Change, Equilibrium) tables organise the data for equilibrium calc
 Dm$^3$ vessel at 450$^\circ$C. At equilibrium, 0.78 mol of $\mathrm{HI}$ has formed. Calculate
 $K_c$.
 
-$$\mathrm{H}_{2(g)} + \mathrm{I}_{2(g)} \rightleftharpoons 2\mathrm{HI}_{(g)}$$
+$$
+\mathrm{H}_{2(g)} + \mathrm{I}_{2(g)} \rightleftharpoons 2\mathrm{HI}_{(g)}
+$$
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Species     | $\mathrm{H}_2$ | $\mathrm{I}_2$ | $\mathrm{HI}$ |
 | ----------- | -------------- | -------------- | ------------- |
@@ -234,19 +270,25 @@ $$\mathrm{H}_{2(g)} + \mathrm{I}_{2(g)} \rightleftharpoons 2\mathrm{HI}_{(g)}$$
 | Change      | $-x$           | $-x$           | $+2x$         |
 | Equilibrium | $1.00 - x$     | $1.00 - x$     | $2x$          |
 
+</div>
+
 Since 0.78 mol of $\mathrm{HI}$ formed: $2x = 0.78$ So $x = 0.39$.
 
 Equilibrium concentrations: $[\mathrm{H}_2] = 1.00 - 0.39 = 0.61 \mathrm{ mol/dm}^3$
 $[\mathrm{I}_2] = 1.00 - 0.39 = 0.61 \mathrm{ mol/dm}^3$ $[\mathrm{HI}] = 0.78 \mathrm{ mol/dm}^3$
 
-$$K_c = \frac{[\mathrm{HI}]^2}{[\mathrm{H}_2][\mathrm{I}_2]} = \frac{(0.78)^2}{(0.61)(0.61)} = \frac{0.6084}{0.3721} = 1.63$$
+$$
+K_c = \frac{[\mathrm{HI}]^2}{[\mathrm{H}_2][\mathrm{I}_2]} = \frac{(0.78)^2}{(0.61)(0.61)} = \frac{0.6084}{0.3721} = 1.63
+$$
 
 </details>
 
 **Worked example 4:** 2.00 mol of $\mathrm{NO}$ and 1.00 mol of $\mathrm{Cl}_2$ are placed in a 2.00
 Dm$^3$ flask. At equilibrium, 0.60 mol of $\mathrm{NOCl}$ is present. Calculate $K_c$.
 
-$$2\mathrm{NO}_{(g)} + \mathrm{Cl}_{2(g)} \rightleftharpoons 2\mathrm{NOCl}_{(g)}$$
+$$
+2\mathrm{NO}_{(g)} + \mathrm{Cl}_{2(g)} \rightleftharpoons 2\mathrm{NOCl}_{(g)}
+$$
 
 <details>
 <summary>Answer</summary>
@@ -254,18 +296,24 @@ $$2\mathrm{NO}_{(g)} + \mathrm{Cl}_{2(g)} \rightleftharpoons 2\mathrm{NOCl}_{(g)
 Initial concentrations: $[\mathrm{NO}] = 2.00 / 2.00 = 1.00 \mathrm{ mol/dm}^3$
 $[\mathrm{Cl}_2] = 1.00 / 2.00 = 0.500 \mathrm{ mol/dm}^3$ $[\mathrm{NOCl}] = 0$
 
+<div class="table-wrap">
+
 | Species              | $\mathrm{NO}$ | $\mathrm{Cl}_2$ | $\mathrm{NOCl}$ |
 | -------------------- | ------------- | --------------- | --------------- |
 | Initial (mol/dm$^3$) | 1.00          | 0.500           | 0               |
 | Change               | $-y$          | $-y/2$          | $+y$            |
 | Equilibrium          | $1.00 - y$    | $0.500 - y/2$   | $y$             |
 
+</div>
+
 $[\mathrm{NOCl}]_{\mathrm{eq}} = 0.60 / 2.00 = 0.30 \mathrm{ mol/dm}^3$ So $y = 0.30$.
 
 $[\mathrm{NO}]_{\mathrm{eq}} = 1.00 - 0.30 = 0.70 \mathrm{ mol/dm}^3$
 $[\mathrm{Cl}_2]_{\mathrm{eq}} = 0.500 - 0.15 = 0.350 \mathrm{ mol/dm}^3$
 
-$$K_c = \frac{[\mathrm{NOCl}]^2}{[\mathrm{NO}]^2[\mathrm{Cl}_2]} = \frac{(0.30)^2}{(0.70)^2(0.350)} = \frac{0.090}{0.1715} = 0.525$$
+$$
+K_c = \frac{[\mathrm{NOCl}]^2}{[\mathrm{NO}]^2[\mathrm{Cl}_2]} = \frac{(0.30)^2}{(0.70)^2(0.350)} = \frac{0.090}{0.1715} = 0.525
+$$
 
 Units:
 $\dfrac{(\mathrm{mol/dm}^3)^2}{(\mathrm{mol/dm}^3)^2 \times (\mathrm{mol/dm}^3)} = \mathrm{dm}^3/\mathrm{mol}$
@@ -282,17 +330,27 @@ Placed in a 1.00 dm$^3$ flask, calculate the equilibrium concentrations.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Species     | $\mathrm{PCl}_5$ | $\mathrm{PCl}_3$ | $\mathrm{Cl}_2$ |
 | ----------- | ---------------- | ---------------- | --------------- |
 | Initial     | 1.00             | 0                | 0               |
 | Change      | $-x$             | $+x$             | $+x$            |
 | Equilibrium | $1.00 - x$       | $x$              | $x$             |
 
-$$K_c = \frac{[\mathrm{PCl}_3][\mathrm{Cl}_2]}{[\mathrm{PCl}_5]} = \frac{x \cdot x}{1.00 - x} = \frac{x^2}{1.00 - x} = 0.0211$$
+</div>
 
-$$x^2 = 0.0211(1.00 - x) = 0.0211 - 0.0211x$$
+$$
+K_c = \frac{[\mathrm{PCl}_3][\mathrm{Cl}_2]}{[\mathrm{PCl}_5]} = \frac{x \cdot x}{1.00 - x} = \frac{x^2}{1.00 - x} = 0.0211
+$$
 
-$$x^2 + 0.0211x - 0.0211 = 0$$
+$$
+x^2 = 0.0211(1.00 - x) = 0.0211 - 0.0211x
+$$
+
+$$
+x^2 + 0.0211x - 0.0211 = 0
+$$
 
 Using the quadratic formula: $x = \dfrac{-0.0211 + \sqrt{0.0211^2 + 4(0.0211)}}{2}$
 
@@ -310,13 +368,19 @@ Verification: $K_c = (0.135)^2 / 0.865 = 0.01823 / 0.865 = 0.0211$. Correct.
 The reaction quotient $Q_c$ has the same form as $K_c$ but uses initial (non-equilibrium)
 Concentrations.
 
-$$Q_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b} \quad \mathrm{(initial concentrations)}$$
+$$
+Q_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b} \quad \mathrm{(initial concentrations)}
+$$
+
+<div class="table-wrap">
 
 | Comparison    | Result                                  |
 | ------------- | --------------------------------------- |
 | $Q_c \lt K_c$ | Forward reaction favoured (shift right) |
 | $Q_c = K_c$   | System is at equilibrium                |
 | $Q_c \gt K_c$ | Reverse reaction favoured (shift left)  |
+
+</div>
 
 **Worked example 6:** For
 $\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$
@@ -327,7 +391,9 @@ $\mathrm{NH}_3$ form or will it decompose?
 <details>
 <summary>Answer</summary>
 
-$$Q_c = \frac{[\mathrm{NH}_3]^2}{[\mathrm{N}_2][\mathrm{H}_2]^3} = \frac{(0.500)^2}{(1.00)(1.00)^3} = \frac{0.250}{1.00} = 0.250$$
+$$
+Q_c = \frac{[\mathrm{NH}_3]^2}{[\mathrm{N}_2][\mathrm{H}_2]^3} = \frac{(0.500)^2}{(1.00)(1.00)^3} = \frac{0.250}{1.00} = 0.250
+$$
 
 $Q_c = 0.250 \lt K_c = 0.500$ So the forward reaction is favoured. More $\mathrm{NH}_3$ will form.
 
@@ -348,9 +414,13 @@ $Q_c = 0.250 \lt K_c = 0.500$ So the forward reaction is favoured. More $\mathrm
 
 ### Reaction
 
-$$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)} \quad \Delta H = -92 \mathrm{ kJ/mol}$$
+$$
+\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)} \quad \Delta H = -92 \mathrm{ kJ/mol}
+$$
 
 ### Conditions Used
+
+<div class="table-wrap">
 
 | Condition   | Value                                                                      | Reason                                                                  |
 | ----------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -359,7 +429,11 @@ $$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)} 
 | Catalyst    | Iron (promoted with $\mathrm{K}_2\mathrm{O}$, $\mathrm{Al}_2\mathrm{O}_3$) | Increases rate without affecting equilibrium                            |
 | Recycle     | Unreacted $\mathrm{N}_2$ and $\mathrm{H}_2$ are recycled                   | Improves overall yield despite low single-pass conversion               |
 
+</div>
+
 ### Le Chatelier's Principle Applied
+
+<div class="table-wrap">
 
 | Change             | Effect on Equilibrium                  | Practical Consideration                       |
 | ------------------ | -------------------------------------- | --------------------------------------------- |
@@ -367,6 +441,8 @@ $$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)} 
 | Lower temperature  | More $\mathrm{NH}_3$ (exothermic)      | Lower temperature gives slower rate           |
 | Higher temperature | Less $\mathrm{NH}_3$ but faster rate   | Compromise temperature chosen                 |
 | Catalyst           | No effect on position                  | Faster attainment of equilibrium              |
+
+</div>
 
 ### Yield vs Rate
 
@@ -389,9 +465,13 @@ Reaches about 98%.
 
 ### Reaction
 
-$$2\mathrm{SO}_{2(g)} + \mathrm{O}_{2(g)} \rightleftharpoons 2\mathrm{SO}_{3(g)} \quad \Delta H = -198 \mathrm{ kJ/mol}$$
+$$
+2\mathrm{SO}_{2(g)} + \mathrm{O}_{2(g)} \rightleftharpoons 2\mathrm{SO}_{3(g)} \quad \Delta H = -198 \mathrm{ kJ/mol}
+$$
 
 ### Conditions Used
+
+<div class="table-wrap">
 
 | Condition   | Value                                         | Reason                                                        |
 | ----------- | --------------------------------------------- | ------------------------------------------------------------- |
@@ -399,11 +479,15 @@ $$2\mathrm{SO}_{2(g)} + \mathrm{O}_{2(g)} \rightleftharpoons 2\mathrm{SO}_{3(g)}
 | Pressure    | 1--2 atm                                      | Moderate pressure; only slight improvement at higher pressure |
 | Catalyst    | Vanadium(V) oxide, $\mathrm{V}_2\mathrm{O}_5$ | Increases rate                                                |
 
+</div>
+
 ### Steps in the Contact Process
 
 1. **Sulfur burn:** Sulfur or metal sulfide ores are burned in air to produce $\mathrm{SO}_2$.
 
-$$\mathrm{S}_{(s)} + \mathrm{O}_{2(g)} \to \mathrm{SO}_{2(g)}$$
+$$
+\mathrm{S}_{(s)} + \mathrm{O}_{2(g)} \to \mathrm{SO}_{2(g)}
+$$
 
 1. **Purification:** $\mathrm{SO}_2$ is purified to remove impurities that could poison the
    catalyst.
@@ -415,13 +499,17 @@ $$\mathrm{S}_{(s)} + \mathrm{O}_{2(g)} \to \mathrm{SO}_{2(g)}$$
    oleum ($\mathrm{H}_2\mathrm{S}_2\mathrm{O}_7$), which is then diluted to give
    $\mathrm{H}_2\mathrm{SO}_4$.
 
-$$\mathrm{SO}_{3(g)} + \mathrm{H}_2\mathrm{SO}_{4(l)} \to \mathrm{H}_2\mathrm{S}_2\mathrm{O}_{7(l)}$$
+$$
+\mathrm{SO}_{3(g)} + \mathrm{H}_2\mathrm{SO}_{4(l)} \to \mathrm{H}_2\mathrm{S}_2\mathrm{O}_{7(l)}
+$$
 
-$$\mathrm{H}_2\mathrm{S}_2\mathrm{O}_{7(l)} + \mathrm{H}_2\mathrm{O}_{(l)} \to 2\mathrm{H}_2\mathrm{SO}_{4(l)}$$
+$$
+\mathrm{H}_2\mathrm{S}_2\mathrm{O}_{7(l)} + \mathrm{H}_2\mathrm{O}_{(l)} \to 2\mathrm{H}_2\mathrm{SO}_{4(l)}
+$$
 
 :::note
 And would produce a corrosive mist of $\mathrm{H}_2\mathrm{SO}_4$ droplets that is difficult to
-Condense.
+condense.
 :::
 
 ### Le Chatelier's Principle in the Contact Process
@@ -448,7 +536,9 @@ Condense.
 
 ### Nitric Acid Production (Ostwald Process)
 
-$$4\mathrm{NH}_{3(g)} + 5\mathrm{O}_{2(g)} \rightleftharpoons 4\mathrm{NO}_{(g)} + 6\mathrm{H}_2\mathrm{O}_{(g)} \quad \Delta H = -905 \mathrm{ kJ/mol}$$
+$$
+4\mathrm{NH}_{3(g)} + 5\mathrm{O}_{2(g)} \rightleftharpoons 4\mathrm{NO}_{(g)} + 6\mathrm{H}_2\mathrm{O}_{(g)} \quad \Delta H = -905 \mathrm{ kJ/mol}
+$$
 
 - Catalyst: Platinum-rhodium alloy at 850$^\circ$C, 8 atm.
 - The $\mathrm{NO}$ produced is further oxidised to $\mathrm{NO}_2$ Then absorbed in water to form
@@ -456,7 +546,9 @@ $$4\mathrm{NH}_{3(g)} + 5\mathrm{O}_{2(g)} \rightleftharpoons 4\mathrm{NO}_{(g)}
 
 ### Ethanol Production by Hydration
 
-$$\mathrm{C}_2\mathrm{H}_{4(g)} + \mathrm{H}_2\mathrm{O}_{(g)} \rightleftharpoons \mathrm{C}_2\mathrm{H}_5\mathrm{OH}_{(g)} \quad \Delta H = -46 \mathrm{ kJ/mol}$$
+$$
+\mathrm{C}_2\mathrm{H}_{4(g)} + \mathrm{H}_2\mathrm{O}_{(g)} \rightleftharpoons \mathrm{C}_2\mathrm{H}_5\mathrm{OH}_{(g)} \quad \Delta H = -46 \mathrm{ kJ/mol}
+$$
 
 - Catalyst: Phosphoric acid on silica support.
 - Conditions: 300$^\circ$C, 60--70 atm.
@@ -478,7 +570,7 @@ $$\mathrm{C}_2\mathrm{H}_{4(g)} + \mathrm{H}_2\mathrm{O}_{(g)} \rightleftharpoon
 **Worked example 7:** For
 $\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$
 $K_c = 6.00 \times 10^{-2} \mathrm{ (mol/dm}^3)^{-2}$ at 400$^\circ$C. If 1.00 mol of $\mathrm{N}_2$
-And 3.00 mol of $\mathrm{H}_2$ are placed in a 2.00 dm$^3$ flask, calculate the equilibrium
+and 3.00 mol of $\mathrm{H}_2$ are placed in a 2.00 dm$^3$ flask, calculate the equilibrium
 Concentrations and the percentage conversion of $\mathrm{N}_2$.
 
 <details>
@@ -487,40 +579,64 @@ Concentrations and the percentage conversion of $\mathrm{N}_2$.
 Initial concentrations: $[\mathrm{N}_2] = 1.00 / 2.00 = 0.500 \mathrm{ mol/dm}^3$
 $[\mathrm{H}_2] = 3.00 / 2.00 = 1.50 \mathrm{ mol/dm}^3$
 
+<div class="table-wrap">
+
 | Species     | $\mathrm{N}_2$ | $\mathrm{H}_2$ | $\mathrm{NH}_3$ |
 | ----------- | -------------- | -------------- | --------------- |
 | Initial     | 0.500          | 1.50           | 0               |
 | Change      | $-x$           | $-3x$          | $+2x$           |
 | Equilibrium | $0.500 - x$    | $1.50 - 3x$    | $2x$            |
 
-$$K_c = \frac{[\mathrm{NH}_3]^2}{[\mathrm{N}_2][\mathrm{H}_2]^3} = \frac{(2x)^2}{(0.500 - x)(1.50 - 3x)^3} = 0.0600$$
+</div>
 
-$$\frac{4x^2}{(0.500 - x)(1.50 - 3x)^3} = 0.0600$$
+$$
+K_c = \frac{[\mathrm{NH}_3]^2}{[\mathrm{N}_2][\mathrm{H}_2]^3} = \frac{(2x)^2}{(0.500 - x)(1.50 - 3x)^3} = 0.0600
+$$
+
+$$
+\frac{4x^2}{(0.500 - x)(1.50 - 3x)^3} = 0.0600
+$$
 
 This is a complex equation. For small $x$ (since $K_c$ is small), approximate
 $0.500 - x \approx 0.500$ and $1.50 - 3x \approx 1.50$:
 
-$$\frac{4x^2}{0.500 \times (1.50)^3} = 0.0600$$
+$$
+\frac{4x^2}{0.500 \times (1.50)^3} = 0.0600
+$$
 
-$$\frac{4x^2}{0.500 \times 3.375} = 0.0600$$
+$$
+\frac{4x^2}{0.500 \times 3.375} = 0.0600
+$$
 
-$$\frac{4x^2}{1.6875} = 0.0600$$
+$$
+\frac{4x^2}{1.6875} = 0.0600
+$$
 
-$$4x^2 = 0.10125$$
+$$
+4x^2 = 0.10125
+$$
 
-$$x^2 = 0.02531$$
+$$
+x^2 = 0.02531
+$$
 
-$$x = 0.159$$
+$$
+x = 0.159
+$$
 
 Check approximation: $0.500 - 0.159 = 0.341$ (68% of 0.500 -- the approximation is poor). Need to
-Solve the full equation. Using the quadratic approximation with substitution:
+solve the full equation. Using the quadratic approximation with substitution:
 
 Actually, let us set $y = 3x$ so that $[\mathrm{H}_2] = 1.50 - y$ and
 $[\mathrm{N}_2] = 0.500 - y/3$:
 
-$$\frac{4(y/3)^2}{(0.500 - y/3)(1.50 - y)^3} = 0.0600$$
+$$
+\frac{4(y/3)^2}{(0.500 - y/3)(1.50 - y)^3} = 0.0600
+$$
 
-$$\frac{4y^2/9}{(0.500 - y/3)(1.50 - y)^3} = 0.0600$$
+$$
+\frac{4y^2/9}{(0.500 - y/3)(1.50 - y)^3} = 0.0600
+$$
 
 For $y = 0.477$ (i.e., $x = 0.159$):
 
@@ -531,17 +647,25 @@ $K_c = (0.318)^2 / (0.341 \times 1.023^3) = 0.1011 / (0.341 \times 1.070) = 0.10
 
 This does not match $K_c = 0.0600$. The issue is that the approximation was too rough. For a precise
 Answer, numerical methods or a computer solver would be needed. Let us use a smaller $K_c$ to make
-The approximation valid.
+the approximation valid.
 
 With $K_c = 0.00200$:
 
-$$\frac{4x^2}{0.500 \times 3.375} = 0.00200$$
+$$
+\frac{4x^2}{0.500 \times 3.375} = 0.00200
+$$
 
-$$4x^2 = 0.003375$$
+$$
+4x^2 = 0.003375
+$$
 
-$$x^2 = 0.000844$$
+$$
+x^2 = 0.000844
+$$
 
-$$x = 0.0290$$
+$$
+x = 0.0290
+$$
 
 Check: $0.500 - 0.029 = 0.471$ (94%, good). $1.50 - 0.087 = 1.413$ (94%, good).
 
@@ -551,15 +675,21 @@ $K_c = (0.0581)^2 / (0.471 \times 1.413^3) = 0.00338 / (0.471 \times 2.821) = 0.
 
 Still off. This illustrates why the 5% rule is important. For better accuracy, iterate or use
 Successive approximation. In DSE exams, the values are chosen so that the approximation is
-Reasonable.
+reasonable.
 
 Let us use a cleaner example with smaller $K_c = 1.00 \times 10^{-3}$:
 
-$$\frac{4x^2}{0.500 \times 3.375} = 1.00 \times 10^{-3}$$
+$$
+\frac{4x^2}{0.500 \times 3.375} = 1.00 \times 10^{-3}
+$$
 
-$$4x^2 = 1.6875 \times 10^{-3}$$
+$$
+4x^2 = 1.6875 \times 10^{-3}
+$$
 
-$$x = 0.02054$$
+$$
+x = 0.02054
+$$
 
 $[\mathrm{N}_2] = 0.479$$[\mathrm{H}_2] = 1.438$$[\mathrm{NH}_3] = 0.0411$
 
@@ -585,18 +715,24 @@ Close enough. Percentage conversion of $\mathrm{N}_2$ = $0.02054 / 0.500 \times 
 
 For gaseous equilibria, $K_p$ uses partial pressures instead of concentrations.
 
-$$K_p = \frac{(p_C)^c(p_D)^d}{(p_A)^a(p_B)^b}$$
+$$
+K_p = \frac{(p_C)^c(p_D)^d}{(p_A)^a(p_B)^b}
+$$
 
 The relationship between $K_c$ and $K_p$ is:
 
-$$K_p = K_c(RT)^{\Delta n}$$
+$$
+K_p = K_c(RT)^{\Delta n}
+$$
 
 Where $\Delta n = (\mathrm{moles of gaseous products}) - (\mathrm{moles of gaseous reactants})$.
 
 For $\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$:
 $\Delta n = 2 - 4 = -2$.
 
-$$K_p = K_c(RT)^{-2} = \frac{K_c}{(RT)^2}$$
+$$
+K_p = K_c(RT)^{-2} = \frac{K_c}{(RT)^2}
+$$
 
 If $\Delta n = 0$ Then $K_p = K_c$.
 
@@ -649,7 +785,7 @@ When $\Delta n = 0$, $K_p = K_c$ with no units.
    It only speeds up attainment of equilibrium.
 
 5. **Units of $K_c$:** Always include units. For
-   $\mathrm{N}_2 + 3\mathrm{H}_2 \rightleftharpoons 2\mathrm{NH}_3$The units are
+   $\mathrm{N}_2 + 3\mathrm{H}_2 \rightleftharpoons 2\mathrm{NH}_3$ The units are
    $(\mathrm{mol/dm}^3)^{-2}$.
 
 6. **Pressure changes only affect gaseous equilibria when $\Delta n \neq 0$:** If the moles of gas
@@ -657,7 +793,7 @@ When $\Delta n = 0$, $K_p = K_c$ with no units.
 
 7. **Reversing the reaction inverts $K_c$:** For the reverse reaction, $K_c' = 1/K_c$.
 
-8. **Multiplying the equation by $n$ raises $K_c$ to the $n$Th power:** If the equation is
+8. **Multiplying the equation by $n$ raises $K_c$ to the $n$ Th power:** If the equation is
    multiplied by 2, $K_c' = (K_c)^2$.
 
 ---
@@ -677,7 +813,9 @@ When $\Delta n = 0$, $K_p = K_c$ with no units.
 
 At a certain temperature, $K_c = 4.00$ for the reaction:
 
-$$\mathrm{H}_{2(g)} + \mathrm{I}_{2(g)} \rightleftharpoons 2\mathrm{HI}_{(g)}$$
+$$
+\mathrm{H}_{2(g)} + \mathrm{I}_{2(g)} \rightleftharpoons 2\mathrm{HI}_{(g)}
+$$
 
 If 2.00 mol of $\mathrm{H}_2$ and 2.00 mol of $\mathrm{I}_2$ are placed in a 1.00 dm$^3$ flask,
 Calculate the equilibrium concentrations of all species.
@@ -685,25 +823,41 @@ Calculate the equilibrium concentrations of all species.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Species     | $\mathrm{H}_2$ | $\mathrm{I}_2$ | $\mathrm{HI}$ |
 | ----------- | -------------- | -------------- | ------------- |
 | Initial     | 2.00           | 2.00           | 0             |
 | Change      | $-x$           | $-x$           | $+2x$         |
 | Equilibrium | $2.00 - x$     | $2.00 - x$     | $2x$          |
 
-$$K_c = \frac{(2x)^2}{(2.00 - x)^2} = 4.00$$
+</div>
 
-$$\frac{4x^2}{(2.00 - x)^2} = 4.00$$
+$$
+K_c = \frac{(2x)^2}{(2.00 - x)^2} = 4.00
+$$
+
+$$
+\frac{4x^2}{(2.00 - x)^2} = 4.00
+$$
 
 Taking the square root of both sides:
 
-$$\frac{2x}{2.00 - x} = 2.00$$
+$$
+\frac{2x}{2.00 - x} = 2.00
+$$
 
-$$2x = 2.00(2.00 - x) = 4.00 - 2x$$
+$$
+2x = 2.00(2.00 - x) = 4.00 - 2x
+$$
 
-$$4x = 4.00$$
+$$
+4x = 4.00
+$$
 
-$$x = 1.00$$
+$$
+x = 1.00
+$$
 
 $[\mathrm{H}_2] = [\mathrm{I}_2] = 2.00 - 1.00 = 1.00 \mathrm{ mol/dm}^3$
 
@@ -725,21 +879,35 @@ $\mathrm{CO}$ that has reacted.
 Initial concentrations:
 $[\mathrm{CO}] = [\mathrm{H}_2\mathrm{O}] = 1.00 / 2.00 = 0.500 \mathrm{ mol/dm}^3$
 
+<div class="table-wrap">
+
 | Species     | $\mathrm{CO}$ | $\mathrm{H}_2\mathrm{O}$ | $\mathrm{CO}_2$ | $\mathrm{H}_2$ |
 | ----------- | ------------- | ------------------------ | --------------- | -------------- |
 | Initial     | 0.500         | 0.500                    | 0               | 0              |
 | Change      | $-x$          | $-x$                     | $+x$            | $+x$           |
 | Equilibrium | $0.500 - x$   | $0.500 - x$              | $x$             | $x$            |
 
-$$K_c = \frac{x \cdot x}{(0.500 - x)(0.500 - x)} = \frac{x^2}{(0.500 - x)^2} = 1.60$$
+</div>
 
-$$\frac{x}{0.500 - x} = \sqrt{1.60} = 1.265$$
+$$
+K_c = \frac{x \cdot x}{(0.500 - x)(0.500 - x)} = \frac{x^2}{(0.500 - x)^2} = 1.60
+$$
 
-$$x = 1.265(0.500 - x) = 0.6325 - 1.265x$$
+$$
+\frac{x}{0.500 - x} = \sqrt{1.60} = 1.265
+$$
 
-$$2.265x = 0.6325$$
+$$
+x = 1.265(0.500 - x) = 0.6325 - 1.265x
+$$
 
-$$x = 0.279$$
+$$
+2.265x = 0.6325
+$$
+
+$$
+x = 0.279
+$$
 
 $[\mathrm{CO}] = [\mathrm{H}_2\mathrm{O}] = 0.500 - 0.279 = 0.221 \mathrm{ mol/dm}^3$
 
@@ -752,12 +920,12 @@ Percentage of $\mathrm{CO}$ reacted = $0.279 / 0.500 \times 100\% = 55.8\%$
 ### Problem 3
 
 For the exothermic reaction
-$\mathrm{A}_{(g)} + \mathrm{B}_{(g)} \rightleftharpoons 2\mathrm{C}_{(g)}$Explain the effect of Each
+$\mathrm{A}_{(g)} + \mathrm{B}_{(g)} \rightleftharpoons 2\mathrm{C}_{(g)}$ Explain the effect of Each
 of the following changes on (i) the equilibrium position, (ii) the value of $K_c$ And (iii) The rate
 of attainment of equilibrium:
 
 (a) Increasing temperature (b) Adding more $\mathrm{A}$ (c) Adding a catalyst (d) Decreasing the
-Volume of the container
+volume of the container
 
 <details>
 <summary>Answer</summary>
@@ -770,7 +938,7 @@ Products at equilibrium). (iii) Rate of attainment increases (higher temperature
 **(b) Adding more A:**
 
 (i) Shifts right (system consumes excess A). (ii) $K_c$ unchanged (temperature constant). (iii) No
-Direct effect on rate of attainment; equilibrium re-establishes.
+direct effect on rate of attainment; equilibrium re-establishes.
 
 **(c) Adding a catalyst:**
 
@@ -789,7 +957,9 @@ Frequency).
 
 At 500 K, $K_c = 0.0400 \mathrm{ (mol/dm}^3)$ for the reaction:
 
-$$\mathrm{PCl}_{5(g)} \rightleftharpoons \mathrm{PCl}_{3(g)} + \mathrm{Cl}_{2(g)}$$
+$$
+\mathrm{PCl}_{5(g)} \rightleftharpoons \mathrm{PCl}_{3(g)} + \mathrm{Cl}_{2(g)}
+$$
 
 0.800 mol of $\mathrm{PCl}_5$ is placed in a 5.00 dm$^3$ flask. Calculate the equilibrium
 Concentrations and the percentage dissociation of $\mathrm{PCl}_5$.
@@ -799,19 +969,31 @@ Concentrations and the percentage dissociation of $\mathrm{PCl}_5$.
 
 Initial concentration: $[\mathrm{PCl}_5] = 0.800 / 5.00 = 0.160 \mathrm{ mol/dm}^3$
 
+<div class="table-wrap">
+
 | Species     | $\mathrm{PCl}_5$ | $\mathrm{PCl}_3$ | $\mathrm{Cl}_2$ |
 | ----------- | ---------------- | ---------------- | --------------- |
 | Initial     | 0.160            | 0                | 0               |
 | Change      | $-x$             | $+x$             | $+x$            |
 | Equilibrium | $0.160 - x$      | $x$              | $x$             |
 
-$$K_c = \frac{x^2}{0.160 - x} = 0.0400$$
+</div>
 
-$$x^2 = 0.0400(0.160 - x) = 0.00640 - 0.0400x$$
+$$
+K_c = \frac{x^2}{0.160 - x} = 0.0400
+$$
 
-$$x^2 + 0.0400x - 0.00640 = 0$$
+$$
+x^2 = 0.0400(0.160 - x) = 0.00640 - 0.0400x
+$$
 
-$$x = \frac{-0.0400 + \sqrt{0.001600 + 0.02560}}{2} = \frac{-0.0400 + \sqrt{0.02720}}{2} = \frac{-0.0400 + 0.1649}{2} = 0.06245$$
+$$
+x^2 + 0.0400x - 0.00640 = 0
+$$
+
+$$
+x = \frac{-0.0400 + \sqrt{0.001600 + 0.02560}}{2} = \frac{-0.0400 + \sqrt{0.02720}}{2} = \frac{-0.0400 + 0.1649}{2} = 0.06245
+$$
 
 $[\mathrm{PCl}_5] = 0.160 - 0.0625 = 0.0976 \mathrm{ mol/dm}^3$
 
@@ -831,10 +1013,10 @@ Even though a lower temperature would give a higher equilibrium yield of ammonia
 
 Although a lower temperature favours the equilibrium position (the forward reaction is exothermic),
 The rate of reaction at room temperature is impractically slow. Even with an iron catalyst, the
-Reaction would take far too long to reach equilibrium.
+reaction would take far too long to reach equilibrium.
 
 At 450$^\circ$C, the rate is fast enough to reach equilibrium in a reasonable time. Although the
-Equilibrium yield is lower at this temperature, the trade-off is acceptable because:
+equilibrium yield is lower at this temperature, the trade-off is acceptable because:
 
 1. The unreacted $\mathrm{N}_2$ and $\mathrm{H}_2$ are continuously recycled, so the overall yield
    is high (~98%).
@@ -842,7 +1024,7 @@ Equilibrium yield is lower at this temperature, the trade-off is acceptable beca
 3. The iron catalyst only functions effectively at elevated temperatures.
 
 This is a classic example of the compromise between thermodynamic yield and kinetic rate in
-Industrial chemistry.
+industrial chemistry.
 
 </details>
 
@@ -851,12 +1033,14 @@ Industrial chemistry.
 For the reaction $\mathrm{N}_2\mathrm{O}_{4(g)} \rightleftharpoons 2\mathrm{NO}_{2(g)}$
 $K_c = 0.361 \mathrm{ mol/dm}^3$ at 373 K. If 0.500 mol of $\mathrm{N}_2\mathrm{O}_4$ is placed in a
 2.00 dm$^3$ flask at 373 K, calculate the equilibrium concentrations and the total pressure of the
-Gas mixture at equilibrium.
+gas mixture at equilibrium.
 
 <details>
 <summary>Answer</summary>
 
 Initial: $[\mathrm{N}_2\mathrm{O}_4] = 0.500 / 2.00 = 0.250 \mathrm{ mol/dm}^3$
+
+<div class="table-wrap">
 
 | Species     | $\mathrm{N}_2\mathrm{O}_4$ | $\mathrm{NO}_2$ |
 | ----------- | -------------------------- | --------------- |
@@ -864,13 +1048,23 @@ Initial: $[\mathrm{N}_2\mathrm{O}_4] = 0.500 / 2.00 = 0.250 \mathrm{ mol/dm}^3$
 | Change      | $-x$                       | $+2x$           |
 | Equilibrium | $0.250 - x$                | $2x$            |
 
-$$K_c = \frac{(2x)^2}{0.250 - x} = \frac{4x^2}{0.250 - x} = 0.361$$
+</div>
 
-$$4x^2 = 0.361(0.250 - x) = 0.09025 - 0.361x$$
+$$
+K_c = \frac{(2x)^2}{0.250 - x} = \frac{4x^2}{0.250 - x} = 0.361
+$$
 
-$$4x^2 + 0.361x - 0.09025 = 0$$
+$$
+4x^2 = 0.361(0.250 - x) = 0.09025 - 0.361x
+$$
 
-$$x = \frac{-0.361 + \sqrt{0.1303 + 1.444}}{8} = \frac{-0.361 + \sqrt{1.574}}{8} = \frac{-0.361 + 1.255}{8} = 0.1118$$
+$$
+4x^2 + 0.361x - 0.09025 = 0
+$$
+
+$$
+x = \frac{-0.361 + \sqrt{0.1303 + 1.444}}{8} = \frac{-0.361 + \sqrt{1.574}}{8} = \frac{-0.361 + 1.255}{8} = 0.1118
+$$
 
 $[\mathrm{N}_2\mathrm{O}_4] = 0.250 - 0.112 = 0.138 \mathrm{ mol/dm}^3$
 
@@ -890,22 +1084,22 @@ $P = \dfrac{nRT}{V} = \dfrac{0.724 \times 0.0821 \times 373}{2.00} = \dfrac{22.1
 For the reaction $2\mathrm{SO}_{2(g)} + \mathrm{O}_{2(g)} \rightleftharpoons 2\mathrm{SO}_{3(g)}$ at
 500$^\circ$C, $K_c = 2.50 \times 10^{10} \mathrm{ (mol/dm}^3)^{-1}$. Explain why this very large
 Value of $K_c$ does NOT mean that $\mathrm{SO}_2$ and $\mathrm{O}_2$ cannot be present at
-Equilibrium.
+equilibrium.
 
 <details>
 <summary>Answer</summary>
 
 A very large $K_c$ means the equilibrium position lies far to the right, favouring products. At
-Equilibrium, the concentration of $\mathrm{SO}_3$ is much larger than those of $\mathrm{SO}_2$ and
-$\mathrm{O}_2$. However, $K_c \neq \infty$Which means the reaction does not go to completion.
+equilibrium, the concentration of $\mathrm{SO}_3$ is much larger than those of $\mathrm{SO}_2$ and
+$\mathrm{O}_2$. However, $K_c \neq \infty$ Which means the reaction does not go to completion.
 
 The equilibrium is dynamic: both forward and reverse reactions continue. The very large $K_c$ means
-The reverse reaction rate is negligible compared to the forward rate at equilibrium, but it is not
-Zero. Tiny amounts of $\mathrm{SO}_2$ and $\mathrm{O}_2$ must always be present at equilibrium to
-Sustain the reverse reaction.
+the reverse reaction rate is negligible compared to the forward rate at equilibrium, but it is not
+zero. Tiny amounts of $\mathrm{SO}_2$ and $\mathrm{O}_2$ must always be present at equilibrium to
+sustain the reverse reaction.
 
 Only when $K_c$ is truly infinite (a theoretical limit) would the reaction go to completion. In
-Practice, all real equilibria have non-zero concentrations of all species.
+practice, all real equilibria have non-zero concentrations of all species.
 
 </details>
 
@@ -925,13 +1119,13 @@ Practice, all real equilibria have non-zero concentrations of all species.
 ### Approximate Calculation
 
 When a disturbance is applied to an equilibrium system, the system shifts to partially oppose the
-Change. The new equilibrium can be estimated using $K_c$.
+change. The new equilibrium can be estimated using $K_c$.
 
 **Worked example 9:** For
 $\mathrm{H}_{2(g)} + \mathrm{I}_{2(g)} \rightleftharpoons 2\mathrm{HI}_{(g)}$, $K_c = 49.0$ at a
 Certain temperature. At equilibrium, $[\mathrm{H}_2] = [\mathrm{I}_2] = 0.100$ and
 $[\mathrm{HI}] = 0.700$ mol/dm$^3$. If 0.200 mol/dm$^3$ of $\mathrm{HI}$ is suddenly added, what are
-The new equilibrium concentrations?
+the new equilibrium concentrations?
 
 <details>
 <summary>Answer</summary>
@@ -944,21 +1138,35 @@ $Q_c = \dfrac{(0.900)^2}{(0.100)(0.100)} = \dfrac{0.810}{0.0100} = 81.0$
 
 $Q_c = 81.0 \gt K_c = 49.0$ So the system shifts left.
 
+<div class="table-wrap">
+
 | Species           | $\mathrm{H}_2$ | $\mathrm{I}_2$ | $\mathrm{HI}$ |
 | ----------------- | -------------- | -------------- | ------------- |
 | After disturbance | 0.100          | 0.100          | 0.900         |
 | Change            | $+y$           | $+y$           | $-2y$         |
 | New equilibrium   | $0.100 + y$    | $0.100 + y$    | $0.900 - 2y$  |
 
-$$K_c = \frac{(0.900 - 2y)^2}{(0.100 + y)^2} = 49.0$$
+</div>
 
-$$\frac{0.900 - 2y}{0.100 + y} = 7.00$$
+$$
+K_c = \frac{(0.900 - 2y)^2}{(0.100 + y)^2} = 49.0
+$$
 
-$$0.900 - 2y = 7.00(0.100 + y) = 0.700 + 7y$$
+$$
+\frac{0.900 - 2y}{0.100 + y} = 7.00
+$$
 
-$$0.200 = 9y$$
+$$
+0.900 - 2y = 7.00(0.100 + y) = 0.700 + 7y
+$$
 
-$$y = 0.0222$$
+$$
+0.200 = 9y
+$$
+
+$$
+y = 0.0222
+$$
 
 $[\mathrm{H}_2] = 0.100 + 0.0222 = 0.122 \mathrm{ mol/dm}^3$
 
@@ -967,7 +1175,7 @@ $[\mathrm{I}_2] = 0.100 + 0.0222 = 0.122 \mathrm{ mol/dm}^3$
 $[\mathrm{HI}] = 0.900 - 0.0444 = 0.856 \mathrm{ mol/dm}^3$
 
 Note: The new $[\mathrm{HI}]$ (0.856) is higher than the original (0.700) but lower than the
-Disturbed value (0.900). This demonstrates that the system opposes the change without fully
+disturbed value (0.900). This demonstrates that the system opposes the change without fully
 Reversing it.
 
 </details>
@@ -987,16 +1195,22 @@ Reversing it.
 
 The equilibrium constant is related to the standard Gibbs free energy change:
 
-$$\Delta G^\circ = -RT \ln K$$
+$$
+\Delta G^\circ = -RT \ln K
+$$
 
 Where $R = 8.314 \mathrm{ J/(mol K)}$ and $K$ is the equilibrium constant (dimensionless, or use
 $K_c$ with appropriate standard state of 1 mol/dm$^3$).
 
 At equilibrium, $\Delta G = 0$ (not $\Delta G^\circ = 0$).
 
-$$\Delta G = \Delta G^\circ + RT \ln Q$$
+$$
+\Delta G = \Delta G^\circ + RT \ln Q
+$$
 
-When $\Delta G = 0$: $0 = \Delta G^\circ + RT \ln K$Giving $\Delta G^\circ = -RT \ln K$.
+When $\Delta G = 0$: $0 = \Delta G^\circ + RT \ln K$ Giving $\Delta G^\circ = -RT \ln K$.
+
+<div class="table-wrap">
 
 | $\Delta G^\circ$   | $K$           | Interpretation              |
 | ------------------ | ------------- | --------------------------- |
@@ -1004,19 +1218,29 @@ When $\Delta G = 0$: $0 = \Delta G^\circ + RT \ln K$Giving $\Delta G^\circ = -RT
 | Close to zero      | $K \approx 1$ | Comparable amounts          |
 | Large and positive | $K \ll 1$     | Reactants strongly favoured |
 
+</div>
+
 **Worked example 10:** $\Delta G^\circ = -5.40 \mathrm{ kJ/mol}$ for a reaction at 298 K. Calculate
 $K$.
 
 <details>
 <summary>Answer</summary>
 
-$$\Delta G^\circ = -RT \ln K$$
+$$
+\Delta G^\circ = -RT \ln K
+$$
 
-$$-5400 = -8.314 \times 298 \times \ln K$$
+$$
+-5400 = -8.314 \times 298 \times \ln K
+$$
 
-$$\ln K = \frac{5400}{8.314 \times 298} = \frac{5400}{2477.6} = 2.179$$
+$$
+\ln K = \frac{5400}{8.314 \times 298} = \frac{5400}{2477.6} = 2.179
+$$
 
-$$K = e^{2.179} = 8.84$$
+$$
+K = e^{2.179} = 8.84
+$$
 
 </details>
 
@@ -1031,17 +1255,9 @@ $$K = e^{2.179} = 8.84$$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Chemical Equilibrium] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary of Key Equations
+
+<div class="table-wrap">
 
 | Equation                                                            | Use                         |
 | ------------------------------------------------------------------- | --------------------------- |
@@ -1051,28 +1267,38 @@ flowchart TD
 | $\Delta G^\circ = -RT \ln K$                                        | Free energy and equilibrium |
 | $\Delta G = \Delta G^\circ + RT \ln Q$                              | Non-equilibrium free energy |
 
+</div>
+
 ## Worked Examples
 
 Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$).
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 
 > > > > > > > Stashed changes:docs/docs_dse/Chemistry/chemical-equilibrium.md
 

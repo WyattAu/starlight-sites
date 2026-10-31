@@ -62,6 +62,8 @@ systemctl enable --now crond
 
 ### Special Strings
 
+<div class="table-wrap">
+
 | String      | Equivalent  | Description                     |
 | ----------- | ----------- | ------------------------------- |
 | `@yearly`   | `0 0 1 1 *` | Once per year                   |
@@ -72,6 +74,8 @@ systemctl enable --now crond
 | `@midnight` | `0 0 * * *` | Same as @daily                  |
 | `@hourly`   | `0 * * * *` | Once per hour                   |
 | `@reboot`   | (special)   | Run once at cron daemon startup |
+
+</div>
 
 ```bash
 # System backup every day at midnight
@@ -266,7 +270,7 @@ chmod 755 /etc/cron.daily/my-daily-job
 
 `anacron` (anachronistic cron) is designed for systems that are not running 24/7. Unlike cron, which
 Assumes the system is always on, anacron ensures that jobs run at the specified intervals relative
-To the last run, even if the system was off.
+to the last run, even if the system was off.
 
 ```bash
 # anacron configuration
@@ -299,6 +303,8 @@ ls -la /var/spool/anacron/
 
 ### cron vs anacron
 
+<div class="table-wrap">
+
 | Feature      | cron                  | anacron                     |
 | ------------ | --------------------- | --------------------------- |
 | System type  | 24/7 servers          | Desktops, laptops           |
@@ -307,6 +313,8 @@ ls -la /var/spool/anacron/
 | Runs at      | Exact specified times | After boot (with delay)     |
 | Per-user     | Yes                   | No (system-wide only)       |
 | Suitable for | Precise scheduling    | Ensuring periodic tasks run |
+
+</div>
 
 ## systemd Timers
 
@@ -406,6 +414,8 @@ systemctl show backup.timer --property=NextElapseUSecRealtime
 
 ### systemd Timers vs cron
 
+<div class="table-wrap">
+
 | Feature             | cron                     | systemd timer            |
 | ------------------- | ------------------------ | ------------------------ |
 | Boot catch-up       | No (missed jobs skipped) | Yes (`Persistent=true`)  |
@@ -418,6 +428,8 @@ systemctl show backup.timer --property=NextElapseUSecRealtime
 | Precision           | 1 minute                 | 1 minute (`AccuracySec`) |
 | Built-in monitoring | No                       | Yes (`systemctl status`) |
 | Timezone handling   | System timezone          | Per-timer `Timezone=`    |
+
+</div>
 
 :::note
 Logging, dependency management, and missed-job handling. However, cron remains ubiquitous and is
@@ -939,16 +951,6 @@ done
 # AccuracySec=1s
 ```
 
-```mermaid
-flowchart TD
-    A[Cron And Scheduling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of cron and task scheduling, including underlying theory,
@@ -962,17 +964,11 @@ practical implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Cron is like having a tireless personal assistant who checks your to-do list every minute and executes tasks at the scheduled times. The crontab is your list of instructions, and the five time fields (minute, hour, day, month, weekday) are like setting multiple alarms. The key is understanding the difference between cron (periodic tasks at fixed times) and at (one-time tasks at a specific time). Anacron extends cron to handle tasks that should run even if the machine was off -- it catches up on missed jobs when the system comes back online. Think of cron as your automation backbone: if you do something more than once, schedule it.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

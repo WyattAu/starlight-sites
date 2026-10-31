@@ -18,15 +18,19 @@ description: "Regular expressions are the backbone of text processing on Linux. 
 ## Regular Expressions
 
 Regular expressions are the backbone of text processing on Linux. Three major flavors exist, each
-With different capabilities and syntax.
+with different capabilities and syntax.
 
 ### BRE vs ERE vs PCRE
 
+<div class="table-wrap">
+
 | Flavor | Engine          | Activator          | Metacharacters Require Escape | Lookaround |
-| ------ | --------------- | ------------------ | ----------------------------- | ---------- | --- |
+| ------ | --------------- | ------------------ | ----------------------------- | ---------- |
 | BRE    | POSIX `grep`    | Default            | `+`?`{``                      |`(`)`      | No  |
 | ERE    | POSIX `grep -E` | `grep -E``egrep`   | None                          | No         |
 | PCRE   | Perl-compatible | `grep -P``ripgrep` | None                          | Yes        |
+
+</div>
 
 ```text
 BRE:  \{1,3\}    \+    \?    \(group\)
@@ -1041,16 +1045,6 @@ sed -i 's/old/new/g' /readonly/file.txt  # may fail
 sed "s/old/new/g" /readonly/file.txt > /tmp/file.txt && sudo cp /tmp/file.txt /readonly/file.txt
 ```
 
-```mermaid
-flowchart TD
-    A[Text Processing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of text processing, including underlying theory, practical
@@ -1064,17 +1058,11 @@ implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Text processing in Linux is like having a team of specialised editors -- grep finds lines matching a pattern, sed makes find-and-replace changes, awk processes structured data, and sort/order/uniq organise the results. Regular expressions are the pattern language that these tools share: they let you describe what you are looking for with precision. The Unix philosophy of small, composable tools means you can chain them together like building blocks: cat file | grep error | sort | uniq -c finds all error lines, sorts them, and counts duplicates. This pipeline approach turns complex text transformations into simple, readable commands.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

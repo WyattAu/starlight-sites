@@ -197,6 +197,8 @@ asking open-ended questions, and pausing to allow witnesses time to think.
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Study                 | Researcher(s)       | Year | Method                | Key Findings                                                                      | Evaluation                                                                   |
 | --------------------- | ------------------- | ---- | --------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Magical number seven  | Miller              | 1956 | Lab experiment        | STM capacity is 7 ± 2 items                                                       | Influential; later research (Cowan, 2001) suggests 4 ± 1 chunks              |
@@ -207,7 +209,11 @@ asking open-ended questions, and pausing to allow witnesses time to think.
 | Working memory model  | Baddeley & Hitch    | 1974 | Dual-task experiments | Dual tasks using same component caused interference; different components did not | Strong empirical support; less evidence for central executive                |
 | Diver memory          | Godden & Baddeley   | 1975 | Field experiment      | Best recall when learning and recall contexts matched                             | Supports context-dependent memory; used word lists (low mundane realism)     |
 
+</div>
+
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term                     | Definition                                                                                       |
 | ------------------------ | ------------------------------------------------------------------------------------------------ |
@@ -228,6 +234,8 @@ asking open-ended questions, and pausing to allow witnesses time to think.
 | Weapon focus             | The tendency for witnesses to focus on a weapon, reducing identification accuracy                |
 | Cognitive interview      | A police interviewing technique designed to maximise accurate eyewitness recall                  |
 | Long-term potentiation   | The strengthening of synaptic connections through repeated stimulation, underlying learning      |
+
+</div>
 
 ## Evaluation Points
 
@@ -333,7 +341,7 @@ memory interacts with LTM.
 
 A major strength of the WMM is its strong empirical support from dual-task studies. Baddeley et al.
 (1975) found that two visual tasks impaired each other, but a visual task and a verbal task did not.
-This provides direct evidence for separate slave systems processing different types of information.
+this provides direct evidence for separate slave systems processing different types of information.
 The model's predictions have been consistently replicated, giving it high reliability.
 
 Clinical evidence also supports the WMM. Patient KF (Shallice and Warrington, 1970) suffered brain
@@ -417,17 +425,6 @@ emotionally significant events may be more reliable than laboratory studies indi
 interview offers a practical method for improving EWT accuracy, though it is not without
 limitations. A balanced approach, combining laboratory control with real-world research, provides
 the most complete understanding of eyewitness reliability.
-
-
-```mermaid
-flowchart TD
-    A[1_Memory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

@@ -55,6 +55,8 @@ graph TD
 A **unit** is the fundamental object that systemd manages. Each unit has a configuration file and a
 Type that determines its behavior.
 
+<div class="table-wrap">
+
 | Unit Type     | File Extension | Description                                |
 | ------------- | -------------- | ------------------------------------------ |
 | **Service**   | `.service`     | A system service (daemon or one-shot)      |
@@ -68,6 +70,8 @@ Type that determines its behavior.
 | **Scope**     | `.scope`       | An externally created process group        |
 | **Swap**      | `.swap`        | A swap device                              |
 | **Device**    | `.device`      | A kernel device                            |
+
+</div>
 
 ### Finding Unit Files
 
@@ -164,6 +168,8 @@ WantedBy=multi-user.target
 
 ### `[Unit]` Section
 
+<div class="table-wrap">
+
 | Directive       | Description                                                 |
 | --------------- | ----------------------------------------------------------- |
 | `Description`   | Human-readable description                                  |
@@ -176,7 +182,11 @@ WantedBy=multi-user.target
 | `Conflicts=`    | If the listed unit is running, this unit cannot start       |
 | `PartOf=`       | When the listed unit is stopped/restarted, this unit is too |
 
+</div>
+
 ### `[Service]` Section, Service Type
+
+<div class="table-wrap">
 
 | Type               | Behavior                                                                              | Use Case                      |
 | ------------------ | ------------------------------------------------------------------------------------- | ----------------------------- |
@@ -188,6 +198,8 @@ WantedBy=multi-user.target
 | `notify`           | Service sends `sd_notify()` when ready. Systemd waits for the notification.           | Modern daemons with sd_notify |
 | `notify-reload`    | Like `notify`But supports `sd_notify(RELOADING=1)` for reload.                        | Daemons with reload support   |
 | `idle`             | Like `simple`But started after all active jobs are dispatched.                        | Avoids blocking boot output   |
+
+</div>
 
 ### `[Service]` Section, Lifecycle Directives
 
@@ -222,6 +234,8 @@ EnvironmentFile=-/etc/myapp/env.local    # - means file is optional
 
 ### `[Service]` Section, Restart Policy
 
+<div class="table-wrap">
+
 | Directive             | Behavior                                             |
 | --------------------- | ---------------------------------------------------- |
 | `Restart=no`          | Never restart (default)                              |
@@ -231,6 +245,8 @@ EnvironmentFile=-/etc/myapp/env.local    # - means file is optional
 | `Restart=on-abort`    | Restart on signal (not clean exit)                   |
 | `Restart=on-watchdog` | Restart on watchdog timeout                          |
 | `Restart=always`      | Always restart, regardless of exit status            |
+
+</div>
 
 ```ini
 Restart=on-failure
@@ -301,6 +317,8 @@ Targets are synchronization points that group units. They replace the SysV runle
 
 ### Target Equivalents to Runlevels
 
+<div class="table-wrap">
+
 | SysV Runlevel | systemd Target      | Description                   |
 | ------------- | ------------------- | ----------------------------- |
 | 0             | `poweroff.target`   | Halt/shutdown                 |
@@ -311,6 +329,8 @@ Targets are synchronization points that group units. They replace the SysV runle
 | 6             | `reboot.target`     | Reboot                        |
 |,             | `emergency.target`  | Emergency shell               |
 |,             | `default.target`    | Symlink to the default target |
+
+</div>
 
 ```bash
 # View current target
@@ -427,7 +447,7 @@ Does not exist, logs are stored in `/run/log/journal/` (volatile, lost on reboot
 ## Timers
 
 Systemd timers replace cron for scheduled tasks. They support one-shot and recurring timers with
-More precise scheduling than cron.
+more precise scheduling than cron.
 
 ### Timer Unit File
 
@@ -569,9 +589,11 @@ systemctl list-sockets | grep myapp
 ## Service Hardening
 
 Systemd provides a comprehensive set of directives for restricting what a service can do. These are
-The primary mechanism for securing systemd-managed services.
+the primary mechanism for securing systemd-managed services.
 
 ### Filesystem Restrictions
+
+<div class="table-wrap">
 
 | Directive              | Effect                                           |
 | ---------------------- | ------------------------------------------------ |
@@ -589,7 +611,11 @@ The primary mechanism for securing systemd-managed services.
 | `BindReadOnlyPaths=`   | Mount paths read-only into service namespace     |
 | `BindPaths=`           | Mount paths read-write into service namespace    |
 
+</div>
+
 ### Process and Capability Restrictions
+
+<div class="table-wrap">
 
 | Directive                    | Effect                                           |
 | ---------------------------- | ------------------------------------------------ |
@@ -606,6 +632,8 @@ The primary mechanism for securing systemd-managed services.
 | `RestrictRealtime=yes`       | Deny real-time scheduling                        |
 | `MemoryDenyWriteExecute=yes` | Deny creating writable+executable memory         |
 | `LockPersonality=yes`        | Lock the execution domain (personality)          |
+
+</div>
 
 ### Hardening Example
 
@@ -683,6 +711,8 @@ systemd-analyze verify myapp.service
 
 Systemd manages two categories of services:
 
+<div class="table-wrap">
+
 | Aspect            | System Services                    | User Services                        |
 | ----------------- | ---------------------------------- | ------------------------------------ |
 | **PID 1 scope**   | Managed by system systemd (PID 1)  | Managed by per-user systemd instance |
@@ -690,6 +720,8 @@ Systemd manages two categories of services:
 | **Manages**       | System daemons, hardware           | User applications, session services  |
 | **Run as**        | Any user ( root)                   | The user who started them            |
 | **Lifespan**      | System-wide, from boot to shutdown | From login to logout (or linger)     |
+
+</div>
 
 ```bash
 # User service management (note --user flag)
@@ -807,7 +839,7 @@ Journal. This means:
 
 `EnvironmentFile` reads a file of `KEY=VALUE` pairs. It does **not** perform shell variable
 Expansion. If you need expansion, use `ExecStart` with a shell wrapper or use `${VARIABLE}` in
-`ExecStart` (systemd performs its own expansion for `%i``%n`Etc.):
+`ExecStart` (systemd performs its own expansion for `%i`, `%n`. Etc.):
 
 ```ini
 # This works, systemd expands %n, %i, %f, etc.
@@ -848,9 +880,6 @@ implementation, and key applications.
 - protocols (HTTP, FTP, SMTP)
 - encryption and security
 - client-server and peer-to-peer
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

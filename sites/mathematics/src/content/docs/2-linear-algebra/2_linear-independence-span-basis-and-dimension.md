@@ -5,7 +5,7 @@ title: Linear Independence, Span, Basis, and Dimension
 tags:
   - Mathematics
   - University
-description: "Study notes for Linear Independence, Span, Basis, and Dimension with worked examples, practice problems, and key concepts for exam preparation."
+description: "Linear independence, span, basis and dimension: the Steinitz exchange lemma, the dimension formula, the rank-nullity theorem and what each is for. Why dimension is the invariant that makes every basis the same size, and why rank plus nullity always equals the number of columns. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -17,12 +17,62 @@ description: "Study notes for Linear Independence, Span, Basis, and Dimension wi
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Define linear independence.
+- What is a basis, and what two things does it have to do?
+- State the dimension formula and the rank-nullity theorem. How are they
+  related?
+- Does $\mathbb{R}^3$ have a basis of two vectors? Of four?
+- What is the rank of a matrix, in terms of its rows and its columns?
+
+Check your answers against the text. Prompt 4 is the one that makes dimension
+a *theorem* rather than a definition: that you cannot have both is the
+Steinitz exchange lemma.
+
+## Motivation: dimension is the invariant, and it has to be proved
+
+The naive idea is that dimension is the number of coordinates. But "the number
+of coordinates" presupposes a basis, and the whole point of the concept is that
+every basis gives the same number.
+
+Suppose someone hands you $\{(1,0), (0,1), (1,1)\}$ as a basis for
+$\mathbb{R}^2$. Three vectors. Someone else hands you $\{(1,0), (0,1)\}$. Two.
+Both claim to be a basis. If dimension were just "how many vectors", those are
+different answers -- so either the word is broken, or something deeper is going
+on.
+
+**The something deeper is the Steinitz exchange lemma.** An independent set is
+never larger than a spanning set. That single result forces all bases of a
+space to have the same size, and *that* is what makes "dimension" a property of
+the space rather than of a choice of basis. It is the first genuinely
+structural theorem in the subject, and it is why every later result -- rank-
+nullity, the dimension formula, the existence of eigenbases -- can even be
+stated.
+
+**Rank-nullity is the same idea applied to a map.** A linear map $T: V \to W$
+collapses some directions (the kernel) and preserves the rest (the image).
+Nothing is lost: what is collapsed plus what is preserved is everything you
+started with,
+
+$$
+\dim V = \dim\ker T + \dim\operatorname{im} T .
+$$
+
+It reads like arithmetic and it is a theorem about how maps behave, and it is
+the reason a system of equations is either inconsistent, underdetermined, or
+has a unique solution -- with no fourth option.
+
 ### 2.1 Linear Independence
 
 A set of vectors $\{\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_k\} \subseteq V$ is **linearly
 Independent** if the equation
 
-$$\alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k = \mathbf{0}$$
+$$
+\alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_k \mathbf{v}_k = \mathbf{0}
+$$
 
 Implies $\alpha_1 = \alpha_2 = \cdots = \alpha_k = 0$. Otherwise the set is **linearly dependent**.
 
@@ -46,10 +96,12 @@ by (3), $\alpha_i = 0$ for all $i$. $\blacksquare$
 
 ### 2.2 Span
 
-The **span** of a set $S \subseteq V$Denoted $\mathrm{span}(S)$Is the set of all finite linear
+The **span** of a set $S \subseteq V$ Denoted $\mathrm{span}(S)$ Is the set of all finite linear
 Combinations of elements of $S$:
 
-$$\mathrm{span}(S) = \left\{ \sum_{i=1}^k \alpha_i \mathbf{v}_i : k \in \mathbb{N},\, \alpha_i \in F,\, \mathbf{v}_i \in S \right\}$$
+$$
+\mathrm{span}(S) = \left\{ \sum_{i=1}^k \alpha_i \mathbf{v}_i : k \in \mathbb{N},\, \alpha_i \in F,\, \mathbf{v}_i \in S \right\}
+$$
 
 **Proposition 2.2.** $\mathrm{span}(S)$ is always a subspace of $V$. In fact, $\mathrm{span}(S)$ is
 The smallest subspace containing $S$: if $W$ is any subspace with $S \subseteq W$ Then
@@ -71,15 +123,17 @@ A set $B \subseteq V$ is a **basis** for $V$ if:
 **Theorem 2.1.** Every vector space has a basis. All bases of a finite-dimensional vector space have
 The same number of elements.
 
-The **dimension** of $V$Denoted $\dim(V)$Is the cardinality of any basis for $V$.
+The **dimension** of $V$ Denoted $\dim(V)$ Is the cardinality of any basis for $V$.
 
 ### 2.4 Steinitz Exchange Lemma
 
 **Lemma 2.3 (Steinitz Exchange Lemma).** Let $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ be a linearly
 Independent set in $V$ And let $\{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ be a spanning set for $V$.
-Then $k \leq m$ And after relabelling the $\mathbf{w}_j$The set
+Then $k \leq m$ And after relabelling the $\mathbf{w}_j$ The set
 
-$$\{\mathbf{u}_1, \ldots, \mathbf{u}_k, \mathbf{w}_{k+1}, \ldots, \mathbf{w}_m\}$$
+$$
+\{\mathbf{u}_1, \ldots, \mathbf{u}_k, \mathbf{w}_{k+1}, \ldots, \mathbf{w}_m\}
+$$
 
 Also spans $V$.
 
@@ -96,7 +150,9 @@ $\mathbf{w}_1 = \alpha_1^{-1}(\mathbf{u}_k - \sum_{j=2}^m \alpha_j \mathbf{w}_j)
 $\mathbf{w}_1 \in \mathrm{span}\{\mathbf{u}_k, \mathbf{w}_2, \ldots, \mathbf{w}_m\}$. It follows
 that
 
-$$\mathrm{span}\{\mathbf{w}_1, \ldots, \mathbf{w}_m\} = \mathrm{span}\{\mathbf{u}_k, \mathbf{w}_2, \ldots, \mathbf{w}_m\} = V$$
+$$
+\mathrm{span}\{\mathbf{w}_1, \ldots, \mathbf{w}_m\} = \mathrm{span}\{\mathbf{u}_k, \mathbf{w}_2, \ldots, \mathbf{w}_m\} = V
+$$
 
 Now $\{\mathbf{u}_1, \ldots, \mathbf{u}_{k-1}\}$ is linearly independent and
 $\{\mathbf{u}_k, \mathbf{w}_2, \ldots, \mathbf{w}_m\}$ spans $V$. By the inductive hypothesis,
@@ -119,26 +175,32 @@ $m \leq k$. Hence $k = m$. $\blacksquare$
 **Theorem 2.5 (Dimension Formula).** If $U$ and $W$ are subspaces of a finite-dimensional vector
 Space $V$ Then
 
-$$\dim(U + W) = \dim(U) + \dim(W) - \dim(U \cap W)$$
+$$
+\dim(U + W) = \dim(U) + \dim(W) - \dim(U \cap W)
+$$
 
 ### 2.6 Rank-Nullity Theorem
 
 **Theorem 2.6 (Rank-Nullity Theorem).** Let $A \in \mathcal{M}_{m \times n}(F)$. Then
 
-$$\mathrm{rank}(A) + \mathrm{nullity}(A) = n$$
+$$
+\mathrm{rank}(A) + \mathrm{nullity}(A) = n
+$$
 
 Where $\mathrm{rank}(A) = \dim(\mathrm{col}(A))$ and $\mathrm{nullity}(A) = \dim(\mathrm{null}(A))$.
 
-_Proof._ Let $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ be a basis for $\mathrm{null}(A)$Where
+_Proof._ Let $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ be a basis for $\mathrm{null}(A)$ Where
 $k = \mathrm{nullity}(A)$. Extend this to a basis
 $\{\mathbf{v}_1, \ldots, \mathbf{v}_k, \mathbf{v}_{k+1}, \ldots, \mathbf{v}_n\}$ for $F^n$.
 
 We claim that $\{A\mathbf{v}_{k+1}, \ldots, A\mathbf{v}_n\}$ is a basis for $\mathrm{col}(A)$.
 
-_Spanning:_ For any $\mathbf{y} \in \mathrm{col}(A)$There exists $\mathbf{x} \in F^n$ With
+_Spanning:_ For any $\mathbf{y} \in \mathrm{col}(A)$ There exists $\mathbf{x} \in F^n$ With
 $\mathbf{y} = A\mathbf{x}$. Writing $\mathbf{x} = \sum_{i=1}^n \alpha_i \mathbf{v}_i$
 
-$$\mathbf{y} = A\left(\sum_{i=1}^n \alpha_i \mathbf{v}_i\right) = \sum_{i=1}^n \alpha_i A\mathbf{v}_i = \sum_{i=k+1}^n \alpha_i A\mathbf{v}_i$$
+$$
+\mathbf{y} = A\left(\sum_{i=1}^n \alpha_i \mathbf{v}_i\right) = \sum_{i=1}^n \alpha_i A\mathbf{v}_i = \sum_{i=k+1}^n \alpha_i A\mathbf{v}_i
+$$
 
 Since $A\mathbf{v}_i = \mathbf{0}$ for $i \leq k$.
 
@@ -146,7 +208,7 @@ _Linear independence:_ If $\sum_{i=k+1}^n \alpha_i A\mathbf{v}_i = \mathbf{0}$ T
 $A\left(\sum_{i=k+1}^n \alpha_i \mathbf{v}_i\right) = \mathbf{0}$ So
 $\sum_{i=k+1}^n \alpha_i \mathbf{v}_i \in \mathrm{null}(A)$. Since
 $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ Is a basis for the null space,
-$\sum_{i=k+1}^n \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$ For some $\beta_i$Giving
+$\sum_{i=k+1}^n \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$ For some $\beta_i$ Giving
 $\sum_{i=1}^n (-\beta_i)\mathbf{v}_i + \sum_{i=k+1}^n \alpha_i \mathbf{v}_i = \mathbf{0}$. By linear
 independence of the full basis, $\alpha_i = 0$ for all $i \geq k + 1$.
 
@@ -162,9 +224,13 @@ $W = \mathrm{span}\{(1, 2, -1, 0), (3, 1, 0, 2), (-1, 3, -2, -2)\}$ of $\mathbb{
 
 Form the matrix whose rows are the given vectors and row-reduce:
 
-$$\begin{pmatrix} 1 & 2 & -1 & 0 \\ 3 & 1 & 0 & 2 \\ -1 & 3 & -2 & -2 \end{pmatrix} \xrightarrow{R_2 - 3R_1} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ -1 & 3 & -2 & -2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 0 \\ 3 & 1 & 0 & 2 \\ -1 & 3 & -2 & -2 \end{pmatrix} \xrightarrow{R_2 - 3R_1} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ -1 & 3 & -2 & -2 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 + R_1} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ 0 & 5 & -3 & -2 \end{pmatrix} \xrightarrow{R_3 + R_2} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ 0 & 0 & 0 & 0 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 + R_1} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ 0 & 5 & -3 & -2 \end{pmatrix} \xrightarrow{R_3 + R_2} \begin{pmatrix} 1 & 2 & -1 & 0 \\ 0 & -5 & 3 & 2 \\ 0 & 0 & 0 & 0 \end{pmatrix}
+$$
 
 The row echelon form has two non-zero rows, so $\dim(W) = 2$. A basis is given by the non-zero Rows:
 $\{(1, 2, -1, 0), (0, -5, 3, 2)\}$. $\blacksquare$
@@ -173,18 +239,22 @@ $\{(1, 2, -1, 0), (0, -5, 3, 2)\}$. $\blacksquare$
 
 **Problem.** Find a basis for the null space of
 
-$$A = \begin{pmatrix} 1 & 2 & 1 & -1 \\ 2 & 4 & 0 & 1 \\ 0 & 0 & 1 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & 1 & -1 \\ 2 & 4 & 0 & 1 \\ 0 & 0 & 1 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Row-reduce $A$:
 
-$$\begin{pmatrix} 1 & 2 & 1 & -1 \\ 2 & 4 & 0 & 1 \\ 0 & 0 & 1 & 3 \end{pmatrix} \xrightarrow{R_2 - 2R_1} \begin{pmatrix} 1 & 2 & 1 & -1 \\ 0 & 0 & -2 & 3 \\ 0 & 0 & 1 & 3 \end{pmatrix} \xrightarrow{R_3 + R_2/2} \begin{pmatrix} 1 & 2 & 1 & -1 \\ 0 & 0 & -2 & 3 \\ 0 & 0 & 0 & 9/2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & 1 & -1 \\ 2 & 4 & 0 & 1 \\ 0 & 0 & 1 & 3 \end{pmatrix} \xrightarrow{R_2 - 2R_1} \begin{pmatrix} 1 & 2 & 1 & -1 \\ 0 & 0 & -2 & 3 \\ 0 & 0 & 1 & 3 \end{pmatrix} \xrightarrow{R_3 + R_2/2} \begin{pmatrix} 1 & 2 & 1 & -1 \\ 0 & 0 & -2 & 3 \\ 0 & 0 & 0 & 9/2 \end{pmatrix}
+$$
 
 This has pivots in columns 1, 3, and 4. The free variable is $x_2$. Setting $x_2 = t$ and
 Back-substituting: $x_4 = 0$, $x_3 = 0$, $x_1 = -2t$. The null space is
-$\{t(-2, 1, 0, 0) : t \in \mathbb{R}\}$With basis $\{(-2, 1, 0, 0)\}$ and dimension 1.
+$\{t(-2, 1, 0, 0) : t \in \mathbb{R}\}$ With basis $\{(-2, 1, 0, 0)\}$ and dimension 1.
 $\blacksquare$
 
 </details>
@@ -198,9 +268,11 @@ $\mathbf{v}_3 = (7, 8, 9)$ form a basis For $\mathbb{R}^3$.
 Form the matrix $A = [\mathbf{v}_1 \mid \mathbf{v}_2 \mid \mathbf{v}_3]$ and compute Its
 determinant:
 
-$$\det(A) = 1(45 - 48) - 2(36 - 42) + 3(32 - 35) = -3 + 12 - 9 = 0$$
+$$
+\det(A) = 1(45 - 48) - 2(36 - 42) + 3(32 - 35) = -3 + 12 - 9 = 0
+$$
 
-Since $\det(A) = 0$The columns are linearly dependent, so
+Since $\det(A) = 0$ The columns are linearly dependent, so
 $\{\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3\}$ Is not a basis. In fact,
 $\mathbf{v}_3 - 2\mathbf{v}_2 + \mathbf{v}_1 = \mathbf{0}$.
 
@@ -209,7 +281,7 @@ $\blacksquare$
 </details>
 
 :::tip
-whose Columns are those vectors. If $\det \neq 0$They form a basis; if $\det = 0$They do not.
+whose Columns are those vectors. If $\det \neq 0$ They form a basis; if $\det = 0$ They do not.
 
 **Problem.** Let $V = \mathcal{P}_3(\mathbb{R})$ (polynomials of degree at most 3). Find the
 dimension Of the subspace $W = \{p \in \mathcal{P}_3 : p(1) = p(-1) = 0\}$.
@@ -267,9 +339,13 @@ dimension.
 
 Row-reduce $A$:
 
-$$\begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{pmatrix} \xrightarrow{R_2 - 4R_1, R_3 - 7R_1} \begin{pmatrix} 1 & 2 & 3 \\ 0 & -3 & -6 \\ 0 & -6 & -12 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{pmatrix} \xrightarrow{R_2 - 4R_1, R_3 - 7R_1} \begin{pmatrix} 1 & 2 & 3 \\ 0 & -3 & -6 \\ 0 & -6 & -12 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & 3 \\ 0 & -3 & -6 \\ 0 & 0 & 0 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 2R_2} \begin{pmatrix} 1 & 2 & 3 \\ 0 & -3 & -6 \\ 0 & 0 & 0 \end{pmatrix}
+$$
 
 The non-zero rows form a basis for the row space: $\{(1, 2, 3), (0, -3, -6)\}$, or equivalently
 $\{(1, 2, 3), (0, 1, 2)\}$ after scaling. The dimension of the row space is 2.
@@ -311,15 +387,78 @@ $\blacksquare$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[2_Linear Independence Span Basis And Dimension] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+## Counterexamples worth knowing by name
+
+<div class="table-wrap">
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Any set of vectors that spans is a basis | no | it may not be independent; $\{(1,0),(0,1),(1,1)\}$ spans $\mathbb{R}^2$ and is not a basis |
+| Any independent set is a basis | no | it may not span; a single vector in $\mathbb{R}^2$ is independent and spans a line |
+| A subset of a basis is a basis | no | it is independent but does not span |
+| Adding a vector to a basis gives a basis | no | if it is already in the span the set becomes dependent |
+| Rank equals the number of non-zero rows | no | that is the number of *non-zero rows in row echelon form*; before elimination non-zero rows can be dependent |
+| Rank-nullity applies to any function | no | it needs linearity; a general function has neither a kernel that is a subspace nor an image that is one |
+| An infinite-dimensional space can have a finite basis | no | the existence of a finite basis is the definition of finite-dimensional |
+| Two subspaces of dimensions $p$ and $q$ span a space of dimension $p+q$ | no | they may overlap; $\dim(U+W) = \dim U + \dim V - \dim(U\cap V)$ |
+
+</div>
+
+The first four rows are all the same trap from different angles: a basis needs
+*two* properties, and each is easy to satisfy on its own. The definition is
+deliberately two clauses long.
+
+The last row is the one that catches people who remember the dimension formula
+but forget the intersection term, and it is worth writing out the two-plane
+example in $\mathbb{R}^3$ where the planes are distinct: dimensions 2 and 2,
+span 3, intersection 1.
+
+## Where the research frontier is
+
+- **Infinite dimensions.** The exchange lemma needs a finiteness argument, and
+  in infinite dimensions the statement "every independent set can be extended
+  to a basis" is equivalent to the axiom of choice. Hamel bases exist but are
+  unconstructible, which is why analysis uses Schauder bases instead.
+- **Module theory.** Drop the field and keep the ring, and bases stop
+  existing: $\mathbb{Z}$ as a module over itself has a basis, but ideals need
+  not. The structure theorem for finitely generated modules over a PID is what
+  survives, and it is what gives the Jordan form.
+- **Matroid theory.** Independence axiomatised. Every matrix gives a matroid
+  on its columns, and the theory abstracts exactly the properties that make
+  exchange arguments work.
+- **Dimension in quantum mechanics.** Hilbert spaces can be infinite-
+  dimensional, and the finite-dimensional intuition about bases and dimension
+  carries over only with care -- separability, orthonormal bases and the
+  spectral theorem are the replacements.
+
+## Interleaving problems
+
+Mix these with [Vectors and Vector
+Spaces](/2-linear-algebra/1_vectors-and-vector-spaces/), [Eigenvalues and
+Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/), [Systems of
+Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/), [Measure
+Theory](/10-measure-theory/2_measures/) and [Representation
+Theory](/15-graduate-representation-theory/1_representation-theory-of-finite-groups/).
+
+1. (Vectors.) Determine whether $\{(1,1,0), (0,1,1), (1,0,1)\}$ is independent
+   in $\mathbb{R}^3$, and whether it spans. Then state the dimension of its
+   span.
+2. (Eigenvalues.) Show that eigenvectors belonging to distinct eigenvalues are
+   linearly independent, by induction on the number of eigenvalues. This is
+   why an $n \times n$ matrix with $n$ distinct eigenvalues is diagonalisable.
+3. (Systems of equations.) A consistent system $Ax = b$ with $A$ of rank $r$
+   and $n$ columns has how many free parameters in its solution? Derive the
+   answer from rank-nullity rather than by elimination.
+4. (Measure theory.) State what goes wrong with dimension for the space of
+   functions spanned by $\{1, x, x^2, \ldots\}$, and explain why that space is
+   infinite-dimensional but has a countable spanning set.
+5. (Representation theory.) A representation of a group on a vector space has
+   a dimension. Explain why irreducible representations have dimensions that
+   are constrained by the group's order, referencing the sum-of-squares
+   theorem.
+6. (Research.) Prove that any two bases of a vector space have the same
+   cardinality in the infinite-dimensional case, and explain where the proof
+   requires the axiom of choice.
 
 ## Cross-References
 
@@ -328,5 +467,5 @@ flowchart TD
 - **[Systems of Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/)**: The solution space of a homogeneous system is a subspace whose dimension is determined by rank-nullity.
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

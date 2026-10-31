@@ -9,7 +9,6 @@ categories:
   - Maths
 ---
 
-
 import DesmosGraph from "@components/DesmosGraph";
 
 Trigonometry is the study of relationships involving lengths and angles of triangles. It is a
@@ -25,9 +24,9 @@ Angles can be measured in degrees or radians. A full revolution is $360^\circ$ o
 Giving the fundamental conversion:
 
 $$
-\begin\{aligned\}
- 180^\circ = \pi \mathrm\{ rad\}
-\end\{aligned\}
+\begin{aligned}
+ 180^\circ = \pi \mathrm{ rad}
+\end{aligned}
 $$
 
 To convert between the two units:
@@ -44,9 +43,13 @@ Dimensionless quantity and are the default unit in calculus and many advanced ap
 
 Common angle equivalences:
 
+<div class="table-wrap">
+
 | Degrees | $0^\circ$ | $30^\circ$      | $45^\circ$      | $60^\circ$      | $90^\circ$      | $120^\circ$      | $180^\circ$ | $270^\circ$      | $360^\circ$ |
 | ------- | --------- | --------------- | --------------- | --------------- | --------------- | ---------------- | ----------- | ---------------- | ----------- |
 | Radians | $0$       | $\frac{\pi}{6}$ | $\frac{\pi}{4}$ | $\frac{\pi}{3}$ | $\frac{\pi}{2}$ | $\frac{2\pi}{3}$ | $\pi$       | $\frac{3\pi}{2}$ | $2\pi$      |
+
+</div>
 
 <details>
 <summary>Examples</summary>
@@ -59,9 +62,9 @@ Common angle equivalences:
 For an arc subtending an angle $\theta$ (in radians) at the centre of a circle of radius $r$:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
  l = r\theta
-\end\{aligned\}
+\end{aligned}
 $$
 
 This formula only applies when $\theta$ is in radians. If the angle is given in degrees, convert to
@@ -73,17 +76,17 @@ circles and sectors.
 For a sector of a circle of radius $r$ with central angle $\theta$ (in radians):
 
 $$
-\begin\{aligned\}
- A = \frac\{1\}\{2\}r^2\theta
-\end\{aligned\}
+\begin{aligned}
+ A = \frac{1}{2}r^2\theta
+\end{aligned}
 $$
 
 The area of a segment (the region between a chord and its arc) is:
 
 $$
-\begin\{aligned\}
- \mathrm\{Area of segment\} = \frac\{1\}\{2\}r^2(\theta - \sin\theta)
-\end\{aligned\}
+\begin{aligned}
+ \mathrm{Area of segment} = \frac{1}{2}r^2(\theta - \sin\theta)
+\end{aligned}
 $$
 
 </details>
@@ -96,7 +99,7 @@ $$
 
 ### Definitions in Right-Angled Triangles
 
-For a right-angled triangle with an acute angle $\theta$Label the sides relative to $\theta$:
+For a right-angled triangle with an acute angle $\theta$ Label the sides relative to $\theta$:
 
 - **Opposite** (O): the side opposite to angle $\theta$
 - **Adjacent** (A): the side adjacent to $\theta$ (other than the hypotenuse)
@@ -105,11 +108,11 @@ For a right-angled triangle with an acute angle $\theta$Label the sides relative
 The three primary trigonometric ratios are:
 
 $$
-\begin\{aligned\}
- \sin\theta &= \frac\{\mathrm\{Opposite\}\}\{\mathrm\{Hypotenuse\}\} = \frac\{O\}\{H\} \\[4pt]
- \cos\theta &= \frac\{\mathrm\{Adjacent\}\}\{\mathrm\{Hypotenuse\}\} = \frac\{A\}\{H\} \\[4pt]
- \tan\theta &= \frac\{\mathrm\{Opposite\}\}\{\mathrm\{Adjacent\}\} = \frac\{O\}\{A\}
-\end\{aligned\}
+\begin{aligned}
+ \sin\theta &= \frac{\mathrm{Opposite}}{\mathrm{Hypotenuse}} = \frac{O}{H} \\[4pt]
+ \cos\theta &= \frac{\mathrm{Adjacent}}{\mathrm{Hypotenuse}} = \frac{A}{H} \\[4pt]
+ \tan\theta &= \frac{\mathrm{Opposite}}{\mathrm{Adjacent}} = \frac{O}{A}
+\end{aligned}
 $$
 
 The mnemonic **SOH CAH TOA** helps recall these definitions.
@@ -119,17 +122,17 @@ The mnemonic **SOH CAH TOA** helps recall these definitions.
 The three reciprocal trigonometric ratios are:
 
 $$
-\begin\{aligned\}
- \csc\theta &= \frac\{1\}\{\sin\theta\} = \frac\{H\}\{O\} \\[4pt]
- \sec\theta &= \frac\{1\}\{\cos\theta\} = \frac\{H\}\{A\} \\[4pt]
- \cot\theta &= \frac\{1\}\{\tan\theta\} = \frac\{A\}\{O\}
-\end\{aligned\}
+\begin{aligned}
+ \csc\theta &= \frac{1}{\sin\theta} = \frac{H}{O} \\[4pt]
+ \sec\theta &= \frac{1}{\cos\theta} = \frac{H}{A} \\[4pt]
+ \cot\theta &= \frac{1}{\tan\theta} = \frac{A}{O}
+\end{aligned}
 $$
 
 <details>
 <summary>Examples</summary>
 - In a right-angled triangle, if the hypotenuse is $13$ and one leg is $5$ Then $\sin\theta = \frac{5}{13}$$\cos\theta = \frac{12}{13}$$\tan\theta = \frac{5}{12}$.
-- Given $\tan\theta = 3$ and $\theta$ is acute: construct a triangle with opposite $= 3$Adjacent $= 1$Hypotenuse $= \sqrt{10}$. Then $\sin\theta = \frac{3}{\sqrt{10}}$ and $\cos\theta = \frac{1}{\sqrt{10}}$.
+- Given $\tan\theta = 3$ and $\theta$ is acute: construct a triangle with opposite $= 3$ Adjacent $= 1$ Hypotenuse $= \sqrt{10}$. Then $\sin\theta = \frac{3}{\sqrt{10}}$ and $\cos\theta = \frac{1}{\sqrt{10}}$.
 - If $\sec\theta = \frac{5}{3}$ and $\theta$ is in the first quadrant, then $\cos\theta = \frac{3}{5}$$\sin\theta = \frac{4}{5}$ And $\tan\theta = \frac{4}{3}$.
 
 ## Trigonometric Identities
@@ -139,28 +142,28 @@ $$
 For any angle $\theta$:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
  \sin^2\theta + \cos^2\theta = 1
-\end\{aligned\}
+\end{aligned}
 $$
 
 This follows directly from the [Pythagorean identity](#pythagorean-identity) applied to a
 Right-angled triangle with hypotenuse $1$. Two useful corollaries are obtained by dividing through
-By $\cos^2\theta$ or $\sin^2\theta$:
+by $\cos^2\theta$ or $\sin^2\theta$:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
  1 + \tan^2\theta &= \sec^2\theta \\[4pt]
  1 + \cot^2\theta &= \csc^2\theta
-\end\{aligned\}
+\end{aligned}
 $$
 
 ### Quotient Identity
 
 $$
-\begin\{aligned\}
- \tan\theta = \frac\{\sin\theta\}\{\cos\theta\}, \qquad \cot\theta = \frac\{\cos\theta\}\{\sin\theta\}
-\end\{aligned\}
+\begin{aligned}
+ \tan\theta = \frac{\sin\theta}{\cos\theta}, \qquad \cot\theta = \frac{\cos\theta}{\sin\theta}
+\end{aligned}
 $$
 
 These hold whenever the denominators are non-zero.
@@ -172,24 +175,24 @@ Additional identities useful for simplification and solving equations:
 **Double angle formulas** (extension for stronger students):
 
 $$
-\begin\{aligned\}
+\begin{aligned}
  \sin 2\theta &= 2\sin\theta\cos\theta \\[4pt]
  \cos 2\theta &= \cos^2\theta - \sin^2\theta = 2\cos^2\theta - 1 = 1 - 2\sin^2\theta
-\end\{aligned\}
+\end{aligned}
 $$
 
 **Angle sum and difference** (extension):
 
 $$
-\begin\{aligned\}
+\begin{aligned}
  \sin(\alpha \pm \beta) &= \sin\alpha\cos\beta \pm \cos\alpha\sin\beta \\[4pt]
  \cos(\alpha \pm \beta) &= \cos\alpha\cos\beta \mp \sin\alpha\sin\beta
-\end\{aligned\}
+\end{aligned}
 $$
 
 </details>
 <summary>Examples</summary>
-- Simplify $\frac{\sin\theta}{\tan\theta}$: Since $\tan\theta = \frac{\sin\theta}{\cos\theta}$We have $\frac{\sin\theta}{\sin\theta / \cos\theta} = \cos\theta$.
+- Simplify $\frac{\sin\theta}{\tan\theta}$: Since $\tan\theta = \frac{\sin\theta}{\cos\theta}$ We have $\frac{\sin\theta}{\sin\theta / \cos\theta} = \cos\theta$.
 - Given $\sin\theta = \frac{3}{5}$ and $\theta$ is in the second quadrant, find $\cos\theta$ and $\tan\theta$: $\cos\theta = -\sqrt{1 - \frac{9}{25}} = -\frac{4}{5}$$\tan\theta = \frac{3/5}{-4/5} = -\frac{3}{4}$.
 - Prove $\frac{1}{1 + \sin\theta} + \frac{1}{1 - \sin\theta} = 2\sec^2\theta$: LHS $= \frac{(1 - \sin\theta) + (1 + \sin\theta)}{(1 + \sin\theta)(1 - \sin\theta)} = \frac{2}{\cos^2\theta} = 2\sec^2\theta$.
 
@@ -197,11 +200,15 @@ $$
 
 The exact trigonometric values for the standard angles must be memorised for the DSE examination:
 
+<div class="table-wrap">
+
 | $\theta$     | $0^\circ$ ($0$) | $30^\circ$ $\left(\frac{\pi}{6}\right)$ | $45^\circ$ $\left(\frac{\pi}{4}\right)$ | $60^\circ$ $\left(\frac{\pi}{3}\right)$ | $90^\circ$ $\left(\frac{\pi}{2}\right)$ |
 | ------------ | --------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | $\sin\theta$ | $0$             | $\frac{1}{2}$                           | $\frac{\sqrt{2}}{2}$                    | $\frac{\sqrt{3}}{2}$                    | $1$                                     |
 | $\cos\theta$ | $1$             | $\frac{\sqrt{3}}{2}$                    | $\frac{\sqrt{2}}{2}$                    | $\frac{1}{2}$                           | $0$                                     |
 | $\tan\theta$ | $0$             | $\frac{1}{\sqrt{3}}$                    | $1$                                     | $\sqrt{3}$                              | undefined                               |
+
+</div>
 
 These values can be derived from the equilateral triangle ($30^\circ$-$60^\circ$-$90^\circ$) and the
 Isosceles right-angled triangle ($45^\circ$-$45^\circ$-$90^\circ$).
@@ -219,9 +226,11 @@ Isosceles right-angled triangle ($45^\circ$-$45^\circ$-$90^\circ$).
 <DesmosGraph client:only="solid-js" title="Trigonometric Functions: y = A sin(Bx + C) + D" expressions={["A\sin(Bx+C)+D", "cos(x)", "tan(x)"]} width={800} height={500}  />
 
 Use the sliders to adjust amplitude, period, and phase shift, and observe how each parameter affects
-The graph.
+the graph.
 
 ### $y = \sin x$
+
+<div class="table-wrap">
 
 | Property       | Value                                |
 | -------------- | ------------------------------------ |
@@ -233,9 +242,13 @@ The graph.
 | Maximum        | $1$ at $x = \frac{\pi}{2} + 2n\pi$   |
 | Minimum        | $-1$ at $x = \frac{3\pi}{2} + 2n\pi$ |
 
+</div>
+
 The graph is an odd function ($\sin(-x) = -\sin x$), symmetric about the origin.
 
 ### $y = \cos x$
+
+<div class="table-wrap">
 
 | Property       | Value                                    |
 | -------------- | ---------------------------------------- |
@@ -247,9 +260,13 @@ The graph is an odd function ($\sin(-x) = -\sin x$), symmetric about the origin.
 | Maximum        | $1$ at $x = 2n\pi$                       |
 | Minimum        | $-1$ at $x = \pi + 2n\pi$                |
 
+</div>
+
 The graph is an even function ($\cos(-x) = \cos x$), symmetric about the $y$-axis.
 
 ### $y = \tan x$
+
+<div class="table-wrap">
 
 | Property       | Value                         |
 | -------------- | ----------------------------- |
@@ -260,19 +277,23 @@ The graph is an even function ($\cos(-x) = \cos x$), symmetric about the $y$-axi
 | $x$-intercepts | $n\pi$$n \in \mathbb{Z}$      |
 | Asymptotes     | $x = \frac{\pi}{2} + n\pi$    |
 
+</div>
+
 The graph is an odd function ($\tan(-x) = -\tan x$). The tangent function has vertical asymptotes
-Where $\cos x = 0$.
+where $\cos x = 0$.
 
 ### General Transformations
 
 For transformed trigonometric functions of the form:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
  y &= a\sin(bx + c) + d \\
  y &= a\cos(bx + c) + d
-\end\{aligned\}
+\end{aligned}
 $$
+
+<div class="table-wrap">
 
 | Parameter            | Effect                                  |
 | -------------------- | --------------------------------------- |
@@ -281,45 +302,47 @@ $$
 | $-\frac{c}{b}$       | Phase shift (horizontal translation)    |
 | $d$                  | Vertical shift (centre line at $y = d$) |
 
+</div>
+
 </details>
 <summary>Examples</summary>
-- For $y = 3\sin(2x)$: amplitude $= 3$Period $= \frac{2\pi}{2} = \pi$Range $= [-3, 3]$.
-- For $y = -2\cos\left(x - \frac{\pi}{3}\right) + 1$: amplitude $= 2$Period $= 2\pi$Phase shift $= \frac{\pi}{3}$ to the right, vertical shift $= 1$ up, range $= [-1, 3]$.
-- For $y = \tan\left(\frac{x}{2}\right)$: period $= \frac{\pi}{1/2} = 2\pi$Asymptotes at $x = \pi + 2n\pi$.
-- State the maximum and minimum of $y = 4\sin x - 1$: maximum $= 4(1) - 1 = 3$Minimum $= 4(-1) - 1 = -5$.
+- For $y = 3\sin(2x)$: amplitude $= 3$ Period $= \frac{2\pi}{2} = \pi$ Range $= [-3, 3]$.
+- For $y = -2\cos\left(x - \frac{\pi}{3}\right) + 1$: amplitude $= 2$ Period $= 2\pi$ Phase shift $= \frac{\pi}{3}$ to the right, vertical shift $= 1$ up, range $= [-1, 3]$.
+- For $y = \tan\left(\frac{x}{2}\right)$: period $= \frac{\pi}{1/2} = 2\pi$ Asymptotes at $x = \pi + 2n\pi$.
+- State the maximum and minimum of $y = 4\sin x - 1$: maximum $= 4(1) - 1 = 3$ Minimum $= 4(-1) - 1 = -5$.
 
 ## Solving Trigonometric Equations
 
 ### General Solutions
 
-When solving $\sin\theta = k$$\cos\theta = k$Or $\tan\theta = k$The solutions repeat Periodically.
+When solving $\sin\theta = k$$\cos\theta = k$ Or $\tan\theta = k$ The solutions repeat Periodically.
 The general solutions (in degrees) are:
 
 **For $\sin\theta = k$** (where $-1 \leq k \leq 1$), let $\alpha = \arcsin k$ be the principal value
 In $[-90^\circ, 90^\circ]$:
 
 $$
-\begin\{aligned\}
- \theta = 360^\circ n + \alpha \quad \mathrm\{or\} \quad \theta = 360^\circ n + (180^\circ - \alpha), \quad n \in \mathbb\{Z\}
-\end\{aligned\}
+\begin{aligned}
+ \theta = 360^\circ n + \alpha \quad \mathrm{or} \quad \theta = 360^\circ n + (180^\circ - \alpha), \quad n \in \mathbb{Z}
+\end{aligned}
 $$
 
 **For $\cos\theta = k$** (where $-1 \leq k \leq 1$), let $\alpha = \arccos k$ be the principal value
 In $[0^\circ, 180^\circ]$:
 
 $$
-\begin\{aligned\}
- \theta = 360^\circ n \pm \alpha, \quad n \in \mathbb\{Z\}
-\end\{aligned\}
+\begin{aligned}
+ \theta = 360^\circ n \pm \alpha, \quad n \in \mathbb{Z}
+\end{aligned}
 $$
 
 **For $\tan\theta = k$** (for all real $k$), let $\alpha = \arctan k$ be the principal value in
 $(-90^\circ, 90^\circ)$:
 
 $$
-\begin\{aligned\}
- \theta = 180^\circ n + \alpha, \quad n \in \mathbb\{Z\}
-\end\{aligned\}
+\begin{aligned}
+ \theta = 180^\circ n + \alpha, \quad n \in \mathbb{Z}
+\end{aligned}
 $$
 
 In radians, replace $360^\circ$ with $2\pi$ and $180^\circ$ with $\pi$.
@@ -348,7 +371,7 @@ Many trigonometric equations require algebraic manipulation before they can be s
 <summary>Examples</summary>
 - Solve $\sin\theta = \frac{1}{2}$ for $0^\circ \leq \theta < 360^\circ$: $\alpha = 30^\circ$. Solutions: $\theta = 30^\circ$ or $\theta = 180^\circ - 30^\circ = 150^\circ$.
 - Solve $2\cos^2\theta - \cos\theta - 1 = 0$ for $0 \leq \theta < 2\pi$: Let $u = \cos\theta$. Then $2u^2 - u - 1 = 0 \implies (2u + 1)(u - 1) = 0$. So $\cos\theta = -\frac{1}{2}$ or $\cos\theta = 1$. Solutions: $\theta = \frac{2\pi}{3}$$\theta = \frac{4\pi}{3}$$\theta = 0$.
-- Solve $\sin 2\theta = \cos\theta$ for $0^\circ \leq \theta < 360^\circ$: $2\sin\theta\cos\theta = \cos\theta \implies \cos\theta(2\sin\theta - 1) = 0$. Either $\cos\theta = 0 \implies \theta = 90^\circ, 270^\circ$Or $\sin\theta = \frac{1}{2} \implies \theta = 30^\circ, 150^\circ$. Solutions: $30^\circ, 90^\circ, 150^\circ, 270^\circ$.
+- Solve $\sin 2\theta = \cos\theta$ for $0^\circ \leq \theta < 360^\circ$: $2\sin\theta\cos\theta = \cos\theta \implies \cos\theta(2\sin\theta - 1) = 0$. Either $\cos\theta = 0 \implies \theta = 90^\circ, 270^\circ$ Or $\sin\theta = \frac{1}{2} \implies \theta = 30^\circ, 150^\circ$. Solutions: $30^\circ, 90^\circ, 150^\circ, 270^\circ$.
 - Solve $\tan^2\theta = 3$ for $0 \leq \theta < 2\pi$: $\tan\theta = \pm\sqrt{3}$. $\tan\theta = \sqrt{3} \implies \theta = \frac{\pi}{3}, \frac{4\pi}{3}$. $\tan\theta = -\sqrt{3} \implies \theta = \frac{2\pi}{3}, \frac{5\pi}{3}$.
 
 ## Applications
@@ -358,13 +381,13 @@ Many trigonometric equations require algebraic manipulation before they can be s
 For any triangle $ABC$ with sides $a$$b$$c$ opposite the respective angles:
 
 $$
-\begin\{aligned\}
- \frac\{a\}\{\sin A\} = \frac\{b\}\{\sin B\} = \frac\{c\}\{\sin C\}
-\end\{aligned\}
+\begin{aligned}
+ \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}
+\end{aligned}
 $$
 
 The sine rule is most useful when one side-side-angle (SSA) or angle-angle-side (AAS) configuration
-Is known. In the ambiguous SSA case, two distinct triangles may satisfy the given conditions (the
+is known. In the ambiguous SSA case, two distinct triangles may satisfy the given conditions (the
 "ambiguous case").
 
 ### Cosine Rule
@@ -372,10 +395,10 @@ Is known. In the ambiguous SSA case, two distinct triangles may satisfy the give
 For any triangle $ABC$ with sides $a$$b$$c$ opposite the respective angles:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
  a^2 &= b^2 + c^2 - 2bc\cos A \\[4pt]
- \cos A &= \frac\{b^2 + c^2 - a^2\}\{2bc\}
-\end\{aligned\}
+ \cos A &= \frac{b^2 + c^2 - a^2}{2bc}
+\end{aligned}
 $$
 
 The cosine rule generalises the Pythagorean theorem and is most useful for side-side-side (SSS) or
@@ -384,13 +407,13 @@ Side-angle-side (SAS) configurations.
 ### Area of a Triangle Using Trigonometry
 
 $$
-\begin\{aligned\}
- \mathrm\{Area\} = \frac\{1\}\{2\}ab\sin C = \frac\{1\}\{2\}bc\sin A = \frac\{1\}\{2\}ca\sin B
-\end\{aligned\}
+\begin{aligned}
+ \mathrm{Area} = \frac{1}{2}ab\sin C = \frac{1}{2}bc\sin A = \frac{1}{2}ca\sin B
+\end{aligned}
 $$
 
 This is derived from the standard formula
-$\mathrm{Area} = \frac{1}{2} \times \mathrm{base} \times \mathrm{height}$Where the height is
+$\mathrm{Area} = \frac{1}{2} \times \mathrm{base} \times \mathrm{height}$ Where the height is
 Expressed using a trigonometric ratio.
 
 ### Bearings
@@ -407,7 +430,7 @@ A bearing is the angle measured clockwise from north. Key conventions:
 - **Angle of depression**: the angle below the horizontal from the observer to the object.
 
 When the observer and the object are at different heights, these two angles are equal if measured
-From corresponding horizontal lines (alternate angles).
+from corresponding horizontal lines (alternate angles).
 
 ### 3D Problems
 
@@ -430,7 +453,7 @@ This connects to the vector formulation described in the
 - A ship sails $10$ km on a bearing of $030^\circ$ Then $8$ km on a bearing of $120^\circ$. Find the distance from the starting point: The angle between the two legs is $120^\circ - 30^\circ = 90^\circ$. Distance $= \sqrt{10^2 + 8^2} = 2\sqrt{41} \approx 12.8$ km.
 - From the top of a $50$ m cliff, the angle of depression of a boat is $30^\circ$. Find the horizontal distance from the boat to the base of the cliff: $\tan 30^\circ = \frac{50}{d} \implies d = \frac{50}{\tan 30^\circ} = 50\sqrt{3} \approx 86.6$ m.
 - A vertical pole $PQ$ stands on horizontal ground. Point $A$ is on the ground, $20$ m from the base $Q$. The angle of elevation of $P$ from $A$ is $35^\circ$. Find the height of the pole: $PQ = 20\tan 35^\circ \approx 14.0$ m.
-- In a cuboid $ABCDEFGH$ with $AB = 4$$BC = 3$$CG = 5$Find the angle between the diagonal $AG$ and the base $ABCD$: $AG = \sqrt{16 + 9 + 25} = \sqrt{50} = 5\sqrt{2}$. The projection of $AG$ onto the base is $AC = \sqrt{16 + 9} = 5$. The angle between $AG$ and the base $= \arccos\frac{AC}{AG} = \arccos\frac{5}{5\sqrt{2}} = \arccos\frac{1}{\sqrt{2}} = 45^\circ$.
+- In a cuboid $ABCDEFGH$ with $AB = 4$$BC = 3$$CG = 5$ Find the angle between the diagonal $AG$ and the base $ABCD$: $AG = \sqrt{16 + 9 + 25} = \sqrt{50} = 5\sqrt{2}$. The projection of $AG$ onto the base is $AC = \sqrt{16 + 9} = 5$. The angle between $AG$ and the base $= \arccos\frac{AC}{AG} = \arccos\frac{5}{5\sqrt{2}} = \arccos\frac{1}{\sqrt{2}} = 45^\circ$.
 
 ---
 
@@ -537,7 +560,7 @@ This equals the RHS, completing the ./1-number-and-algebra/3_proof-and-logic.
 
 1. **Question:** A pyramid has a square base $ABCD$ of side $6$ cm and vertex $V$. The slant edges
 $VA = VB = VC = VD = 5\sqrt{2}$ cm. Find (a) the height of the pyramid, and (b) the angle between
-The slant edge $VA$ and the base.
+the slant edge $VA$ and the base.
 
 </details>
 <summary>Answer</summary>
@@ -558,11 +581,11 @@ $x$-intercepts in this interval.
 <details>
 <summary>Answer</summary>
 
-- Amplitude $= 2$Period $= 2\pi$Phase shift $= \frac{\pi}{4}$ to the right, vertical shift $= 1$.
-- Maximum $= 2(1) + 1 = 3$Minimum $= 2(-1) + 1 = -1$.
+- Amplitude $= 2$ Period $= 2\pi$ Phase shift $= \frac{\pi}{4}$ to the right, vertical shift $= 1$.
+- Maximum $= 2(1) + 1 = 3$ Minimum $= 2(-1) + 1 = -1$.
 - For $x$-intercepts:
   $2\sin\left(x - \frac{\pi}{4}\right) + 1 = 0 \implies \sin\left(x - \frac{\pi}{4}\right) = -\frac{1}{2}$.
-- Let $u = x - \frac{\pi}{4}$. Since $x \in [0, 2\pi]$We have
+- Let $u = x - \frac{\pi}{4}$. Since $x \in [0, 2\pi]$ We have
   $u \in \left[-\frac{\pi}{4}, \frac{7\pi}{4}\right]$.
 - General solutions for $\sin u = -\frac{1}{2}$: $u = \frac{7\pi}{6} + 2k\pi$ or
   $u = \frac{11\pi}{6} + 2k\pi$.
@@ -572,7 +595,7 @@ $x$-intercepts in this interval.
 - $u = \frac{11\pi}{6}$ lies in the interval.
 - $x = u + \frac{\pi}{4}$ So $x = -\frac{\pi}{6} + \frac{\pi}{4} = \frac{\pi}{12}$
   $x = \frac{7\pi}{6} + \frac{\pi}{4} = \frac{17\pi}{12}$
-  $x = \frac{11\pi}{6} + \frac{\pi}{4} = \frac{25\pi}{12}$. Since $\frac{25\pi}{12} \gt 2\pi$Only
+  $x = \frac{11\pi}{6} + \frac{\pi}{4} = \frac{25\pi}{12}$. Since $\frac{25\pi}{12} \gt 2\pi$ Only
   two $x$-intercepts lie in $[0, 2\pi]$.
 - $x$-intercepts: $\left(\frac{\pi}{12}, 0\right)$ and $\left(\frac{17\pi}{12}, 0\right)$.
 
@@ -583,7 +606,7 @@ $30^\circ$ and from $B$ is $45^\circ$. Find the height of the tower.
 </details>
 <summary>Answer</summary>
 
-- Let the tower be $PQ$ of height $h$With base $Q$ between $A$ and $B$.
+- Let the tower be $PQ$ of height $h$ With base $Q$ between $A$ and $B$.
 - Let $AQ = x$ m, then $BQ = (100 - x)$ m.
 - $\tan 30^\circ = \frac{h}{x} \implies x = \frac{h}{\tan 30^\circ} = h\sqrt{3}$.
 - $\tan 45^\circ = \frac{h}{100 - x} \implies 100 - x = h$.
@@ -663,7 +686,9 @@ Prove that $\dfrac{1 - \cos 2\theta}{1 + \cos 2\theta} = \tan^2 \theta$.
 
 Starting from the LHS, using $\cos 2\theta = 1 - 2\sin^2\theta = 2\cos^2\theta - 1$:
 
-$$\frac{1 - (1 - 2\sin^2\theta)}{1 + (2\cos^2\theta - 1)} = \frac{2\sin^2\theta}{2\cos^2\theta} = \frac{\sin^2\theta}{\cos^2\theta} = \tan^2\theta$$
+$$
+\frac{1 - (1 - 2\sin^2\theta)}{1 + (2\cos^2\theta - 1)} = \frac{2\sin^2\theta}{2\cos^2\theta} = \frac{\sin^2\theta}{\cos^2\theta} = \tan^2\theta
+$$
 
 This equals the RHS. $\qed$
 
@@ -671,7 +696,7 @@ This equals the RHS. $\qed$
 
 **Worked Example 14: 3D angle between line and plane**
 
-In the cuboid $ABCDEFGH$ where $AB = 6$$BC = 8$$CG = 4$Find the angle between the diagonal $BH$ and
+In the cuboid $ABCDEFGH$ where $AB = 6$$BC = 8$$CG = 4$ Find the angle between the diagonal $BH$ and
 the face $ABCD$.
 
 <details>
@@ -684,7 +709,9 @@ The projection of $BH$ onto the base $ABCD$ is the diagonal $BD = \sqrt{6^2 + 8^
 The angle between $BH$ and the base is $\phi$ where
 $\cos\phi = \dfrac{BD}{BH} = \dfrac{10}{2\sqrt{29}} = \dfrac{5}{\sqrt{29}}$.
 
-$$\phi = \arccos\!\left(\frac{5}{\sqrt{29}}\right) \approx 21.8^\circ$$
+$$
+\phi = \arccos\!\left(\frac{5}{\sqrt{29}}\right) \approx 21.8^\circ
+$$
 
 </details>
 
@@ -697,9 +724,13 @@ Solve $\cos 2\theta + 3\cos\theta + 2 = 0$ for $0 \leq \theta < 2\pi$.
 
 Using $\cos 2\theta = 2\cos^2\theta - 1$:
 
-$$2\cos^2\theta - 1 + 3\cos\theta + 2 = 0$$
+$$
+2\cos^2\theta - 1 + 3\cos\theta + 2 = 0
+$$
 
-$$2\cos^2\theta + 3\cos\theta + 1 = 0$$
+$$
+2\cos^2\theta + 3\cos\theta + 1 = 0
+$$
 
 Let $u = \cos\theta$: $2u^2 + 3u + 1 = 0 \implies (2u + 1)(u + 1) = 0$.
 
@@ -722,11 +753,15 @@ In $\triangle ABC$$a = 8$$b = 10$$A = 40^\circ$. Find all possible values of $B$
 
 By the sine rule: $\dfrac{\sin B}{10} = \dfrac{\sin 40^\circ}{8}$.
 
-$$\sin B = \frac{10\sin 40^\circ}{8} = \frac{10(0.6428)}{8} = 0.8035$$
+$$
+\sin B = \frac{10\sin 40^\circ}{8} = \frac{10(0.6428)}{8} = 0.8035
+$$
 
 Since $\sin B < 1$ and $b > a$ (i.e., $10 > 8$), there is exactly one solution:
 
-$$B = \arcsin(0.8035) \approx 53.5^\circ$$
+$$
+B = \arcsin(0.8035) \approx 53.5^\circ
+$$
 
 (Note: the ambiguous case does not arise here because $b > a$ means $\angle B > \angle A$ So $B$ must
 be acute.)
@@ -744,13 +779,19 @@ In $\triangle ABC$, $a = 7$, $b = 5$, $C = 60^\circ$. Find the area and the leng
 <details>
 <summary>Solution</summary>
 
-$$\mathrm{Area} = \frac{1}{2}ab\sin C = \frac{1}{2}(7)(5)\sin 60^\circ = \frac{35\sqrt{3}}{4} \approx 15.16$$
+$$
+\mathrm{Area} = \frac{1}{2}ab\sin C = \frac{1}{2}(7)(5)\sin 60^\circ = \frac{35\sqrt{3}}{4} \approx 15.16
+$$
 
 By the cosine rule:
 
-$$c^2 = 7^2 + 5^2 - 2(7)(5)\cos 60^\circ = 49 + 25 - 35 = 39$$
+$$
+c^2 = 7^2 + 5^2 - 2(7)(5)\cos 60^\circ = 49 + 25 - 35 = 39
+$$
 
-$$c = \sqrt{39} \approx 6.24$$
+$$
+c = \sqrt{39} \approx 6.24
+$$
 
 </details>
 
@@ -763,22 +804,27 @@ Solve $3\sin\theta + 4\cos\theta = 5$ for $0^\circ \leq \theta < 360^\circ$.
 
 Express $3\sin\theta + 4\cos\theta$ in the form $R\sin(\theta + \alpha)$.
 
-$$R = \sqrt{3^2 + 4^2} = 5, \quad \alpha = \arctan\!\left(\frac{4}{3}\right) \approx 53.13^\circ$$
+$$
+R = \sqrt{3^2 + 4^2} = 5, \quad \alpha = \arctan\!\left(\frac{4}{3}\right) \approx 53.13^\circ
+$$
 
-$$5\sin(\theta + 53.13^\circ) = 5 \implies \sin(\theta + 53.13^\circ) = 1$$
+$$
+5\sin(\theta + 53.13^\circ) = 5 \implies \sin(\theta + 53.13^\circ) = 1
+$$
 
-$$\theta + 53.13^\circ = 90^\circ + 360^\circ n$$
+$$
+\theta + 53.13^\circ = 90^\circ + 360^\circ n
+$$
 
-$$\theta = 36.87^\circ + 360^\circ n$$
+$$
+\theta = 36.87^\circ + 360^\circ n
+$$
 
 In $ contains the hardest questions
 within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Trigonometry with other DSE mathematics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Common Pitfalls
 
@@ -830,19 +876,27 @@ $\cos 2\theta$.
 
 **Solution.** $\cos\theta = \sqrt{1 - \frac{9}{25}} = \frac{4}{5}$.
 
-$$\sin 2\theta = 2\sin\theta\cos\theta = 2 \cdot \frac{3}{5} \cdot \frac{4}{5} = \frac{24}{25}$$
+$$
+\sin 2\theta = 2\sin\theta\cos\theta = 2 \cdot \frac{3}{5} \cdot \frac{4}{5} = \frac{24}{25}
+$$
 
-$$\cos 2\theta = \cos^2\theta - \sin^2\theta = \frac{16}{25} - \frac{9}{25} = \frac{7}{25}$$
+$$
+\cos 2\theta = \cos^2\theta - \sin^2\theta = \frac{16}{25} - \frac{9}{25} = \frac{7}{25}
+$$
 
 $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic          | Site    | Link                                                                                                |
 | -------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Trigonometry] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/08-trigonometry) |
-| [Trigonometry] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/3-geometry-and-trigonometry/1_trigonometry)             |
-| [Trigonometry] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/10_trigonometry)                           |
+| [Trigonometry] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/1_trigonometry/)             |
+| [Trigonometry] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/10_trigonometry/)                           |
+
+</div>
 
 ======= 3. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong
 way around.
@@ -850,22 +904,7 @@ way around.
 1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/trigonometry.md
 
-
-```mermaid
-flowchart TD
-    A[10_Trigonometryx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 </details>
 

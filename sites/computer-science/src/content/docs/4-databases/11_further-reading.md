@@ -88,17 +88,6 @@ Read Committed, can T2 see an inconsistent state?
 reduced by $100. This is a non-repeatable read. At Repeatable Read, T2 would see consistent
 snapshot but may still see phantoms (rows appearing/disappearing in range queries). $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[11_Further Reading] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Normalisation: 1NF (atomic), 2NF (no partial dependencies), 3NF (no transitive dependencies),
@@ -137,6 +126,8 @@ flowchart TD
 
 ### Topic-Specific Recommendations
 
+<div class="table-wrap">
+
 | Topic | Best Book | Best Online Resource |
 | ------- | ----------- | --------------------- |
 | Relational theory | Date: _SQL and Relational Theory_ | Stanford DB course (Widom/Ullman) |
@@ -147,19 +138,27 @@ flowchart TD
 | Data warehousing | Kimball & Ross | The Data Warehouse Toolkit blog |
 | Graph databases | Robinson _et al._: _Graph Databases_ | Neo4j GraphAcademy |
 
+</div>
+
 ## Cross-References
+
+<div class="table-wrap">
 
 | Topic       | Site       | Link                                                                                                       |
 | ----------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Databases] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/databases/01-relational-databases) |
-| [Databases] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/6-resource-management/1_databases)                  |
-| [Databases] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases/3_data-management)                 |
+| [Databases] | IB         | [View](https://ib.wyattau.com/computer-science/6-resource-management/1_databases/)                  |
+| [Databases] | DSE        | [View](https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management/)                 |
 | [Databases] | University | [View](https://computer-science.wyattau.com/)                              |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
 ## Key Relationships Between Normal Forms
+
+<div class="table-wrap">
 
 | Normal form | Condition                                | Example violation       |
 | ----------- | ---------------------------------------- | ----------------------- |
@@ -167,6 +166,8 @@ flowchart TD
 | 2NF         | No partial dependencies on candidate key | Part of composite key   |
 | 3NF         | No transitive dependencies               | Non-key → non-key       |
 | BCNF        | Every FD has a superkey LHS              | Non-key → part of key   |
+
+</div>
 
 ## Recommended Reading by Topic
 

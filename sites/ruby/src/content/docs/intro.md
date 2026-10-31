@@ -33,7 +33,7 @@ Ruby's elegant syntax and powerful metaprogramming features make it ideal for ra
 
 ## How to Get Started
 
-Install Ruby via rbenv (<https://github.com/rbenv/rbenv>) or your system package manager. Open IRB (Interactive Ruby) and experiment with the basics: `5.times { puts "Hello" }``[1,2,3].map { |n| n * 2 }`and defining classes with `attr_accessor`. The "Ruby in 20 Minutes" tutorial (ruby-lang.org) is an excellent starting point. Build a small project, a command-line tool or a simple web app with Sinatra, to apply what you learn.
+Install Ruby via rbenv (<https://github.com/rbenv/rbenv>) or your system package manager. Open IRB (Interactive Ruby) and experiment with the basics: `5.times { puts "Hello" }`, `[1,2,3].map { |n| n * 2 }`and defining classes with `attr_accessor`. The "Ruby in 20 Minutes" tutorial (ruby-lang.org) is an excellent starting point. Build a small project, a command-line tool or a simple web app with Sinatra, to apply what you learn.
 
 Browse the content using the sidebar navigation on the left.
 
@@ -101,15 +101,9 @@ end
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -119,26 +113,3 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.

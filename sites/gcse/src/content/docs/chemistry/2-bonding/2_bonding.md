@@ -24,6 +24,21 @@ categories:
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C2 | WJEC C2
 >
+
+Which type of bond forms depends on what is bonding with what:
+
+```mermaid
+flowchart TD
+    S{What is bonding with what?} --> M[metal + nonmetal]
+    S --> N[nonmetal + nonmetal]
+    S --> A[metal + metal]
+    M --> I[Ionic bond<br>electrons transferred,<br>ions attract in a lattice]
+    N --> C[Covalent bond<br>electrons shared<br>between atoms]
+    A --> Me[Metallic bonding<br>electrons delocalised<br>in a sea of ions]
+```
+
+The next three sections take each type in turn.
+
 ## 1. Ionic Bonding
 
 ### 1.1 Formation of Ions
@@ -33,15 +48,17 @@ Ions (cations), and non-metal atoms gain electrons to form negative ions (anions
 Charged ions are attracted to each other by strong **electrostatic forces**.
 
 The driving force is the achievement of a full outer shell. A metal atom in Group 1 loses one
-Electron to attain the electron configuration of the previous noble gas. A non-metal atom in Group 7
+electron to attain the electron configuration of the previous noble gas. A non-metal atom in Group 7
 Gains one electron to attain the configuration of the next noble gas. Both species achieve a lower
 Energy state, and the energy released when the ions come together (the lattice energy) is what holds
-The ionic compound together.
+the ionic compound together.
 
 **Example: Sodium chloride (NaCl)**
 
 $$\mathrm{Na \to \mathrm{Na^+ + e^-$$ $$\mathrm{Cl + e^- \to \mathrm{Cl^-$$
-$$\mathrm{Na^+ + \mathrm{Cl^- \to \mathrm{NaCl$$
+$$
+\mathrm{Na^+ + \mathrm{Cl^- \to \mathrm{NaCl
+$$
 
 Sodium (Group 1) loses one electron to achieve a full outer shell (like neon). Chlorine (Group 7)
 Gains one electron to achieve a full outer shell (like argon).
@@ -49,14 +66,16 @@ Gains one electron to achieve a full outer shell (like argon).
 ### 1.2 Ionic Lattice Structure
 
 Ionic compounds form **giant ionic lattices** in which positive and negative ions are arranged in a
-Regular, repeating pattern. The electrostatic attraction between all the ions acts in all
-Directions, giving ionic compounds high melting and boiling points.
+regular, repeating pattern. The electrostatic attraction between all the ions acts in all
+directions, giving ionic compounds high melting and boiling points.
 
 In sodium chloride, each Na$^+$ ion is surrounded by six Cl$^-$ ions, and each Cl$^-$ ion is
-Surrounded by six Na$^+$ ions. This is a 6:6 coordination. The lattice extends in three dimensions
+surrounded by six Na$^+$ ions. This is a 6:6 coordination. The lattice extends in three dimensions
 -- it is not a collection of discrete NaCl molecules.
 
 **Properties of ionic compounds:**
+
+<div class="table-wrap">
 
 | Property                                     | Explanation                                                                         |
 | -------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -66,53 +85,201 @@ Surrounded by six Na$^+$ ions. This is a 6:6 coordination. The lattice extends i
 | Brittle                                      | A force displaces layers of ions, bringing like charges together, causing repulsion |
 | soluble in water                             | Water molecules attract and separate the ions                                       |
 
+</div>
+
 The brittleness of ionic compounds has a clear structural explanation. When a force is applied, one
-Layer of ions shifts relative to another. Ions of the same charge are brought into proximity, and
-The resulting electrostatic repulsion causes the crystal to shatter. This is fundamentally different
-From the response of metals, where layers can slide past each other without breaking bonds.
+layer of ions shifts relative to another. Ions of the same charge are brought into proximity, and
+the resulting electrostatic repulsion causes the crystal to shatter. This is fundamentally different
+from the response of metals, where layers can slide past each other without breaking bonds.
 
 ### 1.3 Dot and Cross Diagrams
 
 Dot and cross diagrams show the transfer of electrons in ionic bonding. The original electrons of
-Each atom are shown as dots or crosses, and transferred electrons are shown in the colour/symbol of
-The receiving atom.
+each atom are shown as dots or crosses, and transferred electrons are shown in the colour/symbol of
+the receiving atom.
 
 **Example: Magnesium oxide (MgO)**
+
+<svg viewBox="0 0 420 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+  <!-- Mg²⁺ ion on the left -->
+  <path d="M 48,40 L 40,40 L 40,140 L 48,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <circle cx="90" cy="90" r="28" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+  <text x="90" y="90" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">Mg</text>
+  <circle cx="90" cy="90" r="14" stroke="#d1d5db" fill="none" stroke-width="1"/>
+  <circle cx="90" cy="78" r="2.5" fill="#6b7280"/>
+  <circle cx="102" cy="90" r="2.5" fill="#6b7280"/>
+  <circle cx="90" cy="102" r="2.5" fill="#6b7280"/>
+  <circle cx="78" cy="90" r="2.5" fill="#6b7280"/>
+  <path d="M 132,40 L 140,40 L 140,140 L 132,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <text x="146" y="55" font-size="16" fill="#dc2626" font-weight="bold">2+</text>
+  <text x="90" y="160" text-anchor="middle" font-size="12" fill="#6b7280">Mg²⁺</text>
+  <!-- O²⁻ ion on the right -->
+  <path d="M 218,40 L 210,40 L 210,140 L 218,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <circle cx="260" cy="90" r="28" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+  <text x="260" y="90" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">O</text>
+  <!-- 8 outer electrons: 2 dots (from Mg) + 6 crosses (O's own) -->
+  <circle cx="260" cy="62" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+  <circle cx="282" cy="70" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+  <line x1="296" y1="76" x2="306" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="306" y1="76" x2="296" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="294" y1="90" x2="304" y2="90" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="304" y1="90" x2="294" y2="90" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="286" y1="106" x2="294" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="294" y1="106" x2="286" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="262" y1="118" x2="270" y2="126" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="270" y1="118" x2="262" y2="126" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="238" y1="106" x2="244" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="244" y1="106" x2="238" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="216" y1="76" x2="224" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="224" y1="76" x2="216" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <path d="M 302,40 L 310,40 L 310,140 L 302,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <text x="316" y="55" font-size="16" fill="#2563eb" font-weight="bold">2−</text>
+  <text x="260" y="160" text-anchor="middle" font-size="12" fill="#6b7280">O²⁻</text>
+  <!-- Arrow -->
+  <text x="170" y="90" text-anchor="middle" font-size="14" fill="#9ca3af">⟶</text>
+  <text x="170" y="108" text-anchor="middle" font-size="10" fill="#9ca3af">2 e⁻ transfer</text>
+</svg>
+<p style="text-align:center;font-size:12px;color:#6b7280;margin:4px 0">Magnesium oxide (MgO): magnesium transfers two electrons to oxygen. ● = magnesium&#39;s electrons, ✕ = oxygen&#39;s electrons</p>
 
 Magnesium ($2, 8, 2$) loses 2 electrons to form Mg$^{2+}$. Oxygen ($2, 6$) gains 2 electrons to form
 O$^{2-}$.
 
-$$\mathrm{Mg + \mathrm{O \to \mathrm{Mg^{2+} + \mathrm{O^{2-}$$
+$$
+\mathrm{Mg + \mathrm{O \to \mathrm{Mg^{2+} + \mathrm{O^{2-}
+$$
 
 **Example: Calcium chloride (CaCl$_2$)**
 
 Calcium ($2, 8, 8, 2$) loses 2 electrons. Each chlorine ($2, 8, 7$) gains 1 electron. Two chlorine
 Atoms are needed.
 
-$$\mathrm{Ca + 2\mathrm{Cl \to \mathrm{Ca^{2+} + 2\mathrm{Cl^-$$
+$$
+\mathrm{Ca + 2\mathrm{Cl \to \mathrm{Ca^{2+} + 2\mathrm{Cl^-
+$$
 
 **Example: Sodium oxide (Na$_2$O)**
 
 Each sodium ($2, 8, 1$) loses 1 electron. Oxygen ($2, 6$) gains 2 electrons. Two sodium atoms are
-Needed.
+needed.
 
-$$2\mathrm{Na + \mathrm{O \to 2\mathrm{Na^+ + \mathrm{O^{2-}$$
+$$
+2\mathrm{Na + \mathrm{O \to 2\mathrm{Na^+ + \mathrm{O^{2-}
+$$
 
 **Example: Aluminium oxide (Al$_2$O$_3$)**
 
 Each aluminium ($2, 8, 3$) loses 3 electrons to form Al$^{3+}$. Each oxygen gains 2 electrons to
-Form O$^{2-}$. The lowest common multiple of 3 and 2 is 6, so we need two aluminium atoms and three
-Oxygen atoms.
+form O$^{2-}$. The lowest common multiple of 3 and 2 is 6, so we need two aluminium atoms and three
+oxygen atoms.
 
-$$2\mathrm{Al + 3\mathrm{O \to 2\mathrm{Al^{3+} + 3\mathrm{O^{2-}$$
+$$
+2\mathrm{Al + 3\mathrm{O \to 2\mathrm{Al^{3+} + 3\mathrm{O^{2-}
+$$
 
 **Worked Example.** Draw the dot and cross diagram for calcium fluoride (CaF$_2$).
 
+<svg viewBox="0 0 520 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="260" cy="85" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="260" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">Ca</text>
+<circle cx="260" cy="85" r="16" stroke="#d1d5db" fill="none" stroke-width="1.5"/>
+<circle cx="260.0" cy="101.0" r="3" fill="#6b7280"/>
+<circle cx="260.0" cy="69.0" r="3" fill="#6b7280"/>
+<path d="M 228,40 L 220,40 L 220,130 L 228,130" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 292,40 L 300,40 L 300,130 L 292,130" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="304" y="55" font-size="16" fill="#dc2626" font-weight="bold">2+</text>
+<circle cx="100" cy="85" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="100" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">F</text>
+<line x1="125.0" y1="80.0" x2="135.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="135.0" y1="80.0" x2="125.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="116.2" y1="101.2" x2="126.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="126.2" y1="101.2" x2="116.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="95.0" y1="110.0" x2="105.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="105.0" y1="110.0" x2="95.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="73.8" y1="101.2" x2="83.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="83.8" y1="101.2" x2="73.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="65.0" y1="80.0" x2="75.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="75.0" y1="80.0" x2="65.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="73.8" y1="58.8" x2="83.8" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="83.8" y1="58.8" x2="73.8" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="116.2" y1="58.8" x2="126.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="126.2" y1="58.8" x2="116.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="100.0" cy="55.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<path d="M 68,40 L 60,40 L 60,130 L 68,130" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 132,40 L 140,40 L 140,130 L 132,130" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="144" y="55" font-size="16" fill="#2563eb" font-weight="bold">−</text>
+<circle cx="420" cy="85" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="420" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">F</text>
+<line x1="445.0" y1="80.0" x2="455.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="455.0" y1="80.0" x2="445.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="436.2" y1="101.2" x2="446.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="446.2" y1="101.2" x2="436.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="415.0" y1="110.0" x2="425.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="425.0" y1="110.0" x2="415.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="393.8" y1="101.2" x2="403.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="403.8" y1="101.2" x2="393.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="385.0" y1="80.0" x2="395.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="395.0" y1="80.0" x2="385.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="393.8" y1="58.8" x2="403.8" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="403.8" y1="58.8" x2="393.8" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="436.2" y1="58.8" x2="446.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="446.2" y1="58.8" x2="436.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="420.0" cy="55.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<path d="M 388,40 L 380,40 L 380,130 L 388,130" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 452,40 L 460,40 L 460,130 L 452,130" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="464" y="55" font-size="16" fill="#2563eb" font-weight="bold">−</text>
+<text x="100" y="155" text-anchor="middle" font-size="12" fill="#6b7280">F⁻</text>
+<text x="260" y="155" text-anchor="middle" font-size="12" fill="#6b7280">Ca²⁺</text>
+<text x="420" y="155" text-anchor="middle" font-size="12" fill="#6b7280">F⁻</text>
+</svg>
+<p style="text-align:center;font-size:12px;color:#6b7280;margin:4px 0">Calcium fluoride (CaF₂): calcium transfers one electron to each fluorine atom. ● = calcium&#39;s electron, ✕ = fluorine&#39;s electrons</p>
+
 Calcium ($2, 8, 8, 2$) loses 2 electrons to form Ca$^{2+}$. Each fluorine ($2, 7$) gains 1 electron
-To form F$^-$. Two fluorine atoms are needed to accept the 2 electrons from calcium. The Ca$^{2+}$
+to form F$^-$. Two fluorine atoms are needed to accept the 2 electrons from calcium. The Ca$^{2+}$
 Ion achieves the configuration of argon; each F$^-$ achieves the configuration of neon.
 
 **Worked Example.** Draw the dot and cross diagram for lithium oxide (Li$_2$O).
+
+<svg viewBox="0 0 520 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="260" cy="85" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="260" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">O</text>
+<circle cx="275.0" cy="59.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+  <circle cx="245.0" cy="59.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="285.0" y1="80.0" x2="295.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="295.0" y1="80.0" x2="285.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="276.2" y1="101.2" x2="286.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="286.2" y1="101.2" x2="276.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="255.0" y1="110.0" x2="265.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="265.0" y1="110.0" x2="255.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="233.8" y1="101.2" x2="243.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="243.8" y1="101.2" x2="233.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="225.0" y1="80.0" x2="235.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="235.0" y1="80.0" x2="225.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="276.2" y1="58.8" x2="286.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="286.2" y1="58.8" x2="276.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+<path d="M 228,40 L 220,40 L 220,130 L 228,130" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 292,40 L 300,40 L 300,130 L 292,130" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="304" y="55" font-size="16" fill="#2563eb" font-weight="bold">2−</text>
+<circle cx="100" cy="85" r="25" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="100" y="85" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">Li</text>
+<circle cx="100" cy="85" r="12" stroke="#d1d5db" fill="none" stroke-width="1.5"/>
+<circle cx="100.0" cy="97.0" r="2.5" fill="#6b7280"/>
+<circle cx="100.0" cy="73.0" r="2.5" fill="#6b7280"/>
+<path d="M 78,45 L 70,45 L 70,125 L 78,125" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 122,45 L 130,45 L 130,125 L 122,125" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="134" y="55" font-size="16" fill="#dc2626" font-weight="bold">+</text>
+<circle cx="420" cy="85" r="25" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="420" y="85" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">Li</text>
+<circle cx="420" cy="85" r="12" stroke="#d1d5db" fill="none" stroke-width="1.5"/>
+<circle cx="420.0" cy="97.0" r="2.5" fill="#6b7280"/>
+<circle cx="420.0" cy="73.0" r="2.5" fill="#6b7280"/>
+<path d="M 398,45 L 390,45 L 390,125 L 398,125" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 442,45 L 450,45 L 450,125 L 442,125" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="454" y="55" font-size="16" fill="#dc2626" font-weight="bold">+</text>
+<text x="100" y="150" text-anchor="middle" font-size="12" fill="#6b7280">Li⁺</text>
+<text x="260" y="155" text-anchor="middle" font-size="12" fill="#6b7280">O²⁻</text>
+<text x="420" y="150" text-anchor="middle" font-size="12" fill="#6b7280">Li⁺</text>
+</svg>
+<p style="text-align:center;font-size:12px;color:#6b7280;margin:4px 0">Lithium oxide (Li₂O): each lithium atom transfers one electron to oxygen. ● = lithium&#39;s electrons, ✕ = oxygen&#39;s electrons</p>
 
 Each lithium ($2, 1$) loses 1 electron to form Li$^+$. Oxygen ($2, 6$) gains 2 electrons to form
 O$^{2-}$. Two lithium atoms are needed.
@@ -120,12 +287,14 @@ O$^{2-}$. Two lithium atoms are needed.
 **Worked Example.** Draw the dot and cross diagram for potassium sulfide (K$_2$S).
 
 Each potassium ($2, 8, 8, 1$) loses 1 electron to form K$^+$. Sulfur ($2, 8, 6$) gains 2 electrons
-To form S$^{2-}$. Two potassium atoms are needed. Each K$^+$ achieves the configuration of argon;
+to form S$^{2-}$. Two potassium atoms are needed. Each K$^+$ achieves the configuration of argon;
 S$^{2-}$ achieves the configuration of argon.
 
 ### 1.4 Formulae of Ionic Compounds
 
 The formula of an ionic compound is determined by balancing the charges:
+
+<div class="table-wrap">
 
 | Cation    | Anion       | Formula      |
 | --------- | ----------- | ------------ |
@@ -135,8 +304,10 @@ The formula of an ionic compound is determined by balancing the charges:
 | Mg$^{2+}$ | SO$_4^{2-}$ | MgSO$_4$     |
 | Na$^+$    | CO$_3^{2-}$ | Na$_2$CO$_3$ |
 
+</div>
+
 The method is: write the ions with their charges, then find the smallest whole number ratio that
-Makes the total charge zero. For Al$_2$O$_3$: $2 \times (+3) + 3 \times (-2) = 0$.
+makes the total charge zero. For Al$_2$O$_3$: $2 \times (+3) + 3 \times (-2) = 0$.
 
 **Worked Example.** Determine the formula of the compound formed between magnesium ions and oxide
 Ions.
@@ -159,6 +330,8 @@ $+6$) and 2 PO$_4^{3-}$ (total $-6$). Formula: Ca$_3$(PO$_4$)$_2$.
 
 Some ions consist of more than one atom bonded covalently but carrying an overall charge:
 
+<div class="table-wrap">
+
 | Ion               | Formula     | Charge |
 | ----------------- | ----------- | ------ |
 | Hydroxide         | OH$^-$      | $1-$   |
@@ -168,22 +341,28 @@ Some ions consist of more than one atom bonded covalently but carrying an overal
 | Ammonium          | NH$_4^+$    | $1+$   |
 | Hydrogencarbonate | HCO$_3^-$   | $1-$   |
 
+</div>
+
 When writing formulae with polyatomic ions, use brackets if more than one of the polyatomic ion is
-Needed: Ca(NO$_3$)$_2$Not CaNO$\_3$2.
+needed: Ca(NO$_3$)$_2$ Not CaNO$\_3$2.
 
 ### 1.6 Derivation: Why Ionic Compounds Have High Melting Points
 
 The melting point of an ionic compound depends on the strength of the electrostatic forces between
-Ions, given by Coulomb"s law:
+ions, given by Coulomb's law:
 
-$$F \propto \frac{q_1 \cdot q_2}{r^2}$$
+$$
+F \propto \frac{q_1 \cdot q_2}{r^2}
+$$
 
 Where $q_1$ and $q_2$ are the ion charges and $r$ is the distance between ion centres. For compounds
-With higher charges (e.g. MgO with $2+$ and $2-$) and smaller ions (shorter $r$), the forces are
-Much stronger and the melting point is much higher. This explains why MgO melts at
+with higher charges (e.g. MgO with $2+$ and $2-$) and smaller ions (shorter $r$), the forces are
+much stronger and the melting point is much higher. This explains why MgO melts at
 $2852^{\circ}\mathrm{C$ while NaCl melts at only $801^{\circ}\mathrm{C$.
 
 ### 1.7 Comparison of Ionic Compound Properties
+
+<div class="table-wrap">
 
 | Compound    | Ion Charges | Melting Point ($^{\circ}\mathrm{C$) | Solubility in Water |
 | ----------- | ----------- | ----------------------------------- | ------------------- |
@@ -191,6 +370,8 @@ $2852^{\circ}\mathrm{C$ while NaCl melts at only $801^{\circ}\mathrm{C$.
 | MgO         | $+2, -2$    | 2852                                | Slightly soluble    |
 | CaCl$_2$    | $+2, -1$    | 772                                 | Soluble             |
 | Al$_2$O$_3$ | $+3, -2$    | 2072                                | Insoluble           |
+
+</div>
 
 The trend is clear: higher ionic charges produce stronger electrostatic attraction and higher
 Melting points. This is a direct consequence of Coulomb's law.
@@ -212,20 +393,80 @@ Together.
 
 **Hydrogen (H$_2$):** Each hydrogen atom has 1 electron. They share one pair.
 
-$$\mathrm{H \cdot + \cdot \mathrm{H \to \mathrm{H - \mathrm{H$$
+<svg viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="95" cy="85" r="45" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<circle cx="165" cy="85" r="45" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="75" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<text x="185" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="122.0" cy="85.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="133.0" y1="80.0" x2="143.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="143.0" y1="80.0" x2="133.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+<text x="130" y="155" text-anchor="middle" font-size="12" fill="#6b7280">Shared pair of electrons</text>
+</svg>
+
+$$
+\mathrm{H \cdot + \cdot \mathrm{H \to \mathrm{H - \mathrm{H
+$$
 
 **Water (H$_2$O):** Oxygen has 6 outer electrons and needs 2 more. Each hydrogen has 1 electron.
 
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="160" cy="105" r="50" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="160" y="105" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">O</text>
+<circle cx="85" cy="105" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="65" y="105" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="235" cy="105" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="255" y="105" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="118.0" cy="105.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="127.0" y1="100.0" x2="137.0" y2="110.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="137.0" y1="100.0" x2="127.0" y2="110.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="202.0" cy="105.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="183.0" y1="100.0" x2="193.0" y2="110.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="193.0" y1="100.0" x2="183.0" y2="110.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="148.0" cy="65.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="172.0" cy="65.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="148.0" cy="145.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="172.0" cy="145.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<text x="160" y="35" text-anchor="middle" font-size="12" fill="#6b7280">Lone pairs</text>
+<text x="160" y="195" text-anchor="middle" font-size="12" fill="#6b7280">Two shared pairs (bonds)</text>
+</svg>
+
 Oxygen forms two single covalent bonds, one with each hydrogen. The two lone pairs on oxygen are not
-Shared.
+shared.
 
 **Carbon dioxide (CO$_2$):** Carbon has 4 outer electrons and needs 4 more. Each oxygen has 6 outer
 Electrons and needs 2 more. Each oxygen forms a double bond with carbon.
 
 Carbon forms two double bonds, one with each oxygen. Each double bond consists of two shared pairs
-Of electrons.
+of electrons.
 
-**Methane (CH$_4$):** Carbon forms four single bonds with four hydrogen atoms. Carbon achieves a
+**Methane (CH$_4$):** Carbon forms four single bonds with four hydrogen atoms.
+
+<svg viewBox="0 0 320 260" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="160" cy="130" r="45" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="160" y="130" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">C</text>
+<circle cx="160" cy="75" r="22" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="160" y="75" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="155.0" cy="102.5" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="160.0" y1="97.5" x2="170.0" y2="107.5" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="170.0" y1="97.5" x2="160.0" y2="107.5" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="215" cy="130" r="22" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="215" y="130" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="182.5" cy="130.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="187.5" y1="125.0" x2="197.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="197.5" y1="125.0" x2="187.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="160" cy="185" r="22" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="160" y="185" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="155.0" cy="157.5" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="160.0" y1="152.5" x2="170.0" y2="162.5" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="170.0" y1="152.5" x2="160.0" y2="162.5" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="105" cy="130" r="22" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="105" y="130" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="127.5" cy="130.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="132.5" y1="125.0" x2="142.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="142.5" y1="125.0" x2="132.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
+<text x="160" y="245" text-anchor="middle" font-size="12" fill="#6b7280">Four shared pairs (single covalent bonds)</text>
+</svg> Carbon achieves a
 Full outer shell of 8 electrons, and each hydrogen achieves a full outer shell of 2 electrons.
 
 **Ammonia (NH$_3$):** Nitrogen has 5 outer electrons and needs 3 more. Each hydrogen has 1 electron.
@@ -242,17 +483,40 @@ Two lone pairs. The structure is analogous to water.
 
 **Worked Example.** Draw the dot and cross diagram for nitrogen (N$_2$).
 
-Nitrogen is in group 7 with 5 outer electrons. Each nitrogen atom needs 3 more to complete its
-Octet. They share three pairs of electrons, forming a triple bond. Each nitrogen retains one lone
+<svg viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="100" cy="85" r="50" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<circle cx="180" cy="85" r="50" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="75" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">N</text>
+<text x="205" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">N</text>
+<circle cx="132.0" cy="73.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="143.0" y1="68.0" x2="153.0" y2="78.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="153.0" y1="68.0" x2="143.0" y2="78.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="132.0" cy="85.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="143.0" y1="80.0" x2="153.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="153.0" y1="80.0" x2="143.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="132.0" cy="97.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="143.0" y1="92.0" x2="153.0" y2="102.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="153.0" y1="92.0" x2="143.0" y2="102.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="62.0" cy="65.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="62.0" cy="105.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="218.0" cy="65.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="218.0" cy="105.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<text x="140" y="165" text-anchor="middle" font-size="12" fill="#6b7280">Triple bond: three shared pairs</text>
+</svg>
+
+Nitrogen is in group 5 with 5 outer electrons. Each nitrogen atom needs 3 more to complete its
+octet. They share three pairs of electrons, forming a triple bond. Each nitrogen retains one lone
 Pair.
 
 **Worked Example.** Draw the dot and cross diagram for phosphorus trichloride (PCl$_3$).
 
 Phosphorus is in group 5 with 5 outer electrons. It needs 3 more to complete its octet. Each
-Chlorine has 7 outer electrons and needs 1 more. Phosphorus forms three single covalent bonds, one
-With each chlorine, and retains one lone pair. The structure is analogous to ammonia.
+chlorine has 7 outer electrons and needs 1 more. Phosphorus forms three single covalent bonds, one
+with each chlorine, and retains one lone pair. The structure is analogous to ammonia.
 
 ### 2.3 Properties of Simple Covalent Molecules
+
+<div class="table-wrap">
 
 | Property                             | Explanation                                                           |
 | ------------------------------------ | --------------------------------------------------------------------- |
@@ -260,16 +524,18 @@ With each chlorine, and retains one lone pair. The structure is analogous to amm
 | Do NOT conduct electricity           | No free ions or electrons                                             |
 | gases or liquids at room temperature | Weak forces between molecules                                         |
 
+</div>
+
 :::caution
 Melts or boils, NOT the covalent bonds within the molecules. Covalent bonds are strong, but there
-Are only weak forces between molecules. Breaking covalent bonds would decompose the molecule into
-Atoms -- this does not happen during melting or boiling.
+are only weak forces between molecules. Breaking covalent bonds would decompose the molecule into
+atoms -- this does not happen during melting or boiling.
 :::
 
 The distinction between intramolecular bonds (within molecules) and intermolecular forces (between
-Molecules) is one of the most important ideas in chemistry. The covalent bonds inside a water
+molecules) is one of the most important ideas in chemistry. The covalent bonds inside a water
 Molecule are strong (about 464 kJ/mol for O-H), but the hydrogen bonds between water molecules are
-Much weaker (about 20 kJ/mol). It is these weaker forces that are overcome when water boils at
+much weaker (about 20 kJ/mol). It is these weaker forces that are overcome when water boils at
 $100^{\circ}\mathrm{C$.
 
 ### 2.4 Bonding in Giant Covalent Structures
@@ -294,7 +560,7 @@ Layers of hexagonal rings. The fourth electron of each carbon is delocalised (fr
 - Used as a lubricant and in pencils
 
 Graphite and diamond are both composed entirely of carbon atoms, yet their properties are
-Dramatically different. This illustrates a fundamental principle: the properties of a substance
+dramatically different. This illustrates a fundamental principle: the properties of a substance
 Depend not only on what atoms it contains but on how those atoms are bonded and arranged.
 
 **Silicon dioxide (SiO$_2$):** Each silicon atom bonds to four oxygen atoms, and each oxygen bonds
@@ -315,6 +581,8 @@ Properties. They are used in composite materials and electronics.
 
 ### 2.5 Comparison of Diamond and Graphite
 
+<div class="table-wrap">
+
 | Property                | Diamond                                 | Graphite                         |
 | ----------------------- | --------------------------------------- | -------------------------------- |
 | Bonding                 | 4 covalent bonds per carbon             | 3 covalent bonds + 1 delocalised |
@@ -324,21 +592,25 @@ Properties. They are used in composite materials and electronics.
 | Melting point           | Very high ($\gt 3500^{\circ}\mathrm{C$) | Very high                        |
 | Uses                    | Cutting tools, jewellery                | Pencils, lubricants, electrodes  |
 
+</div>
+
 ### 2.6 Bond Polarity
 
 When two different non-metals form a covalent bond, the shared electrons may be pulled more towards
-One atom than the other (because of different electronegativities).
+one atom than the other (because of different electronegativities).
 
 - If the electrons are shared equally, the bond is **non-polar** (e.g. H-H, Cl-Cl)
 - If the electrons are pulled towards one atom, the bond is **polar** (e.g. H-Cl)
 
 In H-Cl, the chlorine is more electronegative, so it has a slight negative charge ($\delta^-$) and
-Hydrogen has a slight positive charge ($\delta^+$). The bond has a dipole.
+hydrogen has a slight positive charge ($\delta^+$). The bond has a dipole.
 
 ### 2.7 Bond Energy
 
 The **bond energy** is the energy required to break one mole of a particular bond in the gaseous
 State.
+
+<div class="table-wrap">
 
 | Bond  | Bond energy (kJ/mol) |
 | ----- | -------------------- |
@@ -349,18 +621,22 @@ State.
 | C=O   | 805                  |
 | Cl-Cl | 243                  |
 
+</div>
+
 Multiple bonds are stronger than single bonds because there are more shared electrons holding the
-Atoms together: C=C (612 kJ/mol) is stronger than C-C (348 kJ/mol), and C$\equiv$C (839 kJ/mol) is
-Stronger still.
+atoms together: C=C (612 kJ/mol) is stronger than C-C (348 kJ/mol), and C$\equiv$C (839 kJ/mol) is
+stronger still.
 
 ### 2.8 Derivation: Why Multiple Bonds Are Stronger
 
 A double bond consists of one sigma bond and one pi bond. A triple bond consists of one sigma bond
-And two pi bonds. Each additional shared pair adds more electron density between the nuclei,
+and two pi bonds. Each additional shared pair adds more electron density between the nuclei,
 Increasing the net attractive force and pulling the nuclei closer together. The shorter bond length
-Also contributes to the higher bond energy because the electrons are closer to both nuclei.
+also contributes to the higher bond energy because the electrons are closer to both nuclei.
 
 The relationship between bond order, bond length, and bond energy:
+
+<div class="table-wrap">
 
 | Bond Order | Bond Length  | Bond Energy  |
 | ---------- | ------------ | ------------ |
@@ -368,19 +644,23 @@ The relationship between bond order, bond length, and bond energy:
 | 2 (double) | Intermediate | Intermediate |
 | 3 (triple) | Shortest     | Strongest    |
 
+</div>
+
 ## 3. Metallic Bonding
 
 ### 3.1 The Model
 
 In metals, the outer electrons of each atom are **delocalised** -- they are free to move throughout
-The metallic structure. This creates a "sea" of delocalised electrons surrounding positive metal
+the metallic structure. This creates a "sea" of delocalised electrons surrounding positive metal
 Ions.
 
 The metallic bond is the strong electrostatic attraction between the positive metal ions and the
-Delocalised electrons. This model accounts for the key properties of metals and distinguishes them
-From both ionic and covalent substances.
+delocalised electrons. This model accounts for the key properties of metals and distinguishes them
+from both ionic and covalent substances.
 
 ### 3.2 Properties of Metals
+
+<div class="table-wrap">
 
 | Property                       | Explanation                                                                  |
 | ------------------------------ | ---------------------------------------------------------------------------- |
@@ -391,17 +671,21 @@ From both ionic and covalent substances.
 | Shiny                          | Delocalised electrons absorb and re-emit light                               |
 | high density                   | Atoms are closely packed in the lattice                                      |
 
+</div>
+
 The malleability and ductility of metals are consequences of the non-directional nature of the
-Metallic bond. When a force is applied, layers of metal ions can slide past each other. The
-Delocalised electrons adjust their positions to maintain the electrostatic attraction, so the metal
-Does not shatter. This is in stark contrast to ionic solids, where displacement of layers brings
-Like charges together and causes fracture.
+metallic bond. When a force is applied, layers of metal ions can slide past each other. The
+delocalised electrons adjust their positions to maintain the electrostatic attraction, so the metal
+does not shatter. This is in stark contrast to ionic solids, where displacement of layers brings
+like charges together and causes fracture.
 
 ### 3.3 Alloys
 
 An **alloy** is a mixture of a metal with one or more other elements ( another metal or Carbon). The
 different-sized atoms distort the regular lattice, preventing layers from sliding . This makes
 alloys harder than pure metals.
+
+<div class="table-wrap">
 
 | Alloy           | Composition              | Use                           |
 | --------------- | ------------------------ | ----------------------------- |
@@ -412,15 +696,17 @@ alloys harder than pure metals.
 | Solder          | Tin + lead               | Joining wires                 |
 | Amalgam         | Mercury + other metals   | Dental fillings               |
 
+</div>
+
 The mechanism of hardening in alloys is straightforward. In a pure metal, all atoms are the same
-Size, so layers can slide over each other . In an alloy, the atoms of the added element are a
-Different size and disrupt the regular arrangement. This creates "roughness" in the lattice that
+size, so layers can slide over each other . In an alloy, the atoms of the added element are a
+different size and disrupt the regular arrangement. This creates "roughness" in the lattice that
 Impedes the sliding of layers, making the material harder and less ductile.
 
 **Worked Example.** Explain why gold is often alloyed with other metals to make jewellery.
 
 Pure gold (24 carat) is too soft for everyday wear. Alloying gold with copper or silver distorts the
-Lattice, making the metal harder and more durable. 18 carat gold is 75% gold, 25% other metals.
+lattice, making the metal harder and more durable. 18 carat gold is 75% gold, 25% other metals.
 
 **Worked Example.** Explain why steel is used for construction but pure iron is not.
 
@@ -434,11 +720,13 @@ and stronger.
 Some materials, when cooled below a critical temperature, lose all electrical resistance and become
 **superconductors**. Metals and metallic alloys can be superconductors. Superconductors have
 Applications in MRI scanners, maglev trains, and power transmission (because no energy is lost as
-Heat).
+heat).
 
 ## 4. Types of Bonding and Properties
 
 ### 4.1 Summary Table
+
+<div class="table-wrap">
 
 | Type of Bonding   | Between               | Structure              | Melting Point | Conductivity              |
 | ----------------- | --------------------- | ---------------------- | ------------- | ------------------------- |
@@ -446,6 +734,8 @@ Heat).
 | Covalent (simple) | Non-metal + non-metal | Simple molecules       | Low           | No                        |
 | Covalent (giant)  | Non-metal + non-metal | Giant covalent lattice | Very high     | Graphite: yes; others: no |
 | Metallic          | Metal + metal         | Giant metallic lattice | High          | Yes (solid)               |
+
+</div>
 
 ### 4.2 Predicting Bonding Type
 
@@ -482,6 +772,8 @@ Given the type of bonding, you should be able to predict:
 
 ### 4.4 Comparison: Ionic vs. Metallic Bonding
 
+<div class="table-wrap">
+
 | Property            | Ionic Bonding                      | Metallic Bonding                                |
 | ------------------- | ---------------------------------- | ----------------------------------------------- |
 | Type of attraction  | Between positive and negative ions | Between positive ions and delocalised electrons |
@@ -491,7 +783,11 @@ Given the type of bonding, you should be able to predict:
 | Solubility in water | soluble                            | insoluble                                       |
 | Example             | NaCl, MgO                          | Iron, copper                                    |
 
+</div>
+
 ### 4.5 Comparison: Ionic vs. Covalent vs. Metallic
+
+<div class="table-wrap">
 
 | Feature          | Ionic                      | Simple Covalent    | Giant Covalent            | Metallic                      |
 | ---------------- | -------------------------- | ------------------ | ------------------------- | ----------------------------- |
@@ -501,9 +797,13 @@ Given the type of bonding, you should be able to predict:
 | Solubility       | soluble in water           | Variable           | Insoluble                 | Insoluble                     |
 | Example          | NaCl                       | CO$_2$H$_2$O       | Diamond, SiO$_2$          | Cu, Fe                        |
 
+</div>
+
 ## 5. States of Matter and Changes of State
 
 ### 5.1 The Three States
+
+<div class="table-wrap">
 
 | Property    | Solid                      | Liquid                               | Gas                            |
 | ----------- | -------------------------- | ------------------------------------ | ------------------------------ |
@@ -513,7 +813,11 @@ Given the type of bonding, you should be able to predict:
 | Shape       | Fixed                      | Takes container shape                | Fills container                |
 | Volume      | Fixed                      | Fixed                                | Fills available space          |
 
+</div>
+
 ### 5.2 Changes of State
+
+<div class="table-wrap">
 
 | Change          | Name                | Energy Change   |
 | --------------- | ------------------- | --------------- |
@@ -524,9 +828,11 @@ Given the type of bonding, you should be able to predict:
 | Solid to gas    | Sublimation         | Energy absorbed |
 | Gas to solid    | Deposition          | Energy released |
 
+</div>
+
 :::note
 Formed, and the process is reversible. The identity of the substance does not change; only the
-Arrangement and energy of its particles.
+arrangement and energy of its particles.
 :::
 
 ### 5.3 Heating and Cooling Curves
@@ -540,21 +846,21 @@ A heating curve for a pure substance shows:
 
 The plateau occurs because the energy supplied is used to overcome the forces between particles
 (rather than increase their kinetic energy). The temperature remains constant until all the
-Substance has changed state.
+substance has changed state.
 
 **Worked Example.** Explain why the temperature stays constant during the boiling of water.
 
 During boiling, the energy supplied is used to break the hydrogen bonds and other intermolecular
 Forces between water molecules, converting liquid water to water vapour. This energy does not
-Increase the kinetic energy of the molecules, so the temperature remains constant at
+increase the kinetic energy of the molecules, so the temperature remains constant at
 $100^{\circ}\mathrm{C$ until all the water has boiled.
 
 **Worked Example.** Explain the shape of a cooling curve for a pure substance.
 
 As the substance cools, its temperature decreases steadily. When the freezing point is reached, a
-Plateau appears because energy is released as particles form bonds and arrange into a solid lattice.
+plateau appears because energy is released as particles form bonds and arrange into a solid lattice.
 The temperature remains constant until all the substance has solidified. The temperature then
-Decreases again as the solid continues to cool.
+decreases again as the solid continues to cool.
 
 ### 5.4 The Kinetic Theory and States of Matter
 
@@ -564,27 +870,33 @@ Positions and slide past each other.
 
 In a liquid, particles can move freely but remain in close contact. As temperature increases
 Further, the particles gain more kinetic energy. At the boiling point, they have enough energy to
-Escape the liquid entirely and become a gas.
+escape the liquid entirely and become a gas.
 
 ### 5.5 Derivation: Kinetic Energy and Temperature
 
 The average kinetic energy of gas particles is directly proportional to the absolute temperature:
 
-$$E_k = \frac{3}{2}k_BT$$
+$$
+E_k = \frac{3}{2}k_BT
+$$
 
 Where $k_B$ is the Boltzmann constant and $T$ is the absolute temperature in Kelvin. This
-Relationship explains why increasing temperature causes particles to move faster, collide more
-Frequently, and exert greater pressure.
+relationship explains why increasing temperature causes particles to move faster, collide more
+frequently, and exert greater pressure.
 
 ## 6. Intermolecular Forces
 
 ### 6.1 Types of Intermolecular Force
+
+<div class="table-wrap">
 
 | Type                    | Strength | Between                               |
 | ----------------------- | -------- | ------------------------------------- |
 | London (van der Waals)  | Weak     | All molecules                         |
 | Permanent dipole-dipole | Moderate | Polar molecules                       |
 | Hydrogen bonding        | Strong   | Molecules with H bonded to N, O, or F |
+
+</div>
 
 **London dispersion forces** arise from temporary, instantaneous dipoles caused by the uneven
 Distribution of electrons within a molecule at any given instant. These temporary dipoles induce
@@ -596,7 +908,7 @@ Charge (a permanent dipole). These are stronger than London forces but weaker th
 
 **Hydrogen bonds** are the strongest type of intermolecular force. They occur when hydrogen is
 Covalently bonded to a highly electronegative atom (N, O, or F), creating a large dipole. The
-Partially positive hydrogen can then interact with a lone pair on a neighbouring N, O, or F atom.
+partially positive hydrogen can then interact with a lone pair on a neighbouring N, O, or F atom.
 
 ### 6.2 Predicting Boiling Points
 
@@ -604,12 +916,12 @@ Substances with stronger intermolecular forces have higher boiling points.
 
 **Example:** Water has a much higher boiling point than hydrogen sulfide, despite H$_2$S having a
 Larger relative molecular mass. This is because water forms hydrogen bonds, which are much stronger
-Than the dipole-dipole forces in H$_2$S.
+than the dipole-dipole forces in H$_2$S.
 
 **Example:** Explain why the boiling point increases from F$_2$ to Cl$_2$ to Br$_2$ to I$_2$.
 
 All four are simple covalent molecules with only London dispersion forces between them. As the
-Number of electrons increases down the group, the electron cloud becomes more polarizable, London
+number of electrons increases down the group, the electron cloud becomes more polarizable, London
 Forces become stronger, and more energy is needed to separate the molecules. Hence the boiling point
 Increases.
 
@@ -623,17 +935,17 @@ Bonding is much stronger than London forces, so more energy is required to boil 
 Reasoning: F$_2$Cl$_2$Br$_2$.
 
 F$_2$ &lt; Cl$_2$ &lt; Br$_2$. All three have only London dispersion forces. As the number of
-Electrons increases (F$_2$: 18, Cl$_2$: 34, Br$_2$: 70), London forces become stronger, requiring
-More energy to overcome. Hence the boiling point increases.
+electrons increases (F$_2$: 18, Cl$_2$: 34, Br$_2$: 70), London forces become stronger, requiring
+more energy to overcome. Hence the boiling point increases.
 
 **Worked Example.** Explain why ethanol (C$_2$H$_5$OH, boiling point $78^{\circ}\mathrm{C$) has a
 Much higher boiling point than dimethyl ether (CH$_3$OCH$_3$Boiling point $-24^{\circ}\mathrm{C$)
 Despite both having the molecular formula C$_2$H$_6$O.
 
 Both molecules have the same number of electrons, so London forces are similar. However, ethanol can
-Form hydrogen bonds (it has an O-H group), while dimethyl ether cannot (it has no O-H group; the
-Oxygen is bonded to two carbons). The hydrogen bonds in ethanol require much more energy to
-Overcome, giving it a significantly higher boiling point.
+form hydrogen bonds (it has an O-H group), while dimethyl ether cannot (it has no O-H group; the
+oxygen is bonded to two carbons). The hydrogen bonds in ethanol require much more energy to
+overcome, giving it a significantly higher boiling point.
 
 ### 6.3 Nanoparticles
 
@@ -659,15 +971,21 @@ The nanoparticle has a surface area to volume ratio about $10^7$ times larger.
 
 For a cube of side length $s$:
 
-$$\mathrm{Surface area = 6s^2, \quad \mathrm{Volume = s^3$$
+$$
+\mathrm{Surface area = 6s^2, \quad \mathrm{Volume = s^3
+$$
 
-$$\frac{\mathrm{Surface area}{\mathrm{Volume} = \frac{6s^2}{s^3} = \frac{6}{s}$$
+$$
+\frac{\mathrm{Surface area}{\mathrm{Volume} = \frac{6s^2}{s^3} = \frac{6}{s}
+$$
 
 The ratio is inversely proportional to the side length. As $s$ decreases, the ratio increases. This
-Is why nanoparticles have such large surface area to volume ratios: their small size means a large
+is why nanoparticles have such large surface area to volume ratios: their small size means a large
 Proportion of atoms are on the surface, available for catalysis or other reactions.
 
 ### 6.5 Summary: Intermolecular Forces and Boiling Points
+
+<div class="table-wrap">
 
 | Substance | Molar Mass (g/mol) | IMF Type               | Boiling Point ($^{\circ}\mathrm{C$) |
 | --------- | ------------------ | ---------------------- | ----------------------------------- |
@@ -680,6 +998,8 @@ Proportion of atoms are on the surface, available for catalysis or other reactio
 | Cl$_2$    | 71                 | London only            | -34                                 |
 | Br$_2$    | 160                | London only            | 59                                  |
 | I$_2$     | 254                | London only            | 184                                 |
+
+</div>
 
 This table demonstrates two key principles: hydrogen bonding produces anomalously high boiling
 Points compared to London forces, and London forces increase with molar mass.
@@ -809,7 +1129,7 @@ Draw dot-cross diagrams for (a) magnesium oxide ($\mathrm{MgO$) and (b) carbon d
 <details>
 <summary>Answer</summary>
 
-(a) $\mathrm{MgO$: $\mathrm{Mg$ donates 2 electrons (shown as x) to $\mathrm{O$Forming
+(a) $\mathrm{MgO$: $\mathrm{Mg$ donates 2 electrons (shown as x) to $\mathrm{O$ Forming
 $\mathrm{Mg^{2+}$ and $\mathrm{O^{2-}$. The diagram shows the oxide ion with 8 electrons (6 of its
 own + 2 from Mg) and the magnesium ion with none in its outer shell.
 
@@ -898,16 +1218,6 @@ the appropriate terminology.
 Multi-step problems in Bonding often combine two or more concepts. Break the problem down: identify
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
-
-```mermaid
-flowchart TD
-    A[2_Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

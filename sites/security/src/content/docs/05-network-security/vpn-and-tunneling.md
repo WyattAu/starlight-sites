@@ -29,12 +29,16 @@ The three core functions are:
 
 ### VPN Types
 
+<div class="table-wrap">
+
 | Type          | Layer    | Use Case                          | Example                  |
 | ------------- | -------- | --------------------------------- | ------------------------ |
 | Remote access | L3 (IP)  | Employees connecting to corporate | WireGuard, OpenVPN       |
 | Site-to-site  | L3 (IP)  | Connecting office networks        | IPsec, WireGuard         |
 | SSL/TLS VPN   | L7 (app) | Browser-based access              | OpenVPN (TLS mode)       |
 | SSH tunneling | L7 (app) | Ad-hoc port forwarding            | SSH local/remote/dynamic |
+
+</div>
 
 ## WireGuard
 
@@ -109,11 +113,15 @@ The `AllowedIPs` directive is the routing decision point:
 
 WireGuard is significantly faster than OpenVPN and IPsec:
 
+<div class="table-wrap">
+
 | Protocol  | Throughput (approx) | CPU Usage | Code Size | Handshake Time |
 | --------- | ------------------- | --------- | --------- | -------------- |
 | WireGuard | Near line rate      | Very low  | ~4000 LOC | ~1 RTT         |
 | OpenVPN   | 100-600 Mbps        | Moderate  | ~100K LOC | 2-4 RTTs       |
 | IPsec     | 200-800 Mbps        | Moderate  | ~400K LOC | 2 RTTs         |
+
+</div>
 
 ```bash
 # Enable WireGuard
@@ -171,10 +179,14 @@ alice : EAP "alice_password"
 
 ### IPsec Modes
 
+<div class="table-wrap">
+
 | Mode      | Encapsulation                 | Use Case                        |
 | --------- | ----------------------------- | ------------------------------- |
 | Transport | Original IP header preserved  | Host-to-host communication      |
 | Tunnel    | Entire IP packet encapsulated | Site-to-site, remote access VPN |
+
+</div>
 
 ### SA and SPI
 
@@ -392,6 +404,8 @@ Every node connects to every other node. Scales as O(n^2) with the number of nod
 
 ## VPN vs Zero-Trust
 
+<div class="table-wrap">
+
 | Aspect          | VPN                            | Zero-Trust                   |
 | --------------- | ------------------------------ | ---------------------------- |
 | Network model   | Perimeter-based                | Identity-based               |
@@ -399,6 +413,8 @@ Every node connects to every other node. Scales as O(n^2) with the number of nod
 | Trust           | Trusted once connected         | Never trust, always verify   |
 | Scalability     | Hub-and-spoke bottlenecks      | Scales per service           |
 | User experience | Connect, then access all       | Authenticate per application |
+
+</div>
 
 ### When to Use Each
 
@@ -533,6 +549,8 @@ keepalive 10 120  # ping every 10s, restart after 120s silence
 
 ## Commercial vs Self-Hosted
 
+<div class="table-wrap">
+
 | Solution          | Type        | Ease of Use | Privacy | Cost             |
 | ----------------- | ----------- | ----------- | ------- | ---------------- |
 | WireGuard         | Self-hosted | Medium      | Full    | Server cost      |
@@ -540,6 +558,8 @@ keepalive 10 120  # ping every 10s, restart after 120s silence
 | Tailscale         | Managed WG  | Easy        | Partial | Free tier + paid |
 | Headscale         | Self-hosted | Medium      | Full    | Server cost      |
 | Cloudflare Tunnel | Managed     | Easy        | Partial | Free tier + paid |
+
+</div>
 
 ### Tailscale
 
@@ -602,17 +622,6 @@ Reduce the MTU on the VPN interface to 1360-1420 and test.
 WireGuard private keys must be unique per peer. Reusing keys across servers or clients causes
 Routing conflicts and security vulnerabilities. Generate a new key pair for every peer.
 
-
-```mermaid
-flowchart TD
-    A[Vpn And Tunneling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to vpn and tunneling, including key
@@ -626,13 +635,7 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

@@ -17,17 +17,6 @@ description: 'The data link layer receives a bit stream and divides it into mana
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[3_Data Link Layer] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The data link layer transforms unreliable physical transmission into reliable frame delivery between adjacent nodes. Framing marks where each message begins and ends in the continuous bit stream. Error detection uses redundant bits to catch corruption, while error correction like Hamming codes can fix single-bit errors automatically. MAC addresses provide local addressing, and protocols like CSMA/CD manage shared access to the physical medium. The layer bridges the gap between raw signals and structured data.
@@ -42,7 +31,7 @@ The data link layer receives a bit stream and divides it into manageable **frame
 2. **Flag bytes:** Special flag byte (`0x7E` for HDLC) marks start/end. Byte stuffing with escape
    byte (`0x7D`) prevents ambiguity.
 3. **Bit-oriented flags:** Flag pattern `01111110`. Bit stuffing: insert `0` after five consecutive
-   `1`S in the data.
+   `1`s in the data.
 4. **Clock-based:** Manchester encoding provides self-clocking and frame boundaries.
 
 ### 3.2 Error Detection and Correction
@@ -122,9 +111,13 @@ $r = 3$).
 
 **Step 2:** Perform modulo-2 (XOR) polynomial division.
 
-$$M(x) = x^5 + x^4 + x^2, \quad G(x) = x^3 + x + 1$$
+$$
+M(x) = x^5 + x^4 + x^2, \quad G(x) = x^3 + x + 1
+$$
 
-$$M_{\mathrm{aug}(x) = x^8 + x^7 + x^5}$$
+$$
+M_{\mathrm{aug}(x) = x^8 + x^7 + x^5}
+$$
 
 Division steps:
 
@@ -156,9 +149,9 @@ remainder 0, Confirming no error.
 
 **ALOHA.** Transmit whenever ready; if collision, wait random time and retransmit.
 
-- **Pure ALOHA:** Throughput $S = G e^{-2G}$Maximum at $G = 0.5$:
+- **Pure ALOHA:** Throughput $S = G e^{-2G}$ Maximum at $G = 0.5$:
   $S_{\max} = 1/(2e) \approx 18.4\%$.
-- **Slotted ALOHA:** Time divided into slots; transmit at slot boundary. $S = G e^{-G}$Maximum at
+- **Slotted ALOHA:** Time divided into slots; transmit at slot boundary. $S = G e^{-G}$ Maximum at
   $G = 1$: $S_{\max} = 1/e \approx 36.8\%$.
 
 **CSMA (Carrier Sense Multiple Access).** Listen before transmitting.
@@ -178,10 +171,12 @@ simultaneously; If collision detected, send jam signal and wait random backoff.
 
 **CSMA/CD collision analysis.** The sender must still be transmitting when a collision signal
 returns From the farthest point on the network. The worst-case round-trip propagation time is
-$2\tau$Where $\tau = d/v$ ($d$ is the maximum cable length, $v$ is the signal propagation speed,
+$2\tau$ Where $\tau = d/v$ ($d$ is the maximum cable length, $v$ is the signal propagation speed,
 $2 \times 10^8$ m/s in copper). The minimum frame size is therefore:
 
-$$L_{\min} = R \times 2\tau = \frac{2Rd}{v}$$
+$$
+L_{\min} = R \times 2\tau = \frac{2Rd}{v}
+$$
 
 Where $R$ is the data rate.
 
@@ -197,7 +192,9 @@ Worst case: collision occurs at the far end, signal must travel back. Total time
 $2\tau = 20\;\mu\mathrm{s}$.
 
 The sender must still be transmitting after $2\tau$:
-$$L_{\min} = R \times 2\tau = 100 \times 10^6 \times 20 \times 10^{-6} = 2000\;\mathrm{bits} = 250\;\mathrm{bytes}$$
+$$
+L_{\min} = R \times 2\tau = 100 \times 10^6 \times 20 \times 10^{-6} = 2000\;\mathrm{bits} = 250\;\mathrm{bytes}
+$$
 
 **Answer:** The minimum frame size is 250 bytes (2000 bits). Any frame shorter than this risks an
 Undetected collision.
@@ -209,6 +206,8 @@ Transmitting (half-duplex radio). Uses RTS/CTS handshake and inter-frame spacing
 
 **Wi-Fi (IEEE 802.11).** Wireless LAN standards operating in the 2.4 GHz, 5 GHz, and 6 GHz bands.
 
+<div class="table-wrap">
+
 | Standard | Frequency | Max PHY Rate | Channel Width |
 | -------- | --------- | ------------ | ------------- |
 | 802.11a  | 5 GHz     | 54 Mbps      | 20 MHz        |
@@ -217,6 +216,8 @@ Transmitting (half-duplex radio). Uses RTS/CTS handshake and inter-frame spacing
 | 802.11n  | 2.4/5 GHz | 600 Mbps     | 20/40 MHz     |
 | 802.11ac | 5 GHz     | 6.93 Gbps    | 20-160 MHz    |
 | 802.11ax | 2.4/5/6   | 9.6 Gbps     | 20-160 MHz    |
+
+</div>
 
 **Key 802.11 mechanisms:**
 
@@ -259,6 +260,8 @@ void wifi_send(frame *f) {
 
 **Frame format:**
 
+<div class="table-wrap">
+
 | Field    | Size      | Description                         |
 | -------- | --------- | ----------------------------------- |
 | Preamble | 7 bytes   | Alternating 1s and 0s for sync      |
@@ -269,11 +272,15 @@ void wifi_send(frame *f) {
 | Payload  | 46-1500 B | Data                                |
 | FCS      | 4 bytes   | Frame check sequence (CRC-32)       |
 
+</div>
+
 **MAC address:** 48-bit globally unique address. First 24 bits: OUI (organisation). Last 24 bits:
 Device-specific. Broadcast: `FF:FF:FF:FF:FF:FF`. Multicast: least significant bit of the first Octet
 is 1.
 
 **Ethernet evolution:**
+
+<div class="table-wrap">
 
 | Standard     | Speed    | Medium            | Max Segment |
 | ------------ | -------- | ----------------- | ----------- |
@@ -286,9 +293,13 @@ is 1.
 | 100GBASE-SR4 | 100 Gbps | Multi-mode fibre  | 70-100 m    |
 | 400GBASE-DR4 | 400 Gbps | Single-mode fibre | 500 m       |
 
+</div>
+
 **Theorem 3.3 (CSMA/CD efficiency).** The maximum efficiency of CSMA/CD is:
 
-$$\eta = \frac{1}{1 + 5a}$$
+$$
+\eta = \frac{1}{1 + 5a}
+$$
 
 Where $a = \tau / T_f$ is the ratio of propagation delay to frame transmission time.
 
@@ -299,7 +310,7 @@ $\eta = T_f / (T_f + 5\tau) = 1 / (1 + 5a)$. $\blacksquare$
 
 When $a \ll 1$ (large frames or short distances), efficiency approaches 1. When $a$ approaches 1
 (short frames or long distances), efficiency drops significantly. This is why minimum frame sizes
-Are imposed.
+are imposed.
 
 ### 3.5 VLANs
 
@@ -308,12 +319,16 @@ A **Virtual LAN (VLAN)** logically segments a physical LAN into separate broadca
 
 **802.1Q frame tagging.** A 4-byte tag is inserted after the source MAC address:
 
+<div class="table-wrap">
+
 | Field         | Size    | Description                      |
 | ------------- | ------- | -------------------------------- |
 | TPID          | 16 bits | Tag Protocol Identifier (0x8100) |
 | PCP           | 3 bits  | Priority Code Point (802.1p)     |
 | DEI           | 1 bit   | Drop Eligible Indicator          |
 | VLAN ID (VID) | 12 bits | VLAN identifier (1-4094)         |
+
+</div>
 
 **Trunking.** Links between switches that carry traffic for multiple VLANs. Frames are tagged with
 Their VLAN ID on trunk links.
@@ -336,9 +351,11 @@ Traffic.
 
 _Proof._ Circuit switching reserves the peak rate per connection. Packet switching uses statistical
 Multiplexing: the sum of peak rates can exceed link capacity as long as the average aggregate rate
-Does not. $\blacksquare$
+does not. $\blacksquare$
 
 **Switch forwarding methods.** A layer-2 switch can forward frames using two strategies:
+
+<div class="table-wrap">
 
 | Aspect             | Store-and-Forward                 | Cut-Through                         |
 | ------------------ | --------------------------------- | ----------------------------------- |
@@ -348,30 +365,40 @@ Does not. $\blacksquare$
 | Memory requirement | Must buffer full frame            | Only needs header buffer            |
 | Use case           | General-purpose switching         | Low-latency environments            |
 
+</div>
+
 Where $L$ is the full frame length, $L_h$ is the header length (14 bytes for Ethernet), $R$ is the
 Link rate, and $d_{\mathrm{prop}}$ is the propagation delay.
 
 For a path through $n$ switches:
 
-$$\mathrm{Store}\mathrm{-and\mathrm}{-forward\;latency} = n \cdot \frac{L}{R} + d_{\mathrm{total}}$$
+$$
+\mathrm{Store}\mathrm{-and\mathrm}{-forward\;latency} = n \cdot \frac{L}{R} + d_{\mathrm{total}}
+$$
 
-$$\mathrm{Cut}\mathrm{-through}\;latency} = \frac{L}{R} + (n-1) \cdot \frac{L_h}{R} + d_{\mathrm{total}$$
+$$
+\mathrm{Cut}\mathrm{-through}\;latency} = \frac{L}{R} + (n-1) \cdot \frac{L_h}{R} + d_{\mathrm{total}
+$$
 
 <details>
 <summary>Worked Example: Switching Latency Comparison</summary>
 
-A 1500-byte frame traverses 3 store-and-forward switches on 1 Gbps links. Each link has 5 $\mu$S
+A 1500-byte frame traverses 3 store-and-forward switches on 1 Gbps links. Each link has 5 $\mu$ S
 Propagation delay.
 
 **Store-and-forward:**
 
-$$\mathrm{Latency} = 3 \times \frac{1500 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 36\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 51\;\mu\mathrm{s}$$
+$$
+\mathrm{Latency} = 3 \times \frac{1500 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 36\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 51\;\mu\mathrm{s}
+$$
 
 **Cut-through:**
 
-$$\mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 12\;\mu\mathrm{s} + 0.224\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 27.2\;\mu\mathrm{s}$$
+$$
+\mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 12\;\mu\mathrm{s} + 0.224\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 27.2\;\mu\mathrm{s}
+$$
 
-**Answer:** Cut-through saves approximately 23.8 $\mu$S (47% reduction) for this scenario, but it
+**Answer:** Cut-through saves approximately 23.8 $\mu$ S (47% reduction) for this scenario, but it
 Cannot detect corrupted frames before forwarding them.
 
 </details>

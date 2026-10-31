@@ -24,7 +24,7 @@ Failures).
 
 Panics are for unrecoverable programming errors, the kind of bugs where the program cannot continue
 Correctly. When a panic occurs, the runtime unwinds the stack (by default), calling destructors for
-All live values, and then aborts the thread (or the process in `panic = "abort"` mode).
+all live values, and then aborts the thread (or the process in `panic = "abort"` mode).
 
 ```rust
 fn main() {
@@ -37,7 +37,7 @@ Common panic sources:
 - `unwrap()` on `None` or `Err`
 - Array index out of bounds
 - Integer overflow in debug mode
-- `assert!``assert_eq!``assert_ne!` failures
+- `assert!`, `assert_eq!`, `assert_ne!` failures
 - Calling `panic!` directly
 - Division by zero
 
@@ -125,7 +125,7 @@ x.and_then(|n| {
 ```
 
 `map` transforms the inner value if `Some`Passes through `None`. `and_then` (also known as `flatMap`
-or `bind`) chains operations that may fail, if the first operation returns `None`The Entire chain
+or `bind`) chains operations that may fail, if the first operation returns `None`. The Entire chain
 short-circuits.
 
 ### `unwrap_or` and `unwrap_or_else`
@@ -141,7 +141,7 @@ x.unwrap_or_else(|| {
 ```
 
 Use `unwrap_or_else` when the default value is expensive to compute. The closure is called lazily
-Only when the `Option` is `None`.
+only when the `Option` is `None`.
 
 ### `ok_or` and `ok_or_else`
 
@@ -159,7 +159,7 @@ let r: Result<i32, String> = y.ok_or_else(|| {
 });
 ```
 
-### `filter``zip``unzip`
+### `filter`, `zip`, `unzip`
 
 ```rust
 let x: Option<i32> = Some(5);
@@ -175,7 +175,7 @@ let (first, second): (Option<i32>, Option<i32>) = pair.unzip();
 // first == Some(1), second == Some(2)
 ```
 
-### `is_some``is_none``as_ref``as_mut`
+### `is_some`, `is_none`, `as_ref`, `as_mut`
 
 ```rust
 let x: Option<String> = Some("hello".to_string());
@@ -188,11 +188,11 @@ let m: Option<&mut String> = x.as_mut(); // Some(&mut String)
 ```
 
 `as_ref` borrows the `Option` as `Option<&T>` without moving the inner value. `as_mut` does the same
-For mutable borrows.
+for mutable borrows.
 
 ### Iterating Over `Option`
 
-`Option` implements `IntoIterator`So you can use it in `for` loops:
+`Option` implements `IntoIterator`. So you can use it in `for` loops:
 
 ```rust
 let x: Option<i32> = Some(5);
@@ -237,7 +237,7 @@ let result = parse("abc").and_then(validate); // Err("not a number")
 let result = parse("-5").and_then(validate); // Err("negative")
 ```
 
-### `unwrap_or``unwrap_or_else`
+### `unwrap_or`, `unwrap_or_else`
 
 ```rust
 let r: Result<i32, &str> = Err("failed");
@@ -304,7 +304,7 @@ fn read_config(path: &str) -> Result<Config, Box<dyn std::error::Error>> {
 
 ### `?` with `Option`
 
-The `?` operator also works with `Option`. In a function returning `Option<T>``?` propagates `None`:
+The `?` operator also works with `Option`. In a function returning `Option<T>`, `?` propagates `None`:
 
 ```rust
 fn first_even(nums: &[i32]) -> Option<i32> {
@@ -316,7 +316,7 @@ fn first_even(nums: &[i32]) -> Option<i32> {
 ### `?` and `From` Trait Conversion
 
 The `?` operator automatically converts errors using the `From` trait. If the function returns
-`Result<T, E>`Then `?` on a `Result<T2, E2>` will call `E2::from(e)` to convert the error, Provided
+`Result<T, E>`. Then `?` on a `Result<T2, E2>` will call `E2::from(e)` to convert the error, Provided
 `impl From<E2> for E` exists:
 
 ```rust
@@ -334,7 +334,7 @@ fn read_file_boxed(path: &str) -> Result<String, Box<dyn std::error::Error>> {
 }
 ```
 
-The conversion chain: `io::Error` implements `Into<Box<dyn std::error::Error>>`So `?` can convert
+The conversion chain: `io::Error` implements `Into<Box<dyn std::error::Error>>`. So `?` can convert
 `io::Error` into `Box<dyn Error>` automatically.
 
 ### Early Return with `?` in `main`
@@ -349,7 +349,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 ```
 
 Since Rust 1.26, `main` can return `Result`. The runtime will print the error and set the exit code
-To 1 on `Err`.
+to 1 on `Err`.
 
 ### `?` in `Option` vs `Result` Functions
 
@@ -512,12 +512,16 @@ fn read_config(path: &str) -> Result<Config> {
 
 ### `anyhow` vs `thiserror`
 
+<div class="table-wrap">
+
 | Use `anyhow` for                  | Use `thiserror` for                              |
 | --------------------------------- | ------------------------------------------------ |
 | Application binaries              | Library crates                                   |
 | Quick prototyping                 | Public APIs with typed errors                    |
 | Functions with many error sources | Error types that callers need to match on        |
 | Scripts and CLIs                  | When the caller needs to distinguish error kinds |
+
+</div>
 
 A common pattern: use `thiserror` in your library crate to define precise error types, and use
 `anyhow` in the application crate that consumes the library.
@@ -843,22 +847,12 @@ fn handle_error(err: &dyn Error) {
 
 9. **Panicking in library code.** Libraries should never panic on expected failure modes. Panics are
    for bugs (internal invariant violations). If a library function receives invalid input, it should
-   return `Err`Not panic. The one exception is `debug_assert!` which is compiled out in release
+   return `Err`. Not panic. The one exception is `debug_assert!` which is compiled out in release
    mode.
 
 10. **Using `match` instead of `?` for error propagation.** Writing explicit `match` blocks for
     every `Result` is verbose and error-prone. The `?` operator is the idiomatic way to propagate
     errors. Use `match` only when you need to handle specific error variants differently.
-
-```mermaid
-flowchart TD
-    A[Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -872,9 +866,6 @@ implementation, and key applications.
 - traits and generics
 - error handling (Result, Option)
 - concurrency with threads and async
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

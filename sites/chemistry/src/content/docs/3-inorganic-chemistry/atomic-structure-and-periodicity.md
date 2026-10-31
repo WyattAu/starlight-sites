@@ -25,6 +25,8 @@ categories:
 
 Each atomic orbital is characterized by four quantum numbers:
 
+<div class="table-wrap">
+
 | Quantum Number | Symbol   | Allowed Values                   |
 | -------------- | -------- | -------------------------------- |
 | Principal      | $n$      | $1, 2, 3, \ldots$                |
@@ -32,13 +34,19 @@ Each atomic orbital is characterized by four quantum numbers:
 | Magnetic       | $m_\ell$ | $-\ell, \ldots, 0, \ldots, \ell$ |
 | Spin           | $m_s$    | $+\frac{1}{2}, -\frac{1}{2}$     |
 
+</div>
+
 Orbital types: $\ell = 0$ ($s$), $\ell = 1$ ($p$), $\ell = 2$ ($d$), $\ell = 3$ ($f$).
 
 ### 1.2 Orbital Shapes and Nodes
 
 **Theorem 1 (Node Count):** Total nodes $= n - 1$.
 
-$$\text{Radial nodes} = n - \ell - 1, \quad \text{Angular nodes} = \ell$$
+$$
+\text{Radial nodes} = n - \ell - 1, \quad \text{Angular nodes} = \ell
+$$
+
+<div class="table-wrap">
 
 | Orbital | Radial Nodes | Angular Nodes | Shape                  |
 | ------- | ------------ | ------------- | ---------------------- |
@@ -47,6 +55,8 @@ $$\text{Radial nodes} = n - \ell - 1, \quad \text{Angular nodes} = \ell$$
 | 2p      | 0            | 1             | Dumbbell               |
 | 3d      | 0            | 2             | Cloverleaf             |
 | 4f      | 0            | 3             | Complex multi-lobed    |
+
+</div>
 
 ### 1.3 The Radial Distribution Function
 
@@ -65,12 +75,14 @@ due to repulsion by other electrons.
 
 ## 2. Effective Nuclear Charge
 
-### 2.1 Slater"s Rules
+### 2.1 Slater's Rules
 
 **Theorem 2 (Slater's Rules):** The effective nuclear charge $Z_{\text{eff}}$ experienced by an
 electron is:
 
-$$Z_{\text{eff}} = Z - S$$
+$$
+Z_{\text{eff}} = Z - S
+$$
 
 where $Z$ is the atomic number and $S$ is the shielding constant.
 
@@ -89,9 +101,13 @@ $1s^2\,2s^2\,2p^6\,3s^2\,3p^5$).
 Same group (other 3p electrons): $4 \times 0.35 = 1.40$ $n - 1$ shell (3s + 2s2p):
 $2 \times 0.85 + 8 \times 0.85 = 8.50$ $n - 2$ and below (1s): $2 \times 1.00 = 2.00$
 
-$$S = 1.40 + 8.50 + 2.00 = 11.90$$
+$$
+S = 1.40 + 8.50 + 2.00 = 11.90
+$$
 
-$$Z_{\text{eff}} = 17 - 11.90 = 5.10$$
+$$
+Z_{\text{eff}} = 17 - 11.90 = 5.10
+$$
 
 $\blacksquare$
 
@@ -113,7 +129,9 @@ element (covalent radius) or nearest neighbors in a metallic crystal (metallic r
 - **Across a period (left to right):** Atomic radius decreases ($Z_{\text{eff}}$ increases, pulling
   electrons closer).
 
-$$r \propto \frac{n^2}{Z_{\text{eff}}}$$
+$$
+r \propto \frac{n^2}{Z_{\text{eff}}}
+$$
 
 **Example 2:** Atomic radii (pm): Na (186) > Mg (160) > Al (143) > Si (117) > P (110) > S (104) > Cl
 (99) > Ar (71)
@@ -125,7 +143,9 @@ $\blacksquare$
 **Definition 5 (First Ionization Energy):** The energy required to remove the outermost electron
 from a gaseous atom:
 
-$$\text{X}(g) \to \text{X}^+(g) + e^- \quad \Delta H = \text{IE}_1$$
+$$
+\text{X}(g) \to \text{X}^+(g) + e^- \quad \Delta H = \text{IE}_1
+$$
 
 **Trends:**
 
@@ -138,7 +158,9 @@ $$\text{X}(g) \to \text{X}^+(g) + e^- \quad \Delta H = \text{IE}_1$$
 - $\text{IE}(\text{N}) > \text{IE}(\text{O})$: 2p$^4$ has paired electrons (repulsion).
 
 **Successive ionization energies:** Large jumps indicate the removal of core electrons:
-$$\text{IE}_1 < \text{IE}_2 < \text{IE}_3 \ll \text{IE}_4$$
+$$
+\text{IE}_1 < \text{IE}_2 < \text{IE}_3 \ll \text{IE}_4
+$$
 
 The jump from $\text{IE}_3$ to $\text{IE}_4$ for aluminum indicates removal from the $n = 2$ shell.
 
@@ -147,7 +169,9 @@ The jump from $\text{IE}_3$ to $\text{IE}_4$ for aluminum indicates removal from
 **Definition 6 (Electron Affinity):** The energy released when an electron is added to a gaseous
 atom:
 
-$$\text{X}(g) + e^- \to \text{X}^-(g) \quad \Delta H = \text{EA}$$
+$$
+\text{X}(g) + e^- \to \text{X}^-(g) \quad \Delta H = \text{EA}
+$$
 
 **Trends:**
 
@@ -167,11 +191,15 @@ toward itself.
 
 **Pauling scale:** Based on bond energy differences:
 
-$$\chi_A - \chi_B = 0.102\sqrt{D_{AB} - \frac{D_{AA} + D_{BB}}{2}}$$
+$$
+\chi_A - \chi_B = 0.102\sqrt{D_{AB} - \frac{D_{AA} + D_{BB}}{2}}
+$$
 
 **Mulliken scale:** Average of ionization energy and electron affinity:
 
-$$\chi_M = \frac{\text{IE} + \text{EA}}{2}$$
+$$
+\chi_M = \frac{\text{IE} + \text{EA}}{2}
+$$
 
 (normalized to Pauling scale)
 
@@ -208,7 +236,9 @@ similar properties due to similar $Z_{\text{eff}}$/radius ratios:
 **Theorem 3 (Lanthanide Contraction):** Across the lanthanide series (La to Lu), the 4f electrons
 poorly shield the nuclear charge. Each element has a slightly smaller radius than expected:
 
-$$\text{La}^{3+} (103 \text{ pm}) > \text{Lu}^{3+} (86 \text{ pm})$$
+$$
+\text{La}^{3+} (103 \text{ pm}) > \text{Lu}^{3+} (86 \text{ pm})
+$$
 
 **Consequences:**
 
@@ -222,7 +252,9 @@ $$\text{La}^{3+} (103 \text{ pm}) > \text{Lu}^{3+} (86 \text{ pm})$$
 **Definition 10 (Inert Pair Effect):** For heavier p-block elements (particularly Group 13–15), the
 $ns^2$ electron pair is reluctant to participate in bonding, favoring lower oxidation states:
 
-$$\text{Tl}^+ > \text{Tl}^{3+}, \quad \text{Pb}^{2+} > \text{Pb}^{4+}, \quad \text{Bi}^{3+} > \text{Bi}^{5+}$$
+$$
+\text{Tl}^+ > \text{Tl}^{3+}, \quad \text{Pb}^{2+} > \text{Pb}^{4+}, \quad \text{Bi}^{3+} > \text{Bi}^{5+}
+$$
 
 **Cause:** Relativistic stabilization of the $ns$ orbital (contracted, lower in energy).
 
@@ -263,8 +295,12 @@ For $d^5$: $C(5,2) = 10$ pairs of parallel spins (maximum exchange stabilization
 When transition metals form cations, the $ns$ electrons are lost first (even though $ns$ fills
 before $(n-1)d$):
 
-$$\text{Fe}: [\text{Ar}]\,3d^6\,4s^2 \to \text{Fe}^{2+}: [\text{Ar}]\,3d^6$$
-$$\text{Fe}: [\text{Ar}]\,3d^6\,4s^2 \to \text{Fe}^{3+}: [\text{Ar}]\,3d^5$$
+$$
+\text{Fe}: [\text{Ar}]\,3d^6\,4s^2 \to \text{Fe}^{2+}: [\text{Ar}]\,3d^6
+$$
+$$
+\text{Fe}: [\text{Ar}]\,3d^6\,4s^2 \to \text{Fe}^{3+}: [\text{Ar}]\,3d^5
+$$
 
 ### 6.2 Isoelectronic Series
 
@@ -319,17 +355,6 @@ Trend: Basicity increases down a group; acidity increases across a period.
    **Fix:** Diagonal relationships are trends, not absolute rules; always consider specific
    chemistry.
 
-
-```mermaid
-flowchart TD
-    A[Atomic Structure And Periodicity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Orbital structure:** Quantum numbers $(n, \ell, m_\ell, m_s)$; nodes = $n - 1$.
@@ -380,6 +405,8 @@ Atomic structure is the foundation of all chemistry. Electrons occupy orbitals t
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                         | Site        | Link                                                               |
 | ----------------------------- | ----------- | ------------------------------------------------------------------ |
 | Quantum Chemistry             | WyattsNotes | [View](/1-physical-chemistry/quantum-chemistry/)               |
@@ -387,7 +414,9 @@ Atomic structure is the foundation of all chemistry. Electrons occupy orbitals t
 | Main-Group Chemistry          | WyattsNotes | [View](/3-inorganic-chemistry/main-group-chemistry/)            |
 | Atomic Structure, LibreTexts | LibreTexts  | [View](https://chem.libretexts.org/Bookshelves/General_Chemistry/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+</div>
+
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

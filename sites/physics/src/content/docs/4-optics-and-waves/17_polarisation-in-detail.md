@@ -21,7 +21,9 @@ description: 'The represents the polarisation state of a monochromatic plane wav
 
 The **Jones vector** represents the polarisation state of a monochromatic plane wave:
 
-$$\mathbf{E} = \begin{pmatrix} E_x \\ E_y \end{pmatrix} = \begin{pmatrix} A_x\,e^{i\delta_x} \\ A_y\,e^{i\delta_y} \end{pmatrix}$$
+$$
+\mathbf{E} = \begin{pmatrix} E_x \\ E_y \end{pmatrix} = \begin{pmatrix} A_x\,e^{i\delta_x} \\ A_y\,e^{i\delta_y} \end{pmatrix}
+$$
 
 Optical elements are represented by $2 \times 2$ matrices:
 
@@ -37,17 +39,23 @@ Optical elements are represented by $2 \times 2$ matrices:
 **Theorem 13.1.** The output of a sequence of optical elements is the product of their Jones
 matrices applied to the input Jones vector:
 
-$$\mathbf{E}_{\mathrm{out} = \mathbf{M}_n \cdots \mathbf{M}_2\,\mathbf{M}_1\,\mathbf{E}_{\mathrm{in}}}$$
+$$
+\mathbf{E}_{\mathrm{out} = \mathbf{M}_n \cdots \mathbf{M}_2\,\mathbf{M}_1\,\mathbf{E}_{\mathrm{in}}}
+$$
 
 ### 13.2 Stokes Parameters
 
 For partially polarised light, the **Stokes parameters** are:
 
-$$S_0 = |E_x|^2 + |E_y|^2, \quad S_1 = |E_x|^2 - |E_y|^2, \quad S_2 = 2\,\mathrm{Re}(E_x E_y^*), \quad S_3 = 2\,\mathrm{Im}(E_x E_y^*)$$
+$$
+S_0 = |E_x|^2 + |E_y|^2, \quad S_1 = |E_x|^2 - |E_y|^2, \quad S_2 = 2\,\mathrm{Re}(E_x E_y^*), \quad S_3 = 2\,\mathrm{Im}(E_x E_y^*)
+$$
 
 The **degree of polarisation** is
 
-$$P = \frac{\sqrt{S_1^2 + S_2^2 + S_3^2}}{S_0}$$
+$$
+P = \frac{\sqrt{S_1^2 + S_2^2 + S_3^2}}{S_0}
+$$
 
 For fully polarised light: $P = 1$. For unpolarised light: $S_1 = S_2 = S_3 = 0$.
 
@@ -59,18 +67,22 @@ Find the degree of polarisation of the transmitted light.
 <details>
 <summary>Solution</summary>
 
-At the Brewster angle $\theta_B$The reflected light for the $p$-polarisation has zero amplitude
+At the Brewster angle $\theta_B$ The reflected light for the $p$-polarisation has zero amplitude
 ($r_p = 0$). The $s$-polarisation is partially reflected with reflectance
 $R_s = ((n_1\cos\theta_i - n_2\cos\theta_t)/(n_1\cos\theta_i + n_2\cos\theta_t))^2$.
 
 For one interface, the transmitted $p$-intensity is $T_p = 1$ and the transmitted $s$-intensity is
 $T_s = 1 - R_s$. After $N$ interfaces:
 
-$$I_p^{(N)} = I_0/2, \quad I_s^{(N)} = (I_0/2)(1 - R_s)^N$$
+$$
+I_p^{(N)} = I_0/2, \quad I_s^{(N)} = (I_0/2)(1 - R_s)^N
+$$
 
 The degree of polarisation:
 
-$$P = \frac{I_p^{(N)} - I_s^{(N)}}{I_p^{(N)} + I_s^{(N)}} = \frac{1 - (1 - R_s)^N}{1 + (1 - R_s)^N}$$
+$$
+P = \frac{I_p^{(N)} - I_s^{(N)}}{I_p^{(N)} + I_s^{(N)}} = \frac{1 - (1 - R_s)^N}{1 + (1 - R_s)^N}
+$$
 
 For $N \to \infty$: $P \to 1$. This is the principle behind "pile-of-plates" polarisers. For glass
 ($n = 1.5$) at $\theta_B \approx 56.3°$:
@@ -86,6 +98,8 @@ $\blacksquare$
 
 A systematic reference for standard Jones matrices:
 
+<div class="table-wrap">
+
 | Element | Jones Matrix |
 | --------- | ------------- |
 | Linear polariser ($x$-axis) | $\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}$ |
@@ -93,6 +107,8 @@ A systematic reference for standard Jones matrices:
 | Quarter-wave plate (fast axis $x$) | $\begin{pmatrix}1 & 0 \\ 0 & i\end{pmatrix}$ |
 | Half-wave plate (fast axis $x$) | $\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}$ |
 | Rotator (angle $\theta$) | $\begin{pmatrix}\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta\end{pmatrix}$ |
+
+</div>
 
 ### 13.5 Poincaré Sphere
 
@@ -114,11 +130,15 @@ After first polariser ($0^\circ$): $\mathbf{E}_1 = \begin{pmatrix}1 \\ 0\end{pma
 
 Quarter-wave plate with fast axis at $45^\circ$: rotate to fast-axis basis, apply retardation, rotate back:
 
-$$\mathbf{E}_2 = R(-45^\circ)\begin{pmatrix}1 & 0 \\ 0 & i\end{pmatrix}R(45^\circ)\begin{pmatrix}1 \\ 0\end{pmatrix}$$
+$$
+\mathbf{E}_2 = R(-45^\circ)\begin{pmatrix}1 & 0 \\ 0 & i\end{pmatrix}R(45^\circ)\begin{pmatrix}1 \\ 0\end{pmatrix}
+$$
 
 where $R(\theta) = \begin{pmatrix}\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta\end{pmatrix}$.
 
-$$R(45^\circ)\begin{pmatrix}1 \\ 0\end{pmatrix} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -1\end{pmatrix}$$
+$$
+R(45^\circ)\begin{pmatrix}1 \\ 0\end{pmatrix} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -1\end{pmatrix}
+$$
 
 After retardation: $\frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -i\end{pmatrix}$. Rotating back: $\mathbf{E}_2 = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ i\end{pmatrix}$ (right circular).
 
@@ -138,7 +158,9 @@ The rotation angle is $\phi = \alpha L$ where $\alpha$ is the specific rotation 
 
 In the **Faraday effect**, a magnetic field along the propagation direction induces circular birefringence:
 
-$$\phi = V B L$$
+$$
+\phi = V B L
+$$
 
 where $V$ is the Verdet constant. Faraday rotation is non-reciprocal: reversing the propagation direction doubles the rotation, unlike natural optical activity which cancels upon reflection.
 
@@ -169,41 +191,10 @@ The Poincare sphere uses the normalised Stokes parameters $(S_1/S_0, S_2/S_0, S_
 - **[Geometric Optics](/4-optics-and-waves/6_geometric-optics/)**: Brewster's angle and polarisation by reflection arise from the boundary conditions in the ray optics limit.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-```mermaid
-flowchart TD
-    A[17_Polarisation In Detail] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
 Polarisation describes the direction in which light's electric field oscillates. Unpolarised light has random orientations, but passing it through a polariser selects one direction. Malus's law gives the intensity after a second polariser as proportional to the cosine squared of the angle between them. Birefringent materials split light into two polarisation components that travel at different speeds, creating phase shifts. Circular polarisation occurs when two orthogonal linear components have a quarter-cycle phase difference. Polarisation is used in LCD screens, 3D cinema, and stress analysis, where birefringent patterns reveal mechanical strain.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

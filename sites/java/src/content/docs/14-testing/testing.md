@@ -561,7 +561,7 @@ void expiredSubscriptionDeniesAccess() {
 
 ### Test Fixtures
 
-Shared test data and setup using `@BeforeAll``@BeforeEach`Or test utility classes:
+Shared test data and setup using `@BeforeAll`, `@BeforeEach` or test utility classes:
 
 ```java
 class OrderProcessorTest {
@@ -700,6 +700,8 @@ tasks.check {
 
 ### Coverage Metrics
 
+<div class="table-wrap">
+
 | Metric                   | Description                                           |
 | ------------------------ | ----------------------------------------------------- |
 | **Line coverage**        | Percentage of source lines exercised by tests         |
@@ -708,8 +710,10 @@ tasks.check {
 | **Class coverage**       | Percentage of classes with at least one method called |
 | **Instruction coverage** | Percentage of bytecode instructions executed          |
 
+</div>
+
 Correctness. A test that calls a method with wrong inputs and asserts wrong values still contributes
-To coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
+to coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
 Untested code, not as a target to gamify.
 
 ## Flaky Tests
@@ -963,9 +967,6 @@ implementation, and key applications.
 - transaction processing (ACID)
 - NoSQL and distributed databases
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Testing is the practice of verifying that code behaves as expected. Unit tests check individual methods in isolation, integration tests verify how components work together, and end-to-end tests validate complete user workflows. JUnit 5 provides annotations like @Test and @BeforeEach to structure tests, while assertions like assertEquals verify outcomes. Mocking isolates the unit under test by replacing collaborators with controlled fakes.
@@ -974,7 +975,7 @@ Testing is the practice of verifying that code behaves as expected. Unit tests c
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-:::## Cross-References
+## Cross-References
 
 - **[Site Home](../../):** Main landing page for Java notes.
 - **[Java Basics](/flashcards-java-basics/):** Fundamental Java concepts including types and control flow.

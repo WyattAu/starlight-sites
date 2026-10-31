@@ -27,7 +27,7 @@ Dart runs on a **single-threaded event loop** with an isolated memory model. Unl
 Threads (Java, C++, Rust), Dart uses **event-driven concurrency**, the single thread processes
 Events from a queue, interleaving async operations without blocking.
 
-This design is fundamental to Flutter"s architecture: the UI must remain responsive (60 fps) while
+This design is fundamental to Flutter's architecture: the UI must remain responsive (60 fps) while
 Performing I/O (network requests, file reads, database queries). If any operation blocks the thread,
 The entire UI freezes.
 
@@ -48,7 +48,7 @@ flowchart TD
 ## Futures
 
 A `Future<T>` represents a value that will be available at some point in the future, either a value
-Of type `T` or an error. It is Dart's equivalent of JavaScript's `Promise` or Rust's `Future`.
+of type `T` or an error. It is Dart's equivalent of JavaScript's `Promise` or Rust's `Future`.
 
 ### Creating Futures
 
@@ -192,10 +192,14 @@ JavaScript's `Observable`.
 
 ### Stream Types
 
+<div class="table-wrap">
+
 | Type                    | Description                                                    | Use Case                                   |
 | ----------------------- | -------------------------------------------------------------- | ------------------------------------------ |
 | **Single subscription** | One listener only; events are buffered if no listener exists   | File I/O, HTTP response body               |
 | **Broadcast**           | Multiple listeners; events are discarded if no listener exists | UI events, sensor data, WebSocket messages |
+
+</div>
 
 ```dart
 // Creating a single-subscription stream
@@ -348,16 +352,20 @@ final result = await compute(expensiveFunction, inputData);
 
 :::caution
 Between isolates. For large data transfers, use `Isolate.exit()` (Dart 2.19+) to transfer ownership
-Instead of copying.
+instead of copying.
 
 ## Event Loop Priority
 
 Dart's event loop processes events in this order:
 
+<div class="table-wrap">
+
 | Priority    | Queue           | Description                                          |
 | ----------- | --------------- | ---------------------------------------------------- |
 | 1 (highest) | Microtask queue | `scheduleMicrotask``Future.then``await` continuation |
 | 2           | Event queue     | I/O callbacks, timers, gestures, isolates            |
+
+</div>
 
 ```dart
 // Execution order demonstration

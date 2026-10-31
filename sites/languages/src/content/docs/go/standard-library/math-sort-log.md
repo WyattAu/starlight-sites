@@ -280,12 +280,16 @@ slog.Error("connection failed", "err", err)
 
 ### Log Levels
 
+<div class="table-wrap">
+
 | Level | Method       | Typical Use              |
 | ----- | ------------ | ------------------------ |
 | DEBUG | `slog.Debug` | Verbose development info |
 | INFO  | `slog.Info`  | Normal operations        |
 | WARN  | `slog.Warn`  | Potential issues         |
 | ERROR | `slog.Error` | Failures needing action  |
+
+</div>
 
 ### Handlers
 
@@ -378,6 +382,8 @@ handler(ctx)
 
 ## Choosing Between log and log/slog
 
+<div class="table-wrap">
+
 | Aspect        | `log`             | `log/slog`                     |
 | ------------- | ----------------- | ------------------------------ |
 | Structured    | No (text only)    | Yes (key-value pairs)          |
@@ -385,6 +391,8 @@ handler(ctx)
 | Output        | Stderr by default | Configurable handler           |
 | Go version    | All               | Go 1.21+                       |
 | Machine-parse | No                | JSON handler                   |
+
+</div>
 
 Use `log/slog` for new code. Use `log` only for simple scripts or maintaining legacy code that Does
 not benefit from structured output.
@@ -429,18 +437,8 @@ slog.Info("user logged in", "username", username, "ip", ip)
    services, wrap the handler with a buffered writer or use an async handler to avoid blocking.
 
 7. **Using math/rand/v1.** The old `math/rand` package requires manual seeding and is deprecated.
-   Use `math/rand/v2` (Go 1.22+) which is auto-seeded and provides `rand.IntN``rand.N`and other
+   Use `math/rand/v2` (Go 1.22+) which is auto-seeded and provides `rand.IntN`, `rand.N`and other
    improvements.
-
-```mermaid
-flowchart TD
-    A[Math Sort Log] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -455,13 +453,7 @@ theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

@@ -20,17 +20,6 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Transition Metals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
@@ -57,6 +46,8 @@ Under this definition:
 The $3d$ and $4s$ subshells are close in energy. For neutral atoms, $4s$ fills before $3d$ (Aufbau
 principle). For cations, $4s$ electrons are removed before $3d$.
 
+<div class="table-wrap">
+
 | Element | $Z$ | Neutral atom                  | $\mathrm{M}^{2+}$     | $\mathrm{M}^{3+}$     |
 | ------- | --- | ----------------------------- | --------------------- | --------------------- |
 | Ti      | 22  | $[\mathrm{Ar}]\,4s^2 3d^2$    | $[\mathrm{Ar}]\,3d^2$ | $[\mathrm{Ar}]\,3d^1$ |
@@ -67,6 +58,8 @@ principle). For cations, $4s$ electrons are removed before $3d$.
 | Co      | 27  | $[\mathrm{Ar}]\,4s^2 3d^7$    | $[\mathrm{Ar}]\,3d^7$ | $[\mathrm{Ar}]\,3d^6$ |
 | Ni      | 28  | $[\mathrm{Ar}]\,4s^2 3d^8$    | $[\mathrm{Ar}]\,3d^8$ | $[\mathrm{Ar}]\,3d^7$ |
 | Cu      | 29  | $[\mathrm{Ar}]\,4s^1 3d^{10}$ | $[\mathrm{Ar}]\,3d^9$ | $[\mathrm{Ar}]\,3d^8$ |
+
+</div>
 
 ## Variable Oxidation States
 
@@ -83,6 +76,8 @@ depends on:
 
 ### Common Oxidation States
 
+<div class="table-wrap">
+
 | Element | Common oxidation states | Most stable                                  |
 | ------- | ----------------------- | -------------------------------------------- |
 | Ti      | $+2, +3, +4$            | $+4$                                         |
@@ -93,6 +88,8 @@ depends on:
 | Co      | $+2, +3$                | $+2$                                         |
 | Ni      | $+2$                    | $+2$                                         |
 | Cu      | $+1, +2$                | $+2$                                         |
+
+</div>
 
 Manganese exhibits the widest range ($+2$ to $+7$) of any first-row transition metal.
 
@@ -108,11 +105,15 @@ The **coordination number** is the total number of coordinate bonds to the centr
 
 ### Types of Ligands
 
+<div class="table-wrap">
+
 | Type        | Description          | Examples                                                                                               | Denticity |
 | ----------- | -------------------- | ------------------------------------------------------------------------------------------------------ | --------- |
 | Monodentate | One lone pair donor  | $\mathrm{H}_2\mathrm{O}$$\mathrm{NH}_3$$\mathrm{Cl}^-$$\mathrm{CN}^-$                                  | 1         |
 | Bidentate   | Two lone pair donors | $\mathrm{NH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2$ (en), $\mathrm{C}_2\mathrm{O}_4^{2-}$ (oxalate) | 2         |
 | Hexadentate | Six lone pair donors | $\mathrm{EDTA}^{4-}$                                                                                   | 6         |
+
+</div>
 
 The **chelate effect**: multidentate ligands form more stable complexes than an equivalent number of
 monodentate ligands. This is primarily an entropic effect -- one multidentate ligand replaces
@@ -121,11 +122,15 @@ system.
 
 ### Geometry
 
+<div class="table-wrap">
+
 | Coordination number | Geometry      | Example                                                                                            |
 | ------------------- | ------------- | -------------------------------------------------------------------------------------------------- |
 | 4                   | Tetrahedral   | $[\mathrm{CoCl}_4]^{2-}$                                                                           |
 | 6                   | Octahedral    | $[\mathrm{Cu}(\mathrm{NH}_3)_4(\mathrm{H}_2\mathrm{O})_2]^{2+}$$[\mathrm{Fe}(\mathrm{CN})_6]^{4-}$ |
 | 4                   | Square planar | $[\mathrm{PtCl}_4]^{2-}$$[\mathrm{Ni(CN})_4]^{2-}$                                                 |
+
+</div>
 
 Most first-row transition metal complexes are octahedral or tetrahedral. Square planar geometry is
 typical for $d^8$ configurations with strong-field ligands (e.g. $\mathrm{Ni}^{2+}$ with
@@ -137,9 +142,9 @@ $\mathrm{CN}^-$).
 
 In a free ion, all five $d$ orbitals are degenerate (same energy). In an octahedral complex, the six
 ligands approach along the $x$$y$ And $z$ axes. The $d$ orbitals that point along these axes
-($d_{z^2}$ and $d_{x^2-y^2}$Collectively the $e_g$ set) experience greater electrostatic repulsion
+($d_{z^2}$ and $d_{x^2-y^2}$ Collectively the $e_g$ set) experience greater electrostatic repulsion
 from the ligand lone pairs than those that point between the axes
-($d_{xy}$$d_{xz}$$d_{yz}$Collectively the $t_{2g}$ set).
+($d_{xy}$$d_{xz}$$d_{yz}$ Collectively the $t_{2g}$ set).
 
 This splits the $d$ orbitals into two energy levels:
 
@@ -150,7 +155,7 @@ The energy separation is the **crystal field splitting parameter** $\Delta_o$ (o
 
 ### High-Spin vs Low-Spin
 
-Electrons occupy the $d$ orbitals according to Hund"s rule (maximise parallel spins) but must also
+Electrons occupy the $d$ orbitals according to Hund's rule (maximise parallel spins) but must also
 respect the energy gap $\Delta_o$.
 
 - **Weak-field ligands** (e.g. $\mathrm{H}_2\mathrm{O}$$\mathrm{F}^-$): $\Delta_o$ is small.
@@ -170,12 +175,14 @@ $$
 
 Transition metal complexes are coloured because the $d$-$d$ energy gap corresponds to photon
 energies in the visible region of the electromagnetic spectrum
-($\Delta E \approx 1.8\mathrm{--}3.1\,\mathrm{eV}$Corresponding to
+($\Delta E \approx 1.8\mathrm{--}3.1\,\mathrm{eV}$ Corresponding to
 $\lambda \approx 400\mathrm{--}700\,\mathrm{nm}$).
 
 When white light passes through a complex, photons of energy matching $\Delta_o$ are absorbed to
 promote electrons from $t_{2g}$ to $e_g$. The complementary colour of the absorbed wavelength is
 observed.
+
+<div class="table-wrap">
 
 | Complex                                        | Colour observed    | Colour absorbed |
 | ---------------------------------------------- | ------------------ | --------------- |
@@ -184,11 +191,13 @@ observed.
 | $[\mathrm{Ni}(\mathrm{H}_2\mathrm{O})_6]^{2+}$ | Green              | Red/violet      |
 | $[\mathrm{Fe}(\mathrm{H}_2\mathrm{O})_6]^{3+}$ | Violet/pale yellow | Yellow/green    |
 
+</div>
+
 **Key point:** $d^0$ and $d^{10}$ complexes are colourless because there are no $d$-$d$ transitions
 possible. This is why $\mathrm{Sc}^{3+}$ ($d^0$) and $\mathrm{Zn}^{2+}$ ($d^{10}$) complexes are
 colourless.
 
-**Effect of ligand substitution on colour:** Changing the ligand changes $\Delta_o$Which shifts the
+**Effect of ligand substitution on colour:** Changing the ligand changes $\Delta_o$ Which shifts the
 wavelength of light absorbed, changing the observed colour.
 
 $$
@@ -196,7 +205,7 @@ $$
 $$
 
 Pale blue solution $\to$ deep blue solution (because $\mathrm{NH}_3$ is a stronger field ligand than
-$\mathrm{H}_2\mathrm{O}$Increasing $\Delta_o$).
+$\mathrm{H}_2\mathrm{O}$ Increasing $\Delta_o$).
 
 ## Ligand Substitution Reactions
 
@@ -263,7 +272,7 @@ $$
 $\mathrm{Fe}^{3+}$ is a moderate oxidising agent; $\mathrm{Fe}^{2+}$ is a moderate reducing agent.
 
 **Test for $\mathrm{Fe}^{2+}$:** Add $\mathrm{NaOH}$ -- green precipitate of
-$\mathrm{Fe}(\mathrm{OH})_2$Which turns brown on standing as it oxidises to
+$\mathrm{Fe}(\mathrm{OH})_2$ Which turns brown on standing as it oxidises to
 $\mathrm{Fe}(\mathrm{OH})_3$.
 
 **Test for $\mathrm{Fe}^{3+}$:** Add $\mathrm{NaOH}$ -- brown precipitate of
@@ -310,6 +319,8 @@ accelerates.
 
 ### Tests for Metal Ions
 
+<div class="table-wrap">
+
 | Ion                | Flame test        | NaOH addition                 |
 | ------------------ | ----------------- | ----------------------------- |
 | $\mathrm{Li}^+$    | Crimson red       | White ppt (soluble in excess) |
@@ -320,7 +331,11 @@ accelerates.
 | $\mathrm{Fe}^{2+}$ | --                | Green ppt, turns brown        |
 | $\mathrm{Fe}^{3+}$ | --                | Brown ppt                     |
 
+</div>
+
 ### Tests for Anions
+
+<div class="table-wrap">
 
 | Anion                | Test                                            | Observation                                            |
 | -------------------- | ----------------------------------------------- | ------------------------------------------------------ |
@@ -329,6 +344,8 @@ accelerates.
 | $\mathrm{I}^-$       | Add dilute $\mathrm{HNO}_3$ + $\mathrm{AgNO}_3$ | Yellow ppt (insoluble in $\mathrm{NH}_{3(aq)}$)        |
 | $\mathrm{SO}_4^{2-}$ | Add $\mathrm{HCl}$ + $\mathrm{BaCl}_2$          | White ppt                                              |
 | $\mathrm{CO}_3^{2-}$ | Add dilute acid                                 | Effervescence, gas turns limewater milky               |
+
+</div>
 
 For further analytical techniques (IR, MS, NMR, chromatography), see
 [Organic Chemistry](/chemistry/organic-chemistry/).
@@ -348,14 +365,18 @@ $$
 \mu = \sqrt{n(n+2)}\,\mu_\mathrm{BM}
 $$
 
+<div class="table-wrap">
+
 | Unpaired electrons ($n$) | $\mu_\mathrm{calc}$ ($\mu_\mathrm{BM}$) | Typical ion ($d^n$)                                                      |
 | ------------------------ | --------------------------------------- | ------------------------------------------------------------------------ |
 | 0                        | 0.00                                    | $\mathrm{Zn}^{2+}$ ($d^{10}$), $\mathrm{Cu}^+$ ($d^{10}$)                |
 | 1                        | 1.73                                    | $\mathrm{Cu}^{2+}$ ($d^9$)                                               |
 | 2                        | 2.83                                    | $\mathrm{V}^{3+}$ ($d^2$)                                                |
 | 3                        | 3.87                                    | $\mathrm{Cr}^{3+}$ ($d^3$), $\mathrm{V}^{2+}$ ($d^3$)                    |
-| 4                        | 4.90                                    | $\mathrm{Mn}^{2+}$ ($d^5$High-spin), $\mathrm{Cr}^{2+}$ ($d^4$High-spin) |
-| 5                        | 5.92                                    | $\mathrm{Mn}^{2+}$ ($d^5$High-spin), $\mathrm{Fe}^{3+}$ ($d^5$High-spin) |
+| 4                        | 4.90                                    | $\mathrm{Mn}^{2+}$ ($d^5$ High-spin), $\mathrm{Cr}^{2+}$ ($d^4$ High-spin) |
+| 5                        | 5.92                                    | $\mathrm{Mn}^{2+}$ ($d^5$ High-spin), $\mathrm{Fe}^{3+}$ ($d^5$ High-spin) |
+
+</div>
 
 Experimental magnetic moments may differ slightly from spin-only values due to orbital contribution
 (spin-orbit coupling), which adds a small positive correction. For first-row transition metals, the
@@ -381,7 +402,7 @@ $[\mathrm{Fe}(\mathrm{H}_2\mathrm{O})_6]^{2+}$: $\mathrm{Fe}^{2+}$ is $d^6$.
 $\mathrm{H}_2\mathrm{O}$ is a weak-field ligand, so $\Delta_o$ is small. The electrons occupy the
 $t_{2g}$ set singly first ($t_{2g}^4$), then the $e_g$ set ($e_g^2$), giving 4 unpaired electrons
 (high-spin). The spin-only value for $n = 4$ is
-$\sqrt{4 \times 6} = 4.90\,\mu_\mathrm{BM}$Close to the experimental $5.1\,\mu_\mathrm{BM}$
+$\sqrt{4 \times 6} = 4.90\,\mu_\mathrm{BM}$ Close to the experimental $5.1\,\mu_\mathrm{BM}$
 (the slight excess is from orbital contribution).
 
 $[\mathrm{Fe}(\mathrm{CN})_6]^{4-}$: $\mathrm{CN}^-$ is a strong-field ligand, so $\Delta_o$ is
@@ -395,7 +416,7 @@ pointing between the axes ($t_2$: $d_{xy}$$d_{xz}$$d_{yz}$) are closer to the li
 energy. The orbitals pointing along the axes ($e$: $d_{z^2}$$d_{x^2-y^2}$) are lower energy. The
 splitting parameter $\Delta_t \approx \frac{4}{9}\Delta_o$.
 
-Because $\Delta_t$ is much smaller than $\Delta_o$Tetrahedral complexes are almost always high-spin.
+Because $\Delta_t$ is much smaller than $\Delta_o$ Tetrahedral complexes are almost always high-spin.
 Low-spin tetrahedral complexes are essentially unknown for first-row transition metals.
 
 ## Detailed Colour and Spectroscopy
@@ -429,6 +450,8 @@ $$
 
 The observed colour of a complex is the complementary colour of the light absorbed:
 
+<div class="table-wrap">
+
 | Wavelength absorbed (nm) | Colour absorbed | Colour observed |
 | ------------------------ | --------------- | --------------- |
 | 400--435                 | Violet          | Yellow-green    |
@@ -440,6 +463,8 @@ The observed colour of a complex is the complementary colour of the light absorb
 | 580--595                 | Yellow          | Blue            |
 | 595--605                 | Orange          | Green-blue      |
 | 605--700                 | Red             | Blue-green      |
+
+</div>
 
 ### Charge Transfer Transitions
 
@@ -496,11 +521,15 @@ exceptionally stable complexes because it is hexadentate.
 Chromium has two important oxidation states in aqueous chemistry: $\mathrm{Cr}^{3+}$ ($d^3$) and
 $\mathrm{Cr}^{6+}$ (as $\mathrm{Cr}_2\mathrm{O}_7^{2-}$ or $\mathrm{CrO}_4^{2-}$).
 
+<div class="table-wrap">
+
 | Species                                        | Oxidation state | Colour                        | $d$ electrons |
 | ---------------------------------------------- | --------------- | ----------------------------- | ------------- |
 | $[\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]^{3+}$ | $+3$            | Violet (green in impure form) | $d^3$         |
 | $\mathrm{Cr}_2\mathrm{O}_7^{2-}$               | $+6$            | Orange                        | $d^0$         |
 | $\mathrm{CrO}_4^{2-}$                          | $+6$            | Yellow                        | $d^0$         |
+
+</div>
 
 The dichromate-chromate equilibrium is pH-dependent:
 
@@ -535,10 +564,14 @@ acidification).
 
 Cobalt(II) complexes provide classic examples of both octahedral and tetrahedral geometry:
 
+<div class="table-wrap">
+
 | Complex                                        | Geometry    | Colour | Explanation                          |
 | ---------------------------------------------- | ----------- | ------ | ------------------------------------ |
-| $[\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{2+}$ | Octahedral  | Pink   | $d^7$High-spin, 3 unpaired electrons |
-| $[\mathrm{CoCl}_4]^{2-}$                       | Tetrahedral | Blue   | $d^7$Always high-spin (tetrahedral)  |
+| $[\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{2+}$ | Octahedral  | Pink   | $d^7$ High-spin, 3 unpaired electrons |
+| $[\mathrm{CoCl}_4]^{2-}$                       | Tetrahedral | Blue   | $d^7$ Always high-spin (tetrahedral)  |
+
+</div>
 
 The equilibrium between these two forms is temperature-dependent:
 
@@ -572,7 +605,7 @@ $\mathrm{AgCl}$ precipitate, shifting it left.
    if there are no $d$ electrons or the $d$ subshell is full.
 
 6. **Assuming tetrahedral complexes can be low-spin.** Because
-   $\Delta_t \approx \frac{4}{9}\Delta_o$Tetrahedral complexes are almost always high-spin for
+   $\Delta_t \approx \frac{4}{9}\Delta_o$ Tetrahedral complexes are almost always high-spin for
    first-row transition metals.
 
 7. **Confusing LMCT with $d$-$d$ transitions.** $\mathrm{MnO}_4^-$ is coloured ($d^0$) due to
@@ -637,6 +670,8 @@ $\mathrm{O}_2$ binding.
 
 ### Standard Inorganic Tests
 
+<div class="table-wrap">
+
 | Ion                | Test                                                    | Observation                                                                                                                    |
 | ------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | $\mathrm{Cu}^{2+}$ | Add $\mathrm{NaOH}$                                     | Blue precipitate of $\mathrm{Cu(OH)}2$; dissolves in excess $\mathrm{NH}_3$ to deep blue $[\mathrm{Cu}(\mathrm{NH}_3)_4]^{2+}$ |
@@ -644,19 +679,25 @@ $\mathrm{O}_2$ binding.
 | $\mathrm{Fe}^{3+}$ | Add $\mathrm{NaOH}$                                     | Red-brown precipitate of $\mathrm{Fe(OH)}_3$                                                                                   |
 | $\mathrm{Fe}^{3+}$ | Add $\mathrm{KSCN}$                                     | Blood red solution of $[\mathrm{Fe}(\mathrm{SCN})(\mathrm{H}_2\mathrm{O})_5]^{2+}$                                             |
 | $\mathrm{Mn}^{2+}$ | Add $\mathrm{NaOH}$ Then $\mathrm{H}_2\mathrm{O}_2$      | White precipitate darkens to brown $\mathrm{MnO}_2$                                                                            |
-| $\mathrm{Cr}^{3+}$ | Add $\mathrm{NaOH}$ then $\mathrm{H}_2\mathrm{O}_2$Heat | Green solution turns yellow ($\mathrm{CrO}_4^{2-}$)                                                                            |
+| $\mathrm{Cr}^{3+}$ | Add $\mathrm{NaOH}$ then $\mathrm{H}_2\mathrm{O}_2$ Heat | Green solution turns yellow ($\mathrm{CrO}_4^{2-}$)                                                                            |
 | $\mathrm{Ni}^{2+}$ | Add dimethylglyoxime + $\mathrm{NH}_3$                  | Bright red precipitate                                                                                                         |
 | $\mathrm{Co}^{2+}$ | Add $\mathrm{SCN}^-$ in acetone                         | Blue organic layer of $[\mathrm{Co}(\mathrm{SCN})_4]^{2-}$                                                                     |
+
+</div>
 
 ### Using Flame Tests for Transition Metals
 
 Transition metal ions produce characteristic flame colours (though these are less commonly used than
 for Group 1 and 2):
 
+<div class="table-wrap">
+
 | Ion                                       | Flame colour |
 | ----------------------------------------- | ------------ |
 | $\mathrm{Cu}^{2+}$                        | Blue-green   |
 | $\mathrm{Li}^+$ (Group 1, for comparison) | Crimson red  |
+
+</div>
 
 Most transition metal flame colours are not distinctive enough for reliable identification;
 precipitation tests are preferred.
@@ -753,7 +794,7 @@ the oxygen atoms into an empty $d$ orbital on the manganese. This charge transfe
 involves a much larger change in dipole moment than a $d$-$d$ transition, giving it a much higher
 extinction coefficient (more intense colour).
 
-By contrast, $[\mathrm{Mn}(\mathrm{H}_2\mathrm{O})_6]^{2+}$ ($\mathrm{Mn}^{2+}$$d^5$High-spin) is a
+By contrast, $[\mathrm{Mn}(\mathrm{H}_2\mathrm{O})_6]^{2+}$ ($\mathrm{Mn}^{2+}$$d^5$ High-spin) is a
 very pale pink because $d$-$d$ transitions are Laporte-forbidden (centrosymmetric complexes have
 very weak $d$-$d$ absorption) and because the high-spin $d^5$ configuration has all $d$ orbitals
 singly occupied, so every $d$-$d$ transition requires an electron to change spin as well as orbital,
@@ -821,7 +862,7 @@ $$
 The catalyst provides an alternative pathway with lower activation energy. The oxidation state of
 vanadium cycles between +4 and +5. The catalyst is heterogeneous (solid surface), so it provides
 adsorption sites that weaken the S--O bonds in $\mathrm{SO}_2$ and the O=O bond in
-$\mathrm{O}_2$Facilitating the reaction.
+$\mathrm{O}_2$ Facilitating the reaction.
 
 </details>
 
@@ -852,13 +893,19 @@ $\mathrm{Fe}^{2+}$ has the electron configuration $[\mathrm{Ar}]\,3d^6$.
 
 $\mathrm{H}_2\mathrm{O}$ is a weak-field ligand, so the complex is high-spin:
 
-$$t_{2g}^4\,e_g^2$$
+$$
+t_{2g}^4\,e_g^2
+$$
 
-$$\text{CFSE} = 4(-0.4\Delta_o) + 2(0.6\Delta_o) = -1.6\Delta_o + 1.2\Delta_o = -0.4\Delta_o$$
+$$
+\text{CFSE} = 4(-0.4\Delta_o) + 2(0.6\Delta_o) = -1.6\Delta_o + 1.2\Delta_o = -0.4\Delta_o
+$$
 
 For $\mathrm{H}_2\mathrm{O}$, $\Delta_o \approx 10400\,\mathrm{cm}^{-1}$:
 
-$$\text{CFSE} = -0.4 \times 10400 = -4160\,\mathrm{cm}^{-1}$$
+$$
+\text{CFSE} = -0.4 \times 10400 = -4160\,\mathrm{cm}^{-1}
+$$
 
 The negative sign indicates stabilisation.
 
@@ -866,13 +913,19 @@ The negative sign indicates stabilisation.
 
 $\mathrm{CN}^-$ is a strong-field ligand, so the complex is low-spin:
 
-$$t_{2g}^6\,e_g^0$$
+$$
+t_{2g}^6\,e_g^0
+$$
 
-$$\text{CFSE} = 6(-0.4\Delta_o) + 0(0.6\Delta_o) = -2.4\Delta_o$$
+$$
+\text{CFSE} = 6(-0.4\Delta_o) + 0(0.6\Delta_o) = -2.4\Delta_o
+$$
 
 For $\mathrm{CN}^-$, $\Delta_o \approx 33000\,\mathrm{cm}^{-1}$:
 
-$$\text{CFSE} = -2.4 \times 33000 = -79200\,\mathrm{cm}^{-1}$$
+$$
+\text{CFSE} = -2.4 \times 33000 = -79200\,\mathrm{cm}^{-1}
+$$
 
 The much larger CFSE for the cyanide complex explains why low-spin complexes are more stable with
 strong-field ligands: the pairing energy cost is more than compensated by the large $\Delta_o$.
@@ -881,7 +934,9 @@ strong-field ligands: the pairing energy cost is more than compensated by the la
 
 Ligands are arranged in order of increasing crystal field splitting energy:
 
-$$\mathrm{I}^- \lt \mathrm{Br}^- \lt \mathrm{Cl}^- \lt \mathrm{F}^- \lt \mathrm{OH}^- \lt \mathrm{H}_2\mathrm{O} \lt \mathrm{NH}_3 \lt \text{en} \lt \mathrm{NO}_2^- \lt \mathrm{CN}^- \lt \mathrm{CO}$$
+$$
+\mathrm{I}^- \lt \mathrm{Br}^- \lt \mathrm{Cl}^- \lt \mathrm{F}^- \lt \mathrm{OH}^- \lt \mathrm{H}_2\mathrm{O} \lt \mathrm{NH}_3 \lt \text{en} \lt \mathrm{NO}_2^- \lt \mathrm{CN}^- \lt \mathrm{CO}
+$$
 
 Weak-field ligands (left) give small $\Delta_o$ and high-spin complexes. Strong-field ligands
 (right) give large $\Delta_o$ and low-spin complexes.
@@ -891,7 +946,9 @@ Weak-field ligands (left) give small $\Delta_o$ and high-spin complexes. Strong-
 Transition metal complexes are coloured because they absorb visible light. The absorbed photon
 promotes an electron from a $t_{2g}$ orbital to an $e_g$ orbital:
 
-$$E = h\nu = hc/\lambda = \Delta_o$$
+$$
+E = h\nu = hc/\lambda = \Delta_o
+$$
 
 The colour observed is the complementary colour of the light absorbed.
 
@@ -899,10 +956,14 @@ The colour observed is the complementary colour of the light absorbed.
 $\lambda = 510\,\mathrm{nm}$ (green). The transmitted/reflected light is purple/violet, which is the
 observed colour.
 
-$$\Delta_o = \frac{hc}{\lambda} = \frac{6.626 \times 10^{-34} \times 2.998 \times 10^8}{510 \times 10^{-9}} = 3.89 \times 10^{-19}\,\mathrm{J}$$
+$$
+\Delta_o = \frac{hc}{\lambda} = \frac{6.626 \times 10^{-34} \times 2.998 \times 10^8}{510 \times 10^{-9}} = 3.89 \times 10^{-19}\,\mathrm{J}
+$$
 
 Converting to $\mathrm{cm}^{-1}$:
 $\frac{1}{\lambda} = \frac{1}{510 \times 10^{-7}\,\mathrm{cm}} = 19608\,\mathrm{cm}^{-1}$
+
+<div class="table-wrap">
 
 | Complex                                        | $\Delta_o$ ($\mathrm{cm}^{-1}$) | $\lambda_{\max}$ (nm) | Colour observed |
 | ---------------------------------------------- | ------------------------------- | --------------------- | --------------- |
@@ -911,6 +972,8 @@ $\frac{1}{\lambda} = \frac{1}{510 \times 10^{-7}\,\mathrm{cm}} = 19608\,\mathrm{
 | $[\mathrm{Cr}(\mathrm{H}_2\mathrm{O})_6]^{3+}$ | 17,400                          | 575                   | Violet          |
 | $[\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{2+}$ | 9,300                           | 1075                  | Pink            |
 | $[\mathrm{Ni}(\mathrm{H}_2\mathrm{O})_6]^{2+}$ | 8,500                           | 1176                  | Green           |
+
+</div>
 
 ### Why $\mathrm{Zn}^{2+}$ and $\mathrm{Sc}^{3+}$ Complexes Are Colourless
 
@@ -925,7 +988,9 @@ $d$-electrons to promote, so no $d$-$d$ transitions occur. The complexes are col
 
 Ligand exchange involves the substitution of one ligand for another in a transition metal complex:
 
-$$[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+}(aq) + 4\mathrm{NH}_3(aq) \rightleftharpoons [\mathrm{Cu}(\mathrm{NH}_3)_4(\mathrm{H}_2\mathrm{O})_2]^{2+}(aq) + 4\mathrm{H}_2\mathrm{O}(l)$$
+$$
+[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+}(aq) + 4\mathrm{NH}_3(aq) \rightleftharpoons [\mathrm{Cu}(\mathrm{NH}_3)_4(\mathrm{H}_2\mathrm{O})_2]^{2+}(aq) + 4\mathrm{H}_2\mathrm{O}(l)
+$$
 
 This reaction is observed: the pale blue $[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+}$ ion turns
 deep blue when $\mathrm{NH}_3$ is added.
@@ -950,7 +1015,9 @@ deep blue when $\mathrm{NH}_3$ is added.
 Bidentate and multidentate ligands form more stable complexes than monodentate ligands with the same
 donor atoms. This is the chelate effect.
 
-$$[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+} + \text{en} \to [\mathrm{Cu}(\text{en})(\mathrm{H}_2\mathrm{O})_4]^{2+} + 2\mathrm{H}_2\mathrm{O}$$
+$$
+[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+} + \text{en} \to [\mathrm{Cu}(\text{en})(\mathrm{H}_2\mathrm{O})_4]^{2+} + 2\mathrm{H}_2\mathrm{O}
+$$
 
 (en = ethane-1,2-diamine, a bidentate ligand)
 
@@ -959,14 +1026,20 @@ increases the number of free particles in solution, increasing entropy.
 
 ### Worked Example: Stepwise Ligand Exchange
 
-When concentrated $\mathrm{HCl}$ is added to $[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+}(aq)$The
+When concentrated $\mathrm{HCl}$ is added to $[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+}(aq)$ The
 following stepwise substitutions occur:
 
-$$[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+} + \mathrm{Cl}^- \rightleftharpoons [\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_5\mathrm{Cl}]^+ + \mathrm{H}_2\mathrm{O}$$
+$$
+[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+} + \mathrm{Cl}^- \rightleftharpoons [\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_5\mathrm{Cl}]^+ + \mathrm{H}_2\mathrm{O}
+$$
 
-$$[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_5\mathrm{Cl}]^+ + \mathrm{Cl}^- \rightleftharpoons [\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_4\mathrm{Cl}_2] + \mathrm{H}_2\mathrm{O}$$
+$$
+[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_5\mathrm{Cl}]^+ + \mathrm{Cl}^- \rightleftharpoons [\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_4\mathrm{Cl}_2] + \mathrm{H}_2\mathrm{O}
+$$
 
-$$\ldots \to [\mathrm{CuCl}_4]^{2-} + 6\mathrm{H}_2\mathrm{O}$$
+$$
+\ldots \to [\mathrm{CuCl}_4]^{2-} + 6\mathrm{H}_2\mathrm{O}
+$$
 
 The colour changes from pale blue ($\mathrm{H}_2\mathrm{O}$ ligands) through green to yellow
 ($\mathrm{Cl}^-$ ligands). The yellow colour of $[\mathrm{CuCl}_4]^{2-}$ indicates a smaller
@@ -978,6 +1051,8 @@ $\Delta_o$ for $\mathrm{Cl}^-$ than for $\mathrm{H}_2\mathrm{O}$.
 
 Vanadium exhibits oxidation states from +2 to +5. The colours of vanadium ions in aqueous solution:
 
+<div class="table-wrap">
+
 | Oxidation state | Ion                | Colour |
 | --------------- | ------------------ | ------ |
 | +2              | $\mathrm{V}^{2+}$  | Violet |
@@ -985,13 +1060,19 @@ Vanadium exhibits oxidation states from +2 to +5. The colours of vanadium ions i
 | +4              | $\mathrm{VO}^{2+}$ | Blue   |
 | +5              | $\mathrm{VO}_2^+$  | Yellow |
 
+</div>
+
 These can be interconverted by reduction with zinc and acid:
 
-$$\mathrm{VO}_2^+ \xrightarrow{\mathrm{Zn},\,\mathrm{H}^+} \mathrm{VO}^{2+} \xrightarrow{\mathrm{Zn},\,\mathrm{H}^+} \mathrm{V}^{3+} \xrightarrow{\mathrm{Zn},\,\mathrm{H}^+} \mathrm{V}^{2+}$$
+$$
+\mathrm{VO}_2^+ \xrightarrow{\mathrm{Zn},\,\mathrm{H}^+} \mathrm{VO}^{2+} \xrightarrow{\mathrm{Zn},\,\mathrm{H}^+} \mathrm{V}^{3+} \xrightarrow{\mathrm{Zn},\,\mathrm{H}^+} \mathrm{V}^{2+}
+$$
 
 ### Chromium Oxidation States
 
 Chromium exhibits oxidation states from +2 to +6:
+
+<div class="table-wrap">
 
 | Oxidation state | Ion/Compound                         | Colour       |
 | --------------- | ------------------------------------ | ------------ |
@@ -1000,9 +1081,13 @@ Chromium exhibits oxidation states from +2 to +6:
 | +6              | $\mathrm{CrO}_4^{2-}(aq)$            | Yellow       |
 | +6              | $\mathrm{Cr}_2\mathrm{O}_7^{2-}(aq)$ | Orange       |
 
+</div>
+
 **Dichromate-chromate equilibrium:**
 
-$$\mathrm{Cr}_2\mathrm{O}_7^{2-}(aq) + \mathrm{H}_2\mathrm{O}(l) \rightleftharpoons 2\mathrm{CrO}_4^{2-}(aq) + 2\mathrm{H}^+(aq)$$
+$$
+\mathrm{Cr}_2\mathrm{O}_7^{2-}(aq) + \mathrm{H}_2\mathrm{O}(l) \rightleftharpoons 2\mathrm{CrO}_4^{2-}(aq) + 2\mathrm{H}^+(aq)
+$$
 
 Adding acid shifts the equilibrium to the left (orange dichromate). Adding alkali shifts it to the
 right (yellow chromate).
@@ -1043,13 +1128,17 @@ Initial solution: Pale blue (1 mark).
 On adding a few drops of $\mathrm{NH}_3$: A pale blue precipitate of $\mathrm{Cu}(\mathrm{OH})_2$
 forms (1 mark):
 
-$$[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+} + 2\mathrm{NH}_3 \to \mathrm{Cu}(\mathrm{OH})_2(s) + 2\mathrm{NH}_4^+ + 4\mathrm{H}_2\mathrm{O}$$
+$$
+[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+} + 2\mathrm{NH}_3 \to \mathrm{Cu}(\mathrm{OH})_2(s) + 2\mathrm{NH}_4^+ + 4\mathrm{H}_2\mathrm{O}
+$$
 
 (1 mark for equation.)
 
 On adding excess $\mathrm{NH}_3$: The precipitate dissolves to form a deep blue solution (1 mark):
 
-$$\mathrm{Cu}(\mathrm{OH})_2(s) + 4\mathrm{NH}_3 \to [\mathrm{Cu}(\mathrm{NH}_3)_4(\mathrm{H}_2\mathrm{O})_2]^{2+} + 2\mathrm{OH}^-$$
+$$
+\mathrm{Cu}(\mathrm{OH})_2(s) + 4\mathrm{NH}_3 \to [\mathrm{Cu}(\mathrm{NH}_3)_4(\mathrm{H}_2\mathrm{O})_2]^{2+} + 2\mathrm{OH}^-
+$$
 
 (1 mark for equation.)
 
@@ -1118,9 +1207,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Transition
 Metals with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Worked Examples
 
 **Example 1: Mole calculation**
@@ -1129,22 +1215,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 :::
 
 ## Cross-References

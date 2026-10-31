@@ -23,6 +23,8 @@ tableOfContents: false
 The reaction $A + 2B \rightarrow C$ was studied at constant temperature. The following initial rate
 data were obtained:
 
+<div class="table-wrap">
+
 | Experiment | $[A]$ (mol/dm$^{3}$) | $[B]$ (mol/dm$^{3}$) | Initial Rate (mol dm$^{-3}$ s$^{-1}$) |
 | ---------- | -------------------- | -------------------- | ------------------------------------- |
 | 1          | 0.10                 | 0.10                 | $1.2 \times 10^{-4}$                  |
@@ -30,9 +32,11 @@ data were obtained:
 | 3          | 0.10                 | 0.20                 | $4.8 \times 10^{-4}$                  |
 | 4          | 0.30                 | 0.30                 | $2.16 \times 10^{-3}$                 |
 
+</div>
+
 (a) Determine the order of reaction with respect to $A$ and with respect to $B$. [3 marks]
 
-(b) Write the rate equation and calculate the rate constant $k$Including its units. [3 marks]
+(b) Write the rate equation and calculate the rate constant $k$ Including its units. [3 marks]
 
 (c) Using the rate equation, predict the initial rate when $[A] = 0.15$ and $[B] = 0.25$
 mol/dm$^{3}$. [2 marks]
@@ -72,7 +76,9 @@ data points. Proceeding with orders $A = 1$, $B = 2$ as determined from experime
 
 From experiment 1:
 
-$$k = \frac{1.2 \times 10^{-4}}{0.10 \times (0.10)^{2}} = \frac{1.2 \times 10^{-4}}{0.001} = 0.12 \text{ dm}^{6} \text{ mol}^{-2} \text{ s}^{-1}$$
+$$
+k = \frac{1.2 \times 10^{-4}}{0.10 \times (0.10)^{2}} = \frac{1.2 \times 10^{-4}}{0.001} = 0.12 \text{ dm}^{6} \text{ mol}^{-2} \text{ s}^{-1}
+$$
 
 Units:
 $\frac{\text{mol dm}^{-3} \text{ s}^{-1}}{(\text{mol dm}^{-3})^{3}} = \text{dm}^{6} \text{ mol}^{-2} \text{ s}^{-1}$
@@ -140,7 +146,7 @@ Increasing temperature increases the rate because:
 
 (c) The claim is **incorrect**. A catalyst **lowers the activation energy** ($E_{a}$) rather than
 shifting the distribution. The Maxwell-Boltzmann distribution itself does not change. By lowering
-$E_{a}$A larger area under the **same** distribution curve now exceeds the threshold, meaning more
+$E_{a}$ A larger area under the **same** distribution curve now exceeds the threshold, meaning more
 molecules have sufficient energy to react.
 
 ---
@@ -160,11 +166,13 @@ molecules have sufficient energy to react.
 
 The decomposition of hydrogen peroxide is catalysed by manganese(IV) oxide:
 
-$$2H_{2}O_{2}(aq) \rightarrow 2H_{2}O(l) + O_{2}(g)$$
+$$
+2H_{2}O_{2}(aq) \rightarrow 2H_{2}O(l) + O_{2}(g)
+$$
 
 (a) Define the term **activation energy**. [1 mark]
 
-(b) Explain how $MnO_{2}$ increases the rate of decomposition of $H_{2}O_{2}$Using the term
+(b) Explain how $MnO_{2}$ increases the rate of decomposition of $H_{2}O_{2}$ Using the term
 "alternative reaction pathway." [3 marks]
 
 (c) Does $MnO_{2}$ change the enthalpy change ($\Delta H$) of the reaction? Explain. [2 marks]
@@ -216,17 +224,6 @@ available catalyst surface area, not on $[H_{2}O_{2}]$.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Kinetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Speed vs. possibility:** Kinetics asks "how fast?" while thermodynamics asks "is it possible?", a reaction can be thermodynamically favorable but kinetically frozen (like diamond turning to graphite).
@@ -242,13 +239,17 @@ flowchart TD
 The reaction $2NO_{2}(g) + F_{2}(g) \rightarrow 2NO_{2}F(g)$ has the experimentally determined rate
 equation:
 
-$$\text{Rate} = k[NO_{2}][F_{2}]$$
+$$
+\text{Rate} = k[NO_{2}][F_{2}]
+$$
 
 (a) What is the overall order of the reaction? [1 mark]
 
 (b) A student proposes the following one-step mechanism:
 
-$$2NO_{2} + F_{2} \rightarrow 2NO_{2}F$$
+$$
+2NO_{2} + F_{2} \rightarrow 2NO_{2}F
+$$
 
 Explain why this proposed mechanism is **inconsistent** with the rate equation. [2 marks]
 
@@ -271,14 +272,16 @@ tripled while $[F_{2}]$ is kept constant, by what factor does the rate change? [
 
 **Worked Solution**
 
-(a) Overall order = $1 + 1 = 2$ (first order in $NO_{2}$First order in $F_{2}$).
+(a) Overall order = $1 + 1 = 2$ (first order in $NO_{2}$ First order in $F_{2}$).
 
 (b) If the reaction occurred in a single step involving the collision of $2NO_{2}$ and $F_{2}$
 simultaneously (a termolecular collision), the rate equation would be:
 
-$$\text{Rate} = k[NO_{2}]^{2}[F_{2}]$$
+$$
+\text{Rate} = k[NO_{2}]^{2}[F_{2}]
+$$
 
-This predicts **second order** with respect to $NO_{2}$Which contradicts the experimentally
+This predicts **second order** with respect to $NO_{2}$ Which contradicts the experimentally
 determined rate equation (first order in $NO_{2}$). Therefore, the one-step mechanism is
 inconsistent.
 
@@ -292,11 +295,13 @@ inconsistent.
 
 The rate equation is determined by the rate-determining step:
 
-$$\text{Rate} = k[NO_{2}][F_{2}]$$
+$$
+\text{Rate} = k[NO_{2}][F_{2}]
+$$
 
 This matches the experimental rate equation.
 
-(d) Since the reaction is first order in $NO_{2}$Tripling $[NO_{2}]$ will **triple** the rate
+(d) Since the reaction is first order in $NO_{2}$ Tripling $[NO_{2}]$ will **triple** the rate
 (factor of 3).
 
 ---
@@ -314,7 +319,9 @@ This matches the experimental rate equation.
 
 **Question**
 
-For the reaction $A \rightarrow B + C$The following data were collected:
+For the reaction $A \rightarrow B + C$ The following data were collected:
+
+<div class="table-wrap">
 
 | Time (s) | $[A]$ (mol/dm$^{3}$) |
 | -------- | -------------------- |
@@ -323,6 +330,8 @@ For the reaction $A \rightarrow B + C$The following data were collected:
 | 200      | 0.45                 |
 | 300      | 0.34                 |
 | 400      | 0.25                 |
+
+</div>
 
 (a) Plot a concentration-time graph and determine the order of reaction with respect to $A$. [3
 marks]
@@ -359,6 +368,8 @@ of decrease also decreases proportionally). This is characteristic of a **first-
 
 For a first-order reaction, a plot of $\ln[A]$ vs time should be a straight line:
 
+<div class="table-wrap">
+
 | Time (s) | $[A]$ | $\ln[A]$ |
 | -------- | ----- | -------- |
 | 0        | 0.80  | $-0.223$ |
@@ -366,6 +377,8 @@ For a first-order reaction, a plot of $\ln[A]$ vs time should be a straight line
 | 200      | 0.45  | $-0.799$ |
 | 300      | 0.34  | $-1.079$ |
 | 400      | 0.25  | $-1.386$ |
+
+</div>
 
 The $\ln[A]$ values decrease approximately linearly (drops by about 0.29 per 100 s interval),
 confirming **first order**.
@@ -376,7 +389,9 @@ For a first-order reaction: Rate $= k[A]$.
 
 From the gradient of $\ln[A]$ vs $t$:
 
-$$k = \frac{(-1.386) - (-0.223)}{400 - 0} = \frac{-1.163}{400} = 2.91 \times 10^{-3} \text{ s}^{-1}$$
+$$
+k = \frac{(-1.386) - (-0.223)}{400 - 0} = \frac{-1.163}{400} = 2.91 \times 10^{-3} \text{ s}^{-1}
+$$
 
 Rate at $t = 200$ s:
 $k[A] = 2.91 \times 10^{-3} \times 0.45 = 1.31 \times 10^{-3} \text{ mol dm}^{-3} \text{ s}^{-1}$
@@ -414,7 +429,9 @@ $1.0 \times 10^{-2}$ s$^{-1}$.
 
 (a) Calculate the activation energy for this reaction using the Arrhenius equation:
 
-$$\ln\left(\frac{k_{2}}{k_{1}}\right) = \frac{E_{a}}{R}\left(\frac{1}{T_{1}} - \frac{1}{T_{2}}\right)$$
+$$
+\ln\left(\frac{k_{2}}{k_{1}}\right) = \frac{E_{a}}{R}\left(\frac{1}{T_{1}} - \frac{1}{T_{2}}\right)
+$$
 
 ($R = 8.314$ J mol$^{-1}$ K$^{-1}$) [4 marks]
 
@@ -437,33 +454,53 @@ all molecules will have energy above $E_{a}$." Evaluate this statement. [2 marks
 **Worked Solution**
 
 (a)
-$$\ln\left(\frac{1.0 \times 10^{-2}}{2.5 \times 10^{-3}}\right) = \frac{E_{a}}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right)$$
+$$
+\ln\left(\frac{1.0 \times 10^{-2}}{2.5 \times 10^{-3}}\right) = \frac{E_{a}}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right)
+$$
 
-$$\ln(4) = \frac{E_{a}}{8.314}\left(\frac{320 - 300}{300 \times 320}\right)$$
+$$
+\ln(4) = \frac{E_{a}}{8.314}\left(\frac{320 - 300}{300 \times 320}\right)
+$$
 
-$$1.386 = \frac{E_{a}}{8.314} \times \frac{20}{96000}$$
+$$
+1.386 = \frac{E_{a}}{8.314} \times \frac{20}{96000}
+$$
 
-$$1.386 = \frac{E_{a}}{8.314} \times 2.083 \times 10^{-4}$$
+$$
+1.386 = \frac{E_{a}}{8.314} \times 2.083 \times 10^{-4}
+$$
 
-$$E_{a} = \frac{1.386 \times 8.314}{2.083 \times 10^{-4}}$$
+$$
+E_{a} = \frac{1.386 \times 8.314}{2.083 \times 10^{-4}}
+$$
 
-$$E_{a} = \frac{11.523}{2.083 \times 10^{-4}} = 55320 \text{ J/mol} = 55.3 \text{ kJ/mol}$$
+$$
+E_{a} = \frac{11.523}{2.083 \times 10^{-4}} = 55320 \text{ J/mol} = 55.3 \text{ kJ/mol}
+$$
 
 (b) Using the Arrhenius equation with $T_{1} = 300$ K, $k_{1} = 2.5 \times 10^{-3}$
 s$^{-1}$, $T_{2} = 340$ K:
 
-$$\ln\left(\frac{k_{2}}{2.5 \times 10^{-3}}\right) = \frac{55320}{8.314}\left(\frac{1}{300} - \frac{1}{340}\right)$$
+$$
+\ln\left(\frac{k_{2}}{2.5 \times 10^{-3}}\right) = \frac{55320}{8.314}\left(\frac{1}{300} - \frac{1}{340}\right)
+$$
 
-$$= 6654.7 \times \frac{40}{102000} = 6654.7 \times 3.922 \times 10^{-4} = 2.610$$
+$$
+= 6654.7 \times \frac{40}{102000} = 6654.7 \times 3.922 \times 10^{-4} = 2.610
+$$
 
-$$\frac{k_{2}}{2.5 \times 10^{-3}} = e^{2.610} = 13.60$$
+$$
+\frac{k_{2}}{2.5 \times 10^{-3}} = e^{2.610} = 13.60
+$$
 
-$$k_{2} = 13.60 \times 2.5 \times 10^{-3} = 3.40 \times 10^{-2} \text{ s}^{-1}$$
+$$
+k_{2} = 13.60 \times 2.5 \times 10^{-3} = 3.40 \times 10^{-2} \text{ s}^{-1}
+$$
 
 (c) The statement is an **overgeneralisation**. While it is true that at higher temperatures, a
-larger proportion of molecules have energy above $E_{a}$The Maxwell-Boltzmann distribution always
+larger proportion of molecules have energy above $E_{a}$ The Maxwell-Boltzmann distribution always
 has a tail extending to very low energies. At any finite temperature, some molecules will always
-have energy below $E_{a}$. Furthermore, even if all molecules exceed $E_{a}$The rate still depends
+have energy below $E_{a}$. Furthermore, even if all molecules exceed $E_{a}$ The rate still depends
 on the **collision frequency** and the correct **orientation** of collisions (the steric/entropy
 factor). The rate would increase dramatically but would not be truly "instantaneous." In practice,
 at very high temperatures, other factors such as reactant decomposition or competing reactions may

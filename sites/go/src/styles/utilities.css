@@ -128,6 +128,7 @@
 }
 
 /* Table Styling */
+.sl-markdown-content .table-wrap,
 .sl-markdown-content .table-wrapper,
 .sl-markdown-content .wn-table-wrapper,
 .sl-markdown-content div:has(> table) {
@@ -135,6 +136,10 @@
   -webkit-overflow-scrolling: touch;
   margin: 1.5rem 0;
   max-width: 100%;
+  /* Without this the wrapper inherits `min-width: auto` from being a grid item
+     and refuses to shrink below the table's intrinsic width, so the overflow
+     escapes to the document instead of scrolling here. */
+  min-width: 0;
 }
 .sl-markdown-content table {
   width: 100%;

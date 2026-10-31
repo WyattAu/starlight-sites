@@ -134,6 +134,13 @@ const topics = flattenSidebar(starlightRoute.sidebar ?? [])
   .landing .landing-frame {
     padding-top: var(--sl-nav-height);
     padding-inline-start: 0;
+    /* Starlight's stock .main-frame is sized for a sidebar-and-content grid.
+       On the landing variant there is no sidebar, so the frame must span the
+       viewport -- otherwise the full-bleed hero renders at ~69% width with an
+       empty panel to its right. Verified by forcing this in the browser:
+       992px -> 1440px at a 1440px viewport. */
+    width: 100%;
+    max-width: none;
   }
   .landing-cta {
     display: flex;

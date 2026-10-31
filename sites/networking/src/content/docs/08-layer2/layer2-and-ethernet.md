@@ -46,7 +46,7 @@ Layer 3. Conversely, it takes Layer 3 packets, wraps them in a frame, and hands 
 Pattern to Layer 1 for transmission.
 
 The Layer 2 header contains the destination and source MAC addresses. The Layer 3 header contains
-The destination and source IP addresses. Both are needed for a frame to traverse a LAN and for the
+the destination and source IP addresses. Both are needed for a frame to traverse a LAN and for the
 Receiving host to process the packet correctly.
 
 ## Ethernet History
@@ -73,9 +73,11 @@ Ethernet II uses an EtherType field (where the value $\ge$ 1536 indicates the up
 
 In practice, the industry converged on Ethernet II framing. When you see an Ethernet frame on a
 Modern network, it is almost certainly Ethernet II (also called DIX Ethernet), not 802.3 with SNAP
-Or 802.2 LLC.
+or 802.2 LLC.
 
 ### Evolution of Speeds
+
+<div class="table-wrap">
 
 | Standard   | Year | Speed    | Medium             | Max Segment |
 | ---------- | ---- | -------- | ------------------ | ----------- |
@@ -87,6 +89,8 @@ Or 802.2 LLC.
 | 10GBASE-T  | 2006 | 10 Gbps  | Cat6a UTP          | 100 m       |
 | 40GBASE-T  | 2018 | 40 Gbps  | Cat8 UTP           | 30 m        |
 
+</div>
+
 Each generation maintained backward compatibility at the physical layer while dramatically
 Increasing throughput. The shift from shared medium (coax, hubs) to switched (full-duplex point-to-
 Point links) was the most operationally significant change.
@@ -94,7 +98,7 @@ Point links) was the most operationally significant change.
 ## Ethernet II Frame Structure
 
 Every Ethernet frame transmitted on a LAN follows the same structure. The frame is transmitted
-Most-significant byte first on the wire (big-endian bit order within each byte).
+most-significant byte first on the wire (big-endian bit order within each byte).
 
 ```
 +----------+-----+-------------+------------+-----------+---------+-----+
@@ -114,7 +118,7 @@ Preamble is not counted as part of the frame for minimum/maximum size calculatio
 ### Start Frame Delimiter -- SFD (1 byte)
 
 The SFD is a single byte: `10101011`. The last two bits signal the end of the preamble and the start
-Of the actual frame. The receiver uses this byte to identify exactly where the destination MAC
+of the actual frame. The receiver uses this byte to identify exactly where the destination MAC
 Address begins.
 
 ### Destination MAC Address (6 bytes)
@@ -130,6 +134,8 @@ Multicast or broadcast address).
 
 Identifies the protocol encapsulated in the payload. Common values:
 
+<div class="table-wrap">
+
 | EtherType (hex) | Protocol     |
 | --------------- | ------------ |
 | 0x0800          | IPv4         |
@@ -140,6 +146,8 @@ Identifies the protocol encapsulated in the payload. Common values:
 | 0x8864          | PPPoE        |
 | 0x8847          | MPLS Unicast |
 | 0x88CC          | LLDP         |
+
+</div>
 
 When the value is $\le$ 1500 (0x05DC), the field is interpreted as a Length field (802.3 frame)
 Rather than an EtherType, and the encapsulated protocol is identified by the LLC/SNAP header.
@@ -156,8 +164,8 @@ The maximum transmission unit (MTU) for standard Ethernet is 1500 bytes. Jumbo f
 ### Frame Check Sequence -- FCS (4 bytes)
 
 A 32-bit CRC (Cyclic Redundancy Check) computed over the entire frame (from Destination MAC through
-The end of the Payload). The FCS is appended by the sender and verified by the receiver. If the CRC
-Does not match, the frame is silently dropped. Layer 2 does not request retransmission -- that is
+the end of the Payload). The FCS is appended by the sender and verified by the receiver. If the CRC
+does not match, the frame is silently dropped. Layer 2 does not request retransmission -- that is
 TCP's responsibility (Layer 4).
 
 The CRC-32 polynomial used is:
@@ -262,7 +270,7 @@ When a collision is detected:
 ### Binary Exponential Backoff
 
 After the $n$-th collision ($n = 1, 2, 3, \ldots$), the station picks a random integer $r$ uniformly
-From the range $\{0, 1, \ldots, 2^k - 1\}$ where:
+from the range $\{0, 1, \ldots, 2^k - 1\}$ where:
 
 $$
 K = \min(n, 10)
@@ -271,7 +279,7 @@ $$
 The station waits for $r \times 512$ bit times before retransmitting. A "bit time" at 10 Mbps is 100
 Nanoseconds, so each slot time is $512 \times 100\mathrm{ ns = 51.2\,\mu\mathrm{s$.
 
-The maximum backoff occurs after 10 collisions: $k = 10$Giving a range of $\{0, 1, \ldots,
+The maximum backoff occurs after 10 collisions: $k = 10$ Giving a range of $\{0, 1, \ldots,
 1023\}$.
 After 16 consecutive collisions, the station gives up and reports an error to the upper layer.
 
@@ -287,7 +295,7 @@ Backoff range: $\{0, 1, 2, \ldots, 2^4 - 1\} = \{0, 1, 2, \ldots, 15\}$
 
 Slot time = 512 bit times = 51.2 microseconds
 
-If the random number selected is $r = 7$The station waits:
+If the random number selected is $r = 7$ The station waits:
 
 $$
 7 \times 51.2\,\mu\mathrm{s = 358.4\,\mu\mathrm{s
@@ -301,8 +309,8 @@ Before attempting retransmission.
 
 The minimum frame size of 64 bytes (46 bytes payload + 14 bytes header + 4 bytes FCS) is directly
 Tied to CSMA/CD. The worst-case round-trip propagation delay on a 10 Mbps Ethernet segment (2500 m
-With 4 repeaters) is approximately 51.2 microseconds, which is exactly 512 bit times. A station must
-Be able to detect a collision before it finishes transmitting the minimum-size frame. At 10 Mbps,
+with 4 repeaters) is approximately 51.2 microseconds, which is exactly 512 bit times. A station must
+be able to detect a collision before it finishes transmitting the minimum-size frame. At 10 Mbps,
 Transmitting 64 bytes takes:
 
 $$
@@ -311,10 +319,12 @@ $$
 
 This ensures that any collision on the segment will be detected before the transmitting station
 Finishes sending the minimum frame. If the frame were shorter, a station at one end of the segment
-Might finish transmitting before the collision signal from the far end arrives, leading to an
+might finish transmitting before the collision signal from the far end arrives, leading to an
 Undetected collision.
 
 ## Full-Duplex vs Half-Duplex Ethernet
+
+<div class="table-wrap">
 
 | Property           | Half-Duplex                       | Full-Duplex                                   |
 | ------------------ | --------------------------------- | --------------------------------------------- |
@@ -325,15 +335,19 @@ Undetected collision.
 | Cable              | Single pair (old coax) or 2 pairs | Separate TX/RX pairs                          |
 | Modern use         | Legacy/hubs only                  | Switches, virtually universal                 |
 
+</div>
+
 Full-duplex Ethernet eliminates collisions entirely because each station has dedicated transmit and
 Receive paths. A switch port connected to a single host is inherently full-duplex -- there is no
 Shared medium to contend with. CSMA/CD is disabled on full-duplex links.
 
 Half-duplex only exists when a hub is in the path. Hubs are physical-layer repeaters that forward
-All received signals to all other ports. Every port on a hub is in the same collision domain. Hubs
-Have been obsolete for over two decades.
+all received signals to all other ports. Every port on a hub is in the same collision domain. Hubs
+have been obsolete for over two decades.
 
 ## Ethernet Standards Comparison
+
+<div class="table-wrap">
 
 | Standard   | Speed    | Medium    | Encoding        | Pairs | Max Distance | Notes                       |
 | ---------- | -------- | --------- | --------------- | ----- | ------------ | --------------------------- |
@@ -343,9 +357,13 @@ Have been obsolete for over two decades.
 | 10GBASE-T  | 10 Gbps  | Cat6a UTP | 16QAM / DSQ128  | 4     | 100 m        | 400 MHz bandwidth           |
 | 40GBASE-T  | 40 Gbps  | Cat8 UTP  | PAM-16          | 4     | 30 m         | 2 GHz bandwidth             |
 
+</div>
+
 ### Fiber Variants
 
 Fiber optic Ethernet variants are common in data center and campus backbone deployments:
+
+<div class="table-wrap">
 
 | Standard     | Speed    | Fiber Type             | Wavelength  | Max Distance      |
 | ------------ | -------- | ---------------------- | ----------- | ----------------- |
@@ -356,6 +374,8 @@ Fiber optic Ethernet variants are common in data center and campus backbone depl
 | 40GBASE-SR4  | 40 Gbps  | Multimate (50 um)      | 850 nm      | 100 m (OM3)       |
 | 100GBASE-LR4 | 100 Gbps | Single-mode (9 um)     | 4 x 1310 nm | 10 km             |
 | 400GBASE-DR4 | 400 Gbps | Single-mode (9 um)     | 4 x 1310 nm | 500 m             |
+
+</div>
 
 ### 1000BASE-T Details
 
@@ -441,7 +461,7 @@ Countermeasures:
 
 A Virtual Local Area Network (VLAN) is a logical broadcast domain created at Layer 2. Devices in the
 Same VLAN can communicate with each other as if they were on the same physical switch, even if they
-Are on different switches. Devices in different VLANs cannot communicate at Layer 2 -- they require
+are on different switches. Devices in different VLANs cannot communicate at Layer 2 -- they require
 A router (Layer 3 device) for inter-VLAN routing.
 
 ### 802.1Q Tagging
@@ -470,12 +490,16 @@ Correctly.
 
 ### Access Ports vs Trunk Ports
 
+<div class="table-wrap">
+
 | Property        | Access Port                                              | Trunk Port                              |
 | --------------- | -------------------------------------------------------- | --------------------------------------- |
 | Tagged frames   | No -- strips tags on egress, expects untagged on ingress | Yes -- carries multiple VLANs with tags |
 | VLAN membership | Single VLAN (access VLAN)                                | Multiple VLANs (allowed VLAN list)      |
 | Native VLAN     | N/A (or assigns frames to access VLAN)                   | Untagged traffic mapped to native VLAN  |
 | Typical use     | End devices (PCs, printers, servers)                     | Switch-to-switch, switch-to-router      |
+
+</div>
 
 Configuration example (Cisco):
 
@@ -531,7 +555,7 @@ Prevention:
 
 STP (IEEE 802.1D) prevents Layer 2 loops in networks with redundant paths. Without STP, a loop
 Creates a broadcast storm: frames circulate indefinitely, consuming all bandwidth and bringing down
-The network.
+the network.
 
 ### Root Bridge Election
 
@@ -570,6 +594,8 @@ This sets Switch A's priority to 4096, making its BID lower than Switch B's 8192
 
 ### Port States (802.1D)
 
+<div class="table-wrap">
+
 | State      | Forwards Data | Learns MACs | Duration             |
 | ---------- | ------------- | ----------- | -------------------- |
 | Disabled   | No            | No          | Administrative       |
@@ -577,6 +603,8 @@ This sets Switch A's priority to 4096, making its BID lower than Switch B's 8192
 | Listening  | No            | No          | Forward delay (15 s) |
 | Learning   | No            | Yes         | Forward delay (15 s) |
 | Forwarding | Yes           | Yes         | Stable               |
+
+</div>
 
 The total time from blocking to forwarding is the **max age** (20 s) + 2 x **forward delay** (30 s)
 = 50 seconds in the worst case. This is painfully slow for modern networks.
@@ -595,6 +623,8 @@ STP uses BPDUs to exchange topology information. There are two types:
 Rapid Spanning Tree Protocol (RSTP, IEEE 802.1w) reduces convergence time from 50 seconds to a few
 Seconds or less. Key improvements:
 
+<div class="table-wrap">
+
 | Feature             | STP (802.1D)                                            | RSTP (802.1w)                            |
 | ------------------- | ------------------------------------------------------- | ---------------------------------------- |
 | Port states         | 5 (blocking, listening, learning, forwarding, disabled) | 3 (discarding, learning, forwarding)     |
@@ -602,6 +632,8 @@ Seconds or less. Key improvements:
 | Sync mechanism      | Timer-based                                             | Proposal/Agreement handshake             |
 | Edge ports          | No concept                                              | Explicitly defined (PortFast equivalent) |
 | Link type detection | No                                                      | Point-to-point vs shared                 |
+
+</div>
 
 RSTP uses a proposal/agreement mechanism: when a port becomes designated, it proposes itself as the
 Forwarding port. The downstream switch acknowledges (agrees) only if all its non-edge ports are in
@@ -624,7 +656,7 @@ Rogue switch that could become the root bridge.
 ### Purpose
 
 Link aggregation (also called port channeling, bonding, or teaming) combines multiple physical links
-Into a single logical link. This provides:
+into a single logical link. This provides:
 
 - **Increased bandwidth.** Aggregate throughput of all member links.
 - **Redundancy.** If one link fails, traffic is redistributed to the remaining links.
@@ -633,7 +665,7 @@ Into a single logical link. This provides:
 ### LACP (802.3ad / 802.1AX)
 
 The Link Aggregation Control Protocol (LACP) is defined in IEEE 802.3ad (originally) and superseded
-By 802.1AX. LACP provides dynamic negotiation of link aggregation groups between two devices.
+by 802.1AX. LACP provides dynamic negotiation of link aggregation groups between two devices.
 
 Each port has an LACP port priority (default 32768, configurable in increments of 1) and an
 Administrative key. Ports with the same key on the same device form a LAG (Link Aggregation Group).
@@ -683,7 +715,7 @@ port-channel load-balance src-dst-port  ! hash on src+dst port (Layer 4)
 ### Operation
 
 ARP resolves IPv4 addresses to MAC addresses. When a host needs to send a packet to an IP address on
-The same subnet, it uses ARP to discover the destination's MAC address.
+the same subnet, it uses ARP to discover the destination's MAC address.
 
 1. The sender checks its **ARP cache** for an existing mapping.
 2. If no mapping exists, the sender broadcasts an **ARP Request**: "Who has 192.168.1.100? Tell
@@ -770,7 +802,7 @@ Countermeasures:
 An MTU mismatch between two devices on the same path causes black holes for large packets. If a
 Switch is configured with an MTU of 9000 (jumbo frames) but the endpoint is at 1500, the endpoint
 Sends packets that the switch can forward, but intermediate devices with 1500-byte MTU may drop
-Them. If ICMP is blocked, Path MTU Discovery fails and the connection stalls.
+them. If ICMP is blocked, Path MTU Discovery fails and the connection stalls.
 
 ### VLAN 1 as Native VLAN
 
@@ -920,7 +952,7 @@ interface Gi0/25
 ```
 
 Note: BPDU Guard is explicitly enabled on Gi0/1 per the requirement. The remaining ports should also
-Have it enabled in production. The native VLAN 999 should not have any active ports assigned.
+have it enabled in production. The native VLAN 999 should not have any active ports assigned.
 
 </details>
 
@@ -948,7 +980,7 @@ A) The root bridge has the lowest Bridge ID (priority + MAC). Comparing prioriti
 SW4 is the root bridge.
 
 B) If SW4 fails, the remaining switches are SW1 (32768), SW2 (16384), and SW3 (16384). SW2 and SW3
-Have the same priority, so the MAC address is the tiebreaker. SW2 has MAC `00:00:00:00:00:02` and
+have the same priority, so the MAC address is the tiebreaker. SW2 has MAC `00:00:00:00:00:02` and
 SW3 has MAC `00:00:00:00:00:03`. Since `02 < 03`**SW2 becomes the root bridge**.
 
 </details>
@@ -967,7 +999,7 @@ Handling thousands of short-lived connections?
 
 A) **1 Gbps.** LACP distributes traffic based on a hash. A single TCP flow (single source IP, dest
 IP, source port, dest port combination) always hashes to the same link. The single backup stream
-Cannot utilize more than one physical link.
+cannot utilize more than one physical link.
 
 B) Use multiple parallel TCP streams (e.g., `tar | ssh` with multiple connections, or a tool like
 `iperf -P 4`). Each stream may hash to a different link, utilizing more of the aggregate bandwidth.
@@ -981,7 +1013,7 @@ Subnet to the same link.
 ### Problem 7: ARP Cache and Gratuitous ARP
 
 A server with IP 192.168.1.100 and MAC 00:11:22:33:44:55 is migrated to a new physical server with
-The same IP but a new MAC address 00:AA:BB:CC:DD:EE. The default gateway (192.168.1.1) still has the
+the same IP but a new MAC address 00:AA:BB:CC:DD:EE. The default gateway (192.168.1.1) still has the
 Old ARP entry cached.
 
 A) Why might connectivity fail initially? b) How does a gratuitous ARP solve this? c) If the
@@ -991,22 +1023,22 @@ Gateway's ARP cache timeout is 1200 seconds, what is the maximum downtime withou
 <summary>Answer</summary>
 
 A) The gateway has `192.168.1.100 -> 00:11:22:33:44:55` cached. It sends frames for the server to
-The old MAC address, which no longer exists. The new server never receives the frames.
+the old MAC address, which no longer exists. The new server never receives the frames.
 
 B) The new server sends a gratuitous ARP: an ARP request (or reply) with sender IP = 192.168.1.100
-And sender MAC = 00:AA:BB:CC:DD:EE. The gateway receives this and updates its ARP cache with the new
+and sender MAC = 00:AA:BB:CC:DD:EE. The gateway receives this and updates its ARP cache with the new
 MAC address.
 
 C) Without gratuitous ARP, the gateway would continue sending frames to the old MAC for up to 1200
 Seconds (20 minutes), until the ARP entry expires and the gateway sends a new ARP request. During
-This time, connectivity to the server would be completely down.
+this time, connectivity to the server would be completely down.
 
 </details>
 
 ### Problem 8: 802.1Q Frame Size
 
 A standard untagged Ethernet frame carries 1500 bytes of payload. What is the total frame size on
-The wire when an 802.1Q tag is added? Include all fields.
+the wire when an 802.1Q tag is added? Include all fields.
 
 <details>
 <summary>Answer</summary>
@@ -1027,20 +1059,9 @@ Total bits on wire (including preamble/SFD): $(8 + 1522) \times 8 = 12240$ bits.
 
 The 802.1Q tag adds 4 bytes to the frame, increasing the maximum from 1518 to 1522 bytes. This is
 Sometimes called a "baby giant" frame. Switches that do not support 802.1Q will drop frames larger
-Than 1518 bytes.
+than 1518 bytes.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[Layer2 And Ethernet] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -1055,13 +1076,7 @@ key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

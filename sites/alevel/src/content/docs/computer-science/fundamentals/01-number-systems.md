@@ -25,7 +25,7 @@ categories:
 ### Definition
 
 A **positional number system** represents a number as a sequence of digits
-$d_{n-1}d_{n-2}\ldots d_1d_0$ in base $b$Where the value of the number is:
+$d_{n-1}d_{n-2}\ldots d_1d_0$ in base $b$ Where the value of the number is:
 
 $$
 N = \sum_{i=0}^{n-1} d_i \cdot b^i
@@ -36,6 +36,8 @@ the **least significant digit** (LSD) is $d_0$.
 
 The bases relevant to A Level Computer Science are:
 
+<div class="table-wrap">
+
 | Base | Name   | Digits Used           |
 | ---- | ------ | --------------------- |
 | 10   | Denary | 0, 1, 2, ..., 9       |
@@ -43,13 +45,15 @@ The bases relevant to A Level Computer Science are:
 | 8    | Octal  | 0, 1, 2, ..., 7       |
 | 16   | Hex    | 0–9, A, B, C, D, E, F |
 
+</div>
+
 We use subscript notation to denote the base: $1011_2 = 11_{10}$.
 
 ### Conversion Between Bases
 
 #### Base $b$ to Denary
 
-**Algorithm.** Given digits $d_{n-1}\ldots d_0$ in base $b$Compute:
+**Algorithm.** Given digits $d_{n-1}\ldots d_0$ in base $b$ Compute:
 
 $$
 N = \sum_{i=0}^{n-1} d_i \cdot b^i
@@ -63,7 +67,9 @@ Iterations.
 <details>
 <summary>Example: Convert $1A3_{16}$ to denary</summary>
 
-$$1 \times 16^2 + 10 \times 16^1 + 3 \times 16^0 = 256 + 160 + 3 = 419_{10}$$
+$$
+1 \times 16^2 + 10 \times 16^1 + 3 \times 16^0 = 256 + 160 + 3 = 419_{10}
+$$
 
 </details>
 
@@ -83,15 +89,19 @@ $N = d_0 + b \cdot N'$ So $d_0$ is indeed the coefficient of $b^0$.
 
 _Inductive step._ Assume after $k$ steps we have
 $N = d_0 + d_1 b + \cdots + d_{k-1}b^{k-1} + b^k \cdot N_k$ where $N_k = \lfloor N / b^k \rfloor$.
-The next step computes $d_k = N_k \bmod b$ and $N_{k+1} = \lfloor N_k / b \rfloor$Giving
+The next step computes $d_k = N_k \bmod b$ and $N_{k+1} = \lfloor N_k / b \rfloor$ Giving
 $N_k = d_k + b \cdot N_{k+1}$. Substituting:
 
-$$N = \sum_{i=0}^{k-1} d_i b^i + b^k(d_k + b \cdot N_{k+1}) = \sum_{i=0}^{k} d_i b^i + b^{k+1} N_{k+1}$$
+$$
+N = \sum_{i=0}^{k-1} d_i b^i + b^k(d_k + b \cdot N_{k+1}) = \sum_{i=0}^{k} d_i b^i + b^{k+1} N_{k+1}
+$$
 
-This maintains the invariant. When $N_k = 0$The representation is complete.
+This maintains the invariant. When $N_k = 0$ The representation is complete.
 
 <details>
 <summary>Example: Convert $156_{10}$ to binary</summary>
+
+<div class="table-wrap">
 
 | Step | $N$ | $N \bmod 2$ | $\lfloor N/2 \rfloor$ |
 | ---- | --- | ----------- | --------------------- |
@@ -104,14 +114,16 @@ This maintains the invariant. When $N_k = 0$The representation is complete.
 | 7    | 2   | 0           | 1                     |
 | 8    | 1   | 1           | 0                     |
 
+</div>
+
 Reading bottom to top: $156_{10} = 10011100_2$
 
 </details>
 
 #### Binary to Hexadecimal (and vice versa)
 
-Since $16 = 2^4$Each hex digit corresponds to exactly 4 binary digits. Group binary digits from
-Right to left in groups of 4, then convert each group.
+Since $16 = 2^4$ Each hex digit corresponds to exactly 4 binary digits. Group binary digits from
+right to left in groups of 4, then convert each group.
 
 <details>
 <summary>Example: Convert $10111011011_2$ to hex</summary>
@@ -139,8 +151,8 @@ Result: $001111110111_2 = 11111110111_2$
 
 #### Octal Conversions
 
-Since $8 = 2^3$Each octal digit maps to exactly 3 binary digits. Convert by grouping in 3s (or
-Multiplying/dividing by 8).
+Since $8 = 2^3$ Each octal digit maps to exactly 3 binary digits. Convert by grouping in 3s (or
+multiplying/dividing by 8).
 
 <hr />
 
@@ -149,6 +161,8 @@ Multiplying/dividing by 8).
 ### Binary Addition
 
 We add bitwise from right to left, with carries:
+
+<div class="table-wrap">
 
 | $A$ | $B$ | $C_{in}$ | Sum | $C_{out}$ |
 | --- | --- | -------- | --- | --------- |
@@ -160,6 +174,8 @@ We add bitwise from right to left, with carries:
 | 1   | 0   | 1        | 0   | 1         |
 | 1   | 1   | 0        | 0   | 1         |
 | 1   | 1   | 1        | 1   | 1         |
+
+</div>
 
 **Proposition (Carry propagation).** The carry into bit position $i$ depends only on bits $0$
 Through $i-1$.
@@ -194,18 +210,22 @@ Binary subtraction can be performed using two's complement (see below).
 ### Motivation
 
 We need a way to represent both positive and negative integers in binary, using a fixed number of
-Bits.
+bits.
 
 ### Definition
 
 For an $n$-bit two's complement representation, the range of representable integers is:
 
-$$[-2^{n-1},\ 2^{n-1} - 1]$$
+$$
+[-2^{n-1},\ 2^{n-1} - 1]
+$$
 
 The representation of a non-negative integer $x$ is its standard $n$-bit binary Representation. The
 representation of a negative integer $-x$ (where $x \gt 0$) is:
 
-$$\mathrm{TwosComp}_n(-x) = 2^n - x$$
+$$
+\mathrm{TwosComp}_n(-x) = 2^n - x
+$$
 
 ### Derivation: Why $\bar{x} + 1$ Works
 
@@ -214,14 +234,18 @@ Complement representation of $-x$ equals $\bar{x} + 1$ (where $\bar{x}$ is the b
 $n$-bit representation of $x$ And $+1$ is binary addition).
 
 **Proof.** The $n$-bit representation of $x$ has bits $x_{n-1}\ldots x_0$. The bitwise complement
-$\bar{x}$ has bits $\bar{x}_{n-1}\ldots\bar{x}_0$Where $\bar{x}_i = 1 - x_i$. The value of $\bar{x}$
+$\bar{x}$ has bits $\bar{x}_{n-1}\ldots\bar{x}_0$ Where $\bar{x}_i = 1 - x_i$. The value of $\bar{x}$
 as an unsigned $n$-bit number is:
 
-$$\bar{x} = \sum_{i=0}^{n-1}(1 - x_i) \cdot 2^i = \sum_{i=0}^{n-1} 2^i - \sum_{i=0}^{n-1} x_i \cdot 2^i = (2^n - 1) - x$$
+$$
+\bar{x} = \sum_{i=0}^{n-1}(1 - x_i) \cdot 2^i = \sum_{i=0}^{n-1} 2^i - \sum_{i=0}^{n-1} x_i \cdot 2^i = (2^n - 1) - x
+$$
 
 Therefore:
 
-$$\bar{x} + 1 = (2^n - 1) - x + 1 = 2^n - x$$
+$$
+\bar{x} + 1 = (2^n - 1) - x + 1 = 2^n - x
+$$
 
 This is exactly the definition of the two's complement of $-x$. $\square$
 
@@ -229,17 +253,21 @@ This is exactly the definition of the two's complement of $-x$. $\square$
 
 **Proof.**
 
-$$x + (\bar{x} + 1) = x + 2^n - x = 2^n$$
+$$
+x + (\bar{x} + 1) = x + 2^n - x = 2^n
+$$
 
-In $n$ bits, $2^n$ is represented as $00\ldots0$ with a carry out of bit position $n-1$Which is
-Discarded. Hence the result is $0$. $\square$
+In $n$ bits, $2^n$ is represented as $00\ldots0$ with a carry out of bit position $n-1$ Which is
+discarded. Hence the result is $0$. $\square$
 
 ### Two's Complement Addition and Overflow
 
 When adding two $n$-bit two's complement numbers, the result is correct (modulo $2^n$) if and only
-If no overflow occurs.
+if no overflow occurs.
 
 **Overflow detection rules:**
+
+<div class="table-wrap">
 
 | Condition                           | Overflow? |
 | ----------------------------------- | --------- |
@@ -247,6 +275,8 @@ If no overflow occurs.
 | Negative + Negative = Positive      | Yes       |
 | Positive + Negative                 | Never     |
 | Same signs produce same sign result | No        |
+
+</div>
 
 **Formally:** overflow occurs if and only if the carry into the MSB differs from the carry out of
 The MSB.
@@ -283,7 +313,7 @@ $6 = 0110_2$, $5 = 0101_2$
        1 0 1 1
 ```
 
-Result: $1011_2 = -5$ in two's complement. But $6 + 5 = 11$Which is outside the range $[-8, 7]$ For
+Result: $1011_2 = -5$ in two's complement. But $6 + 5 = 11$ Which is outside the range $[-8, 7]$ For
 4 bits. Overflow detected: positive + positive yielded negative. ✓
 
 </details>
@@ -305,7 +335,9 @@ Number of bits for the fractional part.
 
 For an $n$-bit number with $m$ integer bits and $f$ fractional bits ($n = m + f$):
 
-$$N = \sum_{i=0}^{m-1} b_i \cdot 2^i + \sum_{j=1}^{f} b_{m+j-1} \cdot 2^{-j}$$
+$$
+N = \sum_{i=0}^{m-1} b_i \cdot 2^i + \sum_{j=1}^{f} b_{m+j-1} \cdot 2^{-j}
+$$
 
 Where $b_0$ is the LSB of the integer part and $b_{m+f-1}$ is the MSB.
 
@@ -330,7 +362,7 @@ $011_2 = 0 \times 2^{-1} + 1 \times 2^{-2} + 1 \times 2^{-3} = 0.375_{10}$
 
 Value: $13.375_{10}$
 
-Range: $[0,\ 31.875]$Precision: $0.125$
+Range: $[0,\ 31.875]$ Precision: $0.125$
 
 </details>
 
@@ -343,6 +375,8 @@ Range: $[0,\ 31.875]$Precision: $0.125$
 In **Binary Coded Decimal (BCD)**, each decimal digit (0–9) is represented by its 4-bit binary
 Equivalent.
 
+<div class="table-wrap">
+
 | Decimal | BCD  |
 | ------- | ---- |
 | 0       | 0000 |
@@ -350,6 +384,8 @@ Equivalent.
 | 2       | 0010 |
 | ...     | ...  |
 | 9       | 1001 |
+
+</div>
 
 The codes $1010$ through $1111$ are **invalid** in BCD.
 
@@ -362,7 +398,7 @@ The codes $1010$ through $1111$ are **invalid** in BCD.
 - BCD avoids rounding errors in decimal arithmetic, useful in financial systems
 
 :::caution
-Is $00010010_2$NOT $1100_2$.
+Is $00010010_2$ NOT $1100_2$.
 :::
 
 <hr />
@@ -402,12 +438,16 @@ With ASCII.
 
 **Encoding rules:**
 
+<div class="table-wrap">
+
 | Code Point Range       | Binary Pattern                        | Bytes |
 | ---------------------- | ------------------------------------- | ----- |
 | `U+0000` – `U+007F`    | `0xxxxxxx`                            | 1     |
 | `U+0080` – `U+07FF`    | `110xxxxx 10xxxxxx`                   | 2     |
 | `U+0800` – `U+FFFF`    | `1110xxxx 10xxxxxx 10xxxxxx`          | 3     |
 | `U+10000` – `U+10FFFF` | `11110xxx 10xxxxxx 10xxxxxx 10xxxxxx` | 4     |
+
+</div>
 
 **Properties of UTF-8:**
 
@@ -422,7 +462,7 @@ With ASCII.
 
 $20AC_{16} = 0010\ 0000\ 1010\ 1100_2$
 
-This falls in the range `U+0800`–`U+FFFF`So it uses 3 bytes: `1110xxxx 10xxxxxx 10xxxxxx`.
+This falls in the range `U+0800`–`U+FFFF`. So it uses 3 bytes: `1110xxxx 10xxxxxx 10xxxxxx`.
 
 Fill in the bits from the code point:
 
@@ -441,7 +481,7 @@ Result: `11100010 10000010 10101100` = `E2 82 AC` in hex.
 ### Sign and Magnitude
 
 The MSB represents the sign (0 = positive, 1 = negative), and the remaining bits represent the
-Magnitude.
+magnitude.
 
 - Range for $n$ bits: $[-(2^{n-1} - 1),\ 2^{n-1} - 1]$
 - Two representations of zero: $+0 = 000\ldots0$ and $-0 = 100\ldots0$
@@ -554,7 +594,7 @@ Precision is $2^{-4}$. Range depends on whether signed or unsigned.
 <details>
 <summary>Answer</summary>
 
-Unsigned range: $[0,\ 255.9375]$Precision: $0.0625$ ($2^{-4}$).
+Unsigned range: $[0,\ 255.9375]$ Precision: $0.0625$ ($2^{-4}$).
 
 $01011010_2 = 64 + 16 + 8 + 2 = 90_{10}$
 
@@ -629,7 +669,7 @@ Value: $- (2^4 - 13) = -(16 - 13) = -3$. ✓
 
 The second student is interpreting it as an unsigned number: $8 + 4 + 1 = 13$. This is also valid,
 The bit pattern is the same, but the interpretation differs. Context determines which encoding is
-Used.
+used.
 
 </details>
 
@@ -650,9 +690,9 @@ Let $y = \mathrm{TwosComp}_n(x) = 2^n - x$.
 
 $\mathrm{TwosComp}_n(y) = 2^n - y = 2^n - (2^n - x) = x$. ✓
 
-The exception is $x = -2^{n-1}$Whose two's complement is
-$2^n - (-2^{n-1}) = 2^n + 2^{n-1} = 2^{n-1} \cdot 3$Which exceeds $n$ bits. In $n$-bit arithmetic,
-$2^n - (-2^{n-1}) \bmod 2^n = 2^{n-1}$Which is the bit pattern $100\ldots0$, the same as
+The exception is $x = -2^{n-1}$ Whose two's complement is
+$2^n - (-2^{n-1}) = 2^n + 2^{n-1} = 2^{n-1} \cdot 3$ Which exceeds $n$ bits. In $n$-bit arithmetic,
+$2^n - (-2^{n-1}) \bmod 2^n = 2^{n-1}$ Which is the bit pattern $100\ldots0$, the same as
 $-2^{n-1}$. So $-2^{n-1}$ is its own two's complement.
 
 </details>
@@ -704,26 +744,9 @@ Both inputs are negative and the result is negative, so no overflow.
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[01 Number Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

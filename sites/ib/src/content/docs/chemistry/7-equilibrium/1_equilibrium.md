@@ -29,7 +29,7 @@ tags:
 ### Reversible Reactions
 
 Many reactions are reversible: reactants form products, and products can re-form reactants. This is
-Represented with a double arrow:
+represented with a double arrow:
 
 $$
 \mathrm{A} + \mathrm{B} \rightleftharpoons \mathrm{C} + \mathrm{D}
@@ -50,6 +50,8 @@ At equilibrium:
 
 ### Characteristics of Equilibrium
 
+<div class="table-wrap">
+
 | Property          | Description                          |
 | ----------------- | ------------------------------------ |
 | Forward rate      | Equals reverse rate                  |
@@ -57,6 +59,8 @@ At equilibrium:
 | Can be approached | From either direction                |
 | Dynamic           | Both reactions continue              |
 | Closed system     | Required                             |
+
+</div>
 
 ---
 
@@ -118,11 +122,15 @@ $$
 Q_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b}
 $$
 
+<div class="table-wrap">
+
 | Comparison | Meaning                                       |
 | ---------- | --------------------------------------------- |
 | $Q \lt K$  | Reaction proceeds forward (more products)     |
 | $Q = K$    | System is at equilibrium                      |
 | $Q \gt K$  | Reaction proceeds in reverse (more reactants) |
+
+</div>
 
 ---
 
@@ -135,14 +143,16 @@ $$
 }
 </script>
 
-## Le Chatelier"s Principle
+## Le Chatelier's Principle
 
 ### Statement
 
 If a system at equilibrium is subjected to a change, the system will shift to counteract that change
-And restore equilibrium.
+and restore equilibrium.
 
 ### Effect of Concentration Changes
+
+<div class="table-wrap">
 
 | Change              | System Response           |
 | ------------------- | ------------------------- |
@@ -151,27 +161,37 @@ And restore equilibrium.
 | Increase [product]  | Shift to reactants (left) |
 | Decrease [product]  | Shift to products (right) |
 
+</div>
+
 ### Effect of Pressure Changes (Gases)
+
+<div class="table-wrap">
 
 | Change            | System Response                       |
 | ----------------- | ------------------------------------- |
 | Increase pressure | Shift to side with fewer moles of gas |
 | Decrease pressure | Shift to side with more moles of gas  |
 
+</div>
+
 **Important**: Changing pressure by adding an inert gas does NOT shift the equilibrium (partial
 Pressures of reacting gases are unchanged).
 
 ### Effect of Temperature Changes
 
+<div class="table-wrap">
+
 | Change               | System Response                | Effect on $K$ |
 | -------------------- | ------------------------------ | ------------- |
 | Increase temperature | Shift in endothermic direction | $K$ changes   |
 | Decrease temperature | Shift in exothermic direction  | $K$ changes   |
+
+</div>
 :::
 
 :::caution[Exam Tip]
 Le Chatelier's principle does NOT apply to the equilibrium constant. The equilibrium constant only
-Changes with temperature. Changes in concentration, pressure, or adding a catalyst do NOT change
+changes with temperature. Changes in concentration, pressure, or adding a catalyst do NOT change
 $K$.
 
 ### Effect of a Catalyst
@@ -206,11 +226,15 @@ $448\degree\mathrm{C}$.
 If $1.0\mathrm{ mol}$ of H$_2$ and $1.0\mathrm{ mol}$ of I$_2$ are placed in a $1.0\mathrm{ L}$
 Flask:
 
+<div class="table-wrap">
+
 |             | H$_2$   | I$_2$   | HI    |
 | ----------- | ------- | ------- | ----- |
 | Initial     | 1.0     | 1.0     | 0     |
 | Change      | $-x$    | $-x$    | $+2x$ |
 | Equilibrium | $1.0-x$ | $1.0-x$ | $2x$  |
+
+</div>
 
 $$
 K_c = \frac{(2x)^2}{(1.0-x)(1.0-x)} = \frac{4x^2}{(1.0-x)^2} = 50.5
@@ -255,11 +279,15 @@ $$
 \mathrm{N}_2(\mathrm{g}) + 3\mathrm{H}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{NH}_3(\mathrm{g}) \quad \Delta H = -92\mathrm{ kJ/mol}
 $$
 
+<div class="table-wrap">
+
 | Condition   | Le Chatelier Prediction                     | Industrial Choice                                                  |
 | ----------- | ------------------------------------------- | ------------------------------------------------------------------ |
 | Temperature | Low (exothermic) favours products           | $400\mathrm{--}500\degree\mathrm{C}$ (compromise: reasonable rate) |
 | Pressure    | High (fewer moles of gas on product side)   | $150\mathrm{--}300\mathrm{ atm}$ (compromise: cost/safety)         |
 | Catalyst    | Does not change position but speeds up rate | Iron catalyst                                                      |
+
+</div>
 
 ### The Contact Process
 
@@ -267,11 +295,15 @@ $$
 2\mathrm{SO}_2(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{SO}_3(\mathrm{g}) \quad \Delta H = -197\mathrm{ kJ/mol}
 $$
 
+<div class="table-wrap">
+
 | Condition   | Le Chatelier Prediction   | Industrial Choice                             |
 | ----------- | ------------------------- | --------------------------------------------- |
 | Temperature | Low (exothermic)          | $400\mathrm{--}450\degree\mathrm{C}$          |
 | Pressure    | High (fewer moles of gas) | $1\mathrm{--}2\mathrm{ atm}$ (cost effective) |
 | Catalyst    | V$_2$O$_5$ catalyst       | V$_2$O$_5$                                    |
+
+</div>
 
 ---
 
@@ -292,13 +324,19 @@ $$
 \mathrm{pH} = -\log[\mathrm{H}^+]
 $$
 
+<div class="table-wrap">
+
 | pH      | Description                        |
 | ------- | ---------------------------------- |
 | $\lt 7$ | Acidic                             |
 | $= 7$   | Neutral (at $25\degree\mathrm{C}$) |
 | $\gt 7$ | Basic (alkaline)                   |
 
+</div>
+
 ### Strong and Weak Acids
+
+<div class="table-wrap">
 
 | Property                | Strong Acid             | Weak Acid               |
 | ----------------------- | ----------------------- | ----------------------- |
@@ -307,6 +345,8 @@ $$
 | Equilibrium             | No equilibrium          | Equilibrium established |
 | pH                      | Lower (for same $c$)    | Higher (for same $c$)   |
 | Examples                | HCl, HNO$_3$H$_2$SO$_4$ | CH$_3$COOH, HF, HCN     |
+
+</div>
 
 ### Acid Dissociation Constant ($K_a$)
 
@@ -406,7 +446,7 @@ $$
 ### Definition
 
 A **buffer solution** resists changes in pH when small amounts of acid or base are added. It
-Consists of:
+consists of:
 
 - A weak acid and its conjugate base, OR
 - A weak base and its conjugate acid.
@@ -479,11 +519,15 @@ $$
 An acid-base indicator is a weak acid that has different colours in its protonated and deprotonated
 Forms.
 
+<div class="table-wrap">
+
 | Indicator        | pH Range  | Colour Change         |
 | ---------------- | --------- | --------------------- |
 | Methyl orange    | 3.1--4.4  | Red $\to$ yellow      |
 | Bromothymol blue | 6.0--7.6  | Yellow $\to$ blue     |
 | Phenolphthalein  | 8.3--10.0 | Colourless $\to$ pink |
+
+</div>
 
 ---
 
@@ -507,10 +551,12 @@ $$
 $$
 
 $$
-K_`\{sp}` = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b
+K_{sp} = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b
 $$
 
 ### Common $K_{sp}$ Values
+
+<div class="table-wrap">
 
 | Salt     | $K_{sp}$              |
 | -------- | --------------------- |
@@ -521,15 +567,21 @@ $$
 | CaCO$_3$ | $3.4 \times 10^{-9}$  |
 | PbCl$_2$ | $1.7 \times 10^{-5}$  |
 
+</div>
+
 ### Predicting Precipitation
 
 Compare the **ion product** ($Q$) with $K_{sp}$:
+
+<div class="table-wrap">
 
 | Condition      | Result                             |
 | -------------- | ---------------------------------- |
 | $Q \lt K_{sp}$ | Unsaturated (no precipitate)       |
 | $Q = K_{sp}$   | Saturated (at equilibrium)         |
 | $Q \gt K_{sp}$ | Supersaturated (precipitate forms) |
+
+</div>
 
 ### Common Ion Effect
 
@@ -574,11 +626,11 @@ The solubility is much lower due to the common ion effect.
 
 For the equilibrium
 $2\mathrm{SO}_2(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{SO}_3(\mathrm{g})$
-What happens when the pressure is increased?
+what happens when the pressure is increased?
 
 The product side has 2 moles of gas, the reactant side has 3. The equilibrium shifts to the right
 (fewer moles of gas), increasing [SO$_3$]. Note that $K_p$ is a constant at a given temperature and
-Does not change; only the equilibrium position shifts.
+does not change; only the equilibrium position shifts.
 
 ### Question 2 (Paper 2 style)
 
@@ -589,11 +641,15 @@ Equilibrium, $0.40\mathrm{ mol}$ of Cl$_2$ is present.
 
 **(a)** Calculate $K_c$.
 
+<div class="table-wrap">
+
 |             | PCl$_5$ | PCl$_3$ | Cl$_2$  |
 | ----------- | ------- | ------- | ------- |
 | Initial     | 0.50    | 0       | 0       |
 | Change      | $-0.20$ | $+0.20$ | $+0.20$ |
 | Equilibrium | 0.30    | 0.20    | 0.20    |
+
+</div>
 
 $$
 K_c = \frac{[\mathrm{PCl}_3][\mathrm{Cl}_2]}{[\mathrm{PCl}_5]} = \frac{(0.20)(0.20)}{0.30} = \frac{0.04}{0.30} = 0.133
@@ -625,12 +681,12 @@ $$
 
 Which salt is most soluble?
 
-A. AgCl ($K_{sp} = 1.8 \times 10^{-10}$) B. AgBr ($K_{sp} = 5.0 \times 10^{-13}$) C. AgI
+A. AgCl ($K_{sp} = 1.8 \times 10^{-10}$) B. AgBr ($ K_{sp} = 5.0 \times 10^{-13}$) C. AgI
 ($K_{sp} = 8.3 \times 10^{-17}$) D. BaSO$_4$ ($K_{sp} = 1.1 \times 10^{-10}$)
 
 **Answer: D**, BaSO$_4$ has the highest $K_{sp}$ But this comparison is only valid for salts with
 The same stoichiometry (1:1). For a fair comparison of solubility, convert to molar solubility. All
-Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_4$.
+four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_4$.
 
 ---
 
@@ -643,17 +699,9 @@ Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Equilibrium] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
+
+<div class="table-wrap">
 
 | Concept               | Formula                                                                    |
 | --------------------- | -------------------------------------------------------------------------- |
@@ -663,13 +711,15 @@ flowchart TD
 | $K_w$                 | $K_w = [\mathrm{H}^+][\mathrm{OH}^-] = 10^{-14}$                           |
 | Henderson-Hasselbalch | $\mathrm{pH} = \mathrm{p}K_a + \log\dfrac{[\mathrm{A}^-]}{[\mathrm{HA}]}$  |
 | $K_{sp}$              | $K_{sp} = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b$                          |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
 For equilibrium calculations, always set up an ICE table. For Le Chatelier questions, be precise
-About what changes and what stays the same (only $K$ changes with temperature). For acid-base
-Problems, identify whether the acid/base is strong or weak first. For $K_{sp}$Check the
-Stoichiometry carefully.
+about what changes and what stays the same (only $K$ changes with temperature). For acid-base
+Problems, identify whether the acid/base is strong or weak first. For $K_{sp}$ Check the
+stoichiometry carefully.
 
 ---
 
@@ -741,11 +791,15 @@ $$
 
 The reaction shifts left. Let $x$ be the moles of Cl$_2$ that react:
 
+<div class="table-wrap">
+
 |             | PCl$_5$   | PCl$_3$    | Cl$_2$    |
 | ----------- | --------- | ---------- | --------- |
 | Initial     | 0.200     | 0.0650     | 0.165     |
 | Change      | $+x$      | $-x$       | $-x$      |
 | Equilibrium | $0.200+x$ | $0.0650-x$ | $0.165-x$ |
+
+</div>
 
 $$
 \frac{(0.0650-x)(0.165-x)}{0.200+x} = 0.0211
@@ -838,14 +892,14 @@ $\Delta H = -198\mathrm{ kJ/mol}$.
 **(a)** Explain the effect of increasing temperature on the equilibrium yield of SO$_3$.
 
 Since the forward reaction is exothermic ($\Delta H \lt 0$), increasing temperature shifts the
-Equilibrium to the left (endothermic direction) by Le Chatelier's principle. This decreases the
-Yield of SO$_3$ and decreases $K$ (since $\ln K \propto -\Delta H / T$Increasing $T$ for an
-Exothermic reaction reduces $K$).
+equilibrium to the left (endothermic direction) by Le Chatelier's principle. This decreases the
+yield of SO$_3$ and decreases $K$ (since $\ln K \propto -\Delta H / T$ Increasing $T$ for an
+exothermic reaction reduces $K$).
 
 **(b)** Explain the effect of increasing pressure on the equilibrium yield of SO$_3$.
 
 There are 3 moles of gas on the left and 2 on the right. Increasing pressure shifts the equilibrium
-To the right (fewer moles), increasing the yield of SO$_3$.
+to the right (fewer moles), increasing the yield of SO$_3$.
 
 **(c)** Explain why a catalyst does not change the equilibrium yield.
 
@@ -885,7 +939,7 @@ $$
 $$
 
 $$
-K_`\{sp}` = [\mathrm{Pb}^{2+}][\mathrm{I}^-]^2 = (1.4 \times 10^{-3})(2.8 \times 10^{-3})^2 = (1.4 \times 10^{-3})(7.84 \times 10^{-6})
+K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{I}^-]^2 = (1.4 \times 10^{-3})(2.8 \times 10^{-3})^2 = (1.4 \times 10^{-3})(7.84 \times 10^{-6})
 $$
 
 $$
@@ -893,7 +947,7 @@ $$
 $$
 
 **(b)** Will a precipitate form when $50\mathrm{ mL}$ of $0.010\mathrm{ M}$ Pb(NO$_3$)$_2$ is mixed
-With $50\mathrm{ mL}$ of $0.020\mathrm{ M}$ KI?
+with $50\mathrm{ mL}$ of $0.020\mathrm{ M}$ KI?
 
 After mixing (volumes double, concentrations halve):
 
@@ -905,7 +959,7 @@ $$
 Q = [\mathrm{Pb}^{2+}][\mathrm{I}^-]^2 = (0.005)(0.010)^2 = 5.0 \times 10^{-7}
 $$
 
-Since $Q = 5.0 \times 10^{-7} \gt K_{sp} = 1.1 \times 10^{-8}$A precipitate of PbI$_2$ will form.
+Since $Q = 5.0 \times 10^{-7} \gt K_{sp} = 1.1 \times 10^{-8}$ A precipitate of PbI$_2$ will form.
 
 ### Question 8 (Paper 1 style)
 
@@ -935,15 +989,21 @@ Calculate $K_c$.
 
 Initial $[\mathrm{N}_2\mathrm{O}_4] = 1.00 / 2.00 = 0.500\mathrm{ mol/L}$
 
+<div class="table-wrap">
+
 |             | $\mathrm{N}_2\mathrm{O}_4$ | $\mathrm{NO}_2$ |
 | ----------- | -------------------------- | --------------- |
 | Initial     | $0.500$                    | $0$             |
 | Change      | $-0.100$                   | $+0.200$        |
 | Equilibrium | $0.400$                    | $0.200$         |
 
+</div>
+
 Since $[\mathrm{NO}_2]_{\mathrm{eq}} = 0.200\mathrm{ mol/L}$ and it increases by $2x$, $x = 0.100$.
 
-$$K_c = \frac{[\mathrm{NO}_2]^2}{[\mathrm{N}_2\mathrm{O}_4]} = \frac{(0.200)^2}{0.400} = \frac{0.0400}{0.400} = 0.100$$
+$$
+K_c = \frac{[\mathrm{NO}_2]^2}{[\mathrm{N}_2\mathrm{O}_4]} = \frac{(0.200)^2}{0.400} = \frac{0.0400}{0.400} = 0.100
+$$
 
 </details>
 
@@ -951,7 +1011,7 @@ $$K_c = \frac{[\mathrm{NO}_2]^2}{[\mathrm{N}_2\mathrm{O}_4]} = \frac{(0.200)^2}{
 <summary>Question 2: Le Chatelier's Principle</summary>
 
 For the exothermic reaction
-$\mathrm{N}_2(g) + 3\mathrm{H}_2(g) \rightleftharpoons 2\mathrm{NH}_3(g)$Predict and explain the
+$\mathrm{N}_2(g) + 3\mathrm{H}_2(g) \rightleftharpoons 2\mathrm{NH}_3(g)$ Predict and explain the
 Effect of each change on the equilibrium yield of $\mathrm{NH}_3$:
 
 (a) Increasing pressure
@@ -966,13 +1026,13 @@ Effect of each change on the equilibrium yield of $\mathrm{NH}_3$:
 <summary>Answer</summary>
 
 (a) There are 4 moles of gas on the left and 2 on the right. Increasing pressure shifts the
-Equilibrium to the right (fewer moles of gas), **increasing** the yield of $\mathrm{NH}_3$.
+equilibrium to the right (fewer moles of gas), **increasing** the yield of $\mathrm{NH}_3$.
 
 (b) The forward reaction is exothermic ($\Delta H \lt 0$). Increasing temperature shifts the
-Equilibrium to the left (endothermic direction), **decreasing** the yield of $\mathrm{NH}_3$.
+equilibrium to the left (endothermic direction), **decreasing** the yield of $\mathrm{NH}_3$.
 
 (c) A catalyst increases the rate of both forward and reverse reactions equally. It does **not**
-Change the equilibrium position or the yield of $\mathrm{NH}_3$. It only helps the system reach
+change the equilibrium position or the yield of $\mathrm{NH}_3$. It only helps the system reach
 Equilibrium faster.
 
 </details>
@@ -991,23 +1051,37 @@ $\mathrm{NaOH}$. Calculate the pH of the resulting buffer.
 
 The $\mathrm{NaOH}$ reacts with $\mathrm{CH}_3\mathrm{COOH}$:
 
-$$n(\mathrm{CH}_3\mathrm{COOH})_{\mathrm{initial}} = 0.100 \times 0.20 = 0.0200\mathrm{ mol}$$
+$$
+n(\mathrm{CH}_3\mathrm{COOH})_{\mathrm{initial}} = 0.100 \times 0.20 = 0.0200\mathrm{ mol}
+$$
 
-$$n(\mathrm{NaOH}) = 0.050 \times 0.20 = 0.0100\mathrm{ mol}$$
+$$
+n(\mathrm{NaOH}) = 0.050 \times 0.20 = 0.0100\mathrm{ mol}
+$$
 
 After reaction:
 
-$$n(\mathrm{CH}_3\mathrm{COOH})_{\mathrm{remaining}} = 0.0200 - 0.0100 = 0.0100\mathrm{ mol}$$
+$$
+n(\mathrm{CH}_3\mathrm{COOH})_{\mathrm{remaining}} = 0.0200 - 0.0100 = 0.0100\mathrm{ mol}
+$$
 
-$$n(\mathrm{CH}_3\mathrm{COO}^-)_{\mathrm{formed}} = 0.0100\mathrm{ mol}$$
+$$
+n(\mathrm{CH}_3\mathrm{COO}^-)_{\mathrm{formed}} = 0.0100\mathrm{ mol}
+$$
 
 Total volume = $150\mathrm{ mL} = 0.150\mathrm{ L}$:
 
-$$[\mathrm{CH}_3\mathrm{COOH}] = \frac{0.0100}{0.150} = 0.0667\mathrm{ M}$$
+$$
+[\mathrm{CH}_3\mathrm{COOH}] = \frac{0.0100}{0.150} = 0.0667\mathrm{ M}
+$$
 
-$$[\mathrm{CH}_3\mathrm{COO}^-] = \frac{0.0100}{0.150} = 0.0667\mathrm{ M}$$
+$$
+[\mathrm{CH}_3\mathrm{COO}^-] = \frac{0.0100}{0.150} = 0.0667\mathrm{ M}
+$$
 
-$$\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 4.76 + \log\frac{0.0667}{0.0667} = 4.76 + \log(1) = 4.76$$
+$$
+\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 4.76 + \log\frac{0.0667}{0.0667} = 4.76 + \log(1) = 4.76
+$$
 
 </details>
 
@@ -1028,19 +1102,31 @@ Solution.
 
 (a) Let $s$ = molar solubility of $\mathrm{PbCl}_2$:
 
-$$\mathrm{PbCl}_2(s) \rightleftharpoons \mathrm{Pb}^{2+}(aq) + 2\mathrm{Cl}^-(aq)$$
+$$
+\mathrm{PbCl}_2(s) \rightleftharpoons \mathrm{Pb}^{2+}(aq) + 2\mathrm{Cl}^-(aq)
+$$
 
-$$K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{Cl}^-]^2 = s \times (2s)^2 = 4s^3$$
+$$
+K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{Cl}^-]^2 = s \times (2s)^2 = 4s^3
+$$
 
-$$s^3 = \frac{1.7 \times 10^{-5}}{4} = 4.25 \times 10^{-6}$$
+$$
+s^3 = \frac{1.7 \times 10^{-5}}{4} = 4.25 \times 10^{-6}
+$$
 
-$$s = 1.62 \times 10^{-2}\mathrm{ mol/L}$$
+$$
+s = 1.62 \times 10^{-2}\mathrm{ mol/L}
+$$
 
 (b) In $0.10\mathrm{ M}$ $\mathrm{NaCl}$, $[\mathrm{Cl}^-]_{\mathrm{initial}} = 0.10\mathrm{ M}$:
 
-$$K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{Cl}^-]^2 = s \times (0.10 + 2s)^2 \approx s \times (0.10)^2$$
+$$
+K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{Cl}^-]^2 = s \times (0.10 + 2s)^2 \approx s \times (0.10)^2
+$$
 
-$$s = \frac{1.7 \times 10^{-5}}{0.010} = 1.7 \times 10^{-3}\mathrm{ mol/L}$$
+$$
+s = \frac{1.7 \times 10^{-5}}{0.010} = 1.7 \times 10^{-3}\mathrm{ mol/L}
+$$
 
 The solubility decreases significantly due to the common ion effect.
 
@@ -1049,16 +1135,20 @@ The solubility decreases significantly due to the common ion effect.
 <details>
 <summary>Question 5: Weak Acid pH</summary>
 
-Calculate the pH of a $0.050\mathrm{ M}$ solution of $\mathrm{HF}$. ($K_a = 6.8 \times 10^{-4}$)
+Calculate the pH of a $0.050\mathrm{ M}$ solution of $\mathrm{HF}$. ($ K_a = 6.8 \times 10^{-4}$)
 
 </details>
 
 <details>
 <summary>Answer</summary>
 
-$$[\mathrm{H}^+] = \sqrt{K_a \times c} = \sqrt{6.8 \times 10^{-4} \times 0.050} = \sqrt{3.4 \times 10^{-5}} = 5.83 \times 10^{-3}\mathrm{ mol/L}$$
+$$
+[\mathrm{H}^+] = \sqrt{K_a \times c} = \sqrt{6.8 \times 10^{-4} \times 0.050} = \sqrt{3.4 \times 10^{-5}} = 5.83 \times 10^{-3}\mathrm{ mol/L}
+$$
 
-$$\mathrm{pH} = -\log(5.83 \times 10^{-3}) = 2.23$$
+$$
+\mathrm{pH} = -\log(5.83 \times 10^{-3}) = 2.23
+$$
 
 </details>
 
@@ -1098,11 +1188,15 @@ $$\mathrm{pH} = -\log(5.83 \times 10^{-3}) = 2.23$$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                  | Site    | Link                                                                                    |
 | ---------------------- | ------- | --------------------------------------------------------------------------------------- |
 | [Chemical Equilibrium] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/equilibrium)           |
-| [Chemical Equilibrium] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/7-equilibrium/1_equilibrium)            |
-| [Chemical Equilibrium] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/4-equilibrium/1_chemical-equilibrium) |
+| [Chemical Equilibrium] | IB      | [View](https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium/)            |
+| [Chemical Equilibrium] | DSE     | [View](https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium/) |
+
+</div>
 
 ## Worked Examples
 

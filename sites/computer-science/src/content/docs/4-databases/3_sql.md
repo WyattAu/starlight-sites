@@ -42,6 +42,8 @@ CREATE INDEX idx_enrolment_student ON Enrolment(StudentID);
 
 **Constraints:**
 
+<div class="table-wrap">
+
 | Constraint    | Enforcement                     |
 | ------------- | ------------------------------- |
 | `PRIMARY KEY` | Unique, not null                |
@@ -50,6 +52,8 @@ CREATE INDEX idx_enrolment_student ON Enrolment(StudentID);
 | `NOT NULL`    | No null values                  |
 | `CHECK`       | Arbitrary boolean condition     |
 | `DEFAULT`     | Default value if none specified |
+
+</div>
 
 ### 3.2 Data Manipulation Language (DML)
 
@@ -75,7 +79,7 @@ WHERE E.Grade IN ('A', 'A-')
 ORDER BY S.GPA DESC;
 ```
 
-**Aggregate functions:** `COUNT``SUM``AVG``MIN``MAX`.
+**Aggregate functions:** `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
 
 ```sql
 SELECT Dept, COUNT(*) AS NumStudents, AVG(GPA) AS AvgGPA
@@ -154,8 +158,8 @@ FROM Student;
 
 **`RANK()` vs. `DENSE_RANK()`:** `RANK()` leaves gaps after ties; `DENSE_RANK()` does not.
 
-**Other window functions:** `ROW_NUMBER()``LEAD()``FIRST_VALUE()``LAST_VALUE()`
-`NTILE(n)``SUM() OVER(...)``COUNT() OVER(...)`.
+**Other window functions:** `ROW_NUMBER()`, `LEAD()`, `FIRST_VALUE()`, `LAST_VALUE()`
+`NTILE(n)`, `SUM() OVER(...)`, `COUNT() OVER(...)`.
 
 <details>
 <summary>Worked Example 3.1: Running Totals and Percentiles</summary>
@@ -181,7 +185,7 @@ FROM Student;
 ```
 
 `PERCENT_RANK()` returns a value in $[0, 1]$ representing the fractional rank. `NTILE(4)` divides
-The partition into 4 approximately equal groups (quartiles).
+the partition into 4 approximately equal groups (quartiles).
 
 </details>
 
@@ -197,7 +201,7 @@ FROM Student GROUP BY Dept;
 ```
 
 Views are virtual tables. **Updatable views** (single-table, no aggregation) allow `INSERT`
-`UPDATE``DELETE` through the view. **Materialised views** store the result physically and must be
+`UPDATE`, `DELETE` through the view. **Materialised views** store the result physically and must be
 Refreshed.
 
 ### 3.8 Recursive Common Table Expressions
@@ -259,7 +263,7 @@ ORDER BY total_qty DESC;
 ```
 
 The recursive step multiplies the quantity at each level to accumulate the total needed quantity for
-Each sub-component.
+each sub-component.
 
 </details>
 
@@ -274,10 +278,12 @@ Attacker to manipulate the query structure.
 cursor.execute(f"SELECT * FROM Student WHERE name = '{user_input}'")
 ```
 
-If `user_input` is `' OR '1'='1`The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
+If `user_input` is `' OR '1'='1`. The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
 Returning all rows.
 
 **Types of SQL injection:**
+
+<div class="table-wrap">
 
 | Type                  | Description                                             |
 | --------------------- | ------------------------------------------------------- |
@@ -286,6 +292,8 @@ Returning all rows.
 | Blind (boolean)       | Attacker infers data by asking true/false questions     |
 | Blind (time-based)    | Attacker infers data by measuring response delays       |
 | Out-of-band           | Attacker triggers the DBMS to send data externally      |
+
+</div>
 
 **Prevention:**
 
@@ -326,7 +334,7 @@ counts, And execution time.
 
 **Common optimisation guidelines:**
 
-- **Create appropriate indexes** on columns used in `WHERE``JOIN``ORDER BY`And `GROUP BY` clauses.
+- **Create appropriate indexes** on columns used in `WHERE`, `JOIN`, `ORDER BY` and `GROUP BY` clauses.
 - **Avoid `SELECT *`**; retrieve only the columns needed.
 - **Avoid N+1 queries:** Fetching related data row-by-row instead of with a single join or batch
   query.
@@ -378,16 +386,6 @@ Use nested-loop index joins to find matching enrolments and students, avoiding f
 
 </details>
 :::
-
-```mermaid
-flowchart TD
-    A[3_Sql] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

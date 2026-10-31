@@ -183,7 +183,7 @@ pick e5f6a7b Update tests
 
 ### Rebase Actions
 
-#### `pick`Use Commit As-Is
+#### `pick`. Use Commit As-Is
 
 The default action. The commit is replayed onto the new base without modification.
 
@@ -235,7 +235,7 @@ commit before merging. This keeps the history clean and meaningful.
 
 #### `fixup`Squash Without Editing
 
-Like `squash`But discards the commit message of the squashed commit. The combined commit retains
+Like `squash`. But discards the commit message of the squashed commit. The combined commit retains
 only the message of the previous commit. This is faster when you have many small commits to fold in:
 
 ```
@@ -310,6 +310,8 @@ This is one of the most contentious debates in the Git community. Here is a bala
 
 ### Arguments for Rebase
 
+<div class="table-wrap">
+
 | Argument             | Explanation                                                      |
 | -------------------- | ---------------------------------------------------------------- |
 | **Clean history**    | Linear history is easier to read with `git log` and `git bisect` |
@@ -317,7 +319,11 @@ This is one of the most contentious debates in the Git community. Here is a bala
 | **Easier bisect**    | `git bisect` works more reliably on linear history               |
 | **Smaller diff**     | Pull requests contain only feature changes, not merge noise      |
 
+</div>
+
 ### Arguments for Merge
+
+<div class="table-wrap">
 
 | Argument              | Explanation                                                          |
 | --------------------- | -------------------------------------------------------------------- |
@@ -325,6 +331,8 @@ This is one of the most contentious debates in the Git community. Here is a bala
 | **Safe**              | Merge never rewrites history; rebase does                            |
 | **Preserves context** | Merge commits show when and why features were integrated             |
 | **Easier to revert**  | `git revert -m 1 <merge>` undoes an entire feature in one operation  |
+
+</div>
 
 ### The Golden Rule of Rebasing
 
@@ -353,7 +361,7 @@ For most teams, a hybrid approach works best:
   rebase.
 - **Merging into `main`**: Use `git merge --no-ff` to create a merge commit (preserves branch
   topology).
-- **Shared branches** (`develop``staging`): Never rebase. Always merge.
+- **Shared branches** (`develop`, `staging`): Never rebase. Always merge.
 - **Personal branches**: Rebase freely, no one else is affected.
 
 ```bash
@@ -424,10 +432,6 @@ $ git rebase main
    sorted input.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

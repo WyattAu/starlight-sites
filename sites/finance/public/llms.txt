@@ -1,0 +1,28 @@
+# Finance — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Principles
+
+- [Index](https://finance.wyattau.com/1-principles/)
+- [No Arbitrage](https://finance.wyattau.com/1-principles/1_no-arbitrage/)
+
+## Portfolio-Theory
+
+- [Index](https://finance.wyattau.com/2-portfolio-theory/)
+- [Mean Variance And Capm](https://finance.wyattau.com/2-portfolio-theory/1_mean-variance-and-capm/)
+
+## Derivatives
+
+- [Binomial Model](https://finance.wyattau.com/3-derivatives/1_binomial-model/)
+- [Index](https://finance.wyattau.com/3-derivatives/)
+
+## Overview
+
+- [About](https://finance.wyattau.com/about/)
+- [Before You Begin](https://finance.wyattau.com/before-you-begin/)
+- [Glossary](https://finance.wyattau.com/glossary/)
+- [Hub](https://finance.wyattau.com/hub/)
+- [Index](https://finance.wyattau.com/)

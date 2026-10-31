@@ -17,17 +17,6 @@ tableOfContents: false
 
 ## Molecular Biology, Diagnostic Tests
 
-
-```mermaid
-flowchart TD
-    A[Diag Molecular Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Molecular biology is like reverse-engineering life, understanding DNA, RNA, and proteins reveals how cells read and execute genetic instructions:** The central dogma (DNA → RNA → protein) describes how genetic information flows from storage to function
@@ -295,7 +284,7 @@ stabilises the T-state.
 
 The combined effect: at lower pH and higher $\text{CO}_2$ (as found in actively respiring tissues),
 the oxygen dissociation curve shifts to the right. At any given partial pressure of
-$\text{O}_2$Haemoglobin releases more $\text{O}_2$. This ensures that oxygen delivery is matched to
+$\text{O}_2$ Haemoglobin releases more $\text{O}_2$. This ensures that oxygen delivery is matched to
 metabolic demand -- tissues that are respiring most actively receive the most oxygen.
 
 ## Cross-References

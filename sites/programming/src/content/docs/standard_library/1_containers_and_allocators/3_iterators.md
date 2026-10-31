@@ -44,6 +44,8 @@ $$
 
 Each category adds capabilities:
 
+<div class="table-wrap">
+
 | Category                        | Capabilities [N4950 §25.3.4]                           |
 | ------------------------------- | ------------------------------------------------------ |
 | **LegacyInputIterator**         | `++it``*it``it == end`Single-pass                      |
@@ -52,6 +54,8 @@ Each category adds capabilities:
 | **LegacyBidirectionalIterator** | `--it`Multi-pass                                       |
 | **LegacyRandomAccessIterator**  | `it + n``it - n``it[n]``&lt;``&gt;``&lt;=``&gt;=`      |
 | **LegacyContiguousIterator**    | Points to contiguous elements (e.g., vector iterators) |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -89,6 +93,8 @@ int main() {
 Every iterator must expose a set of associated types through `std::iterator_traits` [N4950 §25.3.3].
 These traits allow algorithms to determine iterator properties at compile time:
 
+<div class="table-wrap">
+
 | Trait               | Description                                              |
 | ------------------- | -------------------------------------------------------- |
 | `difference_type`   | Signed integer type for distance between iterators       |
@@ -96,6 +102,8 @@ These traits allow algorithms to determine iterator properties at compile time:
 | `pointer`           | Pointer-to-element type                                  |
 | `reference`         | Reference-to-element type                                |
 | `iterator_category` | Legacy category tag (e.g., `random_access_iterator_tag`) |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -132,8 +140,8 @@ int main() {
 ### Sentinel Iterators (C++20) vs Traditional End Iterators
 
 C++20 introduced the **sentinel** concept [N4950 §25.3.5]. A sentinel is a type that can be compared
-With an iterator to determine the end of a range, but is **not itself an iterator**. The key
-Interface is `std::sentinel_for&lt;S, I>`Which requires that `S` and `I` be comparable with `==` And
+with an iterator to determine the end of a range, but is **not itself an iterator**. The key
+Interface is `std::sentinel_for&lt;S, I>`. Which requires that `S` and `I` be comparable with `==` And
 `!=` [N4950 §25.3.5.2].
 
 ```cpp
@@ -230,7 +238,9 @@ int main() {
 ### Iterator Invalidation Rules Per Container Type
 
 Understanding iterator invalidation is critical for correctness. The rules vary by container type
-And operation [N4950 §22]:
+and operation [N4950 §22]:
+
+<div class="table-wrap">
 
 | Container                       | Reallocation               | Insert (middle)            | Erase                 | push_back                        |
 | ------------------------------- | -------------------------- | -------------------------- | --------------------- | -------------------------------- |
@@ -240,6 +250,8 @@ And operation [N4950 §22]:
 | `forward_list`                  | N/A                        | Valid                      | Only erased           | Valid                            |
 | `map`/`set`                     | N/A                        | Valid                      | Only erased           | N/A                              |
 | `unordered_map`/`unordered_set` | On rehash: all invalidated | On rehash: all invalidated | Only erased           | On rehash: all invalidated       |
+
+</div>
 
 ```cpp
 #include <vector>
@@ -300,7 +312,7 @@ int main() {
 `std::vector` stores elements in a contiguous array. When the capacity is exceeded, the vector
 Allocates a new, larger array, copies (or moves) all elements to the new array, and frees the old
 Array. All iterators, pointers, and references to elements in the old array are invalidated because
-The old memory is deallocated.
+the old memory is deallocated.
 
 The reallocation strategy is geometric growth (capacity doubles), which amortizes the cost Of
 reallocation across insertions. The amortized cost of `push_back` is O(1), but any individual
@@ -309,7 +321,7 @@ reallocation across insertions. The amortized cost of `push_back` is O(1), but a
 ### Unordered Container Invalidation on Rehash
 
 `std::unordered_map` and `std::unordered_set` store elements in a hash table. When the load factor
-Exceeds `max_load_factor()`The container **rehashes**: it allocates a new bucket array and
+Exceeds `max_load_factor()`. The container **rehashes**: it allocates a new bucket array and
 Re-inserts all elements. During rehash, all iterators are invalidated because elements are moved to
 Different buckets.
 
@@ -378,6 +390,8 @@ int main() {
 
 ### Algorithm Requirements Quick Reference
 
+<div class="table-wrap">
+
 | Algorithm               | Minimum Iterator Requirement             |
 | ----------------------- | ---------------------------------------- |
 | `std::find`             | Input                                    |
@@ -396,10 +410,12 @@ int main() {
 | `std::shuffle`          | RandomAccess                             |
 | `std::stable_sort`      | RandomAccess                             |
 
+</div>
+
 ### Proxy Iterators
 
 Some containers use **proxy iterators** where `*it` returns a proxy object instead of a reference to
-The actual element. The canonical example is `std::vector<bool>`Which stores bits packed into Words.
+the actual element. The canonical example is `std::vector<bool>`. Which stores bits packed into Words.
 Dereferencing its iterator returns a temporary proxy object, not a `bool&`:
 
 ```cpp
@@ -426,13 +442,13 @@ int main() {
 ```
 
 Proxy iterators complicate generic code because they violate the assumption that `*it` returns a
-Reference. C++20 ranges handle this correctly via `std::ranges::range_reference_t`Which returns The
+Reference. C++20 ranges handle this correctly via `std::ranges::range_reference_t`. Which returns The
 proxy type rather than requiring a true reference.
 
 ### Const Iterators vs Non-Const Iterators
 
 Every container provides both `iterator` and `const_iterator` types. The `begin()`/`end()` methods
-Have const and non-const overloads:
+have const and non-const overloads:
 
 ```cpp
 #include <iostream>
@@ -459,9 +475,9 @@ int main() {
 
 ## Intuition
 
-**Iterators are like remote controls for containers:** A remote control lets you access TV channels (elements) without knowing how the TV works internally. An iterator does the same thing for containers, it provides a uniform interface (`++``*``->`) to access elements regardless of whether the container is a vector, list, or map. The iterator categories (input, forward, bidirectional, random access) are like remote control features, some let you go forward only, some let you go backward, and some let you jump to any channel instantly.
+**Iterators are like remote controls for containers:** A remote control lets you access TV channels (elements) without knowing how the TV works internally. An iterator does the same thing for containers, it provides a uniform interface (`++`, `*`, `->`) to access elements regardless of whether the container is a vector, list, or map. The iterator categories (input, forward, bidirectional, random access) are like remote control features, some let you go forward only, some let you go backward, and some let you jump to any channel instantly.
 
-**Why it matters:** Iterators are the bridge between algorithms and containers. Algorithms operate on iterator ranges, not containers directly. This means the same algorithm (`std::sort``std::find`) works with any container that provides the right iterator category. Understanding iterator categories is essential for writing generic code and for knowing which algorithms work with which containers.
+**Why it matters:** Iterators are the bridge between algorithms and containers. Algorithms operate on iterator ranges, not containers directly. This means the same algorithm (`std::sort`, `std::find`) works with any container that provides the right iterator category. Understanding iterator categories is essential for writing generic code and for knowing which algorithms work with which containers.
 
 **The key insight:** Iterator categories determine which algorithms work, `std::sort` requires random access iterators, so it works with `std::vector` but not `std::list`.
 
@@ -495,7 +511,7 @@ int main() {
 ### Pitfall 2: Erasing in a Loop
 
 Erasing an element invalidates the iterator to that element. The `erase` method returns an iterator
-To the next element, which must be used to continue iteration:
+to the next element, which must be used to continue iteration:
 
 ```cpp
 #include <vector>
@@ -571,16 +587,6 @@ int main() {
 }
 ```
 
-```mermaid
-flowchart TD
-    A[3_Iterators] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of iterator categories, traversal, and invalidation, including
@@ -594,9 +600,6 @@ underlying theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## See Also
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
@@ -605,5 +608,3 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

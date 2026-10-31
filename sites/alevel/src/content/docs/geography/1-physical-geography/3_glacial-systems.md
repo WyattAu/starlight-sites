@@ -23,7 +23,7 @@ description: "A-Level Geography Glacial Systems and Landscapes notes covering ke
 Glacial systems are powerful agents of landscape transformation, reshaping valleys, transporting
 vast quantities of debris, and leaving distinctive landforms that persist long after the ice has
 retreated. This topic examines the processes operating beneath and within glaciers, the landforms
-they create, and the evidence they leave for past climate change. Approximately 10% of the Earth"s
+they create, and the evidence they leave for past climate change. Approximately 10% of the Earth's
 land surface is currently covered by glaciers and ice sheets, but during the last glacial maximum
 (approximately 22,000 years ago), ice covered roughly 30% of the planet.
 
@@ -39,6 +39,8 @@ land surface is currently covered by glaciers and ice sheets, but during the las
 </script>
 
 ## Key Concepts and Definitions
+
+<div class="table-wrap">
 
 | Term                     | Definition                                                                                                                      |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -58,6 +60,8 @@ land surface is currently covered by glaciers and ice sheets, but during the las
 | **Periglacial**          | Cold, non-glacial environments where freeze-thaw processes dominate, in most cases in regions of permafrost                     |
 | **Permafrost**           | Permanently frozen ground where temperatures remain below 0°C for at least two consecutive years                                |
 | **Active layer**         | The surface layer of ground above permafrost that thaws in summer and refreezes in winter                                       |
+
+</div>
 
 ---
 
@@ -164,6 +168,8 @@ or encounters a flattening of gradient. Glacial deposits (till) are characterist
 
 ### Erosional Landforms
 
+<div class="table-wrap">
+
 | Landform                             | Description and Formation                                                                                                                                                                                                                                                                                                                                             |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Corrie (cirque/cwm)**              | A deep, steep-sided, armchair-shaped hollow on a mountainside, formed by glacial erosion in a pre-existing hollow. Rotational movement of the ice deepens the base, creating an overdeepened basin that often fills with a tarn (mountain lake) after glaciation. The backwall is steepened by freeze-thaw weathering and plucking. Example: Red Tarn, Lake District. |
@@ -174,7 +180,11 @@ or encounters a flattening of gradient. Glacial deposits (till) are characterist
 | **Truncated spur**                   | A ridge of rock that has been cut off abruptly by a valley glacier eroding the valley side, creating steep cliff faces where the spur formerly projected into the valley.                                                                                                                                                                                             |
 | **Roche moutonnée**                  | An asymmetric rock outcrop shaped by glacial erosion: the stoss (up-ice) side is smooth and gently sloping (abraded), while the lee (down-ice) side is steep, rough, and angular (plucked). Indicates the direction of ice flow.                                                                                                                                      |
 
+</div>
+
 ### Depositional Landforms
+
+<div class="table-wrap">
 
 | Landform                   | Description and Formation                                                                                                                                                                                                                                                                                               |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -188,6 +198,8 @@ or encounters a flattening of gradient. Glacial deposits (till) are characterist
 | **Outwash plain (sandur)** | A flat, extensive plain of stratified sediment deposited by meltwater in front of a retreating glacier. Sediment is sorted and stratified (unlike till). Example: Skeiðarársandur, Iceland.                                                                                                                             |
 | **Esker**                  | A long, sinuous ridge of sand and gravel deposited by meltwater flowing through a tunnel within or beneath the glacier.                                                                                                                                                                                                 |
 | **Kame**                   | A mound of stratified sediment deposited by meltwater in a depression on the surface or at the margin of a retreating glacier.                                                                                                                                                                                          |
+
+</div>
 
 ---
 
@@ -224,6 +236,8 @@ Alaska, and high mountain areas.
 
 ### Periglacial Landforms
 
+<div class="table-wrap">
+
 | Landform                     | Description                                                                                                                                                                                                                                                                            |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Pingos**                   | Dome-shaped hills formed by the growth of a massive ice core within permafrost. Open-system pingos form where water under pressure injects into the permafrost; closed-system pingos form by freeze-down of a talik (unfrozen zone) after lake drainage. Example: Tuktoyaktuk, Canada. |
@@ -231,6 +245,8 @@ Alaska, and high mountain areas.
 | **Blockfields (felsenmeer)** | Extensive sheets of angular, frost-shattered rock debris covering plateaus and upper slopes in periglacial environments.                                                                                                                                                               |
 | **Rock glaciers**            | Tongue-shaped masses of angular rock debris containing interstitial ice, flowing slowly downslope.                                                                                                                                                                                     |
 | **Thermokarst**              | Irregular, hummocky terrain formed by the melting of ground ice, creating depressions, thaw lakes, and collapsed surfaces.                                                                                                                                                             |
+
+</div>
 
 ---
 
@@ -465,17 +481,6 @@ Mayo, Ireland.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[3_Glacial Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

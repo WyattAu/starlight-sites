@@ -44,6 +44,8 @@ considerations.
 Malware (malicious software) is software designed to damage, disrupt, or gain unauthorised access to
 A computer system.
 
+<div class="table-wrap">
+
 | Type           | Self-replicating | Requires Host | Primary Purpose                                          |
 | -------------- | ---------------- | ------------- | -------------------------------------------------------- |
 | Virus          | Yes              | Yes           | Corrupt or modify files, spread to other files           |
@@ -56,11 +58,15 @@ A computer system.
 | Keylogger      | No               | Yes           | Record keystrokes to capture passwords and personal data |
 | Botnet malware | No               | Yes           | Enrol the device in a botnet for DDoS or spam            |
 
+</div>
+
 **Virus vs Worm -- the critical distinction:**
 
 A virus attaches itself to a legitimate file and requires user action (opening a file, running a
-Program, booting from an infected disk) to execute and spread. A worm is a standalone program that
+program, booting from an infected disk) to execute and spread. A worm is a standalone program that
 Self-replicates over network connections without requiring any user action or host file.
+
+<div class="table-wrap">
 
 | Aspect      | Virus                 | Worm                     |
 | ----------- | --------------------- | ------------------------ |
@@ -70,10 +76,14 @@ Self-replicates over network connections without requiring any user action or ho
 | Speed       | Slower                | Can spread rapidly       |
 | Detection   | File integrity checks | Network traffic analysis |
 
+</div>
+
 ### Phishing and Social Engineering
 
 **Phishing** is a type of social engineering attack that uses fraudulent communications ( Email) to
 trick victims into revealing sensitive information or installing malware.
+
+<div class="table-wrap">
 
 | Phishing Type  | Description                                           | Target          |
 | -------------- | ----------------------------------------------------- | --------------- |
@@ -82,6 +92,8 @@ trick victims into revealing sensitive information or installing malware.
 | Whaling        | Spear phishing targeting senior executives (CEO, CFO) | C-level execs   |
 | Smishing       | Phishing via SMS/text messages                        | Mobile users    |
 | Vishing        | Phishing via voice calls (often using VoIP)           | Phone users     |
+
+</div>
 
 **Common social engineering techniques:**
 
@@ -100,7 +112,9 @@ trick victims into revealing sensitive information or installing malware.
 ### Denial of Service (DoS) and Distributed DoS (DDoS)
 
 A DoS attack overwhelms a target system with traffic or requests, making it unavailable to
-Legitimate users.
+legitimate users.
+
+<div class="table-wrap">
 
 | Attack Type       | Description                                                         |
 | ----------------- | ------------------------------------------------------------------- |
@@ -110,7 +124,11 @@ Legitimate users.
 | **UDP flood**     | Sends massive UDP packets to random ports, consuming resources      |
 | **Amplification** | Uses third-party servers to amplify attack traffic (e.g., DNS, NTP) |
 
+</div>
+
 ### Other Attack Vectors
+
+<div class="table-wrap">
 
 | Attack                         | Description                                                                    |
 | ------------------------------ | ------------------------------------------------------------------------------ |
@@ -119,6 +137,8 @@ Legitimate users.
 | **Cross-site scripting (XSS)** | Injects malicious scripts into web pages viewed by other users                 |
 | **Brute force**                | Systematically tries all possible passwords until one works                    |
 | **Dictionary attack**          | Tries passwords from a precompiled list of common passwords                    |
+
+</div>
 
 ---
 
@@ -138,6 +158,8 @@ Legitimate users.
 Basic firewall concepts are in
 [../4-networking-and-internet/1_internet-and-data-communications](/ict/4-networking-and-internet/1_internet-and-data-communications/).
 
+<div class="table-wrap">
+
 | Type                          | OSI Layer  | Method                                                           | Speed    | Thoroughness |
 | ----------------------------- | ---------- | ---------------------------------------------------------------- | -------- | ------------ |
 | **Packet filtering**          | Layer 3    | Examines source/dest IP, port, protocol                          | Fast     | Low          |
@@ -145,9 +167,13 @@ Basic firewall concepts are in
 | **Application-level (proxy)** | Layer 7    | Inspects actual application data                                 | Slow     | High         |
 | **Next-generation (NGFW)**    | Layer 3--7 | Combines all above + IPS, deep packet inspection, TLS decryption | Variable | Very High    |
 
+</div>
+
 ### Encryption -- Algorithms and Applications
 
 **Symmetric encryption algorithms:**
+
+<div class="table-wrap">
 
 | Algorithm | Key Length               | Speed     | Notes                                 |
 | --------- | ------------------------ | --------- | ------------------------------------- |
@@ -156,7 +182,11 @@ Basic firewall concepts are in
 | AES       | 128/192/256 bits         | Very fast | Current standard; used by governments |
 | Blowfish  | 32--448 bits             | Fast      | Used in some older applications       |
 
+</div>
+
 **Asymmetric encryption algorithms:**
+
+<div class="table-wrap">
 
 | Algorithm | Key Length | Speed  | Notes                                          |
 | --------- | ---------- | ------ | ---------------------------------------------- |
@@ -164,15 +194,17 @@ Basic firewall concepts are in
 | ECC       | 256+ bits  | Faster | Smaller keys for equivalent security           |
 | DSA       | 2048+ bits | Slow   | Used for digital signatures                    |
 
+</div>
+
 **Key exchange problem:** Symmetric encryption is fast but requires secure key distribution.
 Asymmetric encryption solves distribution but is slow. The practical solution is **hybrid
 Encryption**: use asymmetric encryption to securely exchange a symmetric session key, then use the
-Symmetric key for bulk data encryption.
+symmetric key for bulk data encryption.
 
 ### Digital Signatures
 
 A digital signature provides authentication, integrity, and non-repudiation for digital messages or
-Documents.
+documents.
 
 **Process:**
 
@@ -184,15 +216,21 @@ Documents.
 5. The receiver independently hashes the received message and compares the two hashes.
 6. If they match, the message is authentic and has not been tampered with.
 
+<div class="table-wrap">
+
 | Property        | How Digital Signatures Provide It                                     |
 | --------------- | --------------------------------------------------------------------- |
 | Authentication  | Only the holder of the private key can create the signature           |
 | Integrity       | Any change to the message changes the hash, breaking verification     |
 | Non-repudiation | The sender cannot deny having signed (only they have the private key) |
 
+</div>
+
 ### Two-Factor Authentication (2FA)
 
 2FA requires two independent forms of identification before granting access.
+
+<div class="table-wrap">
 
 | Factor Type        | Examples                                   | Description       |
 | ------------------ | ------------------------------------------ | ----------------- |
@@ -200,10 +238,14 @@ Documents.
 | Something you have | Phone, hardware token, smart card          | Possession factor |
 | Something you are  | Fingerprint, facial recognition, iris scan | Biometric factor  |
 
+</div>
+
 2FA mitigates password compromise: even if an attacker obtains the password, they still need the
-Second factor (e.g., a time-based one-time password from a phone app) to gain access.
+second factor (e.g., a time-based one-time password from a phone app) to gain access.
 
 ### Intrusion Detection Systems (IDS)
+
+<div class="table-wrap">
 
 | Type                | Description                                                         |
 | ------------------- | ------------------------------------------------------------------- |
@@ -212,7 +254,11 @@ Second factor (e.g., a time-based one-time password from a phone app) to gain ac
 | **Signature-based** | Matches traffic against a database of known attack patterns         |
 | **Anomaly-based**   | Establishes a baseline of normal behaviour and flags deviations     |
 
+</div>
+
 ### Security Best Practices Summary
+
+<div class="table-wrap">
 
 | Measure                      | Purpose                                      |
 | ---------------------------- | -------------------------------------------- |
@@ -225,6 +271,8 @@ Second factor (e.g., a time-based one-time password from a phone app) to gain ac
 | Backups                      | Enable recovery from ransomware or data loss |
 | User education               | Reduce human-factor vulnerabilities          |
 | Principle of least privilege | Users have minimum necessary permissions     |
+
+</div>
 
 ---
 
@@ -242,9 +290,11 @@ Second factor (e.g., a time-based one-time password from a phone app) to gain ac
 ### Hong Kong: Personal Data Privacy Ordinance (PDPO)
 
 The PDPO (Cap. 486) is Hong Kong's primary data protection legislation. It is enforced by the
-Privacy Commissioner for Personal Data.
+privacy Commissioner for Personal Data.
 
 **Six Data Protection Principles (DPPs):**
+
+<div class="table-wrap">
 
 | DPP | Principle              | Requirement                                                                                                |
 | --- | ---------------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -254,6 +304,8 @@ Privacy Commissioner for Personal Data.
 | 4   | Security               | Appropriate security measures must be taken to protect against unauthorised access, processing, or erasure |
 | 5   | Information openness   | Data users must be open about their data handling practices                                                |
 | 6   | Access                 | Data subjects have the right to request access to their personal data and request correction               |
+
+</div>
 
 **Key provisions:**
 
@@ -266,7 +318,9 @@ Privacy Commissioner for Personal Data.
 ### General Data Protection Regulation (GDPR) -- EU
 
 GDPR applies to any organisation processing personal data of EU residents, regardless of where the
-Organisation is located.
+organisation is located.
+
+<div class="table-wrap">
 
 | Feature          | PDPO (Hong Kong)             | GDPR (EU)                           |
 | ---------------- | ---------------------------- | ----------------------------------- |
@@ -277,6 +331,8 @@ Organisation is located.
 | Data portability | Not explicitly stated        | Yes                                 |
 | Fines            | Up to HKD 1M + imprisonment  | Up to EUR 20M or 4% global turnover |
 | DPO requirement  | Case-by-case                 | Mandatory for certain organisations |
+
+</div>
 
 ### Data Protection Principles -- Comparison
 
@@ -306,6 +362,8 @@ Regardless of jurisdiction, all modern data protection laws share these core pri
 
 ### Types of Intellectual Property
 
+<div class="table-wrap">
+
 | Type             | Protects                                                    | Duration                      | Registration                         |
 | ---------------- | ----------------------------------------------------------- | ----------------------------- | ------------------------------------ |
 | **Copyright**    | Original creative works (text, software, music, art, film)  | Creator's life + 50--70 years | Automatic (no registration required) |
@@ -313,7 +371,11 @@ Regardless of jurisdiction, all modern data protection laws share these core pri
 | **Trademark**    | Brand identifiers (names, logos, slogans, sounds)           | Indefinite (if renewed)       | Required                             |
 | **Trade secret** | Confidential business information (formulas, algorithms)    | As long as kept secret        | No registration                      |
 
+</div>
+
 ### Software Licensing
+
+<div class="table-wrap">
 
 | License Type    | Description                                                | Source Code | Redistribution | Examples                       |
 | --------------- | ---------------------------------------------------------- | ----------- | -------------- | ------------------------------ |
@@ -322,7 +384,11 @@ Regardless of jurisdiction, all modern data protection laws share these core pri
 | **Shareware**   | Free trial with limited features or time; payment required | Closed      | Prohibited     | WinZIP (trial)                 |
 | **Open source** | Source code is available; specific licence terms apply     | Open        | Varies         | Linux, Apache, Python          |
 
+</div>
+
 ### Open Source Licenses
+
+<div class="table-wrap">
 
 | License                   | Copyleft | Commercial use | Modification                | Distribution     | Patent grant  |
 | ------------------------- | -------- | -------------- | --------------------------- | ---------------- | ------------- |
@@ -333,13 +399,17 @@ Regardless of jurisdiction, all modern data protection laws share these core pri
 | **BSD**                   | Minimal  | Yes            | Yes                         | Yes, with notice | No explicit   |
 | **Creative Commons (CC)** | Varies   | Varies         | Varies                      | Varies           | No            |
 
+</div>
+
 **Copyleft (viral licensing):** GPL requires that any derivative work must also be licensed under
 GPL. This means if you modify GPL software and distribute it, you must release your modifications
-Under the same GPL terms. MIT and Apache are permissive licenses with no such requirement.
+under the same GPL terms. MIT and Apache are permissive licenses with no such requirement.
 
 ### Creative Commons Licenses
 
 Creative Commons (CC) licenses allow creators to specify how their work may be used by others.
+
+<div class="table-wrap">
 
 | License     | Commercial Use | Modification | Requirement                              |
 | ----------- | -------------- | ------------ | ---------------------------------------- |
@@ -350,6 +420,8 @@ Creative Commons (CC) licenses allow creators to specify how their work may be u
 | CC BY-NC-SA | No             | Yes          | Credit + non-commercial + share alike    |
 | CC BY-NC-ND | No             | No           | Credit + non-commercial + no derivatives |
 | CC0         | Yes            | Yes          | Public domain (no restrictions)          |
+
+</div>
 
 ---
 
@@ -367,7 +439,9 @@ Creative Commons (CC) licenses allow creators to specify how their work may be u
 ### Repetitive Strain Injury (RSI)
 
 RSI is an umbrella term for conditions caused by repetitive movements, forceful exertions, and
-Sustained or awkward postures.
+sustained or awkward postures.
+
+<div class="table-wrap">
 
 | Condition                  | Cause                                          | Symptoms                                |
 | -------------------------- | ---------------------------------------------- | --------------------------------------- |
@@ -375,6 +449,8 @@ Sustained or awkward postures.
 | **Tendonitis**             | Inflammation of tendons from repetitive motion | Pain, swelling, restricted movement     |
 | **Tenosynovitis**          | Inflammation of tendon sheath                  | Pain during movement, swelling          |
 | **De Quervain's**          | Repetitive thumb movement                      | Pain at base of thumb                   |
+
+</div>
 
 **Prevention strategies:**
 
@@ -387,7 +463,7 @@ Sustained or awkward postures.
 ### Eye Strain (Computer Vision Syndrome)
 
 Extended screen use causes eye strain, characterised by dry eyes, blurred vision, headaches, and
-Difficulty focusing.
+difficulty focusing.
 
 **The 20-20-20 rule:** Every 20 minutes, look at something 20 feet (approximately 6 metres) away for
 20 seconds. This allows the eye muscles to relax.
@@ -404,7 +480,9 @@ Difficulty focusing.
 ### Ergonomics
 
 Ergonomics is the science of designing the workplace to fit the worker, reducing physical strain and
-Improving productivity.
+improving productivity.
+
+<div class="table-wrap">
 
 | Component    | Recommended Setup                                               |
 | ------------ | --------------------------------------------------------------- |
@@ -416,7 +494,11 @@ Improving productivity.
 | **Lighting** | Even ambient lighting, no direct glare on screen                |
 | **Posture**  | Back supported, shoulders relaxed, no slouching                 |
 
+</div>
+
 ### Other Health Concerns
+
+<div class="table-wrap">
 
 | Concern            | Description                                                | Mitigation                                                    |
 | ------------------ | ---------------------------------------------------------- | ------------------------------------------------------------- |
@@ -424,6 +506,8 @@ Improving productivity.
 | **Radiation**      | Concerns about EMF from screens and Wi-Fi devices          | Evidence shows no significant harm at typical exposure levels |
 | **Stress**         | Work overload, constant connectivity, information overload | Time management, digital detox, exercise                      |
 | **Obesity**        | Sedentary lifestyle associated with heavy computer use     | Regular physical activity, movement breaks                    |
+
+</div>
 
 ---
 
@@ -445,6 +529,8 @@ Fastest-growing waste stream globally.
 
 **Composition of e-waste:**
 
+<div class="table-wrap">
+
 | Component           | Examples                   | Environmental Hazard                             |
 | ------------------- | -------------------------- | ------------------------------------------------ |
 | **Heavy metals**    | Lead, mercury, cadmium     | Toxic to nervous systems, carcinogenic           |
@@ -452,6 +538,8 @@ Fastest-growing waste stream globally.
 | **Plastics**        | PVC, ABS, flame retardants | Non-biodegradable, release toxins when burned    |
 | **Glass**           | CRT monitors, LCD panels   | Lead in CRT glass; difficult to recycle          |
 | **Batteries**       | Lithium-ion, NiCd          | Fire risk, heavy metal contamination             |
+
+</div>
 
 **Global e-waste .../4-statistics-and-probability/2_statistics (approximate):**
 
@@ -464,6 +552,8 @@ Fastest-growing waste stream globally.
 
 ICT infrastructure consumes significant energy:
 
+<div class="table-wrap">
+
 | Component                  | Energy Consumption                      |
 | -------------------------- | --------------------------------------- |
 | **Data centres**           | 1--2% of global electricity consumption |
@@ -471,7 +561,11 @@ ICT infrastructure consumes significant energy:
 | **Personal devices**       | Increasing with more powerful devices   |
 | **Bitcoin mining**         | Comparable to some small countries      |
 
+</div>
+
 ### Green Computing Strategies
+
+<div class="table-wrap">
 
 | Strategy                 | Description                                                    | Impact                                    |
 | ------------------------ | -------------------------------------------------------------- | ----------------------------------------- |
@@ -483,6 +577,8 @@ ICT infrastructure consumes significant energy:
 | **Extend device life**   | Upgrade components instead of replacing entire systems         | Reduces manufacturing and disposal impact |
 | **Renewable energy**     | Powering data centres with solar, wind, or hydroelectric       | Reduces carbon footprint                  |
 | **Responsible disposal** | Follow WEEE directive or local e-waste regulations             | Prevents environmental contamination      |
+
+</div>
 
 ---
 
@@ -502,12 +598,16 @@ Responsibly.
 
 ### Key Professional Bodies
 
+<div class="table-wrap">
+
 | Body                                                         | Jurisdiction       | Focus                   |
 | ------------------------------------------------------------ | ------------------ | ----------------------- |
 | **ACM** (Association for Computing Machinery)                | International      | Computing professionals |
 | **BCS** (British Computer Society)                           | UK / International | IT professionals        |
 | **HKCS** (Hong Kong Computer Society)                        | Hong Kong          | IT professionals in HK  |
 | **IEEE** (Institute of Electrical and Electronics Engineers) | International      | Engineering ethics      |
+
+</div>
 
 ### Core Principles (ACM Code of Ethics)
 
@@ -553,6 +653,8 @@ A computing professional confronted with an ethical dilemma should:
 
 ### Arguments for Internet Censorship
 
+<div class="table-wrap">
+
 | Argument                 | Reasoning                                                     |
 | ------------------------ | ------------------------------------------------------------- |
 | **Protect children**     | Block access to inappropriate, violent, or harmful content    |
@@ -562,7 +664,11 @@ A computing professional confronted with an ethical dilemma should:
 | **Public morality**      | Maintain community standards and social harmony               |
 | **Public health**        | Combat misinformation (e.g., false medical claims)            |
 
+</div>
+
 ### Arguments against Internet Censorship
+
+<div class="table-wrap">
 
 | Argument                  | Reasoning                                                           |
 | ------------------------- | ------------------------------------------------------------------- |
@@ -573,7 +679,11 @@ A computing professional confronted with an ethical dilemma should:
 | **Circumvention**         | Technical measures (VPNs, proxies) make censorship ineffective      |
 | **Economic impact**       | Censorship can hinder innovation and economic growth                |
 
+</div>
+
 ### Methods of Internet Censorship
+
+<div class="table-wrap">
 
 | Method                           | Description                                                      |
 | -------------------------------- | ---------------------------------------------------------------- |
@@ -583,6 +693,8 @@ A computing professional confronted with an ethical dilemma should:
 | **Deep packet inspection (DPI)** | Examine packet contents to identify and block prohibited content |
 | **Throttling**                   | Reduce bandwidth for specific services or protocols              |
 | **Firewall rules**               | Block specific ports, protocols, or network ranges               |
+
+</div>
 
 ---
 
@@ -654,10 +766,10 @@ A computing professional confronted with an ethical dilemma should:
 For each scenario, identify the type of malware most likely involved and explain your reasoning.
 
 (a) A user opens an email attachment disguised as an invoice. Their files become encrypted, and a
-Message demands payment in cryptocurrency.
+message demands payment in cryptocurrency.
 
 (b) A program replicates itself across a corporate network, consuming increasing bandwidth until the
-Network becomes unusable.
+network becomes unusable.
 
 (c) A user downloads free software from an unofficial website. Unwanted advertisements appear
 Frequently in their web browser.
@@ -669,17 +781,17 @@ Answer:
 
 (a) **Ransomware.** The files are encrypted and a ransom is demanded, which is the defining
 Characteristic of ransomware. The email attachment is the delivery vector (a trojan containing the
-Ransomware payload).
+ransomware payload).
 
 (b) **Worm.** The program self-replicates across the network without requiring user action or a host
 File, which is the defining characteristic of a worm. The bandwidth consumption is a common effect
-Of worm propagation.
+of worm propagation.
 
 (c) **Adware.** The primary symptom is unwanted advertisements. The free software from an unofficial
 Website is likely bundled with adware, a common distribution method.
 
 (d) **Keylogger (spyware).** The systematic recording of keystrokes to capture login credentials is
-Characteristic of a keylogger. Keyloggers are a type of spyware designed to covertly collect
+characteristic of a keylogger. Keyloggers are a type of spyware designed to covertly collect
 Sensitive information such as passwords, credit card numbers, and personal messages.
 
 </details>
@@ -698,13 +810,13 @@ Specifying which keys are used at each stage.
 Answer:
 
 (a) **Digital signature for authentication:** Alice hashes her message and encrypts the hash with
-Her **private key**. Bob decrypts the hash with Alice's **public key** and verifies it matches his
-Own hash of the received message. This proves the message came from Alice (authentication) and was
-Not modified (integrity).
+her **private key**. Bob decrypts the hash with Alice's **public key** and verifies it matches his
+own hash of the received message. This proves the message came from Alice (authentication) and was
+not modified (integrity).
 
 **Encryption for confidentiality:** Alice encrypts the message with Bob's **public key**. Only Bob
 Can decrypt it using his **private key**. This ensures only the intended recipient can read the
-Message.
+message.
 
 (b) Steps for a confidential, authenticated message:
 
@@ -718,10 +830,10 @@ Message.
 8. Bob decrypts the signature with Alice's public key and verifies the hash.
 
 (c) Hybrid encryption combines the strengths of both approaches. Asymmetric encryption solves the
-Key distribution problem (public keys can be freely shared) but is computationally slow. Symmetric
+key distribution problem (public keys can be freely shared) but is computationally slow. Symmetric
 Encryption is fast but requires secure key exchange. By using asymmetric encryption only to exchange
 A short session key, and then using that session key for symmetric encryption of the bulk data, the
-System achieves both security and performance.
+system achieves both security and performance.
 
 </details>
 
@@ -729,11 +841,11 @@ System achieves both security and performance.
 <summary>Question 3: Data Protection Law</summary>
 
 (a) A Hong Kong online retailer collects customer email addresses during account registration. The
-Retailer later uses these addresses to send promotional emails without obtaining consent. Under the
+retailer later uses these addresses to send promotional emails without obtaining consent. Under the
 PDPO, has the retailer violated any data protection principle? Explain.
 
 (b) A social media company headquartered in Hong Kong processes data from users in both Hong Kong
-And the EU. Which data protection legislation applies, and why?
+and the EU. Which data protection legislation applies, and why?
 
 (c) Describe two measures a school should implement to comply with the PDPO when collecting student
 Personal data.
@@ -741,13 +853,13 @@ Personal data.
 Answer:
 
 (a) Yes, the retailer has likely violated DPP 3 (Use limitation). Personal data was collected for
-The purpose of account registration, but then used for direct marketing (promotional emails) without
-Obtaining the data subject's opt-in consent. Under the PDPO, using personal data for direct
+the purpose of account registration, but then used for direct marketing (promotional emails) without
+obtaining the data subject's opt-in consent. Under the PDPO, using personal data for direct
 Marketing requires the data subject's explicit consent (opt-in), and the data subject must be given
-The opportunity to opt out.
+the opportunity to opt out.
 
 (b) Both the PDPO and GDPR apply. The PDPO applies because the company is headquartered in Hong Kong
-And processes data of Hong Kong residents. The GDPR applies because the company processes personal
+and processes data of Hong Kong residents. The GDPR applies because the company processes personal
 Data of EU residents, regardless of where the company is located (extraterritorial scope of GDPR).
 The company must comply with both frameworks for the respective data subjects.
 
@@ -772,36 +884,36 @@ The company must comply with both frameworks for the respective data subjects.
 <summary>Question 4: Software Licensing</summary>
 
 (a) A student downloads a copy of proprietary software from a file-sharing website without paying
-For it. Explain two legal and two ethical issues with this action.
+for it. Explain two legal and two ethical issues with this action.
 
 (b) A company modifies an open-source program licensed under GPL v3 and distributes it as part of a
-Commercial product. What are their obligations under the GPL?
+commercial product. What are their obligations under the GPL?
 
 (c) Explain the difference between copyleft (GPL) and permissive (MIT) open source licenses.
 
 Answer:
 
 (a) **Legal issues:** (1) Copyright infringement -- the software is protected by copyright law, and
-Unauthorised copying and distribution is illegal. (2) Software piracy carries potential civil
+unauthorised copying and distribution is illegal. (2) Software piracy carries potential civil
 Penalties (fines, damages) and, in some jurisdictions, criminal penalties.
 
 **Ethical issues:** (1) The developer invested time and resources in creating the software and
 Deserves fair compensation. Using it without paying deprives the developer of rightful income. (2)
 Software piracy undermines the viability of the software industry, potentially reducing the
-Incentive to develop new products.
+incentive to develop new products.
 
 (b) Under GPL v3, the company must: (1) make the complete source code of the modified program
 Available to all recipients, including their modifications. (2) License the entire combined work
-Under GPL v3. (3) Include a copy of the GPL v3 license and copyright notices. (4) Indicate what
+under GPL v3. (3) Include a copy of the GPL v3 license and copyright notices. (4) Indicate what
 Changes were made to the original code.
 
 (c) **Copyleft (GPL):** Any derivative work must be distributed under the same copyleft license.
 This creates a "viral" effect where the freedom to use, modify, and redistribute is preserved in all
-Derivatives. Commercial use is allowed, but modifications must remain open source.
+derivatives. Commercial use is allowed, but modifications must remain open source.
 
 **Permissive (MIT):** The author grants broad permission to use, copy, modify, and distribute the
 Software, with minimal restrictions (primarily, retaining the copyright notice). Derivative works
-Can be relicensed under any terms, including proprietary/closed source. There is no copyleft
+can be relicensed under any terms, including proprietary/closed source. There is no copyleft
 Requirement.
 
 </details>
@@ -813,13 +925,13 @@ A hospital implements an electronic health record (EHR) system that stores patie
 Digitally.
 
 (a) Identify three security threats to the EHR system and for each, describe a security measure to
-Mitigate it.
+mitigate it.
 
 (b) Under the PDPO, explain how the hospital should handle a patient's request to access their own
 Medical records.
 
 (c) A doctor accesses the medical records of a celebrity patient out of curiosity, without any
-Medical reason. Discuss the ethical and legal implications.
+medical reason. Discuss the ethical and legal implications.
 
 Answer:
 
@@ -839,31 +951,20 @@ Answer:
    training, simulated phishing exercises.
 
 (b) Under DPP 6 (Access), the patient has the right to request access to their personal data held by
-The hospital. The hospital must comply with the request within 40 days. The hospital may charge a
-Reasonable fee. If the hospital refuses the request, it must provide written reasons. The hospital
-Should verify the identity of the requester before releasing the records.
+the hospital. The hospital must comply with the request within 40 days. The hospital may charge a
+reasonable fee. If the hospital refuses the request, it must provide written reasons. The hospital
+should verify the identity of the requester before releasing the records.
 
 (c) **Ethical implications:** This violates the ACM principle of "Respect privacy" -- accessing
 Patient data without a legitimate medical need is a breach of patient confidentiality. It also
-Violates the principle of "Avoid harm" by potentially causing emotional distress to the patient.
+violates the principle of "Avoid harm" by potentially causing emotional distress to the patient.
 
 **Legal implications:** Under the PDPO, accessing personal data without authorisation and for a
 Purpose unrelated to the data collection purpose constitutes a data access offence. This is a
-Criminal offence under Section 18 of the PDPO, carrying penalties including a fine and imprisonment.
+criminal offence under Section 18 of the PDPO, carrying penalties including a fine and imprisonment.
 The doctor could also face disciplinary action from the medical regulatory body.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[1_Network Security And Social Implications] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -879,15 +980,9 @@ underlying theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/network-security-and-social-implications.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

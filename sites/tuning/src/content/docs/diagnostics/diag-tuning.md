@@ -213,6 +213,8 @@ tableOfContents: false
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | B             |
@@ -226,18 +228,9 @@ tableOfContents: false
 | 9        | B             |
 | 10       | B             |
 
+</div>
+
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of performance tuning fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
-
-
-```mermaid
-flowchart TD
-    A[Diag Tuning] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

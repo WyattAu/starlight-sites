@@ -203,7 +203,9 @@ For the reaction $N_2O_4(g) \rightleftharpoons 2NO_2(g)$ with $K_p = 0.144$ at 2
 
 Let $x$ be the pressure of $N_2O_4$ that dissociates. At equilibrium: $P_{N_2O_4} = 1-x$, $P_{NO_2} = 2x$.
 
-$$K_p = \frac{(2x)^2}{1-x} = 0.144$$
+$$
+K_p = \frac{(2x)^2}{1-x} = 0.144
+$$
 
 $4x^2 + 0.144x - 0.144 = 0$. Solving: $x = \frac{-0.144 + \sqrt{0.144^2 + 4(4)(0.144)}}{8} = \frac{-0.144 + 1.528}{8} = 0.173$.
 

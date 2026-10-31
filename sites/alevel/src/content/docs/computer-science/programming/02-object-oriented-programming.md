@@ -53,12 +53,16 @@ class BankAccount:
 
 ### Class vs Instance
 
+<div class="table-wrap">
+
 | Concept  | Class                 | Instance (Object)         |
 | -------- | --------------------- | ------------------------- |
 | Nature   | Template / Blueprint  | Concrete realisation      |
 | Number   | One class definition  | Many objects              |
 | Creation | Defined by programmer | Created at runtime        |
 | Memory   | One copy of methods   | Own copy of instance vars |
+
+</div>
 
 <hr />
 
@@ -71,11 +75,15 @@ A class, and restricting direct access to internal state.
 
 ### Access Modifiers
 
+<div class="table-wrap">
+
 | Modifier  | Meaning                                | Python convention        |
 | --------- | -------------------------------------- | ------------------------ |
 | Public    | Accessible from anywhere               | `name`                   |
 | Protected | Accessible within class and subclasses | `_name` (convention)     |
 | Private   | Accessible only within the class       | `__name` (name mangling) |
+
+</div>
 
 ```python
 class Student:
@@ -142,6 +150,8 @@ class Circle(Shape):
 
 ### Types of Inheritance
 
+<div class="table-wrap">
+
 | Type         | Description                   | Python support |
 | ------------ | ----------------------------- | -------------- |
 | Single       | One child, one parent         | Yes            |
@@ -150,10 +160,12 @@ class Circle(Shape):
 | Hierarchical | One parent, multiple children | Yes            |
 | Hybrid       | Combination of the above      | Yes            |
 
+</div>
+
 ### Method Overriding
 
 A subclass can **override** a method inherited from the superclass by defining a method with the
-Same name.
+same name.
 
 ```python
 class Animal:
@@ -194,7 +206,7 @@ Arguments or type checking.
 #### Run-Time (Dynamic) Polymorphism
 
 Achieved through **method overriding** and **duck typing**. The actual method called depends on the
-Object's type at runtime.
+object's type at runtime.
 
 ```python
 def make_speak(animal):
@@ -215,7 +227,7 @@ Some sound
 
 **Theorem (Liskov Substitution Principle).** If $S$ is a subtype of $T$ Then objects of type $T$ May
 be replaced with objects of type $S$ without altering any of the desirable properties of the
-Program.
+program.
 
 This means: wherever a superclass object is expected, a subclass object should work correctly.
 
@@ -233,7 +245,7 @@ Covers OOP with pseudocode; emphasises encapsulation and data hiding.
 ### Abstract Classes
 
 An **abstract class** cannot be instantiated and may contain **abstract methods** (methods without
-Implementation that must be implemented by subclasses).
+implementation that must be implemented by subclasses).
 
 ```python
 from abc import ABC, abstractmethod
@@ -256,7 +268,7 @@ class Vehicle(ABC):
 ### Interfaces
 
 An **interface** is a contract specifying methods a class must implement, without providing any
-Implementation. In Python, interfaces are simulated using abstract classes with only Abstract
+implementation. In Python, interfaces are simulated using abstract classes with only Abstract
 methods.
 
 <hr />
@@ -306,15 +318,21 @@ class Room:
 
 When a `House` is destroyed, its `Room` objects are also destroyed.
 
+<div class="table-wrap">
+
 | Relationship | Independence | Lifecycle            | Example            |
 | ------------ | ------------ | -------------------- | ------------------ |
 | Association  | Independent  | Independent          | Doctor-Patient     |
 | Aggregation  | Independent  | Independent          | Department-Teacher |
 | Composition  | Dependent    | Part dies with whole | House-Room         |
 
+</div>
+
 <hr />
 
 ## 7. SOLID Principles
+
+<div class="table-wrap">
 
 | Principle | Name                  | Description                                         |
 | --------- | --------------------- | --------------------------------------------------- |
@@ -323,6 +341,8 @@ When a `House` is destroyed, its `Room` objects are also destroyed.
 | L         | Liskov Substitution   | Subtypes must be substitutable for their base types |
 | I         | Interface Segregation | Clients shouldn't depend on methods they don't use  |
 | D         | Dependency Inversion  | Depend on abstractions, not concretions             |
+
+</div>
 
 ### Example: Single Responsibility
 
@@ -422,7 +442,7 @@ for shape in shapes:
 
 The loop iterates over a list of `Shape` objects (actually `Rectangle` and `Circle` instances). When
 `shape.area()` is called, Python determines at **runtime** which `area()` method to invoke based on
-The actual type of the object:
+the actual type of the object:
 
 - For the `Rectangle`: calls `Rectangle.area()` → $3 \times 4 = 12$
 - For the `Circle`: calls `Circle.area()` → $\pi \times 25 \approx 78.54$
@@ -454,7 +474,7 @@ r.set_width(10)  # If Rectangle has this, width = 10, height = 5
 ```
 
 A `Square` used as a `Rectangle` can be put into an invalid state. This means `Square` is not a
-Proper subtype of `Rectangle` if `Rectangle` allows mutation of width and height independently.
+proper subtype of `Rectangle` if `Rectangle` allows mutation of width and height independently.
 
 **Solution:** Use composition instead (Square has-a Rectangle), or make Rectangle immutable, or use
 An interface-based approach.
@@ -468,17 +488,17 @@ An interface-based approach.
 
 **Aggregation (weak "has-a"):** The part can exist independently of the whole. Example: A
 `Department` has `Teacher` objects. If the department is dissolved, the teachers still exist and can
-Join another department.
+join another department.
 
 **Composition (strong "has-a"):** The part cannot exist independently of the whole. Example: A `Car`
 Has `Engine` and `Wheel` objects. If the car is destroyed, its specific engine and wheels are also
-Destroyed (they don't make sense independently in this context).
+destroyed (they don't make sense independently in this context).
 
 In code: Aggregation passes in existing objects. Composition creates objects internally.
 
 </details>
 
-**Problem 6.** Implement an abstract class `DataStructure` with abstract methods `insert``delete`
+**Problem 6.** Implement an abstract class `DataStructure` with abstract methods `insert`, `delete`
 And `search`. Then implement it as a `Stack`.
 
 <details>
@@ -597,12 +617,12 @@ B
 ```
 
 Python uses **C3 Linearization** (MRO, Method Resolution Order) to determine the order in which
-Base classes are searched for methods. For `D(B, C)`:
+base classes are searched for methods. For `D(B, C)`:
 
 1. `D` itself → no `greet`
 2. `B` → has `greet`Returns "B"
 
-The MRO is D → B → C → A → object. Since `B` has `greet`The search stops there.
+The MRO is D → B → C → A → object. Since `B` has `greet`. The search stops there.
 
 </details>
 
@@ -613,7 +633,7 @@ Resolves it.
 <summary>Answer</summary>
 
 The **diamond problem** occurs when a class inherits from two classes that both inherit from the
-Same base class:
+same base class:
 
 ```
     A
@@ -623,7 +643,7 @@ Same base class:
     D
 ```
 
-If both `B` and `C` override a method from `A`Which version does `D` inherit?
+If both `B` and `C` override a method from `A`. Which version does `D` inherit?
 
 Python resolves this using **C3 Linearization**, which produces a deterministic, monotonically
 Increasing order. For `D(B, C)`:
@@ -638,7 +658,7 @@ Languages like C++ resolve this differently (requiring explicit disambiguation).
 
 </details>
 
-**Problem 10.** Design a library system with classes for `Book``Member`And `Library`. Use
+**Problem 10.** Design a library system with classes for `Book`, `Member` and `Library`. Use
 Encapsulation appropriately. Include methods for borrowing and returning books.
 
 <details>
@@ -725,26 +745,9 @@ For revision on programming fundamentals, see
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[02 Object Oriented Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

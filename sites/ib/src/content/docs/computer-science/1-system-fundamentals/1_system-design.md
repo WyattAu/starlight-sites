@@ -48,7 +48,7 @@ Ergonomics.
 #### Accessibility
 
 Accessibility is the range of audience the system is able to be used by, this include lowering the
-Access barrier for disabled individuals with assistance technology.
+access barrier for disabled individuals with assistance technology.
 
 #### Ergonomics
 
@@ -58,7 +58,7 @@ Split keyboard, etc.
 ## System Development Life Cycle (SDLC)
 
 The SDLC is a structured methodology for developing information systems. The IB syllabus focuses on
-Understanding the stages and their purposes.
+understanding the stages and their purposes.
 
 ### Stages of the SDLC
 
@@ -75,12 +75,16 @@ Understanding the stages and their purposes.
 
 ### SDLC Models
 
+<div class="table-wrap">
+
 | Model     | Description                                                                                                                                                          |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Waterfall | Sequential, linear approach, each phase must be completed before the next begins. Simple to understand but inflexible to changing requirements.                     |
 | Agile     | Iterative approach, the system is developed in small increments (sprints). Flexible and responsive to change, but can be harder to predict final cost and timeline. |
 | Spiral    | Combines iterative development with risk analysis. Each cycle includes planning, risk analysis, engineering, and evaluation. Suitable for large, complex projects.   |
 | Rapid     | Emphasizes rapid prototyping and user feedback. Useful when requirements are not well understood. Can lead to scope creep if not carefully managed.                  |
+
+</div>
 
 > **Exam tip**: The IB does not require detailed knowledge of specific SDLC models, but you should
 > be able to describe the stages and explain why a structured approach is important.
@@ -91,12 +95,16 @@ Understanding the stages and their purposes.
 
 DFDs show how data moves through a system. They use four standard symbols:
 
+<div class="table-wrap">
+
 | Symbol                            | Meaning                                            |
 | --------------------------------- | -------------------------------------------------- |
 | External entity (rectangle)       | A source or destination of data outside the system |
 | Process (rounded rectangle)       | A transformation or processing step                |
 | Data store (open-ended rectangle) | A place where data is stored (database, file)      |
 | Data flow (arrow)                 | Movement of data between components                |
+
+</div>
 
 **Example**: A simple DFD for a library system:
 
@@ -181,6 +189,8 @@ Pseudocode standard uses:
 
 **Flowcharts** provide a visual representation of an algorithm:
 
+<div class="table-wrap">
+
 | Symbol        | Meaning        |
 | ------------- | -------------- |
 | Oval          | Start / End    |
@@ -188,6 +198,8 @@ Pseudocode standard uses:
 | Rectangle     | Process        |
 | Diamond       | Decision       |
 | Arrows        | Flow direction |
+
+</div>
 
 > **Exam tip**: If a question asks you to "design an algorithm," you can use pseudocode or a
 > flowchart unless the question specifies otherwise. Pseudocode is generally faster to write in an
@@ -210,6 +222,8 @@ Pseudocode standard uses:
 
 ### Input Methods
 
+<div class="table-wrap">
+
 | Method          | Description                                            | Use case                            |
 | --------------- | ------------------------------------------------------ | ----------------------------------- |
 | Keyboard        | Standard text input via physical or on-screen keyboard | Text entry, form filling            |
@@ -219,7 +233,11 @@ Pseudocode standard uses:
 | Scanner/Barcode | Optical input of data                                  | Retail, inventory, logistics        |
 | Biometric       | Fingerprint, facial recognition, iris scan             | Security, authentication            |
 
+</div>
+
 ### Output Methods
+
+<div class="table-wrap">
 
 | Method          | Description                      | Use case                                 |
 | --------------- | -------------------------------- | ---------------------------------------- |
@@ -228,6 +246,8 @@ Pseudocode standard uses:
 | Speaker/Audio   | Auditory output                  | Alerts, accessibility, multimedia        |
 | Projector       | Large-scale visual display       | Presentations, classroom use             |
 | Haptic feedback | Vibrations or physical responses | Mobile notifications, gaming controllers |
+
+</div>
 
 ### Accessibility Considerations
 
@@ -323,6 +343,8 @@ class Library:
 
 ### Testing
 
+<div class="table-wrap">
+
 | Test case                         | Input                            | Expected output              |
 | --------------------------------- | -------------------------------- | ---------------------------- |
 | Search for existing book by title | keyword = "1984"                 | List containing the book     |
@@ -332,12 +354,16 @@ class Library:
 | Borrow unavailable book           | member, borrowed book            | "Book not available"         |
 | Return a borrowed book            | member, their borrowed book      | "Book returned successfully" |
 
+</div>
+
 > **Exam tip**: When designing a system, always include a testing table with at least 5–6 test cases
 > covering normal operation, boundary conditions, and error handling.
 
 ## Stakeholders
 
 Understanding stakeholders is essential for system design:
+
+<div class="table-wrap">
 
 | Stakeholder type | Description                                              | Example                              |
 | ---------------- | -------------------------------------------------------- | ------------------------------------ |
@@ -346,6 +372,8 @@ Understanding stakeholders is essential for system design:
 | Management       | People who oversee or fund the system                    | Principal, IT department             |
 | Developers       | People who build and maintain the system                 | Programmers, database administrators |
 | Support staff    | People who provide technical support                     | IT helpdesk                          |
+
+</div>
 
 ### Stakeholder consultation
 
@@ -363,6 +391,8 @@ During the analysis phase, developers should:
 
 Before developing a system, a feasibility assessment should consider:
 
+<div class="table-wrap">
+
 | Type          | Question                                                                  |
 | ------------- | ------------------------------------------------------------------------- |
 | Technical     | Can the required technology be acquired and used by the development team? |
@@ -370,6 +400,8 @@ Before developing a system, a feasibility assessment should consider:
 | Operational   | Will the system be usable by the target users? Can it be maintained?      |
 | Schedule      | Can the project be completed within the required timeframe?               |
 | Legal/Ethical | Does the system comply with relevant laws and ethical standards?          |
+
+</div>
 
 ## Data Design
 
@@ -393,18 +425,22 @@ Are diamonds between entities. Primary keys are shown as underlined attributes. 
 
 ### Keys
 
+<div class="table-wrap">
+
 | Key type      | Definition                                                      | Example                              |
 | ------------- | --------------------------------------------------------------- | ------------------------------------ |
 | Primary key   | An attribute (or combination) that uniquely identifies each row | studentID, ISBN                      |
 | Foreign key   | An attribute that references the primary key of another table   | courseID in an Enrollments table     |
 | Composite key | A primary key formed by combining two or more attributes        | (studentID, courseID) in Enrollments |
 
+</div>
+
 ### Referential Integrity
 
 Referential integrity ensures that relationships between tables remain consistent. Every foreign key
 Value must match a primary key value in the referenced table (or be NULL). Common rules: **ON DELETE
 CASCADE** (delete referencing rows when parent is deleted), **ON DELETE RESTRICT** (prevent deletion
-Of parent if dependent rows exist). Violating referential integrity produces orphan records.
+of parent if dependent rows exist). Violating referential integrity produces orphan records.
 
 ### Normalization
 
@@ -422,23 +458,33 @@ Must depend directly on the primary key, not through another non-key attribute.
 
 **Worked example**: Consider this library table:
 
+<div class="table-wrap">
+
 | LoanID | MemberName | MemberEmail      | BookTitle | Author  | Genre    |
 | ------ | ---------- | ---------------- | --------- | ------- | -------- |
 | 1      | Alice      | <alice@school.com> | 1984      | Orwell  | Fiction  |
 | 2      | Alice      | <alice@school.com> | Dune      | Herbert | Fiction  |
 | 3      | Bob        | <bob@school.com>   | Calculus  | Stewart | Textbook |
 
+</div>
+
 This is in 1NF but not 3NF. MemberEmail depends on MemberName (not LoanID), and Author/Genre depend
-On BookTitle. These are transitive dependencies. Resolution, split into three tables:
+on BookTitle. These are transitive dependencies. Resolution, split into three tables:
 
 **Members table** (PK: MemberID):
+
+<div class="table-wrap">
 
 | MemberID | MemberName | MemberEmail      |
 | -------- | ---------- | ---------------- |
 | 1        | Alice      | <alice@school.com> |
 | 2        | Bob        | <bob@school.com>   |
 
+</div>
+
 **Books table** (PK: BookID):
+
+<div class="table-wrap">
 
 | BookID | BookTitle | Author  | Genre    |
 | ------ | --------- | ------- | -------- |
@@ -446,13 +492,19 @@ On BookTitle. These are transitive dependencies. Resolution, split into three ta
 | 2      | Dune      | Herbert | Fiction  |
 | 3      | Calculus  | Stewart | Textbook |
 
+</div>
+
 **Loans table** (PK: LoanID, FKs: MemberID, BookID):
+
+<div class="table-wrap">
 
 | LoanID | MemberID | BookID | DueDate    |
 | ------ | -------- | ------ | ---------- |
 | 1      | 1        | 1      | 2025-06-01 |
 | 2      | 1        | 2      | 2025-06-01 |
 | 3      | 2        | 3      | 2025-06-15 |
+
+</div>
 
 Now each table is in 3NF. No redundant data, no update anomalies.
 
@@ -463,6 +515,8 @@ Now each table is in 3NF. No redundant data, no update anomalies.
 
 ### Client-Server vs Peer-to-Peer
 
+<div class="table-wrap">
+
 | Aspect         | Client-Server                              | Peer-to-Peer                                           |
 | -------------- | ------------------------------------------ | ------------------------------------------------------ |
 | Central server | Required; clients connect to it            | No central server; all nodes are equal                 |
@@ -470,9 +524,13 @@ Now each table is in 3NF. No redundant data, no update anomalies.
 | Security       | Centralized control; easier to manage      | Decentralized; harder to enforce security policies     |
 | Reliability    | Server failure affects all clients         | More resilient; other peers continue operating         |
 
+</div>
+
 ### Three-Tier Architecture
 
 Three-tier architecture separates a system into three logical layers:
+
+<div class="table-wrap">
 
 | Tier         | Responsibility                                   | Technologies                      |
 | ------------ | ------------------------------------------------ | --------------------------------- |
@@ -480,9 +538,11 @@ Three-tier architecture separates a system into three logical layers:
 | Application  | Business logic, processing, rule enforcement     | Python, Java, PHP, Node.js        |
 | Data         | Data storage and retrieval                       | MySQL, PostgreSQL, MongoDB, Redis |
 
+</div>
+
 **Example**: In an online store, the presentation tier renders the product page, the application
 Tier calculates pricing and handles checkout logic, and the data tier stores product inventory and
-Order records.
+order records.
 
 > **Exam tip**: Three-tier architecture is a common exam topic. Be able to name the three tiers and
 > explain the advantage of separating concerns.
@@ -491,21 +551,29 @@ Order records.
 
 Cloud computing delivers computing services over the internet. The three main service models:
 
+<div class="table-wrap">
+
 | Model | Description                                             | Example                        |
 | ----- | ------------------------------------------------------- | ------------------------------ |
 | IaaS  | Infrastructure as a Service, virtual machines, storage | AWS EC2, Google Compute Engine |
 | PaaS  | Platform as a Service, development platform            | Heroku, Google App Engine      |
 | SaaS  | Software as a Service, fully hosted application        | Gmail, Google Docs, Salesforce |
 
+</div>
+
 With IaaS, the user manages the OS and application; with PaaS, only the application code; with SaaS,
 Nothing (everything is managed by the provider).
 
 ### Scalability
 
+<div class="table-wrap">
+
 | Type       | Description                                                     | Advantage               | Disadvantage               |
 | ---------- | --------------------------------------------------------------- | ----------------------- | -------------------------- |
 | Vertical   | Increase the capacity of a single machine (more CPU, RAM, disk) | Simpler to implement    | Hardware has a hard limit  |
 | Horizontal | Add more machines to handle the load                            | No single-machine limit | More complex to coordinate |
+
+</div>
 
 > **Exam tip**: Be prepared to justify an architecture choice for a given scenario. Consider the
 > number of users, budget, security requirements, and expected growth.
@@ -526,12 +594,16 @@ Centralized control is important for managing sensitive student data.
 
 Authentication verifies the identity of a user attempting to access the system.
 
+<div class="table-wrap">
+
 | Method               | Description                                       | Strengths                                 | Weaknesses                        |
 | -------------------- | ------------------------------------------------- | ----------------------------------------- | --------------------------------- |
 | Passwords            | Secret string known only to the user              | Simple, universal                         | Vulnerable to guessing, reuse     |
 | Biometrics           | Physical characteristics: fingerprint, face, iris | Hard to forge, convenient                 | Privacy concerns, false positives |
 | Two-factor (2FA)     | Requires two independent verification factors     | Significantly reduces unauthorized access | Extra step for users              |
 | Single Sign-On (SSO) | One login grants access to multiple systems       | Reduces password fatigue                  | Single point of failure           |
+
+</div>
 
 ### Authorization
 
@@ -546,13 +618,17 @@ And `edit_grades` permissions, while a Student role has only `view_own_grades`.
 
 ### Encryption
 
+<div class="table-wrap">
+
 | Type       | Description                                  | Example protocol |
 | ---------- | -------------------------------------------- | ---------------- |
 | At rest    | Protects data stored on disk or database     | AES-256          |
 | In transit | Protects data as it travels across a network | TLS/SSL (HTTPS)  |
 
+</div>
+
 Both should be used together. Encryption at rest prevents unauthorized access if storage is
-Compromised; encryption in transit prevents man-in-the-middle attacks.
+compromised; encryption in transit prevents man-in-the-middle attacks.
 
 ### Input Validation and SQL Injection Prevention
 
@@ -579,13 +655,13 @@ Attacker to manipulate query logic. Example: `user_input` = `" OR '1'='1` in
 ### Overview
 
 The IA is worth 30% of your final IB Computer Science grade. You must develop a computing solution
-For a specified client, documented through five assessment criteria.
+for a specified client, documented through five assessment criteria.
 
 ### Criterion A: Planning (6 marks)
 
 Identify a specific, solvable problem for a real client. Describe the problem with context, identify
 Stakeholders, provide evidence of consultation (interview transcript, questionnaire), justify the
-Proposed solution, and outline measurable success criteria.
+proposed solution, and outline measurable success criteria.
 
 **Common mistake**: Choosing a problem that is too broad or too simple.
 
@@ -615,7 +691,7 @@ Provide a testing table with test cases, input, expected output, and actual outp
 ### Criterion E: Evaluation (6 marks)
 
 Evaluate effectiveness against success criteria. Discuss limitations, recommend improvements with
-Justification, and reflect on the development process.
+justification, and reflect on the development process.
 
 **Common mistake**: Being vague. Reference specific criteria with measurable evidence.
 
@@ -639,26 +715,26 @@ A company is developing a new online booking system for a hotel chain.
 <details>
 
 Testing verifies that the system meets requirements and functions correctly, identifying defects
-Before deployment. It ensures the system handles edge cases and invalid input gracefully, reducing
-The cost of fixing errors found after release.
+before deployment. It ensures the system handles edge cases and invalid input gracefully, reducing
+the cost of fixing errors found after release.
 
 </details>
 
 (b) The development team discovers during development that the original requirements did not account
-For mobile users. State which SDLC model would best accommodate this change and justify.
+for mobile users. State which SDLC model would best accommodate this change and justify.
 
 <details>
 
 Agile. Agile uses iterative development in short sprints, allowing requirements to be re-prioritized
-And new features added in subsequent iterations. Waterfall would be poorly suited because it does
-Not accommodate changes to earlier phases once completed.
+and new features added in subsequent iterations. Waterfall would be poorly suited because it does
+not accommodate changes to earlier phases once completed.
 
 </details>
 
 ### Question 2: Data Flow Diagrams
 
 A doctor's surgery uses a patient records system. Patients can book appointments, and doctors can
-View and update patient records.
+view and update patient records.
 
 (a) Identify two external entities, two processes, and one data store for this system.
 
@@ -686,11 +762,15 @@ Doctor --(updated data)--&gt; [Update Patient Record] --(save updates)--&gt; [Pa
 
 A school stores the following unnormalized data about student enrollments:
 
+<div class="table-wrap">
+
 | StudentID | StudentName | CourseCode | CourseName       | TeacherName | Room    |
 | --------- | ----------- | ---------- | ---------------- | ----------- | ------- |
 | 1001      | Alice       | CS101      | Computer Science | Mr. Lee     | Lab 3   |
 | 1001      | Alice       | MA201      | Mathematics      | Ms. Chen    | Room 12 |
 | 1002      | Bob         | CS101      | Computer Science | Mr. Lee     | Lab 3   |
+
+</div>
 
 (a) Explain why this table is not in 3NF.
 
@@ -698,7 +778,7 @@ A school stores the following unnormalized data about student enrollments:
 
 The table has transitive dependencies. StudentName depends on StudentID (not the composite PK), and
 CourseName, TeacherName, Room all depend on CourseCode. These non-key attributes do not depend fully
-On the primary key (StudentID + CourseCode).
+on the primary key (StudentID + CourseCode).
 
 </details>
 
@@ -708,25 +788,37 @@ On the primary key (StudentID + CourseCode).
 
 **Students** (PK: StudentID):
 
+<div class="table-wrap">
+
 | StudentID | StudentName |
 | --------- | ----------- |
 | 1001      | Alice       |
 | 1002      | Bob         |
 
+</div>
+
 **Courses** (PK: CourseCode):
+
+<div class="table-wrap">
 
 | CourseCode | CourseName       | TeacherName | Room    |
 | ---------- | ---------------- | ----------- | ------- |
 | CS101      | Computer Science | Mr. Lee     | Lab 3   |
 | MA201      | Mathematics      | Ms. Chen    | Room 12 |
 
+</div>
+
 **Enrollments** (PK: StudentID + CourseCode):
+
+<div class="table-wrap">
 
 | StudentID | CourseCode |
 | --------- | ---------- |
 | 1001      | CS101      |
 | 1001      | MA201      |
 | 1002      | CS101      |
+
+</div>
 
 </details>
 
@@ -735,7 +827,7 @@ On the primary key (StudentID + CourseCode).
 A library management system has the following actors: Member, Librarian, System Administrator.
 
 Members can search for books, borrow books, and return books. Librarians can do everything members
-Can do, plus add new books, remove books, and generate reports. System Administrators can manage
+can do, plus add new books, remove books, and generate reports. System Administrators can manage
 User accounts and view system logs.
 
 (a) Describe how inheritance is represented in this use case diagram.
@@ -744,7 +836,7 @@ User accounts and view system logs.
 
 The Librarian inherits from Member, meaning it can perform all Member use cases (search, borrow,
 Return) plus its own (add book, remove book, generate reports). In UML, this is an open-headed arrow
-From Librarian to Member indicating generalization.
+from Librarian to Member indicating generalization.
 
 </details>
 
@@ -753,15 +845,15 @@ From Librarian to Member indicating generalization.
 <details>
 
 The System Administrator's responsibilities (managing accounts, viewing logs) are unrelated to
-Library operations. Inheritance implies an "is-a" relationship, a System Administrator is not a
-Specialized Librarian. Both should be separate actors with distinct use cases.
+library operations. Inheritance implies an "is-a" relationship, a System Administrator is not a
+specialized Librarian. Both should be separate actors with distinct use cases.
 
 </details>
 
 ### Question 5: Architecture and Security
 
 A university is building an online learning platform for 10,000 students. Student grades and
-Personal data must be protected.
+personal data must be protected.
 
 (a) Recommend an architecture and justify your choice.
 
@@ -769,13 +861,13 @@ Personal data must be protected.
 
 Three-tier client-server on cloud infrastructure (IaaS/PaaS). The presentation tier delivers the web
 Interface, the application tier handles business logic (grading, submissions, streaming), and the
-Data tier stores records. Each tier scales independently, the application tier can scale
+data tier stores records. Each tier scales independently, the application tier can scale
 Horizontally during peak usage. Cloud hosting avoids large upfront costs.
 
 </details>
 
 (b) Describe two authentication and two authorization measures the university should implement, and
-Explain how input validation protects against SQL injection.
+explain how input validation protects against SQL injection.
 
 <details>
 
@@ -787,7 +879,7 @@ Access control lists restricting who can modify the enrollment database.
 
 SQL injection prevention: Without input validation, a malicious user could inject SQL (e.g.,
 `'; DROP TABLE assignments; --`) into form fields. Input validation checks for expected characters
-And lengths. Parameterized queries ensure user input is treated as data, never as executable SQL.
+and lengths. Parameterized queries ensure user input is treated as data, never as executable SQL.
 
 </details>
 
@@ -804,27 +896,9 @@ And lengths. Parameterized queries ensure user input is treated as data, never a
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
-
-```mermaid
-flowchart TD
-    A[1_System Design] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

@@ -25,7 +25,7 @@ Suspends instead of blocking a thread, allowing a small number of OS threads to 
 Concurrent operations.
 
 Key distinction: **coroutines are not threads**. A coroutine runs on a thread but can be suspended
-And resumed on a different thread. Thousands of coroutines can run concurrently on a handful of
+and resumed on a different thread. Thousands of coroutines can run concurrently on a handful of
 Threads.
 
 ## Setup
@@ -97,7 +97,7 @@ suspend fun fetchAllData(): Data {
 
 `launch` vs `async`:
 
-- `launch`: returns `Job`No result value. Use for side effects.
+- `launch`: returns `Job`. No result value. Use for side effects.
 - `async`: returns `Deferred<T>`Produces a result. Use for concurrent computations.
 
 ### runBlocking
@@ -130,12 +130,16 @@ suspend fun loadData(): String = withContext(Dispatchers.IO) {
 
 Dispatchers determine which thread pool executes the coroutine.
 
+<div class="table-wrap">
+
 | Dispatcher               | Purpose                                                        |
 | ------------------------ | -------------------------------------------------------------- |
 | `Dispatchers.Default`    | CPU-intensive work (sorting, parsing, JSON)                    |
 | `Dispatchers.IO`         | Blocking IO (network, disk, database)                          |
 | `Dispatchers.Main`       | UI thread (Android, JavaFX)                                    |
 | `Dispatchers.Unconfined` | Starts on caller thread, resumes on whatever thread resumes it |
+
+</div>
 
 ```kotlin
 launch(Dispatchers.Default) {
@@ -173,7 +177,7 @@ Exception. This prevents resource leaks from orphaned coroutines.
 ### CoroutineScope
 
 `coroutineScope` creates a new scope that completes when all children complete. It does not block
-The current thread -- it suspends.
+the current thread -- it suspends.
 
 `supervisorScope` is a variant where the failure of one child does not cancel the others.
 
@@ -314,12 +318,16 @@ suspend fun consumer(channel: ReceiveChannel<Int>) {
 
 ### Channel Types
 
+<div class="table-wrap">
+
 | Type                | Description                         |
 | ------------------- | ----------------------------------- |
 | `Channel()`         | Rendezvous (buffer size 0)          |
 | `Channel(64)`       | Buffered with capacity 64           |
 | `Channel.CONFLATED` | Drops previous values, keeps latest |
 | `Channel.UNLIMITED` | Unbounded buffer (use with caution) |
+
+</div>
 
 ## Common Pitfalls
 
@@ -333,19 +341,8 @@ suspend fun consumer(channel: ReceiveChannel<Int>) {
 - \*\* Using `GlobalScope`. It creates unbound coroutines that outlive the application scope, making
   cancellation and lifecycle management impossible. Always use structured concurrency with explicit
   scopes.
-- \*\* Collecting multiple flows sequentially. Use `combine``merge`Or `zip` to compose flows
+- \*\* Collecting multiple flows sequentially. Use `combine`, `merge` or `zip` to compose flows
   concurrently.
-
-
-```mermaid
-flowchart TD
-    A[Coroutines] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -360,13 +357,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

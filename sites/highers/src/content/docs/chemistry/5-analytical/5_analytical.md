@@ -37,6 +37,8 @@ The main spectroscopic techniques are:
 
 ### Comparison of Techniques
 
+<div class="table-wrap">
+
 | Technique | Information provided                     | Sample type        | Destructive?          |
 | --------- | ---------------------------------------- | ------------------ | --------------------- |
 | IR        | Functional groups                        | Solid/liquid/gas   | No                    |
@@ -46,12 +48,16 @@ The main spectroscopic techniques are:
 | TLC       | Number of components, purity             | Solution           | No                    |
 | GC        | Separation, identification (with MS)     | Volatile compounds | No (GC) / Yes (GC-MS) |
 
+</div>
+
 ### Infrared Spectroscopy
 
 IR spectroscopy identifies functional groups by measuring the absorption of infrared radiation.
 Covalent bonds absorb IR radiation at characteristic frequencies, causing them to vibrate.
 
 **Key absorptions:**
+
+<div class="table-wrap">
 
 | Bond                  | Wavenumber (cm$^{-1}$) | Type        |
 | --------------------- | ---------------------- | ----------- |
@@ -65,7 +71,9 @@ Covalent bonds absorb IR radiation at characteristic frequencies, causing them t
 | C-Cl                  | 600-800                | Strong      |
 | C≡N                   | 2210-2260              | Medium      |
 
-**Fingerprint region:** Below $1500 \mathrm{ cm^{-1}$The pattern is unique to each molecule and can
+</div>
+
+**Fingerprint region:** Below $1500 \mathrm{ cm^{-1}$ The pattern is unique to each molecule and can
 Be compared with reference spectra.
 
 **Worked Example 1:** An organic compound with molecular formula $\mathrm{C_3\mathrm{H_6\mathrm{O$
@@ -74,7 +82,7 @@ $2500-3300 \mathrm{ cm^{-1}$. Identify the compound.
 
 The strong absorption at $1715 \mathrm{ cm^{-1}$ indicates a $\mathrm{C=\mathrm{O$ group. The very
 Broad absorption at $2500-3300 \mathrm{ cm^{-1}$ is characteristic of the $\mathrm{O-\mathrm{H$ in a
-Carboxylic acid. The compound is propanoic acid ($\mathrm{CH_3\mathrm{CH_2\mathrm{COOH$).
+carboxylic acid. The compound is propanoic acid ($\mathrm{CH_3\mathrm{CH_2\mathrm{COOH$).
 
 **Worked Example 2:** An IR spectrum shows strong absorptions at $3300 \mathrm{ cm^{-1}$ (broad) and
 $1050 \mathrm{ cm^{-1}$. Identify the functional groups present.
@@ -86,7 +94,7 @@ $1050 \mathrm{ cm^{-1}$ is in the C-O stretching region, consistent with a prima
 ### Mass Spectrometry
 
 Mass spectrometry determines the molecular mass and structure by ionising molecules and separating
-Them by their mass-to-charge ratio ($m/z$).
+them by their mass-to-charge ratio ($m/z$).
 
 **Process:**
 
@@ -109,6 +117,8 @@ The molecular mass.
 
 Common fragmentation patterns:
 
+<div class="table-wrap">
+
 | Fragment                   | $m/z$ | Origin       |
 | -------------------------- | ----- | ------------ |
 | $\mathrm{CH_3^+$           | 15    | Methyl group |
@@ -117,6 +127,8 @@ Common fragmentation patterns:
 | $\mathrm{CH_3\mathrm{CO^+$ | 43    | Acetyl       |
 | $\mathrm{C_4\mathrm{H_9^+$ | 57    | Butyl        |
 | $\mathrm{C_6\mathrm{H_5^+$ | 77    | Phenyl       |
+
+</div>
 
 **Worked Example 3:** The mass spectrum of a chlorinated compound shows peaks at $m/z = 78$ and 80
 In a 3:1 ratio. Identify the molecular ion.
@@ -141,10 +153,12 @@ Prominent peak at $m/z = 43$. Suggest a structure.
 
 $M = 58$. Possible formula: $\mathrm{C_3\mathrm{H_6\mathrm{O$ (propanone, $M_r = 58$).
 
-The peak at $m/z = 43$ corresponds to $\mathrm{CH_3\mathrm{CO^+$Formed by alpha cleavage of
-Propanone.
+The peak at $m/z = 43$ corresponds to $\mathrm{CH_3\mathrm{CO^+$ Formed by alpha cleavage of
+propanone.
 
-$$\mathrm{CH_3\mathrm{COCH_3 \to \mathrm{CH_3\mathrm{CO^+ + \mathrm{CH_3^\bullet$$
+$$
+\mathrm{CH_3\mathrm{COCH_3 \to \mathrm{CH_3\mathrm{CO^+ + \mathrm{CH_3^\bullet
+$$
 
 The compound is likely propanone.
 
@@ -157,6 +171,8 @@ Proton NMR provides information about the hydrogen environments in a molecule.
 **Chemical shift ($\delta$):** Measured in ppm relative to TMS (tetramethylsilane) as reference
 ($\delta = 0$).
 
+<div class="table-wrap">
+
 | Proton environment                 | $\delta$ (ppm)     |
 | ---------------------------------- | ------------------ |
 | $\mathrm{R-\mathrm{CH_3$           | 0.9-1.2            |
@@ -166,6 +182,8 @@ Proton NMR provides information about the hydrogen environments in a molecule.
 | $\mathrm{R-\mathrm{CHO$            | 9.0-10.0           |
 | $\mathrm{R-\mathrm{COOH$           | 10.0-13.0          |
 | Aromatic                           | 6.5-8.5            |
+
+</div>
 
 **Key features of an NMR spectrum:**
 
@@ -177,9 +195,9 @@ Proton NMR provides information about the hydrogen environments in a molecule.
 **Derivation of the $n + 1$ rule:**
 
 Neighbouring protons on adjacent carbons interact (spin-spin coupling) because their nuclear spins
-Can be aligned with or against the external magnetic field. For $n$ equivalent neighbouring protons,
+can be aligned with or against the external magnetic field. For $n$ equivalent neighbouring protons,
 There are $n + 1$ possible spin arrangements (and therefore $n + 1$ possible local magnetic fields
-Experienced by the observed proton). This gives $n + 1$ peaks with intensities following Pascal"s
+Experienced by the observed proton). This gives $n + 1$ peaks with intensities following Pascal's
 Triangle.
 
 **Worked Example 5:** The $^1\mathrm{H$ NMR spectrum of a compound with formula
@@ -193,8 +211,8 @@ Identify the compound.
 
 The singlet that exchanges with $\mathrm{D_2\mathrm{O$ is an $\mathrm{O-\mathrm{H$ proton. The
 triplet (3H) and quartet (2H) indicate a $\mathrm{CH_3\mathrm{CH_2$ group. The quartet is shifted to
-$\delta = 3.7$Suggesting the $\mathrm{CH_2$ is adjacent to an electronegative oxygen. The compound
-Is ethanol ($\mathrm{CH_3\mathrm{CH_2\mathrm{OH$).
+$\delta = 3.7$ Suggesting the $\mathrm{CH_2$ is adjacent to an electronegative oxygen. The compound
+is ethanol ($\mathrm{CH_3\mathrm{CH_2\mathrm{OH$).
 
 **Worked Example 6:** A compound with molecular formula $\mathrm{C_4\mathrm{H_{10}\mathrm{O$ has two
 $^1\mathrm{H$ NMR signals: a septet at $\delta = 3.9$ (1H) and a doublet at $\delta = 1.2$ (6H).
@@ -202,18 +220,18 @@ Identify the compound.
 
 The septet (7 peaks) indicates 6 neighbouring protons. The doublet (2 peaks) indicates 1
 Neighbouring proton. The chemical shift of $\delta = 3.9$ suggests the proton is on a carbon bonded
-To oxygen. The compound is 2-methylpropan-2-ol: $(\mathrm{CH_3)_3\mathrm{COH$ has three equivalent
+to oxygen. The compound is 2-methylpropan-2-ol: $(\mathrm{CH_3)_3\mathrm{COH$ has three equivalent
 $\mathrm{CH_3$ groups (6H, doublet split by 1H) and one $\mathrm{CH$ proton (1H, septet split by
 6H).
 
 Wait, $(\mathrm{CH_3)_3\mathrm{COH$ has a quaternary carbon with OH, so the H on oxygen would be a
-Singlet. The compound is better described as $(\mathrm{CH_3)_2\mathrm{CHCH_2\mathrm{OH$... No. Let
+singlet. The compound is better described as $(\mathrm{CH_3)_2\mathrm{CHCH_2\mathrm{OH$... No. Let
 us Re-analyse.
 
 A septet from 1 proton split by 6 equivalent protons, and a doublet from 6 protons split by 1
-Proton. This pattern is characteristic of an isopropyl group: $(\mathrm{CH_3)_2\mathrm{CH-$. The
-Chemical shift of the CH proton at $\delta = 3.9$ suggests it is attached to oxygen. The compound is
-Propan-2-ol ($\mathrm{CH_3\mathrm{CH(OH)CH_3$).
+proton. This pattern is characteristic of an isopropyl group: $(\mathrm{CH_3)_2\mathrm{CH-$. The
+chemical shift of the CH proton at $\delta = 3.9$ suggests it is attached to oxygen. The compound is
+propan-2-ol ($\mathrm{CH_3\mathrm{CH(OH)CH_3$).
 
 #### $^{13}\mathrm{C$ NMR
 
@@ -223,6 +241,8 @@ Carbon-13 NMR identifies the number of different carbon environments.
 - Each signal represents a unique carbon environment
 - Chemical shifts range from 0-220 ppm
 
+<div class="table-wrap">
+
 | Carbon environment             | $\delta$ (ppm) |
 | ------------------------------ | -------------- |
 | $\mathrm{C-\mathrm{C$          | 0-50           |
@@ -231,23 +251,27 @@ Carbon-13 NMR identifies the number of different carbon environments.
 | Aromatic                       | 100-150        |
 | $\mathrm{C=\mathrm{O$          | 160-220        |
 
+</div>
+
 ### UV-Visible Spectroscopy
 
 UV-Vis spectroscopy measures the absorption of ultraviolet and visible light by molecules.
 
 **Beer-Lambert Law:**
 
-$$A = \varepsilon c l$$
+$$
+A = \varepsilon c l
+$$
 
 Where $A$ is absorbance, $\varepsilon$ is the molar absorptivity (L mol$^{-1}$ cm$^{-1}$), $c$ is
-Concentration (mol/L), and $l$ is the path length (cm).
+concentration (mol/L), and $l$ is the path length (cm).
 
 **Derivation:**
 
 The absorbance is proportional to the number of absorbing molecules in the light path. If a solution
-Of concentration $c$ and path length $l$ contains $c \times l$ moles per unit area, then doubling
+of concentration $c$ and path length $l$ contains $c \times l$ moles per unit area, then doubling
 $c$ or $l$ doubles the number of absorbers and hence the absorbance. The proportionality constant is
-The molar absorptivity $\varepsilon$Which depends on the substance and wavelength.
+the molar absorptivity $\varepsilon$ Which depends on the substance and wavelength.
 
 **Applications:** Determining concentrations, following reaction kinetics, identifying conjugated
 Systems.
@@ -256,12 +280,16 @@ Systems.
 $\varepsilon = 12500 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$ has an absorbance of 0.625 in a
 $1 \mathrm{ cm$ cuvette. Find the concentration.
 
-$$c = \frac{A}{\varepsilon l} = \frac{0.625}{12500 \times 1} = 5.0 \times 10^{-5} \mathrm{ mol/L$$
+$$
+c = \frac{A}{\varepsilon l} = \frac{0.625}{12500 \times 1} = 5.0 \times 10^{-5} \mathrm{ mol/L
+$$
 
 **Worked Example 8:** A solution has absorbance 0.450 at 520 nm in a 2 cm cuvette. If
-$\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$Find the concentration.
+$\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$ Find the concentration.
 
-$$c = \frac{A}{\varepsilon l} = \frac{0.450}{15000 \times 2} = 1.5 \times 10^{-5} \mathrm{ mol/L$$
+$$
+c = \frac{A}{\varepsilon l} = \frac{0.450}{15000 \times 2} = 1.5 \times 10^{-5} \mathrm{ mol/L
+$$
 
 ---
 
@@ -283,7 +311,9 @@ A mobile phase.
 
 **$R_f$ values:**
 
-$$R_f = \frac{\mathrm{distance travelled by substance}{\mathrm{distance travelled by solvent front}$$
+$$
+R_f = \frac{\mathrm{distance travelled by substance}{\mathrm{distance travelled by solvent front}
+$$
 
 ### Thin Layer Chromatography (TLC)
 
@@ -310,6 +340,8 @@ Comparison with standards.
 
 ### Comparison of Chromatographic Techniques
 
+<div class="table-wrap">
+
 | Feature          | TLC                            | GC                      | HPLC                          |
 | ---------------- | ------------------------------ | ----------------------- | ----------------------------- |
 | Mobile phase     | Liquid                         | Gas                     | Liquid                        |
@@ -319,6 +351,8 @@ Comparison with standards.
 | Resolution       | Low                            | High                    | Very high                     |
 | Speed            | Minutes                        | Minutes                 | Minutes                       |
 
+</div>
+
 **Worked Example 9:** In TLC, substance A travels 2.5 cm and substance B travels 4.0 cm while the
 Solvent front travels 8.0 cm. Calculate the $R_f$ values and identify which substance is more polar.
 
@@ -326,7 +360,7 @@ $$R_f(\mathrm{A) = \frac{2.5}{8.0} = 0.31$$ $$R_f(\mathrm{B) = \frac{4.0}{8.0} =
 
 Substance A has a lower $R_f$ value, meaning it travels less far. On silica gel (a polar stationary
 Phase), more polar substances are more strongly attracted to the stationary phase and travel less
-Far. Therefore, substance A is more polar than substance B.
+far. Therefore, substance A is more polar than substance B.
 
 ---
 
@@ -353,7 +387,7 @@ Far. Therefore, substance A is more polar than substance B.
 6. **Confirm:** Check that the proposed structure is consistent with all data.
 
 **Worked Example 10:** Combined IR, mass spec, and NMR data for an unknown compound
-$\mathrm{C_3\mathrm{H_6\mathrm{O_2$ shows: IR absorption at $1740 \mathrm{ cm^{-1}$Molecular ion at
+$\mathrm{C_3\mathrm{H_6\mathrm{O_2$ shows: IR absorption at $1740 \mathrm{ cm^{-1}$ Molecular ion at
 $m/z = 74$ And $^1\mathrm{H$ NMR singlet at $\delta = 3.7$ (3H), singlet at $\delta = 2.1$ (3H).
 
 **Step 1:** Molecular formula $\mathrm{C_3\mathrm{H_6\mathrm{O_2$, $M_r = 74$.
@@ -446,7 +480,7 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
    compound and explain the spectrum.
 
 4. A solution has absorbance 0.450 at 520 nm in a 2 cm cuvette. If
-   $\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$Find the concentration.
+   $\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$ Find the concentration.
 
 5. Explain how GC-MS can be used to identify an unknown compound in a mixture.
 
@@ -458,7 +492,7 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
    8.0 cm. Calculate the $R_f$ values and identify which substance is more polar.
 
 8. Combined IR, mass spec, and NMR data for an unknown compound $\mathrm{C_3\mathrm{H_6\mathrm{O_2$
-   shows: IR absorption at $1740 \mathrm{ cm^{-1}$Molecular ion at $m/z = 74$ And $^1\mathrm{H$ NMR
+   shows: IR absorption at $1740 \mathrm{ cm^{-1}$ Molecular ion at $m/z = 74$ And $^1\mathrm{H$ NMR
    singlet at $\delta = 3.7$ (3H), singlet at $\delta = 2.1$ (3H). Identify the compound.
 
 9. Calculate the degree of unsaturation for each of the following molecular formulae: (a)
@@ -492,8 +526,10 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
 
 ### Spin-Spin Coupling Constants
 
-The separation between the peaks in a multiplet is called the coupling constant $J$Measured in Hz.
+The separation between the peaks in a multiplet is called the coupling constant $J$ Measured in Hz.
 Coupling constants provide information about the spatial relationship between coupled protons.
+
+<div class="table-wrap">
 
 | Coupling type      | Typical $J$ (Hz) | Relationship                     |
 | ------------------ | ---------------- | -------------------------------- |
@@ -501,18 +537,24 @@ Coupling constants provide information about the spatial relationship between co
 | Geminal ($^2J$)    | 0-20             | Protons on the same carbon       |
 | Long-range ($^4J$) | 0-3              | Protons separated by three bonds |
 
+</div>
+
 **Application:** In aromatic systems, ortho coupling ($J \approx 7$ Hz) is larger than meta coupling
 ($J \approx 2$ Hz) or para coupling ($J \approx 0$ Hz).
 
 ### DEPT $^{13}\mathrm{C$ NMR
 
 DEPT (Distortionless Enhancement by Polarization Transfer) is a technique that distinguishes between
-Different types of carbon atoms:
+different types of carbon atoms:
+
+<div class="table-wrap">
 
 | Experiment | CH$_3$ | CH$_2$ | CH  | C (quaternary) |
 | ---------- | ------ | ------ | --- | -------------- |
 | DEPT-90    | --     | --     | Up  | --             |
 | DEPT-135   | Up     | Down   | Up  | --             |
+
+</div>
 
 Quaternary carbons appear only in the standard broadband-decoupled $^{13}\mathrm{C$ NMR spectrum.
 
@@ -541,7 +583,7 @@ Carbons. The pattern is consistent with butanoic acid
 ### Combustion Analysis
 
 When an organic compound containing C, H, and possibly other elements is burned completely, the
-Products are $\mathrm{CO_2$, $\mathrm{H_2\mathrm{O$ And other oxides.
+products are $\mathrm{CO_2$, $\mathrm{H_2\mathrm{O$ And other oxides.
 
 **Worked Example 14:** A compound contains 40.0% C, 6.7% H, and 53.3% O by mass. Find its empirical
 Formula.
@@ -564,13 +606,21 @@ $\mathrm{SO_2$. If halogens are present, they are collected as silver halides.
 **Worked Example 15:** 0.200 g of a compound containing C, H, and N produced 0.440 g of
 $\mathrm{CO_2$ and 0.180 g of $\mathrm{H_2\mathrm{O$ on combustion. Find the empirical formula.
 
-$$n(\mathrm{C) = \frac{0.440}{44.0} = 0.0100 \mathrm{ mol, \quad m(\mathrm{C) = 0.120 \mathrm{ g$$
+$$
+n(\mathrm{C) = \frac{0.440}{44.0} = 0.0100 \mathrm{ mol, \quad m(\mathrm{C) = 0.120 \mathrm{ g
+$$
 
-$$n(\mathrm{H) = \frac{2 \times 0.180}{18.0} = 0.0200 \mathrm{ mol, \quad m(\mathrm{H) = 0.0200 \mathrm{ g$$
+$$
+n(\mathrm{H) = \frac{2 \times 0.180}{18.0} = 0.0200 \mathrm{ mol, \quad m(\mathrm{H) = 0.0200 \mathrm{ g
+$$
 
-$$m(\mathrm{N) = 0.200 - 0.120 - 0.020 = 0.060 \mathrm{ g$$
+$$
+m(\mathrm{N) = 0.200 - 0.120 - 0.020 = 0.060 \mathrm{ g
+$$
 
-$$n(\mathrm{N) = \frac{0.060}{14.0} = 0.00429 \mathrm{ mol$$
+$$
+n(\mathrm{N) = \frac{0.060}{14.0} = 0.00429 \mathrm{ mol
+$$
 
 Ratio:
 $\mathrm{C : \mathrm{H : \mathrm{N = 0.0100 : 0.0200 : 0.00429 = 2.33 : 4.67 : 1 = 7 : 14 : 3$.
@@ -594,7 +644,7 @@ Checking with molecular mass information).
 ### Flame Emission Spectroscopy
 
 Used for determination of metal ions. A sample is atomised in a flame, and the emitted light at
-Characteristic wavelengths is measured.
+characteristic wavelengths is measured.
 
 - **Sodium:** intense yellow (589 nm)
 - **Potassium:** lilac (766 nm)
@@ -604,12 +654,14 @@ Characteristic wavelengths is measured.
 ### Atomic Absorption Spectroscopy (AAS)
 
 Measures the absorption of light by ground-state atoms. A hollow cathode lamp provides light at the
-Specific wavelength of the element being analysed.
+specific wavelength of the element being analysed.
 
 **Applications:** Determining trace metal concentrations in water, soil, biological samples.
 
 **Worked Example 16:** A series of standard solutions of $\mathrm{Cu^{2+}$ gave the following
 Absorbance readings:
+
+<div class="table-wrap">
 
 | Concentration (ppm) | Absorbance |
 | ------------------- | ---------- |
@@ -619,10 +671,14 @@ Absorbance readings:
 | 6                   | 0.45       |
 | 8                   | 0.60       |
 
+</div>
+
 An unknown sample gave an absorbance of 0.40. Find the concentration.
 
 From the calibration curve, absorbance is proportional to concentration:
-$$c = \frac{0.40}{0.60} \times 8 = 5.3 \mathrm{ ppm$$
+$$
+c = \frac{0.40}{0.60} \times 8 = 5.3 \mathrm{ ppm
+$$
 
 ---
 
@@ -635,18 +691,9 @@ $$c = \frac{0.40}{0.60} \times 8 = 5.3 \mathrm{ ppm$$
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[5_Analytical] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Analytical Techniques
+
+<div class="table-wrap">
 
 | Technique            | Information obtained        | Sensitivity  | Sample requirement |
 | -------------------- | --------------------------- | ------------ | ------------------ |
@@ -659,6 +706,8 @@ flowchart TD
 | GC                   | Separation, retention time  | High         | uL (volatile)      |
 | HPLC                 | Separation, retention time  | High         | uL                 |
 | AAS                  | Metal ion concentration     | Very high    | mL of solution     |
+
+</div>
 
 ---
 
@@ -682,12 +731,14 @@ flowchart TD
 
 Every measurement has uncertainty. Combined uncertainty for multiplication/division:
 
-$$\frac{\Delta y}{y} = \sqrt{\left(\frac{\Delta a}{a}\right)^2 + \left(\frac{\Delta b}{b}\right)^2}$$
+$$
+\frac{\Delta y}{y} = \sqrt{\left(\frac{\Delta a}{a}\right)^2 + \left(\frac{\Delta b}{b}\right)^2}
+$$
 
 ### Significant Figures
 
 Results should be quoted to an appropriate number of significant figures, consistent with the
-Precision of the measurements used.
+precision of the measurements used.
 
 ---
 
@@ -742,7 +793,7 @@ Identify the compound and assign all spectral features.
 ### High-Resolution Mass Spectrometry (HRMS)
 
 Low-resolution mass spectrometry gives $m/z$ values to the nearest whole number. High-resolution MS
-Can distinguish between compounds with the same nominal mass but different exact masses.
+can distinguish between compounds with the same nominal mass but different exact masses.
 
 **Example:** $\mathrm{CO$ has exact mass 27.9949 and $\mathrm{N_2$ has exact mass 28.0061. These
 Cannot be distinguished at low resolution (both appear at $m/z = 28$) but are separated at High
@@ -758,11 +809,13 @@ Proteins.
 
 **Alpha cleavage:** Breaks the bond adjacent to a carbonyl group, common in ketones and aldehydes.
 
-$$\mathrm{R-CO-R' \to \mathrm{R-CO^+ + \mathrm{R'^\bullet$$
+$$
+\mathrm{R-CO-R' \to \mathrm{R-CO^+ + \mathrm{R'^\bullet
+$$
 
 **McLafferty rearrangement:** A hydrogen atom from the gamma carbon (three bonds away) transfers to
 The carbonyl oxygen, followed by cleavage of the beta-gamma bond. Produces an enol radical cation
-And a neutral alkene.
+and a neutral alkene.
 
 This rearrangement requires a gamma hydrogen and is common in carbonyl compounds with at least 3
 Carbons in the chain.
@@ -788,7 +841,9 @@ Heteroatom.
 Column efficiency is measured in theoretical plates ($N$). A higher number of plates means better
 Separation.
 
-$$N = 16\left(\frac{t_R}{W}\right)^2$$
+$$
+N = 16\left(\frac{t_R}{W}\right)^2
+$$
 
 Where $t_R$ is retention time and $W$ is peak width at the base.
 
@@ -796,11 +851,15 @@ Where $t_R$ is retention time and $W$ is peak width at the base.
 
 The ability to separate two adjacent peaks:
 
-$$R_s = \frac{2(t_{R2} - t_{R1})}{W_1 + W_2}$$
+$$
+R_s = \frac{2(t_{R2} - t_{R1})}{W_1 + W_2}
+$$
 
 Where $R_s > 1.5$ indicates baseline separation.
 
 ### Factors Affecting Chromatographic Separation
+
+<div class="table-wrap">
 
 | Factor                          | Effect on separation                                      |
 | ------------------------------- | --------------------------------------------------------- |
@@ -809,6 +868,8 @@ Where $R_s > 1.5$ indicates baseline separation.
 | Temperature (GC)                | Optimal temperature gives best resolution                 |
 | Flow rate                       | Too fast or too slow reduces efficiency                   |
 | Mobile phase composition (HPLC) | Optimised gradient improves separation                    |
+
+</div>
 
 ---
 
@@ -837,6 +898,8 @@ Where $R_s > 1.5$ indicates baseline separation.
 
 ### Common Functional Group Signatures
 
+<div class="table-wrap">
+
 | Functional group | IR (cm$^{-1}$)       | $^1\mathrm{H$ NMR $\delta$ (ppm)                      | $^{13}\mathrm{C$ NMR $\delta$ (ppm) |
 | ---------------- | -------------------- | ----------------------------------------------------- | ----------------------------------- |
 | Alcohol (-OH)    | 3200-3600 (broad)    | 1-5 (variable, exchanges with $\mathrm{D_2\mathrm{O$) | 50-90 (C-O)                         |
@@ -846,6 +909,8 @@ Where $R_s > 1.5$ indicates baseline separation.
 | Ester            | 1735-1750            | 3.5-4.5 (O-CH$_2$)                                    | 160-180                             |
 | Aromatic ring    | 1600-1580, 1500-1400 | 6.5-8.5                                               | 120-150                             |
 | Alkene (C=C)     | 1620-1680            | 4.5-6.5                                               | 100-150                             |
+
+</div>
 
 ## Worked Examples
 
@@ -858,7 +923,9 @@ $2.0 \times 10^{-3}\,\text{mol\,dm}^{-3}\text{s}^{-1}$. Calculate $k$.
 
 **Solution:**
 
-$$k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}$$
+$$
+k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}
+$$
 :::
 
 ## Intuition

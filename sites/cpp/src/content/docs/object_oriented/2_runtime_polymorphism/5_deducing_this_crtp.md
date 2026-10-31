@@ -93,7 +93,7 @@ int main() {
 ### Proof: CRTP Achieves Static Dispatch
 
 Let `Base&lt;Derived&gt;` be a CRTP base, and let `Derived` inherit from `Base&lt;Derived&gt;`. When
-`Base&lt;Derived&gt;::f()` calls `static_cast&lt;const Derived\&>(*this).g()`The following occurs:
+`Base&lt;Derived&gt;::f()` calls `static_cast&lt;const Derived\&>(*this).g()`. The following occurs:
 
 1. `*this` has static type `Base&lt;Derived&gt;`. The `static_cast` to `const Derived\&` is valid
    because `Derived` inherits from `Base&lt;Derived&gt;` [N4950 S7.6.2.9].
@@ -169,8 +169,8 @@ How it works:
 
 - The syntax `this const Self& self` declares an **explicit object parameter**. The compiler deduces
   `Self` from the type of the object on which the member function is called.
-- When `p.print()` is called, `Self` is deduced as `Point`So `self` is `const Point&`.
-- When `c.print()` is called, `Self` is deduced as `Circle`So `self` is `const Circle&`.
+- When `p.print()` is called, `Self` is deduced as `Point`. So `self` is `const Point&`.
+- When `c.print()` is called, `Self` is deduced as `Circle`. So `self` is `const Circle&`.
 - The base class can call `self.to_string()` directly -- no `static_cast` needed.
 
 ### Formal Semantics [N4950 S11.4.8.3]
@@ -195,6 +195,8 @@ Deducing `Self` as the type of `s` (with cv-qualifiers). The call `s.f(args)` is
 
 ## 5.3 CRTP vs Deducing This: Comparison
 
+<div class="table-wrap">
+
 | Aspect                       | CRTP                                              | Deducing This (C++23)                        |
 | ---------------------------- | ------------------------------------------------- | -------------------------------------------- |
 | **Syntax**                   | `class Derived : Base&lt;Derived&gt;`             | `void f(this const auto& self)`              |
@@ -207,6 +209,8 @@ Deducing `Self` as the type of `s` (with cv-qualifiers). The call `s.f(args)` is
 | **Heterogeneous containers** | No (each `Base&lt;D&gt;` is a distinct type)      | No (each `Self` is a distinct type)          |
 | **Can be virtual**           | No (the base is a template)                       | No (template parameter deduction is static)  |
 | **`this` pointer access**    | Yes (standard member function)                    | No (use `self` parameter instead)            |
+
+</div>
 
 ## 5.4 Value Category Preservation
 
@@ -251,12 +255,16 @@ Distinguish between lvalue and rvalue receivers.
 
 The deduction follows standard reference collapsing rules [N4950 S9.3.2.6]:
 
+<div class="table-wrap">
+
 | `Self` deduced as | `Self&&` collapses to | Value category |
 | ----------------- | --------------------- | -------------- |
 | `Counter&`        | `Counter&`            | lvalue         |
 | `Counter`         | `Counter&&`           | rvalue         |
 | `const Counter&`  | `const Counter&`      | const lvalue   |
 | `const Counter`   | `const Counter&&`     | const rvalue   |
+
+</div>
 
 ## 5.5 Deducing This for a Fluent API Builder
 
@@ -415,7 +423,7 @@ Standards, or when explicit template instantiation control is needed.
 
 CRTP (and by extension deducing this) is commonly used to enforce a compile-time interface. Unlike
 Virtual functions, this pattern produces a compile-time error if a derived class does not provide
-The required methods:
+the required methods:
 
 ```cpp
 #include <iostream>
@@ -472,6 +480,8 @@ struct Renderable {
 
 ## 5.8 Summary: Runtime vs. Compile-Time Polymorphism
 
+<div class="table-wrap">
+
 | Criterion             | Virtual Functions (Runtime)           | CRTP / Deducing This (Compile-Time)        |
 | --------------------- | ------------------------------------- | ------------------------------------------ |
 | Dispatch mechanism    | vtable lookup at runtime              | Direct call or inlined at compile time     |
@@ -482,6 +492,8 @@ struct Renderable {
 | Flexibility           | Open for extension at any point       | Closed: types must be known at base def.   |
 | Extensibility         | Add new derived types without changes | Adding types may require base modification |
 | Debugging             | Can inspect dynamic type via RTTI     | No runtime type info needed                |
+
+</div>
 
 ## 5.9 Overload Resolution with Deducing This
 
@@ -528,7 +540,7 @@ int main() {
 The first overload binds to const lvalues. The second overload binds to both non-const lvalues
 (`Logger&`) and rvalues (`Logger&&`) due to reference collapsing. This is the deducing-this
 Equivalent of providing both `const` and non-const overloads of a traditional member function, but
-With the added ability to distinguish rvalue receivers.
+with the added ability to distinguish rvalue receivers.
 
 ## 5.10 Deducing This and Multiple Inheritance
 
@@ -562,7 +574,7 @@ int main() {
 }
 ```
 
-This works because `Self` deduces to `AuditEntry`Which inherits from both `Named` and `Timestamped`.
+This works because `Self` deduces to `AuditEntry`. Which inherits from both `Named` and `Timestamped`.
 The `self` parameter is a reference to the complete `AuditEntry` object, so access to `name_` and
 `timestamp_` is valid. With CRTP, this would require `static_cast<Derived*>(this)` and Explicit
 knowledge of the derived class's inheritance chain.
@@ -681,7 +693,7 @@ int main() {
 ```
 
 Each level calls into the next without virtual dispatch. The entire chain resolves at compile time
-And can be inlined by the compiler.
+and can be inlined by the compiler.
 
 ## 5.15 Deducing This and Constexpr Evaluation
 
@@ -715,17 +727,6 @@ int main() {
     static_assert(len_sq == 25.0);
     std::cout << "length_squared = " << len_sq << "\n";
 }
-```
-
-
-```mermaid
-flowchart TD
-    A[5_Deducing_This_Crtp] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition

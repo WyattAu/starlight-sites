@@ -36,7 +36,7 @@ technological innovation, the rise of large corporations, and the expansion of r
   settlement of the West, and standardised time zones (1883)
 - **Communication**: Telegraph (Morse, 1844) and telephone (Bell, 1876) revolutionised long-distance
   communication
-- **Electricity**: Thomas Edison"s light bulb (1879) and power generation systems transformed
+- **Electricity**: Thomas Edison's light bulb (1879) and power generation systems transformed
   industry and daily life
 
 ### Rise of Big Business
@@ -92,6 +92,8 @@ technological innovation, the rise of large corporations, and the expansion of r
 
 ### Old vs New Immigration
 
+<div class="table-wrap">
+
 | Factor     | Old Immigration (pre-1880)              | New Immigration (1880-1920)                |
 | ---------- | --------------------------------------- | ------------------------------------------ |
 | Origin     | Northern and Western Europe             | Southern and Eastern Europe                |
@@ -99,6 +101,8 @@ technological innovation, the rise of large corporations, and the expansion of r
 | Religion   | Protestant                              | Catholic, Jewish, Orthodox                 |
 | Reason     | Economic opportunity, religious freedom | Economic opportunity, escaping persecution |
 | Settlement | Rural areas, small towns                | Urban industrial centres                   |
+
+</div>
 
 ### Nativism and Restriction
 
@@ -209,17 +213,6 @@ Horizontal integration, vertical integration, Gilded Age, Social Darwinism, Gosp
 Homestead Act, Dawes Act, Populist Party, Wounded Knee, Yellow journalism, Platt Amendment,
 Anti-Imperialist League, Sherman Antitrust Act, AFL, Tammany Hall, Ellis Island, Chinese Exclusion
 Act, Pendleton Act, Cross of Gold speech, Free Silver
-
-
-```mermaid
-flowchart TD
-    A[4_Period 6] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

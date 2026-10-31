@@ -78,6 +78,8 @@ int index = names.indexOf("Alice");
 
 **Array vs ArrayList:**
 
+<div class="table-wrap">
+
 | Feature         | Array          | ArrayList                |
 | --------------- | -------------- | ------------------------ |
 | Size            | Fixed          | Dynamic (resizable)      |
@@ -86,6 +88,8 @@ int index = names.indexOf("Alice");
 | Access          | `arr[i]`       | `list.get(i)`            |
 | Modify          | `arr[i] = val` | `list.set(i, val)`       |
 | Add element     | Not possible   | `list.add(val)`          |
+
+</div>
 
 ### 2D Arrays
 
@@ -146,6 +150,8 @@ Time complexity: $O(r \times c)$ where $r$ is rows and $c$ is columns.
 
 AP CSP uses generic list operations:
 
+<div class="table-wrap">
+
 | Operation            | Description                              |
 | -------------------- | ---------------------------------------- |
 | `list[i]`            | Access element at index `i` (1-indexed)  |
@@ -155,11 +161,15 @@ AP CSP uses generic list operations:
 | `REMOVE(list, i)`    | Remove element at index `i`Shifting left |
 | `LENGTH(list)`       | Number of elements in `list`             |
 
+</div>
+
 ## Strings (AP CS A)
 
 Strings are immutable sequences of characters.
 
 ### Common Methods
+
+<div class="table-wrap">
 
 | Method                      | Description                 | Returns   |
 | --------------------------- | --------------------------- | --------- |
@@ -172,6 +182,8 @@ Strings are immutable sequences of characters.
 | `str.compareTo(other)`      | Lexicographic comparison    | `int`     |
 | `str.toUpperCase()`         | All uppercase               | `String`  |
 | `str.toLowerCase()`         | All lowercase               | `String`  |
+
+</div>
 
 ### String Immutability
 
@@ -200,7 +212,7 @@ public static String reverse(String s) {
 ```
 
 Time complexity: $O(n^2)$ because string concatenation creates a new object each time. A more
-Efficient approach uses `StringBuilder` for $O(n)$.
+efficient approach uses `StringBuilder` for $O(n)$.
 
 ```java
 public static String reverseEfficient(String s) {
@@ -370,6 +382,8 @@ public class Student implements Comparable<Student> {
 
 ### Big-O Analysis of ArrayList Operations
 
+<div class="table-wrap">
+
 | Operation          | Average | Worst  |
 | ------------------ | ------- | ------ |
 | `get(i)`           | $O(1)$  | $O(1)$ |
@@ -380,6 +394,8 @@ public class Student implements Comparable<Student> {
 | `set(i, item)`     | $O(1)$  | $O(1)$ |
 | `contains(Object)` | $O(n)$  | $O(n)$ |
 | `indexOf(Object)`  | $O(n)$  | $O(n)$ |
+
+</div>
 
 ### String Algorithms
 
@@ -447,12 +463,16 @@ int pow = (int)Math.pow(2, 10);    // 1024
 
 ### Wrapper Classes and Autoboxing (AP CS A)
 
+<div class="table-wrap">
+
 | Primitive | Wrapper   |
 | --------- | --------- |
 | int       | Integer   |
 | double    | Double    |
 | boolean   | Boolean   |
 | char      | Character |
+
+</div>
 
 ```java
 ArrayList<Integer> list = new ArrayList<>();
@@ -663,7 +683,7 @@ Real-world data is often messy and requires cleaning before analysis:
    original.
 5. **Not handling empty arrays or null inputs.**
 6. **Confusing row and column indices in 2D arrays.** `grid[row][col]`.
-7. **Integer division in Java.** `5 / 2` equals `2`Not `2.5`. Cast to `double`.
+7. **Integer division in Java.** `5 / 2` equals `2`. Not `2.5`. Cast to `double`.
 8. **Confusing `substring` parameters across languages.** Java `substring(1, 4)` returns chars at
    indices 1, 2, 3.
 
@@ -727,6 +747,8 @@ public class Student implements Comparable<Student> {
 
 ### Big-O Analysis of ArrayList Operations
 
+<div class="table-wrap">
+
 | Operation          | Average | Worst  |
 | ------------------ | ------- | ------ |
 | `get(i)`           | $O(1)$  | $O(1)$ |
@@ -737,6 +759,8 @@ public class Student implements Comparable<Student> {
 | `set(i, item)`     | $O(1)$  | $O(1)$ |
 | `contains(Object)` | $O(n)$  | $O(n)$ |
 | `indexOf(Object)`  | $O(n)$  | $O(n)$ |
+
+</div>
 
 ### Privacy Laws and Regulations
 
@@ -932,16 +956,6 @@ metadata before sharing photos online.
 
 </details>
 
-```mermaid
-flowchart TD
-    A[4_Data Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of data analysis, including underlying theory, practical
@@ -954,9 +968,6 @@ implementation, and key applications.
 - sorting algorithms (bubble, merge, quick)
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

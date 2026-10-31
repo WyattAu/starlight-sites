@@ -20,7 +20,7 @@ categories: "- DSE - Economics"
 ## What Is Market Failure?
 
 Market failure occurs when the free market, operating without government intervention, fails to
-Allocate resources in a way that maximises economic welfare. The result is a loss of total surplus
+allocate resources in a way that maximises economic welfare. The result is a loss of total surplus
 (deadweight loss): society could be made better off by reallocating resources.
 
 This file assumes familiarity with supply and demand analysis from
@@ -30,6 +30,8 @@ and the basic market failure overview in
 
 ### Types of Market Failure
 
+<div class="table-wrap">
+
 | Type                  | Description                                                                                                                                       |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Externalities         | Costs or benefits of production or consumption that spill over to third parties who are not part of the transaction.                              |
@@ -38,6 +40,8 @@ and the basic market failure overview in
 | Monopoly power        | A single seller (or a small number of sellers) can restrict output and raise prices above the competitive level, causing deadweight loss.         |
 | Factor immobility     | Factors of production (especially labour) cannot move between industries or regions, causing structural unemployment and persistent inefficiency. |
 | Inequality            | The market may produce an unacceptable distribution of income and wealth, even if it is allocatively efficient in a Pareto sense.                 |
+
+</div>
 
 ---
 
@@ -55,15 +59,17 @@ and the basic market failure overview in
 ### Definition
 
 A negative externality (external cost) exists when the social cost of an activity exceeds the
-Private cost borne by the decision-maker. The cost is imposed on third parties who did not consent
-To bear it.
+private cost borne by the decision-maker. The cost is imposed on third parties who did not consent
+to bear it.
 
 ### Negative Externality of Production
 
 This occurs when the production of a good imposes costs on society that are not reflected in the
-Producer"s private costs.
+producer's private costs.
 
-$$\mathrm{MSC} = \mathrm{MPC} + \mathrm{MEC}$$
+$$
+\mathrm{MSC} = \mathrm{MPC} + \mathrm{MEC}
+$$
 
 Where:
 
@@ -73,11 +79,11 @@ Where:
 
 **Example:** A factory produces chemicals and discharges waste into a river. The factory bears the
 Private cost of production (labour, raw materials, energy). But the pollution damages the health of
-Downstream residents and harms fisheries. This external cost is not borne by the factory, so its
-Supply curve reflects only MPC, not MSC.
+downstream residents and harms fisheries. This external cost is not borne by the factory, so its
+supply curve reflects only MPC, not MSC.
 
 **Result:** The market produces where `MPB = MPC` (market equilibrium). The socially optimal output
-Is where `MSB = MSC`. Since `MSC \gt MPC`The market equilibrium output is greater than the Socially
+Is where `MSB = MSC`. Since `MSC \gt MPC`. The market equilibrium output is greater than the Socially
 optimal output. The market **over-produces** the good.
 
 ### Diagram Description: Negative Externality of Production
@@ -109,13 +115,15 @@ optimal output. The market **over-produces** the good.
 
 This occurs when the consumption of a good imposes costs on third parties.
 
-$$\mathrm{MSC} = \mathrm{MPB} + \mathrm{MEC}$$
+$$
+\mathrm{MSC} = \mathrm{MPB} + \mathrm{MEC}
+$$
 
 Where MEC is the marginal external cost of consumption.
 
 **Example:** Smoking in public places. The smoker derives private benefit (MPB), but second-hand
 Smoke harms the health of nearby non-smokers. The full social benefit of the last unit consumed is
-Less than the private benefit.
+less than the private benefit.
 
 **Result:** The market over-consumes the good relative to the social optimum because the consumer
 Does not account for the external cost imposed on others.
@@ -136,27 +144,31 @@ Does not account for the external cost imposed on others.
 ### Definition
 
 A positive externality (external benefit) exists when the social benefit of an activity exceeds the
-Private benefit received by the decision-maker. The benefit accrues to third parties who did not pay
-For it.
+private benefit received by the decision-maker. The benefit accrues to third parties who did not pay
+for it.
 
 ### Positive Externality of Production
 
-$$\mathrm{MSB} = \mathrm{MPB} + \mathrm{MEB}$$
+$$
+\mathrm{MSB} = \mathrm{MPB} + \mathrm{MEB}
+$$
 
 Where MEB = marginal external benefit of production.
 
 **Example:** A beekeeper's bees pollinate nearby orchards. The beekeeper sells honey (private
 Benefit), but the orchard owner benefits from free pollination (external benefit). The beekeeper
-Does not capture this external benefit in revenue, so produces less than the socially optimal
+does not capture this external benefit in revenue, so produces less than the socially optimal
 Quantity.
 
 **Result:** The market **under-produces** the good because `MSB \gt MPB`. The socially optimal
-Output is where `MSB = MSC`But the market produces where `MPB = MPC`Which is less than the Social
+Output is where `MSB = MSC`. But the market produces where `MPB = MPC`. Which is less than the Social
 optimum.
 
 ### Positive Externality of Consumption
 
-$$\mathrm{MSB} = \mathrm{MPB} + \mathrm{MEB}$$
+$$
+\mathrm{MSB} = \mathrm{MPB} + \mathrm{MEB}
+$$
 
 **Example:** Education. The individual student benefits from higher future earnings (MPB), but
 Society benefits from a more educated population (lower crime rates, better civic participation,
@@ -168,12 +180,16 @@ Rationale for government provision or subsidisation of education.
 
 ### Other Examples of Positive Externalities
 
+<div class="table-wrap">
+
 | Activity         | Private Benefit           | External Benefit                                     |
 | ---------------- | ------------------------- | ---------------------------------------------------- |
 | Vaccination      | Protection from disease   | Reduced transmission to others (herd immunity)       |
 | Research         | Firm's profit from patent | Knowledge spillovers benefit other firms and society |
 | Public transport | Convenience for the user  | Reduced congestion and pollution for everyone        |
 | Healthcare       | Individual health         | Reduced disease transmission, healthier workforce    |
+
+</div>
 
 ---
 
@@ -191,14 +207,18 @@ Rationale for government provision or subsidisation of education.
 ### Mechanism
 
 A Pigouvian tax is a tax levied on each unit of a good that generates a negative externality. The
-Tax is set equal to the marginal external cost at the socially optimal output.
+tax is set equal to the marginal external cost at the socially optimal output.
 
-$$\mathrm{Pigouvian tax per unit} = \mathrm{MEC} \mathrm{ at } Q_{\mathrm{opt}}$$
+$$
+\mathrm{Pigouvian tax per unit} = \mathrm{MEC} \mathrm{ at } Q_{\mathrm{opt}}
+$$
 
 By internalising the externality, the tax shifts the private cost curve upward to coincide with the
-Social cost curve:
+social cost curve:
 
-$$\mathrm{MPC} + \mathrm{Tax} = \mathrm{MSC}$$
+$$
+\mathrm{MPC} + \mathrm{Tax} = \mathrm{MSC}
+$$
 
 The firm now faces the full social cost of production and reduces output to the socially optimal
 Level.
@@ -220,11 +240,11 @@ Level.
 A factory's MPC is given by `P = 20 + 0.5Q`. The marginal external cost is `MEC = 10`. Demand is
 `P = 80 - Q`.
 
-Without the tax, market equilibrium: `20 + 0.5Q = 80 - Q`So `1.5Q = 60``Q = 40``P = 40`.
+Without the tax, market equilibrium: `20 + 0.5Q = 80 - Q`. So `1.5Q = 60`, `Q = 40`, `P = 40`.
 
 With a Pigouvian tax of `MEC = 10` per unit, the supply curve shifts up: `P = 30 + 0.5Q`.
 
-New equilibrium: `30 + 0.5Q = 80 - Q`So `1.5Q = 50``Q = 33.33``P = 46.67`.
+New equilibrium: `30 + 0.5Q = 80 - Q`. So `1.5Q = 50`, `Q = 33.33`, `P = 46.67`.
 
 The tax reduces output from 40 to 33.33 (closer to the social optimum). Tax revenue =
 `10 x 33.33 = 333.3`.
@@ -234,9 +254,9 @@ The tax reduces output from 40 to 33.33 (closer to the social optimum). Tax reve
 
 A chemical plant has `MPC = 15 + Q` and `MEC = 12`. Demand: `P = 90 - Q`.
 
-Market equilibrium: `15 + Q = 90 - Q``Q^* = 37.5``P^* = 52.5`.
+Market equilibrium: `15 + Q = 90 - Q`, `Q^* = 37.5`, `P^* = 52.5`.
 
-Social optimum: `MSC = 15 + Q + 12 = 27 + Q`. Set `27 + Q = 90 - Q``Q_{opt} = 31.5`.
+Social optimum: `MSC = 15 + Q + 12 = 27 + Q`. Set `27 + Q = 90 - Q`, `Q_{opt} = 31.5`.
 
 Price consumers pay = `90 - 31.5 = 58.5`. Price producers receive = `15 + 31.5 = 46.5`.
 
@@ -265,10 +285,12 @@ A subsidy is a payment per unit to producers (or consumers) of a good that gener
 Externality. The subsidy shifts the private benefit curve upward to coincide with the social benefit
 Curve:
 
-$$\mathrm{MPB} + \mathrm{Subsidy} = \mathrm{MSB}$$
+$$
+\mathrm{MPB} + \mathrm{Subsidy} = \mathrm{MSB}
+$$
 
 The firm (or consumer) now receives the full social benefit and increases consumption/production to
-The socially optimal level.
+the socially optimal level.
 
 ### Properties of an Ideal Subsidy
 
@@ -280,16 +302,16 @@ The socially optimal level.
 ### Worked Example: Education Subsidy
 
 The private demand for university education is `P = 50 - 0.1Q` (MPB). The marginal external benefit
-Is `MEB = 15`. The supply (MPC = MSC for simplicity) is `P = 10 + 0.1Q`.
+is `MEB = 15`. The supply (MPC = MSC for simplicity) is `P = 10 + 0.1Q`.
 
-Without subsidy: `50 - 0.1Q = 10 + 0.1Q`So `0.2Q = 40``Q = 200`.
+Without subsidy: `50 - 0.1Q = 10 + 0.1Q`. So `0.2Q = 40`, `Q = 200`.
 
 Social optimum: `MSB = 50 - 0.1Q + 15 = 65 - 0.1Q`. Set `MSB = MSC`: `65 - 0.1Q = 10 + 0.1Q`
-`0.2Q = 55``Q = 275`.
+`0.2Q = 55`, `Q = 275`.
 
 A subsidy of `MEB = 15` per student shifts the demand curve up: `P = 65 - 0.1Q`.
 
-New equilibrium: `65 - 0.1Q = 10 + 0.1Q``Q = 275`. The subsidy achieves the social optimum.
+New equilibrium: `65 - 0.1Q = 10 + 0.1Q`, `Q = 275`. The subsidy achieves the social optimum.
 
 Government cost = `15 x 275 = 4,125`.
 
@@ -299,9 +321,9 @@ Government cost = `15 x 275 = 4,125`.
 
 Private demand for flu shots: `P = 30 - 0.1Q` (MPB). `MEB = 8`. Supply: `P = 4 + 0.1Q`.
 
-Market equilibrium: `30 - 0.1Q = 4 + 0.1Q``Q = 130`.
+Market equilibrium: `30 - 0.1Q = 4 + 0.1Q`, `Q = 130`.
 
-Social optimum: `MSB = 38 - 0.1Q`. Set `MSB = MSC`: `38 - 0.1Q = 4 + 0.1Q``Q_{opt} = 170`.
+Social optimum: `MSB = 38 - 0.1Q`. Set `MSB = MSC`: `38 - 0.1Q = 4 + 0.1Q`, `Q_{opt} = 170`.
 
 Subsidy = `MEB = 8` per vaccination. Government cost = `8 \times 170 = 1,360`.
 
@@ -323,7 +345,7 @@ DWL without intervention = `0.5 \times 8 \times (170 - 130) = 0.5 \times 8 \time
 ### Mechanism
 
 The government sets a total cap on the quantity of pollution (e.g., total tonnes of CO2 emissions
-Per year). It then issues permits equal to the cap. Each permit allows the holder to emit a fixed
+per year). It then issues permits equal to the cap. Each permit allows the holder to emit a fixed
 Quantity of pollution. Firms can buy and sell permits among themselves.
 
 ### How It Works
@@ -337,6 +359,8 @@ Quantity of pollution. Firms can buy and sell permits among themselves.
 
 ### Advantages Over Pigouvian Taxes
 
+<div class="table-wrap">
+
 | Feature               | Pigouvian Tax                                                          | Cap and Trade                                                                     |
 | --------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | Quantity certainty    | Emissions quantity uncertain (depends on how firms respond to the tax) | Emissions quantity is certain (set by the cap)                                    |
@@ -344,6 +368,8 @@ Quantity of pollution. Firms can buy and sell permits among themselves.
 | Revenue               | Generates government revenue                                           | Depends on allocation method (auctions generate revenue; grandfathering does not) |
 | Efficiency            | Efficient if MEC is known                                              | Efficient if permits are tradeable                                                |
 | Political feasibility | Often unpopular ("tax")                                                | May be more politically acceptable                                                |
+
+</div>
 
 ### Conditions for Cap and Trade to Work
 
@@ -368,12 +394,18 @@ Quantity of pollution. Firms can buy and sell permits among themselves.
 
 ### Definition and Characteristics
 
+<div class="table-wrap">
+
 | Characteristic    | Definition                                                                                              | Implication                                               |
 | ----------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | Non-excludability | It is impossible or prohibitively costly to prevent someone from consuming the good once it is provided | The free-rider problem: people can benefit without paying |
 | Non-rivalry       | One person's consumption does not reduce the quantity or quality available for others                   | Marginal cost of additional consumption is zero           |
 
+</div>
+
 ### Types of Goods
+
+<div class="table-wrap">
 
 | Type                     | Excludable | Rivalrous | Example                                       |
 | ------------------------ | ---------- | --------- | --------------------------------------------- |
@@ -382,26 +414,28 @@ Quantity of pollution. Firms can buy and sell permits among themselves.
 | Common resource          | No         | Yes       | Fish stocks, clean air, public grazing land   |
 | Club good (quasi-public) | Yes        | No        | Cable TV, private parks, toll roads           |
 
+</div>
+
 ### The Free-Rider Problem
 
 Because public goods are non-excludable, individuals have an incentive to free-ride: to enjoy the
-Benefit of the good without paying for it. If everyone free-rides, no one pays, and the good is not
-Provided (even though society would be better off with provision).
+benefit of the good without paying for it. If everyone free-rides, no one pays, and the good is not
+provided (even though society would be better off with provision).
 
 **Rational free-riding:** A single individual's contribution has a negligible effect on whether the
 Good is provided. The individual's dominant strategy is to not contribute and free-ride on others'
 Contributions. Since this logic applies to everyone, the good is under-provided or not provided at
-All.
+all.
 
 ### Quasi-Public Goods
 
 Quasi-public goods (club goods) are excludable but non-rivalrous up to a point. They can be provided
-By the market (since exclusion is possible), but the market may under-provide them because the
-Marginal cost of additional users is near zero (making the efficient price zero or very low).
+by the market (since exclusion is possible), but the market may under-provide them because the
+marginal cost of additional users is near zero (making the efficient price zero or very low).
 
 Examples: roads (non-rivalrous until congestion sets in), public parks, museums, education,
 Healthcare. These goods are often provided or subsidised by the government because the market would
-Under-provide them relative to the social optimum.
+under-provide them relative to the social optimum.
 
 ---
 
@@ -419,7 +453,7 @@ Under-provide them relative to the social optimum.
 ### Merit Goods
 
 Merit goods are goods that are deemed socially desirable, but which individuals under-consume
-Because they do not fully appreciate their long-term benefits (imperfect information, myopic
+because they do not fully appreciate their long-term benefits (imperfect information, myopic
 Behaviour).
 
 **Characteristics:**
@@ -436,7 +470,7 @@ Schooling, mandatory vaccination), information campaigns.
 ### Demerit Goods
 
 Demerit goods are goods that are deemed socially undesirable, but which individuals over-consume
-Because they do not fully appreciate their long-term costs (imperfect information, addiction).
+because they do not fully appreciate their long-term costs (imperfect information, addiction).
 
 **Characteristics:**
 
@@ -478,19 +512,19 @@ But because consumers make poor decisions due to:
 ### Definition
 
 Information asymmetry exists when one party to a transaction has more or better information than the
-Other. This leads to two key problems:
+other. This leads to two key problems:
 
 ### Adverse Selection
 
 Adverse selection occurs **before** a transaction, when the buyer or seller has private information
-That the other party does not know. The party with better information self-selects into the
-Transaction in a way that harms the less-informed party.
+that the other party does not know. The party with better information self-selects into the
+transaction in a way that harms the less-informed party.
 
 **Example 1 (market for lemons):** In the used car market, the seller knows whether the car is a
 "lemon" (defective) or a "peach" (good quality), but the buyer does not. The buyer, knowing that
-Some cars are lemons, offers a price that reflects the average quality. This price is acceptable to
-Sellers of lemons (who get more than their car is worth) but not to sellers of peaches (who get less
-Than their car is worth). Peach sellers exit the market, leaving only lemons. The market collapses.
+some cars are lemons, offers a price that reflects the average quality. This price is acceptable to
+sellers of lemons (who get more than their car is worth) but not to sellers of peaches (who get less
+than their car is worth). Peach sellers exit the market, leaving only lemons. The market collapses.
 
 **Example 2 (insurance):** People who know they are high-risk are more likely to buy insurance. If
 The insurer cannot distinguish high-risk from low-risk customers, it charges an average premium.
@@ -500,7 +534,7 @@ Customers and must raise premiums further, driving more low-risk customers away.
 ### Moral Hazard
 
 Moral hazard occurs **after** a transaction, when one party changes their behaviour because they are
-Insulated from the consequences of their actions.
+insulated from the consequences of their actions.
 
 **Example 1 (insurance):** After buying health insurance, a person may take more health risks
 (smoking, extreme sports) because the insurer bears the cost of medical treatment. The insured
@@ -508,15 +542,19 @@ Person exercises less care because they are protected from the financial consequ
 
 **Example 2 (banking):** Deposit insurance protects depositors from bank failures. Banks may take
 Excessive risks (lending to risky borrowers, high leverage) because they know depositors will not
-Withdraw funds (they are protected by insurance). The bank's shareholders benefit from risky
+withdraw funds (they are protected by insurance). The bank's shareholders benefit from risky
 Behaviour during good times, while the insurer (government) bears the cost of failure.
 
 ### Solutions to Information Asymmetry
+
+<div class="table-wrap">
 
 | Problem           | Solution                                                                                                                                                 |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Adverse selection | Signalling (seller reveals information: warranties, certifications, education credentials), screening (buyer investigates: medical exams, credit checks) |
 | Moral hazard      | Deductibles and co-payments in insurance, performance-based contracts, monitoring and regulation, regulation of risky behaviour                          |
+
+</div>
 
 ---
 
@@ -543,7 +581,9 @@ Analysis (CBA) to determine whether the intervention will improve net welfare.
 3. **Discount future costs and benefits:** Future costs and benefits are worth less than present
    ones (time preference). Use a social discount rate to convert future flows to present value.
 
-$$\mathrm{NPV} = \sum_{t=0}^{T} \frac{B_t - C_t}{(1 + r)^t}$$
+$$
+\mathrm{NPV} = \sum_{t=0}^{T} \frac{B_t - C_t}{(1 + r)^t}
+$$
 
 1. **Compare:** If NPV \gt 0, the intervention improves net welfare and should be undertaken. If NPV
    \lt 0, the costs outweigh the benefits.
@@ -575,6 +615,8 @@ Occurs when government intervention reduces welfare rather than increasing it.
 
 ### Types of Government Failure
 
+<div class="table-wrap">
+
 | Type                      | Description                                                                                                                                                                                 |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Regulatory capture        | Regulatory agencies become dominated by the industries they are supposed to regulate. Regulators act in the interest of the industry rather than the public.                                |
@@ -586,11 +628,13 @@ Occurs when government intervention reduces welfare rather than increasing it.
 | Time inconsistency        | Governments may make commitments they later renege on (e.g., promising not to inflate, then inflating to reduce the real value of debt).                                                    |
 | Crowding out              | Government provision of goods and services may crowd out private provision, even when private provision would be more efficient.                                                            |
 
+</div>
+
 ### Regulatory Capture: Detailed Analysis
 
 Regulatory capture is one of the most significant forms of government failure. Industries have a
-Strong incentive to influence regulators because regulation directly affects their profits. The
-Public, in contrast, is diffuse and has weak incentives to monitor regulatory agencies.
+strong incentive to influence regulators because regulation directly affects their profits. The
+public, in contrast, is diffuse and has weak incentives to monitor regulatory agencies.
 
 **Mechanism of capture:**
 
@@ -688,12 +732,12 @@ Demand is `P = 50 - Q`.
 (a) Find the market equilibrium output and price. (b) Find the socially optimal output and price.
 (c) Calculate the deadweight loss. (d) What per-unit tax would achieve the social optimum?
 
-(a) Market equilibrium (no tax): `MPC = MPB`: `10 + 0.5Q = 50 - Q``1.5Q = 40``Q* = 26.67`
+(a) Market equilibrium (no tax): `MPC = MPB`: `10 + 0.5Q = 50 - Q`, `1.5Q = 40`, `Q* = 26.67`
 `P* = 23.33`.
 
 (b) Social optimum: `MSC = MSB`. `MSC = MPC + MEC = 10 + 0.5Q + 5 = 15 + 0.5Q`. `MSB = 50 - Q`.
 
-`15 + 0.5Q = 50 - Q``1.5Q = 35``Q_opt = 23.33`.
+`15 + 0.5Q = 50 - Q`, `1.5Q = 35`, `Q_opt = 23.33`.
 
 Price consumers pay: `P = 50 - 23.33 = 26.67`.
 
@@ -704,7 +748,7 @@ Price producers receive (net of tax): `P = 10 + 0.5(23.33) = 21.67`.
 `DWL = 0.5 x 5 x 3.34 = 8.33`.
 
 (d) The Pigouvian tax = `MEC = 5` per unit. This shifts the supply curve up from `MPC` to `MSC`And
-The new equilibrium is at the social optimum.
+the new equilibrium is at the social optimum.
 
 </details>
 <details>
@@ -714,13 +758,13 @@ The demand for flu vaccinations is `P = 40 - 0.2Q` (MPB). The marginal external 
 `MEB = 10`. The supply (MPC = MSC) is `P = 5 + 0.1Q`.
 
 (a) Find the market equilibrium output. (b) Find the socially optimal output. (c) Calculate the
-Deadweight loss. (d) What per-unit subsidy would achieve the social optimum?
+deadweight loss. (d) What per-unit subsidy would achieve the social optimum?
 
-(a) Market equilibrium: `MPB = MPC`: `40 - 0.2Q = 5 + 0.1Q``0.3Q = 35``Q = 116.67`.
+(a) Market equilibrium: `MPB = MPC`: `40 - 0.2Q = 5 + 0.1Q`, `0.3Q = 35`, `Q = 116.67`.
 
 (b) Social optimum: `MSB = MSC`. `MSB = MPB + MEB = 40 - 0.2Q + 10 = 50 - 0.2Q`. `MSC = 5 + 0.1Q`.
 
-`50 - 0.2Q = 5 + 0.1Q``0.3Q = 45``Q_opt = 150`.
+`50 - 0.2Q = 5 + 0.1Q`, `0.3Q = 45`, `Q_opt = 150`.
 
 (c) DWL = `0.5 x MEB x (Q_opt - Q) = 0.5 x 10 x (150 - 116.67) = 0.5 x 10 x 33.33 = 166.67`.
 
@@ -734,7 +778,7 @@ Government cost = `10 x 150 = 1,500`.
 <summary>Question 3: Public Goods and Free Riding</summary>
 
 A community of 1,000 residents is considering building a public park. Each resident values the park
-At USD 200. The park costs USD 120,000 to build.
+at USD 200. The park costs USD 120,000 to build.
 
 (a) Is it efficient to build the park? (b) Will the park be built if left to the private market?
 Explain. (c) How can the government ensure the park is built?
@@ -743,28 +787,28 @@ Explain. (c) How can the government ensure the park is built?
 Cost, it is efficient to build the park. NPV = `200,000 - 120,000 = 80,000 \gt 0`.
 
 (b) The park will likely NOT be built by the private market due to the free-rider problem. The park
-Is a public good (non-excludable, non-rivalrous). Each resident can enjoy the park even if they do
-Not contribute. Each individual's contribution has a negligible effect on whether the park is built
+is a public good (non-excludable, non-rivalrous). Each resident can enjoy the park even if they do
+not contribute. Each individual's contribution has a negligible effect on whether the park is built
 (it requires contributions from many people). The dominant strategy for each resident is to
-Free-ride on others' contributions. Since everyone reasons this way, total contributions are
-Insufficient to build the park.
+free-ride on others' contributions. Since everyone reasons this way, total contributions are
+insufficient to build the park.
 
 Even if each resident were asked to contribute their valuation (USD 200), they have an incentive to
-Understate their valuation (say they value it at USD 50) to pay less while still enjoying the park.
+understate their valuation (say they value it at USD 50) to pay less while still enjoying the park.
 
 (c) The government can build the park and finance it through compulsory taxation. Since the total
 Cost (USD 120,000) is less than the total benefit (USD 200,000), the park should be built. Each
-Resident can be taxed USD 120 (120,000 / 1,000), which is less than their valuation (USD 200), so
-Everyone is better off.
+resident can be taxed USD 120 (120,000 / 1,000), which is less than their valuation (USD 200), so
+everyone is better off.
 
 </details>
 <details>
 <summary>Question 4: Information Asymmetry</summary>
 
 In a health insurance market, there are two types of customers: healthy (60% of the population) and
-Unhealthy (40%). Healthy customers have expected annual medical costs of USD 2,000. Unhealthy
+unhealthy (40%). Healthy customers have expected annual medical costs of USD 2,000. Unhealthy
 Customers have expected annual medical costs of USD 8,000. The insurer cannot distinguish between
-The two types.
+the two types.
 
 (a) If the insurer charges a single community-rated premium, what must the premium be to break even?
 (b) Will healthy customers buy insurance at this premium? (c) What happens to the market over time?
@@ -775,12 +819,12 @@ The two types.
 The insurer must charge at least USD 4,400 per customer to break even.
 
 (b) Healthy customers have expected costs of USD 2,000 but face a premium of USD 4,400. They are
-Paying USD 2,400 more than their expected costs. Many healthy customers will choose not to buy
+paying USD 2,400 more than their expected costs. Many healthy customers will choose not to buy
 Insurance (they can self-insure by saving USD 2,000 per year instead).
 
 (c) If healthy customers exit the market, the remaining pool consists only of unhealthy customers.
 The insurer must now charge USD 8,000 to break even. This even higher premium may drive out
-Unhealthy customers with lower-than-average costs. The market may collapse entirely (the "adverse
+unhealthy customers with lower-than-average costs. The market may collapse entirely (the "adverse
 Selection death spiral").
 
 (d) Solutions to adverse selection:
@@ -808,7 +852,7 @@ Plant `A`: `MAC_A = 20 + 2Q_A`
 Plant `B`: `MAC_B = 10 + 4Q_B`
 
 Where `Q` is the quantity of pollution abated (reduced). The government wants total abatement of 30
-Units.
+units.
 
 (a) If the government mandates each plant to abate 15 units, what is the total abatement cost? (b)
 If instead the government issues 30 permits (each allowing 1 unit of pollution) and lets the plants
@@ -823,11 +867,11 @@ Total cost = `525 + 600 = 1,125`.
 
 (b) At the cost-minimising allocation, `MAC_A = MAC_B = permit price`.
 
-`20 + 2Q_A = 10 + 4Q_B`. And `Q_A + Q_B = 30`So `Q_B = 30 - Q_A`.
+`20 + 2Q_A = 10 + 4Q_B`. And `Q_A + Q_B = 30`. So `Q_B = 30 - Q_A`.
 
 `20 + 2Q_A = 10 + 4(30 - Q_A) = 10 + 120 - 4Q_A = 130 - 4Q_A`.
 
-`6Q_A = 110``Q_A = 18.33``Q_B = 11.67`.
+`6Q_A = 110`, `Q_A = 18.33`, `Q_B = 11.67`.
 
 Permit price = `20 + 2(18.33) = 56.67`.
 
@@ -838,10 +882,10 @@ Cost to `B`: `10(11.67) + 4(11.67^2)/2 = 116.7 + 272.2 = 388.9`.
 Total cost = `702.7 + 388.9 = 1,091.6`.
 
 (d) The tradable permit approach costs less (1,091.6 vs 1,125). This is because trading allows the
-Plants to equalise their marginal abatement costs, achieving the total abatement target at the
-Lowest total cost. Plant `A` (with lower MAC) does more abatement, and Plant `B` (with higher MAC)
+plants to equalise their marginal abatement costs, achieving the total abatement target at the
+lowest total cost. Plant `A` (with lower MAC) does more abatement, and Plant `B` (with higher MAC)
 Does less. This is the equimarginal principle: cost is minimised when the marginal cost of abatement
-Is equal across all firms.
+is equal across all firms.
 
 Under the uniform mandate, Plant `B` is forced to abate beyond its cost-effective level, while Plant
 `A` abates less than it could cost-effectively. Trading corrects this misallocation.
@@ -900,27 +944,27 @@ A complete ban is a blunt instrument that may cause more harm than good. Targete
 <summary>Question 7: Coase Theorem Application</summary>
 
 A factory emits pollution that causes USD 5,000 of damage per year to a neighbouring farmer. The
-Factory could install a scrubber at a cost of USD 3,000 per year to eliminate the pollution.
+factory could install a scrubber at a cost of USD 3,000 per year to eliminate the pollution.
 
 (a) What is the efficient outcome? (b) If the factory has the right to pollute (no legal
 Restriction), will the farmer pay the factory to install the scrubber? Explain. (c) If the farmer
-Has the right to clean air (the factory must compensate the farmer for any damage), what will
-Happen? (d) What conditions must hold for the Coase theorem to apply?
+has the right to clean air (the factory must compensate the farmer for any damage), what will
+happen? (d) What conditions must hold for the Coase theorem to apply?
 
 (a) The efficient outcome is for the factory to install the scrubber. The scrubber costs USD 3,000
-And prevents USD 5,000 of damage. Net social benefit = 5,000 - 3,000 = USD 2,000. Installing the
-Scrubber is the lower-cost solution.
+and prevents USD 5,000 of damage. Net social benefit = 5,000 - 3,000 = USD 2,000. Installing the
+scrubber is the lower-cost solution.
 
 (b) If the factory has the right to pollute, the farmer can offer to pay the factory to install the
-Scrubber. The farmer would be willing to pay up to USD 5,000 (the damage avoided). The factory would
-Accept any payment above USD 3,000 (the cost of the scrubber). If they negotiate a payment between
+scrubber. The farmer would be willing to pay up to USD 5,000 (the damage avoided). The factory would
+accept any payment above USD 3,000 (the cost of the scrubber). If they negotiate a payment between
 USD 3,000 and USD 5,000, both parties are better off. The efficient outcome is achieved through
-Private bargaining.
+private bargaining.
 
 (c) If the farmer has the right to clean air, the factory must either stop polluting (install the
-Scrubber at USD 3,000) or compensate the farmer USD 5,000 per year. The factory will choose to
-Install the scrubber (USD 3,000 is cheaper than USD 5,000 in compensation). The efficient outcome is
-Achieved.
+scrubber at USD 3,000) or compensate the farmer USD 5,000 per year. The factory will choose to
+install the scrubber (USD 3,000 is cheaper than USD 5,000 in compensation). The efficient outcome is
+achieved.
 
 (d) The Coase theorem states that if property rights are well-defined and transaction costs are low,
 Private bargaining will lead to an efficient outcome regardless of the initial allocation of rights.
@@ -937,13 +981,13 @@ The required conditions are:
 
 In practice, the Coase theorem often fails because transaction costs are high (legal fees,
 Collective action problems among many affected parties), property rights are unclear, and there are
-Many affected parties (making bargaining impractical). In these cases, government intervention
+many affected parties (making bargaining impractical). In these cases, government intervention
 (taxes, regulation, or tradable permits) is necessary.
 
 ### Merit Goods: Education and Healthcare as Examples
 
 Education and healthcare are the two most commonly cited merit goods. They share several
-Characteristics that justify government intervention:
+characteristics that justify government intervention:
 
 **Education:**
 
@@ -974,8 +1018,8 @@ Characteristics that justify government intervention:
 ### The Coase Theorem
 
 The Coase theorem (Ronald Coase, 1960) states that if property rights are well-defined and
-Transaction costs are zero (or sufficiently low), private bargaining between affected parties will
-Lead to an efficient outcome regardless of the initial allocation of property rights.
+transaction costs are zero (or sufficiently low), private bargaining between affected parties will
+lead to an efficient outcome regardless of the initial allocation of property rights.
 
 **Implications:**
 
@@ -1016,15 +1060,15 @@ Smoking in public places generates a negative externality. The private demand fo
 Is `P = 2 + 0.01Q`.
 
 (a) Find the market equilibrium quantity and price. (b) Find the socially optimal quantity. (c) What
-Per-unit tax on consumers would achieve the social optimum? (d) Calculate the DWL without
+per-unit tax on consumers would achieve the social optimum? (d) Calculate the DWL without
 intervention.
 
 ### Details
 
-(a) Market: `MPB = MPC`: `20 - 0.02Q = 2 + 0.01Q``0.03Q = 18``Q = 600`. `P = 8`.
+(a) Market: `MPB = MPC`: `20 - 0.02Q = 2 + 0.01Q`, `0.03Q = 18`, `Q = 600`. `P = 8`.
 
 (b) Social optimum: `MSB = MPB - MEC = 20 - 0.02Q - 6 = 14 - 0.02Q`. Set `MSB = MSC`:
-`14 - 0.02Q = 2 + 0.01Q``0.03Q = 12``Q = 400`.
+`14 - 0.02Q = 2 + 0.01Q`, `0.03Q = 12`, `Q = 400`.
 
 (c) Tax = `MEC = 6` per pack of cigarettes.
 
@@ -1039,25 +1083,25 @@ If you get this wrong, revise:
 <summary>Problem 2: Public Goods Provision</summary>
 
 A village of 500 residents is considering building a street lighting system costing USD 25,000. Each
-Resident values the lighting at USD 60.
+resident values the lighting at USD 60.
 
 (a) Is it efficient to build the system? (b) Will the private market provide it? (c) How should the
-Village fund it?
+village fund it?
 
 </details>
 <details>
 <summary>Solution</summary>
 
-(a) Total benefit = `500 \times 60 = 30,000`. Cost = `25,000`. Since `30,000 \gt 25,000`It IS
-Efficient (NPV = 5,000 \gt 0).
+(a) Total benefit = `500 \times 60 = 30,000`. Cost = `25,000`. Since `30,000 \gt 25,000`. It IS
+efficient (NPV = 5,000 \gt 0).
 
 (b) No -- street lighting is a **public good** (non-excludable, non-rivalrous). The free-rider
 problem Means each resident hopes others will pay while they enjoy the benefit for free. Private
 provision will Under-provide or not provide at all.
 
 (c) The village government should build the system and fund it through compulsory taxation. Each
-Resident can be taxed `25,000/500 = 50`Which is less than their valuation (60). Everyone is better
-Off.
+resident can be taxed `25,000/500 = 50`. Which is less than their valuation (60). Everyone is better
+off.
 
 If you get this wrong, revise: [Public Goods](#public-goods)
 
@@ -1067,7 +1111,7 @@ If you get this wrong, revise: [Public Goods](#public-goods)
 <summary>Problem 3: Adverse Selection in Insurance</summary>
 
 An insurance market has two groups: low-risk (70% of population, expected claims USD 1,000/year) and
-High-risk (30%, expected claims USD 5,000/year). The insurer cannot distinguish between them.
+high-risk (30%, expected claims USD 5,000/year). The insurer cannot distinguish between them.
 
 (a) What single premium must the insurer charge to break even? (b) Will low-risk customers buy at
 this Premium? (c) What happens to the market over time?
@@ -1077,13 +1121,13 @@ this Premium? (c) What happens to the market over time?
 <summary>Solution</summary>
 
 (a) Expected cost = `0.7 \times 1,000 + 0.3 \times 5,000 = 700 + 1,500 = 2,200`. Premium must be at
-Least USD 2,200.
+least USD 2,200.
 
 (b) Low-risk customers have expected costs of USD 1,000 but must pay USD 2,200. Many will not buy
 (they can self-insure by saving USD 1,000/year). They are overpaying by USD 1,200.
 
 (c) Low-risk customers exit. Remaining pool has more high-risk customers. The insurer must raise the
-Premium further. This "death spiral" may collapse the market entirely, leaving only high-risk
+premium further. This "death spiral" may collapse the market entirely, leaving only high-risk
 Customers at very high premiums.
 
 If you get this wrong, revise: [Adverse Selection](#adverse-selection)
@@ -1137,8 +1181,8 @@ the Cost-minimising allocation. (c) How much does trading save?
 (a) Cost of A: `30(12) + 3(144)/2 = 360 + 216 = 576`. Cost of B:
 `10(12) + 5(144)/2 = 120 + 360 = 480`. Total = `576 + 480 = 1,056`.
 
-(b) Cost minimisation: `MAC_A = MAC_B`: `30 + 3Q_A = 10 + 5Q_B`And `Q_A + Q_B = 24`So
-`Q_B = 24 - Q_A`. `30 + 3Q_A = 10 + 5(24 - Q_A) = 130 - 5Q_A`. `8Q_A = 100``Q_A = 12.5``Q_B = 11.5`.
+(b) Cost minimisation: `MAC_A = MAC_B`: `30 + 3Q_A = 10 + 5Q_B`And `Q_A + Q_B = 24`. So
+`Q_B = 24 - Q_A`. `30 + 3Q_A = 10 + 5(24 - Q_A) = 130 - 5Q_A`. `8Q_A = 100`, `Q_A = 12.5`, `Q_B = 11.5`.
 Permit price = `30 + 3(12.5) = 67.5`.
 
 Cost of A: `30(12.5) + 3(156.25)/2 = 375 + 234.4 = 609.4`. Cost of B:
@@ -1193,7 +1237,7 @@ If you get this wrong, revise: [Government Failure](#government-failure)
 <summary>Problem 7: Coase Theorem Application</summary>
 
 A nightclub generates noise that causes USD 8,000 of damage per year to a neighbouring hotel. The
-Nightclub could install sound.../1-number-and-algebra/3_proof-and-logicing at a cost of USD 3,000
+nightclub could install sound.../1-number-and-algebra/3_proof-and-logicing at a cost of USD 3,000
 per year to eliminate the noise.
 
 (a) What is the efficient outcome? (b) If the nightclub has the right to make noise, will the hotel
@@ -1213,10 +1257,10 @@ payment Above USD 3,000 (cost of sound.../1-number-and-algebra/3_proof-and-logic
 between 3,000 and 8,000 makes both parties Better off.
 
 (c) Well-defined property rights, low transaction costs, small number of affected parties, no
-Significant income effects.
+significant income effects.
 
 (d) In practice: many affected parties (collective action problems), high legal costs, uncertainty
-About damages, difficulty enforcing agreements, income effects.
+about damages, difficulty enforcing agreements, income effects.
 
 If you get this wrong, revise: [The Coase Theorem](#the-coase-theorem)
 
@@ -1249,7 +1293,7 @@ NPV = `772.2 - 500 = 272.2` million.
 (c) Limitations: difficult to value reduced travel time accurately; may underestimate environmental
 Costs (noise, visual impact); uncertain economic activity estimates; the discount rate choice
 Significantly affects the result (a higher rate would reduce NPV); distributional effects (who gains
-And who loses) are not captured.
+and who loses) are not captured.
 
 If you get this wrong, revise:
 [Cost-Benefit Analysis of Government Intervention](#cost-benefit-analysis-of-government-intervention)
@@ -1415,7 +1459,7 @@ externality (each fisher now faces the full social cost of their fishing on othe
 quotas allow the most efficient fishers to buy additional quota, maximising the value of the
 fishery; (iii) fishers have an incentive to conserve the stock because the quota represents a
 valuable asset whose future value depends on sustainability. Hong Kong's Agriculture, Fisheries and
-Conservation Department has explored ITQ systems as part of its fisheries management strategy.
+conservation Department has explored ITQ systems as part of its fisheries management strategy.
 
 </details>
 
@@ -1478,17 +1522,6 @@ warranties more valuable for firms that plan to stay in the market.
 
 If you get this wrong, revise: [Information Asymmetry](#information-asymmetry)
 
-
-```mermaid
-flowchart TD
-    A[1_Market Failure And Government Intervention] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 underlying theory, practical implementation, and key applications.
@@ -1503,15 +1536,9 @@ underlying theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 > > > > > > > Stashed changes:docs/docs_dse/Economics/market-failure-and-government-intervention.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

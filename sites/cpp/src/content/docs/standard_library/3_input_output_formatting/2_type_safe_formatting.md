@@ -34,7 +34,7 @@ format specification grammar, argument IDs, alignment, sign, width, precision, T
 ### `std::format` --- Overview
 
 `std::format` (C++20) is a type-safe formatting function that uses a format string to produce a
-`std::string` [N4950 §22.14.6]. Unlike `printf`It checks argument types at compile time. Unlike
+`std::string` [N4950 §22.14.6]. Unlike `printf`. It checks argument types at compile time. Unlike
 Iostreams, it uses a concise, composable format specification syntax.
 
 ```cpp
@@ -56,7 +56,7 @@ Mismatch between the format specification and the argument type is a compile-tim
 
 :::note
 Enables the compiler to parse it and verify that every `{}` field has a corresponding argument of
-The correct type. Runtime-computed format strings are not supported by `std::format` (use
+the correct type. Runtime-computed format strings are not supported by `std::format` (use
 `std::vformat` for runtime format strings, at the cost of losing compile-time checking).
 :::
 
@@ -80,11 +80,15 @@ type              ::= type-specifier
 
 #### Argument ID
 
+<div class="table-wrap">
+
 | Syntax     | Meaning                                                             |
 | :--------- | :------------------------------------------------------------------ |
 | `{}`       | Automatic indexing --- arguments are consumed in order              |
 | `{0}``{1}` | Manual indexing --- refers to the argument at that position         |
 | `{name}`   | Named argument (only when using `std::format_args` with named pack) |
+
+</div>
 
 ```cpp
 #include <format>
@@ -104,12 +108,16 @@ void arg_id_demo() {
 
 Alignment controls how text is padded within a given width [N4950 §22.14.2.2]:
 
+<div class="table-wrap">
+
 | Align  | Meaning                                 | Default for |
 | :----- | :-------------------------------------- | :---------- |
 | `&lt;` | Left-align                              | Strings     |
 | `&gt;` | Right-align                             | Numbers     |
 | `^`    | Center                                  | ---         |
 | `=`    | Pad after sign/0x prefix (numbers only) | ---         |
+
+</div>
 
 ```cpp
 #include <format>
@@ -126,6 +134,8 @@ void alignment_demo() {
 
 #### Sign, `#`And Zero-Padding
 
+<div class="table-wrap">
+
 | Specifier | Meaning                                                                    |
 | :-------- | :------------------------------------------------------------------------- |
 | `+`       | Always show sign for signed types (`+42``-7`)                              |
@@ -133,6 +143,8 @@ void alignment_demo() {
 | (space)   | Show space for positive, minus for negative (`42``-7`)                    |
 | `#`       | Alternate form: `0x` prefix for hex, `0b` for binary, `0` prefix for octal |
 | `0`       | Pad with zeros instead of spaces                                           |
+
+</div>
 
 ```cpp
 #include <format>
@@ -176,6 +188,8 @@ Width/precision, keep the argument ordering simple.
 
 #### Type Specifiers
 
+<div class="table-wrap">
+
 | Type      | Meaning                          | Example                                      |
 | :-------- | :------------------------------- | :------------------------------------------- |
 | `d`       | Decimal integer                  | `{}` --- `42`                                |
@@ -190,6 +204,8 @@ Width/precision, keep the argument ordering simple.
 | `c`       | Character                        | `{}` --- `A`                                 |
 | `p`       | Pointer                          | `{}` --- `0x7ffc1234`                        |
 | `?`       | Debug output (C++23)             | `{}` --- `"hello"` (with quotes and escapes) |
+
+</div>
 
 ### Format Specification Reference Table
 
@@ -264,7 +280,7 @@ Functions and NTTPs (non-type template parameters).
    incompatible (e.g., `{:d}` for a `double` argument), the constructor fails to compile with a
    diagnostic.
 
-4. Because the constructor is `consteval`Any failure produces a compile-time error, not a runtime
+4. Because the constructor is `consteval`. Any failure produces a compile-time error, not a runtime
    exception. This is a structural guarantee: no runtime path can bypass the check. QED.
 
 ```cpp
@@ -306,7 +322,7 @@ int main() {
 
 :::note
 Stream, bypassing `std::cout` and its stream buffer. This makes it faster for simple console output
-But means it does not synchronize with `std::cout` by default. Avoid mixing
+but means it does not synchronize with `std::cout` by default. Avoid mixing
 `std::print(stdout, ...)` and `std::cout` in the same program without calling
 `std::ios_base::sync_with_stdio(true)` first.
 :::
@@ -318,8 +334,8 @@ Error messages (stderr is unbuffered) or protect stdout with a mutex.
 
 ### Custom Type Formatter
 
-To make a user-defined type work with `std::format`You must specialize `std::formatter&lt;T>` for
-Your type [N4950 §22.14.6.3]. The specialization must be placed in the `std` namespace and provide:
+To make a user-defined type work with `std::format`. You must specialize `std::formatter&lt;T>` for
+your type [N4950 §22.14.6.3]. The specialization must be placed in the `std` namespace and provide:
 
 1. A `parse()` method that parses the format specification (everything after `:`).
 2. A `format()` method that produces the output.
@@ -454,12 +470,12 @@ int main() {
 :::tip
 To the standard format specification parsing logic. If your custom type needs to support the full
 Standard specification set (width, fill, alignment), parse the standard spec first with the base
-Class's `parse()`Then check for your custom specifiers.
+Class's `parse()`. Then check for your custom specifiers.
 :::
 
 :::caution
 Find it. However, adding declarations to namespace `std` is technically undefined behavior unless it
-Is a **template specialization** of a standard library template [N4950 §16.5.4.2.1]. Specializing
+is a **template specialization** of a standard library template [N4950 §16.5.4.2.1]. Specializing
 `std::formatter` is explicitly permitted.
 :::
 
@@ -488,8 +504,8 @@ int main() {
 ```
 
 `std::vformat` accepts a runtime `std::string_view` and a `std::format_args` object, but it provides
-No compile-time type checking. If the format string references an argument that does not exist, or
-If the type specifier is incompatible with the argument type, the result is a `std::format_error`
+no compile-time type checking. If the format string references an argument that does not exist, or
+if the type specifier is incompatible with the argument type, the result is a `std::format_error`
 Exception thrown at runtime. This is analogous to the safety difference between `std::variant`
 (checked at compile time via `std::visit`) and `std::any` (checked at runtime via `std::any_cast`).
 
@@ -528,7 +544,7 @@ int main() {
 
 `std::format_to_n` additionally accepts a maximum number of characters to write, returning a
 `std::format_to_n_result` struct containing the output iterator and the total number of characters
-That _would_ have been written (useful for truncation-aware formatting).
+that _would_ have been written (useful for truncation-aware formatting).
 
 ### Performance Comparison: `std::format` vs iostreams vs `printf`
 
@@ -691,7 +707,7 @@ int main() {
 
 ### Common Pitfalls
 
-- **Mixing argument ID modes:** You cannot mix automatic (`{}`) and manual (`{0}``{1}`) argument IDs
+- **Mixing argument ID modes:** You cannot mix automatic (`{}`) and manual (`{0}`, `{1}`) argument IDs
   in the same format string. Doing so is a compile-time error [N4950 §22.14.6.2]. Pick one mode per
   format string.
 
@@ -733,23 +749,7 @@ int main() {
 4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
-```mermaid
-flowchart TD
-    A[2_Type_Safe_Formatting] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

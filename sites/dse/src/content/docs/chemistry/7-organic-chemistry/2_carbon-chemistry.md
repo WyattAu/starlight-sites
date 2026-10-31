@@ -37,12 +37,16 @@ Hydrocarbons are organic compounds containing only carbon and hydrogen.
 
 ### General Formula
 
-$$\mathrm{C_nH_{2n+2}}$$
+$$
+\mathrm{C_nH_{2n+2}}
+$$
 
 Alkanes are **saturated hydrocarbons**: all carbon-carbon bonds are single bonds. They contain the
-Maximum possible number of hydrogen atoms per carbon atom.
+maximum possible number of hydrogen atoms per carbon atom.
 
 ### Naming (IUPAC)
+
+<div class="table-wrap">
 
 | Carbon Atoms | Name    | Formula              |
 | ------------ | ------- | -------------------- |
@@ -55,6 +59,8 @@ Maximum possible number of hydrogen atoms per carbon atom.
 | 7            | Heptane | $\mathrm{C_7H_{16}}$ |
 | 8            | Octane  | $\mathrm{C_8H_{18}}$ |
 
+</div>
+
 ### Properties of Alkanes
 
 - Generally unreactive (no double bonds)
@@ -65,31 +71,47 @@ Maximum possible number of hydrogen atoms per carbon atom.
 
 **Complete combustion** (sufficient oxygen):
 
-$$\mathrm{C_nH_{2n+2}} + \frac{3n+1}{2}\mathrm{O_2} \to n\mathrm{CO_2} + (n+1)\mathrm{H_2O}$$
+$$
+\mathrm{C_nH_{2n+2}} + \frac{3n+1}{2}\mathrm{O_2} \to n\mathrm{CO_2} + (n+1)\mathrm{H_2O}
+$$
 
 **Example:**
 
-$$\mathrm{CH_4} + 2\mathrm{O_2} \to \mathrm{CO_2} + 2\mathrm{H_2O}$$
+$$
+\mathrm{CH_4} + 2\mathrm{O_2} \to \mathrm{CO_2} + 2\mathrm{H_2O}
+$$
 
 **Incomplete combustion** (limited oxygen): produces carbon monoxide and/or carbon (soot):
 
-$$2\mathrm{CH_4} + 3\mathrm{O_2} \to 2\mathrm{CO} + 4\mathrm{H_2O}$$
+$$
+2\mathrm{CH_4} + 3\mathrm{O_2} \to 2\mathrm{CO} + 4\mathrm{H_2O}
+$$
 
-$$\mathrm{CH_4} + \mathrm{O_2} \to \mathrm{C} + 2\mathrm{H_2O}$$
+$$
+\mathrm{CH_4} + \mathrm{O_2} \to \mathrm{C} + 2\mathrm{H_2O}
+$$
 
 ### Substitution Reactions
 
 Alkanes react with halogens in the presence of UV light via a free radical substitution mechanism:
 
-$$\mathrm{CH_4} + \mathrm{Cl_2} \xrightarrow{\mathrm{UV}} \mathrm{CH_3Cl} + \mathrm{HCl}$$
+$$
+\mathrm{CH_4} + \mathrm{Cl_2} \xrightarrow{\mathrm{UV}} \mathrm{CH_3Cl} + \mathrm{HCl}
+$$
 
 Further substitution can occur:
 
-$$\mathrm{CH_3Cl} + \mathrm{Cl_2} \to \mathrm{CH_2Cl_2} + \mathrm{HCl}$$
+$$
+\mathrm{CH_3Cl} + \mathrm{Cl_2} \to \mathrm{CH_2Cl_2} + \mathrm{HCl}
+$$
 
-$$\mathrm{CH_2Cl_2} + \mathrm{Cl_2} \to \mathrm{CHCl_3} + \mathrm{HCl}$$
+$$
+\mathrm{CH_2Cl_2} + \mathrm{Cl_2} \to \mathrm{CHCl_3} + \mathrm{HCl}
+$$
 
-$$\mathrm{CHCl_3} + \mathrm{Cl_2} \to \mathrm{CCl_4} + \mathrm{HCl}$$
+$$
+\mathrm{CHCl_3} + \mathrm{Cl_2} \to \mathrm{CCl_4} + \mathrm{HCl}
+$$
 
 ---
 
@@ -106,18 +128,24 @@ $$\mathrm{CHCl_3} + \mathrm{Cl_2} \to \mathrm{CCl_4} + \mathrm{HCl}$$
 
 ### General Formula
 
-$$\mathrm{C_nH_{2n}}$$
+$$
+\mathrm{C_nH_{2n}}
+$$
 
 Alkenes are **unsaturated hydrocarbons**: they contain at least one carbon-carbon double bond
 ($\mathrm{C = C}$).
 
 ### Naming
 
+<div class="table-wrap">
+
 | Carbon Atoms | Name    | Formula           |
 | ------------ | ------- | ----------------- |
 | 2            | Ethene  | $\mathrm{C_2H_4}$ |
 | 3            | Propene | $\mathrm{C_3H_6}$ |
 | 4            | Butene  | $\mathrm{C_4H_8}$ |
+
+</div>
 
 ### Properties of Alkenes
 
@@ -129,17 +157,23 @@ Alkenes are **unsaturated hydrocarbons**: they contain at least one carbon-carbo
 
 **Addition of hydrogen (hydrogenation):**
 
-$$\mathrm{C_2H_4} + \mathrm{H_2} \xrightarrow{\mathrm{Ni \; catalyst}} \mathrm{C_2H_6}$$
+$$
+\mathrm{C_2H_4} + \mathrm{H_2} \xrightarrow{\mathrm{Ni \; catalyst}} \mathrm{C_2H_6}
+$$
 
 **Addition of halogens:**
 
-$$\mathrm{C_2H_4} + \mathrm{Br_2} \to \mathrm{CH_2BrCH_2Br}$$
+$$
+\mathrm{C_2H_4} + \mathrm{Br_2} \to \mathrm{CH_2BrCH_2Br}
+$$
 
 This reaction decolourises reddish-brown bromine water, serving as a test for unsaturation.
 
 **Addition of water (hydration):**
 
-$$\mathrm{C_2H_4} + \mathrm{H_2O} \xrightarrow{\mathrm{H_3PO_4}} \mathrm{C_2H_5OH}$$
+$$
+\mathrm{C_2H_4} + \mathrm{H_2O} \xrightarrow{\mathrm{H_3PO_4}} \mathrm{C_2H_5OH}
+$$
 
 ### Worked Example 1
 
@@ -148,7 +182,9 @@ Write the equation for the complete combustion of propene.
 <details>
 <summary>Solution</summary>
 
-$$2\mathrm{C_3H_6} + 9\mathrm{O_2} \to 6\mathrm{CO_2} + 6\mathrm{H_2O}$$
+$$
+2\mathrm{C_3H_6} + 9\mathrm{O_2} \to 6\mathrm{CO_2} + 6\mathrm{H_2O}
+$$
 
 </details>
 
@@ -167,18 +203,22 @@ $$2\mathrm{C_3H_6} + 9\mathrm{O_2} \to 6\mathrm{CO_2} + 6\mathrm{H_2O}$$
 
 ### General Formula
 
-$$\mathrm{C_nH_{2n-2}}$$
+$$
+\mathrm{C_nH_{2n-2}}
+$$
 
 Alkynes contain at least one carbon-carbon triple bond ($\mathrm{C \equiv C}$).
 
-The simplest alkyne is ethyne ($\mathrm{C_2H_2}$Also called acetylene):
+The simplest alkyne is ethyne ($\mathrm{C_2H_2}$ Also called acetylene):
 
-$$\mathrm{H - C \equiv C - H}$$
+$$
+\mathrm{H - C \equiv C - H}
+$$
 
 ### Properties and Reactions
 
 Alkynes undergo similar addition reactions to alkenes but can add two molecules of reagent across
-The triple bond.
+the triple bond.
 
 ---
 
@@ -215,6 +255,8 @@ A homologous series is a family of organic compounds with:
 
 ## Functional Groups
 
+<div class="table-wrap">
+
 | Functional Group             | Class           | Suffix / Prefix | Example                 |
 | ---------------------------- | --------------- | --------------- | ----------------------- |
 | $\mathrm{C = C}$             | Alkene          | -ene            | $\mathrm{CH_2 = CH_2}$  |
@@ -226,6 +268,8 @@ A homologous series is a family of organic compounds with:
 | $-\mathrm{COO}-$             | Ester           | -oate           | $\mathrm{CH_3COOCH_3}$  |
 | $-\mathrm{NH_2}$             | Amine           | -amine          | $\mathrm{CH_3NH_2}$     |
 | $-\mathrm{Cl}$, $-\mathrm{Br}$ | Halide          | chloro-, bromo- | $\mathrm{CH_3Cl}$       |
+
+</div>
 
 ---
 
@@ -351,7 +395,9 @@ Draw and name all the structural isomers of $\mathrm{C_4H_8}$ that are alkenes.
 
 ### General Formula
 
-$$\mathrm{C_nH_{2n+1}OH}$$
+$$
+\mathrm{C_nH_{2n+1}OH}
+$$
 
 ### Properties
 
@@ -364,19 +410,25 @@ $$\mathrm{C_nH_{2n+1}OH}$$
 
 **Combustion:**
 
-$$\mathrm{C_2H_5OH} + 3\mathrm{O_2} \to 2\mathrm{CO_2} + 3\mathrm{H_2O}$$
+$$
+\mathrm{C_2H_5OH} + 3\mathrm{O_2} \to 2\mathrm{CO_2} + 3\mathrm{H_2O}
+$$
 
 **Oxidation:**
 
 Primary alcohols can be oxidised to aldehydes and then to carboxylic acids:
 
-$$\mathrm{CH_3CH_2OH} \xrightarrow{[\mathrm{O}]} \mathrm{CH_3CHO} \xrightarrow{[\mathrm{O}]} \mathrm{CH_3COOH}$$
+$$
+\mathrm{CH_3CH_2OH} \xrightarrow{[\mathrm{O}]} \mathrm{CH_3CHO} \xrightarrow{[\mathrm{O}]} \mathrm{CH_3COOH}
+$$
 
 Secondary alcohols oxidise to ketones.
 
 **Dehydration:**
 
-$$\mathrm{C_2H_5OH} \xrightarrow{\mathrm{Al_2O_3, \; heat}} \mathrm{C_2H_4} + \mathrm{H_2O}$$
+$$
+\mathrm{C_2H_5OH} \xrightarrow{\mathrm{Al_2O_3, \; heat}} \mathrm{C_2H_4} + \mathrm{H_2O}
+$$
 
 ---
 
@@ -393,7 +445,9 @@ $$\mathrm{C_2H_5OH} \xrightarrow{\mathrm{Al_2O_3, \; heat}} \mathrm{C_2H_4} + \m
 
 ### General Formula
 
-$$\mathrm{C_nH_{2n+1}COOH}$$
+$$
+\mathrm{C_nH_{2n+1}COOH}
+$$
 
 ### Properties
 
@@ -405,15 +459,21 @@ $$\mathrm{C_nH_{2n+1}COOH}$$
 
 **With metals:**
 
-$$2\mathrm{CH_3COOH} + 2\mathrm{Na} \to 2\mathrm{CH_3COONa} + \mathrm{H_2}$$
+$$
+2\mathrm{CH_3COOH} + 2\mathrm{Na} \to 2\mathrm{CH_3COONa} + \mathrm{H_2}
+$$
 
 **With bases (neutralisation):**
 
-$$\mathrm{CH_3COOH} + \mathrm{NaOH} \to \mathrm{CH_3COONa} + \mathrm{H_2O}$$
+$$
+\mathrm{CH_3COOH} + \mathrm{NaOH} \to \mathrm{CH_3COONa} + \mathrm{H_2O}
+$$
 
 **With carbonates:**
 
-$$2\mathrm{CH_3COOH} + \mathrm{Na_2CO_3} \to 2\mathrm{CH_3COONa} + \mathrm{H_2O} + \mathrm{CO_2}$$
+$$
+2\mathrm{CH_3COOH} + \mathrm{Na_2CO_3} \to 2\mathrm{CH_3COONa} + \mathrm{H_2O} + \mathrm{CO_2}
+$$
 
 ---
 
@@ -433,7 +493,9 @@ $$2\mathrm{CH_3COOH} + \mathrm{Na_2CO_3} \to 2\mathrm{CH_3COONa} + \mathrm{H_2O}
 Esters are formed by the reaction of a carboxylic acid with an alcohol, in the presence of an acid
 Catalyst (esterification):
 
-$$\mathrm{CH_3COOH} + \mathrm{C_2H_5OH} \rightleftharpoons \mathrm{CH_3COOC_2H_5} + \mathrm{H_2O}$$
+$$
+\mathrm{CH_3COOH} + \mathrm{C_2H_5OH} \rightleftharpoons \mathrm{CH_3COOC_2H_5} + \mathrm{H_2O}
+$$
 
 This is a reversible, condensation reaction (a molecule of water is eliminated).
 
@@ -465,19 +527,25 @@ $\mathrm{CH_3COOC_2H_5}$: ethyl ethanoate
 ### Addition Polymers
 
 Formed by the addition of many monomer units, each containing a $\mathrm{C = C}$ double bond. The
-Double bond opens to form single bonds linking the monomers together.
+double bond opens to form single bonds linking the monomers together.
 
 **Example: Poly(ethene)**
 
-$$n\mathrm{CH_2 = CH_2} \to (-\mathrm{CH_2 - CH_2}-)_n$$
+$$
+n\mathrm{CH_2 = CH_2} \to (-\mathrm{CH_2 - CH_2}-)_n
+$$
 
 **Example: Poly(propene)**
 
-$$n\mathrm{CH_2 = CHCH_3} \to (-\mathrm{CH_2 - CH(CH_3)}-)_n$$
+$$
+n\mathrm{CH_2 = CHCH_3} \to (-\mathrm{CH_2 - CH(CH_3)}-)_n
+$$
 
 **Example: Polyvinyl chloride (PVC)**
 
-$$n\mathrm{CH_2 = CHCl} \to (-\mathrm{CH_2 - CHCl}-)_n$$
+$$
+n\mathrm{CH_2 = CHCl} \to (-\mathrm{CH_2 - CHCl}-)_n
+$$
 
 ### Condensation Polymers
 
@@ -487,13 +555,17 @@ Formed by the reaction of monomers with the elimination of a small molecule (e.g
 
 Formed from a diamine and a dicarboxylic acid:
 
-$$n\mathrm{H_2N(CH_2)_6NH_2} + n\mathrm{HOOC(CH_2)_4COOH} \to (-\mathrm{NH(CH_2)_6NHCO(CH_2)_4CO}-)_n + n\mathrm{H_2O}$$
+$$
+n\mathrm{H_2N(CH_2)_6NH_2} + n\mathrm{HOOC(CH_2)_4COOH} \to (-\mathrm{NH(CH_2)_6NHCO(CH_2)_4CO}-)_n + n\mathrm{H_2O}
+$$
 
 **Example: Polyesters (e.g., PET)**
 
 Formed from a diol and a dicarboxylic acid.
 
 ### Environmental Impact of Plastics
+
+<div class="table-wrap">
 
 | Issue                      | Description                                                    |
 | -------------------------- | -------------------------------------------------------------- |
@@ -502,6 +574,8 @@ Formed from a diol and a dicarboxylic acid.
 | Microplastics              | Small plastic fragments pollute waterways and oceans           |
 | Recycling                  | Not all plastics are recyclable                                |
 | Biodegradable alternatives | Biopolymers (e.g., from starch, cellulose) offer solutions     |
+
+</div>
 
 ---
 
@@ -519,9 +593,11 @@ Formed from a diol and a dicarboxylic acid.
 ### Proteins
 
 - **Monomers:** Amino acids (20 different types)
-- **General structure:** $\mathrm{H_2N - CH(R) - COOH}$Where R is the side chain
+- **General structure:** $\mathrm{H_2N - CH(R) - COOH}$ Where R is the side chain
 - **Linkage:** Peptide bonds (amide bonds) formed by condensation:
-  $$-\mathrm{COOH} + \mathrm{H_2N}- \to -\mathrm{CONH}- + \mathrm{H_2O}$$
+  $$
+  -\mathrm{COOH} + \mathrm{H_2N}- \to -\mathrm{CONH}- + \mathrm{H_2O}
+  $$
 - **Structure levels:**
 - Primary: sequence of amino acids
 - Secondary: alpha helices and beta sheets (hydrogen bonding)
@@ -566,8 +642,8 @@ Explain why starch is digestible by humans but cellulose is not.
 
 Both starch and cellulose are polymers of glucose. In starch, the glucose units are joined by
 Alpha-glycosidic bonds, which can be broken by human digestive enzymes (amylase). In cellulose, the
-Glucose units are joined by beta-glycosidic bonds, which humans cannot break down because they lack
-The appropriate enzyme (cellulase). Therefore, cellulose passes through the human digestive system
+glucose units are joined by beta-glycosidic bonds, which humans cannot break down because they lack
+the appropriate enzyme (cellulase). Therefore, cellulose passes through the human digestive system
 Undigested and acts as dietary fibre.
 
 </details>
@@ -617,24 +693,15 @@ Undigested and acts as dietary fibre.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[2_Carbon Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table
+
+<div class="table-wrap">
 
 | Concept              | Key Point                                                          |
 | -------------------- | ------------------------------------------------------------------ |
-| Alkanes              | $\mathrm{C_nH_{2n+2}}$Saturated, substitution                      |
-| Alkenes              | $\mathrm{C_nH_{2n}}$Unsaturated, addition                          |
-| Alkynes              | $\mathrm{C_nH_{2n-2}}$Triple bond                                  |
+| Alkanes              | $\mathrm{C_nH_{2n+2}}$ Saturated, substitution                      |
+| Alkenes              | $\mathrm{C_nH_{2n}}$ Unsaturated, addition                          |
+| Alkynes              | $\mathrm{C_nH_{2n-2}}$ Triple bond                                  |
 | Homologous series    | Same general formula, functional group, $\mathrm{CH_2}$ difference |
 | Isomerism            | Same formula, different structure                                  |
 | Esterification       | Acid + alcohol $\rightleftharpoons$ ester + water                  |
@@ -642,6 +709,8 @@ flowchart TD
 | Condensation polymer | Monomers join; small molecule (e.g., water) eliminated             |
 | Protein monomer      | Amino acids, linked by peptide bonds                               |
 | DNA base pairing     | A-T, G-C                                                           |
+
+</div>
 
 ---
 
@@ -663,7 +732,9 @@ _If you get this wrong, revise: Combustion of Alkanes_
 <details>
 <summary>Solution</summary>
 
-$$2\mathrm{C_4H_{10}} + 13\mathrm{O_2} \to 8\mathrm{CO_2} + 10\mathrm{H_2O}$$
+$$
+2\mathrm{C_4H_{10}} + 13\mathrm{O_2} \to 8\mathrm{CO_2} + 10\mathrm{H_2O}
+$$
 
 </details>
 
@@ -687,7 +758,9 @@ _If you get this wrong, revise: Addition Reactions of Alkenes_
 <details>
 <summary>Solution</summary>
 
-$$\mathrm{CH_2 = CH_2} + \mathrm{Br_2} \to \mathrm{CH_2BrCH_2Br}$$
+$$
+\mathrm{CH_2 = CH_2} + \mathrm{Br_2} \to \mathrm{CH_2BrCH_2Br}
+$$
 
 Observation: The reddish-brown colour of bromine water is decolourised.
 
@@ -701,7 +774,9 @@ _If you get this wrong, revise: Esters, Formation and Naming_
 <details>
 <summary>Solution</summary>
 
-$$\mathrm{C_2H_5COOH} + \mathrm{CH_3CH_2OH} \rightleftharpoons \mathrm{C_2H_5COOCH_2CH_3} + \mathrm{H_2O}$$
+$$
+\mathrm{C_2H_5COOH} + \mathrm{CH_3CH_2OH} \rightleftharpoons \mathrm{C_2H_5COOCH_2CH_3} + \mathrm{H_2O}
+$$
 
 Product name: ethyl propanoate (alkyl part from alcohol, -oate part from acid).
 
@@ -746,7 +821,9 @@ _If you get this wrong, revise: Carboxylic Acids, Reactions_
 <details>
 <summary>Solution</summary>
 
-$$2\mathrm{CH_3COOH} + \mathrm{Na_2CO_3} \to 2\mathrm{CH_3COONa} + \mathrm{H_2O} + \mathrm{CO_2}$$
+$$
+2\mathrm{CH_3COOH} + \mathrm{Na_2CO_3} \to 2\mathrm{CH_3COONa} + \mathrm{H_2O} + \mathrm{CO_2}
+$$
 
 Observation: Effervescence (bubbling) as carbon dioxide gas is produced.
 
@@ -771,7 +848,7 @@ by microorganisms into harmless products ($\mathrm{CO_2}$ and water) under the r
 
 **Problem 9:** A compound has the molecular formula $\mathrm{C_4H_8O_2}$. It dissolves in water to
 Give a solution of pH 3 and reacts with sodium to produce hydrogen gas. Identify the compound and
-Explain your reasoning.
+explain your reasoning.
 
 _If you get this wrong, revise: Functional Groups and Carboxylic Acid Properties_
 
@@ -796,8 +873,8 @@ _If you get this wrong, revise: Alcohols, Properties and Intermolecular Forces_
 <summary>Solution</summary>
 
 Propan-1-ol molecules can form hydrogen bonds between the $-\mathrm{OH}$ group of one molecule and
-The lone pairs on the oxygen of another. Hydrogen bonding is a strong intermolecular force that
-Requires significant energy to overcome.
+the lone pairs on the oxygen of another. Hydrogen bonding is a strong intermolecular force that
+requires significant energy to overcome.
 
 Propane molecules are non-polar and can only form weak van der Waals forces between molecules. These
 are much weaker than hydrogen bonds, so propane has a much lower boiling point despite Having a
@@ -813,22 +890,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 
 > > > > > > > Stashed changes:docs/docs_dse/Chemistry/carbon-chemistry.md
 

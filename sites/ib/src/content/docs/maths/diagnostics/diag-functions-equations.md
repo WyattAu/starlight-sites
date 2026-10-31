@@ -17,17 +17,6 @@ tableOfContents: false
 
 ## Functions and Equations, Diagnostic Tests
 
-
-```mermaid
-flowchart TD
-    A[Diag Functions Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Functions are like machines, you put in an input, and they reliably produce an output according to a specific rule:** Understanding function behavior, domain, range, transformations, and inverses, is the language of mathematical modeling
@@ -72,9 +61,9 @@ Critical values: $x = \frac{4}{3}$ (numerator zero) and $x = 1$ (denominator zer
 
 Sign chart:
 
-- $x \lt 1$: numerator $4 - 3x \gt 0$Denominator $x - 1 \lt 0$. Ratio $\lt 0$. Not valid.
-- $1 \lt x \leq \frac{4}{3}$: numerator $\geq 0$Denominator $\gt 0$. Ratio $\geq 0$. Valid.
-- $x \gt \frac{4}{3}$: numerator $\lt 0$Denominator $\gt 0$. Ratio $\lt 0$. Not valid.
+- $x \lt 1$: numerator $4 - 3x \gt 0$ Denominator $x - 1 \lt 0$. Ratio $\lt 0$. Not valid.
+- $1 \lt x \leq \frac{4}{3}$: numerator $\geq 0$ Denominator $\gt 0$. Ratio $\geq 0$. Valid.
+- $x \gt \frac{4}{3}$: numerator $\lt 0$ Denominator $\gt 0$. Ratio $\lt 0$. Not valid.
 
 Domain of $f \circ g$: $\left(1, \frac{4}{3}\right]$.
 
@@ -83,14 +72,14 @@ Domain of $f \circ g$: $\left(1, \frac{4}{3}\right]$.
 Domain restrictions:
 
 1. From $f$: $x - 3 \geq 0$ So $x \geq 3$.
-2. From $g$: $\sqrt{x-3} \neq 1$ So $x - 3 \neq 1$Giving $x \neq 4$.
+2. From $g$: $\sqrt{x-3} \neq 1$ So $x - 3 \neq 1$ Giving $x \neq 4$.
 
 Domain of $g \circ f$: $[3, 4) \cup (4, \infty)$.
 
 **(c)** The student is incorrect. $\mathrm{dom}(f \circ g)$ is not $\mathrm{dom}(g)$. It is the
 subset of $\mathrm{dom}(g)$ for which $g(x)$ falls within $\mathrm{dom}(f)$. Here
 $\mathrm{dom}(g) = \mathbb{R} \setminus \{1\}$ But
-$\mathrm{dom}(f \circ g) = \left(1, \frac{4}{3}\right]$Which is a proper subset.
+$\mathrm{dom}(f \circ g) = \left(1, \frac{4}{3}\right]$ Which is a proper subset.
 
 ---
 
@@ -121,22 +110,28 @@ Let $f(x) = \dfrac{2x + 3}{x - 1}$ for $x \neq 1$.
 
 **(a)** Let $y = \dfrac{2x + 3}{x - 1}$.
 
-$$y(x - 1) = 2x + 3 \implies xy - y = 2x + 3 \implies xy - 2x = y + 3 \implies x(y - 2) = y + 3$$
+$$
+y(x - 1) = 2x + 3 \implies xy - y = 2x + 3 \implies xy - 2x = y + 3 \implies x(y - 2) = y + 3
+$$
 
-$$f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2$$
+$$
+f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2
+$$
 
 The domain of $f^{-1}$ equals the range of $f$. Since
-$f(x) = \dfrac{2x + 3}{x - 1} = 2 + \dfrac{5}{x - 1}$As $x \to \pm\infty$, $f(x) \to 2$ But
+$f(x) = \dfrac{2x + 3}{x - 1} = 2 + \dfrac{5}{x - 1}$ As $x \to \pm\infty$, $f(x) \to 2$ But
 $f(x) \neq 2$. The horizontal asymptote at $y = 2$ is never reached. Domain:
 $\mathbb{R} \setminus \{2\}$.
 
-**(b)** The student computed $\dfrac{1}{f(x)} = \dfrac{x - 1}{2x + 3}$Confusing the inverse function
+**(b)** The student computed $\dfrac{1}{f(x)} = \dfrac{x - 1}{2x + 3}$ Confusing the inverse function
 $f^{-1}$ with the reciprocal $\dfrac{1}{f}$. The notation $f^{-1}$ means the function that "undoes"
-$f$Not $1/f$.
+$f$ Not $1/f$.
 
 **(c)** For $x \neq 2$:
 
-$$f(f^{-1}(x)) = f\!\left(\frac{x + 3}{x - 2}\right) = \frac{2 \cdot \frac{x+3}{x-2} + 3}{\frac{x+3}{x-2} - 1} = \frac{\frac{2x + 6 + 3x - 6}{x - 2}}{\frac{x + 3 - (x - 2)}{x - 2}} = \frac{5x}{5} = x$$
+$$
+f(f^{-1}(x)) = f\!\left(\frac{x + 3}{x - 2}\right) = \frac{2 \cdot \frac{x+3}{x-2} + 3}{\frac{x+3}{x-2} - 1} = \frac{\frac{2x + 6 + 3x - 6}{x - 2}}{\frac{x + 3 - (x - 2)}{x - 2}} = \frac{5x}{5} = x
+$$
 
 Verified.
 
@@ -156,7 +151,7 @@ Verified.
 **Question:**
 
 The graph of $y = f(x)$ passes through the point $(2, 5)$. After the transformation
-$y = -2f(x - 1) + 3$The graph passes through the point $(a, b)$.
+$y = -2f(x - 1) + 3$ The graph passes through the point $(a, b)$.
 
 Find the values of $a$ and $b$.
 
@@ -178,7 +173,7 @@ $a = 2 - 1 = 1$ But the correct calculation would give $a = 2 + 1 = 3$.
 **(b)** For $y = -2f(x - 1) + 3$:
 
 - The transformation $f(x - 1)$ shifts right by 1, so the input changes: $x = 2$ requires
-  $x - 1 = 2$I.e., $x = 3$. So $a = 3$.
+  $x - 1 = 2$ I.e., $x = 3$. So $a = 3$.
 - At the original point, $f(2) = 5$. The vertical stretch by $-2$ (reflection in $x$-axis then
   stretch by 2) gives $-2 \times 5 = -10$. Then translate up by 3: $b = -10 + 3 = -7$.
 
@@ -215,26 +210,36 @@ The function $f$ is defined by $f(x) = \dfrac{2x + 3}{x + 2}$.
 
 **(a)** Solve $f(x) = x$:
 
-$$\frac{2x + 3}{x + 2} = x \implies 2x + 3 = x^2 + 2x \implies x^2 = 3 \implies x = \sqrt{3} \text{ or } x = -\sqrt{3}$$
+$$
+\frac{2x + 3}{x + 2} = x \implies 2x + 3 = x^2 + 2x \implies x^2 = 3 \implies x = \sqrt{3} \text{ or } x = -\sqrt{3}
+$$
 
 The fixed points are $x = \sqrt{3}$ and $x = -\sqrt{3}$.
 
 **(b)**
 
-$$f(f(x)) = f\!\left(\frac{2x + 3}{x + 2}\right) = \frac{2 \cdot \frac{2x+3}{x+2} + 3}{\frac{2x+3}{x+2} + 2}$$
+$$
+f(f(x)) = f\!\left(\frac{2x + 3}{x + 2}\right) = \frac{2 \cdot \frac{2x+3}{x+2} + 3}{\frac{2x+3}{x+2} + 2}
+$$
 
-$$= \frac{\frac{4x + 6 + 3x + 6}{x + 2}}{\frac{2x + 3 + 2x + 4}{x + 2}} = \frac{7x + 12}{4x + 7}$$
+$$
+= \frac{\frac{4x + 6 + 3x + 6}{x + 2}}{\frac{2x + 3 + 2x + 4}{x + 2}} = \frac{7x + 12}{4x + 7}
+$$
 
 This should equal $x$:
 
-$$\frac{7x + 12}{4x + 7} = x \implies 7x + 12 = 4x^2 + 7x \implies 4x^2 = 12 \implies x^2 = 3$$
+$$
+\frac{7x + 12}{4x + 7} = x \implies 7x + 12 = 4x^2 + 7x \implies 4x^2 = 12 \implies x^2 = 3
+$$
 
-This is not identically equal to $x$Confirming that $f$ is not self-inverse.
+This is not identically equal to $x$ Confirming that $f$ is not self-inverse.
 
-Since $f$ is a Mobius transformation with $ad - bc = 2 \cdot 2 - 1 \cdot 3 = 1 \neq 0$It is
+Since $f$ is a Mobius transformation with $ad - bc = 2 \cdot 2 - 1 \cdot 3 = 1 \neq 0$ It is
 invertible. The inverse is:
 
-$$f^{-1}(x) = \frac{2x - 3}{-x + 2} = \frac{2x - 3}{2 - x}, \quad x \neq 2$$
+$$
+f^{-1}(x) = \frac{2x - 3}{-x + 2} = \frac{2x - 3}{2 - x}, \quad x \neq 2
+$$
 
 We can verify:
 $f(f^{-1}(x)) = \frac{2 \cdot \frac{2x-3}{2-x} + 3}{\frac{2x-3}{2-x} + 2} = \frac{\frac{2(2x-3) + 3(2-x)}{2-x}}{\frac{(2x-3) + 2(2-x)}{2-x}} = \frac{4x-6+6-3x}{2x-3+4-2x} = \frac{x}{1} = x$.

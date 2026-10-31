@@ -1,0 +1,82 @@
+---
+/**
+ * Citations: renders a References section from a sources array.
+ * Each source has: title, author, year, url (optional), type (book/paper/web).
+ *
+ * Usage in MDX:
+ * <Citations sources={[
+ *   { title: "Abstract Algebra", author: "Aluffi", year: "2009", type: "book" },
+ *   { title: "Introduction to Algorithms", author: "CLRS", year: "2022", type: "book", url: "https://mitpress.mit.edu/9780262046305/" },
+ * ]} />
+ */
+
+interface Source {
+  title: string
+  author: string
+  year?: string
+  url?: string
+  type?: 'book' | 'paper' | 'web' | 'lecture'
+}
+
+interface Props {
+  sources: Source[]
+}
+
+const { sources } = Astro.props
+
+const typeLabels: Record<string, string> = {
+  book: 'Book',
+  paper: 'Paper',
+  web: 'Website',
+  lecture: 'Lecture',
+}
+---
+
+{sources.length > 0 && (
+  <section class="citations-section">
+    <h2>References</h2>
+    <ol class="citations-list">
+      {sources.map((src) => (
+        <li class="citation-item">
+          <span class="citation-author">{src.author}</span>
+          {src.year && <span class="citation-year"> ({src.year})</span>}
+          . <span class="citation-title">{src.title}</span>
+          {src.type && <span class="citation-type"> [{typeLabels[src.type] || src.type}]</span>}
+          {src.url && (
+            <> . <a href={src.url} target="_blank" rel="noopener noreferrer">{src.url}</a></>
+          )}
+        </li>
+      ))}
+    </ol>
+  </section>
+)}
+
+<style>
+  .citations-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--sl-color-gray-5);
+  }
+  .citations-section h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .citations-list {
+    padding-left: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  .citation-item {
+    margin-bottom: 0.5rem;
+  }
+  .citation-author {
+    font-weight: 600;
+  }
+  .citation-title {
+    font-style: italic;
+  }
+  .citation-type {
+    color: var(--sl-color-gray-3);
+    font-size: 0.85rem;
+  }
+</style>

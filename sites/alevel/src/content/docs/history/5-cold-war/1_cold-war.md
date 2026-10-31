@@ -23,7 +23,7 @@ description: "A-Level History The Cold War 1945-1991 notes covering key definiti
 ## The Cold War 1945-1991
 
 The Cold War defined the second half of the twentieth century. Ideological rivalry between the
-United States and the Soviet Union shaped international relations, triggered proxy wars, and brought
+united States and the Soviet Union shaped international relations, triggered proxy wars, and brought
 the world to the brink of nuclear destruction.
 
 ## Historical Context and Chronology
@@ -45,6 +45,8 @@ collapse of the Soviet bloc (1985-1991).
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Phase           | Dates     | Key Themes                                                                 |
 | --------------- | --------- | -------------------------------------------------------------------------- |
 | Origins         | 1945-1947 | Yalta, Potsdam, Iron Curtain, Truman Doctrine, Marshall Plan               |
@@ -53,6 +55,8 @@ collapse of the Soviet bloc (1985-1991).
 | Détente         | 1962-1979 | MAD, SALT, Helsinki Accords, Vietnam                                       |
 | Second Cold War | 1979-1985 | Afghanistan, Reagan, SDI, renewed tensions                                 |
 | Ending          | 1985-1991 | Gorbachev, glasnost, perestroika, fall of Berlin Wall, dissolution of USSR |
+
+</div>
 
 ## Key Events with Dates and Significance
 
@@ -164,6 +168,8 @@ collapse of the Soviet bloc (1985-1991).
 
 ## Key Figures and Their Roles
 
+<div class="table-wrap">
+
 | Figure            | Role                    | Significance                                                                        |
 | ----------------- | ----------------------- | ----------------------------------------------------------------------------------- |
 | Harry Truman      | US President 1945-1953  | Established containment; Truman Doctrine; Marshall Plan; NATO                       |
@@ -174,6 +180,8 @@ collapse of the Soviet bloc (1985-1991).
 | Leonid Brezhnev   | Soviet leader 1964-1982 | Détente era; Brezhnev Doctrine; stagnation; arms buildup                            |
 | Ronald Reagan     | US President 1981-1989  | Military buildup; SDI; "evil empire" rhetoric; ultimately negotiated with Gorbachev |
 | Mikhail Gorbachev | Soviet leader 1985-1991 | Glasnost, perestroika, INF Treaty; chose not to use force to preserve the empire    |
+
+</div>
 
 ## Historiographical Debates
 
@@ -347,17 +355,6 @@ four factors were necessary; Gorbachev's agency made the outcome.
 ## Intuition
 
 The Cold War resembles two heavyweight boxers circling each other in a ring, both too afraid to throw the first punch because they know the other would hit back with equal force. Nuclear weapons created a strange kind of peace through the threat of mutual destruction, like two neighbors who despise each other but share a fence made of dynamite. Détente was the moment both neighbours agreed to stop throwing rocks over the fence, though they kept sharpening their knives. The Soviet collapse came not with a bang but with a shrug, as the economic engine that powered the system directly ran out of fuel while Gorbachev decided not to repair it.
-
-
-```mermaid
-flowchart TD
-    A[1_Cold War] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

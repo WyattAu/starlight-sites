@@ -21,9 +21,9 @@ categories:
 ## Abstract
 
 Inspired by Kevin P. Murphy's series of books on probabilisitc machine learning, Marc Peter's book
-On Mathematics for Machine Learning and Evarist Gine's book on Mathematical Foundations of
+on Mathematics for Machine Learning and Evarist Gine's book on Mathematical Foundations of
 Infinite-Dimensional Statistical Models. With the ever growing field of machines learning, I will
-Only be able to cover a small portion of what is available, for more detail and up to date
+only be able to cover a small portion of what is available, for more detail and up to date
 Appraoches, please refer to latest reports and publications.
 
 ## Notes Format
@@ -60,6 +60,8 @@ predictions and parameters. This distinction has several practical consequences:
 
 ### Probabilistic vs Deterministic Models
 
+<div class="table-wrap">
+
 | Aspect          | Deterministic                         | Probabilistic                                         |
 | --------------- | ------------------------------------- | ----------------------------------------------------- |
 | Output          | Point estimate $\hat{y}$              | Distribution $p(y \mid x, \mathcal{D})$               |
@@ -69,6 +71,8 @@ predictions and parameters. This distinction has several practical consequences:
 | Model selection | Cross-validation, AIC/BIC             | Marginal likelihood, Bayes factors                    |
 | Small data      | Prone to overfitting                  | Priors stabilize estimates                            |
 | Computation     | Often cheaper                         | Often more expensive (integration over parameters)    |
+
+</div>
 
 ### Real-World Applications
 
@@ -155,12 +159,16 @@ machine learning:
 
 ### Software Stack
 
+<div class="table-wrap">
+
 | Component     | Tool       | Purpose                                   |
 | ------------- | ---------- | ----------------------------------------- |
 | Array compute | JAX        | Differentiable NumPy with GPU/TPU support |
 | Probabilistic | NumPyro    | Probabilistic programming on JAX          |
 | Visualization | Matplotlib | Plots and figures                         |
 | Formalization | Lean 4     | Proof verification of key theorems        |
+
+</div>
 
 ### Notation Conventions
 
@@ -190,14 +198,7 @@ machine learning:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

@@ -28,19 +28,25 @@ sources:
 
 $f(n) = O(g(n))$ if there exist constants $c > 0$ and $n_0 > 0$ such that:
 
-$$f(n) \leq c \cdot g(n) \quad \text{for all } n \geq n_0$$
+$$
+f(n) \leq c \cdot g(n) \quad \text{for all } n \geq n_0
+$$
 
 ### 1.2 Big-Omega (Lower Bound)
 
 $f(n) = \Omega(g(n))$ if there exist constants $c > 0$ and $n_0 > 0$ such that:
 
-$$f(n) \geq c \cdot g(n) \quad \text{for all } n \geq n_0$$
+$$
+f(n) \geq c \cdot g(n) \quad \text{for all } n \geq n_0
+$$
 
 ### 1.3 Big-Theta (Tight Bound)
 
 $f(n) = \Theta(g(n))$ if both $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$:
 
-$$c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n) \quad \text{for all } n \geq n_0$$
+$$
+c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n) \quad \text{for all } n \geq n_0
+$$
 
 ### 1.4 Little-o and Little-omega
 
@@ -51,6 +57,8 @@ Equivalently: $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$.
 $f(n) = \omega(g(n))$: $\lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$.
 
 ### 1.5 Common Complexity Classes
+
+<div class="table-wrap">
 
 | Class          | Name              | Example                      |
 | -------------- | ----------------- | ---------------------------- |
@@ -64,6 +72,8 @@ $f(n) = \omega(g(n))$: $\lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$.
 | $O(2^n)$       | Exponential       | Subset enumeration           |
 | $O(n!)$        | Factorial         | Permutation generation       |
 | $O(n^n)$       | Exponential tower | Some brute force             |
+
+</div>
 
 ### 1.6 Properties
 
@@ -83,13 +93,17 @@ A **decision problem** has a yes/no answer. Optimization problems can be cast as
 
 ### 2.2 P (Polynomial Time)
 
-$$\text{P} = \{L : L \text{ is decidable by a deterministic TM in } O(n^k) \text{ time for some } k\}$$
+$$
+\text{P} = \{L : L \text{ is decidable by a deterministic TM in } O(n^k) \text{ time for some } k\}
+$$
 
 **Examples:** Sorting, shortest paths, MST, 2-SAT, primality testing.
 
 ### 2.3 NP (Nondeterministic Polynomial Time)
 
-$$\text{NP} = \{L : L \text{ is decidable by a nondeterministic TM in polynomial time}\}$$
+$$
+\text{NP} = \{L : L \text{ is decidable by a nondeterministic TM in polynomial time}\}
+$$
 
 Equivalently, NP is the class of problems for which a **yes-instance** can be **verified** in polynomial time given a certificate (witness).
 
@@ -101,7 +115,9 @@ Equivalently, NP is the class of problems for which a **yes-instance** can be **
 
 A problem $L$ is **NP-hard** if every problem in NP can be reduced to $L$ in polynomial time:
 
-$$\forall L" \in \text{NP}, \ L' \leq_p L$$
+$$
+\forall L" \in \text{NP}, \ L' \leq_p L
+$$
 
 NP-hard problems are **at least as hard as every problem in NP**. They may or may not be in NP themselves.
 
@@ -109,7 +125,9 @@ NP-hard problems are **at least as hard as every problem in NP**. They may or ma
 
 A problem is **NP-complete** if it is both in NP and NP-hard:
 
-$$\text{NP-complete} = \text{NP} \cap \text{NP-hard}$$
+$$
+\text{NP-complete} = \text{NP} \cap \text{NP-hard}
+$$
 
 **If any NP-complete problem is in P, then P = NP.**
 
@@ -132,13 +150,19 @@ The class of problems whose complement can be verified in polynomial time.
 
 ### 2.7 Other Classes
 
+<div class="table-wrap">
+
 | Class  | Definition                                                           |
 | ------ | -------------------------------------------------------------------- |
 | PSPACE | Solvable in polynomial space                                        |
 | EXP    | Solvable in exponential time $O(2^{n^k})$                            |
 | BPP    | Solvable by randomized algorithm with error $\leq 1/3$ (polynomial) |
 
-$$\text{P} \subseteq \text{NP} \subseteq \text{PSPACE} \subseteq \text{EXP}$$
+</div>
+
+$$
+\text{P} \subseteq \text{NP} \subseteq \text{PSPACE} \subseteq \text{EXP}
+$$
 
 ## 3. Polynomial-Time Reductions
 
@@ -154,7 +178,9 @@ If $L_1 \leq_p L_2$ and $L_1$ is NP-hard, then $L_2$ is NP-hard.
 
 A **Karp reduction** (many-one reduction) maps instance $x$ of $L_1$ to instance $f(x)$ of $L_2$:
 
-$$x \in L_1 \iff f(x) \in L_2$$
+$$
+x \in L_1 \iff f(x) \in L_2
+$$
 
 where $f$ is computable in polynomial time.
 
@@ -279,7 +305,9 @@ For NP-hard optimization problems, we seek **polynomial-time algorithms** that p
 
 An algorithm $\mathcal{A}$ is an **$\alpha$-approximation** for a minimization problem if:
 
-$$\mathcal{A}(I) \leq \alpha \cdot \text{OPT}(I) \quad \text{for all instances } I$$
+$$
+\mathcal{A}(I) \leq \alpha \cdot \text{OPT}(I) \quad \text{for all instances } I
+$$
 
 For maximization: $\mathcal{A}(I) \geq \frac{1}{\alpha} \cdot \text{OPT}(I)$.
 
@@ -338,11 +366,15 @@ APPROX_SET_COVER(U, S):
 
 Some problems cannot be approximated within any constant factor unless P = NP.
 
+<div class="table-wrap">
+
 | Problem         | Best known ratio | Inapproximability     |
 | --------------- | ---------------- | --------------------- |
 | Max-Clique      | $O(n / \log^2 n)$ | Cannot approximate within $n^{1-\epsilon}$ unless ZPP = NP |
 | TSP (general)   | None (metric: 3/2) | No constant factor unless P = NP |
 | Set Cover       | $\ln n$ (greedy) | Cannot do better than $(1-\epsilon)\ln n$ unless P = NP |
+
+</div>
 
 ### 7.2 PCP Theorem
 
@@ -385,17 +417,6 @@ Some problems cannot be approximated within any constant factor unless P = NP.
 **Problem:** Prove that 3-SAT is NP-hard by reducing from SAT.
 **Solution:** Given a CNF formula phi, transform each clause into a set of exactly 3 literals. For clauses with 1 literal (l), replace with (l OR x OR NOT x) where x is a new variable. For clauses with 2 literals (l1 OR l2), replace with (l1 OR l2 OR x) AND (l1 OR l2 OR NOT x). This produces an equisatisfiable 3-CNF formula in polynomial time. Therefore, 3-SAT is NP-hard. Since 3-SAT is in NP, it is NP-complete.
 
-
-```mermaid
-flowchart TD
-    A[Complexity Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Asymptotic notation** ($O$, $\Omega$, $\Theta$, $o$, $\omega$) describes growth rates of functions.
@@ -412,11 +433,15 @@ Complexity theory classifies problems by their inherent difficulty. P contains p
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic | Link |
 | ------- | ------ |
 | Algorithm Design | [View](/1-algorithms/algorithm-design/) |
 | Data Structures | [View](/1-algorithms/data-structures/) |
 | Graph Algorithms | [View](https://alevel.wyattau.com/computer-science/algorithms/03-graph-algorithms/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

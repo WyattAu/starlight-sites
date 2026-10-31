@@ -43,7 +43,7 @@ to the new position. Copying `=A1` from B2 to C2 changes it to `=B1`.
 
 **Absolute reference** (e.g., `$A$1`): The reference does not change when copied. Used when
 referring to a fixed cell like a tax rate or conversion factor. Example: `=B2*$D$1` copies correctly
-as `=B3*$D$1``=B4*$D$1`Always multiplying by the value in D1.
+as `=B3*$D$1`, `=B4*$D$1`. Always multiplying by the value in D1.
 
 ### UT-2: Spreadsheet Data Analysis
 
@@ -117,17 +117,6 @@ embedded object is always available, even without the source file.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Office Automation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A digital Swiss Army knife:** Office automation tools are like specialized tools in a workshop, spreadsheets calculate, word processors format, and presentations visualize. Formulas and macros are your power tools.
@@ -161,7 +150,7 @@ merge to generate individualised report cards.
 (c) Overall $= 85 \times 0.6 + 72 \times 0.3 + 90 \times 0.1 = 51 + 21.6 + 9 = 81.6$.
 
 (d) **Mail merge:** The word processor template contains merge fields (e.g.,
-`<<StudentName>>``<<MathsGrade>>``<<OverallGrade>>`). The data source (spreadsheet or database
+`<<StudentName>>`, `<<MathsGrade>>`, `<<OverallGrade>>`). The data source (spreadsheet or database
 export) contains one row per student with columns matching the merge fields. During the merge, the
 word processor replaces each merge field with the corresponding value from the current data row,
 producing one document per student. This automates what would otherwise be a tedious manual process
@@ -183,7 +172,7 @@ exported to a CSV file. Calculate the file size if each quarter entry uses: date
 
 Spreadsheet formula (assuming Q1 in B1, Q2 in C1): `=(C1-B1)/B1` formatted as percentage.
 
-(b) This year's total $= 2.5 + 3.1 + 2.8 + 4.2 = \$12.6$M. Year-on-year growth
+(b) This year's total $= 2.5 + 3.1 + 2.8 + 4.2 = \$12.6$ M. Year-on-year growth
 $= (12.6 - 10) / 10 = 26\%$.
 
 Formula: `=(SUM(B1:E1)-10000000)/10000000`.
@@ -207,11 +196,15 @@ each). Recommend an appropriate method and justify.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | (a)             | Aspect                                                                           | Cloud Collaborative                                                                    | File Sharing (Email) |
 | --------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------- |
-| Version control | Automatic version history; real-time changes tracked per user                    | Manual (Save As, naming conventions); easy to overwrite; multiple conflicting versions |
-| Concurrency     | Multiple users edit simultaneously; real-time collaboration; conflict resolution | Sequential only; one person at a time; merge conflicts                                 |
-| Security        | Data stored on third-party servers; access controlled by service provider        | Data in transit (email) and at rest (local); controlled by sender's security practices |
+|  | Version control | Automatic version history; real-time changes tracked per user                    | Manual (Save As, naming conventions); easy to overwrite; multiple conflicting versions |
+|  | Concurrency     | Multiple users edit simultaneously; real-time collaboration; conflict resolution | Sequential only; one person at a time; merge conflicts                                 |
+|  | Security        | Data stored on third-party servers; access controlled by service provider        | Data in transit (email) and at rest (local); controlled by sender's security practices |
+
+</div>
 
 (b) Three risks: (1) **Data jurisdiction:** Data may be stored in servers located in other
 countries, subject to foreign data protection laws and government access requests. (2) **Data

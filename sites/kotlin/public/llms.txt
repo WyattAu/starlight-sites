@@ -7,6 +7,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Overview
 
 - [About](https://kotlin.wyattau.com/about/)
+- [Before You Begin](https://kotlin.wyattau.com/before-you-begin/)
 - [Flashcards Kotlin Basics](https://kotlin.wyattau.com/flashcards-kotlin-basics/)
 - [Glossary](https://kotlin.wyattau.com/glossary/)
 - [Hub](https://kotlin.wyattau.com/hub/)

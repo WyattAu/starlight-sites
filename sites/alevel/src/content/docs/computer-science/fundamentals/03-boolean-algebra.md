@@ -26,6 +26,8 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 
 ### Basic Gates
 
+<div class="table-wrap">
+
 | Operation | Symbol                 | Definition                           |
 | --------- | ---------------------- | ------------------------------------ |
 | AND       | $A \cdot B$            | $1$ iff both $A = 1$ and $B = 1$     |
@@ -35,9 +37,13 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | NAND      | $\overline{A \cdot B}$ | NOT of AND                           |
 | NOR       | $\overline{A + B}$     | NOT of OR                            |
 
+</div>
+
 ### Truth Tables
 
 **AND ($\cdot$):**
+
+<div class="table-wrap">
 
 | $A$ | $B$ | $A \cdot B$ |
 | --- | --- | ----------- |
@@ -46,7 +52,11 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
+</div>
+
 **OR ($+$):**
+
+<div class="table-wrap">
 
 | $A$ | $B$ | $A + B$ |
 | --- | --- | ------- |
@@ -55,14 +65,22 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | 1   | 0   | 1       |
 | 1   | 1   | 1       |
 
+</div>
+
 **NOT ($\bar{\phantom{A}}$):**
+
+<div class="table-wrap">
 
 | $A$ | $\bar{A}$ |
 | --- | --------- |
 | 0   | 1         |
 | 1   | 0         |
 
+</div>
+
 **XOR ($\oplus$):**
+
+<div class="table-wrap">
 
 | $A$ | $B$ | $A \oplus B$ |
 | --- | --- | ------------ |
@@ -71,7 +89,11 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | 1   | 0   | 1            |
 | 1   | 1   | 0            |
 
+</div>
+
 **NAND:**
+
+<div class="table-wrap">
 
 | $A$ | $B$ | $\overline{A \cdot B}$ |
 | --- | --- | ---------------------- |
@@ -80,7 +102,11 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | 1   | 0   | 1                      |
 | 1   | 1   | 0                      |
 
+</div>
+
 **NOR:**
+
+<div class="table-wrap">
 
 | $A$ | $B$ | $\overline{A + B}$ |
 | --- | --- | ------------------ |
@@ -89,11 +115,15 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | 1   | 0   | 0                  |
 | 1   | 1   | 0                  |
 
+</div>
+
 <hr />
 
 ## 2. Boolean Algebra Laws
 
 ### Fundamental Identities
+
+<div class="table-wrap">
 
 | Law                        | Expression                                                    |
 | -------------------------- | ------------------------------------------------------------- |
@@ -112,7 +142,9 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | Absorption                 | $A + A \cdot B = A$; $A \cdot (A + B) = A$                    |
 | Double negation            | $\bar{\bar{A}} = A$                                           |
 
-### De Morgan"s Laws
+</div>
+
+### De Morgan's Laws
 
 **Theorem (De Morgan's Laws).** For all Boolean variables $A, B$:
 
@@ -121,12 +153,16 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 
 **Proof by truth table (Law 1):**
 
+<div class="table-wrap">
+
 | $A$ | $B$ | $A+B$ | $\overline{A+B}$ | $\bar{A}$ | $\bar{B}$ | $\bar{A}\cdot\bar{B}$ |
 | --- | --- | ----- | ---------------- | --------- | --------- | --------------------- |
 | 0   | 0   | 0     | 1                | 1         | 1         | 1                     |
 | 0   | 1   | 1     | 0                | 1         | 0         | 0                     |
 | 1   | 0   | 1     | 0                | 0         | 1         | 0                     |
 | 1   | 1   | 1     | 0                | 0         | 0         | 0                     |
+
+</div>
 
 Columns 4 and 7 are identical. $\square$
 
@@ -141,8 +177,8 @@ Now $(\bar{A} \cdot \bar{B}) \cdot (A + B) = \bar{A}\bar{B}A + \bar{A}\bar{B}B =
 
 And $(\bar{A} \cdot \bar{B}) + (A + B) = (\bar{A} + A + B)(\bar{B} + A + B) = 1 \cdot 1 = 1$
 
-Since both $f$ and $\bar{A}\cdot\bar{B}$ have the same complement relationship with $A+B$By
-Uniqueness of complement, $f = \bar{A}\cdot\bar{B}$. $\square$
+Since both $f$ and $\bar{A}\cdot\bar{B}$ have the same complement relationship with $A+B$ By
+uniqueness of complement, $f = \bar{A}\cdot\bar{B}$. $\square$
 
 ### XNOR Identity
 
@@ -169,8 +205,8 @@ $\square$
 
 A Karnaugh map is a graphical method for simplifying Boolean expressions. The key insight is that
 **adjacent cells in the K-map correspond to minterms that differ in exactly one variable**. By the
-Combining theorem $AB + A\bar{B} = A(B + \bar{B}) = A$Grouping adjacent cells eliminates the
-Variable that differs.
+Combining theorem $AB + A\bar{B} = A(B + \bar{B}) = A$ Grouping adjacent cells eliminates the
+variable that differs.
 
 ### 2-Variable K-Map
 
@@ -194,7 +230,7 @@ A=1  | m4  m5  m7  m6 |
 ```
 
 Note: columns are arranged in **Gray code** order (00, 01, 11, 10) so that adjacent columns differ
-By exactly one bit.
+by exactly one bit.
 
 ### 4-Variable K-Map
 
@@ -234,7 +270,7 @@ _Inductive step:_ Assume a group of $2^n$ cells eliminates $n$ variables. Consid
 $2^{n+1}$ cells. This can be viewed as two adjacent groups of $2^n$ cells each, which differ in
 Exactly one additional variable (since the overall group is rectangular and contiguous in Gray code
 Ordering). Each sub-group produces a term with $k - n$ literals, and these two sub-groups differ in
-One variable, so combining them eliminates one more variable, yielding $k - (n + 1)$ literals. ✓
+one variable, so combining them eliminates one more variable, yielding $k - (n + 1)$ literals. ✓
 $\square$
 
 <details>
@@ -335,12 +371,16 @@ A **half adder** adds two single bits, producing a sum and carry.
 
 **Truth table:**
 
+<div class="table-wrap">
+
 | $A$ | $B$ | Sum | Carry |
 | --- | --- | --- | ----- |
 | 0   | 0   | 0   | 0     |
 | 0   | 1   | 1   | 0     |
 | 1   | 0   | 1   | 0     |
 | 1   | 1   | 0   | 1     |
+
+</div>
 
 **Derivation:** From the truth table:
 
@@ -355,6 +395,8 @@ A **full adder** adds three bits (two inputs + carry-in), producing sum and carr
 
 **Truth table:**
 
+<div class="table-wrap">
+
 | $A$ | $B$ | $C_{in}$ | Sum | $C_{out}$ |
 | --- | --- | -------- | --- | --------- |
 | 0   | 0   | 0        | 0   | 0         |
@@ -366,11 +408,13 @@ A **full adder** adds three bits (two inputs + carry-in), producing sum and carr
 | 1   | 1   | 0        | 0   | 1         |
 | 1   | 1   | 1        | 1   | 1         |
 
+</div>
+
 **Derivation:**
 
 $\mathrm{Sum} = A \oplus B \oplus C_{in}$
 
-For $C_{out}$We note it is 1 when at least two of the three inputs are 1:
+For $C_{out}$ We note it is 1 when at least two of the three inputs are 1:
 
 $C_{out} = AB + AC_{in} + BC_{in}$
 
@@ -397,7 +441,7 @@ Actually, in Boolean algebra: $AB + AC_{in} + BC_{in} = AB + C_{in}(A + B)$
 $(A \oplus B)C_{in} + AB = (A\bar{B} + \bar{A}B)C_{in} + AB$
 
 Consider all 8 cases in the truth table, both expressions yield the same $C_{out}$ column, so they
-Are equivalent. ✓
+are equivalent. ✓
 
 **Implementation:** 2 XOR gates + 2 AND gates + 1 OR gate (or equivalent).
 
@@ -423,12 +467,16 @@ Adders (carry-lookahead, carry-select) reduce this to $O(\log n)$.
 ## 6. D-Type Flip-Flop
 
 A **D-type flip-flop** (D-FF) stores one bit of data. On the rising edge of the clock signal, the
-Output $Q$ takes the value of the input $D$.
+output $Q$ takes the value of the input $D$.
+
+<div class="table-wrap">
 
 | $D$ | $Q_{next}$ (on clock edge) |
 | --- | -------------------------- |
 | 0   | 0                          |
 | 1   | 1                          |
+
+</div>
 
 **Characteristic equation:** $Q_{next} = D$
 
@@ -476,12 +524,16 @@ $\bar{B}$ And $\bar{A} + \bar{B}$.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | $A$ | $B$ | $A \cdot B$ | $\overline{A \cdot B}$ | $\bar{A}$ | $\bar{B}$ | $\bar{A}+\bar{B}$ |
 | --- | --- | ----------- | ---------------------- | --------- | --------- | ----------------- |
 | 0   | 0   | 0           | 1                      | 1         | 1         | 1                 |
 | 0   | 1   | 0           | 1                      | 1         | 0         | 1                 |
 | 1   | 0   | 0           | 1                      | 0         | 1         | 1                 |
 | 1   | 1   | 1           | 0                      | 0         | 0         | 0                 |
+
+</div>
 
 Columns 4 and 7 are identical. ✓
 
@@ -577,7 +629,7 @@ Groups:
 3. CD=10, AB=00 and AB=01 (m2, m6): $\bar{A}\bar{C}D$... Wait.
 
 CD=10 column: m2=0010(AB=00), m6=0110(AB=01), m14=1110(AB=11). So m2, m6, m14 are 1s. That's a group
-Of... Not rectangular unless we include m10 which is 0.
+of... Not rectangular unless we include m10 which is 0.
 
 Groups:
 
@@ -693,7 +745,7 @@ Of the output $Q$ on each clock pulse.
 <details>
 <summary>Hint</summary>
 
-Since $D = \bar{Q}$ and $Q_{next} = D$What happens to $Q$ on each clock edge?
+Since $D = \bar{Q}$ and $Q_{next} = D$ What happens to $Q$ on each clock edge?
 
 </details>
 
@@ -706,7 +758,7 @@ On each rising clock edge, $Q$ toggles: if $Q = 0$ Then $Q_{next} = 1$; if $Q = 
 $Q_{next} = 0$.
 
 This creates a **toggle flip-flop** (T-flip-flop), which divides the clock frequency by 2. It is the
-Basis of binary counters.
+basis of binary counters.
 
 </details>
 
@@ -767,7 +819,7 @@ Total: approximately 9 NAND gates.
 </details>
 
 **Problem 12.** Use a K-map with don't-care conditions to simplify
-$f(A,B,C) = \sum(0,2,5) + d(1,4,7)$Where $d$ denotes don't-cares.
+$f(A,B,C) = \sum(0,2,5) + d(1,4,7)$ Where $d$ denotes don't-cares.
 
 <details>
 <summary>Hint</summary>
@@ -826,26 +878,9 @@ Covered. ✓
 4. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
    around.
 
-```mermaid
-flowchart TD
-    A[03 Boolean Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Mistakes
 

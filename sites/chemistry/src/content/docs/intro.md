@@ -14,6 +14,13 @@ description: "Study notes for Chemistry with worked examples, practice problems,
 }
 </script>
 
+:::note[New to the subject, or from a different exam board?]
+Read **[Before You Begin: The Chemistry Your School Course Skipped](/before-you-begin/)** first. It rebuilds what the tracks assume -- moles and stoichiometry, electron configuration, bonding models, and the algebra of equilibrium expressions --
+from first principles, defines every term before it is used, and ends with a
+self-test so confident readers can skip by assessment rather than by trust.
+:::
+
+
 Welcome to the Chemistry notes.
 
 Browse the content using the sidebar navigation on the left.
@@ -25,7 +32,6 @@ graph TD
     R[Reactants] -->|energy| P[Products]
     R -->|catalyst| P
 ```
-
 
 Chemistry is a cumulative subject, each concept builds on previous knowledge. Work through physical chemistry first (thermodynamics, kinetics, quantum mechanics), then organic chemistry (mechanisms, synthesis), then inorganic chemistry (coordination compounds, solid-state).
 
@@ -41,6 +47,8 @@ Chemistry is a cumulative subject, each concept builds on previous knowledge. Wo
 
 ## Core Concepts
 
+<div class="table-wrap">
+
 | Branch | Core Idea | Key Equations | Common Pitfall |
 | -------- | ----------- | --------------- | ---------------- |
 | Thermodynamics | Energy conservation and spontaneity | $\Delta G = \Delta H - T\Delta S$ | Assuming $\Delta H < 0$ guarantees spontaneity |
@@ -48,6 +56,8 @@ Chemistry is a cumulative subject, each concept builds on previous knowledge. Wo
 | Quantum Chemistry | Wave-particle duality and orbitals | $\hat{H}\psi = E\psi$ | Treating electrons as particles in orbitals |
 | Organic Mechanisms | Electron flow from nucleophile to electrophile | Arrow pushing: $\text{Nu}^- \rightarrow \text{E}^+$ | Memorising mechanisms without understanding electron sources/sinks |
 | Coordination Chemistry | Metal-ligand bonding and geometry | $\Delta = \frac{10\,Dq}{...}$ (crystal field) | Assuming all octahedral complexes are low-spin |
+
+</div>
 
 ## Exam Strategy
 
@@ -72,10 +82,10 @@ Chemistry is a cumulative subject, each concept builds on previous knowledge. Wo
 
 ## See Also
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ## Intuition
 
@@ -85,18 +95,11 @@ The three branches of chemistry, physical, organic, and inorganic, are different
 
 The practical power of chemistry lies in prediction. If you understand that nucleophiles attack electrophiles, you can predict the products of reactions you've never seen before. If you understand that ΔG = ΔH - TΔS, you can predict whether a reaction becomes more or less spontaneous as temperature changes. If you understand molecular orbital theory, you can explain why O₂ is paramagnetic and why benzene is unusually stable. Chemistry is not about memorising thousands of reactions, it's about understanding a small number of principles that generate all the rest.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -106,50 +109,3 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.

@@ -22,8 +22,8 @@ categories: [TypeScript]
 
 Generics allow functions, interfaces, and type aliases to operate over a range of types rather than
 A single fixed type. A generic function declares one or more **type parameters** in angle brackets
-After the function name. These type parameters are placeholders for concrete types that are supplied
-At the call site.
+after the function name. These type parameters are placeholders for concrete types that are supplied
+at the call site.
 
 ```ts
 function identity<T>(value: T): T {
@@ -60,7 +60,7 @@ function first<T>(array: T[]): T | undefined {
 const x = first([1, 2, 3]);
 ```
 
-Here, `T` is inferred as `number`So `x` has type `number | undefined`.
+Here, `T` is inferred as `number`. So `x` has type `number | undefined`.
 
 When inference is insufficient (e.g., when the type parameter appears only in the return type),
 Explicit type arguments may be provided:
@@ -250,7 +250,7 @@ type T2 = NonNullable<string | null | undefined>;
 ```
 
 `Exclude<T, U>` removes from `T` those types that are assignable to `U`. `Extract<T, U>` extracts
-From `T` those types that are assignable to `U`. `NonNullable<T>` removes `null` and `undefined`
+from `T` those types that are assignable to `U`. `NonNullable<T>` removes `null` and `undefined`
 From `T`.
 
 ### ReturnType, Parameters
@@ -269,6 +269,8 @@ Types as a tuple.
 
 ### Summary Table
 
+<div class="table-wrap">
+
 | Utility Type               | Description                                   |
 | -------------------------- | --------------------------------------------- |
 | `Partial<T>`               | All properties of `T` become optional         |
@@ -284,6 +286,8 @@ Types as a tuple.
 | `Parameters<T>`            | Parameter types of function type `T` as tuple |
 | `ReadonlyArray<T>`         | Immutable array type                          |
 | `ConstructorParameters<T>` | Parameter types of constructor type `T`       |
+
+</div>
 
 ## Mapped Types
 
@@ -370,7 +374,7 @@ type Result = ToArray<string | number>;
 type Result = string[] | number[];
 ```
 
-The distribution rule: `ToArray<string | number>` becomes `ToArray<string> | ToArray<number>`Which
+The distribution rule: `ToArray<string | number>` becomes `ToArray<string> | ToArray<number>`. Which
 Resolves to `string[] | number[]`.
 
 To prevent distribution, wrap `T` in a tuple:
@@ -468,7 +472,7 @@ on('not-an-event', () => {});
 ## Variance
 
 Variance describes how subtyping relationships between type arguments affect subtyping relationships
-Between generic types. TypeScript uses **structural typing** with specific variance rules.
+between generic types. TypeScript uses **structural typing** with specific variance rules.
 
 ### Covariance
 
@@ -494,7 +498,7 @@ const general: Handler = specific;
 ```
 
 This is a compile error under `strictFunctionTypes`. A function that expects `Error` cannot safely
-Receive a function that only handles `TypeError`Because the general handler might be called with
+Receive a function that only handles `TypeError`. Because the general handler might be called with
 `RangeError`.
 
 ### Bivariance
@@ -504,12 +508,16 @@ contravariant. This is unsound but matches pre-strict TypeScript behaviour.
 
 ### Variance Summary
 
+<div class="table-wrap">
+
 | Variance      | `S extends T` implies            | Example                                                     |
 | ------------- | -------------------------------- | ----------------------------------------------------------- |
 | Covariant     | `F<S> extends F<T>`              | `string[] extends (string \| number)[]`                     |
 | Contravariant | `F<T> extends F<S>`              | `(x: Error) => void` assignable to `(x: TypeError) => void` |
 | Invariant     | No implication either way        | `Mutable<T>` -- must be exact type                          |
 | Bivariant     | Both covariant and contravariant | Function params without `strictFunctionTypes`               |
+
+</div>
 
 ### Invariance in Practice
 
@@ -723,16 +731,6 @@ constrained<any>(42);
 
 This compiles despite `42` not being a `string`. The `any` type circumvents the constraint entirely.
 
-```mermaid
-flowchart TD
-    A[Generics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical
@@ -746,13 +744,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

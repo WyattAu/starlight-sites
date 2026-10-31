@@ -54,29 +54,39 @@ one store to another. The total energy in a closed system remains constant.
 
 **Kinetic energy:**
 
-$$E_k = \frac{1}{2}mv^2$$
+$$
+E_k = \frac{1}{2}mv^2
+$$
 
 where $m$ is mass (kg) and $v$ is velocity (m/s).
 
 **Gravitational potential energy:**
 
-$$E_p = mgh$$
+$$
+E_p = mgh
+$$
 
 where $g \approx 9.8 \text{ N/kg}$ and $h$ is height (m).
 
 **Elastic potential energy:**
 
-$$E_e = \frac{1}{2}ke^2$$
+$$
+E_e = \frac{1}{2}ke^2
+$$
 
 where $k$ is the spring constant (N/m) and $e$ is extension (m).
 
 ### 1.3 Efficiency
 
-$$\text{Efficiency} = \frac{\text{useful energy output}}{\text{total energy input}} \times 100$$
+$$
+\text{Efficiency} = \frac{\text{useful energy output}}{\text{total energy input}} \times 100
+$$
 
 Efficiency can also be expressed in terms of power:
 
-$$\text{Efficiency} = \frac{\text{useful power output}}{\text{total power input}} \times 100$$
+$$
+\text{Efficiency} = \frac{\text{useful power output}}{\text{total power input}} \times 100
+$$
 
 No device is 100% efficient. Wasted energy is in most cases dissipated as thermal energy to the
 surroundings.
@@ -85,7 +95,9 @@ surroundings.
 
 **Work done:** When a force moves an object, work is done.
 
-$$W = Fs$$
+$$
+W = Fs
+$$
 
 where $W$ is work done (J), $F$ is force (N), $s$ is distance moved in the direction of the force
 (m).
@@ -94,7 +106,9 @@ where $W$ is work done (J), $F$ is force (N), $s$ is distance moved in the direc
 
 **Power:** The rate of doing work or transferring energy.
 
-$$P = \frac{W}{t} = \frac{E}{t}$$
+$$
+P = \frac{W}{t} = \frac{E}{t}
+$$
 
 where $P$ is power (W), $W$ is work done (J), $E$ is energy transferred (J), $t$ is time (s).
 
@@ -104,7 +118,9 @@ where $P$ is power (W), $W$ is work done (J), $E$ is energy transferred (J), $t$
 
 The energy needed to raise the temperature of 1 kg of a substance by 1°C.
 
-$$\Delta E = mc\Delta T$$
+$$
+\Delta E = mc\Delta T
+$$
 
 where $m$ is mass (kg), $c$ is specific heat capacity (J/kg°C), and $\Delta T$ is the temperature
 change (°C).
@@ -116,7 +132,9 @@ $c = 390 \text{ J/kg°C}$.
 
 The energy needed to change the state of 1 kg of a substance without changing its temperature.
 
-$$E = mL$$
+$$
+E = mL
+$$
 
 where $L$ is specific latent heat (J/kg).
 
@@ -143,18 +161,22 @@ vaporisation $\approx 2\,260\,000 \text{ J/kg}$.
 
 **Speed** is a scalar; **velocity** is a vector (has direction).
 
-$$\text{Speed} = \frac{\text{distance}}{\text{time}} \qquad v = \frac{s}{t}$$
+$$
+\text{Speed} = \frac{\text{distance}}{\text{time}} \qquad v = \frac{s}{t}
+$$
 
 **Acceleration:** The rate of change of velocity.
 
-$$a = \frac{\Delta v}{t} = \frac{v - u}{t}$$
+$$
+a = \frac{\Delta v}{t} = \frac{v - u}{t}
+$$
 
 where $u$ is initial velocity, $v$ is final velocity, $t$ is time.
 
 **Typical speeds:** Walking 1.5 m/s, running 3 m/s, cycling 6 m/s, car on motorway 30 m/s, sound in
 air 330 m/s.
 
-### 2.2 Newton"s Laws
+### 2.2 Newton's Laws
 
 **First law:** An object remains at rest or moves at constant velocity unless a resultant force acts
 on it.
@@ -162,7 +184,9 @@ on it.
 **Second law:** The acceleration of an object is proportional to the resultant force and inversely
 proportional to its mass.
 
-$$F = ma$$
+$$
+F = ma
+$$
 
 where $F$ is force (N), $m$ is mass (kg), $a$ is acceleration (m/s²).
 
@@ -174,7 +198,9 @@ forces act on **different** objects.
 - **Mass** is the amount of matter in an object (kg). It does not change with location.
 - **Weight** is the gravitational force acting on an object (N).
 
-$$W = mg$$
+$$
+W = mg
+$$
 
 where $g \approx 9.8 \text{ N/kg}$ on Earth. On the Moon, $g \approx 1.6 \text{ N/kg}$.
 
@@ -189,7 +215,9 @@ velocity, the terminal velocity.
 
 ### 2.5 Momentum
 
-$$p = mv$$
+$$
+p = mv
+$$
 
 where $p$ is momentum (kg m/s), $m$ is mass (kg), $v$ is velocity (m/s).
 
@@ -198,14 +226,18 @@ total momentum after the event.
 
 **Momentum and force:**
 
-$$F = \frac{\Delta p}{t}$$
+$$
+F = \frac{\Delta p}{t}
+$$
 
 A larger force or longer contact time gives a larger change in momentum. This is the principle
 behind crumple zones and seat belts, increasing the time reduces the force.
 
 ### 2.6 Stopping Distances and Car Safety
 
-$$\text{Stopping distance} = \text{thinking distance} + \text{braking distance}$$
+$$
+\text{Stopping distance} = \text{thinking distance} + \text{braking distance}
+$$
 
 - **Thinking distance:** Distance travelled during the driver's reaction time. Increases with speed;
   affected by tiredness, alcohol, drugs, distractions.
@@ -230,11 +262,15 @@ changes, reducing the force on the occupant.
 
 ### 3.1 Transverse and Longitudinal Waves
 
+<div class="table-wrap">
+
 | Property    | Transverse                           | Longitudinal                    |
 | ----------- | ------------------------------------ | ------------------------------- |
 | Oscillation | Perpendicular to direction of travel | Parallel to direction of travel |
 | Examples    | Light, water waves, EM waves         | Sound waves, seismic P-waves    |
 | Features    | Crests and troughs                   | Compressions and rarefactions   |
+
+</div>
 
 ### 3.2 Wave Properties
 
@@ -245,11 +281,15 @@ changes, reducing the force on the occupant.
 
 **Wave speed equation:**
 
-$$v = f\lambda$$
+$$
+v = f\lambda
+$$
 
 ### 3.3 Electromagnetic Spectrum
 
 All EM waves travel at $3 \times 10^8 \text{ m/s}$ in a vacuum.
+
+<div class="table-wrap">
 
 | Wave type     | Wavelength                   | Uses                                |
 | ------------- | ---------------------------- | ----------------------------------- |
@@ -260,6 +300,8 @@ All EM waves travel at $3 \times 10^8 \text{ m/s}$ in a vacuum.
 | Ultraviolet   |                              | Fluorescent lamps, security marking |
 | X-ray         |                              | Medical imaging, airport security   |
 | Gamma ray     | Shortest                     | Radiotherapy, sterilisation         |
+
+</div>
 
 Higher frequency = higher energy. Gamma rays and X-rays are ionising radiation, they can damage
 cells and cause cancer.
@@ -308,14 +350,18 @@ scanning) and industrial cleaning.
   voltmeter in parallel.
 - **Resistance ($R$):** Opposition to current flow ($\Omega$).
 
-$$V = IR$$
+$$
+V = IR
+$$
 
 ### 4.2 Ohm's Law
 
 For an ohmic conductor (e.g. a resistor at constant temperature), the current is directly
 proportional to the potential difference.
 
-$$I \propto V \implies \frac{V}{I} = \text{constant}$$
+$$
+I \propto V \implies \frac{V}{I} = \text{constant}
+$$
 
 A V-I graph for a resistor is a straight line through the origin.
 
@@ -338,11 +384,15 @@ Adding a resistor in parallel **decreases** total resistance. Adding a resistor 
 
 ### 4.4 I-V Characteristics
 
+<div class="table-wrap">
+
 | Component      | Graph                                       | Behaviour                             |
 | -------------- | ------------------------------------------- | ------------------------------------- |
 | Fixed resistor | Straight line through origin                | Ohmic: $I \propto V$                  |
 | Filament lamp  | Curve, steeper at low V then levels off     | Resistance increases with temperature |
 | Diode          | Flat at negative V, rises sharply at ~0.6 V | Only allows current in one direction  |
+
+</div>
 
 ### 4.5 Special Components
 
@@ -366,9 +416,13 @@ rating slightly higher than the normal operating current.
 
 ### 4.7 Electrical Power and Energy
 
-$$P = IV \qquad P = I^2R \qquad P = \frac{V^2}{R}$$
+$$
+P = IV \qquad P = I^2R \qquad P = \frac{V^2}{R}
+$$
 
-$$E = Pt \qquad E = QV$$
+$$
+E = Pt \qquad E = QV
+$$
 
 where $E$ is energy (J), $P$ is power (W), $V$ is potential difference (V), $I$ is current (A), $R$
 is resistance ($\Omega$), $t$ is time (s), $Q$ is charge (C).
@@ -398,7 +452,9 @@ is resistance ($\Omega$), $t$ is time (s), $Q$ is charge (C).
 A solenoid (coil of wire) carrying a current produces a magnetic field. Adding an iron core
 strengthens the field significantly.
 
-$$\text{Strength of electromagnet} \propto \text{current} \times \text{number of turns}$$
+$$
+\text{Strength of electromagnet} \propto \text{current} \times \text{number of turns}
+$$
 
 Electromagnets are used in relays, electric bells, and scrap yard cranes.
 
@@ -417,7 +473,9 @@ electromagnetic induction. An alternating current is produced.
 
 **Transformer:** Changes the potential difference of an alternating current.
 
-$$\frac{V_p}{V_s} = \frac{n_p}{n_s}$$
+$$
+\frac{V_p}{V_s} = \frac{n_p}{n_s}
+$$
 
 where $V_p$, $V_s$ are the primary and secondary voltages, and $n_p$, $n_s$ are the number of turns
 on the primary and secondary coils.
@@ -446,11 +504,15 @@ transformers reduce the voltage for safe domestic use (230 V).
 
 ### 6.1 States of Matter
 
+<div class="table-wrap">
+
 | State  | Arrangement         | Movement                      | Spacing        | Shape                 |
 | ------ | ------------------- | ----------------------------- | -------------- | --------------------- |
 | Solid  | Regular lattice     | Vibrate in fixed positions    | Close together | Fixed                 |
 | Liquid | Irregular but close | Slide past each other         | Close together | Takes container shape |
 | Gas    | Random              | Move freely in all directions | Far apart      | Fills container       |
+
+</div>
 
 ### 6.2 Changes of State
 
@@ -468,16 +530,22 @@ bonds between particles, not to increase kinetic energy.
 
 As covered in the Energy section:
 
-$$\Delta E = mc\Delta T$$
+$$
+\Delta E = mc\Delta T
+$$
 
 ### 6.4 Gas Pressure and Temperature
 
 The pressure of a gas in a sealed container increases when the temperature increases because the
 particles move faster and collide with the walls more frequently and with greater force.
 
-$$pV = \text{constant} \quad \text{(at constant temperature, Boyle's law)}$$
+$$
+pV = \text{constant} \quad \text{(at constant temperature, Boyle's law)}
+$$
 
-$$\frac{p_1}{T_1} = \frac{p_2}{T_2} \quad \text{(at constant volume, pressure law, temperature in kelvin)}$$
+$$
+\frac{p_1}{T_1} = \frac{p_2}{T_2} \quad \text{(at constant volume, pressure law, temperature in kelvin)}
+$$
 
 ---
 
@@ -496,21 +564,29 @@ $$\frac{p_1}{T_1} = \frac{p_2}{T_2} \quad \text{(at constant volume, pressure la
 
 An unstable nucleus decays by emitting radiation to become more stable.
 
+<div class="table-wrap">
+
 | Radiation        | Symbol               | Penetration | Ionising power | Stopped by                     |
 | ---------------- | -------------------- | ----------- | -------------- | ------------------------------ |
 | Alpha ($\alpha$) | $^4_2\text{He}$      | Very low    | High           | A few cm of air or paper       |
 | Beta ($\beta$)   | $^0_{-1}\text{e}$    | Moderate    | Moderate       | A few mm of aluminium          |
 | Gamma ($\gamma$) | Electromagnetic wave | Very high   | Low            | Several cm of lead or concrete |
 
+</div>
+
 ### 7.2 Nuclear Equations
 
 **Alpha decay:** The nucleus loses 2 protons and 2 neutrons.
 
-$$^{238}_{92}\text{U} \rightarrow ^{234}_{90}\text{Th} + ^4_2\text{He}$$
+$$
+^{238}_{92}\text{U} \rightarrow ^{234}_{90}\text{Th} + ^4_2\text{He}
+$$
 
 **Beta decay:** A neutron becomes a proton and an electron. The electron is emitted.
 
-$$^{14}_{6}\text{C} \rightarrow ^{14}_{7}\text{N} + ^0_{-1}\text{e}$$
+$$
+^{14}_{6}\text{C} \rightarrow ^{14}_{7}\text{N} + ^0_{-1}\text{e}
+$$
 
 ### 7.3 Half-Life
 
@@ -521,6 +597,8 @@ After $n$ half-lives, the fraction remaining is $\left(\frac{1}{2}\right)^n$.
 
 **Example.** A sample has a half-life of 6 hours. Starting activity = 800 Bq.
 
+<div class="table-wrap">
+
 | Time (hours) | Activity (Bq) |
 | ------------ | ------------- |
 | 0            | 800           |
@@ -529,6 +607,8 @@ After $n$ half-lives, the fraction remaining is $\left(\frac{1}{2}\right)^n$.
 | 18           | 100           |
 | 24           | 50            |
 
+</div>
+
 ### 7.4 Background Radiation
 
 Background radiation is always present from natural and artificial sources: radon gas (largest
@@ -536,11 +616,15 @@ natural source), rocks, cosmic rays, medical sources, nuclear power.
 
 ### 7.5 Contamination vs Irradiation
 
+<div class="table-wrap">
+
 |            | Contamination                                             | Irradiation                                  |
 | ---------- | --------------------------------------------------------- | -------------------------------------------- |
 | Definition | Radioactive material gets on or in an object              | Object is exposed to radiation from a source |
 | Lasts      | Until the material is removed/decays                      | Stops when the source is removed             |
 | Hazard     | Can be difficult to remove; material may continue to emit | Object itself does not become radioactive    |
+
+</div>
 
 ### 7.6 Uses and Dangers
 
@@ -567,6 +651,8 @@ square law), and shielding.
 
 ## 8. Key Equations
 
+<div class="table-wrap">
+
 | Quantity                       | Equation                            | Units  |
 | ------------------------------ | ----------------------------------- | ------ |
 | Kinetic energy                 | $E_k = \frac{1}{2}mv^2$             | J      |
@@ -587,6 +673,8 @@ square law), and shielding.
 | Density                        | $\rho = \frac{m}{V}$                | kg/m³  |
 | Pressure                       | $p = \frac{F}{A}$                   | Pa     |
 | Gas law (Boyle)                | $p_1V_1 = p_2V_2$                   |,      |
+
+</div>
 
 ---
 
@@ -683,17 +771,6 @@ secondary. The input voltage is 230 V. Calculate the output voltage. **Solution:
 **Problem:** A sample of iodine-131 has an activity of 800 Bq. The half-life of iodine-131 is 8
 days. What will the activity be after 32 days? **Solution:** 32 days / 8 days per half-life = 4
 half-lives. Activity = 800 x (1/2)^4 = 800 x 1/16 = 50 Bq.
-
-
-```mermaid
-flowchart TD
-    A[Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

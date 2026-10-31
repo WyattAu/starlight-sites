@@ -51,8 +51,6 @@ This site provides comprehensive study materials covering:
 - Writing
 - Mathematics
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -77,8 +75,6 @@ high school enrolment
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -96,18 +92,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Advanced Strategies](/advanced-strategies/)
 - [SAT Math Advanced Flashcards](/flashcards-math-advanced/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -116,54 +105,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -200,12 +141,16 @@ efficient problem-solving.
 
 ### Per-Section Pacing
 
+<div class="table-wrap">
+
 | Section           | Module   | Questions | Time   | Seconds per Question |
 | ----------------- | -------- | --------- | ------ | -------------------- |
 | Reading & Writing | Module 1 | 27        | 32 min | ~71 s                |
 | Reading & Writing | Module 2 | 27        | 32 min | ~71 s                |
 | Mathematics       | Module 1 | 22        | 35 min | ~95 s                |
 | Mathematics       | Module 2 | 22        | 35 min | ~95 s                |
+
+</div>
 
 ### The Two-Pass System
 
@@ -222,11 +167,15 @@ questions right in 5 minutes is worth the same as getting 1 hard question right 
 
 Check your position at these checkpoints:
 
+<div class="table-wrap">
+
 | Checkpoint  | Reading & Writing     | Mathematics           |
 | ----------- | --------------------- | --------------------- |
 | 25% through | Q7, ~8 min elapsed   | Q5, ~9 min elapsed   |
 | 50% through | Q14, ~16 min elapsed | Q11, ~17 min elapsed |
 | 75% through | Q20, ~24 min elapsed | Q16, ~26 min elapsed |
+
+</div>
 
 If you are behind at any checkpoint, switch to the two-pass system immediately.
 
@@ -286,12 +235,16 @@ There is **no penalty for wrong answers** on the digital SAT. This means:
 
 ### Strategic Guessing Framework
 
+<div class="table-wrap">
+
 | Situation                                  | Action                                                        |
 | ------------------------------------------ | ------------------------------------------------------------- |
 | Can eliminate 0 options                    | Guess immediately, don"t waste time                          |
 | Can eliminate 1 option                     | Guess if under 30 seconds remaining, otherwise eliminate more |
 | Can eliminate 2 options                    | Always guess, 50% success rate                               |
 | Running out of time with 3+ questions left | Bubble answers for all remaining questions instantly          |
+
+</div>
 
 ### Grid-In Questions
 
@@ -319,6 +272,8 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 ### When to Use the Calculator
 
+<div class="table-wrap">
+
 | Scenario                                            | Calculator?                                   |
 | --------------------------------------------------- | --------------------------------------------- |
 | Simple arithmetic (e.g., $17 \times 23$)            | No, mental math is faster                    |
@@ -327,6 +282,8 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 | Finding roots of a quadratic                        | Yes, graph and identify x-intercepts         |
 | Statistical calculations (mean, standard deviation) | Yes, use Desmos stats tools                  |
 | Estimating an answer to check reasonableness        | Yes, plug in approximate values              |
+
+</div>
 
 ### Desmos Power Techniques
 
@@ -381,12 +338,16 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 ### Common Trap Patterns
 
+<div class="table-wrap">
+
 | Trap                          | Description                                            | Counter                                        |
 | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------- |
 | **Plausible but unsupported** | Answer sounds reasonable but the passage never says it | Ask "where does the passage say this?"         |
 | **Too broad**                 | True but covers more than what the question asks       | Match the answer scope to the question scope   |
 | **Too narrow**                | True but misses the main point                         | Check if the answer captures the central claim |
 | **Extreme language**          | Uses words like "always", "impossible", "proved"       | Eliminate unless explicitly supported          |
+
+</div>
 
 ---
 
@@ -416,6 +377,8 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 ### Transition Word Quick Reference
 
+<div class="table-wrap">
+
 | Relationship | Examples                                             |
 | ------------ | ---------------------------------------------------- |
 | Addition     | furthermore, moreover, additionally, also            |
@@ -423,6 +386,8 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 | Cause/Effect | therefore, consequently, as a result, thus           |
 | Example      | for instance, specifically, namely, for example      |
 | Sequence     | first, subsequently, finally, meanwhile              |
+
+</div>
 
 ---
 
@@ -483,6 +448,8 @@ Always estimate the answer before calculating. If the question asks for 17% of 3
 
 ### Weekly Schedule (10 Weeks Out)
 
+<div class="table-wrap">
+
 | Week | Activity                                                 | Duration                  |
 | ---- | -------------------------------------------------------- | ------------------------- |
 | 1    | Full-length practice test #1 (timed)                     | 2.5 hours + 1 hour review |
@@ -495,6 +462,8 @@ Always estimate the answer before calculating. If the question asks for 17% of 3
 | 8    | Light review + flashcard drill                           | 2 sessions of 30 min      |
 | 9    | Full-length practice test #5 (timed, simulated test day) | 2.5 hours + 1 hour review |
 | 10   | Final review, mistakes log + formula sheet              | 1 session of 60 min       |
+
+</div>
 
 ### Simulating Test Day
 
@@ -555,17 +524,6 @@ banning). Eliminate D (analyses one study, not multiple approaches). B is the mo
 - **Re-reading the entire passage for every question.** Read once with the question in mind. For
   subsequent questions, scan for specific content.
 
-
-```mermaid
-flowchart TD
-    A[Advanced Strategies] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Advanced SAT strategies include time management (two-pass system, benchmark times), process of
@@ -577,11 +535,15 @@ review, and test-day simulation builds the stamina and strategy needed for peak 
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                  | Link                                                |
 | ---------------------- | --------------------------------------------------- |
 | SAT Overview           | View       |
 | SAT Math Strategies    | View    |
 | SAT Reading Strategies | [View](https://gaokao.wyattau.com/chinese/reading/) |
+
+</div>
 
 ---
 
@@ -632,18 +594,11 @@ SAT Math tests your ability to apply mathematical concepts to real-world problem
 - **[Algebra](/mathematics/algebra/):** Algebraic foundations for all SAT math topics.
 - **[Data Analysis](/mathematics/data-analysis/):** Statistics and probability topics tested on the SAT.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -652,100 +607,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -796,18 +657,11 @@ Advanced SAT math covers the most challenging topics that distinguish top scorer
 - **[Algebra](/mathematics/algebra/):** Algebraic foundations for advanced topics.
 - **[Geometry](/mathematics/geometry/):** Coordinate geometry connects algebra and shapes.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -816,100 +670,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -963,18 +723,11 @@ The SAT Reading and Writing section tests your ability to understand, analyse, a
 - **[Reading Comprehension](/reading/comprehension/):** Deep dive into reading strategies and question types.
 - **[Grammar](/reading/grammar/):** Grammar rules tested in the writing section.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -983,100 +736,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -1325,17 +984,6 @@ URL: https://sat.wyattau.com/hub/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 The SAT is the standardised test used for university admissions across the United States and increasingly around the world. The digital SAT, administered by the College Board, is adaptive, your performance on the first module of each section determines the difficulty of the second module. This means every question matters, and strategic preparation is as important as content knowledge.
@@ -1486,12 +1134,16 @@ Preparing for the SAT is a structured process. Here is a phased approach that bu
 
 ### Daily Routine
 
+<div class="table-wrap">
+
 | Time | Activity |
 | ------ | ---------- |
 | Morning | Flashcards, 15 minutes of vocabulary and formulas |
 | Afternoon | Topic study, read notes on one content area |
 | Evening | Practice, complete 10–15 practice questions |
 | Weekend | One timed section + review wrong answers |
+
+</div>
 
 ---
 
@@ -1632,10 +1284,14 @@ students see harder questions and can demonstrate mastery at a higher level.
 
 ## Test Structure
 
+<div class="table-wrap">
+
 | Section               | Modules             | Questions per Module | Time per Module | Total Time |
 | --------------------- | ------------------- | -------------------- | --------------- | ---------- |
 | **Reading & Writing** | Module 1 + Module 2 | 27                   | 32 minutes      | 64 minutes |
 | **Mathematics**       | Module 1 + Module 2 | 22                   | 35 minutes      | 70 minutes |
+
+</div>
 
 **Total:** 98 questions, 134 minutes (~2 hours 14 minutes).
 
@@ -1706,6 +1362,8 @@ understand.
 
 ### 12-Week Timeline
 
+<div class="table-wrap">
+
 | Week | Focus                               | Time Commitment |
 | ---- | ----------------------------------- | --------------- |
 | 1-2  | Diagnostic test + review weak areas | 8-10 hrs/week   |
@@ -1714,6 +1372,8 @@ understand.
 | 9-10 | Full-length practice tests (timed)  | 4-6 hrs/week    |
 | 11   | Review errors + targeted drill      | 4-6 hrs/week    |
 | 12   | Final practice test + light review  | 2-4 hrs/week    |
+
+</div>
 
 ### Weekly Routine
 
@@ -1758,12 +1418,16 @@ built-in Desmos graphing calculator.
 
 ### Content Domains
 
+<div class="table-wrap">
+
 | Domain                                | Approximate Weight | Question Count |
 | ------------------------------------- | ------------------ | -------------- |
 | **Algebra**                           | ~35%               | 13-15          |
 | **Advanced Math**                     | ~35%               | 13-15          |
 | **Problem Solving and Data Analysis** | ~15%               | 5-7            |
 | **Geometry and Trigonometry**         | ~15%               | 5-7            |
+
+</div>
 
 ---
 
@@ -1825,11 +1489,15 @@ The equation of a line: $y = mx + b$
 
 **Forms of a linear equation:**
 
+<div class="table-wrap">
+
 | Form            | Equation               | Best Used For                         |
 | --------------- | ---------------------- | ------------------------------------- |
 | Slope-intercept | $y = mx + b$           | Graphing, identifying slope/intercept |
 | Point-slope     | $y - y_1 = m(x - x_1)$ | Writing equation given a point        |
 | Standard        | $Ax + By = C$          | Determining intercepts, systems       |
+
+</div>
 
 **Parallel lines** have equal slopes ($m_1 = m_2$). **Perpendicular lines** have slopes that are
 negative reciprocals ($m_1 \cdot m_2 = -1$).
@@ -1854,11 +1522,15 @@ The vertex is at $x = -\frac{b}{2a}$.
 
 **The discriminant** $D = b^2 - 4ac$ determines the nature of the roots:
 
+<div class="table-wrap">
+
 | Condition | Roots                       | Graph                          |
 | --------- | --------------------------- | ------------------------------ |
 | $D > 0$   | Two distinct real roots     | Parabola crosses x-axis twice  |
 | $D = 0$   | One repeated real root      | Parabola touches x-axis        |
 | $D < 0$   | No real roots (two complex) | Parabola does not cross x-axis |
+
+</div>
 
 **Factoring quadratics:** Look for integer factor pairs of $ac$ that sum to $b$.
 
@@ -1906,6 +1578,8 @@ A function $f$ maps each input $x$ to exactly one output $f(x)$.
 
 **Key function families:**
 
+<div class="table-wrap">
+
 | Function       | Equation               | Graph Shape       | Key Feature              |
 | -------------- | ---------------------- | ----------------- | ------------------------ |
 | Linear         | $f(x) = mx + b$        | Straight line     | Constant rate of change  |
@@ -1913,6 +1587,8 @@ A function $f$ maps each input $x$ to exactly one output $f(x)$.
 | Exponential    | $f(x) = a \cdot b^x$   | Exponential curve | Horizontal asymptote     |
 | Absolute value | $f(x) = \|x\|$         | V-shape           | Vertex at origin         |
 | Square root    | $f(x) = \sqrt{x}$      | Half parabola     | Domain: $x \geq 0$       |
+
+</div>
 
 **Transformations:**
 
@@ -2034,10 +1710,14 @@ $$
 
 **Unit circle:** A circle of radius 1 centred at the origin. Key values at standard angles:
 
+<div class="table-wrap">
+
 | Angle ($^\circ$) | $0$ | $30$                 | $45$                 | $60$                 | $90$ | $180$ | $270$ |
 | ---------------- | --- | -------------------- | -------------------- | -------------------- | ---- | ----- | ----- |
 | $\sin\theta$     | $0$ | $\frac{1}{2}$        | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$  | $0$   | $-1$  |
 | $\cos\theta$     | $1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$        | $0$  | $-1$  | $0$   |
+
+</div>
 
 **Radian measure:** $\theta_{\text{rad}} = \theta_{\text{deg}} \times \frac{\pi}{180}$
 
@@ -2118,6 +1798,8 @@ $$
 
 ### Descriptive Statistics
 
+<div class="table-wrap">
+
 | Measure                | Definition                                                         |
 | ---------------------- | ------------------------------------------------------------------ |
 | **Mean**               | Sum of values divided by the count: $\bar{x} = \frac{\sum x_i}{n}$ |
@@ -2126,6 +1808,8 @@ $$
 | **Range**              | Maximum minus minimum                                              |
 | **Standard deviation** | Average distance of each value from the mean                       |
 | **IQR**                | Third quartile minus first quartile ($Q_3 - Q_1$)                  |
+
+</div>
 
 **Key relationships:**
 
@@ -2182,12 +1866,16 @@ $$
 
 **Common conversions to know:**
 
+<div class="table-wrap">
+
 | Quantity | Relationships                                                            |
 | -------- | ------------------------------------------------------------------------ |
 | Length   | 1 foot = 12 inches; 1 yard = 3 feet; 1 mile = 5280 feet                  |
 | Weight   | 1 pound = 16 ounces; 1 ton = 2000 pounds                                 |
 | Volume   | 1 cup = 8 fl oz; 1 pint = 2 cups; 1 quart = 2 pints; 1 gallon = 4 quarts |
 | Metric   | 1 km = 1000 m; 1 m = 100 cm; 1 kg = 1000 g                               |
+
+</div>
 
 ---
 
@@ -2298,17 +1986,6 @@ interface saves time on the exam.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Mathematics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The Mathematics section tests four core domains: Algebra, Advanced Math, Problem Solving and Data
@@ -2382,17 +2059,29 @@ If $3(2x - 5) = 4(x + 3) - 7$, what is the value of $x$?
 
 **Solution:**
 
-$$3(2x - 5) = 4(x + 3) - 7$$
+$$
+3(2x - 5) = 4(x + 3) - 7
+$$
 
-$$6x - 15 = 4x + 12 - 7$$
+$$
+6x - 15 = 4x + 12 - 7
+$$
 
-$$6x - 15 = 4x + 5$$
+$$
+6x - 15 = 4x + 5
+$$
 
-$$6x - 4x = 5 + 15$$
+$$
+6x - 4x = 5 + 15
+$$
 
-$$2x = 20$$
+$$
+2x = 20
+$$
 
-$$x = 10$$
+$$
+x = 10
+$$
 
 **Key concept:** Solving a linear equation by distributing, combining like terms, and isolating the
 variable.
@@ -2423,21 +2112,33 @@ A store sells notebooks for \$3 each and pens for \$2 each. If a customer buys 1
 
 Let $n$ = number of notebooks and $p$ = number of pens.
 
-$$n + p = 14 \quad \text{(total items)}$$
+$$
+n + p = 14 \quad \text{(total items)}
+$$
 
-$$3n + 2p = 34 \quad \text{(total cost)}$$
+$$
+3n + 2p = 34 \quad \text{(total cost)}
+$$
 
 From the first equation: $p = 14 - n$.
 
 Substitute into the second:
 
-$$3n + 2(14 - n) = 34$$
+$$
+3n + 2(14 - n) = 34
+$$
 
-$$3n + 28 - 2n = 34$$
+$$
+3n + 28 - 2n = 34
+$$
 
-$$n + 28 = 34$$
+$$
+n + 28 = 34
+$$
 
-$$n = 6$$
+$$
+n = 6
+$$
 
 The customer bought 6 notebooks.
 
@@ -2468,15 +2169,23 @@ slope-intercept form?
 
 **Solution:**
 
-$$m = \frac{-7 - 5}{4 - (-2)} = \frac{-12}{6} = -2$$
+$$
+m = \frac{-7 - 5}{4 - (-2)} = \frac{-12}{6} = -2
+$$
 
 Using point-slope form with point $(4, -7)$:
 
-$$y - (-7) = -2(x - 4)$$
+$$
+y - (-7) = -2(x - 4)
+$$
 
-$$y + 7 = -2x + 8$$
+$$
+y + 7 = -2x + 8
+$$
 
-$$y = -2x + 1$$
+$$
+y = -2x + 1
+$$
 
 The equation is $y = -2x + 1$.
 
@@ -2506,17 +2215,27 @@ Solve the inequality $-3(2x + 1) > 4x - 11$. Express the solution as an inequali
 
 **Solution:**
 
-$$-3(2x + 1) > 4x - 11$$
+$$
+-3(2x + 1) > 4x - 11
+$$
 
-$$-6x - 3 > 4x - 11$$
+$$
+-6x - 3 > 4x - 11
+$$
 
-$$-6x - 4x > -11 + 3$$
+$$
+-6x - 4x > -11 + 3
+$$
 
-$$-10x > -8$$
+$$
+-10x > -8
+$$
 
 Dividing by $-10$ (reverse the inequality sign):
 
-$$x < \frac{4}{5}$$
+$$
+x < \frac{4}{5}
+$$
 
 **Key concept:** Solving a linear inequality, remembering to reverse the inequality sign when
 dividing by a negative number.
@@ -2544,15 +2263,21 @@ What is the sum of all integer solutions to $|2x - 3| \leq 7$?
 
 **Solution:**
 
-$$|2x - 3| \leq 7 \implies -7 \leq 2x - 3 \leq 7$$
+$$
+|2x - 3| \leq 7 \implies -7 \leq 2x - 3 \leq 7
+$$
 
 Add 3:
 
-$$-4 \leq 2x \leq 10$$
+$$
+-4 \leq 2x \leq 10
+$$
 
 Divide by 2:
 
-$$-2 \leq x \leq 5$$
+$$
+-2 \leq x \leq 5
+$$
 
 The integer solutions are $-2, -1, 0, 1, 2, 3, 4, 5$.
 
@@ -2589,9 +2314,13 @@ Net rate of change: $15 - 3 = 12$ litres per minute.
 
 Amount needed: $380 - 200 = 180$ litres.
 
-$$12t = 180$$
+$$
+12t = 180
+$$
 
-$$t = \frac{180}{12} = 15$$
+$$
+t = \frac{180}{12} = 15
+$$
 
 It takes 15 minutes.
 
@@ -2626,15 +2355,25 @@ Factor: find two numbers that multiply to $2 \times (-3) = -6$ and add to $-5$.
 
 The numbers are $-6$ and $1$.
 
-$$2x^2 - 6x + x - 3 = 0$$
+$$
+2x^2 - 6x + x - 3 = 0
+$$
 
-$$2x(x - 3) + 1(x - 3) = 0$$
+$$
+2x(x - 3) + 1(x - 3) = 0
+$$
 
-$$(2x + 1)(x - 3) = 0$$
+$$
+(2x + 1)(x - 3) = 0
+$$
 
-$$2x + 1 = 0 \implies x = -\frac{1}{2}$$
+$$
+2x + 1 = 0 \implies x = -\frac{1}{2}
+$$
 
-$$x - 3 = 0 \implies x = 3$$
+$$
+x - 3 = 0 \implies x = 3
+$$
 
 The solutions are $x = -\frac{1}{2}$ and $x = 3$.
 
@@ -2666,13 +2405,21 @@ $g(x)$?
 
 By the Remainder Theorem, the remainder is $f(3)$:
 
-$$f(3) = 3^3 + 2(3)^2 - 5(3) + 1$$
+$$
+f(3) = 3^3 + 2(3)^2 - 5(3) + 1
+$$
 
-$$f(3) = 27 + 2(9) - 15 + 1$$
+$$
+f(3) = 27 + 2(9) - 15 + 1
+$$
 
-$$f(3) = 27 + 18 - 15 + 1$$
+$$
+f(3) = 27 + 18 - 15 + 1
+$$
 
-$$f(3) = 31$$
+$$
+f(3) = 31
+$$
 
 The remainder is 31.
 
@@ -2713,7 +2460,9 @@ D) $500 \cdot 3^{t/2}$
 The population doubles every 3 hours. After $t$ hours, the number of doubling periods is
 $\frac{t}{3}$.
 
-$$P(t) = 500 \cdot 2^{t/3}$$
+$$
+P(t) = 500 \cdot 2^{t/3}
+$$
 
 **Correct answer: C**
 
@@ -2745,13 +2494,19 @@ If $f(x) = 2x + 1$ and $g(x) = x^2 - 3$, what is $f(g(4))$?
 
 First evaluate $g(4)$:
 
-$$g(4) = 4^2 - 3 = 16 - 3 = 13$$
+$$
+g(4) = 4^2 - 3 = 16 - 3 = 13
+$$
 
 Then evaluate $f$ at this result:
 
-$$f(13) = 2(13) + 1 = 26 + 1 = 27$$
+$$
+f(13) = 2(13) + 1 = 26 + 1 = 27
+$$
 
-$$f(g(4)) = 27$$
+$$
+f(g(4)) = 27
+$$
 
 **Key concept:** Function composition -- evaluating the inner function first, then using its output
 as the input to the outer function.
@@ -2781,15 +2536,23 @@ If $x^2 + y^2 = 25$ and $x + y = 7$, what is the value of $xy$?
 
 From $x + y = 7$, square both sides:
 
-$$(x + y)^2 = x^2 + 2xy + y^2 = 49$$
+$$
+(x + y)^2 = x^2 + 2xy + y^2 = 49
+$$
 
 Substitute $x^2 + y^2 = 25$:
 
-$$25 + 2xy = 49$$
+$$
+25 + 2xy = 49
+$$
 
-$$2xy = 24$$
+$$
+2xy = 24
+$$
 
-$$xy = 12$$
+$$
+xy = 12
+$$
 
 **Key concept:** Using the identity $(x + y)^2 = x^2 + 2xy + y^2$ to solve a system of equations
 without finding $x$ and $y$ individually.
@@ -2819,17 +2582,29 @@ If $\frac{x+1}{3} + \frac{x-2}{5} = 2$, what is the value of $x$?
 
 Multiply through by the common denominator, 15:
 
-$$15 \cdot \frac{x+1}{3} + 15 \cdot \frac{x-2}{5} = 15 \cdot 2$$
+$$
+15 \cdot \frac{x+1}{3} + 15 \cdot \frac{x-2}{5} = 15 \cdot 2
+$$
 
-$$5(x + 1) + 3(x - 2) = 30$$
+$$
+5(x + 1) + 3(x - 2) = 30
+$$
 
-$$5x + 5 + 3x - 6 = 30$$
+$$
+5x + 5 + 3x - 6 = 30
+$$
 
-$$8x - 1 = 30$$
+$$
+8x - 1 = 30
+$$
 
-$$8x = 31$$
+$$
+8x = 31
+$$
 
-$$x = \frac{31}{8}$$
+$$
+x = \frac{31}{8}
+$$
 
 **Key concept:** Solving a rational equation by clearing denominators.
 
@@ -2859,11 +2634,15 @@ value of $h + k$?
 
 Complete the square:
 
-$$f(x) = x^2 - 8x + 3 = (x^2 - 8x + 16) - 16 + 3 = (x - 4)^2 - 13$$
+$$
+f(x) = x^2 - 8x + 3 = (x^2 - 8x + 16) - 16 + 3 = (x - 4)^2 - 13
+$$
 
 So $h = 4$ and $k = -13$.
 
-$$h + k = 4 + (-13) = -9$$
+$$
+h + k = 4 + (-13) = -9
+$$
 
 **Key concept:** Converting a quadratic from standard form to vertex form by completing the square.
 
@@ -2897,11 +2676,15 @@ to the sale price. What is the final price of the shirt?
 
 After the first discount:
 
-$$80 \times (1 - 0.25) = 80 \times 0.75 = 60$$
+$$
+80 \times (1 - 0.25) = 80 \times 0.75 = 60
+$$
 
 After the second discount:
 
-$$60 \times (1 - 0.10) = 60 \times 0.90 = 54$$
+$$
+60 \times (1 - 0.10) = 60 \times 0.90 = 54
+$$
 
 The final price is \$54.
 
@@ -2934,7 +2717,9 @@ approximate cost per kilometre to drive this car? (Round to the nearest cent.)
 
 Cost per kilometre = (cost per litre) ÷ (kilometres per litre)
 
-$$\frac{1.45}{12} \approx 0.1208$$
+$$
+\frac{1.45}{12} \approx 0.1208
+$$
 
 Rounded to the nearest cent: approximately \$0.12 per kilometre.
 
@@ -2965,7 +2750,9 @@ the predicted salary for someone with 8 years of experience?
 
 **Solution:**
 
-$$\hat{y} = 3.2(8) + 1.5 = 25.6 + 1.5 = 27.1$$
+$$
+\hat{y} = 3.2(8) + 1.5 = 25.6 + 1.5 = 27.1
+$$
 
 Since $\hat{y}$ is in thousands of dollars, the predicted salary is $\$27,100$.
 
@@ -3004,7 +2791,9 @@ After removing one blue marble, 14 marbles remain, 5 of which are blue.
 
 Probability the second is blue: $\frac{5}{14}$.
 
-$$P(\text{both blue}) = \frac{6}{15} \times \frac{5}{14} = \frac{2}{5} \times \frac{5}{14} = \frac{10}{70} = \frac{1}{7}$$
+$$
+P(\text{both blue}) = \frac{6}{15} \times \frac{5}{14} = \frac{2}{5} \times \frac{5}{14} = \frac{10}{70} = \frac{1}{7}
+$$
 
 **Key concept:** Probability of dependent events (without replacement). Multiply the conditional
 probabilities.
@@ -3033,13 +2822,21 @@ The five numbers $3, 7, a, 11, 15$ have a mean of 10. What is the value of $a$?
 
 **Solution:**
 
-$$\text{Mean} = \frac{3 + 7 + a + 11 + 15}{5} = 10$$
+$$
+\text{Mean} = \frac{3 + 7 + a + 11 + 15}{5} = 10
+$$
 
-$$\frac{36 + a}{5} = 10$$
+$$
+\frac{36 + a}{5} = 10
+$$
 
-$$36 + a = 50$$
+$$
+36 + a = 50
+$$
 
-$$a = 14$$
+$$
+a = 14
+$$
 
 **Key concept:** The mean is the sum of values divided by the count. Use the given mean to find the
 missing value.
@@ -3069,7 +2866,9 @@ maximum = 45. What is the interquartile range (IQR)?
 
 **Solution:**
 
-$$\text{IQR} = Q_3 - Q_1 = 32 - 18 = 14$$
+$$
+\text{IQR} = Q_3 - Q_1 = 32 - 18 = 14
+$$
 
 **Key concept:** The interquartile range measures the spread of the middle 50% of data.
 
@@ -3106,7 +2905,9 @@ What fraction of the Year 10 students prefer Science?
 
 Year 10 total = 100. Year 10 students who prefer Science = 40.
 
-$$\frac{40}{100} = \frac{2}{5}$$
+$$
+\frac{40}{100} = \frac{2}{5}
+$$
 
 **Key concept:** Reading a two-way table and computing a conditional probability/fraction from a
 specific row.
@@ -3178,7 +2979,9 @@ Angle $ABC$ is an inscribed angle that subtends the same arc $AC$.
 
 An inscribed angle is half the measure of its intercepted arc:
 
-$$\angle ABC = \frac{140°}{2} = 70°$$
+$$
+\angle ABC = \frac{140°}{2} = 70°
+$$
 
 **Key concept:** The Inscribed Angle Theorem -- an inscribed angle is half the central angle that
 subtends the same arc.
@@ -3209,7 +3012,9 @@ the measure of an angle adjacent to this one?
 
 Adjacent angles formed by intersecting lines are supplementary (they sum to $180°$).
 
-$$180° - 125° = 55°$$
+$$
+180° - 125° = 55°
+$$
 
 The adjacent angle measures $55°$.
 
@@ -3242,17 +3047,27 @@ $\sin(A)$?
 
 First find $AC$ using the Pythagorean theorem:
 
-$$AC^2 + BC^2 = AB^2$$
+$$
+AC^2 + BC^2 = AB^2
+$$
 
-$$AC^2 + 25 = 169$$
+$$
+AC^2 + 25 = 169
+$$
 
-$$AC^2 = 144$$
+$$
+AC^2 = 144
+$$
 
-$$AC = 12$$
+$$
+AC = 12
+$$
 
 For angle $A$: opposite side is $BC = 5$, hypotenuse is $AB = 13$.
 
-$$\sin(A) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{5}{13}$$
+$$
+\sin(A) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{5}{13}
+$$
 
 **Key concept:** Applying SOH CAH TOA and the Pythagorean theorem in a right triangle.
 
@@ -3283,11 +3098,17 @@ is the area of $DEF$?
 
 The ratio of areas of similar figures equals the square of the ratio of corresponding lengths.
 
-$$\frac{\text{Area of } ABC}{\text{Area of } DEF} = \left(\frac{2}{3}\right)^2 = \frac{4}{9}$$
+$$
+\frac{\text{Area of } ABC}{\text{Area of } DEF} = \left(\frac{2}{3}\right)^2 = \frac{4}{9}
+$$
 
-$$\frac{24}{\text{Area of } DEF} = \frac{4}{9}$$
+$$
+\frac{24}{\text{Area of } DEF} = \frac{4}{9}
+$$
 
-$$\text{Area of } DEF = 24 \times \frac{9}{4} = 6 \times 9 = 54$$
+$$
+\text{Area of } DEF = 24 \times \frac{9}{4} = 6 \times 9 = 54
+$$
 
 The area of $DEF$ is 54 square units.
 
@@ -3355,7 +3176,9 @@ $QR = 16$, what is the length of $MN$?
 The segment connecting the midpoints of two sides of a triangle (the midsegment) is parallel to the
 third side and half its length.
 
-$$MN = \frac{1}{2} \times QR = \frac{1}{2} \times 16 = 8$$
+$$
+MN = \frac{1}{2} \times QR = \frac{1}{2} \times 16 = 8
+$$
 
 **Key concept:** The Triangle Midsegment Theorem.
 
@@ -3385,11 +3208,15 @@ What is the sum of the interior angles of a regular octagon?
 
 Sum of interior angles of an $n$-sided polygon:
 
-$$S = (n - 2) \times 180°$$
+$$
+S = (n - 2) \times 180°
+$$
 
 For an octagon ($n = 8$):
 
-$$S = (8 - 2) \times 180° = 6 \times 180° = 1080°$$
+$$
+S = (8 - 2) \times 180° = 6 \times 180° = 1080°
+$$
 
 Each interior angle of a regular octagon: $1080° \div 8 = 135°$.
 
@@ -3423,13 +3250,19 @@ The ground, wall, and ladder form a right triangle. The ladder is the hypotenuse
 
 The distance from the wall (4 ft) is the side adjacent to the $72°$ angle.
 
-$$\cos(72°) = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{4}{L}$$
+$$
+\cos(72°) = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{4}{L}
+$$
 
-$$L = \frac{4}{\cos(72°)}$$
+$$
+L = \frac{4}{\cos(72°)}
+$$
 
 $\cos(72°) \approx 0.309$
 
-$$L = \frac{4}{0.309} \approx 12.94$$
+$$
+L = \frac{4}{0.309} \approx 12.94
+$$
 
 The ladder is approximately 13 feet long.
 
@@ -3464,13 +3297,17 @@ Complete the square for both $x$ and $y$.
 
 Group $x$ terms and $y$ terms, move the constant:
 
-$$(x^2 - 6x) + (y^2 + 8y) = 11$$
+$$
+(x^2 - 6x) + (y^2 + 8y) = 11
+$$
 
 Complete the square for $x$: $x^2 - 6x + 9 = (x - 3)^2$ (add 9 to both sides)
 
 Complete the square for $y$: $y^2 + 8y + 16 = (y + 4)^2$ (add 16 to both sides)
 
-$$(x - 3)^2 + (y + 4)^2 = 11 + 9 + 16 = 36$$
+$$
+(x - 3)^2 + (y + 4)^2 = 11 + 9 + 16 = 36
+$$
 
 This gives centre $(3, -4)$ and radius $r = \sqrt{36} = 6$.
 
@@ -3521,9 +3358,6 @@ The most effective approach to these problems is:
    patterns.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -4200,9 +4034,6 @@ text. Eliminate distractors by identifying choices that are unsupported, irrelev
 by the passage.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -5328,12 +5159,16 @@ two).
 
 ### Content Domains
 
+<div class="table-wrap">
+
 | Domain                           | Approximate Weight | Question Count |
 | -------------------------------- | ------------------ | -------------- |
 | **Information and Ideas**        | ~26%               | 12-14          |
 | **Craft and Structure**          | ~28%               | 13-15          |
 | **Standard English Conventions** | ~26%               | 12-14          |
 | **Expression of Ideas**          | ~20%               | 11-13          |
+
+</div>
 
 ---
 
@@ -5525,6 +5360,8 @@ The digital SAT tests grammar through passage-based questions rather than isolat
 
 Transition words signal the logical relationship between ideas. Common categories:
 
+<div class="table-wrap">
+
 | Relationship | Transitions                                          |
 | ------------ | ---------------------------------------------------- |
 | Addition     | furthermore, moreover, additionally, also            |
@@ -5533,6 +5370,8 @@ Transition words signal the logical relationship between ideas. Common categorie
 | Emphasis     | indeed, in fact, notably, significantly              |
 | Sequence     | first, subsequently, finally, meanwhile              |
 | Example      | for instance, specifically, such as                  |
+
+</div>
 
 **Strategy for transition questions:**
 
@@ -5599,6 +5438,8 @@ Identifying the main idea requires distinguishing between:
 
 The SAT tests your ability to identify rhetorical strategies:
 
+<div class="table-wrap">
+
 | Strategy                | Purpose                         | Example Signal                         |
 | ----------------------- | ------------------------------- | -------------------------------------- |
 | **Analogy**             | Clarify a concept by comparison | "like," "similar to," "just as"        |
@@ -5607,6 +5448,8 @@ The SAT tests your ability to identify rhetorical strategies:
 | **Appeal to authority** | Persuade through expertise      | Citations, expert testimony            |
 | **Repetition**          | Emphasise a point               | Repeated words or phrases              |
 | **Contrast**            | Highlight differences           | "whereas," "unlike," "on the contrary" |
+
+</div>
 
 ---
 
@@ -5658,17 +5501,6 @@ The SAT tests your ability to identify rhetorical strategies:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Reading And Writing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The Reading & Writing section tests four core domains: Information and Ideas, Craft and Structure,
@@ -5694,9 +5526,6 @@ answer is grounded in the text.
 SAT Reading and Writing tests your ability to understand, analyze, and communicate ideas evidently. Reading is not about speed but about precision: you must identify the author's purpose, tone, and argument structure. Writing questions test whether you can improve clarity and correctness, like an editor who cuts unnecessary words and fixes grammatical errors. The best approach is to read actively, asking yourself "what is the author trying to say?" rather than passively absorbing words.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -5742,17 +5571,27 @@ many generations (rounds of cell division) occurred during this period?
 
 The number of cells after $n$ generations is given by:
 
-$$N = N_0 \times 2^n$$
+$$
+N = N_0 \times 2^n
+$$
 
 where $N_0 = 320$ and $N = 1280$.
 
-$$1280 = 320 \times 2^n$$
+$$
+1280 = 320 \times 2^n
+$$
 
-$$\frac{1280}{320} = 2^n$$
+$$
+\frac{1280}{320} = 2^n
+$$
 
-$$4 = 2^n$$
+$$
+4 = 2^n
+$$
 
-$$n = 2$$
+$$
+n = 2
+$$
 
 **Answer:** 2 generations occurred during the 6-hour period.
 
@@ -5777,10 +5616,14 @@ is dominant over white ($r$). A heterozygous plant ($Rr$) is crossed with a homo
 
 Punnett square for the cross $Rr \times rr$:
 
+<div class="table-wrap">
+
 |       | **r** | **r** |
 | ----- | ----- | ----- |
 | **R** | Rr    | Rr    |
 | **r** | rr    | rr    |
+
+</div>
 
 Genotypic ratio: 2 $Rr$ : 2 $rr$ (i.e. 1:1)
 
@@ -5805,6 +5648,8 @@ $rr$ displays the recessive white phenotype.
 An enzyme-catalysed reaction is studied at different substrate concentrations. The initial reaction
 rate is measured and the following data obtained:
 
+<div class="table-wrap">
+
 | [S] (mmol/L) | Rate (μmol/min) |
 | ------------ | --------------- |
 | 0.5          | 8.3             |
@@ -5813,6 +5658,8 @@ rate is measured and the following data obtained:
 | 5.0          | 33.3            |
 | 10.0         | 40.0            |
 
+</div>
+
 The maximum reaction rate ($V_{\max}$) is known to be 50 μmol/min. What is the Michaelis constant
 ($K_m$) for this enzyme?
 
@@ -5820,19 +5667,31 @@ The maximum reaction rate ($V_{\max}$) is known to be 50 μmol/min. What is the 
 
 Using the Michaelis-Menten equation:
 
-$$v = \frac{V_{\max} [S]}{K_m + [S]}$$
+$$
+v = \frac{V_{\max} [S]}{K_m + [S]}
+$$
 
 Using the data point where $[S] = 1.0$ mmol/L and $v = 14.3$ μmol/min:
 
-$$14.3 = \frac{50 \times 1.0}{K_m + 1.0}$$
+$$
+14.3 = \frac{50 \times 1.0}{K_m + 1.0}
+$$
 
-$$14.3(K_m + 1.0) = 50$$
+$$
+14.3(K_m + 1.0) = 50
+$$
 
-$$14.3K_m + 14.3 = 50$$
+$$
+14.3K_m + 14.3 = 50
+$$
 
-$$14.3K_m = 35.7$$
+$$
+14.3K_m = 35.7
+$$
 
-$$K_m \approx 2.50 \text{ mmol/L}$$
+$$
+K_m \approx 2.50 \text{ mmol/L}
+$$
 
 **Answer:** $K_m \approx 2.5$ mmol/L
 
@@ -5860,19 +5719,27 @@ Given: M(NaOH) = 40.0 g/mol, M(NaCl) = 58.5 g/mol
 
 Balanced equation:
 
-$$\text{NaOH} + \text{HCl} \rightarrow \text{NaCl} + \text{H}_2\text{O}$$
+$$
+\text{NaOH} + \text{HCl} \rightarrow \text{NaCl} + \text{H}_2\text{O}
+$$
 
 Moles of NaOH:
 
-$$n = \frac{25.0}{40.0} = 0.625 \text{ mol}$$
+$$
+n = \frac{25.0}{40.0} = 0.625 \text{ mol}
+$$
 
 The stoichiometric ratio NaOH : NaCl is 1:1, so:
 
-$$n(\text{NaCl}) = 0.625 \text{ mol}$$
+$$
+n(\text{NaCl}) = 0.625 \text{ mol}
+$$
 
 Mass of NaCl:
 
-$$m = 0.625 \times 58.5 = 36.6 \text{ g}$$
+$$
+m = 0.625 \times 58.5 = 36.6 \text{ g}
+$$
 
 **Answer:** 36.6 g of NaCl
 
@@ -5896,13 +5763,19 @@ pressure is increased to 3.00 atm and the temperature is raised to 450 K, what i
 
 Using the combined gas law:
 
-$$\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}$$
+$$
+\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}
+$$
 
 Solving for $V_2$:
 
-$$V_2 = \frac{P_1 V_1 T_2}{P_2 T_1} = \frac{1.50 \times 2.00 \times 450}{3.00 \times 300}$$
+$$
+V_2 = \frac{P_1 V_1 T_2}{P_2 T_1} = \frac{1.50 \times 2.00 \times 450}{3.00 \times 300}
+$$
 
-$$V_2 = \frac{1350}{900} = 1.50 \text{ L}$$
+$$
+V_2 = \frac{1350}{900} = 1.50 \text{ L}
+$$
 
 **Answer:** 1.50 L
 
@@ -5927,17 +5800,25 @@ Given: M(NaOH) = 40.0 g/mol
 
 Moles of NaOH:
 
-$$n = \frac{0.20}{40.0} = 0.0050 \text{ mol}$$
+$$
+n = \frac{0.20}{40.0} = 0.0050 \text{ mol}
+$$
 
 Concentration of NaOH:
 
-$$[\text{NaOH}] = \frac{0.0050}{0.500} = 0.010 \text{ mol/L}$$
+$$
+[\text{NaOH}] = \frac{0.0050}{0.500} = 0.010 \text{ mol/L}
+$$
 
 Since NaOH is a strong base, $[\text{OH}^-] = 0.010$ mol/L.
 
-$$\text{pOH} = -\log_{10}(0.010) = 2.00$$
+$$
+\text{pOH} = -\log_{10}(0.010) = 2.00
+$$
 
-$$\text{pH} = 14.00 - \text{pOH} = 14.00 - 2.00 = 12.00$$
+$$
+\text{pH} = 14.00 - \text{pOH} = 14.00 - 2.00 = 12.00
+$$
 
 **Answer:** pH = 12.00
 
@@ -5963,7 +5844,9 @@ during this time?
 
 Using the kinematic equation (starting from rest, $u = 0$):
 
-$$s = ut + \frac{1}{2}at^2 = 0 + \frac{1}{2}(3.0)(8.0)^2 = \frac{1}{2}(3.0)(64) = 96 \text{ m}$$
+$$
+s = ut + \frac{1}{2}at^2 = 0 + \frac{1}{2}(3.0)(8.0)^2 = \frac{1}{2}(3.0)(64) = 96 \text{ m}
+$$
 
 **Answer:** 96 m
 
@@ -5990,15 +5873,23 @@ Given: $g = 9.8$ m/s²
 
 Net force:
 
-$$F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}}$$
+$$
+F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}}
+$$
 
-$$F_{\text{friction}} = \mu_k N = \mu_k mg = 0.30 \times 5.0 \times 9.8 = 14.7 \text{ N}$$
+$$
+F_{\text{friction}} = \mu_k N = \mu_k mg = 0.30 \times 5.0 \times 9.8 = 14.7 \text{ N}
+$$
 
-$$F_{\text{net}} = 20 - 14.7 = 5.3 \text{ N}$$
+$$
+F_{\text{net}} = 20 - 14.7 = 5.3 \text{ N}
+$$
 
 Acceleration:
 
-$$a = \frac{F_{\text{net}}}{m} = \frac{5.3}{5.0} = 1.06 \text{ m/s}^2$$
+$$
+a = \frac{F_{\text{net}}}{m} = \frac{5.3}{5.0} = 1.06 \text{ m/s}^2
+$$
 
 **Answer:** $a \approx 1.1$ m/s²
 
@@ -6022,17 +5913,25 @@ battery. What is the total power dissipated by the circuit?
 
 Equivalent resistance in parallel:
 
-$$\frac{1}{R_{\text{eq}}} = \frac{1}{12} + \frac{1}{6} = \frac{1}{12} + \frac{2}{12} = \frac{3}{12} = \frac{1}{4}$$
+$$
+\frac{1}{R_{\text{eq}}} = \frac{1}{12} + \frac{1}{6} = \frac{1}{12} + \frac{2}{12} = \frac{3}{12} = \frac{1}{4}
+$$
 
-$$R_{\text{eq}} = 4\,\Omega$$
+$$
+R_{\text{eq}} = 4\,\Omega
+$$
 
 Total current:
 
-$$I = \frac{V}{R_{\text{eq}}} = \frac{12}{4} = 3 \text{ A}$$
+$$
+I = \frac{V}{R_{\text{eq}}} = \frac{12}{4} = 3 \text{ A}
+$$
 
 Total power:
 
-$$P = VI = 12 \times 3 = 36 \text{ W}$$
+$$
+P = VI = 12 \times 3 = 36 \text{ W}
+$$
 
 **Answer:** 36 W
 
@@ -6053,9 +5952,13 @@ A sound wave has a frequency of 440 Hz and travels at 343 m/s in air. What is it
 
 **Solution:**
 
-$$v = f\lambda$$
+$$
+v = f\lambda
+$$
 
-$$\lambda = \frac{v}{f} = \frac{343}{440} = 0.780 \text{ m}$$
+$$
+\lambda = \frac{v}{f} = \frac{343}{440} = 0.780 \text{ m}
+$$
 
 **Answer:** 0.780 m
 
@@ -6083,11 +5986,15 @@ of the ridge be after 1 million years?
 Each point moves away from the ridge at 2.5 cm/year. Since they are on opposite sides, the total
 separation rate is:
 
-$$2 \times 2.5 = 5.0 \text{ cm/year}$$
+$$
+2 \times 2.5 = 5.0 \text{ cm/year}
+$$
 
 Over 1 million years:
 
-$$d = 5.0 \times 10^6 \text{ cm} = 50 \text{ km}$$
+$$
+d = 5.0 \times 10^6 \text{ cm} = 50 \text{ km}
+$$
 
 **Answer:** 50 km
 
@@ -6111,9 +6018,11 @@ volume was 2.00 m³?
 
 **Solution:**
 
-Using Boyle"s Law ($P_1 V_1 = P_2 V_2$):
+Using Boyle's Law ($P_1 V_1 = P_2 V_2$):
 
-$$V_2 = \frac{P_1 V_1}{P_2} = \frac{101.3 \times 2.00}{50.7} = 4.00 \text{ m}^3$$
+$$
+V_2 = \frac{P_1 V_1}{P_2} = \frac{101.3 \times 2.00}{50.7} = 4.00 \text{ m}^3
+$$
 
 **Answer:** 4.00 m³
 
@@ -6134,6 +6043,8 @@ $$V_2 = \frac{P_1 V_1}{P_2} = \frac{101.3 \times 2.00}{50.7} = 4.00 \text{ m}^3$
 
 A scientist measures the growth rate of bacteria at different temperatures:
 
+<div class="table-wrap">
+
 | Temperature (°C) | Growth Rate (divisions/hr) |
 | ---------------- | -------------------------- |
 | 10               | 0.5                        |
@@ -6142,6 +6053,8 @@ A scientist measures the growth rate of bacteria at different temperatures:
 | 37               | 8.0                        |
 | 40               | 7.0                        |
 | 50               | 1.0                        |
+
+</div>
 
 At what temperature does the maximum growth rate occur, and what is the approximate percentage
 decrease in growth rate when the temperature increases from 37°C to 40°C?
@@ -6152,7 +6065,9 @@ The maximum growth rate of 8.0 divisions/hr occurs at **37°C**.
 
 Percentage decrease from 37°C to 40°C:
 
-$$\text{Percentage decrease} = \frac{8.0 - 7.0}{8.0} \times 100\% = \frac{1.0}{8.0} \times 100\% = 12.5\%$$
+$$
+\text{Percentage decrease} = \frac{8.0 - 7.0}{8.0} \times 100\% = \frac{1.0}{8.0} \times 100\% = 12.5\%
+$$
 
 **Answer:** Maximum growth at 37°C; approximately 12.5% decrease from 37°C to 40°C.
 
@@ -6171,6 +6086,8 @@ $$\text{Percentage decrease} = \frac{8.0 - 7.0}{8.0} \times 100\% = \frac{1.0}{8
 
 A ball is dropped from a height and its velocity is recorded over time:
 
+<div class="table-wrap">
+
 | Time (s) | Velocity (m/s) |
 | -------- | -------------- |
 | 0        | 0              |
@@ -6179,20 +6096,26 @@ A ball is dropped from a height and its velocity is recorded over time:
 | 3        | 29.4           |
 | 4        | 39.2           |
 
+</div>
+
 What is the acceleration of the ball, and how far does it fall in the first 3 seconds?
 
 **Solution:**
 
 The acceleration is the slope of the velocity–time graph:
 
-$$a = \frac{\Delta v}{\Delta t} = \frac{9.8 - 0}{1 - 0} = 9.8 \text{ m/s}^2$$
+$$
+a = \frac{\Delta v}{\Delta t} = \frac{9.8 - 0}{1 - 0} = 9.8 \text{ m/s}^2
+$$
 
 (Checking: $\frac{39.2}{4} = 9.8$, consistent throughout.)
 
 Distance in the first 3 seconds (area under the velocity–time graph, or using
 $s = \frac{1}{2}at^2$):
 
-$$s = \frac{1}{2}(9.8)(3)^2 = \frac{1}{2}(9.8)(9) = 44.1 \text{ m}$$
+$$
+s = \frac{1}{2}(9.8)(3)^2 = \frac{1}{2}(9.8)(9) = 44.1 \text{ m}
+$$
 
 **Answer:** Acceleration = 9.8 m/s²; distance = 44.1 m in the first 3 seconds.
 
@@ -6216,6 +6139,8 @@ in aquatic plants. She places identical plants in identical containers of water 
 distance of a lamp from each container. She measures the rate of oxygen bubble production over 10
 minutes.
 
+<div class="table-wrap">
+
 | Distance from lamp (cm) | Bubbles per minute |
 | ----------------------- | ------------------ |
 | 10                      | 28                 |
@@ -6223,6 +6148,8 @@ minutes.
 | 30                      | 14                 |
 | 40                      | 8                  |
 | 50                      | 5                  |
+
+</div>
 
 (a) Identify the independent and dependent variables. (b) As the distance doubles from 20 cm to 40
 cm, the bubble rate approximately halves. Which law or relationship does this follow? (c) What is a
@@ -6286,17 +6213,6 @@ D indicates the river has sufficient self-purification capacity.
 - **Describing data without using numbers.** Vague descriptions like "the value increases" are
   insufficient. Reference specific data points to support claims.
 
-
-```mermaid
-flowchart TD
-    A[Science Question Bank] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The SAT science question bank covers experimental design (identifying variables, evaluating methods,
@@ -6308,10 +6224,14 @@ terminology, reference to specific data points, and understanding of experimenta
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                   | Link                                                 |
 | ----------------------- | ---------------------------------------------------- |
 | SAT Advanced Strategies | [View](/advanced-strategies/) |
 | SAT Math Strategies     | View     |
+
+</div>
 
 ## Mathematics
 
@@ -6329,17 +6249,6 @@ URL: https://sat.wyattau.com/mathematics/algebra/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Algebra
 
 SAT mathematics study notes - Algebra
@@ -6355,6 +6264,8 @@ SAT mathematics study notes - Algebra
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Topic | Formula | When to Use |
 | ------- | --------- | ------------- |
 | Slope | $m = \frac{y_2 - y_1}{x_2 - x_1}$ | Finding rate of change between two points |
@@ -6363,6 +6274,8 @@ SAT mathematics study notes - Algebra
 | Vertex Form | $y = a(x-h)^2 + k$ | Identifying vertex $(h, k)$ of parabola |
 | Distance | $d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$ | Distance between two points |
 | Midpoint | $M = \left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$ | Finding the centre of a line segment |
+
+</div>
 
 ## Worked Examples
 
@@ -6467,48 +6380,6 @@ Algebra is the art of solving mysteries by letting unknowns represent clues. Whe
 - [Data Analysis](/mathematics/data-analysis/) -- Statistical formulas and linear models use algebraic manipulation to calculate means, slopes, and correlations.
 - [Reading Comprehension](/reading/comprehension/) -- Interpreting graphs and tables in reading passages requires algebraic reasoning.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Data Analysis
@@ -6522,17 +6393,6 @@ URL: https://sat.wyattau.com/mathematics/data-analysis/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Data Analysis", "url": "https://sat.wyattau.com/mathematics/data-analysis"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Data Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Data analysis
 
@@ -6550,6 +6410,8 @@ SAT mathematics study notes - Data analysis
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Measure | Formula | Example |
 | --------- | --------- | --------- |
 | Mean | $\bar{x} = \frac{\sum x_i}{n}$ | Values 2,4,6: mean = 4 |
@@ -6558,6 +6420,8 @@ SAT mathematics study notes - Data analysis
 | Probability | $P(A) = \frac{\text{favourable}}{\text{total}}$ | 3 red out of 10: $P(\text{red}) = 0.3$ |
 | Independent events | $P(A \cap B) = P(A) \cdot P(B)$ | $P(\text{heads}) \cdot P(\text{heads}) = 0.25$ |
 | Mutually exclusive | $P(A \cup B) = P(A) + P(B)$ | $P(1) + P(2) = \frac{1}{6} + \frac{1}{6} = \frac{1}{3}$ |
+
+</div>
 
 ## Worked Examples
 
@@ -6645,69 +6509,6 @@ Data analysis is the art of finding signal in noise. A dataset is like a crowd o
 - [Geometry](/mathematics/geometry/) -- Probability and data interpretation questions may involve geometric representations such as scatterplots.
 - [Writing Language](/writing/language/) -- Interpreting data in evidence-based writing requires understanding of statistics and data presentation.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Geometry
@@ -6721,17 +6522,6 @@ URL: https://sat.wyattau.com/mathematics/geometry/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Geometry", "url": "https://sat.wyattau.com/mathematics/geometry"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Geometry
 
@@ -6749,6 +6539,8 @@ SAT mathematics study notes - Geometry
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Shape | Area | Perimeter/Circumference |
 | ------- | ------ | ------------------------ |
 | Triangle | $\frac{1}{2}bh$ | $a + b + c$ |
@@ -6756,11 +6548,17 @@ SAT mathematics study notes - Geometry
 | Circle | $\pi r^2$ | $2\pi r$ |
 | Trapezoid | $\frac{1}{2}(b_1 + b_2)h$ | sum of all sides |
 
+</div>
+
+<div class="table-wrap">
+
 | Solid | Volume | Surface Area |
 | ------- | -------- | ------------- |
 | Rectangular prism | $lwh$ | $2(lw + lh + wh)$ |
 | Cylinder | $\pi r^2 h$ | $2\pi r^2 + 2\pi rh$ |
 | Sphere | $\frac{4}{3}\pi r^3$ | $4\pi r^2$ |
+
+</div>
 
 ## Worked Examples
 
@@ -6849,69 +6647,6 @@ Geometry is the language of shapes and space. Angles are the conversation betwee
 - [Data Analysis](/mathematics/data-analysis/) -- Area and volume calculations appear in data interpretation questions involving real-world contexts.
 - [Reading Comprehension](/reading/comprehension/) -- Visual information in passages such as maps and diagrams requires geometric reasoning.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Index
@@ -6960,18 +6695,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -6994,17 +6717,6 @@ URL: https://sat.wyattau.com/reading/comprehension/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Comprehension] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Comprehension
 
 SAT reading study notes - Comprehension
@@ -7020,6 +6732,8 @@ SAT reading study notes - Comprehension
 
 ## Question Type Strategy
 
+<div class="table-wrap">
+
 | Question Type | Signal Words | Strategy |
 | --------------- | ------------- | ---------- |
 | Main idea | "primary purpose", "central claim" | Find the thesis; check first/last paragraph |
@@ -7028,6 +6742,8 @@ SAT reading study notes - Comprehension
 | Purpose | "the author includes X to" | Ask why that detail serves the argument |
 | Tone | "the author's attitude" | Look at word choice (connotations) |
 | Vocabulary | "as used in line X", "most nearly means" | Replace the word in context; test each option |
+
+</div>
 
 ## Worked Examples
 
@@ -7114,69 +6830,6 @@ Reading comprehension is like being a detective at a crime scene, every sentence
 - [Writing Essay](/writing/essay/) -- Evidence-based essay writing draws on the same analytical skills used in reading comprehension.
 - [Algebra](/mathematics/algebra/) -- Interpreting data and graphs in passages requires algebraic reasoning about trends and relationships.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Grammar
@@ -7190,17 +6843,6 @@ URL: https://sat.wyattau.com/reading/grammar/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Grammar", "url": "https://sat.wyattau.com/reading/grammar"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Grammar] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Grammar
 
@@ -7217,6 +6859,8 @@ SAT reading study notes - Grammar
 
 ## Quick Reference: Punctuation Rules
 
+<div class="table-wrap">
+
 | Punctuation | Use | Example |
 | ------------ | ----- | --------- |
 | Comma | List items | "apples, bananas, and cherries" |
@@ -7226,6 +6870,8 @@ SAT reading study notes - Grammar
 | Colon | Introduce a list or explanation | "You need three things: time, money, and effort" |
 | Apostrophe | Possession | "the teacher's desk" |
 | Apostrophe | Contraction | "don't" = "do not" |
+
+</div>
 
 ## Worked Examples
 
@@ -7311,69 +6957,6 @@ Grammar is the infrastructure of communication, like the electrical wiring in a 
 - [Writing Language](/writing/language/) -- The writing and language section tests the same grammar concepts applied to editing and revising passages.
 - [Writing Essay](/writing/essay/) -- Correct grammar usage is essential for constructing clear and effective evidence-based essays.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## Writing
 
 ---
@@ -7389,17 +6972,6 @@ URL: https://sat.wyattau.com/writing/essay/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Essay", "url": "https://sat.wyattau.com/writing/essay"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Essay] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Essay
 
@@ -7417,6 +6989,8 @@ SAT writing study notes - Essay
 
 ## Essay Template
 
+<div class="table-wrap">
+
 | Section | Content | Time |
 | --------- | --------- | ------ |
 | Introduction | Hook + context + thesis statement | 5 min |
@@ -7425,6 +6999,8 @@ SAT writing study notes - Essay
 | Body ¶3 | Third argument OR counterargument + rebuttal | 8 min |
 | Conclusion | Restate thesis + broader significance | 4 min |
 | Revision | Check flow, grammar, clarity | 7 min |
+
+</div>
 
 ## Worked Examples
 
@@ -7510,69 +7086,6 @@ The SAT essay is an argument about an argument, you are analysing how the author
 - [Reading Comprehension](/reading/comprehension/) -- Analysing evidence in reading passages provides practice for constructing evidence-based arguments in essays.
 - [Data Analysis](/mathematics/data-analysis/) -- Using data and statistics as evidence in essays requires understanding of data interpretation.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Language
@@ -7586,17 +7099,6 @@ URL: https://sat.wyattau.com/writing/language/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Language", "url": "https://sat.wyattau.com/writing/language"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Language] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Language
 
@@ -7614,6 +7116,8 @@ SAT writing study notes - Language
 
 ## Key Rules
 
+<div class="table-wrap">
+
 | Rule | Incorrect | Correct |
 | ------ | ----------- | --------- |
 | Subject-verb agreement | "The group of students **were** late" | "The group of students **was** late" |
@@ -7621,6 +7125,8 @@ SAT writing study notes - Language
 | Modifier placement | "**Walking to school**, the rain started" | "**Walking to school**, I noticed the rain started" |
 | Conciseness | "Due to the fact that" | "Because" |
 | Comma splice | "It was late**,** we went home" | "It was late**;** we went home" |
+
+</div>
 
 ## Worked Examples
 
@@ -7705,66 +7211,3 @@ Language conventions are the traffic rules of writing, they keep communication f
 - [Grammar](/reading/grammar/) -- The language section tests grammar rules including subject-verb agreement, pronoun clarity, and punctuation.
 - [Essay](/writing/essay/) -- Editing and revising skills transfer directly to constructing well-organised evidence-based essays.
 - [Comprehension](/reading/comprehension/) -- Understanding passage meaning is essential for making effective rhetorical revisions.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

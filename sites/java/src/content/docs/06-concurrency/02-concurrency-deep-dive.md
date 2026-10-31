@@ -201,7 +201,7 @@ public class Point {
 }
 ```
 
-`StampedLock` is not reentrant. Each call to `writeLock``readLock`Or `tryOptimisticRead` returns A
+`StampedLock` is not reentrant. Each call to `writeLock`, `readLock` or `tryOptimisticRead` returns A
 `long` stamp that must be used to unlock. This is a deliberate design choice, the lack of
 Reentrancy prevents certain deadlock patterns and allows the optimistic read mechanism.
 
@@ -271,7 +271,7 @@ Condition queues are FIFO; a non-fair lock's condition queues may allow barging.
 
 ## Atomic Operations
 
-### `AtomicInteger``AtomicLong``AtomicReference`
+### `AtomicInteger`, `AtomicLong`, `AtomicReference`
 
 The atomic classes use CPU-level compare-and-swap (CAS) instructions to provide lock-free,
 Thread-safe operations on single variables.
@@ -314,8 +314,8 @@ int old = counter.getAndAccumulate(5, Integer::sum);
 ### `AtomicStampedReference`
 
 `AtomicReference` cannot detect the ABA problem: a thread reads value A, another thread changes it
-To B then back to A, and the first thread's CAS succeeds despite the value having been changed in
-Between. `AtomicStampedReference` adds a version stamp to detect this.
+to B then back to A, and the first thread's CAS succeeds despite the value having been changed in
+between. `AtomicStampedReference` adds a version stamp to detect this.
 
 ```java
 AtomicStampedReference<String> ref = new AtomicStampedReference<>("initial", 0);
@@ -332,7 +332,7 @@ boolean success = ref.compareAndSet("initial", "updated", stamp, stamp + 1);
 
 For high-contention counters where `AtomicLong` becomes a bottleneck due to CAS contention,
 `LongAdder` distributes increments across an array of cells and sums them on read. Write contention
-Is eliminated; read requires summing all cells.
+is eliminated; read requires summing all cells.
 
 ```java
 // AtomicLong, single variable, CAS contention under high contention
@@ -473,7 +473,7 @@ Task peek = queue.peek(); // null if empty
 ### `CopyOnWriteArrayList`
 
 Every write operation (add, set, remove) creates a fresh copy of the underlying array. Reads proceed
-Without locking against the current array snapshot. This makes reads extremely fast and writes
+without locking against the current array snapshot. This makes reads extremely fast and writes
 Expensive. Ideal for read-heavy workloads with infrequent writes (listener lists, configuration).
 
 ```java
@@ -495,7 +495,9 @@ Iterator operates on a snapshot and does not reflect modifications made during i
 ### Blocking Queues
 
 Blocking queues are designed for producer-consumer patterns. `put` blocks when full, `take` blocks
-When empty.
+when empty.
+
+<div class="table-wrap">
 
 | Implementation          | Bounded        | Ordering                         | Notes                        |
 | ----------------------- | -------------- | -------------------------------- | ---------------------------- |
@@ -504,6 +506,8 @@ When empty.
 | `PriorityBlockingQueue` | No (unbounded) | Priority (natural or Comparator) | Never blocks on put          |
 | `SynchronousQueue`      | Zero capacity  | None                             | Handoff, put waits for take |
 | `DelayQueue`            | Unbounded      | By delay time                    | Elements implement `Delayed` |
+
+</div>
 
 ```java
 // Producer-consumer with LinkedBlockingQueue
@@ -530,7 +534,7 @@ consumers.submit(() -&gt; {
 
 **`SynchronousQueue`** has zero capacity, each `put` must wait for a matching `take` and vice
 Versa. It is used by `Executors.newCachedThreadPool()` to hand off tasks directly to worker threads
-Without buffering.
+without buffering.
 
 ## ForkJoin Framework
 
@@ -652,7 +656,7 @@ public class UserIdContext {
 ### Memory Leak Pitfalls
 
 `ThreadLocal` values are stored in each thread's `ThreadLocalMap`. If a thread is long-lived (e.g.,
-A web server worker thread in a thread pool), and you do not call `remove()`The value will remain In
+A web server worker thread in a thread pool), and you do not call `remove()`. The value will remain In
 memory for the lifetime of the thread. This is the most common `ThreadLocal` leak.
 
 ```java
@@ -762,7 +766,7 @@ for (int i = 0; i &lt; 10_000; i++) {
 
 `virtualPool.close(); // waits for all tasks`
 
-Virtual threads can use `synchronized`But it pins the carrier thread (the underlying platform
+Virtual threads can use `synchronized`. But it pins the carrier thread (the underlying platform
 Thread) for the duration of the synchronized block. If many virtual threads are pinned
 Simultaneously, the carrier thread pool can be exhausted. Use `ReentrantLock` instead of
 `synchronized` in code that will run on virtual threads.
@@ -880,16 +884,6 @@ Same pool. If the pool is fully utilized, all threads will be blocked waiting, a
 Available to execute the inner tasks. This is called thread pool deadlock or starvation.
 :::
 
-```mermaid
-flowchart TD
-    A[02 Concurrency Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of concurrency deep dive, including underlying theory, practical
@@ -903,13 +897,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

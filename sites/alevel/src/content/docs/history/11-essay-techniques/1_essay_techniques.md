@@ -151,12 +151,16 @@ was important in the short term, Y had more lasting consequences."
 
 A-Level essays require 30-40 minutes (AQA, Edexcel, OCR, and WJEC all set papers of comparable length).
 
+<div class="table-wrap">
+
 | Section | Time | Task |
 | ------------------- | --------- | ------------------------------------------------- |
 | Reading and planning | 5 minutes | Identify question type; note evidence; outline argument |
 | Introduction | 3-5 minutes | State thesis; define key terms; outline structure |
 | Main paragraphs | 20-25 minutes | 3-4 PEEL paragraphs with evidence and analysis |
 | Conclusion | 3-5 minutes | Directly answer the question; final judgement |
+
+</div>
 
 **Planning technique**: Before writing, spend 3-5 minutes identifying the question type, stating
 your thesis in one sentence, noting 3-4 main points with key evidence, and noting counter-arguments.
@@ -195,7 +199,7 @@ far do you agree?
 
 **Introduction**: The English Reformation was driven primarily by Henry VIII's dynastic and
 political needs, his desire to annul his marriage and assert royal supremacy. However, the
-Reformation also had genuine theological dimensions: Protestant doctrine developed under Thomas
+reformation also had genuine theological dimensions: Protestant doctrine developed under Thomas
 Cranmer, the Book of Common Prayer was established, and evangelical preaching ensured the break
 with Rome produced lasting religious change. On balance, the initial break was political, but the
 subsequent development was increasingly theological.
@@ -207,22 +211,11 @@ do you agree?
 
 **Conclusion**: The alliance system was the most significant structural cause because it created
 the framework for a regional crisis to become a general conflict. Without the Triple Alliance and
-Triple Entente, Austria's dispute with Serbia might have remained localised. However, the system
+triple Entente, Austria's dispute with Serbia might have remained localised. However, the system
 was not inherently war-making, it became dangerous because of imperial rivalry, nationalist
 agitation, the arms race, and specific leaders' decisions. The most accurate interpretation is
 that the alliance system was the most significant enabling condition, but the war resulted from
 multiple causes, none individually sufficient.
-
-
-```mermaid
-flowchart TD
-    A[1_Essay_Techniques] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

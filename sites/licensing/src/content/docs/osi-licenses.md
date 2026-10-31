@@ -30,12 +30,16 @@ requires that the license comply with the Open Source Definition: free redistrib
 source code, allowance for modifications, no discrimination against persons or fields of endeavor,
 and no restriction on other software distributed alongside the licensed code.
 
+<div class="table-wrap">
+
 | Category         | Mechanism                       | Examples                  |
 | ---------------- | ------------------------------- | ------------------------- |
 | Permissive       | Attribution only                | MIT, Apache 2.0, BSD, ISC |
 | Weak copyleft    | Same license for modified files | LGPL v3, MPL 2.0          |
 | Strong copyleft  | Same license for the whole work | GPL v3                    |
 | Network copyleft | Extends strong copyleft to SaaS | AGPL v3                   |
+
+</div>
 
 The practical difference matters most when you combine code from multiple projects. Permissive code
 can be incorporated into proprietary software. Copyleft code forces openness. The wrong choice of
@@ -92,7 +96,7 @@ same code. Apache 2.0 prevents this.
 
 Apache 2.0 requires that derivative works preserve a NOTICE file if the original work includes one.
 The NOTICE file contains additional attribution, names of contributors, copyright holders, and
-specific attribution notices. This is more burdensome than MIT"s single requirement.
+specific attribution notices. This is more burdensome than MIT's single requirement.
 
 ### Notable Projects
 
@@ -275,6 +279,8 @@ License compatibility determines which licenses can be combined in a single proj
 include code under different licenses, the result must satisfy all license requirements
 simultaneously. Some combinations are impossible.
 
+<div class="table-wrap">
+
 | Downstream \ Dependency | MIT | Apache 2.0 | BSD | LGPL v3 | MPL 2.0 | GPL v3 | AGPL v3 |
 | ----------------------- | --- | ---------- | --- | ------- | ------- | ------ | ------- |
 | **Proprietary**         | Yes | Yes        | Yes | Yes¹    | Yes²    | No     | No      |
@@ -282,6 +288,8 @@ simultaneously. Some combinations are impossible.
 | **Apache 2.0**          | Yes | Yes        | Yes | No³     | No³     | No     | No      |
 | **GPL v3**              | Yes | No³        | Yes | Yes     | Yes⁴    | Yes    | Yes     |
 | **AGPL v3**             | Yes | No³        | Yes | Yes     | Yes⁴    | Yes    | Yes     |
+
+</div>
 
 ¹ Via dynamic linking only; static linking may trigger copyleft. ² MPL copyleft applies only to
 modified MPL files; the larger work can be proprietary. ³ Apache 2.0 and GPL v3 are incompatible in
@@ -314,6 +322,8 @@ LGPL v3
 
 ### Common Scenarios
 
+<div class="table-wrap">
+
 | Scenario                                        | Recommended License |
 | ----------------------------------------------- | ------------------- |
 | Developer tool or CLI utility                   | MIT or Apache 2.0   |
@@ -323,6 +333,8 @@ LGPL v3
 | Standalone application, free software ideology  | GPL v3              |
 | Web service / SaaS, want to prevent enclosure   | AGPL v3             |
 | Corporate open-source project                   | Apache 2.0          |
+
+</div>
 
 ### One License Per File
 
@@ -377,17 +389,6 @@ not to.
 
 **The key insight:** Copyleft licences (GPL) require derivative works to use the same licence, while permissive licences (MIT, Apache) allow proprietary use, this fundamental distinction shapes the open source ecosystem.
 
-
-```mermaid
-flowchart TD
-    A[Osi Licenses] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Open source licenses exist on a spectrum from permissive (MIT, Apache, BSD, ISC) to copyleft (LGPL,
@@ -402,9 +403,6 @@ file.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for licensing notes.
@@ -412,15 +410,9 @@ linked above.
 
 ## Detailed Explanation
 
-This topic covers the fundamental principles and applications in depth.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems.
 
 ### Common Mistakes
 
@@ -432,10 +424,7 @@ Worked examples demonstrate how to apply the concepts to solve problems.
 
 Consult the recommended textbooks and additional resources.
 
-
 ## Summary
-
-This topic provides comprehensive coverage of the subject matter.
 
 ### Key Takeaways
 
@@ -449,13 +438,11 @@ This topic provides comprehensive coverage of the subject matter.
 2. Complete the practice problems
 3. Explore related topics in other sections
 
-
 ## Practice Tips
 
 - Review this material regularly
 - Apply concepts to real scenarios
 - Connect with related topics
-
 
 ## Key Points
 
@@ -463,15 +450,11 @@ This topic provides comprehensive coverage of the subject matter.
 - Apply concepts to real scenarios
 - Connect with related topics
 
-
 ## Final Notes
 
 - Understanding this topic is important for software licensing
 - Review the key concepts and practice regularly
 - Connect with other licensing topics for a complete understanding
 
-
 ## Summary
-
-Review the key concepts and practice regularly to master this topic.
 

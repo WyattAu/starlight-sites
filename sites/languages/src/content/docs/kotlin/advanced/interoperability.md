@@ -274,7 +274,7 @@ class Button @JvmOverloads constructor(
 )
 ```
 
-Generates three constructors accessible from Java: `Button(String)``Button(String, int)`
+Generates three constructors accessible from Java: `Button(String)`, `Button(String, int)`
 `Button(String, int, int)`.
 
 ### @Throws for Checked Exceptions
@@ -311,7 +311,7 @@ Callable as a `void` method from Java.
 
 ### Kotlin Collections from Java
 
-Java code sees Kotlin"s read-only collection types as their mutable equivalents (e.g., `List` is
+Java code sees Kotlin's read-only collection types as their mutable equivalents (e.g., `List` is
 Seen as `java.util.List`). This is because Kotlin's read-only interfaces extend Java's mutable
 Interfaces for compatibility.
 
@@ -320,25 +320,14 @@ Interfaces for compatibility.
 - \*\* Ignoring platform types. Always annotate Java APIs with nullability annotations when both
   Java and Kotlin code share the codebase. Unannotated Java APIs create a null safety gap.
 - \*\* Forgetting `@JvmStatic` on companion object members. Without it, Java callers must use
-  `ClassName.Companion.method()`Which is awkward.
+  `ClassName.Companion.method()`. Which is awkward.
 - \*\* Forgetting `@JvmOverloads` for constructors and methods with default parameters. Java cannot
   use Kotlin default parameters.
 - \*\* Assuming Kotlin's read-only collections are immutable when accessed from Java. Java sees
-  `kotlin.collections.List` as `java.util.List`So it can call `add()``remove()`Etc. Use
+  `kotlin.collections.List` as `java.util.List`. So it can call `add()`, `remove()`. Etc. Use
   `Collections.unmodifiableList()` or Kotlinx immutable collections for true immutability.
 - \*\* Using Kotlin extension functions from Java. Extension functions compile to static methods, so
   Java callers must call them explicitly: `ExtensionKt.functionName(receiver, args)`.
-
-
-```mermaid
-flowchart TD
-    A[Interoperability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -353,17 +342,11 @@ implementation, and key applications.
 - exception handling
 - the JVM and garbage collection
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Java-Kotlin interoperability is like two countries sharing a border -- most traffic flows freely, but there are customs checkpoints where the rules differ. Platform types are the border guards: they represent values where Kotlin cannot enforce null safety because the information was lost on the Java side. SAM conversions let Kotlin lambdas slip through as Java functional interfaces, bridging the syntactic gap. The @Jvm annotations are like passport stamps that make Kotlin code behave in ways Java expects. Understanding interoperability means understanding where the two languages' type systems diverge and where the bridges are.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

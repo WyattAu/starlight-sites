@@ -64,7 +64,7 @@ properties of gases, solids, and liquids.
 
 ### Ideal Gas Laws
 
-- **Boyle"s law**, $pV = \text{constant}$ at constant $T$; inverse proportionality of pressure and
+- **Boyle's law**, $pV = \text{constant}$ at constant $T$; inverse proportionality of pressure and
   volume
 - **Charles's law**, $V/T = \text{constant}$ at constant $p$; volume proportional to temperature
   (Kelvin)
@@ -148,8 +148,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 

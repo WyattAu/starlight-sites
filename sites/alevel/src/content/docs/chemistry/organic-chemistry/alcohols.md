@@ -49,6 +49,8 @@ Alcohols have much higher boiling points than alkanes of similar molecular mass 
 Bonding between the $-\mathrm{OH}$ groups. Each molecule can both donate and accept hydrogen bonds,
 Creating an extensive intermolecular network.
 
+<div class="table-wrap">
+
 | Compound                                | $M_r$ | Boiling Point          |
 | --------------------------------------- | ----- | ---------------------- |
 | $\mathrm{CH}_4$                         | 16    | $-162^\circ\mathrm{C}$ |
@@ -56,11 +58,13 @@ Creating an extensive intermolecular network.
 | $\mathrm{C}_2\mathrm{H}_6$              | 30    | $-89^\circ\mathrm{C}$  |
 | $\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}$ | 46    | $78^\circ\mathrm{C}$   |
 
+</div>
+
 ### Solubility
 
 Short-chain alcohols (methanol, ethanol, propan-1-ol) are miscible with water in all proportions.
 The $-\mathrm{OH}$ group forms hydrogen bonds with water, overcoming the hydrophobic effect of the
-Alkyl chain. As chain length increases, the hydrophobic character dominates and solubility decreases
+alkyl chain. As chain length increases, the hydrophobic character dominates and solubility decreases
 Sharply.
 
 ## Oxidation of Alcohols
@@ -73,7 +77,7 @@ Depend on the class of alcohol and the reaction conditions.
 Acidified potassium dichromate(VI)
 ($\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7 / \mathrm{H}_2\mathrm{SO}_4$) is the standard oxidising
 Agent. It is orange and is reduced to $\mathrm{Cr}^{3+}$ (green). The colour change from orange to
-Green provides a visual indication that oxidation has occurred.
+green provides a visual indication that oxidation has occurred.
 
 ### Primary Alcohols
 
@@ -111,7 +115,7 @@ $$
 $$
 
 Ketones resist further oxidation under these conditions because there is no hydrogen atom on the
-Carbonyl carbon that can be removed (C--C bond cleavage requires much harsher conditions).
+carbonyl carbon that can be removed (C--C bond cleavage requires much harsher conditions).
 
 $$
 \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3 \xrightarrow{[\mathrm{O}]} \mathrm{CH}_3\mathrm{COCH}_3
@@ -161,7 +165,7 @@ $$
 
 2. Loss of a proton ($\mathrm{H}^+$) from an adjacent carbon, forming the C=C double bond.
 
-When multiple alkenes are possible, Zaitsev"s rule applies: the more substituted alkene
+When multiple alkenes are possible, Zaitsev's rule applies: the more substituted alkene
 Predominates.
 
 **Worked Example.** Dehydration of butan-2-ol:
@@ -209,7 +213,7 @@ Ethanoic acid + ethanol $\rightleftharpoons$ ethyl ethanoate + water.
 Alcohols are poor substrates for direct nucleophilic substitution because $-\mathrm{OH}$ is a poor
 Leaving group. However, the hydroxyl group can be converted into a better leaving group:
 
-**Protonation:** In acidic conditions, $-\mathrm{OH}$ is protonated to $-\mathrm{OH}_2^+$Making
+**Protonation:** In acidic conditions, $-\mathrm{OH}$ is protonated to $-\mathrm{OH}_2^+$ Making
 Water the leaving group. This allows substitution to proceed.
 
 $$
@@ -228,12 +232,14 @@ $$
 $$
 
 Thionyl chloride is preferred because the byproducts ($\mathrm{SO}_2$ and $\mathrm{HCl}$) are gases
-That escape, driving the reaction to completion and simplifying purification.
+that escape, driving the reaction to completion and simplifying purification.
 
 ## Alcohols as Intermediates in Organic Synthesis
 
 Alcohols are central to organic synthesis because they can be converted into virtually every other
 functional class. The following summary shows the key transformations:
+
+<div class="table-wrap">
 
 | Target functional group | Reagent/conditions from alcohol                                                            |
 | ----------------------- | ------------------------------------------------------------------------------------------ |
@@ -241,9 +247,11 @@ functional class. The following summary shows the key transformations:
 | Aldehyde                | Distillation with acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ (primary alcohol only) |
 | Carboxylic acid         | Reflux with acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ (primary alcohol only)       |
 | Ketone                  | Reflux with acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ (secondary alcohol)          |
-| Halogenoalkane          | $\mathrm{PBr}_3$, $\mathrm{SOCl}_2$Or conc. $\mathrm{HBr}$                                 |
+| Halogenoalkane          | $\mathrm{PBr}_3$, $\mathrm{SOCl}_2$ Or conc. $\mathrm{HBr}$                                 |
 | Ester                   | Carboxylic acid + concentrated $\mathrm{H}_2\mathrm{SO}_4$                                 |
 | Ether                   | Williamson ether synthesis (deprotonation with Na, then $\mathrm{R}'\mathrm{Br}$)          |
+
+</div>
 
 ### Worked Example: Multi-Step Synthesis
 
@@ -262,7 +270,7 @@ $$
 \mathrm{CH}_2=\mathrm{CHCH}_2\mathrm{CH}_3 + \mathrm{HBr} \xrightarrow{\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3
 $$
 
-Step 2: Substitution to alcohol (aqueous $\mathrm{NaOH}$SN2):
+Step 2: Substitution to alcohol (aqueous $\mathrm{NaOH}$ SN2):
 
 $$
 \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaOH} \to \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3
@@ -310,11 +318,15 @@ The Lucas test distinguishes between primary, secondary, and tertiary alcohols:
 
 **Reagent:** Lucas reagent (anhydrous $\mathrm{ZnCl}_2$ in concentrated $\mathrm{HCl}$).
 
+<div class="table-wrap">
+
 | Alcohol type          | Observation                       | Reaction                         |
 | --------------------- | --------------------------------- | -------------------------------- |
 | Tertiary ($3^\circ$)  | Immediate cloudiness              | SN1 (fast carbocation formation) |
 | Secondary ($2^\circ$) | Cloudiness within 1--5 minutes    | SN1 (slower)                     |
 | Primary ($1^\circ$)   | No cloudiness at room temperature | Very slow; may need heating      |
+
+</div>
 
 The cloudiness is caused by the formation of an insoluble halogenoalkane. Tertiary alcohols react
 fastest because the carbocation intermediate is most stable.
@@ -422,12 +434,16 @@ ethanol (100\%) requires further drying with molecular sieves or calcium oxide.
 
 ### Advantages and Disadvantages of Bioethanol as a Fuel
 
+<div class="table-wrap">
+
 | Advantage                                                                       | Disadvantage                                       |
 | ------------------------------------------------------------------------------- | -------------------------------------------------- |
 | Carbon neutral (the $\mathrm{CO}_2$ released was recently absorbed by the crop) | Land use competition with food production          |
 | Renewable                                                                       | Lower energy density than petrol                   |
 | Biodegradable                                                                   | Engine modifications may be needed for high blends |
 | Reduces dependence on fossil fuels                                              | Fermentation is slow; limited production capacity  |
+
+</div>
 
 1. **Oxidation of tertiary alcohols.** Tertiary alcohols are not oxidised by
    $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7 / \mathrm{H}^+$. The absence of a colour change is the key
@@ -468,7 +484,7 @@ Using acidified potassium dichromate(VI).
 <summary>Problem 2</summary>
 
 Ethanol can be converted to bromoethane by three different methods. Write equations for each and
-Identify the mechanism.
+identify the mechanism.
 
 **Solution:**
 
@@ -560,7 +576,9 @@ forms.
 
 **Stage 1: Alcohol to aldehyde.**
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} + \mathrm{H}_2\mathrm{O}
+$$
 
 Conditions: Distillation with acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$. The aldehyde
 (butanal, b.p. $75^\circ\mathrm{C}$) distils off as it forms, before it can be further oxidised. The
@@ -568,7 +586,9 @@ orange dichromate turns green.
 
 **Stage 2: Aldehyde to carboxylic acid.**
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH} + \mathrm{H}_2\mathrm{O}
+$$
 
 Conditions: Reflux with excess acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$. The aldehyde
 remains in the reaction mixture and is further oxidised to butanoic acid.
@@ -590,15 +610,21 @@ $\mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2\mathrm{OH} + \mathrm{H}^+ \to \mat
 
 Step 2: Loss of water forms a primary carbocation (unstable):
 
-$$\mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2\mathrm{OH}_2^+ \to \mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2^+ + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2\mathrm{OH}_2^+ \to \mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2^+ + \mathrm{H}_2\mathrm{O}
+$$
 
 Step 3: Hydride shift from the adjacent carbon to form a more stable tertiary carbocation:
 
-$$\mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2^+ \to \mathrm{(CH}_3)_2\overset{+}{\mathrm{C}}\mathrm{CH}_2\mathrm{CH}(\mathrm{CH}_3)_2$$
+$$
+\mathrm{(CH}_3)_3\mathrm{CCH}_2\mathrm{CH}_2^+ \to \mathrm{(CH}_3)_2\overset{+}{\mathrm{C}}\mathrm{CH}_2\mathrm{CH}(\mathrm{CH}_3)_2
+$$
 
 Step 4: Loss of a proton gives the alkene:
 
-$$\mathrm{(CH}_3)_2\overset{+}{\mathrm{C}}\mathrm{CH}_2\mathrm{CH}(\mathrm{CH}_3)_2 \to \mathrm{(CH}_3)_2\mathrm{C}=\mathrm{CHCH}(\mathrm{CH}_3)_2 + \mathrm{H}^+$$
+$$
+\mathrm{(CH}_3)_2\overset{+}{\mathrm{C}}\mathrm{CH}_2\mathrm{CH}(\mathrm{CH}_3)_2 \to \mathrm{(CH}_3)_2\mathrm{C}=\mathrm{CHCH}(\mathrm{CH}_3)_2 + \mathrm{H}^+
+$$
 
 The product is 2,3,3-trimethylbut-1-ene. The carbocation rearrangement (hydride shift) occurs
 because the tertiary carbocation is much more stable than the primary carbocation.
@@ -610,11 +636,15 @@ because the tertiary carbocation is much more stable than the primary carbocatio
 The Williamson ether synthesis requires an alkoxide and a halogenoalkane. Phenol is acidic enough to
 be deprotonated by $\mathrm{NaOH}$:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{OH} + \mathrm{NaOH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{O}^-\mathrm{Na}^+ + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{OH} + \mathrm{NaOH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{O}^-\mathrm{Na}^+ + \mathrm{H}_2\mathrm{O}
+$$
 
 Then reaction with bromoethane (SN2):
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{O}^- + \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} \to \mathrm{C}_6\mathrm{H}_5\mathrm{OCH}_2\mathrm{CH}_3 + \mathrm{Br}^-$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{O}^- + \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} \to \mathrm{C}_6\mathrm{H}_5\mathrm{OCH}_2\mathrm{CH}_3 + \mathrm{Br}^-
+$$
 
 **Important:** The halogenoalkane must be primary to avoid elimination. If we used 2-bromopropane,
 elimination would compete strongly with substitution.
@@ -626,13 +656,17 @@ elimination would compete strongly with substitution.
 $\mathrm{H}_2\mathrm{SO}_4$. After purification, $4.20\,\mathrm{g}$ of ethyl ethanoate
 ($M = 88.11\,\mathrm{g/mol}$) is obtained. Calculate the percentage yield.**
 
-$$n(\text{ethanoic acid}) = \frac{6.00}{60.05} = 0.0999\,\mathrm{mol}$$
+$$
+n(\text{ethanoic acid}) = \frac{6.00}{60.05} = 0.0999\,\mathrm{mol}
+$$
 
 Theoretical moles of ethyl ethanoate (1:1 ratio): $0.0999\,\mathrm{mol}$
 
 Theoretical mass: $0.0999 \times 88.11 = 8.80\,\mathrm{g}$
 
-$$\text{Percentage yield} = \frac{4.20}{8.80} \times 100 = 47.7\%$$
+$$
+\text{Percentage yield} = \frac{4.20}{8.80} \times 100 = 47.7\%
+$$
 
 The yield is less than 50% because esterification is a reversible equilibrium. Using excess ethanol
 or removing water would improve the yield.
@@ -643,28 +677,40 @@ or removing water would improve the yield.
 
 Step 1: Markovnikov addition of HBr:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3
+$$
 
 Step 2: Substitution with aqueous NaOH (SN2 on a secondary halide -- gives a mixture with some
 elimination, but substitution predominates in aqueous conditions):
 
-$$\mathrm{CH}_3\mathrm{CHBrCH}_3 + \mathrm{NaOH}(aq) \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CHBrCH}_3 + \mathrm{NaOH}(aq) \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3
+$$
 
 Step 3: Oxidation of propan-2-ol with acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ under
 reflux:
 
-$$\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3 \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{COCH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3 \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{COCH}_3
+$$
 
 This gives propanone (a ketone), not propanoic acid. Ketones cannot be further oxidised by
 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$.
 
 **Corrected route:** Use anti-Markovnikov addition to get the primary alcohol:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \xrightarrow{\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \xrightarrow{\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3
+$$
 
-$$\mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaOH}(aq) \to \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaOH}(aq) \to \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{CH}_3
+$$
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH}
+$$
 
 This gives propanoic acid as required. The key was using the anti-Markovnikov addition to obtain the
 primary alcohol.
@@ -679,11 +725,15 @@ $\mathrm{HCl}$) to $1\,\mathrm{cm}^3$ of each alcohol at room temperature.
 
 **Results:**
 
+<div class="table-wrap">
+
 | Alcohol             | Observation          | Time                   | Mechanism                                      |
 | ------------------- | -------------------- | ---------------------- | ---------------------------------------------- |
 | 2-methylpropan-2-ol | Immediate cloudiness | $< 10\,\mathrm{s}$     | SN1 (tertiary carbocation forms rapidly)       |
 | Butan-2-ol          | Cloudiness develops  | $1$--$5\,\mathrm{min}$ | SN1 (secondary carbocation forms more slowly)  |
 | Butan-1-ol          | No cloudiness        | $> 30\,\mathrm{min}$   | SN2 is very slow in acidic, non-aqueous medium |
+
+</div>
 
 The cloudiness is caused by the formation of the insoluble chloroalkane.
 
@@ -693,19 +743,25 @@ The cloudiness is caused by the formation of the insoluble chloroalkane.
 
 **Method 1:** Concentrated HBr (heat under reflux).
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{H}_2\mathrm{O}
+$$
 
 Product: Bromoethane. Mechanism: SN2 (protonated $-\mathrm{OH}_2^+$ is the leaving group).
 
 **Method 2:** $\mathrm{PBr}_3$ (room temperature).
 
-$$3\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{PBr}_3 \to 3\mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{H}_3\mathrm{PO}_3$$
+$$
+3\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{PBr}_3 \to 3\mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{H}_3\mathrm{PO}_3
+$$
 
 Product: Bromoethane. Mechanism: SN2 (bromide from $\mathrm{PBr}_3$ is the nucleophile).
 
 **Method 3:** $\mathrm{SOCl}_2$ (pyridine, room temperature).
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{SOCl}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl} + \mathrm{SO}_2 + \mathrm{HCl}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} + \mathrm{SOCl}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl} + \mathrm{SO}_2 + \mathrm{HCl}
+$$
 
 Product: Chloroethane (not bromoethane). Mechanism: SN2. Advantage: gaseous byproducts escape,
 driving the reaction to completion.
@@ -733,10 +789,14 @@ cupboard.
 
 ### Distillation vs Reflux -- When to Use Each
 
+<div class="table-wrap">
+
 | Technique    | Purpose                                                    | Apparatus                                           |
 | ------------ | ---------------------------------------------------------- | --------------------------------------------------- |
 | Distillation | Separate a volatile product from the reaction mixture      | Round-bottom flask, still head, condenser, receiver |
 | Reflux       | Heat a reaction mixture without losing volatile components | Round-bottom flask, condenser pointing downward     |
+
+</div>
 
 **Rule of thumb:** If the product is volatile and you want to isolate it, use distillation. If the
 reaction needs prolonged heating without loss of reactants or solvent, use reflux.
@@ -783,7 +843,7 @@ the role of the acid catalyst.
 - Protonation:
   $\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{H}^+ \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH}_2^+)\mathrm{CH}_2\mathrm{CH}_3$
   (1 mark). The acid catalyst protonates the $-\mathrm{OH}$ group, converting it to
-  $-\mathrm{OH}_2^+$A good leaving group.
+  $-\mathrm{OH}_2^+$ A good leaving group.
 - Loss of water (rate-determining step): Formation of a secondary carbocation (1 mark).
 - Deprotonation: Loss of a proton from an adjacent carbon, forming the C=C double bond (1 mark).
 - Zaitsev's rule: The major product is but-2-ene (more substituted alkene) rather than but-1-ene (1
@@ -875,23 +935,9 @@ hardest questions within the A-Level specification for this topic, each with a f
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Alcohols
 with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
-
-
-```mermaid
-flowchart TD
-    A[Alcohols] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

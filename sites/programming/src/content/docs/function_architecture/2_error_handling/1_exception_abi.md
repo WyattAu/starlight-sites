@@ -37,10 +37,14 @@ When an exception is thrown, the runtime:
 Each function that may participate in exception handling has two tables embedded in the binary ( in
 the `.eh_frame` / `.gcc_except_table` ELF sections on Linux):
 
+<div class="table-wrap">
+
 | Table                                  | Purpose                                                                                                                                 |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | **LSDA** (Language-Specific Data Area) | Describes which PC ranges map to which `try`/`catch` blocks.                                                                            |
 | **Unwind table**                       | Lists every call site in the function so the unwinder can determine whether the function has a cleanup (destructor call) at each point. |
+
+</div>
 
 :::note
 Exception is thrown. The tables are consulted only during unwinding.
@@ -48,11 +52,15 @@ Exception is thrown. The tables are consulted only during unwinding.
 
 ### Alternative Exception Models
 
+<div class="table-wrap">
+
 | Model                       | Description                                                         | Normal-Path Cost            | Platforms                 |
 | :-------------------------- | :------------------------------------------------------------------ | :-------------------------- | :------------------------ |
 | **Table-based (zero-cost)** | Static tables describe handlers; unwinder walks stack at throw time | ~0 instructions             | GCC, Clang, MSVC x64      |
 | **Setjmp/Longjmp (SJLJ)**   | `setjmp`/`longjmp` at each `try` entry/exit                         | ~10-20 instructions per try | Embedded, older compilers |
 | **DWARF CFI**               | DWARF Call Frame Information used for unwinding                     | ~0 instructions             | GCC/Clang (Linux, BSD)    |
+
+</div>
 
 The SJLJ model incurs cost on every `try` entry (saving registers via `setjmp`) and every `try` exit
 (potentially restoring via `longjmp`). This is why modern compilers default to the table-based model
@@ -113,7 +121,7 @@ int main() {
 
 When catching by value (not by reference), the exception object is **sliced** to the catch clause's
 Static type. This is almost always wrong because it loses the dynamic type information and invokes
-An extra copy:
+an extra copy:
 
 ```cpp
 #include <iostream>
@@ -155,7 +163,7 @@ Management exception-safe.
 
 ### Stack Unwinding Walkthrough
 
-Consider a call stack: `main()` calls `outer()`Which calls `middle()`Which calls `inner()`. When
+Consider a call stack: `main()` calls `outer()`. Which calls `middle()`. Which calls `inner()`. When
 `inner()` throws:
 
 ```
@@ -176,7 +184,7 @@ The unwinder performs the following steps:
    personality function identifies cleanup code (destructor calls for local variables) and the
    unwinder executes those cleanups. D. The frame is popped, and the unwinder moves to the next
    frame.
-4. When a matching `catch` is found in `main()`The unwinder sets the instruction pointer to the
+4. When a matching `catch` is found in `main()`. The unwinder sets the instruction pointer to the
    catch clause's entry point and transfers control.
 
 ```cpp
@@ -229,7 +237,7 @@ int main() {
 ## 1.4 Zero-Cost Principle
 
 In the table-based model, the generated code for a function that uses exceptions is **identical in
-The non-throwing path** to a function that does not use exceptions at all. There are:
+the non-throwing path** to a function that does not use exceptions at all. There are:
 
 - No extra branches or flags tested on every `try` entry.
 - No per-function "has_exception" global.
@@ -243,7 +251,7 @@ Runtime overhead compared to equivalent code without exception handling.
 **Proof:**
 
 1. The compiler generates exception handling information (LSDA and unwind tables) as **static data**
-   in read-only sections of the binary (`.eh_frame``.gcc_except_table`). These tables are not loaded
+   in read-only sections of the binary (`.eh_frame`, `.gcc_except_table`). These tables are not loaded
    into registers or cache during normal execution.
 2. The generated machine code for the normal path contains **no instructions** that reference the
    exception tables. There are no conditional branches to check for pending exceptions, no global
@@ -261,12 +269,16 @@ Errors. This confirms that exception-neutral code has zero overhead in the norma
 
 ## 1.5 Performance Comparison: Throw/Catch vs Error Codes
 
+<div class="table-wrap">
+
 | Metric           | Exception (throw path)            | Error-code check            |
 | ---------------- | --------------------------------- | --------------------------- |
 | Normal-path cost | ~0 instructions                   | 1 branch + compare per call |
 | Throw-path cost  | ~5-20 $\mu s$ (unwinding + alloc) | N/A                         |
 | Code size        | +LSDA tables (~1-5% of binary)    | No overhead                 |
 | Cognitive cost   | Implicit control flow             | Explicit, pervasive         |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -332,7 +344,7 @@ Throwing; use exceptions for truly exceptional conditions.
 ## 1.6 Exception Object Lifetime and Storage
 
 The exception object is allocated by the C++ runtime, not by `new`. The Itanium ABI specifies that
-The runtime uses a dedicated allocator (often a thread-local buffer) for small exception objects,
+the runtime uses a dedicated allocator (often a thread-local buffer) for small exception objects,
 Falling back to `malloc` for large ones [N4950 §14.2]. The exception object is destroyed when the
 Last `catch` clause handling it exits [N4950 §14.2]:
 
@@ -411,7 +423,7 @@ Static type, slicing the dynamic type. Always use `throw;` to re-throw the origi
 ## 1.7 Cross-Thread Exception Propagation with `std::exception_ptr`
 
 C++11 introduced `std::exception_ptr` to transport exceptions across threads [N4950 §18.8.5]. This
-Is the only standard mechanism for propagating exceptions from a worker thread to the joining
+is the only standard mechanism for propagating exceptions from a worker thread to the joining
 Thread:
 
 ```cpp
@@ -470,6 +482,8 @@ Last `exception_ptr` referencing it is destroyed.
 The LSDA (Language-Specific Data Area) encodes the exception handling information for each function.
 On the Itanium ABI, it uses a compact bytecode format:
 
+<div class="table-wrap">
+
 | Field               | Description                                                            |
 | ------------------- | ---------------------------------------------------------------------- |
 | **LPStart**         | Base address for landing pad offsets ( the function entry point)       |
@@ -477,8 +491,10 @@ On the Itanium ABI, it uses a compact bytecode format:
 | **Action Table**    | Array of type-filter and next-action offsets for catch clause matching |
 | **Type Info Table** | Array of `std::type_info*` pointers referenced by the action table     |
 
+</div>
+
 Each call site entry describes a range of PC values in the function. When the unwinder finds that
-The current PC falls within a call site range, it checks the action table to determine which catch
+the current PC falls within a call site range, it checks the action table to determine which catch
 Clause (if any) handles the exception. The type info table provides the `std::type_info` for the
 Catch clause's type, enabling the dynamic type comparison.
 
@@ -498,7 +514,7 @@ Function throws anyway, `std::terminate()` is called immediately without stack u
    code for temporaries created in the calling function. This can eliminate branches and reduce
    register pressure.
 3. **Enables `std::move` in containers:** `std::vector::push_back` uses `noexcept` to decide between
-   copy and move during reallocation. If the element's move constructor is `noexcept`The vector
+   copy and move during reallocation. If the element's move constructor is `noexcept`. The vector
    moves elements; otherwise, it copies them.
 
 ```cpp
@@ -560,11 +576,15 @@ Is `noexcept` only if the element's move constructor is `noexcept`.
 
 The C++ community recognizes three exception safety guarantees [N4950 §14.5]:
 
+<div class="table-wrap">
+
 | Guarantee    | Description                                                                                                                      | Example                                   |
 | :----------- | :------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------- |
 | **No-throw** | The operation never throws. All resources are managed. Destructors, `swap`Move operations.                                       | `~T()``std::swap`                         |
 | **Strong**   | If the operation fails, the state is rolled back to the pre-operation state (commit-or-rollback).                                | `std::vector::push_back` (single element) |
 | **Basic**    | If the operation fails, the object is in a valid state (all invariants hold), but the state may have changed. No resource leaks. | `std::sort`                               |
+
+</div>
 
 ### Code for Each Safety Level
 
@@ -683,7 +703,7 @@ to provide a custom `__cxa_pure_virtual` and `__cxa_throw` implementation even w
 
 Catching by value slices the exception object and invokes an extra copy constructor. Always catch by
 Reference (`const T&` or `T&`) to preserve the dynamic type and avoid unnecessary copies. The only
-Exception is `catch (...)`Which cannot specify a type.
+Exception is `catch (...)`. Which cannot specify a type.
 
 ### 5. Exception Specifications (Deprecated)
 
@@ -704,17 +724,7 @@ Removed in C++17. `std::terminate` is the only termination handler for exception
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
-```mermaid
-flowchart TD
-    A[1_Exception_Abi] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Summary
 
@@ -728,9 +738,6 @@ including key theorems, methods, and problem-solving approaches.
 - proof and logical reasoning
 - problem-solving strategies
 - applications and modelling
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 ## Worked Examples
 

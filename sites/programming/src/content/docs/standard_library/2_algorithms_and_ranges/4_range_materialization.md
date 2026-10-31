@@ -24,7 +24,7 @@ categories:
 Views are lazy and borrow elements from their source. When you need ownership, multiple passes, or
 Independence from the source lifetime, you must **materialize** the view into an eager container.
 C++23 introduced `std::ranges::to&lt;T>` as the standard bridge between the lazy world of views and
-The eager world of containers.
+the eager world of containers.
 
 ### `std::ranges::to<T>` (C++23)
 
@@ -93,6 +93,8 @@ int main() {
 
 The key distinction between views and containers [N4950 §26.5.2]:
 
+<div class="table-wrap">
+
 | Property       | View                | Container               |
 | -------------- | ------------------- | ----------------------- |
 | Ownership      | Borrows elements    | Owns elements           |
@@ -101,6 +103,8 @@ The key distinction between views and containers [N4950 §26.5.2]:
 | Destruction    | $O(1)$              | $O(n)$                  |
 | Composition    | Chainable with `\|` | Must materialize        |
 | Element access | Lazy (on iteration) | Eager (on construction) |
+
+</div>
 
 `std::ranges::to&lt;T>` performs the materialization eagerly: it iterates the entire view and
 Inserts each element into the target container. This is $O(n)$ in the number of elements.
@@ -267,6 +271,8 @@ int main() {
 The fundamental trade-off between views (lazy) and containers (eager) is **when computation occurs**
 [N4950 §26.5.2]:
 
+<div class="table-wrap">
+
 | Aspect           | Lazy View                  | Eager Container (`ranges::to`) |
 | ---------------- | -------------------------- | ------------------------------ |
 | Computation time | At iteration               | At materialization             |
@@ -274,6 +280,8 @@ The fundamental trade-off between views (lazy) and containers (eager) is **when 
 | Multi-pass       | No (single-pass views)     | Yes                            |
 | Lifetime         | Tied to source             | Independent                    |
 | Side effects     | Each iteration re-executes | Executed once                  |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -321,11 +329,11 @@ int main() {
 
 Understanding the ownership model is critical for correct range usage:
 
-- **Non-owning ranges** (views): `std::string_view``std::span``std::ranges::ref_view`
+- **Non-owning ranges** (views): `std::string_view`, `std::span`, `std::ranges::ref_view`
   `std::ranges::filter_view`. These hold pointers or references into storage owned by another
   object. They are lightweight ($O(1)$ copy) but must not outlive the underlying data.
 
-- **Owning ranges** (containers): `std::vector``std::string``std::deque``std::list`. These own their
+- **Owning ranges** (containers): `std::vector`, `std::string`, `std::deque`, `std::list`. These own their
   element storage and manage its lifetime. Copying an owning range copies all elements ($O(n)$).
   Moving an owning range transfers ownership ($O(1)$).
 
@@ -398,6 +406,8 @@ int main() {
 
 ### Table of Borrowed vs Non-Borrowed Views
 
+<div class="table-wrap">
+
 | View Type              | Borrowed? | Reason                                   |
 | ---------------------- | --------- | ---------------------------------------- |
 | `ref_view<T>`          | Yes       | Holds an lvalue reference explicitly     |
@@ -417,6 +427,8 @@ int main() {
 | `enumerate_view<V>`    | No        | Borrows from `V`                         |
 | `keys_view<M>`         | No        | Borrows from map `M`                     |
 | `values_view<M>`       | No        | Borrows from map `M`                     |
+
+</div>
 
 ### Interaction with `std::views::filter` and `std::views::transform`
 
@@ -564,7 +576,7 @@ int main() {
 #### Materializing Single-Pass Views
 
 Some views (like `views::istream<T>`) are single-pass: once iterated, the elements are consumed and
-Cannot be re-read. If you need to process the elements more than once, you must materialize on first
+cannot be re-read. If you need to process the elements more than once, you must materialize on first
 Use:
 
 ```cpp
@@ -652,14 +664,14 @@ Not a `borrowed_range` and `source` is a temporary (prvalue).
 2. A range adaptor view `V` holds a reference or iterator into its source range. The view does not
    own the source and does not extend its lifetime.
 
-3. If the source is a temporary, its lifetime ends at the semicolon. The view `V`Which is an lvalue
+3. If the source is a temporary, its lifetime ends at the semicolon. The view `V`. Which is an lvalue
    (bound to a named variable or returned from a function), outlives the source.
 
 4. After the source is destroyed, the view holds a dangling reference/iterator. Dereferencing it is
    undefined behavior per [N4950 §6.7.7.2].
 
-5. Exception: if the view is a `borrowed_range`It copies the source data (or the source has no
-   backing storage), so it does not borrow. Examples: `string_view``span``iota_view`.
+5. Exception: if the view is a `borrowed_range`. It copies the source data (or the source has no
+   backing storage), so it does not borrow. Examples: `string_view`, `span`, `iota_view`.
 
 QED. This is why `std::ranges::dangling` exists: the standard library detects this pattern at
 Compile time for many common cases and returns `dangling` instead of a real iterator, preventing
@@ -744,6 +756,8 @@ int main() {
 
 The cost of materialization depends on the target container and the view pipeline:
 
+<div class="table-wrap">
+
 | Target Container | Allocation Strategy                    | Typical Cost per Element         |
 | ---------------- | -------------------------------------- | -------------------------------- |
 | `std::vector`    | Single allocation (with `reserve`)     | 1 copy + 0-1 reallocations       |
@@ -753,8 +767,10 @@ The cost of materialization depends on the target container and the view pipelin
 | `std::set`       | Per-node allocation + tree rebalancing | 1 copy + $O(\log n)$ per element |
 | `std::string`    | Single allocation                      | 1 copy                           |
 
+</div>
+
 For maximum throughput, materialize into `std::vector` (best cache locality, fewest allocations). If
-You need deduplication or sorting, materialize into `std::vector` first, then sort and unique-erase,
+you need deduplication or sorting, materialize into `std::vector` first, then sort and unique-erase,
 Rather than materializing directly into `std::set`:
 
 ```cpp
@@ -790,7 +806,7 @@ int main() {
 
 ## Intuition
 
-**Range materialization is like cooking a recipe:** Range adaptors create a recipe (lazy pipeline of transformations), but you can't eat a recipe, you need to actually cook it (materialize). Materialization converts the lazy range into a concrete container (`std::vector``std::list`etc.) that you can iterate over multiple times, store, and pass around. It's like the difference between a recipe card and the actual dish, one describes what to do, the other is the result.
+**Range materialization is like cooking a recipe:** Range adaptors create a recipe (lazy pipeline of transformations), but you can't eat a recipe, you need to actually cook it (materialize). Materialization converts the lazy range into a concrete container (`std::vector`, `std::list`etc.) that you can iterate over multiple times, store, and pass around. It's like the difference between a recipe card and the actual dish, one describes what to do, the other is the result.
 
 **Why it matters:** Materialization is the bridge between lazy ranges and concrete data. Without it, range adaptors would be useless, you'd compute values but never be able to store them. Materialization triggers the actual computation, evaluates all the transformations, and produces a container. The choice of container matters: `std::ranges::to<std::vector>()` is in most cases the right default.
 
@@ -806,7 +822,7 @@ int main() {
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Common Pitfalls
 
@@ -821,23 +837,7 @@ int main() {
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
 
-```mermaid
-flowchart TD
-    A[4_Range_Materialization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

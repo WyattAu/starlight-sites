@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Biodiversity Classification Evolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Evolution is like a family tree that stretches back millions of years, branching, adapting, and sometimes going extinct.**
@@ -57,7 +46,9 @@ evolutionary mechanism that could explain this change.
 **Solution:**
 
 (a) The frequency of the recessive phenotype (light moths, genotype $bb$) is:
-$$q^2 = \frac{45}{500} = 0.09$$
+$$
+q^2 = \frac{45}{500} = 0.09
+$$
 
 The frequency of the $b$ allele: $$q = \sqrt{q^2} = \sqrt{0.09} = 0.30$$
 
@@ -404,6 +395,8 @@ similarity between species, and state which method provides more detailed inform
 (b) The number of amino acid differences from human cytochrome c indicates evolutionary distance
 (fewer differences $=$ more closely related):
 
+<div class="table-wrap">
+
 | Species | Differences from human |
 | ------- | ---------------------- |
 | D       | 0                      |
@@ -411,6 +404,8 @@ similarity between species, and state which method provides more detailed inform
 | B       | 5                      |
 | C       | 12                     |
 | E       | 25                     |
+
+</div>
 
 Likely evolutionary tree (branching pattern, closest to most distant):
 
@@ -477,7 +472,7 @@ phylogenetic trees with molecular clock dating. DNA hybridisation is a coarser, 
 **Question:**
 
 A conservation organisation wants to compare the biodiversity of two nature reserves (Reserve X and
-Reserve Y) to determine which should receive priority for funding. Reserve X is a managed meadow,
+reserve Y) to determine which should receive priority for funding. Reserve X is a managed meadow,
 and Reserve Y is an ancient woodland.
 
 (a) Explain the difference between **species richness** and **species evenness**, and explain why
@@ -511,7 +506,7 @@ has lower biodiversity than a habitat with 5 species where each makes up approxi
 richness alone does not capture this difference, evenness provides the additional information
 needed.
 
-(b) **Simpson's Diversity Index**: $D = 1 - \sum\left(\frac{n}{N}\right)^2$Where $n$ is the number
+(b) **Simpson's Diversity Index**: $D = 1 - \sum\left(\frac{n}{N}\right)^2$ Where $n$ is the number
 of individuals of a particular species and $N$ is the total number of individuals of all species.
 $D$ ranges from 0 (no diversity, only one species present) to approaching 1 (maximum diversity,
 many species, all equally abundant).
@@ -523,6 +518,8 @@ same habitat at different times.
 
 (c) **Reserve X:**
 
+<div class="table-wrap">
+
 | Species | $n$ | $\frac{n}{N}$ | $\left(\frac{n}{N}\right)^2$ |
 | ------- | --- | ------------- | ---------------------------- |
 | A       | 50  | 0.50          | 0.2500                       |
@@ -531,11 +528,15 @@ same habitat at different times.
 | D       | 5   | 0.05          | 0.0025                       |
 | E       | 5   | 0.05          | 0.0025                       |
 
+</div>
+
 $\sum\left(\frac{n}{N}\right)^2 = 0.2500 + 0.0900 + 0.0100 + 0.0025 + 0.0025 = 0.3550$
 
 $D_X = 1 - 0.3550 = 0.645$
 
 **Reserve Y:**
+
+<div class="table-wrap">
 
 | Species | $n$ | $\frac{n}{N}$ | $\left(\frac{n}{N}\right)^2$ |
 | ------- | --- | ------------- | ---------------------------- |
@@ -544,6 +545,8 @@ $D_X = 1 - 0.3550 = 0.645$
 | H       | 20  | 0.20          | 0.0400                       |
 | I       | 20  | 0.20          | 0.0400                       |
 | J       | 20  | 0.20          | 0.0400                       |
+
+</div>
 
 $\sum\left(\frac{n}{N}\right)^2 = 5 \times 0.0400 = 0.2000$
 

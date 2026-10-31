@@ -22,7 +22,9 @@ description: 'For any trial wavefunction (normalised), the expectation value of 
 For any trial wavefunction $\psi_{\text{trial}}$ (normalised), the expectation value of the
 Hamiltonian is an upper bound on the true ground state energy:
 
-$$E_{\text{trial} = \langle\psi_{\text{trial}|\hat{H}|\psi_{\text{trial}\rangle \geq E_0}}}$$
+$$
+E_{\text{trial} = \langle\psi_{\text{trial}|\hat{H}|\psi_{\text{trial}\rangle \geq E_0}}}
+$$
 
 The equality holds if and only if $\psi_{\text{trial} = \psi_0}$.
 
@@ -31,18 +33,22 @@ The equality holds if and only if $\psi_{\text{trial} = \psi_0}$.
 The simplest molecule: one electron in the field of two protons separated by distance $R$. The
 Hamiltonian:
 
-$$\hat{H} = -\frac{\hbar^2}{2m_e}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0 r_A} - \frac{e^2}{4\pi\varepsilon_0 r_B} + \frac{e^2}{4\pi\varepsilon_0 R}$$
+$$
+\hat{H} = -\frac{\hbar^2}{2m_e}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0 r_A} - \frac{e^2}{4\pi\varepsilon_0 r_B} + \frac{e^2}{4\pi\varepsilon_0 R}
+$$
 
 **LCAO trial function:** $\psi_\pm = N_\pm[\psi_{1s}(\mathbf{r}_A) \pm \psi_{1s}(\mathbf{r}_B)]$
 
 The energies:
 
-$$E_\pm(R) = E_{1s} + \frac{e^2}{4\pi\varepsilon_0 R} + \frac{J \pm K}{1 \pm S}$$
+$$
+E_\pm(R) = E_{1s} + \frac{e^2}{4\pi\varepsilon_0 R} + \frac{J \pm K}{1 \pm S}
+$$
 
 Where $S = \langle\psi_A|\psi_B\rangle$ is the overlap integral, $J$ is the Coulomb integral, and
 $K$ is the exchange integral.
 
-- $E_-$ (bonding): has a minimum at $R \approx 2.5\,a_0$Giving a binding energy of $\sim 1.8$ eV
+- $E_-$ (bonding): has a minimum at $R \approx 2.5\,a_0$ Giving a binding energy of $\sim 1.8$ eV
   (experiment: 2.8 eV).
 - $E_+$ (antibonding): monotonically decreases, no bound state.
 
@@ -60,12 +66,16 @@ The equilibrium bond length is $R_e \approx 1.4\,a_0$ with binding energy $\sim 
 
 ### 10.4 Key Relationships
 
+<div class="table-wrap">
+
 | Method               | Type                | Guarantee                       | Accuracy                  |
 | -------------------- | ------------------- | ------------------------------- | ------------------------- |
 | Variational          | Ground state        | Upper bound $E_{\text{trial}} \geq E_0$ | Depends on trial function |
 | Perturbation theory  | Any state           | No bound (asymptotic series)    | Depends on smallness      |
 | WKB                  | Semiclassical       | Leading order in $\hbar$        | Good for large $n$        |
 | Hartree-Fock         | Many-body           | Variational (single determinant) | 99% of energy             |
+
+</div>
 
 ### 10.5 Common Pitfalls
 
@@ -82,11 +92,15 @@ The equilibrium bond length is $R_e \approx 1.4\,a_0$ with binding energy $\sim 
 
 ### 10.6 Summary Table
 
+<div class="table-wrap">
+
 | System          | Trial function                           | Variational parameter | Energy (theory) | Energy (exact) |
 | --------------- | ---------------------------------------- | --------------------- | --------------- | -------------- |
 | He atom         | $e^{-Z_{\text{eff}} r_1/a_0} e^{-Z_{\text{eff}} r_2/a_0}$ | $Z_{\text{eff}}$      | $-77.5$ eV      | $-79.0$ eV     |
 | $H_2^+$         | LCAO $\psi_{1s}(r_A) \pm \psi_{1s}(r_B)$ | $R$                   | $-1.8$ eV binding | $-2.8$ eV    |
 | $H_2$           | Singlet Heitler-London                    | $R$                   | $-3.5$ eV binding | $-4.75$ eV   |
+
+</div>
 
 ### 10.7 Applications
 
@@ -109,14 +123,20 @@ where $Z_{\text{eff}}$ is a variational parameter.
 
 The energy expectation value (treating the electron-electron repulsion as a perturbation):
 
-$$E(Z_{\text{eff}) = 2\times\frac{Z_{\text{eff}^2}}{2}\text{Ry} - 2\times\frac{Z_{\text{eff} Z}{1}\text{Ry} + \frac{5}{8}Z_{\text{eff}\text{Ry}}}}}$$
+$$
+E(Z_{\text{eff}) = 2\times\frac{Z_{\text{eff}^2}}{2}\text{Ry} - 2\times\frac{Z_{\text{eff} Z}{1}\text{Ry} + \frac{5}{8}Z_{\text{eff}\text{Ry}}}}}
+$$
 
-$$= \left(Z_{\text{eff}^2 - 4Z_{\text{eff} + \frac{5}{4}Z_{\text{eff}\right)\text{Ry} = \left(Z_{\text{eff}^2 - \frac{11}{4}Z_{\text{eff}\right)\text{Ry}}}}}}$$
+$$
+= \left(Z_{\text{eff}^2 - 4Z_{\text{eff} + \frac{5}{4}Z_{\text{eff}\right)\text{Ry} = \left(Z_{\text{eff}^2 - \frac{11}{4}Z_{\text{eff}\right)\text{Ry}}}}}}
+$$
 
 Minimising:
 $\partial E/\partial Z_{\text{eff} = (2Z_{\text{eff} - 11/4) = 0 \implies Z_{\text{eff} = 11/8 = 1.375}}}$.
 
-$$E = \left(\frac{121}{64} - \frac{121}{32}\right)\text{Ry} = -\frac{121}{64}\text{Ry} = -2.848\text{Ry} = -77.5\ \text{eV}$$
+$$
+E = \left(\frac{121}{64} - \frac{121}{32}\right)\text{Ry} = -\frac{121}{64}\text{Ry} = -2.848\text{Ry} = -77.5\ \text{eV}
+$$
 
 The exact (non-relativistic) ground state energy is $-79.0$ eV, so the variational result is within
 2%.
@@ -143,17 +163,6 @@ for typical parameters ($V_0 = 10$ eV, $a = 2$ Å, $m = m_e$) gives $\beta_{\tex
 and $E \approx -6.2$ eV, compared to the exact value $-7.0$ eV. The Gaussian trial function cannot
 capture the exponential decay outside the well, leading to a 12% error. $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[11_Variational Methods] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The variational principle states that any trial wavefunction gives an energy estimate that is always greater than or equal to the true ground state energy. This transforms finding the ground state into an optimization problem: minimize the energy over a family of trial functions. The better the trial function, the closer the estimate. This method is exact in the limit of a complete basis set, but even simple trial functions give remarkably accurate results. It is the foundation of quantum chemistry calculations, where clever choices of trial wavefunctions and basis sets balance accuracy against computational cost.
@@ -165,27 +174,7 @@ The variational principle states that any trial wavefunction gives an energy est
 - **[Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)**: The hydrogen atom provides exact solutions that test variational methods.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

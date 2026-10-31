@@ -40,7 +40,7 @@ The framework provides:
 
 The `pre-commit` framework is not the same as the `pre-commit` Git hook. The framework installs
 Itself as the `pre-commit` hook in `.git/hooks/` and then orchestrates all configured hooks from
-There. One hook file delegates to many.
+there. One hook file delegates to many.
 
 ## Installation
 
@@ -161,13 +161,19 @@ The framework clones these repos (at the pinned `rev`) and reads their hook meta
 
 ### Per-Repo Fields
 
+<div class="table-wrap">
+
 | Field   | Required | Description                                      |
 | ------- | -------- | ------------------------------------------------ |
 | `repo`  | Yes      | URL of the hook repository (HTTPS or local path) |
 | `rev`   | Yes      | Git ref to checkout (tag, branch, or SHA)        |
 | `hooks` | Yes      | Array of hook definitions from this repo         |
 
+</div>
+
 ### Per-Hook Fields
+
+<div class="table-wrap">
 
 | Field            | Required | Description                                                                  |
 | ---------------- | -------- | ---------------------------------------------------------------------------- |
@@ -187,6 +193,8 @@ The framework clones these repos (at the pinned `rev`) and reads their hook meta
 | `verbose`        | No       | Print more output (default: `false`)                                         |
 | `log_file`       | No       | Write hook output to this file                                               |
 | `require_serial` | No       | Do not run this hook in parallel with other hooks (default: `false`)         |
+
+</div>
 
 ### File Type Matching
 
@@ -208,9 +216,9 @@ hooks:
     types: [json]
 ```
 
-Common file types: `file``symlink``directory``text``binary``python``ruby``javascript`
-`jsx``typescript``tsx``shell``yaml``json``toml``xml``html``css``markdown`
-`dockerfile``c``cpp``go``rust``java`.
+Common file types: `file`, `symlink`, `directory`, `text`, `binary`, `python`, `ruby`, `javascript`
+`jsx`, `typescript`, `tsx`, `shell`, `yaml`, `json`, `toml`, `xml`, `html`, `css`, `markdown`
+`dockerfile`, `c`, `cpp`, `go`, `rust`, `java`.
 
 ### Stages
 
@@ -234,7 +242,7 @@ This is how conventional commit validators work.
 ### Local Hooks
 
 The special `repo: local` entry defines hooks that run directly on the host system without cloning
-An external repository:
+an external repository:
 
 ```yaml
 repos:
@@ -258,7 +266,7 @@ repos:
 ## Built-in Hooks
 
 The `pre-commit-hooks` repository (`https://github.com/pre-commit/pre-commit-hooks`) is maintained
-By the pre-core team and provides the most widely-used hooks. Pin to a specific tag:
+by the pre-core team and provides the most widely-used hooks. Pin to a specific tag:
 
 ```yaml
 repos:
@@ -278,6 +286,8 @@ repos:
 ```
 
 ### Reference Table
+
+<div class="table-wrap">
 
 | Hook ID                                | What It Checks                                                | Auto-Fix? | Common Arguments                            |
 | -------------------------------------- | ------------------------------------------------------------- | --------- | ------------------------------------------- |
@@ -301,6 +311,8 @@ repos:
 | `fix-byte-order-marker`                | Removes BOM from UTF-8 files                                  | Yes       |                                             |
 | `fix-encoding-pragma`                  | Adds `# -*- coding: utf-8 -*-` to Python files if needed      | Yes       |                                             |
 | `name-tests-test`                      | Python test files follow naming convention                    | No        | `--pytest` to only match pytest-style names |
+
+</div>
 
 ### Practical Configuration
 
@@ -401,7 +413,7 @@ repos:
 
 **Note**: The `mirrors-*` repositories are maintained by the pre-commit team and provide pre-built
 Hooks for tools that do not natively support the pre-commit framework. For ESLint, you may also use
-The npm-based approach with `language: node` and `additional_dependencies`.
+the npm-based approach with `language: node` and `additional_dependencies`.
 
 ### Shell Scripts
 
@@ -481,7 +493,7 @@ repos:
 
 A hook is any executable that:
 
-1. Receives filenames as arguments (when `pass_filenames: true`Which is the default).
+1. Receives filenames as arguments (when `pass_filenames: true`. Which is the default).
 2. Reads from stdin if it needs to process piped content.
 3. Exits with code 0 on success, non-zero on failure.
 4. Prints diagnostics to stdout or stderr (stderr is preferred for error messages).
@@ -535,7 +547,7 @@ repos:
 ```
 
 The `language: script` type means the entry point is a script that will be executed directly. It
-Must be executable (`chmod +x`).
+must be executable (`chmod +x`).
 
 ### Python Hook
 
@@ -597,7 +609,7 @@ repos:
 ### System Language Hooks
 
 The `language: system` type runs the entry command directly on the host. This is useful for tools
-That are already installed globally:
+that are already installed globally:
 
 ```yaml
 repos:
@@ -708,7 +720,7 @@ $ pre-commit run --from-ref origin/main --to-ref HEAD
 ### Updating Hook Environments
 
 When you modify `.pre-commit-config.yaml` (add a new hook, change a version), the framework detects
-The change and reinstalls affected hooks on the next run:
+the change and reinstalls affected hooks on the next run:
 
 ```bash
 # Force reinstall all hook environments
@@ -907,15 +919,15 @@ jobs:
 ### Hooks Run on Staged Content, Not the Working Tree
 
 This is the most common source of confusion. The `pre-commit` framework stages files internally
-Before running hooks. If you edit a file after staging it, the hook sees the **staged** version, not
-Your latest edit. Fix: run `git add` again after editing.
+before running hooks. If you edit a file after staging it, the hook sees the **staged** version, not
+your latest edit. Fix: run `git add` again after editing.
 
 ### The Framework Creates Isolated Virtual Environments
 
 Each hook repository gets its own virtual environment under `~/.cache/pre-commit/`. If a hook
 Depends on a library that your project also uses, the versions may differ. This is by design, it
 Prevents hook dependencies from conflicting with project dependencies. If you need a hook to use
-Your project's environment, use `language: system` and manage dependencies yourself.
+your project's environment, use `language: system` and manage dependencies yourself.
 
 ### First Run Is Slow
 
@@ -930,13 +942,13 @@ git commit --no-verify -m "skip hooks"
 
 This bypasses all hooks. The framework cannot prevent this, it is a fundamental limitation of
 Client-side hooks. If you need to enforce hook execution, run `pre-commit run --all-files` in CI. CI
-Is the enforcement layer; local hooks are the convenience layer.
+is the enforcement layer; local hooks are the convenience layer.
 
 ### `--all-files` in CI Masks Incremental Issues
 
 Running `pre-commit run --all-files` in CI checks every file, not just the changed ones. This is
 Correct for CI (you want to catch all issues), but it means a CI failure may be caused by a file
-That was not modified in the PR. Use `--from-ref origin/main --to-ref HEAD` to limit CI checks to
+that was not modified in the PR. Use `--from-ref origin/main --to-ref HEAD` to limit CI checks to
 Changed files only.
 
 ### Mirror Repositories Can Be Outdated
@@ -948,7 +960,7 @@ Mirror repo's release page and compare with the upstream release before pinning 
 ### Multiple Hooks Modifying the Same File
 
 When two hooks both modify the same file (e.g., `black` reformats and `isort` reorders imports), the
-Order matters. If `isort` runs after `black`It may reformat in a way that `black` would change. The
+Order matters. If `isort` runs after `black`. It may reformat in a way that `black` would change. The
 framework runs hooks in the order they appear in the configuration. Order your hooks so that the
 Last modifier is the one whose output is canonical:
 
@@ -975,20 +987,9 @@ chmod +x scripts/check-no-debug.sh
 
 ### The `exclude` Pattern Applies to the Full File Path
 
-When you write `exclude: 'vendor/'`It matches the full path relative to the repository root, not
-Just the filename. Use `^vendor/` to anchor to the start, or test your patterns with
+When you write `exclude: 'vendor/'`. It matches the full path relative to the repository root, not
+just the filename. Use `^vendor/` to anchor to the start, or test your patterns with
 `pre-commit run --verbose` to see which files are being passed to each hook.
-
-
-```mermaid
-flowchart TD
-    A[09 Pre Commit Framework] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -1003,13 +1004,7 @@ practical implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

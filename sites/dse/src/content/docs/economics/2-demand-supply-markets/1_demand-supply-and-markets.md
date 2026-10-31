@@ -18,7 +18,7 @@ description: "Demand is the willingness and ability of consumers to purchase goo
 ### Definition
 
 Demand is the willingness and ability of consumers to purchase goods and services at various prices
-During a given period of time, **ceteris paribus** (all other things being equal).
+during a given period of time, **ceteris paribus** (all other things being equal).
 
 ### The Law of Demand
 
@@ -35,6 +35,8 @@ As the price of a good increases, the quantity demanded decreases, and vice vers
 
 ### Demand Schedule and Demand Curve
 
+<div class="table-wrap">
+
 | Price (USD) | Quantity Demanded |
 | ----------- | ----------------- |
 | 10          | 100               |
@@ -42,6 +44,8 @@ As the price of a good increases, the quantity demanded decreases, and vice vers
 | 40          | 50                |
 | 60          | 30                |
 | 80          | 10                |
+
+</div>
 
 ### Movements Along vs Shifts of the Demand Curve
 
@@ -51,6 +55,8 @@ As the price of a good increases, the quantity demanded decreases, and vice vers
 **Shift of the curve:** Caused by a change in non-price factors (change in **demand**).
 
 ### Factors Shifting Demand
+
+<div class="table-wrap">
 
 | Factor                               | Effect on Demand    |
 | ------------------------------------ | ------------------- |
@@ -63,6 +69,8 @@ As the price of a good increases, the quantity demanded decreases, and vice vers
 | Expectation of future price increase | Demand shifts right |
 | Successful advertising               | Demand shifts right |
 
+</div>
+
 :::tip
 Any other factor causes a **shift** of the curve. DSE exams frequently test this distinction.
 :::
@@ -71,7 +79,9 @@ Any other factor causes a **shift** of the curve. DSE exams frequently test this
 
 Market demand is the horizontal sum of all individual demands at each price level.
 
-$$Q_D = q_1 + q_2 + q_3 + \ldots + q_n$$
+$$
+Q_D = q_1 + q_2 + q_3 + \ldots + q_n
+$$
 
 ---
 
@@ -89,7 +99,7 @@ $$Q_D = q_1 + q_2 + q_3 + \ldots + q_n$$
 ### Definition
 
 Supply is the willingness and ability of producers to offer goods and services for sale at various
-Prices during a given period of time, **ceteris paribus**.
+prices during a given period of time, **ceteris paribus**.
 
 ### The Law of Supply
 
@@ -108,6 +118,8 @@ Incentivising producers to supply more.
 
 ### Factors Shifting Supply
 
+<div class="table-wrap">
+
 | Factor                                     | Effect on Supply                    |
 | ------------------------------------------ | ----------------------------------- |
 | Decrease in production costs               | Supply shifts right                 |
@@ -119,13 +131,17 @@ Incentivising producers to supply more.
 | Adverse weather (agricultural goods)       | Supply shifts left                  |
 | Expectation of future price increase       | Supply shifts left (withhold stock) |
 
+</div>
+
 > **Caution:** Warning "increase in supply" (shift). Be precise with terminology.
 >
 ### Market Supply
 
 Market supply is the horizontal sum of all individual firm supplies:
 
-$$Q_S = q_1 + q_2 + q_3 + \ldots + q_n$$
+$$
+Q_S = q_1 + q_2 + q_3 + \ldots + q_n
+$$
 
 ---
 
@@ -143,23 +159,31 @@ $$Q_S = q_1 + q_2 + q_3 + \ldots + q_n$$
 ### Definition
 
 Market equilibrium occurs where quantity demanded equals quantity supplied ($Q_D = Q_S$). At this
-Point, the market clears and there is no tendency for the price to change.
+point, the market clears and there is no tendency for the price to change.
 
 The equilibrium price is also called the **market-clearing price**.
 
 ### Worked Example 1
 
-Given $Q_D = 100 - 2P$ and $Q_S = 20 + 3P$Find the equilibrium price and quantity.
+Given $Q_D = 100 - 2P$ and $Q_S = 20 + 3P$ Find the equilibrium price and quantity.
 
 At equilibrium: $Q_D = Q_S$
 
-$$100 - 2P = 20 + 3P$$
+$$
+100 - 2P = 20 + 3P
+$$
 
-$$80 = 5P$$
+$$
+80 = 5P
+$$
 
-$$P = 16$$
+$$
+P = 16
+$$
 
-$$Q = 100 - 2(16) = 100 - 32 = 68$$
+$$
+Q = 100 - 2(16) = 100 - 32 = 68
+$$
 
 ### Disequilibrium
 
@@ -168,6 +192,8 @@ $$Q = 100 - 2(16) = 100 - 32 = 68$$
 **Shortage (excess demand):** When $P \lt P_e$, $Q_D \gt Q_S$. Price tends to rise.
 
 ### Changes in Equilibrium
+
+<div class="table-wrap">
 
 | Change                            | Effect on $P_e$ | Effect on $Q_e$ |
 | --------------------------------- | --------------- | --------------- |
@@ -178,17 +204,27 @@ $$Q = 100 - 2(16) = 100 - 32 = 68$$
 | Both demand and supply increase   | Ambiguous       | Rises           |
 | Both demand and supply decrease   | Ambiguous       | Falls           |
 
+</div>
+
 ### Worked Example 2
 
 If demand increases by 30 units at every price (new $Q_D = 130 - 2P$), find the new equilibrium.
 
-$$130 - 2P = 20 + 3P$$
+$$
+130 - 2P = 20 + 3P
+$$
 
-$$110 = 5P$$
+$$
+110 = 5P
+$$
 
-$$P = 22$$
+$$
+P = 22
+$$
 
-$$Q = 130 - 2(22) = 86$$
+$$
+Q = 130 - 2(22) = 86
+$$
 
 Price rose from 16 to 22; quantity rose from 68 to 86.
 
@@ -209,12 +245,16 @@ Price rose from 16 to 22; quantity rose from 68 to 86.
 
 PED measures the responsiveness of quantity demanded to a change in price:
 
-$$\mathrm{PED} = \frac{\%\ \mathrm{change in quantity demanded}}{\%\ \mathrm{change in price}} = \frac{\Delta Q / Q}{\Delta P / P}$$
+$$
+\mathrm{PED} = \frac{\%\ \mathrm{change in quantity demanded}}{\%\ \mathrm{change in price}} = \frac{\Delta Q / Q}{\Delta P / P}
+$$
 
 Since demand curves slope downward, PED is negative. By convention, we often report the **absolute
 value**.
 
 ### Categories of PED
+
+<div class="table-wrap">
 
 | Value             | Description         | Meaning                                              |
 | ----------------- | ------------------- | ---------------------------------------------------- |
@@ -224,7 +264,11 @@ value**.
 | PED &gt; 1        | Elastic             | Quantity changes proportionally more than price      |
 | PED = infinity    | Perfectly elastic   | Any price increase reduces quantity demanded to zero |
 
+</div>
+
 ### Factors Affecting PED
+
+<div class="table-wrap">
 
 | Factor                      | Higher PED                     | Lower PED               |
 | --------------------------- | ------------------------------ | ----------------------- |
@@ -234,15 +278,23 @@ value**.
 | Time period                 | Long run (more time to adjust) | Short run               |
 | Definition of market        | Narrow market (specific good)  | Broad market (category) |
 
+</div>
+
 ### PED and Total Revenue
 
-$$\mathrm{Total Revenue (TR)} = P \times Q$$
+$$
+\mathrm{Total Revenue (TR)} = P \times Q
+$$
+
+<div class="table-wrap">
 
 | PED                    | Price Increase | Price Decrease |
 | ---------------------- | -------------- | -------------- |
 | Elastic (PED &gt; 1)   | TR decreases   | TR increases   |
 | Inelastic (PED &lt; 1) | TR increases   | TR decreases   |
 | Unit elastic (PED = 1) | TR unchanged   | TR unchanged   |
+
+</div>
 
 :::tip
 Price if demand is inelastic. This is a very common exam question.
@@ -253,11 +305,17 @@ Price if demand is inelastic. This is a very common exam question.
 The price of a good increases from USD 50 to USD 60. Quantity demanded falls from 200 to 160 units.
 Calculate PED.
 
-$$\%\ \mathrm{change in } Q = \frac{160 - 200}{200} \times 100\% = -20\%$$
+$$
+\%\ \mathrm{change in } Q = \frac{160 - 200}{200} \times 100\% = -20\%
+$$
 
-$$\%\ \mathrm{change in } P = \frac{60 - 50}{50} \times 100\% = 20\%$$
+$$
+\%\ \mathrm{change in } P = \frac{60 - 50}{50} \times 100\% = 20\%
+$$
 
-$$\mathrm{PED} = \frac{-20\%}{20\%} = -1$$
+$$
+\mathrm{PED} = \frac{-20\%}{20\%} = -1
+$$
 
 PED = 1 (unit elastic by initial-value method). Note: total revenue changes from
 $50 \times 200 = 10\,000$ to $60 \times 160 = 9\,600$ (a decrease of 400). The rule "PED = 1 Implies
@@ -282,11 +340,15 @@ TR.
 
 PES measures the responsiveness of quantity supplied to a change in price:
 
-$$\mathrm{PES} = \frac{\%\ \mathrm{change in quantity supplied}}{\%\ \mathrm{change in price}} = \frac{\Delta Q / Q}{\Delta P / P}$$
+$$
+\mathrm{PES} = \frac{\%\ \mathrm{change in quantity supplied}}{\%\ \mathrm{change in price}} = \frac{\Delta Q / Q}{\Delta P / P}
+$$
 
 PES is positive because supply curves slope upward.
 
 ### Categories of PES
+
+<div class="table-wrap">
 
 | Value             | Description                                 |
 | ----------------- | ------------------------------------------- |
@@ -296,7 +358,11 @@ PES is positive because supply curves slope upward.
 | PES &gt; 1        | Elastic                                     |
 | PES = infinity    | Perfectly elastic (horizontal supply curve) |
 
+</div>
+
 ### Factors Affecting PES
+
+<div class="table-wrap">
 
 | Factor                   | Higher PES                  | Lower PES                  |
 | ------------------------ | --------------------------- | -------------------------- |
@@ -306,15 +372,23 @@ PES is positive because supply curves slope upward.
 | Storage ability          | Easy to store               | Perishable goods           |
 | Complexity of production | Simple production           | Complex production         |
 
+</div>
+
 ### Worked Example 4
 
 Price rises from USD 40 to USD 50. Quantity supplied rises from 300 to 450 units. Calculate PES.
 
-$$\%\ \mathrm{change in } Q = \frac{450 - 300}{300} \times 100\% = 50\%$$
+$$
+\%\ \mathrm{change in } Q = \frac{450 - 300}{300} \times 100\% = 50\%
+$$
 
-$$\%\ \mathrm{change in } P = \frac{50 - 40}{40} \times 100\% = 25\%$$
+$$
+\%\ \mathrm{change in } P = \frac{50 - 40}{40} \times 100\% = 25\%
+$$
 
-$$\mathrm{PES} = \frac{50\%}{25\%} = 2$$
+$$
+\mathrm{PES} = \frac{50\%}{25\%} = 2
+$$
 
 Supply is elastic (PES = 2 &gt; 1).
 
@@ -335,15 +409,21 @@ Supply is elastic (PES = 2 &gt; 1).
 
 YED measures the responsiveness of quantity demanded to a change in income:
 
-$$\mathrm{YED} = \frac{\%\ \mathrm{change in quantity demanded}}{\%\ \mathrm{change in income}}$$
+$$
+\mathrm{YED} = \frac{\%\ \mathrm{change in quantity demanded}}{\%\ \mathrm{change in income}}
+$$
 
 ### Categories
+
+<div class="table-wrap">
 
 | YED Value         | Type of Good            | Example                          |
 | ----------------- | ----------------------- | -------------------------------- |
 | YED &lt; 0        | Inferior good           | Generic brands, public transport |
 | 0 &lt; YED &lt; 1 | Normal good (necessity) | Rice, basic clothing             |
 | YED &gt; 1        | Normal good (luxury)    | Designer clothing, fine dining   |
+
+</div>
 
 ---
 
@@ -361,17 +441,23 @@ $$\mathrm{YED} = \frac{\%\ \mathrm{change in quantity demanded}}{\%\ \mathrm{cha
 ### Definition
 
 XED measures the responsiveness of quantity demanded of one good to a change in the price of another
-Good:
+good:
 
-$$\mathrm{XED} = \frac{\%\ \mathrm{change in quantity demanded of good A}}{\%\ \mathrm{change in price of good B}}$$
+$$
+\mathrm{XED} = \frac{\%\ \mathrm{change in quantity demanded of good A}}{\%\ \mathrm{change in price of good B}}
+$$
 
 ### Categories
+
+<div class="table-wrap">
 
 | XED Value  | Relationship    | Example         |
 | ---------- | --------------- | --------------- |
 | XED &gt; 0 | Substitutes     | Tea and coffee  |
 | XED &lt; 0 | Complements     | Cars and petrol |
 | XED = 0    | Unrelated goods | Cars and bread  |
+
+</div>
 
 The larger the absolute value of XED, the stronger the relationship between the goods.
 
@@ -404,14 +490,18 @@ The larger the absolute value of XED, the stronger the relationship between the 
 
 ### Worked Example 5
 
-Given $Q_D = 200 - 4P$ and $Q_S = 40 + 2P$The government sets a price ceiling at USD 20. Find the
-Resulting shortage.
+Given $Q_D = 200 - 4P$ and $Q_S = 40 + 2P$ The government sets a price ceiling at USD 20. Find the
+resulting shortage.
 
 At $P = 20$:
 
-$$Q_D = 200 - 4(20) = 200 - 80 = 120$$
+$$
+Q_D = 200 - 4(20) = 200 - 80 = 120
+$$
 
-$$Q_S = 40 + 2(20) = 40 + 40 = 80$$
+$$
+Q_S = 40 + 2(20) = 40 + 40 = 80
+$$
 
 Shortage $= Q_D - Q_S = 120 - 80 = 40$ units
 
@@ -426,31 +516,41 @@ A tax shifts the supply curve upward (leftward) by the amount of the tax.
 ### Tax Incidence (Burden)
 
 The burden of a tax is shared between consumers and producers. The distribution depends on
-Elasticity:
+elasticity:
 
 - If demand is **inelastic** relative to supply: consumers bear most of the tax burden
 - If supply is **inelastic** relative to demand: producers bear most of the tax burden
 
-$$\mathrm{Consumer burden} = P_{\mathrm{after tax}} - P_{\mathrm{before tax}}$$
+$$
+\mathrm{Consumer burden} = P_{\mathrm{after tax}} - P_{\mathrm{before tax}}
+$$
 
-$$\mathrm{Producer burden} = P_{\mathrm{before tax}} - P_{\mathrm{after tax (net)}}$$
+$$
+\mathrm{Producer burden} = P_{\mathrm{before tax}} - P_{\mathrm{after tax (net)}}
+$$
 
 ### Worked Example 6
 
-Given $Q_D = 100 - P$ and $Q_S = P - 20$A specific tax of USD 10 per unit is imposed. Find the new
+Given $Q_D = 100 - P$ and $Q_S = P - 20$ A specific tax of USD 10 per unit is imposed. Find the new
 Equilibrium, tax revenue, and the burden on consumers and producers.
 
 Original equilibrium: $100 - P = P - 20$ So $2P = 120$$P = 60$$Q = 40$.
 
 With tax, the supply becomes $Q_S = (P - 10) - 20 = P - 30$ (producers receive $P - 10$):
 
-$$100 - P = P - 30$$
+$$
+100 - P = P - 30
+$$
 
-$$130 = 2P$$
+$$
+130 = 2P
+$$
 
 $$P = 65$$ (price consumers pay)
 
-$$Q = 100 - 65 = 35$$
+$$
+Q = 100 - 65 = 35
+$$
 
 Producers receive $65 - 10 = 55$.
 
@@ -463,11 +563,15 @@ Producer burden $= 60 - 55 = 5$ per unit
 ### Subsidies
 
 A subsidy shifts the supply curve downward (rightward). Consumers pay less and producers receive
-More.
+more.
 
-$$\mathrm{Consumer benefit} = P_{\mathrm{before}} - P_{\mathrm{after}}$$
+$$
+\mathrm{Consumer benefit} = P_{\mathrm{before}} - P_{\mathrm{after}}
+$$
 
-$$\mathrm{Producer benefit} = (P_{\mathrm{after}} + \mathrm{subsidy}) - P_{\mathrm{before}}$$
+$$
+\mathrm{Producer benefit} = (P_{\mathrm{after}} + \mathrm{subsidy}) - P_{\mathrm{before}}
+$$
 
 ---
 
@@ -485,18 +589,20 @@ $$\mathrm{Producer benefit} = (P_{\mathrm{after}} + \mathrm{subsidy}) - P_{\math
 ### Definition
 
 Market failure occurs when the free market fails to allocate resources efficiently, resulting in a
-Loss of economic welfare (deadweight loss).
+loss of economic welfare (deadweight loss).
 
 ### Types of Market Failure
 
 #### 1. Externalities
 
 An externality is a cost or benefit that affects a third party who did not choose to incur that cost
-Or benefit.
+or benefit.
 
 **Negative externality (external cost):** The social cost exceeds the private cost.
 
-$$\mathrm{MSC} = \mathrm{MPC} + \mathrm{MEC}$$
+$$
+\mathrm{MSC} = \mathrm{MPC} + \mathrm{MEC}
+$$
 
 Where MSC = marginal social cost, MPC = marginal private cost, MEC = marginal external cost.
 
@@ -504,7 +610,9 @@ Example: pollution from a factory affects the health of nearby residents.
 
 **Positive externality (external benefit):** The social benefit exceeds the private benefit.
 
-$$\mathrm{MSB} = \mathrm{MPB} + \mathrm{MEB}$$
+$$
+\mathrm{MSB} = \mathrm{MPB} + \mathrm{MEB}
+$$
 
 Where MSB = marginal social benefit, MPB = marginal private benefit, MEB = marginal external
 Benefit.
@@ -515,11 +623,15 @@ Example: vaccination benefits not only the vaccinated person but also the commun
 
 Public goods are non-excludable and non-rivalrous.
 
+<div class="table-wrap">
+
 | Characteristic | Public Goods                      | Private Goods  |
 | -------------- | --------------------------------- | -------------- |
 | Excludability  | Non-excludable                    | Excludable     |
 | Rivalry        | Non-rivalrous                     | Rivalrous      |
 | Example        | National defence, street lighting | Food, clothing |
+
+</div>
 
 The **free-rider problem** means private firms will not produce public goods because they cannot
 Charge beneficiaries. Government must provide them.
@@ -538,6 +650,8 @@ Loss.
 
 ### Government Solutions to Market Failure
 
+<div class="table-wrap">
+
 | Market Failure        | Policy                                            |
 | --------------------- | ------------------------------------------------- |
 | Negative externality  | Tax (Pigouvian tax), regulation, tradable permits |
@@ -545,6 +659,8 @@ Loss.
 | Public goods          | Direct government provision                       |
 | Information asymmetry | Regulation, certification, labelling requirements |
 | Monopoly power        | Anti-trust laws, price regulation, privatisation  |
+
+</div>
 
 ---
 
@@ -557,17 +673,9 @@ Loss.
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Demand Supply And Markets] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table
+
+<div class="table-wrap">
 
 | Topic         | Key Concept                        | Formula                                |
 | ------------- | ---------------------------------- | -------------------------------------- |
@@ -579,6 +687,8 @@ flowchart TD
 | YED           | Responsiveness of demand to income | $\frac{\%\Delta Q_D}{\%\Delta Y}$      |
 | XED           | Relationship between goods         | $\frac{\%\Delta Q_{DA}}{\%\Delta P_B}$ |
 | Tax incidence | Depends on elasticity              | More inelastic side pays more          |
+
+</div>
 
 ---
 
@@ -625,8 +735,8 @@ Since XED is negative, goods `A` and `B` are **complements**.
 Arise?
 
 A price ceiling makes housing more affordable for low-income households. However, it creates a
-Shortage (excess demand), may reduce the quality and maintenance of rental properties, and could
-Lead to black market activities. Landlords may convert properties to other uses, reducing long-run
+shortage (excess demand), may reduce the quality and maintenance of rental properties, and could
+lead to black market activities. Landlords may convert properties to other uses, reducing long-run
 Supply.
 
 ---
@@ -652,7 +762,9 @@ Output by changing variable factors (e.g., labour, raw materials).
 ### Law of Diminishing Marginal Returns
 
 As more of a variable factor is added to a fixed factor, the marginal product of the variable factor
-Will eventually decrease.
+will eventually decrease.
+
+<div class="table-wrap">
 
 | Units of Labour | Total Product | Marginal Product | Average Product |
 | --------------- | ------------- | ---------------- | --------------- |
@@ -666,10 +778,14 @@ Will eventually decrease.
 | 7               | 75            | 0                | 10.7            |
 | 8               | 70            | -5               | 8.75            |
 
+</div>
+
 Marginal product starts to diminish after the 3rd worker. Negative marginal product begins at the
 8th worker (overcrowding).
 
 ### Costs of Production
+
+<div class="table-wrap">
 
 | Cost                        | Definition                                         | Formula                         |
 | --------------------------- | -------------------------------------------------- | ------------------------------- |
@@ -680,6 +796,8 @@ Marginal product starts to diminish after the 3rd worker. Negative marginal prod
 | Average variable cost (AVC) | Variable cost per unit                             | AVC = TVC / Q                   |
 | Average total cost (ATC)    | Total cost per unit                                | ATC = TC / Q                    |
 | Marginal cost (MC)          | Cost of producing one more unit                    | MC = change in TC / change in Q |
+
+</div>
 
 ### Cost Curves
 
@@ -693,11 +811,15 @@ Marginal product starts to diminish after the 3rd worker. Negative marginal prod
 >
 ### Revenue
 
+<div class="table-wrap">
+
 | Revenue               | Definition                         | Formula                         |
 | --------------------- | ---------------------------------- | ------------------------------- |
 | Total revenue (TR)    | Total income from sales            | TR = P $\times$ Q               |
 | Average revenue (AR)  | Revenue per unit                   | AR = TR / Q = P                 |
 | Marginal revenue (MR) | Revenue from selling one more unit | MR = change in TR / change in Q |
+
+</div>
 
 ### Profit Maximisation
 
@@ -711,6 +833,8 @@ A firm maximises profit where **marginal revenue equals marginal cost** (MR = MC
 
 Given the following data, find the profit-maximising output.
 
+<div class="table-wrap">
+
 | Output (Q) | Price (USD) | TC (USD) |
 | ---------- | ----------- | -------- |
 | 0          | 50          | 30       |
@@ -720,6 +844,10 @@ Given the following data, find the profit-maximising output.
 | 4          | 50          | 140      |
 | 5          | 50          | 185      |
 | 6          | 50          | 240      |
+
+</div>
+
+<div class="table-wrap">
 
 | Q   | TR (USD) | MR (USD) | MC (USD) |
 | --- | -------- | -------- | -------- |
@@ -731,8 +859,10 @@ Given the following data, find the profit-maximising output.
 | 5   | 250      | 50       | 45       |
 | 6   | 300      | 50       | 55       |
 
+</div>
+
 MR = MC between Q = 5 (MR = 50, MC = 45) and Q = 6 (MR = 50, MC = 55). Profit is maximised at Q = 5
-Where MR is closest to MC.
+where MR is closest to MC.
 
 Maximum profit: TR - TC = 250 - 185 = USD 65.
 
@@ -788,6 +918,8 @@ Maximum profit: TR - TC = 250 - 185 = USD 65.
 
 **Monopoly vs Perfect Competition:**
 
+<div class="table-wrap">
+
 | Feature          | Perfect Competition            | Monopoly           |
 | ---------------- | ------------------------------ | ------------------ |
 | Price            | Lower                          | Higher             |
@@ -796,6 +928,8 @@ Maximum profit: TR - TC = 250 - 185 = USD 65.
 | Consumer surplus | Larger                         | Smaller            |
 | Deadweight loss  | None                           | Present            |
 | Innovation       | May lack incentive             | May have incentive |
+
+</div>
 
 :::caution
 lower total Revenue.
@@ -814,7 +948,7 @@ lower total Revenue.
 
 - **Assuming equilibrium price is always "fair":** Market equilibrium is where quantity demanded
   equals quantity supplied. This is a positive (descriptive) outcome, not a normative (ethical) one.
-  The equilibrium price may be too high for poor consumers to afford essential goods, which is why
+  the equilibrium price may be too high for poor consumers to afford essential goods, which is why
   governments may intervene with price controls or subsidies.
 
 - **Misidentifying the effects of taxes and subsidies on equilibrium:** A tax on producers shifts
@@ -833,7 +967,9 @@ National income can be measured in three ways:
 2. **Income method:** Sum of all incomes (wages, rent, interest, profit)
 3. **Expenditure method:** Sum of all spending
 
-$$\mathrm{GDP} = C + I + G + (X - M)$$
+$$
+\mathrm{GDP} = C + I + G + (X - M)
+$$
 
 Where:
 
@@ -845,12 +981,16 @@ Where:
 
 ### Key Measures
 
+<div class="table-wrap">
+
 | Measure                      | Definition                                                  |
 | ---------------------------- | ----------------------------------------------------------- |
 | GDP (Gross Domestic Product) | Total value of goods and services produced within a country |
 | GNP (Gross National Product) | GDP + Net income from abroad                                |
 | NNP (Net National Product)   | GNP - Depreciation                                          |
 | Per capita income            | National income / Population                                |
+
+</div>
 
 ### Limitations of GDP as a Measure of Welfare
 
@@ -889,11 +1029,15 @@ Inflation is a sustained increase in the general price level.
 
 ### Unemployment
 
+<div class="table-wrap">
+
 | Type       | Cause                          | Solution               |
 | ---------- | ------------------------------ | ---------------------- |
 | Frictional | Time between jobs              | Better job information |
 | Structural | Mismatch of skills or location | Retraining, relocation |
 | Cyclical   | Insufficient aggregate demand  | Fiscal/monetary policy |
+
+</div>
 
 ### Phillips Curve
 
@@ -901,7 +1045,7 @@ The Phillips curve suggests an inverse relationship between inflation and unempl
 Run. Lower unemployment tends to be associated with higher inflation, and vice versa.
 
 In the long run, the Phillips curve is vertical at the natural rate of unemployment (NRU), meaning
-There is no trade-off between inflation and unemployment.
+there is no trade-off between inflation and unemployment.
 
 ---
 
@@ -966,19 +1110,31 @@ Monetary policy involves the central bank's control of the money supply and inte
 **Question 4:** A firm has fixed costs of USD 200 and variable costs given by VC = 10Q + 0.5Q$^2$.
 Find the output at which average total cost is minimised.
 
-$$TC = 200 + 10Q + 0.5Q^2$$
+$$
+TC = 200 + 10Q + 0.5Q^2
+$$
 
-$$ATC = \frac{200}{Q} + 10 + 0.5Q$$
+$$
+ATC = \frac{200}{Q} + 10 + 0.5Q
+$$
 
 To minimise ATC, take the derivative and set to zero:
 
-$$\frac{d(ATC)}{dQ} = -\frac{200}{Q^2} + 0.5 = 0$$
+$$
+\frac{d(ATC)}{dQ} = -\frac{200}{Q^2} + 0.5 = 0
+$$
 
-$$0.5 = \frac{200}{Q^2}$$
+$$
+0.5 = \frac{200}{Q^2}
+$$
 
-$$Q^2 = 400$$
+$$
+Q^2 = 400
+$$
 
-$$Q = 20$$
+$$
+Q = 20
+$$
 
 At Q = 20: ATC = 200/20 + 10 + 0.5(20) = 10 + 10 + 10 = USD 30.
 
@@ -1009,7 +1165,7 @@ $\mathrm{DWL} = \frac{1}{2} \times 8 \times (40 - 29.33) = \frac{1}{2} \times 8 
 A monopoly produces where MR = MC. Since the monopoly's MR curve lies below the demand curve (AR),
 The price charged is greater than MC (P \gt MC). This means the value consumers place on the last
 Unit (P) exceeds the cost of producing it (MC). Society would benefit from more output, but the
-Monopoly restricts output to maximise profit, creating a deadweight loss. In perfect competition, P
+monopoly restricts output to maximise profit, creating a deadweight loss. In perfect competition, P
 = MC, which is allocatively efficient.
 
 ---
@@ -1035,16 +1191,16 @@ what Happens to equilibrium quantity? What about price?
 
 ### Details
 
-(a) `150 - 3P = 2P - 30``180 = 5P``P = 36`. `Q = 150 - 108 = 42`.
+(a) `150 - 3P = 2P - 30`, `180 = 5P`, `P = 36`. `Q = 150 - 108 = 42`.
 
-(b) `210 - 3P = 2P - 30``240 = 5P``P = 48`. `Q = 210 - 144 = 66`.
+(b) `210 - 3P = 2P - 30`, `240 = 5P`, `P = 48`. `Q = 210 - 144 = 66`.
 
 Price rises from 36 to 48; quantity rises from 42 to 66.
 
-(c) New supply: `Q_S = 2P + 30`. `210 - 3P = 2P + 30``180 = 5P``P = 36`. `Q = 210 - 108 = 102`.
+(c) New supply: `Q_S = 2P + 30`. `210 - 3P = 2P + 30`, `180 = 5P`, `P = 36`. `Q = 210 - 108 = 102`.
 
 Quantity rises (42 to 102), but price returns to 36. When both curves shift right by the same
-Amount, price is unchanged and quantity increases.
+amount, price is unchanged and quantity increases.
 
 If you get this wrong, revise: [Changes in Equilibrium](#changes-in-equilibrium)
 
@@ -1075,7 +1231,7 @@ When the price of coffee rises by 10%, the quantity demanded of tea rises by 6%.
 milk Rises by 15%, the quantity demanded of coffee falls by 3%.
 
 (a) What is the relationship between coffee and tea? (b) What is the relationship between coffee and
-Milk? (c) If the price of coffee is expected to rise, what should a tea producer do?
+milk? (c) If the price of coffee is expected to rise, what should a tea producer do?
 
 <summary>Solution</summary>
 
@@ -1092,20 +1248,20 @@ If you get this wrong, revise: [Cross Elasticity of Demand (XED)](#cross-elastic
 <summary>Problem 4: Price Ceiling</summary>
 
 The market for rental housing has demand $Q_D = 500 - 2P$ and supply $Q_S = 100 + 3P$ (quantity in
-Units, price in USD hundred).
+units, price in USD hundred).
 
 (a) Find the equilibrium rent and quantity. (b) The government imposes a rent ceiling of USD 40
 (hundred). Find the resulting shortage. (c) What problems might arise?
 
 <summary>Solution</summary>
 
-(a) `500 - 2P = 100 + 3P``400 = 5P``P = 80` (hundred). `Q = 500 - 160 = 340`.
+(a) `500 - 2P = 100 + 3P`, `400 = 5P`, `P = 80` (hundred). `Q = 500 - 160 = 340`.
 
 (b) At `P = 40`: `Q_D = 500 - 80 = 420`. `Q_S = 100 + 120 = 220`. Shortage = `420 - 220 = 200`
 units.
 
 (c) Problems: black market (landlords sublet at above-ceiling prices), reduced quality and
-Maintenance (landlords cut costs), reduced supply in the long run (landlords convert properties),
+maintenance (landlords cut costs), reduced supply in the long run (landlords convert properties),
 Inefficient allocation (units not rented to those who value them most).
 
 If you get this wrong, revise: [Price Controls](#price-controls)
@@ -1113,16 +1269,16 @@ If you get this wrong, revise: [Price Controls](#price-controls)
 <summary>Problem 5: Tax Incidence</summary>
 
 Demand: $Q_D = 300 - 5P$. Supply: $Q_S = 4P - 60$. A specific tax of USD 6 per unit is imposed on
-Producers.
+producers.
 
 (a) Find the original equilibrium. (b) Find the new equilibrium after the tax. (c) Calculate the
-Burden on consumers and producers. (d) Who bears more of the tax burden and why?
+burden on consumers and producers. (d) Who bears more of the tax burden and why?
 
 <summary>Solution</summary>
 
-(a) `300 - 5P = 4P - 60``360 = 9P``P = 40`. `Q = 300 - 200 = 100`.
+(a) `300 - 5P = 4P - 60`, `360 = 9P`, `P = 40`. `Q = 300 - 200 = 100`.
 
-(b) Supply shifts: `Q_S = 4(P-6) - 60 = 4P - 84`. `300 - 5P = 4P - 84``384 = 9P``P = 42.67`
+(b) Supply shifts: `Q_S = 4(P-6) - 60 = 4P - 84`. `300 - 5P = 4P - 84`, `384 = 9P`, `P = 42.67`
 (consumers pay). Producers receive `42.67 - 6 = 36.67`. `Q = 300 - 213.3 = 86.67`.
 
 (c) Consumer burden per unit = `42.67 - 40 = 2.67`. Producer burden per unit = `40 - 36.67 = 3.33`.
@@ -1150,7 +1306,7 @@ businesses?
 taxis To buses). Demand for restaurant meals **decreases** (people cut back on luxuries).
 
 (c) Businesses need to anticipate how demand changes with the business cycle. Bus operators should
-Prepare for higher demand during recessions; restaurants should plan for lower demand and may need
+prepare for higher demand during recessions; restaurants should plan for lower demand and may need
 to Adjust pricing or offer promotions.
 
 If you get this wrong, revise: [Income Elasticity of Demand (YED)](#income-elasticity-of-demand-yed)
@@ -1161,13 +1317,13 @@ Demand: $Q_D = 200 - 2P$. Supply: $Q_S = 3P - 80$. The government provides a sub
 unit To producers.
 
 (a) Find the original equilibrium. (b) Find the new equilibrium after the subsidy. (c) How much does
-The subsidy cost the government? (d) Who benefits more from the subsidy -- consumers or producers?
+the subsidy cost the government? (d) Who benefits more from the subsidy -- consumers or producers?
 
 <summary>Solution</summary>
 
-(a) `200 - 2P = 3P - 80``280 = 5P``P = 56`. `Q = 200 - 112 = 88`.
+(a) `200 - 2P = 3P - 80`, `280 = 5P`, `P = 56`. `Q = 200 - 112 = 88`.
 
-(b) Supply shifts down: `Q_S = 3(P+5) - 80 = 3P - 65`. `200 - 2P = 3P - 65``265 = 5P``P = 53`
+(b) Supply shifts down: `Q_S = 3(P+5) - 80 = 3P - 65`. `200 - 2P = 3P - 65`, `265 = 5P`, `P = 53`
 (consumers pay). Producers receive `53 + 5 = 58`. `Q = 200 - 106 = 94`.
 
 (c) Government cost = `5 \times 94 = 470`.
@@ -1188,9 +1344,9 @@ A factory producing chemicals has `MPC = 10 + Q`. The marginal external cost is 
 
 <summary>Solution</summary>
 
-(a) Market: `10 + Q = 60 - Q``2Q = 50``Q = 25`. `P = 35`.
+(a) Market: `10 + Q = 60 - Q`, `2Q = 50`, `Q = 25`. `P = 35`.
 
-(b) Social optimum: `MSC = MPC + MEC = 10 + Q + 8 = 18 + Q`. `18 + Q = 60 - Q``2Q = 42``Q = 21`.
+(b) Social optimum: `MSC = MPC + MEC = 10 + Q + 8 = 18 + Q`. `18 + Q = 60 - Q`, `2Q = 42`, `Q = 21`.
 `P = 39` (price consumers pay). Producers receive `39 - 8 = 31`.
 
 (c) DWL = `0.5 \times 8 \times (25 - 21) = 0.5 \times 8 \times 4 = 16`.
@@ -1356,7 +1512,7 @@ off despite lower nominal rents.
 
 (a) At $P = 15\,000$: $Q_d = 18000 - 6000 = 12\,000$. $Q_s = 30000 - 30000 = 0$.
 
-This gives $Q_s = 0$Which means the supply curve must be recalibrated. Let me use:
+This gives $Q_s = 0$ Which means the supply curve must be recalibrated. Let me use:
 $Q_s = -6000 + 0.8P$.
 
 At $P = 20\,000$: $Q_s = -6000 + 16000 = 10\,000 = Q^*$. $Q_d = 18000 - 8000 = 10\,000 = Q^*$. Good.

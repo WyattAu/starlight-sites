@@ -23,13 +23,13 @@ categories:
 
 Building command-line interfaces in Python is not a "pick one and go" decision. The standard library
 Gives you `sys.argv` (bare metal) and `argparse` (batteries-included), while third-party libraries
-Like `click` and `typer` offer increasingly ergonomic abstractions. Each layer trades control for
+like `click` and `typer` offer increasingly ergonomic abstractions. Each layer trades control for
 Convenience. Understanding what happens beneath the abstractions,how arguments are parsed, how types
-Are coerced, how errors are surfaced,matters when your tool runs in production, in CI pipelines, on
+are coerced, how errors are surfaced,matters when your tool runs in production, in CI pipelines, on
 Windows terminals with broken encodings, or under `set -e` where non-zero exits kill the entire
 Script.
 
-This file covers the full spectrum: from raw `sys.argv` access through `argparse``click``typer`
+This file covers the full spectrum: from raw `sys.argv` access through `argparse`, `click`, `typer`
 Entry point configuration, layered config, and rich output. Every section explains not just _how_,
 But _why_ the mechanism exists and where it breaks.
 
@@ -37,7 +37,7 @@ But _why_ the mechanism exists and where it breaks.
 
 `sys.argv` is a list of strings passed to the Python interpreter. It is the lowest-level argument
 Interface available,no parsing, no validation, no help text. You get exactly what the shell gave
-You, split on whitespace according to the shell"s own rules.
+you, split on whitespace according to the shell"s own rules.
 
 ```python
 import sys
@@ -55,9 +55,9 @@ if __name__ == "__main__":
 ```
 
 **Index 0 is always the script name.** This is the path as the OS resolved it,not necessarily how
-The user invoked it. If the user runs `python ./scripts/build.py``sys.argv[0]` is
-`./scripts/build.py`. If they run `python -m mypackage``sys.argv[0]` is the path to the resolved
-Module file. If the interpreter is invoked with `-c``sys.argv[0]` is `'-c'`.
+The user invoked it. If the user runs `python ./scripts/build.py`, `sys.argv[0]` is
+`./scripts/build.py`. If they run `python -m mypackage`, `sys.argv[0]` is the path to the resolved
+Module file. If the interpreter is invoked with `-c`, `sys.argv[0]` is `'-c'`.
 
 **Why `sys.argv` still matters even when you use argparse/click/typer:** Every higher-level parser
 Consumes `sys.argv[1:]` (or a slice you provide). Understanding the raw list is essential for
@@ -66,7 +66,7 @@ Expansion, or a wrapper script that injects extra positional arguments.
 
 **Limitations:**
 
-- No type coercion. Everything is a string. `sys.argv[1]` is `"42"`Not `42`.
+- No type coercion. Everything is a string. `sys.argv[1]` is `"42"`. Not `42`.
 - No help generation. You write it yourself or your users read source.
 - No flag handling. `-v` and `--verbose` are just positional strings you must manually detect.
 - No validation. Bounds checking, enum membership, file existence,all manual.
@@ -78,7 +78,7 @@ Use repeatedly, use a real parser.
 ## argparse
 
 `argparse` is the standard library's argument parsing module. It is comprehensive, well-tested, and
-Has zero dependencies. It handles positional arguments, optional flags, type coercion, defaults,
+has zero dependencies. It handles positional arguments, optional flags, type coercion, defaults,
 Mutually exclusive groups, subcommands, and help formatting. The API is verbose but explicit,every
 Behavior is opt-in.
 
@@ -107,7 +107,7 @@ Key constructor parameters:
 - `parents`: accepts a list of `ArgumentParser` instances whose arguments are copied in,useful for
   shared argument sets across subcommands.
 - `argument_default`: sets a global default for all arguments that don't specify their own.
-- `exit_on_error`: (3.9+) if `False``parse_args()` raises `ArgumentError` instead of calling
+- `exit_on_error`: (3.9+) if `False`, `parse_args()` raises `ArgumentError` instead of calling
   `sys.exit()`. Essential for library code that parses args without terminating the process.
 - `fromfile_prefix_chars`: e.g. `@` allows `@args.txt` to read arguments from a file. Useful for
   circumventing shell argument length limits.
@@ -120,7 +120,7 @@ parser.add_argument("output", help="Path to the output file")
 ```
 
 Positional arguments are required by default. The order matters,they are bound to their position in
-The command line, not their name.
+the command line, not their name.
 
 ### Optional Arguments
 
@@ -154,7 +154,7 @@ parser.add_argument("--log-level", choices=["DEBUG", "INFO", "WARNING", "ERROR"]
 ```
 
 `type` accepts any callable that takes a string and returns a value. This means you can pass
-`pathlib.Path``int`A custom enum constructor, or a validation function:
+`pathlib.Path`, `int`A custom enum constructor, or a validation function:
 
 ```python
 def positive_int(value: str) -> int:
@@ -166,13 +166,15 @@ def positive_int(value: str) -> int:
 parser.add_argument("--workers", type=positive_int, default=4)
 ```
 
-`choices` does a membership check after type coercion. If `type=int` and `choices=[1, 2, 4]`The
+`choices` does a membership check after type coercion. If `type=int` and `choices=[1, 2, 4]`. The
 String `"1"` is coerced to `1` and then checked against the list. If the value fails coercion, the
 Type error fires first.
 
 ### nargs
 
 `nargs` controls how many command-line tokens an argument consumes:
+
+<div class="table-wrap">
 
 | Value     | Meaning   | Example                    | Result                    |
 | --------- | --------- | -------------------------- | ------------------------- |
@@ -182,8 +184,10 @@ Type error fires first.
 | `*`       | 0 or more | `--tag a b c` or omitted   | `["a", "b", "c"]` or `[]` |
 | `+`       | 1 or more | `--file a.txt b.txt`       | `["a.txt", "b.txt"]`      |
 
+</div>
+
 `nargs="?"` has special behavior: when the flag is present without a value, `const` is stored
-Instead of `default`. When the flag is absent entirely, `default` is stored.
+instead of `default`. When the flag is absent entirely, `default` is stored.
 
 ```python
 parser.add_argument("--sort", nargs="?", const="asc", default="none",
@@ -203,8 +207,8 @@ group.add_argument("--delete", action="store_true", help="Delete the resource")
 group.add_argument("--update", action="store_true", help="Update the resource")
 ```
 
-Exactly one of `--create``--delete`Or `--update` must be provided. If none or more than one is
-Given, argparse exits with an error message.
+Exactly one of `--create`, `--delete` or `--update` must be provided. If none or more than one is
+given, argparse exits with an error message.
 
 ### Subparsers
 
@@ -241,7 +245,7 @@ Consistent.
 
 `click` is a third-party library (`pip install click`) that replaces argparse's imperative API with
 A declarative decorator-based one. The core idea: a CLI command is a function, arguments and options
-Are decorators on that function's parameters.
+are decorators on that function's parameters.
 
 ### Basic Command
 
@@ -294,7 +298,7 @@ Parse time, not when you open the file later. This fails fast with a clear error
 
 `click.File()` opens the file and passes a file object to your function. The file is opened at parse
 Time and closed when the context exits. This means a typo in a required input file path prevents
-Your function from ever running.
+your function from ever running.
 
 ### Groups and Subcommands
 
@@ -356,7 +360,7 @@ with click.progressbar(range(100), label="Processing") as bar:
 
 Click's progress bar writes directly to stderr by default, so it does not interfere with piped
 Stdout. It handles terminal width detection and falls back to a simple linear output when stdout is
-Not a TTY (e.g., in CI).
+not a TTY (e.g., in CI).
 
 ### Colors
 
@@ -373,7 +377,7 @@ Critical for CI pipelines where ANSI escape codes corrupt log files.
 ### Why click is more ergonomic than argparse
 
 1. **No boilerplate.** The function signature IS the CLI spec. In argparse, you define the parser,
-   add arguments, parse, then manually unpack `args.x``args.y``args.z` into local variables or pass
+   add arguments, parse, then manually unpack `args.x`, `args.y`, `args.z` into local variables or pass
    the namespace object around.
 2. **Composable.** Groups and commands are separate functions that can be defined in different
    modules and registered at import time. Argparse subparsers require all definitions in one place
@@ -569,7 +573,7 @@ if __name__ == "__main__":
 
 **Why `python -m` matters:** It ensures the package is on `sys.path` correctly. Running
 `python path/to/mypackage/__main__.py` directly may fail because the parent directory is not on
-`sys.path`So sibling packages cannot be imported. `python -m` resolves this by adding the current
+`sys.path`. So sibling packages cannot be imported. `python -m` resolves this by adding the current
 Directory (or the appropriate search path) to `sys.path` and then locating the package.
 
 ### The `if __name__ == "__main__":` Pattern
@@ -610,11 +614,11 @@ mytool-gui = "mypackage.gui:main"
 
 `gui-scripts` is identical to `scripts` except on Windows, where `console_scripts` generates `.exe`
 Wrappers that open a console window and `gui-scripts` generates `.exe` wrappers that do not. On
-Non-Windows platforms, there is no difference.
+non-Windows platforms, there is no difference.
 
 **Entry points vs `__main__.py`:** Use both. `__main__.py` supports `python -m mypackage` for
 Development and debugging. `[project.scripts]` supports `mytool` for installed usage. They can (and
-Should) call the same `main()` function.
+should) call the same `main()` function.
 
 ## Configuration Files
 
@@ -668,7 +672,7 @@ logs = %(base)s/logs
 ```
 
 Limitations: no nested sections, no native list/dict types (everything is a string), no comments on
-The same line as a value in the default format.
+the same line as a value in the default format.
 
 ### tomllib (Python 3.11+)
 
@@ -696,7 +700,7 @@ experimental = ["graphql", "websockets"]
 ```
 
 `tomllib` is read-only (it parses TOML). For writing TOML, use `tomli_w` or similar third-party
-Libraries. For Python < 3.11, use `tomli` (API-compatible backport: `pip install tomli`Then
+Libraries. For Python < 3.11, use `tomli` (API-compatible backport: `pip install tomli`. Then
 `import tomli as tomllib`).
 
 ### JSON
@@ -724,7 +728,7 @@ with open("config.yaml") as f:
 ```
 
 YAML supports comments, multi-line strings, anchors/aliases, and has a flexible syntax. **Always use
-`yaml.safe_load()`Never `yaml.load()`.** `yaml.load()` can execute arbitrary Python code via
+`yaml.safe_load()`. Never `yaml.load()`.** `yaml.load()` can execute arbitrary Python code via
 `!!python/object/apply:` tags. This is a well-known remote code execution vector.
 
 YAML's flexibility is also its danger. The spec is large and ambiguous. Different YAML parsers
@@ -864,7 +868,7 @@ console.print(tree)
 
 Use `click.echo()` for simple status messages, prompts, and output that should remain
 Plain-text-compatible (piped to files, processed by other tools). Use `rich` for display output
-Where formatting enhances readability (tables, progress, structured data). They coexist well,rich
+where formatting enhances readability (tables, progress, structured data). They coexist well,rich
 Writes to stderr for progress, click.echo writes to stdout for data output.
 
 ## Common Patterns
@@ -904,8 +908,8 @@ def deploy(env, dry_run):
 ```
 
 Dry-run is critical for infrastructure tools. The principle: the tool should print exactly what it
-Would do, using the same code path as the real operation, but skip the side effects. If your dry-run
-And real execution follow different code paths, the dry-run output is a lie.
+would do, using the same code path as the real operation, but skip the side effects. If your dry-run
+and real execution follow different code paths, the dry-run output is a lie.
 
 ### Output Format Selection
 
@@ -1034,7 +1038,7 @@ Propagates through `finally` blocks, so cleanup code will still run.
 
 Windows uses a different default encoding than Unix. `sys.stdout.encoding` may be `cp1252` on
 Windows, which cannot represent all Unicode characters. When your tool outputs UTF-8 text (JSON with
-Non-ASCII, user names with accents, etc.), this causes `UnicodeEncodeError`.
+non-ASCII, user names with accents, etc.), this causes `UnicodeEncodeError`.
 
 ```python
 import sys
@@ -1066,7 +1070,7 @@ mytool --input "my file.txt"
 
 This is not a Python bug. It is a shell behavior. However, your tool should produce a clear error
 Message in this case, not a confusing traceback. Argparse does this reasonably well; click and typer
-Do too. Test your tool with paths containing spaces to verify.
+do too. Test your tool with paths containing spaces to verify.
 
 ### Boolean Flags: store_true vs flag_value
 
@@ -1078,8 +1082,8 @@ parser.add_argument("--verbose", action="store_true")
 parser.add_argument("--verbose", action="store_false")  # CONFLICT: same dest, different action
 ```
 
-This does not work as expected. Both flags write to `args.verbose`But one sets it `True` and the
-Other `False`. The last one to appear on the command line wins, which is confusing.
+This does not work as expected. Both flags write to `args.verbose`. But one sets it `True` and the
+other `False`. The last one to appear on the command line wins, which is confusing.
 
 The fix in argparse 3.9+:
 
@@ -1105,7 +1109,7 @@ verbose: bool = False
 ### Argument Parsing in Subcommands
 
 A common mistake is defining a global option on the parent parser and expecting it to be available
-In subcommands without explicit propagation. In argparse, parent arguments are available in
+in subcommands without explicit propagation. In argparse, parent arguments are available in
 Subcommands only if you use `parents=[parent_parser]` or parse the entire argv once. In click and
 Typer, options defined on the group function are available to all subcommands via
 `click.pass_context`.
@@ -1135,7 +1139,7 @@ Type annotations in typer earn their value,they reject bad input before your fun
 
 ### Assuming stdout Is a Terminal
 
-In CI pipelines, `docker run``cron` jobs, and IDE terminals, stdout may not be a TTY. Progress Bars
+In CI pipelines, `docker run`, `cron` jobs, and IDE terminals, stdout may not be a TTY. Progress Bars
 that write ANSI escape codes to a non-TTY produce garbled output in log files. Both click and Rich
 detect `isatty()` and degrade gracefully, but custom escape code output must check explicitly:
 
@@ -1164,16 +1168,6 @@ subparsers = parser.add_subparsers(dest="command", required=True)
 This fails fast with a clear "required: expected at least one argument" message instead of a
 Traceback inside your own code.
 
-```mermaid
-flowchart TD
-    A[03 Cli Tools] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of cli tools, including underlying theory, practical
@@ -1187,17 +1181,11 @@ implementation, and key applications.
 - decorators and context managers
 - error handling with try/except
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Command-line tools are the workhorses of automation: they take inputs, process them, and produce outputs without the overhead of a graphical interface. The `argparse` module is like a restaurant order form that validates your choices before the kitchen starts cooking. `subprocess` lets your Python script orchestrate other programs the way a conductor leads an orchestra, each instrument playing its part while the conductor coordinates timing. Environment variables are the settings pinned to the refrigerator that everyone in the household can read.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

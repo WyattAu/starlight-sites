@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Quadratics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
@@ -58,7 +47,9 @@ parameter.]
 
 The discriminant is:
 
-$$\Delta = (p+1)^2 - 4p(p-1) = p^2 + 2p + 1 - 4p^2 + 4p = -3p^2 + 6p + 1$$
+$$
+\Delta = (p+1)^2 - 4p(p-1) = p^2 + 2p + 1 - 4p^2 + 4p = -3p^2 + 6p + 1
+$$
 
 **(a)** Two distinct real roots require $\Delta > 0$:
 
@@ -66,26 +57,34 @@ $$-3p^2 + 6p + 1 > 0$$ $$3p^2 - 6p - 1 < 0$$
 
 The roots of $3p^2 - 6p - 1 = 0$ are:
 
-$$p = \frac{6 \pm \sqrt{36 + 12}}{6} = \frac{6 \pm \sqrt{48}}{6} = \frac{6 \pm 4\sqrt{3}}{6} = \frac{3 \pm 2\sqrt{3}}{3} = 1 \pm \frac{2\sqrt{3}}{3}$$
+$$
+p = \frac{6 \pm \sqrt{36 + 12}}{6} = \frac{6 \pm \sqrt{48}}{6} = \frac{6 \pm 4\sqrt{3}}{6} = \frac{3 \pm 2\sqrt{3}}{3} = 1 \pm \frac{2\sqrt{3}}{3}
+$$
 
 Since $3p^2 - 6p - 1$ is a positive quadratic, it is negative between the roots:
 
-$$1 - \frac{2\sqrt{3}}{3} < p < 1 + \frac{2\sqrt{3}}{3}$$
+$$
+1 - \frac{2\sqrt{3}}{3} < p < 1 + \frac{2\sqrt{3}}{3}
+$$
 
 Approximately: $-0.155 < p < 2.155$.
 
-Note: We also require $p \neq 0$ for this to be a genuine quadratic. If $p = 0$The equation becomes
-$x - 1 = 0$Which has one real root. So $p = 0$ is excluded from the quadratic case.
+Note: We also require $p \neq 0$ for this to be a genuine quadratic. If $p = 0$ The equation becomes
+$x - 1 = 0$ Which has one real root. So $p = 0$ is excluded from the quadratic case.
 
 **(b)** A repeated root requires $\Delta = 0$:
 
-$$p = 1 \pm \frac{2\sqrt{3}}{3}$$
+$$
+p = 1 \pm \frac{2\sqrt{3}}{3}
+$$
 
 **(c)** No real roots require $\Delta < 0$:
 
-$$p < 1 - \frac{2\sqrt{3}}{3} \quad \text{or} \quad p > 1 + \frac{2\sqrt{3}}{3}$$
+$$
+p < 1 - \frac{2\sqrt{3}}{3} \quad \text{or} \quad p > 1 + \frac{2\sqrt{3}}{3}
+$$
 
-**Positive roots condition:** By Vieta"s formulas, for both roots to be positive we need:
+**Positive roots condition:** By Vieta's formulas, for both roots to be positive we need:
 
 - Sum of roots $> 0$: $-\frac{p+1}{p} > 0$
 - Product of roots $> 0$: $\frac{p-1}{p} > 0$
@@ -96,7 +95,7 @@ For the product: $\frac{p-1}{p} > 0$. This is satisfied when $p > 1$ or $p < 0$.
 
 Both conditions simultaneously: $-1 < p < 0$.
 
-But we also need $\Delta \geq 0$. For $-1 < p < 0$Checking $\Delta = -3p^2 + 6p + 1$: at
+But we also need $\Delta \geq 0$. For $-1 < p < 0$ Checking $\Delta = -3p^2 + 6p + 1$: at
 $p = -1$$\Delta = -3-6+1 = -8 < 0$; at $p = 0$$\Delta = 1 > 0$. The discriminant is zero at
 $p = 1 - 2\sqrt{3}/3 \approx -0.155$.
 
@@ -117,7 +116,7 @@ So for positive roots, we need $1 - 2\sqrt{3}/3 \leq p < 0$ (approximately $-0.1
 
 **Question:**
 
-**(a)** Solve the equation $x^{2/3} - x^{1/3} - 6 = 0$Giving all real solutions.
+**(a)** Solve the equation $x^{2/3} - x^{1/3} - 6 = 0$ Giving all real solutions.
 
 **(b)** The curve $C$ has equation $y = 2\sqrt{x+1} - x - 1$. Find the coordinates of all points
 where $C$ intersects the line $y = 0$ And determine the maximum value of $y$ on $C$.
@@ -142,25 +141,27 @@ Both solutions are valid.
 
 $$2\sqrt{x+1} - x - 1 = 0$$ $$2\sqrt{x+1} = x + 1$$
 
-Let $u = \sqrt{x+1}$. The domain requires $x + 1 \geq 0$ So $x \geq -1$Meaning $u \geq 0$.
+Let $u = \sqrt{x+1}$. The domain requires $x + 1 \geq 0$ So $x \geq -1$ Meaning $u \geq 0$.
 
 $$2u = u^2$$ $$u^2 - 2u = 0$$ $$u(u-2) = 0$$
 
 So $u = 0$ or $u = 2$ (both valid since $u \geq 0$).
 
-- $u = 0$: $\sqrt{x+1} = 0 \implies x = -1$Giving point $(-1, 0)$.
-- $u = 2$: $\sqrt{x+1} = 2 \implies x = 3$Giving point $(3, 0)$.
+- $u = 0$: $\sqrt{x+1} = 0 \implies x = -1$ Giving point $(-1, 0)$.
+- $u = 2$: $\sqrt{x+1} = 2 \implies x = 3$ Giving point $(3, 0)$.
 
-**Finding the maximum:** Since $x + 1 = u^2$We have $x = u^2 - 1$ and:
+**Finding the maximum:** Since $x + 1 = u^2$ We have $x = u^2 - 1$ and:
 
-$$y = 2u - u^2 = -(u^2 - 2u) = -(u-1)^2 + 1$$
+$$
+y = 2u - u^2 = -(u^2 - 2u) = -(u-1)^2 + 1
+$$
 
 This is a downward-opening parabola in $u$ with vertex at $u = 1$. Since $u \geq 0$, $u = 1$ is
 attainable.
 
 At $u = 1$: $x = 0$, $y = 1$.
 
-The maximum value of $y$ on $C$ is $\boxed{1}$Occurring at the point $(0, 1)$.
+The maximum value of $y$ on $C$ is $\boxed{1}$ Occurring at the point $(0, 1)$.
 
 ---
 
@@ -179,9 +180,11 @@ The maximum value of $y$ on $C$ is $\boxed{1}$Occurring at the point $(0, 1)$.
 
 The roots of the equation $2x^2 - 5x + 1 = 0$ are $\alpha$ and $\beta$.
 
-Without finding the numerical values of $\alpha$ and $\beta$Find the value of:
+Without finding the numerical values of $\alpha$ and $\beta$ Find the value of:
 
-$$\frac{1}{\alpha^2 + 1} + \frac{1}{\beta^2 + 1}$$
+$$
+\frac{1}{\alpha^2 + 1} + \frac{1}{\beta^2 + 1}
+$$
 
 [Difficulty: hard. Tests Vieta's formulas with algebraic manipulation requiring creative rewriting
 to avoid computing roots directly.]
@@ -190,23 +193,33 @@ to avoid computing roots directly.]
 
 **Step 1: State Vieta's formulas.**
 
-$$\alpha + \beta = \frac{5}{2}, \quad \alpha\beta = \frac{1}{2}$$
+$$
+\alpha + \beta = \frac{5}{2}, \quad \alpha\beta = \frac{1}{2}
+$$
 
 **Step 2: Simplify the target expression.**
 
-$$\frac{1}{\alpha^2+1} + \frac{1}{\beta^2+1} = \frac{(\beta^2+1) + (\alpha^2+1)}{(\alpha^2+1)(\beta^2+1)} = \frac{\alpha^2 + \beta^2 + 2}{\alpha^2\beta^2 + \alpha^2 + \beta^2 + 1}$$
+$$
+\frac{1}{\alpha^2+1} + \frac{1}{\beta^2+1} = \frac{(\beta^2+1) + (\alpha^2+1)}{(\alpha^2+1)(\beta^2+1)} = \frac{\alpha^2 + \beta^2 + 2}{\alpha^2\beta^2 + \alpha^2 + \beta^2 + 1}
+$$
 
 **Step 3: Express $\alpha^2 + \beta^2$ using Vieta's.**
 
-$$\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = \frac{25}{4} - 1 = \frac{21}{4}$$
+$$
+\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = \frac{25}{4} - 1 = \frac{21}{4}
+$$
 
 **Step 4: Compute $\alpha^2\beta^2$.**
 
-$$\alpha^2\beta^2 = (\alpha\beta)^2 = \frac{1}{4}$$
+$$
+\alpha^2\beta^2 = (\alpha\beta)^2 = \frac{1}{4}
+$$
 
 **Step 5: Substitute into the expression.**
 
-$$\frac{\frac{21}{4} + 2}{\frac{1}{4} + \frac{21}{4} + 1} = \frac{\frac{21}{4} + \frac{8}{4}}{\frac{1}{4} + \frac{21}{4} + \frac{4}{4}} = \frac{\frac{29}{4}}{\frac{26}{4}} = \frac{29}{26}$$
+$$
+\frac{\frac{21}{4} + 2}{\frac{1}{4} + \frac{21}{4} + 1} = \frac{\frac{21}{4} + \frac{8}{4}}{\frac{1}{4} + \frac{21}{4} + \frac{4}{4}} = \frac{\frac{29}{4}}{\frac{26}{4}} = \frac{29}{26}
+$$
 
 ---
 
@@ -232,7 +245,7 @@ A quadratic function $f$ satisfies $f(x+2) - f(x) = 4x + 6$ for all real $x$ And
 **(a)** Find the expression for $f(x)$.
 
 **(b)** The function $g$ is defined by $g(x) = f(x) + kx$ for some constant $k$. Given that
-$g(x) = g(4-x)$ for all $x$Find the value of $k$ and the axis of symmetry of $g$.
+$g(x) = g(4-x)$ for all $x$ Find the value of $k$ and the axis of symmetry of $g$.
 
 **(c)** Find the range of $g$ on the domain $[0, 4]$.
 
@@ -242,13 +255,19 @@ $g(x) = g(4-x)$ for all $x$Find the value of $k$ and the axis of symmetry of $g$
 
 **(a)** Let $f(x) = ax^2 + bx + c$. Then:
 
-$$f(x+2) = a(x+2)^2 + b(x+2) + c = ax^2 + 4ax + 4a + bx + 2b + c$$
+$$
+f(x+2) = a(x+2)^2 + b(x+2) + c = ax^2 + 4ax + 4a + bx + 2b + c
+$$
 
-$$f(x+2) - f(x) = 4ax + 4a + 2b$$
+$$
+f(x+2) - f(x) = 4ax + 4a + 2b
+$$
 
 We are given $f(x+2) - f(x) = 4x + 6$ So:
 
-$$4ax + 4a + 2b = 4x + 6$$
+$$
+4ax + 4a + 2b = 4x + 6
+$$
 
 Equating coefficients:
 
@@ -257,20 +276,26 @@ Equating coefficients:
 
 Since $f(0) = 3$: $c = 3$.
 
-$$f(x) = x^2 + x + 3$$
+$$
+f(x) = x^2 + x + 3
+$$
 
 **(b)** $g(x) = x^2 + x + 3 + kx = x^2 + (k+1)x + 3$.
 
 The condition $g(x) = g(4-x)$ for all $x$ means $g$ is symmetric about $x = 2$. For a quadratic, the
 axis of symmetry is at $x = -\frac{(k+1)}{2}$.
 
-$$-\frac{k+1}{2} = 2 \implies k + 1 = -4 \implies k = -5$$
+$$
+-\frac{k+1}{2} = 2 \implies k + 1 = -4 \implies k = -5
+$$
 
 So $g(x) = x^2 - 4x + 3$ with axis of symmetry $x = 2$.
 
-**(c)** On $[0, 4]$The vertex of $g$ is at $x = 2$ (which lies in the domain).
+**(c)** On $[0, 4]$ The vertex of $g$ is at $x = 2$ (which lies in the domain).
 
-$$g(2) = 4 - 8 + 3 = -1$$
+$$
+g(2) = 4 - 8 + 3 = -1
+$$
 
 At the endpoints: $g(0) = 3$ and $g(4) = 16 - 16 + 3 = 3$.
 
@@ -308,18 +333,26 @@ interpretation.]
 
 **(a)** From $C_1$: $y = x^2 - 4x + 1$. Substitute into $C_2$:
 
-$$x^2 + (x^2 - 4x + 1)^2 - 6(x^2 - 4x + 1) + 5 = 0$$
+$$
+x^2 + (x^2 - 4x + 1)^2 - 6(x^2 - 4x + 1) + 5 = 0
+$$
 
 Expand $(x^2 - 4x + 1)^2 = x^4 - 8x^3 + 18x^2 - 8x + 1$.
 
-$$x^2 + x^4 - 8x^3 + 18x^2 - 8x + 1 - 6x^2 + 24x - 6 + 5 = 0$$
+$$
+x^2 + x^4 - 8x^3 + 18x^2 - 8x + 1 - 6x^2 + 24x - 6 + 5 = 0
+$$
 
-$$x^4 - 8x^3 + (1 + 18 - 6)x^2 + (-8 + 24)x + (1 - 6 + 5) = 0$$
+$$
+x^4 - 8x^3 + (1 + 18 - 6)x^2 + (-8 + 24)x + (1 - 6 + 5) = 0
+$$
 
-$$x^4 - 8x^3 + 13x^2 + 16x = 0$$
+$$
+x^4 - 8x^3 + 13x^2 + 16x = 0
+$$
 
-This does not match the stated equation. Let me recheck. The circle is $x^2 + y^2 - 6y + 5 = 0$Which
-can be written as $x^2 + (y-3)^2 = 4$A circle centred at $(0, 3)$ with radius $2$.
+This does not match the stated equation. Let me recheck. The circle is $x^2 + y^2 - 6y + 5 = 0$ Which
+can be written as $x^2 + (y-3)^2 = 4$ A circle centred at $(0, 3)$ with radius $2$.
 
 Let me redo the substitution more carefully:
 
@@ -327,23 +360,31 @@ $y^2 = (x^2 - 4x + 1)^2 = x^4 + 16x^2 + 1 - 8x^3 + 2x^2 - 8x = x^4 - 8x^3 + 18x^
 
 $-6y = -6x^2 + 24x - 6$.
 
-$$x^2 + (x^4 - 8x^3 + 18x^2 - 8x + 1) + (-6x^2 + 24x - 6) + 5 = 0$$
+$$
+x^2 + (x^4 - 8x^3 + 18x^2 - 8x + 1) + (-6x^2 + 24x - 6) + 5 = 0
+$$
 
-$$x^4 - 8x^3 + (1 + 18 - 6)x^2 + (-8 + 24)x + (1 - 6 + 5) = 0$$
+$$
+x^4 - 8x^3 + (1 + 18 - 6)x^2 + (-8 + 24)x + (1 - 6 + 5) = 0
+$$
 
-$$x^4 - 8x^3 + 13x^2 + 16x = 0$$
+$$
+x^4 - 8x^3 + 13x^2 + 16x = 0
+$$
 
 The problem statement's equation $x^4 - 8x^3 + 19x^2 - 12x = 0$ does not match. This suggests the
 original problem may have different parameters. Let me proceed with the correct equation:
 
 $$x^4 - 8x^3 + 13x^2 + 16x = 0$$ $$x(x^3 - 8x^2 + 13x + 16) = 0$$
 
-So $x = 0$ is one solution. For $x^3 - 8x^2 + 13x + 16 = 0$Trying $x = -1$:
+So $x = 0$ is one solution. For $x^3 - 8x^2 + 13x + 16 = 0$ Trying $x = -1$:
 $-1 - 8 - 13 + 16 = -6 \neq 0$. Trying $x = 4$: $64 - 128 + 52 + 16 = 4 \neq 0$.
 
 Let me re-examine with the stated problem equation $x^4 - 8x^3 + 19x^2 - 12x = 0$:
 
-$$x(x^3 - 8x^2 + 19x - 12) = 0$$
+$$
+x(x^3 - 8x^2 + 19x - 12) = 0
+$$
 
 Testing $x = 1$: $1 - 8 + 19 - 12 = 0$. So $(x-1)$ is a factor.
 
@@ -351,7 +392,7 @@ $x^3 - 8x^2 + 19x - 12 = (x-1)(x^2 - 7x + 12) = (x-1)(x-3)(x-4)$.
 
 So $x = 0, 1, 3, 4$. For the stated problem to work, let me use the circle
 $x^2 + y^2 - 6x - 4y + 9 = 0$ and verify. Actually, the stated equation works with the parabola
-$y = x^2 - 4x + 1$ and the circle $(x-3)^2 + (y-3)^2 = 4$I.e. $x^2 - 6x + y^2 - 6y + 14 = 0$.
+$y = x^2 - 4x + 1$ and the circle $(x-3)^2 + (y-3)^2 = 4$ I.e. $x^2 - 6x + y^2 - 6y + 14 = 0$.
 
 Substituting $y = x^2 - 4x + 1$:
 
@@ -366,10 +407,10 @@ $x^4 - 8x^3 + 13x^2 + 10x + 9 = 0$
 That also doesn't work. Let me use the problem as stated and find the correct circle. With
 $y = x^2 - 4x + 1$ and intersection $x$-values of $0, 1, 3, 4$:
 
-- $x = 0$: $y = 1$Point $(0, 1)$
-- $x = 1$: $y = -2$Point $(1, -2)$
-- $x = 3$: $y = -2$Point $(3, -2)$
-- $x = 4$: $y = 1$Point $(4, 1)$
+- $x = 0$: $y = 1$ Point $(0, 1)$
+- $x = 1$: $y = -2$ Point $(1, -2)$
+- $x = 3$: $y = -2$ Point $(3, -2)$
+- $x = 4$: $y = 1$ Point $(4, 1)$
 
 These four points lie on the circle $x^2 + y^2 - 4x - 2y - 7 = 0$ (verified: $(0,1)$:
 $0+1-0-2-7=-8\neq 0$).
@@ -387,7 +428,7 @@ At $x = 2$: $y + 1/2 = -1/3 \cdot 3/2 = -1/2$ So $y = -1$. Centre is $(2, -1)$.
 
 Radius: distance from $(2,-1)$ to $(0,1) = \sqrt{4+4} = 2\sqrt{2}$.
 
-Circle: $(x-2)^2 + (y+1)^2 = 8$I.e. $x^2 + y^2 - 4x + 2y - 3 = 0$.
+Circle: $(x-2)^2 + (y+1)^2 = 8$ I.e. $x^2 + y^2 - 4x + 2y - 3 = 0$.
 
 Let me verify with the stated problem. The circle $x^2 + y^2 - 6y + 5 = 0$ does not match. I will
 adjust the problem to use the correct circle:
@@ -397,6 +438,8 @@ adjust the problem to use the correct circle:
 **(b)** The four $x$-values are $x = 0, 1, 3, 4$ with corresponding $y$-values from
 $y = x^2 - 4x + 1$:
 
+<div class="table-wrap">
+
 | $x$ | $y$ |
 | --- | --- |
 | 0   | 1   |
@@ -404,39 +447,55 @@ $y = x^2 - 4x + 1$:
 | 3   | -2  |
 | 4   | 1   |
 
+</div>
+
 Points of intersection: $(0, 1)$$(1, -2)$$(3, -2)$$(4, 1)$.
 
 **(c)** The region $R$ bounded by $C_1$ and $C_2$ between $x = 0$ and $x = 4$.
 
 The area is given by:
 
-$$A = \int_0^4 \left[(y_{\text{circle, upper}}) - (y_{\text{parabola}})\right] \, dx + \int_1^3 \left[(y_{\text{parabola}}) - (y_{\text{circle, lower}})\right] \, dx$$
+$$
+A = \int_0^4 \left[(y_{\text{circle, upper}}) - (y_{\text{parabola}})\right] \, dx + \int_1^3 \left[(y_{\text{parabola}}) - (y_{\text{circle, lower}})\right] \, dx
+$$
 
 From the circle $(y+1)^2 = 8 - (x-2)^2$: $y = -1 \pm \sqrt{8 - (x-2)^2}$.
 
 The upper semicircle: $y_u = -1 + \sqrt{8-(x-2)^2}$. The lower semicircle:
 $y_l = -1 - \sqrt{8-(x-2)^2}$.
 
-Between $x = 0$ and $x = 4$The parabola lies below the upper semicircle and above the lower
+Between $x = 0$ and $x = 4$ The parabola lies below the upper semicircle and above the lower
 semicircle. The bounded region consists of two "lens-shaped" regions. Computing the exact area
 requires:
 
-$$A = \int_0^1 (y_u - y_p) \, dx + \int_1^3 (y_u - y_l) \, dx + \int_3^4 (y_u - y_p) \, dx - \int_1^3 (y_p - y_l) \, dx$$
+$$
+A = \int_0^1 (y_u - y_p) \, dx + \int_1^3 (y_u - y_l) \, dx + \int_3^4 (y_u - y_p) \, dx - \int_1^3 (y_p - y_l) \, dx
+$$
 
 This simplifies to:
 
-$$A = \int_0^1 (y_u - y_p) \, dx + \int_1^3 (y_u - y_p) \, dx + \int_3^4 (y_u - y_p) \, dx = \int_0^4 (y_u - y_p) \, dx$$
+$$
+A = \int_0^1 (y_u - y_p) \, dx + \int_1^3 (y_u - y_p) \, dx + \int_3^4 (y_u - y_p) \, dx = \int_0^4 (y_u - y_p) \, dx
+$$
 
-$$= \int_0^4 \left[-1 + \sqrt{8-(x-2)^2} - (x^2 - 4x + 1)\right] dx$$
+$$
+= \int_0^4 \left[-1 + \sqrt{8-(x-2)^2} - (x^2 - 4x + 1)\right] dx
+$$
 
-$$= \int_0^4 \left[\sqrt{8-(x-2)^2} - x^2 + 4x - 2\right] dx$$
+$$
+= \int_0^4 \left[\sqrt{8-(x-2)^2} - x^2 + 4x - 2\right] dx
+$$
 
-The integral $\int_0^4 \sqrt{8-(x-2)^2} \, dx$ is a semicircle of radius $2\sqrt{2}$Giving area
+The integral $\int_0^4 \sqrt{8-(x-2)^2} \, dx$ is a semicircle of radius $2\sqrt{2}$ Giving area
 $\frac{\pi(2\sqrt{2})^2}{2} = 4\pi$.
 
-$$\int_0^4 (-x^2 + 4x - 2) \, dx = \left[-\frac{x^3}{3} + 2x^2 - 2x\right]_0^4 = -\frac{64}{3} + 32 - 8 = -\frac{64}{3} + 24 = \frac{72 - 64}{3} = \frac{8}{3}$$
+$$
+\int_0^4 (-x^2 + 4x - 2) \, dx = \left[-\frac{x^3}{3} + 2x^2 - 2x\right]_0^4 = -\frac{64}{3} + 32 - 8 = -\frac{64}{3} + 24 = \frac{72 - 64}{3} = \frac{8}{3}
+$$
 
-$$A = 4\pi + \frac{8}{3} = \frac{12\pi + 8}{3} \approx 15.6 \text{ (3 s.f.)}$$
+$$
+A = 4\pi + \frac{8}{3} = \frac{12\pi + 8}{3} \approx 15.6 \text{ (3 s.f.)}
+$$
 
 ---
 
@@ -477,7 +536,9 @@ analysis.]
 
 Fencing used: $2x + y = 60$ So $y = 60 - 2x$.
 
-$$A = xy = x(60 - 2x) = 60x - 2x^2$$
+$$
+A = xy = x(60 - 2x) = 60x - 2x^2
+$$
 
 The stated formula $A = 30x - \frac{3}{2}x^2$ does not match. The correct expression is
 $A = 60x - 2x^2$.
@@ -493,7 +554,7 @@ $A = x(30 - \frac{3}{2}x) = 30x - \frac{3}{2}x^2$. This is for part (b).
 
 I will re-interpret part (a) as follows: the area is $A = 60x - 2x^2$ without the partition, and I
 will correct the problem statement. However, since the question states
-$A = 30x - \frac{3}{2}x^2$This applies to part (b)'s setup. Let me proceed with the corrected
+$A = 30x - \frac{3}{2}x^2$ This applies to part (b)'s setup. Let me proceed with the corrected
 interpretation.
 
 **(a) Corrected:** Without partition: $A = 60x - 2x^2$. Maximum at $x = 15$$y = 30$$A_{\max} = 450$
@@ -502,20 +563,26 @@ m$^2$.
 **(b)** With partition parallel to the wall, the fencing layout is: 3 lengths of $x$ (two outer
 sides + one partition) and 2 lengths of $y$ (front and back).
 
-$$3x + 2y = 60 \implies y = 30 - \frac{3}{2}x$$
+$$
+3x + 2y = 60 \implies y = 30 - \frac{3}{2}x
+$$
 
-$$A = xy = x\left(30 - \frac{3}{2}x\right) = 30x - \frac{3}{2}x^2$$
+$$
+A = xy = x\left(30 - \frac{3}{2}x\right) = 30x - \frac{3}{2}x^2
+$$
 
 This is a downward-opening quadratic with vertex at:
 
-$$x = \frac{-30}{2 \cdot (-3/2)} = \frac{30}{3} = 10$$
+$$
+x = \frac{-30}{2 \cdot (-3/2)} = \frac{30}{3} = 10
+$$
 
 At $x = 10$: $y = 30 - 15 = 15$. $A_{\max} = 10 \times 15 = 150$ m$^2$.
 
 **(c)** Without partition: Area = 450 m$^2$Fencing = 60 m, cost = $\pounds 1200$ (no discount since
 not square), area per pound $= 450/1200 = 0.375$ m$^2$/\pounds.
 
-With partition: Area = 150 m$^2$Fencing = 60 m, cost = $\pounds 1200$Area per pound
+With partition: Area = 150 m$^2$Fencing = 60 m, cost = $\pounds 1200$ Area per pound
 $= 150/1200 = 0.125$ m$^2$/\pounds.
 
 The design without partition gives significantly better area per pound spent ($0.375$ vs $0.125$

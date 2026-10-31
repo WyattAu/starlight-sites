@@ -24,7 +24,7 @@ categories:
 Python is, at its core, a sequential language. Statements execute one after another in a single
 Thread of control. Yet real programs must deal with I/O latency (network requests, file reads,
 Database queries), parallelizable computation, and responsive user interfaces. The question is not
-Whether you need concurrency but **which concurrency model** fits your problem.
+whether you need concurrency but **which concurrency model** fits your problem.
 
 Python provides three distinct concurrency mechanisms, each with different trade-offs:
 
@@ -34,8 +34,8 @@ Python provides three distinct concurrency mechanisms, each with different trade
 
 Choosing between them requires understanding the Global Interpreter Lock, the nature of your
 Workload (I/O-bound vs CPU-bound), and the cost model of each approach. The sections below build
-From the lowest level (the GIL) upward through threading, multiprocessing, and finally asyncio, so
-The design decisions behind each layer are clear.
+from the lowest level (the GIL) upward through threading, multiprocessing, and finally asyncio, so
+the design decisions behind each layer are clear.
 
 ## The Global Interpreter Lock (GIL)
 
@@ -72,7 +72,7 @@ producing a lost update.
 ### Why the GIL Exists
 
 The GIL is not a design oversight. It is a deliberate trade-off that solves a specific problem:
-**CPython"s memory management is not thread-safe**.
+**CPython's memory management is not thread-safe**.
 
 CPython uses reference counting as its primary garbage collection strategy. Every object carries a
 `ob_refcnt` field. When you assign an object to a new name, the reference count is incremented. When
@@ -80,7 +80,7 @@ A name goes out of scope, it is decremented. If the count hits zero, the object 
 Immediately.
 
 This is fast and deterministic, but it means every operation on a Python object potentially mutates
-Its reference count. If two threads simultaneously manipulated the same object's reference count,
+its reference count. If two threads simultaneously manipulated the same object's reference count,
 The count could become inconsistent, leading to double-frees or use-after-free bugs.
 
 The GIL eliminates this class of bugs entirely by ensuring that only one thread executes Python
@@ -88,7 +88,7 @@ Bytecode at a time. Reference count mutations are serialized without any per-obj
 Overhead.
 
 A second motivation: the GIL simplifies the implementation of C extension modules. Extension authors
-Can manipulate Python objects without writing thread-safe code, because the GIL guarantees exclusive
+can manipulate Python objects without writing thread-safe code, because the GIL guarantees exclusive
 Access. This decision, made in 1991, is a major reason the CPython extension ecosystem is so large.
 
 ### When the GIL Is Not a Problem
@@ -126,6 +126,8 @@ Context switching.
 
 ### How to Work Around the GIL
 
+<div class="table-wrap">
+
 | Strategy                        | Mechanism                                 | Use Case                             |
 | ------------------------------- | ----------------------------------------- | ------------------------------------ |
 | `multiprocessing`               | Separate processes, each with its own GIL | CPU-bound Python work                |
@@ -133,6 +135,8 @@ Context switching.
 | `asyncio`                       | Single-threaded cooperative multitasking  | I/O-bound work with many connections |
 | Cython / `nogil`                | Compile to C, optionally release the GIL  | Performance-critical loops           |
 | PEP 703 (free-threaded CPython) | Remove the GIL entirely                   | Python 3.13+ experimental builds     |
+
+</div>
 
 ## Threading
 
@@ -163,7 +167,7 @@ Because threads share memory, you need explicit synchronization to prevent data 
 
 A `Lock` is a mutual exclusion primitive. Only one thread can hold the lock at a time. `RLock`
 (reentrant lock) allows the **same thread** to acquire it multiple times without deadlocking, which
-Is useful when a method calls another method that also needs the lock.
+is useful when a method calls another method that also needs the lock.
 
 ```python
 import threading
@@ -233,7 +237,7 @@ threading.Thread(target=setter, daemon=True).start()
 #### `Condition`
 
 A `Condition` combines a lock with a wait/notify mechanism. It is useful when threads need to wait
-For a specific state change:
+for a specific state change:
 
 ```python
 import threading
@@ -340,7 +344,7 @@ if __name__ == "__main__":
 #### Shared Memory
 
 The `multiprocessing.shared_memory` module (Python 3.8+) provides `SharedMemory` for sharing data
-Between processes without serialization:
+between processes without serialization:
 
 ```python
 from multiprocessing import Process, shared_memory
@@ -375,7 +379,7 @@ Use multiprocessing when:
 - The communication overhead between processes is acceptable relative to the computation time.
 
 Do not use multiprocessing for lightweight I/O-bound tasks. The process creation overhead (~10-50ms
-Per process) and IPC serialization cost dwarf the benefit for short-lived, I/O-dominated workloads.
+per process) and IPC serialization cost dwarf the benefit for short-lived, I/O-dominated workloads.
 
 ## `concurrent.futures`
 
@@ -433,7 +437,7 @@ for n, factors in results.items():
 `concurrent.futures` is almost always preferable to raw thread/process management because:
 
 - It manages the pool lifecycle (creation, reuse, cleanup).
-- It provides `Future` objects with `.result()``.exception()``.cancel()`And `.add_done_callback()`.
+- It provides `Future` objects with `.result()`, `.exception()`, `.cancel()` and `.add_done_callback()`.
 - It integrates with `as_completed()` for processing results as they arrive.
 - The context manager (`with` statement) ensures clean shutdown.
 
@@ -461,11 +465,11 @@ Thread-based concurrency has inherent costs even when the GIL is not a problem:
 `asyncio` solves these problems by using **coroutines** -- functions that can suspend and resume
 Voluntarily. There is only one thread and one OS-level context. "Context switching" between
 Coroutines is a Python-level function call that costs ~100 nanoseconds, orders of magnitude cheaper
-Than an OS thread switch.
+than an OS thread switch.
 
 The trade-off: coroutines are **cooperative**, meaning they must explicitly yield control. A
 Long-running CPU-bound computation will block the entire event loop. `asyncio` is not a replacement
-For threading or multiprocessing; it is a specialized tool for I/O-bound concurrency at scale.
+for threading or multiprocessing; it is a specialized tool for I/O-bound concurrency at scale.
 
 ### Coroutines: `async def` and `await`
 
@@ -521,7 +525,7 @@ flowchart TD
 ```
 
 When a coroutine awaits an I/O operation, the event loop registers the corresponding file descriptor
-With the OS poller and moves to the next ready coroutine. When the OS reports the descriptor is
+with the OS poller and moves to the next ready coroutine. When the OS reports the descriptor is
 Ready, the event loop places the waiting coroutine back in the ready queue. This is how thousands of
 I/O-bound operations run concurrently on a single thread.
 
@@ -569,8 +573,8 @@ async def main():
 asyncio.run(main())
 ```
 
-Without `create_task()`You would have to `await countdown("A", 3)` and then
-`await countdown("B", 3)`Which would run them sequentially. `create_task()` enables concurrent
+Without `create_task()`. You would have to `await countdown("A", 3)` and then
+`await countdown("B", 3)`. Which would run them sequentially. `create_task()` enables concurrent
 Execution.
 
 ### `asyncio.gather()`
@@ -675,7 +679,7 @@ asyncio.run(main())
 ```
 
 `TaskGroup` is preferable to `gather()` for new code because it enforces cancellation semantics: if
-One task fails, the others are not silently abandoned. With `gather()`Failed tasks are replaced by
+one task fails, the others are not silently abandoned. With `gather()`Failed tasks are replaced by
 Exceptions in the result list, but other tasks continue running in the background.
 
 ### Async Context Managers
@@ -852,6 +856,8 @@ flowchart TD
     I -- No --> E
 ```
 
+<div class="table-wrap">
+
 | Dimension            | `asyncio`                          | `threading`                       | `multiprocessing`                 |
 | -------------------- | ---------------------------------- | --------------------------------- | --------------------------------- |
 | Parallelism          | No (single thread)                 | No (GIL)                          | Yes (separate processes)          |
@@ -862,11 +868,13 @@ flowchart TD
 | Debugging difficulty | Moderate (implicit state machines) | Hard (race conditions)            | Moderate (IPC issues)             |
 | Cancellation         | Built-in (`Task.cancel()`)         | Manual (requires flag or event)   | Manual (requires IPC signal)      |
 
+</div>
+
 ### Decision Framework
 
 1. **Start with `asyncio`** if your workload is primarily I/O-bound (HTTP requests, database
    queries, WebSocket connections). It scales to thousands of concurrent operations with minimal
-   memory overhead. The `aiohttp``asyncpg``aioredis`And `httpx` libraries provide async interfaces
+   memory overhead. The `aiohttp`, `asyncpg`, `aioredis` and `httpx` libraries provide async interfaces
    for most common I/O operations.
 
 2. **Use `threading`** when you need to call blocking synchronous code from an async program (via
@@ -944,7 +952,7 @@ asyncio.run(main())
 ### Forgetting to `await`
 
 Calling an async function without `await` does not execute it. It returns a coroutine object, which
-Is silently discarded:
+is silently discarded:
 
 ```python
 import asyncio
@@ -1014,6 +1022,8 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Operation | Stack (top → bottom) | Popped |
 | --------- | -------------------- | ------ |
 | push(5)   | [5]                  |,      |
@@ -1022,6 +1032,8 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 | push(8)   | [8, 5]               |,      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
+
+</div>
 
 ## Intuition
 

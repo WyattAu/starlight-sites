@@ -22,7 +22,7 @@ categories: "- DSE - Economics"
 ### Gross Domestic Product (GDP)
 
 GDP is the total market value of all final goods and services produced within a country's borders
-During a given time period ( one year).
+during a given time period ( one year).
 
 Key attributes:
 
@@ -40,41 +40,57 @@ Key attributes:
 
 ### GDP vs GNP vs GNI
 
+<div class="table-wrap">
+
 | Measure                      | Definition                                                                                                                   | Focus                   |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
 | GDP (Gross Domestic Product) | Value of output produced within a country's borders                                                                          | Location of production  |
 | GNP (Gross National Product) | GDP plus net income from abroad (income earned by residents from overseas minus income earned by non-residents domestically) | Nationality of producer |
 | GNI (Gross National Income)  | Same concept as GNP; the modern terminology used by international organisations (World Bank, IMF)                            | Nationality of producer |
 
-$$\mathrm{GNP} = \mathrm{GDP} + \mathrm{Net factor income from abroad}$$
+</div>
 
-$$\mathrm{Net factor income from abroad} = \mathrm{Income earned by residents from abroad} - \mathrm{Income paid to non-residents}$$
+$$
+\mathrm{GNP} = \mathrm{GDP} + \mathrm{Net factor income from abroad}
+$$
+
+$$
+\mathrm{Net factor income from abroad} = \mathrm{Income earned by residents from abroad} - \mathrm{Income paid to non-residents}
+$$
 
 **Hong Kong example:** Many Hong Kong firms have operations and investments in mainland China and
 Southeast Asia. The income from these overseas operations is counted in Hong Kong's GNP but not in
-Its GDP. Conversely, profits earned by foreign-owned firms operating in Hong Kong are counted in
+its GDP. Conversely, profits earned by foreign-owned firms operating in Hong Kong are counted in
 Hong Kong's GDP but not in its GNP. Historically, Hong Kong's GNP has been larger than its GDP
-Because net factor income from abroad has been positive.
+because net factor income from abroad has been positive.
 
 ### Net Domestic Product (NDP) and Net National Product (NNP)
 
-$$\mathrm{NDP} = \mathrm{GDP} - \mathrm{Depreciation}$$
+$$
+\mathrm{NDP} = \mathrm{GDP} - \mathrm{Depreciation}
+$$
 
-$$\mathrm{NNP} = \mathrm{GNP} - \mathrm{Depreciation}$$
+$$
+\mathrm{NNP} = \mathrm{GNP} - \mathrm{Depreciation}
+$$
 
 Depreciation (capital consumption allowance) is the wear and tear on capital stock during the
-Production process. NDP measures the net output available after maintaining the existing capital
+production process. NDP measures the net output available after maintaining the existing capital
 Stock. NDP is a better measure of sustainable production than GDP because it accounts for the
-Capital consumed in the production process.
+capital consumed in the production process.
 
 ### Personal Income and Disposable Income
 
-$$\mathrm{Personal Income} = \mathrm{National Income} - \mathrm{Undistributed corporate profit} - \mathrm{Corporate tax} - \mathrm{Social security contributions} + \mathrm{Transfer payments}$$
+$$
+\mathrm{Personal Income} = \mathrm{National Income} - \mathrm{Undistributed corporate profit} - \mathrm{Corporate tax} - \mathrm{Social security contributions} + \mathrm{Transfer payments}
+$$
 
-$$\mathrm{Disposable Income} = \mathrm{Personal Income} - \mathrm{Personal income tax}$$
+$$
+\mathrm{Disposable Income} = \mathrm{Personal Income} - \mathrm{Personal income tax}
+$$
 
 Disposable income is the income households have available for spending (consumption) and saving
-After paying taxes. It is the most relevant measure for analysing household behaviour.
+after paying taxes. It is the most relevant measure for analysing household behaviour.
 
 ---
 
@@ -92,39 +108,51 @@ After paying taxes. It is the most relevant measure for analysing household beha
 ### Nominal GDP
 
 Nominal GDP is GDP measured at current market prices. It changes when either output quantities or
-Prices change (or both).
+prices change (or both).
 
-$$\mathrm{Nominal GDP} = \sum_{i=1}^{n} P_{i,t} \times Q_{i,t}$$
+$$
+\mathrm{Nominal GDP} = \sum_{i=1}^{n} P_{i,t} \times Q_{i,t}
+$$
 
 ### Real GDP
 
 Real GDP is GDP measured at constant (base-year) prices. It changes only when output quantities
 Change, holding prices constant. Real GDP is the preferred measure for comparing output across time
-Because it strips out the effect of price changes (inflation).
+because it strips out the effect of price changes (inflation).
 
-$$\mathrm{Real GDP} = \sum_{i=1}^{n} P_{i,\mathrm{base}} \times Q_{i,t}$$
+$$
+\mathrm{Real GDP} = \sum_{i=1}^{n} P_{i,\mathrm{base}} \times Q_{i,t}
+$$
 
 ### GDP Deflator
 
 The GDP deflator is a broad measure of the price level that captures the prices of all goods and
-Services included in GDP.
+services included in GDP.
 
-$$\mathrm{GDP Deflator} = \frac{\mathrm{Nominal GDP}}{\mathrm{Real GDP}} \times 100$$
+$$
+\mathrm{GDP Deflator} = \frac{\mathrm{Nominal GDP}}{\mathrm{Real GDP}} \times 100
+$$
 
 The GDP deflator measures the change in prices of all domestically produced final goods and
-Services. Unlike the Consumer Price Index (CPI), which covers a basket of consumer goods, the GDP
+services. Unlike the Consumer Price Index (CPI), which covers a basket of consumer goods, the GDP
 Deflator covers investment goods, government services, and exports, but excludes imports.
 
 **Inflation rate from the GDP deflator:**
 
-$$\mathrm{Inflation rate} = \frac{\mathrm{GDP Deflator}_t - \mathrm{GDP Deflator}_{t-1}}{\mathrm{GDP Deflator}_{t-1}} \times 100\%$$
+$$
+\mathrm{Inflation rate} = \frac{\mathrm{GDP Deflator}_t - \mathrm{GDP Deflator}_{t-1}}{\mathrm{GDP Deflator}_{t-1}} \times 100\%
+$$
 
 ### Worked Example: Nominal vs Real GDP
+
+<div class="table-wrap">
 
 | Good | 2024 Price (USD) | 2024 Quantity | 2025 Price (USD) | 2025 Quantity |
 | ---- | ---------------- | ------------- | ---------------- | ------------- |
 | A    | 10               | 100           | 12               | 110           |
 | B    | 20               | 50            | 25               | 45            |
+
+</div>
 
 Using 2024 as the base year:
 
@@ -163,7 +191,11 @@ Output did not grow in real terms; the entire increase in nominal GDP was due to
 
 GDP is measured as the total spending on final goods and services produced within the country.
 
-$$\mathrm{GDP} = C + I + G + (X - M)$$
+$$
+\mathrm{GDP} = C + I + G + (X - M)
+$$
+
+<div class="table-wrap">
 
 | Component                 | Description                                                                                                                                                                                                       |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -173,7 +205,11 @@ $$\mathrm{GDP} = C + I + G + (X - M)$$
 | `X` (Exports)             | Spending by foreigners on domestically produced goods and services. Added because they are produced domestically.                                                                                                 |
 | `M` (Imports)             | Spending by domestic residents on foreign-produced goods and services. Subtracted because they are not produced domestically.                                                                                     |
 
-$$\mathrm{Net exports} = X - M$$
+</div>
+
+$$
+\mathrm{Net exports} = X - M
+$$
 
 A trade surplus (`X \gt M`) adds to GDP. A trade deficit (`X \lt M`) subtracts from GDP.
 
@@ -181,7 +217,11 @@ A trade surplus (`X \gt M`) adds to GDP. A trade deficit (`X \lt M`) subtracts f
 
 GDP is measured as the sum of all incomes earned by factors of production in producing output.
 
-$$\mathrm{GDP} = W + R + I + P + \mathrm{Indirect taxes} - \mathrm{Subsidies} + \mathrm{Depreciation}$$
+$$
+\mathrm{GDP} = W + R + I + P + \mathrm{Indirect taxes} - \mathrm{Subsidies} + \mathrm{Depreciation}
+$$
+
+<div class="table-wrap">
 
 | Component      | Description                                                                          |
 | -------------- | ------------------------------------------------------------------------------------ |
@@ -193,21 +233,27 @@ $$\mathrm{GDP} = W + R + I + P + \mathrm{Indirect taxes} - \mathrm{Subsidies} + 
 | Subsidies      | Government payments to producers that reduce market prices                           |
 | Depreciation   | Capital consumption allowance                                                        |
 
+</div>
+
 **Why add indirect taxes and subtract subsidies?** GDP is measured at market prices, which include
 Indirect taxes but exclude subsidies. Factor incomes (wages, rent, interest, profit) are measured at
-Factor cost (before indirect taxes, after subsidies). To convert from factor cost to market prices:
+factor cost (before indirect taxes, after subsidies). To convert from factor cost to market prices:
 Add indirect taxes and subtract subsidies.
 
 ### 3. Output (Value-Added) Approach
 
 GDP is measured as the sum of the value added by every firm in the economy.
 
-$$\mathrm{Value added} = \mathrm{Value of output} - \mathrm{Value of intermediate inputs}$$
+$$
+\mathrm{Value added} = \mathrm{Value of output} - \mathrm{Value of intermediate inputs}
+$$
 
 This method avoids double counting by only counting the additional value created at each stage of
-Production.
+production.
 
 **Example: Bread production chain**
+
+<div class="table-wrap">
 
 | Stage          | Value of Output (USD) | Value of Intermediate Inputs (USD) | Value Added (USD) |
 | -------------- | --------------------- | ---------------------------------- | ----------------- |
@@ -216,19 +262,23 @@ Production.
 | Baker (bread)  | 250                   | 150                                | 100               |
 | **Total**      | **500**               | **250**                            | **250**           |
 
+</div>
+
 GDP = sum of value added = `100 + 50 + 100 = 250`. The value of final output (bread) = `250`. Both
-Methods give the same result, confirming that the value-added approach avoids double counting.
+methods give the same result, confirming that the value-added approach avoids double counting.
 
 ### Equivalence of the Three Approaches
 
 All three approaches yield the same GDP figure because every unit of output is either purchased by
-Someone (expenditure approach), generates income for someone (income approach), or represents value
+someone (expenditure approach), generates income for someone (income approach), or represents value
 Created at some stage of production (value-added approach).
 
 <details>
 <summary>Worked Example: Value-Added Approach</summary>
 
 A car manufacturer's production chain:
+
+<div class="table-wrap">
 
 | Stage         | Sales Value (USD) | Intermediate Inputs (USD) | Value Added (USD) |
 | ------------- | ----------------- | ------------------------- | ----------------- |
@@ -237,6 +287,8 @@ A car manufacturer's production chain:
 | Tyre factory  | 1,500             | 0                         | 1,500             |
 | Car assembly  | 20,000            | 8,500                     | 11,500            |
 | **Total**     | **28,500**        | **8,500**                 | **20,000**        |
+
+</div>
 
 GDP = sum of value added = `5,000 + 2,000 + 1,500 + 11,500 = 20,000`.
 
@@ -257,7 +309,9 @@ Alternatively, value of final output (car) = USD 20,000. Same result.
 
 ## GDP Per Capita and Standard of Living
 
-$$\mathrm{GDP per capita} = \frac{\mathrm{GDP}}{\mathrm{Population}}$$
+$$
+\mathrm{GDP per capita} = \frac{\mathrm{GDP}}{\mathrm{Population}}
+$$
 
 GDP per capita is a rough indicator of the average economic well-being of a country's population.
 Higher GDP per capita generally correlates with higher standards of living: better healthcare,
@@ -284,7 +338,7 @@ However, GDP per capita is an average and can be misleading:
 ## Limitations of GDP as a Welfare Measure
 
 GDP is a measure of economic activity, not a direct measure of welfare or well-being. Its
-Limitations are significant and systematic:
+limitations are significant and systematic:
 
 ### 1. Non-Market Activities Excluded
 
@@ -301,37 +355,37 @@ Actual economic activity.
 
 GDP does not subtract the costs of negative externalities (pollution, congestion, resource
 Depletion). A factory that produces USD 1 million of output while causing USD 500,000 in
-Environmental damage contributes USD 1 million to GDP, not USD 500,000. GDP can grow while
-Environmental quality deteriorates.
+environmental damage contributes USD 1 million to GDP, not USD 500,000. GDP can grow while
+environmental quality deteriorates.
 
 ### 3. Income Distribution Ignored
 
 GDP per capita is a mean. If income is highly concentrated, the median income may be far below the
-Mean. Two countries with identical GDP per capita can have vastly different distributions of
-Well-being.
+mean. Two countries with identical GDP per capita can have vastly different distributions of
+well-being.
 
 ### 4. Leisure Time Not Valued
 
 If a country's workforce reduces its working hours from 50 to 40 hours per week (with the same
-Output per hour), GDP falls, but well-being may increase because people have more leisure time. GDP
+output per hour), GDP falls, but well-being may increase because people have more leisure time. GDP
 Treats all time not spent producing marketed output as having zero value.
 
 ### 5. Quality Changes Not Captured
 
 GDP measures the value of output, not its quality. A smartphone that costs USD 500 today is far more
-Capable than a USD 500 phone from ten years ago, but GDP does not fully capture this quality
+capable than a USD 500 phone from ten years ago, but GDP does not fully capture this quality
 Improvement.
 
 ### 6. Sustainable vs Unsustainable Growth Not Distinguished
 
 GDP does not distinguish between growth driven by sustainable productivity improvements and growth
 Driven by depleting natural resources or accumulating debt. A country can boost GDP by deforesting
-Its land (selling timber) or overfishing its waters, but this growth is not sustainable.
+its land (selling timber) or overfishing its waters, but this growth is not sustainable.
 
 ### 7. Defensive Expenditures Counted Positively
 
 Spending on repairing damage (flood defences, pollution cleanup, crime prevention) adds to GDP, even
-Though it represents a cost rather than a genuine improvement in welfare.
+though it represents a cost rather than a genuine improvement in welfare.
 
 ---
 
@@ -349,13 +403,19 @@ Though it represents a cost rather than a genuine improvement in welfare.
 ### Definition and Measurement
 
 The unemployment rate is the percentage of the labour force that is actively seeking work but unable
-To find it.
+to find it.
 
-$$\mathrm{Unemployment rate} = \frac{\mathrm{Number of unemployed}}{\mathrm{Labour force}} \times 100\%$$
+$$
+\mathrm{Unemployment rate} = \frac{\mathrm{Number of unemployed}}{\mathrm{Labour force}} \times 100\%
+$$
 
-$$\mathrm{Labour force} = \mathrm{Number of employed} + \mathrm{Number of unemployed}$$
+$$
+\mathrm{Labour force} = \mathrm{Number of employed} + \mathrm{Number of unemployed}
+$$
 
-$$\mathrm{Labour force participation rate} = \frac{\mathrm{Labour force}}{\mathrm{Working-age population}} \times 100\%$$
+$$
+\mathrm{Labour force participation rate} = \frac{\mathrm{Labour force}}{\mathrm{Working-age population}} \times 100\%
+$$
 
 **Key definitions:**
 
@@ -368,6 +428,8 @@ $$\mathrm{Labour force participation rate} = \frac{\mathrm{Labour force}}{\mathr
 
 ### Types of Unemployment
 
+<div class="table-wrap">
+
 | Type       | Cause                                                                  | Solution                                    | Duration          |
 | ---------- | ---------------------------------------------------------------------- | ------------------------------------------- | ----------------- |
 | Frictional | Normal turnover in the labour market; time between jobs                | Better job matching, job search assistance  | Short-term        |
@@ -375,14 +437,16 @@ $$\mathrm{Labour force participation rate} = \frac{\mathrm{Labour force}}{\mathr
 | Cyclical   | Insufficient aggregate demand during economic downturns                | Expansionary fiscal/monetary policy         | Varies with cycle |
 | Seasonal   | Regular seasonal fluctuations in demand (tourism, agriculture, retail) | Difficult to eliminate entirely             | Predictable       |
 
+</div>
+
 **Frictional unemployment** is inevitable and even desirable in a dynamic economy. It reflects the
 Normal process of workers moving between jobs to find better matches. Some frictional unemployment
 Indicates a healthy, flexible labour market.
 
 **Structural unemployment** is more serious because it reflects a fundamental mismatch in the
 Economy. Technological change (automation replacing labour) and globalisation (manufacturing moving
-To lower-cost countries) are major drivers. Structural unemployment tends to be long-term and
-Requires retraining or relocation, which is costly and time-consuming.
+to lower-cost countries) are major drivers. Structural unemployment tends to be long-term and
+requires retraining or relocation, which is costly and time-consuming.
 
 **Cyclical unemployment** rises during recessions and falls during expansions. It is directly linked
 To the business cycle and is the primary target of macroeconomic stabilisation policy.
@@ -418,7 +482,9 @@ Individuals now enter the labour force as unemployed.
 The natural rate of unemployment (also called the non-accelerating inflation rate of unemployment,
 NAIRU) is the unemployment rate that prevails when the economy is at full employment.
 
-$$\mathrm{NRU} = \mathrm{Frictional unemployment} + \mathrm{Structural unemployment}$$
+$$
+\mathrm{NRU} = \mathrm{Frictional unemployment} + \mathrm{Structural unemployment}
+$$
 
 At the NRU, cyclical unemployment is zero. The economy is producing at its potential output
 (full-employment output). The NRU is not zero because frictional and structural unemployment always
@@ -428,6 +494,8 @@ Exist.
 
 ### Costs of Unemployment
 
+<div class="table-wrap">
+
 | Cost Type  | Description                                                                                                                                                                                                      |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Economic   | Lost output (GDP gap): goods and services that could have been produced but were not. Okun's law: for every 1% that the actual unemployment rate exceeds the NRU, GDP falls by approximately 2% below potential. |
@@ -435,6 +503,8 @@ Exist.
 | Personal   | Loss of income, skill deterioration (especially for long-term unemployed), reduced self-esteem, mental and physical health problems.                                                                             |
 | Social     | Increased crime rates, social unrest, family breakdown, inequality.                                                                                                                                              |
 | Hysteresis | Long-term unemployment can raise the natural rate itself (workers lose skills and become unemployable, reducing the economy's productive capacity).                                                              |
+
+</div>
 
 ---
 
@@ -452,18 +522,24 @@ Exist.
 ### Definition
 
 Inflation is a sustained increase in the general price level over time. A single price increase is
-Not inflation; inflation refers to a broad-based, persistent rise in prices.
+not inflation; inflation refers to a broad-based, persistent rise in prices.
 
-$$\mathrm{Inflation rate} = \frac{P_t - P_{t-1}}{P_{t-1}} \times 100\%$$
+$$
+\mathrm{Inflation rate} = \frac{P_t - P_{t-1}}{P_{t-1}} \times 100\%
+$$
 
 ### Measurement: Consumer Price Index (CPI)
 
 The CPI measures the change in the price of a fixed basket of goods and services purchased By a
 representative household.
 
-$$\mathrm{CPI}_t = \frac{\mathrm{Cost of basket in year } t}{\mathrm{Cost of basket in base year}} \times 100$$
+$$
+\mathrm{CPI}_t = \frac{\mathrm{Cost of basket in year } t}{\mathrm{Cost of basket in base year}} \times 100
+$$
 
-$$\mathrm{Inflation rate} = \frac{\mathrm{CPI}_t - \mathrm{CPI}_{t-1}}{\mathrm{CPI}_{t-1}} \times 100\%$$
+$$
+\mathrm{Inflation rate} = \frac{\mathrm{CPI}_t - \mathrm{CPI}_{t-1}}{\mathrm{CPI}_{t-1}} \times 100\%
+$$
 
 **Limitations of the CPI:**
 
@@ -482,7 +558,9 @@ $$\mathrm{Inflation rate} = \frac{\mathrm{CPI}_t - \mathrm{CPI}_{t-1}}{\mathrm{C
 **Demand-pull inflation:** Caused by excess aggregate demand relative to aggregate supply. When
 Total spending in the economy exceeds the economy's productive capacity, prices are bid up.
 
-$$\mathrm{AD} \gt \mathrm{LRAS} \implies P \mathrm{ rises}$$
+$$
+\mathrm{AD} \gt \mathrm{LRAS} \implies P \mathrm{ rises}
+$$
 
 Triggers include: expansionary fiscal policy, expansionary monetary policy, rising consumer
 Confidence, export boom.
@@ -490,12 +568,16 @@ Confidence, export boom.
 **Cost-push inflation:** Caused by increases in production costs that shift the short-run aggregate
 Supply curve leftward.
 
-$$\mathrm{SRAS shifts left} \implies P \mathrm{ rises, } Q \mathrm{ falls}$$
+$$
+\mathrm{SRAS shifts left} \implies P \mathrm{ rises, } Q \mathrm{ falls}
+$$
 
 Triggers include: rising wages (wage-price spiral), rising oil/commodity prices, supply chain
 Disruptions, currency depreciation (imported inflation).
 
 ### Effects and Consequences of Inflation
+
+<div class="table-wrap">
 
 | Group Affected          | Effect of Unanticipated Inflation                                                            |
 | ----------------------- | -------------------------------------------------------------------------------------------- |
@@ -505,6 +587,8 @@ Disruptions, currency depreciation (imported inflation).
 | Flexible-income earners | May keep up if wages are indexed to inflation; otherwise lose                                |
 | Government (as debtor)  | Benefits; the real value of outstanding government debt falls                                |
 | Taxpayers               | May be pushed into higher tax brackets (bracket creep) even if real income has not increased |
+
+</div>
 
 **Shoe-leather costs:** The cost of time and effort spent managing money holdings to minimise the
 Inflation tax (more frequent trips to the bank, holding less cash).
@@ -520,7 +604,7 @@ Savers to spenders. This redistribution is not based on merit or need.
 
 **Hyperinflation:** Extremely high inflation (often defined as exceeding 50% per month) destroys the
 Functions of money as a store of value and medium of exchange. People abandon the currency and
-Resort to barter or foreign currencies. Historical examples: Germany (1923), Zimbabwe (2008),
+resort to barter or foreign currencies. Historical examples: Germany (1923), Zimbabwe (2008),
 Venezuela (2018).
 
 ---
@@ -539,13 +623,13 @@ Venezuela (2018).
 ### Short-Run Phillips Curve
 
 The Phillips curve describes an inverse relationship between the rate of inflation and the rate of
-Unemployment in the short run. Lower unemployment is associated with higher inflation, and vice
+unemployment in the short run. Lower unemployment is associated with higher inflation, and vice
 Versa.
 
 This trade-off arises because lower unemployment means tighter labour markets, which push up wages.
 Higher wages increase production costs, which firms pass on to consumers as higher prices.
 Conversely, higher unemployment means slack in the labour market, which restrains wage growth and
-Inflation.
+inflation.
 
 ### Long-Run Phillips Curve
 
@@ -556,7 +640,7 @@ Curve is vertical at the natural rate of unemployment (NRU).
 Running expansionary policy, inflation rises. Initially, workers do not anticipate the higher
 Inflation, so they accept jobs at what they believe are higher real wages (money illusion). Once
 Workers realise that prices have risen, they demand higher nominal wages to compensate. This shifts
-The SRAS curve left, returning unemployment to the NRU but at a higher inflation rate. The economy
+the SRAS curve left, returning unemployment to the NRU but at a higher inflation rate. The economy
 Moves up along the long-run vertical Phillips curve.
 
 ### Diagram Description: Short-Run and Long-Run Phillips Curves
@@ -574,7 +658,7 @@ Moves up along the long-run vertical Phillips curve.
 ```
 
 The LRPC is a vertical line at `NRU`. Each SRPC shows the short-run trade-off. Starting at the
-Intersection of `SRPC_1` and `LRPC`Expansionary policy moves the economy left along `SRPC_1` (lower
+intersection of `SRPC_1` and `LRPC`Expansionary policy moves the economy left along `SRPC_1` (lower
 unemployment, higher inflation). Once expectations adjust, `SRPC_1` shifts up to `SRPC_2` And
 unemployment returns to `NRU` at a higher inflation rate.
 
@@ -598,14 +682,18 @@ The next. Measured by the real GDP growth rate.
 
 **Potential economic growth:** An increase in the economy's productive capacity (the maximum output
 The economy can produce when all resources are fully and efficiently employed). Represented by an
-Outward shift of the production possibility curve or a rightward shift of the LRAS curve.
+outward shift of the production possibility curve or a rightward shift of the LRAS curve.
 
-$$\mathrm{GDP gap} = \mathrm{Potential GDP} - \mathrm{Actual GDP}$$
+$$
+\mathrm{GDP gap} = \mathrm{Potential GDP} - \mathrm{Actual GDP}
+$$
 
 A positive GDP gap (actual output below potential) indicates a recessionary gap. A negative GDP gap
 (actual output above potential) indicates an inflationary gap.
 
 ### Sources of Economic Growth
+
+<div class="table-wrap">
 
 | Source                     | Description                                                                                                                                                                                                   |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -617,16 +705,22 @@ A positive GDP gap (actual output below potential) indicates a recessionary gap.
 | Population growth          | A larger labour force increases total output, though not necessarily output per capita. Growth in the working-age population relative to dependents (favourable demographic structure) boosts GDP per capita. |
 | Trade and openness         | Access to larger markets, technology transfer, competitive pressure, and economies of scale through international trade.                                                                                      |
 
+</div>
+
 ### Productivity
 
 Productivity measures the efficiency with which inputs are converted into output.
 
-$$\mathrm{Labour productivity} = \frac{\mathrm{Real GDP}}{\mathrm{Total hours worked}}$$
+$$
+\mathrm{Labour productivity} = \frac{\mathrm{Real GDP}}{\mathrm{Total hours worked}}
+$$
 
-$$\mathrm{Total factor productivity (TFP)} = \frac{\mathrm{Total output}}{\mathrm{Weighted combination of all inputs}}$$
+$$
+\mathrm{Total factor productivity (TFP)} = \frac{\mathrm{Total output}}{\mathrm{Weighted combination of all inputs}}
+$$
 
 TFP captures the portion of output growth not explained by increases in capital and labour. It
-Reflects technological progress, organisational improvements, and better resource allocation.
+reflects technological progress, organisational improvements, and better resource allocation.
 
 Sustained increases in living standards require productivity growth, not just increases in factor
 Inputs. An economy that relies solely on adding more labour and capital faces diminishing returns;
@@ -648,10 +742,12 @@ Only technological progress and productivity improvements can drive long-run per
 ### Definition
 
 The business cycle (economic cycle or trade cycle) refers to the fluctuations in economic activity
-Around its long-term trend. Real GDP does not grow at a constant rate; it experiences periods of
-Expansion and contraction.
+around its long-term trend. Real GDP does not grow at a constant rate; it experiences periods of
+expansion and contraction.
 
 ### Phases of the Business Cycle
+
+<div class="table-wrap">
 
 | Phase       | Description                                                                                                                                  |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -660,10 +756,14 @@ Expansion and contraction.
 | Contraction | Real GDP falls. Unemployment rises. Capacity utilisation decreases. Inflation may moderate. If the contraction is severe, it is a recession. |
 | Trough      | The lowest point of the cycle. Real GDP is below potential. Unemployment is high. Capacity is idle. Inventories are depleted.                |
 
+</div>
+
 A **recession** is commonly defined as two consecutive quarters of declining real GDP. A
 **depression** is a severe, prolonged recession.
 
 ### Leading, Coincident, and Lagging Indicators
+
+<div class="table-wrap">
 
 | Type       | Definition                                                   | Examples                                                                                                             |
 | ---------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
@@ -671,8 +771,10 @@ A **recession** is commonly defined as two consecutive quarters of declining rea
 | Coincident | Indicators that move with the economy                        | Industrial production, retail sales, non-farm payrolls, GDP                                                          |
 | Lagging    | Indicators that change after the economy has already changed | Unemployment rate, inflation rate, interest rates, corporate profits, labour cost per unit of output                 |
 
+</div>
+
 The **yield curve inversion** (short-term interest rates exceed long-term rates) is one of the most
-Reliable leading indicators of a recession, historically preceding most US recessions.
+reliable leading indicators of a recession, historically preceding most US recessions.
 
 ### Diagram Description: The Business Cycle
 
@@ -693,7 +795,7 @@ Reliable leading indicators of a recession, historically preceding most US reces
 ```
 
 The economy fluctuates around the long-term trend line. Peaks are above the trend; troughs are below
-It.
+it.
 
 ---
 
@@ -710,7 +812,11 @@ It.
 
 ### Budget Balance
 
-$$\mathrm{Budget balance} = \mathrm{Government revenue} - \mathrm{Government expenditure}$$
+$$
+\mathrm{Budget balance} = \mathrm{Government revenue} - \mathrm{Government expenditure}
+$$
+
+<div class="table-wrap">
 
 | Outcome         | Condition               | Implication                                     |
 | --------------- | ----------------------- | ----------------------------------------------- |
@@ -718,9 +824,13 @@ $$\mathrm{Budget balance} = \mathrm{Government revenue} - \mathrm{Government exp
 | Balanced budget | Revenue = Expenditure   | Neutral impact on aggregate demand              |
 | Fiscal deficit  | Revenue \lt Expenditure | Government must borrow; adds to public debt     |
 
+</div>
+
 ### Government Revenue
 
 The primary sources of government revenue are:
+
+<div class="table-wrap">
 
 | Source          | Description                                                                                              |
 | --------------- | -------------------------------------------------------------------------------------------------------- |
@@ -728,9 +838,11 @@ The primary sources of government revenue are:
 | Indirect taxes  | Taxes on goods and services: sales tax, VAT, excise duties (on alcohol, tobacco, petrol). Regressive.    |
 | Non-tax revenue | Fees, fines, royalties, dividends from state-owned enterprises, land premium (significant in Hong Kong). |
 
+</div>
+
 **Progressive tax:** The average tax rate rises with income. Higher-income earners pay a larger
 Proportion of their income in tax. Example: Hong Kong's salaries tax (maximum rate of 15% after
-Deductions, with a progressive rate structure from 2% to 17% before standard rate cap).
+deductions, with a progressive rate structure from 2% to 17% before standard rate cap).
 
 **Regressive tax:** The average tax rate falls with income. Lower-income earners pay a larger
 Proportion of their income in tax. Example: flat-rate indirect taxes (GST/VAT on basic goods).
@@ -740,21 +852,27 @@ A single rate.
 
 ### Public Debt
 
-$$\mathrm{Public debt} = \mathrm{Accumulated budget deficits} - \mathrm{Accumulated budget surpluses}$$
+$$
+\mathrm{Public debt} = \mathrm{Accumulated budget deficits} - \mathrm{Accumulated budget surpluses}
+$$
 
 Public debt is the total amount the government owes to its creditors (domestic and foreign).
 
 **Debt-to-GDP ratio:**
 
-$$\mathrm{Debt-to-GDP ratio} = \frac{\mathrm{Total public debt}}{\mathrm{GDP}} \times 100\%$$
+$$
+\mathrm{Debt-to-GDP ratio} = \frac{\mathrm{Total public debt}}{\mathrm{GDP}} \times 100\%
+$$
 
 This ratio indicates the government's ability to service its debt relative to the size of the
-Economy. A higher ratio signals greater fiscal risk.
+economy. A higher ratio signals greater fiscal risk.
 
 ### Automatic Stabilisers
 
 Automatic stabilisers are features of the fiscal system that automatically dampen economic
 Fluctuations without requiring deliberate government action.
+
+<div class="table-wrap">
 
 | Automatic Stabiliser   | Mechanism During Recession                                                                                                         | Mechanism During Expansion                                                                           |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -762,8 +880,10 @@ Fluctuations without requiring deliberate government action.
 | Unemployment benefits  | More people claim benefits; government transfers increase; disposable income of the unemployed does not fall to zero.              | Fewer people claim benefits; government transfers decrease; dampening spending growth.               |
 | Welfare programmes     | More people qualify for means-tested benefits during downturns.                                                                    | Fewer people qualify during upswings.                                                                |
 
+</div>
+
 Automatic stabilisers reduce the amplitude of the business cycle but do not eliminate it. They work
-Without legislative delay, unlike discretionary fiscal policy.
+without legislative delay, unlike discretionary fiscal policy.
 
 ---
 
@@ -857,7 +977,7 @@ An economy has the following data (all values in USD billion):
 - Subsidies: 30
 
 (a) Calculate GDP using the expenditure approach. (b) Calculate net exports. (c) Which of the above
-Items would NOT be included in GDP? Explain.
+items would NOT be included in GDP? Explain.
 
 (a) GDP = C + I + G + (X - M)
 
@@ -874,7 +994,7 @@ GDP = 800 + 170 + 200 + 50 = 1220 (USD billion)
 (b) Net exports = X - M = 300 - 250 = 50 (USD billion)
 
 (c) Transfer payments (100) and wages (600), indirect taxes (80), and subsidies (30) are NOT
-Included directly in the expenditure approach.
+included directly in the expenditure approach.
 
 Transfer payments are excluded because they are not payments for current production. They are
 Redistributions of existing income.
@@ -893,11 +1013,15 @@ Prices (used in the income approach), not direct components of the expenditure a
 
 Country X has the following data:
 
+<div class="table-wrap">
+
 | Year | Nominal GDP (USD billion) | GDP Deflator (base year = 2020) |
 | ---- | ------------------------- | ------------------------------- |
 | 2020 | 500                       | 100                             |
 | 2021 | 550                       | 105                             |
 | 2022 | 630                       | 110                             |
+
+</div>
 
 (a) Calculate real GDP for each year. (b) Calculate the real GDP growth rate for 2021 and 2022. (c)
 Calculate the inflation rate for 2021 and 2022 using the GDP deflator. (d) Did the economy grow
@@ -934,11 +1058,15 @@ Factors rather than price increases.
 
 A typical household's consumption basket and prices are as follows:
 
+<div class="table-wrap">
+
 | Good | Quantity (base year) | Base Year Price (USD) | Current Year Price (USD) |
 | ---- | -------------------- | --------------------- | ------------------------ |
 | Rice | 50 kg                | 4                     | 5                        |
 | Pork | 30 kg                | 20                    | 25                       |
 | Rent | 1 month              | 3000                  | 3300                     |
+
+</div>
 
 (a) Calculate the CPI for the current year (base year = 100). (b) Calculate the inflation rate. (c)
 Explain one limitation of using this CPI to measure the cost of living.
@@ -952,9 +1080,9 @@ CPI = (4300 / 3800) x 100 = 113.16
 (b) Inflation rate = (113.16 - 100) / 100 x 100% = 13.16%
 
 (c) **Substitution bias:** The CPI uses a fixed basket, assuming the household buys the same
-Quantities regardless of price changes. In reality, if pork becomes more expensive (25 vs 20), the
-Household may substitute toward chicken or fish. The CPI overstates inflation by not accounting for
-This substitution toward relatively cheaper goods.
+quantities regardless of price changes. In reality, if pork becomes more expensive (25 vs 20), the
+household may substitute toward chicken or fish. The CPI overstates inflation by not accounting for
+this substitution toward relatively cheaper goods.
 
 </details>
 
@@ -962,12 +1090,12 @@ This substitution toward relatively cheaper goods.
 <summary>Question 4: Unemployment Calculations</summary>
 
 An economy has a working-age population of 10 million. Of these: 6 million are employed, 0.4 million
-Are unemployed and actively seeking work, 1.5 million are full-time students, 1.8 million are
-Retirees, and 0.3 million are discouraged workers (want to work but have stopped looking).
+are unemployed and actively seeking work, 1.5 million are full-time students, 1.8 million are
+retirees, and 0.3 million are discouraged workers (want to work but have stopped looking).
 
 (a) Calculate the labour force. (b) Calculate the unemployment rate. (c) Calculate the labour force
 Participation rate. (d) If 0.1 million discouraged workers start actively seeking work, what happens
-To the unemployment rate?
+to the unemployment rate?
 
 (a) Labour force = Employed + Unemployed = 6.0 + 0.4 = 6.4 million
 
@@ -992,6 +1120,8 @@ Individuals are now classified as unemployed.
 
 An economy's potential GDP is USD 1,200 billion. The actual GDP and unemployment data are:
 
+<div class="table-wrap">
+
 | Year | Actual GDP (USD billion) | Unemployment Rate |
 | ---- | ------------------------ | ----------------- |
 | 2020 | 1,200                    | 5.0%              |
@@ -999,6 +1129,8 @@ An economy's potential GDP is USD 1,200 billion. The actual GDP and unemployment
 | 2022 | 1,080                    | 9.0%              |
 | 2023 | 1,170                    | 6.0%              |
 | 2024 | 1,230                    | 4.0%              |
+
+</div>
 
 The natural rate of unemployment is 5%.
 
@@ -1008,6 +1140,8 @@ Calculation in (a). (c) In which years did the economy experience an inflationar
 
 (a) GDP gap = Potential GDP - Actual GDP
 
+<div class="table-wrap">
+
 | Year | Potential GDP | Actual GDP | GDP Gap | Type of Gap  |
 | ---- | ------------- | ---------- | ------- | ------------ |
 | 2020 | 1,200         | 1,200      | 0       | No gap       |
@@ -1016,12 +1150,14 @@ Calculation in (a). (c) In which years did the economy experience an inflationar
 | 2023 | 1,200         | 1,170      | +30     | Recessionary |
 | 2024 | 1,200         | 1,230      | -30     | Inflationary |
 
+</div>
+
 (b) 2022: Unemployment above NRU = 9.0% - 5.0% = 4.0%
 
 Estimated GDP gap = 2 x 4.0% x 1,200 = 96
 
 Actual GDP gap = 120. The estimates differ because Okun's law is an empirical approximation, not a
-Precise relationship. The coefficient may differ across countries and time periods.
+precise relationship. The coefficient may differ across countries and time periods.
 
 (c) Only 2024 had an inflationary gap (actual GDP exceeded potential GDP).
 
@@ -1031,7 +1167,7 @@ Precise relationship. The coefficient may differ across countries and time perio
 <summary>Question 6: Progressive, Regressive, and Proportional Taxes</summary>
 
 Three taxpayers earn USD 20,000, USD 50,000, and USD 100,000 respectively. The tax system is
-Structured as follows:
+structured as follows:
 
 - First USD 30,000: 10%
 - Next USD 30,000: 20%
@@ -1051,7 +1187,7 @@ Taxpayer C (USD 100,000): Tax = 30,000 x 10% + 30,000 x 20% + 40,000 x 30% = 3,0
 
 (b) Yes, this is a progressive tax system. The average tax rate increases with income: 10% for USD
 20,000, 14% for USD 50,000, and 21% for USD 100,000. Higher-income earners pay a larger proportion
-Of their income in tax.
+of their income in tax.
 
 (c) Taxpayer A: Taxable income = 20,000 - 5,000 = 15,000. Tax = 15,000 x 15% = 2,250. Average tax
 Rate = 2,250 / 20,000 = 11.25%.
@@ -1112,15 +1248,19 @@ If you get this wrong, revise: [Methods of Measuring GDP](#methods-of-measuring-
 
 An economy produces only two goods:
 
+<div class="table-wrap">
+
 | Good | 2023 Price | 2023 Qty | 2024 Price | 2024 Qty |
 | ---- | ---------- | -------- | ---------- | -------- |
 | X    | 5          | 200      | 6          | 220      |
 | Y    | 10         | 100      | 12         | 90       |
 
+</div>
+
 Using 2023 as the base year:
 
 (a) Calculate nominal and real GDP for both years. (b) Calculate the GDP deflator and inflation rate
-For 2024. (c) Calculate the real GDP growth rate.
+for 2024. (c) Calculate the real GDP growth rate.
 
 <details>
 <summary>Solution</summary>
@@ -1214,7 +1354,7 @@ a recession.
 bank Tellers. The worker's skills do not match the available jobs. Retraining would be needed.
 
 (c) **Frictional** -- the graduate is moving between jobs (from education to employment). This is a
-Normal part of a dynamic labour market and is short-term.
+normal part of a dynamic labour market and is short-term.
 
 (d) **Cyclical** -- the layoff is due to insufficient aggregate demand during a recession. The
 worker May be rehired when the economy recovers.
@@ -1227,12 +1367,16 @@ If you get this wrong, revise: [Types of Unemployment](#types-of-unemployment)
 
 An economy's potential GDP is USD 800 billion. The following data shows actual GDP and unemployment:
 
+<div class="table-wrap">
+
 | Year | Actual GDP | Unemployment Rate |
 | ---- | ---------- | ----------------- |
 | 2021 | 760        | 7.5%              |
 | 2022 | 720        | 9.5%              |
 | 2023 | 800        | 5.0%              |
 | 2024 | 840        | 3.5%              |
+
+</div>
 
 The natural rate of unemployment is 5%.
 
@@ -1275,9 +1419,9 @@ compensate. Higher wages shift the SRAS curve left, returning unemployment to 5%
 inflation rate. The economy moves up along the vertical LRPC. The long-run trade-off disappears.
 
 (c) Starting at the intersection of SRPC1 and LRPC (5% unemployment, 2% inflation), the policy moves
-The economy left along SRPC1 to (3%, higher inflation). Over time, expectations adjust and SRPC1
+the economy left along SRPC1 to (3%, higher inflation). Over time, expectations adjust and SRPC1
 Shifts up to SRPC2. The economy returns to 5% unemployment but at a higher inflation rate. This
-Demonstrates the accelerationist hypothesis.
+demonstrates the accelerationist hypothesis.
 
 </details>
 
@@ -1330,11 +1474,15 @@ If you get this wrong, revise: [Automatic Stabilisers](#automatic-stabilisers)
 An economy produces only three goods: rice, clothing, and electronics. The data for 2020 (base year)
 and 2023 are:
 
+<div class="table-wrap">
+
 | Good                | Quantity 2020 | Price 2020 | Quantity 2023 | Price 2023 |
 | ------------------- | ------------- | ---------- | ------------- | ---------- |
 | Rice (tonnes)       | 1000          | $200       | 1200          | $250       |
 | Clothing (units)    | 500           | $100       | 600           | $120       |
 | Electronics (units) | 200           | $500       | 300           | $450       |
+
+</div>
 
 The typical consumer basket is: 200 tonnes of rice, 100 units of clothing, 50 units of electronics.
 
@@ -1424,14 +1572,18 @@ If you get this wrong, revise: [Okun's Law](/economics/5-macroeconomic-indicator
 
 ### Problem 11: Economic Growth Accounting
 
-An economy's production function is $Y = A \cdot K^{0.3} \cdot L^{0.7}$Where $Y$ is GDP, $K$ is
+An economy's production function is $Y = A \cdot K^{0.3} \cdot L^{0.7}$ Where $Y$ is GDP, $K$ is
 capital, $L$ is labour, and $A$ is total factor productivity (TFP). Data:
+
+<div class="table-wrap">
 
 | Variable    | Year 1 | Year 2 |
 | ----------- | ------ | ------ |
 | Y (billion) | 1000   | 1100   |
 | K (billion) | 2000   | 2300   |
 | L (million) | 10     | 10.5   |
+
+</div>
 
 (a) Calculate the growth rates of Y, K, and L. (b) Using the growth accounting framework, decompose
 GDP growth into contributions from capital, labour, and TFP. (c) What percentage of growth is due to
@@ -1483,6 +1635,8 @@ If you get this wrong, revise: [Economic Growth Accounting](/economics/5-macroec
 
 Three countries have the following indicators:
 
+<div class="table-wrap">
+
 | Indicator                         | Country A | Country B | Country C |
 | --------------------------------- | --------- | --------- | --------- |
 | GDP per capita (USD)              | 55,000    | 15,000    | 8,000     |
@@ -1491,6 +1645,8 @@ Three countries have the following indicators:
 | Gini coefficient                  | 0.34      | 0.52      | 0.41      |
 | CO2 emissions per capita (tonnes) | 12        | 5         | 2         |
 | HDI                               | 0.93      | 0.75      | 0.68      |
+
+</div>
 
 (a) Calculate the HDI for Country A and Country B using the simplified formula: HDI = (life
 expectancy index + education index + income index) / 3, where life expectancy index = (LE - 20) /
@@ -1719,17 +1875,6 @@ If you get this wrong, revise: [Green GDP and Sustainability](/economics/5-macro
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[1_National Income] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 macroeconomic indicators, including key models, evidence, and policy implications.
@@ -1752,9 +1897,6 @@ success in this subject.
 > > > > > > > changes:docs/docs_dse/Economics/national-income-and-macroeconomic-indicators.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

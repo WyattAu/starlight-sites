@@ -15,16 +15,6 @@ tableOfContents: false
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Diag Hypothesis Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
@@ -81,11 +71,17 @@ So $\sigma_{\bar{X}} = \sqrt{0.015625} = 0.125$.
 
 The critical region is where $\mathrm{P}(\bar{X} \leq c) = 0.05$ under $H_0$:
 
-$$\mathrm{P}\left(Z \leq \frac{c - 500}{0.125}\right) = 0.05$$
+$$
+\mathrm{P}\left(Z \leq \frac{c - 500}{0.125}\right) = 0.05
+$$
 
-$$\frac{c - 500}{0.125} = -1.6449$$
+$$
+\frac{c - 500}{0.125} = -1.6449
+$$
 
-$$c = 500 - 1.6449 \times 0.125 = 500 - 0.2056 = 499.794$$
+$$
+c = 500 - 1.6449 \times 0.125 = 500 - 0.2056 = 499.794
+$$
 
 **Critical region:** $\bar{X} \leq 499.79$ g (to 2 d.p.).
 
@@ -96,13 +92,19 @@ $H_0: \mu = 500$, $H_1: \mu \neq 500$.
 
 Lower critical value:
 
-$$\mathrm{P}\left(Z \leq \frac{c_1 - 500}{0.125}\right) = 0.025 \implies \frac{c_1 - 500}{0.125} = -1.96$$
+$$
+\mathrm{P}\left(Z \leq \frac{c_1 - 500}{0.125}\right) = 0.025 \implies \frac{c_1 - 500}{0.125} = -1.96
+$$
 
-$$c_1 = 500 - 1.96 \times 0.125 = 500 - 0.245 = 499.755$$
+$$
+c_1 = 500 - 1.96 \times 0.125 = 500 - 0.245 = 499.755
+$$
 
 Upper critical value:
 
-$$\frac{c_2 - 500}{0.125} = 1.96 \implies c_2 = 500 + 0.245 = 500.245$$
+$$
+\frac{c_2 - 500}{0.125} = 1.96 \implies c_2 = 500 + 0.245 = 500.245
+$$
 
 **Critical region:** $\bar{X} \leq 499.76$ or $\bar{X} \geq 500.24$ g (to 2 d.p.).
 
@@ -110,14 +112,14 @@ $$\frac{c_2 - 500}{0.125} = 1.96 \implies c_2 = 500 + 0.245 = 500.245$$
 
 Test statistic: $z = \frac{499.4 - 500}{0.125} = \frac{-0.6}{0.125} = -4.8$.
 
-Since $-4.8 \lt -1.6449$The test statistic falls in the critical region.
+Since $-4.8 \lt -1.6449$ The test statistic falls in the critical region.
 
 **Conclusion (one-tailed):** Reject $H_0$. There is sufficient evidence that the machine is
 underfilling.
 
 **Two-tailed test:** $z = -4.8$.
 
-Since $-4.8 \lt -1.96$The test statistic falls in the lower critical region.
+Since $-4.8 \lt -1.96$ The test statistic falls in the lower critical region.
 
 **Conclusion (two-tailed):** Reject $H_0$. There is sufficient evidence that the mean fill weight
 differs from 500 g.
@@ -125,8 +127,8 @@ differs from 500 g.
 In this case, both tests lead to rejection because the evidence is very strong ($z = -4.8$ is far in
 the tail). However, consider if $\bar{x} = 499.77$ instead:
 
-- One-tailed: $z = \frac{499.77 - 500}{0.125} = -1.84$. Since $-1.84 \lt -1.6449$We reject $H_0$.
-- Two-tailed: $z = -1.84$. Since $-1.96 \lt -1.84 \lt 1.96$We do **not** reject $H_0$.
+- One-tailed: $z = \frac{499.77 - 500}{0.125} = -1.84$. Since $-1.84 \lt -1.6449$ We reject $H_0$.
+- Two-tailed: $z = -1.84$. Since $-1.96 \lt -1.84 \lt 1.96$ We do **not** reject $H_0$.
 
 This shows that the one-tailed test is more powerful for detecting deviations in the specified
 direction, but it should only be used when there is a genuine prior reason to test in one direction
@@ -153,7 +155,7 @@ and $z = -1.645$ that the two-tailed test would not catch).
   direction.
 - **Risk:** The one-tailed test cannot detect deviations in the opposite direction. If the machine
   is actually overfilling, the one-tailed test (testing for underfilling) will almost certainly fail
-  to reject $H_0$Committing a Type II error.
+  to reject $H_0$ Committing a Type II error.
 
 ---
 
@@ -187,7 +189,7 @@ Show that a single threshold value cannot achieve both simultaneously with the g
 
 **(d)** The doctor increases the sample size to 4 independent blood tests and uses the mean
 biomarker level $\bar{B}$ as the test statistic. Find the threshold value $c$ such that both the
-Type I and Type II error rates are at most 5%. If this is not possible, find the threshold that
+type I and Type II error rates are at most 5%. If this is not possible, find the threshold that
 minimises the sum of the two error rates.
 
 [Difficulty: hard. Tests precise calculation of both types of error and the trade-off between them.]
@@ -198,9 +200,13 @@ minimises the sum of the two error rates.
 
 For healthy individuals: $B \sim N(50, 8^2) = N(50, 64)$.
 
-$$\mathrm{P}(\text{Type I error}) = \mathrm{P}(B > 58 \mid \mu = 50) = \mathrm{P}\left(Z > \frac{58 - 50}{8}\right) = \mathrm{P}(Z > 1)$$
+$$
+\mathrm{P}(\text{Type I error}) = \mathrm{P}(B > 58 \mid \mu = 50) = \mathrm{P}\left(Z > \frac{58 - 50}{8}\right) = \mathrm{P}(Z > 1)
+$$
 
-$$= 1 - \Phi(1) = 1 - 0.8413 = 0.1587$$
+$$
+= 1 - \Phi(1) = 1 - 0.8413 = 0.1587
+$$
 
 The probability of a Type I error is approximately 15.9%.
 
@@ -208,36 +214,48 @@ The probability of a Type I error is approximately 15.9%.
 
 For affected individuals: $B \sim N(62, 8^2) = N(62, 64)$.
 
-$$\mathrm{P}(\text{Type II error}) = \mathrm{P}(B \leq 58 \mid \mu = 62) = \mathrm{P}\left(Z \leq \frac{58 - 62}{8}\right) = \mathrm{P}(Z \leq -0.5)$$
+$$
+\mathrm{P}(\text{Type II error}) = \mathrm{P}(B \leq 58 \mid \mu = 62) = \mathrm{P}\left(Z \leq \frac{58 - 62}{8}\right) = \mathrm{P}(Z \leq -0.5)
+$$
 
-$$= \Phi(-0.5) = 1 - \Phi(0.5) = 1 - 0.6915 = 0.3085$$
+$$
+= \Phi(-0.5) = 1 - \Phi(0.5) = 1 - 0.6915 = 0.3085
+$$
 
 The probability of a Type II error is approximately 30.9%.
 
 **(c)** For the Type I error rate to be at most 5%, we need:
 
-$$\mathrm{P}(B > c \mid \mu = 50) \leq 0.05$$
+$$
+\mathrm{P}(B > c \mid \mu = 50) \leq 0.05
+$$
 
-$$\mathrm{P}\left(Z > \frac{c - 50}{8}\right) \leq 0.05 \implies \frac{c - 50}{8} \geq 1.6449 \implies c \geq 50 + 13.16 = 63.16$$
+$$
+\mathrm{P}\left(Z > \frac{c - 50}{8}\right) \leq 0.05 \implies \frac{c - 50}{8} \geq 1.6449 \implies c \geq 50 + 13.16 = 63.16
+$$
 
 So $c \geq 63.16$.
 
 For the Type II error rate to be at most 5%, we need:
 
-$$\mathrm{P}(B \leq c \mid \mu = 62) \leq 0.05$$
+$$
+\mathrm{P}(B \leq c \mid \mu = 62) \leq 0.05
+$$
 
-$$\mathrm{P}\left(Z \leq \frac{c - 62}{8}\right) \leq 0.05 \implies \frac{c - 62}{8} \geq 1.6449 \implies c \geq 62 + 13.16 = 75.16$$
+$$
+\mathrm{P}\left(Z \leq \frac{c - 62}{8}\right) \leq 0.05 \implies \frac{c - 62}{8} \geq 1.6449 \implies c \geq 62 + 13.16 = 75.16
+$$
 
 So $c \geq 75.16$.
 
-But for the Type I error rate to be at most 5%, we need $c \geq 63.16$While for the Type II error
+But for the Type I error rate to be at most 5%, we need $c \geq 63.16$ While for the Type II error
 rate to be at most 5%, we need $c \geq 75.16$. These are contradictory requirements in the sense
 that increasing $c$ reduces the Type I error rate but increases the Type II error rate, and vice
 versa.
 
-Let me verify: at $c = 63.16$Type I error $= 5\%$ and Type II error
+Let me verify: at $c = 63.16$ Type I error $= 5\%$ and Type II error
 $= \mathrm{P}(B \leq 63.16 \mid \mu = 62) = \mathrm{P}(Z \leq 0.145) = 0.558 = 55.8\%$. At
-$c = 75.16$Type II error $= 5\%$ but Type I error
+$c = 75.16$ Type II error $= 5\%$ but Type I error
 $= \mathrm{P}(B > 75.16 \mid \mu = 50) = \mathrm{P}(Z > 3.145) \approx 0.08\%$.
 
 As $c$ increases, Type I error decreases and Type II error increases. There is no value of $c$ where
@@ -252,13 +270,15 @@ For Type II error $\leq 5\%$: $c \geq 62 + 1.6449 \times 4 = 68.58$
 
 Wait --- for Type II error $\leq 5\%$: we need $\mathrm{P}(\bar{B} \leq c \mid \mu = 62) \leq 0.05$:
 
-$$\mathrm{P}\left(Z \leq \frac{c - 62}{4}\right) \leq 0.05 \implies \frac{c - 62}{4} \geq 1.6449 \implies c \geq 68.58$$
+$$
+\mathrm{P}\left(Z \leq \frac{c - 62}{4}\right) \leq 0.05 \implies \frac{c - 62}{4} \geq 1.6449 \implies c \geq 68.58
+$$
 
 But at $c = 68.58$: Type I error
 $= \mathrm{P}(\bar{B} > 68.58 \mid \mu = 50) = \mathrm{P}(Z > 4.645) \approx 0$ And Type II error
 $= 5\%$.
 
-At $c = 56.58$: Type I error $= 5\%$Type II error
+At $c = 56.58$: Type I error $= 5\%$ Type II error
 $= \mathrm{P}(\bar{B} \leq 56.58 \mid \mu = 62) = \mathrm{P}(Z \leq -1.355) = 8.8\%$.
 
 Still, there is no value where both are $\leq 5\%$. Even with 4 samples, the distributions overlap
@@ -266,11 +286,17 @@ too much.
 
 To minimise the sum of error rates, we set the threshold where the two PDFs cross:
 
-$$\frac{1}{4\sqrt{2\pi}}\exp\left(-\frac{(c-50)^2}{32}\right) = \frac{1}{4\sqrt{2\pi}}\exp\left(-\frac{(c-62)^2}{32}\right)$$
+$$
+\frac{1}{4\sqrt{2\pi}}\exp\left(-\frac{(c-50)^2}{32}\right) = \frac{1}{4\sqrt{2\pi}}\exp\left(-\frac{(c-62)^2}{32}\right)
+$$
 
-$$(c - 50)^2 = (c - 62)^2$$
+$$
+(c - 50)^2 = (c - 62)^2
+$$
 
-$$c - 50 = -(c - 62) \implies 2c = 112 \implies c = 56$$
+$$
+c - 50 = -(c - 62) \implies 2c = 112 \implies c = 56
+$$
 
 At $c = 56$:
 
@@ -324,15 +350,19 @@ interpretation and the language of conclusions.]
 **(a)** Under $H_0$: $\bar{X} \sim N\left(0, \frac{15^2}{25}\right) = N(0, 9)$ So
 $\sigma_{\bar{X}} = 3$.
 
-$$z = \frac{\bar{x} - 0}{3} = \frac{-5.2}{3} = -1.733$$
+$$
+z = \frac{\bar{x} - 0}{3} = \frac{-5.2}{3} = -1.733
+$$
 
 This is a one-tailed test (left-tailed), so the p-value is:
 
-$$\text{p-value} = \mathrm{P}(Z \leq -1.733) = \Phi(-1.733) = 1 - \Phi(1.733) = 1 - 0.9586 = 0.0414$$
+$$
+\text{p-value} = \mathrm{P}(Z \leq -1.733) = \Phi(-1.733) = 1 - \Phi(1.733) = 1 - 0.9586 = 0.0414
+$$
 
 The p-value is approximately 0.0414.
 
-Since $0.0414 \lt 0.05$The result is statistically significant at the 5% level.
+Since $0.0414 \lt 0.05$ The result is statistically significant at the 5% level.
 
 **(b)** The researcher"s statement contains two errors:
 
@@ -356,7 +386,7 @@ probability that $H_0$ is true. The p-value is:
 > The probability of obtaining a test statistic at least as extreme as the one observed, **assuming
 > $H_0$ is true**.
 
-The p-value is a conditional probability: $\mathrm{P}(\text{data} \mid H_0)$Not
+The p-value is a conditional probability: $\mathrm{P}(\text{data} \mid H_0)$ Not
 $\mathrm{P}(H_0 \mid \text{data})$.
 
 A large p-value means the observed data is consistent with $H_0$ But it does not mean $H_0$ is
@@ -370,9 +400,13 @@ probabilities), which go beyond the scope of classical hypothesis testing.
 **(d)** With $n = 50$: $\bar{X} \sim N\left(0, \frac{15^2}{50}\right) = N(0, 4.5)$ So
 $\sigma_{\bar{X}} = \sqrt{4.5} \approx 2.121$.
 
-$$z = \frac{-5.2}{\sqrt{4.5}} = \frac{-5.2}{2.121} = -2.451$$
+$$
+z = \frac{-5.2}{\sqrt{4.5}} = \frac{-5.2}{2.121} = -2.451
+$$
 
-$$\text{p-value} = \mathrm{P}(Z \leq -2.451) = 1 - \Phi(2.451) = 1 - 0.9929 = 0.0071$$
+$$
+\text{p-value} = \mathrm{P}(Z \leq -2.451) = 1 - \Phi(2.451) = 1 - 0.9929 = 0.0071
+$$
 
 The new p-value is approximately 0.0071, which is much smaller than the original 0.0414.
 
@@ -411,7 +445,9 @@ A traffic engineer monitors a busy junction and records the number of vehicles p
 After a new traffic light system is installed, the engineer records the number of vehicles in 20
 randomly selected 10-second intervals:
 
-$$6, 7, 5, 8, 4, 9, 6, 7, 5, 8, 6, 7, 4, 9, 5, 8, 6, 7, 5, 8$$
+$$
+6, 7, 5, 8, 4, 9, 6, 7, 5, 8, 6, 7, 4, 9, 5, 8, 6, 7, 5, 8
+$$
 
 **(a)** The engineer proposes to use a Poisson distribution to model the data. Before the new
 system, the number of vehicles $X \sim \text{Po}(8)$. State the mean and variance of $X$ And explain
@@ -437,7 +473,9 @@ approaches.]
 
 **(a)** For $X \sim \text{Po}(8)$:
 
-$$\mathrm{E}(X) = 8, \quad \mathrm{Var}(X) = 8$$
+$$
+\mathrm{E}(X) = 8, \quad \mathrm{Var}(X) = 8
+$$
 
 The Poisson distribution is appropriate because:
 
@@ -465,7 +503,9 @@ The normal approximation is appropriate because:
 
 **(c)** From the data:
 
-$$\bar{x} = \frac{6+7+5+8+4+9+6+7+5+8+6+7+4+9+5+8+6+7+5+8}{20} = \frac{134}{20} = 6.7$$
+$$
+\bar{x} = \frac{6+7+5+8+4+9+6+7+5+8+6+7+4+9+5+8+6+7+5+8}{20} = \frac{134}{20} = 6.7
+$$
 
 $H_0: \lambda = 8$ (mean number of vehicles per interval is 8)
 
@@ -473,31 +513,35 @@ $H_1: \lambda \lt 8$ (mean has decreased)
 
 Under $H_0$: $\bar{X} \approx N(8, 0.4)$, $\sigma = \sqrt{0.4} \approx 0.6325$.
 
-$$z = \frac{6.7 - 8}{0.6325} = \frac{-1.3}{0.6325} = -2.056$$
+$$
+z = \frac{6.7 - 8}{0.6325} = \frac{-1.3}{0.6325} = -2.056
+$$
 
 P-value $= \mathrm{P}(Z \lt -2.056) = 1 - \Phi(2.056) = 1 - 0.9801 = 0.0199$
 
-Since $0.0199 \lt 0.05$We reject $H_0$.
+Since $0.0199 \lt 0.05$ We reject $H_0$.
 
 **Conclusion:** There is sufficient evidence at the 5% significance level to conclude that the new
 traffic light system has reduced the mean number of vehicles per 10-second interval.
 
 **(d)** The total count is $T = 134$.
 
-Under $H_0$: $T \sim \text{Po}(160)$Approximated by
+Under $H_0$: $T \sim \text{Po}(160)$ Approximated by
 $N(160, 160)$, $\sigma = \sqrt{160} \approx 12.649$.
 
 With continuity correction (since $T$ is discrete and we want $\mathrm{P}(T \leq 134)$):
 
-$$z = \frac{134.5 - 160}{\sqrt{160}} = \frac{-25.5}{12.649} = -2.016$$
+$$
+z = \frac{134.5 - 160}{\sqrt{160}} = \frac{-25.5}{12.649} = -2.016
+$$
 
 P-value $= \mathrm{P}(Z \lt -2.016) = 1 - \Phi(2.016) = 1 - 0.9781 = 0.0219$
 
-Since $0.0219 \lt 0.05$We reject $H_0$ --- the same conclusion as part (c).
+Since $0.0219 \lt 0.05$ We reject $H_0$ --- the same conclusion as part (c).
 
 The slight difference in p-values (0.0199 vs 0.0219) is due to the continuity correction in part
 (d). Without the continuity correction, part (d) gives
-$z = \frac{134 - 160}{\sqrt{160}} = -2.056$Exactly matching part (c). This confirms the
+$z = \frac{134 - 160}{\sqrt{160}} = -2.056$ Exactly matching part (c). This confirms the
 equivalence: testing the sample mean is mathematically identical to testing the total count, since
 $\bar{X} = \frac{T}{n}$ and dividing by a constant $n$ does not change the significance of the
 result.
@@ -545,9 +589,13 @@ $\sigma_{\bar{X}} = \frac{40}{6} = \frac{20}{3}$.
 
 Critical value:
 
-$$\mathrm{P}(\bar{X} \leq c) = 0.05 \implies \frac{c - 500}{20/3} = -1.6449$$
+$$
+\mathrm{P}(\bar{X} \leq c) = 0.05 \implies \frac{c - 500}{20/3} = -1.6449
+$$
 
-$$c = 500 - 1.6449 \times \frac{20}{3} = 500 - 10.966 = 489.03$$
+$$
+c = 500 - 1.6449 \times \frac{20}{3} = 500 - 10.966 = 489.03
+$$
 
 **Critical region:** $\bar{X} \leq 489.0$ hours (to 1 d.p.).
 
@@ -558,54 +606,84 @@ is 480).
 
 When the true mean is $\mu = 480$:
 
-$$\bar{X} \sim N\left(480, \frac{1600}{36}\right) = N(480, 44.44)$$
+$$
+\bar{X} \sim N\left(480, \frac{1600}{36}\right) = N(480, 44.44)
+$$
 
 We fail to reject $H_0$ when $\bar{X} > 489.03$:
 
-$$\mathrm{P}(\text{Type II error}) = \mathrm{P}(\bar{X} > 489.03 \mid \mu = 480) = \mathrm{P}\left(Z > \frac{489.03 - 480}{20/3}\right)$$
+$$
+\mathrm{P}(\text{Type II error}) = \mathrm{P}(\bar{X} > 489.03 \mid \mu = 480) = \mathrm{P}\left(Z > \frac{489.03 - 480}{20/3}\right)
+$$
 
-$$= \mathrm{P}\left(Z > \frac{9.03 \times 3}{20}\right) = \mathrm{P}(Z > 1.355)$$
+$$
+= \mathrm{P}\left(Z > \frac{9.03 \times 3}{20}\right) = \mathrm{P}(Z > 1.355)
+$$
 
-$$= 1 - \Phi(1.355) = 1 - 0.9123 = 0.0877$$
+$$
+= 1 - \Phi(1.355) = 1 - 0.9123 = 0.0877
+$$
 
 The probability of a Type II error is approximately 8.8%.
 
 **(c)** The power of the test is the probability of correctly rejecting $H_0$ when $H_1$ is true:
 
-$$\text{Power} = 1 - \mathrm{P}(\text{Type II error}) = 1 - 0.0877 = 0.9123$$
+$$
+\text{Power} = 1 - \mathrm{P}(\text{Type II error}) = 1 - 0.0877 = 0.9123
+$$
 
 The power is approximately 91.2% when the true mean is 480 hours.
 
-**(d)** We need Power $\geq 0.90$ when $\mu = 480$I.e.,
+**(d)** We need Power $\geq 0.90$ when $\mu = 480$ I.e.,
 $\mathrm{P}(\text{Type II error}) \leq 0.10$.
 
 Let $n$ be the sample size. Under $H_0$: $\bar{X} \sim N(500, \frac{1600}{n})$.
 
 Critical value: $\mathrm{P}(\bar{X} \leq c) = 0.05$ under $H_0$:
 
-$$c = 500 - 1.6449 \times \frac{40}{\sqrt{n}}$$
+$$
+c = 500 - 1.6449 \times \frac{40}{\sqrt{n}}
+$$
 
 Under $H_1$ ($\mu = 480$): $\bar{X} \sim N(480, \frac{1600}{n})$.
 
-$$\mathrm{P}(\text{Type II error}) = \mathrm{P}\left(\bar{X} > 500 - 1.6449 \times \frac{40}{\sqrt{n}} \;\middle|\; \mu = 480\right) \leq 0.10$$
+$$
+\mathrm{P}(\text{Type II error}) = \mathrm{P}\left(\bar{X} > 500 - 1.6449 \times \frac{40}{\sqrt{n}} \;\middle|\; \mu = 480\right) \leq 0.10
+$$
 
-$$\mathrm{P}\left(Z > \frac{500 - 1.6449 \times 40/\sqrt{n} - 480}{40/\sqrt{n}}\right) \leq 0.10$$
+$$
+\mathrm{P}\left(Z > \frac{500 - 1.6449 \times 40/\sqrt{n} - 480}{40/\sqrt{n}}\right) \leq 0.10
+$$
 
-$$\mathrm{P}\left(Z > \frac{20\sqrt{n} - 1.6449 \times 40}{40}\right) \leq 0.10$$
+$$
+\mathrm{P}\left(Z > \frac{20\sqrt{n} - 1.6449 \times 40}{40}\right) \leq 0.10
+$$
 
-$$\mathrm{P}\left(Z > \frac{20\sqrt{n} - 65.796}{40}\right) \leq 0.10$$
+$$
+\mathrm{P}\left(Z > \frac{20\sqrt{n} - 65.796}{40}\right) \leq 0.10
+$$
 
 For this probability to be at most 0.10, we need:
 
-$$\frac{20\sqrt{n} - 65.796}{40} \geq 1.2816$$
+$$
+\frac{20\sqrt{n} - 65.796}{40} \geq 1.2816
+$$
 
-$$20\sqrt{n} - 65.796 \geq 51.264$$
+$$
+20\sqrt{n} - 65.796 \geq 51.264
+$$
 
-$$20\sqrt{n} \geq 117.06$$
+$$
+20\sqrt{n} \geq 117.06
+$$
 
-$$\sqrt{n} \geq 5.853$$
+$$
+\sqrt{n} \geq 5.853
+$$
 
-$$n \geq 34.26$$
+$$
+n \geq 34.26
+$$
 
 Since $n$ must be an integer, the minimum sample size is $n = 35$.
 
@@ -613,7 +691,9 @@ Since $n$ must be an integer, the minimum sample size is $n = 35$.
 
 Critical value $= 500 - 1.6449 \times 6.761 = 500 - 11.12 = 488.88$.
 
-$$\mathrm{P}(\text{Type II error} \mid \mu = 480) = \mathrm{P}\left(Z > \frac{488.88 - 480}{6.761}\right) = \mathrm{P}(Z > 1.314) = 0.0944$$
+$$
+\mathrm{P}(\text{Type II error} \mid \mu = 480) = \mathrm{P}\left(Z > \frac{488.88 - 480}{6.761}\right) = \mathrm{P}(Z > 1.314) = 0.0944
+$$
 
 Power $= 1 - 0.0944 = 0.9056 = 90.6\% \geq 90\%$.
 
@@ -621,7 +701,9 @@ With $n = 34$: $\sigma_{\bar{X}} = \frac{40}{\sqrt{34}} = 6.860$.
 
 Critical value $= 500 - 1.6449 \times 6.860 = 488.71$.
 
-$$\mathrm{P}(\text{Type II error} \mid \mu = 480) = \mathrm{P}\left(Z > \frac{488.71 - 480}{6.860}\right) = \mathrm{P}(Z > 1.270) = 0.1020$$
+$$
+\mathrm{P}(\text{Type II error} \mid \mu = 480) = \mathrm{P}\left(Z > \frac{488.71 - 480}{6.860}\right) = \mathrm{P}(Z > 1.270) = 0.1020
+$$
 
 Power $= 89.8\% \lt 90\%$.
 
@@ -642,7 +724,7 @@ So $n = 35$ is the minimum sample size.
 
 **Question:**
 
-A psychologist investigates the relationship between hours of sleep ($S$) and reaction time ($R$In
+A psychologist investigates the relationship between hours of sleep ($S$) and reaction time ($R$ In
 ms) for a random sample of 15 adults. She calculates the product moment correlation coefficient to
 be $r = -0.52$.
 
@@ -658,7 +740,7 @@ this regression line, predict the reaction time for someone who sleeps 8 hours. 
 prediction might not be reliable.
 
 **(d)** A colleague collects data from 40 adults and obtains $r = -0.31$. Using the fact that the
-critical value for a one-tailed test with $n = 40$ at the 5% level is $-0.257$Test whether there is
+critical value for a one-tailed test with $n = 40$ at the 5% level is $-0.257$ Test whether there is
 evidence of negative correlation. Compare the p-values (qualitatively) for the two studies and
 explain the role of sample size in hypothesis testing for correlation.
 
@@ -677,7 +759,7 @@ $H_1: \rho \lt 0$ (negative linear correlation)
 
 **Critical value:** $-0.441$ (for a one-tailed test at the 5% level with $n = 15$)
 
-Since $r = -0.52 \lt -0.441$The test statistic falls in the critical region.
+Since $r = -0.52 \lt -0.441$ The test statistic falls in the critical region.
 
 **Conclusion:** There is sufficient evidence at the 5% significance level to reject $H_0$ and
 conclude that there is evidence of a negative correlation between hours of sleep and reaction time
@@ -688,7 +770,9 @@ improves with more sleep), which is consistent with established psychological re
 
 **(b)** The coefficient of determination:
 
-$$r^2 = (-0.52)^2 = 0.2704$$
+$$
+r^2 = (-0.52)^2 = 0.2704
+$$
 
 Interpretation: approximately 27.0% of the variation in reaction time can be explained by the linear
 relationship with hours of sleep. The remaining 73.0% of the variation is due to other factors
@@ -699,7 +783,9 @@ Note: $r^2$ is always non-negative, regardless of the sign of $r$. The sign of $
 
 **(c)** For $S = 8$ hours:
 
-$$R = 580 - 28(8) = 580 - 224 = 356 \text{ ms}$$
+$$
+R = 580 - 28(8) = 580 - 224 = 356 \text{ ms}
+$$
 
 This prediction might not be reliable because:
 
@@ -707,7 +793,7 @@ This prediction might not be reliable because:
    then 8 hours might be near the upper end of the data range. The regression line may not
    accurately predict beyond the observed range.
 
-2. **Weak correlation:** With $r^2 = 0.27$Only 27% of the variation is explained. The remaining 73%
+2. **Weak correlation:** With $r^2 = 0.27$ Only 27% of the variation is explained. The remaining 73%
    of variation means there is substantial scatter around the regression line, making individual
    predictions imprecise.
 
@@ -721,7 +807,7 @@ Test statistic: $r = -0.31$.
 
 Critical value: $-0.257$.
 
-Since $-0.31 \lt -0.257$The test statistic falls in the critical region.
+Since $-0.31 \lt -0.257$ The test statistic falls in the critical region.
 
 **Conclusion:** There is sufficient evidence at the 5% level to conclude there is a negative
 correlation.
@@ -737,7 +823,7 @@ the larger sample provides more evidence against $H_0$ And the p-value may be co
 smaller.
 
 The relationship between $r$, $n$ And the p-value is governed by the test statistic
-$t = r\sqrt{\frac{n-2}{1-r^2}}$Which follows a $t$-distribution with $n-2$ degrees of freedom
+$t = r\sqrt{\frac{n-2}{1-r^2}}$ Which follows a $t$-distribution with $n-2$ degrees of freedom
 under $H_0$.
 
 For Study 1:

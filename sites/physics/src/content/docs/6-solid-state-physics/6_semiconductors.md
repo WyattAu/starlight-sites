@@ -19,16 +19,20 @@ description: 'At The valence band is completely filled and the conduction band i
 
 ### 6.1 Intrinsic Semiconductors
 
-At $T = 0$The valence band is completely filled and the conduction band is completely empty. There
+At $T = 0$ The valence band is completely filled and the conduction band is completely empty. There
 is a band gap $E_g$.
 
-At finite $T$Electrons are thermally excited across the gap. The intrinsic carrier concentration:
+At finite $T$ Electrons are thermally excited across the gap. The intrinsic carrier concentration:
 
-$$n_i = p_i = \sqrt{N_c N_v}\, e^{-E_g/(2k_B T)}$$
+$$
+n_i = p_i = \sqrt{N_c N_v}\, e^{-E_g/(2k_B T)}
+$$
 
 Where $N_c$ and $N_v$ are the effective density of states in the conduction and valence bands:
 
-$$N_c = 2\left(\frac{2\pi m_e^* k_B T}{h^2}\right)^{3/2}, \quad N_v = 2\left(\frac{2\pi m_h^* k_B T}{h^2}\right)^{3/2}$$
+$$
+N_c = 2\left(\frac{2\pi m_e^* k_B T}{h^2}\right)^{3/2}, \quad N_v = 2\left(\frac{2\pi m_h^* k_B T}{h^2}\right)^{3/2}
+$$
 
 Here $m_e^*$ and $m_h^*$ are the effective masses of electrons and holes.
 
@@ -45,15 +49,23 @@ Creating holes. Majority carriers: holes.
 
 For $n$-type with donor concentration $N_D$ (non-degenerate, $T$ not too high):
 
-$$n \approx N_D, \quad p = \frac{n_i^2}{N_D}$$
+$$
+n \approx N_D, \quad p = \frac{n_i^2}{N_D}
+$$
 
-$$E_F \approx E_c - k_B T \ln\left(\frac{N_c}{N_D}\right)$$
+$$
+E_F \approx E_c - k_B T \ln\left(\frac{N_c}{N_D}\right)
+$$
 
 For $p$-type with acceptor concentration $N_A$:
 
-$$p \approx N_A, \quad n = \frac{n_i^2}{N_A}$$
+$$
+p \approx N_A, \quad n = \frac{n_i^2}{N_A}
+$$
 
-$$E_F \approx E_v + k_B T \ln\left(\frac{N_v}{N_A}\right)$$
+$$
+E_F \approx E_v + k_B T \ln\left(\frac{N_v}{N_A}\right)
+$$
 
 **Mass action law:** $np = n_i^2$ holds at thermal equilibrium regardless of doping.
 
@@ -70,7 +82,9 @@ At the interface between p-type and n-type material:
 
 **Current-voltage characteristic (Shockley equation):**
 
-$$I = I_0\left(e^{eV/(k_B T)} - 1\right)$$
+$$
+I = I_0\left(e^{eV/(k_B T)} - 1\right)
+$$
 
 Where $I_0$ is the reverse saturation current. Forward bias ($V \gt 0$) exponentially increases the
 Current. Reverse bias ($V \lt 0$) gives approximately $I \approx -I_0$.
@@ -79,17 +93,23 @@ Current. Reverse bias ($V \lt 0$) gives approximately $I \approx -I_0$.
 Difference between the n-side (where $E_F$ is near $E_c$) and the p-side (where $E_F$ is near $E_v$)
 Is:
 
-$$eV_0 = E_{c,n} - E_{c,p} = E_g - (E_c - E_F)_n - (E_F - E_v)_p$$
+$$
+eV_0 = E_{c,n} - E_{c,p} = E_g - (E_c - E_F)_n - (E_F - E_v)_p
+$$
 
 Using $n = N_c e^{-(E_c - E_F)/(k_B T)}$ and $p = N_v e^{-(E_F - E_v)/(k_B T)}$ with $np = n_i^2$:
 
-$$V_0 = \frac{k_B T}{e}\ln\left(\frac{N_A N_D}{n_i^2}\right)$$
+$$
+V_0 = \frac{k_B T}{e}\ln\left(\frac{N_A N_D}{n_i^2}\right)
+$$
 
 $\blacksquare$
 
 **Capacitance.** The depletion region acts as a parallel-plate capacitor:
 
-$$C = \frac{\varepsilon_s A}{W} = A\sqrt{\frac{e\varepsilon_s}{2}\frac{N_A N_D}{N_A + N_D}\frac{1}{V_0 - V}}$$
+$$
+C = \frac{\varepsilon_s A}{W} = A\sqrt{\frac{e\varepsilon_s}{2}\frac{N_A N_D}{N_A + N_D}\frac{1}{V_0 - V}}
+$$
 
 This $C \propto 1/\sqrt{V_0 - V}$ dependence is used experimentally to determine $N_A$ and $N_D$
 (C--V profiling).
@@ -97,8 +117,8 @@ This $C \propto 1/\sqrt{V_0 - V}$ dependence is used experimentally to determine
 ### 6.4 Band Diagrams
 
 In equilibrium, the Fermi level is constant across the junction. Under forward bias, the bands on
-The n-side are raised relative to the p-side, reducing the barrier. Under reverse bias, the barrier
-Is increased.
+the n-side are raised relative to the p-side, reducing the barrier. Under reverse bias, the barrier
+is increased.
 
 ### 6.5 Band Gap Engineering
 
@@ -107,7 +127,7 @@ The electronic and optical properties of semiconductors can be tailored by formi
 
 **Band offsets.** When two semiconductors with different band gaps are joined, the conduction band
 Minimum and valence band maximum are offset. The **type-I** (straddling) alignment has the band gap
-Of one material contained within the gap of the other (e.g., GaAs/AlGaAs). The **type-II**
+of one material contained within the gap of the other (e.g., GaAs/AlGaAs). The **type-II**
 (staggered) alignment has the conduction and valence band edges of different materials at different
 Energies (e.g., InAs/GaSb).
 
@@ -115,14 +135,16 @@ Energies (e.g., InAs/GaSb).
 Between wide-gap barriers (e.g., AlGaAs) confines electrons and holes in one dimension. The
 Confinement energy for an infinite well of width $L$:
 
-$$E_n = \frac{n^2 \pi^2 \hbar^2}{2m^* L^2}$$
+$$
+E_n = \frac{n^2 \pi^2 \hbar^2}{2m^* L^2}
+$$
 
 This quantisation raises the effective band gap, allowing the optical transition energy to be tuned
-By varying $L$.
+by varying $L$.
 
 **Quantum wires and dots.** Further confinement in two dimensions (quantum wire) or three dimensions
 (quantum dot) leads to additional quantisation. Quantum dots have discrete, atom-like energy levels
-And are often called "artificial atoms."
+and are often called "artificial atoms."
 
 **Strain engineering.** Lattice mismatch between a thin film and its substrate induces strain,
 Modifying the band structure. Tensile strain reduces the band gap, while compressive Strain can lift
@@ -130,26 +152,32 @@ degeneracies (e.g., splitting the heavy-hole and light-hole bands).
 
 ### 6.6 Optical Properties of Semiconductors
 
-**Absorption.** A photon of energy $\hbar\omega$ can be absorbed if $\hbar\omega \geq E_g$Promoting
+**Absorption.** A photon of energy $\hbar\omega$ can be absorbed if $\hbar\omega \geq E_g$ Promoting
 An electron from the valence band to the conduction band.
 
 - **Direct band gap** (e.g., GaAs, InP): The conduction band minimum and valence band maximum occur
   at the same $\mathbf{k}$. Photon absorption requires only energy conservation (the photon momentum
   $\hbar\omega/c \approx 0$ is negligible). The absorption coefficient rises sharply above $E_g$:
 
-  $$\alpha(\omega) \propto \sqrt{\hbar\omega - E_g}$$
+  $$
+  \alpha(\omega) \propto \sqrt{\hbar\omega - E_g}
+  $$
 
 - **Indirect band gap** (e.g., Si, Ge): The band edges occur at different $\mathbf{k}$. A phonon is
   required to conserve momentum, making the absorption weaker and temperature-dependent:
 
-  $$\alpha(\omega) \propto \frac{(\hbar\omega - E_g - \hbar\Omega)^2}{e^{\hbar\Omega/k_BT} - 1} + \frac{(\hbar\omega - E_g + \hbar\Omega)^2}{1 - e^{-\hbar\Omega/k_BT}}$$
+  $$
+  \alpha(\omega) \propto \frac{(\hbar\omega - E_g - \hbar\Omega)^2}{e^{\hbar\Omega/k_BT} - 1} + \frac{(\hbar\omega - E_g + \hbar\Omega)^2}{1 - e^{-\hbar\Omega/k_BT}}
+  $$
 
 where $\hbar\Omega$ is the phonon energy.
 
 **Excitons.** The electron and hole created by photon absorption are attracted by the Coulomb
 Interaction, forming a bound state called an **exciton** with binding energy:
 
-$$E_{\mathrm{ex} = \frac{\mu e^4}{2(4\pi\varepsilon_s)^2\hbar^2} = \frac{\mu}{m_e\varepsilon_r^2} \times 13.6\ \mathrm{eV}}$$
+$$
+E_{\mathrm{ex} = \frac{\mu e^4}{2(4\pi\varepsilon_s)^2\hbar^2} = \frac{\mu}{m_e\varepsilon_r^2} \times 13.6\ \mathrm{eV}}
+$$
 
 Where $\mu = m_e^* m_h^*/(m_e^* + m_h^*)$ is the reduced mass and $\varepsilon_r$ is the relative
 Permittivity. Excitons produce sharp absorption lines slightly below $E_g$.
@@ -163,13 +191,21 @@ Diodes). Indirect-gap materials like Si have very low radiative efficiency.
 
 For Si at $T = 300$ K: $E_g = 1.12$ eV, $m_e^* = 1.08\,m_e$, $m_h^* = 0.56\,m_e$.
 
-$$N_c = 2\left(\frac{2\pi \times 1.08 \times 9.11 \times 10^{-31} \times 1.381 \times 10^{-23} \times 300}{(6.626 \times 10^{-34})^2}\right)^{3/2} = 2.81 \times 10^{25}\ \mathrm{m}^{-3}$$
+$$
+N_c = 2\left(\frac{2\pi \times 1.08 \times 9.11 \times 10^{-31} \times 1.381 \times 10^{-23} \times 300}{(6.626 \times 10^{-34})^2}\right)^{3/2} = 2.81 \times 10^{25}\ \mathrm{m}^{-3}
+$$
 
-$$N_v = 2\left(\frac{2\pi \times 0.56 \times 9.11 \times 10^{-31} \times 1.381 \times 10^{-23} \times 300}{(6.626 \times 10^{-34})^2}\right)^{3/2} = 1.04 \times 10^{25}\ \mathrm{m}^{-3}$$
+$$
+N_v = 2\left(\frac{2\pi \times 0.56 \times 9.11 \times 10^{-31} \times 1.381 \times 10^{-23} \times 300}{(6.626 \times 10^{-34})^2}\right)^{3/2} = 1.04 \times 10^{25}\ \mathrm{m}^{-3}
+$$
 
-$$n_i = \sqrt{N_c N_v}\,e^{-E_g/(2k_B T)} = \sqrt{2.81 \times 1.04} \times 10^{25} \times e^{-1.12/(2 \times 0.02585)}$$
+$$
+n_i = \sqrt{N_c N_v}\,e^{-E_g/(2k_B T)} = \sqrt{2.81 \times 1.04} \times 10^{25} \times e^{-1.12/(2 \times 0.02585)}
+$$
 
-$$n_i = 1.71 \times 10^{25} \times e^{-21.66} = 1.71 \times 10^{25} \times 3.95 \times 10^{-10} = 6.75 \times 10^{15}\ \mathrm{m}^{-3}$$
+$$
+n_i = 1.71 \times 10^{25} \times e^{-21.66} = 1.71 \times 10^{25} \times 3.95 \times 10^{-10} = 6.75 \times 10^{15}\ \mathrm{m}^{-3}
+$$
 
 The accepted value is $n_i \approx 1.5 \times 10^{16}\ \mathrm{m}^{-3}$ at 300 K.
 
@@ -190,23 +226,12 @@ mismatch, thermalisation, and radiative recombination losses.
 
 **Field-effect transistor (FET).** A voltage applied to a gate electrode modulates the conductivity
 Of a semiconductor channel. In a MOSFET (metal--oxide--semiconductor FET), the gate voltage creates
-An inversion layer at the oxide--semiconductor interface, forming a conductive channel. The
+an inversion layer at the oxide--semiconductor interface, forming a conductive channel. The
 Threshold voltage $V_T$ depends on the oxide thickness, doping, and work function difference.
 
 **HEMTs and HBTs.** High-electron-mobility transistors (HEMTs) use heterojunctions (e.g.,
 AlGaAs/GaAs) to create a two-dimensional electron gas (2DEG) with very high mobility. Heterojunction
 Bipolar transistors (HBTs) use a wide-gap emitter to improve injection efficiency.
-
-
-```mermaid
-flowchart TD
-    A[6_Semiconductors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -237,6 +262,6 @@ Doping increases conductivity only if the doping concentration is high enough to
 - **[Magnetism in Solids](/6-solid-state-physics/10_magnetism-in-solids/)**: Magnetic semiconductors and spin-dependent transport connect semiconductor physics to magnetic ordering.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

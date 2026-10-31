@@ -21,11 +21,13 @@ description: "Taylor and Laurent Series: comprehensive educational content notes
 
 **Theorem 7.1.** If $f$ is analytic on $|z - z_0| \lt R$ Then
 
-$$f(z) = \sum_{n=0}^{\infty} \frac{f^{(n)}(z_0)}{n!}(z - z_0)^n$$
+$$
+f(z) = \sum_{n=0}^{\infty} \frac{f^{(n)}(z_0)}{n!}(z - z_0)^n
+$$
 
 And the series converges uniformly on compact subsets of $|z - z_0| \lt R$.
 
-_Proof._ For $|z - z_0| \lt r \lt R$Apply Cauchy"s integral formula on $|\zeta - z_0| = r$:
+_Proof._ For $|z - z_0| \lt r \lt R$ Apply Cauchy's integral formula on $|\zeta - z_0| = r$:
 
 $f(z) = \frac{1}{2\pi i}\int_{|\zeta - z_0| = r} \frac{f(\zeta)}{\zeta - z}\, d\zeta$
 
@@ -41,15 +43,25 @@ $f$.
 
 ### 7.2 Common Taylor Series
 
-$$e^z = \sum_{n=0}^{\infty} \frac{z^n}{n!} = 1 + z + \frac{z^2}{2!} + \cdots$$
+$$
+e^z = \sum_{n=0}^{\infty} \frac{z^n}{n!} = 1 + z + \frac{z^2}{2!} + \cdots
+$$
 
-$$\sin z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n+1}}{(2n+1)!}$$
+$$
+\sin z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n+1}}{(2n+1)!}
+$$
 
-$$\cos z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n}}{(2n)!}$$
+$$
+\cos z = \sum_{n=0}^{\infty} \frac{(-1)^n z^{2n}}{(2n)!}
+$$
 
-$$\frac{1}{1 - z} = \sum_{n=0}^{\infty} z^n, \quad |z| \lt 1$$
+$$
+\frac{1}{1 - z} = \sum_{n=0}^{\infty} z^n, \quad |z| \lt 1
+$$
 
-$$\ln(1 + z) = \sum_{n=1}^{\infty} \frac{(-1)^{n+1} z^n}{n}, \quad |z| \lt 1$$
+$$
+\ln(1 + z) = \sum_{n=1}^{\infty} \frac{(-1)^{n+1} z^n}{n}, \quad |z| \lt 1
+$$
 
 ### 7.3 Worked Examples: Taylor Series
 
@@ -60,7 +72,7 @@ $$\ln(1 + z) = \sum_{n=1}^{\infty} \frac{(-1)^{n+1} z^n}{n}, \quad |z| \lt 1$$
 
 $\frac{1}{z} = \frac{1}{1 + (z - 1)} = \sum_{n=0}^{\infty} (-1)^n (z - 1)^n$ for $|z - 1| \lt 1$.
 
-Radius of convergence: distance from $z_0 = 1$ to the singularity at $z = 0$Which is $1$.
+Radius of convergence: distance from $z_0 = 1$ to the singularity at $z = 0$ Which is $1$.
 
 **Problem.** Find the Taylor series of $f(z) = \frac{1}{(1 - z)^2}$ centered at $z_0 = 0$.
 
@@ -82,11 +94,15 @@ $= z + z^2 + z^3/2 + z^4/6 + \cdots - z^3/6 - z^4/6 + \cdots$ $= z + z^2 + z^3/3
 
 **Theorem 7.2 (Laurent Series).** If $f$ is analytic on the annulus $r \lt |z - z_0| \lt R$ Then
 
-$$f(z) = \sum_{n=-\infty}^{\infty} a_n(z - z_0)^n = \cdots + \frac{a_{-2}}{(z - z_0)^2} + \frac{a_{-1}}{z - z_0} + a_0 + a_1(z - z_0) + \cdots$$
+$$
+f(z) = \sum_{n=-\infty}^{\infty} a_n(z - z_0)^n = \cdots + \frac{a_{-2}}{(z - z_0)^2} + \frac{a_{-1}}{z - z_0} + a_0 + a_1(z - z_0) + \cdots
+$$
 
 Where
 
-$$a_n = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz$$
+$$
+a_n = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{(z - z_0)^{n+1}}\, dz
+$$
 
 For any simple closed contour $\gamma$ in the annulus encircling $z_0$.
 
@@ -149,13 +165,17 @@ Residue at $z = 0$: $a_{-1} = -\frac{1}{9}$.
 
 **Definition.** The **residue at infinity** of $f$ is defined as
 
-$$\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f(z)\, dz$$
+$$
+\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f(z)\, dz
+$$
 
 For sufficiently large $R$ (enclosing all finite singularities).
 
 **Proposition 7.4.** For a function $f$ with finitely many singularities in $\mathbb{C}$:
 
-$$\sum_{\mathrm{all\ finite\ } z_k} \mathrm{Res}(f, z_k) + \mathrm{Res}(f, \infty) = 0$$
+$$
+\sum_{\mathrm{all\ finite\ } z_k} \mathrm{Res}(f, z_k) + \mathrm{Res}(f, \infty) = 0
+$$
 
 _Proof._ By the residue theorem applied to $|z| = R$ enclosing all finite singularities:
 
@@ -163,17 +183,6 @@ $\int_{|z|=R} f\, dz = 2\pi i \sum_{\mathrm{finite} \mathrm{Res}(f, z_k)}$.
 
 But $\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f\, dz$ So the sum is zero.
 $\blacksquare$
-
-
-```mermaid
-flowchart TD
-    A[7_Taylor And Laurent Series] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -185,47 +194,6 @@ Every analytic function can be expanded as a power series, like a polynomial of 
 - **[Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: Laurent series reveal the structure of singularities and enable residue computation.
 - **[Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)**: Laurent series can extend functions beyond their original domain through analytic continuation.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

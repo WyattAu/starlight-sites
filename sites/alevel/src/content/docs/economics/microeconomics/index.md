@@ -154,8 +154,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Economics content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -195,8 +193,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 

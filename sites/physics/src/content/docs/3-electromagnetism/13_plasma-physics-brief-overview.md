@@ -21,13 +21,17 @@ description: "A plasma screens electric fields over the : Comprehensive educatio
 
 A plasma screens electric fields over the **Debye length**:
 
-$$\lambda_D = \sqrt{\frac{\varepsilon_0 k_B T}{n_e e^2}}$$
+$$
+\lambda_D = \sqrt{\frac{\varepsilon_0 k_B T}{n_e e^2}}
+$$
 
-For $n_e = 10^{18}$ m$^{-3}$, $T = 10^4$ K: $\lambda_D = 7.4 \times 10^{-5}$ m $= 74\,\mu$M.
+For $n_e = 10^{18}$ m$^{-3}$, $T = 10^4$ K: $\lambda_D = 7.4 \times 10^{-5}$ m $= 74\,\mu$ M.
 
 The plasma frequency:
 
-$$\omega_p = \sqrt{\frac{n_e e^2}{m_e \varepsilon_0}}$$
+$$
+\omega_p = \sqrt{\frac{n_e e^2}{m_e \varepsilon_0}}
+$$
 
 For $n_e = 10^{18}$ m$^{-3}$: $\omega_p = 5.64 \times 10^{10}$ rad/s, $f_p = 8.98$ GHz. EM waves
 with $\omega < \omega_p$ cannot propagate (evanescent).
@@ -36,14 +40,16 @@ with $\omega < \omega_p$ cannot propagate (evanescent).
 
 Small displacements of the electron cloud create restoring forces, leading to **Langmuir waves**:
 
-$$\omega_{\text{Langmuir} = \omega_p\left(1 + \frac{3k_BT}{2m_e}\frac{k^2}{\omega_p^2}\right)^{-1/2}}$$
+$$
+\omega_{\text{Langmuir} = \omega_p\left(1 + \frac{3k_BT}{2m_e}\frac{k^2}{\omega_p^2}\right)^{-1/2}}
+$$
 
 At long wavelengths ($k \to 0$): $\omega \to \omega_p$ (undamped). With ion motion: the ion-acoustic
 wave has $\omega^2 = k^2 c_s^2/(1 + k^2\lambda_D^2)$ where $c_s = \sqrt{k_BT/m_i}$.
 
 ## Worked Examples
 
-### Example 1: Gauss"s law
+### Example 1: Gauss's law
 
 **Problem.** A uniformly charged sphere of radius $R$ has total charge $Q$. Find $E$ inside and
 outside.
@@ -76,17 +82,6 @@ $\blacksquare$
   $\vec{D} = \varepsilon_0\vec{E} + \vec{P}$; $\vec{H} = \vec{B}/\mu_0 - \vec{M}$. **Fix:** In
   vacuum: $\vec{D} = \varepsilon_0\vec{E}$, $\vec{H} = \vec{B}/\mu_0$.
 
-
-```mermaid
-flowchart TD
-    A[13_Plasma Physics Brief Overview] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Maxwell's equations: Gauss’s law, Gauss's law for magnetism, Faraday’s law, Ampère-Maxwell law.
@@ -101,18 +96,24 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site       | Link                                                                                                          |
 | ------------------ | ---------- | ------------------------------------------------------------------------------------------------------------- |
 | [Electromagnetism] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/fields/03-electromagnetism-unification)   |
-| [Electromagnetism] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/4-fields/4_induction)                                           |
-| [Electromagnetism] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism) |
+| [Electromagnetism] | IB         | [View](https://ib.wyattau.com/physics/4-fields/4_induction/)                                           |
+| [Electromagnetism] | DSE        | [View](https://dse.wyattau.com/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism/) |
 | [Electromagnetism] | University | [View](https://physics.wyattau.com/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ### 13.3 Key Relationships
+
+<div class="table-wrap">
 
 | Quantity              | Formula                                    | Physical role                                            |
 | --------------------- | ------------------------------------------ | -------------------------------------------------------- |
@@ -121,6 +122,8 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 | Langmuir wave         | $\omega^2 = \omega_p^2 + 3k^2 v_{\rm th}^2$       | Electrostatic wave in unmagnetised plasma                |
 | Ion-acoustic wave     | $\omega^2 = k^2 c_s^2 / (1 + k^2\lambda_D^2)$     | Low-frequency wave with ion inertia and electron pressure |
 | Electron gyrofrequency| $\omega_{ce} = eB/m_e$                            | Cyclotron frequency in magnetised plasma                 |
+
+</div>
 
 ### 13.4 Common Pitfalls
 
@@ -142,15 +145,21 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 
 **Solution.**
 
-$$\lambda_D = \sqrt{\frac{\varepsilon_0 k_B T}{n_e e^2}} = \sqrt{\frac{(8.85\times10^{-12})(1.38\times10^{-23})(10^6)}{(10^{14})(1.6\times10^{-19})^2}}$$
+$$
+\lambda_D = \sqrt{\frac{\varepsilon_0 k_B T}{n_e e^2}} = \sqrt{\frac{(8.85\times10^{-12})(1.38\times10^{-23})(10^6)}{(10^{14})(1.6\times10^{-19})^2}}
+$$
 
-$$\lambda_D \approx \sqrt{\frac{1.22\times10^{-28}}{2.56\times10^{-24}}} = \sqrt{4.77\times10^{-5}} \approx 6.9\times10^{-3}\;\mathrm{m} = 6.9\;\mathrm{mm}$$
+$$
+\lambda_D \approx \sqrt{\frac{1.22\times10^{-28}}{2.56\times10^{-24}}} = \sqrt{4.77\times10^{-5}} \approx 6.9\times10^{-3}\;\mathrm{m} = 6.9\;\mathrm{mm}
+$$
 
 The Debye sphere volume is $\frac{4}{3}\pi\lambda_D^3 \approx 1.38\times10^{-6}$ m$^3$, containing $N_D = n_e \cdot \frac{4}{3}\pi\lambda_D^3 \approx 10^{14} \times 1.38\times10^{-6} \approx 1.4\times10^8$ electrons. Since $N_D \gg 1$, the corona satisfies the plasma criterion for collective behaviour.
 
 $\blacksquare$
 
 ### 13.7 Summary Table
+
+<div class="table-wrap">
 
 | Regime               | Condition                 | Key behaviour                              |
 | -------------------- | ------------------------- | ------------------------------------------ |
@@ -160,50 +169,11 @@ $\blacksquare$
 | EM wave cut-off      | $\omega < \omega_p$       | Wave is evanescent, reflected              |
 | Ion-acoustic waves   | $T_e \gg T_i$             | Sound-like waves with $c_s = \sqrt{k_BT_e/m_i}$ |
 
+</div>
+
 ## See Also
 
 - [Electromagnetism](./)
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/)
 - [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

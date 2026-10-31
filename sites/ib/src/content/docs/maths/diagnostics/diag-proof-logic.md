@@ -17,17 +17,6 @@ tableOfContents: false
 
 ## Proof and Logic, Diagnostic Tests
 
-
-```mermaid
-flowchart TD
-    A[Diag Proof Logic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Mathematical proof is like a legal argument, each step must be justified by axioms, definitions, or previously proven theorems:** Logic provides the grammar of mathematics, it ensures that conclusions follow necessarily from premises, creating certainty in an uncertain world
@@ -63,13 +52,13 @@ test extensively.]
 **Solution:**
 
 **(a)** **Both necessary and sufficient.** If $n$ is divisible by $4$ Then $n = 4k$ So
-$n^2 = 16k^2$Which is divisible by $16$ (sufficient). Conversely, if $n^2$ is divisible by
-$16 = 2^4$ Then $n^2$ has at least $4$ factors of $2$ So $n$ has at least $2$ factors of $2$Meaning
+$n^2 = 16k^2$ Which is divisible by $16$ (sufficient). Conversely, if $n^2$ is divisible by
+$16 = 2^4$ Then $n^2$ has at least $4$ factors of $2$ So $n$ has at least $2$ factors of $2$ Meaning
 $n$ is divisible by $4$ (necessary).
 
 **(b)** **Sufficient but not necessary.** If $f''(x) \gt 0$ everywhere, then $f'(x)$ is strictly
 increasing. If $f'(c) = 0$ for some $c$ Then $f'(x) \lt 0$ for $x \lt c$ and $f'(x) \gt 0$ for
-$x \gt c$Making $f$ strictly convex with a unique global minimum. This means $f$ is injective
+$x \gt c$ Making $f$ strictly convex with a unique global minimum. This means $f$ is injective
 (sufficient). However, $f(x) = x^3$ is injective but $f''(0) = 0 \not\gt 0$ (not necessary).
 
 **(c)** **Both necessary and sufficient.** $\Delta = 0$ gives exactly one real root (sufficient). If
@@ -78,7 +67,7 @@ two distinct roots and $\Delta \lt 0$ gives none).
 
 **(d)** This is the **fallacy of affirming the consequent**. $P \implies Q$ and $Q$ does not imply
 $P$. The correct inference from $P \implies Q$ and $Q$ is nothing, we cannot deduce $P$. The valid
-inference is _modus ponens_: from $P \implies Q$ and $P$We deduce $Q$.
+inference is _modus ponens_: from $P \implies Q$ and $P$ We deduce $Q$.
 
 ---
 
@@ -97,7 +86,9 @@ inference is _modus ponens_: from $P \implies Q$ and $P$We deduce $Q$.
 
 **(a)** Negate the following statement:
 
-$$\forall \varepsilon \gt 0, \; \exists \delta \gt 0, \; \forall x \in \mathbb{R}, \; (0 \lt |x - a| \lt \delta) \implies (|f(x) - f(a)| \lt \varepsilon)$$
+$$
+\forall \varepsilon \gt 0, \; \exists \delta \gt 0, \; \forall x \in \mathbb{R}, \; (0 \lt |x - a| \lt \delta) \implies (|f(x) - f(a)| \lt \varepsilon)
+$$
 
 **(b)** A student writes the negation as
 "$\exists \varepsilon \gt 0, \; \exists \delta \gt 0, \; \forall x \in \mathbb{R}, \; (0 \lt |x - a| \lt \delta) \implies (|f(x) - f(a)| \geq \varepsilon)$".
@@ -110,11 +101,15 @@ Identify the errors.
 **(a)** To negate, flip each quantifier and negate the predicate. The negation of an implication
 $P \implies Q$ is $P \wedge \neg Q$.
 
-$$\neg(P \implies Q) = \neg(\neg P \vee Q) = P \wedge \neg Q$$
+$$
+\neg(P \implies Q) = \neg(\neg P \vee Q) = P \wedge \neg Q
+$$
 
 So:
 
-$$\exists \varepsilon \gt 0, \; \forall \delta \gt 0, \; \exists x \in \mathbb{R}, \; (0 \lt |x - a| \lt \delta) \;\wedge\; (|f(x) - f(a)| \geq \varepsilon)$$
+$$
+\exists \varepsilon \gt 0, \; \forall \delta \gt 0, \; \exists x \in \mathbb{R}, \; (0 \lt |x - a| \lt \delta) \;\wedge\; (|f(x) - f(a)| \geq \varepsilon)
+$$
 
 **(b)** The student made two errors:
 
@@ -123,7 +118,7 @@ $$\exists \varepsilon \gt 0, \; \forall \delta \gt 0, \; \exists x \in \mathbb{R
 2. The negation of the implication was written incorrectly. The student wrote the "converse
    implication" with a negated conclusion, rather than the correct negation which is
    $(0 \lt |x-a| \lt \delta) \wedge (|f(x) - f(a)| \geq \varepsilon)$. The student kept the
-   implication structure $\implies$Which is wrong.
+   implication structure $\implies$ Which is wrong.
 
 ---
 
@@ -145,7 +140,7 @@ Prove that if $n^3 + 5n$ is even for some integer $n$ Then $n$ is even.
 A student writes:
 
 > We prove the contrapositive: if $n$ is odd, then $n^3 + 5n$ is odd. If $n = 2k + 1$ Then
-> $n^3 + 5n = (2k+1)^3 + 5(2k+1) = 8k^3 + 12k^2 + 8k + 1 + 10k + 5 = 8k^3 + 12k^2 + 18k + 6 = 2(4k^3 + 6k^2 + 9k + 3)$Which
+> $n^3 + 5n = (2k+1)^3 + 5(2k+1) = 8k^3 + 12k^2 + 8k + 1 + 10k + 5 = 8k^3 + 12k^2 + 18k + 6 = 2(4k^3 + 6k^2 + 9k + 3)$ Which
 > is even.
 
 **(a)** Explain why the student's answer is self-contradictory.
@@ -164,7 +159,7 @@ contrapositive is **false**, implying the original statement is **false**.
 
 In fact, the original statement "if $n^3 + 5n$ is even, then $n$ is even" **is false**: when $n$ is
 odd, $n^3 + 5n = 2(4k^3 + 6k^2 + 9k + 3)$ is always even. So $n^3 + 5n$ is even for ALL integers
-$n$Not just even ones. The original statement is false, and the student's work inadvertently proves
+$n$ Not just even ones. The original statement is false, and the student's work inadvertently proves
 this.
 
 **(b)** The correct approach: since $n^3 + 5n$ is even for all $n \in \mathbb{Z}$ (as shown above),
@@ -206,21 +201,31 @@ $3^{2(1)+1} + 2^{1+2} = 27 + 8 = 35 = 7 \times 5$.
 **Corrected problem:** Prove that $3^{2n+1} + 2^{n+2}$ is divisible by $7$ for all
 $n \in \mathbb{N}$.
 
-**Base case ($n = 0$):** $3^1 + 2^2 = 3 + 4 = 7$Divisible by $7$. True.
+**Base case ($n = 0$):** $3^1 + 2^2 = 3 + 4 = 7$ Divisible by $7$. True.
 
 **Inductive hypothesis:** Assume $3^{2k+1} + 2^{k+2} = 7m$ for some integer $m$.
 
 **Inductive step:** Consider $n = k + 1$:
 
-$$3^{2(k+1)+1} + 2^{(k+1)+2} = 3^{2k+3} + 2^{k+3}$$
+$$
+3^{2(k+1)+1} + 2^{(k+1)+2} = 3^{2k+3} + 2^{k+3}
+$$
 
-$$= 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2}$$
+$$
+= 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2}
+$$
 
-$$= 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2} + 7 \cdot 3^{2k+1} - 7 \cdot 3^{2k+1}$$
+$$
+= 9 \cdot 3^{2k+1} + 2 \cdot 2^{k+2} + 7 \cdot 3^{2k+1} - 7 \cdot 3^{2k+1}
+$$
 
-$$= 7 \cdot 3^{2k+1} + 2(3^{2k+1} + 2^{k+2})$$
+$$
+= 7 \cdot 3^{2k+1} + 2(3^{2k+1} + 2^{k+2})
+$$
 
-$$= 7 \cdot 3^{2k+1} + 2 \cdot 7m = 7(3^{2k+1} + 2m)$$
+$$
+= 7 \cdot 3^{2k+1} + 2 \cdot 7m = 7(3^{2k+1} + 2m)
+$$
 
 Since $3^{2k+1} + 2m$ is an integer, $3^{2k+3} + 2^{k+3}$ is divisible by $7$.
 
@@ -253,9 +258,13 @@ positive integers $a, b$.
 
 Squaring: $2 + 2\sqrt{6} + 3 = \frac{a^2}{b^2}$ So:
 
-$$2\sqrt{6} = \frac{a^2}{b^2} - 5$$
+$$
+2\sqrt{6} = \frac{a^2}{b^2} - 5
+$$
 
-$$\sqrt{6} = \frac{a^2 - 5b^2}{2b^2}$$
+$$
+\sqrt{6} = \frac{a^2 - 5b^2}{2b^2}
+$$
 
 Since $a, b$ are integers, the RHS is rational. So $\sqrt{6}$ is rational. But $\sqrt{6}$ is
 irrational (proved by the standard contradiction proof: if $\sqrt{6} = \frac{p}{q}$ in lowest terms,

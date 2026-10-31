@@ -191,5 +191,5 @@ graph TD
 
 - [Algebra Tutorials](https://sat.wyattau.com/mathematics/algebra/)
 - [Calculus Guide](https://hsc.wyattau.com/mathematics/calculus/)
-- [Linear Algebra Course](/linear-algebra/)
-- [Probability Problems](/probability/)
+- [Linear Algebra Course](/2-linear-algebra/)
+- [Probability Problems](/8-probability-and-statistics/)

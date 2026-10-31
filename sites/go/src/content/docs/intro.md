@@ -20,6 +20,14 @@ import Citations from '@components/Citations.astro'
 }
 </script>
 
+:::note[New to Go's concurrency model? Start here]
+Read **[Before You Begin: Concurrency and Simplicity in Go](/before-you-begin/)**
+first. It builds goroutines and channels from first principles, explains the
+CSP model that makes race conditions impossible by construction, covers
+interfaces without inheritance, and names the features Go removed by design.
+:::
+
+
 ## Why Go
 
 Go was designed at Google by Rob Pike, Ken Thompson, and Robert Griesemer, first released in 2009.
@@ -119,7 +127,7 @@ Every Go file belongs to a package. Executables must be in `package main` and ex
 ### `go run`
 
 Compiles and executes one or more `.go` files in a temporary directory. Useful for development and
-One-off scripts. Does not produce a persistent binary.
+one-off scripts. Does not produce a persistent binary.
 
 ```bash
 go run .
@@ -199,7 +207,7 @@ myproject/
 ```
 
 The `internal/` directory is special: packages inside `internal` cannot be imported by packages
-Outside the module tree rooted at the parent of `internal`. This enforces encapsulation.
+outside the module tree rooted at the parent of `internal`. This enforces encapsulation.
 
 The `cmd/` directory convention holds executable entry points.
 
@@ -235,6 +243,8 @@ Version control and never edited manually.
 
 ## Where Go Runs
 
+<div class="table-wrap">
+
 | Target                               | Use Case                   |
 | ------------------------------------ | -------------------------- |
 | **Linux** (amd64, arm64)             | Servers, containers, cloud |
@@ -243,6 +253,8 @@ Version control and never edited manually.
 | **WebAssembly** (wasm)               | Browser, edge computing    |
 | **FreeBSD/OpenBSD**                  | Networking, infrastructure |
 | **Embedded** (GOOS=linux GOARCH=arm) | IoT, routers, ARM devices  |
+
+</div>
 
 ## Intuition
 

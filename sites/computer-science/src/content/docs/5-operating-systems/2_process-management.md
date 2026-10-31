@@ -17,17 +17,6 @@ description: "A is an instance of a program in execution. The OS maintains a for
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[2_Process Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A process is a **program in action**, it's the abstract entity that the OS manages, containing not just code but all the state needed to execute: memory, open files, registers, and more. The OS creates the illusion that each process has the entire computer to itself through virtual memory and time-sliced CPU access.
@@ -41,6 +30,8 @@ A process is a **program in action**, it's the abstract entity that the OS manag
 A **process** is an instance of a program in execution. The OS maintains a **process control block
 (PCB)** for each process:
 
+<div class="table-wrap">
+
 | Field           | Description                                |
 | --------------- | ------------------------------------------ |
 | PID             | Unique process identifier                  |
@@ -52,11 +43,17 @@ A **process** is an instance of a program in execution. The OS maintains a **pro
 | I/O status      | I/O devices allocated and their status     |
 | Scheduling info | Priority, scheduling queue, CPU usage      |
 
+</div>
+
 **Process states.** Processes transition through states:
 
-$$\mathrm{New} \to \mathrm{Ready} \to \mathrm{Running} \to \mathrm{Terminated}$$
+$$
+\mathrm{New} \to \mathrm{Ready} \to \mathrm{Running} \to \mathrm{Terminated}
+$$
 
-$$\mathrm{Running} \to \mathrm{Blocked} \to \mathrm{Ready}$$
+$$
+\mathrm{Running} \to \mathrm{Blocked} \to \mathrm{Ready}
+$$
 
 The scheduler dispatches processes from **ready** to **running**. A running process may be
 **preempted** back to ready, or may **block** on I/O or a synchronisation event.
@@ -81,11 +78,15 @@ Unaware of them.
 
 **Thread models:**
 
+<div class="table-wrap">
+
 | Model        | User:Kernel | Characteristics                              |
 | ------------ | ----------- | -------------------------------------------- |
 | Many-to-one  | $m:1$       | All user threads map to one kernel thread    |
 | One-to-one   | $1:1$       | Each user thread maps to a kernel thread     |
 | Many-to-many | $m:n$       | User threads multiplexed onto kernel threads |
+
+</div>
 
 Linux uses a $1:1$ model by default.
 
@@ -114,7 +115,7 @@ Averaging: $\tau_{n+1} = \alpha t_n + (1 - \alpha) \tau_n$.
 **Shortest Remaining Time First (SRTF).** Preemptive SJF. If a new process arrives with a shorter
 Remaining burst, preempt the current process.
 
-**Round Robin (RR).** Each process gets a time quantum $q$. If not finished within $q$Preempted and
+**Round Robin (RR).** Each process gets a time quantum $q$. If not finished within $q$ Preempted and
 Placed at the back of the ready queue. If $q$ is large, RR degenerates to FCFS. Typical $q$:
 $10\mathrm{--100}$ ms.
 
@@ -136,11 +137,15 @@ Since $B$"s burst is shorter, the net change reduces the average. $\blacksquare$
 
 Consider three processes, all arriving at time $t = 0$:
 
+<div class="table-wrap">
+
 | Process | Burst Time |
 | ------- | ---------- |
 | $P_1$   | 24         |
 | $P_2$   | 3          |
 | $P_3$   | 3          |
+
+</div>
 
 _FCFS Gantt chart:_
 
@@ -149,12 +154,16 @@ _FCFS Gantt chart:_
 0              24       27      30
 ```
 
+<div class="table-wrap">
+
 | Process | Waiting Time | Turnaround Time |
 | ------- | ------------ | --------------- |
 | $P_1$   | 0            | 24              |
 | $P_2$   | 24           | 27              |
 | $P_3$   | 27           | 30              |
 | **Avg** | **17**       | **27**          |
+
+</div>
 
 _SJF Gantt chart:_
 
@@ -163,12 +172,16 @@ _SJF Gantt chart:_
 0        3       6                  30
 ```
 
+<div class="table-wrap">
+
 | Process | Waiting Time | Turnaround Time |
 | ------- | ------------ | --------------- |
 | $P_1$   | 6            | 30              |
 | $P_2$   | 0            | 3               |
 | $P_3$   | 3            | 6               |
 | **Avg** | **3**        | **13**          |
+
+</div>
 
 SJF reduces average waiting time from 17 to 3, illustrating the **convoy effect** in FCFS.
 
@@ -182,6 +195,8 @@ Using the same three processes with quantum $q = 4$:
 0       4       7       10     14     18     22     26     27
 ```
 
+<div class="table-wrap">
+
 | Process | Completion | Turnaround | Waiting  |
 | ------- | ---------- | ---------- | -------- |
 | $P_1$   | 27         | 27         | 3        |
@@ -189,9 +204,11 @@ Using the same three processes with quantum $q = 4$:
 | $P_3$   | 10         | 10         | 7        |
 | **Avg** |            | **14.67**  | **4.67** |
 
+</div>
+
 Round Robin eliminates the convoy effect but gives a higher average waiting time than SJF due to
 Preemption overhead. The turnaround time for $P_1$ is unchanged (the work must be done), but $P_2$
-And $P_3$ receive faster first response.
+and $P_3$ receive faster first response.
 
 </details>
 
@@ -335,6 +352,8 @@ shmdt(shm_ptr);
 **Message passing.** Processes exchange messages through the OS. Operations: `send(dest, msg)` and
 `receive(src, msg)`. Can be **direct** (named processes) or **indirect** (via mailboxes/ports).
 
+<div class="table-wrap">
+
 | Property        | Shared Memory  | Message Passing           |
 | --------------- | -------------- | ------------------------- |
 | Speed           | Fast           | Slower (kernel mediation) |
@@ -342,11 +361,13 @@ shmdt(shm_ptr);
 | Kernel use      | Setup only     | Every message             |
 | Scalability     | Single machine | Can be distributed        |
 
+</div>
+
 **Pipes.** Unidirectional data channel. `pipe()` creates a pipe; `fork()` inherits file descriptors.
 Named pipes (`mkfifo`) allow unrelated processes to communicate.
 
-**Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM``SIGKILL`
-`SIGSEGV``SIGCHLD`.
+**Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM`, `SIGKILL`
+`SIGSEGV`, `SIGCHLD`.
 
 ## See Also
 

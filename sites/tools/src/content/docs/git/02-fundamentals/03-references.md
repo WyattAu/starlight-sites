@@ -22,7 +22,7 @@ categories:
 
 ## Intuition
 
-**Name tags for commits:** References are like name tags stuck on specific commits, without them, commits are just anonymous blobs of data identified only by hash. References give you human-friendly names like `main``HEAD`and `v1.0` to navigate the commit graph.
+**Name tags for commits:** References are like name tags stuck on specific commits, without them, commits are just anonymous blobs of data identified only by hash. References give you human-friendly names like `main`, `HEAD`and `v1.0` to navigate the commit graph.
 
 **Why it matters:** Without references, you would need to remember 40-character SHA-1 hashes to do anything in Git. References make the history navigable and enable workflows like feature branches and releases.
 
@@ -31,10 +31,10 @@ categories:
 ## What Are References
 
 A reference (or "ref") is a named pointer to a Git object, almost always a commit. References are
-What make Git's object graph navigable. Without them, commits would exist as isolated objects with
-No way to find them (except by hash).
+what make Git's object graph navigable. Without them, commits would exist as isolated objects with
+no way to find them (except by hash).
 
-References are stored as plain text files under `.git/refs/`Each containing a 40-character SHA-1
+References are stored as plain text files under `.git/refs/`. Each containing a 40-character SHA-1
 Hash:
 
 ```
@@ -150,13 +150,13 @@ Saving the commit hash.
 
 Tags are references stored at `.git/refs/tags/<tag-name>`. Unlike branches, tags **do not move**
 When new commits are created, they are static pointers. See [Git Objects](/git/02-fundamentals/02-git-objects/) for
-The distinction between lightweight and annotated tags.
+the distinction between lightweight and annotated tags.
 
 ### Remote References
 
 Remote-tracking references are stored at `.git/refs/remotes/<remote>/<branch>` and represent the
 State of branches on a remote repository as of the last `git fetch`. They are updated automatically
-By `git fetch` and `git pull`But **never** by local commits.
+by `git fetch` and `git pull`. But **never** by local commits.
 
 ```bash
 # Show remote-tracking branches
@@ -171,6 +171,8 @@ $ git log HEAD..origin/main
 
 ### Special References
 
+<div class="table-wrap">
+
 | Ref                | Location                | Purpose                                             |
 | ------------------ | ----------------------- | --------------------------------------------------- |
 | `HEAD`             | `.git/HEAD`             | Current branch/commit                               |
@@ -180,6 +182,8 @@ $ git log HEAD..origin/main
 | `FETCH_HEAD`       | `.git/FETCH_HEAD`       | Last fetched refs (from `git fetch`)                |
 | `ORIG_HEAD`        | `.git/ORIG_HEAD`        | Previous value of HEAD before a rebase/reset        |
 | `REBASE_HEAD`      | `.git/REBASE_HEAD`      | Current commit during interactive rebase            |
+
+</div>
 
 These are transient references that exist only during specific operations and are cleaned up
 Afterward.
@@ -218,12 +222,16 @@ References. The general form is:
 <+?><src>:<dst>
 ```
 
+<div class="table-wrap">
+
 | Component | Meaning                                                       |
 | --------- | ------------------------------------------------------------- |
 | `src`     | The source ref (on the remote for fetch, local for push)      |
 | `dst`     | The destination ref (local for fetch, on the remote for push) |
 | `+`       | Force update even if not fast-forward                         |
 | `:` alone | Delete the ref (push only)                                    |
+
+</div>
 
 ```bash
 # Default fetch refspec for origin
@@ -264,8 +272,8 @@ a3f2b1c0 HEAD@{3}: commit: Initial commit
 
 ### Reflog as a Safety Net
 
-The reflog is your primary recovery mechanism. Even after `git reset --hard``git rebase`Or
-`git commit --amend`The old commits are still in the object store and reachable via the reflog:
+The reflog is your primary recovery mechanism. Even after `git reset --hard`, `git rebase` or
+`git commit --amend`. The old commits are still in the object store and reachable via the reflog:
 
 ```bash
 # View the reflog for HEAD
@@ -281,8 +289,8 @@ $ git reset --hard HEAD@{3}  # Go back to the state 3 operations ago
 ### Reflog Expiry
 
 Reflog entries expire after 90 days by default (configurable via `gc.reflogExpire`). Expired entries
-Are pruned by `git gc`. Objects referenced only by expired reflog entries become unreachable and may
-Be garbage-collected.
+are pruned by `git gc`. Objects referenced only by expired reflog entries become unreachable and may
+be garbage-collected.
 
 ```bash
 # Change reflog expiry
@@ -297,7 +305,7 @@ See [Reflog](/git/05-advanced-topics/01-reflog/) for a deeper treatment.
 ## Symbolic References
 
 A **symbolic reference** (or "symref") is a reference that points to another reference, rather than
-To an object. `HEAD` is the canonical example, it points to a branch ref, which in turn points to a
+to an object. `HEAD` is the canonical example, it points to a branch ref, which in turn points to a
 Commit.
 
 ```bash
@@ -322,7 +330,7 @@ File.
 
 ## Reference Resolution Order
 
-When you pass a name to Git (e.g., `main``origin/main``HEAD~3`), it resolves it through a Defined
+When you pass a name to Git (e.g., `main`, `origin/main`, `HEAD~3`), it resolves it through a Defined
 search order:
 
 ```mermaid
@@ -362,10 +370,6 @@ Searches multiple ref namespaces.
    applications.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

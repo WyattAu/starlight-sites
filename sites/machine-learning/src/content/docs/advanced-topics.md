@@ -108,12 +108,16 @@ completion, dialogue, code generation. It is pretrained with causal language mod
 next token given all previous tokens). Scaling up GPT models produced the large language model
 family that underpins modern generative AI.
 
+<div class="table-wrap">
+
 | Model | Architecture    | Training Objective | Primary Use   |
 | ----- | --------------- | ------------------ | ------------- |
 | BERT  | Encoder         | MLM + NSP          | Understanding |
 | GPT   | Decoder         | Causal LM          | Generation    |
 | T5    | Encoder-Decoder | Text-to-text       | Both          |
 | BART  | Encoder-Decoder | Denoising          | Both          |
+
+</div>
 
 ## Generative Models
 
@@ -179,6 +183,8 @@ outputs 0.5 for everything.
 
 **Architectures:**
 
+<div class="table-wrap">
+
 | Variant  | Contribution                  | Key Innovation                          |
 | -------- | ----------------------------- | --------------------------------------- |
 | DCGAN    | Deep convolutional GANs       | Batch norm, transposed convs            |
@@ -186,6 +192,8 @@ outputs 0.5 for everything.
 | WGAN     | Wasserstein distance training | Weight clipping / gradient penalty      |
 | CycleGAN | Unpaired image translation    | Cycle consistency loss                  |
 | Pix2Pix  | Paired image translation      | Conditional GAN with L1 loss            |
+
+</div>
 
 StyleGAN progressively generates images through a series of style injections at different
 resolutions, enabling fine-grained control over coarse attributes (pose, face shape) and fine
@@ -283,6 +291,8 @@ experience in multiple environments simultaneously.
 
 ### Applications
 
+<div class="table-wrap">
+
 | Domain    | Application                     | Key Challenge               |
 | --------- | ------------------------------- | --------------------------- |
 | Games     | Go (AlphaGo), Atari, Dota 2     | Massive state/action spaces |
@@ -290,6 +300,8 @@ experience in multiple environments simultaneously.
 | RLHF      | LLM alignment                   | Reward model accuracy       |
 | Finance   | Trading, portfolio optimization | Non-stationarity            |
 | Logistics | Routing, scheduling             | Combinatorial complexity    |
+
+</div>
 
 RLHF (Reinforcement Learning from Human Feedback) applies RL to align language models with human
 preferences. A reward model trained on human comparisons of model outputs provides the reward signal
@@ -361,12 +373,16 @@ share the task. Techniques include:
 Few-shot learning trains models to generalize from very few examples, often 1 to 5 per class.
 Approaches:
 
+<div class="table-wrap">
+
 | Approach              | Mechanism                                             | Example              |
 | --------------------- | ----------------------------------------------------- | -------------------- |
 | Meta-learning         | Learn to learn, train across many tasks              | MAML, Reptile        |
 | Prototypical networks | Compare to class prototypes in embedding space        | N-way K-shot         |
 | Prompt tuning         | Adapt pretrained models with text prompts             | GPT-3 in-context     |
 | LoRA                  | Low-rank adapters for parameter-efficient fine-tuning | Rank-4 decomposition |
+
+</div>
 
 ## Model Deployment
 
@@ -415,6 +431,8 @@ engine = builder.build_serialized_network(network, config)
 
 Production models run behind an API that handles request routing, batching, and scaling.
 
+<div class="table-wrap">
+
 | Framework               | Strength                          | Use Case              |
 | ----------------------- | --------------------------------- | --------------------- |
 | TorchServe              | Native PyTorch, multi-model       | PyTorch-centric teams |
@@ -422,6 +440,8 @@ Production models run behind an API that handles request routing, batching, and 
 | Triton Inference Server | Multi-framework, dynamic batching | Heterogeneous fleets  |
 | BentoML                 | Python-native, easy packaging     | Rapid prototyping     |
 | vLLM                    | Optimized LLM serving             | Large language models |
+
+</div>
 
 Key operational concerns: cold start latency (loading model weights into GPU memory), request
 batching (combining concurrent requests into a single forward pass), and hardware utilization
@@ -485,17 +505,27 @@ policy assigns 0.5. The advantage is A_t = 0.8. epsilon = 0.2. Compute the clipp
 **Solution:**
 
 Step 1: Compute the probability ratio:
-$$r_t(\theta) = \frac{\pi_\theta(a_t | s_t)}{\pi_{\theta_{old}}(a_t | s_t)} = \frac{0.5}{0.3} = 1.667$$
+$$
+r_t(\theta) = \frac{\pi_\theta(a_t | s_t)}{\pi_{\theta_{old}}(a_t | s_t)} = \frac{0.5}{0.3} = 1.667
+$$
 
 Step 2: Compute the clipped ratio:
-$$\text{clip}(r_t(\theta), 1 - \epsilon, 1 + \epsilon) = \text{clip}(1.667, 0.8, 1.2) = 1.2$$
+$$
+\text{clip}(r_t(\theta), 1 - \epsilon, 1 + \epsilon) = \text{clip}(1.667, 0.8, 1.2) = 1.2
+$$
 
 Step 3: Compute both terms:
-$$r_t(\theta) \cdot A_t = 1.667 \times 0.8 = 1.333$$
-$$\text{clip}(r_t(\theta), 0.8, 1.2) \cdot A_t = 1.2 \times 0.8 = 0.96$$
+$$
+r_t(\theta) \cdot A_t = 1.667 \times 0.8 = 1.333
+$$
+$$
+\text{clip}(r_t(\theta), 0.8, 1.2) \cdot A_t = 1.2 \times 0.8 = 0.96
+$$
 
 Step 4: Take the minimum:
-$$L(\theta) = \min(1.333, 0.96) = 0.96$$
+$$
+L(\theta) = \min(1.333, 0.96) = 0.96
+$$
 
 **Answer:** The clipped objective is 0.96. The clip prevents the destructively large update.
 
@@ -509,13 +539,19 @@ Token A = [1, 0], Token B = [0, 1], Token C = [1, 1]. W_Q, W_K, W_V are identity
 **Solution:**
 
 Step 1: Compute Q, K, V (identity projections, so Q = K = V = X):
-$$Q = K = V = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix}$$
+$$
+Q = K = V = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix}
+$$
 
 Step 2: Compute attention scores QK^T:
-$$QK^T = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix} \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 2 \end{pmatrix}$$
+$$
+QK^T = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix} \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 2 \end{pmatrix}
+$$
 
 Step 3: Scale by $\sqrt{d_k} = \sqrt{2}$:
-$$\frac{QK^T}{\sqrt{2}} = \begin{pmatrix} 0.707 & 0 & 0.707 \\ 0 & 0.707 & 0.707 \\ 0.707 & 0.707 & 1.414 \end{pmatrix}$$
+$$
+\frac{QK^T}{\sqrt{2}} = \begin{pmatrix} 0.707 & 0 & 0.707 \\ 0 & 0.707 & 0.707 \\ 0.707 & 0.707 & 1.414 \end{pmatrix}
+$$
 
 Step 4: Apply softmax row-wise (each row sums to 1):
 Row 1: softmax([0.707, 0, 0.707]) = [0.420, 0.160, 0.420]
@@ -523,9 +559,15 @@ Row 2: softmax([0, 0.707, 0.707]) = [0.160, 0.420, 0.420]
 Row 3: softmax([0.707, 0.707, 1.414]) = [0.211, 0.211, 0.578]
 
 Step 5: Compute output = softmax(QK^T/sqrt(d_k)) * V:
-$$\text{Output}_A = 0.420 \times [1,0] + 0.160 \times [0,1] + 0.420 \times [1,1] = [0.840, 0.580]$$
-$$\text{Output}_B = 0.160 \times [1,0] + 0.420 \times [0,1] + 0.420 \times [1,1] = [0.580, 0.840]$$
-$$\text{Output}_C = 0.211 \times [1,0] + 0.211 \times [0,1] + 0.578 \times [1,1] = [0.789, 0.789]$$
+$$
+\text{Output}_A = 0.420 \times [1,0] + 0.160 \times [0,1] + 0.420 \times [1,1] = [0.840, 0.580]
+$$
+$$
+\text{Output}_B = 0.160 \times [1,0] + 0.420 \times [0,1] + 0.420 \times [1,1] = [0.580, 0.840]
+$$
+$$
+\text{Output}_C = 0.211 \times [1,0] + 0.211 \times [0,1] + 0.578 \times [1,1] = [0.789, 0.789]
+$$
 
 **Answer:** Each token now has a context-aware representation that incorporates information from all other tokens.
 
@@ -538,13 +580,19 @@ $$\text{Output}_C = 0.211 \times [1,0] + 0.211 \times [0,1] + 0.578 \times [1,1]
 **Solution:**
 
 Step 1: KL divergence between two Gaussians $\mathcal{N}(\mu_1, \sigma_1^2)$ and $\mathcal{N}(\mu_2, \sigma_2^2)$:
-$$KL = \ln\frac{\sigma_2}{\sigma_1} + \frac{\sigma_1^2 + (\mu_1 - \mu_2)^2}{2\sigma_2^2} - \frac{1}{2}$$
+$$
+KL = \ln\frac{\sigma_2}{\sigma_1} + \frac{\sigma_1^2 + (\mu_1 - \mu_2)^2}{2\sigma_2^2} - \frac{1}{2}
+$$
 
 Step 2: Substitute $\mu_1 = 0.5$, $\sigma_1^2 = 0.25$, $\mu_2 = 0$, $\sigma_2^2 = 1$:
-$$KL = \ln\frac{1}{0.5} + \frac{0.25 + (0.5 - 0)^2}{2 \times 1} - \frac{1}{2}$$
+$$
+KL = \ln\frac{1}{0.5} + \frac{0.25 + (0.5 - 0)^2}{2 \times 1} - \frac{1}{2}
+$$
 
 Step 3: Compute:
-$$KL = \ln 2 + \frac{0.25 + 0.25}{2} - 0.5 = 0.693 + 0.25 - 0.5 = 0.443$$
+$$
+KL = \ln 2 + \frac{0.25 + 0.25}{2} - 0.5 = 0.693 + 0.25 - 0.5 = 0.443
+$$
 
 **Answer:** The KL divergence is approximately 0.443 nats.
 
@@ -557,16 +605,24 @@ $$KL = \ln 2 + \frac{0.25 + 0.25}{2} - 0.5 = 0.693 + 0.25 - 0.5 = 0.443$$
 **Solution:**
 
 Step 1: Apply the Q-learning update rule:
-$$Q(s, a) \leftarrow Q(s, a) + \alpha[r + \gamma \max_{a'} Q(s', a') - Q(s, a)]$$
+$$
+Q(s, a) \leftarrow Q(s, a) + \alpha[r + \gamma \max_{a'} Q(s', a') - Q(s, a)]
+$$
 
 Step 2: Substitute values:
-$$Q(s, a) \leftarrow 5.0 + 0.1[-1 + 0.9 \times 4.0 - 5.0]$$
+$$
+Q(s, a) \leftarrow 5.0 + 0.1[-1 + 0.9 \times 4.0 - 5.0]
+$$
 
 Step 3: Compute the temporal difference error:
-$$\delta = -1 + 3.6 - 5.0 = -2.4$$
+$$
+\delta = -1 + 3.6 - 5.0 = -2.4
+$$
 
 Step 4: Update:
-$$Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76$$
+$$
+Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76
+$$
 
 **Answer:** The updated Q-value is 4.76. The negative TD error indicates the outcome was worse than expected.
 
@@ -622,16 +678,6 @@ $$Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76$$
 4. **Overfitting the validation set through extensive hyperparameter search.** Running thousands of
    configurations against the same validation set implicitly fits to it. Use nested cross-validation
    or a separate test set.
-
-```mermaid
-flowchart TD
-    A[Advanced Topics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

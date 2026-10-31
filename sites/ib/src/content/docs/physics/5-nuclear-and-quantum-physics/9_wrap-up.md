@@ -31,7 +31,7 @@ categories:
 ### Details
 
 <summary>Answer</summary>
-- **Strategy:** (a) Use Einstein"s photoelectric equation. (b) Use the max KE to find the max speed, then use the formula for the radius of a charged particle in a B-field. (c) Relate stopping potential to max KE.
+- **Strategy:** (a) Use Einstein's photoelectric equation. (b) Use the max KE to find the max speed, then use the formula for the radius of a charged particle in a B-field. (c) Relate stopping potential to max KE.
 - **a) Maximum Kinetic Energy ($E_{k, \mathrm{max}}$):**
  - Energy of incident photon: $E = hf = \frac{hc}{\lambda} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^8)}{400 \times 10^{-9}} = 4.97 \times 10^{-19}$ J.
  - Convert photon energy to eV: $E = \frac{4.97 \times 10^{-19}}{1.60 \times 10^{-19}} = 3.11$ eV.
@@ -52,7 +52,7 @@ categories:
 1. **Question (E.1 & A.5 - HL Only):** A hydrogen atom in the n=3 excited state is moving away from
    an observer at a relativistic speed. The atom de-excites, emitting a photon that an observer at
    rest with the atom would measure as a Balmer-alpha transition (n=3 to n=2). The observer on
-   Earth, however, measures the wavelength of this photon to be 700 nm. A) What is the wavelength of
+   earth, however, measures the wavelength of this photon to be 700 nm. A) What is the wavelength of
    the Balmer-alpha photon in its rest frame? b) What is the speed of the hydrogen atom relative to
    the Earth observer? c) From the Earth observer's perspective, what is the lifetime of the n=3
    excited state, if its proper lifetime is 10.0 ns?
@@ -65,7 +65,7 @@ categories:
  - Convert energy to joules: $\Delta E = 1.889 \times 1.6 \times 10^{-19} = 3.022 \times 10^{-19}$ J.
  - Photon wavelength: $\lambda_0 = \frac{hc}{\Delta E} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^8)}{3.022 \times 10^{-19}} = 6.58 \times 10^{-7}$ m or 658 nm.
 - **b) Relativistic Speed (v):**
- - The observed wavelength is $\lambda = 700$ nm. Since $\lambda > \lambda_0$This is a redshift, confirming the atom is moving away.
+ - The observed wavelength is $\lambda = 700$ nm. Since $\lambda > \lambda_0$ This is a redshift, confirming the atom is moving away.
  - Use the relativistic Doppler formula for light: $\lambda = \lambda_0 \sqrt{\frac{1+v/c}{1-v/c}}$.
  - $\left(\frac{\lambda}{\lambda_0}\right)^2 = \frac{1+v/c}{1-v/c} \implies \left(\frac{700}{658}\right)^2 = 1.132 = \frac{1+v/c}{1-v/c}$.
  - $1.132(1-v/c) = 1+v/c \implies 1.132 - 1.132(v/c) = 1 + v/c$.
@@ -124,7 +124,7 @@ categories:
  - Use the activity decay formula: $A = A_0 e^{-\lambda t}$.
  - $A = (100 \mathrm{ GBq}) e^{-(0.1315)(10)} = 100 \times e^{-1.315} = 100 \times 0.268 = 26.8$ GBq.
 - **c) Shield Thickness:**
- - The intensity is reduced to 1/16. Since $1/16 = (1/2)^4$The thickness of the shield must be equal to 4 half-value thicknesses ($x_{1/2}$).
+ - The intensity is reduced to 1/16. Since $1/16 = (1/2)^4$ The thickness of the shield must be equal to 4 half-value thicknesses ($x_{1/2}$).
  - Thickness = $4 \times x_{1/2} = 4 \times 1.2 \mathrm{ cm} = 4.8$ cm.
 <b>If you get this wrong, you should focus on:</b> The domain of applicability for quantum concepts (de Broglie for matter, E=hc/λ for photons), the exponential decay formula for activity, and the concept of half-value thickness for radiation attenuation.
 
@@ -132,7 +132,7 @@ categories:
    temperature as the Sun (5800 K) but is 100 times more luminous. A) Determine the radius of this
    star in terms of the Sun's radius ($R_\odot$). B) Assuming the star has a mass 4 times that of
    the Sun ($M_\odot$), what is the escape velocity from the surface of this star compared to the
-   Sun's? c) A planet orbits this star at a distance equal to the Earth's orbital radius (1 AU).
+   sun's? c) A planet orbits this star at a distance equal to the Earth's orbital radius (1 AU).
    Would you expect this planet to be habitable? Justify your answer with a calculation involving
    the star's radiation intensity.
 
@@ -142,7 +142,7 @@ categories:
 - **a) Radius of the Star:**
  - Stefan-Boltzmann Law: $L = 4\pi \sigma R^2 T^4$.
  - For the star: $L_{\mathrm{star}} = 100 L_\odot$. For the Sun: $L_\odot = 4\pi \sigma R_\odot^2 T_\odot^4$.
- - Since $T_{\mathrm{star}} = T_\odot$We can write:
+ - Since $T_{\mathrm{star}} = T_\odot$ We can write:
  - $L_{\mathrm{star}} = 4\pi \sigma R_{\mathrm{star}}^2 T_\odot^4$.
  - Divide the two equations: $\frac{L_{\mathrm{star}}}{L_\odot} = \frac{4\pi \sigma R_{\mathrm{star}}^2 T_\odot^4}{4\pi \sigma R_\odot^2 T_\odot^4} = \left(\frac{R_{\mathrm{star}}}{R_\odot}\right)^2$.
  - $100 = \left(\frac{R_{\mathrm{star}}}{R_\odot}\right)^2 \implies \frac{R_{\mathrm{star}}}{R_\odot} = \sqrt{100} = 10$.
@@ -173,10 +173,12 @@ categories:
 ## Radioactive Decay
 
 Radioactive decay is a random and spontaneous process by which an unstable nucleus emits radiation
-To become more stable. It is unaffected by temperature, pressure, chemical bonding, or any external
+to become more stable. It is unaffected by temperature, pressure, chemical bonding, or any external
 Conditions.
 
 ### Types of Radiation
+
+<div class="table-wrap">
 
 | Type       | Symbol                          | Charge | Mass (u) | Penetrating Power | Ionising Power | Stopped By            |
 | :--------- | :------------------------------ | :----- | :------- | :---------------- | :------------- | :-------------------- |
@@ -184,6 +186,8 @@ Conditions.
 | Beta-minus | $\beta^-$ ($^0_{-1}\mathrm{e}$) | -1e    | ~0       | Medium            | Medium         | Few mm of aluminium   |
 | Beta-plus  | $\beta^+$ ($^0_{+1}\mathrm{e}$) | +1e    | ~0       | Medium            | Medium         | Few mm of aluminium   |
 | Gamma      | $\gamma$                        | 0      | 0        | High              | Low            | Several cm of lead    |
+
+</div>
 
 ### Decay Equations
 
@@ -227,13 +231,15 @@ $$
 ### Half-Life ($T_{1/2}$)
 
 The half-life is the time required for half of the radioactive nuclei in a sample to decay. It is a
-Constant for a particular isotope and is independent of the initial quantity.
+constant for a particular isotope and is independent of the initial quantity.
 
 After $n$ half-lives, the fraction remaining is:
 
 $$
 \frac{N}{N_0} = \left(\frac{1}{2}\right)^n
 $$
+
+<div class="table-wrap">
 
 | Half-lives elapsed | Fraction remaining | Percentage remaining |
 | :----------------- | :----------------- | :------------------- |
@@ -243,10 +249,12 @@ $$
 | 3                  | 1/8                | 12.5%                |
 | 4                  | 1/16               | 6.25%                |
 
+</div>
+
 ### Activity
 
 Activity ($A$) is the number of decays per second, measured in becquerels (Bq), where 1 Bq = 1 decay
-Per second.
+per second.
 
 $$
 A = \lambda N
@@ -315,19 +323,19 @@ $$
 ### Mass Defect
 
 The mass defect ($\Delta m$) is the difference between the mass of a nucleus and the sum of the
-Masses of its constituent nucleons (protons and neutrons):
+masses of its constituent nucleons (protons and neutrons):
 
 $$
 \Delta m = Zm_p + (A-Z)m_n - m_{\mathrm{nucleus}}
 $$
 
-The mass defect arises because energy is released when nucleons bind together. By $E = mc^2$This
+The mass defect arises because energy is released when nucleons bind together. By $E = mc^2$ This
 "lost" mass is converted to binding energy.
 
 ### Binding Energy
 
 The binding energy ($E_b$) is the energy required to completely separate a nucleus into its
-Constituent protons and neutrons:
+constituent protons and neutrons:
 
 $$
 E_b = \Delta m \cdot c^2
@@ -365,6 +373,8 @@ $$
 
 ### Fission vs Fusion
 
+<div class="table-wrap">
+
 | Feature        | Fission                                  | Fusion                                          |
 | :------------- | :--------------------------------------- | :---------------------------------------------- |
 | Process        | Heavy nucleus splits into lighter nuclei | Light nuclei combine to form a heavier nucleus  |
@@ -373,6 +383,8 @@ $$
 | By-products    | Radioactive waste                        | Helium (non-radioactive)                        |
 | Conditions     | Neutron bombardment                      | Extreme temperature ($\sim 10^8$ K) and density |
 | Chain reaction | Yes (self-sustaining with critical mass) | No (requires continuous conditions)             |
+
+</div>
 
 ---
 
@@ -417,6 +429,8 @@ Where:
 
 **Work function values:**
 
+<div class="table-wrap">
+
 | Metal    | $\Phi$ (eV) |
 | :------- | :---------- |
 | Cesium   | 2.1         |
@@ -424,6 +438,8 @@ Where:
 | Zinc     | 4.3         |
 | Copper   | 4.7         |
 | Platinum | 5.6         |
+
+</div>
 
 ### Why Classical Wave Theory Fails
 
@@ -435,8 +451,8 @@ Explain:
 - The independence of $E_{k,\mathrm{max}}$ from intensity.
 
 Einstein's explanation: Light consists of discrete packets of energy called **photons**, each with
-Energy $E = hf$. One photon interacts with one electron. If $hf \lt \Phi$No emission occurs
-Regardless of intensity.
+energy $E = hf$. One photon interacts with one electron. If $hf \lt \Phi$ No emission occurs
+regardless of intensity.
 
 ---
 
@@ -454,7 +470,7 @@ Regardless of intensity.
 ### Bohr Model of Hydrogen
 
 Niels Bohr proposed that electrons in hydrogen atoms occupy discrete energy levels (orbits) with
-Quantised energies:
+quantised energies:
 
 $$
 E_n = -\frac{13.6}{n^2} \mathrm{ eV}
@@ -482,11 +498,15 @@ $$
 
 Transitions ending at a particular level produce a series of spectral lines:
 
+<div class="table-wrap">
+
 | Series  | Final level ($n_f$) | Region of Spectrum |
 | :------ | :------------------ | :----------------- |
 | Lyman   | 1                   | Ultraviolet        |
 | Balmer  | 2                   | Visible            |
 | Paschen | 3                   | Infrared           |
+
+</div>
 
 ### Worked Example: Energy Levels
 
@@ -523,7 +543,7 @@ This is in the visible (blue-green) region, it is the $H_\beta$ line of the Balm
 ### De Broglie Wavelength
 
 Louis de Broglie proposed that all matter exhibits wave-like properties. The de Broglie wavelength
-Is:
+is:
 
 $$
 \lambda = \frac{h}{p} = \frac{h}`\{mv}`
@@ -606,27 +626,9 @@ Diffraction is observable.
 4. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
 
-
-```mermaid
-flowchart TD
-    A[9_Wrap Up] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

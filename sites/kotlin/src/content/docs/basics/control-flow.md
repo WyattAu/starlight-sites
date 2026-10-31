@@ -43,7 +43,7 @@ Statement (as in Java) works without this constraint.
 
 ## when Expression
 
-`when` is Kotlin"s replacement for the Java `switch` statement. It is an expression by default and
+`when` is Kotlin's replacement for the Java `switch` statement. It is an expression by default and
 Supports arbitrary conditions, not just constant matching.
 
 ### Basic Matching
@@ -61,7 +61,7 @@ val description = when (x) {
 ### Exhaustiveness
 
 When used as an expression, `when` must be exhaustive. If all cases are covered, the `else` branch
-Is not required. With `sealed` classes or `enum` classes, the compiler verifies exhaustiveness.
+is not required. With `sealed` classes or `enum` classes, the compiler verifies exhaustiveness.
 
 ```kotlin
 enum class Color { RED, GREEN, BLUE }
@@ -242,7 +242,7 @@ fun findFirstEvenLambda(list: List<Int>): Int? {
 }
 ```
 
-In practice, prefer using `firstOrNull``find`Or other standard library functions over manual
+In practice, prefer using `firstOrNull`, `find` or other standard library functions over manual
 Iteration with labeled returns.
 
 ### Implicit Labels
@@ -260,7 +260,7 @@ fun foo() {
 
 ## try/catch as Expression
 
-Like `if` and `when``try/catch` is an expression in Kotlin.
+Like `if` and `when`, `try/catch` is an expression in Kotlin.
 
 ```kotlin
 val result: Int = try {
@@ -314,17 +314,6 @@ val result: String = fail("unreachable")  // type-checks because Nothing is a su
 - \*\* Creating ranges with `..` that are accidentally empty. `10..1` is empty; use `10 downTo 1`.
 - \*\* Assuming `for (i in range)` mutates `i`. The loop variable is a new `val` on each iteration.
 
-
-```mermaid
-flowchart TD
-    A[Control Flow] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of control flow, including underlying theory, practical
@@ -338,13 +327,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

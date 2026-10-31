@@ -55,7 +55,6 @@ graph TD
     M --> O[Observable]
 ```
 
-
 ## Contents
 
 1. [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
@@ -98,8 +97,6 @@ Start with the historical motivation to understand the context, then progress to
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -126,7 +123,7 @@ Each section includes:
 - **Thermal Physics:** Statistical mechanics uses quantum theory to explain thermodynamic properties.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

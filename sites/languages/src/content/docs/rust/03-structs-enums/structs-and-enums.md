@@ -61,7 +61,7 @@ assert_eq!(p.distance_from_origin(), 5.0);
 ```
 
 Tuple structs with a single field implement the **newtype pattern**, creating a distinct type from
-The wrapped type:
+the wrapped type:
 
 ```rust
 struct UserId(u64);
@@ -119,7 +119,7 @@ let bob = Person {
 // bob.name == "Bob", bob.age == 30, bob.email == Some("alice@example.com")
 ```
 
-Struct update syntax moves the remaining fields. After `..alice`The `alice` binding can no longer Be
+Struct update syntax moves the remaining fields. After `..alice`. The `alice` binding can no longer Be
 used in its entirety (it is partially moved), but individual `Copy` fields remain accessible.
 
 ### Struct Layout and `#[repr]`
@@ -179,7 +179,7 @@ mod geometry {
 ```
 
 Note: making a struct `pub` does not make its fields `pub`. Each field must be individually marked
-As `pub`. This is different from C++ where `public:` in a class definition makes all subsequent
+as `pub`. This is different from C++ where `public:` in a class definition makes all subsequent
 Members public.
 
 ### Methods and Associated Functions
@@ -226,7 +226,7 @@ assert_eq!(r.area(), 12.0);
 ### Multiple `impl` Blocks
 
 A type can have multiple `impl` blocks. This is useful for organizing methods by functionality or
-For separating trait implementations from inherent methods:
+for separating trait implementations from inherent methods:
 
 ```rust
 impl Rectangle {
@@ -320,7 +320,7 @@ enum Event {
 ### Enum Memory Layout
 
 The compiler stores a discriminant tag alongside the variant data. The default discriminant type is
-The smallest integer that can represent all variants:
+the smallest integer that can represent all variants:
 
 ```rust
 enum Color {
@@ -392,7 +392,7 @@ Contains itself recursively.
 ## Pattern Matching
 
 Pattern matching is Rust's primary control flow mechanism for enums and is exhaustively checked by
-The compiler.
+the compiler.
 
 ### `match` Expressions
 
@@ -412,7 +412,7 @@ fn color_to_rgb(c: Color) -> (u8, u8, u8) {
 }
 ```
 
-The compiler verifies that every variant is handled. If you add a new variant to `Color`Every
+The compiler verifies that every variant is handled. If you add a new variant to `Color`. Every
 `match` on `Color` will produce a compile error until updated. This is exhaustive pattern matching.
 
 ### Match Ergonomics (Rust 2021+)
@@ -445,7 +445,7 @@ match num {
 ```
 
 Match guards do not participate in exhaustiveness checking. The compiler cannot prove that a guard
-Will always match for a given variant, so you may still need a catch-all arm.
+will always match for a given variant, so you may still need a catch-all arm.
 
 ### Binding Modes
 
@@ -472,7 +472,7 @@ match v {
 assert_eq!(v, vec![1, 2, 3, 4]);
 ```
 
-#### `@`At Bindings
+#### `@`. At Bindings
 
 The `@` operator binds a value to a name while also testing it against a pattern:
 
@@ -658,6 +658,8 @@ struct User {
 }
 ```
 
+<div class="table-wrap">
+
 | Trait        | What it generates                                              |
 | ------------ | -------------------------------------------------------------- |
 | `Debug`      | `fmt::Debug` for `{:?}` formatting                             |
@@ -669,17 +671,19 @@ struct User {
 | `Ord`        | Total ordering (requires `PartialOrd``Eq`)                     |
 | `Hash`       | Hash function for `HashMap`/`HashSet` keys                     |
 | `Default`    | Default value (all fields must implement `Default`)            |
+
+</div>
 :::
 
 :::caution
 Struct, the derived ordering changes. Deriving `Ord` on a struct with a `f64` field will fail
-Because `f64` does not implement `Ord`. Use a custom implementation or wrap the field in the
+because `f64` does not implement `Ord`. Use a custom implementation or wrap the field in the
 `ordered-float` crate's `OrderedFloat` type instead.
 
 ### Custom Derive
 
 You can implement custom derive macros. The `derive` crate ecosystem includes `serde::Serialize`
-`serde::Deserialize``thiserror::Error`And many more. These work by procedural macro expansion at
+`serde::Deserialize`, `thiserror::Error` and many more. These work by procedural macro expansion at
 Compile time.
 
 ## The Newtype Pattern
@@ -752,7 +756,7 @@ impl Message {
 ## Visibility in Depth
 
 Rust's visibility system is based on modules, not classes. The `pub` keyword makes an item visible
-To the parent module. To make an item visible to the entire crate, use `pub(crate)`. To make it
+to the parent module. To make an item visible to the entire crate, use `pub(crate)`. To make it
 Visible to a specific module, use `pub(in path)`.
 
 ```rust
@@ -784,7 +788,7 @@ pub use internal::Config;  // Config is now available as crate::Config
 ```
 
 This is commonly used to flatten module hierarchies and provide a clean public API that differs from
-The internal organization.
+the internal organization.
 
 ## `Option<T>` Deep Dive
 
@@ -887,7 +891,7 @@ let opt: Option<i32> = res.ok(); // Some(42)
    adding `ref`Pay attention, it is telling you that a move would occur otherwise.
 
 4. **Using `unwrap()` in production code.** `unwrap()` panics on `None`/`Err`. Panics are for
-   unrecoverable programming errors (bugs), not for expected failure modes. Use `?``unwrap_or`
+   unrecoverable programming errors (bugs), not for expected failure modes. Use `?`, `unwrap_or`
    `unwrap_or_else`Or pattern matching for expected failures.
 
 5. **Enum size explosion.** An enum's size is the size of its largest variant plus the discriminant,
@@ -897,14 +901,14 @@ let opt: Option<i32> = res.ok(); // Some(42)
 
 6. **Deriving traits on enums with non-unit variants.** `#[derive(PartialEq)]` compares variant
    discriminants first, then compares the inner data. For structs, it compares field-by-field. If
-   your type contains `f64`You cannot derive `Eq` or `Ord` because `f64` does not implement them.
+   your type contains `f64`. You cannot derive `Eq` or `Ord` because `f64` does not implement them.
 
 7. **Not using `if let`/`let-else` when appropriate.** A `match` with a single non-trivial arm and a
    `_ =>` catch-all is less readable than an `if let` or `let-else`. Use `match` when you need
    exhaustive handling; use `if let`/`let-else` for focused pattern extraction.
 
 8. **Overusing `Option` for boolean semantics.** `Option<bool>` has three states: `None`
-   `Some(true)``Some(false)`. If you need three states, use an enum instead, it is clearer and
+   `Some(true)`, `Some(false)`. If you need three states, use an enum instead, it is clearer and
    self-documenting.
 
 9. **Pattern binding shadowing.** In match arms, the binding name shadows any outer binding with the
@@ -925,16 +929,6 @@ let opt: Option<i32> = res.ok(); // Some(42)
     are not types, they are constructors. Use the full enum type and pattern match inside the
     function body, or use a newtype wrapper around the variant.
 
-```mermaid
-flowchart TD
-    A[Structs And Enums] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of structs and enums, including underlying theory, practical
@@ -947,9 +941,6 @@ implementation, and key applications.
 - traits and generics
 - error handling (Result, Option)
 - concurrency with threads and async
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

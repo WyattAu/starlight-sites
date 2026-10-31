@@ -59,7 +59,7 @@ public class Dog extends Animal {
 
 A subclass can override a non-final, non-static method of its superclass. The `@Override` annotation
 Tells the compiler to verify that you are actually overriding a superclass method. If you misspell
-The method name or get the signature wrong, the compiler will report an error instead of silently
+the method name or get the signature wrong, the compiler will report an error instead of silently
 Creating an overloaded method.
 
 ```java
@@ -79,7 +79,7 @@ public class Dog extends Animal {
 
 - The method must have the same name, return type, and parameter list.
 - The access level cannot be more restrictive (can widen, not narrow).
-- Cannot override `static``final`Or `private` methods (static methods are hidden, not overridden).
+- Cannot override `static`, `final` or `private` methods (static methods are hidden, not overridden).
 - Cannot throw checked exceptions that are broader than the superclass method"s exceptions (can
   narrow, not widen).
 
@@ -160,12 +160,16 @@ new B();
 
 ## Access Modifiers
 
+<div class="table-wrap">
+
 | Modifier          | Class | Package | Subclass | World |
 | ----------------- | ----- | ------- | -------- | ----- |
 | `public`          | Yes   | Yes     | Yes      | Yes   |
 | `protected`       | Yes   | Yes     | Yes      | No    |
 | (package-private) | Yes   | Yes     | No       | No    |
 | `private`         | Yes   | No      | No       | No    |
+
+</div>
 
 ### Package-Private (Default Access)
 
@@ -253,7 +257,7 @@ s.area(); // The JVM calls the correct area() based on the actual object type
 
 The `final` keyword on a method prevents overriding and allows the JIT compiler to devirtualize the
 Call, it can inline the method at the call site because it knows no subclass will override it. This
-Can improve performance in hot paths.
+can improve performance in hot paths.
 
 ```java
 public class Point {
@@ -336,7 +340,7 @@ Semantics with no shared state (prior to Java 8).
 ## Interfaces
 
 An interface defines a contract that implementing classes must fulfill. Since Java 8, interfaces can
-Have default methods, static methods, and (since Java 9) private methods.
+have default methods, static methods, and (since Java 9) private methods.
 
 ### Interface Evolution
 
@@ -384,6 +388,8 @@ int len = lengthExtractor.transform("hello"); // 5
 
 Built-in functional interfaces in `java.util.function`:
 
+<div class="table-wrap">
+
 | Interface                 | Abstract Method   | Signature       |
 | ------------------------- | ----------------- | --------------- |
 | `Predicate&lt;T&gt;`      | `boolean test(T)` | T -&gt; boolean |
@@ -393,6 +399,8 @@ Built-in functional interfaces in `java.util.function`:
 | `UnaryOperator&lt;T&gt;`  | `T apply(T)`      | T -&gt; T       |
 | `BinaryOperator&lt;T&gt;` | `T apply(T, T)`   | (T,T) -&gt; T   |
 | `BiFunction&lt;T,U,R&gt;` | `R apply(T, U)`   | (T,U) -&gt; R   |
+
+</div>
 
 ### Multiple Inheritance of Interfaces
 
@@ -465,7 +473,7 @@ public class FlyingVehicle {
 ## Liskov Substitution Principle
 
 The Liskov Substitution Principle (LSP) states that if S is a subtype of T, then objects of type T
-May be replaced with objects of type S without altering any of the desirable properties of the
+may be replaced with objects of type S without altering any of the desirable properties of the
 Program. In practical terms: a subclass must be usable anywhere the superclass is expected.
 
 ```java
@@ -508,6 +516,8 @@ A subclass must violate the superclass's contract to work correctly, use composi
 
 ## SOLID Principles Overview
 
+<div class="table-wrap">
+
 | Principle                     | Guideline                                                           |
 | ----------------------------- | ------------------------------------------------------------------- |
 | **S**, Single Responsibility | A class should have only one reason to change.                      |
@@ -515,6 +525,8 @@ A subclass must violate the superclass's contract to work correctly, use composi
 | **L**, Liskov Substitution   | Subtypes must be substitutable for their base types.                |
 | **I**, Interface Segregation | Prefer many specific interfaces over one general-purpose interface. |
 | **D**, Dependency Inversion  | Depend on abstractions, not concretions.                            |
+
+</div>
 
 ### Single Responsibility Example
 
@@ -690,7 +702,7 @@ public non-sealed class Multiply extends Expr {
 
 - The permitted subclasses must be in the same module (if the sealed class is in a named module) or
   the same package (if in the unnamed module).
-- Permitted subclasses must use one of: `final``sealed`Or `non-sealed`.
+- Permitted subclasses must use one of: `final`, `sealed` or `non-sealed`.
 - The sealed class and its permitted subclasses must co-compile (or be in the same compilation
   unit).
 
@@ -812,7 +824,7 @@ new Derived(); // throws NullPointerException
 :::caution
 Run, so its fields are uninitialized. If the overridden method accesses subclass fields, you get
 `NullPointerException` or incorrect behavior. Mark the method `final` or `private` if you must call
-It from a constructor.
+it from a constructor.
 
 ### `instanceof` and `null`
 
@@ -849,8 +861,8 @@ Creates confusion.
 ### Fragile Base Class Problem
 
 Changes to a superclass can silently break subclasses. If a new method is added to the superclass
-With the same name as a method in the subclass, the subclass method becomes an overload instead of
-An override:
+with the same name as a method in the subclass, the subclass method becomes an overload instead of
+an override:
 
 ```java
 // Version 1 of library
@@ -876,7 +888,7 @@ public class Base {
 ### Using Inheritance for Code Reuse Only
 
 If you extend a class solely to reuse its methods but there is no genuine "is-a" relationship, you
-Are misusing inheritance. Use composition with delegation instead:
+are misusing inheritance. Use composition with delegation instead:
 
 ```java
 // WRONG, Stack is NOT a List (you don't want random access, iteration at arbitrary positions)
@@ -895,16 +907,6 @@ public class Stack&lt;E&gt; {
 }
 ```
 
-```mermaid
-flowchart TD
-    A[02 Inheritance Polymorphism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of inheritance and polymorphism, including underlying theory,
@@ -917,9 +919,6 @@ practical implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

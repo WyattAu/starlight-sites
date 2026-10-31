@@ -20,6 +20,8 @@ categories: [TypeScript]
 
 TypeScript provides seven primitive types that correspond directly to JavaScript runtime values:
 
+<div class="table-wrap">
+
 | Type        | Description                                               | Example Values                |
 | ----------- | --------------------------------------------------------- | ----------------------------- |
 | `string`    | UTF-16 character sequences                                | `"hello"``"'``` `Template` `` |
@@ -30,9 +32,11 @@ TypeScript provides seven primitive types that correspond directly to JavaScript
 | `symbol`    | Globally unique identifiers (ES2015+)                     | `Symbol("id")`                |
 | `bigint`    | Arbitrary-precision integers (ES2020+)                    | `0n``9007199254740993n`       |
 
+</div>
+
 The types `null` and `undefined` are subtypes of every other type unless `strictNullChecks` is
 Enabled. Under `strict: true` (the recommended configuration), `null` and `undefined` are assignable
-Only to themselves and to `any` / `unknown`.
+only to themselves and to `any` / `unknown`.
 
 ```ts
 const name: string = 'Ada';
@@ -44,7 +48,7 @@ const uid: symbol = Symbol('uid');
 const huge: bigint = 9007199254740993n;
 ```
 
-## The `any``unknown``never`And `void` Types
+## The `any`, `unknown`, `never` and `void` Types
 
 These four types have precise and distinct semantics. Confusion between them is a common source of
 Bugs.
@@ -53,7 +57,7 @@ Bugs.
 
 The `any` type disables all type checking for the annotated value. A value of type `any` is
 Assignable to and from every other type. Using `any` effectively opts the annotated expression out
-Of the type system entirely.
+of the type system entirely.
 
 ```ts
 let a: any = 'hello';
@@ -68,7 +72,7 @@ Genuinely not known at compile time.
 ### `unknown`
 
 The `unknown` type is the type-safe counterpart to `any`. A value of type `unknown` is assignable to
-Every type, but **no type is assignable to `unknown` except `any` and `unknown` itself**. Before an
+every type, but **no type is assignable to `unknown` except `any` and `unknown` itself**. Before an
 `unknown` value can be used, it must be narrowed through a type guard.
 
 ```ts
@@ -113,7 +117,7 @@ function area(shape: Shape): number {
 }
 ```
 
-If a new variant is later added to `Shape` without updating the `switch`The assignment to
+If a new variant is later added to `Shape` without updating the `switch`. The assignment to
 `_exhaustive: never` will produce a compile-time error, since the new variant is not assignable to
 `never`.
 
@@ -136,7 +140,7 @@ Settings but should not be used there.
 ### `undefined` (the type)
 
 The type `undefined` has exactly one inhabitant: the runtime value `undefined`. Under
-`strictNullChecks`It is assignable only to `undefined``any`And `unknown`.
+`strictNullChecks`. It is assignable only to `undefined`, `any` and `unknown`.
 
 ```ts
 let x: undefined = undefined;
@@ -146,7 +150,7 @@ let x: undefined = undefined;
 
 TypeScript provides two mechanisms for defining object shapes: **interfaces** and **type aliases**.
 Both support optional properties, readonly properties, and method signatures. However, they differ
-In several important respects.
+in several important respects.
 
 ### Interface Declarations
 
@@ -160,7 +164,7 @@ interface Point {
 ```
 
 Interfaces support **declaration merging**: multiple interface declarations with the same name in
-The same scope are automatically merged into a single interface.
+the same scope are automatically merged into a single interface.
 
 ```ts
 interface Window {
@@ -196,6 +200,8 @@ type Readonly<T> = { readonly [K in keyof T]: T[K] };
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature                  | `interface`   | `type`  |
 | ------------------------ | ------------- | ------- |
 | Object shapes            | Yes           | Yes     |
@@ -208,20 +214,22 @@ type Readonly<T> = { readonly [K in keyof T]: T[K] };
 | Extends other interfaces | Yes           | N/A     |
 | Extends classes          | Yes           | No      |
 
+</div>
+
 ### When to Use Each
 
 **Use `interface`** when defining public API surface shapes that may be extended by consumers
 (library authoring, plugin systems). Use **`type`** for unions, intersections, mapped types,
 Conditional types, tuples, and any non-object-shape type. When in doubt, many teams adopt the
 Convention: default to `interface` for object shapes, switch to `type` when the situation requires
-It.
+it.
 
 ## Union and Intersection Types
 
 ### Union Types
 
 A union type `A | B` describes a value that is of type `A` **or** type `B`. The value has access
-Only to the members that are common to all constituents of the union.
+only to the members that are common to all constituents of the union.
 
 ```ts
 type ID = string | number;
@@ -232,7 +240,7 @@ function formatId(id: ID): string {
 ```
 
 When accessing properties or methods on a union, TypeScript permits only those that are shared
-Across all union members:
+across all union members:
 
 ```ts
 function getLength(value: string | string[]): number {
@@ -276,7 +284,7 @@ This type is `never` because no value can be both a `string` and a `number`.
 ## Type Narrowing
 
 Type narrowing is the process by which TypeScript reduces a broad type to a more specific type
-Within a control flow branch. Narrowing is essential for safely working with union types.
+within a control flow branch. Narrowing is essential for safely working with union types.
 
 ### `typeof` Narrowing
 
@@ -290,7 +298,7 @@ function double(value: string | number): string | number {
 ```
 
 The `typeof` operator narrows to the corresponding TypeScript type. It recognises `"string"`
-`"number"``"boolean"``"symbol"``"bigint"``"undefined"``"object"`And `"function"`.
+`"number"`, `"boolean"`, `"symbol"`, `"bigint"`, `"undefined"`, `"object"` and `"function"`.
 
 ### `instanceof` Narrowing
 
@@ -336,7 +344,7 @@ function unwrap<T, E>(result: Result<T, E>): T {
 }
 ```
 
-The compiler recognises that after the `if` check narrows `result.status` to `"success"`The type Of
+The compiler recognises that after the `if` check narrows `result.status` to `"success"`. The type Of
 `result` is narrowed to `{ status: "success"; data: T }`Making `result.data` accessible.
 
 ### Equality Narrowing
@@ -363,7 +371,7 @@ function process(value: string | null | undefined): string {
 }
 ```
 
-Falsy values (`null``undefined``""``0``NaN``false`) narrow the type to their falsy Constituent.
+Falsy values (`null`, `undefined`, `""`, `0`, `NaN`, `false`) narrow the type to their falsy Constituent.
 
 ## Literal Types
 
@@ -414,12 +422,16 @@ type HandlerName = 'onClick' | 'onFocus' | 'onBlur';
 
 Template literal types distribute over unions and support the following intrinsic string types:
 
+<div class="table-wrap">
+
 | Intrinsic Type    | Operation                    |
 | ----------------- | ---------------------------- |
 | `Uppercase<S>`    | Convert to uppercase         |
 | `Lowercase<S>`    | Convert to lowercase         |
 | `Capitalize<S>`   | Capitalize first character   |
 | `Uncapitalize<S>` | Uncapitalize first character |
+
+</div>
 
 ```ts
 type CSSProperty = 'margin' | 'padding';
@@ -439,7 +451,7 @@ type CSSKey =
 ## Type Assertions
 
 Type assertions (`as` syntax or angle-bracket syntax) instruct the compiler to treat an expression
-As a specific type. They perform **no runtime check** and are therefore unsafe.
+as a specific type. They perform **no runtime check** and are therefore unsafe.
 
 ### Syntax
 
@@ -454,7 +466,7 @@ Prefer `as` for consistency.
 ### When Assertions Are Necessary
 
 Type assertions are occasionally required when the programmer has information that the type system
-Cannot infer:
+cannot infer:
 
 1. **DOM element access** -- `document.getElementById` returns `HTMLElement | null`; asserting to a
    specific element type.
@@ -539,14 +551,14 @@ const value: string | null = null;
 const result = value ?? 'default';
 ```
 
-This operator is distinct from `||` because it does not treat `0``""``false`Or `NaN` as falsy:
+This operator is distinct from `||` because it does not treat `0`, `""`, `false` or `NaN` as falsy:
 
 ```ts
 const count: number | null = 0;
 const total = count ?? 10;
 ```
 
-Here, `total` is `0`Because `0` is not nullish. With `||``total` would be `10`.
+Here, `total` is `0`. Because `0` is not nullish. With `||`, `total` would be `10`.
 
 ### Combining Both
 
@@ -571,7 +583,7 @@ let s = 'hello';
 let b = true;
 ```
 
-Here, `x` is inferred as `number``s` as `string``b` as `boolean`. The inferred type is the
+Here, `x` is inferred as `number`, `s` as `string`, `b` as `boolean`. The inferred type is the
 **widest** type that matches the initialiser.
 
 ### `let` vs `const` Inference
@@ -589,7 +601,7 @@ With `const`TypeScript infers the literal type:
 const x = 'hello';
 ```
 
-Here, the type of `x` is the literal type `"hello"`Not `string`. This is because `const`
+Here, the type of `x` is the literal type `"hello"`. Not `string`. This is because `const`
 Declarations cannot be reassigned, so the compiler can safely narrow to the literal.
 
 ### Best Common Type
@@ -616,7 +628,7 @@ const doubled = numbers.map((n) => n * 2);
 ```
 
 The type of `n` is inferred as `number` from the context (the `map` method of `number[]`), even
-Though the callback has no explicit parameter annotation.
+though the callback has no explicit parameter annotation.
 
 Contextual typing also applies to event handlers, promise callbacks, and object literal assignments:
 
@@ -646,7 +658,7 @@ The return type is inferred as `number | string`.
 ## `const` Assertions (`as const`)
 
 The `as const` assertion instructs TypeScript to infer the narrowest possible (literal) types for
-The expression:
+the expression:
 
 ```ts
 const config = {
@@ -656,8 +668,8 @@ const config = {
 } as const;
 ```
 
-Without `as const`The type of `config` is `{ host: string; port: number; debug: boolean }`. With
-`as const`The type is `{ readonly host: "localhost"; readonly port: 3000; readonly debug: false }`.
+Without `as const`. The type of `config` is `{ host: string; port: number; debug: boolean }`. With
+`as const`. The type is `{ readonly host: "localhost"; readonly port: 3000; readonly debug: false }`.
 
 This is particularly useful for defining constant objects where the literal values carry semantic
 Meaning:
@@ -689,7 +701,7 @@ The type of `directions` is `readonly ["north", "south", "east", "west"]`.
 
 ## Type Predicates and User-Defined Type Guards
 
-Built-in narrowing (`typeof``instanceof``in`) covers many common cases. For more complex Predicates,
+Built-in narrowing (`typeof`, `instanceof`, `in`) covers many common cases. For more complex Predicates,
 TypeScript provides **user-defined type guards** via type predicates.
 
 ### Type Predicate Syntax
@@ -772,7 +784,7 @@ Union types are like a Swiss Army knife. A variable typed as string | number can
 
 ### Pitfall 1: Using `any` as a Escape Hatch
 
-`any` bypasses the type checker entirely. If a function accepts `any`The caller receives no Guidance
+`any` bypasses the type checker entirely. If a function accepts `any`. The caller receives no Guidance
 on what to pass, and the callee receives no guarantees about what it receives. Prefer `unknown` with
 narrowing.
 
@@ -810,7 +822,7 @@ const settings = {
 };
 ```
 
-The type of `settings.theme` is `string`Not `"dark"`. To preserve the literal type, use `as const`
+The type of `settings.theme` is `string`. Not `"dark"`. To preserve the literal type, use `as const`
 Or annotate the variable:
 
 ```ts
@@ -844,17 +856,6 @@ function process(item: A | B): void {
 }
 ```
 
-
-```mermaid
-flowchart TD
-    A[Types And Annotations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of types and annotations, including underlying theory, practical
@@ -868,13 +869,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

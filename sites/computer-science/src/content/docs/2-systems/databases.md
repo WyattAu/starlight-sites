@@ -36,6 +36,8 @@ is an attribute from domain $D_i$.
 
 ### 1.2 Keys
 
+<div class="table-wrap">
+
 | Key Type          | Definition                                           |
 | ----------------- | ---------------------------------------------------- |
 | **Superkey**      | A set of attributes that uniquely identifies a tuple |
@@ -44,19 +46,27 @@ is an attribute from domain $D_i$.
 | **Foreign key**   | References the primary key of another relation       |
 | **Composite key** | A key consisting of multiple attributes              |
 
+</div>
+
 ### 1.3 Relational Algebra
 
 **Selection** ($\sigma$): Filter rows.
 
-$$\sigma_{\text{condition}}(R) = \{t \in R : t \text{ satisfies condition}\}$$
+$$
+\sigma_{\text{condition}}(R) = \{t \in R : t \text{ satisfies condition}\}
+$$
 
 **Projection** ($\pi$): Select columns.
 
-$$\pi_{A_1, A_2, \ldots}(R) = \{t[A_1, A_2, \ldots] : t \in R\}$$
+$$
+\pi_{A_1, A_2, \ldots}(R) = \{t[A_1, A_2, \ldots] : t \in R\}
+$$
 
 **Join** ($\bowtie$): Combine relations.
 
-$$R \bowtie_{\text{condition}} S = \sigma_{\text{condition}}(R \times S)$$
+$$
+R \bowtie_{\text{condition}} S = \sigma_{\text{condition}}(R \times S)
+$$
 
 **Natural join** ($\bowtie$): Join on all shared attributes, eliminating duplicates.
 
@@ -216,15 +226,21 @@ CLOSURE(X, F):
 **2NF:** 1NF and no partial dependencies. Every non-prime attribute is fully dependent on the entire
 candidate key.
 
-$$X \to Y \text{ is a partial dependency if } Y \text{ is non-prime and } X \text{ is a proper subset of a candidate key}$$
+$$
+X \to Y \text{ is a partial dependency if } Y \text{ is non-prime and } X \text{ is a proper subset of a candidate key}
+$$
 
 **3NF:** 2NF and no transitive dependencies. For every non-trivial FD $X \to Y$:
 
-$$X \text{ is a superkey} \quad \text{or} \quad Y \text{ is a prime attribute}$$
+$$
+X \text{ is a superkey} \quad \text{or} \quad Y \text{ is a prime attribute}
+$$
 
 **BCNF (Boyce-Codd Normal Form):** For every non-trivial FD $X \to Y$:
 
-$$X \text{ is a superkey}$$
+$$
+X \text{ is a superkey}
+$$
 
 **Decomposition into BCNF:**
 
@@ -238,12 +254,16 @@ DECOMPOSE(R, F):
 
 ### 3.4 Normal Form Comparison
 
+<div class="table-wrap">
+
 | Normal Form | Eliminates                 | May have                     |
 | ----------- | -------------------------- | ---------------------------- |
 | 1NF         | Multivalued attributes     | Partial, transitive deps     |
 | 2NF         | Partial dependencies       | Transitive dependencies      |
 | 3NF         | Transitive dependencies    | BCNF violations              |
 | BCNF        | All FDs not from superkeys | Lossy decomposition possible |
+
+</div>
 
 ## 4. Indexing
 
@@ -266,12 +286,16 @@ A **B+ tree** of order $d$ is a balanced search tree optimized for disk access:
 
 **Operations:**
 
+<div class="table-wrap">
+
 | Operation   | Time              | Disk Accesses     |
 | ----------- | ----------------- | ----------------- |
 | Search      | $O(\log_d n)$     | $O(\log_d n)$     |
 | Insert      | $O(\log_d n)$     | $O(\log_d n)$     |
 | Delete      | $O(\log_d n)$     | $O(\log_d n)$     |
 | Range query | $O(\log_d n + k)$ | $O(\log_d n + k)$ |
+
+</div>
 
 **Choice of $d$:** $d$ is chosen so that one node fits in one disk block.
 
@@ -291,6 +315,8 @@ HASH_INDEX(key):
   overflows.
 - **Linear hashing:** Buckets split incrementally in a round-robin fashion.
 
+<div class="table-wrap">
+
 | Aspect      | B+ Tree             | Hash Index  |
 | ----------- | ------------------- | ----------- |
 | Exact match | $O(\log n)$         | $O(1)$ avg  |
@@ -298,6 +324,8 @@ HASH_INDEX(key):
 | Insert      | $O(\log n)$         | $O(1)$ avg  |
 | Space       | Variable            | Variable    |
 | Order       | Maintains key order | No ordering |
+
+</div>
 
 ### 4.3 Bitmap Indexes
 
@@ -325,6 +353,8 @@ alone.
 
 ### 5.1 ACID Properties
 
+<div class="table-wrap">
+
 | Property        | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
 | **Atomicity**   | All operations succeed or none do (all-or-nothing)              |
@@ -332,7 +362,11 @@ alone.
 | **Isolation**   | Concurrent transactions don't interfere                         |
 | **Durability**  | Once committed, changes survive crashes                         |
 
+</div>
+
 ### 5.2 Isolation Levels
+
+<div class="table-wrap">
 
 | Level            | Dirty Read | Non-repeatable Read | Phantom Read |
 | ---------------- | ---------- | ------------------- | ------------ |
@@ -340,6 +374,8 @@ alone.
 | Read Committed   | No         | Yes                 | Yes          |
 | Repeatable Read  | No         | No                  | Yes          |
 | Serializable     | No         | No                  | No           |
+
+</div>
 
 **Anomaly definitions:**
 
@@ -385,11 +421,15 @@ Used by PostgreSQL, MySQL (InnoDB), Oracle.
 
 ### 5.5 Concurrency Control Comparison
 
+<div class="table-wrap">
+
 | Method     | Locking Overhead | Deadlocks | Performance (read-heavy) | Performance (write-heavy) |
 | ---------- | ---------------- | --------- | ------------------------ | ------------------------- |
 | 2PL        | High             | Yes       | Moderate                 | Good                      |
 | MVCC       | Low              | No        | Excellent                | Moderate                  |
 | Optimistic | Low              | No        | Good                     | Poor (high conflict)      |
+
+</div>
 
 ## 6. Query Optimization
 
@@ -408,6 +448,8 @@ SQL Query
 
 Used to transform queries for efficiency:
 
+<div class="table-wrap">
+
 | Rule                | Equivalence                                                          |
 | ------------------- | -------------------------------------------------------------------- |
 | Selection pushdown  | $\sigma_c(R \bowtie S) = \sigma_c(R) \bowtie S$ if $c$ uses only $R$ |
@@ -415,6 +457,8 @@ Used to transform queries for efficiency:
 | Join associativity  | $(R \bowtie S) \bowtie T = R \bowtie (S \bowtie T)$                  |
 | Selection cascade   | $\sigma_{c1}(\sigma_{c2}(R)) = \sigma_{c1 \wedge c2}(R)$             |
 | Projection pushdown | Push projections as early as possible                                |
+
+</div>
 
 ### 6.3 Join Algorithms
 
@@ -473,15 +517,23 @@ Cost: $O(|R|\log|R| + |S|\log|S|)$. Good for range joins and sorted output.
 
 **Selectivity:** Fraction of rows satisfying a condition.
 
-$$\text{sel}(A = v) = \frac{1}{|V(A,R)|}$$
+$$
+\text{sel}(A = v) = \frac{1}{|V(A,R)|}
+$$
 
-$$\text{sel}(A > v) \approx \frac{\text{distinct values above } v}{|V(A,R)|}$$
+$$
+\text{sel}(A > v) \approx \frac{\text{distinct values above } v}{|V(A,R)|}
+$$
 
-$$\text{sel}(A \text{ LIKE '\%x\%'}) \approx \frac{1}{3} \text{ (heuristic)}$$
+$$
+\text{sel}(A \text{ LIKE '\%x\%'}) \approx \frac{1}{3} \text{ (heuristic)}
+$$
 
 **Join size estimation:**
 
-$$|R \bowtie S| \approx \frac{|R| \cdot |S|}{\max(V(R.key), V(S.key))}$$
+$$
+|R \bowtie S| \approx \frac{|R| \cdot |S|}{\max(V(R.key), V(S.key))}
+$$
 
 ### 6.5 EXPLAIN and Query Plans
 
@@ -537,17 +589,6 @@ violate 3NF (D and E do not depend on the key directly, only through C). Decompo
 R2(C, D), R3(D, E). All are in 3NF. Lossless join is guaranteed because R1 intersection R2 = {C} is
 a candidate key for R2.
 
-
-```mermaid
-flowchart TD
-    A[Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - The **relational model** organizes data into relations with keys and foreign keys, manipulated via
@@ -568,11 +609,15 @@ Databases organize data for efficient retrieval and modification. The relational
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Link                                                          |
 | ------------------- | ------------------------------------------------------------- |
 | Distributed Systems | [View](/2-systems/distributed-systems/) |
 | Networking          | [View](/2-systems/networking/)          |
 | Operating Systems   | [View](https://alevel.wyattau.com/computer-science/fundamentals/05-operating-systems/)   |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

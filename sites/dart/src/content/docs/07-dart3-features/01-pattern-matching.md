@@ -24,7 +24,7 @@ categories:
 Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A
 Pattern is a syntactic construct that describes the **shape** of a value, its type, its structure,
 And the relationships between its parts. When a value is tested against a pattern, the compiler
-Either matches (the value conforms) or refutes (the value does not conform).
+either matches (the value conforms) or refutes (the value does not conform).
 
 This is not a new concept in language design. Rust has had irrefutable pattern matching since 1.0,
 Haskell has had pattern matching since its inception, and Scala has had extractors for over a
@@ -73,6 +73,8 @@ if (x case int n when n > 0) {
 
 Patterns are not limited to switch statements. Dart 3 allows patterns in five contexts:
 
+<div class="table-wrap">
+
 | Context              | Pattern Type               | Example                        |
 | -------------------- | -------------------------- | ------------------------------ |
 | Switch cases         | Refutable                  | `case [a, b]:`                 |
@@ -81,6 +83,8 @@ Patterns are not limited to switch statements. Dart 3 allows patterns in five co
 | Variable declaration | Irrefutable                | `var (a, b) = record`          |
 | catch clauses        | Refutable                  | `on FormatException catch (e)` |
 
+</div>
+
 The compiler enforces the refutability constraint at each site. A refutable pattern in a variable
 Declaration produces a hard error. An irrefutable pattern in a switch case is allowed but pointless
 (it always matches, making subsequent cases unreachable).
@@ -88,7 +92,7 @@ Declaration produces a hard error. An irrefutable pattern in a switch case is al
 ## Logical Patterns
 
 Logical patterns combine other patterns using boolean logic. They are the pattern-matching
-Equivalent of `||``&&`And relational operators.
+Equivalent of `||`, `&&` and relational operators.
 
 ### Or Patterns (`||`)
 
@@ -116,7 +120,7 @@ bool isReadOnly(HttpMethod method) => switch (method) {
 
 **Binding consistency**: All branches of an or-pattern must bind the same variables. The compiler
 Enforces this because it cannot know which branch matched at compile time, so it must guarantee that
-All bindings are valid regardless.
+all bindings are valid regardless.
 
 ```dart
 // ERROR: different variable names in or-pattern branches
@@ -150,12 +154,12 @@ switch (value) {
 
 The and-pattern evaluates left-to-right. The right-hand side can use variables bound by the
 Left-hand side. This ordering is not just syntactic, it is semantic. The compiler generates code
-That first tests the left pattern, and only if it succeeds, tests the right pattern against the
+that first tests the left pattern, and only if it succeeds, tests the right pattern against the
 Bound variables.
 
 ### Relational Patterns
 
-Relational patterns use `==``!=``<``>``<=``>=` to compare the matched value against a Constant.
+Relational patterns use `==`, `!=`, `<`, `>`, `<=`, `>=` to compare the matched value against a Constant.
 These are not general-purpose, the right-hand side must be a compile-time constant.
 
 ```dart
@@ -201,7 +205,7 @@ String categorize(int score) => switch (score) {
 ## Cast Patterns
 
 The cast pattern (`as`) performs a type cast and binds the result. This is the pattern-matching
-Equivalent of `as`But with the safety of a runtime check embedded in the pattern itself.
+Equivalent of `as`. But with the safety of a runtime check embedded in the pattern itself.
 
 ### Basic Cast Pattern
 
@@ -240,13 +244,13 @@ if (value case var s as String) {
 The difference matters. The type test pattern (`String s`) only matches if the value is already a
 `String`. The cast pattern (`var s as String`) attempts to cast, if the value is a subtype of
 `String` (which is impossible since `String` is sealed), it succeeds; otherwise it throws. In
-Practice, for sealed types like `String`They behave identically. The cast pattern becomes relevant
-With custom type hierarchies where implicit upcasts exist.
+Practice, for sealed types like `String`. They behave identically. The cast pattern becomes relevant
+with custom type hierarchies where implicit upcasts exist.
 
 ### Cast Pattern with Null Safety
 
 The cast pattern is the pattern equivalent of `as?` in other languages, except Dart's `as` throws
-On failure. The cast pattern will throw at runtime if the cast fails, just like `as`.
+on failure. The cast pattern will throw at runtime if the cast fails, just like `as`.
 
 ```dart
 // This throws if value is not a List&lt;int&gt;
@@ -324,7 +328,7 @@ if (name case var n!) {
 
 **Why use null-assert patterns**: They are useful in contexts where you have external knowledge that
 A value is non-null, but the type system cannot prove it. For example, after checking a condition
-That the analyzer cannot follow:
+that the analyzer cannot follow:
 
 ```dart
 void process(Map&lt;String, dynamic&gt; json) {
@@ -438,7 +442,7 @@ switch (value) {
 ```
 
 The `_` in a variable declaration context is special, it tells the compiler you intentionally do
-Not need the value. In a switch, `_` is the catch-all default case.
+not need the value. In a switch, `_` is the catch-all default case.
 
 ### Double Wildcard (`__`)
 
@@ -464,7 +468,7 @@ switch (record) {
 ```
 
 In practice, `_` as a wildcard in pattern context does not generate warnings. The `__` form exists
-For cases where the analyzer might be confused about intent. Use `_` unless you get a warning.
+for cases where the analyzer might be confused about intent. Use `_` unless you get a warning.
 
 ## Variable Patterns
 
@@ -823,7 +827,7 @@ String describe(Result&lt;int&gt; result) => switch (result) {
 ```
 
 The compiler enumerates all direct subtypes of the sealed class in the same library. If you miss
-One, you get a compile error. If you add a new subtype, every switch on the sealed class breaks at
+one, you get a compile error. If you add a new subtype, every switch on the sealed class breaks at
 Compile time, not at runtime.
 
 ### Why `default` is Discouraged
@@ -860,7 +864,7 @@ Lose compile-time safety.
 ## if-case
 
 The `if-case` construct allows pattern matching without a full switch statement. It is useful when
-You want to match a single pattern and handle the non-matching case with normal control flow.
+you want to match a single pattern and handle the non-matching case with normal control flow.
 
 ### Basic if-case
 
@@ -914,7 +918,7 @@ if (value case int n when n > 0) {
 ```
 
 The `when` guard is not part of the pattern, it is a separate boolean expression evaluated after
-The pattern matches. Variables bound by the pattern are available in the guard expression.
+the pattern matches. Variables bound by the pattern are available in the guard expression.
 
 ## For-in Patterns
 
@@ -1059,7 +1063,7 @@ class Secret {
 ```
 
 Object patterns use the object's **public API** (getters). They cannot access private fields, even
-From the same library. They access the getter, not the underlying field.
+from the same library. They access the getter, not the underlying field.
 
 ### 5. Rest Pattern in the Middle
 
@@ -1086,7 +1090,7 @@ if (maybeName case var name?) {
 ```
 
 The variable bound by a pattern is only in scope within the case body. The `else` branch does not
-Have access to it.
+have access to it.
 
 ### 7. Switch Expression vs Switch Statement
 
@@ -1170,16 +1174,6 @@ if (map case {1: var one}) {
 // if (map case {'1': var one}) { } // ERROR, String key for int-keyed map
 ```
 
-```mermaid
-flowchart TD
-    A[01 Pattern Matching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of pattern matching, including underlying theory, practical
@@ -1193,13 +1187,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

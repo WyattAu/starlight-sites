@@ -44,7 +44,7 @@ Language itself:
 ## The Physical Entry Point
 
 When the OS Loader (e.g., `ld.so` on Linux or `ntdll.dll` on Windows) loads a binary, it jumps to
-The address specified in the file header (ELF or PE). This address does **not** point to `main`.
+the address specified in the file header (ELF or PE). This address does **not** point to `main`.
 
 - **Linux (ELF):** Points to `_start`Provided by `crt1.o`.
 - **Windows (PE):** Points to `mainCRTStartup` (or `wmainCRTStartup`), provided by the MSVC Runtime.
@@ -61,7 +61,7 @@ readelf -h ./app | grep Entry
 ```
 
 On modern Linux with PIE (Position-Independent Executables), the entry point is a relative offset
-That the dynamic linker resolves at load time. The kernel sets the instruction pointer to this
+that the dynamic linker resolves at load time. The kernel sets the instruction pointer to this
 Address after mapping the binary's `PT_LOAD` segments into memory.
 
 ## The Startup Sequence
@@ -75,7 +75,7 @@ The full startup path on Linux (glibc) is:
 3. **`__libc_start_main` (in libc.so):** The main CRT initialization function. It:
 
 - Registers the program's `main` function as an `atexit` callback.
-- Calls `__libc_csu_init`Which walks the `.init_array` section.
+- Calls `__libc_csu_init`. Which walks the `.init_array` section.
 - **`.init_array` processing:** Each function pointer in `.init_array` is called. This is where C++
   global constructors execute.
 
@@ -100,7 +100,7 @@ __libc_start_main(main, argc, argv, init, fini, rtld_fini, stack_end):
 
 ### Detailed Stack Layout at `_start`
 
-When the kernel transfers control to `_start`The stack contains the program's execution Parameters,
+When the kernel transfers control to `_start`. The stack contains the program's execution Parameters,
 laid out by the kernel in a specific format defined by the System V ABI:
 
 ```
@@ -194,13 +194,13 @@ Duration is either ordered or unordered." For variables in different translation
 Classifies initialization as **unordered** unless the variable has a constant initializer or is an
 Inline variable.
 
-Formally, let $v_1$ be defined in $TU_1$ and $v_2$ be defined in $TU_2$Where $v_2$'s initializer
+Formally, let $v_1$ be defined in $TU_1$ and $v_2$ be defined in $TU_2$ Where $v_2$'s initializer
 Depends on $v_1$. The standard does not require $TU_1$'s initialization to complete before $TU_2$'s
 Initialization begins. The implementation is free to order them in any way, and this ordering may
 Change between compiler versions, link orders, or optimization levels.
 
 This is not merely an academic concern. In practice, the initialization order depends on the order
-In which object files appear in the linker's input, which is determined by the build system. A
+in which object files appear in the linker's input, which is determined by the build system. A
 Seemingly unrelated change to `CMakeLists.txt` (adding a new source file) can silently reorder the
 Linker input and cause a previously correct program to crash during startup.
 
@@ -242,7 +242,7 @@ Addresses in the `.init_array` section. The CRT iterates this array during start
 
 ## `atexit` and Destructors
 
-The CRT uses `atexit` to manage cleanup. When a C++ program returns from `main()`The following
+The CRT uses `atexit` to manage cleanup. When a C++ program returns from `main()`. The following
 Sequence runs:
 
 1. **`atexit` handlers:** Functions registered via `std::atexit()` are called in reverse
@@ -319,7 +319,7 @@ MSVC provides two CRT variants with significantly different behavior:
 - **Dynamic (`/MD`):** Links against `ucrtbase.dll` (Universal C Runtime) and `vcruntime140.dll`.
 - **Static (`/MT`):** Embeds the CRT into the executable.
 
-The MSVC startup calls `mainCRTStartup`Which initializes the heap, runs `.CRT$XCU` initializers, And
+The MSVC startup calls `mainCRTStartup`. Which initializes the heap, runs `.CRT$XCU` initializers, And
 calls `main`.
 
 ```cmd
@@ -345,8 +345,8 @@ Only a minimal subset of the language is available:
 
 - No `main()` required (a custom entry point may be used).
 - No dynamic memory allocation (no `new, delete, malloc`).
-- No exceptions (no `try`/`catch`No `throw`).
-- No RTTI (no `dynamic_cast`No `typeid`).
+- No exceptions (no `try`/`catch`. No `throw`).
+- No RTTI (no `dynamic_cast`. No `typeid`).
 - Only these standard library headers are required: `&lt;cstddef&gt;, &lt;cfloat&gt;`
   `&lt;climits&gt;, &lt;cstdalign&gt;, &lt;cstdarg&gt;, &lt;cstdbool&gt;, &lt;cstdlib&gt;` (only
   `abort, atexit, at_quick_exit, exit, quick_exit, _Exit`), `&lt;cstdint&gt;`
@@ -450,7 +450,7 @@ End immediately; the CRT must unwind the environment.
 <Aside type="caution">
 `std::terminate` vs `std::exit` If an exception escapes `main`Or an unjoinable
 
-`std::thread` is destroyed, the CRT calls `std::terminate`. This calls `std::abort`Which kills the
+`std::thread` is destroyed, the CRT calls `std::terminate`. This calls `std::abort`. Which kills the
 Process **without** running static destructors or file buffer flushing. This often results in
 Truncated logs or corrupted data files.
 </Aside>
@@ -459,12 +459,16 @@ Truncated logs or corrupted data files.
 
 Per [N4950 S18.5], the C++ standard provides three termination functions with distinct semantics:
 
+<div class="table-wrap">
+
 | Function          | `atexit` handlers | `at_quick_exit` handlers | Static destructors | Stream flush |
 | :---------------- | :---------------- | :----------------------- | :----------------- | :----------- |
 | `std::exit`       | Yes (reverse)     | No                       | Yes (reverse)      | Yes          |
 | `std::quick_exit` | No                | Yes (reverse)            | No                 | No           |
 | `std::_Exit`      | No                | No                       | No                 | No           |
 | `std::abort`      | No                | No                       | No                 | No           |
+
+</div>
 
 `std::quick_exit` was introduced in C++11 for scenarios where fast termination is needed (e.g.,
 Process restart in a supervised environment) and cleanup is handled externally. It is the
@@ -473,7 +477,7 @@ Recommended alternative to `abort` when you need to skip destructors intentional
 ## CRT Linkage Modes (Windows Specific)
 
 On Linux, the CRT is almost always linked dynamically (`glibc`). On Windows, MSVC offers a choice
-That profoundly affects architecture.
+that profoundly affects architecture.
 
 ### 1. Dynamic Linking (`/MD, /MDd`)
 
@@ -491,7 +495,7 @@ That profoundly affects architecture.
 
 ### The Heap Isolation Trap
 
-If `App.exe` is linked with `/MT` and `Lib.dll` is linked with `/MT`They essentially have **separate
+If `App.exe` is linked with `/MT` and `Lib.dll` is linked with `/MT`. They essentially have **separate
 Heaps**.
 
 - Allocating memory in `Lib.dll` and freeing it in `App.exe` causes a Heap Corruption crash.
@@ -599,7 +603,7 @@ LD_DEBUG=init ./app
 ```
 
 A common pitfall is using a global object from one DSO during the construction of a global object in
-Another DSO -- if the DSO ordering is wrong, the dependency may not yet be constructed. The
+another DSO -- if the DSO ordering is wrong, the dependency may not yet be constructed. The
 "construct on first use" pattern (magic statics) mitigates this by deferring initialization to first
 Access rather than load time.
 
@@ -620,7 +624,7 @@ int main(int argc, char* argv[]) \{ \}
 ```
 
 The return type of `main` must be `int`. If `main` terminates without a `return` statement, the CRT
-Implicitly returns `0` [N4950 S6.6.1 p5]. The return value is passed to `std::exit()`Which
+Implicitly returns `0` [N4950 S6.6.1 p5]. The return value is passed to `std::exit()`. Which
 Translates it to the process exit status:
 
 - `0` indicates success.
@@ -655,12 +659,16 @@ Allocation mechanism ( zeroed pages from the page cache, but this is not guarant
 The CRT initializes the heap allocator before any user code runs. The heap implementation varies by
 CRT:
 
+<div class="table-wrap">
+
 | CRT          | Heap Implementation     | Backing System Calls                       |
 | :----------- | :---------------------- | :----------------------------------------- |
 | **glibc**    | ptmalloc2 (malloc/free) | `brk` (small), `mmap` (large, &gt; 128 KB) |
 | **musl**     | oom-safe malloc         | `mmap` with `MAP_ANONYMOUS`                |
 | **MSVC**     | Low-fragmentation heap  | `VirtualAlloc` / `HeapAlloc`               |
 | **jemalloc** | Arena-based allocator   | `mmap` / `sbrk`                            |
+
+</div>
 
 The heap is initialized during `__libc_start_main` (glibc) or `mainCRTStartup` (MSVC) before the
 `.init_array` processing. This ensures that global constructors can safely use `new`/`malloc`.
@@ -694,7 +702,7 @@ void operator delete(void* ptr) noexcept \{
 ```
 
 Per [N4950 S17.7.3], replacing the global `operator new` is allowed but must be done consistently
-Across all TUs in the program. If one TU replaces `operator new` and another does not, the ODR is
+across all TUs in the program. If one TU replaces `operator new` and another does not, the ODR is
 Violated and behavior is undefined. This is because `operator new` has external linkage and the
 Linker resolves it to a single definition.
 
@@ -705,12 +713,12 @@ Delivered (e.g., `SIGSEGV, SIGFPE`), the CRT's signal handler may:
 
 1. **Translate to C++ exception:** Some CRTs translate signals like `SIGFPE` (divide by zero) into
    C++ exceptions, allowing `try`/`catch` to handle hardware faults.
-2. **Call the registered handler:** If the program registered a handler via `std::signal()`The CRT
+2. **Call the registered handler:** If the program registered a handler via `std::signal()`. The CRT
    invokes it.
 3. **Default action:** If no handler is registered, the default action ( termination) is taken.
 
 On Itanium ABI platforms (Linux, macOS), the CRT installs a signal handler during startup that uses
-The `.eh_frame` section to unwind the stack when an exception is thrown. The unwinder (`_Unwind_*`
+the `.eh_frame` section to unwind the stack when an exception is thrown. The unwinder (`_Unwind_*`
 Functions) is part of the CRT, not the compiler.
 
 ## Environment Variables and the CRT
@@ -745,16 +753,6 @@ Is a common extension but not standard C++. Portable code should use `std::geten
 - [Binary Module Interfaces (BMI)](/compilation_model/2_modules/2_bmi/)
 - [Header Units](/compilation_model/2_modules/3_header_unit/)
 
-```mermaid
-flowchart TD
-    A[4_C_Runtimex] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to the c runtime (crt), including
@@ -767,9 +765,6 @@ key principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Worked Examples
 

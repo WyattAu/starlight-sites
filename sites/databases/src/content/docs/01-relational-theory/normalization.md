@@ -29,17 +29,21 @@ Functional dependencies on the relation.
 The core idea is simple: every piece of data should live in exactly one place. If the same fact
 Appears in multiple rows, updating that fact requires updating every row that contains it. If you
 Miss one, your data is inconsistent. Normalization gives you a principled, mathematical framework
-For avoiding this class of problems.
+for avoiding this class of problems.
 
 ### Why Normalization Matters
 
 Unnormalized schemas suffer from three categories of anomalies:
+
+<div class="table-wrap">
 
 | Anomaly Type | Description                                            | Concrete Example                                                                 |
 | ------------ | ------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | Insertion    | Cannot add a fact without adding unrelated facts       | Cannot record a new department until at least one employee is assigned to it     |
 | Deletion     | Deleting one fact unintentionally removes another      | Deleting the last employee in a department also removes the department"s address |
 | Update       | Updating a single fact requires touching multiple rows | Renaming a department requires updating every employee row in that department    |
+
+</div>
 
 These are not theoretical concerns. In production systems with millions of rows, an update anomaly
 Means a single `UPDATE` statement that touches 50,000 rows, requires a table lock, and risks partial
@@ -49,7 +53,7 @@ Application logic to keep data consistent.
 ### Normalization vs Denormalization
 
 Normalization and denormalization are not opposites in the sense that one is "right" and the other
-Is "wrong." They are engineering tradeoffs:
+is "wrong." They are engineering tradeoffs:
 
 ```text
 Normalized schema:
@@ -76,7 +80,9 @@ Maintenance debt that compounds over time.
 
 Each normal form is a strict subset of the one below it:
 
-$$1NF \supset 2NF \supset 3NF \supset \mathrm{BCNF \supset 4NF \supset 5NF$$
+$$
+1NF \supset 2NF \supset 3NF \supset \mathrm{BCNF \supset 4NF \supset 5NF
+$$
 
 A relation in BCNF is automatically in 3NF, 2NF, and 1NF. The higher the normal form, the less
 Redundancy, but the more relations you need (and the more JOINs you must perform).
@@ -89,12 +95,14 @@ Discussing any normal form, you must understand FDs thoroughly.
 ### Formal Definition
 
 **Definition.** Given a relation schema $R$ and two attribute sets $X \subseteq R$ and
-$Y \subseteq R$A functional dependency $X \rightarrow Y$ holds on $R$ if and only if, for every Pair
+$Y \subseteq R$ A functional dependency $X \rightarrow Y$ holds on $R$ if and only if, for every Pair
 of tuples $t_1$ and $t_2$ in any legal instance of $R$:
 
-$$t_1[X] = t_2[X] \implies t_1[Y] = t_2[Y]$$
+$$
+t_1[X] = t_2[X] \implies t_1[Y] = t_2[Y]
+$$
 
-In plain language: if two tuples agree on all attributes in $X$They must also agree on all
+In plain language: if two tuples agree on all attributes in $X$ They must also agree on all
 Attributes in $Y$. $X$ is called the **determinant** and $Y$ is called the **dependent**.
 
 ### Trivial vs Non-trivial Dependencies
@@ -139,7 +147,7 @@ Transitive dependency: product_id -> category_id -> category_name
 Armstrong's axioms are a sound and complete set of inference rules for deriving all functional
 Dependencies that are logically implied by a given set $F$.
 
-**Definition.** Given a set of functional dependencies $F$ on a relation schema $R$The three Axioms
+**Definition.** Given a set of functional dependencies $F$ on a relation schema $R$ The three Axioms
 are:
 
 1. **Reflexivity (A1):** If $Y \subseteq X$ Then $X \rightarrow Y$.
@@ -154,12 +162,16 @@ Dependency can be derived from them).
 The following rules are not axioms but can be proven from Armstrong's three axioms. They are used
 Constantly in normalization proofs:
 
+<div class="table-wrap">
+
 | Rule               | Statement                                                          | Proof Strategy              |
 | ------------------ | ------------------------------------------------------------------ | --------------------------- |
 | Union              | If $X \rightarrow Y$ and $X \rightarrow Z$ Then $X \rightarrow YZ$  | Augmentation + Transitivity |
 | Decomposition      | If $X \rightarrow YZ$ Then $X \rightarrow Y$ and $X \rightarrow Z$  | Reflexivity + Transitivity  |
 | Pseudotransitivity | If $X \rightarrow Y$ and $YW \rightarrow Z$ Then $XW \rightarrow Z$ | Augmentation + Transitivity |
 | Composition        | If $X \rightarrow Y$ and $W \rightarrow Z$ Then $XW \rightarrow YZ$ | Augmentation + Union        |
+
+</div>
 
 Proof of the Union rule:
 
@@ -177,7 +189,7 @@ $$
 ### Attribute Closure
 
 **Definition.** The **closure** of an attribute set $X$ under a set of functional dependencies $F$
-Denoted $X^+$Is the largest attribute set such that $X \rightarrow X^+$ can be derived from $F$
+Denoted $X^+$ Is the largest attribute set such that $X \rightarrow X^+$ can be derived from $F$
 Using Armstrong's axioms.
 
 Algorithm to compute $X^+$:
@@ -195,7 +207,7 @@ function attributeClosure(X, F):
 **Key property:** $X \rightarrow Y$ is logically implied by $F$ if and only if $Y \subseteq X^+$.
 
 This algorithm is used for two critical tasks: determining whether an attribute set is a superkey
-($X^+ = R$I.e., the closure equals the entire relation schema), and determining whether a specific
+($X^+ = R$ I.e., the closure equals the entire relation schema), and determining whether a specific
 FD $X \rightarrow Y$ is implied by $F$ (check whether $Y \subseteq X^+$).
 
 ```text
@@ -220,12 +232,12 @@ Compute AC⁺:
 
 ### Closure of a Set of FDs
 
-**Definition.** The closure of a set of functional dependencies $F$Denoted $F^+$Is the set of All
+**Definition.** The closure of a set of functional dependencies $F$ Denoted $F^+$ Is the set of All
 FDs that can be derived from $F$ using Armstrong's axioms.
 
 $F^+$ can be exponentially large (up to $2^{2^n}$ FDs for $n$ attributes), so you never compute it
 Explicitly. Instead, you use the attribute closure algorithm to answer specific questions about
-Whether a given FD is in $F^+$.
+whether a given FD is in $F^+$.
 
 ### Candidate Keys from FDs
 
@@ -350,14 +362,14 @@ Correct.
 
 **Definition.** A relation $R$ is in first normal form (1NF) if and only if every attribute of every
 Tuple contains an atomic (indivisible) value. Equivalently, the domain of every attribute contains
-Only atomic values, and there are no repeating groups.
+only atomic values, and there are no repeating groups.
 
 1NF requires:
 
 - Every cell contains exactly one value (no lists, arrays, sets, or nested relations)
 - Each row is uniquely identifiable (there must be a primary key)
 - All entries in a column are of the same type (same domain)
-- No repeating columns (e.g., `phone1``phone2``phone3` -- these violate the spirit of 1NF)
+- No repeating columns (e.g., `phone1`, `phone2`, `phone3` -- these violate the spirit of 1NF)
 
 ```text
 Violates 1NF (repeating group):
@@ -401,7 +413,7 @@ Dependency** exists when a non-prime attribute depends on only a proper subset o
 
 :::caution
 Attributes). If every candidate key of $R$ is a single attribute, then $R$ is automatically in 2NF
-Whenever it is in 1NF, because there is no proper subset of a single-attribute key.
+whenever it is in 1NF, because there is no proper subset of a single-attribute key.
 
 ```text
 Relation: OrderItem(order_id, product_id, quantity, product_name, unit_price)
@@ -487,12 +499,16 @@ Non-trivial functional dependency $X \rightarrow Y$ that holds in $R$, $X$ is a 
 
 Compare with 3NF:
 
+<div class="table-wrap">
+
 | Property                        | 3NF                                                                 | BCNF                                                        |
 | ------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Condition for $X \rightarrow A$ | $X$ is a superkey, OR $A$ is prime                                  | $X$ is a superkey (no exception)                            |
 | Strictness                      | Less strict                                                         | Strictest normal form based on FDs alone                    |
 | Always exists                   | Yes, dependency-preserving and lossless decomposition always exists | Not always; may require sacrificing dependency preservation |
 | Practical recommendation        | Default target for OLTP schemas                                     | Apply when possible; fall back to 3NF when necessary        |
+
+</div>
 
 BCNF removes the "prime attribute" exception from 3NF. Every determinant must be a superkey, full
 Stop.
@@ -551,11 +567,11 @@ Logic, triggers, or CHECK constraints.
 Multivalued dependency $X \twoheadrightarrow Y$ that holds in $R$, $X$ is a superkey of $R$.
 
 **Definition.** A multivalued dependency (MVD) $X \twoheadrightarrow Y$ holds in $R$ if and only if,
-For every pair of tuples $t_1$ and $t_2$ in $R$ that agree on $X$There exists a tuple $t_3$ in $R$
-That agrees with $t_1$ on $X$With $t_1$ on $Y$ And with $t_2$ on $R - X - Y$.
+For every pair of tuples $t_1$ and $t_2$ in $R$ that agree on $X$ There exists a tuple $t_3$ in $R$
+that agrees with $t_1$ on $X$ With $t_1$ on $Y$ And with $t_2$ on $R - X - Y$.
 
 A multivalued dependency $X \twoheadrightarrow Y$ means that the values of $Y$ are independent of
-The values of $R - X - Y$Given a fixed value of $X$. Every FD $X \rightarrow Y$ implies the MVD
+the values of $R - X - Y$ Given a fixed value of $X$. Every FD $X \rightarrow Y$ implies the MVD
 $X \twoheadrightarrow Y$ But not every MVD implies an FD.
 
 ```text
@@ -596,13 +612,15 @@ another), you likely have a 4NF violation.
 ### Fifth Normal Form (5NF) / Project-Join Normal Form (PJNF)
 
 **Definition.** A relation $R$ is in fifth normal form (5NF) if and only if, for every non-trivial
-Join dependency $JD(R_1, R_2, \ldots, R_n)$ that holds in $R$Each $R_i$ is a superkey of $R$.
+Join dependency $JD(R_1, R_2, \ldots, R_n)$ that holds in $R$ Each $R_i$ is a superkey of $R$.
 
 A join dependency generalizes the concept of lossless-join decomposition to $n$ relations. A
 Relation $R$ satisfies a join dependency $JD(R_1, R_2, \ldots, R_n)$ if and only if $R$ is equal to
-The natural join of its projections on $R_1, R_2, \ldots, R_n$:
+the natural join of its projections on $R_1, R_2, \ldots, R_n$:
 
-$$R = \pi_{R_1}(R) \bowtie \pi_{R_2}(R) \bowtie \ldots \bowtie \pi_{R_n}(R)$$
+$$
+R = \pi_{R_1}(R) \bowtie \pi_{R_2}(R) \bowtie \ldots \bowtie \pi_{R_n}(R)
+$$
 
 5NF violations are extremely rare. They arise in ternary (or higher-arity) relationships where the
 Constraint is inherently multi-way and cannot be decomposed into binary relationships without losing
@@ -647,6 +665,8 @@ Join SP ⋈ SJ ⋈ PJ:
 
 ### Normal Form Summary
 
+<div class="table-wrap">
+
 | Normal Form | Eliminates                                                      | Condition                                                         | Practical Relevance                                        |
 | ----------- | --------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- |
 | 1NF         | Repeating groups, non-atomic values                             | Every attribute is atomic                                         | Mandatory for any relational database                      |
@@ -655,6 +675,8 @@ Join SP ⋈ SJ ⋈ PJ:
 | BCNF        | Determinants that are not superkeys (prime attribute exception) | For every non-trivial $X \rightarrow Y$: $X$ is a superkey        | Apply when possible; may sacrifice dependency preservation |
 | 4NF         | Multi-valued dependencies                                       | For every non-trivial $X \twoheadrightarrow Y$: $X$ is a superkey | Rare; occurs with independent multi-valued attributes      |
 | 5NF         | Join dependencies not implied by candidate keys                 | For every non-trivial JD: each component is a superkey            | Extremely rare; mostly theoretical                         |
+
+</div>
 
 ## Normalization Examples
 
@@ -834,7 +856,7 @@ Dependency-preserving: both FDs are checkable on individual relations.
 ## Decomposition
 
 Decomposition is the mechanism by which normalization is achieved: you replace a single relation
-With two or more smaller relations. Not every decomposition is correct. A decomposition must satisfy
+with two or more smaller relations. Not every decomposition is correct. A decomposition must satisfy
 Two properties to be valid.
 
 ### Lossless-Join Decomposition
@@ -842,7 +864,9 @@ Two properties to be valid.
 **Definition.** A decomposition of relation $R$ into $R_1$ and $R_2$ is a lossless-join
 Decomposition if and only if, for every legal instance of $R$:
 
-$$R = R_1 \bowtie R_2$$
+$$
+R = R_1 \bowtie R_2
+$$
 
 That is, joining the decomposed relations produces exactly the original relation, with no spurious
 Tuples and no missing tuples.
@@ -850,9 +874,13 @@ Tuples and no missing tuples.
 **Theorem.** A decomposition of $R$ into $R_1$ and $R_2$ is lossless if and only if at least one of
 The following holds:
 
-$$R_1 \cap R_2 \rightarrow R_1$$
+$$
+R_1 \cap R_2 \rightarrow R_1
+$$
 
-$$R_1 \cap R_2 \rightarrow R_2$$
+$$
+R_1 \cap R_2 \rightarrow R_2
+$$
 
 In words: the common attributes must form a superkey for at least one of the decomposed relations.
 
@@ -895,18 +923,22 @@ Each intermediate join is lossless.
 
 **Definition.** A decomposition of $R$ into $R_1, R_2, \ldots, R_n$ is dependency-preserving if and
 Only if, for every functional dependency $X \rightarrow Y$ in the closure of $F$ (the original set
-Of FDs), $X \cup Y \subseteq R_i$ for some $i$. Equivalently, the union of the restrictions of $F$
-To each $R_i$ is logically equivalent to $F$:
+of FDs), $X \cup Y \subseteq R_i$ for some $i$. Equivalently, the union of the restrictions of $F$
+to each $R_i$ is logically equivalent to $F$:
 
-$$(F_{R_1} \cup F_{R_2} \cup \ldots \cup F_{R_n})^+ = F^+$$
+$$
+(F_{R_1} \cup F_{R_2} \cup \ldots \cup F_{R_n})^+ = F^+
+$$
 
 In plain language: every functional dependency from the original relation can be verified by
 Examining a single decomposed relation. You do not need to join the relations back together to check
-The constraint.
+the constraint.
 
 ### BCNF vs 3NF Decomposition Tradeoff
 
 This is the central practical tension in normalization theory:
+
+<div class="table-wrap">
 
 | Property              | 3NF Decomposition | BCNF Decomposition    |
 | --------------------- | ----------------- | --------------------- |
@@ -914,10 +946,12 @@ This is the central practical tension in normalization theory:
 | Dependency-preserving | Always achievable | NOT always achievable |
 | Redundancy            | Possible (minor)  | None                  |
 
-**Theorem.** For every relation $R$ with a set of FDs $F$There exists a decomposition of $R$ into
+</div>
+
+**Theorem.** For every relation $R$ with a set of FDs $F$ There exists a decomposition of $R$ into
 3NF that is both lossless and dependency-preserving.
 
-**Theorem.** For every relation $R$ with a set of FDs $F$There exists a decomposition of $R$ into
+**Theorem.** For every relation $R$ with a set of FDs $F$ There exists a decomposition of $R$ into
 BCNF that is lossless, but such a decomposition may NOT be dependency-preserving.
 
 ```text
@@ -1029,7 +1063,7 @@ With surrogate key:
 
 :::caution
 Violations (transitive dependencies) and BCNF violations can still occur. You still need to identify
-And model functional dependencies correctly.
+and model functional dependencies correctly.
 
 ### Normalization in Application Development
 
@@ -1146,6 +1180,8 @@ REFRESH MATERIALIZED VIEW order_summary;
 
 ### Denormalization Tradeoffs
 
+<div class="table-wrap">
+
 | Tradeoff             | Impact                                                                            |
 | -------------------- | --------------------------------------------------------------------------------- |
 | Write amplification  | A single logical update may require updating multiple rows across multiple tables |
@@ -1153,6 +1189,8 @@ REFRESH MATERIALIZED VIEW order_summary;
 | Storage cost         | Duplicated data consumes more disk space ( negligible with modern storage)        |
 | Query speed          | Fewer JOINs, simpler queries, potentially covering indexes                        |
 | Complexity           | More code to maintain, more failure modes to test                                 |
+
+</div>
 :::
 
 :::caution
@@ -1186,7 +1224,7 @@ FDs:
 
 **Problem:** You cannot add a new course until at least one student enrolls. If a new course
 "Advanced Quantum Computing" (CS501) is created but has no students yet, there is no row to store
-The course information.
+the course information.
 
 **Problem:** You cannot add a new instructor until they are assigned to a course. If Prof Chen is
 Hired but not yet assigned a course, there is nowhere to record `instructor_name` and
@@ -1224,7 +1262,7 @@ Course, Instructor, and Department data persist in their own tables.
 
 **Problem:** The Computer Science department moves from Building A to Building B. With the
 Unnormalized schema, you must update `dept_building` in every row that has `department = 'CS'`. If
-There are 5,000 enrollments in CS courses, that is 5,000 rows to update. If the UPDATE statement
+there are 5,000 enrollments in CS courses, that is 5,000 rows to update. If the UPDATE statement
 Fails partway through (or if someone updates only some rows), the database is inconsistent: some
 Rows say Building A, others say Building B.
 
@@ -1694,14 +1732,7 @@ flowchart TD
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

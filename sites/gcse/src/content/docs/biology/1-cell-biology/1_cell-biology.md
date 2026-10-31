@@ -38,9 +38,11 @@ Cell biology is the study of **the fundamental unit of life**. The key insight i
 
 All living organisms are made of cells. This is the first principle of cell theory, proposed by
 Schleiden and Schwann in the 1830s and extended by Virchow in 1855. Animal and plant cells share
-Many structures but have key differences. Understanding these differences is fundamental: they
-Explain why plants can stand upright without a skeleton, why only plant cells can photosynthesise,
+many structures but have key differences. Understanding these differences is fundamental: they
+explain why plants can stand upright without a skeleton, why only plant cells can photosynthesise,
 And why plant cells have a fixed, rectangular shape while animal cells are flexible and irregular.
+
+<div class="table-wrap">
 
 | Structure         | Function                                                      | Plant/Animal            |
 | ----------------- | ------------------------------------------------------------- | ----------------------- |
@@ -53,6 +55,8 @@ And why plant cells have a fixed, rectangular shape while animal cells are flexi
 | Permanent vacuole | Contains cell sap; helps maintain cell shape                  | Plant only              |
 | Chloroplasts      | Site of photosynthesis; contain chlorophyll                   | Plant only (some cells) |
 
+</div>
+
 **The cell membrane as a gatekeeper.** The cell membrane is not a solid barrier; it is a dynamic
 Structure composed of a phospholipid bilayer with embedded proteins. Small, non-polar molecules
 (such as $\mathrm{O_2$ and $\mathrm{CO_2$) can diffuse directly through the lipid bilayer. Larger Or
@@ -62,49 +66,49 @@ Permeability is essential for maintaining the internal conditions of the cell (h
 **The nucleus as the control centre.** The nucleus contains the cell"s DNA, which carries the
 Instructions for making every protein the cell needs. DNA is organised into structures called
 Chromosomes, which become visible as distinct threads during cell division. When a cell needs to
-Make a particular protein, the relevant section of DNA (the gene) is "read" and a copy is made in
-The form of messenger RNA (mRNA). The mRNA leaves the nucleus through nuclear pores and travels to
-The ribosomes, where the protein is assembled.
+make a particular protein, the relevant section of DNA (the gene) is "read" and a copy is made in
+the form of messenger RNA (mRNA). The mRNA leaves the nucleus through nuclear pores and travels to
+the ribosomes, where the protein is assembled.
 
 **Mitochondria as the powerhouses.** Mitochondria are the sites of aerobic respiration, where
 Glucose is broken down using oxygen to release energy in the form of ATP. Cells that have high
 Energy demands (muscle cells, liver cells, sperm cells) contain large numbers of mitochondria.
 Mitochondria have a double membrane: the outer membrane is smooth, while the inner membrane is
-Folded into projections called cristae. The cristae increase the surface area available for the
-Chemical reactions of respiration, increasing the rate of ATP production.
+folded into projections called cristae. The cristae increase the surface area available for the
+chemical reactions of respiration, increasing the rate of ATP production.
 
 **Ribosomes as the protein factories.** Ribosomes are the sites of protein synthesis. They read the
 MRNA code and assemble amino acids in the correct order to make proteins. Ribosomes are found free
-In the cytoplasm (making proteins for use within the cell) and attached to the rough endoplasmic
+in the cytoplasm (making proteins for use within the cell) and attached to the rough endoplasmic
 Reticulum (making proteins for export or insertion into the cell membrane).
 
 **Chloroplasts as the solar panels.** Chloroplasts are the sites of photosynthesis in plant cells.
 They contain the green pigment chlorophyll, which absorbs light energy (mainly red and blue
 Wavelengths; green light is reflected, which is why plants appear green). Chloroplasts have a double
 Membrane and contain internal membranes called thylakoids, which are stacked into grana. The
-Light-dependent reactions of photosynthesis occur on the thylakoid membranes, while the
-Light-independent reactions (Calvin cycle) occur in the stroma (the fluid surrounding the
-Thylakoids). Not all plant cells contain chloroplasts -- root cells, for example, are Underground
+light-dependent reactions of photosynthesis occur on the thylakoid membranes, while the
+light-independent reactions (Calvin cycle) occur in the stroma (the fluid surrounding the
+thylakoids). Not all plant cells contain chloroplasts -- root cells, for example, are Underground
 where there is no light.
 
 **The cell wall as structural support.** The plant cell wall is made of cellulose, a tough, fibrous
 Polysaccharide. It provides mechanical strength and rigidity, allowing plant cells to maintain a
-Fixed shape. Unlike the cell membrane, the cell wall is fully permeable to small molecules. The cell
+fixed shape. Unlike the cell membrane, the cell wall is fully permeable to small molecules. The cell
 Wall also prevents plant cells from bursting when they take in water by osmosis.
 
 **The permanent vacuole as a hydrostatic skeleton.** The permanent vacuole is a large, central
 Compartment filled with cell sap (a solution of sugars, salts, and pigments). It pushes the
-Cytoplasm against the cell wall, creating turgor pressure. This pressure keeps the cell firm and
-Provides structural support to the plant. When a plant is well-watered, all its cells are turgid and
-The plant stands upright. When the plant is dehydrated, the cells lose water, become flaccid, and
-The plant wilts.
+cytoplasm against the cell wall, creating turgor pressure. This pressure keeps the cell firm and
+provides structural support to the plant. When a plant is well-watered, all its cells are turgid and
+the plant stands upright. When the plant is dehydrated, the cells lose water, become flaccid, and
+the plant wilts.
 
 ### 1.2 Eukaryotic and Prokaryotic Cells
 
 **Eukaryotic cells** (animals, plants, fungi) have a membrane-bound nucleus and membrane-bound
 Organelles (mitochondria, chloroplasts, endoplasmic reticulum, Golgi apparatus). The word
 "eukaryotic" literally means "true kernel," referring to the presence of a true nucleus. The DNA in
-Eukaryotic cells is linear and organised into multiple chromosomes.
+eukaryotic cells is linear and organised into multiple chromosomes.
 
 **Prokaryotic cells** (bacteria and archaea) are smaller and simpler:
 
@@ -122,14 +126,16 @@ eukaryotic cells are 10--100 micrometres. The smaller size of prokaryotes means 
 surface-area-to-volume ratio, which is sufficient because they lack internal organelles and Rely on
 diffusion for transport of materials. Eukaryotes, being larger, need internal compartments
 (organelles) to compartmentalise biochemical reactions and maintain locally high concentrations of
-Reactants.
+reactants.
 
 A practical consequence of this size difference is that prokaryotes can reproduce much faster than
-Eukaryotes. Under ideal conditions, some bacteria can divide every 20 minutes, whereas eukaryotic
+eukaryotes. Under ideal conditions, some bacteria can divide every 20 minutes, whereas eukaryotic
 Cells take hours to divide. This rapid reproduction is why bacteria can quickly develop Resistance
 to antibiotics and why bacterial infections can spread so rapidly.
 
 **Detailed comparison:**
+
+<div class="table-wrap">
 
 | Feature                   | Eukaryotic cells                    | Prokaryotic cells         |
 | ------------------------- | ----------------------------------- | ------------------------- |
@@ -138,16 +144,20 @@ to antibiotics and why bacterial infections can spread so rapidly.
 | Membrane-bound organelles | Yes (mitochondria, ER, Golgi, etc.) | No                        |
 | Ribosomes                 | 80S (larger)                        | 70S (smaller)             |
 | Cell wall                 | Cellulose (plants), chitin (fungi)  | Peptidoglycan             |
-| Size                      | 10--100 $\mu$M                      | 1--10 $\mu$M              |
+| Size                      | 10--100 $\mu$ M                      | 1--10 $\mu$ M              |
 | Reproduction              | Mitosis, meiosis                    | Binary fission            |
 | Plasmids                  | No                                  | Yes                       |
 | Examples                  | Animals, plants, fungi, protists    | Bacteria, archaea         |
 
+</div>
+
 ### 1.3 Cell Specialisation
 
 Cells are specialised to perform specific functions. Every specialisation you encounter can be
-Understood by asking one question: what structural feature increases the rate of whatever process
-The cell needs to carry out?
+understood by asking one question: what structural feature increases the rate of whatever process
+the cell needs to carry out?
+
+<div class="table-wrap">
 
 | Cell Type        | Specialisation                                   | Function                     |
 | ---------------- | ------------------------------------------------ | ---------------------------- |
@@ -161,34 +171,36 @@ The cell needs to carry out?
 | Egg cell         | Large, contains food store, cytoplasm            | Fertilisation                |
 | Ciliated cell    | Has cilia that beat to move mucus                | Remove debris from airways   |
 
+</div>
+
 **Building intuition for specialisation.** The red blood cell is a particularly elegant example. Its
 Biconcave disc shape maximises surface area for oxygen diffusion. It has no nucleus -- this might
 Seem like a disadvantage, but it creates more space inside the cell for haemoglobin, the protein
-That carries oxygen. The trade-off is that red blood cells cannot divide or repair themselves; they
-Have a limited lifespan of about 120 days and are continuously replaced in bone marrow. At any given
+that carries oxygen. The trade-off is that red blood cells cannot divide or repair themselves; they
+have a limited lifespan of about 120 days and are continuously replaced in bone marrow. At any given
 Moment, you have approximately 25 trillion red blood cells circulating in your body, and
-Approximately 2.4 million new ones are produced every second.
+approximately 2.4 million new ones are produced every second.
 
 The sperm cell illustrates another principle: energy supply. The many mitochondria in the midpiece
 Provide the ATP needed for the tail (flagellum) to beat and propel the sperm towards the egg. The
-Acrosome at the tip contains digestive enzymes that break down the outer layers of the egg, allowing
-The sperm to penetrate. Only a few hundred sperm out of millions will reach the egg, and normally
-Only one will fertilise it.
+acrosome at the tip contains digestive enzymes that break down the outer layers of the egg, allowing
+the sperm to penetrate. Only a few hundred sperm out of millions will reach the egg, and normally
+only one will fertilise it.
 
 The nerve cell (neurone) is adapted for rapid, long-distance communication. Its long axon (which can
-Be up to 1 metre in the sciatic nerve) allows electrical impulses to travel quickly over long
+be up to 1 metre in the sciatic nerve) allows electrical impulses to travel quickly over long
 Distances. The myelin sheath (an insulating layer of fat) further speeds up transmission by allowing
-The impulse to "jump" between gaps in the myelin (nodes of Ranvier). Branched dendrites at the
-Receiving end connect to many other neurones, allowing complex networks of communication.
+the impulse to "jump" between gaps in the myelin (nodes of Ranvier). Branched dendrites at the
+receiving end connect to many other neurones, allowing complex networks of communication.
 
 The root hair cell is an excellent example of how surface area relates to function. The elongated
 Hair-like projection massively increases the surface area in contact with the soil water, allowing
-More efficient absorption of water and mineral ions. The root hair cell also has many mitochondria
-To supply ATP for the active transport of mineral ions from the soil (where their concentration is
-Often very low) into the cell.
+more efficient absorption of water and mineral ions. The root hair cell also has many mitochondria
+to supply ATP for the active transport of mineral ions from the soil (where their concentration is
+often very low) into the cell.
 
 The egg cell (ovum) is the largest human cell, with a diameter of approximately 0.1 mm (visible to
-The naked eye). It contains a large cytoplasm with stores of nutrients (lipid droplets and protein
+the naked eye). It contains a large cytoplasm with stores of nutrients (lipid droplets and protein
 Granules) to sustain the early embryo before it implants in the uterus and establishes a blood
 Supply from the mother.
 
@@ -205,32 +217,42 @@ Supply from the mother.
 
 **Magnification calculation:**
 
-$$\mathrm{Magnification = \frac{\mathrm{image size}{\mathrm{actual size}$$
+$$
+\mathrm{Magnification = \frac{\mathrm{image size}{\mathrm{actual size}
+$$
 
 This equation can be rearranged to find any of the three variables:
 
-$$\mathrm{Actual size = \frac{\mathrm{image size}{\mathrm{magnification}$$
+$$
+\mathrm{Actual size = \frac{\mathrm{image size}{\mathrm{magnification}
+$$
 
-$$\mathrm{Image size = \mathrm{actual size \times \mathrm{magnification$$
+$$
+\mathrm{Image size = \mathrm{actual size \times \mathrm{magnification
+$$
 
 A useful mnemonic: the **MIA** triangle (Magnification = Image / Actual).
 
 **Worked Example.** A cell is observed to be 4.2 mm in a micrograph. The actual size is 0.07 mm.
 Calculate the magnification.
 
-$$\mathrm{Magnification = \frac{4.2}{0.07} = 60$$
+$$
+\mathrm{Magnification = \frac{4.2}{0.07} = 60
+$$
 
 **Unit conversion tip.** You will frequently need to convert between millimetres (mm) and
-Micrometres ($\mu$M). Remember: $1 \mathrm{ mm = 1000 \mathrm{ \mu m$.
+Micrometres ($\mu$ M). Remember: $1 \mathrm{ mm = 1000 \mathrm{ \mu m$.
 
 **Worked Example.** A cell measures 8.5 mm in a micrograph taken at magnification $\times 400$. Find
 The actual size in micrometres.
 
-$$\mathrm{Actual size = \frac{8.5}{400} = 0.02125 \mathrm{ mm = 21.25 \mathrm{ \mu m$$
+$$
+\mathrm{Actual size = \frac{8.5}{400} = 0.02125 \mathrm{ mm = 21.25 \mathrm{ \mu m
+$$
 
 **Staining.** Most biological specimens are colourless and transparent, making them difficult to see
 Under a microscope. Stains such as iodine (which stains starch and nuclei), methylene blue (which
-Stains nuclei and DNA), and eosin (which stains cytoplasm) add colour and contrast. Different stains
+stains nuclei and DNA), and eosin (which stains cytoplasm) add colour and contrast. Different stains
 Bind to different cellular components, allowing specific structures to be identified.
 
 **Safety precautions when using a microscope:**
@@ -285,8 +307,8 @@ Questions test whether you know that DNA replication occurs during interphase, n
 
 **Why chromosomes must line up at the metaphase plate.** This is a quality control step. If
 Chromosomes did not line up correctly, one daughter cell might receive two copies of a chromosome
-While the other receives none. This would be lethal or cause serious genetic disorders. The cell has
-Checkpoint mechanisms that delay anaphase until all chromosomes are correctly attached to spindle
+while the other receives none. This would be lethal or cause serious genetic disorders. The cell has
+checkpoint mechanisms that delay anaphase until all chromosomes are correctly attached to spindle
 Fibres.
 
 ### 2.2 The Importance of Mitosis
@@ -308,13 +330,15 @@ Fibres.
 
 **Stem cells** are unspecialised cells that can differentiate into specialised cell types. They are
 The biological equivalent of blank templates: they carry the complete set of genetic instructions
-But have not yet activated the specific subset of genes that defines a specialised cell.
+but have not yet activated the specific subset of genes that defines a specialised cell.
 
 **How differentiation works.** Every cell in your body contains the same DNA (with minor exceptions
 Such as red blood cells, which have no DNA at all). The difference between a nerve cell and a muscle
 Cell is not the DNA but which genes are switched on (expressed) and which are switched off. During
-Differentiation, certain genes are permanently switched off. Once a cell has differentiated, it
+differentiation, certain genes are permanently switched off. Once a cell has differentiated, it
 cannot change back (this is called being "terminally differentiated").
+
+<div class="table-wrap">
 
 | Type                 | Source                               | Potential                                         |
 | -------------------- | ------------------------------------ | ------------------------------------------------- |
@@ -322,10 +346,12 @@ cannot change back (this is called being "terminally differentiated").
 | Adult stem cells     | Bone marrow, brain, etc.             | Can become a limited range of cell types          |
 | Plant stem cells     | Meristems (tips of shoots and roots) | Can become any plant cell type                    |
 
+</div>
+
 **Totipotent vs. Pluripotent vs. Multipotent.** A totipotent stem cell can become any cell type,
 Including placental cells. Only the zygote and the first few cells of the early embryo (up to the
 4-cell stage in humans) are totipotent. A pluripotent stem cell can become any cell type except
-Placental cells. Embryonic stem cells (from the blastocyst stage) are pluripotent. A multipotent
+placental cells. Embryonic stem cells (from the blastocyst stage) are pluripotent. A multipotent
 Stem cell can become a limited range of cell types within a particular tissue. Adult stem cells
 (e.g., those in bone marrow) are multipotent.
 
@@ -364,7 +390,7 @@ Stem cell can become a limited range of cell types within a particular tissue. A
 ### 2.4 Cancer
 
 Cancer is the result of uncontrolled cell division. It occurs when mutations in genes that control
-The cell cycle (specifically **proto-oncogenes**, which promote cell division, and **tumour
+the cell cycle (specifically **proto-oncogenes**, which promote cell division, and **tumour
 Suppressor genes**, which inhibit it) cause cells to divide repeatedly without stopping, forming a
 **tumour**.
 
@@ -404,8 +430,8 @@ Lower concentration, down the concentration gradient.
 
 **Why diffusion works (the physical intuition).** Particles are in constant random motion due to
 Their kinetic energy. In a region of high concentration, there are more particles moving in any
-Given direction. In a region of low concentration, there are fewer. The net result is that more
-Particles move from high to low concentration than the reverse, until equilibrium is reached (equal
+given direction. In a region of low concentration, there are fewer. The net result is that more
+particles move from high to low concentration than the reverse, until equilibrium is reached (equal
 Concentration on both sides). At equilibrium, particles continue to move, but there is no net
 Movement in either direction.
 
@@ -422,6 +448,8 @@ Movement in either direction.
 
 **Factors affecting the rate of diffusion:**
 
+<div class="table-wrap">
+
 | Factor                 | Effect on Rate                    | Why                                                       |
 | ---------------------- | --------------------------------- | --------------------------------------------------------- |
 | Concentration gradient | Increases rate                    | Larger difference means more net movement                 |
@@ -431,11 +459,13 @@ Movement in either direction.
 | Molecular size         | Smaller molecules diffuse faster  | Less resistance; larger molecules collide more frequently |
 | Membrane permeability  | More permeable = faster diffusion | Determines which substances can cross freely              |
 
+</div>
+
 **Worked Example.** Oxygen diffuses from the alveoli (high concentration) into the blood (low
 Concentration). Carbon dioxide diffuses from the blood into the alveoli. This simultaneous exchange
-Of gases is efficient because both processes use the same concentration gradient in opposite
+of gases is efficient because both processes use the same concentration gradient in opposite
 Directions: the alveoli have high $\mathrm{O_2$ and low $\mathrm{CO_2$ (because fresh air is
-Continually breathed in), while the blood arriving at the lungs has low $\mathrm{O_2$ and high
+continually breathed in), while the blood arriving at the lungs has low $\mathrm{O_2$ and high
 $\mathrm{CO_2$ (because it has just returned from the body tissues where respiration occurred).
 
 ### 3.2 Osmosis
@@ -459,16 +489,20 @@ Potential.
 
 **What happens to cells in different solutions:**
 
+<div class="table-wrap">
+
 | Solution   | Animal cell                  | Plant cell                                       |
 | ---------- | ---------------------------- | ------------------------------------------------ |
 | Hypotonic  | Swells and may burst (lysis) | Becomes turgid (firm, rigid)                     |
 | Isotonic   | Normal                       | Normal (slightly flaccid)                        |
 | Hypertonic | Shrinks (crenation)          | Plasmolyses (membrane pulls away from cell wall) |
 
+</div>
+
 **Why plant cells do not burst.** Plant cells have a rigid cell wall made of cellulose. When water
 Enters by osmosis in a hypotonic solution, the cell expands but the cell wall exerts an inward
 Pressure (turgor pressure) that prevents further expansion. This turgor pressure is essential for
-Maintaining the structure of non-woody plants -- without it, they wilt. Animal cells lack a cell
+maintaining the structure of non-woody plants -- without it, they wilt. Animal cells lack a cell
 Wall, so they continue to expand until they burst (lyse). This is why hospitals use saline drips
 (isotonic solution) rather than pure water for intravenous injections: pure water would cause red
 Blood cells to burst.
@@ -477,7 +511,7 @@ Blood cells to burst.
 The cell membrane pulls away from the cell wall, and the cell becomes flaccid. Unlike animal cells,
 Plant cells do not completely collapse because the rigid cell wall maintains the cell's shape.
 Plasmolysis can be observed under a microscope when onion epidermal cells are placed in a
-Concentrated sugar solution.
+concentrated sugar solution.
 
 ### 3.3 Required Practical: Osmosis in Potato Chips
 
@@ -492,7 +526,9 @@ Concentrated sugar solution.
 6. Remove, gently dry with a paper towel, and measure the new mass.
 7. Calculate the percentage change in mass:
 
-$$\mathrm{Percentage change = \frac{\mathrm{final mass - \mathrm{initial mass}{\mathrm{initial mass} \times 100\%$$
+$$
+\mathrm{Percentage change = \frac{\mathrm{final mass - \mathrm{initial mass}{\mathrm{initial mass} \times 100\%
+$$
 
 1. Plot a graph of percentage change in mass against sugar concentration.
 
@@ -516,26 +552,28 @@ $$\mathrm{Percentage change = \frac{\mathrm{final mass - \mathrm{initial mass}{\
 
 **Active transport** is the movement of particles against the concentration gradient (from low to
 High concentration). It requires energy from respiration (ATP) and carrier proteins (pumps) in the
-Membrane.
+membrane.
 
 **Why active transport is necessary.** Diffusion alone cannot always supply a cell with everything
 It needs. For example, root hair cells in plants need to absorb mineral ions from the soil, where
-Their concentration is already very low. Diffusion would move ions out of the cell, not into it.
-Active transport uses energy to pump ions into the cell against the concentration gradient.
+their concentration is already very low. Diffusion would move ions out of the cell, not into it.
+active transport uses energy to pump ions into the cell against the concentration gradient.
 
 **Example:** Mineral ions in the soil are absorbed by root hair cells against the concentration
 Gradient. The root hair cells have many mitochondria to supply the ATP needed for active transport.
 This is why root hair cells in low-nutrient soils can still absorb minerals: they are not limited by
-The concentration gradient in the soil.
+the concentration gradient in the soil.
 
 **Another example:** In the small intestine, glucose is absorbed from the gut into the blood. After
 A meal, the concentration of glucose in the gut may be higher than in the blood, so diffusion
 Accounts for some absorption. However, when most of the glucose has been absorbed and the
-Concentration in the gut drops below that in the blood, diffusion would stop. Active transport
+concentration in the gut drops below that in the blood, diffusion would stop. Active transport
 Continues to pump glucose into the blood against the concentration gradient, ensuring that all
-Available glucose is absorbed.
+available glucose is absorbed.
 
 **Comparison of transport mechanisms:**
+
+<div class="table-wrap">
 
 | Feature           | Diffusion                 | Osmosis                     | Active Transport              |
 | ----------------- | ------------------------- | --------------------------- | ----------------------------- |
@@ -545,11 +583,15 @@ Available glucose is absorbed.
 | What moves?       | Any particles             | Water molecules only        | Specific molecules/ions       |
 | Can it reach eqm? | Yes                       | Yes                         | No (works to create gradient) |
 
+</div>
+
 ## 4. Cell Organisation
 
 ### 4.1 Levels of Organisation
 
-$$\mathrm{Cells \to \mathrm{Tissues \to \mathrm{Organs \to \mathrm{Organ Systems \to \mathrm{Organisms$$
+$$
+\mathrm{Cells \to \mathrm{Tissues \to \mathrm{Organs \to \mathrm{Organ Systems \to \mathrm{Organisms
+$$
 
 - **Cell:** The basic unit of life.
 - **Tissue:** A group of similar cells with the same function (e.g., muscle tissue is made of muscle
@@ -562,6 +604,8 @@ $$\mathrm{Cells \to \mathrm{Tissues \to \mathrm{Organs \to \mathrm{Organ Systems
 
 ### 4.2 Examples in the Human Body
 
+<div class="table-wrap">
+
 | Level        | Example            |
 | ------------ | ------------------ |
 | Cell         | Muscle cell        |
@@ -570,7 +614,11 @@ $$\mathrm{Cells \to \mathrm{Tissues \to \mathrm{Organs \to \mathrm{Organ Systems
 | Organ system | Circulatory system |
 | Organism     | Human              |
 
+</div>
+
 **Another example -- the digestive system:**
+
+<div class="table-wrap">
 
 | Level        | Example           |
 | ------------ | ----------------- |
@@ -580,13 +628,15 @@ $$\mathrm{Cells \to \mathrm{Tissues \to \mathrm{Organs \to \mathrm{Organ Systems
 | Organ system | Digestive system  |
 | Organism     | Human             |
 
+</div>
+
 ## 5. Higher Tier: Microscopy and Cell Size Calculations
 
 ### 5.1 Electron Microscopy
 
 Light microscopes are limited by the wavelength of visible light (approximately 400--700 nm). The
-Maximum resolution of a light microscope is about 200 nm, which means it cannot distinguish two
-Objects closer together than 200 nm. Most organelles are larger than this, but many internal
+maximum resolution of a light microscope is about 200 nm, which means it cannot distinguish two
+objects closer together than 200 nm. Most organelles are larger than this, but many internal
 Structures (ribosomes, plasma membrane, endoplasmic reticulum) are below this limit.
 
 Electron microscopes use a beam of electrons instead of light. Electrons have a much shorter
@@ -596,7 +646,7 @@ This is sufficient to see individual molecules and large proteins.
 **Transmission EM (TEM):** Electrons pass through a thin specimen. Produces a 2D image showing
 Internal ultrastructure. Specimens must be cut into very thin sections (ultrathin sections) using an
 Ultramicrotome. The image appears in shades of grey (dense structures appear darker because they
-Scatter more electrons).
+scatter more electrons).
 
 **Scanning EM (SEM):** Electrons bounce off the surface of the specimen. Produces a 3D image of the
 Surface. The specimen is coated with a thin layer of metal (e.g., gold) to make it conductive.
@@ -612,17 +662,23 @@ Surface. The specimen is coated with a thin layer of metal (e.g., gold) to make 
 ### 5.2 Standard Form and Unit Conversions
 
 Biological measurements often involve very small numbers. You must be confident converting between
-Units.
+units.
+
+<div class="table-wrap">
 
 | Unit       | Symbol | Conversion to metres |
 | ---------- | ------ | -------------------- |
 | Millimetre | mm     | $\times 10^{-3}$ m   |
-| Micrometre | $\mu$M | $\times 10^{-6}$ m   |
+| Micrometre | $\mu$ M | $\times 10^{-6}$ m   |
 | Nanometre  | nm     | $\times 10^{-9}$ m   |
+
+</div>
 
 **Worked Example.** A mitochondrion is $5 \mu\mathrm{m$ long. Express this in nanometres.
 
-$$5 \mathrm{ \mu m = 5 \times 1000 \mathrm{ nm = 5000 \mathrm{ nm$$
+$$
+5 \mathrm{ \mu m = 5 \times 1000 \mathrm{ nm = 5000 \mathrm{ nm
+$$
 
 ### 5.3 Estimating Cell Size
 
@@ -636,7 +692,9 @@ To estimate the size of a cell or organelle from a micrograph:
 Diameter of the field of view at this magnification is $0.5 \mathrm{ mm$. The student estimates That
 10 cells fit across the diameter. Calculate the width of one cell in micrometres.
 
-$$\mathrm{Width of one cell = \frac{0.5 \mathrm{ mm}{10} = 0.05 \mathrm{ mm = 50 \mathrm{ \mu m$$
+$$
+\mathrm{Width of one cell = \frac{0.5 \mathrm{ mm}{10} = 0.05 \mathrm{ mm = 50 \mathrm{ \mu m
+$$
 
 ## Common Pitfalls
 
@@ -677,7 +735,7 @@ $$\mathrm{Width of one cell = \frac{0.5 \mathrm{ mm}{10} = 0.05 \mathrm{ mm = 50
    happens to the cell.
 
 6. Calculate the actual size of a cell that measures 8.5 mm in a micrograph taken at a magnification
-   of $\times 400$. Give your answer in micrometres ($\mu$M).
+   of $\times 400$. Give your answer in micrometres ($\mu$ M).
 
 7. Explain the difference between diffusion, osmosis, and active transport.
 
@@ -716,7 +774,7 @@ $$\mathrm{Width of one cell = \frac{0.5 \mathrm{ mm}{10} = 0.05 \mathrm{ mm = 50
     did not function correctly?
 
 19. A potato cylinder was placed in a 0.4 mol/dm$^3$ sugar solution and its mass decreased by 8%.
-    Explain this result in terms of water potential.
+    explain this result in terms of water potential.
 
 20. Evaluate the use of stem cells in medicine. In your answer, consider both the potential benefits
     and the ethical concerns.
@@ -747,8 +805,8 @@ $$\mathrm{Width of one cell = \frac{0.5 \mathrm{ mm}{10} = 0.05 \mathrm{ mm = 50
 <summary>Question 1: Microscopy magnification</summary>
 
 A cell is observed under a microscope with an eyepiece lens of magnification $\times 10$ and an
-Objective lens of magnification $\times 40$. The cell appears to be $4.8 \mathrm{ mm$ wide in the
-Image. Calculate the actual width of the cell in micrometres ($\mu$M).
+objective lens of magnification $\times 40$. The cell appears to be $4.8 \mathrm{ mm$ wide in the
+image. Calculate the actual width of the cell in micrometres ($\mu$ M).
 
 </details>
 
@@ -769,7 +827,7 @@ Convert to micrometres: $0.012 \times 1000 = 12 \mathrm{ \mu m$.
 
 A plant cell with a solute potential of $-500 \mathrm{ kPa$ and a pressure potential of
 $200 \mathrm{ kPa$ is placed in a solution with a water potential of $-100 \mathrm{ kPa$. Predict
-The direction of water movement and explain what will happen to the cell.
+the direction of water movement and explain what will happen to the cell.
 
 </details>
 
@@ -781,7 +839,7 @@ Cell water potential: $\psi = -500 + 200 = -300 \mathrm{ kPa$.
 The solution has $\psi = -100 \mathrm{ kPa$.
 
 Water moves from higher to lower water potential: from the solution ($-100 \mathrm{ kPa$) into the
-Cell ($-300 \mathrm{ kPa$).
+cell ($-300 \mathrm{ kPa$).
 
 The cell will gain water, increasing its pressure potential. The cell will become turgid. The cell
 Wall will prevent bursting.
@@ -793,7 +851,7 @@ Wall will prevent bursting.
 
 A student examines two cells under a microscope. Cell A has a nucleus, mitochondria, and a cell wall
 Made of cellulose. Cell B has no nucleus, no membrane-bound organelles, and a cell wall made of
-Peptidoglycan. Identify each cell type and explain two differences between them.
+peptidoglycan. Identify each cell type and explain two differences between them.
 
 </details>
 
@@ -821,8 +879,8 @@ Predict the relative rates and explain the shape of the resulting graph.
 
 The rate is highest at pH 7 (the optimum). At pH 5 and pH 9, the rate is lower because changes in pH
 Alter the ionisation of amino acid side chains in the active site, disrupting the enzyme's shape and
-Reducing substrate binding. The graph is a bell-shaped curve, symmetric if the enzyme tolerates acid
-And alkali equally, peaking at pH 7.
+reducing substrate binding. The graph is a bell-shaped curve, symmetric if the enzyme tolerates acid
+and alkali equally, peaking at pH 7.
 
 </details>
 
@@ -830,7 +888,7 @@ And alkali equally, peaking at pH 7.
 <summary>Question 5: Cell specialisation</summary>
 
 Explain how a root hair cell is specialised for its function of absorbing water and mineral ions
-From the soil.
+from the soil.
 
 </details>
 
@@ -838,10 +896,10 @@ From the soil.
 <summary>Answer</summary>
 
 Root hair cells have an elongated, finger-like projection that greatly increases the surface area
-For absorption. They have a large number of mitochondria to provide ATP for active transport of
-Mineral ions against their concentration gradient. They have thin walls to reduce the diffusion
+for absorption. They have a large number of mitochondria to provide ATP for active transport of
+mineral ions against their concentration gradient. They have thin walls to reduce the diffusion
 Distance for water uptake. Their permanent vacuole contains a high concentration of solutes to
-Maintain a steep water potential gradient for osmosis.
+maintain a steep water potential gradient for osmosis.
 
 </details>
 
@@ -858,17 +916,6 @@ answer using the appropriate terminology.
 Multi-step problems in Cell Biology often combine two or more concepts. Break the problem down:
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[1_Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

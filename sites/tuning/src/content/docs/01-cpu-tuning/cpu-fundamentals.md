@@ -19,11 +19,11 @@ description: "A modern CPU is a superscalar, out-of-order, speculative execution
 
 A modern CPU is a superscalar, out-of-order, speculative execution engine. Understanding these
 Concepts is prerequisite to any meaningful tuning, because every knob you adjust interacts with one
-Or more of these mechanisms.
+or more of these mechanisms.
 
 ### Instruction Pipeline
 
-Every x86 instruction passes through a series of pipeline stages. Intel"s Golden Cove (12th Gen
+Every x86 instruction passes through a series of pipeline stages. Intel's Golden Cove (12th Gen
 P-core) has a pipeline depth of approximately 19 stages; AMD's Zen 4 is roughly 16 stages. Pipeline
 Depth is a fundamental trade-off:
 
@@ -47,35 +47,35 @@ graph LR
 
 The front-end fetches instruction bytes from the L1 instruction cache ( 32 KB, 8-way set Associative
 on Intel, 64 KB on AMD Zen 4). The decoder translates x86 CISC instructions into Internal micro-ops
-($\mu$Ops). Intel CPUs can decode up to 6 instructions per cycle; AMD Zen 4 can Decode up to 6 as
-well. Instructions that decode to more than one $\mu$Op (complex instructions like `ENTER`String
+($\mu$ Ops). Intel CPUs can decode up to 6 instructions per cycle; AMD Zen 4 can Decode up to 6 as
+well. Instructions that decode to more than one $\mu$ Op (complex instructions like `ENTER`String
 operations, or instructions with memory operands using complex addressing modes) Consume more
 decoder bandwidth.
 
-The micro-op cache (MSB on Intel, OP cache on AMD) caches already-decoded $\mu$Ops, bypassing the
-Legacy decoder entirely. On Intel 12th Gen, the micro-op cache can deliver up to 8 $\mu$Ops per
+The micro-op cache (MSB on Intel, OP cache on AMD) caches already-decoded $\mu$ Ops, bypassing the
+Legacy decoder entirely. On Intel 12th Gen, the micro-op cache can deliver up to 8 $\mu$ Ops per
 Cycle, compared to 6 from the legacy decoder. Code that fits in the micro-op cache executes faster
-Because it avoids the decode bottleneck.
+because it avoids the decode bottleneck.
 
 ### Out-of-Order Execution
 
-After decode, $\mu$Ops enter the reorder buffer (ROB). The ROB tracks the program order of all
-In-flight $\mu$Ops while allowing the execution units to process them in any order dictated by data
+After decode, $\mu$ Ops enter the reorder buffer (ROB). The ROB tracks the program order of all
+in-flight $\mu$ Ops while allowing the execution units to process them in any order dictated by data
 Dependencies and resource availability.
 
 Key components:
 
-- **Reservation Stations:** Hold $\mu$Ops waiting for their operands to become available. When all
-  operands are ready, the $\mu$Op is dispatched to an execution port.
+- **Reservation Stations:** Hold $\mu$ Ops waiting for their operands to become available. When all
+  operands are ready, the $\mu$ Op is dispatched to an execution port.
 - **Register Renaming:** Eliminates false dependencies (Write-After-Write, Write-After-Read) by
   mapping architectural registers (e.g., `RAX`) to physical registers. Intel Golden Cove has ~280
   physical integer registers; AMD Zen 4 has 160.
-- **Reorder Buffer:** Tracks in-flight $\mu$Ops and ensures they retire in program order. Intel
+- **Reorder Buffer:** Tracks in-flight $\mu$ Ops and ensures they retire in program order. Intel
   Golden Cove ROB size is 512 entries; AMD Zen 4 is 416.
 
 The out-of-order window size (determined by ROB size, scheduler entries, and load/store queue depth)
 Directly affects how much instruction-level parallelism the CPU can extract. Larger windows find
-More independent work to do, which is why wider out-of-order engines generally perform better on
+more independent work to do, which is why wider out-of-order engines generally perform better on
 Branchy, real-world code.
 
 ### Branch Prediction
@@ -92,12 +92,14 @@ Outcome of conditional branches before they execute.
 
 Branch misprediction penalty is proportional to pipeline depth: on a 19-stage pipeline, a
 Misprediction flushes the pipeline and wastes roughly 15–19 cycles. This is why branch-heavy code
-Can perform significantly worse than expected.
+can perform significantly worse than expected.
 
 ### Superscalar Execution
 
-Modern CPUs have multiple execution ports that can process $\mu$Ops in parallel. Intel Golden Cove
-Has 12 execution ports:
+Modern CPUs have multiple execution ports that can process $\mu$ Ops in parallel. Intel Golden Cove
+has 12 execution ports:
+
+<div class="table-wrap">
 
 | Ports | Function                         |
 | ----- | -------------------------------- |
@@ -114,9 +116,11 @@ Has 12 execution ports:
 | 10    | Store address (AGU)              |
 | 11    | Load (AGU)                       |
 
+</div>
+
 AMD Zen 4 has 10 execution ports with a different allocation. The key takeaway for tuning is that
-Your code (or the compiler's output) must have enough independent $\mu$Ops to fill these ports. If
-Every instruction depends on the previous one (a long dependency chain), most ports sit idle.
+your code (or the compiler's output) must have enough independent $\mu$ Ops to fill these ports. If
+every instruction depends on the previous one (a long dependency chain), most ports sit idle.
 
 ---
 
@@ -136,6 +140,8 @@ Latency gap drives every architectural decision in cache design.
 
 ### Latency Comparison
 
+<div class="table-wrap">
+
 | Level          | Size (Typical) | Latency (Cycles) | Latency (ns at 5 GHz) |
 | -------------- | -------------- | ---------------- | --------------------- |
 | L1 Data        | 32–48 KB       | 4–5              | ~1.0                  |
@@ -144,6 +150,8 @@ Latency gap drives every architectural decision in cache design.
 | L3 (Shared)    | 16–64 MB       | 35–50            | ~8.0                  |
 | DRAM (DDR5)    | Variable       | 200–400+         | ~60–80                |
 | NVMe SSD       | Variable       | ~10,000          | ~2,000                |
+
+</div>
 
 ### Cache Lines and Spatial Locality
 
@@ -162,15 +170,21 @@ Each cache level uses set-associative mapping. An N-way set-associative cache me
 Address can map to N different cache lines within a set. Higher associativity reduces conflict
 Misses but increases lookup latency and power consumption.
 
+<div class="table-wrap">
+
 | CPU                     | L1 Data      | L2           | L3                 |
 | ----------------------- | ------------ | ------------ | ------------------ |
 | Intel 12th Gen (P-core) | 8-way, 48 KB | 12-way, 2 MB | 16-way (per slice) |
 | AMD Zen 4               | 8-way, 32 KB | 16-way, 1 MB | 16-way (per CCD)   |
 
+</div>
+
 ### MESI Protocol
 
 Multi-core systems use a cache coherence protocol to ensure all cores see consistent data. The MESI
 Protocol defines four states for each cache line:
+
+<div class="table-wrap">
 
 | State             | Meaning                                          |
 | ----------------- | ------------------------------------------------ |
@@ -178,6 +192,8 @@ Protocol defines four states for each cache line:
 | **E** (Exclusive) | Line is clean and present only in this cache     |
 | **S** (Shared)    | Line is clean and may be present in other caches |
 | **I** (Invalid)   | Line is not valid in this cache                  |
+
+</div>
 
 When Core A modifies a line in Shared state, it must issue a RFO (Read For Ownership) request to
 Invalidate all other copies. This is why false sharing, where unrelated variables share a cache
@@ -235,7 +251,7 @@ Frequency, highest voltage) upward. P-state transitions are managed by the CPU's
 Controller (PCU on Intel, SMU on AMD).
 
 On modern systems, P-states are managed autonomously by the CPU. The OS requests a performance level
-Via ACPI, and the CPU's hardware decides the actual frequency. This is known as "hardware-managed
+via ACPI, and the CPU's hardware decides the actual frequency. This is known as "hardware-managed
 P-states" or HWP (Hardware P-States) on Intel.
 
 ### C-States (Idle States)
@@ -243,14 +259,18 @@ P-states" or HWP (Hardware P-States) on Intel.
 C-States are idle power-saving states. When a core has no work to do, it can enter progressively
 Deeper C-states:
 
+<div class="table-wrap">
+
 | State     | Description                      | Exit Latency    | Power Savings |
 | --------- | -------------------------------- | --------------- | ------------- |
 | C0        | Active execution                 | 0               | None          |
-| C1        | Halt, clock gated                | ~1 $\mu$S       | Minimal       |
-| C1E       | Enhanced halt, voltage reduced   | ~1–2 $\mu$S     | Moderate      |
-| C3        | Sleep, L1/L2 cache flushed       | ~50 $\mu$S      | Significant   |
-| C6        | Deep power down, core state lost | ~100–200 $\mu$S | Very high     |
+| C1        | Halt, clock gated                | ~1 $\mu$ S       | Minimal       |
+| C1E       | Enhanced halt, voltage reduced   | ~1–2 $\mu$ S     | Moderate      |
+| C3        | Sleep, L1/L2 cache flushed       | ~50 $\mu$ S      | Significant   |
+| C6        | Deep power down, core state lost | ~100–200 $\mu$ S | Very high     |
 | C8/C9/C10 | Package-level idle               | ~1–2 ms         | Maximum       |
+
+</div>
 
 Deeper C-states save more power but have higher exit latencies. For latency-sensitive workloads
 (e.g., audio processing, real-time trading), you may want to limit C-states to C1 or C1E to avoid
@@ -338,11 +358,15 @@ Directly attached DRAM. Accessing local memory is fast; accessing remote memory 
 Socket) traverses an interconnect (UPI on Intel, Infinity Fabric on AMD) and is significantly
 Slower.
 
+<div class="table-wrap">
+
 | Access Type           | Latency     | Bandwidth         |
 | --------------------- | ----------- | ----------------- |
 | Local DRAM            | ~80 ns      | Full              |
 | Remote DRAM (1 hop)   | ~120–140 ns | Reduced (~60–70%) |
 | Remote DRAM (2+ hops) | ~160–200 ns | Further reduced   |
+
+</div>
 
 On NUMA systems, the OS NUMA scheduler attempts to allocate memory local to the process's current
 CPU. However, this can be suboptimal for workloads with specific memory access patterns. Use
@@ -365,10 +389,14 @@ CPU. However, this can be suboptimal for workloads with specific memory access p
 
 Linux offers two primary CPU frequency scaling drivers for Intel CPUs:
 
+<div class="table-wrap">
+
 | Driver         | Description                         | Recommended For              |
 | -------------- | ----------------------------------- | ---------------------------- |
 | `intel_pstate` | Hardware-managed P-states via HWP   | Modern Intel (Sandy Bridge+) |
 | `acpi-cpufreq` | OS-managed P-states via ACPI tables | Legacy hardware, VMs         |
+
+</div>
 
 The `intel_pstate` driver operates in two modes:
 
@@ -387,6 +415,8 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver
 
 The CPU frequency governor determines the policy for frequency scaling:
 
+<div class="table-wrap">
+
 | Governor       | Behavior                                             | Use Case                                |
 | -------------- | ---------------------------------------------------- | --------------------------------------- |
 | `performance`  | Always at maximum frequency                          | Benchmarks, latency-sensitive workloads |
@@ -394,6 +424,8 @@ The CPU frequency governor determines the policy for frequency scaling:
 | `ondemand`     | Increases frequency when load exceeds threshold      | Legacy driver (not used with HWP)       |
 | `schedutil`    | Frequency driven by scheduler utilization data       | Works with passive mode                 |
 | `conservative` | Gradually increases frequency                        | Legacy, rarely used                     |
+
+</div>
 
 With `intel_pstate` in active mode, the governor has limited effect because HWP manages frequency
 Autonomously. The `performance` governor sets the HWP minimum to maximum, preventing any frequency
@@ -445,7 +477,7 @@ the best default.
 ### How Thermal Throttling Works
 
 Modern CPUs have a thermal monitor that continuously reads the on-die digital thermal sensors. When
-The temperature reaches the thermal throttling threshold (PROCHOT), the CPU takes corrective action:
+the temperature reaches the thermal throttling threshold (PROCHOT), the CPU takes corrective action:
 
 1. **Clock modulation:** The CPU inserts idle cycles to reduce power dissipation. It may skip every
    Nth clock cycle (e.g., 50% modulation means the CPU is effectively running at half speed).
@@ -453,7 +485,7 @@ The temperature reaches the thermal throttling threshold (PROCHOT), the CPU take
 3. **Voltage reduction:** On some platforms, the CPU reduces voltage along with frequency.
 
 Intel CPUs begin throttling at 100 °C (Tjmax). AMD Zen 4 throttles at 95 °C. These are
-Non-configurable hardware limits designed to prevent permanent damage.
+non-configurable hardware limits designed to prevent permanent damage.
 
 ### Per-Core vs. Package Thermal Throttling
 
@@ -538,7 +570,7 @@ sensors
 ## SMT and Hyper-Threading
 
 Simultaneous Multithreading (SMT, branded as Hyper-Threading by Intel) allows a single physical core
-To execute instructions from two threads simultaneously by sharing execution resources.
+to execute instructions from two threads simultaneously by sharing execution resources.
 
 ### How SMT Works
 
@@ -572,7 +604,7 @@ echo 1 | sudo tee /sys/devices/system/cpu/smt/active
 
 :::caution
 Physical core limit before disabling it. Some applications are licensed per logical core and will
-Not work correctly with SMT disabled.
+not work correctly with SMT disabled.
 :::
 
 ### Security Considerations
@@ -665,9 +697,9 @@ Overclocking is like revving the engine higher than the manufacturer intended. I
 ### Forcing Maximum Frequency Does Not Always Improve Performance
 
 Setting the governor to `performance` prevents frequency scaling but does not improve performance
-For most workloads. With HWP active, the CPU already boosts to maximum frequency when needed and
+for most workloads. With HWP active, the CPU already boosts to maximum frequency when needed and
 Drops to lower frequencies when idle to save power and reduce thermals. Forcing maximum frequency
-Can actually hurt performance by preventing the CPU from entering low-power states during brief idle
+can actually hurt performance by preventing the CPU from entering low-power states during brief idle
 Periods, which increases average temperature and may trigger earlier thermal throttling under
 Sustained multi-core loads.
 
@@ -688,25 +720,25 @@ SMT may be unacceptable.
 
 CPU microcode updates can change power management behavior, fix errata, and even adjust boost
 Algorithms. After a microcode update (delivered via BIOS/UEFI or Linux firmware package), re-test
-Your tuning settings. A stable overclock or undervolt may become unstable after a microcode update.
+your tuning settings. A stable overclock or undervolt may become unstable after a microcode update.
 
 ### Measuring Frequency with the Wrong Tool
 
 Many tools report the requested frequency rather than the actual frequency. On modern CPUs with HWP,
 The actual frequency changes hundreds of times per second. Use `turbostat` or `perf stat` to measure
-The actual average frequency over a period, not the instantaneous value reported by
+the actual average frequency over a period, not the instantaneous value reported by
 `cat /proc/cpuinfo`.
 
 ### Confusing TDP with Actual Power Draw
 
 TDP (Thermal Design Power) is a marketing metric, not a power consumption limit. An Intel CPU with a
 125 W TDP can draw 200–250 W during multi-core boost (PL2 window). Always monitor actual Power draw
-with `turbostat``RAPL`Or HWiNFO64 rather than relying on TDP specifications.
+with `turbostat`, `RAPL` or HWiNFO64 rather than relying on TDP specifications.
 
 ### Applying Desktop Tuning to Servers
 
 Server tuning priorities differ from desktop tuning. On servers, power efficiency, thermal headroom
-For neighboring components, and consistent latency matter more than peak single-core performance.
+for neighboring components, and consistent latency matter more than peak single-core performance.
 Using the `performance` governor on a server with 64+ cores can result in excessive power
 Consumption and thermal throttling under full load. Use `powersave` with HWP and
 `balance_performance` EPP instead.
@@ -765,14 +797,16 @@ dmesg | tail -5
 ```
 
 Note that late loading does not apply all fixes. Some security mitigations must be applied before
-The kernel initializes CPU features, meaning a reboot is required.
+the kernel initializes CPU features, meaning a reboot is required.
 
 ## Intel Thread Director
 
 Introduced with Alder Lake (12th Gen), Intel Thread Director (ITD) is a hardware-assisted thread
 Scheduling technology that communicates per-thread classification to the operating system via ACPI
-And MSR interfaces. ITD classifies each instruction stream as belonging to one of several
+and MSR interfaces. ITD classifies each instruction stream as belonging to one of several
 Categories:
+
+<div class="table-wrap">
 
 | Class ID | Category          | Typical Use Case              |
 | -------- | ----------------- | ----------------------------- |
@@ -783,6 +817,8 @@ Categories:
 | 4        | Non-Turbo         | Thermal-constrained workloads |
 | 5        | Throughput        | Parallel compute              |
 | 6        | Latency-sensitive | Real-time audio, game logic   |
+
+</div>
 
 ### Monitoring Thread Director
 
@@ -837,7 +873,9 @@ Quality (binning).
 The stock `V/F` curve defines voltage as a function of frequency. Curve Optimizer applies a negative
 Offset (undervolt) or positive offset (overvolt) at each frequency point:
 
-$$V_{actual}(f) = V_{stock}(f) + \mathrm{offset$$
+$$
+V_{actual}(f) = V_{stock}(f) + \mathrm{offset
+$$
 
 Where `offset` is in the range of -30 to +30 steps, with each step approximately equal to 5mV. So a
 `-20` step offset reduces voltage by roughly 100mV at every frequency point.
@@ -909,6 +947,8 @@ turbostat ./my_benchmark
 
 ### Key Columns Explained
 
+<div class="table-wrap">
+
 | Column    | Meaning                              | What to Look For                                      |
 | --------- | ------------------------------------ | ----------------------------------------------------- |
 | `Bzy_MHz` | Average frequency while busy         | Should be close to max turbo during load              |
@@ -920,6 +960,8 @@ turbostat ./my_benchmark
 | `SMI`     | System Management Interrupts         | Should be near zero; high values indicate BIOS issues |
 | `CORE%c1` | Core C1 residency                    | Higher means more idle time                           |
 | `POLL%`   | Polling idle time                    | Should be low unless using `idle=poll`                |
+
+</div>
 
 ### Example: Detecting Thermal Throttling
 
@@ -988,6 +1030,8 @@ Tuning change.
 
 ### Benchmark Categories
 
+<div class="table-wrap">
+
 | Category      | Tools                                    | What It Measures                    |
 | ------------- | ---------------------------------------- | ----------------------------------- |
 | Single-thread | Cinebench R23 ST, Geekbench 6 ST         | Max turbo frequency, IPC            |
@@ -995,6 +1039,8 @@ Tuning change.
 | Memory-bound  | STREAM, memcpy benchmarks                | Memory subsystem, cache performance |
 | I/O-bound     | fio, sysbench fileio                     | CPU impact on storage throughput    |
 | Real-world    | Application-specific (compile, database) | Actual workload performance         |
+
+</div>
 
 ### Running Controlled Benchmarks
 
@@ -1039,7 +1085,7 @@ Ensure consistent thermal conditions.
 Geekbench 6 includes real-world workloads (machine learning, image processing, cryptography) but is
 Closed-source and can vary between runs due to background OS activity. Cinebench uses a fixed
 Workload based on Cinema 4D rendering, making it more reproducible. For tuning validation, Cinebench
-Is preferred. For comparing different CPU architectures, Geekbench provides a broader perspective.
+is preferred. For comparing different CPU architectures, Geekbench provides a broader perspective.
 
 ### PassMark for System-Level Comparison
 
@@ -1097,9 +1143,6 @@ practical implementation, and key applications.
 - input/output systems
 - operating systems and scheduling
 - interrupts and polling
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

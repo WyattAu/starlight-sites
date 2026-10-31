@@ -79,7 +79,7 @@ University-level multivariable calculus notes covering partial derivatives, vect
 
 - **Partial Derivatives**: Chain rule, gradient, directional derivatives
 - **Multiple Integrals**: Double and triple integrals, change of variables
-- **Vector Calculus**: Green"s theorem, Stokes' theorem, divergence theorem
+- **Vector Calculus**: Green's theorem, Stokes' theorem, divergence theorem
 - **Optimisation**: Local extrema, Lagrange multipliers, Hessian
 
 ## Prerequisites
@@ -94,8 +94,6 @@ University-level multivariable calculus notes covering partial derivatives, vect
 Start with partial derivatives to build foundational knowledge, then progress to vector calculus and optimisation. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -136,9 +134,9 @@ Setting $\nabla f = \mathbf{0}$ is necessary but not sufficient. The Hessian mat
 - **Real Analysis:** Foundational analysis for multivariable calculus.
 - **Ordinary Differential Equations:** Systems of ODEs using multivariable calculus.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

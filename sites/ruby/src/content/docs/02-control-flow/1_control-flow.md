@@ -121,7 +121,7 @@ label = score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : "F"
 
 ### case / when
 
-The `case` statement is Ruby"s switch construct. It supports both value matching and condition
+The `case` statement is Ruby's switch construct. It supports both value matching and condition
 matching:
 
 ```ruby
@@ -1150,16 +1150,6 @@ debug &&= false  # debug is still false, no change
 # Ternary for computed defaults
   timeout = ENV.fetch("TIMEOUT", 30).to_i
   mode = ENV.key?("DEBUG") ? :debug : :production
-```
-
-```mermaid
-flowchart TD
-    A[1_Control Flow] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition

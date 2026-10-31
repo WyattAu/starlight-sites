@@ -28,9 +28,11 @@ The **Lorenz curve** plots the cumulative proportion of total income received by
 Proportion of the population, ordered from poorest to richest.
 
 Let the population be divided into quintiles (five equal groups of 20%). If the income shares are
-$(s_1, s_2, s_3, s_4, s_5)$ where $\sum s_i = 1$The cumulative shares are:
+$(s_1, s_2, s_3, s_4, s_5)$ where $\sum s_i = 1$ The cumulative shares are:
 
-$$L_k = \sum_{i=1}^{k} s_i, \quad k = 1, 2, 3, 4, 5$$
+$$
+L_k = \sum_{i=1}^{k} s_i, \quad k = 1, 2, 3, 4, 5
+$$
 
 The Lorenz curve passes through points $(0.2, L_1)$$(0.4, L_2)$$(0.6, L_3)$$(0.8, L_4)$ $(1, 1)$.
 
@@ -39,22 +41,32 @@ The Lorenz curve passes through points $(0.2, L_1)$$(0.4, L_2)$$(0.6, L_3)$$(0.8
 
 ### 1.2 The Gini Coefficient
 
-$$G = \frac{A}{A + B}$$
+$$
+G = \frac{A}{A + B}
+$$
 
 Where $A$ = area between the 45° line and the Lorenz curve, $B$ = area under the Lorenz curve.
 
 Since the total area under the 45° line is $\frac{1}{2}$:
 
-$$G = 2A = 1 - 2B$$
+$$
+G = 2A = 1 - 2B
+$$
 
 **Derivation using the trapezoidal rule.** Given cumulative shares $L_k$ at population proportions
 $p_k = k/5$:
 
-$$B = \sum_{k=1}^{5} \frac{(L_{k-1} + L_k)(p_k - p_{k-1})}{2}$$
+$$
+B = \sum_{k=1}^{5} \frac{(L_{k-1} + L_k)(p_k - p_{k-1})}{2}
+$$
 
 Where $L_0 = 0$$p_0 = 0$.
 
-$$G = 1 - 2B$$
+$$
+G = 1 - 2B
+$$
+
+<div class="table-wrap">
 
 | Gini Coefficient   | Interpretation      |
 | ------------------ | ------------------- |
@@ -63,6 +75,8 @@ $$G = 1 - 2B$$
 | $G < 0.3$          | Relatively equal    |
 | $0.3 \leq G < 0.4$ | Moderate inequality |
 | $G \geq 0.4$       | High inequality     |
+
+</div>
 
 :::note
 - Denmark: 0.28 | Germany: 0.31 | UK: 0.35 | USA: 0.40 | Brazil: 0.52 | South Africa: 0.63
@@ -114,13 +128,13 @@ $$G = 1 - 2B$$
 
 **Thomas Piketty (2014)**: if the rate of return on capital ($r$) exceeds the rate of economic
 Growth ($g$), i.e., $r > g$ Then wealth inequality will tend to increase over time. Historically,
-$r \approx 4\mathrm{--}5\%$ while $g \approx 1\mathrm{--}2\%$Suggesting growing inequality.
+$r \approx 4\mathrm{--}5\%$ while $g \approx 1\mathrm{--}2\%$ Suggesting growing inequality.
 
 ### 2.3 Global Inequality
 
 Global inequality (inequality between all individuals worldwide) has _declined_ since the 1980s,
 Primarily due to rapid growth in China and India. However, inequality _within_ most countries has
-Increased.
+increased.
 
 ## 3. Poverty
 
@@ -133,7 +147,9 @@ Clothing). The World Bank defines extreme absolute poverty as living on less tha
 **Relative poverty**: a condition where individuals have significantly less income than the median.
 The OECD defines relative poverty as income below 60% of the median household income (equivalised).
 
-$$\mathrm{Relative poverty line} = 0.6 \times \mathrm{median household income}$$
+$$
+\mathrm{Relative poverty line} = 0.6 \times \mathrm{median household income}
+$$
 
 ### 3.2 Measuring Poverty
 
@@ -148,7 +164,9 @@ $$\mathrm{Relative poverty line} = 0.6 \times \mathrm{median household income}$$
 
 **Progressive taxation**: the average tax rate increases with income.
 
-$$\frac{dT}{dY} > \frac{T}{Y}$$
+$$
+\frac{dT}{dY} > \frac{T}{Y}
+$$
 
 For a progressive tax system:
 
@@ -166,7 +184,9 @@ For a progressive tax system:
 **Effective marginal tax rate (EMTR)**: the total rate at which additional income is taxed when all
 Benefits and means-tested withdrawals are included.
 
-$$\mathrm{EMTR} = \mathrm{income tax MTR} + \mathrm{NI MTR} + \mathrm{benefit withdrawal rate}$$
+$$
+\mathrm{EMTR} = \mathrm{income tax MTR} + \mathrm{NI MTR} + \mathrm{benefit withdrawal rate}
+$$
 
 High EMTRs (poverty traps) occur when means-tested benefits are withdrawn as income rises, creating
 Disincentives to work.
@@ -174,7 +194,9 @@ Disincentives to work.
 **Regressive taxation**: ATR falls as income rises (e.g., VAT at a flat rate takes a larger
 _proportion_ of low-income households' spending).
 
-$$\frac{dT}{dY} < \frac{T}{Y}$$
+$$
+\frac{dT}{dY} < \frac{T}{Y}
+$$
 
 **Proportional taxation**: ATR is constant (flat tax).
 
@@ -216,15 +238,17 @@ Output). More redistribution $\Rightarrow$ less total income to redistribute.
 
 The **Laffer curve** illustrates the relationship between the tax rate and tax revenue:
 
-$$T = t \times Y(t)$$
+$$
+T = t \times Y(t)
+$$
 
 Where $t$ is the tax rate and $Y(t)$ is the tax base (income), which declines as $t$ increases (due
-To disincentive effects). At $t = 0$, $T = 0$. At $t = 1$ (100% tax), $T = 0$ (no one works). There
+to disincentive effects). At $t = 0$, $T = 0$. At $t = 1$ (100% tax), $T = 0$ (no one works). There
 Exists some $t^* \in (0, 1)$ that maximises revenue.
 
 :::caution
 $t^*$ lies. Most empirical estimates for developed economies suggest that income tax rates are below
-The revenue-maximising rate, meaning tax cuts would _reduce_ revenue.
+the revenue-maximising rate, meaning tax cuts would _reduce_ revenue.
 :::
 
 ### 5.3 Evaluating the Trade-Off
@@ -280,27 +304,35 @@ Failure and government intervention.
 ### 7.1 Derivation of the Gini Coefficient from the Lorenz Curve
 
 Let $L(p)$ be the Lorenz function, mapping the cumulative population proportion $p \in [0,1]$ to the
-Cumulative income proportion. The line of perfect equality is $L(p) = p$.
+cumulative income proportion. The line of perfect equality is $L(p) = p$.
 
 The area between the line of equality and the Lorenz curve is:
 
-$$A = \int_0^1 [p - L(p)]\,dp$$
+$$
+A = \int_0^1 [p - L(p)]\,dp
+$$
 
 The area under the Lorenz curve is:
 
-$$B = \int_0^1 L(p)\,dp$$
+$$
+B = \int_0^1 L(p)\,dp
+$$
 
 Since $A + B = \frac{1}{2}$ (the area under the 45° line), the Gini coefficient is:
 
-$$G = \frac{A}{A + B} = 2A = 1 - 2B$$
+$$
+G = \frac{A}{A + B} = 2A = 1 - 2B
+$$
 
 Substituting the integral form of $B$:
 
-$$\boxed{G = 1 - 2\int_0^1 L(p)\,dp}$$
+$$
+\boxed{G = 1 - 2\int_0^1 L(p)\,dp}
+$$
 
 _Verification for discrete data._ Given cumulative shares $L_k$ at population proportions
-$p_k = k/n$The trapezoidal approximation gives
-$B = \sum_{k=1}^{n} \frac{(L_{k-1} + L_k)(p_k - p_{k-1})}{2}$Which is the formula used in Practice.
+$p_k = k/n$ The trapezoidal approximation gives
+$B = \sum_{k=1}^{n} \frac{(L_{k-1} + L_k)(p_k - p_{k-1})}{2}$ Which is the formula used in Practice.
 For perfect equality ($L(p) = p$): $B = \int_0^1 p\,dp = \frac{1}{2}$ So $G = 0$. For Maximum
 inequality ($L(p) = 0$ for $p < 1$, $L(1) = 1$): $B = 0$ So $G = 1$.
 
@@ -318,19 +350,25 @@ _Proof._
 (iii) Let $f(y)$ be the income density function and $F(y)$ the cumulative distribution function.
 Define $p = F(y)$ (the population proportion earning up to income $y$). Then:
 
-$$L(p) = \frac{1}{\mu}\int_0^y t \cdot f(t)\,dt$$
+$$
+L(p) = \frac{1}{\mu}\int_0^y t \cdot f(t)\,dt
+$$
 
 Where $\mu$ is mean income. Differentiating with respect to $p$ using $dp = f(y)\,dy$:
 
-$$L'(p) = \frac{dL}{dp} = \frac{dL/dy}{dp/dy} = \frac{y \cdot f(y)}{f(y)} = y \geq 0$$
+$$
+L'(p) = \frac{dL}{dp} = \frac{dL/dy}{dp/dy} = \frac{y \cdot f(y)}{f(y)} = y \geq 0
+$$
 
-Since income $y \geq 0$The Lorenz curve is monotonically non-decreasing. $\blacksquare$
+Since income $y \geq 0$ The Lorenz curve is monotonically non-decreasing. $\blacksquare$
 
 (iv) From (iii), $L'(p) = y \leq \mu$ for the bottom $p$ proportion (since the poorest individuals
-Earn less than or equal to the mean). Therefore $\frac{dL}{dp} \leq \frac{dp}{dp} = 1$Which Implies
+Earn less than or equal to the mean). Therefore $\frac{dL}{dp} \leq \frac{dp}{dp} = 1$ Which Implies
 $L(p) \leq p$ by integration from 0. Equality holds only under perfect equality. $\blacksquare$
 
-$$\boxed{L(0) = 0, \quad L(1) = 1, \quad L'(p) = y(p) \geq 0, \quad L(p) \leq p}$$
+$$
+\boxed{L(0) = 0, \quad L(1) = 1, \quad L'(p) = y(p) \geq 0, \quad L(p) \leq p}
+$$
 
 ## 8. Problem Set
 
@@ -344,7 +382,7 @@ Cumulative shares: (0.2, 0.05), (0.4, 0.15), (0.6, 0.30), (0.8, 0.55), (1.0, 1.0
 
 **Problem 2.** A flat tax of 20% is proposed to replace the current progressive system. Explain why
 A flat tax is regressive when measured against _spending_ rather than income, even though it is
-Proportional against income.
+proportional against income.
 
 <details>
 <summary>Hint</summary>
@@ -353,7 +391,7 @@ Low-income households spend a larger proportion of their income (sometimes more 
 
 **Problem 3.** The median household income in a country is £30,000. The relative poverty line is 60%
 Of median income. A household has income of £16,000. Is this household in relative poverty? If the
-Median income rises to £35,000 but the household's income stays at £16,000, what happens?
+median income rises to £35,000 but the household's income stays at £16,000, what happens?
 
 <details>
 <summary>Hint</summary>
@@ -424,6 +462,8 @@ Education addresses the *root cause* (productivity differences) rather than the 
 
 **Example.** A country has six income groups (sextiles) with the following shares of total income:
 
+<div class="table-wrap">
+
 | Group       | Population share | Income share |
 | ----------- | ---------------- | ------------ |
 | Poorest 1/6 | 16.7%            | 3%           |
@@ -433,7 +473,11 @@ Education addresses the *root cause* (productivity differences) rather than the 
 | 5th 1/6     | 16.7%            | 25%          |
 | Richest 1/6 | 16.7%            | 35%          |
 
+</div>
+
 **Answer.** Cumulative population and income shares:
+
+<div class="table-wrap">
 
 | Cumulative population | Cumulative income |
 | --------------------- | ----------------- |
@@ -444,14 +488,16 @@ Education addresses the *root cause* (productivity differences) rather than the 
 | 83.3%                 | 65%               |
 | 100%                  | 100%              |
 
+</div>
+
 The Lorenz curve passes through these points. The significant bow below the 45-degree line indicates
 Substantial inequality. The bottom half of the population earns only 22% of total income.
 
 ### 9.2 Comparing Two Lorenz Curves
 
 If country A's Lorenz curve is everywhere closer to the 45-degree line than country B's, then
-Country A has unambiguously lower inequality. If the curves cross, the comparison is ambiguous: one
-Country may have less inequality at the bottom of the distribution but more at the top.
+country A has unambiguously lower inequality. If the curves cross, the comparison is ambiguous: one
+country may have less inequality at the bottom of the distribution but more at the top.
 
 ## 10. Gini Coefficient: Extended Calculation
 
@@ -464,11 +510,17 @@ Country may have less inequality at the bottom of the distribution but more at t
 
 Using the trapezoidal rule for $B$ (area under the Lorenz curve):
 
-$$B = 0.2 \times \frac{0 + 0.06}{2} + 0.2 \times \frac{0.06 + 0.17}{2} + 0.2 \times \frac{0.17 + 0.33}{2} + 0.2 \times \frac{0.33 + 0.56}{2} + 0.2 \times \frac{0.56 + 1.0}{2}$$
+$$
+B = 0.2 \times \frac{0 + 0.06}{2} + 0.2 \times \frac{0.06 + 0.17}{2} + 0.2 \times \frac{0.17 + 0.33}{2} + 0.2 \times \frac{0.33 + 0.56}{2} + 0.2 \times \frac{0.56 + 1.0}{2}
+$$
 
-$$B = 0.2 \times (0.030 + 0.115 + 0.250 + 0.445 + 0.780) = 0.2 \times 1.620 = 0.324$$
+$$
+B = 0.2 \times (0.030 + 0.115 + 0.250 + 0.445 + 0.780) = 0.2 \times 1.620 = 0.324
+$$
 
-$$G = 1 - 2B = 1 - 0.648 = 0.352$$
+$$
+G = 1 - 2B = 1 - 0.648 = 0.352
+$$
 
 A Gini of $0.352$ indicates moderate inequality, comparable to the UK.
 
@@ -481,11 +533,15 @@ Share falls from 44% to 43%. Recalculate $G$.
 **Answer.** New cumulative shares: $(0.2, 0.07)$$(0.4, 0.18)$$(0.6, 0.34)$$(0.8, 0.57)$
 $(1.0, 1.0)$.
 
-$$B = 0.2 \times (0.035 + 0.125 + 0.260 + 0.455 + 0.785) = 0.2 \times 1.660 = 0.332$$
+$$
+B = 0.2 \times (0.035 + 0.125 + 0.260 + 0.455 + 0.785) = 0.2 \times 1.660 = 0.332
+$$
 
-$$G = 1 - 2(0.332) = 0.336$$
+$$
+G = 1 - 2(0.332) = 0.336
+$$
 
-The Gini coefficient falls from $0.352$ to $0.336$Confirming that progressive redistribution Reduces
+The Gini coefficient falls from $0.352$ to $0.336$ Confirming that progressive redistribution Reduces
 measured inequality.
 
 ## 11. Causes of Income Inequality: Extended Analysis
@@ -532,9 +588,9 @@ measured inequality.
 ### 12.1 The Poverty Trap Mechanism
 
 A **poverty trap** occurs when the effective marginal tax rate (EMTR) on additional income is so
-High that work does not significantly increase net income. When means-tested benefits are withdrawn
-As earnings rise, the combined effect of income tax, National Insurance, and benefit withdrawal can
-Create EMTRs exceeding 80%.
+high that work does not significantly increase net income. When means-tested benefits are withdrawn
+as earnings rise, the combined effect of income tax, National Insurance, and benefit withdrawal can
+create EMTRs exceeding 80%.
 
 **Example.** A single parent earning $£15\,000$ receives $£8\,000$ in means-tested benefits. For
 Every extra $£1$ earned:
@@ -550,12 +606,14 @@ This creates almost no financial incentive to increase working hours or seek hig
 ### 12.2 Universal Credit and Taper Rates
 
 Universal Credit (UK) uses a single taper rate of 55% (as of 2024), meaning benefits are withdrawn
-At 55p for every extra $£1$ earned above the work allowance. This simplifies the system but still
+at 55p for every extra $£1$ earned above the work allowance. This simplifies the system but still
 Creates high EMTRs when combined with income tax and National Insurance.
 
 ## 13. Government Redistribution Policies: Extended Analysis
 
 ### 13.1 The Full Redistribution Toolkit
+
+<div class="table-wrap">
 
 | Policy                 | Mechanism                                  | Effect on Inequality                    | Potential Drawbacks                               |
 | ---------------------- | ------------------------------------------ | --------------------------------------- | ------------------------------------------------- |
@@ -567,11 +625,13 @@ Creates high EMTRs when combined with income tax and National Insurance.
 | Free education         | State-funded schooling and university      | Promotes equality of opportunity        | Quality varies, regressive if richer benefit more |
 | National minimum wage  | Floor on hourly pay                        | Compresses wage distribution from below | May reduce employment if set too high             |
 
+</div>
+
 ### 13.2 Evaluating Effectiveness
 
 The most effective redistribution strategies combine **predistribution** (reducing inequality before
-Tax, through education, minimum wages, and competition policy) with **redistribution** (taxing and
-Transferring after market incomes are determined). Over-reliance on either alone is less effective:
+tax, through education, minimum wages, and competition policy) with **redistribution** (taxing and
+transferring after market incomes are determined). Over-reliance on either alone is less effective:
 
 - Pure predistribution without redistribution leaves those unable to work (disabled, retired,
   unemployed) without support
@@ -621,7 +681,7 @@ Transferring after market incomes are determined). Over-reliance on either alone
 
 **Problem 1.** A country has income quintile shares: 4%, 9%, 15%, 24%, 48%. Calculate the Gini
 Coefficient. If a policy transfers income to equalise the bottom two quintiles (both at 6.5%), what
-Is the new Gini?
+is the new Gini?
 
 <details>
 <summary>Hint</summary>
@@ -643,7 +703,7 @@ $£200$ per month?
 
 <details>
 <summary>Hint</summary>
-EMTR $= 20 + 12 + 55 = 87\%$. From $£200$: tax $= £40$NI $= £24$UC withdrawal $= £110$. Net gain $= 200 - 40 - 24 - 110 = £26$. She keeps 13%. This is a severe poverty trap.
+EMTR $= 20 + 12 + 55 = 87\%$. From $£200$: tax $= £40$ NI $= £24$ UC withdrawal $= £110$. Net gain $= 200 - 40 - 24 - 110 = £26$. She keeps 13%. This is a severe poverty trap.
 </details>
 
 **Problem 4.** "A universal basic income would eliminate poverty without creating disincentives to
@@ -672,7 +732,9 @@ that make complementary measures valuable.
 
 **The Palma ratio** is defined as:
 
-$$\text{Palma} = \frac{S_{90}}{S_{40}}$$
+$$
+\text{Palma} = \frac{S_{90}}{S_{40}}
+$$
 
 Where $S_{90}$ is the income share of the top 10% and $S_{40}$ is the income share of the bottom
 40%. The rationale is that the "middle" 50% of the income distribution (between the 40th and 90th
@@ -696,7 +758,9 @@ percentile earns 5.5 times more than someone at the 10th percentile.
 Simon Kuznets (1955) hypothesised an inverted-U relationship between inequality and economic
 development:
 
-$$G = f(g_Y), \quad f'(g_Y) > 0 \text{ for low } g_Y, \quad f'(g_Y) < 0 \text{ for high } g_Y$$
+$$
+G = f(g_Y), \quad f'(g_Y) > 0 \text{ for low } g_Y, \quad f'(g_Y) < 0 \text{ for high } g_Y
+$$
 
 The argument: early industrialisation draws labour from agriculture to industry, increasing
 inequality (industrial wages are more dispersed than agricultural incomes). Later, mass education,
@@ -719,9 +783,11 @@ institutions), technology, and globalisation, not just the level of income.
 **Intergenerational income elasticity (IGE)** measures the correlation between parents' and
 children's incomes:
 
-$$\text{IGE} = \frac{\partial \ln(Y_{child})}{\partial \ln(Y_{parent})}$$
+$$
+\text{IGE} = \frac{\partial \ln(Y_{child})}{\partial \ln(Y_{parent})}
+$$
 
-If IGE $= 0.5$A 10% increase in parental income is associated with a 5% increase in the child's
+If IGE $= 0.5$ A 10% increase in parental income is associated with a 5% increase in the child's
 income. Higher IGE means less mobility.
 
 The **Great Gatsby Curve** plots IGE against the Gini coefficient across countries. The positive
@@ -735,6 +801,8 @@ Gini, high IGE) achieve neither.
 
 Consider a single parent with one child, working part-time. The following applies:
 
+<div class="table-wrap">
+
 | Income range        | Income tax | NI (12%) | UC taper (55%) | Total EMTR |
 | ------------------- | ---------- | -------- | -------------- | ---------- |
 | GBP 0 - 5,000       | 0%         | 0%       | 55%            | 55%        |
@@ -742,11 +810,15 @@ Consider a single parent with one child, working part-time. The following applie
 | GBP 12,571 - 50,270 | 20%        | 12%      | 55%            | 87%        |
 | GBP 50,271+         | 40%        | 2%       | 0%             | 42%        |
 
+</div>
+
 The EMTR peaks at 87% over a wide income range, creating a severe poverty trap. This worker would
 need a wage increase of approximately GBP 7.70 per hour just to gain GBP 1 per hour in net income.
 
 **Policy solution: universal basic income (UBI).** If UC were replaced by a UBI of GBP 5,000 per
 year (non-means-tested), the EMTR would be:
+
+<div class="table-wrap">
 
 | Income range        | Income tax | NI  | EMTR |
 | ------------------- | ---------- | --- | ---- |
@@ -754,6 +826,8 @@ year (non-means-tested), the EMTR would be:
 | GBP 5,001 - 12,570  | 20%        | 12% | 32%  |
 | GBP 12,571 - 50,270 | 20%        | 12% | 32%  |
 | GBP 50,271+         | 40%        | 2%  | 42%  |
+
+</div>
 
 The UBI eliminates the poverty trap entirely. However, the fiscal cost is enormous: GBP 5,000 per
 adult $\times$ 53 million adults $=$ GBP 265 billion per year (approximately 12% of GDP).
@@ -883,6 +957,8 @@ creating disincentives to work." Evaluate this statement.
 
 **Example.** A country has 5 income groups with the following data:
 
+<div class="table-wrap">
+
 | Group      | Population share | Income share | Average income |
 | ---------- | :--------------: | :----------: | :------------: |
 | Bottom 20% |       20%        |      5%      |   GBP 10,000   |
@@ -891,7 +967,11 @@ creating disincentives to work." Evaluate this statement.
 | Fourth 20% |       20%        |     25%      |   GBP 50,000   |
 | Top 20%    |       20%        |     45%      |   GBP 90,000   |
 
+</div>
+
 **Cumulative shares for Lorenz curve:**
+
+<div class="table-wrap">
 
 | Population % | Income % |
 | :----------: | :------: |
@@ -902,13 +982,21 @@ creating disincentives to work." Evaluate this statement.
 |     80%      |   55%    |
 |     100%     |   100%   |
 
+</div>
+
 **Gini coefficient (approximation using trapezoidal rule):**
 
 Area under Lorenz curve:
-$$A = \frac{1}{2}\left[(0.2)(0 + 0.05) + (0.2)(0.05 + 0.15) + (0.2)(0.15 + 0.30) + (0.2)(0.30 + 0.55) + (0.2)(0.55 + 1.0)\right]$$
-$$A = 0.1[0.05 + 0.20 + 0.45 + 0.85 + 1.55] = 0.1 \times 3.10 = 0.310$$
+$$
+A = \frac{1}{2}\left[(0.2)(0 + 0.05) + (0.2)(0.05 + 0.15) + (0.2)(0.15 + 0.30) + (0.2)(0.30 + 0.55) + (0.2)(0.55 + 1.0)\right]
+$$
+$$
+A = 0.1[0.05 + 0.20 + 0.45 + 0.85 + 1.55] = 0.1 \times 3.10 = 0.310
+$$
 
-$$G = 1 - 2A = 1 - 0.620 = 0.380$$
+$$
+G = 1 - 2A = 1 - 0.620 = 0.380
+$$
 
 **Interpretation:** Gini = 0.38 indicates moderate inequality. For comparison: UK (0.35), USA
 (0.41), Sweden (0.27), South Africa (0.63), Brazil (0.53).
@@ -917,12 +1005,16 @@ $$G = 1 - 2A = 1 - 0.620 = 0.380$$
 
 **Example.** A single parent with one child earns GBP 30,000 per year. The tax and benefit system:
 
+<div class="table-wrap">
+
 | Component          | Rate/Amount    | Threshold                         |
 | ------------------ | -------------- | --------------------------------- |
 | Income tax         | 20%            | GBP 12,570 personal allowance     |
 | National Insurance | 12%            | GBP 12,570                        |
 | Universal Credit   | 55% taper rate | GBP 0 (withdrawn as income rises) |
 | Child benefit      | GBP 24/week    | Withdrawn above GBP 50,000        |
+
+</div>
 
 **Take-home pay calculation:**
 
@@ -956,6 +1048,8 @@ or a negative income tax (which has a single, lower taper rate).
 
 **Income distribution (2023, approximate):**
 
+<div class="table-wrap">
+
 |   Decile    | Share of total income | Cumulative |
 | :---------: | :-------------------: | :--------: |
 | Bottom 10%  |          2%           |     2%     |
@@ -969,7 +1063,11 @@ or a negative income tax (which has a single, lower taper rate).
 | Bottom 90%  |          56%          |    56%     |
 | Bottom 100% |         100%          |    100%    |
 
+</div>
+
 **Wealth distribution (2023, approximate):**
+
+<div class="table-wrap">
 
 |   Decile    | Share of total wealth | Cumulative |
 | :---------: | :-------------------: | :--------: |
@@ -983,6 +1081,8 @@ or a negative income tax (which has a single, lower taper rate).
 | Bottom 80%  |          21%          |   54.1%    |
 | Bottom 90%  |          33%          |   87.1%    |
 | Bottom 100% |         100%          |    100%    |
+
+</div>
 
 **Gini for income:** approximately 0.36. **Gini for wealth:** approximately 0.74.
 
@@ -1028,6 +1128,8 @@ average (approximately 2.5) but below the global average (approximately 4.0).
 
 **Comparison across countries:**
 
+<div class="table-wrap">
+
 | Country      | Palma Ratio | Gini |
 | ------------ | :---------: | :--: |
 | Sweden       |     1.1     | 0.27 |
@@ -1037,10 +1139,14 @@ average (approximately 2.5) but below the global average (approximately 4.0).
 | Brazil       |     5.5     | 0.53 |
 | South Africa |     7.1     | 0.63 |
 
+</div>
+
 ### 9.5 Poverty Measurement: Absolute vs Relative
 
 **Example.** A country has 60 million people with the following equivalised disposable income
 distribution:
+
+<div class="table-wrap">
 
 | Income bracket    | Population | Average income |
 | ----------------- | :--------: | :------------: |
@@ -1050,6 +1156,8 @@ distribution:
 | GBP 20,000-30,000 | 15 million |   GBP 25,000   |
 | GBP 30,000-50,000 | 15 million |   GBP 40,000   |
 | Above GBP 50,000  | 9 million  |   GBP 70,000   |
+
+</div>
 
 Median income: the 30th-31st millionth person falls in the GBP 20,000-30,000 bracket. Assuming
 uniform distribution within brackets: median
@@ -1082,6 +1190,8 @@ hypothesis)?
 
 **Hypothetical data:**
 
+<div class="table-wrap">
+
 | Country | GDP per capita (USD) | Gini coefficient |
 | ------- | :------------------: | :--------------: |
 | Malawi  |         500          |       0.39       |
@@ -1093,6 +1203,8 @@ hypothesis)?
 | UK      |        42,000        |       0.35       |
 | USA     |        63,000        |       0.41       |
 | Sweden  |        56,000        |       0.27       |
+
+</div>
 
 **Plotting Gini against GDP per capita:** the relationship is NOT an inverted-U as Kuznets
 predicted. Brazil (middle income) has a much higher Gini than both low-income (Malawi) and
@@ -1124,6 +1236,8 @@ automatically reduce inequality.
 
 **UK wealth distribution (approximate):**
 
+<div class="table-wrap">
+
 | Wealth band   | Number of households | Total wealth | Taxable wealth (above 2m) |
 | ------------- | :------------------: | :----------: | :-----------------------: |
 | GBP 0-500k    |      22 million      | GBP 6,600bn  |             0             |
@@ -1134,7 +1248,11 @@ automatically reduce inequality.
 | GBP 10m-50m   |       100,000        | GBP 2,000bn  |        GBP 1,980bn        |
 | Above GBP 50m |        5,000         |  GBP 750bn   |         GBP 745bn         |
 
+</div>
+
 **Revenue calculation (1% on wealth above 2m):**
+
+<div class="table-wrap">
 
 | Wealth band | Taxable wealth | Tax revenue (1%) |
 | ----------- | :------------: | :--------------: |
@@ -1143,6 +1261,8 @@ automatically reduce inequality.
 | GBP 10m-50m |    1,980bn     |      19.8bn      |
 | Above 50m   |     745bn      |      7.45bn      |
 | **Total**   |  **8,525bn**   | **GBP 85.25bn**  |
+
+</div>
 
 **Gross revenue: GBP 85.25 billion per year** (approximately 3.5% of GDP). This is substantial --
 enough to fund the NHS for 8 months.
@@ -1222,6 +1342,8 @@ million adults.
 
 **Distributional impact:**
 
+<div class="table-wrap">
+
 | Household type                | Current net income |        UBI net income        | Change |
 | ----------------------------- | :----------------: | :--------------------------: | :----: |
 | Single, no work, no benefits  |         0          |            4,800             | +4,800 |
@@ -1229,6 +1351,8 @@ million adults.
 | Couple, 2 children, GBP 60k   |       42,000       |   38,400 (after tax rise)    | -3,600 |
 | Couple, 2 children, GBP 30k   |       24,000       |   26,400 (after tax rise)    | +2,400 |
 | Pensioner, state pension only |       11,500       | 11,500 (if pension retained) |   0    |
+
+</div>
 
 **Key findings:**
 
@@ -1263,16 +1387,6 @@ These experiments suggest that UBI is most effective in developing countries (wh
 transfer represents a large share of income) and less transformative in developed countries (where
 it is too small to replace existing welfare systems). The political economy challenge is that the
 level of UBI needed to replace existing benefits in developed countries is fiscally very expensive.
-
-```mermaid
-flowchart TD
-    A[06 Distribution Of Income] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

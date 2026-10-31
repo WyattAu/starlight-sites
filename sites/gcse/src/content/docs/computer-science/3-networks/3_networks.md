@@ -1,6 +1,5 @@
 ---
 
-
 title: "Networks"
 description: "Study notes for Networks | GCSE - Wyatt's Notes with worked examples and practice questions."
 --------- | ----------------------------------- | --------------------------------------"
@@ -30,12 +29,16 @@ categories:
 
 ### 1.1 LAN and WAN
 
+<div class="table-wrap">
+
 | Feature   | LAN (Local Area Network)            | WAN (Wide Area Network)                |
 | --------- | ----------------------------------- | -------------------------------------- |
 | Coverage  | Small area (building, school, home) | Large area (cities, countries, global) |
 | Ownership | Owned by the organisation           | Owned by multiple organisations/ISPs   |
 | Speed     | Fast (100 Mbps -- 10 Gbps)          | Slower than LAN                        |
 | Cost      | Low setup and maintenance           | High setup and maintenance             |
+
+</div>
 
 **The Internet** is the largest WAN in the world, connecting billions of devices globally.
 
@@ -63,6 +66,8 @@ Between a phone and headphones are an example.
 
 **Client-server vs P2P comparison:**
 
+<div class="table-wrap">
+
 | Feature        | Client-Server              | Peer-to-Peer                 |
 | -------------- | -------------------------- | ---------------------------- |
 | Central device | Yes (server)               | No                           |
@@ -72,6 +77,8 @@ Between a phone and headphones are an example.
 | Scalability    | Easier to scale            | Difficult at large scale     |
 | Failure impact | Server failure affects all | Only affected peer goes down |
 | Best for       | Businesses, schools        | Small home networks          |
+
+</div>
 
 ### 1.3 Network Topologies
 
@@ -110,6 +117,8 @@ A **network topology** describes the physical or logical arrangement of devices 
 
 ### 1.4 Comparing Topologies
 
+<div class="table-wrap">
+
 | Feature         | Star           | Mesh             | Bus          | Ring     |
 | --------------- | -------------- | ---------------- | ------------ | -------- |
 | Cost            | Low            | High             | Very low     | Low      |
@@ -119,12 +128,14 @@ A **network topology** describes the physical or logical arrangement of devices 
 | Cable required  | One per device | Many             | One backbone | One ring |
 | Common use      | LANs           | Critical systems | Legacy       | Legacy   |
 
+</div>
+
 **Worked Example.** A school has 30 computers in a computer lab. Recommend a topology and justify
 Your answer.
 
 A star topology is most appropriate. Each computer connects to a central switch via its own cable.
 If one cable fails, only that computer is affected. It is easy to add or remove computers. The
-Switch manages traffic efficiently, avoiding collisions.
+switch manages traffic efficiently, avoiding collisions.
 
 ### 1.5 Network Models in Practice
 
@@ -132,12 +143,14 @@ Switch manages traffic efficiently, avoiding collisions.
 Internet. Draw and describe the network topology.
 
 All devices connect to a central switch (star topology). The switch connects to the router, which
-Connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
-Through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
+connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
+through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
 
 ## 2. Network Hardware
 
 ### 2.1 Key Devices
+
+<div class="table-wrap">
 
 | Device                       | Function                                                                                                     |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -149,10 +162,12 @@ Through one of the computers. This is a LAN with a star topology connected to a 
 | Bridge                       | Connects two segments of a LAN, filtering traffic                                                            |
 | Repeater                     | Amplifies signals to extend the range of a network                                                           |
 
+</div>
+
 ### 2.2 Switch vs Hub
 
 A **hub** broadcasts incoming data to ALL ports. This is inefficient and causes collisions because
-Every device receives every message, even if it was not the intended recipient.
+every device receives every message, even if it was not the intended recipient.
 
 A **switch** learns which device is connected to each port and directs data only to the intended
 Recipient. This is more efficient and reduces collisions.
@@ -163,7 +178,7 @@ Switch is like a person handing a sealed envelope directly to the intended recip
 **Worked Example.** Computer A sends a message to Computer B on a network with a hub. What happens?
 
 The hub receives the message and broadcasts it to ALL ports. Computers C, D, and E also receive the
-Message, even though it was only intended for Computer B. Each computer checks the destination MAC
+message, even though it was only intended for Computer B. Each computer checks the destination MAC
 Address and discards the message if it does not match. This wastes bandwidth on all devices.
 
 ### 2.3 Router vs Switch
@@ -172,9 +187,11 @@ A **switch** connects devices within a single LAN and forwards frames based on M
 
 A **router** connects different networks (e.g., a LAN to the Internet) and forwards packets based on
 IP addresses. Routers can also perform NAT (Network Address Translation), allowing multiple devices
-On a LAN to share a single public IP address.
+on a LAN to share a single public IP address.
 
 **Device comparison by OSI layer:**
+
+<div class="table-wrap">
 
 | Device | OSI Layer     | Address Used | Connects             |
 | ------ | ------------- | ------------ | -------------------- |
@@ -182,11 +199,15 @@ On a LAN to share a single public IP address.
 | Switch | Data Link (2) | MAC address  | Devices within a LAN |
 | Router | Network (3)   | IP address   | Different networks   |
 
+</div>
+
 ## 3. Network Models
 
 ### 3.1 The TCP/IP Model
 
 The TCP/IP model has four layers:
+
+<div class="table-wrap">
 
 | Layer                 | Function                               | Examples                        |
 | --------------------- | -------------------------------------- | ------------------------------- |
@@ -195,9 +216,13 @@ The TCP/IP model has four layers:
 | Internet (Network)    | Routes data packets across networks    | IP, routing protocols           |
 | Link (Network Access) | Handles physical transmission of data  | Ethernet, Wi-Fi, MAC addressing |
 
+</div>
+
 ### 3.2 The OSI Model (Higher Tier)
 
 The OSI (Open Systems Interconnection) model has seven layers:
+
+<div class="table-wrap">
 
 | Layer | Name         | Function                     | Examples             |
 | ----- | ------------ | ---------------------------- | -------------------- |
@@ -208,6 +233,8 @@ The OSI (Open Systems Interconnection) model has seven layers:
 | 3     | Network      | Routing and addressing       | IP, ICMP, ARP        |
 | 2     | Data Link    | Node-to-node delivery, MAC   | Ethernet, Wi-Fi      |
 | 1     | Physical     | Electrical signals, bits     | Cables, hubs         |
+
+</div>
 
 **Mnemonic:** "All People Seem To Need Data Processing" (Application, Presentation, Session,
 Transport, Network, Data Link, Physical).
@@ -228,17 +255,21 @@ Link layer combines OSI layers 1 and 2.
 
 **Encapsulation.** At each layer, data is wrapped (encapsulated) with a header. At the receiving
 End, each layer removes (decapsulates) its header before passing data up. The application receives
-Only the original message.
+only the original message.
 
 **Encapsulation sequence:**
 
-$$\mathrm{Data \xrightarrow{\mathrm{Transport} \mathrm{Segment \xrightarrow{\mathrm{Internet} \mathrm{Packet \xrightarrow{\mathrm{Link} \mathrm{Frame$$
+$$
+\mathrm{Data \xrightarrow{\mathrm{Transport} \mathrm{Segment \xrightarrow{\mathrm{Internet} \mathrm{Packet \xrightarrow{\mathrm{Link} \mathrm{Frame
+$$
 
 **Decapsulation at receiver:** Frame $\to$ Packet $\to$ Segment $\to$ Data.
 
 ## 4. Network Protocols
 
 ### 4.1 Key Protocols
+
+<div class="table-wrap">
 
 | Protocol  | Layer       | Purpose                                                                                   |
 | --------- | ----------- | ----------------------------------------------------------------------------------------- |
@@ -253,7 +284,11 @@ $$\mathrm{Data \xrightarrow{\mathrm{Transport} \mathrm{Segment \xrightarrow{\mat
 | DNS       | Application | Resolves domain names to IP addresses (port 53)                                           |
 | DHCP      | Application | Assigns IP addresses automatically (port 67/68)                                           |
 
+</div>
+
 ### 4.2 TCP vs UDP
+
+<div class="table-wrap">
 
 | Feature     | TCP                                 | UDP                          |
 | ----------- | ----------------------------------- | ---------------------------- |
@@ -262,6 +297,8 @@ $$\mathrm{Data \xrightarrow{\mathrm{Transport} \mathrm{Segment \xrightarrow{\mat
 | Speed       | Slower                              | Faster                       |
 | Order       | Data arrives in order               | Data may arrive out of order |
 | Use cases   | Web browsing, email, file transfer  | Streaming, gaming, VoIP      |
+
+</div>
 
 **TCP three-way handshake:**
 
@@ -275,12 +312,14 @@ Packet loss.
 
 **When to use UDP.** UDP is appropriate when speed matters more than reliability. A few lost packets
 In a video stream are barely noticeable (a momentary glitch), but waiting for retransmission would
-Cause visible lag. Similarly, in online gaming, a stale position update is useless -- the game needs
-The most recent data, not old reliable data.
+cause visible lag. Similarly, in online gaming, a stale position update is useless -- the game needs
+the most recent data, not old reliable data.
 
 ### 4.3 Protocol Port Numbers
 
 Well-known ports are standardised so that services can be found at predictable addresses.
+
+<div class="table-wrap">
 
 | Port  | Protocol | Purpose          |
 | ----- | -------- | ---------------- |
@@ -294,13 +333,17 @@ Well-known ports are standardised so that services can be found at predictable a
 | 443   | HTTPS    | Secure web pages |
 | 993   | IMAPS    | Secure IMAP      |
 
+</div>
+
 ## 5. IP Addressing
 
 ### 5.1 IPv4 Addresses
 
 An **IPv4 address** is a 32-bit number, written as four decimal numbers separated by dots:
 
-$$\mathrm{Example:  192.168.1.1$$
+$$
+\mathrm{Example:  192.168.1.1
+$$
 
 Each number ranges from 0 to 255 (8 bits each, total 32 bits).
 
@@ -316,7 +359,9 @@ $192.168.1.1 = 11000000.10101000.00000001.00000001$.
 
 An **IPv6 address** is a 128-bit number, written as eight groups of hexadecimal:
 
-$$\mathrm{Example:  2001:0db8:85a3:0000:0000:8a2e:0370:7334$$
+$$
+\mathrm{Example:  2001:0db8:85a3:0000:0000:8a2e:0370:7334
+$$
 
 Total possible IPv6 addresses: $2^{128} \approx 3.4 \times 10^{38}$.
 
@@ -325,7 +370,7 @@ Vastly larger address space, ensuring enough addresses for the foreseeable futur
 
 **IPv6 address shortening rules:**
 
-- Leading zeros within each group can be omitted: `0001` becomes `1``0db8` becomes `db8`.
+- Leading zeros within each group can be omitted: `0001` becomes `1`, `0db8` becomes `db8`.
 - Consecutive groups of all zeros can be replaced with `::` (only once per address).
 
 Example: `2001:0db8:0000:0000:0000:0000:0000:0001` becomes `2001:db8::1`.
@@ -335,9 +380,13 @@ Example: `2001:0db8:0000:0000:0000:0000:0000:0001` becomes `2001:db8::1`.
 A **MAC (Media Access Control) address** is a 48-bit unique identifier assigned to a network
 Interface card by the manufacturer. It is written as six pairs of hexadecimal digits:
 
-$$\mathrm{Example:  00:1A:2B:3C:4D:5E$$
+$$
+\mathrm{Example:  00:1A:2B:3C:4D:5E
+$$
 
 **Difference between IP and MAC addresses:**
+
+<div class="table-wrap">
 
 | Feature     | IP Address                 | MAC Address                            |
 | ----------- | -------------------------- | -------------------------------------- |
@@ -346,6 +395,8 @@ $$\mathrm{Example:  00:1A:2B:3C:4D:5E$$
 | Used for    | Routing across networks    | Identifying devices on a local network |
 | Layer       | Internet layer             | Link layer                             |
 | Length      | 32 bits (IPv4)             | 48 bits                                |
+
+</div>
 
 **Analogy.** An IP address is like a postal address (it changes when you move). A MAC address is
 Like a National Insurance number (it is permanently assigned to you).
@@ -360,7 +411,7 @@ Like a National Insurance number (it is permanently assigned to you).
 
 Devices on a home LAN use private IP addresses. The router uses **NAT** (Network Address
 Translation) to map private addresses to a single public IP address when communicating with the
-Internet.
+internet.
 
 **Worked Example.** A home network has devices with IP addresses 192.168.1.2, 192.168.1.3, and
 192.168.1.4. The router's public IP is 203.0.113.5. When device 192.168.1.2 sends a request to a web
@@ -371,6 +422,8 @@ Arrives, NAT translates the destination back to 192.168.1.2.
 
 ### 6.1 Threats
 
+<div class="table-wrap">
+
 | Threat                  | Description                                                                        |
 | ----------------------- | ---------------------------------------------------------------------------------- |
 | Malware                 | Malicious software (viruses, worms, trojans, ransomware, spyware)                  |
@@ -380,6 +433,8 @@ Arrives, NAT translates the destination back to 192.168.1.2.
 | Denial of service (DoS) | Overwhelming a server with traffic to make it unavailable                          |
 | Interception            | Eavesdropping on network communications                                            |
 | Data theft              | Unauthorised access to or copying of data                                          |
+
+</div>
 
 **Types of malware in detail:**
 
@@ -396,6 +451,8 @@ Arrives, NAT translates the destination back to 192.168.1.2.
 
 ### 6.2 Prevention Methods
 
+<div class="table-wrap">
+
 | Method                          | Description                                                                   |
 | ------------------------------- | ----------------------------------------------------------------------------- |
 | Firewall                        | Hardware or software that monitors and filters network traffic based on rules |
@@ -407,6 +464,8 @@ Arrives, NAT translates the destination back to 192.168.1.2.
 | Physical security               | Locks, security guards, CCTV                                                  |
 | Penetration testing             | Simulated attacks to find vulnerabilities                                     |
 | Software updates                | Installing patches to fix known security vulnerabilities                      |
+
+</div>
 
 ### 6.3 Encryption
 
@@ -433,7 +492,7 @@ Passwords. Even a small change in input produces a completely different hash.
 Prevents it.
 
 In a MITM attack, an attacker intercepts communication between two parties. Without HTTPS, the
-Attacker can read and modify all data. With HTTPS, the browser verifies the server's digital
+attacker can read and modify all data. With HTTPS, the browser verifies the server's digital
 Certificate against a trusted certificate authority (CA). The attacker cannot forge a valid
 Certificate, so the browser warns the user. The encrypted connection ensures the attacker cannot
 Read or modify the data even if they intercept it.
@@ -503,6 +562,8 @@ Data is broken into small packets for transmission across a network. Each packet
 
 **Packet switching vs circuit switching:**
 
+<div class="table-wrap">
+
 | Feature        | Packet Switching                 | Circuit Switching             |
 | -------------- | -------------------------------- | ----------------------------- |
 | Connection     | No dedicated connection          | Dedicated connection          |
@@ -510,7 +571,11 @@ Data is broken into small packets for transmission across a network. Each packet
 | Reliability    | Packets can take different paths | Fixed route                   |
 | Example        | The Internet                     | Traditional telephone network |
 
+</div>
+
 ### 8.2 Transmission Media
+
+<div class="table-wrap">
 
 | Medium                      | Type     | Speed     | Distance    | Security            |
 | --------------------------- | -------- | --------- | ----------- | ------------------- |
@@ -519,6 +584,8 @@ Data is broken into small packets for transmission across a network. Each packet
 | Wi-Fi (radio waves)         | Unguided | Fast      | Short       | Low (interceptable) |
 | Microwave                   | Unguided | Fast      | Medium-Long | Medium              |
 | Satellite                   | Unguided | Variable  | Very long   | Medium              |
+
+</div>
 
 **Fibre optic vs copper:**
 
@@ -530,11 +597,11 @@ Data is broken into small packets for transmission across a network. Each packet
 ### 8.3 Encryption for Data Transmission
 
 All data sent over public networks should be encrypted. HTTPS uses TLS (Transport Layer Security) to
-Encrypt web traffic, preventing interception.
+encrypt web traffic, preventing interception.
 
 **Certificate authorities (CAs).** When you visit an HTTPS site, the server presents a digital
 Certificate issued by a trusted CA. The browser verifies this certificate to ensure it is
-Communicating with the genuine server and not an impostor. This prevents man-in-the-middle attacks.
+communicating with the genuine server and not an impostor. This prevents man-in-the-middle attacks.
 
 ### 1.6 Network Models in Practice
 
@@ -542,19 +609,21 @@ Communicating with the genuine server and not an impostor. This prevents man-in-
 Internet. Describe the network topology.
 
 All devices connect to a central switch (star topology). The switch connects to the router, which
-Connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
-Through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
+connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
+through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
 
 **Worked Example.** A school has two buildings, each with 20 computers connected by switches. The
 two Buildings are connected by a fibre optic cable. Describe the topology.
 
 Each building has a LAN with a star topology. The buildings are connected by the fibre optic cable,
 Forming a WAN. Each building has its own switch, and the switches are connected to a router that
-Manages inter-building traffic.
+manages inter-building traffic.
 
 ## 2. Network Hardware
 
 ### 2.1 Key Devices
+
+<div class="table-wrap">
 
 | Device                       | Function                                                                                                     |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -566,10 +635,12 @@ Manages inter-building traffic.
 | Bridge                       | Connects two segments of a LAN, filtering traffic                                                            |
 | Repeater                     | Amplifies signals to extend the range of a network                                                           |
 
+</div>
+
 ### 2.2 Switch vs Hub
 
 A **hub** broadcasts incoming data to ALL ports. This is inefficient and causes collisions because
-Every device receives every message, even if it was not the intended recipient.
+every device receives every message, even if it was not the intended recipient.
 
 A **switch** learns which device is connected to each port and directs data only to the intended
 Recipient. This is more efficient and reduces collisions.
@@ -580,7 +651,7 @@ Switch is like a person handing a sealed envelope directly to the intended recip
 **Worked Example.** Computer A sends a message to Computer B on a network with a hub. What happens?
 
 The hub receives the message and broadcasts it to ALL ports. Computers C, D, and E also receive the
-Message, even though it was only intended for Computer B. Each computer checks the destination MAC
+message, even though it was only intended for Computer B. Each computer checks the destination MAC
 Address and discards the message if it does not match. This wastes bandwidth on all devices.
 
 ### 2.3 Router vs Switch
@@ -589,9 +660,11 @@ A **switch** connects devices within a single LAN and forwards frames based on M
 
 A **router** connects different networks (e.g., a LAN to the Internet) and forwards packets based on
 IP addresses. Routers can also perform NAT (Network Address Translation), allowing multiple devices
-On a LAN to share a single public IP address.
+on a LAN to share a single public IP address.
 
 **Device comparison by OSI layer:**
+
+<div class="table-wrap">
 
 | Device | OSI Layer     | Address Used | Connects             |
 | ------ | ------------- | ------------ | -------------------- |
@@ -599,10 +672,12 @@ On a LAN to share a single public IP address.
 | Switch | Data Link (2) | MAC address  | Devices within a LAN |
 | Router | Network (3)   | IP address   | Different networks   |
 
+</div>
+
 ### 2.4 MAC Addresses in Detail
 
 A MAC address is a 48-bit unique identifier assigned to a NIC by the manufacturer. It is written as
-Six pairs of hexadecimal digits: `00:1A:2B:3C:4D:5E`.
+six pairs of hexadecimal digits: `00:1A:2B:3C:4D:5E`.
 
 The first 24 bits (3 bytes) identify the manufacturer (OUI -- Organisationally Unique Identifier).
 The last 24 bits identify the specific device.
@@ -633,7 +708,7 @@ Using MAC addresses. IP addresses are used at layer 3 (Network) for routing betw
 Medium should they use and why?
 
 Fibre optic cable. Copper (twisted pair) has a maximum reliable distance of 100 metres. Fibre optic
-Can span the 500 metres without repeaters and provides higher bandwidth for future growth.
+can span the 500 metres without repeaters and provides higher bandwidth for future growth.
 
 ## 8. Data Transmission
 
@@ -654,12 +729,16 @@ Data is broken into small packets for transmission across a network. Each packet
 
 **Packet switching vs circuit switching:**
 
+<div class="table-wrap">
+
 | Feature        | Packet Switching                 | Circuit Switching             |
 | -------------- | -------------------------------- | ----------------------------- |
 | Connection     | No dedicated connection          | Dedicated connection          |
 | Resource usage | Efficient (shared)               | Wasteful (reserved)           |
 | Reliability    | Packets can take different paths | Fixed route                   |
 | Example        | The Internet                     | Traditional telephone network |
+
+</div>
 
 ### 8.2 Error Detection
 
@@ -676,11 +755,11 @@ Number of 1s = 5 (odd). Parity bit = 1 (to make total even). Transmitted: 110110
 ### 8.3 Encryption for Data Transmission
 
 All data sent over public networks should be encrypted. HTTPS uses TLS (Transport Layer Security) to
-Encrypt web traffic, preventing interception.
+encrypt web traffic, preventing interception.
 
 **Certificate authorities (CAs).** When you visit an HTTPS site, the server presents a digital
 Certificate issued by a trusted CA. The browser verifies this certificate to ensure it is
-Communicating with the genuine server and not an impostor. This prevents man-in-the-middle attacks.
+communicating with the genuine server and not an impostor. This prevents man-in-the-middle attacks.
 
 ## Additional Practice Questions
 
@@ -779,17 +858,6 @@ Multi-step problems in Networks often combine two or more concepts. Break the pr
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[3_Networks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of networks, including underlying theory, practical
@@ -802,9 +870,6 @@ implementation, and key applications.
 - protocols (HTTP, FTP, SMTP)
 - encryption and security
 - client-server and peer-to-peer
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 

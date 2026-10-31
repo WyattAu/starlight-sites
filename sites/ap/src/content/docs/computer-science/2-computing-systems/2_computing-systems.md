@@ -25,6 +25,8 @@ categories:
 
 ### Hardware Components
 
+<div class="table-wrap">
+
 | Component        | Function                                       |
 | ---------------- | ---------------------------------------------- |
 | CPU              | Executes instructions, performs calculations   |
@@ -35,6 +37,8 @@ categories:
 | Power supply     | Provides electrical power                      |
 | Input devices    | Keyboard, mouse, microphone, camera            |
 | Output devices   | Monitor, speakers, printer                     |
+
+</div>
 
 ### The Fetch-Decode-Execute Cycle
 
@@ -66,13 +70,17 @@ Register R2 to register R1).
 
 Computers represent all data in binary (0s and 1s).
 
+<div class="table-wrap">
+
 | Data Type | Representation                       |
 | --------- | ------------------------------------ |
-| Integer   | Two"s complement (signed integers)   |
+| Integer   | Two's complement (signed integers)   |
 | Character | ASCII (7-bit) or Unicode (16+ bit)   |
 | Color     | RGB values (24 bits, 8 per channel)  |
 | Image     | Grid of pixels, each with RGB values |
 | Audio     | Sampled amplitude values             |
+
+</div>
 
 #### Two's Complement
 
@@ -107,12 +115,12 @@ Add 1: $10011100$.
 Verify: $-128 + 16 + 8 + 4 = -100$. Correct.
 
 **Why two's complement is preferred.** Two's complement has the useful property that addition and
-Subtraction use the same circuitry. To subtract $a - b$You add $a$ to the two's complement Of $b$.
+Subtraction use the same circuitry. To subtract $a - b$ You add $a$ to the two's complement Of $b$.
 There is no separate subtraction circuit needed.
 
-**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$Let $\bar{x}$ Be
+**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$ Let $\bar{x}$ Be
 the bitwise complement. Then $\bar{x} = (2^n - 1) - x$. Adding 1: $\bar{x} + 1 = 2^n - x$. In
-$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$Confirming $\bar{x} + 1 = -x$.
+$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$ Confirming $\bar{x} + 1 = -x$.
 $\blacksquare$
 
 **Overflow detection.** If adding two positive numbers produces a negative result (or vice versa),
@@ -126,11 +134,13 @@ $100 = 01100100$, $50 = 00110010$.
 Sum: $10010110$.
 
 The MSB is 1, indicating a negative result. $10010110 = -128 + 16 + 4 + 2 = -106$. This is incorrect
-($100 + 50 = 150$Which exceeds the 8-bit range). Overflow has occurred.
+($100 + 50 = 150$ Which exceeds the 8-bit range). Overflow has occurred.
 
 #### Hexadecimal
 
 Base-16 representation, using digits 0--9 and A--F.
+
+<div class="table-wrap">
 
 | Binary | Hex | Decimal |
 | ------ | --- | ------- |
@@ -150,6 +160,8 @@ Base-16 representation, using digits 0--9 and A--F.
 | 1101   | D   | 13      |
 | 1110   | E   | 14      |
 | 1111   | F   | 15      |
+
+</div>
 
 Conversion: group binary digits in groups of 4 from right to left.
 
@@ -173,11 +185,15 @@ An image is a grid of pixels. Each pixel's colour is represented by binary value
 - **Colour depth:** Number of bits per pixel (1 bit = 2 colours, 24 bits = 16,777,216 colours).
 - **Resolution:** Width $\times$ height in pixels.
 
-$$\mathrm{File size (bits) = \mathrm{width \times \mathrm{height \times \mathrm{colour depth$$
+$$
+\mathrm{File size (bits) = \mathrm{width \times \mathrm{height \times \mathrm{colour depth
+$$
 
 **Worked example.** A $1920 \times 1080$ image with 24-bit colour:
 
-$$1920 \times 1080 \times 24 = 49766400 \mathrm{ bits \approx 5.93 \mathrm{ MB$$
+$$
+1920 \times 1080 \times 24 = 49766400 \mathrm{ bits \approx 5.93 \mathrm{ MB
+$$
 
 #### Representing Sound
 
@@ -187,7 +203,9 @@ Sound is digitised by sampling the amplitude of an analogue wave at regular inte
 - **Bit depth:** Bits per sample. CD quality: 16-bit.
 - **Channels:** Mono (1) or stereo (2).
 
-$$\mathrm{File size (bits) = \mathrm{sample rate \times \mathrm{bit depth \times \mathrm{duration \times \mathrm{channels$$
+$$
+\mathrm{File size (bits) = \mathrm{sample rate \times \mathrm{bit depth \times \mathrm{duration \times \mathrm{channels
+$$
 
 **Worked Example.** A 2-minute stereo recording at 48000 Hz with 16-bit depth.
 
@@ -196,6 +214,8 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 ## Logic Gates and Boolean Logic (CED Unit 4)
 
 ### Basic Gates
+
+<div class="table-wrap">
 
 | Gate | Symbol   | Boolean Expression     | Truth Table                 |
 | ---- | -------- | ---------------------- | --------------------------- |
@@ -206,9 +226,13 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 | NOR  | A NOR B  | $\overline{A + B}$     | NOT OR                      |
 | XOR  | A XOR B  | $A \oplus B$           | 1 if inputs differ          |
 
+</div>
+
 ### Truth Tables
 
 **AND gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A AND B |
 | --- | --- | ------- |
@@ -217,7 +241,11 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 | 1   | 0   | 0       |
 | 1   | 1   | 1       |
 
+</div>
+
 **XOR gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A XOR B |
 | --- | --- | ------- |
@@ -226,15 +254,21 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 | 1   | 0   | 1       |
 | 1   | 1   | 0       |
 
+</div>
+
 ### De Morgan's Laws
 
-$$\overline{A \cdot B} = \bar{A} + \bar{B}$$
+$$
+\overline{A \cdot B} = \bar{A} + \bar{B}
+$$
 
-$$\overline{A + B} = \bar{A} \cdot \bar{B}$$
+$$
+\overline{A + B} = \bar{A} \cdot \bar{B}
+$$
 
 **Intuition.** De Morgan's Laws say that the negation of a conjunction is the disjunction of the
 Negations, and vice versa. "It is not true that both A and B are true" is equivalent to "A is false
-Or B is false."
+or B is false."
 
 **Application in circuit design.** If you need a NOR gate but only have NAND gates available, De
 Morgan's Laws let you convert between gate types.
@@ -245,12 +279,16 @@ $\overline{A \cdot \bar{B}} = \bar{A} + \overline{\bar{B}} = \bar{A} + B$.
 
 **Proof of De Morgan's first law by truth table:**
 
+<div class="table-wrap">
+
 | A   | B   | $A \cdot B$ | $\overline{A \cdot B}$ | $\bar{A}$ | $\bar{B}$ | $\bar{A} + \bar{B}$ |
 | --- | --- | ----------- | ---------------------- | --------- | --------- | ------------------- |
 | 0   | 0   | 0           | 1                      | 1         | 1         | 1                   |
 | 0   | 1   | 0           | 1                      | 1         | 0         | 1                   |
 | 1   | 0   | 0           | 1                      | 0         | 1         | 1                   |
 | 1   | 1   | 1           | 0                      | 0         | 0         | 0                   |
+
+</div>
 
 Columns 4 and 7 are identical. $\blacksquare$
 
@@ -269,6 +307,8 @@ This requires: 2 NOT gates, 2 AND gates, 1 OR gate.
 
 **Truth table verification:**
 
+<div class="table-wrap">
+
 | A   | B   | $\bar{A}$ | $\bar{B}$ | $A \cdot \bar{B}$ | $\bar{A} \cdot B$ | $A \oplus B$ |
 | --- | --- | --------- | --------- | ----------------- | ----------------- | ------------ |
 | 0   | 0   | 1         | 1         | 0                 | 0                 | 0            |
@@ -276,25 +316,37 @@ This requires: 2 NOT gates, 2 AND gates, 1 OR gate.
 | 1   | 0   | 0         | 1         | 1                 | 0                 | 1            |
 | 1   | 1   | 0         | 0         | 0                 | 0                 | 0            |
 
+</div>
+
 ### Half Adder and Full Adder
 
 **Half adder:** Adds two single bits. Produces sum and carry.
 
-$$\mathrm{Sum = A \oplus B$$
+$$
+\mathrm{Sum = A \oplus B
+$$
 
-$$\mathrm{Carry = A \cdot B$$
+$$
+\mathrm{Carry = A \cdot B
+$$
 
 **Full adder:** Adds two bits and a carry-in. Produces sum and carry-out.
 
-$$\mathrm{Sum = A \oplus B \oplus C_{\mathrm{in}$$
+$$
+\mathrm{Sum = A \oplus B \oplus C_{\mathrm{in}
+$$
 
-$$C_{\mathrm{out} = (A \cdot B) + (C_{\mathrm{in} \cdot (A \oplus B))$$
+$$
+C_{\mathrm{out} = (A \cdot B) + (C_{\mathrm{in} \cdot (A \oplus B))
+$$
 
 **Why full adders matter.** A full adder can be chained to add multi-bit numbers. To add two 8-bit
 Numbers, chain 8 full adders: the carry-out of each stage becomes the carry-in of the next. The
-Final carry-out is the 9th bit of the result.
+final carry-out is the 9th bit of the result.
 
 **Worked Example.** Add 0110 and 0011 using half adders and full adders.
+
+<div class="table-wrap">
 
 | Position  | 3 (MSB) | 2   | 1   | 0 (LSB) |
 | --------- | ------- | --- | --- | ------- |
@@ -303,6 +355,8 @@ Final carry-out is the 9th bit of the result.
 | Carry in  | 0       | 0   | 1   | 0       |
 | Sum       | 0       | 1   | 0   | 1       |
 | Carry out | 0       | 0   | 1   | 0       |
+
+</div>
 
 Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 
@@ -332,6 +386,8 @@ Milliseconds instead of nanoseconds, causing a noticeable delay.
 
 ### Types of Operating Systems
 
+<div class="table-wrap">
+
 | Type      | Examples              | Characteristics               |
 | --------- | --------------------- | ----------------------------- |
 | Desktop   | Windows, macOS, Linux | Personal use, multitasking    |
@@ -339,6 +395,8 @@ Milliseconds instead of nanoseconds, causing a noticeable delay.
 | Server    | Windows Server, Linux | Network services, high uptime |
 | Embedded  | RTOS, firmware        | Limited resources, dedicated  |
 | Real-time | VxWorks, FreeRTOS     | Guaranteed response times     |
+
+</div>
 
 ### The Role of the Kernel
 
@@ -359,6 +417,8 @@ Request the kernel to perform privileged operations on their behalf.
 
 ### Software Testing
 
+<div class="table-wrap">
+
 | Type                | Description                                      |
 | ------------------- | ------------------------------------------------ |
 | Unit testing        | Testing individual components                    |
@@ -368,9 +428,11 @@ Request the kernel to perform privileged operations on their behalf.
 | Black-box testing   | Testing based on inputs/outputs (no code access) |
 | White-box testing   | Testing based on internal code structure         |
 
+</div>
+
 **Black-box vs white-box.** Black-box testing verifies that the system produces correct outputs for
 Given inputs, without examining the code. White-box testing examines the code structure to ensure
-Every path is tested (e.g., every branch of every `if` statement).
+every path is tested (e.g., every branch of every `if` statement).
 
 **Worked Example.** A function `isValidAge(age)` returns true if 0 $\le$ age $\le$ 120.
 
@@ -403,6 +465,8 @@ Complement, the result wraps around to $4000000000 - 2^{32} = -294967296$.
 
 ### Bitwise Operators in Java
 
+<div class="table-wrap">
+
 | Operator   | Name        | Description                            |
 | ---------- | ----------- | -------------------------------------- |
 | `&`        | AND         | Bitwise AND                            |
@@ -411,6 +475,8 @@ Complement, the result wraps around to $4000000000 - 2^{32} = -294967296$.
 | `~`        | NOT         | Bitwise complement (inverts all bits)  |
 | `&lt;&lt;` | Left shift  | Shifts bits left, fills with zeros     |
 | `&gt;&gt;` | Right shift | Shifts bits right, fills with sign bit |
+
+</div>
 
 ```java
 int a = 12;   // 00001100
@@ -433,6 +499,8 @@ char upper = (char) ('a' - 32);  // 'A'
 
 ### Comparing Storage Devices
 
+<div class="table-wrap">
+
 | Metric      | HDD              | SSD             |
 | ----------- | ---------------- | --------------- |
 | Read speed  | 50-200 MB/s      | 200-550 MB/s    |
@@ -443,8 +511,10 @@ char upper = (char) ('a' - 32);  // 'A'
 | Durability  | Mechanical parts | No moving parts |
 | Power usage | Higher           | Lower           |
 
+</div>
+
 IOPS (Input/Output Operations Per Second) measures how many read/write operations a drive can
-Perform per second. SSDs excel here due to having no moving parts.
+perform per second. SSDs excel here due to having no moving parts.
 
 ### BIOS vs UEFI
 
@@ -488,9 +558,13 @@ Binary: $11111111$. Decimal: $15     imes 16 + 15 = 255$.
 
 **Addition rules:**
 
+<div class="table-wrap">
+
 | $0 + 0$ | $0 + 1$ | $1 + 0$ | $1 + 1$        |
 | ------- | ------- | ------- | -------------- |
 | 0       | 1       | 1       | 10 (0 carry 1) |
+
+</div>
 
 **Worked Example.** Add 0110 and 0011.
 
@@ -538,6 +612,8 @@ $12 / 4 = 3$ pages.
 
 ### Utility Programs
 
+<div class="table-wrap">
+
 | Utility              | Purpose                                     |
 | -------------------- | ------------------------------------------- |
 | Disk defragmenter    | Reorganises data on a HDD for faster access |
@@ -547,10 +623,12 @@ $12 / 4 = 3$ pages.
 | Backup software      | Creates copies of data for recovery         |
 | Firewall             | Monitors and filters network traffic        |
 
+</div>
+
 **Disk defragmentation.** On a HDD, files can become fragmented -- stored in non-contiguous clusters
 Across the disk. This slows down reading because the read head must move to multiple locations.
 Defragmentation reorganises files into contiguous blocks. Note: SSDs do not need defragmentation and
-It can actually reduce their lifespan.
+it can actually reduce their lifespan.
 
 ## Practice Questions
 
@@ -602,8 +680,12 @@ $2     imes 16 + 11 = 43$.
 
 A half adder adds two single bits:
 
-$$ ext{Sum} = A \oplus B$$
-$$ ext{Carry} = A \cdot B$$
+$$
+ext{Sum} = A \oplus B
+$$
+$$
+ext{Carry} = A \cdot B
+$$
 
 **Implementation using basic gates:** 1 XOR gate (sum), 1 AND gate (carry).
 
@@ -611,7 +693,9 @@ $$ ext{Carry} = A \cdot B$$
 
 A full adder adds two bits and a carry-in:
 
-$$ ext{Sum} = A \oplus B \oplus C\*{ ext{in}}$$
+$$
+ext{Sum} = A \oplus B \oplus C\*{ ext{in}}
+$$
 
 $$
 C*{ ext{out}} = (A \cdot B) + (C\_{ ext{in}} \cdot
@@ -622,6 +706,8 @@ $$
 
 **Worked Example.** Add $7$ and $5$ using full adders (4-bit).
 
+<div class="table-wrap">
+
 | Position  | 3 (MSB) | 2   | 1   | 0 (LSB) |
 | --------- | ------- | --- | --- | ------- |
 | A         | 0       | 1   | 1   | 1       |
@@ -629,6 +715,8 @@ $$
 | Carry in  | 0       | 1   | 0   | 0       |
 | Sum       | 1       | 1   | 0   | 0       |
 | Carry out | 0       | 0   | 1   | 0       |
+
+</div>
 
 Result: $1100 = 12$. Check: $7 + 5 = 12$. Correct.
 
@@ -646,6 +734,8 @@ Git tracks changes to source code over time. Key concepts:
 
 **Common Git commands:**
 
+<div class="table-wrap">
+
 | Command               | Purpose                     |
 | --------------------- | --------------------------- |
 | `git init`            | Create a new repository     |
@@ -657,6 +747,8 @@ Git tracks changes to source code over time. Key concepts:
 | `git checkout branch` | Switch to a branch          |
 | `git merge branch`    | Merge a branch into current |
 | `git log`             | View commit history         |
+
+</div>
 
 ### Integrated Development Environments (IDEs)
 
@@ -820,7 +912,7 @@ Wait -- that's incorrect. Let me redo: $C(\bar{A} + A \cdot \bar{B})$. This does
 using basic identities .
 
 Alternative approach -- try consensus: $\bar{A}C + A\bar{B}C$. The consensus of $\bar{A}$ and
-$\bar{B}$ with respect to $C$ is $\bar{A}\bar{B}$Which is not present, so no further simplification.
+$\bar{B}$ with respect to $C$ is $\bar{A}\bar{B}$ Which is not present, so no further simplification.
 
 The simplified expression is:
 $\bar{A} \cdot C + A \cdot \bar{B} \cdot C = C(\bar{A} + A \cdot \bar{B})$.
@@ -909,7 +1001,7 @@ $\overline{A \cdot B + C \cdot D} = \overline{A \cdot B} \cdot \overline{C \cdot
 
 To express using only AND and NOT, note that $\overline{X + Y} = \bar{X} \cdot \bar{Y}$ (De
 Morgan's). But the question says only AND and NOT. Since
-$\overline{A \cdot B} = \overline{A} + \overline{B}$This introduces OR.
+$\overline{A \cdot B} = \overline{A} + \overline{B}$ This introduces OR.
 
 Using only NAND (AND + NOT): $\overline{A \cdot B} = \mathrm{NAND(A, B)$ and
 $\overline{C \cdot D} = \mathrm{NAND(C, D)$.
@@ -917,20 +1009,10 @@ $\overline{C \cdot D} = \mathrm{NAND(C, D)$.
 So: $\mathrm{NAND(A, B) \cdot \mathrm{NAND(C, D)$ -- but this uses AND.
 
 Actually, NAND(A, B) already uses AND and NOT: $\overline{A \cdot B}$. So the answer is:
-$\overline{A \cdot B} \cdot \overline{C \cdot D}$Which uses only AND (implicit in the NOT-AND) and
+$\overline{A \cdot B} \cdot \overline{C \cdot D}$ Which uses only AND (implicit in the NOT-AND) and
 NOT operations.
 
 </details>
-
-```mermaid
-flowchart TD
-    A[2_Computing Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -944,9 +1026,6 @@ implementation, and key applications.
 - object-oriented programming
 - error handling and debugging
 - modular design
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

@@ -78,7 +78,7 @@ University-level particle physics and cosmology notes covering the Standard Mode
 ## Prerequisites
 
 - Quantum mechanics (operators, perturbation theory)
-- Electromagnetism (Maxwell"s equations, gauge invariance)
+- Electromagnetism (Maxwell's equations, gauge invariance)
 - Special relativity (four-vectors, Lorentz transformations)
 - Statistical mechanics (thermal physics, thermodynamics)
 
@@ -87,8 +87,6 @@ University-level particle physics and cosmology notes covering the Standard Mode
 Start with the Standard Model to understand the foundations, then progress to Feynman diagrams and cosmology. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -119,7 +117,7 @@ Particle physics seeks to identify the fundamental building blocks of matter and
 - **Thermal Physics:** Thermodynamics of the early universe.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

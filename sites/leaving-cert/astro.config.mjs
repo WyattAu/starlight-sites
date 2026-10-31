@@ -39,11 +39,19 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
-        { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
-        { label: 'Computer Science', items: [{ autogenerate: { directory: 'computer-science' } }] },
-        { label: 'Maths', items: [{ autogenerate: { directory: 'maths' } }] },
-        { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }] },
+        { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }], collapsed: true },
+        {
+          label: 'Chemistry',
+          items: [{ autogenerate: { directory: 'chemistry' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Computer Science',
+          items: [{ autogenerate: { directory: 'computer-science' } }],
+          collapsed: true,
+        },
+        { label: 'Maths', items: [{ autogenerate: { directory: 'maths' } }], collapsed: true },
+        { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }], collapsed: true },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -77,9 +85,7 @@ export default defineConfig({
           tag: 'link',
           attrs: {
             rel: 'stylesheet',
-            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css',
-            integrity: 'sha384-irXK0JiCGinqGL+slwVklbhJetrjczNwaP2lANewD8lKAs9n61SbQ3As28iSqXUE',
-            crossorigin: 'anonymous',
+            href: '/katex/katex.min.css',
           },
         },
         {
@@ -89,8 +95,6 @@ export default defineConfig({
             content: 'https://leaving-cert.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

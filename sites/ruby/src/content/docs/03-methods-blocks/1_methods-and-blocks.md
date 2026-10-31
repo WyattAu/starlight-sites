@@ -292,7 +292,7 @@ end
 
 ## Blocks
 
-Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby"s most
+Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby's most
 powerful features.
 
 ### Block Syntax
@@ -510,12 +510,16 @@ return_from_lambda  # => prints "This line DOES execute", returns nil from the m
 
 ### Proc vs Lambda Summary
 
+<div class="table-wrap">
+
 | Feature     | Proc                          | Lambda                        |
 | ----------- | ----------------------------- | ----------------------------- |
 | Creation    | `Proc.new {}` or `proc {}`    | `-> {}` or `lambda {}`        |
 | Arity check | Lenient (fills with nil)      | Strict (raises ArgumentError) |
 | Return      | Returns from enclosing method | Returns from lambda only      |
 | `lambda?`   | `false`                       | `true`                        |
+
+</div>
 
 ```ruby
 # Checking the type
@@ -883,16 +887,6 @@ end
 cache = Cache.new
 cache.fetch("expensive") { compute_expensive_result }
 cache.fetch("expensive") { compute_expensive_result }  # returns cached value
-```
-
-```mermaid
-flowchart TD
-    A[1_Methods And Blocks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition

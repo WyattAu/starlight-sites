@@ -29,7 +29,7 @@ categories:
 ### 1.1 DNA Structure
 
 DNA (deoxyribonucleic acid) is a long molecule that carries the genetic code. It is found in the
-Nucleus of cells and is organised into structures called **chromosomes**.
+nucleus of cells and is organised into structures called **chromosomes**.
 
 **Structure of DNA:**
 
@@ -45,7 +45,7 @@ Nucleus of cells and is organised into structures called **chromosomes**.
 **Why base pairing is specific.** The sizes and shapes of the bases determine which pairs can form.
 A and T form two hydrogen bonds because they have complementary shapes. C and G form three hydrogen
 Bonds. This specificity is fundamental to the accuracy of DNA replication: each base can only pair
-With its complementary partner, ensuring that the genetic information is copied correctly.
+with its complementary partner, ensuring that the genetic information is copied correctly.
 
 **Nucleotide structure in detail.** Each nucleotide consists of three parts:
 
@@ -54,8 +54,8 @@ With its complementary partner, ensuring that the genetic information is copied 
 3. A nitrogenous base -- attached to the 1' carbon of the sugar.
 
 Nucleotides are joined together by phosphodiester bonds between the phosphate group of one
-Nucleotide and the sugar of the next, forming a sugar-phosphate backbone. The bases project inwards
-From the backbone and pair with complementary bases on the opposite strand.
+nucleotide and the sugar of the next, forming a sugar-phosphate backbone. The bases project inwards
+from the backbone and pair with complementary bases on the opposite strand.
 
 ### 1.2 Genes and Chromosomes
 
@@ -94,20 +94,24 @@ The genetic code in DNA is used to make proteins through a two-stage process:
    peptide bonds to form a polypeptide chain. The chain folds into its functional protein shape.
 
 The sequence of bases in a gene determines the sequence of amino acids in a protein, which
-Determines the protein's shape and function. A change in the DNA sequence (mutation) can change the
-Amino acid sequence, potentially altering the protein's shape and function.
+determines the protein's shape and function. A change in the DNA sequence (mutation) can change the
+amino acid sequence, potentially altering the protein's shape and function.
 
 **Summary of protein synthesis steps.**
+
+<div class="table-wrap">
 
 | Stage         | Location | Template | Product | Key molecules involved       |
 | ------------- | -------- | -------- | ------- | ---------------------------- |
 | Transcription | Nucleus  | DNA      | mRNA    | RNA polymerase               |
 | Translation   | Ribosome | mRNA     | Protein | tRNA, ribosomes, amino acids |
 
+</div>
+
 ### 1.4 Genome
 
 The **genome** is the entire genetic material of an organism. The Human Genome Project (completed
-In 2003) mapped all the genes in human DNA.
+in 2003) mapped all the genes in human DNA.
 
 **Benefits of the Human Genome Project:**
 
@@ -160,6 +164,8 @@ Variation.
 
 **Key differences from mitosis:**
 
+<div class="table-wrap">
+
 | Feature           | Mitosis        | Meiosis                   |
 | ----------------- | -------------- | ------------------------- |
 | Divisions         | One            | Two                       |
@@ -167,6 +173,8 @@ Variation.
 | Chromosome number | Same as parent | Half of parent            |
 | Purpose           | Growth, repair | Producing gametes         |
 | Crossing over?    | No             | Yes (Prophase I)          |
+
+</div>
 
 ### 2.2 Asexual Reproduction
 
@@ -222,6 +230,8 @@ This shows how rapidly asexual reproduction can produce large numbers of organis
 
 ### 2.4 Higher Tier: Sexual and Asexual Reproduction Compared
 
+<div class="table-wrap">
+
 | Feature           | Sexual Reproduction            | Asexual Reproduction                 |
 | ----------------- | ------------------------------ | ------------------------------------ |
 | Number of parents | Two                            | One                                  |
@@ -231,9 +241,13 @@ This shows how rapidly asexual reproduction can produce large numbers of organis
 | Speed             | Slower (need to find a mate)   | Faster                               |
 | Adaptability      | High (variety aids adaptation) | Low (all vulnerable to same threats) |
 
+</div>
+
 ## 3. Inheritance
 
 ### 3.1 Key Terms
+
+<div class="table-wrap">
 
 | Term         | Definition                                                                                  |
 | ------------ | ------------------------------------------------------------------------------------------- |
@@ -247,6 +261,8 @@ This shows how rapidly asexual reproduction can produce large numbers of organis
 | Phenotype    | The observable characteristic produced by the genotype (e.g. Brown eyes)                    |
 | Carrier      | A heterozygous individual who carries a recessive allele without showing the characteristic |
 
+</div>
+
 ### 3.2 Genetic Crosses
 
 **Monohybrid crosses** investigate the inheritance of one characteristic.
@@ -258,10 +274,14 @@ Parental genotypes: Tt $\times$ tt
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | t   | Tt  | tt  |
 | t   | Tt  | tt  |
+
+</div>
 
 Genotypic ratio: 2 Tt : 2 tt (1:1)
 
@@ -274,10 +294,14 @@ Probability of tall offspring: 50%
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | F   | f   |
 | --- | --- | --- |
 | F   | FF  | Ff  |
 | f   | Ff  | ff  |
+
+</div>
 
 Genotypic ratio: 1 FF : 2 Ff : 1 ff
 
@@ -287,13 +311,13 @@ Probability of a child with cystic fibrosis: 25%
 
 **Understanding why carriers do not show the disease.** A carrier (Ff) has one dominant allele (F)
 That produces enough functional protein to maintain normal health. The recessive allele (f) does not
-Produce functional protein, but one copy of the dominant allele is sufficient. This is the principle
-Of **dominance**: the dominant allele masks the effect of the recessive allele in the heterozygote.
+produce functional protein, but one copy of the dominant allele is sufficient. This is the principle
+of **dominance**: the dominant allele masks the effect of the recessive allele in the heterozygote.
 
 **Worked Example 3: A two-generation cross.**
 
 In guinea pigs, black fur (B) is dominant over white fur (b). A homozygous black guinea pig is
-Crossed with a white guinea pig.
+crossed with a white guinea pig.
 
 F0 cross: BB $\times$ bb
 
@@ -303,10 +327,14 @@ Now cross two F1 offspring: Bb $\times$ Bb
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | B   | b   |
 | --- | --- | --- |
 | B   | BB  | Bb  |
 | b   | Bb  | bb  |
+
+</div>
 
 F2 genotypic ratio: 1 BB : 2 Bb : 1 bb
 
@@ -323,15 +351,21 @@ Sex is determined by the X and Y chromosomes:
 
 **Sex of offspring:**
 
+<div class="table-wrap">
+
 |     | X           | X           |
 | --- | ----------- | ----------- |
 | X   | XX (female) | XX (female) |
 | Y   | XY (male)   | XY (male)   |
 
+</div>
+
 Probability of male or female: 50% each. This is because the father can contribute either an X or a
 Y chromosome, while the mother always contributes an X chromosome.
 
 ### 3.4 Inherited Disorders
+
+<div class="table-wrap">
 
 | Disorder             | Pattern of Inheritance                             |
 | -------------------- | -------------------------------------------------- |
@@ -340,11 +374,13 @@ Y chromosome, while the mother always contributes an X chromosome.
 | Sickle cell disease  | Recessive (caused by mutation in haemoglobin gene) |
 | Polydactyly          | Dominant (extra fingers or toes)                   |
 
+</div>
+
 **Why recessive disorders are more common than dominant disorders.** A recessive disorder can be
 "hidden" in carriers (heterozygotes) who do not show the disease. These carriers can pass the
-Recessive allele to their children without knowing it. A dominant disorder cannot be hidden: anyone
-With the allele shows the disease. Dominant disorders are therefore more likely to be selected
-Against (affected individuals may have reduced fitness and fewer children), while recessive
+recessive allele to their children without knowing it. A dominant disorder cannot be hidden: anyone
+with the allele shows the disease. Dominant disorders are therefore more likely to be selected
+against (affected individuals may have reduced fitness and fewer children), while recessive
 Disorders can persist in the population for many generations through carriers.
 
 **Genetic testing and screening:**
@@ -368,15 +404,19 @@ Disorders can persist in the population for many generations through carriers.
 
 Some genes are located on the X chromosome. Because males have only one X chromosome (XY), a single
 Recessive allele on the X chromosome will be expressed in males. Females (XX) need two copies of the
-Recessive allele to show the condition.
+recessive allele to show the condition.
 
 **Example:** Red-green colour blindness is caused by a recessive allele on the X chromosome ($X^n$).
 A carrier female ($X^NX^n$) crossed with a normal male ($X^NY$):
+
+<div class="table-wrap">
 
 |       | $X^N$                     | $Y$                    |
 | ----- | ------------------------- | ---------------------- |
 | $X^N$ | $X^NX^N$ (normal female)  | $X^NY$ (normal male)   |
 | $X^n$ | $X^NX^n$ (carrier female) | $X^nY$ (affected male) |
+
+</div>
 
 This cross shows that colour blindness affects males more frequently than females. In this cross,
 50% of males are affected but no females are affected (though 50% are carriers).
@@ -388,15 +428,19 @@ A man who does not have haemophilia ($X^HY$).
 
 Punnett square:
 
+<div class="table-wrap">
+
 |       | $X^H$                     | $Y$                   |
 | ----- | ------------------------- | --------------------- |
 | $X^H$ | $X^HX^H$ (normal female)  | $X^HY$ (normal male)  |
 | $X^h$ | $X^HX^h$ (carrier female) | $X^hY$ (haemophiliac) |
 
+</div>
+
 Results: 25% normal female, 25% carrier female, 25% normal male, 25% haemophiliac male.
 
 The probability that a son will have haemophilia: 50% (because a son inherits his only X chromosome
-From his mother, and there is a 50% chance she passes on the $X^h$ allele).
+from his mother, and there is a 50% chance she passes on the $X^h$ allele).
 
 ## 4. Variation and Evolution
 
@@ -446,7 +490,7 @@ Classify each characteristic as genetic (G), environmental (E), or both (B):
 
 **Key insight:** Natural selection does not act on genes directly; it acts on phenotypes (observable
 Characteristics). The phenotype that confers a survival or reproductive advantage is selected for,
-But the alleles that produce that phenotype are what are passed to the next generation.
+but the alleles that produce that phenotype are what are passed to the next generation.
 
 **Example:** Peppered moths during the Industrial Revolution.
 
@@ -458,9 +502,11 @@ But the alleles that produce that phenotype are what are passed to the next gene
   began to increase.
 
 This example demonstrates that natural selection is not directional in a fixed sense; it responds to
-Changes in the environment.
+changes in the environment.
 
 ### 4.3 Evidence for Evolution
+
+<div class="table-wrap">
 
 | Evidence       | Description                                                           |
 | -------------- | --------------------------------------------------------------------- |
@@ -469,9 +515,11 @@ Changes in the environment.
 | Anatomy        | Homologous structures suggest common ancestry (e.g. Pentadactyl limb) |
 | Embryology     | Early embryos of different species look remarkably similar            |
 
+</div>
+
 **Homologous vs. Analogous structures.** Homologous structures have the same evolutionary origin but
 May serve different functions (e.g., the pentadactyl limb in humans, bats, whales, and birds -- all
-Have the same basic bone structure despite being used for grasping, flying, swimming, and walking
+have the same basic bone structure despite being used for grasping, flying, swimming, and walking
 Respectively). Analogous structures have different evolutionary origins but serve similar functions
 (e.g., the wings of birds and insects). Only homologous structures provide evidence for common
 Ancestry.
@@ -505,7 +553,7 @@ Bacteria can develop resistance to antibiotics through natural selection:
 
 **Why antibiotic resistance is a major public health concern.** The rate at which bacteria evolve
 Resistance is outpacing the rate at which new antibiotics are being developed. If antibiotics lose
-Their effectiveness, routine medical procedures (surgery, organ transplants, cancer treatment)
+their effectiveness, routine medical procedures (surgery, organ transplants, cancer treatment)
 Become much more dangerous because the risk of untreatable infections increases.
 
 **Preventing antibiotic resistance:**
@@ -541,7 +589,7 @@ The **binomial naming system** (Carl Linnaeus) gives each species a two-part Lat
 ### 5.1 Selective Breeding
 
 Selective breeding (artificial selection) is the process by which humans choose organisms with
-Desirable characteristics to be parents of the next generation.
+desirable characteristics to be parents of the next generation.
 
 **Examples:**
 
@@ -561,7 +609,7 @@ Desirable characteristics to be parents of the next generation.
 
 **Disadvantages:** Reduces genetic variation (all individuals become genetically similar, making the
 Population vulnerable to disease). Can cause health problems in animals (e.g., hip dysplasia in some
-Dog breeds, breathing difficulties in pugs).
+dog breeds, breathing difficulties in pugs).
 
 ### 5.2 Genetic Engineering
 
@@ -595,6 +643,8 @@ Growth hormone, clotting factors).
 
 **Comparison of selective breeding and genetic engineering.**
 
+<div class="table-wrap">
+
 | Feature           | Selective Breeding                     | Genetic Engineering                           |
 | ----------------- | -------------------------------------- | --------------------------------------------- |
 | Process           | Breeding organisms with desired traits | Transferring specific genes between organisms |
@@ -602,6 +652,8 @@ Growth hormone, clotting factors).
 | Specificity       | Cannot select single genes             | Can select specific genes                     |
 | Genetic variation | Reduced over time                      | Can introduce genes from any species          |
 | Ethical concerns  | Animal welfare                         | Unnatural gene transfer, ecological risks     |
+
+</div>
 
 ## Common Pitfalls
 
@@ -688,15 +740,17 @@ Growth hormone, clotting factors).
 ## 6. Higher Tier: Codominance and Incomplete Dominance
 
 Not all inheritance follows simple dominant/recessive patterns. Two important exceptions are
-Codominance and incomplete dominance.
+codominance and incomplete dominance.
 
 ### 6.1 Codominance
 
 In codominance, both alleles are expressed fully in the heterozygote. Neither allele is dominant or
-Recessive. The heterozygote shows both phenotypes simultaneously.
+recessive. The heterozygote shows both phenotypes simultaneously.
 
 **Example: Blood groups.** Human ABO blood groups are determined by three alleles: $I^A$, $I^B$ And
 $i$. $I^A$ and $I^B$ are codominant to each other, and both are dominant over $i$.
+
+<div class="table-wrap">
 
 | Genotype  | Blood group | Phenotype                          |
 | --------- | ----------- | ---------------------------------- |
@@ -707,6 +761,8 @@ $i$. $I^A$ and $I^B$ are codominant to each other, and both are dominant over $i
 | $I^A I^B$ | AB          | Both antigens A and B (codominant) |
 | $ii$      | O           | Neither antigen                    |
 
+</div>
+
 **Worked Example: Blood group inheritance.**
 
 A mother has blood group A (genotype $I^A i$) and a father has blood group B (genotype $I^B i$).
@@ -714,17 +770,21 @@ What are the possible blood groups of their children?
 
 Punnett square:
 
+<div class="table-wrap">
+
 |       | $I^A$          | $i$         |
 | ----- | -------------- | ----------- |
 | $I^B$ | $I^A I^B$ (AB) | $I^B i$ (B) |
 | $i$   | $I^A i$ (A)    | $ii$ (O)    |
+
+</div>
 
 Possible blood groups: A, B, AB, and O (all four groups are possible, each with 25% probability).
 
 ### 6.2 Incomplete Dominance
 
 In incomplete dominance, the heterozygote shows an intermediate phenotype between the two
-Homozygotes. The alleles blend rather than showing both fully.
+homozygotes. The alleles blend rather than showing both fully.
 
 **Example:** In snapdragons, the allele for red flowers (R) is incompletely dominant over the allele
 For white flowers (W). The heterozygote (RW) has pink flowers.
@@ -733,25 +793,29 @@ Cross: RR (red) $\times$ WW (white) $\to$ all RW (pink).
 
 Cross: RW (pink) $\times$ RW (pink):
 
+<div class="table-wrap">
+
 |     | R         | W          |
 | --- | --------- | ---------- |
 | R   | RR (red)  | RW (pink)  |
 | W   | RW (pink) | WW (white) |
+
+</div>
 
 Phenotypic ratio: 1 red : 2 pink : 1 white.
 
 ### 6.3 Multiple Alleles
 
 Some genes have more than two alleles in the population, although any individual can only carry two
-Alleles (one on each chromosome). The ABO blood group system is an example: there are three alleles
+alleles (one on each chromosome). The ABO blood group system is an example: there are three alleles
 ($I^A$, $I^B$ And $i$), but each person carries only two of them.
 
 ## 7. Higher Tier: Pedigree Charts
 
 A pedigree chart is a diagram showing the inheritance of a particular trait through several
-Generations of a family. Pedigree charts are used by genetic counsellors to determine the pattern of
-Inheritance of a genetic disorder and to calculate the probability of future offspring being
-Affected.
+generations of a family. Pedigree charts are used by genetic counsellors to determine the pattern of
+inheritance of a genetic disorder and to calculate the probability of future offspring being
+affected.
 
 **Conventions:**
 
@@ -789,17 +853,19 @@ A pedigree chart for a rare disorder shows:
 
 A **dihybrid cross** investigates the inheritance of two characteristics simultaneously. Mendel's
 Law of independent assortment states that alleles of different genes are distributed independently
-Of one another during gamete formation (provided the genes are on different chromosomes).
+of one another during gamete formation (provided the genes are on different chromosomes).
 
 **Worked Example: Dihybrid cross in pea plants.**
 
 In pea plants, round seeds (R) are dominant over wrinkled seeds (r), and yellow seeds (Y) are
-Dominant over green seeds (y). Both genes are on different chromosomes. Cross two double
+dominant over green seeds (y). Both genes are on different chromosomes. Cross two double
 Heterozygotes: RrYy $\times$ RrYy.
 
 Each parent can produce four types of gamete: RY, Ry, rY, ry (in equal proportions).
 
 Punnett square (4 $\times$ 4):
+
+<div class="table-wrap">
 
 |     | RY        | Ry        | rY        | ry        |
 | --- | --------- | --------- | --------- | --------- |
@@ -807,6 +873,8 @@ Punnett square (4 $\times$ 4):
 | Ry  | RRYy (RY) | RRyy (Ry) | RrYy (RY) | Rryy (Ry) |
 | rY  | RrYY (RY) | RrYy (RY) | rrYY (rY) | rrYy (rY) |
 | ry  | RrYy (RY) | Rryy (Ry) | rrYy (rY) | rryy (ry) |
+
+</div>
 
 Phenotypic ratio: 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green.
 
@@ -843,10 +911,14 @@ Gametes: $T$$t$ and $t$$t$.
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | t   | Tt  | tt  |
 | t   | Tt  | tt  |
+
+</div>
 
 Genotype ratio: 1 Tt : 1 tt (50% : 50%). Phenotype ratio: 1 tall : 1 short (50% : 50%).
 
@@ -866,10 +938,14 @@ colour blind?
 
 Punnett square:
 
+<div class="table-wrap">
+
 |       | $X^N$    | Y      |
 | ----- | -------- | ------ |
 | $X^N$ | $X^NX^N$ | $X^NY$ |
 | $X^n$ | $X^NX^n$ | $X^nY$ |
+
+</div>
 
 Each child has a 50% chance of being a boy. For sons: 50% normal ($X^NY$), 50% colour blind
 ($X^nY$).
@@ -958,17 +1034,6 @@ tested, and structure your answer using the appropriate terminology.
 Multi-step problems in Inheritance, Variation, and Evolution often combine two or more concepts.
 Break the problem down: identify what you need to find, recall the relevant formula or principle,
 substitute values, and state your answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[6_Inheritance Variation Evolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

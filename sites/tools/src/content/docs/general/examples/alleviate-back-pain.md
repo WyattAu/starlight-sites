@@ -41,6 +41,8 @@ Basic principles:
 
 ## The Complete Structure
 
+<div class="table-wrap">
+
 | Phase & Exercise                    | Sets | Repetitions / Duration | Rest      |
 | ----------------------------------- | :--: | :--------------------: | --------- |
 | Phase 1: Activation & Stability     |      |                        |           |
@@ -61,6 +63,8 @@ Basic principles:
 | Cat-Cow Stretch                     |  1   |    8-10 slow cycles    | -         |
 | Kneeling Hip Flexor Stretch         |  2   |  30-45 sec hold/side   | 15 sec    |
 | Supine Hamstring Stretch            |  2   |  30-45 sec hold/side   | 15 sec    |
+
+</div>
 
 ## Procedure
 
@@ -222,27 +226,9 @@ deeply and do not stretch into pain.
 4. Not making connections between different topics within the subject to build a coherent
    understanding.
 
-
-```mermaid
-flowchart TD
-    A[Alleviate Back Pain] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

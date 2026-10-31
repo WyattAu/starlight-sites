@@ -81,18 +81,24 @@ Increasing temperature:
 
 ### Derivation from Empirical Laws
 
+<div class="table-wrap">
+
 | Law          | Relationship    | Condition held constant |
 | ------------ | --------------- | ----------------------- |
-| Boyle"s      | $P \propto 1/V$ | $n$, $T$                |
+| Boyle's      | $P \propto 1/V$ | $n$, $T$                |
 | Charles's    | $V \propto T$   | $n$, $P$                |
 | Gay-Lussac's | $P \propto T$   | $n$, $V$                |
 | Avogadro's   | $V \propto n$   | $P$, $T$                |
 
-Combining: $PV \propto nT$Giving the ideal gas equation:
+</div>
+
+Combining: $PV \propto nT$ Giving the ideal gas equation:
 
 $$
 PV = nRT
 $$
+
+<div class="table-wrap">
 
 | Symbol | Meaning                | SI Unit                          |
 | ------ | ---------------------- | -------------------------------- |
@@ -101,6 +107,8 @@ $$
 | $n$    | Amount of substance    | $\mathrm{mol}$                   |
 | $R$    | Universal gas constant | $8.314\mathrm{ J/(mol \cdot K)}$ |
 | $T$    | Temperature            | $\mathrm{K}$                     |
+
+</div>
 
 ### Molar Volume
 
@@ -135,7 +143,7 @@ Leaks.
 
 - Forgetting to convert temperature to Kelvin.
 - Using the wrong value of $R$ (check units of $P$, $V$, $T$).
-- Confusing STP definitions (the IB uses $100\mathrm{ kPa}$Not $1\mathrm{ atm}$).
+- Confusing STP definitions (the IB uses $100\mathrm{ kPa}$ Not $1\mathrm{ atm}$).
 
 ---
 
@@ -164,10 +172,14 @@ $$
 \left(P + \frac{an^2}{V^2}\right)(V - nb) = nRT
 $$
 
+<div class="table-wrap">
+
 | Parameter | Meaning                                     |
 | --------- | ------------------------------------------- |
 | $a$       | Corrects for intermolecular attractions     |
 | $b$       | Corrects for the finite volume of molecules |
+
+</div>
 
 - The $a$ term increases the effective pressure (attractions reduce the pressure exerted on the
   walls).
@@ -175,11 +187,15 @@ $$
 
 ### Comparing Gases
 
+<div class="table-wrap">
+
 | Gas             | $a$ ($\mathrm{L}^2\cdot\mathrm{atm/mol}^2$) | $b$ ($\mathrm{L/mol}$) | Behaviour           |
 | --------------- | ------------------------------------------- | ---------------------- | ------------------- |
 | He              | $0.034$                                     | $0.024$                | Closest to ideal    |
 | $\mathrm{N}_2$  | $1.39$                                      | $0.039$                | Moderate deviations |
 | $\mathrm{CO}_2$ | $3.59$                                      | $0.043$                | Largest deviations  |
+
+</div>
 
 Gases with larger $a$ values (stronger intermolecular forces) and larger $b$ values (larger
 Molecules) deviate more from ideal behaviour.
@@ -187,11 +203,11 @@ Molecules) deviate more from ideal behaviour.
 ### Compressibility Factor
 
 $$
-Z = \frac`\{PV}``\{nRT}`
+Z = \frac`\{PV}`, `\{nRT}`
 $$
 
 - $Z = 1$: ideal gas
-- $Z \lt 1$: intermolecular attractions dominate (low $T$Moderate $P$)
+- $Z \lt 1$: intermolecular attractions dominate (low $T$ Moderate $P$)
 - $Z \gt 1$: molecular volume dominates (high $P$)
 
 ---
@@ -209,6 +225,8 @@ $$
 
 ### Types and Relative Strengths
 
+<div class="table-wrap">
+
 | Force                | Strength | Present in                        |
 | -------------------- | -------- | --------------------------------- |
 | Covalent/ionic bonds | Strong   | Within molecules/ionic lattices   |
@@ -216,6 +234,8 @@ $$
 | Hydrogen bonding     | Moderate | H bonded to N, O, or F            |
 | Dipole-dipole        | Weak     | Polar molecules                   |
 | London dispersion    | Weakest  | All molecules (temporary dipoles) |
+
+</div>
 
 ### London Dispersion Forces
 
@@ -229,15 +249,19 @@ Factors affecting strength:
 2. **Molecular shape**: larger surface area of contact = stronger forces. Linear molecules have
    stronger dispersion forces than branched isomers.
 
+<div class="table-wrap">
+
 | Comparison                            | Stronger LDF    | Reason                                     |
 | ------------------------------------- | --------------- | ------------------------------------------ |
 | $\mathrm{F}_2$ vs $\mathrm{Cl}_2$     | $\mathrm{Cl}_2$ | More electrons                             |
 | $\mathrm{C}_5\mathrm{H}_{12}$ isomers | n-pentane       | Greater surface area than branched isomers |
 
+</div>
+
 ### Dipole-Dipole Forces
 
 Polar molecules have permanent dipoles. The positive end of one molecule attracts the negative end
-Of another:
+of another:
 
 $$
 \mathrm{HCl}\cdots\mathrm{HCl}
@@ -247,7 +271,7 @@ $$
 
 **Definition.** A **hydrogen bond** is a strong dipole-dipole attraction between a hydrogen atom
 Covalently bonded to a highly electronegative atom (N, O, or F) and a lone pair on another
-Electronegative atom.
+electronegative atom.
 
 Requirements:
 
@@ -255,6 +279,8 @@ Requirements:
 2. A lone pair available on the acceptor atom.
 
 #### Effects of Hydrogen Bonding
+
+<div class="table-wrap">
 
 | Property               | Effect                               | Example                                                                                                      |
 | ---------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
@@ -265,9 +291,11 @@ Requirements:
 | Density anomaly        | Ice less dense than liquid water     | Open hydrogen-bonded structure of ice                                                                        |
 | Biological specificity | DNA base pairing, protein folding    | Complementary H-bond donors/acceptors                                                                        |
 
+</div>
+
 #### Anomalous Properties of Water
 
-Water's maximum density is at $4\degree\mathrm{C}$Not $0\degree\mathrm{C}$. In ice, each water
+Water's maximum density is at $4\degree\mathrm{C}$ Not $0\degree\mathrm{C}$. In ice, each water
 Molecule forms four hydrogen bonds in a tetrahedral arrangement, creating an open lattice with lower
 Density than liquid water.
 
@@ -287,7 +315,7 @@ Density than liquid water.
 ### Features
 
 A phase diagram shows the conditions of temperature and pressure at which each phase of a substance
-Is stable.
+is stable.
 
 Key features:
 
@@ -302,17 +330,39 @@ Key features:
 
 ### Phase Boundaries
 
+<div class="table-wrap">
+
 | Boundary      | Process          | Condition                           |
 | ------------- | ---------------- | ----------------------------------- |
 | Solid--liquid | Melting/freezing | Equilibrium curve                   |
 | Liquid--gas   | Vaporisation     | Vapour pressure = external pressure |
 | Solid--gas    | Sublimation      | Direct transition                   |
 
+</div>
+
+The six phase changes form three opposing pairs — each change has a reverse:
+
+```mermaid
+stateDiagram-v2
+    s1 : Solid
+    l1 : Liquid
+    g1 : Gas
+    s1 --> l1 : Melting (heat in)
+    l1 --> s1 : Freezing (heat out)
+    l1 --> g1 : Vaporisation (heat in)
+    g1 --> l1 : Condensation (heat out)
+    s1 --> g1 : Sublimation (heat in)
+    g1 --> s1 : Deposition (heat out)
+```
+
+Energy flows **in** for solid → liquid → gas and flows **out** for the reverse — the direction of
+each arrow's heat label is examinable.
+
 ### Water's Phase Diagram
 
 The solid--liquid boundary for water has a **negative slope** (unlike most substances). This is
-Because ice is less dense than liquid water, so increasing pressure favours the denser liquid phase
-And **lowers** the melting point.
+because ice is less dense than liquid water, so increasing pressure favours the denser liquid phase
+and **lowers** the melting point.
 
 ### $\mathrm{CO}_2$ Phase Diagram
 
@@ -341,6 +391,8 @@ $1\mathrm{ atm}$, $\mathrm{CO}_2$ sublimates directly from solid to gas, hence t
 
 ### Solids
 
+<div class="table-wrap">
+
 | Property      | Ionic Solids            | Molecular Solids | Covalent Network       | Metallic Solids                       |
 | ------------- | ----------------------- | ---------------- | ---------------------- | ------------------------------------- |
 | Particles     | Ions                    | Molecules        | Atoms                  | Metal cations + delocalised electrons |
@@ -348,6 +400,8 @@ $1\mathrm{ atm}$, $\mathrm{CO}_2$ sublimates directly from solid to gas, hence t
 | Melting point | High                    | Low              | Very high              | Variable                              |
 | Conductivity  | Conduct when molten     | Insulators       | Insulators (except Si) | Good conductors                       |
 | Solubility    | Often in polar solvents | Varies           | Insoluble              | Insoluble                             |
+
+</div>
 
 ---
 
@@ -366,7 +420,7 @@ $1\mathrm{ atm}$, $\mathrm{CO}_2$ sublimates directly from solid to gas, hence t
 <summary>Problem 1</summary>
 
 Explain why the boiling point of propan-1-ol ($97\degree\mathrm{C}$) is much higher than that of
-Butane ($-1\degree\mathrm{C}$), even though butane has a larger molar mass.
+butane ($-1\degree\mathrm{C}$), even though butane has a larger molar mass.
 
 **Solution:**
 
@@ -381,7 +435,7 @@ Bonding in propan-1-ol dominates and requires more energy to overcome.
 <summary>Problem 2</summary>
 
 A gas occupies $5.00\mathrm{ L}$ at $2.00\mathrm{ atm}$ and $300\mathrm{ K}$. Calculate the volume
-At $5.00\mathrm{ atm}$ and $400\mathrm{ K}$.
+at $5.00\mathrm{ atm}$ and $400\mathrm{ K}$.
 
 **Solution:**
 
@@ -407,12 +461,12 @@ Is higher than that of $\mathrm{NH}_3$ despite both having hydrogen bonding.
 **Solution:**
 
 $\mathrm{NH}_3$ vs $\mathrm{PH}_3$: $\mathrm{NH}_3$ forms hydrogen bonds (H bonded to N), which are
-Much stronger than the dipole-dipole and dispersion forces in $\mathrm{PH}_3$ (P is not
-Electronegative enough for H-bonding).
+much stronger than the dipole-dipole and dispersion forces in $\mathrm{PH}_3$ (P is not
+electronegative enough for H-bonding).
 
 $\mathrm{H}_2\mathrm{O}$ vs $\mathrm{NH}_3$: Each water molecule can form up to **two** hydrogen
 Bonds (two O--H donors and two lone pair acceptors), whereas each $\mathrm{NH}_3$ molecule can form
-Only **one** hydrogen bond (one N--H donor, but the lone pair on N is partly delocalised).
+only **one** hydrogen bond (one N--H donor, but the lone pair on N is partly delocalised).
 Additionally, water forms a more extensive three-dimensional hydrogen-bond network.
 
 </details>
@@ -490,7 +544,7 @@ Convert all quantities to SI units:
 Using $R = 8.314\mathrm{ J/(mol \cdot K)}$ (SI units):
 
 $$
-N = \frac`\{PV}``\{RT}` = \frac{98\,500 \times 2.500 \times 10^{-4}}{8.314 \times 298} = \frac{24.63}{2477.6} = 0.00994\mathrm{ mol}
+N = \frac`\{PV}`, `\{RT}` = \frac{98\,500 \times 2.500 \times 10^{-4}}{8.314 \times 298} = \frac{24.63}{2477.6} = 0.00994\mathrm{ mol}
 $$
 
 Alternatively, using $R = 8.314 \times 10^{-2}\mathrm{ L \cdot kPa/(mol \cdot K)}$ and keeping $V$
@@ -659,7 +713,7 @@ The trend is entirely consistent with increasing LDF strength down the group.
 ## Common Pitfalls
 
 - **Using Celsius instead of Kelvin in gas calculations:** The ideal gas law requires absolute
-  temperature. A gas at $27\degree\mathrm{C}$ has $T = 300\mathrm{ K}$Not $27$. Forgetting this
+  temperature. A gas at $27\degree\mathrm{C}$ has $T = 300\mathrm{ K}$ Not $27$. Forgetting this
   conversion produces answers that are off by a factor of $\approx 10$.
 
 - **Choosing the wrong value of $R$:** $R = 8.314\mathrm{ J/(mol \cdot K)}$ requires SI units
@@ -668,7 +722,7 @@ The trend is entirely consistent with increasing LDF strength down the group.
   results.
 
 - **Confusing STP definitions:** The IB uses STP as $0\degree\mathrm{C}$ and
-  $100\mathrm{ kPa}$Giving $V_m = 22.7\mathrm{ L/mol}$. Many textbooks use the older IUPAC
+  $100\mathrm{ kPa}$ Giving $V_m = 22.7\mathrm{ L/mol}$. Many textbooks use the older IUPAC
   definition ($1\mathrm{ atm} = 101.3\mathrm{ kPa}$$V_m = 22.4\mathrm{ L/mol}$). Using the wrong
   molar volume introduces a $\approx 1.3\%$ error.
 
@@ -727,7 +781,7 @@ The trend is entirely consistent with increasing LDF strength down the group.
 
 7. **[Medium]** A sample of gas effuses through an apparatus in $42\mathrm{ s}$. An equal number of
    moles of an unknown gas effuses through the same apparatus in $78\mathrm{ s}$. If the first gas
-   is $\mathrm{CO}_2$Calculate the molar mass of the unknown gas.
+   is $\mathrm{CO}_2$ Calculate the molar mass of the unknown gas.
 
 8. **[Hard]** At high pressures, real gases can have $Z \gt 1$. Explain the molecular-level origin
    of this deviation. Under what conditions of temperature and molecular identity would you expect
@@ -755,18 +809,24 @@ $500\;\mathrm{K}$. By what factor does the rms speed increase?
 <details>
 <summary>Solution</summary>
 
-$$v_{\mathrm{rms}} = \sqrt{\frac{3RT}{M}}$$
+$$
+v_{\mathrm{rms}} = \sqrt{\frac{3RT}{M}}
+$$
 
 At $298\;\mathrm{K}$:
-$$v_{\mathrm{rms}} = \sqrt{\frac{3 \times 8.314 \times 298}{0.0320}} = \sqrt{\frac{7429}{0.0320}} = \sqrt{232\,154} = 482\;\mathrm{m/s}$$
+$$
+v_{\mathrm{rms}} = \sqrt{\frac{3 \times 8.314 \times 298}{0.0320}} = \sqrt{\frac{7429}{0.0320}} = \sqrt{232\,154} = 482\;\mathrm{m/s}
+$$
 
 At $500\;\mathrm{K}$:
-$$v_{\mathrm{rms}} = \sqrt{\frac{3 \times 8.314 \times 500}{0.0320}} = \sqrt{\frac{12471}{0.0320}} = \sqrt{389\,719} = 624\;\mathrm{m/s}$$
+$$
+v_{\mathrm{rms}} = \sqrt{\frac{3 \times 8.314 \times 500}{0.0320}} = \sqrt{\frac{12471}{0.0320}} = \sqrt{389\,719} = 624\;\mathrm{m/s}
+$$
 
 Factor of increase: $\frac{624}{482} = 1.29$
 
-Since $v_{\mathrm{rms}} \propto \sqrt{T}$The factor is
-$\sqrt{500/298} = \sqrt{1.678} = 1.29$Consistent with the calculation.
+Since $v_{\mathrm{rms}} \propto \sqrt{T}$ The factor is
+$\sqrt{500/298} = \sqrt{1.678} = 1.29$ Consistent with the calculation.
 
 </details>
 
@@ -775,19 +835,19 @@ $\sqrt{500/298} = \sqrt{1.678} = 1.29$Consistent with the calculation.
 The critical point of $\mathrm{CO}_2$ is at $T_c = 304.3\;\mathrm{K}$ ($31.1\degree\mathrm{C}$) and
 $P_c = 7.38\;\mathrm{MPa}$ ($72.8\;\mathrm{atm}$). (a) Explain what happens at the critical point.
 (b) $\mathrm{CO}_2$ is commonly used as a supercritical fluid in decaffeination. If $\mathrm{CO}_2$
-is held at $40\degree\mathrm{C}$ and $80\;\mathrm{atm}$Is it supercritical? (c) State two properties
+is held at $40\degree\mathrm{C}$ and $80\;\mathrm{atm}$ Is it supercritical? (c) State two properties
 of supercritical $\mathrm{CO}_2$ that make it useful as a solvent.
 
 <details>
 <summary>Solution</summary>
 
 **(a)** At the critical point, the densities of the liquid and gas phases become identical. Above
-$T_c$ and $P_c$No phase boundary exists between liquid and gas, the substance exists as a single,
+$T_c$ and $P_c$ No phase boundary exists between liquid and gas, the substance exists as a single,
 dense phase called a supercritical fluid. The meniscus between liquid and gas disappears.
 
-**(b)** The conditions are $T = 40\degree\mathrm{C} = 313\;\mathrm{K}$Which is above
-$T_c = 304\;\mathrm{K}$ And $P = 80\;\mathrm{atm}$Which is above $P_c = 72.8\;\mathrm{atm}$. Since
-both $T > T_c$ and $P > P_c$The $\mathrm{CO}_2$ is in the supercritical state.
+**(b)** The conditions are $T = 40\degree\mathrm{C} = 313\;\mathrm{K}$ Which is above
+$T_c = 304\;\mathrm{K}$ And $P = 80\;\mathrm{atm}$ Which is above $P_c = 72.8\;\mathrm{atm}$. Since
+both $T > T_c$ and $P > P_c$ The $\mathrm{CO}_2$ is in the supercritical state.
 
 **(c)** Supercritical $\mathrm{CO}_2$ has a density similar to a liquid (good solvating power) but a
 viscosity similar to a gas (high diffusivity). This allows it to penetrate porous solids (like
@@ -807,20 +867,32 @@ enthalpy of vaporisation of water.
 
 The integrated Clausius-Clapeyron equation:
 
-$$\ln\!\left(\frac{P_2}{P_1}\right) = -\frac{\Delta H_{\mathrm{vap}}}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\!\left(\frac{P_2}{P_1}\right) = -\frac{\Delta H_{\mathrm{vap}}}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 Substituting: $P_1 = 2.34\;\mathrm{kPa}$, $T_1 = 293\;\mathrm{K}$ $P_2 = 7.38\;\mathrm{kPa}$,
 $T_2 = 313\;\mathrm{K}$
 
-$$\ln\!\left(\frac{7.38}{2.34}\right) = -\frac{\Delta H_{\mathrm{vap}}}{8.314}\left(\frac{1}{313} - \frac{1}{293}\right)$$
+$$
+\ln\!\left(\frac{7.38}{2.34}\right) = -\frac{\Delta H_{\mathrm{vap}}}{8.314}\left(\frac{1}{313} - \frac{1}{293}\right)
+$$
 
-$$\ln(3.154) = -\frac{\Delta H_{\mathrm{vap}}}{8.314}\left(0.003195 - 0.003413\right)$$
+$$
+\ln(3.154) = -\frac{\Delta H_{\mathrm{vap}}}{8.314}\left(0.003195 - 0.003413\right)
+$$
 
-$$1.148 = -\frac{\Delta H_{\mathrm{vap}}}{8.314}(-0.000218)$$
+$$
+1.148 = -\frac{\Delta H_{\mathrm{vap}}}{8.314}(-0.000218)
+$$
 
-$$1.148 = \frac{\Delta H_{\mathrm{vap}} \times 0.000218}{8.314}$$
+$$
+1.148 = \frac{\Delta H_{\mathrm{vap}} \times 0.000218}{8.314}
+$$
 
-$$\Delta H_{\mathrm{vap}} = \frac{1.148 \times 8.314}{0.000218} = 43800\;\mathrm{J/mol} = 43.8\;\mathrm{kJ/mol}$$
+$$
+\Delta H_{\mathrm{vap}} = \frac{1.148 \times 8.314}{0.000218} = 43800\;\mathrm{J/mol} = 43.8\;\mathrm{kJ/mol}
+$$
 
 The accepted literature value is $44.0\;\mathrm{kJ/mol}$. The close agreement validates the use of
 the Clausius-Clapeyron equation over this temperature range.
@@ -831,30 +903,42 @@ the Clausius-Clapeyron equation over this temperature range.
 
 A $50.0\;\mathrm{g}$ sample of ice at $-20\degree\mathrm{C}$ is heated to $120\degree\mathrm{C}$ at
 standard pressure. Calculate the total energy required. Given: specific heat of ice
-$= 2.09\;\mathrm{J/(g \cdot \degree C)}$Specific heat of water
-$= 4.18\;\mathrm{J/(g \cdot \degree C)}$Specific heat of steam
+$= 2.09\;\mathrm{J/(g \cdot \degree C)}$ Specific heat of water
+$= 4.18\;\mathrm{J/(g \cdot \degree C)}$ Specific heat of steam
 $= 2.01\;\mathrm{J/(g \cdot \degree C)}$$\Delta H_{\mathrm{fusion}} = 334\;\mathrm{J/g}$$\Delta H_{\mathrm{vap}} = 2260\;\mathrm{J/g}$.
 
 <details>
 <summary>Solution</summary>
 
 **Step 1: Heating ice from $-20\degree\mathrm{C}$ to $0\degree\mathrm{C}$**
-$$q_1 = m \cdot c_{\mathrm{ice}} \cdot \Delta T = 50.0 \times 2.09 \times 20 = 2090\;\mathrm{J}$$
+$$
+q_1 = m \cdot c_{\mathrm{ice}} \cdot \Delta T = 50.0 \times 2.09 \times 20 = 2090\;\mathrm{J}
+$$
 
 **Step 2: Melting ice at $0\degree\mathrm{C}$**
-$$q_2 = m \cdot \Delta H_{\mathrm{fusion}} = 50.0 \times 334 = 16700\;\mathrm{J}$$
+$$
+q_2 = m \cdot \Delta H_{\mathrm{fusion}} = 50.0 \times 334 = 16700\;\mathrm{J}
+$$
 
 **Step 3: Heating water from $0\degree\mathrm{C}$ to $100\degree\mathrm{C}$**
-$$q_3 = m \cdot c_{\mathrm{water}} \cdot \Delta T = 50.0 \times 4.18 \times 100 = 20900\;\mathrm{J}$$
+$$
+q_3 = m \cdot c_{\mathrm{water}} \cdot \Delta T = 50.0 \times 4.18 \times 100 = 20900\;\mathrm{J}
+$$
 
 **Step 4: Vaporising water at $100\degree\mathrm{C}$**
-$$q_4 = m \cdot \Delta H_{\mathrm{vap}} = 50.0 \times 2260 = 113000\;\mathrm{J}$$
+$$
+q_4 = m \cdot \Delta H_{\mathrm{vap}} = 50.0 \times 2260 = 113000\;\mathrm{J}
+$$
 
 **Step 5: Heating steam from $100\degree\mathrm{C}$ to $120\degree\mathrm{C}$**
-$$q_5 = m \cdot c_{\mathrm{steam}} \cdot \Delta T = 50.0 \times 2.01 \times 20 = 2010\;\mathrm{J}$$
+$$
+q_5 = m \cdot c_{\mathrm{steam}} \cdot \Delta T = 50.0 \times 2.01 \times 20 = 2010\;\mathrm{J}
+$$
 
 **Total:**
-$$q_{\mathrm{total}} = 2090 + 16700 + 20900 + 113000 + 2010 = 154\,700\;\mathrm{J} = 155\;\mathrm{kJ}$$
+$$
+q_{\mathrm{total}} = 2090 + 16700 + 20900 + 113000 + 2010 = 154\,700\;\mathrm{J} = 155\;\mathrm{kJ}
+$$
 
 Note that vaporisation alone accounts for $\frac{113000}{154700} = 73\%$ of the total energy,
 demonstrating the dominance of the enthalpy of vaporisation.
@@ -877,7 +961,7 @@ demonstrating the dominance of the enthalpy of vaporisation.
 <details>
 <summary>Problem 9: Quantitative -- Boltzmann Distribution and Activation Energy</summary>
 
-For a reaction with activation energy $E_a = 75.0\;\mathrm{kJ/mol}$Calculate the ratio of molecules
+For a reaction with activation energy $E_a = 75.0\;\mathrm{kJ/mol}$ Calculate the ratio of molecules
 with sufficient energy to react at $350\;\mathrm{K}$ versus $300\;\mathrm{K}$.
 ($R = 8.314\;\mathrm{J/(mol \cdot K)}$). Use the Boltzmann factor
 $\frac{n(E > E_a)}{n_{\mathrm{total}}} \propto e^{-E_a/RT}$. Explain the significance of this ratio
@@ -923,7 +1007,7 @@ explain how the phase transition temperature limits their use.
 <summary>Problem 13: Data Analysis -- Compressibility Factor</summary>
 
 A gas has a compressibility factor $Z = 0.87$ at $200\;\mathrm{K}$ and $10\;\mathrm{atm}$. (a)
-Calculate the actual molar volume of the gas and compare it with the ideal gas prediction. (b)
+calculate the actual molar volume of the gas and compare it with the ideal gas prediction. (b)
 Explain whether intermolecular attractions or molecular volume effects dominate at these conditions.
 (c) Predict qualitatively whether $Z$ would be greater than, less than, or equal to $1$ at
 $500\;\mathrm{K}$ and $100\;\mathrm{atm}$ for the same gas.
@@ -934,7 +1018,7 @@ $500\;\mathrm{K}$ and $100\;\mathrm{atm}$ for the same gas.
 <summary>Problem 14: Extended Response -- Phase Diagram Interpretation</summary>
 
 The phase diagram of a substance shows a triple point at $T = 150\;\mathrm{K}$,
-$P = 0.5\;\mathrm{atm}$A normal melting point of $180\;\mathrm{K}$ And a critical point at
+$P = 0.5\;\mathrm{atm}$ A normal melting point of $180\;\mathrm{K}$ And a critical point at
 $T = 350\;\mathrm{K}$, $P = 45\;\mathrm{atm}$. The solid-liquid boundary has a positive slope. (a)
 Sketch the phase diagram. (b) Describe what happens when the substance at $200\;\mathrm{K}$ and
 $1.0\;\mathrm{atm}$ is compressed to $50\;\mathrm{atm}$ at constant temperature. (c) Explain why the
@@ -1006,17 +1090,6 @@ what minimum temperature can the substance be liquefied by pressure alone?
   [..../1-stoichiometry/1_stoichiometric-relationships](/chemistry/1-stoichiometry/1_stoichiometric-relationships/)
 - **Periodic trends affecting physical properties** → Review
   [..../3-periodicity/1_periodicity](/chemistry/3-periodicity/1_periodicity/)
-
-
-```mermaid
-flowchart TD
-    A[2_States Of Matter] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

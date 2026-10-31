@@ -30,6 +30,8 @@ understanding and problem-solving.
 
 ### Displacement, Velocity, and Acceleration
 
+<div class="table-wrap">
+
 | Quantity     | Type   | Definition                           | SI Unit |
 | ------------ | ------ | ------------------------------------ | ------- |
 | Displacement | Vector | Change in position, $\Delta \vec{r}$ | m       |
@@ -37,6 +39,8 @@ understanding and problem-solving.
 | Velocity     | Vector | Rate of change of displacement       | m/s     |
 | Speed        | Scalar | Rate of change of distance           | m/s     |
 | Acceleration | Vector | Rate of change of velocity           | m/s$^2$ |
+
+</div>
 
 ### One-Dimensional Kinematics
 
@@ -97,7 +101,7 @@ $$
 ### Free Fall
 
 An object in free fall experiences only the force of gravity. All objects in free fall have the same
-acceleration $g \approx 9.8\ \text{m/s}^2$ near Earth"s surface, regardless of mass.
+acceleration $g \approx 9.8\ \text{m/s}^2$ near Earth's surface, regardless of mass.
 
 ### Graphical Analysis
 
@@ -371,6 +375,8 @@ For continuous objects: $I = \int r^2\, dm$
 
 Common moments of inertia:
 
+<div class="table-wrap">
+
 | Object                                    | Rotational Inertia  |
 | ----------------------------------------- | ------------------- |
 | Solid disc/cylinder (axis through centre) | $\dfrac{1}{2}MR^2$  |
@@ -379,6 +385,8 @@ Common moments of inertia:
 | Thin rod (axis through centre)            | $\dfrac{1}{12}ML^2$ |
 | Thin rod (axis through end)               | $\dfrac{1}{3}ML^2$  |
 | Point mass at distance $r$                | $mr^2$              |
+
+</div>
 
 ### Angular Momentum
 
@@ -534,7 +542,7 @@ $$
 2. **Check dimensions and units at every step.** If your answer has units of kg·m/s when you expect
    joules, there is an error. Dimensional analysis catches many mistakes quickly.
 3. **Define your coordinate system.** State which direction is positive and where the origin is.
-   This prevents sign errors and makes your reasoning clear to the grader.
+   this prevents sign errors and makes your reasoning clear to the grader.
 4. **Distinguish between vector and scalar quantities.** Displacement is not distance; velocity is
    not speed. The AP exam frequently tests this distinction.
 5. **Apply conservation laws first.** Before writing out Newton's second law for every object, check
@@ -568,6 +576,8 @@ $$
 
 ## 10. Summary
 
+<div class="table-wrap">
+
 | Topic             | Key Ideas                                                                               |
 | ----------------- | --------------------------------------------------------------------------------------- |
 | Kinematics        | Displacement, velocity, acceleration, projectile motion, free fall, motion graphs       |
@@ -577,26 +587,14 @@ $$
 | Rotational Motion | Torque, rotational inertia, angular momentum, conservation of angular momentum, rolling |
 | Oscillations      | SHM, mass-spring systems, pendulums, energy in oscillations                             |
 
+</div>
+
 AP Physics 1 rewards deep conceptual understanding over memorisation. Focus on building physical
 intuition, ask yourself _why_ an object behaves as it does before reaching for an equation.
 Practise explaining your reasoning evidently in writing, as the free-response section heavily
 weights qualitative explanations alongside quantitative solutions.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
-
-```mermaid
-flowchart TD
-    A[Physics 1] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

@@ -51,12 +51,12 @@ description: "1. A noiseless channel has bandwidth 8000 Hz. What is the maximum 
     each.
 
 11. **Route aggregation.** Aggregate the following routes into the most specific supernet:
-    `198.51.100.0/24``198.51.101.0/24``198.51.102.0/24``198.51.103.0/24`.
+    `198.51.100.0/24`, `198.51.101.0/24`, `198.51.102.0/24`, `198.51.103.0/24`.
 
 12. **IPv6 addressing.** Expand the IPv6 address `2001:db8::1` to its full 128-bit form. How many
     /64 subnets does a /56 prefix provide? How many /128 addresses per /64?
 
-13. **Dijkstra"s algorithm.** Given the network topology below, find the shortest path tree from
+13. **Dijkstra's algorithm.** Given the network topology below, find the shortest path tree from
     router S to all destinations:
 
     ```
@@ -175,17 +175,6 @@ sends ACK (ack = y + 1). Connection established.
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[8_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - OSI and TCP/IP models; each layer has specific functions and protocols.
@@ -196,12 +185,16 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic      | Site       | Link                                                                                                      |
 | ---------- | ---------- | --------------------------------------------------------------------------------------------------------- |
 | [Networks] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/networks/01-network-fundamentals) |
-| [Networks] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/3-networks/1_networks)                             |
-| [Networks] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/4-networking-and-internet/1_internet-and-data-communications) |
+| [Networks] | IB         | [View](https://ib.wyattau.com/computer-science/3-networks/1_networks/)                             |
+| [Networks] | DSE        | [View](https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications/) |
 | [Networks] | University | [View](https://computer-science.wyattau.com/)             |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

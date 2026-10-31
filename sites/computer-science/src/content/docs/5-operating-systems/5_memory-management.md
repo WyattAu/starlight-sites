@@ -17,16 +17,6 @@ description: "Memory divided into fixed-size partitions at boot. Internal fragme
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[5_Memory Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Memory management answers: **how do you give every process its own address space while sharing limited physical RAM?** The solution is virtual memory, each process sees a private, contiguous address space that maps to scattered physical pages. This provides isolation (one process can't corrupt another) and enables overcommitment (using more total memory than physically available).
@@ -43,12 +33,16 @@ Memory management answers: **how do you give every process its own address space
 
 **Allocation strategies:**
 
+<div class="table-wrap">
+
 | Strategy  | Description                                 |
 | --------- | ------------------------------------------- |
 | First-fit | Allocate the first hole large enough        |
 | Best-fit  | Allocate the smallest hole large enough     |
 | Worst-fit | Allocate the largest hole                   |
 | Next-fit  | Continue searching from the last allocation |
+
+</div>
 
 **Theorem 5.1.** First-fit and best-fit have roughly equivalent utilisation; first-fit is faster.
 
@@ -57,11 +51,15 @@ Memory management answers: **how do you give every process its own address space
 Divide physical memory into fixed-size **frames** and logical memory into same-size **pages**. A
 **page table** maps page numbers to frame numbers.
 
-$$\mathrm{physical} address = \mathrm{PT}[p] \times F + f$$
+$$
+\mathrm{physical} address = \mathrm{PT}[p] \times F + f
+$$
 
 Where $\mathrm{PT}[p]$ is the frame number for page $p$ and $F$ is the frame size.
 
 **Page table entry fields:**
+
+<div class="table-wrap">
 
 | Field         | Purpose                             |
 | ------------- | ----------------------------------- |
@@ -71,11 +69,15 @@ Where $\mathrm{PT}[p]$ is the frame number for page $p$ and $F$ is the frame siz
 | Reference bit | Page accessed recently              |
 | Protection    | Read/write/execute permissions      |
 
+</div>
+
 **Multi-level page tables.** A single page table for a 64-bit address space is infeasible. A
 Two-level scheme uses a **page directory** indexed by the outer page number, pointing to inner Page
 tables:
 
-$$\mathrm{Address}:  \underbrace{p_1}_{\mathrm{outer} \mid \underbrace{p_2}_{\mathrm{inner} \mid \underbrace{d}_{\mathrm{offset}}}}$$
+$$
+\mathrm{Address}:  \underbrace{p_1}_{\mathrm{outer} \mid \underbrace{p_2}_{\mathrm{inner} \mid \underbrace{d}_{\mathrm{offset}}}}
+$$
 
 X86-64 with 48-bit virtual addresses uses four-level page tables.
 
@@ -87,7 +89,9 @@ Overhead but makes searching for a specific virtual page expensive; solved by ha
 Segments divide the address space into logical units (code, data, stack, heap). Each segment has a
 **base** and **limit**:
 
-$$\mathrm{physical} address = \mathrm{base} + \mathrm{offset}, \quad \mathrm{if}  \mathrm{offset} \lt \mathrm{limit}$$
+$$
+\mathrm{physical} address = \mathrm{base} + \mathrm{offset}, \quad \mathrm{if}  \mathrm{offset} \lt \mathrm{limit}
+$$
 
 _Advantages:_ Reflects program structure; supports sharing individual segments. _Disadvantages:_
 External fragmentation (variable-size segments).
@@ -97,11 +101,15 @@ External fragmentation (variable-size segments).
 
 A process has three segments with the following segment table:
 
+<div class="table-wrap">
+
 | Segment | Base  | Limit |
 | ------- | ----- | ----- |
 | Code    | 4096  | 2048  |
 | Data    | 12288 | 4096  |
 | Stack   | 20480 | 2048  |
+
+</div>
 
 Translate logical address (segment = 1, offset = 1500):
 
@@ -118,7 +126,9 @@ Translate (segment = 2, offset = 2500):
 
 Combine segmentation and paging: the segment offset is divided into page number and page offset.
 
-$$\mathrm{Address}:  \underbrace{s}_{\mathrm{segment} \mid \underbrace{p}_{\mathrm{page} \mid \underbrace{d}_{\mathrm{offset}}}}$$
+$$
+\mathrm{Address}:  \underbrace{s}_{\mathrm{segment} \mid \underbrace{p}_{\mathrm{page} \mid \underbrace{d}_{\mathrm{offset}}}}
+$$
 
 Used by x86 (segmentation + paging).
 
@@ -140,14 +150,18 @@ Pages in RAM; the rest reside on disk (swap space).
 
 **Effective access time (EAT):**
 
-$$\mathrm{EAT} = (1 - p) \times \mathrm{ma} + p \times \mathrm{pf}$$
+$$
+\mathrm{EAT} = (1 - p) \times \mathrm{ma} + p \times \mathrm{pf}
+$$
 
 Where $p$ = page fault rate, $\mathrm{ma}$ = memory access time, $\mathrm{pf}$ = page fault service
 Time.
 
 For $p = 0.001$, $\mathrm{ma} = 100$ ns, $\mathrm{pf} = 8$ ms:
 
-$$\mathrm{EAT} = 0.999 \times 100 + 0.001 \times 8\,000\,000 = 8.1 \; \mu\mathrm{s}$$
+$$
+\mathrm{EAT} = 0.999 \times 100 + 0.001 \times 8\,000\,000 = 8.1 \; \mu\mathrm{s}
+$$
 
 This is roughly $80\times$ slower than pure memory access, illustrating why a low page fault rate Is
 critical.
@@ -155,15 +169,19 @@ critical.
 ### 5.6 Translation Lookaside Buffer (TLB)
 
 A **TLB** is a hardware cache of recently used page table entries, avoiding an extra memory access
-Per translation.
+per translation.
 
-$$\mathrm{EAT} = h \times (\mathrm{TLB} + \mathrm{ma}) + (1 - h) \times (\mathrm{TLB} + \mathrm{ma} + \mathrm{ma})$$
+$$
+\mathrm{EAT} = h \times (\mathrm{TLB} + \mathrm{ma}) + (1 - h) \times (\mathrm{TLB} + \mathrm{ma} + \mathrm{ma})
+$$
 
 Where $h$ is the TLB hit ratio.
 
 For $h = 0.99$, $\mathrm{TLB} = 2$ ns, $\mathrm{ma} = 100$ ns:
 
-$$\mathrm{EAT} = 0.99 \times 102 + 0.01 \times 202 = 103 \; \mathrm{ns}$$
+$$
+\mathrm{EAT} = 0.99 \times 102 + 0.01 \times 202 = 103 \; \mathrm{ns}
+$$
 
 **TLB coherence.** When the OS modifies a page table entry, it must invalidate the corresponding TLB
 entry. On x86-64: `invlpg` for single-entry invalidation, or reload `CR3` to flush the entire TLB.
@@ -183,8 +201,12 @@ $\mathrm{TLB} + 2 \times \mathrm{ma} = 2 + 200 = 202$ ns.
 _Case 3: Page fault_ ($0.0005$): Time =
 $\mathrm{TLB} + \mathrm{ma} + \mathrm{pf} = 2 + 100 + 8 \times 10^6 = 8000002$ ns.
 
-$$\mathrm{EAT} = 0.7996 \times 102 + 0.1999 \times 202 + 0.0005 \times 8\,000\,102$$
-$$\mathrm{EAT} = 81.56 + 40.38 + 4000.05 = 4121.99 \;\mathrm{ns} \approx 4.12 \;\mu\mathrm{s}$$
+$$
+\mathrm{EAT} = 0.7996 \times 102 + 0.1999 \times 202 + 0.0005 \times 8\,000\,102
+$$
+$$
+\mathrm{EAT} = 81.56 + 40.38 + 4000.05 = 4121.99 \;\mathrm{ns} \approx 4.12 \;\mu\mathrm{s}
+$$
 
 This is roughly $41\times$ slower than pure memory access, driven almost entirely by the page fault
 Component.
@@ -198,7 +220,7 @@ When physical memory is full, a victim page must be selected for eviction.
 **Optimal (OPT/MIN).** Replace the page not used for the longest time in the future. Provably
 Optimal but requires future knowledge; used only as a benchmark.
 
-**Theorem 5.2 (Belady"s Optimality).** OPT yields the fewest page faults for any reference string.
+**Theorem 5.2 (Belady's Optimality).** OPT yields the fewest page faults for any reference string.
 
 _Proof._ If OPT replaces page $x$ (used furthest in future) and another algorithm replaces page $y$
 (used sooner), the other algorithm faults at least once more by the time $y$ is next Referenced.
@@ -232,12 +254,14 @@ To changing access patterns.
 
 **Approximating LRU in practice.** Most OSes use a variant of Clock. Linux uses an LRU-like
 Approximation with **active** and **inactive** lists: pages on the active list are protected; pages
-Not accessed are demoted to the inactive list; eviction targets the inactive list.
+not accessed are demoted to the inactive list; eviction targets the inactive list.
 
 <details>
 <summary>Worked Example 5.3, Optimal Page Replacement</summary>
 
 Reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1. Three frames.
+
+<div class="table-wrap">
 
 | Ref | Frame 1 | Frame 2 | Frame 3 | Fault? | Victim                       |
 | --- | ------- | ------- | ------- | ------ | ---------------------------- |
@@ -262,6 +286,8 @@ Reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1. Th
 | 0   | 7       | 1       | 0       | No     |,                            |
 | 1   | 7       | 1       | 0       | No     |,                            |
 
+</div>
+
 Total page faults: **9**. This is the theoretical minimum.
 
 </details>
@@ -270,6 +296,8 @@ Total page faults: **9**. This is the theoretical minimum.
 <summary>Worked Example 5.4, LRU Page Replacement</summary>
 
 Same reference string, three frames. LRU replaces the page whose last use was furthest in the past.
+
+<div class="table-wrap">
 
 | Ref | F1  | F2  | F3  | Fault? | Victim (least recent) |
 | --- | --- | --- | --- | ------ | --------------------- |
@@ -294,6 +322,8 @@ Same reference string, three frames. LRU replaces the page whose last use was fu
 | 0   | 1   | 0   | 7   | No     |,                     |
 | 1   | 1   | 0   | 7   | No     |,                     |
 
+</div>
+
 Total page faults: **12**. LRU produces 33% more faults than optimal, but does not require future
 Knowledge.
 
@@ -303,6 +333,8 @@ Knowledge.
 <summary>Worked Example 5.5, Clock (Second Chance) Replacement</summary>
 
 Same reference string, three frames. Clock hand starts at frame 0. R = reference bit.
+
+<div class="table-wrap">
 
 | Ref | State (R bits)    | Fault? | Action                                                                                             |
 | --- | ----------------- | ------ | -------------------------------------------------------------------------------------------------- |
@@ -327,8 +359,10 @@ Same reference string, three frames. Clock hand starts at frame 0. R = reference
 | 0   | [7,R] [0,R] [1,R] | Yes    | F0: R=1, clear, advance; F1: R=0, replace with 0                                                   |
 | 1   | [7,R] [0,R] [1,R] | No     | Set R on F2                                                                                        |
 
+</div>
+
 Total page faults: **15**. Clock performs worse than LRU here but requires only $O(1)$ per operation
-And no global ordering of references.
+and no global ordering of references.
 
 </details>
 
@@ -355,6 +389,8 @@ references. If $\sum W_i \gt$ available frames, thrashing occurs.
 A system has 64 frames of physical memory. Four processes with the following working set sizes
 ($\Delta = 5$ references):
 
+<div class="table-wrap">
+
 | Process   | Working Set Size |
 | --------- | ---------------- |
 | $P_1$     | 15               |
@@ -362,6 +398,8 @@ A system has 64 frames of physical memory. Four processes with the following wor
 | $P_3$     | 18               |
 | $P_4$     | 25               |
 | **Total** | **78**           |
+
+</div>
 
 Total working set = 78 frames, but only 64 available. Thrashing occurs.
 
@@ -386,10 +424,10 @@ Time. $\blacksquare$
 
 **Copy-on-Write** is an optimisation for `fork()`. Instead of copying all pages, parent and child
 Share physical frames (marked read-only). On a write to a shared page, a fault triggers a copy of
-Just that page.
+just that page.
 
 - `fork()` becomes nearly $O(1)$ instead of $O(n)$ where $n$ is the number of pages.
-- If the child immediately calls `exec()`No copies are ever made.
+- If the child immediately calls `exec()`. No copies are ever made.
 :::
 
 ## Cross-References

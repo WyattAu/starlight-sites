@@ -337,17 +337,6 @@ prove it covers the null case.
    for non-null initialization. Accessing it before assignment throws
    `UninitializedPropertyAccessException`, not NPE.
 
-
-```mermaid
-flowchart TD
-    A[Null Safety Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Non-null types are the default in Kotlin; add `?` to make a type nullable.
@@ -365,9 +354,6 @@ flowchart TD
 Kotlin's null safety is like a building's fire code -- it prevents disasters by catching dangerous situations at the blueprint stage rather than after the building is occupied. The safe call operator (?.) is like a circuit breaker that stops the chain of operations if any link is null. The Elvis operator (?:) is the emergency generator that kicks in when the primary power fails. The !! operator is the red button you should rarely press -- it bypasses all safety checks and will crash the program if the value is actually null. Contracts are the fine print that tells the compiler exactly when it is safe to trust a non-null assertion.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

@@ -22,15 +22,21 @@ description: 'When an electron adiabatically traverses a closed loop in -space, 
 When an electron adiabatically traverses a closed loop in $\mathbf{k}$-space, its Bloch state
 acquires a geometric phase:
 
-$$\gamma_n(\mathcal{C}) = i\oint_{\mathcal{C}} \langle u_{n\mathbf{k}}|\nabla_{\mathbf{k}} u_{n\mathbf{k}}\rangle \cdot d\mathbf{k}$$
+$$
+\gamma_n(\mathcal{C}) = i\oint_{\mathcal{C}} \langle u_{n\mathbf{k}}|\nabla_{\mathbf{k}} u_{n\mathbf{k}}\rangle \cdot d\mathbf{k}
+$$
 
 The **Berry curvature** is the $\mathbf{k}$-space analog of a magnetic field:
 
-$$\boldsymbol{\Omega}_n(\mathbf{k}) = \nabla_{\mathbf{k}} \times \langle u_{n\mathbf{k}}|i\nabla_{\mathbf{k}} u_{n\mathbf{k}}\rangle$$
+$$
+\boldsymbol{\Omega}_n(\mathbf{k}) = \nabla_{\mathbf{k}} \times \langle u_{n\mathbf{k}}|i\nabla_{\mathbf{k}} u_{n\mathbf{k}}\rangle
+$$
 
 The Berry phase for a loop $\mathcal{C}$ enclosing area $\mathcal{A}$ is:
 
-$$\gamma = \int_{\mathcal{A}} \boldsymbol{\Omega} \cdot d\mathcal{A}$$
+$$
+\gamma = \int_{\mathcal{A}} \boldsymbol{\Omega} \cdot d\mathcal{A}
+$$
 
 For graphene near a Dirac point, the Berry phase is $\gamma = \pi$ (a half-flux quantum), which
 leads to the **absence of backscattering** and contributes to the high mobility of graphene.
@@ -59,7 +65,9 @@ spins moving in opposite directions).
 **Weyl semimetals** have band touchings at discrete points (Weyl nodes) in the Brillouin zone where
 the dispersion is linear in all three directions:
 
-$$\varepsilon(\mathbf{k}) = \pm\hbar v_F |\mathbf{k} - \mathbf{k}_W|$$
+$$
+\varepsilon(\mathbf{k}) = \pm\hbar v_F |\mathbf{k} - \mathbf{k}_W|
+$$
 
 Weyl nodes come in pairs of opposite chirality and are topologically protected. Key signatures:
 
@@ -73,12 +81,16 @@ chirality). Examples: Na$_3$Bi, Cd$_3$As$_2$.
 
 ### 13.4 Key Relationships
 
+<div class="table-wrap">
+
 | Material class        | Bulk gap | Surface states | Topological invariant |
 | --------------------- | -------- | -------------- | --------------------- |
 | Trivial insulator     | Yes      | None           | $\nu = 0$             |
 | Topological insulator | Yes      | Gapless Dirac  | $\nu = 1$             |
 | Weyl semimetal        | No       | Fermi arcs     | Chern number          |
 | Dirac semimetal       | No       | Bulk Dirac pts | None (protected by symmetry) |
+
+</div>
 
 ### 13.5 Common Pitfalls
 
@@ -109,11 +121,15 @@ chirality). Examples: Na$_3$Bi, Cd$_3$As$_2$.
 
 The **Chern number** for a 2D band is the integral of the Berry curvature over the Brillouin zone:
 
-$$C = \frac{1}{2\pi}\int_{\text{BZ} \Omega_z(\mathbf{k})\, d^2k}$$
+$$
+C = \frac{1}{2\pi}\int_{\text{BZ} \Omega_z(\mathbf{k})\, d^2k}
+$$
 
 The Chern number is an integer (topological invariant). The Hall conductivity is quantised:
 
-$$\sigma_{xy} = C\frac{e^2}{h}$$
+$$
+\sigma_{xy} = C\frac{e^2}{h}
+$$
 
 For the integer quantum Hall effect with filling factor $\nu$, $C = \nu$.
 
@@ -129,7 +145,9 @@ disorder.
 The $Z_2$ invariant $\nu$ for a 3D TI with inversion symmetry can be computed from the parity
 eigenvalues $\xi_{2m}(\Lambda_i)$ at the eight time-reversal-invariant momenta (TRIM) $\Lambda_i$:
 
-$$(-1)^\nu = \prod_{i=1}^8 \prod_{m=1}^N \xi_{2m}(\Lambda_i)$$
+$$
+(-1)^\nu = \prod_{i=1}^8 \prod_{m=1}^N \xi_{2m}(\Lambda_i)
+$$
 
 where $N$ is the number of occupied bands and $\xi_{2m}(\Lambda_i) = \pm 1$ is the parity eigenvalue
 of the $2m$-th Kramers pair at TRIM point $\Lambda_i$. A product of $-1$ indicates $\nu = 1$ (TI).
@@ -143,63 +161,11 @@ of the $2m$-th Kramers pair at TRIM point $\Lambda_i$. A product of $-1$ indicat
 - **[Transport Properties](/6-solid-state-physics/8_transport-properties/)**: The quantized conductance of topological edge states and the chiral anomaly in Weyl semimetals are transport phenomena beyond the Drude model.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-```mermaid
-flowchart TD
-    A[13_Topological Insulators And Semimetals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
 Topological insulators are materials that are insulating in the bulk but conducting on the surface, with guaranteed edge states that cannot be removed by disorder. The topology is a mathematical property of the electronic wavefunctions, analogous to the shape of a doughnut being different from a sphere. These surface states are protected by time-reversal symmetry and carry spin-polarized currents. Topological semimetals extend this idea, featuring band crossings that form points or lines in momentum space. These materials are platforms for exotic physics, including Majorana fermions that could serve as qubits for topological quantum computing.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

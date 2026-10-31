@@ -780,12 +780,16 @@ end
 
 ## Comparison of Concurrency Approaches
 
+<div class="table-wrap">
+
 | Approach  | Parallelism      | Blocking I/O                | Complexity | Use Case          |
 | --------- | ---------------- | --------------------------- | ---------- | ----------------- |
 | Thread    | Limited (GIL)    | Releases GIL on I/O         | Medium     | I/O-bound tasks   |
 | Ractor    | True parallelism | Full isolation              | High       | CPU-bound tasks   |
 | Fiber     | Cooperative      | Non-blocking with scheduler | Medium     | Async I/O         |
 | Async gem | Cooperative      | Non-blocking                | Low        | Web servers, APIs |
+
+</div>
 
 ### When to Use What
 
@@ -887,17 +891,6 @@ end.on_error do |error|
   log_error(error)
 end
 promise.execute
-```
-
-
-```mermaid
-flowchart TD
-    A[2_Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition

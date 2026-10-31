@@ -55,7 +55,9 @@ modulus principle requires the non-vanishing hypothesis.
 **Theorem 11.6 (Schwarz Lemma).** If $f : \mathbb{D} \to \mathbb{D}$ is analytic with $f(0) = 0$,
 then
 
-$$|f(z)| \leq |z| \quad \mathrm{for\ all\ } z \in \mathbb{D}$$
+$$
+|f(z)| \leq |z| \quad \mathrm{for\ all\ } z \in \mathbb{D}
+$$
 
 and $|f'(0)| \leq 1$. Equality in either case implies $f(z) = e^{i\theta} z$ for some real $\theta$.
 
@@ -70,11 +72,15 @@ $g$ is constant: $g(z) = e^{i\theta}$. $\blacksquare$
 **Theorem 11.7 (Schwarz-Pick Lemma).** If $f : \mathbb{D} \to \mathbb{D}$ is analytic, then for all
 $z, w \in \mathbb{D}$:
 
-$$\left|\frac{f(z) - f(w)}{1 - \overline{f(w)} f(z)}\right| \leq \left|\frac{z - w}{1 - \overline{w} z}\right|$$
+$$
+\left|\frac{f(z) - f(w)}{1 - \overline{f(w)} f(z)}\right| \leq \left|\frac{z - w}{1 - \overline{w} z}\right|
+$$
 
 and for all $z \in \mathbb{D}$:
 
-$$\frac{|f'(z)|}{1 - |f(z)|^2} \leq \frac{1}{1 - |z|^2}$$
+$$
+\frac{|f'(z)|}{1 - |f(z)|^2} \leq \frac{1}{1 - |z|^2}
+$$
 
 Equality holds iff $f$ is a conformal automorphism of $\mathbb{D}$ (a Blaschke factor).
 
@@ -173,17 +179,6 @@ The Schwarz lemma applies only to analytic functions $f: \mathbb{D} \to \mathbb{
 **Mistake 5: Forgetting that Liouville's theorem is used to prove the fundamental theorem of algebra.**
 Liouville's theorem is a key tool in proving that every non-constant polynomial has a root in $\mathbb{C}$. If you forget this connection, you may miss elegant proofs of existence results. Always consider Liouville's theorem when dealing with entire functions and their properties.
 
-
-```mermaid
-flowchart TD
-    A[11_Liouville S Theorem And The Maximum Modulus Principle] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Liouville's theorem states that bounded entire functions must be constant, which sounds abstract but has profound consequences. Think of an analytic function as a rubber sheet that cannot buckle: if it is bounded everywhere, it cannot grow in any direction, so it must be flat. The maximum modulus principle says the maximum of an analytic function occurs on the boundary, not the interior, because analytic functions cannot have local maxima. This is like heat flow: the hottest point on a plate cannot be in the middle if heat is flowing freely. Together these results force rigidity on analytic functions.
@@ -194,5 +189,5 @@ Liouville's theorem states that bounded entire functions must be constant, which
 - **[Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)**: Power series representations reveal the local behavior of analytic functions near singularities.
 - **[Conformal Mappings](/6-complex-analysis/10_conformal-mappings/)**: The Riemann mapping theorem uses maximum modulus principles to establish conformal equivalences.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

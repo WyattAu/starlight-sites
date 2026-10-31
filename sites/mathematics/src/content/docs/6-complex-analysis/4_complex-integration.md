@@ -30,28 +30,38 @@ Self-intersections.
 
 **Definition.** For a contour $\gamma$ and a continuous function $f$ on $\gamma$:
 
-$$\int_{\gamma} f(z)\, dz = \int_a^b f(\gamma(t))\gamma"(t)\, dt$$
+$$
+\int_{\gamma} f(z)\, dz = \int_a^b f(\gamma(t))\gamma"(t)\, dt
+$$
 
 ### 4.3 Basic Properties
 
 **Proposition 4.1.** The complex integral is linear:
 
-$$\int_\gamma (af + bg)\, dz = a\int_\gamma f\, dz + b\int_\gamma g\, dz$$
+$$
+\int_\gamma (af + bg)\, dz = a\int_\gamma f\, dz + b\int_\gamma g\, dz
+$$
 
 **Proposition 4.2.** Reversing orientation changes the sign:
 
-$$\int_{-\gamma} f\, dz = -\int_\gamma f\, dz$$
+$$
+\int_{-\gamma} f\, dz = -\int_\gamma f\, dz
+$$
 
 **Proposition 4.3.** Additivity over contours:
 
-$$\int_{\gamma_1 + \gamma_2} f\, dz = \int_{\gamma_1} f\, dz + \int_{\gamma_2} f\, dz$$
+$$
+\int_{\gamma_1 + \gamma_2} f\, dz = \int_{\gamma_1} f\, dz + \int_{\gamma_2} f\, dz
+$$
 
 ### 4.4 ML Inequality
 
 **Proposition 4.4 (ML Inequality).** If $|f(z)| \leq M$ for all $z$ on a contour $\gamma$ of length
-$L$Then
+$L$ Then
 
-$$\left|\int_\gamma f(z)\, dz\right| \leq ML$$
+$$
+\left|\int_\gamma f(z)\, dz\right| \leq ML
+$$
 
 _Proof._
 $\left|\int_a^b f(\gamma(t))\gamma'(t)\, dt\right| \leq \int_a^b |f(\gamma(t))||\gamma'(t)|\, dt
@@ -137,7 +147,9 @@ $\left|\int_\gamma \frac{dz}{z^2 + 4}\right| \leq \frac{1}{5} \cdot 6\pi = \frac
 
 When $f$ is analytic on a connected domain and has a known antiderivative $F$ with $F' = f$:
 
-$$\int_\gamma f(z)\, dz = F(\gamma(b)) - F(\gamma(a))$$
+$$
+\int_\gamma f(z)\, dz = F(\gamma(b)) - F(\gamma(a))
+$$
 
 This follows from the fundamental theorem of calculus applied to $F(\gamma(t))$.
 
@@ -164,7 +176,7 @@ $\int_\gamma e^{2z}\, dz = \frac{1}{2}(e^{2i} - e^{2})$.
 
 ### 4.7 Intuition: What Makes Complex Integration Special?
 
-Complex integration generalises the real line integral to paths in the complex plane. The integral $\int_\gamma f(z)\,dz$ sums the values of $f$ along a contour, weighted by the direction of the contour. For analytic functions (those that are complex-differentiable), the remarkable property is path-independence: if $f$ is analytic on a directly connected domain, the integral depends only on the endpoints, not on the path taken. This is the complex analogue of the fundamental theorem of calculus.
+Complex integration generalises the real line integral to paths in the complex plane. The integral $\int_\gamma f(z)\,dz$ sums the values of $f$ along a contour, weighted by the direction of the contour. For analytic functions (those that are complex-differentiable), the remarkable property is path-independence: if $f$ is analytic on a simply connected domain, the integral depends only on the endpoints, not on the path taken. This is the complex analogue of the fundamental theorem of calculus.
 
 The Cauchy integral formula is the cornerstone: it says that the value of an analytic function at any interior point of a contour is completely determined by its values on the boundary. This is far stronger than anything in real analysis, where a function's values on an interval tell you nothing about its values elsewhere. The residue theorem, which computes integrals by summing contributions from singularities inside the contour, is a consequence of the Cauchy integral formula. These tools make it possible to evaluate many real integrals that are difficult or impossible by real methods alone.
 
@@ -185,22 +197,11 @@ The ML inequality states that $|\int_\gamma f(z)\, dz| \leq ML$, where $M$ is an
 **Mistake 5: Confusing the parameterization of a contour.**
 The value of the contour integral does not depend on the parameterization of the contour, only on the path traced out. However, different parameterizations can lead to different expressions for the integral. Always ensure that the parameterization is correct and that $\gamma'(t)$ is computed properly.
 
-
-```mermaid
-flowchart TD
-    A[4_Complex Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)**: Cauchy's theorem states that the integral of an analytic function over a closed contour is zero.
 - **[Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)**: The integral formula expresses the value of an analytic function at interior points via boundary integrals.
 - **[Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: The residue theorem computes contour integrals by summing contributions from singularities.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

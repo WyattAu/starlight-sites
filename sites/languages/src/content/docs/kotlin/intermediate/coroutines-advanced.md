@@ -139,12 +139,16 @@ execution to be observed by multiple collectors simultaneously.
 
 ### StateFlow vs SharedFlow
 
+<div class="table-wrap">
+
 | Feature                  | StateFlow                     | SharedFlow                              |
 | ------------------------ | ----------------------------- | --------------------------------------- |
 | Initial value            | Required (always has a value) | Optional (no initial value by default)  |
 | Replays to new collector | Latest value (replay = 1)     | Configurable replay cache               |
 | Conflation               | Always conflates (latest)     | Configurable                            |
 | Use case                 | State holding (ViewModel)     | Event broadcasting (navigation, toasts) |
+
+</div>
 
 ### StateFlow
 
@@ -297,11 +301,15 @@ replace the inherited value while everything else is preserved.
 
 `kotlinx-coroutines-test` provides dispatchers that make timing deterministic:
 
+<div class="table-wrap">
+
 | Dispatcher                   | Behavior                                          |
 | ---------------------------- | ------------------------------------------------- |
 | `StandardTestDispatcher()`   | Executes eagerly but respects ordering and delays |
 | `UnconfinedTestDispatcher()` | Executes immediately on the current thread        |
 | `TestDispatcher` (Main)      | Replaces `Dispatchers.Main` in tests              |
+
+</div>
 
 ### runTest
 
@@ -408,7 +416,7 @@ flow { emit(fetchData()) }
 
 ### CoroutineScope Lifecycle in Android and Compose
 
-`viewModelScope` is tied to the ViewModel"s lifecycle. In Compose, `LaunchedEffect` creates
+`viewModelScope` is tied to the ViewModel's lifecycle. In Compose, `LaunchedEffect` creates
 coroutines tied to composition:
 
 ```kotlin
@@ -440,10 +448,14 @@ suspend fun fetchWithFallback(): Data = supervisorScope {
 }
 ```
 
+<div class="table-wrap">
+
 | Scope             | Child failure behavior              |
 | ----------------- | ----------------------------------- |
 | `coroutineScope`  | Cancels all siblings, propagates up |
 | `supervisorScope` | Only the failing child is cancelled |
+
+</div>
 
 ### Cancelling Hierarchies
 
@@ -557,17 +569,6 @@ Advanced coroutine patterns are about managing failure and sharing state across 
    Always use runTest with TestDispatchers for deterministic tests.
 4. **Forgetting that flow{} is cold and lazy.** Each collect call re-executes the entire upstream.
    Use shareIn for side-effecting sources.
-
-
-```mermaid
-flowchart TD
-    A[Coroutines Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

@@ -25,7 +25,9 @@ categories:
 
 **Theorem 1 (Beer-Lambert Law):**
 
-$$A = \varepsilon\,c\,l = \log_{10}\left(\frac{I_0}{I}\right)$$
+$$
+A = \varepsilon\,c\,l = \log_{10}\left(\frac{I_0}{I}\right)
+$$
 
 where $A$ is absorbance (unitless), $\varepsilon$ is the molar extinction coefficient (M$^{-1}$cm$^{-1}$),
 $c$ is concentration (M), and $l$ is path length (cm).
@@ -33,6 +35,8 @@ $c$ is concentration (M), and $l$ is path length (cm).
 **Transmittance:** $T = I/I_0 = 10^{-A}$
 
 ### 1.2 Electronic Transitions
+
+<div class="table-wrap">
 
 | Transition              | $\lambda_{\max}$ (nm) | $\varepsilon$ (M$^{-1}$cm$^{-1}$) |
 | ----------------------- | --------------------- | ---------------------------------- |
@@ -42,6 +46,8 @@ $c$ is concentration (M), and $l$ is path length (cm).
 | $\pi \to \pi^*$         | 200–300 (conjugated)  | $10^3$–$10^5$                      |
 | $n \to \pi^*$           | 250–350               | 10–100 (weak)                      |
 
+</div>
+
 ### 1.3 Effect of Conjugation
 
 **Theorem 2 (Conjugation Shift):** Extending conjugation shifts $\lambda_{\max}$ to longer wavelengths
@@ -49,7 +55,11 @@ $c$ is concentration (M), and $l$ is path length (cm).
 
 For polyenes, the Woodward-Fieser rules estimate $\lambda_{\max}$:
 
-$$\lambda_{\max} = \lambda_{\text{base}} + n_{\text{double bonds}} \times 30 + \text{substituent corrections}$$
+$$
+\lambda_{\max} = \lambda_{\text{base}} + n_{\text{double bonds}} \times 30 + \text{substituent corrections}
+$$
+
+<div class="table-wrap">
 
 | Structural Feature        | $\lambda_{\max}$ Increment (nm) |
 | ------------------------ | ------------------------------ |
@@ -58,10 +68,14 @@ $$\lambda_{\max} = \lambda_{\text{base}} + n_{\text{double bonds}} \times 30 + \
 | Exocyclic double bond     | 5                              |
 | Extending conjugation     | 30 per extra double bond        |
 
+</div>
+
 **Example 1:** Predict $\lambda_{\max}$ for a diene with one exocyclic double bond and one alkyl
 substituent:
 
-$$\lambda_{\max} = 214 + 30 + 5 + 5 = 254 \text{ nm}$$
+$$
+\lambda_{\max} = 214 + 30 + 5 + 5 = 254 \text{ nm}
+$$
 
 $\blacksquare$
 
@@ -79,13 +93,17 @@ $\blacksquare$
 IR spectroscopy measures absorption of infrared radiation corresponding to vibrational transitions.
 The frequency of absorption depends on:
 
-$$\tilde{\nu} = \frac{1}{2\pi c}\sqrt{\frac{k}{\mu}}$$
+$$
+\tilde{\nu} = \frac{1}{2\pi c}\sqrt{\frac{k}{\mu}}
+$$
 
 where $k$ is the force constant (N/m) and $\mu = \frac{m_1 m_2}{m_1 + m_2}$ is the reduced mass.
 
 **Selection rule:** Only transitions that change the dipole moment are IR-active.
 
 ### 2.2 Characteristic IR Absorptions
+
+<div class="table-wrap">
 
 | Bond Type          | Range (cm$^{-1}$) | Intensity |
 | ------------------ | ----------------- | --------- |
@@ -103,6 +121,8 @@ where $k$ is the force constant (N/m) and $\mu = \frac{m_1 m_2}{m_1 + m_2}$ is t
 | C=C                | 1620–1680         | Variable  |
 | C–O                | 1000–1300         | Strong    |
 | C–Cl               | 600–800           | Strong    |
+
+</div>
 
 ### 2.3 Fingerprint Region
 
@@ -131,14 +151,20 @@ align with or against an external magnetic field $B_0$.
 
 **Resonance condition:**
 
-$$\nu = \frac{\gamma}{2\pi}B_0$$
+$$
+\nu = \frac{\gamma}{2\pi}B_0
+$$
 
 where $\gamma$ is the gyromagnetic ratio. The frequency difference between two nuclei is expressed
 relative to a reference (TMS) as the **chemical shift**:
 
-$$\delta = \frac{\nu_{\text{sample}} - \nu_{\text{ref}}}{\nu_{\text{ref}}} \times 10^6 \text{ ppm}$$
+$$
+\delta = \frac{\nu_{\text{sample}} - \nu_{\text{ref}}}{\nu_{\text{ref}}} \times 10^6 \text{ ppm}
+$$
 
 ### 3.2 $^1\text{H}$ NMR: Chemical Shifts
+
+<div class="table-wrap">
 
 | Proton Type                    | $\delta$ (ppm)  |
 | ------------------------------ | --------------- |
@@ -155,11 +181,15 @@ $$\delta = \frac{\nu_{\text{sample}} - \nu_{\text{ref}}}{\nu_{\text{ref}}} \time
 | Aldehyde                       | 9.0–10.0        |
 | Carboxylic acid                | 10.0–13.0       |
 
+</div>
+
 ### 3.3 Spin-Spin Splitting
 
 **Theorem 3 (n+1 Rule):** A signal is split into $n + 1$ peaks by $n$ equivalent neighboring protons.
 
-The splitting pattern follows Pascal"s triangle:
+The splitting pattern follows Pascal's triangle:
+
+<div class="table-wrap">
 
 | $n$ (neighbors) | Splitting | Peak Ratio |
 | --------------- | --------- | ---------- |
@@ -168,6 +198,8 @@ The splitting pattern follows Pascal"s triangle:
 | 2               | Triplet   | 1:2:1      |
 | 3               | Quartet   | 1:3:3:1    |
 | 4               | Quintet   | 1:4:6:4:1  |
+
+</div>
 
 **Coupling constant:** $J$ (Hz) is the separation between adjacent peaks in a multiplet. $J$ is
 independent of $B_0$.
@@ -192,12 +224,14 @@ arise:
 
 ### 3.6 $^{13}\text{C}$ NMR
 
-**Definition 3 ($^{13}$C NMR):** $^{13}\text{C}$ has $I = 1/2$ but only 1.1% natural abundance. Features:
+**Definition 3 ($^{13}$ C NMR):** $^{13}\text{C}$ has $I = 1/2$ but only 1.1% natural abundance. Features:
 
-- Broadband proton decoupling: all $^1$H–$^{13}$C couplings removed; one signal per unique carbon.
+- Broadband proton decoupling: all $^1$ H–$^{13}$ C couplings removed; one signal per unique carbon.
 - DEPT (Distortionless Enhancement by Polarization Transfer): distinguishes CH, CH$_2$, CH$_3$, and
   quaternary carbons.
 - Chemical shift range: 0–220 ppm.
+
+<div class="table-wrap">
 
 | Carbon Type      | $\delta$ (ppm) |
 | ---------------- | -------------- |
@@ -211,15 +245,17 @@ arise:
 | C=O              | 160–220        |
 | C≡N              | 115–150        |
 
+</div>
+
 ### 3.7 2D NMR Techniques
 
-**Definition 4 (COSY, Correlation Spectroscopy):** Reveals $^1$H–$^1$H coupling relationships.
+**Definition 4 (COSY, Correlation Spectroscopy):** Reveals $^1$ H–$^1$ H coupling relationships.
 Cross-peaks indicate which protons are coupled.
 
-**Definition 5 (HSQC/HMQC):** Shows $^1$H–$^{13}$C one-bond correlations. Each proton signal correlates
+**Definition 5 (HSQC/HMQC):** Shows $^1$ H–$^{13}$ C one-bond correlations. Each proton signal correlates
 to the carbon it is directly bonded to.
 
-**Definition 6 (HMBC):** Shows $^1$H–$^{13}$C long-range correlations (2–3 bonds). Useful for
+**Definition 6 (HMBC):** Shows $^1$ H–$^{13}$ C long-range correlations (2–3 bonds). Useful for
 connecting fragments through quaternary carbons.
 
 **Definition 7 (NOESY/ROESY):** Nuclear Overhauser Effect spectroscopy; reveals spatial proximity
@@ -242,6 +278,8 @@ gives the molecular weight.
 
 ### 4.2 Ionization Methods
 
+<div class="table-wrap">
+
 | Method       | Principle                        | Best For                    |
 | ------------ | -------------------------------- | --------------------------- |
 | EI (70 eV)   | Electron impact; hard ionization | Volatile, thermally stable  |
@@ -250,6 +288,8 @@ gives the molecular weight.
 | MALDI        | Matrix-assisted laser            | Biomolecules, polymers      |
 | APCI         | Atmospheric pressure chemical    | Medium polarity compounds   |
 
+</div>
+
 ### 4.3 Fragmentation Patterns
 
 **McLafferty rearrangement:** $\gamma$-hydrogen transfer to a carbonyl oxygen, followed by
@@ -257,9 +297,13 @@ $\beta$-cleavage. Common in carbonyl compounds.
 
 **Alpha cleavage:** Cleavage adjacent to a heteroatom or carbonyl:
 
-$$\text{R}–\text{C}(=\text{O})–\text{R}' \to \text{R}^+ + \cdot\text{C}(=\text{O})\text{R}'$$
+$$
+\text{R}–\text{C}(=\text{O})–\text{R}' \to \text{R}^+ + \cdot\text{C}(=\text{O})\text{R}'
+$$
 
 **Common fragmentation:**
+
+<div class="table-wrap">
 
 | Functional Group  | Characteristic Fragmentation                    |
 | ----------------- | ---------------------------------------------- |
@@ -271,13 +315,19 @@ $$\text{R}–\text{C}(=\text{O})–\text{R}' \to \text{R}^+ + \cdot\text{C}(=\te
 | Amines            | $\alpha$-cleavage, odd molecular ion (N rule)   |
 | Aromatics         | Strong M$^+$, tropylium ion ($m/z = 91$)       |
 
+</div>
+
 ### 4.4 High-Resolution MS
 
 **Definition 9 (High-Resolution MS):** Determines exact mass to 4–6 decimal places, distinguishing
 between formulas with the same nominal mass:
 
-$$\text{C}_6\text{H}_{12}\text{O}_6: \text{exact mass} = 180.0634$$
-$$\text{C}_8\text{H}_{12}\text{N}_2\text{O}_3: \text{exact mass} = 180.0899$$
+$$
+\text{C}_6\text{H}_{12}\text{O}_6: \text{exact mass} = 180.0634
+$$
+$$
+\text{C}_8\text{H}_{12}\text{N}_2\text{O}_3: \text{exact mass} = 180.0899
+$$
 
 ### 4.5 Nitrogen Rule
 
@@ -293,8 +343,8 @@ weight; a molecule with an even number (or zero) of nitrogen atoms has an even m
 1. **Molecular formula** from HRMS (exact mass) or elemental analysis. Calculate degree of
    unsaturation.
 2. **IR** for functional groups (O–H, C=O, C≡N, C=C, etc.).
-3. **$^1$H NMR** for proton environments (chemical shifts, integration, splitting).
-4. **$^{13}$C NMR** for carbon framework (number of unique carbons, types).
+3. **$^1$ H NMR** for proton environments (chemical shifts, integration, splitting).
+4. **$^{13}$ C NMR** for carbon framework (number of unique carbons, types).
 5. **2D NMR** (COSY, HSQC, HMBC) for connectivity.
 6. **MS** fragmentation to confirm proposed structure.
 
@@ -302,7 +352,9 @@ weight; a molecule with an even number (or zero) of nitrogen atoms has an even m
 
 **Theorem 6 (Degrees of Unsaturation):** For a formula C$_c$H$_h$N$_n$O$_o$X$_x$ (X = halogen):
 
-$$\text{DoU} = c + 1 - \frac{h - n + x}{2}$$
+$$
+\text{DoU} = c + 1 - \frac{h - n + x}{2}
+$$
 
 Each DoU corresponds to one double bond or ring.
 
@@ -318,7 +370,7 @@ DoU $= 7 + 1 - 8/2 = 4$.
 
 IR: 3350 cm$^{-1}$ (broad, O–H), 1600, 1500 cm$^{-1}$ (aromatic C=C), no C=O.
 
-$^1$H NMR: $\delta$ 7.1 (2H, d, $J = 8$ Hz), 6.7 (2H, d, $J = 8$ Hz), 4.5 (1H, br s), 2.2 (3H, s).
+$^1$ H NMR: $\delta$ 7.1 (2H, d, $J = 8$ Hz), 6.7 (2H, d, $J = 8$ Hz), 4.5 (1H, br s), 2.2 (3H, s).
 
 Interpretation: Para-disubstituted benzene (AA'BB' pattern, 4H). Methyl group ($\delta$ 2.2). OH
 ($\delta$ 4.5, broad). Structure: 4-methylphenol ($p$-cresol).
@@ -346,25 +398,14 @@ $\blacksquare$
 7. **Wrong degree of unsaturation calculation.** For halogens, add their count to H; for nitrogen,
    subtract. **Fix:** Use DoU $= c + 1 - (h + x - n)/2$ where $x$ = halogens.
 
-
-```mermaid
-flowchart TD
-    A[Spectroscopy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **UV-Vis:** $\lambda_{\max}$ depends on conjugation; Beer-Lambert law for quantitation.
 - **IR:** Functional group identification; fingerprint region for comparison; O–H, C=O, C≡N are
   most diagnostic.
-- **$^1$H NMR:** Chemical shift (environment), splitting ($n + 1$ rule), integration (number of protons),
+- **$^1$ H NMR:** Chemical shift (environment), splitting ($n + 1$ rule), integration (number of protons),
   coupling constant $J$ (geometry).
-- **$^{13}$C NMR:** Carbon framework; DEPT distinguishes CH$_n$ types; chemical shifts 0–220 ppm.
+- **$^{13}$ C NMR:** Carbon framework; DEPT distinguishes CH$_n$ types; chemical shifts 0–220 ppm.
 - **2D NMR:** COSY (H–H connectivity), HSQC (one-bond H–C), HMBC (long-range H–C), NOESY (spatial).
 - **MS:** Molecular weight, formula (HRMS), fragmentation patterns, isotopic patterns.
 - **Structure elucidation:** Combine all techniques systematically with DoU calculation.
@@ -397,6 +438,8 @@ Spectroscopy is like reading the barcode of a molecule. Each spectroscopic techn
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
 | Structure and Bonding    | WyattsNotes | [View](/2-organic-chemistry/structure-and-bonding/)              |
@@ -404,7 +447,9 @@ Spectroscopy is like reading the barcode of a molecule. Each spectroscopic techn
 | Quantum Chemistry        | WyattsNotes | [View](/1-physical-chemistry/quantum-chemistry/)                  |
 | Organic Spectroscopy, MIT 5.33 | MIT OCW | [View](https://ocw.mit.edu/courses/5-33-advanced-chemical-experimentation-fall-2003/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+</div>
+
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

@@ -18,7 +18,7 @@ description: "The statement guarantees that setup and teardown code runs, even i
 ## The with Statement
 
 The `with` statement guarantees that setup and teardown code runs, even if an exception occurs in
-The block body. It is the primary mechanism for resource management in Python.
+the block body. It is the primary mechanism for resource management in Python.
 
 ```python
 ## Basic form
@@ -89,11 +89,15 @@ with Resource("db_connection") as r:
 
 ### \_\_exit\_\_ Parameters
 
+<div class="table-wrap">
+
 | Parameter  | Description                                |
 | ---------- | ------------------------------------------ |
 | `exc_type` | Exception class, or `None` if no exception |
 | `exc_val`  | Exception instance, or `None`              |
 | `exc_tb`   | Traceback object, or `None`                |
+
+</div>
 
 All three are `None` when the block exits normally. When an exception occurs, they contain the
 Exception details.
@@ -850,16 +854,6 @@ async with get_resource():
     pass
 ```
 
-```mermaid
-flowchart TD
-    A[03 Context Managers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of context managers and the with statement, including underlying
@@ -872,9 +866,6 @@ theory, practical implementation, and key applications.
 - entity-relationship diagrams
 - transaction processing (ACID)
 - NoSQL and distributed databases
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 

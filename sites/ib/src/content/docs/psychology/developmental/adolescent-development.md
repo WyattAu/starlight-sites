@@ -27,7 +27,7 @@ implications for mental health, educational attainment, and long-term life outco
 ### Puberty
 
 Puberty is the process of physical maturation that leads to sexual maturity. It is triggered by the
-Activation of the hypothalamic-pituitary-gonadal (HPG) axis, which begins producing increasing
+activation of the hypothalamic-pituitary-gonadal (HPG) axis, which begins producing increasing
 Levels of sex hormones (testosterone in males, oestrogen and progesterone in females).
 
 **The timing of puberty has significant psychological consequences:**
@@ -57,21 +57,21 @@ Undergoes significant remodelling. The two key processes are:
 These processes have important implications for adolescent behaviour. The prefrontal cortex,
 Responsible for executive functions (planning, decision making, impulse control, and social
 Cognition), is the last brain region to fully mature. This creates a temporal gap between the
-Development of the limbic system (which matures early and is highly responsive to rewards and
-Emotional stimuli) and the prefrontal cortex (which matures later and provides regulatory control).
+development of the limbic system (which matures early and is highly responsive to rewards and
+emotional stimuli) and the prefrontal cortex (which matures later and provides regulatory control).
 
 ## Identity Formation
 
-### Erikson"s Theory of Psychosocial Development (1968)
+### Erikson's Theory of Psychosocial Development (1968)
 
 Erik Erikson proposed that personality develops through eight psychosocial stages, each
-Characterised by a central conflict that must be resolved. The fifth stage, **identity versus role
+characterised by a central conflict that must be resolved. The fifth stage, **identity versus role
 Confusion** (approximately ages 12--18), is the central crisis of adolescence.
 
 **Identity formation:** According to Erikson, the primary task of adolescence is to develop a
 Coherent sense of identity -- a clear understanding of who one is, what one values, and where one is
-Going in life. Identity is formed through the exploration of different roles, values, beliefs, and
-Ideologies.
+going in life. Identity is formed through the exploration of different roles, values, beliefs, and
+ideologies.
 
 **Role confusion:** If the adolescent fails to establish a coherent identity, they experience role
 Confusion -- an uncertain, fragmented sense of self that can lead to difficulties in forming close
@@ -79,7 +79,7 @@ Relationships and making life decisions.
 
 **Identity crisis:** Erikson argued that a period of identity crisis (exploration and questioning)
 Is a normal and necessary part of adolescent development. However, not all adolescents experience a
-Crisis; some commit to an identity without extensive exploration.
+crisis; some commit to an identity without extensive exploration.
 
 **Psychosocial moratorium:** Erikson used the term "psychosocial moratorium" to describe the period
 Of delay between childhood and adulthood during which society allows adolescents to explore
@@ -97,12 +97,16 @@ Development:
 
 The intersection of these two dimensions produces four identity statuses:
 
+<div class="table-wrap">
+
 | Status               | Exploration | Commitment | Description                                                                                                                                                                             |
 | -------------------- | ----------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Identity diffusion   | Low         | Low        | No exploration and no commitment. The adolescent has not considered identity options and has not made any commitments.                                                                  |
 | Foreclosure          | Low         | High       | No exploration but firm commitment. The adolescent has adopted an identity prescribed by parents or authority figures without personal exploration.                                     |
 | Moratorium           | High        | Low        | Active exploration without firm commitment. The adolescent is actively considering different options but has not yet made commitments. This corresponds to Erikson's "identity crisis." |
 | Identity achievement | High        | High       | Exploration followed by commitment. The adolescent has actively considered different options and has made firm commitments based on personal exploration. This is the optimal outcome.  |
+
+</div>
 
 **Research findings:**
 
@@ -148,7 +152,7 @@ Include:
 ### Family Relationships
 
 While peer influence increases during adolescence, family relationships remain important. The
-Quality of parent-adolescent relationships is a significant predictor of adolescent mental health,
+quality of parent-adolescent relationships is a significant predictor of adolescent mental health,
 Academic achievement, and risk behaviour. Key factors include:
 
 - **Parental warmth and support:** Adolescents who perceive their parents as warm, supportive, and
@@ -167,7 +171,7 @@ Academic achievement, and risk behaviour. Key factors include:
 ### The Dual-Systems Model
 
 Laurence Steinberg (2008) proposed the dual-systems model to explain why adolescents are
-Disproportionately prone to risk-taking. The model posits two interacting brain systems:
+disproportionately prone to risk-taking. The model posits two interacting brain systems:
 
 1. **The socioemotional system:** Including the limbic system (particularly the amygdala and ventral
    striatum), this system matures early in adolescence and is highly responsive to rewards, social
@@ -179,24 +183,24 @@ Disproportionately prone to risk-taking. The model posits two interacting brain 
    long-term consequences.
 
 The temporal gap between the maturation of the socioemotional system (early adolescence) and the
-Cognitive control system (mid-20s) creates a period of heightened vulnerability to risk-taking,
+cognitive control system (mid-20s) creates a period of heightened vulnerability to risk-taking,
 Particularly in contexts that activate the socioemotional system (e.g., the presence of peers,
 Emotionally charged situations).
 
 ### Casey, Jones, and Somerville (2011): The Imbalance Model
 
 Casey and colleagues provided neuroimaging evidence for the imbalance model. Using fMRI, they found
-That adolescents showed heightened activation in the ventral striatum (a reward-sensitive region)
+that adolescents showed heightened activation in the ventral striatum (a reward-sensitive region)
 During risk-taking tasks, while adults showed greater activation in the prefrontal cortex (a
-Regulatory region). This pattern supports the dual-systems account: adolescents are more sensitive
-To rewards and less capable of regulating their responses.
+regulatory region). This pattern supports the dual-systems account: adolescents are more sensitive
+to rewards and less capable of regulating their responses.
 
 ### Peer Influence on Risk-Taking
 
 **Chein et al. (2011):** Used fMRI to investigate the neural mechanisms of peer influence on
 Adolescent risk-taking. Adolescents and adults performed a simulated driving task (the Stoplight
 Task, in which participants decided whether to run a yellow light) either alone or while being
-Observed by two same-age peers.
+observed by two same-age peers.
 
 **Key findings:**
 
@@ -218,28 +222,28 @@ Variation include:
 **1. The concept of adolescence itself:** In some cultures (particularly in Western, industrialised
 Societies), adolescence is recognised as a distinct developmental period characterised by prolonged
 Education, delayed entry into the workforce, and legal restrictions on adult responsibilities. In
-Other cultures, the transition from childhood to adulthood is more abrupt and occurs at a younger
+other cultures, the transition from childhood to adulthood is more abrupt and occurs at a younger
 Age (e.g., through initiation ceremonies, marriage, or entry into the workforce).
 
 **2. Autonomy and independence:** Western cultures emphasise individual autonomy and independence as
 Developmental goals. Adolescents are expected to develop a distinct personal identity separate from
-Their family. In collectivistic cultures, interdependence and family obligation are emphasised. The
-Developmental task is not to separate from the family but to find one's place within it.
+their family. In collectivistic cultures, interdependence and family obligation are emphasised. The
+developmental task is not to separate from the family but to find one's place within it.
 
 **3. Parent-adolescent conflict:** Research consistently shows that parent-adolescent conflict is
-More frequent and intense in Western cultures than in non-Western cultures. In collectivistic
+more frequent and intense in Western cultures than in non-Western cultures. In collectivistic
 Cultures, the expectation of family obligation and respect for authority reduces the likelihood of
-Open conflict.
+open conflict.
 
 **4. Risk-taking:** Rates of adolescent risk-taking (substance use, delinquency, unprotected sex)
 Vary significantly across cultures. Cross-cultural differences are attributable to differences in
-Social norms, legal restrictions, peer culture, family structure, and access to substances.
+social norms, legal restrictions, peer culture, family structure, and access to substances.
 
 ### Steinberg et al. (2018): A Cross-Cultural Study of Adolescent Risk-Taking
 
 Steinberg and colleagues conducted a study comparing risk-taking behaviour across 11 countries,
 Using a standardised risk-taking task (the Columbia Card Task) and self-report measures of
-Real-world risk behaviour.
+real-world risk behaviour.
 
 **Key findings:**
 
@@ -284,27 +288,9 @@ For an overview of developmental topics, see
 
 4. Failing to distinguish between primary and secondary data sources in geographical research.
 
-
-```mermaid
-flowchart TD
-    A[Adolescent Development] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

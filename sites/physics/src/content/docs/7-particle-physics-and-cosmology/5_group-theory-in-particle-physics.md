@@ -40,7 +40,9 @@ The completely antisymmetric singlet is the colour-neutral baryon.
 The eight Gell-Mann matrices $\lambda^a$ are the generators of SU(3) in the fundamental
 Representation. They satisfy:
 
-$$[\lambda^a, \lambda^b] = 2if^{abc}\lambda^c, \quad \mathrm{Tr}(\lambda^a\lambda^b) = 2\delta^{ab}$$
+$$
+[\lambda^a, \lambda^b] = 2if^{abc}\lambda^c, \quad \mathrm{Tr}(\lambda^a\lambda^b) = 2\delta^{ab}
+$$
 
 Where $f^{abc}$ are the totally antisymmetric **structure constants** of SU(3).
 
@@ -62,9 +64,11 @@ $$
 \lambda^7 = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & -i \\ 0 & i & 0 \end{pmatrix}
 $$
 
-$$\lambda^8 = \frac{1}{\sqrt{3}}\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & -2 \end{pmatrix}$$
+$$
+\lambda^8 = \frac{1}{\sqrt{3}}\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & -2 \end{pmatrix}
+$$
 
-The normalised generators used in the QCD Lagrangian are $T^a = \lambda^a/2$Satisfying
+The normalised generators used in the QCD Lagrangian are $T^a = \lambda^a/2$ Satisfying
 $[T^a, T^b] = if^{abc}T^c$ and $\mathrm{Tr}(T^a T^b) = \delta^{ab}/2$.
 
 ### 5.3 SU(3) Decomposition: Worked Examples
@@ -75,11 +79,15 @@ $[T^a, T^b] = if^{abc}T^c$ and $\mathrm{Tr}(T^a T^b) = \delta^{ab}/2$.
 The tensor product $\mathbf{3} \otimes \bar{\mathbf{3}}$ can be decomposed using the Clebsch--Gordan
 series for SU(3):
 
-$$\mathbf{3} \otimes \bar{\mathbf{3}} = \mathbf{8} \oplus \mathbf{1}$$
+$$
+\mathbf{3} \otimes \bar{\mathbf{3}} = \mathbf{8} \oplus \mathbf{1}
+$$
 
 The singlet $\mathbf{1}$ corresponds to the colour-neutral state:
 
-$$\frac{1}{\sqrt{3}}(r\bar{r} + g\bar{g} + b\bar{b})$$
+$$
+\frac{1}{\sqrt{3}}(r\bar{r} + g\bar{g} + b\bar{b})
+$$
 
 This is the unique SU(3)-invariant combination, analogous to the trace of a $3 \times 3$ Matrix. The
 remaining eight independent components form the adjoint representation $\mathbf{8}$.
@@ -94,19 +102,29 @@ and spin wavefunctions are independent of this colour structure.
 
 First decompose two triplets:
 
-$$\mathbf{3} \otimes \mathbf{3} = \mathbf{6}_S \oplus \mathbf{3}_A$$
+$$
+\mathbf{3} \otimes \mathbf{3} = \mathbf{6}_S \oplus \mathbf{3}_A
+$$
 
 Where the subscript denotes symmetry ($S$) or antisymmetry ($A$) under exchange of the Two quarks.
 
 Then:
 
-$$\mathbf{3} \otimes \mathbf{3} \otimes \mathbf{3} = (\mathbf{6}_S \oplus \mathbf{3}_A) \otimes \mathbf{3}$$
+$$
+\mathbf{3} \otimes \mathbf{3} \otimes \mathbf{3} = (\mathbf{6}_S \oplus \mathbf{3}_A) \otimes \mathbf{3}
+$$
 
-$$= \mathbf{6}_S \otimes \mathbf{3} \oplus \mathbf{3}_A \otimes \mathbf{3}$$
+$$
+= \mathbf{6}_S \otimes \mathbf{3} \oplus \mathbf{3}_A \otimes \mathbf{3}
+$$
 
-$$= (\mathbf{10}_S \oplus \mathbf{8}_M) \oplus (\mathbf{8}_M \oplus \mathbf{1}_A)$$
+$$
+= (\mathbf{10}_S \oplus \mathbf{8}_M) \oplus (\mathbf{8}_M \oplus \mathbf{1}_A)
+$$
 
-$$= \mathbf{10} \oplus \mathbf{8} \oplus \mathbf{8} \oplus \mathbf{1}$$
+$$
+= \mathbf{10} \oplus \mathbf{8} \oplus \mathbf{8} \oplus \mathbf{1}
+$$
 
 The completely antisymmetric singlet $\mathbf{1}_A$ is the colour wavefunction of all Baryons. In
 the full baryon wavefunction, the colour part is antisymmetric, so the Combined flavour $\otimes$
@@ -115,7 +133,7 @@ symmetric).
 
 </details>
 
-### 5.4 SU(2)$\times$U(1) Electroweak Theory
+### 5.4 SU(2)$\times$ U(1) Electroweak Theory
 
 The electroweak interaction is governed by SU(2)$_L \times$ U(1)$_Y$:
 
@@ -123,7 +141,9 @@ The electroweak interaction is governed by SU(2)$_L \times$ U(1)$_Y$:
 - U(1)$_Y$: weak hypercharge, acts on all particles.
 
 Left-handed fermions form SU(2) doublets:
-$$L = \begin{pmatrix} \nu_e \\ e^- \end{pmatrix}_L, \quad Q = \begin{pmatrix} u \\ d \end{pmatrix}_L$$
+$$
+L = \begin{pmatrix} \nu_e \\ e^- \end{pmatrix}_L, \quad Q = \begin{pmatrix} u \\ d \end{pmatrix}_L
+$$
 
 Right-handed fermions are singlets under SU(2): $$e_R, \quad u_R, \quad d_R$$
 
@@ -132,9 +152,13 @@ The electric charge is: $Q = T_3 + Y/2$.
 After electroweak symmetry breaking, the $W^\pm$ and $Z^0$ bosons and the photon emerge as linear
 Combinations of the SU(2) and U(1) gauge fields:
 
-$$W^\pm = \frac{1}{\sqrt{2}}(W^1 \mp iW^2)$$
+$$
+W^\pm = \frac{1}{\sqrt{2}}(W^1 \mp iW^2)
+$$
 
-$$\begin{pmatrix} Z^0 \\ A \end{pmatrix} = \begin{pmatrix} \cos\theta_W & \sin\theta_W \\ -\sin\theta_W & \cos\theta_W \end{pmatrix} \begin{pmatrix} W^3 \\ B \end{pmatrix}$$
+$$
+\begin{pmatrix} Z^0 \\ A \end{pmatrix} = \begin{pmatrix} \cos\theta_W & \sin\theta_W \\ -\sin\theta_W & \cos\theta_W \end{pmatrix} \begin{pmatrix} W^3 \\ B \end{pmatrix}
+$$
 
 ### 5.5 Flavour Symmetries and the Eightfold Way
 
@@ -145,39 +169,55 @@ Before QCD, Gell-Mann and Ne"eman organised hadrons using approximate SU(3) flav
 - **Baryon decuplet:** $\Delta^{++}, \Delta^+, \Delta^0, \Delta^-, \Sigma^*, \Xi^*, \Omega^-$.
 
 The prediction of the $\Omega^-$ (with strangeness $S = -3$) by Gell-Mann in 1962 and its discovery
-In 1964 was a triumph of the quark model.
+in 1964 was a triumph of the quark model.
 
 <details>
 <summary>Example 5.3: Eightfold way mass formula for the baryon octet</summary>
 
 The Gell-Mann--Okubo mass formula for the baryon octet is:
 
-$$\frac{1}{2}(N + \Xi) + \frac{3}{2}\Lambda = 2\Sigma$$
+$$
+\frac{1}{2}(N + \Xi) + \frac{3}{2}\Lambda = 2\Sigma
+$$
 
 Where $N$, $\Xi$, $\Lambda$, $\Sigma$ denote the average masses of the respective isospin
 Multiplets. Substituting the experimental values:
 
-$$N = \frac{m_p + m_n}{2} = \frac{938.3 + 939.6}{2} = 938.9\;\mathrm{MeV}$$
-$$\Xi = \frac{m_{\Xi^0} + m_{\Xi^-}}{2} = \frac{1314.9 + 1321.7}{2} = 1318.3\;\mathrm{MeV}$$
-$$\Lambda = 1115.7\;\mathrm{MeV}$$
-$$\Sigma = \frac{m_{\Sigma^+} + m_{\Sigma^0} + m_{\Sigma^-}}{3} = \frac{1189.4 + 1192.6 + 1197.4}{3} = 1193.1\;\mathrm{MeV}$$
+$$
+N = \frac{m_p + m_n}{2} = \frac{938.3 + 939.6}{2} = 938.9\;\mathrm{MeV}
+$$
+$$
+\Xi = \frac{m_{\Xi^0} + m_{\Xi^-}}{2} = \frac{1314.9 + 1321.7}{2} = 1318.3\;\mathrm{MeV}
+$$
+$$
+\Lambda = 1115.7\;\mathrm{MeV}
+$$
+$$
+\Sigma = \frac{m_{\Sigma^+} + m_{\Sigma^0} + m_{\Sigma^-}}{3} = \frac{1189.4 + 1192.6 + 1197.4}{3} = 1193.1\;\mathrm{MeV}
+$$
 
 **Left-hand side:**
 
-$$\frac{1}{2}(938.9 + 1318.3) + \frac{3}{2}(1115.7) = 1128.6 + 1673.6 = 2802.2\;\mathrm{MeV}$$
+$$
+\frac{1}{2}(938.9 + 1318.3) + \frac{3}{2}(1115.7) = 1128.6 + 1673.6 = 2802.2\;\mathrm{MeV}
+$$
 
 **Right-hand side:**
 
-$$2 \times 1193.1 = 2386.2\;\mathrm{MeV}$$
+$$
+2 \times 1193.1 = 2386.2\;\mathrm{MeV}
+$$
 
 Wait --- these do not match. This is because the GMO formula for the octet is correctly:
 
-$$\frac{m_N + m_\Xi}{2} = \frac{3m_\Lambda + m_\Sigma}{4}$$
+$$
+\frac{m_N + m_\Xi}{2} = \frac{3m_\Lambda + m_\Sigma}{4}
+$$
 
 **Left-hand side:** $(938.9 + 1318.3)/2 = 1128.6$ MeV. **Right-hand side:**
 $(3 \times 1115.7 + 1193.1)/4 = (3347.1 + 1193.1)/4 = 4540.2/4 = 1135.1$ MeV.
 
-The agreement is within $\sim 0.6\%$Confirming the SU(3) flavour symmetry to good Approximation. The
+The agreement is within $\sim 0.6\%$ Confirming the SU(3) flavour symmetry to good Approximation. The
 small deviation is due to SU(3) breaking by the strange quark mass.
 
 </details>
@@ -187,7 +227,9 @@ small deviation is due to SU(3) breaking by the strange quark mass.
 
 The baryon decuplet states have masses that follow an equal-spacing rule in strangeness:
 
-$$m_{\Omega^-} - m_{\Xi^*} = m_{\Xi^*} - m_{\Sigma^*} = m_{\Sigma^*} - m_\Delta$$
+$$
+m_{\Omega^-} - m_{\Xi^*} = m_{\Xi^*} - m_{\Sigma^*} = m_{\Sigma^*} - m_\Delta
+$$
 
 Checking with experimental values:
 
@@ -209,7 +251,9 @@ prediction for the decuplet. The deviations reflect higher-order SU(3)-breaking 
 
 For the pseudoscalar meson octet, the Gell-Mann--Okubo formula gives:
 
-$$4m_K^2 = m_\pi^2 + 3m_\eta^2$$
+$$
+4m_K^2 = m_\pi^2 + 3m_\eta^2
+$$
 
 Using experimental masses:
 
@@ -229,17 +273,6 @@ the chiral anomaly ($\eta'$ is not a pure octet state but mixes With the singlet
 $\eta$-$\eta'$ mixing complicates the mass formula significantly.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[5_Group Theory In Particle Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -269,6 +302,6 @@ All observable hadrons are colour singlets (colour-neutral). This is a consequen
 - **[The Higgs Mechanism](/7-particle-physics-and-cosmology/4_the-higgs-mechanism/)**: The electroweak symmetry breaking pattern is determined by the SU(2) x U(1) group structure.
 - **[Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)**: The beta functions of the gauge couplings depend on the group-theoretic factors of SU(3), SU(2), and U(1).
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

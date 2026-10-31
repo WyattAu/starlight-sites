@@ -105,7 +105,7 @@ print(type(data["created"]))  # <class 'datetime.datetime'>
 ```
 
 :::note
-`int``float``bool`And `None`. Everything else requires custom encoding.
+`int`, `float`, `bool` and `None`. Everything else requires custom encoding.
 :::
 
 ### JSON Performance
@@ -155,6 +155,8 @@ print(srv2.credentials)  # {'user': "admin'', "pass': "secret''}
 
 ### Protocol Versions
 
+<div class="table-wrap">
+
 | Protocol | Python Version | Features                                     |
 | -------- | -------------- | -------------------------------------------- |
 | 0        | All            | ASCII, human-readable, backward compatible   |
@@ -163,6 +165,8 @@ print(srv2.credentials)  # {'user': "admin'', "pass': "secret''}
 | 3        | 3.0            | Bytes objects, no implicit string conversion |
 | 4        | 3.4            | Large objects, more types                    |
 | 5        | 3.8            | Out-of-band data, ZSTD compression support   |
+
+</div>
 
 ```python
 import pickle
@@ -308,7 +312,7 @@ print(data)  # {'host': "localhost'', "port': "localhost''} (or env values)
 
 ## TOML
 
-TOML (Tom"s Obvious Minimal Language) is designed for configuration files. Python 3.11+ includes
+TOML (Tom's Obvious Minimal Language) is designed for configuration files. Python 3.11+ includes
 `tomllib` in the standard library.
 
 ### Reading TOML (Python 3.11+)
@@ -491,6 +495,8 @@ print(config2.host)  # db-primary.example.com
 
 ### Protobuf vs JSON
 
+<div class="table-wrap">
+
 | Feature                | Protobuf                 | JSON                  |
 | ---------------------- | ------------------------ | --------------------- |
 | Schema                 | Required                 | Optional              |
@@ -500,6 +506,8 @@ print(config2.host)  # db-primary.example.com
 | Backward compatibility | Built-in (field numbers) | Manual                |
 | Language support       | Many                     | Universal             |
 | Self-describing        | No                       | Yes                   |
+
+</div>
 
 ## MessagePack
 
@@ -625,6 +633,8 @@ print(serialized["timestamp"])  # '2025-01-15T00:00:00'
 
 ## Choosing the Right Format
 
+<div class="table-wrap">
+
 | Use Case                    | Recommended Format             | Why                               |
 | --------------------------- | ------------------------------ | --------------------------------- |
 | REST API payloads           | JSON                           | Universal support, human-readable |
@@ -636,6 +646,8 @@ print(serialized["timestamp"])  # '2025-01-15T00:00:00'
 | Structured data with schema | Protobuf                       | Schema evolution, validation      |
 | Spreadsheet import/export   | CSV                            | Universal, Excel-compatible       |
 | Log files                   | JSON Lines (one JSON per line) | Streamable, parseable             |
+
+</div>
 
 ## Common Pitfalls
 
@@ -741,7 +753,7 @@ value = 1
 ```
 
 TOML does not allow dotted keys to define both a table and a value at the same level. Mixing styles
-For the same path is a parse error.
+for the same path is a parse error.
 
 ### 7. Float Precision in JSON
 
@@ -923,16 +935,6 @@ print(d_json["status"])    # "active" (string value)
 print(d_json["timestamp"]) # "2025-01-15T00:00:00" (ISO string)
 ```
 
-```mermaid
-flowchart TD
-    A[04 Serialization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of serialization and data formats, including underlying theory,
@@ -945,9 +947,6 @@ practical implementation, and key applications.
 - object-oriented Python
 - decorators and context managers
 - error handling with try/except
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 

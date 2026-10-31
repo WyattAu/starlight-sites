@@ -99,7 +99,7 @@ experience (as behaviourists argued) but also through observation and imitation 
 - Mental (cognitive) processes are important, learning is not merely stimulus-response.
 - Mediational processes determine whether a behaviour is imitated.
 
-**Bandura"s Bobo Doll Experiment (1961):**
+**Bandura's Bobo Doll Experiment (1961):**
 
 **Procedure:** 72 children (36 boys, 36 girls) aged 3–5 years were divided into three groups. One
 group observed an adult model behaving aggressively towards a Bobo doll (hitting, kicking, using a
@@ -239,6 +239,8 @@ between the id and superego:
 erogenous zone. Fixation at a stage (due to over- or under-gratification) leads to lasting
 personality characteristics:
 
+<div class="table-wrap">
+
 | Stage   | Age  | Focus                   | Fixation result                                          |
 | ------- | ---- | ----------------------- | -------------------------------------------------------- |
 | Oral    | 0–1  | Mouth (feeding)         | Dependency, smoking, overeating                          |
@@ -246,6 +248,8 @@ personality characteristics:
 | Phallic | 3–6  | Genitals                | Oedipus/Electra complex; difficulty with authority       |
 | Latency | 6–12 | Dormant                 | N/A                                                      |
 | Genital | 12+  | Mature sexual interests | Healthy adult relationships                              |
+
+</div>
 
 **The Oedipus complex:** Boys aged 3–6 develop sexual desires for their mother and view their father
 as a rival. The boy fears castration by the father (castration anxiety). This is resolved when the
@@ -306,6 +310,8 @@ self-actualisation.
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Study                  | Researcher(s)   | Year | Method                   | Key Findings                                                                       | Evaluation                                                                |
 | ---------------------- | --------------- | ---- | ------------------------ | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Classical conditioning | Pavlov          | 1927 | Lab experiment (animals) | Dogs learned to salivate to a bell through repeated pairing with food              | Well controlled; animal research limits generalisability                  |
@@ -315,7 +321,11 @@ self-actualisation.
 | Conditioning of phobia | Watson & Rayner | 1920 | Case study / experiment  | Little Albert conditioned to fear a white rat                                      | Supports classical conditioning; single case; serious ethical issues      |
 | Self-actualisation     | Maslow          | 1954 | Biographical analysis    | Identified characteristics of self-actualised individuals                          | Positive perspective; small, unrepresentative sample; subjective criteria |
 
+</div>
+
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term                          | Definition                                                                                 |
 | ----------------------------- | ------------------------------------------------------------------------------------------ |
@@ -338,6 +348,8 @@ self-actualisation.
 | Conditions of worth           | Conditions that must be met for a person to feel valued and accepted                       |
 | Free will                     | The belief that individuals can choose their behaviour freely                              |
 | Determinism                   | The belief that behaviour is caused by forces beyond the individual's control              |
+
+</div>
 
 ## Evaluation Points
 
@@ -577,17 +589,6 @@ behaviour, emphasising free will, personal growth, and the importance of subject
 therapeutic applications have proven effective. However, its lack of scientific rigour, cultural
 bias, and limited applicability to severe mental disorders mean it is best used as one perspective
 among several, complementing rather than replacing other approaches.
-
-
-```mermaid
-flowchart TD
-    A[1_Approaches In Psychology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

@@ -26,11 +26,15 @@ categories:
 **Definition 1 (S$\_\text{N}$2):** Bimolecular nucleophilic substitution, a single concerted step
 with backside attack.
 
-$$\text{Nu}^- + \text{R–LG} \to [\text{Nu}\cdots\text{R}\cdots\text{LG}]^{\ddagger} \to \text{Nu–R} + \text{LG}^-$$
+$$
+\text{Nu}^- + \text{R–LG} \to [\text{Nu}\cdots\text{R}\cdots\text{LG}]^{\ddagger} \to \text{Nu–R} + \text{LG}^-
+$$
 
 **Theorem 1 (SN2 Rate Law):**
 
-$$v = k[\text{Nu}^-][\text{R–LG}]$$
+$$
+v = k[\text{Nu}^-][\text{R–LG}]
+$$
 
 **Features:**
 
@@ -45,12 +49,18 @@ $$v = k[\text{Nu}^-][\text{R–LG}]$$
 **Definition 2 (S$\_\text{N}$1):** Unimolecular nucleophilic substitution, two steps via a
 carbocation intermediate.
 
-$$\text{R–LG} \xrightarrow{k_1} \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}$$
-$$\text{R}^+ + \text{Nu}^- \xrightarrow{k_2} \text{R–Nu}$$
+$$
+\text{R–LG} \xrightarrow{k_1} \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}
+$$
+$$
+\text{R}^+ + \text{Nu}^- \xrightarrow{k_2} \text{R–Nu}
+$$
 
 **Theorem 2 (SN1 Rate Law):**
 
-$$v = k[\text{R–LG}]$$
+$$
+v = k[\text{R–LG}]
+$$
 
 **Features:**
 
@@ -63,7 +73,9 @@ $$v = k[\text{R–LG}]$$
 
 **Theorem 3 (Carbocation Stability Order):**
 
-$$\text{3°} > \text{2°} > \text{1°} > \text{CH}_3^+$$
+$$
+\text{3°} > \text{2°} > \text{1°} > \text{CH}_3^+
+$$
 
 Stabilized by:
 
@@ -91,7 +103,9 @@ the conjugate acid.
 
 **Theorem 5 (Leaving Group Ability):** The weaker the base, the better the leaving group:
 
-$$\text{I}^- > \text{Br}^- > \text{Cl}^- > \text{F}^- > \text{OH}^- \gg \text{NH}_2^-$$
+$$
+\text{I}^- > \text{Br}^- > \text{Cl}^- > \text{F}^- > \text{OH}^- \gg \text{NH}_2^-
+$$
 
 Weak bases make good leaving groups because they can stabilize the negative charge after departure.
 $\text{H}_2\text{O}$ is a better leaving group than $\text{HO}^-$; protonating $\text{HO}^-$ makes
@@ -111,21 +125,27 @@ it $\text{H}_2\text{O}$.
 
 **Definition 5 (E2):** Bimolecular elimination, concerted removal of HX.
 
-$$\text{Base} + \text{H–C–C–LG} \to \text{alkene} + \text{Base-H}^+ + \text{LG}^-$$
+$$
+\text{Base} + \text{H–C–C–LG} \to \text{alkene} + \text{Base-H}^+ + \text{LG}^-
+$$
 
 **Features:**
 
 - Anti-periplanar geometry required (H and LG at 180° dihedral).
 - Rate: $v = k[\text{base}][\text{substrate}]$.
 - Strong bases favor E2; bulky bases (e.g., $t$-BuOK) favor E2 over S$\_\text{N}$2.
-- **Zaitsev"s rule:** The more substituted alkene is the major product.
+- **Zaitsev's rule:** The more substituted alkene is the major product.
 
 ### 2.2 E1 Mechanism
 
 **Definition 6 (E1):** Unimolecular elimination, carbocation intermediate, then deprotonation.
 
-$$\text{R–LG} \to \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}$$
-$$\text{R}^+ \to \text{alkene} + \text{H}^+$$
+$$
+\text{R–LG} \to \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}
+$$
+$$
+\text{R}^+ \to \text{alkene} + \text{H}^+
+$$
 
 **Features:**
 
@@ -138,11 +158,15 @@ $$\text{R}^+ \to \text{alkene} + \text{H}^+$$
 **Definition 7 (E1cB):** Elimination, unimolecular, conjugate base, deprotonation first, then
 leaving group departs.
 
-$$\text{Base} + \text{H–C–C–LG} \to \text{C}^--\text{C–LG} \to \text{alkene} + \text{LG}^-$$
+$$
+\text{Base} + \text{H–C–C–LG} \to \text{C}^--\text{C–LG} \to \text{alkene} + \text{LG}^-
+$$
 
 Favored when the leaving group is poor but the $\alpha$-H is acidic (e.g., carbonyl compounds).
 
 ### 2.4 Competition: S$_\text{N}$2 vs E2 vs S$\_\text{N}$1 vs E1
+
+<div class="table-wrap">
 
 | Factor           | S$\_\text{N}$2     | E2                  | S$\_\text{N}$1   | E1            |
 | ---------------- | ------------------ | ------------------- | ---------------- | ------------- |
@@ -151,6 +175,8 @@ Favored when the leaving group is poor but the $\alpha$-H is acidic (e.g., carbo
 | Solvent          | Polar aprotic      | Both                | Polar protic     | Polar protic  |
 | Stereochemistry  | Inversion          | Anti-periplanar     | Racemization     | Often Zaitsev |
 
+</div>
+
 ## 3. Addition Reactions
 
 ### 3.1 Electrophilic Addition to Alkenes
@@ -158,7 +184,9 @@ Favored when the leaving group is poor but the $\alpha$-H is acidic (e.g., carbo
 **Theorem 6 (Markovnikov's Rule):** In electrophilic addition to an unsymmetrical alkene, the
 electrophile adds to the carbon with more hydrogen atoms (the less substituted carbon).
 
-$$\text{HBr} + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\text{CHBrCH}_3 \quad (\text{major})$$
+$$
+\text{HBr} + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\text{CHBrCH}_3 \quad (\text{major})
+$$
 
 Mechanism: $\pi$ bond attacks electrophile $\to$ carbocation $\to$ nucleophile attack.
 
@@ -168,15 +196,21 @@ Mechanism: $\pi$ bond attacks electrophile $\to$ carbocation $\to$ nucleophile a
 
 With HBr and peroxides (radical mechanism):
 
-$$\text{HBr} + \text{ROOR} \to \text{radical chain} \to \text{anti-Markovnikov product}$$
+$$
+\text{HBr} + \text{ROOR} \to \text{radical chain} \to \text{anti-Markovnikov product}
+$$
 
-$$\text{Br}^\bullet + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\text{CHCH}_2\text{Br} \quad (\text{anti-Markovnikov})$$
+$$
+\text{Br}^\bullet + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\text{CHCH}_2\text{Br} \quad (\text{anti-Markovnikov})
+$$
 
 ### 3.3 Addition to Carbonyl Compounds
 
 **Nucleophilic addition to C=O:**
 
-$$\text{Nu}^- + \text{R}_2\text{C}=O \to \text{R}_2\text{C(O}^-\text{)Nu} \xrightarrow{\text{H}^+} \text{R}_2\text{CH(OH)Nu}$$
+$$
+\text{Nu}^- + \text{R}_2\text{C}=O \to \text{R}_2\text{C(O}^-\text{)Nu} \xrightarrow{\text{H}^+} \text{R}_2\text{CH(OH)Nu}
+$$
 
 - The carbonyl carbon is electrophilic due to the polarized $\text{C}^\delta+=\text{O}^\delta-$
   bond.
@@ -187,9 +221,11 @@ $$\text{Nu}^- + \text{R}_2\text{C}=O \to \text{R}_2\text{C(O}^-\text{)Nu} \xrigh
 
 For $\alpha,\beta$-unsaturated carbonyls:
 
-$$\text{Nu}^- + \text{CH}_2=\text{CH}-\text{C}=O \to \begin{cases} \text{1,2-addition (direct)} \\ \text{1,4-addition (conjugate/Michael)} \end{cases}$$
+$$
+\text{Nu}^- + \text{CH}_2=\text{CH}-\text{C}=O \to \begin{cases} \text{1,2-addition (direct)} \\ \text{1,4-addition (conjugate/Michael)} \end{cases}
+$$
 
-**Theorem 7:** Hard nucleophiles (e.g., $^-$OH, $^-$CN) favor 1,2-addition. Soft nucleophiles (e.g.,
+**Theorem 7:** Hard nucleophiles (e.g., $^-$ OH, $^-$ CN) favor 1,2-addition. Soft nucleophiles (e.g.,
 enolates, thiols) favor 1,4-addition (Michael addition).
 
 ## 4. Radical Reactions
@@ -197,22 +233,30 @@ enolates, thiols) favor 1,4-addition (Michael addition).
 ### 4.1 Initiation, Propagation, Termination
 
 1. **Initiation:** Homolytic cleavage (heat, light, or initiator):
-   $$\text{R–R} \xrightarrow{\Delta \text{ or } h\nu} 2\,\text{R}^\bullet$$
+   $$
+   \text{R–R} \xrightarrow{\Delta \text{ or } h\nu} 2\,\text{R}^\bullet
+   $$
 
 2. **Propagation:** Radical reacts with stable molecule to generate a new radical:
-   $$\text{R}^\bullet + \text{H–C} \to \text{R–H} + \text{C}^\bullet$$
+   $$
+   \text{R}^\bullet + \text{H–C} \to \text{R–H} + \text{C}^\bullet
+   $$
 
 3. **Termination:** Two radicals combine: $$\text{R}^\bullet + \text{R}^\bullet \to \text{R–R}$$
 
 ### 4.2 Radical Stability
 
-$$\text{3°} > \text{2°} > \text{1°} > \text{CH}_3^\bullet > \text{H}^\bullet$$
+$$
+\text{3°} > \text{2°} > \text{1°} > \text{CH}_3^\bullet > \text{H}^\bullet
+$$
 
 Allylic and benzylic radicals are especially stable due to resonance.
 
 ### 4.3 Halogenation of Alkanes
 
-$$\text{RH} + \text{X}_2 \xrightarrow{h\nu} \text{RX} + \text{HX}$$
+$$
+\text{RH} + \text{X}_2 \xrightarrow{h\nu} \text{RX} + \text{HX}
+$$
 
 **Selectivity:**
 
@@ -240,16 +284,22 @@ pathway. The rule depends on:
 
 **Electrocyclic reactions:**
 
+<div class="table-wrap">
+
 | $\pi$ Electrons | Thermal     | Photochemical |
 | --------------- | ----------- | ------------- |
 | $4n$            | Conrotatory | Disrotatory   |
 | $4n + 2$        | Disrotatory | Conrotatory   |
 
+</div>
+
 ### 5.3 Diels-Alder Reaction
 
 **Theorem 9 (Diels-Alder Reaction):** A $[4 + 2]$ cycloaddition between a diene and a dienophile:
 
-$$\text{diene} + \text{dienophile} \to \text{cyclohexene}$$
+$$
+\text{diene} + \text{dienophile} \to \text{cyclohexene}
+$$
 
 **Requirements:**
 
@@ -276,12 +326,16 @@ across a conjugated system of $i$ and $j$ atoms.
 
 **Theorem 10 (Cope Rearrangement):** A $[3,3]$ sigmatropic rearrangement of 1,5-dienes:
 
-$$\text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CH}=\text{CH}_2 \rightleftharpoons \text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CH}=\text{CH}_2$$
+$$
+\text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CH}=\text{CH}_2 \rightleftharpoons \text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CH}=\text{CH}_2
+$$
 
 Thermally allowed via a chair-like transition state.
 
 **Claisen rearrangement:** $[3,3]$ sigmatropic rearrangement of allyl vinyl ethers:
-$$\text{CH}_2=\text{CH}-\text{CH}_2-\text{O}-\text{CH}=\text{CH}_2 \to \text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CHO}$$
+$$
+\text{CH}_2=\text{CH}-\text{CH}_2-\text{O}-\text{CH}=\text{CH}_2 \to \text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CHO}
+$$
 
 ### 5.5 Electrocyclic Reactions
 
@@ -296,17 +350,23 @@ $$\text{CH}_2=\text{CH}-\text{CH}_2-\text{O}-\text{CH}=\text{CH}_2 \to \text{CH}
    arenium ion (sigma complex).
 2. **Deprotonation:** Loss of H$^+$ restores aromaticity.
 
-$$\text{ArH} + \text{E}^+ \to [\text{ArHE}]^+ \xrightarrow{-\text{H}^+} \text{ArE}$$
+$$
+\text{ArH} + \text{E}^+ \to [\text{ArHE}]^+ \xrightarrow{-\text{H}^+} \text{ArE}
+$$
 
 ### 6.2 Activating and Deactivating Groups
 
+<div class="table-wrap">
+
 | Group Type           | Effect | Directing  | Examples                     |
 | -------------------- | ------ | ---------- | ---------------------------- |
-| Strong activator     | +      | ortho/para | $-$OH, $-$NH$_2$, $-$OCH$_3$ |
-| Moderate activator   | +      | ortho/para | $-$CH$_3$, alkyl groups      |
-| Weak activator       | +      | ortho/para | $-$F, $-$Cl, $-$Br, $-$I     |
-| Moderate deactivator | -      | meta       | $-$NO$_2$, $-$CN, $-$SO$_3$H |
-| Strong deactivator   | -      | meta       | $-$NR$_3^+$, $-$CF$_3$       |
+| Strong activator     | +      | ortho/para | $-$ OH, $-$ NH$_2$, $-$ OCH$_3$ |
+| Moderate activator   | +      | ortho/para | $-$ CH$_3$, alkyl groups      |
+| Weak activator       | +      | ortho/para | $-$ F, $-$ Cl, $-$ Br, $-$ I     |
+| Moderate deactivator | -      | meta       | $-$ NO$_2$, $-$ CN, $-$ SO$_3$H |
+| Strong deactivator   | -      | meta       | $-$ NR$_3^+$, $-$ CF$_3$       |
+
+</div>
 
 ### 6.3 Examples of Electrophilic Aromatic Substitution
 
@@ -326,7 +386,9 @@ and/or para to the leaving group:
 1. Nucleophilic addition to the aromatic ring (forming a Meisenheimer complex).
 2. Elimination of the leaving group, restoring aromaticity.
 
-$$\text{Ar-X} + \text{Nu}^- \to [\text{Ar(X)(Nu)}]^- \to \text{Ar-Nu} + \text{X}^-$$
+$$
+\text{Ar-X} + \text{Nu}^- \to [\text{Ar(X)(Nu)}]^- \to \text{Ar-Nu} + \text{X}^-
+$$
 
 Favored by strong EWGs and good leaving groups.
 
@@ -334,11 +396,15 @@ Favored by strong EWGs and good leaving groups.
 
 Under extreme conditions (strong base, very high $T$), elimination via benzyne intermediate:
 
-$$\text{Ar-X} + \text{NH}_2^- \to \text{benzyne} \to \text{Ar-NH}_2$$
+$$
+\text{Ar-X} + \text{NH}_2^- \to \text{benzyne} \to \text{Ar-NH}_2
+$$
 
 No regioselectivity; products are in most cases mixtures.
 
 ## 8. Reaction Intermediates Summary
+
+<div class="table-wrap">
 
 | Intermediate | Hybridization | Geometry        | Stability Factors           |
 | ------------ | ------------- | --------------- | --------------------------- |
@@ -346,6 +412,8 @@ No regioselectivity; products are in most cases mixtures.
 | Carbanion    | sp$^3$        | Pyramidal       | Inductive, resonance        |
 | Radical      | sp$^2$        | Trigonal planar | Resonance, hyperconjugation |
 | Carbene      | sp$^2$        | Trigonal planar | Singlet vs triplet          |
+
+</div>
 
 ## Common Pitfalls
 
@@ -370,17 +438,6 @@ No regioselectivity; products are in most cases mixtures.
 7. **Overlooking ion pairing in S$\_\text{N}$1.** The "racemic" product from S$\_\text{N}$1 is often
    slightly inverted due to the leaving group partially blocking one face. **Fix:** Use the ion-pair
    model for accurate stereochemical predictions.
-
-
-```mermaid
-flowchart TD
-    A[Reaction Mechanisms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -430,6 +487,8 @@ Organic reaction mechanisms are the step-by-step choreography of bond breaking a
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                        | Site        | Link                                                                    |
 | ---------------------------- | ----------- | ----------------------------------------------------------------------- |
 | Structure and Bonding        | WyattsNotes | [View](/2-organic-chemistry/structure-and-bonding/)                |
@@ -437,5 +496,7 @@ Organic reaction mechanisms are the step-by-step choreography of bond breaking a
 | Spectroscopy                 | WyattsNotes | [View](/2-organic-chemistry/spectroscopy/)                         |
 | Organic Chemistry, MIT 5.12 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-fall-2005/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+</div>
+
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

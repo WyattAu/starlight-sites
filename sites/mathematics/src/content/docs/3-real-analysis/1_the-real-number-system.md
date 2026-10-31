@@ -18,15 +18,49 @@ description: 'This chapter assumes the reader is comfortable with: Comprehensive
 </script>
 
 
-```mermaid
-flowchart TD
-    A[1_The Real Number System] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- State the completeness axiom (least upper bound property).
+- What is a supremum? How does it differ from a maximum?
+- State the Archimedean property.
+- Give a Cauchy sequence in $\mathbb{Q}$ that does not converge in
+  $\mathbb{Q}$.
+- Name three statements equivalent to completeness.
+
+Check your answers against the text. Prompt 4 is the one that shows
+completeness is a property $\mathbb{Q}$ does not have, which is what makes it
+worth stating.
+
+## Motivation: what is missing from the rationals
+
+The rationals are a field. They are ordered. They are dense: between any two
+rationals there is another. And yet calculus does not work on them.
+
+The reason is a single missing property, and it is visible in one construction.
+Let $a_n = (1 + 1/n)^n$. This sequence is increasing and bounded above by 3, so
+it *ought* to converge. Its limit is $e \approx 2.71828$, which is irrational.
+Working entirely inside $\mathbb{Q}$, the sequence is increasing, bounded, and
+converges to nothing.
+
+**The completeness axiom** is the statement that this cannot happen in
+$\mathbb{R}$: every non-empty set bounded above has a least upper bound. That
+single axiom is what separates $\mathbb{R}$ from $\mathbb{Q}$, and it is the
+engine behind every existence theorem on this site -- the intermediate value
+theorem, the extreme value theorem, the monotone convergence theorem, the
+convergence of Newton's method, and the Riemann integral.
+
+This page states the axiom, derives the properties that follow, and constructs
+$\mathbb{R}$ from $\mathbb{Q}$ by Dedekind cuts so that the axiom is not
+merely asserted.
+
+> **Exercise.** Show that $\sqrt{2} \notin \mathbb{Q}$ by contradiction: if
+> $\sqrt 2 = p/q$ in lowest terms, then $p$ and $q$ are both even. Deduce that
+> the set $\{x \in \mathbb{Q} : x^2 < 2\}$ has no least upper bound in
+> $\mathbb{Q}$.
+
+### 1.1 Field Axioms
 
 ## Prerequisites
 
@@ -42,7 +76,7 @@ The axioms stated below are taken as given; the purpose of this chapter is to de
 ### 1.1 Field Axioms
 
 The real numbers $\mathbb{R}$ form a **complete ordered field**. The field axioms guarantee closure
-Under addition, subtraction, multiplication, and division (by non-zero elements), together with the
+under addition, subtraction, multiplication, and division (by non-zero elements), together with the
 Usual commutative, associative, and distributive laws.
 
 ### 1.2 Order and the Completeness Axiom
@@ -52,7 +86,7 @@ The order relation $\leq$ on $\mathbb{R}$ satisfies:
 1. **Reflexivity**: $a \leq a$
 2. **Antisymmetry**: $a \leq b$ and $b \leq a$ implies $a = b$
 3. **Transitivity**: $a \leq b$ and $b \leq c$ implies $a \leq c$
-4. **Totality**: for all $a, b$Either $a \leq b$ or $b \leq a$
+4. **Totality**: for all $a, b$ Either $a \leq b$ or $b \leq a$
 5. **Compatibility with addition**: $a \leq b$ implies $a + c \leq b + c$
 6. **Compatibility with multiplication**: $a \leq b$ and $0 \leq c$ implies $ac \leq bc$
 
@@ -66,22 +100,22 @@ Upper bound** (supremum) in $\mathbb{R}$.
 
 Let $S \subseteq \mathbb{R}$ be a non-empty set that is bounded above.
 
-**Definition.** The **supremum** (or least upper bound) of $S$Denoted $\sup(S)$Is the real number
+**Definition.** The **supremum** (or least upper bound) of $S$ Denoted $\sup(S)$ Is the real number
 $u$ satisfying:
 
 1. $u$ is an upper bound: $s \leq u$ for all $s \in S$.
 2. $u$ is the least upper bound: if $v$ is any upper bound of $S$ Then $u \leq v$.
 
-Similarly, the **infimum** (or greatest lower bound), $\inf(S)$Is the greatest number $l$ such that
+Similarly, the **infimum** (or greatest lower bound), $\inf(S)$ Is the greatest number $l$ such that
 $l \leq s$ for all $s \in S$.
 
 **Proposition 1.1.** $\sup(S)$ exists if and only if $S$ is non-empty and bounded above.
 
-**Proposition 1.2 (Approximation Property).** If $u = \sup(S)$ Then for every $\varepsilon > 0$There
+**Proposition 1.2 (Approximation Property).** If $u = \sup(S)$ Then for every $\varepsilon > 0$ There
 Exists $s \in S$ such that $u - \varepsilon \lt s \leq u$.
 
 _Proof._ If no such $s$ existed, then $u - \varepsilon$ would be an upper bound of $S$ strictly less
-Than $u$Contradicting the definition of $\sup(S)$. $\blacksquare$
+than $u$ Contradicting the definition of $\sup(S)$. $\blacksquare$
 
 **Example.** Let $S = \{x \in \mathbb{R} : x^2 \lt 2\}$. Then $\sup(S) = \sqrt{2}$. Note that
 $\sqrt{2}
@@ -89,24 +123,24 @@ $\sqrt{2}
 
 ### 1.4 Archimedean Property
 
-**Theorem 1.1 (Archimedean Property).** For every $x \in \mathbb{R}$There exists $n \in \mathbb{N}$
+**Theorem 1.1 (Archimedean Property).** For every $x \in \mathbb{R}$ There exists $n \in \mathbb{N}$
 Such that $n \gt x$.
 
 _Proof._ Suppose, for contradiction, that $\mathbb{N}$ is bounded above. By the completeness axiom,
 $s = \sup(\mathbb{N})$ exists in $\mathbb{R}$. Then $s - 1$ is not an upper bound for $\mathbb{N}$
-So there exists $n \in \mathbb{N}$ with $n \gt s - 1$I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
+so there exists $n \in \mathbb{N}$ with $n \gt s - 1$ I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
 Contradicting that $s$ is an upper bound. $\blacksquare$
 
-**Corollary 1.2.** For every $\varepsilon > 0$There exists $n \in \mathbb{N}$ such that
+**Corollary 1.2.** For every $\varepsilon > 0$ There exists $n \in \mathbb{N}$ such that
 $1/n \lt \varepsilon$.
 
 _Proof._ By the Archimedean property, choose $n \in \mathbb{N}$ with $n \gt 1/\varepsilon$. Then
 $1/n \lt \varepsilon$. $\blacksquare$
 
-**Corollary 1.3 (Density of $\mathbb{Q}$).** Between any two distinct real numbers $a \lt b$There
+**Corollary 1.3 (Density of $\mathbb{Q}$).** Between any two distinct real numbers $a \lt b$ There
 Exists a rational number $q \in \mathbb{Q}$ with $a \lt q \lt b$.
 
-_Proof._ Since $b - a > 0$By Corollary 1.2 there exists $n \in \mathbb{N}$ with $1/n \lt b - a$ So
+_Proof._ Since $b - a > 0$ By Corollary 1.2 there exists $n \in \mathbb{N}$ with $1/n \lt b - a$ So
 $1 \lt n(b - a) = nb - na$. Let $m = \lfloor na \rfloor + 1 \in \mathbb{Z}$. Then
 $m - 1 \leq na \lt m$ Giving $m \leq na + 1 \lt na + n(b - a) = nb$. Hence $a \lt m/n \lt b$ And
 $m/n \in \mathbb{Q}$. $\blacksquare$
@@ -114,7 +148,7 @@ $m/n \in \mathbb{Q}$. $\blacksquare$
 ### 1.5 Properties of Supremum and Infimum
 
 **Proposition 1.4.** If $A$ and $B$ are non-empty bounded subsets of $\mathbb{R}$ Then
-$\sup(A + B) = \sup(A) + \sup(B)$Where $A + B = \{a + b : a \in A, b \in B\}$.
+$\sup(A + B) = \sup(A) + \sup(B)$ Where $A + B = \{a + b : a \in A, b \in B\}$.
 
 _Proof._ For all $a \in A$ and $b \in B$: $a \leq \sup(A)$ and $b \leq \sup(B)$ So
 $a + b \leq \sup(A) + \sup(B)$. Thus $\sup(A) + \sup(B)$ is an upper bound for $A + B$ So
@@ -130,15 +164,15 @@ Where $-S = \{-s : s \in S\}$.
 
 _Proof._ Let $u = \sup(-S)$. Then $-s \leq u$ for all $s \in S$ So $s \geq -u$ for all $s \in S$
 Meaning $-u$ is a lower bound for $S$. If $v$ is any lower bound for $S$ Then $-v$ is an upper bound
-For $-S$ So $u \leq -v$I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
+for $-S$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
 
 <details>
 <summary>Worked Example: Find $\sup$ and $\inf$ of $S = \{(-1)^n + 1/n : n \in \mathbb{N}\}$</summary>
 
 _Solution._ The first few terms are $0, 3/2, -2/3, 5/4, -4/5, 7/6, \ldots$.
 
-For even $n = 2k$: $(-1)^{2k} + 1/(2k) = 1 + 1/(2k)$Which decreases toward $1$ from above. For odd
-$n = 2k-1$: $(-1)^{2k-1} + 1/(2k-1) = -1 + 1/(2k-1)$Which increases toward $-1$ from below.
+For even $n = 2k$: $(-1)^{2k} + 1/(2k) = 1 + 1/(2k)$ Which decreases toward $1$ from above. For odd
+$n = 2k-1$: $(-1)^{2k-1} + 1/(2k-1) = -1 + 1/(2k-1)$ Which increases toward $-1$ from below.
 
 The even terms form the sequence $3/2, 5/4, 7/6, \ldots$ with limit $1$ So $\sup(S) = 3/2$ (the first
 even term). The odd terms form $0, -2/3, -4/5, \ldots$ with limit $-1$ And since $0$ Is an
@@ -148,15 +182,15 @@ odd-indexed term, $\inf(S) = -1$ (approached but not attained). $\blacksquare$
 
 ### 1.6 Construction of $\mathbb{R}$ via Dedekind Cuts
 
-_Remark._ The following outline shows how $\mathbb{R}$ can be constructed from $\mathbb{Q}$Making
-The completeness axiom a theorem rather than an axiom.
+_Remark._ The following outline shows how $\mathbb{R}$ can be constructed from $\mathbb{Q}$ Making
+the completeness axiom a theorem rather than an axiom.
 
 **Definition (Dedekind Cut).** A **Dedekind cut** is a subset $\alpha \subseteq \mathbb{Q}$
 satisfying:
 
 1. $\alpha \neq \emptyset$ and $\alpha \neq \mathbb{Q}$
 2. If $p \in \alpha$ and $q \lt p$ (with $q \in \mathbb{Q}$), then $q \in \alpha$ (downward closure)
-3. $\alpha$ has no greatest element: for every $p \in \alpha$There exists $q \in \alpha$ with
+3. $\alpha$ has no greatest element: for every $p \in \alpha$ There exists $q \in \alpha$ with
    $p \lt q$
 
 **Definition.** The set of real numbers $\mathbb{R}$ is defined as the set of all Dedekind cuts.
@@ -265,17 +299,64 @@ the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
 - **The completeness axiom is specific to $\mathbb{R}$.** In $\mathbb{Q}$, the set
   $\{x \in \mathbb{Q} : x^2 < 2\}$ is bounded above but has no supremum in $\mathbb{Q}$ (since
   $\sqrt{2} \notin \mathbb{Q}$).
-:::## Cross-References
+## Counterexamples worth knowing by name
+
+<div class="table-wrap">
+
+| Statement in $\mathbb{Q}$ | True? | Counterexample |
+| -------------------------- | ----- | -------------- |
+| Every non-empty bounded set has a supremum | no | $\{x : x^2 < 2\}$ |
+| Every Cauchy sequence converges | no | $(1+1/n)^n \to e$ |
+| $\sqrt 2$ exists | no | $p/q$ in lowest terms forces both even |
+| Between any two distinct points there is a rational | yes | density of $\mathbb{Q}$ -- this $\mathbb{Q}$ *does* have |
+| A bounded monotone sequence converges | no | $(1+1/n)^n$ again |
+
+</div>
+
+The density row is the one that surprises people: $\mathbb{Q}$ is dense, so
+"no gaps you can see" is not what completeness means. The gaps are not
+*visible* as missing points between others; they are visible only as limits of
+Cauchy sequences that fail to arrive. That is why the completeness axiom has to
+be stated in terms of suprema rather than density.
+
+**The equivalences of completeness.** The following are equivalent in an
+ordered field: (a) every non-empty bounded set has a supremum; (b) every
+Cauchy sequence converges; (c) every bounded monotone sequence converges;
+(d) the intermediate value theorem holds for every continuous function. Proving
+the equivalences is the cleanest way to see that completeness is one idea with
+four faces, and [Sequences and
+Limits](/3-real-analysis/2_sequences-and-limits/) uses (a) and (b) while
+[Continuity](/3-real-analysis/4_continuity/) uses (d).
+
+## Interleaving problems
+
+Mix these with material from [Sequences and
+Limits](/3-real-analysis/2_sequences-and-limits/), [Series](/3-real-analysis/3_series/)
+and [Continuity](/3-real-analysis/4_continuity/).
+
+1. (Suprema.) Find $\sup\{x \in \mathbb{Q} : x^2 < 2\}$ in $\mathbb{R}$,
+   and prove it is the supremum using $x^2 < 2 \implies x < \sqrt 2$.
+2. (Archimedean.) Show that for every real $x$ there is an integer $n$ with $n
+   > x$, and deduce that $1/n \to 0$.
+3. (Completeness.) Show that the intersection of the nested intervals
+   $[n, \infty)$ is empty, and explain why this does not contradict the nested
+   interval property (which requires bounded intervals).
+4. (Dedekind cuts.) Show that the cut $\{x \in \mathbb{Q} : x^2 < 2\}$ is a
+   valid Dedekind cut, and that it corresponds to an irrational.
+5. (Equivalences.) Show that the monotone convergence theorem implies the
+   existence of suprema, giving one direction of the equivalence.
+
+## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.
-- **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
-- **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
+- **[Linear Algebra](/2-linear-algebra/):** Vector spaces, matrices, and linear transformations.
+- **[Real Analysis](/3-real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 

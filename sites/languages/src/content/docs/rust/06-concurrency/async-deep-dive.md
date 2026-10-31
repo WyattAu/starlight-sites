@@ -33,12 +33,12 @@ pub enum Poll<T> {
 
 A future does not do anything on its own. It must be polled by an executor. Each call to `poll`
 Either returns `Ready(value)` if the computation is complete, or `Pending` if it needs more time.
-When returning `Pending`The future registers the current `Waker` with the reactor, so the executor
+When returning `Pending`. The future registers the current `Waker` with the reactor, so the executor
 Knows to poll it again when progress can be made.
 
 ### `Context` and `Waker`
 
-`Context` provides access to the `Waker`Which is used to notify the executor that a future should Be
+`Context` provides access to the `Waker`. Which is used to notify the executor that a future should Be
 polled again:
 
 ```rust
@@ -52,8 +52,8 @@ impl Waker {
 }
 ```
 
-When a future returns `Pending`The executor records that the future is waiting. When the Underlying
-I/O operation completes (e.g., a socket becomes readable), the reactor calls `waker.wake()`Which
+When a future returns `Pending`. The executor records that the future is waiting. When the Underlying
+I/O operation completes (e.g., a socket becomes readable), the reactor calls `waker.wake()`. Which
 schedules the future for re-polling.
 
 ### Polling Model
@@ -157,7 +157,7 @@ State is saved across yield points so execution can resume from where it left of
 ### Why Pin Exists
 
 The compiler-generated state machine for async blocks can contain self-referential data, a field
-That points to another field within the same struct. If the struct were moved, the pointer would
+that points to another field within the same struct. If the struct were moved, the pointer would
 Become invalid. `Pin` prevents the wrapped value from being moved after it has been pinned.
 
 ```rust
@@ -183,6 +183,8 @@ impl SelfReferential {
 
 ### `Pin<P>` API
 
+<div class="table-wrap">
+
 | Method         | Description                                            |
 | -------------- | ------------------------------------------------------ |
 | `new(pointer)` | Creates a `Pin` from a pointer (requires `Unpin`)      |
@@ -191,6 +193,8 @@ impl SelfReferential {
 | `get_ref()`    | Returns `&T`                                           |
 | `get_mut()`    | Returns `&mut T` (requires `Unpin`)                    |
 | `into_inner()` | Unwraps and returns the inner value (requires `Unpin`) |
+
+</div>
 
 ### `Unpin`
 
@@ -300,12 +304,16 @@ Control at `.await` points.
 
 Tokio's reactor maps to the OS's native async I/O mechanism:
 
+<div class="table-wrap">
+
 | Platform | Mechanism | Description                             |
 | -------- | --------- | --------------------------------------- |
 | Linux    | `epoll`   | Event notification for file descriptors |
 | macOS    | `kqueue`  | Event notification for file descriptors |
 | Windows  | IOCP      | I/O Completion Ports                    |
 | FreeBSD  | `kqueue`  | Event notification for file descriptors |
+
+</div>
 
 The reactor registers file descriptors with the OS and receives notifications when they become
 Readable, writable, or error. When a notification arrives, the reactor wakes the corresponding
@@ -352,7 +360,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 ### Drop-Based Cancellation
 
 In Rust, dropping a future cancels it. There is no explicit cancellation token, if you drop the
-`JoinHandle`The task continues running but its result is ignored:
+`JoinHandle`. The task continues running but its result is ignored:
 
 ```rust
 let handle = tokio::spawn(async {
@@ -598,7 +606,7 @@ Allocation overhead. RPITIT avoids this overhead.
 ## `Send` Bounds on Futures
 
 A future must be `Send` to be spawned on tokio's multi-threaded runtime. If a future captures a
-Non-`Send` type, spawning fails:
+non-`Send` type, spawning fails:
 
 ```rust
 use std::rc::Rc;
@@ -620,7 +628,7 @@ Common non-`Send` types:
 
 ## Common Pitfalls
 
-1. **Blocking the async executor.** Calling `std::thread::sleep``std::fs::read_to_string`Or any
+1. **Blocking the async executor.** Calling `std::thread::sleep`, `std::fs::read_to_string` or any
    blocking operation inside an async task blocks the entire OS thread. Use `tokio::time::sleep`
    `tokio::fs`Or `tokio::task::spawn_blocking`.
 
@@ -930,9 +938,6 @@ implementation, and key applications.
 - protocols (HTTP, FTP, SMTP)
 - encryption and security
 - client-server and peer-to-peer
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

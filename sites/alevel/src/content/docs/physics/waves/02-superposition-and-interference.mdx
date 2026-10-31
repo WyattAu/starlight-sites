@@ -20,8 +20,6 @@ import PhetSimulation from "@components/PhetSimulation";
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP2 | OCR (A) Paper 2 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="wave-interference" title="Wave Interference" />
 
-Explore the simulation above to develop intuition for this topic.
-
 ## Intuition
 
 **When waves meet, they add together, but don't collide:** Think of two people swinging ropes towards each other on the same string. When the waves cross, the string's displacement at any point is the sum of both waves. After they pass through each other, they continue unchanged, waves don't bounce off each other like billiard balls.
@@ -34,12 +32,14 @@ Explore the simulation above to develop intuition for this topic.
 
 **Definition.** The principle of superposition states that when two or more waves overlap at a
 Point, the resultant displacement is the algebraic sum of the individual displacements of each wave
-At that point.
+at that point.
 
 **Principle of Superposition.** When two or more waves overlap, the resultant displacement at any
 Point is the **algebraic sum** of the individual displacements:
 
-$$y_{\mathrm{total}} = y_1 + y_2 + y_3 + \cdots$$
+$$
+y_{\mathrm{total}} = y_1 + y_2 + y_3 + \cdots
+$$
 
 This principle is valid for linear waves (small amplitudes). It is a direct consequence of the
 Linearity of the wave equation.
@@ -57,20 +57,28 @@ Or zero if the waves have equal amplitude.
 Consider two coherent waves of the same amplitude $A$ arriving at a point with phase difference
 $\Delta\phi$:
 
-$$y_1 = A\sin(\omega t), \qquad y_2 = A\sin(\omega t + \Delta\phi)$$
+$$
+y_1 = A\sin(\omega t), \qquad y_2 = A\sin(\omega t + \Delta\phi)
+$$
 
 The resultant is:
 
-$$y_{\mathrm{total}} = A\sin(\omega t) + A\sin(\omega t + \Delta\phi)$$
+$$
+y_{\mathrm{total}} = A\sin(\omega t) + A\sin(\omega t + \Delta\phi)
+$$
 
 Using the trigonometric identity
 $\sin\alpha + \sin\beta = 2\sin\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2}$:
 
-$$y_{\mathrm{total}} = 2A\cos\left(\frac{\Delta\phi}{2}\right)\sin\left(\omega t + \frac{\Delta\phi}{2}\right)$$
+$$
+y_{\mathrm{total}} = 2A\cos\left(\frac{\Delta\phi}{2}\right)\sin\left(\omega t + \frac{\Delta\phi}{2}\right)
+$$
 
 The resultant amplitude is:
 
-$$A_{\mathrm{resultant}} = 2A\left|\cos\frac{\Delta\phi}{2}\right|$$
+$$
+A_{\mathrm{resultant}} = 2A\left|\cos\frac{\Delta\phi}{2}\right|
+$$
 
 - **Constructive interference**:
   $\Delta\phi = 0, 2\pi, 4\pi, \ldots \implies A_{\mathrm{resultant}} = 2A$
@@ -91,21 +99,29 @@ For two waves of wavelength $\lambda$ travelling to a point via paths of lengths
 
 **Phase difference:**
 
-$$\boxed{\Delta\phi = \frac{2\pi}{\lambda}\Delta x}$$
+$$
+\boxed{\Delta\phi = \frac{2\pi}{\lambda}\Delta x}
+$$
 
 **Derivation.** One extra wavelength $\lambda$ corresponds to a full cycle, i.e., a phase difference
 Of $2\pi$. By proportionality:
 
-$$\frac{\Delta\phi}{2\pi} = \frac{\Delta x}{\lambda} \implies \Delta\phi = \frac{2\pi}{\lambda}\Delta x$$
+$$
+\frac{\Delta\phi}{2\pi} = \frac{\Delta x}{\lambda} \implies \Delta\phi = \frac{2\pi}{\lambda}\Delta x
+$$
 
 $\square$
 
 **Conditions for interference:**
 
+<div class="table-wrap">
+
 | Condition              | Path Difference            | Phase Difference |
 | ---------------------- | -------------------------- | ---------------- |
 | Constructive (maximum) | $n\lambda$                 | $2n\pi$          |
 | Destructive (minimum)  | $(n + \frac{1}{2})\lambda$ | $(2n+1)\pi$      |
+
+</div>
 
 Where $n = 0, 1, 2, \ldots$
 
@@ -135,35 +151,47 @@ requires coherent Sources, produced by splitting a single wave.
 4. The path difference from the two slits to $P$ is $\Delta x = s\sin\theta$.
 5. For constructive interference, the path difference must equal a whole number of wavelengths:
 
-$$\boxed{s\sin\theta = n\lambda, \qquad n = 0, 1, 2, \ldots}$$
+$$
+\boxed{s\sin\theta = n\lambda, \qquad n = 0, 1, 2, \ldots}
+$$
 
 $\square$
 
 ### Derivation of the Fringe Spacing Formula
 
-Two narrow slits $S_1$ and $S_2$Separated by distance $s$Are illuminated by coherent light of
+Two narrow slits $S_1$ and $S_2$ Separated by distance $s$ Are illuminated by coherent light of
 Wavelength $\lambda$. A screen is placed at distance $D \gg s$ from the slits.
 
 Consider a point $P$ on the screen at angle $\theta$ from the central axis. The path difference from
-The two slits is:
+the two slits is:
 
-$$\Delta x = s\sin\theta$$
+$$
+\Delta x = s\sin\theta
+$$
 
 For constructive interference (bright fringe): $s\sin\theta = n\lambda$.
 
 For small angles ($\sin\theta \approx \tan\theta \approx \theta$):
 
-$$\tan\theta = \frac{w}{D}$$
+$$
+\tan\theta = \frac{w}{D}
+$$
 
 Where $w$ is the distance from the central maximum to the $n$-th bright fringe. Therefore:
 
-$$s \cdot \frac{w}{D} = n\lambda$$
+$$
+s \cdot \frac{w}{D} = n\lambda
+$$
 
-$$\boxed{w = \frac{n\lambda D}{s}}$$
+$$
+\boxed{w = \frac{n\lambda D}{s}}
+$$
 
 The **fringe spacing** (distance between adjacent bright fringes) is:
 
-$$\boxed{\Delta w = \frac{\lambda D}{s}}$$
+$$
+\boxed{\Delta w = \frac{\lambda D}{s}}
+$$
 
 **Intuition.** Larger wavelength means wider fringes. Greater slit separation means narrower
 Fringes. Greater screen distance means wider fringes. The pattern scales linearly with all three
@@ -173,7 +201,7 @@ Quantities.
 
 Each slit has width $a$ and produces a diffraction pattern. The double-slit fringes are
 **modulated** by a single-slit diffraction envelope. If $a$ is too small, the fringes are very broad
-And hard to resolve. If $a$ is too large, the diffraction envelope is narrow and few fringes are
+and hard to resolve. If $a$ is too large, the diffraction envelope is narrow and few fringes are
 Visible.
 
 The first minimum of the single-slit pattern occurs at $\sin\theta = \lambda/a$.
@@ -201,12 +229,16 @@ A diffraction grating has $N$ slits per unit length, with slit spacing $d = 1/N$
 
 ### Derivation of the Grating Equation
 
-Consider $N$ equally spaced slits. For light emerging at angle $\theta$The path difference between
+Consider $N$ equally spaced slits. For light emerging at angle $\theta$ The path difference between
 Adjacent slits is $d\sin\theta$. For constructive interference from all $N$ slits simultaneously:
 
-$$d\sin\theta = n\lambda, \qquad n = 0, \pm 1, \pm 2, \ldots$$
+$$
+d\sin\theta = n\lambda, \qquad n = 0, \pm 1, \pm 2, \ldots
+$$
 
-$$\boxed{d\sin\theta = n\lambda}$$
+$$
+\boxed{d\sin\theta = n\lambda}
+$$
 
 Where $n$ is the **order** of the maximum.
 
@@ -217,12 +249,16 @@ Destructive interference from non-adjacent pairs suppresses the background).
 
 **Maximum number of orders.** Since $|\sin\theta| \leq 1$:
 
-$$|n| \leq \frac{d}{\lambda}$$
+$$
+|n| \leq \frac{d}{\lambda}
+$$
 
 The highest order visible is $n_{\max} = \lfloor d/\lambda \rfloor$ (the greatest integer less than
-Or equal to $d/\lambda$).
+or equal to $d/\lambda$).
 
 ### Grating vs Double Slit
+
+<div class="table-wrap">
 
 | Property          | Double Slit    | Diffraction Grating                         |
 | ----------------- | -------------- | ------------------------------------------- |
@@ -231,8 +267,10 @@ Or equal to $d/\lambda$).
 | Maxima brightness | Low            | High                                        |
 | Missing orders    | None (ideally) | Possible (if slit width effects considered) |
 
+</div>
+
 <Aside type="tip">
-Exam Technique If asked to find the number of visible orders: calculate $d/\lambda$Take the
+Exam Technique If asked to find the number of visible orders: calculate $d/\lambda$ Take the
 
 Integer part, then note that orders $+n$ and $-n$ are both visible (plus the zeroth order). Total
 Visible maxima $= 2n_{\max} + 1$.
@@ -249,19 +287,29 @@ Net energy transfer.
 
 Consider two identical waves travelling in opposite directions:
 
-$$y_1 = A\sin(kx - \omega t) \quad \mathrm{(travelling in } +x\mathrm{)}$$
-$$y_2 = A\sin(kx + \omega t) \quad \mathrm{(travelling in } -x\mathrm{)}$$
+$$
+y_1 = A\sin(kx - \omega t) \quad \mathrm{(travelling in } +x\mathrm{)}
+$$
+$$
+y_2 = A\sin(kx + \omega t) \quad \mathrm{(travelling in } -x\mathrm{)}
+$$
 
 By superposition:
 
-$$y = y_1 + y_2 = A[\sin(kx - \omega t) + \sin(kx + \omega t)]$$
+$$
+y = y_1 + y_2 = A[\sin(kx - \omega t) + \sin(kx + \omega t)]
+$$
 
 Using
 $\sin\alpha + \sin\beta = 2\sin\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2}$:
 
-$$y = 2A\sin(kx)\cos(\omega t)$$
+$$
+y = 2A\sin(kx)\cos(\omega t)
+$$
 
-$$\boxed{y = 2A\sin(kx)\cos(\omega t)}$$
+$$
+\boxed{y = 2A\sin(kx)\cos(\omega t)}
+$$
 
 This is the equation of a **stationary wave**. Key features:
 
@@ -279,11 +327,15 @@ Occurring midway between adjacent nodes.
 
 **Nodes** are points of zero amplitude at all times. From $A(x) = 0$:
 
-$$\sin(kx) = 0 \implies kx = n\pi \implies x = \frac{n\lambda}{2}, \quad n = 0, 1, 2, \ldots$$
+$$
+\sin(kx) = 0 \implies kx = n\pi \implies x = \frac{n\lambda}{2}, \quad n = 0, 1, 2, \ldots
+$$
 
 **Antinodes** are points of maximum amplitude. From $|\sin(kx)| = 1$:
 
-$$kx = (n + \tfrac{1}{2})\pi \implies x = \frac{(2n+1)\lambda}{4}, \quad n = 0, 1, 2, \ldots$$
+$$
+kx = (n + \tfrac{1}{2})\pi \implies x = \frac{(2n+1)\lambda}{4}, \quad n = 0, 1, 2, \ldots
+$$
 
 The distance between adjacent nodes is $\lambda/2$. The distance between a node and the nearest
 Antinode is $\lambda/4$.
@@ -311,11 +363,15 @@ For a string of length $L$ fixed at both ends, nodes must exist at $x = 0$ and $
 3. Therefore $\lambda_n = 2L/n$.
 4. Using the wave equation $v = f\lambda$: $f_n = v/\lambda_n = nv/(2L)$.
 
-$$\boxed{f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots}$$
+$$
+\boxed{f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots}
+$$
 
 $\square$
 
-$$\boxed{f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots}$$
+$$
+\boxed{f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots}
+$$
 
 ### Harmonics in a Pipe Closed at One End
 
@@ -325,16 +381,20 @@ A closed end is a displacement **node** (pressure antinode). An open end is a di
 - **Fundamental**: $L = \lambda_1/4$ So $f_1 = v/(4L)$.
 - **3rd harmonic** (first overtone): $L = 3\lambda_3/4$ So $f_3 = 3v/(4L) = 3f_1$.
 
-$$\boxed{f_n = \frac{nv}{4L}, \quad n = 1, 3, 5, \ldots \mathrm{ (odd harmonics only)}}$$
+$$
+\boxed{f_n = \frac{nv}{4L}, \quad n = 1, 3, 5, \ldots \mathrm{ (odd harmonics only)}}
+$$
 
 Only odd harmonics are present because an even number of quarter-wavelengths would require a node at
-The open end, which contradicts the boundary condition.
+the open end, which contradicts the boundary condition.
 
 ### Harmonics in a Pipe Open at Both Ends
 
 Both ends are displacement antinodes.
 
-$$\boxed{f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots \mathrm{ (all harmonics)}}$$
+$$
+\boxed{f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots \mathrm{ (all harmonics)}}
+$$
 
 ## Problem Set
 
@@ -409,7 +469,7 @@ The next harmonic is the 3rd: $f_3 = 3f_1 = 300$ Hz. (No 2nd harmonic exists for
 <details>
 <summary>Problem 6</summary>
 Two waves meet at a point. Wave 1 has amplitude 3.0 mm and wave 2 has amplitude 4.0 mm. If they are
-In phase, what is the resultant amplitude? If they are in antiphase?
+in phase, what is the resultant amplitude? If they are in antiphase?
 
 **Answer.** In phase: $A_{\mathrm{resultant}} = 3.0 + 4.0 = 7.0$ mm.
 
@@ -423,7 +483,7 @@ In antiphase: $A_{\mathrm{resultant}} = |3.0 - 4.0| = 1.0$ mm.
 <details>
 <summary>Problem 7</summary>
 A diffraction grating with 300 lines per mm is used with light of wavelength 540 nm. How many orders
-Of maximum can be seen on each side of the central maximum?
+of maximum can be seen on each side of the central maximum?
 
 **Answer.** $d = 1/300$ mm $= 3.33 \times 10^{-6}$ m.
 $n_{\max} = d/\lambda = 3.33 \times 10^{-6} / 540 \times 10^{-9} = 6.17$. So the highest visible
@@ -495,7 +555,7 @@ Wave, the amplitude varies from zero (nodes) to maximum (antinodes).
 
 (c) In a progressive wave, all points have the same phase (the wave pattern translates). In a
 Stationary wave, all points between two adjacent nodes are in phase, but points in adjacent segments
-Are in antiphase.
+are in antiphase.
 
 <b>If you get this wrong, revise:</b> [Stationary Waves](#5-stationary-waves)
 
@@ -504,7 +564,7 @@ Are in antiphase.
 <details>
 <summary>Problem 12</summary>
 White light (wavelengths 400–700 nm) is incident on a diffraction grating with 400 lines per mm. For
-The second order, calculate the angular range subtended by the visible spectrum.
+the second order, calculate the angular range subtended by the visible spectrum.
 
 **Answer.** $d = 1/400$ mm $= 2.5 \times 10^{-6}$ m. For $n = 2$:
 
@@ -547,7 +607,7 @@ $0.60 = \Delta w/2$. Confirmed.
 
 ### 6.3 Non-Integer Wavelength Ratios
 
-**Example.** Two coherent sources emit waves of wavelength $2.5$ cm. At point $P$The path Difference
+**Example.** Two coherent sources emit waves of wavelength $2.5$ cm. At point $P$ The path Difference
 is $9.0$ cm. Describe the interference at $P$.
 
 **Answer.** $\Delta x / \lambda = 9.0 / 2.5 = 3.6 = 18/5$. This is neither an integer (constructive)
@@ -562,12 +622,16 @@ Maximum ($2A$) because the path difference is close to $4\lambda = 10.0$ cm.
 
 ### 7.1 General Conditions
 
-For two coherent sources separated by distance $s$At a point $P$ on a screen at distance $D \gg s$:
+For two coherent sources separated by distance $s$ At a point $P$ on a screen at distance $D \gg s$:
+
+<div class="table-wrap">
 
 | Condition | Path Difference    | Fringe Type  | Order                 |
 | --------- | ------------------ | ------------ | --------------------- |
 | Bright    | $n\lambda$         | Constructive | $n = 0, 1, 2, \ldots$ |
 | Dark      | $(n + 0.5)\lambda$ | Destructive  | $n = 0, 1, 2, \ldots$ |
+
+</div>
 
 The distance from the central maximum to the $n$-th bright fringe is $w_n = n\lambda D/s$. The
 Distance to the $n$-th dark fringe is $w_n = (n + 0.5)\lambda D/s$.
@@ -577,7 +641,7 @@ Distance to the $n$-th dark fringe is $w_n = (n + 0.5)\lambda D/s$.
 If white light is used, each wavelength produces its own fringe pattern. The central maximum
 ($n = 0$) is white (all wavelengths constructively interfere at $\Delta x = 0$). Higher-order
 Fringes are spectrally dispersed: blue light ($\lambda \approx 450$ nm) produces narrower fringes
-Than red light ($\lambda \approx 700$ nm).
+than red light ($\lambda \approx 700$ nm).
 
 ## 8. Phase Difference and Coherence in Detail
 
@@ -586,7 +650,9 @@ Than red light ($\lambda \approx 700$ nm).
 Two sources are **coherent** if their phase difference $\Delta\phi$ is constant in time. The
 **coherence length** is the maximum path difference over which interference can be observed:
 
-$$L_c = \frac{\lambda^2}{\Delta\lambda}$$
+$$
+L_c = \frac{\lambda^2}{\Delta\lambda}
+$$
 
 Where $\Delta\lambda$ is the bandwidth of the source. A narrow-band source (small $\Delta\lambda$)
 Has a long coherence length.
@@ -609,7 +675,9 @@ Slits act as secondary coherent sources.
 The **angular dispersion** of a grating is $d\theta/d\lambda = n/(d\cos\theta)$. The **resolving
 Power** is:
 
-$$R = \frac{\lambda}{\Delta\lambda} = nN$$
+$$
+R = \frac{\lambda}{\Delta\lambda} = nN
+$$
 
 Where $N$ is the total number of illuminated slits.
 
@@ -619,16 +687,16 @@ nm.
 
 ### 9.2 Missing Orders
 
-If grating slits have finite width $a$An order $n$ is missing when it coincides with a single-slit
+If grating slits have finite width $a$ An order $n$ is missing when it coincides with a single-slit
 Minimum: $n = (d/a) \times m$ for $m = 1, 2, 3, \ldots$.
 
-**Example.** A grating with $d = 2.0$ $\mu$M and slit width $a = 0.50$ $\mu$M: $d/a = 4$ So orders
+**Example.** A grating with $d = 2.0$ $\mu$ M and slit width $a = 0.50$ $\mu$ M: $d/a = 4$ So orders
 $n = 4, 8, 12, \ldots$ are missing.
 
 ## 10. Common Pitfalls
 
 1. **Forgetting the small-angle approximation.** $\Delta w = \lambda D/s$ assumes
-   $\sin\theta \approx \tan\theta$Valid only when $D \gg s$. For large angles, use
+   $\sin\theta \approx \tan\theta$ Valid only when $D \gg s$. For large angles, use
    $\sin\theta = n\lambda/s$ directly.
 
 2. **Confusing slit separation $s$ with slit width $a$.** $s$ is the separation between slit
@@ -733,16 +801,6 @@ See for instructions on
 self-marking and building a personal test matrix.
 </Aside>
 
-```mermaid
-flowchart TD
-    A[02 Superposition And Interferencex] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the fundamental principles of superposition and interference, including the key
@@ -760,9 +818,6 @@ A strong understanding of these principles, combined with regular practice of qu
 and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

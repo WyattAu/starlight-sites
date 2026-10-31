@@ -24,7 +24,7 @@ categories:
 
 Branching is the mechanism that enables **parallel development**, multiple developers (or a single
 developer working on multiple features) can modify the codebase independently, then integrate their
-changes. Git"s branching model is one of its defining strengths: branches are cheap ($O(1)$
+changes. Git's branching model is one of its defining strengths: branches are cheap ($O(1)$
 creation), fast to switch, and designed to be created and deleted frequently.
 
 This contrasts sharply with older VCS where branching was an expensive operation that involved
@@ -63,7 +63,7 @@ In the graph above:
 
 - `main` points to commit `F`.
 - `feature` points to commit `E`.
-- Commits `A``B``C` are shared by both branches, no duplication.
+- Commits `A`, `B`, `C` are shared by both branches, no duplication.
 - Commit `D` and `E` are only reachable from `feature`.
 - Commit `F` is only reachable from `main`.
 
@@ -191,6 +191,8 @@ $ git push origin --delete feature-auth
 
 Consistent branch naming is essential for project hygiene. Common conventions:
 
+<div class="table-wrap">
+
 | Pattern                          | Purpose                                            |
 | -------------------------------- | -------------------------------------------------- |
 | `main``master`                   | Production-ready code                              |
@@ -201,6 +203,8 @@ Consistent branch naming is essential for project hygiene. Common conventions:
 | `hotfix/<description>`           | Urgent production fixes                            |
 | `release/<version>`              | Release preparation                                |
 | `experiment/<description>`       | Experimental work                                  |
+
+</div>
 :::
 
 :::tip
@@ -347,9 +351,6 @@ implementation, and key applications.
 - resolving merge conflicts
 - rebasing and cherry-picking
 - Git workflows (GitFlow, trunk-based)
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

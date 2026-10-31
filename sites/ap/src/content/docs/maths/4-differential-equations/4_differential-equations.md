@@ -23,8 +23,8 @@ categories:
 ## Introduction to Differential Equations (CED Unit 7)
 
 A **differential equation** (DE) is an equation that relates a function to one or more of its
-Derivatives. The **order** of a DE is the highest derivative that appears. A first-order DE involves
-Only $\frac{dy}{dx}$; a second-order DE involves $\frac{d^2y}{dx^2}$.
+derivatives. The **order** of a DE is the highest derivative that appears. A first-order DE involves
+only $\frac{dy}{dx}$; a second-order DE involves $\frac{d^2y}{dx^2}$.
 
 A **solution** to a DE is a function that satisfies the equation. A **general solution** contains
 Arbitrary constants ( equal to the order of the DE), while a **particular solution** Satisfies
@@ -54,7 +54,7 @@ $$
 
 This works because $dy$ and $dx$ are related through the chain rule: $\frac{dy}{dx} = g(x)h(y)$
 Rewrites as $\frac{1}{h(y)}\frac{dy}{dx} = g(x)$ And integrating both sides with respect to $x$ Gives
-$\int \frac{1}{h(y)}\frac{dy}{dx}\,dx = \int g(x)\,dx$Which is exactly the separated form Above.
+$\int \frac{1}{h(y)}\frac{dy}{dx}\,dx = \int g(x)\,dx$ Which is exactly the separated form Above.
 
 ### Separability Test
 
@@ -155,9 +155,9 @@ Where $k$ is a constant.
 
 The equation $\frac{dy}{dt} = ky$ says: "the rate of change is proportional to the current
 Quantity." This is the simplest possible feedback loop. If you have a population of bacteria, each
-Bacterium divides independently, so the total growth rate is proportional to how many bacteria
+bacterium divides independently, so the total growth rate is proportional to how many bacteria
 Exist. If you have a radioactive sample, each atom decays independently, so the total decay rate is
-Proportional to how many atoms remain. This single assumption generates the exponential.
+proportional to how many atoms remain. This single assumption generates the exponential.
 
 ### Solution
 
@@ -179,10 +179,10 @@ $$
 Y(t) = y_0 \cdot 2^{-t/T_{1/2}}
 $$
 
-Alternatively, since $\frac{1}{2}y_0 = y_0 e^{kT_{1/2}}$We get $k = -\frac{\ln 2}{T_{1/2}}$.
+Alternatively, since $\frac{1}{2}y_0 = y_0 e^{kT_{1/2}}$ We get $k = -\frac{\ln 2}{T_{1/2}}$.
 
 The half-life is a constant: no matter when you start measuring, the time for the quantity to halve
-Is always $T_{1/2}$. This is a direct consequence of the exponential"s scale-invariance.
+is always $T_{1/2}$. This is a direct consequence of the exponential"s scale-invariance.
 :::
 
 :::note[Example]
@@ -219,11 +219,11 @@ $$
 \frac{dy}{dt} = ky\!\left(1 - \frac{y}{L}\right)
 $$
 
-- When $y$ is small relative to $L$Growth is approximately exponential (the factor
+- When $y$ is small relative to $L$ Growth is approximately exponential (the factor
   $1 - \frac{y}{L} \approx 1$).
-- As $y \to L$The growth rate $\to 0$.
+- As $y \to L$ The growth rate $\to 0$.
 - The carrying capacity $L$ is a horizontal asymptote.
-- If $y \gt L$The growth rate is negative, pulling $y$ back toward $L$.
+- If $y \gt L$ The growth rate is negative, pulling $y$ back toward $L$.
 
 ### Solution
 
@@ -237,7 +237,7 @@ Where $A = \frac{L - y_0}{y_0}$ depends on the initial condition.
 
 ### Derivation
 
-Starting with $\frac{dy}{dt} = ky\!\left(1 - \frac{y}{L}\right)$Separate:
+Starting with $\frac{dy}{dt} = ky\!\left(1 - \frac{y}{L}\right)$ Separate:
 
 $$
 \int \frac{L}{y(L - y)}\, dy = \int k\, dt
@@ -276,7 +276,7 @@ $$
 
 :::note[Example]
 A population of bacteria grows logistically with carrying capacity 1000. Initially, there are 100
-Bacteria, and after 1 hour there are 200. Find the population after 3 hours.
+bacteria, and after 1 hour there are 200. Find the population after 3 hours.
 
 $$
 Y(t) = \frac{1000}{1 + Ae^{-kt}}
@@ -306,7 +306,7 @@ Shows the direction a solution curve must pass through that point.
 
 ### Constructing Slope Fields
 
-For any given grid point $(x_i, y_j)$Compute $f(x_i, y_j)$ and draw a short segment with that Slope.
+For any given grid point $(x_i, y_j)$ Compute $f(x_i, y_j)$ and draw a short segment with that Slope.
 The density of the grid determines how accurately the field represents the DE.
 
 ### Interpreting Slope Fields
@@ -335,12 +335,12 @@ For $\displaystyle\frac{dy}{dx} = \frac{x}{y}$:
 When $y \gt 0$: slopes have the same sign as $x$. When $y \lt 0$: slopes have the opposite sign of
 $x$. When $y = 0$: slopes are undefined (vertical line segments).
 
-The solution curves are hyperbolas $y^2 - x^2 = C$Consistent with our earlier analytic solution.
+The solution curves are hyperbolas $y^2 - x^2 = C$ Consistent with our earlier analytic solution.
 
 ## Euler's Method (CED Unit 7.6)
 
 Euler's method approximates the solution to $\frac{dy}{dx} = f(x, y)$ with $y(x_0) = y_0$ using a
-Simple iterative scheme:
+simple iterative scheme:
 
 $$
 Y_{n+1} = y_n + f(x_n, y_n) \cdot \Delta x
@@ -373,21 +373,27 @@ Approximating the curve locally by its tangent line at each step.
 Use Euler's method with $\Delta x = 0.5$ to approximate $y(2)$ for $\frac{dy}{dx} = x + y$
 $y(1) = 0$.
 
+<div class="table-wrap">
+
 | Step | $x_n$ | $y_n$ | $f(x_n, y_n) = x_n + y_n$ | $y_{n+1} = y_n + f \cdot \Delta x$ |
 | ---- | ----- | ----- | ------------------------- | ---------------------------------- |
 | 0    | 1.0   | 0     | 1.0                       | $0 + 1.0(0.5) = 0.5$               |
 | 1    | 1.5   | 0.5   | 2.0                       | $0.5 + 2.0(0.5) = 1.5$             |
 | 2    | 2.0   | 1.5   | --                        |                                    |
 
+</div>
+
 So $y(2) \approx 1.5$.
 
-(The exact solution is $y = e^{x-1} - x - 1$Giving $y(2) = e - 3 \approx -0.282$. The Approximation
-is poor due to the large step size. With $\Delta x = 0.1$The result is much closer.)
+(The exact solution is $y = e^{x-1} - x - 1$ Giving $y(2) = e - 3 \approx -0.282$. The Approximation
+is poor due to the large step size. With $\Delta x = 0.1$ The result is much closer.)
 
 ### Worked Example: More Steps
 
 Use Euler's method with $\Delta x = 0.25$ to approximate $y(1)$ for $\frac{dy}{dx} = x^2 + y$
 $y(0) = 1$.
+
+<div class="table-wrap">
 
 | Step | $x_n$ | $y_n$ | $f(x_n, y_n)$ | $y_{n+1}$ |
 | ---- | ----- | ----- | ------------- | --------- |
@@ -396,6 +402,8 @@ $y(0) = 1$.
 | 2    | 0.50  | 1.578 | 1.828         | 2.035     |
 | 3    | 0.75  | 2.035 | 2.613         | 2.688     |
 | 4    | 1.00  | 2.688 | --            | --        |
+
+</div>
 
 So $y(1) \approx 2.688$.
 
@@ -447,7 +455,7 @@ $$
 ### Mixing Problems
 
 A tank contains $V$ liters of water with $Q_0$ kg of dissolved substance. Solution with
-Concentration $c_i$ kg/L flows in at rate $r_i$ L/min, and the mixture flows out at rate $r_o$
+concentration $c_i$ kg/L flows in at rate $r_i$ L/min, and the mixture flows out at rate $r_o$
 L/min.
 
 The rate of change of the amount $Q$ of dissolved substance is:
@@ -457,14 +465,14 @@ $$
 $$
 
 The term $\frac{Q}{V}$ is the current concentration in the tank, so $\frac{r_o}{V}Q$ is the rate at
-Which substance leaves.
+which substance leaves.
 :::
 
 :::note[Example]
 A tank holds 100 L of pure water. Brine with 0.5 kg/L salt flows in at 5 L/min, and the mixture
 Flows out at 5 L/min. Find the salt content after 20 minutes.
 
-Since $r_i = r_o = 5$The volume stays at 100 L.
+Since $r_i = r_o = 5$ The volume stays at 100 L.
 
 $$
 \frac{dQ}{dt} = 5(0.5) - \frac{5}{100}Q = 2.5 - 0.05Q
@@ -489,9 +497,9 @@ $$
 ### Worked Example: Mixing with Variable Volume
 
 A tank initially contains 200 L of pure water. Brine with 0.3 kg/L salt flows in at 4 L/min, and the
-Mixture flows out at 3 L/min. Find the salt content after 60 minutes.
+mixture flows out at 3 L/min. Find the salt content after 60 minutes.
 
-Since $r_i \neq r_o$The volume changes: $V(t) = 200 + (4 - 3)t = 200 + t$.
+Since $r_i \neq r_o$ The volume changes: $V(t) = 200 + (4 - 3)t = 200 + t$.
 
 $$
 \frac{dQ}{dt} = 4(0.3) - \frac{3}{200 + t}Q = 1.2 - \frac{3Q}{200 + t}
@@ -552,15 +560,19 @@ For autonomous equations $\frac{dy}{dt} = f(y)$:
 - Find equilibrium solutions by solving $f(y) = 0$.
 - Classify stability by checking the sign of $f(y)$ near each equilibrium.
 
+<div class="table-wrap">
+
 | Sign of $f(y)$ near equilibrium        | Stability           |
 | -------------------------------------- | ------------------- |
 | $f(y) \gt 0$ below, $f(y) \lt 0$ above | Stable (attractor)  |
 | $f(y) \lt 0$ below, $f(y) \gt 0$ above | Unstable (repeller) |
 | Same sign on both sides                | Semi-stable         |
 
+</div>
+
 ### Phase Line Analysis
 
-For an autonomous DE $\frac{dy}{dt} = f(y)$The **phase line** is a one-dimensional diagram of the
+For an autonomous DE $\frac{dy}{dt} = f(y)$ The **phase line** is a one-dimensional diagram of the
 $y$-axis with arrows indicating the direction of flow.
 
 - Draw the $y$-axis and mark the equilibrium points (zeros of $f$).
@@ -574,12 +586,16 @@ Analyse $\displaystyle\frac{dy}{dt} = y(y - 2)(y - 5)$.
 
 Equilibria: $y = 0$, $y = 2$, $y = 5$.
 
+<div class="table-wrap">
+
 | Interval        | Test point | $f(y)$            | Direction  |
 | --------------- | ---------- | ----------------- | ---------- |
 | $y \lt 0$       | $-1$       | $(-)(-)(-) \lt 0$ | Decreasing |
 | $0 \lt y \lt 2$ | $1$        | $(+)(-)(-) \gt 0$ | Increasing |
 | $2 \lt y \lt 5$ | $3$        | $(+)(+)(-) \lt 0$ | Decreasing |
 | $y \gt 5$       | $6$        | $(+)(+)(+) \gt 0$ | Increasing |
+
+</div>
 
 - $y = 0$: arrows point away -- **unstable**
 - $y = 2$: arrows point inward -- **stable**
@@ -588,7 +604,7 @@ Equilibria: $y = 0$, $y = 2$, $y = 5$.
 ## Bifurcation Analysis (CED Unit 7.9)
 
 A **bifurcation** occurs when a small change in a parameter of the DE causes a qualitative change in
-The equilibrium structure.
+the equilibrium structure.
 
 Consider the one-parameter family:
 
@@ -609,7 +625,7 @@ Transitions from having no equilibria to having two.
 ## Numerical Methods: Beyond Euler
 
 Euler's method is the simplest numerical ODE solver, but it is rarely used in practice because
-Higher-order methods achieve the same accuracy with far fewer steps.
+higher-order methods achieve the same accuracy with far fewer steps.
 
 ### Improved Euler's Method (Heun's Method)
 
@@ -688,7 +704,7 @@ Method would be.
 
 2. **Incorrectly separating variables.** All $y$ terms (including $dy$) must be on one side, and all
    $x$ terms (including $dx$) on the other. If you cannot algebraically factor $f(x, y)$ into
-   $g(x)h(y)$The equation is not separable and you need a different technique.
+   $g(x)h(y)$ The equation is not separable and you need a different technique.
 
 3. **Not checking the domain** of the solution. Some solutions may only be valid on a restricted
    interval. For example, the solution to $\frac{dy}{dx} = \frac{x}{y}$ is $y^2 = x^2 + C$ But if
@@ -697,11 +713,11 @@ Method would be.
 4. **Confusing the logistic growth equation** with exponential growth. The logistic equation has the
    additional factor $\left(1 - \frac{y}{L}\right)$ that caps growth at the carrying capacity.
 
-5. **Sign errors in Euler's method.** Remember: $y_{n+1} = y_n + f(x_n, y_n) \cdot \Delta x$Not
+5. **Sign errors in Euler's method.** Remember: $y_{n+1} = y_n + f(x_n, y_n) \cdot \Delta x$ Not
    minus. The slope at the current point tells you which direction to step.
 
-6. **Identifying the wrong carrying capacity.** In $\frac{dy}{dt} = ky(1 - y/L)$The carrying
-   capacity is $L$Not $\frac{1}{L}$ or $kL$. Check: setting $\frac{dy}{dt} = 0$ gives $y = 0$ or
+6. **Identifying the wrong carrying capacity.** In $\frac{dy}{dt} = ky(1 - y/L)$ The carrying
+   capacity is $L$ Not $\frac{1}{L}$ or $kL$. Check: setting $\frac{dy}{dt} = 0$ gives $y = 0$ or
    $y = L$.
 
 7. **Forgetting that equilibrium solutions** cannot be found by separation of variables (since you
@@ -724,7 +740,7 @@ Method would be.
 4. A body at $80^\circ\mathrm{C$ is placed in a room at $25^\circ\mathrm{C$. After 30 minutes, the
    body is at $50^\circ\mathrm{C$. When will it reach $30^\circ\mathrm{C$?
 
-5. For $\displaystyle\frac{dy}{dx} = y(y - 2)(y - 5)$Find all equilibrium solutions and classify
+5. For $\displaystyle\frac{dy}{dx} = y(y - 2)(y - 5)$ Find all equilibrium solutions and classify
    their stability. Draw the phase line.
 
 6. Sketch the slope field for $\displaystyle\frac{dy}{dx} = \frac{x}{y}$ and identify the
@@ -785,7 +801,7 @@ at $t = 50$ And (b) the time when the population reaches half the carrying capac
 <details>
 <summary>Answer</summary>
 
-Carrying capacity $K = 1000$Growth rate $r = 0.05$.
+Carrying capacity $K = 1000$ Growth rate $r = 0.05$.
 
 Logistic solution: $P(t) = \frac{K}{1 + Ae^{-rt}}$ where
 $A = \frac{K - P_0}{P_0} = \frac{1000 - 100}{100} = 9$.
@@ -844,7 +860,7 @@ For $y \gt x$ (above the line $y = x$): $dy/dx = x - y \lt 0$ So solutions decre
 For $y \lt x$ (below the line $y = x$): $dy/dx = x - y \gt 0$ So solutions increase.
 
 All solutions approach the line $y = x - 1$ as $x \to \infty$ (this can be verified by solving the
-DE: the general solution is $y = x - 1 + Ce^{-x}$Which approaches $x - 1$).
+DE: the general solution is $y = x - 1 + Ce^{-x}$ Which approaches $x - 1$).
 
 The line $y = x - 1$ is a stable equilibrium solution.
 
@@ -892,16 +908,6 @@ See for instructions
 on self-marking and building a personal test matrix.
 :::
 
-```mermaid
-flowchart TD
-    A[4_Differential Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to differential equations,
@@ -915,13 +921,7 @@ including key theorems, methods, and problem-solving approaches.
 - the sine and cosine rules
 - radian measure and arc length
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

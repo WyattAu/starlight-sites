@@ -23,7 +23,7 @@ categories:
 ## The Merge Operation
 
 Merging is the process of combining the changes from one branch into another. Git's merge algorithm
-Is one of its most sophisticated features, it can automatically resolve many cases where both
+is one of its most sophisticated features, it can automatically resolve many cases where both
 Branches have modified different files or different parts of the same file.
 
 ### What `git merge` Actually Does
@@ -78,6 +78,8 @@ flowchart TD
 
 The algorithm works **file by file, hunk by hunk**:
 
+<div class="table-wrap">
+
 | Base | Ours | Theirs | Result       | Explanation                                           |
 | ---- | ---- | ------ | ------------ | ----------------------------------------------------- |
 | `x`  | `x`  | `x`    | `x`          | No change, keep as-is                                |
@@ -85,13 +87,15 @@ The algorithm works **file by file, hunk by hunk**:
 | `x`  | `x`  | `y`    | `y`          | Only they changed, take theirs                       |
 | `x`  | `y`  | `z`    | **Conflict** | Both changed differently, manual resolution required |
 
+</div>
+
 The critical case is the last row: when both branches modify the same region of the same file. This
-Is a **merge conflict**.
+is a **merge conflict**.
 
 ### Finding the Common Ancestor
 
 Git finds the base commit by computing the **lowest common ancestor** (LCA) of the two branch tips
-In the commit DAG. This is not trivial when the history contains multiple merge bases (criss-cross
+in the commit DAG. This is not trivial when the history contains multiple merge bases (criss-cross
 Merges):
 
 ```mermaid
@@ -171,6 +175,8 @@ It easy to see when a feature was merged, revert the entire feature with one com
 
 Git supports several merge strategies, selectable with `-s`:
 
+<div class="table-wrap">
+
 | Strategy                       | Description                                                              | When to Use                                  |
 | ------------------------------ | ------------------------------------------------------------------------ | -------------------------------------------- |
 | `recursive` (default)          | Three-way merge with recursive base resolution                           | General purpose, handles criss-cross merges  |
@@ -180,13 +186,15 @@ Git supports several merge strategies, selectable with `-s`:
 | `ours`                         | Discard all changes from the other branch, keep ours                     | Rare; `git merge -s ours` is an anti-pattern |
 | `subtree`                      | Adjust subtree merge paths                                               | When managing subtree merges                 |
 
+</div>
+
 ### The `ort` Strategy (Git 2.34+)
 
 The `ort` ("Ostensibly Recursive's Twin") strategy is a from-scratch rewrite of the `recursive`
 Strategy. It produces identical merge results but with significant improvements:
 
 - **Performance**: $2\times$–$10\times$ faster on large repositories (Chromium, Android).
-- **Conflict markers**: Clearer conflict markers with section headers (`<<<<<<< HEAD``=======`
+- **Conflict markers**: Clearer conflict markers with section headers (`<<<<<<< HEAD`, `=======`
   `>>>>>>> branch`).
 - **Rename detection**: More accurate rename detection.
 - **Memory usage**: Lower peak memory consumption.
@@ -218,11 +226,15 @@ function authenticate(user) {
 
 The markers are:
 
+<div class="table-wrap">
+
 | Marker                 | Meaning                                          |
 | ---------------------- | ------------------------------------------------ |
 | `<<<<<<< HEAD`         | Start of the conflict. Our version begins here.  |
 | `=======`              | Separator between our version and their version. |
 | `>>>>>>> feature-auth` | End of the conflict. Their version ends here.    |
+
+</div>
 
 ### Resolving Conflicts
 
@@ -269,6 +281,8 @@ $ git merge --abort
 
 ### Conflict Scenarios and Solutions
 
+<div class="table-wrap">
+
 | Scenario                                                   | Recommended Resolution                                            |
 | ---------------------------------------------------------- | ----------------------------------------------------------------- |
 | One side added a feature, other side refactored            | Manually integrate the feature into the refactored code           |
@@ -276,6 +290,8 @@ $ git merge --abort
 | One side deleted a file, other side modified it            | Discuss with the team: delete or keep with modifications          |
 | Rename conflicts (file renamed differently on each branch) | Manually resolve: pick one name, apply changes from both sides    |
 | Large-scale conflicts (hundreds of files)                  | Consider rebasing instead, or `git merge --abort` and re-evaluate |
+
+</div>
 :::
 
 :::tip
@@ -339,7 +355,7 @@ git rebase main
 ### 2. Keep Feature Branches Short-Lived
 
 Long-lived branches accumulate conflicts. A feature branch should ideally exist for no more than a
-Few days. If a feature is large, break it into smaller, independently mergeable pieces.
+few days. If a feature is large, break it into smaller, independently mergeable pieces.
 
 ### 3. Use `--no-ff` for Feature Merges
 
@@ -388,10 +404,6 @@ Closes #42."
    constructs.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

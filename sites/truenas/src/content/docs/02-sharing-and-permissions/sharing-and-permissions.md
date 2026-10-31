@@ -23,6 +23,8 @@ Server Message Block (SMB) is the primary file sharing protocol for Windows envi
 Uses Samba to provide SMB sharing. Modern versions support SMB 3.1.1, which includes encryption,
 Compression, and continuous availability.
 
+<div class="table-wrap">
+
 | SMB Version | Features                            | Security          | Recommendation       |
 | ----------- | ----------------------------------- | ----------------- | -------------------- |
 | SMB1        | Legacy, no encryption               | Broken (WannaCry) | Disable always       |
@@ -31,6 +33,8 @@ Compression, and continuous availability.
 | SMB3        | Encryption, continuous availability | Strong            | Recommended minimum  |
 | SMB3.0.2    | Offload data transfer               | Strong            | Recommended          |
 | SMB3.1.1    | Pre-authentication integrity        | Strongest         | Recommended          |
+
+</div>
 
 ### SMB Dialect Negotiation
 
@@ -72,8 +76,8 @@ TrueNAS offers two approaches to SMB permissions:
 
 1. **SMB Dataset Permissions (simplified):** Set via the SMB share configuration. Options include:
 
-- `DEFAULT`Use the dataset"s Unix permissions
-- `RESTRICTED`Only the owner can access
+- `DEFAULT`. Use the dataset"s Unix permissions
+- `RESTRICTED`. Only the owner can access
 - `BUILTIN_ADMINISTRATORS`Windows admin group gets full access
 - `BUILTIN_USERS`Windows users group gets read access
 
@@ -81,6 +85,8 @@ TrueNAS offers two approaches to SMB permissions:
    fine-grained control over user and group permissions, including inheritance.
 
 ### SMB Share Configuration Options
+
+<div class="table-wrap">
 
 | Option                         | Default             | Description                                   |
 | ------------------------------ | ------------------- | --------------------------------------------- |
@@ -95,6 +101,8 @@ TrueNAS offers two approaches to SMB permissions:
 | Shadow Copy                    | Disabled            | Enables previous versions (Windows)           |
 | Access Based Share Enumeration | No                  | Only show shares the user has access to       |
 | macOS Streaming                | No                  | Optimize for macOS streaming workloads        |
+
+</div>
 
 ### macOS Compatibility
 
@@ -139,12 +147,16 @@ TrueNAS can act as a Time Machine backup target for macOS:
 OpLocks allow a client to cache file data locally, improving performance. However, they can cause
 Issues with database files and applications that require strict file consistency:
 
+<div class="table-wrap">
+
 | OpLock Type         | Description                       | Risk                                       |
 | ------------------- | --------------------------------- | ------------------------------------------ |
 | Level 1 (Exclusive) | Client caches reads and writes    | Data corruption if multiple clients access |
 | Level 2 (Shared)    | Client caches reads only          | Lower risk                                 |
 | Batch               | Client can defer close operations | Database corruption risk                   |
 | Lease (SMB2+)       | Extended oplock with durability   | Same risks as Level 1                      |
+
+</div>
 
 For database files (SQLite, Microsoft Access), disable oplocks on the share:
 
@@ -160,11 +172,15 @@ vfs objects = no
 SMB signing adds a cryptographic signature to every SMB message, preventing man-in-the-middle
 Attacks. It is required for SMB3 encryption.
 
+<div class="table-wrap">
+
 | Setting              | Performance Impact | Security |
 | -------------------- | ------------------ | -------- |
 | Disabled             | None               | Low      |
 | Required (auto)      | 5–10%              | Medium   |
 | Required (mandatory) | 10–15%             | High     |
+
+</div>
 
 ### SMB Logging and Debugging
 
@@ -197,6 +213,8 @@ smbstatus
 
 ### NFSv3 vs NFSv4
 
+<div class="table-wrap">
+
 | Feature            | NFSv3                       | NFSv4                       |
 | ------------------ | --------------------------- | --------------------------- |
 | Stateful           | No                          | Yes (leases, delegations)   |
@@ -207,6 +225,8 @@ smbstatus
 | Caching            | Client-side caching limited | Delegations improve caching |
 | Character encoding | Not specified               | UTF-8 required              |
 | Pseudo-filesystem  | Not supported               | Referrals and pseudo-fs     |
+
+</div>
 
 NFSv4 is recommended for all new deployments. It simplifies firewall configuration (single port),
 Provides better security, and supports more robust locking.
@@ -238,6 +258,8 @@ NFSv4.2 added:
 
 ### NFS Export Configuration
 
+<div class="table-wrap">
+
 | Option              | Description                | Recommended Setting               |
 | ------------------- | -------------------------- | --------------------------------- |
 | Authorized Networks | IP ranges allowed to mount | Restrict to known client networks |
@@ -246,11 +268,15 @@ NFSv4.2 added:
 | Security            | Authentication flavor      | `krb5p` for security-sensitive    |
 | Enabled             | Activate the export        | Yes                               |
 
+</div>
+
 ### Squashing
 
 Root squashing maps `root` (UID 0) to an unprivileged user ( `nobody`) to prevent a remote Root user
 from having root access to exported files. This is enabled by default and should be left On unless
 you have a specific need for no_root_squash.
+
+<div class="table-wrap">
 
 | Squash Setting    | Behavior                    |
 | ----------------- | --------------------------- |
@@ -258,17 +284,19 @@ you have a specific need for no_root_squash.
 | No Root Squashing | UID 0 retains root access   |
 | All Squashing     | All UIDs mapped to `nobody` |
 
+</div>
+
 ### NFSv4 ID Mapping
 
 NFSv4 uses string-based user and group names instead of numeric UIDs/GIDs. The server and client
-Must agree on the name-to-ID mapping. On TrueNAS:
+must agree on the name-to-ID mapping. On TrueNAS:
 
 - With local users, `nfs4idmapd` handles the mapping.
 - With Active Directory, the AD domain provides the mapping.
 - With LDAP, the LDAP directory provides the mapping.
 
 If the server and client have different UID/GID mappings for the same username, files will appear to
-Be owned by the wrong user. Ensure the ID mapping configuration is consistent.
+be owned by the wrong user. Ensure the ID mapping configuration is consistent.
 
 ### Kerberos Integration
 
@@ -323,14 +351,18 @@ Configure under **Sharing** → **Unix (NFS) Shares** → **Settings**.
 
 ### async vs. Sync NFS
 
+<div class="table-wrap">
+
 | Mode  | Behavior                                             | Safety | Performance |
 | ----- | ---------------------------------------------------- | ------ | ----------- |
 | sync  | Server acknowledges write only after data is on disk | High   | Lower       |
 | async | Server acknowledges write before data is on disk     | Lower  | Higher      |
 
+</div>
+
 For NFS, the default sync behavior depends on the client's mount options. ZFS's copy-on-write
 Ensures data integrity regardless of the NFS sync setting, but async mode can return "success" to
-The client before the data is actually stable on disk.
+the client before the data is actually stable on disk.
 
 ### NFS Client Configuration (Linux)
 
@@ -365,6 +397,8 @@ ISCSI (Internet Small Computer System Interface) encapsulates SCSI commands over
 Allowing remote access to block devices. This is used for VM storage, database storage, and any
 Workload that requires raw block access rather than file-level access.
 
+<div class="table-wrap">
+
 | Component | Role                                                              |
 | --------- | ----------------------------------------------------------------- |
 | Target    | The storage server (TrueNAS) that provides block devices          |
@@ -372,6 +406,8 @@ Workload that requires raw block access rather than file-level access.
 | Initiator | The client that connects to the target and accesses the LUN       |
 | Portal    | The IP address and port the target listens on                     |
 | IQN       | iSCSI Qualified Name, unique identifier for target and initiator |
+
+</div>
 
 ### iSCSI Discovery and Login
 
@@ -417,12 +453,16 @@ zfs create -V 100G -b 64K -o compression=lz4 tank/iscsi/lun0
 
 Key zvol properties:
 
+<div class="table-wrap">
+
 | Property     | Recommended Value | Rationale                                               |
 | ------------ | ----------------- | ------------------------------------------------------- |
 | volblocksize | 64K or 128K       | Match the VM filesystem block size                      |
 | compression  | lz4               | Reduces storage usage and improves performance          |
 | sync         | always            | Required for data integrity on block devices            |
 | primarycache | metadata          | For VM workloads, caching metadata in ARC is sufficient |
+
+</div>
 
 ### Zvol Sizing Considerations
 
@@ -525,6 +565,8 @@ chmod -R 750 /mnt/pool/dataset
 
 ### Permission Bits Explained
 
+<div class="table-wrap">
+
 | Bit | Octal    | Meaning (File)        | Meaning (Directory)              |
 | --- | -------- | --------------------- | -------------------------------- |
 | r   | 4        | Read file contents    | List directory entries           |
@@ -533,6 +575,8 @@ chmod -R 750 /mnt/pool/dataset
 | s   | (setuid) | Execute as file owner | N/A                              |
 | s   | (setgid) | Execute as file group | New files inherit group          |
 | t   | (sticky) | N/A                   | Only owner can delete files      |
+
+</div>
 
 ### NFS4 ACLs
 
@@ -560,6 +604,8 @@ A:fd:group@domain.com:RX:fd
 D::user@domain.com:W
 ```
 
+<div class="table-wrap">
+
 | Component | Meaning                                            |
 | --------- | -------------------------------------------------- |
 | A or D    | Allow or Deny                                      |
@@ -568,6 +614,8 @@ D::user@domain.com:W
 | fd        | File and directory (default for new entries)       |
 | RWX       | Permissions (read, write, execute)                 |
 | /ad       | Inheritance flags (apply to this, directory, file) |
+
+</div>
 
 ### Windows ACLs via SMB
 
@@ -613,6 +661,8 @@ For environments using LDAP (OpenLDAP, 389 Directory Server):
 
 ### User and Group ID Planning
 
+<div class="table-wrap">
+
 | ID Range    | Purpose         | Example                       |
 | ----------- | --------------- | ----------------------------- |
 | 0           | root            | System                        |
@@ -621,9 +671,11 @@ For environments using LDAP (OpenLDAP, 389 Directory Server):
 | 60000–65533 | LDAP/AD users   | Mapped from directory service |
 | 65534       | nobody          | Unmapped/anonymous            |
 
+</div>
+
 Ensure UIDs and GIDs are consistent across the NAS and all client systems. If the NAS assigns UID
 1001 to user "alice" but a client system assigns UID 1001 to user "bob", permissions will be wrong
-When accessing NFS or SMB shares.
+when accessing NFS or SMB shares.
 
 ---
 
@@ -680,17 +732,21 @@ Protection** → **Snapshot Tasks** → **Add**.
 
 For user home directories:
 
-1. Create a dataset per user: `tank/homes/alice``tank/homes/bob`.
+1. Create a dataset per user: `tank/homes/alice`, `tank/homes/bob`.
 2. Create an SMB share for each home directory or use the `homes` share type.
 3. Set permissions so each user can only access their own home directory.
 4. Enable shadow copies for file recovery.
 
 ### Guest Access vs. Authenticated
 
+<div class="table-wrap">
+
 | Mode              | Configuration          | Security | Use Case                 |
 | ----------------- | ---------------------- | -------- | ------------------------ |
 | Authenticated     | User accounts required | High     | Production environments  |
 | Guest (anonymous) | No credentials needed  | Low      | Public file sharing only |
+
+</div>
 
 :::caution
 Authentication and authorization checks. Use it only for public read-only shares (e.g., a shared
@@ -735,7 +791,7 @@ Fails definitively (databases, VM images). Always use "hard" mounts for persiste
 
 The default NFS security flavor is `sys` (AUTH_SYS), which trusts the client to report the correct
 UID/GID. Any user who can connect to the NFS server can claim to be any user, including root. For
-Any network where you do not fully trust all clients, use Kerberos (krb5, krb5i, or krb5p).
+any network where you do not fully trust all clients, use Kerberos (krb5, krb5i, or krb5p).
 
 ### Overlooking Dataset Case Sensitivity
 
@@ -746,7 +802,7 @@ Missing. Set the `casesensitivity` dataset property to `insensitive` if sharing 
 ### Not Enabling NFSv4 ID Mapping
 
 Without proper NFSv4 ID mapping (`nfs4idmapd`), the server and client may disagree on the mapping
-Between usernames and UIDs. This results in files appearing to be owned by `nobody` or incorrect
+between usernames and UIDs. This results in files appearing to be owned by `nobody` or incorrect
 Users. Always configure ID mapping when using NFSv4 with named users.
 
 ### Ignoring SMB Signing Requirements
@@ -758,7 +814,7 @@ Environment requires it.
 ## SMB3 Encryption Configuration
 
 SMB3 encryption protects data in transit between client and server. TrueNAS supports SMB3 encryption
-Which can be enabled globally or per-share. Encrypted SMB traffic adds CPU overhead ( 10-25%
+which can be enabled globally or per-share. Encrypted SMB traffic adds CPU overhead ( 10-25%
 depending on the cipher used) but eliminates the need for separate VPN tunnels for data Protection.
 
 ### Enabling SMB3 Encryption Globally
@@ -791,11 +847,15 @@ midclt call smb.get_share sensitive-data | jq '.encrypt'
 
 ### Performance Impact
 
+<div class="table-wrap">
+
 | Cipher                    | AES-128-GCM | AES-256-GCM | ChaCha20-Poly1305       |
 | ------------------------- | ----------- | ----------- | ----------------------- |
 | CPU Overhead (AES-NI)     | 5-10%       | 8-15%       | 10-20%                  |
 | CPU Overhead (no AES-NI)  | 30-50%      | 35-55%      | 15-25%                  |
 | Throughput Impact (10GbE) | Minimal     | Minimal     | Noticeable on &lt;10GbE |
+
+</div>
 
 Modern Intel and AMD CPUs with AES-NI instructions handle AES-128-GCM with minimal overhead. If your
 CPU lacks AES-NI (rare on anything newer than 2013), the performance penalty is significant.
@@ -920,6 +980,8 @@ zfs list -o name,volsize,volblocksize,compression,logbias tank/iscsi/esxi-datast
 
 Key zvol properties for iSCSI:
 
+<div class="table-wrap">
+
 | Property       | Recommended Value                              | Rationale                           |
 | -------------- | ---------------------------------------------- | ----------------------------------- |
 | `volblocksize` | `64K` for VMs, `128K` for databases            | Match guest I/O size                |
@@ -927,6 +989,8 @@ Key zvol properties for iSCSI:
 | `logbias`      | `latency` for databases, `throughput` for bulk | Controls sync write behavior        |
 | `sync`         | `standard` (default)                           | Ensures data integrity              |
 | `primarycache` | `metadata` if using host caching               | Avoids double-caching               |
+
+</div>
 
 ### CHAP Authentication
 
@@ -1034,7 +1098,7 @@ Enforces quotas at the filesystem level regardless of the access protocol.
 
 Accessing the same ZFS dataset simultaneously via NFS and SMB causes locking and caching
 Inconsistencies. NFS uses advisory locks while SMB uses mandatory locks. Files created via NFS may
-Have permissions that SMB clients cannot interpret (POSIX vs Windows ACL mapping issues).
+have permissions that SMB clients cannot interpret (POSIX vs Windows ACL mapping issues).
 
 :::caution
 Replication or rsync pipeline to synchronize content. Alternatively, use SMB exclusively with
@@ -1055,16 +1119,6 @@ host 10.0.0.10
 # If using /etc/hosts, ensure entries exist on both client and server
 ```
 
-```mermaid
-flowchart TD
-    A[Sharing And Permissions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to sharing and permissions,
@@ -1078,17 +1132,11 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 File sharing and permissions are the access control system for your data. Permissions determine who can read, write, or execute files, like the lock system on a building where different keys open different doors. Sharing protocols (SMB, NFS,AFP) are the languages that different operating systems speak to access shared files, the way different postal services use different formats but all deliver mail to the same address. Getting permissions wrong can expose sensitive data or lock out legitimate users, so they must be configured carefully.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

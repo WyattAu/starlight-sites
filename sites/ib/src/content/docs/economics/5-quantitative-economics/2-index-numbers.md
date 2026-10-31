@@ -22,7 +22,9 @@ categories: [ib-economics]
 
 An index number measures the change in a variable (or group of variables) relative to a base period:
 
-$$\text{Index}_t = \frac{P_t}{P_0} \times 100$$
+$$
+\text{Index}_t = \frac{P_t}{P_0} \times 100
+$$
 
 Where $P_t$ is the value in period $t$ and $P_0$ is the value in the base period. The base period Is
 assigned an index value of 100.
@@ -30,7 +32,9 @@ assigned an index value of 100.
 **Weighted index numbers** are used when aggregating multiple items with different importance. For a
 Price index with $n$ goods:
 
-$$\text{Price Index}_t = \frac{\sum_{i=1}^{n} P_{i,t} \times Q_{i,0}}{\sum_{i=1}^{n} P_{i,0} \times Q_{i,0}} \times 100$$
+$$
+\text{Price Index}_t = \frac{\sum_{i=1}^{n} P_{i,t} \times Q_{i,0}}{\sum_{i=1}^{n} P_{i,0} \times Q_{i,0}} \times 100
+$$
 
 This is a **Laspeyres index**, which uses base-period quantities as weights. It tends to overstate
 Inflation because it does not account for consumer substitution away from goods that have become
@@ -38,22 +42,30 @@ Relatively more expensive.
 
 A **Paasche index** uses current-period quantities as weights:
 
-$$\text{Paasche Index}_t = \frac{\sum_{i=1}^{n} P_{i,t} \times Q_{i,t}}{\sum_{i=1}^{n} P_{i,0} \times Q_{i,t}} \times 100$$
+$$
+\text{Paasche Index}_t = \frac{\sum_{i=1}^{n} P_{i,t} \times Q_{i,t}}{\sum_{i=1}^{n} P_{i,0} \times Q_{i,t}} \times 100
+$$
 
 ### Using Index Numbers
 
 To convert a nominal value to a real value using an index number:
 
-$$\text{Real value} = \frac{\text{Nominal value}}{\text{Price index}} \times 100$$
+$$
+\text{Real value} = \frac{\text{Nominal value}}{\text{Price index}} \times 100
+$$
 
 To calculate the percentage change between two index values:
 
-$$\%\Delta = \frac{\text{Index}_t - \text{Index}_{t-1}}{\text{Index}_{t-1}} \times 100$$
+$$
+\%\Delta = \frac{\text{Index}_t - \text{Index}_{t-1}}{\text{Index}_{t-1}} \times 100
+$$
 
 **Splicing index numbers** when the base year changes: if the old index (base $= 2000$) is 120 in
 2015, and the new index (base $= 2015$) is 105 in 2020, the 2020 value on the old base is:
 
-$$\text{Index}_{2020} = 120 \times \frac{105}{100} = 126$$
+$$
+\text{Index}_{2020} = 120 \times \frac{105}{100} = 126
+$$
 
 ## Common Pitfalls
 
@@ -88,21 +100,29 @@ $$\text{Index}_{2020} = 120 \times \frac{105}{100} = 126$$
 
 **Laspeyres price index** uses base-period quantities as weights:
 
-$$P_L = \frac{\sum_{i=1}^{n} P_{i,t} \cdot Q_{i,0}}{\sum_{i=1}^{n} P_{i,0} \cdot Q_{i,0}} \times 100$$
+$$
+P_L = \frac{\sum_{i=1}^{n} P_{i,t} \cdot Q_{i,0}}{\sum_{i=1}^{n} P_{i,0} \cdot Q_{i,0}} \times 100
+$$
 
 **Paasche price index** uses current-period quantities as weights:
 
-$$P_P = \frac{\sum_{i=1}^{n} P_{i,t} \cdot Q_{i,t}}{\sum_{i=1}^{n} P_{i,0} \cdot Q_{i,t}} \times 100$$
+$$
+P_P = \frac{\sum_{i=1}^{n} P_{i,t} \cdot Q_{i,t}}{\sum_{i=1}^{n} P_{i,0} \cdot Q_{i,t}} \times 100
+$$
 
 **Fisher ideal price index** is the geometric mean of Laspeyres and Paasche:
 
-$$P_F = \sqrt{P_L \times P_P}$$
+$$
+P_F = \sqrt{P_L \times P_P}
+$$
 
 The Fisher index is considered "ideal" because it satisfies the time-reversal test
 ($P_{0 \to 1} \times P_{1 \to 0} = 1$) and the factor-reversal test, which neither Laspeyres nor
 Paasche satisfies individually.
 
 ### CPI vs. RPI
+
+<div class="table-wrap">
 
 | Feature       | CPI                                                             | RPI (Retail Price Index)                                   |
 | ------------- | --------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -112,9 +132,13 @@ Paasche satisfies individually.
 | Use           | Target for inflation targeting (Bank of England)                | Used for index-linked bonds, some pension calculations     |
 | Bias          | Lower substitution bias                                         | Upward bias (overstates inflation)                         |
 
+</div>
+
 ### Worked Example: Constructing a Price Index
 
 A basket contains three goods with the following data:
+
+<div class="table-wrap">
 
 | Good | Base Year Price | Base Year Quantity | Year 2 Price | Year 2 Quantity |
 | ---- | --------------- | ------------------ | ------------ | --------------- |
@@ -122,20 +146,28 @@ A basket contains three goods with the following data:
 | B    | 5               | 100                | 6            | 90              |
 | C    | 8               | 30                 | 9            | 35              |
 
+</div>
+
 **Laspeyres index:**
 
-$$P_L = \frac{12 \times 50 + 6 \times 100 + 9 \times 30}{10 \times 50 + 5 \times 100 + 8 \times 30} \times 100 = \frac{600 + 600 + 270}{500 + 500 + 240} \times 100 = \frac{1470}{1240} \times 100 = 118.5$$
+$$
+P_L = \frac{12 \times 50 + 6 \times 100 + 9 \times 30}{10 \times 50 + 5 \times 100 + 8 \times 30} \times 100 = \frac{600 + 600 + 270}{500 + 500 + 240} \times 100 = \frac{1470}{1240} \times 100 = 118.5
+$$
 
 **Paasche index:**
 
-$$P_P = \frac{12 \times 45 + 6 \times 90 + 9 \times 35}{10 \times 45 + 5 \times 90 + 8 \times 35} \times 100 = \frac{540 + 540 + 315}{450 + 450 + 280} \times 100 = \frac{1395}{1180} \times 100 = 118.2$$
+$$
+P_P = \frac{12 \times 45 + 6 \times 90 + 9 \times 35}{10 \times 45 + 5 \times 90 + 8 \times 35} \times 100 = \frac{540 + 540 + 315}{450 + 450 + 280} \times 100 = \frac{1395}{1180} \times 100 = 118.2
+$$
 
 **Fisher index:**
 
-$$P_F = \sqrt{118.5 \times 118.2} = \sqrt{14007.7} = 118.4$$
+$$
+P_F = \sqrt{118.5 \times 118.2} = \sqrt{14007.7} = 118.4
+$$
 
 The Laspeyres index slightly overstates inflation (118.5) compared to Paasche (118.2) because it
-Does not account for consumer substitution toward goods whose relative prices have fallen.
+does not account for consumer substitution toward goods whose relative prices have fallen.
 
 ## Index Number Chaining (HL Extension)
 
@@ -143,20 +175,26 @@ Does not account for consumer substitution toward goods whose relative prices ha
 
 When constructing index numbers over long periods, the fixed-base approach (using a single base
 Year) becomes increasingly inaccurate because the basket of goods and relative prices change over
-Time. **Chain-linking** addresses this by calculating the index as the product of period-to-period
+time. **Chain-linking** addresses this by calculating the index as the product of period-to-period
 Changes.
 
 **Fixed-base index:**
 
-$$I_t = \frac{\sum P_{i,t} Q_{i,0}}{\sum P_{i,0} Q_{i,0}} \times 100$$
+$$
+I_t = \frac{\sum P_{i,t} Q_{i,0}}{\sum P_{i,0} Q_{i,0}} \times 100
+$$
 
 **Chain-linked index:**
 
-$$I_t = I_{t-1} \times \frac{\sum P_{i,t} Q_{i,t-1}}{\sum P_{i,t-1} Q_{i,t-1}}$$
+$$
+I_t = I_{t-1} \times \frac{\sum P_{i,t} Q_{i,t-1}}{\sum P_{i,t-1} Q_{i,t-1}}
+$$
 
 Or equivalently:
 
-$$I_t = I_0 \times \prod_{s=1}^{t} \frac{\sum P_{i,s} Q_{i,s-1}}{\sum P_{i,s-1} Q_{i,s-1}}$$
+$$
+I_t = I_0 \times \prod_{s=1}^{t} \frac{\sum P_{i,s} Q_{i,s-1}}{\sum P_{i,s-1} Q_{i,s-1}}
+$$
 
 ### Why Chain-Linking Matters
 
@@ -174,11 +212,15 @@ rather than pure inflation. Chain-linked indices allow more frequent quality adj
 
 An economy consumes two goods: food and housing.
 
+<div class="table-wrap">
+
 | Year | Price of food | Quantity of food | Price of housing | Quantity of housing |
 | ---- | ------------- | ---------------- | ---------------- | ------------------- |
 | 2020 | 10            | 100              | 50               | 20                  |
 | 2021 | 12            | 90               | 55               | 20                  |
 | 2022 | 11            | 95               | 60               | 18                  |
+
+</div>
 
 **Fixed-base (Laspeyres) index with 2020 base:**
 
@@ -218,7 +260,9 @@ chain-linked results.
 
 The **Fisher index** is the geometric mean of the Laspeyres and Paasche indices:
 
-$$F_t = \sqrt{L_t \times P_t}$$
+$$
+F_t = \sqrt{L_t \times P_t}
+$$
 
 This index avoids both the upward bias of Laspeyres and the downward bias of Paasche.
 
@@ -261,7 +305,7 @@ At 7%: $\text{AF} = \frac{1 - 1.07^{-30}}{0.07} = \frac{1 - 0.1314}{0.07} = 12.4
 $\text{NPV} = -50 + 3 \times 12.41 = -50 + 37.2 = -12.8$ billion
 
 The NPV ranges from +8.8 billion (3%) to -12.8 billion (7%). The project is very sensitive to the
-Discount rate.
+discount rate.
 
 (c) At USD 2 billion: $\text{NPV} = -50 + 2 \times 15.37 = -50 + 30.7 = -19.3$ billion
 
@@ -289,6 +333,8 @@ An economist estimates the Phillips curve: $\pi = \beta_0 + \beta_1 u + \epsilon
 
 Data (5 observations):
 
+<div class="table-wrap">
+
 | Observation | Unemployment rate ($u$%) | Inflation rate ($\pi$%) |
 | ----------- | ------------------------ | ----------------------- |
 | 1           | 3                        | 6                       |
@@ -296,6 +342,8 @@ Data (5 observations):
 | 3           | 7                        | 3                       |
 | 4           | 8                        | 2                       |
 | 5           | 10                       | 1                       |
+
+</div>
 
 (a) Estimate the regression coefficients.
 
@@ -320,6 +368,8 @@ Estimated Phillips curve: $\hat{\pi} = 7.86 - 0.706u$
 
 (b) Predicted values and residuals:
 
+<div class="table-wrap">
+
 | $u$ | $\pi$ | $\hat{\pi}$ | $(\pi - \hat{\pi})^2$ | $(\pi - \bar{\pi})^2$ |
 | --- | ----- | ----------- | --------------------- | --------------------- |
 | 3   | 6     | 5.74        | 0.068                 | 7.84                  |
@@ -328,6 +378,8 @@ Estimated Phillips curve: $\hat{\pi} = 7.86 - 0.706u$
 | 8   | 2     | 2.21        | 0.044                 | 1.44                  |
 | 10  | 1     | 0.80        | 0.040                 | 4.84                  |
 
+</div>
+
 $\text{SSR} = 0.267$, $\text{SST} = 14.80$
 
 $R^2 = 1 - 0.267/14.80 = 0.982$
@@ -335,16 +387,18 @@ $R^2 = 1 - 0.267/14.80 = 0.982$
 $R^2 = 0.982$: the unemployment rate explains 98.2% of the variation in inflation.
 
 (c) The negative coefficient (-0.706) confirms the inverse relationship between unemployment and
-Inflation predicted by the Phillips curve. A 1 percentage point increase in unemployment is
-Associated with a 0.7 percentage point decrease in inflation.
+inflation predicted by the Phillips curve. A 1 percentage point increase in unemployment is
+associated with a 0.7 percentage point decrease in inflation.
 
 **Potential omitted variable:** expected inflation ($\pi^e$). The expectations-augmented Phillips
 Curve is:
 
-$$\pi = \pi^e - \beta(u - u_n) + \epsilon$$
+$$
+\pi = \pi^e - \beta(u - u_n) + \epsilon
+$$
 
 Omitting $\pi^e$ biases the coefficient on $u$ if expected inflation is correlated with
-Unemployment. During the 1970s, rising expected inflation shifted the Phillips curve upward,
+unemployment. During the 1970s, rising expected inflation shifted the Phillips curve upward,
 Creating stagflation (high inflation and high unemployment simultaneously), which the simple
 Phillips curve cannot explain.
 
@@ -384,15 +438,21 @@ Connecting the omitted variables to both chocolate consumption and Nobel prizes.
 
 (c) If the true model is:
 
-$$\text{Nobel}_i = \beta_0 + \beta_1 \text{Chocolate}_i + \beta_2 \text{GDP}_i + \epsilon_i$$
+$$
+\text{Nobel}_i = \beta_0 + \beta_1 \text{Chocolate}_i + \beta_2 \text{GDP}_i + \epsilon_i
+$$
 
 And we estimate the short regression (omitting GDP):
 
-$$\widetilde{\text{Nobel}}_i = \tilde{\beta}_0 + \tilde{\beta}_1 \text{Chocolate}_i + u_i$$
+$$
+\widetilde{\text{Nobel}}_i = \tilde{\beta}_0 + \tilde{\beta}_1 \text{Chocolate}_i + u_i
+$$
 
 Then:
 
-$$\tilde{\beta}_1 = \beta_1 + \beta_2 \frac{\text{Cov}(\text{Chocolate}, \text{GDP})}{\text{Var}(\text{Chocolate})}$$
+$$
+\tilde{\beta}_1 = \beta_1 + \beta_2 \frac{\text{Cov}(\text{Chocolate}, \text{GDP})}{\text{Var}(\text{Chocolate})}
+$$
 
 If $\beta_2 > 0$ (GDP increases Nobel prizes) and $\text{Cov}(\text{Chocolate}, \text{GDP}) > 0$
 (richer countries consume more chocolate), then $\tilde{\beta}_1 > \beta_1$.
@@ -410,7 +470,7 @@ production that affects chocolate consumption but not Nobel prizes directly) or 
 <summary>Problem 12: Social Discount Rate and Climate Policy</summary>
 
 A climate policy reduces carbon emissions at a cost of USD 2 trillion today. The benefits are
-Avoided climate damages of USD 100 billion per year, starting in 20 years and continuing forever.
+avoided climate damages of USD 100 billion per year, starting in 20 years and continuing forever.
 
 (a) Calculate the NPV using discount rates of 1.4% (Stern), 3.5% (UK Treasury), and 5% (Nordhaus).
 
@@ -497,12 +557,16 @@ $\text{Growth} = \beta_0 + \beta_1 \text{Investment} + \beta_2 \text{Education} 
 
 Data (10 observations, standardised variables):
 
+<div class="table-wrap">
+
 | Variable   | Coefficient | Std. Error | t-stat | VIF |
 | ---------- | ----------- | ---------- | ------ | --- |
 | Intercept  | 2.5         | 0.8        | 3.13   | --  |
 | Investment | 0.35        | 0.12       | 2.92   | 1.8 |
 | Education  | 0.20        | 0.15       | 1.33   | 3.2 |
 | Trade      | 0.18        | 0.14       | 1.29   | 3.0 |
+
+</div>
 
 $R^2 = 0.72$$n = 10$$k = 3$
 
@@ -512,10 +576,14 @@ $R^2 = 0.72$$n = 10$$k = 3$
 
 (c) The economist drops the Education variable and re-estimates:
 
+<div class="table-wrap">
+
 | Variable   | Coefficient | Std. Error | t-stat |
 | ---------- | ----------- | ---------- | ------ |
 | Investment | 0.42        | 0.10       | 4.20   |
 | Trade      | 0.25        | 0.11       | 2.27   |
+
+</div>
 
 $R^2 = 0.65$. Compare and interpret. [4 marks]
 

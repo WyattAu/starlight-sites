@@ -30,11 +30,15 @@ Stack. On x86-64 Windows, the **Microsoft x64 ABI** is used instead.
 Arguments are classified into four categories: INTEGER, SSE, MEMORY, and X87. The classification
 Determines which registers or stack slots receive each argument:
 
+<div class="table-wrap">
+
 | Category | Registers / Location                 |
 | :------- | :----------------------------------- |
 | INTEGER  | RDI, RSI, RDX, RCX, R8, R9 (6 slots) |
 | SSE      | XMM0 – XMM7 (8 slots)                |
 | MEMORY   | Pushed to the stack (right to left)  |
+
+</div>
 
 The first 6 INTEGER-class arguments go into RDI, RSI, RDX, RCX, R8, R9 (in order). The first 8
 SSE-class (floating-point) arguments go into XMM0 through XMM7. If both integer and floating-point
@@ -45,9 +49,9 @@ Registers are exhausted, remaining arguments are pushed onto the stack.
 Each argument type is classified according to the System V ABI classification rules (SysV ABI
 §3.2.3):
 
-1. If the type is `__int128`The eightbyte containing the lower 64 bits is INTEGER, and the eightbyte
+1. If the type is `__int128`. The eightbyte containing the lower 64 bits is INTEGER, and the eightbyte
    containing the upper 64 bits is INTEGER.
-2. If the type is `__m256` or `__m512`All eightbytes are SSE.
+2. If the type is `__m256` or `__m512`. All eightbytes are SSE.
 3. If the type is a structure or array, recursively classify each eightbyte (8-byte chunk).
 4. If the type is smaller than 8 bytes and fits in a register, classify the whole type.
 5. If any eightbyte is classified differently from the others, or if the type exceeds 2 eightbytes
@@ -82,7 +86,7 @@ extern "C" int64_t add_seven(int64_t a, int64_t b, int64_t c, int64_t d,
 ### Register and Stack Interleaving
 
 Integer and floating-point arguments use separate register banks. This means the register assignment
-Does not follow argument order in a single sequence, the two banks are tracked independently:
+does not follow argument order in a single sequence, the two banks are tracked independently:
 
 ```cpp
 // void interleaved(int a, double b, int c, double d, int e, double f, int g, double h);
@@ -95,12 +99,16 @@ Does not follow argument order in a single sequence, the two banks are tracked i
 
 ## 2.2 Return Values
 
+<div class="table-wrap">
+
 | Return Type                                     | Location                                                   |
 | :---------------------------------------------- | :--------------------------------------------------------- |
 | `bool``char``int``long``long long`Pointers      | RAX                                                        |
 | `float``double`                                 | XMM0                                                       |
 | Small structs (≤ 16 bytes, fitting 2 registers) | RAX + RDX                                                  |
 | Large structs (> 16 bytes)                      | Hidden first argument (pointer to caller-allocated memory) |
+
+</div>
 
 For large return types, the caller allocates space on the stack and passes a hidden pointer as the
 First argument. The callee writes the return value to this address and also returns the pointer in
@@ -133,7 +141,7 @@ extern "C" __m128 add_vec4(__m128 a, __m128 b) {
 ```
 
 SIMD types smaller than or equal to 16 bytes are classified as SSE and passed/returned in XMM
-Registers. Types larger than 16 bytes (`__m256``__m512`) are classified as MEMORY on the System V
+Registers. Types larger than 16 bytes (`__m256`, `__m512`) are classified as MEMORY on the System V
 ABI, despite fitting in YMM/ZMM registers, the ABI has not been updated to reflect AVX/AVX-512
 Register passing.
 
@@ -173,10 +181,10 @@ Instruction.
 1. By SysV ABI §3.2.2, "The end of the input argument area shall be aligned on a 16 (32 or 64, if
    `__m256` or `__m512` is passed on stack) byte boundary. In other words, the value (%rsp + 8) is
    always a multiple of 16 when control is transferred to the function entry point."
-2. The `CALL` instruction pushes an 8-byte return address. Before the `CALL``RSP` must be 16-byte
+2. The `CALL` instruction pushes an 8-byte return address. Before the `CALL`, `RSP` must be 16-byte
    aligned: `RSP ≡ 0 (mod 16)`.
-3. After `CALL``RSP' = RSP - 8`So `RSP' ≡ 8 (mod 16)`.
-4. This alignment is required because many SSE instructions (`movaps``movdqa`) generate a `#GP`
+3. After `CALL`, `RSP' = RSP - 8`. So `RSP' ≡ 8 (mod 16)`.
+4. This alignment is required because many SSE instructions (`movaps`, `movdqa`) generate a `#GP`
    (General Protection fault) on unaligned operands. QED.
 
 ```cpp
@@ -260,8 +268,10 @@ Stall on some microarchitectures).
 ## 2.5 Microsoft x64 ABI vs System V ABI
 
 Windows and Linux/macOS use fundamentally different calling conventions on x86-64. The differences
-Are significant enough that calling a function compiled with one ABI from code compiled with the
-Other will crash or corrupt memory.
+are significant enough that calling a function compiled with one ABI from code compiled with the
+other will crash or corrupt memory.
+
+<div class="table-wrap">
 
 | Aspect                    | System V AMD64 ABI (Linux/macOS)                 | Microsoft x64 ABI (Windows)                 |
 | :------------------------ | :----------------------------------------------- | :------------------------------------------ |
@@ -276,6 +286,8 @@ Other will crash or corrupt memory.
 | Struct return (> 8B)      | Hidden pointer in RDI                            | Hidden pointer in RCX                       |
 | XMM callee-saved          | None                                             | XMM6–XMM15                                  |
 
+</div>
+
 ### Proof of ABI Incompatibility
 
 **Claim:** Calling a function compiled with the System V ABI from code compiled with the Microsoft
@@ -288,7 +300,7 @@ Consider a function `void f(int a, int b, int c, int c, int d, int e, int f, int
 1. Under System V, the caller places arguments in RDI, RSI, RDX, RCX, R8, R9 (first six), then
    pushes `g` onto the stack.
 2. Under Microsoft x64, the caller places arguments in RCX, RDX, R8, R9 (first four), then pushes
-   `e``f``g` onto the stack after allocating 32 bytes of shadow space.
+   `e`, `f`, `g` onto the stack after allocating 32 bytes of shadow space.
 3. If the caller uses System V and the callee uses Microsoft x64: the callee reads `a` from RCX
    (which holds the System V fourth argument `d`), `b` from RDX (which holds the System V third
    argument `c`), etc. All arguments are shifted and corrupted. QED.
@@ -296,7 +308,7 @@ Consider a function `void f(int a, int b, int c, int c, int d, int e, int f, int
 ### Shadow Space
 
 The Microsoft x64 ABI requires the caller to allocate **32 bytes of "shadow space"** on the stack
-Before every function call, regardless of the number of arguments. The callee is free to use this
+before every function call, regardless of the number of arguments. The callee is free to use this
 Space to spill register arguments. This simplifies debugging but adds overhead to every call.
 
 ```cpp
@@ -329,7 +341,7 @@ This can be significant.
 ### `va_list` Differences
 
 Variadic functions behave very differently across the two ABIs. Under System V, `va_list` is backed
-By a register save area that captures the current state of GP and SSE registers at the point of the
+by a register save area that captures the current state of GP and SSE registers at the point of the
 Ellipsis. Under Microsoft x64, `va_list` is a simple pointer that walks the stack.
 
 ```cpp
@@ -378,6 +390,8 @@ System APIs.
 
 ### MSVC Calling Convention Attributes
 
+<div class="table-wrap">
+
 | Attribute    | Argument Passing          | Stack Cleanup | Use Case                         |
 | :----------- | :------------------------ | :------------ | :------------------------------- |
 | `__cdecl`    | Stack (right to left)     | Caller        | C default; variable-argument fns |
@@ -385,9 +399,11 @@ System APIs.
 | `__fastcall` | ECX, EDX, then stack      | Callee        | Performance-critical             |
 | `__thiscall` | ECX = `this`Rest on stack | Callee        | C++ member functions (MSVC)      |
 
+</div>
+
 These attributes are primarily relevant for **32-bit x86** code, where multiple calling conventions
 Coexisted. On x86-64, both Windows and Linux use a single calling convention (the platform ABI), so
-These attributes have limited effect.
+these attributes have limited effect.
 
 ```cpp
 // Interfacing with Win32 API (32-bit example):
@@ -401,7 +417,7 @@ extern "C" __cdecl int printf(const char* fmt, ...);
 ### System V: Explicit Attributes
 
 GCC and Clang on Linux/macOS generally do not use calling convention attributes for x86-64 because
-The System V ABI is the only game in town. However, the `sysv_abi` and `ms_abi` attributes allow
+the System V ABI is the only game in town. However, the `sysv_abi` and `ms_abi` attributes allow
 Mixing ABIs on the same platform (e.g., calling Windows DLLs from Linux via Wine or Windows
 Subsystem for Linux):
 
@@ -430,6 +446,8 @@ onto the stack in the prologue and popping it in the epilogue).
 
 ### System V x86-64 Register Map
 
+<div class="table-wrap">
+
 | Register(s)                | Role              | Saved By |
 | :------------------------- | :---------------- | :------- |
 | RAX                        | Return value      | Caller   |
@@ -441,6 +459,8 @@ onto the stack in the prologue and popping it in the epilogue).
 | RBP                        | Frame pointer     | Callee   |
 | R12, R13, R14, R15         | General purpose   | Callee   |
 | RSP                        | Stack pointer     | Callee   |
+
+</div>
 
 ### Proof of Callee-Save Necessity
 
@@ -479,12 +499,16 @@ extern "C" long use_callee_saved(long a, long b) {
 The Microsoft x64 ABI callee-saves more registers than System V, including RDI and RSI (which are
 Used as argument registers under System V) and XMM6–XMM15:
 
+<div class="table-wrap">
+
 | Register(s)        | Saved By |
 | :----------------- | :------- |
 | RBX, RBP, RDI, RSI | Callee   |
 | R12, R13, R14, R15 | Callee   |
 | XMM6–XMM15         | Callee   |
 | RSP                | Callee   |
+
+</div>
 
 This means that code compiled with Microsoft x64 ABI can rely on XMM6–XMM15 being preserved across
 Function calls, which is not the case under System V where all XMM registers are caller-saved.
@@ -513,10 +537,10 @@ extern "C" long takes_seven(long a, long b, long c, long d,
 
 1. By the Intel SDM, `movaps` requires a 16-byte aligned memory operand. If the effective address is
    not divisible by 16, a `#GP` (General Protection) exception is generated.
-2. After `CALL``RSP ≡ 8 (mod 16)`. If the callee stores a local variable at `[rsp]` and then loads
-   it with `movaps`The address is 8 mod 16, fault.
+2. After `CALL`, `RSP ≡ 8 (mod 16)`. If the callee stores a local variable at `[rsp]` and then loads
+   it with `movaps`. The address is 8 mod 16, fault.
 3. The prologue must adjust RSP by at least 8 bytes to restore 16-byte alignment: `sub rsp, 8` (or
-   `push rbp`Which subtracts 8). QED.
+   `push rbp`. Which subtracts 8). QED.
 
 :::caution
 Alignment). If you see a `SIGSEGV` inside a function that uses SIMD, check for stack misalignment.
@@ -527,7 +551,7 @@ Compiler flags like `-mstackrealign` (MSVC) or `-mno-sse` (GCC) can help diagnos
 
 A calling convention mismatch occurs when the caller and callee disagree on how arguments are
 Passed. This is one of the most insidious categories of bugs because the program may appear to work
-For specific argument values or compiler optimization levels.
+for specific argument values or compiler optimization levels.
 
 ### Symptoms
 
@@ -567,12 +591,12 @@ int process_data(long a, long b, long c) {  // three long arguments
 ## 2.10 Struct Classification in System V ABI
 
 The System V ABI classifies each argument through a recursive algorithm that decomposes structures
-Into eightbytes (8-byte chunks). Each eightbyte is classified independently as INTEGER, SSE, or
+into eightbytes (8-byte chunks). Each eightbyte is classified independently as INTEGER, SSE, or
 MEMORY:
 
 1. **INTEGER:** Integer types, pointers, and structures containing only INTEGER-classified
    eightbytes.
-2. **SSE:** Floating-point and SIMD types (`__m128``__m256`), and structures containing only
+2. **SSE:** Floating-point and SIMD types (`__m128`, `__m256`), and structures containing only
    SSE-classified eightbytes.
 3. **MEMORY:** The structure is passed on the stack if it exceeds 16 bytes, contains both INTEGER
    and SSE eightbytes (mixed classification), or has misaligned fields.
@@ -626,7 +650,7 @@ extern "C" int process_mixed_separate(int32_t a, float b);
 
 When a function returns a struct classified as MEMORY, the caller allocates space and passes a
 Hidden first argument (the address of that space) in RDI. The callee constructs the return value at
-That address and returns the pointer in RAX:
+that address and returns the pointer in RAX:
 
 ```cpp
 struct BigStruct {
@@ -647,7 +671,7 @@ Elision in C++17.
 ## 2.11 NRVO and Calling Convention Interaction
 
 Named Return Value Optimization (NRVO) and Return Value Optimization (RVO) [N4950 §11.9.6] eliminate
-The copy/move of return values. Under the System V ABI, this means the caller passes a hidden
+the copy/move of return values. Under the System V ABI, this means the caller passes a hidden
 Pointer to the destination storage, and the callee constructs directly into it, bypassing the
 Return-value register entirely.
 
@@ -675,13 +699,13 @@ Cost. NRVO is not guaranteed (the compiler may decline it if there are multiple 
 Different named variables), but RVO for prvalues is mandatory since C++17.
 
 Note that C++ compilers on x86-64 generally ignore 32-bit-specific calling convention attributes
-(`__cdecl``__stdcall``__fastcall`), they either warn or silently treat them as the platform ABI.
+(`__cdecl`, `__stdcall`, `__fastcall`), they either warn or silently treat them as the platform ABI.
 These attributes are only meaningful on x86-32 where multiple calling conventions coexisted.
 
 ## 2.12 Variadic Functions and the ABI
 
 Variadic functions (`...`) require special ABI handling because the callee does not know the types
-Or count of trailing arguments at compile time.
+or count of trailing arguments at compile time.
 
 ### System V: Register Save Area
 
@@ -756,16 +780,6 @@ Register arguments must be written to memory before the callee can access them.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[2_Calling_Conventions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the fundamental principles of calling conventions and stack management, including
@@ -784,5 +798,3 @@ and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

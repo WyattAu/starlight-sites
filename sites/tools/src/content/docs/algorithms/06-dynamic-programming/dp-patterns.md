@@ -22,6 +22,8 @@ Framework.
 
 ### Decision Tree
 
+<div class="table-wrap">
+
 | Signal                                | Pattern             | Example                      |
 | ------------------------------------- | ------------------- | ---------------------------- |
 | Choose items with capacity constraint | Knapsack            | 0/1 knapsack, subset sum     |
@@ -33,14 +35,18 @@ Framework.
 | Two players taking turns              | Game theory DP      | Nim, coin game               |
 | Greedy seems to work                  | Greedy-reducible DP | Activity selection           |
 
+</div>
+
 ## Knapsack Family
 
 ### 0/1 Knapsack
 
-Given $n$ items with weights $w_i$ and values $v_i$ And a knapsack of capacity $W$Maximise the Total
+Given $n$ items with weights $w_i$ and values $v_i$ And a knapsack of capacity $W$ Maximise the Total
 value of items selected. Each item can be taken at most once.
 
-$$dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_i$$
+$$
+dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_i
+$$
 
 ```python
 def knapsack_01(weights, values, capacity):
@@ -61,8 +67,8 @@ def knapsack_01(weights, values, capacity):
 ```
 
 :::note
-Iterate forward, `dp[c - w]` may already include item $i$Violating the 0/1 constraint. This is the
-Most common bug in knapsack implementations.
+Iterate forward, `dp[c - w]` may already include item $i$ Violating the 0/1 constraint. This is the
+most common bug in knapsack implementations.
 
 ### Unbounded Knapsack
 
@@ -170,10 +176,12 @@ Partitions of an interval.
 
 ### Matrix Chain Multiplication
 
-Given matrices $A_1, A_2, \ldots, A_n$ where $A_i$ has dimensions $p_{i-1} \times p_i$Find the
+Given matrices $A_1, A_2, \ldots, A_n$ where $A_i$ has dimensions $p_{i-1} \times p_i$ Find the
 Parenthesisation that minimises the total number of scalar multiplications.
 
-$$dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + p_{i-1} \cdot p_k \cdot p_j)$$
+$$
+dp[i][j] = \min_{i \le k \lt j} (dp[i][k] + dp[k+1][j] + p_{i-1} \cdot p_k \cdot p_j)
+$$
 
 ```python
 def matrix_chain_order(p):
@@ -206,7 +214,7 @@ def matrix_chain_order(p):
 
 ### Burst Balloons
 
-Given `nums`Where `nums[i]` is the value of the $i$-th balloon, bursting balloon $i$ yields
+Given `nums`. Where `nums[i]` is the value of the $i$-th balloon, bursting balloon $i$ yields
 `nums[left] * nums[i] * nums[right]` coins where `left` and `right` are the adjacent unburst
 Balloons. Maximise total coins.
 
@@ -237,7 +245,7 @@ def burst_balloons(nums):
 
 ### Minimum Cost to Merge Stones
 
-Given $n$ piles of stones and an integer $k$Merge adjacent piles into one pile. Each merge of $k$
+Given $n$ piles of stones and an integer $k$ Merge adjacent piles into one pile. Each merge of $k$
 Piles costs the sum of those $k$ piles. Find the minimum total cost, or return -1 if impossible.
 
 ```python
@@ -448,7 +456,9 @@ Small $n$ ( $n \le 20$).
 
 Find the shortest Hamiltonian cycle visiting all cities exactly once.
 
-$$dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \{i\}][j] + dist[j][i])$$
+$$
+dp[mask][i] = \min_{j \in mask, j \ne i} (dp[mask \setminus \{i\}][j] + dist[j][i])
+$$
 
 ```python
 def tsp(dist):
@@ -513,7 +523,7 @@ def assignment(cost):
 ## Digit DP
 
 Digit DP counts numbers in a range that satisfy certain digit-based properties by processing digits
-From most significant to least significant.
+from most significant to least significant.
 
 ### Template
 
@@ -578,7 +588,9 @@ def count_no_consecutive_ones(n):
 
 Minimum number of insertions, deletions, and substitutions to transform one string into another.
 
-$$dp[i][j] = \begin{cases} dp[i-1][j-1] & \mathrm{if  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{otherwise \end{cases}$$
+$$
+dp[i][j] = \begin{cases} dp[i-1][j-1] & \mathrm{if  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{otherwise \end{cases}
+$$
 
 ```python
 def edit_distance(s, t):
@@ -694,7 +706,7 @@ def is_match(s, p):
 
 Every impartial game (where the available moves depend only on the position, not on which player is
 Moving) is equivalent to a Nim heap. The Sprague-Grundy theorem states that the Grundy number (mex
-Of children's Grundy numbers) determines the winning strategy.
+of children's Grundy numbers) determines the winning strategy.
 
 ```python
 def grundy_number(positions):
@@ -751,9 +763,11 @@ def coin_game(coins):
 ## Greedy-Reducible DP
 
 Some DP problems have greedy solutions that are simpler and faster. The key question: does making
-The locally optimal choice always lead to the globally optimal solution?
+the locally optimal choice always lead to the globally optimal solution?
 
 ### When Greedy Works Instead of DP
+
+<div class="table-wrap">
 
 | Problem                    | Greedy Works? | Greedy Strategy                |
 | -------------------------- | ------------- | ------------------------------ |
@@ -766,9 +780,13 @@ The locally optimal choice always lead to the globally optimal solution?
 | Partition equal subset sum | No            | DP required                    |
 | Edit distance              | No            | DP required                    |
 
+</div>
+
 ## State Compression Techniques
 
 ### Reducing State Space
+
+<div class="table-wrap">
 
 | Technique              | When to Use                         | Example                                |
 | ---------------------- | ----------------------------------- | -------------------------------------- |
@@ -778,19 +796,21 @@ The locally optimal choice always lead to the globally optimal solution?
 | Bitmask                | Small set of choices (n &lt;= 20)   | TSP, assignment                        |
 | Sparse DP              | Many states unreachable             | Dictionary instead of array            |
 
+</div>
+
 ## Common Pitfalls
 
 ### 1. Wrong Iteration Order
 
-The fill order must respect the dependency: if `dp[i]` depends on `dp[j]`Then `j` must be computed
-Before `i`. For interval DP, always iterate by increasing interval length. For 1D DP, verify whether
+The fill order must respect the dependency: if `dp[i]` depends on `dp[j]`. Then `j` must be computed
+before `i`. For interval DP, always iterate by increasing interval length. For 1D DP, verify whether
 Forward or backward iteration is needed (0/1 knapsack needs backward, unbounded needs forward).
 
 ### 2. Integer Overflow in DP Values
 
 DP values can grow exponentially (e.g., counting paths in a grid). Use Python's arbitrary-precision
 Integers, or in C++/Java, use `long long` or `BigInteger`. Always check whether the problem asks for
-The result modulo some value.
+the result modulo some value.
 
 ### 3. Off-by-One in Bitmask DP
 
@@ -828,17 +848,6 @@ In game theory DP, the standard formulation computes the value that the current 
 Guarantee. A common mistake is to assume both players play optimally for the same objective. In
 Zero-sum games, player 1 maximises while player 2 minimises. Getting this wrong inverts the result.
 
-
-```mermaid
-flowchart TD
-    A[Dp Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dynamic programming patterns, including underlying theory,
@@ -851,9 +860,6 @@ practical implementation, and key applications.
 - object-oriented programming
 - error handling and debugging
 - modular design
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

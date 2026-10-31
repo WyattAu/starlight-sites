@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Exponentials And Logarithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
@@ -45,7 +34,7 @@ flowchart TD
 **(b)** A student writes $\ln(x^2) = (\ln x)^2$ and uses this to solve $\ln(x^2) = 4$. Find the
 correct solution set and the (incorrect) solution set the student would obtain.
 
-**(c)** Solve the equation $2^x = x^2$ for real $x$Giving exact answers where possible.
+**(c)** Solve the equation $2^x = x^2$ for real $x$ Giving exact answers where possible.
 
 [Difficulty: hard. Tests the fundamental distinction between $\ln(a^b) = b\ln a$ and $(\ln a)^b$ And
 requires analytical comparison of transcendental expressions.]
@@ -54,16 +43,22 @@ requires analytical comparison of transcendental expressions.]
 
 **(a)** Consider $f(x) = \frac{\ln x}{x}$. Its derivative is:
 
-$$f"(x) = \frac{1 \cdot x - \ln x \cdot 1}{x^2} = \frac{1 - \ln x}{x^2}$$
+$$
+f"(x) = \frac{1 \cdot x - \ln x \cdot 1}{x^2} = \frac{1 - \ln x}{x^2}
+$$
 
-$f'(x) = 0$ when $\ln x = 1$I.e. $x = e$. For $x \lt e$: $f'(x) \gt 0$; for $x \gt e$:
+$f'(x) = 0$ when $\ln x = 1$ I.e. $x = e$. For $x \lt e$: $f'(x) \gt 0$; for $x \gt e$:
 $f'(x) \lt 0$.
 
-So $f(x)$ has a global maximum at $x = e$Meaning $f(e) \geq f(\pi)$:
+So $f(x)$ has a global maximum at $x = e$ Meaning $f(e) \geq f(\pi)$:
 
-$$\frac{\ln e}{e} \geq \frac{\ln \pi}{\pi} \implies \frac{1}{e} \geq \frac{\ln \pi}{\pi} \implies \pi \geq e \ln \pi$$
+$$
+\frac{\ln e}{e} \geq \frac{\ln \pi}{\pi} \implies \frac{1}{e} \geq \frac{\ln \pi}{\pi} \implies \pi \geq e \ln \pi
+$$
 
-$$\implies \pi \geq \ln(\pi^e) \implies e^\pi \geq \pi^e$$
+$$
+\implies \pi \geq \ln(\pi^e) \implies e^\pi \geq \pi^e
+$$
 
 Therefore $e^\pi$ is larger.
 
@@ -91,7 +86,7 @@ To show there are no other solutions for $x \geq 0$: consider $g(x) = 2^x - x^2$
 $g(0) = 1$$g(1) = 1$$g(2) = 0$$g(3) = -1$$g(4) = 0$$g(5) = 7$. Since $g''(x) = 2^x(\ln 2)^2 - 2$ And
 $2^x(\ln 2)^2 \gt 2$ for $x \gt 5$ (because $2^5 \cdot (\ln 2)^2 \approx 2.14$), $g$ is convex for
 $x \geq 5$ and grows without bound. By Rolle's theorem, there can be at most one root in $(3, 4)$
-and at most one in $(4, \infty)$. Since $g(4) = 0$ and $g$ is increasing at $x = 4$There are no
+and at most one in $(4, \infty)$. Since $g(4) = 0$ and $g$ is increasing at $x = 4$ There are no
 further roots beyond $x = 4$.
 
 ---
@@ -109,11 +104,11 @@ further roots beyond $x = 4$.
 
 **Question:**
 
-**(a)** Solve $e^{2x} - 5e^x + 6 = 0$Giving exact answers.
+**(a)** Solve $e^{2x} - 5e^x + 6 = 0$ Giving exact answers.
 
-**(b)** Solve $e^{2x} - 5e^x + 6 = 1$ for $x \in \mathbb{R}$Giving exact answers.
+**(b)** Solve $e^{2x} - 5e^x + 6 = 1$ for $x \in \mathbb{R}$ Giving exact answers.
 
-**(c)** A student solving part (b) writes $e^{2x} - 5e^x + 5 = 0$Substitutes $u = e^x$ And gets
+**(c)** A student solving part (b) writes $e^{2x} - 5e^x + 5 = 0$ Substitutes $u = e^x$ And gets
 $u^2 - 5u + 5 = 0$. Find the values of $u$ And explain why the student must check that $u \gt 0$
 before taking natural logarithms.
 
@@ -122,9 +117,11 @@ constraint on $e^x$ that eliminates spurious solutions.]
 
 **Solution:**
 
-**(a)** Let $u = e^x$. Since $e^x \gt 0$ for all $x \in \mathbb{R}$We require $u \gt 0$.
+**(a)** Let $u = e^x$. Since $e^x \gt 0$ for all $x \in \mathbb{R}$ We require $u \gt 0$.
 
-$$u^2 - 5u + 6 = 0 \implies (u-2)(u-3) = 0 \implies u = 2 \text{ or } u = 3$$
+$$
+u^2 - 5u + 6 = 0 \implies (u-2)(u-3) = 0 \implies u = 2 \text{ or } u = 3
+$$
 
 Both satisfy $u \gt 0$.
 
@@ -138,17 +135,21 @@ Solutions: $x = \ln 2$ and $x = \ln 3$.
 
 Let $u = e^x$ ($u \gt 0$):
 
-$$u^2 - 5u + 5 = 0 \implies u = \frac{5 \pm \sqrt{25 - 20}}{2} = \frac{5 \pm \sqrt{5}}{2}$$
+$$
+u^2 - 5u + 5 = 0 \implies u = \frac{5 \pm \sqrt{25 - 20}}{2} = \frac{5 \pm \sqrt{5}}{2}
+$$
 
 Both roots are positive: $\frac{5 - \sqrt{5}}{2} \approx 1.382 \gt 0$ and
 $\frac{5 + \sqrt{5}}{2} \approx 3.618 \gt 0$.
 
-$$x = \ln\!\left(\frac{5 + \sqrt{5}}{2}\right) \quad \text{or} \quad x = \ln\!\left(\frac{5 - \sqrt{5}}{2}\right)$$
+$$
+x = \ln\!\left(\frac{5 + \sqrt{5}}{2}\right) \quad \text{or} \quad x = \ln\!\left(\frac{5 - \sqrt{5}}{2}\right)
+$$
 
-**(c)** The student obtains $u = \frac{5 \pm \sqrt{5}}{2}$Both positive. The check is
+**(c)** The student obtains $u = \frac{5 \pm \sqrt{5}}{2}$ Both positive. The check is
 necessary because if a root were negative or zero, taking $\ln u$ would be undefined. For example,
 if the equation were $e^{2x} - 3e^x - 4 = 0$ Then $u = -1$ or $u = 4$ And $u = -1$ would give
-$e^x = -1$Which has no real solution. This is a common trap: the substitution $u = e^x$ implicitly
+$e^x = -1$ Which has no real solution. This is a common trap: the substitution $u = e^x$ implicitly
 constrains $u \gt 0$ And students who forget this constraint accept spurious solutions.
 
 ---
@@ -181,29 +182,31 @@ consequences for function properties like evenness.]
 
 **Solution:**
 
-**(a)** $f(x) = \ln(x^2)$: we need $x^2 \gt 0$I.e. $x \neq 0$. Domain: $\mathbb{R} \setminus \{0\}$.
+**(a)** $f(x) = \ln(x^2)$: we need $x^2 \gt 0$ I.e. $x \neq 0$. Domain: $\mathbb{R} \setminus \{0\}$.
 
 $g(x) = 2\ln x$: we need $x \gt 0$. Domain: $(0, \infty)$.
 
 **(b)** On the intersection $(0, \infty)$:
 
-$$f(x) = \ln(x^2) = 2\ln x = g(x)$$
+$$
+f(x) = \ln(x^2) = 2\ln x = g(x)
+$$
 
-By the logarithm power law $\ln(a^b) = b\ln a$Valid for $a \gt 0$.
+By the logarithm power law $\ln(a^b) = b\ln a$ Valid for $a \gt 0$.
 
 **(c)** $f(-x) = \ln((-x)^2) = \ln(x^2) = f(x)$ for all $x \neq 0$. So $f$ is even.
 
-$g(-x) = 2\ln(-x)$: this is undefined for all $-x \leq 0$I.e. For all $x \geq 0$. Since $g(-x)$ is
+$g(-x) = 2\ln(-x)$: this is undefined for all $-x \leq 0$ I.e. For all $x \geq 0$. Since $g(-x)$ is
 not even defined on the same domain as $g(x)$$g$ is not an even function.
 
 **(d)** $h(x) = \ln(x^2 + 2x + 1) = \ln((x+1)^2)$.
 
 Using the power law: $h(x) = 2\ln\lvert x+1 \rvert$.
 
-The domain restriction: $\lvert x + 1 \rvert \gt 0 \implies x + 1 \neq 0 \implies x \neq -1$Which
+The domain restriction: $\lvert x + 1 \rvert \gt 0 \implies x + 1 \neq 0 \implies x \neq -1$ Which
 matches the original domain.
 
-A student who writes $h(x) = 2\ln(x+1)$ has restricted the domain to $x \gt -1$Losing all values
+A student who writes $h(x) = 2\ln(x+1)$ has restricted the domain to $x \gt -1$ Losing all values
 $x \lt -1$. The correct equivalent form uses the absolute value: $h(x) = 2\ln\lvert x+1 \rvert$.
 
 ---
@@ -230,7 +233,7 @@ $x \lt -1$. The correct equivalent form uses the absolute value: $h(x) = 2\ln\lv
 
 **(b)** Verify your answer by differentiation.
 
-**(c)** Hence evaluate $\int_0^{\frac{\pi}{2}} e^{3x}\sin(2x)\, dx$Giving an exact
+**(c)** Hence evaluate $\int_0^{\frac{\pi}{2}} e^{3x}\sin(2x)\, dx$ Giving an exact
 answer.
 
 [Difficulty: hard. Requires integration by parts applied twice, producing an equation that is solved
@@ -244,33 +247,53 @@ Use integration by parts twice. Set $u = e^{3x}$$\frac{dv}{dx} = \sin(2x)$.
 
 First application: $du = 3e^{3x}\, dx$$v = -\frac{1}{2}\cos(2x)$.
 
-$$I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{2}\int e^{3x}\cos(2x)\, dx$$
+$$
+I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{2}\int e^{3x}\cos(2x)\, dx
+$$
 
 Second application on the remaining integral: $u = e^{3x}$, $\frac{dv}{dx} = \cos(2x)$.
 
 $du = 3e^{3x}\, dx$, $v = \frac{1}{2}\sin(2x)$.
 
-$$\int e^{3x}\cos(2x)\, dx = \frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}\int e^{3x}\sin(2x)\, dx = \frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}I$$
+$$
+\int e^{3x}\cos(2x)\, dx = \frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}\int e^{3x}\sin(2x)\, dx = \frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}I
+$$
 
 Substituting back:
 
-$$I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{2}\left(\frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}I\right)$$
+$$
+I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{2}\left(\frac{1}{2}e^{3x}\sin(2x) - \frac{3}{2}I\right)
+$$
 
-$$I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{4}e^{3x}\sin(2x) - \frac{9}{4}I$$
+$$
+I = -\frac{1}{2}e^{3x}\cos(2x) + \frac{3}{4}e^{3x}\sin(2x) - \frac{9}{4}I
+$$
 
-$$I + \frac{9}{4}I = e^{3x}\left(-\frac{1}{2}\cos(2x) + \frac{3}{4}\sin(2x)\right)$$
+$$
+I + \frac{9}{4}I = e^{3x}\left(-\frac{1}{2}\cos(2x) + \frac{3}{4}\sin(2x)\right)
+$$
 
-$$\frac{13}{4}I = \frac{e^{3x}}{4}\left(-2\cos(2x) + 3\sin(2x)\right)$$
+$$
+\frac{13}{4}I = \frac{e^{3x}}{4}\left(-2\cos(2x) + 3\sin(2x)\right)
+$$
 
-$$I = \frac{e^{3x}}{13}\left(3\sin(2x) - 2\cos(2x)\right) + C$$
+$$
+I = \frac{e^{3x}}{13}\left(3\sin(2x) - 2\cos(2x)\right) + C
+$$
 
 **(b)** Let $F(x) = \frac{e^{3x}}{13}(3\sin(2x) - 2\cos(2x))$.
 
-$$F'(x) = \frac{1}{13}\left[3e^{3x}(3\sin(2x) - 2\cos(2x)) + e^{3x}(6\cos(2x) + 4\sin(2x))\right]$$
+$$
+F'(x) = \frac{1}{13}\left[3e^{3x}(3\sin(2x) - 2\cos(2x)) + e^{3x}(6\cos(2x) + 4\sin(2x))\right]
+$$
 
-$$= \frac{e^{3x}}{13}\left[9\sin(2x) - 6\cos(2x) + 6\cos(2x) + 4\sin(2x)\right]$$
+$$
+= \frac{e^{3x}}{13}\left[9\sin(2x) - 6\cos(2x) + 6\cos(2x) + 4\sin(2x)\right]
+$$
 
-$$= \frac{e^{3x}}{13} \cdot 13\sin(2x) = e^{3x}\sin(2x)$$
+$$
+= \frac{e^{3x}}{13} \cdot 13\sin(2x) = e^{3x}\sin(2x)
+$$
 
 Confirmed.
 
@@ -282,7 +305,9 @@ $e^{3\pi/2}(3\sin\pi - 2\cos\pi) = e^{3\pi/2}(0 + 2) = 2e^{3\pi/2}$
 
 At $x = 0$: $e^0(3\sin 0 - 2\cos 0) = 1(0 - 2) = -2$
 
-$$= \frac{1}{13}(2e^{3\pi/2} - (-2)) = \frac{2(e^{3\pi/2} + 1)}{13}$$
+$$
+= \frac{1}{13}(2e^{3\pi/2} - (-2)) = \frac{2(e^{3\pi/2} + 1)}{13}
+$$
 
 ---
 
@@ -299,7 +324,7 @@ $$= \frac{1}{13}(2e^{3\pi/2} - (-2)) = \frac{2(e^{3\pi/2} + 1)}{13}$$
 
 **Question:**
 
-**(a)** Find $\frac{dy}{dx}$ when $y = \ln\!\left(\sqrt{x^2 + 1}\right)$Simplifying your answer.
+**(a)** Find $\frac{dy}{dx}$ when $y = \ln\!\left(\sqrt{x^2 + 1}\right)$ Simplifying your answer.
 
 **(b)** Find the equation of the tangent to the curve $y = \ln\!\left(\sqrt{x^2 + 1}\right)$ at the
 point where $x = \sqrt{3}$.
@@ -316,7 +341,9 @@ product rule with exponential decay.]
 
 **(a)** Using $\ln\!\left(\sqrt{x^2+1}\right) = \frac{1}{2}\ln(x^2+1)$ by the power law:
 
-$$\frac{dy}{dx} = \frac{1}{2} \cdot \frac{2x}{x^2+1} = \frac{x}{x^2+1}$$
+$$
+\frac{dy}{dx} = \frac{1}{2} \cdot \frac{2x}{x^2+1} = \frac{x}{x^2+1}
+$$
 
 **(b)** At $x = \sqrt{3}$:
 $\frac{dy}{dx} = \frac{\sqrt{3}}{3+1} = \frac{\sqrt{3}}{4}$.
@@ -325,7 +352,9 @@ $y = \frac{1}{2}\ln(3+1) = \frac{1}{2}\ln 4 = \ln 2$.
 
 Equation of tangent: $y - \ln 2 = \frac{\sqrt{3}}{4}(x - \sqrt{3})$.
 
-$$y = \frac{\sqrt{3}}{4}x - \frac{3}{4} + \ln 2$$
+$$
+y = \frac{\sqrt{3}}{4}x - \frac{3}{4} + \ln 2
+$$
 
 **(c)** $\frac{dy}{dx} = \frac{x}{x^2+1} = 0 \implies x = 0$.
 
@@ -337,7 +366,7 @@ have a stationary point at $x = 0$. Let me re-examine.
 
 At $x = 0$: $y = \frac{1}{2}\ln 1 = 0$. The gradient is $\frac{0}{1} = 0$. So $x = 0$ is a
 stationary point. This is a minimum since
-$\frac{d^2y}{dx^2} = \frac{(x^2+1) - x \cdot 2x}{(x^2+1)^2} = \frac{1-x^2}{(x^2+1)^2}$Which
+$\frac{d^2y}{dx^2} = \frac{(x^2+1) - x \cdot 2x}{(x^2+1)^2} = \frac{1-x^2}{(x^2+1)^2}$ Which
 is positive at $x = 0$.
 
 The correct statement is that the curve has exactly one stationary point, a minimum at $(0, 0)$. The
@@ -347,13 +376,19 @@ question as stated is incorrect.
 
 By the product rule:
 
-$$\frac{dy}{dx} = -e^{-x}\ln(x^2+1) + e^{-x} \cdot \frac{2x}{x^2+1}$$
+$$
+\frac{dy}{dx} = -e^{-x}\ln(x^2+1) + e^{-x} \cdot \frac{2x}{x^2+1}
+$$
 
-$$= e^{-x}\left(\frac{2x}{x^2+1} - \ln(x^2+1)\right)$$
+$$
+= e^{-x}\left(\frac{2x}{x^2+1} - \ln(x^2+1)\right)
+$$
 
-Since $e^{-x} \gt 0$ for all $x$Stationary points occur when:
+Since $e^{-x} \gt 0$ for all $x$ Stationary points occur when:
 
-$$\frac{2x}{x^2+1} = \ln(x^2+1)$$
+$$
+\frac{2x}{x^2+1} = \ln(x^2+1)
+$$
 
 Let $u = x^2 + 1$ ($u \geq 1$): $\frac{2x}{u} = \ln u$.
 
@@ -381,7 +416,7 @@ is the only stationary point.
 
 The function $f$ is defined by $f(x) = e^{2x-1}$ for $x \in \mathbb{R}$.
 
-**(a)** Find $f^{-1}(x)$Stating its domain and range.
+**(a)** Find $f^{-1}(x)$ Stating its domain and range.
 
 **(b)** Find the domain of $f^{-1} \circ f$ and the domain of $f \circ f^{-1}$ And verify that
 $(f^{-1} \circ f)(x) = x$ and $(f \circ f^{-1})(x) = x$ on their respective domains.
@@ -396,31 +431,35 @@ requiring careful domain tracking.]
 
 **(a)** Let $y = e^{2x-1}$. Then $\ln y = 2x - 1$ So $x = \frac{\ln y + 1}{2}$.
 
-$$f^{-1}(x) = \frac{\ln x + 1}{2}$$
+$$
+f^{-1}(x) = \frac{\ln x + 1}{2}
+$$
 
 Domain of $f^{-1}$: $x \gt 0$ (since $\ln x$ must be defined, matching the range of $f$).
 
 Range of $f^{-1}$: $\mathbb{R}$ (since $\frac{\ln x + 1}{2}$ takes all real values as
-$x$ ranges over $(0, \infty)$Matching the domain of $f$).
+$x$ ranges over $(0, \infty)$ Matching the domain of $f$).
 
 **(b)**
 $(f^{-1} \circ f)(x) = f^{-1}(f(x)) = \frac{\ln(e^{2x-1}) + 1}{2} = \frac{2x-1+1}{2} = x$.
 
-Domain: the range of $f$ must be within the domain of $f^{-1}$. Range of $f$ is $(0, \infty)$Domain
+Domain: the range of $f$ must be within the domain of $f^{-1}$. Range of $f$ is $(0, \infty)$ Domain
 of $f^{-1}$ is $(0, \infty)$. So domain is $\mathbb{R}$.
 
 $(f \circ f^{-1})(x) = f(f^{-1}(x)) = e^{2 \cdot \frac{\ln x + 1}{2} - 1} = e^{\ln x + 1 - 1} = e^{\ln x} = x$.
 
-Domain: the range of $f^{-1}$ is $\mathbb{R}$Which is within the domain of $f$. The domain is
+Domain: the range of $f^{-1}$ is $\mathbb{R}$ Which is within the domain of $f$. The domain is
 $(0, \infty)$ (the domain of $f^{-1}$).
 
 **(c)** $g(x) = \ln(x-1) + \ln(x+1) = \ln((x-1)(x+1)) = \ln(x^2 - 1)$ for $x \in (1, \infty)$.
 
 To find $g^{-1}$: let $y = \ln(x^2 - 1)$. Then $e^y = x^2 - 1$ So $x^2 = e^y + 1$.
 
-Since $x \gt 1$We take the positive root: $x = \sqrt{e^y + 1}$.
+Since $x \gt 1$ We take the positive root: $x = \sqrt{e^y + 1}$.
 
-$$g^{-1}(x) = \sqrt{e^x + 1}$$
+$$
+g^{-1}(x) = \sqrt{e^x + 1}
+$$
 
 Domain of $g^{-1}$: $\mathbb{R}$ (since $e^x + 1 \gt 0$ for all $x$). Range of $g^{-1}$:
 $(1, \infty)$.

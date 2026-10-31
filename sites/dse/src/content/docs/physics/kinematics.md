@@ -17,19 +17,27 @@ date: 2026-05-31T00:00:00.000Z
 
 ## 1. Scalars and Vectors
 
+<div class="table-wrap">
+
 | Quantity | Definition                          | Examples                                          |
 | -------- | ----------------------------------- | -------------------------------------------------- |
 | Scalar   | Has magnitude only                   | Speed, distance, mass, time, temperature, energy  |
 | Vector   | Has magnitude and direction          | Velocity, displacement, force, acceleration, momentum |
+
+</div>
 
 ### Vector Operations
 
 - **Adding vectors:** use tip-to-tail method or resolve into components
 - **Resolving a vector:** split into horizontal ($x$) and vertical ($y$) components
 
-$$F_x = F\cos\theta \quad \text{and} \quad F_y = F\sin\theta$$
+$$
+F_x = F\cos\theta \quad \text{and} \quad F_y = F\sin\theta
+$$
 
-$$F = \sqrt{F_x^2 + F_y^2}$$
+$$
+F = \sqrt{F_x^2 + F_y^2}
+$$
 
 ---
 
@@ -44,10 +52,14 @@ $$F = \sqrt{F_x^2 + F_y^2}$$
 
 ## 2. Distance and Displacement
 
+<div class="table-wrap">
+
 | Quantity     | Type   | Definition                                    |
 | ------------ | ------ | ---------------------------------------------- |
 | Distance     | Scalar | Total length of path travelled                  |
 | Displacement | Vector | Straight-line distance from start to finish in a given direction |
+
+</div>
 
 - Distance is always **$\geq$ displacement**
 - Displacement can be zero if the object returns to its starting point
@@ -65,17 +77,25 @@ $$F = \sqrt{F_x^2 + F_y^2}$$
 
 ## 3. Speed and Velocity
 
+<div class="table-wrap">
+
 | Quantity  | Type   | Definition                                    | Units        |
 | --------- | ------ | ---------------------------------------------- | ------------ |
 | Speed     | Scalar | Rate of change of distance                    | $\mathrm{m\,s^{-1}}$ |
 | Velocity  | Vector | Rate of change of displacement                | $\mathrm{m\,s^{-1}}$ |
 
-$$v = \frac{\Delta s}{\Delta t}$$
+</div>
+
+$$
+v = \frac{\Delta s}{\Delta t}
+$$
 
 **Average speed:** total distance / total time
 **Instantaneous speed:** speed at a specific moment (gradient of distance-time graph at that point)
 
 ### Displacement-Time Graphs
+
+<div class="table-wrap">
 
 | Feature              | Meaning                                   |
 | -------------------- | ----------------------------------------- |
@@ -85,7 +105,11 @@ $$v = \frac{\Delta s}{\Delta t}$$
 | Curve                 | Acceleration or deceleration              |
 | Area under curve      | Not applicable (displacement is the quantity) |
 
+</div>
+
 ### Velocity-Time Graphs
+
+<div class="table-wrap">
 
 | Feature              | Meaning                                   |
 | -------------------- | ----------------------------------------- |
@@ -94,6 +118,8 @@ $$v = \frac{\Delta s}{\Delta t}$$
 | Straight line (positive gradient) | Constant acceleration          |
 | Area under curve      | Displacement                              |
 | Negative region       | Object moving in opposite direction       |
+
+</div>
 
 ---
 
@@ -110,7 +136,9 @@ $$v = \frac{\Delta s}{\Delta t}$$
 
 **Acceleration** is the rate of change of velocity:
 
-$$a = \frac{\Delta v}{\Delta t} = \frac{v - u}{t}$$
+$$
+a = \frac{\Delta v}{\Delta t} = \frac{v - u}{t}
+$$
 
 - Units: $\mathrm{m\,s^{-2}}$
 - A positive acceleration means the object is speeding up in the direction of motion
@@ -131,12 +159,16 @@ $$a = \frac{\Delta v}{\Delta t} = \frac{v - u}{t}$$
 
 For motion with **constant acceleration** (also called the **suvat equations**):
 
+<div class="table-wrap">
+
 | Equation | Variables | When to Use |
 | -------------- | ---------------------------------- | ---------------------------------------- |
 | $v = u + at$ | Uses $u, a, t$ to find $v$ | No displacement involved |
 | $s = ut + \frac{1}{2}at^2$ | Uses $u, a, t$ to find $s$ | Displacement from initial velocity |
 | $s = \frac{(u+v)}{2}t$ | Uses $u, v, t$ to find $s$ | When acceleration is unknown |
 | $v^2 = u^2 + 2as$ | Uses $u, v, a$ to find $s$ | When time is unknown |
+
+</div>
 
 Where:
 
@@ -169,11 +201,13 @@ Where:
 ### Free Fall
 
 All objects in **free fall** (only gravity acting, no air resistance) accelerate at the same rate:
-$$g \approx 9.81\ \mathrm{m\,s^{-2}}$$
+$$
+g \approx 9.81\ \mathrm{m\,s^{-2}}
+$$
 
 ### Key Principles
 
-1. **Near Earth"s surface**, $g$ is approximately constant at $9.81\ \mathrm{m\,s^{-2}}$
+1. **Near Earth's surface**, $g$ is approximately constant at $9.81\ \mathrm{m\,s^{-2}}$
 2. $g$ **does not depend** on the mass of the falling object (Galileo's principle)
 3. In a **vacuum**, a feather and a bowling ball fall at the same rate
 
@@ -185,7 +219,9 @@ $$g \approx 9.81\ \mathrm{m\,s^{-2}}$$
 - Timer starts when ball released; stops when it hits trapdoor
 - Repeat for various heights $h$
 
-$$h = \frac{1}{2}gt^2 \implies g = \frac{2h}{t^2}$$
+$$
+h = \frac{1}{2}gt^2 \implies g = \frac{2h}{t^2}
+$$
 
 Plot $h$ vs $t^2$; gradient = $\frac{g}{2}$
 
@@ -213,21 +249,31 @@ A projectile moves under the influence of **gravity only** (air resistance is ne
 
 **Key idea:** horizontal and vertical motion are **independent** of each other.
 
+<div class="table-wrap">
+
 | Direction | Motion                      | Acceleration        |
 | --------- | --------------------------- | ------------------- |
 | Horizontal | Constant velocity (no force)| $a_x = 0$           |
 | Vertical   | Uniformly accelerated       | $a_y = -g = -9.81\ \mathrm{m\,s^{-2}}$ |
 
+</div>
+
 ### Equations
 
 **Horizontal:**
-$$x = v_x \cdot t$$
+$$
+x = v_x \cdot t
+$$
 
 where $v_x = v_0\cos\theta$ (constant throughout)
 
 **Vertical:**
-$$v_y = u_y + at = v_0\sin\theta - gt$$
-$$y = u_y t + \frac{1}{2}at^2 = v_0\sin\theta\cdot t - \frac{1}{2}gt^2$$
+$$
+v_y = u_y + at = v_0\sin\theta - gt
+$$
+$$
+y = u_y t + \frac{1}{2}at^2 = v_0\sin\theta\cdot t - \frac{1}{2}gt^2
+$$
 
 ### Key Results
 
@@ -257,7 +303,9 @@ horizontal velocity is never zero (in ideal conditions).
 The **stopping distance** is the total distance a vehicle travels from the moment the driver sees
 a hazard to the moment the vehicle stops:
 
-$$\text{Stopping distance} = \text{Thinking distance} + \text{Braking distance}$$
+$$
+\text{Stopping distance} = \text{Thinking distance} + \text{Braking distance}
+$$
 
 ### Thinking Distance
 
@@ -265,7 +313,9 @@ $$\text{Stopping distance} = \text{Thinking distance} + \text{Braking distance}$
 - Depends on: **speed** (directly proportional), reaction time (affected by alcohol, drugs,
   fatigue, mobile phone use)
 
-$$\text{Thinking distance} = \text{speed} \times \text{reaction time}$$
+$$
+\text{Thinking distance} = \text{speed} \times \text{reaction time}
+$$
 
 ### Braking Distance
 
@@ -275,6 +325,8 @@ $$\text{Thinking distance} = \text{speed} \times \text{reaction time}$$
 
 ### Factors Affecting Stopping Distance
 
+<div class="table-wrap">
+
 | Factor                | Effect on Thinking Distance | Effect on Braking Distance |
 | --------------------- | --------------------------- | --------------------------- |
 | Higher speed          | Increases (proportional)    | Increases ($\propto v^2$)   |
@@ -283,6 +335,8 @@ $$\text{Thinking distance} = \text{speed} \times \text{reaction time}$$
 | Worn tyres            | No effect                   | Increases                    |
 | Heavy vehicle         | No effect                   | Increases                    |
 | Poor brakes           | No effect                   | Increases                    |
+
+</div>
 
 ### Typical Values
 
@@ -304,6 +358,8 @@ Note how braking distance increases much more than thinking distance as speed in
 
 ## 9. Key Equations Reference
 
+<div class="table-wrap">
+
 | Topic                  | Equation                                    | Notes                          |
 | ---------------------- | ------------------------------------------- | ------------------------------ |
 | Speed                 | $v = \frac{s}{t}$                          |                                |
@@ -316,6 +372,8 @@ Note how braking distance increases much more than thinking distance as speed in
 | Projectile (range)     | $R = \frac{v_0^2\sin 2\theta}{g}$          |                                |
 | Projectile (max height)| $H = \frac{(v_0\sin\theta)^2}{2g}$          |                                |
 | Vector resolution      | $F_x = F\cos\theta;\ F_y = F\sin\theta$    |                                |
+
+</div>
 
 ## Worked Examples
 
@@ -340,17 +398,6 @@ Total stopping distance $= 12 + 33.3 = 45.3\ \text{m}$.
 - **Using distance instead of displacement in suvat equations:** The suvat equations apply to displacement, not total distance travelled. For projectile motion, use the vertical component for height calculations.
 - **Forgetting that horizontal velocity is constant:** In projectile motion, there is no horizontal acceleration (air resistance is neglected in DSE). Do not apply $v = u + at$ to the horizontal component.
 - **Confusing speed and velocity:** Speed is a scalar; velocity is a vector. A ball thrown vertically upward has constant acceleration (downward) even at the highest point where its velocity is momentarily zero.
-
-
-```mermaid
-flowchart TD
-    A[Kinematics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

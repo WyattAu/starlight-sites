@@ -134,7 +134,7 @@ $n_{\max} = d/\lambda = 1.667 \times 10^{-6}/500 \times 10^{-9} = 3.33$. Maximum
 </details>
 
 <details>
-<summary>Q12. A capacitor of 47 $\mu$F is charged to 12 V. How much energy does it store?</summary>
+<summary>Q12. A capacitor of 47 $\mu$ F is charged to 12 V. How much energy does it store?</summary>
 **Answer.**
 $E = \frac{1}{2}CV^2 = \frac{1}{2} \times 47 \times 10^{-6} \times 144 = 3.38 \times 10^{-3}$ J
 $= 3.38$ mJ.
@@ -152,7 +152,7 @@ $= 3.38$ mJ.
 </details>
 
 <details>
-<summary>Q14. A 100 $\mu$F capacitor discharges through a 50 k$\Omega$ resistor. What is the time constant?</summary>
+<summary>Q14. A 100 $\mu$ F capacitor discharges through a 50 k$\Omega$ resistor. What is the time constant?</summary>
 **Answer.** $\tau = RC = 50 \times 10^3 \times 100 \times 10^{-6} = 5.0$ s.
 
 <b>If you get this wrong, revise:</b> [Capacitance](/physics/electricity/03-capacitance/)
@@ -172,7 +172,7 @@ $R = \rho L/A = 1.7 \times 10^{-8} \times 10 / 7.85 \times 10^{-7} = 0.217\,\Ome
 ## Section D: Fields (Questions 16–22)
 
 <details>
-<summary>Q16. Two charges of $+3\,\mu$C and $-5\,\mu$C are 0.20 m apart. What is the force between them?</summary>
+<summary>Q16. Two charges of $+3\,\mu$ C and $-5\,\mu$ C are 0.20 m apart. What is the force between them?</summary>
 **Answer.**
 $F = kq_1q_2/r^2 = 8.99 \times 10^9 \times 3 \times 10^{-6} \times 5 \times 10^{-6}/0.04 = 3.37$ N
 (attractive).
@@ -211,7 +211,7 @@ M s$^{-1}$.
 </details>
 
 <details>
-<summary>Q20. What is the electric potential at 0.05 m from a $+2\,\mu$C charge?</summary>
+<summary>Q20. What is the electric potential at 0.05 m from a $+2\,\mu$ C charge?</summary>
 **Answer.** $V = kQ/r = 8.99 \times 10^9 \times 2 \times 10^{-6}/0.05 = 3.60 \times 10^5$ V.
 
 <b>If you get this wrong, revise:</b> [Electric Fields](/physics/fields/01-electric-fields/)
@@ -227,10 +227,10 @@ M s$^{-1}$.
 </details>
 
 <details>
-<summary>Q22. State Faraday"s law and Lenz's law.</summary>
+<summary>Q22. State Faraday's law and Lenz's law.</summary>
 **Answer.** **Faraday's law:** the induced e.m.f. Equals the negative rate of change of flux
 Linkage: $\mathcal{E} = -d(N\Phi)/dt$. **Lenz's law:** the direction of the induced current opposes
-The change in flux that produced it.
+the change in flux that produced it.
 
 <b>If you get this wrong, revise:</b> [Magnetic Fields](/physics/fields/02-magnetic-fields/)
 
@@ -345,7 +345,7 @@ M $= 103$ nm.
 **Answer.** The binding energy per nucleon is the total binding energy divided by the mass number,
 The average energy needed to remove one nucleon. Iron-56 has the highest binding energy per nucleon
 ($\sim 8.8$ MeV), meaning it requires the most energy per nucleon to disassemble. This corresponds
-To the maximum nuclear stability. Nuclei lighter than iron release energy by fusion; nuclei heavier
+to the maximum nuclear stability. Nuclei lighter than iron release energy by fusion; nuclei heavier
 Release energy by fission, both processes move towards the iron peak.
 
 <b>If you get this wrong, revise:</b>
@@ -398,7 +398,7 @@ $2(0.2/3.0) + 0.3/4.0 = 0.133 + 0.075 = 0.208 = 20.8\%$.
 <summary>Q38. What is the difference between a systematic error and a random error?</summary>
 **Answer.** A systematic error is a consistent deviation from the true value, affecting all readings
 In the same direction (e.g., a zero error on a balance). A random error causes unpredictable scatter
-In repeated readings (e.g., reaction time with a stopwatch). Systematic errors affect accuracy;
+in repeated readings (e.g., reaction time with a stopwatch). Systematic errors affect accuracy;
 Random errors affect precision.
 
 <b>If you get this wrong, revise:</b>
@@ -407,7 +407,7 @@ Random errors affect precision.
 </details>
 
 <details>
-<summary>Q39. To linearise $y = ax^n$What should you plot?</summary>
+<summary>Q39. To linearise $y = ax^n$ What should you plot?</summary>
 **Answer.** Taking logarithms: $\ln y = \ln a + n\ln x$. Plot $\ln y$ vs $\ln x$. The gradient is
 $n$ and the $y$-intercept is $\ln a$.
 
@@ -429,7 +429,7 @@ $n$ and the $y$-intercept is $\ln a$.
 <summary>Q41. When measuring the diameter of a wire with a micrometer, why should you take readings at several positions along the wire?</summary>
 **Answer.** The wire may not have a perfectly uniform diameter. Taking readings at several positions
 And averaging reduces the effect of any local variations, giving a more representative value for the
-Cross-sectional area.
+cross-sectional area.
 
 <b>If you get this wrong, revise:</b>
 [Experimental Design](/physics/practical-skills/02-experimental-design/)
@@ -440,9 +440,9 @@ Cross-sectional area.
 <summary>Q42. Explain why timing 20 oscillations of a pendulum gives a more precise result than timing one oscillation.</summary>
 **Answer.** Human reaction time ($\sim 0.2$ s) is a constant uncertainty regardless of the total
 Time measured. For one oscillation ($\sim 2$ s), the percentage uncertainty is $\sim 20\%$. For 20
-Oscillations ($\sim 40$ s), the uncertainty in the total time is $\sim 0.4$ s (start and stop),
+oscillations ($\sim 40$ s), the uncertainty in the total time is $\sim 0.4$ s (start and stop),
 Giving $\sim 1\%$ uncertainty in the total time, which translates to $\sim 1\%$ uncertainty in the
-Period.
+period.
 
 <b>If you get this wrong, revise:</b>
 [Experimental Design](/physics/practical-skills/02-experimental-design/)
@@ -462,8 +462,8 @@ Result is consistent with the accepted value at this level of uncertainty.
 <details>
 <summary>Q44. In a circuit experiment, a student uses an ammeter with resistance $0.5\,\Omega$ to measure current in a branch with resistance $5\,\Omega$. What percentage error does the ammeter introduce?</summary>
 **Answer.** The actual branch resistance is $5.0\,\Omega$. With the ammeter: total $= 5.5\,\Omega$.
-The current is reduced by a factor of $5.0/5.5 = 0.909$An error of $\sim 9.1\%$. (The ammeter
-Should ideally have zero resistance.)
+The current is reduced by a factor of $5.0/5.5 = 0.909$ An error of $\sim 9.1\%$. (The ammeter
+should ideally have zero resistance.)
 
 <b>If you get this wrong, revise:</b> [DC Circuits](/physics/electricity/02-dc-circuits/)
 
@@ -482,6 +482,8 @@ $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 
 ## Scoring
 
+<div class="table-wrap">
+
 | Score | Grade | Recommendation                                          |
 | ----- | ----- | ------------------------------------------------------- |
 | 40–45 | A\*   | Excellent. Focus on extension problems.                 |
@@ -489,6 +491,8 @@ $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 | 28–34 | B     | Good foundation. Systematic revision needed.            |
 | 20–27 | C     | Gaps exist. Prioritise weak sections.                   |
 | < 20  | D/U   | Significant revision required. Start with fundamentals. |
+
+</div>
 
 ## Common Pitfalls
 
@@ -509,14 +513,7 @@ $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

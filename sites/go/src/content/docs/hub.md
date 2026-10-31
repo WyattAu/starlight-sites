@@ -23,6 +23,14 @@ categories:
 }
 </script>
 
+:::note[New to Go's concurrency model? Start here]
+Read **[Before You Begin: Concurrency and Simplicity in Go](/before-you-begin/)**
+first. It builds goroutines and channels from first principles, explains the
+CSP model that makes race conditions impossible by construction, covers
+interfaces without inheritance, and names the features Go removed by design.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,16 +48,6 @@ categories:
   "isAccessibleForFree": true
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -110,7 +108,7 @@ Go has a focused set of types: primitives, arrays, slices, maps, and structs. Th
 
 **Maps** are hash tables with a simple API. Accessing a missing key returns the zero value, use the comma-ok idiom (`value, ok := m[key]`) to distinguish between a zero value and a missing key. Maps are not safe for concurrent use without synchronization.
 
-**Struct tags** provide metadata for struct fields, commonly used for JSON encoding/decoding, database mapping, and validation. Tags are key-value pairs in backtick strings: `` `json:"name,omitempty"` ``.
+**Struct tags** provide metadata for struct fields, commonly used for JSON encoding/decoding, database mapping, and validation. Tags are key-value pairs in backtick strings: `` ``, ``json:"name,omitempty"``, `` ``.
 
 ---
 
@@ -194,7 +192,7 @@ Go handles errors with return values, not exceptions. Every function that can fa
 
 **Error wrapping** with `fmt.Errorf("doing thing: %w", err)` adds context to errors while preserving the original. `errors.Is` and `errors.as` unwrap error chains to check for specific error types. This enables structured error handling without exceptions.
 
-**Sentinel errors** are predefined error values that callers check with `errors.Is`. They represent specific failure conditions: `sql.ErrNoRows``io.EOF`or custom package-level errors.
+**Sentinel errors** are predefined error values that callers check with `errors.Is`. They represent specific failure conditions: `sql.ErrNoRows`, `io.EOF`or custom package-level errors.
 
 ---
 
@@ -265,7 +263,7 @@ Go uses Go Modules for dependency management. The `go.mod` file declares the mod
 
 ### Is Go good for large codebases?
 
-Yes. Go was designed for large codebases with many contributors. Its simplicity, explicit error handling, and strong tooling (`go fmt``go vet``go test`) make it easy to maintain consistency across large teams. The language enforces a single style, reducing code review friction.
+Yes. Go was designed for large codebases with many contributors. Its simplicity, explicit error handling, and strong tooling (`go fmt`, `go vet`, `go test`) make it easy to maintain consistency across large teams. The language enforces a single style, reducing code review friction.
 
 ---
 

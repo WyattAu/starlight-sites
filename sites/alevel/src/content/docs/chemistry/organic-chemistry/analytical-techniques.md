@@ -24,14 +24,14 @@ categories:
 
 Analytical techniques allow chemists to determine the structure, composition, and purity of organic
 Compounds. No single technique provides complete structural information; instead, a combination of
-Methods is used. This module covers the four principal spectroscopic and chromatographic methods:
+methods is used. This module covers the four principal spectroscopic and chromatographic methods:
 Mass spectrometry, infrared spectroscopy, nuclear magnetic resonance spectroscopy, and
-Chromatography.
+chromatography.
 
 ## Mass Spectrometry (MS)
 
 Mass spectrometry measures the mass-to-charge ratio ($m/z$) of ionised molecules and fragments. It
-Provides information about molecular mass, molecular formula, and structural features.
+provides information about molecular mass, molecular formula, and structural features.
 
 ### Instrument Overview
 
@@ -53,7 +53,7 @@ $$
 ### The Molecular Ion ($\mathrm{M}^{+\bullet}$)
 
 The molecular ion peak corresponds to the $m/z$ of the intact molecule (minus one electron). Its
-Mass gives the relative molecular mass ($M_r$) of the compound. The molecular ion is the heaviest
+mass gives the relative molecular mass ($M_r$) of the compound. The molecular ion is the heaviest
 Significant peak (excluding isotopic peaks).
 
 The molecular ion peak is not always the base peak (the tallest peak). For compounds that fragment
@@ -76,7 +76,9 @@ These isotopic patterns are diagnostic for identifying the presence and number o
 ### Fragmentation Patterns
 
 Fragmentation occurs when the molecular ion breaks apart. The fragmentation pathways are determined
-By the stability of the resulting ions and radicals. Key patterns:
+by the stability of the resulting ions and radicals. Key patterns:
+
+<div class="table-wrap">
 
 | Fragment                | $m/z$      | Origin                                                        |
 | ----------------------- | ---------- | ------------------------------------------------------------- |
@@ -92,10 +94,12 @@ By the stability of the resulting ions and radicals. Key patterns:
 | 29                      | 29         | $\mathrm{C}_2\mathrm{H}_5^+$ or $\mathrm{CHO}^+$              |
 | 31                      | 31         | $\mathrm{CH}_2\mathrm{OH}^+$                                  |
 
+</div>
+
 ### The McLafferty Rearrangement
 
 A characteristic fragmentation of carbonyl compounds with a $\gamma$-hydrogen (three carbons away
-From the carbonyl). The $\gamma$-hydrogen transfers to the carbonyl oxygen via a six-membered cyclic
+from the carbonyl). The $\gamma$-hydrogen transfers to the carbonyl oxygen via a six-membered cyclic
 Transition state, producing an enol radical cation and an alkene:
 
 $$
@@ -109,9 +113,11 @@ Derivatives.
 
 IR spectroscopy measures the absorption of infrared radiation by molecular bonds. Bonds absorb
 Radiation at characteristic frequencies corresponding to their vibrational modes (stretching and
-Bending).
+bending).
 
 ### Key Absorptions
+
+<div class="table-wrap">
 
 | Bond                               | Wavenumber ($\mathrm{cm}^{-1}$) | Intensity                               |
 | ---------------------------------- | ------------------------------- | --------------------------------------- |
@@ -125,12 +131,14 @@ Bending).
 | C=C                                | 1620--1680                      | Weak to medium                          |
 | C--O (alcohol, ester)              | 1000--1300                      | Strong                                  |
 
+</div>
+
 ### The Fingerprint Region
 
 The region below $1500\,\mathrm{cm}^{-1}$ ($1500$--$400\,\mathrm{cm}^{-1}$) contains a complex
 Pattern of absorptions from bending vibrations and C--C, C--O, C--X single bond stretches. This
-Pattern is unique to each compound (like a fingerprint) and is used for identification by comparison
-With reference spectra.
+pattern is unique to each compound (like a fingerprint) and is used for identification by comparison
+with reference spectra.
 
 ### Interpreting an IR Spectrum
 
@@ -155,10 +163,12 @@ Chemically distinct hydrogen environment produces a separate signal.
 **Chemical shift ($\delta$):** Measured in parts per million (ppm) relative to tetramethylsilane
 (TMS), which is assigned $\delta = 0$. TMS is used as a reference because it gives a single, sharp
 Signal from 12 equivalent protons at high field, and its silicon is less electronegative than
-Carbon.
+carbon.
 
 The chemical shift reflects the degree of electron shielding around the proton. Electronegative
 Groups deshield nearby protons, moving their signal to higher $\delta$ (downfield).
+
+<div class="table-wrap">
 
 | Proton environment             | $\delta$ range (ppm) |
 | ------------------------------ | -------------------- |
@@ -173,13 +183,17 @@ Groups deshield nearby protons, moving their signal to higher $\delta$ (downfiel
 | $\mathrm{R-CHO}$               | 9.0--10.0            |
 | $\mathrm{R-COOH}$              | 10.0--13.0           |
 
+</div>
+
 **Integration:** The area under each signal is proportional to the number of equivalent protons
 Producing that signal. Modern NMR spectrometers display the integration as a step function above the
-Peaks.
+peaks.
 
 **Spin-spin coupling (splitting):** Non-equivalent protons on adjacent carbons ( separated By three
 bonds, $^3J$ coupling) split each other's signals. The splitting pattern follows the $n+1$ rule: a
 signal is split into $n+1$ peaks, where $n$ is the number of equivalent neighbouring Protons.
+
+<div class="table-wrap">
 
 | Neighbours ($n$) | Splitting | Peaks |
 | ---------------- | --------- | ----- |
@@ -189,9 +203,11 @@ signal is split into $n+1$ peaks, where $n$ is the number of equivalent neighbou
 | 3                | Quartet   | 4     |
 | 4                | Quintet   | 5     |
 
+</div>
+
 The coupling constant $J$ (in Hz) is the spacing between adjacent peaks in a multiplet. Protons that
-Are chemically equivalent do not couple to each other. The OH proton in alcohols and the NH proton
-In amines often appear as broad singlets because of rapid proton exchange with trace water.
+are chemically equivalent do not couple to each other. The OH proton in alcohols and the NH proton
+in amines often appear as broad singlets because of rapid proton exchange with trace water.
 
 ### Carbon-13 ($^{13}\mathrm{C}$) NMR
 
@@ -266,7 +282,7 @@ $\mathrm{C}_{18}$-bonded silica), polar compounds elute first.
 
 **Separation principle:** Compounds are vaporised and carried through the column by the carrier gas.
 Separation depends on volatility (lower boiling point = shorter retention time) and interaction with
-The stationary phase.
+the stationary phase.
 
 **Retention time ($t_R$):** The time from injection to detection. Characteristic of a compound under
 Fixed conditions.
@@ -311,11 +327,15 @@ And compounds that decompose at GC temperatures.
 
 ### HPLC Detectors
 
+<div class="table-wrap">
+
 | Detector                  | Principle                      | Compounds detected                         |
 | ------------------------- | ------------------------------ | ------------------------------------------ |
 | UV-Vis                    | Absorption at fixed wavelength | UV-active compounds (most organics)        |
 | Refractive Index (RI)     | Change in refractive index     | Universal (but less sensitive)             |
 | Mass spectrometer (LC-MS) | Mass-to-charge ratio           | Universal; provides structural information |
+
+</div>
 
 ## Atomic Absorption Spectroscopy (AAS)
 
@@ -395,7 +415,7 @@ The systematic approach to identifying an unknown organic compound:
    ($1000$--$1300\,\mathrm{cm}^{-1}$).
 
 5. **Incorrectly interpreting $R_f$ values.** $R_f$ is dimensionless and always between 0 and 1.
-   Compounds with greater affinity for the mobile phase have higher $R_f$ values.
+   compounds with greater affinity for the mobile phase have higher $R_f$ values.
 
 6. **Forgetting that OH and NH protons can be exchanged.** Adding $\mathrm{D}_2\mathrm{O}$ to the
    sample causes OH and NH signals to disappear (exchange with deuterium) and a new signal for HOD
@@ -414,6 +434,8 @@ The systematic approach to identifying an unknown organic compound:
 
 ### $^1\mathrm{H}$ NMR: Chemical Shift Reference Table
 
+<div class="table-wrap">
+
 | Proton environment                    | $\delta$ range (ppm)    | Example                                  |
 | ------------------------------------- | ----------------------- | ---------------------------------------- |
 | $\mathrm{RCH}_3$                      | $0.7$--$1.3$            | Alkane methyl                            |
@@ -427,9 +449,13 @@ The systematic approach to identifying an unknown organic compound:
 | Alcohol (OH)                          | $0.5$--$5.0$ (variable) | Broad, concentration-dependent           |
 | Amine (NH)                            | $0.5$--$5.0$ (variable) | Broad                                    |
 
+</div>
+
 ### Spin-Spin Coupling (Splitting Patterns)
 
 The $(n+1)$ rule: a signal is split into $n+1$ peaks by $n$ equivalent neighbouring protons.
+
+<div class="table-wrap">
 
 | Number of neighbours ($n$) | Splitting pattern | Name    |
 | -------------------------- | ----------------- | ------- |
@@ -439,9 +465,13 @@ The $(n+1)$ rule: a signal is split into $n+1$ peaks by $n$ equivalent neighbour
 | 3                          | 4 peaks           | Quartet |
 | 4                          | 5 peaks           | Quintet |
 
+</div>
+
 **Coupling constants ($J$):** The spacing between peaks in a multiplet (in Hz) is the coupling
 constant. Protons that couple to each other have the same coupling constant. This helps assign which
 protons are neighbours.
+
+<div class="table-wrap">
 
 | Coupling type               | Typical $J$ (Hz)         |
 | --------------------------- | ------------------------ |
@@ -453,11 +483,15 @@ protons are neighbours.
 | Aromatic (meta)             | $1$--$3$                 |
 | Aromatic (para)             | $0$--$1$                 |
 
+</div>
+
 ### $^{13}\mathrm{C}$ NMR
 
 - The chemical shift range is $0$--$220\,\mathrm{ppm}$.
 - Proton-decoupled spectra show one peak per carbon environment (no splitting).
 - The number of peaks equals the number of carbon environments.
+
+<div class="table-wrap">
 
 | Carbon environment                                                      | $\delta$ range (ppm) |
 | ----------------------------------------------------------------------- | -------------------- |
@@ -466,6 +500,8 @@ protons are neighbours.
 | Aromatic                                                                | $100$--$150$         |
 | Carbonyl (aldehyde, ketone)                                             | $190$--$220$         |
 | Carbonyl (acid, ester, amide)                                           | $160$--$185$         |
+
+</div>
 
 ### Worked Example: Full Spectral Analysis
 
@@ -497,6 +533,8 @@ $\mathrm{CH}_3$ of the acyl group, which has no adjacent protons.
 
 ### Complete Absorption Table
 
+<div class="table-wrap">
+
 | Bond                                   | Absorption ($\mathrm{cm}^{-1}$) | Intensity                      |
 | -------------------------------------- | ------------------------------- | ------------------------------ |
 | O--H (alcohol, free)                   | $3550$--$3700$                  | Sharp, medium                  |
@@ -517,6 +555,8 @@ $\mathrm{CH}_3$ of the acyl group, which has no adjacent protons.
 | C--O (ester)                           | $1100$--$1300$                  | Strong                         |
 | C--Cl                                  | $600$--$800$                    | Strong                         |
 
+</div>
+
 ### Fingerprint Region
 
 The region below $1500\,\mathrm{cm}^{-1}$ is the fingerprint region. It contains many absorptions
@@ -530,8 +570,8 @@ reference spectrum is used for identification.
 
 An unknown compound has the following analytical data:
 
-- Mass spectrum: molecular ion peak at $m/z = 88$Base peak at $m/z = 43$.
-- IR: strong absorption at $1700\,\mathrm{cm}^{-1}$Broad absorption at
+- Mass spectrum: molecular ion peak at $m/z = 88$ Base peak at $m/z = 43$.
+- IR: strong absorption at $1700\,\mathrm{cm}^{-1}$ Broad absorption at
   $2500$--$3300\,\mathrm{cm}^{-1}$.
 - $^1\mathrm{H}$ NMR: $\delta\, 1.2$ (triplet, 3H), $\delta\, 2.0$ (singlet, 3H), $\delta\, 2.3$
   (quartet, 2H), $\delta\, 11.0$ (singlet, 1H).
@@ -543,7 +583,7 @@ Identify the compound.
 **Molecular formula:** $M_r = 88$. Possible formula for a carboxylic acid (IR shows C=O and broad
 O--H): $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$ ($M_r = 4 \times 12 + 8 \times 1 + 2 \times 16 = 88$).
 The degree of unsaturation is $2 - 4 + \frac{8}{2} + 1 = 1$ (one double bond or ring, consistent
-With one C=O).
+with one C=O).
 
 **IR:** $1700\,\mathrm{cm}^{-1}$ confirms C=O. Broad $2500$--$3300\,\mathrm{cm}^{-1}$ confirms
 Carboxylic acid O--H.
@@ -561,24 +601,24 @@ A methyl group attached to a carbonyl. The carboxylic acid proton is at 11.0.
 
 The compound is **butanoic acid** ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH}$). Let us
 Verify: $-\mathrm{CH}_3$ (t, 3H) at C-4, $-\mathrm{CH}_2-$ (sextet or multiplet, but the data shows
-The quartet at 2.3 for $-\mathrm{CH}_2\mathrm{COOH}$). Actually, for butanoic acid: $-\mathrm{CH}_3$
-At C-4 would be a triplet (adjacent to one $-\mathrm{CH}_2-$2H), the $-\mathrm{CH}_2-$ at C-3 Would
+the quartet at 2.3 for $-\mathrm{CH}_2\mathrm{COOH}$). Actually, for butanoic acid: $-\mathrm{CH}_3$
+at C-4 would be a triplet (adjacent to one $-\mathrm{CH}_2-$2H), the $-\mathrm{CH}_2-$ at C-3 Would
 be a sextet (adjacent to 2H and 2H), the $-\mathrm{CH}_2-$ at C-2 would be a triplet (adjacent To
 2H). The singlet at 2.0 is inconsistent with butanoic acid.
 
 The compound is **2-methylpropanoic acid** ($(\mathrm{CH}_3)_2\mathrm{CHCOOH}$): $-\mathrm{CH}_3$
 Groups (doublet, 6H), $-\mathrm{CH}-$ (multiplet, 1H), $-\mathrm{COOH}$ (singlet, 1H). This also
-Does not match the data.
+does not match the data.
 
 Re-examining: The triplet-quartet pair + singlet at 2.0 + singlet at 11.0 is consistent with
 **propanoic acid with a methyl ketone** -- but that exceeds the formula. The compound is **ethyl
 Acetate**? No, the IR shows carboxylic acid.
 
 The compound is **2-oxobutanoic acid**? No. Given $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$: the
-Quartet (2H) at 2.3 and triplet (3H) at 1.2 form an ethyl group. The singlet (3H) at 2.0 is
+quartet (2H) at 2.3 and triplet (3H) at 1.2 form an ethyl group. The singlet (3H) at 2.0 is
 $-\mathrm{COCH}_3$. Combined: $\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3$ is butanone
 ($\mathrm{C}_4\mathrm{H}_8\mathrm{O}$), not $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$. With the
-Carboxylic acid proton, the compound is **butanoic acid** where the $-\mathrm{CH}_2-$ at position 3
+carboxylic acid proton, the compound is **butanoic acid** where the $-\mathrm{CH}_2-$ at position 3
 Appears as a multiplet. The data given may represent a simplified spectrum.
 
 </details>
@@ -590,7 +630,7 @@ A compound with molecular formula $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$ gives the
 
 - IR: strong absorption at $1715\,\mathrm{cm}^{-1}$; no absorption above $3000\,\mathrm{cm}^{-1}$.
 - $^1\mathrm{H}$ NMR: $\delta\, 2.1$ (singlet, 3H), $\delta\, 2.5$ (singlet, 3H).
-- Mass spectrum: molecular ion at $m/z = 58$Base peak at $m/z = 43$.
+- Mass spectrum: molecular ion at $m/z = 58$ Base peak at $m/z = 43$.
 
 Identify the compound and explain each piece of evidence.
 
@@ -604,7 +644,7 @@ amines. The compound is either an aldehyde or a ketone.
 ($\delta\, 9\text{--}10$), so the compound is a ketone. Two methyl groups in different environments,
 each adjacent to the carbonyl (hence the low chemical shift of $\delta\, 2.1$ and $\delta\, 2.5$).
 
-**Mass spectrum:** $M_r = 58$Consistent with $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$. Base peak at
+**Mass spectrum:** $M_r = 58$ Consistent with $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$. Base peak at
 $m/z = 43$ corresponds to $\mathrm{CH}_3\mathrm{CO}^+$ (acetyl cation), formed by alpha-cleavage
 adjacent to the carbonyl.
 
@@ -620,14 +660,14 @@ singlet, 6H). The data showing two singlets of 3H each is inconsistent with prop
 The correct compound is **propanal** ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO}$), but this would show
 a triplet, quartet, and aldehyde proton, not two singlets. The data is most consistent with **ethyl
 methyl ketone (butanone)**, $\mathrm{CH}_3\mathrm{CH}_2\mathrm{COCH}_3$ But this has
-$M_r = 72$Not 58.
+$M_r = 72$ Not 58.
 
 Given the constraint $M_r = 58$ and $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$: the only ketone is
 propanone, which should show one singlet (6H). The data provided appears to describe a different
 compound. Under exam conditions, the most likely answer is **propanone**, with the NMR simplified to
 show overlapping environments. Alternatively, the formula may be
-$\mathrm{C}_4\mathrm{H}_8\mathrm{O}$ (butanone: $\delta\, 2.1$S, 3H, $\mathrm{COCH}_3$;
-$\delta\, 2.5$S, 3H, $\mathrm{COCH}_2\mathrm{CH}_3$ -- but this should be a quartet, not a singlet).
+$\mathrm{C}_4\mathrm{H}_8\mathrm{O}$ (butanone: $\delta\, 2.1$ S, 3H, $\mathrm{COCH}_3$;
+$\delta\, 2.5$ S, 3H, $\mathrm{COCH}_2\mathrm{CH}_3$ -- but this should be a quartet, not a singlet).
 
 This problem illustrates the importance of cross-checking all data for consistency.
 
@@ -646,7 +686,7 @@ Identify the compound.
 **Solution:**
 
 The molecular formula $\mathrm{C}_7\mathrm{H}_7\mathrm{Br}$ has a degree of unsaturation of
-$2 - 7 + (7+1)/2 = 4$Strongly suggesting a benzene ring (one ring + three double bonds = 4 degrees
+$2 - 7 + (7+1)/2 = 4$ Strongly suggesting a benzene ring (one ring + three double bonds = 4 degrees
 of unsaturation).
 
 $^1\mathrm{H}$ NMR: $\delta\, 2.3$ (s, 3H) is a methyl group attached to an aromatic ring
@@ -668,7 +708,7 @@ and directs electrophilic substitution to the ortho and para positions.
 
 An unknown compound $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$ gives the following data:
 
-- Mass spectrum: $M^+ = 58$Base peak at $m/z = 43$.
+- Mass spectrum: $M^+ = 58$ Base peak at $m/z = 43$.
 - IR: $1715\,\mathrm{cm}^{-1}$ (strong), $3000\,\mathrm{cm}^{-1}$ (weak), no O--H.
 - $^1\mathrm{H}$ NMR: $\delta\, 1.1$ (d, 6H), $\delta\, 2.1$ (s, 3H), $\delta\, 2.5$ (septet, 1H).
 
@@ -677,7 +717,7 @@ Identify the compound and explain each piece of data.
 **Solution:**
 
 **Mass spectrometry:** $M = 58$. Possible formulas: $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$
-($3 \times 12 + 6 \times 1 + 16 = 58$). DoU $= (6 + 1 - 6)/2 = 0.5$Which rounds to 1 (one C=O). Base
+($3 \times 12 + 6 \times 1 + 16 = 58$). DoU $= (6 + 1 - 6)/2 = 0.5$ Which rounds to 1 (one C=O). Base
 peak at 43 = $\mathrm{CH}_3\mathrm{CO}^+$ (acylium ion, common fragmentation of ketones).
 
 **IR:** $1715\,\mathrm{cm}^{-1}$ = C=O (ketone). No broad O--H = not a carboxylic acid or alcohol.
@@ -694,9 +734,9 @@ Weak band at $3000\,\mathrm{cm}^{-1}$ = C--H stretch.
 
 The compound is **propanone** ($\mathrm{CH}_3\mathrm{COCH}_3$)? No, propanone has only one type of
 methyl. The data show an isopropyl group and a methyl group adjacent to C=O. The compound is
-**butan-2-one**? That is $\mathrm{C}_4\mathrm{H}_8\mathrm{O}$Which is too many carbons.
+**butan-2-one**? That is $\mathrm{C}_4\mathrm{H}_8\mathrm{O}$ Which is too many carbons.
 
-Reconsidering: $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$DoU = 1. The NMR shows
+Reconsidering: $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$ DoU = 1. The NMR shows
 $(\mathrm{CH}_3)_2\mathrm{CH}-$ (isopropyl, 7H total) and $\mathrm{CH}_3-$ (3H) = 10H. But the
 formula has only 6H. This is inconsistent.
 
@@ -729,9 +769,13 @@ for carbonyl compounds.
 
 For butan-2-one ($\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3$):
 
-$$\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3^{+\bullet} \to \mathrm{CH}_3\mathrm{CO}^+ + \bullet\mathrm{CH}_2\mathrm{CH}_3 \quad (m/z = 43)$$
+$$
+\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3^{+\bullet} \to \mathrm{CH}_3\mathrm{CO}^+ + \bullet\mathrm{CH}_2\mathrm{CH}_3 \quad (m/z = 43)
+$$
 
-$$\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3^{+\bullet} \to \mathrm{CH}_3\mathrm{COCH}_2\bullet + \mathrm{CH}_3^+ \quad (m/z = 15)$$
+$$
+\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3^{+\bullet} \to \mathrm{CH}_3\mathrm{COCH}_2\bullet + \mathrm{CH}_3^+ \quad (m/z = 15)
+$$
 
 **McLafferty rearrangement:** Requires a gamma-hydrogen (a hydrogen on the carbon three bonds away
 from the carbonyl). The hydrogen transfers to the carbonyl oxygen while the bond between the alpha-
@@ -739,10 +783,14 @@ and beta-carbons breaks.
 
 For pentanal ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO}$):
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO}^{+\bullet} \to \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{CH}_2=\mathrm{CHOH}^{+\bullet} \quad (m/z = 44)$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO}^{+\bullet} \to \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{CH}_2=\mathrm{CHOH}^{+\bullet} \quad (m/z = 44)
+$$
 
 **Aromatic fragmentation:** The molecular ion of aromatic compounds is very stable (high intensity).
 Characteristic fragments include:
+
+<div class="table-wrap">
 
 | $m/z$      | Fragment                                                                             | Origin                      |
 | ---------- | ------------------------------------------------------------------------------------ | --------------------------- |
@@ -751,11 +799,15 @@ Characteristic fragments include:
 | 105        | $\mathrm{C}_6\mathrm{H}_5\mathrm{CO}^+$                                              | Benzoyl cation              |
 | 39, 51, 65 | $\mathrm{C}_3\mathrm{H}_3^+$$\mathrm{C}_4\mathrm{H}_3^+$$\mathrm{C}_5\mathrm{H}_5^+$ | Fragmentary ring structures |
 
+</div>
+
 ### IR Spectroscopy: Detailed Interpretation Guide
 
 The IR spectrum is divided into functional group regions:
 
 **$4000$--$2500\,\mathrm{cm}^{-1}$ (X--H stretching region):**
+
+<div class="table-wrap">
 
 | Bond                   | Range          | Notes                   |
 | ---------------------- | -------------- | ----------------------- |
@@ -768,14 +820,22 @@ The IR spectrum is divided into functional group regions:
 | C--H (alkyne)          | $\approx 3300$ | Sharp                   |
 | O--H (carboxylic acid) | $2500$--$3000$ | Very broad, distinctive |
 
+</div>
+
 **$2500$--$2000\,\mathrm{cm}^{-1}$ (triple bond region):**
+
+<div class="table-wrap">
 
 | Bond       | Range          |
 | ---------- | -------------- |
 | C$\equiv$C | $2100$--$2260$ |
 | C$\equiv$N | $2210$--$2260$ |
 
+</div>
+
 **$2000$--$1500\,\mathrm{cm}^{-1}$ (double bond region):**
+
+<div class="table-wrap">
 
 | Bond                  | Range                 |
 | --------------------- | --------------------- |
@@ -786,6 +846,8 @@ The IR spectrum is divided into functional group regions:
 | C=O (amide)           | $1680$--$1700$        |
 | C=C                   | $1620$--$1680$ (weak) |
 | C=N                   | $1610$--$1680$        |
+
+</div>
 
 **$1500$--$400\,\mathrm{cm}^{-1}$ (fingerprint region):** Complex patterns unique to each molecule.
 Useful for comparison with reference spectra.
@@ -817,6 +879,8 @@ $n$ equivalent neighbouring protons.
 $^{13}\mathrm{C}$ NMR shows one signal for each chemically distinct carbon environment. The chemical
 shift range is $0$--$220\,\mathrm{ppm}$:
 
+<div class="table-wrap">
+
 | Carbon type           | Chemical shift (ppm) |
 | --------------------- | -------------------- |
 | C--C (alkane)         | $0$--$50$            |
@@ -825,6 +889,8 @@ shift range is $0$--$220\,\mathrm{ppm}$:
 | C=C (alkene)          | $100$--$150$         |
 | Aromatic C            | $110$--$160$         |
 | C=O (carbonyl)        | $160$--$220$         |
+
+</div>
 
 **Worked Example:** The $^{13}\mathrm{C}$ NMR spectrum of ethyl ethanoate shows four signals:
 $\delta\, 170$ (C=O), $\delta\, 60$ ($\mathrm{CH}_2\mathrm{O}$), $\delta\, 21$
@@ -835,7 +901,9 @@ distinct carbon environments.
 
 **Rf values in TLC:**
 
-$$R_f = \frac{\text{distance travelled by compound}}{\text{distance travelled by solvent front}}$$
+$$
+R_f = \frac{\text{distance travelled by compound}}{\text{distance travelled by solvent front}}
+$$
 
 $R_f$ values are always between 0 and 1. A compound with a higher $R_f$ is less polar (interacts
 less with the polar stationary phase and travels further with the non-polar mobile phase).
@@ -843,11 +911,17 @@ less with the polar stationary phase and travels further with the non-polar mobi
 **Worked Example:** In a TLC experiment, the solvent front travels $12.0\,\mathrm{cm}$. Three
 compounds travel $3.6\,\mathrm{cm}$$7.2\,\mathrm{cm}$ And $10.8\,\mathrm{cm}$ from the origin.
 
-$$R_f(\mathrm{A}) = \frac{3.6}{12.0} = 0.30$$
+$$
+R_f(\mathrm{A}) = \frac{3.6}{12.0} = 0.30
+$$
 
-$$R_f(\mathrm{B}) = \frac{7.2}{12.0} = 0.60$$
+$$
+R_f(\mathrm{B}) = \frac{7.2}{12.0} = 0.60
+$$
 
-$$R_f(\mathrm{C}) = \frac{10.8}{12.0} = 0.90$$
+$$
+R_f(\mathrm{C}) = \frac{10.8}{12.0} = 0.90
+$$
 
 Compound A is the most polar (lowest $R_f$), and compound C is the least polar.
 
@@ -899,7 +973,7 @@ $\delta\, 11.0$ (s, 1H). The given data show only a quartet and triplet, consist
 group ($\mathrm{CH}_3\mathrm{CH}_2-$) and a carboxylic acid proton. This matches **propanoic acid**,
 but the formula should be $\mathrm{C}_3\mathrm{H}_6\mathrm{O}_2$.
 
-If the formula is $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$The additional $\mathrm{CH}_2$ would appear
+If the formula is $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$ The additional $\mathrm{CH}_2$ would appear
 in the NMR. The discrepancy suggests the formula may be $\mathrm{C}_3\mathrm{H}_6\mathrm{O}_2$
 (propanoic acid).
 
@@ -911,7 +985,7 @@ in the NMR. The discrepancy suggests the formula may be $\mathrm{C}_3\mathrm{H}_
 An organic compound $\mathrm{C}_7\mathrm{H}_8$ shows the following data:
 
 - Mass spec: M+ at $m/z = 92$ (base peak), M+1 at 7.7%, significant fragment at $m/z = 91$
-- IR: absorption at $3030\,\mathrm{cm}^{-1}$, $1600$ and $1500\,\mathrm{cm}^{-1}$No absorption above
+- IR: absorption at $3030\,\mathrm{cm}^{-1}$, $1600$ and $1500\,\mathrm{cm}^{-1}$ No absorption above
   $3100\,\mathrm{cm}^{-1}$
 - $^1\mathrm{H}$ NMR: $\delta\, 7.2$ (m, 5H), $\delta\, 2.3$ (s, 3H)
 
@@ -1029,23 +1103,9 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Analytical
 Techniques with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
-
-
-```mermaid
-flowchart TD
-    A[Analytical Techniques] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

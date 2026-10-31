@@ -27,7 +27,7 @@ negative numbers.
 
 **Solution:**
 
-(a) $(\text{FA3})_{16}$: F $= 15 = 1111_2$A $= 10 = 1010_2$3 $= 0011_2$. Binary: $111110100011_2$.
+(a) $(\text{FA3})_{16}$: F $= 15 = 1111_2$ A $= 10 = 1010_2$3 $= 0011_2$. Binary: $111110100011_2$.
 
 Decimal: $15 \times 256 + 10 \times 16 + 3 = 3840 + 160 + 3 = 4003$.
 
@@ -37,7 +37,7 @@ So $(-42)_{10}$ in 8-bit two's complement $= 11010110_2$.
 
 (c) Subtracting: $11010110 - 01101011$.
 
-Two's complement of $01101011$: invert $= 10010100$Add 1 $= 10010101$.
+Two's complement of $01101011$: invert $= 10010100$ Add 1 $= 10010101$.
 
 $11010110 + 10010101 = 101101011_2$. The 9th bit (carry) is discarded in 8-bit arithmetic. Result
 $= 01101011_2 = 107_{10}$.
@@ -54,7 +54,7 @@ efficient use of all bit patterns.
 
 **Question:** (a) Explain the difference between ASCII and Unicode. (b) The string "Hi!" is stored
 in UTF-8 encoding. Calculate the number of bytes required. (c) A file contains 500 characters of
-English text. Calculate the file size in bytes if stored in: ASCII, UTF-8, and UTF-16. (d) Explain
+english text. Calculate the file size in bytes if stored in: ASCII, UTF-8, and UTF-16. (d) Explain
 why UTF-8 is the dominant encoding on the web.
 
 **Solution:**
@@ -81,7 +81,7 @@ Multilingual Plane).
 
 (d) UTF-8 is dominant because: (1) It is backward compatible with ASCII -- any valid ASCII file is
 also valid UTF-8. (2) It is variable-length: common ASCII characters use 1 byte (efficient for
-English), while less common characters use 2--4 bytes. (3) It handles the full Unicode character
+english), while less common characters use 2--4 bytes. (3) It handles the full Unicode character
 set. (4) It is self-synchronising: any byte can identify whether it is a single-byte character, the
 start of a multi-byte character, or a continuation byte, enabling robust error recovery.
 
@@ -128,17 +128,6 @@ $= 254,016,000 / 8 = 31,752,000 \text{ bytes} \approx 30.27$ MB.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diag Data Representation", "url": "https://dse.wyattau.com/ict/diagnostics/diag-data-representation"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Data Representation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

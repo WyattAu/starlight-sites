@@ -18,10 +18,12 @@ description: "A shell is both an and a . When you open a terminal emulator, it s
 ## Shell Invocation
 
 A shell is both an **interactive command interpreter** and a **scripting language interpreter**.
-When you open a terminal emulator, it spawns a shell process, `bash``zsh`Or `dash`. When you run a
-script with `./script.sh`The shebang line determines which interpreter processes The file.
+When you open a terminal emulator, it spawns a shell process, `bash`, `zsh` or `dash`. When you run a
+script with `./script.sh`. The shebang line determines which interpreter processes The file.
 
 ### Interactive vs Non-Interactive
+
+<div class="table-wrap">
 
 | Aspect            | Interactive                           | Non-Interactive                        |
 | ----------------- | ------------------------------------- | -------------------------------------- |
@@ -32,10 +34,12 @@ script with `./script.sh`The shebang line determines which interpreter processes
 | **Aliases**       | Expanded                              | Expanded (in bash) or not (POSIX mode) |
 | **Exit on error** | Does not exit on error                | Same unless `set -e`                   |
 
+</div>
+
 The shell"s startup sequence differs depending on whether it is a **login shell** or a **non-login
 Shell**:
 
-- **Login shell**: Sourced on first login (SSH, `su -``login`). Reads `/etc/profile`Then
+- **Login shell**: Sourced on first login (SSH, `su -`, `login`). Reads `/etc/profile`. Then
   `~/.bash_profile` or `~/.bash_login` or `~/.profile` (first one found).
 - **Non-login interactive shell**: Reads `~/.bashrc`.
 - **Non-login non-interactive shell**: Inherits exported environment variables. Does not read
@@ -66,6 +70,8 @@ POSIX specifies a shell standard (IEEE 1003.1, also known as the Single UNIX Spe
 Largely POSIX-compliant but adds extensions. When writing portable scripts, target POSIX sh. When
 Writing for known-bash environments, use bash features deliberately.
 
+<div class="table-wrap">
+
 | Feature                | POSIX sh | Bash                        |
 | ---------------------- | -------- | --------------------------- |
 | Arrays                 | No       | Yes (`arr=()`)              |
@@ -77,8 +83,10 @@ Writing for known-bash environments, use bash features deliberately.
 | `${var:offset:length}` | No       | Yes (substring expansion)   |
 | `&\>\&2` redirection   | No       | Yes                         |
 
+</div>
+
 On Debian and Ubuntu, `/bin/sh` is `dash`a minimal POSIX shell that is significantly faster than
-Bash but lacks bash extensions. Scripts that use bash features must use `#!/bin/bash`Not
+Bash but lacks bash extensions. Scripts that use bash features must use `#!/bin/bash`. Not
 `#!/bin/sh`.
 
 ## Command Structure
@@ -96,12 +104,12 @@ The shell performs the following steps before executing a command:
 2. **Alias expansion**: Replace aliases (only in interactive shells, and not for the first word in
    certain contexts).
 3. **Brace expansion**: Expand `{a,b,c}` patterns.
-4. **Tilde expansion**: Replace `~` with `$HOME``~user` with user's home directory.
-5. **Parameter expansion**: Expand `$VAR``${VAR}``${VAR:-default}`Etc.
-6. **Command substitution**: Execute `$(cmd)` or `` `Cmd` `` and replace with stdout.
+4. **Tilde expansion**: Replace `~` with `$HOME`, `~user` with user's home directory.
+5. **Parameter expansion**: Expand `$VAR`, `${VAR}`, `${VAR:-default}`. Etc.
+6. **Command substitution**: Execute `$(cmd)` or `` ``, ``Cmd``, `` `` and replace with stdout.
 7. **Arithmetic expansion**: Evaluate `$((expression))`.
 8. **Word splitting**: Split results on `IFS` (except in contexts where it is suppressed).
-9. **Pathname expansion (globbing)**: Expand `*``?``[...]` patterns.
+9. **Pathname expansion (globbing)**: Expand `*`, `?`, `[...]` patterns.
 10. **Quote removal**: Remove quoting characters that are not part of expansions.
 11. **Redirection**: Set up I/O redirections.
 12. **Command execution**: Execute the command using the resolved path.
@@ -109,7 +117,7 @@ The shell performs the following steps before executing a command:
 
 :::caution
 Means `VAR="*.txt"` followed by `ls $VAR` will expand to `ls *.txt` and then glob-expand. If there
-Are no matching files, the shell behavior depends on the `nullglob` option.
+are no matching files, the shell behavior depends on the `nullglob` option.
 
 ## I/O Redirection
 
@@ -117,14 +125,18 @@ Are no matching files, the shell behavior depends on the `nullglob` option.
 
 Every process in Linux has three standard file descriptors at startup:
 
+<div class="table-wrap">
+
 | FD  | Name   | Default Destination | Description             |
 | --- | ------ | ------------------- | ----------------------- |
 | 0   | stdin  | Keyboard            | Input stream            |
 | 1   | stdout | Terminal            | Normal output           |
 | 2   | stderr | Terminal            | Error/diagnostic output |
 
+</div>
+
 The shell can redirect any file descriptor to a file, another descriptor, a pipe, or a
-Here-document.
+here-document.
 
 ### Basic Redirection Operators
 
@@ -248,6 +260,8 @@ The shell expands glob patterns into matching filenames before passing them to t
 Fundamentally different from regex, globbing operates on filenames in the filesystem, not on
 Arbitrary text.
 
+<div class="table-wrap">
+
 | Pattern  | Meaning                                         | Example     | Matches                     |
 | -------- | ----------------------------------------------- | ----------- | --------------------------- |
 | `*`      | Any sequence of characters (except leading dot) | `*.log`     | `app.log``error.log`        |
@@ -256,6 +270,8 @@ Arbitrary text.
 | `[a-z]`  | One character from the range                    | `[a-m]*`    | `apple``banana``middle`     |
 | `[!abc]` | One character NOT in the set                    | `[!0-9]*`   | `file``name`                |
 | `**`     | Recursive glob (bash 4.0+, `globstar` option)   | `**/*.py`   | All `.py` files recursively |
+
+</div>
 
 ```bash
 # Enable recursive globbing
@@ -281,6 +297,8 @@ The original Unix glob behavior, you must explicitly use `.*` or enable `dotglob
 
 Extended globbing provides pattern matching similar to regex quantifiers:
 
+<div class="table-wrap">
+
 | Pattern                 | Meaning                           | Regex equivalent   |
 | ----------------------- | --------------------------------- | ------------------ |
 | `?(pattern)`            | Match zero or one occurrence      | `pattern?`         |
@@ -288,6 +306,8 @@ Extended globbing provides pattern matching similar to regex quantifiers:
 | `+(pattern)`            | Match one or more occurrences     | `pattern+`         |
 | `@(pattern1\|pattern2)` | Match exactly one of the patterns | `(p1\|p2)`         |
 | `!(pattern)`            | Match anything except the pattern | Negative lookahead |
+
+</div>
 
 ```bash
 shopt -s extglob
@@ -379,7 +399,7 @@ disown -h %1  # prevents SIGHUP on shell exit
 The difference: `nohup` modifies the signal handling of the child process itself, while `disown`
 tells the shell not to send `SIGHUP` when it exits. If the shell crashes (SIGKILL),
 `nohup`-protected processes survive, but `disown`-ed processes may still receive `SIGHUP` depending
-On the terminal driver behavior.
+on the terminal driver behavior.
 
 ## Environment Variables
 
@@ -416,6 +436,8 @@ unset MY_VAR
 
 ### Special Shell Variables
 
+<div class="table-wrap">
+
 | Variable | Meaning                                                    |
 | -------- | ---------------------------------------------------------- |
 | `$?`     | Exit status of the last command (0 = success)              |
@@ -431,6 +453,8 @@ unset MY_VAR
 | `${10}`  | Positional parameter 10+ (must use braces)                 |
 | `IFS`    | Internal Field Separator (default: space, tab, newline)    |
 | `PATH`   | Colon-separated list of directories to search for commands |
+
+</div>
 
 ### Parameter Expansion
 
@@ -484,6 +508,8 @@ echo "${VAR,,}"
 
 ### Common Environment Files
 
+<div class="table-wrap">
+
 | File               | Sourced by                    | Purpose                             |
 | ------------------ | ----------------------------- | ----------------------------------- |
 | `/etc/environment` | PAM                           | System-wide environment variables   |
@@ -494,6 +520,8 @@ echo "${VAR,,}"
 | `~/.bash_profile`  | Login shells (bash)           | Alternative to `.profile`           |
 | `~/.bash_login`    | Login shells (bash, fallback) | Fallback if `.bash_profile` missing |
 | `/etc/profile.d/*` | `/etc/profile`                | Drop-in system scripts              |
+
+</div>
 
 ## Shell Scripting
 
@@ -511,7 +539,7 @@ Direct command (`./script.sh`):
 ```
 
 The `env` form is preferred for languages that may be installed in different locations
-(`/usr/bin/bash``/usr/local/bin/bash``/opt/homebrew/bin/bash`). The kernel only allows one Argument
+(`/usr/bin/bash`, `/usr/local/bin/bash`, `/opt/homebrew/bin/bash`). The kernel only allows one Argument
 on the shebang line, so `#!/usr/bin/bash -e` works but `#!/usr/bin/env bash -e` does not, `bash -e`
 is treated as a single argument to `env`.
 
@@ -519,11 +547,15 @@ is treated as a single argument to `env`.
 
 Quoting controls word splitting and globbing. The rules are:
 
+<div class="table-wrap">
+
 | Quote Type  | Expansions Performed                                  |
 | ----------- | ----------------------------------------------------- |
 | No quotes   | All expansions, word splitting, globbing              |
 | Double `""` | Parameter expansion, command substitution, arithmetic |
 | Single `''` | None, literal string                                 |
+
+</div>
 
 ```bash
 VAR="hello world"
@@ -799,7 +831,7 @@ done < file.txt
 ### Pitfall: `#!/bin/sh` with Bash Features
 
 Scripts using `[[`Arrays, `(( ))`Or `local` must use `#!/bin/bash`. On Debian/Ubuntu, `/bin/sh` Is
-`dash`Which does not support these. The script will fail with syntax errors that are hard to
+`dash`. Which does not support these. The script will fail with syntax errors that are hard to
 Diagnose because the error messages come from dash, not bash.
 
 ### Pitfall: Unquoted Variable Expansion in `[ ]`
@@ -849,7 +881,7 @@ printf '%-20s %5d\n' "filename" 42
 printf 'Error: %s (code %d)\n' "$msg" "$code"
 ```
 
-`printf` interprets C-style format specifiers (`%s``%d``%f``%x``%o`) and is the recommended Way to
+`printf` interprets C-style format specifiers (`%s`, `%d`, `%f`, `%x`, `%o`) and is the recommended Way to
 produce formatted output in shell scripts.
 
 ## Summary
@@ -865,17 +897,11 @@ implementation, and key applications.
 - rebasing and cherry-picking
 - Git workflows (GitFlow, trunk-based)
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 The shell is like a translator between you and the operating system -- you speak human (commands), the kernel speaks machine (syscalls), and the shell bridges the gap. Bash is the most common translator, but zsh and dash are alternatives with different strengths. The shell's prompt (PS1) is like a conversation indicator -- it tells you who you are, where you are, and what the shell is ready to do. Environment variables are like the shell's memory -- they store settings (PATH, HOME) that affect how commands run. Understanding the shell means understanding how Linux works at the most fundamental level.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

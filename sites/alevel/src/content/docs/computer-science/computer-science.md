@@ -23,10 +23,12 @@ categories:
 ## A Level Computer Science, Course Overview
 
 A Level Computer Science sits at the intersection of mathematics, engineering, and philosophy. It
-Teaches you to think precisely about computation, what can be computed, how efficiently, and how to
-Design systems that are correct, robust, and maintainable.
+teaches you to think precisely about computation, what can be computed, how efficiently, and how to
+design systems that are correct, robust, and maintainable.
 
 ### Board Coverage
+
+<div class="table-wrap">
 
 | Topic                                      | AQA     | Edexcel | OCR (A) | CIE (9618) |
 | ------------------------------------------ | ------- | ------- | ------- | ---------- |
@@ -42,6 +44,8 @@ Design systems that are correct, robust, and maintainable.
 | Theory of Computation                      | Paper 1 | P1      | Paper 1 | Paper 1    |
 | Databases                                  | Paper 1 | P1      | Paper 2 | Paper 1    |
 | Web Technologies                           |,       | P1      |,       |,          |
+
+</div>
 
 ### Course Structure
 
@@ -59,12 +63,16 @@ Design systems that are correct, robust, and maintainable.
 
 ### Assessment
 
+<div class="table-wrap">
+
 | Board   | Components                                                                         | Weighting |
 | ------- | ---------------------------------------------------------------------------------- | --------- |
 | AQA     | Paper 1 (Theory 40%), Paper 2 (Programming 40%), NEA Project (20%)                 | As shown  |
 | Edexcel | P1 (Theory), P2 (Programming), NEA Project                                         | Varies    |
 | OCR (A) | Paper 1 (40%), Paper 2 (40%), NEA Project (20%)                                    | As shown  |
 | CIE     | Paper 1 (Theory), Paper 2 (Fundamentals), Paper 3 (Programming), Pre-release (20%) | Varies    |
+
+</div>
 
 > All boards include a non-examined assessment (NEA) programming project, worth 20% of the A Level.
 
@@ -96,12 +104,16 @@ When finished, attempt the.
 
 ### Key Exam Board Differences
 
+<div class="table-wrap">
+
 | Aspect            | AQA                      | OCR (A)                | CIE (9618)                         |
 | ----------------- | ------------------------ | ---------------------- | ---------------------------------- |
 | NEA Language      | Any                      | Any (Python common)    | Python / Java / VB                 |
 | Paper 2 Focus     | Problem solving + coding | Computational thinking | Advanced programming + pre-release |
 | Marks for Working | Method marks available   | Show your reasoning    | Marks for structured answers       |
 | Calculators       | Not permitted            | Not permitted          | Permitted in Paper 3               |
+
+</div>
 
 ### Study Strategy
 
@@ -116,6 +128,8 @@ When finished, attempt the.
 
 ### Key Formulae
 
+<div class="table-wrap">
+
 | Topic          | Formula / Definition                             |
 | -------------- | ------------------------------------------------ |
 | Big-O (sorts)  | Merge sort: $O(n \log n)$; Bubble sort: $O(n^2)$ |
@@ -123,6 +137,8 @@ When finished, attempt the.
 | Truth table    | $A \oplus B = A\bar{B} + \bar{A}B$               |
 | Huffman coding | Weighted path length $= \sum f_i \times d_i$     |
 | Hashing        | Load factor $= n/k$ (items/buckets)              |
+
+</div>
 
 ### Recommended Reading
 
@@ -134,27 +150,9 @@ When finished, attempt the.
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-
-```mermaid
-flowchart TD
-    A[Computer Science] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -162,23 +160,3 @@ linked above.
 - **[Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/):** Logic gates underpin digital circuits
 - **[Programming](/computer-science/programming/01-programming-constructs/):** Programming translates algorithms into code
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

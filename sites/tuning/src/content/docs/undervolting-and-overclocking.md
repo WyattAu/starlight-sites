@@ -77,7 +77,7 @@ Voltage supplied, and hence reducing cooling required.
 ## Voltage Basics
 
 Understanding voltage is foundational to all tuning. This section covers the key concepts that apply
-To both undervolting and overclocking.
+to both undervolting and overclocking.
 
 ### Vcore and VID
 
@@ -89,17 +89,17 @@ CPU requests from the Integrated Voltage Regulator (IVR). These two values are n
 - The delta between VID and Vcore is affected by LLC (Load-Line Calibration) settings.
 
 When you set a voltage offset of -75 mV, you are telling the VRM to deliver 75 mV less than the VID
-The CPU requests. The actual Vcore will be even lower due to Vdroop.
+the CPU requests. The actual Vcore will be even lower due to Vdroop.
 
 ### Vdroop
 
 Vdroop is an intentional design feature of CPU voltage regulators. When the CPU load suddenly drops
 (for example, a compute thread finishes), the inductance in the VRM circuit would cause the voltage
-To overshoot if there were no droop. This overshoot can damage silicon. Vdroop provides a margin so
-That the worst-case overshoot stays within safe limits.
+to overshoot if there were no droop. This overshoot can damage silicon. Vdroop provides a margin so
+that the worst-case overshoot stays within safe limits.
 
 The relationship is simple: higher load → more Vdroop → lower actual voltage. This is why your CPU
-May be stable at 1.25 V under light load but crash under heavy load even though the VID has not
+may be stable at 1.25 V under light load but crash under heavy load even though the VID has not
 Changed.
 
 ### Load-Line Calibration (LLC)
@@ -107,12 +107,16 @@ Changed.
 LLC counteracts Vdroop by making the VRM more aggressive in maintaining the target voltage under
 Load. LLC is configured on a scale (e.g., Level 1–7, or Auto/Medium/High/Extreme).
 
+<div class="table-wrap">
+
 | LLC Level       | Behavior                                                | Use Case                                |
 | --------------- | ------------------------------------------------------- | --------------------------------------- |
 | Low (1–2)       | Heavy Vdroop, large delta between idle and load voltage | Stock operation, maximum safety         |
 | Medium (3–5)    | Moderate Vdroop, reasonable compensation                | Moderate overclocking, daily use        |
 | High (6–7)      | Minimal Vdroop, voltage nearly flat across loads        | Aggressive overclocking                 |
 | Extreme / Ultra | Negative Vdroop (voltage increases under load)          | **Not recommended**, risk of overshoot |
+
+</div>
 
 **Warning:** Setting LLC too high eliminates the safety margin that Vdroop provides. On load
 Transitions (load → idle), the voltage can overshoot the VID by a significant margin. This is
@@ -123,6 +127,8 @@ Level 4 or 5 provides a good balance.
 
 Exceeding these limits can cause electromigration and permanent silicon degradation:
 
+<div class="table-wrap">
+
 | Platform                             | Maximum Safe Vcore | Notes                                                |
 | ------------------------------------ | ------------------ | ---------------------------------------------------- |
 | Intel 12th Gen (Alder Lake)          | 1.40 V             | Long-term degradation above 1.35 V                   |
@@ -132,9 +138,11 @@ Exceeding these limits can cause electromigration and permanent silicon degradat
 | AMD Zen 4 (Ryzen 7000)               | 1.30 V             | DDR5 memory controller is voltage-sensitive          |
 | AMD Zen 5 (Ryzen 9000)               | 1.30 V             | Similar to Zen 4                                     |
 
+</div>
+
 These are conservative long-term limits. Short bursts above these values (transient spikes) are
-Normal and handled by the CPU"s internal protections. The concern is sustained voltage at or above
-These thresholds under load.
+Normal and handled by the CPU's internal protections. The concern is sustained voltage at or above
+these thresholds under load.
 
 ---
 
@@ -191,7 +199,7 @@ Voltage domains. ThrottleStop allows you to set independent offsets for each:
 
 Intel XTU provides similar functionality with a more polished GUI but is less reliable on laptops.
 It is better suited for desktop platforms. The same offset approach applies: start at -50 mV, reduce
-In 10 mV steps, stress test after each change.
+in 10 mV steps, stress test after each change.
 
 ### Intel Undervolting Lock (12th Gen+)
 
@@ -254,11 +262,15 @@ This is time-consuming but can yield better results than a uniform all-core offs
 
 AMD's power limits control how much power the CPU is allowed to draw:
 
+<div class="table-wrap">
+
 | Limit | Full Name                 | Description                  |
 | ----- | ------------------------- | ---------------------------- |
 | PPT   | Package Power Tracking    | Total socket power in watts  |
 | TDC   | Thermal Design Current    | Sustained current limit (A)  |
 | EDC   | Electrical Design Current | Peak/turbo current limit (A) |
+
+</div>
 
 For undervolting, you do not need to change these. However, if you are trying to reduce Thermals on
 a laptop or SFF build, lowering the PPT can force the CPU to boost less aggressively, Which reduces
@@ -296,7 +308,7 @@ The recommended approach is to undervolt first, then enable PBO.
 ## CPU Overclocking
 
 CPU overclocking increases the clock speed beyond the manufacturer's rated specifications. This can
-Be done by adjusting the base clock (BCLK), multiplier, or both.
+be done by adjusting the base clock (BCLK), multiplier, or both.
 
 ### Base Clock (BCLK) vs. Multiplier
 
@@ -411,7 +423,7 @@ BIOS applies the manufacturer's tested settings.
 
 **Important:** XMP/EXPO profiles are certified by the RAM manufacturer for use with a single module.
 Running two or four modules at XMP speeds is not guaranteed to be stable, as the memory controller
-Must work harder to drive multiple modules. If you experience instability with multiple modules,
+must work harder to drive multiple modules. If you experience instability with multiple modules,
 Try:
 
 - Reducing the frequency by one step (e.g., from 6000 MT/s to 5600 MT/s)
@@ -423,6 +435,8 @@ Try:
 Memory timings are specified as a series of numbers (e.g., 16-18-18-38). These represent delays
 Measured in clock cycles:
 
+<div class="table-wrap">
+
 | Timing   | Name                | Description                                                 |
 | -------- | ------------------- | ----------------------------------------------------------- |
 | CL / tCL | CAS Latency         | Delay between a read command and data availability          |
@@ -430,8 +444,10 @@ Measured in clock cycles:
 | tRP      | RAS Precharge       | Delay between precharging one row and activating another    |
 | tRAS     | Active to Precharge | Minimum time a row must remain active before precharging    |
 
+</div>
+
 Lower numbers = better performance. Tightening timings is more difficult than increasing frequency
-But can yield similar or better performance gains in latency-sensitive workloads.
+but can yield similar or better performance gains in latency-sensitive workloads.
 
 ### Secondary and Tertiary Timings
 
@@ -524,6 +540,8 @@ OCCT is particularly good at catching instability that Prime95 misses:
 
 ### Interpreting Results
 
+<div class="table-wrap">
+
 | Symptom                               | Likely Cause                             | Fix                                       |
 | ------------------------------------- | ---------------------------------------- | ----------------------------------------- |
 | Immediate crash or BSOD on test start | Voltage too low or settings incompatible | Increase voltage or revert changes        |
@@ -531,6 +549,8 @@ OCCT is particularly good at catching instability that Prime95 misses:
 | Crash after 1–4 hours                 | Thermal throttling or VRM issues         | Check temperatures, improve cooling       |
 | WHEA errors with no crash             | Silent instability, data corruption risk | Increase voltage by 10 mV, retest         |
 | Crash only when idle                  | C-state instability                      | Increase offset voltage, disable C-states |
+
+</div>
 
 ---
 
@@ -610,7 +630,7 @@ Thoroughly with your own hardware.
 ### Chasing the Last Megahertz
 
 Diminishing returns are severe near the limit. Going from 5.0 GHz to 5.1 GHz might require 0.05 V
-More voltage and increase temperatures by 5 °C, for a 1–2% performance gain. Going from 4.8 GHz to
+more voltage and increase temperatures by 5 °C, for a 1–2% performance gain. Going from 4.8 GHz to
 5.0 GHz might cost 0.02 V and yield a 3–5% gain. Focus on the low-hanging fruit: undervolting for
 Sustained boost, enabling XMP/EXPO, and ensuring adequate cooling.
 
@@ -619,14 +639,14 @@ Sustained boost, enabling XMP/EXPO, and ensuring adequate cooling.
 WHEA errors are not harmless. They indicate that the CPU detected and corrected bit flips. While the
 CPU can correct single-bit errors, multi-bit errors cause uncorrectable machine check exceptions
 (UCMCE), which result in BSODs. More importantly, silent data corruption can occur before the error
-Is detected. If HWiNFO64 reports any WHEA errors during stress testing, your settings are not
+is detected. If HWiNFO64 reports any WHEA errors during stress testing, your settings are not
 Stable.
 
 ### Testing Only Under Load
 
 Some instability manifests only during load transitions (load → idle, idle → load). This is
 Particularly common with aggressive LLC settings and fixed voltage modes. Always test idle stability
-After confirming load stability.
+after confirming load stability.
 
 ### Not Saving BIOS Profiles
 
@@ -637,13 +657,13 @@ Restore to a known-good state without having to clear CMOS and reconfigure every
 
 Motherboard manufacturers frequently release BIOS updates that change power delivery behavior, add
 New tuning options, or fix stability issues. An overclock that was stable on BIOS version 1.20 may
-Be unstable on 1.30. After any BIOS update, re-test your tuning settings.
+be unstable on 1.30. After any BIOS update, re-test your tuning settings.
 
 ### Overlooking Power Supply Limits
 
 Your PSU must be able to deliver the power your components demand. An overclocked CPU and GPU can
 Draw significantly more power than stock. If your PSU is operating near its capacity, voltage ripple
-Can increase, which causes instability that is not related to your CPU or GPU settings.
+can increase, which causes instability that is not related to your CPU or GPU settings.
 
 ### Mixing RAM Kits
 
@@ -727,17 +747,6 @@ System when:
 The best tune is the one that gives you the performance you need with comfortable temperatures, low
 Noise, and rock-solid stability. Everything beyond that is diminishing returns.
 
-
-```mermaid
-flowchart TD
-    A[Undervolting And Overclocking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to undervolting and overclocking,
@@ -751,13 +760,7 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

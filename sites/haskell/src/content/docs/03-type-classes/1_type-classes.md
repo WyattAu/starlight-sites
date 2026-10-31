@@ -58,7 +58,7 @@ data Color = Red | Green | Blue
 ```
 
 The `deriving` clause works by generating boilerplate code at compile time. It is available for
-these standard type classes: `Eq``Ord``Enum``Bounded``Show``Read`.
+these standard type classes: `Eq`, `Ord`, `Enum`, `Bounded`, `Show`, `Read`.
 
 ## Show and Read
 
@@ -653,7 +653,9 @@ intercalate ", " ["a", "b", "c"]  -- => "a, b, c"
 
 The relationship between these three type classes is:
 
-$$\text{Functor} \subset \text{Applicative} \subset \text{Monad}$$
+$$
+\text{Functor} \subset \text{Applicative} \subset \text{Monad}
+$$
 
 Every `Monad` is an `Applicative`and every `Applicative` is a `Functor`. However, there are useful
 types that are `Functor` or `Applicative` but not `Monad`:
@@ -704,16 +706,6 @@ class Hashable a where
   hashWithSalt :: Int -> a -> Int
   hashWithSalt salt x = salt `combine` hash x
   -- Minimal complete definition: hash
-```
-
-```mermaid
-flowchart TD
-    A[1_Type Classes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition

@@ -26,6 +26,8 @@ categories:
 
 The most common elements in living organisms:
 
+<div class="table-wrap">
+
 | Element    | Symbol | Role                                  |
 | ---------- | ------ | ------------------------------------- |
 | Carbon     | C      | Backbone of organic molecules         |
@@ -35,12 +37,14 @@ The most common elements in living organisms:
 | Phosphorus | P      | ATP, nucleic acids, phospholipids     |
 | Sulfur     | S      | Amino acids (cysteine, methionine)    |
 
+</div>
+
 Trace elements (required in small amounts): Fe, Cu, Zn, Mn, I, Mo.
 
 **Worked Example: Why specific trace elements matter.** Iron (Fe) is a component of haemoglobin, the
 Oxygen-carrying protein in red blood cells. Without iron, haemoglobin cannot be synthesised, leading
-To iron-deficiency anaemia. Iodine (I) is required for the synthesis of thyroxine, a hormone that
-Regulates metabolism. Iodine deficiency causes goitre (enlarged thyroid gland).
+to iron-deficiency anaemia. Iodine (I) is required for the synthesis of thyroxine, a hormone that
+regulates metabolism. Iodine deficiency causes goitre (enlarged thyroid gland).
 
 ### Bonding in Biological Molecules
 
@@ -52,12 +56,16 @@ Regulates metabolism. Iodine deficiency causes goitre (enlarged thyroid gland).
 
 **Comparison of bond strengths in biological systems:**
 
+<div class="table-wrap">
+
 | Bond Type     | Strength (kJ/mol) | Biological Role                                      |
 | ------------- | ----------------- | ---------------------------------------------------- |
 | Covalent      | 200--500          | Backbone of organic molecules                        |
 | Ionic         | 100--400          | Salt bridges in proteins, bone mineral structure     |
 | Hydrogen      | 5--40             | DNA base pairing, protein secondary structure, water |
 | Van der Waals | 0.5--5            | Protein folding, lipid interactions                  |
+
+</div>
 
 ### Water (CED Unit 1)
 
@@ -89,11 +97,15 @@ $$
 \mathrm{pH = -\log[\mathrm{H^+]
 $$
 
+<div class="table-wrap">
+
 | pH      | Classification |
 | ------- | -------------- |
 | $\lt 7$ | Acidic         |
 | $7$     | Neutral        |
 | $\gt 7$ | Basic          |
+
+</div>
 
 **Buffers** resist pH changes. The carbonic acid/bicarbonate buffer system in blood:
 
@@ -107,7 +119,9 @@ When $[\mathrm{H^+]$ increases, the equilibrium shifts left, consuming excess $\
 
 A solution has $[\mathrm{H^+] = 1 \times 10^{-4}$ M.
 
-$$\mathrm{pH = -\log(1 \times 10^{-4}) = 4$$
+$$
+\mathrm{pH = -\log(1 \times 10^{-4}) = 4
+$$
 
 If the solution is diluted by a factor of 10, $[\mathrm{H^+] = 1 \times 10^{-5}$ M, and
 $\mathrm{pH = 5$.
@@ -117,11 +131,13 @@ A one-unit increase in pH represents a tenfold decrease in $[\mathrm{H^+]$.
 **Worked Example: Buffer action.**
 
 During vigorous exercise, lactic acid is produced, releasing $\mathrm{H^+$ into the blood. Without
-The buffer system, blood pH would drop dangerously.
+the buffer system, blood pH would drop dangerously.
 
 The bicarbonate buffer system responds:
 
-$$\mathrm{H^+ + \mathrm{HCO_3^- \to \mathrm{H_2\mathrm{CO_3 \to \mathrm{H_2\mathrm{O + \mathrm{CO_2$$
+$$
+\mathrm{H^+ + \mathrm{HCO_3^- \to \mathrm{H_2\mathrm{CO_3 \to \mathrm{H_2\mathrm{O + \mathrm{CO_2
+$$
 
 The excess $\mathrm{H^+$ is consumed by reacting with $\mathrm{HCO_3^-$. The resulting
 $\mathrm{CO_2$ is removed by increased breathing rate. Blood pH is maintained close to 7.4.
@@ -137,11 +153,15 @@ $\mathrm{CO_2$ is removed by increased breathing rate. Blood pH is maintained cl
 **Polymerization:** Dehydration synthesis (condensation) forms glycosidic bonds. Hydrolysis breaks
 Them.
 
+<div class="table-wrap">
+
 | Type           | Structure            | Function                           | Examples                    |
 | -------------- | -------------------- | ---------------------------------- | --------------------------- |
 | Monosaccharide | Single sugar ring    | Energy source, building block      | Glucose, fructose           |
 | Disaccharide   | Two monosaccharides  | Energy source                      | Sucrose, lactose, maltose   |
 | Polysaccharide | Long chain of sugars | Energy storage, structural support | Starch, glycogen, cellulose |
+
+</div>
 
 **Key polysaccharides:**
 
@@ -156,19 +176,21 @@ Them.
 **Worked Example: Alpha vs. Beta linkages.**
 
 In starch, glucose monomers are joined by $\alpha$-1,4-glycosidic bonds. The glucose rings are in
-The $\alpha$ configuration (OH group below the ring at C1). This produces a helical structure that
-Can be coiled, making starch compact for storage. Human amylase can hydrolyse $\alpha$-glycosidic
+the $\alpha$ configuration (OH group below the ring at C1). This produces a helical structure that
+can be coiled, making starch compact for storage. Human amylase can hydrolyse $\alpha$-glycosidic
 Bonds, so starch is digestible.
 
 In cellulose, glucose monomers are joined by $\beta$-1,4-glycosidic bonds. The glucose rings are in
-The $\beta$ configuration (OH group above the ring at C1). Every other glucose is flipped 180
+the $\beta$ configuration (OH group above the ring at C1). Every other glucose is flipped 180
 Degrees, producing straight chains that form hydrogen bonds with neighbouring chains, creating
 Strong, rigid fibres. Human amylase cannot hydrolyse $\beta$-glycosidic bonds, so cellulose is
-Indigestible by humans.
+indigestible by humans.
 
 ### Lipids
 
 Lipids are **not** true polymers but are hydrophobic organic molecules.
+
+<div class="table-wrap">
 
 | Type          | Structure                            | Function                   |
 | ------------- | ------------------------------------ | -------------------------- |
@@ -176,6 +198,8 @@ Lipids are **not** true polymers but are hydrophobic organic molecules.
 | Phospholipids | Glycerol + 2 fatty acids + phosphate | Cell membrane structure    |
 | Steroids      | Four fused rings                     | Hormones, cholesterol      |
 | Waxes         | Long-chain alcohol + fatty acid      | Waterproof coatings        |
+
+</div>
 
 **Saturated vs unsaturated fatty acids:**
 
@@ -190,10 +214,12 @@ The bilayer of cell membranes.
 **Worked Example: Structure of a triglyceride.**
 
 A triglyceride consists of one glycerol molecule (a 3-carbon alcohol with three OH groups) joined to
-Three fatty acid molecules (long hydrocarbon chains with a carboxyl group at one end) by three ester
+three fatty acid molecules (long hydrocarbon chains with a carboxyl group at one end) by three ester
 Bonds. Each ester bond is formed by a condensation reaction, releasing one water molecule.
 
-$$\mathrm{Glycerol + 3 \mathrm{ Fatty acids \to \mathrm{Triglyceride + 3 \mathrm{ H_2\mathrm{O$$
+$$
+\mathrm{Glycerol + 3 \mathrm{ Fatty acids \to \mathrm{Triglyceride + 3 \mathrm{ H_2\mathrm{O
+$$
 
 The long hydrocarbon tails are hydrophobic, making triglycerides insoluble in water. This makes them
 Ideal for energy storage because they do not affect the water potential of cells.
@@ -233,7 +259,7 @@ Disulfide bridges (also called disulfide bonds) form between the sulfur atoms of
 Residues. These are covalent bonds, which are much stronger than hydrogen bonds or ionic
 Interactions. In proteins like antibodies, disulfide bridges hold the polypeptide chains together,
 Maintaining the Y-shaped structure even under stress. Reducing agents that break disulfide bridges
-Can cause the protein to unfold.
+can cause the protein to unfold.
 
 ### Nucleic Acids
 
@@ -307,7 +333,9 @@ $$
 
 An enzyme has the following rates at different substrate concentrations:
 
-| [S] ($\mu$M) | v ($\mu$Mol/min) |
+<div class="table-wrap">
+
+| [S] ($\mu$ M) | v ($\mu$ Mol/min) |
 | ------------ | ---------------- |
 | 2            | 5.0              |
 | 5            | 10.0             |
@@ -316,14 +344,18 @@ An enzyme has the following rates at different substrate concentrations:
 | 50           | 18.9             |
 | 100          | 19.6             |
 
-At very high [S], $v$ approaches $V_{\max} \approx 20$ $\mu$Mol/min.
+</div>
 
-At $v = V_{\max}/2 = 10$[S] = 5 $\mu$M, so $K_m = 5$ $\mu$M.
+At very high [S], $v$ approaches $V_{\max} \approx 20$ $\mu$ Mol/min.
 
-This means the enzyme reaches half its maximum rate when the substrate concentration is 5 $\mu$M. A
-Lower $K_m$ would indicate a higher affinity between enzyme and substrate.
+At $v = V_{\max}/2 = 10$[S] = 5 $\mu$ M, so $K_m = 5$ $\mu$ M.
+
+This means the enzyme reaches half its maximum rate when the substrate concentration is 5 $\mu$ M. A
+lower $K_m$ would indicate a higher affinity between enzyme and substrate.
 
 ### Enzyme Inhibition
+
+<div class="table-wrap">
 
 | Type           | Binding Site         | Reversibility | Effect on $K_m$ | Effect on $V_{\max}$ |
 | -------------- | -------------------- | ------------- | --------------- | -------------------- |
@@ -332,15 +364,17 @@ Lower $K_m$ would indicate a higher affinity between enzyme and substrate.
 | Uncompetitive  | ES complex only      | Reversible    | Decreases       | Decreases            |
 | Irreversible   | Active or allosteric | Irreversible  | --              | Decreases            |
 
+</div>
+
 **Worked Example: Why competitive inhibition increases $K_m$ but not $V_{\max}$.**
 
 A competitive inhibitor binds to the active site, competing directly with the substrate. At low
 Substrate concentration, the inhibitor effectively blocks many active sites, reducing the reaction
-Rate. To achieve half $V_{\max}$A higher substrate concentration is needed (to outcompete the
-Inhibitor), so the apparent $K_m$ increases.
+Rate. To achieve half $V_{\max}$ A higher substrate concentration is needed (to outcompete the
+inhibitor), so the apparent $K_m$ increases.
 
 However, at very high substrate concentrations, the substrate outcompetes the inhibitor for all
-Active sites, and the enzyme reaches the same $V_{\max}$ as without the inhibitor. Therefore,
+active sites, and the enzyme reaches the same $V_{\max}$ as without the inhibitor. Therefore,
 $V_{\max}$ is unchanged.
 
 A noncompetitive inhibitor binds to an allosteric site (not the active site), changing the enzyme's
@@ -356,10 +390,14 @@ $$
 \Delta G = \Delta H - T\Delta S
 $$
 
+<div class="table-wrap">
+
 | Type       | $\Delta G$ | Description                           |
 | ---------- | ---------- | ------------------------------------- |
 | Exergonic  | $\lt 0$    | Spontaneous, releases energy          |
 | Endergonic | $\gt 0$    | Nonspontaneous, requires energy input |
+
+</div>
 
 ### ATP: The Energy Currency
 
@@ -384,10 +422,12 @@ $$
 The phosphorylation of glucose to glucose-6-phosphate has $\Delta G \approx +13.8$ kJ/mol
 (endergonic). ATP hydrolysis has $\Delta G \approx -30.5$ kJ/mol (exergonic). When coupled:
 
-$$\Delta G_{\mathrm{overall} = +13.8 + (-30.5) = -16.7 \mathrm{ kJ/mol$$
+$$
+\Delta G_{\mathrm{overall} = +13.8 + (-30.5) = -16.7 \mathrm{ kJ/mol
+$$
 
 The overall reaction is now exergonic (spontaneous), so the cell can phosphorylate glucose using the
-Energy from ATP hydrolysis.
+energy from ATP hydrolysis.
 
 ## Common Pitfalls
 
@@ -407,8 +447,8 @@ Energy from ATP hydrolysis.
    one ring. "Pure As Gold" for purines.
 9. **Forgetting that denaturation only affects secondary, tertiary, and quaternary structure.** The
    primary structure (amino acid sequence) is not changed by denaturation.
-10. **Confusing exergonic and endergonic.** Exergonic: $\Delta G \lt 0$Releases energy. Endergonic:
-    $\Delta G \gt 0$Requires energy.
+10. **Confusing exergonic and endergonic.** Exergonic: $\Delta G \lt 0$ Releases energy. Endergonic:
+    $\Delta G \gt 0$ Requires energy.
 
 ## Practice Questions
 
@@ -422,7 +462,7 @@ Energy from ATP hydrolysis.
 
 4. Describe the four levels of protein structure and the types of bonds that stabilize each level.
 
-5. Explain why a competitive inhibitor increases $K_m$ but does not change $V_{\max}$While a
+5. Explain why a competitive inhibitor increases $K_m$ but does not change $V_{\max}$ While a
    noncompetitive inhibitor decreases $V_{\max}$ but does not change $K_m$.
 
 6. Compare DNA and RNA in terms of structure, bases, sugar, and function.
@@ -470,6 +510,8 @@ Energy from ATP hydrolysis.
 Several biochemical tests are used to identify the presence of specific macromolecules in samples.
 These are commonly tested on the AP exam.
 
+<div class="table-wrap">
+
 | Test            | Reagent             | Positive Result                     | Macromolecule Detected |
 | --------------- | ------------------- | ----------------------------------- | ---------------------- |
 | Benedict's test | Benedict's solution | Brick-red precipitate (when heated) | Reducing sugars        |
@@ -477,6 +519,8 @@ These are commonly tested on the AP exam.
 | Biuret test     | Biuret reagent      | Violet/purple colour                | Protein                |
 | Emulsion test   | Ethanol             | Cloudy white emulsion layer         | Lipids                 |
 | Sudan III test  | Sudan III stain     | Red-stained oil layer               | Lipids                 |
+
+</div>
 
 **Worked Example: Designing an identification experiment.**
 
@@ -495,9 +539,9 @@ Solution Y produces a blue colour (no change).
 
 **Interpretation:** Solution X contains a reducing sugar (e.g., glucose, maltose, or fructose). The
 Brick-red precipitate is copper(I) oxide, formed when copper(II) ions in Benedict's solution are
-Reduced by the sugar. Solution Y does not contain reducing sugars (it may contain a non-reducing
+reduced by the sugar. Solution Y does not contain reducing sugars (it may contain a non-reducing
 Sugar such as sucrose, or no sugar at all). To test for non-reducing sugars, the sample would first
-Be hydrolysed with dilute acid, neutralised, and then tested with Benedict's solution.
+be hydrolysed with dilute acid, neutralised, and then tested with Benedict's solution.
 
 ## Review: Levels of Structural Organisation in Proteins
 
@@ -507,27 +551,27 @@ Disruption of each level affects function.
 **Primary structure:** The specific sequence of amino acids, determined by the nucleotide sequence
 Of the gene. Even a single amino acid substitution (point mutation) can alter protein function.
 Example: sickle cell disease results from a single substitution of glutamic acid with valine at
-Position 6 of the beta-globin chain.
+position 6 of the beta-globin chain.
 
 **Secondary structure:** Local folding into $\alpha$-helices and $\beta$-pleated sheets, stabilised
 By hydrogen bonds between the backbone amino and carboxyl groups (not the R groups). These
-Structures are common in fibrous proteins (e.g., keratin in hair contains many $\alpha$-helices).
+structures are common in fibrous proteins (e.g., keratin in hair contains many $\alpha$-helices).
 
 **Tertiary structure:** The overall three-dimensional shape of a single polypeptide, stabilised by
 Interactions between R groups: hydrogen bonds, ionic bonds (salt bridges), hydrophobic interactions
 (nonpolar R groups cluster in the interior away from water), and disulfide bridges (covalent bonds
-Between cysteine residues). The tertiary structure determines the protein's function.
+between cysteine residues). The tertiary structure determines the protein's function.
 
 **Quaternary structure:** The assembly of two or more polypeptide subunits into a functional
 Protein. Example: haemoglobin has four subunits (two alpha and two beta chains). Each subunit has
-Its own tertiary structure, and the subunits interact to form the quaternary structure.
+its own tertiary structure, and the subunits interact to form the quaternary structure.
 
 **Worked Example: Effect of pH on protein structure.**
 
 Pepsin (a digestive enzyme in the stomach) has an optimum pH of approximately 2. If pepsin is placed
-In a neutral solution (pH 7), its activity decreases dramatically. This is because the change in pH
+in a neutral solution (pH 7), its activity decreases dramatically. This is because the change in pH
 Alters the ionisation of amino acid side chains (R groups). Ionic bonds and hydrogen bonds that
-Depend on specific charges are disrupted, causing the protein to unfold (denature). The active site
+depend on specific charges are disrupted, causing the protein to unfold (denature). The active site
 Loses its specific shape, and the enzyme can no longer bind its substrate.
 
 ## Review: Properties of Carbon
@@ -551,7 +595,7 @@ The ability of carbon to form four bonds allows the construction of an enormous 
 Molecules. For example, a chain of just 20 carbon atoms can be arranged in over 300,000 different
 Structural isomers. This diversity is the foundation of the complexity of biological molecules
 (proteins, nucleic acids, carbohydrates, and lipids), each with specific structures that determine
-Their functions.
+their functions.
 
 ## Review: Nucleic Acid Structure and Replication
 
@@ -578,7 +622,7 @@ confirming the semiconservative model.
 **Phospholipid structure:** Each phospholipid molecule has a hydrophilic (water-loving) phosphate
 Head and two hydrophobic (water-fearing) fatty acid tails. In aqueous solution, phospholipids
 Spontaneously form bilayers, with the hydrophilic heads facing outward towards water and the
-Hydrophobic tails facing inward, away from water. This self-assembly is driven by the hydrophobic
+hydrophobic tails facing inward, away from water. This self-assembly is driven by the hydrophobic
 Effect.
 
 **Saturated vs unsaturated fatty acids:**
@@ -602,8 +646,8 @@ Interior of the phospholipid bilayer. It acts as a fluidity buffer:
 **Worked Example: Why phospholipids form bilayers but not micelles in cell membranes.**
 
 Phospholipids with two fatty acid tails (as found in cell membranes) are cylindrical in shape. These
-Cylindrical molecules pack together most efficiently in a bilayer arrangement. Phospholipids with
-One fatty acid tail (lysophospholipids) are cone-shaped and form micelles (small spherical
+cylindrical molecules pack together most efficiently in a bilayer arrangement. Phospholipids with
+one fatty acid tail (lysophospholipids) are cone-shaped and form micelles (small spherical
 Structures) instead. The bilayer arrangement creates a stable, flexible membrane with two distinct
 Layers, which is essential for the function of cell membranes.
 
@@ -619,30 +663,34 @@ $\alpha$-glucose forms starch (digestible) and glycogen, while $\beta$-glucose f
 
 **Disaccharides:** Formed by condensation reactions between two monosaccharides:
 
+<div class="table-wrap">
+
 | Disaccharide | Component monosaccharides | Bond type    | Found in          |
 | ------------ | ------------------------- | ------------ | ----------------- |
 | Maltose      | Glucose + glucose         | $\alpha$-1,4 | Germinating seeds |
 | Sucrose      | Glucose + fructose        | $\alpha$-1,2 | Sugar cane, beet  |
 | Lactose      | Galactose + glucose       | $\beta$-1,4  | Milk              |
 
+</div>
+
 **Why lactose intolerance occurs:** Lactase, the enzyme that hydrolyses lactose into glucose and
 Galactose, is produced in the small intestine of infants. In many populations, lactase production
 Decreases after weaning. Without lactase, lactose passes undigested into the large intestine, where
-Bacteria ferment it, producing gas and causing bloating, cramps, and diarrhoea. This condition is
-Called lactose intolerance and is particularly common in East Asian, African, and Native American
+bacteria ferment it, producing gas and causing bloating, cramps, and diarrhoea. This condition is
+called lactose intolerance and is particularly common in East Asian, African, and Native American
 Populations.
 
 **Worked Example: Benedict's test for reducing and non-reducing sugars.**
 
 A student tests two solutions with Benedict's reagent. Solution A produces a brick-red precipitate
-When heated. Solution B shows no change. The student then boils Solution B with dilute hydrochloric
+when heated. Solution B shows no change. The student then boils Solution B with dilute hydrochloric
 Acid, neutralises it, and tests again with Benedict's reagent. This time, Solution B produces a
-Brick-red precipitate.
+brick-red precipitate.
 
 **Explanation:** Solution A contains a reducing sugar (e.g., glucose, maltose) that can directly
 Reduce copper(II) ions in Benedict's reagent to copper(I) oxide. Solution B contains a non-reducing
 Sugar (e.g., sucrose). Sucrose must first be hydrolysed into its component monosaccharides (glucose
-And fructose) by acid hydrolysis. After hydrolysis, the resulting monosaccharides are reducing
+and fructose) by acid hydrolysis. After hydrolysis, the resulting monosaccharides are reducing
 Sugars and give a positive Benedict's test.
 
 ## Review: Amino Acid Chemistry
@@ -662,26 +710,26 @@ Dipeptide is formed from two amino acids; a polypeptide is a chain of many amino
 **Protein diversity:** With 20 different amino acids, the number of possible polypeptides of length
 $n$ is $20^n$. For a protein of 100 amino acids, there are $20^{100}$ possible sequences (an
 Astronomically large number). This explains how a relatively small set of building blocks can
-Generate the enormous diversity of proteins found in living organisms.
+generate the enormous diversity of proteins found in living organisms.
 
 ## Review: Enzyme Regulation and Allosteric Regulation
 
 **Allosteric regulation:** Many enzymes have allosteric sites (sites distinct from the active site)
 Where regulatory molecules can bind. Binding of an allosteric activator stabilises the active
 Conformation of the enzyme, increasing its activity. Binding of an allosteric inhibitor stabilises
-The inactive conformation, decreasing its activity.
+the inactive conformation, decreasing its activity.
 
 **Cooperativity:** In some multi-subunit enzymes, binding of a substrate to one active site
 Increases the affinity of the other active sites for the substrate. This produces a sigmoidal
 (S-shaped) velocity-vs-substrate curve rather than the hyperbolic curve predicted by the
 Michaelis-Menten equation. Haemoglobin (which is not an enzyme but a transport protein) shows
 Cooperative binding of oxygen: binding of the first $\mathrm{O_2$ molecule increases the affinity
-For subsequent $\mathrm{O_2$ molecules.
+for subsequent $\mathrm{O_2$ molecules.
 
 **Feedback inhibition:** A common form of metabolic regulation where the end product of a pathway
 Inhibits an enzyme early in the pathway. This prevents wasteful overproduction of the end product.
 For example, in the pathway for isoleucine synthesis, isoleucine acts as an allosteric inhibitor of
-Threonine deaminase, the first enzyme in the pathway.
+threonine deaminase, the first enzyme in the pathway.
 
 ## Review: Experimental Design for Enzyme Investigations
 
@@ -704,7 +752,7 @@ Relevant variables to ensure that only the independent variable affects the depe
 
 ## Review: Water's Role in Temperature Regulation
 
-Water's high specific heat capacity ($4.18$ J/g/$\degree$C) means it can absorb or release large
+Water's high specific heat capacity ($4.18$ J/g/$\degree$ C) means it can absorb or release large
 Amounts of heat with relatively small changes in temperature. This property has important biological
 Consequences:
 
@@ -712,18 +760,20 @@ Consequences:
   smaller temperature fluctuations than inland areas at the same latitude.
 - **Organisms maintain stable internal temperatures:** The high water content of organisms (
   60--90%) contributes to thermal stability.
-- **Evaporative cooling:** Water's high heat of vaporisation ($2260$ J/g at $100\degree$C) means
+- **Evaporative cooling:** Water's high heat of vaporisation ($2260$ J/g at $100\degree$ C) means
   that sweating (in mammals) and transpiration (in plants) are very effective cooling mechanisms.
 
 **Worked Example:** A person running on a hot day produces approximately 500 mL of sweat per hour.
 To evaporate 500 mL of water requires approximately $500 \times 2260 = 1,130,000$ J (1130 kJ) of
-Energy. This energy is drawn from the body as heat, significantly reducing body temperature and
-Preventing overheating.
+energy. This energy is drawn from the body as heat, significantly reducing body temperature and
+preventing overheating.
 
 ## Review: The Importance of Functional Groups in Biological Molecules
 
 Functional groups are specific groups of atoms within molecules that determine the characteristics
-Of the molecule and how it reacts.
+of the molecule and how it reacts.
+
+<div class="table-wrap">
 
 | Functional Group | Structure | Found in                      | Properties                              |
 | ---------------- | --------- | ----------------------------- | --------------------------------------- |
@@ -734,12 +784,14 @@ Of the molecule and how it reacts.
 | Phosphate        | -PO$_4$   | ATP, DNA, phospholipids       | Negative charge; energy transfer        |
 | Sulfhydryl (-SH) | -SH       | Cysteine (amino acid)         | Forms disulfide bridges in proteins     |
 
+</div>
+
 **Worked Example:** The role of functional groups in amino acid behaviour.
 
 Amino acids contain both an amino group (-NH$_2$Basic) and a carboxyl group (-COOH, acidic). In
-Aqueous solution at physiological pH, the amino group accepts a proton (becoming -NH$_3^+$) and the
-Carboxyl group donates a proton (becoming -COO$^-$), forming a zwitterion with both a positive and a
-Negative charge. The R group (side chain) determines the specific properties of each amino acid:
+aqueous solution at physiological pH, the amino group accepts a proton (becoming -NH$_3^+$) and the
+carboxyl group donates a proton (becoming -COO$^-$), forming a zwitterion with both a positive and a
+negative charge. The R group (side chain) determines the specific properties of each amino acid:
 Nonpolar R groups are hydrophobic, while polar and charged R groups are hydrophilic. Cysteine
 Contains a sulfhydryl group (-SH) that can form disulfide bridges with another cysteine, creating
 Covalent cross-links that stabilise protein structure.
@@ -750,8 +802,8 @@ Covalent cross-links that stabilise protein structure.
 <summary>Question 1: Chargaff's rules and DNA composition</summary>
 
 A double-stranded DNA molecule is found to be $18\%$ adenine. Calculate the percentage of each of
-The other three bases. If the DNA contains $10,000$ base pairs, how many hydrogen bonds hold the two
-Strands together?
+the other three bases. If the DNA contains $10,000$ base pairs, how many hydrogen bonds hold the two
+strands together?
 
 </details>
 
@@ -783,7 +835,7 @@ Total hydrogen bonds: $3,600 + 9,600 = 13,200$.
 <summary>Question 2: Enzyme kinetics with an inhibitor</summary>
 
 An enzyme has $K_m = 4 \mathrm{ \mu M$ and $V_{\max} = 20 \mathrm{ \mu mol/min$. In the presence Of
-a competitive inhibitor at $8 \mathrm{ \mu M$The apparent $K_m$ increases to $12 \mathrm{ \mu M$.
+a competitive inhibitor at $8 \mathrm{ \mu M$ The apparent $K_m$ increases to $12 \mathrm{ \mu M$.
 Calculate the reaction velocity at a substrate concentration of $6 \mathrm{ \mu M$ both with and
 without the inhibitor.
 
@@ -800,7 +852,7 @@ $v = \frac{V_{\max}[S]}{K_m^{app} + [S]} = \frac{20 \times 6}{12 + 6} = \frac{12
 
 The competitive inhibitor reduces the reaction velocity from $12 \mathrm{ \mu mol/min$ to
 $6.67 \mathrm{ \mu mol/min$ at this substrate concentration. Note that $V_{\max}$ is unchanged; at
-Very high substrate concentrations, both velocities would approach $20 \mathrm{ \mu mol/min$.
+very high substrate concentrations, both velocities would approach $20 \mathrm{ \mu mol/min$.
 
 </details>
 
@@ -852,9 +904,9 @@ Coupled. Is the overall reaction spontaneous?
 
 Overall $\Delta G = +16.7 + (-30.5) = -13.8 \mathrm{ kJ/mol$.
 
-Since $\Delta G \lt 0$The overall coupled reaction is spontaneous. The energy released by ATP
+Since $\Delta G \lt 0$ The overall coupled reaction is spontaneous. The energy released by ATP
 Hydrolysis ($-30.5 \mathrm{ kJ/mol$) more than compensates for the energy required for the
-Phosphorylation ($+16.7 \mathrm{ kJ/mol$). This is how phosphofructokinase drives the committed Step
+phosphorylation ($+16.7 \mathrm{ kJ/mol$). This is how phosphofructokinase drives the committed Step
 of glycolysis forward. The excess energy ($13.8 \mathrm{ kJ/mol$) is released as heat.
 
 </details>
@@ -864,7 +916,7 @@ of glycolysis forward. The excess energy ($13.8 \mathrm{ kJ/mol$) is released as
 
 A researcher discovers that a protein loses its biological activity when heated to
 $45^\circ\mathrm{C$ But regains full activity when cooled back to $25^\circ\mathrm{C$. When Heated to
-$70^\circ\mathrm{C$The protein permanently loses activity even after cooling. Explain These
+$70^\circ\mathrm{C$ The protein permanently loses activity even after cooling. Explain These
 observations with reference to the levels of protein structure.
 
 </details>
@@ -872,13 +924,13 @@ observations with reference to the levels of protein structure.
 <details>
 <summary>Answer</summary>
 
-At $45^\circ\mathrm{C$The protein undergoes reversible denaturation. The secondary and tertiary
+At $45^\circ\mathrm{C$ The protein undergoes reversible denaturation. The secondary and tertiary
 Structures are disrupted (hydrogen bonds, hydrophobic interactions, and ionic bonds break), causing
-The protein to unfold and lose its active site shape. However, the primary structure (amino acid
+the protein to unfold and lose its active site shape. However, the primary structure (amino acid
 Sequence) remains intact. When cooled, these non-covalent interactions can re-form, allowing the
-Protein to refold into its native, functional conformation.
+protein to refold into its native, functional conformation.
 
-At $70^\circ\mathrm{C$The denaturation is irreversible. At this higher temperature, the protein May
+At $70^\circ\mathrm{C$ The denaturation is irreversible. At this higher temperature, the protein May
 aggregate (unfolded proteins expose hydrophobic regions that stick together), or disulfide Bridges
 (covalent bonds) may be disrupted. Once aggregated or covalently damaged, the protein cannot Refold
 correctly upon cooling because the protein is trapped in incorrect, aggregated conformations. The
@@ -886,17 +938,6 @@ loss of disulfide bridges is particularly significant because these covalent cro
 Spontaneously re-form in the correct positions without chaperone proteins.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[1_Chemistry Of Life] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -915,9 +956,6 @@ Mastery of these concepts requires both theoretical understanding and the abilit
 to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

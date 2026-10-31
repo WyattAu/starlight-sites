@@ -69,13 +69,15 @@ CPUs expose multiple hardware threads per core via simultaneous multithreading (
 Hyper-Threading).
 
 A **software thread** is an OS-level thread managed by the scheduler. The OS maps software threads
-Onto hardware threads. When the number of software threads exceeds hardware threads, the scheduler
+onto hardware threads. When the number of software threads exceeds hardware threads, the scheduler
 Performs context switching.
 
 `std::thread::hardware_concurrency()` [N4950 §31.4.4.1.4] returns the number of concurrent threads
 Supported by the implementation. This value approximates the number of hardware threads available:
 
-$$N_{\mathrm{optimal} = \mathrm{std::thread::hardware\_concurrency()$$
+$$
+N_{\mathrm{optimal} = \mathrm{std::thread::hardware\_concurrency()
+$$
 
 ```cpp
 #include <iostream>
@@ -99,11 +101,15 @@ A `std::thread` object is in one of two states relative to an OS thread [N4950 �
 - **Joinable**: The thread has not yet been joined or detached.
 - **Not joinable**: The thread has been joined, detached, or was default-constructed.
 
+<div class="table-wrap">
+
 | Operation             | Effect                                                                            | Post-state         |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------ |
 | `join()`              | Blocks until the thread finishes                                                  | Not joinable       |
 | `detach()`            | Separates the thread from the `std::thread` object; the thread runs independently | Not joinable       |
 | Destructor (joinable) | Calls `std::terminate()`                                                          | Program terminates |
+
+</div>
 
 :::caution
 [N4950 §31.4.4.1.3]. Always ensure a thread is either joined or detached before destruction.
@@ -154,11 +160,15 @@ Periodically check whether a stop has been requested and exit cooperatively.
 
 Key types in the stop-token mechanism [N4950 §31.4.4.6]:
 
+<div class="table-wrap">
+
 | Type                 | Role                                                |
 | -------------------- | --------------------------------------------------- |
 | `std::stop_token`    | Query-only handle; passed to worker threads         |
 | `std::stop_source`   | Ownership handle; used to request stop              |
 | `std::stop_callback` | Registers a callback invoked when stop is requested |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -293,7 +303,7 @@ int main() {
 - [Condition Variables, Latches, and Barriers](/concurrency/1_threading_and_synchronization/4_condition_variables/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Thread Identifier and Native Handle
 
@@ -383,7 +393,7 @@ void race_condition_demo() {
 ```
 
 :::caution
-thread accesses it, the Copy is safe. However, if you explicitly pass `std::ref` or `std::cref`You
+thread accesses it, the Copy is safe. However, if you explicitly pass `std::ref` or `std::cref`. You
 bypass this protection And must ensure the referenced object outlives the thread.
 :::
 
@@ -468,18 +478,22 @@ void stop_callback_demo() {
 
 :::caution
 the `stop_callback` Object outlives the expected stop request. The callback itself is invoked
-synchronously from the Thread that calls `request_stop()`Not from the worker thread.
+synchronously from the Thread that calls `request_stop()`. Not from the worker thread.
 :::
 
 ## Thread Stack Size
 
 Each OS thread has a stack with a default size that varies by platform:
 
+<div class="table-wrap">
+
 | Platform      | Default Stack Size              | Configuration Method                       |
 | :------------ | :------------------------------ | :----------------------------------------- |
 | Linux (glibc) | 8 MB                            | `pthread_attr_setstacksize` or `ulimit -s` |
 | macOS         | 8 MB (main), 512 KB (secondary) | `pthread_attr_setstacksize`                |
 | Windows       | 1 MB                            | `/STACK:` linker flag or `CreateThread`    |
+
+</div>
 
 For applications that create many threads (e.g., thread pools with hundreds of workers), the default
 Stack size can exhaust virtual memory. On Linux, you can check and adjust the stack size:
@@ -546,7 +560,7 @@ void constructor_variants() {
 ## Common Pitfalls
 
 1. **Destroying a joinable `std::thread`:** This calls `std::terminate()`. Always join or detach
-   before destruction. This is the primary motivation for using `std::jthread`Which joins
+   before destruction. This is the primary motivation for using `std::jthread`. Which joins
    automatically.
 
 2. **Detaching threads with references to locals:** A detached thread that references local
@@ -555,7 +569,7 @@ void constructor_variants() {
 
 3. **Calling `request_stop()` after `jthread` is joined:** `request_stop()` is safe to call at any
    time, it is a no-op if the stop has already been requested. The `jthread` destructor calls
-   `request_stop()` followed by `join()`So the stop is always requested before joining.
+   `request_stop()` followed by `join()`. So the stop is always requested before joining.
 
 4. **`stop_token` is not a cancellation mechanism:** `stop_token` implements cooperative
    cancellation, the worker must periodically check `stop_requested()`. If the worker blocks
@@ -569,16 +583,6 @@ void constructor_variants() {
 6. **Thread function exceptions:** If an exception escapes the thread's callable, `std::terminate()`
    is called. Use `std::promise` to transport exceptions to the joining thread, or catch all
    exceptions inside the thread function and store them.
-
-```mermaid
-flowchart TD
-    A[1_Threads_Jthread] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -598,5 +602,3 @@ success in history.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

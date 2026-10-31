@@ -657,6 +657,8 @@ associativity = do
 
 ## Choosing the Right Monad
 
+<div class="table-wrap">
+
 | Monad      | Use Case        | When to Use                                |
 | ---------- | --------------- | ------------------------------------------ |
 | `Maybe`    | Optional values | Computations that may fail with no details |
@@ -667,6 +669,8 @@ associativity = do
 | `Writer w` | Logging         | Accumulate log messages alongside results  |
 | `[]`       | Non-determinism | Multiple possible results                  |
 | `Identity` | No effect       | The simplest monad, wraps a plain value    |
+
+</div>
 
 ## Combining Effects
 
@@ -690,16 +694,6 @@ type AppM = ReaderT Config (StateT AppState (ExceptT AppError IO))
 runApp :: Config -> AppState -> AppM a -> IO (Either AppError a)
 runApp config state action =
   runExceptT (evalStateT (runReaderT action config) state)
-```
-
-```mermaid
-flowchart TD
-    A[1_Monads And Functors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition

@@ -271,6 +271,8 @@ used only when thread or context changes are needed.
 
 ## Choosing the Right Function
 
+<div class="table-wrap">
+
 | Function | Context | Returns      | Primary Use                   |
 | -------- | ------- | ------------ | ----------------------------- |
 | `let`    | `it`    | block result | Null safety, transforms       |
@@ -278,6 +280,8 @@ used only when thread or context changes are needed.
 | `with`   | `this`  | block result | Multiple operations on object |
 | `apply`  | `this`  | receiver     | Configuration, initialization |
 | `also`   | `it`    | receiver     | Side effects, logging, debug  |
+
+</div>
 
 Use the following decision process:
 
@@ -354,17 +358,6 @@ val server = ServerBuilder()
   receiver and is used as a grouping mechanism. The extension `run` operates on an object and is
   used to compute a result.
 
-
-```mermaid
-flowchart TD
-    A[Scope Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers Kotlin scope functions and their practical usage patterns, including when to use
@@ -388,9 +381,6 @@ code. Practice each function with realistic examples to build fluency.
 Scope functions let you execute a block of code within the context of an object, reducing repetitive references. They differ in two dimensions: whether the object is accessed as this or it, and whether the function returns the object itself or the block's result. Think of them as shorthand patterns: apply configures, let transforms, also logs, and run computes. Choosing the right one depends on whether you need the object back or a computed result, and whether you prefer direct member access or explicit argument naming.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

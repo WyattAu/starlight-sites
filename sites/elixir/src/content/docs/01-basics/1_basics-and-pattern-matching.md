@@ -140,7 +140,7 @@ true
 
 ### Strings
 
-Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang"s
+Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang's
 string type, which is a list of integers).
 
 ```elixir
@@ -995,6 +995,8 @@ updated = %{original | b: 99}
 
 Understanding immutability's performance characteristics:
 
+<div class="table-wrap">
+
 | Operation                 | Time Complexity | Notes                     |
 | ------------------------- | --------------- | ------------------------- |
 | List prepend `[h\|t]`     | $O(1)$          | Always prefer over append |
@@ -1004,6 +1006,8 @@ Understanding immutability's performance characteristics:
 | Tuple access `elem(t, i)` | $O(1)$          |                           |
 | Tuple update `put_elem`   | $O(n)$          | Must copy the tuple       |
 
+</div>
+
 ### When Immutability Matters Most
 
 1. **Concurrency**: No locks needed since data cannot change
@@ -1011,16 +1015,6 @@ Understanding immutability's performance characteristics:
 3. **Undo/redo**: Keep old versions of data for free
 4. **Caching**: Results of pure functions can be safely cached
 5. **Testing**: No setup/teardown needed for state mutation
-
-```mermaid
-flowchart TD
-    A[1_Basics And Pattern Matching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

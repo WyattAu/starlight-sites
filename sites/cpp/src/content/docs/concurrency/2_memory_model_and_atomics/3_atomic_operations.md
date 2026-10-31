@@ -21,8 +21,8 @@ categories:
 
 ## Atomic Operations and Lock-Free Programming
 
-This section covers `std::atomic<T>``std::atomic_ref<T>`The full set of atomic operations,
-`std::atomic_flag`The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a
+This section covers `std::atomic<T>`, `std::atomic_ref<T>`. The full set of atomic operations,
+`std::atomic_flag`. The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a
 Lock-free stack implementation, and a spinlock using `std::atomic_flag`.
 
 ## `std::atomic<T>`
@@ -33,7 +33,7 @@ Threads.
 
 The standard specifies which types `T` may be [N4950 §31.7.1]:
 
-- **Scalar types**: `bool``char``int``float``pointer types`Etc.
+- **Scalar types**: `bool`, `char`, `int`, `float`, `pointer types`. Etc.
 - **copyable types**: Any copyable type (C++17 and later), though not all operations may be
   available.
 
@@ -66,7 +66,7 @@ int main() {
 ## `std::atomic_ref<T>` (C++20)
 
 `std::atomic_ref<T>` provides atomic access to a non-atomic object through a reference wrapper. This
-Is useful when you need atomic operations on data that was not declared as `std::atomic`:
+is useful when you need atomic operations on data that was not declared as `std::atomic`:
 
 ```cpp
 #include <atomic>
@@ -86,13 +86,15 @@ int main() {
 ```
 
 :::caution
-`alignof(std::atomic<T>)`. For many types this is the same as `alignof(T)`But for types smaller Than
+`alignof(std::atomic<T>)`. For many types this is the same as `alignof(T)`. But for types smaller Than
 the platform's native word size, `alignof(std::atomic<T>)` may be larger.
 :::
 
 ## Atomic Operations
 
 The full set of atomic operations defined in [N4950 §31.7.2]:
+
+<div class="table-wrap">
 
 | Operation                                                                  | Description                                             |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -107,6 +109,8 @@ The full set of atomic operations defined in [N4950 §31.7.2]:
 | `fetch_or(val, order)`                                                     | Atomically performs bitwise OR and returns old value    |
 | `fetch_xor(val, order)`                                                    | Atomically performs bitwise XOR and returns old value   |
 
+</div>
+
 ## `std::atomic_flag`
 
 `std::atomic_flag` [N4950 §31.7] is the simplest atomic type: a boolean flag guaranteed to be
@@ -117,11 +121,15 @@ Lock-free. It provides only two operations:
 
 ## Lock-Free vs Wait-Free vs Obstruction-Free
 
+<div class="table-wrap">
+
 | Guarantee            | Definition                                                          | Blocking?        |
 | -------------------- | ------------------------------------------------------------------- | ---------------- |
 | **Obstruction-free** | Progress guaranteed if all other threads are paused                 | No (if alone)    |
 | **Lock-free**        | At least one thread makes progress within a bounded number of steps | No (system-wide) |
 | **Wait-free**        | Every thread makes progress within a bounded number of steps        | No (per-thread)  |
+
+</div>
 
 These form a hierarchy: wait-free $\implies$ lock-free $\implies$ obstruction-free.
 
@@ -151,7 +159,9 @@ The **ABA problem** occurs in lock-free algorithms when a value changes from $A$
 $A$ between a thread's load and its CAS. The CAS succeeds because the value is still $A$ But the
 Intermediate change may have invalidated invariants:
 
-$$\mathrm{Load(A) \to \mathrm{Other thread:  A \to B \to A \to \mathrm{CAS(A, C) \mathrm{ succeeds, incorrectly$$
+$$
+\mathrm{Load(A) \to \mathrm{Other thread:  A \to B \to A \to \mathrm{CAS(A, C) \mathrm{ succeeds, incorrectly
+$$
 
 `compare_exchange_weak` may fail spuriously (return `false` even when the expected value matches),
 Which can help in some ABA scenarios but does not fully solve the problem. Full solutions include:
@@ -307,6 +317,8 @@ Every atomic operation accepts a `std::memory_order` argument that constrains ho
 CPU may reorder operations around it [N4950 §31.7.2]. The six memory orders form a hierarchy of
 Strength:
 
+<div class="table-wrap">
+
 | Memory Order           | Compiler Reordering | CPU Reordering | Use Case                        |
 | :--------------------- | :------------------ | :------------- | :------------------------------ |
 | `memory_order_relaxed` | No reorder with     | No reorder     | Simple counters, statistics     |
@@ -315,6 +327,8 @@ Strength:
 | `memory_order_release` |                     |                | Publish writes to shared data   |
 | `memory_order_acq_rel` |                     |                | Read-modify-write with ordering |
 | `memory_order_seq_cst` |                     |                | Default; total order            |
+
+</div>
 
 ```cpp
 #include <atomic>
@@ -345,7 +359,7 @@ void memory_order_overview() {
 
 :::caution
 ordering correctly is Extremely complex and was found to have specification issues. Do not use
-`memory_order_consume`Use `memory_order_acquire` instead.
+`memory_order_consume`. Use `memory_order_acquire` instead.
 :::
 
 ## `compare_exchange` in Detail
@@ -418,7 +432,7 @@ if (ptr.compare_exchange_weak(
 
 ## `std::atomic_wait` and `std::atomic_notify` (C++20)
 
-C++20 introduced `wait()``notify_one()`And `notify_all()` on `std::atomic` objects [N4950 §31.7.2].
+C++20 introduced `wait()`, `notify_one()` and `notify_all()` on `std::atomic` objects [N4950 §31.7.2].
 These provide an efficient waiting mechanism that does not spin, the OS puts the thread To sleep
 until notification arrives:
 
@@ -482,7 +496,7 @@ void pointer_atomic_demo() {
 
 ## `std::atomic&lt;bool&gt;` as a Flag
 
-`std::atomic&lt;bool&gt;` is the general-purpose atomic boolean. Unlike `std::atomic_flag`It may Use
+`std::atomic&lt;bool&gt;` is the general-purpose atomic boolean. Unlike `std::atomic_flag`. It may Use
 a lock internally if the platform cannot implement it lock-free:
 
 ```cpp
@@ -552,7 +566,7 @@ state.
 ## Tagged Pointers for ABA Prevention
 
 A practical approach to solving the ABA problem is to use a tagged pointer, combine the pointer
-With a monotonically increasing counter in a single 64-bit atomic:
+with a monotonically increasing counter in a single 64-bit atomic:
 
 ```cpp
 #include <atomic>
@@ -663,16 +677,6 @@ tag Alongside the pointer, or use hazard pointers.
    the other, even if they are logically independent. Pad atomics to cache line boundaries to
    prevent this.
 
-```mermaid
-flowchart TD
-    A[3_Atomic_Operations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of atomic operations and lock-free programming, including
@@ -686,13 +690,7 @@ underlying theory, practical implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

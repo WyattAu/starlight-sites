@@ -57,23 +57,32 @@ jobs:
       - name: Biome lint and format check
         run: bunx biome check .
 
-      - name: Aside directive lint (content)
-        run: node scripts/lint-asides.js
+      - name: Display-math delimiter gate (content)
+        run: node --max-old-space-size=1024 scripts/fix-display-math.mjs --check
 
-      - name: MDX parse gate (content)
-        run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
+      - name: Prose damage lint (content)
+        run: python3 scripts/fix-prose-damage.py --check
+
+      - name: Duplicate section collapse gate (content)
+        run: node --max-old-space-size=1024 scripts/fix-duplicate-blocks.mjs --check
+
+      - name: LaTeX parseability gate (content)
+        run: node --max-old-space-size=2048 scripts/fix-latex-braces.mjs --check
+
+      - name: Table shape gate (content)
+        run: node --max-old-space-size=2048 scripts/lint-tables.mjs --check
+
+      - name: Responsive-table gate (content)
+        run: python3 scripts/wrap-tables.py --check
 
       - name: No-emoji lint (code, docs, config)
         run: node scripts/lint-no-emoji.js
 
+      - name: Terminology lint (content)
+        run: node scripts/lint-terminology.js
+
       - name: PracticeProblem corruption lint (content)
         run: node scripts/lint-practice-components.js
-
-      - name: Aside directive lint (content)
-        run: node scripts/lint-asides.js
-
-      - name: MDX parse gate (content)
-        run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
 
       - name: llms.txt freshness (content)
         run: node scripts/generate-llms-txt.js --check

@@ -20,6 +20,8 @@ description: "A variable is a named storage location in memory that holds a valu
 A variable is a named storage location in memory that holds a value which can change during program
 Execution.
 
+<div class="table-wrap">
+
 | Data Type    | Description                 | Example          |
 | ------------ | --------------------------- | ---------------- |
 | Integer      | Whole numbers               | `42``-7``0`      |
@@ -28,6 +30,8 @@ Execution.
 | Boolean      | Logical values              | `True``False`    |
 | Character    | A single character          | `'A'``'9'`       |
 | Array / List | Collection of values        | `[1, 2, 3, 4]`   |
+
+</div>
 
 ### Constants
 
@@ -62,6 +66,8 @@ x += 5     # shorthand, x is now 20
 
 **Arithmetic operators:**
 
+<div class="table-wrap">
+
 | Operator | Meaning            | Example       |
 | -------- | ------------------ | ------------- |
 | `+`      | Addition           | `5 + 3 = 8`   |
@@ -72,7 +78,11 @@ x += 5     # shorthand, x is now 20
 | `%`      | Modulo (remainder) | `7 % 2 = 1`   |
 | `**`     | Exponentiation     | `2 ** 3 = 8`  |
 
+</div>
+
 **Comparison operators:**
+
+<div class="table-wrap">
 
 | Operator | Meaning                  |
 | -------- | ------------------------ |
@@ -83,13 +93,19 @@ x += 5     # shorthand, x is now 20
 | `$\ge$`  | Greater than or equal to |
 | `$\le$`  | Less than or equal to    |
 
+</div>
+
 **Logical operators:**
+
+<div class="table-wrap">
 
 | Operator | Meaning                             | Example            |
 | -------- | ----------------------------------- | ------------------ |
 | `and`    | Both conditions must be True        | `x > 0 and x < 10` |
 | `or`     | At least one condition must be True | `x == 0 or x == 1` |
 | `not`    | Reverses the condition              | `not(x > 5)`       |
+
+</div>
 
 ---
 
@@ -180,7 +196,7 @@ while True:
 
 :::caution
 Will eventually become False. A common mistake is forgetting to update the loop variable inside the
-Loop body.
+loop body.
 :::
 
 ### Worked Example 1
@@ -437,6 +453,8 @@ print(student["name"])  # Chan Tai Man
 
 Flowcharts use standard symbols to represent algorithms visually:
 
+<div class="table-wrap">
+
 | Symbol        | Meaning        |
 | ------------- | -------------- |
 | Oval          | Start / End    |
@@ -444,6 +462,8 @@ Flowcharts use standard symbols to represent algorithms visually:
 | Rectangle     | Process        |
 | Diamond       | Decision       |
 | Arrow         | Flow direction |
+
+</div>
 
 ### Pseudocode
 
@@ -464,7 +484,7 @@ END
 ### Trace Tables
 
 A trace table records the values of variables as an algorithm executes, used for testing and
-Debugging.
+debugging.
 
 **Example:** Trace the following algorithm with `n = 5`:
 
@@ -478,6 +498,8 @@ ENDWHILE
 OUTPUT sum
 ```
 
+<div class="table-wrap">
+
 | Iteration | `count` | `sum`       | `count $\le$` n |
 | --------- | ------- | ----------- | --------------- |
 | 1         | 1       | 0 + 1 = 1   | True            |
@@ -486,6 +508,8 @@ OUTPUT sum
 | 4         | 4       | 6 + 4 = 10  | True            |
 | 5         | 5       | 10 + 5 = 15 | True            |
 | 6         | 6       | 15          | False           |
+
+</div>
 
 Output: `sum = 15`
 
@@ -584,6 +608,8 @@ Management System (DBMS) is software for creating, managing, and manipulating da
 
 ### Flat File vs Relational Database
 
+<div class="table-wrap">
+
 | Feature           | Flat File             | Relational Database              |
 | ----------------- | --------------------- | -------------------------------- |
 | Structure         | Single table          | Multiple linked tables           |
@@ -593,6 +619,8 @@ Management System (DBMS) is software for creating, managing, and manipulating da
 | Query flexibility | Limited               | Powerful (SQL)                   |
 | Multi-user access | Difficult             | Supported                        |
 | Example           | CSV file              | MySQL, PostgreSQL                |
+
+</div>
 
 ### Advantages of Relational Databases
 
@@ -634,6 +662,8 @@ An ER diagram models the data and relationships in a database.
 
 ### Keys
 
+<div class="table-wrap">
+
 | Key Type          | Description                                                |
 | ----------------- | ---------------------------------------------------------- |
 | **Primary key**   | Uniquely identifies each record in a table; cannot be null |
@@ -641,6 +671,8 @@ An ER diagram models the data and relationships in a database.
 | **Composite key** | A primary key made up of two or more fields                |
 | **Candidate key** | Any field or combination that could serve as a primary key |
 | **Superkey**      | Any set of fields that uniquely identifies a record        |
+
+</div>
 
 ### Normalisation
 
@@ -671,11 +703,15 @@ Nothing but the key.
 
 Convert the following unnormalised data to 3NF.
 
+<div class="table-wrap">
+
 | StudentID | Name | CourseCode | CourseName  | Teacher  |
 | --------- | ---- | ---------- | ----------- | -------- |
 | 001       | Chan | CS101      | Programming | Mr. Lee  |
 | 001       | Chan | CS102      | Database    | Ms. Wong |
 | 002       | Lee  | CS101      | Programming | Mr. Lee  |
+
+</div>
 
 **1NF:** Remove repeating groups.
 
@@ -786,6 +822,8 @@ WHERE Class = '5A' AND Score >= 70;
 
 **Comparison operators in WHERE:**
 
+<div class="table-wrap">
+
 | Operator     | Meaning                     |
 | ------------ | --------------------------- |
 | `=`          | Equal to                    |
@@ -799,6 +837,8 @@ WHERE Class = '5A' AND Score >= 70;
 | `IN`         | Matches any value in a list |
 | `IS NULL`    | Null value                  |
 
+</div>
+
 **ORDER BY:**
 
 ```sql
@@ -809,6 +849,8 @@ ORDER BY Score DESC;
 
 **Aggregate functions:**
 
+<div class="table-wrap">
+
 | Function  | Description         |
 | --------- | ------------------- |
 | `COUNT()` | Number of rows      |
@@ -816,6 +858,8 @@ ORDER BY Score DESC;
 | `AVG()`   | Average of a column |
 | `MAX()`   | Maximum value       |
 | `MIN()`   | Minimum value       |
+
+</div>
 
 ```sql
 SELECT AVG(Score) AS AverageScore, MAX(Score) AS Highest
@@ -917,6 +961,8 @@ GROUP BY Course.CourseName;
 
 Validation checks that data is reasonable and follows specified rules before it is accepted.
 
+<div class="table-wrap">
+
 | Validation Type | Description                             | Example                       |
 | --------------- | --------------------------------------- | ----------------------------- |
 | Presence check  | Ensures data is not empty               | Name cannot be blank          |
@@ -926,15 +972,21 @@ Validation checks that data is reasonable and follows specified rules before it 
 | Format check    | Ensures data follows a pattern          | Email format: contains `@`    |
 | Lookup check    | Compares against a list of valid values | Class must be in school list  |
 
+</div>
+
 ### Verification
 
 Verification ensures that data entered matches the original source.
+
+<div class="table-wrap">
 
 | Method       | Description                                             |
 | ------------ | ------------------------------------------------------- |
 | Double entry | Data is entered twice and compared                      |
 | Visual check | User visually compares entered data with the source     |
 | Check digit  | A digit calculated from other digits (e.g., ISBN, HKID) |
+
+</div>
 
 ---
 
@@ -947,17 +999,9 @@ Verification ensures that data entered matches the original source.
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[2_Programming And Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table
+
+<div class="table-wrap">
 
 | Topic         | Key Concept             | Example                     |
 | ------------- | ----------------------- | --------------------------- |
@@ -971,6 +1015,8 @@ flowchart TD
 | Databases     | Organised data storage  | Tables, keys, relationships |
 | SQL           | Querying databases      | `SELECT``WHERE``JOIN`       |
 | Normalisation | Reducing redundancy     | 1NF, 2NF, 3NF               |
+
+</div>
 
 ---
 
@@ -1030,8 +1076,8 @@ WHERE s1.Score > (
 Each.
 
 Validation checks that data is reasonable before it is stored (e.g., ensuring an age field is
-Between 0 and 120). Verification ensures that data matches the original source (e.g., entering a
-Password twice to confirm it was typed correctly).
+between 0 and 120). Verification ensures that data matches the original source (e.g., entering a
+password twice to confirm it was typed correctly).
 
 </details>
 
@@ -1106,7 +1152,7 @@ Password twice to confirm it was typed correctly).
 <details>
 <summary>Question 1: Trace Table</summary>
 
-Trace the following algorithm with inputs `A = 5``B = 3`.
+Trace the following algorithm with inputs `A = 5`, `B = 3`.
 
 ```python
 BEGIN
@@ -1128,12 +1174,16 @@ Answer:
 
 (a)
 
+<div class="table-wrap">
+
 | Iteration | B   | result | B > 0 |
 | --------- | --- | ------ | ----- |
 | Initial   | 3   | 5      | True  |
 | 1         | 2   | 10     | True  |
 | 2         | 1   | 15     | True  |
 | 3         | 0   | 20     | False |
+
+</div>
 
 Output: `result = 20`
 
@@ -1179,6 +1229,8 @@ END
 
 **Pass 1 (i=0):**
 
+<div class="table-wrap">
+
 | j   | Compare | Action  | Array after swap |
 | --- | ------- | ------- | ---------------- |
 | 0   | 5 > 3   | Swap    | [3, 5, 8, 1, 4]  |
@@ -1186,15 +1238,21 @@ END
 | 2   | 8 > 1   | Swap    | [3, 5, 1, 8, 4]  |
 | 3   | 8 > 4   | Swap    | [3, 5, 1, 4, 8]  |
 
+</div>
+
 After Pass 1: `[3, 5, 1, 4, 8]` (8 is in final position)
 
 **Pass 2 (i=1):**
+
+<div class="table-wrap">
 
 | j   | Compare | Action  | Array after swap |
 | --- | ------- | ------- | ---------------- |
 | 0   | 3 > 5   | No swap | [3, 5, 1, 4, 8]  |
 | 1   | 5 > 1   | Swap    | [3, 1, 5, 4, 8]  |
 | 2   | 5 > 4   | Swap    | [3, 1, 4, 5, 8]  |
+
+</div>
 
 After Pass 2: `[3, 1, 4, 5, 8]` (5 and 8 are in final positions)
 
@@ -1205,11 +1263,15 @@ After Pass 2: `[3, 1, 4, 5, 8]` (5 and 8 are in final positions)
 
 A company records orders in a single table:
 
+<div class="table-wrap">
+
 | OrderID | CustomerName | CustomerAddress | ProductCode | ProductName | Quantity | UnitPrice |
 | ------- | ------------ | --------------- | ----------- | ----------- | -------- | --------- |
 | 001     | Chan         | 10 Main St      | P01         | Keyboard    | 2        | 200       |
 | 002     | Lee          | 5 Oak Rd        | P02         | Mouse       | 1        | 150       |
 | 003     | Chan         | 10 Main St      | P02         | Mouse       | 3        | 150       |
+
+</div>
 
 (a) Identify the redundancies in this table.
 
@@ -1230,19 +1292,29 @@ Answer:
 
 **Customer** (CustomerID PK, CustomerName, CustomerAddress)
 
+<div class="table-wrap">
+
 | CustomerID | CustomerName | CustomerAddress |
 | ---------- | ------------ | --------------- |
 | C01        | Chan         | 10 Main St      |
 | C02        | Lee          | 5 Oak Rd        |
 
+</div>
+
 **Product** (ProductCode PK, ProductName, UnitPrice)
+
+<div class="table-wrap">
 
 | ProductCode | ProductName | UnitPrice |
 | ----------- | ----------- | --------- |
 | P01         | Keyboard    | 200       |
 | P02         | Mouse       | 150       |
 
+</div>
+
 **Order** (OrderID PK, CustomerID FK, OrderDate)
+
+<div class="table-wrap">
 
 | OrderID | CustomerID FK |
 | ------- | ------------- |
@@ -1250,13 +1322,19 @@ Answer:
 | 002     | C02           |
 | 003     | C01           |
 
+</div>
+
 **OrderLine** (OrderID FK, ProductCode FK, Quantity) -- composite PK
+
+<div class="table-wrap">
 
 | OrderID FK | ProductCode FK | Quantity |
 | ---------- | -------------- | -------- |
 | 001        | P01            | 2        |
 | 002        | P02            | 1        |
 | 003        | P02            | 3        |
+
+</div>
 
 (c) The normalised design eliminates data redundancy (customer and product details stored once),
 improves data integrity (no update, insertion, or deletion anomalies), and makes queries more

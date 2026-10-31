@@ -42,14 +42,20 @@ $$
 \mathrm{HA} + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{H}_3\mathrm{O}^+ + \mathrm{A}^-
 $$
 
+<div class="table-wrap">
+
 | Left side     | Right side                  |
 | ------------- | --------------------------- |
 | HA (acid)     | A$^-$ (conjugate base)      |
 | H$_2$O (base) | H$_3$O$^+$ (conjugate acid) |
 
+</div>
+
 **Key relationship:** The stronger the acid, the weaker its conjugate base, and vice versa.
 
 ### Strong vs Weak Acids and Bases
+
+<div class="table-wrap">
 
 | Property                  | Strong Acid/Base                | Weak Acid/Base                   |
 | ------------------------- | ------------------------------- | -------------------------------- |
@@ -60,6 +66,8 @@ $$
 | Reaction rate with metals | Faster                          | Slower                           |
 | Examples (acids)          | HCl, HNO$_3$H$_2$SO$_4$HClO$_4$ | CH$_3$COOH, HF, HCN, H$_2$CO$_3$ |
 | Examples (bases)          | NaOH, KOH, Ba(OH)$_2$           | NH$_3$CH$_3$COO$^-$CO$_3^{2-}$   |
+
+</div>
 
 :::caution
 Exam Tip H$_2$SO$_4$ is a diprotic acid. The first dissociation is complete (strong),
@@ -105,6 +113,8 @@ $$
 
 ### pH Scale
 
+<div class="table-wrap">
+
 | pH  | Nature          | [H$^+$] (mol/L)       |
 | --- | --------------- | --------------------- |
 | 0   | Strongly acidic | $1.0 \times 10^0$     |
@@ -113,6 +123,8 @@ $$
 | 7   | Neutral         | $1.0 \times 10^{-7}$  |
 | 11  |                 | $1.0 \times 10^{-11}$ |
 | 14  | Strongly basic  | $1.0 \times 10^{-14}$ |
+
+</div>
 
 <details>
 <summary>Worked Example 1: pH of a Strong Acid</summary>
@@ -240,6 +252,8 @@ Where $\mathrm{p}K_a = -\log K_a$.
 
 ### Common Ka Values at $25\degree\mathrm{C}$
 
+<div class="table-wrap">
+
 | Acid           | Ka                    | pKa  |
 | -------------- | --------------------- | ---- |
 | CH$_3$COOH     | $1.8 \times 10^{-5}$  | 4.74 |
@@ -248,6 +262,8 @@ Where $\mathrm{p}K_a = -\log K_a$.
 | HF             | $6.8 \times 10^{-4}$  | 3.17 |
 | HNO$_2$        | $4.5 \times 10^{-4}$  | 3.35 |
 | NH$_4^+$       | $5.6 \times 10^{-10}$ | 9.25 |
+
+</div>
 
 <details>
 <summary>Worked Example 4: pH of a Weak Acid</summary>
@@ -260,11 +276,15 @@ $$
 
 ICE table (initial, change, equilibrium):
 
+<div class="table-wrap">
+
 | Species       | [Initial] | Change | [Equilibrium] |
 | ------------- | --------- | ------ | ------------- |
 | CH$_3$COOH    | 0.100     | $-x$   | $0.100 - x$   |
 | H$^+$         | 0         | $+x$   | $x$           |
 | CH$_3$COO$^-$ | 0         | $+x$   | $x$           |
+
+</div>
 
 $$
 K_a = \frac{x^2}{0.100 - x} = 1.8 \times 10^{-5}
@@ -298,11 +318,15 @@ $$
 \mathrm{NH}_3 + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{NH}_4^+ + \mathrm{OH}^-
 $$
 
+<div class="table-wrap">
+
 | Species  | [Initial] | Change | [Equilibrium] |
 | -------- | --------- | ------ | ------------- |
 | NH$_3$   | 0.150     | $-x$   | $0.150 - x$   |
 | NH$_4^+$ | 0         | $+x$   | $x$           |
 | OH$^-$   | 0         | $+x$   | $x$           |
+
+</div>
 
 $$
 K_b = \frac{x^2}{0.150 - x} = 1.8 \times 10^{-5}
@@ -355,17 +379,21 @@ At $25\degree\mathrm{C}$: $K_w = 1.0 \times 10^{-14}$ (mol$^2$/L$^2$).
 
 $K_w$ is **temperature dependent**:
 
-| Temperature ($\degree$C) | $K_w$                  |
+<div class="table-wrap">
+
+| Temperature ($\degree$ C) | $K_w$                  |
 | ------------------------ | ---------------------- |
 | 0                        | $1.14 \times 10^{-15}$ |
 | 25                       | $1.00 \times 10^{-14}$ |
 | 50                       | $5.48 \times 10^{-14}$ |
 | 100                      | $5.13 \times 10^{-13}$ |
 
+</div>
+
 :::caution
-Exam Tip At $50\degree\mathrm{C}$Pure water has $\mathrm{pH} = 6.63$ (not 7). This is
-Because $K_w$ is larger, so $[\mathrm{H}^+] = [\mathrm{OH}^-] = \sqrt{K_w} \gt 10^{-7}$. The water
-Is still **neutral** because $[\mathrm{H}^+] = [\mathrm{OH}^-]$. Neutral does not always mean pH =
+Exam Tip At $50\degree\mathrm{C}$ Pure water has $\mathrm{pH} = 6.63$ (not 7). This is
+because $K_w$ is larger, so $[\mathrm{H}^+] = [\mathrm{OH}^-] = \sqrt{K_w} \gt 10^{-7}$. The water
+is still **neutral** because $[\mathrm{H}^+] = [\mathrm{OH}^-]$. Neutral does not always mean pH =
 7; on temperature.
 :::
 
@@ -426,12 +454,16 @@ Removing a proton from an increasingly negative ion requires more energy.
 
 ### Common Acid-Base Indicators
 
+<div class="table-wrap">
+
 | Indicator           | Colour (Acid) | Transition pH Range | Colour (Base)  |
 | ------------------- | ------------- | ------------------- | -------------- |
 | Methyl orange       | Red           | 3.1 -- 4.4          | Yellow         |
 | Bromothymol blue    | Yellow        | 6.0 -- 7.6          | Blue           |
 | Phenolphthalein     | Colourless    | 8.3 -- 10.0         | Pink/Magenta   |
 | Universal indicator | Red (pH 1)    | Full range 1--14    | Violet (pH 14) |
+
+</div>
 
 ### How Indicators Work
 
@@ -442,19 +474,23 @@ $$
 \mathrm{HIn} \rightleftharpoons \mathrm{H}^+ + \mathrm{In}^-
 $$
 
-The colour observed depends on the ratio $[\mathrm{HIn}]/[\mathrm{In}^-]$Which depends on [H$^+$]
+The colour observed depends on the ratio $[\mathrm{HIn}]/[\mathrm{In}^-]$ Which depends on [H$^+$]
 (pH).
 
 ### Choosing an Indicator for a Titration
 
 An indicator is suitable when its transition range overlaps with the **equivalence point** of the
-Titration (where pH changes most steeply).
+titration (where pH changes most steeply).
+
+<div class="table-wrap">
 
 | Titration Type             | Equivalence Point pH | Suitable Indicator                               |
 | -------------------------- | -------------------- | ------------------------------------------------ |
 | Strong acid -- strong base | pH = 7               | Bromothymol blue, phenolphthalein, methyl orange |
 | Weak acid -- strong base   | pH \gt 7             | Phenolphthalein                                  |
 | Strong acid -- weak base   | pH \lt 7             | Methyl orange                                    |
+
+</div>
 
 ---
 
@@ -518,7 +554,7 @@ Example: HCl + NH$_3$
 ### Composition
 
 A buffer solution **resists changes in pH** when small amounts of acid or base are added. It
-Consists of:
+consists of:
 
 1. A weak acid and its conjugate base, **or**
 2. A weak base and its conjugate acid.
@@ -573,7 +609,7 @@ The effective buffer range is approximately $\mathrm{p}K_a \pm 1$.
 <summary>Worked Example 6: Buffer pH Calculation</summary>
 
 Calculate the pH of a buffer solution containing $0.200\mathrm{ mol/L}$ CH$_3$COOH and
-$0.150\mathrm{ mol/L}$ CH$_3$COONa. ($K_a = 1.8 \times 10^{-5}$P$K_a = 4.74$)
+$0.150\mathrm{ mol/L}$ CH$_3$COONa. ($K_a = 1.8 \times 10^{-5}$ P$K_a = 4.74$)
 
 Using the Henderson-Hasselbalch equation:
 
@@ -716,7 +752,7 @@ PH at equivalence point \lt 7.
 <summary>Worked Example 9: Titration of Weak Acid with Strong Base</summary>
 
 $25.0\mathrm{ mL}$ of $0.100\mathrm{ mol/L}$ CH$_3$COOH ($K_a = 1.8 \times 10^{-5}$) is titrated
-With $0.100\mathrm{ mol/L}$ NaOH. Calculate the pH at the equivalence point.
+with $0.100\mathrm{ mol/L}$ NaOH. Calculate the pH at the equivalence point.
 
 At the equivalence point, moles of NaOH = moles of CH$_3$COOH:
 
@@ -766,7 +802,7 @@ $$
 <summary>Worked Example 10: pH at Half-Equivalence Point</summary>
 
 Using the titration from Worked Example 9, calculate the pH when $12.5\mathrm{ mL}$ of NaOH has been
-Added (half-equivalence point).
+added (half-equivalence point).
 
 At half-equivalence point, half the acid has been neutralised:
 
@@ -822,8 +858,8 @@ This is a general result: at the half-equivalence point, $\mathrm{pH} = \mathrm{
    are much larger than $[\mathrm{H}^+]$ and $[\mathrm{OH}^-]$. It is not valid for very dilute
    solutions.
 
-7. **Neutral pH:** Neutral means $[\mathrm{H}^+] = [\mathrm{OH}^-]$Which equals pH = 7 only at
-   $25\degree\mathrm{C}$. At $50\degree\mathrm{C}$Neutral pH is approximately 6.63.
+7. **Neutral pH:** Neutral means $[\mathrm{H}^+] = [\mathrm{OH}^-]$ Which equals pH = 7 only at
+   $25\degree\mathrm{C}$. At $50\degree\mathrm{C}$ Neutral pH is approximately 6.63.
 
 8. **$K_a$ and $K_b$ relationship:** Remember $K_a \times K_b = K_w$. This connects a conjugate
    acid-base pair. The conjugate base of a weak acid has a calculable $K_b$.
@@ -948,8 +984,8 @@ K_a(\mathrm{NH}_4^+) = \frac{K_w}{K_b(\mathrm{NH}_3)} = \frac{1.0 \times 10^{-14
 $$
 
 (b) NH$_4^+$ is the conjugate acid of the weak base NH$_3$. Since NH$_3$ is a weak base, its
-Conjugate acid NH$_4^+$ will donate protons in water, making the solution acidic. This is confirmed
-By the relatively large $K_a$ value ($5.56 \times 10^{-10} \gg K_b$ of NH$_4^+$ which would be
+conjugate acid NH$_4^+$ will donate protons in water, making the solution acidic. This is confirmed
+by the relatively large $K_a$ value ($5.56 \times 10^{-10} \gg K_b$ of NH$_4^+$ which would be
 $K_w/K_a = 1.8 \times 10^{-5}$ But wait -- we already have $K_a$ for NH$_4^+$ So we can see it is An
 acid). A $0.1\mathrm{ mol/L}$ NH$_4$Cl solution would have pH \lt 7.
 
@@ -1071,8 +1107,8 @@ $$
 \mathrm{H}_3\mathrm{PO}_4 \rightleftharpoons \mathrm{H}^+ + \mathrm{H}_2\mathrm{PO}_4^-
 $$
 
-Since $K_{a1}$ is not very small compared to $c$The approximation $c - x \approx c$ may not be
-Valid. Check: $K_{a1}/c = 7.5 \times 10^{-3}/0.100 = 0.075 \gt 0.05$. The $5\%$ rule fails.
+Since $K_{a1}$ is not very small compared to $c$ The approximation $c - x \approx c$ may not be
+valid. Check: $K_{a1}/c = 7.5 \times 10^{-3}/0.100 = 0.075 \gt 0.05$. The $5\%$ rule fails.
 
 Solve the quadratic: $x^2 + K_a x - K_a \cdot c = 0$
 
@@ -1122,19 +1158,9 @@ Note: The second and third dissociations contribute negligible H$^+$ since $K_{a
 ## Related Content at Other Levels
 
 - **A-Level Acids, Bases & Buffers:**
-  [Acids, Bases & Buffers](https://alevel.wyattau.com/docs/chemistry/acids-bases)
+  [Acids, Bases & Buffers](https://alevel.wyattau.com/chemistry/acids-bases/)
 - **DSE Acids, Bases, and Salts:**
-  [Acids, Bases, and Salts](https://dse.wyattau.com/docs/dse/chemistry/5-acids-bases)
-
-```mermaid
-flowchart TD
-    A[1_Acids And Bases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+  [Acids, Bases, and Salts](https://dse.wyattau.com/chemistry/5-acids-bases/)
 
 ## Summary
 
@@ -1154,16 +1180,17 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site    | Link                                                                                                |
 | ----------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Acids and Bases] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/acids-bases)                       |
-| [Acids and Bases] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/8-acids-and-bases/1_acids-and-bases)                |
-| [Acids and Bases] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry) |
+| [Acids and Bases] | IB      | [View](https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases/)                |
+| [Acids and Bases] | DSE     | [View](https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/) |
+
+</div>
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

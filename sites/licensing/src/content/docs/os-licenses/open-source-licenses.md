@@ -12,17 +12,6 @@ categories:
   - licensing
 ---
 
-
-```mermaid
-flowchart TD
-    A[Open Source Licenses] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Overview
 
 Open source licences define how software can be used, modified, and distributed.
@@ -95,6 +84,8 @@ licence terms, ensuring software remains free.
 
 ## Comparing Licences
 
+<div class="table-wrap">
+
 | Feature | MIT | Apache 2.0 | BSD 3 | GPL | LGPL | AGPL |
 |---------|-----|------------|-------|-----|------|------|
 | Commercial use | Yes | Yes | Yes | Yes | Yes | Yes |
@@ -105,6 +96,8 @@ licence terms, ensuring software remains free.
 | Same licence | No | No | No | Yes | Yes* | Yes |
 | Source code | No | No | No | Yes | Yes | Yes |
 | Network use | No | No | No | No | No | Yes |
+
+</div>
 
 *LGPL: Only for modifications to the library itself
 
@@ -176,26 +169,6 @@ source code under GPL.
 - [OSI Licences](/osi-licenses/) - OSI-approved licence list
 - Commercial Use - Using open source commercially
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 ## See also
 
 - [Open Source](/open-source/)

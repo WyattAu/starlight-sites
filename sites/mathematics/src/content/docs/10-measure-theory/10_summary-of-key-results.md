@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "Summary of Key Results"
 tags:
@@ -19,15 +18,19 @@ description: "Study notes for Summary of Key Results | Mathematics with worked e
 }
 </script>
 
+<div class="table-wrap">
+
 | Theorem                | Conditions                                | Conclusion                               |
-| ---------------------- | ----------------------------------------- | ---------------------------------------- | --------------- | ------------------------ |
+| ---------------------- | ----------------------------------------- | ---------------------------------------- |
 | Monotone Convergence   | $0 \leq f_n \nearrow f$                   | $\lim \int f_n = \int f$                 |
-| Fatou"s Lemma          | $f_n \geq 0$                              | $\int \liminf f_n \leq \liminf \int f_n$ |
-| Dominated Convergence  | $f_n \to f$, $                            | f_n                                      | \leq g \in L^1$ | $\lim \int f_n = \int f$ |
+| Fatou's Lemma          | $f_n \geq 0$                              | $\int \liminf f_n \leq \liminf \int f_n$ |
+| Dominated Convergence  | $f_n \to f$, $                            \| f_n                                      \| \leq g \in L^1$ | $\lim \int f_n = \int f$ |
 | Holder's Inequality    | $f \in L^p$, $g \in L^q$, $1/p + 1/q = 1$ | $\|fg\|_1 \leq \|f\|_p \|g\|_q$          |
 | Minkowski's Inequality | $f, g \in L^p$                            | $\|f + g\|_p \leq \|f\|_p + \|g\|_p$     |
 | Fubini                 | $f \in L^1(\mu \times \nu)$               | Iterated integrals equal double integral |
 | Radon-Nikodym          | $\nu \ll \mu$, $\sigma$-finite            | $d\nu/d\mu$ exists and is unique a.e.    |
+
+</div>
 
 ### Monotone Convergence Theorem
 
@@ -143,44 +146,45 @@ the Radon-Nikodym theorem connects measures via densities.
 
 ### Quick Reference: Measure Spaces
 
+<div class="table-wrap">
+
 | Concept | Definition | Example |
 | --------- | ----------- | --------- |
 | $\sigma$-algebra | Collection closed under complements and countable unions | Borel $\sigma$-algebra on $\mathbb{R}$ |
 | Measure | Countably additive set function | Lebesgue measure, counting measure |
 | Measurable function | Preimage of Borel set is measurable | Continuous functions, indicator functions |
 | Almost everywhere | Property holds except on a null set | $f = g$ a.e. |
-| $L^p$ space | $\{f : \int | f | ^p < \infty\}$ modulo a.e. equality | $L^1$, $L^2$, $L^\infty$ |
+| $L^p$ space | $\{f : \int \| f \| ^p < \infty\}$ modulo a.e. equality | $L^1$, $L^2$, $L^\infty$ |
+
+</div>
 
 ### Quick Reference: Convergence Modes
+
+<div class="table-wrap">
 
 | Mode of convergence | Definition | Relation to others |
 | -------------------- | ----------- | ------------------- |
 | Pointwise a.e. | $f_n(x) \to f(x)$ for almost every $x$ | Weakest |
-| Uniform | $\sup_x | f_n(x) - f(x) | \to 0$ | Implies pointwise |
+| Uniform | $\sup_x \| f_n(x) - f(x) \| \to 0$ | Implies pointwise |
 | $L^p$ | $\|f_n - f\|_p \to 0$ | Implies convergence in measure |
-| In measure | $\mu\{ | f_n - f | > \varepsilon\} \to 0$ | Has a subsequence converging a.e. |
+| In measure | $\mu\{ \| f_n - f \| > \varepsilon\} \to 0$ | Has a subsequence converging a.e. |
 | Weak $L^p$ | $\int f_n g \to \int f g$ for all $g \in L^q$ | Weakest of the $L^p$ modes |
+
+</div>
 
 ### Key Inequalities
 
+<div class="table-wrap">
+
 | Inequality | Statement | Use case |
 | ----------- | ----------- | ---------- |
-| Chebyshev | $\mu( | f | \geq t) \leq \|f\|_p^p / t^p$ | Markov-type bounds |
+| Chebyshev | $\mu( \| f \| \geq t) \leq \|f\|_p^p / t^p$ | Markov-type bounds |
 | Young | $ab \leq a^p/p + b^q/q$ | Proving H\"older |
 | H\"older | $\|fg\|_1 \leq \|f\|_p \|g\|_q$ | Duality of $L^p$ spaces |
 | Minkowski | $\|f+g\|_p \leq \|f\|_p + \|g\|_p$ | Triangle inequality |
 | Jensen | $\phi(\int f) \leq \int \phi(f)$ for convex $\phi$ | Entropy inequalities |
 
-
-```mermaid
-flowchart TD
-    A[10_Summary Of Key Results] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Cross-References
 
@@ -188,10 +192,10 @@ flowchart TD
 - **[Measurable Functions](/10-measure-theory/5_measurable-functions/)**: Defines the function classes to which the convergence theorems and inequalities apply.
 - **[$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)**: Provides the Banach space framework where Hölder and Minkowski inequalities govern the geometry.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 

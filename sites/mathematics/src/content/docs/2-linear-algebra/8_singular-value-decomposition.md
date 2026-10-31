@@ -5,7 +5,7 @@ title: "Singular Value Decomposition"
 tags:
   - Mathematics
   - University
-description: 'Singular Value Decomposition: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "The singular value decomposition: existence, its relationship to eigenvalues, the geometric picture of a map as rotate-scale-rotate, low-rank approximation and the Eckart-Young theorem, the pseudoinverse, the condition number and numerical stability. The theorem that works for every matrix, not just the square ones. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -17,12 +17,65 @@ description: 'Singular Value Decomposition: comprehensive educational content no
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- State the SVD of a matrix $A$. What are the shapes of the three factors?
+- Does every matrix have one? What about a non-square matrix?
+- How are the singular values related to the eigenvalues of $A^TA$?
+- State the Eckart-Young theorem.
+- What is the condition number, and what does a large one tell you?
+
+Check your answers against the text. Prompt 2 is the one that separates the
+SVD from the spectral theorem: the spectral theorem needs a square, normal
+matrix, and the SVD does not care.
+
+## Motivation: the theorem that works for every matrix
+
+Diagonalisation is the tool of section 5, and it has a catch: it needs a
+square matrix with a full set of eigenvectors. Rectangular matrices -- the ones
+that describe data, transformations between different spaces, and every
+least-squares problem -- are left out.
+
+The singular value decomposition removes every one of those restrictions. Any
+$m \times n$ matrix, real or complex, singular or not, admits a factorisation
+
+$$
+A = U\Sigma V^T,
+$$
+
+with $U$ and $V$ orthogonal and $\Sigma$ diagonal with non-negative entries.
+Those entries are the **singular values**, and they are the answer to a
+geometric question rather than an algebraic one.
+
+**The geometric picture is the best way in.** Every linear map does three
+things, in this order: rotate, scale along the axes, rotate again. That is all
+the SVD says. The columns of $V$ are the directions in the domain that get
+mapped to the directions of $U$ in the codomain, and $\Sigma$ says how much
+each is stretched.
+
+**Why the singular values are what they are.** They are the square roots of the
+eigenvalues of $A^TA$, which is symmetric and positive semidefinite -- so the
+spectral theorem applies and the square roots are real and non-negative. That
+is the whole relationship to section 5: the SVD is the spectral theorem applied
+to $A^TA$, written so that it says something about $A$.
+
+**What it buys you.** The Eckart-Young theorem says that truncating the SVD to
+the largest $k$ singular values gives the *best* rank-$k$ approximation, in the
+least-squares sense -- not a good approximation, the best one. That single
+theorem is the basis of data compression, principal component analysis, noise
+reduction and recommender systems, and it is why the SVD is the most useful
+theorem in applied linear algebra.
+
 ### 8.1 Existence of the SVD
 
 **Theorem 8.1 (Singular Value Decomposition).** Every matrix
 $A \in \mathcal{M}_{m \times n}(\mathbb{R})$ can be factored as
 
-$$A = U \Sigma V^T$$
+$$
+A = U \Sigma V^T
+$$
 
 Where $U \in \mathcal{M}_{m \times m}(\mathbb{R})$ is orthogonal,
 $V \in \mathcal{M}_{n \times n}(\mathbb{R})$ is orthogonal, and
@@ -38,17 +91,21 @@ $\sigma_1^2, \sigma_2^2, \ldots, \sigma_n^2$ be these eigenvalues (some may be z
 corresponding orthonormal eigenvectors $\mathbf{v}_1, \ldots, \mathbf{v}_n$ forming the columns of
 $V$.
 
-For each $i$ with $\sigma_i > 0$Define $\mathbf{u}_i = A\mathbf{v}_i / \sigma_i$. We verify that
+For each $i$ with $\sigma_i > 0$ Define $\mathbf{u}_i = A\mathbf{v}_i / \sigma_i$. We verify that
 these form an orthonormal set:
 
-$$\mathbf{u}_i^T \mathbf{u}_j = \frac{\mathbf{v}_i^T A^T A \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2 \mathbf{v}_i^T \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2}{\sigma_i \sigma_j} \delta_{ij} = \delta_{ij}$$
+$$
+\mathbf{u}_i^T \mathbf{u}_j = \frac{\mathbf{v}_i^T A^T A \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2 \mathbf{v}_i^T \mathbf{v}_j}{\sigma_i \sigma_j} = \frac{\sigma_j^2}{\sigma_i \sigma_j} \delta_{ij} = \delta_{ij}
+$$
 
 Extend $\{\mathbf{u}_1, \ldots, \mathbf{u}_r\}$ to an orthonormal basis of $\mathbb{R}^m$ to form
 $U$. Then for any vector $\mathbf{x} \in \mathbb{R}^n$:
 
-$$A\mathbf{x} = A\left(\sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x})\mathbf{v}_i\right) = \sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x}) A\mathbf{v}_i = \sum_{i=1}^{r} \sigma_i (\mathbf{v}_i^T \mathbf{x}) \mathbf{u}_i = U \Sigma V^T \mathbf{x}$$
+$$
+A\mathbf{x} = A\left(\sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x})\mathbf{v}_i\right) = \sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x}) A\mathbf{v}_i = \sum_{i=1}^{r} \sigma_i (\mathbf{v}_i^T \mathbf{x}) \mathbf{u}_i = U \Sigma V^T \mathbf{x}
+$$
 
-Since this holds for all $\mathbf{x}$We have $A = U \Sigma V^T$. $\blacksquare$
+Since this holds for all $\mathbf{x}$ We have $A = U \Sigma V^T$. $\blacksquare$
 
 ### 8.2 Relationship to Eigenvalues
 
@@ -57,7 +114,9 @@ Since this holds for all $\mathbf{x}$We have $A = U \Sigma V^T$. $\blacksquare$
 
 _Proof._ From the construction above, $A^T A \mathbf{v}_i = \sigma_i^2 \mathbf{v}_i$. For $AA^T$:
 
-$$AA^T \mathbf{u}_i = \frac{A(A^T A)\mathbf{v}_i}{\sigma_i} = \frac{\sigma_i^2 A\mathbf{v}_i}{\sigma_i} = \sigma_i^2 \mathbf{u}_i$$
+$$
+AA^T \mathbf{u}_i = \frac{A(A^T A)\mathbf{v}_i}{\sigma_i} = \frac{\sigma_i^2 A\mathbf{v}_i}{\sigma_i} = \sigma_i^2 \mathbf{u}_i
+$$
 
 So $\mathbf{u}_i$ is an eigenvector of $AA^T$ with eigenvalue $\sigma_i^2$. The non-zero eigenvalues
 of $A^T A$ and $AA^T$ coincide (since if $A^T A \mathbf{v} = \lambda \mathbf{v}$ with
@@ -67,7 +126,7 @@ $A\mathbf{v} \neq \mathbf{0}$). $\blacksquare$
 **Proposition 8.3.** If $A$ is symmetric with eigenvalues $\lambda_1, \ldots, \lambda_n$ Then the
 singular values of $A$ are $|\lambda_1|, \ldots, |\lambda_n|$.
 
-_Proof._ $A^T A = A^2$Whose eigenvalues are $\lambda_i^2$. The singular values are
+_Proof._ $A^T A = A^2$ Whose eigenvalues are $\lambda_i^2$. The singular values are
 $\sqrt{\lambda_i^2} = |\lambda_i|$. $\blacksquare$
 
 ### 8.3 Geometric Interpretation
@@ -80,31 +139,39 @@ The SVD decomposes the linear transformation $T : \mathbb{R}^n \to \mathbb{R}^m$
    where $\sigma_i = 0$).
 3. $U$ rotates (or reflects) the result into the coordinate system of the left singular vectors.
 
-**Unit circle image.** Under $A$The unit circle in $\mathbb{R}^2$ is mapped to an ellipse with
+**Unit circle image.** Under $A$ The unit circle in $\mathbb{R}^2$ is mapped to an ellipse with
 semi-axes $\sigma_1$ and $\sigma_2$ aligned with the columns of $U$.
 
 ### 8.4 Low-Rank Approximation
 
 **Theorem 8.4 (Eckart--Young--Mirsky).** Let $A = U \Sigma V^T$ be the SVD with singular values
-$\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$. For any $k < r$The best rank-$k$
+$\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$. For any $k < r$ The best rank-$k$
 approximation to $A$ (in both the Frobenius and spectral norms) is
 
-$$A_k = \sum_{i=1}^{k} \sigma_i \mathbf{u}_i \mathbf{v}_i^T = U_k \Sigma_k V_k^T$$
+$$
+A_k = \sum_{i=1}^{k} \sigma_i \mathbf{u}_i \mathbf{v}_i^T = U_k \Sigma_k V_k^T
+$$
 
 And the approximation error is
 
-$$\lVert A - A_k \rVert_F = \sqrt{\sigma_{k+1}^2 + \cdots + \sigma_r^2}, \qquad \lVert A - A_k \rVert_2 = \sigma_{k+1}$$
+$$
+\lVert A - A_k \rVert_F = \sqrt{\sigma_{k+1}^2 + \cdots + \sigma_r^2}, \qquad \lVert A - A_k \rVert_2 = \sigma_{k+1}
+$$
 
 _Proof (Frobenius norm)._ Any rank-$k$ matrix $B$ can be written in terms of an orthonormal basis of
 its column space. Let $W \in \mathcal{M}_{n \times k}(\mathbb{R})$ have orthonormal columns spanning
 the column space of $B$. Then $B = CW^T$ for some $C$ And:
 
-$$\lVert A - B \rVert_F^2 = \lVert A(I - WW^T) \rVert_F^2 + \lVert (A - C)W^T \rVert_F^2 \geq \lVert A(I - WW^T) \rVert_F^2$$
+$$
+\lVert A - B \rVert_F^2 = \lVert A(I - WW^T) \rVert_F^2 + \lVert (A - C)W^T \rVert_F^2 \geq \lVert A(I - WW^T) \rVert_F^2
+$$
 
 The minimum over $W$ is achieved when $W$ spans the subspace spanned by
 $\mathbf{v}_1, \ldots, \mathbf{v}_k$ (the top $k$ right singular vectors), giving:
 
-$$\lVert A - A_k \rVert_F^2 = \sum_{i=k+1}^{r} \sigma_i^2$$
+$$
+\lVert A - A_k \rVert_F^2 = \sum_{i=k+1}^{r} \sigma_i^2
+$$
 
 The spectral norm result follows because $\lVert A - A_k \rVert_2 = \sigma_{k+1}$ is the largest
 singular value of $A - A_k$. $\blacksquare$
@@ -113,12 +180,16 @@ singular value of $A - A_k$. $\blacksquare$
 
 **Definition.** The **Moore--Penrose pseudoinverse** of $A = U \Sigma V^T$ is
 
-$$A^+ = V \Sigma^+ U^T$$
+$$
+A^+ = V \Sigma^+ U^T
+$$
 
 Where $\Sigma^+$ is obtained from $\Sigma$ by transposing and inverting each non-zero singular
 value:
 
-$$(\Sigma^+)_{ii} = \begin{cases} 1/\sigma_i & \text{if}  \sigma_i > 0 \\ 0 & \text{if}  \sigma_i = 0 \end{cases}$$
+$$
+(\Sigma^+)_{ii} = \begin{cases} 1/\sigma_i & \text{if}  \sigma_i > 0 \\ 0 & \text{if}  \sigma_i = 0 \end{cases}
+$$
 
 **Theorem 8.5.** The pseudoinverse satisfies the four Moore--Penrose conditions:
 
@@ -129,7 +200,9 @@ $$(\Sigma^+)_{ii} = \begin{cases} 1/\sigma_i & \text{if}  \sigma_i > 0 \\ 0 & \t
 
 _Proof._ Direct computation using $A = U \Sigma V^T$ and $A^+ = V \Sigma^+ U^T$:
 
-$$AA^+A = U \Sigma V^T V \Sigma^+ U^T U \Sigma V^T = U \Sigma \Sigma^+ \Sigma V^T = U \Sigma V^T = A$$
+$$
+AA^+A = U \Sigma V^T V \Sigma^+ U^T U \Sigma V^T = U \Sigma \Sigma^+ \Sigma V^T = U \Sigma V^T = A
+$$
 
 Since $\Sigma \Sigma^+ \Sigma = \Sigma$ (the non-zero singular values are preserved, zeros remain
 zero). The remaining conditions follow similarly. $\blacksquare$
@@ -139,22 +212,26 @@ $\mathbf{x}^* = A^+\mathbf{b}$ is the least-squares solution of minimum norm.
 
 _Proof._ The least-squares solutions to $A\mathbf{x} \approx \mathbf{b}$ are
 $\mathbf{x} = A^+\mathbf{b} + (I - A^+A)\mathbf{z}$ for arbitrary $\mathbf{z}$. Since
-$(I - A^+A)\mathbf{z} \in \ker(A)$ and $A^+\mathbf{b} \in \mathrm{im}(A^T)$These two components are
-orthogonal. The minimum-norm solution is obtained when $\mathbf{z} = \mathbf{0}$Giving
+$(I - A^+A)\mathbf{z} \in \ker(A)$ and $A^+\mathbf{b} \in \mathrm{im}(A^T)$ These two components are
+orthogonal. The minimum-norm solution is obtained when $\mathbf{z} = \mathbf{0}$ Giving
 $\mathbf{x}^* = A^+\mathbf{b}$. $\blacksquare$
 
 ### 8.6 Condition Number
 
 **Definition.** The **condition number** of $A$ (with respect to the spectral norm) is
 
-$$\kappa(A) = \lVert A \rVert_2 \cdot \lVert A^+ \rVert_2 = \frac{\sigma_1}{\sigma_r}$$
+$$
+\kappa(A) = \lVert A \rVert_2 \cdot \lVert A^+ \rVert_2 = \frac{\sigma_1}{\sigma_r}
+$$
 
 Where $\sigma_1$ is the largest and $\sigma_r$ is the smallest non-zero singular value.
 
 **Theorem 8.7 (Sensitivity of Linear Systems).** If $A\mathbf{x} = \mathbf{b}$ and
 $A(\mathbf{x} + \delta\mathbf{x}) = \mathbf{b} + \delta\mathbf{b}$ Then
 
-$$\frac{\lVert \delta\mathbf{x} \rVert}{\lVert \mathbf{x} \rVert} \leq \kappa(A) \cdot \frac{\lVert \delta\mathbf{b} \rVert}{\lVert \mathbf{b} \rVert}$$
+$$
+\frac{\lVert \delta\mathbf{x} \rVert}{\lVert \mathbf{x} \rVert} \leq \kappa(A) \cdot \frac{\lVert \delta\mathbf{b} \rVert}{\lVert \mathbf{b} \rVert}
+$$
 
 _Proof._ From $A\delta\mathbf{x} = \delta\mathbf{b}$:
 $\lVert \delta\mathbf{x} \rVert = \lVert A^{-1}\delta\mathbf{b} \rVert \leq \lVert A^{-1} \rVert \lVert \delta\mathbf{b} \rVert = \sigma_r^{-1} \lVert \delta\mathbf{b} \rVert$.
@@ -181,7 +258,7 @@ $A^T A = \begin{pmatrix} 3 & 2 & 2 \\ 2 & 3 & -2 \end{pmatrix}\begin{pmatrix} 3 
 **Step 2:** Eigenvalues of $A^T A$:
 $\det\begin{pmatrix} 17 - \lambda & 4 \\ 4 & 17 - \lambda \end{pmatrix} = (17 - \lambda)^2 - 16 = \lambda^2 - 34\lambda + 273 = (\lambda - 21)(\lambda - 13)$.
 
-So $\sigma_1^2 = 21$ and $\sigma_2^2 = 13$Giving $\sigma_1 = \sqrt{21}$, $\sigma_2 = \sqrt{13}$.
+So $\sigma_1^2 = 21$ and $\sigma_2^2 = 13$ Giving $\sigma_1 = \sqrt{21}$, $\sigma_2 = \sqrt{13}$.
 
 **Step 3:** Eigenvectors of $A^T A$. For $\lambda = 21$: $(17 - 21)v_1 + 4v_2 = 0$ So $v_1 = v_2$.
 Normalised: $\mathbf{v}_1 = \frac{1}{\sqrt{2}}(1, 1)^T$.
@@ -197,15 +274,21 @@ $\mathbf{u}_1 = \frac{1}{\sqrt{21}} \cdot \frac{1}{\sqrt{2}}\begin{pmatrix} 3 & 
 
 $\mathbf{u}_2 = \frac{1}{\sqrt{13}} \cdot \frac{1}{\sqrt{2}}\begin{pmatrix} 3 & 2 \\ 2 & 3 \\ 2 & -2 \end{pmatrix}\begin{pmatrix} 1 \\ -1 \end{pmatrix} = \frac{1}{\sqrt{26}}\begin{pmatrix} 1 \\ -1 \\ 4 \end{pmatrix}$.
 
-Since $A$ is $3 \times 2$We need a third left singular vector $\mathbf{u}_3$ orthogonal to
+Since $A$ is $3 \times 2$ We need a third left singular vector $\mathbf{u}_3$ orthogonal to
 $\mathbf{u}_1$ and $\mathbf{u}_2$. Compute
 $\mathbf{u}_3 = \mathbf{u}_1 \times \mathbf{u}_2 = \frac{1}{\sqrt{52}}(4, -4, -2) = \frac{1}{\sqrt{26}}(2, -2, -1)$.
 
-$$U = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}$$
+$$
+U = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}
+$$
 
-$$\Sigma = \begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}$$
+$$
+\Sigma = \begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}
+$$
 
-$$A = U \Sigma V^T = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}\begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}\frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$$
+$$
+A = U \Sigma V^T = \begin{pmatrix} 1/\sqrt{2} & 1/\sqrt{26} & 2/\sqrt{26} \\ 1/\sqrt{2} & -1/\sqrt{26} & -2/\sqrt{26} \\ 0 & 4/\sqrt{26} & -1/\sqrt{26} \end{pmatrix}\begin{pmatrix} \sqrt{21} & 0 \\ 0 & \sqrt{13} \\ 0 & 0 \end{pmatrix}\frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}
+$$
 
 **Verification:** $U$ and $V$ are orthogonal, $\Sigma$ has the correct singular values on the
 diagonal, and $A = U\Sigma V^T$ recovers the original matrix. $\blacksquare$
@@ -297,7 +380,7 @@ Think of the SVD as finding the "natural coordinate system" for a transformation
 ### 8.11 Common Pitfalls
 
 - **Singular values are always non-negative.** Unlike eigenvalues, which can be negative or complex,
-  singular values are the square roots of eigenvalues of $A^T A$Hence always real and non-negative.
+  singular values are the square roots of eigenvalues of $A^T A$ Hence always real and non-negative.
 - **The SVD is not unique.** If $A$ has repeated singular values, the corresponding singular vectors
   can be any orthonormal basis of the eigenspace. The signs of singular vectors can also be flipped
   in pairs.
@@ -305,18 +388,80 @@ Think of the SVD as finding the "natural coordinate system" for a transformation
   rank, $A^+A \neq I$; instead, $A^+A$ is the orthogonal projection onto $\mathrm{im}(A^T)$.
 - **The SVD and eigendecomposition are different decompositions.** The SVD always exists for any
   matrix, but the eigendecomposition requires the matrix to be square. Even for symmetric matrices,
-  the singular values are $|\lambda_i|$Not $\lambda_i$.
+  the singular values are $|\lambda_i|$ Not $\lambda_i$.
 
+## Counterexamples worth knowing by name
 
-```mermaid
-flowchart TD
-    A[8_Singular Value Decomposition] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+<div class="table-wrap">
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Singular values are eigenvalues | no | they are the square roots of the eigenvalues of $A^TA$, which are not eigenvalues of $A$; for a non-symmetric $A$ they differ |
+| Only square matrices have an SVD | no | every $m \times n$ matrix has one, and that is the whole point |
+| The singular values are distinct | no | repeated singular values are common and make the factors $U$ and $V$ non-unique |
+| The SVD is unique | no | $\Sigma$ is unique up to ordering, but $U$ and $V$ are not unique when singular values coincide |
+| Zero singular values mean the matrix is useless | no | they tell you the rank, and the corresponding right singular vectors span the null space -- which is what you want when solving $Ax = 0$ |
+| A large condition number means the answer is wrong | no | it means the answer may be *sensitive*; the computed solution can still be accurate if the data is exact |
+| Truncating the SVD loses information | yes, and that is the point | the rank-$k$ truncation is the closest rank-$k$ matrix there is, so what is lost is the part that is least well determined |
+| The pseudoinverse is computed by inverting $A$ | no | it is computed from the SVD by inverting the non-zero singular values, which works when $A$ is not invertible at all |
+
+</div>
+
+The first row is the most common confusion, and it is worth being precise:
+for a symmetric positive semidefinite $A$ the singular values and eigenvalues
+*coincide*, and that special case is why the two ideas get muddled.
+
+The condition number row is the practical one. $\kappa(A) = \sigma_{\max} /
+\sigma_{\min}$ measures how much a relative error in the input can be amplified,
+and a large value is why some linear systems cannot be solved reliably no
+matter how good the algorithm is.
+
+## Where the research frontier is
+
+- **Randomised numerical linear algebra.** Computing a rank-$k$ SVD by sampling
+  rather than by exact factorisation, which is how very large matrices are
+  handled in practice.
+- **Robust low-rank approximation.** Eckart-Young is optimal in least squares,
+  which is catastrophic under outliers; replacing the norm is the active
+  question.
+- **Matrix completion.** The Netflix problem: recover a matrix from a tiny
+  sample of entries, using low rank as the prior, with theory that is still
+  being sharpened.
+- **Tensor decompositions.** The SVD does not generalise uniquely to higher
+  orders, and the competing generalisations -- CP, Tucker, tensor train -- are
+  an active design space.
+- **Non-negative matrix factorisation.** Restricting the factors to be
+  non-negative makes the problem non-convex but interpretable, and the theory
+  is far less complete than for the SVD.
+
+## Interleaving problems
+
+Mix these with [Eigenvalues and
+Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/), [Inner Product
+Spaces](/2-linear-algebra/7_inner-product-spaces/), [Systems of Linear
+Equations](/2-linear-algebra/4_systems-of-linear-equations/), [Real Analysis](https://mathematics.wyattau.com/3-real-analysis/3_series/).
+
+1. (Eigenvalues.) Show that the singular values of $A$ are the square roots of
+   the eigenvalues of $A^TA$, and hence that the largest singular value equals
+   the operator norm $\lVert A \rVert_2$. Then compute both for a rotation
+   matrix and explain the answer.
+2. (Inner product spaces.) Prove that the best rank-$k$ approximation in the
+   Frobenius norm keeps the $k$ largest singular values. Identify which part of
+   the proof uses orthogonality and would fail in a general norm.
+3. (Systems of equations.) Use the SVD to write down the solution of
+   $Ax = b$ of minimum norm when $A$ is rank-deficient, and explain what the
+   small singular values do to it.
+4. (Optimisation.) Principal component analysis centres a data matrix and takes
+   its SVD. Show that the leading right singular vectors maximise the projected
+   variance, which is why PCA is an optimisation problem rather than a
+   definition.
+5. (Numerical analysis.) A matrix with condition number $10^{16}$ cannot be
+   reliably inverted in double precision. Explain what that number means in
+   terms of the singular values, and why it is a statement about the problem
+   rather than the algorithm.
+6. (Research.) State the Eckart-Young theorem precisely and explain why it
+   fails if the Frobenius norm is replaced by the operator norm -- and what the
+   correct answer is in that norm.
 
 ## Cross-References
 
@@ -324,5 +469,5 @@ flowchart TD
 - **[Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)**: The SVD uses orthonormal bases derived from inner products on the column and row spaces of a matrix.
 - **[Systems of Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/)**: The pseudoinverse derived from the SVD provides minimum-norm least squares solutions to inconsistent linear systems.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

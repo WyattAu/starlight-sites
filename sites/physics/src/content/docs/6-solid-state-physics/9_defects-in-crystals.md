@@ -27,14 +27,18 @@ description: '- Missing atom at a lattice site. - Extra atom between lattice sit
 
 **Equilibrium concentration of vacancies:**
 
-$$n_v = N\,e^{-E_v/(k_B T)}$$
+$$
+n_v = N\,e^{-E_v/(k_B T)}
+$$
 
 where $N$ is the number of lattice sites and $E_v$ is the vacancy formation energy ($\sim 1$ eV).
 
 **Derivation.** Minimising the free energy $F = n_v E_v - T S_{\mathrm{config}}$ where
 $S_{\mathrm{config}} = k_B \ln\binom{N}{n_v}$:
 
-$$\frac{\partial F}{\partial n_v} = E_v + k_B T \ln\left(\frac{n_v}{N - n_v}\right) = 0$$
+$$
+\frac{\partial F}{\partial n_v} = E_v + k_B T \ln\left(\frac{n_v}{N - n_v}\right) = 0
+$$
 
 For $n_v \ll N$: $n_v = N e^{-E_v/(k_B T)}$. $\blacksquare$
 
@@ -47,7 +51,9 @@ For $n_v \ll N$: $n_v = N e^{-E_v/(k_B T)}$. $\blacksquare$
 Dislocations enable **plastic deformation** at stresses far below the theoretical shear strength.
 The Peach-Koehler force on a dislocation:
 
-$$\mathbf{F} = (\boldsymbol{\sigma}\cdot\mathbf{b}) \times \hat{\mathbf{t}}$$
+$$
+\mathbf{F} = (\boldsymbol{\sigma}\cdot\mathbf{b}) \times \hat{\mathbf{t}}
+$$
 
 where $\boldsymbol{\sigma}$ is the stress tensor and $\hat{\mathbf{t}}$ is the unit tangent to the
 dislocation line.
@@ -83,7 +89,9 @@ low interfacial energy.
 (perpendicular to the slip plane, requiring mass transport). The **Peierls-Nabarro stress**
 $\tau_P$ is the stress required to move a dislocation:
 
-$$\tau_P = \frac{2G}{1 - \nu} e^{-2\pi w/b}$$
+$$
+\tau_P = \frac{2G}{1 - \nu} e^{-2\pi w/b}
+$$
 
 where $G$ is the shear modulus, $\nu$ is Poisson's ratio, $w$ is the dislocation width, and $b$
 is the Burgers vector magnitude.
@@ -179,18 +187,7 @@ MX is $n_S = N e^{-E_S/(2k_B T)}$, where $E_S$ is the energy to create a cation-
 - **[Superconductivity](/6-solid-state-physics/7_superconductivity/)**: Defects can pin Abrikosov vortices in Type II superconductors, enhancing the critical current density.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
-
-
-```mermaid
-flowchart TD
-    A[9_Defects In Crystals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ## Intuition
 

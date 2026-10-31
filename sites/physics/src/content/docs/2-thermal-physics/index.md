@@ -55,7 +55,6 @@ graph TD
     S --> Q[Heat Transfer]
 ```
 
-
 ## Contents
 
 1. [The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/)
@@ -92,7 +91,7 @@ University-level thermal physics notes covering thermodynamics, statistical mech
 
 ## Prerequisites
 
-- Classical mechanics (Newton"s laws, energy, momentum)
+- Classical mechanics (Newton's laws, energy, momentum)
 - Multivariable calculus (partial derivatives, integrals)
 - Basic quantum mechanics (helpful but not required)
 - Mathematical proofs and logic
@@ -102,8 +101,6 @@ University-level thermal physics notes covering thermodynamics, statistical mech
 Start with the laws of thermodynamics to build foundational knowledge, then progress to statistical mechanics and phase transitions. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -131,7 +128,7 @@ Each section includes:
 - **Mathematics:** Probability theory and combinatorics underpin statistical mechanics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

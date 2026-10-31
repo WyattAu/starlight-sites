@@ -20,7 +20,7 @@ categories:
 </script>
 
 In C++, the language specification (syntax, keywords, type system) and the Standard Library (headers
-Like `<vector>``<iostream>`) are distinct entities. While the ISO C++ standard defines the
+like `<vector>`, `<iostream>`) are distinct entities. While the ISO C++ standard defines the
 _interface_ and _behavior_ of the library, the actual code is provided by a specific **Standard
 Library Implementation**.
 
@@ -71,6 +71,8 @@ There are three primary implementations of the C++ Standard Library currently in
 
 ## Implementation Comparison Matrix
 
+<div class="table-wrap">
+
 | Dimension                          | libstdc++                           | libc++                                  | MSVC STL                               |
 | :--------------------------------- | :---------------------------------- | :-------------------------------------- | :------------------------------------- |
 | **Maintainer**                     | FSF / GCC Project                   | LLVM Project                            | Microsoft                              |
@@ -90,11 +92,13 @@ There are three primary implementations of the C++ Standard Library currently in
 | **Modules support**                | Partial (GCC 12+)                   | Good (Clang 16+)                        | Partial                                |
 | **Concepts/Ranges completeness**   | High (GCC 13+)                      | High (Clang 16+)                        | High (MSVC 19.38+)                     |
 
+</div>
+
 ## ABI Architectures and Symbol Mangling
 
 When a C++ program is compiled, high-level types like `std::vector<int>` are mangled into unique
 Symbol names in the binary. The strategy for this mangling differs by implementation, which enforces
-The rule that **all linked object files must share the same standard library implementation.**
+the rule that **all linked object files must share the same standard library implementation.**
 
 ### libstdc++: The Dual ABI Mechanism
 
@@ -134,8 +138,8 @@ namespace std {
 ```
 
 :::danger
-`B.exe` is compiled with `_GLIBCXX_USE_CXX11_ABI=1`The linker will fail with "Undefined Reference To
-`std::string`" because the application is looking for `std::__cxx11::string`But the library Provides
+`B.exe` is compiled with `_GLIBCXX_USE_CXX11_ABI=1`. The linker will fail with "Undefined Reference To
+`std::string`" because the application is looking for `std::__cxx11::string`. But the library Provides
 `std::string`.
 :::
 
@@ -165,7 +169,7 @@ Macro controls which version is active.
 ## Header-Only vs. Linked Library Components
 
 The C++ standard library is not a single monolithic binary. It is split into components that are
-Either header-only (compiled into each translation unit) or linked from a pre-compiled shared/static
+either header-only (compiled into each translation unit) or linked from a pre-compiled shared/static
 Library.
 
 ### Header-Only Components
@@ -173,14 +177,14 @@ Library.
 Most of the standard library is implemented entirely in headers. These include:
 
 - All type traits (`<type_traits>`)
-- Algorithms (`<algorithm>``<numeric>`)
+- Algorithms (`<algorithm>`, `<numeric>`)
 - Iterators (`<iterator>`)
 - Memory utilities (`<memory>`)
-- Container adaptors (`<queue>``<stack>`)
-- Most containers (`<vector>``<map>``<unordered_map>``<string_view>`)
-- `<format>``<print>` (C++20/23)
-- `<ranges>``<concepts>` (C++20)
-- `<expected>``<flat_map>``<mdspan>` (C++23)
+- Container adaptors (`<queue>`, `<stack>`)
+- Most containers (`<vector>`, `<map>`, `<unordered_map>`, `<string_view>`)
+- `<format>`, `<print>` (C++20/23)
+- `<ranges>`, `<concepts>` (C++20)
+- `<expected>`, `<flat_map>`, `<mdspan>` (C++23)
 
 These are "header-only" in the sense that the implementation is entirely in headers, but they are
 **not** standalone headers -- they depend on other internal headers and the linked runtime library.
@@ -188,6 +192,8 @@ These are "header-only" in the sense that the implementation is entirely in head
 ### Linked Components
 
 The following require linking against a runtime library:
+
+<div class="table-wrap">
 
 | Component                             | libstdc++ library | libc++ library | MSVC library  |
 | :------------------------------------ | :---------------- | :------------- | :------------ |
@@ -199,8 +205,10 @@ The following require linking against a runtime library:
 | `std::regex`                          | `libstdc++.so`    | `libc++.so`    | `msvcprt.lib` |
 | `std::filesystem`                     | `libstdc++.so`    | `libc++.so`    | `msvcprt.lib` |
 
+</div>
+
 The split between the "C++ library" (`libc++.so`) and the "ABI library" (`libc++abi.so`) is unique
-To libc++. The ABI library handles the low-level runtime support (exception unwinding, RTTI, memory
+to libc++. The ABI library handles the low-level runtime support (exception unwinding, RTTI, memory
 Allocation), while the C++ library handles the higher-level standard library types (I/O, containers,
 Locale).
 
@@ -234,12 +242,16 @@ Operation acquires a mutex (in thread-safe mode).
 
 The hardening modes are:
 
+<div class="table-wrap">
+
 | Mode           | Flag Value                         | Effect                              |
 | :------------- | :--------------------------------- | :---------------------------------- |
 | None (default) | `_LIBCPP_HARDENING_MODE_NONE`      | No additional checks                |
 | Minimal        | `_LIBCPP_HARDENING_MODE_MINIMAL`   | Assertions only in debug builds     |
 | Extensive      | `_LIBCPP_HARDENING_MODE_EXTENSIVE` | Bounds checking on `operator[]`Etc. |
 | Debug          | `_LIBCPP_HARDENING_MODE_DEBUG`     | All checks, plus abort on UB        |
+
+</div>
 
 ### MSVC Iterator Debugging
 
@@ -253,9 +265,11 @@ The hardening modes are:
 MSVC's checked iterators work by adding a `_Container_proxy` object to each container. This proxy
 Maintains a list of all iterators created from the container. When the container is modified, the
 Proxy invalidates all iterators. Accessing an invalidated iterator triggers an assertion failure
-With a detailed diagnostic.
+with a detailed diagnostic.
 
 ### Checked Iterators Comparison
+
+<div class="table-wrap">
 
 | Feature                    | libstdc++ Debug      | libc++ Hardening         | MSVC STL (IDL=2)    |
 | :------------------------- | :------------------- | :----------------------- | :------------------ |
@@ -267,10 +281,12 @@ With a detailed diagnostic.
 | Per-TU enablement          | No (all-or-nothing)  | Yes                      | No (all-or-nothing) |
 | Performance overhead       | High (2-5x slowdown) | Low (5-10% in extensive) | Moderate (1.5-3x)   |
 
+</div>
+
 ## Configuration and Selection
 
 While GCC is hardcoded to `libstdc++` and MSVC to `MSVC STL`**Clang** is a retargetable compiler
-That can use any implementation.
+that can use any implementation.
 
 ### Selecting the Library with Clang
 
@@ -331,7 +347,7 @@ int main() {
 ## Feature Test Macros
 
 The C++ standard library uses **feature test macros** to allow code to conditionally compile based
-On the availability of specific features in the implementation. This is defined by
+on the availability of specific features in the implementation. This is defined by
 [N4950 S20.4.3](https://wg21.link/N4950).
 
 ### Detecting Standard Conformance
@@ -394,6 +410,8 @@ int main() {
 
 ### Important Feature Test Macros
 
+<div class="table-wrap">
+
 | Macro                 | Feature          | Minimum Standard |
 | --------------------- | ---------------- | ---------------- |
 | `__cpp_lib_concepts`  | Concepts library | C++20            |
@@ -405,6 +423,8 @@ int main() {
 | `__cpp_lib_expected`  | `std::expected`  | C++23            |
 | `__cpp_lib_flat_map`  | `std::flat_map`  | C++23            |
 | `__cpp_lib_mdspan`    | `std::mdspan`    | C++23            |
+
+</div>
 
 The value of each macro is a date `YYYYMML` indicating when the feature was finalized. A higher
 Value means a more complete implementation.
@@ -615,13 +635,19 @@ Measurable in specific scenarios.
 
 ### Benchmark: `std::vector<int>` Push Back (Millions of elements)
 
+<div class="table-wrap">
+
 | Operation                 | libstdc++ (GCC 13) | libc++ (Clang 17) | MSVC STL (VS 2022) |
 | ------------------------- | ------------------ | ----------------- | ------------------ |
 | `push_back` (1M elements) | 12ms               | 11ms              | 13ms               |
 | `reserve` + `push_back`   | 8ms                | 7ms               | 9ms                |
 | Random access (1M reads)  | 2ms                | 2ms               | 2ms                |
 
+</div>
+
 ### Benchmark: `std::string` Operations
+
+<div class="table-wrap">
 
 | Operation                       | libstdc++ | libc++ | MSVC STL |
 | ------------------------------- | --------- | ------ | -------- |
@@ -629,6 +655,8 @@ Measurable in specific scenarios.
 | SSO hit (short string)          | 8ns       | 5ns    | 7ns      |
 | Concatenation (medium)          | 120ns     | 95ns   | 130ns    |
 | `find` substring (1KB)          | 450ns     | 380ns  | 420ns    |
+
+</div>
 
 ### Key Differences
 
@@ -646,6 +674,8 @@ Feature implementations. The following table shows feature support status as of 
 
 ### C++23 Library Feature Support
 
+<div class="table-wrap">
+
 | Feature                           | libstdc++ (GCC 14) | libc++ (Clang 18) | MSVC STL (VS 2022 17.10+) |
 | :-------------------------------- | :----------------- | :---------------- | :------------------------ |
 | `std::print` / `std::println`     | Yes                | Yes               | Yes                       |
@@ -661,7 +691,11 @@ Feature implementations. The following table shows feature support status as of 
 | `std::byteswap`                   | Yes                | Yes               | Yes                       |
 | `std::start_lifetime_as`          | Partial            | Yes               | No                        |
 
+</div>
+
 ### C++20 Library Feature Support
+
+<div class="table-wrap">
 
 | Feature                    | libstdc++ (GCC 13) | libc++ (Clang 17) | MSVC STL (VS 2022) |
 | :------------------------- | :----------------- | :---------------- | :----------------- |
@@ -676,7 +710,11 @@ Feature implementations. The following table shows feature support status as of 
 | Calendar / Time zone       | Yes                | Yes               | Yes                |
 | `<source_location>`        | Yes                | Yes               | Yes                |
 
+</div>
+
 ### Thread Support Comparison
+
+<div class="table-wrap">
 
 | Feature                        | libstdc++ | libc++ | MSVC STL |
 | :----------------------------- | :-------- | :----- | :------- |
@@ -687,12 +725,14 @@ Feature implementations. The following table shows feature support status as of 
 | `std::atomic<shared_ptr>`      | Yes       | Yes    | Yes      |
 | Stop token (`std::stop_token`) | Yes       | Yes    | Yes      |
 
+</div>
+
 ## Choosing the Right Implementation
 
 ### Decision Framework
 
 The choice of standard library implementation is often dictated by the target platform, but when
-There is a choice (e.g., Clang on Linux), the following criteria apply:
+there is a choice (e.g., Clang on Linux), the following criteria apply:
 
 **Choose `libstdc++` when:**
 
@@ -718,7 +758,7 @@ There is a choice (e.g., Clang on Linux), the following criteria apply:
 ### Mixed-Project Considerations
 
 In large organizations, different teams may use different standard libraries. The boundary between
-Such codebases must use a C-compatible ABI (plain C functions, opaque pointers, or flat buffers).
+such codebases must use a C-compatible ABI (plain C functions, opaque pointers, or flat buffers).
 Never pass C++ standard types across such a boundary.
 
 ```cpp
@@ -770,16 +810,6 @@ extern "C" {
   library for cross-compilation
 - [Linker Configuration](/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration/) -- Linking against the standard library
 
-```mermaid
-flowchart TD
-    A[3_Standard_Library_Implementation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of standard library implementation, including underlying theory,
@@ -793,13 +823,7 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -815,4 +839,4 @@ The C++ standard library provides containers, algorithms, I/O, and utilities. li
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)

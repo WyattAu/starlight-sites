@@ -24,7 +24,7 @@ categories:
 
 ### Algorithm
 
-**Problem:** Given an array $A[0..n-1]$ and a target value $x$Determine whether $x$ exists in $A$
+**Problem:** Given an array $A[0..n-1]$ and a target value $x$ Determine whether $x$ exists in $A$
 And return its index (or $-1$ if not found).
 
 ```python
@@ -37,13 +37,13 @@ def linear_search(A, x):
 
 ### Correctness
 
-**Theorem.** `linear_search(A, x)` returns the index of the first occurrence of $x$ in $A$Or $-1$ If
+**Theorem.** `linear_search(A, x)` returns the index of the first occurrence of $x$ in $A$ Or $-1$ If
 $x$ is not present.
 
-**Proof.** The algorithm examines elements $A[0], A[1], \ldots$ in order. If $A[i] = x$It
-Immediately returns $i$Which is the first occurrence since all earlier elements were checked and
-Found not equal to $x$. If the loop completes without finding $x$ Then $x \notin A$ And $-1$ is
-Returned. $\square$
+**Proof.** The algorithm examines elements $A[0], A[1], \ldots$ in order. If $A[i] = x$ It
+Immediately returns $i$ Which is the first occurrence since all earlier elements were checked and
+found not equal to $x$. If the loop completes without finding $x$ Then $x \notin A$ And $-1$ is
+returned. $\square$
 
 ### Complexity Analysis
 
@@ -57,8 +57,10 @@ $n$ comparisons. Since each comparison takes $O(1)$ time, the total is $O(n)$. $
 
 **Proof.** Consider an adversary argument. An adversary can answer "not equal" to the first $n-1$
 Comparisons. Only after checking all $n$ elements can the algorithm conclude that $x$ is absent. Any
-Algorithm that does not check all $n$ positions can be fooled: the unchecked position could contain
+algorithm that does not check all $n$ positions can be fooled: the unchecked position could contain
 $x$. Therefore, at least $n$ comparisons are necessary in the worst case. $\square$
+
+<div class="table-wrap">
 
 | Case    | Comparisons | Time   |
 | ------- | ----------- | ------ |
@@ -66,13 +68,15 @@ $x$. Therefore, at least $n$ comparisons are necessary in the worst case. $\squa
 | Average | $n/2$       | $O(n)$ |
 | Worst   | $n$         | $O(n)$ |
 
+</div>
+
 <hr />
 
 ## 2. Binary Search
 
 ### Algorithm
 
-**Problem:** Given a **sorted** array $A[0..n-1]$ and a target value $x$Find the index of $x$ (or
+**Problem:** Given a **sorted** array $A[0..n-1]$ and a target value $x$ Find the index of $x$ (or
 Determine that $x$ is not present).
 
 ```python
@@ -92,7 +96,7 @@ def binary_search(A, x):
 
 ### Correctness Proof
 
-**Theorem.** `binary_search(A, x)` returns the index of $x$ in the sorted array $A$Or $-1$ if $x$ Is
+**Theorem.** `binary_search(A, x)` returns the index of $x$ in the sorted array $A$ Or $-1$ if $x$ Is
 not present.
 
 **Proof.** We prove by invariant.
@@ -100,8 +104,8 @@ not present.
 **Invariant:** At the start of each loop iteration, if $x$ exists in $A$ Then
 $x \in A[\mathrm{low}..\mathrm{high}]$.
 
-**Base case.** Initially, `low = 0` and `high = n-1`So
-$A[\mathrm{low}..\mathrm{high}] = A[0..n-1] = A$. If $x \in A$The invariant holds.
+**Base case.** Initially, `low = 0` and `high = n-1`. So
+$A[\mathrm{low}..\mathrm{high}] = A[0..n-1] = A$. If $x \in A$ The invariant holds.
 
 **Maintenance.** Three cases:
 
@@ -113,7 +117,7 @@ $A[\mathrm{low}..\mathrm{high}] = A[0..n-1] = A$. If $x \in A$The invariant hold
    $x \notin A[\mathrm{mid}..n-1]$. Setting `high = mid - 1` restricts the search to
    $A[\mathrm{low}..\mathrm{mid}-1]$. If $x$ was in the old range, it is in the new range.
 
-**Termination.** The loop terminates when `low > high`Meaning $A[\mathrm{low}..\mathrm{high}]$ is
+**Termination.** The loop terminates when `low > high`. Meaning $A[\mathrm{low}..\mathrm{high}]$ is
 Empty. By the invariant, $x \notin A$. Return $-1$. ✓
 
 $\square$
@@ -122,14 +126,16 @@ $\square$
 
 **Theorem.** Binary search performs $O(\log n)$ comparisons.
 
-**Proof.** At each iteration, the search range is halved. Starting with a range of size $n$After $k$
+**Proof.** At each iteration, the search range is halved. Starting with a range of size $n$ After $k$
 iterations the range size is at most $\lceil n/2^k \rceil$. The algorithm terminates when the Range
-is empty, which happens when $n/2^k \lt 1$I.e., $k \gt \log_2 n$. Therefore, the maximum Number of
+is empty, which happens when $n/2^k \lt 1$ I.e., $k \gt \log_2 n$. Therefore, the maximum Number of
 iterations is $\lfloor \log_2 n \rfloor + 1 = O(\log n)$. $\square$
 
 **Formal derivation.** Let $T(n)$ be the number of comparisons for an array of size $n$.
 
-$$T(n) = T(n/2) + O(1), \quad T(1) = O(1)$$
+$$
+T(n) = T(n/2) + O(1), \quad T(1) = O(1)
+$$
 
 By the Master Theorem (case 2): $T(n) = O(\log n)$.
 
@@ -137,10 +143,12 @@ By the Master Theorem (case 2): $T(n) = O(\log n)$.
 Requires $\Omega(\log n)$ comparisons in the worst case.
 
 **Proof.** A decision tree for searching a sorted array of $n$ elements has at least $n + 1$ leaves
-($n$ possible positions for $x$Plus "not found"). A binary tree of height $h$ has at most
+($n$ possible positions for $x$ Plus "not found"). A binary tree of height $h$ has at most
 $2^{h+1} - 1$ leaves, so:
 
-$$n + 1 \leq 2^{h+1} - 1 \implies h \geq \lceil \log_2(n + 2) \rceil - 1 = \Omega(\log n)$$
+$$
+n + 1 \leq 2^{h+1} - 1 \implies h \geq \lceil \log_2(n + 2) \rceil - 1 = \Omega(\log n)
+$$
 
 $\square$
 
@@ -152,9 +160,13 @@ Use `mid = low + (high - low) // 2` for safety.
 <details>
 <summary>Example: Trace binary search for x = 7 in [1, 3, 5, 7, 9, 11, 13]</summary>
 
+<div class="table-wrap">
+
 | Iteration | low | high | mid | A[mid] | Action          |
 | --------- | --- | ---- | --- | ------ | --------------- |
 | 1         | 0   | 6    | 3   | 7      | Found! Return 3 |
+
+</div>
 
 Result: index 3. ✓
 
@@ -163,12 +175,16 @@ Result: index 3. ✓
 <details>
 <summary>Example: Trace binary search for x = 6 in [1, 3, 5, 7, 9, 11, 13]</summary>
 
+<div class="table-wrap">
+
 | Iteration | low | high | mid | A[mid] | Action                |
 | --------- | --- | ---- | --- | ------ | --------------------- |
 | 1         | 0   | 6    | 3   | 7      | 7 > 6, high = 2       |
 | 2         | 0   | 2    | 1   | 3      | 3 < 6, low = 2        |
 | 3         | 2   | 2    | 2   | 5      | 5 < 6, low = 3        |
 | 4         | 3   | 2    |,   |,      | low > high, return -1 |
+
+</div>
 
 Result: -1 (not found). ✓
 
@@ -191,13 +207,15 @@ def binary_search_recursive(A, x, low, high):
 
 :::note
 Sorted data and may require trace tables. **CIE (9618)** requires linear search and binary search
-With pseudocode. **OCR (A)** requires linear and binary search; may also cover hash-based searching.
+with pseudocode. **OCR (A)** requires linear and binary search; may also cover hash-based searching.
 **Edexcel** covers linear and binary search algorithms.
 :::
 
 <hr />
 
 ## 3. Comparison of Search Algorithms
+
+<div class="table-wrap">
 
 | Property              | Linear Search | Binary Search         |
 | --------------------- | ------------- | --------------------- |
@@ -207,6 +225,8 @@ With pseudocode. **OCR (A)** requires linear and binary search; may also cover h
 | Worst case            | $O(n)$        | $O(\log n)$           |
 | Data structure        | Array, list   | Array (random access) |
 | Works on linked list? | Yes           | No (no random access) |
+
+</div>
 
 <hr />
 
@@ -249,6 +269,8 @@ Comparisons are made?
 
 The value 8 is not in the array. All 8 elements are checked:
 
+<div class="table-wrap">
+
 | Step | Index | A[index] | Comparison | Count |
 | ---- | ----- | -------- | ---------- | ----- |
 | 1    | 0     | 3        | 3 ≠ 8      | 1     |
@@ -260,6 +282,8 @@ The value 8 is not in the array. All 8 elements are checked:
 | 7    | 6     | 2        | 2 ≠ 8      | 7     |
 | 8    | 7     | 6        | 6 ≠ 8      | 8     |
 
+</div>
+
 Total comparisons: 8. Return -1.
 
 </details>
@@ -270,6 +294,8 @@ Total comparisons: 8. Return -1.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Iteration | low | high | mid | A[mid] | Action            |
 | --------- | --- | ---- | --- | ------ | ----------------- |
 | 1         | 0   | 9    | 4   | 16     | 16 < 25, low = 5  |
@@ -277,6 +303,8 @@ Total comparisons: 8. Return -1.
 | 3         | 5   | 6    | 5   | 23     | 23 < 25, low = 6  |
 | 4         | 6   | 6    | 6   | 38     | 38 > 25, high = 5 |
 | 5         | 6   | 5    |,   |,      | low > high → -1   |
+
+</div>
 
 4 comparisons. Result: -1.
 
@@ -303,10 +331,10 @@ Explain what alternative approach could achieve $O(\log n)$ search on a linked l
 
 Binary search requires $O(1)$ access to the middle element (A[mid]). In a singly linked list,
 Accessing the $k$-th element requires traversing $k$ nodes from the head, which is $O(k)$. Finding
-The middle of a list of $n$ elements takes $O(n/2) = O(n)$ time, eliminating the benefit of halving.
+the middle of a list of $n$ elements takes $O(n/2) = O(n)$ time, eliminating the benefit of halving.
 
 Alternative: **Jump list / Skip list**, a data structure with multiple levels of linked lists that
-Allows $O(\log n)$ search by "skipping" ahead at higher levels, analogous to binary search.
+allows $O(\log n)$ search by "skipping" ahead at higher levels, analogous to binary search.
 
 </details>
 
@@ -317,9 +345,9 @@ Argument.
 <summary>Answer</summary>
 
 An adversary constructs the worst case dynamically. The adversary maintains that the target $x$ is
-Not at any position already examined by the algorithm. After $n - 1$ comparisons, all positions
-Except one have been checked. The adversary places $x$ at the remaining unchecked position (or
-Declares it absent). Therefore, any correct algorithm must check all $n$ positions in the worst
+not at any position already examined by the algorithm. After $n - 1$ comparisons, all positions
+except one have been checked. The adversary places $x$ at the remaining unchecked position (or
+declares it absent). Therefore, any correct algorithm must check all $n$ positions in the worst
 Case, requiring $\Omega(n)$ comparisons. $\square$
 
 </details>
@@ -372,7 +400,7 @@ def search_rotated(A, x):
 ```
 
 The key insight: one half of the array (left or right of mid) is always sorted. Determine which half
-Is sorted and whether the target lies within it.
+is sorted and whether the target lies within it.
 
 </details>
 
@@ -383,12 +411,12 @@ Floating-point division instead of integer division). What goes wrong?
 <summary>Answer</summary>
 
 In Python, `/` produces a float, and using a float as an array index raises a `TypeError`. In
-Languages like C/Java, `int mid = (low + high) / 2` truncates toward zero, which works correctly for
-Positive values but is technically implementation-dependent.
+languages like C/Java, `int mid = (low + high) / 2` truncates toward zero, which works correctly for
+positive values but is technically implementation-dependent.
 
-The more serious bug is **integer overflow**: if `low + high > INT_MAX`The sum overflows. The
-Correct form is `mid = low + (high - low) / 2`Which cannot overflow since `high - low` is always
-Non-negative and less than `INT_MAX`.
+The more serious bug is **integer overflow**: if `low + high > INT_MAX`. The sum overflows. The
+correct form is `mid = low + (high - low) / 2`. Which cannot overflow since `high - low` is always
+non-negative and less than `INT_MAX`.
 
 For revision on sorting, see
 [Sorting Algorithms](/computer-science/algorithms/02-sorting-algorithms/).
@@ -406,18 +434,22 @@ Many comparisons are made until the item is found?
 <summary>Hint</summary>
 
 Step through each element from index 0, comparing each with the target 14. Count each comparison
-Until a match is found.
+until a match is found.
 
 </details>
 
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Step | Index | A[index] | Comparison | Count |
 | ---- | ----- | -------- | ---------- | ----- |
 | 1    | 0     | 7        | 7 ≠ 14     | 1     |
 | 2    | 1     | 3        | 3 ≠ 14     | 2     |
 | 3    | 2     | 14       | 14 = 14 ✓  | 3     |
+
+</div>
 
 3 comparisons are made. The value 14 is found at index 2. The algorithm returns 2.
 
@@ -437,6 +469,8 @@ The value 5 is not in the array, so the algorithm must check every single elemen
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Step | Index | A[index] | Comparison | Count |
 | ---- | ----- | -------- | ---------- | ----- |
 | 1    | 0     | 10       | 10 ≠ 5     | 1     |
@@ -448,6 +482,8 @@ The value 5 is not in the array, so the algorithm must check every single elemen
 | 7    | 6     | 70       | 70 ≠ 5     | 7     |
 | 8    | 7     | 80       | 80 ≠ 5     | 8     |
 | 9    | 8     | 90       | 90 ≠ 5     | 9     |
+
+</div>
 
 9 comparisons are made. The value 5 is not found, so the algorithm returns -1. This is the worst
 Case for an array of 9 elements, every element must be checked.
@@ -462,18 +498,22 @@ Taken.
 <summary>Hint</summary>
 
 Start with low = 0, high = 9. Calculate mid = (0 + 9) // 2 = 4. Compare A[4] with 42 and adjust the
-Range accordingly.
+range accordingly.
 
 </details>
 
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Iteration | low | high | mid | A[mid] | Action            |
 | --------- | --- | ---- | --- | ------ | ----------------- |
 | 1         | 0   | 9    | 4   | 35     | 35 < 42, low = 5  |
 | 2         | 5   | 9    | 7   | 58     | 58 > 42, high = 6 |
 | 3         | 5   | 6    | 5   | 42     | Found! Return 5   |
+
+</div>
 
 3 comparisons are made. The value 42 is found at index 5.
 
@@ -486,12 +526,14 @@ Range accordingly.
 <summary>Hint</summary>
 
 The value 15 lies between 14 (index 3) and 18 (index 4). The algorithm will narrow down to this gap
-And then terminate with low > high.
+and then terminate with low > high.
 
 </details>
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Iteration | low | high | mid | A[mid] | Action             |
 | --------- | --- | ---- | --- | ------ | ------------------ |
@@ -499,6 +541,8 @@ And then terminate with low > high.
 | 2         | 4   | 7    | 5   | 22     | 22 > 15, high = 4  |
 | 3         | 4   | 4    | 4   | 18     | 18 > 15, high = 3  |
 | 4         | 4   | 3    |,   |,      | low > high, return |
+
+</div>
 
 4 comparisons are made. The value 15 is not in the array, so the algorithm returns -1.
 
@@ -528,20 +572,20 @@ Searches. Use O(n log n) for sorting and O(log n) for each binary search.
 - Total: O(133,000) + O(14,000) = O(147,000) comparisons
 
 Sort + binary search is approximately **68 times more efficient** in total. The one-time cost of
-Sorting is quickly amortised over multiple queries. The more queries needed, the greater the
-Advantage of sorting first.
+sorting is quickly amortised over multiple queries. The more queries needed, the greater the
+advantage of sorting first.
 
 </details>
 
 **Problem 6.** A database contains 500,000 records sorted by a unique key field. Explain which
 Search algorithm is more efficient and calculate the maximum number of comparisons for each
-Algorithm.
+algorithm.
 
 <details>
 <summary>Hint</summary>
 
 Since the data is already sorted, binary search can be applied directly. Calculate ⌊log₂(n)⌋ + 1 for
-The binary search worst case.
+the binary search worst case.
 
 </details>
 
@@ -556,7 +600,7 @@ Complexity: $O(\log n)$.
 
 Binary search is dramatically more efficient, at most 19 comparisons versus 500,000 for linear
 Search, an improvement factor of approximately 26,000×. Since the data is already sorted, there is
-No additional preprocessing cost.
+no additional preprocessing cost.
 
 </details>
 
@@ -577,6 +621,8 @@ $\lfloor x \rfloor$ means the greatest integer less than or equal to $x$.
 
 Using $\lfloor \log_2 n \rfloor + 1$:
 
+<div class="table-wrap">
+
 | $n$       | $\log_2 n$ | $\lfloor \log_2 n \rfloor$ | Max comparisons |
 | --------- | ---------- | -------------------------- | --------------- |
 | 15        | 3.91       | 3                          | 3 + 1 = **4**   |
@@ -584,20 +630,22 @@ Using $\lfloor \log_2 n \rfloor + 1$:
 | 500       | 8.97       | 8                          | 8 + 1 = **9**   |
 | 1,000,000 | 19.93      | 19                         | 19 + 1 = **20** |
 
+</div>
+
 This demonstrates the power of logarithmic growth: searching through a million elements requires
-Only 20 comparisons maximum.
+only 20 comparisons maximum.
 
 </details>
 
 **Problem 8.** Write pseudocode for (a) a linear search that returns the index of the first
 Occurrence of a target value in an array, and (b) a binary search on a sorted array that returns the
-Index of the target or -1 if not found.
+index of the target or -1 if not found.
 
 <details>
 <summary>Hint</summary>
 
 Linear search uses a simple FOR loop checking each element. Binary search uses a WHILE loop with low
-And high pointers, calculating mid each iteration.
+and high pointers, calculating mid each iteration.
 
 </details>
 
@@ -638,7 +686,7 @@ ENDFUNCTION
 ```
 
 Note: In the binary search, `DIV 2` performs integer division (floor division), which is equivalent
-To `//` in Python.
+to `//` in Python.
 
 </details>
 
@@ -656,6 +704,8 @@ The array has 11 elements (indices 0–10). Start with low = 0, high = 10. The f
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Iteration | low | high | mid | A[mid] | Comparison | Action          |
 | --------- | --- | ---- | --- | ------ | ---------- | --------------- |
 | 1         | 0   | 10   | 5   | 20     | 20 > 17    | high = 4        |
@@ -663,22 +713,24 @@ The array has 11 elements (indices 0–10). Start with low = 0, high = 10. The f
 | 3         | 3   | 4    | 3   | 15     | 15 < 17    | low = 4         |
 | 4         | 4   | 4    | 4   | 17     | 17 = 17 ✓  | Found! Return 4 |
 
+</div>
+
 4 comparisons are made. The value 17 is found at index 4.
 
 </details>
 
 **Problem 10.** (Exam-style) A school library system stores 20,000 book records. The librarian needs
 To: (a) search for a book by its ISBN (the catalogue is sorted by ISBN), (b) check whether a
-Specific book ID exists in an unsorted list of 50 recently returned books, (c) find the price of a
-Book given its ISBN in a sorted price catalogue. For each scenario, justify which search algorithm
-Is most appropriate, stating your assumptions about the data structure and ordering.
+specific book ID exists in an unsorted list of 50 recently returned books, (c) find the price of a
+book given its ISBN in a sorted price catalogue. For each scenario, justify which search algorithm
+is most appropriate, stating your assumptions about the data structure and ordering.
 
 <details>
 <summary>Hint</summary>
 
 Consider three factors for each scenario: (1) Is the data sorted? (2) How large is the dataset? (3)
 How many searches will be performed? The cost of sorting must be weighed against the benefit of
-Binary search.
+binary search.
 
 </details>
 
@@ -696,17 +748,21 @@ Search is optimal. If many repeated searches were needed, sorting first and usin
 Comparisons max) would become worthwhile after approximately 6 searches ($282 / 50 \approx 5.6$).
 
 **(c) Binary search.** The price catalogue is sorted by ISBN with random access. Binary search finds
-The ISBN in $O(\log 20\,000) \approx 15$ comparisons, then retrieves the price at that index in
+the ISBN in $O(\log 20\,000) \approx 15$ comparisons, then retrieves the price at that index in
 $O(1)$. Linear search would require $O(20\,000)$ comparisons, unnecessary when the data is already
 Sorted.
 
 **Summary:**
+
+<div class="table-wrap">
 
 | Scenario              | Data size | Sorted? | Best algorithm | Max comparisons |
 | --------------------- | --------- | ------- | -------------- | --------------- |
 | (a) ISBN lookup       | 20,000    | Yes     | Binary search  | 15              |
 | (b) Recently returned | 50        | No      | Linear search  | 50              |
 | (c) Price lookup      | 20,000    | Yes     | Binary search  | 15              |
+
+</div>
 
 </details>
 
@@ -741,26 +797,9 @@ Sorted.
 
 5. **Miscounting comparisons in binary search traces.** Each iteration of binary search involves exactly one comparison (A[mid] vs target). Students sometimes count multiple comparisons per iteration or forget that the loop termination condition itself is a comparison.
 
-```mermaid
-flowchart TD
-    A[01 Searching Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

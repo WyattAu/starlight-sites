@@ -39,7 +39,7 @@ Bits:    [31    24][23    16][15     8][7      0]
 ```
 
 The total IPv4 address space is $2^{32} = 4,294,967,296$ addresses. This was considered sufficient
-In the 1970s but is grossly inadequate for today"s Internet, where every smartphone, server, VM, and
+in the 1970s but is grossly inadequate for today"s Internet, where every smartphone, server, VM, and
 Container needs an address.
 
 ### Binary Representation
@@ -55,12 +55,18 @@ Working with IP addresses in binary is essential for understanding subnetting. C
 
 Quick reference for binary-to-decimal conversion:
 
+<div class="table-wrap">
+
 | Bit | Value | Bit | Value | Bit | Value | Bit | Value |
 | --- | ----- | --- | ----- | --- | ----- | --- | ----- |
 | 7   | 128   | 6   | 64    | 5   | 32    | 4   | 16    |
 | 3   | 8     | 2   | 4     | 1   | 2     | 0   | 1     |
 
+</div>
+
 ### Special IPv4 Addresses
+
+<div class="table-wrap">
 
 | Address         | Purpose                                                   |
 | --------------- | --------------------------------------------------------- |
@@ -75,9 +81,13 @@ Quick reference for binary-to-decimal conversion:
 | 198.51.100.0/24 | Documentation (RFC 5737, TEST-NET-2)                      |
 | 203.0.113.0/24  | Documentation (RFC 5737, TEST-NET-3)                      |
 
+</div>
+
 ### Address Classes (Historical)
 
 Before CIDR (Classless Inter-Domain Routing), IPv4 addresses were divided into five classes:
+
+<div class="table-wrap">
 
 | Class | First Octet Range | Network Bits | Host Bits | Default Subnet Mask | Usable Hosts |
 | ----- | ----------------- | ------------ | --------- | ------------------- | ------------ |
@@ -86,6 +96,8 @@ Before CIDR (Classless Inter-Domain Routing), IPv4 addresses were divided into f
 | C     | 192-223           | 24           | 8         | 255.255.255.0 (/24) | 254          |
 | D     | 224-239           | N/A          | N/A       | N/A (multicast)     | N/A          |
 | E     | 240-255           | N/A          | N/A       | N/A (reserved)      | N/A          |
+
+</div>
 
 The class was determined by the first few bits of the first octet:
 
@@ -108,7 +120,7 @@ Necessary.
 ## CIDR Notation
 
 CIDR (Classless Inter-Domain Routing) expresses a network as an IP address followed by a slash and
-The number of network bits (the prefix length):
+the number of network bits (the prefix length):
 
 ```
 192.168.1.0/24    -- 24 network bits, 8 host bits
@@ -124,6 +136,8 @@ Address. The subnet mask is the binary representation of this boundary.
 A /24 prefix means the first 24 bits are network bits. In binary:
 `11111111.11111111.11111111.00000000` = `255.255.255.0`.
 
+<div class="table-wrap">
+
 | CIDR | Subnet Mask     | Binary                              |
 | ---- | --------------- | ----------------------------------- |
 | /8   | 255.0.0.0       | 11111111.00000000.00000000.00000000 |
@@ -135,6 +149,8 @@ A /24 prefix means the first 24 bits are network bits. In binary:
 | /28  | 255.255.255.240 | 11111111.11111111.11111111.11110000 |
 | /30  | 255.255.255.252 | 11111111.11111111.11111111.11111100 |
 | /32  | 255.255.255.255 | 11111111.11111111.11111111.11111111 |
+
+</div>
 
 ### Number of Hosts Formula
 
@@ -209,6 +225,8 @@ Memory allocation -- first-fit with largest-first ordering.
 
 The "magic number" method for /24 and larger subnets:
 
+<div class="table-wrap">
+
 | Prefix | Block Size | Usable Hosts | Subnets from /24 |
 | ------ | ---------- | ------------ | ---------------- |
 | /25    | 128        | 126          | 2                |
@@ -220,8 +238,10 @@ The "magic number" method for /24 and larger subnets:
 | /31    | 2          | 2\*          | 128              |
 | /32    | 1          | 1            | 256              |
 
+</div>
+
 \*A /31 (RFC 3021) is used for point-to-point links where the network and broadcast addresses are
-Not needed. Both addresses are usable as host addresses.
+not needed. Both addresses are usable as host addresses.
 
 ### Subnetting Practice: Finding the Subnet of an Address
 
@@ -238,11 +258,11 @@ Given `192.168.5.130/26`Find the subnet:
 ## VLSM (Variable Length Subnet Masking)
 
 VLSM allows different subnets of the same parent network to have different prefix lengths. This is
-The standard practice in modern networks and is a direct consequence of CIDR.
+the standard practice in modern networks and is a direct consequence of CIDR.
 
 Without VLSM, every subnet within a network must have the same size. With VLSM, you can allocate /30
 Subnets for point-to-point links, /24 subnets for user LANs, and /26 subnets for server VLANs -- all
-From the same address space.
+from the same address space.
 
 VLSM is how every real network operates. The subnetting example above is a VLSM allocation.
 
@@ -288,11 +308,15 @@ The summarized route covers all four /24 networks. Traffic destined for any addr
 RFC 1918 defines three ranges of private IPv4 addresses that are not routable on the public
 Internet:
 
+<div class="table-wrap">
+
 | Range                         | CIDR           | Block Size           | Class |
 | ----------------------------- | -------------- | -------------------- | ----- |
 | 10.0.0.0 - 10.255.255.255     | 10.0.0.0/8     | 16,777,216 addresses | A     |
 | 172.16.0.0 - 172.31.255.255   | 172.16.0.0/12  | 1,048,576 addresses  | B     |
 | 192.168.0.0 - 192.168.255.255 | 192.168.0.0/16 | 65,536 addresses     | C     |
+
+</div>
 
 These addresses are used for internal networks. Traffic from private addresses must pass through a
 NAT device (or a proxy) to reach the public Internet. Multiple organizations can use the same
@@ -328,7 +352,7 @@ Maintaining a translation table to map return traffic.
 **SNAT (Source NAT):** Rewrites the source IP address of outgoing packets. This is the most common
 Form of NAT, used by home routers and corporate firewalls. The internal host 192.168.1.100 sends a
 Packet to 203.0.113.50; the NAT device rewrites the source to its public IP 203.0.113.1 and records
-The mapping.
+the mapping.
 
 **DNAT (Destination NAT):** Rewrites the destination IP address of incoming packets. Used for port
 Forwarding. External traffic to 203.0.113.1:80 is forwarded to 192.168.1.10:80.
@@ -440,8 +464,8 @@ sequenceDiagram
 
 DHCP clients broadcast DHCPDISCOVER, which does not cross router boundaries. On networks with
 Multiple subnets, a **DHCP relay agent** (RFC 1542) forwards DHCP broadcasts to a DHCP server on
-Another subnet. The relay agent adds the `giaddr` (gateway IP address) field to identify the subnet
-From which the request originated, allowing the DHCP server to offer an address from the correct
+another subnet. The relay agent adds the `giaddr` (gateway IP address) field to identify the subnet
+from which the request originated, allowing the DHCP server to offer an address from the correct
 Pool.
 
 ```bash
@@ -456,6 +480,8 @@ apt install isc-dhcp-relay
 ### DHCP Options
 
 DHCP options carry configuration parameters beyond the IP address:
+
+<div class="table-wrap">
 
 | Option Code | Name                     | Example                           |
 | ----------- | ------------------------ | --------------------------------- |
@@ -472,6 +498,8 @@ DHCP options carry configuration parameters beyond the IP address:
 | 81          | Client FQDN              | client01.example.com              |
 | 119         | Domain Search List       | example.com, corp.example.com     |
 | 252         | WPAD URL                 | <http://proxy.example.com/wpad.dat> |
+
+</div>
 
 ### DHCP Servers
 
@@ -570,6 +598,8 @@ ip neigh add 192.168.1.20 lladdr aa:bb:cc:dd:ee:ff dev eth0 nud permanent
 
 Cache states (Linux `ip neigh`):
 
+<div class="table-wrap">
+
 | State      | Meaning                                                     |
 | ---------- | ----------------------------------------------------------- |
 | REACHABLE  | Entry is valid and reachable                                |
@@ -579,6 +609,8 @@ Cache states (Linux `ip neigh`):
 | INCOMPLETE | ARP request sent, no reply received yet                     |
 | FAILED     | ARP resolution failed                                       |
 | PERMANENT  | Static entry, never expires                                 |
+
+</div>
 
 Cache timers vary by OS:
 
@@ -598,13 +630,13 @@ A host sends a gratuitous ARP (GARP) to announce its own IP-to-MAC mapping. This
    tables.
 
 A gratuitous ARP is an ARP request where the source and target IP are the same, or an ARP reply sent
-Without a corresponding request. Some implementations ignore gratuitous ARPs as a security measure
+without a corresponding request. Some implementations ignore gratuitous ARPs as a security measure
 (to prevent ARP spoofing), but this breaks failover mechanisms.
 
 ### ARP Spoofing
 
 ARP has no authentication. Any host on the local segment can send a forged ARP reply claiming to be
-Another IP address. This is called **ARP spoofing** or **ARP poisoning** and enables:
+another IP address. This is called **ARP spoofing** or **ARP poisoning** and enables:
 
 - **Man-in-the-middle attacks:** The attacker claims to be the default gateway, intercepting all
   outbound traffic.
@@ -641,16 +673,18 @@ Colons:
 ### IPv6 Address Space
 
 The total IPv6 address space is $2^{128} = 340,282,366,920,938,463,463,374,607,431,768,211,456$
-Addresses. This is approximately $3.4 \times 10^{38}$Or roughly $5 \times 10^{28}$ addresses per
+Addresses. This is approximately $3.4 \times 10^{38}$ Or roughly $5 \times 10^{28}$ addresses per
 Person on Earth.
 
 To put this in perspective: if every atom on Earth's surface were assigned an IPv6 address, there
-Would still be approximately $1.5 \times 10^{17}$ addresses per atom remaining.
+would still be approximately $1.5 \times 10^{17}$ addresses per atom remaining.
 
 ### IPv6 Address Types
 
 **Unicast:** Identifies a single interface. Packets sent to a unicast address are delivered to that
 Specific interface.
+
+<div class="table-wrap">
 
 | Prefix      | Scope            | Purpose                                                   |
 | ----------- | ---------------- | --------------------------------------------------------- |
@@ -659,8 +693,12 @@ Specific interface.
 | `fc00::/7`  | Site-local (ULA) | Unique Local Addresses (RFC 4193), equivalent to RFC 1918 |
 | `2000::/3`  | Global           | Globally routable addresses                               |
 
+</div>
+
 **Multicast:** Identifies a group of interfaces. Packets sent to a multicast address are delivered
 To all members of the group. IPv6 has no broadcast -- multicast replaces it.
+
+<div class="table-wrap">
 
 | Prefix     | Purpose                       |
 | ---------- | ----------------------------- |
@@ -668,6 +706,8 @@ To all members of the group. IPv6 has no broadcast -- multicast replaces it.
 | `ff02::1`  | All nodes on the local link   |
 | `ff02::2`  | All routers on the local link |
 | `ff05::1`  | All nodes in the site         |
+
+</div>
 
 **Anycast:** Assigned to multiple interfaces. Packets are routed to the "nearest" interface (by
 Routing protocol metric). Used for DNS anycast (e.g., `8.8.8.8` and `8.8.4.4` are anycast addresses
@@ -723,7 +763,7 @@ Agents and Servers).
 ### IPv6 Transition Mechanisms
 
 The IPv4-to-IPv6 transition has been ongoing since the 1990s. Several mechanisms allow IPv6 and IPv4
-To coexist:
+to coexist:
 
 **Dual-Stack:** Hosts run both IPv4 and IPv6 simultaneously. The OS prefers IPv6 when both are
 Available (Happy Eyeballs algorithm, RFC 8305). This is the most common transition mechanism.
@@ -918,9 +958,6 @@ principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Worked Examples
 

@@ -63,6 +63,8 @@ Examples: Mg, Zn, Ti, Co, Cd.
 
 ### 1.4 Relationship Between Lattice Parameters and Atomic Radius
 
+<div class="table-wrap">
+
 | Structure | Relationship                | Radius in Terms of $a$  |
 | --------- | --------------------------- | ------------------------ |
 | SC        | $a = 2r$                     | $r = a/2$                |
@@ -70,9 +72,13 @@ Examples: Mg, Zn, Ti, Co, Cd.
 | FCC       | $4r = \sqrt{2}\,a$          | $r = \sqrt{2}\,a/4 = a/(2\sqrt{2})$ |
 | HCP       | $a = 2r$, $c/a = 1.633$ (ideal) | $r = a/2$            |
 
+</div>
+
 **Example 1:** Iron has a BCC structure with $a = 286.6$ pm. Calculate the atomic radius.
 
-$$r = \frac{\sqrt{3} \times 286.6}{4} = 124.1 \text{ pm}$$
+$$
+r = \frac{\sqrt{3} \times 286.6}{4} = 124.1 \text{ pm}
+$$
 
 $\blacksquare$
 
@@ -110,11 +116,15 @@ $\blacksquare$
 
 **Theorem 2 (Radius Ratio Rules):** The ratio $r_+/r_-$ determines the coordination geometry:
 
+<div class="table-wrap">
+
 | $r_+/r_-$       | Coordination | Structure           |
 | --------------- | ------------ | -------------------- |
 | 0.225–0.414     | 4 (tetrahedral) | ZnS (zinc blende) |
 | 0.414–0.732     | 6 (octahedral)  | NaCl (rock salt)  |
 | 0.732–1.0       | 8 (cubic)       | CsCl              |
+
+</div>
 
 ## 3. Born-Haber Cycle
 
@@ -125,16 +135,22 @@ formed from its gaseous ions. Always exothermic.
 
 **Theorem 3 (Born-Haber Cycle):** Lattice energy can be calculated thermodynamically:
 
-$$\Delta U = \Delta_f H^\circ - \Delta H_{\text{atom}} - \text{IE} - \frac{1}{2}\text{BDE} - \text{EA}$$
+$$
+\Delta U = \Delta_f H^\circ - \Delta H_{\text{atom}} - \text{IE} - \frac{1}{2}\text{BDE} - \text{EA}
+$$
 
 For NaCl:
-$$\Delta U(\text{NaCl}) = \Delta_f H^\circ(\text{NaCl}) - \Delta H_{\text{sub}}(\text{Na}) - \frac{1}{2}D(\text{Cl}_2) - \text{IE}_1(\text{Na}) - \text{EA}(\text{Cl})$$
+$$
+\Delta U(\text{NaCl}) = \Delta_f H^\circ(\text{NaCl}) - \Delta H_{\text{sub}}(\text{Na}) - \frac{1}{2}D(\text{Cl}_2) - \text{IE}_1(\text{Na}) - \text{EA}(\text{Cl})
+$$
 
 ### 3.2 The Born-Lande Equation
 
 **Theorem 4 (Born-Lande Equation):**
 
-$$\Delta U = -\frac{N_A M z^+ z^- e^2}{4\pi\varepsilon_0 r_0}\left(1 - \frac{1}{n}\right)$$
+$$
+\Delta U = -\frac{N_A M z^+ z^- e^2}{4\pi\varepsilon_0 r_0}\left(1 - \frac{1}{n}\right)
+$$
 
 where:
 
@@ -145,9 +161,13 @@ where:
 
 **Example 2:** Calculate the lattice energy of NaCl with $r_0 = 282$ pm, $n = 8$, $M = 1.748$.
 
-$$\Delta U = -\frac{6.022 \times 10^{23} \times 1.748 \times 1 \times 1 \times (1.602 \times 10^{-19})^2}{4\pi \times 8.854 \times 10^{-12} \times 282 \times 10^{-12}}\left(1 - \frac{1}{8}\right)$$
+$$
+\Delta U = -\frac{6.022 \times 10^{23} \times 1.748 \times 1 \times 1 \times (1.602 \times 10^{-19})^2}{4\pi \times 8.854 \times 10^{-12} \times 282 \times 10^{-12}}\left(1 - \frac{1}{8}\right)
+$$
 
-$$= -\frac{1.748 \times (96.485 \text{ kJ/mol})}{282 \times 10^{-12}} \times 0.875 = -787 \text{ kJ/mol}$$
+$$
+= -\frac{1.748 \times (96.485 \text{ kJ/mol})}{282 \times 10^{-12}} \times 0.875 = -787 \text{ kJ/mol}
+$$
 
 $\blacksquare$
 
@@ -165,17 +185,23 @@ overlap and split into $N$ closely spaced energy levels forming a continuous ban
 
 ### 4.2 Classification of Materials
 
+<div class="table-wrap">
+
 | Type          | Band Gap     | Conductivity ($T$) | Examples                    |
 | ------------- | ------------ | ------------------ | --------------------------- |
 | Conductor     | $E_g = 0$    | Decreases          | Cu, Al, Na, Au             |
 | Semiconductor | $E_g \sim 0.1$–$4$ eV | Increases exponentially | Si (1.1 eV), Ge (0.67 eV) |
 | Insulator     | $E_g > 4$ eV | Very low            | Diamond (5.5 eV), SiO$_2$  |
 
+</div>
+
 ### 4.3 Semiconductor Physics
 
 **Intrinsic semiconductor:** Conductivity due to thermally excited electrons across the band gap:
 
-$$n_i = n_e = n_h = \sqrt{N_c N_v}\,e^{-E_g/2k_BT}$$
+$$
+n_i = n_e = n_h = \sqrt{N_c N_v}\,e^{-E_g/2k_BT}
+$$
 
 where $n_e$ is the electron concentration, $n_h$ is the hole concentration, and $N_c$, $N_v$ are
 the effective density of states.
@@ -195,7 +221,9 @@ the effective density of states.
 
 **Definition 4 (Effective Mass):** The curvature of the band determines the effective mass:
 
-$$m^* = \hbar^2\left(\frac{d^2E}{dk^2}\right)^{-1}$$
+$$
+m^* = \hbar^2\left(\frac{d^2E}{dk^2}\right)^{-1}
+$$
 
 Electrons near the bottom of the conduction band have positive $m^*$; holes near the top of the
 valence band have negative $m^*$ (positive effective mass in the opposite direction).
@@ -207,14 +235,18 @@ valence band have negative $m^*$ (positive effective mass in the opposite direct
 **Definition 5 (Schottky Defect):** A cation-anion pair vacancy. Maintains electrical neutrality
 and approximately constant stoichiometry.
 
-$$\text{Vacancy concentration: } n_s \approx N\,e^{-\Delta H_s/2k_BT}$$
+$$
+\text{Vacancy concentration: } n_s \approx N\,e^{-\Delta H_s/2k_BT}
+$$
 
 Common in NaCl, CsCl (high CN, similar ionic sizes).
 
 **Definition 6 (Frenkel Defect):** An ion displaced from its lattice site to an interstitial position.
 Common when one ion is much smaller (e.g., AgCl, AgBr).
 
-$$\text{Frenkel concentration: } n_f \approx \sqrt{N\,N_i}\,e^{-\Delta H_f/2k_BT}$$
+$$
+\text{Frenkel concentration: } n_f \approx \sqrt{N\,N_i}\,e^{-\Delta H_f/2k_BT}
+$$
 
 where $N_i$ is the number of interstitial sites.
 
@@ -239,11 +271,13 @@ where $N_i$ is the number of interstitial sites.
 
 ## 6. X-Ray Diffraction
 
-### 6.1 Bragg"s Law
+### 6.1 Bragg's Law
 
 **Theorem 6 (Bragg's Law):** Constructive interference occurs when:
 
-$$n\lambda = 2d\sin\theta$$
+$$
+n\lambda = 2d\sin\theta
+$$
 
 where $n$ is the order of reflection, $\lambda$ is the X-ray wavelength, $d$ is the interplanar
 spacing, and $\theta$ is the angle of incidence.
@@ -263,16 +297,24 @@ For a plane intercepting the crystallographic axes at $(a/h, b/k, c/l)$:
 
 For a cubic crystal:
 
-$$d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}}$$
+$$
+d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}}
+$$
 
 **Example 3:** For NaCl ($a = 564$ pm) with Cu K$\alpha$ radiation ($\lambda = 154.2$ pm), find the
 first-order Bragg angle for the (200) reflection.
 
-$$d_{200} = \frac{564}{\sqrt{4}} = 282 \text{ pm}$$
+$$
+d_{200} = \frac{564}{\sqrt{4}} = 282 \text{ pm}
+$$
 
-$$\sin\theta = \frac{\lambda}{2d} = \frac{154.2}{2 \times 282} = 0.2734$$
+$$
+\sin\theta = \frac{\lambda}{2d} = \frac{154.2}{2 \times 282} = 0.2734
+$$
 
-$$\theta = 15.9°$$
+$$
+\theta = 15.9°
+$$
 
 $\blacksquare$
 
@@ -281,11 +323,15 @@ $\blacksquare$
 **Theorem 7 (Systematic Absences):** Certain reflections are absent due to the symmetry of the unit
 cell (glide planes, screw axes, centering).
 
+<div class="table-wrap">
+
 | Lattice Type | Absent When               |
 | ------------- | ------------------------ |
 | SC            | None                     |
 | BCC           | $h + k + l$ = odd        |
 | FCC           | $h, k, l$ mixed (not all odd or all even) |
+
+</div>
 
 ## 7. Phase Diagrams of Solids
 
@@ -313,7 +359,9 @@ Examples:
 **Theorem 8 (Quantum Confinement):** When a semiconductor particle has a size comparable to the
 exciton Bohr radius, the band gap increases (blue shift in absorption/emission).
 
-$$E_g(\text{nanoparticle}) = E_g(\text{bulk}) + \frac{\hbar^2\pi^2}{2R^2}\left(\frac{1}{m_e^*} + \frac{1}{m_h^*}\right) - \frac{1.8e^2}{4\pi\varepsilon_0\varepsilon_r R}$$
+$$
+E_g(\text{nanoparticle}) = E_g(\text{bulk}) + \frac{\hbar^2\pi^2}{2R^2}\left(\frac{1}{m_e^*} + \frac{1}{m_h^*}\right) - \frac{1.8e^2}{4\pi\varepsilon_0\varepsilon_r R}
+$$
 
 where $R$ is the particle radius.
 
@@ -321,7 +369,9 @@ where $R$ is the particle radius.
 
 **Definition 9 (Surface-to-Volume Ratio):** For a nanoparticle of radius $R$:
 
-$$\frac{A}{V} = \frac{3}{R}$$
+$$
+\frac{A}{V} = \frac{3}{R}
+$$
 
 As $R \to 0$, surface atoms become a larger fraction of total atoms, leading to:
 
@@ -331,6 +381,8 @@ As $R \to 0$, surface atoms become a larger fraction of total atoms, leading to:
 
 ### 8.3 Types of Nanomaterials
 
+<div class="table-wrap">
+
 | Type              | Dimensions | Example                     |
 | ----------------- | ---------- | --------------------------- |
 | Nanoparticles     | 0D         | Au, Ag, CdSe quantum dots   |
@@ -338,6 +390,8 @@ As $R \to 0$, surface atoms become a larger fraction of total atoms, leading to:
 | Nanowires         | 1D         | Si nanowires, Ag nanowires  |
 | Nanosheets        | 2D         | Graphene, MoS$_2$           |
 | Nanocomposites    | 3D         | Nanoparticle-polymer blends |
+
+</div>
 
 ## 9. Zeolites
 
@@ -372,7 +426,9 @@ temperature $T_c$.
 
 **Theorem 9 (BCS Theory):** Below $T_c$, electrons form Cooper pairs via phonon-mediated attraction:
 
-$$2\Delta = 3.53\,k_B\,T_c$$
+$$
+2\Delta = 3.53\,k_B\,T_c
+$$
 
 where $\Delta$ is the superconducting energy gap.
 
@@ -427,17 +483,6 @@ Examples:
    bulk properties don't apply to nanomaterials. **Fix:** Use the quantum confinement formula or
    experimental data for nanoparticle-specific properties.
 
-
-```mermaid
-flowchart TD
-    A[Solid State Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Crystal structures:** SC (CN=6), BCC (CN=8), FCC/HCP (CN=12); packing fractions 52%, 68%, 74%.
@@ -477,6 +522,8 @@ Solid-state chemistry explores how atoms pack together in crystalline materials 
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
 | Atomic Structure         | WyattsNotes | [View](/3-inorganic-chemistry/atomic-structure-and-periodicity/)    |
@@ -485,5 +532,7 @@ Solid-state chemistry explores how atoms pack together in crystalline materials 
 | Solid-State Physics      | WyattsNotes | [View](https://physics.wyattau.com/6-solid-state-physics/17_practice-solid-state-physics/)                  |
 | Solid-State Chemistry, MIT 3.091 | MIT OCW | [View](https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+</div>
+
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

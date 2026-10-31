@@ -83,6 +83,8 @@ points to show the topographic profile.
 
 Primary data is collected firsthand by the researcher through fieldwork. Methods include:
 
+<div class="table-wrap">
+
 | Method         | Description                                                                                               | Strengths                                                                  | Limitations                                                               |
 | -------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Questionnaires | Structured or semi-structured surveys administered in person, by post, or online                          | Can collect large volumes of data; standardised questions allow comparison | Response bias; low response rates; leading questions can distort results  |
@@ -90,6 +92,8 @@ Primary data is collected firsthand by the researcher through fieldwork. Methods
 | Measurements   | Quantitative data collected using instruments (e.g., temperature, pH, flow velocity, pebble size)         | Objective; replicable; precise                                             | Equipment errors; sampling may not be representative                      |
 | Interviews     | In-depth, open-ended questioning of individuals                                                           | Rich qualitative data; can explore complex issues                          | Difficult to analyse systematically; small sample sizes; interviewee bias |
 | Field sketches | Annotated drawings of landscapes, land use, or features                                                   | Quick; captures spatial relationships; low cost                            | Subjective; limited precision                                             |
+
+</div>
 
 ### Secondary Data
 
@@ -114,6 +118,8 @@ choice of presentation method depends on the type of data and the purpose of the
 
 ### Graphs
 
+<div class="table-wrap">
+
 | Graph Type              | Use                                                                | Example                                                            |
 | ----------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
 | Bar chart               | Comparing discrete categories                                      | Comparing population density across countries                      |
@@ -125,6 +131,8 @@ choice of presentation method depends on the type of data and the purpose of the
 | Triangular graph        | Showing the relative proportions of three variables                | Employment structure (primary, secondary, tertiary)                |
 | Logarithmic scale graph | Showing data spanning several orders of magnitude                  | Population growth over long time periods                           |
 | Radar (spider) diagram  | Showing multiple variables for comparison                          | Comparing quality of life indicators across cities                 |
+
+</div>
 
 ### Maps
 
@@ -165,11 +173,15 @@ descriptive title; include a legend or key; and use an appropriate scale.
 
 ### Measures of Central Tendency
 
+<div class="table-wrap">
+
 | Measure | Definition                                                                         | When to Use                                                            |
 | ------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | Mean    | Sum of all values divided by the number of values: $\bar{x} = \frac{\sum{x_i}}{n}$ | For normally distributed interval or ratio data; sensitive to outliers |
 | Median  | The middle value when data are ranked in order                                     | For skewed data or data with outliers; ordinal data                    |
 | Mode    | The most frequently occurring value                                                | For categorical (nominal) data; bimodal or multimodal distributions    |
+
+</div>
 
 ### Measures of Dispersion
 
@@ -182,7 +194,9 @@ data.
 
 **Standard deviation:** a measure of the average distance of each data point from the mean:
 
-$$s = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n - 1}}$$
+$$
+s = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n - 1}}
+$$
 
 Where $s$ is the sample standard deviation, $x_i$ are individual data points, $\bar{x}$ is the
 sample mean, and $n$ is the sample size. A low standard deviation indicates that data points are
@@ -195,17 +209,19 @@ outliers.
 Inferential statistics allow researchers to draw conclusions about a population based on a sample,
 and to test hypotheses about relationships between variables.
 
-**Spearman"s Rank Correlation Coefficient ($r_s$).** A non-parametric test that measures the
+**Spearman's Rank Correlation Coefficient ($r_s$).** A non-parametric test that measures the
 strength and direction of the association between two ranked variables. The formula is:
 
-$$r_s = 1 - \frac{6 \sum{d_i^2}}{n(n^2 - 1)}$$
+$$
+r_s = 1 - \frac{6 \sum{d_i^2}}{n(n^2 - 1)}
+$$
 
 Where $d_i$ is the difference between the ranks of the two variables for the $i$-th observation, and
 $n$ is the sample size. The value of $r_s$ ranges from $-1$ (perfect negative correlation) to $+1$
 (perfect positive correlation), with 0 indicating no correlation.
 
 To determine whether the correlation is statistically significant, compare $r_s$ to the critical
-value from a Spearman's rank table at the appropriate significance level ( $p = 0.05$I.e., a 5%
+value from a Spearman's rank table at the appropriate significance level ( $p = 0.05$ I.e., a 5%
 probability that the observed correlation occurred by chance) and degrees of freedom ($n - 2$). If
 $|r_s|$ exceeds the critical value, the null hypothesis (that there is no significant correlation)
 is rejected.
@@ -214,22 +230,26 @@ is rejected.
 in a contingency table differ significantly from expected frequencies (which would occur if there
 were no association between the variables).
 
-$$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$$
+$$
+\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
+$$
 
 Where $O_i$ is the observed frequency and $E_i$ is the expected frequency for each cell. The
 expected frequency for each cell is:
 
-$$E_i = \frac{(\mathrm{row\ total}) \times (\mathrm{column\ total})}{\mathrm{grand\ total}}$$
+$$
+E_i = \frac{(\mathrm{row\ total}) \times (\mathrm{column\ total})}{\mathrm{grand\ total}}
+$$
 
 Compare the calculated $\chi^2$ value to the critical value from a chi-squared table at the
-appropriate degrees of freedom ($\mathrm{df} = (r - 1)(c - 1)$Where $r$ is the number of rows and
+appropriate degrees of freedom ($\mathrm{df} = (r - 1)(c - 1)$ Where $r$ is the number of rows and
 $c$ is the number of columns) and significance level ( $p = 0.05$). If the calculated value exceeds
 the critical value, the null hypothesis is rejected, indicating a statistically significant
 association between the variables.
 
 **Conditions for validity:** the chi-squared test requires that (1) data are in the form of
 frequencies (not percentages or proportions); (2) expected frequencies in each cell are at least 5
-(if any $E_i \lt 5$Combine categories or use Fisher's exact test); (3) observations are independent.
+(if any $E_i \lt 5$ Combine categories or use Fisher's exact test); (3) observations are independent.
 
 **Mann-Whitney U test.** A non-parametric test that determines whether two independent samples come
 from the same population. It is the non-parametric equivalent of the independent samples t-test and
@@ -238,9 +258,13 @@ is used when data are ordinal or when the assumption of normality is not met.
 The test statistic $U$ is calculated by ranking all observations from both samples together, then
 computing:
 
-$$U_1 = n_1 n_2 + \frac{n_1(n_1 + 1)}{2} - R_1$$
+$$
+U_1 = n_1 n_2 + \frac{n_1(n_1 + 1)}{2} - R_1
+$$
 
-$$U_2 = n_1 n_2 + \frac{n_2(n_2 + 1)}{2} - R_2$$
+$$
+U_2 = n_1 n_2 + \frac{n_2(n_2 + 1)}{2} - R_2
+$$
 
 Where $n_1$ and $n_2$ are the sample sizes, and $R_1$ and $R_2$ are the sum of ranks for each
 sample. The test uses the smaller of $U_1$ and $U_2$. Compare this value to the critical value at
@@ -336,10 +360,14 @@ and displaying spatial data. GIS integrates geographic data (where things are) w
 
 ### GIS Data Types
 
+<div class="table-wrap">
+
 | Data Type   | Description                                                                                                              | Example                                                                           |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | Vector data | Represents features as points (e.g., cities), lines (e.g., rivers, roads), or polygons (e.g., countries, land-use zones) | A polygon layer showing census tracts with attribute data on population density   |
 | Raster data | Represents data as a grid of cells (pixels), each with a numerical value                                                 | Satellite imagery, digital elevation models (DEMs), land surface temperature maps |
+
+</div>
 
 ### GIS Layers
 
@@ -410,6 +438,8 @@ light, infrared, microwave) reflected or emitted by Earth's surface and atmosphe
 
 ### Applications
 
+<div class="table-wrap">
+
 | Application                            | Satellite/Sensor           | Use                                                                                                         |
 | -------------------------------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | Land-use and land-cover change mapping | Landsat, Sentinel-2        | Monitoring deforestation, urbanisation, agricultural expansion                                              |
@@ -419,12 +449,16 @@ light, infrared, microwave) reflected or emitted by Earth's surface and atmosphe
 | Glacier monitoring                     | Landsat, ASTER             | Tracking glacier extent, mass balance, and retreat rates                                                    |
 | Air quality                            | Sentinel-5P (TROPOMI)      | Monitoring atmospheric concentrations of $\mathrm{NO_2}$$\mathrm{SO_2}$$\mathrm{O_3}$ And particulate matter |
 
+</div>
+
 ### Normalised Difference Vegetation Index (NDVI)
 
 NDVI is a widely used indicator of vegetation density and health, calculated from the near-infrared
 (NIR) and red (RED) bands of a multispectral satellite image:
 
-$$\mathrm{NDVI} = \frac{\mathrm{NIR} - \mathrm{RED}}{\mathrm{NIR} + \mathrm{RED}}$$
+$$
+\mathrm{NDVI} = \frac{\mathrm{NIR} - \mathrm{RED}}{\mathrm{NIR} + \mathrm{RED}}
+$$
 
 Healthy vegetation strongly reflects near-infrared light and absorbs red light (for photosynthesis),
 yielding NDVI values close to $+1$. Bare soil, rock, and built-up surfaces yield NDVI values close
@@ -445,27 +479,9 @@ productivity, drought conditions, and deforestation.
 4. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.
 
-
-```mermaid
-flowchart TD
-    A[Geographic Skills] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

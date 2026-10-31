@@ -44,7 +44,7 @@ critically and use quantitative indicators alongside qualitative evidence.
 - **Development indicators** -- quantitative measures used to assess the level of development of a
   country, including GDP per capita, HDI, GNI, infant mortality rate, and literacy rate. Composite
   indices such as the HDI combine multiple indicators into a single measure.
-- **Rostow"s stages of growth** -- a linear model proposing that all countries pass through five
+- **Rostow's stages of growth** -- a linear model proposing that all countries pass through five
   stages of economic development, from traditional society to the age of high mass consumption.
   Widely criticised for its ethnocentric assumptions and failure to account for structural
   inequality.
@@ -174,17 +174,6 @@ assessed on Paper 2 and Paper 3.
   interpreting scatter plots showing correlations between indicators (e.g., female literacy rate vs.
   total fertility rate), and evaluating the reliability of development statistics collected by
   different organisations (World Bank, UNDP, national statistical offices).
-
-
-```mermaid
-flowchart TD
-    A[Economic Development] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

@@ -98,7 +98,9 @@ shows age groups.
 
 The dependency ratio quantifies the burden on the working-age population:
 
-$$\text{Dependency Ratio} = \frac{\text{Population aged 0-14} + \text{Population aged 65+}}{\text{Population aged 15-64}} \times 100$$
+$$
+\text{Dependency Ratio} = \frac{\text{Population aged 0-14} + \text{Population aged 65+}}{\text{Population aged 15-64}} \times 100
+$$
 
 A high dependency ratio indicates a large dependent population relative to working-age people,
 with implications for economic productivity, tax revenue, and social service provision. Hong Kong's
@@ -194,17 +196,6 @@ The government has sought to attract skilled immigrants through the Top Talent P
 (introduced 2022, targeting high-income earners and graduates of top-ranked universities) and
 simplified procedures for professionals and entrepreneurs. These policies aim to replenish the
 working-age population and address skills shortages.
-
-
-```mermaid
-flowchart TD
-    A[Population] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

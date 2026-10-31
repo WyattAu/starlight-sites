@@ -65,6 +65,8 @@ categories:
 The `sandbox` attribute restricts what an iframe is allowed to do. Always use it, omitting it
 Grants the embedded page the same privileges as the parent page.
 
+<div class="table-wrap">
+
 | Token                  | Effect                                                                 |
 | ---------------------- | ---------------------------------------------------------------------- |
 | (empty)                | Most restrictive: no scripts, no forms, no same-origin, no popups      |
@@ -74,6 +76,8 @@ Grants the embedded page the same privileges as the parent page.
 | `allow-forms`          | Allows form submission                                                 |
 | `allow-downloads`      | Allows downloading files                                               |
 | `allow-top-navigation` | Allows the iframe to navigate the top-level page (avoid this)          |
+
+</div>
 
 :::caution
 User-controlled or untrusted. Together they allow the embedded page to strip its own sandbox
@@ -190,7 +194,7 @@ When the embedded content is taller than the viewport:
 ### Docusaurus-Specific Wrapper
 
 This site uses a `godbolt-container` CSS class (though currently not defined in custom.css, add it
-If needed):
+if needed):
 
 ```css
 .godbolt-container {
@@ -348,11 +352,15 @@ https://godbolt.org/e#<encoded-state>
 
 Godbolt supports additional embed parameters:
 
+<div class="table-wrap">
+
 | Parameter     | Description                          |
 | ------------- | ------------------------------------ |
 | `#z:...`      | Compressed source and compiler state |
 | `&hideEditor` | Hides the source editor panel        |
 | `&hideOutput` | Hides the compiler output panel      |
+
+</div>
 
 ### Dartpad URL Construction
 
@@ -362,25 +370,19 @@ Dartpad embed URLs follow this pattern:
 https://dartpad.dev/embed-inline.html?id=<gist-id>&split=<ratio>&theme=<dark|light>
 ```
 
+<div class="table-wrap">
+
 | Parameter | Description                                    |
 | --------- | ---------------------------------------------- |
 | `id`      | GitHub Gist ID containing the Dart source      |
 | `split`   | Editor/preview split ratio (0–100)             |
 | `theme`   | `dark` or `light`must match the parent site |
 
+</div>
+
 Note that Dartpad's theme does not inherit from the parent page. It must be set explicitly in the
 URL. If the site supports dark mode toggling, the Dartpad theme will not switch dynamically without
 JavaScript intervention.
-
-```mermaid
-flowchart TD
-    A[Iframe Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -395,13 +397,7 @@ key theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

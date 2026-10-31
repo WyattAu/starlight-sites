@@ -30,14 +30,18 @@ Origin. Unlike distance, displacement is a vector quantity.
 **Definition.** The **velocity** $v$ of a particle is the rate of change of its displacement with
 Respect to time:
 
-$$v = \frac{ds}{dt} = \lim_{\Delta t \to 0}\frac{\Delta s}{\Delta t}$$
+$$
+v = \frac{ds}{dt} = \lim_{\Delta t \to 0}\frac{\Delta s}{\Delta t}
+$$
 
 Velocity is a vector. Its magnitude is the speed.
 
 **Definition.** The **acceleration** $a$ of a particle is the rate of change of its velocity with
 Respect to time:
 
-$$a = \frac{dv}{dt} = \frac{d^2s}{dt^2}$$
+$$
+a = \frac{dv}{dt} = \frac{d^2s}{dt^2}
+$$
 
 Acceleration is also a vector. The SI unit is m s$^{-2}$.
 
@@ -50,67 +54,89 @@ Variables $s$, $u$, $v$, $a$ And $t$.
 
 Starting from the definition of acceleration:
 
-$$a = \frac{dv}{dt}$$
+$$
+a = \frac{dv}{dt}
+$$
 
 Since $a$ is constant, we integrate with respect to time:
 
-$$\int_{u}^{v} dv = \int_{0}^{t} a \, dt' \implies v - u = at \implies \boxed{v = u + at}$$
+$$
+\int_{u}^{v} dv = \int_{0}^{t} a \, dt' \implies v - u = at \implies \boxed{v = u + at}
+$$
 
 ### Equation 2: $s = \frac{1}{2}(u + v)t$
 
 From the definition of velocity:
 
-$$v = \frac{ds}{dt}$$
+$$
+v = \frac{ds}{dt}
+$$
 
 For constant acceleration, the velocity varies linearly from $u$ to $v$. The average velocity over
-The interval is $\bar{v} = \frac{u + v}{2}$. Since displacement equals average velocity multiplied
-By time:
+the interval is $\bar{v} = \frac{u + v}{2}$. Since displacement equals average velocity multiplied
+by time:
 
-$$\boxed{s = \frac{1}{2}(u + v)t}$$
+$$
+\boxed{s = \frac{1}{2}(u + v)t}
+$$
 
 **Rigorous derivation.** Integrating $ds = v \, dt$ and substituting $v = u + at$:
 
-$$s = \int_0^t (u + at')\,dt' = ut + \frac{1}{2}at^2$$
+$$
+s = \int_0^t (u + at')\,dt' = ut + \frac{1}{2}at^2
+$$
 
-From Equation 1, $v = u + at$ So $at = v - u$Giving:
+From Equation 1, $v = u + at$ So $at = v - u$ Giving:
 
-$$s = ut + \frac{1}{2}(v-u)t = \frac{1}{2}(u + v)t \quad \square$$
+$$
+s = ut + \frac{1}{2}(v-u)t = \frac{1}{2}(u + v)t \quad \square
+$$
 
 ### Equation 3: $s = ut + \frac{1}{2}at^2$
 
 This was obtained above during the rigorous derivation of Equation 2:
 
-$$\boxed{s = ut + \frac{1}{2}at^2}$$
+$$
+\boxed{s = ut + \frac{1}{2}at^2}
+$$
 
 ### Equation 4: $v^2 = u^2 + 2as$
 
 We eliminate $t$ between Equations 1 and 3. From Equation 1: $t = \frac{v - u}{a}$. Substituting
-Into Equation 3:
+into Equation 3:
 
 $$
-\begin\{aligned\}
-S &= u\left(\frac\{v - u\}\{a\}\right) + \frac\{1\}\{2\}a\left(\frac\{v - u\}\{a\}\right)^2 \\[4pt]
-S &= \frac\{u(v - u)\}\{a\} + \frac\{(v - u)^2\}\{2a\} \\[4pt]
+\begin{aligned}
+S &= u\left(\frac{v - u}{a}\right) + \frac{1}{2}a\left(\frac{v - u}{a}\right)^2 \\[4pt]
+S &= \frac{u(v - u)}{a} + \frac{(v - u)^2}{2a} \\[4pt]
 2as &= 2u(v - u) + (v - u)^2 \\[4pt]
 2as &= 2uv - 2u^2 + v^2 - 2uv + u^2 \\[4pt]
 2as &= v^2 - u^2
-\end\{aligned\}
+\end{aligned}
 $$
 
-$$\boxed{v^2 = u^2 + 2as}$$
+$$
+\boxed{v^2 = u^2 + 2as}
+$$
 
 ### Equation 5: $s = vt - \frac{1}{2}at^2$
 
 Substitute $u = v - at$ (from Equation 1) into Equation 3:
 
-$$s = (v - at)t + \frac{1}{2}at^2 = vt - at^2 + \frac{1}{2}at^2$$
+$$
+s = (v - at)t + \frac{1}{2}at^2 = vt - at^2 + \frac{1}{2}at^2
+$$
 
-$$\boxed{s = vt - \frac{1}{2}at^2}$$
+$$
+\boxed{s = vt - \frac{1}{2}at^2}
+$$
 
 <Aside type="tip">
 Exam Technique To decide which SUVAT equation to use, identify which variable is **not**
 
 Given and **not** asked for, then use the equation that doesn't contain it.
+
+<div class="table-wrap">
 
 | Missing variable | Use                        |
 | ---------------- | -------------------------- |
@@ -119,6 +145,8 @@ Given and **not** asked for, then use the equation that doesn't contain it.
 | $u$              | $s = vt - \frac{1}{2}at^2$ |
 | $a$              | $s = \frac{1}{2}(u + v)t$  |
 | $t$              | $v^2 = u^2 + 2as$          |
+
+</div>
 </Aside>
 
 ## 3. Displacement-Time and Velocity-Time Graphs
@@ -129,12 +157,10 @@ Given and **not** asked for, then use the equation that doesn't contain it.
 
 <PhetSimulation client:only="solid-js" simulationId="the-moving-man" title="The Moving Man" />
 
-Explore the simulation above to develop intuition for this topic.
-
 For uniform acceleration, the $v$-$t$ graph is a straight line, and the area is a trapezium.
 
 For **non-constant acceleration**, the $v$-$t$ graph is curved, but the same three principles apply
-At every instant:
+at every instant:
 
 - The **gradient** of the $s$-$t$ curve at any point gives the instantaneous velocity at that time.
 - The **gradient** of the $v$-$t$ curve at any point gives the instantaneous acceleration at that
@@ -152,9 +178,9 @@ Straight line. Two approaches are available:
 Exam Technique When asked to find the distance travelled from a curved $v$-$t$ graph, check
 
 Whether the curve crosses the time axis. If it does, the velocity changes sign and you must split
-The calculation: the **area above** the axis is positive displacement, the **area below** is
+the calculation: the **area above** the axis is positive displacement, the **area below** is
 Negative displacement. The total distance is the sum of absolute areas; the net displacement is
-Their algebraic sum.
+their algebraic sum.
 </Aside>
 
 <Aside type="caution">
@@ -178,9 +204,11 @@ $\int_0^6 (6t - t^2)\,dt = [3t^2 - t^3/3]_0^6 = 108 - 72 = 36$ m.
 ## 4. Free Fall
 
 A body in **free fall** moves under the influence of gravity alone (neglecting air resistance). Near
-The Earth's surface, all objects experience the same gravitational acceleration:
+the Earth's surface, all objects experience the same gravitational acceleration:
 
-$$g \approx 9.81 \mathrm{ m s}^{-2}$$
+$$
+g \approx 9.81 \mathrm{ m s}^{-2}
+$$
 
 This was established by Galileo's experiments and is a consequence of the equivalence principle
 (mass cancels in $F = ma = mg$).
@@ -211,19 +239,23 @@ A projectile is launched from the origin with speed $v_0$ at angle $\theta$ abov
 
 **Horizontal motion** (constant velocity):
 
-$$x = v_0\cos\theta \cdot t \implies t = \frac{x}{v_0\cos\theta}$$
+$$
+x = v_0\cos\theta \cdot t \implies t = \frac{x}{v_0\cos\theta}
+$$
 
 **Vertical motion** (uniform acceleration):
 
-$$y = v_0\sin\theta \cdot t - \frac{1}{2}gt^2$$
+$$
+y = v_0\sin\theta \cdot t - \frac{1}{2}gt^2
+$$
 
 Substituting $t$ from the horizontal equation:
 
 $$
-\begin\{aligned\}
-Y &= v_0\sin\theta \left(\frac\{x\}\{v_0\cos\theta\}\right) - \frac\{1\}\{2\}g\left(\frac\{x\}\{v_0\cos\theta\}\right)^2 \\[4pt]
-Y &= x\tan\theta - \frac\{gx^2\}\{2v_0^2\cos^2\theta\}
-\end\{aligned\}
+\begin{aligned}
+Y &= v_0\sin\theta \left(\frac{x}{v_0\cos\theta}\right) - \frac{1}{2}g\left(\frac{x}{v_0\cos\theta}\right)^2 \\[4pt]
+Y &= x\tan\theta - \frac{gx^2}{2v_0^2\cos^2\theta}
+\end{aligned}
 $$
 
 This is the equation of a **parabola**, a direct consequence of constant horizontal velocity
@@ -231,42 +263,56 @@ Combined with constant vertical acceleration.
 
 ### Maximum Height
 
-At maximum height, the vertical velocity is zero: $v_y = v_0\sin\theta - gt = 0$Giving
+At maximum height, the vertical velocity is zero: $v_y = v_0\sin\theta - gt = 0$ Giving
 $t_{\mathrm{peak}} = \frac{v_0\sin\theta}{g}$.
 
-$$H = v_0\sin\theta \cdot \frac{v_0\sin\theta}{g} - \frac{1}{2}g\left(\frac{v_0\sin\theta}{g}\right)^2 = \frac{v_0^2\sin^2\theta}{2g}$$
+$$
+H = v_0\sin\theta \cdot \frac{v_0\sin\theta}{g} - \frac{1}{2}g\left(\frac{v_0\sin\theta}{g}\right)^2 = \frac{v_0^2\sin^2\theta}{2g}
+$$
 
-$$\boxed{H = \frac{v_0^2\sin^2\theta}{2g}}$$
+$$
+\boxed{H = \frac{v_0^2\sin^2\theta}{2g}}
+$$
 
 ### Time of Flight
 
 The projectile returns to $y = 0$ when:
 
-$$0 = v_0\sin\theta \cdot t - \frac{1}{2}gt^2 \implies t(v_0\sin\theta - \frac{1}{2}gt) = 0$$
+$$
+0 = v_0\sin\theta \cdot t - \frac{1}{2}gt^2 \implies t(v_0\sin\theta - \frac{1}{2}gt) = 0
+$$
 
 The non-trivial solution gives:
 
-$$\boxed{T = \frac{2v_0\sin\theta}{g}}$$
+$$
+\boxed{T = \frac{2v_0\sin\theta}{g}}
+$$
 
 ### Maximum Range
 
 The range is $R = v_0\cos\theta \cdot T$:
 
-$$R = v_0\cos\theta \cdot \frac{2v_0\sin\theta}{g} = \frac{v_0^2 \cdot 2\sin\theta\cos\theta}{g} = \frac{v_0^2\sin 2\theta}{g}$$
+$$
+R = v_0\cos\theta \cdot \frac{2v_0\sin\theta}{g} = \frac{v_0^2 \cdot 2\sin\theta\cos\theta}{g} = \frac{v_0^2\sin 2\theta}{g}
+$$
 
-$$\boxed{R = \frac{v_0^2\sin 2\theta}{g}}$$
+$$
+\boxed{R = \frac{v_0^2\sin 2\theta}{g}}
+$$
 
-**Maximum range** occurs when $\sin 2\theta = 1$I.e., $\theta = 45^\circ$:
+**Maximum range** occurs when $\sin 2\theta = 1$ I.e., $\theta = 45^\circ$:
 
-$$R_{\max} = \frac{v_0^2}{g}$$
+$$
+R_{\max} = \frac{v_0^2}{g}
+$$
 
 ### Intuition: Why Parabolas?
 
 A parabola arises because the vertical position depends quadratically on time ($y \propto t^2$),
 While the horizontal position depends linearly on time ($x \propto t$). Eliminating $t$ between a
 Linear and quadratic relation always produces a parabola. The shape is not special to gravity, it
-Is the geometry of combining uniform motion in one direction with uniformly accelerated motion in
-The perpendicular direction.
+is the geometry of combining uniform motion in one direction with uniformly accelerated motion in
+the perpendicular direction.
 
 ### Effect of Air Resistance on Projectiles
 
@@ -287,12 +333,16 @@ Force depends on the object's speed and shape, and increases with speed.
 **Terminal velocity.** For an object falling vertically under gravity with air resistance, the drag
 Force increases with speed. Eventually, the drag force equals the weight of the object:
 
-$$F_{\mathrm{drag}} = mg$$
+$$
+F_{\mathrm{drag}} = mg
+$$
 
 At this point the net force is zero, the acceleration is zero, and the object falls at a constant
 Speed called the **terminal velocity** $v_T$:
 
-$$\boxed{v_T \mathrm{ is reached when } F_{\mathrm{drag}} = mg \implies a = 0}$$
+$$
+\boxed{v_T \mathrm{ is reached when } F_{\mathrm{drag}} = mg \implies a = 0}
+$$
 
 The $v$-$t$ graph for a falling object reaching terminal velocity shows the velocity increasing with
 A decreasing gradient (decreasing acceleration) until it asymptotically approaches $v_T$.
@@ -317,46 +367,66 @@ Relate displacement, velocity, and acceleration.
 
 From the definitions:
 
-$$\boxed{v = \frac{ds}{dt}}$$
+$$
+\boxed{v = \frac{ds}{dt}}
+$$
 
-$$\boxed{a = \frac{dv}{dt} = \frac{d^2s}{dt^2}}$$
+$$
+\boxed{a = \frac{dv}{dt} = \frac{d^2s}{dt^2}}
+$$
 
 A third relation follows from the chain rule. Since $a = dv/dt$ and $v = ds/dt$:
 
-$$a = \frac{dv}{dt} = \frac{dv}{ds} \cdot \frac{ds}{dt} = v\,\frac{dv}{ds}$$
+$$
+a = \frac{dv}{dt} = \frac{dv}{ds} \cdot \frac{ds}{dt} = v\,\frac{dv}{ds}
+$$
 
-$$\boxed{a = v\,\frac{dv}{ds}}$$
+$$
+\boxed{a = v\,\frac{dv}{ds}}
+$$
 
 This form is useful when acceleration is given as a function of displacement $s$ rather than time
 $t$.
 
 ### Selecting the Correct Form
 
+<div class="table-wrap">
+
 | Given      | Use                                                              |
 | ---------- | ---------------------------------------------------------------- |
-| $a = f(t)$ | $a = dv/dt$Integrate with respect to $t$                         |
+| $a = f(t)$ | $a = dv/dt$ Integrate with respect to $t$                         |
 | $a = f(v)$ | Rewrite as $dt/dv = 1/f(v)$ and integrate, or use $a = v\,dv/ds$ |
-| $a = f(s)$ | $a = v\,dv/ds$Integrate with respect to $s$                      |
+| $a = f(s)$ | $a = v\,dv/ds$ Integrate with respect to $s$                      |
+
+</div>
 
 <Aside type="tip">
 Exam Technique Identify what the acceleration is given as a function of -- time, velocity, or
 
-Displacement -- to decide which calculus method to use. If $a$ is a function of $t$Integrate $dv/dt$
-directly. If $a$ is a function of $s$Use $a = v\,dv/ds$ and integrate with respect to $s$. If $a$ is
-a function of $v$Rewrite as $dt/dv = 1/f(v)$ and integrate to find $t(v)$ Then invert If possible.
+Displacement -- to decide which calculus method to use. If $a$ is a function of $t$ Integrate $dv/dt$
+directly. If $a$ is a function of $s$ Use $a = v\,dv/ds$ and integrate with respect to $s$. If $a$ is
+a function of $v$ Rewrite as $dt/dv = 1/f(v)$ and integrate to find $t(v)$ Then invert If possible.
 </Aside>
 
 ### Derivation of $v^2 = u^2 + 2as$ by Integration
 
 Starting from $a = v\,dv/ds$ and assuming constant $a$:
 
-$$\int_{u}^{v} v'\,dv' = \int_{0}^{s} a\,ds'$$
+$$
+\int_{u}^{v} v'\,dv' = \int_{0}^{s} a\,ds'
+$$
 
-$$\left[\frac{v'^2}{2}\right]_{u}^{v} = as$$
+$$
+\left[\frac{v'^2}{2}\right]_{u}^{v} = as
+$$
 
-$$\frac{v^2}{2} - \frac{u^2}{2} = as$$
+$$
+\frac{v^2}{2} - \frac{u^2}{2} = as
+$$
 
-$$\boxed{v^2 = u^2 + 2as} \quad \square$$
+$$
+\boxed{v^2 = u^2 + 2as} \quad \square
+$$
 
 This derivation relies only on the chain-rule identity $a = v\,dv/ds$.
 
@@ -367,13 +437,13 @@ A particle moves in a straight line with acceleration $a = 6t$ m s$^{-2}$Startin
 Origin.
 
 **(a)** Find $v$ as a function of $t$. $a = dv/dt = 6t$ So $dv = 6t\,dt$. Integrating:
-$v = \int_0^t 6t'\,dt' = 3t^2 + C$. Since $v(0) = 0$: $C = 0$Giving $v = 3t^2$ m s$^{-1}$.
+$v = \int_0^t 6t'\,dt' = 3t^2 + C$. Since $v(0) = 0$: $C = 0$ Giving $v = 3t^2$ m s$^{-1}$.
 
 **(b)** Find $s$ as a function of $t$. $v = ds/dt = 3t^2$ So $ds = 3t^2\,dt$. Integrating:
 $s = \int_0^t 3t'^2\,dt' = t^3$ m.
 
 **(c)** Find the acceleration as a function of $s$. From $v = 3t^2$ and $s = t^3$: $t = s^{1/3}$ So
-$v = 3s^{2/3}$. Then $a = v\,dv/ds = 3s^{2/3} \cdot 2s^{-1/3} = 6s^{1/3} = 6t$Confirming
+$v = 3s^{2/3}$. Then $a = v\,dv/ds = 3s^{2/3} \cdot 2s^{-1/3} = 6s^{1/3} = 6t$ Confirming
 Consistency.
 
 </details>
@@ -383,7 +453,9 @@ Consistency.
 When two objects move in different directions, their velocities are combined using vector addition.
 The **velocity of A relative to B** is:
 
-$$\boxed{\mathbf{v}_{AB} = \mathbf{v}_A - \mathbf{v}_B}$$
+$$
+\boxed{\mathbf{v}_{AB} = \mathbf{v}_A - \mathbf{v}_B}
+$$
 
 This is the velocity A appears to have when observed from B's frame of reference.
 
@@ -396,7 +468,9 @@ Component.
 **Example.** A river flows east at $3.0$ m s$^{-1}$. A boat heads north at $5.0$ m s$^{-1}$ relative
 To the water. The boat's velocity relative to the ground is:
 
-$$\mathbf{v}_{\mathrm{ground}} = (3.0\ \mathrm{east}) + (5.0\ \mathrm{north})$$
+$$
+\mathbf{v}_{\mathrm{ground}} = (3.0\ \mathrm{east}) + (5.0\ \mathrm{north})
+$$
 
 Speed relative to ground: $v = \sqrt{3^2 + 5^2} = \sqrt{34} = 5.83$ m s$^{-1}$.
 
@@ -404,15 +478,15 @@ Direction: $\theta = \arctan(5/3) = 59.0^\circ$ north of east.
 
 ### Crossing a River
 
-A classic relative-velocity problem: to cross a river of width $d$ with current speed $v_c$A boat
-With speed $v_b$ (relative to water) can:
+A classic relative-velocity problem: to cross a river of width $d$ with current speed $v_c$ A boat
+with speed $v_b$ (relative to water) can:
 
 - **Head directly across** (perpendicular to bank). The boat is carried downstream. Time to cross:
   $t = d/v_b$. Downstream displacement: $\Delta x = v_c \cdot d/v_b$.
 - **Head upstream at an angle** to compensate for the current. If the boat heads at angle $\theta$
   upstream from the perpendicular, the component across the river is $v_b\cos\theta$ and the
   component against the current is $v_b\sin\theta$. For zero downstream drift:
-  $v_b\sin\theta = v_c$Giving $\theta = \arcsin(v_c/v_b)$. This is only possible if $v_b > v_c$.
+  $v_b\sin\theta = v_c$ Giving $\theta = \arcsin(v_c/v_b)$. This is only possible if $v_b > v_c$.
 </Aside>
 
 <Aside type="caution">
@@ -426,7 +500,7 @@ Velocity. Never add the magnitudes directly unless the velocities are in the sam
 
 Two objects A and B are on a collision course if their relative velocity $\mathbf{v}_{AB}$ is
 Directed along the line joining them. If not, the closest approach occurs when the position vector
-From A to B is perpendicular to the relative velocity: $\mathbf{r}_{BA} \cdot \mathbf{v}_{BA} = 0$.
+from A to B is perpendicular to the relative velocity: $\mathbf{r}_{BA} \cdot \mathbf{v}_{BA} = 0$.
 
 <details>
 <summary>Example: Will two ships collide?</summary>
@@ -438,7 +512,7 @@ $\mathbf{v}_{BA} = \mathbf{v}_B - \mathbf{v}_A = (10\ \mathrm{east}) - (10\ \mat
 M s$^{-1}$.
 
 The position of B relative to A is $(200, 0)$. The relative velocity $(10, -10)$ is **not** parallel
-To $(200, 0)$ So they will not collide. The closest approach occurs when
+to $(200, 0)$ So they will not collide. The closest approach occurs when
 $\mathbf{r}_{BA} \cdot \mathbf{v}_{BA} = 0$.
 
 </details>
@@ -500,7 +574,7 @@ $t = \sqrt{\frac{80}{9.81}} = 2.86$ s.
 Derive the equation $s = ut + \frac{1}{2}at^2$ from the definition of velocity as a derivative, assuming constant acceleration.
 
 **Answer.** $v = \frac{ds}{dt}$ and $a = \frac{dv}{dt} = \mathrm{const}$. Integrating:
-$\int_0^t a\,dt' = \int_u^v dv'$Giving $v = u + at$. Then $ds/dt = u + at$. Integrating:
+$\int_0^t a\,dt' = \int_u^v dv'$ Giving $v = u + at$. Then $ds/dt = u + at$. Integrating:
 $\int_0^s ds' = \int_0^t (u + at')\,dt' = [ut' + \frac{1}{2}at'^2]_0^t = ut + \frac{1}{2}at^2$.
 $\square$
 
@@ -515,7 +589,7 @@ Two balls are thrown simultaneously from the same height. Ball A is thrown verti
 
 **Answer.** For Ball A: upward first, then downward. Time to reach max height:
 $t_1 = 20/9.81 = 2.04$ s, max height above launch: $20^2/(2 \times 9.81) = 20.4$ m, total height
-Above ground = $50.4$ m. Time to fall from 50.4 m: $50.4 = \frac{1}{2}(9.81)t_2^2$, $t_2 = 3.21$ s.
+above ground = $50.4$ m. Time to fall from 50.4 m: $50.4 = \frac{1}{2}(9.81)t_2^2$, $t_2 = 3.21$ s.
 Total: $t_A = 2.04 + 3.21 = 5.25$ s.
 
 For Ball B: $30 = 20t + \frac{1}{2}(9.81)t^2$. Solving: $4.905t^2 + 20t - 30 = 0$
@@ -552,7 +626,9 @@ A projectile is fired with speed $v_0$ at angle $\theta$ from a height $h$ above
 **Answer.** $y = h + v_0\sin\theta \cdot t - \frac{1}{2}gt^2 = 0$ at landing. This gives
 $\frac{1}{2}gt^2 - v_0\sin\theta \cdot t - h = 0$. By the quadratic formula:
 
-$$t = \frac{v_0\sin\theta + \sqrt{v_0^2\sin^2\theta + 2gh}}{g}$$
+$$
+t = \frac{v_0\sin\theta + \sqrt{v_0^2\sin^2\theta + 2gh}}{g}
+$$
 
 (We take the positive root since $t > 0$.)
 
@@ -580,7 +656,7 @@ A golfer hits a ball from the ground with speed $40$ m s$^{-1}$. At what angle s
 **Answer.** $R = \frac{v_0^2\sin 2\theta}{g}$ So
 $\sin 2\theta = \frac{Rg}{v_0^2} = \frac{120 \times 9.81}{1600} = 0.736$.
 
-$2\theta = 47.4^\circ$ or $132.6^\circ$Giving $\theta = 23.7^\circ$ or $66.3^\circ$. Both angles
+$2\theta = 47.4^\circ$ or $132.6^\circ$ Giving $\theta = 23.7^\circ$ or $66.3^\circ$. Both angles
 Give the same range, complementary angles always do (since $\sin 2\theta = \sin(180° - 2\theta)$).
 
 <b>If you get this wrong, revise:</b> [Maximum Range](#maximum-range)
@@ -639,9 +715,9 @@ $u = 6 - 1.5(3.6) = 6 - 5.4 = 0.6$ m s$^{-1}$.
 <details>
 <summary>Problem 13</summary>
 
-A particle moves along a straight line with acceleration $a = 4 - 2t$ m s$^{-2}$. At $t = 0$The
+A particle moves along a straight line with acceleration $a = 4 - 2t$ m s$^{-2}$. At $t = 0$ The
 Particle is at rest at the origin. Find: (a) the velocity as a function of $t$(b) the displacement
-As a function of $t$(c) the time at which the particle is momentarily at rest again, (d) the
+as a function of $t$(c) the time at which the particle is momentarily at rest again, (d) the
 Displacement at that time.
 
 **Answer.** (a) $a = dv/dt = 4 - 2t$. Integrating: $v = 4t - t^2$ m s$^{-1}$ (using $v(0) = 0$).
@@ -662,11 +738,11 @@ Displacement at that time.
 A river is $80$ m wide and flows at $2.5$ m s$^{-1}$. A boat can travel at $5.0$ m s$^{-1}$ in still
 Water. (a) If the boat heads directly across the river, how long does it take to cross and how far
 Downstream does it land? (b) At what angle upstream should the boat head to land directly opposite
-The starting point?
+the starting point?
 
 **Answer.** (a) Time = $80/5.0 = 16$ s. Downstream displacement = $2.5 \times 16 = 40$ m.
 
-(b) For zero downstream drift: $\sin\theta = 2.5/5.0 = 0.5$Giving $\theta = 30^\circ$ upstream From
+(b) For zero downstream drift: $\sin\theta = 2.5/5.0 = 0.5$ Giving $\theta = 30^\circ$ upstream From
 the perpendicular.
 
 <b>If you get this wrong, revise:</b> [Crossing a River](#crossing-a-river)
@@ -677,8 +753,8 @@ the perpendicular.
 <summary>Problem 15</summary>
 
 A particle moves with acceleration $a = -0.5v$ m s$^{-2}$Where $v$ is the speed. The initial speed
-Is $10$ m s$^{-1}$. Find: (a) the velocity as a function of time, (b) the time taken for the speed
-To halve.
+is $10$ m s$^{-1}$. Find: (a) the velocity as a function of time, (b) the time taken for the speed
+to halve.
 
 **Answer.** (a) $dv/dt = -0.5v$. Separating variables: $\frac{dv}{v} = -0.5\,dt$. Integrating:
 $\ln v = -0.5t + C$. At $t = 0$$v = 10$: $\ln 10 = C$. So $v = 10e^{-0.5t}$ m s$^{-1}$.
@@ -693,7 +769,7 @@ $\ln v = -0.5t + C$. At $t = 0$$v = 10$: $\ln 10 = C$. So $v = 10e^{-0.5t}$ m s$
 <summary>Problem 16</summary>
 
 A particle moves with acceleration $a = 3s$ m s$^{-2}$Where $s$ is the displacement from the Origin.
-At $s = 0$The velocity is $4.0$ m s$^{-1}$. Find the velocity when $s = 2.0$ m.
+At $s = 0$ The velocity is $4.0$ m s$^{-1}$. Find the velocity when $s = 2.0$ m.
 
 **Answer.** We are given $a = f(s)$ So use $a = v\,dv/ds$:
 
@@ -711,8 +787,8 @@ $v^2 = 28$$v = 5.29$ m s$^{-1}$.
 <summary>Problem 17</summary>
 
 A ball is thrown from the top of a building of height $45$ m with speed $20$ m s$^{-1}$ at an angle
-Of $30^\circ$ above the horizontal. Find: (a) the time of flight, (b) the horizontal distance from
-The base where the ball lands, (c) the speed at impact.
+of $30^\circ$ above the horizontal. Find: (a) the time of flight, (b) the horizontal distance from
+the base where the ball lands, (c) the speed at impact.
 
 **Answer.** (a) Vertical: $y = 45 + 10t - 4.905t^2 = 0$.
 
@@ -788,26 +864,9 @@ self-marking and building a personal test matrix.
 
 5. **Not resolving vectors into components before adding.** Velocity, displacement, and acceleration are vectors. You cannot add magnitudes directly unless the vectors are in the same direction. Always resolve into horizontal and vertical components first.
 
-```mermaid
-flowchart TD
-    A[02 Kinematicsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

@@ -213,6 +213,8 @@ tableOfContents: false
 
 ## 答案表
 
+<div class="table-wrap">
+
 | 题号 | 正确答案 |
 |------|----------|
 | 1    | B        |
@@ -225,6 +227,8 @@ tableOfContents: false
 | 8    | B        |
 | 9    | D        |
 | 10   | C        |
+
+</div>
 
 **评分标准:** 答对 8 题及以上表示对高考数学基础知识掌握良好。对于答错的题目，请回顾相关章节内容并重新练习。
 
@@ -239,17 +243,6 @@ tableOfContents: false
 **Step 4:** Retake the diagnostic in 2-3 days to verify improvement. Spaced repetition of diagnostic tests strengthens long-term retention.
 
 **Step 5:** If you consistently score below 6/10, revisit the foundational topics (sets, functions, basic trigonometry) before attempting harder practice problems.
-
-
-```mermaid
-flowchart TD
-    A[Diag Mathematics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

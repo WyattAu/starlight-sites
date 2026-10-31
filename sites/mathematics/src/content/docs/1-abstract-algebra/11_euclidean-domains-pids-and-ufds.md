@@ -41,8 +41,8 @@ An integral domain $R$ is a **principal ideal domain (PID)** if every ideal of $
 **Theorem 11.1.** Every Euclidean domain is a PID.
 
 _Proof._ Let $I$ be a non-zero ideal of the Euclidean domain $R$. Choose $d \in I \setminus \{0\}$
-Minimising $\delta(d)$. We claim $I = (d)$. For any $a \in I$Write $a = qd + r$ with $r = 0$ or
-$\delta(r) \lt \delta(d)$. Since $r = a - qd \in I$Minimality of $\delta(d)$ Forces $r = 0$ So
+Minimising $\delta(d)$. We claim $I = (d)$. For any $a \in I$ Write $a = qd + r$ with $r = 0$ or
+$\delta(r) \lt \delta(d)$. Since $r = a - qd \in I$ Minimality of $\delta(d)$ Forces $r = 0$ So
 $a = qd \in (d)$. $\blacksquare$
 
 **Corollary 11.2.** $\mathbb{Z}$, $F[x]$ And $\mathbb{Z}[i]$ are PIDs.
@@ -58,7 +58,9 @@ An integral domain $R$ is a **unique factorization domain (UFD)** if:
 
 The chain of implications is:
 
-$$\mathrm{Euclidean\ domain} \Rightarrow \mathrm{PID} \Rightarrow \mathrm{UFD}$$
+$$
+\mathrm{Euclidean\ domain} \Rightarrow \mathrm{PID} \Rightarrow \mathrm{UFD}
+$$
 
 None of the reverse implications hold .
 
@@ -95,6 +97,8 @@ Therefore $\mathbb{Z}[\sqrt{-5}]$ is not a UFD. $\blacksquare$
 
 ### 11.4 Key Relationships
 
+<div class="table-wrap">
+
 | Type              | Definition                                          | Example           |
 | ----------------- | --------------------------------------------------- | ----------------- |
 | Euclidean domain  | Has division algorithm with $\delta$                | $\mathbb{Z}$, $F[x]$, $\mathbb{Z}[i]$ |
@@ -102,18 +106,11 @@ Therefore $\mathbb{Z}[\sqrt{-5}]$ is not a UFD. $\blacksquare$
 | UFD               | Unique factorisation into irreducibles              | $\mathbb{Z}[x]$   |
 | Integral domain   | No zero divisors                                    | All of the above  |
 
-$$\mathrm{Fields} \subset \mathrm{Euclidean\ domains} \subset \mathrm{PIDs} \subset \mathrm{UFDs} \subset \mathrm{Integral\ domains}$$
+</div>
 
-
-```mermaid
-flowchart TD
-    A[11_Euclidean Domains Pids And Ufds] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+$$
+\mathrm{Fields} \subset \mathrm{Euclidean\ domains} \subset \mathrm{PIDs} \subset \mathrm{UFDs} \subset \mathrm{Integral\ domains}
+$$
 
 ## Intuition
 
@@ -165,26 +162,6 @@ only polynomials with even constant term, so $1 \notin I$. Thus $I$ is not princ
 - [Worked Examples](/1-abstract-algebra/15_worked-examples/) -- The worked examples use Euclidean division and factorisation arguments that depend on the ring classifications in this chapter.
 - [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/) -- The pitfalls section warns against confusing irreducibility with primality and assuming PIDs are always Euclidean.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

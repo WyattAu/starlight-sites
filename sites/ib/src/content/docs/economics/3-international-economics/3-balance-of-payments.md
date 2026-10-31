@@ -27,7 +27,7 @@ categories: [ib-economics]
 ## Balance of Payments
 
 The balance of payments is a record of all economic transactions between residents of a country and
-The rest of the world over a given period. It must balance in an accounting sense (total credits $=$
+the rest of the world over a given period. It must balance in an accounting sense (total credits $=$
 total debits, with the balancing item being errors and omissions).
 
 ### Current Account
@@ -64,7 +64,9 @@ Records transactions in financial assets and liabilities:
 
 ### The Balance of Payments Identity
 
-$$\mathrm{Current\ Account} + \mathrm{Capital\ Account} + \mathrm{Financial\ Account} + \mathrm{Statistical\ Discrepancy} = 0$$
+$$
+\mathrm{Current\ Account} + \mathrm{Capital\ Account} + \mathrm{Financial\ Account} + \mathrm{Statistical\ Discrepancy} = 0
+$$
 
 A current account deficit must be financed by a surplus on the capital and financial accounts (net
 Capital inflows). A current account surplus corresponds to net capital outflows.
@@ -186,6 +188,8 @@ A significant share of global trade, investment, and employment.
 
 **Current Account:**
 
+<div class="table-wrap">
+
 | Component         | Credits (+)                                                          | Debits (-)                                                          |
 | ----------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Trade in goods    | Exports of goods                                                     | Imports of goods                                                    |
@@ -193,7 +197,11 @@ A significant share of global trade, investment, and employment.
 | Primary income    | Investment income from abroad, compensation of employees from abroad | Investment income paid abroad, compensation paid to foreign workers |
 | Secondary income  | Transfers received (remittances in, aid received)                    | Transfers paid (remittances out, aid given)                         |
 
+</div>
+
 **Financial Account:**
+
+<div class="table-wrap">
 
 | Component            | Credits (+)                                               | Debits (-)                                     |
 | -------------------- | --------------------------------------------------------- | ---------------------------------------------- |
@@ -202,13 +210,17 @@ A significant share of global trade, investment, and employment.
 | Other investment     | Foreign loans to domestic entities, deposits from abroad  | Domestic loans abroad, deposits overseas       |
 | Reserve assets       | Decrease in reserves (using reserves to support currency) | Increase in reserves (accumulating reserves)   |
 
+</div>
+
 Note: the sign convention for reserve assets is reversed. An increase in reserves (buying foreign
 Currency) is recorded as a debit (-), because it represents a capital outflow from the domestic
 Economy.
 
 ### The Balance of Payments Identity
 
-$$\mathrm{CA} + \mathrm{KA} + \mathrm{FA} + \mathrm{EO} = 0$$
+$$
+\mathrm{CA} + \mathrm{KA} + \mathrm{FA} + \mathrm{EO} = 0
+$$
 
 Where CA = Current Account, KA = Capital Account, FA = Financial Account, EO = Errors and Omissions.
 
@@ -312,12 +324,16 @@ A current account deficit is unsustainable if financed by:
 
 The following data are available:
 
+<div class="table-wrap">
+
 | Country | CPI (local currency, base 2020 = 100) |
 | ------- | ------------------------------------- |
 | USA     | 120                                   |
 | UK      | 108                                   |
 | Japan   | 95                                    |
 | India   | 130                                   |
+
+</div>
 
 The exchange rate in 2020 was GBP/USD $= 0.75$ and JPY/USD $= 110$ and INR/USD $= 75$.
 
@@ -332,19 +348,19 @@ inflation is 1%.
 
 PPP-implied JPY/USD $= 95/120 = 0.792$
 
-For India: if CPI $= 130$PPP-implied INR/USD $= 130/120 = 1.083$
+For India: if CPI $= 130$ PPP-implied INR/USD $= 130/120 = 1.083$
 
-(b) UK: actual $= 0.75$PPP $= 0.90$. Overvalued by $(0.90 - 0.75)/0.90 \times 100 = 16.7\%$
+(b) UK: actual $= 0.75$ PPP $= 0.90$. Overvalued by $(0.90 - 0.75)/0.90 \times 100 = 16.7\%$
 
-Japan: actual $= 110$PPP $= 0.792$. Undervalued by $(0.792 - 110)/0.792 \times 100 = -13\,888\%$
+Japan: actual $= 110$ PPP $= 0.792$. Undervalued by $(0.792 - 110)/0.792 \times 100 = -13\,888\%$
 
 More precisely, the actual rate is 110 JPY/USD while PPP implies 0.792 USD/JPY, or $1/0.792 = 126.3$
 JPY/USD. The yen is overvalued (too few yen per dollar), not undervalued. Correction: actual $= 110$
-JPY/USD, PPP $= 126.3$ JPY/USD. Since $110 < 126.3$The yen is Overvalued (stronger than PPP
+JPY/USD, PPP $= 126.3$ JPY/USD. Since $110 < 126.3$ The yen is Overvalued (stronger than PPP
 predicts).
 
-India: actual $= 75$ INR/USD, PPP $= 1.083$ USD/INR, or $92.3$ INR/USD. Since $75 < 92.3$The rupee
-Is overvalued.
+India: actual $= 75$ INR/USD, PPP $= 1.083$ USD/INR, or $92.3$ INR/USD. Since $75 < 92.3$ The rupee
+is overvalued.
 
 (c) Relative PPP: $\%\Delta S \approx \pi_{\text{domestic}} - \pi_{\text{US}}$
 
@@ -399,7 +415,7 @@ instead.
    resort for sovereign governments
 
 (c) **Austerity**: fiscal consolidation deepened Greece's recession. GDP fell by 25% (2008--2016).
-Unemployment rose to 27.5%. Social spending cuts reduced health and education outcomes. The fiscal
+unemployment rose to 27.5%. Social spending cuts reduced health and education outcomes. The fiscal
 multiplier in a depressed economy is high, so austerity was particularly self-defeating
 
 **ECB intervention (OMT, 2012)**: Mario Draghi's commitment to "do whatever it takes" and the OMT
@@ -419,7 +435,9 @@ Mechanism, Capital Markets Union) address some gaps but progress is incomplete.
 <summary>Problem 13: Terms of Trade and Development Policy</summary>
 
 Country X is a copper exporter. The following data show its terms of trade and income terms of
-Trade:
+trade:
+
+<div class="table-wrap">
 
 | Year | Export Price Index | Import Price Index | ToT   | Export Volume Index | Income ToT |
 | ---- | ------------------ | ------------------ | ----- | ------------------- | ---------- |
@@ -428,6 +446,8 @@ Trade:
 | 2020 | 125                | 140                | 89.3  | 80                  | 71.4       |
 | 2021 | 105                | 120                | 87.5  | 90                  | 78.8       |
 | 2022 | 115                | 115                | 100.0 | 105                 | 105.0      |
+
+</div>
 
 (a) Calculate the annual percentage change in the ToT for each year.
 
@@ -527,7 +547,9 @@ both prices and volumes recovering.
 
 The spillover effect of FDI on domestic firms can be modelled as:
 
-$$\text{TFP}_{d,i} = \alpha + \beta \text{FDI}_{s,j} + \gamma X_i + \epsilon_i$$
+$$
+\text{TFP}_{d,i} = \alpha + \beta \text{FDI}_{s,j} + \gamma X_i + \epsilon_i
+$$
 
 Where:
 
@@ -559,16 +581,6 @@ Empirical estimates of $\beta$ are mixed:
   financial asset purchases)
 - Ignoring the relationship between the current account and the savings-investment gap
   ($CA = S - I$)
-
-```mermaid
-flowchart TD
-    A[3 Balance Of Payments] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

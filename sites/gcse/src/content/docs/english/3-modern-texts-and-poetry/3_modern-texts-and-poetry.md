@@ -28,27 +28,27 @@ categories:
 ## 1. Modern Texts (Post-1914)
 
 The "modern texts" component of GCSE English Literature encompasses fiction, drama, and occasionally
-Non-fiction published after 1914. The choice of modern text varies by board and by centre. The
-Following are the most commonly set texts.
+non-fiction published after 1914. The choice of modern text varies by board and by centre. The
+following are the most commonly set texts.
 
 ### 1.1 Modern Drama
 
 **An Inspector Calls** by J.B. Priestley (1945)
 
-Though technically a post-1914 drama text, Priestley"s play is so widely studied that it warrants
+Though technically a post-1914 drama text, Priestley's play is so widely studied that it warrants
 Extended treatment. Set in the affluent Birling household in 1912, the play dramatises the
-Interruption of a family celebration by the mysterious Inspector Goole, who interrogates each family
+interruption of a family celebration by the mysterious Inspector Goole, who interrogates each family
 Member about their involvement in the death of Eva Smith, a young working-class woman.
 
 The play is structured as a well-made play: a single setting (the Birlings' dining room), a tight
 Timeframe (a single evening), escalating revelations, and a climactic twist (the Inspector's
 Identity and the possibility that he was not a real police officer). Priestley uses this
-Conventional structure to deliver a radical political argument about collective responsibility and
-The interconnectedness of all members of society.
+conventional structure to deliver a radical political argument about collective responsibility and
+the interconnectedness of all members of society.
 
 **Key themes:** Social responsibility and collective guilt; class inequality and the abuse of power;
 Generational conflict (the younger Birlings learn; the older ones do not); gender and the
-Exploitation of women; capitalism versus socialism; the tension between individualism and community.
+exploitation of women; capitalism versus socialism; the tension between individualism and community.
 
 **Key dramatic devices:**
 
@@ -63,18 +63,18 @@ Exploitation of women; capitalism versus socialism; the tension between individu
   cumulative and inexorable.
 - **Stage directions.** Priestley's stage directions are precise and loaded with symbolic meaning.
   The "pink and intimate" lighting at the beginning that becomes "brighter and harder" after the
-  Inspector's arrival signals the shift from comfortable illusion to uncomfortable truth.
+  inspector's arrival signals the shift from comfortable illusion to uncomfortable truth.
 
 **Blood Brothers** by Willy Russell (1983)
 
 A musical drama tracing the lives of twin brothers separated at birth: Mickey, raised by a
-Working-class mother in Liverpool, and Eddie, raised by the wealthy family who employ the mother as
+working-class mother in Liverpool, and Eddie, raised by the wealthy family who employ the mother as
 A cleaner. The play uses a narrator who comments on the action and foreshadows the tragic ending,
 Creating a sense of inevitability that mirrors the Greek tragic tradition.
 
 **Key themes:** Nature versus nurture; class inequality and its consequences; the role of education
 In determining life chances; superstition and fate; friendship and loyalty; the destructive power of
-Social division.
+social division.
 
 ### 1.2 Modern Prose
 
@@ -87,7 +87,7 @@ Revolution and the subsequent betrayal of its ideals under Stalin.
 
 **Key themes:** Power and corruption; propaganda and the manipulation of truth; class hierarchy; the
 Betrayal of revolutionary ideals; the relationship between language and power; the danger of
-Political complacency.
+political complacency.
 
 **Lord of the Flies** by William Golding (1954)
 
@@ -111,8 +111,8 @@ Structure, and the relationship between form and content.
 ### 2.1 Key Modern Poets
 
 The following poets feature most frequently across GCSE specifications. The poems listed are
-Representative rather than exhaustive; students should consult their own board's anthology for the
-Specific poems they are required to study.
+representative rather than exhaustive; students should consult their own board's anthology for the
+specific poems they are required to study.
 
 **Wilfred Owen (1893--1918)**
 
@@ -124,45 +124,45 @@ Poems: "Dulce et Decorum Est," "Anthem for Doomed Youth," "Exposure," "The Send-
 
 Like Owen, a war poet whose early romantic patriotism gave way to savage indignation. Sassoon's
 Poetry is more direct and satirical than Owen's, less reliant on complex figurative language and
-More on biting statement. Key poems: "The General," "Suicide in the Trenches," "Base Details."
+more on biting statement. Key poems: "The General," "Suicide in the Trenches," "Base Details."
 
 **Sylvia Plath (1932--1963)**
 
 An American poet whose work explores mental illness, identity, gender, and the struggle for artistic
 Self-definition. Plath's poetry is intensely personal, often confessional, and characterised by
-Striking, sometimes disturbing imagery. Key poems: "Poppies in July," "The Moon and the Yew Tree,"
+striking, sometimes disturbing imagery. Key poems: "Poppies in July," "The Moon and the Yew Tree,"
 "Edge," "Mirror."
 
 **Ted Hughes (1930--1998)**
 
 Poet Laureate from 1984 to 1998, Hughes is best known for his poems about the natural world, which
-Present nature as a site of violence, power, and primal energy. His marriage to Plath and his poems
-About their relationship have also attracted critical attention. Key poems: "Hawk Roosting,"
+present nature as a site of violence, power, and primal energy. His marriage to Plath and his poems
+about their relationship have also attracted critical attention. Key poems: "Hawk Roosting,"
 "Bayonet Charge," "The Thought-Fox," "Wind."
 
 **Seamus Heaney (1939--2013)**
 
 An Irish poet whose work explores the landscapes and histories of rural Ireland, the conflict
-Between personal and political identity, and the relationship between the individual and the
-Ancestral past. Heaney won the Nobel Prize for Literature in 1995. Key poems: "Digging," "Mid-Term
+between personal and political identity, and the relationship between the individual and the
+ancestral past. Heaney won the Nobel Prize for Literature in 1995. Key poems: "Digging," "Mid-Term
 Break," "Follower," "Death of a Naturalist."
 
 **Simon Armitage (b. 1963)**
 
 A contemporary British poet whose work is characterised by its accessibility, its engagement with
-Everyday experience, and its formal inventiveness. Armitage frequently uses colloquial language and
-Contemporary settings. Key poems: "Remains," "The Manhunt," "Chainsaw Versus the Pampas Grass."
+everyday experience, and its formal inventiveness. Armitage frequently uses colloquial language and
+contemporary settings. Key poems: "Remains," "The Manhunt," "Chainsaw Versus the Pampas Grass."
 
 **Imtiaz Dharker (b. 1954)**
 
 A poet born in Pakistan, raised in Glasgow, and based in Mumbai, Dharker's work explores themes of
-Identity, displacement, cultural hybridity, and the tension between freedom and confinement. Key
+identity, displacement, cultural hybridity, and the tension between freedom and confinement. Key
 Poems: "Tissue," "The Blessing."
 
 **Benjamin Zephaniah (1958--2023)**
 
 A British-Jamaican dub poet whose work addresses racism, social injustice, and the experience of the
-Black British community. Zephaniah's poetry is performative, rhythmic, and politically engaged. Key
+black British community. Zephaniah's poetry is performative, rhythmic, and politically engaged. Key
 Poems: "No Problem," "The British," "What Stephen Lawrence Has Taught Us."
 
 **Dennis Weir**
@@ -178,7 +178,7 @@ Cluster and answer one comparative question.
 
 **Edexcel:** An anthology of 16 poems organised under the themes of "Conflict" or "Comedy and
 Genre." Students study the full anthology and answer one essay question on a named poem, comparing
-It with at least one other from the anthology.
+it with at least one other from the anthology.
 
 **WJEC/Eduqas:** An anthology of 18 poems by Welsh and English-language poets, organised
 Thematically. Students answer one question requiring comparison of two poems from the anthology.
@@ -191,7 +191,7 @@ Paper 2 includes unseen poetry comparison.
 ### 3.1 Form
 
 Form refers to the overall shape or type of the poem. The form of a poem is not arbitrary; it is a
-Choice that affects how the poem communicates its meaning.
+choice that affects how the poem communicates its meaning.
 
 - **Sonnet.** A fourteen-line poem, in iambic pentameter, with a specific rhyme scheme. The
   Shakespearean sonnet has the pattern ababcdcdefefgg, ending with a **rhyming couplet** that often
@@ -217,7 +217,7 @@ Choice that affects how the poem communicates its meaning.
 ### 3.2 Structure
 
 Structure refers to the internal organisation of the poem: how it is divided into stanzas, how the
-Lines and stanzas relate to each other, and how the poem develops from beginning to end.
+lines and stanzas relate to each other, and how the poem develops from beginning to end.
 
 - **Stanza structure.** The number of lines per stanza, the rhyme scheme within stanzas, and the
   pattern of stanza breaks all contribute to the poem's meaning. A regular stanza structure creates
@@ -253,6 +253,8 @@ Lines and stanzas relate to each other, and how the poem develops from beginning
 
 Sound devices create auditory effects that complement and reinforce the poem's meaning.
 
+<div class="table-wrap">
+
 | Device           | Definition                                  | Example                                           |
 | ---------------- | ------------------------------------------- | ------------------------------------------------- |
 | **Alliteration** | Repetition of initial consonant sounds      | "The **b**leak and **b**arren **b**attlefield"    |
@@ -260,6 +262,8 @@ Sound devices create auditory effects that complement and reinforce the poem's m
 | **Consonance**   | Repetition of consonant sounds within words | "The a**cc**i**d**e**nt** of war"                 |
 | **Sibilance**    | Repetition of 's' or 'sh' sounds            | "The **s**ilent **s**nake **s**lid **s**outhward" |
 | **Onomatopoeia** | Words that imitate the sound they describe  | "Crash," "bang," "whisper," "thud"                |
+
+</div>
 
 ### 3.5 Rhythm and Metre
 
@@ -276,9 +280,9 @@ Repetition of a specific rhythmic pattern.
 ### 3.6 Rhyme Scheme
 
 A rhyme scheme is the pattern of rhyming words at the ends of lines, conventionally represented by
-Letters (a, b, c, etc.). A regular rhyme scheme (e.g., abab cdcd) creates a sense of order and
-Control. An irregular or absent rhyme scheme suggests disorder, uncertainty, or the rejection of
-Convention.
+letters (a, b, c, etc.). A regular rhyme scheme (e.g., abab cdcd) creates a sense of order and
+control. An irregular or absent rhyme scheme suggests disorder, uncertainty, or the rejection of
+convention.
 
 **Half-rhyme** (or slant rhyme) occurs when the final consonant sounds match but the preceding
 Vowels do not (e.g., "home" and "come"). Half-rhyme creates a sense of incompleteness or dissonance.
@@ -288,11 +292,11 @@ Owen frequently uses half-rhyme to convey the horror and futility of war.
 
 **Enjambment** is the continuation of a sentence or phrase across a line break without a punctuation
 Mark. It creates a sense of forward momentum, urgency, or the overflow of thought beyond the
-Boundaries of a single line.
+boundaries of a single line.
 
 **Caesura** is a pause within a line, marked by punctuation (a comma, full stop, dash, or
 Semicolon). It creates emphasis on the words on either side of the pause and can disrupt the
-Rhythmic flow, creating a sense of hesitation, fragmentation, or dramatic tension.
+rhythmic flow, creating a sense of hesitation, fragmentation, or dramatic tension.
 
 Owen's "Dulce et Decorum Est" uses both devices to devastating effect:
 
@@ -309,20 +313,20 @@ When analysing a poem, address the following five elements in a structured, inte
 ### 4.1 Form and Structure
 
 What type of poem is this? How is it organised? Is the structure regular or irregular, and what does
-That choice suggest? Where are the turning points, and how do they affect the poem's meaning?
+that choice suggest? Where are the turning points, and how do they affect the poem's meaning?
 
 ### 4.2 Voice and Tone
 
 Who is speaking? To whom? What is their attitude toward their subject? Tone is the emotional quality
-Of the speaker's voice: it may be angry, tender, bitter, nostalgic, ironic, resigned, celebratory,
+of the speaker's voice: it may be angry, tender, bitter, nostalgic, ironic, resigned, celebratory,
 Or any combination of these. Tone is conveyed through word choice, sentence structure, and the
-Relationship between the speaker and the subject.
+relationship between the speaker and the subject.
 
 ### 4.3 Language and Imagery
 
 What specific word choices (diction) does the poet make? What figurative language (metaphor, simile,
 Personification) is used? What images are created, and what senses do they appeal to? How do these
-Linguistic choices create meaning and effect?
+linguistic choices create meaning and effect?
 
 ### 4.4 Theme and Ideas
 
@@ -332,46 +336,46 @@ Use form, structure, language, and imagery to explore those questions?
 ### 4.5 Personal Response
 
 What is your response to the poem? Which aspects are most effective, and why? A personal response is
-Not a substitute for analysis, but it can add depth and conviction to an essay when it is grounded
-In specific textual evidence.
+not a substitute for analysis, but it can add depth and conviction to an essay when it is grounded
+in specific textual evidence.
 
 <details>
 <summary>Worked Analysis: "Bayonet Charge" by Ted Hughes (Excerpt)</summary>
 
 **Form and Structure:** The poem is written in three stanzas of unequal length, with irregular line
 Lengths and no regular rhyme scheme. The first stanza is the longest and most chaotic, mirroring the
-Disorientation of the soldier's charge. The second and third stanzas shorten, as if the soldier's
+disorientation of the soldier's charge. The second and third stanzas shorten, as if the soldier's
 Thoughts are becoming more focused and desperate.
 
 **Voice and Tone:** The poem is narrated in the third person but from a close perspective that
 Places the reader inside the soldier's consciousness. The tone is urgent, disorienting, and
-Ultimately despairing. The rhetorical question in the final stanza -- "In what cold clockwork of the
-Stars and the nations / Was he the hand pointing that second?" -- shifts the tone to philosophical
+ultimately despairing. The rhetorical question in the final stanza -- "In what cold clockwork of the
+stars and the nations / Was he the hand pointing that second?" -- shifts the tone to philosophical
 Anguish, questioning the meaning of individual action in the vast machinery of war.
 
 **Language and Imagery:** Hughes uses violent, visceral imagery to convey the physical reality of
 The charge: the soldier is "sweating like molten iron," the air is "a patriotic tear" (an ironic
 Phrase that undercuts the glorification of war). The extended metaphor of the soldier as a
-Mechanical object -- "cold clockwork," "the hand pointing that second" -- strips him of his
-Individuality and reduces him to a component of a larger, impersonal mechanism.
+mechanical object -- "cold clockwork," "the hand pointing that second" -- strips him of his
+individuality and reduces him to a component of a larger, impersonal mechanism.
 
 **Theme and Ideas:** The poem explores the dehumanisation of the individual soldier in modern
 Warfare. The soldier's physical action (the bayonet charge) is divorced from any sense of purpose or
-Meaning; he is "bewildered" and "bewildering," caught between instinct and obligation. The poem
+meaning; he is "bewildered" and "bewildering," caught between instinct and obligation. The poem
 Questions whether individual courage has any significance in the industrialised machinery of
-Conflict.
+conflict.
 
 **Personal Response:** Hughes's use of violent, kinetic imagery creates an almost physical
 Experience for the reader. The poem is most effective in its final lines, where the metaphorical
 Scope expands from the individual soldier to the cosmic scale, suggesting that the individual is not
-Merely caught in the machinery of war but in the machinery of history itself.
+merely caught in the machinery of war but in the machinery of history itself.
 
 </details>
 
 ## 5. Comparative Poetry Analysis Methodology
 
 Comparative poetry analysis is assessed on all major boards. The following methodology provides a
-Structured approach.
+structured approach.
 
 ### 5.1 Planning the Comparison
 
@@ -389,7 +393,7 @@ Before writing, identify the **points of comparison** between the poems. These m
 ### 5.2 Structuring the Comparative Essay
 
 The most effective comparative essays use **integrated comparison**: each paragraph makes a point
-About both poems, rather than writing about one poem and then the other.
+about both poems, rather than writing about one poem and then the other.
 
 A comparative paragraph structure might follow this pattern:
 
@@ -413,13 +417,13 @@ Use comparative language to make the links between poems explicit:
 ## 6. Unseen Poetry Analysis
 
 The unseen poetry component requires students to analyse one or two poems they have not studied
-Before. This tests transferable analytical skills rather than rote knowledge.
+before. This tests transferable analytical skills rather than rote knowledge.
 
 ### 6.1 Step-by-Step Approach
 
 **Step 1: Read the poem at least twice.** On the first reading, focus on overall meaning: what is
 Happening, what is the subject, what is the speaker's attitude? On the second reading, focus on
-Technique: form, structure, language, imagery, sound.
+technique: form, structure, language, imagery, sound.
 
 **Step 2: Identify the form.** Is it a sonnet, a free-verse lyric, a ballad, a dramatic monologue?
 The form provides a framework for analysis.
@@ -439,7 +443,7 @@ Matters more than quantity of quotation.
 
 **Step 7: Write a thesis statement.** Before beginning the essay, formulate a clear argument about
 The poem's meaning and how it is achieved. The thesis should be specific, debatable, and grounded in
-The text.
+the text.
 
 ### 6.2 Timing
 
@@ -468,9 +472,9 @@ For the unseen poetry question, time management is critical:
 
 War poetry is dominated by the First World War poets (Owen, Sassoon, Rosenberg, Brooke) and their
 Successors. The dominant themes are the horror and futility of industrialised warfare; the betrayal
-Of the young by the old; the gap between the rhetoric of patriotism and the reality of combat; the
-Physical and psychological damage inflicted on soldiers; and the inadequacy of language to convey
-The experience of war.
+of the young by the old; the gap between the rhetoric of patriotism and the reality of combat; the
+physical and psychological damage inflicted on soldiers; and the inadequacy of language to convey
+the experience of war.
 
 ### 7.2 Identity
 
@@ -482,25 +486,25 @@ Explore Black British identity; Heaney's engage with Irish identity and the colo
 
 The relationship between identity and place is a recurrent theme. Heaney's rural Ireland, Dharker's
 Urban landscapes, Hughes's Yorkshire moors -- these places are not merely settings but sites of
-Meaning that shape the poems' concerns.
+meaning that shape the poems' concerns.
 
 ### 7.4 Relationships
 
 Love, loss, family, and friendship are explored across a wide range of forms and tones, from the
-Intimate tenderness of Armitage's "The Manhunt" to the bitter grief of Weir's "Poppies." The AQA
+intimate tenderness of Armitage's "The Manhunt" to the bitter grief of Weir's "Poppies." The AQA
 "Love and Relationships" cluster provides a comprehensive survey of this theme.
 
 ### 7.5 Power
 
 Power -- political, social, personal -- is explored in its various manifestations: the power of the
-State over the individual (Owen, Sassoon), the power of nature (Hughes), the power of language to
-Shape perception (Zephaniah), and the power dynamics of personal relationships.
+state over the individual (Owen, Sassoon), the power of nature (Hughes), the power of language to
+shape perception (Zephaniah), and the power dynamics of personal relationships.
 
 ### 7.6 Nature
 
 Nature in modern poetry is rarely the benign, picturesque landscape of Romantic tradition. For
 Hughes, nature is a site of violence and primal energy. For Heaney, it is a repository of memory and
-Ancestral identity. For Owen, the natural world is violated and destroyed by war.
+ancestral identity. For Owen, the natural world is violated and destroyed by war.
 
 ### 7.7 Time and Mortality
 
@@ -514,11 +518,11 @@ Intensity.
 ### AQA
 
 Paper 2, Section B: Poetry. Students answer one question from their chosen cluster (Love and
-Relationships, or Power and Conflict). The question requires comparison of one named poem with at
-Least one other from the cluster. The question carries 30 marks. The paper is closed-book.
+relationships, or Power and Conflict). The question requires comparison of one named poem with at
+least one other from the cluster. The question carries 30 marks. The paper is closed-book.
 
 Section C: Unseen Poetry. Students answer one question on one unseen poem (24 marks) and one
-Comparative question on two unseen poems (8 marks).
+comparative question on two unseen poems (8 marks).
 
 ### Edexcel
 
@@ -529,8 +533,8 @@ Carries 32 marks. The paper is closed-book.
 ### OCR
 
 Paper 1, Section B: Pre-1900 Poetry. Students study a prescribed anthology of poetry from the
-English literary heritage alongside Shakespeare. The question requires comparison of two poems from
-The anthology. Open-book.
+english literary heritage alongside Shakespeare. The question requires comparison of two poems from
+the anthology. Open-book.
 
 Paper 2, Section C: Unseen Poetry. Students answer one comparative question on two unseen
 Contemporary poems. The question carries 24 marks.
@@ -566,7 +570,7 @@ Carries 10 marks.
 ## Common Pitfalls
 
 1. **Confusing key definitions**. Students often mix up similar terminology in Modern Texts and
-   Poetry. Always write the precise definition as given in the specification.
+   poetry. Always write the precise definition as given in the specification.
 2. **Missing command words**. Failing to address "explain", "compare", or "evaluate" properly. Each
    command word requires a different style of response.
 3. **Insufficient working**. In calculation or analysis questions, marks are awarded for method.
@@ -589,17 +593,6 @@ structure your answer using the appropriate terminology.
 Multi-step problems in Modern Texts and Poetry often combine two or more concepts. Break the problem
 down: identify what you need to find, recall the relevant formula or principle, substitute values,
 and state your answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[3_Modern Texts And Poetry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

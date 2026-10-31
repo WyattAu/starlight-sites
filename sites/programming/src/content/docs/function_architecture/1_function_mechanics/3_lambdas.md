@@ -102,6 +102,8 @@ int main() {
 
 ## 3.2 Capture Modes
 
+<div class="table-wrap">
+
 | Capture Syntax | Meaning                                       |
 | :------------- | :-------------------------------------------- |
 | `[]`           | No captures                                   |
@@ -112,6 +114,8 @@ int main() {
 | `[x, &y]`      | Capture `x` by value, `y` by reference        |
 | `[=, &x]`      | Capture all by value, except `x` by reference |
 | `[&, x]`       | Capture all by reference, except `x` by value |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -235,7 +239,7 @@ int main() {
 ### Why `mutable` Exists
 
 The default `const` qualifier on `operator()` is a safety feature. It ensures that value captures
-Are immutable by default, preventing accidental modification. The `mutable` keyword is an explicit
+are immutable by default, preventing accidental modification. The `mutable` keyword is an explicit
 Opt-in that signals "I intend to modify the captured state." This mirrors the philosophy of `const`
 Correctness throughout C++.
 
@@ -309,7 +313,7 @@ int main() {
 ### Generic Lambda with `auto&&` (Forwarding Reference)
 
 Using `auto&&` in a lambda parameter creates a forwarding reference, allowing the lambda to accept
-Both lvalues and rvalues without unnecessary copies:
+both lvalues and rvalues without unnecessary copies:
 
 ```cpp
 #include <iostream>
@@ -353,7 +357,7 @@ Pass custom comparators and predicates.
 ## 3.5 Stateful Lambdas and Lifetime Issues
 
 A lambda that captures by reference holds references to local variables. If the lambda outlives
-Those variables (e.g., by being returned or stored), the references become dangling, undefined
+those variables (e.g., by being returned or stored), the references become dangling, undefined
 Behavior.
 
 ```cpp
@@ -387,7 +391,7 @@ int main() {
 
 ### Capturing `this` in Member Functions
 
-When a lambda is created inside a member function and captures `this`It holds a raw pointer to the
+When a lambda is created inside a member function and captures `this`. It holds a raw pointer to the
 Object. If the object is destroyed before the lambda executes, the pointer dangles:
 
 ```cpp
@@ -464,10 +468,10 @@ public:
 
 A lambda has a **unique, unnameable type**. Two lambdas with identical bodies have different types.
 This means lambdas cannot be stored in a heterogeneous container or returned as a specific type
-Without type erasure.
+without type erasure.
 
 `std::function<R(Args...)>` performs type erasure: it wraps any callable with a compatible signature
-Behind a uniform interface. The cost of this flexibility is:
+behind a uniform interface. The cost of this flexibility is:
 
 - **Indirection**: each invocation goes through a virtual dispatch or function pointer.
 - **Potential heap allocation**: large closures (exceeding the Small Buffer Optimization threshold)
@@ -582,7 +586,7 @@ int main() {
 
 ## 3.7 Lambda in Unevaluated Contexts
 
-Lambdas can appear in unevaluated contexts (`decltype``sizeof``noexcept``requires`), but with
+Lambdas can appear in unevaluated contexts (`decltype`, `sizeof`, `noexcept`, `requires`), but with
 Limitations:
 
 ```cpp
@@ -665,7 +669,7 @@ int main() {
 
 ### Pitfall 3: Overcapturing with `[=]` and `[&]`
 
-Default captures (`[=]``[&]`) capture everything that is used, which can inadvertently capture
+Default captures (`[=]`, `[&]`) capture everything that is used, which can inadvertently capture
 Pointers, references to local variables, or `this`:
 
 ```cpp
@@ -682,16 +686,6 @@ struct Handler {
     }
     int member_ = 0;
 };
-```
-
-```mermaid
-flowchart TD
-    A[3_Lambdas] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -713,9 +707,6 @@ and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Site Home](/):** Main landing page for Programming notes.
@@ -725,4 +716,4 @@ linked above.
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)

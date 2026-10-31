@@ -10,17 +10,6 @@ categories:
   - hub
 ---
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Programming Language Comparison Guide
 
 Choosing a programming language is one of the most consequential decisions a developer makes. The language you learn shapes how you think about problems, determines which projects you can build, and influences your career trajectory. This guide compares twelve major languages across paradigms, type systems, performance characteristics, and use cases, then provides a decision tree to help you choose the right language for your goals.
@@ -342,6 +331,8 @@ Read more: [Elixir Study Guide](https://elixir.wyattau.com).
 
 ## Language Comparison Matrix
 
+<div class="table-wrap">
+
 | Language | Typing | Compilation | Concurrency | Memory Management | Primary Use |
 | --- | --- | --- | --- | --- | --- |
 | Python | Dynamic | Interpreted | GIL (asyncio) | Garbage collection | Data science, scripting |
@@ -356,6 +347,8 @@ Read more: [Elixir Study Guide](https://elixir.wyattau.com).
 | Ruby | Dynamic | Interpreted | Fibers, threads | Garbage collection | Web (Rails), scripting |
 | Haskell | Static | Native / GHC | Green threads | Garbage collection | Academia, correctness |
 | Elixir | Dynamic | BEAM bytecode | Actors (processes) | BEAM garbage collection | Distributed systems |
+
+</div>
 
 ## Which Language Should I Learn? Decision Tree
 

@@ -23,8 +23,8 @@ categories:
 ## Plant Biology
 
 This topic covers plant structure, transport in plants, reproduction, growth, and plant responses to
-Stimuli. Plant biology is a core area of the Irish Leaving Certificate Biology syllabus and
-Underpins understanding of ecosystems, agriculture, and human physiology.
+stimuli. Plant biology is a core area of the Irish Leaving Certificate Biology syllabus and
+underpins understanding of ecosystems, agriculture, and human physiology.
 
 ## Plant Structure
 
@@ -37,12 +37,12 @@ Support, and gas exchange.
 **Dermal tissue (epidermis):** outer protective layer. May have a waxy cuticle to reduce water loss.
 Root hair cells are specialised epidermal cells for absorption. The cuticle is made of cutin, a waxy
 Lipid polymer secreted by epidermal cells, which is impermeable to water. This adaptation is
-Particularly important in terrestrial plants that face the constant risk of desiccation.
+particularly important in terrestrial plants that face the constant risk of desiccation.
 
 **Ground tissue (parenchyma):** fills the interior of the plant. Involved in photosynthesis,
 Storage, and support. Parenchyma cells are thin-walled, living cells that remain capable of cell
 Division. In leaves, parenchyma cells in the mesophyll contain chloroplasts for photosynthesis. In
-Roots and stems, parenchyma cells store starch, oils, or water. Two specialised forms of ground
+roots and stems, parenchyma cells store starch, oils, or water. Two specialised forms of ground
 Tissue include collenchyma (unevenly thickened cell walls for flexible support in young stems) and
 Sclerenchyma (thick lignified walls for rigid support in mature tissues).
 
@@ -86,8 +86,8 @@ Throughout the plant.
 
 :::note
 Photosynthesis produces ATP, which drives potassium ion ($K^+$) pumps. Potassium ions enter the
-Guard cells, lowering their water potential. Water follows by osmosis, making the cells turgid and
-Opening the stomata.
+guard cells, lowering their water potential. Water follows by osmosis, making the cells turgid and
+opening the stomata.
 :::
 
 ### Root Structure (OL/HL)
@@ -98,7 +98,7 @@ Carrots and turnips).
 **Root hair cells:** increase surface area for absorption. Each root hair is a tubular extension of
 An epidermal cell. The large surface area-to-volume ratio maximises the rate of water and mineral
 Ion uptake by osmosis and active transport respectively. Root hair cells have many mitochondria to
-Provide ATP for active transport of mineral ions against their concentration gradient.
+provide ATP for active transport of mineral ions against their concentration gradient.
 
 **Root tip zones:**
 
@@ -124,7 +124,7 @@ Provide ATP for active transport of mineral ions against their concentration gra
 
 **Monocot stem:** vascular bundles are scattered throughout the ground tissue rather than arranged
 In a ring. Monocots generally lack a cambium and do not undergo secondary growth (no thickening of
-The stem).
+the stem).
 
 ### Worked Example: Distinguishing Monocot and Dicot Features (HL)
 
@@ -148,7 +148,7 @@ Therefore, this plant is a **monocot**.
 
 The loss of water vapour from the leaves through the stomata. Transpiration is an inevitable
 Consequence of gas exchange: stomata must open to allow $CO_2$ to enter for photosynthesis, but this
-Also allows water vapour to escape.
+also allows water vapour to escape.
 
 **Transpiration stream:**
 
@@ -184,12 +184,16 @@ Relies on the physical properties of water molecules.
 
 ### Factors Affecting Transpiration Rate (OL/HL)
 
+<div class="table-wrap">
+
 | Factor          | Effect                                     | Reason                                                                   |
 | --------------- | ------------------------------------------ | ------------------------------------------------------------------------ |
 | Temperature     | Higher temperature increases rate          | Increases kinetic energy of water molecules; increases evaporation       |
 | Humidity        | Higher humidity decreases rate             | Reduces the water potential gradient between leaf and air                |
 | Wind speed      | Higher wind speed increases rate           | Removes water vapour from leaf surface, maintaining gradient             |
 | Light intensity | Higher light increases rate (stomata open) | Stomata open wider in light for photosynthesis, allowing more water loss |
+
+</div>
 
 ### Worked Example: Predicting Transpiration Rate (OL/HL)
 
@@ -211,7 +215,7 @@ Simultaneously:
 
 The transport of organic substances (mainly sucrose) in the phloem. Unlike xylem transport, which is
 A passive process driven by physical forces, translocation requires energy (active transport at the
-Source).
+source).
 
 **Mass flow hypothesis (pressure flow hypothesis):**
 
@@ -249,7 +253,7 @@ The xylem intact. After several weeks, the bark above the ring swells. Explain t
 
 **Answer:** The ring of bark removal removes the phloem tissue, which is located in the bark. The
 Phloem is responsible for translocating sucrose from the leaves (source) to the roots (sink). With
-The phloem pathway severed:
+the phloem pathway severed:
 
 1. Sucrose produced by photosynthesis in the leaves can still reach the region above the ring but
    cannot pass below it.
@@ -259,7 +263,7 @@ The phloem pathway severed:
    of sugars and may eventually die.
 
 This experiment provides strong evidence that the phloem, not the xylem, is the tissue responsible
-For translocation of organic substances.
+for translocation of organic substances.
 
 ## Plant Reproduction
 
@@ -286,9 +290,11 @@ Not require a pollinator. Disadvantages: no genetic variation, inbreeding depres
 
 **Cross-pollination:** pollen from a different plant of the same species. Advantages: genetic
 Variation, potentially stronger offspring. Disadvantages: requires a pollination agent, less
-Reliable.
+reliable.
 
 **Agents of pollination:**
+
+<div class="table-wrap">
 
 | Agent   | Flower adaptations                                                                 |
 | ------- | ---------------------------------------------------------------------------------- |
@@ -297,10 +303,12 @@ Reliable.
 | Birds   | Large, brightly coloured (often red); copious nectar; sturdy perch                 |
 | Water   | Long, floating pollen; small, inconspicuous flowers (rare)                         |
 
+</div>
+
 :::note
 Only a tiny fraction reaches a stigma, but the sheer volume ensures successful reproduction.
 Insect-pollinated flowers produce less pollen but it is often larger and stickier to adhere to
-Pollinators.
+pollinators.
 :::
 
 ### Fertilisation (OL/HL)
@@ -315,7 +323,7 @@ Pollinators.
 - The other male gamete fuses with two polar nuclei $\to$ endosperm (3n), a nutritive tissue.
 
 Double fertilisation is unique to flowering plants (angiosperms) and ensures that the endosperm only
-Develops if fertilisation has occurred, avoiding waste of resources.
+develops if fertilisation has occurred, avoiding waste of resources.
 
 ### Seed and Fruit Development (OL/HL)
 
@@ -337,11 +345,15 @@ Develops if fertilisation has occurred, avoiding waste of resources.
 
 **Monocot vs dicot seeds:**
 
+<div class="table-wrap">
+
 | Feature    | Monocot seed              | Dicot seed                        |
 | ---------- | ------------------------- | --------------------------------- |
 | Cotyledons | One                       | Two                               |
 | Endosperm  | Present (main food store) | Often absent (food in cotyledons) |
 | Example    | Maize, wheat              | Bean, pea                         |
+
+</div>
 
 ### Germination (OL/HL)
 
@@ -395,7 +407,7 @@ Environmental changes), can lead to overcrowding and competition for resources.
 **Question:** A student sets up four test tubes, each containing 10 cress seeds on moist cotton
 Wool. Tube A is kept at $20\degree C$. Tube B is kept at $20\degree C$ but the cotton wool is dry.
 Tube C is kept at $4\degree C$. Tube D is kept at $20\degree C$ with no oxygen. After 5 days, only
-Tube A shows germination. Explain the results.
+tube A shows germination. Explain the results.
 
 **Answer:**
 
@@ -427,7 +439,9 @@ Conditions for germination.
 
 Plant hormones (phytohormones) are chemical messengers produced in small quantities that regulate
 Growth, development, and responses to stimuli. Unlike animal hormones, plant hormones can act on the
-Cells that produce them (autocrine) as well as on distant cells.
+cells that produce them (autocrine) as well as on distant cells.
+
+<div class="table-wrap">
 
 | Hormone             | Site of production             | Effect                                             |
 | ------------------- | ------------------------------ | -------------------------------------------------- |
@@ -437,10 +451,12 @@ Cells that produce them (autocrine) as well as on distant cells.
 | Ethylene            | Ripening fruits, ageing leaves | Fruit ripening, leaf fall (abscission)             |
 | Abscisic acid (ABA) | Leaves, root caps              | Inhibits growth, closes stomata (stress response)  |
 
+</div>
+
 ### Apical Dominance (HL)
 
 Auxin produced by the apical bud inhibits the growth of lateral buds. The mechanism works as
-Follows:
+follows:
 
 1. Auxin is synthesised in the apical bud and transported downwards through the stem.
 2. High auxin concentrations in the lateral buds prevent them from growing.
@@ -475,13 +491,13 @@ A tropism is a growth response to a directional stimulus. The response can be to
 
 :::caution
 Elongation in roots. Roots are far more sensitive to auxin than shoots, so the same concentration
-That promotes growth in shoots inhibits growth in roots.
+that promotes growth in shoots inhibits growth in roots.
 
 ### Worked Example: Explaining Phototropism (HL)
 
 **Question:** A potted plant is placed near a window so that light comes from one side only. After
 Several days, the stem bends towards the window. Explain the mechanism responsible for this
-Response.
+response.
 
 **Answer:** The bending is due to **positive phototropism**, mediated by the plant hormone auxin
 (IAA):
@@ -494,7 +510,7 @@ Response.
 4. This differential growth causes the stem to bend towards the light source.
 
 If a light-proof cap is placed over the tip of the shoot, no bending occurs, demonstrating that the
-Tip is the site of auxin production and light perception.
+tip is the site of auxin production and light perception.
 
 ### Worked Example: Geotropism in Roots (HL)
 
@@ -535,17 +551,9 @@ Directions in response to the same gravitational stimulus.
 8. **Root hair cells vs root hairs** -- a root hair is a single extension of one epidermal cell.
    Root hairs are found in the zone of maturation, not the zone of cell division.
 
-```mermaid
-flowchart TD
-    A[4_Plant Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Plant Hormones and Their Effects (HL)
+
+<div class="table-wrap">
 
 | Hormone       | Promotes                                               | Inhibits                              | Practical use                                                                   |
 | ------------- | ------------------------------------------------------ | ------------------------------------- | ------------------------------------------------------------------------------- |
@@ -554,6 +562,8 @@ flowchart TD
 | Cytokinin     | Cell division (cytokinesis); delay leaf ageing         | --                                    | Tissue culture; extending shelf life of cut flowers                             |
 | Ethylene      | Fruit ripening; leaf fall                              | --                                    | Bananas shipped green and ripened with ethylene gas; promoting uniform ripening |
 | Abscisic acid | Stomatal closure during water stress                   | Growth; germination                   | Antitranspirant sprays; maintaining seed dormancy                               |
+
+</div>
 
 ## Practice Questions
 
@@ -586,17 +596,17 @@ flowchart TD
 ### Agriculture and Plant Hormones
 
 Plant hormones have significant applications in agriculture and horticulture. Understanding these
-Applications is important for the Leaving Certificate.
+applications is important for the Leaving Certificate.
 
 **Synthetic auxins (e.g., 2,4-D):** used as selective weedkillers. Broad-leaved plants (dicots) are
 More sensitive to auxins than narrow-leaved plants (monocots like grasses and cereals). Spraying a
-Field of wheat with 2,4-D kills dicot weeds without harming the crop. Synthetic auxins cause
+field of wheat with 2,4-D kills dicot weeds without harming the crop. Synthetic auxins cause
 Uncontrolled, unsustainable growth in susceptible plants, effectively killing them.
 
 **Ethylene and fruit ripening:** Ethylene gas is used commercially to control fruit ripening.
 Bananas are harvested while green and unripe, shipped to reduce damage and spoilage, then exposed to
-Ethylene gas upon arrival to trigger uniform ripening. Removing ethylene (e.g., by ventilation or
-Using ethylene absorbers) delays ripening and extends shelf life.
+ethylene gas upon arrival to trigger uniform ripening. Removing ethylene (e.g., by ventilation or
+using ethylene absorbers) delays ripening and extends shelf life.
 
 **Gibberellins in brewing:** Gibberellic acid ($GA_3$) is sprayed on barley grains during the
 Malting process. It stimulates the production of amylase enzymes in the aleurone layer of the seed,
@@ -637,6 +647,8 @@ In photosynthesis and other metabolic processes. Cutting the shoot may alter its
 **Question:** A student using a potometer records the following movement of an air bubble along a
 Capillary tube of diameter 1 mm:
 
+<div class="table-wrap">
+
 | Time (min) | Distance moved (mm) |
 | ---------- | ------------------- |
 | 0--1       | 12                  |
@@ -644,6 +656,8 @@ Capillary tube of diameter 1 mm:
 | 2--3       | 11                  |
 | 3--4       | 13                  |
 | 4--5       | 12                  |
+
+</div>
 
 Calculate the mean rate of water uptake in $mm^3$/min.
 
@@ -697,11 +711,15 @@ Understanding osmosis is critical for explaining water movement in plants.
 
 **Plant cells in different solutions:**
 
+<div class="table-wrap">
+
 | Solution type           | Effect on plant cell                                                |
 | ----------------------- | ------------------------------------------------------------------- |
 | Hypotonic (high $\psi$) | Water enters; cell becomes turgid; cell wall prevents bursting      |
 | Isotonic (equal $\psi$) | No net water movement; cell is flaccid                              |
 | Hypertonic (low $\psi$) | Water leaves; cytoplasm shrinks (plasmolysis); cell becomes flaccid |
+
+</div>
 
 Turgor pressure is essential for plant support. When cells lose turgor (e.g., during water stress),
 The plant wilts. This is why watering a wilted plant restores its upright posture.
@@ -714,9 +732,11 @@ Has a water potential of $-100$ kPa. In which direction will water move? Explain
 **Answer:** Water will move **from the soil into the root hair cell**. This is because the soil
 Solution has a higher (less negative) water potential ($-100$ kPa) compared to the root hair cell
 Cytoplasm ($-700$ kPa). Water always moves from a region of higher water potential to a region of
-Lower water potential by osmosis across the selectively permeable cell membrane.
+lower water potential by osmosis across the selectively permeable cell membrane.
 
 ### Xylem and Phloem: Detailed Comparison (HL)
+
+<div class="table-wrap">
 
 | Feature               | Xylem                          | Phloem                                 |
 | --------------------- | ------------------------------ | -------------------------------------- |
@@ -728,6 +748,8 @@ Lower water potential by osmosis across the selectively permeable cell membrane.
 | Associated cells      | None (vessels and tracheids)   | Companion cells (metabolically active) |
 | Mechanism             | Passive (cohesion-tension)     | Active (mass flow, requires ATP)       |
 | Role in support       | Yes (lignin provides rigidity) | No                                     |
+
+</div>
 
 ## Common Exam Errors in Plant Biology
 
@@ -754,6 +776,8 @@ genetic variation.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature           | Mitosis                              | Meiosis                                     |
 | ----------------- | ------------------------------------ | ------------------------------------------- |
 | Divisions         | 1                                    | 2                                           |
@@ -761,6 +785,8 @@ genetic variation.
 | Chromosome number | Same as parent                       | Half of parent                              |
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
+
+</div>
 :::
 
 ## Intuition

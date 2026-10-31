@@ -55,7 +55,7 @@ $\mathcal{P}_2(\mathbb{R})$.
 
 Suppose $a(1 - x) + b(1 + x) + cx^2 = 0$ as a polynomial. Then $(a + b) + (-a + b)x + cx^2 = 0$ So
 $a + b = 0$, $-a + b = 0$, $c = 0$. From the first two equations: $2a = 0$ So $a = 0$ Then $b = 0$.
-Since $a = b = c = 0$The set is linearly independent.
+Since $a = b = c = 0$ The set is linearly independent.
 
 _If you get this wrong, revise: Section 2.1 (Linear Independence)._
 
@@ -63,14 +63,18 @@ _If you get this wrong, revise: Section 2.1 (Linear Independence)._
 
 **Problem 4.** Find a basis for the column space of
 
-$$A = \begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Row-reduce $A$:
 
-$$\begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & -2 & -2 \end{pmatrix} \xrightarrow{R_3 - R_2} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & 0 & 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & 1 & 4 \\ 2 & 4 & 0 & 6 \\ 3 & 6 & 1 & 10 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & -2 & -2 \end{pmatrix} \xrightarrow{R_3 - R_2} \begin{pmatrix} 1 & 2 & 1 & 4 \\ 0 & 0 & -2 & -2 \\ 0 & 0 & 0 & 0 \end{pmatrix}
+$$
 
 Pivots are in columns 1 and 3. A basis for $\mathrm{col}(A)$ is $\{(1, 2, 3), (1, 0, 1)\}$ (the
 pivot columns of the original $A$). $\dim(\mathrm{col}(A)) = 2$.
@@ -86,7 +90,7 @@ in $\mathbb{R}^3$. Verify the dimension formula $\dim(U + W) = \dim(U) + \dim(W)
 <summary>Solution</summary>
 
 $\dim(U) = 2$ (the two spanning vectors are linearly independent), $\dim(W) = 1$. Since
-$\dim(U) + \dim(W) = 3 = \dim(\mathbb{R}^3)$We have $U + W = \mathbb{R}^3$ So $\dim(U + W) = 3$. By
+$\dim(U) + \dim(W) = 3 = \dim(\mathbb{R}^3)$ We have $U + W = \mathbb{R}^3$ So $\dim(U + W) = 3$. By
 the dimension formula: $\dim(U \cap W) = 2 + 1 - 3 = 0$ So $U \cap W = \{\mathbf{0}\}$.
 
 We can verify directly: if $a(1,0,1) + b(0,1,1) = c(1,1,0)$ Then $a = c$, $b = c$, $a + b = 0$ Giving
@@ -98,7 +102,9 @@ _If you get this wrong, revise: Section 2.5 (Dimension Formula)._
 
 **Problem 6.** Compute $\det(A)$ using cofactor expansion where
 
-$$A = \begin{pmatrix} 2 & 0 & 1 & 3 \\ 0 & 1 & 2 & 0 \\ 1 & 0 & 0 & 2 \\ 0 & 3 & 0 & 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 0 & 1 & 3 \\ 0 & 1 & 2 & 0 \\ 1 & 0 & 0 & 2 \\ 0 & 3 & 0 & 1 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -123,7 +129,7 @@ _If you get this wrong, revise: Section 3.4 (Determinants)._
 <summary>Solution</summary>
 
 $\det(A) = \det(A^T) = \det(-A) = (-1)^n \det(A) = -\det(A)$ (since $n$ is odd). Therefore
-$\det(A) = -\det(A)$ So $2\det(A) = 0$Giving $\det(A) = 0$.
+$\det(A) = -\det(A)$ So $2\det(A) = 0$ Giving $\det(A) = 0$.
 
 _If you get this wrong, revise: Section 3.5 (Properties of Determinants)._
 
@@ -131,7 +137,9 @@ _If you get this wrong, revise: Section 3.5 (Properties of Determinants)._
 
 **Problem 8.** Use the adjugate formula to find the inverse of
 
-$$A = \begin{pmatrix} 2 & 0 & 1 \\ 1 & 1 & 0 \\ 0 & 1 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 0 & 1 \\ 1 & 1 & 0 \\ 0 & 1 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -151,14 +159,20 @@ _If you get this wrong, revise: Section 3.6 (Adjugate and Inverse Formula)._
 
 **Problem 9.** Solve the system by Gaussian elimination:
 
-$$\begin{aligned} x + 2y - z &= 3 \\ 2x + 5y + z &= 8 \\ -x + y + 4z &= 2 \end{aligned}$$
+$$
+\begin{aligned} x + 2y - z &= 3 \\ 2x + 5y + z &= 8 \\ -x + y + 4z &= 2 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
-$$\begin{pmatrix} 1 & 2 & -1 & 3 \\ 2 & 5 & 1 & 8 \\ -1 & 1 & 4 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 + R_1} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 3 & 3 & 5 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 & 3 \\ 2 & 5 & 1 & 8 \\ -1 & 1 & 4 & 2 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 + R_1} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 3 & 3 & 5 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_3 - 3R_2} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 0 & -6 & -1 \end{pmatrix}$$
+$$
+\xrightarrow{R_3 - 3R_2} \begin{pmatrix} 1 & 2 & -1 & 3 \\ 0 & 1 & 3 & 2 \\ 0 & 0 & -6 & -1 \end{pmatrix}
+$$
 
 From row 3: $-6z = -1$ So $z = 1/6$. From row 2: $y + 3(1/6) = 2$ So $y = 3/2$. From row 1:
 $x + 2(3/2) - 1/6 = 3$ So $x = 3 - 3 + 1/6 = 1/6$.
@@ -172,15 +186,19 @@ _If you get this wrong, revise: Section 4.1 (Gaussian Elimination)._
 **Problem 10.** Determine whether the following system is consistent using the Rouché--Capelli
 theorem:
 
-$$\begin{aligned} x + y + z &= 1 \\ 2x + 2y + 2z &= 3 \\ x - y + z &= 0 \end{aligned}$$
+$$
+\begin{aligned} x + y + z &= 1 \\ 2x + 2y + 2z &= 3 \\ x - y + z &= 0 \end{aligned}
+$$
 
 <details>
 <summary>Solution</summary>
 
-$$[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 2 & 2 & 2 & 3 \\ 1 & -1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & -2 & 0 & -1 \end{pmatrix}$$
+$$
+[A \mid \mathbf{b}] = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 2 & 2 & 2 & 3 \\ 1 & -1 & 1 & 0 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - R_1} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 0 & 0 & 1 \\ 0 & -2 & 0 & -1 \end{pmatrix}
+$$
 
 $\mathrm{rank}(A) = 2$ but $\mathrm{rank}([A \mid \mathbf{b}]) = 3$ (the row $[0\ 0\ 0\ 1]$ is
-Non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$The system is
+non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$ The system is
 inconsistent.
 
 _If you get this wrong, revise: Section 4.2 (Rouché--Capelli Theorem)._
@@ -189,18 +207,24 @@ _If you get this wrong, revise: Section 4.2 (Rouché--Capelli Theorem)._
 
 **Problem 11.** Find the LU decomposition of
 
-$$A = \begin{pmatrix} 1 & 2 & -1 \\ 2 & 5 & 0 \\ -1 & 0 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & -1 \\ 2 & 5 & 0 \\ -1 & 0 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 $m_{21} = 2/1 = 2$, $m_{31} = -1/1 = -1$:
 
-$$\begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 2 & 2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 2 & 2 \end{pmatrix}
+$$
 
 $m_{32} = 2/1 = 2$:
 
-$$U = \begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 0 & -2 \end{pmatrix}, \quad L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 2 & 1 \end{pmatrix}$$
+$$
+U = \begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 0 & -2 \end{pmatrix}, \quad L = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 2 & 1 \end{pmatrix}
+$$
 
 Verify:
 $LU = \begin{pmatrix} 1 & 0 & 0 \\ 2 & 1 & 0 \\ -1 & 2 & 1 \end{pmatrix}\begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 2 \\ 0 & 0 & -2 \end{pmatrix} = \begin{pmatrix} 1 & 2 & -1 \\ 2 & 5 & 0 \\ -1 & 0 & 3 \end{pmatrix} = A$.
@@ -212,7 +236,9 @@ _If you get this wrong, revise: Section 4.3 (LU Decomposition)._
 
 **Problem 12.** Find the least squares solution to the system $A\mathbf{x} = \mathbf{b}$ where
 
-$$A = \begin{pmatrix} 1 & 0 \\ 1 & 1 \\ 1 & 2 \end{pmatrix}, \quad \mathbf{b} = \begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 0 \\ 1 & 1 \\ 1 & 2 \end{pmatrix}, \quad \mathbf{b} = \begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -233,7 +259,9 @@ _If you get this wrong, revise: Section 4.5 (Least Squares Solutions)._
 
 **Problem 13.** Find the eigenvalues and a basis for each eigenspace of
 
-$$A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 2 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 2 \end{pmatrix}
+$$
 
 Is $A$ diagonalisable?
 
@@ -242,7 +270,7 @@ Is $A$ diagonalisable?
 
 $\det(A - \lambda I) = (2 - \lambda)^3$ So $\lambda = 2$ with algebraic multiplicity 3.
 
-$A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$Which has rank 2. The
+$A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$ Which has rank 2. The
 null space is spanned by $(1, 0, 0)^T$. So the geometric multiplicity is 1.
 
 Since the geometric multiplicity (1) does not equal the algebraic multiplicity (3), $A$ is **not**
@@ -254,7 +282,9 @@ _If you get this wrong, revise: Section 5.3 (Diagonalisation) and Section 5.5 (J
 
 **Problem 14.** Diagonalise the matrix
 
-$$A = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & -1 \\ 0 & -1 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & -1 \\ 0 & -1 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -273,14 +303,16 @@ Eigenspace basis: $\{(0, -1, 1)\}$. Geometric multiplicity = 1.
 
 Since $2 + 1 = 3 = n$, $A$ is diagonalisable:
 
-$$P = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & -1 \\ 0 & 1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 4 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & -1 \\ 0 & 1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 4 \end{pmatrix}
+$$
 
 _If you get this wrong, revise: Section 5.3 (Diagonalisation)._
 
 </details>
 
 **Problem 15.** Use the Cayley--Hamilton theorem to express $A^3$ as a linear combination of $A^2$,
-$A$ And $I$Where $A = \begin{pmatrix} 1 & 2 \\ -1 & 3 \end{pmatrix}$.
+$A$ And $I$ Where $A = \begin{pmatrix} 1 & 2 \\ -1 & 3 \end{pmatrix}$.
 
 <details>
 <summary>Solution</summary>
@@ -350,7 +382,7 @@ _If you get this wrong, revise: Section 7.5 (Orthogonal Projection)._
 </details>
 
 **Problem 18.** Prove the Cauchy--Schwarz inequality for $\mathbb{R}^n$ directly: for any nonzero
-$\mathbf{x}, \mathbf{y} \in \mathbb{R}^n$Show that
+$\mathbf{x}, \mathbf{y} \in \mathbb{R}^n$ Show that
 $\lvert\mathbf{x} \cdot \mathbf{y}\rvert \leq \lVert \mathbf{x} \rVert \lVert \mathbf{y} \rVert$ And
 determine when equality holds.
 
@@ -360,7 +392,7 @@ determine when equality holds.
 Consider the function
 $f(t) = \lVert \mathbf{x} + t\mathbf{y} \rVert^2 = \lVert \mathbf{x} \rVert^2 + 2t(\mathbf{x} \cdot \mathbf{y}) + t^2 \lVert \mathbf{y} \rVert^2$.
 
-Since $f(t) \geq 0$ for all $t \in \mathbb{R}$This quadratic in $t$ has at most one real root, So
+Since $f(t) \geq 0$ for all $t \in \mathbb{R}$ This quadratic in $t$ has at most one real root, So
 its discriminant satisfies $\Delta \leq 0$:
 
 $4(\mathbf{x} \cdot \mathbf{y})^2 - 4\lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2 \leq 0$
@@ -369,8 +401,8 @@ Therefore
 $(\mathbf{x} \cdot \mathbf{y})^2 \leq \lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2$ And
 taking square roots gives the result.
 
-Equality holds iff $\Delta = 0$Which means $f(t)$ has a double root, i.e., there exists $t_0$ such
-that $\mathbf{x} + t_0 \mathbf{y} = \mathbf{0}$Meaning $\mathbf{x}$ and $\mathbf{y}$ are linearly
+Equality holds iff $\Delta = 0$ Which means $f(t)$ has a double root, i.e., there exists $t_0$ such
+that $\mathbf{x} + t_0 \mathbf{y} = \mathbf{0}$ Meaning $\mathbf{x}$ and $\mathbf{y}$ are linearly
 dependent.
 
 _If you get this wrong, revise: Section 7.2 (Cauchy--Schwarz Inequality)._
@@ -397,7 +429,7 @@ $p(A) = -\begin{pmatrix} 1 & 0 & 0 \\ 0 & 14 & 13 \\ 0 & 13 & 14 \end{pmatrix} +
 
 $= \begin{pmatrix} -1+5-7+3 & 0 & 0 \\ 0 & -14+25-14+3 & -13+20-7+0 \\ 0 & -13+20-7+0 & -14+25-14+3 \end{pmatrix} = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$
 
-So $p(A) = 0$Confirming Cayley--Hamilton. $\blacksquare$
+So $p(A) = 0$ Confirming Cayley--Hamilton. $\blacksquare$
 
 _If you get this wrong, revise: Section 5.4 (Cayley--Hamilton Theorem)._
 
@@ -419,7 +451,9 @@ $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$.
 $T(x^2) = 2x = 0 \cdot 1 + 2 \cdot x + 0 \cdot x^2$ So coordinates are
 $\begin{pmatrix} 0 \\ 2 \\ 0 \end{pmatrix}$.
 
-$$[T]_{\mathcal{B}} = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \\ 0 & 0 & 0 \end{pmatrix}$$
+$$
+[T]_{\mathcal{B}} = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \\ 0 & 0 & 0 \end{pmatrix}
+$$
 
 $\ker(T) = \{p : p' = 0\} = \mathrm{span}\{1\}$ So $\dim(\ker(T)) = 1$.
 
@@ -480,17 +514,6 @@ $(A - 2I)v = 0 \implies \begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}v = 0 \impli
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[9_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - A matrix is invertible iff $\det(A) \neq 0$; equivalent to having linearly independent
@@ -502,14 +525,18 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                      | Site        | Link                                                                  |
 | -------------------------- | ----------- | --------------------------------------------------------------------- |
-| Linear Algebra (Overview)  | WyattsNotes | [View](/linear-algebra/)                   |
-| Abstract Algebra           | WyattsNotes | [View](/abstract-algebra/)                 |
-| Multivariable Calculus     | WyattsNotes | [View](/multivariable-calculus/)           |
+| Linear Algebra (Overview)  | WyattsNotes | [View](/2-linear-algebra/)                   |
+| Abstract Algebra           | WyattsNotes | [View](/1-abstract-algebra/)                 |
+| Multivariable Calculus     | WyattsNotes | [View](/4-multivariable-calculus/)           |
 | Linear Algebra, MIT 18.06 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+</div>
+
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

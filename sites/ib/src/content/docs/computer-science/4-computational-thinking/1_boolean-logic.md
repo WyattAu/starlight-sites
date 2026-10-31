@@ -30,16 +30,18 @@ categories:
 
 Boolean algebra is a branch of mathematics that operates on binary values: 1 (true) and 0 (false).
 It provides the formal foundation for digital circuit design. Every Boolean expression evaluates to
-Exactly one of these two values, and every Boolean function can be expressed, simplified, and
-Implemented using a finite set of operators.
+exactly one of these two values, and every Boolean function can be expressed, simplified, and
+implemented using a finite set of operators.
 
 The three fundamental operators are AND, OR, and NOT. From these three, all other Boolean operators
-Can be derived. NAND and NOR are called universal gates because either one alone is sufficient to
-Construct any Boolean function. XOR and XNOR are useful for parity and comparison operations.
+can be derived. NAND and NOR are called universal gates because either one alone is sufficient to
+construct any Boolean function. XOR and XNOR are useful for parity and comparison operations.
 
 ### Basic Operators
 
 **AND (conjunction):** The output is 1 only when all inputs are 1.
+
+<div class="table-wrap">
 
 | `A` | `B` | `A` AND `B` |
 | --- | --- | ----------- |
@@ -48,9 +50,13 @@ Construct any Boolean function. XOR and XNOR are useful for parity and compariso
 | 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
+</div>
+
 Notation: $A \cdot B$, $AB$, $A \wedge B$
 
 **OR (disjunction):** The output is 1 when at least one input is 1.
+
+<div class="table-wrap">
 
 | `A` | `B` | `A` OR `B` |
 | --- | --- | ---------- |
@@ -59,18 +65,26 @@ Notation: $A \cdot B$, $AB$, $A \wedge B$
 | 1   | 0   | 1          |
 | 1   | 1   | 1          |
 
+</div>
+
 Notation: $A + B$, $A \vee B$
 
 **NOT (negation):** The output is the complement of the input.
+
+<div class="table-wrap">
 
 | `A` | NOT `A` |
 | --- | ------- |
 | 0   | 1       |
 | 1   | 0       |
 
+</div>
+
 Notation: $\overline{A}$, $A"$, $\lnot A$
 
 **NAND:** The negation of AND. Output is 0 only when all inputs are 1.
+
+<div class="table-wrap">
 
 | `A` | `B` | `A` NAND `B` |
 | --- | --- | ------------ |
@@ -79,9 +93,13 @@ Notation: $\overline{A}$, $A"$, $\lnot A$
 | 1   | 0   | 1            |
 | 1   | 1   | 0            |
 
+</div>
+
 Notation: $\overline{A \cdot B}$, $(A \cdot B)'$
 
 **NOR:** The negation of OR. Output is 1 only when all inputs are 0.
+
+<div class="table-wrap">
 
 | `A` | `B` | `A` NOR `B` |
 | --- | --- | ----------- |
@@ -90,9 +108,13 @@ Notation: $\overline{A \cdot B}$, $(A \cdot B)'$
 | 1   | 0   | 0           |
 | 1   | 1   | 0           |
 
+</div>
+
 Notation: $\overline{A + B}$, $(A + B)'$
 
 **XOR (exclusive OR):** The output is 1 when inputs are different.
+
+<div class="table-wrap">
 
 | `A` | `B` | `A` XOR `B` |
 | --- | --- | ----------- |
@@ -101,9 +123,13 @@ Notation: $\overline{A + B}$, $(A + B)'$
 | 1   | 0   | 1           |
 | 1   | 1   | 0           |
 
+</div>
+
 Notation: $A \oplus B$, $A \veebar B$
 
 **XNOR (exclusive NOR):** The negation of XOR. Output is 1 when inputs are the same.
+
+<div class="table-wrap">
 
 | `A` | `B` | `A` XNOR `B` |
 | --- | --- | ------------ |
@@ -112,15 +138,21 @@ Notation: $A \oplus B$, $A \veebar B$
 | 1   | 0   | 0            |
 | 1   | 1   | 1            |
 
+</div>
+
 Notation: $\overline{A \oplus B}$, $A \odot B$
 
 ### Derived Expressions for XOR and XNOR
 
 XOR and XNOR can be expressed entirely in terms of AND, OR, and NOT:
 
-$$A \oplus B = A \cdot \overline{B} + \overline{A} \cdot B$$
+$$
+A \oplus B = A \cdot \overline{B} + \overline{A} \cdot B
+$$
 
-$$A \odot B = A \cdot B + \overline{A} \cdot \overline{B}$$
+$$
+A \odot B = A \cdot B + \overline{A} \cdot \overline{B}
+$$
 
 These identities are essential when simplifying expressions that contain XOR/XNOR into standard
 Forms suitable for implementation with basic gates or Karnaugh maps.
@@ -134,6 +166,8 @@ Construct the truth table for $F = (A + B) \cdot \overline{C}$.
 
 Build column by column, evaluating each sub-expression:
 
+<div class="table-wrap">
+
 | `A` | `B` | `C` | $A + B$ | $\overline{C}$ | $F = (A + B) \cdot \overline{C}$ |
 | --- | --- | --- | ------- | -------------- | -------------------------------- |
 | 0   | 0   | 0   | 0       | 1              | 0                                |
@@ -144,6 +178,8 @@ Build column by column, evaluating each sub-expression:
 | 1   | 0   | 1   | 1       | 0              | 0                                |
 | 1   | 1   | 0   | 1       | 1              | 1                                |
 | 1   | 1   | 1   | 1       | 0              | 0                                |
+
+</div>
 
 Minterms (where $F = 1$): $\overline{A}B\overline{C}$$A\overline{B}\overline{C}$$AB\overline{C}$.
 
@@ -160,7 +196,9 @@ $\overline{C}$ And the OR of the other terms is $B + A = A + B$ So $F = (A + B) 
 ### Three-Variable Truth Tables
 
 A three-variable expression has $2^3 = 8$ rows. The convention is to list combinations in binary
-Counting order. For variables `A``B``C`:
+Counting order. For variables `A`, `B`, `C`:
+
+<div class="table-wrap">
 
 | `A` | `B` | `C` | `A` AND `B` AND `C` | `A` OR `B` OR `C` |
 | --- | --- | --- | ------------------- | ----------------- |
@@ -173,10 +211,14 @@ Counting order. For variables `A``B``C`:
 | 1   | 1   | 0   | 0                   | 1                 |
 | 1   | 1   | 1   | 1                   | 1                 |
 
+</div>
+
 ### Four-Variable Truth Tables
 
 A four-variable expression has $2^4 = 16$ rows. The standard ordering assigns the leftmost variable
-As the most significant bit. For variables `A``B``C``D`:
+as the most significant bit. For variables `A`, `B`, `C`, `D`:
+
+<div class="table-wrap">
 
 | `A` | `B` | `C` | `D` | `A` AND `B` AND `C` AND `D` | `A` OR `B` OR `C` OR `D` |
 | --- | --- | --- | --- | --------------------------- | ------------------------ |
@@ -197,11 +239,15 @@ As the most significant bit. For variables `A``B``C``D`:
 | 1   | 1   | 1   | 0   | 0                           | 1                        |
 | 1   | 1   | 1   | 1   | 1                           | 1                        |
 
+</div>
+
 ### Constructing Truth Tables for Arbitrary Expressions
 
 Given an expression, construct the truth table by evaluating each sub-expression column by column.
 
 **Worked example:** Construct the truth table for $F = A \cdot \overline{B} + \overline{A} \cdot C$
+
+<div class="table-wrap">
 
 | `A` | `B` | `C` | $\overline{B}$ | $\overline{A}$ | $A \cdot \overline{B}$ | $\overline{A} \cdot C$ | $F$ |
 | --- | --- | --- | -------------- | -------------- | ---------------------- | ---------------------- | --- |
@@ -214,15 +260,19 @@ Given an expression, construct the truth table by evaluating each sub-expression
 | 1   | 1   | 0   | 0              | 0              | 0                      | 0                      | 0   |
 | 1   | 1   | 1   | 0              | 0              | 0                      | 0                      | 0   |
 
+</div>
+
 The minterms (rows where $F = 1$) are: $\overline{A}\overline{B}C$$\overline{A}BC$
 $A\overline{B}\overline{C}$$A\overline{B}C$.
 
 ## Boolean Identities and Laws
 
 The following identities are the tools for algebraic simplification. Each identity can be verified
-By constructing truth tables for both sides and confirming they are identical.
+by constructing truth tables for both sides and confirming they are identical.
 
 ### Fundamental Identities
+
+<div class="table-wrap">
 
 | Identity          | AND Form                                    | OR Form                                   |
 | ----------------- | ------------------------------------------- | ----------------------------------------- |
@@ -236,20 +286,30 @@ By constructing truth tables for both sides and confirming they are identical.
 | Absorption        | $A \cdot (A + B) = A$                       | $A + (A \cdot B) = A$                     |
 | Double Negation   | $\overline{\overline{A}} = A$               | $\overline{\overline{A}} = A$             |
 
+</div>
+
 ### De Morgan's Laws
 
 De Morgan's Laws are the most frequently applied identities in Boolean simplification. They allow
-The distribution of a NOT over an AND or OR:
+the distribution of a NOT over an AND or OR:
 
-$$\overline{A \cdot B} = \overline{A} + \overline{B}$$
+$$
+\overline{A \cdot B} = \overline{A} + \overline{B}
+$$
 
-$$\overline{A + B} = \overline{A} \cdot \overline{B}$$
+$$
+\overline{A + B} = \overline{A} \cdot \overline{B}
+$$
 
 For three variables, De Morgan's Laws extend as:
 
-$$\overline{A \cdot B \cdot C} = \overline{A} + \overline{B} + \overline{C}$$
+$$
+\overline{A \cdot B \cdot C} = \overline{A} + \overline{B} + \overline{C}
+$$
 
-$$\overline{A + B + C} = \overline{A} \cdot \overline{B} \cdot \overline{C}$$
+$$
+\overline{A + B + C} = \overline{A} \cdot \overline{B} \cdot \overline{C}
+$$
 
 The general rule: invert each variable, and swap AND with OR (or vice versa).
 
@@ -263,38 +323,52 @@ Simplify $F = \overline{A \cdot B + A \cdot C}$ using De Morgan's Laws.
 **Step 1:** Apply De Morgan's to the outer NOT (treating $A \cdot B + A \cdot C$ as the inner
 Expression):
 
-$$F = \overline{A \cdot B} \cdot \overline{A \cdot C}$$
+$$
+F = \overline{A \cdot B} \cdot \overline{A \cdot C}
+$$
 
 **Step 2:** Apply De Morgan's to each remaining term:
 
-$$F = (\overline{A} + \overline{B}) \cdot (\overline{A} + \overline{C})$$
+$$
+F = (\overline{A} + \overline{B}) \cdot (\overline{A} + \overline{C})
+$$
 
 **Step 3:** Apply the distributive law:
 
-$$F = \overline{A} \cdot \overline{A} + \overline{A} \cdot \overline{C} + \overline{B} \cdot \overline{A} + \overline{B} \cdot \overline{C}$$
+$$
+F = \overline{A} \cdot \overline{A} + \overline{A} \cdot \overline{C} + \overline{B} \cdot \overline{A} + \overline{B} \cdot \overline{C}
+$$
 
 **Step 4:** Simplify using idempotent law ($\overline{A} \cdot \overline{A} = \overline{A}$) and
 Commutative:
 
-$$F = \overline{A} + \overline{A} \cdot \overline{C} + \overline{A} \cdot \overline{B} + \overline{B} \cdot \overline{C}$$
+$$
+F = \overline{A} + \overline{A} \cdot \overline{C} + \overline{A} \cdot \overline{B} + \overline{B} \cdot \overline{C}
+$$
 
 **Step 5:** Apply absorption ($\overline{A} + \overline{A} \cdot \overline{C} = \overline{A}$):
 
-$$F = \overline{A} + \overline{A} \cdot \overline{B} + \overline{B} \cdot \overline{C}$$
+$$
+F = \overline{A} + \overline{A} \cdot \overline{B} + \overline{B} \cdot \overline{C}
+$$
 
 **Step 6:** Apply absorption again
 ($\overline{A} + \overline{A} \cdot \overline{B} = \overline{A}$):
 
-$$F = \overline{A} + \overline{B} \cdot \overline{C}$$
+$$
+F = \overline{A} + \overline{B} \cdot \overline{C}
+$$
 
 The simplified expression requires 1 NOT, 1 AND, and 1 OR gate (3 gates total), compared to the
-Original which requires 2 AND, 1 OR, and 1 NOT (4 gates total) -- or more if not shared.
+original which requires 2 AND, 1 OR, and 1 NOT (4 gates total) -- or more if not shared.
 
 </details>
 
 ### Consensus Theorem
 
-$$A \cdot B + \overline{A} \cdot C + B \cdot C = A \cdot B + \overline{A} \cdot C$$
+$$
+A \cdot B + \overline{A} \cdot C + B \cdot C = A \cdot B + \overline{A} \cdot C
+$$
 
 The term $B \cdot C$ is redundant because it is the "consensus" of the other two terms. The variable
 $B$ appears in the first term and $\overline{B}$ does not; $C$ appears in the second term and
@@ -302,13 +376,15 @@ $\overline{C}$ does not. The consensus term is $B \cdot C$.
 
 The dual form is:
 
-$$(A + B) \cdot (\overline{A} + C) \cdot (B + C) = (A + B) \cdot (\overline{A} + C)$$
+$$
+(A + B) \cdot (\overline{A} + C) \cdot (B + C) = (A + B) \cdot (\overline{A} + C)
+$$
 
 ## Simplifying Boolean Expressions
 
 Simplification reduces the number of gates and inputs required, which reduces cost, propagation
 Delay, and power consumption. The approach is systematic: apply identities one at a time, justifying
-Each step.
+each step.
 
 ### Worked Example 1
 
@@ -316,19 +392,27 @@ Simplify: $F = A \cdot B + A \cdot \overline{B} + \overline{A} \cdot B$
 
 **Step 1:** Factor $A$ from the first two terms (distributive law, reverse):
 
-$$F = A \cdot (B + \overline{B}) + \overline{A} \cdot B$$
+$$
+F = A \cdot (B + \overline{B}) + \overline{A} \cdot B
+$$
 
 **Step 2:** Apply complement law: $B + \overline{B} = 1$
 
-$$F = A \cdot 1 + \overline{A} \cdot B$$
+$$
+F = A \cdot 1 + \overline{A} \cdot B
+$$
 
 **Step 3:** Apply identity law: $A \cdot 1 = A$
 
-$$F = A + \overline{A} \cdot B$$
+$$
+F = A + \overline{A} \cdot B
+$$
 
 **Step 4:** Apply absorption: $A + \overline{A} \cdot B = A + B$
 
-$$F = A + B$$
+$$
+F = A + B
+$$
 
 ### Worked Example 2
 
@@ -337,29 +421,39 @@ $F = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B \
 
 **Step 1:** Group terms containing $\overline{A}$:
 
-$$F = \overline{A} \cdot (\overline{B} \cdot \overline{C} + B \cdot C) + A \cdot \overline{C}$$
+$$
+F = \overline{A} \cdot (\overline{B} \cdot \overline{C} + B \cdot C) + A \cdot \overline{C}
+$$
 
 **Step 2:** Recognize that $\overline{B} \cdot \overline{C} + B \cdot C = B \odot C$ (XNOR):
 
-$$F = \overline{A} \cdot (B \odot C) + A \cdot \overline{C}$$
+$$
+F = \overline{A} \cdot (B \odot C) + A \cdot \overline{C}
+$$
 
 This is a valid simplification but not in sum-of-products form. For circuit implementation, we can
-Expand:
+expand:
 
-$$F = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B \cdot C + A \cdot \overline{C}$$
+$$
+F = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B \cdot C + A \cdot \overline{C}
+$$
 
 Using absorption, the term $A \cdot \overline{C}$ absorbs both
 $A \cdot \overline{B} \cdot \overline{C}$ and $A \cdot B \cdot \overline{C}$. We already have
 $\overline{A} \cdot \overline{B} \cdot \overline{C}$ So $A \cdot \overline{B} \cdot \overline{C}$ Is
 generated when we expand $A \cdot \overline{C}$:
 
-$$A \cdot \overline{C} = A \cdot \overline{B} \cdot \overline{C} + A \cdot B \cdot \overline{C}$$
+$$
+A \cdot \overline{C} = A \cdot \overline{B} \cdot \overline{C} + A \cdot B \cdot \overline{C}
+$$
 
 So the full SOP is:
 
-$$F = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B \cdot C + A \cdot \overline{B} \cdot \overline{C} + A \cdot B \cdot \overline{C}$$
+$$
+F = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B \cdot C + A \cdot \overline{B} \cdot \overline{C} + A \cdot B \cdot \overline{C}
+$$
 
-This simplifies to $F = \overline{C} + \overline{A} \cdot B \cdot C$Which requires only 4 gate
+This simplifies to $F = \overline{C} + \overline{A} \cdot B \cdot C$ Which requires only 4 gate
 Inputs instead of the original 8.
 
 ### Worked Example 3 (Using De Morgan's Laws)
@@ -368,17 +462,23 @@ Simplify: $F = \overline{(A + B) \cdot (\overline{A} + \overline{B})}$
 
 **Step 1:** Apply De Morgan's Law to the outer NOT:
 
-$$F = \overline{A + B} + \overline{\overline{A} + \overline{B}}$$
+$$
+F = \overline{A + B} + \overline{\overline{A} + \overline{B}}
+$$
 
 **Step 2:** Apply De Morgan's Law to each term:
 
-$$F = \overline{A} \cdot \overline{B} + A \cdot B$$
+$$
+F = \overline{A} \cdot \overline{B} + A \cdot B
+$$
 
 This is $A \odot B$ (XNOR). The expression is now in minimal SOP form.
 
 ## Logic Gates
 
 ### Gate Symbols and Expressions
+
+<div class="table-wrap">
 
 | Gate | Boolean Expression      | Standard Symbol (ANSI) | IEC Symbol     |
 | ---- | ----------------------- | ---------------------- | -------------- |
@@ -389,6 +489,8 @@ This is $A \odot B$ (XNOR). The expression is now in minimal SOP form.
 | NOR  | $\overline{A + B}$      | OR with bubble         | `>=1` (with o) |
 | XOR  | $A \oplus B$            | OR with extra curve    | `=1`           |
 | XNOR | $\overline{A \oplus B}$ | XOR with bubble        | `=1` (with o)  |
+
+</div>
 
 ### NAND as a Universal Gate
 
@@ -419,7 +521,9 @@ where $X$ and $Y$ are themselves NAND expressions.
 
 The SOP form is $F = A \cdot B + C$. Apply De Morgan's in reverse:
 
-$$F = \overline{\overline{A \cdot B} \cdot \overline{C}}$$
+$$
+F = \overline{\overline{A \cdot B} \cdot \overline{C}}
+$$
 
 **Step 2:** Verify:
 $\overline{\overline{A \cdot B} \cdot \overline{C}} = \overline{\overline{A \cdot B}} + \overline{\overline{C}} = A \cdot B + C$.
@@ -463,21 +567,25 @@ Groups of adjacent 1s (or 0s).
 ### The Adjacency Principle
 
 Two minterms are adjacent if they differ in exactly one variable. Adjacent minterms can be combined
-By eliminating the variable that changes. In a K-map, adjacency wraps around the edges (the top row
-Is adjacent to the bottom row; the leftmost column is adjacent to the rightmost column).
+by eliminating the variable that changes. In a K-map, adjacency wraps around the edges (the top row
+is adjacent to the bottom row; the leftmost column is adjacent to the rightmost column).
 
 ### 2-Variable K-Map
 
 A 2-variable K-map has $2^2 = 4$ cells. The columns represent one variable and the rows represent
-The other.
+the other.
 
 **Worked example:** Minimize
 $F = \overline{A} \cdot \overline{B} + \overline{A} \cdot B + A \cdot \overline{B}$
+
+<div class="table-wrap">
 
 |       | `B` = 0 | `B` = 1 |
 | ----- | ------- | ------- |
 | `A`=0 | 1       | 1       |
 | `A`=1 | 1       | 0       |
+
+</div>
 
 The cells for $(0,0)$, $(0,1)$ And $(1,0)$ are 1.
 
@@ -491,7 +599,7 @@ Result: $F = \overline{A} + \overline{B}$
 
 Verify: The three minterms
 $\overline{A}\overline{B} + \overline{A}B + A\overline{B} = \overline{A}(\overline{B} + B) + A\overline{B} = \overline{A} + A\overline{B} = \overline{A} + \overline{B}$
-By absorption. Correct.
+by absorption. Correct.
 
 ### 3-Variable K-Map
 
@@ -504,23 +612,27 @@ So that adjacent columns differ by exactly one bit. Variables `B` and `C` are th
 The minterms are: $m_0 = \overline{A}\overline{B}\overline{C}$, $m_1 = \overline{A}\overline{B}C$
 $m_2 = \overline{A}B\overline{C}$$m_5 = A\overline{B}C$$m_6 = AB\overline{C}$$m_7 = ABC$.
 
+<div class="table-wrap">
+
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | 1         | 1         | 0         | 1         |
 | `A`=1 | 0         | 1         | 1         | 1         |
 
+</div>
+
 **Step 1: Identify groups.**
 
 - Group 1: Cells $(0,00)$ and $(0,01)$ -- adjacent horizontally. These are
   $\overline{A}\overline{B}\overline{C}$ and $\overline{A}\overline{B}C$. The variable that changes
-  is `C`So eliminate it: $\overline{A}\overline{B}$.
+  is `C`. So eliminate it: $\overline{A}\overline{B}$.
 - Group 2: Cells $(1,01)$$(1,11)$$(1,10)$ -- all three in row `A`=1. But $(1,01)$ and $(1,11)$ are
   adjacent, and $(1,11)$ and $(1,10)$ are adjacent. Group $(1,11)$ and $(1,10)$: these are $ABC$ and
-  $AB\overline{C}$Eliminating `C`: $AB$.
+  $AB\overline{C}$ Eliminating `C`: $AB$.
 - Group 3: Cells $(0,10)$ and $(1,10)$ -- adjacent vertically. These are $\overline{A}B\overline{C}$
-  and $AB\overline{C}$Eliminating `A`: $B\overline{C}$.
+  and $AB\overline{C}$ Eliminating `A`: $B\overline{C}$.
 - Group 4: Cells $(1,01)$ and $(0,01)$ -- adjacent vertically. These are $A\overline{B}C$ and
-  $\overline{A}\overline{B}C$Eliminating `A`: $\overline{B}C$.
+  $\overline{A}\overline{B}C$ Eliminating `A`: $\overline{B}C$.
 
 Now apply the covering rule: every 1 must be covered by at least one group.
 
@@ -532,10 +644,12 @@ Optimal grouping:
 - $\overline{A}\overline{B}$: covers $m_0, m_1$
 
 But $m_0$ is only covered by $\overline{A}\overline{B}$ So that group is essential. $m_2$ is only
-Covered by $B\overline{C}$ So that is essential. $m_5$ is only covered by $\overline{B}C$ So that Is
+covered by $B\overline{C}$ So that is essential. $m_5$ is only covered by $\overline{B}C$ So that Is
 essential. $m_7$ is only covered by $AB$ So that is essential.
 
-$$F = \overline{A}\overline{B} + B\overline{C} + \overline{B}C + AB$$
+$$
+F = \overline{A}\overline{B} + B\overline{C} + \overline{B}C + AB
+$$
 
 ### 4-Variable K-Map
 
@@ -544,12 +658,16 @@ Gray code ordering: 00, 01, 11, 10.
 
 **Worked example:** Minimize $F(A, B, C, D) = \sum(0, 1, 2, 5, 8, 9, 10)$
 
+<div class="table-wrap">
+
 |         | `CD` = 00 | `CD` = 01 | `CD` = 11 | `CD` = 10 |
 | ------- | --------- | --------- | --------- | --------- |
 | `AB`=00 | 1         | 1         | 0         | 1         |
 | `AB`=01 | 0         | 1         | 0         | 0         |
 | `AB`=11 | 0         | 0         | 0         | 0         |
 | `AB`=10 | 1         | 1         | 0         | 1         |
+
+</div>
 
 **Step 1: Identify groups of 1s.**
 
@@ -589,7 +707,9 @@ $m_9 = A\overline{B}\overline{C}D$. We need to cover it. Options:
 
 So we add $A\overline{B}\overline{C}$.
 
-$$F = \overline{B}\overline{D} + \overline{A}\overline{C}D + A\overline{B}\overline{C}$$
+$$
+F = \overline{B}\overline{D} + \overline{A}\overline{C}D + A\overline{B}\overline{C}
+$$
 
 This requires three AND gates and one OR gate, for a total of 4 gates with 9 gate inputs.
 
@@ -602,10 +722,14 @@ Minimize $F(A, B, C) = \sum(1, 3, 5) + d(0, 6)$ where $d$ denotes don't care con
 
 The minterms are $m_1, m_3, m_5$. The don't cares are $m_0, m_6$. Place these on the K-map:
 
+<div class="table-wrap">
+
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | X         | 1         | 1         | 0         |
 | `A`=1 | 0         | 1         | 0         | X         |
+
+</div>
 
 **Without don't cares:**
 
@@ -632,22 +756,22 @@ Optimal grouping:
 - $\overline{A}C$: covers $m_1, m_3$ (2 cells, $m_1$ overlaps)
 
 But $m_3$ is not covered by $\overline{B}C$. And $m_5$ is not covered by $\overline{A}C$. So we need
-Both. Can we do better with don't cares?
+both. Can we do better with don't cares?
 
 Set $m_0$ to 1: pair $m_0, m_1$ → $\overline{A}\overline{B}$. Set $m_6$ to 1: $m_6$ is isolated.
 
 Try: $\overline{B}C$ covers $m_1, m_5$. $\overline{A}\overline{B}$ covers $m_0, m_1$. $m_3$ is not
-Covered yet. We need $\overline{A}C$ or $BC$ for $m_3$. $\overline{A}C$ also covers $m_1$.
+covered yet. We need $\overline{A}C$ or $BC$ for $m_3$. $\overline{A}C$ also covers $m_1$.
 
 So: $F = \overline{B}C + \overline{A}\overline{B} + \overline{A}C$
 
 Check coverage: $m_0$ (don't care, covered by $\overline{A}\overline{B}$), $m_1$ (covered by all
-Three), $m_3$ (covered by $\overline{A}C$), $m_5$ (covered by $\overline{B}C$), $m_6$ (don't care,
+three), $m_3$ (covered by $\overline{A}C$), $m_5$ (covered by $\overline{B}C$), $m_6$ (don't care,
 Not covered but that is OK).
 
 Actually, $\overline{A}C$ covers $m_1, m_3$ and $\overline{B}C$ covers $m_1, m_5$. Together they
 cover All required minterms ($m_1, m_3, m_5$). The don't care $m_0$ could be used to replace
-$\overline{A}C$ With $\overline{A}\overline{B}$ But that only covers $m_0, m_1$Leaving $m_3$
+$\overline{A}C$ With $\overline{A}\overline{B}$ But that only covers $m_0, m_1$ Leaving $m_3$
 uncovered.
 
 Best result with don't cares: $F = \overline{A}C + \overline{B}C$ (2 terms, 3 literals). Wait, let
@@ -666,7 +790,7 @@ $\overline{1 \cdot 0} = \overline{0} = 1$. Correct.
 So $F = \overline{A \cdot B} \cdot C$ = $\overline{A}C + \overline{B}C$.
 
 This covers $m_1, m_3, m_5$ with only 2 terms and 3 literals. No don't cares were even needed for
-This simplification -- the expression was already optimizable. But don't cares give us additional
+this simplification -- the expression was already optimizable. But don't cares give us additional
 Flexibility if we needed to cover $m_0$ or $m_6$.
 
 **Final answer:** $F = \overline{A}C + \overline{B}C$ (implemented as 2 NOT gates, 2 AND gates, 1 OR
@@ -692,16 +816,18 @@ To obtain the POS form, group the 0s instead of the 1s, then apply De Morgan's L
 The 0s are at: $m_3, m_4, m_6, m_7, m_{11}, m_{12}, m_{13}, m_{14}, m_{15}$.
 
 This produces a POS expression. However, since there are more 0s than 1s in this case, the SOP form
-Is simpler. POS is advantageous when there are fewer 0s than 1s.
+is simpler. POS is advantageous when there are fewer 0s than 1s.
 
 ## Don't Care Conditions
 
 Don't care conditions arise when certain input combinations can never occur or when the output value
-For certain inputs is irrelevant. In K-maps, don't cares are marked with `X` and can be treated as
-Either 0 or 1, whichever produces a simpler expression.
+for certain inputs is irrelevant. In K-maps, don't cares are marked with `X` and can be treated as
+either 0 or 1, whichever produces a simpler expression.
 
-**Worked example:** A circuit has inputs `A``B``C` where the input combination `A = 1, B = 1, C = 1`
+**Worked example:** A circuit has inputs `A`, `B`, `C` where the input combination `A = 1, B = 1, C = 1`
 is impossible. The required outputs for the other 7 combinations are:
+
+<div class="table-wrap">
 
 | `A` | `B` | `C` | `F` |
 | --- | --- | --- | --- |
@@ -714,12 +840,18 @@ is impossible. The required outputs for the other 7 combinations are:
 | 1   | 1   | 0   | 0   |
 | 1   | 1   | 1   | X   |
 
+</div>
+
 The K-map is:
+
+<div class="table-wrap">
 
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | 0         | 1         | 1         | 0         |
 | `A`=1 | 1         | 1         | X         | 0         |
+
+</div>
 
 **Without don't cares**, the optimal SOP is:
 
@@ -739,8 +871,8 @@ Group covering columns 01 and 11 gives $C$. Together: $F = C + A\overline{B}$.
 
 Check: $F = C + A\overline{B}$. For $A=0, B=0, C=0$: $F = 0 + 0 = 0$ (correct). For $A=0, B=0, C=1$:
 $F = 1 + 0 = 1$ (correct). For $A=1, B=1, C=0$: $F = 0 + 0 = 0$ (correct). The don't care
-($A=1, B=1, C=1$) gives $F = 1 + 0 = 1$Which is acceptable since the output is irrelevant for this
-Input.
+($A=1, B=1, C=1$) gives $F = 1 + 0 = 1$ Which is acceptable since the output is irrelevant for this
+input.
 
 The expression $C + A\overline{B}$ (2 terms, 3 literals) is simpler than
 $\overline{A}C + A\overline{B}$ (2 terms, 4 literals).
@@ -750,7 +882,7 @@ $\overline{A}C + A\overline{B}$ (2 terms, 4 literals).
 ### Boolean Expression to Truth Table
 
 Given any Boolean expression, evaluate it for every combination of input values. For an expression
-With $n$ variables, construct $2^n$ rows and evaluate the expression for each.
+with $n$ variables, construct $2^n$ rows and evaluate the expression for each.
 
 ### Truth Table to Boolean Expression (SOP)
 
@@ -785,7 +917,7 @@ Trace the circuit from inputs to outputs:
 2. Work from left to right (inputs to outputs).
 3. The final gate output is the overall expression.
 
-**Worked example:** A circuit has inputs `A``B``C`. An AND gate takes `A` and `B`. An OR gate Takes
+**Worked example:** A circuit has inputs `A`, `B`, `C`. An AND gate takes `A` and `B`. An OR gate Takes
 the AND gate output and `C`. The final expression is $(A \cdot B) + C$.
 
 ## Half Adder and Full Adder
@@ -793,7 +925,9 @@ the AND gate output and `C`. The final expression is $(A \cdot B) + C$.
 ### Half Adder
 
 A half adder adds two single-bit numbers and produces a sum and a carry. It does not accept a
-Carry-in from a previous stage.
+carry-in from a previous stage.
+
+<div class="table-wrap">
 
 | `A` | `B` | Sum | Carry |
 | --- | --- | --- | ----- |
@@ -801,6 +935,8 @@ Carry-in from a previous stage.
 | 0   | 1   | 1   | 0     |
 | 1   | 0   | 1   | 0     |
 | 1   | 1   | 0   | 1     |
+
+</div>
 
 The sum bit follows the XOR pattern: $\mathrm{Sum} = A \oplus B$
 
@@ -813,6 +949,8 @@ The carry bit follows the AND pattern: $\mathrm{Carry} = A \cdot B$
 A full adder adds two single-bit numbers plus a carry-in from a previous stage, producing a sum and
 A carry-out.
 
+<div class="table-wrap">
+
 | `A` | `B` | $C_{in}$ | Sum | $C_{out}$ |
 | --- | --- | -------- | --- | --------- |
 | 0   | 0   | 0        | 0   | 0         |
@@ -824,27 +962,41 @@ A carry-out.
 | 1   | 1   | 0        | 0   | 1         |
 | 1   | 1   | 1        | 1   | 1         |
 
+</div>
+
 **Sum derivation via K-map:**
+
+<div class="table-wrap">
 
 |       | $B \cdot C_{in} = 00$ | $B \cdot C_{in} = 01$ | $B \cdot C_{in} = 11$ | $B \cdot C_{in} = 10$ |
 | ----- | --------------------- | --------------------- | --------------------- | --------------------- |
 | `A`=0 | 0                     | 1                     | 0                     | 1                     |
 | `A`=1 | 1                     | 0                     | 1                     | 0                     |
 
+</div>
+
 The 1s appear at $(0,01)$$(0,10)$$(1,00)$$(1,11)$. No two adjacent 1s share a common group in The
 standard sense. Each 1 is isolated (adjacent cells are 0). Therefore, no simplification is Possible,
 and the SOP form is the sum of minterms:
 
-$$\mathrm{Sum} = \overline{A} \cdot \overline{B} \cdot C_{in} + \overline{A} \cdot B \cdot \overline{C_{in}} + A \cdot \overline{B} \cdot \overline{C_{in}} + A \cdot B \cdot C_{in}$$
+$$
+\mathrm{Sum} = \overline{A} \cdot \overline{B} \cdot C_{in} + \overline{A} \cdot B \cdot \overline{C_{in}} + A \cdot \overline{B} \cdot \overline{C_{in}} + A \cdot B \cdot C_{in}
+$$
 
-$$\mathrm{Sum} = A \oplus B \oplus C_{in}$$
+$$
+\mathrm{Sum} = A \oplus B \oplus C_{in}
+$$
 
 **Carry-out derivation via K-map:**
+
+<div class="table-wrap">
 
 |       | $B \cdot C_{in} = 00$ | $B \cdot C_{in} = 01$ | $B \cdot C_{in} = 11$ | $B \cdot C_{in} = 10$ |
 | ----- | --------------------- | --------------------- | --------------------- | --------------------- |
 | `A`=0 | 0                     | 0                     | 1                     | 0                     |
 | `A`=1 | 0                     | 1                     | 1                     | 1                     |
+
+</div>
 
 Groups:
 
@@ -853,26 +1005,32 @@ Groups:
   $A \cdot C_{in}$ And the $2 \times 2$ group spanning $(1,11)$ and $(1,10)$ gives $A \cdot B$.
 - $(0,11), (1,11)$: column 11, both rows. This is $B \cdot C_{in}$.
 
-$$C_{out} = A \cdot B + A \cdot C_{in} + B \cdot C_{in}$$
+$$
+C_{out} = A \cdot B + A \cdot C_{in} + B \cdot C_{in}
+$$
 
 **Alternative carry expression:**
 
-$$C_{out} = (A \cdot B) + C_{in} \cdot (A \oplus B)$$
+$$
+C_{out} = (A \cdot B) + C_{in} \cdot (A \oplus B)
+$$
 
 This form has significance: it shows that a full adder can be constructed from two half adders. The
-First half adder computes $A \oplus B$ (partial sum) and $A \cdot B$ (partial carry). The second
-Half adder adds the partial sum and $C_{in}$ to get the final sum, and the final carry is the OR of
-The partial carry and the carry from the second half adder.
+first half adder computes $A \oplus B$ (partial sum) and $A \cdot B$ (partial carry). The second
+half adder adds the partial sum and $C_{in}$ to get the final sum, and the final carry is the OR of
+the partial carry and the carry from the second half adder.
 
 ### Worked Example: Building a Circuit from a Truth Table
 
 A voting system has three inputs (A, B, C -- each person votes yes=1 or no=0). The output is 1 if a
-Majority votes yes (2 or 3 yes votes). Derive the Boolean expression and count the gates needed.
+majority votes yes (2 or 3 yes votes). Derive the Boolean expression and count the gates needed.
 
 <details>
 <summary>Solution</summary>
 
 **Step 1: Truth table**
+
+<div class="table-wrap">
 
 | `A` | `B` | `C` | `F` (majority) |
 | --- | --- | --- | -------------- |
@@ -885,12 +1043,18 @@ Majority votes yes (2 or 3 yes votes). Derive the Boolean expression and count t
 | 1   | 1   | 0   | 1              |
 | 1   | 1   | 1   | 1              |
 
+</div>
+
 **Step 2: K-map**
+
+<div class="table-wrap">
 
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | 0         | 0         | 1         | 0         |
 | `A`=1 | 0         | 1         | 1         | 1         |
+
+</div>
 
 **Step 3: Group**
 
@@ -901,7 +1065,9 @@ Majority votes yes (2 or 3 yes votes). Derive the Boolean expression and count t
 Essential prime implicants: $BC$, $AC$, $AB$ (each covers a minterm that no other group covers:
 $m_3$ only by $BC$$m_5$ only by $AC$$m_6$ only by $AB$).
 
-$$F = A \cdot B + A \cdot C + B \cdot C$$
+$$
+F = A \cdot B + A \cdot C + B \cdot C
+$$
 
 **Step 4: Gate count**
 
@@ -912,31 +1078,35 @@ $$F = A \cdot B + A \cdot C + B \cdot C$$
 Alternative implementation using XOR: $$F = A \cdot B + C \cdot (A \oplus B)$$
 
 This uses 1 XOR gate, 2 AND gates, 1 OR gate = **4 gates** (same count, but uses XOR which may be
-Cheaper in some implementations).
+cheaper in some implementations).
 
 </details>
 
 ### Ripple Carry Adder
 
 A ripple carry adder chains multiple full adders to add multi-bit numbers. The carry-out of each
-Stage feeds into the carry-in of the next stage. For an $n$-bit adder, $n$ full adders are required.
+stage feeds into the carry-in of the next stage. For an $n$-bit adder, $n$ full adders are required.
 
 The main disadvantage is propagation delay: the carry must ripple through all stages sequentially.
-The worst-case delay is $n \times t_{carry}$Where $t_{carry}$ is the carry propagation time of a
-Single full adder.
+The worst-case delay is $n \times t_{carry}$ Where $t_{carry}$ is the carry propagation time of a
+single full adder.
 
 ## Common Pitfalls
 
 ### Forgetting to Apply De Morgan's Correctly
 
 The most common error is distributing the NOT incorrectly. De Morgan's Laws invert each variable AND
-Swap the operator. A typical mistake:
+swap the operator. A typical mistake:
 
-$$\overline{A \cdot B + C} \neq \overline{A} \cdot \overline{B} + \overline{C}$$
+$$
+\overline{A \cdot B + C} \neq \overline{A} \cdot \overline{B} + \overline{C}
+$$
 
 The correct application is:
 
-$$\overline{A \cdot B + C} = \overline{A \cdot B} \cdot \overline{C} = (\overline{A} + \overline{B}) \cdot \overline{C}$$
+$$
+\overline{A \cdot B + C} = \overline{A \cdot B} \cdot \overline{C} = (\overline{A} + \overline{B}) \cdot \overline{C}
+$$
 
 ### Incomplete K-Map Grouping
 
@@ -951,7 +1121,7 @@ Expressions. Always check:
 ### Missing Essential Prime Implicants
 
 An essential prime implicant is a group that covers at least one minterm not covered by any other
-Group. If you fail to include all essential prime implicants, the expression will not correctly
+group. If you fail to include all essential prime implicants, the expression will not correctly
 Represent the function. Always identify essential prime implicants first, then cover any remaining
 Uncovered minterms with the largest possible groups.
 
@@ -959,19 +1129,19 @@ Uncovered minterms with the largest possible groups.
 
 Sum-of-products (SOP) is an OR of ANDs. Product-of-sums (POS) is an AND of ORs. When converting from
 A truth table, SOP is obtained from the 1s and POS from the 0s. Mixing these up produces an
-Incorrect expression.
+incorrect expression.
 
 ### Ignoring Don't Care Conditions
 
 Don't care conditions provide additional flexibility for simplification. Setting a don't care to 0
-When it should be 1 (or vice versa) may prevent the formation of a larger group, resulting in a
-Non-minimal expression. Always consider both options for each don't care and choose the one that
+when it should be 1 (or vice versa) may prevent the formation of a larger group, resulting in a
+non-minimal expression. Always consider both options for each don't care and choose the one that
 Maximizes group sizes.
 
 ### Incorrect Gate Counting
 
 When implementing a circuit, count the actual number of physical gates required. An XOR gate is a
-Single gate, not two gates (even though it can be expressed as $A\overline{B} + \overline{A}B$). A
+single gate, not two gates (even though it can be expressed as $A\overline{B} + \overline{A}B$). A
 NAND gate is a single gate, not an AND gate followed by a NOT gate. Physical gate count determines
 Circuit cost and delay.
 
@@ -983,12 +1153,16 @@ Identify what logic gate this is equivalent to.
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | `A` | `B` | $\overline{A}$ | $\overline{B}$ | $\overline{A} \cdot B$ | $A \cdot \overline{B}$ | $F$ |
 | --- | --- | -------------- | -------------- | ---------------------- | ---------------------- | --- |
 | 0   | 0   | 1              | 1              | 0                      | 0                      | 0   |
 | 0   | 1   | 1              | 0              | 1                      | 0                      | 1   |
 | 1   | 0   | 0              | 1              | 0                      | 1                      | 1   |
 | 1   | 1   | 0              | 0              | 0                      | 0                      | 0   |
+
+</div>
 
 $F = 1$ when $A \neq B$. This is the **XOR** gate: $F = A \oplus B$.
 
@@ -1014,11 +1188,15 @@ If you get this wrong, revise: [Basic Operators](#basic-operators)
 
 **Step 1:** Apply De Morgan's to the outer NOT:
 
-$$\overline{A \cdot (B + C)} = \overline{A} + \overline{B + C}$$
+$$
+\overline{A \cdot (B + C)} = \overline{A} + \overline{B + C}
+$$
 
 **Step 2:** Apply De Morgan's to $\overline{B + C}$:
 
-$$= \overline{A} + \overline{B} \cdot \overline{C}$$
+$$
+= \overline{A} + \overline{B} \cdot \overline{C}
+$$
 
 Result: $\overline{A} + \overline{B} \cdot \overline{C}$
 
@@ -1051,18 +1229,24 @@ Boolean algebra identities.
 
 **Step 1:** Apply absorption repeatedly. $A + A \cdot B = A$ (absorption):
 
-$$F = A + A \cdot B \cdot C + A \cdot B \cdot C \cdot D$$
+$$
+F = A + A \cdot B \cdot C + A \cdot B \cdot C \cdot D
+$$
 
 **Step 2:** Apply absorption again:
 
-$$F = A + A \cdot B \cdot C \cdot D$$
+$$
+F = A + A \cdot B \cdot C \cdot D
+$$
 
 **Step 3:** Apply absorption one more time:
 
-$$F = A$$
+$$
+F = A
+$$
 
 Every term contains $A$ as a factor, so $A$ absorbs all of them. The entire expression simplifies to
-Just $A$.
+just $A$.
 
 </details>
 
@@ -1086,10 +1270,14 @@ If you get this wrong, revise: [Boolean Identities](#boolean-identities-and-laws
 
 Place minterms on the K-map:
 
+<div class="table-wrap">
+
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | 0         | 0         | 1         | 1         |
 | `A`=1 | 0         | 1         | 1         | 1         |
+
+</div>
 
 **Identify groups:**
 
@@ -1105,7 +1293,9 @@ $\overline{B}C$.
 
 Best option: $\overline{B}C$ covers $m_5$ and also covers $m_1$ (which is 0, so no harm).
 
-$$F = C + \overline{B}C = C$$
+$$
+F = C + \overline{B}C = C
+$$
 
 Wait -- check: does $F = C$ match all minterms? $m_2$ ($\overline{A}B\overline{C}$): $C = 0$. But
 $m_2$ should be 1! So $F \neq C$.
@@ -1118,11 +1308,13 @@ The $2 \times 2$ square covers cells $(0,10), (0,11), (1,10), (1,11)$. In row A=
 11: $\overline{A}B\overline{C}$ and $\overline{A}BC$ → eliminates C → $\overline{A}B$. In row A=1:
 $AB\overline{C}$ and $ABC$ → $AB$. Together: $\overline{A}B + AB = B$.
 
-So the $2 \times 2$ group gives $B$Not $C$.
+So the $2 \times 2$ group gives $B$ Not $C$.
 
 Remaining: $m_5 = A\overline{B}C$. Group with $(0,01)$: $\overline{B}C$.
 
-$$F = B + \overline{B}C$$
+$$
+F = B + \overline{B}C
+$$
 
 By absorption: $B + \overline{B}C = B + C$.
 
@@ -1149,6 +1341,8 @@ If you get this wrong, revise: [3-Variable K-Maps](#3-variable-k-map)
 
 **Problem 5:** Convert the following truth table to both SOP and POS form:
 
+<div class="table-wrap">
+
 | `A` | `B` | `F` |
 | --- | --- | --- |
 | 0   | 0   | 1   |
@@ -1156,12 +1350,16 @@ If you get this wrong, revise: [3-Variable K-Maps](#3-variable-k-map)
 | 1   | 0   | 0   |
 | 1   | 1   | 1   |
 
+</div>
+
 <details>
 <summary>Solution</summary>
 
 **SOP form** (from the 1s -- rows 00 and 11):
 
-$$F = \overline{A} \cdot \overline{B} + A \cdot B$$
+$$
+F = \overline{A} \cdot \overline{B} + A \cdot B
+$$
 
 This is XNOR: $F = A \odot B$.
 
@@ -1170,7 +1368,9 @@ This is XNOR: $F = A \odot B$.
 Maxterm for row 01 ($A=0, B=1$): $A + \overline{B}$ Maxterm for row 10 ($A=1, B=0$):
 $\overline{A} + B$
 
-$$F = (A + \overline{B}) \cdot (\overline{A} + B)$$
+$$
+F = (A + \overline{B}) \cdot (\overline{A} + B)
+$$
 
 **Verification:** Expand the POS:
 $(A + \overline{B})(\overline{A} + B) = A\overline{A} + AB + \overline{B}\overline{A} + \overline{B}B = 0 + AB + \overline{A}\overline{B} + 0 = AB + \overline{A}\overline{B}$.
@@ -1198,6 +1398,8 @@ are 0. What is the minimized expression?
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 |         | `CD` = 00 | `CD` = 01 | `CD` = 11 | `CD` = 10 |
 | ------- | --------- | --------- | --------- | --------- |
 | `AB`=00 | 1         | 0         | 0         | 1         |
@@ -1205,12 +1407,16 @@ are 0. What is the minimized expression?
 | `AB`=11 | 0         | 0         | 0         | 0         |
 | `AB`=10 | 1         | 0         | 0         | 1         |
 
+</div>
+
 The four 1s are at the four corners: $(00,00), (00,10), (10,00), (10,10)$. The four corners form a
-Valid $2 \times 2$ group because K-maps wrap around both edges.
+valid $2 \times 2$ group because K-maps wrap around both edges.
 
 The four corners have: A varies (0 and 1), C varies (0 and 1), but B=0 and D=0 in all four.
 
-$$F = \overline{B} \cdot \overline{D}$$
+$$
+F = \overline{B} \cdot \overline{D}
+$$
 
 This is the classic "four corners" grouping. The expression requires only 2 NOT gates and 1 AND gate
 = **3 gates**.
@@ -1272,7 +1478,7 @@ If you get this wrong, revise: [NAND as Universal Gate](#nand-as-a-universal-gat
 }
 </script>
 
-**Problem 8:** For the majority voting circuit $F = AB + AC + BC$Determine the output when: (a) A=1,
+**Problem 8:** For the majority voting circuit $F = AB + AC + BC$ Determine the output when: (a) A=1,
 B=1, C=0 (b) A=0, B=1, C=1 (c) A=0, B=0, C=1
 
 <details>
@@ -1313,7 +1519,9 @@ Expression.
 
 **Correct application:**
 
-$$\overline{A + B \cdot C} = \overline{A} \cdot \overline{B \cdot C} = \overline{A} \cdot (\overline{B} + \overline{C})$$
+$$
+\overline{A + B \cdot C} = \overline{A} \cdot \overline{B \cdot C} = \overline{A} \cdot (\overline{B} + \overline{C})
+$$
 
 Verify with $A=0, B=1, C=1$:
 
@@ -1348,9 +1556,11 @@ The consensus theorem states: $AB + \overline{A}C + BC = AB + \overline{A}C$.
 
 The term $BC$ is redundant because whenever $BC = 1$ (meaning $B=1$ and $C=1$), either $A=1$ (making
 $AB=1$) or $A=0$ (making $\overline{A}C=1$). So $BC = 1$ always coincides with at least one of the
-Other terms being 1.
+other terms being 1.
 
 **Verification:**
+
+<div class="table-wrap">
 
 | `A` | `B` | `C` | $AB$ | $\overline{A}C$ | $BC$ | $AB + \overline{A}C$ | $AB + \overline{A}C + BC$ |
 | --- | --- | --- | ---- | --------------- | ---- | -------------------- | ------------------------- |
@@ -1362,6 +1572,8 @@ Other terms being 1.
 | 1   | 0   | 1   | 0    | 0               | 0    | 0                    | 0                         |
 | 1   | 1   | 0   | 1    | 0               | 0    | 1                    | 1                         |
 | 1   | 1   | 1   | 1    | 0               | 1    | 1                    | 1                         |
+
+</div>
 
 The last two columns are identical for all 8 rows, confirming that $BC$ is indeed redundant.
 
@@ -1389,12 +1601,16 @@ the Gates needed.
 
 **Truth table** (binary subtraction: $0-0=0$, $1-0=1$, $1-1=0$, $0-1=1$ with borrow):
 
+<div class="table-wrap">
+
 | `A` | `B` | Diff | Borrow |
 | --- | --- | ---- | ------ |
 | 0   | 0   | 0    | 0      |
 | 0   | 1   | 1    | 1      |
 | 1   | 0   | 1    | 0      |
 | 1   | 1   | 0    | 0      |
+
+</div>
 
 **Diff:** 1 when inputs differ → XOR: $\mathrm{Diff} = A \oplus B$
 
@@ -1422,16 +1638,20 @@ If you get this wrong, revise: [Half Adder](#half-adder)
 }
 </script>
 
-**Problem 12:** Given $F(A, B, C) = \sum(0, 2, 4, 6, 7)$Use a K-map to find the minimal SOP
+**Problem 12:** Given $F(A, B, C) = \sum(0, 2, 4, 6, 7)$ Use a K-map to find the minimal SOP
 Expression.
 
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | 1         | 0         | 0         | 1         |
 | `A`=1 | 1         | 0         | 1         | 1         |
+
+</div>
 
 **Groups:**
 
@@ -1442,7 +1662,9 @@ Expression.
 Check coverage: $m_0$ ($\overline{C}$), $m_2$ ($\overline{C}$), $m_4$ ($\overline{C}$), $m_6$
 ($\overline{C}$ And $AB$), $m_7$ ($AB$). All covered.
 
-$$F = \overline{C} + AB$$
+$$
+F = \overline{C} + AB
+$$
 
 Gates: 1 NOT + 1 AND + 1 OR = **3 gates** (or using NAND-NAND: 3 NAND gates).
 
@@ -1450,17 +1672,6 @@ Gates: 1 NOT + 1 AND + 1 OR = **3 gates** (or using NAND-NAND: 3 NAND gates).
 
 If you get this wrong, revise: [4-Variable K-Maps](#4-variable-k-map) and
 [K-Map Grouping Rules](#k-map-grouping-rules)
-
-
-```mermaid
-flowchart TD
-    A[1_Boolean Logic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -1475,15 +1686,16 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Cross-References
+
+<div class="table-wrap">
 
 | Topic           | Site    | Link                                                                                                     |
 | --------------- | ------- | -------------------------------------------------------------------------------------------------------- |
 | [Boolean Logic] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/fundamentals/03-boolean-algebra) |
-| [Boolean Logic] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/4-computational-thinking/1_boolean-logic)         |
+| [Boolean Logic] | IB      | [View](https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic/)         |
+
+</div>
 
 ## Worked Examples
 

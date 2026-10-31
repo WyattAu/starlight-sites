@@ -56,7 +56,6 @@ graph TD
     W --> P[Polarization]
 ```
 
-
 ## Contents
 
 1. [The Wave Equation](/4-optics-and-waves/1_the-wave-equation/)
@@ -107,8 +106,6 @@ Start with the wave equation to build foundational knowledge, then progress to i
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -135,7 +132,7 @@ Each section includes:
 - **Mathematics:** Fourier analysis and complex numbers are essential mathematical tools for optics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

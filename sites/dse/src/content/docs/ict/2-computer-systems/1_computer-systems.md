@@ -22,13 +22,19 @@ categories: [DSE, ICT]
 The CPU is the primary component that executes instructions. It consists of three main
 Sub-components:
 
+<div class="table-wrap">
+
 | Component                       | Function                                                                                                |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Arithmetic Logic Unit (ALU)** | Performs arithmetic (add, subtract, multiply, divide) and logical (AND, OR, NOT, XOR) operations        |
 | **Control Unit (CU)**           | Coordinates all activities: fetches instructions, decodes them, and signals other components to execute |
 | **Registers**                   | Small, extremely fast storage locations inside the CPU used for temporary data during processing        |
 
+</div>
+
 ### Registers
+
+<div class="table-wrap">
 
 | Register                          | Purpose                                                                  |
 | --------------------------------- | ------------------------------------------------------------------------ |
@@ -39,16 +45,22 @@ Sub-components:
 | **Instruction Register (IR)**     | Holds the current instruction being decoded and executed                 |
 | **Status Register (Flags)**       | Stores flags such as Zero, Carry, Negative, Overflow from ALU operations |
 
+</div>
+
 :::note
 A typical CPU has a small number of general-purpose registers (8--32 in most architectures).
 :::
 
 ### Memory Types
 
+<div class="table-wrap">
+
 | Type    | Full Name            | Volatile? | Read/Write | Speed           | Typical Use                                |
 | ------- | -------------------- | --------- | ---------- | --------------- | ------------------------------------------ |
 | **RAM** | Random Access Memory | Yes       | Both       | Fast            | Main memory, running programs              |
 | **ROM** | Read Only Memory     | No        | Read only  | Slower than RAM | Boot-up instructions (BIOS/UEFI), firmware |
+
+</div>
 
 **RAM types:**
 
@@ -64,11 +76,15 @@ A typical CPU has a small number of general-purpose registers (8--32 in most arc
 
 ### Secondary Storage
 
+<div class="table-wrap">
+
 | Storage Type     | Technology                                        | Speed                     | Capacity        | Cost        | Volatility   |
 | ---------------- | ------------------------------------------------- | ------------------------- | --------------- | ----------- | ------------ |
 | **HDD**          | Magnetic platters spinning at 5400/7200/10000 RPM | 80--160 MB/s              | 500 GB -- 20 TB | Low         | Non-volatile |
 | **SSD**          | NAND flash memory via SATA/NVMe                   | 500 MB/s -- 7 GB/s (NVMe) | 256 GB -- 4 TB  | Medium-High | Non-volatile |
 | **Flash Memory** | NAND flash (USB drives, SD cards)                 | 10--300 MB/s              | 1 GB -- 1 TB    | Medium      | Non-volatile |
+
+</div>
 
 :::caution
 Exam Tip When comparing storage, consider all five criteria: speed, capacity, cost per
@@ -89,6 +105,8 @@ SSDs are faster with no moving parts but more expensive per GB.
 
 ## Input Devices
 
+<div class="table-wrap">
+
 | Device              | Input Type               | Common Use Case                                        |
 | ------------------- | ------------------------ | ------------------------------------------------------ |
 | **Keyboard**        | Text, commands           | Typing documents, entering data                        |
@@ -100,7 +118,11 @@ SSDs are faster with no moving parts but more expensive per GB.
 | **Barcode Reader**  | Light reflection pattern | Retail checkout, inventory management                  |
 | **RFID Reader**     | Radio frequency signal   | Access control, toll collection, tracking              |
 
+</div>
+
 **Barcode Reader vs RFID:**
+
+<div class="table-wrap">
 
 | Feature                | Barcode Reader            | RFID Reader          |
 | ---------------------- | ------------------------- | -------------------- |
@@ -109,6 +131,8 @@ SSDs are faster with no moving parts but more expensive per GB.
 | Data capacity          | Limited ( a number)       | Can store more data  |
 | Cost                   | Lower                     | Higher               |
 | Read multiple at once  | No                        | Yes                  |
+
+</div>
 
 ---
 
@@ -123,6 +147,8 @@ SSDs are faster with no moving parts but more expensive per GB.
 
 ## Output Devices
 
+<div class="table-wrap">
+
 | Device        | Output Type          | Common Use Case                                   |
 | ------------- | -------------------- | ------------------------------------------------- |
 | **Monitor**   | Visual display       | Primary output for desktops/laptops               |
@@ -130,7 +156,11 @@ SSDs are faster with no moving parts but more expensive per GB.
 | **Speaker**   | Audio output         | Music, alerts, multimedia                         |
 | **Projector** | Large visual display | Presentations, classrooms, cinemas                |
 
+</div>
+
 **Inkjet vs Laser Printer:**
+
+<div class="table-wrap">
 
 | Feature                | Inkjet            | Laser                   |
 | ---------------------- | ----------------- | ----------------------- |
@@ -140,6 +170,8 @@ SSDs are faster with no moving parts but more expensive per GB.
 | Cost per page          | Higher            | Lower                   |
 | Initial cost           | Lower             | Higher                  |
 | Mechanism              | Sprays liquid ink | Uses toner powder, heat |
+
+</div>
 
 ---
 
@@ -196,6 +228,8 @@ The Von Neumann architecture defines a computer system with:
 
 ### Harvard Architecture (Comparison)
 
+<div class="table-wrap">
+
 | Feature          | Von Neumann               | Harvard                                     |
 | ---------------- | ------------------------- | ------------------------------------------- |
 | Memory bus       | Single shared bus         | Separate instruction and data buses         |
@@ -204,11 +238,15 @@ The Von Neumann architecture defines a computer system with:
 | Complexity       | Simpler                   | More complex                                |
 | Modern usage     | Most general-purpose CPUs | DSPs, microcontrollers, CPU caches          |
 
+</div>
+
 The Von Neumann **bottleneck** arises because the CPU and memory share a single bus. The CPU is
-Often much faster than memory, so it spends time waiting for instructions and data to be fetched.
+often much faster than memory, so it spends time waiting for instructions and data to be fetched.
 This is why modern CPUs use cache memory (L1, L2, L3) to reduce the impact of the bottleneck.
 
 **Cache memory** is a small, fast memory between the CPU registers and main memory (RAM):
+
+<div class="table-wrap">
 
 | Cache Level | Location                            | Size           | Speed                  |
 | ----------- | ----------------------------------- | -------------- | ---------------------- |
@@ -217,15 +255,17 @@ This is why modern CPUs use cache memory (L1, L2, L3) to reduce the impact of th
 | L3          | Inside CPU (shared among all cores) | 2--64 MB       | Moderate (~40 cycles)  |
 | RAM         | Outside CPU on motherboard          | 4--128 GB      | Slowest (~100+ cycles) |
 
+</div>
+
 When the CPU needs data, it checks L1 first, then L2, then L3, then RAM. If the data is found in
-Cache, it is a **cache hit**; otherwise it is a **cache miss** and the CPU must wait for the slower
+cache, it is a **cache hit**; otherwise it is a **cache miss** and the CPU must wait for the slower
 Memory.
 
 :::caution
 Exam Tip The DSE syllabus focuses on Von Neumann. Know why it has a bottleneck (CPU
 Waits for memory) and how Harvard architecture addresses this. Most modern CPUs use a modified
 Harvard architecture internally (separate L1 caches for instructions and data) while presenting a
-Von Neumann model externally.
+von Neumann model externally.
 :::
 
 ---
@@ -269,13 +309,19 @@ This is the fundamental cycle by which the CPU processes every instruction.
 
 Given memory starting at address 100:
 
+<div class="table-wrap">
+
 | Address | Instruction |
 | ------- | ----------- |
 | 100     | LOAD 5      |
 | 101     | ADD 3       |
 | 102     | STORE 6     |
 
+</div>
+
 **Execution trace:**
+
+<div class="table-wrap">
 
 | Step    | Action                                               | PC  | MAR | MDR     | IR      | ACC       |
 | ------- | ---------------------------------------------------- | --- | --- | ------- | ------- | --------- |
@@ -288,6 +334,8 @@ Given memory starting at address 100:
 | Fetch   | PC(102) -> MAR; Mem[MAR] -> MDR; PC = 103; MDR -> IR | 103 | 102 | STORE 6 | STORE 6 | M[5]+M[3] |
 | Decode  | CU decodes STORE 6                                   | 103 | 102 | STORE 6 | STORE 6 | M[5]+M[3] |
 | Execute | ACC -> Mem[6]                                        | 103 | 102 | STORE 6 | STORE 6 | M[5]+M[3] |
+
+</div>
 
 ---
 
@@ -306,14 +354,20 @@ Given memory starting at address 100:
 
 Software that manages and controls hardware and provides a platform for application software.
 
+<div class="table-wrap">
+
 | Type                      | Description                                 | Examples                                                |
 | ------------------------- | ------------------------------------------- | ------------------------------------------------------- |
 | **Operating System (OS)** | Manages all hardware and software resources | Windows, macOS, Linux, Android, iOS                     |
 | **Utility Programs**      | Perform specific maintenance tasks          | Disk defragmenter, antivirus, file manager, backup tool |
 
+</div>
+
 ### Application Software
 
 Software designed for end-users to perform specific tasks.
+
+<div class="table-wrap">
 
 | Type                | Description                         | Examples                                    |
 | ------------------- | ----------------------------------- | ------------------------------------------- |
@@ -321,7 +375,11 @@ Software designed for end-users to perform specific tasks.
 | **Special-purpose** | Designed for a specific field       | Accounting software, CAD, medical imaging   |
 | **Custom/bespoke**  | Written for a specific organisation | A company"s payroll system                  |
 
+</div>
+
 ### Operating System Functions
+
+<div class="table-wrap">
 
 | Function               | Description                                                                                                                     |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -331,6 +389,8 @@ Software designed for end-users to perform specific tasks.
 | **User Interface**     | Provides CLI (Command Line Interface) or GUI (Graphical User Interface) for user interaction                                    |
 | **Device Management**  | Uses device drivers to communicate with hardware, manages I/O operations                                                        |
 | **Security**           | User authentication, access control, firewall integration                                                                       |
+
+</div>
 
 ### Types of User Interfaces
 
@@ -358,15 +418,19 @@ Software designed for end-users to perform specific tasks.
 ### Virtual Memory
 
 Virtual memory is a memory management technique that uses secondary storage (hard disk/SSD) as an
-Extension of RAM. When physical RAM is full, the operating system moves less frequently used pages
+extension of RAM. When physical RAM is full, the operating system moves less frequently used pages
 (data blocks, 4 KB) from RAM to a designated area on disk called the **swap space** or **page
 file**. When those pages are needed again, they are swapped back into RAM.
+
+<div class="table-wrap">
 
 | Aspect         | Advantage                                                   | Disadvantage                                                    |
 | -------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
 | Capacity       | Allows running more/larger programs than physical RAM alone | Disk access is much slower than RAM (thousands of times slower) |
 | Cost           | Effectively increases memory without buying more RAM        | Excessive swapping (thrashing) severely degrades performance    |
 | Implementation | Transparent to the user and applications                    | Requires disk space to be reserved                              |
+
+</div>
 
 **Thrashing** occurs when the system spends more time swapping pages in and out of memory than
 Executing actual instructions. This happens when the system is overloaded with too many processes
@@ -389,6 +453,8 @@ Competing for insufficient RAM.
 
 Digits: 0, 1. Each digit is a **bit**. 8 bits = 1 **byte**.
 
+<div class="table-wrap">
+
 | Decimal | Binary    |
 | ------- | --------- |
 | 0       | 0000 0000 |
@@ -398,9 +464,13 @@ Digits: 0, 1. Each digit is a **bit**. 8 bits = 1 **byte**.
 | 10      | 0000 1010 |
 | 255     | 1111 1111 |
 
+</div>
+
 ### Hexadecimal (Base 16)
 
 Digits: 0--9, A(10), B(11), C(12), D(13), E(14), F(15). Each hex digit represents exactly 4 bits.
+
+<div class="table-wrap">
 
 | Hex | Binary         | Decimal |
 | --- | -------------- | ------- |
@@ -413,9 +483,13 @@ Digits: 0--9, A(10), B(11), C(12), D(13), E(14), F(15). Each hex digit represent
 | FF  | 1111 1111      | 255     |
 | 100 | 0001 0000 0000 | 256     |
 
+</div>
+
 ### Binary-Coded Decimal (BCD)
 
 Each decimal digit (0--9) is represented by its 4-bit binary equivalent.
+
+<div class="table-wrap">
 
 | Decimal | BCD            |
 | ------- | -------------- |
@@ -424,11 +498,13 @@ Each decimal digit (0--9) is represented by its 4-bit binary equivalent.
 | 15      | 0001 0101      |
 | 127     | 0001 0010 0111 |
 
+</div>
+
 :::caution
 Exam Tip BCD is different from pure binary. The decimal number 15 in pure binary is
-`1111`But in BCD it is `0001 0101` (each decimal digit encoded separately). BCD wastes some bit
+`1111`. But in BCD it is `0001 0101` (each decimal digit encoded separately). BCD wastes some bit
 Patterns (1010--1111 are invalid) but is useful for displays and financial calculations where each
-Decimal digit must be preserved exactly.
+decimal digit must be preserved exactly.
 :::
 
 ### Conversions
@@ -487,6 +563,8 @@ $185_{10} = 000110000101_{BCD}$
   digits (48--57), control characters (0--31), symbols.
 - Each character stored as 1 byte (8 bits) with the MSB unused or used for parity.
 
+<div class="table-wrap">
+
 | Character | ASCII (decimal) | ASCII (binary) |
 | --------- | --------------- | -------------- |
 | 'A'       | 65              | 0100 0001      |
@@ -494,6 +572,8 @@ $185_{10} = 000110000101_{BCD}$
 | 'a'       | 97              | 0110 0001      |
 | '0'       | 48              | 0011 0000      |
 | Space     | 32              | 0010 0000      |
+
+</div>
 
 #### Unicode
 
@@ -505,7 +585,7 @@ $185_{10} = 000110000101_{BCD}$
 
 :::note
 Unicode covers all writing systems but uses more storage. UTF-8 is the most widely used encoding on
-The internet.
+the internet.
 
 ### Image Representation
 
@@ -515,12 +595,16 @@ A bitmap image is a grid of **pixels** (picture elements). Each pixel is assigne
 
 **Colour depth:** Number of bits used to represent each pixel's colour.
 
+<div class="table-wrap">
+
 | Colour Depth | Number of Colours        | Calculation |
 | ------------ | ------------------------ | ----------- |
 | 1 bit        | 2 (black and white)      | $2^1$       |
 | 8 bits       | 256                      | $2^8$       |
 | 16 bits      | 65 536 (High Colour)     | $2^{16}$    |
 | 24 bits      | 16 777 216 (True Colour) | $2^{24}$    |
+
+</div>
 
 **Image file size (uncompressed):**
 
@@ -559,6 +643,8 @@ $$
 
 **Bitmap vs Vector Graphics:**
 
+<div class="table-wrap">
+
 | Feature                        | Bitmap                      | Vector                              |
 | ------------------------------ | --------------------------- | ----------------------------------- |
 | Storage method                 | Grid of pixels              | Mathematical descriptions of shapes |
@@ -569,12 +655,18 @@ $$
 | Examples                       | JPEG, PNG, BMP              | SVG, EPS                            |
 | Editing                        | Pixel-level editing         | Shape and path editing              |
 
+</div>
+
 **Image compression:**
+
+<div class="table-wrap">
 
 | Type     | Method                                                  | Quality Loss       | Example       |
 | -------- | ------------------------------------------------------- | ------------------ | ------------- |
 | Lossless | Reduces redundancy without discarding data              | None               | PNG, GIF, BMP |
 | Lossy    | Discards data that is less perceptible to the human eye | Yes (irreversible) | JPEG, WebP    |
+
+</div>
 
 JPEG compression works by dividing the image into $8 \times 8$ pixel blocks, applying a Discrete
 Cosine Transform (DCT), and then quantising (rounding) the frequency coefficients. Higher
@@ -597,9 +689,9 @@ Sound is an analogue wave that must be converted to digital form via **sampling*
 Accurate representation of the analogue signal. Common values: 8-bit (telephone quality), 16-bit
 (CD), 24-bit (studio recording).
 
-**Nyquist theorem:** To accurately capture a sound with maximum frequency $f_{\max}$The sampling
+**Nyquist theorem:** To accurately capture a sound with maximum frequency $f_{\max}$ The sampling
 Rate must be at least $2f_{\max}$. Since human hearing ranges up to approximately $20\mathrm{ kHz}$
-The CD sampling rate of $44\,100\mathrm{ Hz}$ is sufficient (Nyquist frequency =
+the CD sampling rate of $44\,100\mathrm{ Hz}$ is sufficient (Nyquist frequency =
 $22\,050\mathrm{ Hz}$).
 
 **File size calculation:**
@@ -703,7 +795,7 @@ Answer:
 (a) $500 \mathrm{ GB} = 0.5 \mathrm{ TB}$. One 1 TB HDD is sufficient.
 
 (b) **Advantages of SSD:** Faster read/write speeds, no moving parts (more durable, less prone to
-Mechanical failure), quieter operation, lower power consumption.
+mechanical failure), quieter operation, lower power consumption.
 
 **Disadvantages of SSD:** Higher cost per GB, limited write cycles (though modern SSDs mitigate this
 With wear levelling).
@@ -715,12 +807,16 @@ With wear levelling).
 
 Given the following program in memory:
 
+<div class="table-wrap">
+
 | Address | Instruction |
 | ------- | ----------- |
 | 200     | LOAD 10     |
 | 201     | ADD 11      |
 | 202     | SUB 12      |
 | 203     | STORE 13    |
+
+</div>
 
 Memory values: M[10] = 25, M[11] = 17, M[12] = 8, M[13] = 0.
 
@@ -731,19 +827,27 @@ Answer:
 
 **Instruction 1: LOAD 10**
 
+<div class="table-wrap">
+
 | Phase   | PC  | MAR | MDR     | IR      | ACC |
 | ------- | --- | --- | ------- | ------- | --- |
 | Fetch   | 201 | 200 | LOAD 10 | LOAD 10 | ?   |
 | Decode  | 201 | 200 | LOAD 10 | LOAD 10 | ?   |
 | Execute | 201 | 200 | LOAD 10 | LOAD 10 | 25  |
 
+</div>
+
 **Instruction 2: ADD 11**
+
+<div class="table-wrap">
 
 | Phase   | PC  | MAR | MDR    | IR     | ACC |
 | ------- | --- | --- | ------ | ------ | --- |
 | Fetch   | 202 | 201 | ADD 11 | ADD 11 | 25  |
 | Decode  | 202 | 201 | ADD 11 | ADD 11 | 25  |
 | Execute | 202 | 201 | ADD 11 | ADD 11 | 42  |
+
+</div>
 
 ACC = 25 + 17 = 42.
 
@@ -864,7 +968,7 @@ Answer:
 (b) Each ASCII character is 1 byte. $1000 \mathrm{ bytes} / 1024 = 0.98 \mathrm{ KB}$.
 
 (c) ASCII only supports 128 characters (English alphabet, digits, basic symbols). Unicode supports
-Over 149 000 characters covering all major writing systems, symbols, and emoji. This makes Unicode
+over 149 000 characters covering all major writing systems, symbols, and emoji. This makes Unicode
 Essential for applications serving users who speak different languages or need special characters.
 
 </details>
@@ -881,16 +985,16 @@ Essential for applications serving users who speak different languages or need s
 Answer:
 
 (a) **Memory management** allocates and deallocates RAM among running programs, ensuring each
-Process has sufficient memory and that processes do not interfere with each other's memory space.
+process has sufficient memory and that processes do not interfere with each other's memory space.
 **Process management** schedules CPU time among processes, handles creation/termination of
 Processes, and enables multitasking.
 
 (b) Virtual memory uses a portion of the hard disk as an extension of RAM. When RAM is full, the OS
 Moves less frequently used data (pages) from RAM to disk (swapping/paging). This allows the system
-To run more programs than would fit in physical RAM, at the cost of slower access to swapped data.
+to run more programs than would fit in physical RAM, at the cost of slower access to swapped data.
 
 (c) **Disk defragmenter:** Rearranges fragmented file data on an HDD so that related data blocks are
-Stored contiguously. This improves read/write performance by reducing disk head movement. (Note:
+stored contiguously. This improves read/write performance by reducing disk head movement. (Note:
 Defragmentation is not needed for SSDs.)
 
 </details>
@@ -908,13 +1012,13 @@ Answer:
 (a) **Application software** -- it is a general-purpose word processor designed for end-user tasks.
 
 (b) **System software (utility program)** -- it is an antivirus utility that protects the system by
-Detecting and removing malware. It performs a maintenance/security task for the system.
+detecting and removing malware. It performs a maintenance/security task for the system.
 
 (c) **System software (operating system)** -- it manages all hardware resources, provides
 Memory/process/file management, and serves as a platform for other software.
 
 (d) **Application software** -- it is a special-purpose image editing program designed for
-End-users.
+end-users.
 
 </details>
 
@@ -926,8 +1030,8 @@ End-users.
 (b) Convert $11001100_2$ to hexadecimal.
 
 (c) A bitmap image has dimensions $800 \times 600$ and uses 16-bit colour. Calculate the file size
-In KB. If the image is compressed using a lossless technique with a 3:2 compression ratio, what is
-The compressed file size?
+in KB. If the image is compressed using a lossless technique with a 3:2 compression ratio, what is
+the compressed file size?
 
 Answer:
 
@@ -959,10 +1063,10 @@ $$
 <summary>Question 10: Input/Output Devices -- Scenario</summary>
 
 A library wants to automate its book checkout system. For each scenario, recommend the most
-Appropriate input or output device and justify your choice.
+appropriate input or output device and justify your choice.
 
 (a) Identifying a book when it is checked out. (b) Identifying a library member. (c) Printing a
-Receipt for the member. (d) Displaying the library catalogue to members on a self-service kiosk.
+receipt for the member. (d) Displaying the library catalogue to members on a self-service kiosk.
 
 Answer:
 
@@ -992,19 +1096,19 @@ Volume.
 Answer:
 
 (a) The CU coordinates and controls all operations during the fetch-decode-execute cycle. During the
-Fetch phase, it sends control signals to copy the PC value to the MAR and trigger a memory read.
+fetch phase, it sends control signals to copy the PC value to the MAR and trigger a memory read.
 During decode, it interprets the instruction in the IR and determines which operation to perform.
 During execute, it sends the appropriate control signals to the ALU, registers, or memory to carry
-Out the instruction.
+out the instruction.
 
 (b) The ALU performs all arithmetic calculations (addition, subtraction, multiplication, division)
 And logical operations (AND, OR, NOT, XOR, comparisons). It receives operands from registers,
 Performs the operation as directed by the CU, and stores the result in the accumulator or a
-Specified register.
+specified register.
 
 (c) Registers are necessary because they provide the fastest possible storage access (1 clock
 Cycle), whereas RAM access takes many clock cycles (100+ cycles for L3 cache, even more for RAM). If
-The CPU had to fetch every operand from RAM for every instruction, processing would be impractically
+the CPU had to fetch every operand from RAM for every instruction, processing would be impractically
 Slow. Registers allow the CPU to keep frequently used data (current instruction, memory addresses,
 Intermediate results) immediately accessible, maximising throughput.
 
@@ -1014,13 +1118,13 @@ Intermediate results) immediately accessible, maximising throughput.
 <summary>Question 12: System Performance Factors</summary>
 
 A student claims that a computer with a faster CPU clock speed will always perform better than one
-With a slower clock speed. Evaluate this claim by considering at least three other factors that
-Affect system performance.
+with a slower clock speed. Evaluate this claim by considering at least three other factors that
+affect system performance.
 
 Answer:
 
 The claim is **not always correct**. While CPU clock speed is one factor affecting performance, the
-Following factors are also critical:
+following factors are also critical:
 
 1. **Number of CPU cores:** A 2.0 GHz quad-core processor can outperform a 3.0 GHz dual-core
    processor for multitasking and parallel workloads, since it can execute more instructions
@@ -1043,16 +1147,6 @@ Following factors are also critical:
 
 </details>
 
-```mermaid
-flowchart TD
-    A[1_Computer Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 systems, including key principles and practical applications.
@@ -1066,9 +1160,6 @@ systems, including key principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 > > > > > > > Stashed changes:docs/docs_dse/ICT/computer-systems.md
 

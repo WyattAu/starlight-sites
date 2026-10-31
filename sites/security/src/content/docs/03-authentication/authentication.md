@@ -22,7 +22,9 @@ description: "Study notes for Authentication and Authorization with worked examp
 
 These are distinct concerns that are often conflated. A user can be authenticated (their identity is
 Verified) but not authorized (they lack permission for a specific action). Conversely, a system
-Might authorize a request without authentication (anonymous access).
+might authorize a request without authentication (anonymous access).
+
+<div class="table-wrap">
 
 | Aspect       | Authentication               | Authorization               |
 | ------------ | ---------------------------- | --------------------------- |
@@ -33,9 +35,13 @@ Might authorize a request without authentication (anonymous access).
 | Frequency    | Once per session ()          | Every request               |
 | Revocation   | Invalidate session/token     | Update permissions/policies |
 
+</div>
+
 ## Password Storage
 
 ### How Not to Store Passwords
+
+<div class="table-wrap">
 
 | Method               | Why It Fails                                     |
 | -------------------- | ------------------------------------------------ |
@@ -45,6 +51,8 @@ Might authorize a request without authentication (anonymous access).
 | SHA-256 without salt | Fast, no salt, vulnerable to rainbow tables      |
 | Base64 encoding      | Not hashing at all, encoding is not encryption  |
 | Custom encryption    | Key management problem shifts the attack surface |
+
+</div>
 
 ### How to Store Passwords
 
@@ -103,7 +111,7 @@ This avoids forcing a password reset for all users.
 ### NIST SP 800-63B Recommendations (Revised 2023)
 
 The NIST Digital Identity Guidelines represent the current best practice for password policies, and
-They contradict many traditional policies.
+they contradict many traditional policies.
 
 **Do:**
 
@@ -116,7 +124,7 @@ They contradict many traditional policies.
 
 **Do Not:**
 
-- Force periodic password rotation (leads to predictable patterns: `Password1!``Password2!`...)
+- Force periodic password rotation (leads to predictable patterns: `Password1!`, `Password2!`...)
 - Require composition rules (uppercase + lowercase + digit + special character, users just
   capitalize the first letter and add `1!`)
 - Require passwords to be changed after a breach unless compromise is confirmed
@@ -149,6 +157,8 @@ def check_pwned_password(password):
 
 MFA requires two or more independent factors from different categories:
 
+<div class="table-wrap">
+
 | Factor Category | Examples                              | Security Level         |
 | --------------- | ------------------------------------- | ---------------------- |
 | Knowledge       | Passwords, PINs, security questions   | Low (phishable)        |
@@ -156,10 +166,12 @@ MFA requires two or more independent factors from different categories:
 | Inherence       | Biometrics (fingerprint, face, iris)  | Medium (not revocable) |
 | Location        | IP address, geolocation               | Low (spoofable)        |
 
+</div>
+
 ### TOTP (Time-based One-Time Password)
 
 TOTP (RFC 6238) generates a 6-8 digit code based on a shared secret and the current time. The server
-And client both compute:
+and client both compute:
 
 $$
 \mathrm{TOTP = \mathrm{Truncate\Big(\mathrm{HMAC-SHA-1(K, T)\Big)
@@ -167,12 +179,16 @@ $$
 
 Where $K$ is the shared secret and $T = \lfloor \mathrm{current\_time / 30 \rfloor$.
 
+<div class="table-wrap">
+
 | Property      | Value                                  |
 | ------------- | -------------------------------------- |
 | Time step     | 30 seconds                             |
 | Code length   | 6 digits (default)                     |
 | Shared secret | 160-bit (Base32)                       |
 | Hash          | HMAC-SHA-1 (default), SHA-256, SHA-512 |
+
+</div>
 
 **Limitations**: TOTP codes are phishable. An attacker can proxy the login page and forward the TOTP
 Code to the real service in real time. TOTP is not a replacement for phishing-resistant MFA.
@@ -207,12 +223,16 @@ Key properties:
 
 ### Hardware Security Keys
 
+<div class="table-wrap">
+
 | Key Model   | Protocol Support     | Connector    | Price (approx.) |
 | ----------- | -------------------- | ------------ | --------------- |
 | YubiKey 5   | FIDO2, U2F, OTP, PIV | USB-A/C, NFC | USD 45-55       |
 | YubiKey Bio | FIDO2 (biometric)    | USB-A/C      | USD 80          |
 | Titan Key   | FIDO2, U2F           | USB-A/C, NFC | USD 30-40       |
 | SoloKeys    | FIDO2, U2F           | USB-A/C      | USD 25-50       |
+
+</div>
 
 ### SMS-based 2FA
 
@@ -223,10 +243,12 @@ Rate limiting, anomaly detection, and do not use it as the sole second factor.
 ## OAuth 2.0
 
 OAuth 2.0 (RFC 6749) is an authorization framework that allows applications to obtain limited access
-To user accounts on HTTP services. It is a delegation protocol, the user authorizes a third-party
+to user accounts on HTTP services. It is a delegation protocol, the user authorizes a third-party
 Application to access their resources without sharing their credentials.
 
 ### Core Concepts
+
+<div class="table-wrap">
 
 | Term                 | Definition                                             |
 | -------------------- | ------------------------------------------------------ |
@@ -237,6 +259,8 @@ Application to access their resources without sharing their credentials.
 | Access Token         | Credential used to access protected resources          |
 | Refresh Token        | Long-lived credential used to obtain new access tokens |
 | Scope                | Defines the level of access requested                  |
+
+</div>
 
 ### Authorization Code Flow (with PKCE)
 
@@ -281,7 +305,7 @@ code_challenge = base64.urlsafe_b64encode(
 ### Client Credentials Flow
 
 Used for server-to-server communication (no user involved). The client authenticates directly with
-The authorization server using its credentials.
+the authorization server using its credentials.
 
 ```bash
 curl -X POST https://auth.example.com/token \
@@ -295,7 +319,7 @@ curl -X POST https://auth.example.com/token \
 
 The implicit flow returns the access token directly in the URL fragment, which exposes it to the
 Browser history, referrer headers, and JavaScript access. It has been deprecated by OAuth 2.1. Use
-The authorization code flow with PKCE instead.
+the authorization code flow with PKCE instead.
 
 ## OpenID Connect (OIDC)
 
@@ -321,11 +345,15 @@ An ID token is a JWT that contains identity claims about the user:
 
 ### Token Types
 
+<div class="table-wrap">
+
 | Token         | Format        | Purpose                                  | Audience             |
 | ------------- | ------------- | ---------------------------------------- | -------------------- |
 | ID Token      | JWT           | Authenticate the user to the client      | Client               |
 | Access Token  | JWT or opaque | Authorize API access                     | Resource Server      |
 | Refresh Token | Opaque        | Obtain new access tokens without re-auth | Authorization Server |
+
+</div>
 
 ### Validation Requirements
 
@@ -359,6 +387,8 @@ Scenarios.
 
 ### SAML Components
 
+<div class="table-wrap">
+
 | Component               | Role                                                |
 | ----------------------- | --------------------------------------------------- |
 | Service Provider (SP)   | The application requesting authentication           |
@@ -366,7 +396,11 @@ Scenarios.
 | Assertion               | XML statement about the user (identity, attributes) |
 | SAML Response           | XML message containing the assertion                |
 
+</div>
+
 ### SAML vs OIDC
+
+<div class="table-wrap">
 
 | Aspect          | SAML 2.0                       | OIDC                     |
 | --------------- | ------------------------------ | ------------------------ |
@@ -376,6 +410,8 @@ Scenarios.
 | Browser support | Redirect/POST bindings         | Simple redirect          |
 | Token format    | SAML assertions (XML)          | JWT                      |
 | Adoption        | Enterprise, legacy systems     | Modern web, cloud-native |
+
+</div>
 
 ### SAML Security Considerations
 
@@ -430,6 +466,8 @@ RSASHA256(
 
 ### Registered Claims
 
+<div class="table-wrap">
+
 | Claim | Purpose                       | Required    |
 | ----- | ----------------------------- | ----------- |
 | `iss` | Issuer                        | Recommended |
@@ -440,7 +478,11 @@ RSASHA256(
 | `nbf` | Not before                    | Optional    |
 | `jti` | JWT ID (unique identifier)    | Optional    |
 
+</div>
+
 ### Signing Algorithms
+
+<div class="table-wrap">
 
 | Algorithm | Type       | Security Notes                                    |
 | --------- | ---------- | ------------------------------------------------- |
@@ -449,6 +491,8 @@ RSASHA256(
 | ES256     | Asymmetric | ECDSA with P-256, smaller signatures             |
 | EdDSA     | Asymmetric | Ed25519, modern, recommended for new systems     |
 | none      | None       | **Insecure**, must be rejected                   |
+
+</div>
 
 ### JWT Validation Checklist
 
@@ -479,6 +523,8 @@ Algorithm when validating JWTs, and never accept `none`.
 
 ### Cookies vs Tokens
 
+<div class="table-wrap">
+
 | Aspect         | Server-Side Sessions (Cookies) | Token-Based (JWT)                   |
 | -------------- | ------------------------------ | ----------------------------------- |
 | State          | Server-side session store      | Stateless (state in token)          |
@@ -489,11 +535,15 @@ Algorithm when validating JWTs, and never accept `none`.
 | XSS            | Token theft risk               | Token theft risk                    |
 | Mobile support | Complex (cookie management)    | Simpler                             |
 
+</div>
+
 ### Secure Cookie Attributes
 
 ```http
 Set-Cookie: session_id=abc123; Secure; HttpOnly; SameSite=Strict; Path=/; Max-Age=3600; Domain=.example.com
 ```
+
+<div class="table-wrap">
 
 | Attribute  | Purpose                                                    |
 | ---------- | ---------------------------------------------------------- |
@@ -504,13 +554,19 @@ Set-Cookie: session_id=abc123; Secure; HttpOnly; SameSite=Strict; Path=/; Max-Ag
 | `Domain`   | Limits cookie to specific domain and subdomains            |
 | `Max-Age`  | Cookie expiration in seconds                               |
 
+</div>
+
 ### SameSite Attribute
+
+<div class="table-wrap">
 
 | Value    | Behavior                                                               | Use Case                                       |
 | -------- | ---------------------------------------------------------------------- | ---------------------------------------------- |
 | `Strict` | Cookie not sent on cross-site requests at all                          | Banking, internal tools                        |
 | `Lax`    | Cookie sent on top-level navigations (GET), not on cross-site POST/PUT | Most applications (default in modern browsers) |
 | `None`   | Cookie sent on all cross-site requests (requires `Secure`)             | Third-party integrations                       |
+
+</div>
 
 ## RBAC vs ABAC
 
@@ -575,12 +631,16 @@ permit(
 
 **Attributes used in evaluation:**
 
+<div class="table-wrap">
+
 | Attribute Source | Examples                                 |
 | ---------------- | ---------------------------------------- |
 | Subject          | Department, clearance level, location    |
 | Resource         | Classification, owner, creation date     |
 | Action           | Type (read/write/delete), time of day    |
 | Environment      | IP address, device posture, threat level |
+
+</div>
 
 **Advantages**: Fine-grained, context-aware, reduces role explosion. Well-suited for complex,
 Dynamic environments (cloud, microservices).
@@ -597,12 +657,16 @@ Fine-grained decisions (attribute checks within a role).
 
 ### Best Practices by Client Type
 
+<div class="table-wrap">
+
 | Client Type       | Storage Method                               | Risks                            |
 | ----------------- | -------------------------------------------- | -------------------------------- |
 | Server-side (web) | HttpOnly, Secure, SameSite cookie            | Lowest risk, JS cannot access   |
 | SPA (browser)     | In-memory only, or HttpOnly cookie           | XSS exfiltrates in-memory tokens |
 | Mobile (native)   | OS keychain (iOS Keychain, Android Keystore) | Malware, jailbroken devices      |
 | Desktop (native)  | OS credential store                          | Similar to mobile                |
+
+</div>
 
 ### Token Storage Anti-Patterns
 
@@ -636,13 +700,13 @@ password checking instead.
 ### Pitfall 3: JWT in localStorage
 
 Storing JWTs in localStorage or sessionStorage makes them accessible to any JavaScript running on
-The page. A single XSS vulnerability exposes the token. Store access tokens in memory (with silent
+the page. A single XSS vulnerability exposes the token. Store access tokens in memory (with silent
 Refresh) or in HttpOnly cookies.
 
 ### Pitfall 4: Missing Token Revocation
 
 Stateless JWTs cannot be revoked without a blacklist. If a user's JWT is stolen, it remains valid
-Until expiry. Mitigate with: short expiry times (15 minutes), refresh token rotation, and a token
+until expiry. Mitigate with: short expiry times (15 minutes), refresh token rotation, and a token
 Blacklist for compromised tokens.
 
 ### Pitfall 5: OAuth Redirect URI Validation
@@ -653,19 +717,19 @@ Validate redirect URIs against an exact-match allowlist (no wildcards, no open r
 ### Pitfall 6: Ignoring Algorithm in JWT Validation
 
 Accepting any algorithm in the JWT header, or not explicitly specifying the expected algorithm
-During validation, enables the algorithm confusion attack. Always specify `algorithms=["RS256"]` (or
-Your expected algorithm) explicitly.
+during validation, enables the algorithm confusion attack. Always specify `algorithms=["RS256"]` (or
+your expected algorithm) explicitly.
 
 ### Pitfall 7: Session Fixation
 
 If an application does not regenerate the session ID after authentication, an attacker who knows the
 Pre-authentication session ID can hijack the authenticated session. Always regenerate the session ID
-Upon successful authentication.
+upon successful authentication.
 
 ### Pitfall 8: Storing Secrets in Version Control
 
 Hardcoded API keys, OAuth client secrets, JWT signing keys, and database credentials in source code
-Are exposed to anyone with repository access. Use secret management systems (HashiCorp Vault, AWS
+are exposed to anyone with repository access. Use secret management systems (HashiCorp Vault, AWS
 Secrets Manager, Azure Key Vault) and scan repositories for committed secrets (git-secrets,
 TruffleHog, gitleaks).
 
@@ -688,7 +752,7 @@ Refresh token rotation, or a hybrid approach.
 ### Centralized Identity Provider
 
 A centralized IdP (Okta, Azure AD, Keycloak, Auth0) provides a single point of authentication for
-All applications. This eliminates per-application credential management and enables consistent
+all applications. This eliminates per-application credential management and enables consistent
 Security policies.
 
 ```mermaid
@@ -722,6 +786,8 @@ graph TD
 
 Microservices must authenticate each other. Common patterns:
 
+<div class="table-wrap">
+
 | Pattern              | Mechanism                          | Complexity | Revocation               |
 | -------------------- | ---------------------------------- | ---------- | ------------------------ |
 | Shared secret        | API key, HMAC                      | Low        | Rotation required        |
@@ -730,9 +796,13 @@ Microservices must authenticate each other. Common patterns:
 | Service mesh (Istio) | Automatic mTLS via sidecar proxy   | High       | Config-driven            |
 | Broker pattern       | Central auth broker issues tokens  | Medium     | Broker-managed           |
 
+</div>
+
 ### Credential Rotation Strategy
 
 All credentials should be rotated regularly. The strategy depends on the credential type:
+
+<div class="table-wrap">
 
 | Credential Type        | Rotation Frequency                     | Automation Approach                |
 | ---------------------- | -------------------------------------- | ---------------------------------- |
@@ -743,9 +813,13 @@ All credentials should be rotated regularly. The strategy depends on the credent
 | Service account tokens | 24 hours                               | Short-lived tokens from IdP        |
 | Encryption keys        | Annual (or on suspicion of compromise) | Key management service (KMS)       |
 
+</div>
+
 ### Passwordless Authentication
 
 Passwordless authentication eliminates passwords entirely, replacing them with stronger factors:
+
+<div class="table-wrap">
 
 | Method            | How It Works                               | Security Level |
 | ----------------- | ------------------------------------------ | -------------- |
@@ -753,6 +827,8 @@ Passwordless authentication eliminates passwords entirely, replacing them with s
 | Magic links       | One-time login link sent to verified email | Medium         |
 | Push notification | Mobile app notification with approve/deny  | High           |
 | SMS OTP           | One-time code via SMS (deprecated)         | Low            |
+
+</div>
 
 Passkeys (synced FIDO2 credentials) are the most promising approach for consumer applications. They
 Use public-key cryptography stored in the device's secure enclave, synced across devices via cloud
@@ -801,12 +877,16 @@ Identity federation allows users authenticated by one IdP to access resources in
 Organization without creating a new account. This is common in B2B scenarios, academic institutions,
 And government agencies.
 
+<div class="table-wrap">
+
 | Federation Protocol | Use Case               | Example                                   |
 | ------------------- | ---------------------- | ----------------------------------------- |
 | SAML 2.0            | Enterprise B2B         | Company A employees access Company B app  |
 | OIDC Federation     | Cloud-to-cloud         | AWS accepts Google Workspace identities   |
 | InCommon            | Academic/research      | University single sign-on across services |
 | eduGAIN             | Research and education | Cross-border federated access             |
+
+</div>
 :::
 
 :::note
@@ -825,9 +905,6 @@ including key principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Intuition
 

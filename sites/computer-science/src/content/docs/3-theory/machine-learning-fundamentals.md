@@ -25,7 +25,9 @@ categories:
 
 Given features $\mathbf{x} \in \mathbb{R}^d$, predict a continuous target $y$:
 
-$$\hat{y} = \mathbf{w}^T \mathbf{x} + b = w_1 x_1 + w_2 x_2 + \cdots + w_d x_d + b$$
+$$
+\hat{y} = \mathbf{w}^T \mathbf{x} + b = w_1 x_1 + w_2 x_2 + \cdots + w_d x_d + b
+$$
 
 In matrix form (with bias absorbed): $\hat{y} = \mathbf{w}^T \mathbf{x}$ where
 $\mathbf{x} = [1, x_1, \ldots, x_d]^T$.
@@ -34,11 +36,15 @@ $\mathbf{x} = [1, x_1, \ldots, x_d]^T$.
 
 Minimize the **mean squared error**:
 
-$$\mathcal{L}(\mathbf{w}) = \frac{1}{n} \sum_{i=1}^{n} (y_i - \mathbf{w}^T \mathbf{x}_i)^2 = \frac{1}{n} \|\mathbf{y} - X\mathbf{w}\|^2$$
+$$
+\mathcal{L}(\mathbf{w}) = \frac{1}{n} \sum_{i=1}^{n} (y_i - \mathbf{w}^T \mathbf{x}_i)^2 = \frac{1}{n} \|\mathbf{y} - X\mathbf{w}\|^2
+$$
 
 **Closed-form solution:**
 
-$$\mathbf{w}^* = (X^T X)^{-1} X^T \mathbf{y}$$
+$$
+\mathbf{w}^* = (X^T X)^{-1} X^T \mathbf{y}
+$$
 
 **Assumptions:**
 
@@ -85,33 +91,47 @@ SGD(X, y, α, epochs, batch_size):
 
 Binary classification: predict $P(y = 1 | \mathbf{x})$:
 
-$$\hat{y} = \sigma(\mathbf{w}^T \mathbf{x} + b) = \frac{1}{1 + e^{-(\mathbf{w}^T \mathbf{x} + b)}}$$
+$$
+\hat{y} = \sigma(\mathbf{w}^T \mathbf{x} + b) = \frac{1}{1 + e^{-(\mathbf{w}^T \mathbf{x} + b)}}
+$$
 
 **Sigmoid function $\sigma(z)$:** Maps any real number to $(0, 1)$.
 
-$$\sigma(z) = \frac{1}{1+e^{-z}}, \quad \sigma"(z) = \sigma(z)(1 - \sigma(z))$$
+$$
+\sigma(z) = \frac{1}{1+e^{-z}}, \quad \sigma"(z) = \sigma(z)(1 - \sigma(z))
+$$
 
 ### 2.2 Loss Function: Binary Cross-Entropy
 
-$$\mathcal{L} = -\frac{1}{n} \sum_{i=1}^{n} \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right]$$
+$$
+\mathcal{L} = -\frac{1}{n} \sum_{i=1}^{n} \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right]
+$$
 
 **Gradient:**
 
-$$\nabla_{\mathbf{w}} \mathcal{L} = \frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - y_i) \mathbf{x}_i$$
+$$
+\nabla_{\mathbf{w}} \mathcal{L} = \frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - y_i) \mathbf{x}_i
+$$
 
 **Update rule:**
 
-$$\mathbf{w} \leftarrow \mathbf{w} - \alpha \cdot \frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - y_i) \mathbf{x}_i$$
+$$
+\mathbf{w} \leftarrow \mathbf{w} - \alpha \cdot \frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - y_i) \mathbf{x}_i
+$$
 
 ### 2.3 Multi-Class: Softmax Regression
 
 For $K$ classes, use the **softmax** function:
 
-$$P(y = k | \mathbf{x}) = \frac{e^{z_k}}{\sum_{j=1}^{K} e^{z_j}}, \quad z_k = \mathbf{w}_k^T \mathbf{x} + b_k$$
+$$
+P(y = k | \mathbf{x}) = \frac{e^{z_k}}{\sum_{j=1}^{K} e^{z_j}}, \quad z_k = \mathbf{w}_k^T \mathbf{x} + b_k
+$$
 
 **Loss: Categorical cross-entropy:**
 
-$$\mathcal{L} = -\frac{1}{n} \sum_{i=1}^{n} \sum_{k=1}^{K} y_{ik} \log(\hat{y}_{ik})$$
+$$
+\mathcal{L} = -\frac{1}{n} \sum_{i=1}^{n} \sum_{k=1}^{K} y_{ik} \log(\hat{y}_{ik})
+$$
 
 where $y_{ik} = 1$ if example $i$ belongs to class $k$, else $0$.
 
@@ -129,15 +149,21 @@ A tree where:
 
 **Gini impurity:**
 
-$$\text{Gini}(S) = 1 - \sum_{k=1}^{K} p_k^2$$
+$$
+\text{Gini}(S) = 1 - \sum_{k=1}^{K} p_k^2
+$$
 
 where $p_k$ is the proportion of class $k$ in set $S$.
 
 **Information gain (Entropy):**
 
-$$H(S) = -\sum_{k=1}^{K} p_k \log_2 p_k$$
+$$
+H(S) = -\sum_{k=1}^{K} p_k \log_2 p_k
+$$
 
-$$\text{Gain}(S, A) = H(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} H(S_v)$$
+$$
+\text{Gain}(S, A) = H(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} H(S_v)
+$$
 
 **Choose the feature and threshold that maximizes gain (or minimizes impurity).**
 
@@ -145,7 +171,9 @@ $$\text{Gain}(S, A) = H(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} H(S
 
 **Reduction in variance:**
 
-$$\text{Split Score} = \text{Var}(S) - \sum_{v} \frac{|S_v|}{|S|} \text{Var}(S_v)$$
+$$
+\text{Split Score} = \text{Var}(S) - \sum_{v} \frac{|S_v|}{|S|} \text{Var}(S_v)
+$$
 
 ### 3.4 Training Algorithm
 
@@ -180,7 +208,9 @@ BUILD_TREE(data, max_depth, min_samples):
 
 Grow full tree, then prune branches:
 
-$$R_\alpha(T) = R(T) + \alpha |T|$$
+$$
+R_\alpha(T) = R(T) + \alpha |T|
+$$
 
 where $R(T)$ = training error, $|T|$ = number of leaves, $\alpha$ = complexity parameter.
 
@@ -220,7 +250,9 @@ GRADIENT_BOOST(data, n_estimators, lr):
 
 A single neuron:
 
-$$\hat{y} = \sigma(\mathbf{w}^T \mathbf{x} + b) = \sigma\left(\sum_{j=1}^{d} w_j x_j + b\right)$$
+$$
+\hat{y} = \sigma(\mathbf{w}^T \mathbf{x} + b) = \sigma\left(\sum_{j=1}^{d} w_j x_j + b\right)
+$$
 
 **Limitation:** Can only learn linearly separable functions (single-layer cannot solve XOR).
 
@@ -238,6 +270,8 @@ Layer l=2 (output):  z[2] = W[2]a[1] + b[2]
 
 ### 4.3 Activation Functions
 
+<div class="table-wrap">
+
 | Function       | Formula                                    | Range               | Properties                 |
 | -------------- | ------------------------------------------ | ------------------- | -------------------------- |
 | **Sigmoid**    | $\sigma(z) = \frac{1}{1+e^{-z}}$           | $(0, 1)$            | Smooth, vanishing gradient |
@@ -245,6 +279,8 @@ Layer l=2 (output):  z[2] = W[2]a[1] + b[2]
 | **ReLU**       | $\text{ReLU}(z) = \max(0, z)$              | $[0, \infty)$       | Fast, but "dead neurons"   |
 | **Leaky ReLU** | $\max(\alpha z, z)$, $\alpha = 0.01$       | $(-\infty, \infty)$ | Fixes dead neurons         |
 | **Softmax**    | $\frac{e^{z_k}}{\sum_j e^{z_j}}$           | $(0, 1)^K$          | For multi-class output     |
+
+</div>
 
 ### 4.4 Backpropagation
 
@@ -295,35 +331,49 @@ practical.
 
 **Mean Squared Error (MSE):**
 
-$$\mathcal{L}_{\text{MSE}} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$$
+$$
+\mathcal{L}_{\text{MSE}} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+$$
 
 Sensitive to outliers (quadratic penalty).
 
 **Mean Absolute Error (MAE):**
 
-$$\mathcal{L}_{\text{MAE}} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$$
+$$
+\mathcal{L}_{\text{MAE}} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
+$$
 
 More robust to outliers (linear penalty).
 
 **Huber loss:** MSE for small errors, MAE for large errors:
 
-$$\mathcal{L}_\delta = \begin{cases} \frac{1}{2}(y - \hat{y})^2 & \text{if } |y - \hat{y}| \leq \delta \\ \delta(|y - \hat{y}| - \frac{\delta}{2}) & \text{otherwise} \end{cases}$$
+$$
+\mathcal{L}_\delta = \begin{cases} \frac{1}{2}(y - \hat{y})^2 & \text{if } |y - \hat{y}| \leq \delta \\ \delta(|y - \hat{y}| - \frac{\delta}{2}) & \text{otherwise} \end{cases}
+$$
 
 ### 5.2 Classification Losses
 
 **Binary Cross-Entropy:**
 
-$$\mathcal{L}_{\text{BCE}} = -\frac{1}{n} \sum_{i=1}^{n} [y_i \log \hat{y}_i + (1 - y_i) \log(1 - \hat{y}_i)]$$
+$$
+\mathcal{L}_{\text{BCE}} = -\frac{1}{n} \sum_{i=1}^{n} [y_i \log \hat{y}_i + (1 - y_i) \log(1 - \hat{y}_i)]
+$$
 
 **Categorical Cross-Entropy:**
 
-$$\mathcal{L}_{\text{CE}} = -\sum_{k=1}^{K} y_k \log \hat{y}_k$$
+$$
+\mathcal{L}_{\text{CE}} = -\sum_{k=1}^{K} y_k \log \hat{y}_k
+$$
 
 **Hinge loss (SVM):**
 
-$$\mathcal{L}_{\text{hinge}} = \max(0, 1 - y \cdot \hat{y})$$
+$$
+\mathcal{L}_{\text{hinge}} = \max(0, 1 - y \cdot \hat{y})
+$$
 
 ### 5.3 Loss Selection Guide
+
+<div class="table-wrap">
 
 | Task        | Loss Function             |
 | ----------- | ------------------------- |
@@ -332,31 +382,41 @@ $$\mathcal{L}_{\text{hinge}} = \max(0, 1 - y \cdot \hat{y})$$
 | Multi-class | Categorical Cross-Entropy |
 | Imbalanced  | Focal loss, weighted CE   |
 
+</div>
+
 ## 6. Regularization
 
 ### 6.1 L1 Regularization (Lasso)
 
-$$\mathcal{L}_{\text{L1}} = \mathcal{L}_{\text{base}} + \lambda \sum_{j=1}^{d} |w_j|$$
+$$
+\mathcal{L}_{\text{L1}} = \mathcal{L}_{\text{base}} + \lambda \sum_{j=1}^{d} |w_j|
+$$
 
 **Effect:** Produces **sparse** solutions (drives some weights to exactly zero). Useful for feature
 selection.
 
 ### 6.2 L2 Regularization (Ridge)
 
-$$\mathcal{L}_{\text{L2}} = \mathcal{L}_{\text{base}} + \lambda \sum_{j=1}^{d} w_j^2 = \mathcal{L}_{\text{base}} + \lambda \|\mathbf{w}\|^2$$
+$$
+\mathcal{L}_{\text{L2}} = \mathcal{L}_{\text{base}} + \lambda \sum_{j=1}^{d} w_j^2 = \mathcal{L}_{\text{base}} + \lambda \|\mathbf{w}\|^2
+$$
 
 **Effect:** Penalizes large weights. Shrinks all weights toward zero but rarely makes them exactly
 zero.
 
 **Update rule (L2):**
 
-$$\mathbf{w} \leftarrow \mathbf{w} - \alpha \left(\nabla \mathcal{L} + 2\lambda \mathbf{w}\right)$$
+$$
+\mathbf{w} \leftarrow \mathbf{w} - \alpha \left(\nabla \mathcal{L} + 2\lambda \mathbf{w}\right)
+$$
 
 ### 6.3 Elastic Net
 
 Combines L1 and L2:
 
-$$\mathcal{L} = \mathcal{L}_{\text{base}} + \lambda_1 \|\mathbf{w}\|_1 + \lambda_2 \|\mathbf{w}\|^2$$
+$$
+\mathcal{L} = \mathcal{L}_{\text{base}} + \lambda_1 \|\mathbf{w}\|_1 + \lambda_2 \|\mathbf{w}\|^2
+$$
 
 Benefits of both: sparse features + stable coefficients.
 
@@ -400,6 +460,8 @@ EARLY_STOPPING(train_fn, patience):
 
 ### 6.6 Regularization Comparison
 
+<div class="table-wrap">
+
 | Method         | Effect                      | When to Use                     |
 | -------------- | --------------------------- | ------------------------------- |
 | L1 (Lasso)     | Sparsity, feature selection | Many irrelevant features        |
@@ -408,14 +470,20 @@ EARLY_STOPPING(train_fn, patience):
 | Dropout        | Prevents co-adaptation      | Neural networks                 |
 | Early stopping | Prevents overfitting        | All models, especially NNs      |
 
+</div>
+
 ## 7. Evaluation Metrics
 
 ### 7.1 Confusion Matrix
+
+<div class="table-wrap">
 
 |                     | Predicted Positive  | Predicted Negative  |
 | ------------------- | ------------------- | ------------------- |
 | **Actual Positive** | TP (True Positive)  | FN (False Negative) |
 | **Actual Negative** | FP (False Positive) | TN (True Negative)  |
+
+</div>
 
 ### 7.2 Classification Metrics
 
@@ -429,13 +497,17 @@ Misleading with imbalanced classes (e.g., 99% negative: predict all negative →
 
 **F1 Score:** Harmonic mean of precision and recall:
 
-$$F_1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$$
+$$
+F_1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+$$
 
 **Specificity:** $\frac{TN}{TN + FP}$ (of all actual negatives, how many were correctly identified?)
 
 **$F_\beta$ Score:** Weighted harmonic mean (gives $\beta$ times more importance to recall):
 
-$$F_\beta = (1 + \beta^2) \cdot \frac{\text{Precision} \cdot \text{Recall}}{(\beta^2 \cdot \text{Precision}) + \text{Recall}}$$
+$$
+F_\beta = (1 + \beta^2) \cdot \frac{\text{Precision} \cdot \text{Recall}}{(\beta^2 \cdot \text{Precision}) + \text{Recall}}
+$$
 
 ### 7.3 ROC Curve and AUC
 
@@ -461,7 +533,9 @@ randomly chosen negative example.
 
 **$R^2$ (Coefficient of Determination):**
 
-$$R^2 = 1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2}$$
+$$
+R^2 = 1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2}
+$$
 
 $R^2 = 1$: Perfect fit. $R^2 = 0$: Predicts mean. $R^2 < 0$: Worse than predicting mean.
 
@@ -491,21 +565,33 @@ K_FOLD_CV(model_fn, X, y, k):
 
 For a model predicting $\hat{f}(\mathbf{x})$ of true function $f(\mathbf{x})$ with noise $\epsilon$:
 
-$$\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Error}$$
+$$
+\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Error}
+$$
 
 where:
 
-$$\text{Bias}^2 = (\mathbb{E}[\hat{f}(\mathbf{x})] - f(\mathbf{x}))^2$$
-$$\text{Variance} = \mathbb{E}[(\hat{f}(\mathbf{x}) - \mathbb{E}[\hat{f}(\mathbf{x})])^2]$$
-$$\text{Irreducible Error} = \sigma^2_\epsilon$$
+$$
+\text{Bias}^2 = (\mathbb{E}[\hat{f}(\mathbf{x})] - f(\mathbf{x}))^2
+$$
+$$
+\text{Variance} = \mathbb{E}[(\hat{f}(\mathbf{x}) - \mathbb{E}[\hat{f}(\mathbf{x})])^2]
+$$
+$$
+\text{Irreducible Error} = \sigma^2_\epsilon
+$$
 
 ### 8.2 Tradeoff
+
+<div class="table-wrap">
 
 | Model Complexity | Bias     | Variance | Total Error |
 | ---------------- | -------- | -------- | ----------- |
 | Low (underfit)   | High     | Low      | High        |
 | Optimal          | Moderate | Moderate | Minimal     |
 | High (overfit)   | Low      | High     | High        |
+
+</div>
 
 ### 8.3 Overfitting and Underfitting
 
@@ -591,17 +677,6 @@ using k=3. **Solution:** Distances: to (1,1)=sqrt(2)=1.41 (A), to (1,3)=sqrt(2)=
 on tie-breaking; any combination of 3 points yields either 2A+1B or 2B+1A. The point (2,2) lies
 equidistant from all training data, so the classification is ambiguous.
 
-
-```mermaid
-flowchart TD
-    A[Machine Learning Fundamentals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Linear regression** (OLS, gradient descent) predicts continuous targets; **logistic regression**
@@ -624,11 +699,15 @@ Machine learning finds patterns in data without explicit programming. Supervised
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Link                                                        |
 | ------------------- | ----------------------------------------------------------- |
 | Algorithms Overview | View         |
 | Complexity Theory   | [View](/1-algorithms/complexity-theory/) |
 | Algorithm Design    | [View](/1-algorithms/algorithm-design/)  |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

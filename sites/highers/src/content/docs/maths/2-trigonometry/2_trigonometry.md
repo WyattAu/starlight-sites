@@ -33,7 +33,7 @@ $$
 $$
 
 On the unit circle (radius 1), the point at angle $\theta$ from the positive $x$-axis has
-Coordinates $(\cos\theta, \sin\theta)$. This definition extends the trig functions to all real
+coordinates $(\cos\theta, \sin\theta)$. This definition extends the trig functions to all real
 Angles, not just those in $[0, \pi/2]$.
 
 **Key Identity:**
@@ -128,7 +128,7 @@ $$
 **Proof of $\cos(A + B)$.** Consider two points on the unit circle: $P$ at angle $A$ with
 Coordinates $(\cos A, \sin A)$ And $Q$ at angle $-(A+B)$ with coordinates $(\cos(A+B), -\sin(A+B))$.
 Rotating the entire figure by angle $A$ maps $P$ to $(1, 0)$ and $Q$ to The point at angle
-$-B$Namely $(\cos B, -\sin B)$. Since rotation preserves distances:
+$-B$ Namely $(\cos B, -\sin B)$. Since rotation preserves distances:
 
 $$
 [\cos(A+B) - \cos A]^2 + [-\sin(A+B) - \sin A]^2 = (\cos B - 1)^2 + (-\sin B)^2
@@ -152,7 +152,7 @@ $$
 $$
 
 The three forms of $\cos 2A$ are all useful in different contexts. Use $\cos 2A = 2\cos^2 A - 1$
-When everything is in terms of $\cos$ And $\cos 2A = 1 - 2\sin^2 A$ when everything is in terms of
+when everything is in terms of $\cos$ And $\cos 2A = 1 - 2\sin^2 A$ when everything is in terms of
 $\sin$.
 
 **Proof that $\sin 2A = 2\sin A \cos A$.**
@@ -220,7 +220,7 @@ $\blacksquare$
 ### Solving Trigonometric Equations
 
 When solving trig equations in a given interval, always check for all solutions. The periodicity of
-Trig functions means there are multiple solutions.
+trig functions means there are multiple solutions.
 
 :::caution
 Function equals zero separately. Dividing by $\cos x$ loses the solutions where $\cos x = 0$.
@@ -251,7 +251,9 @@ Solutions: $x = \dfrac{\pi}{6}, \dfrac{\pi}{2}, \dfrac{5\pi}{6}, \dfrac{3\pi}{2}
 
 Let $u = \cos x$. Then $3u^2 - u - 2 = 0$.
 
-$$(3u + 2)(u - 1) = 0$$
+$$
+(3u + 2)(u - 1) = 0
+$$
 
 $u = -\dfrac{2}{3}$ or $u = 1$.
 
@@ -278,7 +280,7 @@ $$
 
 $\sin x = 0$: $x = 0, \pi$.
 
-$2\sin x - 3 = 0$: $\sin x = 1.5$Which has no solution since $|\sin x| \le 1$.
+$2\sin x - 3 = 0$: $\sin x = 1.5$ Which has no solution since $|\sin x| \le 1$.
 
 Solutions: $x = 0, \pi$.
 
@@ -298,7 +300,9 @@ $$
 2\cos^2 x - 3\cos x + 1 = 0
 $$
 
-$$(2\cos x - 1)(\cos x - 1) = 0$$
+$$
+(2\cos x - 1)(\cos x - 1) = 0
+$$
 
 $\cos x = \frac{1}{2}$: $x = \frac{\pi}{3}, \frac{5\pi}{3}$.
 
@@ -364,7 +368,7 @@ angles Must be less than $180^\circ$).
 ### Wave Function (R-Addition Formula)
 
 An expression of the form $a\sin x + b\cos x$ can be written as $R\sin(x + \alpha)$ or
-$R\cos(x - \alpha)$Where:
+$R\cos(x - \alpha)$ Where:
 
 $$
 R = \sqrt{a^2 + b^2}, \quad \alpha = \arctan\left(\frac{b}{a}\right)
@@ -379,7 +383,9 @@ $R = \sqrt{a^2 + b^2}$. Dividing: $\tan\alpha = b/a$.
 
 **Example:** Express $3\sin x + 4\cos x$ in the form $R\sin(x + \alpha)$.
 
-$$R = \sqrt{9 + 16} = 5$$
+$$
+R = \sqrt{9 + 16} = 5
+$$
 
 $$
 \alpha = \arctan\left(\frac{4}{3}\right)
@@ -389,7 +395,7 @@ $$
 3\sin x + 4\cos x = 5\sin\left(x + \arctan\left(\frac{4}{3}\right)\right)
 $$
 
-Maximum value is $5$Occurring when $\sin(x + \alpha) = 1$.
+Maximum value is $5$ Occurring when $\sin(x + \alpha) = 1$.
 
 **Example:** Find the maximum value of $2\sin\theta - \sqrt{3}\cos\theta$ and the smallest positive
 Value of $\theta$ at which it occurs.
@@ -405,7 +411,7 @@ $$
 Where $\tan\alpha = \dfrac{-\sqrt{3}}{2}$ So
 $\alpha = -\arctan\left(\dfrac{\sqrt{3}}{2}\right) \approx -0.714 \mathrm{ rad$.
 
-Maximum value is $\sqrt{7}$Occurring when $\sin(\theta + \alpha) = 1$I.e.,
+Maximum value is $\sqrt{7}$ Occurring when $\sin(\theta + \alpha) = 1$ I.e.,
 $\theta + \alpha = \dfrac{\pi}{2}$ So
 $\theta = \dfrac{\pi}{2} + \arctan\left(\dfrac{\sqrt{3}}{2}\right) \approx 2.285 \mathrm{ rad$.
 
@@ -431,7 +437,7 @@ $a\sin x + b\cos x = c$.
 
 **Example:** Solve $3\sin x + 4\cos x = 5$ for $0 \le x \lt 2\pi$.
 
-Since $R = 5$We have $5\sin(x + \alpha) = 5$ So $\sin(x + \alpha) = 1$.
+Since $R = 5$ We have $5\sin(x + \alpha) = 5$ So $\sin(x + \alpha) = 1$.
 
 $$
 X + \alpha = \frac{\pi}{2} + 2k\pi
@@ -446,7 +452,7 @@ $x \approx 0.644 + 2\pi \approx 6.927$ (outside range).
 
 There is exactly one solution in $[0, 2\pi)$.
 
-Note that if $|c| > R = \sqrt{a^2 + b^2}$The equation has no real solutions, because the maximum Of
+Note that if $|c| > R = \sqrt{a^2 + b^2}$ The equation has no real solutions, because the maximum Of
 $a\sin x + b\cos x$ is $R$.
 
 ---
@@ -485,7 +491,7 @@ Gradient of AB: $m_{AB} = \dfrac{3 - 5}{8 - 2} = -\dfrac{1}{3}$.
 
 Gradient of perpendicular bisector: $m = 3$.
 
-Equation: $y - 4 = 3(x - 5)$I.e., $y = 3x - 11$.
+Equation: $y - 4 = 3(x - 5)$ I.e., $y = 3x - 11$.
 
 ### Circles
 
@@ -497,18 +503,22 @@ $$
 
 Expanded form: $x^2 + y^2 - 2ax - 2by + (a^2 + b^2 - r^2) = 0$.
 
-Given the expanded form $x^2 + y^2 + 2gx + 2fy + c = 0$The centre is $(-g, -f)$ and the radius is
+Given the expanded form $x^2 + y^2 + 2gx + 2fy + c = 0$ The centre is $(-g, -f)$ and the radius is
 $\sqrt{g^2 + f^2 - c}$ (provided $g^2 + f^2 - c > 0$).
 
 **Example:** Find the centre and radius of the circle $x^2 + y^2 - 6x + 4y - 12 = 0$.
 
 Complete the square:
 
-$$(x^2 - 6x + 9) + (y^2 + 4y + 4) = 12 + 9 + 4$$
+$$
+(x^2 - 6x + 9) + (y^2 + 4y + 4) = 12 + 9 + 4
+$$
 
-$$(x - 3)^2 + (y + 2)^2 = 25$$
+$$
+(x - 3)^2 + (y + 2)^2 = 25
+$$
 
-Centre $(3, -2)$Radius $5$.
+Centre $(3, -2)$ Radius $5$.
 
 **Example:** Find the equation of the circle with centre $(2, -3)$ that passes through $(5, 1)$.
 
@@ -516,7 +526,9 @@ $$
 R^2 = (5 - 2)^2 + (1 + 3)^2 = 9 + 16 = 25
 $$
 
-$$(x - 2)^2 + (y + 3)^2 = 25$$
+$$
+(x - 2)^2 + (y + 3)^2 = 25
+$$
 
 **Tangent to a Circle:**
 
@@ -536,21 +548,21 @@ Gradient of radius from $(2, -1)$ to $(5, 3)$: $m_r = \dfrac{3 - (-1)}{5 - 2} = 
 
 Gradient of tangent: $m_t = -\dfrac{3}{4}$.
 
-Equation: $y - 3 = -\dfrac{3}{4}(x - 5)$I.e., $4y - 12 = -3x + 15$Or $3x + 4y - 27 = 0$.
+Equation: $y - 3 = -\dfrac{3}{4}(x - 5)$ I.e., $4y - 12 = -3x + 15$ Or $3x + 4y - 27 = 0$.
 
 **Example:** Find the equation of the tangent to $x^2 + y^2 + 4x - 6y + 9 = 0$ at the point
 $(-2, 3)$.
 
-Complete the square: $(x + 2)^2 + (y - 3)^2 = 4$. Centre $(-2, 3)$Radius $2$.
+Complete the square: $(x + 2)^2 + (y - 3)^2 = 4$. Centre $(-2, 3)$ Radius $2$.
 
 Since $(-2, 3)$ is the centre, not a point on the circle, we must check:
 $(-2+2)^2 + (3-3)^2 = 0 \ne 4$. The point $(-2, 3)$ is inside the circle, so there is no tangent
-From this point to the circle. The point must lie **on** the circle for a tangent to exist.
+from this point to the circle. The point must lie **on** the circle for a tangent to exist.
 
 ### Intersection of Line and Circle
 
 Substitute the line equation into the circle equation and solve the resulting quadratic. The
-Discriminant of the resulting quadratic tells you:
+discriminant of the resulting quadratic tells you:
 
 - $\Delta > 0$: two intersection points (secant)
 - $\Delta = 0$: one intersection point (tangent)
@@ -570,9 +582,13 @@ $$
 5x^2 + 4x - 9 = 0
 $$
 
-$$(5x + 9)(x - 1) = 0$$
+$$
+(5x + 9)(x - 1) = 0
+$$
 
-$$x = -\frac{9}{5} \mathrm{ or  x = 1$$
+$$
+x = -\frac{9}{5} \mathrm{ or  x = 1
+$$
 
 When $x = 1$: $y = 3$. When $x = -\dfrac{9}{5}$: $y = -\dfrac{13}{5}$.
 
@@ -589,7 +605,7 @@ $$
 **Proof.** Let $P = (x_0, y_0)$ and let $Q$ be the foot of the perpendicular from $P$ to the line.
 The line through $P$ perpendicular to $ax + by + c = 0$ has direction $(a, b)$ So its parametric Form
 is $(x_0 + at, y_0 + bt)$. Substituting into the line equation:
-$a(x_0 + at) + b(y_0 + bt) + c = 0$Giving $t = -\frac{ax_0 + by_0 + c}{a^2 + b^2}$. The distance Is
+$a(x_0 + at) + b(y_0 + bt) + c = 0$ Giving $t = -\frac{ax_0 + by_0 + c}{a^2 + b^2}$. The distance Is
 $|t|\sqrt{a^2 + b^2} = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}$. $\blacksquare$
 
 **Example:** Find the distance from $(3, 2)$ to the line $4x + 3y - 5 = 0$.
@@ -647,16 +663,22 @@ $L_2$: $\mathbf{r} = (3, 1, -1) + t(1, -1, 3)$
 
 Equate coordinates:
 
-$$1 + 2s = 3 + t \quad (1)$$
+$$
+1 + 2s = 3 + t \quad (1)
+$$
 
-$$s = 1 - t \quad (2)$$
+$$
+s = 1 - t \quad (2)
+$$
 
-$$2 - s = -1 + 3t \quad (3)$$
+$$
+2 - s = -1 + 3t \quad (3)
+$$
 
-From (2): $s = 1 - t$. Substitute into (1): $1 + 2(1 - t) = 3 + t$ So $3 - 2t = 3 + t$Giving $t = 0$,
+From (2): $s = 1 - t$. Substitute into (1): $1 + 2(1 - t) = 3 + t$ So $3 - 2t = 3 + t$ Giving $t = 0$,
 $s = 1$.
 
-Check (3): $2 - 1 = -1 + 0$I.e., $1 = -1$. This is false, so the lines are **skew**.
+Check (3): $2 - 1 = -1 + 0$ I.e., $1 = -1$. This is false, so the lines are **skew**.
 
 ### Distance from a Point to a Line in 3D
 
@@ -743,25 +765,25 @@ See the examples integrated throughout the sections above.
 1. **Degrees vs radians:** Always check which units are being used. Calculus requires radians. If a
    question gives angles in degrees, convert before differentiating or integrating.
 
-2. **Forgetting to check the domain:** When solving $\cos x = -\dfrac{2}{3}$There are two solutions
+2. **Forgetting to check the domain:** When solving $\cos x = -\dfrac{2}{3}$ There are two solutions
    in $[0, 2\pi)$: one in the second quadrant and one in the third quadrant.
 
 3. **Sign errors in the wave function:** When writing $a\sin x + b\cos x = R\sin(x + \alpha)$ ensure
    $\alpha$ has the correct sign. The quadrant of $\alpha$ depends on the signs of $a$ and $b$.
 
 4. **Incorrectly completing the square for circles:** Remember to add the constant terms to both
-   sides. For $x^2 + y^2 - 6x + 4y - 12 = 0$You add 9 and 4 to both sides.
+   sides. For $x^2 + y^2 - 6x + 4y - 12 = 0$ You add 9 and 4 to both sides.
 
 5. **Assuming lines in 3D always intersect:** Always check all three coordinates when testing for
    intersection. Even if two coordinates match, the third may not.
 
-6. **Dividing by zero in trig equations:** When you factor and divide by $\cos x$, $\sin x$Or
-   $\tan x$You lose solutions. Always consider the case where the factor equals zero separately.
+6. **Dividing by zero in trig equations:** When you factor and divide by $\cos x$, $\sin x$ Or
+   $\tan x$ You lose solutions. Always consider the case where the factor equals zero separately.
 
 7. **Using the wrong form of $\cos 2A$:** All three forms are equivalent, but using the wrong one
    for the given context makes the algebra much harder.
 
-8. **Confusing the ambiguous case of the sine rule:** When $\sin A = k$ where $0 < k < 1$There are
+8. **Confusing the ambiguous case of the sine rule:** When $\sin A = k$ where $0 < k < 1$ There are
    two possible angles ($A$ and $180° - A$). Both may or may not be valid in the triangle. Always
    check the sum of angles.
 
@@ -822,16 +844,6 @@ See the examples integrated throughout the sections above.
     values of $m$.
 
 16. Express $\cos 4\theta$ in terms of $\cos\theta$ using double angle formulae.
-
-```mermaid
-flowchart TD
-    A[2_Trigonometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

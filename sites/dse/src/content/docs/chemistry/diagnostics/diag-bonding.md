@@ -45,7 +45,7 @@ why this prediction is incorrect. [2 marks]
 Total valence electrons = $7 + 3 \times 7 = 28$.
 
 Lewis structure: $Cl$ forms three single bonds with three $F$ atoms (using 6 electrons). Remaining
-electrons = $28 - 6 = 22$I.e. 11 lone pairs. Each $F$ gets 3 lone pairs (using $3 \times 6 = 18$
+electrons = $28 - 6 = 22$ I.e. 11 lone pairs. Each $F$ gets 3 lone pairs (using $3 \times 6 = 18$
 electrons). Remaining on $Cl$: $22 - 18 = 4$ electrons = 2 lone pairs.
 
 Electron domain geometry: **trigonal bipyramidal** (5 domains: 3 bonding pairs + 2 lone pairs).
@@ -92,7 +92,7 @@ Consider the following molecules: $CF_{4}$$CH_{2}F_{2}$$CHF_{3}$.
 molecular geometry. [4 marks]
 
 (c) Explain why $CF_{4}$ has a boiling point of $-128\degree C$ while $CH_{2}F_{2}$ has a boiling
-point of $-52\degree C$Even though $CF_{4}$ has a higher molar mass. [3 marks]
+point of $-52\degree C$ Even though $CF_{4}$ has a higher molar mass. [3 marks]
 
 ---
 
@@ -120,7 +120,7 @@ the $C-H$ dipole, but the cancellation is **not complete** because the magnitude
 dipole $\neq C-H$ dipole). **Polar**.
 
 **$CH_{2}F_{2}$**: Tetrahedral geometry. Two $C-F$ dipoles and two $C-H$ dipoles. The resultant
-dipole depends on the vector sum. In $CH_{2}F_{2}$The $C-F$ and $C-H$ bonds can be arranged such
+dipole depends on the vector sum. In $CH_{2}F_{2}$ The $C-F$ and $C-H$ bonds can be arranged such
 that the dipole moments do not fully cancel (the molecule has $C_{2v}$ symmetry, not $T_{d}$).
 **Polar**.
 
@@ -203,17 +203,6 @@ exceptionally strong, resulting in a dramatically higher boiling point.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Atoms holding hands:** Chemical bonds are how atoms share or transfer electrons to become more stable. Ionic bonds are like opposites attracting (metal gives electrons to nonmetal); covalent bonds are sharing (nonmetals share electrons).
@@ -228,6 +217,8 @@ flowchart TD
 
 Four substances have the following properties:
 
+<div class="table-wrap">
+
 | Substance | Melting Point ($\degree C$) | Electrical Conductivity (solid) | Electrical Conductivity (molten) | Solubility in Water |
 | --------- | --------------------------- | ------------------------------- | -------------------------------- | ------------------- |
 | $W$       | 801                         | No                              | Yes                              | High                |
@@ -235,9 +226,11 @@ Four substances have the following properties:
 | $Y$       | $-183$                      | No                              | No                               | Slightly soluble    |
 | $Z$       | 1085                        | Yes                             | Yes                              | Insoluble           |
 
+</div>
+
 (a) Identify the type of bonding in each substance. [4 marks]
 
-(b) For substance $W$Explain why it conducts electricity when molten but not when solid. [2 marks]
+(b) For substance $W$ Explain why it conducts electricity when molten but not when solid. [2 marks]
 
 (c) Substance $X$ has a higher melting point than substance $Y$. Explain this difference in terms of
 the types of intermolecular forces present. [3 marks]
@@ -272,7 +265,7 @@ electrons), insoluble in water.
 cannot be conducted. When molten, the ionic lattice breaks down and the ions become **mobile**,
 allowing them to carry charge.
 
-(c) $X$ has a higher melting point than $Y$Indicating **stronger intermolecular forces**. Possible
+(c) $X$ has a higher melting point than $Y$ Indicating **stronger intermolecular forces**. Possible
 explanations:
 
 - $X$ has hydrogen bonding (e.g., a molecule with $O-H$ or $N-H$ groups) while $Y$ only has London
@@ -374,6 +367,8 @@ permanent dipole does not necessarily mean weaker overall IMF.
 
 The bond dissociation energies for selected bonds are:
 
+<div class="table-wrap">
+
 | Bond        | Bond Energy (kJ/mol) |
 | ----------- | -------------------- |
 | $C-C$       | 346                  |
@@ -385,12 +380,16 @@ The bond dissociation energies for selected bonds are:
 | $F-F$       | 158                  |
 | $Cl-Cl$     | 242                  |
 
+</div>
+
 (a) The $C=C$ double bond is **not** exactly twice the $C-C$ single bond energy. Explain why. [2
 marks]
 
 (b) Calculate the enthalpy change for the reaction:
 
-$$CH_{4}(g) + 4Cl_{2}(g) \rightarrow CCl_{4}(g) + 4HCl(g)$$
+$$
+CH_{4}(g) + 4Cl_{2}(g) \rightarrow CCl_{4}(g) + 4HCl(g)
+$$
 
 [3 marks]
 
@@ -427,12 +426,14 @@ Bonds formed (exothermic):
 - $4 \times H-Cl = 4 \times 431 = 1724$ kJ/mol (using $H-Cl = 431$)
 - Total bonds formed = $1308 + 1724 = 3032$ kJ/mol
 
-$$\Delta H = \text{Bonds broken} - \text{Bonds formed} = 2620 - 3032 = -412 \text{ kJ/mol}$$
+$$
+\Delta H = \text{Bonds broken} - \text{Bonds formed} = 2620 - 3032 = -412 \text{ kJ/mol}
+$$
 
 The reaction is exothermic.
 
-(c) In $F_{2}$The fluorine atoms are very small, so the two bonding electrons are very close
-together and experience strong **inter-electronic repulsion**. In $Cl_{2}$The chlorine atoms are
+(c) In $F_{2}$ The fluorine atoms are very small, so the two bonding electrons are very close
+together and experience strong **inter-electronic repulsion**. In $Cl_{2}$ The chlorine atoms are
 larger, so the bonding electrons are further apart and the repulsion is weaker. The small size of
 fluorine also means the lone pairs on each $F$ atom are close to the bonding region, creating
 additional **lone pair-bond pair repulsion** that weakens the $F-F$ bond.

@@ -28,23 +28,33 @@ $B_z = B_0\cos(m\pi x/a)\cos(n\pi y/b)\,e^{i(kz-\omega t)}$.
 
 The transverse fields are determined from $B_z$ via:
 
-$$E_x = \frac{i\omega}{k_c^2}\frac{\partial B_z}{\partial y}, \quad E_y = -\frac{i\omega}{k_c^2}\frac{\partial B_z}{\partial x}$$
+$$
+E_x = \frac{i\omega}{k_c^2}\frac{\partial B_z}{\partial y}, \quad E_y = -\frac{i\omega}{k_c^2}\frac{\partial B_z}{\partial x}
+$$
 
-$$B_x = \frac{-ik}{k_c^2}\frac{\partial B_z}{\partial x}, \quad B_y = \frac{-ik}{k_c^2}\frac{\partial B_z}{\partial y}$$
+$$
+B_x = \frac{-ik}{k_c^2}\frac{\partial B_z}{\partial x}, \quad B_y = \frac{-ik}{k_c^2}\frac{\partial B_z}{\partial y}
+$$
 
 Where $k_c^2 = (m\pi/a)^2 + (n\pi/b)^2$ is the cutoff wavenumber.
 
 **Cutoff frequency:** Waves propagate only when $\omega > \omega_{c,mn}$ where:
 
-$$f_{c,mn} = \frac{c}{2}\sqrt{\left(\frac{m}{a}\right)^2 + \left(\frac{n}{b}\right)^2}$$
+$$
+f_{c,mn} = \frac{c}{2}\sqrt{\left(\frac{m}{a}\right)^2 + \left(\frac{n}{b}\right)^2}
+$$
 
 The dominant (lowest frequency) mode is TE$_{10}$ with $f_{c,10} = c/(2a)$ (for $a > b$).
 
 **Dispersion relation:**
 
-$$k = \sqrt{\frac{\omega^2}{c^2} - k_c^2}, \quad v_{\text{phase} = \frac{\omega}{k} = \frac{c}{\sqrt{1 - (\omega_c/\omega)^2}} > c}$$
+$$
+k = \sqrt{\frac{\omega^2}{c^2} - k_c^2}, \quad v_{\text{phase} = \frac{\omega}{k} = \frac{c}{\sqrt{1 - (\omega_c/\omega)^2}} > c}
+$$
 
-$$v_{\text{group} = \frac{d\omega}{dk} = c\sqrt{1 - \left(\frac{\omega_c}{\omega}\right)^2} < c}$$
+$$
+v_{\text{group} = \frac{d\omega}{dk} = c\sqrt{1 - \left(\frac{\omega_c}{\omega}\right)^2} < c}
+$$
 
 The product $v_p \cdot v_g = c^2$.
 
@@ -52,13 +62,17 @@ The product $v_p \cdot v_g = c^2$.
 
 The wave impedance for TE modes:
 
-$$Z_{\text{TE} = \frac{E_x}{H_y} = \frac{\omega\mu_0}{k} = \frac{Z_0}{\sqrt{1 - (f_c/f)^2}}}$$
+$$
+Z_{\text{TE} = \frac{E_x}{H_y} = \frac{\omega\mu_0}{k} = \frac{Z_0}{\sqrt{1 - (f_c/f)^2}}}
+$$
 
 Where $Z_0 = \sqrt{\mu_0/\varepsilon_0} \approx 377\,\Omega$ is the impedance of free space.
 
 The time-averaged power carried by TE$_{10}$ mode:
 
-$$\langle P \rangle = \frac{ab}{4}E_0^2\frac{\beta}{\omega\mu_0} = \frac{ab}{4Z_{\text{TE}}E_0^2}$$
+$$
+\langle P \rangle = \frac{ab}{4}E_0^2\frac{\beta}{\omega\mu_0} = \frac{ab}{4Z_{\text{TE}}E_0^2}
+$$
 
 Where $\beta = k$ is the propagation constant and $E_0$ is the peak electric field.
 
@@ -67,18 +81,24 @@ Where $\beta = k$ is the propagation constant and $E_0$ is the peak electric fie
 A rectangular cavity of dimensions $a \times b \times d$ supports standing waves at resonant
 frequencies:
 
-$$f_{mnp} = \frac{c}{2}\sqrt{\left(\frac{m}{a}\right)^2 + \left(\frac{n}{b}\right)^2 + \left(\frac{p}{d}\right)^2}$$
+$$
+f_{mnp} = \frac{c}{2}\sqrt{\left(\frac{m}{a}\right)^2 + \left(\frac{n}{b}\right)^2 + \left(\frac{p}{d}\right)^2}
+$$
 
 Where $m, n, p$ are non-negative integers (not all zero). For TM modes, $p \geq 1$; for TE modes,
 $m$ and $n$ cannot both be zero.
 
 **Quality factor:**
 
-$$Q = \frac{\omega \times \text{energy} stored}{\text{power} dissipated} = \frac{2\pi \times \text{energy} stored}{\text{energy} lost per cycle}$$
+$$
+Q = \frac{\omega \times \text{energy} stored}{\text{power} dissipated} = \frac{2\pi \times \text{energy} stored}{\text{energy} lost per cycle}
+$$
 
 For a cavity with conducting walls of conductivity $\sigma$:
 
-$$Q \approx \frac{V}{S\,\delta} \cdot \frac{3}{2}$$
+$$
+Q \approx \frac{V}{S\,\delta} \cdot \frac{3}{2}
+$$
 
 Where $V$ is the cavity volume, $S$ is the surface area, and $\delta$ is the skin depth.
 
@@ -89,7 +109,9 @@ Standard X-band waveguide (WR-90) has $a = 22.86$ mm, $b = 10.16$ mm.
 
 (a) Cutoff frequency of TE$_{10}$ mode:
 
-$$f_{c,10} = \frac{c}{2a} = \frac{3 \times 10^8}{2 \times 22.86 \times 10^{-3}} = \frac{3 \times 10^8}{4.572 \times 10^{-2}} = 6.56\ \text{GHz}$$
+$$
+f_{c,10} = \frac{c}{2a} = \frac{3 \times 10^8}{2 \times 22.86 \times 10^{-3}} = \frac{3 \times 10^8}{4.572 \times 10^{-2}} = 6.56\ \text{GHz}
+$$
 
 (b) At $f = 10$ GHz (within X-band), is TE$_{10}$ the only propagating mode?
 
@@ -103,13 +125,19 @@ for low-loss, distortion-free signal transmission.
 
 (c) Guide wavelength at 10 GHz:
 
-$$\lambda_g = \frac{\lambda}{\sqrt{1 - (f_c/f)^2}} = \frac{30\ \text{mm}{\sqrt{1 - (6.56/10)^2}} = \frac{30}{\sqrt{1 - 0.430}} = \frac{30}{0.755} = 39.7\ \text{mm}}$$
+$$
+\lambda_g = \frac{\lambda}{\sqrt{1 - (f_c/f)^2}} = \frac{30\ \text{mm}{\sqrt{1 - (6.56/10)^2}} = \frac{30}{\sqrt{1 - 0.430}} = \frac{30}{0.755} = 39.7\ \text{mm}}
+$$
 
 (d) Phase and group velocities:
 
-$$v_p = \frac{c}{\sqrt{1 - (f_c/f)^2}} = \frac{3 \times 10^8}{0.755} = 3.97 \times 10^8\ \text{m}/s = 1.32\,c$$
+$$
+v_p = \frac{c}{\sqrt{1 - (f_c/f)^2}} = \frac{3 \times 10^8}{0.755} = 3.97 \times 10^8\ \text{m}/s = 1.32\,c
+$$
 
-$$v_g = c\sqrt{1 - (f_c/f)^2} = 3 \times 10^8 \times 0.755 = 2.27 \times 10^8\ \text{m}/s = 0.756\,c$$
+$$
+v_g = c\sqrt{1 - (f_c/f)^2} = 3 \times 10^8 \times 0.755 = 2.27 \times 10^8\ \text{m}/s = 0.756\,c
+$$
 
 Check: $v_p \times v_g = 1.32c \times 0.756c = c^2$. $\checkmark$
 
@@ -126,11 +154,15 @@ Check: $v_p \times v_g = 1.32c \times 0.756c = c^2$. $\checkmark$
 
 For a circular waveguide of radius $R$, the TE modes have cutoff wavenumbers $k_c = p'_{mn}/R$ where $p'_{mn}$ is the $n$-th root of $J'_m(x) = 0$. The TM modes have $k_c = p_{mn}/R$ where $p_{mn}$ is the $n$-th root of $J_m(x) = 0$.
 
+<div class="table-wrap">
+
 | Mode | Cutoff condition | Lowest root | $f_c$ for $R = 1$ cm |
 | ------ | ----------------- | ------------- | --------------------- |
 | TE$_{11}$ | $J'_1(p'_{11}) = 0$ | $p'_{11} = 1.841$ | 8.79 GHz |
 | TM$_{01}$ | $J_0(p_{01}) = 0$ | $p_{01} = 2.405$ | 11.48 GHz |
 | TE$_{21}$ | $J'_2(p'_{21}) = 0$ | $p'_{21} = 3.054$ | 14.58 GHz |
+
+</div>
 
 The dominant mode in a circular waveguide is TE$_{11}$, with cutoff $f_c = \frac{cp'_{11}}{2\pi R} = \frac{1.841c}{2\pi R}$. Circular waveguides are used in rotating joints and polarisation-sensitive applications because TE$_{11}$ maintains polarisation orientation.
 
@@ -155,7 +187,7 @@ TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inser
 - [Lasers](/4-optics-and-waves/9_lasers/) -- Laser cavities are optical resonators governed by the same standing-wave and quality-factor principles as microwave cavities.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Key Relationships
@@ -174,38 +206,7 @@ TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inser
 - **Fibre optics:** Although optical fibres are dielectric waveguides rather than metallic, the same concepts of modes, cutoff, and dispersion apply.
 - **Radar systems:** Waveguide components (bends, twists, directional couplers) route microwave signals between the transmitter, antenna, and receiver with minimal loss.
 
-
-```mermaid
-flowchart TD
-    A[9_Waveguides And Cavities] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A waveguide is a metallic pipe that channels electromagnetic waves like a flute channels sound. The cutoff frequency acts like a minimum note: waves below this frequency cannot propagate and decay exponentially. Phase velocity exceeding c is not a paradox because it carries no information; the group velocity, which does, stays below c. Cavities are like organ pipes for microwaves, resonating at specific frequencies determined by their dimensions. The quality factor measures how long a cavity rings, like how long a bell sustains its tone after being struck.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

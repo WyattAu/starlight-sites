@@ -20,6 +20,8 @@ description: "The OWASP Top 10 is the de facto standard for web application secu
 The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition
 Reflects the shift toward cloud-native architectures and API-driven applications.
 
+<div class="table-wrap">
+
 | #   | Category                                   | Root Cause                                            |
 | --- | ------------------------------------------ | ----------------------------------------------------- |
 | A01 | Broken Access Control                      | Missing authorization checks, IDOR                    |
@@ -33,6 +35,8 @@ Reflects the shift toward cloud-native architectures and API-driven applications
 | A09 | Security Logging and Monitoring Failures   | Insufficient logging, no alerting                     |
 | A10 | Server-Side Request Forgery (SSRF)         | Server coerced into making unauthorized requests      |
 
+</div>
+
 ## Cross-Site Scripting (XSS)
 
 XSS occurs when an application includes untrusted data in a web page without proper validation or
@@ -40,11 +44,15 @@ Escaping, allowing an attacker to execute scripts in the victim"s browser.
 
 ### Types of XSS
 
+<div class="table-wrap">
+
 | Type      | Storage Location            | Execution Context            | Difficulty |
 | --------- | --------------------------- | ---------------------------- | ---------- |
 | Reflected | URL parameters, form inputs | Response HTML                | Medium     |
 | Stored    | Database, user content      | When content is rendered     | High       |
 | DOM-based | Client-side JavaScript      | Client-side DOM manipulation | Medium     |
+
+</div>
 
 ### Reflected XSS
 
@@ -78,7 +86,7 @@ Compromised content, not just the user who clicks a crafted link.
 ### DOM-based XSS
 
 The vulnerability exists entirely in client-side JavaScript. The payload is manipulated in the DOM
-Without being sent to the server.
+without being sent to the server.
 
 ```javascript
 // Vulnerable: reading from location.hash and inserting into DOM
@@ -90,6 +98,8 @@ document.getElementById('output').innerHTML = userInput;
 
 **Primary defense: Output encoding.** Encode data based on the context where it appears:
 
+<div class="table-wrap">
+
 | Context        | Encoding Required    | Example                                 |
 | -------------- | -------------------- | --------------------------------------- |
 | HTML body      | HTML entity encoding | `&lt;script&gt;` → `&lt;script&gt;`     |
@@ -97,6 +107,8 @@ document.getElementById('output').innerHTML = userInput;
 | JavaScript     | JavaScript encoding  | `</script>` → `\x3c/script\x3e`         |
 | URL            | URL encoding         | `javascript:` → `javascript%3A`         |
 | CSS            | CSS encoding         | `expression()` → `\65xpression()`       |
+
+</div>
 
 ```javascript
 // Using a templating engine with auto-escaping (safe)
@@ -117,7 +129,7 @@ Restricting which scripts can execute.
 ## Cross-Site Request Forgery (CSRF)
 
 CSRF tricks an authenticated user into executing an unwanted action on a web application where they
-Are already authenticated. The attack exploits the browser's automatic inclusion of credentials
+are already authenticated. The attack exploits the browser's automatic inclusion of credentials
 (cookies) with requests.
 
 ### CSRF Attack Flow
@@ -137,12 +149,16 @@ sequenceDiagram
 
 ### CSRF Prevention
 
+<div class="table-wrap">
+
 | Defense                    | Mechanism                                            | Effectiveness       |
 | -------------------------- | ---------------------------------------------------- | ------------------- |
 | SameSite cookie attribute  | Browser does not send cookies on cross-site requests | Strong (Lax/Strict) |
 | CSRF token                 | Hidden form field validated on submission            | Strong              |
 | Custom request header      | JavaScript sets header, cross-origin cannot          | Strong (API-only)   |
 | Requiring user interaction | Re-authentication for sensitive actions              | Strong              |
+
+</div>
 
 **SameSite cookies** are the primary defense for modern applications:
 
@@ -232,6 +248,8 @@ cursor.execute("SELECT * FROM users WHERE username = ? AND password = ?", (usern
 user = User.query.filter_by(username=username, password_hash=hash).first()
 ```
 
+<div class="table-wrap">
+
 | Language/Framework  | Safe Method                                                 |
 | ------------------- | ----------------------------------------------------------- |
 | Python (sqlite3)    | `cursor.execute("SELECT * FROM users WHERE id = ?", (id,))` |
@@ -241,9 +259,11 @@ user = User.query.filter_by(username=username, password_hash=hash).first()
 | Go (database/sql)   | `db.Query("SELECT * FROM users WHERE id = ?", id)`          |
 | PHP (PDO)           | `$stmt = $pdo->prepare("SELECT * FROM users WHERE id = ?")` |
 
+</div>
+
 **Additional defenses:**
 
-- **Least privilege**: Application database user should not have `DROP``ALTER`Or `GRANT` permissions
+- **Least privilege**: Application database user should not have `DROP`, `ALTER` or `GRANT` permissions
 - **Allowlist input validation**: For known-format inputs (integers, UUIDs), validate format before
   querying
 - **WAF**: Web Application Firewall can block common injection patterns (but is not a substitute for
@@ -271,6 +291,8 @@ sequenceDiagram
 
 ### CORS Headers
 
+<div class="table-wrap">
+
 | Header                             | Purpose                                       |
 | ---------------------------------- | --------------------------------------------- |
 | `Access-Control-Allow-Origin`      | Which origins can access the resource         |
@@ -280,13 +302,19 @@ sequenceDiagram
 | `Access-Control-Max-Age`           | How long the preflight result can be cached   |
 | `Access-Control-Expose-Headers`    | Which response headers the browser can expose |
 
+</div>
+
 ### CORS Misconfigurations
+
+<div class="table-wrap">
 
 | Misconfiguration                                  | Risk                                            |
 | ------------------------------------------------- | ----------------------------------------------- |
 | `Access-Control-Allow-Origin: *` with credentials | Any site can make authenticated requests        |
 | Reflecting `Origin` header without validation     | Any origin is allowed                           |
 | `null` origin allowed                             | Sandboxed iframes and redirects can bypass CORS |
+
+</div>
 
 ```javascript
 // VULNERABLE, reflecting origin without validation
@@ -310,6 +338,8 @@ It is a defense-in-depth mechanism against XSS and data injection.
 
 ### CSP Directives
 
+<div class="table-wrap">
+
 | Directive                   | Purpose                              | Example                            |
 | --------------------------- | ------------------------------------ | ---------------------------------- |
 | `default-src`               | Fallback for other resource types    | `'self'`                           |
@@ -324,6 +354,8 @@ It is a defense-in-depth mechanism against XSS and data injection.
 | `form-action`               | Allowed form submission targets      | `'self'`                           |
 | `frame-ancestors`           | Who can embed this page in a frame   | `'none'`                           |
 | `upgrade-insecure-requests` | Automatically upgrade HTTP to HTTPS  | N/A                                |
+
+</div>
 
 ### Example CSP Policy
 
@@ -416,6 +448,8 @@ Attacker to manipulate application logic or execute arbitrary code.
 
 ### Affected Formats
 
+<div class="table-wrap">
+
 | Format             | Languages             | Risk Level       |
 | ------------------ | --------------------- | ---------------- |
 | Java Serialization | Java                  | Critical (RCE)   |
@@ -423,6 +457,8 @@ Attacker to manipulate application logic or execute arbitrary code.
 | YAML (unsafe load) | Python, Ruby, Node.js | Critical (RCE)   |
 | JSON               | Most languages        | Low ( data-only) |
 | XML                | Java, .NET, Node.js   | High (XXE)       |
+
+</div>
 
 ```python
 # VULNERABLE, deserializing untrusted pickle data
@@ -452,6 +488,8 @@ This can expose internal services, cloud metadata endpoints, and sensitive inter
 
 ### Common SSRF Targets
 
+<div class="table-wrap">
+
 | Target                    | URL Pattern                                           |
 | ------------------------- | ----------------------------------------------------- |
 | AWS metadata              | `http://169.254.169.254/latest/meta-data/`            |
@@ -461,7 +499,11 @@ This can expose internal services, cloud metadata endpoints, and sensitive inter
 | Redis                     | `dict://127.0.0.1:6379/CONFIG SET ...`                |
 | File access (via file://) | `file:///etc/passwd`                                  |
 
+</div>
+
 ### SSRF Prevention
+
+<div class="table-wrap">
 
 | Defense                        | Implementation                                                |
 | ------------------------------ | ------------------------------------------------------------- |
@@ -470,6 +512,8 @@ This can expose internal services, cloud metadata endpoints, and sensitive inter
 | Disable unnecessary schemes    | Block `file://``gopher://``dict://`                           |
 | Use network segmentation       | Application server cannot reach internal services directly    |
 | Cloud metadata protection      | Use IMDSv2 on AWS, require signed headers on GCP              |
+
+</div>
 
 ```python
 from urllib.parse import urlparse
@@ -523,7 +567,7 @@ console.log(user.isAdmin); // true
 ### Prevention
 
 - Use `Object.create(null)` for objects that should not have prototypes
-- Validate and sanitize JSON input, reject keys like `__proto__``constructor``prototype`
+- Validate and sanitize JSON input, reject keys like `__proto__`, `constructor`, `prototype`
 - Use safe deep merge libraries that block prototype pollution
 - Freeze prototypes: `Object.freeze(Object.prototype)`
 
@@ -559,6 +603,8 @@ Cross-Origin-Resource-Policy: same-origin
 Cross-Origin-Embedder-Policy: require-corp
 ```
 
+<div class="table-wrap">
+
 | Header                       | Purpose                          | Browser Support |
 | ---------------------------- | -------------------------------- | --------------- |
 | `X-Content-Type-Options`     | Prevents MIME type sniffing      | All             |
@@ -568,6 +614,8 @@ Cross-Origin-Embedder-Policy: require-corp
 | `Referrer-Policy`            | Controls referrer header leakage | All             |
 | `Permissions-Policy`         | Controls browser feature access  | Modern          |
 | `Cross-Origin-Opener-Policy` | Isolates browsing context group  | Modern          |
+
+</div>
 
 ## Input Validation vs Output Encoding
 
@@ -596,6 +644,8 @@ def render_comment(comment_text):
     return f"<div class='comment'>{html.escape(comment_text)}</div>"
 ```
 
+<div class="table-wrap">
+
 | Concern                | Input Validation         | Output Encoding           |
 | ---------------------- | ------------------------ | ------------------------- |
 | Purpose                | Data quality             | Safe rendering            |
@@ -603,6 +653,8 @@ def render_comment(comment_text):
 | What it checks         | Format, length, type     | Context-specific escaping |
 | Prevents               | Bad data, some injection | XSS in all contexts       |
 | Can replace the other? | No                       | No                        |
+
+</div>
 
 Both are necessary. Input validation alone does not prevent XSS (valid input can contain HTML).
 Output encoding alone does not prevent all injection (SQL injection is not an output encoding
@@ -633,7 +685,7 @@ mvn org.owasp:dependency-check-maven:check
 
 ### Dependency Management Best Practices
 
-1. **Pin dependencies**: Use lockfiles (`package-lock.json``poetry.lock``go.sum``Cargo.lock`) to
+1. **Pin dependencies**: Use lockfiles (`package-lock.json`, `poetry.lock`, `go.sum`, `Cargo.lock`) to
    ensure reproducible builds
 2. **Automate scanning**: Integrate vulnerability scanning into CI/CD pipeline
 3. **Minimize dependencies**: Fewer dependencies = smaller attack surface
@@ -645,6 +697,8 @@ mvn org.owasp:dependency-check-maven:check
 
 ### Software Composition Analysis (SCA) Tools
 
+<div class="table-wrap">
+
 | Tool       | Language(s) | Integration     |
 | ---------- | ----------- | --------------- |
 | Snyk       | Most        | CI/CD, IDE, CLI |
@@ -653,12 +707,16 @@ mvn org.owasp:dependency-check-maven:check
 | Trivy      | Most        | CLI, CI/CD      |
 | Grype      | Most        | CLI             |
 
+</div>
+
 ## Subdomain Takeover
 
 Subdomain takeover occurs when a DNS record points to a resource that has been deprovisioned or
 Deleted. An attacker can claim the resource and serve content on the subdomain.
 
 ### Common Vulnerable Services
+
+<div class="table-wrap">
 
 | Service            | Detection Indicator                       |
 | ------------------ | ----------------------------------------- |
@@ -668,6 +726,8 @@ Deleted. An attacker can claim the resource and serve content on the subdomain.
 | Azure Blob Storage | CNAME to `*.blob.core.windows.net`        |
 | CloudFront         | CNAME to `*.cloudfront.net`               |
 | Vercel/Netlify     | CNAME to `*.vercel.app` / `*.netlify.app` |
+
+</div>
 
 ### Prevention
 
@@ -686,7 +746,7 @@ Client-side check. Always validate on the server, regardless of what the client 
 ### Pitfall 2: Ignoring Security Headers
 
 Many web applications run without security headers. Adding `X-Content-Type-Options: nosniff`
-`X-Frame-Options: DENY``Strict-Transport-Security`And a reasonable CSP takes minutes and Provides
+`X-Frame-Options: DENY`, `Strict-Transport-Security` and a reasonable CSP takes minutes and Provides
 meaningful protection against common attacks.
 
 ### Pitfall 3: Using string concatenation for SQL
@@ -698,7 +758,7 @@ Supports parameterized queries. There is no excuse for string concatenation in S
 
 `Access-Control-Allow-Origin: *` combined with `Access-Control-Allow-Credentials: true` is
 Explicitly disallowed by the CORS spec (browsers reject it). But reflecting the origin header
-Without validation achieves the same effect and is a common misconfiguration.
+without validation achieves the same effect and is a common misconfiguration.
 
 ### Pitfall 5: Trusting User Input in Redirects
 
@@ -743,6 +803,8 @@ Tracing). The `DELETE` and `PUT` methods must require authentication and authori
 
 ### Testing Types
 
+<div class="table-wrap">
+
 | Type                                     | Abbreviation | When                | What It Finds                                       |
 | ---------------------------------------- | ------------ | ------------------- | --------------------------------------------------- |
 | Static Application Security Testing      | SAST         | During development  | Code-level vulnerabilities (SQLi, XSS patterns)     |
@@ -750,6 +812,8 @@ Tracing). The `DELETE` and `PUT` methods must require authentication and authori
 | Interactive Application Security Testing | IAST         | During runtime      | Vulnerabilities with context (line number, request) |
 | Software Composition Analysis            | SCA          | During build        | Vulnerable dependencies (CVEs)                      |
 | Penetration Testing                      | Pentest      | Periodically        | Business-logic flaws, chained vulnerabilities       |
+
+</div>
 
 ### SAST in CI/CD
 
@@ -813,9 +877,6 @@ principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Intuition
 

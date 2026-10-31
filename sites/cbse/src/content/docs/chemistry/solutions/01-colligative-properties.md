@@ -14,17 +14,6 @@ description: "Study notes for Colligative properties with worked examples, pract
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[01 Colligative Properties] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Colligative properties
 
 Study notes for CBSE Class 12 chemistry - Colligative properties.
@@ -45,18 +34,26 @@ Study notes for CBSE Class 12 chemistry - Colligative properties.
 **Solution:**
 
 Moles of sucrose:
-$$n = \frac{34.2}{342} = 0.1 \, \text{mol}$$
+$$
+n = \frac{34.2}{342} = 0.1 \, \text{mol}
+$$
 
 Molality:
-$$m = \frac{0.1}{0.5} = 0.2 \, \text{mol/kg}$$
+$$
+m = \frac{0.1}{0.5} = 0.2 \, \text{mol/kg}
+$$
 
 Sucrose is a non-electrolyte, so $i = 1$.
 
 Boiling point elevation:
-$$\Delta T_b = i \cdot K_b \cdot m = 1 \times 0.52 \times 0.2 = 0.104 \, \text{K}$$
+$$
+\Delta T_b = i \cdot K_b \cdot m = 1 \times 0.52 \times 0.2 = 0.104 \, \text{K}
+$$
 
 New boiling point:
-$$T_b = 100 + 0.104 = 100.104^\circ\text{C}$$
+$$
+T_b = 100 + 0.104 = 100.104^\circ\text{C}
+$$
 
 ## Worked Example 2, Freezing Point Depression with Electrolyte
 
@@ -65,36 +62,52 @@ $$T_b = 100 + 0.104 = 100.104^\circ\text{C}$$
 **Solution:**
 
 Moles of NaCl:
-$$n = \frac{5.85}{58.5} = 0.1 \, \text{mol}$$
+$$
+n = \frac{5.85}{58.5} = 0.1 \, \text{mol}
+$$
 
 Molality:
-$$m = \frac{0.1}{1} = 0.1 \, \text{mol/kg}$$
+$$
+m = \frac{0.1}{1} = 0.1 \, \text{mol/kg}
+$$
 
 NaCl dissociates completely: $\text{NaCl} \to \text{Na}^+ + \text{Cl}^-$, so $i = 2$.
 
 Freezing point depression:
-$$\Delta T_f = i \cdot K_f \cdot m = 2 \times 1.86 \times 0.1 = 0.372 \, \text{K}$$
+$$
+\Delta T_f = i \cdot K_f \cdot m = 2 \times 1.86 \times 0.1 = 0.372 \, \text{K}
+$$
 
 New freezing point:
-$$T_f = 0 - 0.372 = -0.372^\circ\text{C}$$
+$$
+T_f = 0 - 0.372 = -0.372^\circ\text{C}
+$$
 
 ## Worked Example 3, Osmotic Pressure
 
-**Problem:** $1.5 \, \text{g}$ of a polymer ($M = 150{,}000 \, \text{g/mol}$) is dissolved in $500 \, \text{mL}$ of water at $27^\circ\text{C}$. Find the osmotic pressure. ($R = 0.0821 \, \text{L}\cdot\text{atm/K}\cdot\text{mol}$)
+**Problem:** $1.5 \, \text{g}$ of a polymer ($M = 150{,}000 \, \text{g/mol}$) is dissolved in $500 \, \text{mL}$ of water at $27^\circ\text{C}$. Find the osmotic pressure. ($ R = 0.0821 \, \text{L}\cdot\text{atm/K}\cdot\text{mol}$)
 
 **Solution:**
 
 Moles of polymer:
-$$n = \frac{1.5}{150{,}000} = 1 \times 10^{-5} \, \text{mol}$$
+$$
+n = \frac{1.5}{150{,}000} = 1 \times 10^{-5} \, \text{mol}
+$$
 
 Concentration:
-$$C = \frac{n}{V} = \frac{1 \times 10^{-5}}{0.5} = 2 \times 10^{-5} \, \text{mol/L}$$
+$$
+C = \frac{n}{V} = \frac{1 \times 10^{-5}}{0.5} = 2 \times 10^{-5} \, \text{mol/L}
+$$
 
 Temperature: $T = 27 + 273 = 300 \, \text{K}$
 
 Osmotic pressure:
-$$\pi = CRT = 2 \times 10^{-5} \times 0.0821 \times 300$$
-$$= 4.926 \times 10^{-4} \, \text{atm} \approx 0.000493 \, \text{atm}$$
+$$
+\pi = CRT = 2 \times 10^{-5} \times 0.0821 \times 300
+$$
+$$
+= 4.926 \times 10^{-4} \, \text{atm} \approx 0.000493 \, \text{atm}
+$$
 
 ## Common Mistakes
 
@@ -126,110 +139,6 @@ Colligative properties depend only on how many solute particles you add, not wha
 - **Biomolecules:** Osmotic pressure determines how water moves across cell membranes, directly connecting colligative properties to biology.
 - **Surface Chemistry:** Adsorption and colligative properties both arise from solute-solvent interactions at the molecular level.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 ## See also
 
 - [Solutions](/chemistry/solutions/)

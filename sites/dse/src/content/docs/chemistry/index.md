@@ -74,7 +74,7 @@ through to advanced topics.
 ## Stoichiometry and the Mole
 
 - **[Mole Concept and Stoichiometry](/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/)** --
-  Relative atomic/molecular masses, the mole, Avogadro"s number, molar volume, empirical and
+  Relative atomic/molecular masses, the mole, Avogadro's number, molar volume, empirical and
   molecular formulae, and volumetric analysis
 - **[Stoichiometry and Mole Concept](/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/)** --
   Relative atomic mass, molar calculations, empirical formulae, concentration, and limiting reagents
@@ -118,8 +118,8 @@ through to advanced topics.
 
 ## Related Content
 
-- **IB Chemistry:** [IB Chemistry](https://ib.wyattau.com/docs/chemistry)
-- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/docs/chemistry)
+- **IB Chemistry:** [IB Chemistry](https://ib.wyattau.com/chemistry/)
+- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/chemistry/)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.
@@ -161,8 +161,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Cross-References
 

@@ -55,7 +55,7 @@ The heart has four chambers:
 
 Deoxygenated blood enters the right atrium from the vena cava. The tricuspid valve opens and blood
 Flows into the right ventricle. The right ventricle contracts, the tricuspid valve closes, and the
-Semilunar valve in the pulmonary artery opens. Blood flows to the lungs.
+semilunar valve in the pulmonary artery opens. Blood flows to the lungs.
 
 Oxygenated blood returns from the lungs via the pulmonary vein into the left atrium. The bicuspid
 Valve opens and blood flows into the left ventricle. The left ventricle contracts, the bicuspid
@@ -63,11 +63,15 @@ Valve closes, and the semilunar valve in the aorta opens. Blood flows to the bod
 
 ### Blood Vessels (OL/HL)
 
+<div class="table-wrap">
+
 | Vessel    | Structure                          | Function                                     |
 | --------- | ---------------------------------- | -------------------------------------------- |
 | Artery    | Thick walls, narrow lumen, elastic | Carry blood away from heart at high pressure |
 | Vein      | Thin walls, wide lumen, valves     | Return blood to the heart                    |
 | Capillary | One cell thick walls               | Exchange of materials with tissues           |
+
+</div>
 
 ### Blood Composition (OL/HL)
 
@@ -95,7 +99,9 @@ The sequence of events in one heartbeat:
 
 **Cardiac output (HL):**
 
-$$\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate$$
+$$
+\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate
+$$
 
 ### Blood Pressure (OL/HL)
 
@@ -135,9 +141,11 @@ Decreases; air rushes in.
 **Expiration:** intercostal muscles and diaphragm relax; thorax volume decreases; lung pressure
 Increases; air is pushed out.
 
-**Worked Example: Fick"s Law and gas exchange.**
+**Worked Example: Fick's Law and gas exchange.**
 
-$$\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}$$
+$$
+\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}
+$$
 
 The alveoli are adapted to maximise the rate of diffusion:
 
@@ -163,6 +171,8 @@ Accessory organs: liver, pancreas, gall bladder.
 
 **Chemical digestion:** breakdown by enzymes.
 
+<div class="table-wrap">
+
 | Location | Enzyme  | Substrate | Product                |
 | -------- | ------- | --------- | ---------------------- |
 | Mouth    | Amylase | Starch    | Maltose                |
@@ -170,6 +180,8 @@ Accessory organs: liver, pancreas, gall bladder.
 | Duodenum | Trypsin | Proteins  | Amino acids            |
 | Duodenum | Lipase  | Lipids    | Fatty acids + glycerol |
 | Ileum    | Maltase | Maltose   | Glucose                |
+
+</div>
 
 ### Absorption (OL/HL)
 
@@ -236,6 +248,8 @@ Pathway: receptor $\to$ sensory neuron $\to$ relay neuron $\to$ motor neuron $\t
 
 Chemical messengers secreted by endocrine glands into the bloodstream, targeting specific organs.
 
+<div class="table-wrap">
+
 | Gland     | Hormone      | Function                                |
 | --------- | ------------ | --------------------------------------- |
 | Pituitary | ADH          | Regulates water reabsorption in kidneys |
@@ -246,6 +260,8 @@ Chemical messengers secreted by endocrine glands into the bloodstream, targeting
 | Adrenal   | Adrenaline   | "Fight or flight" response              |
 | Ovary     | Oestrogen    | Female secondary sexual characteristics |
 | Testis    | Testosterone | Male secondary sexual characteristics   |
+
+</div>
 
 ### Blood Glucose Regulation (HL)
 
@@ -436,9 +452,9 @@ Nephrons.
 **Worked Example: Diabetes insipidus.**
 
 A patient produces very large volumes of dilute urine and is constantly thirsty. This is a symptom
-Of diabetes insipidus, which is caused by a lack of ADH (or by the kidneys not responding to ADH).
+of diabetes insipidus, which is caused by a lack of ADH (or by the kidneys not responding to ADH).
 Without ADH, the collecting ducts remain impermeable to water, so water is not reabsorbed. The
-Result is large volumes of dilute urine (polyuria) and excessive thirst (polydipsia) as the body
+result is large volumes of dilute urine (polyuria) and excessive thirst (polydipsia) as the body
 Tries to replace the lost water.
 
 ## Review: The Nervous System -- Neurones and Synapses
@@ -485,6 +501,8 @@ Many drugs work by affecting synaptic transmission:
 
 **Key hormones and their functions:**
 
+<div class="table-wrap">
+
 | Hormone      | Source           | Target       | Function                                        |
 | ------------ | ---------------- | ------------ | ----------------------------------------------- |
 | Insulin      | Pancreas (beta)  | Liver, cells | Lowers blood glucose; promotes glucose uptake   |
@@ -498,26 +516,28 @@ Many drugs work by affecting synaptic transmission:
 | Progesterone | Corpus luteum    | Uterus       | Maintains uterine lining                        |
 | Testosterone | Testes           | Body         | Male secondary sexual characteristics           |
 
+</div>
+
 **Negative feedback:** The mechanism by which the body maintains homeostasis. When a condition
 Deviates from its set point, the body initiates a corrective response that brings the condition back
-To normal, then the corrective response is switched off.
+to normal, then the corrective response is switched off.
 
 **Worked Example: Blood glucose regulation.**
 
 After a meal, blood glucose rises above the normal range (approximately 4--6 mmol/L). The pancreas
 Detects this and secretes insulin. Insulin stimulates cells (especially liver and muscle cells) to
-Take up glucose from the blood and convert it to glycogen (glycogenesis). Blood glucose falls back
-To normal, and insulin secretion decreases.
+take up glucose from the blood and convert it to glycogen (glycogenesis). Blood glucose falls back
+to normal, and insulin secretion decreases.
 
 During fasting or exercise, blood glucose falls below normal. The pancreas secretes glucagon.
 Glucagon stimulates the liver to break down glycogen into glucose (glycogenolysis) and, if
-Necessary, to convert amino acids and lipids into glucose (gluconeogenesis). Blood glucose rises
+necessary, to convert amino acids and lipids into glucose (gluconeogenesis). Blood glucose rises
 Back to normal, and glucagon secretion decreases.
 
 **Thermoregulation:**
 
 The body maintains its core temperature at approximately 37$\degree$C. This is controlled by the
-Hypothalamus, which acts as the body's thermostat.
+hypothalamus, which acts as the body's thermostat.
 
 **Heat gain mechanisms (when body temperature drops):**
 
@@ -545,6 +565,8 @@ Hypothalamus, which acts as the body's thermostat.
 
 The skin is the largest organ in the body and plays a central role in thermoregulation:
 
+<div class="table-wrap">
+
 | Structure            | Function in thermoregulation                                |
 | -------------------- | ----------------------------------------------------------- |
 | Epidermis            | Barrier to water loss; contains melanin for UV protection   |
@@ -554,18 +576,20 @@ The skin is the largest organ in the body and plays a central role in thermoregu
 | Hair erector muscles | Cause piloerection to trap insulating air                   |
 | Sensory receptors    | Detect temperature changes and send signals to hypothalamus |
 
+</div>
+
 **Negative feedback in thermoregulation:**
 
 When the core temperature rises above 37$\degree$C, thermoreceptors in the skin and hypothalamus
 Detect the change. The hypothalamus sends signals via the autonomic nervous system to activate
 Cooling mechanisms (vasodilation, sweating). As the temperature returns to 37$\degree$C, the
-Thermoreceptors send fewer signals, and the cooling mechanisms are gradually switched off. This is
-Negative feedback in action.
+thermoreceptors send fewer signals, and the cooling mechanisms are gradually switched off. This is
+negative feedback in action.
 
 **Osmoregulation:**
 
 The body must maintain the water potential of the blood within narrow limits. The kidneys are the
-Main organs of osmoregulation.
+main organs of osmoregulation.
 
 **How the kidneys regulate water balance:**
 
@@ -580,21 +604,21 @@ Main organs of osmoregulation.
 **Role of antidiuretic hormone (ADH):**
 
 ADH is released from the posterior pituitary gland when the blood water potential is too low (blood
-Is too concentrated). ADH increases the permeability of the collecting duct to water by causing
+is too concentrated). ADH increases the permeability of the collecting duct to water by causing
 Aquaporin channels to be inserted into the cell membranes. More water is reabsorbed from the
-Filtrate into the blood, producing a smaller volume of more concentrated urine.
+filtrate into the blood, producing a smaller volume of more concentrated urine.
 
 When the blood water potential is too high (blood is too dilute), less ADH is released. The
-Collecting duct becomes less permeable to water, less water is reabsorbed, and a larger volume of
-More dilute urine is produced.
+collecting duct becomes less permeable to water, less water is reabsorbed, and a larger volume of
+more dilute urine is produced.
 
 **Worked Example: Explaining osmoregulation after drinking a large volume of water.**
 
 After drinking 1 litre of water, the water is absorbed into the blood from the small intestine. This
-Lowers the solute concentration (increases the water potential) of the blood. Osmoreceptors in the
-Hypothalamus detect the change and send fewer nerve impulses to the posterior pituitary gland. Less
+lowers the solute concentration (increases the water potential) of the blood. Osmoreceptors in the
+hypothalamus detect the change and send fewer nerve impulses to the posterior pituitary gland. Less
 ADH is released into the bloodstream. The collecting ducts in the kidneys become less permeable to
-Water. Less water is reabsorbed from the filtrate, so a larger volume of dilute urine is produced.
+water. Less water is reabsorbed from the filtrate, so a larger volume of dilute urine is produced.
 This restores the blood water potential to normal.
 
 **Worked Example: Diabetes insipidus.**
@@ -617,11 +641,15 @@ Environment. It is divided into:
 
 **Types of neurons:**
 
+<div class="table-wrap">
+
 | Neuron type | Function                                     | Structure feature               |
 | ----------- | -------------------------------------------- | ------------------------------- |
 | Sensory     | Carry impulses from receptors to the CNS     | Long axon, cell body off-centre |
 | Relay       | Connect sensory and motor neurons in the CNS | Short axon, many dendrites      |
 | Motor       | Carry impulses from the CNS to effectors     | Long axon, cell body at start   |
+
+</div>
 
 **Neuron structure:**
 
@@ -640,16 +668,16 @@ Environment. It is divided into:
 **Transmission of nerve impulses:**
 
 At rest, the inside of the neuron is negatively charged relative to the outside (resting potential
-Of approximately -70 mV). This is maintained by the sodium-potassium pump, which pumps 3 sodium ions
-Out and 2 potassium ions in for each ATP hydrolysed.
+of approximately -70 mV). This is maintained by the sodium-potassium pump, which pumps 3 sodium ions
+out and 2 potassium ions in for each ATP hydrolysed.
 
 When a stimulus depolarises the membrane to the threshold level (approximately -55 mV),
 Voltage-gated sodium channels open. Sodium ions rush in, causing further depolarisation. This is the
-Action potential (approximately +40 mV). The action potential travels along the axon as a wave of
-Depolarisation.
+action potential (approximately +40 mV). The action potential travels along the axon as a wave of
+depolarisation.
 
 After the action potential passes, voltage-gated potassium channels open and potassium ions flow
-Out, repolarising the membrane. The sodium-potassium pump restores the resting potential (refractory
+out, repolarising the membrane. The sodium-potassium pump restores the resting potential (refractory
 Period), ensuring the impulse travels in one direction only.
 
 **Synapses:**
@@ -670,7 +698,7 @@ Potential arrives at the presynaptic membrane:
 **The reflex arc:**
 
 A reflex arc is the pathway taken by nerve impulses in an automatic, involuntary response (a
-Reflex). Reflexes are fast and protect the body from harm. The pathway is:
+reflex). Reflexes are fast and protect the body from harm. The pathway is:
 
 **Receptor -- sensory neuron -- relay neuron -- motor neuron -- effector**
 
@@ -687,9 +715,11 @@ If you touch a hot object:
    after the reflex has already occurred.
 
 This reflex is protective because it does not require conscious processing by the brain, making the
-Response faster.
+response faster.
 
 **Comparison of nervous and endocrine systems:**
+
+<div class="table-wrap">
 
 | Feature             | Nervous system                       | Endocrine system                     |
 | ------------------- | ------------------------------------ | ------------------------------------ |
@@ -700,12 +730,16 @@ Response faster.
 | Transmission method | Neurons and synapses                 | Bloodstream                          |
 | Example             | Reflex arc (withdrawal reflex)       | Insulin and blood glucose regulation |
 
+</div>
+
 **Hormones and their effects:**
 
 Hormones are chemical messengers secreted by endocrine glands into the bloodstream. They travel
-Throughout the body but only affect specific target cells that have the appropriate receptors.
+throughout the body but only affect specific target cells that have the appropriate receptors.
 
 **Key endocrine glands and hormones:**
+
+<div class="table-wrap">
 
 | Gland     | Hormone(s)              | Function                                                 |
 | --------- | ----------------------- | -------------------------------------------------------- |
@@ -715,6 +749,8 @@ Throughout the body but only affect specific target cells that have the appropri
 | Pancreas  | Insulin, glucagon       | Regulates blood glucose concentration                    |
 | Ovaries   | Oestrogen, progesterone | Female secondary sexual characteristics, menstrual cycle |
 | Testes    | Testosterone            | Male secondary sexual characteristics, sperm production  |
+
+</div>
 
 **Worked Example: Hormonal control of the menstrual cycle.**
 
@@ -731,17 +767,6 @@ The menstrual cycle is controlled by four hormones:
    second half of the cycle. It inhibits FSH and LH production. If the egg is not fertilised, the
    corpus luteum degenerates, progesterone levels drop, and the uterine lining is shed
    (menstruation).
-
-
-```mermaid
-flowchart TD
-    A[5_Human Body] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

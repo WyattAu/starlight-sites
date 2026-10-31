@@ -33,7 +33,7 @@ Devirtualization.
 Compiler can prove the dynamic type of the object at compile time.
 
 The C++ Standard does not define devirtualization -- it is a pure optimization. However, the
-Standard"s type system and specifiers provide the information compilers need to perform it.
+Standard's type system and specifiers provide the information compilers need to perform it.
 
 Devirtualization is important because virtual dispatch prevents several critical optimizations:
 
@@ -49,7 +49,7 @@ Devirtualization is important because virtual dispatch prevents several critical
 A compiler may devirtualize when it can prove that the dynamic type equals the static type:
 
 1. **The object has a known final type.** If the class is marked `final` or the function is marked
-   `final`The compiler knows there is no override.
+   `final`. The compiler knows there is no override.
 2. **The static type is exact.** When calling a virtual function on a local variable (not through a
    pointer or reference), the compiler knows the exact type.
 3. **Speculative devirtualization.** The compiler may emit a type check at runtime (using the vptr
@@ -61,20 +61,20 @@ A compiler may devirtualize when it can prove that the dynamic type equals the s
 By [N4950 S13.3.2], the dynamic type of an object is the most-derived type of the object. The
 Compiler can prove the dynamic type in the following cases:
 
-**Case 1: Local variable of exact type.** If `D d;` is a local variable of type `D`The dynamic Type
+**Case 1: Local variable of exact type.** If `D d;` is a local variable of type `D`. The dynamic Type
 of `d` is `D`. No pointer or reference to a base class is involved, so the static type equals The
 dynamic type. The compiler emits a direct call to `D::f`.
 
 **Case 2: `final` class.** If `D` is marked `final` [N4950 S11.7.4], no class can derive from `D`.
-If the compiler sees a call `d.f()` where `d` has static type `D`The dynamic type must be `D` (it
-Cannot be a more-derived type). Therefore, `D::f` is the only possible target.
+If the compiler sees a call `d.f()` where `d` has static type `D`. The dynamic type must be `D` (it
+cannot be a more-derived type). Therefore, `D::f` is the only possible target.
 
-**Case 3: `final` virtual function.** If `D::f` is marked `final`No derived class can override `f`.
-If the compiler can prove the dynamic type is `D` or a type derived from `D`The call resolves To
+**Case 3: `final` virtual function.** If `D::f` is marked `final`. No derived class can override `f`.
+If the compiler can prove the dynamic type is `D` or a type derived from `D`. The call resolves To
 `D::f` regardless of the actual derived type. This is less powerful than a `final` class but Still
 useful.
 
-**Case 4: Type propagation through assignments.** If `D d; B& ref = d; ref.f();`The compiler can
+**Case 4: Type propagation through assignments.** If `D d; B& ref = d; ref.f();`. The compiler can
 Track that `ref` is an alias for `d` and prove that the dynamic type is `D`. This requires the
 Compiler to perform alias analysis.
 
@@ -118,7 +118,7 @@ int main() {
 ## 3.3 `final` as a Devirtualization Hint
 
 The `final` specifier provides the strongest guarantee to the compiler. When a class or virtual
-Function is marked `final`The compiler can prove that no further override exists:
+Function is marked `final`. The compiler can prove that no further override exists:
 
 ```cpp
 #include <iostream>
@@ -242,7 +242,7 @@ Understanding these barriers helps you write code that is amenable to optimizati
 ### Barrier 1: Multiple Inheritance
 
 Multiple inheritance introduces vptr offsets and additional indirection. When a method is called
-Through a base class pointer that is not the primary base, the compiler must adjust the `this`
+through a base class pointer that is not the primary base, the compiler must adjust the `this`
 Pointer before performing the vtable lookup. This adjustment can prevent devirtualization.
 
 ```cpp
@@ -382,6 +382,8 @@ cl /O2 /GL main.cpp factory.cpp /link /LTCG
 
 ### LTO Trade-offs
 
+<div class="table-wrap">
+
 | Aspect           | Without LTO | With LTO                              |
 | :--------------- | :---------- | :------------------------------------ |
 | Compile time     | Fast        | Slow (full-program analysis)          |
@@ -390,6 +392,8 @@ cl /O2 /GL main.cpp factory.cpp /link /LTCG
 | Devirtualization | Limited     | Cross-TU devirtualization enabled     |
 | Binary size      | Normal      | Often smaller (dead code elimination) |
 | Debugging        | Easy        | Harder (optimized code at link time)  |
+
+</div>
 
 :::caution
 For CI builds, consider using ThinLTO (`-flto=thin` on Clang), which performs parallel LTO with
@@ -552,7 +556,7 @@ int main() {
 }
 ```
 
-Compile with `-O3` and compare. With `Derived` marked `final`The compiler may eliminate the Virtual
+Compile with `-O3` and compare. With `Derived` marked `final`. The compiler may eliminate the Virtual
 dispatch in `bench_devirtualized`Yielding a measurable speedup ( 1.2x--2x).
 
 ## 3.11 Devirtualization and `std::function`
@@ -580,7 +584,7 @@ int main() {
 ```
 
 If the virtual call is on the hot path, consider replacing `std::function` with a template parameter
-Or a manually specialized callable to allow devirtualization.
+or a manually specialized callable to allow devirtualization.
 
 ## 3.12 Devirtualization of Returned Virtual Calls
 
@@ -614,7 +618,7 @@ int main() {
 ```
 
 Modern compilers can sometimes chain virtual call results and prove the type through the chain, but
-This is less reliable than direct type knowledge.
+this is less reliable than direct type knowledge.
 
 ## 3.13 Whole-Program Devirtualization with CFI
 
@@ -635,7 +639,7 @@ Devirtualization by providing safety guarantees for the fallback path.
 ## 3.14 Devirtualization of Virtual Calls on `this`
 
 A common pattern is calling a virtual function on `this` within a member function. If the class is
-`final`Or if the function is `final`The compiler can devirtualize the self-call:
+`final`Or if the function is `final`. The compiler can devirtualize the self-call:
 
 ```cpp
 #include <cstdio>
@@ -661,7 +665,7 @@ int main() {
 }
 ```
 
-Without `final`The compiler may still devirtualize if it can prove that no further derived class
+Without `final`. The compiler may still devirtualize if it can prove that no further derived class
 Exists (e.g., the class definition is visible and no derived classes are defined in the same
 Translation unit).
 
@@ -690,7 +694,7 @@ int main() {
 }
 ```
 
-At `-O2`Both GCC and Clang devirtualize this call because the template instantiation Provides the
+At `-O2`. Both GCC and Clang devirtualize this call because the template instantiation Provides the
 full type definition.
 
 ## 3.16 Checking Devirtualization with Compiler Reports
@@ -752,17 +756,7 @@ Intended effect.
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
-```mermaid
-flowchart TD
-    A[3_Devirtualization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Summary
 
@@ -777,10 +771,5 @@ theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

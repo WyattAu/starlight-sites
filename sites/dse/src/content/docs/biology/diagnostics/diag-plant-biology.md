@@ -96,12 +96,16 @@ downstream of the blockage.
 A potted plant was placed under different environmental conditions, and the rate of water uptake was
 measured using a potometer.
 
+<div class="table-wrap">
+
 | Condition                                      | Relative rate of water uptake |
 | ---------------------------------------------- | :---------------------------: |
-| Still air, $20^{\circ}C$Normal humidity        |              1.0              |
-| Moving air (fan), $20^{\circ}C$Normal humidity |              1.8              |
-| Still air, $30^{\circ}C$Normal humidity        |              1.5              |
-| Still air, $20^{\circ}C$High humidity          |              0.5              |
+| Still air, $20^{\circ}C$ Normal humidity        |              1.0              |
+| Moving air (fan), $20^{\circ}C$ Normal humidity |              1.8              |
+| Still air, $30^{\circ}C$ Normal humidity        |              1.5              |
+| Still air, $20^{\circ}C$ High humidity          |              0.5              |
+
+</div>
 
 (a) Explain the mechanism of water movement through the xylem from the root to the leaf, referring
 to the **transpiration pull** and the **cohesion-tension theory**. [4 marks]
@@ -191,12 +195,16 @@ trunk (ring-barking). Explain why the tree eventually dies above the ring-barked
 
 (a) Four structural differences:
 
+<div class="table-wrap">
+
 | Feature                       | Xylem Vessels                                                            | Phloem Sieve Tube Elements                      |
 | ----------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------- |
 | **Cell contents at maturity** | Dead (no cytoplasm, no nucleus)                                          | Living (thin layer of cytoplasm, no nucleus)    |
 | **Cell walls**                | Thickened with **lignin**, water./1-number-and-algebra/3_proof-and-logic | Thin, cellulose cell walls (no lignin)          |
 | **End walls**                 | End walls broken down, forming continuous tubes                          | End walls remain as **sieve plates** with pores |
 | **Transport direction**       | One-way (upward only)                                                    | Two-way (upward and downward)                   |
+
+</div>
 
 (b) According to the **mass flow hypothesis**, sugars (mainly sucrose) are actively loaded into
 phloem sieve tubes at a **source** (e.g. Leaf). This lowers the water potential inside the sieve
@@ -228,17 +236,6 @@ death.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Plant Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Solar-powered factories:** Plants are like solar panels that make food, photosynthesis captures sunlight and converts it into chemical energy. Transpiration is the plant's cooling system.
@@ -255,6 +252,8 @@ An investigation was carried out to determine the effect of light intensity and 
 concentration on the rate of photosynthesis in an aquatic plant (Elodea). The number of oxygen
 bubbles produced per minute was recorded.
 
+<div class="table-wrap">
+
 | Light intensity (arbitrary units) | Rate at 0.04% CO$_{2}$ | Rate at 0.10% CO$_{2}$ |
 | :-------------------------------: | :--------------------: | :--------------------: |
 |                 5                 |           5            |           12           |
@@ -262,6 +261,8 @@ bubbles produced per minute was recorded.
 |                20                 |           14           |           30           |
 |                40                 |           16           |           33           |
 |                60                 |           16           |           34           |
+
+</div>
 
 (a) Explain why the rate of photosynthesis plateaus at high light intensity in both CO$_{2}$
 concentrations. [2 marks]
@@ -311,14 +312,14 @@ becomes limiting.
 **Improvement**: Collect the oxygen gas over water in a graduated cylinder or gas syringe to measure
 the **volume** of oxygen produced per unit time, which is a more quantitative and reliable measure.
 
-(d) As temperature increases from $20^{\circ}C$ to approximately $25$--$30^{\circ}C$The rate of
+(d) As temperature increases from $20^{\circ}C$ to approximately $25$--$30^{\circ}C$ The rate of
 photosynthesis **increases** because the kinetic energy of molecules increases, leading to more
 frequent enzyme-substrate collisions (particularly RuBisCO catalysing CO$_{2}$ fixation).
 
 Above approximately $30^{\circ}C$ (the optimum), the rate **decreases** because the high temperature
 causes enzymes (especially RuBisCO and other Calvin cycle enzymes) to **denature**. The tertiary
 structure of these enzymes unfolds, changing the shape of the active site and reducing their
-catalytic activity. At $45^{\circ}C$Significant denaturation has occurred, and the photosynthesis
+catalytic activity. At $45^{\circ}C$ Significant denaturation has occurred, and the photosynthesis
 rate may be very low.
 
 ---

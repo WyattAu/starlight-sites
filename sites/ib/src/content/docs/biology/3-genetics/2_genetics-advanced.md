@@ -37,6 +37,8 @@ Y-shaped Region where the two parental strands are separated.
 
 ### Key Enzymes and Proteins
 
+<div class="table-wrap">
+
 | Enzyme / Protein                                                     | Function                                                                                                                                                                                                                |
 | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Helicase**                                                         | Unwinds and separates the double helix at the origin of replication. Requires ATP hydrolysis.                                                                                                                           |
@@ -48,10 +50,12 @@ Y-shaped Region where the two parental strands are separated.
 | **DNA ligase**                                                       | Forms phosphodiester bonds between Okazaki fragments on the lagging strand (and between primer replacements).                                                                                                           |
 | **Sliding clamp (PCNA in eukaryotes, $\beta$-clamp in prokaryotes)** | Ring-shaped protein that encircles DNA, tethering DNA polymerase to the template for processive synthesis.                                                                                                              |
 
+</div>
+
 ### Leading and Lagging Strands
 
 DNA polymerase can only synthesise in the $5' \to 3'$ direction. Since the two template strands are
-Antiparallel, synthesis proceeds differently on each:
+antiparallel, synthesis proceeds differently on each:
 
 - **Leading strand**: synthesised continuously in the $5' \to 3'$ direction, toward the replication
   fork. Only one RNA primer is needed.
@@ -82,6 +86,8 @@ resynthesised. MMR further reduces the error rate to approximately $10^{-9}$.
 
 ### Eukaryotic vs Prokaryotic Replication
 
+<div class="table-wrap">
+
 | Feature                     | Prokaryotes                       | Eukaryotes                                                                                    |
 | --------------------------- | --------------------------------- | --------------------------------------------------------------------------------------------- |
 | **DNA polymerases**         | Pol I, Pol III (main replicative) | Pol $\alpha$ (primase + short extension), Pol $\delta$ (lagging), Pol $\varepsilon$ (leading) |
@@ -91,10 +97,12 @@ resynthesised. MMR further reduces the error rate to approximately $10^{-9}$.
 | **Telomeres**               | Circular chromosomes (no ends)    | Linear chromosomes; telomeres protect ends                                                    |
 | **Telomerase**              | Not needed                        | Extends $3'$ ends of chromosomes; reverse transcriptase + RNA template                        |
 
+</div>
+
 ### The End Replication Problem
 
 In eukaryotes, the leading strand can be synthesised to the very end of the chromosome, but the
-Lagging strand cannot complete the terminal Okazaki fragment (there is no upstream primer to
+lagging strand cannot complete the terminal Okazaki fragment (there is no upstream primer to
 replace). This results in a progressive shortening of chromosomes with each round of replication
 ($\approx 50$--$200\;\mathrm{bp}$ Per division in somatic cells).
 
@@ -124,18 +132,22 @@ Cells, stem cells, and most cancer cells but is inactive in most somatic cells.
    DNA unwinding (forming an open complex).
 4. RNA polymerase begins synthesising mRNA in the $5' \to 3'$ direction, using the **template
    (antisense) strand** as a template.
-5. After synthesising approximately $10\;\mathrm{nt}$The sigma factor dissociates.
+5. After synthesising approximately $10\;\mathrm{nt}$ The sigma factor dissociates.
 
 ### Initiation in Eukaryotes
 
 Eukaryotic transcription is more complex, involving three RNA polymerases and multiple transcription
 Factors:
 
+<div class="table-wrap">
+
 | RNA polymerase | Product                         |
 | -------------- | ------------------------------- |
 | **Pol I**      | rRNA (28S, 18S, 5.8S)           |
 | **Pol II**     | mRNA, snRNA, microRNA           |
 | **Pol III**    | tRNA, 5S rRNA, other small RNAs |
+
+</div>
 
 **Pol II transcription initiation:**
 
@@ -210,6 +222,8 @@ Amino acid and recognises the corresponding codon on mRNA.
 The $5'$ base of the anticodon (which pairs with the $3'$ base of the codon) has relaxed
 base-pairing Rules ("wobble"):
 
+<div class="table-wrap">
+
 | Anticodon $5'$ base | Codon $3'$ bases recognised |
 | ------------------- | --------------------------- |
 | C                   | G                           |
@@ -218,17 +232,23 @@ base-pairing Rules ("wobble"):
 | G                   | C or U                      |
 | I (inosine)         | U, C, or A                  |
 
+</div>
+
 Wobble explains why the $61$ sense codons are read by fewer than $61$ tRNAs (humans have
-Approximately $45$ tRNA species).
+approximately $45$ tRNA species).
 
 ### Ribosome Structure
 
 Ribosomes consist of a **large subunit** and a **small subunit**, composed of rRNA and proteins.
 
+<div class="table-wrap">
+
 | Component     | Prokaryotes ($70\mathrm{S}$)              | Eukaryotes ($80\mathrm{S}$)                      |
 | ------------- | ----------------------------------------- | ------------------------------------------------ |
 | Small subunit | $30\mathrm{S}$ (16S rRNA + proteins)      | $40\mathrm{S}$ (18S rRNA + proteins)             |
 | Large subunit | $50\mathrm{S}$ (23S + 5S rRNA + proteins) | $60\mathrm{S}$ (28S + 5.8S + 5S rRNA + proteins) |
+
+</div>
 
 **Three tRNA binding sites:**
 
@@ -313,6 +333,8 @@ The **lac operon** in _E. Coli_ is subject to dual regulation:
 
 **Summary table:**
 
+<div class="table-wrap">
+
 | Glucose | Lactose | cAMP | CAP      | Repressor | lac operon       |
 | ------- | ------- | ---- | -------- | --------- | ---------------- |
 | High    | Absent  | Low  | Inactive | Bound     | OFF              |
@@ -320,10 +342,12 @@ The **lac operon** in _E. Coli_ is subject to dual regulation:
 | Low     | Absent  | High | Active   | Bound     | OFF              |
 | Low     | Present | High | Active   | Unbound   | ON (maximal)     |
 
+</div>
+
 ### The Trp Operon (Repressible Operon)
 
 The **trp operon** in _E. Coli_ regulates tryptophan biosynthesis. It is normally ON (tryptophan is
-Needed) and is turned OFF when tryptophan is abundant.
+needed) and is turned OFF when tryptophan is abundant.
 
 - **Repressor protein** (product of $trpR$) is inactive alone.
 - When **tryptophan** (corepressor) binds to the repressor, the complex binds to the operator,
@@ -386,6 +410,8 @@ Sequence.
 Bacterial enzymes that recognise specific **palindromic DNA sequences** ( $4$--$8\;\mathrm{bp}$) And
 cut both strands at specific positions within or near the recognition site.
 
+<div class="table-wrap">
+
 | Enzyme  | Recognition sequence    | Cut type                  |
 | ------- | ----------------------- | ------------------------- |
 | EcoRI   | $5'$-G$\vert$AATTC-$3'$ | Sticky ends (5' overhang) |
@@ -393,9 +419,11 @@ cut both strands at specific positions within or near the recognition site.
 | HindIII | $5'$-A$\vert$AGCTT-$3'$ | Sticky ends (5' overhang) |
 | SmaI    | $5'$-CCC$\vert$GGG-$3'$ | Blunt ends                |
 
+</div>
+
 **Sticky ends** (cohesive ends): single-stranded overhangs that can base-pair with complementary
 Sticky ends from another DNA fragment cut with the same enzyme. This facilitates the formation of
-Recombinant DNA molecules.
+recombinant DNA molecules.
 
 ### Recombinant DNA Technology Steps
 
@@ -448,7 +476,9 @@ When two genes are on the same chromosome, they do not assort independently. The
 Deviates from $9:3:3:1$.
 
 **Recombination frequency (RF)**:
-$$\mathrm{RF} = \frac{\text{number of recombinant offspring}}{\text{total offspring}} \times 100\%$$
+$$
+\mathrm{RF} = \frac{\text{number of recombinant offspring}}{\text{total offspring}} \times 100\%
+$$
 
 - $\mathrm{RF} < 10\%$: genes are closely linked.
 - $\mathrm{RF} \approx 50\%$: genes assort independently (on different chromosomes or very far
@@ -458,7 +488,9 @@ $$\mathrm{RF} = \frac{\text{number of recombinant offspring}}{\text{total offspr
 
 Used to determine whether observed data deviate significantly from expected ratios:
 
-$$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$$
+$$
+\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
+$$
 
 **Steps:**
 
@@ -471,6 +503,8 @@ $$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$$
 
 ### Pedigree Analysis
 
+<div class="table-wrap">
+
 | Feature                                     | Autosomal dominant                | Autosomal recessive               | X-linked recessive                                  |
 | ------------------------------------------- | --------------------------------- | --------------------------------- | --------------------------------------------------- |
 | **Affected individuals per generation**     | every generation                  | May skip generations              | Mostly males; skips generations via carrier females |
@@ -478,6 +512,8 @@ $$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$$
 | **Male-to-male transmission**               | Yes                               | Yes                               | No                                                  |
 | **Carrier females**                         | No                                | Yes                               | Yes                                                 |
 | **Ratio in carrier $\times$ normal mating** | $1:1$ affected:normal             | $1:2:1$ (affected:carrier:normal) | $1:1$ (affected male:normal female)                 |
+
+</div>
 
 ---
 
@@ -559,7 +595,7 @@ fragment). Plus the initial primer on the leading strand.
 <summary>Question 2: Operon Regulation Prediction</summary>
 
 An _E. Coli_ culture is growing in a medium containing lactose but no glucose. Predict whether the
-Lac operon is ON or OFF. The culture is then supplemented with a high concentration of glucose.
+lac operon is ON or OFF. The culture is then supplemented with a high concentration of glucose.
 Predict the new state of the lac operon and explain the molecular mechanism, including the roles Of
 allolactose, cAMP, CAP, and the lac repressor.
 
@@ -601,6 +637,8 @@ $v$ = vestigial) are linked on chromosome 2. A test cross between a double heter
 ($b^+ b\; v^+ v / b\; b\; v\; v$) and a double recessive ($b\; b\; v\; v / b\; b\; v\; v$) produces
 the following offspring:
 
+<div class="table-wrap">
+
 | Phenotype        | Number   |
 | ---------------- | -------- |
 | Grey, normal     | 430      |
@@ -608,6 +646,8 @@ the following offspring:
 | Grey, vestigial  | 65       |
 | Black, normal    | 60       |
 | **Total**        | **1000** |
+
+</div>
 
 (a) Calculate the recombination frequency. (b) Perform a chi-squared test to determine whether The
 data deviate from the expected ratio for linked genes at $p = 0.05$ (critical value $= 3.84$ For $1$
@@ -663,13 +703,13 @@ silenced.
 (b) Inhibiting DNA methyltransferases would prevent the maintenance of methylation patterns during
 DNA replication. Over successive cell divisions, the promoter would become progressively
 Hypomethylated. The chromatin would relax (become euchromatin), and transcription factors would
-Regain access to the promoter. Gene expression would increase (or be reactivated). This is the Basis
+regain access to the promoter. Gene expression would increase (or be reactivated). This is the Basis
 for **epigenetic therapy** in certain cancers (e.g., azacitidine for myelodysplastic syndromes).
 
 (c) Identical twins have the same genome but accumulate different epigenetic modifications over
-Their lifetimes due to: different environmental exposures (diet, toxins, stress, physical activity),
+their lifetimes due to: different environmental exposures (diet, toxins, stress, physical activity),
 Different stochastic (random) epigenetic changes, and different in utero environments. These
-Epigenetic differences alter gene expression patterns, contributing to discordant disease
+epigenetic differences alter gene expression patterns, contributing to discordant disease
 Susceptibility (e.g., one twin develops autoimmune disease or cancer while the other does not).
 
 </details>
@@ -690,7 +730,7 @@ Colonies, (f) inducing HGH expression. Explain the role of each enzyme and genet
 (a) **Obtaining the HGH gene**: extract mRNA from human pituitary cells, use reverse transcriptase
 to synthesise cDNA. Amplify the HGH cDNA by PCR using primers that incorporate restriction sites
 (e.g., EcoRI and BamHI at the $5'$ and $3'$ ends). This produces a gene without introns (essential
-For expression in prokaryotes, which cannot splice eukaryotic introns).
+for expression in prokaryotes, which cannot splice eukaryotic introns).
 
 (b) **Vector selection**: use a plasmid with: an origin of replication (for replication in _E.
 Coli_), An antibiotic resistance gene (e.g., ampicillin resistance, amp$^R$), a multiple cloning
@@ -698,16 +738,16 @@ site (MCS) With EcoRI and BamHI sites, and a promoter (e.g., lac promoter for in
 
 (c) **Creating the recombinant plasmid**: digest both the HGH cDNA and the plasmid with EcoRI and
 BamHI. Mix the fragments with **DNA ligase**, which forms phosphodiester bonds between the HGH gene
-And the opened plasmid.
+and the opened plasmid.
 
 (d) **Transformation**: introduce the ligation mixture into competent _E. Coli_ cells by heat shock
 ($42^\circ\mathrm{C}$ for $90\;\mathrm{s}$) or electroporation. Allow recovery in rich medium.
 
 (e) **Selection**: plate cells on agar containing ampicillin. Only cells that have taken up the
-Plasmid (with amp$^R$) will grow. To distinguish recombinant from non-recombinant colonies, use
+plasmid (with amp$^R$) will grow. To distinguish recombinant from non-recombinant colonies, use
 Blue-white screening: the plasmid carries the lacZ gene in the MCS; insertion of the HGH gene
 Disrupts lacZ, so colonies containing the recombinant plasmid are white (X-gal + IPTG in the
-Medium).
+medium).
 
 (f) **Inducing expression**: grow the recombinant _E. Coli_ in culture, then add IPTG (isopropyl
 $\beta$-D-1-thiogalactopyranoside) to induce the lac promoter. The _E. Coli_ transcribes and
@@ -759,8 +799,8 @@ Reflecting the staggered activation of origins and other cellular processes.
 A protein has a molecular weight of $55\;\mathrm{kDa}$ and an average amino acid molecular weight of
 $110\;\mathrm{Da}$. The gene has $4$ introns with an average length of $1200\;\mathrm{bp}$ and $5$
 Exons. (a) Calculate the number of amino acids and the minimum coding sequence length. (b) If the
-Mature mRNA is $1800\;\mathrm{bp}$ long, what proportion is coding sequence? (c) Calculate the
-Pre-mRNA length.
+mature mRNA is $1800\;\mathrm{bp}$ long, what proportion is coding sequence? (c) Calculate the
+pre-mRNA length.
 
 <details>
 <summary>Solution</summary>
@@ -830,9 +870,9 @@ Explain how the cell repairs UV-induced damage through nucleotide excision repai
 <summary>Problem 2: Quantitative -- PCR and qPCR</summary>
 
 A researcher uses qPCR to quantify the expression of gene $X$ in two tissue samples. For sample A,
-The threshold is reached at cycle 22; for sample B, at cycle 28. The standard curve (using known
+the threshold is reached at cycle 22; for sample B, at cycle 28. The standard curve (using known
 Copy numbers) shows that 1 log$_{10}$ difference in copy number corresponds to 3.32 cycles. (a)
-Calculate the fold difference in gene $X$ expression between samples A and B. (b) Explain Why qPCR
+calculate the fold difference in gene $X$ expression between samples A and B. (b) Explain Why qPCR
 uses a fluorescent DNA-binding dye or probe rather than measuring the final product by Gel
 electrophoresis. (c) What is the role of the reference (housekeeping) gene in qPCR analysis?
 
@@ -842,7 +882,7 @@ electrophoresis. (c) What is the role of the reference (housekeeping) gene in qP
 <summary>Problem 3: Extended Response -- Operon Regulation Comparison</summary>
 
 Compare and contrast the lac operon and trp operon in _E. Coli_, addressing: (a) whether each is
-Inducible or repressible, (b) the role of the effector molecule, (c) the mechanism of regulation At
+inducible or repressible, (b) the role of the effector molecule, (c) the mechanism of regulation At
 the operator, and (d) any additional regulatory mechanism (catabolite repression for lac;
 Attenuation for trp). Explain the adaptive advantage of each regulatory strategy.
 
@@ -855,7 +895,7 @@ Golden Rice is genetically engineered to produce beta-carotene (provitamin A) in
 Addressing vitamin A deficiency in developing countries. (a) Describe the steps used to create
 Golden Rice. (b) Discuss two ecological concerns about widespread cultivation of GM crops. (c)
 Evaluate the argument that GM crops should be banned due to the precautionary principle, considering
-The potential benefits for human health.
+the potential benefits for human health.
 
 </details>
 
@@ -936,7 +976,7 @@ Since the molecule has $2400$ total nucleotides, and $A_{total} = T_{total}$, $G
 $A_{total} + T_{total} + G_{total} + C_{total} = 2400$ $2A_{total} + 2G_{total} = 2400$
 $A_{total} + G_{total} = 1200$
 
-But we only know $A_1 = 300$Not $A_{total}$. We need more information. If the problem states that
+But we only know $A_1 = 300$ Not $A_{total}$. We need more information. If the problem states that
 one strand has $300$ A bases, then:
 
 - Strand 1 has $A_1 = 300$ So strand 2 has $T_2 = 300$ at those positions.
@@ -1002,7 +1042,7 @@ So BamHI cuts within the $3000\;\mathrm{bp}$ EcoRI fragment, splitting it into $
 
 Now: the $1500\;\mathrm{bp}$ BamHI fragment is not cut by EcoRI (it appears intact in the double
 digest). The $3500\;\mathrm{bp}$ BamHI fragment is cut by EcoRI into $500 + 1000 + 2000 = 3500$.
-That gives 3 fragments from one region, but we only have $500$ and $1000$ and $1500$ and $2000$ in
+that gives 3 fragments from one region, but we only have $500$ and $1000$ and $1500$ and $2000$ in
 the double digest.
 
 Let me reconsider: the $3500\;\mathrm{bp}$ BamHI fragment is cut by EcoRI. Since the
@@ -1019,7 +1059,7 @@ BamHI -- $1500$ -- (back to start).
 
 Verification: EcoRI to EcoRI $= 1000\;\mathrm{bp}$ (short fragment), and the other EcoRI to EcoRI
 (going the other way around) $= 500 + 1500 + 2000 = 4000$. But EcoRI alone gave $2000$ and $3000$.
-This does not match.
+this does not match.
 
 Let me redo this more carefully. Label the four sites in order around the circle: let us place them
 as positions on a linear map $0$ to $5000$.
@@ -1063,6 +1103,8 @@ BamHI alone: $1500$ and $3500$. Double digest: $500, 1000, 1500, 2000$. All corr
 A Sanger sequencing reaction using the ddNTP chain termination method produces the following gel
 Electrophoresis results (read from bottom to top, smallest to largest fragment):
 
+<div class="table-wrap">
+
 | Fragment size (from bottom) | Lane A | Lane T | Lane C | Lane G |
 | --------------------------- | ------ | ------ | ------ | ------ |
 | 1 (shortest)                |        |        | band   |        |
@@ -1075,6 +1117,8 @@ Electrophoresis results (read from bottom to top, smallest to largest fragment):
 | 8                           |        |        |        | band   |
 | 9                           |        |        | band   |        |
 | 10                          | band   |        |        |        |
+
+</div>
 
 Determine the sequence of the template strand ($5' \to 3'$) and the complementary strand.
 
@@ -1090,9 +1134,9 @@ Reading from position 1 to 10: C, T, G, A, C, T, A, G, C, A.
 New strand ($5' \to 3'$): $5'$-CTGACTAGCA-$3'$
 
 The new strand is synthesised complementary to the template strand. The template strand is read in
-The $3' \to 5'$ direction by DNA polymerase, so:
+the $3' \to 5'$ direction by DNA polymerase, so:
 
-Template strand ($3' \to 5'$): $3'$-GACTGATCGT-$5'$Which written $5' \to 3'$ is:
+Template strand ($3' \to 5'$): $3'$-GACTGATCGT-$5'$ Which written $5' \to 3'$ is:
 $5'$-TGCTAGTCAG-$3'$
 
 The coding strand (same as new strand, $5' \to 3'$): $5'$-CTGACTAGCA-$3'$
@@ -1124,7 +1168,7 @@ $P(\text{normal for both}) = \frac{3}{4} \times \frac{3}{4} = \frac{9}{16}$
 $P(AaCc) = P(Aa) \times P(Cc) = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4}$
 
 (Note: this assumes the two genes are on different chromosomes. If linked, the calculation would
-Differ depending on the recombination frequency.)
+differ depending on the recombination frequency.)
 
 </details>
 
@@ -1138,7 +1182,7 @@ A family shows the following pattern for a rare disorder:
   unaffected son.
 
 (a) Determine the mode of inheritance. (b) State the genotypes of all individuals. (c) Calculate the
-Probability that II-1 and II-2's next child will be affected.
+probability that II-1 and II-2's next child will be affected.
 
 <details>
 <summary>Solution</summary>
@@ -1226,7 +1270,7 @@ is used.
 <summary>Answer 6</summary>
 
 (a) Thymine dimers distort the DNA double helix, causing a kink. During replication, DNA polymerase
-Cannot read past the dimer, stalling the replication fork and potentially leading to double-strand
+cannot read past the dimer, stalling the replication fork and potentially leading to double-strand
 breaks Or error-prone translesion synthesis. During transcription, RNA polymerase may stall or
 incorporate Incorrect nucleotides, producing mutated mRNA and potentially dysfunctional proteins.
 
@@ -1248,7 +1292,7 @@ suppressor genes (e.g., p53) or proto-oncogenes can lead to uncontrolled cell di
 cancer. XP patients are Extremely sensitive to UV light and develop skin cancers at a young age.
 
 (d) NER removes bulky, helix-distorting lesions (thymine dimers, chemical adducts) by excising a
-Segment of approximately $30$ nucleotides. BER removes small, non-helix-distorting base
+segment of approximately $30$ nucleotides. BER removes small, non-helix-distorting base
 modifications (deaminated bases, oxidised bases like 8-oxoguanine, alkylated bases) by excising a
 single damaged base: A specific DNA glycosylase recognises and removes the damaged base, AP
 endonuclease cuts the backbone, DNA polymerase $\beta$ fills the single-nucleotide gap, and DNA
@@ -1284,7 +1328,7 @@ $N = 10^4 \times 3.17 \times 10^8 = 3.17 \times 10^{12}$ copies.
 (c) Concentration: $\frac{3.17 \times 10^{12}}{100} = 3.17 \times 10^{10}$ copies/$\mu\mathrm{L}$.
 
 (d) PCR efficiency is less than $100\%$ because: primers may anneal imperfectly, DNA polymerase may
-Dissociate from the template, secondary structures in the DNA may block polymerase progression,
+dissociate from the template, secondary structures in the DNA may block polymerase progression,
 Reagents become limiting in later cycles, and the denaturation temperature may not fully separate
 all DNA strands.
 
@@ -1297,7 +1341,7 @@ The Hox genes are a family of transcription factors that control body plan devel
 (a) Explain what is meant by "transcription factor" and describe the general structure of a
 Sequence-specific transcription factor. (b) Explain the concept of colinearity as it applies to Hox
 Genes. (c) A mutation in a Hox gene causes a homeotic transformation (e.g., legs developing in place
-Of antennae in _Drosophila_). Explain how a single gene mutation can cause such a dramatic
+of antennae in _Drosophila_). Explain how a single gene mutation can cause such a dramatic
 phenotypic Change. (d) Discuss why Hox genes are highly conserved across animal phyla.
 
 </details>
@@ -1325,7 +1369,7 @@ expressed earlier in Development.
 
 (c) Hox genes encode transcription factors that regulate the expression of many downstream genes
 Involved in segment identity. A mutation in a Hox gene changes the spatial expression pattern of the
-Transcription factor, causing the wrong set of downstream genes to be activated in a given body
+transcription factor, causing the wrong set of downstream genes to be activated in a given body
 segment. For example, in _Drosophila_, the _Antennapedia_ mutation causes the Antennapedia protein
 (normally Expressed in thoracic segments) to be expressed in the head, activating leg-development
 genes instead Of antenna-development genes. This illustrates the concept of a **master regulatory
@@ -1347,6 +1391,8 @@ bilaterian Animals.
 The following table shows the codon usage frequency (per 1000 codons) for leucine in a bacterial
 genome And the corresponding tRNA gene copy number:
 
+<div class="table-wrap">
+
 | Codon | Usage (per 1000) | tRNA gene copies |
 | ----- | ---------------- | ---------------- |
 | UUA   | 12               | 1                |
@@ -1356,8 +1402,10 @@ genome And the corresponding tRNA gene copy number:
 | CUA   | 7                | 1                |
 | CUG   | 52               | 5                |
 
+</div>
+
 (a) Explain the correlation between codon usage and tRNA gene copy number. (b) A synthetic gene for
-Human insulin is to be expressed in this bacterium. The human insulin gene uses the following
+human insulin is to be expressed in this bacterium. The human insulin gene uses the following
 leucine Codons: CUG ($40\%$), UUA ($20\%$), CUU ($15\%$), CUA ($15\%$), UUG ($10\%$). Suggest how
 the gene Could be optimised for expression in this bacterium. (c) Explain why codon optimisation
 increases Protein yield.
@@ -1409,7 +1457,7 @@ they might be Minimised. (e) Evaluate the ethical implications of germline gene 
 <summary>Answer 10</summary>
 
 (a) CRISPR-Cas is an adaptive immune system in bacteria and archaea. When a bacterium survives a
-Bacteriophage infection, it incorporates fragments of the phage DNA (spacers) into the CRISPR array
+bacteriophage infection, it incorporates fragments of the phage DNA (spacers) into the CRISPR array
 in Its genome. Upon subsequent infection by the same phage, the CRISPR array is transcribed and
 processed Into CRISPR RNAs (crRNAs). These crRNAs guide Cas proteins to the matching phage DNA,
 where Cas cleaves The DNA, destroying the phage genome and protecting the bacterium.
@@ -1478,7 +1526,7 @@ population are: $3200\;\mathrm{bp} = 0.15$$5600\;\mathrm{bp} = 0.08$ And the rem
 collectively have a Combined frequency of $0.77$. (a) Assuming Hardy-Weinberg equilibrium, calculate
 the probability of this Specific genotype in the population. (b) If three independent VNTR loci are
 tested and all match between The suspect and the crime scene sample, and the match probabilities for
-the other two loci are $1/120$ and $1/85$Calculate the combined probability of a random match. (c)
+the other two loci are $1/120$ and $1/85$ Calculate the combined probability of a random match. (c)
 Explain why this Probability does not equal the probability of the suspect's guilt.
 
 </details>
@@ -1613,10 +1661,14 @@ which has multiple Isoforms with different adhesive properties.
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic               | Site    | Link                                                                              |
 | ------------------- | ------- | --------------------------------------------------------------------------------- |
 | [Advanced Genetics] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/genetics-advanced) |
-| [Advanced Genetics] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/3-genetics/2_genetics-advanced)     |
+| [Advanced Genetics] | IB      | [View](https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced/)     |
+
+</div>
 
 ## Supplementary: Genetic Engineering Applications (HL Extension)
 
@@ -1687,6 +1739,8 @@ patient's cells.
 
 Pharmacogenomics studies how genetic variation affects drug response. Examples:
 
+<div class="table-wrap">
+
 | Gene         | Variant                         | Drug affected                    | Effect                                                        |
 | ------------ | ------------------------------- | -------------------------------- | ------------------------------------------------------------- |
 | CYP2C19      | Poor metaboliser (*2,*3)       | Clopidogrel (antiplatelet)       | Reduced activation of prodrug; higher cardiovascular events   |
@@ -1694,6 +1748,8 @@ Pharmacogenomics studies how genetic variation affects drug response. Examples:
 | VKORC1       | -1639 G>A                       | Warfarin (anticoagulant)         | Reduced VKORC1 expression; lower warfarin dose needed         |
 | HLA-B\*57:01 | Present                         | Abacavir (HIV drug)              | High risk of severe hypersensitivity reaction                 |
 | TPMT         | Low activity variants           | Azathioprine (immunosuppressant) | Reduced drug inactivation; higher toxicity risk               |
+
+</div>
 
 ### DNA Fingerprinting in Forensics
 
@@ -1730,11 +1786,15 @@ DNA fingerprinting (DNA profiling) analyses short tandem repeats (STRs) at multi
 
 A forensic sample is analysed at 3 STR loci with the following results:
 
+<div class="table-wrap">
+
 | Locus   | Evidence genotype | Suspect genotype | Population allele frequencies  |
 | ------- | ----------------- | ---------------- | ------------------------------ |
 | D3S1358 | 15, 17            | 15, 17           | $p_{15} = 0.25$$p_{17} = 0.20$ |
 | vWA     | 14, 16            | 14, 16           | $p_{14} = 0.22$$p_{16} = 0.15$ |
 | FGA     | 22, 24            | 22, 24           | $p_{22} = 0.18$$p_{24} = 0.10$ |
+
+</div>
 
 (a) Calculate the match probability at each locus assuming Hardy-Weinberg equilibrium. (b) Calculate
 the combined match probability. (c) If the suspect's brother is also a potential Source of the DNA,
@@ -1756,26 +1816,15 @@ Approximately 1 in $4200$ people would be expected to match this profile. With m
 loci), The match probability would be $< 1$ in $10^{10}$.
 
 (c) Siblings share on average $50\%$ of their alleles. The brother has a $50\%$ chance of sharing
-Each allele with the suspect (vs. The population frequency for a random person). The sibling match
+each allele with the suspect (vs. The population frequency for a random person). The sibling match
 Probability is much higher than the random match probability. For a rough estimate: at each locus,
 The brother has approximately a $50\%$ chance of sharing each allele, so the probability of matching
-At one locus is approximately $(0.5)^2 + (0.5)^2 = 0.50$ (if homozygous) or
+at one locus is approximately $(0.5)^2 + (0.5)^2 = 0.50$ (if homozygous) or
 $2 \times 0.5 \times 0.5 = 0.50$ (if heterozygous). Across 3 loci: approximately $0.5^3 = 0.125$
 ($1$ in $8$). This is far higher Than the random match probability ($1$ in $4202$), illustrating why
 the suspect's relationship to Other potential sources of DNA is relevant in forensic analysis.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[2_Genetics Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

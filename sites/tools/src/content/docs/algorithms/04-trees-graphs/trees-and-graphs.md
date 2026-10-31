@@ -28,6 +28,8 @@ description: "A tree is a connected, acyclic, undirected graph. In computer scie
 A tree is a connected, acyclic, undirected graph. In computer science, trees are rooted and Directed
 (parent to child).
 
+<div class="table-wrap">
+
 | Term        | Definition                                                         |
 | ----------- | ------------------------------------------------------------------ |
 | **Root**    | The topmost node, with no parent                                   |
@@ -39,11 +41,15 @@ A tree is a connected, acyclic, undirected graph. In computer science, trees are
 | **Degree**  | Number of children of a node                                       |
 | **Path**    | Sequence of nodes from one node to another                         |
 
+</div>
+
 ## Binary Trees
 
 A binary tree is a tree where each node has at most two children: left and right.
 
 ### Classifications
+
+<div class="table-wrap">
 
 | Type         | Property                                                                  | Nodes in tree of height $h$ |
 | ------------ | ------------------------------------------------------------------------- | --------------------------- |
@@ -51,6 +57,8 @@ A binary tree is a tree where each node has at most two children: left and right
 | **Complete** | All levels filled except possibly the last, which is filled left to right | $2^h$ to $2^{h+1} - 1$      |
 | **Perfect**  | All internal nodes have 2 children, all leaves at same depth              | $2^{h+1} - 1$               |
 | **Balanced** | Height is $O(\log n)$                                                     | Varies                      |
+
+</div>
 
 ### Node Definition
 
@@ -277,6 +285,8 @@ def bst_delete(root, val):
 
 ### BST Complexity
 
+<div class="table-wrap">
+
 | Operation          | Average (balanced) | Worst (degenerate) |
 | ------------------ | ------------------ | ------------------ |
 | Search             | $O(\log n)$        | $O(n)$             |
@@ -284,6 +294,8 @@ def bst_delete(root, val):
 | Delete             | $O(\log n)$        | $O(n)$             |
 | Min/Max            | $O(\log n)$        | $O(n)$             |
 | In-order traversal | $O(n)$             | $O(n)$             |
+
+</div>
 
 ### Validate BST
 
@@ -306,13 +318,13 @@ def is_valid_bst(root):
 
 :::caution
 Insufficient, the BST property requires that **all** values in the left subtree are less than
-`node.val`Not just the immediate left child. A node with value 5, left child with value 1, and
+`node.val`. Not just the immediate left child. A node with value 5, left child with value 1, and
 Left-left grandchild with value 6 fails the BST property but passes the naive check.
 
 ## AVL Trees
 
 An AVL tree is a self-balancing BST where the heights of the two child subtrees of any node differ
-By at most 1. Named after Adelson-Velsky and Landis (1962).
+by at most 1. Named after Adelson-Velsky and Landis (1962).
 
 ### Balance Factor
 
@@ -357,6 +369,8 @@ def rotate_left(x):
     return y
 ```
 
+<div class="table-wrap">
+
 | Imbalance Case | Condition                     | Fix                                             |
 | -------------- | ----------------------------- | ----------------------------------------------- |
 | Left-Left      | bf(node) = 2, bf(left) = 1    | Right rotate at node                            |
@@ -364,7 +378,11 @@ def rotate_left(x):
 | Left-Right     | bf(node) = 2, bf(left) = -1   | Left rotate at left, then right rotate at node  |
 | Right-Left     | bf(node) = -2, bf(right) = 1  | Right rotate at right, then left rotate at node |
 
+</div>
+
 ### Complexity
+
+<div class="table-wrap">
 
 | Operation               | Time        |
 | ----------------------- | ----------- |
@@ -373,9 +391,11 @@ def rotate_left(x):
 | Delete                  | $O(\log n)$ |
 | Rotations per operation | At most 2   |
 
+</div>
+
 AVL trees guarantee $O(\log n)$ height, which is at most $1.44 \log_2(n+2) - 0.328$. In practice,
 AVL trees are taller and require more rotations than red-black trees, but provide faster lookups
-Because the tree is more strictly balanced.
+because the tree is more strictly balanced.
 
 ## Red-Black Trees
 
@@ -418,6 +438,8 @@ Access is a disk seek (~10ms), so a lookup costs ~240ms. A B-tree with order $m 
 4KB disk page) has height $\approx 3$ So a lookup costs ~30ms. This 8x improvement is why every Major
 database uses B-tree variants (B+ trees) for indexing.
 
+<div class="table-wrap">
+
 | Structure          | Height for $n = 10^7$ | Disk seeks |
 | ------------------ | --------------------- | ---------- |
 | Binary tree        | ~24                   | ~24        |
@@ -425,10 +447,12 @@ database uses B-tree variants (B+ trees) for indexing.
 | B-tree (order 100) | ~3                    | ~3         |
 | B-tree (order 400) | ~2                    | ~2         |
 
+</div>
+
 ## Heaps
 
 A heap is a complete binary tree with the heap property: in a max-heap, every node is greater than
-Or equal to its children; in a min-heap, every node is less than or equal to its children.
+or equal to its children; in a min-heap, every node is less than or equal to its children.
 
 ```python
 def heap_sort(arr):
@@ -464,6 +488,8 @@ def _sift_down(arr, n, i):
 
 ### Applications of Heaps
 
+<div class="table-wrap">
+
 | Application          | Heap Type             | Key Idea                      |
 | -------------------- | --------------------- | ----------------------------- |
 | Priority queue       | Min-heap or max-heap  | Extract min/max efficiently   |
@@ -473,10 +499,12 @@ def _sift_down(arr, n, i):
 | Dijkstra's algorithm | Min-heap              | Always process closest vertex |
 | Huffman coding       | Min-heap              | Build optimal prefix code     |
 
+</div>
+
 ## Tries (Prefix Trees)
 
 A trie is a tree where each node represents a character in a prefix. Words are stored as paths from
-The root. The root represents the empty string.
+the root. The root represents the empty string.
 
 ```python
 class TrieNode:
@@ -540,6 +568,8 @@ class Trie:
 
 ### Trie vs Hash Set for Strings
 
+<div class="table-wrap">
+
 | Operation             | Trie                     | Hash Set               |
 | --------------------- | ------------------------ | ---------------------- |
 | Insert                | $O(k)$                   | $O(k)$                 |
@@ -548,6 +578,8 @@ class Trie:
 | Space                 | $O(\mathrm{total chars)$ | $O(n \cdot k)$         |
 | Min string prefix     | $O(k)$                   | Not supported          |
 | Longest common prefix | $O(k)$                   | Not directly supported |
+
+</div>
 
 Tries are the right choice when you need prefix-based operations: autocomplete, spell checking, IP
 Routing (longest prefix match), and word games.
@@ -605,10 +637,14 @@ class GraphMatrix:
             self.matrix[v][u] = weight
 ```
 
+<div class="table-wrap">
+
 | Representation   | Space      | Check edge $u$-$v$     | Iterate neighbours     | Sparse graph |
 | ---------------- | ---------- | ---------------------- | ---------------------- | ------------ |
 | Adjacency list   | $O(V + E)$ | $O(\mathrm{degree(u))$ | $O(\mathrm{degree(u))$ | Efficient    |
 | Adjacency matrix | $O(V^2)$   | $O(1)$                 | $O(V)$                 | Wasteful     |
+
+</div>
 :::
 
 :::note
@@ -729,6 +765,8 @@ def dfs_iterative(graph, start):
 
 ### BFS vs DFS
 
+<div class="table-wrap">
+
 | Property               | BFS                       | DFS                  |
 | ---------------------- | ------------------------- | -------------------- |
 | Data structure         | Queue                     | Stack / recursion    |
@@ -738,6 +776,8 @@ def dfs_iterative(graph, start):
 | Topological sort       | With Kahn's algorithm     | With post-order      |
 | Cycle detection        | Yes                       | Yes                  |
 | Connected components   | Yes                       | Yes                  |
+
+</div>
 
 ## Topological Sort
 
@@ -895,7 +935,7 @@ def has_cycle_directed(graph):
 
 If you insert or delete nodes while iterating over a tree (e.g., deleting all nodes matching a
 Condition), the traversal may skip nodes or follow stale pointers. Either collect nodes to modify
-And apply changes after traversal, or use a recursive approach that handles modification safely.
+and apply changes after traversal, or use a recursive approach that handles modification safely.
 
 ### 2. BST Property Violations
 
@@ -948,9 +988,6 @@ key theorems, methods, and problem-solving approaches.
 - modulus and argument
 - De Moivre's theorem
 - roots of complex numbers
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 ## Worked Examples
 

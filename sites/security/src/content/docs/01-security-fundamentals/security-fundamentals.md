@@ -27,6 +27,8 @@ Encryption, access controls, and data classification.
 
 Mechanisms that enforce confidentiality:
 
+<div class="table-wrap">
+
 | Mechanism             | Layer          | Example                           |
 | --------------------- | -------------- | --------------------------------- |
 | Encryption at rest    | Storage        | AES-256-GCM on disk, database TDE |
@@ -35,14 +37,18 @@ Mechanisms that enforce confidentiality:
 | Data masking          | Presentation   | Redacting PII in logs             |
 | Classification        | Organizational | Public, internal, confidential    |
 
+</div>
+
 Confidentiality is not binary. A system that encrypts data at rest but logs the plaintext to an
 Unsecured file has failed confidentiality. A system that uses AES-256 but stores the key alongside
-The ciphertext has failed confidentiality. The entire data lifecycle must be considered.
+the ciphertext has failed confidentiality. The entire data lifecycle must be considered.
 
 ### Integrity
 
 Integrity ensures that data has not been altered by unauthorized parties. It covers both malicious
 Tampering and accidental corruption.
+
+<div class="table-wrap">
 
 | Mechanism             | Purpose                                | Example                     |
 | --------------------- | -------------------------------------- | --------------------------- |
@@ -52,6 +58,8 @@ Tampering and accidental corruption.
 | Write-once storage    | Prevent post-write modification        | WORM storage for audit logs |
 | Referential integrity | Database-level consistency enforcement | Foreign key constraints     |
 
+</div>
+
 Integrity failures are often subtler than confidentiality failures. A single bit flip in a
 Configuration file can change a firewall rule. A modified dependency in a supply chain attack can
 Introduce a backdoor without changing any visible behavior. Integrity verification must be
@@ -60,7 +68,9 @@ Continuous, not one-time.
 ### Availability
 
 Availability ensures that authorized users can access systems and data when needed. It is defended
-Against both malicious attacks (DDoS) and operational failures (hardware faults, misconfigurations).
+against both malicious attacks (DDoS) and operational failures (hardware faults, misconfigurations).
+
+<div class="table-wrap">
 
 | Threat Vector       | Countermeasure                      | Standard       |
 | ------------------- | ----------------------------------- | -------------- |
@@ -69,6 +79,8 @@ Against both malicious attacks (DDoS) and operational failures (hardware faults,
 | Misconfiguration    | Infrastructure as code, peer review | N/A            |
 | Ransomware          | Backups, immutability, air-gapping  | NIST SP 800-34 |
 | Resource exhaustion | Quotas, auto-scaling, cgroups       | N/A            |
+
+</div>
 
 Availability is the most operationally visible of the three triad elements. When confidentiality or
 Integrity fails silently, you may not know for months. When availability fails, everyone notices
@@ -81,6 +93,8 @@ Threats against a system into six classes, each mapping to a specific security v
 
 ### Threat Categories
 
+<div class="table-wrap">
+
 | Threat                      | STRIDE Category        | Security Impact | Example                                     |
 | --------------------------- | ---------------------- | --------------- | ------------------------------------------- |
 | Impersonating a user        | Spoofing               | Confidentiality | Stolen session token, forged certificate    |
@@ -90,10 +104,12 @@ Threats against a system into six classes, each mapping to a specific security v
 | Denying service             | Denial of Service      | Availability    | SYN flood, resource exhaustion              |
 | Gaining unauthorized access | Elevation of Privilege | All three       | Kernel exploit, privilege escalation        |
 
+</div>
+
 ### Applying STRIDE
 
 STRIDE is applied through **data flow diagrams (DFDs)**. For each component, element, and data flow
-In the diagram, you systematically ask: "Which STRIDE threats apply here?"
+in the diagram, you systematically ask: "Which STRIDE threats apply here?"
 
 ```mermaid
 graph TD
@@ -113,6 +129,8 @@ graph TD
 
 For the diagram above, a partial STRIDE analysis:
 
+<div class="table-wrap">
+
 | Component  | Spoofing | Tampering | Repudiation | Info Disclosure | DoS | EoP |
 | ---------- | -------- | --------- | ----------- | --------------- | --- | --- |
 | User to LB | Yes      | No        | No          | Yes             | Yes | No  |
@@ -120,6 +138,8 @@ For the diagram above, a partial STRIDE analysis:
 | APP to DB  | No       | Yes       | Yes         | Yes             | Yes | Yes |
 | APP to EXT | Yes      | Yes       | No          | Yes             | Yes | No  |
 | APP to FS  | No       | Yes       | No          | Yes             | Yes | Yes |
+
+</div>
 
 ### Threat Trees
 
@@ -150,9 +170,11 @@ Path from root to leaf remains, the threat is mitigated.
 ## Attack Surface Analysis
 
 The attack surface of a system is the set of all points where an untrusted actor can interact with
-It. Reducing the attack surface is one of the highest-leverage security activities.
+it. Reducing the attack surface is one of the highest-leverage security activities.
 
 ### Categories of Attack Surface
+
+<div class="table-wrap">
 
 | Category      | Examples                                       | Reduction Strategy                     |
 | ------------- | ---------------------------------------------- | -------------------------------------- |
@@ -162,14 +184,16 @@ It. Reducing the attack surface is one of the highest-leverage security activiti
 | Physical      | Server room access, USB ports, printed docs    | Access controls, endpoint protection   |
 | Configuration | Default credentials, verbose errors, debug     | Hardening guides, config management    |
 
+</div>
+
 ### Measuring Attack Surface
 
 Attack surface can be quantified using Microsoft's **Relative Attack Surface Quotient (RASQ)**,
 Which assigns a cost to each attack vector (network port, service, RPC endpoint, etc.) and compares
-The total cost across configurations or versions.
+the total cost across configurations or versions.
 
 For practical purposes, the key metric is: **how many distinct paths exist from an untrusted input
-To a protected asset?** Each path represents a potential vulnerability.
+to a protected asset?** Each path represents a potential vulnerability.
 
 ### Attack Surface Reduction Checklist
 
@@ -183,7 +207,7 @@ To a protected asset?** Each path represents a potential vulnerability.
 ## Risk Assessment
 
 Risk assessment is the process of identifying, analyzing, and prioritizing risks. It is the bridge
-Between threat modeling and security investment.
+between threat modeling and security investment.
 
 ### Risk Quantification
 
@@ -195,6 +219,8 @@ $$
 
 Where likelihood and impact are each rated on a defined scale. A common 5-point scale:
 
+<div class="table-wrap">
+
 | Rating | Likelihood Description       | Impact Description               |
 | ------ | ---------------------------- | -------------------------------- |
 | 1      | Rare (&lt;1/year)            | Negligible (&lt;1,000 USD)       |
@@ -203,7 +229,11 @@ Where likelihood and impact are each rated on a defined scale. A common 5-point 
 | 4      | Likely (15-50/year)          | Major (100,000-1,000,000 USD)    |
 | 5      | Almost certain (&gt;50/year) | Catastrophic (&gt;1,000,000 USD) |
 
+</div>
+
 ### Risk Matrix
+
+<div class="table-wrap">
 
 | Likelihood / Impact | Negligible (1) | Minor (2) | Moderate (3) | Major (4) | Catastrophic (5) |
 | ------------------- | -------------- | --------- | ------------ | --------- | ---------------- |
@@ -212,6 +242,8 @@ Where likelihood and impact are each rated on a defined scale. A common 5-point 
 | Possible (3)        | 3              | 6         | 9            | 12        | 16               |
 | Unlikely (2)        | 2              | 4         | 6            | 8         | 12               |
 | Rare (1)            | 1              | 2         | 3            | 4         | 8                |
+
+</div>
 
 Risks scoring 15 or above require immediate mitigation. Risks scoring 8-14 require a Mitigation plan
 with defined timelines. Risks below 8 may be accepted with documentation.
@@ -226,7 +258,7 @@ Framework. It decomposes risk into:
 
 LEF is further decomposed into **Threat Event Frequency** (how often the threat actor attempts the
 Attack) and **Vulnerability** (the probability that an attempt succeeds). Loss Magnitude includes
-Both **Primary Loss** (direct costs) and **Secondary Loss** (response, reputation, regulatory).
+both **Primary Loss** (direct costs) and **Secondary Loss** (response, reputation, regulatory).
 
 FAIR produces a probability distribution over loss amounts rather than a single point estimate,
 Enabling risk-informed decision-making.
@@ -245,6 +277,8 @@ Admin access to the database.
 
 ### Implementation Across Layers
 
+<div class="table-wrap">
+
 | Layer       | Least Privilege Mechanism            | Example                                |
 | ----------- | ------------------------------------ | -------------------------------------- |
 | OS          | User accounts, capabilities, seccomp | Run web server as `nobody`Not root     |
@@ -254,17 +288,19 @@ Admin access to the database.
 | Network     | Microsegmentation, network policies  | Pod can only talk to its own backend   |
 | Application | RBAC, feature flags                  | User can edit but not delete           |
 
+</div>
+
 ### Just-in-Time (JIT) Access
 
 Static privilege assignment accumulates permissions over time. JIT access grants elevated privileges
-On demand, with automatic expiration. Systems like AWS IAM, HashiCorp Vault, and Teleport support
+on demand, with automatic expiration. Systems like AWS IAM, HashiCorp Vault, and Teleport support
 JIT patterns.
 
 ### Separation of Duties
 
 Related to least privilege is separation of duties: no single individual should control all aspects
-Of a critical operation. A developer who writes code should not be the sole approver for deploying
-It to production. A database administrator should not be the sole reviewer of audit logs.
+of a critical operation. A developer who writes code should not be the sole approver for deploying
+it to production. A database administrator should not be the sole reviewer of audit logs.
 
 ## Defense in Depth
 
@@ -325,7 +361,7 @@ graph TD
 
 Zero trust is a security model that eliminates implicit trust based on network location. The
 Traditional perimeter model assumes that everything inside the network is trustworthy and everything
-Outside is not. Zero trust assumes that no network location, user, or device is inherently
+outside is not. Zero trust assumes that no network location, user, or device is inherently
 Trustworthy.
 
 ### Core Principles (NIST SP 800-207)
@@ -345,6 +381,8 @@ Trustworthy.
 
 ### Zero Trust vs VPN Model
 
+<div class="table-wrap">
+
 | Aspect             | VPN Model                  | Zero Trust Model                 |
 | ------------------ | -------------------------- | -------------------------------- |
 | Trust model        | Trust the network          | Trust nothing, verify everything |
@@ -353,6 +391,8 @@ Trustworthy.
 | Authentication     | At connection time         | Continuous                       |
 | Policy enforcement | At perimeter               | At every resource                |
 | Deployment         | VPN concentrator           | Per-application proxies, SASE    |
+
+</div>
 
 ### Implementation Components
 
@@ -423,6 +463,8 @@ Every time data crosses a trust boundary, you must consider:
 In cloud environments, the security boundary between provider and customer is critical. AWS, Azure,
 And GCP each define shared responsibility models, but the general principle is:
 
+<div class="table-wrap">
+
 | Responsibility    | Provider                              | Customer                             |
 | ----------------- | ------------------------------------- | ------------------------------------ |
 | Physical security | Data center, hardware, networking     | N/A                                  |
@@ -431,9 +473,13 @@ And GCP each define shared responsibility models, but the general principle is:
 | Data protection   | Encryption infrastructure             | Encryption keys, data classification |
 | Compliance        | SOC 2, ISO 27001 certification        | Customer-specific compliance         |
 
+</div>
+
 ## OWASP Top 10 Overview
 
 The OWASP Top 10 is a standard awareness document for web application security. The 2021 edition:
+
+<div class="table-wrap">
 
 | #   | Category                                   | Description                                            |
 | --- | ------------------------------------------ | ------------------------------------------------------ |
@@ -447,6 +493,8 @@ The OWASP Top 10 is a standard awareness document for web application security. 
 | A08 | Software and Data Integrity Failures       | Insecure CI/CD, unsigned updates, auto-fill            |
 | A09 | Security Logging and Monitoring Failures   | Insufficient logging, no alerting, missing audit trail |
 | A10 | Server-Side Request Forgery (SSRF)         | Server coerced into accessing unintended resources     |
+
+</div>
 
 Each of these is covered in detail in subsequent sections. See
 [Web Security](/04-web-security/web-security/) for mitigation details.
@@ -466,13 +514,19 @@ Identifier referenced by vulnerability scanners, package managers, and security 
 CVSS provides a numerical score (0.0-10.0) representing the severity of a vulnerability. CVSS v3.1
 Uses three metric groups:
 
+<div class="table-wrap">
+
 | Metric Group  | Components                                                                          | Purpose                            |
 | ------------- | ----------------------------------------------------------------------------------- | ---------------------------------- |
 | Base          | Attack vector, complexity, privileges required, user interaction, scope, CIA impact | Intrinsic severity (immutable)     |
 | Temporal      | Exploitability, remediation level, report confidence                                | Current state of the vulnerability |
 | Environmental | Modified base metrics, CIA requirements, security requirements                      | Organizational impact              |
 
+</div>
+
 ### Interpreting CVSS Scores
+
+<div class="table-wrap">
 
 | Score Range | Severity | Action                                     |
 | ----------- | -------- | ------------------------------------------ |
@@ -482,10 +536,12 @@ Uses three metric groups:
 | 7.0-8.9     | High     | Address within 7-30 days                   |
 | 9.0-10.0    | Critical | Address immediately (within 24-72 hours)   |
 
+</div>
+
 :::caution
 An internal tool with no network exposure is less urgent than a CVSS 7.5 vulnerability in an
 Internet-facing authentication service. Always factor exploitability, exposure, and business context
-Into prioritization.
+into prioritization.
 
 ## Security Through Obscurity
 
@@ -521,6 +577,8 @@ Required for reconnaissance. But it must never be the sole or primary security c
 Obscurity can serve as an additional layer in a defense-in-depth strategy, but only when backed by
 Real security controls:
 
+<div class="table-wrap">
+
 | Anti-Pattern            | Why It Fails                                        | Proper Alternative                   |
 | ----------------------- | --------------------------------------------------- | ------------------------------------ |
 | Custom crypto algorithm | Not peer-reviewed, almost certainly breakable       | AES, ChaCha20, Ed25519               |
@@ -530,6 +588,8 @@ Real security controls:
 | Custom binary protocols | Wireshark + protocol analysis reveals structure     | TLS + standard protocol              |
 | Removing server headers | Banner grabbing is one of many recon methods        | Harden the service, not the banner   |
 
+</div>
+
 ## Threat Intelligence
 
 Threat intelligence is information about threats and threat actors that helps organizations make
@@ -538,6 +598,8 @@ Domains, file hashes) into actionable context (who is attacking, why, and how).
 
 ### Types of Threat Intelligence
 
+<div class="table-wrap">
+
 | Type        | Description                                           | Audience            | Example                                               |
 | ----------- | ----------------------------------------------------- | ------------------- | ----------------------------------------------------- |
 | Strategic   | High-level trends, motivations, TTPs of threat actors | Executives, board   | "State-sponsored actors targeting financial services" |
@@ -545,7 +607,11 @@ Domains, file hashes) into actionable context (who is attacking, why, and how).
 | Tactical    | TTPs (tactics, techniques, procedures)                | Security engineers  | MITRE ATT&CK mapping of recent breach                 |
 | Technical   | IOCs, signatures, YARA rules                          | Analysts, automated | Malware hashes, C2 domains, URLs                      |
 
+</div>
+
 ### Threat Intelligence Sources
+
+<div class="table-wrap">
 
 | Source                               | Type                | Cost      | Use Case                            |
 | ------------------------------------ | ------------------- | --------- | ----------------------------------- |
@@ -556,6 +622,8 @@ Domains, file hashes) into actionable context (who is attacking, why, and how).
 | Mandiant                             | Strategic, tactical | Paid      | APT tracking, incident analysis     |
 | VirusTotal                           | Technical           | Free/Paid | Malware analysis, hash lookup       |
 | Shodan                               | Technical           | Free/Paid | Internet-facing exposure assessment |
+
+</div>
 
 ### Intelligence-Driven Defense
 
@@ -576,14 +644,20 @@ Effectiveness of security controls and inform resource allocation.
 
 ### Leading vs Lagging Indicators
 
+<div class="table-wrap">
+
 | Type    | Description                                   | Example                                |
 | ------- | --------------------------------------------- | -------------------------------------- |
 | Leading | Predictive, measures effort and preparedness | Percentage of systems with MFA enabled |
 | Lagging | Reactive, measures outcomes after the fact   | Number of breaches in the last year    |
 
+</div>
+
 Leading indicators are more actionable because you can influence them before an incident occurs.
 
 ### Meaningful Security Metrics
+
+<div class="table-wrap">
 
 | Metric                                  | Type    | Why It Matters                                     |
 | --------------------------------------- | ------- | -------------------------------------------------- |
@@ -595,6 +669,8 @@ Leading indicators are more actionable because you can influence them before an 
 | Mean Time to Respond (MTTR)             | Lagging | Measures response effectiveness                    |
 | Number of high/critical vulnerabilities | Lagging | Measures exposure (trending downward is good)      |
 | Failed authentication attempts          | Leading | Indicates brute-force activity and password policy |
+
+</div>
 
 ### Anti-Patterns in Security Metrics
 
@@ -615,6 +691,8 @@ Maintaining adequate protection.
 
 ### Common Trade-off Decisions
 
+<div class="table-wrap">
+
 | Decision                 | Security Benefit           | Convenience Cost               | Typical Resolution                   |
 | ------------------------ | -------------------------- | ------------------------------ | ------------------------------------ |
 | Password rotation        | Limits credential lifetime | User frustration, sticky notes | NIST now discourages forced rotation |
@@ -623,6 +701,8 @@ Maintaining adequate protection.
 | Session timeout          | Limits window of exposure  | Interrupted workflows          | Adaptive timeout by risk             |
 | Code review requirements | Catches vulnerabilities    | Slower deployment              | Automated scanning + review          |
 | Network segmentation     | Limits lateral movement    | Configuration complexity       | Service mesh, policy as code         |
+
+</div>
 
 ### The Cost of Getting It Wrong
 
@@ -633,7 +713,7 @@ rounding error by comparison.
 
 However, excessive security friction drives shadow IT, users routing around controls using personal
 Devices, unapproved SaaS, and shared credentials. The goal is security that is effective without
-Being burdensome enough to create workarounds.
+being burdensome enough to create workarounds.
 
 ### Designing Usable Security
 
@@ -649,7 +729,9 @@ Security:
 ### Security by Design Principles
 
 Security should be integrated into the development lifecycle from the earliest stages, not bolted on
-At the end:
+at the end:
+
+<div class="table-wrap">
 
 | Phase           | Security Activity                               | Output                           |
 | --------------- | ----------------------------------------------- | -------------------------------- |
@@ -661,6 +743,8 @@ At the end:
 | Operations      | Monitoring, incident response, patch management | Operational runbooks             |
 | Decommissioning | Secure data disposal, credential revocation     | Disposal certificate             |
 
+</div>
+
 ## Security Governance
 
 ### Security Policies
@@ -669,6 +753,8 @@ A security policy is a high-level statement of management intent that defines th
 Security objectives and principles. Policies are supported by standards (mandatory requirements),
 Guidelines (recommended practices), and procedures (step-by-step instructions).
 
+<div class="table-wrap">
+
 | Document Type | Purpose                                          | Example                                                         |
 | ------------- | ------------------------------------------------ | --------------------------------------------------------------- |
 | Policy        | What must be done and why (management directive) | "All data classified as confidential must be encrypted at rest" |
@@ -676,16 +762,22 @@ Guidelines (recommended practices), and procedures (step-by-step instructions).
 | Guideline     | What should be done (recommended best practice)  | "Use Argon2id for password hashing"                             |
 | Procedure     | How to do it (step-by-step instructions)         | "How to rotate database credentials"                            |
 
+</div>
+
 ### Risk Register
 
 A risk register is a living document that tracks identified risks, their assessment, and their
 Mitigation status:
+
+<div class="table-wrap">
 
 | Risk ID | Description                        | Likelihood | Impact | Score | Mitigation            | Owner    | Status      |
 | ------- | ---------------------------------- | ---------- | ------ | ----- | --------------------- | -------- | ----------- |
 | R-001   | SQL injection in login endpoint    | 3          | 4      | 12    | Parameterized queries | Dev Lead | In Progress |
 | R-002   | Unencrypted data in S3 bucket      | 2          | 5      | 10    | Enable SSE-S3         | Ops Lead | Mitigated   |
 | R-003   | Stale SSH keys on production hosts | 4          | 3      | 12    | SSH CA, cert rotation | SRE Lead | Open        |
+
+</div>
 
 ### Security Awareness and Culture
 
@@ -694,6 +786,8 @@ Make security a shared responsibility, not a gatekeeping function.
 
 **Effective security awareness programs:**
 
+<div class="table-wrap">
+
 | Approach                     | Why It Works                                             | Why Alternatives Fail               |
 | ---------------------------- | -------------------------------------------------------- | ----------------------------------- |
 | Phishing simulations         | Provides real-time feedback, measures improvement        | One-time training that is forgotten |
@@ -701,6 +795,8 @@ Make security a shared responsibility, not a gatekeeping function.
 | Positive reinforcement       | Rewards good behavior (reporting phishing, MFA adoption) | Punitive "gotcha" culture           |
 | Security champions program   | Embeds security advocates in each team                   | Centralized team as bottleneck      |
 | Metrics and transparency     | Shows improvement over time, builds engagement           | No visibility into progress         |
+
+</div>
 
 The most effective security awareness programs frame security as enabling the business, not
 Constraining it. "This MFA protects you from account takeover" is more effective than "You must use
@@ -716,6 +812,8 @@ Information assets.
 
 The standard follows the Plan-Do-Check-Act (PDCA) cycle:
 
+<div class="table-wrap">
+
 | Phase | Activity                                                    | Output                                 |
 | ----- | ----------------------------------------------------------- | -------------------------------------- |
 | Plan  | Define scope, assess risks, set objectives, select controls | Risk treatment plan, SoA               |
@@ -723,9 +821,13 @@ The standard follows the Plan-Do-Check-Act (PDCA) cycle:
 | Check | Monitor, audit, review effectiveness                        | Audit reports, metrics, incidents      |
 | Act   | Corrective actions, continual improvement                   | Updated policies, improved controls    |
 
+</div>
+
 ### Controls (ISO/IEC 27001 Annex A)
 
 The 2022 revision reorganized controls into four themes:
+
+<div class="table-wrap">
 
 | Theme          | Number of Controls | Examples                                         |
 | -------------- | ------------------ | ------------------------------------------------ |
@@ -733,6 +835,8 @@ The 2022 revision reorganized controls into four themes:
 | People         | 8                  | Screening, terms of employment, training         |
 | Physical       | 14                 | Office security, equipment, clear desk           |
 | Technological  | 34                 | Access control, cryptography, operations         |
+
+</div>
 
 ## Common Pitfalls
 
@@ -753,8 +857,8 @@ Legal liability. Both are necessary; neither is sufficient.
 ### Pitfall 3: Trusting the Network
 
 The assumption that "internal traffic is safe" has been obsolete for over a decade. Lateral movement
-Is a standard post-exploitation technique. Worms propagate across internal networks. Insider threats
-Are by definition inside the perimeter. Every internal service-to-service communication should be
+is a standard post-exploitation technique. Worms propagate across internal networks. Insider threats
+are by definition inside the perimeter. Every internal service-to-service communication should be
 Authenticated and encrypted.
 
 ### Pitfall 4: Neglecting the Supply Chain
@@ -780,21 +884,21 @@ Protect against:
 The most sophisticated technical controls are defeated by a user clicking a phishing link, reusing a
 Password, or sharing credentials over Slack. Technical controls must account for human behavior, not
 Assume perfect users. Security awareness training, phishing simulations, and usable security design
-Are not optional extras.
+are not optional extras.
 
 ### Pitfall 7: No Incident Response Plan
 
 Every organization will experience a security incident. The difference between a contained incident
-And a catastrophe is whether you have a tested, practiced response plan. Without one, you will waste
-The first critical hours figuring out who is responsible, what to do, and how to communicate, while
-The attacker continues to operate undisturbed.
+and a catastrophe is whether you have a tested, practiced response plan. Without one, you will waste
+the first critical hours figuring out who is responsible, what to do, and how to communicate, while
+the attacker continues to operate undisturbed.
 
 ### Pitfall 8: Assuming Compliance Equals Security
 
 Compliance frameworks (SOC 2, ISO 27001, PCI-DSS) define minimum control requirements. They are
 Necessary for legal and contractual reasons, but meeting the minimum does not mean you are secure. A
 System can be fully compliant and still have critical vulnerabilities. Compliance is the floor, not
-The ceiling.
+the ceiling.
 
 ### Pitfall 9: Neglecting Security at Design Time
 
@@ -820,7 +924,7 @@ Security controls.
 ### Pitfall 12: Ignoring Physical Security
 
 Physical access trumps almost all technical controls. An attacker with physical access to a server
-Can boot from a live USB, modify the bootloader, install a hardware keylogger, or steal the Drive.
+can boot from a live USB, modify the bootloader, install a hardware keylogger, or steal the Drive.
 Server room access controls, visitor logging, and hardware security modules (HSMs) are not Optional.
 :::
 
@@ -840,9 +944,6 @@ key principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Worked Examples
 

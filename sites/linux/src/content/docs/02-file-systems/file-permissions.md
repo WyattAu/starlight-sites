@@ -18,12 +18,14 @@ description: "Every file and directory on a Linux system carries a set of permis
 ## Unix Permission Model
 
 Every file and directory on a Linux system carries a set of permission bits that control which users
-Can read, write, or execute it. The kernel enforces these permissions during every file system
+can read, write, or execute it. The kernel enforces these permissions during every file system
 Operation.
 
 ### Permission Bits
 
 Each file has three categories of permissions, each with three bits:
+
+<div class="table-wrap">
 
 | Category      | Read (r)                                    | Write (w)                                     | Execute (x)                |
 | ------------- | ------------------------------------------- | --------------------------------------------- | -------------------------- |
@@ -31,7 +33,11 @@ Each file has three categories of permissions, each with three bits:
 | **Group (g)** | Same as owner for group members             | Same                                          | Same                       |
 | **Other (o)** | Same for everyone else                      | Same                                          | Same                       |
 
+</div>
+
 ### Octal Notation
+
+<div class="table-wrap">
 
 | Octal | Binary | Permission |
 | ----- | ------ | ---------- |
@@ -44,7 +50,11 @@ Each file has three categories of permissions, each with three bits:
 | 6     | 110    | rw-        |
 | 7     | 111    | rwx        |
 
+</div>
+
 Common permission sets:
+
+<div class="table-wrap">
 
 | Octal | Meaning   | Use Case                                    |
 | ----- | --------- | ------------------------------------------- |
@@ -54,6 +64,8 @@ Common permission sets:
 | 600   | rw------- | SSH keys, config files                      |
 | 400   | r-------- | Read-only secrets                           |
 | 711   | rwx--x--x | Public directories (listable only by owner) |
+
+</div>
 
 ### Viewing Permissions
 
@@ -77,11 +89,15 @@ stat /etc/passwd
 
 Directory permissions have different semantics than file permissions:
 
+<div class="table-wrap">
+
 | Permission | File                 | Directory                                      |
 | ---------- | -------------------- | ---------------------------------------------- |
 | r          | Read file contents   | List filenames (requires x)                    |
 | w          | Modify file contents | Create/delete/rename files (requires x)        |
 | x          | Execute as a program | Enter directory (cd), access inode information |
+
+</div>
 
 ```text
 To list directory contents:    r + x
@@ -182,10 +198,14 @@ Member of. This is enforced by the kernel: the `chown(2)` system call checks `ca
 The umask (user file creation mask) determines the default permissions for newly created files and
 Directories. It is a mask that is subtracted from the maximum permissions:
 
+<div class="table-wrap">
+
 | Creation     | Maximum | Applied as         | umask 0022 result |
 | ------------ | ------- | ------------------ | ----------------- |
 | Regular file | 0666    | 0666 & ~022 = 0644 | rw-r--r--         |
 | Directory    | 0777    | 0777 & ~022 = 0755 | rwxr-xr-x         |
+
+</div>
 
 ```bash
 # View current umask
@@ -441,6 +461,8 @@ Assignment without full root access.
 
 ### Common Capabilities
 
+<div class="table-wrap">
+
 | Capability             | Description                                      |
 | ---------------------- | ------------------------------------------------ |
 | `CAP_NET_BIND_SERVICE` | Bind to privileged ports (&lt;1024)              |
@@ -454,6 +476,8 @@ Assignment without full root access.
 | `CAP_SETGID`           | Set group ID                                     |
 | `CAP_KILL`             | Send signals to any process                      |
 | `CAP_SYSLOG`           | Use privileged syslog                            |
+
+</div>
 
 ### setcap and getcap
 
@@ -513,9 +537,11 @@ capsh --drop="cap_net_raw" -- -c "ping -c 1 localhost"
 ## File Attributes
 
 File attributes (managed by `chattr`/`lsattr`) are separate from permissions. They are enforced by
-The ext4 filesystem (and others that support them) and cannot be overridden by root or capabilities.
+the ext4 filesystem (and others that support them) and cannot be overridden by root or capabilities.
 
 ### Common Attributes
+
+<div class="table-wrap">
 
 | Attribute | Description                                             |
 | --------- | ------------------------------------------------------- |
@@ -527,6 +553,8 @@ The ext4 filesystem (and others that support them) and cannot be overridden by r
 | `S`       | Synchronous updates, write changes to disk immediately |
 | `e`       | Extents format, uses extents (ext4 default)            |
 | `d`       | No dump, exclude from dump backups                     |
+
+</div>
 
 ### chattr and lsattr
 
@@ -600,12 +628,16 @@ rsync -aX /src/ /dest/
 
 Common extended attribute namespaces:
 
+<div class="table-wrap">
+
 | Namespace   | Description                                    |
 | ----------- | ---------------------------------------------- |
 | `user.`     | User-defined (any user can set on owned files) |
 | `system.`   | System-managed (POSIX ACLs stored here)        |
 | `security.` | SELinux labels stored here                     |
 | `trusted.`  | Kernel-managed, root only                      |
+
+</div>
 
 ## Permission Checking Algorithm
 
@@ -636,7 +668,7 @@ flowchart TD
 :::note
 Specific first), owning group or named groups, mask, other. The first matching entry that grants or
 Denies the requested access determines the result. The mask limits the maximum effective permissions
-For all named users, named groups, and the owning group.
+for all named users, named groups, and the owning group.
 
 ### Permission Check Summary
 
@@ -816,17 +848,11 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 File permissions are like the security system of a building -- the owner has the master key (full access), the group has a shared keycard (limited access), and everyone else gets whatever the building manager allows. The permission bits (rwx for owner, group, others) are like three sets of switches: read lets you look, write lets you change, and execute lets you use. chmod is the tool that flips these switches, and chown changes who holds the master key. The principle of least privilege means giving each user only the permissions they need -- like giving the janitor access to the maintenance closet but not the CEO's office.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

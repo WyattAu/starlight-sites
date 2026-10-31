@@ -17,16 +17,6 @@ description: "The of a deterministic TM on input is the number of steps takes be
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[6_Complexity Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Complexity theory classifies problems by **how much time or space they require** to solve. The key insight is that even among decidable problems, some are tractable (solvable efficiently, class P) and some are intractable (no known efficient solution, class NP). The boundary between these classes is the deepest open question in computer science.
@@ -73,7 +63,9 @@ $\mathrm{NTIME(t(n)) = \{L : L \mathrm{ is decided by a nondeterministic TM in  
 
 ### 6.2 The Class P
 
-$$\mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)$$
+$$
+\mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)
+$$
 
 $\mathrm{P$ is the class of languages decidable in polynomial time by a deterministic TM. This
 Captures the notion of "efficiently solvable."
@@ -88,12 +80,16 @@ Captures the notion of "efficiently solvable."
 
 ### 6.3 The Class NP
 
-$$\mathrm{NP} = \bigcup_{k \geq 1} \mathrm{NTIME}(n^k)$$
+$$
+\mathrm{NP} = \bigcup_{k \geq 1} \mathrm{NTIME}(n^k)
+$$
 
 **Equivalent definition.** A language $L$ is in NP if there exists a polynomial-time verifier $V$
 And a polynomial $p$ such that:
 
-$$L = \{w : \exists c \mathrm{ with}  |c| \leq p(|w|) \mathrm{ and}  V(w, c) = \mathrm{accept}\}$$
+$$
+L = \{w : \exists c \mathrm{ with}  |c| \leq p(|w|) \mathrm{ and}  V(w, c) = \mathrm{accept}\}
+$$
 
 The string $c$ is called a **certificate** (or witness).
 
@@ -142,15 +138,15 @@ A language is **NP-hard** if condition (2) holds (it need not be in NP).
 1. $\mathrm{SAT \in \mathrm{NP$: a satisfying assignment is a polynomial-size certificate that can
    be verified in polynomial time.
 
-2. For any $L \in \mathrm{NP$There is a polynomial-time NTM $N$ that decides $L$ in time $n^k$ for
-   some $k$. Given input $w$ of length $n$Construct a Boolean formula $\phi_{N,w}$ that is
+2. For any $L \in \mathrm{NP$ There is a polynomial-time NTM $N$ that decides $L$ in time $n^k$ for
+   some $k$. Given input $w$ of length $n$ Construct a Boolean formula $\phi_{N,w}$ that is
    satisfiable iff $N$ accepts $w$.
 
 The formula encodes the **tableau** of $N$ on $w$: a table of size $n^k \times n^k$ where each cell
 $T[i, j]$ records the symbol at tape cell $j$ after step $i$ of the computation.
 
 **Variables:** For each position $(i, j)$ in the tableau and each symbol $s$ in the combined
-state-tape alphabet $\Gamma" = Q \times \Gamma$A variable $x_{i,j,s}$ indicating that cell $(i, j)$
+state-tape alphabet $\Gamma" = Q \times \Gamma$ A variable $x_{i,j,s}$ indicating that cell $(i, j)$
 contains $s$.
 
 **Constraints:**
@@ -163,7 +159,7 @@ contains $s$.
 - **Acceptance:** Some cell in the last row contains $q_{\mathrm{accept}$.
 
 Each constraint can be expressed as a polynomial-size CNF formula (using standard encodings of
-"exactly one" and "window" constraints). The total formula has size $O(n^{2k})$Which is polynomial
+"exactly one" and "window" constraints). The total formula has size $O(n^{2k})$ Which is polynomial
 in $|w|$. $\blacksquare$
 
 <details>
@@ -201,7 +197,7 @@ Equivalent clauses with exactly 3 literals using auxiliary variables.
 
 **Theorem 6.5a.** SAT $\leq_p$ 3-SAT.
 
-*Proof.* Given a CNF formula $\phi$Convert each clause to exactly 3 literals:
+*Proof.* Given a CNF formula $\phi$ Convert each clause to exactly 3 literals:
 
 - Clause $(l_1)$ (1 literal): replace with
   $(l_1 \lor a \lor b) \land (l_1 \lor a \lor \bar{b}) \land (l_1 \lor \bar{a} \lor b) \land (l_1 \lor \bar{a} \lor \bar{b})$
@@ -216,7 +212,7 @@ Equivalent clauses with exactly 3 literals using auxiliary variables.
 
 Each transformation is polynomial-size and preserves satisfiability. $\blacksquare$
 
-**Vertex Cover.** Given a graph $G = (V, E)$ and integer $k$Is there a vertex cover of size
+**Vertex Cover.** Given a graph $G = (V, E)$ and integer $k$ Is there a vertex cover of size
 $\leq k$?
 
 **Theorem 6.5b.** 3-SAT $\leq_p$ Vertex Cover.
@@ -224,30 +220,30 @@ $\leq k$?
 *Proof (sketch).* Given a 3-CNF formula $\phi$ with $k$ clauses and $n$ variables, construct a graph
 $G$:
 
-1. For each variable $x_i$Create a **variable gadget**: two vertices $x_i$ and $\bar{x}_i$ connected
+1. For each variable $x_i$ Create a **variable gadget**: two vertices $x_i$ and $\bar{x}_i$ connected
    by an edge. Selecting $x_i$ into the cover corresponds to setting $x_i$ to true (removing
    $\bar{x}_i$ from consideration).
-2. For each clause $C_j = (l_a \lor l_b \lor l_c)$Create a **clause gadget**: a triangle of three
+2. For each clause $C_j = (l_a \lor l_b \lor l_c)$ Create a **clause gadget**: a triangle of three
    vertices connected to the corresponding literal vertices in the variable gadgets.
 3. Set the target: $k' = n + 2k$.
 
 The cover must include at least one endpoint of each variable-gadget edge ($n$ vertices) and at
-Least two vertices from each clause triangle ($2k$ vertices). Selecting a literal vertex in the
+least two vertices from each clause triangle ($2k$ vertices). Selecting a literal vertex in the
 Cover removes it from clause consideration; the remaining two triangle vertices must be in the
 Cover. The formula is satisfiable iff we can choose literal vertices such that each clause triangle
-Has at most one vertex already excluded. $\blacksquare$
+has at most one vertex already excluded. $\blacksquare$
 
-**Clique.** Given $G = (V, E)$ and integer $k$Does $G$ contain a clique of size $k$?
+**Clique.** Given $G = (V, E)$ and integer $k$ Does $G$ contain a clique of size $k$?
 
 **Reduction:** Vertex Cover $\leq_p$ Clique. $G = (V, E)$ has a vertex cover of size $k$ iff
 $\overline{G} = (V, \overline{E})$ has a clique of size $|V| - k$.
 
 *Proof.* If $C \subseteq V$ is a vertex cover of size $k$ in $G$ Then every edge of $G$ has at Least
-one endpoint in $C$. So $V \setminus C$ is an independent set in $G$Meaning every pair in
+one endpoint in $C$. So $V \setminus C$ is an independent set in $G$ Meaning every pair in
 $V \setminus C$ is an edge in $\overline{G}$. Hence $\overline{G}$ has a clique of size $|V| - k$.
 The converse is analogous. $\blacksquare$
 
-**Hamiltonian Path.** Given a graph $G = (V, E)$Does $G$ have a path visiting every vertex exactly
+**Hamiltonian Path.** Given a graph $G = (V, E)$ Does $G$ have a path visiting every vertex exactly
 Once?
 
 **Theorem 6.5c.** Vertex Cover $\leq_p$ Hamiltonian Path (via Hamiltonian Cycle).
@@ -258,42 +254,50 @@ choose $k$ vertices (the cover), verification gadgets that check every edge is c
 Connecting gadgets that string the selections together into a single cycle. The construction is
 Polynomial. $\blacksquare$
 
-**Subset Sum.** Given integers $S = \{s_1, \ldots, s_n\}$ and target $T$Is there a subset summing To
+**Subset Sum.** Given integers $S = \{s_1, \ldots, s_n\}$ and target $T$ Is there a subset summing To
 $T$?
 
 **Theorem 6.5d.** 3-SAT $\leq_p$ Subset Sum.
 
 *Proof (sketch).* Given a 3-CNF formula with variables $x_1, \ldots, x_n$ and clauses
-$C_1, \ldots, C_k$Construct a set of numbers $S$ and target $T$ in decimal.
+$C_1, \ldots, C_k$ Construct a set of numbers $S$ and target $T$ in decimal.
 
-For each variable $x_i$Create two numbers $v_i$ and $\bar{v}_i$. In the "variable digits" (first $n$
+For each variable $x_i$ Create two numbers $v_i$ and $\bar{v}_i$. In the "variable digits" (first $n$
 columns), $v_i$ has a `1` in column $i$ and `0` elsewhere; $\bar{v}_i$ also has a `1` in column $i$
 and `0` elsewhere. This forces choosing exactly one of $v_i, \bar{v}_i$.
 
-For each clause $C_j$Add a "clause digit" (column $n + j$): in $v_i$ (resp. $\bar{v}_i$), This digit
+For each clause $C_j$ Add a "clause digit" (column $n + j$): in $v_i$ (resp. $\bar{v}_i$), This digit
 is `1` iff $x_i$ (resp. $\bar{x}_i$) appears in $C_j$. The target $T$ has `1` in Every digit.
 Choosing $v_i$ or $\bar{v}_i$ contributes to satisfying the clauses that contain That literal.
 $\blacksquare$
 
-**Partition.** Given integers $S = \{s_1, \ldots, s_n\}$Can $S$ be partitioned into two subsets of
+**Partition.** Given integers $S = \{s_1, \ldots, s_n\}$ Can $S$ be partitioned into two subsets of
 Equal sum?
 
 **Reduction chain:**
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{VertexCover} \to \mathrm{Clique}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{VertexCover} \to \mathrm{Clique}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{HamiltonianPath}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{HamiltonianPath}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}
+$$
 
-$$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}$$
+$$
+\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Partition}
+$$
 
 <details>
 <summary>Worked Example: Reducing 3-SAT to Independent Set</summary>
 
 Given a 3-CNF formula $\phi$ with $k$ clauses, construct a graph $G$:
 
-1. For each clause $C_j$Create a group of 3 vertices (one per literal).
+1. For each clause $C_j$ Create a group of 3 vertices (one per literal).
 2. Within each group, add all three edges (forming a triangle). At most one vertex per group can be
    in an independent set.
 3. For each pair of contradictory literals ($x_i$ and $\bar{x}_i$) in different groups, add an edge. They cannot both be selected.
@@ -338,7 +342,7 @@ $A \in \mathrm{NL$ is log-space reducible to $B$.
 
 This is surprising because it is not known whether $\mathrm{NP = \mathrm{coNP$. The
 .../1-number-and-algebra/3_proof-and-logic uses An inductive counting argument: given an NTM for
-$L$Construct an NTM for $\overline{L}$ that Counts the number of reachable configurations.
+$L$ Construct an NTM for $\overline{L}$ that Counts the number of reachable configurations.
 
 **PSPACE-completeness.** A language is PSPACE-complete if it is in PSPACE and every PSPACE problem
 Reduces to it. Key PSPACE-complete problems:
@@ -349,14 +353,14 @@ Reduces to it. Key PSPACE-complete problems:
 
 **Theorem 6.9.** TQBF is PSPACE-complete.
 
-*Proof (membership).* Evaluate the quantifiers recursively. For $\exists x_i \phi$Try both values Of
-$x_i$ and recurse. For $\forall x_i \phi$Similarly. At depth $n$Evaluate $\psi$. Each level Uses
+*Proof (membership).* Evaluate the quantifiers recursively. For $\exists x_i \phi$ Try both values Of
+$x_i$ and recurse. For $\forall x_i \phi$ Similarly. At depth $n$ Evaluate $\psi$. Each level Uses
 $O(n)$ space to store the current assignment, giving $O(n^2)$ total.
 
 *Proof (hardness).* Reduce from any $L \in \mathrm{PSPACE$ using the configuration graph. A
 Computation of a PSPACE TM on input $w$ of length $n$ uses at most $p(n)$ cells for some Polynomial
 $p$. The number of distinct configurations is at most $N = |\Gamma|^{p(n)} \cdot p(n) \cdot |Q|$
-Which is exponential. The statement "$M$ accepts $w$" can be expressed as: "there exists a Configuration $c_1$ reachable from the start configuration in $\leq N$ steps such that for all Configurations $c_2$ reachable from $c_1$ in one step, there exists a configuration $c_3$..." This
+which is exponential. The statement "$M$ accepts $w$" can be expressed as: "there exists a Configuration $c_1$ reachable from the start configuration in $\leq N$ steps such that for all Configurations $c_2$ reachable from $c_1$ in one step, there exists a configuration $c_3$..." This
 alternating reachability formula can be encoded as a quantified Boolean formula of Polynomial size.
 $\blacksquare$
 
@@ -389,7 +393,9 @@ Quantifiers.
 **Equivalent characterisation.** A language $L$ is in $\Sigma_k^P$ iff there exist polynomial-time
 Computable relations $R$ and polynomials $p$ such that:
 
-$$L = \{x : \exists y_1 \forall y_2 \exists y_3 \cdots Q_k y_k \, R(x, y_1, \ldots, y_k)\}$$
+$$
+L = \{x : \exists y_1 \forall y_2 \exists y_3 \cdots Q_k y_k \, R(x, y_1, \ldots, y_k)\}
+$$
 
 Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\exists$.
 
@@ -402,7 +408,9 @@ Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\ex
 
 **Relationships:**
 
-$$\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
+$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+$$
 
 **Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$ Then $\mathrm{PH} = \Sigma_k^P$ (the
 polynomial hierarchy collapses to level $k$).
@@ -431,7 +439,9 @@ $\blacksquare$
 
 **PSPACE.** The class of languages decidable in polynomial space:
 
-$$\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$$
+$$
+\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE}$.
 - $\mathrm{P} \neq \mathrm{PSPACE}$ (space hierarchy theorem).
@@ -440,7 +450,9 @@ $$\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$$
 
 **EXPTIME.** The class of languages decidable in exponential time:
 
-$$\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})$$
+$$
+\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE} \subseteq \mathrm{EXPTIME}$.
 - $\mathrm{P} \neq \mathrm{EXPTIME}$ (time hierarchy theorem).
@@ -449,11 +461,19 @@ $$\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})$$
 
 **Hierarchy summary:**
 
-$$\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}$$
+$$
+\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}
+$$
 
-$$\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME$$
+$$
+\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME
+$$
 
-$$\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
+$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+$$
+
+<div class="table-wrap">
 
 | Inclusion                                                        | Known to be proper? | Theorem used        |
 | ---------------------------------------------------------------- | ------------------- | ------------------- |
@@ -467,6 +487,8 @@ $$\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE$$
 | $\mathrm{P} \subseteq \mathrm{NP}$                               | Unknown             | Open problem        |
 | $\mathrm{NP} \subseteq \mathrm{coNP}$                            | Unknown             | Open problem        |
 
+</div>
+
 Both inclusions $\mathrm{P} \subseteq \mathrm{NP}$ and $\mathrm{NP} \subseteq \mathrm{PSPACE}$ are
 Known to be proper ($\mathrm{P} \neq \mathrm{PSPACE}$), but the status of $\mathrm{P}$ vs.
 $\mathrm{NP}$ remains open.
@@ -479,6 +501,88 @@ A common error is confusing "NP-hard" with "NP-complete": NP-hard means at least
 problems, but the problem Itself might not be in NP (e.g., the halting problem is NP-hard but
 undecidable).
 :::
+
+### 6.9 Ladner's Theorem: NP-Intermediate Problems
+
+If P ≠ NP, are there languages *between* them — in NP but neither in P nor NP-complete? Or does
+every problem in NP sit at one extreme? Ladner's theorem answers: **there are NP-intermediate
+problems, and they can be constructed explicitly.**
+
+**Theorem 6.12 (Ladner, 1975).** If P ≠ NP, then there exists a language
+$L \in \mathrm{NP} \setminus \mathrm{P}$ that is not NP-complete.
+
+**Proof idea.** Construct $L$ by diagonalisation over the polynomial-time deciders. The
+construction "squashes" SAT: $L$ contains exactly the strings in SAT whose length is a perfect
+square — but with the length threshold adjusted so that $L$ is neither trivially easy nor
+NP-complete. The construction alternates between two modes:
+
+- **Mode 1 (make it easy):** On inputs of length $\leq n$, decide $L$ with the $n$-th
+  polynomial-time machine $M_n$. If $M_n$ decides $L$ correctly, $L \notin \mathrm{P}$ is
+  falsified — so switch to Mode 2.
+- **Mode 2 (make it hard):** Ensure $L$ differs from the $n$-th NP-complete language on some
+  input, by padding SAT instances — so if $L$ were NP-complete, SAT would reduce to $L$, which
+  the padding prevents — so switch back to Mode 1.
+
+The alternation is self-limiting: each switch happens later than the last, so $L$ is neither
+in P (Mode 1 always fails eventually) nor NP-complete (Mode 2 always blocks the reduction).
+The formal proof requires the delay trick to ensure the diagonalisation doesn't outpace the
+polynomial bounds. $\blacksquare$
+
+Ladner's theorem tells us that the P vs. NP question is maximally fine-grained: either P = NP,
+or there is a genuine hierarchy of intermediate difficulty. The natural candidates — integer
+factorisation, graph isomorphism — are believed to be NP-intermediate.
+
+### 6.10 Randomised Computation: The Class BPP
+
+**Definition.** $\mathrm{BPP}$ (Bounded-error Probabilistic Polynomial time) is the class of
+languages decidable by a probabilistic polynomial-time TM that, on every input, gives the correct
+answer with probability $\geq 2/3$.
+
+The constant $2/3$ is arbitrary — amplification (repeating the computation $k$ times and taking
+the majority) raises the success probability to $1 - 2^{-ck}$ for a constant $c$ by the Chernoff
+bound, at a multiplicative cost of $O(k)$ in running time.
+
+**Theorem 6.13 (Adleman, 1978).** $\mathrm{BPP} \subseteq \mathrm{P/poly}$.
+
+**Proof.** Let $L \in \mathrm{BPP}$. Amplify the machine to error $\leq 2^{-2n}$ by running it
+$O(n)$ times. For each input $x$ of length $n$, the machine uses $m(n)$ random bits. Call a
+random string $r \in \{0,1\}^{m(n)}$ **bad** if it causes a wrong answer on some input $x$ of
+length $n$. By the union bound, the number of bad strings is $\leq 2^n \cdot 2^{-2n} \cdot
+2^{m(n)} = 2^{m(n) - n}$. So if $m(n) \geq n + 2$, the bad strings are at most a $2^{-2}$
+fraction of $\{0,1\}^{m(n)}$ — most strings are good. Fix a good $r^*$: the deterministic
+machine that runs the randomised machine with $r^*$ hardwired is correct on *every* input of
+length $n$. The circuit family hardwires $r^*$ for each length. $\blacksquare$
+
+This means BPP machines can be *derandomised* at the cost of non-uniform advice — and if
+$\mathrm{P} = \mathrm{BPP}$ (widely believed), the randomisation was never doing real work.
+
+### 6.11 Oracle Separations: Why Relativisation Is Not Enough
+
+**Definition.** An **oracle** $A$ is a set of strings queryable in one step by a Turing
+machine. $\mathrm{P}^A$ and $\mathrm{NP}^A$ are the classes definable with oracle access to $A$.
+
+**Theorem 6.14 (Baker--Gill--Solovay, 1975).** There exists an oracle $A$ such that
+$\mathrm{P}^A = \mathrm{NP}^A$, and there exists an oracle $B$ such that
+$\mathrm{P}^B \neq \mathrm{NP}^B$.
+
+**Proof idea.** For $A$: let $A = \mathrm{TQBF}$ (PSPACE-complete). Then $\mathrm{NP}^A \subseteq
+\mathrm{PSPACE} \subseteq \mathrm{P}^A$ (the oracle answers any PSPACE query). For $B$: define
+$B$ by diagonalisation over all polynomial-time oracle machines, ensuring the constructed oracle
+answers queries to separate $\mathrm{P}^B$ from $\mathrm{NP}^B$. $\blacksquare$
+
+The Baker--Gill--Solovay theorem is a caution: the techniques available to complexity theorists
+(relativising arguments) cannot resolve P vs. NP, because those techniques would apply equally
+well in the oracle worlds where the answer goes both ways. This is why the resolution of P vs.
+NP requires *non-relativising* techniques — which the circuit-complexity approach (circuit lower
+bounds) and the algebraic approach (arithmetisation in IP = PSPACE) exemplify.
+
+### Where to go next
+
+- [Computability](/6-theory-of-computation/4_turing-machines/) — the undecidability results that
+  motivate the complexity classes.
+- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/) — the concrete
+  algorithms whose running times populate the complexity classes.
+
 
 ## Cross-References
 

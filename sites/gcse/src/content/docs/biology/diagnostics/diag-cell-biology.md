@@ -34,15 +34,19 @@ endoplasmic reticulum.
 **Plant cell (additional structures):** cell wall, chloroplasts, permanent vacuole, all the above
 structures.
 
+<div class="table-wrap">
+
 | (b)               | Feature                   | Animal Cell                          | Plant Cell |
 | ----------------- | ------------------------- | ------------------------------------ | ---------- |
-| Cell wall         | Absent                    | Present (made of cellulose)          |
-| Chloroplasts      | Absent                    | Present (for photosynthesis)         |
-| Permanent vacuole | Small, temporary (if any) | Large, central, filled with cell sap |
-| Shape             | Irregular, flexible       | Fixed, rectangular                   |
-| Nucleus           | Present                   | Present                              |
-| Mitochondria      | Present                   | Present                              |
-| Cell membrane     | Present                   | Present (inside cell wall)           |
+|  | Cell wall         | Absent                    | Present (made of cellulose)          |
+|  | Chloroplasts      | Absent                    | Present (for photosynthesis)         |
+|  | Permanent vacuole | Small, temporary (if any) | Large, central, filled with cell sap |
+|  | Shape             | Irregular, flexible       | Fixed, rectangular                   |
+|  | Nucleus           | Present                   | Present                              |
+|  | Mitochondria      | Present                   | Present                              |
+|  | Cell membrane     | Present                   | Present (inside cell wall)           |
+
+</div>
 
 (c) **Mitochondria:** Site of aerobic respiration, where glucose and oxygen are converted to ATP
 (energy). They have a double membrane with folds (cristae) to increase surface area for the chemical
@@ -62,7 +66,7 @@ exit.
 (d) Two differences: (1) Prokaryotes have no membrane-bound organelles (no nucleus, mitochondria, or
 ER); their DNA is a single circular chromosome in the cytoplasm. Eukaryotes have membrane-bound
 organelles and linear chromosomes in a nucleus. (2) Prokaryotes are generally much smaller (1--5
-$\mu$M) than eukaryotes (10--100 $\mu$M). Prokaryotes may also have plasmids (small extra DNA rings)
+$\mu$ M) than eukaryotes (10--100 $\mu$ M). Prokaryotes may also have plasmids (small extra DNA rings)
 and a capsule, which eukaryotes lack.
 
 ### UT-2: Specialised Cells
@@ -92,7 +96,7 @@ axon is insulated by a myelin sheath that speeds up impulse transmission. Has br
 
 **Question:** (a) Calculate the total magnification of a microscope with a 10x eyepiece lens and a
 40x objective lens. (b) A cell is observed to be 4.2 mm across the eyepiece scale. If the total
-magnification is 400x, calculate the actual size of the cell in $\mu$M. (c) Explain the difference
+magnification is 400x, calculate the actual size of the cell in $\mu$ M. (c) Explain the difference
 between resolution and magnification. (d) Describe two advantages of electron microscopy over light
 microscopy.
 
@@ -101,7 +105,7 @@ microscopy.
 (a) Total magnification $= 10 \times 40 = 400\times$.
 
 (b) Actual size
-$= \text{image size / \text{magnification = 4.2 \text{ mm / 400 = 0.0105 \text{ mm = 10.5 \mu$M.
+$= \text{image size / \text{magnification = 4.2 \text{ mm / 400 = 0.0105 \text{ mm = 10.5 \mu$ M.
 
 (c) **Magnification** is how much larger the image appears compared to the actual object (e.g.,
 $400\times$ means 400 times larger). **Resolution** is the ability to distinguish between two
@@ -112,7 +116,7 @@ distinct. Higher resolution means finer detail is visible.
 wavelength than light) and can resolve structures down to about 0.2 nm, compared to about 200 nm for
 light microscopes. This reveals organelles like ribosomes, the structure of membranes, and internal
 details of mitochondria. (2) **Much higher effective magnification:** Electron microscopes can
-achieve magnifications of up to $2,000,000\times$Compared to about $2000\times$ for light
+achieve magnifications of up to $2,000,000\times$ Compared to about $2000\times$ for light
 microscopes. Disadvantages: specimens must be in a vacuum (dead), preparation is complex, and images
 are black and white.
 
@@ -134,7 +138,7 @@ are black and white.
 **Question:** An experiment is set up with three potato cylinders placed in different solutions:
 distilled water, 0.5 mol/dm$^3$ sucrose, and 1.0 mol/dm$^3$ sucrose. The initial mass of each
 cylinder is 5.0 g. After 30 minutes, the masses are 5.8 g, 4.9 g, and 4.2 g respectively. (a)
-Explain the results using the concept of water potential. (b) Calculate the percentage change in
+explain the results using the concept of water potential. (b) Calculate the percentage change in
 mass for each cylinder. (c) Estimate the concentration of the potato cell sap. (d) Explain why this
 experiment is an example of osmosis, not diffusion.
 
@@ -196,11 +200,11 @@ organisms reproduce by mitosis, producing offspring genetically identical to the
 
 ### IT-3: Microscopy and Cell Size (with Bioenergetics)
 
-**Question:** (a) The diameter of a typical animal cell is 20 $\mu$M. Calculate how many cells would
+**Question:** (a) The diameter of a typical animal cell is 20 $\mu$ M. Calculate how many cells would
 fit along a line 1 mm long. (b) An electron micrograph shows a mitochondrion with a length of 5 mm
-on the image. The actual length is 1.5 $\mu$M. Calculate the magnification. (c) A chloroplast is
-observed to be 3.8 mm long at a magnification of 15,000x. Calculate the actual length in $\mu$M. (d)
-Explain why most cells are small ( 10--100 $\mu$M) rather than large, relating your answer to the
+on the image. The actual length is 1.5 $\mu$ M. Calculate the magnification. (c) A chloroplast is
+observed to be 3.8 mm long at a magnification of 15,000x. Calculate the actual length in $\mu$ M. (d)
+Explain why most cells are small ( 10--100 $\mu$ M) rather than large, relating your answer to the
 surface area to volume ratio.
 
 **Solution:**
@@ -228,27 +232,9 @@ have a large SA:V ratio, ensuring efficient exchange. This is why large organism
 
 **The key insight:** Cell size is limited by the surface area to volume ratio, as cells grow, they need more membrane relative to their volume to exchange materials efficiently.
 
-
-```mermaid
-flowchart TD
-    A[Diag Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

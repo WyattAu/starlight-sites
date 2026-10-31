@@ -23,7 +23,7 @@ categories:
 A matrix is a rectangular array of numbers arranged in rows and columns. Matrices provide a powerful
 Framework for solving systems of linear equations, representing geometric transformations, modelling
 Markov processes, and much more. This topic is central to the IB Mathematics AA course at both SL
-And HL, with eigenvalues and diagonalisation appearing exclusively at HL.
+and HL, with eigenvalues and diagonalisation appearing exclusively at HL.
 
 ---
 
@@ -47,7 +47,7 @@ A = \begin`\{pmatrix}` a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \c
 $$
 
 The entry in row $i$ and column $j$ is denoted $a_{ij}$. The set of all $m \times n$ real matrices
-Is written $\mathcal{M}_{m \times n}(\mathbb{R})$.
+is written $\mathcal{M}_{m \times n}(\mathbb{R})$.
 
 A column vector in $\mathbb{R}^n$ is an $n \times 1$ matrix, and a row vector is a $1 \times n$
 Matrix. When the dimensions are equal ($m = n$), the matrix is called **square**.
@@ -57,21 +57,21 @@ Matrix. When the dimensions are equal ($m = n$), the matrix is called **square**
 **Addition.** If $A, B \in \mathcal{M}_{m \times n}(\mathbb{R})$ Then $A + B$ is defined Entry-wise:
 
 $$
-(A + B)_`\{ij}` = a_`\{ij}` + b_`\{ij}`
+(A + B)_{ij} = a_{ij} + b_{ij}
 $$
 
 **Scalar multiplication.** For $k \in \mathbb{R}$ and $A \in \mathcal{M}_{m \times n}(\mathbb{R})$:
 
 $$
-(kA)_`\{ij}` = k \cdot a_`\{ij}`
+(kA)_{ij} = k \cdot a_{ij}
 $$
 
 These operations satisfy the following axioms (making $\mathcal{M}_{m \times n}(\mathbb{R})$ a
-Vector space over $\mathbb{R}$):
+vector space over $\mathbb{R}$):
 
 - $A + B = B + A$ (commutativity)
 - $(A + B) + C = A + (B + C)$ (associativity)
-- $A + O = A$Where $O$ is the $m \times n$ zero matrix
+- $A + O = A$ Where $O$ is the $m \times n$ zero matrix
 - $k(A + B) = kA + kB$ (distributivity over matrix addition)
 - $(k + l)A = kA + lA$ (distributivity over scalar addition)
 - $k(lA) = (kl)A$ (associativity of scalar multiplication)
@@ -79,10 +79,10 @@ Vector space over $\mathbb{R}$):
 ### Matrix Multiplication
 
 If $A$ is $m \times p$ and $B$ is $p \times n$ Then the product $C = AB$ is an $m \times n$ matrix
-Whose entries are:
+whose entries are:
 
 $$
-C_`\{ij}` = \sum_{k=1}^{p} a_`\{ik}` b_`\{kj}`
+C_{ij} = \sum_{k=1}^{p} a_{ik} b_{kj}
 $$
 
 This is the **dot product** of the $i$-th row of $A$ with the $j$-th column of $B$. The inner
@@ -119,11 +119,11 @@ $D = \mathrm{diag}(d_1, d_2, \ldots, d_n)$.
 
 ### Transpose of a Matrix
 
-The **transpose** of $A \in \mathcal{M}_{m \times n}(\mathbb{R})$Written $A^T$Is the $n \times m$
+The **transpose** of $A \in \mathcal{M}_{m \times n}(\mathbb{R})$ Written $A^T$ Is the $n \times m$
 matrix obtained by interchanging rows and columns:
 
 $$
-(A^T)_`\{ij}` = a_`\{ji}`
+(A^T)_{ij} = a_{ji}
 $$
 
 **Properties of the transpose:**
@@ -135,9 +135,9 @@ $$
 
 ### Symmetric and Skew-Symmetric Matrices
 
-A square matrix $A$ is **symmetric** if $A^T = A$I.e. $a_{ij} = a_{ji}$ for all $i, j$.
+A square matrix $A$ is **symmetric** if $A^T = A$ I.e. $a_{ij} = a_{ji}$ for all $i, j$.
 
-A square matrix $A$ is **skew-symmetric** (or anti-symmetric) if $A^T = -A$I.e. $a_{ij} = -a_{ji}$.
+A square matrix $A$ is **skew-symmetric** (or anti-symmetric) if $A^T = -A$ I.e. $a_{ij} = -a_{ji}$.
 This implies $a_{ii} = 0$ for all diagonal entries.
 
 Every square matrix $A$ can be uniquely decomposed as:
@@ -154,15 +154,21 @@ Where $\frac{1}{2}(A + A^T)$ is symmetric and $\frac{1}{2}(A - A^T)$ is skew-sym
 Decompose $A = \begin{pmatrix} 3 & 5 \\ 1 & 2 \end{pmatrix}$ into symmetric and skew-symmetric
 parts.
 
-$$A^T = \begin{pmatrix} 3 & 1 \\ 5 & 2 \end{pmatrix}$$
+$$
+A^T = \begin{pmatrix} 3 & 1 \\ 5 & 2 \end{pmatrix}
+$$
 
 Symmetric part:
 
-$$S = \frac{1}{2}(A + A^T) = \frac{1}{2}\begin{pmatrix} 6 & 6 \\ 6 & 4 \end{pmatrix} = \begin{pmatrix} 3 & 3 \\ 3 & 2 \end{pmatrix}$$
+$$
+S = \frac{1}{2}(A + A^T) = \frac{1}{2}\begin{pmatrix} 6 & 6 \\ 6 & 4 \end{pmatrix} = \begin{pmatrix} 3 & 3 \\ 3 & 2 \end{pmatrix}
+$$
 
 Skew-symmetric part:
 
-$$K = \frac{1}{2}(A - A^T) = \frac{1}{2}\begin{pmatrix} 0 & 4 \\ -4 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 2 \\ -2 & 0 \end{pmatrix}$$
+$$
+K = \frac{1}{2}(A - A^T) = \frac{1}{2}\begin{pmatrix} 0 & 4 \\ -4 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 2 \\ -2 & 0 \end{pmatrix}
+$$
 
 Check: $S + K = \begin{pmatrix} 3 & 5 \\ 1 & 2 \end{pmatrix} = A$.
 
@@ -196,7 +202,7 @@ $$
 $$
 
 The determinant is a scalar that encodes important information about the matrix, including whether
-It is invertible and how it scales area (or volume).
+it is invertible and how it scales area (or volume).
 
 ### 3x3 Determinant -- Cofactor Expansion
 
@@ -207,7 +213,7 @@ A = \begin`\{pmatrix}` a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a
 $$
 
 The determinant can be computed by **cofactor expansion** along any row or column. Expanding along
-Row 1:
+row 1:
 
 $$
 \det(A) = a_{11} C_{11} + a_{12} C_{12} + a_{13} C_{13}
@@ -224,7 +230,7 @@ $$
 
 **Rule of Sarrus** (mnemonic for $3 \times 3$ only): Copy the first two columns to the right of the
 Matrix. Sum the products of the three downward diagonals, then subtract the products of the three
-Upward diagonals. This is NOT valid for matrices larger than $3 \times 3$.
+upward diagonals. This is NOT valid for matrices larger than $3 \times 3$.
 
 ### Properties of Determinants
 
@@ -247,9 +253,9 @@ For a $2 \times 2$ matrix $A$ representing a linear transformation of the plane:
 
 - $|\det(A)|$ equals the **area scale factor**: the ratio of the area of the image of a region to
   the area of the original region.
-- If $\det(A) \gt 0$The transformation preserves orientation.
-- If $\det(A) \lt 0$The transformation reverses orientation (e.g. A reflection).
-- If $\det(A) = 0$The transformation collapses the plane onto a line or a point (not invertible).
+- If $\det(A) \gt 0$ The transformation preserves orientation.
+- If $\det(A) \lt 0$ The transformation reverses orientation (e.g. A reflection).
+- If $\det(A) = 0$ The transformation collapses the plane onto a line or a point (not invertible).
 
 For a $3 \times 3$ matrix, $|\det(A)|$ is the **volume scale factor** for the corresponding
 Transformation of $\mathbb{R}^3$.
@@ -259,13 +265,19 @@ Transformation of $\mathbb{R}^3$.
 
 Find the determinant of:
 
-$$A = \begin{pmatrix} 1 & 0 & 2 \\ 3 & 1 & -1 \\ 2 & 0 & 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 0 & 2 \\ 3 & 1 & -1 \\ 2 & 0 & 1 \end{pmatrix}
+$$
 
 Expanding along column 2 (which has many zeros):
 
-$$\det(A) = 0 \cdot C_{12} + 1 \cdot C_{22} + 0 \cdot C_{32} = C_{22}$$
+$$
+\det(A) = 0 \cdot C_{12} + 1 \cdot C_{22} + 0 \cdot C_{32} = C_{22}
+$$
 
-$$C_{22} = (-1)^{2+2}\begin{vmatrix} 1 & 2 \\ 2 & 1 \end{vmatrix} = 1(1) - 2(2) = -3$$
+$$
+C_{22} = (-1)^{2+2}\begin{vmatrix} 1 & 2 \\ 2 & 1 \end{vmatrix} = 1(1) - 2(2) = -3
+$$
 
 So $\det(A) = -3$.
 
@@ -304,12 +316,12 @@ A^{-1} = \frac{1}{ad - bc} \begin`\{pmatrix}` d & -b \\ -c & a \end`\{pmatrix}`
 $$
 
 This is obtained by swapping the diagonal entries, negating the off-diagonal entries, and dividing
-By the determinant. The matrix of cofactors (with the sign change) is called the **adjugate** or
+by the determinant. The matrix of cofactors (with the sign change) is called the **adjugate** or
 **adjoint** of $A$.
 
 ### 3x3 Inverse -- Adjugate Method
 
-For a $3 \times 3$ matrix $A$The inverse is given by:
+For a $3 \times 3$ matrix $A$ The inverse is given by:
 
 $$
 A^{-1} = \frac{1}{\det(A)} \mathrm{adj}(A)
@@ -335,9 +347,11 @@ $$
 
 Find the inverse of $A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 1 & 1 \\ 1 & 0 & 1 \end{pmatrix}$.
 
-**Step 1:** Compute $\det(A)$Expanding along row 1:
+**Step 1:** Compute $\det(A)$ Expanding along row 1:
 
-$$\det(A) = 2\begin{vmatrix} 1 & 1 \\ 0 & 1 \end{vmatrix} - 1\begin{vmatrix} 0 & 1 \\ 1 & 1 \end{vmatrix} + 0 = 2(1) - 1(-1) = 3$$
+$$
+\det(A) = 2\begin{vmatrix} 1 & 1 \\ 0 & 1 \end{vmatrix} - 1\begin{vmatrix} 0 & 1 \\ 1 & 1 \end{vmatrix} + 0 = 2(1) - 1(-1) = 3
+$$
 
 **Step 2:** Compute cofactors:
 
@@ -354,7 +368,9 @@ $\mathrm{adj}(A) = \begin{pmatrix} 1 & -1 & 1 \\ 1 & 2 & -2 \\ -1 & 1 & 2 \end{p
 
 **Step 4:** Divide by $\det(A) = 3$:
 
-$$A^{-1} = \frac{1}{3}\begin{pmatrix} 1 & -1 & 1 \\ 1 & 2 & -2 \\ -1 & 1 & 2 \end{pmatrix}$$
+$$
+A^{-1} = \frac{1}{3}\begin{pmatrix} 1 & -1 & 1 \\ 1 & 2 & -2 \\ -1 & 1 & 2 \end{pmatrix}
+$$
 
 </details>
 
@@ -368,7 +384,7 @@ $$A^{-1} = \frac{1}{3}\begin{pmatrix} 1 & -1 & 1 \\ 1 & 2 & -2 \\ -1 & 1 & 2 \en
 ### Solving Systems of Linear Equations
 
 A system of $n$ linear equations in $n$ unknowns can be written in matrix form as
-$A\mathbf{x} = \mathbf{b}$Where $A$ is the coefficient matrix, $\mathbf{x}$ is the column vector Of
+$A\mathbf{x} = \mathbf{b}$ Where $A$ is the coefficient matrix, $\mathbf{x}$ is the column vector Of
 unknowns, and $\mathbf{b}$ is the column vector of constants.
 
 If $A$ is invertible, the unique solution is:
@@ -427,12 +443,12 @@ So $x = \frac{11}{5}$ and $y = \frac{6}{5}$.
 Every linear transformation $T: \mathbb{R}^2 \to \mathbb{R}^2$ can be represented by a $2 \times 2$
 Matrix $M$ such that $T(\mathbf{v}) = M\mathbf{v}$. The images of the standard basis vectors
 $\begin{pmatrix} 1 \\ 0 \end{pmatrix}$ and $\begin{pmatrix} 0 \\ 1 \end{pmatrix}$ form the columns
-Of $M$.
+of $M$.
 
 ### Reflections
 
 A reflection maps every point to its mirror image across a specified line. The determinant of any
-Reflection matrix is $-1$ (orientation is reversed).
+reflection matrix is $-1$ (orientation is reversed).
 
 **Reflection in the $x$-axis:**
 
@@ -481,6 +497,8 @@ Key properties of rotation matrices:
 
 **Common rotations:**
 
+<div class="table-wrap">
+
 |    Angle    | Matrix                                                                                                              |
 | :---------: | :------------------------------------------------------------------------------------------------------------------ |
 | $90^\circ$  | $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$                                                                     |
@@ -489,18 +507,20 @@ Key properties of rotation matrices:
 | $60^\circ$  | $\begin{pmatrix} \frac{1}{2} & -\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}$               |
 | $45^\circ$  | $\begin{pmatrix} \frac{\sqrt{2}}{2} & -\frac{\sqrt{2}}{2} \\ \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} \end{pmatrix}$ |
 
+</div>
+
 ### Enlargements (Dilations)
 
 An **enlargement** with scale factor $k$ about the origin scales all distances by $|k|$ and, if
-$k \lt 0$Also rotates by $180^\circ$.
+$k \lt 0$ Also rotates by $180^\circ$.
 
 $$
 E_k = \begin`\{pmatrix}` k & 0 \\ 0 & k \end`\{pmatrix}`
 $$
 
 - $\det(E_k) = k^2$ So the area scale factor is $k^2$.
-- For $k = 1$This is the identity transformation.
-- For $k = -1$This is equivalent to a rotation of $180^\circ$ about the origin.
+- For $k = 1$ This is the identity transformation.
+- For $k = -1$ This is equivalent to a rotation of $180^\circ$ about the origin.
 
 **Stretches.** A stretch parallel to the $x$-axis with scale factor $k$:
 
@@ -515,7 +535,7 @@ S_y = \begin`\{pmatrix}` 1 & 0 \\ 0 & k \end`\{pmatrix}`
 $$
 
 For a stretch parallel to the $x$-axis, $\det(S_x) = k$ So the area scale factor is $|k|$. If
-$0 \lt k \lt 1$The figure is compressed; if $k \gt 1$It is expanded.
+$0 \lt k \lt 1$ The figure is compressed; if $k \gt 1$ It is expanded.
 
 **Shears.** A horizontal shear with shear factor $k$ fixes every point on the $x$-axis and shifts
 Other points horizontally in proportion to their $y$-coordinate:
@@ -535,8 +555,8 @@ $H_y$) is point-wise invariant.
 
 ### Composite Transformations
 
-If transformation $A$ is applied first, followed by transformation $B$The composite transformation
-Is represented by the product $BA$ (note the order: right to left).
+If transformation $A$ is applied first, followed by transformation $B$ The composite transformation
+is represented by the product $BA$ (note the order: right to left).
 
 $$
 \mathbf{v}' = B(A\mathbf{v}) = (BA)\mathbf{v}
@@ -558,61 +578,69 @@ Followed by a reflection in the line $y = x$.
 
 Rotation matrix:
 
-$$R_{90} = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$$
+$$
+R_{90} = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}
+$$
 
 Reflection in $y = x$:
 
-$$R_{y=x} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$$
+$$
+R_{y=x} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+$$
 
 Composite (reflection applied after rotation):
 
-$$M = R_{y=x} \cdot R_{90} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
+$$
+M = R_{y=x} \cdot R_{90} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
+$$
 
 This is a reflection in the $x$-axis! Apply to $(2, 3)$:
 
-$$\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}\begin{pmatrix} 2 \\ 3 \end{pmatrix} = \begin{pmatrix} 2 \\ -3 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}\begin{pmatrix} 2 \\ 3 \end{pmatrix} = \begin{pmatrix} 2 \\ -3 \end{pmatrix}
+$$
 
 The image is $(2, -3)$.
 
 </details>
 
-**Inverse of a composite.** Since $(BA)^{-1} = A^{-1}B^{-1}$To undo a composite transformation, The
+**Inverse of a composite.** Since $(BA)^{-1} = A^{-1}B^{-1}$ To undo a composite transformation, The
 individual inverses are applied in reverse order.
 
 ### Invariant Points and Invariant Lines
 
 An **invariant point** under transformation $M$ is a point $\mathbf{v}$ such that
-$M\mathbf{v} = \mathbf{v}$I.e. $(M - I)\mathbf{v} = \mathbf{0}$. The set of invariant points forms
-The null space of $M - I$.
+$M\mathbf{v} = \mathbf{v}$ I.e. $(M - I)\mathbf{v} = \mathbf{0}$. The set of invariant points forms
+the null space of $M - I$.
 
 For any $2 \times 2$ transformation matrix, the origin is always invariant.
 
 An **invariant line** is a line that is mapped onto itself (though individual points on the line may
-Move along it). A line through the origin with direction vector $\mathbf{d}$ is invariant if
-$M\mathbf{d} = \lambda \mathbf{d}$ for some scalar $\lambda$Which means $\mathbf{d}$ is an
+move along it). A line through the origin with direction vector $\mathbf{d}$ is invariant if
+$M\mathbf{d} = \lambda \mathbf{d}$ for some scalar $\lambda$ Which means $\mathbf{d}$ is an
 Eigenvector of $M$.
 
 A line is **point-wise invariant** (every point is fixed) if and only if every point on it is an
-Invariant point, meaning the line lies entirely in the null space of $M - I$.
+invariant point, meaning the line lies entirely in the null space of $M - I$.
 
 **Not all invariant lines are point-wise invariant.** For example, a stretch parallel to the
 $x$-axis $\begin{pmatrix} k & 0 \\ 0 & 1 \end{pmatrix}$ leaves the $x$-axis point-wise invariant and
-Also leaves the $y$-axis invariant as a line (each point $(0, y)$ maps to itself), but it leaves
-Every line parallel to the $x$-axis invariant as a line (points slide along it), not point-wise.
+also leaves the $y$-axis invariant as a line (each point $(0, y)$ maps to itself), but it leaves
+every line parallel to the $x$-axis invariant as a line (points slide along it), not point-wise.
 
 For a reflection, the mirror line is point-wise invariant and the line perpendicular to it through
-The origin is invariant as a set (points are reflected across the mirror line but remain on the
-Perpendicular line).
+the origin is invariant as a set (points are reflected across the mirror line but remain on the
+perpendicular line).
 
 ### Area Scale Factor
 
 For any $2 \times 2$ matrix $M$ representing a linear transformation of the plane, the area scale
 Factor is $|\det(M)|$. This means:
 
-- If $|\det(M)| = 1$The transformation preserves area (e.g. Rotations, reflections).
-- If $|\det(M)| = k^2$The area of any region is multiplied by $k^2$ (e.g. Enlargement by scale
+- If $|\det(M)| = 1$ The transformation preserves area (e.g. Rotations, reflections).
+- If $|\det(M)| = k^2$ The area of any region is multiplied by $k^2$ (e.g. Enlargement by scale
   factor $k$).
-- If $\det(M) = 0$The transformation is singular and collapses the plane to a line or point.
+- If $\det(M) = 0$ The transformation is singular and collapses the plane to a line or point.
 
 This extends to $3 \times 3$ matrices where $|\det(M)|$ is the volume scale factor.
 
@@ -632,14 +660,14 @@ This extends to $3 \times 3$ matrices where $|\det(M)|$ is the volume scale fact
 ### Motivation
 
 When a linear transformation acts on a vector, the vector is generally rotated and scaled. Certain
-Special vectors, called **eigenvectors**, are only scaled (stretched or compressed) by the
-Transformation, not rotated. The factor by which an eigenvector is scaled is the corresponding
+special vectors, called **eigenvectors**, are only scaled (stretched or compressed) by the
+transformation, not rotated. The factor by which an eigenvector is scaled is the corresponding
 **eigenvalue**.
 
 ### Formal Definition
 
 Let $A$ be an $n \times n$ matrix. A scalar $\lambda$ is an **eigenvalue** of $A$ if there exists a
-Non-zero vector $\mathbf{v}$ (the corresponding **eigenvector**) such that:
+non-zero vector $\mathbf{v}$ (the corresponding **eigenvector**) such that:
 
 $$
 A\mathbf{v} = \lambda \mathbf{v}
@@ -681,7 +709,7 @@ $$
 $$
 
 Where $S$ is the sum of the principal $2 \times 2$ minors (the sum of the determinants of the
-Matrices obtained by deleting each row and the corresponding column).
+matrices obtained by deleting each row and the corresponding column).
 
 **Fundamental properties of eigenvalues:**
 
@@ -700,8 +728,8 @@ $$
 (A - \lambda I)\mathbf{v} = \mathbf{0}
 $$
 
-This is a homogeneous system. Since $\det(A - \lambda I) = 0$The rows of $A - \lambda I$ are
-Linearly dependent, and the system has infinitely many solutions forming a one-dimensional subspace
+This is a homogeneous system. Since $\det(A - \lambda I) = 0$ The rows of $A - \lambda I$ are
+linearly dependent, and the system has infinitely many solutions forming a one-dimensional subspace
 (a line through the origin) for each distinct eigenvalue.
 
 **Important:** Eigenvectors are determined only up to a non-zero scalar multiple. Any non-zero
@@ -710,7 +738,7 @@ Multiple of an eigenvector is also an eigenvector for the same eigenvalue.
 ### Repeated Eigenvalues
 
 When the characteristic equation has a repeated root (a repeated eigenvalue), the matrix may or may
-Not be diagonalisable.
+not be diagonalisable.
 
 - **Geometric multiplicity** $\leq$ **algebraic multiplicity.** The algebraic multiplicity of an
   eigenvalue is its multiplicity as a root of the characteristic equation. The geometric
@@ -731,9 +759,9 @@ For a $2 \times 2$ matrix with a repeated eigenvalue $\lambda$:
 ### 3x3 Eigenvalue Problems
 
 For a $3 \times 3$ matrix, the characteristic equation is a cubic polynomial in $\lambda$. The cubic
-Can have three distinct real roots, one repeated and one distinct real root, or one real root and
-Two complex conjugate roots. Since the IB course works over $\mathbb{R}$Only real eigenvalues and
-Eigenvectors are considered.
+can have three distinct real roots, one repeated and one distinct real root, or one real root and
+two complex conjugate roots. Since the IB course works over $\mathbb{R}$ Only real eigenvalues and
+eigenvectors are considered.
 :::
 
 :::note[Examples]
@@ -770,7 +798,7 @@ $v_2 + v_3 = 0$$v_3 = -v_2$ And $v_1$ is free. Two linearly independent eigenvec
 $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$ and $\begin{pmatrix} 0 \\ 1 \\ -1 \end{pmatrix}$.
 
 Since the geometric multiplicity of $\lambda_2 = 2$ equals its algebraic multiplicity (both $= 2$),
-The matrix is diagonalisable. The total number of linearly independent eigenvectors is $3$.
+the matrix is diagonalisable. The total number of linearly independent eigenvectors is $3$.
 
 $P = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \\ 0 & 0 & -1 \end{pmatrix}, \quad D = \begin{pmatrix} 3 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 2 \end{pmatrix}$
 
@@ -807,7 +835,7 @@ $\begin{pmatrix} 1 \\ -2 \end{pmatrix}$.
 ### Diagonalisation
 
 An $n \times n$ matrix $A$ is **diagonalisable** if there exists an invertible matrix $P$ and a
-Diagonal matrix $D$ such that:
+diagonal matrix $D$ such that:
 
 $$
 A = PDP^{-1}
@@ -825,7 +853,7 @@ Eigenvectors. This is guaranteed when $A$ has $n$ distinct eigenvalues.
 2. Find a corresponding eigenvector for each eigenvalue.
 3. Form $P = \begin{pmatrix} \mathbf{v}_1 & \mathbf{v}_2 \end{pmatrix}$ (eigenvectors as columns).
 4. Form $D = \begin{pmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{pmatrix}$.
-5. Verify: $A = PDP^{-1}$Or equivalently, $P^{-1}AP = D$.
+5. Verify: $A = PDP^{-1}$ Or equivalently, $P^{-1}AP = D$.
 
 ### Matrix Powers via Diagonalisation
 
@@ -885,7 +913,7 @@ $= \begin{pmatrix} \frac{6282}{3} & \frac{3093}{3} \\ \frac{6186}{3} & \frac{318
 ### Gaussian Elimination
 
 Gaussian elimination is a systematic method for solving systems of linear equations by reducing the
-Augmented matrix to row echelon form (REF) or reduced row echelon form (RREF).
+augmented matrix to row echelon form (REF) or reduced row echelon form (RREF).
 
 **Elementary row operations:**
 
@@ -935,7 +963,7 @@ Solution: $(x, y, z) = (1, 1, 2)$.
 ### Cramer's Rule
 
 Cramer's rule provides an explicit formula for the solution of a system $A\mathbf{x} = \mathbf{b}$
-When $A$ is an $n \times n$ invertible matrix.
+when $A$ is an $n \times n$ invertible matrix.
 
 **For a $2 \times 2$ system:**
 
@@ -957,12 +985,12 @@ Where $A_i$ is the matrix $A$ with column $i$ replaced by the vector $\mathbf{b}
 
 :::caution
 Computation compared to $O(n^3)$ for Gaussian elimination), but it is theoretically important and
-Frequently appears in examination questions for $2 \times 2$ and $3 \times 3$ systems.
+frequently appears in examination questions for $2 \times 2$ and $3 \times 3$ systems.
 
 ### Hill Cipher
 
 The Hill cipher is a classical polygraphic substitution cipher that uses matrix multiplication to
-Encrypt blocks of text. It demonstrates a direct application of matrices in cryptography.
+encrypt blocks of text. It demonstrates a direct application of matrices in cryptography.
 
 **Encryption procedure:**
 
@@ -991,17 +1019,17 @@ $K = \begin{pmatrix} 3 & 5 \\ 1 & 2 \end{pmatrix}$
 
 Convert to numbers: $H = 7$$E = 4$$L = 11$$P = 15$.
 
-Block 1: $\begin{pmatrix} 7 \\ 4 \end{pmatrix}$Block 2: $\begin{pmatrix} 11 \\ 15 \end{pmatrix}$
+Block 1: $\begin{pmatrix} 7 \\ 4 \end{pmatrix}$ Block 2: $\begin{pmatrix} 11 \\ 15 \end{pmatrix}$
 
 Block 1:
 $\begin{pmatrix} 3 & 5 \\ 1 & 2 \end{pmatrix} \begin{pmatrix} 7 \\ 4 \end{pmatrix} = \begin{pmatrix} 21 + 20 \\ 7 + 8 \end{pmatrix} = \begin{pmatrix} 41 \\ 15 \end{pmatrix}$
 
-Modulo 26: $\begin{pmatrix} 15 \\ 15 \end{pmatrix}$Which gives "PP".
+Modulo 26: $\begin{pmatrix} 15 \\ 15 \end{pmatrix}$ Which gives "PP".
 
 Block 2:
 $\begin{pmatrix} 3 & 5 \\ 1 & 2 \end{pmatrix} \begin{pmatrix} 11 \\ 15 \end{pmatrix} = \begin{pmatrix} 33 + 75 \\ 11 + 30 \end{pmatrix} = \begin{pmatrix} 108 \\ 41 \end{pmatrix}$
 
-Modulo 26: $108 \bmod 26 = 4$$41 \bmod 26 = 15$Giving $\begin{pmatrix} 4 \\ 15 \end{pmatrix}$ Which
+Modulo 26: $108 \bmod 26 = 4$$41 \bmod 26 = 15$ Giving $\begin{pmatrix} 4 \\ 15 \end{pmatrix}$ Which
 is "EP".
 
 Ciphertext: "PPEP"
@@ -1015,7 +1043,7 @@ Matrices are fundamental to 2D and 3D computer graphics. Every transformation of
 
 **Homogeneous coordinates.** To represent translations (which are not linear transformations) as
 Matrix multiplications, 2D points $(x, y)$ are extended to homogeneous coordinates $(x, y, 1)$. A
-Translation by $(t_x, t_y)$ is then:
+translation by $(t_x, t_y)$ is then:
 
 $$
 T = \begin`\{pmatrix}` 1 & 0 & t_x \\ 0 & 1 & t_y \\ 0 & 0 & 1 \end`\{pmatrix}`
@@ -1031,7 +1059,7 @@ Multiplication.
 
 **Composition advantage.** Instead of applying $n$ separate transformations to each of $m$ vertices,
 The transformations are composed into a single matrix $M = T_n \cdots T_2 T_1$ And each vertex is
-Transformed with a single multiplication $M\mathbf{v}$. This reduces the cost from $O(nm)$ to
+transformed with a single multiplication $M\mathbf{v}$. This reduces the cost from $O(nm)$ to
 $O(n^3 + m)$ matrix operations.
 
 ### Markov Chains
@@ -1054,12 +1082,12 @@ $$
 $$
 
 **Steady state.** A steady-state (stationary) vector $\mathbf{s}$ satisfies
-$\mathbf{s}P = \mathbf{s}$Or equivalently, $\mathbf{s}(P - I) = \mathbf{0}$. This means $\mathbf{s}$
+$\mathbf{s}P = \mathbf{s}$ Or equivalently, $\mathbf{s}(P - I) = \mathbf{0}$. This means $\mathbf{s}$
 is a left eigenvector of $P$ with eigenvalue $1$.
 
 For a regular Markov chain (one where some power of $P$ has all positive entries), the steady-state
 Distribution exists, is unique, and is independent of the initial state. The eigenvalue $1$ is
-Always the largest eigenvalue of a stochastic matrix (by the Perron-Frobenius theorem).
+always the largest eigenvalue of a stochastic matrix (by the Perron-Frobenius theorem).
 :::
 
 :::note[Examples]
@@ -1080,7 +1108,7 @@ $\mathbf{s}P = \mathbf{s}$ gives $0.7s + 0.4r = s$ and $0.3s + 0.6r = r$.
 
 From the first equation: $-0.3s + 0.4r = 0$ So $3s = 4r$.
 
-Since $s + r = 1$: $s + \frac{3}{4}s = 1$Giving $s = \frac{4}{7}$ and $r = \frac{3}{7}$.
+Since $s + r = 1$: $s + \frac{3}{4}s = 1$ Giving $s = \frac{4}{7}$ and $r = \frac{3}{7}$.
 
 Steady state: $\mathbf{s} = \begin{pmatrix} \frac{4}{7} & \frac{3}{7} \end{pmatrix}$.
 
@@ -1092,7 +1120,7 @@ $\det(P - \lambda I) = (0.7 - \lambda)(0.6 - \lambda) - 0.12 = \lambda^2 - 1.3\l
 
 $(\lambda - 1)(\lambda - 0.3) = 0$
 
-$\lambda_1 = 1$$\lambda_2 = 0.3$. Since $|\lambda_2| \lt 1$As $k \to \infty$ the term
+$\lambda_1 = 1$$\lambda_2 = 0.3$. Since $|\lambda_2| \lt 1$ As $k \to \infty$ the term
 $\lambda_2^k \to 0$ and the system converges to the eigenvector for $\lambda_1 = 1$.
 
 </details>
@@ -1123,7 +1151,7 @@ $\lambda_2^k \to 0$ and the system converges to the eigenvector for $\lambda_1 =
 
 ### Orthogonal Matrices
 
-A square matrix $Q$ is **orthogonal** if $Q^T Q = Q Q^T = I$Which means $Q^{-1} = Q^T$.
+A square matrix $Q$ is **orthogonal** if $Q^T Q = Q Q^T = I$ Which means $Q^{-1} = Q^T$.
 
 **Equivalent characterisations:**
 
@@ -1148,9 +1176,9 @@ In particular, $|Q\mathbf{v}| = |\mathbf{v}|$ and the angle between vectors is p
 
 **Orthogonal diagonalisation (spectral theorem).** A real symmetric matrix $A$ can always be
 Orthogonally diagonalised: $A = QDQ^T$ where $Q$ is orthogonal and $D$ is diagonal. This is a
-Stronger form of diagonalisation that is guaranteed for all symmetric matrices (even those with
-Repeated eigenvalues), since symmetric matrices always have $n$ linearly independent eigenvectors
-That can be chosen orthonormal.
+stronger form of diagonalisation that is guaranteed for all symmetric matrices (even those with
+repeated eigenvalues), since symmetric matrices always have $n$ linearly independent eigenvectors
+that can be chosen orthonormal.
 
 ---
 
@@ -1163,31 +1191,25 @@ That can be chosen orthonormal.
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[3_Matrices And Transformations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary of Key Results
 
+<div class="table-wrap">
+
 | Concept                         | Formula / Result                                                                            |
-| :------------------------------ | :------------------------------------------------------------------------------------------ | ------- | --- |
-| $2 \times 2$ determinant        | $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$                                |         |     |
+| ------------------------------- | ------------------------------------------------------------------------------------------- |
+| $2 \times 2$ determinant | $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$ |
 | $2 \times 2$ inverse            | $A^{-1} = \dfrac{1}{\det(A)}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$                 |         |     |
-| $3 \times 3$ inverse            | $A^{-1} = \dfrac{1}{\det(A)}\mathrm{adj}(A)$                                                |         |     |
+| $3 \times 3$ inverse | $A^{-1} = \dfrac{1}{\det(A)}\mathrm{adj}(A)$ |
 | Characteristic equation (2x2)   | $\lambda^2 - \mathrm{tr}(A)\lambda + \det(A) = 0$                                           |         |     |
-| Diagonalisation                 | $A = PDP^{-1}$Where $D = \mathrm{diag}(\lambda_1, \ldots, \lambda_n)$                       |         |     |
+| Diagonalisation | $A = PDP^{-1}$ Where $D = \mathrm{diag}(\lambda_1, \ldots, \lambda_n)$ |
 | Matrix powers                   | $A^k = PD^kP^{-1}$                                                                          |         |     |
-| Area scale factor               | $                                                                                           | \det(M) | $   |
-| Rotation by $\theta$            | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$         |         |     |
+| Area scale factor               | $                                                                                           \| \det(M) \| $   |
+| Rotation by $\theta$ | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ |
 | Reflection in $y = x\tan\theta$ | $\begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}$ |         |     |
-| Cramer's rule                   | $x_i = \det(A_i)/\det(A)$                                                                   |         |     |
+| Cramer's rule | $x_i = \det(A_i)/\det(A)$ |
 | Steady state of Markov chain    | $\mathbf{s}P = \mathbf{s}$$\sum s_i = 1$                                                    |         |     |
+
+</div>
 
 <details>
 <summary>Worked Example: Finding Eigenvalues and Eigenvectors</summary>
@@ -1196,21 +1218,29 @@ Find the eigenvalues and eigenvectors of $A = \begin{pmatrix} 5 & 3 \\ 3 & 5 \en
 
 **Characteristic equation:**
 
-$$\det(A - \lambda I) = (5 - \lambda)^2 - 9 = \lambda^2 - 10\lambda + 16 = 0$$
+$$
+\det(A - \lambda I) = (5 - \lambda)^2 - 9 = \lambda^2 - 10\lambda + 16 = 0
+$$
 
-$$(\lambda - 2)(\lambda - 8) = 0$$
+$$
+(\lambda - 2)(\lambda - 8) = 0
+$$
 
 $\lambda_1 = 2$, $\lambda_2 = 8$.
 
 **Eigenvector for $\lambda_1 = 2$:**
 
-$$\begin{pmatrix} 3 & 3 \\ 3 & 3 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = -v_2$$
+$$
+\begin{pmatrix} 3 & 3 \\ 3 & 3 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = -v_2
+$$
 
 Eigenvector: $\begin{pmatrix} 1 \\ -1 \end{pmatrix}$ (or any scalar multiple).
 
 **Eigenvector for $\lambda_2 = 8$:**
 
-$$\begin{pmatrix} -3 & 3 \\ 3 & -3 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = v_2$$
+$$
+\begin{pmatrix} -3 & 3 \\ 3 & -3 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = v_2
+$$
 
 Eigenvector: $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
@@ -1234,16 +1264,20 @@ The eigenvectors are perpendicular (as expected for a symmetric matrix).
 ### Problem 1
 
 Given $A = \begin{pmatrix} 2 & -1 \\ 4 & 3 \end{pmatrix}$ and
-$B = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}$Find $AB$ and $BA$. Comment on whether $AB = BA$.
+$B = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}$ Find $AB$ and $BA$. Comment on whether $AB = BA$.
 
 <details>
 <summary>Solution</summary>
 
-$$AB = \begin{pmatrix} 2(1) + (-1)(-2) & 2(5) + (-1)(0) \\ 4(1) + 3(-2) & 4(5) + 3(0) \end{pmatrix} = \begin{pmatrix} 4 & 10 \\ -2 & 20 \end{pmatrix}$$
+$$
+AB = \begin{pmatrix} 2(1) + (-1)(-2) & 2(5) + (-1)(0) \\ 4(1) + 3(-2) & 4(5) + 3(0) \end{pmatrix} = \begin{pmatrix} 4 & 10 \\ -2 & 20 \end{pmatrix}
+$$
 
-$$BA = \begin{pmatrix} 1(2) + 5(4) & 1(-1) + 5(3) \\ -2(2) + 0(4) & -2(-1) + 0(3) \end{pmatrix} = \begin{pmatrix} 22 & 14 \\ -4 & 2 \end{pmatrix}$$
+$$
+BA = \begin{pmatrix} 1(2) + 5(4) & 1(-1) + 5(3) \\ -2(2) + 0(4) & -2(-1) + 0(3) \end{pmatrix} = \begin{pmatrix} 22 & 14 \\ -4 & 2 \end{pmatrix}
+$$
 
-$AB \neq BA$Confirming that matrix multiplication is not commutative.
+$AB \neq BA$ Confirming that matrix multiplication is not commutative.
 
 **If you get this wrong, revise:** Matrix Multiplication properties.
 
@@ -1256,11 +1290,15 @@ Find the determinant and inverse of $A = \begin{pmatrix} 5 & 3 \\ 2 & 1 \end{pma
 <details>
 <summary>Solution</summary>
 
-$$\det(A) = 5(1) - 3(2) = 5 - 6 = -1$$
+$$
+\det(A) = 5(1) - 3(2) = 5 - 6 = -1
+$$
 
-Since $\det(A) \neq 0$The inverse exists:
+Since $\det(A) \neq 0$ The inverse exists:
 
-$$A^{-1} = \frac{1}{-1}\begin{pmatrix} 1 & -3 \\ -2 & 5 \end{pmatrix} = \begin{pmatrix} -1 & 3 \\ 2 & -5 \end{pmatrix}$$
+$$
+A^{-1} = \frac{1}{-1}\begin{pmatrix} 1 & -3 \\ -2 & 5 \end{pmatrix} = \begin{pmatrix} -1 & 3 \\ 2 & -5 \end{pmatrix}
+$$
 
 Verification:
 $AA^{-1} = \begin{pmatrix} 5 & 3 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} -1 & 3 \\ 2 & -5 \end{pmatrix} = \begin{pmatrix} -5+6 & 15-15 \\ -2+2 & 6-5 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$
@@ -1278,13 +1316,21 @@ Find the determinant of $A = \begin{pmatrix} 2 & 3 & 1 \\ 0 & -1 & 2 \\ 1 & 4 & 
 
 Expanding along row 2 (which contains a zero):
 
-$$\det(A) = 0 \cdot C_{21} + (-1) \cdot C_{22} + 2 \cdot C_{23}$$
+$$
+\det(A) = 0 \cdot C_{21} + (-1) \cdot C_{22} + 2 \cdot C_{23}
+$$
 
-$$C_{22} = (-1)^{2+2}\begin{vmatrix} 2 & 1 \\ 1 & -1 \end{vmatrix} = -2 - 1 = -3$$
+$$
+C_{22} = (-1)^{2+2}\begin{vmatrix} 2 & 1 \\ 1 & -1 \end{vmatrix} = -2 - 1 = -3
+$$
 
-$$C_{23} = (-1)^{2+3}\begin{vmatrix} 2 & 3 \\ 1 & 4 \end{vmatrix} = -(8 - 3) = -5$$
+$$
+C_{23} = (-1)^{2+3}\begin{vmatrix} 2 & 3 \\ 1 & 4 \end{vmatrix} = -(8 - 3) = -5
+$$
 
-$$\det(A) = 0 + (-1)(-3) + 2(-5) = 3 - 10 = -7$$
+$$
+\det(A) = 0 + (-1)(-3) + 2(-5) = 3 - 10 = -7
+$$
 
 **If you get this wrong, revise:** 3x3 Determinant -- Cofactor Expansion.
 
@@ -1293,14 +1339,18 @@ $$\det(A) = 0 + (-1)(-3) + 2(-5) = 3 - 10 = -7$$
 ### Problem 4
 
 Find the matrix representing an anticlockwise rotation by $60^\circ$ about the origin, and use it to
-Find the image of the point $(1, \sqrt{3})$.
+find the image of the point $(1, \sqrt{3})$.
 
 <details>
 <summary>Solution</summary>
 
-$$R_{60} = \begin{pmatrix} \cos 60^\circ & -\sin 60^\circ \\ \sin 60^\circ & \cos 60^\circ \end{pmatrix} = \begin{pmatrix} \frac{1}{2} & -\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}$$
+$$
+R_{60} = \begin{pmatrix} \cos 60^\circ & -\sin 60^\circ \\ \sin 60^\circ & \cos 60^\circ \end{pmatrix} = \begin{pmatrix} \frac{1}{2} & -\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}
+$$
 
-$$\begin{pmatrix} \frac{1}{2} & -\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}\begin{pmatrix} 1 \\ \sqrt{3} \end{pmatrix} = \begin{pmatrix} \frac{1}{2} - \frac{3}{2} \\ \frac{\sqrt{3}}{2} + \frac{\sqrt{3}}{2} \end{pmatrix} = \begin{pmatrix} -1 \\ \sqrt{3} \end{pmatrix}$$
+$$
+\begin{pmatrix} \frac{1}{2} & -\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}\begin{pmatrix} 1 \\ \sqrt{3} \end{pmatrix} = \begin{pmatrix} \frac{1}{2} - \frac{3}{2} \\ \frac{\sqrt{3}}{2} + \frac{\sqrt{3}}{2} \end{pmatrix} = \begin{pmatrix} -1 \\ \sqrt{3} \end{pmatrix}
+$$
 
 The image is $(-1, \sqrt{3})$.
 
@@ -1322,7 +1372,9 @@ Enlargement with scale factor $3$: $E_3 = \begin{pmatrix} 3 & 0 \\ 0 & 3 \end{pm
 
 Composite (enlargement applied after reflection):
 
-$$M = E_3 \cdot R_y = \begin{pmatrix} 3 & 0 \\ 0 & 3 \end{pmatrix}\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} -3 & 0 \\ 0 & 3 \end{pmatrix}$$
+$$
+M = E_3 \cdot R_y = \begin{pmatrix} 3 & 0 \\ 0 & 3 \end{pmatrix}\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} -3 & 0 \\ 0 & 3 \end{pmatrix}
+$$
 
 Area scale factor: $|\det(M)| = |-3 \times 3 - 0| = 9$.
 
@@ -1347,11 +1399,17 @@ $\det(A) = 3(-1 - 2) - 2(1 - 4) + (-1)(1 + 2) = -9 + 6 - 3 = -6$
 
 By Cramer's rule:
 
-$$x = \frac{\det\begin{pmatrix} 5 & 2 & -1 \\ 1 & -1 & 2 \\ 4 & 1 & 1 \end{pmatrix}}{-6} = \frac{5(-1-2) - 2(1-8) + (-1)(1+4)}{-6} = \frac{-15+14-5}{-6} = \frac{-6}{-6} = 1$$
+$$
+x = \frac{\det\begin{pmatrix} 5 & 2 & -1 \\ 1 & -1 & 2 \\ 4 & 1 & 1 \end{pmatrix}}{-6} = \frac{5(-1-2) - 2(1-8) + (-1)(1+4)}{-6} = \frac{-15+14-5}{-6} = \frac{-6}{-6} = 1
+$$
 
-$$y = \frac{\det\begin{pmatrix} 3 & 5 & -1 \\ 1 & 1 & 2 \\ 2 & 4 & 1 \end{pmatrix}}{-6} = \frac{3(1-8) - 5(1-4) + (-1)(4-2)}{-6} = \frac{-21+15-2}{-6} = \frac{-8}{-6} = \frac{4}{3}$$
+$$
+y = \frac{\det\begin{pmatrix} 3 & 5 & -1 \\ 1 & 1 & 2 \\ 2 & 4 & 1 \end{pmatrix}}{-6} = \frac{3(1-8) - 5(1-4) + (-1)(4-2)}{-6} = \frac{-21+15-2}{-6} = \frac{-8}{-6} = \frac{4}{3}
+$$
 
-$$z = \frac{\det\begin{pmatrix} 3 & 2 & 5 \\ 1 & -1 & 1 \\ 2 & 1 & 4 \end{pmatrix}}{-6} = \frac{3(-4-1) - 2(4-2) + 5(1+2)}{-6} = \frac{-15-4+15}{-6} = \frac{-4}{-6} = \frac{2}{3}$$
+$$
+z = \frac{\det\begin{pmatrix} 3 & 2 & 5 \\ 1 & -1 & 1 \\ 2 & 1 & 4 \end{pmatrix}}{-6} = \frac{3(-4-1) - 2(4-2) + 5(1+2)}{-6} = \frac{-15-4+15}{-6} = \frac{-4}{-6} = \frac{2}{3}
+$$
 
 Solution: $x = 1$$y = \frac{4}{3}$$z = \frac{2}{3}$.
 
@@ -1368,21 +1426,29 @@ Find the eigenvalues and eigenvectors of $A = \begin{pmatrix} 3 & -2 \\ 1 & 0 \e
 
 **Characteristic equation:**
 
-$$\det(A - \lambda I) = (3 - \lambda)(-\lambda) - (-2)(1) = \lambda^2 - 3\lambda + 2 = 0$$
+$$
+\det(A - \lambda I) = (3 - \lambda)(-\lambda) - (-2)(1) = \lambda^2 - 3\lambda + 2 = 0
+$$
 
-$$(\lambda - 1)(\lambda - 2) = 0$$
+$$
+(\lambda - 1)(\lambda - 2) = 0
+$$
 
 $\lambda_1 = 1$, $\lambda_2 = 2$.
 
 **Eigenvector for $\lambda_1 = 1$:**
 
-$$\begin{pmatrix} 2 & -2 \\ 1 & -1 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = v_2$$
+$$
+\begin{pmatrix} 2 & -2 \\ 1 & -1 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = v_2
+$$
 
 Eigenvector: $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
 **Eigenvector for $\lambda_2 = 2$:**
 
-$$\begin{pmatrix} 1 & -2 \\ 1 & -2 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = 2v_2$$
+$$
+\begin{pmatrix} 1 & -2 \\ 1 & -2 \end{pmatrix}\begin{pmatrix} v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies v_1 = 2v_2
+$$
 
 Eigenvector: $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$.
 
@@ -1398,7 +1464,9 @@ $y$-axis with scale factor $3$. Find the single matrix and describe its effect o
 <details>
 <summary>Solution</summary>
 
-$$M = \begin{pmatrix} 1 & 0 \\ 0 & 3 \end{pmatrix}\begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}$$
+$$
+M = \begin{pmatrix} 1 & 0 \\ 0 & 3 \end{pmatrix}\begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}
+$$
 
 The unit square (area = 1) is mapped to a rectangle with vertices $(0,0)$, $(2,0)$, $(2,3)$,
 $(0,3)$. The new area is $6$.
@@ -1419,7 +1487,9 @@ $M = \begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix}$.
 
 **Invariant points:** Solve $(M - I)\mathbf{x} = \mathbf{0}$:
 
-$$\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}
+$$
 
 From row 2: $y = 0$. From row 1: $x + 0 = 0$ So $x = 0$.
 
@@ -1464,24 +1534,28 @@ Steady state: $\begin{pmatrix} 0.5 & 0.5 \end{pmatrix}$.
 ### Problem 11
 
 Encrypt the word "CAT" using the Hill cipher with key matrix
-$K = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$Padding with "X" if needed.
+$K = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$ Padding with "X" if needed.
 
 <details>
 <summary>Solution</summary>
 
 C = 2, A = 0, T = 19. Pad to make even length: "CATX" where X = 23.
 
-Block 1: $\begin{pmatrix} 2 \\ 0 \end{pmatrix}$Block 2: $\begin{pmatrix} 19 \\ 23 \end{pmatrix}$
+Block 1: $\begin{pmatrix} 2 \\ 0 \end{pmatrix}$ Block 2: $\begin{pmatrix} 19 \\ 23 \end{pmatrix}$
 
 Block 1:
 
-$$\begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 2 \\ 0 \end{pmatrix} = \begin{pmatrix} 4 \\ 2 \end{pmatrix} \equiv \begin{pmatrix} 4 \\ 2 \end{pmatrix} \pmod{26}$$
+$$
+\begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 2 \\ 0 \end{pmatrix} = \begin{pmatrix} 4 \\ 2 \end{pmatrix} \equiv \begin{pmatrix} 4 \\ 2 \end{pmatrix} \pmod{26}
+$$
 
 Giving "EC".
 
 Block 2:
 
-$$\begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 19 \\ 23 \end{pmatrix} = \begin{pmatrix} 61 \\ 42 \end{pmatrix} \equiv \begin{pmatrix} 9 \\ 16 \end{pmatrix} \pmod{26}$$
+$$
+\begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 19 \\ 23 \end{pmatrix} = \begin{pmatrix} 61 \\ 42 \end{pmatrix} \equiv \begin{pmatrix} 9 \\ 16 \end{pmatrix} \pmod{26}
+$$
 
 $61 \bmod 26 = 9$ (J), $42 \bmod 26 = 16$ (Q). Giving "JQ".
 
@@ -1501,9 +1575,13 @@ diagonalisation To find $A^4$.
 
 **Eigenvalues:**
 
-$$\det(A - \lambda I) = (2-\lambda)^2 - 1 = \lambda^2 - 4\lambda + 3 = 0$$
+$$
+\det(A - \lambda I) = (2-\lambda)^2 - 1 = \lambda^2 - 4\lambda + 3 = 0
+$$
 
-$$(\lambda - 1)(\lambda - 3) = 0 \implies \lambda_1 = 1, \lambda_2 = 3$$
+$$
+(\lambda - 1)(\lambda - 3) = 0 \implies \lambda_1 = 1, \lambda_2 = 3
+$$
 
 **Eigenvectors:**
 
@@ -1517,17 +1595,27 @@ $\mathbf{v}_2 = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
 **Diagonalisation:**
 
-$$P = \begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 1 & 0 \\ 0 & 3 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 1 & 0 \\ 0 & 3 \end{pmatrix}
+$$
 
-$$\det(P) = 2, \quad P^{-1} = \frac{1}{2}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}$$
+$$
+\det(P) = 2, \quad P^{-1} = \frac{1}{2}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}
+$$
 
 **Compute $A^4$:**
 
-$$D^4 = \begin{pmatrix} 1 & 0 \\ 0 & 81 \end{pmatrix}$$
+$$
+D^4 = \begin{pmatrix} 1 & 0 \\ 0 & 81 \end{pmatrix}
+$$
 
-$$A^4 = PD^4 P^{-1} = \begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & 81 \end{pmatrix}\frac{1}{2}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}$$
+$$
+A^4 = PD^4 P^{-1} = \begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & 81 \end{pmatrix}\frac{1}{2}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}
+$$
 
-$$= \frac{1}{2}\begin{pmatrix} 1 & 81 \\ -1 & 81 \end{pmatrix}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix} = \frac{1}{2}\begin{pmatrix} 82 & 80 \\ 80 & 82 \end{pmatrix} = \begin{pmatrix} 41 & 40 \\ 40 & 41 \end{pmatrix}$$
+$$
+= \frac{1}{2}\begin{pmatrix} 1 & 81 \\ -1 & 81 \end{pmatrix}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix} = \frac{1}{2}\begin{pmatrix} 82 & 80 \\ 80 & 82 \end{pmatrix} = \begin{pmatrix} 41 & 40 \\ 40 & 41 \end{pmatrix}
+$$
 
 **If you get this wrong, revise:** Diagonalisation and Matrix Powers sections.
 
@@ -1554,10 +1642,14 @@ A matrix is a machine that transforms space. It stretches, rotates, reflects, an
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic      | Site    | Link                                                                                                    |
 | ---------- | ------- | ------------------------------------------------------------------------------------------------------- |
 | [Matrices] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/02-matrices) |
-| [Matrices] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/3-geometry-and-trigonometry/3_matrices-and-transformations) |
+| [Matrices] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations/) |
+
+</div>
 
 ## Worked Examples
 

@@ -21,37 +21,49 @@ description: "In vacuum, with no sources ( ), Maxwell' s equations give: Compreh
 
 In vacuum, with no sources ($\rho = 0$, $\mathbf{J} = \mathbf{0}$), Maxwell's equations give:
 
-$$\nabla \times (\nabla \times \mathbf{E}) = \nabla(\nabla \cdot \mathbf{E}) - \nabla^2 \mathbf{E} = -\nabla^2 \mathbf{E}$$
+$$
+\nabla \times (\nabla \times \mathbf{E}) = \nabla(\nabla \cdot \mathbf{E}) - \nabla^2 \mathbf{E} = -\nabla^2 \mathbf{E}
+$$
 
 From Faraday's law: $\nabla \times \mathbf{E} = -\partial \mathbf{B}/\partial t$ So:
 
-$$\nabla \times \left(-\frac{\partial \mathbf{B}}{\partial t}\right) = -\frac{\partial}{\partial t}(\nabla \times \mathbf{B}) = -\mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}$$
+$$
+\nabla \times \left(-\frac{\partial \mathbf{B}}{\partial t}\right) = -\frac{\partial}{\partial t}(\nabla \times \mathbf{B}) = -\mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}
+$$
 
 Hence:
 
-$$\nabla^2 \mathbf{E} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}$$
+$$
+\nabla^2 \mathbf{E} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}
+$$
 
 This is the **electromagnetic wave equation** with wave speed $c = 1/\sqrt{\mu_0 \varepsilon_0}$.
 
 The same equation holds for $\mathbf{B}$:
 
-$$\nabla^2 \mathbf{B} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{B}}{\partial t^2}$$
+$$
+\nabla^2 \mathbf{B} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{B}}{\partial t^2}
+$$
 
 ### 1.2 General Solutions
 
 The one-dimensional wave equation:
 
-$$\frac{\partial^2 u}{\partial x^2} = \frac{1}{v^2}\frac{\partial^2 u}{\partial t^2}$$
+$$
+\frac{\partial^2 u}{\partial x^2} = \frac{1}{v^2}\frac{\partial^2 u}{\partial t^2}
+$$
 
 Has the general solution (d'Alembert’s solution):
 
-$$u(x, t) = f(x - vt) + g(x + vt)$$
+$$
+u(x, t) = f(x - vt) + g(x + vt)
+$$
 
 Where $f$ is a wave travelling in the $+x$ direction and $g$ in the $-x$ direction.
 
 **Proof.** Substitute $u = f(x - vt)$. Let $\xi = x - vt$. Then $\partial u/\partial x = f'(\xi)$
 $\partial^2 u/\partial x^2 = f''(\xi)$, $\partial u/\partial t = -vf'(\xi)$
-$\partial^2 u/\partial t^2 = v^2 f''(\xi)$. The wave equation gives $f'' = (v^2/v^2)f''$Which Is
+$\partial^2 u/\partial t^2 = v^2 f''(\xi)$. The wave equation gives $f'' = (v^2/v^2)f''$ Which Is
 identically satisfied. The same holds for $g(x + vt)$. By linearity, the sum is also a solution.
 $\blacksquare$
 
@@ -80,7 +92,9 @@ propagation in the $+x$ direction.
 
 It is convenient to write monochromatic waves as:
 
-$$\mathbf{E}(\mathbf{r}, t) = \mathrm{Re}\left[\tilde{\mathbf{E}}\, e^{i(\mathbf{k}\cdot\mathbf{r} - \omega t)}\right]$$
+$$
+\mathbf{E}(\mathbf{r}, t) = \mathrm{Re}\left[\tilde{\mathbf{E}}\, e^{i(\mathbf{k}\cdot\mathbf{r} - \omega t)}\right]
+$$
 
 Where $\tilde{\mathbf{E}}$ is the complex amplitude, $\mathbf{k}$ is the wave vector, and $\omega$
 is The angular frequency. The dispersion relation is $\omega = ck = c|\mathbf{k}|$.
@@ -90,7 +104,9 @@ The wave vector satisfies $|\mathbf{k}| = 2\pi/\lambda$ and $\omega = 2\pi\nu$.
 When computing intensities, the complex representation simplifies the algebra. For a plane wave with
 Complex amplitude $\tilde{E}$:
 
-$$I = \frac{1}{2}c\varepsilon_0 |\tilde{E}|^2$$
+$$
+I = \frac{1}{2}c\varepsilon_0 |\tilde{E}|^2
+$$
 
 <details>
 <summary>Worked Example: Complex amplitude and intensity</summary>
@@ -115,37 +131,47 @@ W/m$^2$.
 When two waves of equal amplitude and frequency travel in opposite directions, their superposition
 Produces a **standing wave**. Consider:
 
-$$u_1 = A\sin(kx - \omega t), \quad u_2 = A\sin(kx + \omega t)$$
+$$
+u_1 = A\sin(kx - \omega t), \quad u_2 = A\sin(kx + \omega t)
+$$
 
 Using the identity $\sin\alpha + \sin\beta = 2\sin\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2}$:
 
-$$u(x,t) = 2A\sin(kx)\cos(\omega t)$$
+$$
+u(x,t) = 2A\sin(kx)\cos(\omega t)
+$$
 
 This is a standing wave with the following properties:
 
-- **Nodes** (points of zero displacement): $kx = m\pi$I.e., $x = m\lambda/2$ for
+- **Nodes** (points of zero displacement): $kx = m\pi$ I.e., $x = m\lambda/2$ for
   $m = 0, 1, 2, \ldots$
-- **Antinodes** (points of maximum displacement): $kx = (m + 1/2)\pi$I.e., $x = (2m+1)\lambda/4$.
+- **Antinodes** (points of maximum displacement): $kx = (m + 1/2)\pi$ I.e., $x = (2m+1)\lambda/4$.
 - All points between two nodes oscillate **in phase** (or in antiphase with adjacent segments).
 - The standing wave does not transport energy in either direction.
 
 **Standing waves on a string of length $L$ fixed at both ends.** The boundary conditions
 $u(0,t) = 0$ And $u(L,t) = 0$ require $\sin(kL) = 0$ So:
 
-$$k_n L = n\pi \implies \lambda_n = \frac{2L}{n}, \quad f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots$$
+$$
+k_n L = n\pi \implies \lambda_n = \frac{2L}{n}, \quad f_n = \frac{nv}{2L}, \quad n = 1, 2, 3, \ldots
+$$
 
 The allowed frequencies are integer multiples of the **fundamental frequency** $f_1 = v/(2L)$. The
 general solution is a superposition of all normal modes:
 
-$$u(x,t) = \sum_{n=1}^{\infty} \left(A_n \sin k_n x \cos \omega_n t + B_n \sin k_n x \sin \omega_n t\right)$$
+$$
+u(x,t) = \sum_{n=1}^{\infty} \left(A_n \sin k_n x \cos \omega_n t + B_n \sin k_n x \sin \omega_n t\right)
+$$
 
 **Standing waves on a string fixed at one end ($x = 0$) and free at the other ($x = L$).** The free
-end requires $\partial u/\partial x|_{x=L} = 0$Giving $\cos(kL) = 0$ So:
+end requires $\partial u/\partial x|_{x=L} = 0$ Giving $\cos(kL) = 0$ So:
 
-$$k_n L = (n + 1/2)\pi \implies f_n = \frac{(2n+1)v}{4L}, \quad n = 0, 1, 2, \ldots$$
+$$
+k_n L = (n + 1/2)\pi \implies f_n = \frac{(2n+1)v}{4L}, \quad n = 0, 1, 2, \ldots
+$$
 
 Only odd harmonics are present. A pipe open at one end and closed at the other behaves analogously
-For sound waves.
+for sound waves.
 
 <details>
 <summary>Worked Example: Guitar string harmonics</summary>
@@ -165,41 +191,57 @@ $x = 0, 0.217, 0.433, 0.650$ m (the endpoints and two interior nodes).
 
 ### 1.5 Energy Transport by Waves
 
-For a transverse wave on a string of linear mass density $\mu$ under tension $T$With
+For a transverse wave on a string of linear mass density $\mu$ under tension $T$ With
 $v = \sqrt{T/\mu}$:
 
 **Kinetic energy** of an element $dx$:
 
-$$dK = \frac{1}{2}\mu\,dx\left(\frac{\partial u}{\partial t}\right)^2$$
+$$
+dK = \frac{1}{2}\mu\,dx\left(\frac{\partial u}{\partial t}\right)^2
+$$
 
 **Potential energy** (from stretching the string):
 
-$$dU = \frac{1}{2}T\,dx\left(\frac{\partial u}{\partial x}\right)^2$$
+$$
+dU = \frac{1}{2}T\,dx\left(\frac{\partial u}{\partial x}\right)^2
+$$
 
 **Proof that kinetic and potential energies are equal.** For a rightward-travelling wave
 $u = f(x - vt)$:
 
-$$\frac{\partial u}{\partial t} = -vf'(x - vt) = -v\frac{\partial u}{\partial x}$$
+$$
+\frac{\partial u}{\partial t} = -vf'(x - vt) = -v\frac{\partial u}{\partial x}
+$$
 
 Since $v^2 = T/\mu$ (i.e., $T = \mu v^2$):
 
-$$dU = \frac{1}{2}\mu v^2\left(\frac{\partial u}{\partial x}\right)^2 = \frac{1}{2}\mu\left(\frac{\partial u}{\partial t}\right)^2 = dK \quad \blacksquare$$
+$$
+dU = \frac{1}{2}\mu v^2\left(\frac{\partial u}{\partial x}\right)^2 = \frac{1}{2}\mu\left(\frac{\partial u}{\partial t}\right)^2 = dK \quad \blacksquare
+$$
 
 The total energy density (energy per unit length) is:
 
-$$\frac{dE}{dx} = dK + dU = \mu\left(\frac{\partial u}{\partial t}\right)^2$$
+$$
+\frac{dE}{dx} = dK + dU = \mu\left(\frac{\partial u}{\partial t}\right)^2
+$$
 
 **Energy flux (power):** The rate of energy transport past a point is:
 
-$$P = -T\frac{\partial u}{\partial x}\frac{\partial u}{\partial t} = \mu v\left(\frac{\partial u}{\partial t}\right)^2$$
+$$
+P = -T\frac{\partial u}{\partial x}\frac{\partial u}{\partial t} = \mu v\left(\frac{\partial u}{\partial t}\right)^2
+$$
 
-For a sinusoidal wave $u = A\sin(kx - \omega t)$The time-averaged power is:
+For a sinusoidal wave $u = A\sin(kx - \omega t)$ The time-averaged power is:
 
-$$\langle P \rangle = \frac{1}{2}\mu v \omega^2 A^2$$
+$$
+\langle P \rangle = \frac{1}{2}\mu v \omega^2 A^2
+$$
 
 The **intensity** (power per unit area, generalising to 3D) is:
 
-$$I = \frac{1}{2}\rho v \omega^2 A^2$$
+$$
+I = \frac{1}{2}\rho v \omega^2 A^2
+$$
 
 Where $\rho$ is the mass density of the medium.
 
@@ -228,26 +270,32 @@ $I = \langle P \rangle/A_{\mathrm{wire} = 34.7/(7.85 \times 10^{-7}) = 4.42 \tim
 ### 1.6 Wave Packets and Group Velocity
 
 A real wave is never perfectly monochromatic. A **wave packet** is a superposition of plane waves
-With a narrow range of frequencies and wave vectors:
+with a narrow range of frequencies and wave vectors:
 
-$$\psi(x,t) = \int_{-\infty}^{\infty} A(k)\, e^{i(kx - \omega(k)t)}\,dk$$
+$$
+\psi(x,t) = \int_{-\infty}^{\infty} A(k)\, e^{i(kx - \omega(k)t)}\,dk
+$$
 
 Where $A(k)$ is the spectral amplitude, peaked around $k_0$ with width $\Delta k$.
 
 Expanding the dispersion relation around $k_0$:
 
-$$\omega(k) \approx \omega_0 + v_g(k - k_0) + \frac{1}{2}\alpha(k - k_0)^2$$
+$$
+\omega(k) \approx \omega_0 + v_g(k - k_0) + \frac{1}{2}\alpha(k - k_0)^2
+$$
 
 Where $v_g = \left.d\omega/dk\right|_{k_0}$ is the **group velocity** and $\alpha = d^2\omega/dk^2$
 is the **group velocity dispersion** (GVD).
 
 Substituting and carrying out the Gaussian integral (for a Gaussian envelope $A(k)$):
 
-$$|\psi(x,t)|^2 \propto \exp\left(-\frac{(x - v_g t)^2}{2\sigma_x^2(t)}\right)$$
+$$
+|\psi(x,t)|^2 \propto \exp\left(-\frac{(x - v_g t)^2}{2\sigma_x^2(t)}\right)
+$$
 
 Where $\sigma_x(t) = \sigma_x(0)\sqrt{1 + (\alpha t / 2\sigma_x^2(0))^2}$.
 
-The envelope moves at $v_g$While individual wave crests move at the **phase velocity**
+The envelope moves at $v_g$ While individual wave crests move at the **phase velocity**
 $v_p = \omega/k$. The packet **broadens** over time due to GVD.
 
 - In a **non-dispersive** medium ($\omega \propto k$ So $v_g = v_p$): the packet propagates without
@@ -257,7 +305,7 @@ $v_p = \omega/k$. The packet **broadens** over time due to GVD.
 
 **Relation to the wave equation.** The 1D wave equation
 $\partial^2 u/\partial t^2 = v^2\partial^2 u/\partial x^2$ Has dispersion relation
-$\omega = \pm vk$Giving $v_g = v_p = v$, it is non-dispersive.
+$\omega = \pm vk$ Giving $v_g = v_p = v$, it is non-dispersive.
 
 <details>
 <summary>Worked Example: Group velocity in a dispersive medium</summary>
@@ -289,16 +337,6 @@ equal to the signal velocity In regions of weak, normal dispersion. Near absorpt
 $v_g$ can exceed $c$ or become Negative, this does not violate causality, since the true signal
 velocity (front velocity) never Exceeds $c$.
 
-```mermaid
-flowchart TD
-    A[1_The Wave Equation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Waves are disturbances that travel without the medium itself moving. Throw a stone into a pond and the ripples spread outward, but the water molecules mostly bob up and down. The wave equation captures this essential behavior: the second time derivative equals a constant times the second spatial derivative, meaning the acceleration of any point is proportional to how different its neighbors are from it. Standing waves are like a dance where two identical waves moving in opposite directions create a pattern of fixed nodes and oscillating antinodes. A guitar string vibrates this way: the ends cannot move, so only certain frequencies fit. Group velocity is how fast information or energy travels, while phase velocity is how fast individual crests move. In dispersive media, these differ, which is why ocean waves can have crests moving faster than the overall wave front.
@@ -321,6 +359,6 @@ The superposition principle applies only to linear media. In non-linear optics (
 - **[Electrodynamics](/3-electromagnetism/4_electrodynamics/)**: Electrodynamics provides the foundation for understanding how changing electric and magnetic fields propagate as waves.
 - **[Interference](/4-optics-and-waves/3_interference/)**: The superposition of wave solutions to the wave equation produces interference patterns used in Young's double slit and Fabry-Perot interferometers.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

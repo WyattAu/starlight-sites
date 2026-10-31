@@ -91,6 +91,8 @@ development on platforms beyond Apple, including Linux and Windows.
 
 ## Swift vs Other Languages
 
+<div class="table-wrap">
+
 | Feature           | Swift        | Python      | TypeScript    | Rust        |
 | ----------------- | ------------ | ----------- | ------------- | ----------- |
 | Type system       | Strong, safe | Dynamic     | Gradual       | Strong      |
@@ -99,6 +101,8 @@ development on platforms beyond Apple, including Linux and Windows.
 | Concurrency       | async/await  | async/await | async/await   | async/await |
 | Primary domain    | Apple        | General     | Web           | Systems     |
 | Null safety       | Optionals    | None        | Union/null    | Option      |
+
+</div>
 
 ## Setting Up the Development Environment
 
@@ -192,7 +196,7 @@ swift
 
 ## Swift Package Manager (SPM)
 
-SPM is Apple"s built-in dependency management and build tool. It integrates with Xcode and works
+SPM is Apple's built-in dependency management and build tool. It integrates with Xcode and works
 from the command line.
 
 ### Package Structure
@@ -455,6 +459,8 @@ func greet(_ subject: Identifiable) {
 
 ### Popular Third-Party Libraries
 
+<div class="table-wrap">
+
 | Library                     | Purpose                       |
 | --------------------------- | ----------------------------- |
 | Alamofire                   | HTTP networking               |
@@ -465,6 +471,8 @@ func greet(_ subject: Identifiable) {
 | RxSwift                     | Reactive extensions           |
 | The Composable Architecture | State management architecture |
 | Alamofire                   | HTTP networking               |
+
+</div>
 
 ### Server-Side Swift
 
@@ -732,6 +740,8 @@ let largeNumber = 1_000_000        // Underscores for readability
 
 ### Numeric Types
 
+<div class="table-wrap">
+
 | Type     | Size (bits) | Range                                        |
 | -------- | ----------- | -------------------------------------------- |
 | `Int8`   | 8           | -128 to 127                                  |
@@ -742,6 +752,8 @@ let largeNumber = 1_000_000        // Underscores for readability
 | `UInt`   | Platform    | Unsigned equivalent of `Int`                 |
 | `Float`  | 32          | 6 decimal digits precision                   |
 | `Double` | 64          | 15 decimal digits precision                  |
+
+</div>
 
 ```swift
 // Type conversion -- must be explicit
@@ -1339,16 +1351,6 @@ let handler: CompletionHandler = { result in
     case .failure(let error): print("Error: \(error)")
     }
 }
-```
-
-```mermaid
-flowchart TD
-    A[1_Variables And Types] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition
@@ -2344,16 +2346,6 @@ emitter.emit("login", "Bob")
 
 **Explanation:** The generic `EventType` parameter allows the emitter to be keyed by any hashable type (strings, enums, etc.). Each handler is stored with a unique string ID for later removal. The internal storage uses `(Any) -> Void` with type casting, providing type safety at the public API boundary while maintaining flexibility internally.
 
-```mermaid
-flowchart TD
-    A[1_Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Swift functions are first-class values that can be stored, passed, and returned. Closures provide
@@ -2396,6 +2388,8 @@ URL: https://swift.wyattau.com/03-oop/1_classes-and-structs/
 Swift provides both **classes** (reference types) and **structs** (value types). The choice between
 them is a fundamental design decision.
 
+<div class="table-wrap">
+
 | Feature         | Struct                      | Class                           |
 | --------------- | --------------------------- | ------------------------------- |
 | Type            | Value type                  | Reference type                  |
@@ -2406,6 +2400,8 @@ them is a fundamental design decision.
 | Memory          | Stack (in most cases)             | Heap (ARC)                      |
 | Identity        | No (`==` compares values)   | Yes (`===` compares references) |
 | Implicit `init` | Yes (memberwise)            | No                              |
+
+</div>
 
 ### Choosing Between Struct and Class
 
@@ -2739,7 +2735,7 @@ class ColoredShape: Shape {
 ## Protocols
 
 Protocols define a **blueprint of methods, properties, and requirements** that conforming types must
-implement. They are central to Swift"s protocol-oriented programming paradigm.
+implement. They are central to Swift's protocol-oriented programming paradigm.
 
 ### Defining Protocols
 
@@ -3106,6 +3102,8 @@ class CreditCard {
 
 ## Access Control
 
+<div class="table-wrap">
+
 | Level         | Same module              | Different module         |
 | ------------- | ------------------------ | ------------------------ |
 | `open`        | Yes (subclass, override) | Yes (subclass, override) |
@@ -3113,6 +3111,8 @@ class CreditCard {
 | `internal`    | Yes                      | No                       |
 | `fileprivate` | Same file                | No                       |
 | `private`     | Same scope               | No                       |
+
+</div>
 
 ```swift
 open class PublicClass {
@@ -3128,17 +3128,6 @@ open class PublicClass {
         self.password = password
     }
 }
-```
-
-
-```mermaid
-flowchart TD
-    A[1_Classes And Structs] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition
@@ -3347,17 +3336,6 @@ URL: https://swift.wyattau.com/04-advanced/2_concurrency/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "04 Advanced", "url": "https://swift.wyattau.com/04-advanced"}, {"name": "2_concurrency", "url": "https://swift.wyattau.com/04-advanced/2_concurrency"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[2_Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Overview of Swift Concurrency
 
@@ -5007,16 +4985,6 @@ case .failure(let error): showError(error.localizedDescription)
 
 **Explanation:** The retry loop handles transient network errors with exponential backoff. Non-transient errors fail immediately via `.permanent`. After exhausting retries, the function attempts a cache fallback, returning `.fallbackUsed` to indicate degraded data. The `Result` type makes all three outcomes explicit and composable.
 
-```mermaid
-flowchart TD
-    A[1_Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Swift's error handling is explicit and type-safe. Enum-based error types provide structured error
@@ -5090,8 +5058,6 @@ This site provides comprehensive study materials covering:
 - SwiftUI
 - Concurrency
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -5116,8 +5082,6 @@ programming fundamentals
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -5135,18 +5099,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Swift Basics Flashcards](/flashcards-swift-basics/)
 - [Swift](/intro/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -5155,54 +5112,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -5256,15 +5165,9 @@ Swift is designed for safety and performance, optionals force you to handle nil 
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -5273,96 +5176,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -5607,17 +5420,6 @@ URL: https://swift.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -5984,7 +5786,6 @@ Start with Swift basics: variables, optionals, functions, and control flow. Then
 
 **Not using guard statements for early exits:** guard is like if but for conditions that must be true for the rest of the function to work. Using guard with else { return } makes preconditions explicit and reduces nesting.
 
-
 ## Summary
 
 Swift is a modern, compiled language for Apple platform development (iOS, macOS,
@@ -6001,18 +5802,11 @@ for safe parallel execution. Start with Xcode (Mac) or Swift.org toolchain
 - **[Site Home](../../):** Main landing page for swift notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -6021,54 +5815,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -6146,15 +5892,9 @@ the explanation.
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -6163,74 +5903,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 

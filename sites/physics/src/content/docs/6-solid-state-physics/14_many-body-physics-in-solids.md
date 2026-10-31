@@ -22,11 +22,15 @@ description: "In a metal, the Coulomb interaction between electrons is screened 
 In a metal, the Coulomb interaction between electrons is screened by the other electrons. The
 **Thomas--Fermi screening wavevector**:
 
-$$q_{\text{TF}^2 = \frac{e^2 g(\varepsilon_F)}{\varepsilon_0} = \frac{4k_F}{\pi a_0}}$$
+$$
+q_{\text{TF}^2 = \frac{e^2 g(\varepsilon_F)}{\varepsilon_0} = \frac{4k_F}{\pi a_0}}
+$$
 
 Where $a_0 = 4\pi\varepsilon_0\hbar^2/(m_e e^2)$ is the Bohr radius. The screened potential:
 
-$$V_{\text{scr}(r) = \frac{e^2}{4\pi\varepsilon_0 r}\,e^{-q_{\text{TF} r}}}$$
+$$
+V_{\text{scr}(r) = \frac{e^2}{4\pi\varepsilon_0 r}\,e^{-q_{\text{TF} r}}}
+$$
 
 The screening length $\lambda_{\text{TF} = 1/q_{\text{TF} \sim 0.5}}$ Å in metals (about one atomic
 spacing), meaning the Coulomb interaction is very short-ranged.
@@ -36,7 +40,9 @@ spacing), meaning the Coulomb interaction is very short-ranged.
 The Hubbard model captures the competition between kinetic energy (delocalisation) and on-site
 Coulomb repulsion (localisation):
 
-$$\hat{H} = -t\sum_{\langle i,j\rangle,\sigma}\hat{c}_{i\sigma}^\dagger\hat{c}_{j\sigma} + U\sum_i \hat{n}_{i\uparrow}\hat{n}_{i\downarrow}$$
+$$
+\hat{H} = -t\sum_{\langle i,j\rangle,\sigma}\hat{c}_{i\sigma}^\dagger\hat{c}_{j\sigma} + U\sum_i \hat{n}_{i\uparrow}\hat{n}_{i\downarrow}
+$$
 
 Where $t$ is the hopping integral and $U$ is the on-site repulsion energy.
 
@@ -48,12 +54,12 @@ Where $t$ is the hopping integral and $U$ is the on-site repulsion energy.
   oxides
 
 The half-filled Hubbard model on a bipartite lattice has a metal--insulator transition at
-$U_c \sim W$ (bandwidth). For $U > U_c$The system is a Mott insulator even though band theory
+$U_c \sim W$ (bandwidth). For $U > U_c$ The system is a Mott insulator even though band theory
 predicts a metal.
 
 ### 14.3 Quasiparticles and Fermi Liquid Theory
 
-Landau"s **Fermi liquid theory** (1956) states that the low-energy excitations of an interacting
+Landau's **Fermi liquid theory** (1956) states that the low-energy excitations of an interacting
 Fermi system can be described as **quasiparticles** --- weakly interacting fermions with
 renormalised parameters:
 
@@ -81,7 +87,9 @@ spin is screened by conduction electrons at low temperature, forming a singlet s
 
 The Kondo temperature $T_K$ sets the energy scale:
 
-$$k_B T_K \sim D\,e^{-1/(N(E_F)J)}$$
+$$
+k_B T_K \sim D\,e^{-1/(N(E_F)J)}
+$$
 
 Where $D$ is the bandwidth and $J$ is the exchange coupling. Below $T_K$:
 
@@ -118,7 +126,9 @@ mJ/(mol$\cdot$K$^2$).
 
 The mass enhancement:
 
-$$\frac{m^*}{m_e} = \frac{\gamma}{\gamma_0} \approx \frac{1000}{1} = 1000$$
+$$
+\frac{m^*}{m_e} = \frac{\gamma}{\gamma_0} \approx \frac{1000}{1} = 1000
+$$
 
 This enormous enhancement arises from the Kondo effect: the $4f$ electrons of Ce hybridise with
 conduction electrons, forming heavy quasiparticles. The Kondo temperature $T_K \sim 10$ K is the
@@ -130,6 +140,8 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 
 ### 14.5 Key Relationships
 
+<div class="table-wrap">
+
 | Quantity | Expression | Physical Meaning |
 | --- | --- | --- |
 | Thomas-Fermi wavevector | $q_{\text{TF}}^2 = e^2 g(\varepsilon_F)/\varepsilon_0$ | Inverse screening length |
@@ -138,6 +150,8 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 | Fermi liquid lifetime | $\tau \propto 1/(\varepsilon - \varepsilon_F)^2$ | Quasiparticle decay rate near Fermi surface |
 | Mott criterion | $U_c \sim W$ (bandwidth) | Onset of Mott insulating state |
 
+</div>
+
 ### 14.6 Common Pitfalls
 
 - Confusing the Thomas-Fermi screening length with the Debye length (the former applies to degenerate electrons, the latter to classical plasmas).
@@ -145,17 +159,6 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 - Treating quasiparticles as real particles: they are emergent excitations that can decay, and their effective mass can be negative.
 - Neglecting that the Kondo effect requires a magnetic impurity in a non-magnetic host; in a magnetic host the physics is different.
 - Confusing the Mott insulator (driven by electron correlations) with a band insulator (driven by filled bands and a band gap).
-
-
-```mermaid
-flowchart TD
-    A[14_Many Body Physics In Solids] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -169,27 +172,7 @@ Many-body physics studies how enormous numbers of interacting particles produce 
 - **[Magnetism in Solids](/6-solid-state-physics/10_magnetism-in-solids/)**: The Hubbard model and exchange interactions connect many-body physics to magnetic ordering in solids.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

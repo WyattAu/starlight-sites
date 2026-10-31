@@ -20,11 +20,11 @@ categories: [Mathematics]
 ## Statics (Extended Treatment)
 
 This document covers moments, equilibrium conditions, centres of mass, ladder problems, and
-Frameworks with a rigorous, proof-based approach.
+frameworks with a rigorous, proof-based approach.
 
 :::note
 Approach -- drawing the diagram, listing forces, choosing a pivot -- is more reliable than
-Intuition.
+intuition.
 :::
 
 <hr />
@@ -35,7 +35,9 @@ Intuition.
 
 The **moment** of a force $\mathbf{F}$ about a point $O$ is:
 
-$$M_O = F \times d$$
+$$
+M_O = F \times d
+$$
 
 Where $d$ is the **perpendicular distance** from the line of action of the force to the point $O$.
 
@@ -47,7 +49,7 @@ Negative.
 ### 1.2 Moment of a force at an angle
 
 If a force $F$ acts at angle $\theta$ to the line joining the point of application to the pivot, The
-moment is $M = Fd\sin\theta$Where $d$ is the distance from the pivot to the point of Application.
+moment is $M = Fd\sin\theta$ Where $d$ is the distance from the pivot to the point of Application.
 
 **Proof.** Resolve the force into components parallel and perpendicular to the line from the pivot
 To the point of application. The parallel component passes through the pivot and produces zero
@@ -65,13 +67,19 @@ Taking moments about $A$ (anticlockwise positive):
 
 Weight of beam: $20g\;\mathrm{N}$ acting at the midpoint, $2\;\mathrm{m}$ from $A$.
 
-$$R_C \times 3 - 20g \times 2 - 50 \times 0.5 = 0$$
+$$
+R_C \times 3 - 20g \times 2 - 50 \times 0.5 = 0
+$$
 
-$$R_C = \frac{40g + 25}{3} = \frac{392 + 25}{3} = \frac{417}{3} = 139\;\mathrm{N}$$
+$$
+R_C = \frac{40g + 25}{3} = \frac{392 + 25}{3} = \frac{417}{3} = 139\;\mathrm{N}
+$$
 
 Resolving vertically: $R_A + R_C = 20g + 50$
 
-$$R_A = 20g + 50 - 139 = 196 + 50 - 139 = 107\;\mathrm{N}$$
+$$
+R_A = 20g + 50 - 139 = 196 + 50 - 139 = 107\;\mathrm{N}
+$$
 
 :::caution
 the line of action of the Force to the pivot point, not just the distance along the beam.
@@ -88,14 +96,18 @@ A rigid body is in equilibrium if and only if:
 1. **The resultant force is zero:** $$\sum \mathbf{F} = \mathbf{0}$$
 
 2. **The resultant moment about any point is zero:**
-   $$\sum M_O = 0 \quad \mathrm{for\ any\ point}\ O$$
+   $$
+   \sum M_O = 0 \quad \mathrm{for\ any\ point}\ O
+   $$
 
 **Theorem.** If the resultant force on a body is zero and the resultant moment about **one** point
 Is zero, then the resultant moment about **every** point is zero.
 
 **Proof.** Suppose $\sum \mathbf{F} = \mathbf{0}$ and $\sum M_A = 0$. For any other point $B$:
 
-$$M_B = M_A + \mathbf{r}_{BA} \times \sum \mathbf{F} = 0 + \mathbf{r}_{BA} \times \mathbf{0} = 0$$
+$$
+M_B = M_A + \mathbf{r}_{BA} \times \sum \mathbf{F} = 0 + \mathbf{r}_{BA} \times \mathbf{0} = 0
+$$
 
 Where $\mathbf{r}_{BA}$ is the position vector from $B$ to $A$. $\blacksquare$
 
@@ -106,7 +118,9 @@ simplify the calculation.
 
 For equilibrium in 2D, we resolve horizontally and vertically:
 
-$$\sum F_x = 0, \qquad \sum F_y = 0, \qquad \sum M = 0$$
+$$
+\sum F_x = 0, \qquad \sum F_y = 0, \qquad \sum M = 0
+$$
 
 This gives three equations, which can determine up to three unknowns.
 
@@ -114,22 +128,30 @@ This gives three equations, which can determine up to three unknowns.
 
 **Problem.** A non-uniform beam $AB$ of length $6\;\mathrm{m}$ and mass $30\;\mathrm{kg}$ rests on
 Supports at $A$ and $B$. When a load of $200\;\mathrm{N}$ is placed at a point $2\;\mathrm{m}$ from
-$A$The reaction at $A$ is $350\;\mathrm{N}$. Find the position of the centre of mass of the beam.
+$A$ The reaction at $A$ is $350\;\mathrm{N}$. Find the position of the centre of mass of the beam.
 
 Let the centre of mass be at distance $x$ from $A$. Taking moments about $B$ (anticlockwise
 positive):
 
-The beam"s weight $30g$ acts downward at distance $x$ from $A$Which is $(6 - x)$ from $B$. The
+The beam"s weight $30g$ acts downward at distance $x$ from $A$ Which is $(6 - x)$ from $B$. The
 $200\;\mathrm{N}$ load acts at distance $4\;\mathrm{m}$ from $B$. The reaction at $A$
 ($350\;\mathrm{N}$) acts at distance $6\;\mathrm{m}$ from $B$.
 
-$$350 \times 6 + 200 \times 4 - 30g(6 - x) = 0$$
+$$
+350 \times 6 + 200 \times 4 - 30g(6 - x) = 0
+$$
 
-$$2100 + 800 - 294(6 - x) = 0$$
+$$
+2100 + 800 - 294(6 - x) = 0
+$$
 
-$$2900 = 1764 - 294x$$
+$$
+2900 = 1764 - 294x
+$$
 
-$$294x = 1764 - 2900 = -1136$$
+$$
+294x = 1764 - 2900 = -1136
+$$
 
 Wait -- this gives a negative result, which suggests an error in sign convention. Let me reconsider.
 
@@ -144,11 +166,17 @@ $= -200 \times 4 = -800$.
 
 $30g\;\mathrm{N}$ acts downward at distance $(6-x)$ from $B$: moment $= -30g(6-x)$.
 
-$$2100 - 800 - 30g(6-x) = 0$$
+$$
+2100 - 800 - 30g(6-x) = 0
+$$
 
-$$1300 = 294(6-x) = 1764 - 294x$$
+$$
+1300 = 294(6-x) = 1764 - 294x
+$$
 
-$$294x = 464 \implies x = \frac{464}{294} \approx 1.58\;\mathrm{m}$$
+$$
+294x = 464 \implies x = \frac{464}{294} \approx 1.58\;\mathrm{m}
+$$
 
 The centre of mass is approximately $1.58\;\mathrm{m}$ from $A$.
 
@@ -161,7 +189,9 @@ The centre of mass is approximately $1.58\;\mathrm{m}$ from $A$.
 For particles of masses $m_1, m_2, \ldots, m_n$ at positions
 $(x_1, y_1), (x_2, y_2), \ldots, (x_n, y_n)$:
 
-$$\bar{x} = \frac{\sum m_i x_i}{\sum m_i}, \qquad \bar{y} = \frac{\sum m_i y_i}{\sum m_i}$$
+$$
+\bar{x} = \frac{\sum m_i x_i}{\sum m_i}, \qquad \bar{y} = \frac{\sum m_i y_i}{\sum m_i}
+$$
 
 ### 3.2 Centre of mass of uniform laminas
 
@@ -176,37 +206,45 @@ $\dfrac{2}{3}$ of the median length from each vertex.
 parallel to the base at height $y$ has width $a\!\left(1 - \dfrac{y}{b}\right)$ and mass
 Proportional to this width.
 
-$$\bar{y} = \frac{\int_0^b y \cdot a\!\left(1 - \frac{y}{b}\right)dy}{\int_0^b a\!\left(1 - \frac{y}{b}\right)dy} = \frac{\left[\frac{y^2}{2} - \frac{y^3}{3b}\right]_0^b}{\left[y - \frac{y^2}{2b}\right]_0^b} = \frac{\frac{b^2}{2} - \frac{b^2}{3}}{b - \frac{b}{2}} = \frac{\frac{b^2}{6}}{\frac{b}{2}} = \frac{b}{3}$$
+$$
+\bar{y} = \frac{\int_0^b y \cdot a\!\left(1 - \frac{y}{b}\right)dy}{\int_0^b a\!\left(1 - \frac{y}{b}\right)dy} = \frac{\left[\frac{y^2}{2} - \frac{y^3}{3b}\right]_0^b}{\left[y - \frac{y^2}{2b}\right]_0^b} = \frac{\frac{b^2}{2} - \frac{b^2}{3}}{b - \frac{b}{2}} = \frac{\frac{b^2}{6}}{\frac{b}{2}} = \frac{b}{3}
+$$
 
-The centre of mass is at height $\dfrac{b}{3}$Which is $\dfrac{1}{3}$ of the way from the base And
+The centre of mass is at height $\dfrac{b}{3}$ Which is $\dfrac{1}{3}$ of the way from the base And
 $\dfrac{2}{3}$ from the apex. $\blacksquare$
 
 ### 3.3 Composite bodies
 
 For a body composed of several parts with known centres of mass, the overall centre of mass is found
-By treating each part as a particle at its own centre of mass.
+by treating each part as a particle at its own centre of mass.
 
 ### 3.4 Worked example: composite lamina
 
 **Problem.** A uniform lamina consists of a rectangle $ABCD$ with $AB = 8\;\mathrm{cm}$
-$BC = 6\;\mathrm{cm}$With a semicircle of diameter $8\;\mathrm{cm}$ removed from the top edge $AD$.
+$BC = 6\;\mathrm{cm}$ With a semicircle of diameter $8\;\mathrm{cm}$ removed from the top edge $AD$.
 Find the centre of mass of the remaining lamina.
 
-Rectangle: area $= 48\;\mathrm{cm}^2$Centre at $(4, 3)$.
+Rectangle: area $= 48\;\mathrm{cm}^2$ Centre at $(4, 3)$.
 
-Semicircle: radius $= 4\;\mathrm{cm}$Area $= \dfrac{1}{2}\pi(16) = 8\pi\;\mathrm{cm}^2$. Centre of
+Semicircle: radius $= 4\;\mathrm{cm}$ Area $= \dfrac{1}{2}\pi(16) = 8\pi\;\mathrm{cm}^2$. Centre of
 mass of the semicircle is at distance $\dfrac{4r}{3\pi} = \dfrac{16}{3\pi}$
 from the Diameter, i.e. At $(4, 6 - \dfrac{16}{3\pi})$.
 
 Treating the removed semicircle as a negative mass:
 
-$$\bar{x} = \frac{48 \times 4 - 8\pi \times 4}{48 - 8\pi} = \frac{4(48 - 8\pi)}{48 - 8\pi} = 4\;\mathrm{cm}$$
+$$
+\bar{x} = \frac{48 \times 4 - 8\pi \times 4}{48 - 8\pi} = \frac{4(48 - 8\pi)}{48 - 8\pi} = 4\;\mathrm{cm}
+$$
 
 This is expected by symmetry.
 
-$$\bar{y} = \frac{48 \times 3 - 8\pi\!\left(6 - \frac{16}{3\pi}\right)}{48 - 8\pi} = \frac{144 - 48\pi + \frac{128}{3}}{48 - 8\pi}$$
+$$
+\bar{y} = \frac{48 \times 3 - 8\pi\!\left(6 - \frac{16}{3\pi}\right)}{48 - 8\pi} = \frac{144 - 48\pi + \frac{128}{3}}{48 - 8\pi}
+$$
 
-$$\bar{y} = \frac{144 + 42.67 - 150.80}{48 - 25.13} = \frac{35.87}{22.87} \approx 1.57\;\mathrm{cm}$$
+$$
+\bar{y} = \frac{144 + 42.67 - 150.80}{48 - 25.13} = \frac{35.87}{22.87} \approx 1.57\;\mathrm{cm}
+$$
 
 :::caution
 method: treat the removed Section as having negative area. The formula remains the same but with
@@ -220,7 +258,7 @@ negative contributions from The removed part.
 ### 4.1 General approach
 
 Ladder problems involve a uniform ladder leaning against a rough vertical wall and resting on a
-Rough horizontal ground. The key forces are:
+rough horizontal ground. The key forces are:
 
 - Weight $W$ of the ladder, acting at the centre.
 - Normal reaction $R_g$ from the ground (vertical).
@@ -232,8 +270,8 @@ Rough horizontal ground. The key forces are:
 
 **Problem.** A uniform ladder of length $5\;\mathrm{m}$ and mass $20\;\mathrm{kg}$ rests with its
 Foot on rough horizontal ground and its top against a smooth vertical wall. The ladder makes an
-Angle of $65^\circ$ with the horizontal. The coefficient of friction between the ladder and the
-Ground is $0.4$. Will the ladder slip?
+angle of $65^\circ$ with the horizontal. The coefficient of friction between the ladder and the
+ground is $0.4$. Will the ladder slip?
 
 Resolving horizontally: $F_g = R_w$.
 
@@ -241,17 +279,25 @@ Resolving vertically: $R_g = 20g = 196\;\mathrm{N}$.
 
 Taking moments about the foot of the ladder (anticlockwise positive):
 
-$$R_w \times 5\sin 65^\circ - 20g \times 2.5\cos 65^\circ = 0$$
+$$
+R_w \times 5\sin 65^\circ - 20g \times 2.5\cos 65^\circ = 0
+$$
 
-$$R_w = \frac{20g \times 2.5\cos 65^\circ}{5\sin 65^\circ} = \frac{49\cos 65^\circ}{\sin 65^\circ} = 49\cot 65^\circ$$
+$$
+R_w = \frac{20g \times 2.5\cos 65^\circ}{5\sin 65^\circ} = \frac{49\cos 65^\circ}{\sin 65^\circ} = 49\cot 65^\circ
+$$
 
-$$R_w = 49 \times 0.4663 = 22.85\;\mathrm{N}$$
+$$
+R_w = 49 \times 0.4663 = 22.85\;\mathrm{N}
+$$
 
-$$F_g = R_w = 22.85\;\mathrm{N}$$
+$$
+F_g = R_w = 22.85\;\mathrm{N}
+$$
 
 Maximum available friction: $F_{\max} = \mu R_g = 0.4 \times 196 = 78.4\;\mathrm{N}$.
 
-Since $F_g = 22.85 \lt 78.4 = F_{\max}$The ladder does **not** slip.
+Since $F_g = 22.85 \lt 78.4 = F_{\max}$ The ladder does **not** slip.
 
 ### 4.3 Finding the minimum angle
 
@@ -259,17 +305,27 @@ Since $F_g = 22.85 \lt 78.4 = F_{\max}$The ladder does **not** slip.
 
 At the limiting position, $F_g = \mu R_g$:
 
-$$R_w = F_g = \mu R_g = 0.4 \times 196 = 78.4\;\mathrm{N}$$
+$$
+R_w = F_g = \mu R_g = 0.4 \times 196 = 78.4\;\mathrm{N}
+$$
 
 Taking moments about the foot:
 
-$$R_w \times 5\sin\alpha = 20g \times 2.5\cos\alpha$$
+$$
+R_w \times 5\sin\alpha = 20g \times 2.5\cos\alpha
+$$
 
-$$78.4 \times 5\sin\alpha = 490\cos\alpha$$
+$$
+78.4 \times 5\sin\alpha = 490\cos\alpha
+$$
 
-$$\tan\alpha = \frac{490}{392} = 1.25$$
+$$
+\tan\alpha = \frac{490}{392} = 1.25
+$$
 
-$$\alpha = \arctan(1.25) \approx 51.3^\circ$$
+$$
+\alpha = \arctan(1.25) \approx 51.3^\circ
+$$
 
 The minimum angle is approximately $51.3^\circ$.
 
@@ -306,13 +362,17 @@ $C$ on smooth horizontal surfaces. Find the forces in all rods.
 
 By symmetry, the vertical reactions at $B$ and $C$ are equal:
 
-$$R_B = R_C = 50\;\mathrm{N}$$
+$$
+R_B = R_C = 50\;\mathrm{N}
+$$
 
 **Joint $A$:** Vertical equilibrium: $T_{AD}\sin 60^\circ + T_{AE}\sin 60^\circ = 100$.
 
 By symmetry, $T_{AD} = T_{AE}$:
 
-$$2T_{AD}\sin 60^\circ = 100 \implies T_{AD} = \frac{100}{2\sin 60^\circ} = \frac{100}{\sqrt{3}} \approx 57.7\;\mathrm{N}$$
+$$
+2T_{AD}\sin 60^\circ = 100 \implies T_{AD} = \frac{100}{2\sin 60^\circ} = \frac{100}{\sqrt{3}} \approx 57.7\;\mathrm{N}
+$$
 
 Both $AD$ and $AE$ are in **tension** (pulling away from $A$).
 
@@ -326,7 +386,7 @@ This analysis continues joint by joint until all rod forces are determined.
 ### 5.3 Method of sections
 
 For large frameworks, the **method of sections** is often more efficient. An imaginary cut is made
-Through the framework, and equilibrium of one of the resulting sections is analysed.
+through the framework, and equilibrium of one of the resulting sections is analysed.
 
 <hr />
 
@@ -335,7 +395,7 @@ Through the framework, and equilibrium of one of the resulting sections is analy
 ### Problem 1
 
 A uniform beam $AB$ of length $5\;\mathrm{m}$ and weight $200\;\mathrm{N}$ is hinged at $A$ and
-Supported by a wire attached at $B$Making an angle of $30^\circ$ with the beam. Find the tension In
+supported by a wire attached at $B$ Making an angle of $30^\circ$ with the beam. Find the tension In
 the wire and the reaction at the hinge.
 
 <details>
@@ -343,9 +403,13 @@ the wire and the reaction at the hinge.
 
 Taking moments about $A$:
 
-$$T \times 5\sin 30^\circ - 200 \times 2.5 = 0$$
+$$
+T \times 5\sin 30^\circ - 200 \times 2.5 = 0
+$$
 
-$$T = \frac{500}{2.5} = 200\;\mathrm{N}$$
+$$
+T = \frac{500}{2.5} = 200\;\mathrm{N}
+$$
 
 Resolving at $A$: horizontal reaction $H = T\cos 30^\circ = 200\cos 30^\circ = 173.2\;\mathrm{N}$.
 
@@ -356,18 +420,22 @@ Vertical reaction $V = 200 - T\sin 30^\circ = 200 - 100 = 100\;\mathrm{N}$.
 ### Problem 2
 
 A uniform lamina is formed from a square of side $10\;\mathrm{cm}$ with a right-angled triangle of
-Base $10\;\mathrm{cm}$ and height $6\;\mathrm{cm}$ attached to one side. Find the centre of mass of
-The composite lamina.
+base $10\;\mathrm{cm}$ and height $6\;\mathrm{cm}$ attached to one side. Find the centre of mass of
+the composite lamina.
 
 <details>
 <summary>Solution</summary>
 
-Square: area $= 100$Centre at $(5, 5)$. Triangle: area $= 30$Centre at
+Square: area $= 100$ Centre at $(5, 5)$. Triangle: area $= 30$ Centre at
 $\left(\dfrac{10}{3}, 3\right)$ (one-third from the base).
 
-$$\bar{x} = \frac{100 \times 5 + 30 \times \frac{10}{3}}{130} = \frac{500 + 100}{130} = \frac{600}{130} \approx 4.62\;\mathrm{cm}$$
+$$
+\bar{x} = \frac{100 \times 5 + 30 \times \frac{10}{3}}{130} = \frac{500 + 100}{130} = \frac{600}{130} \approx 4.62\;\mathrm{cm}
+$$
 
-$$\bar{y} = \frac{100 \times 5 + 30 \times 3}{130} = \frac{500 + 90}{130} = \frac{590}{130} \approx 4.54\;\mathrm{cm}$$
+$$
+\bar{y} = \frac{100 \times 5 + 30 \times 3}{130} = \frac{500 + 90}{130} = \frac{590}{130} \approx 4.54\;\mathrm{cm}
+$$
 
 </details>
 
@@ -397,7 +465,7 @@ So $F_g = 407.5\;\mathrm{N}$. Available friction at ground: $0.4 \times 980 = 39
 
 Available friction at wall: $F_w \leq 0.3 R_w = 0.3 \times 407.5 = 122.3\;\mathrm{N}$.
 
-For vertical equilibrium at the wall: $F_w + 25g + 75g = R_g$Which gives $F_w = 0$ by our Equation.
+For vertical equilibrium at the wall: $F_w + 25g + 75g = R_g$ Which gives $F_w = 0$ by our Equation.
 But we should check: resolving vertically for the whole system gives $R_g = 980\;\mathrm{N}$ And the
 wall friction $F_w$ acts upward.
 
@@ -405,7 +473,7 @@ Taking moments about the foot again with $F_w$ included:
 
 $R_w \times 8\sin 55^\circ + F_w \times 8\cos 55^\circ = 475g\cos 55^\circ + 25g \times 4\cos 55^\circ$
 
-This gives $F_w = 0$ by the vertical resolution. Since $F_g = 407.5 \gt 392$The ladder **would
+This gives $F_w = 0$ by the vertical resolution. Since $F_g = 407.5 \gt 392$ The ladder **would
 slip** at the ground.
 
 </details>
@@ -414,8 +482,8 @@ slip** at the ground.
 
 A uniform rod $AB$ of length $3\;\mathrm{m}$ and weight $80\;\mathrm{N}$ is freely hinged at $A$ to
 A vertical wall. The rod is held horizontal by a string attached to $B$ and to a point $C$ on the
-Wall $2\;\mathrm{m}$ above $A$. A load of $120\;\mathrm{N}$ is hung from $B$. Find the tension in
-The string.
+wall $2\;\mathrm{m}$ above $A$. A load of $120\;\mathrm{N}$ is hung from $B$. Find the tension in
+the string.
 
 <details>
 <summary>Solution</summary>
@@ -461,7 +529,9 @@ Resolving horizontally: $F_g = R_w$.
 Taking moments about the foot:
 $R_w \times 6\sin 60^\circ + F_w \times 6\cos 60^\circ = 18g \times 3\cos 60^\circ$.
 
-$$5.196 R_w + 3 F_w = 264.6$$
+$$
+5.196 R_w + 3 F_w = 264.6
+$$
 
 At limiting equilibrium: $F_g = 0.35 R_g$ and $F_w = 0.25 R_w$.
 
@@ -490,21 +560,13 @@ Circle: area $= 9\pi \approx 28.27$, centre at $(4, 4)$.
 
 Using negative mass for the hole:
 
-$$\bar{x} = \frac{96 \times 6 - 9\pi \times 4}{96 - 9\pi} = \frac{576 - 113.1}{67.73} = \frac{462.9}{67.73} \approx 6.83\ \mathrm{cm}$$
+$$
+\bar{x} = \frac{96 \times 6 - 9\pi \times 4}{96 - 9\pi} = \frac{576 - 113.1}{67.73} = \frac{462.9}{67.73} \approx 6.83\ \mathrm{cm}
+$$
 
 By symmetry of the cut, $\bar{y} = 4\ \mathrm{cm}$.
 
 $\blacksquare$
-
-```mermaid
-flowchart TD
-    A[Statics Depth] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

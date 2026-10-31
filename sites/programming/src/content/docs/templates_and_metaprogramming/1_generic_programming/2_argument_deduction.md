@@ -102,9 +102,9 @@ int main() {
 
 The deduction algorithm [N4950 S13.8.2.1] proceeds as follows:
 
-1. For each function parameter `P_i` and corresponding argument `A_i`The compiler forms a deduction
+1. For each function parameter `P_i` and corresponding argument `A_i`. The compiler forms a deduction
    pair $\lt P_i, A_i \gt$.
-2. If $P_i$ has the form `T``T&``T&&``const T&`Etc., the compiler deduces `T` from the type of
+2. If $P_i$ has the form `T`, `T&`, `T&&`, `const T&`. Etc., the compiler deduces `T` from the type of
    $A_i$.
 3. If $P_i$ has the form `T[C]` (array of `T` with bound `C`), and $A_i$ is an array of the same
    rank, both `T` and `C` are deduced.
@@ -166,14 +166,18 @@ Forwarding references (also called universal references before C++11 was standar
 Deduction rules that differ from both lvalue references and rvalue references. The rules [N4950
 S13.8.2.1] are:
 
+<div class="table-wrap">
+
 | Argument category  | `T` deduced as | Parameter type after substitution          |
 | ------------------ | -------------- | ------------------------------------------ |
 | lvalue of type `U` | `U&`           | `U&` (reference collapse: `U& &&` -> `U&`) |
 | rvalue of type `U` | `U`            | `U&&`                                      |
 
+</div>
+
 The critical asymmetry is that passing an lvalue to a forwarding reference deduces `T` as a
 _reference type_, while passing an rvalue deduces `T` as a non-reference type. This is the mechanism
-That enables perfect forwarding with `std::forward`:
+that enables perfect forwarding with `std::forward`:
 
 ```cpp
 #include <iostream>
@@ -252,7 +256,7 @@ int main() {
 
 The decay rules apply because the template parameter `T` in `void f(T param)` is matched against the
 Argument type after default conversions [N4950 S13.8.2.1/4]. Array-to-pointer and
-Function-to-pointer are both default conversions. When the parameter is a reference `T&`No such
+Function-to-pointer are both default conversions. When the parameter is a reference `T&`. No such
 Conversion occurs, and the array or function type is deduced directly.
 
 ### Array-to-Pointer Decay in Deduction: A Closer Look
@@ -354,13 +358,13 @@ The CTAD process follows a specific algorithm:
 4. If multiple guides produce valid deductions, overload resolution selects the best one.
 
 An **implicit deduction guide** is generated for each constructor and each constructor template of a
-Class template [N4950 S16.3.1.7]. For a constructor `C(Params...)`The implicit guide is:
+Class template [N4950 S16.3.1.7]. For a constructor `C(Params...)`. The implicit guide is:
 `C(Params...) -> C&lt;deduced-types-from-Params&gt;`.
 
 ### CTAD and Implicitly Generated Deduction Guides
 
 For each constructor of a class template, the compiler generates an **implicit deduction guide**
-That mirrors the constructor's signature. For a constructor `C(Args...)`The implicit guide is:
+That mirrors the constructor's signature. For a constructor `C(Args...)`. The implicit guide is:
 
 ```
 C(Args...) -> C<deduced-types-from-Args>
@@ -488,7 +492,7 @@ int main() {
 
 The deduction guide `Pair(T, U) -> Pair&lt;std::decay_t&lt;T&gt;, std::decay_t&lt;U&gt;&gt;` uses
 `std::decay_t` to ensure that array and function types decay to pointer types (matching the behavior
-Of pass-by-value constructors), just as `std::make_pair` does.
+of pass-by-value constructors), just as `std::make_pair` does.
 
 ### Deduction Guides for Type-Conversion Patterns
 
@@ -585,7 +589,7 @@ void deduce_auto() {
 The formal difference [N4950 S10.1.7.1] is:
 
 - **`auto x = {expr};`** always deduces `std::initializer_list`Just like template deduction.
-- **`auto x{expr};`** (direct initialization) in C++17 deduces `std::initializer_list`But in C++20
+- **`auto x{expr};`** (direct initialization) in C++17 deduces `std::initializer_list`. But in C++20
   it deduces the type of `expr` directly (following the rules for copy-list-initialization of a
   plain `auto`).
 
@@ -843,7 +847,7 @@ int main() {
    arguments during deduction. The template parameter `T` in `f(const T&)` will never be `const`.
 
 3. **CTAD with string literals.** `std::pair p{"hello", "world"}` deduces
-   `std::pair&lt;const char*, const char*&gt;`Not `std::pair&lt;std::string, std::string&gt;`. Use
+   `std::pair&lt;const char*, const char*&gt;`. Not `std::pair&lt;std::string, std::string&gt;`. Use
    `std::pair&lt;std::string, std::string&gt;` explicitly or provide a deduction guide.
 
 4. **CTAD does not work with aggregate initialization in C++17.** Aggregate types do not have
@@ -876,16 +880,6 @@ int main() {
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[2_Argument_Deduction] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to argument deduction (class and
@@ -899,10 +893,5 @@ function), including key theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

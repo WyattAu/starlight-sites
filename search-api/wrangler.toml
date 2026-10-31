@@ -2,6 +2,18 @@ name = "wyattsnotes-search"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
+# Workers Logs (paid plan): queryable console output and exception records.
+# The October outage (every /api/search 500-ing on quota-exhausted KV writes)
+# was diagnosed by inference because console logs were invisible; this makes
+# the next incident a log query.
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1.0
+invocation_logs = true
+
 # KV namespace binding
 # ID must be set via CLOUDFLARE_KV_NAMESPACE_ID secret in CI
 [[kv_namespaces]]

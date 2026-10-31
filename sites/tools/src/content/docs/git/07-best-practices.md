@@ -103,6 +103,8 @@ git commit -m "docs: update installation instructions"
 
 ### Why Atomic Commits Matter
 
+<div class="table-wrap">
+
 | Reason                  | Explanation                                                             |
 | ----------------------- | ----------------------------------------------------------------------- |
 | **Bisectability**       | `git bisect` can pinpoint the exact commit that introduced a bug        |
@@ -110,6 +112,8 @@ git commit -m "docs: update installation instructions"
 | **Reviewability**       | Reviewers can understand each change in isolation                       |
 | **Cherry-picking**      | Individual fixes can be cherry-picked to release branches               |
 | **History archaeology** | Future developers can understand _why_ each change was made             |
+
+</div>
 
 ### Staging Partial Changes
 
@@ -166,8 +170,8 @@ credentials.json
 
 ### What NOT to Ignore
 
-- Configuration files that others need (`.eslintrc.json``tsconfig.json`).
-- Lockfiles (`package-lock.json``yarn.lock``Cargo.lock`).
+- Configuration files that others need (`.eslintrc.json`, `tsconfig.json`).
+- Lockfiles (`package-lock.json`, `yarn.lock`, `Cargo.lock`).
 - `.gitignore` itself.
 
 ### Global `.gitignore`
@@ -334,14 +338,7 @@ git config --global alias.save "stash push -m"
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

@@ -19,17 +19,6 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[2_Promise_Awaiter] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## The Coroutine Handle, Promise Type, and Awaiter
 
 This section covers the three interacting components of the C++ coroutine machinery, `co_await`
@@ -61,7 +50,7 @@ The expression `co_await expr` is transformed by the compiler into a sequence of
 
 1. If `expr` has an `operator co_await` member or non-member overload, the result of
    `expr.operator co_await()` (or `operator co_await(expr)`) is the awaiter.
-2. Otherwise, if the promise type has `await_transform`Then `promise.await_transform(expr)` is
+2. Otherwise, if the promise type has `await_transform`. Then `promise.await_transform(expr)` is
    called, and the result is the awaiter.
 3. Otherwise, `expr` itself is the awaiter.
 
@@ -73,7 +62,7 @@ Calls [N4950 §9.5.4.3].
 **Proof:**
 
 1. The compiler first resolves the awaiter through the lookup chain defined above (operator
-   `co_await``await_transform`Or identity).
+   `co_await`, `await_transform` or identity).
 2. Let the resolved awaiter be `a`. The compiler generates code equivalent to:
 
    ```cpp
@@ -123,20 +112,26 @@ awaiter.await_resume();
 
 The three methods that an awaiter must provide [N4950 §9.5.4.3]:
 
+<div class="table-wrap">
+
 | Method                  | Return type                          | Purpose                                                  |
 | :---------------------- | :----------------------------------- | :------------------------------------------------------- |
 | `await_ready()`         | `bool`                               | If `true`Skip suspension and proceed directly            |
 | `await_suspend(handle)` | `void``bool`Or `coroutine_handle<Z>` | Called when coroutine suspends; controls resumption      |
 | `await_resume()`        | any type                             | Produces the result of `co_await expr`; called on resume |
 
+</div>
+
 The return type of `await_suspend` is critical [N4950 §9.5.4.3]:
 
 - **`void`**: the coroutine is suspended; control returns to the caller.
-- **`bool`**: if `true`The coroutine is suspended; if `false`It resumes immediately.
+- **`bool`**: if `true`. The coroutine is suspended; if `false`. It resumes immediately.
 - **`coroutine_handle<Z>`**: the coroutine is suspended, and the returned handle is resumed
   (symmetric transfer).
 
 ### Detailed `await_suspend` Return Type Semantics
+
+<div class="table-wrap">
 
 | Return Type           | Coroutine State After | What Happens                                                                                                          |
 | :-------------------- | :-------------------- | :-------------------------------------------------------------------------------------------------------------------- |
@@ -145,10 +140,14 @@ The return type of `await_suspend` is critical [N4950 §9.5.4.3]:
 | `bool` (false)        | Running               | The coroutine continues immediately from the resume point. No suspension occurs.                                      |
 | `coroutine_handle<Z>` | Suspended             | The returned handle is resumed immediately. Used for symmetric transfer (tail-call optimization of coroutine chains). |
 
+</div>
+
 ## Promise Type vs Awaiter Type
 
 The **promise type** is the bidirectional communication channel between the coroutine and its
 Caller. The **awaiter type** is the mechanism that controls individual suspension points.
+
+<div class="table-wrap">
 
 | Aspect      | Promise Type                                         | Awaiter Type                                          |
 | :---------- | :--------------------------------------------------- | :---------------------------------------------------- |
@@ -156,6 +155,8 @@ Caller. The **awaiter type** is the mechanism that controls individual suspensio
 | Purpose     | Manages coroutine state, return values, exceptions   | Controls individual suspend/resume behavior           |
 | Required by | Every coroutine (via `promise_type` alias)           | Every `co_await` expression                           |
 | Key methods | `get_return_object``initial_suspend``final_suspend`  | `await_ready``await_suspend``await_resume`            |
+
+</div>
 
 ## `promise_type::get_return_object()`
 
@@ -216,7 +217,7 @@ int main() {
 
 ## `await_transform` for Custom Suspension Behavior
 
-If the promise type defines `await_transform`Every `co_await expr` first passes through it [N4950
+If the promise type defines `await_transform`. Every `co_await expr` first passes through it [N4950
 §9.5.4.3]. This allows the promise to intercept and transform any awaitable into a custom awaiter,
 Enabling library-level control over suspension semantics:
 
@@ -318,7 +319,7 @@ The promise type communicates values back to the caller through two distinct cha
 - **`co_return expr`** calls `promise.return_value(expr)` (or `promise.return_void()` if no value)
   and transitions the coroutine to the final suspend point.
 
-A promise type must define **either** `return_value` or `return_void`But not both. If the Coroutine
+A promise type must define **either** `return_value` or `return_void`. But not both. If the Coroutine
 uses `co_return;` (no value), `return_void` must be present.
 
 ```cpp

@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "Assessment"
 description: "Study notes for Assessment | IB - Wyatt's Notes with worked examples and practice questions."
@@ -28,6 +27,8 @@ description: "Study notes for Assessment | IB - Wyatt's Notes with worked exampl
 
 ## SL
 
+<div class="table-wrap">
+
 | Index | Objective                                           | Paper 1 | Paper 2 | IA    | Sum |
 | ----- | --------------------------------------------------- | ------- | ------- | ----- | --- |
 | 1     | Demonstration of knowledge and understanding        | 24      | 13      | 9     | 46  |
@@ -36,14 +37,18 @@ description: "Study notes for Assessment | IB - Wyatt's Notes with worked exampl
 | 4     | Skills usage                                        | n/a     | n/a     | 9     | 9   |
 | n/a   | Weighting                                           | $0.45$  | $0.25$  | $0.3$ | 1   |
 
+</div>
+
 | 4 | Skills usage | n/a | n/a | 9 | 9 | | n/a | Weighting | $0.45$ | $0.25$ | $0.3$ | 1 |
 
 ## Paper 1, Written Response
 
 Paper 1 is a **2-hour** examination (SL) or **2 hours 15 minutes** (HL) that tests knowledge and
-Understanding of the core syllabus.
+understanding of the core syllabus.
 
 ### Structure
+
+<div class="table-wrap">
 
 | Component           | SL                          | HL                             |
 | ------------------- | --------------------------- | ------------------------------ |
@@ -51,6 +56,8 @@ Understanding of the core syllabus.
 | Section B           | Extended-response questions | Extended-response questions    |
 | Section C (HL only) | n/a                         | Extended-response on HL topics |
 | Total marks         | 80                          | 100                            |
+
+</div>
 
 ### What examiners look for
 
@@ -85,11 +92,15 @@ Computational thinking to unseen problems.
 
 ### Structure
 
+<div class="table-wrap">
+
 | Component           | SL                          | HL                          |
 | ------------------- | --------------------------- | --------------------------- |
 | Section A           | Scenario-based short answer | Scenario-based short answer |
 | Section B (HL only) | n/a                         | HL-only scenario question   |
 | Total marks         | 45                          | 70                          |
+
+</div>
 
 ### Key skills tested
 
@@ -118,6 +129,8 @@ print(mystery([3, 7, 2, 9, 5]))
 
 **Trace table:**
 
+<div class="table-wrap">
+
 | i   | data[i] | data[i-1] | Condition | result |
 | --- | ------- | --------- | --------- | ------ |
 | 0   | 3       | 5         | False     | 0      |
@@ -125,6 +138,8 @@ print(mystery([3, 7, 2, 9, 5]))
 | 2   | 2       | 7         | False     | 7      |
 | 3   | 9       | 2         | True      | 16     |
 | 4   | 5       | 9         | False     | 16     |
+
+</div>
 
 **Output:** `16`
 
@@ -161,6 +176,8 @@ Client-identified problem.
 
 ### Requirements
 
+<div class="table-wrap">
+
 | Criterion | Description                                 | Maximum marks |
 | --------- | ------------------------------------------- | ------------- |
 | A         | Planning                                    | 6             |
@@ -170,6 +187,8 @@ Client-identified problem.
 | E         | Evaluation                                  | 6             |
 | F         | Abstract                                    | 2             |
 |           | **Total**                                   | **36**        |
+
+</div>
 
 ### Planning (Criterion A)
 
@@ -204,6 +223,8 @@ Client-identified problem.
 
 Understanding command terms is critical for Paper 1 and Paper 2:
 
+<div class="table-wrap">
+
 | Command Term   | What it means                                                                 |
 | -------------- | ----------------------------------------------------------------------------- |
 | Define         | Give the precise meaning of a term                                            |
@@ -217,12 +238,16 @@ Understanding command terms is critical for Paper 1 and Paper 2:
 | Analyse        | Break down in order to bring out the essential elements or structure          |
 | To what extent | Consider the merits or otherwise of an argument or concept                    |
 
+</div>
+
 > **Exam tip**: Underline or circle the command term in the exam question before you begin writing.
 > This ensures you address the question at the correct cognitive level.
 
 ## Grade Boundaries
 
 Grade boundaries vary each examination session. As a general guide for a recent session:
+
+<div class="table-wrap">
 
 | Grade | SL (approx.) | HL (approx.) |
 | ----- | ------------ | ------------ |
@@ -231,6 +256,8 @@ Grade boundaries vary each examination session. As a general guide for a recent 
 | 5     | 52–63%       | 50–61%       |
 | 4     | 40–51%       | 38–49%       |
 | 3     | 27–39%       | 25–37%       |
+
+</div>
 
 > **Note**: These are approximate boundaries and shift each year. Always check the most recent IB
 > subject report for your session.
@@ -252,6 +279,8 @@ Understanding which topics carry the most marks helps you prioritize your revisi
 
 ### SL Core Topics
 
+<div class="table-wrap">
+
 | Topic                  | Approximate Paper 1 Weight | Paper 2 Relevance |
 | ---------------------- | -------------------------- | ----------------- |
 | System Fundamentals    | High                       | Scenario-based    |
@@ -259,7 +288,11 @@ Understanding which topics carry the most marks helps you prioritize your revisi
 | Networks               | Medium                     | Scenario-based    |
 | Computational Thinking | Very High                  | Algorithm design  |
 
+</div>
+
 ### HL Additional Topics
+
+<div class="table-wrap">
 
 | Topic                    | Approximate Paper 1 Weight | Paper 2 Relevance |
 | ------------------------ | -------------------------- | ----------------- |
@@ -267,7 +300,11 @@ Understanding which topics carry the most marks helps you prioritize your revisi
 | Resource Management      | Medium                     | Scenario-based    |
 | Control                  | Medium                     | Scenario-based    |
 
+</div>
+
 ### Options
+
+<div class="table-wrap">
 
 | Option                      | Paper 1 Weight | Paper 2 Relevance |
 | --------------------------- | -------------- | ----------------- |
@@ -275,6 +312,8 @@ Understanding which topics carry the most marks helps you prioritize your revisi
 | Modelling and Simulation    | Medium         | Scenario-based    |
 | Web Science                 | Medium         | Scenario-based    |
 | Object-Oriented Programming | Medium         | Code tracing      |
+
+</div>
 
 > **Exam tip**: Computational Thinking consistently carries the highest mark allocation. Ensure you
 > are comfortable with algorithm design, tracing, and Big-O notation before focusing on other areas.
@@ -311,12 +350,12 @@ GDPR in the EU) restrict where data can be stored and processed.
 
 **Explanation**: Organizations must carefully evaluate their cloud provider's compliance with
 Relevant regulations and implement additional security measures (encryption, access controls). The
-Shared responsibility model means that while the provider secures the infrastructure, the customer
-Is responsible for securing their data.
+shared responsibility model means that while the provider secures the infrastructure, the customer
+is responsible for securing their data.
 
 **Link**: Therefore, while cloud computing offers clear advantages in cost and scalability,
 Organizations must balance these benefits against the risks of data breaches and regulatory
-Non-compliance.
+non-compliance.
 
 > **Exam tip**: For a 10-mark question, aim for 4–5 well-developed points. Each point should include
 > specific evidence and explanation. The conclusion should synthesize your arguments rather than
@@ -377,27 +416,9 @@ Use this checklist to track your preparation:
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
 
-
-```mermaid
-flowchart TD
-    A[Assessment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

@@ -39,6 +39,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Overview
 
 - [About](https://databases.wyattau.com/about/)
+- [Before You Begin](https://databases.wyattau.com/before-you-begin/)
 - [Glossary](https://databases.wyattau.com/glossary/)
 - [Hub](https://databases.wyattau.com/hub/)
 - [Index](https://databases.wyattau.com/)

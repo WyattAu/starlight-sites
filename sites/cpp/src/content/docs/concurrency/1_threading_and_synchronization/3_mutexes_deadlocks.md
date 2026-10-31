@@ -25,8 +25,8 @@ Mutexes are the traffic lights of concurrent programming, ensuring only one thre
 
 ## Mutexes, Shared Locks, and Deadlock Prevention
 
-This section covers `std::mutex``std::recursive_mutex``std::timed_mutex`RAII lock wrappers
-(`std::lock_guard``std::scoped_lock`), reader-writer locks (`std::shared_mutex`), the four Coffman
+This section covers `std::mutex`, `std::recursive_mutex`, `std::timed_mutex`RAII lock wrappers
+(`std::lock_guard`, `std::scoped_lock`), reader-writer locks (`std::shared_mutex`), the four Coffman
 Deadlock conditions, and deadlock prevention strategies.
 
 ## `std::mutex`
@@ -34,11 +34,15 @@ Deadlock conditions, and deadlock prevention strategies.
 `std::mutex` [N4950 §31.4.3.3] provides exclusive ownership semantics. Only one thread can hold the
 Lock at any time. The basic operations are:
 
+<div class="table-wrap">
+
 | Operation    | Description                                       |
 | ------------ | ------------------------------------------------- |
 | `lock()`     | Blocks until the lock is acquired                 |
 | `try_lock()` | Attempts to acquire the lock; returns immediately |
 | `unlock()`   | Releases the lock                                 |
+
+</div>
 
 Calling `lock()` on a mutex already held by the current thread results in **undefined behavior**
 [N4950 §31.4.3.3.2].
@@ -71,17 +75,19 @@ a single atomic `cmpxchg` instruction (futex-based).
 ### Uncontended vs Contended Lock Performance
 
 In the uncontended case (no other thread holds the lock), acquiring a mutex is essentially the cost
-Of a single atomic compare-and-swap, approximately 10-20 nanoseconds on x86. In the contended case,
+of a single atomic compare-and-swap, approximately 10-20 nanoseconds on x86. In the contended case,
 The thread is descheduled via a futex system call (`FUTEX_WAIT`), which costs 1-10 microseconds for
-The kernel context switch alone, plus scheduler latency.
+the kernel context switch alone, plus scheduler latency.
 
 ## `std::recursive_mutex`
 
 `std::recursive_mutex` [N4950 §31.4.3.3.4] allows the same thread to acquire the lock multiple
 Times. The thread must call `unlock()` the same number of times it called `lock()` for the mutex to
-Be released. The implementation maintains an internal lock count:
+be released. The implementation maintains an internal lock count:
 
-$$\mathrm{recursion depth = n_{\mathrm{lock} - n_{\mathrm{unlock}$$
+$$
+\mathrm{recursion depth = n_{\mathrm{lock} - n_{\mathrm{unlock}
+$$
 
 When the recursion depth reaches zero, the mutex is released.
 
@@ -89,7 +95,7 @@ When the recursion depth reaches zero, the mutex is released.
 
 `std::recursive_mutex` exists primarily for interfacing with legacy code that was not designed with
 Explicit lock boundaries. For example, a recursive data structure traversal where functions call
-Each other and each needs the lock:
+each other and each needs the lock:
 
 ```cpp
 #include <iostream>
@@ -212,7 +218,7 @@ int main() {
 ## `std::lock_guard` and `std::scoped_lock`
 
 `std::lock_guard` [N4950 §31.4.4.2] is a lightweight RAII wrapper for a single mutex. It acquires
-The mutex in its constructor and releases it in its destructor.
+the mutex in its constructor and releases it in its destructor.
 
 `std::scoped_lock` [N4950 §31.4.4.2.2] (C++17) generalizes this to zero or more mutexes. When
 Multiple mutexes are provided, it uses a deadlock-avoidance algorithm (similar to `std::lock`) to
@@ -269,7 +275,7 @@ int main() {
 `std::unique_lock` [N4950 §31.4.4.3] provides more flexibility than `std::lock_guard`:
 
 - **Deferred locking:** Construct without acquiring the lock (`std::defer_lock`).
-- **Timed locking:** `try_lock_for()``try_lock_until()`.
+- **Timed locking:** `try_lock_for()`, `try_lock_until()`.
 - **Manual unlock/lock:** Can be unlocked and re-locked during its lifetime.
 - **Movable:** Can be returned from functions (unlike `std::lock_guard` in C++14).
 
@@ -326,37 +332,41 @@ The deadlock-avoidance algorithm used by `std::scoped_lock` (and `std::lock`) wo
 
 This algorithm guarantees that threads acquire the same set of mutexes in the same order, preventing
 Circular wait. The retry loop has no upper bound on iterations, but in practice contention is rare
-And the loop terminates quickly.
+and the loop terminates quickly.
 
 ## `std::shared_mutex` (Reader-Writer Lock)
 
 `std::shared_mutex` [N4950 §31.4.3.4] allows multiple threads to hold a **shared** (read) lock
 Simultaneously, but only one thread can hold an **exclusive** (write) lock at a time. This is useful
-When reads are frequent and writes are infrequent.
+when reads are frequent and writes are infrequent.
+
+<div class="table-wrap">
 
 | Lock type                      | Concurrent access | Exclusive access |
 | ------------------------------ | ----------------- | ---------------- |
 | `std::shared_lock` (shared)    | Multiple readers  | No writers       |
 | `std::unique_lock` (exclusive) | No other threads  | One writer       |
 
+</div>
+
 ### Writer Starvation
 
 A naive reader-writer lock implementation can suffer from **writer starvation**: if readers
 Continuously acquire shared locks, a waiting writer may never get exclusive access. The C++ standard
-Does not mandate a specific policy for `std::shared_mutex`But POSIX `pthread_rwlock_t`
+does not mandate a specific policy for `std::shared_mutex`. But POSIX `pthread_rwlock_t`
 Implementations implement a "writer-preferring" policy on modern Linux kernels (glibc 2.26+).
 
 ### Reader-Writer Lock Overhead
 
 A shared lock acquisition is more expensive than a plain mutex: it requires atomic operations on
-Both a reader count and a writer flag. On x86, a `std::shared_mutex` shared lock is approximately
+both a reader count and a writer flag. On x86, a `std::shared_mutex` shared lock is approximately
 2-3x slower than an uncontended `std::mutex`. Only use `std::shared_mutex` when the read-to-write
 Ratio is high enough ( &gt;10:1) to justify the overhead.
 
 ## Deadlock Conditions
 
 A deadlock occurs when two or more threads are blocked forever, each waiting for a resource held by
-The other. The four necessary conditions (Coffman conditions) are:
+the other. The four necessary conditions (Coffman conditions) are:
 
 1. **Mutual exclusion**: At least one resource is held in a non-shareable mode.
 2. **Hold and wait**: A thread holds at least one resource and is waiting for additional resources.
@@ -364,7 +374,9 @@ The other. The four necessary conditions (Coffman conditions) are:
 4. **Circular wait**: There exists a circular chain of threads, each waiting for a resource held by
    the next.
 
-$$\mathrm{Deadlock \iff \mathrm{Mutual Exclusion \wedge \mathrm{Hold-and-Wait \wedge \mathrm{No Preemption \wedge \mathrm{Circular Wait$$
+$$
+\mathrm{Deadlock \iff \mathrm{Mutual Exclusion \wedge \mathrm{Hold-and-Wait \wedge \mathrm{No Preemption \wedge \mathrm{Circular Wait
+$$
 
 ### Deadlock in Practice: The Classic Dining Philosophers
 
@@ -580,7 +592,7 @@ int main() {
 
 A common pattern is to acquire a shared lock for reading, then upgrade to exclusive for writing if a
 Condition is met. `std::shared_mutex` does not directly support lock promotion. The safe approach is
-To release the shared lock and acquire an exclusive lock:
+to release the shared lock and acquire an exclusive lock:
 
 ```cpp
 #include <iostream>
@@ -711,17 +723,7 @@ int main() {
 
 `std::call_once` guarantees that the callable is invoked exactly once, even if multiple threads call
 `get_expensive()` concurrently. Internally, it uses a combination of atomic flags and a mutex, but
-The fast path (already initialized) is a single atomic load.
-
-```mermaid
-flowchart TD
-    A[3_Mutexes_Deadlocks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+the fast path (already initialized) is a single atomic load.
 
 ## Summary
 
@@ -736,13 +738,7 @@ deadlock prevention, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

@@ -22,11 +22,11 @@ categories:
 ## Why Data Validation
 
 Every non-trivial system receives data from sources it does not control: HTTP request bodies parsed
-From JSON, rows read from CSV files, configuration loaded from environment variables, messages
+from JSON, rows read from CSV files, configuration loaded from environment variables, messages
 Pulled from a message queue. At the moment data crosses a system boundary, all assumptions you hold
-About its shape, type, and semantic validity are void. The remote caller may send a string where you
+about its shape, type, and semantic validity are void. The remote caller may send a string where you
 Expect an integer, omit a required field entirely, or supply a negative value for a quantity that
-Must be positive. Without explicit validation at every boundary, corrupt data propagates inward,
+must be positive. Without explicit validation at every boundary, corrupt data propagates inward,
 Corrupting internal state, triggering downstream errors that are difficult to trace back to their
 Origin, and in the worst case producing silent incorrect results -- the most dangerous category of
 Software failure.
@@ -39,9 +39,9 @@ Validation must happen at **system boundaries**: the outermost layer where exter
 Application. This includes API endpoints (HTTP request/response bodies, query parameters, path
 Parameters), configuration loading (environment variables, `.env` files, YAML/TOML config files),
 User input (CLI arguments, form submissions), and file parsing (CSV, JSON, XML, protobuf). Once data
-Has been validated and normalized at a boundary, internal code can operate on it with confidence,
+has been validated and normalized at a boundary, internal code can operate on it with confidence,
 Treating it as trusted. The boundary is the choke point: every piece of untrusted data must pass
-Through it before reaching any business logic.
+through it before reaching any business logic.
 
 This raises a critical distinction: **validation vs parsing**. Parsing transforms raw bytes or
 Strings into structured Python objects. Validation checks that the resulting objects satisfy
@@ -54,15 +54,15 @@ Tell the caller exactly what is wrong and where.
 **Runtime type checking vs static typing** is another axis worth clarifying. Static type checkers
 Like mypy analyze your source code at development time and catch type mismatches in function
 Signatures and variable assignments. They do not -- and cannot -- check data that arrives at runtime
-From external sources. A function annotated as `def process(user_id: int)` tells mypy that callers
-Should pass an int, but nothing prevents a JSON payload containing `"user_id": "not-a-number"` from
+from external sources. A function annotated as `def process(user_id: int)` tells mypy that callers
+should pass an int, but nothing prevents a JSON payload containing `"user_id": "not-a-number"` from
 Reaching that function at runtime. Static typing catches programmer errors; runtime validation
 Catches data errors. You need both, and they serve different purposes.
 
 Python's standard library provides only minimal validation primitives: `isinstance()` checks,
 `int()` and `float()` constructors that raise `ValueError`And manual if/else chains. These are
 Tedious to write, easy to get wrong, and produce poor error messages. The ecosystem has produced
-Several libraries that address this gap, the most prominent being Pydantic, attrs, and marshmallow.
+several libraries that address this gap, the most prominent being Pydantic, attrs, and marshmallow.
 
 ## Pydantic v2
 
@@ -79,7 +79,7 @@ pip install pydantic
 ### BaseModel
 
 The central abstraction is `BaseModel`. You define a class that inherits from it, declare fields
-With type annotations, and Pydantic constructs a model that validates and coerces data on
+with type annotations, and Pydantic constructs a model that validates and coerces data on
 Instantiation.
 
 ```python
@@ -152,15 +152,15 @@ print(c.timeout) # 30.5  (str -> float)
 ```
 
 Coercion rules are extensive. Strings that look like numbers are converted to `int` or `float`.
-Strings that look like booleans (`"true"``"false"``"1"``"0"``"yes"``"no"`) are converted To `bool`.
+Strings that look like booleans (`"true"`, `"false"`, `"1"`, `"0"`, `"yes"`, `"no"`) are converted To `bool`.
 Strings that look like ISO 8601 dates/datetimes are converted to `date`/`datetime` Objects. Lists
 and dicts are recursively validated. The full coercion logic lives in pydantic-core And is
 well-documented in the Pydantic docs.
 
 ### Validation Errors
 
-When validation fails, Pydantic raises `ValidationError`Which carries structured information about
-Every problem found in the input.
+When validation fails, Pydantic raises `ValidationError`. Which carries structured information about
+every problem found in the input.
 
 ```python
 from pydantic import BaseModel, ValidationError
@@ -181,7 +181,7 @@ except ValidationError as e:
 
 Each error in `e.errors()` is a dict with these keys:
 
-- `type` -- a machine-readable error code (e.g., `"int_parsing"``"string_too_short"``"missing"`)
+- `type` -- a machine-readable error code (e.g., `"int_parsing"`, `"string_too_short"`, `"missing"`)
 - `loc` -- a tuple indicating the path to the offending field (e.g., `('id',)`
   `('address', 'city')`)
 - `msg` -- a human-readable error message
@@ -194,7 +194,7 @@ JSON and return it directly in an API error response.
 
 `Field()` is the mechanism for attaching validation constraints beyond what the type annotation
 Expresses. A plain `int` annotation tells Pydantic the value must be an integer; `Field(gt=0)` tells
-It the integer must be strictly greater than zero.
+it the integer must be strictly greater than zero.
 
 ### Numeric Constraints
 
@@ -210,6 +210,8 @@ class Sensor(BaseModel):
 
 The constraint parameters for numeric types are:
 
+<div class="table-wrap">
+
 | Parameter     | Meaning                          |
 | ------------- | -------------------------------- |
 | `gt`          | strictly greater than            |
@@ -217,6 +219,8 @@ The constraint parameters for numeric types are:
 | `lt`          | strictly less than               |
 | `le`          | less than or equal               |
 | `multiple_of` | must be a multiple of this value |
+
+</div>
 
 ### String Constraints
 
@@ -231,14 +235,18 @@ class Account(BaseModel):
 
 The constraint parameters for `str` are:
 
+<div class="table-wrap">
+
 | Parameter    | Meaning                             |
 | ------------ | ----------------------------------- |
 | `min_length` | minimum string length               |
 | `max_length` | maximum string length               |
 | `pattern`    | regex pattern the string must match |
 
+</div>
+
 Note: `pattern` uses Python's `re` module. The regex is matched against the entire string (anchored
-At both ends), so you do not need `^` and `$` anchors, though including them is harmless.
+at both ends), so you do not need `^` and `$` anchors, though including them is harmless.
 
 ### Default Values and Factories
 
@@ -320,8 +328,8 @@ class User(BaseModel):
 ```
 
 The `info` argument is a `ValidationInfo` object. Its `data` attribute contains a dict of fields
-That have already been validated (in declaration order). This enables cross-field validation:
-Checking that `password_confirm` equals `password`That `end_date` is after `start_date`Etc.
+that have already been validated (in declaration order). This enables cross-field validation:
+Checking that `password_confirm` equals `password`That `end_date` is after `start_date`. Etc.
 
 Note that `info.data` only contains fields declared **before** the current field. If you need to
 Validate a field against one declared after it, use a model validator instead.
@@ -376,7 +384,7 @@ class Document(BaseModel):
 ### Wildcard Validators
 
 `@field_validator("*")` applies to every field in the model. This is useful for transformations that
-Must apply uniformly, such as stripping whitespace from all string fields.
+must apply uniformly, such as stripping whitespace from all string fields.
 
 ```python
 from pydantic import BaseModel, field_validator
@@ -437,7 +445,7 @@ class Event(BaseModel):
 ## Nested Models
 
 Real-world data is hierarchical. A user has an address, which has a city and postal code. An order
-Has a list of line items. A configuration has nested sections. Pydantic handles all of these by
+has a list of line items. A configuration has nested sections. Pydantic handles all of these by
 using models as field types.
 
 ### Models as Fields
@@ -534,7 +542,7 @@ print(tree.model_dump_json(indent=2))
 
 This recursively serializes the entire tree to a JSON string. Each nested `Node` is serialized
 According to its own model definition. The `indent` parameter produces pretty-printed output, which
-Is useful for debugging but should not be used in production (larger payloads, slower
+is useful for debugging but should not be used in production (larger payloads, slower
 Serialization).
 
 ## Serialization
@@ -592,7 +600,7 @@ event.model_dump(exclude_unset=True)
 
 `exclude_defaults` and `exclude_unset` have subtly different semantics. `exclude_defaults` omits any
 Field whose value equals its default (whether or not the caller provided it). `exclude_unset` omits
-Only fields that the caller did not provide (even if the default was applied). This distinction
+only fields that the caller did not provide (even if the default was applied). This distinction
 Matters when a caller explicitly passes a value that happens to equal the default.
 
 ### Custom Serializers
@@ -654,6 +662,8 @@ print(p.x)  # 1.0
 
 ### Key Differences
 
+<div class="table-wrap">
+
 | Feature                               | `BaseModel`  | `@pydantic.dataclass`        |
 | ------------------------------------- | ------------ | ---------------------------- |
 | Inheritance from `BaseModel`          | Yes          | No (inherits from dataclass) |
@@ -665,6 +675,8 @@ print(p.x)  # 1.0
 | Standard `dataclasses.is_dataclass()` | No           | Yes                          |
 | Extra fields behavior                 | Configurable | Configurable                 |
 
+</div>
+
 ### When to Use Which
 
 Use `BaseModel` for any model that represents a structured data contract -- API request/response
@@ -672,13 +684,13 @@ Schemas, configuration objects, domain entities. `BaseModel` is the default choi
 Complete feature set.
 
 Use `@pydantic.dataclass` when you need to interoperate with code that expects standard dataclasses
-(e.g., `dataclasses.asdict()``dataclasses.fields()`), when you want value-based equality and Hashing
+(e.g., `dataclasses.asdict()`, `dataclasses.fields()`), when you want value-based equality and Hashing
 without implementing `__eq__` and `__hash__`Or when you are working within a codebase that Already
 uses dataclasses extensively and you want to add validation without changing the overall
 Architecture.
 
 Do not mix them casually. A `BaseModel` instance is not a dataclass and vice versa. Pick one pattern
-Per module and stick with it.
+per module and stick with it.
 
 ## JSON Schema
 
@@ -703,16 +715,16 @@ print(json.dumps(schema, indent=2))
 ```
 
 The output is a complete JSON Schema document that encodes all type information, constraints,
-Defaults, descriptions, and examples. Field constraints like `min_length``pattern`And `ge`/`le` Are
-translated to their JSON Schema equivalents (`minLength``pattern``minimum`/`maximum`).
+Defaults, descriptions, and examples. Field constraints like `min_length`, `pattern` and `ge`/`le` Are
+translated to their JSON Schema equivalents (`minLength`, `pattern`, `minimum`/`maximum`).
 
 ### Schema for API Documentation
 
 FastAPI uses `model_json_schema()` internally to generate OpenAPI documentation. When you declare a
 Pydantic model as a request body or response model, FastAPI extracts the schema and includes it in
-The auto-generated `/docs` and `/openapi.json` endpoints. This is why FastAPI's interactive
+the auto-generated `/docs` and `/openapi.json` endpoints. This is why FastAPI's interactive
 Documentation is so detailed -- it is driven entirely by the type annotations and field constraints
-In your Pydantic models.
+in your Pydantic models.
 
 ### Validating External Data Against a Schema
 
@@ -786,7 +798,7 @@ class AppConfig(BaseSettings):
     model_config = SettingsConfigDict(env_prefix="APP_")
 ```
 
-With `env_prefix="APP_"`The field `database_url` maps to `APP_DATABASE_URL`.
+With `env_prefix="APP_"`. The field `database_url` maps to `APP_DATABASE_URL`.
 
 ### Nested Delimiters
 
@@ -835,7 +847,7 @@ class AppConfig(BaseSettings):
 
 Attrs is a data class library that predates Pydantic and takes a fundamentally different approach.
 It focuses on reducing the boilerplate of writing classes (automatically generating `__init__`
-`__repr__``__eq__``__hash__`) with optional validation via composable validator functions.
+`__repr__`, `__eq__`, `__hash__`) with optional validation via composable validator functions.
 
 ```bash
 pip install attrs
@@ -858,7 +870,7 @@ class Server:
             raise ValueError(f"Port must be 1-65535, got {value}")
 ```
 
-`@attr.define` generates a class with `__init__``__repr__``__eq__`And `__hash__`. The
+`@attr.define` generates a class with `__init__`, `__repr__`, `__eq__` and `__hash__`. The
 `@attribute.validator` decorator attaches a validation function that runs when the attribute is set.
 
 ### Frozen Instances
@@ -876,6 +888,8 @@ Dataclasses.
 
 ### Comparison with Pydantic
 
+<div class="table-wrap">
+
 | Concern                | Pydantic                      | attrs                 |
 | ---------------------- | ----------------------------- | --------------------- |
 | Primary purpose        | Data validation and parsing   | Boilerplate reduction |
@@ -888,6 +902,8 @@ Dataclasses.
 | Validation granularity | Field-level, model-level      | Attribute-level       |
 | Ecosystem integration  | FastAPI, Django, etc.         | Independent           |
 
+</div>
+
 ### When to Use attrs
 
 Use attrs when you need a simple, low-boilerplate class definition without the overhead of
@@ -897,7 +913,7 @@ External input. If you are defining a configuration schema, an API contract, or 
 Touches untrusted data, use Pydantic.
 
 Attrs has near-zero runtime overhead compared to Pydantic because it does not perform type coercion
-Or complex validation by default. The validator functions you attach are plain Python callables that
+or complex validation by default. The validator functions you attach are plain Python callables that
 Run only when you set them up. For performance-sensitive inner-loop code, this matters.
 
 ## marshmallow
@@ -905,7 +921,7 @@ Run only when you set them up. For performance-sensitive inner-loop code, this m
 Marshmallow is an object serialization/deserialization library with a different philosophy from
 Pydantic. It explicitly separates **parsing** (deserialization: external data -> Python objects)
 From **validation** (checking constraints). This separation is a feature, not a bug -- it allows you
-To define different validation rules for input vs output, and it makes the parsing and validation
+to define different validation rules for input vs output, and it makes the parsing and validation
 Steps independently testable.
 
 ```bash
@@ -934,7 +950,7 @@ except ValidationError as e:
 
 `load()` deserializes and validates. `dump()` serializes. The schema definition is separate from the
 Python class -- you can have multiple schemas for the same class (e.g., `UserCreateSchema`
-`UserUpdateSchema``UserPublicSchema`).
+`UserUpdateSchema`, `UserPublicSchema`).
 
 ### Nested Schemas
 
@@ -981,7 +997,7 @@ Django-Marshmallow, webargs for argument parsing).
 
 Marshmallow does not perform type coercion the way Pydantic does. If you pass `"42"` where an
 Integer is expected, marshmallow raises a validation error rather than silently converting it. This
-Is a more conservative approach that makes data transformations explicit. Whether this is an
+is a more conservative approach that makes data transformations explicit. Whether this is an
 Advantage or disadvantage depends on your use case.
 
 ## Common Pitfalls
@@ -1000,19 +1016,19 @@ class Good(BaseModel):
 
 In Pydantic v2, `items: list = []` is actually safe because Pydantic copies the default on each
 Instantiation. However, this is a subtle behavioral difference from stdlib dataclasses, and relying
-On it makes your code fragile if you ever migrate away from Pydantic. Always use
+on it makes your code fragile if you ever migrate away from Pydantic. Always use
 `Field(default_factory=list)` to make the intent explicit and portable.
 
 ### Ordering of Field Validators
 
-Validators run in field declaration order. If field `b` depends on field `a``a` must be declared
+Validators run in field declaration order. If field `b` depends on field `a`, `a` must be declared
 First. Otherwise, `info.data` in `b`"s validator will not contain `a`. If you cannot reorder fields
 (for whatever reason), use `@model_validator(mode="after")` instead.
 
 ### Strict Mode
 
 Pydantic coerces by default. `user = User(id="42")` works because `"42"` is coerced to `42`. If you
-Do not want coercion -- if `"42"` should be a validation error because the caller sent a string --
+do not want coercion -- if `"42"` should be a validation error because the caller sent a string --
 Use strict mode:
 
 ```python
@@ -1054,7 +1070,7 @@ StrictUser(name="Alice", age=30)  # ValidationError: Extra inputs are not permit
 
 Use `extra="forbid"` in API schemas to catch typos and protocol mismatches early. A caller sending
 `user_name` instead of `name` with `extra="ignore"` would silently lose the data. With
-`extra="forbid"`The error is immediate and clear.
+`extra="forbid"`. The error is immediate and clear.
 
 ### BaseSettings Must Import from pydantic-settings
 
@@ -1066,7 +1082,7 @@ class Config(BaseSettings):
 ```
 
 `BaseSettings` is **not** in the `pydantic` package in v2. It was moved to `pydantic-settings`. This
-Is a common source of `ImportError` when migrating from v1.
+is a common source of `ImportError` when migrating from v1.
 
 ### Validation Runs at Construction Time, Not Assignment Time
 
@@ -1100,15 +1116,15 @@ Recursive models.
 ### JSON Schema Precision Loss
 
 `Decimal` fields are serialized as `number` in JSON Schema, which means JSON consumers may parse
-Them as floating-point values, losing precision. If exact decimal precision matters (financial
+them as floating-point values, losing precision. If exact decimal precision matters (financial
 Calculations, scientific measurements), consider serializing decimals as strings and documenting the
 Expected format.
 
 ### marshmallow Schemas Are Not Type-Annotated
 
-Marshmallow's `Schema` class uses instance attributes (`fields.String()``fields.Integer()`) rather
-Than Python type annotations. This means mypy cannot infer the shape of `schema.load(data)` -- it
-Will type it as `dict[str, Any]`. Pydantic's type-annotated models integrate with mypy out of the
+Marshmallow's `Schema` class uses instance attributes (`fields.String()`, `fields.Integer()`) rather
+than Python type annotations. This means mypy cannot infer the shape of `schema.load(data)` -- it
+will type it as `dict[str, Any]`. Pydantic's type-annotated models integrate with mypy out of the
 Box, giving you static type checking for free. If type safety is a priority, this is a significant
 Advantage for Pydantic.
 
@@ -1119,17 +1135,6 @@ Semantics, error types, and serialization conventions. Mixing them creates confu
 Validation is in effect and makes the codebase harder to maintain. Pick one library as your primary
 Validation tool and use it consistently. If you must interoperate (e.g., using attrs for domain
 Objects and Pydantic for API schemas), keep the boundary between them explicit and minimal.
-
-
-```mermaid
-flowchart TD
-    A[02 Data Validation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -1144,17 +1149,11 @@ implementation, and key applications.
 - transaction processing (ACID)
 - NoSQL and distributed databases
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Data validation is the bouncer at the door of your application, checking every piece of data that tries to enter. Without it, you are letting strangers walk into your house and rearrange your furniture. The garbage-in-garbage-out principle means that if you feed a program bad data, it will produce bad results with perfect confidence. Pydantic models are like molds: pour data in, and if it does not fit the shape, it gets rejected immediately with a clear error message rather than silently corrupting your system three layers deeper.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

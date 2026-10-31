@@ -30,7 +30,9 @@ categories:
 
 **Converting binary to decimal:**
 
-$$1101_2 = 1 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 1 \times 2^0 = 8 + 4 + 0 + 1 = 13_{10}$$
+$$
+1101_2 = 1 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 1 \times 2^0 = 8 + 4 + 0 + 1 = 13_{10}
+$$
 
 **Converting decimal to binary:** Repeatedly divide by 2 and record remainders.
 
@@ -44,17 +46,23 @@ Reading bottom to top: $11001000_2$.
 **Hexadecimal:** Base-16 using digits 0-9 and A-F. Used for memory addresses, colour codes, and MAC
 Addresses.
 
-$$\mathrm{A3_{16} = 10 \times 16 + 3 = 163_{10}$$
+$$
+\mathrm{A3_{16} = 10 \times 16 + 3 = 163_{10}
+$$
 
 **Binary to hex:** Group binary digits in fours from the right.
 
-$$11010110_2 = 1101 \; 0110 = \mathrm{D6_{16}$$
+$$
+11010110_2 = 1101 \; 0110 = \mathrm{D6_{16}
+$$
 
 **Worked Example.** Convert $\mathrm{FF_{16}$ to binary and decimal.
 
 Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
 
 **Hexadecimal conversion table:**
+
+<div class="table-wrap">
 
 | Hex | Binary | Decimal |
 | --- | ------ | ------- |
@@ -75,16 +83,18 @@ Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
 | E   | 1110   | 14      |
 | F   | 1111   | 15      |
 
+</div>
+
 **Why hexadecimal?** Hexadecimal is a convenient shorthand for binary. Each hex digit represents
 Exactly 4 bits, so an 8-bit byte can be written as two hex digits (e.g., `11010110` = `D6`). This is
-Much more compact and less error-prone than writing long binary strings. Memory addresses, colour
+much more compact and less error-prone than writing long binary strings. Memory addresses, colour
 Codes (`#FF5733`), MAC addresses (`00:1A:2B:3C:4D:5E`), and error codes all use hexadecimal.
 
 ### Representing Numbers
 
 **Unsigned integers:** Non-negative integers. An 8-bit unsigned integer can represent 0 to 255.
 
-**Two"s complement:** Represents both positive and negative integers.
+**Two's complement:** Represents both positive and negative integers.
 
 To find the two's complement of a negative number:
 
@@ -114,18 +124,22 @@ Verify: $-128 + 16 + 8 + 4 = -100$. Correct.
 To $2^{n-1} - 1$ ($2^{n-1}$ values). The negative range is $-2^{n-1}$ to $-1$ ($2^{n-1}$ values).
 Total: $2^{n-1} + 2^{n-1} = 2^n$. $\blacksquare$
 
-**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$Let $\bar{x}$ Be
+**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$ Let $\bar{x}$ Be
 the bitwise complement. Then $\bar{x} = (2^n - 1) - x$. Adding 1: $\bar{x} + 1 = 2^n - x$. In
-$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$Confirming $\bar{x} + 1 = -x$.
+$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$ Confirming $\bar{x} + 1 = -x$.
 $\blacksquare$
 
 **Two's complement range summary:**
+
+<div class="table-wrap">
 
 | Bits | Minimum        | Maximum       |
 | ---- | -------------- | ------------- |
 | 8    | -128           | 127           |
 | 16   | -32,768        | 32,767        |
 | 32   | -2,147,483,648 | 2,147,483,647 |
+
+</div>
 
 **Binary addition:**
 
@@ -140,9 +154,13 @@ $$
 
 **Binary addition rules:**
 
+<div class="table-wrap">
+
 | $0 + 0$ | $0 + 1$ | $1 + 0$ | $1 + 1$        |
 | ------- | ------- | ------- | -------------- |
 | 0       | 1       | 1       | 10 (0 carry 1) |
+
+</div>
 
 **Binary subtraction:** Add the two's complement.
 
@@ -150,7 +168,7 @@ $$
 
 $25 = 00011001$. $14 = 00001110$.
 
-Two's complement of 14: flip $00001110 \to 11110001$Add 1 $\to 11110010$.
+Two's complement of 14: flip $00001110 \to 11110001$ Add 1 $\to 11110010$.
 
 $00011001 + 11110010 = 100001011$.
 
@@ -160,7 +178,7 @@ Discard overflow: $00001011 = 11$. Check: $25 - 14 = 11$. Correct.
 
 $83 = 01010011$. $47 = 00101111$.
 
-Two's complement of 47: flip $00101111 \to 11010000$Add 1 $\to 11010001$.
+Two's complement of 47: flip $00101111 \to 11010000$ Add 1 $\to 11010001$.
 
 $01010011 + 11010001 = 100100100$.
 
@@ -176,7 +194,7 @@ $100 = 01100100$, $50 = 00110010$.
 Sum: $10010110$.
 
 The MSB is 1, indicating a negative result. $10010110 = -128 + 16 + 4 + 2 = -106$. This is incorrect
-($100 + 50 = 150$Which exceeds the 8-bit range). Overflow has occurred.
+($100 + 50 = 150$ Which exceeds the 8-bit range). Overflow has occurred.
 
 ### Representing Text
 
@@ -214,7 +232,9 @@ C = 67 = 01000011, a = 97 = 01100001, t = 116 = 01110100.
 
 **Example:** A $1920 \times 1080$ image with 24-bit colour depth:
 
-$$1920 \times 1080 \times 24 / 8 = 6220800 \mathrm{ bytes \approx 5.93 \mathrm{ MB$$
+$$
+1920 \times 1080 \times 24 / 8 = 6220800 \mathrm{ bytes \approx 5.93 \mathrm{ MB
+$$
 
 **Worked Example.** An image has 4 megapixels (4,000,000 pixels) and a file size of 6 MB. What is
 The colour depth?
@@ -234,6 +254,8 @@ Bits per pixel.
 **Vector images:** Images described by mathematical equations (coordinates, lines, curves). Scale
 Without loss of quality. Smaller file sizes for simple images.
 
+<div class="table-wrap">
+
 | Feature        | Bitmap                      | Vector                      |
 | -------------- | --------------------------- | --------------------------- |
 | Representation | Grid of pixels              | Mathematical descriptions   |
@@ -242,6 +264,8 @@ Without loss of quality. Smaller file sizes for simple images.
 | Best for       | Photographs                 | Logos, icons, diagrams      |
 | Editing        | Pixel-level manipulation    | Edit shapes and paths       |
 | Zoom           | Becomes pixelated           | Always crisp                |
+
+</div>
 
 ### Representing Sound
 
@@ -259,7 +283,9 @@ Without loss of quality. Smaller file sizes for simple images.
 
 **Example:** A 3-minute stereo (2 channels) audio file at CD quality:
 
-$$44100 \times 180 \times 16 \times 2 = 254016000 \mathrm{ bits \approx 30.2 \mathrm{ MB$$
+$$
+44100 \times 180 \times 16 \times 2 = 254016000 \mathrm{ bits \approx 30.2 \mathrm{ MB
+$$
 
 **Nyquist theorem.** The sample rate must be at least twice the highest frequency to accurately
 Reproduce the sound. Human hearing goes up to about 20,000 Hz, so 44,100 Hz is sufficient.
@@ -301,6 +327,8 @@ Which is larger than the original 10 bytes. RLE increases file size in this case
 
 **Compression comparison:**
 
+<div class="table-wrap">
+
 | Feature   | Lossless                   | Lossy                 |
 | --------- | -------------------------- | --------------------- |
 | Data loss | None                       | Some data discarded   |
@@ -309,12 +337,14 @@ Which is larger than the original 10 bytes. RLE increases file size in this case
 | Examples  | PNG, FLAC, ZIP             | JPEG, MP3, MPEG       |
 | Best for  | Text, code, medical images | Photos, audio, video  |
 
+</div>
+
 **Worked Example.** Explain why lossless compression is used for executable files and documents but
 Lossy compression is used for photographs.
 
 Executable files and documents must be reconstructed exactly -- a single changed bit could make a
-Program crash or change the meaning of a legal document. Photographs can tolerate some data loss
-Because the human eye cannot perceive small differences in colour or detail.
+program crash or change the meaning of a legal document. Photographs can tolerate some data loss
+because the human eye cannot perceive small differences in colour or detail.
 
 ---
 
@@ -344,6 +374,8 @@ Sequentially by the CPU.
 
 **Von Neumann vs Harvard architecture:**
 
+<div class="table-wrap">
+
 | Feature     | Von Neumann                       | Harvard                                       |
 | ----------- | --------------------------------- | --------------------------------------------- |
 | Memory      | Shared for data and instructions  | Separate data and instruction memory          |
@@ -351,6 +383,8 @@ Sequentially by the CPU.
 | Simplicity  | Simpler hardware                  | More complex hardware                         |
 | Performance | Bottleneck when fetching and data | Can fetch instruction and data simultaneously |
 | Use         | Most general-purpose computers    | DSP, some microcontrollers                    |
+
+</div>
 
 **Von Neumann bottleneck.** Because data and instructions share a single bus, the CPU cannot fetch
 an Instruction and read/write data simultaneously. Modern processors mitigate this with caches,
@@ -396,6 +430,8 @@ Components. Manages the fetch-decode-execute cycle.
 
 **Registers:** Small, fast storage within the CPU.
 
+<div class="table-wrap">
+
 | Register                      | Purpose                                      |
 | ----------------------------- | -------------------------------------------- |
 | Program Counter (PC)          | Address of the next instruction              |
@@ -404,6 +440,8 @@ Components. Manages the fetch-decode-execute cycle.
 | Instruction Register (IR)     | Current instruction being executed           |
 | Accumulator (ACC)             | Stores results of ALU operations             |
 
+</div>
+
 **Key distinction:** The PC holds an **address** (where to go next). The MAR also holds an
 **address** (where to read/write). The MDR holds the actual **data** (what was read or what to
 write). The CIR Holds the **instruction** (what to do).
@@ -411,7 +449,7 @@ write). The CIR Holds the **instruction** (what to do).
 **Worked Example.** After the fetch phase, the PC contains 101. What does this mean?
 
 It means the next instruction to be fetched will be from memory address 101. The PC was incremented
-During the fetch phase from its previous value (100) to point to the next instruction.
+during the fetch phase from its previous value (100) to point to the next instruction.
 
 ### Cache Memory
 
@@ -439,6 +477,8 @@ Without cache: 100 ns. Speedup: $100 / 8.92 \approx 11.2\times$.
 
 ### Memory Hierarchy
 
+<div class="table-wrap">
+
 | Level     | Speed     | Capacity | Cost    | Volatile? |
 | --------- | --------- | -------- | ------- | --------- |
 | Registers | Fastest   | Smallest | Highest | Yes       |
@@ -447,9 +487,11 @@ Without cache: 100 ns. Speedup: $100 / 8.92 \approx 11.2\times$.
 | SSD       | Moderate  | Large    | Medium  | No        |
 | HDD       | Slow      | Largest  | Lowest  | No        |
 
+</div>
+
 **Why the hierarchy exists.** Faster memory is more expensive per byte. The hierarchy exploits
 Locality of reference: programs tend to access the same data repeatedly (temporal locality) and data
-Near recently accessed data (spatial locality). By keeping the most frequently used data in small,
+near recently accessed data (spatial locality). By keeping the most frequently used data in small,
 Fast memory near the CPU, the average access time is dramatically reduced compared to using only
 RAM.
 
@@ -473,13 +515,19 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 
 **Bus comparison:**
 
+<div class="table-wrap">
+
 | Bus         | Direction      | Carries                                         |
 | ----------- | -------------- | ----------------------------------------------- |
 | Address bus | CPU to memory  | Memory addresses                                |
 | Data bus    | CPU to/from    | Data and instructions                           |
 | Control bus | CPU to devices | Control signals (read, write, clock, interrupt) |
 
+</div>
+
 ### Input/Output Devices
+
+<div class="table-wrap">
 
 | Device      | Type   | Function                             |
 | ----------- | ------ | ------------------------------------ |
@@ -491,6 +539,8 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 | Printer     | Output | Produces hard copies                 |
 | Speaker     | Output | Produces audio                       |
 | Touchscreen | Both   | Input (touch) and output (display)   |
+
+</div>
 
 ### Operating Systems
 
@@ -505,6 +555,8 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 
 **Types of operating systems:**
 
+<div class="table-wrap">
+
 | Type      | Description                   | Examples              |
 | --------- | ----------------------------- | --------------------- |
 | Desktop   | Personal use, multitasking    | Windows, macOS, Linux |
@@ -513,7 +565,11 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 | Real-time | Guaranteed response times     | VxWorks, FreeRTOS     |
 | Embedded  | Limited resources, dedicated  | Car ECU, smart TV     |
 
+</div>
+
 **GUI vs CLI:**
+
+<div class="table-wrap">
 
 | Feature     | GUI                   | CLI                      |
 | ----------- | --------------------- | ------------------------ |
@@ -523,7 +579,11 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 | Automation  | Limited               | Easy with scripting      |
 | Examples    | Windows, macOS        | Linux terminal, CMD      |
 
+</div>
+
 **Process scheduling algorithms:**
+
+<div class="table-wrap">
 
 | Algorithm                | Description                                            | Fairness |
 | ------------------------ | ------------------------------------------------------ | -------- |
@@ -532,12 +592,14 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 | First-come, first-served | Processes served in order of arrival                   | Medium   |
 | Shortest job first       | The process with the shortest expected time runs first | Medium   |
 
+</div>
+
 **Worked Example.** Explain why a real-time operating system is needed in a car's anti-lock braking
 System (ABS).
 
 The ABS must respond within milliseconds to prevent wheel lockup. A general-purpose OS (like
 Windows) cannot guarantee response times because it may be busy with other tasks. A RTOS guarantees
-That the ABS process receives CPU time within a fixed deadline, ensuring safety.
+that the ABS process receives CPU time within a fixed deadline, ensuring safety.
 
 **Virtual memory (HL).** When RAM is full, the operating system uses a section of the hard drive as
 Virtual memory (swap space). A **page fault** occurs when the CPU accesses data that has been
@@ -545,6 +607,8 @@ swapped Out, causing a delay of milliseconds instead of nanoseconds. **Thrashing
 system Spends more time swapping pages than executing instructions.
 
 ### RAM vs ROM
+
+<div class="table-wrap">
 
 | Feature    | RAM            | ROM                           |
 | ---------- | -------------- | ----------------------------- |
@@ -555,13 +619,15 @@ system Spends more time swapping pages than executing instructions.
 | Speed      | Fast           | Fast                          |
 | Cost       | Higher per MB  | Lower per MB                  |
 
+</div>
+
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** Contains the BIOS/UEFI, which is the first code the CPU executes when
 The computer is powered on. The BIOS initialises hardware and loads the operating system from disk
-Into RAM.
+into RAM.
 
 **DRAM vs SRAM:**
 
@@ -569,6 +635,8 @@ Into RAM.
   thousands of times per second. Cheaper, higher density.
 - **SRAM:** Used for CPU cache. Stores each bit in a flip-flop (transistor circuit). No refreshing
   needed. Faster but more expensive and lower density.
+
+<div class="table-wrap">
 
 | Feature  | DRAM              | SRAM                 |
 | -------- | ----------------- | -------------------- |
@@ -579,7 +647,11 @@ Into RAM.
 | Refresh  | Required          | Not required         |
 | Power    | Less (when idle)  | More                 |
 
+</div>
+
 ### Secondary Storage Comparison
+
+<div class="table-wrap">
 
 | Device    | Speed  | Capacity   | Durability | Cost         |
 | --------- | ------ | ---------- | ---------- | ------------ |
@@ -589,6 +661,8 @@ Into RAM.
 | Optical   | Slow   | Low-Medium | Low        | Very low     |
 | Cloud     | Varies | Varies     | Varies     | Subscription |
 
+</div>
+
 **Choosing storage: practical considerations:**
 
 - A photographer storing thousands of RAW images needs high capacity (HDD or cloud).
@@ -597,6 +671,8 @@ Into RAM.
 - A business sharing files across offices needs cloud storage with collaboration features.
 
 **HDD vs SSD in detail:**
+
+<div class="table-wrap">
 
 | Metric      | HDD              | SSD             |
 | ----------- | ---------------- | --------------- |
@@ -608,10 +684,12 @@ Into RAM.
 | Durability  | Mechanical parts | No moving parts |
 | Power usage | Higher           | Lower           |
 
+</div>
+
 ### Embedded Systems
 
 An **embedded system** is a computer system built into a larger device, designed to perform a
-Specific function.
+specific function.
 
 **Examples:** Washing machines, microwaves, cars (engine management, ABS), traffic lights,
 Pacemakers, smart thermostats.
@@ -625,6 +703,8 @@ Pacemakers, smart thermostats.
 - Reliable and designed to run continuously
 - Operate in real-time (must respond within strict time constraints)
 
+<div class="table-wrap">
+
 | Feature                | Embedded System       | General-Purpose Computer  |
 | ---------------------- | --------------------- | ------------------------- |
 | Purpose                | Single, specific task | Multiple tasks            |
@@ -632,6 +712,8 @@ Pacemakers, smart thermostats.
 | User interface         | Minimal or none       | Full GUI                  |
 | Processing power       | Limited               | High                      |
 | Real-time requirements | Often required        | Not required              |
+
+</div>
 
 ### Interrupts (HL)
 
@@ -650,12 +732,16 @@ Restores the saved state, and resumes the calculation. The user does not notice 
 
 **Types of interrupts:**
 
+<div class="table-wrap">
+
 | Type         | Source                    | Priority | Example              |
 | ------------ | ------------------------- | -------- | -------------------- |
 | Hardware     | Hardware devices          | High     | Disk I/O complete    |
 | Software     | Program (INT instruction) | Medium   | System call          |
 | Timer        | System clock              | Variable | Scheduler time slice |
 | Non-maskable | Critical hardware failure | Highest  | Memory parity error  |
+
+</div>
 
 ---
 
@@ -780,17 +866,6 @@ See the examples integrated throughout the sections above.
 25. Describe three differences between DRAM and SRAM. State which is used for main memory and which
     for cache, and explain why.
 
-
-```mermaid
-flowchart TD
-    A[1_Hardware] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of computer systems, including underlying theory, practical
@@ -803,9 +878,6 @@ implementation, and key applications.
 - input/output systems
 - operating systems and scheduling
 - interrupts and polling
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ---
 

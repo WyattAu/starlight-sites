@@ -41,7 +41,7 @@ $36 \times 1.20 = \pounds 43.20$.
 
 The final price is not $\pounds 45$ because the 20% increase is applied to a smaller base
 ($\pounds 36$) than the 20% decrease ($\pounds 45$). A 20% decrease followed by a 20% increase
-equals $0.80 \times 1.20 = 0.96$A net 4% decrease.
+equals $0.80 \times 1.20 = 0.96$ A net 4% decrease.
 
 (d) $10\%$ of $360 = 36$. $5\%$ of $360 = 18$. $15\% = 36 + 18 = 54$.
 
@@ -75,7 +75,7 @@ factorisation.
 
 **Question:** (a) A rectangle has length 8.4 cm (correct to 1 decimal place) and width 5.2 cm
 (correct to 1 decimal place). Calculate the upper bound of the area. (b) Write $0.000376$ in
-standard form. (c) Calculate $\frac{4.2 \times 10^5}{2.8 \times 10^{-3}}$Giving your answer in
+standard form. (c) Calculate $\frac{4.2 \times 10^5}{2.8 \times 10^{-3}}$ Giving your answer in
 standard form. (d) The population of a city is $3.45 \times 10^6$ to the nearest $10,000$. Write
 down the lower and upper bounds.
 
@@ -194,27 +194,9 @@ people.
 
 **The key insight:** Prime numbers are the atoms of arithmetic, every number can be expressed as a unique product of primes.
 
-
-```mermaid
-flowchart TD
-    A[Diag Number] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

@@ -24,15 +24,15 @@ description: "- Fraunhofer (far-field) patterns are Fourier transforms; Fresnel 
 - **Ignoring the phase in interference calculations.** Phase differences determine constructive and
   destructive interference. Always track the optical path length carefully.
 
-- **Misidentifying Brewster"s angle.** Brewster's angle is for the _reflected_ beam, not the
+- **Misidentifying Brewster's angle.** Brewster's angle is for the _reflected_ beam, not the
   transmitted beam. At Brewster's angle, the reflected light is purely $s$-polarised.
 
 - **Neglecting the difference between intensity and amplitude.** Interference patterns depend on
   amplitudes (add with phases), while intensities add without phases for incoherent sources. The
   visibility of fringes is determined by the coherence of the source.
 
-- **Forgetting that the Airy pattern involves $J_1$Not $J_0$.** The first zero of $J_1(x)$ is at
-  $x = 3.832$Not at $x = 2.405$ (which is the first zero of $J_0$).
+- **Forgetting that the Airy pattern involves $J_1$ Not $J_0$.** The first zero of $J_1(x)$ is at
+  $x = 3.832$ Not at $x = 2.405$ (which is the first zero of $J_0$).
 
 - **Confusing phase velocity and group velocity.** Phase velocity is $v_p = \omega/k$ while group
   velocity is $v_g = d\omega/dk$. In a dispersive medium these differ. Information and energy
@@ -157,17 +157,6 @@ and coherence place fundamental limits on imaging and interference systems.
   the area by a factor of 4 (two stops), requiring four times the exposure time. The f-number
   also affects diffraction: the Airy disk diameter scales as $2.44\lambda N$.
 
-
-```mermaid
-flowchart TD
-    A[18_Common Pitfalls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Optics pitfalls stem from conflating wave and ray descriptions. Fraunhofer and Fresnel diffraction differ because waves remember their curvature differently at different distances. Phase determines interference, not intensity, so tracking optical path length is essential. Brewster's angle works because reflected p-polarized light vanishes when the refracted ray is perpendicular to the reflected ray. Coherence determines whether interference fringes appear at all. The f-number trades light gathering against resolution because smaller apertures diffract more, setting a fundamental limit on image sharpness.
@@ -179,5 +168,5 @@ Optics pitfalls stem from conflating wave and ray descriptions. Fraunhofer and F
 - [Lasers](/4-optics-and-waves/9_lasers/) -- Coherence length, mode structure, and the relationship between linewidth and coherence are covered in the laser chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

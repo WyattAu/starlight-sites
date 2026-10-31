@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "GCSE Biology -- Diagnostic Guide"
 description: "Study notes for GCSE Biology -- Diagnostic Guide with worked examples and practice questions."
@@ -21,6 +20,8 @@ tableOfContents: false
 
 ## Coverage Map
 
+<div class="table-wrap">
+
 | Diagnostic File                           | Topics Covered                                                                       | Source File                          |
 | ----------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------ |
 | `diag-cell-biology.md`                    | Cell structure, specialised cells, microscopy, cell division, osmosis, diffusion     | `cell-biology.md`                    |
@@ -28,6 +29,8 @@ tableOfContents: false
 | `diag-bioenergetics.md`                   | Photosynthesis, respiration, limiting factors, anaerobic respiration, metabolic rate | `bioenergetics.md`                   |
 | `diag-ecology.md`                         | Ecosystems, food chains, nutrient cycles, biodiversity, human impacts, fieldwork     | `ecology.md`                         |
 | `diag-inheritance-variation-evolution.md` | DNA, genetics, natural selection, evolution, genetic engineering, selective breeding | `inheritance-variation-evolution.md` |
+
+</div>
 
 ## Grading Rubric
 
@@ -78,6 +81,8 @@ Cell Biology (cell division)
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic                             | Recommended Time | Notes                                        |
 | -------------------------------------- | ---------------- | -------------------------------------------- |
 | `diag-cell-biology`                    | 35 minutes       | Includes calculation questions on microscopy |
@@ -85,6 +90,8 @@ Cell Biology (cell division)
 | `diag-bioenergetics`                   | 35 minutes       | Requires recall of equations and processes   |
 | `diag-ecology`                         | 35 minutes       | Quantitative and fieldwork questions         |
 | `diag-inheritance-variation-evolution` | 40 minutes       | Genetic crosses and extended writing         |
+
+</div>
 
 **Total recommended time:** approximately 3 hours (spread across 2 sessions).
 
@@ -109,14 +116,7 @@ Cell Biology (cell division)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -162,8 +162,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 

@@ -7,11 +7,10 @@ tags: [TypeScript]
 categories: [TypeScript]
 ---
 
-
 ## Numeric Enums
 
 Numeric enums assign auto-incrementing integer values to their members. By default, the first member
-Has value `0`And each subsequent member increments by `1`.
+has value `0`And each subsequent member increments by `1`.
 
 ```ts
 enum Direction \{
@@ -64,7 +63,7 @@ console.log(perms & FileAccess.Write);
 ```
 
 Computed enum members do not support reverse mapping because the compiler cannot determine the name
-At compile time.
+at compile time.
 
 ## String Enums
 
@@ -92,7 +91,7 @@ Runtime values and are safer for serialisation (e.g., JSON).
 ## Const Enums
 
 Const enums are inlined by the compiler. They are completely erased during compilation and replaced
-With their literal values at each use site.
+with their literal values at each use site.
 
 ```ts
 const enum Direction \{
@@ -156,7 +155,7 @@ Prefer discriminated unions (see below) over heterogenous enums.
 ## Union Enum Pattern
 
 The **union enum pattern** uses string enums to create a type-safe, self-documenting set of values
-That integrates with TypeScript's narrowing system:
+that integrates with TypeScript's narrowing system:
 
 ```ts
 enum ShapeKind \{
@@ -218,6 +217,8 @@ Compatible with `isolatedModules`.
 
 ### Enum Comparison Table
 
+<div class="table-wrap">
+
 | Feature                | Numeric Enum | String Enum | Const Enum    | `as const` Object |
 | ---------------------- | ------------ | ----------- | ------------- | ----------------- |
 | Reverse mapping        | Yes          | No          | N/A (inlined) | No                |
@@ -225,6 +226,8 @@ Compatible with `isolatedModules`.
 | `isolatedModules` safe | Yes          | Yes         | No            | Yes               |
 | Computed values        | Limited      | No          | No            | N/A               |
 | Tree-shakeable         | No           | No          | Yes (inlined) | Yes               |
+
+</div>
 
 ## ES Modules: Import and Export
 
@@ -393,11 +396,11 @@ console.log(Geometry.distance(p1, p2));
 ### When to Use Namespaces
 
 Namespaces should be avoided in modern TypeScript. They exist primarily for backward compatibility
-And for declaring types that span multiple files (using `.d.ts` files). Use ES modules instead.
+and for declaring types that span multiple files (using `.d.ts` files). Use ES modules instead.
 
 **Common Pitfall:** Do not mix namespaces and ES modules in the same file. A file that contains a
 Top-level `import` or `export` is an ES module, and any namespace within it is scoped to that module
-Rather than being global.
+rather than being global.
 
 ## Triple-Slash Directives
 
@@ -435,12 +438,16 @@ Resolves dependencies automatically through `tsconfig.json` and `node_modules`.
 
 ### Classic vs Node Resolution
 
+<div class="table-wrap">
+
 | Strategy              | Description                                                                            |
 | --------------------- | -------------------------------------------------------------------------------------- |
 | `classic`             | Original TypeScript resolution; relative to importing file                             |
 | `node`                | Mimics Node.js resolution; checks `node_modules, package.json` `types`/`typings` field |
 | `node16` / `nodenext` | Node.js ESM-aware resolution (TypeScript 4.7+)                                         |
 | `bundler`             | Resolution for bundlers that handle module resolution themselves (TypeScript 5.0+)     |
+
+</div>
 
 ### Path Aliases in tsconfig
 
@@ -563,7 +570,7 @@ import { add, formatDate, log } from './lib';
 ### Tree-Shaking Implications
 
 Barrel files can interfere with tree-shaking in certain bundlers. When a barrel file re-exports from
-Many modules, importing a single name may cause the bundler to include code for all re-exported
+many modules, importing a single name may cause the bundler to include code for all re-exported
 Names.
 
 **Mitigation strategies:**
@@ -647,17 +654,6 @@ When `isolatedModules` is enabled, const enums cannot be used across files becau
 Transpiled independently and the compiler cannot inline values from other files. Use `as const`
 Objects as an alternative.
 
-
-```mermaid
-flowchart TD
-    A[Enums And Modulesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of enums and modules, including underlying theory, practical
@@ -671,13 +667,7 @@ implementation, and key applications.
 - modules and namespaces
 - type guards and narrowing
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

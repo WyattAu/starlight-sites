@@ -40,7 +40,7 @@ A truth value is whether the statement is true or false. For instance:
 ### Logically equivalent
 
 Two statements being logically equivalent means that they have the same truth values in the same
-Circumstances. For example:
+circumstances. For example:
 
 - Today is Tuesday; True
 - Today is the day after Monday; Also True.
@@ -169,14 +169,14 @@ Statement: All the students are short Negation: At least one student is not shor
 Rule 3: Don't claim too much
 
 Statement: None of the teachers are interesting Equivalent to: All of the teachers are not
-Interesting Negation: Some of the teachers are interesting At least one teacher is interesting
+interesting Negation: Some of the teachers are interesting At least one teacher is interesting
 
 Statement: All A are B Negation: Some A are not B At least one A is not B
 
 Statement: No A are B Negation: Some A are B At least one A is B
 
 Statement: Some of the topics are hard Negation: All of the topics are not hard None of the topics
-Are hard
+are hard
 
 Statement: All numbers are prime Negation: Some numbers are not prime
 
@@ -191,6 +191,8 @@ Negation: Some day next week, Fred will do no maths problems. Some days, Fred no
 
 Basically opposite of a statement. Swap A and B.
 
+<div class="table-wrap">
+
 | Statement   | Converse    |
 | ----------- | ----------- |
 | if A then B | if B then A |
@@ -198,9 +200,13 @@ Basically opposite of a statement. Swap A and B.
 | A if B      | B if A      |
 | A iff B     | B iff A     |
 
+</div>
+
 ### Contrapositive
 
 Basically the equivalent of a statement. Swap A and B, then negate both of them
+
+<div class="table-wrap">
 
 | Statement   | Contrapositive      |
 | ----------- | ------------------- |
@@ -208,6 +214,8 @@ Basically the equivalent of a statement. Swap A and B, then negate both of them
 | A only if B | not B only if not A |
 | A if B      | not B if not A      |
 | A iff B     | not B iff not A     |
+
+</div>
 
 ## Truth Tables
 
@@ -218,12 +226,18 @@ Statements. For a statement depending on $n$ propositions, the table has $2^n$ r
 
 **Negation (NOT):** $\neg P$ is true exactly when $P$ is false.
 
+<div class="table-wrap">
+
 | $P$ | $\neg P$ |
 | --- | -------- |
 | T   | F        |
 | F   | T        |
 
+</div>
+
 **Conjunction (AND):** $P \land Q$ is true only when both $P$ and $Q$ are true.
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \land Q$ |
 | --- | --- | ----------- |
@@ -232,7 +246,11 @@ Statements. For a statement depending on $n$ propositions, the table has $2^n$ r
 | F   | T   | F           |
 | F   | F   | F           |
 
+</div>
+
 **Disjunction (OR, inclusive):** $P \lor Q$ is false only when both $P$ and $Q$ are false.
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \lor Q$ |
 | --- | --- | ---------- |
@@ -241,9 +259,13 @@ Statements. For a statement depending on $n$ propositions, the table has $2^n$ r
 | F   | T   | T          |
 | F   | F   | F          |
 
+</div>
+
 ### The implication $P \Rightarrow Q$
 
 The truth table for implication is often the least intuitive:
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \Rightarrow Q$ |
 | --- | --- | ----------------- |
@@ -252,18 +274,22 @@ The truth table for implication is often the least intuitive:
 | F   | T   | T                 |
 | F   | F   | T                 |
 
+</div>
+
 An implication is **false only when the hypothesis is true and the conclusion is false**. This
-Captures the logical reading: if you promise "if $P$ then $Q$", you have only broken your promise
-When $P$ happens and $Q$ does not.
+captures the logical reading: if you promise "if $P$ then $Q$", you have only broken your promise
+when $P$ happens and $Q$ does not.
 
 The last two rows often feel surprising. Consider the statement "If it is raining, then I carry an
-Umbrella." If it is not raining (rows 3 and 4), the statement places no restriction on my behaviour
+umbrella." If it is not raining (rows 3 and 4), the statement places no restriction on my behaviour
 -- it remains true regardless of whether I carry an umbrella.
 
 ### Contrapositive has the same truth table
 
 The contrapositive of $P \Rightarrow Q$ is $\neg Q \Rightarrow \neg P$. Constructing the truth
 Table:
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $\neg P$ | $\neg Q$ | $\neg Q \Rightarrow \neg P$ |
 | --- | --- | -------- | -------- | --------------------------- |
@@ -272,13 +298,17 @@ Table:
 | F   | T   | T        | F        | T                           |
 | F   | F   | T        | T        | T                           |
 
+</div>
+
 The column for $\neg Q \Rightarrow \neg P$ is identical to the column for $P \Rightarrow Q$ (T, F,
 T, T). This is why a statement and its contrapositive are **logically equivalent**: proving one
-Proves the other.
+proves the other.
 
 ### The converse does NOT have the same truth table
 
 The converse of $P \Rightarrow Q$ is $Q \Rightarrow P$:
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \Rightarrow Q$ | $Q \Rightarrow P$ |
 | --- | --- | ----------------- | ----------------- |
@@ -287,11 +317,13 @@ The converse of $P \Rightarrow Q$ is $Q \Rightarrow P$:
 | F   | T   | T                 | F                 |
 | F   | F   | T                 | T                 |
 
+</div>
+
 The truth values differ in rows 2 and 3. This is why the converse of a true statement need not be
-True. For instance, "If a number is prime then it is odd" ($P = \mathrm{prime}$, $Q = \mathrm{odd}$)
+true. For instance, "If a number is prime then it is odd" ($P = \mathrm{prime}$, $Q = \mathrm{odd}$)
 Is false (witness $2$), but its converse "If a number is odd then it is prime" is also false
 (witness $9$). In contrast, "If a number is a square then it is a rectangle" is true, but its
-Converse "If a number is a rectangle then it is a square" is false.
+converse "If a number is a rectangle then it is a square" is false.
 
 ## Quantifiers
 
@@ -327,11 +359,15 @@ Negation flips the quantifier and negates the predicate:
 
 This matches the informal rules from the Negation section:
 
+<div class="table-wrap">
+
 | Original                          | Negation         |
 | --------------------------------- | ---------------- |
 | All A are B                       | Some A are not B |
 | No A are B (i.e. All A are not B) | Some A are B     |
 | Some A are B                      | No A are B       |
+
+</div>
 
 ### Worked examples
 
@@ -345,12 +381,12 @@ Negation: "There exists a real number $x$ such that $x^2 \lt 0$."
 
 Negation: "For all integers $n$, $n^2 + 1 \neq 0$."
 
-**Example 3.** Negate: "For every integer $n$If $n$ is even then $n^2$ is even."
+**Example 3.** Negate: "For every integer $n$ If $n$ is even then $n^2$ is even."
 
 Negation: "There exists an integer $n$ such that $n$ is even and $n^2$ is not even."
 
 Notice that negating an implication $P \Rightarrow Q$ produces $\neg Q$ alongside $P$: the negation
-Is "$P$ and not $Q$", not "$P \Rightarrow \neg Q$". This is because $P \Rightarrow Q$ is logically
+is "$P$ and not $Q$", not "$P \Rightarrow \neg Q$". This is because $P \Rightarrow Q$ is logically
 Equivalent to $\neg P \lor Q$ And negating gives $P \land \neg Q$.
 
 **Example 4.** Negate: "For all real numbers $x$ there exists a real number $y$ such that
@@ -359,7 +395,7 @@ $x + y = 0$."
 Negation: "There exists a real number $x$ such that for all real numbers $y$, $x + y \neq 0$."
 
 When negating a chain of quantifiers, the order reverses. The rightmost quantifier flips first, then
-The next, and so on -- just like removing nested negations.
+the next, and so on -- just like removing nested negations.
 
 ## Necessary and Sufficient Conditions: Formal Definitions
 
@@ -380,6 +416,8 @@ The informal airport and twin examples give the right intuition. Here is the for
 
 ### Table of examples
 
+<div class="table-wrap">
+
 | Condition $A$             | Condition $B$             | Relationship           | Why                                                  |
 | ------------------------- | ------------------------- | ---------------------- | ---------------------------------------------------- |
 | $n$ is even               | $n^2$ is even             | $A$ sufficient for $B$ | If $n = 2k$ then $n^2 = 4k^2 = 2(2k^2)$              |
@@ -392,6 +430,8 @@ The informal airport and twin examples give the right intuition. Here is the for
 | $n$ is divisible by 2     | $n$ is divisible by 6     | $A$ necessary for $B$  | $6 \mid n \Rightarrow 2 \mid n$                      |
 | $x = y$                   | $x^2 = y^2$               | $A$ sufficient for $B$ | Squaring preserves equality                          |
 | $x^2 = y^2$               | $x = y$                   | neither                | $(-1)^2 = 1^2$ but $-1 \neq 1$                       |
+
+</div>
 
 ### Connecting to if/only if
 
@@ -421,41 +461,51 @@ counterexample.
 **Structure.** To prove $P \Rightarrow Q$ directly, assume $P$ is true and deduce $Q$ through a
 Chain of valid deductions.
 
-$$P \Rightarrow S_1 \Rightarrow S_2 \Rightarrow \cdots \Rightarrow Q$$
+$$
+P \Rightarrow S_1 \Rightarrow S_2 \Rightarrow \cdots \Rightarrow Q
+$$
 
 **Worked example.** Prove that the sum of two even integers is even.
 
 **Proof.** Let $a$ and $b$ be even integers. By definition of evenness, there exist integers $k$ and
 $m$ such that $a = 2k$ and $b = 2m$. Then
 
-$$a + b = 2k + 2m = 2(k + m)$$
+$$
+a + b = 2k + 2m = 2(k + m)
+$$
 
 Since $k + m$ is an integer (the integers are closed under addition), $a + b$ is divisible by 2, and
-Therefore $a + b$ is even. $\square$
+therefore $a + b$ is even. $\square$
 
 **Remark.** The key move was substituting the definition of evenness ($a = 2k$), performing algebra,
 And then reversing the definition. This pattern -- unpack a definition, manipulate, repack -- is the
-Backbone of most direct .../1-number-and-algebra/3_proof-and-logics.
+backbone of most direct .../1-number-and-algebra/3_proof-and-logics.
 
 ### Proof by contradiction
 
-**Structure.** To prove a statement $P$Assume $\neg P$ is true and deduce a contradiction (something
+**Structure.** To prove a statement $P$ Assume $\neg P$ is true and deduce a contradiction (something
 that is always false, such as $0 = 1$ or $q^2 = 2$ where $q$ is rational). Since the Assumption
 $\neg P$ led to an impossibility, $\neg P$ must be false, so $P$ is true.
 
-$$\neg P \Rightarrow \cdots \Rightarrow \mathrm{contradiction} \quad \therefore P$$
+$$
+\neg P \Rightarrow \cdots \Rightarrow \mathrm{contradiction} \quad \therefore P
+$$
 
 **Worked example 1.** Prove that $\sqrt{2}$ is irrational.
 
 **Proof.** Suppose, for contradiction, that $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{a}{b}$
 For some coprime integers $a$ and $b$ (i.e. $\gcd(a, b) = 1$), with $b \neq 0$. Squaring both sides:
 
-$$2 = \frac{a^2}{b^2} \quad \Rightarrow \quad a^2 = 2b^2$$
+$$
+2 = \frac{a^2}{b^2} \quad \Rightarrow \quad a^2 = 2b^2
+$$
 
 This means $a^2$ is even. Since the square of an odd number is odd, $a$ must be even. Write $a = 2k$
-For some integer $k$. Substituting:
+for some integer $k$. Substituting:
 
-$$(2k)^2 = 2b^2 \quad \Rightarrow \quad 4k^2 = 2b^2 \quad \Rightarrow \quad b^2 = 2k^2$$
+$$
+(2k)^2 = 2b^2 \quad \Rightarrow \quad 4k^2 = 2b^2 \quad \Rightarrow \quad b^2 = 2k^2
+$$
 
 So $b^2$ is even, and therefore $b$ is even. But now both $a$ and $b$ are even, contradicting
 $\gcd(a, b) = 1$. Hence $\sqrt{2}$ is irrational. $\square$
@@ -465,22 +515,26 @@ $\gcd(a, b) = 1$. Hence $\sqrt{2}$ is irrational. $\square$
 **Proof.** Suppose, for contradiction, that there are only finitely many primes. List them as
 $p_1, p_2, \ldots, p_n$. Consider the number
 
-$$N = p_1 p_2 \cdots p_n + 1$$
+$$
+N = p_1 p_2 \cdots p_n + 1
+$$
 
-When $N$ is divided by any $p_i$The remainder is 1 (since each $p_i$ divides the product
+When $N$ is divided by any $p_i$ The remainder is 1 (since each $p_i$ divides the product
 $p_1 p_2 \cdots p_n$ but not the added 1). Therefore no $p_i$ divides $N$. Since every integer
 Greater than 1 has a prime factor, $N$ must have a prime factor not in our list -- a contradiction.
 Hence there are infinitely many primes. $\square$
 
 ### Proof by contrapositive
 
-**Structure.** To prove $P \Rightarrow Q$Instead prove the logically equivalent contrapositive
+**Structure.** To prove $P \Rightarrow Q$ Instead prove the logically equivalent contrapositive
 $\neg Q \Rightarrow \neg P$.
 
-$$\neg Q \Rightarrow \cdots \Rightarrow \neg P$$
+$$
+\neg Q \Rightarrow \cdots \Rightarrow \neg P
+$$
 
 This is useful when the negation of the conclusion gives you more to work with than the hypothesis
-Does.
+does.
 
 **Worked example.** Prove that if $n^2$ is even, then $n$ is even.
 
@@ -489,10 +543,12 @@ $n$ is not even (i.e. $n$ is odd), then $n^2$ is not even (i.e. $n^2$ is odd).
 
 **Proof.** Let $n$ be an odd integer. Then $n = 2k + 1$ for some integer $k$. Computing:
 
-$$n^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$$
+$$
+n^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1
+$$
 
-Since $2k^2 + 2k$ is an integer, $n^2$ is of the form $2m + 1$Which means $n^2$ is odd. We have
-Shown: if $n$ is odd then $n^2$ is odd. By contrapositive, if $n^2$ is even then $n$ is even.
+Since $2k^2 + 2k$ is an integer, $n^2$ is of the form $2m + 1$ Which means $n^2$ is odd. We have
+shown: if $n$ is odd then $n^2$ is odd. By contrapositive, if $n^2$ is even then $n$ is even.
 $\square$
 
 ### Proof by cases
@@ -500,7 +556,9 @@ $\square$
 **Structure.** Split the domain into exhaustive, mutually exclusive cases and prove the result holds
 In each one.
 
-$$\mathrm{Case 1: } C_1 \Rightarrow Q \qquad \mathrm{Case 2: } C_2 \Rightarrow Q \qquad \cdots$$
+$$
+\mathrm{Case 1: } C_1 \Rightarrow Q \qquad \mathrm{Case 2: } C_2 \Rightarrow Q \qquad \cdots
+$$
 
 Since the cases cover all possibilities, $Q$ holds unconditionally.
 
@@ -509,18 +567,22 @@ Since the cases cover all possibilities, $Q$ holds unconditionally.
 **Proof.** We consider four cases based on the signs of $x$ and $y$. In each case $a$ and $b$ denote
 Non-negative reals.
 
+<div class="table-wrap">
+
 | Case | $x$  | $y$  | $xy$  | $    | xy               | $   | $   | x   | \,  | y   | $   |
-| ---- | ---- | ---- | ----- | ---- | ---------------- | --- | --- | --- | --- | --- | --- |
-| 1    | $a$  | $b$  | $ab$  | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
+| ---- | ---- | ---- | ----- | ---- | ---------------- |
+| 1 | $a$ | $b$ | $ab$ | $ab$ | $a \cdot b = ab$ |
 | 2    | $a$  | $-b$ | $-ab$ | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
-| 3    | $-a$ | $b$  | $-ab$ | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
+| 3 | $-a$ | $b$ | $-ab$ | $ab$ | $a \cdot b = ab$ |
 | 4    | $-a$ | $-b$ | $ab$  | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
+
+</div>
 
 In all four cases $|xy| = |x|\,|y|$. $\square$
 
 ### Dis.../1-number-and-algebra/3_proof-and-logic by counterexample
 
-**Structure.** To disprove a universal claim $\forall x,\; P(x)$It suffices to produce a single
+**Structure.** To disprove a universal claim $\forall x,\; P(x)$ It suffices to produce a single
 $x_0$ for which $P(x_0)$ is false. This is the negation of a universal statement:
 $\exists x,\; \neg P(x)$.
 
@@ -545,7 +607,7 @@ Several tempting deductions are invalid. The TMUA specification specifically hig
 
 This implicitly assumes $a \neq 0$. Counterexample: $a = 0$, $b = 3$, $c = 7$. Then
 $0 \cdot 3 = 0 \cdot 7 = 0$ But $3 \neq 7$. The correct deduction is: if $ab = ac$ and $a \neq 0$
-Then $b = c$.
+then $b = c$.
 
 **Error 2:** "If $\sin A = \sin B$ Then $A = B$."
 
@@ -556,11 +618,11 @@ integer $k$.
 
 **Other common errors:**
 
-- **Affirming the consequent:** From $P \Rightarrow Q$ and $Q$Deducing $P$. This is the fallacy of
+- **Affirming the consequent:** From $P \Rightarrow Q$ and $Q$ Deducing $P$. This is the fallacy of
   treating the converse as equivalent to the original. Example: "All primes greater than 2 are odd.
   9 is odd. Therefore 9 is prime." -- Invalid.
 
-- **Denying the antecedent:** From $P \Rightarrow Q$ and $\neg P$Deducing $\neg Q$. Example: "If it
+- **Denying the antecedent:** From $P \Rightarrow Q$ and $\neg P$ Deducing $\neg Q$. Example: "If it
   is a square, then it is a rectangle. This shape is not a square. Therefore it is not a rectangle."
   -- Invalid (it could be a non-square rectangle).
 
@@ -575,9 +637,9 @@ integer $k$.
 
 ### Pitfall 1: Confusing necessary and sufficient
 
-"$A$ is necessary for $B$" means $B \Rightarrow A$Not $A \Rightarrow B$. Students frequently swap
-These. Remember: a necessary condition is one you **cannot do without**; a sufficient condition is
-One that is **enough on its own**.
+"$A$ is necessary for $B$" means $B \Rightarrow A$ Not $A \Rightarrow B$. Students frequently swap
+these. Remember: a necessary condition is one you **cannot do without**; a sufficient condition is
+one that is **enough on its own**.
 
 A reliable test: ask yourself "Is condition $A$ enough to guarantee $B$?" If yes, $A$ is sufficient.
 Ask "Must $A$ hold whenever $B$ holds?" If yes, $A$ is necessary.
@@ -590,8 +652,8 @@ to show that "if $P$ then $Q$" is false, you must exhibit a case where $P$ is tr
 ### Pitfall 3: Forgetting that "or" is inclusive
 
 In mathematics, "or" means **at least one** holds, possibly both. "A or B" is false only when both
-Are false. This differs from everyday English, where "or" is sometimes exclusive (e.g. "tea or
-Coffee").
+are false. This differs from everyday English, where "or" is sometimes exclusive (e.g. "tea or
+coffee").
 
 ### Pitfall 4: Treating the converse as equivalent
 
@@ -620,7 +682,7 @@ and "$x \lt 0$" is **not** exhaustive -- You must include "$x = 0$".
 ### Problem 1
 
 State the converse and contrapositive of: "If $n$ is a multiple of 6, then $n$ is even." Determine
-Whether each is true.
+whether each is true.
 
 <details>
 <summary>Solution</summary>
@@ -644,30 +706,34 @@ Prove by contradiction that $\sqrt{3}$ is irrational.
 
 Assume $\sqrt{3} = \frac{a}{b}$ where $a, b$ are coprime integers and $b \neq 0$. Then:
 
-$$3 = \frac{a^2}{b^2} \quad \Rightarrow \quad a^2 = 3b^2$$
+$$
+3 = \frac{a^2}{b^2} \quad \Rightarrow \quad a^2 = 3b^2
+$$
 
 So $a^2$ is a multiple of 3, which means $a$ is a multiple of 3 (if 3 divides $a^2$ Then 3 must
-Divide $a$). Write $a = 3k$. Substituting:
+divide $a$). Write $a = 3k$. Substituting:
 
-$$9k^2 = 3b^2 \quad \Rightarrow \quad b^2 = 3k^2$$
+$$
+9k^2 = 3b^2 \quad \Rightarrow \quad b^2 = 3k^2
+$$
 
 So $b^2$ is a multiple of 3, meaning $b$ is a multiple of 3. But then both $a$ and $b$ are multiples
-Of 3, contradicting $\gcd(a, b) = 1$. Hence $\sqrt{3}$ is irrational. $\square$
+of 3, contradicting $\gcd(a, b) = 1$. Hence $\sqrt{3}$ is irrational. $\square$
 
 </details>
 
 ### Problem 3
 
-Negate: "For all integers $n$If $n$ is prime then $n$ is odd or $n = 2$."
+Negate: "For all integers $n$ If $n$ is prime then $n$ is odd or $n = 2$."
 
 <details>
 <summary>Solution</summary>
 
 Step 1: Negate the universal quantifier. "There exists an integer $n$ such that it is **not** the
-Case that (if $n$ is prime then $n$ is odd or $n = 2$)."
+case that (if $n$ is prime then $n$ is odd or $n = 2$)."
 
 Step 2: Negate the implication. "$P \Rightarrow Q$" negates to "$P$ and $\neg Q$". So: "$n$ is prime
-And $\neg(n \mathrm{ is odd or } n = 2)$."
+and $\neg(n \mathrm{ is odd or } n = 2)$."
 
 Step 3: Apply De Morgan's law. $\neg(A \lor B) = (\neg A) \land (\neg B)$. So: "$n$ is even and
 $n \neq 2$."
@@ -675,23 +741,25 @@ $n \neq 2$."
 Full negation: "There exists an integer $n$ such that $n$ is prime and $n$ is even and $n \neq 2$."
 
 Since no such integer exists (the only even prime is 2), the negation is false, confirming the
-Original statement is true.
+original statement is true.
 
 </details>
 
 ### Problem 4
 
 Let $f(x) = x^2 - 5x + 6$. A student claims: "For all real $x$, $f(x) \ge 0$." Disprove by
-Counterexample.
+counterexample.
 
 <details>
 <summary>Solution</summary>
 
 Factorise: $f(x) = (x - 2)(x - 3)$. Testing $x = 2.5$:
 
-$$f(2.5) = (2.5 - 2)(2.5 - 3) = (0.5)(-0.5) = -0.25 \lt 0$$
+$$
+f(2.5) = (2.5 - 2)(2.5 - 3) = (0.5)(-0.5) = -0.25 \lt 0
+$$
 
-So $f(2.5) \lt 0$Providing a counterexample. The claim is false. (In fact, $f(x) \ge 0$ only when
+So $f(2.5) \lt 0$ Providing a counterexample. The claim is false. (In fact, $f(x) \ge 0$ only when
 $x \le 2$ or $x \ge 3$.)
 
 </details>
@@ -705,13 +773,17 @@ Prove by cases: for all integers $n$, $n^2 + n$ is even.
 
 **Case 1: $n$ is even.** Then $n = 2k$ for some integer $k$.
 
-$$n^2 + n = 4k^2 + 2k = 2(2k^2 + k)$$
+$$
+n^2 + n = 4k^2 + 2k = 2(2k^2 + k)
+$$
 
 Since $2k^2 + k$ is an integer, $n^2 + n$ is even.
 
 **Case 2: $n$ is odd.** Then $n = 2k + 1$ for some integer $k$.
 
-$$n^2 + n = (2k+1)^2 + (2k+1) = 4k^2 + 4k + 1 + 2k + 1 = 4k^2 + 6k + 2 = 2(2k^2 + 3k + 1)$$
+$$
+n^2 + n = (2k+1)^2 + (2k+1) = 4k^2 + 4k + 1 + 2k + 1 = 4k^2 + 6k + 2 = 2(2k^2 + 3k + 1)
+$$
 
 Since $2k^2 + 3k + 1$ is an integer, $n^2 + n$ is even.
 
@@ -731,7 +803,7 @@ Proof: $x^2 = y^2$. Taking square roots, $x = y$. QED."
 <summary>Solution</summary>
 
 The error is in the step "taking square roots gives $x = y$". This is invalid because
-$\sqrt{x^2} = |x|$Not $x$. From $x^2 = y^2$ we get $|x| = |y|$Which means $x = y$ or $x = -y$.
+$\sqrt{x^2} = |x|$ Not $x$. From $x^2 = y^2$ we get $|x| = |y|$ Which means $x = y$ or $x = -y$.
 
 Counterexample: $x = 3$, $y = -3$. Then $x^2 = 9 = y^2$ But $3 \neq -3$.
 
@@ -747,14 +819,16 @@ Prove by contrapositive: if $3n + 2$ is odd, then $n$ is odd.
 <summary>Solution</summary>
 
 The contrapositive is: if $n$ is not odd (i.e. $n$ is even), then $3n + 2$ is not odd (i.e. $3n + 2$
-Is even).
+is even).
 
 **Proof.** Let $n$ be even, so $n = 2k$ for some integer $k$. Then:
 
-$$3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1)$$
+$$
+3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1)
+$$
 
 Since $3k + 1$ is an integer, $3n + 2$ is even. By contrapositive, if $3n + 2$ is odd then $n$ is
-Odd. $\square$
+odd. $\square$
 
 </details>
 
@@ -766,7 +840,7 @@ Prove by contradiction: there is no largest integer.
 <summary>Solution</summary>
 
 Assume, for contradiction, that there is a largest integer. Call it $N$. Then for every integer $n$
-$n \le N$. But $N + 1$ is an integer and $N + 1 \gt N$Contradicting the assumption that $N$ is the
+$n \le N$. But $N + 1$ is an integer and $N + 1 \gt N$ Contradicting the assumption that $N$ is the
 Largest integer. Hence there is no largest integer. $\square$
 
 </details>
@@ -788,22 +862,22 @@ Determine whether each condition is necessary, sufficient, both, or neither for 
 <summary>Solution</summary>
 
 (a) **Necessary but not sufficient.** If $15 \mid n$ then $3 \mid n$ (so necessary). But $3 \mid 6$
-While $15 \nmid 6$ (so not sufficient).
+while $15 \nmid 6$ (so not sufficient).
 
 (b) **Necessary and sufficient.** $3 \mid n$ and $5 \mid n$ together mean $n$ is a common multiple
-Of 3 and 5. Since $\gcd(3, 5) = 1$The least common multiple is $15$ So $15 \mid n$.
+of 3 and 5. Since $\gcd(3, 5) = 1$ The least common multiple is $15$ So $15 \mid n$.
 
 (c) **Sufficient but not necessary.** If $30 \mid n$ then $15 \mid n$ (since $30 = 2 \times 15$).
 But $15 \mid 15$ while $30 \nmid 15$.
 
 (d) **Neither.** Not sufficient: $25$ ends in 5 but $15 \nmid 25$. Not necessary: $30$ is divisible
-By 15 but does not end in 5.
+by 15 but does not end in 5.
 
 </details>
 
 ### Problem 10
 
-Let $P$ and $Q$ be statements. In terms of $P$ and $Q$Express: "It is not the case that both $P$ And
+Let $P$ and $Q$ be statements. In terms of $P$ and $Q$ Express: "It is not the case that both $P$ And
 $Q$ are true." Show that this is logically equivalent to "At least one of $P$, $Q$ is false."
 
 <details>
@@ -814,9 +888,11 @@ $Q$ are true." Show that this is logically equivalent to "At least one of $P$, $
 By De Morgan's law: $\neg(P \land Q) \equiv (\neg P) \lor (\neg Q)$.
 
 "At least one of $P$, $Q$ is false" means either $P$ is false or $Q$ is false (or both), which is
-Precisely $\neg P \lor \neg Q$.
+precisely $\neg P \lor \neg Q$.
 
 Therefore the two statements are logically equivalent. This can also be verified by truth table:
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \land Q$ | $\neg(P \land Q)$ | $\neg P$ | $\neg Q$ | $\neg P \lor \neg Q$ |
 | --- | --- | ----------- | ----------------- | -------- | -------- | -------------------- |
@@ -824,6 +900,8 @@ Therefore the two statements are logically equivalent. This can also be verified
 | T   | F   | F           | T                 | F        | T        | T                    |
 | F   | T   | F           | T                 | T        | F        | T                    |
 | F   | F   | F           | T                 | T        | T        | T                    |
+
+</div>
 
 The fourth and seventh columns are identical, confirming equivalence.
 
@@ -839,27 +917,9 @@ The fourth and seventh columns are identical, confirming equivalence.
 3. Confusing the converse with the contrapositive. Only the contrapositive is logically equivalent
    to the original implication.
 
-
-```mermaid
-flowchart TD
-    A[1_Logic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

@@ -5,7 +5,7 @@ title: "Continuity"
 tags:
   - Mathematics
   - University
-description: "Let where . We say if for Every There exists such that Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+description: "Continuity in real analysis: the epsilon-delta definition and why it has that shape, the intermediate value and extreme value theorems, uniform continuity, and the counterexamples that break intuition -- Weierstrass, Dirichlet and Thomae. Tier F/U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -17,19 +17,59 @@ description: "Let where . We say if for Every There exists such that Comprehensi
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Define continuity at a point, using quantifiers.
+- What are the three types of discontinuity?
+- State the intermediate value theorem. What does "closed, bounded" buy?
+- What is the difference between continuity and uniform continuity?
+- Is there a function that is continuous everywhere but differentiable nowhere?
+
+Check your answers against the text. The last prompt is the one most people
+answer wrongly -- and the answer is the most important result on this page.
+
+## Motivation: the intuitive definition fails
+
+The intuitive definition -- "you can draw it without lifting your pen" -- is
+nearly right, and it is worth knowing exactly how it is wrong. Three functions
+destroy it.
+
+**Dirichlet's function** $D(x) = 1$ if $x \in \mathbb{Q}$, $0$ otherwise, is
+discontinuous *everywhere*. Its graph cannot be drawn at all.
+
+**Thomae's function** $t(x) = 1/q$ if $x = p/q$ in lowest terms, $0$ if $x$ is
+irrational, is continuous at every irrational and discontinuous at every
+rational. Its graph looks like a firework; the pen is lifted infinitely often.
+
+**Weierstrass' function** $W(x) = \sum_{n=0}^{\infty} a^n \cos(b^n \pi x)$
+(with $0 < a < 1$, $b$ odd, $ab > 1 + 3\pi/2$) is continuous *everywhere* and
+differentiable *nowhere*. It can be drawn without lifting the pen, and yet it
+has no tangent anywhere.
+
+So "drawn without lifting the pen" is neither necessary (Dirichlet) nor
+sufficient (Weierstrass) for what continuity actually means. The
+$\varepsilon$-$\delta$ definition is not pedantry; it is the only definition
+that survives these examples.
+
 ### 4.1 Limits of Functions
 
 Let $f : D \to \mathbb{R}$ where $D \subseteq \mathbb{R}$. We say $\lim_{x \to a} f(x) = L$ if for
-Every $\varepsilon > 0$There exists $\delta > 0$ such that
+every $\varepsilon > 0$ There exists $\delta > 0$ such that
 
-$$0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon$$
+$$
+0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon
+$$
 
 ### 4.2 Continuity
 
 **Definition.** $f$ is **continuous at $a$** if $\lim_{x \to a} f(x) = f(a)$. In epsilon-delta form:
-For every $\varepsilon > 0$There exists $\delta > 0$ such that
+For every $\varepsilon > 0$ There exists $\delta > 0$ such that
 
-$$|x - a| \lt \delta \implies |f(x) - f(a)| \lt \varepsilon$$
+$$
+|x - a| \lt \delta \implies |f(x) - f(a)| \lt \varepsilon
+$$
 
 _Remark._ A function is continuous on a set $E$ if it is continuous at every point of $E$. A
 function is **globally continuous** (or "continuous") if it is continuous on its entire domain.
@@ -43,7 +83,7 @@ Classified as:
 
 **Proposition 4.3.** Polynomials are continuous on $\mathbb{R}$. Rational functions $p(x)/q(x)$ are
 Continuous wherever $q(x) \neq 0$. The functions $\sin x$, $\cos x$, $e^x$, $\ln x$ are continuous
-On their domains.
+on their domains.
 
 **Theorem 4.1 (Algebra of Continuous Functions).** If $f$ and $g$ are continuous at $a$ Then $f+g$
 $f-g$, $fg$ And (where defined) $f/g$ are continuous at $a$.
@@ -57,16 +97,16 @@ The epsilon-delta definitions can be reformulated in terms of sequences, which i
 Convenient for .../1-number-and-algebra/3_proof-and-logics.
 
 **Proposition 4.2a (Sequential Criterion for Limits).** $\lim_{x \to c} f(x) = L$ if and only if For
-every sequence $(x_n)$ with $x_n \to c$ and $x_n \neq c$ for all $n$We have $f(x_n) \to L$.
+every sequence $(x_n)$ with $x_n \to c$ and $x_n \neq c$ for all $n$ We have $f(x_n) \to L$.
 
 _Proof._ ($\Rightarrow$) Let $\varepsilon > 0$. Choose $\delta > 0$ from the $\varepsilon$-$\delta$
-definition. Since $x_n \to c$There exists $N$ with $|x_n - c| \lt \delta$ for $n \geq N$. Then
+definition. Since $x_n \to c$ There exists $N$ with $|x_n - c| \lt \delta$ for $n \geq N$. Then
 $|f(x_n) - L| \lt \varepsilon$ for $n \geq N$.
 
 ($\Leftarrow$) Suppose the $\varepsilon$-$\delta$ condition fails. Then there exists
-$\varepsilon > 0$ such That for every $n \in \mathbb{N}$There exists $x_n$ with
+$\varepsilon > 0$ such That for every $n \in \mathbb{N}$ There exists $x_n$ with
 $0 \lt |x_n - c| \lt 1/n$ but $|f(x_n) - L| \geq \varepsilon$. Then $x_n \to c$ but
-$f(x_n) \not\to L$Contradicting the hypothesis. $\blacksquare$
+$f(x_n) \not\to L$ Contradicting the hypothesis. $\blacksquare$
 
 **Corollary 4.2b.** $f$ is continuous at $c$ if and only if for every sequence $(x_n)$ with
 $x_n \to c$ We have $f(x_n) \to f(c)$.
@@ -82,17 +122,17 @@ $f(b) \lt y \lt f(a)$), then there exists $c \in (a,b)$ such that $f(c) = y$.
 _Proof._ Assume $f(a) \lt y \lt f(b)$. Let $S = \{x \in [a,b] : f(x) \lt y\}$. Since $a \in S$ $S$
 is non-empty and bounded above by $b$. Let $c = \sup(S)$. We show $f(c) = y$.
 
-If $f(c) \lt y$ Then by continuity at $c$There exists $\delta > 0$ such that $f(x) \lt y$ for
-$x \in (c - \delta, c + \delta)$. But then $c + \delta/2 \in S$Contradicting that $c = \sup(S)$.
+If $f(c) \lt y$ Then by continuity at $c$ There exists $\delta > 0$ such that $f(x) \lt y$ for
+$x \in (c - \delta, c + \delta)$. But then $c + \delta/2 \in S$ Contradicting that $c = \sup(S)$.
 
 If $f(c) > y$ Then by continuity, there exists $\delta > 0$ such that $f(x) > y$ for
-$x \in (c - \delta, c + \delta)$. But then $c - \delta/2$ is an upper bound for $S$Contradicting
-That $c = \sup(S)$.
+$x \in (c - \delta, c + \delta)$. But then $c - \delta/2$ is an upper bound for $S$ Contradicting
+that $c = \sup(S)$.
 
 Therefore $f(c) = y$. $\blacksquare$
 
 _Alternative .../1-number-and-algebra/3_proof-and-logic (bisection)._ Set $a_0 = a$, $b_0 = b$.
-Given $[a_n, b_n]$ with $f(a_n) \lt y \lt f(b_n)$ Let $m_n = (a_n + b_n)/2$. If $f(m_n) \geq y$Set
+Given $[a_n, b_n]$ with $f(a_n) \lt y \lt f(b_n)$ Let $m_n = (a_n + b_n)/2$. If $f(m_n) \geq y$ Set
 $a_{n+1} = a_n$, $b_{n+1} = m_n$. If $f(m_n) \lt y$ Set $a_{n+1} = m_n$, $b_{n+1} = b_n$. Either
 way, $f(a_n) \lt y \leq f(b_n)$ and $b_n - a_n = (b-a)/2^n \to 0$. By the nested interval property,
 $a_n \to c$ and $b_n \to c$. By continuity, $f(c) = \lim f(a_n) \leq y$ And
@@ -104,23 +144,25 @@ $f(c) = \lim f(b_n) \geq y$ So $f(c) = y$. $\blacksquare$
 Minimum on $[a,b]$: there exist $c_1, c_2 \in [a,b]$ such that $f(c_1) \leq f(x) \leq f(c_2)$ for
 all $x \in [a,b]$.
 
-_Proof._ We first show $f$ is bounded. Suppose not; then for each $n \in \mathbb{N}$There exists
+_Proof._ We first show $f$ is bounded. Suppose not; then for each $n \in \mathbb{N}$ There exists
 $x_n \in [a,b]$ with $|f(x_n)| > n$. By Bolzano-Weierstrass, $(x_n)$ has a convergent subsequence
 $x_{n_k} \to c \in [a,b]$. By continuity, $f(x_{n_k}) \to f(c)$ So $(f(x_{n_k}))$ is bounded. But
-$|f(x_{n_k})| > n_k \to \infty$A contradiction.
+$|f(x_{n_k})| > n_k \to \infty$ A contradiction.
 
-Now we show $f$ attains its supremum. Let $M = \sup\{f(x) : x \in [a,b]\}$. For each $n$Choose
+Now we show $f$ attains its supremum. Let $M = \sup\{f(x) : x \in [a,b]\}$. For each $n$ Choose
 $x_n \in [a,b]$ with $f(x_n) > M - 1/n$. By Bolzano-Weierstrass, $(x_n)$ has a subsequence
 $x_{n_k} \to c \in [a,b]$. By continuity, $f(c) = \lim f(x_{n_k})$. Since
-$M - 1/n_k \lt f(x_{n_k}) \leq M$ for all $k$The squeeze theorem gives $f(c) = M$. The argument for
+$M - 1/n_k \lt f(x_{n_k}) \leq M$ for all $k$ The squeeze theorem gives $f(c) = M$. The argument for
 the infimum is similar (consider $-f$). $\blacksquare$
 
 ### 4.5 Uniform Continuity
 
-**Definition.** $f$ is **uniformly continuous** on $D$ if for every $\varepsilon > 0$There exists
+**Definition.** $f$ is **uniformly continuous** on $D$ if for every $\varepsilon > 0$ There exists
 $\delta > 0$ such that for all $x, y \in D$:
 
-$$|x - y| \lt \delta \implies |f(x) - f(y)| \lt \varepsilon$$
+$$
+|x - y| \lt \delta \implies |f(x) - f(y)| \lt \varepsilon
+$$
 
 The key distinction: for ordinary continuity, $\delta$ may depend on both $\varepsilon$ and the
 point $a$; for uniform continuity, $\delta$ depends only on $\varepsilon$.
@@ -131,17 +173,19 @@ point $a$; for uniform continuity, $\delta$ depends only on $\varepsilon$.
 Interval $[a,b]$ Then $f$ is uniformly continuous on $[a,b]$.
 
 _Proof._ Suppose $f$ is continuous on $[a,b]$ but not uniformly continuous. Then there exists
-$\varepsilon > 0$ such that for every $n \in \mathbb{N}$There exist $x_n, y_n \in [a,b]$ with
+$\varepsilon > 0$ such that for every $n \in \mathbb{N}$ There exist $x_n, y_n \in [a,b]$ with
 $|x_n - y_n| \lt 1/n$ but $|f(x_n) - f(y_n)| \geq \varepsilon$.
 
 By the Bolzano-Weierstrass theorem, $(x_n)$ has a convergent subsequence $x_{n_k} \to c \in [a,b]$.
-Since $|x_{n_k} - y_{n_k}| \lt 1/n_k \to 0$We have $y_{n_k} \to c$ as well.
+Since $|x_{n_k} - y_{n_k}| \lt 1/n_k \to 0$ We have $y_{n_k} \to c$ as well.
 
 By continuity of $f$ at $c$: there exists $\delta > 0$ such that $|x - c| \lt \delta$ implies
 $|f(x) - f(c)| \lt \varepsilon/2$. For $k$ sufficiently large, $|x_{n_k} - c| \lt \delta$ and
 $|y_{n_k} - c| \lt \delta$ So:
 
-$$|f(x_{n_k}) - f(y_{n_k})| \leq |f(x_{n_k}) - f(c)| + |f(y_{n_k}) - f(c)| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon$$
+$$
+|f(x_{n_k}) - f(y_{n_k})| \leq |f(x_{n_k}) - f(c)| + |f(y_{n_k}) - f(c)| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon
+$$
 
 Contradicting $|f(x_{n_k}) - f(y_{n_k})| \geq \varepsilon$. $\blacksquare$
 
@@ -152,9 +196,9 @@ Contradicting $|f(x_{n_k}) - f(y_{n_k})| \geq \varepsilon$. $\blacksquare$
 _Solution._ For $x, y \geq 0$:
 $|\sqrt{x} - \sqrt{y}| = \frac{|x - y|}{\sqrt{x} + \sqrt{y}} \leq |x - y|^{1/2}$.
 
-Given $\varepsilon > 0$Choose $\delta = \varepsilon^2$. Then $|x - y| \lt \delta$ implies
+Given $\varepsilon > 0$ Choose $\delta = \varepsilon^2$. Then $|x - y| \lt \delta$ implies
 $|\sqrt{x} - \sqrt{y}| \leq \sqrt{|x-y|} \lt \sqrt{\delta} = \varepsilon$. Since $\delta$ depends
-Only on $\varepsilon$The continuity is uniform. $\blacksquare$
+only on $\varepsilon$ The continuity is uniform. $\blacksquare$
 
 <details>
 <summary>Worked Example: $\varepsilon$-$\delta$ .../1-number-and-algebra/3_proof-and-logic that $f(x) = 3x - 1$ is continuous at $x = 2$</summary>
@@ -174,13 +218,17 @@ $|f(x) - 5| = 3|x - 2| \lt 3 \cdot \varepsilon/3 = \varepsilon$. $\blacksquare$
 
 _Solution._ We have $f(3) = 9$. Let $\varepsilon > 0$. Compute:
 
-$$|f(x) - 9| = |x^2 - 9| = |x + 3| \cdot |x - 3|$$
+$$
+|f(x) - 9| = |x^2 - 9| = |x + 3| \cdot |x - 3|
+$$
 
-Restrict to $\delta \leq 1$ So $|x - 3| \lt 1$ means $2 \lt x \lt 4$Giving $|x + 3| \lt 7$.
+Restrict to $\delta \leq 1$ So $|x - 3| \lt 1$ means $2 \lt x \lt 4$ Giving $|x + 3| \lt 7$.
 
 Choose $\delta = \min(1, \varepsilon/7)$. Then $|x - 3| \lt \delta$ implies:
 
-$$|x^2 - 9| = |x + 3| \cdot |x - 3| \lt 7 \cdot \frac{\varepsilon}{7} = \varepsilon$$
+$$
+|x^2 - 9| = |x + 3| \cdot |x - 3| \lt 7 \cdot \frac{\varepsilon}{7} = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -193,7 +241,9 @@ _Solution._ We show the negation of uniform continuity. Take $\varepsilon = 1$. 
 Choose $n \in \mathbb{N}$ with $1/n \lt \delta$. Set $x = 1/n$ and $y = 1/(2n)$. Then
 $|x - y| = 1/(2n) \lt 1/n \lt \delta$ But:
 
-$$|f(x) - f(y)| = \left|\frac{1}{1/n} - \frac{1}{1/(2n)}\right| = |n - 2n| = n \geq 1 = \varepsilon$$
+$$
+|f(x) - f(y)| = \left|\frac{1}{1/n} - \frac{1}{1/(2n)}\right| = |n - 2n| = n \geq 1 = \varepsilon
+$$
 
 So no single $\delta$ works for all $x, y \in (0,1)$. $\blacksquare$
 
@@ -218,9 +268,11 @@ _Solution._ For $x \neq 0$, $f$ is a product of continuous functions, hence cont
 
 At $x = 0$: let $\varepsilon > 0$. Choose $\delta = \varepsilon$. For $|x - 0| = |x| \lt \delta$:
 
-$$|f(x) - f(0)| = |x \sin(1/x)| \leq |x| \lt \delta = \varepsilon$$
+$$
+|f(x) - f(0)| = |x \sin(1/x)| \leq |x| \lt \delta = \varepsilon
+$$
 
-So $f$ is continuous at $0$. Since $f$ extends continuously from $(0, 1]$ to $[0, 1]$The
+So $f$ is continuous at $0$. Since $f$ extends continuously from $(0, 1]$ to $[0, 1]$ The
 Heine-Cantor Theorem implies $f$ is uniformly continuous on $[0, 1]$. $\blacksquare$
 
 </details>
@@ -235,7 +287,9 @@ $|\sin t| \leq |t|$ and $|\cos| \leq 1$.)
 Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Choose $\delta = \varepsilon$. For
 $|x - a| \lt \delta$:
 
-$$|\sin x - \sin a| \leq |x - a| \lt \delta = \varepsilon$$
+$$
+|\sin x - \sin a| \leq |x - a| \lt \delta = \varepsilon
+$$
 
 Since $\delta = \varepsilon$ works independently of $a$, $\sin x$ is actually **uniformly
 continuous** On $\mathbb{R}$. The same argument works for $\cos x$. $\blacksquare$
@@ -245,15 +299,17 @@ continuous** On $\mathbb{R}$. The same argument works for $\cos x$. $\blacksquar
 <details>
 <summary>Worked Example: $\varepsilon$-$\delta$ .../1-number-and-algebra/3_proof-and-logic that $f(x) = e^x$ is continuous at every $a \in \mathbb{R}$</summary>
 
-_Solution._ We use the inequality $|e^u - e^v| \leq e^{\max(u,v)} |u - v|$Which follows from the
+_Solution._ We use the inequality $|e^u - e^v| \leq e^{\max(u,v)} |u - v|$ Which follows from the
 Mean Value Theorem applied to $e^t$: $e^u - e^v = e^\xi (u - v)$ for some $\xi$ between $u$ and $v$
-So $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
+so $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
 
 Let $\varepsilon > 0$ and $a \in \mathbb{R}$. Restrict to $|x - a| \lt 1$ So $x \lt a + 1$ and
 $e^{\max(x,a)} \leq e^{a+1}$. Choose $\delta = \min(1, \varepsilon / e^{a+1})$. For
 $|x - a| \lt \delta$:
 
-$$|e^x - e^a| \leq e^{a+1} |x - a| \lt e^{a+1} \cdot \frac{\varepsilon}{e^{a+1}} = \varepsilon$$
+$$
+|e^x - e^a| \leq e^{a+1} |x - a| \lt e^{a+1} \cdot \frac{\varepsilon}{e^{a+1}} = \varepsilon
+$$
 
 $\blacksquare$
 
@@ -271,6 +327,8 @@ The squeeze theorem extends this intuition: if a function is trapped between two
 
 The following table summarizes the key counterexamples in the theory of continuity:
 
+<div class="table-wrap">
+
 | Function | Domain | Continuous? | Uniformly Continuous? | Lesson |
 | ---------- | -------- | ------------- | ---------------------- | -------- |
 | $f(x) = 1/x$ | $(0, 1)$ | Yes | No | Unbounded slope near boundary |
@@ -279,7 +337,57 @@ The following table summarizes the key counterexamples in the theory of continui
 | $f(x) = \sin(1/x)$ | $(0, 1]$ | Yes | Yes | Oscillation is bounded; Heine-Cantor applies on $[\delta, 1]$ |
 | $f(x) = x\sin(1/x)$ | $[0, 1]$ | Yes | Yes | Extension to $0$ is continuous; compact domain |
 
+</div>
+
 **The pattern:** A continuous function on a bounded interval fails to be uniformly continuous if and only if it can oscillate arbitrarily fast near some point (in standard practice a boundary point where the function is not defined, or a point where the derivative is unbounded). On closed, bounded intervals, this cannot happen because the function is bounded and the interval is compact.
+
+**Three counterexamples that break the intuition.**
+
+<div class="table-wrap">
+
+| Function | Continuous at | Differentiable at | What it shows |
+| -------- | ------------- | ----------------- | ------------- |
+| $D(x) = \mathbf{1}_{x \in \mathbb{Q}}$ | **nowhere** | nowhere | "Everywhere" is achievable in the wrong direction |
+| $t(x) = 1/q$ for $x = p/q$, $0$ for irrational | every irrational | nowhere | Continuity is a *pointwise* property and can be wildly non-uniform |
+| $W(x) = \sum a^n \cos(b^n \pi x)$ | **everywhere** | **nowhere** | Continuity does not imply differentiability |
+
+</div>
+
+Thomae's function deserves a closer look, because the proof is instructive.
+Given $\varepsilon > 0$ and an irrational $x_0$, only finitely many rationals
+$p/q$ have $1/q \ge \varepsilon$ -- namely those with $q \le 1/\varepsilon$.
+Choose $\delta$ avoiding that finite set. Then every $x$ within $\delta$ of
+$x_0$ has either $t(x) = 0$ (irrational) or $t(x) = 1/q < \varepsilon$.
+
+That argument uses compactness twice, and it is the reason the function works on
+a bounded interval. It is also the reason Thomae's function is Riemann
+integrable with integral zero -- a fact that becomes the Lebesgue criterion in
+[measure theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/).
+
+Weierstrass' function is why "continuous" does not license "has a gradient" in
+any downstream argument. Every theorem about differentiable functions needs
+differentiability as a hypothesis, and this is the example that forces it.
+
+## Interleaving problems
+
+Mix these with material from [Sequences and
+Limits](/3-real-analysis/2_sequences-and-limits/), [Measure
+Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/) and
+[Probability Spaces](/8-probability-and-statistics/1_probability-spaces/).
+
+1. (Sequences.) Show $D(x)$ is discontinuous everywhere using the sequential
+   criterion, taking $x_n \to x$ rational and $y_n \to x$ irrational.
+2. (Sequences.) Show $t(x)$ is discontinuous at every rational $p/q$, by taking
+   a sequence of irrationals converging to $p/q$.
+3. (Measure theory.) Show Thomae's function is Riemann integrable on $[0,1]$
+   with integral zero, using the fact that its discontinuities have measure
+   zero.
+4. (Probability.) Let $X$ be uniform on $[0,1]$. Show
+   $P(\lim_{n}\mathbf{1}_{X_n \in \mathbb{Q}} = D(X)) = 0$ is false for any
+   sequence -- connecting Dirichlet's function to almost-sure convergence.
+5. (Differentiability.) Show that if $f$ is differentiable at $x_0$ then $f$ is
+   continuous at $x_0$, and explain why Weierstrass' function does not
+   contradict this.
 
 ### 4.9 Common Pitfalls
 
@@ -311,21 +419,10 @@ The following table summarizes the key counterexamples in the theory of continui
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[4_Continuity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Differentiability](/3-real-analysis/5_differentiability/)**: Differentiability implies continuity, but the converse is false; the relationship between these concepts is explored via the mean value theorem.
 - **[Riemann Integration](/3-real-analysis/6_riemann-integration/)**: Continuous functions on closed intervals are Riemann integrable, and the Heine-Cantor theorem guarantees uniform continuity on compact domains.
 - **[Sigma-Algebras and Measurable Spaces](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/)**: Continuity is defined in terms of open sets, which generate the Borel sigma-algebra used in measure theory.
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

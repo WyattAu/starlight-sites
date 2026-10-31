@@ -53,7 +53,7 @@ fields, and their unification through electromagnetic induction.
 
 ### Gravitational Fields
 
-- **Newton"s law of gravitation**, $F = \frac{GMm}{r^2}$; inverse square law
+- **Newton's law of gravitation**, $F = \frac{GMm}{r^2}$; inverse square law
 - **Gravitational field strength**, $g = \frac{GM}{r^2}$; radial fields around point masses;
   uniform fields near Earth's surface ($g \approx 9.81\,\text{N/kg}$)
 - **Gravitational potential**, $V_g = -\frac{GM}{r}$; potential energy $E_p = -\frac{GMm}{r}$; work
@@ -148,8 +148,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Physics content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -189,8 +187,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Intuition
 

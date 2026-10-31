@@ -42,17 +42,6 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 Linux powers the majority of the world's servers, cloud infrastructure, embedded systems, and supercomputers. Whether you are managing a home server, deploying applications to the cloud, or administering enterprise infrastructure, Linux administration is an essential skill for any systems professional.
@@ -121,6 +110,8 @@ Linux distributions package the Linux kernel with system libraries, package mana
 
 ### Choosing a Distribution
 
+<div class="table-wrap">
+
 | Use Case | Recommended Distribution |
 | ---------- | ------------------------ |
 | Enterprise servers | RHEL, AlmaLinux, Rocky Linux |
@@ -129,6 +120,8 @@ Linux distributions package the Linux kernel with system libraries, package mana
 | Learning Linux | Arch Linux, Gentoo |
 | Home servers | Ubuntu Server, Debian |
 | Security testing | Kali Linux, Parrot OS |
+
+</div>
 
 ---
 
@@ -191,12 +184,16 @@ chown -R user:group dir # Recursive ownership change
 
 **Permission meanings:**
 
+<div class="table-wrap">
+
 | Number | Permission | Symbol |
 | -------- | ------------ | -------- |
 | 4 | Read | r |
 | 2 | Write | w |
 | 1 | Execute | x |
 | 0 | None | --- |
+
+</div>
 
 ### Piping and Redirection
 
@@ -246,6 +243,8 @@ Understanding Linux file systems is essential for managing storage, permissions,
 
 ### File System Types
 
+<div class="table-wrap">
+
 | Type | Description | Use Case |
 | ------ | ------------- | ---------- |
 | ext4 | Default Linux file system | General purpose |
@@ -254,6 +253,8 @@ Understanding Linux file systems is essential for managing storage, permissions,
 | ZFS | Advanced; RAID, compression, snapshots | Storage servers |
 | tmpfs | RAM-based file system | /tmp, /run |
 | proc | Virtual file system | Process and kernel info |
+
+</div>
 
 ### Mounting
 
@@ -311,6 +312,8 @@ jobs                    # List background jobs
 
 ### Process States
 
+<div class="table-wrap">
+
 | State | Description |
 | ------- | ------------- |
 | R | Running or runnable |
@@ -318,6 +321,8 @@ jobs                    # List background jobs
 | D | Uninterruptible sleep (usually I/O) |
 | Z | Zombie (terminated but not reaped) |
 | T | Stopped (by signal) |
+
+</div>
 
 ### Resource Monitoring
 

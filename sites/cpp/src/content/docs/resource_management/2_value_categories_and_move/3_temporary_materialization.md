@@ -167,7 +167,7 @@ dtor
 1. The expression `T{args}` is a prvalue of type `T` [N4950 S7.3.4].
 2. A prvalue is not an object. It is an initializer [N4950 S7.3.4]/1.
 3. When a prvalue of type `T` appears as the operand of a `return` statement in a function with
-   return type `T`The prvalue initializes the result object directly [N4950 S8.4.4].
+   return type `T`. The prvalue initializes the result object directly [N4950 S8.4.4].
 4. Direct initialization of an object from a prvalue of the same type does not involve a copy or
    move constructor, the prvalue _is_ the initialization [N4950 S8.4.4]/1.
 5. Therefore, no copy or move constructor is invoked. QED.
@@ -200,9 +200,9 @@ int main() {
 
 ### Interaction with `decltype`
 
-In C++17, `decltype` applied to a prvalue yields the non-reference type `T`Not `T&&` [N4950
+In C++17, `decltype` applied to a prvalue yields the non-reference type `T`. Not `T&&` [N4950
 S10.1.1]. This is consistent with the prvalue-as-recipe model: since a prvalue is not an object but
-An initializer, there is no object to take a reference to.
+an initializer, there is no object to take a reference to.
 
 ```cpp
 #include <type_traits>
@@ -373,7 +373,7 @@ are correct, because NRVO may not apply.
 
 :::caution
 Returning a function parameter, or by certain compiler flags. Always write code that is correct even
-If NRVO fails, which means ensuring your move constructor is correct (or your copy constructor, as
+if NRVO fails, which means ensuring your move constructor is correct (or your copy constructor, as
 A fallback).
 :::
 
@@ -446,13 +446,13 @@ S7.3.5]. The full list:
 
 ## 5.5 Lifetime Extension Rules
 
-When a prvalue is bound to a `const T&` or a `T&&`The lifetime of the materialized temporary is
+When a prvalue is bound to a `const T&` or a `T&&`. The lifetime of the materialized temporary is
 Extended to match the lifetime of the reference [N4950 S11.4.7]. This is called **temporary lifetime
 Extension**.
 
 :::caution
 The prvalue is passed through an intermediate function or stored in a member, lifetime extension
-Does **not** propagate.
+does **not** propagate.
 :::
 
 ```cpp
@@ -508,14 +508,14 @@ Initialize another reference, the extension does not propagate. The rule is prec
 > object of a subobject to which the reference is bound persists for the lifetime of the reference
 > if the reference is bound to a temporary object.
 
-When a prvalue is passed to a function that takes a `const T&`The temporary is materialized for The
+When a prvalue is passed to a function that takes a `const T&`. The temporary is materialized for The
 function parameter, and the parameter's lifetime is the function body. When the function returns A
 reference to that parameter, the returned reference is dangling.
 
 ### Lifetime Extension with Aggregate Initialization
 
 When an aggregate is initialized from prvalues, the lifetime of those prvalues is extended if they
-Are bound to reference members. The prvalue `42` is directly bound to the reference member `r`
+are bound to reference members. The prvalue `42` is directly bound to the reference member `r`
 During aggregate initialization [N4950 S11.6.1]. The lifetime extension rule applies:
 
 ```cpp
@@ -663,7 +663,7 @@ int main() {
 
 Materialization can occur at any point within a complex expression where an identity is required.
 The order in which materialized temporaries in different sub-expressions are created and destroyed
-Is governed by the rules for evaluation order. In C++17, the order of evaluation of function
+is governed by the rules for evaluation order. In C++17, the order of evaluation of function
 Arguments is unspecified [N4950 S7.6.1.9], so materialized temporaries in different arguments may be
 Destroyed in any order.
 
@@ -818,10 +818,5 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

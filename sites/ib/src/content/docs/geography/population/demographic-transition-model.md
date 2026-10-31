@@ -21,10 +21,12 @@ description: "The demographic transition model (DTM) describes the shift from hi
 
 The demographic transition model (DTM) describes the shift from high birth rates and high death
 Rates to low birth rates and low death rates as a country develops economically. The model was
-Developed by Warren Thompson (1929) and Frank Notestein (1945), based on the historical experience
-Of Western Europe and North America.
+developed by Warren Thompson (1929) and Frank Notestein (1945), based on the historical experience
+of Western Europe and North America.
 
 ### The Five Stages
+
+<div class="table-wrap">
 
 | Stage | Birth Rate (per 1000) | Death Rate (per 1000)     | Natural Increase               | Population Growth      | Example Countries                                         |
 | ----- | --------------------- | ------------------------- | ------------------------------ | ---------------------- | --------------------------------------------------------- |
@@ -33,6 +35,8 @@ Of Western Europe and North America.
 | **3** | Falling (15--25)      | Low (8--12)               | Moderate and declining (5--15) | Slowing                | India, Brazil, Egypt, Mexico                              |
 | **4** | Low (8--12)           | Low (8--12)               | Low or stable (0--5)           | Slow or stable         | UK, France, USA, Australia                                |
 | **5** | Very low (6--9)       | Rising or stable (10--12) | Negative or near zero          | Declining or very slow | Japan, Germany, Italy, South Korea                        |
+
+</div>
 
 ### Mechanisms Driving Each Transition
 
@@ -49,10 +53,10 @@ improvements in public health that precede economic modernisation:
   infection and childbirth.
 
 Crucially, birth rates remain high during this transition because the social and economic conditions
-That sustain high fertility (value of children as agricultural labour, high infant mortality
+that sustain high fertility (value of children as agricultural labour, high infant mortality
 Requiring compensatory births, cultural norms favouring large families, limited access to
-Contraception) persist even as death rates fall. This gap between declining death rates and
-Persistently high birth rates produces rapid population growth.
+contraception) persist even as death rates fall. This gap between declining death rates and
+persistently high birth rates produces rapid population growth.
 
 **Stage 2 to Stage 3 (fertility decline).** Birth rates begin to decline as the social and economic
 Conditions sustaining high fertility erode:
@@ -73,7 +77,7 @@ Conditions sustaining high fertility erode:
 
 **Stage 4 to Stage 5 (sub-replacement fertility).** In some highly developed countries, fertility
 Falls below replacement level (approximately 2.1 children per woman), and the population ages and
-May begin to decline. Factors driving very low fertility include:
+may begin to decline. Factors driving very low fertility include:
 
 - **High cost of raising children:** housing costs, childcare, education, and extracurricular
   activities create a significant financial burden.
@@ -91,13 +95,13 @@ May begin to decline. Factors driving very low fertility include:
 ### Eurocentrism
 
 The DTM was developed from the historical experience of Western Europe and North America and assumes
-That all societies will follow the same path. This assumption is problematic because:
+that all societies will follow the same path. This assumption is problematic because:
 
 - The conditions that drove the European transition (industrialisation, urbanisation, the
   Enlightenment, the development of the welfare state) may not be replicated in other cultural and
   institutional contexts.
 - Some countries have achieved rapid fertility decline through mechanisms not anticipated by the
-  model. China"s one-child policy (1979--2015) produced a dramatic fertility reduction from a TFR of
+  model. China's one-child policy (1979--2015) produced a dramatic fertility reduction from a TFR of
   approximately 2.7 to 1.6 within a decade, driven by state coercion rather than the gradual
   socio-economic changes envisaged by the model.
 - Some countries (e.g., Iran under the Islamic Republic from 1989 to 2012) achieved rapid fertility
@@ -108,13 +112,13 @@ That all societies will follow the same path. This assumption is problematic bec
 
 The DTM considers only natural increase (births minus deaths) and does not account for migration,
 Which can significantly alter population size and composition. Germany's population would be
-Declining more rapidly without immigration; the USA's population growth is substantially driven by
-Immigration.
+declining more rapidly without immigration; the USA's population growth is substantially driven by
+immigration.
 
 ### Assumes Linear Progression
 
 The model implies a unidirectional, sequential progression through stages. In reality, transitions
-Can be non-linear:
+can be non-linear:
 
 - **HIV/AIDS:** the HIV/AIDS epidemic in southern Africa caused mortality spikes in the 1990s and
   2000s, reversing the mortality transition in countries such as Botswana, Zimbabwe, and South
@@ -132,7 +136,7 @@ Can be non-linear:
 Not all demographers accept the existence of a Stage 5 characterised by sustained below-replacement
 Fertility and population decline. Some argue that the current very low fertility in Japan, Germany,
 And Italy is a temporary phenomenon caused by the postponement of childbearing during periods of
-Economic uncertainty, and that fertility will eventually return toward replacement level. Others
+economic uncertainty, and that fertility will eventually return toward replacement level. Others
 Argue that below-replacement fertility may be a permanent feature of highly developed
 Post-industrial societies, in which case population decline is inevitable without substantial
 Immigration.
@@ -141,11 +145,11 @@ Immigration.
 <summary>Common Pitfalls: Assuming the DTM Predicts the Future</summary>
 
 The DTM is a descriptive model based on past experience, not a predictive law. It describes a
-Pattern that has been observed in many (but not all) countries. Using the DTM to predict when a
-Specific country will reach a particular stage is inappropriate because the speed and path of the
-Transition depend on country-specific factors (policy, culture, governance, economic structure).
+pattern that has been observed in many (but not all) countries. Using the DTM to predict when a
+specific country will reach a particular stage is inappropriate because the speed and path of the
+transition depend on country-specific factors (policy, culture, governance, economic structure).
 Always frame the DTM as an explanatory framework, not a forecasting tool, and evaluate its
-Applicability to each case study on its own terms.
+applicability to each case study on its own terms.
 
 </details>
 
@@ -161,12 +165,12 @@ Years.
 
 **Stationary pyramids** (roughly rectangular) are characteristic of Stage 4 populations with low
 Birth rates and low death rates. Age cohorts are approximately equal in size from birth to
-Approximately age 60, with tapering above that due to old-age mortality. Australia (2023)
+approximately age 60, with tapering above that due to old-age mortality. Australia (2023)
 Approximates this pattern, with a median age of approximately 38 years.
 
 **Constrictive pyramids** (narrow base, bulge in middle and upper age groups) are characteristic of
 Stage 5 populations with very low birth rates and ageing populations. Japan (2023) exemplifies this:
-The median age is 49 years, and approximately 29% of the population is aged 65 or over.
+the median age is 49 years, and approximately 29% of the population is aged 65 or over.
 
 ### Constructing and Interpreting Pyramids
 
@@ -176,7 +180,9 @@ Numbers or percentages of the total population.
 
 **Dependency ratios.** The total dependency ratio is:
 
-$$\mathrm{TDR} = \frac{P_{0\mathrm{--}14} + P_{65+}}{P_{15\mathrm{--}64}} \times 100$$
+$$
+\mathrm{TDR} = \frac{P_{0\mathrm{--}14} + P_{65+}}{P_{15\mathrm{--}64}} \times 100
+$$
 
 Where $P_{0\mathrm{--}14}$ is the population aged 0--14, $P_{65+}$ is the population aged 65 and
 over, And $P_{15\mathrm{--}64}$ is the working-age population. The youth dependency ratio uses only
@@ -193,9 +199,9 @@ $P_{0\mathrm{--}14}$ in the numerator; the elderly dependency ratio uses only $P
 ### Definition
 
 The demographic dividend (or demographic bonus) is the accelerated economic growth that can result
-From a favourable age structure, specifically when the working-age population (15--64) grows faster
-Than the dependent population (0--14 and 65+), producing a low total dependency ratio. During this
-Window, a larger proportion of the population is available for productive employment, potentially
+from a favourable age structure, specifically when the working-age population (15--64) grows faster
+than the dependent population (0--14 and 65+), producing a low total dependency ratio. During this
+window, a larger proportion of the population is available for productive employment, potentially
 Driving higher per capita income growth.
 
 ### Mechanism
@@ -212,7 +218,7 @@ The demographic dividend operates through several channels:
 ### Conditions for Realising the Dividend
 
 The demographic dividend is not automatic. It is realised only if the growing working-age population
-Is productively employed, which requires:
+is productively employed, which requires:
 
 - **Investment in education and skills:** to ensure the workforce has the human capital demanded by
   a modernising economy.
@@ -227,22 +233,22 @@ Is productively employed, which requires:
 
 East Asia experienced the most dramatic demographic dividend in modern history. Between 1965 and
 1990, the working-age population in East Asia grew by approximately 2--3% per year while the
-Dependent population grew more slowly, producing a decline in the dependency ratio from
-Approximately 80% to approximately 55%. David Bloom and David Canning (2004) estimated that the
-Demographic dividend accounted for approximately one-third of the "East Asian economic miracle" --
+dependent population grew more slowly, producing a decline in the dependency ratio from
+approximately 80% to approximately 55%. David Bloom and David Canning (2004) estimated that the
+demographic dividend accounted for approximately one-third of the "East Asian economic miracle" --
 The rapid economic growth achieved by South Korea, Taiwan, Singapore, Hong Kong, and later China.
 
 South Korea's experience illustrates the mechanism. Its TFR fell from 6.0 (1960) to 2.1 (1983) --
-One of the fastest fertility declines in history -- driven by strong government family planning
+one of the fastest fertility declines in history -- driven by strong government family planning
 Programmes, rapid female education (female secondary enrolment reached 95% by 1990), and
-Industrialisation creating non-agricultural employment. The dependency ratio fell from approximately
+industrialisation creating non-agricultural employment. The dependency ratio fell from approximately
 85% (1965) to approximately 40% (2010), and GDP per capita grew from approximately USD 100 (1960) to
-Over USD 30 000 (2023).
+over USD 30 000 (2023).
 
 **The dividend closes.** South Korea's TFR has since fallen to 0.72 (2023), the lowest in the world,
 And its population is ageing rapidly. The demographic dividend has given way to a demographic
 Burden, as the elderly dependency ratio rises and the working-age population shrinks. This
-Illustrates that the demographic dividend is a time-limited window, not a permanent condition.
+illustrates that the demographic dividend is a time-limited window, not a permanent condition.
 
 For related topics, see [./migration-theories-and-patterns](/geography/population/migration-theories-and-patterns/) and
 [./population-policies](/geography/population/population-policies/). The parent topic page is at
@@ -266,24 +272,7 @@ The demographic transition is a society's journey from high birth and death rate
 4. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.
 
-
-```mermaid
-flowchart TD
-    A[Demographic Transition Model] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

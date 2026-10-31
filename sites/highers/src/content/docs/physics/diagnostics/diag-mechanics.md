@@ -51,7 +51,9 @@ time.
 
 Using $s = ut + \frac{1}{2}at^2$:
 
-$$s = 0 + \frac{1}{2}(2.5)(64) = 80\,\text{m}$$
+$$
+s = 0 + \frac{1}{2}(2.5)(64) = 80\,\text{m}
+$$
 
 The car travels $80\,\text{m}$.
 
@@ -60,7 +62,9 @@ The car travels $80\,\text{m}$.
 (i) At maximum height, $v = 0$:
 
 $$v^2 = u^2 + 2as$$ $$0 = 15^2 + 2(-9.8)s$$
-$$s = \frac{225}{19.6} = 11.48\,\text{m} \approx 11.5\,\text{m}$$
+$$
+s = \frac{225}{19.6} = 11.48\,\text{m} \approx 11.5\,\text{m}
+$$
 
 (ii) Using $v = u + at$:
 
@@ -90,7 +94,7 @@ affect each other.
 }
 </script>
 
-### UT-2: Forces and Newton"s Laws
+### UT-2: Forces and Newton's Laws
 
 **Question:**
 
@@ -202,7 +206,9 @@ The braking force is $6000\,\text{N}$.
 
 (d) Power $= \frac{\text{work done}}{\text{time}} = \frac{mgh}{t} = mgv$ (since $h/t = v$).
 
-$$P = 200 \times 9.8 \times 0.5 = 980\,\text{W}$$
+$$
+P = 200 \times 9.8 \times 0.5 = 980\,\text{W}
+$$
 
 The power output of the motor is $980\,\text{W}$.
 
@@ -276,9 +282,13 @@ slide**.
 
 Acceleration down the slope:
 
-$$F_{\text{resultant}} = mg\sin(30^\circ) - F_{\text{friction}} = 39.2 - 27.16 = 12.04\,\text{N}$$
+$$
+F_{\text{resultant}} = mg\sin(30^\circ) - F_{\text{friction}} = 39.2 - 27.16 = 12.04\,\text{N}
+$$
 
-$$a = \frac{F_{\text{resultant}}}{m} = \frac{12.04}{8} = 1.51\,\text{m s}^{-2}$$
+$$
+a = \frac{F_{\text{resultant}}}{m} = \frac{12.04}{8} = 1.51\,\text{m s}^{-2}
+$$
 
 (d) The approximation of zero air resistance is valid for objects that are: compact (low surface
 area to mass ratio), moving at low speeds, falling through short distances, or in contexts where air
@@ -321,7 +331,9 @@ undergoing simple harmonic motion at the lowest point of their jump.
 (a) Using conservation of energy: $E_p = E_k$ at the lowest point.
 
 $$mgh = \frac{1}{2}mv^2$$ $$9.8 \times 0.3 = \frac{1}{2}v^2$$ $$v^2 = 5.88$$
-$$v = 2.42\,\text{m s}^{-1}$$
+$$
+v = 2.42\,\text{m s}^{-1}
+$$
 
 (b)
 
@@ -344,7 +356,9 @@ Acceleration: $a = \frac{F_{\text{net}}}{m} = \frac{245.0}{75} = 3.27\,\text{m s
 
 Using $v^2 = u^2 + 2as$: $v^2 = 0 + 2(3.27)(200) = 1308$.
 
-$$v = \sqrt{1308} = 36.2\,\text{m s}^{-1}$$
+$$
+v = \sqrt{1308} = 36.2\,\text{m s}^{-1}
+$$
 
 (d) The **principle of conservation of energy** states that energy cannot be created or destroyed,
 only transferred from one form to another. The total energy of a closed system remains constant. For
@@ -363,27 +377,9 @@ friction in the cord reduce the total mechanical energy, producing heat.
 
 **The key insight:** Newton's second law ($F = ma$) is deceptively simple, applying it correctly requires identifying all forces acting on an object and choosing the right coordinate system.
 
-
-```mermaid
-flowchart TD
-    A[Diag Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

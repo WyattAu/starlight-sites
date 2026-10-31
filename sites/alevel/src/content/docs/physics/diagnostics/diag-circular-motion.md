@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Circular Motion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Physics describes the fundamental rules of the universe, from the tiniest particles to the vastness of space.**
@@ -45,7 +34,7 @@ $0.40\,\text{m}$. The bead is projected from the lowest point with speed $u$.
 
 (b) Calculate the minimum value of $u$ for the bead to reach the highest point of the circle.
 
-(c) For $u = 6.0\,\text{m}\,\text{s}^{-1}$Calculate the normal reaction from the wire at the highest
+(c) For $u = 6.0\,\text{m}\,\text{s}^{-1}$ Calculate the normal reaction from the wire at the highest
 point and at the lowest point.
 
 Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
@@ -55,28 +44,40 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 (a) At the highest point, the forces on the bead are: weight $mg$ downward and normal reaction $R$
 from the wire (also downward, toward the centre). The centripetal force is provided by both:
 
-$$R + mg = \frac{mv_{\text{top}}^2}{r}$$
+$$
+R + mg = \frac{mv_{\text{top}}^2}{r}
+$$
 
 For the bead to remain in contact with the wire, $R \ge 0$:
 
-$$\frac{mv_{\text{top}}^2}{r} \ge mg \Rightarrow v_{\text{top}}^2 \ge gr \Rightarrow v_{\text{top}} \ge \sqrt{gr}$$
+$$
+\frac{mv_{\text{top}}^2}{r} \ge mg \Rightarrow v_{\text{top}}^2 \ge gr \Rightarrow v_{\text{top}} \ge \sqrt{gr}
+$$
 
 Using energy conservation from the lowest to the highest point (height difference $= 2r$):
 
-$$\frac{1}{2}mu^2 = \frac{1}{2}mv_{\text{top}}^2 + mg(2r)$$
+$$
+\frac{1}{2}mu^2 = \frac{1}{2}mv_{\text{top}}^2 + mg(2r)
+$$
 $$u^2 = v_{\text{top}}^2 + 4gr \ge gr + 4gr = 5gr$$ $$u \ge \sqrt{5gr}$$
 
 (b)
 $u_{\min} = \sqrt{5gr} = \sqrt{5 \times 9.81 \times 0.40} = \sqrt{19.62} = 4.43\,\text{m}\,\text{s}^{-1}$
 
-(c) With $u = 6.0\,\text{m}\,\text{s}^{-1}$Using energy conservation:
+(c) With $u = 6.0\,\text{m}\,\text{s}^{-1}$ Using energy conservation:
 
 At the top:
 $\frac{1}{2}(0.050)(36) = \frac{1}{2}(0.050)v_{\text{top}}^2 + 0.050 \times 9.81 \times 0.80$
 
-$$0.90 = 0.025v_{\text{top}}^2 + 0.3924$$
-$$v_{\text{top}}^2 = \frac{0.90 - 0.3924}{0.025} = \frac{0.5076}{0.025} = 20.30$$
-$$v_{\text{top}} = 4.51\,\text{m}\,\text{s}^{-1}$$
+$$
+0.90 = 0.025v_{\text{top}}^2 + 0.3924
+$$
+$$
+v_{\text{top}}^2 = \frac{0.90 - 0.3924}{0.025} = \frac{0.5076}{0.025} = 20.30
+$$
+$$
+v_{\text{top}} = 4.51\,\text{m}\,\text{s}^{-1}
+$$
 
 Normal reaction at the top:
 $R_{\text{top}} = \frac{mv_{\text{top}}^2}{r} - mg = \frac{0.050 \times 20.30}{0.40} - 0.050 \times 9.81 = 2.538 - 0.491 = 2.05\,\text{N}$
@@ -85,7 +86,9 @@ At the bottom: using energy conservation (speed at bottom is $u = 6.0\,\text{m}\
 
 $R_{\text{bottom}} - mg = \frac{mu^2}{r}$
 
-$$R_{\text{bottom}} = \frac{0.050 \times 36}{0.40} + 0.050 \times 9.81 = 4.50 + 0.491 = 4.99\,\text{N}$$
+$$
+R_{\text{bottom}} = \frac{0.050 \times 36}{0.40} + 0.050 \times 9.81 = 4.50 + 0.491 = 4.99\,\text{N}
+$$
 
 Note: The normal reaction is directed toward the centre at all points. At the top, both weight and
 reaction push toward the centre. At the bottom, reaction pushes toward the centre (upward) while
@@ -110,9 +113,9 @@ A particle of mass $0.50\,\text{kg}$ is attached to one end of a light inextensi
 $1.0\,\text{m}$. The other end is fixed. The particle moves in a horizontal circle of radius $r$
 with the string making a constant angle $\theta$ with the vertical.
 
-(a) Show that $\cos\theta = g/\omega^2 l$Where $\omega$ is the angular velocity.
+(a) Show that $\cos\theta = g/\omega^2 l$ Where $\omega$ is the angular velocity.
 
-(b) If the period of rotation is $1.2\,\text{s}$Calculate the angle $\theta$ and the tension in the
+(b) If the period of rotation is $1.2\,\text{s}$ Calculate the angle $\theta$ and the tension in the
 string.
 
 (c) Calculate the speed of the particle.
@@ -127,16 +130,24 @@ Resolving horizontally (centripetal direction): $T\sin\theta = m\omega^2 r$
 
 Since $r = l\sin\theta$:
 
-$$T\sin\theta = m\omega^2 l\sin\theta \Rightarrow T = m\omega^2 l$$
+$$
+T\sin\theta = m\omega^2 l\sin\theta \Rightarrow T = m\omega^2 l
+$$
 
 Substituting into the vertical equation:
 
-$$m\omega^2 l\cos\theta = mg \Rightarrow \cos\theta = \frac{g}{\omega^2 l}$$
+$$
+m\omega^2 l\cos\theta = mg \Rightarrow \cos\theta = \frac{g}{\omega^2 l}
+$$
 
 (b) Period $T_p = 1.2\,\text{s}$ So $\omega = 2\pi/T_p = 2\pi/1.2 = 5.236\,\text{rad}\,\text{s}^{-1}$
 
-$$\cos\theta = \frac{9.81}{(5.236)^2 \times 1.0} = \frac{9.81}{27.42} = 0.3577$$
-$$\theta = \cos^{-1}(0.3577) = 69.0^\circ$$
+$$
+\cos\theta = \frac{9.81}{(5.236)^2 \times 1.0} = \frac{9.81}{27.42} = 0.3577
+$$
+$$
+\theta = \cos^{-1}(0.3577) = 69.0^\circ
+$$
 
 Tension: $T = m\omega^2 l = 0.50 \times 27.42 \times 1.0 = 13.7\,\text{N}$
 
@@ -167,7 +178,7 @@ horizontal. A car of mass $1200\,\text{kg}$ travels around the track.
 (a) Calculate the speed at which the car can travel around the track with no tendency to slip,
 assuming no friction.
 
-(b) If the coefficient of friction between the tyres and track is $\mu = 0.40$Calculate the maximum
+(b) If the coefficient of friction between the tyres and track is $\mu = 0.40$ Calculate the maximum
 safe speed.
 
 (c) Calculate the minimum safe speed (below which the car would tend to slide down the bank).
@@ -184,7 +195,9 @@ Resolving horizontally: $R\sin\theta = \frac{mv^2}{r}$
 
 Dividing: $\tan\theta = v^2/(rg)$
 
-$$v = \sqrt{rg\tan\theta} = \sqrt{80 \times 9.81 \times \tan 15^\circ} = \sqrt{80 \times 9.81 \times 0.2679} = \sqrt{210.2} = 14.50\,\text{m}\,\text{s}^{-1}$$
+$$
+v = \sqrt{rg\tan\theta} = \sqrt{80 \times 9.81 \times \tan 15^\circ} = \sqrt{80 \times 9.81 \times 0.2679} = \sqrt{210.2} = 14.50\,\text{m}\,\text{s}^{-1}
+$$
 
 (b) At maximum speed, friction acts **down** the slope to prevent the car from sliding outward.
 
@@ -194,25 +207,41 @@ Resolving horizontally: $R\sin\theta + F\cos\theta = \frac{mv_{\max}^2}{r}$
 
 Where $F = \mu R$:
 
-$$R\cos\theta - \mu R\sin\theta = mg \Rightarrow R = \frac{mg}{\cos\theta - \mu\sin\theta}$$
+$$
+R\cos\theta - \mu R\sin\theta = mg \Rightarrow R = \frac{mg}{\cos\theta - \mu\sin\theta}
+$$
 
-$$R\sin\theta + \mu R\cos\theta = \frac{mv_{\max}^2}{r} \Rightarrow v_{\max}^2 = \frac{rR(\sin\theta + \mu\cos\theta)}{m}$$
+$$
+R\sin\theta + \mu R\cos\theta = \frac{mv_{\max}^2}{r} \Rightarrow v_{\max}^2 = \frac{rR(\sin\theta + \mu\cos\theta)}{m}
+$$
 
 Substituting $R$:
 
-$$v_{\max}^2 = \frac{rg(\sin\theta + \mu\cos\theta)}{\cos\theta - \mu\sin\theta}$$
+$$
+v_{\max}^2 = \frac{rg(\sin\theta + \mu\cos\theta)}{\cos\theta - \mu\sin\theta}
+$$
 
-$$= \frac{80 \times 9.81(\sin 15^\circ + 0.40\cos 15^\circ)}{\cos 15^\circ - 0.40\sin 15^\circ}$$
+$$
+= \frac{80 \times 9.81(\sin 15^\circ + 0.40\cos 15^\circ)}{\cos 15^\circ - 0.40\sin 15^\circ}
+$$
 
-$$= \frac{784.8(0.2588 + 0.3864)}{0.9659 - 0.1035} = \frac{784.8 \times 0.6452}{0.8624} = \frac{506.4}{0.8624} = 587.2$$
+$$
+= \frac{784.8(0.2588 + 0.3864)}{0.9659 - 0.1035} = \frac{784.8 \times 0.6452}{0.8624} = \frac{506.4}{0.8624} = 587.2
+$$
 
-$$v_{\max} = \sqrt{587.2} = 24.2\,\text{m}\,\text{s}^{-1}$$
+$$
+v_{\max} = \sqrt{587.2} = 24.2\,\text{m}\,\text{s}^{-1}
+$$
 
 (c) At minimum speed, friction acts **up** the slope to prevent the car from sliding inward.
 
-$$v_{\min}^2 = \frac{rg(\sin\theta - \mu\cos\theta)}{\cos\theta + \mu\sin\theta}$$
+$$
+v_{\min}^2 = \frac{rg(\sin\theta - \mu\cos\theta)}{\cos\theta + \mu\sin\theta}
+$$
 
-$$= \frac{80 \times 9.81(0.2588 - 0.3864)}{0.9659 + 0.1035} = \frac{784.8 \times (-0.1276)}{1.0694} = \frac{-100.1}{1.0694} = -93.6$$
+$$
+= \frac{80 \times 9.81(0.2588 - 0.3864)}{0.9659 + 0.1035} = \frac{784.8 \times (-0.1276)}{1.0694} = \frac{-100.1}{1.0694} = -93.6
+$$
 
 Since $v_{\min}^2$ is negative, the car will not slide down the bank at any speed. The minimum safe
 speed is effectively zero.
@@ -237,7 +266,7 @@ $8.5 \times 10^6\,\text{m}$.
 (b) Calculate the total energy of the satellite and verify it is conserved between perigee and
 apogee.
 
-(c) Calculate the speed the satellite would need at perigee to escape from Earth"s gravitational
+(c) Calculate the speed the satellite would need at perigee to escape from Earth's gravitational
 field.
 
 Take
@@ -247,27 +276,45 @@ $G = 6.67 \times 10^{-11}\,\text{N}\,\text{m}^2\,\text{kg}^{-2}$, $M_E = 5.97 \t
 
 (a) Conservation of angular momentum: $mv_pr_p = mv_ar_a$
 
-$$v_a = v_p \times \frac{r_p}{r_a} = 7800 \times \frac{6.8 \times 10^6}{8.5 \times 10^6} = 7800 \times 0.800 = 6240\,\text{m}\,\text{s}^{-1}$$
+$$
+v_a = v_p \times \frac{r_p}{r_a} = 7800 \times \frac{6.8 \times 10^6}{8.5 \times 10^6} = 7800 \times 0.800 = 6240\,\text{m}\,\text{s}^{-1}
+$$
 
 (b) At perigee:
 
-$$E_p = \frac{1}{2}mv_p^2 - \frac{GMm}{r_p} = \frac{1}{2}(200)(7800)^2 - \frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 200}{6.8 \times 10^6}$$
-$$= 100 \times 60840000 - \frac{7.963 \times 10^{16}}{6.8 \times 10^6}$$
-$$= 6.084 \times 10^9 - 1.171 \times 10^{10} = -5.626 \times 10^9\,\text{J}$$
+$$
+E_p = \frac{1}{2}mv_p^2 - \frac{GMm}{r_p} = \frac{1}{2}(200)(7800)^2 - \frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 200}{6.8 \times 10^6}
+$$
+$$
+= 100 \times 60840000 - \frac{7.963 \times 10^{16}}{6.8 \times 10^6}
+$$
+$$
+= 6.084 \times 10^9 - 1.171 \times 10^{10} = -5.626 \times 10^9\,\text{J}
+$$
 
 At apogee:
 
-$$E_a = \frac{1}{2}(200)(6240)^2 - \frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 200}{8.5 \times 10^6}$$
-$$= 100 \times 38937600 - \frac{7.963 \times 10^{16}}{8.5 \times 10^6}$$
-$$= 3.894 \times 10^9 - 9.368 \times 10^9 = -5.474 \times 10^9\,\text{J}$$
+$$
+E_a = \frac{1}{2}(200)(6240)^2 - \frac{6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 200}{8.5 \times 10^6}
+$$
+$$
+= 100 \times 38937600 - \frac{7.963 \times 10^{16}}{8.5 \times 10^6}
+$$
+$$
+= 3.894 \times 10^9 - 9.368 \times 10^9 = -5.474 \times 10^9\,\text{J}
+$$
 
 The slight difference arises from rounding. Using more precise values would show exact conservation.
 Both values are approximately $-5.55 \times 10^9\,\text{J}$.
 
 (c) For escape, total energy $= 0$:
 
-$$\frac{1}{2}mv_{\text{esc}}^2 - \frac{GMm}{r_p} = 0$$
-$$v_{\text{esc}} = \sqrt{\frac{2GM}{r_p}} = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.8 \times 10^6}} = \sqrt{\frac{7.963 \times 10^{14}}{6.8 \times 10^6}} = \sqrt{1.171 \times 10^8} = 10820\,\text{m}\,\text{s}^{-1}$$
+$$
+\frac{1}{2}mv_{\text{esc}}^2 - \frac{GMm}{r_p} = 0
+$$
+$$
+v_{\text{esc}} = \sqrt{\frac{2GM}{r_p}} = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.8 \times 10^6}} = \sqrt{\frac{7.963 \times 10^{14}}{6.8 \times 10^6}} = \sqrt{1.171 \times 10^8} = 10820\,\text{m}\,\text{s}^{-1}
+$$
 
 Alternatively,
 $v_{\text{esc}} = \sqrt{2} \times v_{\text{circular}} = \sqrt{2} \times \sqrt{GM/r_p}$.
@@ -298,7 +345,7 @@ tyres and the wall is $\mu_s = 0.80$.
 
 (b) At this minimum speed, calculate the normal reaction force from the wall.
 
-(c) If the motorcyclist increases speed by $20\%$Calculate the new normal reaction and explain
+(c) If the motorcyclist increases speed by $20\%$ Calculate the new normal reaction and explain
 whether friction still prevents sliding.
 
 Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
@@ -307,12 +354,16 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
 (a) The centripetal force is provided by the normal reaction from the wall:
 
-$$R = \frac{mv^2}{r}$$
+$$
+R = \frac{mv^2}{r}
+$$
 
 Friction balances weight (at the minimum speed, friction is at its maximum):
 
 $$F = \mu_s R = mg$$ $$\mu_s \frac{mv^2}{r} = mg$$
-$$v_{\min} = \sqrt{\frac{rg}{\mu_s}} = \sqrt{\frac{8.0 \times 9.81}{0.80}} = \sqrt{98.1} = 9.90\,\text{m}\,\text{s}^{-1}$$
+$$
+v_{\min} = \sqrt{\frac{rg}{\mu_s}} = \sqrt{\frac{8.0 \times 9.81}{0.80}} = \sqrt{98.1} = 9.90\,\text{m}\,\text{s}^{-1}
+$$
 
 (b)
 $R = \frac{mv_{\min}^2}{r} = \frac{250 \times 98.1}{8.0} = 3066\,\text{N}$
@@ -354,7 +405,7 @@ friction). The turntable rotates with angular velocity $\omega$.
 (a) Calculate the equilibrium radius of the block (where the spring force provides the centripetal
 force) as a function of $\omega$.
 
-(b) If the turntable rotates at $\omega = 15\,\text{rad}\,\text{s}^{-1}$Calculate the extension of
+(b) If the turntable rotates at $\omega = 15\,\text{rad}\,\text{s}^{-1}$ Calculate the extension of
 the spring and the tension in it.
 
 (c) The block is displaced radially outward by $0.02\,\text{m}$ from its equilibrium position and
@@ -363,42 +414,54 @@ equilibrium position.
 
 **Solution:**
 
-(a) At equilibrium radius $r_0$The spring extension is $(r_0 - l_0)$ where $l_0 = 0.10\,\text{m}$:
+(a) At equilibrium radius $r_0$ The spring extension is $(r_0 - l_0)$ where $l_0 = 0.10\,\text{m}$:
 
 $$k(r_0 - l_0) = m\omega^2 r_0$$ $$kr_0 - kl_0 = m\omega^2 r_0$$ $$r_0(k - m\omega^2) = kl_0$$
-$$r_0 = \frac{kl_0}{k - m\omega^2}$$
+$$
+r_0 = \frac{kl_0}{k - m\omega^2}
+$$
 
 This is valid only when $k \gt m\omega^2$ (otherwise the spring cannot provide enough centripetal
 force and the block flies off).
 
 (b) With $\omega = 15\,\text{rad}\,\text{s}^{-1}$:
 
-$$r_0 = \frac{50 \times 0.10}{50 - 0.30 \times 225} = \frac{5.0}{50 - 67.5} = \frac{5.0}{-17.5} = -0.286\,\text{m}$$
+$$
+r_0 = \frac{50 \times 0.10}{50 - 0.30 \times 225} = \frac{5.0}{50 - 67.5} = \frac{5.0}{-17.5} = -0.286\,\text{m}
+$$
 
 Since $r_0$ is negative, this means $k \lt m\omega^2$ So the spring cannot provide sufficient
 centripetal force and the block slides outward. The critical angular velocity is:
 
-$$\omega_c = \sqrt{\frac{k}{m}} = \sqrt{\frac{50}{0.30}} = 12.9\,\text{rad}\,\text{s}^{-1}$$
+$$
+\omega_c = \sqrt{\frac{k}{m}} = \sqrt{\frac{50}{0.30}} = 12.9\,\text{rad}\,\text{s}^{-1}
+$$
 
-At $\omega = 15\,\text{rad}\,\text{s}^{-1} \gt \omega_c$The block cannot maintain a stable circular
+At $\omega = 15\,\text{rad}\,\text{s}^{-1} \gt \omega_c$ The block cannot maintain a stable circular
 orbit. It will spiral outward.
 
-(c) For $\omega \lt \omega_c$The restoring force for a small radial displacement $\delta$ from $r_0$
+(c) For $\omega \lt \omega_c$ The restoring force for a small radial displacement $\delta$ from $r_0$
 is:
 
-$$F_{\text{restore}} = -k\delta + m\omega^2\delta = -(k - m\omega^2)\delta$$
+$$
+F_{\text{restore}} = -k\delta + m\omega^2\delta = -(k - m\omega^2)\delta
+$$
 
 This is SHM with effective spring constant $k_{\text{eff}} = k - m\omega^2$.
 
 Period of radial oscillations:
 
-$$T = 2\pi\sqrt{\frac{m}{k_{\text{eff}}}} = 2\pi\sqrt{\frac{m}{k - m\omega^2}}$$
+$$
+T = 2\pi\sqrt{\frac{m}{k_{\text{eff}}}} = 2\pi\sqrt{\frac{m}{k - m\omega^2}}
+$$
 
 For $\omega = 10\,\text{rad}\,\text{s}^{-1}$ (below critical):
 
-$$T = 2\pi\sqrt{\frac{0.30}{50 - 0.30 \times 100}} = 2\pi\sqrt{\frac{0.30}{20}} = 2\pi\sqrt{0.015} = 2\pi \times 0.1225 = 0.770\,\text{s}$$
+$$
+T = 2\pi\sqrt{\frac{0.30}{50 - 0.30 \times 100}} = 2\pi\sqrt{\frac{0.30}{20}} = 2\pi\sqrt{0.015} = 2\pi \times 0.1225 = 0.770\,\text{s}
+$$
 
-Note: as $\omega$ approaches $\omega_c$The period diverges (the oscillation becomes infinitely
+Note: as $\omega$ approaches $\omega_c$ The period diverges (the oscillation becomes infinitely
 slow), indicating the onset of instability.
 
 ## Common Mistakes

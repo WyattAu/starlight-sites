@@ -63,13 +63,13 @@ element.
 :::caution
 $n_p \equiv 1 \pmod{p}$ AND $n_p$ divides $m$ (where $|G| = p^n m$). Both conditions must be checked
 simultaneously. For example, if $|G| = 12 = 2^2 \cdot 3$ Then $n_3 \equiv 1 \pmod{3}$ and $n_3$
-divides $4$ Giving $n_3 = 1$ or $4$ (not $7$Even though $7 \equiv 1 \pmod{3}$).
+divides $4$ Giving $n_3 = 1$ or $4$ (not $7$ Even though $7 \equiv 1 \pmod{3}$).
 :::
 
 :::caution
 simultaneously. In particular, $p^2$ Must NOT divide the constant term $a_0$. If $p^2$ divides
-$a_0$Eisenstein does not apply. In such cases, try the substitution $x \mapsto x + c$ for various
-constants $c$Or use Reduction modulo a prime.
+$a_0$ Eisenstein does not apply. In such cases, try the substitution $x \mapsto x + c$ for various
+constants $c$ Or use Reduction modulo a prime.
 :::
 
 :::caution
@@ -79,7 +79,7 @@ conversely.
 :::
 
 :::caution
-Galois. For a non-Galois Extension $E/F$The correspondence between intermediate fields and subgroups
+Galois. For a non-Galois Extension $E/F$ The correspondence between intermediate fields and subgroups
 of $\mathrm{Gal}(E/F)$ is not a bijection, and indices may not match. Always verify the Galois
 Condition before applying the theorem.
 :::
@@ -150,16 +150,6 @@ order of $1$ in the additive group is $n$, while in the multiplicative group of 
 the order of $1$ is $1$ (since $1$ is the identity).
 :::
 
-```mermaid
-flowchart TD
-    A[17_Common Pitfalls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The pitfalls in abstract algebra arise from treating algebraic structures as if they were sets with extra labels rather than as systems governed by axioms. Normality is not automatic, quotients collapse information irreversibly, and irreducibility depends on the coefficient field. The deepest error is forgetting that structure is relational: a subgroup is normal only relative to the ambient group, a polynomial is irreducible only over a specific field, and a ring map need not preserve multiplicative identity. Every counterexample here is a lesson in checking that the hypotheses match the theorem.
@@ -170,7 +160,7 @@ The pitfalls in abstract algebra arise from treating algebraic structures as if 
 - [Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/) -- Assuming the converse of Lagrange's theorem and confusing index with order are common group-theory mistakes.
 - [The Sylow Theorems](/1-abstract-algebra/7_the-sylow-theorems/) -- Miscounting Sylow subgroups and forgetting the congruence conditions are pitfalls that arise from incomplete application of Sylow theory.
 - [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/) -- Confusing irreducibles with primes and assuming every PID is Euclidean are ring-theory errors covered in this chapter.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

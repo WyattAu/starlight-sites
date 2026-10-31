@@ -23,11 +23,11 @@ categories:
 ## Alkenes
 
 Alkenes are unsaturated hydrocarbons containing at least one C=C double bond. The general formula
-For acyclic alkenes with one double bond is $\mathrm{C}_n\mathrm{H}_{2n}$. The C=C bond consists of
-One $\sigma$ bond (formed by $sp^2$--$sp^2$ head-on overlap) and one $\pi$ bond (formed by sideways
+for acyclic alkenes with one double bond is $\mathrm{C}_n\mathrm{H}_{2n}$. The C=C bond consists of
+one $\sigma$ bond (formed by $sp^2$--$sp^2$ head-on overlap) and one $\pi$ bond (formed by sideways
 Overlap of unhybridised $p$ orbitals). The $\pi$ bond is weaker than the $\sigma$ bond
 ($\approx 268\,\mathrm{kJ/mol}$ vs $\approx 347\,\mathrm{kJ/mol}$ for a C--C $\sigma$ bond) and is
-The primary site of reactivity.
+the primary site of reactivity.
 
 ## Structure and Properties
 
@@ -37,19 +37,19 @@ $120^\circ$. The C=C bond length ($134\,\mathrm{pm}$) is shorter than the C--C s
 
 The $\pi$ bond restricts rotation about the C=C axis, which has two critical consequences: E/Z
 Isomerism (discussed in the [introduction](/chemistry/organic-chemistry/)) and the existence of a
-Substantial barrier to rotation ($\approx 270\,\mathrm{kJ/mol}$ for ethene).
+substantial barrier to rotation ($\approx 270\,\mathrm{kJ/mol}$ for ethene).
 
 ### Physical Properties
 
 Alkenes are non-polar, insoluble in water, and have boiling points slightly lower than the
-Corresponding alkanes (the $\pi$ electrons do not significantly enhance London forces). Boiling
+corresponding alkanes (the $\pi$ electrons do not significantly enhance London forces). Boiling
 Points increase with chain length and decrease with branching, as with alkanes.
 
 ## Electrophilic Addition
 
 The $\pi$ bond is a region of high electron density above and below the plane of the molecule. It
-Acts as a nucleophile, attacking electrophilic species. This is the defining reaction class of
-Alkenes: **electrophilic addition**.
+acts as a nucleophile, attacking electrophilic species. This is the defining reaction class of
+alkenes: **electrophilic addition**.
 
 ### General Mechanism
 
@@ -89,11 +89,11 @@ $$
 \mathrm{CH}_3\overset{+}{\mathrm{C}}\mathrm{HCH}_3 + \mathrm{Br}^- \to \mathrm{CH}_3\mathrm{CHBrCH}_3
 $$
 
-### Markovnikov"s Rule
+### Markovnikov's Rule
 
 When HX adds to an unsymmetrical alkene, the hydrogen atom attaches to the carbon of the double bond
-That already has the greater number of hydrogen atoms. Equivalently: the electrophile adds to the
-Less substituted carbon, and the nucleophile adds to the more substituted carbon.
+that already has the greater number of hydrogen atoms. Equivalently: the electrophile adds to the
+less substituted carbon, and the nucleophile adds to the more substituted carbon.
 
 Markovnikov's rule is a consequence of carbocation stability. The more substituted carbocation
 (tertiary $>$ secondary $>$ primary $>$ methyl) is lower in energy and therefore forms
@@ -110,7 +110,7 @@ $$
 $$
 
 The hydrogen adds to the less substituted carbon (the $=\mathrm{CH}_2$ carbon, which already has
-More hydrogens), producing a tertiary carbocation intermediate that is then attacked by
+more hydrogens), producing a tertiary carbocation intermediate that is then attacked by
 $\mathrm{Cl}^-$. The product is 2-chloro-2-methylpropane (tert-butyl chloride).
 
 ### Addition of Sulphuric Acid
@@ -134,7 +134,7 @@ Catalyst at $300^\circ\mathrm{C}$ and high pressure.
 ### Addition of Halogens
 
 Alkenes decolourise bromine water (orange to colourless) and chlorine water. This is used as the
-Standard test for unsaturation.
+standard test for unsaturation.
 
 **Addition of Br$_2$:**
 
@@ -148,13 +148,13 @@ Carbocation. The second $\mathrm{Br}^-$ then attacks the bromonium ion from the 
 Giving anti addition (stereospecific trans addition).
 
 The bromonium ion mechanism explains the observed stereospecificity. For cyclic alkenes, this means
-The two bromine atoms end up on opposite faces of the ring (anti addition), which would not be the
-Case with a free carbocation intermediate.
+the two bromine atoms end up on opposite faces of the ring (anti addition), which would not be the
+case with a free carbocation intermediate.
 
 ## Addition Polymerisation
 
 Alkenes with a C=C double bond can undergo addition polymerisation, in which the double bond opens
-And monomer units link together to form a long-chain polymer.
+and monomer units link together to form a long-chain polymer.
 
 ### General Equation
 
@@ -163,9 +163,11 @@ N\,\mathrm{CH}_2=\mathrm{CHR} \to \mathrm{--}(\mathrm{CH}_2\mathrm{CHR})_n\mathr
 $$
 
 The repeating unit is enclosed in parentheses with the subscript $n$. The double bond is consumed in
-The polymerisation.
+the polymerisation.
 
 ### Key Polymers
+
+<div class="table-wrap">
 
 | Monomer                                           | Polymer                          | Uses                  |
 | ------------------------------------------------- | -------------------------------- | --------------------- |
@@ -174,6 +176,8 @@ The polymerisation.
 | Chloroethene ($\mathrm{CH}_2=\mathrm{CHCl}$)      | Poly(chloroethene) (PVC)         | Pipes, window frames  |
 | Tetrafluoroethene ($\mathrm{CF}_2=\mathrm{CF}_2$) | PTFE                             | Non-stick coatings    |
 | Phenylethene (styrene)                            | Poly(phenylethene) (polystyrene) | Packaging, insulation |
+
+</div>
 
 ### Properties and Structure
 
@@ -209,7 +213,7 @@ Bromine water is the standard test for C=C double bonds:
 - If the solution decolourises (turns colourless), a C=C double bond is present.
 
 The reaction is the addition of $\mathrm{Br}_2$ across the double bond, as described above. Alkanes
-Do not react with bromine water at room temperature (they require UV light for radical
+do not react with bromine water at room temperature (they require UV light for radical
 Substitution).
 
 ## Stereochemistry of Alkenes
@@ -255,7 +259,7 @@ $E$ and $Z$ isomers have different physical properties:
 - Different NMR spectra (different coupling constants between vinyl protons).
 
 The coupling constant $J$ between the two vinyl protons is larger for trans ($E$) isomers
-($J \approx 12$--$18\,\mathrm{Hz}$) than for cis ($Z$) isomers ($J \approx 6$--$12\,\mathrm{Hz}$).
+($J \approx 12$--$18\,\mathrm{Hz}$) than for cis ($ Z$) isomers ($J \approx 6$--$12\,\mathrm{Hz}$).
 
 ### Hydrogenation of Alkenes
 
@@ -273,12 +277,16 @@ producing the alkane. For cyclic alkenes, both hydrogens end up on the same face
 
 The enthalpy of hydrogenation provides a quantitative measure of alkene stability:
 
+<div class="table-wrap">
+
 | Alkene                             | $\Delta H_\mathrm{hydrogenation}$ ($\mathrm{kJ/mol}$) |
 | ---------------------------------- | ----------------------------------------------------- |
 | Ethene                             | $-137$                                                |
 | (Z)-but-2-ene                      | $-120$                                                |
 | (E)-but-2-ene                      | $-116$                                                |
 | 2-methylpropene (tetrasubstituted) | $-119$                                                |
+
+</div>
 
 More substituted alkenes are more stable and have less negative (less exothermic) hydrogenation
 enthalpies. (E)-but-2-ene is more stable than (Z)-but-2-ene because the two methyl groups are on
@@ -321,7 +329,7 @@ $$
 \mathrm{CH}_2=\mathrm{CH}_2 + [\mathrm{O}] + \mathrm{H}_2\mathrm{O} \to \mathrm{CH}_2\mathrm{OHCH}_2\mathrm{OH}
 $$
 
-The purple $\mathrm{MnO}_4^-$ is reduced to colourless $\mathrm{Mn}^{2+}$Providing a second test for
+The purple $\mathrm{MnO}_4^-$ is reduced to colourless $\mathrm{Mn}^{2+}$ Providing a second test for
 unsaturation alongside bromine water.
 
 ### Oxidative Cleavage with Hot Concentrated $\mathrm{KMnO}_4$
@@ -329,11 +337,15 @@ unsaturation alongside bromine water.
 Hot concentrated $\mathrm{KMnO}_4$ cleaves the double bond, converting each carbon to its highest
 oxidation state:
 
+<div class="table-wrap">
+
 | Alkene type                             | Product(s)                                                               |
 | --------------------------------------- | ------------------------------------------------------------------------ |
 | $\mathrm{RCH}=\mathrm{CH}_2$            | $\mathrm{RCOOH} + \mathrm{CO}_2$                                         |
 | $\mathrm{RCH}=\mathrm{CHR}'$            | $\mathrm{RCOOH} + \mathrm{R}'\mathrm{COOH}$                              |
 | $\mathrm{R}_2\mathrm{C}=\mathrm{CR}'_2$ | $\mathrm{R}_2\mathrm{C}=\mathrm{O} + \mathrm{R}'_2\mathrm{C}=\mathrm{O}$ |
+
+</div>
 
 This reaction can be used to determine the position of the double bond in an unknown alkene by
 identifying the carbonyl products.
@@ -380,7 +392,7 @@ Ethene is the most important organic chemical in industry:
 
 3. **Drawing the polymer repeating unit incorrectly.** The repeating unit must show the opened
    double bond. The monomer $\mathrm{CH}_2=\mathrm{CHCl}$ becomes the repeating unit
-   $-\mathrm{CH}_2\mathrm{CHCl}-$Not $-\mathrm{CH}_2=\mathrm{CHCl}-$.
+   $-\mathrm{CH}_2\mathrm{CHCl}-$ Not $-\mathrm{CH}_2=\mathrm{CHCl}-$.
 
 4. **Assuming all polymerisations produce the same type of poly(ethene).** LDPE (radical, branched)
    and HDPE (ionic, linear) have very different properties. The mechanism determines the polymer
@@ -396,7 +408,7 @@ Ethene is the most important organic chemical in industry:
 <summary>Problem 1</summary>
 
 Predict the major organic product(s) when 2-methylbut-2-ene reacts with HBr. Show the mechanism and
-Explain the regiochemistry.
+explain the regiochemistry.
 
 **Solution:**
 
@@ -422,7 +434,7 @@ The bromide Ion then attacks this tertiary carbocation to give 2-bromo-2-methylb
 <summary>Problem 2</summary>
 
 A sample of poly(propene) has an average chain length of $n = 5000$. Calculate the molecular mass of
-One average chain. The molar mass of the propene monomer ($\mathrm{C}_3\mathrm{H}_6$) is
+one average chain. The molar mass of the propene monomer ($\mathrm{C}_3\mathrm{H}_6$) is
 $42.08\,\mathrm{g/mol}$.
 
 **Solution:**
@@ -432,7 +444,7 @@ M_{\mathrm{polymer}} = n \times M_{\mathrm{monomer}} = 5000 \times 42.08 = 210,4
 $$
 
 Each repeating unit has the same molar mass as the monomer (the double bond opens but no atoms are
-Lost or gained in addition polymerisation).
+lost or gained in addition polymerisation).
 
 </details>
 
@@ -529,7 +541,7 @@ trans-1,2-dibromocyclohexane
 
 **Mechanism:**
 
-Step 1: The $\pi$ electrons of cyclohexene attack one bromine atom of $\mathrm{Br}_2$Forming a
+Step 1: The $\pi$ electrons of cyclohexene attack one bromine atom of $\mathrm{Br}_2$ Forming a
 bromonium ion intermediate. The bromonium ion is a three-membered ring with a positive charge
 distributed over the bromine and both carbons.
 
@@ -544,7 +556,9 @@ $(1S,2S)$-1,2-dibromocyclohexane.
 
 **Direct hydration:**
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}_3\mathrm{PO}_4,\,300^\circ\mathrm{C},\,60\,\mathrm{atm}} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}_3\mathrm{PO}_4,\,300^\circ\mathrm{C},\,60\,\mathrm{atm}} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3
+$$
 
 Markovnikov addition: H adds to the less substituted carbon (terminal carbon with more H), giving
 the secondary alcohol propan-2-ol.
@@ -574,8 +588,8 @@ Reconstructing: $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}
 $\mathrm{C}_7\mathrm{H}_{12}$ has $\text{DoU} = \frac{2(7) + 2 - 12}{2} = 1$. Hept-2-ene is
 $\mathrm{C}_7\mathrm{H}_{14}$ with $\text{DoU} = 1$.
 
-The formula must be $\mathrm{C}_7\mathrm{H}_{14}$Not $\mathrm{C}_7\mathrm{H}_{12}$. If the problem
-states $\mathrm{C}_7\mathrm{H}_{12}$The molecule has an additional degree of unsaturation (a ring or
+The formula must be $\mathrm{C}_7\mathrm{H}_{14}$ Not $\mathrm{C}_7\mathrm{H}_{12}$. If the problem
+states $\mathrm{C}_7\mathrm{H}_{12}$ The molecule has an additional degree of unsaturation (a ring or
 a second double bond). In this case, the product analysis is still valid, and the structure would be
 hept-2-ene (the given formula may contain a typo; in an exam, use the product information to deduce
 the structure).
@@ -604,26 +618,36 @@ If $\mathrm{Br}$ and $\mathrm{Cl}$ are on the **same side**: $Z$. If on **opposi
 
 Initiation: Peroxide bond homolysis:
 
-$$\mathrm{ROOR} \xrightarrow{\Delta} 2\mathrm{RO}\cdot$$
+$$
+\mathrm{ROOR} \xrightarrow{\Delta} 2\mathrm{RO}\cdot
+$$
 
 Propagation 1: The radical adds to the **less substituted** carbon (to form the more stable
 secondary radical):
 
-$$\mathrm{RO}\cdot + \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \to \mathrm{ROCH}_2\mathrm{CH}\cdot\mathrm{CH}_3$$
+$$
+\mathrm{RO}\cdot + \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \to \mathrm{ROCH}_2\mathrm{CH}\cdot\mathrm{CH}_3
+$$
 
 Wait -- the $\mathrm{RO}\cdot$ radical is not the chain carrier for HBr addition. The correct
 mechanism involves the bromine radical:
 
-$$\mathrm{RO}\cdot + \mathrm{HBr} \to \mathrm{ROH} + \mathrm{Br}\cdot$$
+$$
+\mathrm{RO}\cdot + \mathrm{HBr} \to \mathrm{ROH} + \mathrm{Br}\cdot
+$$
 
-$$\mathrm{Br}\cdot + \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \to \mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_2\mathrm{Br}$$
+$$
+\mathrm{Br}\cdot + \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \to \mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_2\mathrm{Br}
+$$
 
 The bromine radical adds to the **less substituted** carbon to form the more stable secondary
 radical (on C2).
 
 Propagation 2:
 
-$$\mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_2\mathrm{Br} + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} + \mathrm{Br}\cdot$$
+$$
+\mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_2\mathrm{Br} + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} + \mathrm{Br}\cdot
+$$
 
 **Product:** 1-bromopropane (anti-Markovnikov).
 
@@ -637,7 +661,9 @@ cannot compete.
 
 **Polymer:** Poly(chloroethene) / PVC
 
-$$n\,\mathrm{CH}_2=\mathrm{CHCl} \to \mathrm{--}(\mathrm{CH}_2\mathrm{CHCl})_n\mathrm{--}$$
+$$
+n\,\mathrm{CH}_2=\mathrm{CHCl} \to \mathrm{--}(\mathrm{CH}_2\mathrm{CHCl})_n\mathrm{--}
+$$
 
 **Properties:** Rigid, flame-retardant (due to chlorine content), used for pipes and window frames.
 Addition of plasticisers makes flexible PVC for cable insulation and flooring.
@@ -756,7 +782,7 @@ products are propanoic acid and ethanoic acid. Deduce the structure of the alken
 - Ethanoic acid ($\mathrm{CH}_3\mathrm{COOH}$) indicates the fragment $=\mathrm{CHCH}_3$ on the
   other side (1 mark).
 - Combining: $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}=\mathrm{CHCH}_3$ (pent-2-ene) (1 mark).
-- Verification: $\mathrm{C}_5\mathrm{H}_{10}$One degree of unsaturation, consistent with one C=C
+- Verification: $\mathrm{C}_5\mathrm{H}_{10}$ One degree of unsaturation, consistent with one C=C
   bond (1 mark).
 
 </details>
@@ -792,41 +818,59 @@ a wide range of functional groups.
 
 Step 1: Anti-Markovnikov addition of HBr (peroxide effect):
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \xrightarrow{\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \xrightarrow{\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3
+$$
 
 Step 2: Hydrolysis to propan-1-ol:
 
-$$\mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaOH}(aq) \to \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaBr}$$
+$$
+\mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaOH}(aq) \to \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaBr}
+$$
 
 Step 3: Oxidation to propanal (distillation conditions):
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO}
+$$
 
 Step 4: Cyanohydrin formation:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN}
+$$
 
 Step 5: Acid hydrolysis of the nitrile:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{H}^+ \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH} + \mathrm{NH}_4^+$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{H}^+ \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH} + \mathrm{NH}_4^+
+$$
 
 This gives 2-hydroxybutanoic acid. For lactic acid specifically, a different approach:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{HBr}/\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{HBr}/\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_3
+$$
 
 Actually, lactic acid is 2-hydroxypropanoic acid
 ($\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{COOH}$). A more direct route from propene:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{H}_2\mathrm{O}/\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3 \xrightarrow{[\mathrm{O}]} \mathrm{CH}_3\mathrm{COCH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{H}_2\mathrm{O}/\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3 \xrightarrow{[\mathrm{O}]} \mathrm{CH}_3\mathrm{COCH}_3
+$$
 
 Since direct oxidation of propan-2-ol gives propanone (ketone, not further oxidised), we need a
 different approach. The most efficient route is:
 
-$$\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{H}_2\mathrm{O}/\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 \xrightarrow{\mathrm{H}_2\mathrm{O}/\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3
+$$
 
 Then use the cyanohydrin route on ethanal (derived from ethanol oxidation):
 
-$$\mathrm{CH}_3\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CN} \xrightarrow{\mathrm{H}_3\mathrm{O}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{COOH}$$
+$$
+\mathrm{CH}_3\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CN} \xrightarrow{\mathrm{H}_3\mathrm{O}^+} \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{COOH}
+$$
 
 This demonstrates the importance of choosing the correct disconnection strategy in retrosynthesis.
 
@@ -847,23 +891,9 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Alkenes
 with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
-
-
-```mermaid
-flowchart TD
-    A[Alkenes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

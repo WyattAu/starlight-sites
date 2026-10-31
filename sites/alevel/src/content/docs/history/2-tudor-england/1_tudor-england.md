@@ -28,7 +28,7 @@ state. Religious upheaval, dynastic insecurity, and the growth of royal governme
 ## Historical Context and Chronology
 
 The Tudor dynasty was born from the Wars of the Roses (1455-1487), a protracted conflict between the
-houses of Lancaster and York. Henry VII"s victory at Bosworth Field in 1485 ended Plantagenet rule
+houses of Lancaster and York. Henry VII's victory at Bosworth Field in 1485 ended Plantagenet rule
 and established a new dynasty whose survival was far from certain.
 
 Over 118 years, England experienced dramatic religious change, from Catholic orthodoxy under Henry
@@ -38,6 +38,8 @@ Religious Settlement that sought a middle way.
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Reign       | Dates     | Key Themes                                                       |
 | ----------- | --------- | ---------------------------------------------------------------- |
 | Henry VII   | 1485-1509 | Consolidation, financial stability, foreign diplomacy            |
@@ -45,6 +47,8 @@ Religious Settlement that sought a middle way.
 | Edward VI   | 1547-1553 | Protestant reform, Somerset and Northumberland protectorates     |
 | Mary I      | 1553-1558 | Catholic restoration, burnings, war with France, loss of Calais  |
 | Elizabeth I | 1558-1603 | Religious settlement, foreign policy, Spanish Armada, succession |
+
+</div>
 
 ## Key Events with Dates and Significance
 
@@ -125,6 +129,8 @@ Religious Settlement that sought a middle way.
 
 ## Key Figures and Their Roles
 
+<div class="table-wrap">
+
 | Figure              | Role                         | Significance                                                                             |
 | ------------------- | ---------------------------- | ---------------------------------------------------------------------------------------- |
 | Henry VII           | First Tudor king             | Established dynastic stability through financial prudence and diplomatic marriages       |
@@ -137,6 +143,8 @@ Religious Settlement that sought a middle way.
 | Elizabeth I         | Virgin Queen                 | Maintained Protestant settlement; navigated foreign threats; skillful political operator |
 | Mary Queen of Scots | Catholic claimant            | Alternative queen for English Catholics; execution triggered Spanish hostility           |
 | William Cecil       | Elizabeth's chief advisor    | Served for 40 years; architect of Elizabethan domestic and foreign policy                |
+
+</div>
 
 ## Historiographical Debates
 
@@ -281,17 +289,6 @@ middle way preserved national unity and established a religious framework that e
 ## Intuition
 
 Tudor England was a poker game where the stakes were the throne itself. Henry VII won by being the tightest player at the table, never bluffing and always collecting debts. Henry VIII played like a man who changed the rules whenever he was losing, particularly when the Pope refused to deal him the annulment card he wanted. The Reformation was less a theological revolution than a property deal dressed in religious language: the Crown took the Church's land and called it reform. Elizabeth I was the master bluffer, keeping everyone guessing about her intentions on religion and marriage while maintaining control through patience and timing.
-
-
-```mermaid
-flowchart TD
-    A[1_Tudor England] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

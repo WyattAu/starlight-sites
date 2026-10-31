@@ -62,7 +62,9 @@ $x = \frac{1}{2}$ or $x = 3$.
 (ii) Using the quadratic formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ with $a = 2$, $b = -7$,
 $c = 3$:
 
-$$x = \frac{7 \pm \sqrt{49 - 24}}{4} = \frac{7 \pm \sqrt{25}}{4} = \frac{7 \pm 5}{4}$$
+$$
+x = \frac{7 \pm \sqrt{49 - 24}}{4} = \frac{7 \pm \sqrt{25}}{4} = \frac{7 \pm 5}{4}
+$$
 
 $x = 3$ or $x = \frac{1}{2}$. Both methods agree.
 
@@ -180,16 +182,22 @@ $\frac{x^2 - 9}{x^2 + 5x + 6} \div \frac{x + 3}{x + 2} = \frac{x^2 - 9}{x^2 + 5x
 
 Factorising: $x^2 - 9 = (x - 3)(x + 3)$, $x^2 + 5x + 6 = (x + 2)(x + 3)$.
 
-$$= \frac{(x - 3)(x + 3)}{(x + 2)(x + 3)} \times \frac{x + 2}{x + 3} = \frac{(x - 3)(x + 2)}{(x + 3)^2}$$
+$$
+= \frac{(x - 3)(x + 3)}{(x + 2)(x + 3)} \times \frac{x + 2}{x + 3} = \frac{(x - 3)(x + 2)}{(x + 3)^2}
+$$
 
 (b) $\frac{2}{x - 1} + \frac{3}{x + 2} = 1$
 
 Multiply through by $(x - 1)(x + 2)$:
 
 $$2(x + 2) + 3(x - 1) = (x - 1)(x + 2)$$ $$2x + 4 + 3x - 3 = x^2 + x - 2$$ $$5x + 1 = x^2 + x - 2$$
-$$x^2 - 4x - 3 = 0$$
+$$
+x^2 - 4x - 3 = 0
+$$
 
-$$x = \frac{4 \pm \sqrt{16 + 12}}{2} = \frac{4 \pm \sqrt{28}}{2} = \frac{4 \pm 2\sqrt{7}}{2} = 2 \pm \sqrt{7}$$
+$$
+x = \frac{4 \pm \sqrt{16 + 12}}{2} = \frac{4 \pm \sqrt{28}}{2} = \frac{4 \pm 2\sqrt{7}}{2} = 2 \pm \sqrt{7}
+$$
 
 Excluded values: $x \neq 1$ and $x \neq -2$ (these make denominators zero). Since
 $2 + \sqrt{7} \approx 4.65$ and $2 - \sqrt{7} \approx -0.65$, neither is excluded.
@@ -205,7 +213,9 @@ consecutive integers is always a multiple of 3.
 
 (d) Let $n$ be any even integer. Then $n = 2k$ for some integer $k$.
 
-$$n^2 = (2k)^2 = 4k^2$$
+$$
+n^2 = (2k)^2 = 4k^2
+$$
 
 Since $k^2$ is an integer, $4k^2$ is a multiple of 4. Therefore, the square of any even integer is
 always a multiple of 4.
@@ -234,7 +244,7 @@ $\pounds 20000$. In which year will the profits first exceed $\pounds 100000$?
 $640\,\text{mg}$, calculate the amount remaining after 40 days.
 
 (c) A geometric sequence has first term 3 and common ratio $r$. The sum of the first 4 terms is 255.
-Find the value of $r$.
+find the value of $r$.
 
 (d) The equation $x^2 + px + q = 0$ has roots $\alpha$ and $\beta$. Express the following in terms
 of $p$ and $q$: (i) $\alpha^2 + \beta^2$, (ii) $\frac{1}{\alpha} + \frac{1}{\beta}$.
@@ -255,12 +265,16 @@ $= 640 \times \left(\frac{1}{2}\right)^5 = 640 \times \frac{1}{32} = 20\,\text{m
 
 (c) $S_4 = \frac{a(r^4 - 1)}{r - 1} = 255$. With $a = 3$:
 
-$$\frac{3(r^4 - 1)}{r - 1} = 255$$
+$$
+\frac{3(r^4 - 1)}{r - 1} = 255
+$$
 
 Since $r^4 - 1 = (r^2 - 1)(r^2 + 1) = (r - 1)(r + 1)(r^2 + 1)$:
 
 $$\frac{3(r - 1)(r + 1)(r^2 + 1)}{r - 1} = 255$$ $$3(r + 1)(r^2 + 1) = 255$$
-$$(r + 1)(r^2 + 1) = 85$$
+$$
+(r + 1)(r^2 + 1) = 85
+$$
 
 Since 85 = $5 \times 17$, try $r + 1 = 5$: $r = 4$. Then $r^2 + 1 = 17$. So $5 \times 17 = 85$. This
 works.
@@ -321,7 +335,9 @@ consecutive even numbers is always even.
 
 (c) For a geometric sequence, $\frac{u_2}{u_1} = \frac{u_3}{u_2}$:
 
-$$\frac{x + 4}{x} = \frac{x + 12}{x + 4}$$
+$$
+\frac{x + 4}{x} = \frac{x + 12}{x + 4}
+$$
 
 $$(x + 4)^2 = x(x + 12)$$ $$x^2 + 8x + 16 = x^2 + 12x$$ $$16 = 4x$$ $$x = 4$$
 
@@ -345,27 +361,9 @@ Perimeter $= 2(13 + 5) = 2(18) = 36\,\text{cm}$.
 
 **The key insight:** Rearranging equations is not arbitrary manipulation, each step must maintain balance, reflecting the physical or mathematical equality the equation represents.
 
-
-```mermaid
-flowchart TD
-    A[Diag Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

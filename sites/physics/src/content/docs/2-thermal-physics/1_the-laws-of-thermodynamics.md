@@ -28,20 +28,26 @@ equilibrium if and only if they have the same temperature.
 **Definition.** **Temperature** is the quantity that is equal for all systems in mutual thermal
 equilibrium. The **ideal gas scale** defines temperature via
 
-$$PV = Nk_BT$$
+$$
+PV = Nk_BT
+$$
 
-Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann"s constant.
+Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann's constant.
 
 ### 1.2 First Law
 
 **First Law:** The change in internal energy of a system equals the heat added minus the work done
 by the system:
 
-$$dU = \delta Q - \delta W$$
+$$
+dU = \delta Q - \delta W
+$$
 
 For a reversible process: $\delta W = P\,dV$ (PV work), giving
 
-$$dU = \delta Q - P\,dV$$
+$$
+dU = \delta Q - P\,dV
+$$
 
 **Proposition 1.1.** For an adiabatic process ($\delta Q = 0$): $dU = -P\,dV$. For an isochoric
 process ($dV = 0$): $dU = \delta Q$.
@@ -49,7 +55,9 @@ process ($dV = 0$): $dU = \delta Q$.
 **Definition.** The **heat capacity at constant volume** and **heat capacity at constant pressure**
 are:
 
-$$C_V = \left(\frac{\partial U}{\partial T}\right)_V, \qquad C_P = \left(\frac{\partial H}{\partial T}\right)_P$$
+$$
+C_V = \left(\frac{\partial U}{\partial T}\right)_V, \qquad C_P = \left(\frac{\partial H}{\partial T}\right)_P
+$$
 
 Where $H = U + PV$ is the enthalpy.
 
@@ -71,30 +79,36 @@ These are equivalent: each implies the other.
 
 **Definition.** The **entropy** change for a reversible process is
 
-$$dS = \frac{\delta Q_{\mathrm{rev}}{T}}$$
+$$
+dS = \frac{\delta Q_{\mathrm{rev}}{T}}
+$$
 
 **Theorem 1.3 (Clausius Inequality).** For any cyclic process:
 
-$$\oint \frac{\delta Q}{T} \leq 0$$
+$$
+\oint \frac{\delta Q}{T} \leq 0
+$$
 
 With equality for reversible processes.
 
 _Proof._ Consider a system undergoing a cycle interacting with $n$ heat reservoirs at temperatures
-$T_1, \ldots, T_n$Exchanging heat $Q_i$ with reservoir $i$. The Clausius inequality follows from the
+$T_1, \ldots, T_n$ Exchanging heat $Q_i$ with reservoir $i$. The Clausius inequality follows from the
 impossibility of a perpetual motion machine of the second kind: a cycle that absorbs heat from a
 single reservoir and does work would violate the Kelvin-Planck statement. The detailed
 .../1-number-and-algebra/3_proof-and-logic uses auxiliary Carnot engines operating between pairs of
 reservoirs. $\blacksquare$
 
-**Corollary 1.4 (Principle of Increasing Entropy).** For an isolated system, $dS \geq 0$With
+**Corollary 1.4 (Principle of Increasing Entropy).** For an isolated system, $dS \geq 0$ With
 equality for reversible processes.
 
 ### 1.4 Third Law
 
-**Third Law (Nernst):** As $T \to 0^+$The entropy of a perfect crystal approaches a constant (which
+**Third Law (Nernst):** As $T \to 0^+$ The entropy of a perfect crystal approaches a constant (which
 can be taken as zero):
 
-$$\lim_{T \to 0} S(T) = 0$$
+$$
+\lim_{T \to 0} S(T) = 0
+$$
 
 **Consequences:**
 
@@ -103,12 +117,16 @@ $$\lim_{T \to 0} S(T) = 0$$
 
 ### 1.5 Thermodynamic Potentials
 
+<div class="table-wrap">
+
 | Potential    | Natural Variables | Differential      | Name                  |
 | ------------ | ----------------- | ----------------- | --------------------- |
 | $U$          | $S, V$            | $dU = TdS - PdV$  | Internal Energy       |
 | $H = U + PV$ | $S, P$            | $dH = TdS + VdP$  | Enthalpy              |
 | $F = U - TS$ | $T, V$            | $dF = -SdT - PdV$ | Helmholtz Free Energy |
 | $G = H - TS$ | $T, P$            | $dG = -SdT + VdP$ | Gibbs Free Energy     |
+
+</div>
 
 **Theorem 1.5.** At equilibrium for a system in contact with a heat bath at temperature $T$: $F$ is
 minimised at constant $T, V$; $G$ is minimised at constant $T, P$.
@@ -132,14 +150,18 @@ partial derivatives gives four **Maxwell relations**:
 
 _Solution._ We use the thermodynamic identity $dU = TdS - PdV$. Dividing by $dV$ at constant $T$:
 
-$$\left(\frac{\partial U}{\partial V}\right)_T = T\left(\frac{\partial S}{\partial V}\right)_T - P$$
+$$
+\left(\frac{\partial U}{\partial V}\right)_T = T\left(\frac{\partial S}{\partial V}\right)_T - P
+$$
 
 By the third Maxwell relation: $(\partial S/\partial V)_T = (\partial P/\partial T)_V$. For an ideal
 gas, $P = Nk_BT/V$ So $(\partial P/\partial T)_V = Nk_B/V$.
 
 Therefore:
 
-$$\left(\frac{\partial U}{\partial V}\right)_T = T \cdot \frac{Nk_B}{V} - \frac{Nk_BT}{V} = 0$$
+$$
+\left(\frac{\partial U}{\partial V}\right)_T = T \cdot \frac{Nk_B}{V} - \frac{Nk_BT}{V} = 0
+$$
 
 This confirms that the internal energy of an ideal gas depends only on temperature. $\blacksquare$
 
@@ -153,7 +175,7 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
 
 ### 1.7 Common Pitfalls
 
-- **$\delta Q$ and $\delta W$ are not exact differentials.** Unlike $dU$The heat and work are
+- **$\delta Q$ and $\delta W$ are not exact differentials.** Unlike $dU$ The heat and work are
   path-dependent. Only $\delta Q_{\mathrm{rev}/T = dS}$ is exact.
 - **The second law prohibits certain processes but does not explain _why_ they occur.** Statistical
   mechanics provides the microscopic explanation: entropy measures the number of microstates, and
@@ -172,17 +194,6 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[1_The Laws Of Thermodynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Statistical Mechanics](/2-thermal-physics/2_statistical-mechanics/)**: Statistical mechanics derives the laws of thermodynamics from microscopic probabilities and the partition function.
@@ -190,5 +201,5 @@ flowchart TD
 - **[Phase Transitions](/2-thermal-physics/10_phase-transitions/)**: Phase transitions involve discontinuities in thermodynamic quantities and are classified using the framework of the laws of thermodynamics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

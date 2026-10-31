@@ -42,7 +42,115 @@ self-adjoint operator on a Hilbert space $H$. Then:
 **Corollary 5.5.** A compact self-adjoint operator on an infinite-dimensional Hilbert space has at
 most countably many nonzero eigenvalues, and $0$ is the only possible accumulation point.
 
-### 5.3 Spectral Theorem for Normal Operators
+## Proofs
+
+The spectral theorem for compact self-adjoint operators is proved here because
+it is the bridge between two theories the network has already built: the
+spectral theorem for self-adjoint operators on
+[the graduate analysis page](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/)
+built a projection-valued measure by hand, and
+[the Sobolev page](/11-functional-analysis/10_sobolev-spaces/) built compactness
+from Rellich–Kondrachov. The compact spectral theorem is what the two give when
+combined — and its proof via the Rayleigh quotient is the template for every
+existence-of-eigenfunctions argument in the subject, from the Sturm–Liouville
+theory to the Hodge theorem's harmonic forms.
+
+**Proposition 5.1 (compact implies bounded; finite rank implies compact).**
+
+*Proof.* Compact sets are bounded, so $T(B_X)$ is bounded, and linearity then
+scales: $\|Tx\| \leq M\|x\|$ with $M = \sup_{\|z\|\leq1}\|Tz\|$. For finite
+rank, let $y_1, \dots, y_m$ span $T(X)$; write $Tx = \sum_k \varphi_k(x) y_k$
+with $\varphi_k$ linear functionals — for instance the coefficients in any fixed
+basis of the range. On the unit ball each $\varphi_k$ is bounded (finite-
+dimensional range), so $T(B_X)$ is a bounded subset of a finite-dimensional
+space, hence relatively compact by the Heine–Borel theorem. $\blacksquare$
+
+**Theorem 5.4 (spectral theorem for compact self-adjoint $T \neq 0$).** $T$ has
+an eigenvalue $\lambda$ with $|\lambda| = \|T\|$; eigenvectors for distinct
+eigenvalues are orthogonal; the nonzero spectrum consists of eigenvalues, each
+of finite multiplicity, with $0$ the only possible accumulation point; and
+there is an orthonormal basis of $\overline{\operatorname{ran}}(T)$ of
+eigenvectors, giving $Tx = \sum_n \lambda_n \langle x, e_n\rangle e_n$.
+
+*Proof, in four steps.*
+
+*Step 1: an eigenvalue exists with modulus $\|T\|$.* For self-adjoint $T$
+define the **Rayleigh quotient**
+$\mu = \sup_{\|z\| = 1} |\langle Tz, z\rangle|$. Two facts: self-adjointness
+makes every $\langle Tz, z\rangle$ real, and the polarisation identity gives
+$\|T\| = \mu$ -- both standard for self-adjoint operators, the norm identity
+proved by expanding $\|T(z \pm z')\|^2$ and recovering
+$\langle Tz, z'\rangle$ by polarisation. Choose unit vectors $x_n$ with
+$\langle Tx_n, x_n\rangle \to \mu$.
+
+The key computation is the expansion of the squared norm:
+
+$$
+\|(T - \mu)x_n\|^2 = \|Tx_n\|^2 - 2\mu\langle Tx_n, x_n\rangle + \mu^2
+\leq \mu^2 - 2\mu\langle Tx_n, x_n\rangle + \mu^2 \to \mu^2 - 2\mu^2 +
+\mu^2 = 0,
+$$
+
+using $\|Tx_n\| \leq \|T\| = \mu$ and $\langle Tx_n, x_n\rangle \to \mu$.
+So $(T - \mu)x_n \to 0$ in norm with $\|x_n\| = 1$ throughout.
+
+*Compactness finishes.* $Tx_n$ has a norm-convergent subsequence
+$Tx_{n_k} \to y$ -- the defining property of the compact operator applied to
+the bounded sequence $(x_n)$. Since $Tx_{n_k} - \mu x_{n_k} \to 0$, we get
+$\mu x_{n_k} \to y$, so $x_{n_k} \to y/\mu$ with $\|y/\mu\| = 1$. By
+continuity of $T$, $T(y/\mu) = y$, i.e. $Ty = \mu y$: **$y$ is an eigenvector
+with eigenvalue $\mu$, and $|\mu| = \|T\|$**. $\blacksquare$
+
+The proof's three ingredients are worth separating, because each fails in a
+context where the theorem fails. Self-adjointness makes the Rayleigh quotient
+real and equal to the norm -- a non-self-adjoint operator has no such quotient.
+Attainment of the supremum by a *sequence* needs the unit ball's weak
+compactness machinery, which for reflexive spaces comes from Kakutani. And
+compactness is what turns the weak limit of the images into a norm limit -- the
+step that manufactures the eigenvector. A bounded non-compact self-adjoint
+operator can fail at any of the three, and the multiplication operator on
+$L^2[0,1]$ fails at all of them: its Rayleigh quotients fill an interval and no
+value is attained.
+
+*Step 2: orthogonality.* If $Tx = \lambda x$ and $Ty = \mu y$ with
+$\lambda \neq \mu$, then
+$\lambda\langle x, y\rangle = \langle Tx, y\rangle = \langle x, Ty\rangle = \bar\mu\langle x, y\rangle$, and self-adjointness makes $\mu$ real, so
+$(\lambda - \mu)\langle x, y\rangle = 0$ forces orthogonality. $\blacksquare$
+
+*Step 3: the nonzero spectrum consists of eigenvalues of finite multiplicity,
+accumulating only at zero.* If $|\lambda| \geq \epsilon > 0$ for infinitely many
+orthonormal eigenpairs $(\lambda_n, e_n)$, then $e_n \rightharpoonup 0$
+(Bessel's inequality: every $y$ has $\sum|\langle y, e_n\rangle|^2 < \infty$),
+so compactness gives $\lambda_n e_n = Te_n \to$ norm-limit $0$ — but
+$\|\lambda_n e_n\| = |\lambda_n| \geq \epsilon$, contradiction. So only
+finitely many eigenvalues exceed any $\epsilon$, hence the nonzero eigenvalues
+are countable with $0$ the only accumulation point, and each eigenspace is
+finite-dimensional (an infinite orthonormal set inside one eigenspace would
+violate compactness the same way). $\blacksquare$
+
+*Step 4: the expansion.* Let $\{e_n\}$ be an orthonormal basis of
+$\overline{\operatorname{ran}}(T)$ of eigenvectors, which exists by
+inductively applying Step 1 to the orthogonal complement of the eigenvectors
+found so far — the complement is invariant under $T$ by self-adjointness, and
+the process exhausts the range because otherwise the restriction to the
+remaining complement would be compact self-adjoint with norm equal to its
+largest $|\lambda|$, contradicting the eigenvalue exhaustion. For
+$x \in \overline{\operatorname{ran}}(T)$, write
+$x = \sum_n \langle x, e_n\rangle e_n$; applying $T$ and using continuity of $T$
+plus boundedness of the coefficients,
+
+$$
+Tx = \sum_n \langle x, e_n\rangle\, Te_n = \sum_n \lambda_n \langle x,
+e_n\rangle e_n. \qquad\blacksquare
+$$
+
+**Corollary 5.5** follows: the nonzero eigenvalues are countable (Step 3) with
+$0$ as their only accumulation point, and on an infinite-dimensional space $0$
+must be in the spectrum since a bijective compact $T$ would make
+$T^{-1}$ a bounded inverse of a compact operator — impossible unless the space
+is finite-dimensional, by the compactness of the unit ball it would imply. $\blacksquare$
+
+## 5.3 Spectral Theorem for Normal Operators
 
 A bounded operator $T$ on a Hilbert space $H$ is **normal** if $T^*T = TT^*$, and **unitary** if
 $T^*T = TT^* = I$.
@@ -63,7 +171,9 @@ This generalises Theorem 5.4: self-adjoint operators are normal, and unitary ope
 operator on $H$. There exists a unique projection-valued measure $E$ on the Borel subsets of
 $\sigma(T) \subseteq \mathbb{C}$ such that
 
-$$T = \int_{\sigma(T)} \lambda\, dE(\lambda)$$
+$$
+T = \int_{\sigma(T)} \lambda\, dE(\lambda)
+$$
 
 This integral representation implies: if $f$ is a bounded Borel function on $\sigma(T)$, then
 $f(T) = \int f(\lambda)\, dE(\lambda)$ defines a bounded normal operator satisfying the functional
@@ -79,6 +189,8 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 
 ### 5.5 Key Relationships
 
+<div class="table-wrap">
+
 | Operator type       | Definition                        | Spectrum                          | Example                   |
 | ------------------- | --------------------------------- | --------------------------------- | ------------------------- |
 | Bounded             | $\|Tx\| \leq C\|x\|$              | Any compact set in $\mathbb{C}$  | Identity on $H$          |
@@ -87,28 +199,20 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 | Self-adjoint        | $T^* = T$                         | Real                              | Schrodinger operator     |
 | Normal              | $T^*T = TT^*$                     | Any compact set                   | Unitary, self-adjoint    |
 
+</div>
+
 ## Cross-References
 
 - **[Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)**: Provides the framework of bounded linear maps between Banach spaces within which compact operators are defined.
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)**: The bounded inverse theorem and closed graph theorem are used in the Fredholm alternative for compact operators.
 - **[Weak and Weak* Convergence](/11-functional-analysis/6_weak-and-weak-convergence/)**: Compact operators map weakly convergent sequences to strongly convergent sequences, linking these two modes of convergence.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
-
-```mermaid
-flowchart TD
-    A[5_Compact Operators] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -160,23 +264,3 @@ $\max_n |\lambda_n| = \|T\|$ by the spectral radius formula for self-adjoint ope
   Sturm-Liouville theory.
 - **Signal processing:** The Karhunen-Loeve transform uses the spectral decomposition of compact
   covariance operators to find optimal bases for signal representation and compression (PCA).
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

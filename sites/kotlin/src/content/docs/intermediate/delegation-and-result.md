@@ -72,11 +72,15 @@ val unsafeValue: String by lazy(LazyThreadSafetyMode.NONE) {
 }
 ```
 
+<div class="table-wrap">
+
 | Mode           | Behavior                                                             |
 | -------------- | -------------------------------------------------------------------- |
 | `SYNCHRONIZED` | Default. Uses double-checked locking. Thread-safe, slight overhead.  |
 | `PUBLICATION`  | Allows multiple threads to initialize. First returned value is kept. |
 | `NONE`         | No thread safety guarantees. Fastest, single-threaded use only.      |
+
+</div>
 
 ### When Not to Use lazy
 
@@ -339,12 +343,16 @@ val combined: Result<Int> = Result.success(10).zip(Result.success(20)) { x, y ->
 
 ### Result vs Exceptions
 
+<div class="table-wrap">
+
 | Aspect        | Result                                  | Exceptions                  |
 | ------------- | --------------------------------------- | --------------------------- |
 | Explicitness  | Must be handled in the type system      | Can be ignored at call site |
 | Composability | Chains with `map`, `flatMap`            | Requires try/catch blocks   |
 | Performance   | No stack trace allocation on happy path | Stack trace on every throw  |
 | Use case      | Expected failures, domain errors        | System failures, bugs       |
+
+</div>
 
 Use `Result` for expected failures that are part of the domain logic. Use exceptions for programming
 errors, system failures, and cases where the caller cannot meaningfully recover.
@@ -409,17 +417,6 @@ fun fetchUserProfile(userId: Long): Result<Profile> {
   `LazyThreadSafetyMode.SYNCHRONIZED` adds synchronization overhead. Use `NONE` when the property is
   only accessed from a single thread (e.g., in an Android Activity or a confined coroutine).
 
-
-```mermaid
-flowchart TD
-    A[Delegation And Result] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers Kotlin delegation patterns and the Result type, including practical applications
@@ -438,9 +435,6 @@ error handling more explicit and composable. Practice these patterns with real-w
 build fluency.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

@@ -35,7 +35,9 @@ categories:
 ### Meiosis Overview
 
 Meiosis reduces the chromosome number by half, producing four genetically distinct haploid cells
-From one diploid cell.
+from one diploid cell.
+
+<div class="table-wrap">
 
 | Feature           | Mitosis        | Meiosis           |
 | ----------------- | -------------- | ----------------- |
@@ -44,6 +46,8 @@ From one diploid cell.
 | Ploidy            | $2n$           | $n$               |
 | Genetic variation | Identical      | Different         |
 | Function          | Growth, repair | Gamete production |
+
+</div>
 
 ### Meiosis I (Reductional Division)
 
@@ -88,7 +92,7 @@ Daughter cells form.
 **Worked Example: Calculating the number of possible gamete combinations.**
 
 An organism has $n = 4$ (haploid number). The number of possible gamete combinations from
-Independent assortment alone is $2^4 = 16$.
+independent assortment alone is $2^4 = 16$.
 
 If we also consider crossing over (which can occur at many points along each chromosome), the actual
 Number of genetically unique gametes is much larger. For humans ($n = 23$), independent assortment
@@ -98,14 +102,14 @@ Gametes is effectively infinite.
 **Worked Example: The role of crossing over in producing new allele combinations.**
 
 Consider two genes on the same chromosome: gene A (alleles A and a) and gene B (alleles B and b). A
-Parent has the genotype AB/ab (A and B on one chromosome, a and b on the homologous chromosome).
+parent has the genotype AB/ab (A and B on one chromosome, a and b on the homologous chromosome).
 
 Without crossing over, this parent can only produce two types of gametes: AB and ab (parental
 Types).
 
 With crossing over between genes A and B, two additional gamete types are possible: Ab and aB
 (recombinant types). The frequency of recombinant gametes depends on the distance between the two
-Genes: the farther apart they are, the more likely crossing over is to occur between them.
+genes: the farther apart they are, the more likely crossing over is to occur between them.
 
 If the recombination frequency between A and B is 20%, then 20% of the gametes will be recombinant
 (10% Ab and 10% aB) and 80% will be parental (40% AB and 40% ab).
@@ -124,11 +128,15 @@ Formation.
 
 Cross between individuals differing in one trait.
 
+<div class="table-wrap">
+
 | Genotype | Phenotype |
 | -------- | --------- |
 | AA       | Dominant  |
 | Aa       | Dominant  |
 | aa       | Recessive |
+
+</div>
 
 **Genotypic ratio (Aa $\times$ Aa):** 1 AA : 2 Aa : 1 aa **Phenotypic ratio:** 3 dominant : 1
 Recessive
@@ -139,7 +147,7 @@ A plant has purple flowers (dominant phenotype). To determine its genotype (PP o
 A white-flowered plant (pp).
 
 If the plant is PP: all offspring will be Pp (purple). If the plant is Pp: approximately half the
-Offspring will be Pp (purple) and half pp (white).
+offspring will be Pp (purple) and half pp (white).
 
 If any white-flowered offspring are produced, the parent must be heterozygous (Pp).
 
@@ -153,7 +161,7 @@ Dominant/second recessive : first recessive/second dominant : both recessive).
 **Worked Example: A complete dihybrid cross.**
 
 In peas, round seeds (R) are dominant over wrinkled (r), and yellow seeds (Y) are dominant over
-Green (y). Cross RrYy $\times$ RrYy.
+green (y). Cross RrYy $\times$ RrYy.
 
 Parental genotypes: RrYy $\times$ RrYy
 
@@ -161,12 +169,16 @@ Gametes from each parent: RY, Ry, rY, ry (four types, each equally likely)
 
 Punnett square (4 $\times$ 4):
 
+<div class="table-wrap">
+
 |     | RY   | Ry   | rY   | ry   |
 | --- | ---- | ---- | ---- | ---- |
 | RY  | RRYY | RRYy | RrYY | RrYy |
 | Ry  | RRYy | RRyy | RrYy | Rryy |
 | rY  | RrYY | RrYy | rrYY | rrYy |
 | ry  | RrYy | Rryy | rrYy | rryy |
+
+</div>
 
 Phenotypic ratio: 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green.
 
@@ -186,7 +198,9 @@ Antigens.
 ### Multiple Alleles
 
 More than two alleles exist for a gene in the population. Example: ABO blood group has three
-Alleles: $I^A$, $I^B$ And $i$.
+alleles: $I^A$, $I^B$ And $i$.
+
+<div class="table-wrap">
 
 | Genotype             | Blood Type       |
 | -------------------- | ---------------- |
@@ -194,6 +208,8 @@ Alleles: $I^A$, $I^B$ And $i$.
 | $I^B I^B$ or $I^B i$ | B                |
 | $I^A I^B$            | AB (codominance) |
 | $ii$                 | O                |
+
+</div>
 
 ### Sex-Linked Inheritance
 
@@ -204,10 +220,14 @@ Example: Red-green color blindness and hemophilia are X-linked recessive.
 
 **Cross:** Carrier female ($X^NX^n$) $\times$ normal male ($X^NY$):
 
+<div class="table-wrap">
+
 |       | $X^N$                     | $Y$                    |
 | ----- | ------------------------- | ---------------------- |
 | $X^N$ | $X^NX^N$ (normal female)  | $X^NY$ (normal male)   |
 | $X^n$ | $X^NX^n$ (carrier female) | $X^nY$ (affected male) |
+
+</div>
 
 **Phenotypic ratio:** 1 normal female : 1 carrier female : 1 normal male : 1 affected male.
 
@@ -231,7 +251,7 @@ Genes A, B, and C are on the same chromosome. The recombination frequencies are:
 A-B: 12% B-C: 8% A-C: 4%
 
 The gene order is A--C--B (not A--B--C), because the recombination frequency between A and C (4%) is
-Less than between A and B (12%). If the order were A--B--C, the A-C distance would be 20%, not 4%.
+less than between A and B (12%). If the order were A--B--C, the A-C distance would be 20%, not 4%.
 
 The map is:
 
@@ -246,17 +266,21 @@ One gene masks or modifies the expression of another gene.
 **Example:** Coat color in Labrador retrievers. Gene B determines pigment (B = black, b = brown).
 Gene E determines deposition (E = pigment deposited, e = no pigment deposited).
 
+<div class="table-wrap">
+
 |     | E\_   | ee     |
 | --- | ----- | ------ |
 | B\_ | Black | Yellow |
 | bb  | Brown | Yellow |
+
+</div>
 
 Ratio: 9 black : 3 brown : 4 yellow.
 
 ### Pleiotropy
 
 One gene affects multiple, seemingly unrelated phenotypic traits. Example: Marfan syndrome affects
-The skeleton, eyes, and cardiovascular system.
+the skeleton, eyes, and cardiovascular system.
 
 ### Polygenic Inheritance
 
@@ -273,7 +297,9 @@ Phenotypes due to different environments.
 ### Nondisjunction
 
 Failure of homologous chromosomes or sister chromatids to separate during meiosis, producing gametes
-With abnormal chromosome numbers.
+with abnormal chromosome numbers.
+
+<div class="table-wrap">
 
 | Condition                  | Cause               | Description                                             |
 | -------------------------- | ------------------- | ------------------------------------------------------- |
@@ -283,6 +309,8 @@ With abnormal chromosome numbers.
 | Klinefelter (XXY)          | Extra X in male     | Male with some female characteristics                   |
 | Turner (XO)                | Missing X in female | Female, sterile, short stature                          |
 | XYY                        | Extra Y in male     | Tall, normal                                            |
+
+</div>
 
 ### Structural Abnormalities
 
@@ -402,21 +430,23 @@ With abnormal chromosome numbers.
 ## Review: Chromosomal Theory of Inheritance and Linked Genes
 
 The chromosomal theory of inheritance states that genes are located on chromosomes and that the
-Behaviour of chromosomes during meiosis accounts for inheritance patterns.
+behaviour of chromosomes during meiosis accounts for inheritance patterns.
 
 **Linked genes:** Genes located on the same chromosome tend to be inherited together because they
 Are physically connected. This violates Mendel's law of independent assortment, which only applies
-To genes on different chromosomes.
+to genes on different chromosomes.
 
 **Crossing over and recombination:** During Prophase I of meiosis, homologous chromosomes pair up
 And exchange segments at chiasmata. Crossing over can separate linked genes if it occurs between
-Them. The probability of crossing over between two genes is proportional to the distance between
-Them: genes that are farther apart are more likely to be separated by crossing over.
+them. The probability of crossing over between two genes is proportional to the distance between
+them: genes that are farther apart are more likely to be separated by crossing over.
 
 **Recombination frequency:** The percentage of offspring that are recombinant (have a non-parental
 Combination of alleles).
 
-$$\mathrm{Recombination frequency = \frac{\mathrm{Number of recombinant offspring}{\mathrm{Total offspring} \times 100$$
+$$
+\mathrm{Recombination frequency = \frac{\mathrm{Number of recombinant offspring}{\mathrm{Total offspring} \times 100
+$$
 
 - 1% recombination = 1 centimorgan (cM) or 1 map unit.
 - Maximum recombination frequency of 50% means the genes are effectively unlinked (on different
@@ -425,7 +455,7 @@ $$\mathrm{Recombination frequency = \frac{\mathrm{Number of recombinant offsprin
 **Worked Example: Three-point cross and gene mapping.**
 
 A three-point cross involves three linked genes and provides more accurate gene mapping than a
-Two-point cross because it can detect double crossovers.
+two-point cross because it can detect double crossovers.
 
 Genes A, B, and C are linked in the order A--B--C. The parental gametes are ABC and abc. A test
 Cross produces the following offspring:
@@ -443,13 +473,17 @@ Total offspring: 728.
 
 Recombination frequency between A and B:
 
-$$\frac{30 + 28 + 5 + 3}{728} \times 100 = \frac{66}{728} \times 100 \approx 9.1\%$$
+$$
+\frac{30 + 28 + 5 + 3}{728} \times 100 = \frac{66}{728} \times 100 \approx 9.1\%
+$$
 
 So A and B are approximately 9.1 cM apart.
 
 Recombination frequency between B and C:
 
-$$\frac{15 + 17 + 5 + 3}{728} \times 100 = \frac{40}{728} \times 100 \approx 5.5\%$$
+$$
+\frac{15 + 17 + 5 + 3}{728} \times 100 = \frac{40}{728} \times 100 \approx 5.5\%
+$$
 
 So B and C are approximately 5.5 cM apart.
 
@@ -461,26 +495,28 @@ Side from A.
 **Why double crossovers matter:** Without the three-point cross, the observed recombination
 Frequency between A and C would be:
 
-$$\frac{30 + 28 + 15 + 17 + 5 + 3}{728} \times 100 = \frac{98}{728} \times 100 \approx 13.5\%$$
+$$
+\frac{30 + 28 + 15 + 17 + 5 + 3}{728} \times 100 = \frac{98}{728} \times 100 \approx 13.5\%
+$$
 
 But the actual distance is $9.1 + 5.5 = 14.6$ cM. The double crossovers make the A-C distance appear
 Shorter than it really is because they swap the alleles back to the parental arrangement. The
-Three-point cross corrects for this by counting the double crossovers twice.
+three-point cross corrects for this by counting the double crossovers twice.
 
 ## Review: Sex Determination and Sex-Linked Traits in Detail
 
 **Mammalian sex determination:** The SRY gene (Sex-determining Region Y) on the Y chromosome
 Triggers testis development. In the absence of SRY, ovaries develop. Therefore, the default pathway
-Is female development; male development requires the SRY gene product.
+is female development; male development requires the SRY gene product.
 
 **Dosage compensation (X-inactivation):** Females have two X chromosomes while males have one. To
 Balance gene expression, one X chromosome in each female cell is randomly inactivated during early
 Embryonic development, forming a Barr body (a condensed, transcriptionally inactive X chromosome).
 
 X-inactivation was discovered by Mary Lyon (1961) and is called the Lyon hypothesis. Because
-Inactivation is random, female mammals are mosaics: different cells express different X chromosomes.
+inactivation is random, female mammals are mosaics: different cells express different X chromosomes.
 This is visible in calico cats (where coat colour is X-linked): only females can be calico because
-They have two X chromosomes with different colour alleles, and random X-inactivation produces
+they have two X chromosomes with different colour alleles, and random X-inactivation produces
 Patches of different colours.
 
 **Worked Example: Inheritance of X-linked haemophilia through three generations.**
@@ -489,23 +525,27 @@ Queen Victoria was a carrier of haemophilia ($X^HX^h$). Her husband was normal (
 
 Punnett square:
 
+<div class="table-wrap">
+
 |       | $X^H$              | $Y$                   |
 | ----- | ------------------ | --------------------- |
 | $X^H$ | $X^HX^H$ (normal)  | $X^HY$ (normal)       |
 | $X^h$ | $X^HX^h$ (carrier) | $X^hY$ (haemophiliac) |
 
+</div>
+
 Each daughter has a 50% chance of being a carrier. Each son has a 50% chance of having haemophilia.
 Historically, several of Queen Victoria's male descendants were affected by haemophilia, which
-Spread through the royal families of Europe.
+spread through the royal families of Europe.
 
 **Y-linked inheritance:** Genes on the Y chromosome are passed only from father to son. Examples
 Include the SRY gene (sex determination) and some genes involved in male fertility. Y-linked traits
-Are very rare because the Y chromosome is small and carries few genes.
+are very rare because the Y chromosome is small and carries few genes.
 
 ## Review: Polygenic Inheritance and Continuous Variation
 
 Most traits are influenced by multiple genes (polygenic inheritance), producing continuous variation
-That follows a normal distribution (bell curve).
+that follows a normal distribution (bell curve).
 
 **Examples of polygenic traits:** Height, skin colour, eye colour, intelligence, risk of developing
 Certain diseases (e.g., type 2 diabetes, heart disease).
@@ -513,22 +553,22 @@ Certain diseases (e.g., type 2 diabetes, heart disease).
 **Worked Example: Skin colour as a polygenic trait.**
 
 Skin colour in humans is influenced by at least 3 genes, each with two alleles (contributing dark or
-Light pigmentation). If a person is homozygous for all dark alleles (AABBCC), they have very dark
+light pigmentation). If a person is homozygous for all dark alleles (AABBCC), they have very dark
 Skin. If homozygous for all light alleles (aabbcc), they have very light skin. Most people have
-Intermediate genotypes, producing a range of skin colours. When two people with intermediate skin
+intermediate genotypes, producing a range of skin colours. When two people with intermediate skin
 Colour have children, the offspring show a continuous range of skin colours centred around the
-Parental average, following a normal distribution.
+parental average, following a normal distribution.
 
 **Environmental influence on polygenic traits:** Even strongly genetic traits are influenced by the
 Environment. Height, for example, is approximately 80% heritable, but nutrition during childhood has
 A significant effect. A person with genes for tall stature who is malnourished during childhood will
-Not reach their full genetic potential height.
+not reach their full genetic potential height.
 
 ## Review: Epigenetics and Gene Expression
 
 Epigenetics refers to heritable changes in gene expression that do not involve changes to the DNA
 Sequence. Epigenetic modifications can be influenced by environmental factors and can sometimes be
-Passed to offspring.
+passed to offspring.
 
 **DNA methylation:** Methyl groups ($-\mathrm{CH_3$) are added to cytosine bases, in CpG Islands
 near gene promoters. Methylation generally silences gene expression by preventing Transcription
@@ -541,11 +581,11 @@ Deacetylation (by histone deacetylases, HDACs) condenses chromatin and represses
 **Worked Example: Epigenetic effects of diet on gene expression.**
 
 The Agouti mouse model demonstrates how maternal diet can affect offspring phenotype through
-Epigenetic changes. Pregnant mice fed a diet rich in methyl donors (folic acid, vitamin B12,
+epigenetic changes. Pregnant mice fed a diet rich in methyl donors (folic acid, vitamin B12,
 Choline) produce offspring with brown coats and healthy weight. Mice fed a methyl-deficient diet
 Produce offspring with yellow coats, obesity, and increased cancer risk. The methyl-rich diet
 Increases DNA methylation at the Agouti gene locus, silencing the gene. This demonstrates that
-Environmental factors (diet) can alter epigenetic marks and affect phenotype.
+environmental factors (diet) can alter epigenetic marks and affect phenotype.
 
 ## Review: Mitochondrial Inheritance
 
@@ -557,10 +597,12 @@ Mitochondria are inherited almost exclusively from the mother. This is because:
 
 **Implications:** Mitochondrial disorders (e.g., Leber hereditary optic neuropathy, mitochondrial
 Myopathy) are always maternally inherited. An affected mother passes the disorder to all of her
-Children, but an affected father does not pass it to any of his children. Mitochondrial DNA is also
-Used in tracing maternal ancestry (mitochondrial Eve).
+children, but an affected father does not pass it to any of his children. Mitochondrial DNA is also
+used in tracing maternal ancestry (mitochondrial Eve).
 
 ## Review: Summary Table of Inheritance Patterns
+
+<div class="table-wrap">
 
 | Pattern              | Autosomal Dominant               | Autosomal Recessive                             | X-Linked Recessive            |
 | -------------------- | -------------------------------- | ----------------------------------------------- | ----------------------------- |
@@ -568,6 +610,8 @@ Used in tracing maternal ancestry (mitochondrial Eve).
 | Affected individuals | Both sexes equally               | Both sexes equally                              | Males much more frequently    |
 | Transmission         | Affected parent to 50% offspring | Two carrier parents can have affected offspring | Carrier mother to 50% of sons |
 | Skipping generations | No (vertical pattern)            | Yes (horizontal pattern)                        | Yes (through carrier females) |
+
+</div>
 
 ## Review: Genomic Imprinting
 
@@ -594,11 +638,11 @@ Depending on which parent contributed the affected chromosome.
 
 A woman with Angelman syndrome (deletion of maternal UBE3A region) has a child with a normal father.
 The child inherits a normal maternal chromosome 15 and a normal paternal chromosome 15. The child
-Will be unaffected because the paternal UBE3A allele is active in the relevant brain regions.
+will be unaffected because the paternal UBE3A allele is active in the relevant brain regions.
 
 However, if the same woman's brother (who has Prader-Willi syndrome due to the same deletion on his
-Paternal chromosome 15) has a child with a normal woman, the child will also be unaffected because
-It inherits a normal paternal chromosome 15 from the father.
+paternal chromosome 15) has a child with a normal woman, the child will also be unaffected because
+it inherits a normal paternal chromosome 15 from the father.
 
 ## Review: Variations in Inheritance -- Lethal Alleles
 
@@ -618,10 +662,14 @@ to be passed to offspring before symptoms appear.
 In mice, the allele for yellow coat colour (Y) is dominant over grey (y). However, YY is lethal
 (embryos die), while Yy is yellow and yy is grey. Crossing two yellow mice (Yy $\times$ Yy) gives:
 
+<div class="table-wrap">
+
 |     | Y   | y   |
 | --- | --- | --- |
 | Y   | YY  | Yy  |
 | y   | Yy  | yy  |
+
+</div>
 
 Expected genotypes: 1 YY : 2 Yy : 1 yy.
 
@@ -653,8 +701,8 @@ Abnormalities (severe expression). Rarely, an individual with the mutation shows
 ## Review: Uniparental Disomy
 
 Uniparental disomy (UPD) occurs when an individual receives two copies of a chromosome (or part of a
-Chromosome) from one parent and no copy from the other parent. This can result in the expression of
-Recessive disorders or imprinting disorders.
+chromosome) from one parent and no copy from the other parent. This can result in the expression of
+recessive disorders or imprinting disorders.
 
 **Types of UPD:**
 
@@ -666,7 +714,7 @@ Recessive disorders or imprinting disorders.
 
 **Clinical significance:** UPD can cause recessive disorders even if only one parent is a carrier.
 For example, if a child has maternal uniparental disomy for chromosome 7 and the mother is a carrier
-For cystic fibrosis (recessive), the child could be homozygous for the CF allele and have cystic
+for cystic fibrosis (recessive), the child could be homozygous for the CF allele and have cystic
 Fibrosis, even if the father is not a carrier.
 
 UPD for chromosomes with imprinted regions (e.g., chromosomes 7, 11, 15) can also cause imprinting
@@ -677,7 +725,7 @@ UPD of chromosome 15 causes Angelman syndrome.
 
 **Telomeres** are repetitive nucleotide sequences (TTAGGG in humans) at the ends of chromosomes.
 They protect the chromosome ends from degradation and prevent chromosomes from fusing with each
-Other.
+other.
 
 **The end-replication problem:** DNA polymerase cannot fully replicate the 3' end of the lagging
 Strand, so telomeres shorten with each cell division. After approximately 50-70 cell divisions,
@@ -692,8 +740,8 @@ Therapy.
 
 A skin cell divides 30 times. Each division shortens the telomere by approximately 50-200 base
 Pairs. After 30 divisions, the telomere has shortened by approximately 1500-6000 base pairs. When
-The telomere becomes too short, the cell enters senescence and can no longer divide. This limits the
-Regenerative capacity of tissues and contributes to ageing. In contrast, stem cells in the basal
+the telomere becomes too short, the cell enters senescence and can no longer divide. This limits the
+regenerative capacity of tissues and contributes to ageing. In contrast, stem cells in the basal
 Layer of the epidermis express telomerase, maintaining their telomere length and allowing continuous
 Skin renewal throughout life.
 
@@ -721,12 +769,12 @@ Chromosomal abnormalities. Techniques include:
 **Worked Example: Detecting a translocation using FISH.**
 
 A patient has suspected chronic myelogenous leukaemia (CML), which is caused by a translocation
-Between chromosomes 9 and 22 (the Philadelphia chromosome). A FISH probe specific to the BCR gene on
-Chromosome 22 (labelled red) and a probe specific to the ABL gene on chromosome 9 (labelled green)
+between chromosomes 9 and 22 (the Philadelphia chromosome). A FISH probe specific to the BCR gene on
+chromosome 22 (labelled red) and a probe specific to the ABL gene on chromosome 9 (labelled green)
 Are applied. In a normal cell, the red and green signals appear on separate chromosomes. In a CML
 Cell, a fused yellow signal appears on the Philadelphia chromosome, confirming the t(9;22)(q34;q11)
 Translocation. This test is both sensitive and specific, and results can be obtained within 24-48
-Hours.
+hours.
 
 ## Practice Problems
 
@@ -755,13 +803,19 @@ Single crossover between D and E: $\mathrm{DEf$ (60) and $\mathrm{deF$ (70).
 Single crossover between E and F: $\mathrm{Def$ (20) and $\mathrm{dEF$ (30).
 
 Recombination frequency D-E:
-$$\frac{60 + 70 + 15 + 25}{1000} \times 100 = \frac{170}{1000} \times 100 = 17.0\%$$
+$$
+\frac{60 + 70 + 15 + 25}{1000} \times 100 = \frac{170}{1000} \times 100 = 17.0\%
+$$
 
 Recombination frequency E-F:
-$$\frac{20 + 30 + 15 + 25}{1000} \times 100 = \frac{90}{1000} \times 100 = 9.0\%$$
+$$
+\frac{20 + 30 + 15 + 25}{1000} \times 100 = \frac{90}{1000} \times 100 = 9.0\%
+$$
 
 Recombination frequency D-F:
-$$\frac{60 + 70 + 20 + 30 + 15 + 25}{1000} \times 100 = \frac{220}{1000} \times 100 = 22.0\%$$
+$$
+\frac{60 + 70 + 20 + 30 + 15 + 25}{1000} \times 100 = \frac{220}{1000} \times 100 = 22.0\%
+$$
 
 Genetic map: D ---17.0 cM--- E ---9.0 cM--- F
 
@@ -775,8 +829,8 @@ Markers. Using corrected distance: D-F = $22.0 + 2 \times 4.0 = 26.0$ cM.
 <summary>Question 2: Hardy-Weinberg with selection</summary>
 
 In a population, cystic fibrosis (autosomal recessive) has an incidence of 1 in 2500. If individuals
-With cystic fibrosis have a fitness of 0 (they do not reproduce), what will the frequency of the
-Cystic fibrosis allele be after one generation of selection?
+with cystic fibrosis have a fitness of 0 (they do not reproduce), what will the frequency of the
+cystic fibrosis allele be after one generation of selection?
 
 </details>
 
@@ -792,7 +846,9 @@ Fitness values: $w_{AA} = 1$$w_{Aa} = 1$$w_{aa} = 0$.
 Mean fitness: $\bar{w} = p^2(1) + 2pq(1) + q^2(0) = 0.9604 + 0.0392 = 0.9996$.
 
 After selection, the frequency of the recessive allele is:
-$$q' = \frac{pq \cdot w_{Aa} + q^2 \cdot w_{aa}}{2\bar{w}} = \frac{0.98 \times 0.02 \times 1 + 0.0004 \times 0}{2 \times 0.9996} = \frac{0.0196}{1.9992} \approx 0.0098$$
+$$
+q' = \frac{pq \cdot w_{Aa} + q^2 \cdot w_{aa}}{2\bar{w}} = \frac{0.98 \times 0.02 \times 1 + 0.0004 \times 0}{2 \times 0.9996} = \frac{0.0196}{1.9992} \approx 0.0098
+$$
 
 After one generation of selection, the allele frequency drops from $q = 0.02$ to
 $q' \approx 0.0098$. The frequency approximately halves because homozygous recessive individuals are
@@ -804,7 +860,7 @@ Eliminated, removing two copies of the allele per affected individual.
 <summary>Question 3: Epistasis dihybrid cross</summary>
 
 In summer squash, white colour (W) is dominant over yellow (w), and disc-shaped fruit (D) is
-Dominant over sphere-shaped (d). When a white disc plant is crossed with a yellow sphere plant, all
+dominant over sphere-shaped (d). When a white disc plant is crossed with a yellow sphere plant, all
 F1 offspring are white disc. The F2 generation shows a ratio of 12 white : 3 yellow disc : 1 yellow
 Sphere. Explain the genetic basis for this ratio and determine the genotypes of the F2 phenotypes.
 
@@ -814,7 +870,7 @@ Sphere. Explain the genetic basis for this ratio and determine the genotypes of 
 <summary>Answer</summary>
 
 This is an example of dominant epistasis, where the dominant allele at one gene (W) masks the
-Expression of alleles at the other gene (D/d).
+expression of alleles at the other gene (D/d).
 
 The 12:3:1 ratio arises because:
 
@@ -839,7 +895,7 @@ Alleles.
 <summary>Question 4: Nondisjunction in meiosis I vs meiosis II</summary>
 
 A woman with normal karyotype (46, XX) has a child with Klinefelter syndrome (47, XXY). Explain two
-Different mechanisms by which this could occur: (a) nondisjunction in meiosis I of oogenesis and (b)
+different mechanisms by which this could occur: (a) nondisjunction in meiosis I of oogenesis and (b)
 Nondisjunction in meiosis II. In each case, show the gametes produced and the resulting zygote.
 
 </details>
@@ -858,10 +914,10 @@ Zygote: XX (egg) + Y (sperm) = XXY.
 
 (b) Nondisjunction in meiosis II: Meiosis I proceeds normally, producing secondary oocytes with one
 X each. In meiosis II, sister chromatids fail to separate in one cell, producing one XX gamete and
-One O gamete from that cell. When fertilised by a normal Y sperm, the XX gamete produces XXY.
+one O gamete from that cell. When fertilised by a normal Y sperm, the XX gamete produces XXY.
 
 Meiosis I: X and X (normal). Meiosis II: one X cell divides normally (X and X), the other has
-Nondisjunction (XX and O). Gametes: X, X, XX, O.
+nondisjunction (XX and O). Gametes: X, X, XX, O.
 
 Zygote: XX (egg) + Y (sperm) = XXY.
 
@@ -871,8 +927,8 @@ Zygote: XX (egg) + Y (sperm) = XXY.
 <summary>Question 5: Sex-linked cross with probability</summary>
 
 A woman who is a carrier for haemophilia ($X^HX^h$) and a man with normal clotting ($X^HY$) have two
-Children. What is the probability that both children are sons, both are colourblind, and both are
-Unaffected by haemophilia?
+children. What is the probability that both children are sons, both are colourblind, and both are
+unaffected by haemophilia?
 
 </details>
 
@@ -887,7 +943,9 @@ $X^H$ or $X^h$ from the carrier mother and Y from the father).
 For each son, the probability of being unaffected is 1/2.
 
 Probability that both children are sons AND both are unaffected:
-$$P = \left(\frac{1}{2}\right)^2 \times \left(\frac{1}{2}\right)^2 = \frac{1}{4} \times \frac{1}{4} = \frac{1}{16}$$
+$$
+P = \left(\frac{1}{2}\right)^2 \times \left(\frac{1}{2}\right)^2 = \frac{1}{4} \times \frac{1}{4} = \frac{1}{16}
+$$
 
 Breaking this down: P(both sons) = $(1/2)(1/2) = 1/4$. Given both are sons, P(both unaffected) =
 $(1/2)(1/2) = 1/4$. Combined: $1/4 \times 1/4 = 1/16$.
@@ -909,23 +967,16 @@ Gametes: $\text{T}, \text{t}$ and $\text{t}, \text{t}$
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | t   | Tt  | tt  |
 | t   | Tt  | tt  |
 
+</div>
+
 Phenotypic ratio: **1 tall : 1 dwarf** (or 50% tall, 50% dwarf)
-
-
-```mermaid
-flowchart TD
-    A[4_Heredity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

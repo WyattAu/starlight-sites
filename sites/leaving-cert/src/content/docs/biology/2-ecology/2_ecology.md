@@ -24,7 +24,7 @@ categories:
 
 Ecology is the study of the relationships between living organisms and their environment. This topic
 Covers ecosystems, food chains, nutrient cycles, population dynamics, and human impact on the
-Environment.
+environment.
 
 ## Ecosystems
 
@@ -49,6 +49,8 @@ Mineral availability.
 
 ### Trophic Levels (OL/HL)
 
+<div class="table-wrap">
+
 | Level              | Organisms                      |
 | ------------------ | ------------------------------ |
 | Producer           | Plants, algae (autotrophs)     |
@@ -56,6 +58,8 @@ Mineral availability.
 | Secondary consumer | Carnivores that eat herbivores |
 | Tertiary consumer  | Top carnivores                 |
 | Decomposer         | Bacteria, fungi                |
+
+</div>
 
 ### Food Chains and Food Webs (OL/HL)
 
@@ -112,7 +116,7 @@ This demonstrates that most energy is lost at each trophic level.
 Carbon is stored in:
 
 - Atmosphere (as $\mathrm{CO_2$)
-- Oceans (dissolved $\mathrm{CO_2$Carbonate rocks)
+- Oceans (dissolved $\mathrm{CO_2$ Carbonate rocks)
 - Fossil fuels (coal, oil, natural gas)
 - Living organisms (biomass)
 
@@ -163,7 +167,7 @@ The carrying capacity is the maximum population size that the environment can su
 **Worked Example: Exponential growth calculation.**
 
 A population of bacteria starts with 1000 cells and has a growth rate $r = 0.5$ per hour. What is
-The population after 10 hours?
+the population after 10 hours?
 
 $N = N_0 e^{rt} = 1000 \times e^{0.5 \times 10} = 1000 \times e^5 \approx 1000 \times 148.4 = 148,413$
 Cells.
@@ -180,6 +184,8 @@ Density).
 
 **Comparison of density-dependent and density-independent factors:**
 
+<div class="table-wrap">
+
 | Feature                 | Density-Dependent             | Density-Independent           |
 | ----------------------- | ----------------------------- | ----------------------------- |
 | Relationship to density | Effect increases with density | Effect independent of density |
@@ -187,11 +193,13 @@ Density).
 | Regulation type         | Intrinsic (self-regulating)   | Extrinsic (external)          |
 | Predictability          | More predictable              | Less predictable              |
 
+</div>
+
 ## Human Impact on the Environment (OL/HL)
 
 ### Pollution
 
-- **Air pollution:** $\mathrm{CO_2$$\mathrm{SO_2$$\mathrm{NO_x$Particulate matter.
+- **Air pollution:** $\mathrm{CO_2$$\mathrm{SO_2$$\mathrm{NO_x$ Particulate matter.
 - **Water pollution:** sewage, fertilisers (eutrophication), heavy metals, oil spills.
 - **Soil pollution:** pesticides, herbicides, industrial waste.
 
@@ -242,7 +250,7 @@ Strategies for conservation include:
 **Quadrat sampling:** for plants and slow-moving animals in a uniform habitat.
 
 Place a quadrat ( $1\mathrm{ m \times 1\mathrm{ m$) randomly and count organisms. Repeat and
-Calculate mean density.
+calculate mean density.
 
 **Transect sampling:** study changes along an environmental gradient (e.g., from sea shore inland).
 
@@ -254,7 +262,7 @@ Place quadrats at regular intervals along a line.
 
 ### Measuring Biodiversity (HL)
 
-**Simpson"s Diversity Index:**
+**Simpson's Diversity Index:**
 
 $$
 D = 1 - \sum \frac{n_i(n_i - 1)}{N(N - 1)}
@@ -328,9 +336,11 @@ See the examples integrated throughout the sections above.
 ## Review: Ecological Relationships
 
 Organisms within a community interact with each other in various ways. Understanding these
-Relationships is important for the Irish Leaving Certificate.
+relationships is important for the Irish Leaving Certificate.
 
 **Symbiosis:** A close, long-term interaction between two different species.
+
+<div class="table-wrap">
 
 | Type         | Effect on A | Effect on B | Example                                                                      |
 | ------------ | ----------- | ----------- | ---------------------------------------------------------------------------- |
@@ -340,6 +350,8 @@ Relationships is important for the Irish Leaving Certificate.
 | Predation    | +           | -           | Foxes eating rabbits; owls eating mice                                       |
 | Competition  | -           | -           | Two species competing for the same resource                                  |
 
+</div>
+
 **Competition:** Occurs when two organisms require the same limited resource (food, light, space,
 Mates). Intraspecific competition (between individuals of the same species) is more Intense than
 interspecific competition (between different species) because individuals of the same Species have
@@ -348,13 +360,13 @@ identical niche requirements.
 **Competitive exclusion principle:** Two species cannot occupy exactly the same ecological niche
 Indefinitely. One will eventually outcompete the other, leading to the exclusion of the weaker
 Competitor. In practice, species with similar niches coexist by resource partitioning (dividing the
-Resource to reduce direct competition).
+resource to reduce direct competition).
 
 **Worked Example: Resource partitioning.**
 
 Two species of warbler (birds) live in the same tree. Species A feeds on insects near the top of the
-Tree canopy, while species B feeds on insects near the trunk. Although both species eat insects from
-The same tree, they partition the resource spatially (different parts of the tree). This reduces
+tree canopy, while species B feeds on insects near the trunk. Although both species eat insects from
+the same tree, they partition the resource spatially (different parts of the tree). This reduces
 Direct competition and allows both species to coexist.
 
 ## Review: Human Impact on Ecosystems -- Detailed Case Studies
@@ -363,11 +375,11 @@ Direct competition and allows both species to coexist.
 
 Ireland has a significant proportion of Europe's remaining peat bogs. Peat bogs are important carbon
 Stores (they contain more carbon per hectare than forests) and provide unique habitats for
-Specialist species (sphagnum moss, insectivorous plants such as sundews).
+specialist species (sphagnum moss, insectivorous plants such as sundews).
 
 **Threats:** Peat has been harvested for fuel and horticulture for centuries. Drainage for
 Agriculture destroys the waterlogged conditions needed for peat formation. When peat bogs are
-Drained, the stored carbon is released as $\mathrm{CO_2$Contributing to climate change.
+drained, the stored carbon is released as $\mathrm{CO_2$ Contributing to climate change.
 
 **Conservation:** Raised bogs and blanket bogs are protected under EU law (Habitats Directive).
 Rewetting drained bogs can restore their function as carbon stores. Bord na Mona (the Irish peat
@@ -376,12 +388,12 @@ Board) has begun to transition away from peat harvesting towards renewable energ
 **Case study: Overfishing.**
 
 Overfishing occurs when fish are caught faster than they can reproduce. This depletes fish stocks
-And disrupts marine food webs.
+and disrupts marine food webs.
 
 **Example:** Atlantic cod stocks in the Grand Banks (off Newfoundland, Canada) collapsed in the
 Early 1990s after decades of overfishing. The cod population has not recovered despite a fishing
 Moratorium, demonstrating that ecosystems can be pushed beyond a tipping point from which recovery
-Is very slow or impossible.
+is very slow or impossible.
 
 **Solutions:** Fishing quotas, minimum mesh sizes (to allow young fish to escape), marine protected
 Areas where fishing is banned, and sustainable certification schemes (e.g., Marine Stewardship
@@ -412,15 +424,17 @@ Nitrogen-deficient, reducing plant growth.
 ## Review: Population Growth Curves
 
 **Exponential growth:** When resources are unlimited, populations grow exponentially
-($N = N_0 e^{rt}$Where $r$ is the intrinsic growth rate). A graph of population size against time
+($N = N_0 e^{rt}$ Where $r$ is the intrinsic growth rate). A graph of population size against time
 Shows a J-shaped curve.
 
 **Logistic growth:** In reality, resources are limited. As the population approaches the carrying
 Capacity ($K$), the growth rate slows. The graph shows an S-shaped (sigmoidal) curve.
 
-$$\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)$$
+$$
+\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)
+$$
 
-When $N$ is small compared to $K$Growth is nearly exponential. When $N$ approaches $K$Growth Slows
+When $N$ is small compared to $K$ Growth is nearly exponential. When $N$ approaches $K$ Growth Slows
 and the population stabilises.
 
 **Worked Example: Interpreting a population growth graph.**
@@ -429,15 +443,15 @@ A population of bacteria is grown in a flask with a fixed amount of nutrient. Th
 Rapidly at first (exponential phase), then the growth rate slows as nutrients are depleted and waste
 Products accumulate (deceleration phase). Eventually, the population stabilises (stationary phase)
 As the birth rate equals the death rate. The population size at this point is the carrying capacity
-For the flask. If the nutrients are not replenished, the population will decline (death phase) as
-Waste products become toxic.
+for the flask. If the nutrients are not replenished, the population will decline (death phase) as
+waste products become toxic.
 
 ## Review: Ecological Succession
 
 ### Primary Succession
 
 Primary succession occurs on previously bare, lifeless surfaces such as bare rock, sand dunes, or
-Volcanic lava.
+volcanic lava.
 
 **Stages:**
 
@@ -457,7 +471,7 @@ Volcanic lava.
 
 Secondary succession occurs where an existing community has been disturbed (e.g., after a forest
 Fire, abandoned farmland, or clear-felling). The soil is already present, so succession proceeds
-More rapidly than primary succession.
+more rapidly than primary succession.
 
 **Worked Example: Succession on a sand dune (common in Irish ecology).**
 
@@ -474,9 +488,11 @@ More rapidly than primary succession.
 
 A biome is a large geographical area with a characteristic climate and distinctive plant and animal
 Communities. Climate (particularly temperature and rainfall) is the primary factor determining the
-Type of biome.
+type of biome.
 
 **Major biomes:**
+
+<div class="table-wrap">
 
 | Biome                 | Climate                        | Vegetation                         |
 | --------------------- | ------------------------------ | ---------------------------------- |
@@ -487,12 +503,14 @@ Type of biome.
 | Desert                | Hot and dry / cold and dry     | Sparse, drought-resistant plants   |
 | Tundra                | Very cold, low rainfall        | Mosses, lichens, low shrubs        |
 
+</div>
+
 **Biome characteristics relevant to the Irish Leaving Certificate:**
 
 Ireland's temperate maritime climate (mild winters, cool summers, high rainfall) supports temperate
 Deciduous woodland as the natural climax community. However, much of Ireland's original woodland has
-Been cleared for agriculture, and grassland is now the dominant vegetation type. Raised bogs and
-Blanket bogs are significant Irish ecosystems that are rare internationally.
+been cleared for agriculture, and grassland is now the dominant vegetation type. Raised bogs and
+blanket bogs are significant Irish ecosystems that are rare internationally.
 
 **Worked Example: Adaptations of plants to different biomes.**
 
@@ -507,7 +525,7 @@ Blanket bogs are significant Irish ecosystems that are rare internationally.
 ## Review: The Phosphorus Cycle
 
 The phosphorus cycle differs from the carbon and nitrogen cycles in that phosphorus has no
-Significant gaseous phase. It cycles mainly between the land and water.
+significant gaseous phase. It cycles mainly between the land and water.
 
 **Key processes:**
 
@@ -523,15 +541,15 @@ Significant gaseous phase. It cycles mainly between the land and water.
 **Human impact on the phosphorus cycle:** Mining of phosphate rock for fertiliser has greatly
 Accelerated the rate at which phosphorus enters the ecosystem. Excess phosphate in water bodies
 Contributes to eutrophication. Phosphate is a non-renewable resource on human timescales, and
-Reserves are being depleted.
+reserves are being depleted.
 
 **Worked Example: Phosphorus and aquatic ecosystems.**
 
 Phosphorus is often the limiting nutrient in freshwater ecosystems. When excess phosphate enters a
-Lake from fertiliser runoff or sewage, it stimulates rapid algal growth (algal bloom). The algae
+lake from fertiliser runoff or sewage, it stimulates rapid algal growth (algal bloom). The algae
 Block light, killing aquatic plants. Dead algae and plants are decomposed by bacteria, which use up
-Dissolved oxygen. Fish and other aquatic organisms die due to oxygen depletion. This is another
-Pathway to eutrophication, alongside nitrogen enrichment.
+dissolved oxygen. Fish and other aquatic organisms die due to oxygen depletion. This is another
+pathway to eutrophication, alongside nitrogen enrichment.
 
 ## Review: Indicator Species and Pollution Monitoring
 
@@ -571,7 +589,7 @@ A student samples macroinvertebrates from two sites on a river:
   polluted water, low dissolved oxygen.
 
 The absence of sensitive species and the presence of tolerant species at Site B indicate that the
-Water quality has deteriorated downstream of the sewage outfall.
+water quality has deteriorated downstream of the sewage outfall.
 
 ## Review: Conservation Strategies in Ireland
 
@@ -606,14 +624,14 @@ EU law. These areas protect important habitats and species.
 **Worked Example: Evaluating a conservation strategy.**
 
 A proposed wind farm development would be located on an area of blanket bog that is designated as a
-Special Area of Conservation. The wind farm would generate renewable energy (reducing $\mathrm{CO_2$
+special Area of Conservation. The wind farm would generate renewable energy (reducing $\mathrm{CO_2$
 Emissions and helping to combat climate change) but would destroy the bog habitat and fragment the
-Populations of specialist bog species.
+populations of specialist bog species.
 
 This is an example of a conflict between two conservation goals: reducing carbon emissions and
-Protecting biodiversity. An environmental impact assessment would be required to evaluate the
-Trade-offs and propose mitigation measures (e.g., routing turbine access roads to avoid the most
-Sensitive areas, creating compensatory habitat elsewhere).
+protecting biodiversity. An environmental impact assessment would be required to evaluate the
+trade-offs and propose mitigation measures (e.g., routing turbine access roads to avoid the most
+sensitive areas, creating compensatory habitat elsewhere).
 
 **Census techniques for estimating population size:**
 
@@ -623,13 +641,17 @@ When it is impractical to count every individual in a population, biologists use
    placed randomly, and organisms within it are counted. The population is estimated by multiplying
    the mean number per quadrat by the total area.
 
-   $$\mathrm{Estimated population = \frac{\mathrm{Mean number per quadrat}{\mathrm{Area of quadrat} \times \mathrm{Total area$$
+   $$
+   \mathrm{Estimated population = \frac{\mathrm{Mean number per quadrat}{\mathrm{Area of quadrat} \times \mathrm{Total area
+   $$
 
 2. **Mark-release-recapture (Lincoln index):** Used for mobile animals. Animals are captured,
    marked, released, and then a second sample is captured. The proportion of marked animals in the
    second sample equals the proportion of marked animals in the total population:
 
-   $$N = \frac{M \times C}{R}$$
+   $$
+   N = \frac{M \times C}{R}
+   $$
 
 where $N$ = estimated population size, $M$ = number marked in first sample, $C$ = total captured in
 second sample, $R$ = number of marked individuals recaptured.
@@ -649,28 +671,30 @@ second sample, $R$ = number of marked individuals recaptured.
 **Worked Example: Estimating a population using the Lincoln index.**
 
 A biologist captures and marks 80 woodlice. The next day, she captures 100 woodlice, of which 20 are
-Marked. What is the estimated population size?
+marked. What is the estimated population size?
 
-$$N = \frac{80 \times 100}{20} = \frac{8000}{20} = 400$$
+$$
+N = \frac{80 \times 100}{20} = \frac{8000}{20} = 400
+$$
 
 The estimated population is 400 woodlice.
 
 **Ecological niche and competitive exclusion:**
 
 Each species occupies a unique ecological niche -- its role in the ecosystem, including the
-Resources it uses, its interactions with other species, and the environmental conditions it
-Requires. The competitive exclusion principle states that two species cannot coexist indefinitely if
-They occupy exactly the same niche. One species will outcompete the other, leading to competitive
+resources it uses, its interactions with other species, and the environmental conditions it
+requires. The competitive exclusion principle states that two species cannot coexist indefinitely if
+they occupy exactly the same niche. One species will outcompete the other, leading to competitive
 Exclusion.
 
 In practice, closely related species often coexist because they have slightly different niches
 (resource partitioning). For example, different species of warblers in a forest may feed at
-Different heights in the canopy, reducing direct competition.
+different heights in the canopy, reducing direct competition.
 
 **The carbon cycle:**
 
 Carbon is the backbone of all organic molecules. The carbon cycle describes the movement of carbon
-Between the atmosphere, biosphere, oceans, and geosphere.
+between the atmosphere, biosphere, oceans, and geosphere.
 
 **Key processes in the carbon cycle:**
 
@@ -693,12 +717,12 @@ Between the atmosphere, biosphere, oceans, and geosphere.
 
 Since the Industrial Revolution, the burning of fossil fuels and deforestation have significantly
 Increased atmospheric $\mathrm{CO_2$ concentration from approximately 280 ppm to over 420 ppm. This
-Enhanced greenhouse effect is the primary driver of current climate change.
+enhanced greenhouse effect is the primary driver of current climate change.
 
 **Deforestation and the carbon cycle:**
 
 Trees store large amounts of carbon in their biomass (trunks, branches, roots). When forests are
-Cleared:
+cleared:
 
 - The stored carbon is released as $\mathrm{CO_2$ if the wood is burned or left to rot.
 - The loss of trees reduces the rate of photosynthesis, decreasing the rate at which $\mathrm{CO_2$
@@ -708,18 +732,22 @@ Cleared:
 **Worked Example: Calculating net carbon flux.**
 
 A forest absorbs 5000 tonnes of $\mathrm{CO_2$ per year through photosynthesis. The plants and
-Animals in the forest release 3000 tonnes of $\mathrm{CO_2$ per year through respiration.
+animals in the forest release 3000 tonnes of $\mathrm{CO_2$ per year through respiration.
 Decomposers Release 800 tonnes per year. What is the net carbon flux?
 
-$$\mathrm{Net flux = \mathrm{Photosynthesis - \mathrm{Respiration - \mathrm{Decomposition$$
-$$\mathrm{Net flux = 5000 - 3000 - 800 = 1200 \mathrm{ tonnes of  \mathrm{CO_2 \mathrm{ absorbed per year$$
+$$
+\mathrm{Net flux = \mathrm{Photosynthesis - \mathrm{Respiration - \mathrm{Decomposition
+$$
+$$
+\mathrm{Net flux = 5000 - 3000 - 800 = 1200 \mathrm{ tonnes of  \mathrm{CO_2 \mathrm{ absorbed per year
+$$
 
 The forest is a net carbon sink, absorbing 1200 tonnes of $\mathrm{CO_2$ per year.
 
 **Eutrophication:**
 
 Eutrophication is the over-enrichment of water bodies with nutrients (particularly nitrates and
-Phosphates), leading to excessive growth of algae and subsequent oxygen depletion.
+phosphates), leading to excessive growth of algae and subsequent oxygen depletion.
 
 **Stages of eutrophication:**
 
@@ -742,17 +770,6 @@ Phosphates), leading to excessive growth of algae and subsequent oxygen depletio
 - Treating sewage to remove nitrates and phosphates before discharge.
 - Using phosphate-free detergents.
 - Reducing livestock density near waterways.
-
-
-```mermaid
-flowchart TD
-    A[2_Ecology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

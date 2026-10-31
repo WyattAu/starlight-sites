@@ -24,20 +24,24 @@ categories:
 
 ### Types of Bonds
 
+<div class="table-wrap">
+
 | Bond Type         | Description                             | Electronegativity Difference |
 | ----------------- | --------------------------------------- | ---------------------------- |
 | Ionic             | Transfer of electrons; metal + nonmetal | $\gt 1.7$                    |
 | Polar Covalent    | Unequal sharing of electrons            | $0.4$ -- $1.7$               |
 | Nonpolar Covalent | Equal sharing of electrons              | $\lt 0.4$                    |
 
+</div>
+
 The distinction between ionic and covalent bonding is not always sharp. Bonds with electronegativity
 Differences near the boundary ($\approx 1.7$) have significant ionic and covalent character. Bonding
-Is better described as a continuum rather than a discrete set of categories.
+is better described as a continuum rather than a discrete set of categories.
 
 ### Ionic Bonding
 
 Ionic compounds consist of cations and anions held together by electrostatic attraction in a
-Three-dimensional lattice.
+three-dimensional lattice.
 
 **Lattice energy** ($U$): the energy released when gaseous ions form one mole of solid ionic
 Compound:
@@ -47,8 +51,8 @@ U \propto \frac{|z_+ \cdot z_-|}{r_+ + r_-}
 $$
 
 Higher charges and smaller ionic radii lead to larger (more negative) lattice energy. This is a
-Direct consequence of Coulomb"s law: the electrostatic attraction is proportional to the product of
-The charges and inversely proportional to the distance between them.
+direct consequence of Coulomb's law: the electrostatic attraction is proportional to the product of
+the charges and inversely proportional to the distance between them.
 
 **Example:** MgO has a much higher lattice energy than NaCl because Mg$^{2+}$ and O$^{2-}$ carry
 Double charges compared to Na$^+$ and Cl$^-$.
@@ -58,11 +62,15 @@ Double charges compared to Na$^+$ and Cl$^-$.
 The Born-Haber cycle applies Hess's law to calculate lattice energy from measurable quantities. For
 NaCl:
 
-$$\Delta H_f^\circ = \Delta H_{\mathrm{sub} + IE_1 + \frac{1}{2}D_{\mathrm{Cl_2} + EA_{\mathrm{Cl} + U$$
+$$
+\Delta H_f^\circ = \Delta H_{\mathrm{sub} + IE_1 + \frac{1}{2}D_{\mathrm{Cl_2} + EA_{\mathrm{Cl} + U
+$$
 
 Solving for $U$:
 
-$$U = \Delta H_f^\circ - \Delta H_{\mathrm{sub} - IE_1 - \frac{1}{2}D_{\mathrm{Cl_2} - EA_{\mathrm{Cl}$$
+$$
+U = \Delta H_f^\circ - \Delta H_{\mathrm{sub} - IE_1 - \frac{1}{2}D_{\mathrm{Cl_2} - EA_{\mathrm{Cl}
+$$
 
 Each term represents a step in forming the ionic solid from its elements. The lattice energy $U$ is
 the largest (most negative) term, reflecting the strong electrostatic attraction in the Ionic
@@ -71,7 +79,7 @@ lattice.
 ### Covalent Bonding
 
 A covalent bond forms when atoms share one or more pairs of electrons. The shared electrons are
-Attracted to both nuclei simultaneously, which lowers the potential energy and holds the atoms
+attracted to both nuclei simultaneously, which lowers the potential energy and holds the atoms
 Together.
 
 - **Single bond:** 1 shared pair ($\sigma$ bond)
@@ -83,11 +91,15 @@ Together.
 - Bond length decreases as bond order increases (more shared electrons pull nuclei closer).
 - Bond energy increases as bond order increases (more shared electrons = stronger bond).
 
+<div class="table-wrap">
+
 | Bond Type  | Typical Length (pm) | Typical Energy (kJ/mol) |
 | ---------- | ------------------- | ----------------------- |
 | C--C       | 154                 | 347                     |
 | C=C        | 134                 | 614                     |
 | C$\equiv$C | 120                 | 839                     |
+
+</div>
 
 The trend is consistent: as bond order increases, the nuclei are pulled closer together (shorter
 Bond) and the bond becomes stronger (higher energy). This is because each additional shared pair
@@ -116,8 +128,8 @@ Where $V$ = valence electrons of the free atom, $N$ = nonbonding electrons on th
 Bonding electrons shared by the atom.
 
 The best Lewis structure minimises formal charges and places negative formal charges on more
-Electronegative atoms. If formal charges must be non-zero, adjacent atoms should not carry the same
-Sign charge.
+electronegative atoms. If formal charges must be non-zero, adjacent atoms should not carry the same
+sign charge.
 
 :::note[Example]
 Draw the Lewis structure for $\mathrm{SO_4^{2-}$ with formal charges.
@@ -130,7 +142,7 @@ Complete octets on each O: $4 \times 6 = 24$ electrons. All 32 used.
 
 Formal charges: S has $6 - 0 - 8/2 = +2$. Each O has $6 - 6 - 2/2 = -1$.
 
-This gives total charge $+2 + 4(-1) = -2$Which is correct, but the formal charges are large.
+This gives total charge $+2 + 4(-1) = -2$ Which is correct, but the formal charges are large.
 
 **Better structure:** Form two S=O double bonds. S has $6 - 0 - 12/2 = 0$ (double-bonded O). For
 Double-bonded O: $6 - 4 - 4/2 = 0$. For single-bonded O: $6 - 6 - 2/2 = -1$.
@@ -156,7 +168,7 @@ Bond on a different oxygen.
 ### Resonance
 
 When multiple Lewis structures (resonance structures) are possible, the actual molecule is a hybrid
-Of all resonance forms. The actual bond order is the average.
+of all resonance forms. The actual bond order is the average.
 :::
 
 :::note[Example: Ozone]
@@ -185,10 +197,12 @@ exceptional stability.
 ## VSEPR Theory (CED Unit 2)
 
 Valence Shell Electron Pair Repulsion (VSEPR) predicts molecular geometry based on the repulsion
-Between electron pairs (both bonding and lone pairs). The key idea is that electron pairs arrange
+between electron pairs (both bonding and lone pairs). The key idea is that electron pairs arrange
 Themselves to be as far apart as possible.
 
 ### Electron Domain Geometry
+
+<div class="table-wrap">
 
 | Electron Domains | Geometry             | Bond Angles           |
 | ---------------- | -------------------- | --------------------- |
@@ -198,7 +212,11 @@ Themselves to be as far apart as possible.
 | 5                | Trigonal bipyramidal | $90^\circ$$120^\circ$ |
 | 6                | Octahedral           | $90^\circ$            |
 
+</div>
+
 ### Molecular Geometry (Accounting for Lone Pairs)
+
+<div class="table-wrap">
 
 | Domains | Bonding | Lone | Shape                | Example                |
 | ------- | ------- | ---- | -------------------- | ---------------------- |
@@ -216,21 +234,23 @@ Themselves to be as far apart as possible.
 | 6       | 5       | 1    | Square pyramidal     | $\mathrm{BrF_5$        |
 | 6       | 4       | 2    | Square planar        | $\mathrm{XeF_4$        |
 
+</div>
+
 ### Lone Pair Repulsion Order
 
 Lone pair--lone pair $\gt$ lone pair--bond pair $\gt$ bond pair--bond pair
 
 This is why bond angles decrease when lone pairs are present (e.g., $\mathrm{H_2\mathrm{O$ at
 $104.5^\circ$ vs ideal $109.5^\circ$). A lone pair occupies more space than a bonding pair because
-It is attracted to only one nucleus, whereas a bonding pair is attracted to two nuclei and is
-Therefore more compressed.
+it is attracted to only one nucleus, whereas a bonding pair is attracted to two nuclei and is
+therefore more compressed.
 
 ### Axial vs. Equatorial Positions in Trigonal Bipyramidal
 
 In a trigonal bipyramidal geometry, there are two types of positions: axial (90$^\circ$ from three
-Equatorial atoms) and equatorial (120$^\circ$ from two equatorial atoms, 90$^\circ$ from two axial
+equatorial atoms) and equatorial (120$^\circ$ from two equatorial atoms, 90$^\circ$ from two axial
 Atoms). Lone pairs preferentially occupy equatorial positions because this minimises repulsion (only
-Two 90$^\circ$ interactions instead of three).
+two 90$^\circ$ interactions instead of three).
 
 **Worked Example.** Determine the molecular geometry of $\mathrm{SF_4$.
 
@@ -252,9 +272,11 @@ $$
 $$
 
 Where $q$ is the partial charge and $d$ is the distance between charges. The dipole moment is a
-Vector quantity; the overall molecular dipole is the vector sum of all bond dipoles.
+vector quantity; the overall molecular dipole is the vector sum of all bond dipoles.
 
 ### Examples
+
+<div class="table-wrap">
 
 | Molecule                   | Polar Bonds? | Symmetric?                        | Polar? |
 | -------------------------- | ------------ | --------------------------------- | ------ |
@@ -265,10 +287,12 @@ Vector quantity; the overall molecular dipole is the vector sum of all bond dipo
 | $\mathrm{BF_3$             | Yes (B--F)   | Yes (trigonal planar)             | No     |
 | $\mathrm{CH_2\mathrm{Cl_2$ | Yes          | No (tetrahedral, not symmetrical) | Yes    |
 
+</div>
+
 ## Intermolecular Forces (CED Unit 3)
 
 Intermolecular forces (IMFs) are weaker than intramolecular bonds but determine physical properties
-Like boiling point, melting point, and solubility.
+like boiling point, melting point, and solubility.
 
 ### Types of IMFs (Weakest to Strongest)
 
@@ -331,12 +355,16 @@ Interactions is insufficient to overcome the lattice energy.
 
 ### Summary: IMF Types and Properties
 
+<div class="table-wrap">
+
 | IMF Type         | Present In             | Strength Order | Effect on Boiling Point |
 | ---------------- | ---------------------- | -------------- | ----------------------- |
 | London (LDF)     | All molecules          | Weakest        | Increases with size     |
 | Dipole-dipole    | Polar molecules        | Moderate       | Moderate increase       |
 | Hydrogen bonding | H bonded to N, O, or F | Strongest      | Large increase          |
 | Ion-dipole       | Ionic + polar solvent  | Strongest IMF  | Dissolution             |
+
+</div>
 
 ## Hybridization (CED Unit 2)
 
@@ -397,11 +425,15 @@ The six C--C bonds are equivalent, each with bond order 1.5.
 ## Bonding Continuum and Partial Ionic Character
 
 The distinction between ionic and covalent bonding is not absolute. Bonds exist on a continuum from
-Pure covalent (zero electronegativity difference) to ionic (large electronegativity difference).
+pure covalent (zero electronegativity difference) to ionic (large electronegativity difference).
 
 Percent ionic character can be estimated from the electronegativity difference:
 
-$$\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100$$
+$$
+\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100
+$$
+
+<div class="table-wrap">
 
 | $\Delta\chi$ | % Ionic Character | Bond Example |
 | ------------ | ----------------- | ------------ |
@@ -412,8 +444,10 @@ $$\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \t
 | 2.1          | 67%               | Mg-O         |
 | 3.0          | 89%               | Cs-F         |
 
+</div>
+
 Even a bond like Na-Cl has some covalent character because the chloride ion is polarizable and the
-Sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
+sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
 
 ## Worked Example: Formal Charge Calculations
 
@@ -433,7 +467,7 @@ Structure 3: $\mathrm{N-\mathrm{N\equiv\mathrm{O$: N(left) = $5 - 6 - 2/2 = -2$;
 $5 - 0 - 6/2 = +2$; O = $6 - 2 - 6/2 = +1$.
 
 Structure 1 is the best because the formal charges are closest to zero and the negative charge is on
-The more electronegative atom (oxygen).
+the more electronegative atom (oxygen).
 
 ## Detailed Worked Example: VSEPR with Multiple Lone Pairs
 
@@ -461,7 +495,7 @@ Structure 2: $\mathrm{N=\mathrm{N=\mathrm{O$: N(left) FC = -1; N(right) FC = +1;
 Structure 3: $\mathrm{N-\mathrm{N\equiv\mathrm{O$: N(left) FC = -2; N(right) FC = +2; O FC = +1.
 
 Structure 1 is the best because the formal charges are closest to zero and the negative charge is on
-The more electronegative atom (oxygen). Structure 3 can be eliminated because it has the largest
+the more electronegative atom (oxygen). Structure 3 can be eliminated because it has the largest
 Formal charges.
 
 ### Worked Example: VSEPR for Complex Molecules
@@ -483,7 +517,7 @@ Oxygen (in C-OH): 2 bonding domains, 2 lone pairs. Bent, approximately 109.5 deg
 **Example.** Is $\mathrm{SF_4$ polar?
 
 S has 5 electron domains (4 bonding, 1 lone pair). Seesaw geometry. The bond dipoles do not cancel
-Because the geometry is not symmetric (the lone pair distorts the structure). Therefore,
+because the geometry is not symmetric (the lone pair distorts the structure). Therefore,
 $\mathrm{SF_4$ is polar.
 
 Compare with $\mathrm{XeF_4$: 6 electron domains (4 bonding, 2 lone pairs). Square planar. The bond
@@ -494,8 +528,8 @@ nonpolar.
 
 Hydrogen bonds are directional because they require a specific geometry: the hydrogen must be
 Colinear with the two electronegative atoms (donor-H...acceptor angle close to 180 degrees). This
-Maximises the electrostatic attraction between the partial positive hydrogen and the lone pair on
-The acceptor. Deviation from linearity weakens the hydrogen bond significantly.
+maximises the electrostatic attraction between the partial positive hydrogen and the lone pair on
+the acceptor. Deviation from linearity weakens the hydrogen bond significantly.
 
 This directionality explains many of water's unique properties. In ice, each water molecule forms
 Four hydrogen bonds in a tetrahedral arrangement, creating an open lattice structure with lower
@@ -504,11 +538,15 @@ Density than liquid water.
 ## Bonding Continuum and Partial Ionic Character
 
 The distinction between ionic and covalent bonding is not absolute. Bonds exist on a continuum from
-Pure covalent (zero electronegativity difference) to ionic (large electronegativity difference).
+pure covalent (zero electronegativity difference) to ionic (large electronegativity difference).
 
 Percent ionic character can be estimated from the electronegativity difference:
 
-$$\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100$$
+$$
+\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100
+$$
+
+<div class="table-wrap">
 
 | $\Delta\chi$ | % Ionic Character | Bond Example |
 | ------------ | ----------------- | ------------ |
@@ -519,8 +557,10 @@ $$\%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \t
 | 2.1          | 67%               | Mg-O         |
 | 3.0          | 89%               | Cs-F         |
 
+</div>
+
 Even a bond like Na-Cl has some covalent character because the chloride ion is polarizable and the
-Sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
+sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
 
 ### Worked Example: Bond Type Prediction
 
@@ -558,6 +598,8 @@ The C-O bond in methanol is polar covalent with approximately 18% ionic characte
 
 ## Comparison Table: IMF Types and Boiling Points
 
+<div class="table-wrap">
+
 | Substance              | Molar Mass | IMF Types          | Boiling Point ($^{\circ}\mathrm{C$) |
 | ---------------------- | ---------- | ------------------ | ----------------------------------- |
 | $\mathrm{CH_4$         | 16         | LDF only           | -161                                |
@@ -569,20 +611,14 @@ The C-O bond in methanol is polar covalent with approximately 18% ionic characte
 | $\mathrm{HCl$          | 36.5       | Dipole-dipole, LDF | -85                                 |
 | $\mathrm{H_2\mathrm{S$ | 34         | Dipole-dipole, LDF | -60                                 |
 
+</div>
+
 This table shows that hydrogen bonding produces dramatically higher boiling points than Other IMF
 types for similar molar masses.
 
-```mermaid
-flowchart TD
-    A[2_Bonding And Intermolecular Forces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Types of Chemical Bonds Compared
+
+<div class="table-wrap">
 
 | Property                     | Ionic              | Nonpolar Covalent     | Polar Covalent  | Metallic                |
 | ---------------------------- | ------------------ | --------------------- | --------------- | ----------------------- |
@@ -594,7 +630,11 @@ flowchart TD
 | Solubility                   | Polar solvents     | Nonpolar solvents     | Both            | Insoluble               |
 | Example                      | NaCl               | $\mathrm{O_2$         | HCl             | Cu, Fe                  |
 
+</div>
+
 ## Summary Table: Hybridization Quick Reference
+
+<div class="table-wrap">
 
 | Electron Domains | Hybridization | Geometry             | Bond Angles           | Examples                                           |
 | ---------------- | ------------- | -------------------- | --------------------- | -------------------------------------------------- |
@@ -603,6 +643,8 @@ flowchart TD
 | 4                | sp$^3$        | Tetrahedral          | 109.5$^\circ$         | $\mathrm{CH_4$$\mathrm{NH_3$$\mathrm{H_2\mathrm{O$ |
 | 5                | sp$^3$D       | Trigonal bipyramidal | 90$^\circ$120$^\circ$ | $\mathrm{PCl_5$                                    |
 | 6                | sp$^3$D$^2$   | Octahedral           | 90$^\circ$            | $\mathrm{SF_6$$\mathrm{XeF_4$                      |
+
+</div>
 
 ## Practice Questions
 
@@ -622,7 +664,7 @@ flowchart TD
 7. For each molecule, predict whether it is polar or nonpolar: $\mathrm{BrF_5$$\mathrm{XeF_4$
    $\mathrm{IF_3$$\mathrm{PF_5$.
 
-8. Draw the Lewis structure for $\mathrm{ClO_4^-$Determine the formal charge on each atom, and
+8. Draw the Lewis structure for $\mathrm{ClO_4^-$ Determine the formal charge on each atom, and
    describe the molecular geometry.
 
 9. Explain why $n$-butanol has a much higher boiling point than diethyl ether, despite having the
@@ -640,7 +682,7 @@ flowchart TD
 13. Compare and contrast the types of intermolecular forces present in liquid
     $\mathrm{CH_3\mathrm{F$ and liquid $\mathrm{CH_3\mathrm{OH$.
 
-14. Draw the Lewis structure for $\mathrm{SF_6$Determine the formal charges, and explain why sulfur
+14. Draw the Lewis structure for $\mathrm{SF_6$ Determine the formal charges, and explain why sulfur
     can accommodate 12 electrons around it.
 
 15. Which of the following can form hydrogen bonds with water: $\mathrm{CH_3\mathrm{OH$
@@ -661,14 +703,14 @@ flowchart TD
 20. Draw the Lewis structure for $\mathrm{ClF_3$ and explain why the molecule has a T-shaped
     geometry rather than a trigonal planar geometry.
 
-21. For the molecule $\mathrm{SO_3$Draw the Lewis structure, determine the hybridization of sulfur,
+21. For the molecule $\mathrm{SO_3$ Draw the Lewis structure, determine the hybridization of sulfur,
     and explain why all three S--O bonds have the same length despite one being a double bond in the
     Lewis structure.
 
 22. Explain why $\mathrm{HF$ has a higher boiling point than $\mathrm{HCl$ even though $\mathrm{HCl$
     has a larger molar mass.
 
-23. Draw the Lewis structure for $\mathrm{XeF_4$Determine the formal charge on each atom, and
+23. Draw the Lewis structure for $\mathrm{XeF_4$ Determine the formal charge on each atom, and
     explain the square planar geometry.
 
 24. Calculate the number of sigma and pi bonds in
@@ -696,7 +738,7 @@ flowchart TD
 31. Calculate the percent ionic character of the H-F bond. Is it more accurate to describe this bond
     as covalent or ionic?
 
-32. Draw the Lewis structure for $\mathrm{ClO_2^-$Determine the molecular geometry, and predict
+32. Draw the Lewis structure for $\mathrm{ClO_2^-$ Determine the molecular geometry, and predict
     whether the ion is polar.
 
 33. Explain why the boiling point of $\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CH_2\mathrm{OH$
@@ -704,7 +746,7 @@ flowchart TD
     $\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CH_3$ ($0^{\circ}\mathrm{C$) by more than can be
     explained by the difference in molar mass alone.
 
-34. For the molecule $\mathrm{BF_3\mathrm{NH_3$Determine the hybridization of both boron and
+34. For the molecule $\mathrm{BF_3\mathrm{NH_3$ Determine the hybridization of both boron and
     nitrogen, and identify the type of bond formed between them.
 
 35. Explain why carbon tetrachloride ($\mathrm{CCl_4$) does not conduct electricity in any state,
@@ -725,7 +767,7 @@ Why this structure is preferred over alternative arrangements. Calculate the ave
 
 The best Lewis structure has sulfur as the central atom with four equivalent resonance structures.
 Each S-O bond is shown as a single bond in the skeleton, with sulfur making double bonds to two
-Oxygens and single bonds to the other two (with formal charges). The actual structure is a resonance
+oxygens and single bonds to the other two (with formal charges). The actual structure is a resonance
 Hybrid.
 
 Formal charge calculation: $\mathrm{FC = V - N - B/2$.
@@ -740,7 +782,7 @@ Net charge: $+1 + 0 + 0 + (-1) + (-1) = -2$. Correct for $\mathrm{SO_4^{2-}$.
 
 The four resonance structures delocalise the double bonds, making all S-O bonds equivalent. Average
 Bond order = $(2 + 2 + 1 + 1) / 4 = 6/4 = 1.5$. This minimises formal charge and maximises the
-Number of bonds, which is energetically favourable.
+number of bonds, which is energetically favourable.
 
 </details>
 
@@ -763,7 +805,7 @@ Geometry is square planar (the lone pairs occupy axial positions, 180 degrees ap
 
 $\mathrm{XeF_4$ is nonpolar. Although each Xe-F bond is polar (F is more electronegative), the four
 Bonds are arranged symmetrically in a square plane. The bond dipoles cancel out because they point
-In opposite directions. The lone pairs are opposite each other (axial) and do not create a net
+in opposite directions. The lone pairs are opposite each other (axial) and do not create a net
 Dipole.
 
 </details>
@@ -795,7 +837,7 @@ Bonds) plus London forces and dipole-dipole interactions. Highest boiling point.
 
 The dominant factor is hydrogen bonding: compounds with O-H hydrogen bonding have higher boiling
 Points than those with N-H hydrogen bonding, which in turn have higher boiling points than compounds
-With only dipole-dipole or London forces.
+with only dipole-dipole or London forces.
 
 </details>
 
@@ -803,8 +845,8 @@ With only dipole-dipole or London forces.
 <summary>Question 4: Hybridization and bond angles</summary>
 
 The molecule $\mathrm{SF_4$ has a see-saw molecular geometry. Identify the hybridization of the
-Central sulfur atom, draw its shape, and predict the bond angles. Explain why the axial and
-Equatorial bond lengths differ.
+central sulfur atom, draw its shape, and predict the bond angles. Explain why the axial and
+equatorial bond lengths differ.
 
 </details>
 
@@ -812,10 +854,10 @@ Equatorial bond lengths differ.
 <summary>Answer</summary>
 
 Sulfur in $\mathrm{SF_4$ has 5 electron domains (4 bonding pairs + 1 lone pair). The hybridization
-Is $sp^3d$ (one s, three p, and one d orbital combine).
+is $sp^3d$ (one s, three p, and one d orbital combine).
 
 The electron domain geometry is trigonal bipyramidal. The lone pair occupies an equatorial position
-To minimise repulsion (equatorial has two 90 degree interactions; axial has three). The molecular
+to minimise repulsion (equatorial has two 90 degree interactions; axial has three). The molecular
 Geometry is see-saw.
 
 Bond angles: The equatorial F-S-F angle is less than $120^\circ$ (compressed by the lone pair,
@@ -864,9 +906,13 @@ $15\,\text{N}$. The frictional force is $5.0\,\text{N}$. Calculate the accelerat
 
 **Solution:**
 
-$$F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\text{N}$$
+$$
+F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\text{N}
+$$
 
-$$a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}$$
+$$
+a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}
+$$
 :::
 
 ## Intuition

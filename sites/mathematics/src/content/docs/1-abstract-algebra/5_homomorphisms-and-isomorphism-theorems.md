@@ -56,13 +56,15 @@ $\mathrm{im}(\phi) \leq H$ is straightforward. $\blacksquare$
 
 **Theorem 5.3 (First Isomorphism Theorem).** If $\phi : G \to H$ is a surjective homomorphism, then
 
-$$G / \ker(\phi) \cong H$$
+$$
+G / \ker(\phi) \cong H
+$$
 
 More generally (even if $\phi$ is not surjective), $G / \ker(\phi) \cong \mathrm{im}(\phi)$.
 
 _Proof._ Define $\overline{\phi} : G/\ker(\phi) \to H$ by $\overline{\phi}(g \ker(\phi)) = \phi(g)$.
 This is well-defined: if $g \ker(\phi) = g" \ker(\phi)$ Then $g'^{-1}g \in \ker(\phi)$ So
-$\phi(g'^{-1}g) = e_H$Giving $\phi(g) = \phi(g')$. It is a homomorphism:
+$\phi(g'^{-1}g) = e_H$ Giving $\phi(g) = \phi(g')$. It is a homomorphism:
 $\overline{\phi}((a\ker(\phi))(b\ker(\phi))) = \overline{\phi}(ab\ker(\phi)) = \phi(ab) = \phi(a)\phi(b) = \overline{\phi}(a\ker(\phi))\overline{\phi}(b\ker(\phi))$.
 It is injective:
 $\overline{\phi}(g\ker(\phi)) = e_H \Rightarrow \phi(g) = e_H \Rightarrow g \in \ker(\phi) \Rightarrow g\ker(\phi) = \ker(\phi)$.
@@ -73,7 +75,9 @@ By construction, $\mathrm{im}(\overline{\phi}) = \mathrm{im}(\phi)$. $\blacksqua
 **Theorem 5.4 (Second Isomorphism Theorem).** If $N \trianglelefteq G$ and $H \leq G$ Then
 $HN \leq G$ $N \trianglelefteq HN$, $H \cap N \trianglelefteq H$ And
 
-$$H / (H \cap N) \cong HN / N$$
+$$
+H / (H \cap N) \cong HN / N
+$$
 
 _Proof._ Define $\phi : H \to HN/N$ by $\phi(h) = hN$. This is a homomorphism (since $N$ is normal).
 It is surjective: any element of $HN/N$ has the form $hnN = hN = \phi(h)$. Its kernel is
@@ -83,7 +87,9 @@ $H/(H \cap N) \cong HN/N$. $\blacksquare$
 **Theorem 5.5 (Third Isomorphism Theorem).** If $K \trianglelefteq N \trianglelefteq G$ with
 $K \trianglelefteq G$ Then
 
-$$(G/K)/(N/K) \cong G/N$$
+$$
+(G/K)/(N/K) \cong G/N
+$$
 
 _Proof._ Define $\phi : G/K \to G/N$ by $\phi(gK) = gN$. Well-defined: $gK = g'K$ implies
 $g^{-1}g' \in K \subseteq N$ So $gN = g'N$. Surjective and $\ker(\phi) = N/K$. Apply the first
@@ -101,7 +107,7 @@ $\mathbb{R}^* / \mathbb{R}^+ \cong \mathbb{Z}/2\mathbb{Z}$. $\blacksquare$
 
 ### 5.6 Further Worked Examples
 
-**Example 5.6 (Trivial Homomorphism).** For any groups $G, H$The map $\phi : G \to H$ defined by
+**Example 5.6 (Trivial Homomorphism).** For any groups $G, H$ The map $\phi : G \to H$ defined by
 $\phi(g) = e_H$ for all $g \in G$ is a homomorphism (the **trivial homomorphism**). Its kernel is
 $G$ And its image is $\{e_H\}$.
 
@@ -114,7 +120,7 @@ $\det : GL_n(\mathbb{R}) \to \mathbb{R}^*$ Is a surjective group homomorphism wi
 $SL_n(\mathbb{R})$. By the first isomorphism theorem,
 $GL_n(\mathbb{R}) / SL_n(\mathbb{R}) \cong \mathbb{R}^*$.
 
-**Example 5.9 (Conjugation Homomorphism).** For a fixed $g \in G$The map $c_g : G \to G$ defined by
+**Example 5.9 (Conjugation Homomorphism).** For a fixed $g \in G$ The map $c_g : G \to G$ defined by
 $c_g(x) = gxg^{-1}$ is an automorphism of $G$ (an **inner automorphism**). It is a homomorphism
 since $c_g(xy) = gxyg^{-1} = (gxg^{-1})(gyg^{-1}) = c_g(x)c_g(y)$. It is bijective with inverse
 $c_{g^{-1}}$.
@@ -139,7 +145,9 @@ projection). $\blacksquare$
 **Theorem 5.6 (Correspondence Theorem / Fourth Isomorphism Theorem).** Let $\phi : G \to H$ be a
 Surjective homomorphism with $K = \ker(\phi)$. Then there is an inclusion-preserving bijection
 
-$$\{\mathrm{subgroups\ of\ } G \mathrm{\ containing\ } K\} \longleftrightarrow \{\mathrm{subgroups\ of\ } H\}$$
+$$
+\{\mathrm{subgroups\ of\ } G \mathrm{\ containing\ } K\} \longleftrightarrow \{\mathrm{subgroups\ of\ } H\}
+$$
 
 Given by $U \mapsto \phi(U)$ with inverse $V \mapsto \phi^{-1}(V)$. This bijection satisfies:
 
@@ -160,14 +168,14 @@ $gug^{-1} \in U$. Conversely, if $\phi(U) \trianglelefteq H$ Then for any $g \in
 $\phi(gug^{-1}) = \phi(g)\phi(u)\phi(g)^{-1} \in \phi(U)$ So $gug^{-1} \in \phi^{-1}(\phi(U)) = U$.
 
 For the index: $\phi$ restricts to a surjection $U \to \phi(U)$ with kernel $K$ So
-$|U/K| = |\phi(U)|$Giving $|G|/|U| = |H|/|\phi(U)|$. $\blacksquare$
+$|U/K| = |\phi(U)|$ Giving $|G|/|U| = |H|/|\phi(U)|$. $\blacksquare$
 
 ### 5.8 Automorphism Groups
 
 An **automorphism** of $G$ is an isomorphism $\phi : G \to G$. The set of all automorphisms of $G$
 Forms a group under composition, denoted $\mathrm{Aut}(G)$.
 
-For each $g \in G$The **inner automorphism** $c_g : G \to G$ is defined by $c_g(x) = gxg^{-1}$. The
+For each $g \in G$ The **inner automorphism** $c_g : G \to G$ is defined by $c_g(x) = gxg^{-1}$. The
 set of inner automorphisms $\mathrm{Inn}(G) = \{c_g : g \in G\}$ is a normal subgroup of
 $\mathrm{Aut}(G)$.
 
@@ -181,12 +189,12 @@ $\{g \in G : c_g = \mathrm{id}\} = \{g \in G : gxg^{-1} = x
 \ \mathrm{for\ all\ x} \in G\} = Z(G)$.
 By the first isomorphism theorem, $\mathrm{Inn}(G) \cong G/Z(G)$. $\blacksquare$
 
-**Example.** $\mathrm{Aut}(S_3) \cong S_3$. Since $Z(S_3) = \{e\}$We have
+**Example.** $\mathrm{Aut}(S_3) \cong S_3$. Since $Z(S_3) = \{e\}$ We have
 $\mathrm{Inn}(S_3) \cong S_3$. Since $|\mathrm{Aut}(S_3)| \leq |S_3|! = 6$ (automorphisms permute
 the three elements of order $2$), And $\mathrm{Inn}(S_3)$ already has $6$ elements, we get
 $\mathrm{Aut}(S_3) = \mathrm{Inn}(S_3) \cong S_3$.
 
-**Example.** $\mathrm{Aut}(\mathbb{Z}/n\mathbb{Z}) \cong (\mathbb{Z}/n\mathbb{Z})^*$The group of
+**Example.** $\mathrm{Aut}(\mathbb{Z}/n\mathbb{Z}) \cong (\mathbb{Z}/n\mathbb{Z})^*$ The group of
 units Modulo $n$. An automorphism of $\mathbb{Z}/n\mathbb{Z}$ is determined by where it sends $1$ And
 $1$ can map to any generator, i.e., any $[k]$ with $\gcd(k, n) = 1$.
 
@@ -228,11 +236,13 @@ normal subgroup associated with a homomorphism.
 **Definition.** Let $H$ and $K$ be groups and let $\phi : K \to \mathrm{Aut}(H)$ be a homomorphism.
 The **semidirect product** $H \rtimes_\phi K$ is the set $H \times K$ with the group operation
 
-$$(h_1, k_1)(h_2, k_2) = (h_1 \cdot \phi(k_1)(h_2), k_1 k_2)$$
+$$
+(h_1, k_1)(h_2, k_2) = (h_1 \cdot \phi(k_1)(h_2), k_1 k_2)
+$$
 
 When $\phi$ is the trivial homomorphism, this reduces to the direct product $H \times K$.
 
-**Proposition 5.8.** In $G = H \rtimes_\phi K$The subgroup $H' = \{(h, e_K)\}$ is normal in $G$ And
+**Proposition 5.8.** In $G = H \rtimes_\phi K$ The subgroup $H' = \{(h, e_K)\}$ is normal in $G$ And
 $K' = \{(e_H, k)\}$ is a subgroup with $H' \cap K' = \{(e_H, e_K)\}$ and $H'K' = G$.
 
 _Proof._ Conjugation:
@@ -307,17 +317,6 @@ The image $\mathrm{im}(\phi)$ is a subgroup of the codomain $H$, but it need not
 
 **Mistake 3: Applying isomorphism theorems to non-normal subgroups**
 The first isomorphism theorem requires $\ker(\phi) \trianglelefteq G$, which is guaranteed. However, the second and third isomorphism theorems require the relevant subgroups to be normal. For example, $H/(H \cap N) \cong HN/N$ requires $N \trianglelefteq G$. Applying these theorems without normality leads to incorrect conclusions.
-
-
-```mermaid
-flowchart TD
-    A[5_Homomorphisms And Isomorphism Theorems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 

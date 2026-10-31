@@ -28,23 +28,23 @@ systems programming.
 
 ### Core Language
 
-- **Data types and structures**, `int``float``str``bool``list``tuple``dict``set`;
+- **Data types and structures**, `int`, `float`, `str`, `bool`, `list`, `tuple`, `dict`, `set`;
   mutability and immutability
-- **Control flow**, `if`/`elif`/`else``for` loops (iterable-based), `while``break`/`continue`
+- **Control flow**, `if`/`elif`/`else`, `for` loops (iterable-based), `while`, `break`/`continue`
   comprehensions (list, dict, set, generator)
 - **Functions**, positional and keyword arguments, `*args`/`**kwargs`default arguments, lambdas,
   decorators, closures
 - **Classes and OOP**, classes, instances, `__init__`methods, class methods, static methods,
   inheritance, `super()`, dunder methods, dataclasses
-- **Modules and packages**, `import``from ... import``__name__ == "__main__"`package
+- **Modules and packages**, `import`, `from ... import`, `__name__ == "__main__"`package
   structure, `pyproject.toml`
 
 ### Standard Library
 
-- **`collections`**, `defaultdict``Counter``OrderedDict``namedtuple``deque`
-- **`itertools`**, `chain``product``permutations``combinations``groupby`
+- **`collections`**, `defaultdict`, `Counter`, `OrderedDict`, `namedtuple`, `deque`
+- **`itertools`**, `chain`, `product`, `permutations`, `combinations`, `groupby`
 - **`pathlib`**, modern path handling; prefer over `os.path`
-- **`typing`**, type hints, `Optional``Union``Generic``Protocol``Callable`
+- **`typing`**, type hints, `Optional`, `Union`, `Generic`, `Protocol`, `Callable`
 - **`dataclasses`**, `@dataclass` for boilerplate-free class definitions
 - **`asyncio`**, async/await, coroutines, event loops, `asyncio.gather`
 
@@ -55,7 +55,7 @@ systems programming.
 - **Error handling**, prefer specific exceptions; use `try`/`except`/`else`/`finally`; avoid bare
   `except`
 - **Testing**, `pytest` fixtures, parametrised tests, mocking with `unittest.mock`
-- **Virtual environments**, `venv``uv``poetry`; always isolate project dependencies
+- **Virtual environments**, `venv`, `uv`, `poetry`; always isolate project dependencies
 
 ## Code Examples
 
@@ -112,56 +112,12 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Further Resources
 
 - Flashcards for rapid revision of key terms
 - Diagnostic tests to identify remaining gaps
 - Practice problems with detailed worked solutions
 - Cross-references to related topics
-
-## Overview
-
-This introduction provides comprehensive coverage of Python content for the Languages qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Intuition
 
@@ -173,25 +129,6 @@ Python is the language of readability: code that looks like English pseudocode a
 - [Data Structures](https://kotlin.wyattau.com/intermediate/collections/)
 - [Object-Oriented Programming](https://java.wyattau.com/03-object-oriented/01-classes/)
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 ## See also
 
 - [Introduction to Dart & Flutter](/dart/01-intro/)

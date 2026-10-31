@@ -23,7 +23,7 @@ categories:
 ## Halogenoalkanes
 
 Halogenoalkanes (also called alkyl halides) are compounds in which one or more hydrogen atoms of an
-Alkane have been replaced by a halogen atom. The general formula is $\mathrm{R-X}$Where $\mathrm{X}$
+alkane have been replaced by a halogen atom. The general formula is $\mathrm{R-X}$ Where $\mathrm{X}$
 is F, Cl, Br, or I. The C--X bond is polar (halogens are more electronegative than Carbon), making
 the carbon electrophilic and susceptible to attack by nucleophiles.
 
@@ -40,7 +40,7 @@ Halogenoalkanes are classified by the carbon bearing the halogen:
 
 Nucleophilic substitution is the replacement of the halogen (the leaving group) by a nucleophile.
 Two distinct mechanisms operate depending on the substrate structure, nucleophile strength, and
-Solvent.
+solvent.
 
 ### The SN2 Mechanism
 
@@ -50,7 +50,7 @@ Mechanism in which bond-making and bond-breaking occur simultaneously.
 **Rate equation:** Rate $= k[\mathrm{R-X}][\mathrm{Nu}^-]$
 
 The rate depends on the concentration of both the halogenoalkane and the nucleophile. This is
-Confirmed experimentally by observing that doubling either concentration doubles the rate.
+confirmed experimentally by observing that doubling either concentration doubles the rate.
 
 **Mechanism for the reaction of bromoethane with hydroxide:**
 
@@ -66,7 +66,7 @@ $$
 
 **Stereochemistry:** Inversion of configuration at the carbon centre (Walden inversion). If the
 Carbon is chiral, the product has the opposite absolute configuration to the reactant. The
-Transition state has trigonal bipyramidal geometry.
+transition state has trigonal bipyramidal geometry.
 
 **Favouring factors:**
 
@@ -83,7 +83,7 @@ Involving a carbocation intermediate.
 **Rate equation:** Rate $= k[\mathrm{R-X}]$
 
 The rate depends only on the concentration of the halogenoalkane. The nucleophile does not appear in
-The rate equation because it participates only in the fast second step.
+the rate equation because it participates only in the fast second step.
 
 **Mechanism for the reaction of 2-bromo-2-methylpropane with hydroxide:**
 
@@ -113,6 +113,8 @@ Partially shields one face (ion pair effect).
 
 ### SN2 vs SN1 Summary
 
+<div class="table-wrap">
+
 | Feature              | SN2                           | SN1                    |
 | -------------------- | ----------------------------- | ---------------------- |
 | Steps                | One (concerted)               | Two (stepwise)         |
@@ -122,6 +124,8 @@ Partially shields one face (ion pair effect).
 | Nucleophile          | Strong, concentrated          | Weak, dilute           |
 | Solvent              | Polar aprotic                 | Polar protic           |
 | Intermediate         | None (transition state)       | Carbocation            |
+
+</div>
 
 Secondary halogenoalkanes can react by either mechanism, depending on conditions.
 
@@ -136,7 +140,7 @@ Reactivity in nucleophilic substitution:
 $\mathrm{RI} \gt \mathrm{RBr} \gt \mathrm{RCl} \gg \mathrm{RF}$.
 
 The C--I bond is weakest and iodine is the best leaving group (least basic, largest, most
-Polarisable). Fluorine forms an extremely strong bond and is a very poor leaving group
+polarisable). Fluorine forms an extremely strong bond and is a very poor leaving group
 ($\mathrm{F}^-$ is a strong base).
 
 ### Effect of Substrate Structure (SN2)
@@ -153,7 +157,7 @@ Unstable to form under normal conditions, so primary halogenoalkanes do not unde
 ## Elimination Reactions
 
 When a strong, bulky base (e.g. $\mathrm{OH}^-$ in ethanol, $\mathrm{KOH}$ in ethanol) reacts with a
-Halogenoalkane at elevated temperature, elimination competes with substitution:
+halogenoalkane at elevated temperature, elimination competes with substitution:
 
 $$
 \mathrm{CH}_3\mathrm{CHBrCH}_3 + \mathrm{OH}^- \to \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} + \mathrm{Br}^-
@@ -164,17 +168,17 @@ $$
 - **High temperature:** Elimination has a higher activation energy than substitution (breaking two
   $\sigma$ bonds vs one), so increasing temperature favours elimination (Arrhenius equation: $E_a$
   effects dominate at higher $T$).
-- **Strong, bulky base:** Bulky bases (e.g. $\mathrm{KO}^\mathrm{t}\mathrm{Bu}$Potassium
+- **Strong, bulky base:** Bulky bases (e.g. $\mathrm{KO}^\mathrm{t}\mathrm{Bu}$ Potassium
   tert-butoxide) are hindered from the backside attack required for SN2 and instead abstract a
   proton.
 - **Tertiary substrate:** Tertiary halogenoalkanes are heavily sterically hindered for SN2 and form
   stable carbocations for E1/E2.
 
-### Zaitsev"s Rule
+### Zaitsev's Rule
 
 When multiple elimination products are possible, the major product is the more substituted alkene
 (the alkene with the greater number of alkyl groups on the C=C double bond). This is because more
-Substituted alkenes are thermodynamically more stable (hyperconjugation).
+substituted alkenes are thermodynamically more stable (hyperconjugation).
 
 For 2-bromobutane: elimination gives a mixture of but-1-ene (minor) and but-2-ene (major).
 
@@ -182,12 +186,12 @@ For 2-bromobutane: elimination gives a mixture of but-1-ene (minor) and but-2-en
 
 ### Chlorofluorocarbons (CFCs)
 
-CFCs (e.g. $\mathrm{CCl}_3\mathrm{F}$CFC-11; $\mathrm{CCl}_2\mathrm{F}_2$CFC-12) were widely Used as
+CFCs (e.g. $\mathrm{CCl}_3\mathrm{F}$ CFC-11; $\mathrm{CCl}_2\mathrm{F}_2$ CFC-12) were widely Used as
 refrigerants, propellants, and blowing agents. Their advantages (non-toxic, non-flammable,
 Chemically inert in the troposphere) led to massive global production.
 
 The chemical inertness that makes CFCs useful also makes them environmentally persistent. They
-Survive in the troposphere for decades and eventually diffuse to the stratosphere, where they are
+survive in the troposphere for decades and eventually diffuse to the stratosphere, where they are
 Photolysed by UV radiation of wavelength $\lt 315\,\mathrm{nm}$.
 
 ### The Ozone Depletion Mechanism
@@ -211,16 +215,16 @@ $$
 Net reaction: $\mathrm{O}_3 + \mathrm{O} \to 2\mathrm{O}_2$
 
 The chlorine radical is regenerated in the second step, acting as a catalyst. A single chlorine atom
-Can destroy up to $100,000$ ozone molecules before being removed from the catalytic cycle.
+can destroy up to $100,000$ ozone molecules before being removed from the catalytic cycle.
 
 ### Consequences
 
 Stratospheric ozone absorbs harmful UV-B radiation ($280$--$315\,\mathrm{nm}$). Ozone depletion
 Increases UV-B flux at the Earth's surface, causing increased rates of skin cancer, cataracts, and
-Damage to marine phytoplankton (the base of the oceanic food chain).
+damage to marine phytoplankton (the base of the oceanic food chain).
 
 The Antarctic ozone hole (first detected in 1985) forms during the Antarctic spring due to
-Heterogeneous reactions on polar stratospheric cloud (PSC) surfaces that convert inactive chlorine
+heterogeneous reactions on polar stratospheric cloud (PSC) surfaces that convert inactive chlorine
 Reservoirs ($\mathrm{HCl}$$\mathrm{ClONO}_2$) into active $\mathrm{Cl}_2$ and $\mathrm{HOCl}$.
 
 ### Montreal Protocol
@@ -243,11 +247,15 @@ agreement. Key milestones:
 
 Current replacements include:
 
+<div class="table-wrap">
+
 | Compound class            | Example                                               | Ozone impact       | Global warming impact     |
 | ------------------------- | ----------------------------------------------------- | ------------------ | ------------------------- |
 | HFCs                      | $\mathrm{CF}_3\mathrm{CH}_2\mathrm{F}$ (HFC-134a)     | Zero (no chlorine) | High (GWP $\approx 1430$) |
 | HFOs (hydrofluoroolefins) | $\mathrm{CF}_3\mathrm{CF}=\mathrm{CH}_2$ (HFO-1234yf) | Zero               | Low (GWP $\approx 4$)     |
-| Natural refrigerants      | $\mathrm{NH}_3$$\mathrm{CO}_2$Hydrocarbons            | Zero               | Zero or low               |
+| Natural refrigerants      | $\mathrm{NH}_3$$\mathrm{CO}_2$ Hydrocarbons            | Zero               | Zero or low               |
+
+</div>
 
 HFOs are the latest generation of refrigerants, designed to have both zero ozone depletion potential
 and very low global warming potential.
@@ -263,15 +271,19 @@ $$
 \mathrm{R-X} + \mathrm{H}_2\mathrm{O} \to \mathrm{R-OH} + \mathrm{X}^-
 $$
 
-Adding $\mathrm{AgNO}_3(aq)$ produces a precipitate ($\mathrm{AgCl}$$\mathrm{AgBr}$Or
+Adding $\mathrm{AgNO}_3(aq)$ produces a precipitate ($\mathrm{AgCl}$$\mathrm{AgBr}$ Or
 $\mathrm{AgI}$) whose appearance can be timed. The time for the precipitate to appear is inversely
 proportional to the rate of hydrolysis.
+
+<div class="table-wrap">
 
 | Halogenoalkane | Time for $\mathrm{AgNO}_3$ precipitate | Relative rate |
 | -------------- | -------------------------------------- | ------------- |
 | 1-chlorobutane | Slowest                                | 1             |
 | 1-bromobutane  | Intermediate                           | 50            |
 | 1-iodobutane   | Fastest                                | 10,000        |
+
+</div>
 
 The rate differences correlate with C--X bond strength:
 $\mathrm{C}-\mathrm{I} \lt \mathrm{C}-\mathrm{Br} \lt \mathrm{C}-\mathrm{Cl}$.
@@ -309,7 +321,7 @@ $$
 Net reaction: $2\mathrm{O}_3 \to 3\mathrm{O}_2$
 
 One chlorine radical can destroy approximately $100\,000$ ozone molecules before being removed from
-the cycle (by forming $\mathrm{HCl}$Which diffuses back to the troposphere).
+the cycle (by forming $\mathrm{HCl}$ Which diffuses back to the troposphere).
 
 ### Why CFCs Are Particularly Damaging
 
@@ -320,6 +332,8 @@ and reactivity in the upper atmosphere makes CFCs uniquely harmful.
 
 ### Montreal Protocol Milestones
 
+<div class="table-wrap">
+
 | Year | Milestone                                                             |
 | ---- | --------------------------------------------------------------------- |
 | 1985 | Vienna Convention for the Protection of the Ozone Layer               |
@@ -329,7 +343,11 @@ and reactivity in the upper atmosphere makes CFCs uniquely harmful.
 | 2007 | Accelerator Amendment -- HCFC phase-out by 2030 for developed nations |
 | 2016 | Kigali Amendment -- phase-down of HFCs (potent greenhouse gases)      |
 
+</div>
+
 ### Green Chemistry Alternatives
+
+<div class="table-wrap">
 
 | Compound                                              | ODP  | GWP    | Notes                    |
 | ----------------------------------------------------- | ---- | ------ | ------------------------ |
@@ -339,10 +357,14 @@ and reactivity in the upper atmosphere makes CFCs uniquely harmful.
 | $\mathrm{CH}_2\mathrm{FCF}_3$ (HFC-134a)              | 0    | 1,430  | Replacement; high GWP    |
 | $\mathrm{CF}_3\mathrm{CH}=\mathrm{CH}_2$ (HFO-1234yf) | 0    | 4      | Next-generation; low GWP |
 
+</div>
+
 ODP = Ozone Depletion Potential (relative to CFC-11). GWP = Global Warming Potential (100-year,
 relative to $\mathrm{CO}_2$).
 
 ### Hydrolysis Rate Data
+
+<div class="table-wrap">
 
 | Halogenoalkane                                       | Relative rate of hydrolysis with $\mathrm{NaOH}(aq)$ |
 | ---------------------------------------------------- | ---------------------------------------------------- |
@@ -351,12 +373,18 @@ relative to $\mathrm{CO}_2$).
 | $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Cl}$ | Slow                                                 |
 | $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{F}$  | Very slow (practically inert)                        |
 
+</div>
+
 ### Solvent Effects on SN1 vs SN2
+
+<div class="table-wrap">
 
 | Solvent type                       | Effect on SN1                                       | Effect on SN2                                                 |
 | ---------------------------------- | --------------------------------------------------- | ------------------------------------------------------------- |
 | Polar protic (water, ethanol)      | Favours -- stabilises carbocation and leaving group | Disfavoured -- solvates nucleophile, reducing its reactivity  |
 | Polar aprotic (acetone, DMSO, DMF) | Disfavoured -- carbocation poorly stabilised        | Favoured -- nucleophile not solvated, remains highly reactive |
+
+</div>
 
 This explains why $\mathrm{NaOH}$ in water favours substitution, while $\mathrm{NaOH}$ in ethanol
 favours elimination.
@@ -386,7 +414,7 @@ favours elimination.
 <summary>Problem 1</summary>
 
 For each of the following reactions, identify the mechanism (SN1, SN2, E1, or E2) and predict the
-Major organic product:
+major organic product:
 
 (a) $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br}$ with $\mathrm{NaOH}$ in aqueous solution at
 $25^\circ\mathrm{C}$.
@@ -416,7 +444,7 @@ Product.
 <summary>Problem 2</summary>
 
 Explain why the rate of hydrolysis of 1-chlorobutane is much slower than that of 1-iodobutane under
-The same conditions.
+the same conditions.
 
 **Solution:**
 
@@ -426,8 +454,8 @@ Bond dissociation enthalpy ($238\,\mathrm{kJ/mol}$). The stronger C--Cl bond has
 Energy for cleavage, giving a slower reaction rate.
 
 Additionally, $\mathrm{Cl}^-$ is a poorer leaving group than $\mathrm{I}^-$ because $\mathrm{Cl}^-$
-Is a stronger base (more willing to accept a proton, less willing to depart with its lone pair). The
-Larger, more polarisable $\mathrm{I}^-$ stabilises the departing negative charge more effectively.
+is a stronger base (more willing to accept a proton, less willing to depart with its lone pair). The
+larger, more polarisable $\mathrm{I}^-$ stabilises the departing negative charge more effectively.
 
 </details>
 
@@ -505,7 +533,7 @@ Step 1: The $\mathrm{OH}^-$ ion approaches the carbon bearing the bromine from t
 the C--Br bond (backside attack at $180^\circ$ to the leaving group).
 
 Step 2: As the C--O bond begins to form, the C--Br bond weakens and elongates. A transition state is
-formed in which the central carbon is partially bonded to both $\mathrm{OH}$ and $\mathrm{Br}$With
+formed in which the central carbon is partially bonded to both $\mathrm{OH}$ and $\mathrm{Br}$ With
 the three remaining groups arranged in a trigonal planar geometry.
 
 Transition state:
@@ -525,11 +553,15 @@ The reaction is second-order overall (first-order with respect to each reactant)
 
 Step 1: Convert butan-2-ol to 2-bromobutane using concentrated HBr:
 
-$$\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O}
+$$
 
 Step 2: Nucleophilic substitution with excess ammonia:
 
-$$\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{NH}_3 \to \mathrm{CH}_3\mathrm{CH}(\mathrm{NH}_2)\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr}$$
+$$
+\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{NH}_3 \to \mathrm{CH}_3\mathrm{CH}(\mathrm{NH}_2)\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr}
+$$
 
 The excess ammonia ensures that the primary amine is the major product, minimising further
 alkylation to secondary and tertiary amines.
@@ -559,19 +591,27 @@ alkylation to secondary and tertiary amines.
 
 **Reaction:** 2-bromo-2-methylpropane with ethanol at $50^\circ\mathrm{C}$.
 
-$$\mathrm{(CH}_3)_3\mathrm{CBr} \xrightarrow{\mathrm{EtOH},\,50^\circ\mathrm{C}} \mathrm{(CH}_3)_2\mathrm{C}=\mathrm{CH}_2 + \mathrm{(CH}_3)_3\mathrm{COCH}_2\mathrm{CH}_3$$
+$$
+\mathrm{(CH}_3)_3\mathrm{CBr} \xrightarrow{\mathrm{EtOH},\,50^\circ\mathrm{C}} \mathrm{(CH}_3)_2\mathrm{C}=\mathrm{CH}_2 + \mathrm{(CH}_3)_3\mathrm{COCH}_2\mathrm{CH}_3
+$$
 
 Both products form via the same carbocation intermediate:
 
-$$(\mathrm{CH}_3)_3\mathrm{CBr} \xrightarrow{\text{slow}} (\mathrm{CH}_3)_3\mathrm{C}^+ + \mathrm{Br}^-$$
+$$
+(\mathrm{CH}_3)_3\mathrm{CBr} \xrightarrow{\text{slow}} (\mathrm{CH}_3)_3\mathrm{C}^+ + \mathrm{Br}^-
+$$
 
 **E1 pathway (major):** The carbocation loses a proton to the solvent:
 
-$$(\mathrm{CH}_3)_3\mathrm{C}^+ \xrightarrow{-\mathrm{H}^+} (\mathrm{CH}_3)_2\mathrm{C}=\mathrm{CH}_2 \text{ (2-methylpropene)}$$
+$$
+(\mathrm{CH}_3)_3\mathrm{C}^+ \xrightarrow{-\mathrm{H}^+} (\mathrm{CH}_3)_2\mathrm{C}=\mathrm{CH}_2 \text{ (2-methylpropene)}
+$$
 
 **SN1 pathway (minor):** The carbocation is attacked by ethanol:
 
-$$(\mathrm{CH}_3)_3\mathrm{C}^+ + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \to (\mathrm{CH}_3)_3\mathrm{COCH}_2\mathrm{CH}_3 \text{ (2-ethoxy-2-methylpropane)}$$
+$$
+(\mathrm{CH}_3)_3\mathrm{C}^+ + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \to (\mathrm{CH}_3)_3\mathrm{COCH}_2\mathrm{CH}_3 \text{ (2-ethoxy-2-methylpropane)}
+$$
 
 At elevated temperature, elimination predominates (higher activation energy pathway favoured by
 Arrhenius equation).
@@ -590,14 +630,18 @@ Arrhenius equation).
 
 **Results:**
 
+<div class="table-wrap">
+
 | Halogenoalkane | Time for precipitate | Identity of precipitate |
 | -------------- | -------------------- | ----------------------- |
 | 1-chlorobutane | Very slow (minutes)  | $\mathrm{AgCl}$ (white) |
 | 1-bromobutane  | Moderate (seconds)   | $\mathrm{AgBr}$ (cream) |
 | 1-iodobutane   | Fast (immediate)     | $\mathrm{AgI}$ (yellow) |
 
+</div>
+
 **Conclusion:** The rate of hydrolysis increases in the order
-$\mathrm{C}\text{-}\mathrm{Cl} \lt \mathrm{C}\text{-}\mathrm{Br} \lt \mathrm{C}\text{-}\mathrm{I}$Consistent
+$\mathrm{C}\text{-}\mathrm{Cl} \lt \mathrm{C}\text{-}\mathrm{Br} \lt \mathrm{C}\text{-}\mathrm{I}$ Consistent
 with the decreasing bond enthalpy:
 $\mathrm{C}\text{-}\mathrm{Cl} \,(339\,\mathrm{kJ/mol}) \gt \mathrm{C}\text{-}\mathrm{Br} \,(276\,\mathrm{kJ/mol}) \gt \mathrm{C}\text{-}\mathrm{I} \,(238\,\mathrm{kJ/mol})$.
 
@@ -607,11 +651,15 @@ $\mathrm{C}\text{-}\mathrm{Cl} \,(339\,\mathrm{kJ/mol}) \gt \mathrm{C}\text{-}\m
 
 Step 1: Nucleophilic substitution with $\mathrm{KCN}$:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{KCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CN} + \mathrm{KBr}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{KCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CN} + \mathrm{KBr}
+$$
 
 Step 2: Hydrolysis of the nitrile to carboxylic acid (reflux with dilute $\mathrm{HCl}$):
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{HCl} \xrightarrow{\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH} + \mathrm{NH}_4\mathrm{Cl}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{HCl} \xrightarrow{\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH} + \mathrm{NH}_4\mathrm{Cl}
+$$
 
 **Mechanism of Step 1 (SN2):** The $\mathrm{CN}^-$ ion attacks the electrophilic carbon of
 bromoethane from the opposite side of the C--Br bond. The C--Br bond breaks as the C--CN bond forms,
@@ -625,21 +673,29 @@ $\mathrm{NaCN}$) in ethanol ensures the cyanide ion is available as a free nucle
 
 **Reaction:** Hydrolysis of (R)-2-bromobutane in aqueous ethanol.
 
-$$\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr}$$
+$$
+\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{HBr}
+$$
 
 **Mechanism (SN1):**
 
 Step 1 (slow): Heterolytic cleavage of the C--Br bond forms a planar secondary carbocation:
 
-$$\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 \to \mathrm{CH}_3\overset{+}{\mathrm{C}}\mathrm{HCH}_2\mathrm{CH}_3 + \mathrm{Br}^-$$
+$$
+\mathrm{CH}_3\mathrm{CHBrCH}_2\mathrm{CH}_3 \to \mathrm{CH}_3\overset{+}{\mathrm{C}}\mathrm{HCH}_2\mathrm{CH}_3 + \mathrm{Br}^-
+$$
 
 Step 2 (fast): Water attacks the planar carbocation from either face with equal probability:
 
-$$\mathrm{CH}_3\overset{+}{\mathrm{C}}\mathrm{HCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH}_2^+)\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{CH}_3\overset{+}{\mathrm{C}}\mathrm{HCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O} \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH}_2^+)\mathrm{CH}_2\mathrm{CH}_3
+$$
 
 Step 3: Deprotonation gives the alcohol:
 
-$$\mathrm{CH}_3\mathrm{CH}(\mathrm{OH}_2^+)\mathrm{CH}_2\mathrm{CH}_3 \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{H}^+$$
+$$
+\mathrm{CH}_3\mathrm{CH}(\mathrm{OH}_2^+)\mathrm{CH}_2\mathrm{CH}_3 \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{H}^+
+$$
 
 **Stereochemistry:** The product is a racemic mixture of (R)-butan-2-ol and (S)-butan-2-ol. The
 planar carbocation intermediate can be attacked with equal probability from either face, resulting
@@ -748,12 +804,16 @@ A student carried out an experiment to determine the order of reaction with resp
 ions for the hydrolysis of 1-bromobutane. The following data were obtained at constant temperature,
 with the concentration of 1-bromobutane kept constant:
 
+<div class="table-wrap">
+
 | $[\mathrm{OH}^-]$ ($\mathrm{mol\,dm^{-3}}$) | Initial rate ($\mathrm{mol\,dm^{-3}\,s^{-1}}$) |
 | ------------------------------------------- | ---------------------------------------------- |
 | 0.020                                       | $4.0 \times 10^{-5}$                           |
 | 0.040                                       | $8.0 \times 10^{-5}$                           |
 | 0.060                                       | $1.2 \times 10^{-4}$                           |
 | 0.080                                       | $1.6 \times 10^{-4}$                           |
+
+</div>
 
 (a) Deduce the order of reaction with respect to hydroxide ions. (2 marks)
 
@@ -843,13 +903,17 @@ because they can be prepared from alcohols and can be converted to many other fu
 
 ### General Retrosynthetic Disconnections for Halogenoalkanes
 
+<div class="table-wrap">
+
 | Target                  | Disconnection                                                      | Equivalent synthons               | Forward reagents                    |
 | ----------------------- | ------------------------------------------------------------------ | --------------------------------- | ----------------------------------- |
-| Alcohol $\mathrm{R-OH}$ | $\mathrm{C}\text{-}\mathrm{OH} \to \mathrm{C}\text{-}\mathrm{X}$   | $\mathrm{R-X}$ + $\mathrm{OH}^-$  | $\mathrm{NaOH}(aq)$SN2              |
-| Nitrile $\mathrm{R-CN}$ | $\mathrm{C}\text{-}\mathrm{CN} \to \mathrm{C}\text{-}\mathrm{X}$   | $\mathrm{R-X}$ + $\mathrm{CN}^-$  | $\mathrm{KCN}$Ethanol               |
+| Alcohol $\mathrm{R-OH}$ | $\mathrm{C}\text{-}\mathrm{OH} \to \mathrm{C}\text{-}\mathrm{X}$   | $\mathrm{R-X}$ + $\mathrm{OH}^-$  | $\mathrm{NaOH}(aq)$ SN2              |
+| Nitrile $\mathrm{R-CN}$ | $\mathrm{C}\text{-}\mathrm{CN} \to \mathrm{C}\text{-}\mathrm{X}$   | $\mathrm{R-X}$ + $\mathrm{CN}^-$  | $\mathrm{KCN}$ Ethanol               |
 | Amine $\mathrm{R-NH_2}$ | $\mathrm{C}\text{-}\mathrm{NH_2} \to \mathrm{C}\text{-}\mathrm{X}$ | $\mathrm{R-X}$ + $\mathrm{NH_3}$  | Excess $\mathrm{NH_3}$              |
 | Ether $\mathrm{R-O-R'}$ | $\mathrm{C}\text{-}\mathrm{O} \to \mathrm{C}\text{-}\mathrm{X}$    | $\mathrm{R-X}$ + $\mathrm{R'O}^-$ | Williamson synthesis                |
 | Alkene $\mathrm{C=C}$   | $\mathrm{C=C} \to \mathrm{C-C-X}$                                  | Elimination of HX                 | $\mathrm{KOH}$ in ethanol, $\Delta$ |
+
+</div>
 
 ### Worked Retrosynthesis Example
 
@@ -878,13 +942,19 @@ Retrosynthetic analysis:
 
 **Forward synthesis:**
 
-$$\mathrm{C}_6\mathrm{H}_6 \xrightarrow{\mathrm{CH}_3\mathrm{CH}_2\mathrm{COCl},\,\mathrm{AlCl}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_2\mathrm{CH}_3 \xrightarrow[\mathrm{Zn(Hg)}]{\mathrm{HCl}} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3$$
+$$
+\mathrm{C}_6\mathrm{H}_6 \xrightarrow{\mathrm{CH}_3\mathrm{CH}_2\mathrm{COCl},\,\mathrm{AlCl}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_2\mathrm{CH}_3 \xrightarrow[\mathrm{Zn(Hg)}]{\mathrm{HCl}} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3
+$$
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \xrightarrow{\mathrm{Br}_2,\,h\nu} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CHBrCH}_3 + \mathrm{C}_6\mathrm{H}_5\mathrm{CHBrCH}_2\mathrm{CH}_3$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \xrightarrow{\mathrm{Br}_2,\,h\nu} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CHBrCH}_3 + \mathrm{C}_6\mathrm{H}_5\mathrm{CHBrCH}_2\mathrm{CH}_3
+$$
 
 Note: Radical bromination gives a mixture. A more controlled route would use the following:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH} \xrightarrow{\mathrm{LiAlH}_4} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{\mathrm{PBr}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} \xrightarrow{\mathrm{KCN}} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CN} \xrightarrow{\mathrm{LiAlH}_4} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH} \xrightarrow{\mathrm{LiAlH}_4} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{\mathrm{PBr}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} \xrightarrow{\mathrm{KCN}} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CN} \xrightarrow{\mathrm{LiAlH}_4} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2
+$$
 
 ---
 
@@ -903,23 +973,9 @@ hardest questions within the A-Level specification for this topic, each with a f
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Halogenoalkanes with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
-
-
-```mermaid
-flowchart TD
-    A[Halogenoalkanes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

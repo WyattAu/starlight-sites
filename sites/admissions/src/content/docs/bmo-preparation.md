@@ -29,21 +29,25 @@ International Mathematical Olympiad (IMO) team selection process.
 
 There are two rounds:
 
+<div class="table-wrap">
+
 | Round | Format                            | Duration  | Purpose                                       |
 | ----- | --------------------------------- | --------- | --------------------------------------------- |
 | BMO 1 | 6 questions (each worth 10 marks) | 3.5 hours | Qualification for BMO 2 and initial selection |
 | BMO 2 | 4 questions (each worth 10 marks) | 3.5 hours | IMO squad selection                           |
 
+</div>
+
 ### 1.1 Qualification
 
 Entry to BMO 1 is through qualification from the Senior Mathematical Challenge (SMC) or through
 Teacher nomination. Roughly the top 1000 SMC scorers are invited. The top roughly 100 candidates
-From BMO 1 qualify for BMO 2. Approximately 20--30 are invited to the IMO training camp.
+from BMO 1 qualify for BMO 2. Approximately 20--30 are invited to the IMO training camp.
 
 ### 1.2 Format and Marking
 
 BMO problems require full written proofs. Partial credit is awarded for significant progress, but
-The standard is demanding: a complete solution must be logically rigorous, written, and Cover all
+the standard is demanding: a complete solution must be logically rigorous, written, and Cover all
 cases. Each problem is worth 10 marks. On BMO 1, a score of 30+ out of 60 is strong; on BMO 2, 20+
 out of 40 is excellent.
 
@@ -74,10 +78,10 @@ Modular arithmetic is the single most important tool in BMO number theory.
 if $m \mid (a - b)$. Congruences are compatible with addition, subtraction, and multiplication.
 Division requires care: $ac \equiv bc \pmod{m}$ implies $a \equiv b \pmod{m/\gcd(c,m)}$.
 
-**Fermat"s Little Theorem.** If $p$ is prime and $\gcd(a, p) = 1$ Then $a^{p-1} \equiv 1 \pmod{p}$.
+**Fermat's Little Theorem.** If $p$ is prime and $\gcd(a, p) = 1$ Then $a^{p-1} \equiv 1 \pmod{p}$.
 More generally, for any integer $a$ and prime $p$: $a^p \equiv a \pmod{p}$.
 
-**Euler's Theorem.** If $\gcd(a, m) = 1$ Then $a^{\phi(m)} \equiv 1 \pmod{m}$Where $\phi$ is Euler's
+**Euler's Theorem.** If $\gcd(a, m) = 1$ Then $a^{\phi(m)} \equiv 1 \pmod{m}$ Where $\phi$ is Euler's
 totient function.
 
 **Technique: choosing the modulus.** If a problem involves squares, working modulo 4 or modulo 8 is
@@ -97,7 +101,7 @@ $n = p_1^{a_1} p_2^{a_2} \cdots p_k^{a_k}$ with primes $p_1 < p_2 < \cdots < p_k
 Smaller counterexample, then no counterexample exists.
 
 **Technique: Lifting the Exponent (LTE).** If $p$ is an odd prime, $p \mid a - b$ And $p \nmid ab$
-Then $v_p(a^n - b^n) = v_p(a - b) + v_p(n)$Where $v_p(m)$ denotes the exponent of $p$ in $m$.
+Then $v_p(a^n - b^n) = v_p(a - b) + v_p(n)$ Where $v_p(m)$ denotes the exponent of $p$ in $m$.
 
 ### 2.3 Diophantine Equations
 
@@ -110,7 +114,7 @@ fundamental Theorem of arithmetic to enumerate possibilities.
 **Technique: parity and modular arguments.** Check what values the equation can take modulo small
 Integers. This frequently eliminates large classes of potential solutions.
 
-**Technique: bounding.** For equations like $x^2 - Dy^2 = N$Bound $|x/y - \sqrt{D}|$ and search
+**Technique: bounding.** For equations like $x^2 - Dy^2 = N$ Bound $|x/y - \sqrt{D}|$ and search
 Within the bound.
 
 ---
@@ -130,7 +134,7 @@ Within the bound.
 
 **Counting in two ways.** If an expression counts the same set of objects in two different ways, the
 Two expressions must be equal. For example, $\sum_{k=0}^{n} \binom{n}{k}^2 = \binom{2n}{n}$ counts
-The ways to choose $n$ objects from $2n$ by first choosing how many come from the first $n$.
+the ways to choose $n$ objects from $2n$ by first choosing how many come from the first $n$.
 
 ### 3.2 Pigeonhole Principle
 
@@ -141,14 +145,16 @@ Objects.
 $\lceil n/k \rceil$ objects.
 
 **Technique: designing the boxes.** The art lies in choosing what the boxes represent. Common
-choices Include: residue classes modulo $m$Intervals of real numbers, properties of subsets, and
+choices Include: residue classes modulo $m$ Intervals of real numbers, properties of subsets, and
 graph Properties such as degree.
 
 ### 3.3 Inclusion-Exclusion
 
 For finite sets $A_1, A_2, \ldots, A_n$:
 
-$$\left|\bigcup_{i=1}^{n} A_i\right| = \sum_{i}|A_i| - \sum_{i<j}|A_i \cap A_j| + \sum_{i<j<k}|A_i \cap A_j \cap A_k| - \cdots$$
+$$
+\left|\bigcup_{i=1}^{n} A_i\right| = \sum_{i}|A_i| - \sum_{i<j}|A_i \cap A_j| + \sum_{i<j<k}|A_i \cap A_j \cap A_k| - \cdots
+$$
 
 Particularly useful when objects may satisfy multiple overlapping conditions.
 
@@ -180,17 +186,23 @@ $(1+x)^{\alpha} = \sum_{k=0}^{\infty} \binom{\alpha}{k} x^k$.
 
 **AM-GM Inequality.** For non-negative reals $x_1, \ldots, x_n$:
 
-$$\frac{x_1 + \cdots + x_n}{n} \geq \sqrt[n]{x_1 \cdots x_n}$$
+$$
+\frac{x_1 + \cdots + x_n}{n} \geq \sqrt[n]{x_1 \cdots x_n}
+$$
 
 With equality iff all $x_i$ are equal.
 
 **Cauchy-Schwarz Inequality.** For real numbers $a_1, \ldots, a_n$ and $b_1, \ldots, b_n$:
 
-$$\left(\sum_{i=1}^{n} a_i b_i\right)^2 \leq \left(\sum_{i=1}^{n} a_i^2\right)\left(\sum_{i=1}^{n} b_i^2\right)$$
+$$
+\left(\sum_{i=1}^{n} a_i b_i\right)^2 \leq \left(\sum_{i=1}^{n} a_i^2\right)\left(\sum_{i=1}^{n} b_i^2\right)
+$$
 
 **Rearrangement Inequality.** If $a_1 \leq \cdots \leq a_n$ and $b_1 \leq \cdots \leq b_n$ Then:
 
-$$\sum_{i=1}^{n} a_i b_{n+1-i} \leq \sum_{i=1}^{n} a_i b_{\sigma(i)} \leq \sum_{i=1}^{n} a_i b_i$$
+$$
+\sum_{i=1}^{n} a_i b_{n+1-i} \leq \sum_{i=1}^{n} a_i b_{\sigma(i)} \leq \sum_{i=1}^{n} a_i b_i
+$$
 
 For any permutation $\sigma$.
 
@@ -200,7 +212,7 @@ Occurs when all variables are equal.
 
 ### 4.2 Polynomials
 
-**Remainder Theorem.** When $P(x)$ is divided by $x - a$The remainder is $P(a)$.
+**Remainder Theorem.** When $P(x)$ is divided by $x - a$ The remainder is $P(a)$.
 
 **Factor Theorem.** $x - a$ divides $P(x)$ iff $P(a) = 0$.
 
@@ -213,7 +225,7 @@ $\prod r_i = (-1)^n a_0 / a_n$.
 ### 4.3 Functional Equations
 
 **Technique: strategic substitution.** Common substitutions: $P(x,x)$, $P(x,0)$, $P(0,x)$ Swapping
-$P(x,y)$ and $P(y,x)$Composing $P(x, P(y,z))$.
+$P(x,y)$ and $P(y,x)$ Composing $P(x, P(y,z))$.
 
 **Technique: finding the form.** Often the solution is polynomial. If you suspect $f(x) = ax + b$
 Substitute and solve for $a, b$. Always verify and prove uniqueness.
@@ -291,11 +303,11 @@ $3! = 6$.
 
 By Fermat's Little Theorem, $n^5 \equiv n \pmod{5}$ So $n^5 - n \equiv 0 \pmod{5}$.
 
-Alternatively, checking residues modulo 5: if $n \equiv 0$Done. If $n \equiv \pm 1$ Then
+Alternatively, checking residues modulo 5: if $n \equiv 0$ Done. If $n \equiv \pm 1$ Then
 $n^2 \equiv 1$ So $n^2 - 1 \equiv 0$. If $n \equiv \pm 2$ Then $n^2 \equiv 4$ So $n^2 + 1 \equiv 0$. In
 all cases, $5 \mid n^5 - n$.
 
-Since $\gcd(6, 5) = 1$ and both divide $n^5 - n$We conclude $30 \mid (n^5 - n)$.
+Since $\gcd(6, 5) = 1$ and both divide $n^5 - n$ We conclude $30 \mid (n^5 - n)$.
 
 ---
 
@@ -317,11 +329,11 @@ $p_1 = 3, p_2 = 7, p_3 = 11, \ldots, p_n$.
 
 Consider $N = 4p_1 p_2 \cdots p_n - 1$. Then $N \equiv 3 \pmod{4}$ And $N$ is odd and $N > 1$.
 
-Not all prime factors of $N$ can be of the form $4k + 1$Because the product of numbers of the Form
+Not all prime factors of $N$ can be of the form $4k + 1$ Because the product of numbers of the Form
 $4k + 1$ is also of that form: $(4a+1)(4b+1) = 4(4ab + a + b) + 1$.
 
 Therefore $N$ has at least one prime factor $p$ of the form $4k + 3$. Since $p \mid N$ and
-$N = 4p_1 \cdots p_n - 1$We have $p \nmid 4p_1 \cdots p_n$ So $p \neq p_i$ for any $i$.
+$N = 4p_1 \cdots p_n - 1$ We have $p \nmid 4p_1 \cdots p_n$ So $p \neq p_i$ for any $i$.
 
 This contradicts the assumption that $p_1, \ldots, p_n$ are all primes of the form $4k + 3$.
 
@@ -341,7 +353,7 @@ This contradicts the assumption that $p_1, \ldots, p_n$ are all primes of the fo
 > Show that among any $n + 1$ integers, there exist two whose difference is divisible by $n$.
 
 **Solution.** Consider the residues of the $n + 1$ integers modulo $n$. The residues are in
-$\{0, 1, 2, \ldots, n - 1\}$Giving $n$ residue classes.
+$\{0, 1, 2, \ldots, n - 1\}$ Giving $n$ residue classes.
 
 By the pigeonhole principle, since we have $n + 1$ integers and $n$ residue classes, at least two
 Integers share the same residue. If these are $a$ and $b$ Then $n \mid (a - b)$.
@@ -368,10 +380,10 @@ Setting $y = 0$: $f(x^2) = f(x)^2 \geq 0$ for all $x$ So $f$ is non-negative on 
 
 Setting $y = -x^2$: $f(-x^2) = -f(x)^2 \leq 0$ So $f$ is non-positive on $(-\infty, 0]$.
 
-Setting $x = 1$: $f(1 + y) = f(1)^2 + f(y)$. Since $f(1) = f(1)^2$We have $f(1) = 0$ or $f(1) = 1$.
+Setting $x = 1$: $f(1 + y) = f(1)^2 + f(y)$. Since $f(1) = f(1)^2$ We have $f(1) = 0$ or $f(1) = 1$.
 
 **Case 1:** $f(1) = 0$. Then $f(y + 1) = f(y)$ for all $y$ So $f$ is 1-periodic. Combined with
-$f(x^2) = f(x)^2$The function is bounded. The only bounded function satisfying both is $f \equiv 0$.
+$f(x^2) = f(x)^2$ The function is bounded. The only bounded function satisfying both is $f \equiv 0$.
 
 **Case 2:** $f(1) = 1$. Then $f(y + 1) = f(y) + 1$. By induction, $f(n) = n$ for all integers $n$.
 
@@ -386,12 +398,12 @@ By induction, $f(nx) = nf(x)$ for all integers $n$. Setting $x = m/n$ ($n > 0$):
 $nf(m/n) = f(m) = m$ So $f(m/n) = m/n$ for all rationals.
 
 Since $f$ agrees with the identity on the rationals (a dense set), $f$ is monotone on $[0, \infty)$
-(because $f(x^2) = f(x)^2$ with $f \geq 0$ on $[0, \infty)$), and $f(x + 1) = f(x) + 1$The Function
+(because $f(x^2) = f(x)^2$ with $f \geq 0$ on $[0, \infty)$), and $f(x + 1) = f(x) + 1$ The Function
 $f(x) = x$ for all $x$ follows by density.
 
 Verification: $f(x^2 + y) = x^2 + y = x^2 + y = f(x)^2 + f(y)$.
 
-**Answer:** $f(x) = 0$ for all $x$Or $f(x) = x$ for all $x$.
+**Answer:** $f(x) = 0$ for all $x$ Or $f(x) = x$ for all $x$.
 
 ---
 
@@ -440,9 +452,11 @@ This bound is achieved by any triangulation of the $2n$-gon, which uses exactly 
 
 **Solution.** By the power of $M$ with respect to $\Gamma$:
 
-$$MA \cdot MN = MB^2 = MC^2$$
+$$
+MA \cdot MN = MB^2 = MC^2
+$$
 
-Thus $\triangle MNB \sim \triangle MBA$ by SAS ($MN/MB = MB/MA$Sharing the angle at $M$). Similarly,
+Thus $\triangle MNB \sim \triangle MBA$ by SAS ($MN/MB = MB/MA$ Sharing the angle at $M$). Similarly,
 $\triangle MNC \sim \triangle MCA$.
 
 From these similarities: $\angle MBN = \angle MAB = \angle BAN$ and
@@ -451,7 +465,7 @@ $\angle MCN = \angle MAC = \angle CAN$.
 Let $H$ be the orthocentre of $\triangle ABC$. A well-known fact: the reflection of $H$ across $BC$
 lies on $\Gamma$. Call this reflection $A'$.
 
-Since $A'$ is on $\Gamma$ and $A$ is on $\Gamma$The line $A'A$ is a chord of $\Gamma$. Since $A'$ is
+Since $A'$ is on $\Gamma$ and $A$ is on $\Gamma$ The line $A'A$ is a chord of $\Gamma$. Since $A'$ is
 the reflection of $H$ across $BC$ And $AH \perp A'$... Actually, $\angle ABA' = \angle ABH$ (since
 $BA' = BH$ by reflection) and $\angle ABH = 90° - \angle BAH$. The key is that $A'A \perp BC$... No,
 that is not true .
@@ -465,15 +479,15 @@ $NB \cdot AC = NC \cdot AB$ and the angle condition $\angle BNC = \angle BAC$.
 Indeed, $\angle BNC = \angle BAC$ (cyclic quadrilateral $ABNC$). So the spiral similarity centred At
 $N$ with angle $\angle BNA$ sends $B \to A$ and $C$ to a point $C'$ on ray $NA$ with
 $NC' = (NA/NB) \cdot NC$. For $C' = A$: $NA = (NA/NB) \cdot NC$ So $NB = NC$. But $NB = NC$ Only when
-$N$ is equidistant from $B$ and $C$I.e., $N$ lies on the perpendicular bisector of $BC$ Which is the
+$N$ is equidistant from $B$ and $C$ I.e., $N$ lies on the perpendicular bisector of $BC$ Which is the
 line $AM$... And $N$ does lie on $AM$. So $NB = NC$ if and only if $N$ is the Circumcentre, which is
 not generally true.
 
-The correct approach: since $NB/NC = AB/AC$ and $\angle BNC = \angle BAC$The points $A$ and $N$ Are
+The correct approach: since $NB/NC = AB/AC$ and $\angle BNC = \angle BAC$ The points $A$ and $N$ Are
 isogonal conjugates with respect to $\angle BNC = \angle BAC$... Actually, $NB/NC = AB/AC$ Means $N$
 lies on the $A$-Apollonius circle.
 
-For the angle $\angle BND$: since $\triangle MNB \sim \triangle MBA$The spiral similarity centred At
+For the angle $\angle BND$: since $\triangle MNB \sim \triangle MBA$ The spiral similarity centred At
 $M$ sending $N \to B$ also sends $B \to A$. The image of $D$ (on $BC$) under this spiral Similarity
 is a point on $BA$. Specifically, $MD \cdot MA = MN \cdot MB$... Not directly helpful.
 
@@ -483,7 +497,7 @@ are collinear, $\angle DNA = \angle DNM$. And $\angle BNA = \angle BCA$ (cyclic)
 $\angle DNM = 180° - \angle DN M$... We need $\angle DNM = \angle BCA - \angle CBA$.
 
 Using the similarity and the orthocentre: $\angle BND = \angle CBA$ because $\angle BND$ and
-$\angle CBA$ subtend the same angle in the configuration formed by $\Gamma$The altitude $AD$ And the
+$\angle CBA$ subtend the same angle in the configuration formed by $\Gamma$ The altitude $AD$ And the
 median $AM$ extended to $N$. The complete proof uses the fact that $N$ has the property
 $NB/NC = AB/AC$ (from the similarity), and combined with the cyclic quadrilateral, this gives the
 Desired angle equality. The key ingredients are: (1) the power of $M$ gives
@@ -506,7 +520,7 @@ $\angle BNC = \angle BAC$ from cyclicity, The desired angle equality follows.
 ### 7.1 Proof by Contradiction
 
 Assume the statement is false and derive a logical impossibility. Effective for negative statements
-And impossibility results.
+and impossibility results.
 
 ### 7.2 Proof by Induction
 
@@ -531,7 +545,7 @@ Terminate.
 ### 7.5 Proof by Cases
 
 Split into exhaustive cases and prove each separately. Common splits: parity, sign, residue Classes
-modulo $n$Relative size.
+modulo $n$ Relative size.
 
 ### 7.6 Double Counting
 
@@ -631,17 +645,6 @@ When working with bmo preparation, follow a structured approach:
 3. Support your answer with evidence, examples, or calculations
 4. Evaluate your answer critically, considering limitations and alternative perspectives
 
-
-```mermaid
-flowchart TD
-    A[Bmo Preparation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - BMO Round 1 (3.5 hours, 6 problems) and Round 2 (3.5 hours, 4 problems) test proof-writing and
@@ -656,11 +659,15 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                            | Site        | Link                                                        |
 | -------------------------------- | ----------- | ----------------------------------------------------------- |
 | UKMT BMO Past Papers             | UKMT        | [View](https://ukmt.org.uk/competition/bmo)                 |
 | Art of Problem Solving BMO Forum | AoPS        | [View](https://artofproblemsolving.com/community/c3240_bmo) |
 | STEP Preparation Guide           | WyattsNotes | [View](/step-preparation/)        |
 | MAT Preparation Guide            | WyattsNotes | [View](/mat-preparation/)         |
-| Number Theory                    | WyattsNotes | [View](https://mathematics.wyattau.com/number-theory/)          |
-| Abstract Algebra                 | WyattsNotes | [View](https://mathematics.wyattau.com/abstract-algebra/)       |
+| Number Theory                    | WyattsNotes | [View](https://mathematics.wyattau.com/7-number-theory/)          |
+| Abstract Algebra                 | WyattsNotes | [View](https://mathematics.wyattau.com/1-abstract-algebra/)       |
+
+</div>

@@ -21,17 +21,9 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[01 Algebraic Expressions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Board Coverage
+
+<div class="table-wrap">
 
 | Board      | Paper   | Notes                                       |
 | ---------- | ------- | ------------------------------------------- |
@@ -39,6 +31,8 @@ flowchart TD
 | Edexcel    | P1, P2  | Same core; P2 includes harder factorisation |
 | OCR (A)    | Paper 1 | Similar coverage                            |
 | CIE (9709) | P1      | Surds, quadratics, factor theorem           |
+
+</div>
 
 <hr />
 
@@ -69,7 +63,7 @@ $\sqrt{a} = a^{1/2}$.
 **Rationalising the denominator.** If a fraction has a surd in the denominator, we multiply
 Numerator and denominator by the surd (or its conjugate) to eliminate it.
 
-For a denominator of the form $\sqrt{a}$Multiply by $\frac{\sqrt{a}}{\sqrt{a}}$:
+For a denominator of the form $\sqrt{a}$ Multiply by $\frac{\sqrt{a}}{\sqrt{a}}$:
 
 $$
 \begin{aligned}
@@ -77,7 +71,7 @@ $$
 \end{aligned}
 $$
 
-For a denominator of the form $a + b\sqrt{c}$Multiply by the _conjugate_ $a - b\sqrt{c}$:
+For a denominator of the form $a + b\sqrt{c}$ Multiply by the _conjugate_ $a - b\sqrt{c}$:
 
 $$
 \begin{aligned}
@@ -95,7 +89,7 @@ distribute the Denominator correctly.
 **Theorem.** $\sqrt{2}$ is irrational.
 
 _Proof._ We proceed by contradiction. Assume $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{p}{q}$
-Where $p, q \in \mathbb{Z}^+$$q \neq 0$ And $\gcd(p, q) = 1$ (i.e., the fraction is in lowest Terms).
+where $p, q \in \mathbb{Z}^+$$q \neq 0$ And $\gcd(p, q) = 1$ (i.e., the fraction is in lowest Terms).
 
 $$
 \begin{aligned}
@@ -105,29 +99,29 @@ P^2 &= 2q^2
 \end{aligned}
 $$
 
-Since $p^2 = 2q^2$We have that $p^2$ is even. A standard result (proved below) tells us that if
+Since $p^2 = 2q^2$ We have that $p^2$ is even. A standard result (proved below) tells us that if
 $p^2$ is even, then $p$ is even. So $p = 2k$ for some integer $k$.
 
-Substituting: $(2k)^2 = 2q^2$ So $4k^2 = 2q^2$Hence $q^2 = 2k^2$.
+Substituting: $(2k)^2 = 2q^2$ So $4k^2 = 2q^2$ Hence $q^2 = 2k^2$.
 
 By the same argument, $q^2$ is even, so $q$ is even. But this contradicts $\gcd(p, q) = 1$ since
-Both $p$ and $q$ are divisible by 2. Therefore our assumption was false, and $\sqrt{2}$ is
-Irrational. $\blacksquare$
+both $p$ and $q$ are divisible by 2. Therefore our assumption was false, and $\sqrt{2}$ is
+irrational. $\blacksquare$
 
 _Lemma._ If $p^2$ is even, then $p$ is even.
 
 _Proof._ The contrapositive: if $p$ is odd, then $p^2$ is odd. If $p = 2k + 1$ Then
-$p^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$Which is odd. $\blacksquare$
+$p^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$ Which is odd. $\blacksquare$
 
 _Intuition._ This proof exploits the structure of divisibility: the number 2 has a unique prime
 Factorisation, and squaring preserves parity. The contradiction arises because $2$ "forces" factors
-Of 2 into both $p$ and $q$Making the fraction reducible.
+of 2 into both $p$ and $q$ Making the fraction reducible.
 
 <hr />
 
 ## 2. Indices (Exponent Laws)
 
-**Definition.** For $a > 0$ and $n \in \mathbb{Z}^+$We define
+**Definition.** For $a > 0$ and $n \in \mathbb{Z}^+$ We define
 $a^n = \underbrace{a \times a \times \cdots \times a}_{n \mathrm{ times}}$. We extend this
 Definition as follows:
 
@@ -220,7 +214,7 @@ Theorem), then dividing by $(x - \alpha)$ to obtain a quadratic, which can then 
 ### 4.1 Long Division
 
 Polynomial long division mirrors integer long division exactly. We demonstrate with an example, then
-State the general theorem.
+state the general theorem.
 
 **Example.** Divide $x^3 + 2x^2 - 5x + 6$ by $x - 1$.
 
@@ -243,19 +237,21 @@ More systematically, the division algorithm tells us:
 **Theorem (Polynomial Division Algorithm).** For polynomials $f(x)$ and $g(x)$ with $g(x) \neq 0$
 There exist unique polynomials $q(x)$ (the quotient) and $r(x)$ (the remainder) such that:
 
-$$f(x) = g(x) \cdot q(x) + r(x)$$
+$$
+f(x) = g(x) \cdot q(x) + r(x)
+$$
 
 Where $\deg(r) < \deg(g)$ or $r(x) = 0$.
 
-_Intuition._ This is exactly analogous to integer division: $47 = 5 \times 9 + 2$Where
+_Intuition._ This is exactly analogous to integer division: $47 = 5 \times 9 + 2$ Where
 $0 \leq 2 < 5$. In polynomials, the "size" ordering is replaced by degree, and the remainder must
-Have smaller degree than the divisor.
+have smaller degree than the divisor.
 
 ### 4.2 Why Polynomial Division Mirrors Integer Long Division
 
 The structural analogy is deep. Both are instances of a _Euclidean domain_, an algebraic structure
-Where we can perform division with remainder. In $\mathbb{Z}$The "degree" is the absolute value; In
-$\mathbb{R}[x]$The degree is the polynomial degree. The algorithm is the same: at each step,
+where we can perform division with remainder. In $\mathbb{Z}$ The "degree" is the absolute value; In
+$\mathbb{R}[x]$ The degree is the polynomial degree. The algorithm is the same: at each step,
 Eliminate the leading term.
 
 <hr />
@@ -264,10 +260,10 @@ Eliminate the leading term.
 
 ### 5.1 The Remainder Theorem
 
-**Theorem (Remainder Theorem).** If a polynomial $f(x)$ is divided by $(x - a)$The remainder is
+**Theorem (Remainder Theorem).** If a polynomial $f(x)$ is divided by $(x - a)$ The remainder is
 $f(a)$.
 
-_Proof._ By the division algorithm, $f(x) = (x - a) \cdot q(x) + r$Where $r$ is a constant (since
+_Proof._ By the division algorithm, $f(x) = (x - a) \cdot q(x) + r$ Where $r$ is a constant (since
 $\deg(r) < \deg(x - a) = 1$).
 
 Substituting $x = a$:
@@ -278,7 +274,7 @@ F(a) &= (a - a) \cdot q(a) + r = 0 \cdot q(a) + r = r \quad \blacksquare
 \end{aligned}
 $$
 
-_Intuition._ When you plug in $x = a$The $(x - a)$ factor vanishes, leaving only the remainder. The
+_Intuition._ When you plug in $x = a$ The $(x - a)$ factor vanishes, leaving only the remainder. The
 remainder is the "leftover" that doesn"t contain the factor $(x - a)$.
 
 ### 5.2 The Factor Theorem
@@ -291,11 +287,11 @@ _Proof._
 $f(a) = (a - a) \cdot q(a) = 0$.
 
 ($\Leftarrow$) If $f(a) = 0$ Then by the Remainder Theorem, the remainder upon division by $(x - a)$
-is $f(a) = 0$. So $f(x) = (x - a) \cdot q(x)$Meaning $(x - a)$ is a factor. $\blacksquare$
+is $f(a) = 0$. So $f(x) = (x - a) \cdot q(x)$ Meaning $(x - a)$ is a factor. $\blacksquare$
 
 _Intuition._ The Factor Theorem connects algebra (polynomials) to geometry (roots on the $x$-axis).
-A root $x = a$ means the graph crosses the $x$-axis at $a$Which means $(x - a)$ must divide the
-Polynomial.
+A root $x = a$ means the graph crosses the $x$-axis at $a$ Which means $(x - a)$ must divide the
+polynomial.
 
 <details>
 <summary>Example</summary>
@@ -328,11 +324,13 @@ $$
 
 ### 6.1 Cancellation
 
-$$\frac{ab + ac}{ad + ae} = \frac{a(b + c)}{a(d + e)} = \frac{b + c}{d + e}$$
+$$
+\frac{ab + ac}{ad + ae} = \frac{a(b + c)}{a(d + e)} = \frac{b + c}{d + e}
+$$
 
 :::caution
 In the denominator is a factor of the whole expression, but the $x$ in the numerator is only one
-Term.
+term.
 :::
 
 ### 6.2 Addition and Subtraction
@@ -474,14 +472,16 @@ Setting $x = -3$: $-6 + 1 = A(-5)$ So $A = 1$.
 
 Setting $x = 2$: $4 + 1 = B(5)$ So $B = 1$.
 
-$$\frac{2x + 1}{(x + 3)(x - 2)} = \frac{1}{x + 3} + \frac{1}{x - 2}$$
+$$
+\frac{2x + 1}{(x + 3)(x - 2)} = \frac{1}{x + 3} + \frac{1}{x - 2}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Algebraic fractions](#6-simplifying-algebraic-fractions)
 
 <hr />
 
-**Problem 7.** Given $f(x) = x^4 - x^3 - 7x^2 + x + 6$Show that $(x - 1)$, $(x + 1)$ And $(x - 3)$
+**Problem 7.** Given $f(x) = x^4 - x^3 - 7x^2 + x + 6$ Show that $(x - 1)$, $(x + 1)$ And $(x - 3)$
 are all factors, and hence factorise $f(x)$ completely.
 
 <details>
@@ -506,7 +506,9 @@ Comparing leading coefficients: $p = 1$.
 
 Comparing constant terms: $(-1)(1)(-3)(q) = 6$ So $3q = 6$, $q = 2$.
 
-$$f(x) = (x - 1)(x + 1)(x - 3)(x + 2)$$
+$$
+f(x) = (x - 1)(x + 1)(x - 3)(x + 2)
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Factor theorem](#52-the-factor-theorem)
@@ -526,7 +528,7 @@ P^2 &= 3q^2
 \end{aligned}
 $$
 
-So $3 \mid p^2$Which means $3 \mid p$ (since 3 is prime). Write $p = 3k$:
+So $3 \mid p^2$ Which means $3 \mid p$ (since 3 is prime). Write $p = 3k$:
 
 $$
 \begin{aligned}
@@ -535,7 +537,7 @@ Q^2 &= 3k^2
 \end{aligned}
 $$
 
-So $3 \mid q^2$Hence $3 \mid q$. But $\gcd(p, q) = 1$ and both are divisible by 3, contradiction.
+So $3 \mid q^2$ Hence $3 \mid q$. But $\gcd(p, q) = 1$ and both are divisible by 3, contradiction.
 $\blacksquare$
 
 </details>
@@ -555,7 +557,7 @@ $-x^2 \div x = -x$. Multiply: $-x(x + 2) = -x^2 - 2x$. Subtract: $-8x + 8$.
 
 $-8x \div x = -8$. Multiply: $-8(x + 2) = -8x - 16$. Subtract: $24$.
 
-Quotient: $3x^2 - x - 8$Remainder: $24$.
+Quotient: $3x^2 - x - 8$ Remainder: $24$.
 
 Verification:
 $(x + 2)(3x^2 - x - 8) + 24 = 3x^3 - x^2 - 8x + 6x^2 - 2x - 16 + 24 = 3x^3 + 5x^2 - 10x + 8$ ✓
@@ -587,7 +589,7 @@ Discriminant: $\Delta = 9 - 20 = -11 < 0$. No real solutions.
 <hr />
 
 **Problem 11.** Given that $x^3 + ax^2 + bx + c$ is exactly divisible by $(x - 1)^2$ and leaves
-Remainder $12$ when divided by $(x + 2)$Find $a$, $b$ And $c$.
+Remainder $12$ when divided by $(x + 2)$ Find $a$, $b$ And $c$.
 
 <details>
 <summary>Solution</summary>
@@ -616,9 +618,13 @@ From (1): $c = -1 - a - b = -1 - a + 3 + 2a = 2 + a$.
 
 Substituting into (3): $4a - 2(-3 - 2a) + (2 + a) = 20$
 
-$$4a + 6 + 4a + 2 + a = 20 \implies 9a + 8 = 20 \implies a = \frac{12}{9} = \frac{4}{3}$$
+$$
+4a + 6 + 4a + 2 + a = 20 \implies 9a + 8 = 20 \implies a = \frac{12}{9} = \frac{4}{3}
+$$
 
-$$b = -3 - \frac{8}{3} = -\frac{17}{3}, \quad c = 2 + \frac{4}{3} = \frac{10}{3}$$
+$$
+b = -3 - \frac{8}{3} = -\frac{17}{3}, \quad c = 2 + \frac{4}{3} = \frac{10}{3}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Remainder and Factor theorems](#5-the-factor-theorem-and-remainder-theorem)

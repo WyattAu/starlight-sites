@@ -41,15 +41,25 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'US Citizenship', items: [{ autogenerate: { directory: 'us-citizenship' } }] },
-        { label: 'UK Citizenship', items: [{ autogenerate: { directory: 'uk-citizenship' } }] },
+        {
+          label: 'US Citizenship',
+          items: [{ autogenerate: { directory: 'us-citizenship' } }],
+          collapsed: true,
+        },
+        {
+          label: 'UK Citizenship',
+          items: [{ autogenerate: { directory: 'uk-citizenship' } }],
+          collapsed: true,
+        },
         {
           label: 'Canadian Citizenship',
           items: [{ autogenerate: { directory: 'canadian-citizenship' } }],
+          collapsed: true,
         },
         {
           label: 'Australian Citizenship',
           items: [{ autogenerate: { directory: 'australian-citizenship' } }],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -84,9 +94,7 @@ export default defineConfig({
           tag: 'link',
           attrs: {
             rel: 'stylesheet',
-            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css',
-            integrity: 'sha384-irXK0JiCGinqGL+slwVklbhJetrjczNwaP2lANewD8lKAs9n61SbQ3As28iSqXUE',
-            crossorigin: 'anonymous',
+            href: '/katex/katex.min.css',
           },
         },
         {
@@ -96,7 +104,6 @@ export default defineConfig({
             content: 'https://civics-tests.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },
@@ -113,7 +120,6 @@ export default defineConfig({
             },
           }),
         },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
       ],
       customCss: [
         './src/styles/custom.css',

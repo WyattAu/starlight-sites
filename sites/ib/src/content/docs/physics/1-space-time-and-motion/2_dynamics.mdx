@@ -41,14 +41,14 @@ Frames (like a car rounding a corner) are non-inertial.
 <PhetSimulation client:only="solid-js" simulationId="forces-and-motion-basics" title="Forces and Motion: Basics"  />
 
 Explore how net force, mass, and acceleration are related by applying forces to objects. Experiment
-With friction, applied forces, and different masses to see how they affect motion.
+with friction, applied forces, and different masses to see how they affect motion.
 
 ### Statement
 
 The net force acting on an object equals the rate of change of momentum:
 
 $$
-\vec\{F\}_\{\mathrm\{net\}\} = \frac\{d\vec\{p\}\}`\{dt}`
+\vec\{F\}_{\mathrm\{net\}\} = \frac\{d\vec{p}\}\{dt}
 $$
 
 For constant mass:
@@ -154,7 +154,7 @@ $$
 N - mg = ma \implies N = m(g + a)
 $$
 
-The apparent weight is $N = m(g + a)$Which is greater than the true weight.
+The apparent weight is $N = m(g + a)$ Which is greater than the true weight.
 
 In an elevator accelerating downward at $a$:
 
@@ -162,7 +162,7 @@ $$
 Mg - N = ma \implies N = m(g - a)
 $$
 
-The apparent weight is $N = m(g - a)$Which is less than the true weight.
+The apparent weight is $N = m(g - a)$ Which is less than the true weight.
 
 ---
 
@@ -185,12 +185,16 @@ $$
 
 ### Common Action-Reaction Pairs
 
+<div class="table-wrap">
+
 | Action                           | Reaction                               |
 | -------------------------------- | -------------------------------------- |
 | Book pushes down on table        | Table pushes up on book (normal force) |
 | Earth pulls on apple (weight)    | Apple pulls on Earth                   |
 | Foot pushes backward on ground   | Ground pushes forward on foot          |
 | Rocket pushes exhaust gases down | Exhaust gases push rocket up           |
+
+</div>
 </Aside>
 
 <Aside type="caution" title="Exam Tip">
@@ -246,11 +250,13 @@ $$
 \tan 35\degree \approx 0.700
 $$
 
-Since $\tan 35\degree \gt \mu_s = 0.6$The block slides.
+Since $\tan 35\degree \gt \mu_s = 0.6$ The block slides.
 
 ### Friction on an Inclined Plane
 
 For a block on an incline at angle $\theta$:
+
+<div class="table-wrap">
 
 | Force                                      | Expression                     |
 | ------------------------------------------ | ------------------------------ |
@@ -259,7 +265,9 @@ For a block on an incline at angle $\theta$:
 | Normal force                               | $N = mg\cos\theta$             |
 | Friction force                             | $f = \mu N = \mu mg\cos\theta$ |
 
-The block slides down if $mg\sin\theta \gt \mu_s mg\cos\theta$I.e., $\tan\theta \gt \mu_s$.
+</div>
+
+The block slides down if $mg\sin\theta \gt \mu_s mg\cos\theta$ I.e., $\tan\theta \gt \mu_s$.
 
 ---
 
@@ -276,7 +284,7 @@ Momentum is a vector quantity with SI unit $\mathrm{kg} \cdot \mathrm{m/s}$.
 ### Newton's Second Law (Momentum Form)
 
 $$
-\vec\{F\}_\{\mathrm\{net\}\} = \frac\{d\vec\{p\}\}`\{dt}`
+\vec\{F\}_{\mathrm\{net\}\} = \frac\{d\vec{p}\}\{dt}
 $$
 
 ### Impulse
@@ -298,7 +306,7 @@ The area under a force-time graph equals the impulse.
 
 <Aside type="note" title="Example">
 A $0.15\mathrm{ kg}$ cricket ball moving at $30\mathrm{ m/s}$ is hit back at $20\mathrm{ m/s}$ in
-The opposite direction in $0.01\mathrm{ s}$. Find the average force.
+the opposite direction in $0.01\mathrm{ s}$. Find the average force.
 
 $$
 J = \Delta p = 0.15(20 - (-30)) = 0.15 \times 50 = 7.5\mathrm\{ N\}\cdot\mathrm s
@@ -318,11 +326,15 @@ $$
 
 ### Elastic and Inelastic Collisions
 
+<div class="table-wrap">
+
 | Type                | Kinetic Energy | Momentum                           |
 | ------------------- | -------------- | ---------------------------------- |
 | Perfectly elastic   | Conserved      | Conserved                          |
 | Inelastic           | NOT conserved  | Conserved                          |
 | Perfectly inelastic | Maximum loss   | Conserved (objects stick together) |
+
+</div>
 </Aside>
 
 <Aside type="note" title="Example">
@@ -391,13 +403,13 @@ SI unit: watt ($\mathrm W$), where $1\mathrm{ W} = 1\mathrm{ J/s}$.
 ### Efficiency
 
 $$
-\mathrm\{Efficiency\} = \frac\{\mathrm\{useful energy output\}\}\{\mathrm\{total energy input\}\} \times 100\%
+\mathrm{Efficiency} = \frac{\mathrm{useful energy output}}{\mathrm{total energy input}} \times 100\%
 $$
 
 Alternatively:
 
 $$
-\mathrm\{Efficiency\} = \frac\{\mathrm\{useful power output\}\}\{\mathrm\{total power input\}\} \times 100\%
+\mathrm{Efficiency} = \frac{\mathrm{useful power output}}{\mathrm{total power input}} \times 100\%
 $$
 </Aside>
 
@@ -501,7 +513,7 @@ $$
 \mu_s mg\cos 30\degree = 0.5(4)(9.81)(0.866) = 17.0\mathrm\{ N\}
 $$
 
-Since $19.62 \gt 17.0$The block slides.
+Since $19.62 \gt 17.0$ The block slides.
 
 **(b)** Find the acceleration down the plane.
 
@@ -524,23 +536,19 @@ $$
 
 Dynamics is the answer to kinematics' question of why things move the way they do. Newton's three laws are like the rules of a cosmic game: objects stay still or keep moving unless pushed, the harder you push the faster it accelerates, and every push gets an equal push back. The third law is often misunderstood: when you stand on the floor, your weight pushing down and the floor pushing up are not an action-reaction pair because they act on the same object. Friction is nature's way of converting kinetic energy into heat, which is why sliding on ice is easy but sliding on sandpaper is not.
 
-```mermaid
-flowchart TD
-    A[2_Dynamicsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
+
+<div class="table-wrap">
 
 | Law             | Statement                                                                     |
 | --------------- | ----------------------------------------------------------------------------- |
 | Newton's First  | An object continues at rest or constant velocity unless acted on by net force |
 | Newton's Second | $\vec{F}_{\mathrm{net}} = m\vec{a}$ or $\vec{F} = \dfrac{d\vec{p}}{dt}$       |
 | Newton's Third  | Every action has an equal and opposite reaction                               |
+
+</div>
+
+<div class="table-wrap">
 
 | Quantity       | Formula                                     | Unit                             |
 | -------------- | ------------------------------------------- | -------------------------------- |
@@ -549,6 +557,8 @@ flowchart TD
 | Work           | $W = Fd\cos\theta$                          | $\mathrm J$                     |
 | Kinetic energy | $E_k = \dfrac{1}{2}mv^2$                    | $\mathrm J$                     |
 | Power          | $P = \dfrac{W}{t} = Fv$                     | $\mathrm W$                     |
+
+</div>
 </Aside>
 
 <Aside type="tip" title="Exam Strategy">
@@ -562,12 +572,16 @@ always less than 100% in real systems.
 
 ### Motion in Lifts (Elevators)
 
+<div class="table-wrap">
+
 | Situation                       | Equation       | Apparent Weight     |
 | ------------------------------- | -------------- | ------------------- |
 | Stationary or constant velocity | $N = mg$       | Normal ($mg$)       |
 | Accelerating upward             | $N = m(g + a)$ | Greater than normal |
 | Accelerating downward           | $N = m(g - a)$ | Less than normal    |
 | Free fall ($a = g$)             | $N = 0$        | Weightless          |
+
+</div>
 </Aside>
 
 <Aside type="note" title="Example">
@@ -588,7 +602,7 @@ Diagrams and apply Newton's second law to each body.
 
 <Aside type="note" title="Example">
 Mass $m_1 = 5\mathrm{ kg}$ hangs vertically. Mass $m_2 = 8\mathrm{ kg}$ is on a $30\degree$ incline
-With $\mu_k = 0.2$.
+with $\mu_k = 0.2$.
 
 For $m_1$: $m_1 g - T = m_1 a$
 
@@ -674,7 +688,7 @@ Resolve into $x$ and $y$ components and apply conservation in each direction ind
 <Aside type="note" title="Example">
 A $3\mathrm{ kg}$ object moving at $4\mathrm{ m/s}$ collides with a stationary $2\mathrm{ kg}$
 Object. After the collision, the $3\mathrm{ kg}$ object moves at $2\mathrm{ m/s}$ at $30\degree$
-Above the original direction. Find the velocity of the $2\mathrm{ kg}$ object.
+above the original direction. Find the velocity of the $2\mathrm{ kg}$ object.
 
 **x-direction**: $3(4) = 3(2)\cos 30\degree + 2v_x$
 
@@ -722,7 +736,7 @@ V = 28.5\mathrm\{ m/s\}
 $$
 
 **(c)** The skier then travels across level ground with the same coefficient of friction. How far do
-They slide before stopping?
+they slide before stopping?
 
 $$
 \mu_k mg \cdot d = \frac\{1\}\{2\}mv^2
@@ -734,7 +748,7 @@ $$
 
 ### Question 6 (Paper 2 style)
 
-Two objects, one of mass $m$ and the other of mass $3m$Collide head-on. The lighter object is Moving
+Two objects, one of mass $m$ and the other of mass $3m$ Collide head-on. The lighter object is Moving
 at $6\mathrm{ m/s}$ and the heavier one at $2\mathrm{ m/s}$ in the opposite direction. After The
 collision, the lighter object moves at $2\mathrm{ m/s}$ in the opposite direction to its Original
 motion.
@@ -762,7 +776,7 @@ KE before $= \dfrac{1}{2}m(36) + \dfrac{1}{2}(3m)(4) = 18m + 6m = 24m$.
 KE after
 $= \dfrac{1}{2}m(4) + \dfrac{1}{2}(3m)\!\left(\dfrac{4}{9}\right) = 2m + \dfrac{2m}{3} = \dfrac{8m}{3}$.
 
-Since $24m \neq \dfrac{8m}{3}$The collision is inelastic.
+Since $24m \neq \dfrac{8m}{3}$ The collision is inelastic.
 
 ### Question 7 (Paper 1 style)
 
@@ -799,7 +813,7 @@ Where $\theta$ is the angle of the surface with the horizontal.
 
 ### Friction on a Banked Curve with Speed Different from Ideal
 
-On a banked curve designed for speed $v_0$If a car travels at speed $v \neq v_0$Friction Provides
+On a banked curve designed for speed $v_0$ If a car travels at speed $v \neq v_0$ Friction Provides
 the additional centripetal force:
 
 - $v \gt v_0$: friction acts down the slope (adds to centripetal force).
@@ -826,7 +840,7 @@ Maximum static friction: $f_{s,\max} = 0.4 \times 23.09 = 9.24\mathrm{ N}$.
 
 Horizontal applied force: $15\cos 25\degree = 13.59\mathrm{ N}$.
 
-Since $13.59 \gt 9.24$The block moves.
+Since $13.59 \gt 9.24$ The block moves.
 
 **(b)** Find the acceleration.
 
@@ -864,7 +878,7 @@ Since $p_0 = 0$: $p = 65\mathrm{ kg}\cdot\mathrm{m/s}$.
 ### Question 10 (Paper 2 style)
 
 Two trolleys, A ($2\mathrm{ kg}$) and B ($3\mathrm{ kg}$), are held together by a compressed spring
-Between them on a frictionless surface. When released, trolley A moves at $4\mathrm{ m/s}$ to the
+between them on a frictionless surface. When released, trolley A moves at $4\mathrm{ m/s}$ to the
 Left.
 
 **(a)** Find the velocity of trolley B.
@@ -883,7 +897,7 @@ $$
 E_e = \frac\{1\}\{2\}m_A v_A^2 + \frac\{1\}\{2\}m_B v_B^2 = \frac\{1\}\{2\}(2)(16) + \frac\{1\}\{2\}(3)\!\left(\frac\{64\}\{9\}\right) = 16 + 10.67 = 26.67\mathrm\{ J\}
 $$
 
-**(c)** If the spring has spring constant $k = 2000\mathrm{ N/m}$Find the initial compression.
+**(c)** If the spring has spring constant $k = 2000\mathrm{ N/m}$ Find the initial compression.
 
 $$
 E_e = \frac\{1\}\{2\}kx^2 \implies 26.67 = 1000x^2 \implies x = 0.163\mathrm\{ m\}
@@ -921,16 +935,17 @@ self-marking and building a personal test matrix.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                 | Site    | Link                                                                                       |
 | --------------------- | ------- | ------------------------------------------------------------------------------------------ |
 | [Forces and Dynamics] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/03-dynamics) |
-| [Forces and Dynamics] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/2_dynamics)          |
-| [Forces and Dynamics] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/1-mechanics/2_mechanics-depth)             |
+| [Forces and Dynamics] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/2_dynamics/)          |
+| [Forces and Dynamics] | DSE     | [View](https://dse.wyattau.com/physics/1-mechanics/2_mechanics-depth/)             |
+
+</div>
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

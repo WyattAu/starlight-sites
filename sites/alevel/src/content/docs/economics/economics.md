@@ -22,11 +22,23 @@ categories:
 
 ## A Level Economics, Course Overview
 
+
+:::note[Going further with economics?]
+These pages teach the exam: diagrams, evaluation structure, and the
+institutions each board expects. **[economics.wyattau.com](https://economics.wyattau.com)**
+is the university layer underneath — micro theory, econometrics, and game theory
+with the core theorems (Slutsky, Gauss--Markov, Nash existence) proved in full,
+and the proofs are where the assumptions behind the exam diagrams become
+visible. Skippable by design: the exam content stands on its own.
+:::
+
 A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous
 Analytical framework for understanding markets, firms, governments, and the global economy. The
-Course requires both mathematical fluency and the ability to construct clear, logical arguments.
+course requires both mathematical fluency and the ability to construct clear, logical arguments.
 
 ### Board Coverage
+
+<div class="table-wrap">
 
 | Topic                                        | AQA     | Edexcel | OCR (A) | CIE (9708) |
 | -------------------------------------------- | ------- | ------- | ------- | ---------- |
@@ -40,6 +52,8 @@ Course requires both mathematical fluency and the ability to construct clear, lo
 | Financial Markets                            |,       | P1      | Paper 2 |,          |
 | Development Economics                        |,       | P1      |,       | P2         |
 | The Global Economy                           | Paper 2 | P1      | Paper 2 | P2         |
+
+</div>
 
 ### Course Structure
 
@@ -72,12 +86,16 @@ The study of the economy as a whole:
 
 ### Assessment
 
+<div class="table-wrap">
+
 | Board   | Papers                                                                      | Format                                  |
 | ------- | --------------------------------------------------------------------------- | --------------------------------------- |
 | AQA     | Paper 1 (Micro), Paper 2 (Macro), Paper 3 (Synoptic)                        | Data response + essay                   |
 | Edexcel | P1 (Markets), P2 (UK Economy), P3 (Business)                                | Multiple choice + data response + essay |
 | OCR (A) | Paper 1 (Micro), Paper 2 (Macro), Paper 3 (Themes)                          | Data response + essay                   |
 | CIE     | Paper 1 (MCQ), Paper 2 (Data response), Paper 3 (Essay), Paper 4 (Synoptic) | Mixed                                   |
+
+</div>
 
 ### How to Use These Notes
 
@@ -108,18 +126,34 @@ When finished, attempt the.
 ### Microeconomics
 
 **Elasticities:**
-$$PED = \frac{\% \Delta Q_D}{\% \Delta P} = \frac{\Delta Q}{\Delta P} \times \frac{P}{Q}$$
-$$PES = \frac{\% \Delta Q_S}{\% \Delta P} = \frac{\Delta Q}{\Delta P} \times \frac{P}{Q}$$
-$$XED = \frac{\% \Delta Q_A}{\% \Delta P_B}$$
-$$YED = \frac{\% \Delta Q_D}{\% \Delta Y}$$
+$$
+PED = \frac{\% \Delta Q_D}{\% \Delta P} = \frac{\Delta Q}{\Delta P} \times \frac{P}{Q}
+$$
+$$
+PES = \frac{\% \Delta Q_S}{\% \Delta P} = \frac{\Delta Q}{\Delta P} \times \frac{P}{Q}
+$$
+$$
+XED = \frac{\% \Delta Q_A}{\% \Delta P_B}
+$$
+$$
+YED = \frac{\% \Delta Q_D}{\% \Delta Y}
+$$
 
 **Welfare:** $$CS = \int_0^Q [P_D(Q) - P^*] \, dQ = \frac{1}{2}(P_{choke} - P^*) \times Q^*$$
-$$PS = \int_0^Q [P^* - P_S(Q)] \, dQ = \frac{1}{2}(P^* - P_{choke\_supply}) \times Q^*$$
-$$DWL_{tax} = \frac{1}{2} \times t \times \Delta Q$$
-$$DWL_{externality} = \frac{1}{2} \times MEC \times (Q_{mkt} - Q^*)$$
+$$
+PS = \int_0^Q [P^* - P_S(Q)] \, dQ = \frac{1}{2}(P^* - P_{choke\_supply}) \times Q^*
+$$
+$$
+DWL_{tax} = \frac{1}{2} \times t \times \Delta Q
+$$
+$$
+DWL_{externality} = \frac{1}{2} \times MEC \times (Q_{mkt} - Q^*)
+$$
 
 **Tax incidence:** $$\text{Consumer burden} = \frac{PES}{|PED| + PES} \times t$$
-$$\text{Producer burden} = \frac{|PED|}{|PED| + PES} \times t$$
+$$
+\text{Producer burden} = \frac{|PED|}{|PED| + PES} \times t
+$$
 
 **Firm behaviour:** $$\pi = TR - TC = P \times Q - TC(Q)$$ Profit max: $MR = MC$
 $$MC = \frac{dTC}{dQ}, \quad MR = \frac{dTR}{dQ}$$ Shut-down: $P < AVC_{min}$
@@ -129,8 +163,12 @@ $$MC = \frac{dTC}{dQ}, \quad MR = \frac{dTR}{dQ}$$ Shut-down: $P < AVC_{min}$
 ### Macroeconomics
 
 **National income:** $$GDP = C + I + G + (X - M)$$
-$$\text{Real GDP} = \frac{\text{Nominal GDP}}{\text{GDP Deflator}} \times 100$$
-$$g = \frac{Y_t - Y_{t-1}}{Y_{t-1}} \times 100$$
+$$
+\text{Real GDP} = \frac{\text{Nominal GDP}}{\text{GDP Deflator}} \times 100
+$$
+$$
+g = \frac{Y_t - Y_{t-1}}{Y_{t-1}} \times 100
+$$
 
 **Inflation:** $$\pi_t = \frac{CPI_t - CPI_{t-1}}{CPI_{t-1}} \times 100$$
 
@@ -140,16 +178,22 @@ $$g = \frac{Y_t - Y_{t-1}}{Y_{t-1}} \times 100$$
 
 **Phillips curve:** $$\pi = \pi^e - \beta(u - u^*)$$
 
-**Okun"s Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
+**Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
 
 **Debt dynamics:** $$\Delta b = (r - g_{nominal})b - p$$
 
 **Solow model:** $$y = k^\alpha$$
-$$\dot{k} = sy - (n + \delta)k = 0 \Rightarrow k^* = \left(\frac{s}{n + \delta}\right)^{1/(1-\alpha)}$$
-$$g_Y = g_A + \alpha g_K + (1-\alpha)g_L$$
+$$
+\dot{k} = sy - (n + \delta)k = 0 \Rightarrow k^* = \left(\frac{s}{n + \delta}\right)^{1/(1-\alpha)}
+$$
+$$
+g_Y = g_A + \alpha g_K + (1-\alpha)g_L
+$$
 
 **Exchange rate:**
-$$\text{Real exchange rate} = \frac{e \times P_{domestic}}{P_{foreign}}$$
+$$
+\text{Real exchange rate} = \frac{e \times P_{domestic}}{P_{foreign}}
+$$
 
 **Marshall-Lerner condition:** $$|PED_X| + |PED_M| > 1$$
 
@@ -168,6 +212,8 @@ $$\text{Real exchange rate} = \frac{e \times P_{domestic}}{P_{foreign}}$$
 
 ## Exam Technique: Command Words
 
+<div class="table-wrap">
+
 | Command Word | What You Must Do                                                                  |
 | ------------ | --------------------------------------------------------------------------------- |
 | Analyse      | Break down the topic, explain causes and mechanisms, use diagrams                 |
@@ -181,6 +227,8 @@ $$\text{Real exchange rate} = \frac{e \times P_{domestic}}{P_{foreign}}$$
 | Justify      | Provide reasons or evidence to support an argument                                |
 | Outline      | Give a brief account (less detail than "explain")                                 |
 | Suggest      | Propose a hypothesis or explanation (for questions with insufficient information) |
+
+</div>
 
 ---
 
@@ -315,27 +363,9 @@ When presented with economic data in an exam:
 
 **Economics is the study of choices, how individuals, businesses, and governments allocate scarce resources.**
 
-
-```mermaid
-flowchart TD
-    A[Economics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

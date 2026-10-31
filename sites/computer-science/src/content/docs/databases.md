@@ -49,7 +49,7 @@ Committee) Architecture defines three levels of abstraction:
    compression, encryption). Includes data structures, access paths, and storage allocation.
 
 The DBMS maps between levels via the **external/conceptual mapping** (translates external views to
-The conceptual schema) and the **conceptual/internal mapping** (translates the conceptual schema to
+the conceptual schema) and the **conceptual/internal mapping** (translates the conceptual schema to
 Internal storage).
 
 **Data independence:**
@@ -74,6 +74,8 @@ Internal storage).
 
 ### 1.4 Comparison of Data Models
 
+<div class="table-wrap">
+
 | Feature        | Relational                       | Object-Relational          | Document                 | Key-Value         | Graph                            | Column-Family                |
 | -------------- | -------------------------------- | -------------------------- | ------------------------ | ----------------- | -------------------------------- | ---------------------------- |
 | Data structure | Tables                           | Tables + objects           | JSON/BSON                | Key-value pairs   | Nodes + edges                    | Column families              |
@@ -82,6 +84,8 @@ Internal storage).
 | ACID support   | Full                             | Full                       | Limited                  | Limited           | Per-node                         | Tunable                      |
 | Scaling        | Vertical                         | Vertical                   | Horizontal               | Horizontal        | Horizontal                       | Horizontal                   |
 | Best for       | Structured data, complex queries | Complex types, inheritance | Content management, APIs | Caching, sessions | Social networks, recommendations | Time series, logs, analytics |
+
+</div>
 
 **Choosing a model.** Relational databases remain the default for structured data with complex
 Queries and strong consistency requirements. NoSQL databases excel when horizontal scalability or
@@ -92,7 +96,7 @@ Flexible schemas are paramount. The choice depends on the workload, not on a bla
 ### 2.1 Relations, Tuples, Attributes
 
 A **relation** $R$ over attributes $A_1, \ldots, A_n$ is a set of tuples $(a_1, \ldots, a_n)$ where
-Each $a_i$ is drawn from the domain of $A_i$. A relation is a subset of
+each $a_i$ is drawn from the domain of $A_i$. A relation is a subset of
 $D_1 \times D_2 \times
 \cdots \times D_n$.
 
@@ -114,7 +118,7 @@ Let $R$ be a relation schema.
 - **Primary key:** One of the candidate keys, chosen by the designer.
 - **Foreign key:** An attribute (or set) $FK$ in relation $R_1$ that references the primary key $PK$
   of relation $R_2$. Enforces referential integrity: every value of $FK$ must appear as a value of
-  $PK$ in $R_2$Or be `NULL`.
+  $PK$ in $R_2$ Or be `NULL`.
 
 **Example.** `Student(ID, Name, Email)`. `ID` is a candidate key (unique). If `Email` is also
 unique, It is another candidate key. One is chosen as the primary key.
@@ -128,12 +132,16 @@ Relational algebra provides a formal query language based on operations on relat
 
 **Selection** $\sigma_{\theta}(R)$: Return tuples from $R$ satisfying condition $\theta$.
 
-$$\sigma_{\mathrm{dept} = \mathrm{"CS'}(\mathrm{Student})}$$
+$$
+\sigma_{\mathrm{dept} = \mathrm{"CS'}(\mathrm{Student})}
+$$
 
 **Projection** $\pi_{A_1, \ldots, A_k}(R)$: Return a relation containing only attributes
 $A_1, \ldots, A_k$.
 
-$$\pi_{\mathrm{name}, \mathrm{gpa}(\mathrm{Student})}$$
+$$
+\pi_{\mathrm{name}, \mathrm{gpa}(\mathrm{Student})}
+$$
 
 **Union** $R \cup S$: All tuples in $R$ or $S$ (both must be union-compatible: same arity and
 Attribute domains).
@@ -146,17 +154,19 @@ Attribute domains).
 
 **Natural join** $R \bowtie S$: Combine tuples from $R$ and $S$ that agree on all common attributes.
 
-$$R \bowtie S = \pi_{R \cup S}(\sigma_{R.\mathrm{common} = S.\mathrm{common}(R \times S))}$$
+$$
+R \bowtie S = \pi_{R \cup S}(\sigma_{R.\mathrm{common} = S.\mathrm{common}(R \times S))}
+$$
 
 **Theta join** $R \bowtie_{\theta} S$: $\sigma_{\theta}(R \times S)$.
 
 **Equi-join** $R \bowtie_{R.A = S.B} S$: A theta join where $\theta$ is an equality on specific
 Attributes. Keeps both join columns.
 
-**Left outer join** $R \bowtie_{\mathrm{left} S}$: All tuples from $R$Matched with $S$ where
+**Left outer join** $R \bowtie_{\mathrm{left} S}$: All tuples from $R$ Matched with $S$ where
 possible; `NULL`-padded otherwise.
 
-**Right outer join** $R \bowtie_{\mathrm{right} S}$: All tuples from $S$Matched with $R$.
+**Right outer join** $R \bowtie_{\mathrm{right} S}$: All tuples from $S$ Matched with $R$.
 
 **Full outer join** $R \bowtie_{\mathrm{full} S}$: All tuples from both $R$ and $S$.
 
@@ -164,11 +174,15 @@ possible; `NULL`-padded otherwise.
 $(t, s)
 \in R$.
 
-$$R \div S = \pi_{R-S}(R) - \pi_{R-S}\Bigl(\bigl(\pi_{R-S}(R) \times S\bigr) - R\Bigr)$$
+$$
+R \div S = \pi_{R-S}(R) - \pi_{R-S}\Bigl(\bigl(\pi_{R-S}(R) \times S\bigr) - R\Bigr)
+$$
 
 **Example.** Find students who have taken **all** courses:
 
-$$\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\mathrm{Course})}}$$
+$$
+\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\mathrm{Course})}}
+$$
 
 <details>
 <summary>Worked Example 2.1: Complex Relational Algebra Query</summary>
@@ -176,27 +190,37 @@ $$\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\mathrm
 **Query:** Find the names of students who have enrolled in every course offered by the CS
 department.
 
-**Schema:** `Student(sid, name, dept)``Course(cid, title, dept)``Takes(sid, cid, semester)`.
+**Schema:** `Student(sid, name, dept)`, `Course(cid, title, dept)`, `Takes(sid, cid, semester)`.
 
 **Step 1.** Get CS course IDs:
 
-$$C_{\mathrm{CS} = \pi_{\mathrm{cid}\bigl(\sigma_{\mathrm{dept} = \mathrm{'CS'}(\mathrm{Course})\bigr)}}}$$
+$$
+C_{\mathrm{CS} = \pi_{\mathrm{cid}\bigl(\sigma_{\mathrm{dept} = \mathrm{'CS'}(\mathrm{Course})\bigr)}}}
+$$
 
 **Step 2.** Get student-course pairs from enrolments:
 
-$$T = \pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes})}$$
+$$
+T = \pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes})}
+$$
 
 **Step 3.** Students who have taken all CS courses (division):
 
-$$S_{\mathrm{all} = T \div C_{\mathrm{CS}}}$$
+$$
+S_{\mathrm{all} = T \div C_{\mathrm{CS}}}
+$$
 
 **Step 4.** Get names:
 
-$$\pi_{\mathrm{name}(S_{\mathrm{all} \bowtie \mathrm{Student})}}$$
+$$
+\pi_{\mathrm{name}(S_{\mathrm{all} \bowtie \mathrm{Student})}}
+$$
 
 **Combined:**
 
-$$\pi_{\mathrm{name}\Bigl(\bigl(\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))\bigr) \bowtie \mathrm{Student}\Bigr)}}}}$$
+$$
+\pi_{\mathrm{name}\Bigl(\bigl(\pi_{\mathrm{sid}, \mathrm{cid}(\mathrm{Takes}) \div \pi_{\mathrm{cid}(\sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))\bigr) \bowtie \mathrm{Student}\Bigr)}}}}
+$$
 
 </details>
 
@@ -208,11 +232,15 @@ have Taken no CS courses (count should be 0).
 
 **Step 1.** Filter enrolments to CS courses:
 
-$$E_{\mathrm{CS} = \pi_{\mathrm{sid}, \mathrm{cid}\bigl(\mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course})\bigr)}}}$$
+$$
+E_{\mathrm{CS} = \pi_{\mathrm{sid}, \mathrm{cid}\bigl(\mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course})\bigr)}}}
+$$
 
 **Step 2.** Left outer join with Student to include those with no CS courses:
 
-$$\mathrm{Result} = \mathrm{Student} \bowtie_{\mathrm{left} E_{\mathrm{CS}}}$$
+$$
+\mathrm{Result} = \mathrm{Student} \bowtie_{\mathrm{left} E_{\mathrm{CS}}}
+$$
 
 Note: aggregation over outer join results handles `NULL` values (they are excluded from `COUNT`).
 
@@ -239,15 +267,19 @@ variable And $P$ is a well-formed formula. The formula is built from:
 - Logical connectives: $\land$ (and), $\lor$ (or), $\lnot$ (not).
 - Quantifiers: $\exists t$ (there exists), $\forall t$ (for all).
 
-$$\{t \mid \exists s \in \mathrm{Takes}(t[\mathrm{name}] = s[\mathrm{name}] \land s[\mathrm{grade}] = \mathrm{'A'})\}$$
+$$
+\{t \mid \exists s \in \mathrm{Takes}(t[\mathrm{name}] = s[\mathrm{name}] \land s[\mathrm{grade}] = \mathrm{'A'})\}
+$$
 
 **Domain relational calculus.** Variables range over individual attribute domains (not entire
 tuples). A query has the form $\\{\langle x_1, \ldots, x_k \rangle \mid P(x_1, \ldots, x_k)\\}$.
 
-$$\{ \langle n \rangle \mid \exists s, g \;(\mathrm{Takes}(s, \mathrm{'CS101'}, g) \land \mathrm{Student}(s, n, \ldots) \land g = \mathrm{'A'})\}$$
+$$
+\{ \langle n \rangle \mid \exists s, g \;(\mathrm{Takes}(s, \mathrm{'CS101'}, g) \land \mathrm{Student}(s, n, \ldots) \land g = \mathrm{'A'})\}
+$$
 
 **Safety.** A calculus expression is **safe** if it yields a finite relation. The expression
-$\\{t \mid \lnot(t \in R)\\}$ is unsafe (it includes every tuple not in $R$An infinite set). We
+$\\{t \mid \lnot(t \in R)\\}$ is unsafe (it includes every tuple not in $R$ An infinite set). We
 Restrict variables to domains of the relations appearing in the query.
 
 **Theorem 2.2 (Codd).** Relational algebra and relational calculus (both tuple and domain) are
@@ -260,11 +292,15 @@ Equally expressive: every query expressible in one is expressible in the other.
 
 Using tuple relational calculus:
 
-$$\{t \mid t \in \mathrm{Student} \land \lnot \exists s \in \mathrm{Takes}\bigl(s[\mathrm{sid}] = t[\mathrm{sid}] \land \exists c \in \mathrm{Course}(c[\mathrm{cid}] = s[\mathrm{cid}] \land c[\mathrm{dept}] = \mathrm{'CS'}\bigr)\}$$
+$$
+\{t \mid t \in \mathrm{Student} \land \lnot \exists s \in \mathrm{Takes}\bigl(s[\mathrm{sid}] = t[\mathrm{sid}] \land \exists c \in \mathrm{Course}(c[\mathrm{cid}] = s[\mathrm{cid}] \land c[\mathrm{dept}] = \mathrm{'CS'}\bigr)\}
+$$
 
 **Translation to relational algebra:**
 
-$$\pi_{\mathrm{name}(\mathrm{Student}) - \pi_{\mathrm{name}(\mathrm{Student} \bowtie \mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))}}}$$
+$$
+\pi_{\mathrm{name}(\mathrm{Student}) - \pi_{\mathrm{name}(\mathrm{Student} \bowtie \mathrm{Takes} \bowtie \sigma_{\mathrm{dept}=\mathrm{'CS'}(\mathrm{Course}))}}}
+$$
 
 </details>
 
@@ -291,21 +327,21 @@ _Proof._ Immediate from the commutativity of logical conjunction
 **Rule 3 (Selection pushdown through cross product).** If $\theta$ involves only attributes of $R$
 Then $\sigma_{\theta}(R \times S) \equiv \sigma_{\theta}(R) \times S$.
 
-_Proof._ For each pair $(r, s)$ with $r \in R$ and $s \in S$The condition $\theta$ depends only on
+_Proof._ For each pair $(r, s)$ with $r \in R$ and $s \in S$ The condition $\theta$ depends only on
 $r$. Filtering $(r, s)$ by $\theta$ on $R \times S$ is equivalent to first filtering $R$ by $\theta$
-And then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
+and then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
 
 **Rule 4 (Selection pushdown through join).** If $\theta$ involves only attributes of $R$ Then
 $\sigma_{\theta}(R \bowtie S) \equiv \sigma_{\theta}(R) \bowtie S$.
 
 _Proof._ The join $R \bowtie S$ combines matching pairs from $R$ and $S$. Applying $\sigma_{\theta}$
-After the join filters these pairs by $\theta$ on $R$'s attributes. Filtering $R$ first removes
-Non-matching $R$-tuples before the join, yielding the same final set of pairs. $\blacksquare$
+after the join filters these pairs by $\theta$ on $R$'s attributes. Filtering $R$ first removes
+non-matching $R$-tuples before the join, yielding the same final set of pairs. $\blacksquare$
 
 **Rule 5 (Commutativity of joins).** $R \bowtie S \equiv S \bowtie R$.
 
 _Proof._ The natural join combines tuples agreeing on common attributes. This relation is symmetric
-In $R$ and $S$. $\blacksquare$
+in $R$ and $S$. $\blacksquare$
 
 **Rule 6 (Associativity of joins).** $(R \bowtie S) \bowtie T \equiv R \bowtie (S \bowtie T)$.
 
@@ -348,6 +384,8 @@ CREATE INDEX idx_enrolment_student ON Enrolment(StudentID);
 
 **Constraints:**
 
+<div class="table-wrap">
+
 | Constraint    | Enforcement                     |
 | ------------- | ------------------------------- |
 | `PRIMARY KEY` | Unique, not null                |
@@ -356,6 +394,8 @@ CREATE INDEX idx_enrolment_student ON Enrolment(StudentID);
 | `NOT NULL`    | No null values                  |
 | `CHECK`       | Arbitrary boolean condition     |
 | `DEFAULT`     | Default value if none specified |
+
+</div>
 
 ### 3.2 Data Manipulation Language (DML)
 
@@ -381,7 +421,7 @@ WHERE E.Grade IN ('A', 'A-')
 ORDER BY S.GPA DESC;
 ```
 
-**Aggregate functions:** `COUNT``SUM``AVG``MIN``MAX`.
+**Aggregate functions:** `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
 
 ```sql
 SELECT Dept, COUNT(*) AS NumStudents, AVG(GPA) AS AvgGPA
@@ -460,8 +500,8 @@ FROM Student;
 
 **`RANK()` vs. `DENSE_RANK()`:** `RANK()` leaves gaps after ties; `DENSE_RANK()` does not.
 
-**Other window functions:** `ROW_NUMBER()``LEAD()``FIRST_VALUE()``LAST_VALUE()`
-`NTILE(n)``SUM() OVER(...)``COUNT() OVER(...)`.
+**Other window functions:** `ROW_NUMBER()`, `LEAD()`, `FIRST_VALUE()`, `LAST_VALUE()`
+`NTILE(n)`, `SUM() OVER(...)`, `COUNT() OVER(...)`.
 
 <details>
 <summary>Worked Example 3.1: Running Totals and Percentiles</summary>
@@ -487,7 +527,7 @@ FROM Student;
 ```
 
 `PERCENT_RANK()` returns a value in $[0, 1]$ representing the fractional rank. `NTILE(4)` divides
-The partition into 4 approximately equal groups (quartiles).
+the partition into 4 approximately equal groups (quartiles).
 
 </details>
 
@@ -503,7 +543,7 @@ FROM Student GROUP BY Dept;
 ```
 
 Views are virtual tables. **Updatable views** (single-table, no aggregation) allow `INSERT`
-`UPDATE``DELETE` through the view. **Materialised views** store the result physically and must be
+`UPDATE`, `DELETE` through the view. **Materialised views** store the result physically and must be
 Refreshed.
 
 ### 3.8 Recursive Common Table Expressions
@@ -565,7 +605,7 @@ ORDER BY total_qty DESC;
 ```
 
 The recursive step multiplies the quantity at each level to accumulate the total needed quantity for
-Each sub-component.
+each sub-component.
 
 </details>
 
@@ -580,10 +620,12 @@ Attacker to manipulate the query structure.
 cursor.execute(f"SELECT * FROM Student WHERE name = '{user_input}'")
 ```
 
-If `user_input` is `' OR '1'='1`The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
+If `user_input` is `' OR '1'='1`. The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
 Returning all rows.
 
 **Types of SQL injection:**
+
+<div class="table-wrap">
 
 | Type                  | Description                                             |
 | --------------------- | ------------------------------------------------------- |
@@ -592,6 +634,8 @@ Returning all rows.
 | Blind (boolean)       | Attacker infers data by asking true/false questions     |
 | Blind (time-based)    | Attacker infers data by measuring response delays       |
 | Out-of-band           | Attacker triggers the DBMS to send data externally      |
+
+</div>
 
 **Prevention:**
 
@@ -633,7 +677,7 @@ counts, And execution time.
 
 **Common optimisation guidelines:**
 
-- **Create appropriate indexes** on columns used in `WHERE``JOIN``ORDER BY`And `GROUP BY` clauses.
+- **Create appropriate indexes** on columns used in `WHERE`, `JOIN`, `ORDER BY` and `GROUP BY` clauses.
 - **Avoid `SELECT *`**; retrieve only the columns needed.
 - **Avoid N+1 queries:** Fetching related data row-by-row instead of with a single join or batch
   query.
@@ -719,9 +763,9 @@ Candidate key. Equivalently: every non-prime attribute is fully functionally dep
 Candidate key.
 
 A **partial dependency** is $A \to B$ where $A$ is a proper subset of a candidate key and $B$ is
-Non-prime.
+non-prime.
 
-**Third Normal Form (3NF).** In 2NF, and for every non-trivial FD $X \to A$ in $R$Either $X$ is a
+**Third Normal Form (3NF).** In 2NF, and for every non-trivial FD $X \to A$ in $R$ Either $X$ is a
 Superkey or $A$ is a prime attribute.
 
 A **prime attribute** is an attribute that belongs to some candidate key.
@@ -749,7 +793,7 @@ if $R_1 \cap R_2 \to R_1$ or $R_1 \cap R_2 \to R_2$.
 
 _Proof._ Let $r$ be an instance of $R$ and let $r_1 = \pi_{R_1}(r)$, $r_2 = \pi_{R_2}(r)$. We must
 Show $r = r_1 \bowtie r_2$ under the given condition. Since $r_1$ and $r_2$ are projections of $r$
-Every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
+every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
 show That no spurious tuple is produced. Suppose $(t_1, t_2) \in r_1 \bowtie r_2$ where
 $t_1 \in r_1$ and $t_2 \in r_2$. Since $t_1$ and $t_2$ agree on $R_1 \cap R_2$ And by the condition
 $R_1 \cap R_2 \to
@@ -765,7 +809,7 @@ Preserves dependencies if the **closure** of $\bigcup_{i=1}^{k} F_i^+$ (where $F
 restriction Of $F$ to $R_i$) equals $F^+$. In practice, we check that every FD in a minimal cover of
 $F$ can be Tested within a single $R_i$.
 
-Dependency preservation is important for **efficient constraint checking**: when updating $R_i$The
+Dependency preservation is important for **efficient constraint checking**: when updating $R_i$ The
 DBMS can verify relevant FDs locally without joining all decomposed relations.
 
 ### 4.4 Normalisation Examples
@@ -836,7 +880,7 @@ $R_2$ So it is dropped. $ED \to A$ holds. Also, $A \to B$ involves $B$ not in $R
 Check for implied FDs: $A \to B$ in $R$ implies $AC \to BC$ (augmentation), so $AC \to E$ in $R$
 (since $BC \to E$). But $AC$ is not a superkey of $R_2$... Wait, let us recheck.
 
-Actually, from $BC \to E$ and the fact that $B$ is not in $R_2$We cannot directly use $BC \to E$ In
+Actually, from $BC \to E$ and the fact that $B$ is not in $R_2$ We cannot directly use $BC \to E$ In
 $R_2$. We should compute the projection of $F$ onto $R_2$:
 $F_2 = \\{ED \to A, A \to \varnothing\\}$. So the only non-trivial FD in $R_2$ is $ED \to A$. Is
 $ED$ a superkey of $R_2$? $ED^+ = \\{E, D, A\\} \neq
@@ -844,11 +888,11 @@ $ED$ a superkey of $R_2$? $ED^+ = \\{E, D, A\\} \neq
 a superkey of $R_2$.
 
 Hmm, we need to be more careful. Let us check if $C$ is determined by $ED$ in the original $R$.
-$ED^+$ in $R = \\{E, D, A, B\\}$Which does not include $C$. So $C$ is not determined.
+$ED^+$ in $R = \\{E, D, A, B\\}$ Which does not include $C$. So $C$ is not determined.
 
 This means $R_2 = \\{A, C, D, E\\}$ has no non-trivial FDs that hold (other than keys determining
 all Attributes). Check: candidate keys of $R_2$ must be superkeys. Since $ED \to A$ holds but $ED$
-does Not determine $C$We need $EDC$ as a key: $EDC^+ = \\{E, D, C, A, B\\} = R$ (all of $R$). So in
+does Not determine $C$ We need $EDC$ as a key: $EDC^+ = \\{E, D, C, A, B\\} = R$ (all of $R$). So in
 $R_2$, $EDC$ is a candidate key (since it determines all attributes of $R_2$: $EDC \to A$ and
 $A \to
 \varnothing$ in $R_2$, so $EDC^+ = \\{A, C, D, E\\}$). $R_2$ is in BCNF since the only
@@ -856,7 +900,7 @@ non-trivial FD is $ED \to A$ and we need to check if $ED$ is a superkey of $R_2$
 $ED^+ \cap R_2 = \\{A, D, E\\}
 \neq R_2$, $ED$ is not a superkey.
 
-But wait -- there are no other non-trivial FDs in $R_2$. The only one is $ED \to A$Which violates
+But wait -- there are no other non-trivial FDs in $R_2$. The only one is $ED \to A$ Which violates
 BCNF. Decompose: $R_{2a} = \\{E, D, A\\}$ and
 $R_{2b} = \\{A, C, D, E\\} \setminus \\{E, D, A\\} =
 \\{C\\}$.
@@ -872,7 +916,7 @@ lossless. $R_{2a} \cap R_{2b} = \varnothing$... This is problematic. $R_{2b} = \
 attributes with The others.
 
 The issue is that $C$ is a "dangling" attribute. This is correct -- $C$ appears only in the key $BC$
-Of the original relation but is not functionally determined by anything except the full key. The
+of the original relation but is not functionally determined by anything except the full key. The
 Decomposition is technically correct but $R_{2b} = \\{C\\}$ by itself cannot be joined losslessly
 with The others.
 
@@ -891,7 +935,7 @@ another non-prime attribute.
 ### 4.5 Multivalued Dependencies and 4NF
 
 A **multivalued dependency (MVD)** $X \twoheadrightarrow Y$ holds on relation $R$ if for any two
-Tuples $t_1, t_2 \in R$ with $t_1[X] = t_2[X]$There exists a tuple $t_3 \in R$ such that:
+Tuples $t_1, t_2 \in R$ with $t_1[X] = t_2[X]$ There exists a tuple $t_3 \in R$ such that:
 
 - $t_3[X] = t_1[X]$
 - $t_3[Y] = t_1[Y]$
@@ -908,7 +952,7 @@ That holds on $R$, $X$ is a superkey.
 
 _Proof._ Every FD $X \to Y$ implies the MVD $X \twoheadrightarrow Y$. In 4NF, every non-trivial MVD
 $X \twoheadrightarrow Y$ requires $X$ to be a superkey. Therefore, every non-trivial FD $X \to Y$
-Also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
+also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
 
 **4NF decomposition.** Given $R$ with MVD $X \twoheadrightarrow Y$ where $X$ is not a superkey,
 Decompose into $R_1 = X \cup Y$ and $R_2 = R - Y$. The decomposition is lossless-join.
@@ -924,12 +968,16 @@ $\mathrm{Course} \twoheadrightarrow \mathrm{Textbook}$.
 
 **Sample data:**
 
+<div class="table-wrap">
+
 | Course | Instructor | Textbook         |
 | ------ | ---------- | ---------------- |
 | CS101  | Smith      | DB Systems       |
 | CS101  | Lee        | DB Systems       |
 | CS101  | Smith      | Algorithm Design |
 | CS101  | Lee        | Algorithm Design |
+
+</div>
 
 The redundancy is clear: each instructor-textbook pair is repeated for each course.
 
@@ -999,7 +1047,7 @@ Keys per internal node (order $m = 3$).
 
 **Insert 20.** Leaf: $[10, 20]$
 
-**Insert 5.** Leaf would be $[5, 10, 20]$ -- overflow (max 2 keys). Split: left leaf $[5]$Right Leaf
+**Insert 5.** Leaf would be $[5, 10, 20]$ -- overflow (max 2 keys). Split: left leaf $[5]$ Right Leaf
 $[10, 20]$. Push median (10) to new internal node.
 
 ```
@@ -1056,7 +1104,7 @@ Root: [15]
 
 Now delete 15. Leaf $[10, 15]$ becomes $[10]$. No underflow. Internal node key 15 changes to 10. But
 wait -- the internal node $[10]$ would need to distinguish between leaves $[5]$ and $[10]$. Since
-the left child contains keys $\lt 10$ and the right child contains keys $\geq 10$This Is still
+the left child contains keys $\lt 10$ and the right child contains keys $\geq 10$ This Is still
 correct.
 
 Now delete 10 from the left subtree's right leaf. Leaf becomes empty -- underflow.
@@ -1066,7 +1114,7 @@ empty leaf with $[5]$. The merged leaf is $[5]$. The internal node $[10]$ now ha
 (the merged leaf), so it underflows.
 
 Since the internal node is a child of the root, and the root has two children, we can merge: remove
-The internal node and promote its remaining child to be a direct child of the root.
+the internal node and promote its remaining child to be a direct child of the root.
 
 ```
 Root: [30]
@@ -1089,10 +1137,10 @@ Average lookup: $O(1)$ under uniform hashing. No support for range queries.
 
 1. **Separate chaining:** Each bucket contains a linked list of entries. Lookup requires traversing
    the chain. Average chain length under uniform hashing is $n / B$.
-2. **Open addressing (linear probing):** If bucket $h(k)$ is full, try $h(k)+1$, $h(k)+2$Etc. (mod
+2. **Open addressing (linear probing):** If bucket $h(k)$ is full, try $h(k)+1$, $h(k)+2$ Etc. (mod
    $B$). Prone to **primary clustering**: consecutive occupied slots increase the average probe
    length.
-3. **Open addressing (quadratic probing):** Try $h(k) + 1^2, h(k) + 2^2, h(k) + 3^2$Etc. Reduces
+3. **Open addressing (quadratic probing):** Try $h(k) + 1^2, h(k) + 2^2, h(k) + 3^2$ Etc. Reduces
    clustering but may not probe all buckets.
 4. **Open addressing (double hashing):** Use a second hash function $h_2$: probe sequence is
    $h(k) + i \cdot h_2(k)$ for $i = 0, 1, 2, \ldots$. Minimises clustering.
@@ -1111,6 +1159,8 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 
 **Comparison:**
 
+<div class="table-wrap">
+
 | Property      | B+ Tree                 | Hash Index               |
 | ------------- | ----------------------- | ------------------------ |
 | Point query   | $O(\log_m n)$           | $O(1)$ average           |
@@ -1119,10 +1169,12 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 | Space         | Nodes may be half-empty | May have overflow chains |
 | Order         | Maintains key order     | No ordering              |
 
+</div>
+
 ### 5.3 Bitmap Indexes
 
 A **bitmap index** creates one bitmap per distinct value of an attribute. For a table with $n$ rows
-And attribute $A$ with values $\\{v_1, \ldots, v_k\\}$Store $k$ bitmaps of $n$ bits each, where
+and attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
 Bitmap $i$ has a 1 in position $j$ if row $j$ has $A = v_i$.
 
 **Use case:** Low-cardinality columns (gender, status, country). Bitmap indexes support fast bitwise
@@ -1130,11 +1182,15 @@ AND/OR for multi-criteria queries.
 
 **Bitwise operations for query evaluation:**
 
+<div class="table-wrap">
+
 | Query                   | Bitmap operation                                        |
 | ----------------------- | ------------------------------------------------------- |
 | $A = v_1$ AND $B = v_2$ | $\mathrm{bitmap_}{A,v_1}$ AND $\mathrm{bitmap_}{B,v_2}$ |
 | $A = v_1$ OR $A = v_2$  | $\mathrm{bitmap_}{A,v_1}$ OR $\mathrm{bitmap_}{A,v_2}$  |
 | $A \neq v_1$            | NOT $\mathrm{bitmap_}{A,v_1}$                           |
+
+</div>
 
 **Compression.** For columns with many distinct values, run-length encoding (WAH or BBC) compresses
 Bitmaps effectively while still supporting bitwise operations.
@@ -1146,6 +1202,8 @@ buffer Pool has $B$ pages and each disk page access costs one I/O.
 
 **Selection cost estimation:**
 
+<div class="table-wrap">
+
 | Access method           | Cost (I/Os)                                               |
 | ----------------------- | --------------------------------------------------------- |
 | Full table scan         | $\lceil n_R / B \rceil$ (or $n_R$ if $B$ pages available) |
@@ -1153,15 +1211,21 @@ buffer Pool has $B$ pages and each disk page access costs one I/O.
 | B+ tree range search    | $\log_f(n_R)$ leaf + $\lvert\mathrm{range} pages\rvert$   |
 | Hash equality search    | 1 (ideal)                                                 |
 
+</div>
+
 Where $f$ is the fanout (average number of children per internal node).
 
 **Join cost estimation (from Section 7):**
+
+<div class="table-wrap">
 
 | Algorithm         | Cost                                                      |
 | ----------------- | --------------------------------------------------------- |
 | Block nested-loop | $n_R + \lceil n_R/(B-2)\rceil \cdot n_S$                  |
 | Sort-merge        | $2n_R \log_{B-1}(n_R) + 2n_S \log_{B-1}(n_S) + n_R + n_S$ |
 | Hash join         | $3(n_R + n_S)$ (if build relation fits in $B$ pages)      |
+
+</div>
 
 <details>
 <summary>Worked Example 5.3: Comparing Access Methods</summary>
@@ -1188,6 +1252,8 @@ Selectivity estimates.
 
 A **transaction** is a logical unit of work that must satisfy:
 
+<div class="table-wrap">
+
 | Property    | Meaning                                                      |
 | ----------- | ------------------------------------------------------------ |
 | Atomicity   | All or nothing: either all operations commit or none         |
@@ -1195,9 +1261,13 @@ A **transaction** is a logical unit of work that must satisfy:
 | Isolation   | Concurrent transactions do not interfere with each other     |
 | Durability  | Once committed, the effects survive failures                 |
 
+</div>
+
 ### 6.2 Isolation Levels
 
 SQL defines four isolation levels with increasing strictness:
+
+<div class="table-wrap">
 
 | Level            | Dirty Read | Non-repeatable Read | Phantom Read |
 | ---------------- | ---------- | ------------------- | ------------ |
@@ -1205,6 +1275,8 @@ SQL defines four isolation levels with increasing strictness:
 | Read Committed   | Prevented  | Possible            | Possible     |
 | Repeatable Read  | Prevented  | Prevented           | Possible     |
 | Serializable     | Prevented  | Prevented           | Prevented    |
+
+</div>
 
 - **Dirty read:** Reading uncommitted data from another transaction.
 - **Non-repeatable read:** Same query returns different results within the same transaction due to
@@ -1230,17 +1302,17 @@ Access the same data item, and at least one is a write. A schedule is conflict-s
 
 _Proof sketch._ If the precedence graph has a cycle, no serial ordering can respect all the
 Precedence constraints, so the schedule is not conflict-serialisable. Conversely, a topological sort
-Of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
+of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
 
 **View serialisability.** A schedule $S$ is view-serialisable if it is **view-equivalent** to a
 Serial schedule $S'$. View equivalence requires:
 
-1. **Initial read:** If $T_i$ reads the initial value of $Q$ in $S$It does so in $S'$.
-2. **Updated read:** If $T_i$ reads the value of $Q$ written by $T_j$ in $S$It does so in $S'$.
-3. **Final write:** If $T_i$ performs the final write of $Q$ in $S$It does so in $S'$.
+1. **Initial read:** If $T_i$ reads the initial value of $Q$ in $S$ It does so in $S'$.
+2. **Updated read:** If $T_i$ reads the value of $Q$ written by $T_j$ in $S$ It does so in $S'$.
+3. **Final write:** If $T_i$ performs the final write of $Q$ in $S$ It does so in $S'$.
 
 Every conflict-serialisable schedule is view-serialisable, but the converse does not hold. Testing
-For view serialisability is NP-complete.
+for view serialisability is NP-complete.
 
 <details>
 <summary>Worked Example 6.1: Testing Conflict Serialisability</summary>
@@ -1293,8 +1365,8 @@ which corresponds to a serial schedule. $\blacksquare$
 **Timestamp Ordering (TO).** Each transaction receives a timestamp $TS(T)$. For conflicting
 Operations:
 
-- $T_i$ reads $Q$: if $Q$ was last written by $T_j$ with $TS(T_j) \gt TS(T_i)$Abort $T_i$.
-- $T_i$ writes $Q$: if $Q$ was last read by $T_j$ with $TS(T_j) \gt TS(T_i)$Abort $T_i$.
+- $T_i$ reads $Q$: if $Q$ was last written by $T_j$ with $TS(T_j) \gt TS(T_i)$ Abort $T_i$.
+- $T_i$ writes $Q$: if $Q$ was last read by $T_j$ with $TS(T_j) \gt TS(T_i)$ Abort $T_i$.
 
 No deadlocks (no waiting), but may abort transactions unnecessarily.
 
@@ -1307,7 +1379,7 @@ No deadlocks (no waiting), but may abort transactions unnecessarily.
    restart.
 
 **Forward validation:** Check against committed transactions. For each data item $Q$ read by
-$T_i$Verify that the transaction that last wrote $Q$ committed before $T_i$'s read phase began.
+$T_i$ Verify that the transaction that last wrote $Q$ committed before $T_i$'s read phase began.
 **Backward validation:** Check against active transactions.
 
 OCC performs well when conflicts are rare but degrades under high contention (many restarts).
@@ -1317,8 +1389,8 @@ OCC performs well when conflicts are rare but degrades under high contention (ma
 
 **Scenario:** Two transactions $T_1$ and $T_2$ both read and update account balances.
 
-- $T_1$: Read $A = 100$Read $B = 200$Write $A = 150$Write $B = 150$ (transfer 50 from $B$ to $A$).
-- $T_2$: Read $A = 100$Write $A = 75$ (withdraw 25).
+- $T_1$: Read $A = 100$ Read $B = 200$ Write $A = 150$ Write $B = 150$ (transfer 50 from $B$ to $A$).
+- $T_2$: Read $A = 100$ Write $A = 75$ (withdraw 25).
 
 **Execution:**
 
@@ -1424,7 +1496,9 @@ with a Midpoint insertion strategy to avoid scan pollution.
 
 ### 7.1 Query Processing Pipeline
 
-$$\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}$$
+$$
+\mathrm{SQL} \xrightarrow{\mathrm{parse} \mathrm{AST} \xrightarrow{\mathrm{rewrite} \mathrm{Logical} plan \xrightarrow{\mathrm{optimise} \mathrm{Physical} plan \xrightarrow{\mathrm{execute} \mathrm{Result}}}}}
+$$
 
 ### 7.2 Cost-Based Optimisation
 
@@ -1436,8 +1510,10 @@ Dominates.
 **Catalog statistics:** Table cardinality ($n$), attribute value cardinality, number of distinct
 Values, histogram of value distribution, index information.
 
-**Selectivity estimation.** For a predicate $\sigma_{A = v}(R)$The selectivity is approximately
+**Selectivity estimation.** For a predicate $\sigma_{A = v}(R)$ The selectivity is approximately
 $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
+
+<div class="table-wrap">
 
 | Predicate type              | Selectivity estimate                             |
 | --------------------------- | ------------------------------------------------ |
@@ -1446,35 +1522,47 @@ $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 | $A_1 = v_1 \land A_2 = v_2$ | $1 / V(A_1) \times 1 / V(A_2)$                   |
 | $A_1 = v_1 \lor A_2 = v_2$  | $1/V(A_1) + 1/V(A_2) - 1/(V(A_1) \times V(A_2))$ |
 
+</div>
+
 ### 7.3 Join Algorithms
 
-**Nested-loop join.** For each tuple in $R$Scan all of $S$.
+**Nested-loop join.** For each tuple in $R$ Scan all of $S$.
 
-$$\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)$$
+$$
+\mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)
+$$
 
 If one relation fits in memory, buffer it and scan the other: cost = $n_R + n_S$.
 
 **Block nested-loop join.** Use $B$ buffer pages. Load blocks of $R$ into $B - 2$ buffers, scan $S$
 With the remaining buffer.
 
-$$\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S$$
+$$
+\mathrm{Cost} = n_R + \lceil n_R / (B - 2) \rceil \cdot n_S
+$$
 
 **Sort-merge join.** Sort both relations on the join attribute, then merge.
 
-$$\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S$$
+$$
+\mathrm{Cost} = 2 \cdot n_R \cdot \log_{B-1}(n_R) + 2 \cdot n_S \cdot \log_{B-1}(n_S) + n_R + n_S
+$$
 
 Efficient for large relations, especially when both are already sorted.
 
 **Hash join.** Build a hash table on the smaller relation (build phase), then probe with the larger
 (probe phase).
 
-$$\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}$$
+$$
+\mathrm{Cost} = 3 \cdot (n_R + n_S) \mathrm{ (if build relation fits in memory)}
+$$
 
 Best for equi-joins when one relation fits in memory.
 
-**Index nested-loop join.** For each tuple in $R$Use an index on $S$ to find matching tuples.
+**Index nested-loop join.** For each tuple in $R$ Use an index on $S$ to find matching tuples.
 
-$$\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)$$
+$$
+\mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)
+$$
 
 Efficient if $S$ has an index on the join attribute and $n_R$ is small.
 
@@ -1582,12 +1670,16 @@ Following three guarantees simultaneously:
 Since network partitions are inevitable in distributed systems, the real trade-off is between
 **consistency** and **availability** during a partition.
 
+<div class="table-wrap">
+
 | System                   | Choice | Notes                                |
 | ------------------------ | ------ | ------------------------------------ |
 | Redis Cluster            | CP     | Partition: some nodes unreachable    |
 | Cassandra                | AP     | Tunable consistency per operation    |
 | MongoDB                  | CP     | Primary unavailable during partition |
 | RDBMS (with replication) | CA     | Not partition-tolerant (single node) |
+
+</div>
 
 **PACELC.** Extension of CAP: in the absence of partitions, the trade-off is between **latency** And
 **consistency**.
@@ -1622,20 +1714,20 @@ via the network. This is the dominant architecture for distributed databases.
 ### 9.2 Distributed Transactions
 
 A distributed transaction involves operations on multiple nodes. The challenge is ensuring atomicity
-Across nodes.
+across nodes.
 
 **Two-Phase Commit (2PC).**
 
 - **Phase 1 (Voting):** The coordinator sends a `PREPARE` message to all participants. Each
   participant writes its changes to a local log, votes `YES` (ready to commit) or `NO` (abort).
-- **Phase 2 (Decision):** If all participants voted `YES`The coordinator sends `COMMIT`; otherwise
+- **Phase 2 (Decision):** If all participants voted `YES`. The coordinator sends `COMMIT`; otherwise
   it sends `ABORT`. Participants apply the decision and acknowledge.
 
 **Theorem 9.1.** 2PC guarantees atomicity of distributed transactions if no participant crashes
 Permanently and the log is on stable storage.
 
 _Proof._ If the coordinator crashes after phase 1, participants that voted `YES` are blocked -- they
-Cannot decide without knowing the coordinator's decision. Upon recovery, the coordinator reads its
+cannot decide without knowing the coordinator's decision. Upon recovery, the coordinator reads its
 Log to determine the decision and notifies participants. Since each participant wrote its vote to
 Stable storage before responding, no vote is lost. $\blacksquare$
 
@@ -1649,7 +1741,7 @@ Model:
 2. **PreCommit:** If all `YES`Coordinator sends `PRE-COMMIT`. Participants acknowledge.
 3. **DoCommit:** Coordinator sends `COMMIT`. Participants commit and acknowledge.
 
-If the coordinator crashes after `PRE-COMMIT`Any participant can contact others to determine the
+If the coordinator crashes after `PRE-COMMIT`. Any participant can contact others to determine the
 Outcome (since at least one participant must have received `PRE-COMMIT` and can coordinate).
 
 **Limitation of 3PC:** Assumes reliable communication (no lost messages), which is unrealistic in
@@ -1706,11 +1798,15 @@ Updated in the background.
 
 **Replication architectures:**
 
+<div class="table-wrap">
+
 | Architecture  | Writes       | Reads       | Consistency                                             |
 | ------------- | ------------ | ----------- | ------------------------------------------------------- |
 | Single-leader | Primary only | Any replica | Strong (reads from primary) or eventual (from replicas) |
 | Multi-leader  | Any node     | Any node    | Eventual (conflict resolution required)                 |
 | Leaderless    | Any node     | Any node    | Tunable (quorum reads/writes)                           |
+
+</div>
 
 **Quorum-based consistency.** For a system with $N$ replicas, define write quorum $W$ and read
 quorum $R$ such that $W + R \gt N$. This guarantees that any read sees at least one replica with the
@@ -1744,7 +1840,7 @@ visibility Of updates.
 **Write:** Client writes value $v$. Primary sends write to all 5 replicas. At least 3 acknowledge
 ($W = 3$). Write is considered successful.
 
-**Read:** Client reads from 3 replicas ($R = 3$). Since $W + R \gt N$Any read quorum overlaps With
+**Read:** Client reads from 3 replicas ($R = 3$). Since $W + R \gt N$ Any read quorum overlaps With
 the write quorum, so the reader is guaranteed to see at least one replica with the latest Value. The
 reader returns the most recent version among the 3 responses.
 
@@ -1786,7 +1882,7 @@ reader returns the most recent version among the 3 responses.
 **Problems 8--10:** SQL
 
 1. Write a recursive SQL query that computes the total cost of all parts (direct and indirect)
-   required to assemble product `P100`Given a `BOM(parent_part, child_part, quantity)` table.
+   required to assemble product `P100`. Given a `BOM(parent_part, child_part, quantity)` table.
 
 2. Write a SQL query that, for each department, returns the student with the highest GPA, their GPA,
    and the difference between their GPA and the department average. Use window functions only (no
@@ -1941,12 +2037,16 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                          | Site        | Link                                                                    |
 | ------------------------------ | ----------- | ----------------------------------------------------------------------- |
 | Advanced Databases             | WyattsNotes | [View](/4-databases/12_databases-advanced/)                   |
 | Advanced SQL                   | WyattsNotes | [View](https://databases.wyattau.com/02-sql-fundamentals/advanced-sql/) |
 | Algorithms and Data Structures | WyattsNotes | [View](/algorithms-and-data-structures/)       |
 | Database Systems, CMU 15-445  | CMU         | [View](https://15445.courses.cs.cmu.edu/)                               |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

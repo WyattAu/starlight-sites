@@ -37,12 +37,16 @@ Comparative methodology as a central analytical tool.
 
 The IB History assessment consists of the following components:
 
+<div class="table-wrap">
+
 | Component   | Description                                                                                                                                          | Weighting          |
 | :---------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- |
 | **Paper 1** | Prescribed Subjects -- source-based analysis of a specific case study. Students answer four structured questions using provided source material.     | 20% (SL), 20% (HL) |
 | **Paper 2** | World History Topics -- essay-based examination covering two topics studied during the course. Students write two essays from a choice of questions. | 25% (SL), 20% (HL) |
 | **Paper 3** | HL Depth Study -- extended essay paper (HL only) covering three sections of one HL regional option. Students write three essays.                     | N/A (SL), 35% (HL) |
 | **IA**      | Historical Investigation -- an independent research project of up to 2,200 words on a historical question of the student"s choosing.                 | 25% (SL), 20% (HL) |
+
+</div>
 
 ---
 
@@ -58,7 +62,7 @@ The IB History assessment consists of the following components:
 ## Topics Studied
 
 The following comparative topics form the core of this course. Each topic is examined through a
-Comparative lens, analysing the causes, course, and consequences of major historical events.
+comparative lens, analysing the causes, course, and consequences of major historical events.
 
 ### Mao's China and Hitler's Germany
 
@@ -79,7 +83,7 @@ Regimes. Key areas of focus include:
 ### The Spanish Civil War and the Chinese Civil War
 
 This comparative study analyses two major civil conflicts of the twentieth century, examining their
-Origins, the nature of the fighting, and their international dimensions. Key areas of focus include:
+origins, the nature of the fighting, and their international dimensions. Key areas of focus include:
 
 - **Causes of conflict:** Long-term structural tensions (class conflict, regionalism, ideological
   polarisation) and short-term triggers (military uprising, the breakdown of the Second United
@@ -109,8 +113,8 @@ Origins, the nature of the fighting, and their international dimensions. Key are
 ## Historical Methodology
 
 A thorough understanding of historical methodology is essential for success in IB History. The
-Following concepts underpin all aspects of the course, from source analysis in Paper 1 to the
-Independent investigation in the IA.
+following concepts underpin all aspects of the course, from source analysis in Paper 1 to the
+independent investigation in the IA.
 
 ### Primary vs Secondary Sources
 
@@ -123,12 +127,12 @@ Independent investigation in the IA.
 
 The distinction between primary and secondary sources is not always clear-cut. A source's
 Classification depends on the question being asked: a history textbook is a primary source for
-Studying historiographical trends, but a secondary source for studying the events it describes.
+studying historiographical trends, but a secondary source for studying the events it describes.
 
 ### Bias and Perspective
 
 All sources reflect the perspective of their creator. Understanding bias is not about dismissing a
-Source, but about contextualising it. Consider:
+source, but about contextualising it. Consider:
 
 - The author's background, nationality, political affiliation, and social position.
 - The intended audience and purpose of the source (e.g. Propaganda, personal reflection, official
@@ -149,7 +153,7 @@ Historical events rarely have a single cause. IB History requires students to di
   interact).
 
 A strong historical argument will weigh the relative significance of multiple causes and explain how
-They interacted to produce a particular outcome.
+they interacted to produce a particular outcome.
 
 ### Significance
 
@@ -163,7 +167,7 @@ Criteria for significance include:
 ### Change and Continuity
 
 Historical analysis requires identifying not only what changed, but also what remained the same.
-Continuities often reveal as much about a period as the more visible changes. When analysing change,
+continuities often reveal as much about a period as the more visible changes. When analysing change,
 Consider the pace (gradual vs sudden), the direction (progressive vs regressive), and the extent
 (universal vs limited to particular groups or regions).
 
@@ -182,15 +186,19 @@ Consider the pace (gradual vs sudden), the direction (progressive vs regressive)
 
 The following skills are assessed across all components of the IB History course:
 
+<div class="table-wrap">
+
 | Skill                 | Description                                                                                                                                                                                                                                              |
 | :-------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Source evaluation** | Assessing the value and limitations of a source by considering its origin, purpose, content, and context. This is the primary skill tested in Paper 1.                                                                                                   |
 | **Corroboration**     | Comparing multiple sources to identify points of agreement and disagreement. Corroboration strengthens an argument when independent sources converge, and highlights contested narratives when they diverge.                                             |
 | **Contextualisation** | Placing a source or event within its broader historical framework. This involves understanding the political, social, economic, and cultural conditions that shaped the production and reception of a source, or that influenced the course of an event. |
 
+</div>
+
 These skills are interdependent. Effective source evaluation requires contextualisation; meaningful
 Corroboration requires each source to be individually evaluated; and all three skills contribute to
-The construction of a well-supported historical argument.
+the construction of a well-supported historical argument.
 
 ---
 
@@ -229,7 +237,7 @@ When engaging with historiography, consider the following:
 
 In essays, referencing specific historians and their interpretations demonstrates a sophisticated
 Understanding of the topic. It is not sufficient merely to describe what happened; a strong response
-Will engage with the question of how and why historians disagree about what happened.
+will engage with the question of how and why historians disagree about what happened.
 
 ---
 
@@ -326,11 +334,13 @@ Essays. The following principles apply across Papers 2 and 3:
 ## Paper 1: Source-Based Analysis
 
 Paper 1 tests your ability to analyse, evaluate, and synthesise historical sources. It is worth 20%
-At both SL and HL.
+at both SL and HL.
 
 ### Structure
 
 Paper 1 consists of four questions based on a prescribed subject case study:
+
+<div class="table-wrap">
 
 | Question | Skill Tested                              | Marks | Typical Format                                                         |
 | :------- | :---------------------------------------- | :---- | :--------------------------------------------------------------------- |
@@ -338,6 +348,8 @@ Paper 1 consists of four questions based on a prescribed subject case study:
 | Q2       | Analysis of source value and limitation   | 5     | Evaluate one source with reference to its origin, purpose, and content |
 | Q3       | Comparison of two sources                 | 6     | Compare and contrast the value and limitations of two sources          |
 | Q4       | Synthesis using sources and own knowledge | 8     | Use all sources and your own knowledge to address a question           |
+
+</div>
 
 ### Prescribed Subjects (2025 Syllabus)
 
@@ -371,7 +383,7 @@ When evaluating a source, consider:
 ### Q4 Strategy: Synthesis
 
 This question requires you to use **all** the provided sources plus your own knowledge. Structure
-Your response:
+your response:
 
 1. **Introduction:** State your argument .
 2. **Body paragraphs:** Group by theme or argument, not by source. In each paragraph, cite specific
@@ -400,6 +412,8 @@ A choice of questions covering two of the five world history topics.
 
 ### World History Topics
 
+<div class="table-wrap">
+
 | Topic | Title                        | Examples                                                                                   |
 | :---- | :--------------------------- | :----------------------------------------------------------------------------------------- |
 | 1     | Society and Economy          | Causes and effects of the Industrial Revolution; the social impact of technological change |
@@ -407,6 +421,8 @@ A choice of questions covering two of the five world history topics.
 | 3     | Authoritarian States         | Rise to power and domestic policies of authoritarian leaders (e.g. Hitler, Mao, Stalin)    |
 | 4     | Movements for Social Change  | Civil rights movements, decolonisation, women's suffrage                                   |
 | 5     | Cold War Superpower Tensions | Origins, crises, and détente in the Cold War                                               |
+
+</div>
 
 ### Essay Structure for Paper 2
 
@@ -490,9 +506,11 @@ Paper 3 questions require greater depth and specificity than Paper 2. Key differ
 ## The Internal Assessment (IA)
 
 The IA is an independent historical investigation worth 20% at both SL and HL. It consists of a
-Research project of up to 2,200 words.
+research project of up to 2,200 words.
 
 ### Structure
+
+<div class="table-wrap">
 
 | Section                                  | Word Count        | Content                                                                                                     |
 | :--------------------------------------- | :---------------- | :---------------------------------------------------------------------------------------------------------- |
@@ -500,6 +518,8 @@ Research project of up to 2,200 words.
 | Investigation                            | 1,300-1,600 words | The body of your essay. Present a well-argued, evidence-based investigation of your research question.      |
 | Reflection                               | Up to 400 words   | Reflect on the methods used, challenges faced, and what you learned about the historical process.           |
 | Bibliography                             | Not counted       | List all sources used.                                                                                      |
+
+</div>
 
 ### Choosing a Research Question
 
@@ -542,7 +562,7 @@ When evaluating sources, go beyond surface-level observations. Consider:
 ## Historiographical Schools of Thought
 
 Understanding historiographical traditions helps you engage with different interpretations in
-Essays.
+essays.
 
 ### Intentionalist vs Structuralist
 
@@ -621,22 +641,7 @@ Essays.
 4. Confusing causes, events, and consequences. Be clear about chronological and causal
    relationships.
 
-
-```mermaid
-flowchart TD
-    A[History] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Intuition
 
@@ -644,5 +649,3 @@ Studying history is like assembling a jigsaw puzzle where the picture on the box
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

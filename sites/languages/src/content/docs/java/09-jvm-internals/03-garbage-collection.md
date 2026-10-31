@@ -138,7 +138,7 @@ Memory-mapped structures. These can cause premature promotion and increase old g
 ### Serial GC
 
 The simplest collector. Uses a single thread for both minor and full GC. Stop-the-world (STW) for
-The entire duration of collection.
+the entire duration of collection.
 
 ```bash
 -XX:+UseSerialGC
@@ -252,13 +252,15 @@ Implementation (Brooks pointers instead of colored pointers).
 ### Stop-the-World (STW)
 
 During an STW pause, all application threads are suspended. The JVM cannot execute application code
-While the GC is running. STW pauses directly impact application latency, if a GC pause takes 500
+while the GC is running. STW pauses directly impact application latency, if a GC pause takes 500
 Ms, no requests can be served during that time.
 
 ### Concurrent Phases
 
 Modern collectors (G1, ZGC, Shenandoah) perform significant work concurrently with the application.
 Only specific phases require STW pauses:
+
+<div class="table-wrap">
 
 | Collector  | STW Phases                          | Concurrent Phases                  |
 | ---------- | ----------------------------------- | ---------------------------------- |
@@ -267,6 +269,8 @@ Only specific phases require STW pauses:
 | G1         | Root scanning, evacuation (partial) | Marking, remembered set processing |
 | ZGC        | Root scanning (sub-ms)              | Marking, relocation, compaction    |
 | Shenandoah | Root scanning (sub-ms)              | Marking, evacuation, compaction    |
+
+</div>
 
 ## GC Tuning Flags
 
@@ -521,7 +525,7 @@ Evidence of a problem (long pauses, low throughput, high memory usage).
 If G1 falls back to full GC, it means the concurrent cycle could not keep up with allocation
 Pressure. This is a sign that the heap is too small, the marking threshold is too high, or the mixed
 Collections are not reclaiming enough memory. Address the root cause rather than trying to tune
-Around it.
+around it.
 
 ### Large Objects and Humongous Allocations
 
@@ -541,14 +545,14 @@ Collections are typical culprits.
 ```
 
 If your application allocates many objects larger than the humongous threshold, consider: increasing
-The region size, pooling large buffers, or using `MappedByteBuffer` for large data structures that
-Do not need to live on the GC-managed heap.
+the region size, pooling large buffers, or using `MappedByteBuffer` for large data structures that
+do not need to live on the GC-managed heap.
 
 ### String Deduplication in Detail
 
 G1's string deduplication identifies `String` objects in the old generation whose backing `byte[]`
 Arrays are identical, and replaces duplicates with a single shared array. This operates at GC time
-And is transparent to the application.
+and is transparent to the application.
 
 ```bash
 -XX:+UseG1GC -XX:+StringDeduplication
@@ -599,7 +603,7 @@ java -XX:+UseZGC -XX:MaxRAMPercentage=75.0 -jar app.jar
 
 :::tip
 The same container image to work with different memory limits without rebuilding. A value of 70-80%
-Is typical, leaving room for metaspace, native memory, and off-heap buffers.
+is typical, leaving room for metaspace, native memory, and off-heap buffers.
 :::
 
 ### Native Memory Tracking
@@ -622,6 +626,8 @@ jcmd <pid> VM.native_memory detail scale=MB
 
 A typical memory breakdown for a JVM process:
 
+<div class="table-wrap">
+
 | Component      | Typical Allocation                 |
 | -------------- | ---------------------------------- |
 | Java heap      | 60-75% of container memory         |
@@ -630,6 +636,8 @@ A typical memory breakdown for a JVM process:
 | Code cache     | 128-256 MB                         |
 | Direct buffers | Application-dependent              |
 | GC overhead    | 10-20% of heap                     |
+
+</div>
 
 ## GC Troubleshooting Workflow
 
@@ -725,12 +733,16 @@ ZGC's design is fundamentally different from G1 and Parallel:
 **Colored pointers:** On 64-bit platforms, ZGC uses the high bits of each reference (which are
 Normally unused because no system has 2^48 bytes of addressable memory) to store metadata bits:
 
+<div class="table-wrap">
+
 | Bits  | Usage                                              |
 | ----- | -------------------------------------------------- |
 | 0-41  | Object address (4 TB addressable)                  |
 | 42-43 | Metadata (Finalizable, Remapped, Marked1, Marked0) |
 | 44-62 | Unused (reserved for future use)                   |
 | 63    | Unused                                             |
+
+</div>
 
 The metadata bits encode the state of the object: whether it has been marked, relocated, or
 Finalized. No per-object header space is needed for GC metadata.
@@ -822,24 +834,11 @@ java -XX:+UseZGC \
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Types and Variables](/java/02-fundamentals/01-types-and-variables/):** Object lifecycle and reference types that GC manages.
 - **[Concurrency Deep Dive](/java/06-concurrency/02-concurrency-deep-dive/):** Thread-safe memory access and GC pause impact on concurrent applications.
 - **[I/O and NIO](/java/10-io-nio/01-io-nio/):** Memory-mapped files and direct buffers that bypass the GC-managed heap.
-
-```mermaid
-flowchart TD
-    A[03 Garbage Collection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

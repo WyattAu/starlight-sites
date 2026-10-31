@@ -35,13 +35,17 @@ This is a geometric series with first term $a = \dfrac{3x}{4}$ and common ratio 
 
 It converges if and only if $|r| \lt 1$:
 
-$$\left|\frac{x}{4}\right| \lt 1 \implies |x| \lt 4 \implies -4 \lt x \lt 4$$
+$$
+\left|\frac{x}{4}\right| \lt 1 \implies |x| \lt 4 \implies -4 \lt x \lt 4
+$$
 
 When it converges:
 
-$$S_\infty = \frac{a}{1 - r} = \frac{\dfrac{3x}{4}}{1 - \dfrac{x}{4}} = \frac{3x}{4 - x}$$
+$$
+S_\infty = \frac{a}{1 - r} = \frac{\dfrac{3x}{4}}{1 - \dfrac{x}{4}} = \frac{3x}{4 - x}
+$$
 
-A common mistake is writing $r = \dfrac{3x}{4}$ instead of $r = \dfrac{x}{4}$Confusing the first
+A common mistake is writing $r = \dfrac{3x}{4}$ instead of $r = \dfrac{x}{4}$ Confusing the first
 term with the ratio.
 
 ---
@@ -59,13 +63,15 @@ term with the ratio.
 
 **Question:**
 
-Express $\displaystyle\sum_{k=3}^{n+2} (k - 2)^2$ in terms of $n$Without sigma notation.
+Express $\displaystyle\sum_{k=3}^{n+2} (k - 2)^2$ in terms of $n$ Without sigma notation.
 
 **Solution:**
 
 Let $j = k - 2$. When $k = 3$$j = 1$. When $k = n + 2$$j = n$.
 
-$$\sum_{k=3}^{n+2} (k - 2)^2 = \sum_{j=1}^{n} j^2 = \frac{n(n+1)(2n+1)}{6}$$
+$$
+\sum_{k=3}^{n+2} (k - 2)^2 = \sum_{j=1}^{n} j^2 = \frac{n(n+1)(2n+1)}{6}
+$$
 
 ---
 
@@ -122,7 +128,7 @@ Find the sum of the first $n$ terms of the sequence: $2, 4, 8, 14, 22, 32, \ldot
 
 The first differences are: $2, 4, 6, 8, 10, \ldots$ (arithmetic with $d = 2$).
 
-The second differences are constant at $2$Confirming a quadratic sequence.
+The second differences are constant at $2$ Confirming a quadratic sequence.
 
 Let $u_n = an^2 + bn + c$.
 
@@ -168,11 +174,15 @@ Common ratio: $r = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2}$.
 
 $|r| = \dfrac{\sqrt{2}}{2} \approx 0.707 \lt 1$ So the series converges.
 
-$$S_\infty = \frac{a}{1 - r} = \frac{\sqrt{2}}{1 - \frac{\sqrt{2}}{2}} = \frac{\sqrt{2}}{\frac{2 - \sqrt{2}}{2}} = \frac{2\sqrt{2}}{2 - \sqrt{2}}$$
+$$
+S_\infty = \frac{a}{1 - r} = \frac{\sqrt{2}}{1 - \frac{\sqrt{2}}{2}} = \frac{\sqrt{2}}{\frac{2 - \sqrt{2}}{2}} = \frac{2\sqrt{2}}{2 - \sqrt{2}}
+$$
 
 Rationalise:
 
-$$= \frac{2\sqrt{2}(2 + \sqrt{2})}{(2 - \sqrt{2})(2 + \sqrt{2})} = \frac{4\sqrt{2} + 4}{4 - 2} = \frac{4\sqrt{2} + 4}{2} = 2\sqrt{2} + 2$$
+$$
+= \frac{2\sqrt{2}(2 + \sqrt{2})}{(2 - \sqrt{2})(2 + \sqrt{2})} = \frac{4\sqrt{2} + 4}{4 - 2} = \frac{4\sqrt{2} + 4}{2} = 2\sqrt{2} + 2
+$$
 
 ---
 
@@ -204,7 +214,7 @@ Checking the ratio: $\dfrac{\log_2 9}{\log_2 3} = \dfrac{2\log_2 3}{\log_2 3} = 
 $\dfrac{\log_2 27}{\log_2 9} = \dfrac{3\log_2 3}{2\log_2 3} = \dfrac{3}{2}$.
 
 Since the ratio is not constant, this is **not** a geometric sequence. The terms are $\log_2 3$
-$2\log_2 3$$3\log_2 3$Which form an **arithmetic sequence** with common difference $d = \log_2 3$.
+$2\log_2 3$$3\log_2 3$ Which form an **arithmetic sequence** with common difference $d = \log_2 3$.
 
 $S_{10} = \dfrac{10}{2}[2\log_2 3 + 9\log_2 3] = 5 \times 11\log_2 3 = 55\log_2 3$.
 
@@ -270,13 +280,19 @@ Coefficient of $x^5$: $\dbinom{n}{5} = \dfrac{n(n-1)(n-2)(n-3)(n-4)}{120}$.
 
 Setting equal:
 
-$$\frac{n(n-1)}{2} = \frac{n(n-1)(n-2)(n-3)(n-4)}{120}$$
+$$
+\frac{n(n-1)}{2} = \frac{n(n-1)(n-2)(n-3)(n-4)}{120}
+$$
 
 Since $n \geq 5$ (otherwise $\dbinom{n}{5} = 0$), we can cancel $n(n-1)$:
 
-$$\frac{1}{2} = \frac{(n-2)(n-3)(n-4)}{120}$$
+$$
+\frac{1}{2} = \frac{(n-2)(n-3)(n-4)}{120}
+$$
 
-$$(n-2)(n-3)(n-4) = 60$$
+$$
+(n-2)(n-3)(n-4) = 60
+$$
 
 By inspection: $n = 7$ gives $5 \times 4 \times 3 = 60$. Check.
 
@@ -305,11 +321,13 @@ Find the sum of all integers from 1 to 200 that are divisible by 3.
 
 The integers from 1 to 200 divisible by 3 form an AP: $3, 6, 9, \ldots, 198$.
 
-First term $a = 3$Common difference $d = 3$.
+First term $a = 3$ Common difference $d = 3$.
 
 Last term: $198 = 3 + (n-1) \times 3 \implies 195 = 3(n-1) \implies n - 1 = 65 \implies n = 66$.
 
-$$S_{66} = \frac{66}{2}(3 + 198) = 33 \times 201 = 6633$$
+$$
+S_{66} = \frac{66}{2}(3 + 198) = 33 \times 201 = 6633
+$$
 
 ---
 
@@ -361,7 +379,9 @@ This is a geometric series with $a = \dfrac{1}{2}$ and $r = \dfrac{1}{2}$.
 
 $|r| = \dfrac{1}{2} < 1$ So the series converges.
 
-$$S_\infty = \frac{a}{1 - r} = \frac{1/2}{1 - 1/2} = \frac{1/2}{1/2} = 1$$
+$$
+S_\infty = \frac{a}{1 - r} = \frac{1/2}{1 - 1/2} = \frac{1/2}{1/2} = 1
+$$
 
 ---
 
@@ -382,7 +402,9 @@ Evaluate $\displaystyle\sum_{k=1}^{20} (3k + 1)$.
 
 **Solution:**
 
-$$\sum_{k=1}^{20} (3k + 1) = 3\sum_{k=1}^{20} k + \sum_{k=1}^{20} 1 = 3 \cdot \frac{20 \times 21}{2} + 20 = 3 \times 210 + 20 = 630 + 20 = 650$$
+$$
+\sum_{k=1}^{20} (3k + 1) = 3\sum_{k=1}^{20} k + \sum_{k=1}^{20} 1 = 3 \cdot \frac{20 \times 21}{2} + 20 = 3 \times 210 + 20 = 630 + 20 = 650
+$$
 
 ---
 
@@ -465,7 +487,7 @@ $A_8 = 10000 \times (1.06)^8 = 10000 \times \left(\dfrac{106}{100}\right)^8 = 10
 **Question:**
 
 If three positive numbers $a$$b$$c$ form a geometric sequence and $a + b + c = 26$ and
-$a + 2b - c = 10$Find $a$$b$ And $c$.
+$a + 2b - c = 10$ Find $a$$b$ And $c$.
 
 **Solution:**
 
@@ -530,11 +552,15 @@ Find the sum $\displaystyle\sum_{k=1}^{n} \frac{1}{k(k+1)}$.
 
 Using partial fractions: $\dfrac{1}{k(k+1)} = \dfrac{1}{k} - \dfrac{1}{k+1}$.
 
-$$\sum_{k=1}^{n} \left(\frac{1}{k} - \frac{1}{k+1}\right) = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right)$$
+$$
+\sum_{k=1}^{n} \left(\frac{1}{k} - \frac{1}{k+1}\right) = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right)
+$$
 
 All intermediate terms cancel (telescoping):
 
-$$= 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
+$$
+= 1 - \frac{1}{n+1} = \frac{n}{n+1}
+$$
 
 ---
 
@@ -546,17 +572,6 @@ $$= 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Sequences Series] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -574,19 +589,19 @@ flowchart TD
    formulas.
 
 2. **Using the wrong formula for the sum of a geometric series.** $S_n = \dfrac{a(r^n - 1)}{r - 1}$
-   when $r \neq 1$. When $r = 1$The sum is $S_n = na$. Forgetting the $r \neq 1$ condition and using
+   when $r \neq 1$. When $r = 1$ The sum is $S_n = na$. Forgetting the $r \neq 1$ condition and using
    the formula with $r = 1$ leads to division by zero.
 
-3. **Incorrect index in sigma notation.** When evaluating $\displaystyle\sum_{k=1}^{n} f(k)$The
+3. **Incorrect index in sigma notation.** When evaluating $\displaystyle\sum_{k=1}^{n} f(k)$ The
    index $k$ starts at $1$ and ends at $n$. Confusing the starting index (e.g. Using $k = 0$ instead
    of $k = 1$) is a common source of error.
 
 4. **Assuming convergence without checking $|r| < 1$.** The infinite sum formula
-   $S_\infty = \dfrac{a}{1 - r}$ is only valid when $|r| < 1$. If $|r| \geq 1$The series diverges
+   $S_\infty = \dfrac{a}{1 - r}$ is only valid when $|r| < 1$. If $|r| \geq 1$ The series diverges
    and the sum does not exist.
 
 5. **Sign errors in the arithmetic series sum formula.** The formula is
-   $S_n = \dfrac{n}{2}[2a + (n-1)d]$. A common error is writing $(n + 1)d$ instead of $(n - 1)d$Or
+   $S_n = \dfrac{n}{2}[2a + (n-1)d]$. A common error is writing $(n + 1)d$ instead of $(n - 1)d$ Or
    using $a + nd$ instead of $2a + (n-1)d$.
 
 ---

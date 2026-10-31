@@ -20,6 +20,8 @@ AP Computer Science A is a college-level course that introduces students to comp
 
 ### Topics Covered
 
+<div class="table-wrap">
+
 | Topic | Weight | Questions |
 | ------- | -------- | ----------- |
 | Primitive Types | 2.5-5% | 1-2 |
@@ -32,18 +34,9 @@ AP Computer Science A is a college-level course that introduces students to comp
 | ArrayList | 10-12.5% | 4-5 |
 | 2D Arrays | 5-7.5% | 2-3 |
 
+</div>
+
 ---
-
-
-```mermaid
-flowchart TD
-    A[Ap Computer Science A] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Java Fundamentals
 

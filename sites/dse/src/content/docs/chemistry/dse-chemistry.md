@@ -40,11 +40,15 @@ The course is divided into **compulsory topics** (Papers 1A and 1B) and **electi
 
 ## Examination Structure
 
+<div class="table-wrap">
+
 | Paper | Component                                  | Duration | Weighting |
 | ----- | ------------------------------------------ | -------- | --------- |
 | 1A    | Compulsory Part -- Multiple-Choice Section | 1 h 30 m | 30%       |
 | 1B    | Compulsory Part -- Structured Questions    | 2 h      | 50%       |
 | 2     | Elective -- Structured Questions           | 1 h      | 20%       |
+
+</div>
 
 **Total: 100%**
 
@@ -165,12 +169,16 @@ detailed notes.
 
 ## Elective Topics (Choose One)
 
+<div class="table-wrap">
+
 | Elective | Topic                               |
 | -------- | ----------------------------------- |
 | E1       | Industrial Chemistry                |
 | E2       | Analytical Chemistry                |
 | E3       | Materials Chemistry                 |
 | E4       | Chemical Energy and the Environment |
+
+</div>
 
 Paper 2 consists of structured questions based on the chosen elective. Each elective carries equal
 Weighting (20% of the total mark).
@@ -208,6 +216,8 @@ Candidates are expected to demonstrate the ability to:
 
 ## Key Quantities and Constants
 
+<div class="table-wrap">
+
 | Quantity / Constant | Symbol | Value / Unit                               |
 | ------------------- | ------ | ------------------------------------------ |
 | Avogadro's number   | $N_A$  | $6.02 \times 10^{23} \mathrm{ mol^{-1}}$   |
@@ -216,6 +226,8 @@ Candidates are expected to demonstrate the ability to:
 | Molar gas constant  | $R$    | $8.31 \mathrm{ J/(mol \cdot K)}$           |
 | Planck's constant   | $h$    | $6.63 \times 10^{-34} \mathrm{ J \cdot s}$ |
 | Faraday constant    | $F$    | $96500 \mathrm{ C/mol}$                    |
+
+</div>
 
 ---
 
@@ -263,14 +275,16 @@ $11.2 \mathrm{ dm^3}$ at STP, how many moles of gas are present?
 
 At STP, one mole of gas occupies $22.4 \mathrm{ dm^3}$:
 
-$$n = \frac{V}{V_m} = \frac{11.2}{22.4} = 0.500 \mathrm{ mol}$$
+$$
+n = \frac{V}{V_m} = \frac{11.2}{22.4} = 0.500 \mathrm{ mol}
+$$
 
 </details>
 
 ### Worked Example 2
 
 In a DSE Paper 1B question, a student is asked to write the ionic equation for the reaction between
-Aqueous calcium chloride and aqueous sodium carbonate. Write the full balanced equation and the net
+aqueous calcium chloride and aqueous sodium carbonate. Write the full balanced equation and the net
 Ionic equation.
 
 <details>
@@ -278,19 +292,23 @@ Ionic equation.
 
 Full equation:
 
-$$\mathrm{CaCl_2}(aq) + \mathrm{Na_2CO_3}(aq) \to \mathrm{CaCO_3}(s) + 2\mathrm{NaCl}(aq)$$
+$$
+\mathrm{CaCl_2}(aq) + \mathrm{Na_2CO_3}(aq) \to \mathrm{CaCO_3}(s) + 2\mathrm{NaCl}(aq)
+$$
 
 Ionic equation (spectator ions $\mathrm{Na^+}$ and $\mathrm{Cl^-}$ cancel):
 
-$$\mathrm{Ca^{2+}}(aq) + \mathrm{CO_3^{2-}}(aq) \to \mathrm{CaCO_3}(s)$$
+$$
+\mathrm{Ca^{2+}}(aq) + \mathrm{CO_3^{2-}}(aq) \to \mathrm{CaCO_3}(s)
+$$
 
 </details>
 
 ### Worked Example 3
 
 A student sets up an electrochemical cell with a $\mathrm{Zn}$ electrode in $\mathrm{ZnSO_4}(aq)$
-And a $\mathrm{Cu}$ electrode in $\mathrm{CuSO_4}(aq)$. Identify the anode, cathode, and the
-Direction of electron flow.
+and a $\mathrm{Cu}$ electrode in $\mathrm{CuSO_4}(aq)$. Identify the anode, cathode, and the
+direction of electron flow.
 
 <details>
 <summary>Solution</summary>
@@ -341,7 +359,7 @@ _If you get this wrong, revise: Examination Tips, Colours of Common Ions_
 A **brown precipitate** of $\mathrm{Fe(OH)_3}$ is formed.
 
 For reference: $\mathrm{Cu^{2+}}$ gives blue, $\mathrm{Fe^{2+}}$ gives green (turning brown on
-Standing), $\mathrm{Zn^{2+}}$ gives white.
+standing), $\mathrm{Zn^{2+}}$ gives white.
 
 </details>
 
@@ -371,15 +389,25 @@ _If you get this wrong, revise: VI. Redox and Electrochemistry, Electrolysis_
 <details>
 <summary>Solution</summary>
 
-$$Q = It = 2.00 \times 30.0 \times 60 = 3600 \mathrm{ C}$$
+$$
+Q = It = 2.00 \times 30.0 \times 60 = 3600 \mathrm{ C}
+$$
 
-$$n(e^-) = \frac{Q}{F} = \frac{3600}{96500} = 0.0373 \mathrm{ mol}$$
+$$
+n(e^-) = \frac{Q}{F} = \frac{3600}{96500} = 0.0373 \mathrm{ mol}
+$$
 
-$$\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}$$
+$$
+\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}
+$$
 
-$$n(\mathrm{Cu}) = \frac{0.0373}{2} = 0.0187 \mathrm{ mol}$$
+$$
+n(\mathrm{Cu}) = \frac{0.0373}{2} = 0.0187 \mathrm{ mol}
+$$
 
-$$m(\mathrm{Cu}) = 0.0187 \times 63.5 = 1.18 \mathrm{ g}$$
+$$
+m(\mathrm{Cu}) = 0.0187 \times 63.5 = 1.18 \mathrm{ g}
+$$
 
 </details>
 
@@ -431,16 +459,24 @@ _If you get this wrong, revise: VII. Carbon Chemistry, Homologous Series_
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Element | Mass (g) | Moles            | Ratio                 |
 | ------- | -------- | ---------------- | --------------------- |
 | C       | 85.7     | $85.7/12 = 7.14$ | $7.14/7.14 = 1$       |
 | H       | 14.3     | $14.3/1 = 14.3$  | $14.3/7.14 \approx 2$ |
 
+</div>
+
 Empirical formula: $\mathrm{CH_2}$
 
-$$M_r(\mathrm{empirical}) = 12 + 2 = 14$$
+$$
+M_r(\mathrm{empirical}) = 12 + 2 = 14
+$$
 
-$$n = \frac{42.0}{14} = 3$$
+$$
+n = \frac{42.0}{14} = 3
+$$
 
 Molecular formula: $\mathrm{C_3H_6}$
 
@@ -459,18 +495,22 @@ _If you get this wrong, revise: V. Rate of Reaction and Energetics, Enthalpy Cha
 **Exothermic:** $\Delta H \lt 0$ (enthalpy of products is lower than enthalpy of reactants; heat is
 Released to the surroundings). Example: combustion of methane:
 
-$$\mathrm{CH_4} + 2\mathrm{O_2} \to \mathrm{CO_2} + 2\mathrm{H_2O} \quad \Delta H = -890 \mathrm{ kJ/mol}$$
+$$
+\mathrm{CH_4} + 2\mathrm{O_2} \to \mathrm{CO_2} + 2\mathrm{H_2O} \quad \Delta H = -890 \mathrm{ kJ/mol}
+$$
 
 **Endothermic:** $\Delta H \gt 0$ (enthalpy of products is higher than enthalpy of reactants; heat
 Is absorbed from the surroundings). Example: thermal decomposition of calcium carbonate:
 
-$$\mathrm{CaCO_3} \to \mathrm{CaO} + \mathrm{CO_2} \quad \Delta H = +178 \mathrm{ kJ/mol}$$
+$$
+\mathrm{CaCO_3} \to \mathrm{CaO} + \mathrm{CO_2} \quad \Delta H = +178 \mathrm{ kJ/mol}
+$$
 
 </details>
 
 **Problem 9:** In the electrolysis of concentrated aqueous sodium chloride, explain why hydrogen is
 Produced at the cathode rather than sodium, and why chlorine is produced at the anode rather than
-Oxygen.
+oxygen.
 
 _If you get this wrong, revise: VI. Redox and Electrochemistry, Electrolysis (Aqueous)_
 
@@ -483,7 +523,7 @@ Discharge potential. The reaction is: $2\mathrm{H_2O} + 2e^- \to \mathrm{H_2} + 
 
 **Anode:** $\mathrm{Cl^-}$ and $\mathrm{OH^-}$ (from water) are both present. In concentrated
 Solution, $\mathrm{Cl^-}$ is preferentially discharged over $\mathrm{OH^-}$ because the
-Overpotential of chlorine is lower at high chloride concentrations. The reaction is:
+overpotential of chlorine is lower at high chloride concentrations. The reaction is:
 $2\mathrm{Cl^-} \to \mathrm{Cl_2} + 2e^-$.
 
 </details>
@@ -497,18 +537,26 @@ _If you get this wrong, revise: IV. Acids, Bases, and Salts and III. Stoichiomet
 <details>
 <summary>Solution</summary>
 
-$$\mathrm{CH_3COOH} + \mathrm{NaOH} \to \mathrm{CH_3COONa} + \mathrm{H_2O}$$
+$$
+\mathrm{CH_3COOH} + \mathrm{NaOH} \to \mathrm{CH_3COONa} + \mathrm{H_2O}
+$$
 
 Molar ratio: $1 : 1$
 
-$$n(\mathrm{NaOH}) = 0.100 \times \frac{16.7}{1000} = 1.67 \times 10^{-3} \mathrm{ mol}$$
+$$
+n(\mathrm{NaOH}) = 0.100 \times \frac{16.7}{1000} = 1.67 \times 10^{-3} \mathrm{ mol}
+$$
 
-$$n(\mathrm{CH_3COOH}) = 1.67 \times 10^{-3} \mathrm{ mol}$$
+$$
+n(\mathrm{CH_3COOH}) = 1.67 \times 10^{-3} \mathrm{ mol}
+$$
 
-$$c(\mathrm{CH_3COOH}) = \frac{1.67 \times 10^{-3}}{0.0250} = 0.0668 \mathrm{ mol/dm^3}$$
+$$
+c(\mathrm{CH_3COOH}) = \frac{1.67 \times 10^{-3}}{0.0250} = 0.0668 \mathrm{ mol/dm^3}
+$$
 
 Ethanoic acid is a **weak acid**, it only partially dissociates in aqueous solution, producing a
-Lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concentration would.
+lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concentration would.
 
 </details>
 
@@ -536,19 +584,5 @@ Lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concen
 5. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
 
-
-```mermaid
-flowchart TD
-    A[Dse Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.

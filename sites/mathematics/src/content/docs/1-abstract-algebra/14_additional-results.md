@@ -17,7 +17,7 @@ description: "If is a prime dividing Then has an element of Order . Comprehensiv
 }
 </script>
 
-### 14.1 Cauchy"s Theorem
+### 14.1 Cauchy's Theorem
 
 **Theorem 14.1 (Cauchy's Theorem).** If $p$ is a prime dividing $|G|$ Then $G$ has an element of
 Order $p$.
@@ -25,7 +25,7 @@ Order $p$.
 _Proof._ Consider the set $X = \{(g_1, g_2, \ldots, g_p) \in G^p : g_1 g_2 \cdots g_p = e\}$.
 $|X| = |G|^{p-1}$ (choose $g_1, \ldots, g_{p-1}$ freely; $g_p$ is determined). The cyclic group
 $\mathbb{Z}/p\mathbb{Z}$ acts on $X$ by cyclic permutation. Orbits have size $1$ or $p$. An orbit
-has size $1$ precisely when $(g, g, \ldots, g) \in X$I.e., $g^p = e$. Since $|X| = |G|^{p-1}$ is
+has size $1$ precisely when $(g, g, \ldots, g) \in X$ I.e., $g^p = e$. Since $|X| = |G|^{p-1}$ is
 divisible by $p$ (as $p$ divides $|G|$), the number of fixed points Is congruent to $0 \pmod{p}$.
 The element $(e, e, \ldots, e)$ is a fixed point, so there exists At least $p - 1$ other fixed
 points, giving a non-identity element with $g^p = e$. Since $p$ is Prime, $g$ has order $p$.
@@ -53,7 +53,7 @@ or $aba^{-1} = b^2$.
 $G \cong \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z} \cong \mathbb{Z}/6\mathbb{Z}$.
 
 **Case 2:** $aba^{-1} = b^2 = b^{-1}$. Then $G$ is a semidirect product with $ab = b^{-1}a$. This is
-the presentation $\langle a, b \mid a^2 = b^3 = e,\ aba^{-1} = b^{-1} \rangle$Which is $S_3$.
+the presentation $\langle a, b \mid a^2 = b^3 = e,\ aba^{-1} = b^{-1} \rangle$ Which is $S_3$.
 $\blacksquare$
 
 </details>
@@ -93,7 +93,9 @@ Lie type, or one of 26 sporadic groups.
 **Theorem 14.4.** Every finitely generated abelian group $G$ is isomorphic to a direct product of
 Cyclic groups:
 
-$$G \cong \mathbb{Z}^r \times \mathbb{Z}/p_1^{k_1}\mathbb{Z} \times \cdots \times \mathbb{Z}/p_m^{k_m}\mathbb{Z}$$
+$$
+G \cong \mathbb{Z}^r \times \mathbb{Z}/p_1^{k_1}\mathbb{Z} \times \cdots \times \mathbb{Z}/p_m^{k_m}\mathbb{Z}
+$$
 
 Where $r \geq 0$ is the **rank** and $p_i^{k_i}$ are powers of (not necessarily distinct) primes.
 The integers $r, k_1, \ldots, k_m$ are uniquely determined.
@@ -102,7 +104,7 @@ The integers $r, k_1, \ldots, k_m$ are uniquely determined.
 
 **Problem.** Classify all abelian groups of order 72.
 
-_Solution._ Since $72 = 2^3 \cdot 3^2$Every abelian group of order 72 is a direct product of an
+_Solution._ Since $72 = 2^3 \cdot 3^2$ Every abelian group of order 72 is a direct product of an
 Abelian group of order $2^3$ and one of order $3^2$.
 
 For order $2^3$: the partitions of 3 give (3), (2,1), (1,1,1), corresponding to
@@ -123,24 +125,17 @@ Taking all products, the six abelian groups of order 72 are:
 
 ### 14.6 Key Relationships
 
+<div class="table-wrap">
+
 | Result | Statement | Application |
 | --- | --- | --- |
-| Cauchy's Theorem | $p \mid | G | \implies$ element of order $p$ exists | Existence of elements of prime order |
+| Cauchy's Theorem | $p \mid \| G \| \implies$ element of order $p$ exists | Existence of elements of prime order |
 | Sylow's Theorems | Subgroups of order $p^k$ exist and are conjugate | Structure of finite groups |
-| Class Equation | $ | G | = | Z(G) | + \sum [G:C_G(x_i)]$ | Centre of $p$-groups is non-trivial |
+| Class Equation | $ \| G \| = \| Z(G) \| + \sum [G:C_G(x_i)]$ | Centre of $p$-groups is non-trivial |
 | Structure Theorem | Finitely generated abelian $\cong \mathbb{Z}^r \times$ cyclic groups | Classification of abelian groups |
 | Simplicity of $A_n$ | $A_n$ is simple for $n \geq 5$ | Impossibility of quintic formula |
 
-
-```mermaid
-flowchart TD
-    A[14_Additional Results] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Cross-References
 
@@ -158,44 +153,3 @@ Cauchy's theorem tells us that primes leave fingerprints in group structure: if 
 - Assuming the classification of finite simple groups applies to infinite groups.
 - Mixing up the partitions of exponents when applying the Structure Theorem (e.g., $\mathbb{Z}/8\mathbb{Z}$ vs $\mathbb{Z}/4\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$ are both order 8 but non-isomorphic).
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

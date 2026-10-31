@@ -48,6 +48,8 @@ with minimal surplus for sale, characterised by low inputs, low outputs, and lab
 Commercial agriculture is conducted primarily for sale and profit, using higher inputs of machinery,
 fertilisers, and irrigation, producing larger quantities for domestic and export markets.
 
+<div class="table-wrap">
+
 | Feature | Subsistence | Commercial |
 | --------- | ------------ | ------------ |
 | Purpose | Feed the farmer and family | Sale and profit |
@@ -56,6 +58,8 @@ fertilisers, and irrigation, producing larger quantities for domestic and export
 | Crop type | Staple crops (rice, millet, cassava) | Cash crops (wheat, soybeans, vegetables) |
 | Surplus | Little or none | Significant; sold domestically or exported |
 | Labour | Family labour | Hired wage labour |
+
+</div>
 
 Most farmers in Southeast Asia practice a mixture of subsistence and commercial farming. The Green
 Revolution (from the 1960s) promoted the adoption of high-yielding varieties (HYVs), chemical
@@ -73,7 +77,9 @@ farming (lower transport costs per unit value), and finally livestock ranching a
 
 Land rent at any point is determined by:
 
-$$\text{Land Rent} = \text{Market Price} - \text{Production Cost} - \text{Transport Cost}$$
+$$
+\text{Land Rent} = \text{Market Price} - \text{Production Cost} - \text{Transport Cost}
+$$
 
 Crops that are bulky, heavy, or perishable have steeper transport cost gradients and are located
 closer to the market.
@@ -96,7 +102,7 @@ fertilisers and pesticides, and mechanisation including tractors and combine har
 ### Consequences of the Green Revolution
 
 The Green Revolution produced dramatic increases in rice production and reduced food insecurity in
-South and Southeast Asia. However, it also generated increased inequality (larger farmers could
+south and Southeast Asia. However, it also generated increased inequality (larger farmers could
 afford HYV inputs while smaller farmers could not), environmental degradation (chemical runoff,
 soil degradation, biodiversity loss), displacement of traditional rice varieties, and
 groundwater depletion from water-intensive systems.
@@ -181,17 +187,6 @@ Hong Kong's fishing industry has declined significantly since the 1970s-1980s du
 pollution, and urban encroachment. Mariculture in sheltered bays produces fish in floating cages,
 limited by water quality, disease, and typhoon damage. Fishing and mariculture now contribute less
 than 0.1% of GDP and support approximately 10,000 workers.
-
-
-```mermaid
-flowchart TD
-    A[Agriculture] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

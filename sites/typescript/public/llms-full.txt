@@ -54,8 +54,6 @@ This site provides comprehensive study materials covering:
 - Modules
 - Decorators
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -80,8 +78,6 @@ JavaScript knowledge
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -99,18 +95,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Advanced Patterns](/advanced-patterns/)
 - [advanced types](/advanced-types/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -119,54 +108,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -188,7 +129,7 @@ URL: https://typescript.wyattau.com/advanced-patterns/
 
 When a conditional type"s checked type is a **naked type parameter** (a type parameter used
 Directly, not wrapped in another type), the conditional distributes over union members. This is the
-Most important rule governing conditional types.
+most important rule governing conditional types.
 
 ```ts
 type ToArray<T> = T extends any ? T[] : never;
@@ -215,12 +156,16 @@ type Result = (string | number)[];
 
 ### Distribution Rules Summary
 
+<div class="table-wrap">
+
 | Form                                                    | Distributes?    |
 | ------------------------------------------------------- | --------------- |
 | `T extends U ? X : Y`                                   | Yes (naked `T`) |
 | `[T] extends [U] ? X : Y`                               | No              |
 | `T extends U ? X : Y` where `T` is not a type parameter | No              |
 | `(T & {}) extends U ? X : Y`                            | No              |
+
+</div>
 
 ## Recursive Types
 
@@ -311,12 +256,12 @@ type A = { a: string } & { b: number };
 ```
 
 This works by exploiting contravariance in function parameter types. Each union member is converted
-To a function type `(k: Member) => void`And the union of these function types has an inferred
+to a function type `(k: Member) => void`And the union of these function types has an inferred
 Parameter type that is the intersection of all members.
 
 **Common Pitfall:** `UnionToIntersection` does not handle cases where union members share property
 Names with different types. The intersection of `{ a: string }` and `{ a: number }` produces
-`{ a: never }`Not `{ a: string } & { a: number }`.
+`{ a: never }`. Not `{ a: string } & { a: number }`.
 
 ## Branded Types / Opaque Types
 
@@ -813,7 +758,7 @@ type Result = 'hi world hi';
 ## Type-Level Arithmetic
 
 TypeScript does not natively support arithmetic on number types. However, type-level arithmetic can
-Be implemented using tuple length as a representation of natural numbers.
+be implemented using tuple length as a representation of natural numbers.
 
 ### Counting Tuple Length
 
@@ -996,16 +941,6 @@ function isUSD(value: number): value is USD {
 This assertion is true because the brand is erased. For meaningful runtime validation, add Actual
 checks.
 
-```mermaid
-flowchart TD
-    A[Advanced Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of advanced patterns, including underlying theory, practical
@@ -1018,9 +953,6 @@ implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 
@@ -1101,7 +1033,7 @@ $\blacksquare$
   automatic for naked type parameters.
 - Mapped types: `{ [K in keyof T]: F<T[K]> }` transform all properties; `as` clauses filter and
   remap keys.
-- Template literal types: `` `${A}-${B}` `` create string types from unions, enabling type-safe
+- Template literal types: `` ``, ``${A}-${B}``, `` `` create string types from unions, enabling type-safe
   string manipulation.
 - Branded types encode semantic distinctions (e.g., `UserId` vs `OrderId`) without runtime cost.
 - Recursive type aliases (TypeScript 4.1+) enable deep utility types like `DeepReadonly`,
@@ -2066,7 +1998,7 @@ type B = FirstChar<string>;
 type B = string;
 ```
 
-The conditional type evaluates to `string` because `string` satisfies `` `${infer C}${infer _}` ``
+The conditional type evaluates to `string` because `string` satisfies `` ``, ``${infer C}${infer _}``, `` ``
 with both inferences being `string`.
 
 ### Pitfall 5: `readonly` Array Covariance Breaks Mutability
@@ -2136,16 +2068,6 @@ This version is an error because the object literal is directly assigned.
 4. **Forgetting that keyof includes symbol keys.** keyof T returns string | number | symbol for most
    objects. Use keyof T & string for string-only keys.
 
-```mermaid
-flowchart TD
-    A[Advanced Types] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers advanced TypeScript type system features that enable building robust, type-safe
@@ -2170,9 +2092,6 @@ abstractions.
   directives.
 - Utility type patterns: state machine types, AST visitor pattern, and type-safe pub/sub with
   wildcard handlers.
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
@@ -2224,8 +2143,8 @@ class Point {
 }
 ```
 
-Under `strictPropertyInitialization`The compiler verifies that all declared fields are assigned in
-The constructor or have a definite assignment assertion (`!`):
+Under `strictPropertyInitialization`. The compiler verifies that all declared fields are assigned in
+the constructor or have a definite assignment assertion (`!`):
 
 ```ts
 class Example {
@@ -2250,13 +2169,17 @@ Even though the constructor does not assign it.
 
 ### Access Modifiers
 
-TypeScript supports three access modifiers: `public``private`And `protected`.
+TypeScript supports three access modifiers: `public`, `private` and `protected`.
+
+<div class="table-wrap">
 
 | Modifier    | Accessibility                                            |
 | ----------- | -------------------------------------------------------- |
 | `public`    | Accessible from anywhere (default)                       |
 | `private`   | Accessible only within the declaring class               |
 | `protected` | Accessible within the declaring class and its subclasses |
+
+</div>
 
 ```ts
 class Account {
@@ -2324,13 +2247,13 @@ p.x = 3;
 ```
 
 `readonly` is shallow: it prevents reassignment of the field itself but does not prevent mutation of
-The field's value if it is an object.
+the field's value if it is an object.
 
 ## Parameter Properties
 
 TypeScript provides a shorthand for declaring and initialising fields in the constructor parameter
 List. A parameter prefixed with an access modifier is automatically declared as a field and assigned
-From the constructor argument.
+from the constructor argument.
 
 ```ts
 class Point {
@@ -2361,7 +2284,7 @@ class Point {
 }
 ```
 
-Parameter properties can use any combination of modifiers: `public``private``protected` `readonly`.
+Parameter properties can use any combination of modifiers: `public`, `private`, `protected` `readonly`.
 
 ## Abstract Classes and Abstract Methods
 
@@ -2473,6 +2396,8 @@ class UserFactory implements Deserializable<User> {
 
 ### Interface vs Abstract Class
 
+<div class="table-wrap">
+
 | Feature                 | Interface                                       | Abstract Class                             |
 | ----------------------- | ----------------------------------------------- | ------------------------------------------ |
 | Multiple implementation | A class can implement many interfaces           | A class can extend only one abstract class |
@@ -2480,6 +2405,8 @@ class UserFactory implements Deserializable<User> {
 | Constructor             | No constructor                                  | Can have a constructor                     |
 | Method implementations  | All methods are abstract (no body)              | Can mix abstract and concrete methods      |
 | Access modifiers        | No access modifiers on members                  | Supports `public``private``protected`      |
+
+</div>
 
 ## Static Members and Static Factory Patterns
 
@@ -2610,7 +2537,7 @@ const Bar = class {
 ```
 
 Class expressions are useful for one-off classes or when the class is used as a value (e.g., passed
-To a function):
+to a function):
 
 ```ts
 function createClass(methodBody: string) {
@@ -2628,7 +2555,7 @@ new Dynamic().execute();
 ## Mixins and Composition with Classes
 
 TypeScript does not have a native mixin keyword, but mixins can be implemented using a combination
-Of class expressions, intersection types, and generic factory functions.
+of class expressions, intersection types, and generic factory functions.
 
 ### Mixin Pattern
 
@@ -2797,7 +2724,7 @@ class Config {
 
 **Common Pitfall:** The `experimentalDecorators` flag and the TC39 Stage 3 proposal use different
 Decorator semantics. Code written for one will not work with the other. New projects should prefer
-The TC39 Stage 3 proposal (no `experimentalDecorators` flag needed in TS 5.0+).
+the TC39 Stage 3 proposal (no `experimentalDecorators` flag needed in TS 5.0+).
 
 ## Structural Typing and Nominal Typing for Classes
 
@@ -2855,7 +2782,7 @@ getUser(userId);
 getUser(orderId);
 ```
 
-The last call is a compile error because `OrderId` is not assignable to `UserId`Even though both Are
+The last call is a compile error because `OrderId` is not assignable to `UserId`. Even though both Are
 branded `string` types.
 
 ### Private Fields and Structural Typing
@@ -2905,7 +2832,7 @@ This is an error. `super()` must be called first.
 ### Pitfall 2: Structural Typing Surprises
 
 Because of structural typing, classes with the same public shape are interchangeable. This can lead
-To subtle bugs when the classes have different internal behaviour:
+to subtle bugs when the classes have different internal behaviour:
 
 ```ts
 class Celsius {
@@ -2954,16 +2881,6 @@ start(): void {
 }
 ```
 
-```mermaid
-flowchart TD
-    A[Classes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of classes, including underlying theory, practical
@@ -2977,13 +2894,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -2999,7 +2910,7 @@ URL: https://typescript.wyattau.com/enums-and-modules/
 ## Numeric Enums
 
 Numeric enums assign auto-incrementing integer values to their members. By default, the first member
-Has value `0`And each subsequent member increments by `1`.
+has value `0`And each subsequent member increments by `1`.
 
 ```ts
 enum Direction \{
@@ -3052,7 +2963,7 @@ console.log(perms & FileAccess.Write);
 ```
 
 Computed enum members do not support reverse mapping because the compiler cannot determine the name
-At compile time.
+at compile time.
 
 ## String Enums
 
@@ -3080,7 +2991,7 @@ Runtime values and are safer for serialisation (e.g., JSON).
 ## Const Enums
 
 Const enums are inlined by the compiler. They are completely erased during compilation and replaced
-With their literal values at each use site.
+with their literal values at each use site.
 
 ```ts
 const enum Direction \{
@@ -3144,7 +3055,7 @@ Prefer discriminated unions (see below) over heterogenous enums.
 ## Union Enum Pattern
 
 The **union enum pattern** uses string enums to create a type-safe, self-documenting set of values
-That integrates with TypeScript's narrowing system:
+that integrates with TypeScript's narrowing system:
 
 ```ts
 enum ShapeKind \{
@@ -3206,6 +3117,8 @@ Compatible with `isolatedModules`.
 
 ### Enum Comparison Table
 
+<div class="table-wrap">
+
 | Feature                | Numeric Enum | String Enum | Const Enum    | `as const` Object |
 | ---------------------- | ------------ | ----------- | ------------- | ----------------- |
 | Reverse mapping        | Yes          | No          | N/A (inlined) | No                |
@@ -3213,6 +3126,8 @@ Compatible with `isolatedModules`.
 | `isolatedModules` safe | Yes          | Yes         | No            | Yes               |
 | Computed values        | Limited      | No          | No            | N/A               |
 | Tree-shakeable         | No           | No          | Yes (inlined) | Yes               |
+
+</div>
 
 ## ES Modules: Import and Export
 
@@ -3381,11 +3296,11 @@ console.log(Geometry.distance(p1, p2));
 ### When to Use Namespaces
 
 Namespaces should be avoided in modern TypeScript. They exist primarily for backward compatibility
-And for declaring types that span multiple files (using `.d.ts` files). Use ES modules instead.
+and for declaring types that span multiple files (using `.d.ts` files). Use ES modules instead.
 
 **Common Pitfall:** Do not mix namespaces and ES modules in the same file. A file that contains a
 Top-level `import` or `export` is an ES module, and any namespace within it is scoped to that module
-Rather than being global.
+rather than being global.
 
 ## Triple-Slash Directives
 
@@ -3423,12 +3338,16 @@ Resolves dependencies automatically through `tsconfig.json` and `node_modules`.
 
 ### Classic vs Node Resolution
 
+<div class="table-wrap">
+
 | Strategy              | Description                                                                            |
 | --------------------- | -------------------------------------------------------------------------------------- |
 | `classic`             | Original TypeScript resolution; relative to importing file                             |
 | `node`                | Mimics Node.js resolution; checks `node_modules, package.json` `types`/`typings` field |
 | `node16` / `nodenext` | Node.js ESM-aware resolution (TypeScript 4.7+)                                         |
 | `bundler`             | Resolution for bundlers that handle module resolution themselves (TypeScript 5.0+)     |
+
+</div>
 
 ### Path Aliases in tsconfig
 
@@ -3551,7 +3470,7 @@ import { add, formatDate, log } from './lib';
 ### Tree-Shaking Implications
 
 Barrel files can interfere with tree-shaking in certain bundlers. When a barrel file re-exports from
-Many modules, importing a single name may cause the bundler to include code for all re-exported
+many modules, importing a single name may cause the bundler to include code for all re-exported
 Names.
 
 **Mitigation strategies:**
@@ -3635,17 +3554,6 @@ When `isolatedModules` is enabled, const enums cannot be used across files becau
 Transpiled independently and the compiler cannot inline values from other files. Use `as const`
 Objects as an alternative.
 
-
-```mermaid
-flowchart TD
-    A[Enums And Modulesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of enums and modules, including underlying theory, practical
@@ -3659,13 +3567,7 @@ implementation, and key applications.
 - modules and namespaces
 - type guards and narrowing
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -3694,7 +3596,7 @@ URL: https://typescript.wyattau.com/error-handling/
 
 The `never` type is the **bottom type** of the TypeScript type system. It has no inhabitants: no
 Value of type `never` can exist at runtime. It is a subtype of every type, and no type is a subtype
-Of `never` (except `never` itself).
+of `never` (except `never` itself).
 
 `never` appears in two principal contexts:
 
@@ -3754,21 +3656,25 @@ function area(shape: Shape): number {
 ```
 
 If a new variant is added to `Shape` (e.g., `{ kind: "pentagon"; ... }`) without updating the
-`switch`The assignment `_exhaustive: never` produces a compile error because the new variant is Not
+`switch`. The assignment `_exhaustive: never` produces a compile error because the new variant is Not
 assignable to `never`.
 
 ## `unknown` vs `any`
 
 ### Precise Semantics
 
+<div class="table-wrap">
+
 | Type      | Assignable to everything? | Everything assignable to it?  | Type narrowing required? |
 | --------- | ------------------------- | ----------------------------- | ------------------------ |
 | `any`     | Yes                       | Yes                           | No                       |
 | `unknown` | Yes                       | No (only `any` and `unknown`) | Yes                      |
 
+</div>
+
 `any` disables the type system entirely. A value typed as `any` can be used as any type, and any
 Value can be assigned to it. `unknown` is the type-safe alternative: it can hold any value, but it
-Must be narrowed before use.
+must be narrowed before use.
 
 ### `unknown` for Error Handling
 
@@ -3825,6 +3731,8 @@ Runtime, and the `any` type prevents the compiler from catching this.
 
 JavaScript provides several built-in error classes, all of which TypeScript types natively:
 
+<div class="table-wrap">
+
 | Error Class      | Purpose                    |
 | ---------------- | -------------------------- |
 | `Error`          | Generic error              |
@@ -3835,7 +3743,9 @@ JavaScript provides several built-in error classes, all of which TypeScript type
 | `URIError`       | Invalid URI operation      |
 | `EvalError`      | Error in `eval()` (legacy) |
 
-All built-in error classes inherit from `Error`Which provides the `message``name`And `stack`
+</div>
+
+All built-in error classes inherit from `Error`. Which provides the `message`, `name` and `stack`
 Properties.
 
 ### Custom Error Classes
@@ -3919,7 +3829,7 @@ function handleAppError(error: AppError): void {
 ```
 
 **Common Pitfall:** When extending `Error`Call `super(message)` in the constructor and set
-`this.name`. Without `super()`The `message` property is not initialised. Without `this.name`
+`this.name`. Without `super()`. The `message` property is not initialised. Without `this.name`
 `instanceof` checks still work, but `error.name` defaults to `"Error"`.
 
 ## `try`/`catch`/`finally` Typing
@@ -3964,7 +3874,7 @@ function safeParse(json: string): unknown {
 ### The `finally` Block
 
 The `finally` block always executes, even when `try` or `catch` returns or throws. TypeScript does
-Not narrow types across `finally` boundaries because the control flow is non-local:
+not narrow types across `finally` boundaries because the control flow is non-local:
 
 ```ts
 function example(): string {
@@ -4178,7 +4088,7 @@ function processAction(action: Action): void {
 }
 ```
 
-If a new variant is added to `Action`The `assertNever` call produces a compile error because the New
+If a new variant is added to `Action`. The `assertNever` call produces a compile error because the New
 variant is not assignable to `never`.
 
 ## Result Type Pattern
@@ -4310,11 +4220,15 @@ async function safeFetch(url: string): AsyncResult<Response, NetworkError> {
 
 These three concepts are often conflated but have distinct meanings in TypeScript:
 
+<div class="table-wrap">
+
 | Concept           | Type       | Meaning                                |
-| ----------------- | ---------- | -------------------------------------- | ------------------------------ |
+| ----------------- | ---------- | -------------------------------------- |
 | Optional property | `prop?: T` | Property may be absent from the object |
 | Nullable          | `T         | null`                                  | Value may be explicitly `null` |
 | Undefined         | `T         | undefined`                             | Value may be `undefined`       |
+
+</div>
 
 ### Optional Properties
 
@@ -4333,7 +4247,7 @@ const a: Config = {};
 const b: Config = { host: "localhost' };
 ```
 
-Under `exactOptionalPropertyTypes``const c: Config = { host: undefined }` is an error.
+Under `exactOptionalPropertyTypes`, `const c: Config = { host: undefined }` is an error.
 
 ### Null vs Undefined
 
@@ -4375,7 +4289,7 @@ function applySettings(settings: Settings): void {
 ```
 
 `??` treats only `null` and `undefined` as nullish, making it the correct operator for default
-Values when `0``""`Or `false` are valid values.
+Values when `0`, `""` or `false` are valid values.
 
 ## Intuition
 
@@ -4409,7 +4323,7 @@ throw { code: 500 };
 ```
 
 This is legal JavaScript but makes error handling fragile. Always throw `Error` instances (or
-Subclasses) to ensure consistent `message``name`And `stack` properties.
+Subclasses) to ensure consistent `message`, `name` and `stack` properties.
 
 ### Pitfall 3: Swallowed Errors
 
@@ -4441,17 +4355,6 @@ Error boundaries in React do not catch errors in:
 Use error boundaries only for rendering errors. For all other error scenarios, use standard
 `try`/`catch` with the Result pattern or assert functions.
 
-
-```mermaid
-flowchart TD
-    A[Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical
@@ -4465,13 +4368,7 @@ implementation, and key applications.
 - modules and namespaces
 - type guards and narrowing
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -4530,15 +4427,9 @@ TypeScript adds a compile-time type layer on top of JavaScript, the types exist 
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -4548,95 +4439,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 ## See also
 
 - [TypeScript Fundamentals Practice (Interactive)](/practice-typescript-basics/)
@@ -4721,7 +4523,7 @@ function explicit(x: number): number {
 }
 ```
 
-If the implementation later changes to return a `string`The explicit annotation produces a compile
+If the implementation later changes to return a `string`. The explicit annotation produces a compile
 Error, whereas inference would silently accept the change.
 
 ## Optional and Default Parameters
@@ -4770,8 +4572,8 @@ function a(x?: number): void {}
 function b(x: number = 0): void {}
 ```
 
-Both functions can be called with zero arguments. The difference: in `a`The type of `x` within the
-Body is `number | undefined`; in `b`The type of `x` is `number` (the default ensures it is always
+Both functions can be called with zero arguments. The difference: in `a`. The type of `x` within the
+Body is `number | undefined`; in `b`. The type of `x` is `number` (the default ensures it is always
 Defined).
 
 ## Rest Parameters
@@ -5147,7 +4949,7 @@ const strings = [1, 'two', 3, 'four', 5];
 const onlyStrings = strings.filter((s): s is string => typeof s === 'string');
 ```
 
-The type of `onlyStrings` is `string[]`Not `(string | number)[]`.
+The type of `onlyStrings` is `string[]`. Not `(string | number)[]`.
 
 ### Curried Functions
 
@@ -5205,7 +5007,7 @@ function format(x: string | number): string | number {
 }
 ```
 
-This is correct. But if the implementation returns only `string`It does not satisfy the `number`
+This is correct. But if the implementation returns only `string`. It does not satisfy the `number`
 Overload.
 
 ### Pitfall 2: Forgetting to Annotate `this`
@@ -5244,17 +5046,6 @@ Or more concisely:
 return data.map((item) => callback?.(item) ?? item);
 ```
 
-
-```mermaid
-flowchart TD
-    A[Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, including key
@@ -5268,13 +5059,7 @@ theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -5302,8 +5087,8 @@ URL: https://typescript.wyattau.com/generics/
 
 Generics allow functions, interfaces, and type aliases to operate over a range of types rather than
 A single fixed type. A generic function declares one or more **type parameters** in angle brackets
-After the function name. These type parameters are placeholders for concrete types that are supplied
-At the call site.
+after the function name. These type parameters are placeholders for concrete types that are supplied
+at the call site.
 
 ```ts
 function identity<T>(value: T): T {
@@ -5340,7 +5125,7 @@ function first<T>(array: T[]): T | undefined {
 const x = first([1, 2, 3]);
 ```
 
-Here, `T` is inferred as `number`So `x` has type `number | undefined`.
+Here, `T` is inferred as `number`. So `x` has type `number | undefined`.
 
 When inference is insufficient (e.g., when the type parameter appears only in the return type),
 Explicit type arguments may be provided:
@@ -5530,7 +5315,7 @@ type T2 = NonNullable<string | null | undefined>;
 ```
 
 `Exclude<T, U>` removes from `T` those types that are assignable to `U`. `Extract<T, U>` extracts
-From `T` those types that are assignable to `U`. `NonNullable<T>` removes `null` and `undefined`
+from `T` those types that are assignable to `U`. `NonNullable<T>` removes `null` and `undefined`
 From `T`.
 
 ### ReturnType, Parameters
@@ -5549,6 +5334,8 @@ Types as a tuple.
 
 ### Summary Table
 
+<div class="table-wrap">
+
 | Utility Type               | Description                                   |
 | -------------------------- | --------------------------------------------- |
 | `Partial<T>`               | All properties of `T` become optional         |
@@ -5564,6 +5351,8 @@ Types as a tuple.
 | `Parameters<T>`            | Parameter types of function type `T` as tuple |
 | `ReadonlyArray<T>`         | Immutable array type                          |
 | `ConstructorParameters<T>` | Parameter types of constructor type `T`       |
+
+</div>
 
 ## Mapped Types
 
@@ -5650,7 +5439,7 @@ type Result = ToArray<string | number>;
 type Result = string[] | number[];
 ```
 
-The distribution rule: `ToArray<string | number>` becomes `ToArray<string> | ToArray<number>`Which
+The distribution rule: `ToArray<string | number>` becomes `ToArray<string> | ToArray<number>`. Which
 Resolves to `string[] | number[]`.
 
 To prevent distribution, wrap `T` in a tuple:
@@ -5748,7 +5537,7 @@ on('not-an-event', () => {});
 ## Variance
 
 Variance describes how subtyping relationships between type arguments affect subtyping relationships
-Between generic types. TypeScript uses **structural typing** with specific variance rules.
+between generic types. TypeScript uses **structural typing** with specific variance rules.
 
 ### Covariance
 
@@ -5774,7 +5563,7 @@ const general: Handler = specific;
 ```
 
 This is a compile error under `strictFunctionTypes`. A function that expects `Error` cannot safely
-Receive a function that only handles `TypeError`Because the general handler might be called with
+Receive a function that only handles `TypeError`. Because the general handler might be called with
 `RangeError`.
 
 ### Bivariance
@@ -5784,12 +5573,16 @@ contravariant. This is unsound but matches pre-strict TypeScript behaviour.
 
 ### Variance Summary
 
+<div class="table-wrap">
+
 | Variance      | `S extends T` implies            | Example                                                     |
 | ------------- | -------------------------------- | ----------------------------------------------------------- |
 | Covariant     | `F<S> extends F<T>`              | `string[] extends (string \| number)[]`                     |
 | Contravariant | `F<T> extends F<S>`              | `(x: Error) => void` assignable to `(x: TypeError) => void` |
 | Invariant     | No implication either way        | `Mutable<T>` -- must be exact type                          |
 | Bivariant     | Both covariant and contravariant | Function params without `strictFunctionTypes`               |
+
+</div>
 
 ### Invariance in Practice
 
@@ -6003,16 +5796,6 @@ constrained<any>(42);
 
 This compiles despite `42` not being a `string`. The `any` type circumvents the constraint entirely.
 
-```mermaid
-flowchart TD
-    A[Generics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical
@@ -6026,13 +5809,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -6071,15 +5848,15 @@ URL: https://typescript.wyattau.com/glossary/
 
 ## Primitive and Literal Types
 
-**Primitive Types**: `string``number``boolean``null``undefined``symbol``bigint`.
+**Primitive Types**: `string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`.
 
-**Literal Types**: Types narrowed to specific values: `"hello"``42``true`.
+**Literal Types**: Types narrowed to specific values: `"hello"`, `42`, `true`.
 
 **String Literal Type**: A type restricted to specific strings: `type Direction = "up" | "down" | "left" | "right"`.
 
 **Number Literal Type**: A type restricted to specific numbers: `type DiceRoll = 1 | 2 | 3 | 4 | 5 | 6`.
 
-**Template Literal Types**: String manipulation at the type level: `` type EventName = `${"click" | "hover"}_${"start" | "end"}` ``.
+**Template Literal Types**: String manipulation at the type level: `` type EventName = ``, ``${"click" | "hover"}_${"start" | "end"}``, `` ``.
 
 **Enum**: A type with a fixed set of named constants: `enum Status { Active, Inactive }`.
 
@@ -6099,7 +5876,7 @@ type Result =
 
 **Intersection Type (&)**: A value must satisfy all combined types: `TypeA & TypeB`.
 
-**Type Narrowing**: The compiler narrows types based on control flow, `typeof``instanceof``in`and discriminated unions.
+**Type Narrowing**: The compiler narrows types based on control flow, `typeof`, `instanceof`, `in`and discriminated unions.
 
 **Type Guard**: A function that narrows types: `function isString(x: unknown): x is string { return typeof x === "string" }`.
 
@@ -6203,9 +5980,9 @@ interface User {
 
 **Component Props**: Typing component properties with interfaces: `interface Props { name: string }`.
 
-**Typing Hooks**: `useState<string>("")``useRef<HTMLInputElement>(null)`.
+**Typing Hooks**: `useState<string>("")`, `useRef<HTMLInputElement>(null)`.
 
-**Event Handlers**: `React.ChangeEvent<HTMLInputElement>``React.MouseEvent<HTMLButtonElement>`.
+**Event Handlers**: `React.ChangeEvent<HTMLInputElement>`, `React.MouseEvent<HTMLButtonElement>`.
 
 **Children Type**: `PropsWithChildren<Props>` or `React.ReactNode` for children prop.
 
@@ -6256,16 +6033,6 @@ URL: https://typescript.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -6347,7 +6114,7 @@ Generics enable you to write code that works with any type while preserving type
 
 **Generic constraints**, `function getProperty<T, K extends keyof T>(obj: T, key: K): T[K]` constrains K to be a key of T. This provides type-safe property access while maintaining generality.
 
-**Utility type generics**, Most utility types are generic: `Partial<T>``Required<T>``Pick<T, K>``Omit<T, K>`. Understanding how generics work is essential for using these types effectively.
+**Utility type generics**, Most utility types are generic: `Partial<T>`, `Required<T>`, `Pick<T, K>`, `Omit<T, K>`. Understanding how generics work is essential for using these types effectively.
 
 ---
 
@@ -6608,13 +6375,13 @@ Welcome to the TypeScript notes. TypeScript is a superset of JavaScript that add
 
 ## Why This Matters
 
-TypeScript's type system catches bugs that JavaScript would only reveal at runtime. Generics enable reusable, type-safe code, utility types (`Partial``Pick``Omit`) transform existing types, and type guards narrow types at runtime. Understanding TypeScript's structural type system, declaration files, and compilation options is essential for modern web development.
+TypeScript's type system catches bugs that JavaScript would only reveal at runtime. Generics enable reusable, type-safe code, utility types (`Partial`, `Pick`, `Omit`) transform existing types, and type guards narrow types at runtime. Understanding TypeScript's structural type system, declaration files, and compilation options is essential for modern web development.
 
 ## What You Will Find
 
 - **Type system**: Primitive types, unions, intersections, type narrowing, and type guards
 - **Generics**: Write functions and classes that work with any type while preserving type safety
-- **Utility types**: Transform existing types, `Partial<T>``Pick<T,K>``Omit<T,K>``Record<K,V>`
+- **Utility types**: Transform existing types, `Partial<T>`, `Pick<T,K>`, `Omit<T,K>`, `Record<K,V>`
 - **Advanced patterns**: Mapped types, conditional types, template literal types
 - **React integration**: Typing components, hooks, props, and state in React applications
 
@@ -6668,15 +6435,9 @@ types from context. Start with strict mode enabled, use `unknown` instead of
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -6685,52 +6446,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -7564,6 +7279,8 @@ Configuration:
 
 #### Language and Environment
 
+<div class="table-wrap">
+
 | Option               | Description                               | Recommended                      |
 | -------------------- | ----------------------------------------- | -------------------------------- |
 | `target`             | ECMAScript version for emitted JavaScript | `"ES2022"` or `"ESNext"`         |
@@ -7572,7 +7289,11 @@ Configuration:
 | `jsxFactory`         | JSX factory function                      | `"React.createElement"` (legacy) |
 | `jsxFragmentFactory` | JSX fragment factory                      | `"React.Fragment"` (legacy)      |
 
+</div>
+
 #### Module Resolution
+
+<div class="table-wrap">
 
 | Option              | Description                                       | Recommended               |
 | ------------------- | ------------------------------------------------- | ------------------------- |
@@ -7584,7 +7305,11 @@ Configuration:
 | `resolveJsonModule` | Allow importing `.json` files                     | `true`                    |
 | `isolatedModules`   | Ensure each file can be transpiled independently  | `true`                    |
 
+</div>
+
 #### Type Checking
+
+<div class="table-wrap">
 
 | Option                         | Description                                                     | Recommended                  |
 | ------------------------------ | --------------------------------------------------------------- | ---------------------------- |
@@ -7601,7 +7326,11 @@ Configuration:
 | `noFallthroughCasesInSwitch`   | Error on switch case fallthrough                                | `true`                       |
 | `exactOptionalPropertyTypes`   | Distinguish between optional and `undefined`-present properties | `true`                       |
 
+</div>
+
 #### Output
+
+<div class="table-wrap">
 
 | Option           | Description                           | Recommended                   |
 | ---------------- | ------------------------------------- | ----------------------------- |
@@ -7610,6 +7339,8 @@ Configuration:
 | `declarationMap` | Generate sourcemaps for `.d.ts` files | `true` for libraries          |
 | `sourceMap`      | Generate sourcemaps                   | `true`                        |
 | `noEmit`         | Type-check without emitting files     | `true` for type-checking only |
+
+</div>
 
 ### The `strict` Flag
 
@@ -7641,7 +7372,7 @@ const a: Config = {};
 const b: Config = { host: undefined };
 ```
 
-Under `exactOptionalPropertyTypes`The second line is an error. To explicitly allow `undefined`
+Under `exactOptionalPropertyTypes`. The second line is an error. To explicitly allow `undefined`
 Declare the property as `host?: string | undefined`.
 
 ## Module Resolution Strategies
@@ -7668,12 +7399,16 @@ Themselves (TypeScript 5.0+). Does not enforce Node.js-specific resolution rules
 
 ### Resolution Comparison
 
+<div class="table-wrap">
+
 | Feature                            | `node`          | `node16`           | `bundler`        |
 | ---------------------------------- | --------------- | ------------------ | ---------------- |
 | ESM-aware                          | No              | Yes                | No               |
 | Requires file extensions in ESM    | No              | Yes                | No               |
 | Checks `exports` in `package.json` | No              | Yes                | Yes              |
 | Best for                           | Legacy projects | Node.js native ESM | Bundled web apps |
+
+</div>
 
 ## @types Packages and DefinitelyTyped
 
@@ -7789,7 +7524,7 @@ Configuration for `ts-node` in `tsconfig.json`:
 ```
 
 `transpileOnly: true` skips type checking for faster execution (useful during development). Remove
-It for production scripts where type safety is critical.
+it for production scripts where type safety is critical.
 
 **Common Pitfall:** `ts-node` with ESM requires additional configuration. Set `"esm": true` in the
 `ts-node` section of `tsconfig.json` and ensure `package.json` has `"type": "module"`.
@@ -7827,8 +7562,10 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 
 ### Key Rules
 
+<div class="table-wrap">
+
 | Rule                                               | Description                      |
-| -------------------------------------------------- | -------------------------------- | --- | --- |
+| -------------------------------------------------- | -------------------------------- |
 | `@typescript-eslint/no-explicit-any`               | Disallow `any` type              |
 | `@typescript-eslint/no-unused-vars`                | Disallow unused variables        |
 | `@typescript-eslint/explicit-function-return-type` | Require explicit return types    |
@@ -7837,6 +7574,8 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 | `@typescript-eslint/prefer-nullish-coalescing`     | Prefer `??` over ` |     | `   |
 | `@typescript-eslint/prefer-optional-chain`         | Prefer `?.` over manual checks   |
 | `@typescript-eslint/no-non-null-assertion`         | Disallow `!` non-null assertions |
+
+</div>
 
 **Common Pitfall:** The `@typescript-eslint/recommended-requiring-type-checking` config requires
 `parserOptions.project` to point to a valid `tsconfig.json`. This makes linting slower because it
@@ -7983,6 +7722,8 @@ declare module 'another-untyped' {
 
 ### `jsx` Option Values
 
+<div class="table-wrap">
+
 | Value            | Output                                                           |
 | ---------------- | ---------------------------------------------------------------- |
 | `"preserve"`     | Emit `.jsx` files (for further processing by Babel)              |
@@ -7990,6 +7731,8 @@ declare module 'another-untyped' {
 | `"react-native"` | `React.createElement` (preserves JSX as `React.NativeComponent`) |
 | `"react-jsx"`    | `_jsx` from `react/jsx-runtime` (React 17+)                      |
 | `"react-jsxdev"` | `_jsxDev` from `react/jsx-dev-runtime` (React 17+ dev)           |
+
+</div>
 
 ### Custom JSX Factory
 
@@ -8003,7 +7746,7 @@ declare module 'another-untyped' {
 }
 ```
 
-This configuration uses `h` instead of `React.createElement`Which is the convention for Preact.
+This configuration uses `h` instead of `React.createElement`. Which is the convention for Preact.
 
 ## New Features (TypeScript 5.0+)
 
@@ -8025,7 +7768,7 @@ const debug: boolean = config.debug;
 ```
 
 Without `satisfies`Assigning to `Record<string, string | number | boolean>` would widen the Property
-types. With `satisfies`The literal types are preserved while still validating against the Broader
+types. With `satisfies`. The literal types are preserved while still validating against the Broader
 type.
 
 ### `satisfies` vs Type Annotation
@@ -8057,7 +7800,7 @@ function createRoute<const T extends string[]>(path: `/${string}`, params: T): v
 createRoute('/users/:id', ['id'] as const);
 ```
 
-Without `const` on the type parameter, `T` would be inferred as `string[]`. With `const``T` is
+Without `const` on the type parameter, `T` would be inferred as `string[]`. With `const`, `T` is
 Inferred as `readonly ["id"]`.
 
 ### Decorator Metadata (TypeScript 5.2+)
@@ -8083,7 +7826,7 @@ function example(): void {
 ```
 
 The `using` keyword ensures that `dispose()` is called when the variable goes out of scope, even if
-An exception is thrown.
+an exception is thrown.
 
 ## Intuition
 
@@ -8102,7 +7845,7 @@ Specific reason.
 ### Pitfall 2: Path Aliases Not Resolved at Runtime
 
 Path aliases in `tsconfig.json` (`paths`) are resolved only by the TypeScript compiler. The bundler
-Or runtime must be configured separately to resolve these aliases. Without matching bundler
+or runtime must be configured separately to resolve these aliases. Without matching bundler
 Configuration, imports will fail at runtime.
 
 ### Pitfall 3: `composite` Requires Explicit File Listing
@@ -8115,17 +7858,6 @@ Full list of input files without filesystem traversal.
 
 When `isolatedModules` is enabled, declaration files must be careful about re-exports. Re-exporting
 Types and values from the same module can cause issues with some bundlers.
-
-
-```mermaid
-flowchart TD
-    A[Tooling And Configuration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -8140,13 +7872,7 @@ practical implementation, and key applications.
 - modules and namespaces
 - type guards and narrowing
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -8172,6 +7898,8 @@ URL: https://typescript.wyattau.com/types-and-annotations/
 
 TypeScript provides seven primitive types that correspond directly to JavaScript runtime values:
 
+<div class="table-wrap">
+
 | Type        | Description                                               | Example Values                |
 | ----------- | --------------------------------------------------------- | ----------------------------- |
 | `string`    | UTF-16 character sequences                                | `"hello"``"'``` `Template` `` |
@@ -8182,9 +7910,11 @@ TypeScript provides seven primitive types that correspond directly to JavaScript
 | `symbol`    | Globally unique identifiers (ES2015+)                     | `Symbol("id")`                |
 | `bigint`    | Arbitrary-precision integers (ES2020+)                    | `0n``9007199254740993n`       |
 
+</div>
+
 The types `null` and `undefined` are subtypes of every other type unless `strictNullChecks` is
 Enabled. Under `strict: true` (the recommended configuration), `null` and `undefined` are assignable
-Only to themselves and to `any` / `unknown`.
+only to themselves and to `any` / `unknown`.
 
 ```ts
 const name: string = 'Ada';
@@ -8196,7 +7926,7 @@ const uid: symbol = Symbol('uid');
 const huge: bigint = 9007199254740993n;
 ```
 
-## The `any``unknown``never`And `void` Types
+## The `any`, `unknown`, `never` and `void` Types
 
 These four types have precise and distinct semantics. Confusion between them is a common source of
 Bugs.
@@ -8205,7 +7935,7 @@ Bugs.
 
 The `any` type disables all type checking for the annotated value. A value of type `any` is
 Assignable to and from every other type. Using `any` effectively opts the annotated expression out
-Of the type system entirely.
+of the type system entirely.
 
 ```ts
 let a: any = 'hello';
@@ -8220,7 +7950,7 @@ Genuinely not known at compile time.
 ### `unknown`
 
 The `unknown` type is the type-safe counterpart to `any`. A value of type `unknown` is assignable to
-Every type, but **no type is assignable to `unknown` except `any` and `unknown` itself**. Before an
+every type, but **no type is assignable to `unknown` except `any` and `unknown` itself**. Before an
 `unknown` value can be used, it must be narrowed through a type guard.
 
 ```ts
@@ -8265,7 +7995,7 @@ function area(shape: Shape): number {
 }
 ```
 
-If a new variant is later added to `Shape` without updating the `switch`The assignment to
+If a new variant is later added to `Shape` without updating the `switch`. The assignment to
 `_exhaustive: never` will produce a compile-time error, since the new variant is not assignable to
 `never`.
 
@@ -8288,7 +8018,7 @@ Settings but should not be used there.
 ### `undefined` (the type)
 
 The type `undefined` has exactly one inhabitant: the runtime value `undefined`. Under
-`strictNullChecks`It is assignable only to `undefined``any`And `unknown`.
+`strictNullChecks`. It is assignable only to `undefined`, `any` and `unknown`.
 
 ```ts
 let x: undefined = undefined;
@@ -8298,7 +8028,7 @@ let x: undefined = undefined;
 
 TypeScript provides two mechanisms for defining object shapes: **interfaces** and **type aliases**.
 Both support optional properties, readonly properties, and method signatures. However, they differ
-In several important respects.
+in several important respects.
 
 ### Interface Declarations
 
@@ -8312,7 +8042,7 @@ interface Point {
 ```
 
 Interfaces support **declaration merging**: multiple interface declarations with the same name in
-The same scope are automatically merged into a single interface.
+the same scope are automatically merged into a single interface.
 
 ```ts
 interface Window {
@@ -8348,6 +8078,8 @@ type Readonly<T> = { readonly [K in keyof T]: T[K] };
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature                  | `interface`   | `type`  |
 | ------------------------ | ------------- | ------- |
 | Object shapes            | Yes           | Yes     |
@@ -8360,20 +8092,22 @@ type Readonly<T> = { readonly [K in keyof T]: T[K] };
 | Extends other interfaces | Yes           | N/A     |
 | Extends classes          | Yes           | No      |
 
+</div>
+
 ### When to Use Each
 
 **Use `interface`** when defining public API surface shapes that may be extended by consumers
 (library authoring, plugin systems). Use **`type`** for unions, intersections, mapped types,
 Conditional types, tuples, and any non-object-shape type. When in doubt, many teams adopt the
 Convention: default to `interface` for object shapes, switch to `type` when the situation requires
-It.
+it.
 
 ## Union and Intersection Types
 
 ### Union Types
 
 A union type `A | B` describes a value that is of type `A` **or** type `B`. The value has access
-Only to the members that are common to all constituents of the union.
+only to the members that are common to all constituents of the union.
 
 ```ts
 type ID = string | number;
@@ -8384,7 +8118,7 @@ function formatId(id: ID): string {
 ```
 
 When accessing properties or methods on a union, TypeScript permits only those that are shared
-Across all union members:
+across all union members:
 
 ```ts
 function getLength(value: string | string[]): number {
@@ -8428,7 +8162,7 @@ This type is `never` because no value can be both a `string` and a `number`.
 ## Type Narrowing
 
 Type narrowing is the process by which TypeScript reduces a broad type to a more specific type
-Within a control flow branch. Narrowing is essential for safely working with union types.
+within a control flow branch. Narrowing is essential for safely working with union types.
 
 ### `typeof` Narrowing
 
@@ -8442,7 +8176,7 @@ function double(value: string | number): string | number {
 ```
 
 The `typeof` operator narrows to the corresponding TypeScript type. It recognises `"string"`
-`"number"``"boolean"``"symbol"``"bigint"``"undefined"``"object"`And `"function"`.
+`"number"`, `"boolean"`, `"symbol"`, `"bigint"`, `"undefined"`, `"object"` and `"function"`.
 
 ### `instanceof` Narrowing
 
@@ -8488,7 +8222,7 @@ function unwrap<T, E>(result: Result<T, E>): T {
 }
 ```
 
-The compiler recognises that after the `if` check narrows `result.status` to `"success"`The type Of
+The compiler recognises that after the `if` check narrows `result.status` to `"success"`. The type Of
 `result` is narrowed to `{ status: "success"; data: T }`Making `result.data` accessible.
 
 ### Equality Narrowing
@@ -8515,7 +8249,7 @@ function process(value: string | null | undefined): string {
 }
 ```
 
-Falsy values (`null``undefined``""``0``NaN``false`) narrow the type to their falsy Constituent.
+Falsy values (`null`, `undefined`, `""`, `0`, `NaN`, `false`) narrow the type to their falsy Constituent.
 
 ## Literal Types
 
@@ -8566,12 +8300,16 @@ type HandlerName = 'onClick' | 'onFocus' | 'onBlur';
 
 Template literal types distribute over unions and support the following intrinsic string types:
 
+<div class="table-wrap">
+
 | Intrinsic Type    | Operation                    |
 | ----------------- | ---------------------------- |
 | `Uppercase<S>`    | Convert to uppercase         |
 | `Lowercase<S>`    | Convert to lowercase         |
 | `Capitalize<S>`   | Capitalize first character   |
 | `Uncapitalize<S>` | Uncapitalize first character |
+
+</div>
 
 ```ts
 type CSSProperty = 'margin' | 'padding';
@@ -8591,7 +8329,7 @@ type CSSKey =
 ## Type Assertions
 
 Type assertions (`as` syntax or angle-bracket syntax) instruct the compiler to treat an expression
-As a specific type. They perform **no runtime check** and are therefore unsafe.
+as a specific type. They perform **no runtime check** and are therefore unsafe.
 
 ### Syntax
 
@@ -8606,7 +8344,7 @@ Prefer `as` for consistency.
 ### When Assertions Are Necessary
 
 Type assertions are occasionally required when the programmer has information that the type system
-Cannot infer:
+cannot infer:
 
 1. **DOM element access** -- `document.getElementById` returns `HTMLElement | null`; asserting to a
    specific element type.
@@ -8691,14 +8429,14 @@ const value: string | null = null;
 const result = value ?? 'default';
 ```
 
-This operator is distinct from `||` because it does not treat `0``""``false`Or `NaN` as falsy:
+This operator is distinct from `||` because it does not treat `0`, `""`, `false` or `NaN` as falsy:
 
 ```ts
 const count: number | null = 0;
 const total = count ?? 10;
 ```
 
-Here, `total` is `0`Because `0` is not nullish. With `||``total` would be `10`.
+Here, `total` is `0`. Because `0` is not nullish. With `||`, `total` would be `10`.
 
 ### Combining Both
 
@@ -8723,7 +8461,7 @@ let s = 'hello';
 let b = true;
 ```
 
-Here, `x` is inferred as `number``s` as `string``b` as `boolean`. The inferred type is the
+Here, `x` is inferred as `number`, `s` as `string`, `b` as `boolean`. The inferred type is the
 **widest** type that matches the initialiser.
 
 ### `let` vs `const` Inference
@@ -8741,7 +8479,7 @@ With `const`TypeScript infers the literal type:
 const x = 'hello';
 ```
 
-Here, the type of `x` is the literal type `"hello"`Not `string`. This is because `const`
+Here, the type of `x` is the literal type `"hello"`. Not `string`. This is because `const`
 Declarations cannot be reassigned, so the compiler can safely narrow to the literal.
 
 ### Best Common Type
@@ -8768,7 +8506,7 @@ const doubled = numbers.map((n) => n * 2);
 ```
 
 The type of `n` is inferred as `number` from the context (the `map` method of `number[]`), even
-Though the callback has no explicit parameter annotation.
+though the callback has no explicit parameter annotation.
 
 Contextual typing also applies to event handlers, promise callbacks, and object literal assignments:
 
@@ -8798,7 +8536,7 @@ The return type is inferred as `number | string`.
 ## `const` Assertions (`as const`)
 
 The `as const` assertion instructs TypeScript to infer the narrowest possible (literal) types for
-The expression:
+the expression:
 
 ```ts
 const config = {
@@ -8808,8 +8546,8 @@ const config = {
 } as const;
 ```
 
-Without `as const`The type of `config` is `{ host: string; port: number; debug: boolean }`. With
-`as const`The type is `{ readonly host: "localhost"; readonly port: 3000; readonly debug: false }`.
+Without `as const`. The type of `config` is `{ host: string; port: number; debug: boolean }`. With
+`as const`. The type is `{ readonly host: "localhost"; readonly port: 3000; readonly debug: false }`.
 
 This is particularly useful for defining constant objects where the literal values carry semantic
 Meaning:
@@ -8841,7 +8579,7 @@ The type of `directions` is `readonly ["north", "south", "east", "west"]`.
 
 ## Type Predicates and User-Defined Type Guards
 
-Built-in narrowing (`typeof``instanceof``in`) covers many common cases. For more complex Predicates,
+Built-in narrowing (`typeof`, `instanceof`, `in`) covers many common cases. For more complex Predicates,
 TypeScript provides **user-defined type guards** via type predicates.
 
 ### Type Predicate Syntax
@@ -8924,7 +8662,7 @@ Union types are like a Swiss Army knife. A variable typed as string | number can
 
 ### Pitfall 1: Using `any` as a Escape Hatch
 
-`any` bypasses the type checker entirely. If a function accepts `any`The caller receives no Guidance
+`any` bypasses the type checker entirely. If a function accepts `any`. The caller receives no Guidance
 on what to pass, and the callee receives no guarantees about what it receives. Prefer `unknown` with
 narrowing.
 
@@ -8962,7 +8700,7 @@ const settings = {
 };
 ```
 
-The type of `settings.theme` is `string`Not `"dark"`. To preserve the literal type, use `as const`
+The type of `settings.theme` is `string`. Not `"dark"`. To preserve the literal type, use `as const`
 Or annotate the variable:
 
 ```ts
@@ -8996,17 +8734,6 @@ function process(item: A | B): void {
 }
 ```
 
-
-```mermaid
-flowchart TD
-    A[Types And Annotations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of types and annotations, including underlying theory, practical
@@ -9020,13 +8747,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -9056,8 +8777,8 @@ TypeScript program. TypeScript adds a compile-time type system that is erased du
 Producing standard JavaScript output.
 
 The type system is **structural**, meaning type compatibility is determined by the shape of values
-Rather than by explicit inheritance relationships or nominal declarations. This design choice aligns
-With JavaScript"s own duck-typing semantics while providing compile-time guarantees that catch a
+rather than by explicit inheritance relationships or nominal declarations. This design choice aligns
+with JavaScript's own duck-typing semantics while providing compile-time guarantees that catch a
 Broad class of errors before runtime.
 
 ## Relationship to JavaScript
@@ -9071,9 +8792,11 @@ Tasks:
 
 Because TypeScript is a superset, existing JavaScript codebases can be adopted incrementally. The
 Compiler's `strict` flag can be enabled progressively, allowing teams to tighten type safety at
-Their own pace.
+their own pace.
 
 ## Key Language Features
+
+<div class="table-wrap">
 
 | Feature               | Description                                                                                                                          |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -9086,6 +8809,8 @@ Their own pace.
 | Type narrowing        | Discriminated unions, `typeof``instanceof``in` operator, user-defined type guards                                                    |
 | Toolchain integration | `tsconfig.json`Declaration files (`.d.ts`), `@types/` packages, project references                                                   |
 
+</div>
+
 ## The Toolchain
 
 ### Compiler (`tsc`)
@@ -9096,7 +8821,7 @@ Behaviour is controlled by `tsconfig.json` at the project root. Key compiler opt
 - **`strict`** -- enables all strict type-checking options.
 - **`target`** -- the ECMAScript version for emitted JavaScript.
 - **`module`** -- the module system for emitted code (CommonJS, ESNext, etc.).
-- **`moduleResolution`** -- the strategy for resolving module imports (`node``bundler` `classic`).
+- **`moduleResolution`** -- the strategy for resolving module imports (`node`, `bundler` `classic`).
 - **`noEmit`** -- type-check without producing output files.
 
 ### Configuration (`tsconfig.json`)
@@ -9130,7 +8855,7 @@ This course is organised into the following modules, each with its own dedicated
 6. **Advanced Patterns** -- recursive types, branded types, builder patterns, variadic tuples.
 7. **Tooling and Configuration** -- `tsconfig.json`Project references, ESLint integration.
 8. **TypeScript with React** -- component typing, hooks, context, refs.
-9. **Error Handling** -- `never``unknown`Assert functions, Result types.
+9. **Error Handling** -- `never`, `unknown`Assert functions, Result types.
 
 Each module contains rigorous definitions, compile-ready code examples, comparison tables, and
 Common-pitfall warnings. Cross-references between modules are provided where topics are
@@ -9171,27 +8896,9 @@ The type checker in TypeScript is like a building inspector who reviews your blu
 6. **Avoid type assertions (`as`)**. Prefer type guards and narrowing. Every `as` is a hole in the
    type system that the compiler cannot verify.
 
-
-```mermaid
-flowchart TD
-    A[Typescript] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -9280,12 +8987,16 @@ function Card({ title, children }: CardProps) {
 
 ### Component Typing Comparison
 
+<div class="table-wrap">
+
 | Approach                               | `children`           | Pros                            | Cons                                            |
 | -------------------------------------- | -------------------- | ------------------------------- | ----------------------------------------------- |
 | `FC<Props>`                            | Implicit             | Concise, includes ref typing    | Implicit children, deprecated in React 18 types |
 | `(props: Props) => JSX.Element`        | Explicit if declared | Full control, modern convention | Must type return explicitly                     |
 | `(props: Props) => React.ReactElement` | Explicit if declared | Precise return type             | Does not allow `null` or `string` returns       |
 | `function Component(props: Props)`     | Explicit if declared | Readable, supports overloads    | Verbose                                         |
+
+</div>
 
 ### `ComponentPropsWithRef` and `ComponentPropsWithoutRef`
 
@@ -9304,11 +9015,15 @@ Including all HTML attributes but excluding `ref`. Use `ComponentPropsWithRef` t
 
 ### `ReactNode` vs `JSX.Element` vs `ReactElement`
 
+<div class="table-wrap">
+
 | Type                 | Description                                                                                       |
 | -------------------- | ------------------------------------------------------------------------------------------------- |
 | `React.ReactNode`    | Anything React can render: elements, strings, numbers, `null``undefined`Booleans, arrays, portals |
 | `React.ReactElement` | A React element (result of `createElement` or JSX)                                                |
 | `JSX.Element`        | Alias for `React.ReactElement` in the current JSX namespace                                       |
+
+</div>
 
 For component return types and `children` props, `React.ReactNode` is the most permissive and
 Generally correct choice.
@@ -9353,6 +9068,8 @@ function Input() {
 
 ### Event Type Reference
 
+<div class="table-wrap">
+
 | Event Type          | Target Element                  |
 | ------------------- | ------------------------------- |
 | `MouseEvent<T>`     | `<div>``<button>``<a>`Etc.      |
@@ -9363,6 +9080,8 @@ function Input() {
 | `DragEvent<T>`      | Any draggable element           |
 | `WheelEvent<T>`     | Any element                     |
 | `ClipboardEvent<T>` | Any element                     |
+
+</div>
 
 ### Inline Event Handlers
 
@@ -9397,7 +9116,7 @@ const [user, setUser] = useState<User | null>(null);
 const [data, setData] = useState<ApiResponse | undefined>(undefined);
 ```
 
-**Common Pitfall:** Using `useState(null)` without a type parameter produces `useState<null>`Which
+**Common Pitfall:** Using `useState(null)` without a type parameter produces `useState<null>`. Which
 Means the state can only ever be `null`. Always provide the union type:
 `useState<Type | null>(null)`.
 
@@ -9700,7 +9419,7 @@ function useConfig() {
 }
 ```
 
-When a default value is provided, `useContext` never returns `null`So the null-check in the hook Is
+When a default value is provided, `useContext` never returns `null`. So the null-check in the hook Is
 unnecessary. However, this approach is less type-safe because the default value may not match the
 Actual provider value.
 
@@ -9800,11 +9519,15 @@ Produces `unknown` for the ref type.
 
 ### `RefObject` vs `MutableRefObject` vs `Ref<T>`
 
+<div class="table-wrap">
+
 | Type                  | Description                                       |
 | --------------------- | ------------------------------------------------- |
 | `RefObject<T>`        | Immutable ref object (`current` is readonly)      |
 | `MutableRefObject<T>` | Mutable ref object (`current` is writable)        |
 | `Ref<T>`              | `RefObject<T> \| ((instance: T) => void) \| null` |
+
+</div>
 
 ```tsx
 const immutableRef = useRef<HTMLDivElement>(null);
@@ -9976,7 +9699,7 @@ Using `MouseEvent` instead of `React.MouseEvent` causes type errors:
 const handleClick = (e: MouseEvent) => {};
 ```
 
-This types `e` as the native DOM `MouseEvent`Not React's synthetic event. Use
+This types `e` as the native DOM `MouseEvent`. Not React's synthetic event. Use
 `React.MouseEvent<HTMLButtonElement>`.
 
 ### Pitfall 2: `useRef` for DOM Elements Without `null` Initial Value
@@ -9985,7 +9708,7 @@ This types `e` as the native DOM `MouseEvent`Not React's synthetic event. Use
 const ref = useRef<HTMLDivElement>();
 ```
 
-This creates `MutableRefObject<HTMLDivElement | undefined>`Which is not compatible with JSX `ref`
+This creates `MutableRefObject<HTMLDivElement | undefined>`. Which is not compatible with JSX `ref`
 Props that expect `Ref<HTMLDivElement>`. Always initialise DOM refs with `null`:
 
 ```tsx
@@ -9994,7 +9717,7 @@ const ref = useRef<HTMLDivElement>(null);
 
 ### Pitfall 3: Missing Exhaustive Checks in Reducers
 
-When using `useReducer`Always add a default case that returns the current state or calls
+When using `useReducer`. Always add a default case that returns the current state or calls
 `assertNever` to ensure new action types are handled:
 
 ```tsx
@@ -10011,7 +9734,7 @@ function reducer(state: State, action: Action): State {
 ### Pitfall 4: Overly Broad `children` Types
 
 Using `JSX.Element` instead of `React.ReactNode` for `children` excludes valid React render values
-Like strings, numbers, `null`And arrays:
+like strings, numbers, `null`And arrays:
 
 ```tsx
 interface Bad {
@@ -10021,16 +9744,6 @@ interface Bad {
 interface Good {
   children: React.ReactNode;
 }
-```
-
-```mermaid
-flowchart TD
-    A[Typescript With React] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -10046,13 +9759,7 @@ implementation, and key applications.
 - modules and namespaces
 - type guards and narrowing
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

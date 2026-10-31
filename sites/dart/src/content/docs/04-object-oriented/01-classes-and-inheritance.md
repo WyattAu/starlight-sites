@@ -142,7 +142,7 @@ class Rectangle {
 
 :::tip
 More efficient, they initialize fields directly, while the constructor body runs after all fields
-Have been initialized (to their default values first).
+have been initialized (to their default values first).
 
 ## Inheritance
 
@@ -294,6 +294,8 @@ mixin Persistable on Serializable {
 
 ### Mixin vs Inheritance vs Interface
 
+<div class="table-wrap">
+
 | Feature                 | `extends`         | `implements`            | `with` (mixin)            |
 | ----------------------- | ----------------- | ----------------------- | ------------------------- |
 | Inherit implementation  | Yes               | No                      | Yes                       |
@@ -301,6 +303,8 @@ mixin Persistable on Serializable {
 | Multiple                | No (single)       | Yes                     | Yes                       |
 | Can have constructors   | Yes               | No (if mixin)           | No                        |
 | Use case                | Is-a relationship | Has-capability contract | Code reuse across classes |
+
+</div>
 :::
 
 :::tip

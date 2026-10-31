@@ -18,7 +18,7 @@ description: "A trie is a tree data structure where each node represents a chara
 ## Trie (Prefix Tree)
 
 A trie is a tree data structure where each node represents a character of a string. The path from
-The root to any node spells out a prefix, and nodes marked as "end of word" represent complete
+the root to any node spells out a prefix, and nodes marked as "end of word" represent complete
 Strings in the set.
 
 ### Node Definition
@@ -136,6 +136,8 @@ graph TD
 
 ### Complexity Analysis
 
+<div class="table-wrap">
+
 | Operation     | Time        | Space                   |
 | ------------- | ----------- | ----------------------- |
 | Insert        | $O(m)$      | $O(1)$ additional nodes |
@@ -143,6 +145,8 @@ graph TD
 | Delete        | $O(m)$      | $O(1)$ freed nodes      |
 | StartsWith    | $O(m)$      | $O(1)$                  |
 | Prefix search | $O(m + kL)$ | $O(kL)$ for results     |
+
+</div>
 
 Where $m$ is the word length, $k$ is the number of results, and $L$ is the average result length.
 
@@ -235,7 +239,7 @@ class RadixTrie:
 ## Suffix Trie
 
 A suffix trie of a string $S$ of length $n$ contains all suffixes of $S$. It has $O(n^2)$ nodes (in
-The worst case), which is too large for practical use.
+the worst case), which is too large for practical use.
 
 ### Construction
 
@@ -273,6 +277,8 @@ A suffix tree is a compressed suffix trie. It has at most $2n - 1$ nodes for a s
 
 ### Properties
 
+<div class="table-wrap">
+
 | Property                   | Value                             |
 | -------------------------- | --------------------------------- |
 | Number of nodes            | $O(n)$                            |
@@ -281,6 +287,8 @@ A suffix tree is a compressed suffix trie. It has at most $2n - 1$ nodes for a s
 | Substring search           | $O(m)$ where $m$ = pattern length |
 | Longest repeated substring | Find deepest internal node        |
 | Longest common substring   | Generalised suffix tree           |
+
+</div>
 
 ### Ukkonen's Algorithm (Conceptual)
 
@@ -293,7 +301,7 @@ The key ideas:
 1. **Implicit suffix tree**: during construction, suffixes may end in the middle of an edge
 2. **Suffix links**: each internal node has a link to the node representing its longest proper
    suffix
-3. **Rule 1 / Rule 2 extension**: when adding character $S[i]$Extend all suffixes. Rule 1 applies
+3. **Rule 1 / Rule 2 extension**: when adding character $S[i]$ Extend all suffixes. Rule 1 applies
    when the extension is trivial (character already exists on the current edge); Rule 2 applies when
    a new leaf must be created
 
@@ -404,7 +412,7 @@ class SuffixTree:
 ## Suffix Array
 
 A suffix array `SA` of a string $S$ of length $n$ is a permutation of $\{0, 1, \ldots, n-1\}$ such
-That $S[SA[0]:] \lt S[SA[1]:] \lt \cdots \lt S[SA[n-1]:]$.
+that $S[SA[0]:] \lt S[SA[1]:] \lt \cdots \lt S[SA[n-1]:]$.
 
 ### Construction
 
@@ -597,7 +605,7 @@ Pattern to compute a failure function.
 ### Failure Function
 
 The failure function `pi[i]` is the length of the longest proper prefix of `pattern[0:i+1]` that is
-Also a suffix of `pattern[0:i+1]`.
+also a suffix of `pattern[0:i+1]`.
 
 ```python
 def kmp_failure(pattern):
@@ -646,24 +654,28 @@ def kmp_search(text, pattern):
 
 ### Correctness Proof Sketch
 
-The key invariant: after processing `text[i]`The variable `j` equals the length of the longest
-Prefix of `pattern` that is a suffix of `text[0:i+1]`. When `j == m`We have found a complete match
+The key invariant: after processing `text[i]`. The variable `j` equals the length of the longest
+Prefix of `pattern` that is a suffix of `text[0:i+1]`. When `j == m`. We have found a complete match
 Ending at position `i`. The failure function ensures that we never backtrack in the text, each
 Character of the text is examined at most once, giving $O(n)$ time for the search phase plus $O(m)$
-For preprocessing.
+for preprocessing.
 
 ## Rabin-Karp Algorithm
 
 Rabin-Karp uses hashing to find pattern matches. It computes a rolling hash of the text and compares
-It with the hash of the pattern.
+it with the hash of the pattern.
 
 ### Rolling Hash
 
-$$h(s[i..j]) = \left(\sum_{k=i}^{j} s[k] \cdot p^{j-k}\right) \bmod q$$
+$$
+h(s[i..j]) = \left(\sum_{k=i}^{j} s[k] \cdot p^{j-k}\right) \bmod q
+$$
 
 When sliding the window by one position:
 
-$$h(s[i+1..j+1]) = (h(s[i..j]) - s[i] \cdot p^{m-1}) \cdot p + s[j+1] \bmod q$$
+$$
+h(s[i+1..j+1]) = (h(s[i..j]) - s[i] \cdot p^{m-1}) \cdot p + s[j+1] \bmod q
+$$
 
 ```python
 def rabin_karp_search(text, pattern, base=256, mod=10**9 + 7):
@@ -744,7 +756,7 @@ def rabin_karp_double_hash(text, pattern):
 ## Boyer-Moore Algorithm
 
 Boyer-Moore is often the fastest string matching algorithm in practice because it skips sections of
-The text that cannot possibly match.
+the text that cannot possibly match.
 
 ### Bad Character Rule
 
@@ -754,7 +766,7 @@ Character.
 
 ### Good Suffix Rule
 
-When a mismatch occurs after a partial match of length $k$Shift the pattern so that the next
+When a mismatch occurs after a partial match of length $k$ Shift the pattern so that the next
 Occurrence of the suffix (or a prefix of it) aligns with the matched portion of the text.
 
 ```python

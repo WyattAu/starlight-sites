@@ -42,17 +42,6 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 TrueNAS is the leading open-source storage operating system, powering everything from home media servers to enterprise-grade storage arrays. Built on ZFS, the most advanced filesystem available, TrueNAS provides data integrity, snapshotting, replication, and sharing capabilities that rival commercial storage solutions costing many times more.
@@ -99,6 +88,8 @@ TrueNAS is available in two main variants:
 
 ### Which Should You Choose?
 
+<div class="table-wrap">
+
 | Factor | Choose CORE | Choose SCALE |
 | -------- | ------------- | -------------- |
 | Existing CORE deployment | Keep it | Migrate when ready |
@@ -106,6 +97,8 @@ TrueNAS is available in two main variants:
 | Docker/Kubernetes apps | Not supported | Native support |
 | Enterprise features | Mature | Rapidly improving |
 | Community plugins | Large library | Growing library |
+
+</div>
 
 ---
 
@@ -136,6 +129,8 @@ Stripe of Mirrors, mirrors striped together; excellent performance and redundanc
 
 ### Recommended Layouts
 
+<div class="table-wrap">
+
 | Use Case | Recommended Layout | Reasoning |
 | ---------- | ------------------- | ----------- |
 | Home media server | RAIDZ2 | Good balance of capacity and redundancy |
@@ -143,6 +138,8 @@ Stripe of Mirrors, mirrors striped together; excellent performance and redundanc
 | Backup target | RAIDZ2 | Data integrity is paramount |
 | Virtual machine storage | Mirror or RAIDZ1 | IOPS performance matters |
 | Cold archive | RAIDZ3 | Maximum redundancy for irreplaceable data |
+
+</div>
 
 ### ZFS Datasets and Properties
 

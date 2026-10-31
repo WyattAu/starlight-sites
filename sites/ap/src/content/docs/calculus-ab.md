@@ -46,6 +46,8 @@ $$
 
 If $\lim_{x \to a} f(x)$ and $\lim_{x \to a} g(x)$ both exist, then:
 
+<div class="table-wrap">
+
 | Law               | Expression                                                        |
 | ----------------- | ----------------------------------------------------------------- |
 | Sum               | $\lim (f + g) = \lim f + \lim g$                                  |
@@ -54,6 +56,8 @@ If $\lim_{x \to a} f(x)$ and $\lim_{x \to a} g(x)$ both exist, then:
 | Quotient          | $\lim (f / g) = \dfrac{\lim f}{\lim g}$, provided $\lim g \neq 0$ |
 | Power             | $\lim f^n = (\lim f)^n$                                           |
 | Constant multiple | $\lim cf = c \lim f$                                              |
+
+</div>
 
 ### Squeeze Theorem
 
@@ -132,6 +136,8 @@ $$
 
 ### Derivatives of Common Functions
 
+<div class="table-wrap">
+
 | Function $f(x)$ | Derivative $f'(x)$           |
 | --------------- | ---------------------------- |
 | $c$ (constant)  | $0$                          |
@@ -149,6 +155,8 @@ $$
 | $\arcsin x$     | $\dfrac{1}{\sqrt{1 - x^2}}$  |
 | $\arccos x$     | $\dfrac{-1}{\sqrt{1 - x^2}}$ |
 | $\arctan x$     | $\dfrac{1}{1 + x^2}$         |
+
+</div>
 
 ### Implicit Differentiation
 
@@ -447,6 +455,8 @@ $$
 
 ## 9. Summary
 
+<div class="table-wrap">
+
 | Topic                       | Key Ideas                                                                                           |
 | --------------------------- | --------------------------------------------------------------------------------------------------- |
 | Limits and Continuity       | Evaluating limits, limit laws, Squeeze theorem, IVT, L'Hopital's rule, continuity conditions        |
@@ -455,6 +465,8 @@ $$
 | Integration                 | Antiderivatives, Riemann sums, FTC parts 1 and 2, u-substitution, area between curves               |
 | Differential Equations      | Separable equations, slope fields, exponential growth/decay                                         |
 
+</div>
+
 The AP Calculus AB exam tests your ability to apply these concepts in both multiple-choice and
 free-response formats. Focus on understanding why each rule works, the AP exam rewards conceptual
 understanding as much as mechanical computation. Practise past papers under timed conditions and
@@ -462,24 +474,10 @@ review every mistake to build confidence and accuracy.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
-
-
-```mermaid
-flowchart TD
-    A[Calculus Ab] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

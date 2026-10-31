@@ -21,13 +21,13 @@ description: "An urban microclimate refers to the distinctive climatic condition
 
 An urban microclimate refers to the distinctive climatic conditions within and immediately
 Surrounding an urban area, which differ from the climate of the surrounding rural landscape. These
-Differences arise from modifications to the surface energy balance, hydrological cycle, and
-Atmospheric composition caused by urbanisation.
+differences arise from modifications to the surface energy balance, hydrological cycle, and
+atmospheric composition caused by urbanisation.
 
 ### The Urban Heat Island Effect
 
 The urban heat island (UHI) effect is the phenomenon whereby urban areas experience higher air and
-Surface temperatures than surrounding rural areas. The magnitude of the UHI varies with city size,
+surface temperatures than surrounding rural areas. The magnitude of the UHI varies with city size,
 Population density, building materials, vegetation cover, and weather conditions.
 
 **Causes of the UHI:**
@@ -79,23 +79,27 @@ Angeles, Mexico City, Santiago, Tehran).
 
 **Precipitation anomalies.** Urban areas can modify local precipitation patterns. The UHI creates
 Thermal instability, enhancing convective uplift and potentially increasing rainfall downwind of the
-City. Aerosols and particulate matter released by urban activities can act as cloud condensation
+city. Aerosols and particulate matter released by urban activities can act as cloud condensation
 Nuclei, potentially increasing rainfall frequency. Research has shown that cities can receive
 10--30% more rainfall than surrounding rural areas, and that rainfall events may be more intense
 (with higher hourly rainfall rates). However, the overall evidence is mixed, and the effect varies
-With city size, geographic location, and prevailing weather patterns.
+with city size, geographic location, and prevailing weather patterns.
 
 ## Air Quality Management
 
 ### Sources of Urban Air Pollution
 
+<div class="table-wrap">
+
 | Source                           | Key Pollutants                                               | Characteristics                                                                     |
 | -------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
-| **Vehicle emissions**            | $\mathrm{NO_x}$$\mathrm{PM}_{2.5}$$\mathrm{PM}_{10}$CO, VOCs | Dominant source in most cities; concentrated along major roads and at intersections |
-| **Industrial activity**          | $\mathrm{SO_2}$$\mathrm{PM}_{10}$VOCs, heavy metals          | Point sources; often located in industrial zones or port areas                      |
+| **Vehicle emissions**            | $\mathrm{NO_x}$$\mathrm{PM}_{2.5}$$\mathrm{PM}_{10}$ CO, VOCs | Dominant source in most cities; concentrated along major roads and at intersections |
+| **Industrial activity**          | $\mathrm{SO_2}$$\mathrm{PM}_{10}$ VOCs, heavy metals          | Point sources; often located in industrial zones or port areas                      |
 | **Construction and demolition**  | $\mathrm{PM}_{10}$$\mathrm{PM}_{2.5}$                        | Seasonal; concentrated at construction sites                                        |
-| **Domestic heating and cooking** | $\mathrm{PM}_{2.5}$CO, $\mathrm{NO_x}$                       | Significant in cities where solid fuels (coal, biomass) are used; seasonal (winter) |
+| **Domestic heating and cooking** | $\mathrm{PM}_{2.5}$ CO, $\mathrm{NO_x}$                       | Significant in cities where solid fuels (coal, biomass) are used; seasonal (winter) |
 | **Power generation**             | $\mathrm{SO_2}$$\mathrm{NO_x}$$\mathrm{PM}_{10}$             | Point sources; depends on fuel mix                                                  |
+
+</div>
 
 ### Health Impacts
 
@@ -116,21 +120,25 @@ And Cairo.
 
 ### Management Strategies
 
+<div class="table-wrap">
+
 | Strategy                        | Mechanism                                                                   | Example                                                                                                   |
 | ------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | **Emission standards**          | Regulate permissible pollutant levels from vehicles and industry            | Euro 6/VI standards (EU); Bharat Stage VI (India, implemented 2020)                                       |
 | **Low-emission zones**          | Restrict or charge high-polluting vehicles from entering designated areas   | London Ultra Low Emission Zone (ULEZ), introduced 2019; expanded 2023                                     |
 | **Public transport investment** | Reduce private vehicle use by providing efficient alternatives              | Bogota TransMilenio BRT; Shanghai metro (longest in the world, over 800 km)                               |
 | **Congestion charging**         | Charge vehicles for entering congested urban areas, reducing traffic volume | Singapore Electronic Road Pricing (ERP); London Congestion Charge                                         |
-| **Green infrastructure**        | Trees and vegetation absorb pollutants, provide shade, reduce the UHI       | Milan"s 3 Million Trees initiative; Melbourne's urban forest strategy                                     |
+| **Green infrastructure**        | Trees and vegetation absorb pollutants, provide shade, reduce the UHI       | Milan's 3 Million Trees initiative; Melbourne's urban forest strategy                                     |
 | **Clean energy transitions**    | Shift from fossil fuel vehicles and heating to electric                     | Oslo's target of zero-emission city centre by 2030; Beijing's conversion from coal to natural gas heating |
+
+</div>
 
 ## Waste Management
 
 ### The Waste Hierarchy
 
 The waste hierarchy establishes a preference order for waste management strategies, from most to
-Least environmentally desirable:
+least environmentally desirable:
 
 1. **Prevention:** eliminating waste generation at source through product design, regulation
    (banning single-use plastics), and behaviour change.
@@ -157,8 +165,8 @@ approximately 32% of its municipal waste, with the remainder landfilled or incin
 
 **Developing countries.** Waste collection rates are often low (approximately 40--60% in many
 Sub-Saharan African cities), and collected waste is predominantly landfilled in uncontrolled dumps
-Or open-burning sites. The informal waste sector (waste pickers, scavengers) plays a critical role
-In recycling: approximately 15 million waste pickers worldwide recover materials from waste streams,
+or open-burning sites. The informal waste sector (waste pickers, scavengers) plays a critical role
+in recycling: approximately 15 million waste pickers worldwide recover materials from waste streams,
 Often working under hazardous conditions. In Pune, India, the SWaCH cooperative of waste pickers
 Provides door-to-door waste collection for approximately 300 000 households, achieving high
 Recycling rates while providing livelihoods.
@@ -182,7 +190,7 @@ Development; consumer preference for detached housing with gardens.
 
 **Environmental costs of sprawl:** loss of agricultural land and natural habitats (the EU loses
 Approximately 1000 km$^2$ of agricultural land per year to urbanisation); increased car dependence
-And associated carbon emissions; increased energy consumption for heating and cooling of large,
+and associated carbon emissions; increased energy consumption for heating and cooling of large,
 Detached homes; fragmentation of ecosystems; increased stormwater runoff and reduced groundwater
 Recharge due to increased impermeable surface.
 
@@ -218,6 +226,8 @@ the urban fringe.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Criterion                | Brownfield                                                                | Greenfield                                                                 |
 | ------------------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | **Availability**         | Limited; depends on industrial history                                    | Abundant at urban periphery                                                |
@@ -227,10 +237,12 @@ the urban fringe.
 | **Developer preference** | Less preferred (uncertain contamination costs)                            | More preferred (lower risk, easier to build)                               |
 | **Social impact**        | Can catalyse urban regeneration in deprived areas                         | May attract affluent residents, bypassing deprived areas                   |
 
+</div>
+
 **Policy context.** Many countries have adopted policies to prioritise brownfield over greenfield
 Development. In England, the National Planning Policy Framework (NPPF) sets a target for at least
 60% of new housing to be built on brownfield land. However, the supply of suitable brownfield sites
-Is limited and concentrated in regions with declining industrial bases (northern England, Midlands),
+is limited and concentrated in regions with declining industrial bases (northern England, Midlands),
 While housing demand is strongest in regions with limited brownfield supply (southeast England).
 
 <details>
@@ -238,12 +250,12 @@ While housing demand is strongest in regions with limited brownfield supply (sou
 
 Urban environmental quality varies enormously within cities. Air pollution, temperature, noise,
 Access to green space, and exposure to environmental hazards are all spatially uneven, and these
-Disparities frequently correlate with socioeconomic status. Low-income and minority communities are
-Disproportionately exposed to pollution (situated near industrial areas, highways, and waste
+disparities frequently correlate with socioeconomic status. Low-income and minority communities are
+disproportionately exposed to pollution (situated near industrial areas, highways, and waste
 Facilities) and have less access to environmental amenities (parks, clean water, adequate housing).
 This environmental injustice is a critical dimension of urban environmental quality that should be
-Addressed in any evaluation. Avoid generalising about "urban environmental quality" as if it were
-Uniform; always consider spatial variation and its social distribution.
+addressed in any evaluation. Avoid generalising about "urban environmental quality" as if it were
+uniform; always consider spatial variation and its social distribution.
 
 </details>
 
@@ -268,24 +280,7 @@ Cities are thermal machines. Concrete and asphalt absorb solar radiation like a 
 
 4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-
-```mermaid
-flowchart TD
-    A[Urban Environmental Quality] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

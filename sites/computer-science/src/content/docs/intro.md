@@ -14,6 +14,13 @@ description: "Study notes for Computer science with worked examples, practice pr
 }
 </script>
 
+:::note[New to the subject, or from a different exam board?]
+Read **[Before You Begin: Abstractions CS Assumes You Already Have](/before-you-begin/)** first. It rebuilds what the tracks assume -- functions as reusable units, boolean logic, and how a loop and a variable actually execute --
+from first principles, defines every term before it is used, and ends with a
+self-test so confident readers can skip by assessment rather than by trust.
+:::
+
+
 Welcome to the computer-science notes.
 
 ## Intuition
@@ -126,6 +133,8 @@ across days (spaced practice) is more effective than cramming.
 
 ## Key Terminology
 
+<div class="table-wrap">
+
 | Term | Definition |
 | ------ | ------------ |
 | Algorithm | A finite, well-defined sequence of steps that solves a problem. |
@@ -134,6 +143,8 @@ across days (spaced practice) is more effective than cramming.
 | Decidability | Whether a Turing machine halts on all inputs for a given problem. |
 | Consistency model | A contract specifying what values a read may return in a distributed store. |
 | Invariant | A property that holds throughout execution and is maintained by each operation. |
+
+</div>
 
 ## See Also
 

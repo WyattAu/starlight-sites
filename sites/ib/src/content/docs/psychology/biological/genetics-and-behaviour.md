@@ -18,10 +18,10 @@ description: "The question of how much behaviour is determined by genes versus e
 ## Introduction
 
 The question of how much behaviour is determined by genes versus environment is one of the oldest
-And most contentious in psychology. Behaviour genetics is the scientific study of the relative
+and most contentious in psychology. Behaviour genetics is the scientific study of the relative
 Contributions of genetic and environmental factors to individual differences in behaviour. Modern
 Behaviour genetics has moved beyond simple nature-versus-nurture debates to investigate how genes
-And environment interact to shape behaviour throughout the lifespan.
+and environment interact to shape behaviour throughout the lifespan.
 
 ## Research Methods in Behaviour Genetics
 
@@ -31,15 +31,17 @@ Twin studies compare the similarity of monozygotic (MZ, identical) twins, who sh
 100% of their genes, with dizygotic (DZ, fraternal) twins, who share approximately 50% of their
 Segregating genes on average. The logic is straightforward: if MZ twins are more similar than DZ
 Twins on a given trait, this greater similarity can be attributed to genetic factors, because both
-Types of twins share the same family environment (assuming equal environments assumption holds).
+types of twins share the same family environment (assuming equal environments assumption holds).
 
 **Heritability estimates** are calculated by doubling the difference between the MZ and DZ
 Correlations:
 
-$$h^2 = 2(r_{MZ} - r_{DZ})$$
+$$
+h^2 = 2(r_{MZ} - r_{DZ})
+$$
 
 Where $h^2$ is the heritability coefficient, $r_{MZ}$ is the correlation for MZ twins, and $r_{DZ}$
-Is the correlation for DZ twins.
+is the correlation for DZ twins.
 
 **Strengths of twin studies:**
 
@@ -61,9 +63,9 @@ Is the correlation for DZ twins.
 ### Adoption Studies
 
 Adoption studies compare adopted children with their biological parents (with whom they share genes
-But not environment) and with their adoptive parents (with whom they share environment but not
-Genes). This design allows researchers to separate genetic and environmental influences more cleanly
-Than twin studies.
+but not environment) and with their adoptive parents (with whom they share environment but not
+genes). This design allows researchers to separate genetic and environmental influences more cleanly
+than twin studies.
 
 **Strengths of adoption studies:**
 
@@ -89,8 +91,8 @@ Than twin studies.
 ### Heritability
 
 Heritability ($h^2$) is a statistical measure of the proportion of phenotypic variance in a
-Population that can be attributed to genetic variance. It ranges from 0 to 1, where 0 indicates no
-Genetic contribution and 1 indicates that all variance is genetic.
+population that can be attributed to genetic variance. It ranges from 0 to 1, where 0 indicates no
+genetic contribution and 1 indicates that all variance is genetic.
 
 **Critical points about heritability that are frequently misunderstood:**
 
@@ -112,6 +114,8 @@ Genetic contribution and 1 indicates that all variance is genetic.
 
 ### Estimates of Heritability for Psychological Traits
 
+<div class="table-wrap">
+
 | Trait                         | Approximate Heritability | Notes                                                         |
 | ----------------------------- | ------------------------ | ------------------------------------------------------------- |
 | General intelligence (g)      | 0.50--0.80               | Increases with age, suggesting genetic amplification          |
@@ -121,19 +125,21 @@ Genetic contribution and 1 indicates that all variance is genetic.
 | Autism spectrum disorder      | 0.70--0.90               | High heritability; complex polygenic architecture             |
 | Alcohol dependence            | 0.50--0.60               | Moderate heritability; strong environmental component         |
 
+</div>
+
 ## Gene-Environment Interaction
 
 Gene-environment interaction (GxE) occurs when the effect of genetic predispositions on behaviour
 Depends on the environment, or conversely, when the effect of environmental factors depends on
-Genetic makeup. GxE means that genetic and environmental factors do not add together; they Combine
+genetic makeup. GxE means that genetic and environmental factors do not add together; they Combine
 in non-additive ways.
 
 ### Caspi et al. (2003): 5-HTTLPR and Stress
 
 One of the most influential studies of gene-environment interaction was conducted by Caspi, Sugden,
 Moffitt, and colleagues. They investigated whether a functional polymorphism in the promoter region
-Of the serotonin transporter gene (5-HTTLPR) moderates the effect of stressful life events on
-Depression.
+of the serotonin transporter gene (5-HTTLPR) moderates the effect of stressful life events on
+depression.
 
 **Methodology:**
 
@@ -191,7 +197,7 @@ Experiences can produce lasting changes in gene expression and behaviour.
 ### Meaney's Rat Studies
 
 Michael Meaney and colleagues conducted a seminal series of studies demonstrating that maternal care
-In rats produces epigenetic changes in offspring that persist into adulthood and affect stress
+in rats produces epigenetic changes in offspring that persist into adulthood and affect stress
 Responses.
 
 **Key findings:**
@@ -247,9 +253,9 @@ Responses.
 ## Bouchard et al. (1990): Minnesota Twin Study
 
 Thomas Bouchard and colleagues at the University of Minnesota conducted the most comprehensive study
-Of reared-apart twins, recruiting 100 pairs of MZ twins who had been separated early in life and
-Raised in different environments. The study included extensive psychological, physiological, and
-Medical assessments.
+of reared-apart twins, recruiting 100 pairs of MZ twins who had been separated early in life and
+raised in different environments. The study included extensive psychological, physiological, and
+medical assessments.
 
 **Key findings:**
 
@@ -298,27 +304,9 @@ For an overview of biological topics, see
 6. Confusing DNA replication (S phase) with transcription or translation. Be clear about which
    process is being described.
 
-
-```mermaid
-flowchart TD
-    A[Genetics And Behaviour] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

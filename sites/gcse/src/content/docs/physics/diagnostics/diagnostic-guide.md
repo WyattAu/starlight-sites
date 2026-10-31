@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "GCSE Physics -- Diagnostic Guide"
 description: "Study notes for GCSE Physics -- Diagnostic Guide with worked examples and practice questions."
@@ -21,13 +20,17 @@ tableOfContents: false
 
 ## Coverage Map
 
+<div class="table-wrap">
+
 | Diagnostic File       | Topics Covered                                                                                  | Source File                         |
 | --------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------- |
 | `diag-energy.md`      | Energy stores, transfers, conservation, efficiency, specific heat capacity, work and power      | `energy.md`                         |
-| `diag-electricity.md` | Current, voltage, resistance, Ohm"s law, series/parallel circuits, power, domestic electricity  | `electricity.md`                    |
+| `diag-electricity.md` | Current, voltage, resistance, Ohm's law, series/parallel circuits, power, domestic electricity  | `electricity.md`                    |
 | `diag-forces.md`      | Newton's laws, weight/mass, Hooke's law, momentum, pressure, circular motion, terminal velocity | `forces.md`                         |
 | `diag-waves.md`       | Wave properties, EM spectrum, reflection, refraction, sound waves, interference                 | `waves.md`                          |
 | `diag-magnetism.md`   | Magnetic fields, electromagnets, motor effect, electromagnetic induction, transformers          | `magnetism-and-electromagnetism.md` |
+
+</div>
 
 ## Grading Rubric
 
@@ -82,6 +85,8 @@ Waves (wave properties, speed, frequency)
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic         | Recommended Time | Notes                                        |
 | ------------------ | ---------------- | -------------------------------------------- |
 | `diag-energy`      | 35 minutes       | Includes specific heat capacity calculations |
@@ -89,6 +94,8 @@ Waves (wave properties, speed, frequency)
 | `diag-electricity` | 40 minutes       | Circuit analysis requires careful working    |
 | `diag-waves`       | 30 minutes       | Mix of recall and calculation                |
 | `diag-magnetism`   | 35 minutes       | Induction problems can be complex            |
+
+</div>
 
 **Total recommended time:** approximately 3 hours (spread across 2 sessions).
 
@@ -114,14 +121,7 @@ Waves (wave properties, speed, frequency)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ### Example: Energy Conservation on a Roller Coaster
 
@@ -130,9 +130,13 @@ A roller coaster car of mass 500 kg starts from rest at the top of a hill 20 m h
 **Solution:**
 
 Using conservation of energy:
-$$mgh = \frac{1}{2}mv^2$$
+$$
+mgh = \frac{1}{2}mv^2
+$$
 
-$$v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 20} = \sqrt{392} = 19.8 \text{ m/s}$$
+$$
+v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 20} = \sqrt{392} = 19.8 \text{ m/s}
+$$
 
 **Exam tip:** Always state the principle used (conservation of energy) and show the formula before substituting values.
 
@@ -149,7 +153,9 @@ Current: $I = \frac{V}{R_{total}} = \frac{12}{12} = 1 \text{ A}$
 In a series circuit, the current is the same through all components.
 
 Voltage across 6 $\Omega$ resistor:
-$$V = IR = 1 \times 6 = 6 \text{ V}$$
+$$
+V = IR = 1 \times 6 = 6 \text{ V}
+$$
 
 **Common mistake:** Assuming the voltage is the same across all components in series. In series, current is constant; in parallel, voltage is constant.
 
@@ -161,7 +167,9 @@ A sound wave has a wavelength of 0.85 m and travels through air at 340 m/s. Find
 
 Using the wave equation: $v = f\lambda$
 
-$$f = \frac{v}{\lambda} = \frac{340}{0.85} = 400 \text{ Hz}$$
+$$
+f = \frac{v}{\lambda} = \frac{340}{0.85} = 400 \text{ Hz}
+$$
 
 Period: $T = \frac{1}{f} = \frac{1}{400} = 0.0025 \text{ s} = 2.5 \text{ ms}$
 
@@ -215,8 +223,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 

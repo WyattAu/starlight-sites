@@ -24,7 +24,7 @@ categories:
 Alkanes are saturated hydrocarbons with the general formula $\mathrm{C}_n\mathrm{H}_{2n+2}$.
 "Saturated" means every carbon atom is bonded to the maximum possible number of hydrogen atoms --
 There are no C=C or $\mathrm{C}\equiv\mathrm{C}$ bonds. All carbon-carbon and carbon-hydrogen bonds
-Are $\sigma$ bonds, formed by head-on overlap of hybridised orbitals ($sp^3$ for carbon).
+are $\sigma$ bonds, formed by head-on overlap of hybridised orbitals ($sp^3$ for carbon).
 
 ## Structure and Bonding
 
@@ -33,7 +33,7 @@ $109.5^\circ$). The C--C bond length is approximately $154\,\mathrm{pm}$ And the
 approximately $109\,\mathrm{pm}$.
 
 Free rotation about C--C $\sigma$ bonds produces an infinite set of molecular conformations. The
-Three staggered conformations of ethane (gauche and anti) are energy minima, while the eclipsed
+three staggered conformations of ethane (gauche and anti) are energy minima, while the eclipsed
 Conformations are energy maxima. The rotational energy barrier in ethane is approximately
 $12\,\mathrm{kJ/mol}$.
 
@@ -43,13 +43,13 @@ $12\,\mathrm{kJ/mol}$.
 
 The state depends on chain length. Methane to butane ($\mathrm{C}_1$--$\mathrm{C}_4$) are gases,
 Pentane to hexadecane ($\mathrm{C}_5$--$\mathrm{C}_{16}$) are liquids, and heptadecane and above are
-Waxy solids.
+waxy solids.
 
 ### Boiling Points
 
 Boiling point increases with chain length due to increasing surface area and therefore stronger
 London (dispersion) forces. The relationship is approximately linear for the first ~20 members, with
-Each additional $-\mathrm{CH}_2-$ group contributing roughly 20--25 K to the boiling point.
+each additional $-\mathrm{CH}_2-$ group contributing roughly 20--25 K to the boiling point.
 
 Branched alkanes have lower boiling points than their straight-chain isomers because branching
 Reduces the surface area for intermolecular contact. For example, 2,2-dimethylpropane (b.p.
@@ -59,7 +59,7 @@ $28^\circ\mathrm{C}$).
 ### Solubility
 
 Alkanes are non-polar and are insoluble in water. They dissolve in non-polar organic solvents (the
-General principle of "like dissolves like"). Their density is less than that of water.
+general principle of "like dissolves like"). Their density is less than that of water.
 
 ## Free Radical Substitution
 
@@ -128,16 +128,16 @@ Encounters probable.
 ### Energetics of the Chain Reaction
 
 The overall reaction is exothermic: $\Delta H \approx -104\,\mathrm{kJ/mol}$. However, the
-Initiation step requires significant energy input ($242\,\mathrm{kJ/mol}$). The propagation steps
+initiation step requires significant energy input ($242\,\mathrm{kJ/mol}$). The propagation steps
 Provide the driving force: the first propagation step is slightly endothermic, and the second is
-Strongly exothermic.
+strongly exothermic.
 
 ### Multiple Substitution
 
 The chloromethane product can itself undergo further substitution, producing dichloromethane
 ($\mathrm{CH}_2\mathrm{Cl}_2$), trichloromethane/chloroform ($\mathrm{CHCl}_3$), and
-Tetrachloromethane/carbon tetrachloride ($\mathrm{CCl}_4$). The product mixture is statistical, not
-Selective, which limits the synthetic utility of radical chlorination.
+tetrachloromethane/carbon tetrachloride ($\mathrm{CCl}_4$). The product mixture is statistical, not
+selective, which limits the synthetic utility of radical chlorination.
 
 The relative rates of substitution at different hydrogen positions follow the order:
 
@@ -164,7 +164,7 @@ The product ratio is 4:3 in favour of 2-chloropropane.
 
 Bromine radicals are less reactive but more selective than chlorine radicals. The H--Br bond formed
 ($366\,\mathrm{kJ/mol}$) is weaker than the H--Cl bond ($431\,\mathrm{kJ/mol}$), making the first
-Propagation step more endothermic. By the Hammond postulate, the transition state for hydrogen
+propagation step more endothermic. By the Hammond postulate, the transition state for hydrogen
 Abstraction by $\mathrm{Br}^\bullet$ resembles the products (radical character is more developed),
 So the stability of the radical product has a larger effect on the activation energy.
 
@@ -210,12 +210,12 @@ $$
 $$
 
 This uses mean bond enthalpies and introduces systematic error because the actual bond enthalpies in
-The specific molecules differ from the mean values. For precise work, experimental enthalpies (from
-Calorimetry) must be used.
+the specific molecules differ from the mean values. For precise work, experimental enthalpies (from
+calorimetry) must be used.
 
 **Worked Example.** Estimate $\Delta H_c$ for methane using mean bond enthalpies: C--H =
-$413\,\mathrm{kJ/mol}$O=O = $498\,\mathrm{kJ/mol}$C=O (in $\mathrm{CO}_2$) =
-$805\,\mathrm{kJ/mol}$O--H = $464\,\mathrm{kJ/mol}$.
+$413\,\mathrm{kJ/mol}$ O=O = $498\,\mathrm{kJ/mol}$ C=O (in $\mathrm{CO}_2$) =
+$805\,\mathrm{kJ/mol}$ O--H = $464\,\mathrm{kJ/mol}$.
 
 Bonds broken: $4 \times 413 + 2 \times 498 = 1652 + 996 = 2648\,\mathrm{kJ/mol}$.
 
@@ -235,9 +235,9 @@ Environment. Note: the bond enthalpy calculation above is per mole of methane as
 ### Fossil Fuels and the Carbon Cycle
 
 Alkanes are the primary components of fossil fuels: natural gas (mostly methane), petroleum (mix of
-Liquid alkanes $\mathrm{C}_5$--$\mathrm{C}_{12}$), and coal (complex hydrocarbon structures).
+liquid alkanes $\mathrm{C}_5$--$\mathrm{C}_{12}$), and coal (complex hydrocarbon structures).
 
-Combustion of fossil fuels releases $\mathrm{CO}_2$Which contributes to the enhanced greenhouse
+Combustion of fossil fuels releases $\mathrm{CO}_2$ Which contributes to the enhanced greenhouse
 Effect. The atmospheric concentration of $\mathrm{CO}_2$ has increased from approximately
 $280\,\mathrm{ppm}$ in pre-industrial times to over $420\,\mathrm{ppm}$ as of 2025.
 
@@ -246,7 +246,7 @@ $280\,\mathrm{ppm}$ in pre-industrial times to over $420\,\mathrm{ppm}$ as of 20
 Methane is a far more potent greenhouse gas than $\mathrm{CO}_2$ on a per-molecule basis. Its global
 Warming potential (GWP) over 100 years is approximately 28--36 times that of $\mathrm{CO}_2$. Major
 Anthropogenic sources include natural gas leaks, livestock (enteric fermentation), rice paddies, and
-Landfill decomposition.
+landfill decomposition.
 
 ### Photochemical Smog
 
@@ -292,7 +292,7 @@ Catalytic cracking also produces higher-quality gasoline (higher octane rating d
    not undergo homolytic fission at room temperature. The reaction does not proceed in the dark.
 
 5. **Incorrect stoichiometry in combustion equations.** Always balance the equation fully. For an
-   alkane $\mathrm{C}_n\mathrm{H}_{2n+2}$The stoichiometric oxygen requirement is $\frac{3n+1}{2}$
+   alkane $\mathrm{C}_n\mathrm{H}_{2n+2}$ The stoichiometric oxygen requirement is $\frac{3n+1}{2}$
    moles per mole of alkane.
 
 6. **Confusing thermal and catalytic cracking.** Thermal cracking uses higher temperatures without a
@@ -307,11 +307,15 @@ Catalytic cracking also produces higher-quality gasoline (higher octane rating d
 
 ### Reactivity of Different C--H Bonds
 
+<div class="table-wrap">
+
 | C--H bond type        | Bond enthalpy ($\mathrm{kJ/mol}$) | Relative reactivity (Cl) | Relative reactivity (Br) |
 | --------------------- | --------------------------------- | ------------------------ | ------------------------ |
 | Primary ($1^\circ$)   | 410                               | 1                        | 1                        |
 | Secondary ($2^\circ$) | 395                               | 3.8                      | 82                       |
 | Tertiary ($3^\circ$)  | 380                               | 5.0                      | 1600                     |
+
+</div>
 
 Chlorine is relatively unselective (only a 5:1 preference for tertiary over primary) because the
 first propagation step is only slightly endothermic, so the transition state is early
@@ -343,6 +347,8 @@ is nearly 4 times more reactive.
 
 ### Fraction Composition
 
+<div class="table-wrap">
+
 | Fraction            | Carbon range                         | Boiling range ($^\circ\mathrm{C}$) | Uses                      |
 | ------------------- | ------------------------------------ | ---------------------------------- | ------------------------- |
 | Refinery gas        | $\mathrm{C}_1$--$\mathrm{C}_4$       | Below 25                           | Bottled gas, fuel         |
@@ -352,6 +358,8 @@ is nearly 4 times more reactive.
 | Diesel oil          | $\mathrm{C}_{14}$--$\mathrm{C}_{20}$ | $220$--$350$                       | Diesel engines            |
 | Fuel oil            | $\mathrm{C}_{18}$--$\mathrm{C}_{30}$ | $350$--$500$                       | Ship fuel, power stations |
 | Bitumen             | $\mathrm{C}_{30}+$                   | Above 500                          | Road surfacing, roofing   |
+
+</div>
 
 ### Why Demand Exceeds Supply
 
@@ -377,12 +385,16 @@ increased from approximately $280\,\mathrm{ppm}$ (pre-industrial) to over $420\,
 
 ### Global Warming Potential (GWP)
 
+<div class="table-wrap">
+
 | Greenhouse gas           | GWP (100-year) | Atmospheric lifetime | Primary source                 |
 | ------------------------ | -------------- | -------------------- | ------------------------------ |
 | $\mathrm{CO}_2$          | 1              | 100--1000 years      | Fossil fuel combustion         |
 | $\mathrm{CH}_4$          | 28             | 12 years             | Natural gas leaks, agriculture |
 | $\mathrm{N}_2\mathrm{O}$ | 265            | 114 years            | Fertiliser use, industrial     |
 | $\mathrm{CF}_4$ (CFC-14) | 6,630          | 50,000 years         | Electronics industry           |
+
+</div>
 
 ### Carbon Capture and Storage (CCS)
 
@@ -397,8 +409,8 @@ main approaches.
 <summary>Problem 1</summary>
 
 Write the mechanism for the radical bromination of ethane to give bromoethane. Calculate $\Delta H$
-For each propagation step given: C--H bond enthalpy in ethane $= 420\,\mathrm{kJ/mol}$H--Br bond
-Enthalpy $= 366\,\mathrm{kJ/mol}$C--Br bond enthalpy in bromoethane $= 285\,\mathrm{kJ/mol}$ Br--Br
+for each propagation step given: C--H bond enthalpy in ethane $= 420\,\mathrm{kJ/mol}$ H--Br bond
+Enthalpy $= 366\,\mathrm{kJ/mol}$ C--Br bond enthalpy in bromoethane $= 285\,\mathrm{kJ/mol}$ Br--Br
 bond enthalpy $= 193\,\mathrm{kJ/mol}$.
 
 **Solution:**
@@ -423,7 +435,7 @@ $$
 Overall: $\Delta H = +54 + (-92) = -38\,\mathrm{kJ/mol}$ (exothermic).
 
 The endothermic first propagation step ($+54\,\mathrm{kJ/mol}$) is much less favourable than for
-Chlorination ($+4\,\mathrm{kJ/mol}$), which is why bromination is slower but more selective.
+chlorination ($+4\,\mathrm{kJ/mol}$), which is why bromination is slower but more selective.
 
 </details>
 
@@ -444,11 +456,11 @@ $$
 $$
 
 In practice, the tertiary product predominates even more than this ratio predicts because the
-Statistical calculation assumes all primary positions are equivalent, but in 2-methylpropane there
-Are two different primary environments ($-\mathrm{CH}_3$ on C-1 vs $-\mathrm{CH}_3$ on C-3). The
-Tertiary radical $(\mathrm{CH}_3)_3\mathrm{C}^\bullet$ is stabilised by hyperconjugation from the
-Nine neighbouring C--H bonds and the inductive effect of three methyl groups, making it
-Significantly lower in energy than the primary radical
+statistical calculation assumes all primary positions are equivalent, but in 2-methylpropane there
+are two different primary environments ($-\mathrm{CH}_3$ on C-1 vs $-\mathrm{CH}_3$ on C-3). The
+tertiary radical $(\mathrm{CH}_3)_3\mathrm{C}^\bullet$ is stabilised by hyperconjugation from the
+nine neighbouring C--H bonds and the inductive effect of three methyl groups, making it
+significantly lower in energy than the primary radical
 $\mathrm{CH}_3\mathrm{CH}^\bullet(\mathrm{CH}_3)\mathrm{CH}_3$.
 
 </details>
@@ -536,6 +548,8 @@ temperature, with the anti conformation being more abundant.
 Crude oil is a mixture of hydrocarbons that is separated by fractional distillation based on boiling
 point:
 
+<div class="table-wrap">
+
 | Fraction          | Carbon range                         | Boiling range ($^\circ\mathrm{C}$) | Uses                      |
 | ----------------- | ------------------------------------ | ---------------------------------- | ------------------------- |
 | Refinery gas      | $\mathrm{C}_1$--$\mathrm{C}_4$       | Below 40                           | Fuel gas, LPG             |
@@ -545,6 +559,8 @@ point:
 | Diesel            | $\mathrm{C}_{14}$--$\mathrm{C}_{20}$ | 250--340                           | Diesel engines            |
 | Fuel oil          | $\mathrm{C}_{20}$--$\mathrm{C}_{40}$ | 340--500                           | Ship fuel, power stations |
 | Bitumen           | $>\mathrm{C}_{50}$                   | Above 500                          | Roads, roofing            |
+
+</div>
 
 ### Cracking
 
@@ -654,7 +670,7 @@ $$
 N(\mathrm{CO}_2) = \frac{30.8}{44.0} = 0.700\,\mathrm{mol}
 $$
 
-If the alkane has formula $\mathrm{C}_n\mathrm{H}_{2n+2}$Combustion produces $n$ moles of
+If the alkane has formula $\mathrm{C}_n\mathrm{H}_{2n+2}$ Combustion produces $n$ moles of
 $\mathrm{CO}_2$:
 
 $$
@@ -686,11 +702,17 @@ discrepancy is due to rounding).
 Incomplete combustion occurs when oxygen supply is limited, producing carbon monoxide and/or carbon
 (soot) in addition to (or instead of) carbon dioxide.
 
-$$\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(partial)}$$
+$$
+\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(partial)}
+$$
 
-$$\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{n+1}{2}\mathrm{O}_2 \to n\mathrm{C} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(very limited)}$$
+$$
+\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{n+1}{2}\mathrm{O}_2 \to n\mathrm{C} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(very limited)}
+$$
 
 **Environmental impact of combustion products:**
+
+<div class="table-wrap">
 
 | Product                          | Environmental Effect                                                                  |
 | -------------------------------- | ------------------------------------------------------------------------------------- |
@@ -700,6 +722,8 @@ $$\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{n+1}{2}\mathrm{O}_2 \to n\mathrm{C} + (n
 | $\mathrm{NO}_x$                  | Acid rain, photochemical smog (formed from $\mathrm{N}_2$ in air at high temperature) |
 | $\mathrm{SO}_2$                  | Acid rain (from sulphur impurities in fuel)                                           |
 
+</div>
+
 ### Free Radical Substitution: Advanced Mechanism
 
 The mechanism proceeds through three stages. Using ethane and chlorine as an example:
@@ -707,18 +731,26 @@ The mechanism proceeds through three stages. Using ethane and chlorine as an exa
 **Stage 1 -- Initiation:** $$\mathrm{Cl}_2 \xrightarrow{h\nu} 2\mathrm{Cl}^\bullet$$
 
 The Cl--Cl bond ($243\,\mathrm{kJ/mol}$) is homolytically cleaved by UV light. The bond dissociation
-energy must be supplied by a photon with energy $E \geq 243\,\mathrm{kJ/mol}$Corresponding to
+energy must be supplied by a photon with energy $E \geq 243\,\mathrm{kJ/mol}$ Corresponding to
 $\lambda \leq 493\,\mathrm{nm}$ (visible blue-green light).
 
 **Stage 2 -- Propagation:**
-$$\mathrm{Cl}^\bullet + \mathrm{CH}_3\mathrm{CH}_3 \to \mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{HCl}$$
-$$\mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl} + \mathrm{Cl}^\bullet$$
+$$
+\mathrm{Cl}^\bullet + \mathrm{CH}_3\mathrm{CH}_3 \to \mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{HCl}
+$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl} + \mathrm{Cl}^\bullet
+$$
 
 The chain carrier ($\mathrm{Cl}^\bullet$) is regenerated, allowing the chain to continue.
 
 **Stage 3 -- Termination:** $$2\mathrm{Cl}^\bullet \to \mathrm{Cl}_2$$
-$$2\mathrm{CH}_3\mathrm{CH}_2^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \quad \text{(butane)}$$
-$$\mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl}$$
+$$
+2\mathrm{CH}_3\mathrm{CH}_2^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \quad \text{(butane)}
+$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl}
+$$
 
 Termination produces a mixture of products, which is why free radical substitution is not a useful
 synthetic method for preparing pure haloalkanes.
@@ -727,7 +759,11 @@ synthetic method for preparing pure haloalkanes.
 
 The reactivity of halogens in free radical substitution with alkanes follows the trend:
 
-$$\mathrm{F}_2 \gg \mathrm{Cl}_2 > \mathrm{Br}_2 \gg \mathrm{I}_2$$
+$$
+\mathrm{F}_2 \gg \mathrm{Cl}_2 > \mathrm{Br}_2 \gg \mathrm{I}_2
+$$
+
+<div class="table-wrap">
 
 | Halogen         | Bond dissociation energy (kJ/mol) | Reactivity                           | Selectivity                      |
 | --------------- | --------------------------------- | ------------------------------------ | -------------------------------- |
@@ -736,11 +772,15 @@ $$\mathrm{F}_2 \gg \mathrm{Cl}_2 > \mathrm{Br}_2 \gg \mathrm{I}_2$$
 | $\mathrm{Br}_2$ | 193                               | Low (requires heat or UV)            | High (1600:1 primary:secondary)  |
 | $\mathrm{I}_2$  | 151                               | Negligible (reaction is endothermic) | --                               |
 
+</div>
+
 Fluorine reacts too violently to be useful. Iodine does not react because the H-abstraction step is
-endothermic (the H--I bond formed, $297\,\mathrm{kJ/mol}$Is weaker than the C--H bond broken,
+endothermic (the H--I bond formed, $297\,\mathrm{kJ/mol}$ Is weaker than the C--H bond broken,
 $\approx 410\,\mathrm{kJ/mol}$ for primary C--H).
 
 ### Bond Dissociation Energies and Radical Stability
+
+<div class="table-wrap">
 
 | C--H Bond                                         | Bond dissociation energy (kJ/mol) | Radical formed                                               |
 | ------------------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
@@ -752,6 +792,8 @@ $\approx 410\,\mathrm{kJ/mol}$ for primary C--H).
 | $\mathrm{Ph}$--H (benzylic C--H)                  | 473 (Ph--H)                       | $\mathrm{Ph}^\bullet$                                        |
 | $\mathrm{PhCH}_2$--H (benzylic)                   | 375                               | $\mathrm{PhCH}_2^\bullet$ (very stable)                      |
 
+</div>
+
 Radical stability: **benzylic $\approx$ tertiary $>$ secondary $>$ primary $>$ methyl $>$ vinylic**
 
 Weaker bonds break more , producing more stable radicals. The stability of tertiary radicals arises
@@ -760,6 +802,8 @@ half-filled $p$ orbital) and inductive effects (electron-donating alkyl groups s
 electron-deficient radical centre).
 
 ### Isomer Counting for Alkanes
+
+<div class="table-wrap">
 
 | Carbon atoms | Number of structural isomers                     |
 | ------------ | ------------------------------------------------ |
@@ -774,18 +818,26 @@ electron-deficient radical centre).
 | 9            | 35                                               |
 | 10           | 75                                               |
 
+</div>
+
 ### Environmental Chemistry: Catalytic Converters
 
 Catalytic converters reduce the emissions from internal combustion engines:
 
 - **Reduction catalyst (platinum, palladium):** Converts $\mathrm{NO}_x$ to $\mathrm{N}_2$ and
   $\mathrm{O}_2$: $$2\mathrm{NO} \to \mathrm{N}_2 + \mathrm{O}_2$$
-  $$2\mathrm{NO}_2 \to \mathrm{N}_2 + 2\mathrm{O}_2$$
+  $$
+  2\mathrm{NO}_2 \to \mathrm{N}_2 + 2\mathrm{O}_2
+  $$
 
 - **Oxidation catalyst (platinum, rhodium):** Converts $\mathrm{CO}$ to $\mathrm{CO}_2$ and unburnt
   hydrocarbons to $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$:
-  $$2\mathrm{CO} + \mathrm{O}_2 \to 2\mathrm{CO}_2$$
-  $$\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}$$
+  $$
+  2\mathrm{CO} + \mathrm{O}_2 \to 2\mathrm{CO}_2
+  $$
+  $$
+  \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}
+  $$
 
 **Limitations:**
 
@@ -797,6 +849,8 @@ Catalytic converters reduce the emissions from internal combustion engines:
 
 ### Cracking: Thermal vs Catalytic
 
+<div class="table-wrap">
+
 | Feature             | Thermal cracking                                 | Catalytic cracking                                    |
 | ------------------- | ------------------------------------------------ | ----------------------------------------------------- |
 | Temperature         | $700$--$900^\circ\mathrm{C}$                     | $450$--$500^\circ\mathrm{C}$                          |
@@ -806,10 +860,12 @@ Catalytic converters reduce the emissions from internal combustion engines:
 | Carbon chain length | Shorter chains                                   | Shorter chains                                        |
 | Process             | Free radical mechanism                           | Carbocation (ionic) mechanism                         |
 
+</div>
+
 ### Common Pitfalls
 
-1. **Writing balanced combustion equations:** For $\mathrm{C}_n\mathrm{H}_{2n+2}$The coefficient of
-   $\mathrm{O}_2$ is $\frac{3n+1}{2}$Not $n + \frac{n+1}{2}$ (these are the same, but students often
+1. **Writing balanced combustion equations:** For $\mathrm{C}_n\mathrm{H}_{2n+2}$ The coefficient of
+   $\mathrm{O}_2$ is $\frac{3n+1}{2}$ Not $n + \frac{n+1}{2}$ (these are the same, but students often
    get the algebra wrong). For odd $n$$\frac{3n+1}{2}$ is not an integer, so double the entire
    equation.
 
@@ -930,23 +986,9 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Alkanes
 with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
-
-
-```mermaid
-flowchart TD
-    A[Alkanes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

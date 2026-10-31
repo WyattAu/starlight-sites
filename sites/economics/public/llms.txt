@@ -1,0 +1,42 @@
+# Economics — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Microeconomic-Theory
+
+- [General Equilibrium](https://economics.wyattau.com/1-microeconomic-theory/4_general-equilibrium/)
+- [Index](https://economics.wyattau.com/1-microeconomic-theory/)
+- [Preferences And Utility](https://economics.wyattau.com/1-microeconomic-theory/1_preferences-and-utility/)
+- [Production And Firm](https://economics.wyattau.com/1-microeconomic-theory/5_production-and-firm/)
+- [Utility Maximisation](https://economics.wyattau.com/1-microeconomic-theory/2_utility-maximisation/)
+- [Welfare Theorems](https://economics.wyattau.com/1-microeconomic-theory/3_welfare-theorems/)
+
+## Macroeconomics
+
+- [Index](https://economics.wyattau.com/2-macroeconomics/)
+- [Ramsey](https://economics.wyattau.com/2-macroeconomics/2_ramsey/)
+- [Solow](https://economics.wyattau.com/2-macroeconomics/1_solow/)
+
+## Econometrics
+
+- [Consistency And Failure Modes](https://economics.wyattau.com/3-econometrics/3_consistency-and-failure-modes/)
+- [Gauss Markov](https://economics.wyattau.com/3-econometrics/2_gauss-markov/)
+- [Index](https://economics.wyattau.com/3-econometrics/)
+- [Inference](https://economics.wyattau.com/3-econometrics/5_inference/)
+- [Instrumental Variables](https://economics.wyattau.com/3-econometrics/4_instrumental-variables/)
+- [Ols Estimator](https://economics.wyattau.com/3-econometrics/1_ols-estimator/)
+
+## Game-Theory
+
+- [Index](https://economics.wyattau.com/4-game-theory/)
+- [Nash Equilibrium](https://economics.wyattau.com/4-game-theory/1_nash-equilibrium/)
+
+## Overview
+
+- [About](https://economics.wyattau.com/about/)
+- [Before You Begin](https://economics.wyattau.com/before-you-begin/)
+- [Glossary](https://economics.wyattau.com/glossary/)
+- [Hub](https://economics.wyattau.com/hub/)
+- [Index](https://economics.wyattau.com/)

@@ -45,12 +45,14 @@ nationally-standardised examination a CBSE student sits.
 ### Classes 11-12 (Senior Secondary Stage)
 
 Students choose a stream (Science, Commerce, or Humanities) and study specialised subjects. The
-Class 12 board exam is the final school-leaving examination and the primary criterion for
+class 12 board exam is the final school-leaving examination and the primary criterion for
 undergraduate admissions in India.
 
 ## Subject Areas Covered
 
 These notes cover the following subjects across Classes 9-12:
+
+<div class="table-wrap">
 
 | Subject              | Classes       | Description                                                                  |
 | -------------------- | ------------- | ---------------------------------------------------------------------------- |
@@ -61,9 +63,13 @@ These notes cover the following subjects across Classes 9-12:
 | **Computer Science** | 11, 12        | Programming (Python/C++), data structures, databases, networking             |
 | **English**          | 9, 10, 11, 12 | Reading comprehension, writing skills, grammar, literature (Flamingo/Vistas) |
 
+</div>
+
 ## Exam Pattern
 
 ### Class 10 Board Exam
+
+<div class="table-wrap">
 
 | Component             | Marks   | Details                                       |
 | --------------------- | ------- | --------------------------------------------- |
@@ -71,17 +77,23 @@ These notes cover the following subjects across Classes 9-12:
 | Board Examination     | 80      | Written theory paper per subject              |
 | **Total per subject** | **100** |                                               |
 
+</div>
+
 The board examination is conducted at the end of Class 10. Each subject paper is in most cases **3
 hours** long and carries **80 marks**. The remaining **20 marks** are awarded through internal
 assessment components.
 
 ### Class 12 Board Exam
 
+<div class="table-wrap">
+
 | Component             | Marks   | Details                              |
 | --------------------- | ------- | ------------------------------------ |
 | Internal Assessment   | 20      | Practical exams, projects, viva voce |
 | Board Examination     | 80      | Written theory paper per subject     |
 | **Total per subject** | **100** |                                      |
+
+</div>
 
 For Science stream subjects (Physics, Chemistry, Biology), the practical component includes
 laboratory experiments and record books. For Computer Science, practicals include programming
@@ -105,6 +117,8 @@ Internal choices are provided within some questions.
 
 CBSE uses a **nine-point grading scale**:
 
+<div class="table-wrap">
+
 | Grade | Marks Range (out of 100) | Description       |
 | ----- | ------------------------ | ----------------- |
 | A1    | 91-100                   | Outstanding       |
@@ -116,6 +130,8 @@ CBSE uses a **nine-point grading scale**:
 | D     | 33-40                    | Below Average     |
 | E1    | 21-32                    | Needs Improvement |
 | E2    | 00-20                    | Needs Improvement |
+
+</div>
 
 A student must obtain a minimum of **Grade D** (33% in each subject) to pass.
 
@@ -217,14 +233,7 @@ contribute on [GitHub](https://github.com/WyattAu/WyattsNotes).
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

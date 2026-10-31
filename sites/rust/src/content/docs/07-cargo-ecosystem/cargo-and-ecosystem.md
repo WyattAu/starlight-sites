@@ -59,6 +59,8 @@ debug = true
 
 ### Package Metadata Fields
 
+<div class="table-wrap">
+
 | Field          | Purpose                                              |
 | -------------- | ---------------------------------------------------- |
 | `name`         | Crate name (must match `^[a-zA-Z0-9_-]+$`)           |
@@ -69,6 +71,8 @@ debug = true
 | `repository`   | Source code URL                                      |
 | `readme`       | Path to README file                                  |
 | `categories`   | crates.io categories (max 5)                         |
+
+</div>
 
 ## Workspace Management
 
@@ -204,9 +208,9 @@ shared = { version = "1", features = ["feature-x"] }
 shared = { version = "1", features = ["feature-y"] }
 ```
 
-In a workspace depending on both `crate-a` and `crate-b``shared` will have both `feature-x` and
+In a workspace depending on both `crate-a` and `crate-b`, `shared` will have both `feature-x` and
 `feature-y` enabled. If `feature-y` has heavy dependencies, `crate-a` users pay the cost even though
-They only requested `feature-x`.
+they only requested `feature-x`.
 
 ### Feature Best Practices
 
@@ -450,7 +454,7 @@ fn test_add_from_external() {
 ```
 
 Each file in `tests/` is compiled as a separate crate, so they cannot access `src/` internals (only
-The public API). The `tests/common/mod.rs` pattern allows sharing test utilities.
+the public API). The `tests/common/mod.rs` pattern allows sharing test utilities.
 
 ### Doc Tests
 
@@ -686,7 +690,7 @@ async fn process_request(id: u64) {
 
 The `#[instrument]` attribute automatically creates a span that logs function entry, exit, and
 Elapsed time. It captures all function arguments by default (use `skip` and `fields` to control what
-Is captured).
+is captured).
 
 ## Key Crates
 
@@ -894,6 +898,8 @@ async fn main() {
 
 Before adding a dependency, evaluate it:
 
+<div class="table-wrap">
+
 | Criterion                 | How to Check                                                |
 | ------------------------- | ----------------------------------------------------------- |
 | **Downloads**             | crates.io page, monthly downloads                          |
@@ -905,6 +911,8 @@ Before adding a dependency, evaluate it:
 | **License compatibility** | crates.io, license field                                   |
 | **MSRV**                  | README or `Cargo.toml` `rust-version` field                 |
 | **Audit**                 | `cargo audit`known CVEs                                  |
+
+</div>
 :::
 
 :::caution
@@ -956,16 +964,6 @@ Chain attacks, and licensing issues. Minimize your dependency tree. Audit regula
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
-
-```mermaid
-flowchart TD
-    A[Cargo And Ecosystem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

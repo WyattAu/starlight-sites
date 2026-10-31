@@ -84,7 +84,7 @@ inverse of $a + b\sqrt{2}$ (with $a, b$ not both zero) is $\frac{a - b\sqrt{2}}{
 **Example.** For any prime $p$, $\mathbb{Z}/p\mathbb{Z}$ is a field with $p$ elements, denoted
 $\mathbb{F}_p$.
 
-**Proposition 8.5.** In a finite integral domain $R$Every non-zero element is a unit. Hence every
+**Proposition 8.5.** In a finite integral domain $R$ Every non-zero element is a unit. Hence every
 finite Integral domain is a field.
 
 _Proof._ Let $a \in R$ with $a \neq 0$. The map $\phi : R \to R$ given by $\phi(x) = ax$ is
@@ -161,8 +161,8 @@ zero divisors.
 <details>
 <summary>Solution</summary>
 
-_Solution._ In $R$We have $x^2 = x$. Every element can be written as $[a + bx]$ where
-$a, b \in \mathbb{Z}$ Since higher powers reduce: $x^2 = x$, $x^3 = x^2 = x$Etc.
+_Solution._ In $R$ We have $x^2 = x$. Every element can be written as $[a + bx]$ where
+$a, b \in \mathbb{Z}$ Since higher powers reduce: $x^2 = x$, $x^3 = x^2 = x$ Etc.
 
 $R$ has zero divisors: $[x][x - 1] = [x^2 - x] = [0]$ But $[x] \neq [0]$ and $[x - 1] \neq [0]$. So
 $R$ is not an integral domain.
@@ -184,26 +184,15 @@ A zero divisor $a$ satisfies $ab = 0$ for some nonzero $b$, while a unit $a$ sat
 **Mistake 3: Assuming all rings have a multiplicative identity**
 The definition of a ring does not require a multiplicative identity $1$. Some authors include $1$ in the definition (called "rings with unity"), while others do not. When working with rings without unity, statements about units and the cancellation law may fail. Always check whether the ring is assumed to have unity.
 
-
-```mermaid
-flowchart TD
-    A[8_Rings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Ideals and Quotient Rings](/1-abstract-algebra/9_ideals-and-quotient-rings/)**: Ideals are the ring-theoretic analogue of normal subgroups and enable quotient ring constructions.
 - **[Homomorphisms and Isomorphism Theorems](/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/)**: Ring homomorphisms preserve both addition and multiplication, generalising group homomorphisms.
 - **[Field Theory](/1-abstract-algebra/12_field-theory/)**: Fields are commutative rings in which every nonzero element has a multiplicative inverse.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

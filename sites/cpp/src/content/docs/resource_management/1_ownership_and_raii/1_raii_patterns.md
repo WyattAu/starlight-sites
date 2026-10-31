@@ -37,13 +37,13 @@ A class follows the RAII pattern when:
    held; destruction always releases it.
 
 This binding of resource lifetime to object lifetime is the single most important idiom in C++. It
-Is not a language feature, it is a convention that the language"s destructor semantics make natural
-And safe [N4950 §11.4.7].
+is not a language feature, it is a convention that the language"s destructor semantics make natural
+and safe [N4950 §11.4.7].
 
 ## 1.2 Stack Unwinding Guarantee
 
 The critical property that makes RAII work is **stack unwinding**. When an exception propagates out
-Of a scope, the C++ runtime calls the destructors of all automatic-storage-duration objects in that
+of a scope, the C++ runtime calls the destructors of all automatic-storage-duration objects in that
 Scope before transferring control to the handler [N4950 §8.4.4].
 
 ```cpp
@@ -127,7 +127,7 @@ MutexLock. They are the standard library's RAII wrappers for mutexes.
 ## 1.4 Standard Library RAII Wrappers
 
 The C++ standard library provides RAII wrappers for the most common resource types. Using these
-Instead of hand-rolled wrappers is preferred, they are well-tested, well-documented, and handle
+instead of hand-rolled wrappers is preferred, they are well-tested, well-documented, and handle
 Edge cases you might forget.
 
 ### `std::lock_guard` and `std::scoped_lock`
@@ -180,7 +180,7 @@ void shared_ptr_ownership() {
 }
 ```
 
-### `std::string``std::vector``std::fstream`
+### `std::string`, `std::vector`, `std::fstream`
 
 Standard containers and file streams are RAII types. They acquire resources (memory, file
 Descriptors) in their constructors and release them in their destructors [N4950 §22.3, §23.3,
@@ -267,8 +267,8 @@ private:
 ```
 
 :::note
-The moved-from `Socket` has `fd_ == -1`So its destructor is a no-op. This is the standard pattern
-For move-only RAII types that wrap non-copyable OS resources [N4950 §11.4.7].
+The moved-from `Socket` has `fd_ == -1`. So its destructor is a no-op. This is the standard pattern
+for move-only RAII types that wrap non-copyable OS resources [N4950 §11.4.7].
 :::
 
 ## 1.6 Database Connection Wrapper
@@ -391,11 +391,15 @@ Generalized ScopeGuard) was not adopted into C++23. Use the implementation above
 
 RAII is the mechanism that makes C++'s three exception safety guarantees possible [N4950 §13.2]:
 
+<div class="table-wrap">
+
 | Guarantee    | Description                                                                    | RAII Role                                                                                                                                          |
 | ------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **No-throw** | The operation never throws.                                                    | RAII destructors are implicitly `noexcept` (since C++11). If a destructor throws during stack unwinding, `std::terminate` is called [N4950 §14.4]. |
 | **Strong**   | If the operation throws, the state is rolled back to before the operation.     | RAII objects created during the operation are destroyed during unwinding, automatically releasing any resources they acquired.                     |
 | **Basic**    | If the operation throws, no resources are leaked and invariants are preserved. | RAII ensures that all resources are released even if the operation fails partway through.                                                          |
+
+</div>
 
 RAII enables the strong guarantee by default: if an exception propagates out of a function, every
 RAII object in that function's scope is destroyed, releasing every resource that was acquired. No
@@ -417,6 +421,8 @@ void transfer(Account& from, Account& to, int amount) {
 
 RAII and garbage collection (GC) solve related but different problems:
 
+<div class="table-wrap">
+
 | Property                      | RAII                                | Garbage Collection                                                         |
 | ----------------------------- | ----------------------------------- | -------------------------------------------------------------------------- |
 | **Deterministic destruction** | Yes, destructor runs at scope exit | No, finalizer runs at GC's discretion                                     |
@@ -425,24 +431,28 @@ RAII and garbage collection (GC) solve related but different problems:
 | **Memory leaks**              | Impossible with correct RAII        | Possible (unreferenced but unreachable objects, reference counting cycles) |
 | **Latency**                   | Bounded (destructor cost)           | Unbounded (GC pause times)                                                 |
 
+</div>
+
 RAII is strictly more general than GC. GC only manages memory; RAII manages **any** resource with
 Deterministic cleanup. A GC language like Java still needs `try`-with-resources or `using` blocks
-For non-memory resources (files, sockets, locks). In C++, RAII handles all of these uniformly.
+for non-memory resources (files, sockets, locks). In C++, RAII handles all of these uniformly.
 
 :::note
 Duration are destroyed in reverse order of construction when the scope exits, whether by normal flow
-Of control or by exception propagation [N4950 §6.7.2]. This is a language guarantee, not a
+of control or by exception propagation [N4950 §6.7.2]. This is a language guarantee, not a
 Convention.
 :::
 
 ## 1.10 RAII Rule of Thumb
 
 **Every resource acquisition should be wrapped in an RAII type.** If you write a raw call to `new`
-`malloc``fopen``socket``pthread_mutex_lock``lock``mmap`Or any other resource acquisition Function,
+`malloc`, `fopen`, `socket`, `pthread_mutex_lock`, `lock`, `mmap` or any other resource acquisition Function,
 ask yourself: "What releases this resource, and when?" If the answer is "a manual call Later in the
 function," you have a potential leak.
 
 The standard library provides RAII wrappers for most common resources:
+
+<div class="table-wrap">
 
 | Resource             | Raw Acquisition                    | RAII Wrapper                                 |
 | -------------------- | ---------------------------------- | -------------------------------------------- |
@@ -454,12 +464,14 @@ The standard library provides RAII wrappers for most common resources:
 | Sockets              | `socket`                           | Custom `Socket` class (see §1.5)             |
 | Database connections | `sqlite3_open``mysql_real_connect` | Custom connection class (see §1.6)           |
 
+</div>
+
 ## Common Pitfalls
 
 **Forgetting to delete copy constructor and assignment operator.** RAII types that own a resource
 Must be non-copyable (or implement deep copy). If you allow copying, two objects will try to release
-The same resource, double-free or double-close. Always `= delete` the copy operations unless you
-Have a deliberate deep-copy strategy:
+the same resource, double-free or double-close. Always `= delete` the copy operations unless you
+have a deliberate deep-copy strategy:
 
 ```cpp
 class BadRAII {
@@ -473,7 +485,7 @@ public:
 ```
 
 **Forgetting virtual destructors in polymorphic hierarchies.** If you delete a derived object
-Through a base pointer and the base class destructor is not `virtual`Only the base destructor runs,
+Through a base pointer and the base class destructor is not `virtual`. Only the base destructor runs,
 the derived destructor is never called, and derived resources leak [N4950 §11.4.7]:
 
 ```cpp
@@ -496,7 +508,7 @@ void leak() {
 ```
 
 **Using `new`/`delete` directly instead of smart pointers.** Raw `new`/`delete` pairs are not
-Exception-safe. If an exception occurs between `new` and `delete`The memory is leaked. Always use
+Exception-safe. If an exception occurs between `new` and `delete`. The memory is leaked. Always use
 `std::make_unique` or `std::make_shared`:
 
 ```cpp
@@ -536,16 +548,6 @@ public:
 - [Weak Pointers and Cyclic Reference Breaking](/resource_management/1_ownership_and_raii/4_weak_ptr/)
 - [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
 
-```mermaid
-flowchart TD
-    A[1_Raii_Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to raii patterns, including key
@@ -559,13 +561,7 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

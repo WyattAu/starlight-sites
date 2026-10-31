@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                         |
 | ---------- | ------- | ----------------------------- |
 | AQA        | Paper 1 | Moments, equilibrium, tilting |
 | Edexcel    | P1      | Similar                       |
 | OCR (A)    | Paper 1 | Includes non-uniform bodies   |
 | CIE (9709) | P4      | Moments and equilibrium       |
+
+</div>
 
 :::note
 moments, and include the direction (clockwise/anticlockwise) of each moment.
@@ -40,7 +44,9 @@ moments, and include the direction (clockwise/anticlockwise) of each moment.
 
 **Definition.** The **moment** of a force $F$ about a point $O$ is
 
-$$M = F \times d$$
+$$
+M = F \times d
+$$
 
 Where $d$ is the perpendicular distance from $O$ to the line of action of $F$.
 
@@ -50,13 +56,13 @@ The SI unit of moment is the newton-metre (Nm).
 
 **Seesaw.** A seesaw is the simplest moment problem. Two children of weights $W_1$ and $W_2$ sit at
 Distances $d_1$ and $d_2$ from the pivot. For balance: $W_1 d_1 = W_2 d_2$. A lighter child further
-From the pivot can balance a heavier child closer to it, this is why you move back to let a lighter
+from the pivot can balance a heavier child closer to it, this is why you move back to let a lighter
 Friend balance you.
 
 **Crane counterweight.** Tower cranes have a heavy concrete counterweight on the short arm behind
 The tower. When a load is lifted on the long arm, the counterweight generates a restoring
 (anticlockwise) moment about the base to prevent the crane from tipping. The counterweight must
-Satisfy
+satisfy
 $W_{\mathrm{load}} \times d_{\mathrm{long}} \lt W_{\mathrm{counter}} \times d_{\mathrm{short}}$.
 
 **Spanner and bolt.** A spanner of length $0.2\,\mathrm{m}$ applies a force of $50\,\mathrm{N}$
@@ -87,10 +93,12 @@ Consider a rigid body in equilibrium. For equilibrium, two conditions must hold:
 
 For rotational equilibrium, consider any point $O$. The total torque about $O$ must be zero:
 
-$$\sum_{i} \mathbf{r}_i \times \mathbf{F}_i = \mathbf{0}$$
+$$
+\sum_{i} \mathbf{r}_i \times \mathbf{F}_i = \mathbf{0}
+$$
 
 Where $\mathbf{r}_i$ is the position vector of the point of application of $\mathbf{F}_i$ relative
-To $O$.
+to $O$.
 
 This means the clockwise and anticlockwise moments balance:
 $\sum M_{\mathrm{clockwise}} = \sum M_{\mathrm{anticlockwise}}$. $\blacksquare$
@@ -98,8 +106,8 @@ $\sum M_{\mathrm{clockwise}} = \sum M_{\mathrm{anticlockwise}}$. $\blacksquare$
 ### 2.3 Real-world application: bridge supports
 
 A simple beam bridge of length $L$ and weight $W$ is supported at both ends by piers. When a vehicle
-Of weight $P$ is on the bridge at distance $a$ from the left pier, the reaction forces at each pier
-Are found by taking moments about each pier in turn.
+of weight $P$ is on the bridge at distance $a$ from the left pier, the reaction forces at each pier
+are found by taking moments about each pier in turn.
 
 Taking moments about the left pier:
 $R_{\mathrm{right}} \times L = W \times \dfrac{L}{2} + P \times a$ So
@@ -113,7 +121,7 @@ $R_{\mathrm{left}}$ decreases, the bridge load redistributes continuously.
 
 :::caution
 Clever point (often where an unknown force acts) can simplify calculations by eliminating that
-Unknown from the moment equation.
+unknown from the moment equation.
 :::
 
 <hr />
@@ -144,19 +152,23 @@ no acceleration of the centre of mass. However, the net moment (torque) is non-z
 
 For a couple with forces $F$ separated by perpendicular distance $d$:
 
-$$\mathrm{Torque} = F \times d$$
+$$
+\mathrm{Torque} = F \times d
+$$
 
 The moment of a couple is the same about **any** point in the plane. This is a key property: unlike
-The moment of a single force, the torque of a couple does not depend on the choice of reference
+the moment of a single force, the torque of a couple does not depend on the choice of reference
 Point.
 
 **Proof.** Consider two forces $+F$ and $-F$ acting at points $A$ and $B$ respectively, with
 $AB = d$ perpendicular to the forces. Taking moments about an arbitrary point $O$:
 
-$$M_O = F \times d_A - F \times d_B = F(d_A - d_B) = F \times d$$
+$$
+M_O = F \times d_A - F \times d_B = F(d_A - d_B) = F \times d
+$$
 
 Where $d_A$ and $d_B$ are the perpendicular distances from $O$ to the lines of action. The result is
-Independent of $O$. $\blacksquare$
+independent of $O$. $\blacksquare$
 
 ### 3.1.3 Real-world examples of couples
 
@@ -168,21 +180,25 @@ Independent of $O$. $\blacksquare$
 ### 3.1.4 Torque as a vector
 
 In two dimensions, torque (moment) can be treated as a scalar with a sign indicating direction. In
-Three dimensions, torque is a vector:
+three dimensions, torque is a vector:
 
-$$\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}$$
+$$
+\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}
+$$
 
 The direction of $\boldsymbol{\tau}$ is given by the right-hand rule and is perpendicular to the
-Plane containing $\mathbf{r}$ and $\mathbf{F}$.
+plane containing $\mathbf{r}$ and $\mathbf{F}$.
 
 > **Info:** Info Anticlockwise are the only two directions you need to consider.
 >
 ### 3.1.5 Equilibrium of couples
 
 If a body is acted on by several couples, the body is in rotational equilibrium if and only if the
-Total torque is zero:
+total torque is zero:
 
-$$\sum \tau_i = 0$$
+$$
+\sum \tau_i = 0
+$$
 
 This condition is independent of the translational equilibrium conditions, since couples contribute
 Zero net force.
@@ -192,7 +208,7 @@ Zero net force.
 ## 3.2 Ladders Against Walls
 
 Ladder problems are a classic application of moments that combine friction, normal reactions, and
-Weight resolution. They test all three equilibrium conditions simultaneously.
+weight resolution. They test all three equilibrium conditions simultaneously.
 
 ### 3.2.1 Standard ladder setup
 
@@ -214,13 +230,17 @@ Always apply all three equilibrium conditions:
 2. **Vertical forces:** $R_g = W$ (or $W +$ any extra load on the ladder)
 3. **Moments about a convenient point** ( the base of the ladder to eliminate $F$ and $R_g$):
 
-$$R_w \times L\sin\theta = W \times \frac{L}{2}\cos\theta$$
+$$
+R_w \times L\sin\theta = W \times \frac{L}{2}\cos\theta
+$$
 
 ### 3.2.3 Key results
 
 For a uniform ladder against a smooth wall on rough ground:
 
-$$R_w = \frac{W}{2}\cot\theta, \qquad F = R_w, \qquad \mu_{\min} = \frac{R_w}{R_g} = \frac{1}{2}\cot\theta$$
+$$
+R_w = \frac{W}{2}\cot\theta, \qquad F = R_w, \qquad \mu_{\min} = \frac{R_w}{R_g} = \frac{1}{2}\cot\theta
+$$
 
 The minimum coefficient of friction depends only on the angle $\theta$. As the ladder becomes
 Steeper ($\theta$ increases), $\cot\theta$ decreases and less friction is needed.
@@ -235,7 +255,9 @@ Equation. Always read the question carefully to determine whether the wall is sm
 When a person of weight $P$ stands on the ladder at a fraction $\alpha$ of the way up (distance
 $\alpha L$ from the base), the moment equation becomes:
 
-$$R_w \times L\sin\theta = W \times \frac{L}{2}\cos\theta + P \times \alpha L\cos\theta$$
+$$
+R_w \times L\sin\theta = W \times \frac{L}{2}\cos\theta + P \times \alpha L\cos\theta
+$$
 
 This gives $R_w = \left(\dfrac{W}{2} + P\alpha\right)\cot\theta$ And the required friction Increases
 accordingly. The higher the person climbs (larger $\alpha$), the more friction is needed, Climb too
@@ -246,12 +268,12 @@ high and the ladder slips.
 ## 3.3 Non-Uniform Beams
 
 Non-uniform beams have their centre of mass away from the geometric centre. The position of the
-Centre of mass must be determined from the information given.
+centre of mass must be determined from the information given.
 
 ### 3.3.1 Finding the centre of mass of a non-uniform beam
 
 When a non-uniform beam of weight $W$ and length $L$ is supported at two points, the reactions at
-Those points reveal the position of the centre of mass.
+those points reveal the position of the centre of mass.
 
 If the beam is supported at ends $A$ and $B$ with reactions $R_A$ and $R_B$:
 
@@ -273,7 +295,7 @@ So the centre of mass is $d_B = \dfrac{R_A L}{W}$ from end $B$.
 
 A framework (or truss) is a structure made of rods joined at points called **joints** or **nodes**.
 Each rod is assumed to be light and either in tension (being stretched) or compression (being
-Squeezed).
+squeezed).
 
 ### 3.4.1 Assumptions
 
@@ -322,31 +344,35 @@ For a uniform lamina (constant density), the centre of mass coincides with the c
 For a body made of several parts with masses $m_1, m_2, \ldots$ at positions
 $(x_1, y_1), (x_2, y_2), \ldots$:
 
-$$\bar{x} = \frac{\sum m_i x_i}{\sum m_i}, \qquad \bar{y} = \frac{\sum m_i y_i}{\sum m_i}$$
+$$
+\bar{x} = \frac{\sum m_i x_i}{\sum m_i}, \qquad \bar{y} = \frac{\sum m_i y_i}{\sum m_i}
+$$
 
 **Derivation.** Taking moments about the $y$-axis for the total system and the equivalent point
 Mass:
 
-$$\sum m_i x_i = M\bar{x} \implies \bar{x} = \frac{\sum m_i x_i}{M}$$
+$$
+\sum m_i x_i = M\bar{x} \implies \bar{x} = \frac{\sum m_i x_i}{M}
+$$
 
 Where $M = \sum m_i$. Similarly for $\bar{y}$. $\blacksquare$
 
 ### 4.3.1 Worked example: composite lamina
 
 A uniform lamina consists of a rectangle $ABCD$ where $AB = 6\,\mathrm{cm}$ and
-$BC = 4\,\mathrm{cm}$With an equilateral triangle $BCE$ attached to side $BC$ (each side of the
+$BC = 4\,\mathrm{cm}$ With an equilateral triangle $BCE$ attached to side $BC$ (each side of the
 Triangle is $4\,\mathrm{cm}$). Find the centre of mass of the composite lamina.
 
 **Step 1: Treat as two separate bodies.**
 
-Rectangle: area $= 6 \times 4 = 24\,\mathrm{cm}^2$Centre at $(3, 2)$ from $A$.
+Rectangle: area $= 6 \times 4 = 24\,\mathrm{cm}^2$ Centre at $(3, 2)$ from $A$.
 
 Equilateral triangle $BCE$ with side $4\,\mathrm{cm}$: height
 $= 4\sin 60° = 2\sqrt{3}\,\mathrm{cm}$. Area
 $= \frac{1}{2} \times 4 \times 2\sqrt{3} = 4\sqrt{3}\,\mathrm{cm}^2$.
 
 The centre of mass of the triangle is at $\frac{1}{3}$ of its height from $BC$. Taking $B$ as origin
-With $BA$ along the positive $x$-axis and $BC$ along the positive $y$-axis:
+with $BA$ along the positive $x$-axis and $BC$ along the positive $y$-axis:
 
 Triangle centroid is at
 $\left(\frac{4}{3}\cos 60°, 4 - \frac{2\sqrt{3}}{3}\right) = \left(\frac{2}{3}, 4 - \frac{2\sqrt{3}}{3}\right)$.
@@ -368,7 +394,9 @@ $\left(\dfrac{6+6+6}{3}, \dfrac{0+4+(4+2\sqrt{3})}{3}\right) = \left(6, \dfrac{8
 
 **Step 2: Apply the formula.**
 
-$$\bar{x} = \frac{24 \times 3 + 4\sqrt{3} \times 6}{24 + 4\sqrt{3}} = \frac{72 + 24\sqrt{3}}{24 + 4\sqrt{3}}$$
+$$
+\bar{x} = \frac{24 \times 3 + 4\sqrt{3} \times 6}{24 + 4\sqrt{3}} = \frac{72 + 24\sqrt{3}}{24 + 4\sqrt{3}}
+$$
 
 Dividing numerator and denominator by 4:
 $\bar{x} = \dfrac{18 + 6\sqrt{3}}{6 + \sqrt{3}}$.
@@ -376,20 +404,26 @@ $\bar{x} = \dfrac{18 + 6\sqrt{3}}{6 + \sqrt{3}}$.
 Rationalising:
 $\bar{x} = \dfrac{(18 + 6\sqrt{3})(6 - \sqrt{3})}{36 - 3} = \dfrac{108 - 18\sqrt{3} + 36\sqrt{3} - 18}{33} = \dfrac{90 + 18\sqrt{3}}{33} \approx 3.69\,\mathrm{cm}$.
 
-$$\bar{y} = \frac{24 \times 2 + 4\sqrt{3} \times \frac{8+2\sqrt{3}}{3}}{24 + 4\sqrt{3}} = \frac{48 + \frac{32\sqrt{3}+24}{3}}{24 + 4\sqrt{3}} = \frac{\frac{168+32\sqrt{3}}{3}}{24+4\sqrt{3}}$$
+$$
+\bar{y} = \frac{24 \times 2 + 4\sqrt{3} \times \frac{8+2\sqrt{3}}{3}}{24 + 4\sqrt{3}} = \frac{48 + \frac{32\sqrt{3}+24}{3}}{24 + 4\sqrt{3}} = \frac{\frac{168+32\sqrt{3}}{3}}{24+4\sqrt{3}}
+$$
 
 $\bar{y} = \dfrac{168 + 32\sqrt{3}}{72 + 12\sqrt{3}} \approx 2.30\,\mathrm{cm}$.
 
 ### 4.3.2 Subtraction method
 
 When a shape has a hole or cut-out, treat it as a **negative mass**. If a rectangle of area $A_2$ is
-Removed from a larger rectangle of area $A_1$:
+removed from a larger rectangle of area $A_1$:
 
-$$\bar{x} = \frac{A_1 x_1 - A_2 x_2}{A_1 - A_2}$$
+$$
+\bar{x} = \frac{A_1 x_1 - A_2 x_2}{A_1 - A_2}
+$$
 
 This is extremely useful for L-shapes, T-shapes, and shapes with circular or triangular cut-outs.
 
 ### 4.4 Standard results
+
+<div class="table-wrap">
 
 | Shape                       | Centre of Mass                                           |
 | --------------------------- | -------------------------------------------------------- |
@@ -399,6 +433,8 @@ This is extremely useful for L-shapes, T-shapes, and shapes with circular or tri
 | Uniform circular lamina     | Centre of the circle                                     |
 | Uniform semicircular lamina | $\dfrac{4r}{3\pi}$ from the flat side        |
 
+</div>
+
 <hr />
 
 ## 5. Tilting and Toppling
@@ -406,19 +442,21 @@ This is extremely useful for L-shapes, T-shapes, and shapes with circular or tri
 ### 5.1 Tilting
 
 A body on a surface will **tilt** (start to rotate) when the moment of the applied force about the
-Point of tilting exceeds the restoring moment.
+point of tilting exceeds the restoring moment.
 
 ### 5.2 Condition for toppling vs. Sliding
 
 A body will **topple** before it **slides** if:
 
-$$\frac{h}{d} > \frac{1}{\mu}$$
+$$
+\frac{h}{d} > \frac{1}{\mu}
+$$
 
 Where $h$ is the height at which the force is applied and $d$ is half the base width.
 
 ### 5.3 Worked example: toppling vs. Sliding
 
-A uniform block of weight $500\,\mathrm{N}$Width $0.6\,\mathrm{m}$ and height $1.2\,\mathrm{m}$ Sits
+A uniform block of weight $500\,\mathrm{N}$ Width $0.6\,\mathrm{m}$ and height $1.2\,\mathrm{m}$ Sits
 on a rough surface with $\mu = 0.4$. A horizontal force $P$ is applied at the top of the block.
 Determine whether the block slides or topples first, and find the critical value of $P$.
 
@@ -431,7 +469,7 @@ $P \times 1.2 = 500 \times 0.3$ (weight acts at the centre, $0.3\,\mathrm{m}$ fr
 
 $P = \dfrac{150}{1.2} = 125\,\mathrm{N}$.
 
-Since $125 \lt 200$The block **topples first** at $P = 125\,\mathrm{N}$.
+Since $125 \lt 200$ The block **topples first** at $P = 125\,\mathrm{N}$.
 
 :::note
 occurs First, which matches our calculation.
@@ -500,7 +538,7 @@ A uniform beam $AB$ of weight $W$ and length $2l$ rests on a support at its midp
 Taking moments about $C$: the man"s weight creates a moment of $3W(x-l)$.
 
 The beam remains in equilibrium as long as neither end lifts off, i.e., the reaction at each end is
-Non-negative.
+non-negative.
 
 For the reaction at $B \geq 0$: moment of weight about $C$ must not exceed restoring moment.
 $3W(x-l) \leq W \cdot l \implies 3x - 3l \leq l \implies x \leq \dfrac{4l}{3}$.
@@ -516,7 +554,7 @@ Range: $\dfrac{2l}{3} \leq x \leq \dfrac{4l}{3}$.
 
 <details>
 <summary>Problem 5</summary>
-A non-uniform rod $AB$ of length $2\,\mathrm{m}$ and weight $40\,\mathrm{N}$ is supported at $A$ and at a point $C$$1.4\,\mathrm{m}$ from $A$. When supported at $A$ and $B$The reaction at $A$ is $18\,\mathrm{N}$. Find the position of the centre of mass.
+A non-uniform rod $AB$ of length $2\,\mathrm{m}$ and weight $40\,\mathrm{N}$ is supported at $A$ and at a point $C$$1.4\,\mathrm{m}$ from $A$. When supported at $A$ and $B$ The reaction at $A$ is $18\,\mathrm{N}$. Find the position of the centre of mass.
 </details>
 
 <details>
@@ -524,7 +562,7 @@ A non-uniform rod $AB$ of length $2\,\mathrm{m}$ and weight $40\,\mathrm{N}$ is 
 When supported at $A$ and $B$: moments about $B$: $R_A \times 2 = W \times d_{\mathrm{from } B}$.
 $18 \times 2 = 40 \times d_{\mathrm{from } B} \implies d_{\mathrm{from } B} = 36/40 = 0.9\,\mathrm{m}$.
 
-Centre of mass is $0.9\,\mathrm{m}$ from $B$I.e., $1.1\,\mathrm{m}$ from $A$.
+Centre of mass is $0.9\,\mathrm{m}$ from $B$ I.e., $1.1\,\mathrm{m}$ from $A$.
 
 **If you get this wrong, revise:** [Centre of Mass](#4-centre-of-mass), Section 4.
 
@@ -599,10 +637,10 @@ A uniform lamina is made from a rectangle $ABCD$ with $AB = 8\,\mathrm{cm}$$AD =
 <summary>Solution 9</summary>
 Place $A$ at the origin, $AB$ along the $x$-axis, $AD$ along the $y$-axis.
 
-Rectangle: area $= 48$Centre at $(4, 3)$.
+Rectangle: area $= 48$ Centre at $(4, 3)$.
 
 Removed square: corner at $C(8,6)$ So the square occupies $x \in [5, 8]$$y \in [3, 6]$. Area
-$= 9$Centre at $(6.5, 4.5)$.
+$= 9$ Centre at $(6.5, 4.5)$.
 
 Using the subtraction method:
 
@@ -626,7 +664,7 @@ A uniform ladder of length $6\,\mathrm{m}$ and weight $150\,\mathrm{N}$ rests ag
 Let $R_w$ = reaction from wall (horizontal), $R_g$ = reaction from ground (vertical), $F$ = friction at ground.
 
 The man is $2\,\mathrm{m}$ from the top, so $4\,\mathrm{m}$ from the base. His horizontal distance
-From the base is $4\cos 55^\circ$.
+from the base is $4\cos 55^\circ$.
 
 Horizontal: $R_w = F$. Vertical: $R_g = 150 + 800 = 950\,\mathrm{N}$.
 
@@ -684,8 +722,8 @@ $2500 = 300x + 800$.
 $300x = 1700 \implies x = \dfrac{1700}{300} = \dfrac{17}{3} \approx 5.67\,\mathrm{m}$.
 
 Since $x > 5\,\mathrm{m}$ (the length of the beam), the centre of mass lies **beyond** end $B$. This
-Makes sense, the tension at $B$ is large relative to the load, suggesting the beam is heavier near
-End $B$.
+makes sense, the tension at $B$ is large relative to the load, suggesting the beam is heavier near
+end $B$.
 
 Wait, let us check: if the beam is $5\,\mathrm{m}$ long, the centre of mass must lie on the beam.
 Let us re-examine.
@@ -693,7 +731,7 @@ Let us re-examine.
 $2500 = 300x + 800 \implies x = \dfrac{1700}{300} = 5.67\,\mathrm{m}$.
 
 This is impossible for a $5\,\mathrm{m}$ beam. The given data is inconsistent, there must be an
-Error in the problem statement. In an exam, you would state that no valid position exists.
+error in the problem statement. In an exam, you would state that no valid position exists.
 
 **If you get this wrong, revise:** [Non-Uniform Beams](#33-non-uniform-beams), Section 3.3.
 
@@ -749,9 +787,9 @@ For sliding to occur before toppling: $P_{\mathrm{slide}} \lt P_{\mathrm{topple}
 $120 \lt \dfrac{100}{h} \implies h \lt \dfrac{100}{120} = \dfrac{5}{6} \approx 0.833\,\mathrm{m}$.
 
 So the block will slide before it topples if $h \lt \dfrac{5}{6}\,\mathrm{m}$ (i.e., the force is
-Applied below $\dfrac{5}{6}\,\mathrm{m}$ from the ground).
+applied below $\dfrac{5}{6}\,\mathrm{m}$ from the ground).
 
-For $h > \dfrac{5}{6}\,\mathrm{m}$The block topples first. At $h = \dfrac{5}{6}\,\mathrm{m}$ Sliding
+For $h > \dfrac{5}{6}\,\mathrm{m}$ The block topples first. At $h = \dfrac{5}{6}\,\mathrm{m}$ Sliding
 and toppling occur simultaneously.
 
 **If you get this wrong, revise:** [Tilting and Toppling](#5-tilting-and-toppling), Section 5.
@@ -760,7 +798,7 @@ and toppling occur simultaneously.
 
 <details>
 <summary>Problem 15</summary>
-A uniform rod $AB$ of length $4\,\mathrm{m}$ and weight $120\,\mathrm{N}$ is hinged at $A$ to a vertical wall. The rod is held in a horizontal position by a light strut $BC$ connected to the wall at $C$Vertically below $A$With $AC = 3\,\mathrm{m}$. Find the thrust in the strut and the magnitude and direction of the reaction at the hinge $A$.
+A uniform rod $AB$ of length $4\,\mathrm{m}$ and weight $120\,\mathrm{N}$ is hinged at $A$ to a vertical wall. The rod is held in a horizontal position by a light strut $BC$ connected to the wall at $C$ Vertically below $A$ With $AC = 3\,\mathrm{m}$. Find the thrust in the strut and the magnitude and direction of the reaction at the hinge $A$.
 </details>
 
 <details>
@@ -777,10 +815,10 @@ Taking moments about $A$: the perpendicular distance from $A$ to the line of act
 $T$ in $BC$ is needed.
 
 The thrust acts along $CB$. The perpendicular distance from $A(0,0)$ to the line through $B(4,0)$
-With direction $(-4,-3)$ is
+with direction $(-4,-3)$ is
 $\dfrac{|(-4)(0-0) - (-3)(0-4)|}{\sqrt{(-4)^2+(-3)^2}} = \dfrac{12}{5} = 2.4\,\mathrm{m}$.
 
-Clockwise moment of thrust: $T \times 2.4$ (thrust pushes from $B$ toward $C$Creating a clockwise
+Clockwise moment of thrust: $T \times 2.4$ (thrust pushes from $B$ toward $C$ Creating a clockwise
 Moment about $A$).
 
 Anticlockwise moment of weight: $120 \times 2 = 240\,\mathrm{Nm}$.
@@ -871,26 +909,9 @@ Moments measure the turning effect of a force about a point, like how pushing a 
 4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
-```mermaid
-flowchart TD
-    A[03 Moments] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

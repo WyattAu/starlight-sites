@@ -19,11 +19,11 @@ description: "To prove : assume Derive by a chain of logical deductions. Compreh
 
 ### 3.1 Direct Proof
 
-To prove $P \implies Q$: assume $P$Derive $Q$ by a chain of logical deductions.
+To prove $P \implies Q$: assume $P$ Derive $Q$ by a chain of logical deductions.
 
 **Example.** Prove: if $n$ is odd, then $n^2$ is odd.
 
-_Proof._ Let $n = 2k + 1$. Then $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$Which is odd.
+_Proof._ Let $n = 2k + 1$. Then $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$ Which is odd.
 $\blacksquare$
 
 **Worked Example.** Prove: the sum of any two rational numbers is rational.
@@ -33,9 +33,11 @@ $\blacksquare$
 
 Let $a = p/q$ and $b = r/s$ where $p, q, r, s \in \mathbb{Z}$ and $q, s \neq 0$. Then
 
-$$a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}$$
+$$
+a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}
+$$
 
-Since $ps + rq \in \mathbb{Z}$ and $qs \in \mathbb{Z} \setminus \\{0\\}$The sum $a + b$
+Since $ps + rq \in \mathbb{Z}$ and $qs \in \mathbb{Z} \setminus \\{0\\}$ The sum $a + b$
 is rational. $\blacksquare$
 
 </details>
@@ -55,7 +57,7 @@ _Proof._ Contrapositive: if $n$ is odd, then $n^2$ is odd. This was proved above
 
 Contrapositive: if $n$ is even, then $3n + 2$ is even.
 
-Let $n = 2k$. Then $3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1)$Which is even. $\blacksquare$
+Let $n = 2k$. Then $3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1)$ Which is even. $\blacksquare$
 
 </details>
 
@@ -77,7 +79,7 @@ Contradiction. $\blacksquare$
 
 Suppose $\sqrt{2} = p/q$ in lowest terms, with $p, q \in \mathbb{Z}^+$ and $\gcd(p, q) = 1$.
 Then $2q^2 = p^2$ So $p^2$ is even, hence $p$ is even. Write $p = 2r$. Then $2q^2 = 4r^2$ So
-$q^2 = 2r^2$Hence $q$ is even. But then both $p$ and $q$ are even, Contradicting $\gcd(p, q) = 1$.
+$q^2 = 2r^2$ Hence $q$ is even. But then both $p$ and $q$ are even, Contradicting $\gcd(p, q) = 1$.
 $\blacksquare$
 
 </details>
@@ -97,7 +99,9 @@ _Proof._ Base case: $n = 1$: $1 = 1 \cdot 2 / 2$. True.
 
 Inductive step: Assume $\sum_{i=1}^{k} i = k(k+1)/2$. Then
 
-$$\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}$$
+$$
+\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}
+$$
 
 $\blacksquare$
 
@@ -129,7 +133,9 @@ _Base case:_ $n = 0$: $2^0 = 1 = 2^{0+1} - 1$. ✓
 
 _Inductive step:_ Assume $\sum_{i=0}^{k} 2^i = 2^{k+1} - 1$. Then
 
-$$\sum_{i=0}^{k+1} 2^i = 2^{k+1} - 1 + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1$$
+$$
+\sum_{i=0}^{k+1} 2^i = 2^{k+1} - 1 + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1
+$$
 
 $\blacksquare$
 
@@ -159,7 +165,7 @@ $m \in S$. Therefore $S = \emptyset$ and $P(n)$ holds for all $n \geq 0$.
 
 _Proof (induction implies WOP)._ Let $S \subseteq \mathbb{N}$ be nonempty. We prove by
 induction that If $S \cap \\{0, 1, \ldots, n\\} \neq \emptyset$ Then $S$ has a least element. For
-$n = 0$, $S$ Contains $0$Which is the least element. Assume the claim for $n = k$. If
+$n = 0$, $S$ Contains $0$ Which is the least element. Assume the claim for $n = k$. If
 $0 \in S \cap \\{0, \ldots, k+1\\}$ Then $0$ is the least element. Otherwise
 $S \cap \\{0, \ldots, k+1\\} = S \cap \\{1, \ldots, k+1\\}$ And by The induction hypothesis applied
 to the shifted set, a least element exists. $\blacksquare$
@@ -176,22 +182,11 @@ Suppose $S \neq \emptyset$. By WOP, $S$ has a least element $m$.
 Let $2^k$ be the largest power of 2 not exceeding $m$ (so $2^k \leq m \lt 2^{k+1}$). Then
 $m - 2^k \geq 0$ and $m - 2^k \lt 2^k$. If $m - 2^k = 0$ Then $m = 2^k$ is a single power of 2,
 Contradicting $m \in S$. If $m - 2^k \gt 0$ Then $m - 2^k \lt m$ So $m - 2^k \notin S$ (by minimality
-Of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
+of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
 Gives $m$ as a sum of distinct powers of 2, contradicting $m \in S$. Therefore $S = \emptyset$.
 $\blacksquare$
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[3_Proof Techniques] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

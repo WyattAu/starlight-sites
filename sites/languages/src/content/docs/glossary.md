@@ -137,6 +137,8 @@ Each language site in the network covers these concepts in depth with worked exa
 
 ## Cross-Language Quick Reference
 
+<div class="table-wrap">
+
 | Concept | Rust | Go | Java | Kotlin | Swift | TypeScript | Python |
 |---------|------|----|------|--------|-------|------------|--------|
 | Type system | Static, affine | Static, structural | Static, nominal | Static, nominal | Static, nominal | Gradual, structural | Gradual (hints) |
@@ -146,7 +148,11 @@ Each language site in the network covers these concepts in depth with worked exa
 | Error handling | Result/panic | error returns | exceptions | exceptions | throws | exceptions | exceptions |
 | Compilation | LLVM AOT | gc AOT | JIT (JVM) | JVM/Native | LLVM AOT | transpiles to JS | CPython interpreter |
 
+</div>
+
 ## Ecosystem Quick Reference
+
+<div class="table-wrap">
 
 | Language | Build tool | Package manager | Formatter | Test runner |
 |----------|-----------|-----------------|-----------|-------------|
@@ -161,3 +167,5 @@ Each language site in the network covers these concepts in depth with worked exa
 | Elixir | mix | hex | mix format | ExUnit |
 | Haskell | Cabal/Stack | Hackage | ormolu | Hspec |
 | Dart | pub build | pub | dart format | built-in (dart test) |
+
+</div>

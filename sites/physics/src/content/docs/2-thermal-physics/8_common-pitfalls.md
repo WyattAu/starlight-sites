@@ -112,6 +112,8 @@ is a key signature of a Fermi liquid. $\blacksquare$
 
 ### Summary of Key Thermodynamic Potentials
 
+<div class="table-wrap">
+
 | Potential | Symbol | Natural Variables | Differential |
 | ----------- | -------- | ------------------- | -------------- |
 | Internal energy | $U$ | $S, V, N$ | $dU = TdS - PdV + \mu dN$ |
@@ -120,10 +122,12 @@ is a key signature of a Fermi liquid. $\blacksquare$
 | Gibbs free energy | $G$ | $T, P, N$ | $dG = -SdT + VdP + \mu dN$ |
 | Grand potential | $\Phi$ | $T, V, \mu$ | $d\Phi = -SdT - PdV - Nd\mu$ |
 
+</div>
+
 ### Additional Pitfalls
 
 - **Confusing $C_P$ and $C_V$ derivatives.** $C_P - C_V = T(\partial P/\partial T)_V (\partial V/\partial T)_P$.
-  For water near $4^\circ$C, $(\partial V/\partial T)_P = 0$ so $C_P = C_V$, which is unusual.
+  For water near $4^\circ$ C, $(\partial V/\partial T)_P = 0$ so $C_P = C_V$, which is unusual.
   Always verify the relation for the specific substance.
 - **Neglecting the chemical potential in open systems.** In grand canonical ensembles,
   $\mu$ is fixed by the reservoir. For photon gases, $\mu = 0$ because photon number is not
@@ -162,17 +166,6 @@ is a key signature of a Fermi liquid. $\blacksquare$
   $\mu = \varepsilon_F$ at all temperatures leads to errors in the electronic heat capacity
   calculation.
 
-
-```mermaid
-flowchart TD
-    A[8_Common Pitfalls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Thermodynamic pitfalls arise from confusing mathematical formalism with physical meaning. Natural variables are not arbitrary labels but determine which potential is minimized under given conditions. The chemical potential measures the energy cost of adding a particle, like a admission price. Phase transitions can be first-order (discontinuous, with latent heat) or continuous (no latent heat, but diverging susceptibilities). Metastable states like supercooled water are thermodynamically unstable but kinetically trapped, like a ball stuck in a shallow dip on a slope.
@@ -184,6 +177,6 @@ Thermodynamic pitfalls arise from confusing mathematical formalism with physical
 - **[Phase Transitions](/2-thermal-physics/10_phase-transitions/)**: The first-order versus continuous distinction is developed quantitatively in the phase transitions chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

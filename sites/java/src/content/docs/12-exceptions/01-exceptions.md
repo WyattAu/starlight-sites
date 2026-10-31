@@ -49,13 +49,15 @@ Throwable
 And `Exception` is the first critical decision point:
 
 - **`Error`**: JVM-level failures. Application code should almost never catch these. If you catch
-  `OutOfMemoryError`You are guessing about JVM state invariants that may no longer hold.
+  `OutOfMemoryError`. You are guessing about JVM state invariants that may no longer hold.
 - **`Exception`**: Application-level failures. This is where you design error handling.
 
-Within `Exception`The `RuntimeException` subclass marks **unchecked** exceptions, the compiler Does
+Within `Exception`. The `RuntimeException` subclass marks **unchecked** exceptions, the compiler Does
 not force you to declare or handle them. Everything else is **checked**.
 
 ### When to Use Checked vs Unchecked
+
+<div class="table-wrap">
 
 | Factor               | Checked                                      | Unchecked                                        |
 | -------------------- | -------------------------------------------- | ------------------------------------------------ |
@@ -64,8 +66,10 @@ not force you to declare or handle them. Everything else is **checked**.
 | API surface impact   | Propagates through every caller in the chain | Stops where it stops                             |
 | Example              | `IOException``SQLException`                  | `NullPointerException``IllegalArgumentException` |
 
+</div>
+
 The pragmatic rule: use checked exceptions for conditions where the caller **reasonably can and
-Should** take corrective action. Use unchecked exceptions for programming errors and precondition
+should** take corrective action. Use unchecked exceptions for programming errors and precondition
 Violations.
 
 This is not a bright line. The Java standard library itself is inconsistent,
@@ -379,7 +383,7 @@ public class UserService {
 ```
 
 The rule: each layer should only throw exceptions meaningful to its callers. A service layer caller
-Should never see `SQLException` or `PersistenceException`.
+should never see `SQLException` or `PersistenceException`.
 
 ### Fail-fast vs Fail-safe
 
@@ -426,7 +430,7 @@ Choose fail-safe only when partial results are meaningful and the cost of failur
 - **Compiler-enforced documentation**: The method signature tells you what can go wrong without
   reading implementation
 - **Handling is mandatory**: Callers cannot accidentally ignore error conditions
-- **Appropriate for recoverable conditions**: `IOException``SQLException` are conditions a
+- **Appropriate for recoverable conditions**: `IOException`, `SQLException` are conditions a
   well-written program should handle
 
 ### Arguments Against Checked Exceptions
@@ -477,7 +481,7 @@ public sealed interface Result<T> {
 
 ### Checked Exceptions in Lambdas
 
-The standard functional interfaces (`Function``Supplier`Etc.) do not declare checked exceptions.
+The standard functional interfaces (`Function`, `Supplier`. Etc.) do not declare checked exceptions.
 Workarounds:
 
 **Utility wrapper:**
@@ -529,7 +533,7 @@ Call in a try-catch would add noise without safety.
 ### Exception Creation Cost
 
 Creating an exception is expensive because `Throwable` captures the stack trace by calling
-`Throwable.fillInStackTrace()`Which walks the stack via `StackTraceElement`:
+`Throwable.fillInStackTrace()`. Which walks the stack via `StackTraceElement`:
 
 ```java
 // Benchmark: exception creation vs simple object creation
@@ -586,6 +590,8 @@ Path is the common case. If exceptions are your normal control flow, you are fig
 
 ### When Exceptions Are Appropriate vs Return Codes
 
+<div class="table-wrap">
+
 | Criterion                        | Exceptions         | Return Codes          |
 | -------------------------------- | ------------------ | --------------------- |
 | Frequency of failure             | Rare / exceptional | Common / expected     |
@@ -593,6 +599,8 @@ Path is the common case. If exceptions are your normal control flow, you are fig
 | Separation of happy/unhappy path | Clean separation   | Mixed in control flow |
 | Forced handling                  | Yes (checked)      | No, ignored          |
 | Composability                    | Breaks lambdas     | Composes cleanly      |
+
+</div>
 
 Rule of thumb: if it happens more than once per thousand calls on the hot path, consider a return
 Code or `Optional`.
@@ -638,7 +646,7 @@ public void readFile() throws IOException;
 
 The exception table is a list of `(start_pc, end_pc, handler_pc, catch_type)` tuples. When an
 Exception is thrown, the JVM scans the exception table of the current method for a matching entry
-Where `start_pc &lt;= pc &lt; end_pc` and the thrown exception is assignable to `catch_type`. If no
+where `start_pc &lt;= pc &lt; end_pc` and the thrown exception is assignable to `catch_type`. If no
 Handler is found, the method frame is popped and the search continues in the caller.
 
 ### Stack Unwinding Mechanism
@@ -895,7 +903,7 @@ try {
 ```
 
 When `InterruptedException` is caught, the thread's interrupt flag is **automatically cleared**. If
-You do not restore it (via `Thread.currentThread().interrupt()`), the interruption is lost and
+you do not restore it (via `Thread.currentThread().interrupt()`), the interruption is lost and
 Cooperative cancellation in the caller breaks.
 
 ```mermaid
@@ -935,17 +943,11 @@ implementation, and key applications.
 - exception handling
 - the JVM and garbage collection
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Java's exception hierarchy separates recoverable errors (exceptions) from unrecoverable JVM failures (errors). Checked exceptions force callers to handle anticipated failures, while unchecked exceptions signal programming bugs. The try-with-resources pattern ensures cleanup happens automatically, like a librarian who always returns books to their shelf regardless of whether the reader finished. Effective exception handling means catching specific types, providing meaningful messages, and never silently swallowing errors.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

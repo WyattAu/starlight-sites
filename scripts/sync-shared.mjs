@@ -49,16 +49,18 @@ const SHARED_DIRS = [
   ['shared/styles', 'src/styles'],
   ['shared/design', 'src/design'],
   ['shared/fonts', 'public/fonts'],
+  ['shared/public/katex', 'public/katex'],
   ['shared/i18n', 'src/i18n'],
 ]
 
 // (sourceFile, destFile) pairs of public/ client scripts synced to ALL sites.
+// cross-site-search.js and page-search.js were removed from this list: they
+// injected a second search bar and modal on top of the header's own search
+// input (Header.astro), and loaded twice per page. The header input queries
+// search.wyattau.com directly.
 const PUBLIC_FILES = [
-  ['search-api/page-search.js', 'public/page-search.js'],
-  ['search-api/cross-site-search.js', 'public/cross-site-search.js'],
   ['search-api/sw.js', 'public/sw.js'],
   ['shared/scripts/reader.js', 'public/reader.js'],
-  ['shared/scripts/site-nav.js', 'public/site-nav.js'],
   ['shared/public/wasm/starlight_widgets.js', 'public/wasm/starlight_widgets.js'],
   ['shared/public/wasm/starlight_widgets_bg.wasm', 'public/wasm/starlight_widgets_bg.wasm'],
   ['shared/public/favicon.svg', 'public/favicon.svg'],

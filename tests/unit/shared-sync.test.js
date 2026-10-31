@@ -70,24 +70,20 @@ describe('Canonical source integrity', () => {
     }
   })
 
-  it('page-search.js is mirrored to every site from search-api canonical', () => {
-    const canonical = sha256(path.join(ROOT, 'search-api', 'page-search.js'))
+  it('retired search injectors are absent from every site and every head', () => {
+    // cross-site-search.js and page-search.js injected a second search bar
+    // and modal on top of the header's own input (Header.astro). They were
+    // removed from PUBLIC_FILES in sync-shared.mjs and from every config's
+    // head array; nothing may reintroduce them.
     for (const site of ALL_SITES) {
-      const siteCopy = path.join(ROOT, 'sites', site, 'public', 'page-search.js')
-      assert.ok(fs.existsSync(siteCopy), `sites/${site}/public/page-search.js must exist`)
-      assert.strictEqual(sha256(siteCopy), canonical, `sites/${site}/public/page-search.js drifted`)
-    }
-  })
-
-  it('cross-site-search.js is mirrored to every site from search-api canonical', () => {
-    const canonical = sha256(path.join(ROOT, 'search-api', 'cross-site-search.js'))
-    for (const site of ALL_SITES) {
-      const siteCopy = path.join(ROOT, 'sites', site, 'public', 'cross-site-search.js')
-      assert.ok(fs.existsSync(siteCopy), `sites/${site}/public/cross-site-search.js must exist`)
-      assert.strictEqual(
-        sha256(siteCopy),
-        canonical,
-        `sites/${site}/public/cross-site-search.js drifted`,
+      for (const f of ['page-search.js', 'cross-site-search.js']) {
+        const p = path.join(ROOT, 'sites', site, 'public', f)
+        assert.ok(!fs.existsSync(p), `sites/${site}/public/${f} must not exist (retired injector)`)
+      }
+      const config = fs.readFileSync(path.join(ROOT, 'sites', site, 'astro.config.mjs'), 'utf8')
+      assert.ok(
+        !config.includes('cross-site-search.js') && !config.includes('page-search.js'),
+        `sites/${site}/astro.config.mjs must not reference the retired search injectors`,
       )
     }
   })

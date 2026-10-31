@@ -14,6 +14,15 @@ description: "Study notes for Haskell with worked examples, practice problems, a
 }
 </script>
 
+:::note[New to functional programming? Start here]
+If your background is an imperative language -- Python, Java, C -- read
+**[Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)** first. It
+rebuilds expressions-versus-statements, types as contracts, immutability,
+recursion as the loop, and higher-order functions from the ground up, and ends
+with a self-test so confident readers can skip by assessment.
+:::
+
+
 ## Haskell
 
 Welcome to the Haskell notes. Haskell is a purely functional, lazily evaluated language with a strong static type system. Everything is an expression, side effects are managed through monads, and types are inferred unless you annotate them.
@@ -40,7 +49,7 @@ Start with the basics: pure functions, pattern matching, and list operations. Th
 
 ## Cross-References
 
-- **[Abstract Algebra](https://mathematics.wyattau.com/abstract-algebra/)**: Groups, rings, and fields, the algebraic structures that inspire Haskell's type class hierarchy.
+- **[Abstract Algebra](https://mathematics.wyattau.com/1-abstract-algebra/)**: Groups, rings, and fields, the algebraic structures that inspire Haskell's type class hierarchy.
 - **Category Theory**: Functors, natural transformations, and monads have their mathematical foundations here.
 
 Browse the content using the sidebar navigation on the left.
@@ -89,7 +98,7 @@ main = do
 
 ## Common Mistakes
 
-**Confusing laziness with inefficiency:** Lazy evaluation delays computation until needed, which can save work (short-circuit evaluation, infinite data structures). But it can also cause space leaks when thunks accumulate. Strictness annotations (`BangPatterns``StrictData`) control this.
+**Confusing laziness with inefficiency:** Lazy evaluation delays computation until needed, which can save work (short-circuit evaluation, infinite data structures). But it can also cause space leaks when thunks accumulate. Strictness annotations (`BangPatterns`, `StrictData`) control this.
 
 **Assuming all Haskell code is pure:** The IO monad allows side effects (I/O, state, exceptions). Haskell is pure by default, but `IO` is a deliberate escape hatch. Understanding which code is pure and which is effectful is essential for reasoning about correctness.
 
@@ -97,15 +106,9 @@ main = do
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -115,29 +118,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 ## See also
 
 - [Introduction to Haskell](/00-intro/1_haskell-intro/)

@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Differentiation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
@@ -45,7 +34,7 @@ flowchart TD
 **(b)** A student writes $\frac{dy}{dx} = 2\sin(e^{3x}) \cdot 3e^{3x}$. Identify the errors in the
 student"s working.
 
-**(c)** Find the value of $\frac{d^2y}{dx^2}$ when $x = 0$Giving an exact answer.
+**(c)** Find the value of $\frac{d^2y}{dx^2}$ when $x = 0$ Giving an exact answer.
 
 [Difficulty: hard. Tests the chain rule applied through three layers of composition (square, sine,
 exponential), a common source of missing factors.]
@@ -56,7 +45,9 @@ exponential), a common source of missing factors.]
 
 This is a composition of three functions. Working from the outside in:
 
-$$\frac{dy}{dx} = 2\sin(e^{3x}) \cdot \cos(e^{3x}) \cdot 3e^{3x}$$
+$$
+\frac{dy}{dx} = 2\sin(e^{3x}) \cdot \cos(e^{3x}) \cdot 3e^{3x}
+$$
 
 The chain rule is applied three times:
 
@@ -64,34 +55,48 @@ The chain rule is applied three times:
 - Middle function $\sin u$: derivative $\cos u$
 - Inner function $e^{3x}$: derivative $3e^{3x}$
 
-$$\frac{dy}{dx} = 6e^{3x}\sin(e^{3x})\cos(e^{3x})$$
+$$
+\frac{dy}{dx} = 6e^{3x}\sin(e^{3x})\cos(e^{3x})
+$$
 
 Using $\sin(2\theta) = 2\sin\theta\cos\theta$:
 
-$$\frac{dy}{dx} = 3e^{3x}\sin(2e^{3x})$$
+$$
+\frac{dy}{dx} = 3e^{3x}\sin(2e^{3x})
+$$
 
 **(b)** The student's answer $2\sin(e^{3x}) \cdot 3e^{3x}$ has two errors:
 
 1. Missing the $\cos(e^{3x})$ factor from differentiating the middle function $\sin(e^{3x})$. The
    student differentiated $\sin$ to get $1$ instead of $\cos$.
 2. The student treated $\sin^2(e^{3x})$ as if the outer function were $\sin$ and the inner function
-   were $e^{3x}$Completely missing the square.
+   were $e^{3x}$ Completely missing the square.
 
 **(c)** Starting from $\frac{dy}{dx} = 3e^{3x}\sin(2e^{3x})$.
 
 Apply the product rule: $u = 3e^{3x}$, $v = \sin(2e^{3x})$.
 
-$$\frac{du}{dx} = 9e^{3x}$$
+$$
+\frac{du}{dx} = 9e^{3x}
+$$
 
-$$\frac{dv}{dx} = \cos(2e^{3x}) \cdot 2 \cdot 3e^{3x} = 6e^{3x}\cos(2e^{3x})$$
+$$
+\frac{dv}{dx} = \cos(2e^{3x}) \cdot 2 \cdot 3e^{3x} = 6e^{3x}\cos(2e^{3x})
+$$
 
-$$\frac{d^2y}{dx^2} = 9e^{3x}\sin(2e^{3x}) + 3e^{3x} \cdot 6e^{3x}\cos(2e^{3x})$$
+$$
+\frac{d^2y}{dx^2} = 9e^{3x}\sin(2e^{3x}) + 3e^{3x} \cdot 6e^{3x}\cos(2e^{3x})
+$$
 
-$$= 9e^{3x}\sin(2e^{3x}) + 18e^{6x}\cos(2e^{3x})$$
+$$
+= 9e^{3x}\sin(2e^{3x}) + 18e^{6x}\cos(2e^{3x})
+$$
 
 At $x = 0$: $e^0 = 1$, $2e^0 = 2$.
 
-$$\frac{d^2y}{dx^2}\bigg\rvert_{x=0} = 9\sin 2 + 18\cos 2$$
+$$
+\frac{d^2y}{dx^2}\bigg\rvert_{x=0} = 9\sin 2 + 18\cos 2
+$$
 
 ---
 
@@ -112,7 +117,7 @@ A curve is defined implicitly by the equation $x^2 + xy + y^2 = 12$.
 
 **(a)** Find $\frac{dy}{dx}$ in terms of $x$ and $y$.
 
-**(b)** A student differentiates $xy$ as $1 \cdot y = y$Forgetting the product rule. Write down the
+**(b)** A student differentiates $xy$ as $1 \cdot y = y$ Forgetting the product rule. Write down the
 incorrect expression the student would obtain for $\frac{dy}{dx}$ And find the coordinates of the
 points where the student's answer agrees with the correct answer.
 
@@ -126,24 +131,32 @@ and identification of where the common error coincidentally produces the correct
 
 **(a)** Differentiating $x^2 + xy + y^2 = 12$ with respect to $x$:
 
-$$2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0$$
+$$
+2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0
+$$
 
 The $xy$ term requires the product rule:
 $\frac{d}{dx}(xy) = x\frac{dy}{dx} + y\frac{dx}{dx} = x\frac{dy}{dx} + y$.
 
 Collecting terms:
 
-$$(x + 2y)\frac{dy}{dx} = -2x - y$$
+$$
+(x + 2y)\frac{dy}{dx} = -2x - y
+$$
 
-$$\frac{dy}{dx} = \frac{-2x - y}{x + 2y} = -\frac{2x + y}{x + 2y}$$
+$$
+\frac{dy}{dx} = \frac{-2x - y}{x + 2y} = -\frac{2x + y}{x + 2y}
+$$
 
 **(b)** The student differentiates $xy$ as just $y$ (treating $x$ as a constant):
 
-$$2x + y + 2y\frac{dy}{dx} = 0 \implies \frac{dy}{dx} = -\frac{2x+y}{2y}$$
+$$
+2x + y + 2y\frac{dy}{dx} = 0 \implies \frac{dy}{dx} = -\frac{2x+y}{2y}
+$$
 
 The correct answer is $\frac{dy}{dx} = -\frac{2x+y}{x+2y}$.
 
-These agree when $x + 2y = 2y$I.e. $x = 0$.
+These agree when $x + 2y = 2y$ I.e. $x = 0$.
 
 When $x = 0$: $0 + 0 + y^2 = 12 \implies y = \pm 2\sqrt{3}$.
 
@@ -151,11 +164,15 @@ So the student's error is masked at the points $(0, 2\sqrt{3})$ and $(0, -2\sqrt
 
 **(c)** The tangent is parallel to the $x$-axis when $\frac{dy}{dx} = 0$:
 
-$$-\frac{2x+y}{x+2y} = 0 \implies 2x + y = 0 \implies y = -2x$$
+$$
+-\frac{2x+y}{x+2y} = 0 \implies 2x + y = 0 \implies y = -2x
+$$
 
 Substituting into the curve equation:
 
-$$x^2 + x(-2x) + (-2x)^2 = 12 \implies x^2 - 2x^2 + 4x^2 = 12 \implies 3x^2 = 12 \implies x = \pm 2$$
+$$
+x^2 + x(-2x) + (-2x)^2 = 12 \implies x^2 - 2x^2 + 4x^2 = 12 \implies 3x^2 = 12 \implies x = \pm 2
+$$
 
 When $x = 2$: $y = -4$. Point: $(2, -4)$.
 
@@ -199,9 +216,13 @@ inflection, and requires higher-order derivative analysis.]
 
 **(a)** $y = x^4 - 4x^3 + 6x^2 - 4x + 1$
 
-$$\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4$$
+$$
+\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4
+$$
 
-$$\frac{d^2y}{dx^2} = 12x^2 - 24x + 12 = 12(x^2 - 2x + 1) = 12(x-1)^2$$
+$$
+\frac{d^2y}{dx^2} = 12x^2 - 24x + 12 = 12(x^2 - 2x + 1) = 12(x-1)^2
+$$
 
 **(b)** $\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4 = 4(x^3 - 3x^2 + 3x - 1) = 4(x-1)^3 = 0$.
 
@@ -232,7 +253,7 @@ $\frac{d^2y}{dx^2} = 0$; the first derivative test (sign change analysis) is the
 
 **(d)** $y = x^4 - 4x^3 + 6x^2 - 4x + 1 = (x-1)^4$.
 
-This is immediately obvious because $(x-1)^4 \geq 0$ for all $x$With equality only at $x = 1$. So
+This is immediately obvious because $(x-1)^4 \geq 0$ for all $x$ With equality only at $x = 1$. So
 $(1, 0)$ is a global (and local) minimum.
 
 ---
@@ -284,7 +305,7 @@ $\mathbb{R}$.
 For example, $f(-1) = -1 + 3 + 1 = 3$ and $f(2) = 8 - 6 + 1 = 3$ So $f(-1) = f(2)$ with $-1 \neq 2$.
 
 **(b)** The largest interval containing $x = 0$ on which $f$ is monotonic is $[-1, 1]$ (where
-$f' \leq 0$With equality only at the endpoints). Actually, on $(-1, 1)$, $f' \lt 0$ So $f$ is strictly
+$f' \leq 0$ With equality only at the endpoints). Actually, on $(-1, 1)$, $f' \lt 0$ So $f$ is strictly
 decreasing and therefore injective.
 
 The largest such interval is $[-1, 1]$.
@@ -349,9 +370,13 @@ Tangent: $y - 2 = -2(x - 1) \implies y = -2x + 4$.
 
 **(b)** For the line $y = -2x + 4$ to be tangent to $C_2$: $y = x^2 + 2x + 1$:
 
-$$x^2 + 2x + 1 = -2x + 4 \implies x^2 + 4x - 3 = 0$$
+$$
+x^2 + 2x + 1 = -2x + 4 \implies x^2 + 4x - 3 = 0
+$$
 
-$$x = \frac{-4 \pm \sqrt{16 + 12}}{2} = \frac{-4 \pm \sqrt{28}}{2} = -2 \pm \sqrt{7}$$
+$$
+x = \frac{-4 \pm \sqrt{16 + 12}}{2} = \frac{-4 \pm \sqrt{28}}{2} = -2 \pm \sqrt{7}
+$$
 
 This gives two distinct intersection points, so the line is a secant, not a tangent.
 
@@ -362,13 +387,13 @@ The question states to "show that this tangent is also a tangent to $C_2$." This
 incorrect for the given curves. The tangent to $C_1$ at $x = 1$ intersects $C_2$ at two distinct
 points.
 
-Let me check: the discriminant is $16 + 12 = 28 \gt 0$Confirming two distinct intersection points.
+Let me check: the discriminant is $16 + 12 = 28 \gt 0$ Confirming two distinct intersection points.
 The line is not tangent to $C_2$.
 
-For the line to be tangent to $C_2$We would need the discriminant to be zero. The gradient of the
+For the line to be tangent to $C_2$ We would need the discriminant to be zero. The gradient of the
 tangent to $C_2$ is $2x + 2$. Setting this equal to $-2$: $2x + 2 = -2 \implies x = -2$.
 
-At $x = -2$ on $C_2$: $y = 4 - 4 + 1 = 1$Gradient $= -2$. Tangent:
+At $x = -2$ on $C_2$: $y = 4 - 4 + 1 = 1$ Gradient $= -2$. Tangent:
 $y - 1 = -2(x + 2) \implies y = -2x - 3$.
 
 This is a different line from $y = -2x + 4$. The two curves do not share a common tangent at these
@@ -413,13 +438,17 @@ point classification, and inflection point identification.]
 
 **(a)** $y = xe^{-x}$.
 
-$$\frac{dy}{dx} = e^{-x} + x(-e^{-x}) = e^{-x}(1 - x)$$
+$$
+\frac{dy}{dx} = e^{-x} + x(-e^{-x}) = e^{-x}(1 - x)
+$$
 
 $\frac{dy}{dx} = 0 \implies 1 - x = 0 \implies x = 1$.
 
 $y(1) = e^{-1} = \frac{1}{e}$.
 
-$$\frac{d^2y}{dx^2} = -e^{-x}(1-x) + e^{-x}(-1) = e^{-x}(x - 1 - 1) = e^{-x}(x - 2)$$
+$$
+\frac{d^2y}{dx^2} = -e^{-x}(1-x) + e^{-x}(-1) = e^{-x}(x - 1 - 1) = e^{-x}(x - 2)
+$$
 
 At $x = 1$: $\frac{d^2y}{dx^2} = e^{-1}(-1) = -\frac{1}{e} \lt 0$.
 
@@ -449,11 +478,13 @@ The second derivative changes sign, so $\left(2, \frac{2}{e^2}\right)$ is a poin
 
 **(d)** The line $y = mx$ intersects $C$ when $mx = xe^{-x}$.
 
-For $x \neq 0$: $m = e^{-x}$Giving $x = -\ln m$ (requiring $m \gt 0$).
+For $x \neq 0$: $m = e^{-x}$ Giving $x = -\ln m$ (requiring $m \gt 0$).
 
 For tangency, the gradient of $C$ at this point must equal $m$:
 
-$$\frac{dy}{dx} = e^{-x}(1-x) = m$$
+$$
+\frac{dy}{dx} = e^{-x}(1-x) = m
+$$
 
 Substituting $e^{-x} = m$: $m(1 - (-\ln m)) = m \implies m(1 + \ln m) = m$.
 

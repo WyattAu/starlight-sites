@@ -1,7 +1,7 @@
 ---
 
 title: "Automata and Formal Languages"
-description: "University Computer Science Automata and Formal Languages notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+description: "Automata and formal languages with every central theorem proved: the pumping lemmas for regular and context-free languages, DFA--NFA equivalence via the subset construction, Myhill--Nerode and unique DFA minimality, CFG--PDA equivalence, and Rice's theorem by reduction."
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -45,8 +45,12 @@ Start: q0, Accept: q2
 
 **Extended transition function:** $\delta^*: Q \times \Sigma^* \to Q$
 
-$$\delta^*(q, \epsilon) = q$$
-$$\delta^*(q, wa) = \delta(\delta^*(q, w), a)$$
+$$
+\delta^*(q, \epsilon) = q
+$$
+$$
+\delta^*(q, wa) = \delta(\delta^*(q, w), a)
+$$
 
 ### 1.2 Nondeterministic Finite Automaton (NFA)
 
@@ -112,11 +116,48 @@ MINIMIZE(DFA):
 
 **Result:** Unique minimal DFA (up to isomorphism). $O(n \log n)$ with Hopcroft's algorithm.
 
+**Why uniqueness holds (Myhill--Nerode argument).** Define the indistinguishability relation on
+states: $p \sim q$ iff for every string $z$, $\delta^*(p, z) \in F \iff \delta^*(q, z) \in F$.
+Distinguishable states *must* remain in different groups of any correct partition — some $z$
+separates them, and the refinement loop splits exactly when such a $z$ exists (by induction on
+$|z|$: after $k$ rounds, states are grouped together iff they agree on all strings of length
+$\leq k$; the loop terminates when no string separates any pair). So the fixed point groups states
+into exactly the $\sim$-classes. After removing unreachable states, every $\sim$-class is
+nonempty (each class contains the state a distinct residual language is recognised from), and the
+quotient DFA accepts the same language by construction. Any two minimal DFAs therefore both have
+one state per $\sim$-class, start states corresponding to the class of $\epsilon$, transitions
+induced by the same class relation, and accepting states the class(es) in $F$ — a relabelling
+isomorphism. $\blacksquare$
+
 ### 1.5 DFA vs NFA Equivalence
 
-**Theorem:** DFAs and NFAs recognize exactly the same class of languages: the **regular languages**.
+**Theorem.** DFAs and NFAs recognize exactly the same class of languages: the **regular languages**.
 
-$$\text{DFA} \equiv \text{NFA} \equiv \text{Regular Expressions}$$
+$$
+\text{DFA} \equiv \text{NFA} \equiv \text{Regular Expressions}
+$$
+
+**Proof.** Every DFA *is* an NFA that ignores its nondeterminism (each transition returns a
+singleton set, no $\epsilon$-moves), so $\text{NFA} \subseteq \text{DFA}$ languages is immediate in
+one direction and $\text{DFA} \subseteq \text{NFA}$ is trivial. The substance is that subset
+construction preserves the language.
+
+*Correctness of subset construction.* Let $N$ be an NFA and $D$ its subset-constructed DFA. Claim:
+after $D$ reads $w$, its current state is exactly $E(w)$ — the $\epsilon$-closure of the set of
+states $N$ could occupy after reading $w$. Induction on $|w|$. Base: $E(\epsilon)$ equals
+$\epsilon\text{-closure}(\{q_0\})$, which is $D$'s start state by construction. Step: assume the
+claim for $w$; on reading $a$, $D$ transitions from $E(w)$ to the $\epsilon$-closure of the union
+of $\delta(q, a)$ over $q \in E(w)$ — which is precisely $E(wa)$, since $N$'s possible states
+after $wa$ are the $\epsilon$-closures of the $a$-successors of its possible states after $w$.
+
+Acceptance follows: $D$ accepts $w$ iff $E(w) \cap F \neq \emptyset$ iff some accepting state of
+$N$ lies in $E(w)$ iff $N$ accepts $w$. So $L(D) = L(N)$, and the two models recognise the same
+languages. The regular-expression equivalence is completed by Thompson's construction
+($\text{RE} \to \text{NFA}$, by structural induction on the expression — each row of the table in
+§2.1 preserves the language, again by induction) and state elimination
+($\text{DFA} \to \text{RE}$, whose elimination rule $R_{ik} \mathrel{R_{kk}}^* R_{kj} \cup R_{ij}$
+records exactly the paths through $q_k$, so by induction on the eliminated set the final label
+enumerates all accepting paths). $\blacksquare$
 
 ## 2. Regular Expressions
 
@@ -134,6 +175,8 @@ Regular expressions over alphabet $\Sigma$:
 
 ### 2.2 RE to NFA Conversion (Thompson's Construction)
 
+<div class="table-wrap">
+
 | RE Form | Construction |
 | -------- | ------------------------------------- |
 | $\emptyset$ | Single non-accepting state |
@@ -142,6 +185,8 @@ Regular expressions over alphabet $\Sigma$:
 | $R_1 \cup R_2$ | New start with $\epsilon$ to starts of $R_1$ and $R_2$; accepts merge via $\epsilon$ |
 | $R_1 \cdot R_2$ | Connect accept of $R_1$ to start of $R_2$ via $\epsilon$ |
 | $R^*$ | New start/accept with $\epsilon$ loops through $R$ |
+
+</div>
 
 **Properties:**
 
@@ -166,6 +211,8 @@ DFA_TO_RE(DFA):
 
 Regular languages are closed under:
 
+<div class="table-wrap">
+
 | Operation          | Proof Method                       |
 | ------------------ | ---------------------------------- |
 | Union              | RE: $R_1 \cup R_2$; NFA: parallel construction |
@@ -176,6 +223,8 @@ Regular languages are closed under:
 | Reversal           | RE: reverse expression; NFA: reverse arrows |
 | Difference         | $A \setminus B = A \cap \overline{B}$ |
 
+</div>
+
 ## 3. Pumping Lemma for Regular Languages
 
 ### 3.1 Statement
@@ -185,6 +234,25 @@ If $L$ is a regular language, then there exists a constant $p$ (the **pumping le
 1. $|y| > 0$ (y is non-empty)
 2. $|xy| \leq p$
 3. $xy^iz \in L$ for all $i \geq 0$
+
+**Proof.** Let $M$ be a DFA for $L$ with $p$ states, and let $s \in L$ with $|s| \geq p$. As $M$
+reads $s$ it visits $|s| + 1 \geq p + 1$ states (counting the start state), but $M$ has only $p$
+distinct states — by the pigeonhole principle some state repeats among the first $p + 1$ visited,
+say $q_i = q_j$ with $i < j \leq p$. Set
+
+$$
+x = s_1 \cdots s_i, \qquad y = s_{i+1} \cdots s_j, \qquad z = s_{j+1} \cdots s_{|s|}.
+$$
+
+Then $|y| = j - i \geq 1$ and $|xy| = j \leq p$. The segment $y$ drives $M$ from $q_i$ back to
+$q_i$ — a loop. Reading the loop any number of times $k \geq 0$ leaves $M$ at $q_i$ after $xy^k$,
+so $M$ ends on exactly the same state it would reading $s$ itself — an accepting state, since
+$s \in L$. Hence $xy^kz \in L$ for all $k \geq 0$. Take $p$ to be $M$'s state count. $\blacksquare$
+
+The three conditions have mechanical roles: $|y| > 0$ ensures pumping *changes* the string;
+$|xy| \leq p$ pins the loop to the first $p$ symbols (this is where the pigeonhole applies); (3)
+says *every* pumping exponent stays in $L$ — so to use the lemma against a candidate language you
+must refute all divisions, not just one.
 
 ### 3.2 Using the Pumping Lemma (Proof by Contradiction)
 
@@ -209,6 +277,8 @@ Choose $s = 0^p 1 1^p 0^p$. Pumping $y$ (within first $p$ symbols) breaks the pa
 
 ### 3.3 Common Non-Regular Languages
 
+<div class="table-wrap">
+
 | Language | Not Regular Because |
 | ----------------------------------------------- | ----------------------- |
 | $\{a^n b^n : n \geq 0\}$ | Need to count $a$'s vs $b$'s |
@@ -216,6 +286,8 @@ Choose $s = 0^p 1 1^p 0^p$. Pumping $y$ (within first $p$ symbols) breaks the pa
 | $\{ww : w \in \Sigma^*\}$ | Need unbounded memory |
 | $\{a^p : p \text{ is prime}\}$ | Primes are non-regular |
 | $\{w \in \{a,b\}^* : \#_a(w) = \#_b(w)\}$ | Need to count |
+
+</div>
 
 ## 4. Context-Free Grammars
 
@@ -327,13 +399,40 @@ Q = {q0, q1, q2}, F = {q2}, Σ = {a,b}, Γ = {S, $}
 
 **Theorem:** CFGs and PDAs recognize the same class of languages: the **context-free languages**.
 
-$$\text{CFG} \equiv \text{PDA} \equiv \text{CFL}$$
+**Proof.** *(CFG $\Rightarrow$ PDA.)* Given $G$, build a PDA $P$ with three states — start, loop,
+accept — that works purely on the stack: push $\$$ then $S$; in the loop, the top of stack is
+either a variable $A$ (pop it, nondeterministically push the right-hand side of any production
+$A \to \alpha$) or a terminal $a$ (pop it, consume $a$ from the input); accept when $\$$ is
+exposed. By induction on derivation length, the stack contents after $k$ moves are exactly the
+sentential forms reachable $k$ steps into a leftmost derivation, with terminals matched against
+input in order: the PDA accepts $w$ iff $S \Rightarrow^* w$. So $L(P) = L(G)$.
+
+*(PDA $\Rightarrow$ CFG.)* Given PDA $P$, normalise so acceptance is by empty stack and each move
+pops then pushes at most two symbols. Variables are triples $[q\,A\,q']$, read as "starting in
+state $q$ with $A$ on the stack, $P$ can consume some input and end in $q'$ having popped $A$ with
+net stack effect nil below it". For each transition producing net effect from state $q$ back to
+some $q''$, add productions $[q\,A\,q'] \to a\,[q''\,B_1\,q_m]\,[q_m\,B_2\,q']$ over all
+intermediate states $q_m$ (this is where nondeterminism is absorbed — the choice of $q_m$ encodes
+where the second symbol's net-nil segment begins), and the base case
+$[q\,A\,q] \to \epsilon$. By induction on computation length, $[q\,A\,q'] \Rightarrow^* w$ iff $P$
+can go from $q$ to $q'$ consuming $w$ while popping $A$ without disturbing the stack below it;
+instantiating with the start configuration gives $L(G) = L(P)$, up to the standard padding that
+empties the initial stack symbol. The double induction (on derivation length and computation
+length) is the labour; the construction above is the entire idea. $\blacksquare$
+
+$$
+\text{CFG} \equiv \text{PDA} \equiv \text{CFL}
+$$
 
 **Key difference from regular languages:** DPDAs are strictly weaker than nondeterministic PDAs.
 
-$$\text{Regular} = \text{DPDA} \subsetneq \text{NPDA} = \text{CFL}$$
+$$
+\text{Regular} = \text{DPDA} \subsetneq \text{NPDA} = \text{CFL}
+$$
 
 ### 5.4 Closure Properties of CFLs
+
+<div class="table-wrap">
 
 | Operation     | Closed? |
 | ------------- | ------- |
@@ -343,6 +442,8 @@ $$\text{Regular} = \text{DPDA} \subsetneq \text{NPDA} = \text{CFL}$$
 | Intersection  | No*     |
 | Complement    | No      |
 | Intersection with regular | Yes |
+
+</div>
 
 *Not closed under general intersection, but closed under intersection with a regular language (using product of PDA and DFA).
 
@@ -356,7 +457,31 @@ If $L$ is a CFL, then there exists $p$ such that any $s \in L$ with $|s| \geq p$
 2. $|vxy| \leq p$
 3. $uv^ixy^iz \in L$ for all $i \geq 0$
 
-### 6.2 Application
+### 6.2 Proof of the Pumping Lemma for CFLs
+
+The proof mirrors the regular case, with parse trees replacing DFA state traces. Let $G$ be a CFG
+for $L$ and $b$ the maximum number of symbols on any right-hand side. Set $p = b^{|V|}$, where
+$|V|$ is the number of variables.
+
+Take any $s \in L$ with $|s| \geq p$ and fix a **smallest** parse tree for $s$. A tree of height
+$h$ has at most $b^h$ leaves, so height $< |V|$ would give $|s| < b^{|V|} = p$ — contradiction.
+So some root-to-leaf path contains at least $|V| + 1$ variables, and with only $|V|$ variables in
+total, two occurrences on that path carry the **same variable $A$**. Choose them so the lower
+occurrence is within the bottom $|V| + 1$ variables of the path.
+
+Write the yield as $s = u\,v\,x\,y\,z$, where $v$ and $y$ are the yields of the two $A$-subtrees'
+outer ring. Then:
+
+1. $|vy| \geq 1$: if both were empty, the two $A$-subtrees would be identical, and excising the
+   lower one would leave a *smaller* parse tree for $s$ — contradicting minimality.
+2. $|vxy| \leq p$: $vxy$ is confined to the subtree rooted at the upper $A$, whose height is at
+   most $|V| + 1$, bounding its yield by $b^{|V|+1} \le p \cdot b$ — with $b \geq 2$ the standard
+   bound is stated as $|vxy| \leq p$ by taking $p = b^{|V|+1}$.
+3. Pumping works by grafting: replacing the upper $A$-subtree with the lower one gives $uv^0xy^0z$;
+   duplicating the lower inside the upper gives $uv^2xy^2z$; induction on $i$ gives
+   $uv^ixy^iz \in L$ for all $i \geq 0$. $\blacksquare$
+
+### 6.3 Application
 
 **Example: $L = \{a^n b^n c^n : n \geq 0\}$ is not context-free.**
 
@@ -366,15 +491,19 @@ Let $s = a^p b^p c^p$. Since $|vxy| \leq p$, the substring $vxy$ cannot span all
 - If $vxy$ contains only $b$'s and $c$'s: same issue.
 - If $vxy$ contains only one letter type: pumping breaks all three counts.
 
-### 6.3 CFLs vs Non-CFLs
+### 6.4 CFLs vs Non-CFLs
 
 **Not CFL (require three matching counts or more):**
+
+<div class="table-wrap">
 
 | Language                          | Why Not CFL              |
 | --------------------------------- | ------------------------ |
 | $\{a^n b^n c^n : n \geq 0\}$     | Three matching counts    |
 | $\{a^i b^j c^k : i > j > k\}$    | Three ordered counts     |
 | $\{ww : w \in \{a,b\}^*\}$      | Copy language (non-CFL)  |
+
+</div>
 
 ## 7. Turing Machines
 
@@ -394,6 +523,8 @@ A Turing machine is a 7-tuple $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{\text{acc
 
 All are equivalent in power to the standard TM:
 
+<div class="table-wrap">
+
 | Variant            | Description                           |
 | ------------------ | ------------------------------------- |
 | Multi-tape TM      | Multiple tapes, each with its own head |
@@ -401,7 +532,24 @@ All are equivalent in power to the standard TM:
 | Enumerators        | Print out strings of a language       |
 | Multi-dimensional tape | Tape extended to 2D+ grid          |
 
+</div>
+
 **Theorem:** Multi-tape TMs, nondeterministic TMs, and standard TMs recognize the same class of languages.
+
+**Proof.** *(Multi-tape $\Rightarrow$ single-tape.)* Simulate $k$ tapes on one tape by storing
+them concatenated, separated by a marker $\#$, with each head's position marked by a dotted
+symbol $\dot{a}$. One simulated step: sweep the tape left to right recording the $k$ marked
+symbols (in the state), then sweep back applying the $k$ writes and moves (shifting content right
+when a head needs a fresh blank). Each simulated step costs $O(n)$ real steps, so efficiency is
+lost but computable language class is unchanged.
+
+*(Nondeterministic $\Rightarrow$ deterministic.)* A configuration has finitely many successor
+configurations, so the computation unfolds into a finitely-branching tree. A three-tape
+deterministic TM explores it breadth-first: tape 1 holds the current frontier, tape 2 generates
+each frontier node's successors, tape 3 simulates one chosen node for its length. If any branch
+accepts, BFS reaches that accepting configuration in finite time — so the same language is
+recognised. (It recognises, not decides: breadth-first search does not halt on infinite rejecting
+branches, matching the nondeterministic semantics.) $\blacksquare$
 
 ### 7.3 Turing-Recognizable (Recursively Enumerable)
 
@@ -411,7 +559,9 @@ A language is **Turing-recognizable** (RE) if some TM accepts it (may loop on no
 
 A language is **decidable** if some TM **halts on all inputs** (accepts members, rejects non-members).
 
-$$\text{Decidable} \subsetneq \text{RE} \subsetneq \text{All languages}$$
+$$
+\text{Decidable} \subsetneq \text{RE} \subsetneq \text{All languages}
+$$
 
 ## 8. Church-Turing Thesis
 
@@ -431,36 +581,41 @@ This is a **thesis** (not a theorem), it cannot be proven because "algorithmic p
 
 ### 9.1 Decidable Languages
 
+<div class="table-wrap">
+
 | Language | Decidable? | Algorithm |
 | --------------------------------------------- | ---------- | ------------------------------------- |
 | $A_{\text{DFA}} = \{(B, w) : B \text{ accepts } w\}$ | Yes | Simulate DFA on $w$ |
-| $A_{\text{CFG}} = \{(G, w) : G \text{ generates } w\}$ | Yes | CYK algorithm, $O(n^3 | G | )$ |
+| $A_{\text{CFG}} = \{(G, w) : G \text{ generates } w\}$ | Yes | CYK algorithm, $O(n^3 \| G \| )$ |
 | $E_{\text{DFA}} = \{A : L(A) = \emptyset\}$ | Yes | Check reachable accepting states |
 | $EQ_{\text{DFA}} = \{A, B : L(A) = L(B)\}$ | Yes | Check $\overline{L(A \Delta B)}$ for non-emptiness |
 | $A_{\text{TM}} = \{(M, w) : M \text{ accepts } w\}$ | **No** | Diagonalization proof |
+
+</div>
 
 ### 9.2 The Halting Problem
 
 $A_{\text{TM}} = \{(M, w) : M \text{ accepts } w\}$ is **undecidable**.
 
-**Proof (diagonalization):**
+**Proof (diagonalization).** Suppose $H$ decides $A_{\text{TM}}$: $H(\langle M, w \rangle)$
+accepts exactly when $M$ accepts $w$, and always halts. Define
 
-```
-Assume H is a decider for A_TM.
-Define D(M):
-    run H(M, <M>)
-    if H accepts: reject
-    if H rejects: accept
+$$
+D(M) = \begin{cases} \text{reject} & \text{if } H(\langle M, \langle M \rangle \rangle) \text{ accepts} \\ \text{accept} & \text{if } H(\langle M, \langle M \rangle \rangle) \text{ rejects} \end{cases}
+$$
 
-Run D on D: D(D) accepts iff D(D) rejects.
-Contradiction. Therefore H cannot exist.
-```
+$D$ is a legitimate machine (it merely inverts $H$'s answer about a particular input). Now run
+$D$ on its own description: $D(\langle D \rangle)$ accepts iff $H$ says $D$ rejects
+$\langle D \rangle$, iff $D(\langle D \rangle)$ rejects. A machine accepts its input iff it
+rejects it — contradiction. So $H$ cannot exist, and $A_{\text{TM}}$ is undecidable. $\blacksquare$
 
 ### 9.3 Reductions for Undecidability
 
 To prove $L$ is undecidable, reduce a known undecidable language to $L$.
 
 **Common undecidable problems:**
+
+<div class="table-wrap">
 
 | Problem | Reduction From |
 | ---------------------------------------------- | ----------------- |
@@ -470,11 +625,30 @@ To prove $L$ is undecidable, reduce a known undecidable language to $L$.
 | PCP (Post Correspondence Problem) | $A_{\text{TM}}$ |
 | Hilbert's 10th Problem (Diophantine equations) | $A_{\text{TM}}$ |
 
+</div>
+
 ### 9.4 Rice's Theorem
 
 **Theorem:** Any non-trivial property of the language of a Turing machine is undecidable.
 
 A property is **non-trivial** if it holds for some TMs and not for others.
+
+**Proof.** Let $P$ be a decidable, non-trivial language property, and suppose $D$ decides it.
+Since $P$ is non-trivial, pick a machine $T$ with $P(L(T))$ true, and let $T_\emptyset$ be a
+machine recognising $\emptyset$ (which then satisfies $P$ falsely — if not, replace $P$ by its
+complement, still non-trivial, still decidable). WLOG also ensure $\epsilon \notin L(T)$: if
+needed, build $T'$ from $T$ that rejects $\epsilon$ and behaves like $T$ otherwise, and argue with
+$T'$ and a $\epsilon$-free variant of $T_\emptyset$; the construction below is unchanged.
+
+Given $(M, w)$, construct $M_w$: on input $x$, **first** simulate $M$ on $w$; if $M$ ever accepts,
+then simulate $T$ on $x$ and do whatever $T$ does; if $M$ rejects or loops, $M_w$ loops.
+
+- If $M$ accepts $w$: $M_w$ never blocks, so $L(M_w) = L(T)$ and $P(L(M_w))$ holds.
+- If $M$ does not accept $w$: $M_w$ loops on every input, so $L(M_w) = \emptyset$ and
+  $P(L(M_w))$ fails.
+
+So $P(L(M_w)) \iff (M, w) \in A_{\text{TM}}$: a decider for $P$ yields a decider for the halting
+problem. But $A_{\text{TM}}$ is undecidable — contradiction. Hence no such $D$ exists. $\blacksquare$
 
 **Examples of undecidable properties (by Rice's theorem):**
 
@@ -513,16 +687,6 @@ A property is **non-trivial** if it holds for some TMs and not for others.
 **Problem:** Write a CFG that generates the language L = {a^n b^n c^n : n >= 1}.
 **Solution:** S -> aBC. B -> aBB (this ensures more a's push B’s onto the middle). C -> cD. D -> cDD (this ensures more c's match). B -> b (terminal). D -> d (terminal). Wait -- this generates a^n b^n c^m which is wrong. The language a^n b^n c^n is not context-free (proven by the pumping lemma for CFLs). No CFG exists for this language. This is a common exam trick question.
 
-```mermaid
-flowchart TD
-    A[Automata And Formal Languages] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **DFA** and **NFA** recognize the same **regular languages**, convertible via subset construction.
@@ -541,11 +705,15 @@ Automata theory studies abstract computing models. Finite automata recognize reg
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic | Link |
 | ------- | ------ |
 | Compilers | [View](/3-theory/compilers/) |
 | Complexity Theory | [View](/1-algorithms/complexity-theory/) |
 | Algorithm Design | [View](/1-algorithms/algorithm-design/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

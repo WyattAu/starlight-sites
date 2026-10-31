@@ -30,7 +30,9 @@ categories: [ib-economics]
 
 AD is the total planned expenditure on goods and services at each price level:
 
-$$\mathrm{AD} = C + I + G + (X - M)$$
+$$
+\mathrm{AD} = C + I + G + (X - M)
+$$
 
 The AD curve slopes downward due to:
 
@@ -49,7 +51,7 @@ AD shifts rightward when:
 - Interest rates fall (increasing $I$ and $C$)
 - Government spending increases (increasing $G$)
 - Income taxes fall (increasing $C$ and $I$ via higher disposable income)
-- The exchange rate depreciates (increasing $X$Reducing $M$)
+- The exchange rate depreciates (increasing $X$ Reducing $M$)
 - Foreign income rises (increasing $X$)
 - Wealth increases (e.g., rising house prices, stock market gains)
 
@@ -58,7 +60,7 @@ AD shifts leftward when the reverse occurs.
 ### Short-Run Aggregate Supply (SRAS)
 
 The SRAS curve slopes upward because, in the short run, some input prices (particularly wages) are
-Sticky. As the price level rises, firms find it profitable to increase output since revenues rise
+sticky. As the price level rises, firms find it profitable to increase output since revenues rise
 Faster than costs.
 
 SRAS shifts rightward when:
@@ -76,7 +78,7 @@ Geopolitical disruption of energy supplies).
 ### Long-Run Aggregate Supply (LRAS)
 
 The LRAS curve is vertical at the **full employment level of output** (potential GDP, $Y^*$). In the
-Long run, all input prices are flexible, and output is determined by the economy"s productive
+long run, all input prices are flexible, and output is determined by the economy"s productive
 Capacity (factors of production and technology). Changes in the price level do not affect long-run
 Output.
 
@@ -108,8 +110,8 @@ potential Output. An inflationary gap causes wages and prices to rise, shifting 
 the Economy returns to potential output.
 
 Keynesians argue that wages are "sticky downward" (workers resist nominal wage cuts), so the
-Self-correction mechanism may be slow and incomplete. This justifies active demand-side policy to
-Close output gaps.
+self-correction mechanism may be slow and incomplete. This justifies active demand-side policy to
+close output gaps.
 
 ## Economic Growth
 
@@ -117,7 +119,7 @@ Close output gaps.
 
 **Short-run growth** is an increase in real GDP caused by shifts in AD or SRAS, moving the economy
 Along its LRAS curve. It is associated with reductions in cyclical unemployment and utilisation of
-Spare capacity. Short-run growth is not sustainable once the economy reaches full employment.
+spare capacity. Short-run growth is not sustainable once the economy reaches full employment.
 
 **Long-run growth** is an increase in the economy's productive capacity, represented by a rightward
 Shift of the LRAS curve. It is the only sustainable source of rising living standards.
@@ -126,11 +128,15 @@ Shift of the LRAS curve. It is the only sustainable source of rising living stan
 
 **Solow growth model**: output depends on capital ($K$), labour ($L$), and technology ($A$):
 
-$$Y = A \cdot f(K, L)$$
+$$
+Y = A \cdot f(K, L)
+$$
 
 In per-worker terms:
 
-$$y = A \cdot f(k)$$
+$$
+y = A \cdot f(k)
+$$
 
 Where $y = Y/L$ and $k = K/L$.
 
@@ -153,7 +159,9 @@ Where $y = Y/L$ and $k = K/L$.
 In the Solow model, the economy converges to a **steady state** where capital per worker is
 constant:
 
-$$s \cdot f(k^*) = (n + \delta) \cdot k^*$$
+$$
+s \cdot f(k^*) = (n + \delta) \cdot k^*
+$$
 
 Where $s$ is the savings rate, $n$ is the population growth rate, and $\delta$ is the depreciation
 Rate. At the steady state:
@@ -163,7 +171,7 @@ Rate. At the steady state:
 - Output per worker is constant
 - Growth in output per worker is zero (unless there is technological progress)
 
-With exogenous technological progress at rate $g$Output per worker grows at rate $g$ in the steady
+With exogenous technological progress at rate $g$ Output per worker grows at rate $g$ in the steady
 State. Total output grows at rate $n + g$.
 
 ### Endogenous Growth Theory
@@ -178,10 +186,12 @@ economic Decisions:
 - **Knowledge spillovers**: new ideas benefit other firms and workers, creating positive
   externalities that can prevent diminishing returns
 
-A simple endogenous growth model: $Y = A \cdot K$Where $A$ is a constant reflecting the Productivity
+A simple endogenous growth model: $Y = A \cdot K$ Where $A$ is a constant reflecting the Productivity
 of capital. Here, there are no diminishing returns to capital, and the growth rate is:
 
-$$g_Y = s \cdot A - \delta$$
+$$
+g_Y = s \cdot A - \delta
+$$
 
 Policies that increase the savings rate permanently increase the growth rate.
 
@@ -192,13 +202,13 @@ Ones and eventually catch up, since they have more scope for capital accumulatio
 Returns set in later).
 
 The **conditional convergence** hypothesis holds that convergence only occurs among countries with
-Similar savings rates, population growth, institutional quality, and human capital. Empirical
+similar savings rates, population growth, institutional quality, and human capital. Empirical
 Evidence broadly supports conditional convergence.
 
 ## Supply-Side Policies
 
 Supply-side policies aim to increase the economy's productive capacity (shift LRAS rightward) by
-Improving the quantity, quality, and efficiency of factors of production.
+improving the quantity, quality, and efficiency of factors of production.
 
 ### Market-Oriented Supply-Side Policies
 
@@ -286,13 +296,15 @@ The business cycle refers to fluctuations in economic activity around the long-r
 ### Real Business Cycle Theory
 
 A school of thought that attributes business cycles primarily to real (technology) shocks rather
-Than monetary or demand-side factors. Proponents argue that fluctuations in GDP represent optimal
+than monetary or demand-side factors. Proponents argue that fluctuations in GDP represent optimal
 Responses to changes in productivity, and that government intervention to stabilise the cycle is
-Unnecessary and potentially harmful.
+unnecessary and potentially harmful.
 
 ## AD/AS Model: Comprehensive Shifting Factors (HL Extension)
 
 ### Comprehensive List of AD Shift Factors
+
+<div class="table-wrap">
 
 | Factor                                  | Direction of AD Shift | Mechanism                                 |
 | --------------------------------------- | --------------------- | ----------------------------------------- |
@@ -309,7 +321,11 @@ Unnecessary and potentially harmful.
 | Business confidence falls               | Leftward              | $I \downarrow$                            |
 | Corporation tax rises                   | Leftward              | $I \downarrow$ (lower after-tax returns)  |
 
+</div>
+
 ### Comprehensive List of SRAS Shift Factors
+
+<div class="table-wrap">
 
 | Factor                                 | Direction of SRAS Shift        | Mechanism                           |
 | -------------------------------------- | ------------------------------ | ----------------------------------- |
@@ -323,6 +339,8 @@ Unnecessary and potentially harmful.
 | Indirect tax (VAT) increases           | Leftward                       | Higher costs passed to prices       |
 | Good harvest                           | Rightward                      | Lower food costs                    |
 | Natural disaster                       | Leftward                       | Supply disruption                   |
+
+</div>
 
 ### AD-AS Diagram Analysis Framework
 
@@ -341,54 +359,78 @@ For any AD/AS question, follow this systematic approach:
 
 Starting with the equilibrium condition in an open economy with government:
 
-$$Y = C + I + G + X - M$$
+$$
+Y = C + I + G + X - M
+$$
 
 Substituting the consumption function $C = a + b(Y - T)$ and the import function $M = mY$:
 
-$$Y = a + b(Y - T) + I + G + X - mY$$
+$$
+Y = a + b(Y - T) + I + G + X - mY
+$$
 
 Assuming a proportional tax $T = tY$:
 
-$$Y = a + bY - btY + I + G + X - mY$$
+$$
+Y = a + bY - btY + I + G + X - mY
+$$
 
-$$Y - bY + btY + mY = a + I + G + X$$
+$$
+Y - bY + btY + mY = a + I + G + X
+$$
 
-$$Y(1 - b + bt + m) = a + I + G + X$$
+$$
+Y(1 - b + bt + m) = a + I + G + X
+$$
 
-$$Y = \frac{a + I + G + X}{1 - b(1 - t) + m}$$
+$$
+Y = \frac{a + I + G + X}{1 - b(1 - t) + m}
+$$
 
 The denominator is the sum of all leakages:
 
-$$k = \frac{1}{1 - b(1 - t) + m} = \frac{1}{\text{MPS} + \text{MPT} + \text{MPM}}$$
+$$
+k = \frac{1}{1 - b(1 - t) + m} = \frac{1}{\text{MPS} + \text{MPT} + \text{MPM}}
+$$
 
 ### The Tax Multiplier
 
-A change in autonomous taxes $\Delta T$ changes disposable income by $\Delta T$Which changes
+A change in autonomous taxes $\Delta T$ changes disposable income by $\Delta T$ Which changes
 Consumption by $b \cdot \Delta T$ (where $b$ is MPC):
 
-$$\Delta Y = \frac{-b}{1 - b(1 - t) + m} \cdot \Delta T$$
+$$
+\Delta Y = \frac{-b}{1 - b(1 - t) + m} \cdot \Delta T
+$$
 
 The tax multiplier is:
 
-$$k_T = \frac{-b}{1 - b(1 - t) + m}$$
+$$
+k_T = \frac{-b}{1 - b(1 - t) + m}
+$$
 
 The tax multiplier is always smaller in absolute value than the spending multiplier because a tax
 Change affects only disposable income, not spending directly. Some of the tax change is absorbed by
-Reduced saving.
+reduced saving.
 
 **Relationship:**
 
-$$|k_G| = \frac{1}{1 - b(1 - t) + m} > |k_T| = \frac{b}{1 - b(1 - t) + m}$$
+$$
+|k_G| = \frac{1}{1 - b(1 - t) + m} > |k_T| = \frac{b}{1 - b(1 - t) + m}
+$$
 
-Since $b < 1$The spending multiplier always exceeds the absolute value of the tax multiplier.
+Since $b < 1$ The spending multiplier always exceeds the absolute value of the tax multiplier.
 
 ### Balanced Budget Multiplier: Proof
 
 If $\Delta G = \Delta T$ (lump-sum taxes for simplicity):
 
-$$\Delta Y = k_G \cdot \Delta G + k_T \cdot \Delta T = \frac{1}{1-b}\Delta G + \frac{-b}{1-b}\Delta T$$
+$$
+\Delta Y = k_G \cdot \Delta G + k_T \cdot \Delta T = \frac{1}{1-b}\Delta G + \frac{-b}{1-b}\Delta T
+$$
 
-$$\Delta Y = \frac{\Delta G - b \cdot \Delta G}{1 - b} = \frac{\Delta G(1 - b)}{1 - b} = \Delta G$$
+$$
+\Delta Y = \frac{\Delta G - b \cdot \Delta G}{1 - b} = \frac{\Delta G(1 - b)}{1 - b} = \Delta G
+$$
 
 The balanced budget multiplier equals 1, regardless of the MPC. An equal increase in government
 Spending and taxes increases GDP by exactly the amount of the spending increase.
@@ -415,23 +457,27 @@ Multiplier is confirmed.
 
 The Laffer curve illustrates the theoretical relationship between the tax rate and tax revenue:
 
-$$\text{Tax revenue} = t \times Y(t)$$
+$$
+\text{Tax revenue} = t \times Y(t)
+$$
 
-Where $Y(t)$ is the tax base (income, output), which depends on the tax rate. At $t = 0$Revenue Is
-zero. At $t = 100\%$Revenue is also zero (no one works or invests if all income is taxed). Between
+Where $Y(t)$ is the tax base (income, output), which depends on the tax rate. At $t = 0$ Revenue Is
+zero. At $t = 100\%$ Revenue is also zero (no one works or invests if all income is taxed). Between
 these extremes, there is a revenue-maximising tax rate $t^*$.
 
 **Implications:**
 
-- For tax rates above $t^*$Reducing the tax rate can increase revenue by stimulating economic
+- For tax rates above $t^*$ Reducing the tax rate can increase revenue by stimulating economic
   activity
-- For tax rates below $t^*$Reducing the tax rate decreases revenue
+- For tax rates below $t^*$ Reducing the tax rate decreases revenue
 - The position of $t^*$ is empirically uncertain and debated. Most estimates for income tax place it
   between 50% and 70%
 - The Laffer curve does not imply that all tax cuts pay for themselves. Empirical evidence suggests
   that tax cuts reduce revenue, though they may partly pay for themselves through growth effects
 
 ### Market-Based vs. Interventionist Supply-Side Policies: Evaluation
+
+<div class="table-wrap">
 
 | Criterion                  | Market-Based                                          | Interventionist                               |
 | -------------------------- | ----------------------------------------------------- | --------------------------------------------- |
@@ -442,6 +488,8 @@ these extremes, there is a revenue-maximising tax rate $t^*$.
 | Risk of market failure     | Higher (deregulation may cause externalities)         | Lower (government can correct failures)       |
 | Political feasibility      | Varies (tax cuts popular, deregulation controversial) | Varies (spending popular, taxes unpopular)    |
 
+</div>
+
 ## Economic Growth Models (HL Extension)
 
 ### Solow Growth Model: Comprehensive Analysis
@@ -451,15 +499,21 @@ Growth, and technological progress.
 
 **Production function:**
 
-$$Y = F(K, L)$$
+$$
+Y = F(K, L)
+$$
 
 In per-worker terms ($y = Y/L$, $k = K/L$):
 
-$$y = f(k)$$
+$$
+y = f(k)
+$$
 
 **Capital accumulation:**
 
-$$\dot{k} = s \cdot f(k) - (n + \delta)k$$
+$$
+\dot{k} = s \cdot f(k) - (n + \delta)k
+$$
 
 Where $s$ is the savings rate, $n$ is the population growth rate, and $\delta$ is the depreciation
 Rate.
@@ -474,7 +528,7 @@ At the steady state, capital per worker and output per worker are constant.
 
 **Convergence:**
 
-Starting from any $k_0$The economy converges to $k^*$ because:
+Starting from any $k_0$ The economy converges to $k^*$ because:
 
 - If $k < k^*$: $s \cdot f(k) > (n + \delta)k$ So $k$ rises
 - If $k > k^*$: $s \cdot f(k) < (n + \delta)k$ So $k$ falls
@@ -493,13 +547,19 @@ Starting from any $k_0$The economy converges to $k^*$ because:
 **Golden Rule of capital accumulation:** the savings rate that maximises steady-state consumption
 Per worker:
 
-$$c^* = f(k^*) - (n + \delta)k^*$$
+$$
+c^* = f(k^*) - (n + \delta)k^*
+$$
 
 Consumption is maximised where the slope of the production function equals $(n + \delta)$:
 
-$$f'(k^{**}) = n + \delta$$
+$$
+f'(k^{**}) = n + \delta
+$$
 
-$$\text{MPK} = n + \delta$$
+$$
+\text{MPK} = n + \delta
+$$
 
 If the actual savings rate is higher than the golden rule rate, the economy is dynamically
 Inefficient: reducing saving would increase both current and future consumption.
@@ -508,7 +568,9 @@ Inefficient: reducing saving would increase both current and future consumption.
 
 An augmented Solow model (Mankiw, Romer, Weil, 1992) includes human capital $H$:
 
-$$Y = K^\alpha H^\beta (AL)^{1-\alpha-\beta}$$
+$$
+Y = K^\alpha H^\beta (AL)^{1-\alpha-\beta}
+$$
 
 Where $H$ represents the stock of human capital. This model explains more of the cross-country
 Variation in income per capita than the basic Solow model, but still predicts convergence (albeit
@@ -519,7 +581,9 @@ Conditional on human capital).
 **Total factor productivity** (TFP, or the Solow residual) measures the portion of output growth Not
 explained by growth in inputs (capital and labour):
 
-$$\frac{\Delta A}{A} = \frac{\Delta Y}{Y} - \alpha \frac{\Delta K}{K} - (1 - \alpha) \frac{\Delta L}{L}$$
+$$
+\frac{\Delta A}{A} = \frac{\Delta Y}{Y} - \alpha \frac{\Delta K}{K} - (1 - \alpha) \frac{\Delta L}{L}
+$$
 
 Where $A$ is TFP and $\alpha$ is capital's share of income (approximately $1/3$ in most economies).
 
@@ -555,7 +619,7 @@ An economy has the following characteristics:
 (b) Calculate the spending multiplier, tax multiplier, and balanced budget multiplier.
 
 (c) If the government wants to close a recessionary gap of `USD 80` billion, by how much should it
-Increase government spending? By how much should it cut taxes to achieve the same result?
+increase government spending? By how much should it cut taxes to achieve the same result?
 
 (a)
 $k = \frac{1}{\mathrm{MPS} + t \cdot \mathrm{MPC} + \mathrm{MPM}} = \frac{1}{0.25 + 0.2 \times 0.75 + 0.15} = \frac{1}{0.25 + 0.15 + 0.15} = \frac{1}{0.55} = 1.818$
@@ -654,10 +718,10 @@ Period 5: $\pi_5^e = 6\%$. $\pi_5 = 6 - 0.5(-2) = 7\%$
 Inflation accelerates by 1 percentage point per period: 2%, 3%, 4%, 5%, 6%, 7%.
 
 (b) The SRPC shifts upward by 1 percentage point each period as expectations adjust. Each SRPC is
-Parallel to the previous one but shifted upward by the change in expected inflation.
+parallel to the previous one but shifted upward by the change in expected inflation.
 
 (c) Zero. The permanent output gain is zero because in the long run, unemployment returns to the
-Natural rate ($5\%$) and output returns to potential. The only permanent effect is higher inflation.
+natural rate ($5\%$) and output returns to potential. The only permanent effect is higher inflation.
 The government cannot permanently reduce unemployment below the NAIRU through demand-side policies
 Alone.
 
@@ -667,7 +731,7 @@ Alone.
 <summary>Problem 11: Solow Model Comparative Statics</summary>
 
 An economy has a Cobb-Douglas production function $y = k^{0.3}$ (per-worker terms). The savings Rate
-is $s = 0.2$The population growth rate is $n = 0.02$ And the depreciation rate is $\delta = 0.05$.
+is $s = 0.2$ The population growth rate is $n = 0.02$ And the depreciation rate is $\delta = 0.05$.
 
 (a) Find the steady-state capital per worker and output per worker.
 
@@ -742,14 +806,14 @@ growing populations may experience lower growth in output per capita.
 
 An economy is in a deep recession with output 15% below potential. The central bank has already cut
 Interest rates to near zero (the zero lower bound). Evaluate the effectiveness of monetary and
-Fiscal policy in this situation, using IS-LM analysis.
+fiscal policy in this situation, using IS-LM analysis.
 
 **Monetary policy at the ZLB:**
 
 With interest rates at or near zero, conventional monetary policy is exhausted. The LM curve is
-Horizontal at the ZLB (liquidity trap). Further increases in the money supply do not lower interest
+horizontal at the ZLB (liquidity trap). Further increases in the money supply do not lower interest
 Rates because the opportunity cost of holding money is already negligible. Monetary policy is
-Ineffective in stimulating output.
+ineffective in stimulating output.
 
 Options:
 
@@ -767,7 +831,9 @@ Fiscal policy is highly effective at the ZLB because there is no crowding out. T
 Rightward, but since the LM curve is horizontal, the interest rate does not rise. The full
 Multiplier operates:
 
-$$\Delta Y = k \cdot \Delta G$$
+$$
+\Delta Y = k \cdot \Delta G
+$$
 
 There is no offsetting increase in interest rates to crowd out private investment.
 
@@ -798,11 +864,15 @@ A country cannot simultaneously maintain all three of:
 
 It must choose two of the three.
 
+<div class="table-wrap">
+
 | Choice                                     | Examples                           | Implications                   |
 | ------------------------------------------ | ---------------------------------- | ------------------------------ |
 | Fixed rate + Free capital                  | Hong Kong (USD peg), Eurozone      | No independent monetary policy |
 | Fixed rate + Independent monetary policy   | China (pre-2005, capital controls) | Must restrict capital flows    |
 | Free capital + Independent monetary policy | US, UK, Australia, Canada          | Floating exchange rate         |
+
+</div>
 
 ### Floating Exchange Rate: Advantages and Disadvantages
 
@@ -855,8 +925,12 @@ mobility.
   causing capital outflows that depreciate the exchange rate, increasing net exports. Output
   increases by the full multiplier
 
-$$\Delta G > 0 \implies \Delta Y = 0 \quad \text{(fiscal policy is fully crowded out)}$$
-$$\Delta M^s > 0 \implies \Delta Y > 0 \quad \text{(monetary policy is fully effective)}$$
+$$
+\Delta G > 0 \implies \Delta Y = 0 \quad \text{(fiscal policy is fully crowded out)}
+$$
+$$
+\Delta M^s > 0 \implies \Delta Y > 0 \quad \text{(monetary policy is fully effective)}
+$$
 
 **Key result with fixed exchange rates and perfect capital mobility:**
 
@@ -869,8 +943,12 @@ $$\Delta M^s > 0 \implies \Delta Y > 0 \quad \text{(monetary policy is fully eff
   downward pressure on the exchange rate. The central bank must sell reserves to defend the peg,
   reversing the money supply increase
 
-$$\Delta G > 0 \implies \Delta Y > 0 \quad \text{(fiscal policy is amplified)}$$
-$$\Delta M^s > 0 \implies \Delta Y = 0 \quad \text{(monetary policy is fully offset)}$$
+$$
+\Delta G > 0 \implies \Delta Y > 0 \quad \text{(fiscal policy is amplified)}
+$$
+$$
+\Delta M^s > 0 \implies \Delta Y = 0 \quad \text{(monetary policy is fully offset)}
+$$
 
 ### Currency Crises: First-Generation and Second-Generation Models
 
@@ -916,7 +994,7 @@ Country Z has a fixed exchange rate pegged to the US dollar. Capital flows are f
 (a) If the US Federal Reserve raises interest rates, what must Country Z's central bank do?
 
 (b) If Country Z wants to reduce unemployment through monetary stimulus, what trade-off does it
-Face?
+face?
 
 (c) Evaluate the options available to Country Z.
 
@@ -973,7 +1051,7 @@ shocks it faces.
 
 An open economy with perfect capital mobility and a floating exchange rate. The IS curve is
 $Y = 800 - 40r$ and the LM curve is $Y = 400 + 20r$. The net export function is $NX = 100 - 5e$
-Where $e$ is the exchange rate (higher $e$ means depreciation).
+where $e$ is the exchange rate (higher $e$ means depreciation).
 
 (a) Find the initial equilibrium.
 
@@ -1141,7 +1219,7 @@ complying with the fiscal rule.
 New actual GDP $= 950 + 40 = 990$. New output gap $= (990 - 1000)/1000 = -1\%$.
 
 New tax revenue (assuming tax elasticity 1.0, proportional tax): tax revenue rises by 1%
-Proportionally. Approximate new tax revenue $= 255 \times (990/950) = 255 \times 1.0421 = 265.7$
+proportionally. Approximate new tax revenue $= 255 \times (990/950) = 255 \times 1.0421 = 265.7$
 billion.
 
 New actual deficit $= 265.7 - 300 = -34.3$ billion.
@@ -1151,7 +1229,7 @@ Cyclical component $= 1\% \times 265.7 = 2.66$ billion.
 Structural deficit $= 34.3 - 2.66 = 31.64$ billion $= 3.16\%$ of potential GDP.
 
 The spending increase worsens the structural deficit from 1.23% to 3.16%, further violating the
-Fiscal rule.
+fiscal rule.
 
 </details>
 
@@ -1217,11 +1295,15 @@ GDP was USD 1 trillion, the permanent loss is USD 38.6 billion per year.
 ### The BP Curve
 
 The BP (balance of payments) curve shows combinations of $Y$ and $r$ that maintain balance of
-Payments equilibrium:
+payments equilibrium:
 
-$$\text{Current account} + \text{Capital account} = 0$$
+$$
+\text{Current account} + \text{Capital account} = 0
+$$
 
-$$\text{NX}(Y, e) + \text{CF}(r) = 0$$
+$$
+\text{NX}(Y, e) + \text{CF}(r) = 0
+$$
 
 The slope of the BP curve depends on capital mobility:
 
@@ -1232,10 +1314,14 @@ The slope of the BP curve depends on capital mobility:
 
 ### Policy Effectiveness under Different Exchange Rate Regimes
 
+<div class="table-wrap">
+
 | Policy             | Fixed rates                                    | Floating rates                           |
 | ------------------ | ---------------------------------------------- | ---------------------------------------- |
 | Fiscal expansion   | Effective (no crowding out from capital flows) | Ineffective (appreciation crowds out NX) |
 | Monetary expansion | Ineffective (capital outflows force reversal)  | Effective (depreciation stimulates NX)   |
+
+</div>
 
 ### Numerical Example: IS-LM-BP
 
@@ -1259,11 +1345,11 @@ $Y = 700 + 100(4.67) = 1167$
 
 BP at $r = 4.67$: $Y_{BP} = 400 + 50(4.67) = 633$.
 
-At $Y = 1167$The economy is above the BP curve ($Y > Y_{BP}$), indicating a balance of Payments
+At $Y = 1167$ The economy is above the BP curve ($Y > Y_{BP}$), indicating a balance of Payments
 surplus (capital inflows exceed the current account deficit).
 
 (b) **Fixed exchange rates:** The BoP surplus causes the central bank to buy foreign currency and
-Sell domestic currency, increasing the money supply. The LM shifts right until the three curves
+sell domestic currency, increasing the money supply. The LM shifts right until the three curves
 Intersect.
 
 New IS: $Y = 1500 - 50r$.
@@ -1285,7 +1371,7 @@ $Y = 400 + 50(11) = 950$.
 The equilibrium moves to $r = 11\%$, $Y = 950$.
 
 Fiscal expansion is **effective** under fixed rates: output increases from 1167 to... Wait, this
-Seems wrong. Let me re-examine.
+seems wrong. Let me re-examine.
 
 Actually, at the initial equilibrium $Y = 1167 > Y_{BP} = 633$ So the economy has a BoP Surplus.
 Under fixed rates, the money supply increases, shifting LM right, which lowers $r$ and Raises $Y$
@@ -1303,7 +1389,7 @@ $Y > Y_{BP}$ means the current account deficit is smaller than the capital accou
 surplus). The central bank buys USD, sells domestic currency, expanding M.
 
 LM shifts right $\implies r$ falls, $Y$ rises. As $Y$ rises, the current account worsens (more
-Imports). As $r$ falls, capital inflows decrease. The BoP surplus shrinks.
+imports). As $r$ falls, capital inflows decrease. The BoP surplus shrinks.
 
 New IS after $G$ increase: $Y = 1500 - 50r$.
 
@@ -1371,7 +1457,7 @@ relax the policy as inflation approaches the target.
 
 Better approach: adjust $u$ each year:
 
-Year 1: target $\pi = 7\%$Set $u$ to achieve this: $7 = 10 - 1.5(u-5) \implies u = 7$ Year 2: target
+Year 1: target $\pi = 7\%$ Set $u$ to achieve this: $7 = 10 - 1.5(u-5) \implies u = 7$ Year 2: target
 $\pi = 4.5\%$: $4.5 = 7 - 1.5(u-5) \implies u = 6.67$ Year 3: target $\pi = 3.5\%$:
 $3.5 = 4.5 - 1.5(u-5) \implies u = 5.67$
 
@@ -1417,7 +1503,7 @@ IS: $Y = 600 + 4e$. LM: $Y = 600$.
 
 For equilibrium: $600 + 4e = 600 \implies e = 0$. This is unrealistic. Let me adjust the Parameters.
 
-Let IS: $Y = 600 - 40r + 4e$LM: $Y = 400 + 20r$, $r^* = 5$.
+Let IS: $Y = 600 - 40r + 4e$ LM: $Y = 400 + 20r$, $r^* = 5$.
 
 IS at $r=5$: $Y = 600 - 200 + 4e = 400 + 4e$. LM at $r=5$: $Y = 500$.
 
@@ -1445,7 +1531,7 @@ monetary stimulus through net exports.
 
 The fiscal multiplier is 0; the monetary multiplier is $200/(\Delta M/P)$. If the money supply
 Increase was $\Delta M/P = 10$ (shifting LM intercept from 400 to 600, i.e., $\Delta = 200$ At
-$r=0$Which corresponds to $\Delta M/P = 10$ given the LM slope of 20), the monetary Multiplier is
+$r=0$ Which corresponds to $\Delta M/P = 10$ given the LM slope of 20), the monetary Multiplier is
 $200/10 = 20$.
 
 </details>
@@ -1457,7 +1543,9 @@ $200/10 = 20$.
 **Okun's law** describes the empirical relationship between changes in unemployment and changes In
 output:
 
-$$\Delta u = -\beta \left( \frac{\Delta Y}{Y} - g^* \right)$$
+$$
+\Delta u = -\beta \left( \frac{\Delta Y}{Y} - g^* \right)
+$$
 
 Where:
 
@@ -1468,7 +1556,9 @@ Where:
 
 **Alternative form:**
 
-$$\frac{Y - Y^*}{Y^*} = -\gamma (u - u^*)$$
+$$
+\frac{Y - Y^*}{Y^*} = -\gamma (u - u^*)
+$$
 
 Where $\gamma = 1/\beta \approx 2$ in the US. A 1 percentage point increase in the unemployment Rate
 is associated with a 2% decline in output relative to potential.
@@ -1510,7 +1600,7 @@ The economy is operating 3.5% below potential output.
 If potential GDP is USD 1 trillion, the output gap is USD 35 billion.
 
 The "sacrifice" of the recession: $35 billion in lost output and 0.75 percentage points of
-Additional unemployment.
+additional unemployment.
 
 ## The Taylor Rule (HL Extension)
 
@@ -1518,7 +1608,9 @@ Additional unemployment.
 
 John Taylor (1993) proposed a rule for setting the central bank policy rate:
 
-$$i = r^* + \pi + 0.5(\pi - \pi^*) + 0.5(y - y^*)$$
+$$
+i = r^* + \pi + 0.5(\pi - \pi^*) + 0.5(y - y^*)
+$$
 
 Where:
 
@@ -1547,13 +1639,13 @@ $i = 2 + 5 + 0.5(3) + 0.5(0) = 8.5\%$.
 
 The central bank raises the rate by 4.5 percentage points to combat inflation.
 
-**Scenario 3:** $\pi = 2\%$Output gap $= -3\%$ (recession).
+**Scenario 3:** $\pi = 2\%$ Output gap $= -3\%$ (recession).
 
 $i = 2 + 2 + 0.5(0) + 0.5(-3) = 2.5\%$.
 
 The central bank cuts the rate by 1.5 percentage points to stimulate the economy.
 
-**Scenario 4 (stagflation):** $\pi = 7\%$Output gap $= -2\%$.
+**Scenario 4 (stagflation):** $\pi = 7\%$ Output gap $= -2\%$.
 
 $i = 2 + 7 + 0.5(5) + 0.5(-2) = 9 + 2.5 - 1 = 10.5\%$.
 
@@ -1673,7 +1765,7 @@ $i = 2 + 2 + 0.5(0) + 0.5(-4) = 4 + 0 - 2 = 2.0\%$
 
 $i = 2 + 6 + 0.5(6-2) + 0.5(-2) = 8 + 2 - 1 = 9.0\%$
 
-(b) In Shock C (stagflation), the Taylor rule prescribes $i = 9\%$A large increase from The baseline
+(b) In Shock C (stagflation), the Taylor rule prescribes $i = 9\%$ A large increase from The baseline
 4%. The central bank must raise rates to fight inflation despite the economy Being in recession.
 This is the fundamental policy dilemma of stagflation: the tools to fight Inflation (higher rates)
 worsen the recession, and the tools to fight the recession (lower Rates) worsen inflation.
@@ -1743,17 +1835,6 @@ $\Delta u = -0.5 \times (80/2000) = -2.0$ percentage points.
 New unemployment $= 7 - 2 = 5\%$ (the natural rate). The output gap is fully closed.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[4 Supply Side Policy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

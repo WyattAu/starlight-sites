@@ -77,7 +77,7 @@ $\therefore$ The output is deterministic given the same pinned versions and buil
 $\blacksquare$
 
 **Limitations:** This proof assumes pinned tags (immutable references). If a branch name is used as
-`GIT_TAG`The resolved commit may differ between machines at different times, breaking
+`GIT_TAG`. The resolved commit may differ between machines at different times, breaking
 Reproducibility. Always pin to tags or commit SHAs.
 
 ## Bootstrapping (Zero-Dependency Setup)
@@ -222,7 +222,7 @@ target_link_libraries(App PRIVATE nlohmann_json::nlohmann_json spdlog::spdlog)
 
 A frequent requirement in systems programming is debugging a library within the context of the
 Application. CPM allows overriding a dependency with a local path using a CMake CLI flag, bypassing
-The network fetch.
+the network fetch.
 
 **Scenario:** Debugging `spdlog` inside `App`.
 
@@ -243,9 +243,9 @@ Rebuild the application, and test fixes without modifying the project's dependen
 CPM.cmake is a single-file CMake script (approximately 2000 lines) that wraps `FetchContent`. When
 `CPMAddPackage` is called, it performs the following steps:
 
-1. **Parse arguments:** Extract `NAME``GITHUB_REPOSITORY``GIT_TAG``VERSION``OPTIONS`Etc.
+1. **Parse arguments:** Extract `NAME`, `GITHUB_REPOSITORY`, `GIT_TAG`, `VERSION`, `OPTIONS`. Etc.
 2. **Compute cache key:** Generate a deterministic key from `NAME` + version/tag. If `VERSION` is
-   specified but not `GIT_TAG`CPM tries common tag prefixes (`v``V`No prefix) to map the version to
+   specified but not `GIT_TAG`CPM tries common tag prefixes (`v`, `V`. No prefix) to map the version to
    a Git tag.
 3. **Check local cache:** Look in `CPM_SOURCE_CACHE/<name>/<version>` and in
    `${CMAKE_BINARY_DIR}/_deps/<name>-<hash>/`.
@@ -255,14 +255,14 @@ CPM.cmake is a single-file CMake script (approximately 2000 lines) that wraps `F
    configuration.
 6. **Integrate:** Call `add_subdirectory()` on the fetched source, adding all targets to the main
    build graph.
-7. **Return target names:** Set `<name>_ADDED``<name>_SOURCE_DIR`And `<name>_BINARY_DIR` variables
+7. **Return target names:** Set `<name>_ADDED`, `<name>_SOURCE_DIR` and `<name>_BINARY_DIR` variables
    for the caller.
 
 ### Lock Mechanism
 
 CPM does not have a formal lockfile like vcpkg's `vcpkg.json` baseline or Conan's `conan.lock`.
 Instead, it relies on **pinned tags in the source code** as the lock mechanism. The `GIT_TAG` field
-In each `CPMAddPackage` call serves as the de facto lock.
+in each `CPMAddPackage` call serves as the de facto lock.
 
 This is weaker than a dedicated lockfile because:
 
@@ -315,13 +315,13 @@ my-app
 ```
 
 CPM processes `CPMAddPackage` calls in order. If `lib-a` declares `fmt 10.1.0` first, CPM adds it to
-The build graph. When `lib-b` subsequently declares `fmt 9.0.0`CPM detects the conflict and issues A
+the build graph. When `lib-b` subsequently declares `fmt 9.0.0`CPM detects the conflict and issues A
 warning but does **not** automatically resolve it. The first version wins.
 
 Resolution strategies:
 
 1. **Manually pin a compatible version:** Declare `fmt 10.1.0` at the project root before including
-   `lib-a` and `lib-b`So both subdirectories see the same version.
+   `lib-a` and `lib-b`. So both subdirectories see the same version.
 2. **Use a CPM override variable:** `CPM_fmt_VERSION=10.1.0` overrides all `fmt` version requests.
 3. **Migrate to Conan/vcpkg:** These tools have SAT-based solvers that can find a compatible version
    automatically.
@@ -329,7 +329,7 @@ Resolution strategies:
 ## How CPM Downloads Packages at Configure Time
 
 CPM operates entirely within CMake's configure phase. When `CPMAddPackage` is called, CPM performs
-The following steps:
+the following steps:
 
 ### Step-by-Step Download Process
 
@@ -413,7 +413,7 @@ CPMAddPackage(
 )
 ```
 
-CPM attempts common tag prefixes (`v``V`Or no prefix) when resolving versions.
+CPM attempts common tag prefixes (`v`, `V` or no prefix) when resolving versions.
 
 ## CPMAddPackage Options Reference
 
@@ -501,7 +501,7 @@ This means:
 
 If `CPM_SOURCE_CACHE` is not set and the source is not in `_deps`CPM downloads to
 `${CMAKE_BINARY_DIR}/_deps/<name>-<hash>/`. This directory is inside the build tree and is deleted
-When the build directory is cleaned.
+when the build directory is cleaned.
 
 ### Cache Management
 
@@ -518,6 +518,8 @@ rm -rf ~/.cache/CPM
 
 ## Comparison with vcpkg and Conan
 
+<div class="table-wrap">
+
 | Feature                | CPM.cmake                | vcpkg                  | Conan 2.x                    |
 | :--------------------- | :----------------------- | :--------------------- | :--------------------------- |
 | **Setup complexity**   | Single file include      | Clone + bootstrap      | pip install + profile config |
@@ -530,6 +532,8 @@ rm -rf ~/.cache/CPM
 | **Lock mechanism**     | Pinned tags (in source)  | `vcpkg.json` baseline  | `conan.lock` file            |
 | **Offline builds**     | Pre-populated cache      | Binary cache + ports   | Pre-populated cache          |
 | **Best for**           | Small-to-medium projects | Any size, teams        | Large teams, binary distro   |
+
+</div>
 
 ### When to Prefer CPM
 
@@ -638,7 +642,7 @@ CPMAddPackage(
 4. **No lockfile means no guaranteed reproducibility:** Unlike vcpkg (baseline) or Conan (lockfile),
    CPM has no mechanism to guarantee that two machines resolve the same versions. Pin every
    dependency to a tag or SHA.
-5. **Dependency builds with wrong flags:** Because CPM uses `add_subdirectory`The dependency's
+5. **Dependency builds with wrong flags:** Because CPM uses `add_subdirectory`. The dependency's
    `CMakeLists.txt` can modify global CMake state (e.g., `add_compile_options` without target
    scope). This can inject unwanted flags into your build. Always review dependency CMakeLists for
    global state mutations.
@@ -662,7 +666,7 @@ cmake -S . -B build \
     -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
 ```
 
-With `ccache`The first build compiles all dependencies from source (normal time). Subsequent clean
+With `ccache`. The first build compiles all dependencies from source (normal time). Subsequent clean
 Builds reuse cached object files, reducing the build time from minutes to seconds for most
 Dependencies.
 
@@ -681,6 +685,8 @@ endfunction()
 
 CPM is built on top of CMake's `FetchContent` module but adds several features:
 
+<div class="table-wrap">
+
 | Feature                    | FetchContent                        | CPM.cmake                               |
 | :------------------------- | :---------------------------------- | :-------------------------------------- |
 | **Package declaration**    | `FetchContent_Declare`              | `CPMAddPackage` (single call)           |
@@ -693,15 +699,21 @@ CPM is built on top of CMake's `FetchContent` module but adds several features:
 | **Download-only mode**     | Manual `FetchContent_Populate`      | `DOWNLOAD_ONLY` keyword                 |
 | **Bootstrap**              | Requires pre-existing script        | Self-bootstrapping via `file(DOWNLOAD)` |
 
+</div>
+
 ## CPM Version Compatibility
 
 CPM.cmake versions follow semantic versioning. Key version milestones:
+
+<div class="table-wrap">
 
 | Version | Feature                                     |
 | :------ | :------------------------------------------ |
 | 0.38.x  | Stable release, widely used                 |
 | 0.39.x  | Added `FETCHCONTENT_SOURCE_DIR_*` overrides |
 | 0.40.x  | Current stable, improved cache handling     |
+
+</div>
 
 When pinning the CPM version in the bootstrap script, use a specific version rather than `latest`:
 
@@ -719,17 +731,6 @@ set(CPM_DOWNLOAD_VERSION 0.40.0)
   properties
 - [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/) -- Why CPM lacks binary caching and how to compensate
 
-
-```mermaid
-flowchart TD
-    A[2_Cpm] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to cpm.cmake, including key
@@ -743,10 +744,5 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

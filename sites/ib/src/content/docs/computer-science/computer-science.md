@@ -107,7 +107,7 @@ def validate_url(url):
 ```
 
 Both functions follow the same pattern: check for a separator, split into parts, validate the
-Structure.
+structure.
 
 ### Worked Example: Applying Computational Thinking
 
@@ -126,9 +126,9 @@ Apply the four pillars of computational thinking to design a smart home temperat
 
 **Pattern Recognition:** Recognize that the decision-making module follows the same pattern as a
 Thermostat: compare current temperature to target, and take action based on the difference. This is
-The same pattern used in cruise control, autopilot, and other feedback control systems.
+the same pattern used in cruise control, autopilot, and other feedback control systems.
 
-**Abstraction:** Create a `Thermostat` class with methods like `setTarget(temp)``getCurrentTemp()`
+**Abstraction:** Create a `Thermostat` class with methods like `setTarget(temp)`, `getCurrentTemp()`
 And `isActionNeeded()`. The user interacts with the interface (setting a desired temperature)
 without Needing to know about sensor calibration, HVAC wiring, or control algorithms.
 
@@ -149,19 +149,19 @@ by the Hardware).
 ### Abstraction
 
 Removing unnecessary details to focus on the essential features of a problem. Abstraction allows us
-To create models that capture what is important while ignoring irrelevant complexity.
+to create models that capture what is important while ignoring irrelevant complexity.
 
 **Levels of abstraction** (from low to high):
 
 1. **Hardware level**: Logic gates, registers, memory cells
 2. **Machine code level**: Binary instructions executed by the CPU
-3. **Assembly language**: Human-readable representations of machine code (e.g., `MOV``ADD`)
+3. **Assembly language**: Human-readable representations of machine code (e.g., `MOV`, `ADD`)
 4. **High-level language**: Python, Java, C++. Closer to human language
 5. **Application level**: The software users interact with
 
 **Example**: When using a `list` in Python, you do not need to know how memory is allocated, how
 Pointers work, or how the data is stored physically. The abstraction hides these details and
-Provides a simple interface: `append()``remove()``sort()`.
+provides a simple interface: `append()`, `remove()`, `sort()`.
 
 ### Algorithm Design
 
@@ -205,9 +205,11 @@ def binary_search(data, target):
 ### Efficiency
 
 Algorithm efficiency is measured in terms of **time complexity** (how the running time grows with
-Input size) and **space complexity** (how the memory usage grows with input size).
+input size) and **space complexity** (how the memory usage grows with input size).
 
 **Big-O notation** describes the upper bound of an algorithm"s growth rate:
+
+<div class="table-wrap">
 
 | Big-O      | Name        | Example                             |
 | ---------- | ----------- | ----------------------------------- |
@@ -217,6 +219,8 @@ Input size) and **space complexity** (how the memory usage grows with input size
 | O(n log n) | Log-linear  | Merge sort, efficient sorting       |
 | O(n²)      | Quadratic   | Bubble sort, nested loops           |
 | O(2ⁿ)      | Exponential | Recursive Fibonacci (naive)         |
+
+</div>
 
 ### Sorting Algorithms
 
@@ -274,6 +278,8 @@ Comparisons.
 
 **Pass 1** (`i = 0`Inner loop runs for `j = 0` to `3`):
 
+<div class="table-wrap">
+
 | Comparison | Action  | Array State     |
 | ---------- | ------- | --------------- |
 | 5 vs 1     | Swap    | [1, 5, 4, 2, 8] |
@@ -281,7 +287,11 @@ Comparisons.
 | 5 vs 2     | Swap    | [1, 4, 2, 5, 8] |
 | 5 vs 8     | No swap | [1, 4, 2, 5, 8] |
 
+</div>
+
 **Pass 2** (`i = 1`Inner loop runs for `j = 0` to `2`):
+
+<div class="table-wrap">
 
 | Comparison | Action  | Array State     |
 | ---------- | ------- | --------------- |
@@ -289,18 +299,28 @@ Comparisons.
 | 4 vs 2     | Swap    | [1, 2, 4, 5, 8] |
 | 4 vs 5     | No swap | [1, 2, 4, 5, 8] |
 
+</div>
+
 **Pass 3** (`i = 2`Inner loop runs for `j = 0` to `1`):
+
+<div class="table-wrap">
 
 | Comparison | Action  | Array State     |
 | ---------- | ------- | --------------- |
 | 1 vs 2     | No swap | [1, 2, 4, 5, 8] |
 | 2 vs 4     | No swap | [1, 2, 4, 5, 8] |
 
+</div>
+
 **Pass 4** (`i = 3`Inner loop runs for `j = 0` to `0`):
+
+<div class="table-wrap">
 
 | Comparison | Action  | Array State     |
 | ---------- | ------- | --------------- |
 | 1 vs 2     | No swap | [1, 2, 4, 5, 8] |
+
+</div>
 
 Total comparisons: $4 + 3 + 2 + 1 = 10$ (which is $n(n-1)/2 = 5 \times 4 / 2 = 10$). Total swaps: 3.
 
@@ -318,11 +338,17 @@ Occur in a pass.
 
 **Trace of binary search**, searching for 7 in `[1, 3, 5, 7, 9, 11, 13]`:
 
+<div class="table-wrap">
+
 | Step | low | high | mid | data[mid] | Action |
 | ---- | --- | ---- | --- | --------- | ------ |
 | 1    | 0   | 6    | 3   | 7         | Found! |
 
+</div>
+
 **Trace of binary search**, searching for 6 in `[1, 3, 5, 7, 9, 11, 13]`:
+
+<div class="table-wrap">
 
 | Step | low | high | mid | data[mid] | Action                   |
 | ---- | --- | ---- | --- | --------- | ------------------------ |
@@ -331,10 +357,12 @@ Occur in a pass.
 | 3    | 2   | 2    | 2   | 5         | 6 &gt; 5, low = 3        |
 | 4    | 3   | 2    |,   |,         | low &gt; high, not found |
 
+</div>
+
 ### Worked Example: Comparing Search Algorithms
 
 An array contains 1,000,000 sorted integers. How many comparisons does binary search make in the
-Worst case to determine that a target value is not present?
+worst case to determine that a target value is not present?
 
 <details>
 <summary>Solution</summary>
@@ -382,6 +410,8 @@ Given `data = [3, 7, 1, 9, 4]`Trace the following operations:
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Operation             | Array State        | Notes                            |
 | --------------------- | ------------------ | -------------------------------- |
 | Initial               | [3, 7, 1, 9, 4]    |                                  |
@@ -390,16 +420,18 @@ Given `data = [3, 7, 1, 9, 4]`Trace the following operations:
 | Insert 8 at index 2   | [3, 5, 8, 1, 9, 4] | O(n), elements 1,9,4 shift right |
 | Remove index 0        | [5, 8, 1, 9, 4]    | O(n), elements shift left        |
 
+</div>
+
 Key insight: access and replacement are O(1) because arrays use contiguous memory with direct
 Indexing. Insertion and deletion are O(n) because elements must be shifted. This is why arrays are
-Efficient for lookup but inefficient for frequent insertions/deletions.
+efficient for lookup but inefficient for frequent insertions/deletions.
 
 </details>
 
 ### Stacks
 
 - Last In, First Out (LIFO) structure
-- Operations: `push(item)``pop()``peek()``isEmpty()`
+- Operations: `push(item)`, `pop()`, `peek()`, `isEmpty()`
 - Applications: undo/redo functionality, expression evaluation, function call management (call
   stack)
 
@@ -428,7 +460,7 @@ class Stack:
 ### Queues
 
 - First In, First Out (FIFO) structure
-- Operations: `enqueue(item)``dequeue()``front()``isEmpty()`
+- Operations: `enqueue(item)`, `dequeue()`, `front()`, `isEmpty()`
 - Applications: print spooling, task scheduling, breadth-first search
 
 ```python
@@ -523,6 +555,8 @@ def inorder(root):
 
 The IB CS syllabus emphasizes the ethical implications of computing:
 
+<div class="table-wrap">
+
 | Issue                 | Description                                                  | Example                                                |
 | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------ |
 | Privacy               | Collection, storage, and use of personal data                | Social media data harvesting, surveillance systems     |
@@ -532,6 +566,8 @@ The IB CS syllabus emphasizes the ethical implications of computing:
 | Environmental impact  | Energy consumption and e-waste from computing                | Data center energy use, electronic waste disposal      |
 | AI and bias           | Algorithmic discrimination and fairness in automated systems | Hiring algorithms, facial recognition bias             |
 | Censorship            | Control of information by governments or corporations        | Internet filtering, content moderation                 |
+
+</div>
 
 ### Privacy
 
@@ -678,11 +714,15 @@ If you get this wrong, revise: [Decomposition](#decomposition)
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | low | high | mid | data[mid] | Action                 |
 | ---- | --- | ---- | --- | --------- | ---------------------- |
 | 1    | 0   | 6    | 3   | 6         | 4 &lt; 6, high = 2     |
 | 2    | 0   | 2    | 1   | 3         | 4 &gt; 3, low = 2      |
 | 3    | 2   | 2    | 2   | 4         | Found! Returns index 2 |
+
+</div>
 
 Result: **Found at index 2**, after 3 comparisons.
 
@@ -716,8 +756,8 @@ Time complexity: $O(n^2)$.
 For $n = 100$: $100^2 = 10000$ operations.
 
 This is characteristic of nested loops where the inner loop depends on the outer loop. A more
-Efficient approach would use a hash set: insert each element into the set (O(1) per insertion) and
-Check for duplicates as you go, giving $O(n)$ total time.
+efficient approach would use a hash set: insert each element into the set (O(1) per insertion) and
+check for duplicates as you go, giving $O(n)$ total time.
 
 </details>
 
@@ -768,12 +808,14 @@ If you get this wrong, revise: [Selection Sort](#sorting-algorithms)
 }
 </script>
 
-**Problem 5:** A stack has the following operations performed on it in order: `push(3)``push(7)`
-`push(1)``pop()``push(9)``push(4)``pop()``pop()``peek()`. What values are returned by Each `pop()`
+**Problem 5:** A stack has the following operations performed on it in order: `push(3)`, `push(7)`
+`push(1)`, `pop()`, `push(9)`, `push(4)`, `pop()`, `pop()`, `peek()`. What values are returned by Each `pop()`
 and `peek()` call, and what is the final state of the stack?
 
 <details>
 <summary>Solution</summary>
+
+<div class="table-wrap">
 
 | Operation | Stack (top on right) | Returned |
 | --------- | -------------------- | -------- |
@@ -786,6 +828,8 @@ and `peek()` call, and what is the final state of the stack?
 | pop()     | [3, 7, 9]            | 4        |
 | pop()     | [3, 7]               | 9        |
 | peek()    | [3, 7]               | 7        |
+
+</div>
 
 `pop()` returns: 1, 4, 9. `peek()` returns 7. Final stack: `[3, 7]`Top = 7.
 
@@ -804,12 +848,14 @@ If you get this wrong, revise: [Stacks](#stacks)
 }
 </script>
 
-**Problem 6:** A queue has the following operations: `enqueue("red")``enqueue("blue")`
-`enqueue("green")``dequeue()``enqueue("yellow")``dequeue()``enqueue("purple")`. What does The queue
+**Problem 6:** A queue has the following operations: `enqueue("red")`, `enqueue("blue")`
+`enqueue("green")`, `dequeue()`, `enqueue("yellow")`, `dequeue()`, `enqueue("purple")`. What does The queue
 contain after all operations?
 
 <details>
 <summary>Solution</summary>
+
+<div class="table-wrap">
 
 | Operation         | Queue (front on left)   | Dequeued |
 | ----------------- | ----------------------- | -------- |
@@ -820,6 +866,8 @@ contain after all operations?
 | enqueue("yellow") | [blue, green, yellow]   | --       |
 | dequeue()         | [green, yellow]         | blue     |
 | enqueue("purple") | [green, yellow, purple] | --       |
+
+</div>
 
 Final queue: `[green, yellow, purple]`Front = green.
 
@@ -924,7 +972,7 @@ New node with value 25 is inserted between 20 and 30.
 Result: `10 → 20 → 25 → 30 → 40`
 
 Only two pointer assignments are needed (steps 3 and 4). No elements need to be shifted, unlike an
-Array. This is why linked list insertion at a known position is O(1) (after the position is found),
+array. This is why linked list insertion at a known position is O(1) (after the position is found),
 While array insertion is O(n).
 
 </details>
@@ -958,7 +1006,7 @@ AI Grades.
 and Potentially sensitive information. Storing and processing this data raises privacy concerns. Who
 owns The essays? Can the data be used to train future AI models? **Mitigation:** Obtain informed
 consent From students and parents. Anonymize data before processing. Allow students to opt out.
-Comply with Data protection regulations (GDPR, CCPA).
+comply with Data protection regulations (GDPR, CCPA).
 
 Other valid concerns: transparency of grading criteria, impact on teacher-student relationships,
 Over-reliance on technology, access inequality (schools that cannot afford the system).
@@ -990,11 +1038,15 @@ Arrays.
 
 On an unsorted array, this assumption is invalid. For example, searching for 3 in `[5, 1, 4, 2, 3]`:
 
+<div class="table-wrap">
+
 | Step | low | high | mid | data[mid] | Action                   |
 | ---- | --- | ---- | --- | --------- | ------------------------ |
 | 1    | 0   | 4    | 2   | 4         | 3 &lt; 4, high = 1       |
 | 2    | 0   | 1    | 0   | 5         | 3 &lt; 5, high = -1      |
 | 3    | 0   | -1   | --  | --        | low &gt; high, not found |
+
+</div>
 
 Binary search reports "not found" even though 3 is in the array at index 4. The algorithm
 Incorrectly eliminated the right half because the array is not sorted.
@@ -1035,10 +1087,10 @@ Total iterations: $1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}$
 For `mystery(4)`: $1 + 2 + 3 + 4 = 10$. Output: **10** For `mystery(5)`: $1 + 2 + 3 + 4 + 5 = 15$.
 Output: **15**
 
-Time complexity: $O(n^2)$ (the dominant term is $n^2/2$Constants are dropped in Big-O).
+Time complexity: $O(n^2)$ (the dominant term is $n^2/2$ Constants are dropped in Big-O).
 
 The nested loop pattern where the inner loop bound depends on the outer loop variable produces the
-Triangular number series. This is a common pattern in IB exam questions.
+triangular number series. This is a common pattern in IB exam questions.
 
 </details>
 
@@ -1057,27 +1109,9 @@ If you get this wrong, revise: [Efficiency](#efficiency) and [Nested Loops](#alg
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
-
-```mermaid
-flowchart TD
-    A[Computer Science] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

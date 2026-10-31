@@ -19,6 +19,8 @@ date: 2026-05-31T00:00:00.000Z
 
 ### Prokaryotic vs Eukaryotic Cells
 
+<div class="table-wrap">
+
 | Feature            | Prokaryotic Cells                   | Eukaryotic Cells                      |
 | ------------------ | ----------------------------------- | ------------------------------------- |
 | Nucleus            | No true nucleus; nucleoid region    | True nucleus with nuclear envelope    |
@@ -29,7 +31,11 @@ date: 2026-05-31T00:00:00.000Z
 | Cell wall          | Peptidoglycan (bacteria)            | Cellulose (plants); none (animals)    |
 | Examples           | Bacteria, archaea                   | Animals, plants, fungi, protists       |
 
+</div>
+
 ### Plant vs Animal Cells
+
+<div class="table-wrap">
 
 | Feature              | Plant Cells                    | Animal Cells                |
 | -------------------- | ------------------------------ | --------------------------- |
@@ -38,6 +44,8 @@ date: 2026-05-31T00:00:00.000Z
 | Large vacuole        | Yes (permanent, central)       | Small, temporary (if any)   |
 | Centrioles           | Absent (except in lower plants)| Present                     |
 | Stored carbohydrates | Starch                         | Glycogen                    |
+
+</div>
 
 ---
 
@@ -51,6 +59,8 @@ date: 2026-05-31T00:00:00.000Z
 </script>
 
 ## 2. Organelles
+
+<div class="table-wrap">
 
 | Organelle | Structure | Function |
 | --------------------- | ----------------------------------- | ----------------------------------------------------- |
@@ -66,6 +76,8 @@ date: 2026-05-31T00:00:00.000Z
 | Vacuole | Membrane-bound (tonoplast) | Storage; maintains turgor pressure |
 | Centrioles | Pair of cylindrical structures | Organise spindle fibres during cell division |
 | Cell membrane | Phospholipid bilayer | Controls entry/exit of substances; cell recognition |
+
+</div>
 
 ---
 
@@ -97,7 +109,9 @@ date: 2026-05-31T00:00:00.000Z
 
 ### Magnification and Scale
 
-$$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
+$$
+\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}
+$$
 
 ---
 
@@ -144,11 +158,15 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 
 ### Passive Transport (no ATP required)
 
+<div class="table-wrap">
+
 | Mechanism | Definition | Direction | Depends On |
 | ------------------ | --------------------------------------- | ---------------- | ----------------- |
 | Simple diffusion | Net movement from high to low concentration | High → low | Concentration gradient |
 | Facilitated diffusion | Movement via protein channels or carriers | High → low | Channel/carrier proteins |
 | Osmosis | Diffusion of water across a partially permeable membrane | High water potential → low water potential | Water potential gradient |
+
+</div>
 
 **Water potential ($\Psi$):**
 
@@ -189,6 +207,8 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 
 **Purpose:** growth, repair, asexual reproduction; produces **2 genetically identical diploid cells**
 
+<div class="table-wrap">
+
 | Phase          | Key Events                                                                 |
 | -------------- | -------------------------------------------------------------------------- |
 | Interphase (G1, S, G2) | DNA replicates; organelles duplicate; cell grows                      |
@@ -197,16 +217,22 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 | Anaphase       | Sister chromatids separate; pulled to opposite poles by spindle fibres    |
 | Telophase      | Chromosomes decondense; nuclear envelopes reform; cytokinesis begins      |
 
+</div>
+
 **Result:** $2n \to 2n$ (diploid → diploid)
 
 ### Meiosis
 
 **Purpose:** production of gametes (sex cells); produces **4 genetically unique haploid cells**
 
+<div class="table-wrap">
+
 | Stage             | Key Events                                                                 |
 | ----------------- | -------------------------------------------------------------------------- |
 | Meiosis I         | Homologous chromosomes pair (bivalents); crossing over occurs (prophase I); homologous chromosomes separate (anaphase I) |
 | Meiosis II        | Sister chromatids separate (similar to mitosis but starting with half the chromosome number) |
+
+</div>
 
 **Result:** $2n \to n$ (diploid → haploid)
 
@@ -221,6 +247,8 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 
 ### Mitosis vs Meiosis
 
+<div class="table-wrap">
+
 | Feature             | Mitosis            | Meiosis                |
 | ------------------- | ------------------ | ---------------------- |
 | Divisions           | 1                  | 2                      |
@@ -230,29 +258,22 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 | Function            | Growth, repair     | Gamete production      |
 | Where               | Somatic cells      | Germ cells (gonads)    |
 
+</div>
+
 ## Worked Examples
 
 ### Example 1: Calculating Actual Size from a Micrograph
 
 **Problem:** A cell in a light micrograph measures 45 mm across. The magnification is $\times 400$. Calculate the actual size of the cell in $\mu$m.
 **Solution:**
-$$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{45\ \text{mm}}{400} = 0.1125\ \text{mm} = 112.5\ \mu\text{m}$$
+$$
+\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{45\ \text{mm}}{400} = 0.1125\ \text{mm} = 112.5\ \mu\text{m}
+$$
 
 ### Example 2: Distinguishing Mitosis and Meiosis
 
 **Problem:** A cell has 46 chromosomes and undergoes division. After division, each daughter cell has 23 chromosomes. Was this mitosis or meiosis? Explain.
 **Solution:** This was meiosis. Mitosis produces daughter cells with the same chromosome number as the parent (diploid to diploid). The halving from 46 to 23 (diploid to haploid) is characteristic of meiosis, which produces gametes.
-
-
-```mermaid
-flowchart TD
-    A[Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

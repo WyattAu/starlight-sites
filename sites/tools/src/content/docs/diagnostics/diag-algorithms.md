@@ -211,17 +211,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Testing your algorithmic knowledge:** Diagnostic tests are like a mechanic checkup for your understanding, they quickly reveal which concepts you have mastered and which need more work, so you can focus your study time effectively.
@@ -231,6 +220,8 @@ flowchart TD
 **The key insight:** If you cannot explain why an answer is correct (not just which option is right), you do not truly understand the concept. Use diagnostic tests as a starting point for deeper study, not as an endpoint.
 
 ## Answer Key
+
+<div class="table-wrap">
 
 | Question | Correct Answer |
 |----------|---------------|
@@ -244,6 +235,8 @@ flowchart TD
 | 8        | B             |
 | 9        | B             |
 | 10       | C             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of algorithms and data structures. Review the explanations in the practice problems for any questions you answered incorrectly.
 

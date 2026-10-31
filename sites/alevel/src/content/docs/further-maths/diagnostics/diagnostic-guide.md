@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "A-Level Further Maths -- Diagnostic Guide"
 description: "Study notes for A-Level Further Maths -- Diagnostic Guide with worked examples and practice questions."
@@ -23,9 +22,11 @@ tableOfContents: false
 
 ### Pure Mathematics
 
+<div class="table-wrap">
+
 | Diagnostic File                   | Topics Covered                                                                                       | Source File                                          |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| `diag-complex-numbers.md`         | Argand diagrams, modulus-argument form, De Moivre"s theorem, roots of unity, complex transformations | `pure-mathematics/01-complex-numbers.md`             |
+| `diag-complex-numbers.md`         | Argand diagrams, modulus-argument form, De Moivre's theorem, roots of unity, complex transformations | `pure-mathematics/01-complex-numbers.md`             |
 | `diag-matrices.md`                | Operations, 3x3 inverses, eigenvalues/eigenvectors, geometric transformations, systems               | `pure-mathematics/02-matrices.md`                    |
 | `diag-further-algebra.md`         | Roots of polynomials, partial fractions, series summation, mathematical induction                    | `pure-mathematics/03-further-algebra.md`             |
 | `diag-further-calculus.md`        | Improper integrals, volumes of revolution, parametric differentiation, arc length                    | `pure-mathematics/04-further-calculus.md`            |
@@ -35,7 +36,11 @@ tableOfContents: false
 | `diag-maclaurin-taylor-series.md` | Standard expansions, radius of convergence, differentiation/integration of series                    | `pure-mathematics/08-maclaurin-and-taylor-series.md` |
 | `diag-vectors-3d.md`              | Scalar product, vector product, equations of lines/planes, volumes                                   | `pure-mathematics/09-vectors-in-3d.md`               |
 
+</div>
+
 ### Further Mechanics
+
+<div class="table-wrap">
 
 | Diagnostic File             | Topics Covered                      | Source File                                                      |
 | --------------------------- | ----------------------------------- | ---------------------------------------------------------------- |
@@ -43,13 +48,19 @@ tableOfContents: false
 | `diag-circular-motion.md`   | (Covered through integration tests) | `further-mechanics/02-circular-motion.md`                        |
 | `diag-collisions.md`        | (Covered through integration tests) | `further-mechanics/03-centres-of-mass-and-elastic-collisions.md` |
 
+</div>
+
 ### Further Statistics
+
+<div class="table-wrap">
 
 | Diagnostic File                  | Topics Covered                      | Source File                                                            |
 | -------------------------------- | ----------------------------------- | ---------------------------------------------------------------------- |
 | `diag-poisson-geometric.md`      | (Covered through integration tests) | `further-statistics/01-poisson-and-geometric-distributions.md`         |
 | `diag-exponential-continuous.md` | (Covered through integration tests) | `further-statistics/02-exponential-and-continuous-random-variables.md` |
 | `diag-chi-squared.md`            | (Covered through integration tests) | `further-statistics/03-chi-squared-tests.md`                           |
+
+</div>
 
 ## Grading Rubric
 
@@ -114,6 +125,8 @@ Maclaurin Series
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic                     | Recommended Time | Notes                               |
 | ------------------------------ | ---------------- | ----------------------------------- |
 | `diag-further-algebra`         | 40 minutes       | Induction proof takes time          |
@@ -125,6 +138,8 @@ Maclaurin Series
 | `diag-polar-coordinates`       | 35 minutes       | Area calculations                   |
 | `diag-hyperbolic-functions`    | 30 minutes       | Parallels trigonometry              |
 | `diag-vectors-3d`              | 35 minutes       | Equations of planes                 |
+
+</div>
 
 **Total recommended time:** approximately 6 hours (spread across 3--4 sessions).
 
@@ -143,14 +158,7 @@ Maclaurin Series
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

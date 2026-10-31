@@ -64,15 +64,25 @@ Current electricity deals with the flow of electric charge through conductors. I
 **Solution:**
 
 Total resistance:
-$$R_{total} = 2 + 3 + 5 = 10 \, \Omega$$
+$$
+R_{total} = 2 + 3 + 5 = 10 \, \Omega
+$$
 
 Current (same through all):
-$$I = \frac{V}{R_{total}} = \frac{10}{10} = 1 \, \text{A}$$
+$$
+I = \frac{V}{R_{total}} = \frac{10}{10} = 1 \, \text{A}
+$$
 
 Voltages:
-$$V_1 = IR_1 = 1 \times 2 = 2 \, \text{V}$$
-$$V_2 = IR_2 = 1 \times 3 = 3 \, \text{V}$$
-$$V_3 = IR_3 = 1 \times 5 = 5 \, \text{V}$$
+$$
+V_1 = IR_1 = 1 \times 2 = 2 \, \text{V}
+$$
+$$
+V_2 = IR_2 = 1 \times 3 = 3 \, \text{V}
+$$
+$$
+V_3 = IR_3 = 1 \times 5 = 5 \, \text{V}
+$$
 
 Check: $V_1 + V_2 + V_3 = 2 + 3 + 5 = 10 \, \text{V}$ (matches the battery voltage).
 
@@ -87,16 +97,24 @@ Check: $V_1 + V_2 + V_3 = 2 + 3 + 5 = 10 \, \text{V}$ (matches the battery volta
 Voltage across each resistor is 12 V (parallel circuit).
 
 Current through 6 $\Omega$:
-$$I_1 = \frac{V}{R_1} = \frac{12}{6} = 2 \, \text{A}$$
+$$
+I_1 = \frac{V}{R_1} = \frac{12}{6} = 2 \, \text{A}
+$$
 
 Current through 3 $\Omega$:
-$$I_2 = \frac{V}{R_2} = \frac{12}{3} = 4 \, \text{A}$$
+$$
+I_2 = \frac{V}{R_2} = \frac{12}{3} = 4 \, \text{A}
+$$
 
 Total current:
-$$I_{total} = I_1 + I_2 = 2 + 4 = 6 \, \text{A}$$
+$$
+I_{total} = I_1 + I_2 = 2 + 4 = 6 \, \text{A}
+$$
 
 Equivalent resistance:
-$$R_{eq} = \frac{V}{I_{total}} = \frac{12}{6} = 2 \, \Omega$$
+$$
+R_{eq} = \frac{V}{I_{total}} = \frac{12}{6} = 2 \, \Omega
+$$
 
 **Common mistake:** Forgetting that current splits in parallel circuits. The total current is the sum of branch currents.
 
@@ -107,9 +125,13 @@ $$R_{eq} = \frac{V}{I_{total}} = \frac{12}{6} = 2 \, \Omega$$
 **Solution:**
 
 For a balanced Wheatstone bridge:
-$$\frac{R_1}{R_2} = \frac{R_3}{R_4}$$
+$$
+\frac{R_1}{R_2} = \frac{R_3}{R_4}
+$$
 
-$$R_4 = \frac{R_2 \times R_3}{R_1} = \frac{200 \times 150}{100} = 300 \, \Omega$$
+$$
+R_4 = \frac{R_2 \times R_3}{R_1} = \frac{200 \times 150}{100} = 300 \, \Omega
+$$
 
 **Common mistake:** Getting the ratio order wrong. The resistors must be in opposite arms of the bridge.
 
@@ -152,10 +174,14 @@ $$R_4 = \frac{R_2 \times R_3}{R_1} = \frac{200 \times 150}{100} = 300 \, \Omega$
 **Solution:**
 
 Step 1: Parallel combination of $R_1$ and $R_2$:
-$$R_{12} = \frac{R_1 \times R_2}{R_1 + R_2} = \frac{6 \times 3}{6 + 3} = \frac{18}{9} = 2\,\Omega$$
+$$
+R_{12} = \frac{R_1 \times R_2}{R_1 + R_2} = \frac{6 \times 3}{6 + 3} = \frac{18}{9} = 2\,\Omega
+$$
 
 Step 2: Series combination with $R_3$:
-$$R_{eq} = R_{12} + R_3 = 2 + 4 = 6\,\Omega$$
+$$
+R_{eq} = R_{12} + R_3 = 2 + 4 = 6\,\Omega
+$$
 
 **Common mistake:** Adding the parallel resistors directly without using the parallel formula. Parallel resistors always give a smaller equivalent resistance.
 
@@ -170,21 +196,39 @@ Let $I$ be the total current through $R_3$, and $I_1$, $I_2$ be currents through
 By junction rule: $I = I_1 + I_2$
 
 Voltage across parallel combination: $V_{12} = I_1 R_1 = I_2 R_2$
-$$4I_1 = 6I_2 \implies I_1 = 1.5 I_2$$
+$$
+4I_1 = 6I_2 \implies I_1 = 1.5 I_2
+$$
 
 Loop rule for outer loop:
-$$E - IR_3 - I_1 R_1 = 0$$
-$$12 - (I_1 + I_2) \times 3 - 4I_1 = 0$$
+$$
+E - IR_3 - I_1 R_1 = 0
+$$
+$$
+12 - (I_1 + I_2) \times 3 - 4I_1 = 0
+$$
 
 Substitute $I_1 = 1.5I_2$:
-$$12 - (1.5I_2 + I_2) \times 3 - 4(1.5I_2) = 0$$
-$$12 - 7.5I_2 - 6I_2 = 0$$
-$$12 = 13.5I_2$$
-$$I_2 = \frac{12}{13.5} = \frac{8}{9} \approx 0.889\,\text{A}$$
+$$
+12 - (1.5I_2 + I_2) \times 3 - 4(1.5I_2) = 0
+$$
+$$
+12 - 7.5I_2 - 6I_2 = 0
+$$
+$$
+12 = 13.5I_2
+$$
+$$
+I_2 = \frac{12}{13.5} = \frac{8}{9} \approx 0.889\,\text{A}
+$$
 
-$$I_1 = 1.5 \times \frac{8}{9} = \frac{4}{3} \approx 1.333\,\text{A}$$
+$$
+I_1 = 1.5 \times \frac{8}{9} = \frac{4}{3} \approx 1.333\,\text{A}
+$$
 
-$$I = I_1 + I_2 = \frac{4}{3} + \frac{8}{9} = \frac{12 + 8}{9} = \frac{20}{9} \approx 2.222\,\text{A}$$
+$$
+I = I_1 + I_2 = \frac{4}{3} + \frac{8}{9} = \frac{12 + 8}{9} = \frac{20}{9} \approx 2.222\,\text{A}
+$$
 
 **Common mistake:** Forgetting to include the internal resistance of the battery or the series resistor when applying Kirchhoff's loop rule.
 
@@ -195,13 +239,21 @@ $$I = I_1 + I_2 = \frac{4}{3} + \frac{8}{9} = \frac{12 + 8}{9} = \frac{20}{9} \a
 **Solution:**
 
 Using the temperature dependence formula:
-$$R = R_0[1 + \alpha(T - T_0)]$$
+$$
+R = R_0[1 + \alpha(T - T_0)]
+$$
 
-$$R = 10[1 + 0.00404 \times (80 - 20)]$$
+$$
+R = 10[1 + 0.00404 \times (80 - 20)]
+$$
 
-$$R = 10[1 + 0.00404 \times 60]$$
+$$
+R = 10[1 + 0.00404 \times 60]
+$$
 
-$$R = 10[1 + 0.2424] = 10 \times 1.2424 = 12.424\,\Omega$$
+$$
+R = 10[1 + 0.2424] = 10 \times 1.2424 = 12.424\,\Omega
+$$
 
 **Common mistake:** Using the wrong temperature difference. Always use $\Delta T = T_{final} - T_{initial}$, not just $T_{final}$.
 

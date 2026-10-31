@@ -42,8 +42,8 @@ Separators (`/` vs `\`), permissions models, and file metadata are normalized in
 Interface.
 
 :::note
-`opendir``readdir``unlink`Etc.). On Windows, it uses the Win32 API (`CreateFileW`
-`FindFirstFileW`Etc.). The interface is the same on both platforms, but some features are only
+`opendir`, `readdir`, `unlink`. Etc.). On Windows, it uses the Win32 API (`CreateFileW`
+`FindFirstFileW`. Etc.). The interface is the same on both platforms, but some features are only
 Available on one (e.g., file permissions are more expressive on POSIX).
 :::
 
@@ -126,17 +126,21 @@ void path_iteration() {
 :::tip
 Filesystem. `fs::canonical()` resolves them by actually querying the filesystem (and throws if the
 Path does not exist). Use `lexically_normal()` for string-level cleanup, `canonical()` when you need
-The true absolute path.
+the true absolute path.
 :::
 
 ### Directory Iterators
 
 The library provides two directory iterators [N4950 §30.10.11]:
 
+<div class="table-wrap">
+
 | Iterator                           | Behavior                                            |
 | :--------------------------------- | :-------------------------------------------------- |
 | `fs::directory_iterator`           | Iterates over the immediate children of a directory |
 | `fs::recursive_directory_iterator` | Iterates over all descendants recursively           |
+
+</div>
 
 Both are input iterators and follow the RAII pattern, they close the directory handle in their
 Destructor.
@@ -227,7 +231,7 @@ void recursive_list(const fs::path& root, int max_depth = 3) {
 :::note
 Directories that the current process lacks permission to read. Without this option, a
 `fs::filesystem_error` exception is thrown. This is essential for recursively scanning directories
-Like `/home` or `/tmp` where some subdirectories may have restricted permissions [N4950
+like `/home` or `/tmp` where some subdirectories may have restricted permissions [N4950
 §30.10.11.1].
 :::
 
@@ -235,6 +239,8 @@ Like `/home` or `/tmp` where some subdirectories may have restricted permissions
 
 The `std::filesystem` namespace provides free functions for common file operations [N4950
 §30.10.14]:
+
+<div class="table-wrap">
 
 | Function                           | Purpose                                         |
 | :--------------------------------- | :---------------------------------------------- |
@@ -251,6 +257,8 @@ The `std::filesystem` namespace provides free functions for common file operatio
 | `fs::create_directories(path)`     | Create directory tree (like `mkdir -p`)         |
 | `fs::current_path()`               | Get/set the current working directory           |
 | `fs::temp_directory_path()`        | Get the system temp directory                   |
+
+</div>
 
 ```cpp
 #include <filesystem>
@@ -296,7 +304,7 @@ void file_operations_demo(const fs::path& work_dir) {
 
 :::caution
 Confirmation. Never call it with a path derived from untrusted user input without validation. Unlike
-`rm -rf`There is no "trash" or "undo" mechanism.
+`rm -rf`. There is no "trash" or "undo" mechanism.
 :::
 
 ## See Also
@@ -382,12 +390,16 @@ void permissions_demo(const fs::path& file) {
 }
 ```
 
+<div class="table-wrap">
+
 | `fs::perm_options` | Effect                                                |
 | :----------------- | :---------------------------------------------------- |
 | `replace`          | Replace current permissions with the given bitmask    |
 | `add`              | Add the given permission bits to the current set      |
 | `remove`           | Remove the given permission bits from the current set |
 | `nofollow`         | Do not follow symlinks (applicable on POSIX)          |
+
+</div>
 
 :::caution
 Permissions are not supported. The `owner_exec` permission is not meaningful on Windows.
@@ -544,7 +556,7 @@ void error_handling_demo() {
 
 :::tip
 (e.g., checking if a file exists by trying to open it). Exception-based error handling has overhead
-From stack unwinding, while error codes do not.
+from stack unwinding, while error codes do not.
 :::
 
 ### Temporary Files and Atomic Write Patterns
@@ -618,23 +630,7 @@ void atomic_write(const fs::path& target, std::string_view content) {
 
 4. Not practising with past papers or exercises under timed conditions.
 
-```mermaid
-flowchart TD
-    A[1_Filesystem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

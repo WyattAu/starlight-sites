@@ -82,7 +82,7 @@ University-level solid state physics notes covering crystal structures, band the
 
 - Quantum mechanics (wave functions, operators, perturbation theory)
 - Statistical mechanics (ensembles, partition functions)
-- Electromagnetism (Maxwell"s equations, dielectrics)
+- Electromagnetism (Maxwell's equations, dielectrics)
 - Linear algebra (vectors, matrices, Fourier transforms)
 
 ## How to Use These Notes
@@ -90,8 +90,6 @@ University-level solid state physics notes covering crystal structures, band the
 Start with crystal structures to build foundational knowledge, then progress to electronic band structure and superconductivity. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -119,7 +117,7 @@ Each section includes:
 - **Mathematics:** Fourier transforms, group theory, and linear algebra are essential mathematical tools.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

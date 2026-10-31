@@ -61,13 +61,15 @@ HDI scores range from 0 to 1. Countries are classified as very high ($\geq 0.800
 ### The Lorenz Curve
 
 The Lorenz curve plots the cumulative share of income received by the cumulative share of the
-Population, ordered from poorest to richest. The further the Lorenz curve deviates from the
+population, ordered from poorest to richest. The further the Lorenz curve deviates from the
 45-degree line of perfect equality, the greater the inequality.
 
-$$\mathrm{Gini coefficient} = \frac{A}{A + B}$$
+$$
+\mathrm{Gini coefficient} = \frac{A}{A + B}
+$$
 
 Where $A$ is the area between the line of equality and the Lorenz curve, and $B$ is the area under
-The Lorenz curve.
+the Lorenz curve.
 
 ## Inequality
 
@@ -85,10 +87,10 @@ The Lorenz curve.
 Simon Kuznets hypothesised an inverted-U relationship between economic development and income
 Inequality: inequality first rises during early industrialisation as a rural-urban divide emerges,
 Then falls as industrialisation matures, the labour share of income rises, and social policies are
-Introduced.
+introduced.
 
 Empirical evidence is mixed. Many developing countries have not followed the predicted pattern, and
-Some advanced economies have experienced rising inequality since the 1980s.
+some advanced economies have experienced rising inequality since the 1980s.
 
 ### Consequences of Inequality
 
@@ -119,7 +121,7 @@ Some advanced economies have experienced rising inequality since the 1980s.
 <summary>Problem 1: Gini Coefficient Interpretation</summary>
 
 Country A has a Gini coefficient of 0.25. Country B has a Gini coefficient of 0.55. Compare the
-Income distributions and discuss the implications for development.
+income distributions and discuss the implications for development.
 
 Country A has a relatively equal income distribution (Gini $= 0.25$), while Country B has a highly
 Unequal distribution (Gini $= 0.55$).
@@ -140,15 +142,15 @@ Key question is whether inequality is the result of opportunity or structural ba
 <summary>Problem 2: Multidimensional Poverty Index</summary>
 
 A household is assessed on three dimensions: health (nutrition, child mortality), education (years
-Of schooling, attendance), and living standards (electricity, sanitation, water, flooring, cooking
+of schooling, attendance), and living standards (electricity, sanitation, water, flooring, cooking
 Fuel, assets). If a household is deprived in $4$ out of $10$ indicators, what does the MPI reveal?
 
 The MPI counts a household as "multidimensionally poor" if it is deprived in at least one-third of
-The weighted indicators ( $3.33$ out of $10$). Since this household is deprived in $4$ Indicators,
+the weighted indicators ( $3.33$ out of $10$). Since this household is deprived in $4$ Indicators,
 it is classified as multidimensionally poor.
 
 The MPI provides a more comprehensive picture of poverty than income alone. This household might
-Have an income above the extreme poverty line but still suffer from deprivations in health,
+have an income above the extreme poverty line but still suffer from deprivations in health,
 Education, and living standards that income-based measures would not capture.
 
 </details>
@@ -164,13 +166,13 @@ Debt-to-GDP ratio $= 50 / 100 = 50\%$ (moderate, but context-dependent)
 
 Debt service-to-export ratio $= 4 / 15 = 26.7\%$
 
-The debt service-to-export ratio exceeds the commonly cited threshold of $20$--$25\%$Indicating That
+The debt service-to-export ratio exceeds the commonly cited threshold of $20$--$25\%$ Indicating That
 debt servicing is placing a significant burden on the country's foreign exchange earnings. A Large
 share of export revenue is being diverted to debt repayment, leaving less for essential Imports and
 investment.
 
 The country may benefit from debt restructuring (extending maturities, lowering interest rates) or
-Seeking additional concessional financing to reduce the debt service burden.
+seeking additional concessional financing to reduce the debt service burden.
 
 </details>
 
@@ -178,7 +180,7 @@ Seeking additional concessional financing to reduce the debt service burden.
 <summary>Problem 4: FDI Evaluation</summary>
 
 A multinational corporation opens a garment factory in a low-income country, employing 5,000 workers
-At above the local average wage. Evaluate the potential benefits and costs of this FDI for the host
+at above the local average wage. Evaluate the potential benefits and costs of this FDI for the host
 Country.
 
 Benefits:
@@ -213,7 +215,7 @@ Country X has GDP per capita (PPP) of `USD 12000` and HDI of 0.780. Country Y ha
 development Policy.
 
 Country Y has higher income per capita but lower human development. This divergence can occur
-Because:
+because:
 
 - Income distribution in Country Y is highly unequal, so the average GNI per capita is not
   representative of the typical citizen's standard of living.
@@ -241,7 +243,9 @@ moderate income levels.
 The GDI adjusts the HDI for gender disparities. It is calculated as the ratio of female HDI to Male
 HDI, adjusted by the overall HDI level:
 
-$$\text{GDI} = \frac{\text{HDI}_{\text{female}} + \text{HDI}_{\text{male}}}{2} - \frac{|\text{HDI}_{\text{female}} - \text{HDI}_{\text{male}}|}{2}$$
+$$
+\text{GDI} = \frac{\text{HDI}_{\text{female}} + \text{HDI}_{\text{male}}}{2} - \frac{|\text{HDI}_{\text{female}} - \text{HDI}_{\text{male}}|}{2}
+$$
 
 A GDI close to 1.0 indicates near gender parity. A GDI significantly below 1.0 indicates that One
 gender ( female) has substantially lower human development.
@@ -262,11 +266,15 @@ inequality.
 
 The MPI uses ten indicators across three dimensions:
 
+<div class="table-wrap">
+
 | Dimension        | Weight | Indicators                                                                                                        |
 | ---------------- | ------ | ----------------------------------------------------------------------------------------------------------------- |
 | Health           | 1/3    | Nutrition (1/6), Child mortality (1/6)                                                                            |
 | Education        | 1/3    | Years of schooling (1/6), School attendance (1/6)                                                                 |
 | Living standards | 1/3    | Electricity (1/18), Sanitation (1/18), Drinking water (1/18), Flooring (1/18), Cooking fuel (1/18), Assets (1/18) |
+
+</div>
 
 **Calculation steps:**
 
@@ -303,12 +311,12 @@ The MPI uses ten indicators across three dimensions:
 <summary>Problem 6: Harrod-Domar Applied</summary>
 
 Country M has GDP of `USD 50` billion, gross capital formation of `USD 10` billion, and GDP growth
-Of 4%. The government wants to achieve 7% growth.
+of 4%. The government wants to achieve 7% growth.
 
 (a) Calculate the current ICOR and savings rate.
 
 (b) Using the Harrod-Domar model, what savings rate is required to achieve 7% growth with the
-Current ICOR?
+current ICOR?
 
 (c) Alternatively, what ICOR would be needed with the current savings rate?
 
@@ -335,7 +343,7 @@ painful austerity measures.
 (c) Required $v = s / g = 0.20 / 0.07 = 2.86$
 
 The ICOR needs to fall from 5 to 2.86, meaning each unit of additional output requires 43% less
-Capital. This requires significantly more efficient investment -- investing in projects with Higher
+capital. This requires significantly more efficient investment -- investing in projects with Higher
 productivity, better technology, and stronger institutional frameworks.
 
 (d) Both options face significant challenges:
@@ -374,7 +382,7 @@ Total industrial profits $= 12\,000 \times 20\,000\,000 = \$240$ billion
 
 Reinvestment $= 0.40 \times 240 = \$96$ billion
 
-Growth rate of industrial capital $= 96 / (20\,000 \times k)$Where $k$ is capital per worker.
+Growth rate of industrial capital $= 96 / (20\,000 \times k)$ Where $k$ is capital per worker.
 
 Without knowing $k$ directly, we can express the growth rate in terms of the capital-output ratio.
 If the ICOR in industry is $v = 3$:
@@ -389,7 +397,7 @@ Growth rate of capital $= 96 / 900 = 10.7\%$
 Lewis turning point: $80 / 5 = 16$ years.
 
 After 16 years, all surplus labour is absorbed, and the industrial sector has $20 + 80 = 100$
-Million workers.
+million workers.
 
 (c) After the Lewis turning point:
 
@@ -410,6 +418,8 @@ Million workers.
 
 Country P has a population of 50 million. The following data are available:
 
+<div class="table-wrap">
+
 | Indicator          | Population deprived (%) |
 | ------------------ | ----------------------- |
 | Nutrition          | 25%                     |
@@ -423,6 +433,8 @@ Country P has a population of 50 million. The following data are available:
 | Cooking fuel       | 45%                     |
 | Assets             | 30%                     |
 
+</div>
+
 A household is classified as multidimensionally poor if deprived in $\geq 33.3\%$ of weighted
 Indicators.
 
@@ -430,7 +442,7 @@ Indicators.
 Deprivation intensity of 48%.
 
 (b) The government invests in water and sanitation infrastructure, eliminating deprivation in
-Drinking water and reducing sanitation deprivation to 20%. Estimate the impact on the MPI.
+drinking water and reducing sanitation deprivation to 20%. Estimate the impact on the MPI.
 
 (c) Evaluate the effectiveness of this investment compared to a cash transfer programme that Reduces
 the poverty headcount to 18%.
@@ -471,15 +483,15 @@ However, Country A has strong institutions (rule of law index = 1.5, control of 
 -1.1).
 
 (a) Explain how institutional quality is likely to affect the development trajectories of the two
-Countries over the next 20 years.
+countries over the next 20 years.
 
 (b) What policies could Country B implement to improve its institutional quality?
 
 (a) Country A is likely to attract more FDI, achieve higher domestic investment, experience more
-Innovation, have more effective government spending, and achieve more inclusive growth.
+innovation, have more effective government spending, and achieve more inclusive growth.
 
 Country B is likely to experience slower growth due to capital flight, low investment, and
-Misallocation of resources, suffer from rent-seeking and corruption, face greater difficulty
+misallocation of resources, suffer from rent-seeking and corruption, face greater difficulty
 Implementing reforms, and experience higher inequality.
 
 Over 20 years, even small annual growth rate differences (e.g., 3% vs. 1.5%) lead to Dramatically
@@ -538,6 +550,8 @@ international climate finance on the basis of CBDR and climate justice.
 
 Country R has the following sectoral employment data:
 
+<div class="table-wrap">
+
 | Year | Agriculture (% of employment) | Industry (% of employment) | Services (% of employment) | GDP per capita (USD, PPP) |
 | ---- | ----------------------------- | -------------------------- | -------------------------- | ------------------------- |
 | 1980 | 70                            | 10                         | 20                         | 800                       |
@@ -546,12 +560,16 @@ Country R has the following sectoral employment data:
 | 2010 | 30                            | 22                         | 48                         | 4500                      |
 | 2020 | 22                            | 20                         | 58                         | 7500                      |
 
+</div>
+
 (a) Describe the pattern of structural transformation.
 
 (b) Calculate the rate of structural change between 1980 and 2020 using the structure of Production
 indicator:
 
-$$\text{Structural change index} = \frac{1}{2} \sum_{i=1}^{n} |s_{i,t} - s_{i,0}|$$
+$$
+\text{Structural change index} = \frac{1}{2} \sum_{i=1}^{n} |s_{i,t} - s_{i,0}|
+$$
 
 (c) Explain why the share of industry employment peaked and then declined.
 
@@ -569,7 +587,9 @@ capita increases substantially.
 
 (b) Structural change index between 1980 and 2020:
 
-$$\text{Index} = \frac{1}{2}(|22 - 70| + |20 - 10| + |58 - 20|) = \frac{1}{2}(48 + 10 + 38) = \frac{96}{2} = 48$$
+$$
+\text{Index} = \frac{1}{2}(|22 - 70| + |20 - 10| + |58 - 20|) = \frac{1}{2}(48 + 10 + 38) = \frac{96}{2} = 48
+$$
 
 The structural change index is 48 percentage points, indicating substantial transformation over 40
 years.
@@ -795,9 +815,11 @@ but ambiguous or negative macro-level impacts (aid does not correlate with growt
 ### The Hypothesis
 
 The **Environmental Kuznets Curve (EKC)** hypothesises an inverted-U relationship between
-Environmental degradation and income per capita:
+environmental degradation and income per capita:
 
-$$\text{Pollution} = \alpha + \beta_1 Y + \beta_2 Y^2 + \epsilon$$
+$$
+\text{Pollution} = \alpha + \beta_1 Y + \beta_2 Y^2 + \epsilon
+$$
 
 Where $Y$ is GDP per capita. The turning point is at $Y^* = -\beta_1/(2\beta_2)$.
 
@@ -897,10 +919,10 @@ Regression: growth $= 1.0 + 1.5 \times \text{institution\_quality} + 0.3 \times 
 Where institution_quality is the WGI score (range -2.5 to +2.5) and investment is the Investment/GDP
 ratio.
 
-Country A: institution_quality $= 1.5$Investment $= 25\%$. Growth
+Country A: institution_quality $= 1.5$ Investment $= 25\%$. Growth
 $= 1.0 + 1.5(1.5) + 0.3(25) = 1.0 + 2.25 + 7.5 = 10.75\%$.
 
-Country B: institution_quality $= -1.0$Investment $= 30\%$. Growth
+Country B: institution_quality $= -1.0$ Investment $= 30\%$. Growth
 $= 1.0 + 1.5(-1.0) + 0.3(30) = 1.0 - 1.5 + 9.0 = 8.5\%$.
 
 Despite higher investment (30% vs. 25%), Country B grows more slowly (8.5% vs. 10.75%) because Its
@@ -917,7 +939,9 @@ investment rate.
 
 Jacob Mincer (1974) estimated the relationship between education, experience, and earnings:
 
-$$\ln w = \beta_0 + \beta_1 S + \beta_2 E + \beta_3 E^2 + \epsilon$$
+$$
+\ln w = \beta_0 + \beta_1 S + \beta_2 E + \beta_3 E^2 + \epsilon
+$$
 
 Where:
 
@@ -935,7 +959,7 @@ $\ln w = 0.5 + 0.10 S + 0.05 E - 0.001 E^2$
 
 (a) Calculate the wage premium for an additional year of schooling.
 
-$\partial \ln w / \partial S = 0.10$Or approximately 10% per additional year of schooling.
+$\partial \ln w / \partial S = 0.10$ Or approximately 10% per additional year of schooling.
 
 (b) Calculate the wage for a worker with 10 years of schooling and 20 years of experience.
 
@@ -952,6 +976,8 @@ the wage premium (due to skill obsolescence).
 
 ### Returns to Education: Cross-Country Evidence
 
+<div class="table-wrap">
+
 | Region             | Return to 1 additional year of schooling |
 | ------------------ | ---------------------------------------- |
 | Sub-Saharan Africa | 11.2%                                    |
@@ -959,6 +985,8 @@ the wage premium (due to skill obsolescence).
 | Latin America      | 9.7%                                     |
 | East Asia          | 9.6%                                     |
 | OECD               | 8.5%                                     |
+
+</div>
 
 Source: Psacharopoulos and Patrinos (2018)
 
@@ -975,7 +1003,9 @@ Source: Psacharopoulos and Patrinos (2018)
 
 Mankiw, Romer, and Weil (1992) augmented the Solow growth model with human capital:
 
-$$Y = K^{\alpha} H^{\beta}(AL)^{1-\alpha-\beta}$$
+$$
+Y = K^{\alpha} H^{\beta}(AL)^{1-\alpha-\beta}
+$$
 
 Where $H$ is the stock of human capital.
 
@@ -990,17 +1020,6 @@ growth model significantly improves its explanatory power.
 
 The social return may exceed the private return if education generates positive externalities (e.g.,
 better health outcomes, lower crime, more informed civic participation).
-
-
-```mermaid
-flowchart TD
-    A[1 Measuring Development] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

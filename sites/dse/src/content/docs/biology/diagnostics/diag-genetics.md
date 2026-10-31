@@ -85,12 +85,16 @@ Therefore, G + C = $100\% - 56\% = 44\%$.
 
 Since G pairs with C: G = $22\%$ and C = $22\%$.
 
+<div class="table-wrap">
+
 | Base         | Percentage |
 | ------------ | :--------: |
 | Adenine (A)  |    28%     |
 | Thymine (T)  |    28%     |
 | Guanine (G)  |    22%     |
 | Cytosine (C) |    22%     |
+
+</div>
 
 ---
 
@@ -116,6 +120,8 @@ meant by a codon and an anticodon. [4 marks]
 (c) A mutation changes a DNA triplet from GAG to GTG. Using the genetic code table below (partial),
 determine the effect of this mutation on the amino acid sequence.
 
+<div class="table-wrap">
+
 | mRNA codon | Amino acid    |
 | ---------- | ------------- |
 | CUC        | Leucine       |
@@ -123,6 +129,8 @@ determine the effect of this mutation on the amino acid sequence.
 | GAG        | Glutamic acid |
 | GAC        | Aspartic acid |
 | GUG        | Valine        |
+
+</div>
 
 [2 marks]
 
@@ -235,10 +243,14 @@ must have passed his $X^{c}$ chromosome to her. Therefore, her genotype is $X^{C
 
 **Genetic cross**:
 
+<div class="table-wrap">
+
 |                  | $X^{C}$ (mother)             | $X^{c}$ (mother)              |
 | ---------------- | ---------------------------- | ----------------------------- |
 | $X^{C}$ (father) | $X^{C}X^{C}$ (normal female) | $X^{C}X^{c}$ (carrier female) |
 | $Y$ (father)     | $X^{C}Y$ (normal male)       | $X^{c}Y$ (colour blind male)  |
+
+</div>
 
 Possible offspring:
 
@@ -254,7 +266,7 @@ allele ($X^{c}$) to express the condition, since there is no second X chromosome
 dominant allele to mask it.
 
 Females have **two X chromosomes** ($XX$). A female must have **two copies** of the recessive allele
-($X^{c}X^{c}$) to express the condition. A female with one copy ($X^{C}X^{c}$) is a carrier with
+($X^{c}X^{c}$) to express the condition. A female with one copy ($ X^{C}X^{c}$) is a carrier with
 normal vision. Therefore, the condition is much less likely to be expressed in females.
 
 (c) **Dihbrid cross**: $BbSs \times BbSs$
@@ -283,17 +295,6 @@ Probability of $bbS\_$ = $\frac{1}{4} \times \frac{3}{4} = \frac{3}{16}$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Genetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -406,11 +407,15 @@ antibiotic, only bacteria with the plasmid (which carries the resistance gene) w
 
 The table below shows three different types of mutations that can occur in a gene:
 
+<div class="table-wrap">
+
 | Mutation type     | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |
 | Silent mutation   | Base substitution that does not change the amino acid coded for |
 | Missense mutation | Base substitution that changes one amino acid to another        |
 | Nonsense mutation | Base substitution that creates a premature stop codon           |
+
+</div>
 
 (a) Explain why a silent mutation does not affect the protein produced. Refer to the nature of the
 genetic code. [2 marks]
@@ -506,7 +511,7 @@ dominant allele ($D$) on an autosome. The pedigree is described below:
 - Generation I: Father (affected, $Dd$) and Mother (unaffected, $dd$)
 - Generation II: Two children -- Daughter 1 (affected) and Son 1 (unaffected)
 
-(a) Explain why the father's genotype must be $Dd$ and not $DD$Given that the disorder is rare. [2
+(a) Explain why the father's genotype must be $Dd$ and not $DD$ Given that the disorder is rare. [2
 marks]
 
 (b) Calculate the probability that Daughter 1's first child (with an unaffected partner, $dd$) will
@@ -530,11 +535,11 @@ marks]
 **Worked Solution**
 
 (a) The disorder is **rare**, meaning the recessive allele ($d$) is much more common in the
-population than the dominant allele ($D$). If the father were $DD$Both of his parents would need to
+population than the dominant allele ($D$). If the father were $DD$ Both of his parents would need to
 carry or have the $D$ allele. Since the disorder is rare, it is far more likely that the father is
 **heterozygous ($Dd$)**, having inherited the $D$ allele from one parent (who may have been
 affected) and the $d$ allele from the other (unaffected parent). This is confirmed by the fact that
-Son 1 is unaffected ($dd$), which is only possible if the father contributed a $d$ allele, proving
+son 1 is unaffected ($dd$), which is only possible if the father contributed a $d$ allele, proving
 the father is $Dd$.
 
 (b) Daughter 1 is affected. Her father is $Dd$ and her mother is $dd$.
@@ -563,10 +568,14 @@ normal phenotype).
 
 Cross: $X^{D}X^{d} \times X^{D}Y$
 
+<div class="table-wrap">
+
 |                  | $X^{D}$ (mother)             | $X^{d}$ (mother)              |
 | ---------------- | ---------------------------- | ----------------------------- |
 | $X^{D}$ (father) | $X^{D}X^{D}$ (normal female) | $X^{D}X^{d}$ (carrier female) |
 | $Y$ (father)     | $X^{D}Y$ (normal male)       | $X^{d}Y$ (affected male)      |
+
+</div>
 
 Probability that the son is affected = $\frac{1}{2}$ (50%) of all sons, or $\frac{1}{4}$ of all
 children.

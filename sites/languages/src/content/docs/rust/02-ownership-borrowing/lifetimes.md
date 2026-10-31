@@ -30,12 +30,12 @@ fn dangle() -> &String {
 }
 ```
 
-The compiler rejects this because `s` is dropped at the end of `dangle`But the function promises To
+The compiler rejects this because `s` is dropped at the end of `dangle`. But the function promises To
 return a reference. The returned reference would point to freed memory. Lifetimes are the Mechanism
 by which the compiler tracks and enforces this constraint.
 
 Every reference in Rust has a lifetime, a region of code during which the reference is valid. In
-Most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
+most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
 Relationship between input and output lifetimes is ambiguous.
 
 ## Lifetime Annotation Syntax
@@ -76,7 +76,7 @@ fn first<'a, 'b>(x: &'a str, _y: &'b str) -> &'a str {
 ```
 
 The return type's lifetime is tied only to `'a`. The compiler does not require `'a` and `'b` to have
-Any relationship, they are independent.
+any relationship, they are independent.
 
 ## Function Lifetimes
 
@@ -247,7 +247,7 @@ fn foo(x: &str) -> (&str, &str)  →  fn foo<'a>(x: &'a str) -> (&'a str, &'a st
 
 ### Rule 3: `&self` or `&mut self` Lifetime
 
-If there are multiple input lifetime parameters but one of them is `&self` or `&mut self`The
+If there are multiple input lifetime parameters but one of them is `&self` or `&mut self`. The
 Lifetime of `self` is assigned to all output parameters:
 
 ```rust
@@ -310,18 +310,18 @@ where
 ```
 
 The `T: ''a` bound ensures that `T` does not contain references shorter than `"a`. This is necessary
-Because the trait object might reference data with lifetime `'a`.
+because the trait object might reference data with lifetime `'a`.
 
 ## Lifetime Variance
 
 Variance determines whether a longer lifetime can be substituted for a shorter one. This is critical
-For writing correct generic code.
+for writing correct generic code.
 
 ### Covariance
 
-`&'a T` is covariant in `'a`. If `'long: "short`Then `&''long T` can be used where `&"short T` is
+`&'a T` is covariant in `'a`. If `'long: "short`. Then `&''long T` can be used where `&"short T` is
 Expected. This is safe because a longer-lived reference is a subtype of a shorter-lived one when you
-Only read through it:
+only read through it:
 
 ```rust
 fn takes_short<'a>(r: &'a str) {}
@@ -332,7 +332,7 @@ takes_short(long);  // OK, 'static can be shortened to 'a
 
 ### Contravariance
 
-Function types are contravariant in their argument lifetimes. If `'short: "long`Then a function
+Function types are contravariant in their argument lifetimes. If `'short: "long`. Then a function
 Expecting a `''long` reference can be used where a function expecting a `"short` reference is needed:
 
 ```rust
@@ -349,7 +349,7 @@ where
 `&mut T` is invariant in both `'a` and `T`. You cannot substitute a `&'long mut T` where a
 `&'short mut T` is expected. This prevents soundness issues where a mutable reference to a
 Shorter-lived value could be used to write a longer-lived reference, extending its validity beyond
-Its scope:
+its scope:
 
 ```rust
 fn takes_short_mut<'a>(r: &'a mut i32) {
@@ -363,6 +363,8 @@ let r: &'static mut i32 = unsafe { &mut *Box::into_raw(Box::new(x)) };
 
 ### Variance Summary
 
+<div class="table-wrap">
+
 | Type             | Variance in `'a` | Variance in `T` |
 | ---------------- | ---------------- | --------------- |
 | `&'a T`          | Covariant        | Covariant       |
@@ -372,11 +374,13 @@ let r: &'static mut i32 = unsafe { &mut *Box::into_raw(Box::new(x)) };
 | `fn(&'a T) -> R` | Contravariant    | Contravariant   |
 | `fn(T) -> &'a R` | Covariant        | Covariant       |
 
+</div>
+
 ### Variance and Unsafe Code
 
 Violating variance assumptions in unsafe code causes undefined behavior. If you store a `&'long T`
-In a position that the compiler believes holds a `&'short T`The short reference may be used after
-The long reference's referent is freed:
+In a position that the compiler believes holds a `&'short T`. The short reference may be used after
+the long reference's referent is freed:
 
 ```rust
 use std::cell::Cell;
@@ -410,7 +414,7 @@ where
 apply(|s| s);
 ```
 
-The closure must work with any lifetime `'a`Not just a specific one. This is more restrictive than
+The closure must work with any lifetime `'a`. Not just a specific one. This is more restrictive than
 Specifying a single lifetime because the closure cannot capture references with a specific lifetime.
 
 ### HRTBs with Trait Objects
@@ -453,7 +457,7 @@ fn subtyping_example() {
 ```
 
 The compiler performs subtyping during borrow checking. If a function expects `&'a T` and you pass
-`&'b T` where `'b: "a`The compiler accepts it because a longer-lived reference satisfies a
+`&'b T` where `'b: "a`. The compiler accepts it because a longer-lived reference satisfies a
 Shorter-lived requirement.
 
 ## Common Lifetime Patterns
@@ -461,7 +465,7 @@ Shorter-lived requirement.
 ### The Self-Referential Struct Problem
 
 Rust cannot express structs that hold references to their own fields in safe code. The struct and
-Its field share the same lifetime, but the borrow checker treats them as independent:
+its field share the same lifetime, but the borrow checker treats them as independent:
 
 ```rust
 // This does NOT compile:
@@ -601,8 +605,8 @@ struct Context<'a> {
 ```
 
 If your struct contains a raw pointer that does not actually reference the lifetime parameter, you
-Can use `#[may_dangle]` (unsafe) to relax the drop check. This is advanced and should be used only
-When you can prove safety manually.
+can use `#[may_dangle]` (unsafe) to relax the drop check. This is advanced and should be used only
+when you can prove safety manually.
 
 ## Lifetime Bounds with `impl Trait`
 
@@ -677,7 +681,7 @@ fn make_closure<'a>() -> Box<dyn Fn(&'a str) -> usize> {
 ```
 
 The closure's return type is inferred from its body. When stored in a trait object, the lifetime
-Must be explicitly specified. This is because the trait object has an implicit lifetime bound:
+must be explicitly specified. This is because the trait object has an implicit lifetime bound:
 
 ```rust
 fn make_closure<'a>() -> Box<dyn Fn(&'a str) -> usize + 'a> {
@@ -688,7 +692,7 @@ fn make_closure<'a>() -> Box<dyn Fn(&'a str) -> usize + 'a> {
 ### Lifetime Bounds on Closures
 
 When a closure captures a reference, the closure's type carries a lifetime bound. This affects where
-The closure can be stored and used:
+the closure can be stored and used:
 
 ```rust
 fn with_callback<'a, F>(data: &'a str, callback: F)
@@ -784,7 +788,7 @@ fn get_wrapper<''a, T: "a>(data: &'a T) -> Wrapper<'a, T> {
 ```
 
 When `T` contains references, the compiler must ensure those references are valid for the lifetime
-`'a`. Without `T: "a`The compiler cannot verify this:
+`'a`. Without `T: "a`. The compiler cannot verify this:
 
 ```rust
 struct RefWrapper<''a, T: "a> {
@@ -837,7 +841,7 @@ impl<'a> SimpleParser<'a> {
 ```
 
 The returned `&'a str` borrows from the parser's `input` field, which has lifetime `'a`. This means
-The returned slices are valid as long as the parser's input is valid, zero-copy parsing.
+the returned slices are valid as long as the parser's input is valid, zero-copy parsing.
 
 ## `impl Trait` and Lifetimes
 
@@ -899,7 +903,7 @@ assert!(matches!(owned, Cow::Owned(_)));
 ```
 
 `Cow<'a, str>` is either `&'a str` (borrowed, no allocation) or `String` (owned, allocated). The
-Lifetime `'a` applies only to the borrowed variant. When the function returns `Cow::Borrowed`No
+Lifetime `'a` applies only to the borrowed variant. When the function returns `Cow::Borrowed`. No
 Allocation occurs.
 
 ## Lifetimes in Async Contexts
@@ -907,7 +911,7 @@ Allocation occurs.
 ### Lifetimes Across `.await` Points
 
 Holding a reference across an `.await` point is an error because the future may be moved or dropped
-Between yields:
+between yields:
 
 ```rust
 // This does NOT compile
@@ -982,9 +986,6 @@ implementation, and key applications.
 - trees (binary, AVL, BST)
 - hash tables
 - graphs and their representations
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

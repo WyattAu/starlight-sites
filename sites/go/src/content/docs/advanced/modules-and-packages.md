@@ -38,10 +38,10 @@ myproject/
 
 ### Package Naming Conventions
 
-- Lowercase, single word: `http``json``strings`
+- Lowercase, single word: `http`, `json`, `strings`
 - No underscores or mixed case
 - The directory name matches the package name
-- Avoid repetition: `pkg/utils/utils.go` -> the package is `utils`Not `utilsutils`
+- Avoid repetition: `pkg/utils/utils.go` -> the package is `utils`. Not `utilsutils`
 
 ### Import Paths
 
@@ -123,7 +123,7 @@ import "github.com/you/myproject/v2"
 ```
 
 The `/v2` suffix is part of the module path, not the package path. This allows v1 and v2 to coexist
-In the same dependency graph.
+in the same dependency graph.
 
 ## go.sum
 
@@ -187,7 +187,7 @@ go clean -modcache
 
 Go uses Minimal Version Selection, not SemVer resolution. For each dependency, Go selects the
 Maximum version required by any module in the graph. It does not upgrade transitive dependencies to
-Their latest version.
+their latest version.
 
 Example: if A requires C@v1.1.0 and B requires C@v1.2.0, Go uses C@v1.2.0 (the maximum required
 Version). It does not use C@v1.3.0 even if that exists, because no module requires it.
@@ -283,17 +283,6 @@ CI with restricted internet).
 7. **Forgetting `go.work sync`.** After adding modules to a workspace, run `go work sync` to update
    `go.mod` files with workspace-relevant information.
 
-
-```mermaid
-flowchart TD
-    A[Modules And Packages] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of modules and packages, including underlying theory, practical
@@ -307,13 +296,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

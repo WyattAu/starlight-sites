@@ -2,18 +2,12 @@
 // Stale-While-Revalidate for HTML, Cache-First for assets, Network-First for API
 
 const CACHES = {
-  static: 'wn-static-v1',
+  static: 'wn-static-v2',
   pages: 'wn-pages-v1',
   api: 'wn-api-v1',
 }
 
-const PRECACHE_URLS = [
-  '/fonts/Inter-latin.woff2',
-  '/fonts/JetBrainsMono-latin.woff2',
-  '/reader.js',
-  '/cross-site-search.js',
-  '/page-search.js',
-]
+const PRECACHE_URLS = ['/fonts/Inter-latin.woff2', '/fonts/JetBrainsMono-latin.woff2', '/reader.js']
 
 self.addEventListener('message', event => {
   if (event.data?.type === 'SKIP_WAITING') self.skipWaiting()

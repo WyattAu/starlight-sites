@@ -69,7 +69,7 @@ PROCEDURE selectionSort(list)
 
 **Intuition.** Imagine picking cards from a shuffled deck one at a time. You scan all remaining
 Cards, find the smallest, and place it next in your sorted hand. After $n$ passes, your hand is
-Fully sorted.
+fully sorted.
 
 **Why selection sort is $O(n^2)$.** The outer loop runs $n-1$ times. For each outer iteration, the
 Inner loop scans the remaining unsorted portion. The total number of comparisons is
@@ -107,11 +107,11 @@ public static void insertionSort(int[] arr) {
 
 **Intuition.** Imagine sorting a hand of playing cards. You hold the first card in your left hand
 (sorted). You pick up the next card with your right hand and insert it into the correct position in
-Your left hand by shifting larger cards to the right.
+your left hand by shifting larger cards to the right.
 
 **Why insertion sort is $O(n^2)$ in the worst case.** If the array is in reverse order, each new
 Element must be shifted all the way to the front. The $i$-th element requires up to $i$ shifts, so
-The total is $1 + 2 + \cdots + (n-1) = O(n^2)$.
+the total is $1 + 2 + \cdots + (n-1) = O(n^2)$.
 
 **Best case $O(n)$.** If the array is already sorted, each element requires zero shifts.
 
@@ -156,11 +156,15 @@ private static void merge(int[] arr, int left, int mid, int right) {
 **Complexity analysis.** The recursion tree has $\log_2 n$ levels. At each level, a total of $n$
 Elements are merged.
 
-$$T(n) = 2T(n/2) + O(n) \implies T(n) = O(n \log n)$$
+$$
+T(n) = 2T(n/2) + O(n) \implies T(n) = O(n \log n)
+$$
 
 This holds for best, average, and worst case.
 
 ### Comparing Sorting Algorithms
+
+<div class="table-wrap">
 
 | Algorithm      | Best          | Average       | Worst         | Space       | Stable |
 | -------------- | ------------- | ------------- | ------------- | ----------- | ------ |
@@ -168,6 +172,8 @@ This holds for best, average, and worst case.
 | Insertion Sort | $O(n)$        | $O(n^2)$      | $O(n^2)$      | $O(1)$      | Yes    |
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$      | Yes    |
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | $O(\log n)$ | No     |
+
+</div>
 
 **When to use each.** Insertion sort is best for small or nearly sorted arrays. Merge sort is
 Reliable for large datasets. Quick sort is often faster in practice but has an $O(n^2)$ worst case.
@@ -217,17 +223,17 @@ Requires the array to be sorted. Worst case: $O(\log n)$ comparisons.
 
 ### Proof of Binary Search Correctness (Invariant)
 
-**Loop invariant:** If `target` exists in `arr`Then `arr[low] <= target <= arr[high]` at the start
+**Loop invariant:** If `target` exists in `arr`. Then `arr[low] <= target <= arr[high]` at the start
 Of each iteration.
 
-**Initialization:** Before the first iteration, `low = 0` and `high = n - 1`So the invariant Holds.
+**Initialization:** Before the first iteration, `low = 0` and `high = n - 1`. So the invariant Holds.
 
-**Maintenance:** If `arr[mid] < target`We set `low = mid + 1`. Since the array is sorted and
-`arr[mid] < target``target` must be in `arr[mid+1..high]`. Similarly for the other case.
+**Maintenance:** If `arr[mid] < target`. We set `low = mid + 1`. Since the array is sorted and
+`arr[mid] < target`, `target` must be in `arr[mid+1..high]`. Similarly for the other case.
 
-**Termination:** The loop terminates when `low > high`Meaning the search space is empty. Since the
+**Termination:** The loop terminates when `low > high`. Meaning the search space is empty. Since the
 Invariant guarantees the target would be in `[low, high]` if it existed, the target is not in the
-Array.
+array.
 
 $\blacksquare$
 
@@ -236,6 +242,8 @@ $\blacksquare$
 Big-O notation describes the upper bound of an algorithm"s time or space complexity.
 
 ### Common Time Complexities
+
+<div class="table-wrap">
 
 | Complexity    | Name         | Example                        |
 | ------------- | ------------ | ------------------------------ |
@@ -246,10 +254,12 @@ Big-O notation describes the upper bound of an algorithm"s time or space complex
 | $O(n^2)$      | Quadratic    | Selection sort, insertion sort |
 | $O(2^n)$      | Exponential  | Recursive Fibonacci            |
 
+</div>
+
 ### Formal Definition
 
 $f(n) = O(g(n))$ if there exist positive constants $c$ and $n_0$ such that $f(n) \le c \cdot g(n)$
-For all $n \ge n_0$.
+for all $n \ge n_0$.
 
 ### Analyzing Code
 
@@ -360,6 +370,8 @@ reverse("abcd") = "dcba"
 
 **Trace of selection sort on [5, 3, 8, 1, 2]:**
 
+<div class="table-wrap">
+
 | Pass | Array State     | Comparisons | Swaps |
 | ---- | --------------- | ----------- | ----- |
 | 1    | [1, 3, 8, 5, 2] | 4           | 1     |
@@ -367,11 +379,15 @@ reverse("abcd") = "dcba"
 | 3    | [1, 2, 3, 5, 8] | 2           | 1     |
 | 4    | [1, 2, 3, 5, 8] | 1           | 0     |
 
+</div>
+
 Total comparisons: $4 + 3 + 2 + 1 = 10 = n(n-1)/2$ for $n = 5$.
 
 ### Insertion Sort Trace in Detail
 
 **Trace of insertion sort on [4, 2, 7, 1, 3]:**
+
+<div class="table-wrap">
 
 | Step | Array State     | Key | Shifts | Comparisons |
 | ---- | --------------- | --- | ------ | ----------- |
@@ -379,6 +395,8 @@ Total comparisons: $4 + 3 + 2 + 1 = 10 = n(n-1)/2$ for $n = 5$.
 | 2    | [4, 2, 7, 1, 3] | 7   | 0      | 1           |
 | 3    | [4, 2, 7, 1, 3] | 1   | 3      | 3           |
 | 4    | [1, 2, 4, 7, 3] | 3   | 0      | 1           |
+
+</div>
 
 Total comparisons: $1 + 1 + 3 + 1 = 6$.
 
@@ -389,15 +407,15 @@ Total comparisons: $1 + 1 + 3 + 1 = 6$.
 Split: [38, 27] and [43, 3].
 
 Sort [38, 27]: split into [38] and [27], merge to [27, 38]. Sort [43, 3]: split into [43] and [3],
-Merge to [3, 43].
+merge to [3, 43].
 
 Merge [27, 38] and [3, 43]: [3, 27, 38, 43].
 
 ### Quick Sort Worst Case
 
 Quick sort has $O(n^2)$ worst case when the pivot is always the smallest or largest element. This
-Happens when the array is already sorted (or reverse sorted) and the first or last element is used
-As the pivot.
+happens when the array is already sorted (or reverse sorted) and the first or last element is used
+as the pivot.
 
 **Mitigation:** Choose the middle element or a random element as the pivot.
 
@@ -452,7 +470,7 @@ public static long fibMemo(int n) {
 Split: [38, 27] and [43, 3].
 
 Sort [38, 27]: split into [38] and [27], merge to [27, 38]. Sort [43, 3]: split into [43] and [3],
-Merge to [3, 43].
+merge to [3, 43].
 
 Merge [27, 38] and [3, 43]: [3, 27, 38, 43].
 
@@ -492,7 +510,7 @@ private static int partition(int[] arr, int low, int high) {
 
 **Quick Sort worst case.** $O(n^2)$ when the pivot is always the smallest or largest element. This
 Happens when the array is already sorted (or reverse sorted) and the first or last element is used
-As the pivot.
+as the pivot.
 
 **Mitigation:** Choose the middle element or a random element as the pivot.
 
@@ -573,7 +591,7 @@ public static boolean isPalindrome(String s) {
 
 **Proof of correctness.** The loop compares characters at symmetric positions: position 0 with
 Position n-1, position 1 with position n-2, etc. If any pair differs, the string is not a palindrome
-And the method returns false. If all pairs match, the string reads the same forwards and backwards,
+and the method returns false. If all pairs match, the string reads the same forwards and backwards,
 So it is a palindrome. $lacksquare$
 
 **String reversal (iterative):**
@@ -796,7 +814,7 @@ times for each outer iteration. Total: $O(n \log n)$.
 <details>
 <summary>Question 2: Binary search trace</summary>
 
-Trace binary search on `[2, 5, 8, 12, 16, 23, 38]` searching for `7`. Show `low``high`And `mid` at
+Trace binary search on `[2, 5, 8, 12, 16, 23, 38]` searching for `7`. Show `low`, `high` and `mid` at
 each step.
 
 </details>
@@ -863,16 +881,6 @@ Using $C(n) = 2C(n/2) + n - 1$: $C(1)=0$$C(2)=1$$C(4)=5$$C(8)=17$. Maximum 17 co
 
 </details>
 
-```mermaid
-flowchart TD
-    A[3_Algorithms And Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of algorithms and programming, including underlying theory,
@@ -885,9 +893,6 @@ practical implementation, and key applications.
 - sorting algorithms (bubble, merge, quick)
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

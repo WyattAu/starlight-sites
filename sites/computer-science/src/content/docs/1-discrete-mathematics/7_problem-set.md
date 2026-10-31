@@ -22,12 +22,16 @@ description: "Prove that is a tautology using a truth table. Comprehensive educa
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | $p$ | $q$ | $p \implies q$ | $q \implies p$ | disjunction |
 | --- | --- | -------------- | -------------- | ----------- |
 | T   | T   | T              | T              | T           |
 | T   | F   | F              | T              | T           |
 | F   | T   | T              | F              | T           |
 | F   | F   | T              | T              | T           |
+
+</div>
 
 All rows give $T$ So it is a tautology.
 
@@ -50,14 +54,14 @@ If you get this wrong, revise: Section 1.6.
 
 </details>
 
-**Problem 3.** Negate: "For every real number $x$There exists a real number $y$ such that $y \gt x$."
+**Problem 3.** Negate: "For every real number $x$ There exists a real number $y$ such that $y \gt x$."
 
 <details>
 <summary>Solution</summary>
 
 Original: $\forall x\, \exists y\, (y \gt x)$.
 
-Negation: $\exists x\, \forall y\, (y \leq x)$I.e., "there exists a real number $x$ such that every Real number $y$ satisfies $y \leq x$."
+Negation: $\exists x\, \forall y\, (y \leq x)$ I.e., "there exists a real number $x$ such that every Real number $y$ satisfies $y \leq x$."
 
 If you get this wrong, revise: Section 1.2.
 
@@ -69,10 +73,10 @@ If you get this wrong, revise: Section 1.2.
 <summary>Solution</summary>
 
 ($\Rightarrow$) Assume $A \subseteq B$. Let $x \in A \cap B^c$. Then $x \in A$ and $x \notin B$. But
-$A \subseteq B$ implies $x \in B$Contradiction. So $A \cap B^c = \emptyset$.
+$A \subseteq B$ implies $x \in B$ Contradiction. So $A \cap B^c = \emptyset$.
 
 ($\Leftarrow$) Assume $A \cap B^c = \emptyset$. Let $x \in A$. If $x \notin B$ Then $x \in B^c$ So
-$x \in A \cap B^c = \emptyset$Contradiction. Hence $x \in B$Proving $A \subseteq B$. $\blacksquare$
+$x \in A \cap B^c = \emptyset$ Contradiction. Hence $x \in B$ Proving $A \subseteq B$. $\blacksquare$
 
 If you get this wrong, revise: Section 2.1.
 
@@ -84,7 +88,7 @@ even Is an equivalence relation. How many equivalence classes are there?
 <details>
 <summary>Solution</summary>
 
-_Reflexive:_ $a - a = 0$Which is even. ✓ _Symmetric:_ If $a - b$ is even, then $b - a = -(a - b)$ is
+_Reflexive:_ $a - a = 0$ Which is even. ✓ _Symmetric:_ If $a - b$ is even, then $b - a = -(a - b)$ is
 even. ✓ _Transitive:_ If $a - b$ and $b - c$ are even, then $a - c = (a - b) + (b - c)$ is even. ✓
 
 The equivalence classes are $[0] = \\{\mathrm{even\; integers{}\\}$ and
@@ -108,7 +112,7 @@ $(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 1$.
 Note $g \circ f \neq f \circ g$ So composition is not commutative.
 
 $g \circ f$ is not injective: $(g \circ f)(0) = 1$ and $(g \circ f)(-1) = 4(-1)^2 + 4(-1) + 1 = 1$
-But $0 \neq -1$.
+but $0 \neq -1$.
 
 If you get this wrong, revise: Section 2.3.
 
@@ -148,7 +152,7 @@ If you get this wrong, revise: Section 3.1.
 <details>
 <summary>Solution</summary>
 
-By contrapositive: assume $n$ is even, so $n = 2k$. Then $3n + 2 = 6k + 2 = 2(3k + 1)$Which is Even.
+By contrapositive: assume $n$ is even, so $n = 2k$. Then $3n + 2 = 6k + 2 = 2(3k + 1)$ Which is Even.
 $\blacksquare$
 
 If you get this wrong, revise: Section 3.2.
@@ -160,9 +164,9 @@ If you get this wrong, revise: Section 3.2.
 <details>
 <summary>Solution</summary>
 
-Suppose $\sqrt{3} = p/q$ in lowest terms. Then $3q^2 = p^2$ So $3 \mid p^2$Hence $3 \mid p$. Write
-$p = 3r$. Then $3q^2 = 9r^2$ So $q^2 = 3r^2$Giving $3 \mid q^2$ and $3 \mid q$. But then
-$\gcd(p, q) \geq 3$Contradicting lowest terms. $\blacksquare$
+Suppose $\sqrt{3} = p/q$ in lowest terms. Then $3q^2 = p^2$ So $3 \mid p^2$ Hence $3 \mid p$. Write
+$p = 3r$. Then $3q^2 = 9r^2$ So $q^2 = 3r^2$ Giving $3 \mid q^2$ and $3 \mid q$. But then
+$\gcd(p, q) \geq 3$ Contradicting lowest terms. $\blacksquare$
 
 If you get this wrong, revise: Section 3.3.
 
@@ -177,7 +181,9 @@ _Base case:_ $n = 0$: $2^0 = 1 = 2^1 - 1$. ✓
 
 _Inductive step:_ Assume $\sum_{i=0}^{k} 2^i = 2^{k+1} - 1$. Then
 
-$$\sum_{i=0}^{k+1} 2^i = (2^{k+1} - 1) + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1$$
+$$
+\sum_{i=0}^{k+1} 2^i = (2^{k+1} - 1) + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1
+$$
 
 $\blacksquare$
 
@@ -289,7 +295,7 @@ If you get this wrong, revise: Section 5.5.
 </details>
 
 **Problem 19.** In the bipartite graph with partitions $X = \\{1, 2, 3\\}$ and
-$Y = \\{a, b, c, d\\}$ And edges $1$--$a,b$; $2$--$b,c$; $3$--$c,d$Verify Hall's condition and find
+$Y = \\{a, b, c, d\\}$ And edges $1$--$a,b$; $2$--$b,c$; $3$--$c,d$ Verify Hall's condition and find
 a matching covering $X$.
 
 <details>
@@ -310,13 +316,13 @@ If you get this wrong, revise: Section 5.7.
 <details>
 <summary>Solution</summary>
 
-Characteristic equation: $r^2 - 3r + 2 = 0$Giving $(r - 1)(r - 2) = 0$ So $r_1 = 1$, $r_2 = 2$.
+Characteristic equation: $r^2 - 3r + 2 = 0$ Giving $(r - 1)(r - 2) = 0$ So $r_1 = 1$, $r_2 = 2$.
 
 $a_n = A \cdot 1^n + B \cdot 2^n = A + B \cdot 2^n$.
 
 $a_0 = A + B = 0 \implies A = -B$. $a_1 = A + 2B = 1 \implies -B + 2B = B = 1$.
 
-So $A = -1$, $B = 1$Giving $a_n = 2^n - 1$. $\blacksquare$
+So $A = -1$, $B = 1$ Giving $a_n = 2^n - 1$. $\blacksquare$
 
 If you get this wrong, revise: Section 6.2 and Section 6.3.
 
@@ -354,17 +360,6 @@ $\blacksquare$
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[7_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Logic: propositions, truth tables, quantifiers; implication, contrapositive, converse.
@@ -378,10 +373,14 @@ Practice problems consolidate theoretical understanding. Work through problems s
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                           | Site        | Link                                                                                   |
 | ------------------------------- | ----------- | -------------------------------------------------------------------------------------- |
 | Discrete Mathematics (Overview) | WyattsNotes | [View](/discrete-mathematics/)                                |
 | Theory of Computation           | WyattsNotes | [View](/theory-of-computation/)                               |
-| Abstract Algebra                | WyattsNotes | [View](https://mathematics.wyattau.com/abstract-algebra/)                                  |
-| Number Theory                   | WyattsNotes | [View](https://mathematics.wyattau.com/number-theory/)                                     |
+| Abstract Algebra                | WyattsNotes | [View](https://mathematics.wyattau.com/1-abstract-algebra/)                                  |
+| Number Theory                   | WyattsNotes | [View](https://mathematics.wyattau.com/7-number-theory/)                                     |
 | Discrete Mathematics, MIT OCW  | MIT         | [View](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) |
+
+</div>

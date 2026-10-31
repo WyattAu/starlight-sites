@@ -26,7 +26,9 @@ categories:
 **Definition 1 (sp$^3$ Hybridization):** One $s$ and three $p$ orbitals combine to form four
 equivalent sp$^3$ hybrid orbitals, arranged tetrahedrally with bond angles of 109.5°.
 
-$$\psi_{sp^3} = \frac{1}{2}(\psi_s + \psi_{p_x} + \psi_{p_y} + \psi_{p_z})$$
+$$
+\psi_{sp^3} = \frac{1}{2}(\psi_s + \psi_{p_x} + \psi_{p_y} + \psi_{p_z})
+$$
 
 Each sp$^3$ orbital has 25% $s$ character and 75% $p$ character. Examples: methane (CH$_4$), ethane,
 water (bent due to lone pairs).
@@ -37,7 +39,9 @@ water (bent due to lone pairs).
 equivalent sp$^2$ hybrid orbitals in a trigonal planar arrangement (120°). The remaining
 unhybridized $p_z$ orbital forms $\pi$ bonds.
 
-$$\psi_{sp^2} = \frac{1}{\sqrt{3}}\psi_s + \sqrt{\frac{2}{3}}\psi_p$$
+$$
+\psi_{sp^2} = \frac{1}{\sqrt{3}}\psi_s + \sqrt{\frac{2}{3}}\psi_p
+$$
 
 Each sp$^2$ orbital has 33.3% $s$ character. Examples: ethylene (C$_2$H$_4$), formaldehyde, benzene.
 
@@ -47,7 +51,9 @@ Each sp$^2$ orbital has 33.3% $s$ character. Examples: ethylene (C$_2$H$_4$), fo
 orbitals in a linear arrangement (180°). Two unhybridized $p$ orbitals form two perpendicular $\pi$
 bonds.
 
-$$\psi_{sp} = \frac{1}{\sqrt{2}}(\psi_s + \psi_p)$$
+$$
+\psi_{sp} = \frac{1}{\sqrt{2}}(\psi_s + \psi_p)
+$$
 
 Each sp orbital has 50% $s$ character. Examples: acetylene (C$_2$H$_2$), CO$_2$, HCN.
 
@@ -55,15 +61,23 @@ Each sp orbital has 50% $s$ character. Examples: acetylene (C$_2$H$_2$), CO$_2$,
 
 More $s$ character $\implies$ shorter, stronger bonds:
 
-$$\text{Bond length: } \text{sp}^3 > \text{sp}^2 > \text{sp}$$
+$$
+\text{Bond length: } \text{sp}^3 > \text{sp}^2 > \text{sp}
+$$
 
-$$\text{Bond strength: } \text{sp}^3 < \text{sp}^2 < \text{sp}$$
+$$
+\text{Bond strength: } \text{sp}^3 < \text{sp}^2 < \text{sp}
+$$
+
+<div class="table-wrap">
 
 | Hybridization | $s$ Character | C–C Bond Length (pm) | C–C Bond Energy (kJ/mol) |
 | ------------- | ------------- | -------------------- | ------------------------ |
 | sp$^3$        | 25%           | 154                  | 347                      |
 | sp$^2$        | 33.3%         | 133                  | 614                      |
 | sp            | 50%           | 120                  | 839                      |
+
+</div>
 
 ## 2. VSEPR Theory
 
@@ -74,6 +88,8 @@ lone pair–lone pair > lone pair–bond pair > bond pair–bond pair.
 
 ### 2.2 Common Geometries
 
+<div class="table-wrap">
+
 | Steric Number | Geometry             | Bond Angle      | Example             |
 | ------------- | -------------------- | --------------- | ------------------- |
 | 2             | Linear               | 180°            | CO$_2$, BeCl$_2$    |
@@ -83,6 +99,8 @@ lone pair–lone pair > lone pair–bond pair > bond pair–bond pair.
 | 4             | Bent                 | < 109.5°        | H$_2$O              |
 | 5             | Trigonal bipyramidal | 90°, 120°, 180° | PCl$_5$             |
 | 6             | Octahedral           | 90°, 180°       | SF$_6$              |
+
+</div>
 
 ### 2.3 Effect of Lone Pairs and Multiple Bonds
 
@@ -162,11 +180,13 @@ Experimental $\Delta H_{\text{hyd}}$ = $-208$ kJ/mol. Resonance energy = 152 kJ/
 
 ## 5. Aromaticity
 
-### 5.1 Huckel"s Rule
+### 5.1 Huckel's Rule
 
 **Theorem 3 (Huckel's Rule):** A planar, cyclic, fully conjugated system with $(4n + 2)$ $\pi$
 electrons is aromatic (exceptionally stable). Systems with $4n$ $\pi$ electrons are antiaromatic
 (destabilized).
+
+<div class="table-wrap">
 
 | $\pi$ Electrons | $n$ | Aromaticity  | Example                 |
 | --------------- | --- | ------------ | ----------------------- |
@@ -175,6 +195,8 @@ electrons is aromatic (exceptionally stable). Systems with $4n$ $\pi$ electrons 
 | 6               | 1   | Aromatic     | Benzene                 |
 | 8               | 2   | Antiaromatic | Cyclooctatetraene (tub) |
 | 10              | 2   | Aromatic     | Naphthalene             |
+
+</div>
 
 ### 5.2 Criteria for Aromaticity
 
@@ -227,16 +249,22 @@ rotate plane-polarized light in opposite directions.
 
 For double bonds (E/Z):
 
-$$\text{E (Entgegen): } \text{higher priority groups on opposite sides}$$
+$$
+\text{E (Entgegen): } \text{higher priority groups on opposite sides}
+$$
 
-$$\text{Z (Zusammen): } \text{higher priority groups on same side}$$
+$$
+\text{Z (Zusammen): } \text{higher priority groups on same side}
+$$
 
 ### 6.3 Optical Activity
 
 **Definition 11 (Optical Activity):** Enantiomers rotate plane-polarized light. The specific
 rotation:
 
-$$[\alpha] = \frac{\alpha_{\text{obs}}}{c \cdot l}$$
+$$
+[\alpha] = \frac{\alpha_{\text{obs}}}{c \cdot l}
+$$
 
 where $\alpha_{\text{obs}}$ is the observed rotation (degrees), $c$ is concentration (g/mL), and $l$
 is path length (dm).
@@ -278,12 +306,16 @@ point where bonds meet; the back carbon by a circle.
 
 The dihedral angle $\phi$ between H atoms on adjacent carbons determines the energy:
 
-$$E(\phi) = \frac{V_0}{2}(1 + \cos 3\phi)$$
+$$
+E(\phi) = \frac{V_0}{2}(1 + \cos 3\phi)
+$$
 
 - **Staggered** ($\phi = 60°, 180°, 300°$): minimum energy.
 - **Eclipsed** ($\phi = 0°, 120°, 240°$): maximum energy ($\sim 12$ kJ/mol above staggered).
 
 ### 7.3 Butane Conformations
+
+<div class="table-wrap">
 
 | Conformation     | Dihedral Angle | Relative Energy (kJ/mol) |
 | ---------------- | -------------- | ------------------------ |
@@ -291,6 +323,8 @@ $$E(\phi) = \frac{V_0}{2}(1 + \cos 3\phi)$$
 | Gauche           | ±60°           | +3.8                     |
 | Eclipsed (Me–H)  | ±120°          | +16                      |
 | Eclipsed (Me–Me) | 0°             | +19                      |
+
+</div>
 
 The anti conformation is most stable due to minimal steric hindrance.
 
@@ -307,6 +341,8 @@ equatorial positions.
 
 **Theorem 5 (A-Value):** The conformational free energy difference between axial and equatorial:
 
+<div class="table-wrap">
+
 | Substituent | A-Value (kJ/mol) | Preferred Position |
 | ----------- | ---------------- | ------------------ |
 | CH$_3$      | 7.3              | Equatorial         |
@@ -315,6 +351,8 @@ equatorial positions.
 | OH          | 4.0              | Equatorial         |
 | Cl          | 2.1              | Equatorial         |
 | Br          | 1.8              | Equatorial         |
+
+</div>
 
 ### 7.5 Disubstituted Cyclohexanes
 
@@ -327,11 +365,15 @@ equatorial positions.
 
 For a monosubstituted cyclohexane:
 
-$$K_{\text{eq}} = \frac{[\text{equatorial}]}{[\text{axial}]} = e^{-\Delta G/RT}$$
+$$
+K_{\text{eq}} = \frac{[\text{equatorial}]}{[\text{axial}]} = e^{-\Delta G/RT}
+$$
 
 **Example 3:** For methylcyclohexane at 298 K with $\Delta G = 7.3$ kJ/mol:
 
-$$K_{\text{eq}} = e^{-7300/(8.314 \times 298)} = e^{-2.95} \approx 19$$
+$$
+K_{\text{eq}} = e^{-7300/(8.314 \times 298)} = e^{-2.95} \approx 19
+$$
 
 The equatorial conformer is favored ~95%.
 
@@ -344,8 +386,8 @@ $\blacksquare$
 **Definition 16 (Inductive Effect):** Electron withdrawal or donation through $\sigma$ bonds,
 decreasing with distance.
 
-- **Electron-withdrawing groups (EWG):** $-$NO$_2$, $-$CN, $-$C=O, halogens (at short range).
-- **Electron-donating groups (EDG):** Alkyl groups, $-$O$^-$, $-$NH$_2$.
+- **Electron-withdrawing groups (EWG):** $-$ NO$_2$, $-$ CN, $-$ C=O, halogens (at short range).
+- **Electron-donating groups (EDG):** Alkyl groups, $-$ O$^-$, $-$ NH$_2$.
 
 ### 8.2 Hyperconjugation
 
@@ -383,17 +425,6 @@ important for polar substituents near a reaction center.
 7. **Overcounting $\pi$ electrons in aromatic heterocycles.** The nitrogen lone pair in pyridine
    does not contribute to the $\pi$ system; in pyrrole it does. **Fix:** Check whether the lone pair
    is in a $p$ orbital (contributes) or an sp$^2$ orbital (does not).
-
-
-```mermaid
-flowchart TD
-    A[Structure And Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -445,6 +476,8 @@ Structure and bonding determine everything about how a molecule behaves. Hybridi
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                        | Site        | Link                                                                    |
 | ---------------------------- | ----------- | ----------------------------------------------------------------------- |
 | Reaction Mechanisms          | WyattsNotes | [View](/2-organic-chemistry/reaction-mechanisms/)                  |
@@ -452,7 +485,9 @@ Structure and bonding determine everything about how a molecule behaves. Hybridi
 | Quantum Chemistry            | WyattsNotes | [View](/1-physical-chemistry/quantum-chemistry/)                    |
 | Organic Chemistry, MIT 5.12 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-fall-2005/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+</div>
+
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

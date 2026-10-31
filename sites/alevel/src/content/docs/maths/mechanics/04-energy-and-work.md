@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                              |
 | ---------- | ------- | ---------------------------------- |
 | AQA        | Paper 1 | Work, energy, power                |
 | Edexcel    | P1      | Similar                            |
 | OCR (A)    | Paper 1 | Includes energy on inclined planes |
 | CIE (9709) | P1, P4  | Work-energy in P1; further in P4   |
+
+</div>
 
 :::note
 Final states matter (no time information needed).
@@ -43,18 +47,22 @@ Final states matter (no time information needed).
 **Definition.** The work done by a constant force $\mathbf{F}$ moving a body through displacement
 $\mathbf{s}$ is
 
-$$W = \mathbf{F} \cdot \mathbf{s} = Fs\cos\theta$$
+$$
+W = \mathbf{F} \cdot \mathbf{s} = Fs\cos\theta
+$$
 
 Where $\theta$ is the angle between $\mathbf{F}$ and $\mathbf{s}$.
 
 **Derivation.** For a force $F$ in the direction of motion:
 
-$$W = \int_{s_1}^{s_2} F\,ds$$
+$$
+W = \int_{s_1}^{s_2} F\,ds
+$$
 
 For constant force: $W = F(s_2 - s_1) = Fs$.
 
 If the force makes angle $\theta$ with the displacement, only the component $F\cos\theta$ in the
-Direction of motion does work: $W = Fs\cos\theta$. $\blacksquare$
+direction of motion does work: $W = Fs\cos\theta$. $\blacksquare$
 
 The SI unit of work is the joule (J) = newton-metre (Nm).
 
@@ -69,17 +77,25 @@ To the motion (e.g., the normal reaction does no work on a body sliding on a hor
 
 **Theorem.** The kinetic energy of a body of mass $m$ moving at speed $v$ is
 
-$$\mathrm{KE} = \frac{1}{2}mv^2$$
+$$
+\mathrm{KE} = \frac{1}{2}mv^2
+$$
 
-**Proof.** Starting from Newton"s Second Law:
+**Proof.** Starting from Newton's Second Law:
 
-$$F = ma = m\frac{dv}{dt} = m\frac{dv}{ds}\frac{ds}{dt} = mv\frac{dv}{ds}$$
+$$
+F = ma = m\frac{dv}{dt} = m\frac{dv}{ds}\frac{ds}{dt} = mv\frac{dv}{ds}
+$$
 
-$$F\,ds = mv\,dv$$
+$$
+F\,ds = mv\,dv
+$$
 
 Integrating from rest ($v=0$) to speed $v$:
 
-$$W = \int_0^s F\,ds' = \int_0^v mv'\,dv' = \frac{1}{2}mv^2$$
+$$
+W = \int_0^s F\,ds' = \int_0^v mv'\,dv' = \frac{1}{2}mv^2
+$$
 
 This work equals the kinetic energy gained: $\mathrm{KE} = \tfrac{1}{2}mv^2$. $\blacksquare$
 
@@ -92,11 +108,15 @@ This work equals the kinetic energy gained: $\mathrm{KE} = \tfrac{1}{2}mv^2$. $\
 **Theorem.** The gravitational potential energy of a mass $m$ at height $h$ above a reference level
 Is
 
-$$\mathrm{GPE} = mgh$$
+$$
+\mathrm{GPE} = mgh
+$$
 
 **Proof.** The work done against gravity to raise a mass $m$ through height $h$ is:
 
-$$W = F \times h = mg \times h = mgh$$
+$$
+W = F \times h = mg \times h = mgh
+$$
 
 This work is stored as gravitational potential energy. $\blacksquare$
 
@@ -111,20 +131,24 @@ This work is stored as gravitational potential energy. $\blacksquare$
 
 Roller coasters are a classic application of GPE. A coaster train is hauled to the highest point
 Using a motor (work done against gravity). From there, GPE converts to KE as it descends, and back
-To GPE as it climbs the next hill.
+to GPE as it climbs the next hill.
 
 **Key insight:** The maximum speed depends only on the vertical drop, not the track shape (assuming
 No friction). For a drop of $40\,\mathrm{m}$:
 
-$$v_{\max} = \sqrt{2(9.8)(40)} \approx 28\,\mathrm{m/s}$$
+$$
+v_{\max} = \sqrt{2(9.8)(40)} \approx 28\,\mathrm{m/s}
+$$
 
 (approximately $100\,\mathrm{km/h}$). Real coasters never reach this due to friction and air
 Resistance.
 
-For a loop-the-loop of radius $r$The minimum speed at the top is $\sqrt{gr}$ (from circular Motion).
+For a loop-the-loop of radius $r$ The minimum speed at the top is $\sqrt{gr}$ (from circular Motion).
 The coaster must enter the loop with enough GPE to reach this speed at the top:
 
-$$mgh = \frac{1}{2}m(\sqrt{gr})^2 + mg(2r) \implies h = \frac{5}{2}r$$
+$$
+mgh = \frac{1}{2}m(\sqrt{gr})^2 + mg(2r) \implies h = \frac{5}{2}r
+$$
 
 The entry height must be at least $2.5r$ above the bottom of the loop.
 
@@ -137,31 +161,41 @@ The entry height must be at least $2.5r$ above the bottom of the loop.
 **Theorem (Work-Energy Principle).** The work done by all forces on a body equals the change in its
 Kinetic energy:
 
-$$W_{\mathrm{net}} = \Delta\mathrm{KE} = \frac{1}{2}mv^2 - \frac{1}{2}mu^2$$
+$$
+W_{\mathrm{net}} = \Delta\mathrm{KE} = \frac{1}{2}mv^2 - \frac{1}{2}mu^2
+$$
 
 ### 4.2 Proof from Newton's Second Law
 
-$$W = \int_{s_1}^{s_2} F\,ds = \int_{s_1}^{s_2} ma\,ds = m\int_{s_1}^{s_2}\frac{dv}{dt}\,ds = m\int_{u}^{v}v'\,dv' = \frac{1}{2}mv^2 - \frac{1}{2}mu^2 \quad \blacksquare$$
+$$
+W = \int_{s_1}^{s_2} F\,ds = \int_{s_1}^{s_2} ma\,ds = m\int_{s_1}^{s_2}\frac{dv}{dt}\,ds = m\int_{u}^{v}v'\,dv' = \frac{1}{2}mv^2 - \frac{1}{2}mu^2 \quad \blacksquare
+$$
 
 ### 4.3 Conservation of mechanical energy
 
 If only conservative forces (gravity) do work:
 
-$$\mathrm{KE}_1 + \mathrm{GPE}_1 = \mathrm{KE}_2 + \mathrm{GPE}_2$$
+$$
+\mathrm{KE}_1 + \mathrm{GPE}_1 = \mathrm{KE}_2 + \mathrm{GPE}_2
+$$
 
 When friction is present:
 
-$$\mathrm{KE}_1 + \mathrm{GPE}_1 = \mathrm{KE}_2 + \mathrm{GPE}_2 + \mathrm{Work done against friction}$$
+$$
+\mathrm{KE}_1 + \mathrm{GPE}_1 = \mathrm{KE}_2 + \mathrm{GPE}_2 + \mathrm{Work done against friction}
+$$
 
 ### 4.4 Work-energy principle for systems
 
 When multiple bodies interact (e.g., two blocks connected by a string over a pulley), apply the
-Work-energy principle to the **system as a whole**:
+work-energy principle to the **system as a whole**:
 
-$$W_{\mathrm{external}} = \Delta\mathrm{KE}_{\mathrm{system}} + \Delta\mathrm{GPE}_{\mathrm{system}} + W_{\mathrm{friction}}$$
+$$
+W_{\mathrm{external}} = \Delta\mathrm{KE}_{\mathrm{system}} + \Delta\mathrm{GPE}_{\mathrm{system}} + W_{\mathrm{friction}}
+$$
 
 Internal forces (such as tension in a connecting string) do equal and opposite work on the two
-Masses and cancel out. Only external forces and changes in GPE need be considered.
+masses and cancel out. Only external forces and changes in GPE need be considered.
 
 **Example.** Two particles of masses $3\,\mathrm{kg}$ and $5\,\mathrm{kg}$ are connected by a light
 Inextensible string over a smooth pulley. Released from rest, find the speed when the
@@ -169,7 +203,9 @@ $5\,\mathrm{kg}$ mass has descended $2\,\mathrm{m}$.
 
 Net GPE lost $= (5 - 3)(9.8)(2) = 39.2\,\mathrm{J}$. This equals total KE gained:
 
-$$\frac{1}{2}(3 + 5)v^2 = 39.2 \implies 4v^2 = 39.2 \implies v \approx 3.13\,\mathrm{m/s}$$
+$$
+\frac{1}{2}(3 + 5)v^2 = 39.2 \implies 4v^2 = 39.2 \implies v \approx 3.13\,\mathrm{m/s}
+$$
 
 Compare with the force method: $a = \frac{5-3}{5+3}(9.8) = 2.45\,\mathrm{m/s}^2$ Then
 $v = \sqrt{2(2.45)(2)} \approx 3.13\,\mathrm{m/s}$. The energy method avoids solving for tension.
@@ -180,11 +216,15 @@ $v = \sqrt{2(2.45)(2)} \approx 3.13\,\mathrm{m/s}$. The energy method avoids sol
 
 ### 5.1 Definition
 
-$$P = \frac{dW}{dt}$$
+$$
+P = \frac{dW}{dt}
+$$
 
 For a force $F$ on a body moving at speed $v$:
 
-$$\boxed{P = Fv}$$
+$$
+\boxed{P = Fv}
+$$
 
 **Derivation.** $P = \dfrac{dW}{dt} = \dfrac{F\,ds}{dt} = Fv$. $\blacksquare$
 
@@ -197,51 +237,67 @@ $1\,\mathrm{kW} = 1000\,\mathrm{W}$, $1\,\mathrm{MW} = 10^6\,\mathrm{W}$.
 ### 5.3 Power and inclined planes
 
 At maximum speed (terminal velocity) up a slope, the driving force equals the component of weight
-Plus friction:
+plus friction:
 
-$$\frac{P}{v_{\max}} = mg\sin\theta + F_{\mathrm{friction}}$$
+$$
+\frac{P}{v_{\max}} = mg\sin\theta + F_{\mathrm{friction}}
+$$
 
 ### 5.4 Power in variable-force situations
 
 When a body moves under constant power $P$ (e.g., a car with the throttle fixed), the available
 Tractive force decreases as speed increases:
 
-$$F = \frac{P}{v}$$
+$$
+F = \frac{P}{v}
+$$
 
 Since $F = ma$:
 
-$$m\frac{dv}{dt} = \frac{P}{v} \implies mv\frac{dv}{dt} = P$$
+$$
+m\frac{dv}{dt} = \frac{P}{v} \implies mv\frac{dv}{dt} = P
+$$
 
 Integrating from rest ($v = 0$) to speed $v$ over time $t$:
 
-$$\int_0^v mv'\,dv' = \int_0^t P\,dt' \implies \frac{1}{2}mv^2 = Pt \implies v = \sqrt{\frac{2Pt}{m}}$$
+$$
+\int_0^v mv'\,dv' = \int_0^t P\,dt' \implies \frac{1}{2}mv^2 = Pt \implies v = \sqrt{\frac{2Pt}{m}}
+$$
 
 Speed increases as $\sqrt{t}$ under constant power, slower than the linear increase under constant
 Force. This explains why cars feel less responsive at high speeds: the available force at speed $v$
-Is only $P/v$.
+is only $P/v$.
 
 To find the distance covered:
 
-$$s = \int_0^t \sqrt{\frac{2Pt'}{m}}\,dt' = \sqrt{\frac{2P}{m}} \cdot \frac{2}{3}t^{3/2} = \frac{2}{3}\sqrt{\frac{2P}{m}}\,t^{3/2}$$
+$$
+s = \int_0^t \sqrt{\frac{2Pt'}{m}}\,dt' = \sqrt{\frac{2P}{m}} \cdot \frac{2}{3}t^{3/2} = \frac{2}{3}\sqrt{\frac{2P}{m}}\,t^{3/2}
+$$
 
 ### 5.5 Energy-time graphs and average power
 
 The gradient of a kinetic energy-time graph gives the instantaneous power:
 
-$$\frac{d(\mathrm{KE})}{dt} = \frac{d}{dt}\left(\frac{1}{2}mv^2\right) = mv\frac{dv}{dt} = Fv = P$$
+$$
+\frac{d(\mathrm{KE})}{dt} = \frac{d}{dt}\left(\frac{1}{2}mv^2\right) = mv\frac{dv}{dt} = Fv = P
+$$
 
 The area under a power-time graph equals the total work done (or total energy transferred).
 
 **Average power** over a time interval $\Delta t$:
 
-$$P_{\mathrm{avg}} = \frac{\Delta W}{\Delta t} = \frac{\Delta\mathrm{KE} + \Delta\mathrm{GPE}}{\Delta t}$$
+$$
+P_{\mathrm{avg}} = \frac{\Delta W}{\Delta t} = \frac{\Delta\mathrm{KE} + \Delta\mathrm{GPE}}{\Delta t}
+$$
 
 For a body accelerating from rest to speed $v$ in time $t$ under constant force:
 
-$$P_{\mathrm{avg}} = \frac{\frac{1}{2}mv^2}{t} = \frac{1}{2}Fv$$
+$$
+P_{\mathrm{avg}} = \frac{\frac{1}{2}mv^2}{t} = \frac{1}{2}Fv
+$$
 
 This is half the instantaneous power $Fv$ at the end, since velocity increases linearly from $0$ to
-$v$ while force remains constant. For constant power $P$The average power equals $P$ throughout.
+$v$ while force remains constant. For constant power $P$ The average power equals $P$ throughout.
 
 <hr />
 
@@ -250,29 +306,37 @@ $v$ while force remains constant. For constant power $P$The average power equals
 ### 6.1 Hooke's law
 
 Hooke's law states that the tension in an elastic spring (or string) is proportional to its
-Extension from the natural length:
+extension from the natural length:
 
-$$T = kx$$
+$$
+T = kx
+$$
 
 Where $k$ is the stiffness (spring constant) in $\mathrm{N/m}$ And $x$ is the extension.
 
 The force-extension graph is a straight line through the origin. The area under this graph equals
-The work done stretching the spring.
+the work done stretching the spring.
 
 ### 6.2 Derivation of elastic potential energy
 
 **Theorem.** The elastic potential energy stored in a spring of stiffness $k$ extended by $x$ is:
 
-$$\mathrm{EPE} = \frac{1}{2}kx^2$$
+$$
+\mathrm{EPE} = \frac{1}{2}kx^2
+$$
 
 **Proof.** The force varies from $0$ to $kx$. The work done equals the area under the
 Force-extension graph (a triangle):
 
-$$W = \frac{1}{2} \times x \times kx = \frac{1}{2}kx^2$$
+$$
+W = \frac{1}{2} \times x \times kx = \frac{1}{2}kx^2
+$$
 
 By integration:
 
-$$\mathrm{EPE} = \int_0^x kx'\,dx' = \left[\frac{1}{2}kx'^2\right]_0^x = \frac{1}{2}kx^2 \quad \blacksquare$$
+$$
+\mathrm{EPE} = \int_0^x kx'\,dx' = \left[\frac{1}{2}kx'^2\right]_0^x = \frac{1}{2}kx^2 \quad \blacksquare
+$$
 
 An equivalent form using the tension $T = kx$ at maximum extension is
 $\mathrm{EPE} = \frac{1}{2}Tx$.
@@ -281,26 +345,34 @@ $\mathrm{EPE} = \frac{1}{2}Tx$.
 
 When elastic springs are involved, EPE must be included in the energy balance:
 
-$$\mathrm{KE}_1 + \mathrm{GPE}_1 + \mathrm{EPE}_1 = \mathrm{KE}_2 + \mathrm{GPE}_2 + \mathrm{EPE}_2 + W_{\mathrm{friction}}$$
+$$
+\mathrm{KE}_1 + \mathrm{GPE}_1 + \mathrm{EPE}_1 = \mathrm{KE}_2 + \mathrm{GPE}_2 + \mathrm{EPE}_2 + W_{\mathrm{friction}}
+$$
 
 ### 6.4 Real-world application: bungee jumping
 
 A bungee cord behaves like a spring. As a jumper falls, GPE converts to KE until the cord becomes
 Taut. Once taut, the cord stretches and stores EPE. Energy oscillates between GPE, KE, and EPE until
-Damping dissipates it.
+damping dissipates it.
 
 **Example.** A jumper of mass $75\,\mathrm{kg}$ leaps from a platform $50\,\mathrm{m}$ above a
 River. The cord has natural length $25\,\mathrm{m}$ and stiffness $200\,\mathrm{N/m}$. Find the
-Lowest point reached ($g = 9.8\,\mathrm{m/s}^2$).
+lowest point reached ($g = 9.8\,\mathrm{m/s}^2$).
 
 At the lowest point, speed $= 0$. If the total distance fallen is $d$ (where $d \gt 25$ since the
-Cord must be stretched):
+cord must be stretched):
 
-$$mgd = \frac{1}{2}k(d - 25)^2$$
+$$
+mgd = \frac{1}{2}k(d - 25)^2
+$$
 
-$$735d = 100(d - 25)^2 \implies 100d^2 - 5735d + 62500 = 0$$
+$$
+735d = 100(d - 25)^2 \implies 100d^2 - 5735d + 62500 = 0
+$$
 
-$$d = \frac{5735 \pm \sqrt{5735^2 - 4(100)(62500)}}{200} = \frac{5735 \pm 2809}{200}$$
+$$
+d = \frac{5735 \pm \sqrt{5735^2 - 4(100)(62500)}}{200} = \frac{5735 \pm 2809}{200}
+$$
 
 $d = 42.72\,\mathrm{m}$ (the root $14.63\,\mathrm{m}$ is rejected since the cord is not yet taut).
 
@@ -309,11 +381,13 @@ The lowest point is $50 - 42.72 = 7.28\,\mathrm{m}$ above the river. The jumper 
 ### 6.5 Real-world application: spring-mass systems
 
 A mass $m$ on a spring of stiffness $k$ (smooth surface) forms a simple harmonic oscillator. At the
-Natural length, all energy is kinetic. At maximum extension $A$ (the amplitude), all energy is EPE:
+natural length, all energy is kinetic. At maximum extension $A$ (the amplitude), all energy is EPE:
 
-$$E_{\mathrm{total}} = \frac{1}{2}kA^2 = \frac{1}{2}mv_{\max}^2$$
+$$
+E_{\mathrm{total}} = \frac{1}{2}kA^2 = \frac{1}{2}mv_{\max}^2
+$$
 
-This gives $v_{\max} = A\sqrt{k/m}$The maximum speed at the equilibrium position.
+This gives $v_{\max} = A\sqrt{k/m}$ The maximum speed at the equilibrium position.
 
 <hr />
 
@@ -435,7 +509,9 @@ A spring obeys Hooke's law: $T = kx$. Derive the elastic potential energy stored
 <summary>Solution 8</summary>
 The force varies from $0$ to $kx$. The work done (energy stored) is:
 
-$$\mathrm{EPE} = \int_0^x T\,dx' = \int_0^x kx'\,dx' = \frac{1}{2}kx^2$$
+$$
+\mathrm{EPE} = \int_0^x T\,dx' = \int_0^x kx'\,dx' = \frac{1}{2}kx^2
+$$
 
 **If you get this wrong, revise:** [Work Done](#11-definition-and-derivation), Section 1.1.
 
@@ -482,7 +558,7 @@ $v = \dfrac{-250 + \sqrt{62500 + 400000}}{2} = \dfrac{-250 + \sqrt{462500}}{2} =
 <summary>Problem 11</summary>
 A particle of mass $0.5\,\mathrm{kg}$ is attached to one end of a light elastic spring of natural
 Length $1.0\,\mathrm{m}$ and stiffness $200\,\mathrm{N/m}$. The other end is fixed. The particle is
-Held at rest where the extension is $0.3\,\mathrm{m}$ and released on a smooth horizontal surface.
+held at rest where the extension is $0.3\,\mathrm{m}$ and released on a smooth horizontal surface.
 Find the speed when the spring returns to its natural length.
 </details>
 
@@ -502,7 +578,7 @@ Section 6.
 <details>
 <summary>Problem 12</summary>
 A car of mass $500\,\mathrm{kg}$ moves from rest under constant power $5\,\mathrm{kW}$ on a level road
-With no resistance. Find the speed after $5\,\mathrm{s}$ and the distance covered.
+with no resistance. Find the speed after $5\,\mathrm{s}$ and the distance covered.
 </details>
 
 <details>
@@ -523,8 +599,8 @@ $s = \frac{2}{3}\sqrt{\frac{2(5000)}{500}} \times 5^{3/2} = \frac{2}{3}\sqrt{20}
 <details>
 <summary>Problem 13</summary>
 A block of mass $2\,\mathrm{kg}$ is projected up a rough slope inclined at $45^\circ$ to the horizontal
-With speed $12\,\mathrm{m/s}$. The coefficient of friction is $0.3$. Using energy methods, find the
-Distance travelled before the block comes to rest, and the speed when it returns to its starting
+with speed $12\,\mathrm{m/s}$. The coefficient of friction is $0.3$. Using energy methods, find the
+distance travelled before the block comes to rest, and the speed when it returns to its starting
 Point.
 </details>
 
@@ -540,7 +616,7 @@ Friction $= 0.3(2)(9.8)\cos 45° \times 7.99 = 33.2\,\mathrm{J}$.
 $\tfrac{1}{2}(2)v^2 = 110.8 - 33.2 = 77.6 \implies v = \sqrt{77.6} \approx 8.81\,\mathrm{m/s}$.
 
 The return speed is less than $12\,\mathrm{m/s}$ because energy is lost to friction on both the up
-And down journey.
+and down journey.
 
 **If you get this wrong, revise:**
 [Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy), Section 4.3.
@@ -551,13 +627,13 @@ And down journey.
 <summary>Problem 14</summary>
 A particle of mass $2\,\mathrm{kg}$ is attached to the lower end of a light elastic spring of natural
 Length $1.5\,\mathrm{m}$ and stiffness $50\,\mathrm{N/m}$. The upper end is fixed. The particle is held
-At rest at the point where the spring is at its natural length and then released. Find the maximum
+at rest at the point where the spring is at its natural length and then released. Find the maximum
 Extension of the spring. Take $g = 9.8\,\mathrm{m/s}^2$.
 </details>
 
 <details>
 <summary>Solution 14</summary>
-At maximum extension $x$Speed $= 0$.
+At maximum extension $x$ Speed $= 0$.
 
 GPE lost $= mgx = 2(9.8)x = 19.6x$.
 
@@ -576,12 +652,12 @@ Solution $x = 0$).
 A small body of mass $0.2\,\mathrm{kg}$ is attached to one end of a light elastic spring of stiffness
 $50\,\mathrm{N/m}$ and natural length $0.5\,\mathrm{m}$. The other end is fixed to a point on a smooth
 Inclined plane at angle $30^\circ$ to the horizontal. The body is released from rest at the point where
-The spring is at its natural length. Find the maximum extension. Take $g = 9.8\,\mathrm{m/s}^2$.
+the spring is at its natural length. Find the maximum extension. Take $g = 9.8\,\mathrm{m/s}^2$.
 </details>
 
 <details>
 <summary>Solution 15</summary>
-At maximum extension $x$Speed $= 0$. The body has moved distance $x$ down the slope.
+At maximum extension $x$ Speed $= 0$. The body has moved distance $x$ down the slope.
 
 GPE lost $= mgx\sin 30° = 0.2(9.8)(0.5)x = 0.98x$.
 
@@ -597,14 +673,14 @@ Section 6.
 <details>
 <summary>Problem 16</summary>
 A vehicle of mass $1500\,\mathrm{kg}$ travels up a slope inclined at $\sin^{-1}(0.08)$ to the
-Horizontal. The engine works at constant power $30\,\mathrm{kW}$. The resistance to motion (excluding
+horizontal. The engine works at constant power $30\,\mathrm{kW}$. The resistance to motion (excluding
 Gravity) is constant at $500\,\mathrm{N}$. Find the maximum speed and the acceleration when the speed
-Is $8\,\mathrm{m/s}$. Take $g = 9.8\,\mathrm{m/s}^2$.
+is $8\,\mathrm{m/s}$. Take $g = 9.8\,\mathrm{m/s}^2$.
 </details>
 
 <details>
 <summary>Solution 16</summary>
-**Maximum speed** ($a = 0$Driving force equals total resistance):
+**Maximum speed** ($a = 0$ Driving force equals total resistance):
 
 $\frac{P}{v_{\max}} = mg\sin\theta + R = 1500(9.8)(0.08) + 500 = 1176 + 500 = 1676\,\mathrm{N}$.
 
@@ -658,21 +734,7 @@ building a personal test matrix.
 4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
-```mermaid
-flowchart TD
-    A[04 Energy And Work] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

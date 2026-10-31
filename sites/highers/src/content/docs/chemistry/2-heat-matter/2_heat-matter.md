@@ -37,6 +37,8 @@ Quantities of reactants as stated in the equation react under standard condition
 
 ### Types of Enthalpy Change
 
+<div class="table-wrap">
+
 | Symbol                          | Name                                | Definition                                                                        |
 | ------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------- |
 | $\Delta H_f^\circ$              | Standard enthalpy of formation      | Enthalpy change when 1 mol of compound forms from its elements in standard states |
@@ -44,12 +46,16 @@ Quantities of reactants as stated in the equation react under standard condition
 | $\Delta H_{\mathrm{neut}^\circ$ | Standard enthalpy of neutralisation | Enthalpy change when 1 mol of water forms from acid-base neutralisation           |
 | $\Delta H_{\mathrm{at}$         | Enthalpy of atomisation             | Enthalpy change to form 1 mol of gaseous atoms from an element                    |
 
-### Hess"s Law
+</div>
+
+### Hess's Law
 
 Hess's Law states that the enthalpy change of a reaction is independent of the route taken, provided
-The initial and final conditions are the same.
+the initial and final conditions are the same.
 
-$$\Delta H_1 = \Delta H_2 + \Delta H_3$$
+$$
+\Delta H_1 = \Delta H_2 + \Delta H_3
+$$
 
 **Proof of Hess's Law:**
 
@@ -60,37 +66,57 @@ States must give the same $\Delta H$.
 
 **Worked Example 1:** Calculate $\Delta H_f^\circ$ for $\mathrm{CH_4$ given:
 
-$$\mathrm{C(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) \quad \Delta H = -393.5 \mathrm{ kJ/mol$$
+$$
+\mathrm{C(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) \quad \Delta H = -393.5 \mathrm{ kJ/mol
+$$
 
-$$\mathrm{H_2\mathrm{(g) + \tfrac{1}{2}\mathrm{O_2\mathrm{(g) \to \mathrm{H_2\mathrm{O(l) \quad \Delta H = -285.8 \mathrm{ kJ/mol$$
+$$
+\mathrm{H_2\mathrm{(g) + \tfrac{1}{2}\mathrm{O_2\mathrm{(g) \to \mathrm{H_2\mathrm{O(l) \quad \Delta H = -285.8 \mathrm{ kJ/mol
+$$
 
-$$\mathrm{CH_4\mathrm{(g) + 2\mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) + 2\mathrm{H_2\mathrm{O(l) \quad \Delta H = -890.3 \mathrm{ kJ/mol$$
+$$
+\mathrm{CH_4\mathrm{(g) + 2\mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) + 2\mathrm{H_2\mathrm{O(l) \quad \Delta H = -890.3 \mathrm{ kJ/mol
+$$
 
 Using Hess's Law (elements $\to$ products via two routes):
 
-$$\Delta H_f(\mathrm{CH_4) + (-890.3) = -393.5 + 2(-285.8)$$
+$$
+\Delta H_f(\mathrm{CH_4) + (-890.3) = -393.5 + 2(-285.8)
+$$
 
-$$\Delta H_f(\mathrm{CH_4) = -393.5 - 571.6 + 890.3 = -74.8 \mathrm{ kJ/mol$$
+$$
+\Delta H_f(\mathrm{CH_4) = -393.5 - 571.6 + 890.3 = -74.8 \mathrm{ kJ/mol
+$$
 
 **Worked Example 2:** Calculate $\Delta H_f^\circ$ for $\mathrm{CS_2$ given:
 
-$$\mathrm{C(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) \quad \Delta H = -393.5 \mathrm{ kJ/mol$$
+$$
+\mathrm{C(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) \quad \Delta H = -393.5 \mathrm{ kJ/mol
+$$
 
-$$\mathrm{S(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{SO_2\mathrm{(g) \quad \Delta H = -296.8 \mathrm{ kJ/mol$$
+$$
+\mathrm{S(s) + \mathrm{O_2\mathrm{(g) \to \mathrm{SO_2\mathrm{(g) \quad \Delta H = -296.8 \mathrm{ kJ/mol
+$$
 
-$$\mathrm{CS_2\mathrm{(l) + 3\mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) + 2\mathrm{SO_2\mathrm{(g) \quad \Delta H = -1075 \mathrm{ kJ/mol$$
+$$
+\mathrm{CS_2\mathrm{(l) + 3\mathrm{O_2\mathrm{(g) \to \mathrm{CO_2\mathrm{(g) + 2\mathrm{SO_2\mathrm{(g) \quad \Delta H = -1075 \mathrm{ kJ/mol
+$$
 
 Route 1: $\mathrm{C + 2\mathrm{S \to \mathrm{CS_2$ (direct, $\Delta H_f$) Route 2:
 $\mathrm{C + \mathrm{O_2 \to \mathrm{CO_2$ and $2\mathrm{S + 2\mathrm{O_2 \to 2\mathrm{SO_2$ Then
 $\mathrm{CO_2 + 2\mathrm{SO_2 \to \mathrm{CS_2 + 3\mathrm{O_2$ (reverse the combustion)
 
-$$\Delta H_f = -393.5 + 2(-296.8) - (-1075) = -393.5 - 593.6 + 1075 = 87.9 \mathrm{ kJ/mol$$
+$$
+\Delta H_f = -393.5 + 2(-296.8) - (-1075) = -393.5 - 593.6 + 1075 = 87.9 \mathrm{ kJ/mol
+$$
 
 ### Calorimetry
 
 **Enthalpy of combustion:**
 
-$$q = mc\Delta T$$
+$$
+q = mc\Delta T
+$$
 
 Where $m$ is mass of water, $c$ is specific heat capacity ($4.18 \mathrm{ J g^{-1}\mathrm{K^{-1}$),
 And $\Delta T$ is temperature change.
@@ -98,11 +124,17 @@ And $\Delta T$ is temperature change.
 **Worked Example 3:** When $1.50 \mathrm{ g$ of ethanol is burned, it raises the temperature of
 $200 \mathrm{ g$ of water by $14.2°C$. Calculate the enthalpy of combustion.
 
-$$q = 200 \times 4.18 \times 14.2 = 11871.2 \mathrm{ J = 11.87 \mathrm{ kJ$$
+$$
+q = 200 \times 4.18 \times 14.2 = 11871.2 \mathrm{ J = 11.87 \mathrm{ kJ
+$$
 
-$$n(\mathrm{ethanol) = \frac{1.50}{46.07} = 0.03256 \mathrm{ mol$$
+$$
+n(\mathrm{ethanol) = \frac{1.50}{46.07} = 0.03256 \mathrm{ mol
+$$
 
-$$\Delta H_c = -\frac{11.87}{0.03256} = -364.7 \mathrm{ kJ/mol$$
+$$
+\Delta H_c = -\frac{11.87}{0.03256} = -364.7 \mathrm{ kJ/mol
+$$
 
 (The negative sign indicates exothermic.)
 
@@ -110,11 +142,17 @@ $$\Delta H_c = -\frac{11.87}{0.03256} = -364.7 \mathrm{ kJ/mol$$
 $150 \mathrm{ g$ of water by $10.5°C$. Calculate $\Delta H_c$ and suggest why this differs from the
 Literature value of $-1367 \mathrm{ kJ/mol$.
 
-$$q = 150 \times 4.18 \times 10.5 = 6583.5 \mathrm{ J = 6.58 \mathrm{ kJ$$
+$$
+q = 150 \times 4.18 \times 10.5 = 6583.5 \mathrm{ J = 6.58 \mathrm{ kJ
+$$
 
-$$n = \frac{0.80}{46} = 0.0174 \mathrm{ mol$$
+$$
+n = \frac{0.80}{46} = 0.0174 \mathrm{ mol
+$$
 
-$$\Delta H_c = -\frac{6.58}{0.0174} = -378 \mathrm{ kJ/mol$$
+$$
+\Delta H_c = -\frac{6.58}{0.0174} = -378 \mathrm{ kJ/mol
+$$
 
 This is much less exothermic than the literature value because of:
 
@@ -128,11 +166,17 @@ This is much less exothermic than the literature value because of:
 $25.0 \mathrm{ cm^3$ Of $1.0 \mathrm{ M$ NaOH. The temperature rises by $6.8°C$. Calculate the
 enthalpy of neutralisation.
 
-$$q = 50.0 \times 4.18 \times 6.8 = 1421.2 \mathrm{ J = 1.42 \mathrm{ kJ$$
+$$
+q = 50.0 \times 4.18 \times 6.8 = 1421.2 \mathrm{ J = 1.42 \mathrm{ kJ
+$$
 
-$$n = 1.0 \times 0.0250 = 0.0250 \mathrm{ mol$$
+$$
+n = 1.0 \times 0.0250 = 0.0250 \mathrm{ mol
+$$
 
-$$\Delta H_{\mathrm{neut} = -\frac{1.42}{0.0250} = -56.8 \mathrm{ kJ/mol$$
+$$
+\Delta H_{\mathrm{neut} = -\frac{1.42}{0.0250} = -56.8 \mathrm{ kJ/mol
+$$
 
 ---
 
@@ -152,7 +196,9 @@ $$\Delta H_{\mathrm{neut} = -\frac{1.42}{0.0250} = -56.8 \mathrm{ kJ/mol$$
 In a **reversible reaction**, when the rate of the forward reaction equals the rate of the reverse
 Reaction, the system is at **dynamic equilibrium**.
 
-$$aA + bB \rightleftharpoons cC + dD$$
+$$
+aA + bB \rightleftharpoons cC + dD
+$$
 
 **Conditions for dynamic equilibrium:**
 
@@ -165,12 +211,16 @@ $$aA + bB \rightleftharpoons cC + dD$$
 
 If a system at equilibrium is subjected to a change, the system adjusts to **oppose** that change.
 
+<div class="table-wrap">
+
 | Change                             | Effect                                                            |
 | ---------------------------------- | ----------------------------------------------------------------- |
 | Increase concentration of reactant | Equilibrium shifts right (products)                               |
 | Increase pressure                  | Shifts towards fewer gas moles                                    |
 | Increase temperature               | Shifts in the endothermic direction                               |
 | Add catalyst                       | No effect on position; increases rate of both forward and reverse |
+
+</div>
 
 **Example:** For the Haber process:
 $\mathrm{N_2 + 3\mathrm{H_2 \rightleftharpoons 2\mathrm{NH_3 \quad \Delta H = -92 \mathrm{ kJ/mol$.
@@ -183,14 +233,16 @@ $\mathrm{N_2 + 3\mathrm{H_2 \rightleftharpoons 2\mathrm{NH_3 \quad \Delta H = -9
 $\mathrm{N_2\mathrm{O_4\mathrm{(g) \rightleftharpoons 2\mathrm{NO_2\mathrm{(g)$.
 
 The forward reaction produces 2 moles of gas from 1 mole. Increasing pressure favours the side with
-Fewer gas moles, so the equilibrium shifts to the left, favouring $\mathrm{N_2\mathrm{O_4$. The
-Mixture becomes paler (less brown $\mathrm{NO_2$ gas).
+fewer gas moles, so the equilibrium shifts to the left, favouring $\mathrm{N_2\mathrm{O_4$. The
+mixture becomes paler (less brown $\mathrm{NO_2$ gas).
 
 ### Equilibrium Constant ($K_c$)
 
 For the reaction $aA + bB \rightleftharpoons cC + dD$:
 
-$$K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}$$
+$$
+K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b}
+$$
 
 Where square brackets denote equilibrium concentrations in $\mathrm{mol/L$.
 
@@ -201,15 +253,19 @@ Where square brackets denote equilibrium concentrations in $\mathrm{mol/L$.
 - A small $K_c$ ($\lt 10^{-3}$) means reactants are favoured
 - Pure solids and pure liquids are NOT included in the $K_c$ expression
 
-**Worked Example 7:** For $\mathrm{H_2 + \mathrm{I_2 \rightleftharpoons 2\mathrm{HI$At equilibrium
+**Worked Example 7:** For $\mathrm{H_2 + \mathrm{I_2 \rightleftharpoons 2\mathrm{HI$ At equilibrium
 The concentrations are $[\mathrm{H_2] = 0.22$, $[\mathrm{I_2] = 0.22$
 $[\mathrm{HI] = 1.56 \mathrm{ mol/L$. Find $K_c$.
 
-$$K_c = \frac{[\mathrm{HI]^2}{[\mathrm{H_2][\mathrm{I_2]} = \frac{(1.56)^2}{(0.22)(0.22)} = \frac{2.4336}{0.0484} = 50.3$$
+$$
+K_c = \frac{[\mathrm{HI]^2}{[\mathrm{H_2][\mathrm{I_2]} = \frac{(1.56)^2}{(0.22)(0.22)} = \frac{2.4336}{0.0484} = 50.3
+$$
 
 **Worked Example 8:** $2.0 \mathrm{ mol$ of $\mathrm{SO_2$ and $1.0 \mathrm{ mol$ of $\mathrm{O_2$
 are Placed in a $1.0 \mathrm{ L$ flask at equilibrium. If $1.4 \mathrm{ mol$ of $\mathrm{SO_3$
 forms, find $K_c$ for $\mathrm{2SO_2 + \mathrm{O_2 \rightleftharpoons 2\mathrm{SO_3$.
+
+<div class="table-wrap">
 
 |             | $\mathrm{SO_2$ | $\mathrm{O_2$ | $\mathrm{SO_3$ |
 | ----------- | -------------- | ------------- | -------------- |
@@ -217,11 +273,17 @@ forms, find $K_c$ for $\mathrm{2SO_2 + \mathrm{O_2 \rightleftharpoons 2\mathrm{S
 | Change      | -1.4           | -0.7          | +1.4           |
 | Equilibrium | 0.6            | 0.3           | 1.4            |
 
-$$K_c = \frac{[\mathrm{SO_3]^2}{[\mathrm{SO_2]^2[\mathrm{O_2]} = \frac{(1.4)^2}{(0.6)^2(0.3)} = \frac{1.96}{0.108} = 18.15$$
+</div>
+
+$$
+K_c = \frac{[\mathrm{SO_3]^2}{[\mathrm{SO_2]^2[\mathrm{O_2]} = \frac{(1.4)^2}{(0.6)^2(0.3)} = \frac{1.96}{0.108} = 18.15
+$$
 
 **Worked Example 9:** $1.0 \mathrm{ mol$ of $\mathrm{PCl_5$ is placed in a $5.0 \mathrm{ L$
 container. At equilibrium, $0.3 \mathrm{ mol$ has dissociated:
 $\mathrm{PCl_5 \rightleftharpoons \mathrm{PCl_3 + \mathrm{Cl_2$. Find $K_c$.
+
+<div class="table-wrap">
 
 |             | $\mathrm{PCl_5$ | $\mathrm{PCl_3$ | $\mathrm{Cl_2$ |
 | ----------- | --------------- | --------------- | -------------- |
@@ -229,10 +291,14 @@ $\mathrm{PCl_5 \rightleftharpoons \mathrm{PCl_3 + \mathrm{Cl_2$. Find $K_c$.
 | Change      | -0.3            | +0.3            | +0.3           |
 | Equilibrium | 0.7             | 0.3             | 0.3            |
 
+</div>
+
 Concentrations (divide by $V = 5.0$ L): $[\mathrm{PCl_5] = 0.14$, $[\mathrm{PCl_3] = 0.06$
 $[\mathrm{Cl_2] = 0.06 \mathrm{ mol/L$.
 
-$$K_c = \frac{[\mathrm{PCl_3][\mathrm{Cl_2]}{[\mathrm{PCl_5]} = \frac{(0.06)(0.06)}{0.14} = \frac{0.0036}{0.14} = 0.0257$$
+$$
+K_c = \frac{[\mathrm{PCl_3][\mathrm{Cl_2]}{[\mathrm{PCl_5]} = \frac{(0.06)(0.06)}{0.14} = \frac{0.0036}{0.14} = 0.0257
+$$
 
 ---
 
@@ -249,33 +315,45 @@ $$K_c = \frac{[\mathrm{PCl_3][\mathrm{Cl_2]}{[\mathrm{PCl_5]} = \frac{(0.06)(0.0
 
 ### Equilibrium Constant and Gibbs Free Energy
 
-$$\Delta G^\circ = -RT\ln K$$
+$$
+\Delta G^\circ = -RT\ln K
+$$
 
 Where $R = 8.314 \mathrm{ J mol^{-1}\mathrm{K^{-1}$, $T$ is temperature in Kelvin.
 
 **Derivation:**
 
 Starting from the thermodynamic relationship $\Delta G = \Delta G^\circ + RT\ln Q$ (where $Q$ is the
-Reaction quotient), at equilibrium $\Delta G = 0$ and $Q = K$Giving:
+reaction quotient), at equilibrium $\Delta G = 0$ and $Q = K$ Giving:
 
-$$0 = \Delta G^\circ + RT\ln K \implies \Delta G^\circ = -RT\ln K$$
+$$
+0 = \Delta G^\circ + RT\ln K \implies \Delta G^\circ = -RT\ln K
+$$
 
-- $\Delta G^\circ < 0$: $K > 1$Reaction favours products
-- $\Delta G^\circ > 0$: $K < 1$Reaction favours reactants
-- $\Delta G^\circ = 0$: $K = 1$System at equilibrium
+- $\Delta G^\circ < 0$: $K > 1$ Reaction favours products
+- $\Delta G^\circ > 0$: $K < 1$ Reaction favours reactants
+- $\Delta G^\circ = 0$: $K = 1$ System at equilibrium
 
 **Worked Example 10:** Calculate $K$ at $298 \mathrm{ K$ for a reaction with
 $\Delta G^\circ = -15.2 \mathrm{ kJ/mol$.
 
-$$\Delta G^\circ = -RT\ln K \implies -15200 = -8.314 \times 298 \times \ln K$$
+$$
+\Delta G^\circ = -RT\ln K \implies -15200 = -8.314 \times 298 \times \ln K
+$$
 
-$$\ln K = \frac{15200}{8.314 \times 298} = \frac{15200}{2477.6} = 6.135$$
+$$
+\ln K = \frac{15200}{8.314 \times 298} = \frac{15200}{2477.6} = 6.135
+$$
 
-$$K = e^{6.135} = 461$$
+$$
+K = e^{6.135} = 461
+$$
 
 ### van't Hoff Equation
 
-$$\ln\left(\frac{K_2}{K_1}\right) = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\left(\frac{K_2}{K_1}\right) = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 This relates the equilibrium constant at two different temperatures.
 
@@ -283,18 +361,26 @@ This relates the equilibrium constant at two different temperatures.
 
 Starting from $\Delta G^\circ = -RT\ln K$ and $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$:
 
-$$-RT\ln K = \Delta H^\circ - T\Delta S^\circ$$
+$$
+-RT\ln K = \Delta H^\circ - T\Delta S^\circ
+$$
 
-$$\ln K = -\frac{\Delta H^\circ}{RT} + \frac{\Delta S^\circ}{R}$$
+$$
+\ln K = -\frac{\Delta H^\circ}{RT} + \frac{\Delta S^\circ}{R}
+$$
 
 Assuming $\Delta H^\circ$ and $\Delta S^\circ$ are temperature-independent over the range of
-Interest, differentiating with respect to $T$:
+interest, differentiating with respect to $T$:
 
-$$\frac{d\ln K}{dT} = \frac{\Delta H^\circ}{RT^2}$$
+$$
+\frac{d\ln K}{dT} = \frac{\Delta H^\circ}{RT^2}
+$$
 
 Integrating from $T_1$ to $T_2$:
 
-$$\ln\left(\frac{K_2}{K_1}\right) = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$
+\ln\left(\frac{K_2}{K_1}\right) = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+$$
 
 ---
 
@@ -328,14 +414,16 @@ Shows that:
   with energy above $E_a$
 
 **Effect of temperature:** A small increase in temperature significantly increases the fraction of
-Molecules with energy above $E_a$Because the distribution is exponential. A $10^\circ\mathrm{C$ rise
+Molecules with energy above $E_a$ Because the distribution is exponential. A $10^\circ\mathrm{C$ rise
 Doubles the rate.
 
 **Effect of a catalyst:** A catalyst provides an alternative reaction pathway with a lower
 Activation energy. It does not change the distribution of molecular energies but lowers the
-Threshold, meaning more molecules have sufficient energy to react.
+threshold, meaning more molecules have sufficient energy to react.
 
 ### Factors Affecting Rate
+
+<div class="table-wrap">
 
 | Factor        | Effect         | Explanation                                              |
 | ------------- | -------------- | -------------------------------------------------------- |
@@ -344,11 +432,15 @@ Threshold, meaning more molecules have sufficient energy to react.
 | Surface area  | Increases rate | More particles exposed for collision                     |
 | Catalyst      | Increases rate | Provides alternative pathway with lower $E_a$            |
 
+</div>
+
 ### Rate Equation
 
 For a reaction $aA + bB \to \mathrm{products$:
 
-$$\mathrm{Rate = k[A]^m[B]^n$$
+$$
+\mathrm{Rate = k[A]^m[B]^n
+$$
 
 Where $m$ and $n$ are the **orders of reaction** with respect to A and B, and $k$ is the **rate
 Constant**.
@@ -357,13 +449,17 @@ The overall order is $m + n$.
 
 **Units of $k$:** Depend on the overall order.
 
+<div class="table-wrap">
+
 | Overall order | Units of $k$                       |
 | ------------- | ---------------------------------- |
 | 0             | $\mathrm{mol L^{-1}\mathrm{s^{-1}$ |
 | 1             | $\mathrm{s^{-1}$                   |
 | 2             | $\mathrm{L mol^{-1}\mathrm{s^{-1}$ |
 
-**Worked Example 11:** For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$The rate equation is
+</div>
+
+**Worked Example 11:** For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$ The rate equation is
 $\mathrm{Rate = k[\mathrm{A][\mathrm{B]^2$. If $[\mathrm{A]$ doubles and $[\mathrm{B]$ triples, by
 what Factor does the rate change?
 
@@ -380,11 +476,15 @@ Measure the initial rate and determine the order with respect to each reactant.
 **Worked Example 12:** Given the following data for the reaction
 $\mathrm{A + \mathrm{B \to \mathrm{products$:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{A]$ (M) | $[\mathrm{B]$ (M) | Initial rate (M/s)   |
 | ---------- | ----------------- | ----------------- | -------------------- |
 | 1          | 0.10              | 0.10              | $1.2 \times 10^{-3}$ |
 | 2          | 0.20              | 0.10              | $2.4 \times 10^{-3}$ |
 | 3          | 0.10              | 0.20              | $4.8 \times 10^{-3}$ |
+
+</div>
 
 From experiments 1 and 2: doubling $[\mathrm{A]$ doubles the rate, so order with respect to
 $\mathrm{A$ is 1. From experiments 1 and 3: doubling $[\mathrm{B]$ quadruples the rate, so order
@@ -392,48 +492,72 @@ with Respect to $\mathrm{B$ is 2.
 
 Rate equation: $\mathrm{Rate = k[\mathrm{A][\mathrm{B]^2$
 
-$$k = \frac{\mathrm{Rate}{[\mathrm{A][\mathrm{B]^2} = \frac{1.2 \times 10^{-3}}{(0.10)(0.10)^2} = \frac{1.2 \times 10^{-3}}{0.001} = 1.2 \mathrm{ L^2\mathrm{mol^{-2}\mathrm{s^{-1}$$
+$$
+k = \frac{\mathrm{Rate}{[\mathrm{A][\mathrm{B]^2} = \frac{1.2 \times 10^{-3}}{(0.10)(0.10)^2} = \frac{1.2 \times 10^{-3}}{0.001} = 1.2 \mathrm{ L^2\mathrm{mol^{-2}\mathrm{s^{-1}
+$$
 
 ### Arrhenius Equation
 
-$$k = Ae^{-E_a/RT}$$
+$$
+k = Ae^{-E_a/RT}
+$$
 
-$$\ln k = \ln A - \frac{E_a}{RT}$$
+$$
+\ln k = \ln A - \frac{E_a}{RT}
+$$
 
 A plot of $\ln k$ vs. $1/T$ gives a straight line with gradient $-E_a/R$ and y-intercept $\ln A$.
 
 **Derivation of the Arrhenius equation:**
 
 The Arrhenius equation arises from the observation that the rate constant depends exponentially on
-Temperature. The factor $e^{-E_a/RT}$ represents the fraction of collisions with energy $\geq E_a$.
-The pre-exponential factor $A$ (frequency factor) accounts for the frequency of collisions and the
-Orientation factor.
+temperature. The factor $e^{-E_a/RT}$ represents the fraction of collisions with energy $\geq E_a$.
+the pre-exponential factor $A$ (frequency factor) accounts for the frequency of collisions and the
+orientation factor.
 
 **Worked Example 13:** The rate constant of a reaction at $300 \mathrm{ K$ is
 $2.5 \times 10^{-3} \mathrm{ s^{-1}$ and at $350 \mathrm{ K$ is
 $4.2 \times 10^{-2} \mathrm{ s^{-1}$. Find the activation energy.
 
-$$\ln\left(\frac{4.2 \times 10^{-2}}{2.5 \times 10^{-3}}\right) = -\frac{E_a}{8.314}\left(\frac{1}{350} - \frac{1}{300}\right)$$
+$$
+\ln\left(\frac{4.2 \times 10^{-2}}{2.5 \times 10^{-3}}\right) = -\frac{E_a}{8.314}\left(\frac{1}{350} - \frac{1}{300}\right)
+$$
 
-$$\ln(16.8) = -\frac{E_a}{8.314}\left(0.002857 - 0.003333\right)$$
+$$
+\ln(16.8) = -\frac{E_a}{8.314}\left(0.002857 - 0.003333\right)
+$$
 
-$$2.821 = -\frac{E_a}{8.314}(-0.000476)$$
+$$
+2.821 = -\frac{E_a}{8.314}(-0.000476)
+$$
 
-$$2.821 = \frac{E_a \times 0.000476}{8.314}$$
+$$
+2.821 = \frac{E_a \times 0.000476}{8.314}
+$$
 
-$$E_a = \frac{2.821 \times 8.314}{0.000476} = 49239 \mathrm{ J/mol \approx 49.2 \mathrm{ kJ/mol$$
+$$
+E_a = \frac{2.821 \times 8.314}{0.000476} = 49239 \mathrm{ J/mol \approx 49.2 \mathrm{ kJ/mol
+$$
 
 **Worked Example 14:** The activation energy of a reaction is $75 \mathrm{ kJ/mol$. If the rate
-Constant at $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$Find the rate constant at
+Constant at $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$ Find the rate constant at
 $350 \mathrm{ K$.
 
-$$\ln\left(\frac{k_2}{3.0 \times 10^{-4}}\right) = -\frac{75000}{8.314}\left(\frac{1}{350} - \frac{1}{300}\right)$$
+$$
+\ln\left(\frac{k_2}{3.0 \times 10^{-4}}\right) = -\frac{75000}{8.314}\left(\frac{1}{350} - \frac{1}{300}\right)
+$$
 
-$$\ln\left(\frac{k_2}{3.0 \times 10^{-4}}\right) = -9020 \times (-0.000476) = 4.294$$
+$$
+\ln\left(\frac{k_2}{3.0 \times 10^{-4}}\right) = -9020 \times (-0.000476) = 4.294
+$$
 
-$$\frac{k_2}{3.0 \times 10^{-4}} = e^{4.294} = 73.2$$
+$$
+\frac{k_2}{3.0 \times 10^{-4}} = e^{4.294} = 73.2
+$$
 
-$$k_2 = 73.2 \times 3.0 \times 10^{-4} = 2.20 \times 10^{-2} \mathrm{ s^{-1}$$
+$$
+k_2 = 73.2 \times 3.0 \times 10^{-4} = 2.20 \times 10^{-2} \mathrm{ s^{-1}
+$$
 
 ---
 
@@ -450,11 +574,15 @@ $$k_2 = 73.2 \times 3.0 \times 10^{-4} = 2.20 \times 10^{-2} \mathrm{ s^{-1}$$
 
 ### Types of Catalysts
 
+<div class="table-wrap">
+
 | Type          | Description                    | Example                                            |
 | ------------- | ------------------------------ | -------------------------------------------------- |
 | Homogeneous   | Same phase as reactants        | $\mathrm{H_2\mathrm{SO_4$ in esterification        |
 | Heterogeneous | Different phase from reactants | Fe in Haber process, V$_2$O$_5$ in Contact process |
 | Enzyme        | Biological catalysts           | Catalase, amylase                                  |
+
+</div>
 
 ### How Catalysts Work
 
@@ -496,18 +624,9 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[2_Heat Matter] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Energetics and Kinetics
+
+<div class="table-wrap">
 
 | Concept              | Symbol/Formula                                                            | Notes                                 |
 | -------------------- | ------------------------------------------------------------------------- | ------------------------------------- |
@@ -518,6 +637,8 @@ flowchart TD
 | Rate equation        | $\mathrm{Rate = k[A]^m[B]^n$                                              | Orders determined experimentally      |
 | Arrhenius equation   | $k = Ae^{-E_a/RT}$                                                        | Plot $\ln k$ vs. $1/T$                |
 | van't Hoff equation  | $\ln(K_2/K_1) = -\frac{\Delta H^\circ}{R}(\frac{1}{T_2} - \frac{1}{T_1})$ | Relates $K$ at two temperatures       |
+
+</div>
 
 ---
 
@@ -576,12 +697,12 @@ flowchart TD
 1. Explain the effect of increasing pressure on the equilibrium
    $\mathrm{N_2\mathrm{O_4\mathrm{(g) \rightleftharpoons 2\mathrm{NO_2\mathrm{(g)$.
 
-2. For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$The rate equation is
+2. For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$ The rate equation is
    $\mathrm{Rate = k[\mathrm{A][\mathrm{B]^2$. If $[\mathrm{A]$ doubles and $[\mathrm{B]$ triples,
    by what factor does the rate change?
 
 3. The activation energy of a reaction is $75 \mathrm{ kJ/mol$. If the rate constant at
-   $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$Find the rate constant at
+   $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$ Find the rate constant at
    $350 \mathrm{ K$.
 
 4. $1.0 \mathrm{ mol$ of $\mathrm{PCl_5$ is placed in a $5.0 \mathrm{ L$ container. At equilibrium,
@@ -594,10 +715,12 @@ flowchart TD
    $150 \mathrm{ g$ of water by $10.5°C$. Calculate $\Delta H_c$ and suggest why this value differs
    from the literature value of $-1367 \mathrm{ kJ/mol$.
 
-7. Given $\Delta G^\circ = -RT\ln K$Calculate $K$ at $298 \mathrm{ K$ for a reaction with
+7. Given $\Delta G^\circ = -RT\ln K$ Calculate $K$ at $298 \mathrm{ K$ for a reaction with
    $\Delta G^\circ = -15.2 \mathrm{ kJ/mol$.
 
 8. Using the following data, determine the rate equation and the value of $k$:
+
+<div class="table-wrap">
 
 | Experiment | $[\mathrm{P]$ (M) | $[\mathrm{Q]$ (M) | Initial rate (M/s)   |
 | ---------- | ----------------- | ----------------- | -------------------- |
@@ -606,12 +729,14 @@ flowchart TD
 | 3          | 0.20              | 0.20              | $4.0 \times 10^{-4}$ |
 | 4          | 0.40              | 0.20              | $8.0 \times 10^{-4}$ |
 
+</div>
+
 1. Sketch an energy profile diagram for an endothermic reaction, showing the effect of adding a
     catalyst. Label the activation energies, $\Delta H$ And the transition state.
 
 2. For the equilibrium
     $\mathrm{CO(g) + \mathrm{H_2\mathrm{O(g) \rightleftharpoons \mathrm{CO_2\mathrm{(g) + \mathrm{H_2\mathrm{(g)$
-    $\Delta H = -41 \mathrm{ kJ/mol$Explain how increasing temperature affects the yield of
+    $\Delta H = -41 \mathrm{ kJ/mol$ Explain how increasing temperature affects the yield of
     $\mathrm{CO_2$ and the value of $K_c$.
 
 3. Calculate the enthalpy of neutralisation when $30.0 \mathrm{ cm^3$ of $0.50 \mathrm{ M$ HCl is
@@ -635,7 +760,9 @@ flowchart TD
 
 Used for reactions occurring in solution. The calorimeter itself also absorbs heat:
 
-$$q_{\mathrm{total} = (m_{\mathrm{water}c_{\mathrm{water} + C_{\mathrm{cal})\Delta T$$
+$$
+q_{\mathrm{total} = (m_{\mathrm{water}c_{\mathrm{water} + C_{\mathrm{cal})\Delta T
+$$
 
 Where $C_{\mathrm{cal}$ is the heat capacity of the calorimeter (in J/K).
 
@@ -643,19 +770,27 @@ Where $C_{\mathrm{cal}$ is the heat capacity of the calorimeter (in J/K).
 $1.0 \mathrm{ M$ $\mathrm{HCl$ is mixed with $50 \mathrm{ cm^3$ of $1.0 \mathrm{ M$ $\mathrm{NaOH$
 in the Calorimeter, the temperature rises by $6.5°C$. Calculate the enthalpy of neutralisation.
 
-$$q_{\mathrm{total} = (100 \times 4.18 + 45) \times 6.5 = (418 + 45) \times 6.5 = 463 \times 6.5 = 3009.5 \mathrm{ J = 3.01 \mathrm{ kJ$$
+$$
+q_{\mathrm{total} = (100 \times 4.18 + 45) \times 6.5 = (418 + 45) \times 6.5 = 463 \times 6.5 = 3009.5 \mathrm{ J = 3.01 \mathrm{ kJ
+$$
 
-$$n = 1.0 \times 0.050 = 0.050 \mathrm{ mol$$
+$$
+n = 1.0 \times 0.050 = 0.050 \mathrm{ mol
+$$
 
-$$\Delta H_{\mathrm{neut} = -\frac{3.01}{0.050} = -60.2 \mathrm{ kJ/mol$$
+$$
+\Delta H_{\mathrm{neut} = -\frac{3.01}{0.050} = -60.2 \mathrm{ kJ/mol
+$$
 
 ### Bomb Calorimetry
 
 Used for combustion reactions. The sample is ignited in a sealed container (bomb) surrounded by
-Water. The bomb calorimeter is designed to operate at constant volume, so the heat measured is
+water. The bomb calorimeter is designed to operate at constant volume, so the heat measured is
 $\Delta U$ (internal energy change), not $\Delta H$. The correction is:
 
-$$\Delta H = \Delta U + \Delta n_g RT$$
+$$
+\Delta H = \Delta U + \Delta n_g RT
+$$
 
 Where $\Delta n_g$ is the change in moles of gas.
 
@@ -679,13 +814,21 @@ $350 \mathrm{ K$.
 
 Using the van't Hoff equation:
 
-$$\ln\left(\frac{K_2}{0.115}\right) = -\frac{57200}{8.314}\left(\frac{1}{350} - \frac{1}{298}\right)$$
+$$
+\ln\left(\frac{K_2}{0.115}\right) = -\frac{57200}{8.314}\left(\frac{1}{350} - \frac{1}{298}\right)
+$$
 
-$$= -6879 \times (0.002857 - 0.003356) = -6879 \times (-0.000499) = 3.432$$
+$$
+= -6879 \times (0.002857 - 0.003356) = -6879 \times (-0.000499) = 3.432
+$$
 
-$$\frac{K_2}{0.115} = e^{3.432} = 30.94$$
+$$
+\frac{K_2}{0.115} = e^{3.432} = 30.94
+$$
 
-$$K_2 = 30.94 \times 0.115 = 3.56$$
+$$
+K_2 = 30.94 \times 0.115 = 3.56
+$$
 
 The equilibrium constant increases significantly with temperature, confirming that the forward
 Reaction is endothermic (Le Chatelier's principle).
@@ -717,7 +860,7 @@ The rate equation is determined by the slow step: $\mathrm{Rate = k[\mathrm{A][\
 Note that $\mathrm{D$ does not appear in the rate equation because it is involved only in the fast
 Step.
 
-**Worked Example 18:** For the reaction $\mathrm{2NO_2 + \mathrm{F_2 \to 2\mathrm{NO_2\mathrm{F$The
+**Worked Example 18:** For the reaction $\mathrm{2NO_2 + \mathrm{F_2 \to 2\mathrm{NO_2\mathrm{F$ The
 Proposed mechanism is:
 
 Step 1 (slow): $\mathrm{NO_2 + \mathrm{F_2 \to \mathrm{NO_2\mathrm{F + \mathrm{F$
@@ -726,9 +869,9 @@ Step 2 (fast): $\mathrm{F + \mathrm{NO_2 \to \mathrm{NO_2\mathrm{F$
 
 The rate equation is: $\mathrm{Rate = k[\mathrm{NO_2][\mathrm{F_2]$.
 
-This is first order with respect to $\mathrm{NO_2$ and first order with respect to $\mathrm{F_2$Even
-Though the overall balanced equation has coefficient 2 for $\mathrm{NO_2$. This confirms that the
-Rate order cannot be predicted from the stoichiometry.
+This is first order with respect to $\mathrm{NO_2$ and first order with respect to $\mathrm{F_2$ Even
+though the overall balanced equation has coefficient 2 for $\mathrm{NO_2$. This confirms that the
+rate order cannot be predicted from the stoichiometry.
 
 ---
 
@@ -743,6 +886,8 @@ Rate order cannot be predicted from the stoichiometry.
 
 ## Comparison Table: Thermodynamics vs. Kinetics
 
+<div class="table-wrap">
+
 | Aspect             | Thermodynamics (Equilibrium)           | Kinetics (Rate)                       |
 | ------------------ | -------------------------------------- | ------------------------------------- |
 | What it predicts   | Whether a reaction CAN occur           | How FAST a reaction occurs            |
@@ -751,6 +896,8 @@ Rate order cannot be predicted from the stoichiometry.
 | Catalyst effect    | No effect on $K$ or position           | Increases $k$ (lowers $E_a$)          |
 | Time dependence    | System reaches equilibrium eventually  | Describes the approach to equilibrium |
 | Spontaneity        | $\Delta G^\circ < 0$ means spontaneous | No concept of spontaneity             |
+
+</div>
 
 ---
 
@@ -775,7 +922,7 @@ Rate order cannot be predicted from the stoichiometry.
     approximately constant (~-57 kJ/mol), but for weak acid-strong base reactions it is less
     exothermic.
 
-3. For a reaction with $\Delta H^\circ = -92 \mathrm{ kJ/mol$Explain qualitatively how $K_c$
+3. For a reaction with $\Delta H^\circ = -92 \mathrm{ kJ/mol$ Explain qualitatively how $K_c$
     changes as temperature increases. Would the equilibrium yield of products increase or decrease?
 
 4. In a bomb calorimeter, $1.00 \mathrm{ g$ of glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$) is
@@ -784,11 +931,15 @@ Rate order cannot be predicted from the stoichiometry.
 
 5. The following data were obtained for the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$ at 25°C:
 
+<div class="table-wrap">
+
 | $[\mathrm{A]$ (M) | $[\mathrm{B]$ (M) | Initial rate (M/s)   |
 | ----------------- | ----------------- | -------------------- |
 | 0.10              | 0.10              | $2.0 \times 10^{-3}$ |
 | 0.20              | 0.10              | $4.0 \times 10^{-3}$ |
 | 0.20              | 0.20              | $1.6 \times 10^{-2}$ |
+
+</div>
 
 Determine the rate equation, the value of $k$ with units, and the overall order.
 
@@ -822,11 +973,17 @@ Entropy is a measure of disorder or randomness in a system.
 
 **Standard entropy change:**
 
-$$\Delta S^\circ = \sum S^\circ(\mathrm{products) - \sum S^\circ(\mathrm{reactants)$$
+$$
+\Delta S^\circ = \sum S^\circ(\mathrm{products) - \sum S^\circ(\mathrm{reactants)
+$$
 
 ### Gibbs Free Energy
 
-$$\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$$
+$$
+\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ
+$$
+
+<div class="table-wrap">
 
 | $\Delta H^\circ$ | $\Delta S^\circ$ | $\Delta G^\circ$   | Spontaneity           |
 | ---------------- | ---------------- | ------------------ | --------------------- |
@@ -834,6 +991,8 @@ $$\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$$
 | Positive         | Negative         | Always positive    | Never spontaneous     |
 | Negative         | Negative         | Negative at low T  | Spontaneous at low T  |
 | Positive         | Positive         | Negative at high T | Spontaneous at high T |
+
+</div>
 
 **Worked Example 19:** For the reaction
 $\mathrm{CaCO_3\mathrm{(s) \to \mathrm{CaO(s) + \mathrm{CO_2\mathrm{(g)$
@@ -843,9 +1002,13 @@ reaction becomes spontaneous.
 
 The reaction is spontaneous when $\Delta G^\circ < 0$:
 
-$$0 = \Delta H^\circ - T\Delta S^\circ$$
+$$
+0 = \Delta H^\circ - T\Delta S^\circ
+$$
 
-$$T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{178000}{160} = 1112.5 \mathrm{ K \approx 840°C$$
+$$
+T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{178000}{160} = 1112.5 \mathrm{ K \approx 840°C
+$$
 
 This is the decomposition temperature of limestone, consistent with industrial practice.
 
@@ -853,9 +1016,11 @@ This is the decomposition temperature of limestone, consistent with industrial p
 $\Delta H^\circ = +25.7 \mathrm{ kJ/mol$, $\Delta S^\circ = +108 \mathrm{ J mol^{-1}\mathrm{K^{-1}$.
 Explain why this dissolution is spontaneous at room temperature.
 
-$$\Delta G^\circ = 25700 - 298 \times 108 = 25700 - 32184 = -6484 \mathrm{ J/mol$$
+$$
+\Delta G^\circ = 25700 - 298 \times 108 = 25700 - 32184 = -6484 \mathrm{ J/mol
+$$
 
-Since $\Delta G^\circ < 0$The dissolution is spontaneous despite being endothermic. The driving
+Since $\Delta G^\circ < 0$ The dissolution is spontaneous despite being endothermic. The driving
 Force is the large increase in entropy (solid $\to$ aqueous ions).
 
 ## Worked Examples
@@ -869,7 +1034,9 @@ it hits the ground (ignore air resistance).
 
 Using conservation of energy: $mgh = \frac{1}{2}mv^2$
 
-$$v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 20} = \sqrt{392.4} \approx 19.8\,\text{m\,s}^{-1}$$
+$$
+v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 20} = \sqrt{392.4} \approx 19.8\,\text{m\,s}^{-1}
+$$
 
 ## Intuition
 

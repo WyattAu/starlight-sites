@@ -22,26 +22,34 @@ description: "Study notes for Interference with worked examples, practice proble
 When two or more waves overlap, the resultant displacement is the sum of the individual
 displacements. For two coherent waves with amplitudes $E_1$ and $E_2$:
 
-$$E = E_1 + E_2 = E_0 \cos(\mathbf{k}\cdot\mathbf{r} - \omega t + \phi_1) + E_0 \cos(\mathbf{k}\cdot\mathbf{r} - \omega t + \phi_2)$$
+$$
+E = E_1 + E_2 = E_0 \cos(\mathbf{k}\cdot\mathbf{r} - \omega t + \phi_1) + E_0 \cos(\mathbf{k}\cdot\mathbf{r} - \omega t + \phi_2)
+$$
 
 The time-averaged intensity is:
 
-$$I = I_1 + I_2 + 2\sqrt{I_1 I_2}\cos\Delta\phi$$
+$$
+I = I_1 + I_2 + 2\sqrt{I_1 I_2}\cos\Delta\phi
+$$
 
 Where $\Delta\phi = \phi_2 - \phi_1$ is the phase difference.
 
-### 3.2 Double-Slit Interference (Young"s Experiment)
+### 3.2 Double-Slit Interference (Young's Experiment)
 
 Two slits separated by distance $d$ are illuminated by coherent light of wavelength $\lambda$. The
 Screen is at distance $L \gg d$.
 
 **Condition for bright fringes (constructive interference):**
 
-$$d\sin\theta = m\lambda, \quad m = 0, \pm 1, \pm 2, \ldots$$
+$$
+d\sin\theta = m\lambda, \quad m = 0, \pm 1, \pm 2, \ldots
+$$
 
 **Condition for dark fringes (destructive interference):**
 
-$$d\sin\theta = \left(m + \frac{1}{2}\right)\lambda, \quad m = 0, \pm 1, \pm 2, \ldots$$
+$$
+d\sin\theta = \left(m + \frac{1}{2}\right)\lambda, \quad m = 0, \pm 1, \pm 2, \ldots
+$$
 
 **Derivation.** The path difference between the two slits is $\Delta = d\sin\theta$. Constructive
 Interference occurs when $\Delta = m\lambda$ (phase difference $2m\pi$), and destructive when
@@ -49,12 +57,14 @@ $\Delta = (m + 1/2)\lambda$ (phase difference $(2m+1)\pi$). $\blacksquare$
 
 The fringe spacing on the screen:
 
-$$\Delta y = \frac{\lambda L}{d}$$
+$$
+\Delta y = \frac{\lambda L}{d}
+$$
 
 <details>
 <summary>Worked Example: Double-slit fringe calculation</summary>
 
-**Problem.** In a Young"s double-slit experiment, light of wavelength $\lambda = 550$ nm passes
+**Problem.** In a Young's double-slit experiment, light of wavelength $\lambda = 550$ nm passes
 Through slits separated by $d = 0.10$ mm onto a screen at $L = 2.0$ m. Find (a) the fringe spacing,
 (b) the angular position of the third bright fringe, and (c) the total number of bright fringes
 Visible within the central diffraction maximum (slit width $a = 0.020$ mm).
@@ -79,16 +89,20 @@ central maximum.
 ### 3.3 Thin-Film Interference
 
 Light reflecting from a thin film of thickness $t$ and refractive index $n$ undergoes interference
-Between the wave reflected from the top surface and the wave reflected from the bottom surface.
+between the wave reflected from the top surface and the wave reflected from the bottom surface.
 
 **Path difference:** $2nt\cos\theta_t$ where $\theta_t$ is the angle of refraction inside the film.
 
 A phase shift of $\pi$ occurs upon reflection from a medium of higher refractive index. The
 condition For constructive interference (bright reflection) is:
 
-$$2nt\cos\theta_t = \left(m + \frac{1}{2}\right)\lambda \quad \mathrm{(one\ phase\ shift)}$$
+$$
+2nt\cos\theta_t = \left(m + \frac{1}{2}\right)\lambda \quad \mathrm{(one\ phase\ shift)}
+$$
 
-$$2nt\cos\theta_t = m\lambda \quad \mathrm{(zero\ or\ two\ phase\ shifts)}$$
+$$
+2nt\cos\theta_t = m\lambda \quad \mathrm{(zero\ or\ two\ phase\ shifts)}
+$$
 
 :::caution
 A reflection from Low-to-high refractive index introduces a $\pi$ shift; high-to-low does not. For a
@@ -163,21 +177,27 @@ m $= 0.633$ mm.
 
 The **fringe visibility** (or contrast) quantifies the sharpness of interference fringes:
 
-$$\mathcal{V} = \frac{I_{\max} - I_{\min}}{I_{\max} + I_{\min}}$$
+$$
+\mathcal{V} = \frac{I_{\max} - I_{\min}}{I_{\max} + I_{\min}}
+$$
 
 For two-beam interference with intensities $I_1$, $I_2$ and degree of temporal coherence $|\gamma|$:
 
-$$\mathcal{V} = \frac{2\sqrt{I_1 I_2}}{I_1 + I_2}\,|\gamma(\tau)|$$
+$$
+\mathcal{V} = \frac{2\sqrt{I_1 I_2}}{I_1 + I_2}\,|\gamma(\tau)|
+$$
 
 For equal intensities ($I_1 = I_2$): $\mathcal{V} = |\gamma(\tau)|$.
 
 The coherence function decays with path difference. For a Gaussian spectral profile of width
 $\Delta\lambda$:
 
-$$|\gamma(\tau)| = \exp\!\left[-\pi\left(\frac{\Delta\lambda \cdot \Delta x}{\lambda^2}\right)^2\right]$$
+$$
+|\gamma(\tau)| = \exp\!\left[-\pi\left(\frac{\Delta\lambda \cdot \Delta x}{\lambda^2}\right)^2\right]
+$$
 
 Where $\Delta x = c\tau$ is the path difference. Fringes become unresolvable when
-$\Delta x \approx \lambda^2/\Delta\lambda = L_c$The **coherence length**.
+$\Delta x \approx \lambda^2/\Delta\lambda = L_c$ The **coherence length**.
 
 **Implication for interferometry.** To observe interference fringes, the path difference between The
 two arms must satisfy $\Delta x \ll L_c$. A sodium lamp ($\Delta\lambda \approx 0.6$ nm at
@@ -190,10 +210,12 @@ A **Fabry-Perot etalon** consists of two parallel, partially reflecting surfaces
 Distance $d$. Multiple reflections create many beams that interfere, producing sharp transmission
 Peaks.
 
-For a lossless etalon with reflectance $R$ and transmittance $T = 1 - R$Illuminated at angle
+For a lossless etalon with reflectance $R$ and transmittance $T = 1 - R$ Illuminated at angle
 $\theta$ inside a medium of refractive index $n$:
 
-$$\frac{I_T}{I_0} = \frac{T^2}{(1 - R)^2 + 4R\sin^2(\delta/2)} = \frac{1}{1 + F\sin^2(\delta/2)}$$
+$$
+\frac{I_T}{I_0} = \frac{T^2}{(1 - R)^2 + 4R\sin^2(\delta/2)} = \frac{1}{1 + F\sin^2(\delta/2)}
+$$
 
 Where $\delta = (4\pi/\lambda)\,nd\cos\theta$ is the round-trip phase and $F = 4R/(1-R)^2$ is the
 **coefficient of finesse**.
@@ -203,17 +225,23 @@ $2nd\cos\theta = m\lambda$.
 
 **Finesse:**
 
-$$\mathcal{F} = \frac{\pi\sqrt{F}}{2} = \frac{\pi\sqrt{R}}{1 - R}$$
+$$
+\mathcal{F} = \frac{\pi\sqrt{F}}{2} = \frac{\pi\sqrt{R}}{1 - R}
+$$
 
 The finesse determines the sharpness of the peaks: higher $R$ gives sharper peaks.
 
 **Free spectral range** (frequency spacing between adjacent peaks):
 
-$$\Delta\nu_{\mathrm{FSR} = \frac{c}{2nd}}$$
+$$
+\Delta\nu_{\mathrm{FSR} = \frac{c}{2nd}}
+$$
 
 **Resolving power:**
 
-$$\mathcal{R} = \frac{\lambda}{\delta\lambda} = m\mathcal{F}$$
+$$
+\mathcal{R} = \frac{\lambda}{\delta\lambda} = m\mathcal{F}
+$$
 
 <details>
 <summary>Worked Example: Fabry-Perot resolving power</summary>
@@ -237,17 +265,6 @@ $\delta\lambda = \lambda/\mathcal{R} = 500/1.19 \times 10^5 = 4.20 \times 10^{-3
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[3_Interference] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Interference occurs when two or more coherent waves overlap and their amplitudes add, producing regions of constructive and destructive combination. The path difference between the waves determines whether peaks align with peaks (bright) or peaks align with troughs (dark). Young's double slit demonstrates that light from a single source, split and recombined, produces a fringe pattern whose spacing depends on wavelength and geometry. A Fabry-Perot etalon uses multiple reflections between parallel mirrors to create extremely narrow transmission peaks, acting like a spectral magnifying glass. The finesse quantifies how sharp these peaks are, determined by how reflective the mirrors are.
@@ -270,5 +287,5 @@ Interference can occur with a single source split and recombined (as in Young's 
 - **[Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)**: Electromagnetic waves obey Maxwell's equations, and interference patterns are observed in their superposition.
 - **[Coherence Theory](/4-optics-and-waves/8_coherence/)**: Coherence theory explains the conditions under which stable interference patterns can be observed.
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

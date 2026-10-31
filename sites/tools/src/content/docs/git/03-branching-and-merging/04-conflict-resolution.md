@@ -68,11 +68,15 @@ int authenticate(User *user) {
 >>>>>>> feature-auth
 ```
 
+<div class="table-wrap">
+
 | Marker                 | Meaning                                          |
 | ---------------------- | ------------------------------------------------ |
 | `<<<<<<< HEAD`         | Start of conflict region. Our version begins.    |
 | `=======`              | Separator between our version and their version. |
 | `>>>>>>> feature-auth` | End of conflict region. Their version ends.      |
+
+</div>
 
 The text after `>>>>>>>` identifies the branch being merged.
 
@@ -208,7 +212,7 @@ package-lock.json merge=ours
 
 This is particularly useful for:
 
-- **Lockfiles** (`package-lock.json``yarn.lock`): Always keep one version to avoid corruption.
+- **Lockfiles** (`package-lock.json`, `yarn.lock`): Always keep one version to avoid corruption.
 - **Generated files**: Use the generating tool to produce the correct output.
 
 ## Handling Specific Conflict Types
@@ -352,10 +356,6 @@ $ git revert -m 1 <merge-commit-hash>
    data).
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

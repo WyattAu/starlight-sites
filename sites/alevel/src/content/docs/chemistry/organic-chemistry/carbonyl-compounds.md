@@ -23,12 +23,14 @@ categories:
 ## Carbonyl Compounds
 
 Carbonyl compounds contain the C=O functional group. The carbonyl carbon is $sp^2$ hybridised with
-Trigonal planar geometry. The oxygen is more electronegative than carbon, creating a polar bond
+trigonal planar geometry. The oxygen is more electronegative than carbon, creating a polar bond
 ($\mathrm{C}^{\delta+}=\mathrm{O}^{\delta-}$). The $\delta^+$ carbon is electrophilic and
-Susceptible to nucleophilic attack, while the $\delta^-$ oxygen can act as a weak base or
-Nucleophile.
+susceptible to nucleophilic attack, while the $\delta^-$ oxygen can act as a weak base or
+nucleophile.
 
 ## Aldehydes vs Ketones
+
+<div class="table-wrap">
 
 | Property              | Aldehyde                                                            | Ketone                                                          |
 | --------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -39,6 +41,8 @@ Nucleophile.
 | Fehling's/Benedict's  | Brick-red precipitate                                               | No reaction                                                     |
 | Boiling point         | Lower (no intermolecular H-bonding between aldehydes)               | Higher than comparable aldehyde                                 |
 | Nucleophilic addition | More reactive (less steric hindrance, +I from only one alkyl group) | Less reactive (more steric hindrance, +I from two alkyl groups) |
+
+</div>
 
 The greater reactivity of aldehydes toward nucleophilic addition is explained by two factors:
 
@@ -63,13 +67,13 @@ $$
 
 **Mechanism:**
 
-1. The nucleophile $\mathrm{CN}^-$ (generated in situ from $\mathrm{HCN}$Often with a catalytic
+1. The nucleophile $\mathrm{CN}^-$ (generated in situ from $\mathrm{HCN}$ Often with a catalytic
    base) attacks the $\delta^+$ carbonyl carbon.
 2. The $\pi$ electrons move onto the oxygen, forming a tetrahedral alkoxide intermediate.
-3. The alkoxide is protonated by $\mathrm{HCN}$Yielding the cyanohydrin.
+3. The alkoxide is protonated by $\mathrm{HCN}$ Yielding the cyanohydrin.
 
 Ketones react more slowly than aldehydes because of the steric and electronic factors discussed
-Above.
+above.
 
 **Synthetic utility:** The $-\mathrm{CN}$ group in the cyanohydrin can be:
 
@@ -84,7 +88,7 @@ Attack from either face of the planar carbonyl group with equal probability.
 ### Reduction with NaBH$_4$
 
 Sodium tetrahydridoborate (sodium borohydride) reduces the C=O group by nucleophilic addition of
-Hydride ($\mathrm{H}^-$):
+hydride ($\mathrm{H}^-$):
 
 $$
 \mathrm{RCHO} \xrightarrow{\mathrm{NaBH}_4} \mathrm{RCH}_2\mathrm{OH} \quad \mathrm{(primary alcohol)}
@@ -99,7 +103,7 @@ $\mathrm{NaBH}_4$ at room temperature, then acidify with dilute acid to protonat
 Intermediate.
 
 $\mathrm{NaBH}_4$ is a mild, selective reducing agent. It reduces C=O but does not reduce C=C. For
-The reduction of carboxylic acids and their derivatives, the stronger reducing agent
+the reduction of carboxylic acids and their derivatives, the stronger reducing agent
 $\mathrm{LiAlH}_4$ is required (not covered in detail at A-Level).
 
 ### Mechanism of NaBH$_4$ Reduction
@@ -129,7 +133,7 @@ $$
 
 **Fehling's solution:** A mixture of Fehling's A (copper(II) sulphate in aqueous solution) and
 Fehling's B (alkaline potassium sodium tartrate, which complexes the copper(II) to keep it in
-Solution).
+solution).
 
 **Reaction with aldehydes:** The aldehyde is oxidised, and the blue copper(II) complex is reduced to
 A brick-red precipitate of copper(I) oxide:
@@ -148,7 +152,7 @@ Brick-red precipitate with aldehydes.
 2,4-dinitrophenylhydrazine (Brady's reagent) reacts with both aldehydes and ketones to form
 Orange-yellow precipitates (2,4-dinitrophenylhydrazones). This confirms the presence of a carbonyl
 Group. The melting point of the derivative can be compared with database values to identify the
-Specific carbonyl compound.
+specific carbonyl compound.
 
 $$
 \mathrm{RCOR}' + \mathrm{H}_2\mathrm{NNHCOC}_6\mathrm{H}_3(\mathrm{NO}_2)_2 \to \mathrm{RR'}\mathrm{C}=\mathrm{NNHCOC}_6\mathrm{H}_3(\mathrm{NO}_2)_2 + \mathrm{H}_2\mathrm{O}
@@ -166,14 +170,14 @@ $$
 
 The $\mathrm{p}K_a$ of typical aliphatic carboxylic acids is approximately 4--5. They are stronger
 Acids than alcohols ($\mathrm{p}K_a \approx 16$) because the carboxylate anion is stabilised by
-Resonance delocalisation of the negative charge over both oxygen atoms:
+resonance delocalisation of the negative charge over both oxygen atoms:
 
 $$
 \mathrm{RCOO}^- \leftrightarrow \mathrm{R}-\mathrm{C}(\mathrm{O}^-)=\mathrm{O} \leftrightarrow \mathrm{R}-\mathrm{C}=\mathrm{O}^-
 $$
 
 Both C--O bonds in the carboxylate ion have equal length (experimentally confirmed), intermediate
-Between a single and a double bond, confirming delocalisation.
+between a single and a double bond, confirming delocalisation.
 
 ### Reactions with Carbonates and Metals
 
@@ -192,8 +196,8 @@ $$
 ## Acyl Chlorides
 
 Acyl chlorides (acid chlorides) are the most reactive carboxylic acid derivatives. The chlorine atom
-Is an excellent leaving group, making the carbonyl carbon extremely electrophilic. No catalyst is
-Required for any of the following reactions.
+is an excellent leaving group, making the carbonyl carbon extremely electrophilic. No catalyst is
+required for any of the following reactions.
 
 ### Hydrolysis
 
@@ -212,7 +216,7 @@ $$
 $$
 
 This is an alternative to acid-catalysed esterification. It is irreversible (unlike the equilibrium
-With carboxylic acids) and proceeds rapidly at room temperature.
+with carboxylic acids) and proceeds rapidly at room temperature.
 
 ### Reaction with Ammonia and Amines
 
@@ -231,7 +235,7 @@ With primary amines, an excess of amine is used to neutralise the $\mathrm{HCl}$
 ### Physical Properties
 
 Esters have characteristic sweet, fruity odours (hence their use in flavourings and perfumes). They
-Cannot form intermolecular hydrogen bonds with themselves (no $-\mathrm{OH}$ or $-\mathrm{NH}$
+cannot form intermolecular hydrogen bonds with themselves (no $-\mathrm{OH}$ or $-\mathrm{NH}$
 Group), so their boiling points are lower than those of the parent alcohols and carboxylic acids.
 
 ### Hydrolysis
@@ -252,26 +256,26 @@ $$
 $$
 
 Heated under reflux with aqueous sodium hydroxide. The carboxylate ion cannot be protonated under
-Basic conditions, so the reaction is irreversible. Acidification of the product mixture yields the
-Free carboxylic acid.
+basic conditions, so the reaction is irreversible. Acidification of the product mixture yields the
+free carboxylic acid.
 
 ## Amides
 
 Amides contain the $-\mathrm{CONH}_2$ group. They are formed by the reaction of acyl chlorides with
-Ammonia or by the reaction of carboxylic acids with ammonia at high temperature.
+ammonia or by the reaction of carboxylic acids with ammonia at high temperature.
 
 $$
 \mathrm{RCOCl} + 2\mathrm{NH}_3 \to \mathrm{RCONH}_2 + \mathrm{NH}_4\mathrm{Cl}
 $$
 
 Amides are relatively unreactive compared with acyl chlorides and esters. The lone pair on the
-Nitrogen is delocalised into the carbonyl group, reducing the electrophilicity of the carbonyl
+nitrogen is delocalised into the carbonyl group, reducing the electrophilicity of the carbonyl
 Carbon.
 
 ### Hydrolysis of Amides
 
 Amides can be hydrolysed under acidic or basic conditions, but harsher conditions are required than
-For esters:
+for esters:
 
 **Acid hydrolysis:** Reflux with concentrated hydrochloric acid:
 
@@ -332,7 +336,7 @@ with subsequent steps.
 ### Iodoform Test for Methyl Ketones
 
 The iodoform test detects methyl ketones ($\mathrm{RCOCH}_3$) and ethanol
-($\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}$Which is oxidised to ethanal under the reaction conditions).
+($\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}$ Which is oxidised to ethanal under the reaction conditions).
 
 **Reagents:** Iodine solution and sodium hydroxide.
 
@@ -457,6 +461,8 @@ compound. This is a standard qualitative organic analysis technique.
 
 ### IR Spectroscopy
 
+<div class="table-wrap">
+
 | Bond                  | Absorption range                                                     |
 | --------------------- | -------------------------------------------------------------------- |
 | C=O (aldehyde)        | $1720$--$1740\,\mathrm{cm}^{-1}$                                     |
@@ -466,6 +472,8 @@ compound. This is a standard qualitative organic analysis technique.
 | C=O (amide)           | $1680$--$1700\,\mathrm{cm}^{-1}$                                     |
 | C=O (acyl chloride)   | $1770$--$1810\,\mathrm{cm}^{-1}$                                     |
 | Aldehyde C--H stretch | $2820$--$2720\,\mathrm{cm}^{-1}$ (two weak bands, diagnostic)        |
+
+</div>
 
 ### NMR Spectroscopy
 
@@ -483,8 +491,8 @@ compound. This is a standard qualitative organic analysis technique.
 
 A compound $\mathrm{A}$ ($\mathrm{C}_3\mathrm{H}_6\mathrm{O}$) gives a silver mirror with Tollens'
 Reagent and reacts with $\mathrm{NaBH}_4$ to give compound $\mathrm{B}$. Compound $\mathrm{B}$ can
-Be oxidised to compound $\mathrm{C}$ ($\mathrm{C}_3\mathrm{H}_6\mathrm{O}_2$), which reacts with
-Sodium carbonate to produce $\mathrm{CO}_2$. Identify $\mathrm{A}$, $\mathrm{B}$ And $\mathrm{C}$.
+be oxidised to compound $\mathrm{C}$ ($\mathrm{C}_3\mathrm{H}_6\mathrm{O}_2$), which reacts with
+sodium carbonate to produce $\mathrm{CO}_2$. Identify $\mathrm{A}$, $\mathrm{B}$ And $\mathrm{C}$.
 
 **Solution:**
 
@@ -506,7 +514,7 @@ $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$ but would not give a positive Tollens' test
 <summary>Problem 2</summary>
 
 Write equations for the reactions of ethanoyl chloride ($\mathrm{CH}_3\mathrm{COCl}$) with: (a)
-Water, (b) ethanol, (c) ammonia, (d) methylamine. State the observations for each reaction.
+water, (b) ethanol, (c) ammonia, (d) methylamine. State the observations for each reaction.
 
 **Solution:**
 
@@ -561,7 +569,7 @@ Write a mechanism for the nucleophilic addition of $\mathrm{HCN}$ to propanone
 
 **Solution:**
 
-Step 1: The cyanide ion ($\mathrm{CN}^-$Nucleophile) attacks the electrophilic carbonyl carbon of
+Step 1: The cyanide ion ($\mathrm{CN}^-$ Nucleophile) attacks the electrophilic carbonyl carbon of
 propanone. The $\pi$ electrons of C=O move onto the oxygen, forming a tetrahedral intermediate with
 a negative charge on oxygen:
 
@@ -616,7 +624,9 @@ Tollens' test identifies ethanal. The remaining three are: propanone, ethanol, e
 
 **Reduction of butanal to butan-1-ol:**
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \xrightarrow{\mathrm{NaBH}_4,\,\text{then }\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \xrightarrow{\mathrm{NaBH}_4,\,\text{then }\mathrm{H}^+} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH}
+$$
 
 **Mechanism:**
 
@@ -624,11 +634,15 @@ Step 1: The hydride ion ($\mathrm{H}^-$) from $\mathrm{BH}_4^-$ attacks the elec
 carbon of butanal. The $\pi$ electrons of C=O move onto the oxygen, forming a tetrahedral alkoxide
 intermediate:
 
-$$\mathrm{H}^- + \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}(\mathrm{O}^-)\mathrm{H}$$
+$$
+\mathrm{H}^- + \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CHO} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}(\mathrm{O}^-)\mathrm{H}
+$$
 
 Step 2: Acid work-up protonates the alkoxide:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}(\mathrm{O}^-)\mathrm{H} + \mathrm{H}_3\mathrm{O}^+ \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} + \mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}(\mathrm{O}^-)\mathrm{H} + \mathrm{H}_3\mathrm{O}^+ \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} + \mathrm{H}_2\mathrm{O}
+$$
 
 **Stereochemistry:** The hydride attacks from either face of the planar carbonyl, giving a racemic
 mixture if the carbonyl carbon is prochiral (attached to four different groups after addition).
@@ -639,7 +653,9 @@ mixture if the carbonyl carbon is prochiral (attached to four different groups a
 followed by dehydration. Calculate the maximum mass of product that can be obtained from
 $5.00\,\mathrm{g}$ of ethanal.**
 
-$$2\mathrm{CH}_3\mathrm{CHO} \xrightarrow{\mathrm{NaOH}} \mathrm{CH}_3\mathrm{CH}=\mathrm{CHCHO} + \mathrm{H}_2\mathrm{O}$$
+$$
+2\mathrm{CH}_3\mathrm{CHO} \xrightarrow{\mathrm{NaOH}} \mathrm{CH}_3\mathrm{CH}=\mathrm{CHCHO} + \mathrm{H}_2\mathrm{O}
+$$
 
 Moles of ethanal: $n = \frac{5.00}{44.05} = 0.1135\,\mathrm{mol}$
 
@@ -658,11 +674,15 @@ Maximum mass: $m = 0.0568 \times 70.09 = 3.98\,\mathrm{g}$
 
 Step 1: Cyanohydrin formation:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} + \mathrm{HCN} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN}
+$$
 
 Step 2: Acid hydrolysis of the nitrile:
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{H}^+ \xrightarrow{\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH} + \mathrm{NH}_4^+$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} + 2\mathrm{H}_2\mathrm{O} + \mathrm{H}^+ \xrightarrow{\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH} + \mathrm{NH}_4^+
+$$
 
 The product is 2-hydroxybutanoic acid. The cyanohydrin reaction extends the carbon chain by one
 carbon and introduces both $-\mathrm{OH}$ and $-\mathrm{COOH}$ groups in a single sequence.
@@ -674,25 +694,33 @@ with water, ethanol, ammonia, and methylamine.**
 
 (a) Hydrolysis:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + \mathrm{H}_2\mathrm{O} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOH} + \mathrm{HCl}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + \mathrm{H}_2\mathrm{O} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOH} + \mathrm{HCl}
+$$
 
 Observation: Vigorous, exothermic. HCl fumes observed. Benzoic acid forms as a white solid.
 
 (b) Alcoholysis:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOCH}_2\mathrm{CH}_3 + \mathrm{HCl}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOCH}_2\mathrm{CH}_3 + \mathrm{HCl}
+$$
 
 Observation: Exothermic. HCl fumes. Fruity smell of ethyl benzoate.
 
 (c) With ammonia:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + 2\mathrm{NH}_3 \to \mathrm{C}_6\mathrm{H}_5\mathrm{CONH}_2 + \mathrm{NH}_4\mathrm{Cl}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + 2\mathrm{NH}_3 \to \mathrm{C}_6\mathrm{H}_5\mathrm{CONH}_2 + \mathrm{NH}_4\mathrm{Cl}
+$$
 
 Observation: White solid of benzamide forms. $\mathrm{NH}_4\mathrm{Cl}$ also forms as a white solid.
 
 (d) With methylamine:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + 2\mathrm{CH}_3\mathrm{NH}_2 \to \mathrm{C}_6\mathrm{H}_5\mathrm{CONHCH}_3 + \mathrm{CH}_3\mathrm{NH}_3^+\mathrm{Cl}^-$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COCl} + 2\mathrm{CH}_3\mathrm{NH}_2 \to \mathrm{C}_6\mathrm{H}_5\mathrm{CONHCH}_3 + \mathrm{CH}_3\mathrm{NH}_3^+\mathrm{Cl}^-
+$$
 
 Observation: White solid of N-methylbenzamide forms.
 
@@ -717,15 +745,21 @@ is more typical, but the exact position depends on the specific compound and sol
 
 Step 1: Friedel-Crafts acylation:
 
-$$\mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3\mathrm{COCl} \xrightarrow{\mathrm{AlCl}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + \mathrm{HCl}$$
+$$
+\mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3\mathrm{COCl} \xrightarrow{\mathrm{AlCl}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + \mathrm{HCl}
+$$
 
 Step 2: Oxidation of the methyl group on the ketone (haloform reaction or similar):
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + 3\mathrm{I}_2 + 4\mathrm{NaOH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COONa} + \mathrm{CHI}_3 + 3\mathrm{NaI} + 3\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + 3\mathrm{I}_2 + 4\mathrm{NaOH} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COONa} + \mathrm{CHI}_3 + 3\mathrm{NaI} + 3\mathrm{H}_2\mathrm{O}
+$$
 
 Step 3: Acidification:
 
-$$\mathrm{C}_6\mathrm{H}_5\mathrm{COONa} + \mathrm{HCl} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOH} + \mathrm{NaCl}$$
+$$
+\mathrm{C}_6\mathrm{H}_5\mathrm{COONa} + \mathrm{HCl} \to \mathrm{C}_6\mathrm{H}_5\mathrm{COOH} + \mathrm{NaCl}
+$$
 
 The iodoform reaction cleaves a methyl ketone to a carboxylic acid with one fewer carbon, providing
 a useful route to aromatic carboxylic acids.
@@ -764,9 +798,15 @@ corrosive. Wear eye protection and gloves. Work in a fume cupboard.
 
 **Yield calculation:**
 
-$$\text{Theoretical moles of aspirin} = \frac{5.00}{138.12} = 0.0362\,\mathrm{mol}$$
-$$\text{Theoretical mass} = 0.0362 \times 180.16 = 6.52\,\mathrm{g}$$
-$$\text{Percentage yield} = \frac{\text{actual mass}}{6.52} \times 100$$
+$$
+\text{Theoretical moles of aspirin} = \frac{5.00}{138.12} = 0.0362\,\mathrm{mol}
+$$
+$$
+\text{Theoretical mass} = 0.0362 \times 180.16 = 6.52\,\mathrm{g}
+$$
+$$
+\text{Percentage yield} = \frac{\text{actual mass}}{6.52} \times 100
+$$
 
 ## Exam-Style Questions with Full Mark Schemes
 
@@ -849,7 +889,7 @@ Explain why $\mathrm{NaBH}_4$ reduces aldehydes and ketones but does not reduce 
   due to the polar C=O bond) for nucleophilic attack (1 mark).
 - In carboxylic acids, the carbonyl carbon is less electrophilic because the $-\mathrm{OH}$ group
   donates electron density through resonance, and the acid protonates the
-  $\mathrm{BH}_4^-$Destroying the reducing agent before it can attack (1 mark).
+  $\mathrm{BH}_4^-$ Destroying the reducing agent before it can attack (1 mark).
 - A stronger reducing agent such as $\mathrm{LiAlH}_4$ is needed for carboxylic acids (1 mark).
 
 </details>
@@ -879,15 +919,19 @@ unless excess reagent is used or water is removed (1 mark).
 
 ### Key Disconnections
 
+<div class="table-wrap">
+
 | Target                              | Disconnection                 | Forward reagents                      |
 | ----------------------------------- | ----------------------------- | ------------------------------------- |
 | Primary alcohol                     | $\mathrm{C-OH}$ from aldehyde | Aldehyde + $\mathrm{NaBH}_4$          |
 | Secondary alcohol                   | $\mathrm{C-OH}$ from ketone   | Ketone + $\mathrm{NaBH}_4$            |
-| Carboxylic acid                     | $\mathrm{C-COOH}$ from ester  | Ester + $\mathrm{NaOH}$Reflux         |
+| Carboxylic acid                     | $\mathrm{C-COOH}$ from ester  | Ester + $\mathrm{NaOH}$ Reflux         |
 | Ester                               | $\mathrm{C-O-CO}$             | $\mathrm{RCOCl} + \mathrm{R'OH}$      |
 | Amide                               | $\mathrm{C-NH}$               | $\mathrm{RCOCl} + \mathrm{NH}_3$      |
 | Cyanohydrin                         | $\mathrm{C(CN)(OH)}$          | Aldehyde/ketone + $\mathrm{HCN}$      |
 | $\alpha,\beta$-unsaturated carbonyl | Aldol dehydration             | 2 aldehydes + $\mathrm{NaOH}$$\Delta$ |
+
+</div>
 
 ### Worked Retrosynthesis
 
@@ -907,7 +951,9 @@ Retrosynthetic analysis:
 
 **Forward synthesis:**
 
-$$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} \xrightarrow{\mathrm{HCN}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} \xrightarrow{\mathrm{H}_3\mathrm{O}^+,\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH}$$
+$$
+\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} \xrightarrow{\mathrm{HCN}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} \xrightarrow{\mathrm{H}_3\mathrm{O}^+,\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH}
+$$
 
 ---
 
@@ -926,23 +972,9 @@ hardest questions within the A-Level specification for this topic, each with a f
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Carbonyl
 Compounds with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
-
-
-```mermaid
-flowchart TD
-    A[Carbonyl Compounds] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

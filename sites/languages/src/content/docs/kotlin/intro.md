@@ -21,7 +21,7 @@ categories:
 ## Overview
 
 Kotlin is a statically typed language targeting the JVM, Android, JavaScript, and native platforms
-Via LLVM. Developed by JetBrains, it was designed to address Java"s verbosity, null safety issues,
+via LLVM. Developed by JetBrains, it was designed to address Java's verbosity, null safety issues,
 And lack of modern language features while maintaining full interoperability.
 
 Key design goals:
@@ -37,11 +37,15 @@ Key design goals:
 
 ## JVM vs Kotlin/Native vs Kotlin/JS
 
+<div class="table-wrap">
+
 | Target        | Runtime              | Output            | Use Case                       |
 | ------------- | -------------------- | ----------------- | ------------------------------ |
 | JVM           | Java Virtual Machine | `.class` bytecode | Server, Android, existing Java |
 | Kotlin/Native | LLVM                 | Native binaries   | iOS, macOS, Linux, embedded    |
 | Kotlin/JS     | JavaScript engines   | `.js` / IR        | Frontend, Node.js              |
+
+</div>
 
 All three targets share the same language syntax and standard library. Platform-specific APIs are
 Accessed through `expect`/`actual` declarations.

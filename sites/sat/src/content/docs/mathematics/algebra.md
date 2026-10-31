@@ -14,17 +14,6 @@ description: "Study notes for Algebra with worked examples, practice problems, a
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Algebra
 
 SAT mathematics study notes - Algebra
@@ -40,6 +29,8 @@ SAT mathematics study notes - Algebra
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Topic | Formula | When to Use |
 | ------- | --------- | ------------- |
 | Slope | $m = \frac{y_2 - y_1}{x_2 - x_1}$ | Finding rate of change between two points |
@@ -48,6 +39,8 @@ SAT mathematics study notes - Algebra
 | Vertex Form | $y = a(x-h)^2 + k$ | Identifying vertex $(h, k)$ of parabola |
 | Distance | $d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$ | Distance between two points |
 | Midpoint | $M = \left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$ | Finding the centre of a line segment |
+
+</div>
 
 ## Worked Examples
 
@@ -152,44 +145,3 @@ Algebra is the art of solving mysteries by letting unknowns represent clues. Whe
 - [Data Analysis](/mathematics/data-analysis/) -- Statistical formulas and linear models use algebraic manipulation to calculate means, slopes, and correlations.
 - [Reading Comprehension](/reading/comprehension/) -- Interpreting graphs and tables in reading passages requires algebraic reasoning.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

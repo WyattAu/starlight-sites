@@ -28,8 +28,8 @@ $$
 \vec{F} = q\vec{v} \times \vec{B}
 $$
 
-The magnitude is $F = qvB\sin\theta$Where $\theta$ is the angle between $\vec{v}$ and $\vec{B}$. The
-Direction is given by the right-hand rule.
+The magnitude is $F = qvB\sin\theta$ Where $\theta$ is the angle between $\vec{v}$ and $\vec{B}$. The
+direction is given by the right-hand rule.
 
 ### Key Properties
 
@@ -54,7 +54,7 @@ $$
 
 ### Motion at an Angle to the Field
 
-If $\vec{v}$ makes angle $\theta$ with $\vec{B}$The motion is helical. The parallel component
+If $\vec{v}$ makes angle $\theta$ with $\vec{B}$ The motion is helical. The parallel component
 $v_\parallel = v\cos\theta$ is unaffected. The perpendicular component $v_\perp = v\sin\theta$
 produces Circular motion with radius $r = mv_\perp/(qB)$ and pitch
 $p = v_\parallel \cdot T = 2\pi m v_\parallel/(qB)$.
@@ -75,7 +75,7 @@ $$
 
 :::note[Example: Force on a semicircular wire]
 A semicircular wire of radius $R$ carries current $I$ in a uniform magnetic field $\vec{B}$ directed
-Into the page. The straight ends of the wire are along the diameter.
+into the page. The straight ends of the wire are along the diameter.
 
 The force on the straight segment of length $2R$ is $F = I(2R)B$ (by the right-hand rule, directed
 Upward). For the curved part, consider a segment at angle $\theta$:
@@ -90,7 +90,7 @@ $$
 F_y = \int_0^\pi IRB\sin\theta\, d\theta = IRB[-\cos\theta]_0^\pi = 2IRB
 $$
 
-The total force on the semicircular wire is $2IRB$The same as on a straight wire of length $2R$.
+The total force on the semicircular wire is $2IRB$ The same as on a straight wire of length $2R$.
 
 ## Torque on a Current Loop
 
@@ -100,10 +100,10 @@ $$
 \vec{\tau} = \vec{\mu} \times \vec{B}
 $$
 
-Where the magnetic dipole moment is $\vec{\mu} = NI\vec{A}$With $\vec{A}$ directed normal to the
+Where the magnetic dipole moment is $\vec{\mu} = NI\vec{A}$ With $\vec{A}$ directed normal to the
 loop By the right-hand rule and $N$ is the number of turns.
 
-The magnitude is $\tau = NIAB\sin\alpha$Where $\alpha$ is the angle between $\vec{\mu}$ and
+The magnitude is $\tau = NIAB\sin\alpha$ Where $\alpha$ is the angle between $\vec{\mu}$ and
 $\vec{B}$.
 
 ## Biot-Savart Law
@@ -162,7 +162,7 @@ $$
 B_x = \frac{\mu_0 IR}{4\pi(R^2+x^2)^{3/2}}\oint dl = \frac{\mu_0 I \cdot 2\pi R^2}{4\pi(R^2+x^2)^{3/2}} = \frac{\mu_0 IR^2}{2(R^2+x^2)^{3/2}}
 $$
 
-## Ampere"s Law
+## Ampere's Law
 
 Ampere's law relates the line integral of $\vec{B}$ around a closed loop to the enclosed current:
 
@@ -172,8 +172,8 @@ $$
 
 ### Field Inside a Long Solenoid
 
-For a solenoid with $n$ turns per unit length carrying current $I$Choose a rectangular Amperian loop
-With one side inside the solenoid and one outside.
+For a solenoid with $n$ turns per unit length carrying current $I$ Choose a rectangular Amperian loop
+with one side inside the solenoid and one outside.
 
 $$
 B = \mu_0 n I
@@ -184,7 +184,7 @@ center Of a long solenoid.
 
 ### Field Inside a Toroid
 
-A toroid with $N$ turns carrying current $I$Inner radius $a$Outer radius $b$:
+A toroid with $N$ turns carrying current $I$ Inner radius $a$ Outer radius $b$:
 
 $$
 B = \frac{\mu_0 N I}{2\pi r}
@@ -208,7 +208,7 @@ $$
 B \cdot 2\pi r = \mu_0 \frac{2\pi J_0 r^3}{3R} \implies B = \frac{\mu_0 J_0 r^2}{3R}
 $$
 
-To express in terms of $I$Find the total current:
+To express in terms of $I$ Find the total current:
 
 $$
 I = \frac{2\pi J_0 R^3}{3R} = \frac{2\pi J_0 R^2}{3} \implies J_0 = \frac{3I}{2\pi R^2}
@@ -373,8 +373,8 @@ $$
 V_L = L\frac{dI}{dt} = \mathcal{E} e^{-t/\tau_L}
 $$
 
-At $t = 0$All the voltage is across the inductor. At $t \to \infty$All the voltage is across the
-Resistor.
+At $t = 0$ All the voltage is across the inductor. At $t \to \infty$ All the voltage is across the
+resistor.
 
 ### LC Circuits
 
@@ -407,7 +407,7 @@ I(t) = -Q_0\omega\sin(\omega t + \phi) = -I_0\sin(\omega t + \phi)
 $$
 
 The charge and current oscillate $90°$ out of phase. Energy oscillates between the capacitor
-($U_C = Q^2/(2C)$) and the inductor ($U_L = LI^2/2$), with total energy conserved:
+($U_C = Q^2/(2C)$) and the inductor ($ U_L = LI^2/2$), with total energy conserved:
 
 $$
 U_{\text{total} = \frac{Q_0^2}{2C} = \frac{1}{2}LI_0^2
@@ -443,12 +443,16 @@ $$
 
 The four Maxwell's equations unify electricity and magnetism:
 
+<div class="table-wrap">
+
 | Equation                    | Law                                                           | Integral Form                                                                             |
 | --------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | Gauss's Law for Electricity | Electric charges produce electric fields                      | $\oint \vec{E} \cdot d\vec{A} = \dfrac{Q_{\text{enc}}{\epsilon_0}$                        |
 | Gauss's Law for Magnetism   | No magnetic monopoles                                         | $\oint \vec{B} \cdot d\vec{A} = 0$                                                        |
 | Faraday's Law               | Changing magnetic fields produce electric fields              | $\oint \vec{E} \cdot d\vec{l} = -\dfrac{d\Phi_B}{dt}$                                     |
 | Ampere-Maxwell Law          | Currents and changing electric fields produce magnetic fields | $\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc} + \mu_0\epsilon_0\dfrac{d\Phi_E}{dt}$ |
+
+</div>
 
 ### The Displacement Current
 
@@ -478,7 +482,7 @@ $$
 \Phi_E = E \cdot \pi r^2 = \frac{V}{d}\pi r^2
 $$
 
-Since $V = Q/C = Qd/(\epsilon_0 A)$We have $E = Q/(\epsilon_0 A)$ So
+Since $V = Q/C = Qd/(\epsilon_0 A)$ We have $E = Q/(\epsilon_0 A)$ So
 $\Phi_E = Q\pi r^2/(\epsilon_0 A)$.
 
 Apply Ampere-Maxwell law with a circular Amperian loop of radius $r$:
@@ -507,7 +511,7 @@ Magnetism is **electricity in motion**, moving charges create magnetic fields, a
 
 ## Common Pitfalls
 
-1. **Wrong direction for the magnetic force.** Use $\vec{F} = q\vec{v} \times \vec{B}$Not
+1. **Wrong direction for the magnetic force.** Use $\vec{F} = q\vec{v} \times \vec{B}$ Not
    $\vec{B} \times \vec{v}$. The cross product is not commutative. For negative charges, reverse the
    direction.
 2. **Confusing Gauss's law for magnetism with Gauss's law for electricity.**
@@ -526,7 +530,7 @@ Magnetism is **electricity in motion**, moving charges create magnetic fields, a
    coil to its own changing current. Mutual inductance $M$ relates the EMF in one coil to the
    changing current in another coil.
 7. **Incorrectly computing flux for non-perpendicular fields.** When $\vec{B}$ is not perpendicular
-   to the surface, use $\Phi_B = BA\cos\theta$Not $BA$. The angle $\theta$ is between $\vec{B}$ and
+   to the surface, use $\Phi_B = BA\cos\theta$ Not $BA$. The angle $\theta$ is between $\vec{B}$ and
    the surface normal.
 8. **Forgetting the displacement current in Ampere-Maxwell law.** When applying Ampere's law between
    capacitor plates (or in any region where $d\vec{E}/dt \neq 0$), you must include the displacement
@@ -547,7 +551,7 @@ Magnetism is **electricity in motion**, moving charges create magnetic fields, a
    field inside and the inductance if the cross-sectional area is $4 \times 10^{-4}$ m$^2$.
 
 4. A square loop of side $0.2$ m is in a magnetic field $B = 0.5$ T perpendicular to the loop. The
-   field decreases to zero in $0.1$ s. If the loop has resistance $2\,\Omega$Find the induced
+   field decreases to zero in $0.1$ s. If the loop has resistance $2\,\Omega$ Find the induced
    current and the energy dissipated.
 
 5. An RL circuit has $R = 50\,\Omega$ and $L = 0.2$ H connected to a $12$ V battery. Find (a) the
@@ -572,14 +576,18 @@ current $I_2 = 5$ A. Find the net magnetic field at the center of the loop.
 
 The field from the straight wire at the center of the loop (distance $d = 0.1$ m):
 
-$$B_{\text{wire} = \frac{\mu_0 I_1}{2\pi d} = \frac{(4\pi \times 10^{-7})(10)}{2\pi(0.1)} = \frac{2 \times 10^{-5}}{0.1} = 2.0 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{wire} = \frac{\mu_0 I_1}{2\pi d} = \frac{(4\pi \times 10^{-7})(10)}{2\pi(0.1)} = \frac{2 \times 10^{-5}}{0.1} = 2.0 \times 10^{-4}\,\text{T
+$$
 
 By the right-hand rule, if the wire is vertical and the loop is to the right, the field from the
 wire At the loop center points out of the page.
 
 The field from the circular loop at its center:
 
-$$B_{\text{loop} = \frac{\mu_0 I_2}{2R} = \frac{(4\pi \times 10^{-7})(5)}{2(0.05)} = \frac{2\pi \times 10^{-6}}{0.05} = 1.257 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{loop} = \frac{\mu_0 I_2}{2R} = \frac{(4\pi \times 10^{-7})(5)}{2(0.05)} = \frac{2\pi \times 10^{-6}}{0.05} = 1.257 \times 10^{-4}\,\text{T
+$$
 
 The direction depends on the current direction in the loop. If the loop current flows
 counterclockwise (viewed from above), the field at the center points out of the page (same direction
@@ -587,11 +595,15 @@ as the wire's Field).
 
 If both fields are in the same direction:
 
-$$B_{\text{net} = (2.0 + 1.257) \times 10^{-4} = 3.26 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{net} = (2.0 + 1.257) \times 10^{-4} = 3.26 \times 10^{-4}\,\text{T
+$$
 
 If opposite:
 
-$$B_{\text{net} = (2.0 - 1.257) \times 10^{-4} = 0.74 \times 10^{-4}\,\text{T$$
+$$
+B_{\text{net} = (2.0 - 1.257) \times 10^{-4} = 0.74 \times 10^{-4}\,\text{T
+$$
 
 </details>
 
@@ -599,7 +611,7 @@ $$B_{\text{net} = (2.0 - 1.257) \times 10^{-4} = 0.74 \times 10^{-4}\,\text{T$$
 <summary>Question 8: AP Exam-Style -- Faraday's law with a falling loop</summary>
 
 A rectangular conducting loop of width $w = 0.1$ m and height $h = 0.2$ m falls vertically into a
-Region of uniform magnetic field $B = 0.5$ T directed into the page. The field region extends from
+region of uniform magnetic field $B = 0.5$ T directed into the page. The field region extends from
 $y = 0$ to $y = 0.3$ m. The loop has mass $m = 0.01$ kg and resistance $R = 0.5\,\Omega$. Find the
 Terminal velocity of the loop as it enters the field.
 
@@ -616,9 +628,11 @@ The motional EMF: $\mathcal{E} = Bwv$.
 The induced current: $I = \mathcal{E}/R = Bwv/R$.
 
 By Lenz's law, the induced current creates a force opposing the motion (upward). The force on the
-Bottom wire is:
+bottom wire is:
 
-$$F_B = BIw = \frac{B^2 w^2 v}{R}$$
+$$
+F_B = BIw = \frac{B^2 w^2 v}{R}
+$$
 
 At terminal velocity, this magnetic force balances gravity:
 
@@ -636,7 +650,7 @@ $$
 <summary>Question 9: AP Exam-Style -- RL circuit analysis</summary>
 
 An RL circuit with $R = 100\,\Omega$ and $L = 0.5$ H is connected to a DC source of
-$\mathcal{E} = 20$ V. At $t = 0$The switch is closed. (a) Derive the current as a function of time.
+$\mathcal{E} = 20$ V. At $t = 0$ The switch is closed. (a) Derive the current as a function of time.
 (b) At what time is The current increasing at half its initial rate? (c) How much energy has been
 stored in the inductor When the current reaches 80% of its maximum value?
 
@@ -657,15 +671,21 @@ Solution: $I(t) = I_{\max}(1 - e^{-t/\tau}) = 0.2(1 - e^{-200t})$.
 
 Half of this is $20$ A/s:
 
-$$\frac{dI}{dt} = \frac{\mathcal{E}}{L}e^{-t/\tau} = 40e^{-200t} = 20$$
+$$
+\frac{dI}{dt} = \frac{\mathcal{E}}{L}e^{-t/\tau} = 40e^{-200t} = 20
+$$
 
-$$e^{-200t} = 0.5 \implies t = \frac{\ln 2}{200} = 3.47 \times 10^{-3}\,\text{s = 3.47\,\text{ms$$
+$$
+e^{-200t} = 0.5 \implies t = \frac{\ln 2}{200} = 3.47 \times 10^{-3}\,\text{s = 3.47\,\text{ms
+$$
 
 Note: this occurs at $t = \tau \ln 2$.
 
 (c) At $I = 0.8 I_{\max} = 0.16$ A:
 
-$$U_L = \frac{1}{2}LI^2 = \frac{1}{2}(0.5)(0.16)^2 = \frac{1}{2}(0.5)(0.0256) = 6.4 \times 10^{-3}\,\text{J = 6.4\,\text{mJ$$
+$$
+U_L = \frac{1}{2}LI^2 = \frac{1}{2}(0.5)(0.16)^2 = \frac{1}{2}(0.5)(0.0256) = 6.4 \times 10^{-3}\,\text{J = 6.4\,\text{mJ
+$$
 
 </details>
 
@@ -684,32 +704,32 @@ change of The electric field between the plates.
 
 (a) By conservation of charge and the continuity of the displacement current:
 
-$$I_d = I = 3\,\text{A$$
+$$
+I_d = I = 3\,\text{A
+$$
 
 (b) Apply the Ampere-Maxwell law with a circular Amperian loop of radius $r = 0.03$ m (note
 $r < R$):
 
-$$B \cdot 2\pi r = \mu_0 I_d \frac{r^2}{R^2} = \mu_0(3)\frac{(0.03)^2}{(0.05)^2} = \mu_0(3)(0.36)$$
+$$
+B \cdot 2\pi r = \mu_0 I_d \frac{r^2}{R^2} = \mu_0(3)\frac{(0.03)^2}{(0.05)^2} = \mu_0(3)(0.36)
+$$
 
-$$B = \frac{(4\pi \times 10^{-7})(1.08)}{2\pi(0.03)} = \frac{4.32\pi \times 10^{-7}}{6\pi \times 10^{-2}} = \frac{4.32 \times 10^{-7}}{0.06} = 7.2 \times 10^{-6}\,\text{T = 7.2\,\mu\text{T$$
+$$
+B = \frac{(4\pi \times 10^{-7})(1.08)}{2\pi(0.03)} = \frac{4.32\pi \times 10^{-7}}{6\pi \times 10^{-2}} = \frac{4.32 \times 10^{-7}}{0.06} = 7.2 \times 10^{-6}\,\text{T = 7.2\,\mu\text{T
+$$
 
 (c) The displacement current is:
 
-$$I_d = \epsilon_0 \frac{d\Phi_E}{dt} = \epsilon_0 \frac{d}{dt}(E \cdot \pi R^2) = \epsilon_0 \pi R^2 \frac{dE}{dt}$$
+$$
+I_d = \epsilon_0 \frac{d\Phi_E}{dt} = \epsilon_0 \frac{d}{dt}(E \cdot \pi R^2) = \epsilon_0 \pi R^2 \frac{dE}{dt}
+$$
 
-$$\frac{dE}{dt} = \frac{I_d}{\epsilon_0 \pi R^2} = \frac{3}{(8.854 \times 10^{-12})\pi(0.05)^2} = \frac{3}{6.95 \times 10^{-14}} = 4.32 \times 10^{13}\,\text{V/m\cdot\text{s$$
+$$
+\frac{dE}{dt} = \frac{I_d}{\epsilon_0 \pi R^2} = \frac{3}{(8.854 \times 10^{-12})\pi(0.05)^2} = \frac{3}{6.95 \times 10^{-14}} = 4.32 \times 10^{13}\,\text{V/m\cdot\text{s
+$$
 
 </details>
-
-```mermaid
-flowchart TD
-    A[8_Magnetism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

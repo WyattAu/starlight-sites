@@ -21,7 +21,7 @@ categories: [ib-economics]
 ### Absolute and Comparative Advantage
 
 A country has an **absolute advantage** in producing a good if it can produce more output per unit
-Of resources than another country.
+of resources than another country.
 
 A country has a **comparative advantage** in producing a good if it can produce it at a lower
 Opportunity cost than another country. Comparative advantage is the basis for mutually beneficial
@@ -31,10 +31,14 @@ Trade, even when one country has an absolute advantage in all goods.
 
 Consider two countries, A and B, producing two goods, wine and cloth. Output per worker per day:
 
+<div class="table-wrap">
+
 |           | Wine (bottles) | Cloth (metres) |
 | --------- | -------------- | -------------- |
 | Country A | 6              | 3              |
 | Country B | 2              | 4              |
+
+</div>
 
 Opportunity costs:
 
@@ -48,7 +52,7 @@ $2\;\mathrm{m}$). Country B has a comparative advantage in cloth (lower opportun
 Bottles vs. $2$ bottles).
 
 Both countries gain from specialising in the good in which they have a comparative advantage and
-Trading at a mutually beneficial terms of trade between the two opportunity cost ratios (e.g., 1
+trading at a mutually beneficial terms of trade between the two opportunity cost ratios (e.g., 1
 wine for 0.75 cloth -- between A"s cost of 0.5 and B's cost of 2).
 
 **Gains from trade with numerical example:**
@@ -68,7 +72,7 @@ After specialisation (A produces only wine, B produces only cloth):
 - World total: 600 wine, 400 cloth
 
 Both wine and cloth production have increased. If they trade at 1 wine $= 1$ cloth, both countries
-Can consume more of both goods than before trade.
+can consume more of both goods than before trade.
 
 ### Assumptions and Limitations of the Ricardian Model
 
@@ -89,7 +93,7 @@ Complicate the picture.
 
 The Heckscher-Ohlin (H-O) model extends the theory by linking comparative advantage to **factor
 Endowments**: countries export goods that intensively use their abundant factors and import goods
-That intensively use their scarce factors.
+that intensively use their scarce factors.
 
 **Key propositions:**
 
@@ -118,7 +122,9 @@ Endowments (e.g., Germany and France trade cars with each other).
 The UK exports Jaguar cars to Germany while importing BMW cars from Germany). The **Grubel-Lloyd
 Index** measures the extent of intra-industry trade:
 
-$$\mathrm{GL}_i = 1 - \frac{|X_i - M_i|}{X_i + M_i}$$
+$$
+\mathrm{GL}_i = 1 - \frac{|X_i - M_i|}{X_i + M_i}
+$$
 
 Where $X_i$ and $M_i$ are exports and imports of industry $i$. GL ranges from 0 (pure Inter-industry
 trade) to 1 (pure intra-industry trade).
@@ -129,7 +135,9 @@ trade) to 1 (pure intra-industry trade).
 
 The **terms of trade** (ToT) measure the ratio of a country's export prices to its import prices:
 
-$$\mathrm{ToT} = \frac{\mathrm{Index\ of\ Export\ Prices}}{\mathrm{Index\ of\ Import\ Prices}} \times 100$$
+$$
+\mathrm{ToT} = \frac{\mathrm{Index\ of\ Export\ Prices}}{\mathrm{Index\ of\ Import\ Prices}} \times 100
+$$
 
 - An **improvement** in the terms of trade (ToT rises) means a country can buy more imports for a
   given volume of exports -- a favourable change
@@ -147,14 +155,16 @@ A ToT improvement is not always beneficial:
 
 The **income terms of trade** adjusts for export volume:
 
-$$\mathrm{Income\ ToT} = \mathrm{ToT} \times \text{Volume of exports}$$
+$$
+\mathrm{Income\ ToT} = \mathrm{ToT} \times \text{Volume of exports}
+$$
 
 This provides a better indicator of a country's capacity to import.
 
 ### The Prebisch-Singer Hypothesis
 
 The Prebisch-Singer hypothesis argues that the terms of trade for primary commodity exporters tend
-To deteriorate over time relative to manufactured goods exporters. Reasons include:
+to deteriorate over time relative to manufactured goods exporters. Reasons include:
 
 - Low income elasticity of demand for primary commodities (Engel's Law: as incomes rise, the share
   of spending on food and raw materials falls)
@@ -180,7 +190,9 @@ tariff, reducing import volumes and increasing domestic production.
   bought at the world price but not at the tariff-inclusive price) and one from inefficient domestic
   production (domestic firms producing at higher cost than the world price)
 
-$$\mathrm{DWL} = \frac{1}{2} \times t \times (\text{reduction in imports}) + \frac{1}{2} \times t \times (\text{additional domestic production at higher cost})$$
+$$
+\mathrm{DWL} = \frac{1}{2} \times t \times (\text{reduction in imports}) + \frac{1}{2} \times t \times (\text{additional domestic production at higher cost})
+$$
 
 ### Quotas
 
@@ -197,8 +209,8 @@ Unlike tariffs, the revenue from the higher price may accrue to:
 ### Subsidies
 
 A production subsidy to domestic producers lowers their costs, enabling them to compete more
-Effectively against imports. Unlike tariffs, subsidies do not directly raise consumer prices, but
-They impose a fiscal cost on the government and may provoke retaliation under WTO rules.
+effectively against imports. Unlike tariffs, subsidies do not directly raise consumer prices, but
+they impose a fiscal cost on the government and may provoke retaliation under WTO rules.
 
 ### Administrative Barriers
 
@@ -212,7 +224,7 @@ Non-tariff barriers include:
   treatment)
 
 While often justified on legitimate grounds (consumer safety, public health), these can act as
-Disguised protectionism by imposing additional costs on foreign suppliers.
+disguised protectionism by imposing additional costs on foreign suppliers.
 
 ### Arguments for Protection
 
@@ -272,11 +284,13 @@ Resources more efficiently.
 
 **Trade diversion**: removal of trade barriers leads to the replacement of lower-cost imports from a
 Non-member country with higher-cost imports from a member country. This reduces welfare because
-Resources are allocated to a less efficient producer.
+resources are allocated to a less efficient producer.
 
 The net welfare effect depends on the relative sizes of trade creation and trade diversion:
 
-$$\text{Net welfare effect} = \text{Trade creation gain} - \text{Trade diversion loss}$$
+$$
+\text{Net welfare effect} = \text{Trade creation gain} - \text{Trade diversion loss}
+$$
 
 A trade bloc is more likely to generate net welfare gains when:
 
@@ -310,8 +324,8 @@ Intra-African trade, which is currently low (approximately 15% of total African 
 ### Definition and Dimensions
 
 Globalisation is the process of increasing economic, social, and cultural interconnection between
-Countries. In economics, it refers primarily to the liberalisation of trade and capital flows, the
-Growth of multinational corporations, and the integration of financial markets.
+countries. In economics, it refers primarily to the liberalisation of trade and capital flows, the
+growth of multinational corporations, and the integration of financial markets.
 
 **Dimensions:**
 
@@ -430,7 +444,7 @@ The WTO is the international body that oversees the rules of global trade. Estab
 <summary>Problem 1: Comparative Advantage with Gains from Trade</summary>
 
 Country X can produce 10 tonnes of wheat or 5 tonnes of steel per worker per day. Country Y can
-Produce 6 tonnes of wheat or 6 tonnes of steel per worker per day.
+produce 6 tonnes of wheat or 6 tonnes of steel per worker per day.
 
 (a) Determine which country should specialise in which good.
 
@@ -445,7 +459,7 @@ Specialisation.
 - Country Y: 1 wheat costs $6/6 = 1$ steel; 1 steel costs $6/6 = 1$ wheat
 
 Country X has a comparative advantage in wheat ($0.5 < 1$). Country Y has a comparative advantage in
-Steel ($1 < 2$).
+steel ($1 < 2$).
 
 (b) Before specialisation (assuming 50 workers in each industry):
 
@@ -544,10 +558,10 @@ Depreciates by $15\%$.
 The Marshall-Lerner condition is NOT satisfied. The depreciation will worsen the current account In
 the short run because demand for both exports and imports is inelastic. The increase in export
 Revenue from more units sold is outweighed by the decrease in revenue per unit, and the decrease in
-Import expenditure from fewer units bought is outweighed by the increase in price per unit.
+import expenditure from fewer units bought is outweighed by the increase in price per unit.
 
 (b) The J-curve describes the short-run deterioration followed by long-run improvement. Immediately
-After depreciation:
+after depreciation:
 
 - Import costs rise in domestic currency terms (contracts are in foreign currency)
 - Export volumes are slow to adjust (new contracts take time to negotiate)
@@ -614,7 +628,7 @@ $= \frac{1}{2} \times 10 \times (100 - 80) + \frac{1}{2} \times 10 \times (80 - 
 
 (c) Consumers bear the entire burden of the tariff in the form of higher prices ($+ \$10$ per unit)
 And reduced consumption (from 100 to 80 units). Domestic producers gain from higher prices and
-Increased output. Since the tariff is prohibitive, there are no imports and no government revenue.
+increased output. Since the tariff is prohibitive, there are no imports and no government revenue.
 
 </details>
 
@@ -699,7 +713,7 @@ However, this is **trade diversion**: production shifts from the more efficient 
 unit Difference between B's cost and C's cost, on the diverted volume (100 units) $=$ `USD 200`.
 
 Net welfare effect $= 100 - 200 = -\$100$. The customs union reduces welfare in this case because
-Trade diversion exceeds trade creation.
+trade diversion exceeds trade creation.
 
 </details>
 
@@ -708,8 +722,8 @@ Trade diversion exceeds trade creation.
 ### Opportunity Cost Ratios and Specialisation
 
 The principle of comparative advantage states that countries should specialise in the production of
-Goods for which they have the lowest opportunity cost. The gains from trade arise from the
-Difference between the autarky (no-trade) opportunity cost ratios and the terms of trade.
+goods for which they have the lowest opportunity cost. The gains from trade arise from the
+difference between the autarky (no-trade) opportunity cost ratios and the terms of trade.
 
 **Formal framework:**
 
@@ -723,7 +737,9 @@ Country A has a comparative advantage in good 1 if $\mathrm{OC}_A < \mathrm{OC}_
 
 The terms of trade must lie between the two opportunity cost ratios:
 
-$$\mathrm{OC}_A < \text{ToT} < \mathrm{OC}_B$$
+$$
+\mathrm{OC}_A < \text{ToT} < \mathrm{OC}_B
+$$
 
 Any terms of trade within this range makes both countries better off than under autarky.
 
@@ -732,10 +748,14 @@ Any terms of trade within this range makes both countries better off than under 
 Two countries, France and Japan, can produce wine and electronics. Labour supply: France = 100
 Workers, Japan = 100 workers.
 
+<div class="table-wrap">
+
 |        | Wine (bottles/worker) | Electronics (units/worker) |
 | ------ | --------------------- | -------------------------- |
 | France | 8                     | 4                          |
 | Japan  | 2                     | 10                         |
+
+</div>
 
 **Opportunity costs:**
 
@@ -743,7 +763,7 @@ Workers, Japan = 100 workers.
 - Japan: 1 wine costs $10/2 = 5$ electronics; 1 electronic costs $2/10 = 0.2$ wine
 
 France has a comparative advantage in wine (0.5 < 5). Japan has a comparative advantage in
-Electronics (0.2 < 2).
+electronics (0.2 < 2).
 
 **Autarky (50 workers in each industry):**
 
@@ -788,18 +808,24 @@ Both countries are strictly better off.
 
 The terms of trade index measures the ratio of export prices to import prices:
 
-$$\mathrm{ToT} = \frac{P_X}{P_M} \times 100$$
+$$
+\mathrm{ToT} = \frac{P_X}{P_M} \times 100
+$$
 
 Where $P_X$ is the export price index and $P_M$ is the import price index, both with base year
 = 100.
 
 **Worked example:**
 
+<div class="table-wrap">
+
 | Year | Export Price Index | Import Price Index | ToT   |
 | ---- | ------------------ | ------------------ | ----- |
 | 2020 | 100                | 100                | 100.0 |
 | 2021 | 110                | 105                | 104.8 |
 | 2022 | 120                | 125                | 96.0  |
+
+</div>
 
 The ToT improved by 4.8% in 2021 (favourable: exports rose faster than imports). The ToT
 Deteriorated by 8.4% in 2022 (unfavourable: import prices rose faster than export prices).
@@ -833,7 +859,9 @@ Developing countries that export primary commodities often face deteriorating te
 A tariff of $t$ per unit on a small country importing quantity $Q_{\text{imports}}$ generates
 Revenue:
 
-$$\text{Tariff revenue} = t \times Q_{\text{imports}}$$
+$$
+\text{Tariff revenue} = t \times Q_{\text{imports}}
+$$
 
 **Worked example:** A small country imports 50,000 units at a world price of `USD 100`. A specific
 Tariff of `USD 20` per unit is imposed.
@@ -850,7 +878,9 @@ Tariff revenue $= 20 \times 20,000 = \text{USD 400,000}$.
 A quota of $Q_{\text{quota}}$ units raises the domestic price to the level where total domestic
 Demand minus domestic supply equals the quota:
 
-$$Q_d(P_{\text{quota}}) - Q_s(P_{\text{quota}}) = Q_{\text{quota}}$$
+$$
+Q_d(P_{\text{quota}}) - Q_s(P_{\text{quota}}) = Q_{\text{quota}}
+$$
 
 **Welfare effects compared to free trade:**
 
@@ -868,11 +898,15 @@ $$Q_d(P_{\text{quota}}) - Q_s(P_{\text{quota}}) = Q_{\text{quota}}$$
 For a **large country** (one that can influence world prices), a small tariff can improve national
 Welfare by improving the terms of trade. The optimal tariff maximises:
 
-$$\text{Welfare gain from ToT improvement} - \text{DWL from reduced trade}$$
+$$
+\text{Welfare gain from ToT improvement} - \text{DWL from reduced trade}
+$$
 
 The optimal tariff rate is approximately:
 
-$$t^* \approx \frac{1}{\mathrm{PED}_{\text{foreign export supply}} - 1}$$
+$$
+t^* \approx \frac{1}{\mathrm{PED}_{\text{foreign export supply}} - 1}
+$$
 
 This argument does not apply to small countries (which are price takers) and ignores retaliation By
 trading partners.
@@ -880,6 +914,8 @@ trading partners.
 ## Economic Integration Stages (HL Extension)
 
 ### Detailed Comparison of Integration Levels
+
+<div class="table-wrap">
 
 | Feature                         | FTA | Customs Union | Common Market | Monetary Union |
 | ------------------------------- | --- | ------------- | ------------- | -------------- |
@@ -891,6 +927,8 @@ trading partners.
 | Common monetary policy          | No  | No            | No            | Yes            |
 | Common fiscal policy            | No  | No            | No            | Partial        |
 | Sovereignty implications        | Low | Moderate      | High          | Very high      |
+
+</div>
 
 ### Costs and Benefits of Each Stage
 
@@ -965,9 +1003,11 @@ trading partners.
 ### Harrod-Domar Model
 
 The Harrod-Domar model (1939, 1946) was one of the first formal models of economic growth. It
-Relates the growth rate to the savings rate and the capital-output ratio:
+relates the growth rate to the savings rate and the capital-output ratio:
 
-$$g = \frac{s}{v}$$
+$$
+g = \frac{s}{v}
+$$
 
 Where $g$ is the growth rate of output, $s$ is the savings rate ($S/Y$), and $v$ is the Incremental
 capital-output ratio (ICOR), defined as $v = \Delta K / \Delta Y = I / \Delta Y$.
@@ -975,9 +1015,13 @@ capital-output ratio (ICOR), defined as $v = \Delta K / \Delta Y = I / \Delta Y$
 **Derivation:** in equilibrium, saving equals investment ($S = I$). Saving is $sY$. Investment is
 $I = v \cdot \Delta Y$ (each unit of additional output requires $v$ units of additional capital).
 
-$$sY = v \cdot \Delta Y$$
+$$
+sY = v \cdot \Delta Y
+$$
 
-$$\frac{\Delta Y}{Y} = \frac{s}{v}$$
+$$
+\frac{\Delta Y}{Y} = \frac{s}{v}
+$$
 
 **Implications:**
 
@@ -997,7 +1041,7 @@ $$\frac{\Delta Y}{Y} = \frac{s}{v}$$
 ### Lewis Dual-Sector Model
 
 Arthur Lewis (1954) proposed a model of structural change in developing economies based on the
-Coexistence of two sectors:
+coexistence of two sectors:
 
 1. **Traditional (subsistence) sector**: characterised by surplus labour (low marginal productivity
    of labour, near-zero), low wages at subsistence level, and informal production
@@ -1038,7 +1082,7 @@ Coexistence of two sectors:
 
 **Chenery's patterns of development:** as countries develop, the share of agriculture in GDP and
 Employment falls, while the shares of manufacturing and services rise. This structural change is
-Driven by:
+driven by:
 
 1. **Engel's Law**: as incomes rise, the share of spending on food falls (reducing agriculture's
    share)
@@ -1069,13 +1113,19 @@ using incentives for export-oriented FDI and investment. Common in East Asia fro
 
 The HDI uses a geometric mean to combine three dimension indices:
 
-$$\text{HDI} = (I_{\text{health}} \times I_{\text{education}} \times I_{\text{income}})^{1/3}$$
+$$
+\text{HDI} = (I_{\text{health}} \times I_{\text{education}} \times I_{\text{income}})^{1/3}
+$$
 
 **Dimension indices:**
 
-$$I = \frac{\text{Actual} - \text{Minimum}}{\text{Maximum} - \text{Minimum}}$$
+$$
+I = \frac{\text{Actual} - \text{Minimum}}{\text{Maximum} - \text{Minimum}}
+$$
 
 **Goalposts:**
+
+<div class="table-wrap">
 
 | Dimension                  | Indicator                   | Min | Max    |
 | -------------------------- | --------------------------- | --- | ------ |
@@ -1084,9 +1134,13 @@ $$I = \frac{\text{Actual} - \text{Minimum}}{\text{Maximum} - \text{Minimum}}$$
 | Education (expected years) | Expected years of schooling | 0   | 18     |
 | Income                     | GNI per capita (PPP, USD)   | 100 | 75,000 |
 
+</div>
+
 The GNI index uses logarithms to reflect diminishing marginal utility of income:
 
-$$I_{\text{income}} = \frac{\ln(\text{GNI per capita}) - \ln(100)}{\ln(75\,000) - \ln(100)}$$
+$$
+I_{\text{income}} = \frac{\ln(\text{GNI per capita}) - \ln(100)}{\ln(75\,000) - \ln(100)}
+$$
 
 **Why geometric mean?** Since 2010, the UNDP has used the geometric mean (instead of the Arithmetic
 mean) to ensure that a very low score in one dimension cannot be fully compensated by High scores in
@@ -1096,7 +1150,9 @@ others. This reflects the principle that each dimension is essential for human D
 
 The GDI adjusts the HDI for gender inequality:
 
-$$\text{GDI} = \frac{\text{Female HDI}}{\text{Male HDI}}$$
+$$
+\text{GDI} = \frac{\text{Female HDI}}{\text{Male HDI}}
+$$
 
 It is calculated as the ratio of female HDI to male HDI, adjusted for the overall level of HDI. A
 GDI of 1 indicates perfect gender parity. A GDI below 1 indicates that female achievement is Lower
@@ -1118,11 +1174,15 @@ Inequality.
 
 The MPI, developed by UNDP and OPHI, measures poverty across three dimensions with ten indicators:
 
+<div class="table-wrap">
+
 | Dimension              | Indicators (weights)                                                                                              |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Health (1/3)           | Nutrition (1/6), Child mortality (1/6)                                                                            |
 | Education (1/3)        | Years of schooling (1/6), School attendance (1/6)                                                                 |
 | Living standards (1/3) | Electricity (1/18), Sanitation (1/18), Drinking water (1/18), Flooring (1/18), Cooking fuel (1/18), Assets (1/18) |
+
+</div>
 
 **Calculation:**
 
@@ -1149,11 +1209,15 @@ The MPI, developed by UNDP and OPHI, measures poverty across three dimensions wi
 
 A country has the following data:
 
+<div class="table-wrap">
+
 | Year | Export Price Index | Import Price Index | Export Volume Index | Import Volume Index |
 | ---- | ------------------ | ------------------ | ------------------- | ------------------- |
 | 2020 | 100                | 100                | 100                 | 100                 |
 | 2021 | 115                | 110                | 95                  | 105                 |
 | 2022 | 130                | 140                | 90                  | 100                 |
+
+</div>
 
 (a) Calculate the terms of trade for each year.
 
@@ -1173,7 +1237,7 @@ $92.9 \times 90/100 = 83.6$
 
 (c) The purchasing power of exports (income ToT) was highest in 2020 (100.0). Despite the ToT
 Improving in 2021, the decline in export volume more than offset the price improvement. By 2022,
-Both the ToT and export volumes had deteriorated, significantly reducing the country's capacity To
+both the ToT and export volumes had deteriorated, significantly reducing the country's capacity To
 import.
 
 </details>
@@ -1182,7 +1246,7 @@ import.
 <summary>Problem 8: Exchange Rate with Interest Rate Parity</summary>
 
 The spot exchange rate is `USD 1.20` per euro. The one-year interest rate in the Eurozone is $1\%$
-And in the US is $3\%$.
+and in the US is $3\%$.
 
 (a) Calculate the forward exchange rate implied by covered interest rate parity.
 
@@ -1200,7 +1264,7 @@ higher. The expected future spot rate is:
 
 $E(S) = 1.20 \times 1.03/1.01 = 1.2238$
 
-Wait -- the US rate is higher, so $F > S$Meaning fewer dollars per euro, which means the euro Is
+Wait -- the US rate is higher, so $F > S$ Meaning fewer dollars per euro, which means the euro Is
 expected to depreciate. Actually, in our notation, $S$ is USD per EUR, so $F = 1.2238 > S =
 1.20$,
 meaning the euro is expected to appreciate. This is because the US dollar has the higher Interest
@@ -1216,10 +1280,10 @@ should have a forward discount.
 
 The issue is the quotation convention. In standard notation, if $S$ is quoted as USD/EUR, then The
 euro is the "foreign" currency and the US rate is the "domestic" rate. With $i_d > i_f$
-$F > S$Meaning the foreign currency (EUR) is expected to appreciate. This is incorrect According to
+$F > S$ Meaning the foreign currency (EUR) is expected to appreciate. This is incorrect According to
 UIP, which says the higher-interest currency should depreciate.
 
-The correct interpretation: since $i_{\text{USD}} = 3\% > i_{\text{EUR}} = 1\%$UIP predicts the USD
+The correct interpretation: since $i_{\text{USD}} = 3\% > i_{\text{EUR}} = 1\%$ UIP predicts the USD
 should depreciate against the EUR. So the forward rate of 1.2238 USD/EUR means the EUR is Stronger
 (USD depreciated), which is consistent with UIP.
 
@@ -1242,7 +1306,7 @@ opportunity.
 <summary>Problem 9: Harrod-Domar and Lewis Model Application</summary>
 
 Country Z has a savings rate of 15%, an incremental capital-output ratio (ICOR) of 4, and a
-Population growth rate of 2% per year.
+population growth rate of 2% per year.
 
 (a) Using the Harrod-Domar model, calculate the required savings rate to achieve 7% GDP growth.
 
@@ -1259,11 +1323,11 @@ Current savings rate is 15%, which yields $g = 0.15/4 = 3.75\%$. With population
 per capita grows at only $3.75\% - 2\% = 1.75\%$.
 
 To achieve 7% growth, the country needs to nearly double its savings rate to 28%. This could be
-Achieved through:
+achieved through:
 
 - Increasing domestic saving (tax incentives, financial development)
 - Attracting foreign saving (FDI, external borrowing, aid)
-- Reducing the ICOR to 2.14 ($s = 0.15 / v$For $g = 0.07$: $v = 0.15/0.07 = 2.14$) through more
+- Reducing the ICOR to 2.14 ($s = 0.15 / v$ For $g = 0.07$: $v = 0.15/0.07 = 2.14$) through more
   efficient investment
 
 (b) Lewis model: Country Z's surplus agricultural labour provides a pool of workers who can be
@@ -1302,6 +1366,8 @@ Key conditions for the Lewis mechanism to work:
 
 A small open economy has the following data for 2025 (in billions of USD):
 
+<div class="table-wrap">
+
 | Item                             | Amount                  |
 | -------------------------------- | ----------------------- |
 | Exports of goods                 | 280                     |
@@ -1319,6 +1385,8 @@ A small open economy has the following data for 2025 (in billions of USD):
 | Portfolio investment outflows    | 45                      |
 | Other investment (net)           | +15                     |
 | Change in reserves               | -12 (reserves increase) |
+
+</div>
 
 (a) Calculate the current account balance and its main components.
 
@@ -1339,7 +1407,7 @@ A small open economy has the following data for 2025 (in billions of USD):
 **Current account:** $-70 + 30 - 35 + 20 = -55$ billion USD (deficit)
 
 The main driver is the goods trade deficit (-70), partially offset by services surplus (+30) and
-Secondary income (+20).
+secondary income (+20).
 
 (b) **Financial account:**
 
@@ -1381,6 +1449,8 @@ The Big Mac Index (The Economist) provides an accessible application of absolute
 
 **Example calculation:**
 
+<div class="table-wrap">
+
 | Country     | Big Mac price (local currency) | Big Mac price (USD) | Exchange rate (LCU/USD) | PPP-implied rate | Over/undervaluation |
 | ----------- | ------------------------------ | ------------------- | ----------------------- | ---------------- | ------------------- |
 | USA         | 5.50                           | 5.50                | 1.00                    | 1.00             | --                  |
@@ -1388,6 +1458,8 @@ The Big Mac Index (The Economist) provides an accessible application of absolute
 | Japan       | 450                            | 5.50                | 149                     | 81.8             | Undervalued by 45%  |
 | China       | 22                             | 5.50                | 7.24                    | 4.00             | Undervalued by 45%  |
 | Switzerland | 7.02                           | 5.50                | 0.89                    | 1.28             | Overvalued by 44%   |
+
+</div>
 
 **PPP-implied exchange rate** $= P_{\text{domestic}} / P_{\text{USA}}$
 
@@ -1418,7 +1490,9 @@ $3\%$ and US inflation is $2\%$.
 
 Predicted change in EUR/USD:
 
-$$\%\Delta S \approx \pi_{\text{EUR}} - \pi_{\text{US}} = 3\% - 2\% = 1\%$$
+$$
+\%\Delta S \approx \pi_{\text{EUR}} - \pi_{\text{US}} = 3\% - 2\% = 1\%
+$$
 
 The euro is expected to depreciate by approximately 1% against the dollar. New rate
 $= 1.20 \times 1.01
@@ -1426,7 +1500,9 @@ $= 1.20 \times 1.01
 
 **Verification with exact formula:**
 
-$$\frac{S_1}{S_0} = \frac{1 + \pi_{\text{EUR}}}{1 + \pi_{\text{US}}} = \frac{1.03}{1.02} = 1.0098$$
+$$
+\frac{S_1}{S_0} = \frac{1 + \pi_{\text{EUR}}}{1 + \pi_{\text{US}}} = \frac{1.03}{1.02} = 1.0098
+$$
 
 New rate $= 1.20 \times 1.0098 = 1.212$ USD/EUR.
 
@@ -1437,15 +1513,21 @@ to the dollar.
 
 The **real exchange rate** adjusts the nominal exchange rate for relative price levels:
 
-$$q = \frac{S \cdot P_{\text{domestic}}}{P_{\text{foreign}}}$$
+$$
+q = \frac{S \cdot P_{\text{domestic}}}{P_{\text{foreign}}}
+$$
 
 An increase in $q$ represents a **real depreciation** (the domestic currency loses purchasing
 Power).
 
 If PPP holds exactly, $q = 1$ at all times. Deviations from PPP indicate competitiveness Changes:
 
-$$q > 1 \implies \text{domestic goods are more expensive relative to foreign (real appreciation)}$$
-$$q < 1 \implies \text{domestic goods are cheaper (real depreciation)}$$
+$$
+q > 1 \implies \text{domestic goods are more expensive relative to foreign (real appreciation)}
+$$
+$$
+q < 1 \implies \text{domestic goods are cheaper (real depreciation)}
+$$
 
 ## Transfer Pricing (HL Extension)
 
@@ -1456,8 +1538,12 @@ between related entities within a multinational corporation.
 
 MNCs can manipulate transfer prices to shift profits to low-tax jurisdictions:
 
-$$\text{Revenue in high-tax country} \downarrow \implies \text{Tax liability} \downarrow$$
-$$\text{Revenue in low-tax country} \uparrow \implies \text{After-tax profit} \uparrow$$
+$$
+\text{Revenue in high-tax country} \downarrow \implies \text{Tax liability} \downarrow
+$$
+$$
+\text{Revenue in low-tax country} \uparrow \implies \text{After-tax profit} \uparrow
+$$
 
 **Example:** A pharmaceutical company manufactures a drug at cost of USD 2 per unit in Ireland
 (corporate tax rate 12.5%) and sells it to its subsidiary in Germany (corporate tax rate 30%) At a
@@ -1499,7 +1585,7 @@ An optimum currency area (OCA) is a region where the benefits of sharing a commo
 the costs of losing monetary independence.
 
 Mundell identified the key criterion: **labour mobility**. If workers can move freely between
-Regions, asymmetric shocks (a recession in one region) can be addressed through migration Rather
+regions, asymmetric shocks (a recession in one region) can be addressed through migration Rather
 than monetary policy.
 
 **Other OCA criteria:**
@@ -1738,7 +1824,7 @@ create opportunities for evasion (capital flight through informal channels).
 **Evaluation:** devaluation is more market-friendly but may not address the underlying inflation
 Problem. Capital controls restore monetary autonomy but damage financial integration. The best
 Option depends on Country M's specific circumstances: the credibility of its institutions, the
-Elasticity of its exports, and the duration of the inflation problem.
+elasticity of its exports, and the duration of the inflation problem.
 
 </details>
 
@@ -1806,7 +1892,7 @@ debt was USD 70 billion (50% of GDP).
 
 (a) Thailand maintained a fixed exchange rate and free capital mobility, sacrificing independent
 Monetary policy. When the US raised interest rates in 1994--95, Thailand could not follow suit
-Because its economy was slowing. The interest differential (Thai rates < US rates) encouraged
+because its economy was slowing. The interest differential (Thai rates < US rates) encouraged
 Capital outflows, putting downward pressure on the baht.
 
 To defend the peg, the Bank of Thailand had to sell USD reserves and buy baht, depleting Reserves
@@ -1960,6 +2046,8 @@ should be time-limited and performance-based.
 
 Country Y has the following balance of payments data (USD billion):
 
+<div class="table-wrap">
+
 | Item                     | Value |
 | ------------------------ | ----- |
 | Exports of goods         | 120   |
@@ -1972,6 +2060,8 @@ Country Y has the following balance of payments data (USD billion):
 | Net portfolio investment | 15    |
 | Net other investment     | -10   |
 | Reserve assets change    | -5    |
+
+</div>
 
 (a) Calculate the current account balance. [3 marks]
 
@@ -2038,10 +2128,14 @@ Country B can produce 1 unit of cloth with 6 labour hours or 1 unit of wine with
 
 **Opportunity costs:**
 
+<div class="table-wrap">
+
 |           | Cloth (per unit of wine) | Wine (per unit of cloth) |
 | --------- | ------------------------ | ------------------------ |
 | Country A | 2 cloth                  | 0.5 wine                 |
 | Country B | 1 cloth                  | 1 wine                   |
+
+</div>
 
 Country A has a comparative advantage in cloth (lower opportunity cost: 0.5 wine < 1 wine). Country
 B has a comparative advantage in wine (lower opportunity cost: 1 cloth < 2 cloth).
@@ -2050,12 +2144,12 @@ B has a comparative advantage in wine (lower opportunity cost: 1 cloth < 2 cloth
 
 Before trade (autarky): if each country allocates 12 labour hours equally (6 to each good):
 
-Country A: cloth $= 6/4 = 1.5$Wine $= 6/8 = 0.75$. Total world output: 3 cloth, 1.5 wine. Country B:
-cloth $= 6/6 = 1$Wine $= 6/6 = 1$. Total world output: 3 cloth, 1.5 wine.
+Country A: cloth $= 6/4 = 1.5$ Wine $= 6/8 = 0.75$. Total world output: 3 cloth, 1.5 wine. Country B:
+cloth $= 6/6 = 1$ Wine $= 6/6 = 1$. Total world output: 3 cloth, 1.5 wine.
 
 With specialisation (A produces only cloth, B produces only wine):
 
-Country A: cloth $= 12/4 = 3$Wine $= 0$. Country B: cloth $= 0$Wine $= 12/6 = 2$. Total world
+Country A: cloth $= 12/4 = 3$ Wine $= 0$. Country B: cloth $= 0$ Wine $= 12/6 = 2$. Total world
 output: 3 cloth, 2 wine.
 
 World wine output increases from 1.5 to 2 (a gain of 0.5 wine). Both countries can consume More wine
@@ -2100,13 +2194,13 @@ what would cost 4.5 hours domestically. This is a loss.
 
 The issue is that at $P_w/P_c = 0.75$1 wine buys only 0.75 cloth. Country B's autarky Exchange rate
 is 1:1 (6 hours each). For trade to benefit Country B, the terms of trade Must be at least 1:1 in
-Country B's favour.
+country B's favour.
 
 Let me reconsider. The terms of trade must satisfy: Country A gains from exporting cloth, And
-Country B gains from exporting wine.
+country B gains from exporting wine.
 
 For Country A to gain from exporting cloth: the world price of cloth (in wine) must exceed Country
-A's opportunity cost of cloth: $P_c/P_w > 0.5$I.e., $P_w/P_c < 2$.
+A's opportunity cost of cloth: $P_c/P_w > 0.5$ I.e., $P_w/P_c < 2$.
 
 For Country B to gain from exporting wine: the world price of wine (in cloth) must exceed Country
 B's opportunity cost of wine: $P_w/P_c > 1$.
@@ -2163,10 +2257,14 @@ contradicting the H-O prediction. Possible explanations:
 
 Country X and Country Y produce two goods: cars and wheat. Labour requirements (hours per unit):
 
+<div class="table-wrap">
+
 |           | Cars | Wheat |
 | --------- | ---- | ----- |
 | Country X | 100  | 10    |
 | Country Y | 80   | 20    |
+
+</div>
 
 Each country has 1000 labour hours available.
 
@@ -2192,7 +2290,7 @@ has a comparative advantage in cars (lower opportunity cost: 4 < 10 wheat).
 
 Assume each country splits labour equally: 500 hours to each good.
 
-Country X: cars $= 500/100 = 5$Wheat $= 500/10 = 50$. Country Y: cars $= 500/80 = 6.25$Wheat
+Country X: cars $= 500/100 = 5$ Wheat $= 500/10 = 50$. Country Y: cars $= 500/80 = 6.25$ Wheat
 $= 500/20 = 25$. Total: 11.25 cars, 75 wheat.
 
 **With specialisation:**
@@ -2252,19 +2350,8 @@ imports. B produces widgets at $8; outside country C produces at $6.
 
 Before union: A imports from C at $6 + 20\% = \$7.20$. After union: A imports from B at $8$ (no
 tariff within union). Trade diversion: A now buys from less efficient producer B at $8 > \$7.20$.
-The $0.80$ per unit extra cost is a welfare loss, unless the increased trade volume generates
+the $0.80$ per unit extra cost is a welfare loss, unless the increased trade volume generates
 sufficient consumer surplus gains to offset it.
-
-
-```mermaid
-flowchart TD
-    A[1 Trade] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

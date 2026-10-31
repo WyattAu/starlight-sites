@@ -19,16 +19,6 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Instruction_Reordering] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Instruction Reordering and Happens-Before
 
 This section covers the as-if rule and compiler reordering, CPU-level store buffers and load
@@ -38,7 +28,7 @@ Consistency, and a demonstration of reordering effects across architectures.
 ## The As-If Rule and Compiler Reordering
 
 The **as-if rule** [N4950 §6.9.2.1] allows the compiler to reorder any operations whose reordering
-Does not change the observable behavior of a single-threaded program. In a multi-threaded context,
+does not change the observable behavior of a single-threaded program. In a multi-threaded context,
 This means:
 
 > "The implementation is free to reorder operations unless an ordering constraint is imposed by the
@@ -53,7 +43,7 @@ Concretely, the compiler may reorder:
    stale data.
 
 The as-if rule is the root cause of most multi-threading bugs. The compiler does not know about
-Other threads and is free to optimize as if the current thread were the only one running.
+other threads and is free to optimize as if the current thread were the only one running.
 
 ### Formal Definition of the As-If Rule
 
@@ -82,7 +72,7 @@ if (reg == 0) {
 }
 ```
 
-This is a legal single-threaded optimization. If `flag` is not `volatile` or `std::atomic`The
+This is a legal single-threaded optimization. If `flag` is not `volatile` or `std::atomic`. The
 Compiler assumes no other agent modifies it.
 
 **Speculative hoisting:** Loads may be hoisted above branches:
@@ -120,7 +110,7 @@ Require coherence traffic). The store buffer is drained to the cache asynchronou
 
 This means a subsequent load from a different address may execute **before** the previous store
 Drains to the cache. This is called **store-to-load reordering** (also known as Store Buffering or
-The "Store Buffer" phenomenon).
+the "Store Buffer" phenomenon).
 
 ```
 Core 0:                  Core 1:
@@ -148,7 +138,7 @@ On ARM, it is possible for both loads to see 0 (Load-Load reordering and Load-St
 
 A CPU can forward a store value directly from the store buffer to a subsequent load to the same
 Address, bypassing the cache. This is called **store forwarding**. While this is an optimization
-Rather than a reordering, it means a thread can always see its own stores immediately, even if other
+rather than a reordering, it means a thread can always see its own stores immediately, even if other
 Threads cannot.
 
 ### Interleaving Diagram: Store Buffering Litmus Test
@@ -192,12 +182,16 @@ Both loads execute before the other core"s store drains from its store buffer, s
 A **data dependency** exists when the address or value of one memory access depends on the value
 Read by a prior memory access:
 
-$$\mathrm{data dependency:  a[i] \to b[a[i]]$$
+$$
+\mathrm{data dependency:  a[i] \to b[a[i]]
+$$
 
 A **control dependency** exists when whether a memory access executes depends on the value read by a
 Prior access:
 
-$$\mathrm{control dependency:  \mathrm{if  (x) \{ y = 1; \}$$
+$$
+\mathrm{control dependency:  \mathrm{if  (x) \{ y = 1; \}
+$$
 
 :::caution
 Dependencies provide ordering, but on ARM and POWER, the processor may speculatively execute the
@@ -208,7 +202,7 @@ Dependent load before the controlling branch is resolved. Always use explicit me
 ### Data Dependencies as Ordering
 
 On most architectures, a true data dependency (RAW, Read After Write) prevents reordering because
-The consumer instruction cannot execute until the producer has produced the value. This is a
+the consumer instruction cannot execute until the producer has produced the value. This is a
 Hardware dependency, not a memory ordering guarantee:
 
 ```cpp
@@ -219,7 +213,7 @@ int val = b[idx]; // load b[a[0]], cannot execute until idx is known
 
 However, **address dependencies** (where only the _address_ depends on a prior load, not the value)
 Are weaker. On ARM and POWER, address dependencies provide ordering, but on some architectures even
-This is not guaranteed. Always use explicit atomics for correctness.
+this is not guaranteed. Always use explicit atomics for correctness.
 
 ## Sequenced-Before Relationship
 
@@ -232,12 +226,14 @@ Sequenced-before relation is determined by the abstract machine's evaluation ord
 - Function arguments are **unsequenced** with respect to each other (prior to C++17). In C++17, the
   operands of `=` are indeterminately sequenced.
 
-$$A \xrightarrow{\mathrm{seq} B \implies B \mathrm{ observes  A \mathrm{'s side effects within the same thread$$
+$$
+A \xrightarrow{\mathrm{seq} B \implies B \mathrm{ observes  A \mathrm{'s side effects within the same thread
+$$
 
 ## Happens-Before Relationship
 
 The **happens-before** relation [N4950 §6.9.4.1] is a strict partial order ($\prec$) on evaluations
-Within a single execution. If evaluation $A$ happens-before evaluation $B$ Then $B$ observes all Side
+within a single execution. If evaluation $A$ happens-before evaluation $B$ Then $B$ observes all Side
 effects of $A$.
 
 The happens-before relation is the **transitive closure** of:
@@ -250,7 +246,9 @@ The happens-before relation is the **transitive closure** of:
 3. **Sequenced-before is transitive**: If $A \xrightarrow{\mathrm{seq} B$ and
    $B \xrightarrow{\mathrm{seq} C$ Then $A \xrightarrow{\mathrm{seq} C$.
 
-$$A \prec B \iff \exists\, C_1, C_2, \ldots, C_n : A \xrightarrow{\mathrm{seq} C_1 \xrightarrow{\mathrm{sw} C_2 \xrightarrow{\mathrm{seq} \ldots \xrightarrow{\mathrm{sw} C_n \xrightarrow{\mathrm{seq} B$$
+$$
+A \prec B \iff \exists\, C_1, C_2, \ldots, C_n : A \xrightarrow{\mathrm{seq} C_1 \xrightarrow{\mathrm{sw} C_2 \xrightarrow{\mathrm{seq} \ldots \xrightarrow{\mathrm{sw} C_n \xrightarrow{\mathrm{seq} B
+$$
 
 **Formal definition:** $A$ happens-before $B$ ($A \prec B$) if and only if there exists a chain of
 Sequenced-before and synchronizes-with edges connecting $A$ to $B$. The relation is irreflexive (no
@@ -283,10 +281,12 @@ A release store to an atomic variable in thread 1 **synchronizes-with** an acqui
 Variable in thread 2 if the load reads the value stored (or a value written later by a release
 Operation) [N4950 §31.7.5]:
 
-$$\mathrm{store_{\mathrm{release}(x, v) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x, v)$$
+$$
+\mathrm{store_{\mathrm{release}(x, v) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x, v)
+$$
 
 The synchronizes-with relationship creates a **happens-before** edge between the release store and
-The acquire load, and by transitivity, all operations sequenced-before the release store
+the acquire load, and by transitivity, all operations sequenced-before the release store
 Happen-before all operations sequenced-after the acquire load.
 
 ## Sequential Consistency vs Relaxed Consistency
@@ -299,6 +299,8 @@ Consistent with the program order of each individual thread.
 Is no inter-thread ordering guarantee unless explicitly established by acquire/release or seq_cst
 Operations.
 
+<div class="table-wrap">
+
 | Property                           | Sequentially Consistent | Relaxed |
 | ---------------------------------- | ----------------------- | ------- |
 | Single total order                 | Yes                     | No      |
@@ -306,10 +308,12 @@ Operations.
 | Hardware reordering across atomics | Prevented (fences used) | Allowed |
 | Performance cost                   | Highest                 | Lowest  |
 
+</div>
+
 ### Formal Definition of Sequential Consistency
 
 A set of operations is sequentially consistent if there exists a total order $T$ over all operations
-Such that [N4950 §31.7.5]:
+such that [N4950 §31.7.5]:
 
 1. $T$ is consistent with the program order of each thread (if $op_1$ is sequenced-before $op_2$ in
    the same thread, then $op_1$ appears before $op_2$ in $T$).
@@ -317,7 +321,7 @@ Such that [N4950 §31.7.5]:
    last write to $x$ in $T$.
 
 The C++ memory model guarantees that all `memory_order_seq_cst` operations participate in a single
-Total order $S$Called the **modification order**, which is consistent with all happens-before
+Total order $S$ Called the **modification order**, which is consistent with all happens-before
 Relationships.
 
 ## Concrete Example: Reordering Bug

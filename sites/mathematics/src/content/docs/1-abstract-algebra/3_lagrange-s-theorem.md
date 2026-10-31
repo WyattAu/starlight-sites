@@ -19,9 +19,11 @@ description: "Study notes for Lagrange's Theorem with worked examples, practice 
 
 ### 3.1 Cosets
 
-Let $H \leq G$. For $a \in G$The **left coset** of $H$ containing $a$ is
+Let $H \leq G$. For $a \in G$ The **left coset** of $H$ containing $a$ is
 
-$$aH = \{ah : h \in H\}$$
+$$
+aH = \{ah : h \in H\}
+$$
 
 The **right coset** is $Ha = \{ha : h \in H\}$.
 
@@ -44,7 +46,7 @@ $|G|$.
 _Proof._ The cosets of $H$ partition $G$ into disjoint sets, each of size $|H|$. If there are $k$
 cosets, Then $|G| = k \cdot |H|$ So $|H|$ divides $|G|$. $\blacksquare$
 
-The number of cosets is called the **index** of $H$ in $G$Denoted $[G : H]$.
+The number of cosets is called the **index** of $H$ in $G$ Denoted $[G : H]$.
 
 **Corollary 3.4.** The order of any element of $G$ divides $|G|$.
 
@@ -58,7 +60,7 @@ _Proof._ $\mathbb{Z}/p\mathbb{Z}$ has $p$ elements. The multiplicative group
 $(\mathbb{Z}/p\mathbb{Z})^*$ has order $p - 1$. The order of $[a]$ divides $p - 1$ So
 $[a]^{p-1} = [1]$. $\blacksquare$
 
-**Corollary 3.6 (Euler's Theorem).** If $\gcd(a, n) = 1$ Then $a^{\phi(n)} \equiv 1 \pmod{n}$Where
+**Corollary 3.6 (Euler's Theorem).** If $\gcd(a, n) = 1$ Then $a^{\phi(n)} \equiv 1 \pmod{n}$ Where
 $\phi$ Is Euler's totient function.
 
 ### 3.3 Worked Example
@@ -77,13 +79,17 @@ $\langle g \rangle = G$ And $G$ is cyclic. $\blacksquare$
 <summary>Solution</summary>
 
 _Solution._ $H = \{e, (1\ 2\ 3), (1\ 3\ 2)\}$ has order $3$ And $|S_3| = 6$ So $[S_3 : H] = 2$. Pick
-any $\sigma \notin H$E.g., $\sigma = (1\ 2)$. Then:
+any $\sigma \notin H$ E.g., $\sigma = (1\ 2)$. Then:
 
-$$S_3 = H \cup (1\ 2)H = \{e, (1\ 2\ 3), (1\ 3\ 2)\} \cup \{(1\ 2), (1\ 2)(1\ 2\ 3), (1\ 2)(1\ 3\ 2)\}$$
+$$
+S_3 = H \cup (1\ 2)H = \{e, (1\ 2\ 3), (1\ 3\ 2)\} \cup \{(1\ 2), (1\ 2)(1\ 2\ 3), (1\ 2)(1\ 3\ 2)\}
+$$
 
 Computing: $(1\ 2)(1\ 2\ 3) = (2\ 3)$ and $(1\ 2)(1\ 3\ 2) = (1\ 3)$. So:
 
-$$S_3 = \{e, (1\ 2\ 3), (1\ 3\ 2)\} \cup \{(1\ 2), (2\ 3), (1\ 3)\}$$
+$$
+S_3 = \{e, (1\ 2\ 3), (1\ 3\ 2)\} \cup \{(1\ 2), (2\ 3), (1\ 3)\}
+$$
 
 Since $[S_3 : H] = 2$, $H$ is normal (see Corollary 3.7). $\blacksquare$
 
@@ -95,9 +101,11 @@ Since $[S_3 : H] = 2$, $H$ is normal (see Corollary 3.7). $\blacksquare$
 <summary>Solution</summary>
 
 _Solution._ $H = \langle 4 \rangle = \{0, 4, 8\}$ has order $3$ And $|\mathbb{Z}/12\mathbb{Z}| = 12$
-So $[\mathbb{Z}/12\mathbb{Z} : H] = 4$. The cosets are:
+so $[\mathbb{Z}/12\mathbb{Z} : H] = 4$. The cosets are:
 
-$$0 + H = \{0, 4, 8\}, \quad 1 + H = \{1, 5, 9\}, \quad 2 + H = \{2, 6, 10\}, \quad 3 + H = \{3, 7, 11\}$$
+$$
+0 + H = \{0, 4, 8\}, \quad 1 + H = \{1, 5, 9\}, \quad 2 + H = \{2, 6, 10\}, \quad 3 + H = \{3, 7, 11\}
+$$
 
 Since $\mathbb{Z}/12\mathbb{Z}$ is abelian, $H$ is normal, and
 $\mathbb{Z}/12\mathbb{Z}\,/\,H \cong \mathbb{Z}/4\mathbb{Z}$. $\blacksquare$
@@ -109,15 +117,17 @@ $\mathbb{Z}/12\mathbb{Z}\,/\,H \cong \mathbb{Z}/4\mathbb{Z}$. $\blacksquare$
 **Corollary 3.7.** If $[G : H] = 2$ Then $H \trianglelefteq G$.
 
 _Proof._ There are exactly two left cosets $H$ and $aH$ And exactly two right cosets $H$ and $Ha$.
-Since the cosets partition $G$We have $aH = G \setminus H = Ha$. Thus $gH = Hg$ for all $g \in G$ So
+Since the cosets partition $G$ We have $aH = G \setminus H = Ha$. Thus $gH = Hg$ for all $g \in G$ So
 $H$ is normal. $\blacksquare$
 
 **Corollary 3.8 (Product Formula).** If $H, K \leq G$ are finite subgroups, then
 
-$$|HK| = \frac{|H||K|}{|H \cap K|}$$
+$$
+|HK| = \frac{|H||K|}{|H \cap K|}
+$$
 
 _Proof._ The map $H \times K \to HK$ given by $(h, k) \mapsto hk$ is surjective. For any
-$x = hk \in HK$ The fiber is $\{(hc^{-1}, ck) : c \in H \cap K\}$Which has size $|H \cap K|$. Thus
+$x = hk \in HK$ The fiber is $\{(hc^{-1}, ck) : c \in H \cap K\}$ Which has size $|H \cap K|$. Thus
 $|H||K| = |HK| \cdot |H \cap K|$. $\blacksquare$
 
 :::caution
@@ -188,6 +198,8 @@ center is $Z(D_4) = \{e, r^2\}$, which is one of the order-2 subgroups. $\blacks
 
 ### 3.9 Key Relationships Table
 
+<div class="table-wrap">
+
 | Statement | Hypothesis | Conclusion |
 | --- | --- | --- |
 | Lagrange's Theorem | $H \leq G$, $G$ finite | $\|H\|$ divides $\|G\|$ |
@@ -197,21 +209,13 @@ center is $Z(D_4) = \{e, r^2\}$, which is one of the order-2 subgroups. $\blacks
 | Index 2 implies normal | $[G:H] = 2$ | $H \trianglelefteq G$ |
 | Product Formula | $H, K \leq G$ finite | $\|HK\| = \|H\|\|K\|/\|H \cap K\|$ |
 
+</div>
+
 ### 3.8 Applications
 
 - **Number theory:** Fermat's Little Theorem and Euler's Theorem underpin RSA encryption and primality testing.
 - **Coding theory:** The structure of cosets of subgroups in finite groups is used in linear codes and syndrome decoding.
 - **Computational group theory:** Lagrange's Theorem bounds the search space when testing subgroup membership; the index determines the number of coset representatives needed.
-
-```mermaid
-flowchart TD
-    A[3_Lagrange S Theorem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -220,5 +224,5 @@ flowchart TD
 - [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/) -- Lagrange's theorem limits the possible subgroup structure used in classifying small-order groups.
 - [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/) -- The common pitfalls section warns against assuming the converse of Lagrange's theorem and confusing index with order.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

@@ -23,13 +23,15 @@ categories:
 
 Type traits provide compile-time type introspection and transformation, forming the foundation of
 Generic programming in C++. Combined with techniques like SFINAE, tag dispatch, `if constexpr`And
-The upcoming C++26 static reflection, they enable type-safe compile-time polymorphism with zero
+the upcoming C++26 static reflection, they enable type-safe compile-time polymorphism with zero
 Runtime overhead.
 
 ## The `<type_traits>` Header
 
 The `<type_traits>` header [N4950 §20.15] provides a comprehensive set of compile-time type
 Introspection and transformation utilities. They fall into several categories:
+
+<div class="table-wrap">
 
 | Category                  | Examples                                                            |
 | ------------------------- | ------------------------------------------------------------------- |
@@ -39,6 +41,8 @@ Introspection and transformation utilities. They fall into several categories:
 | Type relationships        | `is_same``is_base_of``is_convertible``is_nothrow_convertible`       |
 | Type modifications        | `remove_cv``add_pointer``decay``enable_if``conditional`             |
 | Query properties          | `alignment_of``rank``extent``tuple_size`                            |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -206,7 +210,7 @@ int main() {
 
 C++17 introduced `if constexpr` [N4950 §8.5.2], which performs compile-time branching. Unlike
 `std::enable_if` (which operates on the function signature level), `if constexpr` operates inside
-The function body and discards the untaken branch at compile time.
+the function body and discards the untaken branch at compile time.
 
 ```cpp
 #include <iostream>
@@ -383,6 +387,8 @@ int main() {
 }
 ```
 
+<div class="table-wrap">
+
 | Technique            | C++ version | Readability | Error messages | Flexibility              |
 | -------------------- | ----------- | ----------- | -------------- | ------------------------ |
 | `enable_if` (SFINAE) | C++11       | Poor        | Terrible       | High                     |
@@ -390,11 +396,15 @@ int main() {
 | `if constexpr`       | C++17       | Good        | Good           | Medium (single function) |
 | Concepts/constraints | C++20       | Excellent   | Excellent      | Highest                  |
 
+</div>
+
 ## Advanced Type Traits
 
 Beyond the basic `std::is_*` traits, several advanced traits are essential for generic programming:
 
 ### Tuple Traits
+
+<div class="table-wrap">
 
 | Trait                            | Description                                         |
 | -------------------------------- | --------------------------------------------------- |
@@ -402,20 +412,30 @@ Beyond the basic `std::is_*` traits, several advanced traits are essential for g
 | `std::tuple_size_v<Tuple>`       | The number of elements in `Tuple` [§20.5.3]         |
 | `std::tuple_size<Tuple>::value`  | Same as above (C++11 style)                         |
 
+</div>
+
 ### Variant Traits
+
+<div class="table-wrap">
 
 | Trait                                    | Description                                               |
 | ---------------------------------------- | --------------------------------------------------------- |
 | `std::variant_alternative_t<I, Variant>` | The type of the `I`-th alternative of `Variant` [§20.7.3] |
 | `std::variant_size_v<Variant>`           | The number of alternatives in `Variant` [§20.7.3]         |
 
+</div>
+
 ### Conditional Type Selection
+
+<div class="table-wrap">
 
 | Trait                         | Description                                                                          |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | `std::conditional_t<B, T, F>` | `T` if `B` is true, `F` otherwise [§20.15.8]                                         |
 | `std::type_identity_t<T>`     | `T` --- used to prevent deduction [§20.15.8]                                         |
 | `std::decay_t<T>`             | Applies array-to-pointer, function-to-pointer, and cv-qualifier removal [§20.15.7.2] |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -503,13 +523,17 @@ int main() {
 
 `std::index_sequence` [N4950 §20.15.9] is a compile-time sequence of integer indices represented as
 A type. It is the primary mechanism for "unrolling" variadic templates and tuples. The key utilities
-Are:
+are:
+
+<div class="table-wrap">
 
 | Type                                | Description                                                    |
 | ----------------------------------- | -------------------------------------------------------------- |
 | `std::index_sequence<Is...>`        | A type representing the compile-time sequence `0, 1, ..., n-1` |
 | `std::make_index_sequence<N>`       | Produces `std::index_sequence<0, 1, ..., N-1>`                 |
 | `std::index_sequence_for<Types...>` | Produces `std::make_index_sequence<sizeof...(Types)>`          |
+
+</div>
 
 These work by mapping the count `N` to a parameter pack of integers, which can then be expanded with
 Parameter pack expansion:
@@ -586,8 +610,8 @@ transformed: [2] [5] [hello!]
 
 :::note
 Expression** [N4950 §7.5.6] that expands the comma operator over the parameter pack `Is`. This is
-The idiomatic way to iterate over a tuple at compile time. Without `index_sequence`There is no way
-To iterate over a tuple's elements in a generic function, because tuples do not have a
+the idiomatic way to iterate over a tuple at compile time. Without `index_sequence`. There is no way
+to iterate over a tuple's elements in a generic function, because tuples do not have a
 Runtime-iterable interface.
 :::
 
@@ -680,7 +704,7 @@ Concatenated: hello world
 ## Structured Binding with `std::tuple`
 
 Structured bindings [N4950 §9.6] combined with `std::tuple` and `std::tie` provide a clean syntax
-For returning and unpacking multiple values. The key feature is that structured bindings work at
+for returning and unpacking multiple values. The key feature is that structured bindings work at
 Compile time when used with `constexpr`:
 
 ```cpp
@@ -759,10 +783,14 @@ Utility that unpacks a tuple as arguments to a callable. It is implemented using
 C++26 introduces **static reflection** through the `<meta>` header [P2996R9], which provides the
 Ability to inspect types, functions, and class members at compile time. The core types are:
 
+<div class="table-wrap">
+
 | Type               | Description                                                                                   |
 | ------------------ | --------------------------------------------------------------------------------------------- |
 | `std::meta::info`  | A compile-time value representing a reflection of a C++ entity (type, function, member, etc.) |
 | `std::meta::value` | A type-erased compile-time value that can hold any reflection                                 |
+
+</div>
 
 The key operations include:
 
@@ -920,6 +948,8 @@ Enum for enums.
 
 ### Comparison: Current Approaches to Compile-Time Introspection
 
+<div class="table-wrap">
+
 | Approach                              | C++ Version       | Limitations                     | Overhead     |
 | ------------------------------------- | ----------------- | ------------------------------- | ------------ |
 | Manual macros (e.g., `DEFINE_FIELDS`) | Any               | Boilerplate, error-prone        | Zero runtime |
@@ -927,6 +957,8 @@ Enum for enums.
 | Magic Get (Agate/Boost)               | C++14+            | Same as Boost.PFR               | Zero runtime |
 | `__builtin_*` compiler intrinsics     | Compiler-specific | Non-portable                    | Zero runtime |
 | C++26 `<meta>` reflection             | C++26             | Not yet widely supported        | Zero runtime |
+
+</div>
 
 All of these approaches are **zero-overhead** --- the introspection happens at compile time, and the
 Generated code is equivalent to hand-written member access. The primary difference is in
@@ -982,11 +1014,5 @@ flowchart TD
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

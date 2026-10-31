@@ -24,7 +24,9 @@ An optical fibre consists of a core (refractive index $n_1$) surrounded by a cla
 
 The **numerical aperture:**
 
-$$\mathrm{NA} = \sin\theta_{\mathrm{max}} = \sqrt{n_1^2 - n_2^2}$$
+$$
+\mathrm{NA} = \sin\theta_{\mathrm{max}} = \sqrt{n_1^2 - n_2^2}
+$$
 
 Where $\theta_{\mathrm{max}}$ is the maximum acceptance angle for light entering the fibre.
 
@@ -32,7 +34,9 @@ Where $\theta_{\mathrm{max}}$ is the maximum acceptance angle for light entering
 
 The number of modes supported depends on the **V-number:**
 
-$$V = \frac{2\pi a}{\lambda}\mathrm{NA}$$
+$$
+V = \frac{2\pi a}{\lambda}\mathrm{NA}
+$$
 
 Where $a$ is the core radius.
 
@@ -65,7 +69,7 @@ causing the two orthogonal polarisation components to travel at slightly differe
 Optical fibres are made by the **Modified Chemical Vapour Deposition (MCVD)** process.
 A thin layer of pure silica is deposited inside a rotating silica tube by passing
 SiCl$_4$ and O$_2$ through it. The tube is then collapsed into a solid preform rod
-at approximately 2000 $^\circ$C.
+at approximately 2000 $^\circ$ C.
 
 The preform is then placed in a drawing tower, heated to its melting point, and
 pulled into a thin fibre under tension. The fibre diameter is monitored precisely
@@ -107,9 +111,13 @@ surgery, where high-power laser light is delivered through thin fibres.
 A step-index fibre has $n_1 = 1.48$, $n_2 = 1.46$, and core radius $a = 25\ \mu$m.
 Calculate the NA, acceptance angle, and V-number at $\lambda = 850$ nm.
 
-$$\mathrm{NA} = \sqrt{1.48^2 - 1.46^2} = \sqrt{2.1904 - 2.1316} = \sqrt{0.0588} \approx 0.242$$
+$$
+\mathrm{NA} = \sqrt{1.48^2 - 1.46^2} = \sqrt{2.1904 - 2.1316} = \sqrt{0.0588} \approx 0.242
+$$
 
-$$\theta_{\mathrm{max}} = \arcsin(0.242) \approx 14.0^\circ$$
+$$
+\theta_{\mathrm{max}} = \arcsin(0.242) \approx 14.0^\circ
+$$
 
 $$V = \frac{2\pi \times 25 \times 10^{-6}}{850 \times 10^{-9}} \times 0.242
       = \frac{2\pi \times 25}{0.85} \times 0.242 \approx 44.7$$
@@ -122,7 +130,7 @@ A 50 km fibre link has attenuation 0.35 dB/km at 1310 nm. Input power is 1 mW (0
 Find the output power and the power lost.
 
 Total loss = $0.35 \times 50 = 17.5$ dB. Output power = $0 - 17.5 = -17.5$ dBm.
-Converting: $P_{\mathrm{out}} = 10^{-17.5/10} \approx 17.8\ \mu$W.
+Converting: $P_{\mathrm{out}} = 10^{-17.5/10} \approx 17.8\ \mu$ W.
 The power lost is $1\ \mathrm{mW} - 17.8\ \mu\mathrm{W} \approx 0.982\ \mathrm{mW}$.
 
 ### Practice Problems
@@ -166,38 +174,7 @@ The value $2.405$ is the first zero of $J_0$, which determines the cutoff of the
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-```mermaid
-flowchart TD
-    A[12_Optical Fibres] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Optical fibers guide light through total internal reflection, trapping it in a core surrounded by cladding with a lower refractive index. The critical angle determines the cone of acceptance: light entering within this cone is guided, while light at steeper angles escapes. Multimode fibers allow many paths, causing pulse spreading as different modes travel different distances. Single-mode fibers restrict light to one path, eliminating this dispersion and enabling long-distance communication. The cladding is not just protective but essential for guiding, and the fiber's bending radius determines how much light leaks out.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

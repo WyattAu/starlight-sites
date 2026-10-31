@@ -67,12 +67,12 @@ with defined relationships, and on **SQL** as the language for manipulating that
 
 ### SQL
 
-- **DDL (Data Definition Language)**, `CREATE TABLE``ALTER TABLE``DROP TABLE` with constraints
-  (`PRIMARY KEY``FOREIGN KEY``NOT NULL``UNIQUE``CHECK`)
-- **DML (Data Manipulation Language)**, `SELECT``INSERT``UPDATE``DELETE`
-- **Queries**, `WHERE``ORDER BY``GROUP BY``HAVING`aggregate functions (`COUNT``SUM`
-  `AVG``MIN``MAX`)
-- **Joins**, `INNER JOIN``LEFT JOIN``RIGHT JOIN`; understanding what rows each returns
+- **DDL (Data Definition Language)**, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE` with constraints
+  (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`, `CHECK`)
+- **DML (Data Manipulation Language)**, `SELECT`, `INSERT`, `UPDATE`, `DELETE`
+- **Queries**, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`aggregate functions (`COUNT`, `SUM`
+  `AVG`, `MIN`, `MAX`)
+- **Joins**, `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`; understanding what rows each returns
 - **Subqueries**, nested `SELECT` statements
 
 ### Transaction Processing
@@ -137,8 +137,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Computer Science content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -178,8 +176,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Common Mistakes
 

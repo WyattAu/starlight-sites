@@ -21,7 +21,7 @@ categories:
 
 The build system is responsible for orchestrating the execution of compilers, linkers, and custom
 Commands to transform source code into artifacts. While CMake generates the build instructions, it
-Does not execute them.
+does not execute them.
 
 **Ninja** is a small build system with a specific focus on speed. It differs from the legacy **GNU
 Make** by lacking high-level language features (conditionals, loops). Instead, it relies on a build
@@ -118,21 +118,21 @@ A build system must satisfy two invariants for correctness:
    before the edge executes.
 2. **No redundant work:** A target is rebuilt only if at least one of its inputs has changed.
 
-Ninja"s DAG-based scheduling satisfies both invariants by construction:
+Ninja's DAG-based scheduling satisfies both invariants by construction:
 
 **Invariant 1 (Dependency completeness):** Ninja performs a topological sort of the DAG before
 Execution. A topological sort of a DAG produces a linear ordering where every node appears after all
-Its predecessors. When Ninja executes edges in this order, every input is guaranteed to be available
-Before the edge that consumes it runs.
+its predecessors. When Ninja executes edges in this order, every input is guaranteed to be available
+before the edge that consumes it runs.
 
-Formally, for every edge $e: (I_1, I_2, \ldots, I_n) \to O$The topological sort ensures that
+Formally, for every edge $e: (I_1, I_2, \ldots, I_n) \to O$ The topological sort ensures that
 $I_1, I_2, \ldots, I_n$ all precede $O$ in the execution order. This is a theorem of graph theory:
 Topological orderings exist for all DAGs and only for DAGs. If the dependency graph contained a
 Cycle, no topological ordering would exist, and Ninja would correctly report a cycle error.
 
 **Invariant 2 (No redundant work):** For each edge, Ninja compares the timestamps (or content
 Hashes) of all inputs against the timestamp of the output. If all inputs are older than the output
-And the command string has not changed, the edge is skipped. This is the standard "make" check,
+and the command string has not changed, the edge is skipped. This is the standard "make" check,
 Applied globally across the single dependency graph.
 
 The parallelism follows from the topological sort: if two edges have no ancestor-descendant
@@ -159,7 +159,7 @@ build CMakeFiles/App.dir/main.cpp.o: CXX_COMPILER ../main.cpp || CMakeFiles/App.
 ```
 
 The `|| main.cpp.o.d` syntax tells Ninja to load additional dependencies from the `.d` file after
-The build step. This is how header dependencies are discovered incrementally.
+the build step. This is how header dependencies are discovered incrementally.
 
 ### Build Edge Analysis
 
@@ -264,7 +264,7 @@ It consists of three primary constructs:
 ## Analyzing Build Performance
 
 Ninja includes a tool to analyze the build log (`.ninja_log`), which records the start and end time
-Of every task.
+of every task.
 
 ### 1. Generate Build Trace
 
@@ -324,7 +324,7 @@ Ninja guarantees correct incremental builds by tracking:
 
 1. **File modification timestamps.** Ninja rebuilds a target if any of its inputs are newer than the
    output.
-2. **Compiler-emitted dependencies.** When a source file `#include`S a header, the compiler records
+2. **Compiler-emitted dependencies.** When a source file `#include`s a header, the compiler records
    this dependency in a `.d` file. Ninja reads these `.d` files and integrates them into the graph.
 3. **Command strings.** If the command used to build a target changes (e.g., different compiler
    flags), Ninja rebuilds the target even if the input file timestamps are unchanged.
@@ -332,7 +332,7 @@ Ninja guarantees correct incremental builds by tracking:
 ## The `.ninja` File Format
 
 The `build.ninja` file is the low-level build description that Ninja executes. While CMake generates
-This file, understanding its format is useful for debugging build issues and for projects that use
+this file, understanding its format is useful for debugging build issues and for projects that use
 Ninja directly.
 
 ### Variables and Scoping
@@ -373,7 +373,7 @@ rule link
 build app.exe: link obj1.obj obj2.obj obj3.obj ... obj100.obj
 ```
 
-Ninja writes the arguments to `$out.rsp`Then passes `@CMakeFiles/$out.rsp` to the linker. This
+Ninja writes the arguments to `$out.rsp`. Then passes `@CMakeFiles/$out.rsp` to the linker. This
 Avoids the command-line length limit entirely.
 
 ### Pools
@@ -406,15 +406,17 @@ Dependencies. This produces the initial `build.ninja` with explicit header depen
 ### Phase 2: Compiler Scanning (Build Time)
 
 During compilation, the compiler emits a `.d` file (via `-MD -MF`) listing all headers included by
-The source file, including transitive includes. Ninja reads this `.d` file and integrates the
+the source file, including transitive includes. Ninja reads this `.d` file and integrates the
 Dependencies into `.ninja_deps`. On subsequent builds, Ninja uses this complete dependency
 Information for incremental rebuild correctness.
 
 For C++20 modules, the dependency scanning is more complex because `import` directives are semantic
 (not preprocessing). CMake uses the P1689 protocol to run the compiler in a lightweight scan mode
-That discovers module dependencies without full compilation.
+that discovers module dependencies without full compilation.
 
 ## Comparison with GNU Make
+
+<div class="table-wrap">
 
 | Feature                      | Ninja                                | GNU Make                                 |
 | :--------------------------- | :----------------------------------- | :--------------------------------------- |
@@ -432,9 +434,13 @@ That discovers module dependencies without full compilation.
 | Module support               | Via dyndep (P1689)                   | None                                     |
 | Cross-platform               | Linux, macOS, Windows                | Linux, macOS, Windows (via MinGW)        |
 
+</div>
+
 ### Performance Comparison
 
 For a representative C++ project with 1000 source files and 5000 header dependencies:
+
+<div class="table-wrap">
 
 | Metric                    | Ninja | GNU Make (recursive) | Speedup |
 | :------------------------ | :---- | :------------------- | :------ |
@@ -443,6 +449,8 @@ For a representative C++ project with 1000 source files and 5000 header dependen
 | Header change (1 file)    | 2s    | 12s                  | 6x      |
 | Source change (1 file)    | 1.5s  | 3s                   | 2x      |
 | Graph load time           | 0.01s | 5s                   | 500x    |
+
+</div>
 
 The most dramatic difference is in the **null build** (no files changed). Ninja loads the binary
 Dependency database, checks timestamps, and exits almost instantly. Make must re-parse every
@@ -459,7 +467,7 @@ Despite Ninja's speed advantages, there are cases where GNU Make is more appropr
 3. **Cross-platform compatibility on obscure systems.** Make has been ported to more platforms than
    Ninja.
 4. **Dependency on Make-specific features.** If your build process relies on GNU Make extensions
-   like `$(eval)``$(shell)`Or `$(file)`Migrating to Ninja requires significant effort.
+   like `$(eval)`, `$(shell)` or `$(file)`Migrating to Ninja requires significant effort.
 
 ## Ninja's Limitations
 
@@ -511,8 +519,8 @@ CMake's cross-platform complexity, Meson + Ninja is a lighter alternative.
 ## Interactive Output with the `console` Pool
 
 By default, Ninja captures all command output and only displays it if a command fails. This is ideal
-For CI but problematic for interactive builds where you want to see compiler warnings or test output
-In real time.
+for CI but problematic for interactive builds where you want to see compiler warnings or test output
+in real time.
 
 Ninja provides a built-in `console` pool that ensures only one command runs at a time with its
 Output going directly to the terminal, bypassing Ninja's output capture:
@@ -526,16 +534,16 @@ build run_tests: CUSTOM_COMMAND test_binary
   pool = console
 ```
 
-When CMake generates `build.ninja`It assigns the `console` pool to targets like `RUN_TESTS` and
+When CMake generates `build.ninja`. It assigns the `console` pool to targets like `RUN_TESTS` and
 Custom commands that the user invokes directly. This means `ctest` output appears in real time
-Rather than being buffered and displayed only on failure.
+rather than being buffered and displayed only on failure.
 
 ## Dynamic Dependencies (`dyndep`)
 
 Ninja supports **dynamic dependencies** via the `dyndep` feature, which allows a build edge to
 Declare that its dependencies are determined at build time rather than at configuration time.
 
-This is critical for **C++20 modules**: when a source file `import`S a module, the dependency on the
+This is critical for **C++20 modules**: when a source file `import`s a module, the dependency on the
 Module's BMI cannot be known at CMake configuration time. The `dyndep` mechanism allows the build
 Tool to report the dependency after the BMI has been generated.
 
@@ -615,7 +623,7 @@ endif()
 
 Ninja does not know about ccache. It sees the ccache invocation as the compile command. If the cache
 Hits, ccache returns the pre-built object file almost instantly. If the cache misses, ccache invokes
-The real compiler and stores the result.
+the real compiler and stores the result.
 
 ### sccache for Distributed Caching
 
@@ -641,7 +649,7 @@ Minimizing the overhead of determining which targets need building.
 ### Interaction Between Ninja's Restat and Caching
 
 Ninja supports a `restat` flag on build edges that tells Ninja to re-check the output's timestamp
-After the command runs. If the output's timestamp did not change (e.g., because ccache returned a
+after the command runs. If the output's timestamp did not change (e.g., because ccache returned a
 Cached object file that is older than the inputs), Ninja does not propagate the rebuild to
 Downstream targets.
 
@@ -723,7 +731,7 @@ build all: phony lib1/lib1.a lib2/lib2.a
 ```
 
 CMake uses `subninja` to integrate generated sub-projects into the main `build.ninja`. This allows
-Each CMake target to have its own set of rules and variables without polluting the global namespace.
+each CMake target to have its own set of rules and variables without polluting the global namespace.
 
 ## See Also
 
@@ -731,17 +739,6 @@ Each CMake target to have its own set of rules and variables without polluting t
 - [CMake Presets and Toolchain Files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
 - [Build Caching](/enviroment_and_toolchain/2_build_system/4_build_caching/)
 - [Unit Tests](/enviroment_and_toolchain/2_build_system/5_unit_tests/)
-
-
-```mermaid
-flowchart TD
-    A[2_Ninja_And_Parallelism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -756,13 +753,7 @@ parrallelism, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

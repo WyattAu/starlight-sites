@@ -41,11 +41,27 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'Advanced', items: [{ autogenerate: { directory: 'advanced' } }] },
-        { label: 'Basics', items: [{ autogenerate: { directory: 'basics' } }] },
-        { label: 'Concurrency', items: [{ autogenerate: { directory: 'concurrency' } }] },
-        { label: 'Intermediate', items: [{ autogenerate: { directory: 'intermediate' } }] },
-        { label: 'Standard Library', items: [{ autogenerate: { directory: 'standard-library' } }] },
+        {
+          label: 'Advanced',
+          items: [{ autogenerate: { directory: 'advanced' } }],
+          collapsed: true,
+        },
+        { label: 'Basics', items: [{ autogenerate: { directory: 'basics' } }], collapsed: true },
+        {
+          label: 'Concurrency',
+          items: [{ autogenerate: { directory: 'concurrency' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Intermediate',
+          items: [{ autogenerate: { directory: 'intermediate' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Standard Library',
+          items: [{ autogenerate: { directory: 'standard-library' } }],
+          collapsed: true,
+        },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -79,9 +95,7 @@ export default defineConfig({
           tag: 'link',
           attrs: {
             rel: 'stylesheet',
-            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css',
-            integrity: 'sha384-irXK0JiCGinqGL+slwVklbhJetrjczNwaP2lANewD8lKAs9n61SbQ3As28iSqXUE',
-            crossorigin: 'anonymous',
+            href: '/katex/katex.min.css',
           },
         },
         {
@@ -91,8 +105,6 @@ export default defineConfig({
             content: 'https://go.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

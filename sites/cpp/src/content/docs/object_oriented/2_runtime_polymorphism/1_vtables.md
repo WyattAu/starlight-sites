@@ -22,7 +22,7 @@ categories:
 ## Virtual Functions and Dispatch Tables (vtables)
 
 Virtual functions are the foundation of runtime polymorphism in C++. When a member function is
-Declared `virtual`The call is resolved at runtime based on the object"s dynamic type through the
+Declared `virtual`. The call is resolved at runtime based on the object"s dynamic type through the
 Vtable dispatch mechanism. This section covers the `virtual` keyword, the vptr/vtable ABI, dispatch
 Costs, and the `final`/`override` specifiers.
 
@@ -68,7 +68,7 @@ Derived
 
 When `greet()` is called through a `Base&` or `Base*` that actually refers to a `Derived` object,
 The **virtual dispatch mechanism** selects `Derived::greet`. This selection occurs at runtime, not
-At compile time.
+at compile time.
 
 ### Formal Semantics [N4950 S13.3.2]
 
@@ -95,12 +95,14 @@ The mechanism works as follows:
    (the vptr) to its class's vtable. The vptr is set by the constructor.
 
 3. **Dispatch is a two-step indirect call:** When a virtual function `f` is called through a pointer
-   `p`The compiler emits code equivalent to `(*p->vptr[offset_of_f])(p)`. This is a single indirect
+   `p`. The compiler emits code equivalent to `(*p->vptr[offset_of_f])(p)`. This is a single indirect
    function call.
 
 $$
 \mathrm{dispatch cost = 1 \mathrm{ memory load (vptr) + 1 \mathrm{ indexed load (function pointer) + 1 \mathrm{ indirect call
 $$
+
+<div class="table-wrap">
 
 | Component  | Description                                                 |
 | ---------- | ----------------------------------------------------------- |
@@ -108,6 +110,8 @@ $$
 | **vptr**   | Hidden pointer in each object; points to the class's vtable |
 | **Slot**   | Each virtual function occupies a fixed index in the vtable  |
 | **Thunks** | Compiler-generated stubs that adjust `this` before dispatch |
+
+</div>
 
 :::note
 Mandates that the vptr is at offset 0 within the object (before any data members). MSVC uses a
@@ -168,7 +172,7 @@ Object. The dispatch sequence is:
 3. Call: `func(p)` -- one indirect call.
 
 Since $k$ is a compile-time constant determined by the function declaration order in the class, and
-The vptr offset within the object is also a compile-time constant (0 in the Itanium ABI), both
+the vptr offset within the object is also a compile-time constant (0 in the Itanium ABI), both
 Memory accesses are at fixed, known offsets. The total work is two memory loads and one indirect
 Branch, independent of the depth or breadth of the inheritance hierarchy. Therefore, virtual
 Dispatch is $O(1)$.
@@ -251,6 +255,8 @@ Analysis:
 
 Every virtual call involves:
 
+<div class="table-wrap">
+
 | Step                       | Cost                                     |
 | -------------------------- | ---------------------------------------- |
 | Load vptr from object      | 1 memory access (may hit L1 cache)       |
@@ -258,8 +264,10 @@ Every virtual call involves:
 | Indirect call              | 1 branch (may be mispredicted)           |
 | **Total extra vs. Direct** | ~2--5 cycles on modern hardware (cached) |
 
+</div>
+
 The primary costs are **indirection** (preventing inlining) and **branch misprediction** (the CPU
-Cannot predict which function will be called at the indirect branch). In tight loops, this can be
+cannot predict which function will be called at the indirect branch). In tight loops, this can be
 Measurable.
 
 ```cpp
@@ -580,9 +588,9 @@ C object:
   offset 24:  c_val
 ```
 
-When calling `fb()` through a `B*`The compiler generates a **thunk** -- a small code stub that
+When calling `fb()` through a `B*`. The compiler generates a **thunk** -- a small code stub that
 Adjusts the `this` pointer by the offset between the `B` subobject and the `C` complete object
-Before jumping to `C::fb`. This thunk is stored in `B`'s vtable within `C`'s vtable structure.
+before jumping to `C::fb`. This thunk is stored in `B`'s vtable within `C`'s vtable structure.
 
 ### Thunk Example
 
@@ -592,7 +600,7 @@ C::B::vtable for fb:
 ```
 
 The thunk ensures that `C::fb` receives a pointer to the start of the `C` object (not the `B`
-Subobject), so that `C::fb` can access `a_val``b_val`And `c_val` correctly.
+Subobject), so that `C::fb` can access `a_val`, `b_val` and `c_val` correctly.
 
 ## 1.10 Virtual Inheritance and vtable Complications
 
@@ -627,7 +635,7 @@ struct MostDerived : Left, Right {
 ```
 
 The layout is complex: each of `Left` and `Right` contains a vbptr that points to a shared subtable
-In the vtable. At runtime, these offsets are used to locate the single `VBase` subobject. Every
+in the vtable. At runtime, these offsets are used to locate the single `VBase` subobject. Every
 Access to a virtual base member requires one additional indirection compared to non-virtual base
 Access.
 
@@ -642,12 +650,12 @@ Silently creates a new function that **hides** (not overrides) the base version.
 `override` on every function intended to be virtual dispatch.
 
 **2. Virtual functions in constructors/destructors:** As shown in section 1.7, virtual dispatch does
-Not work as expected during construction and destruction. Never call virtual functions that rely on
+not work as expected during construction and destruction. Never call virtual functions that rely on
 Derived-class state from a base class constructor or destructor.
 
 **3. Diamond inheritance without `virtual`:** If two intermediate classes both inherit from the same
 Base non-virtually, the most-derived class contains two copies of the base. This causes ambiguity
-When calling base-class functions. Use virtual inheritance when a diamond is intended, or
+when calling base-class functions. Use virtual inheritance when a diamond is intended, or
 Restructure the hierarchy.
 
 **4. Pure virtual function with body:** A pure virtual function (`= 0`) **can** have a definition.
@@ -668,8 +676,8 @@ struct Derived : Base {
 
 **5. Overhead of virtual dispatch in tight loops:** While the per-call overhead is small (~2--5
 Cycles), the inability to inline virtual calls prevents a wide range of optimizations. If a function
-Is called in a tight inner loop and the target is always the same, consider devirtualization (mark
-The class or function `final`) or CRTP/deducing-this for static dispatch.
+is called in a tight inner loop and the target is always the same, consider devirtualization (mark
+the class or function `final`) or CRTP/deducing-this for static dispatch.
 
 **6. Virtual functions and move semantics:** Virtual functions cannot be templated. If you need a
 Type-parameterized operation that is dispatched at runtime, you must use a type-erased mechanism
@@ -720,6 +728,8 @@ int main() {
 
 The size of a vptr depends on the platform's pointer size:
 
+<div class="table-wrap">
+
 | Platform      | Pointer Size | vptr Size | Empty Polymorphic Class Size |
 | ------------- | ------------ | --------- | ---------------------------- |
 | 32-bit x86    | 4 bytes      | 4 bytes   | 4 bytes                      |
@@ -727,24 +737,16 @@ The size of a vptr depends on the platform's pointer size:
 | 64-bit ARM    | 8 bytes      | 8 bytes   | 8 bytes                      |
 | 32-bit ARM    | 4 bytes      | 4 bytes   | 4 bytes                      |
 
+</div>
+
 On 64-bit platforms, every polymorphic object pays at least 8 bytes for the vptr, even if the class
-Has no data members. This is the fundamental cost of runtime polymorphism.
+has no data members. This is the fundamental cost of runtime polymorphism.
 
 ## See Also
 
 - [Inheritance, Object Slicing, and Virtual Destructors](/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
 - [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
 - [Deducing This and CRTP](/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/)
-
-```mermaid
-flowchart TD
-    A[1_Vtables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -759,10 +761,5 @@ including key theorems, methods, and problem-solving approaches.
 - convergence tests
 - mathematical induction
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

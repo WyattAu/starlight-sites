@@ -21,7 +21,7 @@ categories:
 
 ## Access Control and Friendship
 
-C++ provides fine-grained access control through `public``protected`And `private` specifiers, Plus
+C++ provides fine-grained access control through `public`, `protected` and `private` specifiers, Plus
 the `friend` mechanism for granting selective access to non-members. Access control is enforced
 Entirely at compile time with zero runtime cost.
 
@@ -29,11 +29,15 @@ Entirely at compile time with zero runtime cost.
 
 A class member can be declared with one of three access specifiers [N4950 S14.3.1]:
 
+<div class="table-wrap">
+
 | Specifier   | Class members | Derived class members | External code |
 | ----------- | :-----------: | :-------------------: | :-----------: |
 | `public`    |      Yes      |          Yes          |      Yes      |
 | `protected` |      Yes      |          Yes          |      No       |
 | `private`   |      Yes      |          No           |      No       |
+
+</div>
 
 Access control is enforced at compile time only; it has zero runtime cost. The access specifier
 Applies to all members declared after it until another access specifier is encountered.
@@ -95,9 +99,9 @@ int main() {
 ### Proof: Access Control is Compile-Time Only
 
 The access rules in [N4950 S14.3] apply during _name lookup_ and _access checking_, which are phases
-Of translation (compilation). The generated object code contains no guards, checks, or indirections
+of translation (compilation). The generated object code contains no guards, checks, or indirections
 Related to access control. Therefore, the cost is provably zero at runtime: the access specifier
-Does not affect the object layout, function calling convention, or any aspect of the execution
+does not affect the object layout, function calling convention, or any aspect of the execution
 Model.
 
 ## 2.2 Class vs Struct
@@ -120,18 +124,18 @@ static_assert(sizeof(S) == sizeof(C));
 A `friend` declaration grants a function or another class access to `private` and `protected`
 Members of the class that grants friendship. Friendship is **not transitive**, **not inherited**,
 And **not symmetric**: if class A declares B as a friend, B can access A"s private members, but A
-Cannot access B's, and B's derived classes cannot access A's private members.
+cannot access B's, and B's derived classes cannot access A's private members.
 
 ### Formal Semantics of Friendship [N4950 S14.3.2]
 
 A friend declaration is a declaration that nominates a function or class to be granted access to
-Non-public members. The key properties are:
+non-public members. The key properties are:
 
 1. **Granting is unilateral.** The class that contains the `friend` declaration is the _granting_
    class. The nominated entity receives access; no reciprocal access is implied.
 2. **Not transitive.** If `A` declares `B` as a friend, and `B` declares `C` as a friend, `C` does
    **not** have access to `A`'s private members.
-3. **Not inherited.** If `A` declares `B` as a friend, and `C` inherits from `B``C` does **not**
+3. **Not inherited.** If `A` declares `B` as a friend, and `C` inherits from `B`, `C` does **not**
    have access to `A`'s private members.
 4. **Friendship is not a membership declaration.** A friend function is not a member of the class.
    It does not have a `this` pointer and is not found by name lookup within the class scope (unless
@@ -191,15 +195,15 @@ int main() {
 ### Proof: Friend Access Rules
 
 By [N4950 S14.3.2], a friend of a class `C` is a function or class that is granted access to the
-Non-public members of `C`. The proof that friendship is not transitive follows from the definition:
+non-public members of `C`. The proof that friendship is not transitive follows from the definition:
 The access check in [N4950 S14.3] examines whether the entity attempting access is a friend of the
-Class being accessed. If `A` grants friendship to `B`And `B` grants friendship to `C`The access
+Class being accessed. If `A` grants friendship to `B`And `B` grants friendship to `C`. The access
 Check for `C` accessing `A`'s private members examines whether `C` is a friend of `A`. Since `C` is
-Not declared as a friend of `A`Access is denied.
+not declared as a friend of `A`Access is denied.
 
 Similarly, inheritance is irrelevant to friendship: [N4950 S14.3] specifies that "a member of a
 Derived class... Has no special access to members of a base class" except through the normal access
-Specifiers. Since `C` inherits from `B`And `B` is a friend of `A``C` is not a friend of `A` by The
+Specifiers. Since `C` inherits from `B`And `B` is a friend of `A`, `C` is not a friend of `A` by The
 same argument.
 
 ## 2.4 Friend Classes and Member Functions
@@ -250,13 +254,13 @@ int main() {
 ```
 
 When granting friendship to a specific member function, the function must have been declared (but
-Not necessarily defined) before the `friend` declaration. This is why `DiagnosticTool::inspect` is
+not necessarily defined) before the `friend` declaration. This is why `DiagnosticTool::inspect` is
 Forward-declared in the example above.
 
 ## 2.5 Hidden Friends (ADL Friends) [N4950 S14.3.3]
 
 A _hidden friend_ is a friend function defined inside a class body. Unlike a free friend declared
-Outside, a hidden friend is found by **argument-dependent lookup (ADL)** only -- it is not found by
+outside, a hidden friend is found by **argument-dependent lookup (ADL)** only -- it is not found by
 Ordinary unqualified name lookup [N4950 S9.4.1].
 
 ```cpp
@@ -353,11 +357,15 @@ int main() {
 
 ### Inheritance Access Summary
 
+<div class="table-wrap">
+
 | Base Member Access | Public Inheritance | Protected Inheritance | Private Inheritance |
 | :----------------- | :----------------: | :-------------------: | :-----------------: |
 | `public`           |      `public`      |      `protected`      |      `private`      |
 | `protected`        |    `protected`     |      `protected`      |      `private`      |
 | `private`          |    inaccessible    |     inaccessible      |    inaccessible     |
+
+</div>
 
 **Private inheritance** is not an "is-a" relationship -- it is an "implemented-in-terms-of"
 Relationship. It is used when you want to reuse a base class's implementation without exposing the
@@ -395,7 +403,7 @@ Members when using private inheritance.
 ## 2.8 Access Control and Templates
 
 Template instantiation interacts with access control in specific ways. Access control is checked at
-The point of instantiation, not at the point of definition. This means a friend of a class can
+the point of instantiation, not at the point of definition. This means a friend of a class can
 Access private members during template instantiation.
 
 ```cpp
@@ -499,7 +507,7 @@ Eliminating the need for runtime dispatch.
 
 Proof sketch: By [N4950 S11.7.4], a class marked `final` "shall not appear as a base class." If the
 Compiler sees a call `obj.f()` where `obj` has static type `FinalClass` and `FinalClass` is marked
-`final`Then the dynamic type of `obj` is necessarily `FinalClass` (no derived class can exist).
+`final`. Then the dynamic type of `obj` is necessarily `FinalClass` (no derived class can exist).
 Therefore, the virtual dispatch resolves statically to `FinalClass::f`And the compiler can emit a
 Direct call.
 
@@ -565,7 +573,7 @@ void inner_friend(Outer::Inner& i) {
 ## 2.11 Access Control and `constexpr`/`consteval` Functions
 
 Access control is fully enforced in `constexpr` and `consteval` contexts. A `constexpr` function
-Cannot access private members of an unrelated class, even at compile time.
+cannot access private members of an unrelated class, even at compile time.
 
 ```cpp
 class Vault {
@@ -616,7 +624,7 @@ int main() {
 ## 2.13 Access Specifiers and `inline` Functions
 
 An `inline` friend function defined inside a class body is subject to the same access rules as any
-Other friend: it can access all members of the granting class. The `inline` specifier affects
+other friend: it can access all members of the granting class. The `inline` specifier affects
 Linkage (multiple definitions are allowed across translation units) but has no effect on access.
 
 ## Intuition
@@ -626,7 +634,7 @@ Access control is the lock system on a class's doors. Public is the lobby anyone
 ## Common Pitfalls
 
 - **Assuming friendship is transitive or inherited.** If `A` declares `B` as a friend, and `C`
-  inherits from `B``C` does **not** have access to `A`'s private members. Each class controls its
+  inherits from `B`, `C` does **not** have access to `A`'s private members. Each class controls its
   own friendship independently.
 - **Using `protected` data members.** While syntactically legal, `protected` data members break
   encapsulation because any derived class can modify them directly without the base class's
@@ -653,7 +661,7 @@ Access control is the lock system on a class's doors. Public is the lobby anyone
 ## 2.14 Access Control and In-Class Member Functions
 
 Access control applies uniformly to all member functions, including those defined inside the class
-Body. A member function defined inside the class body is implicitly `inline`But this does not Affect
+Body. A member function defined inside the class body is implicitly `inline`. But this does not Affect
 its access to private members of the same class:
 
 ```cpp
@@ -713,8 +721,8 @@ int main() {
 ## 2.16 Access Control and Lambda Captures
 
 A lambda defined inside a member function can capture `this` (or `*this`) and access private members
-Through the captured pointer. This is because the lambda's call operator is conceptually a member of
-The enclosing scope, and access checking uses the enclosing context:
+through the captured pointer. This is because the lambda's call operator is conceptually a member of
+the enclosing scope, and access checking uses the enclosing context:
 
 ```cpp
 #include <iostream>
@@ -785,7 +793,7 @@ public:
 
 This rule, specified in [N4950 S14.3.1.2], exists to prevent a derived class from accessing
 Protected members of sibling instances. If `Base& b` happened to refer to a `Derived2` object that
-Also inherits from `Base`Allowing access to `b.value_` would violate encapsulation.
+also inherits from `Base`Allowing access to `b.value_` would violate encapsulation.
 
 ## See Also
 
@@ -821,9 +829,6 @@ including key principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Worked Examples
 

@@ -17,16 +17,6 @@ description: 'Runs directly on hardware. Examples: VMware ESXi, Xen, Hyper-V. Co
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[8_Virtualization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## See Also
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
@@ -60,7 +50,7 @@ OSes.
 **Challenges:**
 
 - **Instruction emulation:** Sensitive instructions must be trapped and emulated. On x86, `IN`
-  `OUT``HLT``CLI``STI`And `MOV` to/from control registers are sensitive.
+  `OUT`, `HLT`, `CLI`, `STI` and `MOV` to/from control registers are sensitive.
 - **Memory virtualization:** The VMM maintains **shadow page tables** mapping guest virtual to host
   physical addresses. Hardware support: Extended Page Tables (EPT, Intel) and Nested Page Tables
   (NPT, AMD).
@@ -82,6 +72,8 @@ directly.
 - **Namespaces:** Isolate process trees, network, file systems, IPC, UTS (hostname).
 - **cgroups:** Limit resource usage (CPU, memory, I/O).
 
+<div class="table-wrap">
+
 | Property    | VMs                    | Containers            |
 | ----------- | ---------------------- | --------------------- |
 | Kernel      | Separate per VM        | Shared with host      |
@@ -90,10 +82,14 @@ directly.
 | Isolation   | Hardware-level         | Process-level         |
 | Performance | Near-native (with EPT) | Near-native (minimal) |
 
+</div>
+
 **Docker** uses OverlayFS for layered images. **Kubernetes** orchestrates containers across
 clusters.
 
 ### 8.5 Key Relationships
+
+<div class="table-wrap">
 
 | Technology   | Abstraction level | Isolation strength | Overhead | Use case                |
 | ------------ | ----------------- | ------------------ | -------- | ----------------------- |
@@ -101,6 +97,8 @@ clusters.
 | Type 2 hyper | OS                | Moderate           | Higher   | Development/testing     |
 | Containers   | OS kernel         | Weak (process)     | Minimal  | Microservices, CI/CD   |
 | Unikernels   | Application       | Very strong        | Very low | Specialised appliances  |
+
+</div>
 
 ### 8.6 Common Pitfalls
 
@@ -157,23 +155,3 @@ adds 256 MB application + negligible OS overhead ($\sim 5$ MB per container), to
 $512 + 20 \times 261 \approx 5.73$ GB RAM. Containers use 63% less RAM in this scenario, enabling
 higher density on the same hardware. However, if instances run untrusted workloads, VMs provide
 stronger isolation. $\blacksquare$
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

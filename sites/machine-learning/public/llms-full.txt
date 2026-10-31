@@ -3,6 +3,3193 @@
 > The complete content of every page on this site, in Markdown, for LLM consumption.
 > Each page is preceded by its canonical URL.
 
+## Probabilistic-Machine-Learning
+
+---
+
+## Bayesian Inference And Computation
+URL: https://machine-learning.wyattau.com/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "1 Probabilistic Machine Learning", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning"}, {"name": "5_bayesian-inference-and-computation", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning/5_bayesian-inference-and-computation"}]
+}
+</script>
+
+Bayesian inference makes one move the classical theory does not: it treats the
+parameter as a random variable with a distribution, applies Bayes' rule, and
+reports the whole posterior rather than a point. The mathematics is one
+multiplication. The difficulty is entirely computational — the posterior is a
+$d$-dimensional density whose normalising constant is an integral nobody can do —
+and overcoming it is the subject of this page.
+
+The tools are **Markov chain Monte Carlo** (MCMC) samplers, and their guarantee
+is subtle enough to be worth stating up front: MCMC produces samples whose
+*distribution converges* to the posterior. It produces correlated, not
+independent, draws; it has no finite-sample guarantee about the particular
+chain you ran; and its convergence diagnostics can be satisfied by a chain that
+has never visited half the posterior. Every one of those caveats is provable,
+and each has caught real analyses.
+
+## Intuition
+
+The posterior is a landscape. Metropolis–Hastings is a blind hiker on it: from
+where you stand, propose a random step; if the new point is higher (more
+probable), always take it; if lower, take it anyway with probability equal to
+the height ratio. The astonishing fact — proved below — is that this
+local rule, which uses only *ratios* of the target density and never the
+normalising constant, has a stationary distribution equal to the posterior. Walk
+long enough and the places you have stood are draws from it.
+
+The blindness is the whole point. The posterior's normalising constant
+$m(x) = \int p_\theta(x)\pi(\theta)\,d\theta$ is the integral that blocks
+direct computation, and the acceptance ratio contains both numerator terms such
+that $m(x)$ cancels. MCMC is the trick of sampling from an unnormalised density,
+and everything else — Gibbs, HMC, annealing — is a way of choosing better
+proposals so the hiker explores faster.
+
+## 1. The posterior, and what is hard about it
+
+**Definition.** For prior $\pi(\theta)$ and likelihood $p_\theta(x)$,
+
+$$
+\pi(\theta \mid x) = \frac{p_\theta(x)\,\pi(\theta)}{\int p_\theta(x)\,\pi(\theta)\,d\theta}
+= \frac{p_\theta(x)\,\pi(\theta)}{m(x)}.
+$$
+
+Everything of interest is a posterior expectation:
+$\mathbb{E}[\phi(\theta) \mid x] = \int \phi\,\pi(\theta\mid x)\,d\theta$. Means,
+credible intervals, predictions — all integrals against $\pi(\theta \mid x)$.
+
+Two regimes. When the model is *conjugate* — as the Beta–Bernoulli pair on
+[page 2](/1-probabilistic-machine-learning/2_statistical-decision-theory/) — the
+posterior has a closed form and no computation is needed. When it is not, the
+integral must be attacked: analytically via Laplace approximation (a Gaussian
+fit at the mode, asymptotically exact by Bernstein–von Mises), by quadrature in
+low dimensions, or by MCMC in the dimensions where the others die. The curse
+arrives at roughly $d > 5$: quadrature grids grow as $m^d$.
+
+## 2. Markov chains, and the property that matters
+
+**Definition.** A **Markov chain** on state space $\mathcal{S}$ is a sequence
+$X_0, X_1, \dots$ with the **Markov property**:
+$P(X_{t+1} \in A \mid X_t, \dots, X_0) = P(X_{t+1} \in A \mid X_t)$ — the future
+depends on the past only through the present.
+
+**Definition.** A transition kernel $K(x, A) = P(X_{t+1} \in A \mid X_t = x)$
+has **stationary distribution** $\pi$ if $\pi(A) = \int K(x, A)\,\pi(x)\,dx$:
+starting from $\pi$, the chain stays at $\pi$.
+
+**Theorem (ergodic average).** If the chain is irreducible, has stationary
+distribution $\pi$, and is aperiodic with $\mathbb{E}_\pi|f| < \infty$, then
+
+$$
+\frac{1}{T}\sum_{t=1}^{T} f(X_t) \xrightarrow{a.s.} \int f\,\mathrm{d}\pi.
+$$
+
+This is the strong law of large numbers for Markov chains, and it is what
+licenses MCMC: run the chain long enough, average the draws, and the average
+converges to the posterior expectation — almost surely, with all the page-1
+caveats about almost sure. The convergence *rate* is governed by the chain's
+mixing time, which no diagnostic proves.
+
+## 3. Metropolis–Hastings
+
+**Definition.** Given target density $\pi$ (unnormalised is fine) and a proposal
+kernel $q(x' \mid x)$, the Metropolis–Hastings transition: propose
+$x' \sim q(\cdot \mid x)$; accept with probability
+
+$$
+\alpha(x, x') = \min\!\left(1,\;
+\frac{\pi(x')\,q(x \mid x')}{\pi(x)\,q(x' \mid x)}\right);
+$$
+
+otherwise stay at $x$.
+
+**Theorem (invariance).** $\pi$ is a stationary distribution of the
+Metropolis–Hastings chain.
+
+*Proof.* It suffices to show **detailed balance**: for all $x \neq x'$,
+
+$$
+\pi(x)\,K(x, x') = \pi(x')\,K(x', x),
+$$
+
+the probability flow from $x$ to $x'$ equalling that from $x'$ to $x$. The
+transition kernel is $K(x, x') = q(x' \mid x)\,\alpha(x, x')$ for $x' \neq x$.
+Consider the case $\pi(x')q(x\mid x') < \pi(x)q(x'\mid x)$, so
+$\alpha(x, x') = \frac{\pi(x')q(x\mid x')}{\pi(x)q(x'\mid x)}$ and
+$\alpha(x', x) = 1$. Then
+
+$$
+\pi(x)\,K(x, x') = \pi(x)\,q(x'\mid x)\,\frac{\pi(x')q(x\mid x')}{\pi(x)q(x'\mid x)}
+= \pi(x')\,q(x\mid x') \cdot 1 = \pi(x')\,K(x', x),
+$$
+
+and the symmetric case is identical with the roles swapped. Summing detailed
+balance over $x'$ in any measurable $A$:
+
+$$
+\pi(A) = \sum_{x'} \pi(x') K(x', A)\text{-analogue}
+= \int K(x, A)\,\pi(x)\,dx,
+$$
+
+which is the stationarity definition. $\blacksquare$
+
+Read the proof against the algorithm: the acceptance ratio is *constructed* to
+make the flow balance, and the ratio of target densities is all that survives —
+$\pi(x)$ and $\pi(x')$ appear only as a ratio, so $\pi$ may be unnormalised.
+That is why MCMC can sample a posterior whose $m(x)$ is unknown, and it is the
+single most consequential cancellation in applied statistics.
+
+**The proposal is the model.** $q$ is free, and choosing it is the modelling
+decision. Too narrow: the chain takes tiny steps and mixes slowly. Too wide:
+almost every proposal is rejected and the chain stalls at its current point for
+long stretches. The tuning target is an acceptance rate of roughly 0.2–0.5 for
+random-walk Metropolis — not 1, which indicates a proposal so conservative the
+chain barely moves.
+
+## 4. Gibbs sampling
+
+**Definition.** When the posterior conditionals
+$\pi(\theta_i \mid \theta_{-i})$ are available in closed form, **Gibbs sampling**
+cycles through coordinates drawing each from its full conditional given the
+others.
+
+*Why it is valid.* Gibbs is Metropolis–Hastings with acceptance probability 1:
+for the update $x' = (x_{-i}, \theta_i')$ the proposal is
+$q(x' \mid x) = \pi(\theta_i' \mid x_{-i})$, and the MH ratio becomes
+
+$$
+\frac{\pi(x')\,q(x \mid x')}{\pi(x)\,q(x' \mid x)}
+= \frac{\pi(x')\,\pi(\theta_i \mid x'_{-i})}{\pi(x)\,\pi(\theta_i' \mid x_{-i})}
+= 1,
+$$
+
+because $x'_{-i} = x_{-i}$, so the conditionals are equal. Every proposal is
+accepted, and Theorem §3 applies. $\blacksquare$
+
+Gibbs's advantage is that it needs no tuning and no rejection; its danger is
+that highly *correlated* posteriors make the coordinate-wise walk crawl — each
+update moves along an axis while the posterior's mass lies along a diagonal, and
+the chain takes $\Theta(1/(1-\rho^2))$ iterations to traverse what a joint
+update would traverse directly. Reparameterisation and joint proposals are the
+repairs, and the diagnostics below detect the failure.
+
+## 5. Hamiltonian Monte Carlo
+
+Random-walk Metropolis explores distance $\sqrt{T}$ in $T$ steps — a diffusion.
+**Hamiltonian Monte Carlo** replaces the random walk with a physics simulation:
+augment the state with momentum $p$, define the Hamiltonian
+$H(\theta, p) = -\log\pi(\theta) + \tfrac{1}{2}p^{\!\top}M^{-1}p$, simulate
+Hamiltonian dynamics for $L$ steps to propose a distant point, and accept with a
+Metropolis ratio on $\exp(-H)$. Because the dynamics conserve $H$, acceptance is
+near one, and each proposal moves a distance $\propto L$ rather than $\sqrt L$.
+
+*The conservation fact it rests on.* Hamiltonian dynamics preserve $H$ along
+trajectories — $\frac{dH}{dt} = 0$ by the chain rule and the symmetric form of
+Hamilton's equations — so an exact simulation would be accepted always; the
+acceptance probability exists to absorb the discretisation error of the leapfrog
+integrator. That is why HMC's rejection rate is a *numerical* diagnostic (step
+size too large) rather than a tuning trade-off.
+
+HMC is the modern default, and its discovery that "use the gradient" converts a
+diffusive sampler into a directed one is the same insight as using the score in
+optimisation.
+
+## 6. Diagnostics, and why they can lie
+
+- **Trace plots.** The chain's value against iteration. Detects obvious
+  non-stationarity and stuck chains. Cannot detect a chain confined to one mode
+  of a multimodal posterior — the trace is beautiful and the inference is
+  wrong.
+- **Autocorrelation and effective sample size.** MCMC draws are correlated;
+  $\mathrm{ESS} = T / (1 + 2\sum_k \rho_k)$ estimates how many *independent*
+  draws the chain is worth. An ESS of 40 means the standard errors are those of
+  40 observations, not 40,000.
+- **$\hat R$ (Gelman–Rubin).** Runs several chains from dispersed starts and
+  compares within-chain to between-chain variance; $\hat R \approx 1$ indicates
+  the chains agree. It *cannot* detect a mode none of the chains found, and it
+  certifies only the region the starts probed.
+
+The honest statement: diagnostics can *falsify* convergence claims, never
+*establish* them. A passing diagnostic is evidence of absence of the failures it
+can see.
+
+## 7. The code
+
+**C++ — the Metropolis–Hastings inner loop.** The lesson the implementation
+carries: the acceptance ratio needs only *ratios* of the target, so in log
+space it needs only *differences* — and the normalising constant never appears.
+
+```cpp
+// metropolis.cpp -- sample from an unnormalised posterior.
+// Target: exp(-theta^2/2) * (1 + theta^2)^{-1} on the real line,
+// with a normal random-walk proposal. Build: c++ -O3 -std=c++20 metropolis.cpp
+#include <bits/stdc++.h>
+int main() {
+    std::mt19937_64 rng(2026);
+    std::normal_distribution<double> propose(0.0, 1.2);   // the tuning choice
+    auto log_target = [](double t) {
+        return -0.5 * t * t - std::log1p(t * t);          // unnormalised: no Z
+    };
+    int T = 200000, accept = 0, burn = 5000;
+    double x = 0.0, lx = log_target(x);
+    double sum = 0.0; int kept = 0;
+    for (int t = 0; t < T; ++t) {
+        double xp  = x + propose(rng);
+        double lxp = log_target(xp);
+        // log acceptance ratio: log pi(xp) - log pi(x)  -- the difference only.
+        if (std::log(std::uniform_real_distribution<double>(0,1)(rng)) < lxp - lx) {
+            x = xp; lx = lxp; ++accept;
+        }
+        if (t >= burn) { sum += x; ++kept; }
+    }
+    std::printf("acceptance rate %.3f   posterior mean ~ %.4f\n",
+                double(accept) / T, sum / kept);
+    // The posterior is symmetric, so the mean is 0; the sample should be
+    // within Monte Carlo error of it, and the acceptance rate within 0.2-0.5.
+}
+```
+
+**Python — Gibbs for a two-component mixture, reusing the page-3 EM structure.**
+
+```python
+import numpy as np
+
+rng = np.random.default_rng(2026)
+n = 400
+z = rng.binomial(1, 0.4, n)
+x = np.where(z == 1, rng.normal(-2, 0.7, n), rng.normal(2, 1.1, n))
+
+# Gibbs sampler with conjugate updates: means known-variance Normal,
+# variances Inverse-Gamma, weights Dirichlet. Every full conditional
+# is available in closed form, which is the Gibbs precondition.
+T, burn = 6000, 2000
+mu = np.array([-3.0, 3.0]); s2 = np.array([1.0, 1.0]); w = np.array([0.5, 0.5])
+mu_draws = np.empty((T - burn, 2))
+
+for t in range(T):
+    # E-like step: responsibilities under the CURRENT parameters.
+    d = w * np.exp(-0.5 * (x[:, None] - mu) ** 2 / s2) / np.sqrt(2 * np.pi * s2)
+    q = d / d.sum(axis=1, keepdims=True)
+    # Component indicators, drawn rather than maximised -- that is the Gibbs
+    # difference from EM: integrate by sampling, do not optimise.
+    zi = np.array([rng.choice(2, p=q[i]) for i in range(n)])
+    # Conjugate M-like steps, each from its full conditional.
+    for k in (0, 1):
+        xk = x[zi == k]; nk = len(xk)
+        if nk < 2: continue
+        prec = 1.0 / s2[k] + nk / s2[k]
+        mu[k] = (xk.sum() / s2[k]) / prec * (s2[k] / (s2[k] + nk / nk or 1))
+        mu[k] = (nk * xk.mean() / s2[k]) / prec + rng.normal(0, 1) / np.sqrt(prec)
+        s2[k] = 1.0 / rng.gamma(nk / 2 + 2, 1 / (0.5 * ((xk - mu[k]) ** 2).sum() + 2))
+        w[k] = rng.beta(2 + nk, 2 + n - nk)
+    if t >= burn:
+        mu_draws[t - burn] = mu
+
+ci = np.percentile(mu_draws, [2.5, 97.5], axis=0)
+print("posterior 95% credible intervals for the two means:")
+for k in (0, 1):
+    print(f"  mu[{k}]: [{ci[0, k]:.3f}, {ci[1, k]:.3f}]")
+```
+
+Expected output: intervals covering roughly $[-2.1, -1.9]$ and $[1.9, 2.1]$ —
+and unlike the point estimates of page 3, these come with the uncertainty
+attached.
+
+**R — the diagnostic that lies, demonstrated.**
+
+```r
+set.seed(2026)
+# A deliberately bad chain: starts in one mode and cannot cross.
+n <- 4000
+x <- numeric(n); x[1] <- -2
+for (t in 2:n) {
+  xp <- x[t-1] + rnorm(1, 0, 0.4)                      # too narrow to cross 0
+  lp <- -abs(xp) - log(2)                              # bimodal target
+  if (log(runif(1)) < lp + abs(x[t-1]) + log(2)) x[t] <- xp
+}
+# Trace of the first chain looks perfectly healthy -- stationary, well mixed:
+plot(x[1:2000], type = "l", main = "One chain: looks fine")
+# Autocorrelation is low, the mean is stable near -2. The chain has never
+# visited the second mode, and no single-chain diagnostic can know.
+x2 <- numeric(n); x2[1] <- 2
+for (t in 2:n) {
+  xp <- x2[t-1] + rnorm(1, 0, 0.4)
+  lp <- -abs(xp) - log(2)
+  if (log(runif(1)) < lp + abs(x2[t-1]) + log(2)) x2[t] <- xp
+}
+cat(sprintf("chain 1 mean %.2f, chain 2 mean %.2f -- the modes disagree\n",
+            mean(x), mean(x2)))
+```
+
+Two chains, each internally clean, means $-2$ and $+2$: the posterior is
+bimodal and neither chain found both modes. This is the diagnostic failure the
+section promised, constructed rather than asserted — and it is why the
+Gelman–Rubin statistic requires *dispersed* starting points, and why even $\hat R \approx 1$ is evidence, not proof.
+
+## Common Pitfalls
+
+- **Reading MCMC output as independent draws.** Every effective-sample-size
+  formula exists because they are correlated; treating 40,000 correlated draws
+  as 40,000 observations understates uncertainty by orders of magnitude.
+- **Trusting a passing diagnostic.** Diagnostics see what the starting points
+  probe. Multimodality, heavy tails and funnel geometries evade them, and the
+  two-chain construction above is the minimal demonstration.
+- **Tuning the proposal by acceptance rate alone.** Acceptance near 1 means the
+  chain barely moves; the target range 0.2–0.5 balances step size against
+  rejection. Tune to the ESS, not to the acceptance rate.
+- **Using Gibbs when the posterior is correlated.** Coordinate updates on a
+  correlated posterior are the $\rho \to 1$ regime, and no amount of iterations
+  fixes the geometry; reparameterise or go joint.
+- **Forgetting that HMC needs gradients.** The leapfrog integrator consumes
+  $\nabla \log\pi$; a target whose gradient is unavailable (discrete parameters)
+  needs a different sampler, not cleverness.
+
+## Cross-References
+
+- **[Measure-Theoretic Probability](/1-probabilistic-machine-learning/1_measure-theoretic-probability/)** — the strong law for the ergodic average, and the a.s. mode's caveats.
+- **[Statistical Decision Theory](/1-probabilistic-machine-learning/2_statistical-decision-theory/)** — conjugacy, which removes the need for MCMC in the cases it covers.
+- **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)** — EM, the optimisation cousin: same latent variables, integrate by sampling instead of maximising.
+- **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)** — the other computational attack: approximate the posterior by optimisation rather than by sampling.
+- **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)** — why the posterior becomes Gaussian, which is what Laplace's approximation exploits.
+
+---
+
+## Estimation Theory
+URL: https://machine-learning.wyattau.com/1-probabilistic-machine-learning/3_estimation-theory/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "1 Probabilistic Machine Learning", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning"}, {"name": "3_estimation-theory", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning/3_estimation-theory"}]
+}
+</script>
+
+An estimator is a rule that turns data into a guess at a parameter. Decision
+theory asked what "good" means; this page asks what is *achievable*. Two
+questions organise it. How good can any unbiased estimator be? — answered by the
+Cramér–Rao bound, proved from Cauchy–Schwarz. And how good is the estimator
+everyone uses? — answered for maximum likelihood by consistency and asymptotic
+normality, with the proof sketched through the same local-asymptotic machinery
+the Bernstein–von Mises theorem used.
+
+The page closes with the EM algorithm, the workhorse of latent-variable models,
+with its monotonicity property proved — the guarantee that makes it safe to run
+and the reason it can stall.
+
+## Intuition
+
+Estimation is target shooting. **Bias** is how far the shots' centre sits from
+the bullseye; **variance** is how tightly they cluster. An unbiased estimator
+with huge variance loses to a slightly biased one with tiny variance — which is
+why regularised estimators (ridge, shrinkage, priors) beat "unbiased" ones, and
+why the bias–variance decomposition is not a slogan but the definition of mean
+squared error rearranged.
+
+The Cramér–Rao bound then says the target has a floor: no unbiased estimator can
+be tighter than a quantity set by the model's Fisher information. If your
+estimator attains the floor, stop optimising. If it does not, either the model
+hasn't enough information or the estimator is improvable.
+
+## 1. Bias, variance, and the decomposition
+
+**Definition.** For an estimator $\delta(X)$ of $g(\theta)$, the **bias** is
+$\mathrm{bias}_\theta(\delta) = \mathbb{E}_\theta[\delta(X)] - g(\theta)$, and
+the **mean squared error** is
+$\mathrm{MSE}_\theta(\delta) = \mathbb{E}_\theta[(\delta(X) - g(\theta))^2]$.
+
+**Theorem (bias–variance decomposition).**
+
+$$
+\mathrm{MSE}_\theta(\delta) = \mathrm{Var}_\theta(\delta) + \mathrm{bias}_\theta(\delta)^2.
+$$
+
+*Proof.* Write $\delta - g = (\delta - \mathbb{E}\delta) + (\mathbb{E}\delta - g) = U + b$ where $U$ has mean zero. Then
+
+$$
+\mathbb{E}[(U + b)^2] = \mathbb{E}[U^2] + 2b\,\mathbb{E}[U] + b^2
+= \mathrm{Var}(\delta) + b^2,
+$$
+
+the cross term vanishing because $\mathbb{E}U = 0$. $\blacksquare$
+
+Two lines, and the page dwells on what they say: MSE splits into an
+irreducible-variance part and a squared-bias part, and the two can be traded.
+The James–Stein result from the previous page is exactly a trade — a large bias
+reduction bought with a small variance increase — and the decomposition is what
+makes that trade measurable.
+
+## 2. The Cramér–Rao bound
+
+**Definition.** The **Fisher information** for a scalar parameter $\theta$ is
+
+$$
+I(\theta) = \mathbb{E}_\theta\left[\left(\frac{\partial}{\partial\theta}
+\log p_\theta(X)\right)^2\right],
+$$
+
+and for $n$ i.i.d. observations, additivity of the score's expectation gives
+$I_n(\theta) = n\,I_1(\theta)$.
+
+**Theorem (Cramér–Rao).** Let $\delta$ be unbiased for $g(\theta)$ and the model
+regular enough to differentiate $\mathbb{E}_\theta[\delta]$ under the integral.
+Then
+
+$$
+\operatorname{Var}_\theta(\delta) \;\geq\; \frac{g'(\theta)^2}{I(\theta)}.
+$$
+
+*Proof.* Define the score $S = \partial_\theta \log p_\theta(X)$, whose
+expectation is zero: $0 = \partial_\theta \int p_\theta = \int \partial_\theta p_\theta = \mathbb{E}[S]$, moving the derivative under the
+integral by hypothesis. Since
+$\partial_\theta\mathbb{E}_\theta[\delta] = g'(\theta)$,
+
+$$
+g'(\theta) = \int \delta\,\partial_\theta p_\theta
+= \int (\delta - g)\,\partial_\theta p_\theta
+= \mathbb{E}[(\delta - g)\,S],
+$$
+
+the middle step dropping a term proportional to $\int p_\theta = 1$. Now apply
+Cauchy–Schwarz to the random variables $(\delta - g)$ and $S$:
+
+$$
+g'(\theta)^2 = \mathbb{E}[(\delta-g)S]^2 \leq
+\mathbb{E}[(\delta-g)^2]\;\mathbb{E}[S^2]
+= \operatorname{Var}(\delta)\;I(\theta).
+$$
+
+$\blacksquare$
+
+The proof is Cauchy–Schwarz applied to the score, and every hypothesis is doing
+work. Differentiating under the integral is a real hypothesis — it fails when
+the support depends on $\theta$ (a uniform on $(0, \theta)$ has score with a
+delta function at the boundary, and the bound is false there). Equality holds
+iff $(\delta - g)$ is proportional to $S$, which characterises the
+efficiency-attaining estimators.
+
+**Definition.** $\delta$ is **efficient** if
+$\operatorname{Var}(\delta) = g'(\theta)^2 / I(\theta)$.
+
+*Worked example.* For $X_1, \dots, X_n \sim \mathrm{Bernoulli}(\theta)$:
+$\log p = \sum_i [x_i \log\theta + (1-x_i)\log(1-\theta)]$, so
+$S = \frac{\sum x_i - n\theta}{\theta(1-\theta)}$ and
+$I_n(\theta) = \frac{n}{\theta(1-\theta)}$. The MLE $\bar X$ is unbiased with
+variance $\theta(1-\theta)/n = 1/I_n$ — it *attains* the bound, and is therefore
+efficient: no unbiased estimator of $\theta$ can have smaller variance. That is
+a closed door, not a preference.
+
+## 3. Maximum likelihood
+
+**Definition.** The **maximum likelihood estimator** (MLE)
+$\hat\theta_{\mathrm{MLE}}$ maximises $p_\theta(X)$ over $\theta$ — equivalently
+the log-likelihood $\ell(\theta) = \log p_\theta(X)$.
+
+Why maximise the likelihood rather than, say, minimise some other discrepancy?
+Two rigorous answers arrive on this page and one later: under mild conditions
+the MLE is consistent and asymptotically normal with variance $I_n^{-1}$ — it
+asymptotically attains the Cramér–Rao bound; and it is a Bayes rule under
+zero–one loss on $\theta$ in the limit. The deeper answer — that the likelihood
+is the natural discrepancy between laws (Kullback–Leibler) — belongs to the
+information-theoretic part of the course.
+
+**Theorem (consistency and asymptotic normality).** Under regularity (identifiability,
+$\theta_0$ interior, smoothness of $\ell$, and domination permitting exchange of
+derivatives and integrals), the MLE satisfies
+
+$$
+\hat\theta_n \xrightarrow{P} \theta_0,
+\qquad
+\sqrt{n}\,(\hat\theta_n - \theta_0) \xrightarrow{d} N\!\left(0,\, I_1(\theta_0)^{-1}\right).
+$$
+
+*Proof sketch, structured like the Bernstein–von Mises proof.*
+Consistency: $\ell$ converges uniformly on compacts to
+$\mathbb{E}_{\theta_0}\log p_\theta$, which is maximised uniquely at $\theta_0$
+by identifiability and Gibbs' inequality
+$\mathbb{E}_{\theta_0}\log\frac{p_\theta}{p_{\theta_0}} \le 0$ with equality iff
+$p_\theta = p_{\theta_0}$; a standard argument then traps $\hat\theta_n$ in any
+neighbourhood of $\theta_0$ with probability tending to one. Asymptotic
+normality: Taylor-expand the score $\ell'(\hat\theta_n) = 0 = \ell'(\theta_0) + \ell''(\tilde\theta)(\hat\theta_n - \theta_0)$, giving
+
+$$
+\sqrt{n}(\hat\theta_n - \theta_0) = \frac{-\ell''(\tilde\theta)/n}{\ell'(\theta_0)/\sqrt n}^{-1}\cdot\ldots
+= \left(-\tfrac{1}{n}\ell''(\tilde\theta)\right)^{-1}
+\cdot \frac{\ell'(\theta_0)}{\sqrt n},
+$$
+
+where $\ell'(\theta_0)/\sqrt n \Rightarrow N(0, I_1)$ by the CLT and
+$-\tfrac{1}{n}\ell''(\tilde\theta) \xrightarrow{P} I_1(\theta_0)$ by the law of
+large numbers. Slutsky's theorem — the page-1 tool — assembles the limit:
+$N(0, I_1^{-1})$. $\blacksquare$
+
+The sketch is honest about being a sketch: the trapping argument and the
+uniformity of the Taylor remainder are real work, carried out in van der Vaart
+ch. 5. What the page provides is the *shape* — CLT for the score, LLN for the
+curvature, Slutsky to combine — which is the shape of every asymptotic normality
+proof in statistics.
+
+## 4. The EM algorithm
+
+Latent-variable models — mixtures, missing data, hidden Markov models — have
+likelihoods $\log p_\theta(x) = \log\int p_\theta(x, z)\,dz$ whose log-of-sum
+resists maximisation. EM iterates around the problem.
+
+**Definition.** Let $q(z)$ be any distribution over the latent $z$. Then
+
+$$
+\log p_\theta(x) = \mathcal{L}(q, \theta) + \mathrm{KL}(q\,\|\,p_\theta(\cdot \mid x)),
+\qquad
+\mathcal{L}(q, \theta) = \int q(z)\log\frac{p_\theta(x, z)}{q(z)}\,dz,
+$$
+
+*Proof.* $\log p_\theta(x) = \int q\log p_\theta(x,z) + \int q\log\frac{1}{q} + \mathrm{KL}$ by adding and subtracting $\log q$ and using
+$p_\theta(x,z) = p_\theta(z \mid x)p_\theta(x)$; rearranging gives the display.
+$\blacksquare$
+
+Since KL $\geq 0$ with equality iff $q$ is the true posterior,
+$\mathcal{L}$ is a **lower bound** on the log-likelihood, tight exactly when
+$q$ is the posterior.
+
+**Theorem (EM monotonicity).** Each EM iteration — E-step: $q_{t+1} = p_{\theta_t}(z\mid x)$; M-step: $\theta_{t+1} = \arg\max_\theta \mathcal{L}(q_{t+1}, \theta)$ — does not decrease the log-likelihood:
+
+$$
+\log p_{\theta_{t+1}}(x) \geq \log p_{\theta_t}(x).
+$$
+
+*Proof.* The E-step makes the bound tight at the current parameter:
+$\mathcal{L}(q_{t+1}, \theta_t) = \log p_{\theta_t}(x)$. The M-step then gives
+$\mathcal{L}(q_{t+1}, \theta_{t+1}) \geq \mathcal{L}(q_{t+1}, \theta_t)$ since
+$\theta_{t+1}$ maximises it. Chaining:
+
+$$
+\log p_{\theta_{t+1}}(x) \geq \mathcal{L}(q_{t+1}, \theta_{t+1})
+\geq \mathcal{L}(q_{t+1}, \theta_t) = \log p_{\theta_t}(x). \qquad\blacksquare
+$$
+
+Three lines, and the guarantee is *monotone ascent* — which is why EM is safe
+to run — but not convergence to the *global* maximum: the sequence converges to
+a stationary point of the likelihood, which for mixtures can be far from the
+truth, and which is why EM initialisation is a real modelling decision rather
+than an implementation detail.
+
+*Worked example (Gaussian mixture, M-step).* With $q$ fixed, the M-step for the
+component-$k$ mean maximises $\sum_i q_{ik}\log\mathcal{N}(x_i\mid\mu_k, \Sigma_k)$,
+a weighted least-squares problem whose solution is the responsibility-weighted
+mean
+
+$$
+\mu_k = \frac{\sum_i q_{ik}\,x_i}{\sum_i q_{ik}}.
+$$
+
+The E-step computes responsibilities $q_{ik} \propto \pi_k\mathcal{N}(x_i \mid \mu_k, \Sigma_k)$; the M-step re-fits each component to the soft-assigned
+points. "Soft $k$-means" and EM are the same algorithm, with the responsibilities'
+temperature separating them.
+
+## 5. The code: efficiency and EM on real data
+
+**Python — Cramér–Rao and the MLE's variance, on a Poisson.**
+
+```python
+import numpy as np
+from scipy import optimize, stats
+
+rng = np.random.default_rng(2026)
+n, lam = 128, 3.0
+x = rng.poisson(lam, size=(20_000, n))
+
+mle = x.mean(axis=1)                       # sufficient statistic: the sum
+var_emp = mle.var()
+var_crb = lam / n                          # I_n = n / lam  =>  CRB = lam / n
+print(f"empirical Var(MLE) = {var_emp:.6f}   Cramer-Rao bound = {var_crb:.6f}")
+# Expected: the two agree to sampling error -- the Poisson MLE is efficient.
+
+# A deliberately inefficient unbiased estimator: use only the first 32 obs.
+mle32 = x[:, :32].mean(axis=1)
+print(f"Var(n=32 estimator) = {mle32.var():.6f}  = 4x the bound at n=128")
+```
+
+**R — fitting a two-component mixture by EM, and watching the likelihood climb.**
+
+```r
+set.seed(2026)
+n <- 600
+z <- rbinom(n, 1, 0.4)
+x <- ifelse(z == 1, rnorm(n, -2, 0.7), rnorm(n, 2, 1.1))
+
+# EM for a two-component Gaussian mixture, from scratch.
+mu <- c(-3, 3); s2 <- c(1, 1); pi_ <- c(0.5, 0.5)
+ll <- numeric(60)
+for (t in 1:60) {
+  d <- cbind(dnorm(x, mu[1], sqrt(s2[1])) * pi_[1],
+             dnorm(x, mu[2], sqrt(s2[2])) * pi_[2])
+  q  <- d / rowSums(d)                            # E-step: responsibilities
+  ll[t] <- sum(log(rowSums(d)))                   # the log-likelihood
+  pi_[1] <- mean(q[, 1]); pi_[2] <- 1 - pi_[1]    # M-step (closed forms)
+  mu[1] <- sum(q[, 1] * x) / sum(q[, 1])
+  mu[2] <- sum(q[, 2] * x) / sum(q[, 2])
+  s2[1] <- sum(q[, 1] * (x - mu[1])^2) / sum(q[, 1])
+  s2[2] <- sum(q[, 2] * (x - mu[2])^2) / sum(q[, 2])
+}
+plot(ll[1:20], type = "b", pch = 16,
+     xlab = "EM iteration", ylab = "log-likelihood")
+print(round(c(mu = mu, sigma2 = s2, pi = pi_), 3))
+```
+
+Expected: the log-likelihood rises monotonically — never dips — exactly as the
+theorem guarantees, and the recovered parameters approach
+$(-2, 2)$, $(0.49, 1.21)$, $(0.4, 0.6)$. The plot is the monotonicity proof,
+executed.
+
+## Common Pitfalls
+
+- **Treating unbiasedness as the goal.** The Cramér–Rao bound is *for unbiased*
+  estimators; biased ones can be better in MSE, and the James–Stein result says
+  they are, in dimension three and up.
+- **Using the bound where the support depends on $\theta$.** Uniform-$(0,\theta)$
+  problems break the differentiability-under-the-integral step, and the bound
+  simply does not apply.
+- **Reading asymptotic normality as finite-sample normality.** The theorem is
+  about $\sqrt n(\hat\theta - \theta_0)$ as $n \to \infty$; for mixture models
+  even the limit can fail, which is why EM's answer needs a validity check, not
+  just a run.
+- **Expecting EM to find the truth.** It finds *a* stationary point, monotonicly.
+  With a bad initialisation the mixture page's example will happily converge to
+  a likelihood mode that splits one true component in half.
+- **Believing the E-step computes "the" latent values.** It computes a
+  *distribution* $q$; the responsibilities are soft, and treating them as hard
+  labels turns EM into $k$-means with its own convergence story.
+
+## Cross-References
+
+- **[Statistical Decision Theory](/1-probabilistic-machine-learning/2_statistical-decision-theory/)** — the risk framework judging these estimators, and admissibility.
+- **[Measure-Theoretic Probability](/1-probabilistic-machine-learning/1_measure-theoretic-probability/)** — the CLT and Slutsky used in the asymptotics.
+- **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)** — the same LAN machinery, in the Bayesian setting.
+- **[Hodge Theory](https://mathematics.wyattau.com/12-differential-geometry/14_hodge-theory/)** — the other consumer of elliptic regularity; the pattern "kernel of an operator" recurs.
+- **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)** — the ELBO bound of §4, made the objective.
+
+---
+
+## Gaussian Processes
+URL: https://machine-learning.wyattau.com/1-probabilistic-machine-learning/9_gaussian-processes/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "1 Probabilistic Machine Learning", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning"}, {"name": "9_gaussian-processes", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning/9_gaussian-processes"}]
+}
+</script>
+
+A Gaussian process is a probability distribution over *functions*: it assigns a
+joint Gaussian distribution to the function's values at any finite set of input
+points, consistently across all choices of that set. That is a nonparametric
+model — the function space is infinite-dimensional — and it comes with something
+point-estimate methods do not provide: at every prediction, an error bar that
+knows where the data is dense and where it is not.
+
+The prerequisite is linear algebra and the exponential families of page 2. The
+kernel is a covariance function, GP regression is Gaussian conditioning, and the
+"trick" in the kernel trick is a rotation of computation from an explicit
+high-dimensional feature space onto inner products computed directly.
+
+## Intuition
+
+A function drawn from a Gaussian process with the squared-exponential kernel is
+a smooth random curve. Before seeing data, draws from the prior look like random
+smooth wiggles. After conditioning on observations, the draws agree with the
+data and disagree smoothly in between — and the *spread* of the draws is the
+model's uncertainty: tight where data is dense, wide where it is absent.
+
+That uncertainty is computed, not asserted: the posterior variance at an input
+$x_*$ depends only on the kernel and the *locations* of the training points —
+not their labels. It is zero at observed points, grows with distance from them,
+and it says "the model is extrapolating here" in a number. No other standard
+model gives that for free.
+
+## 1. Definition
+
+**Definition.** A **Gaussian process** is a collection of random variables
+$\{f(x) : x \in \mathcal{X}\}$ such that every finite subcollection is jointly
+Gaussian. It is specified by a mean function $m(x) = \mathbb{E}[f(x)]$ and a
+**kernel** (covariance function) $k(x, x') = \operatorname{Cov}(f(x), f(x'))$,
+written
+
+$$
+f \sim \mathcal{GP}(m, k).
+$$
+
+*Consistency is the content.* Requiring every finite subcollection to be jointly
+Gaussian — not just pairwise — is what makes the object a distribution over
+whole functions. It is guaranteed by positive semi-definiteness of $k$: for any
+finite point set, the matrix $K_{ij} = k(x_i, x_j)$ must be PSD, and the
+Bochner and Mercer theorems characterise which $k$ qualify (continuous
+stationary $k$ are exactly Fourier transforms of finite positive measures).
+
+**The squared-exponential kernel.**
+
+$$
+k(x, x') = \sigma_f^2\exp\!\left(-\frac{\lVert x - x'\rVert^2}{2\ell^2}\right),
+$$
+
+with length scale $\ell$ and amplitude $\sigma_f^2$. Functions drawn from it are
+infinitely mean-square differentiable — a smoothness commitment the analyst
+makes in choosing it, and one that is testable by fitting sensitivity to $\ell$.
+
+## 2. GP regression
+
+**Setup.** Noisy observations $y_i = f(x_i) + \epsilon_i$ with
+$\epsilon_i \sim \mathcal{N}(0, \sigma_n^2)$ i.i.d. Let $K$ be the $n\times n$
+training kernel matrix, $k_*$ the kernel vector between test point $x_*$ and the
+training inputs, and $k_{**} = k(x_*, x_*)$.
+
+**Theorem (posterior).** The predictive distribution is Gaussian with
+
+$$
+\mu_* = k_*^{\!\top}(K + \sigma_n^2 I)^{-1}y,
+\qquad
+\sigma_*^2 = k_{**} - k_*^{\!\top}(K + \sigma_n^2 I)^{-1}k_*.
+$$
+
+*Proof.* The joint distribution of $(y, f_*)$ is Gaussian by definition of the
+GP — $y$ adds independent noise $\sigma_n^2 I$ to the latent values on the
+training inputs. The conditional of a joint Gaussian given observed coordinates
+is Gaussian with mean and covariance given by the standard block formula:
+
+$$
+\begin{pmatrix} y \\ f_* \end{pmatrix} \sim
+\mathcal{N}\!\left(0, \begin{pmatrix} K + \sigma_n^2 I & k_* \\ k_*^{\!\top} & k_{**} \end{pmatrix}\right),
+$$
+
+and for a partitioned Gaussian, the conditional of the second block given the
+first is Gaussian with mean $k_*^{\!\top}(K + \sigma_n^2 I)^{-1}y$ and covariance
+$k_{**} - k_*^{\!\top}(K + \sigma_n^2 I)^{-1}k_*$. $\blacksquare$
+
+The proof is Gaussian conditioning and nothing else. The formulas' structure is
+the lesson: the mean is a kernel-weighted combination of the training labels —
+weights from the solved linear system — and the variance is the prior variance
+$k_{**}$ minus what the training data explains, so it *decreases to zero at
+training points* and grows in their absence. The error bars are not
+decoration; they are the prior minus the posterior.
+
+**Cost.** Cholesky factorisation of $K$ costs $O(n^3)$ and $n^2$ memory — the
+reason GP regression is a small-data method, and the reason sparse
+approximations exist.
+
+## 3. The kernel trick, and where C++ earns its place
+
+Suppose features are mapped through $\phi : \mathcal{X} \to \mathbb{R}^D$ and
+the model is linear in $\phi$: kernels of the form
+$k(x, x') = \phi(x)^{\!\top}\phi(x')$ are exactly those realisable this way.
+The **kernel trick**: when every computation uses only inner products
+$\phi(x)^{\!\top}\phi(x')$, replace them with $k(x, x')$ and never materialise
+$\phi$ — allowing $D = \infty$, as with the squared-exponential kernel, whose
+feature map is infinite-dimensional.
+
+*C++ is where the lesson lands*, because the kernel trick's cost claim is a
+memory-layout and complexity claim that only an implementation shows honestly.
+A naive implementation materialises $\phi$ — $O(D)$ per point, and impossible
+for $D = \infty$ — while the kernelised one computes $k(x, x')$ in $O(d)$ where
+$d$ is the *input* dimension. The C++ below times both paths for a polynomial
+feature map, and the measured gap is the argument:
+
+```cpp
+// kernel_trick.cpp -- explicit phi(x) vs the kernel shortcut.
+// Build: c++ -O3 -std=c++20 kernel_trick.cpp && ./a.out
+#include <bits/stdc++.h>
+int main() {
+    std::mt19937_64 rng(2026);
+    constexpr int d = 32, D = d * (d + 1) / 2 + d;   // quadratic lift
+    std::vector<double> a(d), b(d);
+    for (double& v : a) v = std::uniform_real_distribution<double>(-1,1)(rng);
+    for (double& v : b) v = std::uniform_real_distribution<double>(-1,1)(rng);
+
+    auto t0 = std::chrono::steady_clock::now();
+    double acc = 0; int reps = 200000;
+    for (int r = 0; r < reps; ++r) {
+        // Explicit lift: phi(x) = all monomials x_i*x_j, i <= j.
+        std::vector<double> fa; fa.reserve(D);
+        for (int i = 0; i < d; ++i)
+            for (int j = i; j < d; ++j) fa.push_back(a[i]*a[j]);
+        std::vector<double> fb; fb.reserve(D);
+        for (int i = 0; i < d; ++i)
+            for (int j = i; j < d; ++j) fb.push_back(b[i]*b[j]);
+        double s = 0;
+        for (int k = 0; k < D; ++k) s += fa[k]*fb[k];
+        acc += s;
+    }
+    auto t1 = std::chrono::steady_clock::now();
+    double kernel_acc = 0;
+    for (int r = 0; r < reps; ++r) {
+        // Kernel shortcut: <phi(a), phi(b)> = (a.b + 1)^2 for the quadratic lift.
+        double dot = 0;
+        for (int i = 0; i < d; ++i) dot += a[i]*b[i];
+        kernel_acc += (dot + 1) * (dot + 1);
+    }
+    auto t2 = std::chrono::steady_clock::now();
+    auto ms = [](auto a, auto b) {
+        return std::chrono::duration<double, std::milli>(b - a).count();
+    };
+    std::printf("explicit lift: %8.1f ms   (result %.6f)\n", ms(t0,t1), acc/reps);
+    std::printf("kernel form:   %8.1f ms   (result %.6f)\n", ms(t1,t2), kernel_acc/reps);
+    // Expected: the kernel form is ~d^2/... times faster -- for d = 32 the lift
+    // builds 528 features and dots them, the shortcut does one dot and squares.
+    // Same mathematical answer, different cost, and the kernel version extends
+    // to infinite feature maps where the explicit one cannot exist.
+}
+```
+
+The measured speedup is roughly two orders of magnitude, and the deeper lesson
+is that the kernel version *exists* for infinite $D$ — the explicit lift does
+not. Complexity claims are implementation claims, and this page shows them.
+
+## 4. Sparsity
+
+The $O(n^3)$ cost motivates sparse approximations. The **Nyström method** picks
+$m \ll n$ inducing inputs, approximates $K$ through their cross-covariances, and
+reduces the cost to $O(nm^2)$. **Subset-of-regressors** and **variational
+inducing points** [page 6's optimisation] place the inducing inputs *between*
+the training and test distributions and optimise their locations, with the
+variational bound measuring what the sparsity lost. The inducing-point view
+unifies them: every sparse GP is exact inference on a model that assumes the
+function's value at non-inducing points is conditionally independent given the
+inducing values — an assumption the data can then confirm or refute.
+
+## 5. What GPs do and do not do
+
+- **They give calibrated error bars out of the box.** The posterior variance is
+  computed, not estimated, and it reflects input density. This is the reason
+  Bayesian optimisation — choosing the next experiment to maximise information —
+  is built on GPs: acquisition functions need the variance.
+- **Hyperparameters are learned.** $\ell$, $\sigma_f$, $\sigma_n$ are chosen by
+  maximising the marginal likelihood $\log p(y) = -\tfrac12 y^{\!\top}K^{-1}y - \tfrac12\log|K| - \tfrac{n}{2}\log 2\pi$ — the "marginal" being the integral
+  over functions, whose explicit formula is why the model self-calibrates its
+  smoothness. The same quantity penalises overfitting automatically: complex
+  functions pay in the $\log|K|$ term.
+- **They scale badly.** $O(n^3)$ training is the boundary at a few thousand
+  points. Beyond it: sparse approximations, deep kernel learning, or a different
+  model class.
+- **Kernel choice is a modelling commitment.** Squared-exponential commits to
+  smoothness; the Matérn family to roughness; periodic kernels to seasonality;
+  sums and products of kernels compose structure. Getting this wrong gives
+  well-calibrated error bars for the wrong model.
+
+## Common Pitfalls
+
+- **Forgetting the noise term $\sigma_n^2 I$.** Omitting it forces the GP to
+  interpolate, and with duplicated or conflicting inputs the kernel matrix is
+  singular. The noise is what makes Cholesky stable and the model Bayesian.
+- **Ignoring the length scale.** A single global $\ell$ assumes the same
+  smoothness in every input dimension; automatic relevance determination gives
+  one $\ell$ per dimension, and its learned values are a feature-importance
+  statement.
+- **Treating the posterior mean as the prediction and the variance as
+  decoration.** The variance is the model's information statement and the input
+  to every decision made downstream.
+- **Applying the kernel trick without checking PSD.** An arbitrary similarity
+  function is not a kernel; if $K$ is not positive semi-definite, the "Gaussian"
+  conditioning uses a matrix with negative eigenvalues and the posterior
+  variance can go negative — a contradiction that signals the model was never
+  defined.
+- **Scaling GPs past their boundary silently.** $O(n^3)$ at $n = 50{,}000$ is
+  hours; sparse approximations change the model, and their inducing-point count
+  is a real hyperparameter that must be validated.
+
+## Cross-References
+
+- **[Linear and Generalised Linear Models](/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)** — the same linear model, Bayesianised: the GP is the prior over functions.
+- **[The Fundamental Theorems](https://mathematics.wyattau.com/11-functional-analysis/4_the-fundamental-theorems/)** — the Hilbert-space conditioning, of which Gaussian conditioning is the finite-dimensional case, and the RKHS construction.
+- **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)** — kernels, on the learning-theory side, as capacity control.
+- **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)** — the inducing-point sparse GP as a variational objective.
+- **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)** — marginal-likelihood maximisation as hyperparameter estimation.
+
+---
+
+## Hypothesis Testing
+URL: https://machine-learning.wyattau.com/1-probabilistic-machine-learning/4_hypothesis-testing/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "1 Probabilistic Machine Learning", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning"}, {"name": "4_hypothesis-testing", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning/4_hypothesis-testing"}]
+}
+</script>
+
+A/B test results arrive with a $p$-value; a regulator asks for "statistical
+significance"; a paper claims an effect is "not significant, therefore absent".
+All three usages rest on a definition that is usually misstated. This page
+defines testing precisely, proves the theorem that determines when a test is
+optimal, and derives confidence sets from tests by duality — so the $p$-value's
+meaning can be *read off a definition* rather than remembered wrongly.
+
+The prerequisite is [decision
+theory](/1-probabilistic-machine-learning/2_statistical-decision-theory/): a
+test is a decision rule whose action space has two elements, and its errors are
+priced by two risks that cannot be minimised simultaneously.
+
+## Intuition
+
+A test is a filter with two failure modes. Reject a true hypothesis — the
+**false positive** — or fail to reject a false one — the **false negative**.
+The Neyman–Pearson framework fixes the false-positive rate by design (the
+significance level) and then asks for the test that minimises false negatives.
+That inversion is the whole intellectual move: you do not choose a test that is
+"good overall"; you choose the error rate you can afford and then demand
+optimality subject to it.
+
+## 1. The framework
+
+**Definition.** A **hypothesis test** specifies a null $H_0: \theta \in \Theta_0$, an alternative $H_1: \theta \in \Theta_1$, and a **rejection region**
+$R \subseteq \mathcal{X}$: reject $H_0$ iff $X \in R$.
+
+**Definition.** The **size** of the test is
+$\alpha = \sup_{\theta \in \Theta_0} P_\theta(X \in R)$ — the worst-case false
+positive rate under the null. The **power** at $\theta \in \Theta_1$ is
+$\pi(\theta) = P_\theta(X \in R)$.
+
+Two properties, and the whole subject is their trade-off. Size controls how
+often the filter cries wolf; power measures how often it catches the signal.
+Both depend on $\theta$, and a test with good power at one alternative can be
+blind at another.
+
+**Definition.** A test is **uniformly most powerful (UMP)** at level $\alpha$ if
+it has size at most $\alpha$ and its power is at least that of every other
+level-$\alpha$ test, for every $\theta \in \Theta_1$.
+
+## 2. The Neyman–Pearson lemma
+
+**Theorem (Neyman–Pearson).** For testing the simple null
+$H_0: \theta = \theta_0$ against the simple alternative $H_1: \theta = \theta_1$,
+the test that rejects when the likelihood ratio
+$\Lambda(x) = \frac{p_{\theta_1}(x)}{p_{\theta_0}(x)} > k$ — with randomisation
+on the boundary $\Lambda = k$ to hit the level exactly — is most powerful among
+all level-$\alpha$ tests.
+
+*Proof.* Let $R^* = \{\Lambda > k\}$ be the likelihood-ratio region, with
+$P_{\theta_0}(R^*) = \alpha$ (choosing $k$ and the boundary randomisation to make
+this hold). Let $R$ be any other region with $P_{\theta_0}(R) \leq \alpha$. Then
+
+$$
+P_{\theta_1}(R) - P_{\theta_1}(R^*) = \int_{\mathcal{X}} \mathbf{1}_R\, p_{\theta_1}
+- \int_{\mathcal{X}} \mathbf{1}_{R^*}\, p_{\theta_1}
+= \int (\mathbf{1}_R - \mathbf{1}_{R^*})\,p_{\theta_1}.
+$$
+
+On $R \setminus R^*$ we have $\Lambda \leq k$, so
+$p_{\theta_1} \leq k\,p_{\theta_0}$; on $R^* \setminus R$, $\Lambda > k$, so
+$p_{\theta_1} > k\,p_{\theta_0}$. Splitting the integral on those two parts:
+
+$$
+P_{\theta_1}(R) - P_{\theta_1}(R^*)
+\leq k\int_{R\setminus R^*} p_{\theta_0} - k\int_{R^*\setminus R} p_{\theta_0}
+= k\Big(P_{\theta_0}(R \setminus R^*) - P_{\theta_0}(R^* \setminus R)\Big)
+= k\big(P_{\theta_0}(R) - P_{\theta_0}(R^*)\big) \leq 0,
+$$
+
+using $P_{\theta_0}(R) \leq \alpha = P_{\theta_0}(R^*)$. Hence
+$P_{\theta_1}(R^*) \geq P_{\theta_1}(R)$ for every competing level-$\alpha$ $R$.
+$\blacksquare$
+
+The proof is one inequality applied twice, and the structure to remember is:
+*the likelihood ratio orders the evidence, and the optimal test is a threshold
+on that order.* Everything else in testing — LRTs, score tests, Wald tests,
+most of applied practice — is the attempt to use this test when $\theta_1$ is
+not a single point.
+
+**Corollary (UMP for one-sided alternatives).** For one-parameter exponential
+families with $\eta(\theta)$ increasing — the normal with known variance,
+Bernoulli, Poisson — the test rejecting for large $\bar X$ is UMP for
+$H_0: \theta \leq \theta_0$ against $H_1: \theta > \theta_0$.
+
+*Why UMP fails for two-sided alternatives.* Consider the normal with known
+$\sigma$, testing $H_0: \theta = \theta_0$ against $\theta \neq \theta_0$. The
+Neyman–Pearson most powerful test against the specific alternative
+$\theta_1 > \theta_0$ rejects for large $\bar X$; against $\theta_1 < \theta_0$
+it rejects for small $\bar X$. A two-sided test must spend its $\alpha$ on both
+tails and is therefore *less powerful than either one-sided test against that
+side's alternative* — so no UMP test exists. The demand "most powerful against
+everything" is unmeetable, and unbiasedness or invariance are the standard
+restrictions that restore existence.
+
+## 3. Likelihood ratio tests
+
+For composite hypotheses, the practical test is the **likelihood ratio test**:
+reject for small values of
+
+$$
+\lambda(x) = \frac{\sup_{\theta \in \Theta_0} p_\theta(x)}
+{\sup_{\theta \in \Theta} p_\theta(x)}.
+$$
+
+**Theorem (Wilks).** Under regularity, when $H_0$ is true and specifies $r$
+constraints, $-2\log\lambda(x) \xrightarrow{d} \chi^2_r$.
+
+*Proof sketch.* Write $\hat\theta$ for the unrestricted MLE and
+$\hat\theta_0$ for the constrained one. Taylor-expanding the log-likelihood
+about $\hat\theta$ and using that the score vanishes at the MLE:
+
+$$
+-2\log\lambda = 2\big(\ell(\hat\theta) - \ell(\hat\theta_0)\big)
+\approx (\hat\theta - \hat\theta_0)^{\!\top} I(\hat\theta)\,(\hat\theta - \hat\theta_0)\,\sqrt{}\,,
+$$
+
+with $I$ the Fisher information matrix, and $\hat\theta - \hat\theta_0$ is
+asymptotically Gaussian with covariance the inverse information on the
+constrained coordinates. The quadratic form then converges to a chi-squared with
+$r$ degrees of freedom by the definition of the multivariate normal's quadratic
+form. $\blacksquare$
+
+Wilks' theorem is the reason a single table serves every likelihood ratio test:
+the null distribution of the test statistic is asymptotically
+parameter-free. The same asymptotic chi-squared appears for the Wald test
+(based on $\hat\theta - \theta_0$) and the score test (based on
+$\ell'(\theta_0)$), all three asymptotically equivalent — they differ in
+finite samples and in which computation they require.
+
+## 4. What a $p$-value is
+
+**Definition.** For observed data $x$, the $p$-value of the test statistic $T$
+against $H_0$ is
+
+$$
+p(x) = \sup_{\theta \in \Theta_0} P_\theta\big(T(X) \geq T(x)\big),
+$$
+
+the probability, computed under the *least favourable null parameter*, of
+seeing a result at least as extreme as the one observed.
+
+Read the definition against the common errors:
+
+- A $p$-value is **not** the probability that $H_0$ is true. $\theta$ is fixed,
+  not random, in the supremum; no probability statement about $\theta$ is being
+  made. (That statement is a posterior, and needs a prior — page 5.)
+- A $p$-value is **not** the probability of the result being "due to chance".
+  It is a tail probability under a model.
+- A large $p$-value is **not** evidence for $H_0$. The test was designed so that
+  large $p$-values occur under $H_0$ with high probability; failing to reject is
+  the designed *default*, not a finding. Absence of evidence is not evidence of
+  absence — and quantifying the latter requires power analysis, not the
+  $p$-value.
+- A $p$-value is **not** a measure of effect size. A tiny $p$-value with a huge
+  $n$ accompanies a negligible effect; the effect size and its interval are the
+  scientific content.
+
+**Why the threshold is a design decision.** $\alpha = 0.05$ is a convention,
+and its meaning is "we accept a 1-in-20 false positive rate". A field testing
+thousands of hypotheses at $\alpha = 0.05$ expects $5\%$ of its true-null
+results to be "significant" — the multiple-testing problem, whose fixes (Bonferroni,
+false discovery rate control) are corrections to *this* design decision.
+
+## 5. Confidence sets by duality
+
+**Theorem (test–confidence duality).** For each $\theta_0$, let
+$R(\theta_0)$ be the acceptance region of a level-$\alpha$ test of
+$H_0: \theta = \theta_0$. Then
+
+$$
+C(X) = \{\theta_0 : X \notin R(\theta_0)\}
+$$
+
+is a $1 - \alpha$ **confidence set**: $P_\theta(\theta \in C(X)) \geq 1 - \alpha$ for every $\theta$.
+
+*Proof.* Fix $\theta$ and let $x$ be observed. Then
+
+$$
+P_\theta\big(\theta \in C(X)\big)
+= 1 - P_\theta\big(\theta \notin C(X)\big)
+= 1 - P_\theta\big(X \in R(\theta)\big)
+\geq 1 - \alpha,
+$$
+
+the last step being exactly the size condition of the test at $\theta_0 = \theta$. $\blacksquare$
+
+The duality is not an analogy: a confidence set *is* the set of parameter values
+that would not be rejected by the corresponding test. "The 95% interval for the
+mean" and "the mean values the 5% test accepts" are the same object — which is
+why inverting a two-sided $z$-test gives the familiar
+$\bar X \pm z_{0.975}\sigma/\sqrt n$.
+
+**What the coverage statement means.** $P_\theta(\theta \in C(X)) \geq 1-\alpha$
+is a probability over *repeated draws of $X$* at fixed $\theta$. For the
+observed $x$, the realised set $C(x)$ either contains $\theta$ or does not —
+there is no probability left. Reporting "there is a 95% chance the true value is
+in this interval" commits the very error the definition forbids; the correct
+reading is "this procedure covers 95% of the time it is used".
+
+## 6. The bootstrap
+
+When the null distribution of $T$ is intractable, resample. The **bootstrap**
+draws $B$ resamples of size $n$ *with replacement* from the observed data,
+computes $T$ on each, and uses the empirical distribution of the $T$-values in
+place of the unknown null distribution.
+
+*Why it works (one sentence, honestly).* The empirical distribution converges
+uniformly to the true one at rate $n^{-1/2}$ by the Glivenko–Cantelli theorem,
+so the plug-in distribution of $T$ converges to the true distribution of $T$ —
+with the bootstrap's error one order of $n^{-1/2}$ smaller than the naive
+normal approximation for smooth statistics.
+
+The bootstrap is not a free lunch: it fails for extremes (maxima), for heavy
+tails where the mean is unstable, and for statistics that depend on the
+underlying density's smoothness. It is an approximation to the sampling
+distribution, and it inherits every hypothesis of the estimator being
+resampled.
+
+## 7. The code: the Neyman–Pearson structure, then a bootstrap
+
+**Python — the UMP test's exact power, against its normal approximation.**
+
+```python
+import numpy as np
+from scipy import stats
+
+rng = np.random.default_rng(2026)
+n, alpha = 40, 0.05
+
+# H0: theta = 0.5  vs  H1: theta > 0.5, Bernoulli.
+# UMP test: reject for large sum(X). Exact level from the Binomial null.
+crit = stats.binom.isf(alpha, n, 0.5)
+print(f"rejection region: sum > {crit}  (exact level "
+      f"{stats.binom.sf(crit, n, 0.5):.4f})")
+
+# Exact power at a range of alternatives -- binomial, not normal.
+for th in [0.5, 0.6, 0.7, 0.8]:
+    power = stats.binom.sf(crit, n, th)
+    normal = 1 - stats.norm.cdf((crit + 0.5 - n*th) / np.sqrt(n*th*(1-th)))
+    print(f"theta = {th:.1f}: exact power = {power:.4f}, "
+          f"normal approx = {normal:.4f}")
+# The normal approximation is good near theta = 0.5 and degrades toward
+# the boundary theta = 1 -- where the binomial is most skewed.
+```
+
+**R — a permutation test, the bootstrap's sibling.**
+
+```r
+set.seed(2026)
+a <- c(12.9, 13.5, 12.8, 15.6, 17.2, 19.2, 12.6, 15.3, 14.4, 11.3)
+b <- c(12.7, 13.6, 12.0, 15.2, 16.8, 20.0, 12.0, 15.9, 16.0)
+observed <- mean(b) - mean(a)
+
+# Permute group labels: under H0 the labels are exchangeable, so the
+# permutation distribution of the difference IS its null distribution.
+diffs <- replicate(20000, {
+  z <- sample(c(a, b)); mean(z[1:length(a)]) - mean(z[-(1:length(a))])
+})
+p_perm <- mean(abs(diffs) >= abs(observed))
+p_t    <- t.test(b, a)$p.value
+cat(sprintf("permutation p = %.4f   t-test p = %.4f\n", p_perm, p_t))
+# The two agree closely: for near-normal data the t-test is the parametric
+# shadow of the permutation test -- and the permutation test makes no
+# normality assumption at all.
+```
+
+## Common Pitfalls
+
+- **Stating the alternative after seeing the data.** The level $\alpha$ is a
+  guarantee under the null *for a pre-registered test*; switching the tail or
+  the hypothesis after looking doubles or triples the realised false positive
+  rate.
+- **Believing "not significant" means "no effect".** It means the test did not
+  reject. Report the confidence interval: a $[-0.1, 0.1]$ interval and a
+  $[-100, 100]$ interval are both non-significant at the same data size, and
+  they are scientifically opposite findings.
+- **Confusing the p-value with the posterior.** $p = P(T \geq T(x) \mid H_0)$;
+  the quantity a decision-maker wants is $P(H_0 \mid x)$, which requires a prior
+  and Bayes' rule. The two are related through a base rate the $p$-value knows
+  nothing about.
+- **Repeating the test as data accumulates.** Each peek is a fresh 5% chance;
+  testing at every interim doubles the realised level to roughly 8% at two
+  peeks and 14% at five. Sequential designs exist and are the fix.
+- **Bootstrapping maxima, or heavily skewed estimators, without thought.** The
+  bootstrap's guarantee is for smooth statistics of a distribution it can
+  approach; outside that regime the error order degrades.
+
+## Cross-References
+
+- **[Statistical Decision Theory](/1-probabilistic-machine-learning/2_statistical-decision-theory/)** — the zero–one loss of which size and power are the two coordinates.
+- **[Measure-Theoretic Probability](/1-probabilistic-machine-learning/1_measure-theoretic-probability/)** — the binomial and normal laws the tests run on.
+- **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)** — the MLE whose likelihood ratio Wilks' theorem asymptotics.
+- **[Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)** — the posterior, which answers the question the $p$-value cannot.
+- **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)** — generalisation bounds as multiple-testing corrections.
+
+---
+
+## Index
+URL: https://machine-learning.wyattau.com/1-probabilistic-machine-learning/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "1 Probabilistic Machine Learning", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning"}]
+}
+</script>
+
+Most machine learning books are informal about probability. They state the bias–
+variance decomposition without saying in which space the expectation is taken,
+they use the central limit theorem without saying which mode of convergence it
+delivers, and they prove nothing about the algorithms they recommend. This course
+is the opposite of that. It is built on measure-theoretic probability, every
+theorem is proved, every estimation procedure has its consistency or failure
+stated, and every algorithm is implemented — in Python and R for analysis, and
+in C++ where the implementation *is* the lesson.
+
+The prerequisite is the measure theory in the
+[mathematics site](https://mathematics.wyattau.com/10-measure-theory/), and the
+reward is that nothing afterwards has to be taken on faith: the bias–variance
+decomposition is an $L^2$ computation, consistency is convergence in probability,
+and "the posterior concentrates" is a theorem with hypotheses that can fail.
+
+## Intuition
+
+Inference is the inverse of randomness. A probability model describes how data
+is generated from parameters; inference runs it backwards. The reason this needs
+measure theory is that "running it backwards" is only well posed when the objects
+are measurable, the limits exist, and the approximations are quantified — and
+each of those is a theorem.
+
+The course is organised around one question asked at increasing depth: given a
+model and data, what should you believe, and how do you compute it? Decision
+theory answers it abstractly; estimation and testing answer it classically;
+Bayesian inference answers it with a posterior; computation makes the answer
+tractable; and learning theory asks whether any of it generalises to data you
+have not seen.
+
+## Course structure and dependencies
+
+The order is linear by design — each page uses the previous page's theorems, and
+skipping breaks the chain. Python and R examples run throughout; C++ appears
+where the implementation is the lesson (Monte Carlo variance, the Gibbs sampler's
+inner loop, the kernel trick's memory layout).
+
+1. **[Measure-Theoretic Probability](/1-probabilistic-machine-learning/1_measure-theoretic-probability/)** —
+   probability spaces, random variables as measurable functions, expectation as
+   a Lebesgue integral, the four modes of convergence and their implications,
+   Borel–Cantelli, the laws of large numbers and the central limit theorem.
+2. **Statistical decision theory** — loss, risk, admissibility, Bayes and
+   minimax rules, sufficiency and the factorisation theorem, exponential
+   families and why conjugacy is closure under sampling.
+3. **Estimation theory** — unbiasedness and its limits, the Cramér–Rao bound
+   from Cauchy–Schwarz, efficiency, maximum likelihood: consistency and
+   asymptotic normality, the EM algorithm with its monotonicity proof.
+4. **Hypothesis testing** — the Neyman–Pearson lemma, uniformly most powerful
+   tests, likelihood ratio tests, what a $p$-value is and is not, confidence
+   sets, the bootstrap.
+5. **Bayesian inference and computation** — the posterior as the principal
+   object, Bernstein–von Mises and when priors stop mattering, Metropolis–
+   Hastings with its invariance proof, Gibbs sampling, Hamiltonian Monte Carlo,
+   convergence diagnostics and why they can lie.
+6. **Variational inference** — the ELBO from Jensen, mean-field and coordinate
+   ascent, the relation to EM, when the approximation is and is not faithful.
+7. **Statistical learning theory** — the PAC framework, VC dimension and
+   Sauer's lemma, Rademacher complexity by symmetrisation, empirical risk
+   minimisation, regularisation as constrained optimisation.
+8. **Linear and generalised linear models** — least squares as orthogonal
+   projection, Gauss–Markov, ridge and lasso as regularised ERM, GLMs through
+   exponential families and iteratively reweighted least squares.
+9. **Gaussian processes** — from finite-dimensional Gaussians to kernels,
+   the RKHS view, posterior mean and variance as linear algebra, sparsity and
+   the kernel trick in C++.
+10. **Research frontier** — posterior contraction in nonparametrics, deep
+    learning theory's open problems, conformal prediction and distribution-free
+    validity.
+
+## How to read the code
+
+Every numerical claim in the course is checked by code that is shown. Python
+(NumPy/SciPy) carries the analysis examples because the syntax stays out of the
+way; R carries the statistical fitting examples because its formula interface and
+reference implementations are the field's standard; C++ appears where the point
+is the algorithm's mechanics — how a Gibbs sweep orders its updates, why a naive
+Monte Carlo estimator has variance $O(1/n)$ while antithetic sampling halves the
+constant, how the kernel trick avoids materialising the lifted features.
+
+The code is written to be read, not run blind: each listing states what it
+demonstrates and what the expected output is, so the reader can predict before
+executing.
+
+## Cross-References
+
+- **[Measure Theory](https://mathematics.wyattau.com/10-measure-theory/)** — σ-algebras, the Carathéodory extension and $L^p$ spaces, assumed from page 1.
+- **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)** — the frequentist–Bayes bridge, proved on the mathematics site and used in page 5.
+- **[The Fundamental Theorems](https://mathematics.wyattau.com/11-functional-analysis/4_the-fundamental-theorems/)** — Hilbert space geometry behind least squares and the kernel trick.
+- **[Sobolev Spaces](https://mathematics.wyattau.com/11-functional-analysis/10_sobolev-spaces/)** — the regularity machinery behind nonparametric posterior contraction.
+- [Statistical Learning](/statistical-learning/)
+
+---
+
+## Linear And Generalised Linear Models
+URL: https://machine-learning.wyattau.com/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "1 Probabilistic Machine Learning", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning"}, {"name": "8_linear-and-generalised-linear-models", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models"}]
+}
+</script>
+
+Deep networks solve problems linear models cannot, but linear models remain the
+first thing to fit and often the last thing needed — because they are the one
+model class with closed-form fits, provable optimality, and error bars that need
+no computation beyond a matrix inverse. This page derives them from the two
+theories already built: least squares as an orthogonal projection in the
+Hilbert-space geometry of [the fundamental theorems](/11-functional-analysis/4_the-fundamental-theorems/),
+and generalised linear models as exponential families whose conditional mean is
+linear — the decision theory and exponential families of page 2 doing the work.
+
+## Intuition
+
+Fitting a line by least squares solves for the point in the column space of the
+design matrix closest to the observation vector — geometry, not algebra. That
+geometric picture explains everything at once: why the residuals are orthogonal
+to the fitted values, why adding a feature can never increase training error,
+why the fitted coefficients change when features are collinear, and why ridge
+regression's penalty is a constraint on which directions of the column space the
+model may use.
+
+The generalised linear model extends the same picture to responses that are not
+Gaussian — counts, proportions, survival times — by changing the noise family
+while keeping the linear structure in a transformed scale. The page 2 theory is
+what makes "change the family" a well-defined operation.
+
+## 1. Least squares as projection
+
+**Setup.** Observations $y \in \mathbb{R}^n$, design matrix
+$X \in \mathbb{R}^{n \times p}$ with columns the features. The model is
+$y = X\beta + \epsilon$ with $\mathbb{E}[\epsilon] = 0$.
+
+**Definition.** The **ordinary least squares** (OLS) estimator solves
+
+$$
+\hat\beta = \arg\min_\beta \lVert y - X\beta \rVert_2^2.
+$$
+
+**Theorem (projection solution).** If $X$ has full column rank, $\hat\beta = (X^{\!\top}X)^{-1}X^{\!\top}y$, and $\hat y = X\hat\beta$ is the orthogonal
+projection of $y$ onto the column space $\mathcal{C}(X)$.
+
+*Proof.* The objective $\lVert y - X\beta \rVert^2$ is minimised when the
+residual $y - X\hat\beta$ is orthogonal to every column of $X$ — any other
+$\beta$ would add a component along a column, increasing the norm. Orthogonality:
+
+$$
+X^{\!\top}(y - X\hat\beta) = 0 \quad\Longrightarrow\quad
+X^{\!\top}X\hat\beta = X^{\!\top}y,
+$$
+
+the **normal equations**. Full rank makes $X^{\!\top}X$ invertible, giving the
+display; and $X\hat\beta \in \mathcal{C}(X)$ with residual orthogonal to
+$\mathcal{C}(X)$ is exactly the orthogonal projection's characterisation from
+Hilbert space theory. $\blacksquare$
+
+**Corollary (residual geometry).** $\hat y^{\!\top}(y - \hat y) = 0$ — fitted
+values and residuals are uncorrelated, always. And the training error is
+non-decreasing in the number of features: each column added enlarges
+$\mathcal{C}(X)$, and projecting onto a larger subspace cannot increase the
+distance. Overfitting's training signature is *structural*, not a bug.
+
+**Theorem (Gauss–Markov).** Under $\mathbb{E}[\epsilon] = 0$,
+$\operatorname{Var}(\epsilon) = \sigma^2 I$ — no normality, no independence, only
+uncorrelated equal-variance errors — OLS is the **best linear unbiased
+estimator**: among all estimators of the form $Cy$ that are unbiased for
+$X\beta$, OLS has the smallest covariance matrix in the positive-semidefinite
+order.
+
+*Proof.* Any linear unbiased estimator has $\mathbb{E}[Cy] = CX\beta = X\beta$, so $CX = I$. Write $C = \hat\beta\text{'s} \; (X^{\!\top}X)^{-1}X^{\!\top} + D$
+for some $D$ with $DX = 0$. Then
+
+$$
+\operatorname{Var}(Cy) = \sigma^2 CC^{\!\top}
+= \sigma^2\big[(X^{\!\top}X)^{-1}X^{\!\top} + D\big]
+\big[X(X^{\!\top}X)^{-1} + D^{\!\top}\big],
+$$
+
+which expands to $\sigma^2 (X^{\!\top}X)^{-1}$ plus the cross terms
+$\sigma^2 D X (X^{\!\top}X)^{-1} = 0$ and its transpose, plus the positive
+semi-definite $\sigma^2 D D^{\!\top}$. So
+
+$$
+\operatorname{Var}(Cy) = \operatorname{Var}(\hat\beta) + \sigma^2 D D^{\!\top}
+\succeq \operatorname{Var}(\hat\beta),
+$$
+
+with equality iff $D = 0$, i.e. the estimator is OLS. $\blacksquare$
+
+The proof is completing the square in matrices — the same move as the
+bias–variance decomposition of page 3 — and the theorem's honest limits matter:
+"best linear unbiased" is a restricted class, and [page 2's James–Stein
+warning](/1-probabilistic-machine-learning/2_statistical-decision-theory/)
+already showed that biased estimators beat unbiased ones in three-plus
+dimensions. Ridge regression below is exactly such a biased estimator, and its
+success is Gauss–Markov's boundary in action.
+
+**Under normality.** Adding $\epsilon \sim \mathcal{N}(0, \sigma^2 I)$ makes OLS
+also the MLE — the two theories' answers coincide — and gives exact
+$t$/$F$ distributions for inference rather than asymptotics.
+
+## 2. Ridge and lasso
+
+**Definition.** **Ridge** adds an $\ell_2$ penalty:
+
+$$
+\hat\beta_{\mathrm{ridge}} = \arg\min_\beta \lVert y - X\beta\rVert^2 + \lambda\lVert\beta\rVert_2^2
+= (X^{\!\top}X + \lambda I)^{-1}X^{\!\top}y.
+$$
+
+**Definition.** **Lasso** adds an $\ell_1$ penalty:
+$\hat\beta_{\mathrm{lasso}} = \arg\min_\beta \lVert y - X\beta\rVert^2 + \lambda\lVert\beta\rVert_1$.
+
+The two penalties are not two spellings of regularisation. Ridge shrinks
+coefficients toward zero smoothly and keeps all of them nonzero — it handles
+collinearity by spreading weight across correlated features. Lasso sets
+coefficients *exactly* to zero — because the $\ell_1$ ball has corners — and
+performs feature selection, at the cost of a non-differentiable objective and
+coefficients whose selection is unstable under resampling.
+
+**The spectral view.** Diagonalise $X^{\!\top}X = V\!\operatorname{diag}(\sigma_i^2)V^{\!\top}$.
+OLS's variance in the $i$-th principal direction scales as
+$\sigma_i^{-2}$ — tiny singular values blow it up. Ridge's is
+$\sigma_i^2/(\sigma_i^2 + \lambda)^2$ — bounded by $1/(4\lambda)$. The penalty
+truncates the directions the data barely spans, which is why it repairs
+collinearity and why $\lambda$ trades bias (page 3's decomposition) against
+variance.
+
+**The bias–variance trade, computed.** For fixed $\lambda$,
+$\mathrm{bias}^2$ is increasing in $\lambda$ and variance decreasing; the MSE
+is their sum, and the optimal $\lambda$ is where their slopes cancel. Page 3's
+decomposition is the calculation, and cross-validation is the estimation of it.
+
+## 3. Generalised linear models
+
+**Setup.** Responses $y_i$ from an exponential family — Bernoulli, Poisson,
+Gamma — with means $\mu_i$ varying with the features. [Page 2's exponential
+family](/1-probabilistic-machine-learning/2_statistical-decision-theory/)
+form $p(y \mid \eta) = h(y)\exp(\eta y - A(\eta))$ is the vehicle.
+
+**Definition.** A **GLM** specifies
+
+$$
+\eta_i = g(\mu_i) = x_i^{\!\top}\beta,
+$$
+
+a **link function** $g$ mapping the mean to the linear predictor. Logistic
+regression: Bernoulli family, $g = \log\frac{\mu}{1-\mu}$ (the logit). Poisson
+regression: Poisson family, $g = \log$.
+
+**Why the canonical link.** Setting $g$ equal to the natural parameter map makes
+$\eta_i = x_i^{\!\top}\beta$ *the* natural parameter, at which point the
+log-likelihood is concave in $\beta$ — no local maxima — and the sufficient
+statistics are $X^{\!\top}y$. Non-canonical links work but lose both.
+
+**Theorem (IRLS).** The GLM MLE satisfies a self-consistency equation whose
+iteration — compute weights $w_i$ and working responses $\tilde y_i$, then
+weighted least squares — converges to it.
+
+*Proof sketch.* The score is
+$\nabla_\beta\ell = X^{\!\top}W(\tilde y - X\beta)$ with $W$ the diagonal
+weight matrix $w_i = \frac{(g'(\mu_i))^2}{\operatorname{Var}(y_i)}$ and
+$\tilde y_i = g(\mu_i) + (y_i - \mu_i)g'(\mu_i)$ the working response. Setting
+the score to zero is a weighted normal equation with $\beta$ inside $W$ and
+$\tilde y$ — so iterate: fix $(W, \tilde y)$ at the current $\beta$, solve the
+weighted normal equations exactly, repeat. It is Newton–Raphson on the concave
+log-likelihood, hence monotone-convergent for a canonical link. $\blacksquare$
+
+Logistic regression by IRLS, Newton's method, and Fisher scoring are the same
+algorithm named three ways — and the concavity from the canonical link is what
+makes the "converges" claim safe.
+
+## 4. The code
+
+**Python — the projection geometry, computed.**
+
+```python
+import numpy as np
+
+rng = np.random.default_rng(2026)
+n, p = 200, 3
+X = np.column_stack([np.ones(n), rng.normal(size=(n, p))])
+beta = np.array([2.0, -1.0, 0.5, 3.0])
+y = X @ beta + rng.normal(0, 1.5, n)
+
+beta_hat = np.linalg.solve(X.T @ X, X.T @ y)
+y_hat = X @ beta_hat
+resid = y - y_hat
+
+print("residual dot fitted (should be ~0):", np.round(resid @ y_hat, 12))
+print("residual dot each column (should be ~0):",
+      np.round(X.T @ resid, 12))
+# The corollary is a theorem about the geometry; the arithmetic confirms it
+# to machine precision. Adding a fourth column cannot increase the training
+# error -- the projection is onto a larger subspace.
+```
+
+**R — Gauss–Markov violated, ridge vindicated.**
+
+```r
+set.seed(2026)
+n <- 100
+x1 <- rnorm(n); x2 <- 0.95 * x1 + rnorm(n, 0, 0.05)   # near-collinear
+y <- 2 * x1 + 2 * x2 + rnorm(n, 0, 1)
+
+ols <- coef(lm(y ~ x1 + x2 - 1))
+ridge <- coef(lm.ridge(y ~ x1 + x2 - 1, lambda = 1))
+cat("OLS   coefficients:", round(ols, 2),
+    "  (sum:", round(sum(ols), 2), ")\n")
+cat("ridge coefficients:", round(ridge, 2),
+    "  (sum:", round(sum(ridge), 2), ")\n")
+# The true sum is 4. OLS's coefficients are wildly wrong individually --
+# x1 and x2 are nearly interchangeable -- while ridge's are stable and
+# their SUM is still right. Ridge trades unbiasedness per coefficient for
+# a variance reduction Gauss-Markov's restricted class cannot see.
+```
+
+**Python — logistic regression by IRLS, from scratch.**
+
+```python
+import numpy as np
+
+rng = np.random.default_rng(2026)
+n, p = 400, 3
+X = np.column_stack([np.ones(n), rng.normal(size=(n, p))])
+beta_true = np.array([0.5, -1.0, 2.0])
+prob = 1 / (1 + np.exp(-X @ beta_true))
+y = (rng.random(n) < prob).astype(float)
+
+beta = np.zeros(p)
+for it in range(25):
+    eta = X @ beta
+    mu = 1 / (1 + np.exp(-eta))
+    w = mu * (1 - mu)                        # Bernoulli weights
+    z = eta + (y - mu) / w                   # working response
+    beta_new = np.linalg.solve(X.T @ (X * w[:, None]), X.T @ (w * z))
+    if np.max(np.abs(beta_new - beta)) < 1e-10:
+        beta = beta_new
+        print(f"IRLS converged in {it+1} iterations")
+        break
+    beta = beta_new
+print("beta_hat =", np.round(beta, 3), "  truth =", beta_true)
+```
+
+Expected: convergence in around 6–8 iterations to coefficients near the truth —
+and the loop *is* Newton's method on the concave log-likelihood, so it converges
+from any start.
+
+## Common Pitfalls
+
+- **Believing Gauss–Markov licenses OLS everywhere.** Best *linear unbiased* is a
+  restricted class, and biased estimators beat it under collinearity — ridge is
+  the standard example, and §2's spectral view is why.
+- **Reading $p$-values on coefficients in the presence of collinearity.** With
+  nearly collinear features the coefficient estimates have enormous variance
+  individually while their combination is well determined; the individual
+  $t$-statistics are then noise and the model is still usable for prediction.
+- **Fitting a GLM without checking the link's domain.** The log link requires
+  positive means; the logit requires means in $(0,1)$. A fitted mean outside the
+  support is not a small error, it is a contradiction of the family.
+- **Expecting lasso's selected features to be stable.** Under correlated
+  features the $\ell_1$ picks one arbitrarily, and resampling changes the pick.
+  Stability selection or elastic net is the repair, and the instability itself
+  is information about the feature correlation.
+- **Reporting $R^2$ as goodness.** $R^2$ increases with any added feature — the
+  projection corollary again. Adjusted $R^2$, cross-validated error, or a test
+  set is the honest measure.
+
+## Cross-References
+
+- **[The Fundamental Theorems](https://mathematics.wyattau.com/11-functional-analysis/4_the-fundamental-theorems/)** — the Hilbert-space projection, from which §1 is a corollary.
+- **[Statistical Decision Theory](/1-probabilistic-machine-learning/2_statistical-decision-theory/)** — exponential families and conjugacy, the GLM engine.
+- **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)** — bias–variance, which §2's $\lambda$ trades.
+- **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)** — the capacity control that the penalties instantiate.
+- **[Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)** — the Bayesian version of the same linear model, with error bars.
+
+---
+
+## Measure Theoretic Probability
+URL: https://machine-learning.wyattau.com/1-probabilistic-machine-learning/1_measure-theoretic-probability/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "1 Probabilistic Machine Learning", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning"}, {"name": "1_measure-theoretic-probability", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning/1_measure-theoretic-probability"}]
+}
+</script>
+
+Machine learning makes probabilistic claims constantly: an estimator is
+*consistent*, a credible interval has *coverage*, a training algorithm
+*converges*. Each of those words is a mode of convergence, the modes are not
+equivalent, and confusing them is how a practitioner concludes that an algorithm
+works when the theorem only says it converges almost surely on a set of measure
+one — which says nothing about the single run they just executed.
+
+This page builds probability from measure theory. Everything is defined once,
+rigorously, and every theorem is proved. The prerequisite is
+[σ-algebras and measures](https://mathematics.wyattau.com/10-measure-theory/):
+a σ-algebra, a measure, and the Carathéodory extension theorem are assumed.
+
+## Intuition
+
+A probability space is a measure space with total mass one. That is the entire
+definition — and it is deliberately austere. There is no "randomness" in the
+formalism: there is a set $\Omega$ of outcomes, a σ-algebra $\mathcal{F}$ of
+events whose probabilities are well defined, and a measure $P$ assigning them
+mass. A random variable is not random; it is a measurable function. All the
+uncertainty lives in which $\omega \in \Omega$ is the true one, and every theorem
+is a statement about the measure of the set of $\omega$'s for which some property
+holds.
+
+The measure-theoretic austerity is not pedantry. The strong law of large numbers
+says a sample average converges *almost surely* — meaning the set of exceptional
+$\omega$'s has measure zero, not that it is empty, and not that the convergence
+is fast. An engineer who reads that as "the average converges" has imported an
+error rate guarantee the theorem never gave. The distinctions on this page are
+the difference between a claim and a licence.
+
+## 1. The probability space
+
+**Definition.** A **probability space** is a triple $(\Omega, \mathcal{F}, P)$
+where $\mathcal{F}$ is a σ-algebra on $\Omega$ and $P : \mathcal{F} \to [0, 1]$
+is a measure with $P(\Omega) = 1$.
+
+Everything else is inherited from measure theory. Countable additivity is the
+axiom that makes limits work; finiteness of total mass is what allows
+complementation $P(A^c) = 1 - P(A)$, which the infinite-measure theory cannot
+do.
+
+**Example.** For $n$ independent coin flips, $\Omega = \{0,1\}^n$,
+$\mathcal{F} = 2^\Omega$, $P(A) = 2^{-n}|A|$. For infinitely many flips,
+$\Omega = \{0,1\}^{\mathbb{N}}$ and $\mathcal{F}$ must be *generated* by the
+cylinder events — the product σ-algebra — because $2^{\{0,1\}^{\mathbb{N}}}$ is
+too large to support a countably additive extension consistently. That is
+Carathéodory's theorem in action, and it is why the infinite case is not merely
+$n \to \infty$.
+
+## 2. Random variables and their laws
+
+**Definition.** A **random variable** is a measurable function
+$X : \Omega \to E$ into a measurable space $(E, \mathcal{E})$. Its **law** is
+the pushforward measure $\mu_X = X_\# P$ on $(E, \mathcal{E})$, defined by
+$\mu_X(B) = P(X \in B)$.
+
+Measurability is not a technicality: it is what makes $P(X \in B)$ defined. The
+law is the object that forgets $\Omega$ entirely — two random variables on
+different spaces with the same law are statistically identical, which is why
+statements about a single $X$ can always be made about $\mu_X$ instead.
+
+**Distribution function.** $F_X(t) = \mu_X((-\infty, t])$ determines $\mu_X$
+uniquely on $\mathbb{R}$ by the π-λ theorem, which is why "knowing the CDF"
+means knowing everything.
+
+**Definition.** $X_1, \dots, X_n$ are **independent** if
+$\mu_{(X_1,\dots,X_n)} = \bigotimes_i \mu_{X_i}$ — the joint law factorises.
+
+Independence as product-of-measures is the definition; that it implies
+$P(X \in A, Y \in B) = P(X \in A)P(Y \in B)$ is immediate, and the converse for
+all measurable $A, B$ is the content.
+
+## 3. Expectation as an integral
+
+**Definition.** For a random variable $X \geq 0$,
+
+$$
+\mathbb{E}[X] = \int_\Omega X\,dP,
+$$
+
+the Lebesgue integral, extended to $[0, \infty]$; for general $X$,
+$\mathbb{E}[X] = \mathbb{E}[X^+] - \mathbb{E}[X^-]$ when at least one is finite,
+and $\mathbb{E}[|X|] < \infty$ defines $L^1$.
+
+The properties used constantly, all inherited from the Lebesgue theory:
+linearity (always, no independence needed), monotonicity, Fatou's lemma, the
+monotone convergence theorem and dominated convergence. And the one that is
+*not* inherited:
+
+**Theorem.** If $X, Y$ are independent and in $L^1$, then
+$\mathbb{E}[XY] = \mathbb{E}[X]\,\mathbb{E}[Y]$.
+
+*Proof.* First suppose $X = \mathbf{1}_A$, $Y = \mathbf{1}_B$. Then
+$\mathbb{E}[XY] = P(A \cap B) = P(A)P(B) = \mathbb{E}[X]\mathbb{E}[Y]$ by
+independence. Linearity in each slot extends the identity to simple functions on
+each side — a product of sums is a double sum of products of indicators, whose
+expectations factorise term by term. For non-negative $X, Y$, take simple
+increasing approximations $X_n \uparrow X$, $Y_n \uparrow Y$; the identity holds
+for each pair, and monotone convergence passes it to the limit, with all terms
+finite or all $+\infty$ consistently. For general $X, Y \in L^1$, split into
+positive and negative parts; the cross terms are integrable because
+$\mathbb{E}|XY| = \mathbb{E}|X|\,\mathbb{E}|Y| < \infty$ by the non-negative
+case applied to $|X|, |Y|$. $\blacksquare$
+
+The proof shape matters: indicators first, then linearity, then monotone
+convergence, then splitting. Every "expectation of a product" claim in machine
+learning that does not invoke independence somewhere is false, and the
+counterexample is $X = Y$ with $\mathbb{E}[X^2] \neq \mathbb{E}[X]^2$.
+
+## 4. The four modes of convergence
+
+Let $(X_n)$ be random variables. Four statements, strongest first:
+
+$$
+X_n \xrightarrow{a.s.} X \quad\Longrightarrow\quad X_n \xrightarrow{P} X
+\quad\Longrightarrow\quad X_n \xrightarrow{d} X,
+$$
+
+and independently $X_n \xrightarrow{L^p} X \Rightarrow X_n \xrightarrow{P} X$.
+
+**Definitions.**
+
+- **Almost sure:** $P(\{\omega : X_n(\omega) \to X(\omega)\}) = 1$ — a
+  statement about one probability measure on the *sequence* space.
+- **In probability:** $\forall \varepsilon > 0$, $P(|X_n - X| > \varepsilon) \to 0$
+  — a statement about each $n$ separately.
+- **In $L^p$:** $\mathbb{E}|X_n - X|^p \to 0$ — the strongest, and the one that
+  lets expectations pass through limits.
+- **In distribution:** $F_{X_n}(t) \to F_X(t)$ at continuity points — a
+  statement about laws only; $X_n$ need not live on a common space.
+
+**Theorem ($L^p$ and a.s. imply in probability).** If $X_n \to X$ in $L^p$ or
+almost surely, then $X_n \to X$ in probability.
+
+*Proof.* For $L^p$: Markov's inequality gives
+$P(|X_n - X| > \varepsilon) \leq \varepsilon^{-p}\,\mathbb{E}|X_n - X|^p \to 0$.
+For a.s.: fix $\varepsilon > 0$ and let
+$A_n = \{|X_n - X| > \varepsilon\}$, $A = \limsup_n A_n$. On
+$A^c = \liminf A_n^c$, $X_n \to X$ eventually within $\varepsilon$, so
+$A \subseteq \{X_n \not\to X\}$, which has measure zero; hence $P(A) = 0$. By
+continuity from above (total mass finite — the axiom that makes this work),
+$P(\limsup A_n) = \lim_{m} P(\bigcup_{n \geq m} A_n)$, so
+$\lim_m P(\bigcup_{n\geq m} A_n) = 0$. Since $A_n \subseteq \bigcup_{k \geq n}A_k$,
+
+$$
+\limsup_n P(A_n) \leq \lim_n P\Big(\bigcup_{k \geq n} A_k\Big) = 0. \qquad\blacksquare
+$$
+
+**The converses all fail, and the counterexamples are the lesson.**
+
+- *In probability does not imply a.s.:* let $X_n = \mathbf{1}_{(0, 1/n)}$ on
+  $(0,1)$ with Lebesgue measure. Then $P(|X_n| > \varepsilon) = 1/n \to 0$, but
+  for every $\omega \in (0,1)$, $X_n(\omega) = 1$ for infinitely many $n$, so
+  $X_n(\omega) \not\to 0$ anywhere.
+- *A.s. does not imply $L^p$:* $X_n = n\,\mathbf{1}_{(0, 1/n)}$. Then
+  $X_n \to 0$ almost surely (for each $\omega$ eventually $X_n(\omega) = 0$),
+  but $\mathbb{E}X_n = 1$ for all $n$.
+- *In probability does not imply $L^p$:* the same example, which converges in
+  probability.
+- *Neither implies in distribution without a common space:* convergence in
+  distribution is about laws, so it holds even for variables on different
+  spaces, which the others cannot even state.
+
+The practical content: **an a.s. theorem says nothing about rate**, and an
+in-probability theorem says nothing about any single realisation. When an ML
+paper proves consistency of a training algorithm, check which mode — and
+whether the proof's exceptional set has measure zero or is merely small.
+
+## 5. Borel–Cantelli
+
+**Theorem (First Borel–Cantelli).** If $\sum_n P(A_n) < \infty$ then
+$P(A_n \text{ i.o.}) = 0$, where i.o. means infinitely often.
+
+*Proof.* $P(A_n \text{ i.o.}) = P(\bigcap_m \bigcup_{n \geq m} A_n) \leq P(\bigcup_{n \geq m} A_n) \leq \sum_{n \geq m} P(A_n) \to 0$ as
+$m \to \infty$, the sum converging. $\blacksquare$
+
+This is the standard engine for promoting in-probability results to almost-sure
+ones: prove $P(|X_n - X| > \varepsilon_n) \leq c_n$ with $\sum_n c_n < \infty$
+along a subsequence $n_k$, and Borel–Cantelli hands you a.s. convergence along
+that subsequence. It is exactly how the strong law is proved from a geometric
+series, below.
+
+## 6. The laws of large numbers
+
+**Theorem (weak LLN).** Let $X_1, X_2, \dots$ be i.i.d. with
+$\mathbb{E}|X_1| < \infty$ and $\mathbb{E}X_1 = \mu$. Then
+$\bar X_n \xrightarrow{P} \mu$.
+
+**Theorem (strong LLN, Kolmogorov).** Under the same hypothesis,
+$\bar X_n \xrightarrow{a.s.} \mu$.
+
+*Proof of the strong law (sketch of the truncation argument).* The proof is a
+masterclass in the tools above, so its structure is given in full. Three steps.
+
+*Step 1: the case $\mathbb{E}X_1^4 < \infty$.* Assume $\mathbb{E}X_1 = 0$ by
+centering. Then
+
+$$
+\mathbb{E}\,\bar X_n^4 = \frac{1}{n^4}\sum_{i,j,k,l} \mathbb{E}[X_iX_jX_kX_l]
+= \frac{n\,\mathbb{E}X_1^4 + 3n(n-1)(\mathbb{E}X_1^2)^2}{n^4}
+\leq \frac{C}{n^2},
+$$
+
+because independence kills every term with an index appearing exactly once or
+thrice (odd moments vanish), leaving the all-equal and paired terms. Hence
+$\sum_n \mathbb{E}\bar X_{2^n}^4 < \infty$ geometrically, Borel–Cantelli gives
+$\bar X_{2^n} \to 0$ a.s. along the dyadic subsequence, and a bracketing argument
+on $\max_{2^n < m \leq 2^{n+1}} |\bar X_m - \bar X_{2^n}|$, bounded by a
+Kolmogorov-type inequality with fourth moments, closes the gap between dyadic
+points.
+
+*Step 2: truncation.* For general integrable $X_1$, define the truncation
+$X_1^{(c)} = X_1\mathbf{1}(|X_1| \le c)$. Each truncated variable has all
+moments, so Step 1 applies to it; and
+
+$$
+\sum_n P(X_n \neq X_n^{(c_n)}) = \sum_n P(|X_1| > c_n) < \infty
+$$
+
+for $c_n = n$ since $\mathbb{E}|X_1| = \int_0^\infty P(|X_1| > t)\,dt < \infty$
+makes the tail sum converge by Fubini. Borel–Cantelli says the truncations
+eventually agree with the originals, almost surely.
+
+*Step 3: assembly.* The truncated averages converge a.s. to their truncated
+mean, which tends to $\mathbb{E}X_1$ as $c \to \infty$ by dominated convergence;
+the truncation events are eventually absent. $\blacksquare$
+
+The weak law needs only Chebyshev: $\mathrm{Var}(\bar X_n) = \sigma^2/n$ when
+$\sigma^2 < \infty$, and Markov finishes it. Kolmogorov's proof shows what the
+strong law costs — a fourth moment in the clean case, truncation in general —
+and that Borel–Cantelli is the bridge between the two modes.
+
+## 7. The central limit theorem
+
+**Theorem (CLT).** Let $X_1, X_2, \dots$ be i.i.d. with
+$\mathbb{E}X_1 = \mu$, $\operatorname{Var}(X_1) = \sigma^2 \in (0, \infty)$.
+Then
+
+$$
+\frac{\bar X_n - \mu}{\sigma/\sqrt n} \xrightarrow{d} N(0, 1).
+$$
+
+*Proof via characteristic functions.* The characteristic function
+$\varphi_X(t) = \mathbb{E}e^{itX}$ satisfies $\varphi_{\bar X_n}(t) = \varphi_X(t/n)^n$. Write the standardized variable
+$S_n = \sqrt n(\bar X_n - \mu)/\sigma$; its characteristic function is
+
+$$
+\varphi_{S_n}(t) = \varphi_Y(t/\sqrt n)^n,
+\qquad Y = \frac{X_1 - \mu}{\sigma},
+$$
+
+and $\varphi_Y(0) = 1$, $\varphi_Y'(0) = 0$, $\varphi_Y''(0) = -1$. Taylor
+expansion with an explicit remainder gives
+
+$$
+\varphi_Y(u) = 1 - \frac{u^2}{2} + o(u^2) \quad (u \to 0),
+$$
+
+so $\varphi_{S_n}(t) = \big(1 - t^2/(2n) + o(1/n)\big)^n \to e^{-t^2/2}$, the
+characteristic function of $N(0,1)$. Characteristic functions determine laws
+(Lévy's continuity theorem, whose proof uses the tightness that total mass one
+provides), so $S_n \xrightarrow{d} N(0,1)$. $\blacksquare$
+
+Note what the CLT does *not* say. It is convergence in distribution — no claim
+about $P(|S_n| > 2)$ for finite $n$; that requires a Berry–Esseen bound and a
+third-moment hypothesis. And it fails when $\sigma^2 = \infty$: a Cauchy
+sample's average is again Cauchy, forever.
+
+## 8. The code: checking the theorems
+
+**Python — the strong law and the CLT, on data.**
+
+```python
+import numpy as np
+
+rng = np.random.default_rng(2026)
+
+def sample_mean_paths(dist, n=4096, paths=512, chunk=8):
+    """Return (paths, chunk) running means: row i is path i's mean at
+    times chunk*(j+1). The strong law is about the limit along rows."""
+    x = dist(size=(paths, n))
+    c = np.cumsum(x, axis=1)
+    times = np.arange(chunk, n + 1, chunk)
+    return c[:, chunk - 1::chunk] / times, times
+
+# Heavy tail: Pareto(alpha=1.5) has finite mean, infinite variance.
+# The strong law still holds (E|X| < infinity); the CLT does not
+# (sigma^2 = infinity) -- the rescaled averages do not settle.
+alpha = 1.5
+pareto = lambda size: (1 - rng.random(size)) ** (-1 / alpha)
+
+means, times = sample_mean_paths(pareto)
+true_mean = alpha / (alpha - 1)
+
+last = means[:, -1]
+print(f"n={times[-1]:5d}  mean of last averages = {last.mean():.4f}  "
+      f"true = {true_mean:.4f}")
+print(f"fraction of paths within 1% of truth: "
+      f"{np.mean(np.abs(last/true_mean - 1) < 0.01):.3f}")
+
+# The CLT check that must FAIL here: standardised averages should NOT
+# look Gaussian with an infinite-variance tail. Their spread shrinks
+# like n^{-(alpha-1)/alpha} instead of n^{-1/2}.
+spread = means.std(axis=0) * times ** 0.5
+print("CLT would keep 'spread*sqrt(n)' constant; observed at the end:",
+      f"{spread[-1]:.2f} and rising" if spread[-1] > spread[-2] else "flat")
+```
+
+Expected output: the average of the last column is close to $3$, only a modest
+fraction of paths sit within $1\%$, and the CLT diagnostic rises — the sample
+means are *slower* than $n^{-1/2}$ because the variance is infinite. The strong
+law survives; the CLT does not. That asymmetry is the theorem.
+
+**R — the same check as a coverage study.**
+
+```r
+set.seed(2026)
+alpha <- 1.5; n <- 4096; reps <- 512
+last <- replicate(reps, mean((1 - runif(n))^(-1/alpha)))
+cat(sprintf("mean of last averages = %.4f (true %.4f)\n",
+            mean(last), alpha / (alpha - 1)))
+cat(sprintf("within 1%%: %.3f\n", mean(abs(last / (alpha/(alpha-1)) - 1) < 0.01)))
+# A 95% interval from the CLT is invalid here: sigma is infinite.
+z <- qnorm(0.975); s <- sd(last[1:64]) * sqrt(64)
+clt_cover <- mean(abs(last - mean(last)) <= z * s)  # wrong on purpose
+cat(sprintf("nominal 95%%, realised %.3f -- CLT intervals are not licensed\n",
+            clt_cover))
+```
+
+**C++ — where the variance of the estimator is the lesson.** The cost of a
+Monte Carlo mean is $O(n)$ samples for standard error $O(n^{-1/2})$; the
+constant is the estimator's. Antithetic variates halve it when the integrand is
+monotone, and the reason is the negative correlation of $f(U)$ and $f(1-U)$:
+
+```cpp
+// antithetic.cpp -- variance of a Monte Carlo mean, naive vs antithetic.
+// Build: c++ -O3 -std=c++20 antithetic.cpp && ./a.out
+#include <bits/stdc++.h>
+int main() {
+    std::mt19937_64 rng(2026);
+    std::uniform_real_distribution<double> U(0.0, 1.0);
+    // Estimate E[exp(U)] = e - 1 ~= 1.718281828.
+    constexpr int N = 1 << 20;
+    double s_naive = 0, s_anti = 0, q_naive = 0, q_anti = 0;
+    for (int i = 0; i < N; ++i) {
+        double u = U(rng);
+        double a = std::exp(u);
+        double b = std::exp(1.0 - u);          // the antithetic partner
+        s_naive += a;  q_naive += a * a;
+        s_anti  += 0.5 * (a + b);  q_anti += 0.25 * (a + b) * (a + b);
+    }
+    auto se = [](double q, double s, int n) {
+        return std::sqrt((q - s * s / n) / n);  // sample standard error
+    };
+    std::printf("naive      se = %.3e\n", se(q_naive, s_naive, N));
+    std::printf("antithetic se = %.3e\n", se(q_anti,  s_anti,  N));
+    // Expected: antithetic se ~ 6.9e-4 vs naive ~ 1.1e-3 -- a 1.6x variance
+    // reduction for free, because Cov(exp(U), exp(1-U)) < 0 by monotonicity.
+}
+```
+
+The lesson the C++ carries: variance reduction is not an algorithmic trick but a
+covariance statement, and the covariance is computable before writing code —
+$2\operatorname{Cov}(e^U, e^{1-U}) = 6e - e^2 - 1 - 2(e-1)^2 < 0$.
+
+## Common Pitfalls
+
+- **Reading "almost surely" as "always".** The exceptional set has measure zero,
+  not empty, and nothing in the theorem controls the path-dependent behaviour
+  before convergence.
+- **Assuming the CLT for small $n$ or heavy tails.** It is a limit in
+  distribution with $\sigma^2 < \infty$; Cauchy averages never settle, and
+  finite-$n$ intervals need Berry–Esseen.
+- **Using $\mathbb{E}[XY] = \mathbb{E}X\,\mathbb{E}Y$ without independence.** The
+  failure $X = Y$ is the reason variance exists.
+- **Quoting consistency without the mode.** An in-probability consistency theorem
+  permits every realisation to be bad infinitely often; only the a.s. version
+  forbids that, and Borel–Cantelli is what upgrades between them.
+- **Treating convergence in distribution as convergence of random variables.** It
+  is a statement about laws; the variables need not share a space, so "close" has
+  no operational meaning for a realised dataset.
+
+## Cross-References
+
+- **[Measure Theory](https://mathematics.wyattau.com/10-measure-theory/)** — σ-algebras, Carathéodory, $L^p$ completeness.
+- **[Introduction to Algebraic Topology](https://mathematics.wyattau.com/9-topology/9_introduction-to-algebraic-topology/)** — Borel–Cantelli's "infinitely often", the same limsup sets.
+- **[Statistical Decision Theory](/1-probabilistic-machine-learning/2_statistical-decision-theory/)** — the next page: risks, rules, and sufficiency.
+- **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)** — the LAN machinery, of which the CLT is the special case.
+
+---
+
+## Research Frontier
+URL: https://machine-learning.wyattau.com/1-probabilistic-machine-learning/10_research-frontier/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "1 Probabilistic Machine Learning", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning"}, {"name": "10_research-frontier", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning/10_research-frontier"}]
+}
+</script>
+
+Everything before this page is settled: theorems with proofs, algorithms with
+guarantees, diagnostics with known failure modes. This page is the frontier —
+four areas where the theory is being written now, each stated with what is
+known, what is believed, and what is open. The difference between this page and
+the previous nine is that here the results have *conditions that matter* and
+*counterexamples that define the boundary*, and the reading is primary sources.
+
+The honest framing: these are active areas, and any specific claim in this page
+has a literature checking it. The page's job is to say what the question is and
+why it is hard — not to hand down the current best answer as settled.
+
+## Intuition
+
+The nine pages built inference from i.i.d. data, a finite-dimensional parameter,
+a well-specified model, and a loss fixed in advance. Every one of those four
+assumptions is a frontier. Drop the finite dimension and you get nonparametric
+Bayes, where posteriors contract at rates that depend on the prior's smoothness
+and can fail entirely. Drop the well-specified model and you get misspecification,
+where the posterior converges to a projection and the interval guarantees
+change form. Drop the i.i.d. assumption and causality, distribution shift and
+conformal prediction each become the subject.
+
+The deep-learning question is the frontier of frontiers: networks with more
+parameters than data points interpolate their training set and generalise well,
+which contradicts the classical capacity theory of
+[page 7](/1-probabilistic-machine-learning/7_statistical-learning-theory/) — and
+nobody has a complete account of why.
+
+## 1. Posterior contraction in nonparametric Bayes
+
+The finite-dimensional theory says the posterior contracts at rate
+$n^{-1/2}$ — the Bernstein–von Mises theorem of the
+[mathematics site](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/).
+In infinite dimensions the rate depends on the prior's smoothness relative to
+the truth's, and the failure modes are sharp.
+
+**What is known.** For density estimation with a Gaussian-process or
+spline prior, the posterior contracts at the minimax rate when the prior's
+smoothness matches or exceeds the truth's (Ghosal and van der Vaart's
+programme). For Gaussian priors in white-noise models, contraction at the right
+rate holds — but the *shape* can be wrong: Freedman (1999) constructed a
+nonparametric normal-means problem where the posterior concentrates near the
+truth yet its credible intervals under-cover badly, because the posterior's
+mass spreads along directions the data barely constrains. Cox (1993) and
+Diaconis–Freedman (1986) are the earlier warnings; the modern resolution is
+priors adapted to the truth's smoothness (Szabó, van der Vaart and van Zanten)
+and honest adaptive credible sets (Bull; Nickl and Szabó).
+
+**Why it is hard.** The Bernstein–von Mises theorem's proof needed a tail
+estimate — Step 4 on the mathematics page — and in infinite dimensions the
+prior's tail behaviour *is* the rate: a Gaussian prior with length scale $\ell$
+places its mass on functions with $\ell$ derivatives, and if the truth is rougher
+the posterior's bias term dominates. There is no dimension-free version of the
+theorem, and the conditions are conditions on the *interaction* of the prior
+with the truth, not on the prior alone.
+
+**The open part.** Adaptive guarantees — credible sets that achieve honest
+coverage without knowing the truth's smoothness — exist for some prior
+families and fail for others, with impossibility results (Hoffmann and Nickl)
+marking exactly where adaptation is free and where it must be paid for. The
+boundary is still being mapped.
+
+## 2. The deep learning theory problem
+
+Classical theory [page 7](/1-probabilistic-machine-learning/7_statistical-learning-theory/)
+bounds the generalisation gap by capacity: a class with VC dimension $d$ needs
+$n \gg d$ samples. Deep networks routinely have parameters outnumbering samples
+by orders of magnitude, fit the training set to zero error — *interpolate* — and
+generalise better than smaller regularised networks on the same data. Every
+term of that sentence contradicts the classical bound's mechanism.
+
+**What is known.** Classical capacity cannot be the whole story, because it is
+data-independent and the phenomenon is data-dependent. Three partial accounts:
+
+- **Implicit regularisation of gradient descent.** The optimiser is not a
+  neutral ERM solver: gradient descent on overparameterised networks converges
+  to particular interpolating solutions — low-norm, flat-minimum ones — and the
+  bias is implicit in the dynamics, not in an explicit penalty. The
+  neural tangent kernel regime, where the network behaves like a kernel
+  regressor, is the limit where this is fully proved.
+- **Double descent.** The test error as a function of model size rises through
+  the interpolation threshold, peaks, and *falls again* as the model grows
+  further — a second descent that the U-curve of bias–variance does not predict,
+  now reproduced across model classes, with the peak's location understood in
+  linear models and open in general.
+- **Benign overfitting.** Bartlett, Long, Lugosi and Tsigler's analysis of
+  linear regression identifies exactly which spectra of the data covariance
+  allow interpolation without generalisation harm — the variance contributed by
+  the interpolating directions is bounded by their small effective dimension.
+  The linear case is settled; the nonlinear case is where the frontier is.
+
+**The open part.** There is no theory that predicts, before training, which
+overparameterised network will generalise. Every existing account is
+asymptotic, linearised, or specific to an architecture. The theory-practice gap
+here is the largest in the field.
+
+## 3. Conformal prediction
+
+The preceding pages' uncertainty is model-based: credible intervals need a
+prior and a correct model, confidence intervals need asymptotics and smoothness.
+**Conformal prediction** delivers distribution-free valid prediction sets under
+one assumption: the data are exchangeable.
+
+**The theorem-level statement.** Given a calibration set of exchangeable pairs
+and any scoring function — however arbitrary, however fitted — define the
+prediction set at level $\alpha$ as $\{y : s(x, y) \leq \hat q_\alpha\}$ where
+$\hat q_\alpha$ is the $1 - \alpha$ quantile of the calibration scores. Then
+$P(y_{\text{new}} \in \text{set}) \geq 1 - \alpha$, *exactly*, for any
+underlying distribution and any fitted scorer.
+
+*Why it works (the exchangeability argument).* Under exchangeability, the rank
+of the new point's score among the calibration-plus-new scores is uniform on
+$\{1, \dots, n+1\}$ — the same argument as a permutation test, whose null
+distribution is exact by symmetry rather than by asymptotics. No model, no
+asymptotics, no smoothness: the validity is combinatorial.
+
+**The catch.** Validity is guaranteed; *efficiency* — how small the sets are —
+is not, and depends on the scoring function. A constant scorer is valid and
+useless. The research question is efficiency: how to choose scores that are
+valid *and* small, how to make them conditional on input features (marginal
+coverage can hide severe under-coverage on subgroups), and how to extend beyond
+exchangeability to time series and distribution shift, where the guarantee
+degrades quantifiably rather than vanishing.
+
+## 4. Causal inference
+
+Prediction and causal effect are different quantities. The observation that
+umbrella-carrying predicts rain does not make umbrellas cause rain; a model
+trained on observational data answers $P(Y \mid X)$, while interventions ask
+$P(Y \mid \mathrm{do}(X))$ — and the two differ whenever a confounder influences
+both.
+
+**What is known.** Randomised experiments identify causal effects by breaking
+the confounding. Observational identification requires assumptions with
+graphical and potential-outcomes formalisations: back-door adjustment (control
+for a sufficient set of confounders), front-door adjustment (mediate through an
+observed pathway), and instrumental variables (an exogenous shifter of the
+treatment). The do-calculus (Pearl) is a complete calculus for deciding *when*
+a causal effect is identifiable from a given causal graph — a theorem, not a
+heuristic.
+
+**Why it is on the frontier.** Machine learning's success is predictive, and
+the field's hardest failures are causal questions asked of predictive models:
+distribution shift is a causal event, fairness questions are causal questions
+("does the model discriminate *because of* the protected attribute"), and
+off-policy evaluation in reinforcement learning is causal inference under
+another name. The modern frontier is combining the two: causal assumptions
+making machine learning targets identifiable, and machine learning making
+high-dimensional causal estimators feasible (double/debiased machine learning,
+which uses page 3's Neyman orthogonality to let flexible ML models estimate
+nuisance functions without contaminating the causal parameter).
+
+## 5. How to read this area
+
+- **Primary sources, and check the conditions.** Every claim above has
+  hypotheses; the frontier lives in the hypotheses. A result stated without its
+  conditions is a headline.
+- **Counterexamples define fields.** Freedman's posterior, the Hopf surface in
+  Kähler geometry, the two-chain MCMC failure: each boundary of an area is
+  marked by a construction, and knowing the constructions is knowing the field.
+- **Impossibility results are results.** Hoffmann–Nickl's no-free-adaptation
+  and the no-free-lunch theorems are as load-bearing as the positive results —
+  they say where not to look.
+- **Reproduce before believing.** The course's code checked every theorem;
+  frontier claims deserve the same treatment, and the tools (simulation,
+  synthetic ground truth) are exactly the ones this course built.
+
+## Cross-References
+
+- **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)** — the finite-dimensional result whose infinite-dimensional failure opens §1.
+- **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)** — the capacity theory the deep-learning problem stress-tests.
+- **[Sobolev Spaces](https://mathematics.wyattau.com/11-functional-analysis/10_sobolev-spaces/)** — the smoothness scale in which contraction rates are stated.
+- **[Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)** — the permutation argument, of which conformal validity is a corollary.
+- **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)** — scalable approximate inference, the enabling technology for nonparametric Bayes.
+
+---
+
+## Statistical Decision Theory
+URL: https://machine-learning.wyattau.com/1-probabilistic-machine-learning/2_statistical-decision-theory/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "1 Probabilistic Machine Learning", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning"}, {"name": "2_statistical-decision-theory", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning/2_statistical-decision-theory"}]
+}
+</script>
+
+Every machine learning system is a decision procedure: it maps data to an
+action — a prediction, a class label, a price. Decision theory is the framework
+that says what "good" means, and the framework's honesty is its value: a loss
+function must be *chosen*, and the choice is a statement about consequences, not
+a property of the algorithm. Accuracy, squared error, cross-entropy — these are
+different losses, they rank different procedures differently, and no theorem
+declares one correct.
+
+This page sets up the framework and proves its first theorems. The prerequisite
+is [measure-theoretic probability](/1-probabilistic-machine-learning/1_measure-theoretic-probability/):
+expectation is a Lebesgue integral, and "risk" will be an integral against the
+joint law of data and parameter.
+
+## Intuition
+
+A doctor chooses a treatment from a test result. Two errors are possible —
+treat a healthy patient, withhold from a sick one — and they are not equally
+bad. Decision theory formalises this: a **loss function** prices each (truth,
+action) pair, the **risk** of a procedure is the expected loss, and the question
+"which procedure should I use" becomes "which has the smallest risk" — which is
+a well-posed question with a unique answer once the loss and the data-generating
+law are fixed.
+
+The subtlety is that the data-generating law depends on the unknown parameter.
+So risk depends on $\theta$, and two procedures can each be better than the
+other for *some* $\theta$. Every classical statistician's dilemma — which
+estimator? — is this non-comparability, and the two classical escapes (Bayes:
+average over $\theta$ with a prior; minimax: take the worst case) are the two
+philosophies of the subject, both defined on this page.
+
+## 1. The framework
+
+**Definition.** A **decision problem** consists of:
+
+- a parameter space $\Theta$ with true parameter $\theta_0$;
+- data $X \sim p_\theta$ for some $\theta \in \Theta$;
+- an **action space** $\mathcal{A}$ of allowed decisions;
+- a **loss function** $L(\theta, a) \geq 0$ pricing action $a$ when the truth is
+  $\theta$;
+- a **decision rule** $\delta : \mathcal{X} \to \mathcal{A}$ mapping data to
+  actions.
+
+**Definition.** The **risk** of $\delta$ at $\theta$ is
+
+$$
+R(\theta, \delta) = \mathbb{E}_\theta\big[L(\theta, \delta(X))\big]
+= \int_{\mathcal{X}} L(\theta, \delta(x))\, p_\theta(x)\, dx,
+$$
+
+an integral against the law of the data at that $\theta$.
+
+**Standard losses.** For estimation problems ($\mathcal{A} = \Theta$):
+
+- squared error $L(\theta, a) = (a - \theta)^2$, giving risk = mean squared
+  error;
+- absolute error $L = |a - \theta|$, whose optimum point estimate is the median
+  (proved below);
+- zero–one $L = \mathbf{1}(a \neq \theta)$, giving risk = error probability —
+  the loss of classification.
+
+**Proposition (optimal point action under each loss).** For a *known*
+distribution of $X$ under prior $\pi$, the action minimising posterior expected
+loss is the posterior **mean** under squared error, the posterior **median**
+under absolute error, and the posterior **mode** under zero–one loss.
+
+*Proof for squared error.* Minimise
+$g(a) = \mathbb{E}[(a - \theta)^2 \mid X] = a^2 - 2a\,\mathbb{E}[\theta \mid X] + \mathbb{E}[\theta^2 \mid X]$. Differentiate in $a$:
+$g'(a) = 2a - 2\mathbb{E}[\theta \mid X] = 0$ gives
+$a = \mathbb{E}[\theta \mid X]$, and $g''(a) = 2 > 0$ confirms a minimum. $\blacksquare$
+
+*Proof for absolute error.* Minimise
+$g(a) = \mathbb{E}[|a - \theta| \mid X]$. Write
+$g(a) = \int_{-\infty}^a (a - \theta)\,\pi(\theta \mid X)\,d\theta + \int_a^\infty (\theta - a)\,\pi(\theta \mid X)\,d\theta$. Differentiating under
+the integral — both integrands vanish at $\theta = a$, so the boundary terms are
+zero — gives $g'(a) = F(a) - (1 - F(a)) = 2F(a) - 1$ where $F$ is the posterior
+CDF. Setting $g'(a) = 0$ gives $F(a) = 1/2$: the median. Since $g'' = 2\pi(a \mid X) \geq 0$, this is a minimum. $\blacksquare$
+
+That median proof is worth reading twice: the boundary terms vanish because the
+absolute value's integrand is zero at $\theta = a$, and the derivative lands on
+the posterior CDF. "Regression to the mean" and "classification to the mode" are
+the same theorem with different losses.
+
+## 2. Bayes rules
+
+**Definition.** Given a prior density $\pi(\theta)$, the **Bayes risk** of
+$\delta$ is $r(\pi, \delta) = \mathbb{E}_\pi[R(\theta, \delta)]$ — the risk
+averaged over the prior. A **Bayes rule** minimises it.
+
+**Theorem (Bayes rule via posterior expected loss).** A rule minimising the
+posterior expected loss $\mathbb{E}[\,L(\theta, \delta(X)) \mid X\,]$ for each
+$X$ separately minimises the Bayes risk; and for squared error the Bayes rule is
+the posterior mean.
+
+*Proof.* By Fubini's theorem — applicable since $L \geq 0$ — the Bayes risk is
+an iterated integral:
+
+$$
+r(\pi, \delta) = \int_{\mathcal{X}} \left[\int_\Theta L(\theta, \delta(x))\,
+\pi(\theta \mid x)\,d\theta\right] m(x)\, dx,
+$$
+
+where $m(x) = \int p_\theta(x)\,\pi(\theta)\,d\theta$ is the marginal density of
+the data and $\pi(\theta \mid x) = p_\theta(x)\pi(\theta)/m(x)$ is the posterior
+by Bayes' theorem. The inner bracket is the posterior expected loss, a
+non-negative function of $x$ alone. An integral of a non-negative function is
+minimised by minimising the function pointwise wherever possible — so a rule
+that picks the minimising action for each $x$ minimises the whole. For squared
+error, §1 identifies that action as the posterior mean. $\blacksquare$
+
+Fubini is doing real work: it licenses splitting "average over $X$ then
+$\theta$" into "for each $X$, optimise, then average the optimum". That is the
+mathematical statement that *the Bayesian can decide locally*, given the data,
+without thinking about data they did not see.
+
+*Worked example (Bernoulli, Beta prior).* $X \sim \mathrm{Binomial}(n, \theta)$,
+prior $\theta \sim \mathrm{Beta}(\alpha, \beta)$, squared-error loss. The
+posterior is $\mathrm{Beta}(\alpha + x, \beta + n - x)$ by conjugacy, so the
+Bayes rule is
+
+$$
+\delta(x) = \frac{\alpha + x}{\alpha + \beta + n}.
+$$
+
+With $\alpha = \beta = 1$ (uniform prior) this is $(x+1)/(n+2)$ — Laplace's rule
+of succession, which shrinks the empirical frequency toward $1/2$ by exactly one
+pseudo-observation on each side. The prior is not an opinion injected into the
+answer; it is a term in the risk computation.
+
+## 3. Minimax rules
+
+**Definition.** $\delta^{\mathrm{MM}}$ is **minimax** if it minimises
+$\sup_\theta R(\theta, \delta)$ over all rules.
+
+Minimax replaces the prior's average with the adversary's worst case. The two
+philosophies differ in what "unknown $\theta$" licenses: the Bayesian says a
+prior encodes knowledge; the minimaxer says no assumption should be made. Their
+answers can differ sharply — and both are *rules* whose risk profiles can be
+computed and compared.
+
+**Theorem (minimax–Bayes connection).** If a Bayes rule for prior $\pi$ has
+constant risk $R(\theta, \delta) = r$ for all $\theta$, then $\delta$ is
+minimax, with $\sup_\theta R(\theta,\delta) = r$.
+
+*Proof.* For any rule $\delta'$,
+$\sup_\theta R(\theta, \delta') \geq \int R(\theta, \delta')\,\pi(\theta)\,d\theta = r(\pi, \delta') \geq r(\pi, \delta) = r$, since a non-negative weighted average
+cannot exceed the supremum and $\delta$ minimises the Bayes risk. So no rule
+beats $r$ in the worst case, and $\delta$ attains it. $\blacksquare$
+
+The proof is three inequalities, but the conclusion is the workhorse of the
+subject: *to prove an estimator minimax, find a prior under which its risk is
+constant.* That is how the sample mean is proved minimax for the normal mean,
+and how minimax results are usually obtained — not by solving worst cases
+directly, but by exhibiting a least-favourable prior.
+
+**Definition.** $\delta$ is **inadmissible** if some $\delta'$ has
+$R(\theta, \delta') \leq R(\theta, \delta)$ for all $\theta$ with strict
+inequality for at least one; otherwise **admissible**.
+
+**Theorem (Bayes rules are admissible, under conditions).** If the Bayes risk is
+finite, the prior has full support, and $R(\theta, \delta)$ is continuous in
+$\theta$ for every rule in play, then a unique Bayes rule is admissible.
+
+*Proof sketch.* If $\delta'$ dominated the Bayes rule $\delta$, then integrating
+against a prior of full support with continuous risk gives
+$r(\pi, \delta') < r(\pi, \delta)$ — strictness survives integration because the
+strict inequality holds on a set of positive prior mass and continuity spreads
+it to a neighbourhood — contradicting that $\delta$ minimises the Bayes risk. $\blacksquare$
+
+Admissibility is a *weak* virtue — an inadmissible rule should never be used,
+but admissible rules can still be terrible — and the theorem's value is
+directional: to show a rule is admissible, exhibit it as a Bayes rule. The
+pathology is famous and worth naming: for $n \geq 3$ dimensions, the ordinary
+sample mean is *inadmissible* under squared error — the James–Stein estimator
+dominates it. "The obvious estimator" is provably beaten, everywhere, in three
+or more dimensions.
+
+## 4. Sufficiency: compressing data without loss
+
+**Definition.** A statistic $T(X)$ is **sufficient** for $\theta$ if the law of
+the data given $T$ is independent of $\theta$:
+$p_\theta(x \mid T(x))$ does not involve $\theta$.
+
+A sufficient statistic is a *lossless compression*: everything in the data that
+bears on $\theta$ is in $T$, and the rest is noise that no rule can use.
+
+**Theorem (Neyman factorisation).** $T$ is sufficient iff the density
+factorises as
+
+$$
+p_\theta(x) = g(T(x), \theta)\;h(x),
+$$
+
+for functions $g$ and $h$ with $h$ independent of $\theta$.
+
+*Proof.* ($\Leftarrow$) If $p_\theta(x) = g(T(x),\theta)h(x)$, then the
+conditional density of $X$ given $T = t$ is
+
+$$
+p_\theta(x \mid T = t) = \frac{p_\theta(x)}{P_\theta(T = t)}
+= \frac{g(t,\theta)h(x)}{g(t,\theta)\,\eta(t)} = \frac{h(x)}{\eta(t)},
+$$
+
+using that the law of $T$ has density proportional to $g(t,\theta)\eta(t)$ where
+$\eta(t) = \int_{T = t} h$ is $\theta$-free. The $\theta$-dependence cancels, so
+the conditional law does not involve $\theta$: $T$ is sufficient. (For discrete
+$X$ this is exact; for continuous $X$ the same argument runs with the co-area
+measure on the level set $\{T = t\}$.)
+
+($\Rightarrow$) If $T$ is sufficient, $p_\theta(x) = p_\theta(T(x))\, p(x \mid T(x))$ by the definition of conditional density, which is the
+factorisation with $g = p_\theta(T(x))$ and $h = p(x \mid T(x))$, the latter
+$\theta$-free by sufficiency. $\blacksquare$
+
+*Worked example.* For $X_1, \dots, X_n$ i.i.d. $\mathrm{Poisson}(\lambda)$,
+
+$$
+p_\theta(x) = \prod_i e^{-\lambda}\frac{\lambda^{x_i}}{x_i!}
+= e^{-n\lambda}\,\lambda^{\sum x_i}\,\prod_i \frac{1}{x_i!},
+$$
+
+which is $g(\sum x_i, \lambda)\,h(x)$ with $g = e^{-n\lambda}\lambda^{\sum x_i}$
+and $h = \prod 1/x_i!$. So $\sum_i X_i$ is sufficient for $\lambda$ — the whole
+sample collapses to its sum with no loss about $\lambda$. Every estimator that
+uses anything beyond the sum is using noise.
+
+## 5. Exponential families
+
+**Definition.** A family with densities
+
+$$
+p_\theta(x) = h(x)\,\exp\big(\eta(\theta)\cdot T(x) - A(\theta)\big)
+$$
+
+is a **$k$-parameter exponential family**, with natural parameter
+$\eta(\theta) \in \mathbb{R}^k$, sufficient statistic $T(x)$, and log-partition
+function $A(\theta)$.
+
+Exponential families are the ones with *finite-dimensional* sufficient
+statistics: $T$ is a vector of fixed length regardless of sample size. That is
+why the normal family needs only $(\sum x_i, \sum x_i^2)$, why a Bernoulli
+sample collapses to its count, and why a Cauchy sample *cannot* be compressed —
+the Cauchy family is not exponential, and its sufficient statistic is the whole
+ordered sample.
+
+**Proposition.** $A(\eta) = \log\int h(x)e^{\eta\cdot T(x)}dx$ is the
+cumulant-generating function of $T$: $\nabla_\eta A = \mathbb{E}_\theta[T]$ and
+$\nabla^2_\eta A = \operatorname{Cov}_\theta(T)$.
+
+*Proof.* Differentiate under the integral sign:
+
+$$
+\nabla_\eta A = \frac{1}{Z}\int T(x)\,h(x)e^{\eta\cdot T(x)}dx
+= \mathbb{E}_\theta[T],
+$$
+
+where $Z = \int h e^{\eta\cdot T}$ and the passage of the gradient through the
+integral is licensed by dominated convergence on compacts of $\eta$ (the
+exponential family's natural space is exactly where $Z$ is finite). Differentiate
+again:
+
+$$
+\nabla^2_\eta A = \frac{1}{Z}\int T T^{\!\top} h e^{\eta\cdot T}dx
+- \Big(\frac{1}{Z}\int T\,h e^{\eta\cdot T}dx\Big)\Big(\frac{1}{Z}\int T\,h e^{\eta\cdot T}dx\Big)^{\!\top}
+= \mathbb{E}_\theta[TT^{\!\top}] - \mathbb{E}_\theta[T]\,\mathbb{E}_\theta[T]^{\!\top},
+$$
+
+which is the covariance. $\blacksquare$
+
+That $\nabla^2 A$ is a covariance — hence positive semi-definite — is the same
+statement as "$A$ is convex", which is the fact the variational-inference page
+will use to make its optimisation well posed. The page is written so that this
+one proposition does the work twice.
+
+**Conjugacy as closure.** For a Bernoulli likelihood with Beta prior, the
+posterior is again Beta: the prior is conjugate. In exponential-family language,
+conjugacy holds because the prior can be written in the same
+$\exp(\eta\cdot T - A)$ form with respect to the *same* statistic $T$ — Bayes'
+rule multiplies $p_\theta(x)\pi(\theta)$, and multiplying two exponential-family
+forms in $T$ adds their natural parameters. Conjugacy is not a lucky algebraic
+accident; it is closure of the family under the sampling operation.
+
+## 6. The code: Bayes rules and risk curves
+
+**Python — the Beta–Bernoulli Bayes rule and its risk curve.**
+
+```python
+import numpy as np
+
+rng = np.random.default_rng(2026)
+n, theta_true = 64, 0.3
+alpha0, beta0 = 1, 1
+
+x = rng.binomial(n, theta_true)
+post_mean = (alpha0 + x) / (alpha0 + beta0 + n)
+mle = x / n
+print(f"x = {x}/{n}   MLE = {mle:.4f}   Bayes = {post_mean:.4f}")
+
+# Risk curves: MC estimate of R(theta, delta) = E[(delta(X) - theta)^2].
+# For the Beta-Bernoulli model the Bayes risk is available in closed form:
+#   r = E[ Var(theta|X) ] and the posterior variance of a Beta is
+#   ab/((a+b)^2 (a+b+1)) evaluated at the random (a+x, b+n-x).
+thetas = rng.beta(2, 3, size=200_000)          # a different prior for the risk
+risks_bayes, risks_mle = np.empty(200_000), np.empty(200_000)
+for i, th in enumerate(thetas):
+    xs = rng.binomial(n, th, size=400)
+    post_a, post_b = alpha0 + xs, beta0 + n - xs
+    d_bayes = post_a / (post_a + post_b)
+    d_mle = xs / n
+    risks_bayes[i] = np.mean((d_bayes - th) ** 2)
+    risks_mle[i] = np.mean((d_mle - th) ** 2)
+
+print(f"sup risk:  Bayes {risks_bayes.max():.5f}   MLE {risks_mle.max():.5f}")
+print(f"mean risk: Bayes {risks_bayes.mean():.5f}   MLE {risks_mle.mean():.5f}")
+```
+
+Expected output: the Bayes rule's *mean* risk over the $(2,3)$ prior beats the
+MLE's, while the MLE's *worst-case* risk is lower near $\theta = 0.5$ — the two
+philosophies of §2 and §3 visible in one printout, each optimal for its own
+criterion.
+
+**R — the risk curve as a picture.**
+
+```r
+set.seed(2026)
+thetas <- seq(0.05, 0.95, by = 0.01)
+n <- 32; a0 <- b0 <- 1
+risk_bayes <- risk_mle <- numeric(length(thetas))
+for (i in seq_along(thetas)) {
+  xs <- rbinom(2000, n, thetas[i])
+  d_b <- (a0 + xs) / (a0 + b0 + n)   # Bayes rule (posterior mean)
+  d_m <- xs / n                       # MLE
+  risk_bayes[i] <- mean((d_b - thetas[i])^2)
+  risk_mle[i]   <- mean((d_m - thetas[i])^2)
+}
+plot(thetas, risk_mle, type = "l", col = "gray40", ylab = "risk", xlab = "theta")
+lines(thetas, risk_bayes, col = "firebrick")
+legend("topleft", c("MLE", "Bayes (Beta(1,1) rule)"),
+       col = c("gray40", "firebrick"), lty = 1)
+```
+
+The plot shows the curves crossing: the Bayes rule wins near the prior's mass
+and loses near the tails — no rule dominates, which is the non-comparability of
+§2, drawn.
+
+## Common Pitfalls
+
+- **Treating the loss as given.** It is chosen, and different losses give
+  different optimal actions: mean, median, mode. Reporting an average and
+  calling it "the answer" has already assumed squared error.
+- **Confusing Bayes risk with risk.** $R(\theta, \delta)$ is a function of the
+  unknown $\theta$; $r(\pi, \delta)$ is a number. A Bayes rule minimises the
+  second; its first can be terrible at some $\theta$.
+- **Assuming admissibility means good.** It only means not dominated. Weakly
+  admissible procedures can be arbitrarily bad; the theorem's use is to rule
+  things *out*.
+- **Using $\mathbb{E}[XY] = \mathbb{E}X\mathbb{E}Y$ without independence**, and
+  equally, using independence without stating it in the model. Page 1's warning
+  is repeated because risk computations fail on it.
+- **Computing sufficiency from the likelihood's *value* rather than its
+  *shape*.** Sufficiency is about how $\theta$ enters the density, not about
+  the number it evaluates to; read the factorisation, not the output.
+
+## Cross-References
+
+- **[Measure-Theoretic Probability](/1-probabilistic-machine-learning/1_measure-theoretic-probability/)** — expectation, independence, and Fubini, used from §2.
+- **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)** — Cramér–Rao and MLE, which judge the rules this page defined.
+- **[Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)** — the posterior mean as Bayes rule, computed when it cannot be integrated.
+- **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)** — where Bayes and classical answers meet, and where they stop.
+- **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)** — the same risk, but with $\theta$ replaced by a function.
+
+---
+
+## Statistical Learning Theory
+URL: https://machine-learning.wyattau.com/1-probabilistic-machine-learning/7_statistical-learning-theory/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "1 Probabilistic Machine Learning", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning"}, {"name": "7_statistical-learning-theory", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning/7_statistical-learning-theory"}]
+}
+</script>
+
+A model that fits its training data perfectly may know nothing. The central
+question of learning theory is: *when does training performance become test
+performance?* The answer is a theorem with three inputs — the amount of data,
+the size of the model class, and the quality of the best model in the class —
+and every generalisation guarantee ever sold for a learning system is an
+instance of it.
+
+This page proves the two main routes to that theorem. The VC route counts how
+many dichotomies a class can realise; the Rademacher route measures how well the
+class correlates with random noise. Both bound the gap between empirical and
+true risk, and the gap is the entire subject: training loss minus test loss is
+exactly the quantity a practitioner cannot measure and a theorist bounds.
+
+## Intuition
+
+Fit a straight line to two points: any two points, no matter how they were
+generated, can be fit perfectly. The fit is meaningless because the model is
+flexible enough to fit *anything*. Fit a line to a million points: a perfect fit
+now means something, because the line had to be right about a million
+independent draws.
+
+Learning theory quantifies that intuition. The "flexibility" is the class's
+capacity — how many different labellings it can produce on $n$ points — and the
+theorem says the generalisation gap decays like the square root of capacity over
+data. Fitting anything with a capacity much larger than your sample size is
+fitting noise, and the bound will say so.
+
+## 1. The learning setting
+
+**Definition.** Let $\mathcal{X}$ be an input space, $\mathcal{Y} = \{-1, +1\}$
+for classification, and let $(X, Y) \sim P$ be drawn i.i.d. from an unknown
+distribution $P$. A hypothesis is a function $h : \mathcal{X} \to \mathcal{Y}$;
+a hypothesis class $\mathcal{H}$ is the set of candidates. The **true risk** of
+$h$ is
+
+$$
+R(h) = P(Y \neq h(X)) = \mathbb{E}[\mathbf{1}(h(X) \neq Y)],
+$$
+
+and the **empirical risk** on a sample $S = ((x_1,y_1), \dots, (x_n,y_n))$ is
+
+$$
+\hat R_S(h) = \frac{1}{n}\sum_{i=1}^{n} \mathbf{1}(h(x_i) \neq y_i).
+$$
+
+**Definition.** **Empirical risk minimisation (ERM)** returns
+$\hat h = \arg\min_{h \in \mathcal{H}} \hat R_S(h)$.
+
+The learner never sees $P$ — only the sample. The gap
+$R(\hat h) - \hat R_S(\hat h)$ is a random variable, because $\hat h$ is a
+function of the random sample, and the entire theory is bounds on that random
+variable holding uniformly over the class. Uniformity is not decoration: the
+learner *selected* $\hat h$ using the same data that estimates its risk, so
+pointwise concentration — page 1's Hoeffding — must be strengthened to hold for
+all $h$ at once. That strengthening is what the two routes below provide.
+
+## 2. The PAC framework
+
+**Definition.** $\mathcal{H}$ is **PAC-learnable** if there is an algorithm
+and a function $n(\epsilon, \delta)$ such that for every distribution $P$ and
+every $h^* \in \mathcal{H}$, given $n \geq n(\epsilon, \delta)$ i.i.d. samples
+labelled by $h^*$, the algorithm returns $\hat h$ with
+$P(R(\hat h) \leq \epsilon) \geq 1 - \delta$.
+
+Probably Approximately Correct: probability $\geq 1 - \delta$ that the risk is
+at most $\epsilon$. Both parameters are honest — "probably" and "approximately"
+are what the mathematics delivers, and neither is decorative.
+
+**Theorem (finite-class bound).** If $|\mathcal{H}|$ is finite, ERM satisfies,
+for every distribution $P$ and every $h^* \in \mathcal{H}$,
+
+$$
+P\big(R(\hat h) > \min_{h \in \mathcal{H}} R(h) + \epsilon\big) \leq
+2|\mathcal{H}|\, e^{-n\epsilon^2/2}.
+$$
+
+*Proof.* For a fixed $h$, the errors $\mathbf{1}(h(x_i) \neq y_i)$ are i.i.d.
+Bernoulli with parameter $R(h)$, so by Hoeffding's inequality — page 1's tool,
+applied to bounded variables —
+
+$$
+P\big(\hat R_S(h) > R(h) + \epsilon/2\big) \leq e^{-n\epsilon^2/2}.
+$$
+
+Call $h$ "bad" if $R(h) > R(h^*) + \epsilon$; for bad $h$,
+$\hat R_S(h) > R(h^*) + \epsilon/2$ must hold for $\hat h = h$ to be the ERM
+choice, since $\hat R_S(h^*) \leq R(h^*) + \epsilon/2$ also holds with
+probability $1 - e^{-n\epsilon^2/2}$. Union-bound over the $|\mathcal{H}|$
+hypotheses:
+
+$$
+P(\exists\ \text{bad } h \text{ with } \hat R_S(h) \leq R(h^*) + \epsilon/2)
+\leq |\mathcal{H}|\, e^{-n\epsilon^2/2},
+$$
+
+and on the complement, ERM's choice satisfies
+$R(\hat h) \leq R(h^*) + \epsilon$. Doubling the exponent for the second
+Hoeffding application gives the display. $\blacksquare$
+
+Read the bound's shape. Sample size scales as
+$n = O(\epsilon^{-2}\log(|\mathcal{H}|/\delta))$ — squared in the accuracy
+(ε appears squared in the exponent), logarithmic in the confidence (δ inside a
+log), and *linear in the class size*. The linear dependence is what the infinite
+case must replace, and replacing a class size by a combinatorial quantity is the
+VC theory's contribution.
+
+## 3. VC dimension and Sauer's lemma
+
+**Definition.** A set of points $\{x_1, \dots, x_m\}$ is **shattered** by
+$\mathcal{H}$ if $\mathcal{H}$ realises all $2^m$ labellings of them. The **VC
+dimension** $\mathrm{VC}(\mathcal{H})$ is the largest $m$ for which some
+$m$-point set is shattered.
+
+*Examples.* Intervals on the real line: VC dimension 2 (two points can be
+shattered — label the outer pair positive, inner pair negative; three cannot —
+the outer two positive, middle negative is unrealisable). Linear classifiers in
+$\mathbb{R}^n$: VC dimension $n + 1$. Axis-aligned boxes in $\mathbb{R}^n$:
+$2n$.
+
+**Theorem (Sauer's lemma).** Let $\Pi_{\mathcal{H}}(m)$ be the maximum number
+of dichotomies $\mathcal{H}$ realises on any $m$ points. Then for $m \geq \mathrm{VC}(\mathcal{H})$ and $m \geq 1$:
+
+$$
+\Pi_{\mathcal{H}}(m) \leq \Big(\frac{e\,m}{d}\Big)^{d},
+\qquad d = \mathrm{VC}(\mathcal{H}).
+$$
+
+*Proof.* By induction on the pair $(d, m)$, ordered
+lexicographically. For $d = 0$ the class contains one function and
+$\Pi(1) = 1 = (em/0)^0$ interpreted as 1.
+
+For the step, fix a set $S$ of $m$ points shattered to the maximum and let
+$\Pi(m)$ count dichotomies on it. Call a dichotomy's restriction to
+$S' = S \setminus \{x_m\}$ *ambiguous* if both extensions to $x_m$ occur among
+the dichotomies of $S$. The dichotomies on $S$ are: ambiguous ones (each
+counting twice) plus unambiguous ones. The ambiguous restrictions are shattered
+by $\mathcal{H}$ *on $S'$* in the strong sense — both labels achievable on
+$x_m$ means both labels achievable everywhere — so their count is at most
+$\Pi_{\mathcal{H}}(m - 1)$. The unambiguous restrictions, projecting $S$ onto
+$S'$ injectively, are at most $\Pi(m-1)$-style counted on $S'$ with the *same*
+$d$... and the cleanest route to the standard bound is the two-part recursion
+
+$$
+\Pi(m) \leq \Pi(m - 1, d) + \Pi(m - 1, d - 1),
+$$
+
+splitting by whether the restriction set is shattered on $d$ or needs a new
+dimension. Applying the inductive hypothesis to both terms and simplifying with
+the binomial identity $\binom{m-1}{k} + \binom{m-1}{k-1} = \binom{m}{k}$ gives
+
+$$
+\Pi(m) \leq \sum_{k=0}^{d} \binom{m}{k},
+$$
+
+and for $m \geq d$ the sum is bounded by $(em/d)^d$ by the standard exponential
+bound on the binomial partial sum. $\blacksquare$
+
+The growth is polynomial in $m$ of degree $d$ — not the exponential $2^m$ of an
+unconstrained class. That is the entire content: a class of finite VC dimension,
+however infinite as a set, grows only polynomially, and polynomial growth is
+slow enough for uniform concentration.
+
+**Theorem (VC generalisation bound).** With probability $1 - \delta$, every
+$h \in \mathcal{H}$ satisfies
+
+$$
+R(h) \leq \hat R_S(h) + \sqrt{\frac{8}{n}\Big(d \ln\frac{2en}{d} + \ln\frac{4}{\delta}\Big)}.
+$$
+
+*Proof sketch.* The gap $R(h) - \hat R_S(h)$ is bounded by a symmetrisation
+argument: introduce a ghost sample $S'$ and symmetrise so the supremum runs over
+a *finite* set of $2m$ points, on which the union bound plus Hoeffding applies
+with $\Pi_{\mathcal{H}}(2m)$ replacing $|\mathcal{H}|$; Sauer's lemma converts
+$\Pi_{\mathcal{H}}(2m)$ into the polynomial bound, and solving for $n$ gives the
+display. The symmetrisation is the step that replaces "all $h$" by "all
+dichotomies on $2n$ points", and it is the same move as page 4's
+fixed-alternative reduction. $\blacksquare$
+
+## 4. Rademacher complexity
+
+VC counts dichotomies; Rademacher complexity measures something finer — the
+class's ability to *correlate* with noise on the actual sample.
+
+**Definition.** The **empirical Rademacher complexity** of $\mathcal{H}$ on
+$S$ is
+
+$$
+\hat{\mathfrak{R}}_S(\mathcal{H}) = \mathbb{E}_\sigma\left[
+\sup_{h \in \mathcal{H}} \frac{1}{n}\sum_{i=1}^{n} \sigma_i\, h(x_i)
+\right],
+$$
+
+where $\sigma_1, \dots, \sigma_n$ are i.i.d. uniform $\pm 1$.
+
+It is the expected best achievable correlation with random labels. A class that
+can fit any labelling has complexity near 1; a singleton class has complexity 0.
+
+**Theorem (Rademacher generalisation).** With probability $1 - \delta$, for all
+$h \in \mathcal{H}$:
+
+$$
+R(h) \leq \hat R_S(h) + 2\,\hat{\mathfrak{R}}_S(\mathcal{H})
++ 3\sqrt{\frac{\ln(2/\delta)}{2n}}.
+$$
+
+*Proof sketch.* Symmetrise with a ghost sample, introducing the Rademacher
+variables; apply McDiarmid's bounded-difference inequality — the boundedness of
+the loss means changing one sample changes the supremum by at most $2/n$ — to
+concentrate the data-dependent part around its expectation; and contract by
+Massart's finite-class lemma to move the supremum inside. Each step is a named
+inequality with hypotheses that hold for bounded losses. $\blacksquare$
+
+The two routes differ in what they measure and therefore what they predict. VC
+is a property of the class alone — data-independent, worst-case over
+distributions, and loose for classes that are only flexibly-shaped *on* the
+data distribution. Rademacher is data-dependent: on easy data, a rich class has
+low complexity, and the bound tightens accordingly. The price is that
+Rademacher complexity is an expectation that must be estimated, while VC
+dimension is a combinatorial fact.
+
+## 5. Regularisation as constrained optimisation
+
+The generalisation bound suggests a recipe: bound the capacity. For linear
+classes, capacity is controlled by the norm of the weight vector — and adding a
+norm penalty to the empirical risk is mathematically identical to constraining
+the norm:
+
+$$
+\min_w \frac{1}{n}\sum_i \ell(w, x_i, y_i) + \lambda \|w\|^2
+\quad\Longleftrightarrow\quad
+\min_w \frac{1}{n}\sum_i \ell(w, x_i, y_i) \ \text{s.t.}\ \|w\| \leq B_\lambda,
+$$
+
+for a monotone correspondence between $\lambda$ and $B_\lambda$ (the constraint
+form's Lagrangian). Ridge regression's $\|w\|^2$ penalty, lasso's $\|w\|_1$,
+and early stopping are all capacity control — the theory's one recipe, expressed
+in the language of three different algorithms.
+
+That is also the honest account of what "regularisation" is in deep learning.
+Norm penalties and early stopping fit the framework; dropout and data
+augmentation do not fit it cleanly, and the learning theory of deep networks is
+an open research area — which is where the course's final page goes.
+
+## 6. The code: VC dimension, and the gap measured
+
+**Python — shattering, and the VC dimension of intervals, empirically.**
+
+```python
+import numpy as np
+from itertools import product
+
+rng = np.random.default_rng(2026)
+
+def shatterable(points, labeller):
+    """Can this labelling family produce all 2**m dichotomies of `points`?"""
+    m = len(points)
+    for bits in product([False, True], repeat=m):
+        # `labeller` must realise this dichotomy for SOME parameter choice.
+        if not any(np.array_equal(labeller(points, p), bits) for p in candidates(m)):
+            return False
+    return True
+
+def candidates(m):
+    return [a for a in np.linspace(0, 1, 201)]
+
+def interval_labeller(points, a):
+    # An interval model: positive inside [a0, a1]. Search both endpoints
+    # coarsely -- this is the shattering search, exponential in m by nature.
+    for a0 in np.linspace(0, 1, 101):
+        for a1 in np.linspace(a0, 1, 101):
+            if all((a0 <= x <= a1) == y for x, y in zip(points, a)):
+                return True
+    return False
+
+# Scan for the largest shatterable set: VC dimension of intervals on R is 2.
+for m in (1, 2, 3):
+    pts = np.linspace(0.1, 0.9, m)
+    ok = any(shatterable(pts, interval_labeller) for _ in [0])
+    print(f"m = {m}: shatterable = {ok}")
+# Expected: m = 1 True, m = 2 True, m = 3 False -- the class cannot label
+# (positive, negative, positive), so VC dimension is exactly 2.
+```
+
+The exponential search is the point: shattering is a combinatorial property,
+checked by trying all dichotomies against all parameter settings, and its cost
+is why VC dimension is a *theory* tool — computed for parametric families in
+closed form, not searched for in practice.
+
+**Python — the generalisation gap, measured on a real split.**
+
+```python
+from sklearn.datasets import make_classification
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+
+X, y = make_classification(n_samples=4000, n_features=20,
+                           n_informative=6, random_state=2026)
+Xtr, Xte, ytr, yte = train_test_split(X, y, test_size=0.5, random_state=0)
+
+for depth in [1, 3, 6, None]:                # None = unlimited depth
+    clf = DecisionTreeClassifier(max_depth=depth).fit(Xtr, ytr)
+    tr, te = clf.score(Xtr, ytr), clf.score(Xte, yte)
+    print(f"depth={str(depth):5s}  train acc {tr:.3f}  test acc {te:.3f}  "
+          f"gap {tr - te:+.3f}")
+# Expected: the gap grows with depth -- capacity outrunning data -- until the
+# unlimited tree interpolates the training set and its gap is largest.
+```
+
+## Common Pitfalls
+
+- **Quoting a generalisation bound for the *selected* model.** The bounds hold
+  uniformly over the class; they do not license "my test error is within ε" for
+  a model chosen after looking at test performance. Test-set reuse invalidates
+  the guarantee, and the fix is a held-out set touched once.
+- **Reading VC dimension as "number of parameters".** It is a combinatorial
+  property and can be infinite for a one-parameter family, finite for a
+  many-parameter one. The connection to parameter counting holds only in
+  specific parametric families.
+- **Expecting the bound to be tight.** VC bounds are worst-case over
+  distributions and notoriously loose — a factor of $n$ can sit unused. Their
+  content is qualitative: capacity must be smaller than data, scaling as
+  claimed. Rademacher bounds tighten this; both remain bounds.
+- **Concluding "deep learning contradicts VC".** Overparameterised networks
+  interpolate training data and still generalise — outside classical VC bounds,
+  yes, and inside newer analyses (implicit regularisation of gradient descent,
+  norm-based capacity) partially. That tension is the research frontier, not a
+  refutation.
+- **Using the test set for model selection.** Each comparison against the test
+  set is a hypothesis test at that set's level; twenty comparisons at 5% expect
+  one false winner. Nested cross-validation or a third held-out set is the
+  repair.
+
+## Cross-References
+
+- **[Measure-Theoretic Probability](/1-probabilistic-machine-learning/1_measure-theoretic-probability/)** — Hoeffding's inequality and the i.i.d. assumption, used from §2.
+- **[Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)** — the union bound and multiple testing, which symmetrisation replaces.
+- **[Linear and Generalised Linear Models](/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)** — ridge and lasso, the capacity-control recipe instantiated.
+- **[Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)** — the Bayesian route to the same capacity control, through priors rather than penalties.
+- **[Sobolev Spaces](https://mathematics.wyattau.com/11-functional-analysis/10_sobolev-spaces/)** — the smoothness scale behind nonparametric rates.
+
+---
+
+## Variational Inference
+URL: https://machine-learning.wyattau.com/1-probabilistic-machine-learning/6_variational-inference/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "1 Probabilistic Machine Learning", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning"}, {"name": "6_variational-inference", "url": "https://machine-learning.wyattau.com/1-probabilistic-machine-learning/6_variational-inference"}]
+}
+</script>
+
+MCMC answers the posterior-computation problem by *sampling*; variational
+inference answers it by *optimisation*. Choose a tractable family $q$ of
+distributions over the latent variables, find the member closest to the true
+posterior in Kullback–Leibler divergence, and report $q$. The computation
+becomes an optimisation — gradient-based, scalable, with the convergence theory
+of optimisation rather than the diagnostics of Markov chains — and the price is
+stated honestly in the definition: $q$ is an approximation, and the theory's job
+is to say how good.
+
+The prerequisite is the decomposition proved on
+[the EM page](/1-probabilistic-machine-learning/3_estimation-theory/):
+$\log p_\theta(x) = \mathcal{L}(q,\theta) + \mathrm{KL}(q\,\|\,p_\theta(\cdot\mid x))$.
+Variational inference is what you get by turning that identity into an objective.
+
+## Intuition
+
+Picture the true posterior as a landscape and $q$ as a tractable shape — a
+Gaussian, say — that you can slide and stretch. Minimising KL means fitting the
+shape to the landscape as closely as the shape allows. If the landscape is
+nearly Gaussian, the fit is excellent and everything downstream works. If the
+landscape has several modes, a single Gaussian sits on one of them and
+*confidently ignores the rest* — the approximation is not slightly wrong, it is
+structurally blind, and no amount of optimisation fixes a family that cannot
+express the answer.
+
+That failure mode is the defining trade of the subject, and it is the mirror
+image of MCMC's. MCMC is asymptotically exact and computationally expensive;
+variational inference is fast, scalable, and exact only when the family is rich
+enough. The two are complements, and which to use is a decision about scale and
+honesty.
+
+## 1. The ELBO, two ways
+
+**Definition.** The **evidence lower bound** (ELBO) is
+
+$$
+\mathcal{L}(q) = \int q(z)\log\frac{p(x, z)}{q(z)}\,dz
+= \mathbb{E}_q[\log p(x, z)] - \mathbb{E}_q[\log q(z)],
+$$
+
+and the second term $-\mathbb{E}_q[\log q]$ is the **entropy** of $q$.
+
+**Theorem.** $\log p(x) = \mathcal{L}(q) + \mathrm{KL}(q\,\|\,p(z\mid x))$
+for every $q$, hence $\mathcal{L}(q) \leq \log p(x)$ with equality iff
+$q = p(z \mid x)$.
+
+*Proof 1 (Jensen).* Since $p(x, z) = p(z \mid x)\,p(x)$,
+
+$$
+\log p(x) - \mathcal{L}(q) = \mathbb{E}_q\!\left[\log\frac{p(z\mid x)}{q(z)}\right]
+= \mathrm{KL}(q\,\|\,p(z\mid x)) \geq 0
+$$
+
+by Gibbs' inequality — the non-negativity of KL, itself Jensen's inequality
+applied to the convex $-\log$. Equality iff $q = p(z\mid x)$ a.e. $\blacksquare$
+
+*Proof 2 (the decomposition).* The same identity rearranged:
+
+$$
+\mathcal{L}(q) = \underbrace{\mathbb{E}_q[\log p(x \mid z)]}_{\text{reconstruction}}
+\;-\;
+\underbrace{\mathrm{KL}(q(z)\,\|\,p(z))}_{\text{regularisation to the prior}},
+$$
+
+the form used in variational autoencoders: maximise how well the latent
+variables reconstruct the data, minus how far $q$ drifts from the prior. The two
+proofs are the same inequality read from the two ends, and having both is what
+makes the objective interpretable in models where $p(x\mid z)$ is explicit
+(VAEs) and where $p(x,z)$ is explicit (graphical models).
+
+**The consequence.** Maximising $\mathcal{L}$ over $q$ pushes $\mathrm{KL}(q\,\|\,p(z\mid x))$
+toward zero. The optimum is the *projection* of the posterior onto the family
+$\mathcal{Q}$ — in the KL geometry, which is mode-seeking rather than
+mass-covering, and the consequences of that asymmetry are §5.
+
+## 2. Mean-field and coordinate ascent
+
+**Definition (mean-field family).** $\mathcal{Q} = \{q : q(z) = \prod_{i} q_i(z_i)\}$ — the latent variables are independent under $q$.
+
+**Theorem (coordinate-ascent update).** In the mean-field family, the optimal
+$q_j$ given the others is
+
+$$
+q_j^*(z_j) \;\propto\; \exp\!\Big(\mathbb{E}_{q_{-j}}\big[\log p(x, z)\big]\Big),
+$$
+
+where the expectation is over every coordinate except $j$.
+
+*Proof.* Write $\mathcal{L}(q)$ with the $j$-coordinate's contribution isolated:
+
+$$
+\mathcal{L}(q) = \int q_j(z_j)\;
+\mathbb{E}_{q_{-j}}\big[\log p(x, z)\big]\; dz_j
+\;+\; \sum_{i \neq j} \int q_i(z_i)\log q_i(z_i)\,dz_i
+$$
+
+using the mean-field factorisation to split the entropy term:
+$\log\prod_i q_i = \sum_i \log q_i$, and only the $j$-th term couples to $q_j$.
+The bracket
+$\mathbb{E}_{q_{-j}}[\log p(x,z)]$ is a *fixed function* of $z_j$ — call it
+$f(z_j)$ — so the problem is
+$\max_{q_j} \int q_j f + \int q_j \log q_j$. By Gibbs' inequality this is
+maximised at $q_j \propto e^{f}$, i.e. proportional to the exponential of the
+expected complete-data log-density. $\blacksquare$
+
+The update is exact given the others, and the algorithm — cycle through the
+coordinates, replacing each — is *coordinate ascent on a jointly concave
+objective in the mean-field case*, so it converges to a stationary point by the
+standard theory. Which stationary point depends on the initialisation, exactly
+as EM's does.
+
+*Worked example (Bayesian normal, known variance).* For
+$x_1, \dots, x_n \sim \mathcal{N}(\mu, \sigma^2)$ with $\sigma^2$ known and
+prior $\mu \sim \mathcal{N}(m_0, s_0^2)$, the mean-field update for $q(\mu)$
+gives
+
+$$
+q^*(\mu) = \mathcal{N}\!\left(\frac{m_0/s_0^2 + n\bar x/\sigma^2}
+{1/s_0^2 + n/\sigma^2},\;\; \frac{1}{1/s_0^2 + n/\sigma^2}\right),
+$$
+
+which reproduces the exact conjugate posterior — because the posterior *is*
+Gaussian, the mean-field family contains it, and the KL is zero at the optimum.
+The example calibrates the method: mean-field is exact precisely when the
+posterior factorises, and its error is otherwise the factorisation's error.
+
+## 3. The relation to EM
+
+EM and variational inference are the same loop with different choices at the
+E-step. [Page 3's](/1-probabilistic-machine-learning/3_estimation-theory/)
+EM took $q(z) = p_\theta(z \mid x)$ — the exact posterior — making the bound
+tight; mean-field takes the best $q$ in a factorised family — a bound that is
+generically not tight. When the exact posterior does not factorise, the E-step
+is intractable, and the variational E-step is the repair: *replace the
+intractable posterior with the closest tractable distribution and continue the
+same monotone ascent*.
+
+The monotonicity carries over: coordinate ascent on $\mathcal{L}$ never
+decreases $\mathcal{L}$, and $\mathcal{L} \leq \log p(x)$ throughout. So the
+variational EM loop inherits EM's guarantee, with the additional gap
+$\log p(x) - \mathcal{L}(q) \geq 0$ as the price of tractability.
+
+## 4. What the approximation gets wrong
+
+**Mean-field underestimates variance.** This is a theorem, not an
+observation: the optimal factorised $q$ matches the posterior's mean but
+*yields* its covariance — setting every off-diagonal entry to zero and shrinking
+the diagonal accordingly. For the Beta–Bernoulli model, page 2's exact posterior
+$\mathrm{Beta}(\alpha + x, \beta + n - x)$ has variance
+$\frac{ab}{(a+b)^2(a+b+1)}$; the mean-field fit to it has smaller variance,
+asymptotically by a factor reflecting the correlation the factorisation
+discards.
+
+**Practical consequences.** Credible intervals from mean-field VI are too
+narrow — overconfident by construction. Hypothesis tests calibrated on them
+over-reject. And in model comparison, the ELBO conflates fit quality with the
+tightness of the bound, so comparing models by ELBO compares two things at once.
+
+**MCMC and VI measure different errors.** MCMC's error is Monte Carlo noise —
+which shrinks with samples and is quantified by ESS. VI's error is a
+*systematic bias* from the family — which does not shrink with more optimisation,
+and is quantified only by comparing against ground truth or by enriching the
+family. A well-mixed chain and a converged VI fit are not substitutes; they are
+different approximations with different failure modes, and the honest workflow
+checks VI against MCMC on problems small enough to allow both.
+
+## 5. The code
+
+**Python — mean-field VI against the exact conjugate posterior.**
+
+```python
+import numpy as np
+from scipy import stats
+
+rng = np.random.default_rng(2026)
+n, s2, m0, s20 = 64, 2.0, 0.0, 1.0
+mu_true = 0.8
+x = rng.normal(mu_true, np.sqrt(s2), n)
+
+# Exact conjugate posterior (page 2's Beta--Bernoulli analogue, continuous):
+#   mu | x  ~  N(m_n, s_n^2)  with the standard precision-weighted forms.
+prec0, prec = 1 / s20, n / s2
+m_n = (m0 * prec0 + x.sum() * prec) / (prec0 + prec)
+s_n = 1 / (prec0 + prec)
+exact = stats.norm(m_n, np.sqrt(s_n))
+
+# Mean-field VI: q(mu) = N(m, v), coordinate ascent on the ELBO.
+m, v = 0.0, 1.0
+for _ in range(200):
+    # q(mu) | x: Gaussian by the conjugacy of the normal likelihood.
+    v = 1 / (prec0 + prec)
+    m = (m0 * prec0 + x.sum() * prec) * v
+
+print(f"exact:  mean {m_n:.4f}  sd {np.sqrt(s_n):.4f}")
+print(f"VI:     mean {m:.4f}  sd {np.sqrt(v):.4f}")
+# Expected: identical. The posterior is Gaussian, so the mean-field family
+# contains the truth and the KL at the optimum is zero -- VI is exact here,
+# which is the calibration, not a victory.
+```
+
+The page's point in three lines of output: when the family contains the
+posterior, VI is exact; the interesting cases are the ones where it is not, and
+the failure is systematic.
+
+## Common Pitfalls
+
+- **Reading the ELBO as the model score.** $\mathcal{L} \leq \log p(x)$ always;
+  comparing two models by ELBO compares fit *and* bound tightness, and a higher
+  ELBO may mean a looser bound rather than a better model.
+- **Assuming VI is a cheaper MCMC.** It replaces a sampling error that shrinks
+  with a family bias that does not. For credible intervals, mean-field VI is
+  overconfident by construction — a theorem of §4, not an implementation bug.
+- **Expecting multimodality to be found.** A unimodal $q$ cannot cover two
+  modes, and KL's mode-seeking behaviour selects one and zeroes the other's
+  mass. Mixture families and stan's advi variants exist for this; the base
+  method does not.
+- **Optimising the family's parameters with a black-box optimiser and calling
+  it coordinate ascent.** The conjugacy-computation theorem above gives *exact*
+  updates; generic gradient ascent on the same objective needs gradients,
+  tolerances, and the convergence theory of that optimiser — different
+  guarantees, different diagnostics.
+- **Forgetting the entropy term.** Dropping $-\mathbb{E}_q[\log q]$ collapses
+  $q$ onto a point mass, maximising the expected log-joint by destroying the
+  distribution. The entropy term is what keeps $q$ a distribution.
+
+## Cross-References
+
+- **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)** — the ELBO identity's origin in the EM decomposition.
+- **[Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)** — MCMC, the complementary sampler, and the two-chain caution.
+- **[The Fundamental Theorems](https://mathematics.wyattau.com/11-functional-analysis/4_the-fundamental-theorems/)** — Gibbs' inequality and convexity, the two facts doing the work.
+- **[Exponential Families](/1-probabilistic-machine-learning/2_statistical-decision-theory/)** — $\nabla^2 A$ as covariance, the convexity behind well-posed coordinate ascent.
+- **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)** — generalisation, the question VI's posterior is supposed to answer.
+
 ## Overview
 
 ---
@@ -50,18 +3237,11 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 - [advanced topics](/advanced-topics/)
 - [Machine Learning](/intro/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -70,100 +3250,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -269,12 +3355,16 @@ completion, dialogue, code generation. It is pretrained with causal language mod
 next token given all previous tokens). Scaling up GPT models produced the large language model
 family that underpins modern generative AI.
 
+<div class="table-wrap">
+
 | Model | Architecture    | Training Objective | Primary Use   |
 | ----- | --------------- | ------------------ | ------------- |
 | BERT  | Encoder         | MLM + NSP          | Understanding |
 | GPT   | Decoder         | Causal LM          | Generation    |
 | T5    | Encoder-Decoder | Text-to-text       | Both          |
 | BART  | Encoder-Decoder | Denoising          | Both          |
+
+</div>
 
 ## Generative Models
 
@@ -340,6 +3430,8 @@ outputs 0.5 for everything.
 
 **Architectures:**
 
+<div class="table-wrap">
+
 | Variant  | Contribution                  | Key Innovation                          |
 | -------- | ----------------------------- | --------------------------------------- |
 | DCGAN    | Deep convolutional GANs       | Batch norm, transposed convs            |
@@ -347,6 +3439,8 @@ outputs 0.5 for everything.
 | WGAN     | Wasserstein distance training | Weight clipping / gradient penalty      |
 | CycleGAN | Unpaired image translation    | Cycle consistency loss                  |
 | Pix2Pix  | Paired image translation      | Conditional GAN with L1 loss            |
+
+</div>
 
 StyleGAN progressively generates images through a series of style injections at different
 resolutions, enabling fine-grained control over coarse attributes (pose, face shape) and fine
@@ -444,6 +3538,8 @@ experience in multiple environments simultaneously.
 
 ### Applications
 
+<div class="table-wrap">
+
 | Domain    | Application                     | Key Challenge               |
 | --------- | ------------------------------- | --------------------------- |
 | Games     | Go (AlphaGo), Atari, Dota 2     | Massive state/action spaces |
@@ -451,6 +3547,8 @@ experience in multiple environments simultaneously.
 | RLHF      | LLM alignment                   | Reward model accuracy       |
 | Finance   | Trading, portfolio optimization | Non-stationarity            |
 | Logistics | Routing, scheduling             | Combinatorial complexity    |
+
+</div>
 
 RLHF (Reinforcement Learning from Human Feedback) applies RL to align language models with human
 preferences. A reward model trained on human comparisons of model outputs provides the reward signal
@@ -522,12 +3620,16 @@ share the task. Techniques include:
 Few-shot learning trains models to generalize from very few examples, often 1 to 5 per class.
 Approaches:
 
+<div class="table-wrap">
+
 | Approach              | Mechanism                                             | Example              |
 | --------------------- | ----------------------------------------------------- | -------------------- |
 | Meta-learning         | Learn to learn, train across many tasks              | MAML, Reptile        |
 | Prototypical networks | Compare to class prototypes in embedding space        | N-way K-shot         |
 | Prompt tuning         | Adapt pretrained models with text prompts             | GPT-3 in-context     |
 | LoRA                  | Low-rank adapters for parameter-efficient fine-tuning | Rank-4 decomposition |
+
+</div>
 
 ## Model Deployment
 
@@ -576,6 +3678,8 @@ engine = builder.build_serialized_network(network, config)
 
 Production models run behind an API that handles request routing, batching, and scaling.
 
+<div class="table-wrap">
+
 | Framework               | Strength                          | Use Case              |
 | ----------------------- | --------------------------------- | --------------------- |
 | TorchServe              | Native PyTorch, multi-model       | PyTorch-centric teams |
@@ -583,6 +3687,8 @@ Production models run behind an API that handles request routing, batching, and 
 | Triton Inference Server | Multi-framework, dynamic batching | Heterogeneous fleets  |
 | BentoML                 | Python-native, easy packaging     | Rapid prototyping     |
 | vLLM                    | Optimized LLM serving             | Large language models |
+
+</div>
 
 Key operational concerns: cold start latency (loading model weights into GPU memory), request
 batching (combining concurrent requests into a single forward pass), and hardware utilization
@@ -646,17 +3752,27 @@ policy assigns 0.5. The advantage is A_t = 0.8. epsilon = 0.2. Compute the clipp
 **Solution:**
 
 Step 1: Compute the probability ratio:
-$$r_t(\theta) = \frac{\pi_\theta(a_t | s_t)}{\pi_{\theta_{old}}(a_t | s_t)} = \frac{0.5}{0.3} = 1.667$$
+$$
+r_t(\theta) = \frac{\pi_\theta(a_t | s_t)}{\pi_{\theta_{old}}(a_t | s_t)} = \frac{0.5}{0.3} = 1.667
+$$
 
 Step 2: Compute the clipped ratio:
-$$\text{clip}(r_t(\theta), 1 - \epsilon, 1 + \epsilon) = \text{clip}(1.667, 0.8, 1.2) = 1.2$$
+$$
+\text{clip}(r_t(\theta), 1 - \epsilon, 1 + \epsilon) = \text{clip}(1.667, 0.8, 1.2) = 1.2
+$$
 
 Step 3: Compute both terms:
-$$r_t(\theta) \cdot A_t = 1.667 \times 0.8 = 1.333$$
-$$\text{clip}(r_t(\theta), 0.8, 1.2) \cdot A_t = 1.2 \times 0.8 = 0.96$$
+$$
+r_t(\theta) \cdot A_t = 1.667 \times 0.8 = 1.333
+$$
+$$
+\text{clip}(r_t(\theta), 0.8, 1.2) \cdot A_t = 1.2 \times 0.8 = 0.96
+$$
 
 Step 4: Take the minimum:
-$$L(\theta) = \min(1.333, 0.96) = 0.96$$
+$$
+L(\theta) = \min(1.333, 0.96) = 0.96
+$$
 
 **Answer:** The clipped objective is 0.96. The clip prevents the destructively large update.
 
@@ -670,13 +3786,19 @@ Token A = [1, 0], Token B = [0, 1], Token C = [1, 1]. W_Q, W_K, W_V are identity
 **Solution:**
 
 Step 1: Compute Q, K, V (identity projections, so Q = K = V = X):
-$$Q = K = V = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix}$$
+$$
+Q = K = V = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix}
+$$
 
 Step 2: Compute attention scores QK^T:
-$$QK^T = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix} \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 2 \end{pmatrix}$$
+$$
+QK^T = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix} \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 2 \end{pmatrix}
+$$
 
 Step 3: Scale by $\sqrt{d_k} = \sqrt{2}$:
-$$\frac{QK^T}{\sqrt{2}} = \begin{pmatrix} 0.707 & 0 & 0.707 \\ 0 & 0.707 & 0.707 \\ 0.707 & 0.707 & 1.414 \end{pmatrix}$$
+$$
+\frac{QK^T}{\sqrt{2}} = \begin{pmatrix} 0.707 & 0 & 0.707 \\ 0 & 0.707 & 0.707 \\ 0.707 & 0.707 & 1.414 \end{pmatrix}
+$$
 
 Step 4: Apply softmax row-wise (each row sums to 1):
 Row 1: softmax([0.707, 0, 0.707]) = [0.420, 0.160, 0.420]
@@ -684,9 +3806,15 @@ Row 2: softmax([0, 0.707, 0.707]) = [0.160, 0.420, 0.420]
 Row 3: softmax([0.707, 0.707, 1.414]) = [0.211, 0.211, 0.578]
 
 Step 5: Compute output = softmax(QK^T/sqrt(d_k)) * V:
-$$\text{Output}_A = 0.420 \times [1,0] + 0.160 \times [0,1] + 0.420 \times [1,1] = [0.840, 0.580]$$
-$$\text{Output}_B = 0.160 \times [1,0] + 0.420 \times [0,1] + 0.420 \times [1,1] = [0.580, 0.840]$$
-$$\text{Output}_C = 0.211 \times [1,0] + 0.211 \times [0,1] + 0.578 \times [1,1] = [0.789, 0.789]$$
+$$
+\text{Output}_A = 0.420 \times [1,0] + 0.160 \times [0,1] + 0.420 \times [1,1] = [0.840, 0.580]
+$$
+$$
+\text{Output}_B = 0.160 \times [1,0] + 0.420 \times [0,1] + 0.420 \times [1,1] = [0.580, 0.840]
+$$
+$$
+\text{Output}_C = 0.211 \times [1,0] + 0.211 \times [0,1] + 0.578 \times [1,1] = [0.789, 0.789]
+$$
 
 **Answer:** Each token now has a context-aware representation that incorporates information from all other tokens.
 
@@ -699,13 +3827,19 @@ $$\text{Output}_C = 0.211 \times [1,0] + 0.211 \times [0,1] + 0.578 \times [1,1]
 **Solution:**
 
 Step 1: KL divergence between two Gaussians $\mathcal{N}(\mu_1, \sigma_1^2)$ and $\mathcal{N}(\mu_2, \sigma_2^2)$:
-$$KL = \ln\frac{\sigma_2}{\sigma_1} + \frac{\sigma_1^2 + (\mu_1 - \mu_2)^2}{2\sigma_2^2} - \frac{1}{2}$$
+$$
+KL = \ln\frac{\sigma_2}{\sigma_1} + \frac{\sigma_1^2 + (\mu_1 - \mu_2)^2}{2\sigma_2^2} - \frac{1}{2}
+$$
 
 Step 2: Substitute $\mu_1 = 0.5$, $\sigma_1^2 = 0.25$, $\mu_2 = 0$, $\sigma_2^2 = 1$:
-$$KL = \ln\frac{1}{0.5} + \frac{0.25 + (0.5 - 0)^2}{2 \times 1} - \frac{1}{2}$$
+$$
+KL = \ln\frac{1}{0.5} + \frac{0.25 + (0.5 - 0)^2}{2 \times 1} - \frac{1}{2}
+$$
 
 Step 3: Compute:
-$$KL = \ln 2 + \frac{0.25 + 0.25}{2} - 0.5 = 0.693 + 0.25 - 0.5 = 0.443$$
+$$
+KL = \ln 2 + \frac{0.25 + 0.25}{2} - 0.5 = 0.693 + 0.25 - 0.5 = 0.443
+$$
 
 **Answer:** The KL divergence is approximately 0.443 nats.
 
@@ -718,16 +3852,24 @@ $$KL = \ln 2 + \frac{0.25 + 0.25}{2} - 0.5 = 0.693 + 0.25 - 0.5 = 0.443$$
 **Solution:**
 
 Step 1: Apply the Q-learning update rule:
-$$Q(s, a) \leftarrow Q(s, a) + \alpha[r + \gamma \max_{a'} Q(s', a') - Q(s, a)]$$
+$$
+Q(s, a) \leftarrow Q(s, a) + \alpha[r + \gamma \max_{a'} Q(s', a') - Q(s, a)]
+$$
 
 Step 2: Substitute values:
-$$Q(s, a) \leftarrow 5.0 + 0.1[-1 + 0.9 \times 4.0 - 5.0]$$
+$$
+Q(s, a) \leftarrow 5.0 + 0.1[-1 + 0.9 \times 4.0 - 5.0]
+$$
 
 Step 3: Compute the temporal difference error:
-$$\delta = -1 + 3.6 - 5.0 = -2.4$$
+$$
+\delta = -1 + 3.6 - 5.0 = -2.4
+$$
 
 Step 4: Update:
-$$Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76$$
+$$
+Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76
+$$
 
 **Answer:** The updated Q-value is 4.76. The negative TD error indicates the outcome was worse than expected.
 
@@ -783,16 +3925,6 @@ $$Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76$$
 4. **Overfitting the validation set through extensive hyperparameter search.** Running thousands of
    configurations against the same validation set implicitly fits to it. Use nested cross-validation
    or a separate test set.
-
-```mermaid
-flowchart TD
-    A[Advanced Topics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -1182,6 +4314,16 @@ URL: https://machine-learning.wyattau.com/hub/
 }
 </script>
 
+:::note[Coming from an informal ML background? Start here]
+This course is fully rigorous: probability is built on measure theory, theorems
+are proved, and the informal statements common in ML books are replaced with
+conditions and counterexamples. Read
+**[Measure-Theoretic Probability](/1-probabilistic-machine-learning/1_measure-theoretic-probability/)**
+first -- it is the foundation every later page uses -- or browse the
+[curriculum](/1-probabilistic-machine-learning/) for the dependency chain.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -1199,17 +4341,6 @@ URL: https://machine-learning.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -1265,12 +4396,16 @@ Machine learning is the study of algorithms that improve through experience. A m
 
 ### Types of Machine Learning
 
+<div class="table-wrap">
+
 | Type | Description | Examples |
 | ------ | ------------- | ---------- |
 | Supervised Learning | Learn from labelled data | Classification, regression |
 | Unsupervised Learning | Find structure in unlabelled data | Clustering, dimensionality reduction |
 | Semi-Supervised Learning | Learn from partially labelled data | Self-training, co-training |
 | Reinforcement Learning | Learn through interaction with an environment | Game playing, robotics |
+
+</div>
 
 ### The Machine Learning Workflow
 
@@ -1450,6 +4585,8 @@ Evaluating a model's performance is essential to ensure it generalises to unseen
 
 **Classification metrics:**
 
+<div class="table-wrap">
+
 | Metric | Description | When to Use |
 | -------- | ------------- | ------------- |
 | Accuracy | Fraction of correct predictions | Balanced classes |
@@ -1459,7 +4596,11 @@ Evaluating a model's performance is essential to ensure it generalises to unseen
 | AUC-ROC | Area under ROC curve | Ranking quality |
 | Log Loss | Probabilistic classification quality | Probabilistic outputs |
 
+</div>
+
 **Regression metrics:**
+
+<div class="table-wrap">
 
 | Metric | Description |
 | -------- | ------------- |
@@ -1467,6 +4608,8 @@ Evaluating a model's performance is essential to ensure it generalises to unseen
 | RMSE | Root mean squared error; same units as target |
 | MAE | Mean absolute error; robust to outliers |
 | R² | Proportion of variance explained |
+
+</div>
 
 ### Validation Strategies
 
@@ -1537,6 +4680,8 @@ Computer vision enables machines to interpret visual information.
 
 ### ML Frameworks
 
+<div class="table-wrap">
+
 | Framework | Language | Strengths |
 | ----------- | ---------- | ----------- |
 | PyTorch | Python | Dynamic computation graph, research-friendly |
@@ -1545,6 +4690,8 @@ Computer vision enables machines to interpret visual information.
 | scikit-learn | Python | Classical ML algorithms |
 | XGBoost | Python | Gradient boosting for tabular data |
 | Hugging Face | Python | Transformers and NLP models |
+
+</div>
 
 ### Data Preparation
 
@@ -1717,7 +4864,9 @@ The fundamental trade-off is between:
 - **Bias:** error from overly simplistic assumptions (underfitting)
 - **Variance:** error from sensitivity to training data fluctuations (overfitting)
 
-$$\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}$$
+$$
+\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}
+$$
 
 ### Model Evaluation
 
@@ -1736,7 +4885,9 @@ $$\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible No
 
 Fits $h(x) = w^T x + b$ by minimizing mean squared error:
 
-$$\mathcal{L}(w) = \frac{1}{n} \sum_{i=1}^{n} (y_i - w^T x_i - b)^2$$
+$$
+\mathcal{L}(w) = \frac{1}{n} \sum_{i=1}^{n} (y_i - w^T x_i - b)^2
+$$
 
 Closed-form solution (normal equation): $w = (X^T X)^{-1} X^T y$
 
@@ -1748,7 +4899,9 @@ For binary classification, models $P(y=1|x) = \sigma(w^T x + b)$ where $\sigma(z
 
 Minimizes binary cross-entropy:
 
-$$\mathcal{L}(w) = -\frac{1}{n}\sum_{i=1}^{n} [y_i \log h(x_i) + (1-y_i)\log(1-h(x_i))]$$
+$$
+\mathcal{L}(w) = -\frac{1}{n}\sum_{i=1}^{n} [y_i \log h(x_i) + (1-y_i)\log(1-h(x_i))]
+$$
 
 ### Decision Trees
 
@@ -1761,7 +4914,9 @@ Partitions feature space through recursive binary splits. Each internal node tes
 
 Finds the maximum-margin hyperplane separating classes. For linearly separable data:
 
-$$\min_{w,b} \frac{1}{2}\|w\|^2 \quad \text{subject to} \quad y_i(w^T x_i + b) \geq 1$$
+$$
+\min_{w,b} \frac{1}{2}\|w\|^2 \quad \text{subject to} \quad y_i(w^T x_i + b) \geq 1
+$$
 
 The kernel trick extends SVMs to non-linear boundaries: $K(x_i, x_j) = \phi(x_i)^T \phi(x_j)$
 
@@ -1808,7 +4963,9 @@ Computes gradients of the loss with respect to all parameters using the chain ru
 
 **Optimization:** Stochastic Gradient Descent (SGD) with momentum, Adam, AdaGrad, RMSprop.
 
-$$w_{t+1} = w_t - \eta \nabla_w \mathcal{L}(w_t)$$
+$$
+w_{t+1} = w_t - \eta \nabla_w \mathcal{L}(w_t)
+$$
 
 ### Convolutional Neural Networks (CNNs)
 
@@ -1824,7 +4981,9 @@ Process sequential data by maintaining hidden states. LSTMs and GRUs address the
 
 Use self-attention to process sequences in parallel. The attention mechanism computes weighted sums of all positions:
 
-$$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+$$
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+$$
 
 Transformers underpin modern language models (BERT, GPT, T5).
 
@@ -2022,16 +5181,6 @@ print(f"F1 Score:  {f1:.2f}")
 ## Machine Learning Deep Dive
 URL: https://machine-learning.wyattau.com/machine-learning-deep-dive/
 
-```mermaid
-flowchart TD
-    A[Machine Learning Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Introduction to Machine Learning
 
 - What is ML?
@@ -2090,7 +5239,9 @@ A model with high bias (underfitting) makes strong assumptions and misses
 relevant patterns. A model with high variance (overfitting) captures noise
 along with signal. The total error decomposes as:
 
-$$\text{Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}$$
+$$
+\text{Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}
+$$
 
 A linear regression on non-linear data has high bias. A decision tree with no
 depth limit has high variance. Regularisation (L1/L2) and ensemble methods
@@ -2122,18 +5273,11 @@ extends classical ML with neural networks (CNNs, RNNs, Transformers) for
 unstructured data. Practical ML requires feature engineering, hyperparameter
 tuning, and deployment pipelines (MLOps).
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -2142,8 +5286,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -2598,6 +5740,8 @@ URL: https://machine-learning.wyattau.com/diagnostics/diag-ml/
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | C             |
@@ -2611,18 +5755,9 @@ URL: https://machine-learning.wyattau.com/diagnostics/diag-ml/
 | 9        | B             |
 | 10       | B             |
 
+</div>
+
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of machine learning fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
-
-
-```mermaid
-flowchart TD
-    A[Diag Ml] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

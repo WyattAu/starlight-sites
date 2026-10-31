@@ -30,7 +30,7 @@ students aged 16 to 19 after two years of study in the Senior Cycle.
 
 The Leaving Certificate serves as the principal matriculation qualification for entry to higher
 Education institutions in Ireland, including universities, institutes of technology, and colleges of
-Education. It is also widely recognised internationally.
+education. It is also widely recognised internationally.
 
 ### Levels
 
@@ -43,6 +43,8 @@ Each subject is offered at two levels:
 
 The grading scale is as follows:
 
+<div class="table-wrap">
+
 | Percentage | HL Grade | OL Grade |
 | ---------- | -------- | -------- |
 | 90 -- 100  | H1       | O1       |
@@ -53,6 +55,8 @@ The grading scale is as follows:
 | 40 -- 49   | H6       | O6       |
 | 30 -- 39   | H7       | O7       |
 | 0 -- 29    | H8       | O8       |
+
+</div>
 
 ### Core Subjects
 
@@ -86,7 +90,9 @@ project components that are assessed separately.
 
 For CAO (Central Applications Office) entry, Leaving Certificate results are converted to points.
 The highest six subjects are counted. Higher Level Mathematics attracts a bonus of 25 points for
-Grades H6 and above.
+grades H6 and above.
+
+<div class="table-wrap">
 
 | HL Grade | Points         |
 | -------- | -------------- |
@@ -97,6 +103,10 @@ Grades H6 and above.
 | H5       | 56             |
 | H6       | 46 (+25 bonus) |
 
+</div>
+
+<div class="table-wrap">
+
 | OL Grade | Points |
 | -------- | ------ |
 | O1       | 56     |
@@ -106,21 +116,23 @@ Grades H6 and above.
 | O5       | 20     |
 | O6       | 12     |
 
+</div>
+
 ## Using These Notes
 
 These notes are structured by subject and topic. Each topic covers material relevant to both Higher
-And Ordinary Level, with the level indicated. Worked examples, common pitfalls, and practice
+and Ordinary Level, with the level indicated. Worked examples, common pitfalls, and practice
 Questions are included throughout.
 
 :::tip
 Questions. For Higher Level students, pay particular attention to the proofs and derivations, as
-These frequently appear on the examination.
+these frequently appear on the examination.
 :::
 
 ## State Examinations Commission (SEC)
 
 The SEC is the statutory body responsible for the development, administration, and accreditation of
-The State examinations in Ireland. Its website at [examinations.ie](https://www.examinations.ie)
+the State examinations in Ireland. Its website at [examinations.ie](https://www.examinations.ie)
 Provides past examination papers, marking schemes, and chief examiner reports -- all invaluable
 Resources for revision.
 
@@ -130,18 +142,11 @@ Through past papers under timed conditions is one of the most effective preparat
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 The Irish Leaving Certificate is like the final exam of a two-year apprenticeship in learning itself -- it tests not just what you know but how well you can think under pressure. The SEC system values precision (in maths and science) and expression (in English and history) equally. Understanding the marking schemes is as important as understanding the content: knowing what the examiner rewards (showing working, using specific evidence, addressing the question) can mean the difference between grades. The most successful students treat the Leaving Cert as a skill to be practised, not just knowledge to be memorised.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

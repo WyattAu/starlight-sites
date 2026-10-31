@@ -134,12 +134,16 @@ server {
 }
 ```
 
+<div class="table-wrap">
+
 | Method       | Security Level | Best For                          |
 | ------------ | -------------- | --------------------------------- |
 | API Key      | Low            | Internal services, prototyping    |
 | Bearer Token | High           | User-facing APIs, microservices   |
 | HMAC         | High           | API gateways, financial APIs      |
 | mTLS         | Very High      | Service mesh, zero-trust networks |
+
+</div>
 
 ## Authorization
 
@@ -267,11 +271,15 @@ X-RateLimit-Reset: 1700000000
 Retry-After: 30
 ```
 
+<div class="table-wrap">
+
 | Strategy       | Per-User | Per-IP | Notes                              |
 | -------------- | -------- | ------ | ---------------------------------- |
 | Token bucket   | Yes      | Yes    | Smooth rate, burst allowed         |
 | Sliding window | Yes      | Yes    | Precise, memory-intensive          |
 | Fixed window   | Yes      | Yes    | Simple, burst at window boundaries |
+
+</div>
 :::
 
 :::note
@@ -356,11 +364,15 @@ CORS(app, origins=ALLOWED_ORIGINS, methods=['GET', 'POST', 'PUT', 'DELETE'],
 
 ## API Versioning
 
+<div class="table-wrap">
+
 | Strategy        | Example                               | Pros            | Cons                   |
 | --------------- | ------------------------------------- | --------------- | ---------------------- |
 | URL path        | `/api/v1/orders`                      | Simple, visible | URL changes            |
 | Header          | `Accept: application/vnd.api.v1+json` | Clean URLs      | Hidden, harder to test |
 | Query parameter | `/api/orders?version=1`               | Easy to add     | Cache-busting issues   |
+
+</div>
 
 ```python
 # URL path versioning (recommended for most APIs)
@@ -425,10 +437,14 @@ def list_orders():
     })
 ```
 
+<div class="table-wrap">
+
 | Method | Performance at page 10000 | Consistency on inserts/deletes | URL bookmarkable    |
 | ------ | ------------------------- | ------------------------------ | ------------------- |
 | Offset | Slow (scans 10000+ rows)  | Unstable (rows shift)          | Yes                 |
 | Cursor | Fast (index lookup)       | Stable (deterministic)         | No (cursor changes) |
+
+</div>
 
 ## Idempotency Keys
 
@@ -507,6 +523,8 @@ API Gateway responsibilities:
 
 ### Gateway Implementation Options
 
+<div class="table-wrap">
+
 | Option          | Complexity | Customization      | Use Case                     |
 | --------------- | ---------- | ------------------ | ---------------------------- |
 | Kong            | Medium     | High (Lua plugins) | Large-scale, extensible      |
@@ -514,6 +532,8 @@ API Gateway responsibilities:
 | Envoy           | High       | Very High          | Service mesh, gRPC           |
 | Nginx           | Medium     | High               | General purpose, lightweight |
 | Traefik         | Low        | Medium             | Container environments       |
+
+</div>
 
 ## GraphQL Security
 
@@ -634,16 +654,6 @@ Stack traces reveal implementation details (framework, library versions, file pa
 Attackers craft targeted exploits. Return generic error messages in production; log details
 Server-side.
 
-```mermaid
-flowchart TD
-    A[Api Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to api security, including key
@@ -656,9 +666,6 @@ principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Worked Examples
 

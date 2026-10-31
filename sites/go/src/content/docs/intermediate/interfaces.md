@@ -21,7 +21,7 @@ categories:
 ## Interface Basics
 
 An interface in Go defines a set of method signatures. A type satisfies an interface by implementing
-All of its methods. There is no explicit `implements` declaration -- satisfaction is implicit and
+all of its methods. There is no explicit `implements` declaration -- satisfaction is implicit and
 Structural.
 
 ```go
@@ -70,7 +70,7 @@ type ReadWriteCloser interface {
 }
 ```
 
-`ReadWriteCloser` requires all methods from `Reader``Writer`And `Closer`.
+`ReadWriteCloser` requires all methods from `Reader`, `Writer` and `Closer`.
 
 ## The Empty Interface
 
@@ -193,12 +193,12 @@ func main() {
 The rule: if any method of an interface has a pointer receiver, only a pointer to the type (not the
 Value itself) satisfies the interface. This is because calling a pointer receiver on a copy of the
 Value would be meaningless -- the method modifies the receiver, but the modification is lost when
-The copy is discarded.
+the copy is discarded.
 
 ## Nil Interface Values
 
 An interface value is a two-word tuple: (type, value). A nil interface has both type and value set
-To nil:
+to nil:
 
 ```go
 var s Speaker
@@ -213,7 +213,7 @@ var s Speaker = p // type is *Dog, value is nil
 fmt.Println(s == nil) // false!
 ```
 
-This is a common source of bugs. The interface is not nil because its type is `*Dog`Even though The
+This is a common source of bugs. The interface is not nil because its type is `*Dog`. Even though The
 value is nil. Calling a method on it works (the receiver is nil inside the method), but Comparing
 the interface to `nil` does not detect it.
 
@@ -243,6 +243,8 @@ Initialized.
 
 Go"s standard library defines several pervasive interfaces:
 
+<div class="table-wrap">
+
 | Interface        | Methods                                        | Used By                        |
 | ---------------- | ---------------------------------------------- | ------------------------------ |
 | `io.Reader`      | `Read(p []byte) (n int, err error)`            | Files, network connections     |
@@ -251,6 +253,8 @@ Go"s standard library defines several pervasive interfaces:
 | `fmt.Stringer`   | `String() string`                              | Custom string representation   |
 | `error`          | `Error() string`                               | Error values                   |
 | `sort.Interface` | `Len() int``Less(i,j int) bool``Swap(i,j int)` | Sorting                        |
+
+</div>
 
 Implementing `fmt.Stringer`:
 
@@ -293,17 +297,6 @@ fmt.Println(IPAddr{127, 0, 0, 1}) // 127.0.0.1
 5. **Empty interface in slices.** `[]any` is a common pattern but loses type safety. Since Go 1.18,
    prefer generics: `[]T` where `T` is a type parameter.
 
-
-```mermaid
-flowchart TD
-    A[Interfaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of interfaces, including underlying theory, practical
@@ -317,13 +310,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

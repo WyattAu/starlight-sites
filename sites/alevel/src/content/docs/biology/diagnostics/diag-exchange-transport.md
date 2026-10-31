@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Exchange Transport] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
@@ -269,7 +258,7 @@ was collected and analysed. The sap contained a high concentration of sucrose an
 confirming that phloem transports organic solutes. When stylets were inserted into phloem at
 different points along the plant (e.g., source leaf vs root), the sap always flowed **away from the
 source** (the exudation was directional), confirming that translocation is unidirectional from
-source to sink (at least in a given sieve tube). Radioactive labelling ($^{14}$C) of sucrose in a
+source to sink (at least in a given sieve tube). Radioactive labelling ($^{14}$ C) of sucrose in a
 source leaf showed that the labelled sucrose appeared in the phloem and moved towards the sink,
 providing further confirmation of the direction of flow.
 

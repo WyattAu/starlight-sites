@@ -5,7 +5,7 @@ title: "Lagrangian Mechanics"
 tags:
   - Physics
   - University
-description: "Lagrangian Mechanics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+description: "Lagrangian mechanics: generalised coordinates, the Euler-Lagrange equation from d'Alembert's principle and from Hamilton's principle, cyclic coordinates and conserved momenta, with the pendulum, double pendulum, Atwood machine and rotating hoop worked in full. Tier U."
 ---
 sources:
   - text: "Goldstein, H., Poole, C., & Safko, J. (2002). Classical Mechanics (3rd ed.). Addison Wesley."
@@ -20,11 +20,48 @@ sources:
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory before reading.
+
+- Write down the Euler-Lagrange equation. Which term is the "generalised momentum"?
+- What does $L = T - V$ assume about the forces and the constraints?
+- State Hamilton's principle. Is the action minimised or only stationary?
+- What is a cyclic coordinate, and what is conserved when you have one?
+- For a bead on a rotating hoop, when does a new stable equilibrium appear?
+
+## Motivation: why not just use $F = ma$
+
+Newton's second law is a vector equation. For a system of $N$ particles in
+three dimensions that is $3N$ coupled second-order equations, and the forces of
+constraint -- normal forces, tension, the normal reaction of a rail -- all
+appear in them. Most of the effort in a Newtonian solution goes into computing
+forces you do not care about, only to eliminate them at the end.
+
+The Lagrangian formulation removes them at the outset by working in
+**generalised coordinates**: the smallest set of numbers that specifies the
+configuration once the constraints are accounted for. A bead constrained to a
+hoop needs one number, not three. A double pendulum needs two, not six.
+
+The price is that the equations become second-order in the generalised
+coordinates with no explicit force bookkeeping. The reward is threefold:
+
+- The constraint forces never appear.
+- The choice of coordinates is free, so you pick the ones that make the problem
+  easy.
+- Symmetries become visible, and by Noether's theorem each one hands you a
+  conserved quantity for nothing.
+
+The structure of the whole subject is a single scalar function -- the
+Lagrangian -- plus one equation.
+
 ### 3.1 The Lagrangian
 
 The **Lagrangian** of a system is defined as
 
-$$L(q_1, \ldots, q_n, \dot{q}_1, \ldots, \dot{q}_n, t) = T - V$$
+$$
+L(q_1, \ldots, q_n, \dot{q}_1, \ldots, \dot{q}_n, t) = T - V
+$$
 
 Where $T$ is the kinetic energy and $V$ is the potential energy.
 
@@ -33,56 +70,78 @@ Where $T$ is the kinetic energy and $V$ is the potential energy.
 **Theorem 3.1 (Euler-Lagrange from D'Alembert).** The equations of motion for a holonomic system
 with ideal constraints are:
 
-$$\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right) - \frac{\partial L}{\partial q_j} = 0, \quad j = 1, \ldots, n$$
+$$
+\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right) - \frac{\partial L}{\partial q_j} = 0, \quad j = 1, \ldots, n
+$$
 
 _Proof._ Start from D'Alembert’s principle with only applied forces (ideal constraints):
 
-$$\sum_i (\mathbf{F}_i^{(\mathrm{app})} - m_i\ddot{\mathbf{r}}_i) \cdot \delta\mathbf{r}_i = 0$$
+$$
+\sum_i (\mathbf{F}_i^{(\mathrm{app})} - m_i\ddot{\mathbf{r}}_i) \cdot \delta\mathbf{r}_i = 0
+$$
 
 Express the virtual displacement in terms of generalised coordinates:
 
-$$\delta\mathbf{r}_i = \sum_j \frac{\partial \mathbf{r}_i}{\partial q_j}\delta q_j$$
+$$
+\delta\mathbf{r}_i = \sum_j \frac{\partial \mathbf{r}_i}{\partial q_j}\delta q_j
+$$
 
 **First term (applied forces).** For a conservative system,
 $\mathbf{F}_i^{(\mathrm{app})} = -\nabla_i V$ So:
 
-$$\sum_i \mathbf{F}_i^{(\mathrm{app})} \cdot \delta\mathbf{r}_i = -\sum_i \nabla_i V \cdot \sum_j \frac{\partial \mathbf{r}_i}{\partial q_j}\delta q_j = -\sum_j \frac{\partial V}{\partial q_j}\delta q_j$$
+$$
+\sum_i \mathbf{F}_i^{(\mathrm{app})} \cdot \delta\mathbf{r}_i = -\sum_i \nabla_i V \cdot \sum_j \frac{\partial \mathbf{r}_i}{\partial q_j}\delta q_j = -\sum_j \frac{\partial V}{\partial q_j}\delta q_j
+$$
 
 Defining the **generalised force**
-$Q_j = \sum_i \mathbf{F}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j}$For conservative forces
+$Q_j = \sum_i \mathbf{F}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j}$ For conservative forces
 $Q_j = -\partial V/\partial q_j$.
 
 **Second term (inertia).** Using
 $\frac{\partial \dot{\mathbf{r}}_i}{\partial \dot{q}_j} = \frac{\partial \mathbf{r}_i}{\partial q_j}$
 (which holds when $\mathbf{r}_i = \mathbf{r}_i(q, t)$):
 
-$$\sum_i m_i\ddot{\mathbf{r}}_i \cdot \delta\mathbf{r}_i = \sum_i m_i\ddot{\mathbf{r}}_i \cdot \sum_j \frac{\partial \mathbf{r}_i}{\partial q_j}\delta q_j = \sum_j \left[\sum_i m_i\ddot{\mathbf{r}}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j}\right]\delta q_j$$
+$$
+\sum_i m_i\ddot{\mathbf{r}}_i \cdot \delta\mathbf{r}_i = \sum_i m_i\ddot{\mathbf{r}}_i \cdot \sum_j \frac{\partial \mathbf{r}_i}{\partial q_j}\delta q_j = \sum_j \left[\sum_i m_i\ddot{\mathbf{r}}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j}\right]\delta q_j
+$$
 
 Now:
 
-$$\sum_i m_i\ddot{\mathbf{r}}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j} = \frac{d}{dt}\left(\sum_i m_i\dot{\mathbf{r}}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j}\right) - \sum_i m_i\dot{\mathbf{r}}_i \cdot \frac{d}{dt}\frac{\partial \mathbf{r}_i}{\partial q_j}$$
+$$
+\sum_i m_i\ddot{\mathbf{r}}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j} = \frac{d}{dt}\left(\sum_i m_i\dot{\mathbf{r}}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j}\right) - \sum_i m_i\dot{\mathbf{r}}_i \cdot \frac{d}{dt}\frac{\partial \mathbf{r}_i}{\partial q_j}
+$$
 
 Using
 $\frac{d}{dt}\frac{\partial \mathbf{r}_i}{\partial q_j} = \frac{\partial \dot{\mathbf{r}}_i}{\partial q_j}$
 and
 $\frac{\partial \dot{\mathbf{r}}_i}{\partial \dot{q}_j} = \frac{\partial \mathbf{r}_i}{\partial q_j}$:
 
-$$\sum_i m_i\ddot{\mathbf{r}}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j} = \frac{d}{dt}\left(\sum_i m_i\dot{\mathbf{r}}_i \cdot \frac{\partial \dot{\mathbf{r}}_i}{\partial \dot{q}_j}\right) - \sum_i m_i\dot{\mathbf{r}}_i \cdot \frac{\partial \dot{\mathbf{r}}_i}{\partial q_j}$$
+$$
+\sum_i m_i\ddot{\mathbf{r}}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j} = \frac{d}{dt}\left(\sum_i m_i\dot{\mathbf{r}}_i \cdot \frac{\partial \dot{\mathbf{r}}_i}{\partial \dot{q}_j}\right) - \sum_i m_i\dot{\mathbf{r}}_i \cdot \frac{\partial \dot{\mathbf{r}}_i}{\partial q_j}
+$$
 
-$$= \frac{d}{dt}\frac{\partial T}{\partial \dot{q}_j} - \frac{\partial T}{\partial q_j}$$
+$$
+= \frac{d}{dt}\frac{\partial T}{\partial \dot{q}_j} - \frac{\partial T}{\partial q_j}
+$$
 
 Combining both terms in D'Alembert’s principle:
 
-$$\sum_j \left[Q_j - \frac{d}{dt}\frac{\partial T}{\partial \dot{q}_j} + \frac{\partial T}{\partial q_j}\right]\delta q_j = 0$$
+$$
+\sum_j \left[Q_j - \frac{d}{dt}\frac{\partial T}{\partial \dot{q}_j} + \frac{\partial T}{\partial q_j}\right]\delta q_j = 0
+$$
 
 For conservative forces, $Q_j = -\partial V/\partial q_j$. Since $L = T - V$ and $V$ is independent
 of $\dot{q}_j$:
 
-$$\sum_j \left[\frac{\partial L}{\partial q_j} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q}_j}\right]\delta q_j = 0$$
+$$
+\sum_j \left[\frac{\partial L}{\partial q_j} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q}_j}\right]\delta q_j = 0
+$$
 
 Since the $\delta q_j$ are independent (and we have $n$ degrees of freedom):
 
-$$\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right) - \frac{\partial L}{\partial q_j} = 0$$
+$$
+\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right) - \frac{\partial L}{\partial q_j} = 0
+$$
 
 $\blacksquare$
 
@@ -91,29 +150,39 @@ $\blacksquare$
 **Theorem 3.2 (Hamilton's Principle).** The actual path of a system between times $t_1$ and $t_2$ is
 The one that makes the **action**
 
-$$S = \int_{t_1}^{t_2} L(q, \dot{q}, t)\, dt$$
+$$
+S = \int_{t_1}^{t_2} L(q, \dot{q}, t)\, dt
+$$
 
 Stationary.
 
 **Theorem 3.3 (Euler-Lagrange Equation from Hamilton's Principle).** The path $q(t)$ that makes $S$
 stationary satisfies
 
-$$\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right) - \frac{\partial L}{\partial q_j} = 0, \quad j = 1, \ldots, n$$
+$$
+\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right) - \frac{\partial L}{\partial q_j} = 0, \quad j = 1, \ldots, n
+$$
 
 _Proof (for one degree of freedom)._ Consider a variation $q(t) + \epsilon \eta(t)$ where
 $\eta(t_1) =
 \eta(t_2) = 0$. The variation of the action:
 
-$$\delta S = \int_{t_1}^{t_2} \left(\frac{\partial L}{\partial q}\eta + \frac{\partial L}{\partial \dot{q}}\dot{\eta}\right) dt$$
+$$
+\delta S = \int_{t_1}^{t_2} \left(\frac{\partial L}{\partial q}\eta + \frac{\partial L}{\partial \dot{q}}\dot{\eta}\right) dt
+$$
 
 Integrating the second term by parts:
 
-$$\delta S = \int_{t_1}^{t_2} \left(\frac{\partial L}{\partial q} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q}}\right) \eta\, dt + \left[\frac{\partial L}{\partial \dot{q}}\eta\right]_{t_1}^{t_2}$$
+$$
+\delta S = \int_{t_1}^{t_2} \left(\frac{\partial L}{\partial q} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q}}\right) \eta\, dt + \left[\frac{\partial L}{\partial \dot{q}}\eta\right]_{t_1}^{t_2}
+$$
 
-The boundary term vanishes since $\eta(t_1) = \eta(t_2) = 0$. For $\delta S = 0$ for all $\eta$By
-The fundamental lemma of the calculus of variations:
+The boundary term vanishes since $\eta(t_1) = \eta(t_2) = 0$. For $\delta S = 0$ for all $\eta$ By
+the fundamental lemma of the calculus of variations:
 
-$$\frac{\partial L}{\partial q} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q}} = 0$$
+$$
+\frac{\partial L}{\partial q} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q}} = 0
+$$
 
 $\blacksquare$
 
@@ -128,57 +197,85 @@ profound generalisation of Fermat's principle of least time in optics.
 _Solution._ Take $\theta$ as the generalised coordinate. The position of the bob is
 $(l\sin\theta, -l\cos\theta)$.
 
-$$T = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2) = \frac{1}{2}ml^2\dot{\theta}^2$$
+$$
+T = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2) = \frac{1}{2}ml^2\dot{\theta}^2
+$$
 
-$$V = -mgl\cos\theta$$
+$$
+V = -mgl\cos\theta
+$$
 
-$$L = T - V = \frac{1}{2}ml^2\dot{\theta}^2 + mgl\cos\theta$$
+$$
+L = T - V = \frac{1}{2}ml^2\dot{\theta}^2 + mgl\cos\theta
+$$
 
 Euler-Lagrange equation:
 
-$$\frac{\partial L}{\partial \theta} = -mgl\sin\theta, \quad \frac{\partial L}{\partial \dot{\theta}} = ml^2\dot{\theta}$$
+$$
+\frac{\partial L}{\partial \theta} = -mgl\sin\theta, \quad \frac{\partial L}{\partial \dot{\theta}} = ml^2\dot{\theta}
+$$
 
-$$\frac{d}{dt}(ml^2\dot{\theta}) + mgl\sin\theta = 0 \implies \ddot{\theta} + \frac{g}{l}\sin\theta = 0$$
+$$
+\frac{d}{dt}(ml^2\dot{\theta}) + mgl\sin\theta = 0 \implies \ddot{\theta} + \frac{g}{l}\sin\theta = 0
+$$
 
-For small angles ($\sin\theta \approx \theta$): $\ddot{\theta} + \frac{g}{l}\theta = 0$Giving simple
+For small angles ($\sin\theta \approx \theta$): $\ddot{\theta} + \frac{g}{l}\theta = 0$ Giving simple
 Harmonic motion with $\omega = \sqrt{g/l}$. $\blacksquare$
 
 ### 3.5 Worked Example: Double Pendulum
 
-**Problem.** Derive the equations of motion for a double pendulum: mass $m_1$ on rod $l_1$Mass $m_2$
+**Problem.** Derive the equations of motion for a double pendulum: mass $m_1$ on rod $l_1$ Mass $m_2$
 on rod $l_2$ attached to $m_1$.
 
 _Solution._ Generalised coordinates: angles $\theta_1, \theta_2$ from the vertical. Position of
 $m_1$:
 
-$$x_1 = l_1\sin\theta_1, \quad y_1 = -l_1\cos\theta_1$$
+$$
+x_1 = l_1\sin\theta_1, \quad y_1 = -l_1\cos\theta_1
+$$
 
 Position of $m_2$:
 
-$$x_2 = l_1\sin\theta_1 + l_2\sin\theta_2, \quad y_2 = -l_1\cos\theta_1 - l_2\cos\theta_2$$
+$$
+x_2 = l_1\sin\theta_1 + l_2\sin\theta_2, \quad y_2 = -l_1\cos\theta_1 - l_2\cos\theta_2
+$$
 
 Velocities:
 
-$$\dot{x}_1 = l_1\dot{\theta}_1\cos\theta_1, \quad \dot{y}_1 = l_1\dot{\theta}_1\sin\theta_1$$
+$$
+\dot{x}_1 = l_1\dot{\theta}_1\cos\theta_1, \quad \dot{y}_1 = l_1\dot{\theta}_1\sin\theta_1
+$$
 
-$$\dot{x}_2 = l_1\dot{\theta}_1\cos\theta_1 + l_2\dot{\theta}_2\cos\theta_2, \quad \dot{y}_2 = l_1\dot{\theta}_1\sin\theta_1 + l_2\dot{\theta}_2\sin\theta_2$$
+$$
+\dot{x}_2 = l_1\dot{\theta}_1\cos\theta_1 + l_2\dot{\theta}_2\cos\theta_2, \quad \dot{y}_2 = l_1\dot{\theta}_1\sin\theta_1 + l_2\dot{\theta}_2\sin\theta_2
+$$
 
 Kinetic energy:
 
-$$T = \frac{1}{2}m_1(\dot{x}_1^2 + \dot{y}_1^2) + \frac{1}{2}m_2(\dot{x}_2^2 + \dot{y}_2^2)$$
+$$
+T = \frac{1}{2}m_1(\dot{x}_1^2 + \dot{y}_1^2) + \frac{1}{2}m_2(\dot{x}_2^2 + \dot{y}_2^2)
+$$
 
-$$= \frac{1}{2}(m_1 + m_2)l_1^2\dot{\theta}_1^2 + \frac{1}{2}m_2 l_2^2\dot{\theta}_2^2 + m_2 l_1 l_2\dot{\theta}_1\dot{\theta}_2\cos(\theta_1 - \theta_2)$$
+$$
+= \frac{1}{2}(m_1 + m_2)l_1^2\dot{\theta}_1^2 + \frac{1}{2}m_2 l_2^2\dot{\theta}_2^2 + m_2 l_1 l_2\dot{\theta}_1\dot{\theta}_2\cos(\theta_1 - \theta_2)
+$$
 
 Potential energy:
 
-$$V = -m_1 g l_1\cos\theta_1 - m_2 g(l_1\cos\theta_1 + l_2\cos\theta_2)$$
+$$
+V = -m_1 g l_1\cos\theta_1 - m_2 g(l_1\cos\theta_1 + l_2\cos\theta_2)
+$$
 
 The Euler-Lagrange equations for $\theta_1$ and $\theta_2$ yield two coupled second-order ODEs. For
 equal masses and lengths ($m_1 = m_2 = m$, $l_1 = l_2 = l$):
 
-$$(m + m)l^2\ddot{\theta}_1 + ml^2\ddot{\theta}_2\cos(\theta_1 - \theta_2) + ml^2\dot{\theta}_2^2\sin(\theta_1 - \theta_2) + 2mgl\sin\theta_1 = 0$$
+$$
+(m + m)l^2\ddot{\theta}_1 + ml^2\ddot{\theta}_2\cos(\theta_1 - \theta_2) + ml^2\dot{\theta}_2^2\sin(\theta_1 - \theta_2) + 2mgl\sin\theta_1 = 0
+$$
 
-$$ml^2\ddot{\theta}_2 + ml^2\ddot{\theta}_1\cos(\theta_1 - \theta_2) - ml^2\dot{\theta}_1^2\sin(\theta_1 - \theta_2) + mgl\sin\theta_2 = 0$$
+$$
+ml^2\ddot{\theta}_2 + ml^2\ddot{\theta}_1\cos(\theta_1 - \theta_2) - ml^2\dot{\theta}_1^2\sin(\theta_1 - \theta_2) + mgl\sin\theta_2 = 0
+$$
 
 $\blacksquare$
 
@@ -193,19 +290,31 @@ string over a frictionless pulley. Find the acceleration using the Lagrangian.
 Choose the vertical displacement $x$ of $m_1$ (downward positive) as the generalised coordinate.
 Since the string is inextensible, $m_2$ moves up by $x$.
 
-$$T = \frac{1}{2}m_1\dot{x}^2 + \frac{1}{2}m_2\dot{x}^2 = \frac{1}{2}(m_1 + m_2)\dot{x}^2$$
+$$
+T = \frac{1}{2}m_1\dot{x}^2 + \frac{1}{2}m_2\dot{x}^2 = \frac{1}{2}(m_1 + m_2)\dot{x}^2
+$$
 
-$$V = -m_1 g x + m_2 g x = -(m_1 - m_2)gx$$
+$$
+V = -m_1 g x + m_2 g x = -(m_1 - m_2)gx
+$$
 
-$$L = \frac{1}{2}(m_1 + m_2)\dot{x}^2 + (m_1 - m_2)gx$$
+$$
+L = \frac{1}{2}(m_1 + m_2)\dot{x}^2 + (m_1 - m_2)gx
+$$
 
 Euler-Lagrange equation:
 
-$$\frac{\partial L}{\partial x} = (m_1 - m_2)g, \quad \frac{\partial L}{\partial \dot{x}} = (m_1 + m_2)\dot{x}$$
+$$
+\frac{\partial L}{\partial x} = (m_1 - m_2)g, \quad \frac{\partial L}{\partial \dot{x}} = (m_1 + m_2)\dot{x}
+$$
 
-$$(m_1 + m_2)\ddot{x} = (m_1 - m_2)g$$
+$$
+(m_1 + m_2)\ddot{x} = (m_1 - m_2)g
+$$
 
-$$a = \ddot{x} = \frac{m_1 - m_2}{m_1 + m_2}g$$
+$$
+a = \ddot{x} = \frac{m_1 - m_2}{m_1 + m_2}g
+$$
 
 $\blacksquare$
 
@@ -223,29 +332,43 @@ positions and their stability.
 Use the angle $\theta$ from the bottom of the hoop as the generalised coordinate. The position of
 the bead in cylindrical coordinates $(\rho, \phi, z)$:
 
-$$\rho = R\sin\theta, \quad \phi = \omega t, \quad z = -R\cos\theta$$
+$$
+\rho = R\sin\theta, \quad \phi = \omega t, \quad z = -R\cos\theta
+$$
 
 Velocity:
 
-$$\dot{\rho} = R\dot{\theta}\cos\theta, \quad \dot{\phi} = \omega, \quad \dot{z} = R\dot{\theta}\sin\theta$$
+$$
+\dot{\rho} = R\dot{\theta}\cos\theta, \quad \dot{\phi} = \omega, \quad \dot{z} = R\dot{\theta}\sin\theta
+$$
 
 Kinetic energy:
 
-$$T = \frac{1}{2}m(\dot{\rho}^2 + \rho^2\dot{\phi}^2 + \dot{z}^2) = \frac{1}{2}m R^2\dot{\theta}^2 + \frac{1}{2}mR^2\omega^2\sin^2\theta$$
+$$
+T = \frac{1}{2}m(\dot{\rho}^2 + \rho^2\dot{\phi}^2 + \dot{z}^2) = \frac{1}{2}m R^2\dot{\theta}^2 + \frac{1}{2}mR^2\omega^2\sin^2\theta
+$$
 
 Potential energy:
 
-$$V = -mgR\cos\theta$$
+$$
+V = -mgR\cos\theta
+$$
 
 Lagrangian:
 
-$$L = \frac{1}{2}mR^2\dot{\theta}^2 + \frac{1}{2}mR^2\omega^2\sin^2\theta + mgR\cos\theta$$
+$$
+L = \frac{1}{2}mR^2\dot{\theta}^2 + \frac{1}{2}mR^2\omega^2\sin^2\theta + mgR\cos\theta
+$$
 
 Euler-Lagrange equation:
 
-$$mR^2\ddot{\theta} = mR^2\omega^2\sin\theta\cos\theta - mgR\sin\theta$$
+$$
+mR^2\ddot{\theta} = mR^2\omega^2\sin\theta\cos\theta - mgR\sin\theta
+$$
 
-$$\ddot{\theta} = \sin\theta\left(\omega^2\cos\theta - \frac{g}{R}\right)$$
+$$
+\ddot{\theta} = \sin\theta\left(\omega^2\cos\theta - \frac{g}{R}\right)
+$$
 
 Equilibrium ($\ddot{\theta} = 0$, $\dot{\theta} = 0$): $\sin\theta = 0$ giving $\theta = 0$
 (bottom), or $\cos\theta = g/(R\omega^2)$ which exists only when $\omega^2 \gt g/R$.
@@ -267,7 +390,9 @@ $p_j = \partial L / \partial \dot{q}_j$ is a constant of motion.
 
 _Proof._ The Euler-Lagrange equation for a cyclic coordinate is:
 
-$$\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right) = 0 \implies p_j = \mathrm{const}$$
+$$
+\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right) = 0 \implies p_j = \mathrm{const}
+$$
 
 $\blacksquare$
 
@@ -279,7 +404,9 @@ conserved quantity --- this is the essence of Noether's theorem (Section 5).
 When holonomic constraints cannot be eliminated by coordinate choice, introduce Lagrange multipliers
 $\lambda_a$:
 
-$$\frac{d}{dt}\frac{\partial L}{\partial \dot{q}_j} - \frac{\partial L}{\partial q_j} = \sum_a \lambda_a \frac{\partial f_a}{\partial q_j}$$
+$$
+\frac{d}{dt}\frac{\partial L}{\partial \dot{q}_j} - \frac{\partial L}{\partial q_j} = \sum_a \lambda_a \frac{\partial f_a}{\partial q_j}
+$$
 
 The multipliers $\lambda_a$ are proportional to the constraint forces.
 
@@ -287,7 +414,9 @@ The multipliers $\lambda_a$ are proportional to the constraint forces.
 
 **Definition.** The **energy function** (also called the Jacobi integral) is:
 
-$$h = \sum_j \dot{q}_j \frac{\partial L}{\partial \dot{q}_j} - L$$
+$$
+h = \sum_j \dot{q}_j \frac{\partial L}{\partial \dot{q}_j} - L
+$$
 
 **Theorem 3.5.** If $L$ does not depend explicitly on time, then $h$ is conserved. Furthermore, if
 the transformation $\mathbf{r}_i = \mathbf{r}_i(q)$ does not depend explicitly on time and $V$ is
@@ -295,40 +424,72 @@ velocity-independent, then $h = T + V$ (the total energy).
 
 _Proof._ Taking the total time derivative:
 
-$$\frac{dh}{dt} = \sum_j \ddot{q}_j \frac{\partial L}{\partial \dot{q}_j} + \sum_j \dot{q}_j \frac{d}{dt}\frac{\partial L}{\partial \dot{q}_j} - \sum_j \frac{\partial L}{\partial q_j}\dot{q}_j - \sum_j \frac{\partial L}{\partial \dot{q}_j}\ddot{q}_j - \frac{\partial L}{\partial t}$$
+$$
+\frac{dh}{dt} = \sum_j \ddot{q}_j \frac{\partial L}{\partial \dot{q}_j} + \sum_j \dot{q}_j \frac{d}{dt}\frac{\partial L}{\partial \dot{q}_j} - \sum_j \frac{\partial L}{\partial q_j}\dot{q}_j - \sum_j \frac{\partial L}{\partial \dot{q}_j}\ddot{q}_j - \frac{\partial L}{\partial t}
+$$
 
 The $\ddot{q}_j$ terms cancel. Using the Euler-Lagrange equation
 $\frac{d}{dt}\frac{\partial L}{\partial \dot{q}_j} = \frac{\partial L}{\partial q_j}$:
 
-$$\frac{dh}{dt} = -\frac{\partial L}{\partial t}$$
+$$
+\frac{dh}{dt} = -\frac{\partial L}{\partial t}
+$$
 
 If $\partial L/\partial t = 0$ Then $dh/dt = 0$.
 
 For the second part, when $\mathbf{r}_i = \mathbf{r}_i(q)$ (scleronomic) and $V = V(q)$:
 
-$$T = \frac{1}{2}\sum_{i,j,k} m_i \frac{\partial \mathbf{r}_i}{\partial q_j}\frac{\partial \mathbf{r}_i}{\partial q_k}\dot{q}_j\dot{q}_k$$
+$$
+T = \frac{1}{2}\sum_{i,j,k} m_i \frac{\partial \mathbf{r}_i}{\partial q_j}\frac{\partial \mathbf{r}_i}{\partial q_k}\dot{q}_j\dot{q}_k
+$$
 
 Is a homogeneous quadratic form in $\dot{q}_j$. By Euler's theorem for homogeneous functions:
 
-$$\sum_j \dot{q}_j \frac{\partial T}{\partial \dot{q}_j} = 2T$$
+$$
+\sum_j \dot{q}_j \frac{\partial T}{\partial \dot{q}_j} = 2T
+$$
 
 Since $\partial L/\partial \dot{q}_j = \partial T/\partial \dot{q}_j$ (as $V$ is
 velocity-independent):
 
-$$h = \sum_j \dot{q}_j \frac{\partial T}{\partial \dot{q}_j} - T + V = 2T - T + V = T + V$$
+$$
+h = \sum_j \dot{q}_j \frac{\partial T}{\partial \dot{q}_j} - T + V = 2T - T + V = T + V
+$$
 
 $\blacksquare$
 
 
-```mermaid
-flowchart TD
-    A[3_Lagrangian Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
+The clearest single picture of what the formalism buys is the rotating hoop of
+worked example 3.7, whose equilibria bifurcate as the hoop speeds up.
+
+```text
+   stable equilibria of the bead
+   versus rotation rate omega
+
+   theta_eq
+    pi |                 *  *  *
+       |              *
+    pi/2             *
+      |            *
+      0 *-------*            <- bottom stays stable below
+      +-------------------------------- omega
+                 g/sqrt(R)      omega^2 R > g
 ```
+
+Below $\omega^2 R = g$ the only equilibrium is the bottom of the hoop. Above
+it, the bottom becomes unstable and two new stable equilibria appear at
+$\cos\theta = g/(R\omega^2)$ -- a pitchfork bifurcation, and the same
+mechanism that keeps a rider upright on a rotating fairground cylinder.
+
+Multiple representations of the same fact, for the same system:
+
+- **Words.** Spin the hoop fast enough and the bead prefers a position off the
+  bottom.
+- **Equation.** $\ddot\theta = \sin\theta(\omega^2\cos\theta - g/R)$.
+- **Equilibria.** $\sin\theta = 0$ always; $\cos\theta = g/(R\omega^2)$ when
+  $\omega^2 R > g$.
+- **Stability.** The second derivative of the effective potential changes sign
+  at $\omega^2 R = g$, which is why the bottom turns over.
 
 ## Intuition
 
@@ -340,6 +501,46 @@ The Lagrangian formulation is like giving nature a GPS route planner. Instead of
 natural before identifying $h$ With the total energy.
 :::
 
+## Counterexamples worth knowing by name
+
+<div class="table-wrap">
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| $L = T - V$ always gives correct equations | no | a charged particle in an electromagnetic field needs $L = T - q\phi + q\,\mathbf{v}\cdot\mathbf{A}$ |
+| $h$ always equals $T + V$ | no | the rotating hoop: rheonomic constraints make $h \neq T + V$ |
+| The action is minimised | no | it is stationary; a saddle point is enough |
+| Constraint forces appear in the equations | no | they are eliminated by generalised coordinates |
+| Cyclic coordinates always exist | no | the double pendulum has none |
+
+</div>
+
+The electromagnetic Lagrangian is the one to remember. It shows that $T - V$ is
+not the definition of a Lagrangian but a special case, and that the general
+object is whatever scalar makes the action stationary.
+
+## Interleaving problems
+
+Mix these with material from the generalised coordinates page, Noether's
+theorem, and the ODE module -- selecting the method is the part blocked
+practice never trains.
+
+1. (Constraints.) A particle slides on a sphere of radius $R$ under gravity.
+   Write the Lagrangian, show the constraint is holonomic, and eliminate it.
+   At what angle does the particle leave the sphere?
+2. (Noether.) Show that translational symmetry of $L$ implies conservation of
+   total momentum, and rotational symmetry implies conservation of angular
+   momentum, using $\frac{d}{dt}\left(\sum_j \dot q_j \frac{\partial L}{\partial \dot q_j}
+   - L\right)$ for the generator of the symmetry.
+3. (ODEs.) Linearise the double pendulum equations about the equilibrium
+   $\theta_1 = \theta_2 = 0$, find the normal mode frequencies, and show they
+   reduce to $\sqrt{g/l}$ and $\sqrt{2g/l}$ when the two bobs are identical.
+4. (Calculus of variations.) Show that the shortest path between two points on
+   a cylinder is a helix, by writing the arc length as an action and applying
+   the Euler-Lagrange equation.
+5. (Energy.) For the rotating hoop, compute $h$, show it is conserved, and show
+   explicitly that $h \neq T + V$.
+
 ## Cross-References
 
 - **[Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)**: Generalised coordinates and constraints provide the foundation for formulating the Lagrangian.
@@ -347,7 +548,7 @@ natural before identifying $h$ With the total energy.
 - **[Noether's Theorem](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/)**: Noether's theorem connects symmetries of the Lagrangian to conserved quantities.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ### 3.11 Common Mistakes
 

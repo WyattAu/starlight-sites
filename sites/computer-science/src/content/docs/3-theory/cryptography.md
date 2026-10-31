@@ -23,12 +23,16 @@ categories:
 
 ### 1.1 Cryptographic Goals
 
+<div class="table-wrap">
+
 | Goal | Threat Addressed |
 | ----------------- | ------------------------------------- |
 | **Confidentiality** | Eavesdropping |
 | **Integrity** | Tampering with messages |
 | **Authentication** | Impersonation |
 | **Non-repudiation** | Denying having sent a message |
+
+</div>
 
 ### 1.2 Kerckhoffs" Principle
 
@@ -44,8 +48,12 @@ A cryptosystem should be secure even if everything about the system (except the 
 
 ### 1.4 One-Time Pad
 
-$$c = p \oplus k$$
-$$p = c \oplus k$$
+$$
+c = p \oplus k
+$$
+$$
+p = c \oplus k
+$$
 
 where $p$ = plaintext, $c$ = ciphertext, $k$ = random key of same length, $\oplus$ = XOR.
 
@@ -116,6 +124,8 @@ KEY_SCHEDULE(key):
 
 ### 2.4 Block Cipher Modes of Operation
 
+<div class="table-wrap">
+
 | Mode        | Description                                    | Parallel | Error Propagation |
 | ----------- | ---------------------------------------------- | -------- | ----------------- |
 | **ECB**     | Each block encrypted independently             | Yes      | None (blocks independent) |
@@ -124,6 +134,8 @@ KEY_SCHEDULE(key):
 | **CFB**     | Plaintext XORed with encrypted previous output | No       | 1 block           |
 | **OFB**     | Keystream from encrypting IV repeatedly       | Yes      | None              |
 | **GCM**     | CTR mode + authentication tag                 | Yes      | Authentication    |
+
+</div>
 
 **ECB vulnerability:** Identical plaintext blocks produce identical ciphertext blocks. Never use ECB for messages longer than one block.
 
@@ -179,8 +191,12 @@ RSA_KEYGEN():
 
 **Encryption/Decryption:**
 
-$$c = m^e \mod n$$
-$$m = c^d \mod n$$
+$$
+c = m^e \mod n
+$$
+$$
+m = c^d \mod n
+$$
 
 **Correctness:** $c^d = m^{ed} = m^{k\varphi(n)+1} = m \cdot (m^{\varphi(n)})^k \equiv m \pmod{n}$ (by Euler's theorem).
 
@@ -203,12 +219,18 @@ ELGAMAL_KEYGEN():
 
 **Encryption:**
 
-$$c_1 = g^k \mod p \quad (k \text{ random})$$
-$$c_2 = m \cdot y^k \mod p$$
+$$
+c_1 = g^k \mod p \quad (k \text{ random})
+$$
+$$
+c_2 = m \cdot y^k \mod p
+$$
 
 **Decryption:**
 
-$$m = c_2 \cdot (c_1^x)^{-1} \mod p = c_2 \cdot g^{-kx} \mod p$$
+$$
+m = c_2 \cdot (c_1^x)^{-1} \mod p = c_2 \cdot g^{-kx} \mod p
+$$
 
 ### 3.3 Elliptic Curve Cryptography (ECC)
 
@@ -245,11 +267,15 @@ ECDSA_VERIFY(msg, sig (r,s), public_key Q):
 
 **Advantage:** Same security as RSA-2048 with ~256-bit ECC keys.
 
+<div class="table-wrap">
+
 | Security Level | RSA Key | ECC Key |
 | -------------- | ------- | ------- |
 | 80-bit        | 1024    | 160     |
 | 128-bit       | 3072    | 256     |
 | 256-bit       | 15360   | 521     |
+
+</div>
 
 ## 4. Hash Functions
 
@@ -301,9 +327,13 @@ SHA256_ROUND(state, W_t, K_t):
 
 **Word expansion:**
 
-$$W_t = \begin{cases} M_t & 0 \leq t \leq 15 \\ \sigma_1(W_{t-2}) + W_{t-7} + \sigma_0(W_{t-15}) + W_{t-16} & 16 \leq t \leq 63 \end{cases}$$
+$$
+W_t = \begin{cases} M_t & 0 \leq t \leq 15 \\ \sigma_1(W_{t-2}) + W_{t-7} + \sigma_0(W_{t-15}) + W_{t-16} & 16 \leq t \leq 63 \end{cases}
+$$
 
 ### 4.4 Hash Function Comparison
+
+<div class="table-wrap">
 
 | Function | Output (bits) | Block (bits) | Rounds | Status |
 | --------- | ------------- | ------------ | ------ | ------------------- |
@@ -312,6 +342,8 @@ $$W_t = \begin{cases} M_t & 0 \leq t \leq 15 \\ \sigma_1(W_{t-2}) + W_{t-7} + \s
 | SHA-256 | 256 | 512 | 64 | Secure |
 | SHA-3 | 256 | 1088 | 24 | Secure (Keccak) |
 | BLAKE2 | 256/512 | 128 | 10-14 | Secure, very fast |
+
+</div>
 
 ## 5. Digital Signatures
 
@@ -483,11 +515,15 @@ VERIFIER:
 
 ### 9.2 NIST Post-Quantum Standards (2024)
 
+<div class="table-wrap">
+
 | Algorithm   | Type                    | Use                    |
 | ----------- | ----------------------- | ---------------------- |
 | **ML-KEM**  | Lattice-based (KEM)     | Key encapsulation (replaces DH) |
 | **ML-DSA**  | Lattice-based (signature) | Digital signatures (replaces RSA/ECDSA) |
 | **SLH-DSA** | Hash-based (signature) | Stateful hash signatures |
+
+</div>
 
 **ML-KEM (Module-Lattice Key Encapsulation Mechanism):** Based on the hardness of the Module Learning With Errors (MLWE) problem.
 
@@ -507,6 +543,8 @@ ML-KEM_DECAP(sk, c):
 
 ### 9.3 Practical Recommendations
 
+<div class="table-wrap">
+
 | Algorithm              | Quantum Safe?  | Transition Plan        |
 | ---------------------- | -------------- | ---------------------- |
 | AES-256                | Yes (Grover: 128-bit security) | Keep, double key size |
@@ -514,6 +552,8 @@ ML-KEM_DECAP(sk, c):
 | ECDSA / ECDH           | No             | Replace with ML-DSA / ML-KEM |
 | SHA-256                | Yes            | Keep                    |
 | ChaCha20-Poly1305      | Yes            | Keep                    |
+
+</div>
 
 **Hybrid approach:** Use classical + post-quantum algorithms simultaneously during transition (e.g., X25519 + ML-KEM).
 
@@ -545,16 +585,6 @@ ML-KEM_DECAP(sk, c):
 **Problem:** Alice and Bob agree on prime p=23 and generator g=5. Alice chooses private a=6, Bob chooses private b=15. Calculate their shared secret.
 **Solution:** Alice sends A = g^a mod p = 5^6 mod 23 = 15625 mod 23 = 8. Bob sends B = g^b mod p = 5^15 mod 23. 5^2=2, 5^4=4, 5^8=16, 5^15=16*4*2*5 mod 23 = 640 mod 23 = 19. Shared secret (Alice): B^a mod p = 19^6 mod 23 = 47045881 mod 23 = 2. Shared secret (Bob): A^b mod p = 8^15 mod 23 = 2. Both compute the same shared secret: 2.
 
-```mermaid
-flowchart TD
-    A[Cryptography] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Symmetric encryption** (AES) is efficient for bulk data; block cipher modes (CBC, CTR, GCM) add security properties.
@@ -577,8 +607,12 @@ Cryptography is the science of keeping secrets. Symmetric encryption (AES) is li
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic | Link |
 | ------- | ------ |
 | Algorithms Overview | View |
 | Network Security | [View](/2-systems/networking/) |
 | Distributed Systems | [View](/2-systems/distributed-systems/) |
+
+</div>

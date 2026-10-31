@@ -23,7 +23,7 @@ categories:
 
 **SFINAE** (Substitution Failure Is Not An Error) was the primary mechanism for constraining
 Templates from C++98 through C++17. C++20 concepts provide a cleaner, more expressive alternative
-With better error messages, built-in overload ordering via subsumption, and first-class syntax. This
+with better error messages, built-in overload ordering via subsumption, and first-class syntax. This
 Section compares the two approaches and shows how to migrate from SFINAE to concepts.
 
 ## How SFINAE Works
@@ -38,7 +38,7 @@ Type or expression [N4950 §13.10.3.6]. The key idea is:
 
 SFINAE applies strictly to the **immediate context** of template argument substitution [N4950
 §13.10.3.6]. Errors in the body of a template function, or in the definition of a nested type that
-Is not directly in the function signature, are **hard errors**, not substitution failures. This
+is not directly in the function signature, are **hard errors**, not substitution failures. This
 Distinction is critical and is the source of many subtle bugs.
 
 The two primary SFINAE techniques are:
@@ -95,7 +95,7 @@ int main() {
 ### Immediate Context: The Hard Error Boundary
 
 SFINAE only protects the **immediate context** of substitution. If the substitution failure occurs
-Inside the body of the function, it is a hard compilation error:
+inside the body of the function, it is a hard compilation error:
 
 ```cpp
 #include <type_traits>
@@ -141,7 +141,7 @@ note: "safe_abs'' requires "std::integral<T>' or 'std::floating_point<T>'
 ```
 
 **2. No subsumption ordering.** Two overloads constrained by `enable_if` with different conditions
-Are **always ambiguous** if both conditions are true --- the compiler cannot determine which is more
+are **always ambiguous** if both conditions are true --- the compiler cannot determine which is more
 Constrained [N4950 §13.10.3.2]. This forces the use of tag dispatch or other workarounds.
 
 **3. Syntax is verbose and hard to read.**
@@ -153,7 +153,7 @@ Defaulted template parameter, the constraint is buried in the type system rather
 First-class part of the interface.
 
 **5. Interaction with `auto` return types is problematic.** SFINAE via the return type does not work
-With `auto` return type deduction, requiring awkward workarounds. You must use the
+with `auto` return type deduction, requiring awkward workarounds. You must use the
 Trailing-return-type syntax or a dummy parameter to apply SFINAE with `auto`.
 
 **6. The dummy-parameter pitfall.** When using SFINAE via a defaulted template parameter, the dummy
@@ -183,6 +183,8 @@ With concepts, this problem disappears because subsumption provides a well-defin
 
 ## How Concepts Solve SFINAE Problems
 
+<div class="table-wrap">
+
 | Problem               | SFINAE                                             | Concepts                                                     |
 | --------------------- | -------------------------------------------------- | ------------------------------------------------------------ |
 | Error messages        | Show substitution failure in `enable_if`           | Show the concept name and which requirement failed           |
@@ -191,6 +193,8 @@ With concepts, this problem disappears because subsumption provides a well-defin
 | Readability           | Constraint hidden in type manipulation             | Constraint is explicit in the signature                      |
 | Composability         | Boolean logic in template parameters               | Named concepts composed with `&&``\|\|`                      |
 | Interacts with `auto` | Problematic                                        | Works                                                        |
+
+</div>
 
 ## Migration Path
 
@@ -452,7 +456,7 @@ int main() {
 
 :::tip
 Is still needed when the constraint depends on the **function's return type** in a way that cannot
-Be expressed as a simple boolean predicate, or when working with C++17 or earlier codebases.
+be expressed as a simple boolean predicate, or when working with C++17 or earlier codebases.
 However, for new C++20 code, concepts should be the default choice for template constraints.
 :::
 
@@ -563,16 +567,6 @@ int main() {
 - [Standard Library Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts/)
 - [Type Traits and Static Reflection Patterns](/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/)
 
-```mermaid
-flowchart TD
-    A[4_Sfinae_Vs_Concepts] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of sfinae vs concepts, including underlying theory, practical
@@ -586,13 +580,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Alkanes Alkenes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
@@ -52,24 +41,40 @@ light and why the reaction does not proceed in the dark.
 
 (a) **Initiation:** UV light provides energy to homolytically cleave the Cl--Cl bond:
 
-$$\text{Cl}_2 \xrightarrow{\text{UV}} 2\text{Cl}^\bullet$$
+$$
+\text{Cl}_2 \xrightarrow{\text{UV}} 2\text{Cl}^\bullet
+$$
 
 **Propagation:**
 
-$$\text{Cl}^\bullet + \text{CH}_4 \to \text{HCl} + \text{CH}_3^\bullet$$
-$$\text{CH}_3^\bullet + \text{Cl}_2 \to \text{CH}_3\text{Cl} + \text{Cl}^\bullet$$
+$$
+\text{Cl}^\bullet + \text{CH}_4 \to \text{HCl} + \text{CH}_3^\bullet
+$$
+$$
+\text{CH}_3^\bullet + \text{Cl}_2 \to \text{CH}_3\text{Cl} + \text{Cl}^\bullet
+$$
 
 **Termination (any two):**
 
-$$\text{Cl}^\bullet + \text{Cl}^\bullet \to \text{Cl}_2$$
-$$\text{CH}_3^\bullet + \text{CH}_3^\bullet \to \text{C}_2\text{H}_6$$
-$$\text{CH}_3^\bullet + \text{Cl}^\bullet \to \text{CH}_3\text{Cl}$$
+$$
+\text{Cl}^\bullet + \text{Cl}^\bullet \to \text{Cl}_2
+$$
+$$
+\text{CH}_3^\bullet + \text{CH}_3^\bullet \to \text{C}_2\text{H}_6
+$$
+$$
+\text{CH}_3^\bullet + \text{Cl}^\bullet \to \text{CH}_3\text{Cl}
+$$
 
 (b) Even with excess methane, once chloromethane ($\text{CH}_3\text{Cl}$) is formed, it can also
 react with chlorine radicals:
 
-$$\text{Cl}^\bullet + \text{CH}_3\text{Cl} \to \text{HCl} + \bullet\text{CH}_2\text{Cl}$$
-$$\bullet\text{CH}_2\text{Cl} + \text{Cl}_2 \to \text{CH}_2\text{Cl}_2 + \text{Cl}^\bullet$$
+$$
+\text{Cl}^\bullet + \text{CH}_3\text{Cl} \to \text{HCl} + \bullet\text{CH}_2\text{Cl}
+$$
+$$
+\bullet\text{CH}_2\text{Cl} + \text{Cl}_2 \to \text{CH}_2\text{Cl}_2 + \text{Cl}^\bullet
+$$
 
 This process continues, with each chlorinated product being susceptible to further substitution. The
 C--H bonds in chloromethane are slightly weaker than in methane (due to the electron-withdrawing
@@ -77,7 +82,7 @@ effect of Cl, which weakens the remaining C--H bonds), making further substituti
 mixture of $\text{CH}_3\text{Cl}$$\text{CH}_2\text{Cl}_2$$\text{CHCl}_3$ And $\text{CCl}_4$ is always
 obtained.
 
-(c) The Cl--Cl bond has a bond enthalpy of $+242\,\text{kJ mol}^{-1}$Which requires significant
+(c) The Cl--Cl bond has a bond enthalpy of $+242\,\text{kJ mol}^{-1}$ Which requires significant
 energy to break homolytically. At room temperature, the average kinetic energy of molecules is
 insufficient ($\approx 2.5\,\text{kJ mol}^{-1}$ at $298\,\text{K}$) to break this bond. UV light
 provides photons with sufficient energy (UV photons at $\lambda \approx 400\,\text{nm}$ have energy
@@ -124,29 +129,39 @@ heterolytically, and a **carbocation intermediate** forms. Two possible carbocat
 
 The secondary carbocation is **more stable** due to the electron-donating inductive effect of the
 methyl group, which disperses the positive charge. Therefore, the major product is
-**2-bromopropane** ($\text{CH}_3\text{CHBr}\text{CH}_3$). This is **Markovnikov"s rule**: the
+**2-bromopropane** ($\text{CH}_3\text{CHBr}\text{CH}_3$). This is **Markovnikov's rule**: the
 hydrogen adds to the carbon with more hydrogen atoms.
 
 **Step 2: Nucleophilic attack**
 
 The bromide ion ($\text{Br}^-$) attacks the carbocation:
 
-$$\text{CH}_3\text{C}^+\text{HCH}_3 + \text{Br}^- \to \text{CH}_3\text{CHBr}\text{CH}_3$$
+$$
+\text{CH}_3\text{C}^+\text{HCH}_3 + \text{Br}^- \to \text{CH}_3\text{CHBr}\text{CH}_3
+$$
 
 (b) In the presence of peroxides, the mechanism changes to **free radical addition**
 (anti-Markovnikov). The peroxide decomposes to form peroxyl radicals, which abstract H from HBr:
 
-$$\text{ROOR} \to 2\text{RO}^\bullet$$
-$$\text{RO}^\bullet + \text{HBr} \to \text{ROH} + \text{Br}^\bullet$$
+$$
+\text{ROOR} \to 2\text{RO}^\bullet
+$$
+$$
+\text{RO}^\bullet + \text{HBr} \to \text{ROH} + \text{Br}^\bullet
+$$
 
 The bromine radical adds to the double bond. It preferentially adds to the **less substituted
 carbon** (C-1) because this produces the more stable **secondary radical** at C-2:
 
-$$\text{Br}^\bullet + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\dot{\text{C}}\text{HCH}_2\text{Br}$$
+$$
+\text{Br}^\bullet + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\dot{\text{C}}\text{HCH}_2\text{Br}
+$$
 
 This secondary radical then abstracts H from another HBr:
 
-$$\text{CH}_3\dot{\text{C}}\text{HCH}_2\text{Br} + \text{HBr} \to \text{CH}_3\text{CH}_2\text{CH}_2\text{Br} + \text{Br}^\bullet$$
+$$
+\text{CH}_3\dot{\text{C}}\text{HCH}_2\text{Br} + \text{HBr} \to \text{CH}_3\text{CH}_2\text{CH}_2\text{Br} + \text{Br}^\bullet
+$$
 
 The major product is **1-bromopropane** (anti-Markovnikov product).
 
@@ -187,7 +202,9 @@ $42000\,\text{g mol}^{-1}$.
 
 (a) The repeating unit of poly(propene) is:
 
-$$-\text{CH}_2-\text{CH}(\text{CH}_3)-$$
+$$
+-\text{CH}_2-\text{CH}(\text{CH}_3)-
+$$
 
 The methyl group can be arranged in different configurations:
 
@@ -210,7 +227,9 @@ essentially an amorphous polymer with low crystallinity.
 (c) Molar mass of propene monomer:
 $\text{C}_3\text{H}_6 = 3 \times 12.0 + 6 \times 1.0 = 42.0\,\text{g mol}^{-1}$
 
-$$n = \frac{42000}{42.0} = 1000$$
+$$
+n = \frac{42000}{42.0} = 1000
+$$
 
 The chain contains approximately **1000** propene monomer units (the degree of polymerisation is
 1000).
@@ -229,13 +248,15 @@ Starting from propene, propose a synthesis of 1,2-dibromopropane.
 1,3-dibromopropane.
 
 (c) If propene is first converted to propan-2-ol and then treated with concentrated
-$\text{H}_2\text{SO}_4$ and $\text{NaBr}$What product would be formed? Explain the mechanism.
+$\text{H}_2\text{SO}_4$ and $\text{NaBr}$ What product would be formed? Explain the mechanism.
 
 **Solution:**
 
 (a) **Step 1:** Addition of bromine to propene:
 
-$$\text{CH}_3\text{CH}=\text{CH}_2 + \text{Br}_2 \to \text{CH}_3\text{CHBrCH}_2\text{Br}$$
+$$
+\text{CH}_3\text{CH}=\text{CH}_2 + \text{Br}_2 \to \text{CH}_3\text{CHBrCH}_2\text{Br}
+$$
 
 Conditions: Bromine water or bromine dissolved in an organic solvent (e.g., $\text{CCl}_4$) at room
 temperature.
@@ -253,17 +274,17 @@ opposite sides) at the 1,2-positions.
 single addition across a C$=$C bond.
 
 (c) If propene is first hydrated to propan-2-ol ($\text{CH}_3\text{CH}(\text{OH})\text{CH}_3$) and
-then treated with concentrated $\text{H}_2\text{SO}_4$ and $\text{NaBr}$The product is
+then treated with concentrated $\text{H}_2\text{SO}_4$ and $\text{NaBr}$ The product is
 **2-bromopropane** ($\text{CH}_3\text{CHBrCH}_3$).
 
 The mechanism is **SN1 nucleophilic substitution**:
 
-- Concentrated $\text{H}_2\text{SO}_4$ protonates the $-$OH group
+- Concentrated $\text{H}_2\text{SO}_4$ protonates the $-$ OH group
 - Water leaves as a good leaving group ($\text{H}_2\text{O}$), forming a secondary carbocation
 - $\text{Br}^-$ (from NaBr) attacks the carbocation
 
 The product is 2-bromopropane (not 1,2-dibromopropane), because the reaction substitutes only the
-$-$OH group, not adding a second bromine atom.
+$-$ OH group, not adding a second bromine atom.
 
 ---
 
@@ -296,7 +317,9 @@ bromine.
 **Step 1:** The $\pi$-electrons of cis-but-2-ene attack a bromine molecule, forming a cyclic
 **bromonium ion intermediate**:
 
-$$\text{CH}_3\text{CH}=\text{CHCH}_3 + \text{Br}_2 \to \text{CH}_3\text{CH}-\text{CHCH}_3 \quad (\text{bromonium ion})$$
+$$
+\text{CH}_3\text{CH}=\text{CHCH}_3 + \text{Br}_2 \to \text{CH}_3\text{CH}-\text{CHCH}_3 \quad (\text{bromonium ion})
+$$
 
 The bromonium ion has a three-membered ring with Br$^+$ bridging the two carbons. The two methyl
 groups are on the same side (cis).
@@ -304,7 +327,9 @@ groups are on the same side (cis).
 **Step 2:** $\text{Br}^-$ attacks from the **opposite side** (anti-addition) of the bromonium ion
 ring:
 
-$$\text{Bromonium ion} + \text{Br}^- \to \text{CH}_3\text{CHBrCHBrCH}_3$$
+$$
+\text{Bromonium ion} + \text{Br}^- \to \text{CH}_3\text{CHBrCHBrCH}_3
+$$
 
 The two bromine atoms add from opposite sides (anti addition), giving **(2R,3S)-2,3-dibromobutane**.
 
@@ -344,7 +369,9 @@ give $(2R,3R)$ and $(2S,3S)$ enantiomers in equal amounts. These are optically a
 
 Ethene is produced industrially by the thermal cracking of ethane:
 
-$$\text{C}_2\text{H}_6(g) \to \text{C}_2\text{H}_4(g) + \text{H}_2(g) \quad \Delta H = +137\,\text{kJ mol}^{-1}$$
+$$
+\text{C}_2\text{H}_6(g) \to \text{C}_2\text{H}_4(g) + \text{H}_2(g) \quad \Delta H = +137\,\text{kJ mol}^{-1}
+$$
 
 (a) Explain why high temperatures are used in cracking, with reference to the equilibrium position
 and the rate of reaction.
@@ -364,7 +391,7 @@ products (ethene and hydrogen). This increases the equilibrium yield.
 
 **Kinetic consideration:** Cracking involves breaking strong C--C and C--H bonds, which requires
 significant activation energy. High temperatures provide more molecules with energy
-$\geq E_a$Dramatically increasing the rate of reaction (Arrhenius equation).
+$\geq E_a$ Dramatically increasing the rate of reaction (Arrhenius equation).
 
 Both factors (equilibrium and kinetics) favour high temperature.
 
@@ -388,7 +415,9 @@ Partial pressures (at $1.00\,\text{atm}$):
 - $p(\text{C}_2\text{H}_4) = 0.2308\,\text{atm}$
 - $p(\text{H}_2) = 0.2308\,\text{atm}$
 
-$$K_p = \frac{p(\text{C}_2\text{H}_4) \times p(\text{H}_2)}{p(\text{C}_2\text{H}_6)} = \frac{0.2308 \times 0.2308}{0.5385} = \frac{0.05327}{0.5385} = 0.0989\,\text{atm}$$
+$$
+K_p = \frac{p(\text{C}_2\text{H}_4) \times p(\text{H}_2)}{p(\text{C}_2\text{H}_6)} = \frac{0.2308 \times 0.2308}{0.5385} = \frac{0.05327}{0.5385} = 0.0989\,\text{atm}
+$$
 
 (c) While Le Chatelier's principle predicts that low pressure favours the side with more moles of
 gas (2 mol products vs 1 mol reactant), cracking is carried out at relatively low pressure for a
@@ -466,7 +495,7 @@ alkene.
 Total moles of $\mathrm{CO}_2$: $15.4/44.0 = 0.350\,\mathrm{mol}$
 
 The alkene component reacts with bromine water (the alkane does not). Mass of alkene
-$= 2.50\,\mathrm{g}$Mass of alkane $= 5.00 - 2.50 = 2.50\,\mathrm{g}$ (1 mark).
+$= 2.50\,\mathrm{g}$ Mass of alkane $= 5.00 - 2.50 = 2.50\,\mathrm{g}$ (1 mark).
 
 The alkene reacts with $\mathrm{Br}_2$ to give a dibromo compound. If the alkene is
 $\mathrm{C}_n\mathrm{H}_{2n}$:
@@ -479,8 +508,8 @@ Total moles of C from both: $n \times n(\text{alkene}) + m \times n(\text{alkane
 
 Since both components have equal mass ($2.50\,\mathrm{g}$ each), try equal carbon numbers first. If
 both are $\mathrm{C}_4$: ethene and butane? But ethene is a gas ($M = 28$),
-$n = 2.50/28 = 0.0893\,\mathrm{mol}$Contributing $0.179\,\mathrm{mol}$ C. Butane:
-$n = 2.50/58 = 0.0431\,\mathrm{mol}$Contributing $0.172\,\mathrm{mol}$ C. Total C
+$n = 2.50/28 = 0.0893\,\mathrm{mol}$ Contributing $0.179\,\mathrm{mol}$ C. Butane:
+$n = 2.50/58 = 0.0431\,\mathrm{mol}$ Contributing $0.172\,\mathrm{mol}$ C. Total C
 $= 0.179 + 0.172 = 0.351\,\mathrm{mol}$ (matches $0.350$) (1 mark).
 
 The mixture is **ethene** ($\mathrm{C}_2\mathrm{H}_4$) and **butane**

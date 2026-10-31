@@ -317,17 +317,6 @@ became the model for China's market reforms.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Modern China] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A nation in transformation:** Modern China's history is like a river with many twists, from empire to republic to communist state, each era shaped the next through revolution, war, and reform.
@@ -413,7 +402,7 @@ escaped the worst effects of colonialism while China was heavily exploited by fo
    Southeast Asian economies, contributing to the broader Asian economic miracle.
 
 4. **Security architecture**: Japan's wartime defeat and the subsequent US-Japan alliance shaped the
-   Cold War security structure in East Asia, with Japan serving as the anchor of American power in
+   cold War security structure in East Asia, with Japan serving as the anchor of American power in
    the region.
 
 ---

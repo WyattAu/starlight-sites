@@ -61,6 +61,8 @@ Key elements:
 
 ### Column Data Types
 
+<div class="table-wrap">
+
 | Type Category   | PostgreSQL Types                     | Notes                                                                           |
 | --------------- | ------------------------------------ | ------------------------------------------------------------------------------- |
 | Integers        | `SMALLINT``INTEGER``BIGINT`          | `INTEGER` is 4 bytes, `BIGINT` is 8 bytes                                       |
@@ -76,9 +78,11 @@ Key elements:
 | Array           | `INTEGER[]``TEXT[]`                  | PostgreSQL-specific extension                                                   |
 | Network         | `INET``CIDR``MACADDR`                | PostgreSQL-specific; enforces valid IP/MAC formats                              |
 
+</div>
+
 :::tip
 You lose the context of when the event actually occurred. `TIMESTAMPTZ` converts to UTC on storage
-And back to the session timezone on retrieval.
+and back to the session timezone on retrieval.
 
 ### ALTER TABLE
 
@@ -278,7 +282,7 @@ WHERE (salary > 100000 OR department_id = 1) AND hire_date >= '2022-01-01'
 
 :::caution
 `WHERE column = NULL` never matches any rows. Use `IS NULL` and `IS NOT NULL`. Similarly,
-`NULL AND TRUE` is `NULL``NULL OR FALSE` is `NULL`And `NOT NULL` is `NULL`. This three-valued Logic
+`NULL AND TRUE` is `NULL`, `NULL OR FALSE` is `NULL`And `NOT NULL` is `NULL`. This three-valued Logic
 is the single greatest source of SQL bugs.
 
 ### ORDER BY
@@ -533,7 +537,7 @@ MAX(column)       -- maximum non-NULL value
 :::
 
 :::note
-Treat NULL as zero, use `AVG(COALESCE(salary, 0))`But understand that this changes the semantics:
+Treat NULL as zero, use `AVG(COALESCE(salary, 0))`. But understand that this changes the semantics:
 NULL means "unknown," not "zero."
 
 ### GROUP BY
@@ -592,7 +596,7 @@ GROUP BY CUBE (region, channel, product_line);
 ## Window Functions
 
 Window functions perform a calculation across a set of table rows related to the current row. Unlike
-Aggregate functions with `GROUP BY`They do not collapse rows -- every input row produces an output
+Aggregate functions with `GROUP BY`. They do not collapse rows -- every input row produces an output
 Row.
 
 ### Syntax
@@ -615,6 +619,8 @@ SELECT emp_id, department_id, salary,
 FROM employees;
 ```
 
+<div class="table-wrap">
+
 | salary | ROW_NUMBER | RANK | DENSE_RANK |
 | ------ | ---------- | ---- | ---------- |
 | 150000 | 1          | 1    | 1          |
@@ -622,6 +628,8 @@ FROM employees;
 | 140000 | 3          | 3    | 2          |
 | 140000 | 4          | 3    | 2          |
 | 130000 | 5          | 5    | 3          |
+
+</div>
 
 - `ROW_NUMBER`: assigns a unique sequential integer to each row within the partition
 - `RANK`: ties get the same rank; next rank skips (1, 1, 3, 3, 5)
@@ -669,9 +677,9 @@ FROM employees;
 :::
 
 :::caution
-`RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`Which includes all peers (rows with the same
+`RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`. Which includes all peers (rows with the same
 ORDER BY value). This means `SUM(amount) OVER (ORDER BY date)` gives a running total that includes
-All rows with the same date. Use `ROWS` instead of `RANGE` if you want strict positional framing.
+all rows with the same date. Use `ROWS` instead of `RANGE` if you want strict positional framing.
 
 ## Common Table Expressions (CTEs)
 
@@ -829,20 +837,20 @@ Joins are like matching puzzle pieces. An inner join finds only the pieces that 
 ### Off-by-One Errors with BETWEEN
 
 `BETWEEN` is inclusive on both ends: `WHERE date BETWEEN '2024-01-01' AND '2024-01-31'` includes
-Both endpoints. If `date` is a `TIMESTAMPTZ``BETWEEN '2024-01-01' AND '2024-01-31'` actually means
-Up to `2024-01-31 00:00:00`Excluding all timestamps on January 31st after midnight. Use
+both endpoints. If `date` is a `TIMESTAMPTZ`, `BETWEEN '2024-01-01' AND '2024-01-31'` actually means
+up to `2024-01-31 00:00:00`Excluding all timestamps on January 31st after midnight. Use
 `WHERE date >= '2024-01-01' AND date &lt; '2024-02-01'` for date-range comparisons with timestamps.
 
 ### Assuming ORDER BY Without Explicit ORDER BY
 
 SQL tables and result sets have no guaranteed ordering unless you specify `ORDER BY`. A query
-Without `ORDER BY` may return rows in any order, and that order may change between executions, after
-An `ANALYZE`Or after a version upgrade.
+without `ORDER BY` may return rows in any order, and that order may change between executions, after
+an `ANALYZE`Or after a version upgrade.
 
 ### Using DISTINCT as a Substitute for Proper Joins
 
 `SELECT DISTINCT` to remove duplicates caused by an incorrect join is a performance anti-pattern. If
-Your join produces duplicates, the join condition or the schema is wrong. Fix the root cause.
+your join produces duplicates, the join condition or the schema is wrong. Fix the root cause.
 
 ### Forgetting That COUNT(column) Skips NULLs
 
@@ -870,9 +878,6 @@ Query plan caching. Always use parameterised queries (prepared statements) in ap
 ```
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

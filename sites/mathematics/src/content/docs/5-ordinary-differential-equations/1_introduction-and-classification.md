@@ -22,7 +22,7 @@ description: "A is an equation involving an unknown function and its derivatives
 A **differential equation (DE)** is an equation involving an unknown function and its derivatives.
 An **ordinary differential equation (ODE)** involves a function of one variable and its ordinary
 Derivatives. A **partial differential equation (PDE)** involves a function of several variables and
-Its partial derivatives.
+its partial derivatives.
 
 ### 1.2 Classification of ODEs
 
@@ -37,34 +37,34 @@ An ODE is:
 
 An **initial value problem (IVP)** specifies the value of the function (and possibly its
 Derivatives) at a single point. A **boundary value problem (BVP)** specifies conditions at two or
-More points.
+more points.
 
 ### 1.4 Examples from Physics and Biology
 
 Differential equations arise throughout the natural sciences. A few canonical examples:
 
-1. **Newton"s law of cooling.** The temperature $T(t)$ of a body in a medium at temperature $T_m$
-   satisfies $\frac{dT}{dt} = -k(T - T_m)$A first-order linear ODE.
+1. **Newton's law of cooling.** The temperature $T(t)$ of a body in a medium at temperature $T_m$
+   satisfies $\frac{dT}{dt} = -k(T - T_m)$ A first-order linear ODE.
 
 2. **Harmonic oscillator.** A mass on a spring with damping obeys
-   $m\frac{d^2 x}{dt^2} + c\frac{dx}{dt} + kx = F(t)$A second-order linear ODE.
+   $m\frac{d^2 x}{dt^2} + c\frac{dx}{dt} + kx = F(t)$ A second-order linear ODE.
 
-3. **Logistic population growth.** $\frac{dP}{dt} = rP\left(1 - \frac{P}{K}\right)$A first-order
+3. **Logistic population growth.** $\frac{dP}{dt} = rP\left(1 - \frac{P}{K}\right)$ A first-order
    nonlinear (Bernoulli) ODE.
 
 4. **Lotka-Volterra predator-prey model.** $\frac{dx}{dt} = x(\alpha - \beta y)$,
-   $\frac{dy}{dt} = y(-\gamma + \delta x)$A coupled nonlinear system.
+   $\frac{dy}{dt} = y(-\gamma + \delta x)$ A coupled nonlinear system.
 
 5. **RC circuit.** The charge $q(t)$ on a capacitor satisfies $R\frac{dq}{dt} + \frac{q}{C} = V(t)$
    a first-order linear ODE.
 
-6. **Heat equation.** The temperature $u(x, t)$ in a rod satisfies $u_t = \alpha^2 u_{xx}$A
+6. **Heat equation.** The temperature $u(x, t)$ in a rod satisfies $u_t = \alpha^2 u_{xx}$ A
    second-order linear PDE.
 
-7. **Wave equation.** The displacement $u(x, t)$ of a string satisfies $u_{tt} = c^2 u_{xx}$A
+7. **Wave equation.** The displacement $u(x, t)$ of a string satisfies $u_{tt} = c^2 u_{xx}$ A
    second-order linear PDE.
 
-8. **Laplace's equation.** The steady-state temperature satisfies $u_{xx} + u_{yy} = 0$A
+8. **Laplace's equation.** The steady-state temperature satisfies $u_{xx} + u_{yy} = 0$ A
    second-order linear PDE.
 
 ### 1.5 Classification Tree
@@ -125,6 +125,8 @@ $B^2 - 4AC = -4 \lt 0$ (elliptic). $\blacksquare$
 
 ### 1.8 Summary Table: ODE Classification
 
+<div class="table-wrap">
+
 | Equation | Order | Linear? | Homogeneous? | Type |
 | --- | --- | --- | --- | --- |
 | $y' + 3y = 0$ | 1 | Yes | Yes | Linear, constant coeff. |
@@ -132,6 +134,8 @@ $B^2 - 4AC = -4 \lt 0$ (elliptic). $\blacksquare$
 | $y' = y^2$ | 1 | No |, | Nonlinear |
 | $x^2 y'' + xy' + (x^2-n^2)y = 0$ | 2 | Yes | Yes | Bessel's equation |
 | $u_t = \alpha^2 u_{xx}$ | 2 | Yes | Yes | Heat equation (PDE) |
+
+</div>
 
 ### 1.9 Applications in Practice
 
@@ -153,45 +157,5 @@ Differential equations describe how things change. An ODE relates a function to 
 - **[Introduction to Partial Differential Equations](/5-ordinary-differential-equations/8_introduction-to-partial-differential-equations/)**: The heat, wave, and Laplace equations are canonical PDEs that extend the ODE framework to multiple variables.
 - **[Stability and Phase Plane Analysis](/5-ordinary-differential-equations/9_stability-and-phase-plane-analysis/)**: Classifying ODEs by linearity and homogeneity determines which stability analysis techniques apply.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

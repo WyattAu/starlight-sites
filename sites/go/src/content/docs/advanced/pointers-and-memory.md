@@ -21,7 +21,7 @@ categories:
 ## Pointer Basics
 
 Go has pointers, but no pointer arithmetic (except via `unsafe`). Pointers hold the memory address
-Of a value.
+of a value.
 
 ```go
 x := 42
@@ -59,7 +59,7 @@ fmt.Println(x) // 43
 ### Returning Pointers to Local Variables
 
 Go allows returning pointers to local variables. The compiler performs escape analysis and allocates
-The variable on the heap if it escapes:
+the variable on the heap if it escapes:
 
 ```go
 func newInt() *int {
@@ -112,7 +112,7 @@ fmt.Println(alice.Age) // 31 -- changed
 ## Escape Analysis
 
 The Go compiler uses escape analysis to determine whether a variable can live on the stack or must
-Be allocated on the heap. A variable "escapes" if it is reachable after the function returns.
+be allocated on the heap. A variable "escapes" if it is reachable after the function returns.
 
 ### What Causes Heap Allocation
 
@@ -156,6 +156,8 @@ Use `-gcflags="-m -m"` for verbose output.
 
 ## Stack vs Heap
 
+<div class="table-wrap">
+
 | Property     | Stack                        | Heap                           |
 | ------------ | ---------------------------- | ------------------------------ |
 | Allocation   | Automatic (push/pop frame)   | Manual (via `new`/escape)      |
@@ -163,6 +165,8 @@ Use `-gcflags="-m -m"` for verbose output.
 | Speed        | Very fast (pointer bump)     | Slower (GC involvement)        |
 | Size         | Limited (default 1GB, grows) | Large (limited by system)      |
 | Access       | Direct (register/offset)     | Indirect (pointer dereference) |
+
+</div>
 
 Stack allocation is preferred because it is faster (no GC overhead) and the memory is automatically
 Reclaimed when the function returns. The Go compiler works hard to keep variables on the stack.
@@ -179,7 +183,7 @@ Extremely deep recursion (millions of frames) may exhaust memory.
 ## The unsafe Package
 
 The `unsafe` package provides operations that bypass Go's type safety. It should be used sparingly
-And only when interfacing with C or implementing low-level data structures.
+and only when interfacing with C or implementing low-level data structures.
 
 ### Pointer Arithmetic
 
@@ -225,7 +229,7 @@ s := unsafe.String(&b[0], len(b)) // []byte to string without allocation
 2. Never store a `uintptr` where the GC can see it. The GC treats `uintptr` as an integer, not a
    pointer, and may collect the underlying object.
 
-3. `unsafe.Pointer` rules: a `T1` can be converted to `unsafe.Pointer`Which can be converted to
+3. `unsafe.Pointer` rules: a `T1` can be converted to `unsafe.Pointer`. Which can be converted to
    `T2`. This allows arbitrary pointer type conversion.
 
 ```go
@@ -272,17 +276,6 @@ Pointers can also be compared to `nil`.
 6. **Not checking escape analysis output.** When performance matters, run `go build -gcflags="-m"`
    and verify that hot-path variables are not unnecessarily escaping to the heap.
 
-
-```mermaid
-flowchart TD
-    A[Pointers And Memory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of pointers and memory, including underlying theory, practical
@@ -296,13 +289,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

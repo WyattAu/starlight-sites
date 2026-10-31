@@ -55,10 +55,9 @@ graph TD
     W --> L[Light]
 ```
 
-
 ## Contents
 
-1. [Maxwell"s Equations](/3-electromagnetism/1_maxwell-s-equations/)
+1. [Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)
 2. [Electrostatics](/3-electromagnetism/2_electrostatics/)
 3. [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
 4. [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
@@ -96,8 +95,6 @@ Start with Maxwell's equations to understand the foundations, then progress to e
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -124,7 +121,7 @@ Each section includes:
 - **Particle Physics:** The photon is the gauge boson of electromagnetism in the Standard Model.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

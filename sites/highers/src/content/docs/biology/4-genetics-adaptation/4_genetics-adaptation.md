@@ -60,7 +60,7 @@ Nitrogen to demonstrate semi-conservative replication.
 **Worked Example: The Meselson-Stahl experiment.**
 
 Bacteria are grown in medium containing $^{15}\mathrm{N$ (heavy nitrogen) for many generations. All
-Their DNA is heavy ($^{15}\mathrm{N/^{15}\mathrm{N$). They are then transferred to medium Containing
+their DNA is heavy ($^{15}\mathrm{N/^{15}\mathrm{N$). They are then transferred to medium Containing
 $^{14}\mathrm{N$ (light nitrogen) and allowed to replicate once.
 
 If replication is semi-conservative: each new DNA molecule contains one heavy strand and one light
@@ -150,10 +150,14 @@ Parents: $\mathrm{Tt \times \mathrm{tt$
 
 Gametes: $\mathrm{T, \mathrm{t \times \mathrm{t$
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | t   | Tt  | tt  |
 | t   | Tt  | tt  |
+
+</div>
 
 Genotype ratio: 1 Tt : 1 tt
 
@@ -180,10 +184,14 @@ A single recessive allele will be expressed.
 
 If a carrier female ($\mathrm{X^H\mathrm{X^h$) marries a normal male ($\mathrm{X^H\mathrm{Y$):
 
+<div class="table-wrap">
+
 |               | $\mathrm{X^H$                             | $\mathrm{Y$                                |
 | ------------- | ----------------------------------------- | ------------------------------------------ |
 | $\mathrm{X^H$ | $\mathrm{X^H\mathrm{X^H$ (normal female)  | $\mathrm{X^H\mathrm{Y$ (normal male)       |
 | $\mathrm{X^h$ | $\mathrm{X^H\mathrm{X^h$ (carrier female) | $\mathrm{X^h\mathrm{Y$ (haemophiliac male) |
+
+</div>
 
 Probability of a haemophiliac son: 1/4 (25%).
 
@@ -210,21 +218,25 @@ Shows continuous variation.
 The chi-squared test determines whether observed results differ significantly from expected
 Mendelian ratios.
 
-$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+$$
+\chi^2 = \sum \frac{(O - E)^2}{E}
+$$
 
 **Example:** A cross is expected to give a 3:1 ratio. Observed: 72 dominant, 28 recessive. Is this
 Consistent with a 3:1 ratio?
 
 Expected: 75 dominant, 25 recessive (total 100).
 
-$$\chi^2 = \frac{(72 - 75)^2}{75} + \frac{(28 - 25)^2}{25} = \frac{9}{75} + \frac{9}{25} = 0.12 + 0.36 = 0.48$$
+$$
+\chi^2 = \frac{(72 - 75)^2}{75} + \frac{(28 - 25)^2}{25} = \frac{9}{75} + \frac{9}{25} = 0.12 + 0.36 = 0.48
+$$
 
 Degrees of freedom: $2 - 1 = 1$.
 
 Critical value at 5% for 1 df: 3.841.
 
-Since $0.48 \lt 3.841$The results are consistent with a 3:1 ratio. The difference is not
-Statistically significant.
+Since $0.48 \lt 3.841$ The results are consistent with a 3:1 ratio. The difference is not
+statistically significant.
 
 **Worked Example: Chi-squared for a dihybrid cross.**
 
@@ -232,15 +244,21 @@ A dihybrid cross is expected to give a 9:3:3:1 ratio. Observed: 520, 180, 170, 3
 
 Expected: 506.25, 168.75, 168.75, 56.25.
 
-$$\chi^2 = \frac{(520-506.25)^2}{506.25} + \frac{(180-168.75)^2}{168.75} + \frac{(170-168.75)^2}{168.75} + \frac{(30-56.25)^2}{56.25}$$
+$$
+\chi^2 = \frac{(520-506.25)^2}{506.25} + \frac{(180-168.75)^2}{168.75} + \frac{(170-168.75)^2}{168.75} + \frac{(30-56.25)^2}{56.25}
+$$
 
-$$= \frac{189.06}{506.25} + \frac{126.56}{168.75} + \frac{1.56}{168.75} + \frac{689.06}{56.25}$$
+$$
+= \frac{189.06}{506.25} + \frac{126.56}{168.75} + \frac{1.56}{168.75} + \frac{689.06}{56.25}
+$$
 
-$$= 0.37 + 0.75 + 0.009 + 12.25 = 13.38$$
+$$
+= 0.37 + 0.75 + 0.009 + 12.25 = 13.38
+$$
 
 Degrees of freedom: $4 - 1 = 3$. Critical value at 5% for 3 df: 7.815.
 
-Since $13.38 \gt 7.815$The observed results differ significantly from the expected 9:3:3:1 ratio.
+Since $13.38 \gt 7.815$ The observed results differ significantly from the expected 9:3:3:1 ratio.
 The null hypothesis is rejected.
 
 ---
@@ -294,7 +312,7 @@ Reading frame: TGG CAT ACC AG...
 Amino acids: Trp - His - Thr - ...
 
 The reading frame has shifted, and every amino acid after the deletion is different. The protein
-Will almost certainly lose its function.
+will almost certainly lose its function.
 
 ### Genetic Engineering
 
@@ -353,7 +371,9 @@ Protein structures).
 
 For a population in equilibrium (no evolution):
 
-$$p^2 + 2pq + q^2 = 1$$
+$$
+p^2 + 2pq + q^2 = 1
+$$
 
 Where $p$ = frequency of dominant allele, $q$ = frequency of recessive allele.
 
@@ -439,7 +459,7 @@ See the examples integrated throughout the sections above.
 
 2. Explain how the lac operon allows E. Coli to regulate lactose metabolism.
 
-3. In a dihybrid cross between $\mathrm{RrYy \times \mathrm{rryy$Determine the expected phenotype
+3. In a dihybrid cross between $\mathrm{RrYy \times \mathrm{rryy$ Determine the expected phenotype
    ratio and the probability of an offspring with the genotype $\mathrm{RrYy$.
 
 4. A population has 9% of individuals showing a recessive genetic disorder. Calculate the frequency
@@ -510,6 +530,8 @@ Fidelity.
 
 **Enzymes involved:**
 
+<div class="table-wrap">
+
 | Enzyme                         | Function                                                 |
 | ------------------------------ | -------------------------------------------------------- |
 | Helicase                       | Unwinds the double helix by breaking hydrogen bonds      |
@@ -520,13 +542,15 @@ Fidelity.
 | Topoisomerase                  | Relieves tension ahead of the replication fork           |
 | Single-strand binding proteins | Prevent re-annealing of separated strands                |
 
+</div>
+
 **Leading vs lagging strand:**
 
 DNA polymerase can only add nucleotides in the 5' to 3' direction. Since the two strands of DNA are
-Antiparallel, only one strand (the leading strand) can be synthesised continuously in the direction
-Of the replication fork. The other strand (the lagging strand) must be synthesised discontinuously
-In short fragments called Okazaki fragments, each initiated by an RNA primer. The RNA primers are
-Later removed and replaced with DNA, and the fragments are joined by DNA ligase.
+antiparallel, only one strand (the leading strand) can be synthesised continuously in the direction
+of the replication fork. The other strand (the lagging strand) must be synthesised discontinuously
+in short fragments called Okazaki fragments, each initiated by an RNA primer. The RNA primers are
+later removed and replaced with DNA, and the fragments are joined by DNA ligase.
 
 **Proofreading:** DNA polymerase III has 3' to 5' exonuclease activity, meaning it can detect and
 Remove a mismatched nucleotide and replace it with the correct one. This proofreading mechanism,
@@ -603,8 +627,8 @@ Used to insert a gene of interest into a plasmid vector.
 
 **Gel electrophoresis:** Separates DNA fragments by size. Smaller fragments move faster through the
 Agarose gel and travel further. DNA fragments can be visualised using a fluorescent dye that binds
-To DNA. This technique is used in DNA fingerprinting, analysing PCR products, and checking the
-Success of restriction enzyme digestion.
+to DNA. This technique is used in DNA fingerprinting, analysing PCR products, and checking the
+success of restriction enzyme digestion.
 
 **Worked Example: Designing a genetic engineering experiment.**
 
@@ -678,7 +702,7 @@ DNA fingerprinting uses gel electrophoresis to compare DNA samples from differen
 **Worked Example: Interpreting a DNA fingerprint.**
 
 A crime scene sample and three suspects are analysed using DNA fingerprinting at three STR loci. The
-Banding pattern at each locus is compared:
+banding pattern at each locus is compared:
 
 - Locus 1: Crime scene has bands at 8 and 12 repeat units. Suspect A matches; Suspect B has bands at
   6 and 10; Suspect C has bands at 8 and 12 (matches).
@@ -688,13 +712,13 @@ Banding pattern at each locus is compared:
 
 Only Suspect A matches at all three loci, providing strong evidence that the DNA at the crime scene
 Came from Suspect A. The probability of a random match at all three loci is the product of the
-Individual match probabilities, which is less than 1 in a billion.
+individual match probabilities, which is less than 1 in a billion.
 
 ## Review: The trp Operon -- A Repressible Operon
 
 The trp operon in E. Coli controls the synthesis of tryptophan and is an example of a repressible
 Operon. Unlike the lac operon (inducible), the trp operon is normally ON and is switched OFF when
-Tryptophan is abundant.
+tryptophan is abundant.
 
 **Components:**
 
@@ -721,6 +745,8 @@ Tryptophan is abundant.
 
 **Comparison of lac and trp operons:**
 
+<div class="table-wrap">
+
 | Feature          | lac operon (inducible)         | trp operon (repressible)       |
 | ---------------- | ------------------------------ | ------------------------------ |
 | Default state    | OFF (repressor bound)          | ON (repressor inactive)        |
@@ -728,6 +754,8 @@ Tryptophan is abundant.
 | Function         | Catabolise lactose             | Synthesise tryptophan          |
 | Regulatory logic | Turn ON when substrate present | Turn OFF when product abundant |
 | Type of control  | Negative (repressor)           | Negative (repressor)           |
+
+</div>
 
 ## Review: Epigenetics in Gene Regulation
 
@@ -781,20 +809,24 @@ In the population. The most fit genotype has $w = 1$; less fit genotypes have $w
 **Worked Example: Selection against a recessive allele.**
 
 In a population, the recessive allele $a$ has frequency $q = 0.4$. Individuals with genotype $aa$
-Have reduced fitness ($w = 0.5$ So $s = 0.5$).
+have reduced fitness ($w = 0.5$ So $s = 0.5$).
 
 After one generation of selection:
 
-$$q' = \frac{q^2 w_{aa} + pq \cdot 1}{\bar{w}}$$
+$$
+q' = \frac{q^2 w_{aa} + pq \cdot 1}{\bar{w}}
+$$
 
 Where $\bar{w}$ is the mean fitness of the population.
 
 $\bar{w} = p^2(1) + 2pq(1) + q^2(0.5) = (0.6)^2 + 2(0.6)(0.4) + (0.4)^2(0.5) = 0.36 + 0.48 + 0.08 = 0.92$.
 
-$$q' = \frac{(0.4)^2(0.5) + (0.6)(0.4)}{0.92} = \frac{0.08 + 0.24}{0.92} = \frac{0.32}{0.92} = 0.348$$
+$$
+q' = \frac{(0.4)^2(0.5) + (0.6)(0.4)}{0.92} = \frac{0.08 + 0.24}{0.92} = \frac{0.32}{0.92} = 0.348
+$$
 
 The frequency of the recessive allele has decreased from 0.4 to 0.348 after one generation of
-Selection. The recessive allele decreases slowly because it is "hidden" in heterozygous individuals,
+selection. The recessive allele decreases slowly because it is "hidden" in heterozygous individuals,
 Who are not affected by selection.
 
 **Heterozygote advantage:** When heterozygotes have higher fitness than either homozygote, both
@@ -807,19 +839,8 @@ Alleles are maintained in the population. This is also called balanced polymorph
 - $H^SH^S$ (sickle cell disease): severe anaemia (fitness greatly reduced).
 
 The heterozygote advantage maintains both the normal and sickle cell alleles in the population. This
-Explains why sickle cell anaemia remains relatively common in malaria-endemic regions despite being
+explains why sickle cell anaemia remains relatively common in malaria-endemic regions despite being
 A severe genetic disorder.
-
-
-```mermaid
-flowchart TD
-    A[4_Genetics Adaptation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

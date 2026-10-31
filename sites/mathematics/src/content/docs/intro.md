@@ -14,6 +14,16 @@ description: "Study notes for Mathematics with worked examples, practice problem
 }
 </script>
 
+:::note[New to proof-based mathematics? Start here]
+If your school background is exam-focused, or your exam board did not cover
+proofs, limits from the definition, or set notation, read
+**[Before You Begin: From School to University Mathematics](/before-you-begin/)**
+first. It defines every term the tracks use, proves every rule it states, and is
+written to be skimmed by confident readers: take the self-test at the end, and
+only study the sections whose answers surprise you.
+:::
+
+
 ## Mathematics
 
 Welcome to the mathematics notes. These notes cover proof-based undergraduate mathematics, from foundational algebraic structures to advanced analysis and geometry.
@@ -34,6 +44,8 @@ Mathematics is the language of science and engineering. Abstract algebra provide
 
 ## Core Concepts
 
+<div class="table-wrap">
+
 | Area | Central Object | Key Result | Application |
 | ------ | --------------- | ------------ | ------------- |
 | Abstract Algebra | Group $(G, \cdot)$ | Lagrange's Theorem | Symmetry, cryptography |
@@ -43,7 +55,11 @@ Mathematics is the language of science and engineering. Abstract algebra provide
 | Differential Geometry | Smooth manifold $M$ | Gauss-Bonnet Theorem | General relativity |
 | Functional Analysis | Banach/Hilbert space | Hahn-Banach Theorem | PDE theory, quantum |
 
+</div>
+
 ## Proof Techniques
+
+<div class="table-wrap">
 
 | Technique | When to Use | Example |
 | ----------- | ------------- | --------- |
@@ -52,6 +68,8 @@ Mathematics is the language of science and engineering. Abstract algebra provide
 | Contradiction | Assume $\neg P$, derive contradiction | Irrationality of $\sqrt{2}$ |
 | Induction | Statement about natural numbers | $\sum_{i=1}^n i = \frac{n(n+1)}{2}$ |
 | Construction | Existence proof | "There exist infinitely many primes" |
+
+</div>
 
 ## How to Use These Notes
 
@@ -67,15 +85,15 @@ Mathematics is cumulative, each topic builds on previous ones. If you encounter 
 
 ## Cross-References
 
-- **[Abstract Algebra](/abstract-algebra/)**: Groups, rings, and fields form the algebraic foundation for many areas of modern mathematics.
-- **[Real Analysis](/real-analysis/)**: Rigorous treatment of limits, continuity, and integration underpins calculus and its extensions.
-- **[Linear Algebra](/linear-algebra/)**: Vector spaces and linear maps are used throughout mathematics, physics, and engineering.
+- **[Abstract Algebra](/1-abstract-algebra/)**: Groups, rings, and fields form the algebraic foundation for many areas of modern mathematics.
+- **[Real Analysis](/3-real-analysis/)**: Rigorous treatment of limits, continuity, and integration underpins calculus and its extensions.
+- **[Linear Algebra](/2-linear-algebra/)**: Vector spaces and linear maps are used throughout mathematics, physics, and engineering.
 - **[Topology](/9-topology/1_introduction-to-topology/)**: Topological spaces generalise notions of closeness and continuity beyond metric spaces.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Common Mistakes
 
@@ -93,18 +111,11 @@ The interconnectedness of mathematical subjects is not a coincidence, it reflect
 
 The proof techniques themselves are not arbitrary logical exercises. Direct proof builds a chain from assumptions to conclusion. Proof by contradiction exploits the fact that if a statement isn't true, assuming it's true must create a logical impossibility. Induction captures the idea that if something holds for a base case and each step preserves it, it holds for all natural numbers. Each technique is a tool for attacking a different kind of problem, and learning to recognise which technique to reach for is the core skill of mathematical reasoning.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -114,27 +125,3 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.

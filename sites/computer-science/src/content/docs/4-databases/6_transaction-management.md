@@ -21,6 +21,8 @@ description: "A is a logical unit of work that must satisfy: Comprehensive educa
 
 A **transaction** is a logical unit of work that must satisfy:
 
+<div class="table-wrap">
+
 | Property    | Meaning                                                      |
 | ----------- | ------------------------------------------------------------ |
 | Atomicity   | All or nothing: either all operations commit or none         |
@@ -28,9 +30,13 @@ A **transaction** is a logical unit of work that must satisfy:
 | Isolation   | Concurrent transactions do not interfere with each other     |
 | Durability  | Once committed, the effects survive failures                 |
 
+</div>
+
 ### 6.2 Isolation Levels
 
 SQL defines four isolation levels with increasing strictness:
+
+<div class="table-wrap">
 
 | Level            | Dirty Read | Non-repeatable Read | Phantom Read |
 | ---------------- | ---------- | ------------------- | ------------ |
@@ -38,6 +44,8 @@ SQL defines four isolation levels with increasing strictness:
 | Read Committed   | Prevented  | Possible            | Possible     |
 | Repeatable Read  | Prevented  | Prevented           | Possible     |
 | Serializable     | Prevented  | Prevented           | Prevented    |
+
+</div>
 
 - **Dirty read:** Reading uncommitted data from another transaction.
 - **Non-repeatable read:** Same query returns different results within the same transaction due to
@@ -63,17 +71,17 @@ Access the same data item, and at least one is a write. A schedule is conflict-s
 
 _Proof sketch._ If the precedence graph has a cycle, no serial ordering can respect all the
 Precedence constraints, so the schedule is not conflict-serialisable. Conversely, a topological sort
-Of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
+of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
 
 **View serialisability.** A schedule $S$ is view-serialisable if it is **view-equivalent** to a
 Serial schedule $S"$. View equivalence requires:
 
-1. **Initial read:** If $T_i$ reads the initial value of $Q$ in $S$It does so in $S'$.
-2. **Updated read:** If $T_i$ reads the value of $Q$ written by $T_j$ in $S$It does so in $S'$.
-3. **Final write:** If $T_i$ performs the final write of $Q$ in $S$It does so in $S'$.
+1. **Initial read:** If $T_i$ reads the initial value of $Q$ in $S$ It does so in $S'$.
+2. **Updated read:** If $T_i$ reads the value of $Q$ written by $T_j$ in $S$ It does so in $S'$.
+3. **Final write:** If $T_i$ performs the final write of $Q$ in $S$ It does so in $S'$.
 
 Every conflict-serialisable schedule is view-serialisable, but the converse does not hold. Testing
-For view serialisability is NP-complete.
+for view serialisability is NP-complete.
 
 <details>
 <summary>Worked Example 6.1: Testing Conflict Serialisability</summary>
@@ -126,8 +134,8 @@ which corresponds to a serial schedule. $\blacksquare$
 **Timestamp Ordering (TO).** Each transaction receives a timestamp $TS(T)$. For conflicting
 Operations:
 
-- $T_i$ reads $Q$: if $Q$ was last written by $T_j$ with $TS(T_j) \gt TS(T_i)$Abort $T_i$.
-- $T_i$ writes $Q$: if $Q$ was last read by $T_j$ with $TS(T_j) \gt TS(T_i)$Abort $T_i$.
+- $T_i$ reads $Q$: if $Q$ was last written by $T_j$ with $TS(T_j) \gt TS(T_i)$ Abort $T_i$.
+- $T_i$ writes $Q$: if $Q$ was last read by $T_j$ with $TS(T_j) \gt TS(T_i)$ Abort $T_i$.
 
 No deadlocks (no waiting), but may abort transactions unnecessarily.
 
@@ -140,7 +148,7 @@ No deadlocks (no waiting), but may abort transactions unnecessarily.
    restart.
 
 **Forward validation:** Check against committed transactions. For each data item $Q$ read by
-$T_i$Verify that the transaction that last wrote $Q$ committed before $T_i$'s read phase began.
+$T_i$ Verify that the transaction that last wrote $Q$ committed before $T_i$'s read phase began.
 **Backward validation:** Check against active transactions.
 
 OCC performs well when conflicts are rare but degrades under high contention (many restarts).
@@ -150,8 +158,8 @@ OCC performs well when conflicts are rare but degrades under high contention (ma
 
 **Scenario:** Two transactions $T_1$ and $T_2$ both read and update account balances.
 
-- $T_1$: Read $A = 100$Read $B = 200$Write $A = 150$Write $B = 150$ (transfer 50 from $B$ to $A$).
-- $T_2$: Read $A = 100$Write $A = 75$ (withdraw 25).
+- $T_1$: Read $A = 100$ Read $B = 200$ Write $A = 150$ Write $B = 150$ (transfer 50 from $B$ to $A$).
+- $T_2$: Read $A = 100$ Write $A = 75$ (withdraw 25).
 
 **Execution:**
 
@@ -252,17 +260,6 @@ void checkpoint() {
 The **buffer pool** caches frequently accessed disk pages in memory. Replacement policies include
 LRU, Clock, and variants. PostgreSQL uses a Clock sweep algorithm; MySQL InnoDB uses an LRU variant
 with a Midpoint insertion strategy to avoid scan pollution.
-
-
-```mermaid
-flowchart TD
-    A[6_Transaction Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

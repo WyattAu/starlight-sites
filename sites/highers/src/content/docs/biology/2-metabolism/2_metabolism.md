@@ -29,7 +29,7 @@ categories:
 
 **Enzymes** are biological catalysts that speed up biochemical reactions by lowering the activation
 Energy. They are globular proteins with a specific active site complementary in shape to the
-Substrate.
+substrate.
 
 **Lock and Key model:** The substrate fits exactly into the active site like a key in a lock. Rigid
 And specific.
@@ -62,17 +62,23 @@ Widely accepted.
 
 **Inhibitors:**
 
+<div class="table-wrap">
+
 | Type            | Mechanism                                           | Reversibility |
 | --------------- | --------------------------------------------------- | ------------- |
 | Competitive     | Binds to active site; competes with substrate       | Reversible    |
 | Non-competitive | Binds to allosteric site; changes active site shape | reversible    |
+
+</div>
 
 ### Michaelis-Menten Kinetics
 
 The relationship between enzyme activity and substrate concentration is described by the
 Michaelis-Menten equation:
 
-$$v = \frac{V_{\max}[S]}{K_m + [S]}$$
+$$
+v = \frac{V_{\max}[S]}{K_m + [S]}
+$$
 
 Where:
 
@@ -88,7 +94,9 @@ Where:
 
 **Lineweaver-Burk plot:** A double reciprocal plot of $1/v$ vs. $1/[S]$:
 
-$$\frac{1}{v} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[S]} + \frac{1}{V_{\max}}$$
+$$
+\frac{1}{v} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[S]} + \frac{1}{V_{\max}}
+$$
 
 - Y-intercept: $1/V_{\max}$
 - X-intercept: $-1/K_m$
@@ -103,7 +111,9 @@ $$\frac{1}{v} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[S]} + \frac{1}{V_{\max}}$$
 
 An enzyme has the following rates at different substrate concentrations:
 
-| [S] (mM) | v ($\mu$Mol/min) |
+<div class="table-wrap">
+
+| [S] (mM) | v ($\mu$ Mol/min) |
 | -------- | ---------------- |
 | 1        | 1.67             |
 | 2        | 2.86             |
@@ -113,11 +123,13 @@ An enzyme has the following rates at different substrate concentrations:
 | 50       | 7.69             |
 | 100      | 8.00             |
 
-At very high [S], $v$ approaches $V_{\max} \approx 8$ $\mu$Mol/min.
+</div>
+
+At very high [S], $v$ approaches $V_{\max} \approx 8$ $\mu$ Mol/min.
 
 At $v = V_{\max}/2 = 4$, $[S] = K_m \approx 5$ mM.
 
-So $K_m = 5$ mM and $V_{\max} = 8$ $\mu$Mol/min.
+So $K_m = 5$ mM and $V_{\max} = 8$ $\mu$ Mol/min.
 
 ### Cellular Respiration
 
@@ -135,7 +147,9 @@ Glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$) is broken down to two molecules
 
 Pyruvate is decarboxylated and dehydrogenated:
 
-$$\mathrm{Pyruvate + \mathrm{NAD^+ + \mathrm{CoA \to \mathrm{Acetyl-CoA + \mathrm{CO_2 + \mathrm{NADH$$
+$$
+\mathrm{Pyruvate + \mathrm{NAD^+ + \mathrm{CoA \to \mathrm{Acetyl-CoA + \mathrm{CO_2 + \mathrm{NADH
+$$
 
 (Per glucose: 2 $\mathrm{CO_2$2 NADH)
 
@@ -235,7 +249,7 @@ The skin and in the hypothalamus itself.
 
 **Nephron structure:**
 
-- **Bowman"s capsule:** Filtration of blood; forms glomerular filtrate
+- **Bowman's capsule:** Filtration of blood; forms glomerular filtrate
 - **Proximal convoluted tubule:** Selective reabsorption of all glucose, amino acids, and some water
   and ions
 - **Loop of Henle:** Countercurrent multiplier; creates a concentration gradient in the medulla for
@@ -386,7 +400,7 @@ A person drinks 2 litres of water. What happens to their blood osmolarity and AD
 15. Explain why fever can be beneficial during an infection, with reference to enzyme activity.
 
 16. Calculate the $K_m$ and $V_{\max}$ of an enzyme from the following data: [S] = 2 mM, v = 3.33
-    $\mu$Mol/min; [S] = 10 mM, v = 6.67 $\mu$Mol/min; [S] = 50 mM, v = 8.33 $\mu$Mol/min.
+    $\mu$ Mol/min; [S] = 10 mM, v = 6.67 $\mu$ Mol/min; [S] = 50 mM, v = 8.33 $\mu$ Mol/min.
 
 17. Explain how the countercurrent multiplier in the loop of Henle creates a concentration gradient
     in the kidney medulla.
@@ -402,9 +416,11 @@ A person drinks 2 litres of water. What happens to their blood osmolarity and AD
 ## Review: Aerobic Respiration -- Detailed ATP Accounting
 
 The precise ATP yield from aerobic respiration depends on the shuttle system used to transport NADH
-From glycolysis into the mitochondria and on the actual number of protons pumped per complex.
+from glycolysis into the mitochondria and on the actual number of protons pumped per complex.
 
 **Using modern estimates (2.5 ATP per NADH, 1.5 ATP per FADH$_2$):**
+
+<div class="table-wrap">
 
 | Stage              | NADH   | FADH$_2$ | Direct ATP | Total ATP |
 | ------------------ | ------ | -------- | ---------- | --------- |
@@ -412,6 +428,8 @@ From glycolysis into the mitochondria and on the actual number of protons pumped
 | Pyruvate oxidation | 2      | 0        | 0          | 5         |
 | Krebs cycle        | 6      | 2        | 2          | 20        |
 | **Total**          | **10** | **2**    | **4**      | **32**    |
+
+</div>
 
 Note: The actual yield may be lower (approximately 30 ATP) due to proton leak across the inner
 Mitochondrial membrane and the cost of transporting ATP out of the mitochondria.
@@ -425,7 +443,7 @@ Inner mitochondrial membrane. Two shuttle systems transport the electrons:
   $\mathrm{FADH_2$ (yields 1.5 ATP per $\mathrm{FADH_2$). This is less efficient.
 
 The choice of shuttle system affects the total ATP yield. Using the malate-aspartate shuttle gives a
-Total of 32 ATP; using the glycerol-3-phosphate shuttle gives approximately 30 ATP.
+total of 32 ATP; using the glycerol-3-phosphate shuttle gives approximately 30 ATP.
 
 ## Review: Photosynthesis -- Light-Dependent Reactions in Detail
 
@@ -451,7 +469,7 @@ Total of 32 ATP; using the glycerol-3-phosphate shuttle gives approximately 30 A
 
 The proton gradient across the thylakoid membrane (higher $\mathrm{H^+$ concentration in the lumen)
 Drives ATP synthesis by ATP synthase. This is called photophosphorylation. The proton gradient is
-Generated by: (1) splitting of water (releases $\mathrm{H^+$ into the lumen), (2) pumping of
+generated by: (1) splitting of water (releases $\mathrm{H^+$ into the lumen), (2) pumping of
 $\mathrm{H^+$ by the cytochrome b6f complex, and (3) removal of $\mathrm{H^+$ from the stroma by
 $\mathrm{NADP^+$ reductase.
 
@@ -496,7 +514,7 @@ High ATP inhibits several enzymes in the pathway:
 - Isocitrate dehydrogenase (Krebs cycle) is inhibited by ATP and NADH.
 
 This coordinated inhibition prevents unnecessary energy production when the cell already has
-Sufficient ATP.
+sufficient ATP.
 
 ## Review: The Immune Response -- Vaccination
 
@@ -509,11 +527,13 @@ Producing large quantities of antibodies before the pathogen can cause illness.
 
 **Herd immunity:** When a high proportion of a population is immune to a disease (through
 Vaccination or previous infection), the spread of the disease is limited because there are too few
-Susceptible individuals for the pathogen to infect. This protects even those who cannot be
-Vaccinated (e.g., newborns, immunocompromised individuals). The threshold for herd immunity varies
-By disease: measles requires approximately 95% immunity; polio requires approximately 80%.
+susceptible individuals for the pathogen to infect. This protects even those who cannot be
+vaccinated (e.g., newborns, immunocompromised individuals). The threshold for herd immunity varies
+by disease: measles requires approximately 95% immunity; polio requires approximately 80%.
 
 **Types of vaccines:**
+
+<div class="table-wrap">
 
 | Type            | Example           | Mechanism                                           |
 | --------------- | ----------------- | --------------------------------------------------- |
@@ -522,6 +542,8 @@ By disease: measles requires approximately 95% immunity; polio requires approxim
 | Subunit         | Hepatitis B       | Specific antigens from the pathogen                 |
 | Toxoid          | Tetanus vaccine   | Inactivated toxin from the pathogen                 |
 | mRNA            | COVID-19 vaccines | mRNA encoding a viral antigen (e.g., spike protein) |
+
+</div>
 
 ## Review: The Kidney and Osmoregulation in Detail
 
@@ -566,12 +588,16 @@ Nephrons.
 
 **Worked Example: Comparing urine production in different conditions.**
 
+<div class="table-wrap">
+
 | Condition          | ADH Level | Collecting Duct Permeability | Urine Concentration | Urine Volume |
 | ------------------ | --------- | ---------------------------- | ------------------- | ------------ |
 | Well hydrated      | Low       | Low                          | Low (dilute)        | High         |
 | Normal             | Normal    | Moderate                     | Moderate            | Moderate     |
 | Dehydrated         | High      | High                         | High (concentrated) | Low          |
 | Diabetes insipidus | Very low  | Very low                     | Very low (dilute)   | Very high    |
+
+</div>
 
 ## Review: Thermoregulation in Detail
 
@@ -605,58 +631,58 @@ Nephrons.
 
 Shivering involves rapid, involuntary contractions of skeletal muscles. Muscle contraction requires
 ATP, which is produced by cellular respiration. Respiration is only about 40% efficient, meaning
-That 60% of the energy from glucose is released as heat. During shivering, the increased rate of
-Respiration in muscles generates significantly more heat than normal, raising the core body
+that 60% of the energy from glucose is released as heat. During shivering, the increased rate of
+respiration in muscles generates significantly more heat than normal, raising the core body
 Temperature.
 
 ## Review: Enzyme Kinetics -- Worked Examples
 
 **Worked Example: Effect of a competitive inhibitor.**
 
-An enzyme has $K_m = 5$ mM and $V_{\max} = 10$ $\mu$Mol/min. A competitive inhibitor is added at a
-Concentration that doubles the apparent $K_m$.
+An enzyme has $K_m = 5$ mM and $V_{\max} = 10$ $\mu$ Mol/min. A competitive inhibitor is added at a
+concentration that doubles the apparent $K_m$.
 
-With inhibitor: apparent $K_m = 10$ mM, $V_{\max}$ unchanged at 10 $\mu$Mol/min.
+With inhibitor: apparent $K_m = 10$ mM, $V_{\max}$ unchanged at 10 $\mu$ Mol/min.
 
 At $[S] = 5$ mM (original $K_m$):
 
-- Without inhibitor: $v = (10 \times 5) / (5 + 5) = 5$ $\mu$Mol/min (50% of $V_{\max}$).
-- With inhibitor: $v = (10 \times 5) / (10 + 5) = 3.33$ $\mu$Mol/min (33.3% of $V_{\max}$).
+- Without inhibitor: $v = (10 \times 5) / (5 + 5) = 5$ $\mu$ Mol/min (50% of $V_{\max}$).
+- With inhibitor: $v = (10 \times 5) / (10 + 5) = 3.33$ $\mu$ Mol/min (33.3% of $V_{\max}$).
 
 At very high $[S]$ (e.g., 100 mM):
 
-- Without inhibitor: $v \approx 10$ $\mu$Mol/min.
-- With inhibitor: $v \approx 10$ $\mu$Mol/min.
+- Without inhibitor: $v \approx 10$ $\mu$ Mol/min.
+- With inhibitor: $v \approx 10$ $\mu$ Mol/min.
 
 The competitive inhibitor reduces the rate at low $[S]$ but has no effect at very high $[S]$ Because
 the substrate outcompetes the inhibitor.
 
 **Worked Example: Effect of a non-competitive inhibitor.**
 
-The same enzyme with $K_m = 5$ mM and $V_{\max} = 10$ $\mu$Mol/min. A non-competitive inhibitor
-Reduces $V_{\max}$ to 6 $\mu$Mol/min but does not change $K_m$.
+The same enzyme with $K_m = 5$ mM and $V_{\max} = 10$ $\mu$ Mol/min. A non-competitive inhibitor
+Reduces $V_{\max}$ to 6 $\mu$ Mol/min but does not change $K_m$.
 
 At $[S] = 5$ mM:
 
-- Without inhibitor: $v = 5$ $\mu$Mol/min.
-- With inhibitor: $v = (6 \times 5) / (5 + 5) = 3$ $\mu$Mol/min.
+- Without inhibitor: $v = 5$ $\mu$ Mol/min.
+- With inhibitor: $v = (6 \times 5) / (5 + 5) = 3$ $\mu$ Mol/min.
 
 At very high $[S]$ (e.g., 100 mM):
 
-- Without inhibitor: $v \approx 10$ $\mu$Mol/min.
-- With inhibitor: $v \approx 6$ $\mu$Mol/min.
+- Without inhibitor: $v \approx 10$ $\mu$ Mol/min.
+- With inhibitor: $v \approx 6$ $\mu$ Mol/min.
 
 Unlike the competitive inhibitor, the non-competitive inhibitor reduces the maximum rate even at
-Very high substrate concentrations, because it reduces the number of functional enzyme molecules
-Regardless of substrate concentration.
+very high substrate concentrations, because it reduces the number of functional enzyme molecules
+regardless of substrate concentration.
 
 ## Review: C4 and CAM Photosynthesis (Advanced Higher)
 
 **C4 photosynthesis:** In C4 plants (e.g., maize, sugarcane), $\mathrm{CO_2$ is initially fixed by
 PEP carboxylase in mesophyll cells to form oxaloacetate (4C), which is converted to malate. Malate
-Is transported to bundle-sheath cells, where $\mathrm{CO_2$ is released and enters the Calvin cycle.
+is transported to bundle-sheath cells, where $\mathrm{CO_2$ is released and enters the Calvin cycle.
 PEP carboxylase has a much higher affinity for $\mathrm{CO_2$ than RuBisCO and does not bind
-$\mathrm{O_2$Minimising photorespiration.
+$\mathrm{O_2$ Minimising photorespiration.
 
 **CAM photosynthesis:** In CAM plants (e.g., cacti, pineapples), stomata open at night to fix
 $\mathrm{CO_2$ into malic acid, which is stored in vacuoles. During the day, stomata close, and
@@ -667,12 +693,14 @@ separation Minimises water loss while maintaining carbon fixation.
 
 A C3 plant loses approximately 500 g of water per gram of $\mathrm{CO_2$ fixed. A C4 plant loses
 Approximately 250 g of water per gram of $\mathrm{CO_2$ fixed. A CAM plant loses approximately 50 g
-Of water per gram of $\mathrm{CO_2$ fixed.
+of water per gram of $\mathrm{CO_2$ fixed.
 
 CAM plants are the most water-efficient because they close their stomata during the day, minimising
 Transpirational water loss. This is why CAM plants dominate in arid environments.
 
 ## Review: Summary Table of Respiration vs. Photosynthesis
+
+<div class="table-wrap">
 
 | Feature              | Respiration                                                                                       | Photosynthesis                                                                                    |
 | -------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -686,6 +714,8 @@ Transpirational water loss. This is why CAM plants dominate in arid environments
 | ETC location         | Inner mitochondrial membrane                                                                      | Thylakoid membrane                                                                                |
 | Proton gradient site | Intermembrane space                                                                               | Thylakoid lumen                                                                                   |
 
+</div>
+
 ## Review: Anaerobic Respiration in Detail
 
 **Lactate fermentation in muscle cells:**
@@ -693,12 +723,14 @@ Transpirational water loss. This is why CAM plants dominate in arid environments
 During intense exercise, oxygen supply to muscle cells may be insufficient for aerobic respiration.
 Muscle cells switch to anaerobic respiration:
 
-$$\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{lactate + 2 \mathrm{ATP$$
+$$
+\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{lactate + 2 \mathrm{ATP
+$$
 
 Pyruvate is reduced to lactate by the enzyme lactate dehydrogenase (LDH), which regenerates
 $\mathrm{NAD^+$ from NADH. This allows glycolysis to continue producing ATP even in the absence of
 Oxygen. However, the net yield is only 2 ATP per glucose (compared to approximately 30-32 ATP for
-Aerobic respiration).
+aerobic respiration).
 
 **The oxygen debt:** After exercise, the accumulated lactate must be metabolised. Lactate is
 Transported to the liver, where it is converted back to pyruvate. Some pyruvate enters the Krebs
@@ -707,13 +739,17 @@ Which is why breathing rate remains elevated after exercise (to repay the oxygen
 
 **Alcoholic fermentation in yeast:**
 
-$$\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{ethanol + 2 \mathrm{CO_2 + 2 \mathrm{ATP$$
+$$
+\mathrm{Glucose \to 2 \mathrm{pyruvate \to 2 \mathrm{ethanol + 2 \mathrm{CO_2 + 2 \mathrm{ATP
+$$
 
 Pyruvate is decarboxylated to acetaldehyde (by pyruvate decarboxylase) and then reduced to ethanol
 (by alcohol dehydrogenase). This regenerates $\mathrm{NAD^+$ for glycolysis. Alcoholic fermentation
-Is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the dough to rise).
+is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the dough to rise).
 
 **Comparing fermentation products:**
+
+<div class="table-wrap">
 
 | Feature         | Lactic acid fermentation  | Alcoholic fermentation             |
 | --------------- | ------------------------- | ---------------------------------- |
@@ -723,6 +759,8 @@ Is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the do
 | Enzyme (step 2) | --                        | Alcohol dehydrogenase              |
 | ATP yield       | 2 ATP per glucose         | 2 ATP per glucose                  |
 | Reversible?     | Yes (Cori cycle in liver) | No (ethanol cannot be reconverted) |
+
+</div>
 
 **Commercial applications of fermentation:**
 
@@ -747,17 +785,6 @@ Is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the do
 - Aerobic respiration occurs in the mitochondria (in eukaryotes); anaerobic respiration occurs in
   the cytoplasm.
 :::
-
-
-```mermaid
-flowchart TD
-    A[2_Metabolism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

@@ -18,9 +18,9 @@ description: "The Virtual File System layer is the kernel abstraction that allow
 ## Virtual File System (VFS) Layer
 
 The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file
-System types simultaneously. Application code calls `open(2)``read(2)``write(2)`And `stat(2)`
+System types simultaneously. Application code calls `open(2)`, `read(2)`, `write(2)` and `stat(2)`
 Without knowing whether the underlying storage uses ext4, XFS, Btrfs, NFS, or a pseudo-filesystem
-Like procfs.
+like procfs.
 
 ```mermaid
 graph TD
@@ -45,12 +45,16 @@ graph TD
 
 The VFS maintains four primary object types:
 
+<div class="table-wrap">
+
 | Object         | Description                                                        | Kernel Type          |
 | -------------- | ------------------------------------------------------------------ | -------------------- |
 | **superblock** | Describes a mounted file system (type, size, flags)                | `struct super_block` |
 | **inode**      | Represents a single file (metadata: permissions, size, timestamps) | `struct inode`       |
 | **dentry**     | Directory entry, maps a name to an inode                          | `struct dentry`      |
 | **file**       | Represents an open file (current offset, access mode)              | `struct file`        |
+
+</div>
 
 The dentry cache (dcache) holds the directory hierarchy in memory, avoiding disk lookups for
 Frequently accessed paths. The inode cache (icache) keeps recently accessed inodes in memory. Both
@@ -68,15 +72,17 @@ Includes a `struct file_system_type` that provides:
 - Module owner (for loadable modules)
 
 When `mount(2)` is called, the VFS invokes the appropriate file system"s mount function, which reads
-The superblock from disk and populates the VFS superblock object.
+the superblock from disk and populates the VFS superblock object.
 
 ## Inode Structure
 
 An inode (index node) is the fundamental data structure representing a file on disk. It contains all
 Metadata about a file except the filename (which is stored in the directory's data blocks, not in
-The inode itself).
+the inode itself).
 
 ### Inode Fields
+
+<div class="table-wrap">
 
 | Field        | Description                                       |
 | ------------ | ------------------------------------------------- |
@@ -92,6 +98,8 @@ The inode itself).
 | `st_atim`    | Last access time (can be disabled with `noatime`) |
 | `st_mtim`    | Last modification time (data change)              |
 | `st_ctim`    | Last status change time (metadata change)         |
+
+</div>
 
 ### Hard Links and the Inode
 
@@ -119,6 +127,8 @@ stat file3.txt
 
 The file type is encoded in the upper bits of `st_mode`:
 
+<div class="table-wrap">
+
 | Octal  | Type              | Description                           |
 | ------ | ----------------- | ------------------------------------- |
 | 010000 | Regular file      | Normal data file                      |
@@ -128,6 +138,8 @@ The file type is encoded in the upper bits of `st_mode`:
 | 006000 | Block device      | Buffered access (e.g., `/dev/sda`)    |
 | 002000 | Character device  | Unbuffered access (e.g., `/dev/null`) |
 | 014000 | Socket            | Network communication endpoint        |
+
+</div>
 
 ```bash
 # Test file types
@@ -151,6 +163,8 @@ Ext2 and ext3, adding extents, larger volumes, journal checksumming, and delayed
 
 ### Key Features
 
+<div class="table-wrap">
+
 | Feature             | ext4 Details                                          |
 | ------------------- | ----------------------------------------------------- |
 | **Max volume size** | 1 EiB (2^64 bytes theoretical, 64 TiB practical)      |
@@ -162,10 +176,12 @@ Ext2 and ext3, adding extents, larger volumes, journal checksumming, and delayed
 | **Checksums**       | Journal checksums, metadata checksums (metadata_csum) |
 | **Timestamps**      | nanosecond granularity                                |
 
+</div>
+
 ### Extents
 
 Traditional ext2/ext3 used indirect block mapping, the inode pointed to a block of pointers, which
-Could point to more pointer blocks (up to 3 levels of indirection). This was inefficient for large
+could point to more pointer blocks (up to 3 levels of indirection). This was inefficient for large
 Files because even a contiguous file required multiple block pointer lookups.
 
 Ext4 introduces **extents**, a descriptor that maps a contiguous range of blocks. An extent can
@@ -183,11 +199,15 @@ Extent descriptor:
 Ext4 uses a journal to ensure file system consistency after a crash. The journal records metadata
 Changes (and optionally data changes) before committing them to the main file system.
 
+<div class="table-wrap">
+
 | Journal Mode        | What is Journaled                                      | Performance | Safety  |
 | ------------------- | ------------------------------------------------------ | ----------- | ------- |
 | `ordered` (default) | Metadata only (data written before metadata committed) | Good        | High    |
 | `writeback`         | Metadata only (no ordering guarantee)                  | Best        | Medium  |
 | `journal`           | Both metadata and data                                 | Slowest     | Highest |
+
+</div>
 
 ```bash
 # View current journal mode
@@ -201,11 +221,11 @@ mount -o data=journal /dev/sda1 /mnt
 
 Ext4 uses **delayed allocation** (delalloc): when a process writes data, the blocks are not
 Immediately allocated on disk. Instead, the data is held in memory, and allocation is deferred until
-The kernel flushes it. This allows the allocator to make better decisions about contiguous block
+the kernel flushes it. This allows the allocator to make better decisions about contiguous block
 Placement, significantly reducing fragmentation.
 
 The downside: a crash before flush can lose more data than with immediate allocation. For databases
-That manage their own I/O (MySQL, PostgreSQL), delayed allocation should be disabled:
+that manage their own I/O (MySQL, PostgreSQL), delayed allocation should be disabled:
 
 ```bash
 # Disable delayed allocation for database volumes
@@ -243,10 +263,12 @@ resize2fs /dev/sda1 500G     # grow to 500 GiB
 ## XFS
 
 XFS is a high-performance journaling file system developed by SGI in 1993, designed for parallel I/O
-And large files. It is the default on RHEL/CentOS 7+ and is well-suited for large data volumes,
+and large files. It is the default on RHEL/CentOS 7+ and is well-suited for large data volumes,
 Media workloads, and databases.
 
 ### Key Features
+
+<div class="table-wrap">
 
 | Feature               | XFS Details                                             |
 | --------------------- | ------------------------------------------------------- |
@@ -257,6 +279,8 @@ Media workloads, and databases.
 | **Journaling**        | Metadata-only journal (separate log device supported)   |
 | **Allocation**        | B+tree-based extent allocation                          |
 | **Allocation Groups** | Independent regions for parallel allocation             |
+
+</div>
 
 ### Allocation Groups
 
@@ -292,6 +316,8 @@ Number of disk seeks required for lookups.
 
 ### XFS vs ext4
 
+<div class="table-wrap">
+
 | Aspect                 | ext4                            | XFS                                         |
 | ---------------------- | ------------------------------- | ------------------------------------------- |
 | **Volume resize**      | Can grow online, shrink offline | Can grow online, cannot shrink              |
@@ -301,6 +327,8 @@ Number of disk seeks required for lookups.
 | **Small files**        | Better                          | Good (more metadata overhead)               |
 | **Fragmentation**      | More susceptible                | Less (extents + AGs)                        |
 | **Snapshots**          | No native support               | No native support (use LVM/Btrfs)           |
+
+</div>
 
 ### XFS Tuning
 
@@ -333,9 +361,11 @@ Smaller size, and restore. Plan your volume sizes carefully when choosing XFS.
 
 Btrfs (B-tree file system, pronounced "butter-fs") is a copy-on-write (COW) file system with
 Built-in volume management, snapshots, checksumming, and compression. It is the default on Fedora
-And is used by Synology NAS systems.
+and is used by Synology NAS systems.
 
 ### Key Features
+
+<div class="table-wrap">
 
 | Feature             | Btrfs Details                                            |
 | ------------------- | -------------------------------------------------------- |
@@ -347,6 +377,8 @@ And is used by Synology NAS systems.
 | **Compression**     | LZ4 (default), ZSTD, LZO, ZLIB                           |
 | **Send/Receive**    | Efficient incremental snapshot transfer                  |
 | **Defragmentation** | Online defragmentation with `btrfs filesystem defrag`    |
+
+</div>
 
 ### Copy-on-Write (COW)
 
@@ -379,7 +411,7 @@ mount -o compress=zstd /dev/sdb1 /mnt/btrfs
 ### Subvolumes and Snapshots
 
 A subvolume is an independently mountable file tree within a Btrfs volume. Snapshots are subvolumes
-That share data blocks with their source.
+that share data blocks with their source.
 
 ```bash
 # Create a subvolume
@@ -408,7 +440,7 @@ btrfs send -p /mnt/btrfs/@home_snapshot_2023 /mnt/btrfs/@home_snapshot_2024 | \
 ### Btrfs RAID
 
 Btrfs implements RAID at the file system level (not block level like mdadm). This means RAID is
-Per-extent, not per-device, and can be configured differently for data and metadata:
+per-extent, not per-device, and can be configured differently for data and metadata:
 
 ```bash
 # RAID 1 for data, DUP for metadata (single device)
@@ -473,6 +505,8 @@ sequenceDiagram
 
 Common FUSE file systems:
 
+<div class="table-wrap">
+
 | File System  | Purpose                             |
 | ------------ | ----------------------------------- |
 | `sshfs`      | Mount remote directories over SSH   |
@@ -482,6 +516,8 @@ Common FUSE file systems:
 | `rclone`     | Mount cloud storage (S3, GCS, etc.) |
 | `fuseiso`    | Mount ISO images                    |
 | `exfat-fuse` | Read/write exFAT support            |
+
+</div>
 
 ```bash
 # Mount remote directory via SSH
@@ -543,6 +579,8 @@ UUID=ccc333-ddd444                           /swap          swap    defaults    
 tmpfs                                        /tmp           tmpfs   defaults,nosuid,nodev   0       0
 ```
 
+<div class="table-wrap">
+
 | Column      | Description                                                 |
 | ----------- | ----------------------------------------------------------- |
 | Device      | Device path, UUID=, LABEL=, or special (proc, sysfs, tmpfs) |
@@ -552,7 +590,11 @@ tmpfs                                        /tmp           tmpfs   defaults,nos
 | Dump        | Whether to include in `dump` backups (0 = no, 1 = yes)      |
 | Pass        | `fsck` check order (0 = skip, 1 = root, 2 = others)         |
 
+</div>
+
 ### Common Mount Options
+
+<div class="table-wrap">
 
 | Option                | Effect                                                    |
 | --------------------- | --------------------------------------------------------- |
@@ -570,6 +612,8 @@ tmpfs                                        /tmp           tmpfs   defaults,nos
 | `users`               | Allow any user to mount (implies noexec, nosuid, nodev)   |
 | `nofail`              | Do not fail boot if device is missing                     |
 | `x-systemd.requires=` | systemd dependency declaration                            |
+
+</div>
 
 ### systemd Automount
 
@@ -657,6 +701,8 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 
 ### Choosing the Right File System
 
+<div class="table-wrap">
+
 | Workload                      | Recommended FS | Rationale                                      |
 | ----------------------------- | -------------- | ---------------------------------------------- |
 | General-purpose server        | ext4           | Mature, well-tested, can shrink                |
@@ -665,6 +711,8 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 | Containers, overlays          | overlayfs      | Layered union mount, designed for containers   |
 | Temporary data, builds        | tmpfs          | RAM-backed, no disk I/O                        |
 | Removable media               | exFAT          | Cross-platform compatibility                   |
+
+</div>
 
 ### I/O Scheduler Selection
 
@@ -676,6 +724,8 @@ cat /sys/block/sda/queue/scheduler
 echo 'mq-deadline' > /sys/block/sda/queue/scheduler
 ```
 
+<div class="table-wrap">
+
 | Scheduler     | Use Case                                    |
 | ------------- | ------------------------------------------- |
 | `mq-deadline` | General-purpose, spinning disks, SATA       |
@@ -683,15 +733,21 @@ echo 'mq-deadline' > /sys/block/sda/queue/scheduler
 | `bfq`         | Desktop interactivity, slow devices         |
 | `kyber`       | Fast block devices (NVMe)                   |
 
+</div>
+
 ### Block Size Selection
 
 Block size affects performance based on workload:
+
+<div class="table-wrap">
 
 | Block Size | Small Files (lots of &lt; 4 KiB) | Large Files (streaming) |
 | ---------- | -------------------------------- | ----------------------- |
 | 1 KiB      | Efficient (less wasted space)    | More I/O operations     |
 | 4 KiB      | Good balance                     | Good balance            |
 | 64 KiB     | Wasted space                     | Fewer I/O operations    |
+
+</div>
 
 For databases and VM images, larger block sizes reduce metadata overhead. For mail servers and
 Source code repositories, smaller block sizes reduce wasted space.
@@ -700,7 +756,7 @@ Source code repositories, smaller block sizes reduce wasted space.
 
 ### Pitfall: Mounting Without `nofail` on Removable Drives
 
-If an `/etc/fstab` entry for a USB drive or network share does not include `nofail`The system will
+If an `/etc/fstab` entry for a USB drive or network share does not include `nofail`. The system will
 Drop to emergency shell on boot when the device is absent:
 
 ```text
@@ -713,13 +769,13 @@ Drop to emergency shell on boot when the device is absent:
 
 ### Pitfall: Running `fsck` on a Mounted File System
 
-Never run `fsck` (or `e2fsck``xfs_repair`) on a mounted file system. This can cause severe
+Never run `fsck` (or `e2fsck`, `xfs_repair`) on a mounted file system. This can cause severe
 Corruption. Always unmount first, or run from a live system.
 
 ### Pitfall: ext4 `inode exhaustion`
 
 Ext4 creates inodes at format time. If you have millions of small files, you can run out of inodes
-Before running out of disk space:
+before running out of disk space:
 
 ```bash
 # Check inode usage
@@ -746,7 +802,7 @@ chattr +C /var/lib/mysql
 
 `mount --bind` creates a new mount point for an existing directory without changing the file system.
 `mount --move` moves a mount point to a new location entirely. The difference matters for containers
-And chroots:
+and chroots:
 
 ```bash
 # Bind mount, makes /existing visible at /new-location
@@ -759,13 +815,13 @@ mount --move /old-mount-point /new-mount-point
 ### Pitfall: `/proc` and `/sys` Are Not Real Files
 
 Reading from `/proc` or `/sys` is not like reading a regular file. The kernel generates the content
-On each read. The output of a single `cat` may show inconsistent state if the kernel is modifying
-The data concurrently. For atomic reads, prefer sysctl or direct kernel interfaces.
+on each read. The output of a single `cat` may show inconsistent state if the kernel is modifying
+the data concurrently. For atomic reads, prefer sysctl or direct kernel interfaces.
 
 ### Pitfall: XFS Cannot Be Shrunk
 
 If you allocate a 1 TiB XFS volume and later need only 500 GiB, you cannot shrink it. You must back
-Up, recreate with the smaller size, and restore. Always size XFS volumes conservatively or plan to
+up, recreate with the smaller size, and restore. Always size XFS volumes conservatively or plan to
 Add space later.
 
 ## Summary
@@ -781,17 +837,11 @@ practical implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 File systems are like different filing systems in an office -- ext4 is the reliable, well-organised filing cabinet; XFS is the high-performance system for large files; Btrfs is the modern system with snapshots and compression. The VFS layer is the universal filing interface that lets you use any filing system without changing how you access files. Mounting is like opening a filing cabinet: you attach a storage device to a directory so its contents become accessible. The mount point is the door through which you access the files. Unmounting is like closing the cabinet -- you must finish using it before you can safely disconnect it.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

@@ -18,11 +18,19 @@ categories:
 }
 </script>
 
+:::note[New to networking? Start here]
+Read **[Before You Begin: How the Layers Fit](/before-you-begin/)** first. It
+builds the layered model from the journey of one web page -- what each layer
+promises, what encapsulation is, and why TCP and UDP are two points on a
+guarantee spectrum -- and ends with a self-test.
+:::
+
+
 ## Why Networking Matters
 
 Every system you operate, deploy, or debug depends on networking. A container cannot reach its
 Database, a service returns 502 errors, DNS resolution stalls for 5 seconds, or TLS handshakes fail
-With certificate errors -- these are all networking problems that land on the systems engineer"s
+with certificate errors -- these are all networking problems that land on the systems engineer"s
 Desk.
 
 Understanding networking is not optional. It is the substrate on which every distributed system
@@ -32,14 +40,14 @@ Networking problem. When a firewall rule blocks health checks but allows product
 A networking problem.
 
 This subject covers the protocol stack from layer 2 through layer 7, with emphasis on the protocols
-You will encounter daily: IP, TCP, UDP, DNS, HTTP, and TLS. Each section includes practical
+you will encounter daily: IP, TCP, UDP, DNS, HTTP, and TLS. Each section includes practical
 Troubleshooting guidance because theoretical knowledge without diagnostic skill is useless in
 Production.
 
 ## The Protocol Stack
 
 Network communication is organized into layers. Each layer provides services to the layer above it
-And relies on the layer below it. The two primary reference models are:
+and relies on the layer below it. The two primary reference models are:
 
 - **OSI 7-layer model** -- a theoretical framework for understanding network functions
 - **TCP/IP 4-layer model** (DoD model) -- the practical model that the Internet actually uses
@@ -72,10 +80,12 @@ Traffic between two hosts traverses:
 4. **Destination network** -- the target's access and edge networks
 
 Understanding this hierarchy matters because latency, packet loss, and routing policies differ at
-Each stage. A problem that looks like "the application is slow" may actually be a BGP route flap at
+each stage. A problem that looks like "the application is slow" may actually be a BGP route flap at
 A transit provider, or it may be a misconfigured MTU on a VPN tunnel.
 
 ## What This Subject Covers
+
+<div class="table-wrap">
 
 | Topic                 | Focus                                                     |
 | --------------------- | --------------------------------------------------------- |
@@ -86,6 +96,8 @@ A transit provider, or it may be a misconfigured MTU on a VPN tunnel.
 | HTTP                  | HTTP/1.1, HTTP/2, HTTP/3, caching, REST                   |
 | TLS                   | Handshake, cipher suites, certificates, PKI               |
 | Network Tools         | tcpdump, Wireshark, curl, dig, ss, diagnostic methodology |
+
+</div>
 
 ## Core Principles
 
@@ -99,18 +111,11 @@ Every protocol covered in this subject shares a few fundamental properties:
 4. **End-to-end principle** -- complexity belongs at the endpoints, not in the network (RFC 8890)
 
 These principles explain why certain design decisions were made and why real-world networks behave
-The way they do.
+the way they do.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -156,8 +161,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Further Resources
 

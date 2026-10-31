@@ -18,6 +18,14 @@ categories:
 }
 </script>
 
+:::note[New to databases? Start here]
+Read **[Before You Begin: What Databases Assume](/before-you-begin/)** first.
+It builds the relational model from a spreadsheet starting point, covers SQL
+as a declarative language, explains the ACID guarantees and why each exists,
+and introduces normalisation -- the concepts the rest of this track assumes.
+:::
+
+
 ## Why Databases Matter
 
 Every non-trivial system you build, operate, or debug depends on a database. Authentication tokens,
@@ -65,6 +73,8 @@ graph TB
 
 The industry often frames this as "SQL vs NoSQL" but the reality is a spectrum of trade-offs:
 
+<div class="table-wrap">
+
 | Dimension          | Relational                         | NoSQL                                         |
 | ------------------ | ---------------------------------- | --------------------------------------------- |
 | Data model         | Rows and columns, fixed schema     | Documents, key-value, graphs, column families |
@@ -73,6 +83,8 @@ The industry often frames this as "SQL vs NoSQL" but the reality is a spectrum o
 | Scaling            | Vertical first, then read replicas | Horizontal by design                          |
 | Schema flexibility | Rigid, migrations required         | Flexible, schemaless or schema-on-read        |
 | Joins              | First-class, optimised             | Limited or unsupported                        |
+
+</div>
 
 **Choose relational when:** your data has strong relationships, you need complex queries and joins,
 ACID transactions are non-negotiable, or your team knows SQL well.
@@ -83,14 +95,18 @@ Write throughput.
 
 ## What This Subject Covers
 
+<div class="table-wrap">
+
 | Topic                   | Focus                                                         |
 | ----------------------- | ------------------------------------------------------------- |
-| Relational Theory       | Codd"s model, normalisation, functional dependencies, keys    |
+| Relational Theory       | Codd's model, normalisation, functional dependencies, keys    |
 | SQL Fundamentals        | DDL, DML, joins, subqueries, window functions, CTEs           |
 | Indexing & Optimisation | B-trees, covering indexes, query plans, EXPLAIN               |
 | Transactions            | ACID, isolation levels, locking, MVCC, deadlocks              |
 | NoSQL                   | Document stores, key-value, column families, graph, CAP       |
 | Database Design         | ER modelling, partitioning, sharding, replication, migrations |
+
+</div>
 
 ## Core Principles
 
@@ -110,14 +126,7 @@ SQL is like the librarian's language. You ask for books in a specific category (
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -163,8 +172,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Further Resources
 

@@ -20,7 +20,7 @@ description: "Study notes for Development Environment Setup with worked examples
 
 **Why it matters:** The tools you use daily have an outsized impact on your productivity. A fast terminal, a well-configured editor, and efficient shell aliases can save hours per week compared to slow, unconfigured defaults.
 
-**The key insight:** GPU-accelerated terminals render text faster and support true colour and Unicode, this is not just cosmetic; it enables tools like `bat``fzf`and `neovim` to display syntax highlighting and special characters correctly.
+**The key insight:** GPU-accelerated terminals render text faster and support true colour and Unicode, this is not just cosmetic; it enables tools like `bat`, `fzf`and `neovim` to display syntax highlighting and special characters correctly.
 
 ## Terminal Emulators
 
@@ -29,6 +29,8 @@ description: "Study notes for Development Environment Setup with worked examples
 Modern terminal emulators use the GPU for rendering, enabling smooth scrolling, proper Unicode
 Support, and fast image rendering:
 
+<div class="table-wrap">
+
 | Terminal  | Renderer     | Platform              | Key Features                                             |
 | --------- | ------------ | --------------------- | -------------------------------------------------------- |
 | Alacritty | Vulkan/Metal | Linux, macOS, Windows | Fastest, minimal config (YAML), GPU-first                |
@@ -36,6 +38,8 @@ Support, and fast image rendering:
 | WezTerm   | WebGL/Metal  | Linux, macOS, Windows | Built-in multiplexer, Lua config, image protocol         |
 | Ghostty   | Vulkan/Metal | Linux, macOS          | New, fast, system-native font rendering                  |
 | iTerm2    | Metal        | macOS                 | macOS-only, extensive features, splits, tmux integration |
+
+</div>
 
 ### Terminal Configuration
 
@@ -69,13 +73,17 @@ bindings = [
 
 A good programming font is critical for long coding sessions:
 
+<div class="table-wrap">
+
 | Font           | Ligatures    | Nerd Font | Notes                                        |
 | -------------- | ------------ | --------- | -------------------------------------------- |
 | JetBrains Mono | Yes          | Yes       | Excellent readability, designed for code     |
 | Fira Code      | Yes          | Yes       | Popular, good for presentations              |
-| Cascadia Code  | Yes          | Yes       | Microsoft"s coding font, great for terminals |
+| Cascadia Code  | Yes          | Yes       | Microsoft's coding font, great for terminals |
 | Iosevka        | Customizable | Yes       | Highly customizable, many variants           |
 | Monaco         | No           | No        | Classic macOS font, no ligatures             |
+
+</div>
 
 Install a Nerd Font variant for proper icon rendering in terminal prompts and file managers.
 
@@ -94,6 +102,8 @@ Install a Nerd Font variant for proper icon rendering in terminal prompts and fi
 
 ### Shell Comparison
 
+<div class="table-wrap">
+
 | Feature              | Bash                                            | Zsh                           | Fish                    |
 | -------------------- | ----------------------------------------------- | ----------------------------- | ----------------------- |
 | POSIX compliance     | Full                                            | Partial                       | No                      |
@@ -106,11 +116,13 @@ Install a Nerd Font variant for proper icon rendering in terminal prompts and fi
 | Performance          | Fast                                            | Moderate (depends on plugins) | Fast                    |
 | Learning curve       | Low                                             | Moderate                      | Low                     |
 
+</div>
+
 ### Recommendation
 
 - **Zsh** for power users who want maximum customization and compatibility. Pair with a minimal
   plugin set (zinit or znap) rather than oh-my-zsh for better performance.
-- **Fish** for developers who want a great out-of-the-box experience without configuration. Fish"s
+- **Fish** for developers who want a great out-of-the-box experience without configuration. Fish's
   built-in autosuggestions and syntax highlighting are excellent.
 - **Bash** for scripting and environments where POSIX compatibility is required. Keep Bash as
   `/bin/bash` for scripts regardless of your interactive shell choice.
@@ -184,6 +196,8 @@ disabled = false
 
 ### Essential Zsh Plugins
 
+<div class="table-wrap">
+
 | Plugin                  | Function                            | Startup Cost |
 | ----------------------- | ----------------------------------- | ------------ |
 | zsh-autosuggestions     | Gray suggestions from history       | ~5 ms        |
@@ -191,6 +205,8 @@ disabled = false
 | zsh-completions         | Additional completion definitions   | ~5 ms        |
 | fzf-tab                 | Fuzzy completion menus              | ~2 ms        |
 | z                       | Directory jumping based on frecency | ~1 ms        |
+
+</div>
 
 ---
 
@@ -296,6 +312,8 @@ Terminal, debugger, and Git integration.
 
 Essential extensions:
 
+<div class="table-wrap">
+
 | Extension     | Function                                |
 | ------------- | --------------------------------------- |
 | GitLens       | Git blame, history, and comparison      |
@@ -308,9 +326,13 @@ Essential extensions:
 | Prettier      | Code formatting                         |
 | ESLint        | JavaScript/TypeScript linting           |
 
+</div>
+
 ### Key Bindings Worth Learning
 
 Regardless of editor, these keybindings improve productivity:
+
+<div class="table-wrap">
 
 | Action           | Vim            | VS Code        | General Benefit        |
 | ---------------- | -------------- | -------------- | ---------------------- |
@@ -320,6 +342,8 @@ Regardless of editor, these keybindings improve productivity:
 | Find references  | `gr`           | Shift+F12      | Refactoring            |
 | Quick fix        | `:cw`          | `Ctrl+Shift+M` | Error navigation       |
 | Search in files  | `:Ag` / `:Rg`  | `Ctrl+Shift+F` | Code search            |
+
+</div>
 
 ---
 
@@ -461,6 +485,8 @@ ssh-copy-id user@remote-host
 
 ### Modern Coreutils Replacements
 
+<div class="table-wrap">
+
 | Tool           | Replaces                     | Key Feature                                 |
 | -------------- | ---------------------------- | ------------------------------------------- |
 | `fzf`          | `Ctrl+R``Ctrl+T`File finding | Fuzzy finder with preview                   |
@@ -475,6 +501,8 @@ ssh-copy-id user@remote-host
 | `httpie`       | `curl`                       | Human-friendly HTTP client                  |
 | `tokei`        | `cloc`                       | Fast code line counter                      |
 | `bottom (btm)` | `htop`                       | Modern system monitor with GPU support      |
+
+</div>
 
 ### fzf Integration
 
@@ -560,13 +588,13 @@ nix develop  # Enter the development shell
 - **Homebrew** is the standard package manager: `brew install tmux neovim ripgrep`
 - **Xcode Command Line Tools** required for many builds: `xcode-select --install`
 - **Path differences:** Homebrew installs to `/opt/homebrew` (Apple Silicon) or `/usr/local` (Intel)
-- **BSD utilities:** macOS ships BSD versions of `sed``grep``awk`Etc. Install GNU versions via
-  Homebrew (`gsed``ggrep`) for compatibility with Linux.
+- **BSD utilities:** macOS ships BSD versions of `sed`, `grep`, `awk`. Etc. Install GNU versions via
+  Homebrew (`gsed`, `ggrep`) for compatibility with Linux.
 
 ### Linux Specifics
 
 - **Package manager varies by distro:** `apt` (Debian/Ubuntu), `dnf` (Fedora), `pacman` (Arch)
-- **Systemd** manages services: `systemctl``journalctl`
+- **Systemd** manages services: `systemctl`, `journalctl`
 - **AppArmor/SELinux** may restrict terminal and editor capabilities
 - **Wayland vs X11** affects clipboard integration, screen sharing, and terminal behavior
 
@@ -601,7 +629,7 @@ nix develop  # Enter the development shell
 
 Spend time configuring your environment, but do not fall into the trap of endlessly tweaking your
 Config instead of doing actual work. A good dotfiles setup takes a few hours to set up and then gets
-Out of your way. If you are spending more time configuring your tools than using them, stop and ship
+out of your way. If you are spending more time configuring your tools than using them, stop and ship
 Something.
 
 ### Not Version-Controlling Dotfiles
@@ -917,16 +945,6 @@ build:
     fi
 ```
 
-```mermaid
-flowchart TD
-    A[Dev Environment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the geographical processes and issues related to development environment setup,
@@ -945,5 +963,3 @@ marks in geography assessments.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

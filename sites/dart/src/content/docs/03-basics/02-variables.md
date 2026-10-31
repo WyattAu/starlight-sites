@@ -19,16 +19,6 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[02 Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Specifiers
 
 ### Types
@@ -50,7 +40,7 @@ var number = 22;
 ```
 
 Another way of implicit definition is declaring as `Object` class, since all types in Dart inherits
-From the `Object` type, implicit definitions can be written as:
+from the `Object` type, implicit definitions can be written as:
 
 ```dart
 Object text = "hello";
@@ -107,7 +97,7 @@ Appear.
 #### `const` specifier
 
 Variables with `const` specifier are required to be evaluated at compile time, meaning the value
-Cannot be mutated by any event in runtime including a constructor call.
+cannot be mutated by any event in runtime including a constructor call.
 
 ```dart
 const String text = "hello";
@@ -118,7 +108,7 @@ const int number = 22;
 ### Nullable specifier
 
 Variables are required to be defined at declaration by default, to enable the option for the
-Variable to be `null`The `?` specifier should be used:
+Variable to be `null`. The `?` specifier should be used:
 
 ```dart
 String? text;
@@ -170,7 +160,7 @@ void main(){
 ```
 
 When accessing a `late` specified variable without instantiation at runtime, a runtime exception
-Will be thrown (runtime error):
+will be thrown (runtime error):
 
 ```dart
 late String text;
@@ -183,7 +173,7 @@ void main(){
 
 :::tip
 `var` with no nullability specifier >> `final late` >> `var?`. Also non const top-level variables
-Should be avoided.
+should be avoided.
 
 ## Data Types
 
@@ -199,13 +189,13 @@ Platforms, but is limited to 53-bit precision when compiled to JavaScript. `doub
 :::
 
 :::note
-`abs()``floor()`Etc. Note that `num``double``int` cannot be extended.
+`abs()`, `floor()`. Etc. Note that `num`, `double`, `int` cannot be extended.
 :::
 
 #### String Literals
 
-Only one String type exists in Dart, `String`Which holds a sequence of characters specify in UTF-16
-code. Within String declarations `""``${ \\ expression }` can be declared, and any Expression that
+Only one String type exists in Dart, `String`. Which holds a sequence of characters specify in UTF-16
+code. Within String declarations `""`, `${ \\ expression }` can be declared, and any Expression that
 can evaluates to String can be placed within. A raw `String` can be created with Declarator `r`
 infront of the string:
 
@@ -306,7 +296,7 @@ var (lo, hi) = getBounds([3, 1, 4, 1, 5]);
 
 :::note
 Same fields are equal: `(1, "a') == (1, 'a')` is `true`. They are stack-allocated (when small) and
-Cannot be extended.
+cannot be extended.
 
 #### Functions
 
@@ -414,7 +404,7 @@ var doubled = numbers.map((n) => n * 2).toList();
 ```
 
 This is a deliberate design choice, lazy iterables avoid creating intermediate collections, which
-Is critical for large data pipelines.
+is critical for large data pipelines.
 
 #### Sets
 
@@ -449,7 +439,7 @@ a.difference(b);    // {1, 2}
 
 #### Maps
 
-A `Map` is a key-value store. Like `Set`It uses hash-based lookup with $O(1)$ average complexity.
+A `Map` is a key-value store. Like `Set`. It uses hash-based lookup with $O(1)$ average complexity.
 
 ```dart
 // Literal
@@ -499,7 +489,7 @@ Validate the types at runtime.
 #### Symbols
 
 A `Symbol` represents an operator or identifier declared in a Dart program. Symbols are rarely used
-In application code, their primary use case is in **mirrors** (reflection):
+in application code, their primary use case is in **mirrors** (reflection):
 
 ```dart
 // Symbol for an identifier

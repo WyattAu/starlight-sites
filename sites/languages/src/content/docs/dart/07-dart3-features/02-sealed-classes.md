@@ -41,7 +41,7 @@ Before Dart 3, you had three options for modeling this:
 
 All three are deficient. Sealed classes solve this by combining the expressiveness of class
 Hierarchies (each variant has its own fields) with the exhaustiveness of enums (the compiler knows
-All variants).
+all variants).
 
 ### Sum Types in Language Design
 
@@ -87,7 +87,7 @@ The `sealed` modifier on `NetworkResult` means:
 ### The Same-Library Restriction
 
 This is the critical constraint. "Same library" in Dart means the same compilation unit, a file
-Plus all its `part` files. It does **not** mean the same package or the same directory.
+plus all its `part` files. It does **not** mean the same package or the same directory.
 
 ```dart
 // network_result.dart, the sealed class lives here
@@ -107,7 +107,7 @@ Library, the compiler has a complete, local view of the hierarchy.
 
 **Practical implication**: You cannot split sealed class subtypes across files in a package unless
 You use `part`/`part of`. This is a deliberate design trade-off, exhaustiveness is more valuable
-Than distribution.
+than distribution.
 
 ```dart
 // result.dart
@@ -258,7 +258,7 @@ class FlatButton extends Object with ButtonBehavior {
 ## Exhaustive Switch
 
 The primary value of sealed classes is enabling exhaustive switch expressions. The compiler verifies
-That every direct subtype is handled.
+that every direct subtype is handled.
 
 ### Basic Exhaustive Switch
 
@@ -281,7 +281,7 @@ T unwrapOr&lt;T&gt;(Result&lt;T&gt; result, T defaultValue) => switch (result) {
 };
 ```
 
-No `default` case. If you add `class Pending&lt;T&gt; extends Result&lt;T&gt;`Every switch on
+No `default` case. If you add `class Pending&lt;T&gt; extends Result&lt;T&gt;`. Every switch on
 `Result&lt;T&gt;` fails to compile until you handle `Pending`.
 
 ### Switch Expression vs Switch Statement
@@ -365,6 +365,8 @@ String describe(Result&lt;int&gt; r) => switch (r) {
 
 The key difference: abstract classes allow external subtypes; sealed classes do not.
 
+<div class="table-wrap">
+
 | Property                | `abstract class`              | `sealed class`            |
 | ----------------------- | ----------------------------- | ------------------------- |
 | Instantiable directly   | No                            | No                        |
@@ -372,6 +374,8 @@ The key difference: abstract classes allow external subtypes; sealed classes do 
 | Exhaustive switch       | No (must use `default`)       | Yes (compiler-enforced)   |
 | Type hierarchy openness | Open (extensible)             | Closed (fixed)            |
 | Use case                | Polymorphism, shared behavior | Sum types, state machines |
+
+</div>
 
 ### When to Use Abstract Classes
 
@@ -461,6 +465,8 @@ class HttpLoading extends HttpResponse&lt;Never&gt; {}
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Property                 | `enum`                             | `sealed class`                              |
 | ------------------------ | ---------------------------------- | ------------------------------------------- |
 | Variant-specific fields  | No (all variants share fields)     | Yes (each class has its own fields)         |
@@ -470,6 +476,8 @@ class HttpLoading extends HttpResponse&lt;Never&gt; {}
 | Memory overhead          | Minimal (single object per value)  | Higher (each instance is a separate object) |
 | Complexity               | Simple                             | More complex                                |
 | Use case                 | Fixed value sets with uniform data | Heterogeneous types with different shapes   |
+
+</div>
 
 ### When to Use Which
 
@@ -854,7 +862,7 @@ String classify(Expr expr) => switch (expr) {
 ### Sealed Classes with Generics
 
 Generics and sealed classes compose well. The sealed constraint applies to the class hierarchy, not
-To the type parameter:
+to the type parameter:
 
 ```dart
 sealed class Either&lt;L, R&gt; {}
@@ -932,7 +940,7 @@ Forgetting to add `part 'new_file.dart'` in `main.dart` causes a compile error.
 ### 3. Using `default` with Sealed Types
 
 As discussed, `default` defeats exhaustiveness. The compiler will not warn you about missing cases
-If `default` is present. This is technically allowed but is always wrong for sealed types.
+if `default` is present. This is technically allowed but is always wrong for sealed types.
 
 ### 4. Exhaustiveness Only Applies to Direct Subtypes
 
@@ -1096,17 +1104,6 @@ The `switch` on the discriminator string is not exhaustive (strings are not seal
 `default` here. This is the one place where sealed class exhaustiveness does not apply, at the
 Serialization boundary where types are erased.
 
-
-```mermaid
-flowchart TD
-    A[02 Sealed Classes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of sealed classes, including underlying theory, practical
@@ -1120,13 +1117,7 @@ implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

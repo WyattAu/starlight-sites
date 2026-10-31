@@ -25,11 +25,15 @@ test is designed to expose deep misconceptions that separate top-tier candidates
 
 Every diagnostic file contains:
 
+<div class="table-wrap">
+
 | Section           | Count | Description                                                  |
 | ----------------- | ----- | ------------------------------------------------------------ |
 | Unit Tests        | 3     | Single-concept questions probing specific misconceptions     |
 | Integration Tests | 3     | Multi-concept problems requiring synthesis of several topics |
 | Worked Solutions  | All   | Step-by-step solutions with explicit reasoning               |
+
+</div>
 
 ## How to Use
 
@@ -47,6 +51,8 @@ Every diagnostic file contains:
 
 ## Misconception Map
 
+<div class="table-wrap">
+
 | Topic                              | Key Misconception                                                                                                             |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Cell Biology and Biochemistry      | Prokaryotic vs eukaryotic features; fluid mosaic model; enzyme kinetics (Vmax, Km); inhibition types                          |
@@ -55,16 +61,22 @@ Every diagnostic file contains:
 | Human Reproduction and Homeostasis | Hormonal control of menstrual cycle; negative feedback; blood glucose regulation; primary vs secondary immune response        |
 | Genetics                           | Semi-conservative replication; transcription vs translation; codons/anticodons; sex linkage; genetic engineering steps        |
 | Evolution and Ecology              | Natural selection mechanism; speciation; ecological pyramids; carbon and nitrogen cycles; eutrophication                      |
-| Biodiversity and Conservation      | Species richness vs evenness; Simpson"s diversity index; in situ vs ex situ conservation; edge effects                        |
+| Biodiversity and Conservation      | Species richness vs evenness; Simpson's diversity index; in situ vs ex situ conservation; edge effects                        |
 | Microorganisms and Biotechnology   | Bacterial vs viral structure; aseptic technique; fermentation conditions; bioreactor design; genetic engineering applications |
 
+</div>
+
 ## Scoring
+
+<div class="table-wrap">
 
 | Score    | Interpretation                                       |
 | -------- | ---------------------------------------------------- |
 | 5--6 / 6 | Exam-ready; focus on speed and presentation          |
 | 3--4 / 6 | Solid understanding; review weak areas               |
 | 0--2 / 6 | Foundation gaps; revisit topic notes before retrying |
+
+</div>
 
 ## File Index
 
@@ -91,14 +103,7 @@ Every diagnostic file contains:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -144,8 +149,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 

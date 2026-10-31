@@ -50,7 +50,7 @@ orientations. Electromagnets use soft iron cores because they can be switched on
 
 ### UT-2: The Motor Effect
 
-**Question:** (a) State the motor effect and Fleming"s left-hand rule. (b) A wire carrying a current
+**Question:** (a) State the motor effect and Fleming's left-hand rule. (b) A wire carrying a current
 of 5 A is placed in a magnetic field of flux density 0.3 T. The wire is 20 cm long and is at 90
 degrees to the field. Calculate the force on the wire. (c) Explain how a DC motor works, including
 the role of the commutator. (d) Calculate the force if the wire is at 30 degrees to the magnetic
@@ -139,7 +139,7 @@ $= 25.6$ MW.
 
 (d) Power loss in transmission lines $= I^2R$. By increasing the voltage (using a step-up
 transformer), the current is reduced for the same power ($P = VI$). Since power loss depends on
-$I^2$Reducing the current by a factor of 16 (from 1600 A to 100 A) reduces the power loss by a
+$I^2$ Reducing the current by a factor of 16 (from 1600 A to 100 A) reduces the power loss by a
 factor of $16^2 = 256$. This is why high-voltage transmission is far more efficient: losses at 400
 kV (100 kW) are negligible compared to losses at 25 kV (25,600 kW).
 
@@ -224,27 +224,9 @@ conservation of energy: mechanical work $\to$ electrical energy $\to$ thermal en
 
 **The key insight:** Moving charges create magnetic fields, and moving magnetic fields create electric currents, electricity and magnetism are two sides of the same coin.
 
-
-```mermaid
-flowchart TD
-    A[Diag Magnetism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

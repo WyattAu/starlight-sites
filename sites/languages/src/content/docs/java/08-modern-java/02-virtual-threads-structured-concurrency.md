@@ -25,17 +25,17 @@ Overhead. A machine with 8 GB of RAM can run roughly 8,000 threads before exhaus
 Space alone. In practice, the scheduler overhead degrades performance long before that.
 
 Most server workloads are I/O-bound. A thread handling an HTTP request spends the vast majority of
-Its time waiting for database queries, network calls, or file I/O. During that wait, the thread's
+its time waiting for database queries, network calls, or file I/O. During that wait, the thread's
 Stack sits in memory doing nothing. The traditional solution -- thread pools bounded to some
 Reasonable size (200-500 threads) -- works but introduces complexity: every blocking operation must
-Be non-blocking or async, and async code is hard to write, hard to read, and hard to debug.
+be non-blocking or async, and async code is hard to write, hard to read, and hard to debug.
 
 Virtual threads solve this by decoupling the Java-level thread from the OS thread.
 
 ### What Is a Virtual Thread
 
 A virtual thread is a lightweight thread managed by the JVM rather than the operating system. It has
-Its own stack, its own thread-local variables, and its own interrupt state -- but the stack is
+its own stack, its own thread-local variables, and its own interrupt state -- but the stack is
 Allocated on the heap as a linked list of stack frames (called "continuations"), not as a contiguous
 Block of memory. When a virtual thread blocks on I/O, the JVM unmounts it from its carrier (the OS
 Thread) and mounts a different virtual thread. When the I/O completes, the JVM remounts the original
@@ -75,7 +75,7 @@ try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 `Executors.newVirtualThreadPerTaskExecutor()` creates a new virtual thread for every submitted task.
 There is no pooling -- virtual threads are cheap enough that pooling is unnecessary and
 Counterproductive. The executor implements `AutoCloseable`; closing it waits for all submitted tasks
-To complete.
+to complete.
 
 ### How Virtual Threads Work Internally
 
@@ -182,7 +182,7 @@ Use `ScopedValue` (discussed below) instead of `ThreadLocal` when working with v
 Traditional Java concurrency is unstructured: you create a thread, submit tasks to an executor, and
 Collect results with `Future.get()`. There is no relationship between the parent task and the child
 Tasks. If a child task fails, the parent must manually cancel the remaining children. If the parent
-Is interrupted, cleanup is manual. This leads to leaked threads, resource exhaustion, and subtle
+is interrupted, cleanup is manual. This leads to leaked threads, resource exhaustion, and subtle
 Bugs.
 
 ```java
@@ -359,6 +359,8 @@ private void processRequest(Request request) {
 
 ### Scoped Values vs ThreadLocal
 
+<div class="table-wrap">
+
 | Feature          | `ThreadLocal`                  | `ScopedValue`                       |
 | ---------------- | ------------------------------ | ----------------------------------- |
 | Mutability       | Mutable                        | Immutable (bound once per scope)    |
@@ -367,6 +369,8 @@ private void processRequest(Request request) {
 | Inheritance      | Inherited by child threads     | Inherited by child threads          |
 | Rebinding        | Can rebind per call            | Cannot rebind within active scope   |
 | Virtual thread   | Expensive (millions of copies) | Efficient (single shared reference) |
+
+</div>
 
 ### Binding and Rebinding
 
@@ -412,6 +416,8 @@ try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 
 ### Virtual Threads vs Go Goroutines
 
+<div class="table-wrap">
+
 | Feature             | Java Virtual Threads         | Go Goroutines                  |
 | ------------------- | ---------------------------- | ------------------------------ |
 | Stack model         | Heap-allocated continuations | Heap-allocated growable stacks |
@@ -421,9 +427,11 @@ try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 | Typical concurrency | Millions                     | Hundreds of thousands          |
 | Blocking I/O        | Transparent unmount          | Transparent unmount            |
 
+</div>
+
 Go goroutines are more mature (available since Go 1.0 in 2012) and have no pinning issue because Go
-Does not have monitor-based locking. Java virtual threads are catching up, and the pinning issue is
-Being addressed in JDK 24+.
+does not have monitor-based locking. Java virtual threads are catching up, and the pinning issue is
+being addressed in JDK 24+.
 
 ### Virtual Threads vs C# async/await
 
@@ -458,7 +466,7 @@ Performance reasoning.
 
 Kotlin coroutines are compiler-transformed suspending functions, similar to C# async/await. They use
 `suspend` keyword and `Dispatchers` for thread context. Virtual threads are a runtime feature with
-No language changes required.
+no language changes required.
 
 ## Intuition
 
@@ -488,19 +496,19 @@ try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 ### Synchronized Still Pins (JDK 21-23)
 
 Any blocking operation inside a `synchronized` block pins the virtual thread to its carrier. Audit
-Your codebase for `synchronized` blocks that contain I/O operations and replace with
+your codebase for `synchronized` blocks that contain I/O operations and replace with
 `ReentrantLock`.
 
 ### `ThreadLocal` in Virtual Thread Per-Task Executors
 
-In a `newVirtualThreadPerTaskExecutor`Each task runs on a new virtual thread. If you set a
+In a `newVirtualThreadPerTaskExecutor`. Each task runs on a new virtual thread. If you set a
 `ThreadLocal` in one task, it is not visible in another. If you set it in a parent and fork child
 Tasks, the children inherit it, but the memory overhead is proportional to the number of virtual
 Threads. Prefer `ScopedValue`.
 
 ### Structured Concurrency Is Not Auto-Closeable on Errors
 
-`StructuredTaskScope` implements `AutoCloseable`But closing the scope does not automatically throw
+`StructuredTaskScope` implements `AutoCloseable`. But closing the scope does not automatically throw
 Exceptions. You must call `throwIfFailed()` explicitly after `join()`:
 
 ```java
@@ -515,7 +523,7 @@ try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
 ### Forgetting `join()`
 
 Forgetting to call `join()` means the scope's `close()` will wait for children, but you will not
-Have access to their results:
+have access to their results:
 
 ```java
 try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
@@ -662,7 +670,7 @@ public class RaceScope&lt;T&gt; extends StructuredTaskScope&lt;T&gt; {
 
 ### Traditional Thread Dumps
 
-A traditional thread dump (`jstack``kill -3`Or `Thread.getAllStackTraces()`) shows platform Threads.
+A traditional thread dump (`jstack`, `kill -3` or `Thread.getAllStackTraces()`) shows platform Threads.
 With virtual threads, a thread dump also shows virtual threads but in a different format:
 
 ```bash
@@ -842,24 +850,13 @@ public UserData fetchUserData(String userId) throws Exception {
 ## See Also
 
 - [Concurrency](/java/06-concurrency/01-concurrency/) -- traditional concurrency primitives,
-  `ReentrantLock``CompletableFuture`
+  `ReentrantLock`, `CompletableFuture`
 - [Collections Framework](/java/04-collections/01-collections-framework/) -- thread-safe collections
   for concurrent access
 - [Records, Sealed Classes, and Pattern Matching](/java/08-modern-java/01-records-sealed-patterns/)
   -- pattern matching used in structured concurrency
 - [Class Loading and Memory Model](/java/09-jvm-internals/01-class-loading-memory/) -- how the JVM
   manages threads and memory
-
-
-```mermaid
-flowchart TD
-    A[02 Virtual Threads Structured Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -874,10 +871,5 @@ underlying theory, practical implementation, and key applications.
 - exception handling
 - the JVM and garbage collection
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

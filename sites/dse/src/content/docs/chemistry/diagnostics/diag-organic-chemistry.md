@@ -23,12 +23,16 @@ tableOfContents: false
 An unknown organic compound $X$ has the molecular formula $C_{3}H_{6}O_{2}$. The following test
 results were obtained:
 
+<div class="table-wrap">
+
 | Test                                                                       | Observation            |
 | -------------------------------------------------------------------------- | ---------------------- |
 | Add solid $Na_{2}CO_{3}$                                                   | Effervescence observed |
-| Add Fehling"s solution and heat                                            | No change              |
+| Add Fehling's solution and heat                                            | No change              |
 | Add acidified $K_{2}Cr_{2}O_{7}$ and warm                                  | Orange to green        |
 | Sweet-smelling compound obtained on heating with ethanol and $H_{2}SO_{4}$ |
+
+</div>
 
 (a) Identify the functional group(s) present in $X$. [3 marks]
 
@@ -58,7 +62,7 @@ results were obtained:
 - **Orange to green with $K_{2}Cr_{2}O_{7}$**: $X$ is oxidised, but since we already know it has a
   $-COOH$ group (which cannot be further oxidised by this reagent), the colour change is likely due
   to an **alcohol** group also being present. However, the molecular formula is
-  $C_{3}H_{6}O_{2}$Which accounts for exactly one $-COOH$ group ($C_{2}H_{3}O_{2}$) plus one
+  $C_{3}H_{6}O_{2}$ Which accounts for exactly one $-COOH$ group ($C_{2}H_{3}O_{2}$) plus one
   additional carbon ($CH_{3}$). The only structure is $CH_{3}CH_{2}COOH$ (propanoic acid), which has
   no alcohol group.
 
@@ -92,7 +96,9 @@ Name: **propanoic acid**
 
 Consider the reaction of 2-bromo-2-methylpropane with aqueous sodium hydroxide:
 
-$$(CH_{3})_{3}CBr + NaOH(aq) \rightarrow (CH_{3})_{3}COH + NaBr$$
+$$
+(CH_{3})_{3}CBr + NaOH(aq) \rightarrow (CH_{3})_{3}COH + NaBr
+$$
 
 (a) State the type of mechanism for this reaction and explain why this mechanism is favoured for
 tertiary halogenoalkanes. [3 marks]
@@ -122,7 +128,7 @@ Tertiary halogenoalkanes favour $S_{N}1$ because:
 1. The three alkyl groups on the carbon bearing the halogen **stabilise the carbocation
    intermediate** through electron-donating inductive effects and hyperconjugation.
 2. Steric hindrance from the three bulky alkyl groups makes it difficult for the nucleophile
-   ($OH^{-}$) to approach the carbon in a single step ($S_{N}2$).
+   ($OH^{-}$) to approach the carbon in a single step ($ S_{N}2$).
 3. The formation of a stable tertiary carbocation lowers the activation energy for the
    rate-determining step.
 
@@ -131,7 +137,9 @@ Tertiary halogenoalkanes favour $S_{N}1$ because:
 The $C-Br$ bond breaks, with both electrons going to the bromine atom. A tertiary carbocation
 intermediate is formed.
 
-$$(CH_{3})_{3}C-Br \rightarrow (CH_{3})_{3}C^{+} + Br^{-}$$
+$$
+(CH_{3})_{3}C-Br \rightarrow (CH_{3})_{3}C^{+} + Br^{-}
+$$
 
 (Curly arrow from the $C-Br$ bond to the $Br$ atom.)
 
@@ -139,14 +147,18 @@ $$(CH_{3})_{3}C-Br \rightarrow (CH_{3})_{3}C^{+} + Br^{-}$$
 
 The hydroxide ion ($OH^{-}$) attacks the carbocation, forming the alcohol.
 
-$$(CH_{3})_{3}C^{+} + OH^{-} \rightarrow (CH_{3})_{3}COH$$
+$$
+(CH_{3})_{3}C^{+} + OH^{-} \rightarrow (CH_{3})_{3}COH
+$$
 
 (Curly arrow from the lone pair on $O$ of $OH^{-}$ to the carbocation carbon.)
 
 (c) The rate-determining step (step 1) involves **only the halogenoalkane** molecule. The $OH^{-}$
 is not involved until the fast second step. Therefore:
 
-$$\text{Rate} = k[(CH_{3})_{3}CBr]$$
+$$
+\text{Rate} = k[(CH_{3})_{3}CBr]
+$$
 
 The reaction is **first order** with respect to the halogenoalkane and **zero order** with respect
 to NaOH (or $OH^{-}$).
@@ -232,17 +244,6 @@ cis-trans isomerism to occur, but-1-ene fails this requirement.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Organic Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Carbon's versatility:** Organic chemistry is the study of carbon compounds, like LEGO bricks that can snap together in infinite ways to form chains, rings, and complex structures.
@@ -257,11 +258,17 @@ flowchart TD
 
 Complete the following reaction scheme by identifying compounds $A$ to $E$:
 
-$$CH_{3}CH_{2}OH \xrightarrow[\text{excess}]{K_{2}Cr_{2}O_{7}/H^{+}} A \xrightarrow[\text{heat}]{\text{alkaline } I_{2}} B + CHI_{3} \downarrow$$
+$$
+CH_{3}CH_{2}OH \xrightarrow[\text{excess}]{K_{2}Cr_{2}O_{7}/H^{+}} A \xrightarrow[\text{heat}]{\text{alkaline } I_{2}} B + CHI_{3} \downarrow
+$$
 
-$$B \xrightarrow{LiAlH_{4}} C \xrightarrow{HBr} D \xrightarrow{NaOH(aq)} C$$
+$$
+B \xrightarrow{LiAlH_{4}} C \xrightarrow{HBr} D \xrightarrow{NaOH(aq)} C
+$$
 
-$$A \xrightarrow{CH_{3}CH_{2}OH / H^{+}} E$$
+$$
+A \xrightarrow{CH_{3}CH_{2}OH / H^{+}} E
+$$
 
 (a) Identify compounds $A$ to $E$ and name each. [5 marks]
 
@@ -295,6 +302,8 @@ $CH_{3}CHO + 3I_{2} + 4NaOH \rightarrow CHI_{3} + HCOONa + 3NaI + 3H_{2}O$
 
 So $B =$ **HCOOH** (methanoic acid).
 
+<div class="table-wrap">
+
 | Compound | Identity                      | Name                        |
 | -------- | ----------------------------- | --------------------------- |
 | $A$      | $CH_{3}CHO$                   | Ethanal                     |
@@ -302,6 +311,8 @@ So $B =$ **HCOOH** (methanoic acid).
 | $C$      | $CH_{3}OH$                    | Methanol                    |
 | $D$      | $CH_{3}Br$                    | Bromomethane                |
 | $E$      | $CH_{3}CH(OCH_{2}CH_{3})_{2}$ | 1,1-Diethoxyethane (acetal) |
+
+</div>
 
 (b) Step 1: $CH_{3}CH_{2}OH \rightarrow A$: **Oxidation** (controlled)
 
@@ -438,7 +449,9 @@ Reagent: Bromine ($Br_{2}$) in an inert organic solvent (e.g., $CCl_{4}$ or cycl
 
 Conditions: Room temperature, in the dark (or with light excluded)
 
-$$CH_{2}=CHCH_{3} + Br_{2} \rightarrow CH_{2}Br-CHBr-CH_{3}$$
+$$
+CH_{2}=CHCH_{3} + Br_{2} \rightarrow CH_{2}Br-CHBr-CH_{3}
+$$
 
 This is a **one-step** synthesis: direct addition of $Br_{2}$ across the double bond gives exactly
 the desired 1,2-dibromopropane.
@@ -449,13 +462,17 @@ the desired 1,2-dibromopropane.
 
 (c) If $HBr$ is added first:
 
-$$CH_{2}=CHCH_{3} + HBr \rightarrow CH_{3}-CHBr-CH_{3}$$
+$$
+CH_{2}=CHCH_{3} + HBr \rightarrow CH_{3}-CHBr-CH_{3}
+$$
 
 (2-bromopropane -- Markovnikov addition places $Br$ on the more substituted carbon)
 
 Then adding $Br_{2}$ to 2-bromopropane would give:
 
-$$CH_{3}-CHBr-CH_{3} + Br_{2} \rightarrow CH_{3}-CBr_{2}-CH_{3} + HBr$$
+$$
+CH_{3}-CHBr-CH_{3} + Br_{2} \rightarrow CH_{3}-CBr_{2}-CH_{3} + HBr
+$$
 
 This is a **substitution** reaction (not addition, since there is no $C=C$), giving
 2,2-dibromopropane, NOT 1,2-dibromopropane.

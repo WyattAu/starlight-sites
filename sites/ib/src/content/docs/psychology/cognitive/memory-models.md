@@ -20,8 +20,8 @@ description: "The multi-store model (MSM) proposed by Atkinson and Shiffrin is o
 ### Atkinson and Shiffrin (1968)
 
 The multi-store model (MSM) proposed by Atkinson and Shiffrin is one of the most influential models
-In cognitive psychology. It conceptualises memory as consisting of three structural stores through
-Which information flows in a linear sequence.
+in cognitive psychology. It conceptualises memory as consisting of three structural stores through
+which information flows in a linear sequence.
 
 #### The Three Stores
 
@@ -32,14 +32,14 @@ Information (echoic memory). Sensory memory has a large capacity but extremely l
 
 Evidence for sensory memory comes from Sperling (1960), who demonstrated that participants shown a
 3-by-4 grid of letters for 50 milliseconds could report only 4--5 items in a full-report condition
-But could accurately report any specified row when cued by a tone immediately after the display.
+but could accurately report any specified row when cued by a tone immediately after the display.
 This partial-report advantage demonstrates that all 12 items were briefly available in sensory
 Memory but decayed before they could be reported.
 
 **Short-term memory (STM)** has a limited capacity of approximately $7 \pm 2$ items (Miller, 1956)
 And a limited duration of approximately 18--30 seconds without rehearsal (Peterson and Peterson,
 1959). Information is maintained in STM through maintenance rehearsal -- the passive repetition of
-Information without necessarily processing its meaning. The capacity of STM can be effectively
+information without necessarily processing its meaning. The capacity of STM can be effectively
 Increased through chunking, the process of grouping individual items into larger meaningful units
 (e.g., the sequence 1-9-8-4 is more remembered as the single chunk "1984").
 
@@ -95,15 +95,15 @@ Store but comprises several distinct types:
 ### Baddeley and Hitch (1974)
 
 Baddeley and Hitch proposed the working memory model as a more detailed and accurate description of
-Short-term memory. Rather than a single passive store, working memory is conceptualised as an active
+short-term memory. Rather than a single passive store, working memory is conceptualised as an active
 Processing system consisting of multiple components.
 
 #### Components of the Working Memory Model
 
 **The central executive** is the attentional control system that coordinates the activities of the
 Other components. It allocates processing resources, suppresses irrelevant information, switches
-Between tasks, and integrates information from different sources. It has limited capacity but is not
-Itself a storage system. Baddeley acknowledged that the central executive is the least
+between tasks, and integrates information from different sources. It has limited capacity but is not
+itself a storage system. Baddeley acknowledged that the central executive is the least
 Well-specified component of the model.
 
 **The phonological loop** processes auditory and verbal information and consists of two
@@ -129,17 +129,17 @@ Information from different modalities is integrated. The episodic buffer is a li
 Temporary storage system that integrates information from the phonological loop, visuospatial
 Sketchpad, and LTM into a coherent, multi-dimensional episodic representation. This component
 Explains how participants can recall integrated scenes (e.g., "the red car was parked next to the
-Tree") that require combining visual and verbal information.
+tree") that require combining visual and verbal information.
 
 #### Baddeley et al. (1975)
 
 Baddeley, Grant, Wight, and Thomson investigated the dual-task interference predicted by the working
 Memory model. Participants performed a verbal reasoning task (judging whether sentences such as "A
-Follows B" were true or false given the letter sequence "BA") while simultaneously performing either
+follows B" were true or false given the letter sequence "BA") while simultaneously performing either
 A verbal secondary task (reciting digits) or a visual secondary task (tracking a moving light).
 
 Results: Performance on the reasoning task was impaired more by the concurrent verbal task than by
-The visual task. This supports the existence of separate verbal and visuospatial processing systems,
+the visual task. This supports the existence of separate verbal and visuospatial processing systems,
 As predicted by the working memory model.
 
 **Evaluation of the working memory model:**
@@ -156,9 +156,9 @@ As predicted by the working memory model.
 ### Craik and Lockhart (1972)
 
 Craik and Lockhart proposed the levels of processing (LOP) framework as an alternative to the
-Structural models of memory (the MSM and working memory model). The key claim is that memory is not
+structural models of memory (the MSM and working memory model). The key claim is that memory is not
 A function of the store in which information is held or the amount of rehearsal it receives, but
-Rather of the depth of processing applied to the information at encoding.
+rather of the depth of processing applied to the information at encoding.
 
 **Three levels of processing:**
 
@@ -173,8 +173,8 @@ Rather of the depth of processing applied to the information at encoding.
 ### Craik and Tulving (1975)
 
 Craik and Tulving provided the seminal evidence for the LOP effect. Participants were shown words
-One at a time and asked questions requiring structural, phonological, or semantic processing. In a
-Surprise recall test, participants recalled significantly more words that had been processed
+one at a time and asked questions requiring structural, phonological, or semantic processing. In a
+surprise recall test, participants recalled significantly more words that had been processed
 Semantically than those processed phonologically or structurally.
 
 **Evaluation of the levels of processing framework:**
@@ -196,8 +196,8 @@ Semantically than those processed phonologically or structurally.
 
 Frederick Bartlett argued that memory is not a passive recording of experience but an active,
 Reconstructive process. In his most famous experiment, Bartlett asked British participants to read a
-Native American folktale, "War of the Ghosts," and then recall it at increasing intervals (from
-Immediately to several months later).
+native American folktale, "War of the Ghosts," and then recall it at increasing intervals (from
+immediately to several months later).
 
 **Key findings:**
 
@@ -208,7 +208,7 @@ Immediately to several months later).
   schemas.
 
 Bartlett introduced the concept of **schemas**: organised packets of knowledge and expectations
-About the world that influence how information is encoded, stored, and retrieved. When we encounter
+about the world that influence how information is encoded, stored, and retrieved. When we encounter
 New information, we interpret it in terms of our existing schemas, and when we recall information,
 We reconstruct it using our schemas to fill in gaps and resolve inconsistencies.
 
@@ -227,10 +227,10 @@ Serve several functions in memory:
 #### Brewer and Treyens (1981)
 
 Participants were taken individually into an office and asked to wait for 30 seconds. They were then
-Unexpectedly asked to recall everything in the office. Results showed that participants recalled
+unexpectedly asked to recall everything in the office. Results showed that participants recalled
 Schema-consistent items (desk, chair, books) highly accurately, recalled some items that were not
-Present but were schema-consistent (books, which were in the office, but also items like a pad of
-Paper that were not), and often failed to recall schema-inconsistent items (a skull and a pair of
+present but were schema-consistent (books, which were in the office, but also items like a pad of
+paper that were not), and often failed to recall schema-inconsistent items (a skull and a pair of
 Skis that had been placed in the office).
 
 **Evaluation of schema theory:**
@@ -248,11 +248,11 @@ Skis that had been placed in the office).
 
 Elizabeth Loftus's research on eyewitness testimony has had a profound influence on both cognitive
 Psychology and the legal system. Her work demonstrates that memory is highly malleable and can be
-Distorted by the way questions are asked.
+distorted by the way questions are asked.
 
 In their most famous experiment, Loftus and Palmer showed participants films of car accidents and
-Then asked them to estimate the speed of the cars. The critical manipulation was the verb used in
-The question: "About how fast were the cars going when they **hit** each other?" versus "**smashed**
+then asked them to estimate the speed of the cars. The critical manipulation was the verb used in
+the question: "About how fast were the cars going when they **hit** each other?" versus "**smashed**
 Each other" versus "**collided** each other" versus "**bumped** each other" versus "**contacted**
 Each other."
 
@@ -274,7 +274,7 @@ Of the event. Loftus proposed two explanations:
    representation, overwriting or merging with the original memory.
 
 Subsequent research has supported the memory impairment explanation, particularly when the
-Misleading information is introduced after a delay (when the original memory has begun to fade).
+misleading information is introduced after a delay (when the original memory has begun to fade).
 
 **Evaluation:**
 
@@ -324,27 +324,9 @@ For an overview of cognitive topics, see
 4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
-
-```mermaid
-flowchart TD
-    A[Memory Models] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

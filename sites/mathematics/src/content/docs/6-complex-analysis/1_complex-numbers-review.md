@@ -66,7 +66,9 @@ The inequality follows from $\mathrm{Re}(z\bar{w}) \leq |z\bar{w}| = |z||w|$. $\
 
 Every non-zero complex number can be written in **polar form**:
 
-$$z = r(\cos\theta + i\sin\theta) = re^{i\theta}$$
+$$
+z = r(\cos\theta + i\sin\theta) = re^{i\theta}
+$$
 
 Where $r = |z| = \sqrt{a^2 + b^2}$ is the **modulus** and $\theta = \arg(z)$ is the **argument**.
 
@@ -113,18 +115,20 @@ $z = 5\,e^{i(\pi + \arctan(4/3))}$.
 
 </details>
 
-### 1.4 Euler"s Formula and De Moivre’s Theorem
+### 1.4 Euler's Formula and De Moivre’s Theorem
 
 **Euler's formula:** $e^{i\theta} = \cos\theta + i\sin\theta$.
 
 **De Moivre's theorem:** $(e^{i\theta})^n = e^{in\theta}$ So
 
-$$(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)$$
+$$
+(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)
+$$
 
-**Proposition 1.5.** De Moivre's theorem holds for all integers $n$Including negative values.
+**Proposition 1.5.** De Moivre's theorem holds for all integers $n$ Including negative values.
 
-_Proof._ For $n \geq 0$It follows by induction from the multiplication law
-$e^{i\alpha}e^{i\beta} = e^{i(\alpha + \beta)}$. For $n \lt 0$Write $n = -m$ with $m \gt 0$:
+_Proof._ For $n \geq 0$ It follows by induction from the multiplication law
+$e^{i\alpha}e^{i\beta} = e^{i(\alpha + \beta)}$. For $n \lt 0$ Write $n = -m$ with $m \gt 0$:
 $(\cos\theta + i\sin\theta)^n = \frac{1}{(\cos\theta + i\sin\theta)^m}
 = \frac{1}{\cos(m\theta) + i\sin(m\theta)} = \cos(-m\theta) + i\sin(-m\theta) = \cos(n\theta) + i\sin(n\theta)$.
 $\blacksquare$
@@ -155,7 +159,7 @@ $= 16\cos^5\theta - 20\cos^3\theta + 5\cos\theta$.
 
 **Problem.** Show that
 $\sum_{k=0}^{n-1} \cos(k\theta) = \frac{\sin(n\theta/2)}{\sin(\theta/2)}\cos\!\left(\frac{(n-1)\theta}{2}\right)$
-For $\theta \notin 2\pi\mathbb{Z}$.
+for $\theta \notin 2\pi\mathbb{Z}$.
 
 Consider $S = \sum_{k=0}^{n-1} e^{ik\theta} = \frac{1 - e^{in\theta}}{1 - e^{i\theta}}$ (geometric
 series with $r = e^{i\theta} \neq 1$).
@@ -174,22 +178,26 @@ Taking real parts gives the result.
 **Proposition 1.6.** Every non-zero $w \in \mathbb{C}$ has exactly $n$ distinct $n$-th roots. If
 $w = \rho\, e^{i\phi}$ Then
 
-$$z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n}, \quad k = 0, 1, \ldots, n - 1$$
+$$
+z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n}, \quad k = 0, 1, \ldots, n - 1
+$$
 
 Where $\rho^{1/n} \gt 0$ is the positive real $n$-th root of $\rho$.
 
-_Proof._ If $z^n = w$Write $z = r\,e^{i\theta}$. Then $r^n e^{in\theta} = \rho\, e^{i\phi}$ So
+_Proof._ If $z^n = w$ Write $z = r\,e^{i\theta}$. Then $r^n e^{in\theta} = \rho\, e^{i\phi}$ So
 $r = \rho^{1/n}$ and $n\theta = \phi + 2\pi k$. For $k = 0, 1, \ldots, n-1$ these give distinct
 Values of $\theta$; for $k \geq n$ they repeat. $\blacksquare$
 
-_Remark._ The $n$-th roots of $w$ lie equally spaced on a circle of radius $\rho^{1/n}$Forming a
+_Remark._ The $n$-th roots of $w$ lie equally spaced on a circle of radius $\rho^{1/n}$ Forming a
 Regular $n$-gon.
 
 ### 1.6 Roots of Unity
 
 The $n$-th roots of unity are the solutions of $z^n = 1$:
 
-$$z_k = e^{2\pi i k / n}, \quad k = 0, 1, \ldots, n - 1$$
+$$
+z_k = e^{2\pi i k / n}, \quad k = 0, 1, \ldots, n - 1
+$$
 
 They form a regular $n$-gon on the unit circle in the complex plane.
 
@@ -225,23 +233,12 @@ $z_0 = 2\,e^{i\pi/8}$, $z_1 = 2\,e^{i5\pi/8}$, $z_2 = 2\,e^{i9\pi/8}$, $z_3 = 2\
 
 The roots are
 $z_k = \rho^{1/n}\, e^{i(\phi + 2\pi k)/n} = z_0 \cdot \left(e^{2\pi i/n}\right)^k = z_0 \cdot \omega^k$
-Where $\omega = e^{2\pi i/n}$ is a primitive $n$-th root of unity. This is a geometric sequence With
+where $\omega = e^{2\pi i/n}$ is a primitive $n$-th root of unity. This is a geometric sequence With
 ratio $\omega$.
 
 </details>
 
 ### 1.10 Common Mistakes
-
-
-```mermaid
-flowchart TD
-    A[1_Complex Numbers Review] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -271,7 +268,7 @@ The argument $\arg(z)$ is multi-valued: if $\theta$ is an argument, then so is $
 - **[Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)**: Euler's formula connects complex exponentials to trigonometric functions used in Fourier analysis.
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: The Laplace transform extends to complex analysis through the Bromwich integral and residue calculus.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

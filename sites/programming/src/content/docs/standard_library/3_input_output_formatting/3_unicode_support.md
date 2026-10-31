@@ -23,13 +23,15 @@ categories:
 
 C++ provides several character types for Unicode support and `u8` string literals for UTF-8 text.
 However, the standard library provides minimal high-level Unicode text processing --- operations
-Like case conversion, collation, normalization, and grapheme cluster segmentation require external
+like case conversion, collation, normalization, and grapheme cluster segmentation require external
 Libraries. This section covers the character types, UTF-8 encoding, string literals, common
 Pitfalls, and practical guidance for Unicode-aware applications.
 
 ### Character Types for Unicode
 
 C++ provides several fundamental character types to support Unicode [N4950 §6.2.5]:
+
+<div class="table-wrap">
 
 | Type               | Size (guaranteed)        | Typical Use                                                 |
 | :----------------- | :----------------------- | :---------------------------------------------------------- |
@@ -38,6 +40,8 @@ C++ provides several fundamental character types to support Unicode [N4950 §6.2
 | `char16_t` (C++11) | at least 16 bits         | UTF-16 code units                                           |
 | `char32_t` (C++11) | at least 32 bits         | UTF-32 code units / single Unicode code point               |
 | `wchar_t`          | implementation-defined   | Platform-wide encoding (UTF-16 on Windows, UTF-32 on Linux) |
+
+</div>
 
 `char8_t` was introduced in C++20 [N4950 §6.2.5] to distinguish UTF-8 byte sequences from plain
 `char` (which may be signed or unsigned depending on the platform). `char8_t` is an unsigned type
@@ -48,12 +52,16 @@ Distinct from both `unsigned char` and `char`Preventing accidental implicit conv
 UTF-8 is a variable-width encoding that represents every Unicode code point using 1 to 4 bytes
 [Unicode Standard, §3.9]:
 
+<div class="table-wrap">
+
 | Code Point Range  | Binary Pattern                        | Bytes |
 | :---------------- | :------------------------------------ | :---- |
 | U+0000..U+007F    | `0xxxxxxx`                            | 1     |
 | U+0080..U+07FF    | `110xxxxx 10xxxxxx`                   | 2     |
 | U+0800..U+FFFF    | `1110xxxx 10xxxxxx 10xxxxxx`          | 3     |
 | U+10000..U+10FFFF | `11110xxx 10xxxxxx 10xxxxxx 10xxxxxx` | 4     |
+
+</div>
 
 UTF-8 has several properties that make it the dominant encoding for text interchange:
 
@@ -147,7 +155,7 @@ Encoding-aware character types. The following challenges must be addressed with 
 #### Code Point vs. Grapheme Cluster
 
 A **code point** (a `char32_t` value) is not always a visible "character." Characters like `é` can
-Be represented as:
+be represented as:
 
 - **NFC (Canonical Decomposition, then Composition):** `U+00E9` (1 code point)
 - **NFD (Canonical Decomposition):** `U+0065 U+0301` (2 code points: `e` + combining acute accent)
@@ -201,7 +209,7 @@ std::size_t count_utf8_code_points(std::string_view utf8) {
 #### Case Conversion and Collation
 
 Standard `std::toupper` and `std::tolower` from `<cctype>` operate on `unsigned char` values and
-Only handle ASCII [N4950 §29.4.2]. They cannot handle Unicode case conversion (e.g., German `ß` →
+only handle ASCII [N4950 §29.4.2]. They cannot handle Unicode case conversion (e.g., German `ß` →
 `SS`Greek `σ` → `Σ`).
 
 Similarly, `std::sort` with `operator&lt;` on strings performs byte-by-byte comparison, which is
@@ -418,8 +426,8 @@ Surrogate code points (`U+D800..U+DFFF`), and code points exceeding `U+10FFFF`. 
 ### Overlong Encodings and Security Implications
 
 An **overlong encoding** is a multi-byte UTF-8 sequence that encodes a code point that could have
-Been represented in fewer bytes. For example, `U+002F` (the slash character `/`) can be encoded as
-The 2-byte sequence `0xC0 0xAF` instead of the correct 1-byte `0x2F`. This was exploited in the
+been represented in fewer bytes. For example, `U+002F` (the slash character `/`) can be encoded as
+the 2-byte sequence `0xC0 0xAF` instead of the correct 1-byte `0x2F`. This was exploited in the
 "directory traversal" attack (CVE-2000-0884) against early web servers that failed to reject
 Overlong encodings: the attacker would request `/%C0%AF../etc/passwd`And the server would decode
 `0xC0 0xAF` to `/`Bypassing path sanitization.
@@ -428,6 +436,8 @@ The UTF-8 decoder shown in the code point iteration example above does **not** r
 Encodings. A rigorous decoder must check that the decoded code point is in the minimum range for the
 Number of bytes used:
 
+<div class="table-wrap">
+
 | Bytes | Minimum Code Point | Maximum Code Point |
 | :---- | :----------------- | :----------------- |
 | 1     | U+0000             | U+007F             |
@@ -435,9 +445,13 @@ Number of bytes used:
 | 3     | U+0800             | U+FFFF             |
 | 4     | U+10000            | U+10FFFF           |
 
+</div>
+
 ### Unicode Normalization
 
 Unicode defines four normalization forms [Unicode Standard, §3.11]:
+
+<div class="table-wrap">
 
 | Form | Algorithm                                     | Use Case                                             |
 | :--- | :-------------------------------------------- | :--------------------------------------------------- |
@@ -445,6 +459,8 @@ Unicode defines four normalization forms [Unicode Standard, §3.11]:
 | NFD  | Canonical Decomposition                       | Internal processing, comparison                      |
 | NFKC | Compatibility Decomposition, then Composition | Searching, indexing (strips formatting distinctions) |
 | NFKD | Compatibility Decomposition                   | Stripping all formatting (e.g., `ﬁ` → `f` + `i`)     |
+
+</div>
 
 The critical difference between canonical and compatibility normalization is that **canonical**
 Forms preserve semantic identity (NFD `U+0065 U+0301` and NFC `U+00E9` are the same character `é`),
@@ -497,17 +513,21 @@ authentication systems.
 
 The BOM is the code point `U+FEFF` encoded at the start of a text stream to signal the byte order:
 
+<div class="table-wrap">
+
 | Encoding | BOM Bytes (big-endian) | BOM Bytes (little-endian) |
 | :------- | :--------------------- | :------------------------ |
 | UTF-8    | `EF BB BF`             | `EF BB BF` (same)         |
 | UTF-16   | `FE FF`                | `FF FE`                   |
 | UTF-32   | `00 00 FE FF`          | `FF FE 00 00`             |
 
+</div>
+
 UTF-8 is byte-order-independent, so a UTF-8 BOM is unnecessary. However, some tools (notably Windows
 Notepad) prepend a UTF-8 BOM when saving. This can cause problems:
 
 1. **Shell scripts:** A BOM at the start of a script causes `#!/bin/sh` to fail because the shebang
-   line becomes `\xEF\xBB\xBF#!/bin/sh`Which the kernel does not recognize.
+   line becomes `\xEF\xBB\xBF#!/bin/sh`. Which the kernel does not recognize.
 2. **String comparison:** If one string has a BOM and another does not, byte comparison fails.
 3. **File concatenation:** Concatenating files with and without BOMs produces a BOM in the middle of
    the output.
@@ -541,7 +561,7 @@ void strip_bom_demo(const std::filesystem::path& path) {
 
 ### Platform Encoding Quirks
 
-The relationship between `char``char8_t`And the execution encoding is subtle and Platform-dependent:
+The relationship between `char`, `char8_t` and the execution encoding is subtle and Platform-dependent:
 
 - **On POSIX (Linux, macOS):** The execution character set is UTF-8. `char` strings (`"..."`) are
   UTF-8 by convention. `std::cout` writes raw bytes to the terminal, which interprets them as UTF-8.
@@ -606,26 +626,9 @@ The relationship between `char``char8_t`And the execution encoding is subtle and
 
 **The key insight:** UTF-8 is the best default encoding, it's backward-compatible with ASCII, uses the fewest bytes for English, and is the de facto standard for the web and modern systems.
 
-```mermaid
-flowchart TD
-    A[3_Unicode_Support] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

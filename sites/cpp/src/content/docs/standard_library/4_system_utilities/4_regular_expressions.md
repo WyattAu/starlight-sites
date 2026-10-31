@@ -27,7 +27,7 @@ Regular expressions are a mini-language for pattern matching in text. `std::rege
 
 `std::regex` (C++11) provides regular expression matching, searching, and replacement using the
 ECMAScript regex grammar by default. This section covers the three main operations (`regex_match`
-`regex_search``regex_replace`), capture groups with `std::smatch`Practical patterns like email
+`regex_search`, `regex_replace`), capture groups with `std::smatch`Practical patterns like email
 Validation, and performance considerations including catastrophic backtracking.
 
 ### Overview
@@ -37,14 +37,18 @@ It is declared in `<regex>` and uses the ECMAScript regex grammar by default.
 
 The library provides three main operations:
 
+<div class="table-wrap">
+
 | Function                              | Behavior                                                  |
 | :------------------------------------ | :-------------------------------------------------------- |
 | `std::regex_match(str, regex)`        | Returns `true` if the **entire** string matches the regex |
 | `std::regex_search(str, regex)`       | Returns `true` if **any part** of the string matches      |
 | `std::regex_replace(str, regex, fmt)` | Replaces all matches with a formatted string              |
 
+</div>
+
 :::caution
-GCC"s libstdc++, which uses a backtracking NFA engine). For production use with untrusted input,
+GCC's libstdc++, which uses a backtracking NFA engine). For production use with untrusted input,
 Consider:
 
 - **CTRE** (Compile-Time Regular Expressions): header-only, uses CTAD and template metaprogramming
@@ -80,7 +84,7 @@ void regex_match_search_demo() {
 Capture groups [N4950 §30.9.2]:
 
 - `smatch[0]`: The entire match.
-- `smatch[1]``smatch[2]`...: Capture groups in order of their opening parentheses.
+- `smatch[1]`, `smatch[2]`...: Capture groups in order of their opening parentheses.
 - `smatch.prefix()`: The text before the match.
 - `smatch.suffix()`: The text after the match.
 
@@ -196,7 +200,7 @@ void email_validation_demo() {
 
 The primary performance concern with `std::regex` is **catastrophic backtracking**. A regex like
 `(a+)+b` applied to the string `"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaac"` can take exponential time because
-The engine tries every possible partition of the `a` characters between the two nested quantifiers.
+the engine tries every possible partition of the `a` characters between the two nested quantifiers.
 
 ```cpp
 #include <chrono>
@@ -238,6 +242,8 @@ Library with guaranteed linear-time matching (RE2, hyperscan).
 `std::regex` supports multiple regex grammars selectable via the `std::regex::flag_type` bitmask
 [N4950 §30.9.1]:
 
+<div class="table-wrap">
+
 | Flag         | Grammar     | Description                                               |
 | ------------ | ----------- | --------------------------------------------------------- |
 | `ECMAScript` | ECMAScript  | Default. JavaScript-like syntax. Supports backreferences. |
@@ -247,7 +253,11 @@ Library with guaranteed linear-time matching (RE2, hyperscan).
 | `grep`       | POSIX grep  | Like BRE but newline handling differs.                    |
 | `egrep`      | POSIX egrep | Like ERE but newline handling differs.                    |
 
+</div>
+
 Additional flags that can be combined with the grammar:
+
+<div class="table-wrap">
 
 | Flag       | Description                                                                |
 | ---------- | -------------------------------------------------------------------------- |
@@ -255,6 +265,8 @@ Additional flags that can be combined with the grammar:
 | `nosubs`   | Do not track capture groups (faster when groups are not needed)            |
 | `optimize` | Hint to the implementation to favor faster matching over construction time |
 | `collate`  | Locale-sensitive character ranges like `[a-z]`                             |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -372,6 +384,8 @@ int main() {
 
 `std::regex_match` and `std::regex_search` accept `std::regex_constants::match_flag_type` flags:
 
+<div class="table-wrap">
+
 | Flag               | Description                                         |
 | ------------------ | --------------------------------------------------- |
 | `match_default`    | Default behavior                                    |
@@ -383,6 +397,8 @@ int main() {
 | `match_not_null`   | Do not match empty sequences                        |
 | `match_continuous` | Only match at the beginning (like anchored match)   |
 | `match_prev_avail` | The first position is not the start of the sequence |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -502,12 +518,12 @@ int main() {
 GCC's libstdc++ implementation of `std::regex` uses a backtracking NFA engine that is exponentially
 Slow for certain patterns. For any production code that processes untrusted input, prefer a
 DFA-based or hybrid engine (RE2, hyperscan). MSVC's STL and libc++ (Clang) have better performance
-But still lack guaranteed linear-time matching.
+but still lack guaranteed linear-time matching.
 
 ### 2. Forgetting to Anchor Patterns with `regex_match`
 
 `std::regex_match` requires the **entire** string to match. If you forget to anchor your pattern
-With `^` and `$`You may get unexpected results with `regex_search`:
+with `^` and `$`. You may get unexpected results with `regex_search`:
 
 ```cpp
 #include <iostream>
@@ -528,7 +544,7 @@ int main() {
 
 ### 3. Escaping Special Characters in Replacement Strings
 
-In replacement strings passed to `std::regex_replace`The `$` character has special meaning. To
+In replacement strings passed to `std::regex_replace`. The `$` character has special meaning. To
 insert a literal `$`, use `$, $`. The matched text is `$&`, capture groups are `$1` through `$9`:
 
 ```cpp
@@ -554,7 +570,7 @@ int main() {
 ### 4. Empty Matches in Iteration
 
 `std::regex_iterator` skips zero-length matches at the same position to prevent infinite loops. If
-You need to capture zero-length matches (e.g., for splitting), use `std::regex_token_iterator` with
+you need to capture zero-length matches (e.g., for splitting), use `std::regex_token_iterator` with
 Index `-1`.
 
 ## See Also
@@ -562,16 +578,6 @@ Index `-1`.
 - [Filesystem Library](/standard_library/4_system_utilities/1_filesystem/)
 - [Chrono Library](/standard_library/4_system_utilities/2_chrono/)
 - [Random Number Generation](/standard_library/4_system_utilities/3_random_numbers/)
-
-```mermaid
-flowchart TD
-    A[4_Regular_Expressions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -586,10 +592,5 @@ key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

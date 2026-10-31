@@ -69,7 +69,7 @@ University-level measure theory notes covering sigma-algebras, measures, and Leb
 
 - **Sigma-Algebras and Measures**: Definitions, properties, measurable spaces
 - **Lebesgue Measure**: Outer measure, Caratheodory extension, non-measurable sets
-- **Lebesgue Integration**: Convergence theorems, Fatou"s lemma, dominated convergence
+- **Lebesgue Integration**: Convergence theorems, Fatou's lemma, dominated convergence
 - **Lp Spaces**: Norms, completeness, dual spaces
 
 ## Prerequisites
@@ -83,8 +83,6 @@ University-level measure theory notes covering sigma-algebras, measures, and Leb
 Start with sigma-algebras and measures to build foundational knowledge, then progress to Lebesgue integration and Lp spaces. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -125,7 +123,7 @@ Pointwise convergence does not imply convergence in $L^p$ without a dominating f
 - **Functional Analysis:** L^p spaces and operator theory built on measure.
 - **Probability and Statistics:** Measure-theoretic probability foundations.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

@@ -61,7 +61,7 @@ estimated between 50 and 100 million. Key regional cultures included:
 - Portuguese established trading posts and plantations in Brazil (sugar cultivation)
 - French explored the St. Lawrence River and Great Lakes (Jacques Cartier, 1534; Samuel de
   Champlain, 1608, founded Quebec)
-- English explorers (John Cabot, 1497; Sir Walter Raleigh"s Roanoke colony, 1585-1587, the "Lost
+- English explorers (John Cabot, 1497; Sir Walter Raleigh's Roanoke colony, 1585-1587, the "Lost
   Colony")
 - Dutch established trading networks in present-day New York (New Netherland, 1624)
 
@@ -169,17 +169,6 @@ trade.
 Encomienda system, Columbian Exchange, headright system, House of Burgesses, Mayflower Compact,
 Puritan, Quaker, mercantilism, Navigation Acts, Middle Passage, Great Awakening, Stono Rebellion,
 Bacon's Rebellion, King Philip's War, triangular trade, chattel slavery
-
-
-```mermaid
-flowchart TD
-    A[1_Period 1 2] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

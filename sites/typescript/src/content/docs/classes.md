@@ -46,8 +46,8 @@ class Point {
 }
 ```
 
-Under `strictPropertyInitialization`The compiler verifies that all declared fields are assigned in
-The constructor or have a definite assignment assertion (`!`):
+Under `strictPropertyInitialization`. The compiler verifies that all declared fields are assigned in
+the constructor or have a definite assignment assertion (`!`):
 
 ```ts
 class Example {
@@ -72,13 +72,17 @@ Even though the constructor does not assign it.
 
 ### Access Modifiers
 
-TypeScript supports three access modifiers: `public``private`And `protected`.
+TypeScript supports three access modifiers: `public`, `private` and `protected`.
+
+<div class="table-wrap">
 
 | Modifier    | Accessibility                                            |
 | ----------- | -------------------------------------------------------- |
 | `public`    | Accessible from anywhere (default)                       |
 | `private`   | Accessible only within the declaring class               |
 | `protected` | Accessible within the declaring class and its subclasses |
+
+</div>
 
 ```ts
 class Account {
@@ -146,13 +150,13 @@ p.x = 3;
 ```
 
 `readonly` is shallow: it prevents reassignment of the field itself but does not prevent mutation of
-The field's value if it is an object.
+the field's value if it is an object.
 
 ## Parameter Properties
 
 TypeScript provides a shorthand for declaring and initialising fields in the constructor parameter
 List. A parameter prefixed with an access modifier is automatically declared as a field and assigned
-From the constructor argument.
+from the constructor argument.
 
 ```ts
 class Point {
@@ -183,7 +187,7 @@ class Point {
 }
 ```
 
-Parameter properties can use any combination of modifiers: `public``private``protected` `readonly`.
+Parameter properties can use any combination of modifiers: `public`, `private`, `protected` `readonly`.
 
 ## Abstract Classes and Abstract Methods
 
@@ -295,6 +299,8 @@ class UserFactory implements Deserializable<User> {
 
 ### Interface vs Abstract Class
 
+<div class="table-wrap">
+
 | Feature                 | Interface                                       | Abstract Class                             |
 | ----------------------- | ----------------------------------------------- | ------------------------------------------ |
 | Multiple implementation | A class can implement many interfaces           | A class can extend only one abstract class |
@@ -302,6 +308,8 @@ class UserFactory implements Deserializable<User> {
 | Constructor             | No constructor                                  | Can have a constructor                     |
 | Method implementations  | All methods are abstract (no body)              | Can mix abstract and concrete methods      |
 | Access modifiers        | No access modifiers on members                  | Supports `public``private``protected`      |
+
+</div>
 
 ## Static Members and Static Factory Patterns
 
@@ -432,7 +440,7 @@ const Bar = class {
 ```
 
 Class expressions are useful for one-off classes or when the class is used as a value (e.g., passed
-To a function):
+to a function):
 
 ```ts
 function createClass(methodBody: string) {
@@ -450,7 +458,7 @@ new Dynamic().execute();
 ## Mixins and Composition with Classes
 
 TypeScript does not have a native mixin keyword, but mixins can be implemented using a combination
-Of class expressions, intersection types, and generic factory functions.
+of class expressions, intersection types, and generic factory functions.
 
 ### Mixin Pattern
 
@@ -619,7 +627,7 @@ class Config {
 
 **Common Pitfall:** The `experimentalDecorators` flag and the TC39 Stage 3 proposal use different
 Decorator semantics. Code written for one will not work with the other. New projects should prefer
-The TC39 Stage 3 proposal (no `experimentalDecorators` flag needed in TS 5.0+).
+the TC39 Stage 3 proposal (no `experimentalDecorators` flag needed in TS 5.0+).
 
 ## Structural Typing and Nominal Typing for Classes
 
@@ -677,7 +685,7 @@ getUser(userId);
 getUser(orderId);
 ```
 
-The last call is a compile error because `OrderId` is not assignable to `UserId`Even though both Are
+The last call is a compile error because `OrderId` is not assignable to `UserId`. Even though both Are
 branded `string` types.
 
 ### Private Fields and Structural Typing
@@ -727,7 +735,7 @@ This is an error. `super()` must be called first.
 ### Pitfall 2: Structural Typing Surprises
 
 Because of structural typing, classes with the same public shape are interchangeable. This can lead
-To subtle bugs when the classes have different internal behaviour:
+to subtle bugs when the classes have different internal behaviour:
 
 ```ts
 class Celsius {
@@ -776,16 +784,6 @@ start(): void {
 }
 ```
 
-```mermaid
-flowchart TD
-    A[Classes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of classes, including underlying theory, practical
@@ -799,13 +797,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

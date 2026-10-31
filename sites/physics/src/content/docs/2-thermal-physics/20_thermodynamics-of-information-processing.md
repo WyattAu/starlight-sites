@@ -31,7 +31,7 @@ The gap between theory ($k_BT\ln 2 \approx 0.018$ eV at 300 K) and practice ($\s
 switch) spans 5--6 orders of magnitude. Closing this gap requires fundamentally different computing
 paradigms.
 
-### 20.2 Bennett"s Clock and Reversible Computing
+### 20.2 Bennett's Clock and Reversible Computing
 
 Bennett (1982) showed that a computer can be made logically reversible at every step if it never
 erases information. Such a computer dissipates energy only during the initialisation of bits and
@@ -41,7 +41,9 @@ A logically reversible computation can be embedded in a thermodynamically revers
 driving the system slowly enough that it remains near equilibrium at all times. The energy cost is
 then:
 
-$$E = \int_0^\tau \frac{\partial F}{\partial \lambda(t)}\,\dot{\lambda}(t)\,dt$$
+$$
+E = \int_0^\tau \frac{\partial F}{\partial \lambda(t)}\,\dot{\lambda}(t)\,dt
+$$
 
 For a quasi-static process: $E \to \Delta F$ (minimum possible).
 
@@ -53,13 +55,17 @@ restore the input tape.
 
 The Shannon entropy of a probability distribution $\{p_i\}$ over microstates is:
 
-$$H = -\sum_i p_i \log_2 p_i$$
+$$
+H = -\sum_i p_i \log_2 p_i
+$$
 
 Landauer's principle states that erasing one bit of information dissipates at least $k_B T \ln 2$ of heat. This follows from the second law: the entropy decrease of the information-bearing degrees of freedom must be compensated by an entropy increase in the environment.
 
 The fundamental equality for a quasi-static bit operation is:
 
-$$\Delta S_{\text{system}} + \Delta S_{\text{bath}} = 0 \quad \Longrightarrow \quad Q \geq k_B T \ln 2$$
+$$
+\Delta S_{\text{system}} + \Delta S_{\text{bath}} = 0 \quad \Longrightarrow \quad Q \geq k_B T \ln 2
+$$
 
 ### 20.4 Maxwell's Demon and Information-Entropy Relation
 
@@ -67,7 +73,9 @@ Maxwell's demon paradox is resolved by recognising that acquiring information ab
 
 The total entropy balance for a measurement-and-erasure cycle:
 
-$$\Delta S_{\text{gas}} + \Delta S_{\text{memory}} + \Delta S_{\text{bath}} \geq 0$$
+$$
+\Delta S_{\text{gas}} + \Delta S_{\text{memory}} + \Delta S_{\text{bath}} \geq 0
+$$
 
 The net effect is that the demon cannot violate the second law when the full information-processing cycle is accounted for.
 
@@ -81,15 +89,19 @@ Living systems process information at nonzero thermodynamic cost:
 
 ## Worked Example: Landauer Limit for a Flip-Flop
 
-**Problem.** A CMOS flip-flop operating at 3 GHz dissipates 10 $\mu$W. How many $k_B T$ per operation does this represent at 300 K? Compare with the Landauer limit.
+**Problem.** A CMOS flip-flop operating at 3 GHz dissipates 10 $\mu$ W. How many $k_B T$ per operation does this represent at 300 K? Compare with the Landauer limit.
 
 **Solution.** Energy per operation: $E = 10 \times 10^{-6} / (3 \times 10^9) = 3.33 \times 10^{-15}$ J.
 
-$$E / (k_B T) = 3.33 \times 10^{-15} / (1.38 \times 10^{-23} \times 300) = 3.33 \times 10^{-15} / 4.14 \times 10^{-21} = 8.05 \times 10^5\,k_B T$$
+$$
+E / (k_B T) = 3.33 \times 10^{-15} / (1.38 \times 10^{-23} \times 300) = 3.33 \times 10^{-15} / 4.14 \times 10^{-21} = 8.05 \times 10^5\,k_B T
+$$
 
 The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim 10^6$ times above the fundamental limit, illustrating the vast gap between current technology and thermodynamic perfection. $\blacksquare$
 
 ### Key Relationships
+
+<div class="table-wrap">
 
 | Concept | Formula | Significance |
 | --------- | --------- | -------------- |
@@ -98,6 +110,8 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 | Free energy change | $\Delta F = \Delta U - T\Delta S$ | Reversible work available |
 | Second law with info | $\Delta S_{\text{univ}} = \Delta S_{\text{sys}} + \Delta S_{\text{bath}} - \Delta I \geq 0$ | Information as negative entropy |
 | Bennett's reversible computing | $W_{\text{rev}} = \Delta F$ | No energy dissipated per logical step |
+
+</div>
 
 ### Common Pitfalls
 
@@ -108,6 +122,8 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 
 ### Summary Table
 
+<div class="table-wrap">
+
 | Process | Information Change | Minimum Heat Dissipation |
 | --------- | ------------------- | ------------------------- |
 | Bit erasure (reset) | $1$ bit $\to$ $0$ (known) | $k_B T \ln 2$ |
@@ -115,6 +131,8 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 | Measurement | Unknown $\to$ known | $\geq k_B T \ln 2$ (for resetting meter) |
 | Logical AND (irreversible) | $2$ bits $\to$ $1$ bit | $k_B T \ln 2$ |
 | Reversible gate (CNOT, Toffoli) | $n$ bits $\to$ $n$ bits | $0$ (in principle) |
+
+</div>
 
 ### Connections to Other Topics
 
@@ -129,23 +147,16 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 
 **Solution.** Erasing 64 bits requires at minimum $64 \, k_B T \ln 2$:
 
-$$Q_{\min} = 64 \times 1.38 \times 10^{-23} \times 300 \times \ln 2$$
-$$= 64 \times 4.14 \times 10^{-21} \times 0.693 = 64 \times 2.87 \times 10^{-21} = 1.84 \times 10^{-19} \text{ J}$$
+$$
+Q_{\min} = 64 \times 1.38 \times 10^{-23} \times 300 \times \ln 2
+$$
+$$
+= 64 \times 4.14 \times 10^{-21} \times 0.693 = 64 \times 2.87 \times 10^{-21} = 1.84 \times 10^{-19} \text{ J}
+$$
 
 Per bit: $2.87 \times 10^{-21}$ J = $2.87$ zJ. DRAM capacitors use $\sim 4$ fJ/bit = $4 \times 10^{-15}$ J/bit, about $1.4 \times 10^6$ times above the Landauer limit.
 
 This enormous gap demonstrates that current computing is limited not by thermodynamics but by engineering constraints (capacitive charging, leakage, noise margins). $\blacksquare$
-
-
-```mermaid
-flowchart TD
-    A[20_Thermodynamics Of Information Processing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -153,15 +164,19 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site       | Link                                                                                                       |
 | ----------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Thermal Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/thermal-physics/01-thermal-properties) |
-| [Thermal Physics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/2-particulate-nature-of-matter/1_thermodynamics)             |
-| [Thermal Physics] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/4-thermal-physics/1_heat-and-gases)                        |
+| [Thermal Physics] | IB         | [View](https://ib.wyattau.com/physics/2-particulate-nature-of-matter/1_thermodynamics/)             |
+| [Thermal Physics] | DSE        | [View](https://dse.wyattau.com/physics/4-thermal-physics/1_heat-and-gases/)                        |
 | [Thermal Physics] | University | [View](https://physics.wyattau.com/)                    |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -171,23 +186,3 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 - [The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/)
 - [Phase Transitions](/2-thermal-physics/10_phase-transitions/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

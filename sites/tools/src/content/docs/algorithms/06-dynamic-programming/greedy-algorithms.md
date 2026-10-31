@@ -23,6 +23,8 @@ Subproblems, they commit to a choice and never reconsider.
 
 ### When to Consider Greedy
 
+<div class="table-wrap">
+
 | Signal                                                         | Try Greedy First? |
 | -------------------------------------------------------------- | ----------------- |
 | Problem has a matroid structure                                | Yes               |
@@ -33,6 +35,8 @@ Subproblems, they commit to a choice and never reconsider.
 | 0/1 knapsack, partition, edit distance                         | No (use DP)       |
 | TSP                                                            | No (NP-hard)      |
 | Problem requires "try all possibilities" to verify correctness | Probably No       |
+
+</div>
 
 ## The Exchange Argument
 
@@ -51,8 +55,8 @@ Optimal solution with the greedy choice without making the solution worse.
 
 ### Example: Activity Selection
 
-Given $n$ activities with start times $s_i$ and finish times $f_i$Select the maximum number of
-Non-overlapping activities.
+Given $n$ activities with start times $s_i$ and finish times $f_i$ Select the maximum number of
+non-overlapping activities.
 
 **Greedy**: always pick the activity with the earliest finish time.
 
@@ -80,8 +84,8 @@ def activity_selection(activities):
 
 Let $G = \{g_1, g_2, \ldots\}$ be the greedy solution and $O = \{o_1, o_2, \ldots\}$ be an optimal
 Solution, both sorted by finish time. $g_1$ has the earliest finish time of all activities. Since
-$o_1$ also finishes before $o_2, o_3, \ldots$We have $f(g_1) \le f(o_1)$. Replacing $o_1$ with $g_1$
-in $O$ gives a valid solution (since $g_1$ finishes no later than $o_1$It does not overlap With
+$o_1$ also finishes before $o_2, o_3, \ldots$ We have $f(g_1) \le f(o_1)$. Replacing $o_1$ with $g_1$
+in $O$ gives a valid solution (since $g_1$ finishes no later than $o_1$ It does not overlap With
 $o_2$). The new solution has the same size as $O$ and starts with $g_1$. By induction, $|G| = |O|$.
 
 :::tip
@@ -161,9 +165,11 @@ def huffman(frequencies):
 
 ### Expected Code Length
 
-$$L = \sum_{i=1}^{n} f_i \cdot \mathrm{len(c_i)$$
+$$
+L = \sum_{i=1}^{n} f_i \cdot \mathrm{len(c_i)
+$$
 
-For a source with entropy $H = -\sum f_i \log_2 f_i$Huffman coding satisfies $H \le L \lt H + 1$
+For a source with entropy $H = -\sum f_i \log_2 f_i$ Huffman coding satisfies $H \le L \lt H + 1$
 (one bit per symbol worse than the theoretical minimum).
 
 ## Fractional Knapsack
@@ -199,7 +205,7 @@ def fractional_knapsack(weights, values, capacity):
 
 ### Why Greedy Fails for 0/1 Knapsack
 
-Consider items with (value, weight): `(60, 10)``(100, 20)``(120, 30)` with capacity 50.
+Consider items with (value, weight): `(60, 10)`, `(100, 20)`, `(120, 30)` with capacity 50.
 
 - Greedy by ratio: take item 1 (60/10 = 6), item 2 (100/20 = 5), item 3 (120/30 = 4). Total: 60 +
   100 = 160, weight 30. Cannot add item 3 (weight 30 > remaining 20).
@@ -318,7 +324,7 @@ def kruskal(n, edges):
 ### Prim's Algorithm
 
 Grow the MST from an arbitrary vertex, always adding the cheapest edge connecting the tree to a
-Non-tree vertex.
+non-tree vertex.
 
 ```python
 import heapq
@@ -389,7 +395,7 @@ Negative cycles.
 ## Matroid Theory
 
 A matroid is a combinatorial structure that captures the notion of "independence." Greedy algorithms
-Are optimal on matroids.
+are optimal on matroids.
 
 ### Definition
 
@@ -407,6 +413,8 @@ Independent) finds the maximum-weight independent set in any matroid.
 
 ### Examples of Matroids
 
+<div class="table-wrap">
+
 | Matroid             | Set $S$          | Independent Sets $\mathcal{I}$     | Greedy Problem     |
 | ------------------- | ---------------- | ---------------------------------- | ------------------ |
 | Graphic matroid     | Edges of a graph | Acyclic subsets (forests)          | MST (Kruskal)      |
@@ -414,6 +422,8 @@ Independent) finds the maximum-weight independent set in any matroid.
 | Linear matroid      | Vectors          | Linearly independent sets          | Max weight basis   |
 | Uniform matroid     | Elements         | Subsets of size $\le k$            | Top-k selection    |
 | Transversal matroid | Elements         | System of distinct representatives | Bipartite matching |
+
+</div>
 
 ```mermaid
 graph TD
@@ -427,7 +437,7 @@ graph TD
 
 The independent sets of the 0/1 knapsack (sets whose total weight does not exceed capacity) do not
 Satisfy the exchange property. Consider capacity 10, items of weights {6, 6, 5}. Sets {6} and {5}
-Are independent, but neither can be extended by the other to remain within capacity 10. This is why
+are independent, but neither can be extended by the other to remain within capacity 10. This is why
 Greedy fails for 0/1 knapsack.
 
 ## Job Scheduling
@@ -558,7 +568,7 @@ def dp_coin_change(amount, coins):
 
 ## Set Cover (Greedy Approximation)
 
-Given a universe $U$ and a collection of subsets $S_1, S_2, \ldots, S_m$Find the minimum number of
+Given a universe $U$ and a collection of subsets $S_1, S_2, \ldots, S_m$ Find the minimum number of
 Subsets whose union is $U$. This is NP-hard, but a greedy algorithm gives a
 $(\ln n + 1)$-approximation.
 

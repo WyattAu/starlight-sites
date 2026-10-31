@@ -465,6 +465,8 @@ int main() {
 
 ## 6.8 Comparison with `operator<<`
 
+<div class="table-wrap">
+
 | Aspect                | `operator<<`                    | `std::formatter`                                   |
 | :-------------------- | :------------------------------ | :------------------------------------------------- |
 | Defined in            | Global scope (free function)    | `namespace std` (specialization)                   |
@@ -477,6 +479,8 @@ int main() {
 | Output target         | `std::ostream` only             | Any output iterator (string, file, stdout, etc.)   |
 | Locale support        | Via `std::locale` imbued stream | Via `std::format` locale parameter                 |
 | Default formatting    | Required for many types         | Required only for `std::format` usage              |
+
+</div>
 
 ### When to Use Which
 
@@ -550,21 +554,11 @@ std::formatter specialisation is like teaching std::format how to print your cus
   format string parsing errors.
 - **Throwing from `parse` for valid specifiers.** Only throw `std::format_error` for genuinely
   invalid specifiers. Valid specifiers should be consumed silently.
-- **Not handling empty format specifiers.** When the format string is `{:}`The `parse` function is
+- **Not handling empty format specifiers.** When the format string is `{:}`. The `parse` function is
   called with `ctx.begin() == ctx.end()` (before the `}`). Always handle this case.
 - **Format specifiers in `std::formatter` for `std::optional`.** C++23 provides a built-in formatter
   for `std::optional<T>` that delegates to `T`'s formatter. Do not specialize `std::formatter` for
   `std::optional` yourself unless you have a specific reason.
-
-```mermaid
-flowchart TD
-    A[6_Std_Formatter] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -579,10 +573,5 @@ std::formatter, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

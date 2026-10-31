@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "IB Biology -- Diagnostic Guide"
 description: "Study notes for IB Biology -- Diagnostic Guide with worked examples and practice questions."
@@ -21,6 +20,8 @@ tableOfContents: false
 
 ## Coverage Map
 
+<div class="table-wrap">
+
 | Diagnostic File             | Topics Covered                                                                           | Source Files                                 |
 | --------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------- |
 | `diag-cell-biology.md`      | Cell theory, prokaryotic vs eukaryotic, organelles, membrane transport, cell division    | `1-cell-biology/1_cell-biology.md`           |
@@ -29,6 +30,8 @@ tableOfContents: false
 | `diag-ecology.md`           | Energy flow, carbon/nitrogen cycles, population growth, biodiversity, conservation       | `4-ecology/1_ecology.md`                     |
 | `diag-human-physiology.md`  | Action potentials, synapses, hormones, kidney function, immune system, gas exchange      | `6-human-physiology/1_human-physiology.md`   |
 | `diag-plant-biology.md`     | Photosynthesis, transpiration, mineral transport, plant hormones, reproduction           | `7-plant-biology/1_plant-biology.md`         |
+
+</div>
 
 ## Grading Rubric
 
@@ -82,6 +85,8 @@ Human Physiology (largely independent)
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic               | Recommended Time | Notes                                       |
 | ------------------------ | ---------------- | ------------------------------------------- |
 | `diag-cell-biology`      | 35 minutes       | Detailed comparison tables take time        |
@@ -90,6 +95,8 @@ Human Physiology (largely independent)
 | `diag-ecology`           | 35 minutes       | Carbon cycle calculations have many steps   |
 | `diag-human-physiology`  | 45 minutes       | Gas exchange calculations are complex       |
 | `diag-plant-biology`     | 35 minutes       | Photosynthesis calculations are multi-step  |
+
+</div>
 
 **Total recommended time:** approximately 3.75 hours (spread across multiple sessions).
 
@@ -108,14 +115,7 @@ Human Physiology (largely independent)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -161,8 +161,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 

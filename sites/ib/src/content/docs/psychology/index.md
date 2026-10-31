@@ -201,12 +201,16 @@ The IB follows ethical guidelines that include:
 
 ## Exam Strategies
 
+<div class="table-wrap">
+
 | Question Type | Approach | Marks Allocation |
 |---------------|----------|------------------|
 | Multiple choice | Eliminate wrong answers, identify key terms | 1 mark per question |
 | Short answer | Use command term, provide specific evidence | 2-4 marks per question |
 | Essay | Plan before writing, use research to support points, evaluate strengths and limitations | Up to 22 marks per essay |
 | IA | Follow the assessment criteria exactly, use primary data, provide thorough analysis | 20% of total grade |
+
+</div>
 
 ### Essay Writing Structure
 

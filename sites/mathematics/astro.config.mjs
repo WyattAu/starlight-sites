@@ -44,37 +44,64 @@ export default defineConfig({
         {
           label: 'Abstract Algebra',
           items: [{ autogenerate: { directory: '1-abstract-algebra' } }],
+          collapsed: true,
         },
-        { label: 'Measure Theory', items: [{ autogenerate: { directory: '10-measure-theory' } }] },
+        {
+          label: 'Measure Theory',
+          items: [{ autogenerate: { directory: '10-measure-theory' } }],
+          collapsed: true,
+        },
         {
           label: 'Functional Analysis',
           items: [{ autogenerate: { directory: '11-functional-analysis' } }],
+          collapsed: true,
         },
         {
           label: 'Differential Geometry',
           items: [{ autogenerate: { directory: '12-differential-geometry' } }],
+          collapsed: true,
         },
-        { label: 'Linear Algebra', items: [{ autogenerate: { directory: '2-linear-algebra' } }] },
-        { label: 'Real Analysis', items: [{ autogenerate: { directory: '3-real-analysis' } }] },
+        {
+          label: 'Linear Algebra',
+          items: [{ autogenerate: { directory: '2-linear-algebra' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Real Analysis',
+          items: [{ autogenerate: { directory: '3-real-analysis' } }],
+          collapsed: true,
+        },
         {
           label: 'Multivariable Calculus',
           items: [{ autogenerate: { directory: '4-multivariable-calculus' } }],
+          collapsed: true,
         },
         {
           label: 'Ordinary Differential Equations',
           items: [{ autogenerate: { directory: '5-ordinary-differential-equations' } }],
+          collapsed: true,
         },
         {
           label: 'Complex Analysis',
           items: [{ autogenerate: { directory: '6-complex-analysis' } }],
+          collapsed: true,
         },
-        { label: 'Number Theory', items: [{ autogenerate: { directory: '7-number-theory' } }] },
+        {
+          label: 'Number Theory',
+          items: [{ autogenerate: { directory: '7-number-theory' } }],
+          collapsed: true,
+        },
         {
           label: 'Probability And Statistics',
           items: [{ autogenerate: { directory: '8-probability-and-statistics' } }],
+          collapsed: true,
         },
-        { label: 'Topology', items: [{ autogenerate: { directory: '9-topology' } }] },
-        { label: 'Demos', items: [{ autogenerate: { directory: 'demos' } }] },
+        {
+          label: 'Topology',
+          items: [{ autogenerate: { directory: '9-topology' } }],
+          collapsed: true,
+        },
+        { label: 'Demos', items: [{ autogenerate: { directory: 'demos' } }], collapsed: true },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -108,9 +135,7 @@ export default defineConfig({
           tag: 'link',
           attrs: {
             rel: 'stylesheet',
-            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css',
-            integrity: 'sha384-irXK0JiCGinqGL+slwVklbhJetrjczNwaP2lANewD8lKAs9n61SbQ3As28iSqXUE',
-            crossorigin: 'anonymous',
+            href: '/katex/katex.min.css',
           },
         },
         {
@@ -120,8 +145,6 @@ export default defineConfig({
             content: 'https://mathematics.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },
@@ -152,6 +175,29 @@ export default defineConfig({
     sitemap(),
     compress(),
   ],
+
+  // The nine course files that used to sit at the docs root were split into the
+  // numbered tracks years ago, and every track is now the fuller version of the
+  // course it came from. The root copies were left behind and had drifted into
+  // a second, thinner presentation of material the tracks already teach, so a
+  // reader who landed on one got the worse account of the same subject.
+  //
+  // They are removed, and these redirects keep every existing reference working
+  // -- the ~64 internal links to these routes, the cross-site references from
+  // the other 44 sites, and any URL a reader bookmarked or a search engine
+  // indexed. Without them, deleting the files would turn 64 working links into
+  // 404s across the whole network.
+  redirects: {
+    '/complex-analysis': '/6-complex-analysis',
+    '/abstract-algebra': '/1-abstract-algebra',
+    '/linear-algebra': '/2-linear-algebra',
+    '/real-analysis': '/3-real-analysis',
+    '/multivariable-calculus': '/4-multivariable-calculus',
+    '/differential-equations': '/5-ordinary-differential-equations',
+    '/number-theory': '/7-number-theory',
+    '/probability': '/8-probability-and-statistics',
+    '/probability-and-statistics': '/8-probability-and-statistics',
+  },
   vite: {
     plugins: [tailwindcss()],
     resolve: {

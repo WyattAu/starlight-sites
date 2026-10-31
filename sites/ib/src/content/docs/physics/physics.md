@@ -19,7 +19,7 @@ description: "This section contains notes and study materials for IB Physics, ba
 IB Physics is structured like a building with five floors, each floor depending on the one below. Theme A (mechanics) is the foundation: if you do not understand forces and energy, the upper floors will wobble. Theme B explores what matter is made of at the molecular level, revealing that temperature is just atoms jiggling. Theme C shows that waves are disturbances that carry energy without carrying matter, like a Mexican wave in a stadium. Theme D introduces fields, which are nature's way of exerting force at a distance. Theme E pushes into the quantum world, where particles behave like waves and certainty dissolves into probability.
 
 This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The
-Course is available at both Standard Level (SL) and Higher Level (HL), with HL students covering
+course is available at both Standard Level (SL) and Higher Level (HL), with HL students covering
 Additional material in greater depth.
 
 ---
@@ -37,8 +37,10 @@ Additional material in greater depth.
 
 The syllabus is organised into five thematic areas, labelled A through E. Each theme contains core
 Material studied at both SL and HL, with additional AHL (Additional Higher Level) extension content
-For HL students. The course also includes a practical programme culminating in the Internal
+for HL students. The course also includes a practical programme culminating in the Internal
 Assessment (IA).
+
+<div class="table-wrap">
 
 | Theme | Title                            | SL Sub-topics | AHL Sub-topics |
 | :---- | :------------------------------- | :------------ | :------------- |
@@ -47,6 +49,8 @@ Assessment (IA).
 | C     | Wave Behaviour                   | C.1--C.4      | C.5            |
 | D     | Fields                           | D.1--D.4      | D.5            |
 | E     | Nuclear and Quantum Physics      | E.1--E.2      | E.3--E.4       |
+
+</div>
 
 ---
 
@@ -69,7 +73,7 @@ Depends.
 
 - **A.1 Kinematics:** Describing motion using displacement, velocity, and acceleration; the SUVAT
   equations for uniformly accelerated motion; projectile motion.
-- **A.2 Forces and Momentum:** Newton"s laws of motion; free-body diagrams; linear momentum and
+- **A.2 Forces and Momentum:** Newton's laws of motion; free-body diagrams; linear momentum and
   impulse; conservation of momentum; elastic and inelastic collisions; centripetal acceleration and
   force.
 - **A.3 Work, Energy and Power:** Work done by a force; kinetic and potential energy; conservation
@@ -87,8 +91,8 @@ Depends.
 ### Worked Example: Projectile Motion (A.1)
 
 A ball is thrown from the edge of a cliff 45.0 m high with an initial velocity of 25.0 m/s at an
-Angle of 35.0 degrees above the horizontal. Find: (a) the time it takes to hit the ground, (b) the
-Horizontal range, and (c) the speed of the ball just before impact.
+angle of 35.0 degrees above the horizontal. Find: (a) the time it takes to hit the ground, (b) the
+horizontal range, and (c) the speed of the ball just before impact.
 
 <details>
 <summary>Solution</summary>
@@ -146,7 +150,7 @@ The tension provides the centripetal force:
 - **Period:** $T = \dfrac{2\pi r}{v} = \dfrac{2\pi(0.80)}{4.0} = 1.26$ s
 
 Note: In a true horizontal circle, gravity would cause the string to angle downward. This
-Calculation assumes the circular path is horizontal and gravity is balanced by another force.
+calculation assumes the circular path is horizontal and gravity is balanced by another force.
 
 </details>
 
@@ -171,7 +175,7 @@ The remaining 35% of the input power is wasted as heat and sound.
 ### Worked Example: Conservation of Energy (A.3)
 
 A 2.00 kg block is released from rest at the top of a smooth curved ramp of height 3.50 m. At the
-Bottom it slides across a rough horizontal surface ($\mu_k = 0.30$) before hitting a spring with
+bottom it slides across a rough horizontal surface ($\mu_k = 0.30$) before hitting a spring with
 spring Constant $k = 500$ N/m. Find the maximum compression of the spring.
 
 <details>
@@ -198,7 +202,7 @@ spring Constant $k = 500$ N/m. Find the maximum compression of the spring.
 
 A spacecraft travels at $0.85c$ relative to Earth. A clock on the spacecraft measures a time
 Interval of $2.0 \times 10^6$ s between two events. What time interval is measured by an observer on
-Earth?
+earth?
 
 <details>
 <summary>Solution</summary>
@@ -227,7 +231,7 @@ The Earth observer measures a longer time interval of $3.8 \times 10^6$ s.
 ## Theme B: The Particulate Nature of Matter
 
 This theme examines matter at the microscopic scale, covering thermal physics, the behaviour of
-Gases, and the structure of matter.
+gases, and the structure of matter.
 
 **SL content includes:**
 
@@ -293,7 +297,7 @@ $R = 8.31$ J/(mol K) and the molar mass of the gas as $0.0290$ kg/mol.
 ### Worked Example: Isothermal Compression (B.3)
 
 A cylinder contains $0.20$ mol of an ideal gas at $300$ K and $1.5 \times 10^5$ Pa. The gas is
-Compressed isothermally to half its original volume. Calculate the final pressure and the work Done
+compressed isothermally to half its original volume. Calculate the final pressure and the work Done
 on the gas.
 
 <details>
@@ -315,9 +319,9 @@ The work done **on** the gas is $345$ J (positive, since volume decreases).
 ### Worked Example: Series and Parallel Circuits (B.4)
 
 A 12.0 V battery with negligible internal resistance is connected to two resistors: $R_1 = 4.0$ ohms
-In series with a parallel combination of $R_2 = 6.0$ ohms and $R_3 = 3.0$ ohms. Find (a) the total
+in series with a parallel combination of $R_2 = 6.0$ ohms and $R_3 = 3.0$ ohms. Find (a) the total
 Resistance, (b) the current from the battery, (c) the potential difference across $R_1$ And (d) the
-Current through $R_2$.
+current through $R_2$.
 
 <details>
 <summary>Solution</summary>
@@ -403,7 +407,7 @@ maximum to The third bright fringe.
 - $s = \dfrac{(590 \times 10^{-9})(1.20)}{0.050 \times 10^{-3}} = \dfrac{7.08 \times 10^{-7}}{5.0 \times 10^{-5}} = 0.01416$
   m $\approx 14.2$ mm
 - **(b) Distance to the third bright fringe:**
-- The $n$Th bright fringe is at $y_n = ns$ So $y_3 = 3 \times 14.2 = 42.6$ mm
+- The $n$ Th bright fringe is at $y_n = ns$ So $y_3 = 3 \times 14.2 = 42.6$ mm
 
 </details>
 
@@ -426,7 +430,7 @@ A light ray travels from glass ($n = 1.50$) into water ($n = 1.33$). (a) Find th
 - $\sin \theta_2 = \dfrac{1.229}{1.33} = 0.924$
 - $\theta_2 = \arcsin(0.924) = 67.5$ degrees
 
-Since $\theta_i \lt \theta_c$The light refracts into the water rather than undergoing TIR.
+Since $\theta_i \lt \theta_c$ The light refracts into the water rather than undergoing TIR.
 
 </details>
 
@@ -452,7 +456,7 @@ Acceleration of the mass.
 ### Worked Example: Simple Pendulum (C.1)
 
 A simple pendulum has a length of $1.50$ m. Calculate its period on Earth ($g = 9.81$ m/s$^2$) and
-On the Moon ($g = 1.62$ m/s$^2$). If the pendulum has an amplitude of $0.10$ m, what is the maximum
+on the Moon ($g = 1.62$ m/s$^2$). If the pendulum has an amplitude of $0.10$ m, what is the maximum
 Speed on Earth?
 
 <details>
@@ -472,8 +476,8 @@ The period of a simple pendulum is independent of mass -- a key result to rememb
 ### Worked Example: Standing Waves in Pipes (C.5, HL)
 
 A pipe of length $0.85$ m is open at both ends. The speed of sound in air is $340$ m/s. Determine
-The fundamental frequency and the frequency of the second harmonic. Repeat for a pipe of the same
-Length that is closed at one end.
+the fundamental frequency and the frequency of the second harmonic. Repeat for a pipe of the same
+length that is closed at one end.
 
 <details>
 <summary>Solution</summary>
@@ -529,7 +533,7 @@ Number of bright fringes visible on each side of the central maximum.
 ## Theme D: Fields
 
 This theme covers gravitational, electric, and magnetic fields, and the electromagnetic interactions
-Between charged particles and masses.
+between charged particles and masses.
 
 **SL content includes:**
 
@@ -572,7 +576,7 @@ $G = 6.67 \times 10^{-11}$ N m$^2$/kg$^2$.
 ### Worked Example: Orbital Speed and Period (D.1)
 
 A $500$ kg satellite orbits Earth at an altitude of $300$ km. Calculate the orbital speed and the
-Orbital period.
+orbital period.
 
 <details>
 <summary>Solution</summary>
@@ -590,7 +594,7 @@ Orbital period.
 ### Worked Example: Electric Field and Potential (D.2)
 
 Two point charges, $q_1 = +3.0$ nC and $q_2 = -5.0$ nC, are separated by $0.20$ m. Determine the
-Electric field strength and the electric potential at the midpoint between the charges.
+electric field strength and the electric potential at the midpoint between the charges.
 
 <details>
 <summary>Solution</summary>
@@ -626,7 +630,7 @@ Calculate the magnitude of the magnetic force and the radius of the circular pat
 - **Radius of circular path:** Equate magnetic force to centripetal force:
 - $qvB = \dfrac{mv^2}{r} \implies r = \dfrac{mv}{qB}$
 - $r = \dfrac{(9.11 \times 10^{-31})(2.0 \times 10^6)}{(1.60 \times 10^{-19})(0.50)}$
-- $r = \dfrac{1.82 \times 10^{-24}}{8.0 \times 10^{-20}} = 2.28 \times 10^{-5}$ m $= 22.8$ $\mu$M
+- $r = \dfrac{1.82 \times 10^{-24}}{8.0 \times 10^{-20}} = 2.28 \times 10^{-5}$ m $= 22.8$ $\mu$ M
 
 </details>
 
@@ -651,7 +655,7 @@ magnitude Of the induced emf.
 ### Worked Example: Gravitational Potential and Escape Speed (D.1, HL)
 
 Calculate the gravitational potential at a point $3.0 \times 10^7$ m from the centre of the Earth
-And the escape speed from this altitude. ($M_E = 5.97 \times 10^{24}$ kg.)
+and the escape speed from this altitude. ($M_E = 5.97 \times 10^{24}$ kg.)
 
 <details>
 <summary>Solution</summary>
@@ -732,7 +736,7 @@ eV. Use $h = 6.63 \times 10^{-34}$ J s, $c = 3.00 \times 10^8$ m/s, $e = 1.60 \t
 ### Worked Example: Radioactive Half-Life (E.3)
 
 A sample of iodine-131 has an initial activity of $6400$ Bq. The half-life of iodine-131 is $8.04$
-Days. Calculate (a) the activity after $32.2$ days, and (b) the time for the activity to fall to
+days. Calculate (a) the activity after $32.2$ days, and (b) the time for the activity to fall to
 $200$ Bq.
 
 <details>
@@ -777,7 +781,7 @@ This is a typical energy release per fission event of uranium-235.
 
 An electron is accelerated from rest through a potential difference of $500$ V. Calculate the final
 Speed of the electron and the electric field strength if the acceleration takes place over a
-Distance of $0.050$ m.
+distance of $0.050$ m.
 
 <details>
 <summary>Solution</summary>
@@ -830,12 +834,16 @@ The key differences between SL and HL are:
 
 ## Assessment Overview
 
+<div class="table-wrap">
+
 | Component   | Description                                                                                                                                       | Weighting          |
 | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------- |
 | **Paper 1** | Multiple-choice questions (MCQ) covering the full syllabus. Duration: 45 min (SL), 1h (HL).                                                       | 30% (SL), 20% (HL) |
 | **Paper 2** | Structured and extended-response questions covering the full syllabus. Data-based questions are included. Duration: 1h 15min (SL), 2h 15min (HL). | 50% (SL), 36% (HL) |
 | **Paper 3** | HL only. Data-based and extended-response questions on AHL content. Duration: 1h.                                                                 | 24% (HL)           |
 | **IA**      | Internal Assessment -- an individual investigation of a physics topic, with a report of up to 3,000 words.                                        | 20% (SL), 20% (HL) |
+
+</div>
 
 ---
 
@@ -853,7 +861,7 @@ The key differences between SL and HL are:
 ### Most-Tested Topics (by Exam Frequency)
 
 Based on analysis of past IB Physics examinations, the following topics appear most frequently and
-Carry significant marks:
+carry significant marks:
 
 1. **Mechanics (A.1--A.3):** Projectile motion, conservation of energy, momentum collisions,
    circular motion. Expect at least one major question in Paper 2.
@@ -868,11 +876,15 @@ Carry significant marks:
 
 ### Topic Weighting by Paper
 
+<div class="table-wrap">
+
 | Paper        | Focus                     | Typical Question Style                                             |
 | :----------- | :------------------------ | :----------------------------------------------------------------- |
 | Paper 1      | Breadth across all themes | Quick MCQ, ~1--2 min each, many formula-recall questions           |
 | Paper 2      | Depth on core + AHL       | Multi-part structured questions, data analysis, 10--20 marks each  |
 | Paper 3 (HL) | AHL content only          | Data-based question + extended response on D.5, E.3, E.4, B.5, B.7 |
+
+</div>
 
 ---
 
@@ -890,7 +902,7 @@ Carry significant marks:
 ### Spaced Revision Approach
 
 A proven approach for IB Physics revision is to cycle through topics in increasing depth over
-Several weeks:
+several weeks:
 
 1. **Weeks 1--4 (Foundation):** Read through all topic notes. Create a one-page formula summary per
    theme. Focus on understanding concepts, not memorising.
@@ -905,6 +917,8 @@ Several weeks:
 
 IB Physics exams use specific command terms that indicate the expected depth of response:
 
+<div class="table-wrap">
+
 | Command Term  | What it Means                                                   |
 | :------------ | :-------------------------------------------------------------- |
 | **Define**    | Give the precise meaning of a term                              |
@@ -917,6 +931,8 @@ IB Physics exams use specific command terms that indicate the expected depth of 
 | **Justify**   | Give valid reasons or evidence to support an answer             |
 | **Sketch**    | Draw approximately, showing key features (not to scale)         |
 | **State**     | Give a specific name, value, or brief answer                    |
+
+</div>
 
 > **Exam Tip:** An "Explain" question requires a chain of reasoning with 2--3 linked statements. An
 > answer that just states a formula will not earn full marks for "Explain."
@@ -951,11 +967,15 @@ Calculator is essential.
 
 ### Recommended Calculators
 
+<div class="table-wrap">
+
 | Calculator                               | Notes                                      |
 | :--------------------------------------- | :----------------------------------------- |
 | Texas Instruments TI-84 Plus CE          | Most popular; widely supported             |
 | Texas Instruments TI-Nspire CX (non-CAS) | More powerful; excellent for data analysis |
 | Casio fx-CG50                            | Good alternative; colour display           |
+
+</div>
 
 **Note:** CAS (Computer Algebra System) calculators are **not permitted** in IB exams. Ensure your
 Calculator mode is correct.
@@ -1007,11 +1027,15 @@ This avoids transcription errors and preserves precision.
 
 ### Paper 1: Multiple Choice
 
+<div class="table-wrap">
+
 |                   | SL     | HL     |
 | :---------------- | :----- | :----- |
 | Duration          | 45 min | 60 min |
 | Marks             | 30     | 40     |
 | Time per question | ~90 s  | ~90 s  |
+
+</div>
 
 **Strategy:**
 
@@ -1023,11 +1047,15 @@ This avoids transcription errors and preserves precision.
 
 ### Paper 2: Structured and Extended Response
 
+<div class="table-wrap">
+
 |           | SL                                         | HL                                          |
 | :-------- | :----------------------------------------- | :------------------------------------------ |
 | Duration  | 1h 15min                                   | 2h 15min                                    |
 | Section A | Data-based question + short response       | Data-based question + short response        |
 | Section B | One extended response (from choice of two) | Two extended response (from choice of four) |
+
+</div>
 
 **Time management:**
 
@@ -1038,11 +1066,15 @@ This avoids transcription errors and preserves precision.
 
 ### Paper 3 (HL Only)
 
+<div class="table-wrap">
+
 |           | HL                                                    |
 | :-------- | :---------------------------------------------------- |
 | Duration  | 1h                                                    |
 | Section A | Data-based question on AHL content (practical skills) |
 | Section B | Extended response from AHL topics                     |
+
+</div>
 
 **Strategy:**
 
@@ -1083,19 +1115,27 @@ This avoids transcription errors and preserves precision.
 
 ### Official IB Resources
 
+<div class="table-wrap">
+
 | Resource                    | Description                                                                                    |
 | :-------------------------- | :--------------------------------------------------------------------------------------------- |
 | **IB Physics Data Booklet** | Contains all formulas, constants, and tables. You must be thoroughly familiar with its layout. |
 | **IB Subject Guide (2025)** | The official syllabus document with aims, assessment objectives, and the full topic list.      |
 | **Past Papers**             | Available from your teacher or the IB store. The single best preparation resource.             |
 
+</div>
+
 ### Textbooks
+
+<div class="table-wrap">
 
 | Textbook                                        | Level   | Notes                                                             |
 | :---------------------------------------------- | :------ | :---------------------------------------------------------------- |
 | _Physics for the IB Diploma_ (K. A. Tsokos)     | SL + HL | Comprehensive, well-explained theory with worked examples         |
 | _IB Physics Course Book_ (Oxford, 2025 edition) | SL + HL | Aligned with the new syllabus; strong on conceptual understanding |
 | _Pearson Baccalaureate Physics_                 | SL + HL | Good practice questions and exam-style problems                   |
+
+</div>
 
 ### Online Resources
 
@@ -1172,7 +1212,7 @@ The physics data booklet is your most important tool in the exam. To use it effe
 - $s = 15.0 - 44.1 = -29.1$ m (29.1 m below release point)
 
 If you get this wrong, revise: Kinematics -- SUVAT equations and sign conventions for
-Upward/downward motion (Theme A.1).
+upward/downward motion (Theme A.1).
 
 </details>
 
@@ -1288,7 +1328,7 @@ If you get this wrong, revise: Internal resistance and terminal PD (Theme B.4).
 
 ### Fields
 
-1. Two point charges, $q_1 = +3.0$ $\mu$C and $q_2 = -5.0$ $\mu$C, are placed $0.20$ m apart in
+1. Two point charges, $q_1 = +3.0$ $\mu$ C and $q_2 = -5.0$ $\mu$ C, are placed $0.20$ m apart in
    vacuum. Calculate the force between them and state its nature.
 
 <details>
@@ -1465,7 +1505,7 @@ If you get this wrong, revise: First law of thermodynamics and thermodynamic pro
 - **Snell's law and TIR:** Total internal reflection can only occur when light travels from a
   higher-index medium to a lower-index medium. Always check this condition first.
 - **Diffraction grating maximum order:** The maximum number of orders is limited by
-  $\sin \theta \leq 1$Giving $n_{\max} = d/\lambda$. If this is not an integer, round down.
+  $\sin \theta \leq 1$ Giving $n_{\max} = d/\lambda$. If this is not an integer, round down.
 - **Single-slit vs double-slit:** Single-slit diffraction produces a broad central maximum with
   subsidiary maxima; double-slit interference produces equally spaced fringes modulated by the
   single-slit envelope. Do not confuse the two patterns.
@@ -1488,14 +1528,14 @@ If you get this wrong, revise: First law of thermodynamics and thermodynamic pro
 
 ### Nuclear and Quantum Physics (Theme E)
 
-- **Photoelectric effect threshold:** No electrons are emitted if $hf \lt \phi$Regardless of
+- **Photoelectric effect threshold:** No electrons are emitted if $hf \lt \phi$ Regardless of
   intensity. Increasing intensity only increases the number of photons, not their energy.
 - **Mass defect sign:** The mass defect $\Delta m$ is always positive (mass of nucleus is always
   less than the sum of nucleon masses). Do not report a negative mass defect.
 - **Binding energy per nucleon curve:** The most stable nuclei (like iron-56) are near the peak.
   Fusion is energetically favourable for light nuclei; fission is favourable for heavy nuclei.
 - **Half-life calculations:** Remember that after $n$ half-lives, the fraction remaining is
-  $(1/2)^n$Not $1/(2n)$. This is a very common arithmetic error.
+  $(1/2)^n$ Not $1/(2n)$. This is a very common arithmetic error.
 - **de Broglie wavelength for massive particles:** The de Broglie equation applies to all matter,
   not just electrons. However, the wavelength is only significant for particles with very small mass
   (electrons, neutrons) -- for macroscopic objects it is negligibly small.
@@ -1533,17 +1573,6 @@ If you get this wrong, revise: First law of thermodynamics and thermodynamic pro
 - For HL students, pay extra attention to the AHL worked examples (marked with "HL" in the title) as
   these topics appear in Paper 3 and carry significant marks.
 
-
-```mermaid
-flowchart TD
-    A[Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the fundamental principles of physics, including the key equations, experimental
@@ -1562,9 +1591,6 @@ A strong understanding of these principles, combined with regular practice of qu
 and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

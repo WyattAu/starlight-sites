@@ -18,9 +18,11 @@ description: "PostgreSQL uses a multi-level locking system that operates at diff
 ## Lock Types Overview
 
 PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding
-Each lock type is essential for diagnosing performance issues and preventing deadlocks.
+each lock type is essential for diagnosing performance issues and preventing deadlocks.
 
 ### Lock Granularity
+
+<div class="table-wrap">
 
 | Level    | Scope               | Overhead | Concurrency | Example                                    |
 | -------- | ------------------- | -------- | ----------- | ------------------------------------------ |
@@ -28,6 +30,8 @@ Each lock type is essential for diagnosing performance issues and preventing dea
 | Page     | 8KB page            | Medium   | Medium      | Internal page locks during heap operations |
 | Table    | Entire relation     | Low      | Lowest      | `LOCK TABLE`DDL operations                 |
 | Advisory | Application-defined | None     | N/A         | `pg_advisory_lock()`                       |
+
+</div>
 
 PostgreSQL does not use page-level locks for user-visible operations. Page-level locks are only used
 Internally during heap operations and are held for very short durations. Users interact with
@@ -37,6 +41,8 @@ Row-level and table-level locks.
 
 PostgreSQL defines eight table-level lock modes. Each SQL command acquires specific locks
 Automatically.
+
+<div class="table-wrap">
 
 | Lock Mode              | Acquired By                                                  | Conflicts With                                                                                 |
 | ---------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
@@ -49,7 +55,11 @@ Automatically.
 | EXCLUSIVE              | `REFRESH MATERIALIZED VIEW` (non-concurrent)                 | ROW SHARE, ROW EXCLUSIVE, SHARE, SHARE ROW EXCLUSIVE, EXCLUSIVE, ACCESS EXCLUSIVE              |
 | ACCESS EXCLUSIVE       | `DROP TABLE``TRUNCATE``ALTER TABLE``VACUUM FULL``LOCK TABLE` | All lock modes                                                                                 |
 
+</div>
+
 ### Lock Compatibility Matrix
+
+<div class="table-wrap">
 
 | Request \ Held         | AS  | RS  | RX  | SRE | S   | SRE2 | X   | AE  |
 | ---------------------- | --- | --- | --- | --- | --- | ---- | --- | --- |
@@ -62,14 +72,16 @@ Automatically.
 | EXCLUSIVE              | Y   | N   | N   | N   | N   | N    | N   | N   |
 | ACCESS EXCL            | N   | N   | N   | N   | N   | N    | N   | N   |
 
+</div>
+
 ## Row-Level Locks
 
 Row-level locks are more granular than table-level locks. They block modifications to specific rows
-But allow concurrent access to other rows in the same table.
+but allow concurrent access to other rows in the same table.
 
 ### Implicit Row Locks
 
-Every `UPDATE``DELETE`Or `SELECT FOR UPDATE/SHARE` acquires a row-level lock. These are Implemented
+Every `UPDATE`, `DELETE` or `SELECT FOR UPDATE/SHARE` acquires a row-level lock. These are Implemented
 as transaction-level locks -- they are held until the transaction commits or rolls back.
 
 ```sql
@@ -121,12 +133,16 @@ SELECT * FROM products WHERE product_id = 42 FOR NO KEY UPDATE;
 SELECT * FROM products WHERE product_id = 42 FOR KEY SHARE;
 ```
 
+<div class="table-wrap">
+
 | Lock Mode           | Blocks `FOR UPDATE` | Blocks `FOR NO KEY UPDATE` | Blocks `FOR SHARE` | Blocks `FOR KEY SHARE` |
 | ------------------- | ------------------- | -------------------------- | ------------------ | ---------------------- |
 | `FOR UPDATE`        | Yes                 | Yes                        | Yes                | Yes                    |
 | `FOR NO KEY UPDATE` | Yes                 | Yes                        | Yes                | No                     |
 | `FOR SHARE`         | Yes                 | Yes                        | Yes                | Yes                    |
 | `FOR KEY SHARE`     | Yes                 | No                         | Yes                | Yes                    |
+
+</div>
 
 ## Explicit Table Locking
 
@@ -280,12 +296,16 @@ SELECT pg_advisory_xact_lock_shared(12345);
 
 ### Use Cases
 
+<div class="table-wrap">
+
 | Use Case                         | Advisory Lock Pattern                    | Notes                              |
 | -------------------------------- | ---------------------------------------- | ---------------------------------- |
 | Prevent concurrent job execution | `pg_advisory_lock(job_type_id)`          | Blocks until previous job finishes |
 | Distributed rate limiting        | `pg_advisory_lock(user_id)` with timeout | 1 lock per user                    |
 | Prevent duplicate inserts        | `pg_advisory_xact_lock(hash(data))`      | Auto-released on commit/rollback   |
 | Coordinate deployments           | `pg_advisory_lock(migration_id)`         | Only one migration runs at a time  |
+
+</div>
 
 :::note
 Advisory locks on the same bigint value from different sessions conflict, regardless of which
@@ -378,11 +398,15 @@ WHERE NOT blocked_locks.granted;
 
 Each row (tuple) in PostgreSQL has two hidden system columns:
 
+<div class="table-wrap">
+
 | Column | Meaning                                                          |
 | ------ | ---------------------------------------------------------------- |
 | `xmin` | Transaction ID that inserted this row version                    |
 | `xmax` | Transaction ID that deleted/updated this row (0 = still visible) |
 | `ctid` | Physical location (block number, offset within block)            |
+
+</div>
 
 Visibility for a transaction with snapshot `(xmin_snap, xmax_snap)`:
 
@@ -439,12 +463,16 @@ VACUUM FREEZE VERBOSE;
 
 On a streaming replica (hot standby), queries may conflict with replayed WAL records:
 
+<div class="table-wrap">
+
 | Conflict Type       | What Happens                                        |
 | ------------------- | --------------------------------------------------- |
 | AccessExclusiveLock | Replica query blocked by DDL replay                 |
 | TableLock           | Replica query blocked by table lock replay          |
 | SnapshotConflict    | Replica query needs rows being vacuumed on primary  |
 | BufferPin           | Replica holds a buffer pin on a page being replayed |
+
+</div>
 
 ```sql
 -- On the replica: view replication conflicts
@@ -496,18 +524,22 @@ ALTER DATABASE mydb SET statement_timeout = '30s';
 SET LOCAL statement_timeout = '0';  -- disable for this transaction
 ```
 
+<div class="table-wrap">
+
 | Timeout                               | What It Aborts                                      | Default      |
 | ------------------------------------- | --------------------------------------------------- | ------------ |
 | `statement_timeout`                   | Any statement exceeding duration                    | 0 (disabled) |
 | `lock_timeout`                        | Any statement waiting for a lock exceeding duration | 0 (disabled) |
 | `idle_in_transaction_session_timeout` | Sessions idle in transaction                        | 0 (disabled) |
 
+</div>
+
 ## Lock Escalation
 
 Unlike SQL Server and Oracle, PostgreSQL does **not** perform automatic lock escalation from
 Row-level to table-level locks. Row locks and table locks are independent mechanisms. However,
 Acquiring too many row locks does consume significant shared memory for the lock table. If you need
-To update millions of rows, consider:
+to update millions of rows, consider:
 
 ```sql
 -- Process in batches to avoid holding too many row locks
@@ -581,16 +613,6 @@ WHERE account_id = 1 AND balance >= 100;
 -- Check result count: 1 = success, 0 = insufficient funds
 ```
 
-```mermaid
-flowchart TD
-    A[Locking And Deadlocks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Locking is like a traffic intersection. When two cars arrive at the same time, one must wait. If both cars wait for the other, neither moves and you have a deadlock. The solution is simple: always follow a consistent rule, such as the car on the right goes first. In databases, this means always accessing tables and rows in the same order, always holding locks for the shortest time possible, and always having a retry strategy when deadlocks occur.
@@ -602,7 +624,7 @@ Advisory locks are like reserving a table at a restaurant. They do not protect s
 ### Not Setting lock_timeout
 
 A query waiting for a lock can block indefinitely. If the lock holder has a long-running transaction
-Or a crashed session (though PostgreSQL detects crashed backends via TCP keepalive), waiting Queries
+or a crashed session (though PostgreSQL detects crashed backends via TCP keepalive), waiting Queries
 pile up. Always set `lock_timeout`:
 
 ```sql
@@ -612,14 +634,14 @@ SET lock_timeout = '10s';
 
 ### Forgetting That FOR UPDATE Blocks Concurrent Reads in REPEATABLE READ
 
-In `REPEATABLE READ``SELECT ... FOR UPDATE` blocks if another transaction has modified the row (even
-if committed). In `READ COMMITTED``SELECT ... FOR UPDATE` re-evaluates the row after Acquiring the
+In `REPEATABLE READ`, `SELECT ... FOR UPDATE` blocks if another transaction has modified the row (even
+if committed). In `READ COMMITTED`, `SELECT ... FOR UPDATE` re-evaluates the row after Acquiring the
 lock. Know your isolation level.
 
 ### Advisory Lock Leaks
 
 Session-level advisory locks persist until the session ends or the lock is explicitly released. If
-Your application crashes or the connection pool drops the connection, the lock is automatically
+your application crashes or the connection pool drops the connection, the lock is automatically
 Released when the TCP connection closes. However, with PgBouncer in session mode, a recycled
 Connection may still hold a lock from a previous session. Use transaction-level advisory locks
 (`pg_advisory_xact_lock`) for automatic cleanup.
@@ -632,14 +654,14 @@ Backoff in every transaction that acquires locks.
 
 ### Long Transactions Holding Row Locks
 
-A transaction that opens with `BEGIN`Then makes an HTTP call or waits for user input while holding
+A transaction that opens with `BEGIN`. Then makes an HTTP call or waits for user input while holding
 Row locks, blocks all other transactions that need those rows. Minimize transaction duration: do all
-Read-only work before `BEGIN`Then lock and modify within the transaction.
+Read-only work before `BEGIN`. Then lock and modify within the transaction.
 
 ### Using LOCK TABLE When Row Locks Suffice
 
 `LOCK TABLE ... IN ACCESS EXCLUSIVE MODE` blocks all reads and writes on the entire table. Use the
-Most specific lock that satisfies your requirement: `SELECT ... FOR UPDATE` for row locks,
+most specific lock that satisfies your requirement: `SELECT ... FOR UPDATE` for row locks,
 `SELECT ... FOR UPDATE OF table_name` for specific tables in a multi-table query.
 
 ## Lock Duration and Transaction Boundaries
@@ -647,7 +669,7 @@ Most specific lock that satisfies your requirement: `SELECT ... FOR UPDATE` for 
 ### Lock Release on Commit or Rollback
 
 All locks acquired during a transaction (row locks, table locks, advisory locks) are released when
-The transaction ends. There is no way to release a lock before the transaction commits or rolls
+the transaction ends. There is no way to release a lock before the transaction commits or rolls
 Back, except for `SAVEPOINT` + `ROLLBACK TO SAVEPOINT` which releases locks acquired after the
 Savepoint.
 
@@ -678,6 +700,8 @@ Regardless of savepoints.
 
 DDL statements acquire table-level locks that may conflict with concurrent operations:
 
+<div class="table-wrap">
+
 | DDL Operation                 | Lock Acquired                   | Blocks                        |
 | ----------------------------- | ------------------------------- | ----------------------------- |
 | `CREATE INDEX`                | SHARE                           | INSERT, UPDATE, DELETE        |
@@ -690,6 +714,8 @@ DDL statements acquire table-level locks that may conflict with concurrent opera
 | `VACUUM FULL`                 | ACCESS EXCLUSIVE                | All operations                |
 | `ANALYZE`                     | SHARE UPDATE EXCLUSIVE          | SELECT is allowed             |
 | `GRANT` / `REVOKE`            | ACCESS EXCLUSIVE (on the table) | All operations                |
+
+</div>
 
 ### Lock Waits and Blocking Queries
 
@@ -774,7 +800,7 @@ WHERE datname = 'mydb';
 
 SSI is conservative: it may abort transactions that would have produced a serializable result,
 Because the cycle detection cannot always distinguish safe from unsafe patterns. This is the price
-Of optimistic concurrency control. Applications using SERIALIZABLE must always implement retry
+of optimistic concurrency control. Applications using SERIALIZABLE must always implement retry
 Logic.
 
 ## Hot Standby Feedback and Replication Lag
@@ -804,7 +830,7 @@ max_standby_streaming_delay = 30s
 hot_standby_feedback = on
 ```
 
-With `hot_standby_feedback = on`The replica sends information about long-running queries back to The
+With `hot_standby_feedback = on`. The replica sends information about long-running queries back to The
 primary, which delays vacuum of rows that are still visible on the replica. This reduces Replication
 conflicts but may cause table bloat on the primary.
 

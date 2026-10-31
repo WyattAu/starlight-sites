@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "A-Level Computer Science -- Diagnostic Guide"
 description: "Study notes for A-Level Computer Science -- Diagnostic Guide with worked examples and practice questions."
@@ -21,6 +20,8 @@ tableOfContents: false
 
 ## Coverage Map
 
+<div class="table-wrap">
+
 | Diagnostic File                 | Topics Covered                                                                                        | Source Files                                                                                                                            |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | `diag-fundamentals.md`          | Binary/hex, two"s complement, floating point, Boolean algebra, logic gates                            | `01-number-systems.md``02-floating-point.md``03-boolean-algebra.md``04-computer-architecture.md`                                        |
@@ -30,7 +31,11 @@ tableOfContents: false
 | `diag-networks.md`              | TCP/IP, OSI, IP addressing, subnetting, symmetric/asymmetric encryption, TCP vs UDP, web technologies | `01-network-fundamentals.md``02-network-security.md``05-web-technologies.md`                                                            |
 | `diag-theory-of-computation.md` | FSM, regular expressions, Turing machines, halting problem, complexity classes                        | `01-automata-and-computability.md`                                                                                                      |
 
+</div>
+
 ### Topics Covered Through Integration Tests
+
+<div class="table-wrap">
 
 | Topic                       | Covered In                                 | Source File                            |
 | --------------------------- | ------------------------------------------ | -------------------------------------- |
@@ -38,6 +43,8 @@ tableOfContents: false
 | Testing                     | IT-1 (programming)                         | `02-testing.md`                        |
 | Operating Systems           | Throughout (process management references) | `05-operating-systems.md`              |
 | Legal/Ethical Issues        | IT-2 (networks security)                   | `06-legal-ethical-moral.md`            |
+
+</div>
 
 ## Grading Rubric
 
@@ -89,6 +96,8 @@ Networks (TCP/IP, addressing, security)
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic                   | Recommended Time | Notes                                    |
 | ---------------------------- | ---------------- | ---------------------------------------- |
 | `diag-fundamentals`          | 35 minutes       | Binary arithmetic requires careful work  |
@@ -97,6 +106,8 @@ Networks (TCP/IP, addressing, security)
 | `diag-programming`           | 50 minutes       | OOP design and SQL queries need thought  |
 | `diag-networks`              | 35 minutes       | Subnetting calculations require practice |
 | `diag-theory-of-computation` | 35 minutes       | FSM design and Turing machine traces     |
+
+</div>
 
 **Total recommended time:** approximately 3.9 hours (spread across multiple sessions).
 
@@ -120,14 +131,7 @@ Networks (TCP/IP, addressing, security)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

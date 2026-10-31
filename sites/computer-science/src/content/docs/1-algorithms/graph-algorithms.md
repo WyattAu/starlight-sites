@@ -94,6 +94,8 @@ DFS_VISIT(G, u):
 
 ### 1.3 BFS vs DFS
 
+<div class="table-wrap">
+
 | Property       | BFS                    | DFS                           |
 | -------------- | ---------------------- | ----------------------------- |
 | Data structure | Queue                  | Stack (recursion)             |
@@ -102,6 +104,8 @@ DFS_VISIT(G, u):
 | Space          | $O(V)$                 | $O(V)$                        |
 | Time           | $O(V + E)$             | $O(V + E)$                    |
 | Applications   | Shortest paths, levels | Topological sort, SCC, cycles |
+
+</div>
 
 ## 2. Topological Sort
 
@@ -118,7 +122,7 @@ TOPOLOGICAL_SORT(G):
 
 **Time:** $O(V + E)$. Works only on DAGs (acyclic directed graphs).
 
-### 2.2 Kahn"s Algorithm (Indegree-Based)
+### 2.2 Kahn's Algorithm (Indegree-Based)
 
 ```
 TOPOPOLOGICAL_SORT_KAHN(G):
@@ -273,12 +277,16 @@ FLOYD_WARSHALL(W):
 
 ### 4.4 Comparison
 
+<div class="table-wrap">
+
 | Algorithm      | Source    | Weights      | Negative | Time              | Space    |
 | -------------- | --------- | ------------ | -------- | ----------------- | -------- |
 | BFS            | Single    | Unit         | N/A      | $O(V + E)$        | $O(V)$   |
 | Dijkstra       | Single    | Non-negative | No       | $O((V+E) \log V)$ | $O(V)$   |
 | Bellman-Ford   | Single    | Any          | Yes      | $O(VE)$           | $O(V)$   |
 | Floyd-Warshall | All pairs | Any          | Yes      | $O(V^3)$          | $O(V^2)$ |
+
+</div>
 
 ### 4.5 Johnson's Algorithm
 
@@ -351,12 +359,16 @@ vertex outside.
 
 ### 5.4 Comparison
 
+<div class="table-wrap">
+
 | Property       | Kruskal       | Prim           |
 | -------------- | ------------- | -------------- |
 | Strategy       | Edge-based    | Vertex-based   |
 | Best for       | Sparse graphs | Dense graphs   |
 | Data structure | Union-Find    | Priority queue |
 | Time           | $O(E \log E)$ | $O(E \log V)$  |
+
+</div>
 
 ## 6. Network Flow
 
@@ -407,7 +419,9 @@ edges).
 
 **Theorem:** In any flow network, the maximum flow value equals the minimum cut capacity:
 
-$$|f^*| = c(S^*, T^*)$$
+$$
+|f^*| = c(S^*, T^*)
+$$
 
 where $S^*$ is the set of vertices reachable from $s$ in the residual graph when no augmenting path
 exists, and $T^* = V \setminus S^*$.
@@ -481,7 +495,9 @@ HUNGARIAN(W):
 
 A bipartite graph $G = (L, R, E)$ has a perfect matching iff for every subset $S \subseteq L$:
 
-$$|N(S)| \geq |S|$$
+$$
+|N(S)| \geq |S|
+$$
 
 where $N(S)$ is the set of neighbors of $S$ in $R$.
 
@@ -529,28 +545,17 @@ Process A: remove edges to B, C. Queue: [B, C]. Process B: remove edge to D (in-
 Process C: remove edge to D (in-degree D becomes 0). Queue: [D]. Process D: remove edge to E. Queue:
 [E]. Process E. Topological order: A, B, C, D, E (or A, C, B, D, E -- both valid).
 
-
-```mermaid
-flowchart TD
-    A[Graph Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **BFS** finds shortest paths in unweighted graphs; **DFS** explores depth-first and enables
   topological sort and SCC detection.
 - **Topological sort** works on DAGs using DFS finish times or Kahn's indegree algorithm.
 - **SCCs** are found by Kosaraju's (two DFS passes) or Tarjan’s (single DFS with lowlink).
-- **Shortest paths:** Dijkstra ($O((V+E)\log V)$, non-negative), Bellman-Ford ($O(VE)$, negative),
+- **Shortest paths:** Dijkstra ($O((V+E)\log V)$, non-negative), Bellman-Ford ($ O(VE)$, negative),
   Floyd-Warshall ($O(V^3)$, all pairs).
-- **MST:** Kruskal ($O(E \log E)$) and Prim ($O(E \log V)$), both based on cut/cycle properties.
+- **MST:** Kruskal ($O(E \log E)$) and Prim ($ O(E \log V)$), both based on cut/cycle properties.
 - **Max-flow:** Ford-Fulkerson/Edmonds-Karp ($O(VE^2)$), with max-flow min-cut theorem.
-- **Bipartite matching:** Hopcroft-Karp ($O(E\sqrt{V})$) for unweighted, Hungarian ($O(n^3)$) for
+- **Bipartite matching:** Hopcroft-Karp ($O(E\sqrt{V})$) for unweighted, Hungarian ($ O(n^3)$) for
   weighted.
 
 ## Intuition
@@ -559,11 +564,15 @@ Graphs model relationships between entities. BFS explores level by level, findin
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Link                                                        |
 | ----------------- | ----------------------------------------------------------- |
 | Algorithm Design  | [View](/1-algorithms/algorithm-design/)  |
 | Data Structures   | [View](/1-algorithms/data-structures/)   |
 | Complexity Theory | [View](/1-algorithms/complexity-theory/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

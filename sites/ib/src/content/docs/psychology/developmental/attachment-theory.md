@@ -20,15 +20,15 @@ description: "Attachment refers to the strong, enduring emotional bond that form
 Attachment refers to the strong, enduring emotional bond that forms between an infant and a primary
 Caregiver ( the mother). Attachment theory, originally developed by John Bowlby and later Expanded
 by Mary Ainsworth, has become one of the most influential and well-researched theories in
-Developmental psychology. It explains how early relationships shape emotional development, social
+developmental psychology. It explains how early relationships shape emotional development, social
 Competence, and mental health across the lifespan.
 
-## Bowlby"s Evolutionary Theory of Attachment
+## Bowlby's Evolutionary Theory of Attachment
 
 ### Key Principles
 
 John Bowlby (1969) proposed that attachment is an innate behavioural system that has evolved through
-Natural selection because it enhances the infant's chances of survival. The key principles of
+natural selection because it enhances the infant's chances of survival. The key principles of
 Bowlby's theory are:
 
 1. **Attachment is adaptive:** Infants are born with a repertoire of attachment behaviours (crying,
@@ -62,12 +62,12 @@ Bowlby's theory are:
 ### Harlow (1958): Infant Rhesus Monkeys
 
 Harry Harlow's research with infant rhesus monkeys provided powerful evidence for the importance of
-Contact comfort in attachment, challenging the prevailing behaviourist view that attachment was
-Based solely on feeding.
+contact comfort in attachment, challenging the prevailing behaviourist view that attachment was
+based solely on feeding.
 
 **Methodology:** Infant monkeys were separated from their biological mothers shortly after birth and
 Raised in isolation with two surrogate "mothers": one made of wire mesh that provided milk, and one
-Covered in soft terry cloth that provided no milk but contact comfort.
+covered in soft terry cloth that provided no milk but contact comfort.
 
 **Key findings:**
 
@@ -98,9 +98,9 @@ Covered in soft terry cloth that provided no milk but contact comfort.
 ### The Strange Situation Classification
 
 Mary Ainsworth (1978) developed the Strange Situation procedure to systematically assess the quality
-Of attachment between infants and their caregivers. The procedure involves a series of eight
+of attachment between infants and their caregivers. The procedure involves a series of eight
 3-minute episodes in a laboratory room, designed to activate the infant's attachment system by
-Introducing mild stressors (separation from the caregiver, the presence of a stranger).
+introducing mild stressors (separation from the caregiver, the presence of a stranger).
 
 **Episodes:**
 
@@ -144,7 +144,7 @@ Contact-maintaining, avoidance, resistance, and exploration.
 - The infant is wary of the stranger even in the caregiver's presence.
 
 **4. Disorganised attachment (Type D):** Identified by Main and Solomon (1986). Approximately 5--15%
-Of infants.
+of infants.
 
 - The infant displays no consistent strategy for dealing with separation and reunion.
 - The infant may show contradictory behaviours (e.g., approaching the caregiver while looking away,
@@ -157,7 +157,7 @@ Of infants.
 ### Caregiver Sensitivity Hypothesis
 
 Ainsworth proposed that the quality of attachment is determined by the caregiver's sensitivity to
-The infant's signals. Sensitive caregivers:
+the infant's signals. Sensitive caregivers:
 
 - Respond promptly and appropriately to the infant's signals (crying, smiling, reaching).
 - Interpret the infant's signals accurately.
@@ -171,7 +171,7 @@ Insensitive caregivers:
 
 **Evidence:** Ainsworth et al. (1978) found a strong correlation between maternal sensitivity
 Observed in the home (during naturalistic observation) and the infant's attachment classification in
-The Strange Situation. Mothers of securely attached infants were rated as more sensitive,
+the Strange Situation. Mothers of securely attached infants were rated as more sensitive,
 Responsive, and accepting than mothers of insecurely attached infants.
 
 ## Cross-Cultural Variations
@@ -179,8 +179,8 @@ Responsive, and accepting than mothers of insecurely attached infants.
 ### Van IJzendoorn and Kroonenberg (1988): Meta-Analysis
 
 Van IJzendoorn and Kroonenberg conducted a meta-analysis of 32 Strange Situation studies conducted
-In 8 countries (the United States, the United Kingdom, Germany, Japan, Sweden, Israel, China, and
-The Netherlands), encompassing over 2,000 infant-caregiver dyads.
+in 8 countries (the United States, the United Kingdom, Germany, Japan, Sweden, Israel, China, and
+the Netherlands), encompassing over 2,000 infant-caregiver dyads.
 
 **Key findings:**
 
@@ -223,8 +223,8 @@ The Netherlands), encompassing over 2,000 infant-caregiver dyads.
 ### Hazan and Shaver (1987): Adult Attachment
 
 Hazan and Shaver extended attachment theory to adult romantic relationships, proposing that the
-Internal working models established in infancy continue to influence relationship patterns in
-Adulthood. They identified three adult attachment styles corresponding to Ainsworth's infant
+internal working models established in infancy continue to influence relationship patterns in
+adulthood. They identified three adult attachment styles corresponding to Ainsworth's infant
 Attachment types:
 
 - **Secure adults:** Find it easy to get close to others, are comfortable with intimacy and
@@ -273,27 +273,9 @@ For an overview of developmental topics, see
 4. Neglecting to consider multiple scales (local, regional, national, global) in geographical
    analysis.
 
-
-```mermaid
-flowchart TD
-    A[Attachment Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

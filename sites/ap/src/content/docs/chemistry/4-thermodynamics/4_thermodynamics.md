@@ -29,7 +29,7 @@ $$
 $$
 
 Where $q$ is heat and $w$ is work. The first law is a statement of energy conservation: any change
-In the internal energy of a system must be accounted for by heat flow and work done.
+in the internal energy of a system must be accounted for by heat flow and work done.
 
 ### Sign Convention (Chemistry)
 
@@ -67,11 +67,17 @@ Convenient because most chemical reactions occur at constant (atmospheric) press
 
 Starting from the first law at constant pressure:
 
-$$\Delta U = q_P + w = q_P - P\Delta V$$
+$$
+\Delta U = q_P + w = q_P - P\Delta V
+$$
 
-$$q_P = \Delta U + P\Delta V$$
+$$
+q_P = \Delta U + P\Delta V
+$$
 
-$$q_P = (U_2 - U_1) + P(V_2 - V_1) = (U_2 + PV_2) - (U_1 + PV_1) = H_2 - H_1 = \Delta H$$
+$$
+q_P = (U_2 - U_1) + P(V_2 - V_1) = (U_2 + PV_2) - (U_1 + PV_1) = H_2 - H_1 = \Delta H
+$$
 
 This derivation shows that enthalpy change equals heat at constant pressure because the $P\Delta V$
 Work term is absorbed into the enthalpy definition.
@@ -87,16 +93,16 @@ $$
 $$
 
 Standard conditions: $1 \mathrm{ atm$, $298 \mathrm{ K$ ($25^\circ\mathrm{C$), pure substances in
-Their most stable form. By convention, $\Delta H_f^\circ = 0$ for elements in their standard state.
+their most stable form. By convention, $\Delta H_f^\circ = 0$ for elements in their standard state.
 
 The standard state of an element is its most stable form at $1 \mathrm{ atm$ and
-$25^\circ\mathrm{C$: e.g., $\mathrm{O_2(g)$Not $\mathrm{O_3(g)$ or $\mathrm{O_2(l)$;
-$\mathrm{C(graphite)$Not $\mathrm{C(diamond)$.
+$25^\circ\mathrm{C$: e.g., $\mathrm{O_2(g)$ Not $\mathrm{O_3(g)$ or $\mathrm{O_2(l)$;
+$\mathrm{C(graphite)$ Not $\mathrm{C(diamond)$.
 
-### Hess"s Law
+### Hess's Law
 
 The total enthalpy change for a reaction is the same regardless of the pathway. If a reaction can be
-Written as the sum of several steps:
+written as the sum of several steps:
 
 $$
 \Delta H_{\mathrm{total} = \Delta H_1 + \Delta H_2 + \cdots
@@ -122,7 +128,9 @@ $\Delta H_3 = -890.3 \mathrm{ kJ/mol$
 
 Using Hess's law: $\Delta H_f(\mathrm{CH_4) = \Delta H_1 + 2\Delta H_2 - \Delta H_3$
 
-$$= -393.5 + 2(-285.8) - (-890.3) = -393.5 - 571.6 + 890.3 = -74.8 \mathrm{ kJ/mol$$
+$$
+= -393.5 + 2(-285.8) - (-890.3) = -393.5 - 571.6 + 890.3 = -74.8 \mathrm{ kJ/mol
+$$
 
 ### Worked Example: Hess's Law with Multiple Steps
 
@@ -158,9 +166,11 @@ $1 \mathrm{ N\equiv\mathrm{N (945) + 3 \mathrm{ H-H (436) = 945 + 1308 = 2253 \m
 
 Bonds formed: $6 \mathrm{ N-H (391) = 2346 \mathrm{ kJ/mol$
 
-$$\Delta H \approx 2253 - 2346 = -93 \mathrm{ kJ/mol$$
+$$
+\Delta H \approx 2253 - 2346 = -93 \mathrm{ kJ/mol
+$$
 
-(The exact value is $-92.2 \mathrm{ kJ/mol$Showing that bond enthalpies give a good Approximation.)
+(The exact value is $-92.2 \mathrm{ kJ/mol$ Showing that bond enthalpies give a good Approximation.)
 
 :::note[Example]
 Calculate $\Delta H^\circ$ for the combustion of propane:
@@ -171,12 +181,16 @@ $$
 
 Using standard enthalpies of formation (kJ/mol):
 
+<div class="table-wrap">
+
 | Substance                   | $\Delta H_f^\circ$ (kJ/mol) |
 | --------------------------- | --------------------------- |
 | $\mathrm{C_3\mathrm{H_8(g)$ | -103.8                      |
 | $\mathrm{O_2(g)$            | 0                           |
 | $\mathrm{CO_2(g)$           | -393.5                      |
 | $\mathrm{H_2\mathrm{O(l)$   | -285.8                      |
+
+</div>
 
 $$
 \Delta H^\circ = [3(-393.5) + 4(-285.8)] - [-103.8 + 5(0)]
@@ -231,14 +245,14 @@ High specific heat capacity because hydrogen bonds must be broken to increase it
 ### Coffee-Cup Calorimetry (Constant Pressure)
 
 Measures $\Delta H$ of reactions in solution. The calorimeter is open to the atmosphere, so $P$ is
-Constant.
+constant.
 
 $$
 Q_{\mathrm{rxn} = -q_{\mathrm{solution} = -(m_{\mathrm{solution} \cdot c_{\mathrm{solution} \cdot \Delta T)
 $$
 
 The negative sign ensures that if the solution temperature increases ($\Delta T \gt 0$), the
-Reaction is exothermic ($q_{\mathrm{rxn} \lt 0$).
+reaction is exothermic ($q_{\mathrm{rxn} \lt 0$).
 
 ### Bomb Calorimetry (Constant Volume)
 
@@ -255,11 +269,15 @@ Bomb, stirrer, etc.).
 
 For a bomb calorimetry experiment:
 
-$$\Delta U = q_V = -C_{\mathrm{cal} \cdot \Delta T$$
+$$
+\Delta U = q_V = -C_{\mathrm{cal} \cdot \Delta T
+$$
 
 To convert to $\Delta H$:
 
-$$\Delta H = \Delta U + \Delta n_g RT$$
+$$
+\Delta H = \Delta U + \Delta n_g RT
+$$
 
 Where $\Delta n_g$ is the change in moles of gas. For combustion reactions, $\Delta n_g$ is often
 Negative (fewer gas moles of products than reactants), making $\Delta H$ slightly more negative than
@@ -268,24 +286,30 @@ $\Delta U$.
 ### Worked Example: Bomb Calorimetry with $\Delta H$ Conversion
 
 A bomb calorimeter with $C_{\mathrm{cal} = 894 \mathrm{ J/K$ is used to determine the enthalpy of
-Combustion of glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$). Burning $1.00 \mathrm{ g$ raises The
+combustion of glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$). Burning $1.00 \mathrm{ g$ raises The
 temperature by $3.02 \mathrm{ K$. Calculate $\Delta U$ and $\Delta H$ per mole.
 
 Molar mass of glucose: $180.16 \mathrm{ g/mol$.
 
-$$\Delta U = -894 \times 3.02 = -2700 \mathrm{ J = -2.70 \mathrm{ kJ per gram$$
+$$
+\Delta U = -894 \times 3.02 = -2700 \mathrm{ J = -2.70 \mathrm{ kJ per gram
+$$
 
-$$\Delta U_{\mathrm{per mol} = -2.70 \times 180.16 = -486 \mathrm{ kJ/mol$$
+$$
+\Delta U_{\mathrm{per mol} = -2.70 \times 180.16 = -486 \mathrm{ kJ/mol
+$$
 
 For
 $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6(s) + 6\mathrm{O_2(g) \to 6\mathrm{CO_2(g) + 6\mathrm{H_2\mathrm{O(l)$:
 
 $\Delta n_g = 6 - 6 = 0$ (no net change in gas moles).
 
-$$\Delta H = \Delta U + \Delta n_g RT = -486 + 0 = -486 \mathrm{ kJ/mol$$
+$$
+\Delta H = \Delta U + \Delta n_g RT = -486 + 0 = -486 \mathrm{ kJ/mol
+$$
 
 (Literature value: $-2803 \mathrm{ kJ/mol$. The difference is due to the calorimeter containing a
-Solution rather than pure water.)
+solution rather than pure water.)
 :::
 
 :::note[Example]
@@ -316,7 +340,7 @@ $$
 ### Entropy ($S$)
 
 Entropy is a measure of disorder or randomness at the molecular level. More precisely, it is a
-Measure of the number of microstates available to a system.
+measure of the number of microstates available to a system.
 
 The second law states that the entropy of the universe increases for any spontaneous process:
 
@@ -358,7 +382,7 @@ Entropy because they are not perfect crystals at absolute zero under standard co
 ### The Third Law of Thermodynamics
 
 The entropy of a perfect crystal at absolute zero ($0 \mathrm{ K$) is zero. This provides an
-Absolute reference point for entropy, unlike enthalpy.
+absolute reference point for entropy, unlike enthalpy.
 
 ### Worked Example: Standard Entropy Calculation
 
@@ -368,7 +392,9 @@ $\mathrm{CaCO_3(s) \to \mathrm{CaO(s) + \mathrm{CO_2(g)$.
 Given: $S^\circ(\mathrm{CaCO_3, s) = 92.9$, $S^\circ(\mathrm{CaO, s) = 39.7$
 $S^\circ(\mathrm{CO_2, g) = 213.7 \mathrm{ J/(mol\cdot\mathrm{K)$.
 
-$$\Delta S^\circ = [39.7 + 213.7] - [92.9] = 253.4 - 92.9 = 160.5 \mathrm{ J/(mol\cdot\mathrm{K)$$
+$$
+\Delta S^\circ = [39.7 + 213.7] - [92.9] = 253.4 - 92.9 = 160.5 \mathrm{ J/(mol\cdot\mathrm{K)
+$$
 
 The positive $\Delta S^\circ$ is expected because a solid decomposes to produce a gas.
 
@@ -376,11 +402,15 @@ The positive $\Delta S^\circ$ is expected because a solid decomposes to produce 
 
 Calculate $\Delta S$ for the vaporisation of $1.00 \mathrm{ mol$ of water at $100^{\circ}\mathrm{C$.
 
-$$\Delta H_{\mathrm{vap} = 40.7 \mathrm{ kJ/mol$$
+$$
+\Delta H_{\mathrm{vap} = 40.7 \mathrm{ kJ/mol
+$$
 
 At the boiling point, $\Delta G = 0$ So $\Delta H = T\Delta S$:
 
-$$\Delta S = \frac{\Delta H_{\mathrm{vap}}{T} = \frac{40700}{373.15} = 109.1 \mathrm{ J/(mol\cdot\mathrm{K)$$
+$$
+\Delta S = \frac{\Delta H_{\mathrm{vap}}{T} = \frac{40700}{373.15} = 109.1 \mathrm{ J/(mol\cdot\mathrm{K)
+$$
 
 This positive entropy change confirms that the gas phase has more disorder than the liquid phase.
 
@@ -392,11 +422,15 @@ $298 \mathrm{ K$:
 
 $\Delta H^\circ = -36.0 \mathrm{ kJ/mol$ (exothermic, heat released to surroundings).
 
-$$\Delta S_{\mathrm{surroundings} = \frac{-\Delta H^\circ}{T} = \frac{36000}{298} = 120.8 \mathrm{ J/(mol\cdot\mathrm{K)$$
+$$
+\Delta S_{\mathrm{surroundings} = \frac{-\Delta H^\circ}{T} = \frac{36000}{298} = 120.8 \mathrm{ J/(mol\cdot\mathrm{K)
+$$
 
 $$\Delta S_{\mathrm{system} = 439 \mathrm{ J/(mol\cdot\mathrm{K)$$ (given)
 
-$$\Delta S_{\mathrm{universe} = 439 + 120.8 = 559.8 \mathrm{ J/(mol\cdot\mathrm{K) \gt 0$$
+$$
+\Delta S_{\mathrm{universe} = 439 + 120.8 = 559.8 \mathrm{ J/(mol\cdot\mathrm{K) \gt 0
+$$
 
 The reaction is spontaneous because $\Delta S_{\mathrm{universe} \gt 0$. The positive
 $\Delta S_{\mathrm{system}$ (more gas molecules produced) and the positive
@@ -411,15 +445,19 @@ $$
 $$
 
 The Gibbs free energy combines enthalpy and entropy into a single criterion for spontaneity. A
-Negative $\Delta G$ means the process is spontaneous at constant temperature and pressure.
+negative $\Delta G$ means the process is spontaneous at constant temperature and pressure.
 
 ### Spontaneity at Constant Temperature and Pressure
+
+<div class="table-wrap">
 
 | Condition        | Spontaneity    |
 | ---------------- | -------------- |
 | $\Delta G \lt 0$ | Spontaneous    |
 | $\Delta G = 0$   | At equilibrium |
 | $\Delta G \gt 0$ | Nonspontaneous |
+
+</div>
 
 ### Standard Gibbs Free Energy of Formation
 
@@ -435,14 +473,18 @@ $$
 
 Where $R = 8.314 \mathrm{ J/(mol\cdot\mathrm{K)$ and $K$ is the equilibrium constant.
 
+<div class="table-wrap">
+
 | $K$       | $\Delta G^\circ$       | Favorability      |
 | --------- | ---------------------- | ----------------- |
 | $K \gg 1$ | $\Delta G^\circ \ll 0$ | Products favored  |
 | $K = 1$   | $\Delta G^\circ = 0$   | Neither           |
 | $K \ll 1$ | $\Delta G^\circ \gg 0$ | Reactants favored |
 
+</div>
+
 This equation bridges thermodynamics and equilibrium: the equilibrium constant is determined by the
-Standard free energy change.
+standard free energy change.
 
 ### Derivation: Non-Standard Gibbs Free Energy
 
@@ -450,10 +492,12 @@ $$
 \Delta G = \Delta G^\circ + RT\ln Q
 $$
 
-Where $Q$ is the reaction quotient. At equilibrium, $\Delta G = 0$ and $Q = K$Giving
+Where $Q$ is the reaction quotient. At equilibrium, $\Delta G = 0$ and $Q = K$ Giving
 $\Delta G^\circ = -RT\ln K$.
 
 ### Temperature Dependence of Spontaneity
+
+<div class="table-wrap">
 
 | $\Delta H$ | $\Delta S$ | Spontaneous? | Temperature Effect                                           |
 | ---------- | ---------- | ------------ | ------------------------------------------------------------ |
@@ -461,6 +505,8 @@ $\Delta G^\circ = -RT\ln K$.
 | Positive   | Negative   | Never        | Nonspontaneous at all $T$                                    |
 | Negative   | Negative   | Low $T$      | Becomes nonspontaneous above $T = \frac{\Delta H}{\Delta S}$ |
 | Positive   | Positive   | High $T$     | Becomes spontaneous above $T = \frac{\Delta H}{\Delta S}$    |
+
+</div>
 
 ### Temperature at Which Spontaneity Changes
 
@@ -493,11 +539,15 @@ $\Delta H^\circ = -92.2 \mathrm{ kJ/mol$ $\Delta S^\circ = -198.8 \mathrm{ J/(mo
 
 Calculate $\Delta G^\circ$ and $K$.
 
-$$\Delta G^\circ = -92200 - 298(-198.8) = -92200 + 59242 = -32958 \mathrm{ J/mol = -33.0 \mathrm{ kJ/mol$$
+$$
+\Delta G^\circ = -92200 - 298(-198.8) = -92200 + 59242 = -32958 \mathrm{ J/mol = -33.0 \mathrm{ kJ/mol
+$$
 
-$$K = e^{-\Delta G^\circ/(RT)} = e^{32958/(8.314 \times 298)} = e^{13.29} = 5.9 \times 10^5$$
+$$
+K = e^{-\Delta G^\circ/(RT)} = e^{32958/(8.314 \times 298)} = e^{13.29} = 5.9 \times 10^5
+$$
 
-$K \gg 1$Confirming the reaction strongly favours products at $298 \mathrm{ K$.
+$K \gg 1$ Confirming the reaction strongly favours products at $298 \mathrm{ K$.
 
 ### Worked Example: Non-Standard Gibbs Free Energy
 
@@ -505,26 +555,24 @@ Calculate $\Delta G$ for the reaction $\mathrm{N_2(g) + 3\mathrm{H_2(g) \to 2\ma
 $298 \mathrm{ K$ when $P(\mathrm{N_2) = 10.0 \mathrm{ atm$
 $P(\mathrm{H_2) = 30.0 \mathrm{ atm$, $P(\mathrm{NH_3) = 0.500 \mathrm{ atm$.
 
-$$Q = \frac{(0.500)^2}{(10.0)(30.0)^3} = \frac{0.250}{270000} = 9.26 \times 10^{-7}$$
+$$
+Q = \frac{(0.500)^2}{(10.0)(30.0)^3} = \frac{0.250}{270000} = 9.26 \times 10^{-7}
+$$
 
-$$\Delta G = \Delta G^\circ + RT\ln Q = -33000 + (8.314)(298)\ln(9.26 \times 10^{-7})$$
+$$
+\Delta G = \Delta G^\circ + RT\ln Q = -33000 + (8.314)(298)\ln(9.26 \times 10^{-7})
+$$
 
-$$= -33000 + 2478 \times (-13.89) = -33000 - 34420 = -67420 \mathrm{ J/mol = -67.4 \mathrm{ kJ/mol$$
+$$
+= -33000 + 2478 \times (-13.89) = -33000 - 34420 = -67420 \mathrm{ J/mol = -67.4 \mathrm{ kJ/mol
+$$
 
 $\Delta G \lt 0$ So the reaction is spontaneous under these conditions. The high pressure of
 Reactants and low pressure of product drive the reaction forward.
 
-```mermaid
-flowchart TD
-    A[4_Thermodynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Thermodynamic Quantities
+
+<div class="table-wrap">
 
 | Quantity          | Symbol | Units           | State Function? | Zero Reference             |
 | ----------------- | ------ | --------------- | --------------- | -------------------------- |
@@ -533,7 +581,11 @@ flowchart TD
 | Entropy           | $S$    | J/(mol$\cdot$K) | Yes             | Perfect crystal at 0 K     |
 | Gibbs free energy | $G$    | kJ              | Yes             | Elements in standard state |
 
+</div>
+
 ## Summary Table: Spontaneity Criteria
+
+<div class="table-wrap">
 
 | $\Delta H$ | $\Delta S$ | Low $T$ ($\Delta G$) | High $T$ ($\Delta G$) | Spontaneous at |
 | ---------- | ---------- | -------------------- | --------------------- | -------------- |
@@ -541,6 +593,8 @@ flowchart TD
 | $+$        | $-$        | $+$ (nonspontaneous) | $+$ (nonspontaneous)  | Never          |
 | $-$        | $-$        | $-$ (spontaneous)    | $+$ (nonspontaneous)  | Low $T$ only   |
 | $+$        | $+$        | $+$ (nonspontaneous) | $-$ (spontaneous)     | High $T$ only  |
+
+</div>
 
 ## Common Pitfalls
 
@@ -553,14 +607,14 @@ flowchart TD
 4. **Using the wrong sign convention for calorimetry.**
    $q_{\mathrm{rxn} = -q_{\mathrm{surroundings}$.
 5. **Confusing entropy of the system with entropy of the universe.** Spontaneity requires
-   $\Delta S_{\mathrm{universe} \gt 0$Not just $\Delta S_{\mathrm{system} \gt 0$.
+   $\Delta S_{\mathrm{universe} \gt 0$ Not just $\Delta S_{\mathrm{system} \gt 0$.
 6. **Incorrect units in the Gibbs equation.** $\Delta H$ is in kJ/mol; $\Delta S$ is in
    J/(mol$\cdot$K). Convert one of them before combining.
 7. **Using $R = 0.08206$ in $\Delta G^\circ = -RT\ln K$.** Use
    $R = 8.314 \mathrm{ J/(mol\cdot\mathrm{K)$ because $\Delta G^\circ$ is in J/mol.
 8. **Assuming a negative $\Delta H$ guarantees spontaneity.** If $\Delta S$ is sufficiently
    negative, $\Delta G$ can be positive even when $\Delta H$ is negative.
-9. **Forgetting that standard conditions are $298 \mathrm{ K$ and $1 \mathrm{ atm$Not STP.**
+9. **Forgetting that standard conditions are $298 \mathrm{ K$ and $1 \mathrm{ atm$ Not STP.**
 
 ## Practice Questions
 
@@ -573,7 +627,7 @@ flowchart TD
    $\Delta H$ per mole of $\mathrm{NaOH$.
 
 3. For a reaction with $\Delta H = 125 \mathrm{ kJ/mol$ and
-   $\Delta S = 200 \mathrm{ J/(mol\cdot\mathrm{K)$Find the temperature range where the reaction is
+   $\Delta S = 200 \mathrm{ J/(mol\cdot\mathrm{K)$ Find the temperature range where the reaction is
    spontaneous.
 
 4. Given $\Delta G_f^\circ$ values: $\mathrm{NO_2(g) = 51.3 \mathrm{ kJ/mol$
@@ -648,9 +702,9 @@ flowchart TD
     $5.00 \mathrm{ g$ of $\mathrm{KOH$ is dissolved, the temperature rises to $35.0^\circ\mathrm{C$.
     Calculate the enthalpy of solution of $\mathrm{KOH$ in kJ/mol.
 
-21. For the reaction $2\mathrm{NO(g) + \mathrm{O_2(g) \to 2\mathrm{NO_2(g)$Given
+21. For the reaction $2\mathrm{NO(g) + \mathrm{O_2(g) \to 2\mathrm{NO_2(g)$ Given
     $\Delta H^\circ = -114.1 \mathrm{ kJ/mol$ and
-    $\Delta S^\circ = -146.5 \mathrm{ J/(mol\cdot\mathrm{K)$Calculate the temperature above which
+    $\Delta S^\circ = -146.5 \mathrm{ J/(mol\cdot\mathrm{K)$ Calculate the temperature above which
     the reaction is no longer spontaneous.
 
 22. Using the following data, calculate $\Delta S^\circ$ for the reaction
@@ -693,7 +747,7 @@ flowchart TD
 
 32. Given $\Delta H_f^\circ(\mathrm{NH_3, g) = -46.1 \mathrm{ kJ/mol$
     $\Delta H_f^\circ(\mathrm{NO, g) = 90.3 \mathrm{ kJ/mol$ And
-    $\Delta H_f^\circ(\mathrm{H_2\mathrm{O, g) = -241.8 \mathrm{ kJ/mol$Calculate $\Delta H^\circ$
+    $\Delta H_f^\circ(\mathrm{H_2\mathrm{O, g) = -241.8 \mathrm{ kJ/mol$ Calculate $\Delta H^\circ$
     for the reaction
     $4\mathrm{NH_3(g) + 5\mathrm{O_2(g) \to 4\mathrm{NO(g) + 6\mathrm{H_2\mathrm{O(g)$.
 
@@ -750,7 +804,7 @@ For the reaction
 $\mathrm{NH_4\mathrm{NO_3(s) \to \mathrm{N_2\mathrm{O(g) + 2\mathrm{H_2\mathrm{O(g)$
 $\Delta H^\circ = -36.0 \mathrm{ kJ/mol$ and $\Delta S^\circ = 347 \mathrm{ J/(mol\cdot K)$.
 Calculate $\Delta G^\circ$ at $298 \mathrm{ K$ and determine the temperature range over which the
-Reaction is spontaneous.
+reaction is spontaneous.
 
 </details>
 
@@ -759,7 +813,7 @@ Reaction is spontaneous.
 
 $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ = -36,000 - 298 \times 347 = -36,000 - 103,406 = -139,406 \mathrm{ J/mol = -139.4 \mathrm{ kJ/mol$.
 
-Since $\Delta G^\circ \lt 0$ at $298 \mathrm{ K$The reaction is spontaneous at this temperature.
+Since $\Delta G^\circ \lt 0$ at $298 \mathrm{ K$ The reaction is spontaneous at this temperature.
 
 The reaction is spontaneous when $\Delta G \lt 0$:
 
@@ -767,8 +821,8 @@ $\Delta H - T\Delta S \lt 0$
 
 Since $\Delta H = -36.0 \mathrm{ kJ/mol$ (negative) and $\Delta S = +347 \mathrm{ J/(mol\cdot K)$
 (positive), both terms favour spontaneity. The reaction is spontaneous at all temperatures. There is
-No upper temperature limit because the $-T\Delta S$ term always contributes negatively to $\Delta G$
-When $\Delta S$ is positive.
+no upper temperature limit because the $-T\Delta S$ term always contributes negatively to $\Delta G$
+when $\Delta S$ is positive.
 
 </details>
 
@@ -776,9 +830,9 @@ When $\Delta S$ is positive.
 <summary>Question 3: Calorimetry and specific heat</summary>
 
 A $50.0 \mathrm{ g$ sample of an unknown metal is heated to $100.0^\circ\mathrm{C$ and then placed
-In $100.0 \mathrm{ g$ of water at $25.0^\circ\mathrm{C$ in a coffee-cup calorimeter. The final
+in $100.0 \mathrm{ g$ of water at $25.0^\circ\mathrm{C$ in a coffee-cup calorimeter. The final
 Temperature of the mixture is $28.8^\circ\mathrm{C$. Calculate the specific heat capacity of the
-Metal. Assume no heat loss to the calorimeter.
+metal. Assume no heat loss to the calorimeter.
 
 </details>
 
@@ -796,7 +850,7 @@ Setting equal: $1589.9 = 50.0 \times c_{\mathrm{metal} \times 71.2$.
 $c_{\mathrm{metal} = 1589.9 / 3560 = 0.447 \mathrm{ J/(g\cdot^\circ\mathrm{C)}$.
 
 This value is close to that of iron ($0.449 \mathrm{ J/(g\cdot^\circ\mathrm{C)}$), suggesting the
-Unknown metal may be iron.
+unknown metal may be iron.
 
 </details>
 
@@ -820,9 +874,9 @@ $\Delta S_{\mathrm{surroundings} = -\Delta H_{\mathrm{vap} / T = -40,700 / 373 =
 
 $\Delta S_{\mathrm{universe} = \Delta S_{\mathrm{system} + \Delta S_{\mathrm{surroundings} = 109.1 + (-109.1) = 0 \mathrm{ J/(mol\cdot K)$.
 
-At $100^\circ\mathrm{C$ and $1 \mathrm{ atm$Liquid and gaseous water are in equilibrium, so
+At $100^\circ\mathrm{C$ and $1 \mathrm{ atm$ Liquid and gaseous water are in equilibrium, so
 $\Delta G = 0$ and $\Delta S_{\mathrm{universe} = 0$. The process is at equilibrium, not Spontaneous
-in either direction. Above $100^\circ\mathrm{C$Vaporisation becomes spontaneous
+in either direction. Above $100^\circ\mathrm{C$ Vaporisation becomes spontaneous
 ($\Delta S_{\mathrm{universe} \gt 0$).
 
 </details>
@@ -833,7 +887,7 @@ in either direction. Above $100^\circ\mathrm{C$Vaporisation becomes spontaneous
 Using the following average bond enthalpies, estimate $\Delta H$ for the reaction
 $\mathrm{CH_4(g) + 2\mathrm{Cl_2(g) \to \mathrm{CH_2\mathrm{Cl_2(g) + 2\mathrm{HCl(g)$:
 
-C-H: $413 \mathrm{ kJ/mol$Cl-Cl: $242 \mathrm{ kJ/mol$C-Cl: $339 \mathrm{ kJ/mol$H-Cl:
+C-H: $413 \mathrm{ kJ/mol$ Cl-Cl: $242 \mathrm{ kJ/mol$ C-Cl: $339 \mathrm{ kJ/mol$ H-Cl:
 $431 \mathrm{ kJ/mol$.
 
 </details>
@@ -846,7 +900,7 @@ Bonds broken (reactants):
 - 4 C-H bonds in $\mathrm{CH_4$: $4 \times 413 = 1652 \mathrm{ kJ/mol$
 - 2 Cl-Cl bonds: $2 \times 242 = 484 \mathrm{ kJ/mol$
 
-Wait -- not all C-H bonds break. In $\mathrm{CH_2\mathrm{Cl_2$Two C-H bonds remain. So only 2 C-H
+Wait -- not all C-H bonds break. In $\mathrm{CH_2\mathrm{Cl_2$ Two C-H bonds remain. So only 2 C-H
 bonds break.
 
 Corrected bonds broken:

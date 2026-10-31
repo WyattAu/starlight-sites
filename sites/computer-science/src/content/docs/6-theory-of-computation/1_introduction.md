@@ -28,7 +28,7 @@ Design of algorithms, programming languages, compilers, and hardware.
 An **alphabet** $\Sigma$ is a finite, non-empty set of symbols (e.g., $\Sigma = \{0, 1\}$).
 
 A **string** (or word) over $\Sigma$ is a finite sequence of symbols from $\Sigma$. The empty string
-Is denoted $\varepsilon$.
+is denoted $\varepsilon$.
 
 **Notation:**
 
@@ -39,7 +39,7 @@ Is denoted $\varepsilon$.
 - $\Sigma^n$: Strings of length $n$ over $\Sigma$.
 
 A **language** $L$ over $\Sigma$ is any subset of $\Sigma^*$. The empty language is $\emptyset$
-(distinct from $\{\varepsilon\}$Which contains one string).
+(distinct from $\{\varepsilon\}$ Which contains one string).
 
 **Operations on languages:**
 
@@ -69,7 +69,7 @@ complexity class.
 
 - $L_6 = \{a^n b^n : n \geq 0\}$, matching counts of two symbols.
 - $L_7 = \{w w^R : w \in \{0,1\}^*\}$, even-length palindromes.
-- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`S and `b`S.
+- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`s and `b`s.
 
 **Decidable but not context-free:**
 
@@ -98,13 +98,13 @@ is **countable**.
 **Theorem 1.1.** The set of all languages over a non-empty alphabet $\Sigma$ is uncountable.
 
 _Proof._ The set $\Sigma^*$ is countable (enumerate strings by length, then lexicographically). The
-set of all languages is $\mathcal{P}(\Sigma^*)$Which is uncountable by Cantor"s theorem (since
+set of all languages is $\mathcal{P}(\Sigma^*)$ Which is uncountable by Cantor's theorem (since
 $|\mathcal{P}(S)| \gt |S|$ for any set $S$). $\blacksquare$
 
 **Theorem 1.2.** The set of all Turing machines is countable.
 
 _Proof._ Each TM has a finite description (its states, alphabet, and transition function). Encode
-This as a string over a finite alphabet. The set of all finite strings is countable. $\blacksquare$
+this as a string over a finite alphabet. The set of all finite strings is countable. $\blacksquare$
 
 **Corollary 1.3.** There exist languages that are not Turing-recognisable (in fact, uncountably Many
 such languages).
@@ -127,12 +127,16 @@ string. Then $D$ is not in the list, contradiction. This technique reappears in 
 
 ### 1.6 Hierarchy Summary Table
 
+<div class="table-wrap">
+
 | Class | Machine | Decidable? | Recognisable? | Closure (complement) |
 | --- | --- | --- | --- | --- |
 | Regular | Finite automaton | Yes | Yes | Closed |
 | Context-free | Pushdown automaton | Yes | Yes | Not closed |
 | Decidable (REC) | Turing machine (halts always) | Yes | Yes | Closed |
 | Turing-recognisable (RE) | Turing machine (may loop) | No | Yes | Not closed |
+
+</div>
 
 ### 1.7 Practical Applications
 
@@ -154,44 +158,3 @@ Theory of computation asks: what can computers do, and how efficiently? The hier
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

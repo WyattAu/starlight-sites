@@ -23,7 +23,7 @@ categories:
 ## Why Platform Integration
 
 Flutter provides a rich set of widgets and plugins, but some capabilities require direct interaction
-With the underlying operating system. The device's camera, GPS receiver, Bluetooth radio,
+with the underlying operating system. The device's camera, GPS receiver, Bluetooth radio,
 Accelerometer, file system, biometric hardware, and notification system are all accessed through
 Native platform APIs (Android's Java/Kotlin APIs, iOS's Objective-C/Swift APIs). Flutter's sandbox
 Isolates Dart code from these native APIs, so a bridge mechanism is needed.
@@ -33,12 +33,12 @@ Bidirectional communication: Dart can invoke native methods and receive results,
 Send messages or streams of events back to Dart.
 
 The platform channel architecture uses a message-passing model. Data is serialized using a standard
-Codec ( the `StandardMethodCodec`Which supports null, booleans, numbers, strings, byte Buffers,
+Codec ( the `StandardMethodCodec`. Which supports null, booleans, numbers, strings, byte Buffers,
 lists, and maps), transmitted across the platform channel, and deserialized on the other Side. This
 serialization/deserialization is handled automatically for standard types.
 
-Most common use cases are covered by existing Flutter packages (`camera``geolocator`
-`shared_preferences``url_launcher`Etc.). Platform channels are needed when:
+Most common use cases are covered by existing Flutter packages (`camera`, `geolocator`
+`shared_preferences`, `url_launcher`. Etc.). Platform channels are needed when:
 
 - No suitable plugin exists for the native API you need.
 - You need to integrate with a proprietary native SDK.
@@ -84,7 +84,7 @@ if (Platform.isAndroid) {
 ### defaultTargetPlatform
 
 `defaultTargetPlatform` from `package:flutter/foundation.dart` returns a `TargetPlatform` enum. This
-Is useful for choosing between Material and Cupertino widgets:
+is useful for choosing between Material and Cupertino widgets:
 
 ```dart
 import 'package:flutter/foundation.dart';
@@ -127,7 +127,7 @@ Platform checks are necessary for several reasons:
 - **Permission models**: Android and iOS have different permission request flows. Android uses a
   runtime permission model, while iOS requires `Info.plist` entries with usage descriptions.
 - **File system layout**: Android and iOS store app data in different directory structures. Android
-  uses `/data/data/<package>/`While iOS uses the sandbox's `Documents/` and `Library/` directories.
+  uses `/data/data/<package>/`. While iOS uses the sandbox's `Documents/` and `Library/` directories.
 
 ### kIsWeb
 
@@ -296,6 +296,8 @@ import UIKit
 
 The `StandardMethodCodec` automatically serializes the following types between Dart and native:
 
+<div class="table-wrap">
+
 | Dart        | Android (Kotlin) | iOS (Swift)                        |
 | ----------- | ---------------- | ---------------------------------- |
 | `null`      | `null`           | `NSNull()`                         |
@@ -306,6 +308,8 @@ The `StandardMethodCodec` automatically serializes the following types between D
 | `Uint8List` | `ByteArray`      | `FlutterStandardTypedData(bytes:)` |
 | `List`      | `List`           | `NSArray`                          |
 | `Map`       | `HashMap`        | `NSDictionary`                     |
+
+</div>
 
 Complex nested structures (maps containing lists of maps, etc.) are supported as long as the leaf
 Values are one of the above types.
@@ -504,7 +508,7 @@ class SensorStreamHandler: NSObject, FlutterStreamHandler {
 
 ### EventChannel Lifecycle
 
-When Dart calls `receiveBroadcastStream()`The channel sends a "listen" signal to the native side,
+When Dart calls `receiveBroadcastStream()`. The channel sends a "listen" signal to the native side,
 Triggering `onListen`. The native side should start producing events and pushing them through
 `EventSink.success()`. When all Dart listeners are cancelled (via `StreamSubscription.cancel()`),
 The channel sends a "cancel" signal, triggering `onCancel`. The native side should clean up
@@ -580,7 +584,7 @@ Use `BasicMessageChannel` when:
 
 Use `MethodChannel` when:
 
-- You have distinct named operations (e.g., `getBatteryLevel``openCamera`).
+- You have distinct named operations (e.g., `getBatteryLevel`, `openCamera`).
 - You need structured error handling with error codes.
 - You want the method-call semantics that `MethodChannel` provides.
 
@@ -602,7 +606,7 @@ Plugins that need a simple bidirectional pipe.
 
 Pigeon is a code generation tool that produces type-safe platform channel bindings. Instead of
 Manually writing `MethodChannel` calls on the Dart side and handlers on the native side, you define
-Your API in a Dart file and Pigeon generates the corresponding code for all platforms.
+your API in a Dart file and Pigeon generates the corresponding code for all platforms.
 
 ### Why Pigeon
 
@@ -616,7 +620,7 @@ Manual platform channels have several problems:
 - **No compile-time validation**: Errors are only caught when the channel is invoked at runtime.
 
 Pigeon solves all of these by generating type-safe, compile-time-checked code from a single source
-Of truth.
+of truth.
 
 ### Defining the API
 
@@ -869,7 +873,7 @@ setMethodCallHandler { call, result ->
 
 ### Backpressure
 
-If you send many messages in rapid succession via `MethodChannel`The platform channel does not
+If you send many messages in rapid succession via `MethodChannel`. The platform channel does not
 Provide built-in backpressure. Each `invokeMethod` call creates a pending message. If the native
 Side cannot keep up, messages queue up in memory. For high-frequency data (sensor data, video
 Frames), use `EventChannel` instead, which is designed for streaming.
@@ -1226,7 +1230,7 @@ class PigeonSearchDataSource implements SearchDataSource {
 ### Not Running on the Main Thread
 
 Platform channel handlers are invoked on the platform's main (UI) thread by default. If you block
-This thread with a long-running operation, the app's UI will freeze. Always offload heavy
+this thread with a long-running operation, the app's UI will freeze. Always offload heavy
 Computation to a background thread and call `result.success()` back on the main thread.
 
 ### Missing Plugin Registration
@@ -1301,12 +1305,12 @@ Codes.
 Channel names are global to the application. If two plugins use the same channel name, messages are
 Routed unpredictably. Always use a unique, namespaced channel name (e.g.,
 `com.company.app.purpose`). This is especially important when using multiple third-party plugins
-That might have naming conflicts.
+that might have naming conflicts.
 
 ### Not Handling nil/Null Correctly
 
 On iOS, Swift optionals map to null in Dart. If the native side passes `nil` where Dart expects a
-Non-null value, a cast error occurs. Always handle nullability on both sides. In Kotlin, Java's
+non-null value, a cast error occurs. Always handle nullability on both sides. In Kotlin, Java's
 `null` maps to Dart's `null` transparently, but Kotlin's non-nullable types do not prevent `null`
 From being sent through the channel if the caller bypasses the type system.
 
@@ -1314,20 +1318,9 @@ From being sent through the channel if the caller bypasses the type system.
 
 Before writing a platform channel, check if an existing Flutter package already provides the
 Functionality. The Flutter ecosystem has thousands of plugins covering most common needs. Writing
-And maintaining custom platform channels across Android, iOS, macOS, Windows, and Linux is a
+and maintaining custom platform channels across Android, iOS, macOS, Windows, and Linux is a
 Significant maintenance burden. Use Pigeon if you must write custom channels to reduce the
 Boilerplate and type-safety risks.
-
-
-```mermaid
-flowchart TD
-    A[01 Platform Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -1342,13 +1335,7 @@ including key theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

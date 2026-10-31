@@ -25,11 +25,15 @@ Each test is designed to expose deep misconceptions that separate top-tier candi
 
 Every diagnostic file contains:
 
+<div class="table-wrap">
+
 | Section           | Count | Description                                                  |
 | ----------------- | ----- | ------------------------------------------------------------ |
 | Unit Tests        | 3     | Single-concept questions probing specific misconceptions     |
 | Integration Tests | 3     | Multi-concept problems requiring synthesis of several topics |
 | Worked Solutions  | All   | Step-by-step solutions with explicit reasoning               |
+
+</div>
 
 ## How to Use
 
@@ -47,12 +51,14 @@ Every diagnostic file contains:
 
 ## Misconception Map
 
+<div class="table-wrap">
+
 | Topic             | Key Misconception                                                 |
 | ----------------- | ----------------------------------------------------------------- |
 | Atomic Structure  | Transition metal electron config; ionisation energy trend breaks  |
 | Bonding           | VSEPR for lone pairs; molecular polarity vs bond polarity         |
 | Stoichiometry     | Back-titration setup; RTP gas volume assumptions                  |
-| Energetics        | Hess"s cycle direction; average vs exact bond enthalpy            |
+| Energetics        | Hess's cycle direction; average vs exact bond enthalpy            |
 | Kinetics          | Rate vs rate constant confusion; order from non-initial-rate data |
 | Equilibrium       | Kc/Kp temperature dependence; inert gas at constant P             |
 | Acids/Bases       | Weak acid pH requires Ka; buffer mechanism; salt hydrolysis       |
@@ -60,13 +66,19 @@ Every diagnostic file contains:
 | Carbon Chemistry  | Substitution vs addition; polymerisation of unsymmetrical alkenes |
 | Organic Chemistry | SN1 vs SN2 conditions; stereoisomerism identification             |
 
+</div>
+
 ## Scoring
+
+<div class="table-wrap">
 
 | Score    | Interpretation                                       |
 | -------- | ---------------------------------------------------- |
 | 5--6 / 6 | Exam-ready; focus on speed and presentation          |
 | 3--4 / 6 | Solid understanding; review weak areas               |
 | 0--2 / 6 | Foundation gaps; revisit topic notes before retrying |
+
+</div>
 
 ## File Index
 
@@ -91,14 +103,7 @@ Every diagnostic file contains:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -144,8 +149,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 

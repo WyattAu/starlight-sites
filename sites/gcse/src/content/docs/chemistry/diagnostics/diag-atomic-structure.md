@@ -151,16 +151,18 @@ negatively charged ion (anion).
 
 (b)
 
-- **$\text{O}^{2-}$**: Oxygen ($Z = 8$, configuration $2, 6$) gains 2 electrons to achieve a full
+- **$\text{O}^{2-}$**: Oxygen ($ Z = 8$, configuration $2, 6$) gains 2 electrons to achieve a full
   outer shell. Configuration becomes $2, 8$.
-- **$\text{Mg}^{2+}$**: Magnesium ($Z = 12$, configuration $2, 8, 2$) loses its 2 outer electrons.
+- **$\text{Mg}^{2+}$**: Magnesium ($ Z = 12$, configuration $2, 8, 2$) loses its 2 outer electrons.
   Configuration becomes $2, 8$.
-- **$\text{Al}^{3+}$**: Aluminium ($Z = 13$, configuration $2, 8, 3$) loses its 3 outer electrons.
+- **$\text{Al}^{3+}$**: Aluminium ($ Z = 13$, configuration $2, 8, 3$) loses its 3 outer electrons.
   Configuration becomes $2, 8$.
 
 (c) The relative atomic mass is calculated using the weighted average:
 
-$$A_r = \frac{(35 \times 75.8) + (37 \times 24.2)}{100} = \frac{2653 + 895.4}{100} = \frac{3548.4}{100} = 35.484 \approx 35.5$$
+$$
+A_r = \frac{(35 \times 75.8) + (37 \times 24.2)}{100} = \frac{2653 + 895.4}{100} = \frac{3548.4}{100} = 35.484 \approx 35.5
+$$
 
 (d) The relative atomic mass is not in most cases a whole number because most elements exist as a mixture
 of isotopes with different masses and different abundances. The $A_r$ is a weighted average of these
@@ -200,7 +202,7 @@ the metal might be and explain your reasoning.
 **Solution:**
 
 (a) Sodium ($Z = 11$) has the electron configuration $2, 8, 1$ and loses its single outer electron
-very efficiently to form $\text{Na}^+$. Magnesium ($Z = 12$) has the configuration $2, 8, 2$ and must
+very efficiently to form $\text{Na}^+$. Magnesium ($ Z = 12$) has the configuration $2, 8, 2$ and must
 lose two electrons to form $\text{Mg}^{2+}$. Losing two electrons requires more energy than losing
 one. Additionally, sodium has a larger atomic radius than magnesium (it is in Period 3 vs Period 3
 but Group 1 vs Group 2), meaning its outer electron is further from the nucleus and less strongly
@@ -249,11 +251,11 @@ an ion.
 (b) The relative atomic mass of boron is 10.8. Boron has two isotopes: boron-10 and boron-11.
 Calculate the percentage abundance of each isotope. Show your working.
 
-(c) Explain how the discovery of isotopes modified Dalton"s atomic theory. State which of Dalton's
+(c) Explain how the discovery of isotopes modified Dalton's atomic theory. State which of Dalton's
 original postulates needed to be changed.
 
 (d) A scientist determines that an element has an $A_r$ of 28.1. Which element is this likely to be?
-Using your knowledge of the periodic table, give its group number, period, and electron
+using your knowledge of the periodic table, give its group number, period, and electron
 configuration.
 
 **Solution:**
@@ -269,13 +271,21 @@ equal the number of electrons, giving it a net charge of $-1$.
 
 (b) Let $x$ = percentage abundance of boron-10, then $(100 - x)$ = percentage abundance of boron-11.
 
-$$10.8 = \frac{10x + 11(100 - x)}{100}$$
+$$
+10.8 = \frac{10x + 11(100 - x)}{100}
+$$
 
-$$1080 = 10x + 1100 - 11x$$
+$$
+1080 = 10x + 1100 - 11x
+$$
 
-$$1080 = 1100 - x$$
+$$
+1080 = 1100 - x
+$$
 
-$$x = 20$$
+$$
+x = 20
+$$
 
 Boron-10 abundance = 20%, boron-11 abundance = 80%.
 
@@ -297,27 +307,9 @@ periodic table. Its electron configuration is $2, 8, 4$. This can be confirmed: 
 
 **The key insight:** Ionisation energy increases across a period because nuclear charge increases while shielding stays roughly constant, electrons are held more tightly.
 
-
-```mermaid
-flowchart TD
-    A[Diag Atomic Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

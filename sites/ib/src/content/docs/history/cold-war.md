@@ -122,7 +122,7 @@ Officially the European Recovery Programme (ERP), announced by Secretary of Stat
 - West Germany joined in 1955, this was a key trigger for the Warsaw Pact
 - First peacetime military alliance the USA had entered
 - Integrated military command under a Supreme Allied Commander (initially Eisenhower)
-- Demonstrated the USA"s commitment to defending Western Europe
+- Demonstrated the USA's commitment to defending Western Europe
 
 **Warsaw Pact**
 
@@ -567,17 +567,6 @@ Mikhail Gorbachev became General Secretary of the Communist Party in March 1985.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Cold War] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Cold War was a contest between two superpowers who could not afford to fight directly. Instead, they competed through proxy wars, arms races, space races, and ideological influence. The logic of mutually assured destruction created a paradox: the weapons that could destroy the world also prevented direct conflict. Understanding the Cold War means grasping how fear, ideology, and national interest combined to produce a global standoff lasting nearly half a century.
@@ -593,9 +582,6 @@ remains alive: orthodox, revisionist, and post-revisionist interpretations conti
 competing explanations for the origins, course, and conclusion of the conflict.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

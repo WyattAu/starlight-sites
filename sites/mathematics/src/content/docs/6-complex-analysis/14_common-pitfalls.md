@@ -20,7 +20,7 @@ description: "Differentiability. The partial derivatives must also be continuous
 :::caution
 Differentiability. The partial derivatives must also be continuous. For example,
 $f(z) = \exp(-1/z^4)$ extended by $f(0) = 0$ satisfies the Cauchy-Riemann equations at the origin
-But is not differentiable there.
+but is not differentiable there.
 :::
 
 :::caution
@@ -41,13 +41,13 @@ sum of all residues (including the residue at infinity) is zero.
 
 :::caution
 Mapping $w = z^2$ is conformal at every $z \neq 0$ But it doubles the angle between curves at each
-Point. At $z = 0$It is not conformal because $f'(0) = 0$.
+Point. At $z = 0$ It is not conformal because $f'(0) = 0$.
 :::
 
 :::caution
 Interior, but the minimum can occur in the interior (e.g., $f(z) = z$ on the unit disk has minimum
 $|f| = 0$ at $z = 0$). For the minimum principle, one needs the additional hypothesis that $f$ has
-No zeros in the domain.
+no zeros in the domain.
 :::
 
 :::caution
@@ -65,7 +65,9 @@ $L$ must be the arc length of the contour, not a diameter or radius.
 their multiplicity/order. A common error is counting only distinct zeros rather than counting with
 multiplicity:
 
-$$\frac{1}{2\pi i}\oint_C \frac{f'(z)}{f(z)}\,dz = N - P$$
+$$
+\frac{1}{2\pi i}\oint_C \frac{f'(z)}{f(z)}\,dz = N - P
+$$
 
 where $N$ is the number of zeros and $P$ the number of poles inside $C$, counted with multiplicity.
 :::
@@ -153,16 +155,6 @@ The antiderivative must be single-valued. For $1/z$ on $\mathbb{C}\setminus\{0\}
 analytic on the punctured plane.
 :::
 
-```mermaid
-flowchart TD
-    A[14_Common Pitfalls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The pitfalls in complex analysis stem from the deceptive similarity between real and complex differentiation. In the real world, differentiability is a mild condition; in the complex world, it is extraordinarily restrictive. A single complex derivative implies infinitely many real derivatives and forces the function to satisfy Laplace's equation. This rigidity means that seemingly innocent mistakes, like forgetting branch cuts or misidentifying residues, lead to fundamentally wrong answers. The complex logarithm is multi-valued, Laurent expansions depend on the annulus, and the residue at infinity requires a change of variable.
@@ -170,7 +162,7 @@ The pitfalls in complex analysis stem from the deceptive similarity between real
 ## Cross-References
 
 - **[Complex Functions and Analyticity](/6-complex-analysis/2_complex-functions-and-analyticity/)**: Analytic functions are infinitely differentiable and satisfy the Cauchy-Riemann equations.
-- **[Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)**: Cauchy's theorem requires analyticity on a directly connected domain for the integral to vanish.
+- **[Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)**: Cauchy's theorem requires analyticity on a simply connected domain for the integral to vanish.
 - **[Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: The residue theorem computes contour integrals by summing contributions from singularities.
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

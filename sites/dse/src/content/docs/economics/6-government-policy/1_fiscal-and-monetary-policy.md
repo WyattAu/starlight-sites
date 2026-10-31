@@ -20,7 +20,7 @@ categories: "- DSE - Economics"
 ## Overview of Macroeconomic Policy
 
 Macroeconomic policy refers to government actions designed to influence the overall performance of
-The economy. The primary objectives are:
+the economy. The primary objectives are:
 
 1. **Economic growth:** Sustained increase in real GDP and living standards
 2. **Full employment:** Minimising cyclical unemployment (achieving the natural rate of
@@ -30,7 +30,7 @@ The economy. The primary objectives are:
 5. **Equitable income distribution:** Reducing excessive inequality
 
 The three main categories of macroeconomic policy are **fiscal policy** (government spending and
-Taxation), **monetary policy** (money supply and interest rates), and **supply-side policy**
+taxation), **monetary policy** (money supply and interest rates), and **supply-side policy**
 (improving the productive capacity of the economy).
 
 This file assumes familiarity with the monetary policy tools covered in
@@ -54,43 +54,57 @@ national income concepts covered in
 ### Definition
 
 Fiscal policy is the use of government spending, taxation, and borrowing to influence the level of
-Aggregate demand, economic activity, and employment in the economy.
+aggregate demand, economic activity, and employment in the economy.
 
 ### Government Spending
 
 Government spending falls into two categories:
+
+<div class="table-wrap">
 
 | Category            | Description                                                                                                                                       |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Current expenditure | Day-to-day spending on goods and services: public sector wages, healthcare, education, defence, welfare. Recurrent and predictable.               |
 | Capital expenditure | Investment in physical infrastructure: roads, bridges, public housing, airports, hospitals, schools. Increases the economy"s productive capacity. |
 
+</div>
+
 Current expenditure directly affects aggregate demand in the short run. Capital expenditure affects
-Both aggregate demand (in the short run, through construction spending) and aggregate supply (in the
-Long run, by expanding the economy"s productive capacity).
+both aggregate demand (in the short run, through construction spending) and aggregate supply (in the
+long run, by expanding the economy"s productive capacity).
 
 ### Taxation
 
 Taxes are compulsory payments to the government. They serve two functions in macroeconomic policy:
 Financing government expenditure and influencing economic behaviour.
 
+<div class="table-wrap">
+
 | Tax Type       | Description                                                                                                                                                    |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Direct taxes   | Taxes on income and wealth: personal income tax, corporate profits tax, property tax. These reduce disposable income and affect incentives to work and invest. |
 | Indirect taxes | Taxes on spending: VAT/sales tax, excise duties, customs duties. These raise prices and reduce real purchasing power.                                          |
 
+</div>
+
 ### Budget Balance
 
-$$\mathrm{Budget balance} = T - G$$
+$$
+\mathrm{Budget balance} = T - G
+$$
 
 Where `T` is total tax revenue and `G` is total government expenditure (excluding debt interest
 Payments for simplicity).
+
+<div class="table-wrap">
 
 | Situation       | Condition | Effect on AD                                                                 |
 | --------------- | --------- | ---------------------------------------------------------------------------- |
 | Budget surplus  | `T \gt G` | Contractionary (reduces AD)                                                  |
 | Balanced budget | `T = G`   | Neutral (some say mildly expansionary due to the balanced budget multiplier) |
 | Budget deficit  | `T \lt G` | Expansionary (increases AD)                                                  |
+
+</div>
 
 ---
 
@@ -112,12 +126,16 @@ Employment (a recessionary gap exists).
 
 ### Instruments
 
+<div class="table-wrap">
+
 | Instrument                   | Mechanism                                                                                                           |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | Increase government spending | Direct injection into the circular flow of income; raises AD; multiplier effect amplifies the initial spending.     |
 | Decrease taxes               | Increases disposable income; households spend more; firms invest more; AD rises.                                    |
 | Increase transfer payments   | Increases the income of recipients (unemployed, low-income households); they spend most of it (high MPC); AD rises. |
 | Investment tax credits       | Reduces the cost of investment for firms; encourages capital spending; AD rises and LRAS may shift right.           |
+
+</div>
 
 ### The Multiplier Effect
 
@@ -127,49 +145,63 @@ A larger final change in national income.
 When the government increases spending by an amount, this becomes income for someone else (workers,
 Suppliers). Those recipients spend a portion of this additional income (determined by the marginal
 Propensity to consume, MPC), which becomes income for yet others. This process continues, with each
-Round of spending generating further income and further spending, though the amount gets smaller
-Each round.
+round of spending generating further income and further spending, though the amount gets smaller
+each round.
 
 **Simple spending multiplier (no taxes, no imports):**
 
-$$k = \frac{1}{1 - \mathrm{MPC}} = \frac{1}{\mathrm{MPS}}$$
+$$
+k = \frac{1}{1 - \mathrm{MPC}} = \frac{1}{\mathrm{MPS}}
+$$
 
 Where MPC = marginal propensity to consume, MPS = marginal propensity to save.
 
-$$\mathrm{MPC} + \mathrm{MPS} = 1$$
+$$
+\mathrm{MPC} + \mathrm{MPS} = 1
+$$
 
 **Complex multiplier (with taxes and imports):**
 
-$$k = \frac{1}{\mathrm{MPS} + \mathrm{MPT} + \mathrm{MPM}}$$
+$$
+k = \frac{1}{\mathrm{MPS} + \mathrm{MPT} + \mathrm{MPM}}
+$$
 
 Where MPT = marginal propensity to tax (proportion of additional income paid in tax) and MPM =
 Marginal propensity to import (proportion of additional income spent on imports).
 
 **Why do taxes and imports reduce the multiplier?** Taxes and imports are **leakages** from the
 Circular flow. Each round of spending, some income is taxed (not available for consumption) and some
-Is spent on imports (not part of domestic demand). These leakages reduce the amount of income
+is spent on imports (not part of domestic demand). These leakages reduce the amount of income
 Available for the next round of domestic spending, shrinking the multiplier.
 
-$$\Delta Y = k \times \Delta G$$
+$$
+\Delta Y = k \times \Delta G
+$$
 
 **Tax multiplier (absolute value is smaller than the spending multiplier):**
 
-$$\Delta Y = -\mathrm{MPC} \times k \times \Delta T$$
+$$
+\Delta Y = -\mathrm{MPC} \times k \times \Delta T
+$$
 
-A tax cut of `Delta T` increases disposable income by `Delta T`But only `MPC x Delta T` is spent
+A tax cut of `Delta T` increases disposable income by `Delta T`. But only `MPC x Delta T` is spent
 (the rest is saved). This initial spending is then multiplied. The tax multiplier is always smaller
-Than the spending multiplier (in absolute value) because part of the tax cut is saved, not spent.
+than the spending multiplier (in absolute value) because part of the tax cut is saved, not spent.
 
 ### Worked Example: Expansionary Fiscal Policy
 
 The government increases spending by USD 100 billion. MPC = 0.8, MPT = 0.15, MPM = 0.05.
 
-$$k = \frac{1}{0.2 + 0.15 + 0.05} = \frac{1}{0.4} = 2.5$$
+$$
+k = \frac{1}{0.2 + 0.15 + 0.05} = \frac{1}{0.4} = 2.5
+$$
 
-$$\Delta Y = 2.5 \times 100 = 250$$
+$$
+\Delta Y = 2.5 \times 100 = 250
+$$
 
 National income increases by USD 250 billion. The initial USD 100 billion injection generates an
-Additional USD 150 billion through the multiplier process.
+additional USD 150 billion through the multiplier process.
 
 <details>
 <summary>Worked Example: Comparing Spending Multiplier and Tax Multiplier</summary>
@@ -188,7 +220,9 @@ Spending is injected, while only 60% of the tax cut is spent (the rest is saved)
 
 If instead the government cut taxes by USD 100 billion:
 
-$$\Delta Y = -0.8 \times 2.5 \times (-100) = 200$$
+$$
+\Delta Y = -0.8 \times 2.5 \times (-100) = 200
+$$
 
 National income increases by USD 200 billion. The tax cut is less effective than the spending
 Increase (200 vs 250) because part of the tax cut is saved.
@@ -213,20 +247,28 @@ Inflationary gap).
 
 ### Instruments
 
+<div class="table-wrap">
+
 | Instrument                   | Mechanism                                                                                    |
 | ---------------------------- | -------------------------------------------------------------------------------------------- |
 | Decrease government spending | Reduces the injection into the economy; AD falls; multiplier effect amplifies the reduction. |
 | Increase taxes               | Reduces disposable income; households and firms have less to spend; AD falls.                |
 | Decrease transfer payments   | Reduces the income of recipients; their spending falls; AD falls.                            |
 
+</div>
+
 ### Worked Example: Contractionary Fiscal Policy
 
 The economy is experiencing demand-pull inflation. The government cuts spending by USD 50 billion.
 MPC = 0.75, MPT = 0.1, MPM = 0.1.
 
-$$k = \frac{1}{0.25 + 0.1 + 0.1} = \frac{1}{0.45} = 2.22$$
+$$
+k = \frac{1}{0.25 + 0.1 + 0.1} = \frac{1}{0.45} = 2.22
+$$
 
-$$\Delta Y = 2.22 \times (-50) = -111$$
+$$
+\Delta Y = 2.22 \times (-50) = -111
+$$
 
 National income falls by approximately USD 111 billion, reducing inflationary pressure.
 
@@ -244,13 +286,13 @@ National income falls by approximately USD 111 billion, reducing inflationary pr
 ## Automatic Stabilisers
 
 Automatic stabilisers are built-in features of the fiscal system that automatically reduce the
-Amplitude of the business cycle without requiring new legislation or discretionary action.
+amplitude of the business cycle without requiring new legislation or discretionary action.
 
 ### Progressive Income Tax
 
 During an expansion: incomes rise, pushing taxpayers into higher tax brackets. The average tax rate
 Rises, reducing the proportion of additional income available for consumption. This dampens the
-Expansion.
+expansion.
 
 During a contraction: incomes fall, pushing taxpayers into lower tax brackets. The average tax rate
 Falls, leaving more disposable income available for consumption. This cushions the contraction.
@@ -259,7 +301,7 @@ Falls, leaving more disposable income available for consumption. This cushions t
 
 During a contraction: unemployment rises, more people claim benefits. Government transfer payments
 Automatically increase, supporting household incomes and consumption. This prevents a deeper fall in
-Aggregate demand.
+aggregate demand.
 
 During an expansion: unemployment falls, fewer people claim benefits. Government transfer payments
 Automatically decrease, reducing household income growth. This prevents excessive overheating.
@@ -288,12 +330,14 @@ They are the first line of defence against economic fluctuations.
 When the government runs a budget deficit, it must borrow by issuing government bonds. Accumulated
 Deficits over time constitute the national debt.
 
-$$\mathrm{Debt}_{t} = \mathrm{Debt}_{t-1} + \mathrm{Deficit}_{t}$$
+$$
+\mathrm{Debt}_{t} = \mathrm{Debt}_{t-1} + \mathrm{Deficit}_{t}
+$$
 
 ### Crowding-Out Effect
 
 The crowding-out effect occurs when increased government borrowing to finance a deficit drives up
-Interest rates, which reduces private investment.
+interest rates, which reduces private investment.
 
 **Mechanism:**
 
@@ -304,14 +348,18 @@ Interest rates, which reduces private investment.
 5. The increase in government spending is partially or fully offset by a decrease in private
    investment.
 
-$$\mathrm{Full crowding out: } \Delta G = -\Delta I$$
+$$
+\mathrm{Full crowding out: } \Delta G = -\Delta I
+$$
 
 In the extreme case (full crowding out), the increase in government spending is exactly offset by
-The decrease in private investment, and aggregate demand does not change at all. The composition of
-Output shifts from investment to government spending, which may reduce long-run growth (investment
+the decrease in private investment, and aggregate demand does not change at all. The composition of
+output shifts from investment to government spending, which may reduce long-run growth (investment
 Drives productivity improvements).
 
 ### Factors Affecting the Degree of Crowding Out
+
+<div class="table-wrap">
 
 | Factor                          | Effect on Crowding Out                                                                                                                                                                  |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -321,6 +369,8 @@ Drives productivity improvements).
 | Openness of the economy         | In a small open economy with mobile capital (like Hong Kong), higher interest rates attract foreign capital inflows, which moderate the rise in domestic rates and reduce crowding out. |
 | Elasticity of investment demand | If investment is highly interest-elastic (sensitive to rate changes), crowding out is larger.                                                                                           |
 | Source of financing             | If financed by issuing bonds, crowding out occurs. If financed by money creation (monetised), crowding out is avoided but inflation risk increases.                                     |
+
+</div>
 
 ---
 
@@ -338,7 +388,7 @@ Drives productivity improvements).
 ### Definition
 
 Monetary policy is the central bank's use of interest rates, money supply, and other tools to
-Influence aggregate demand, inflation, and economic growth. For a detailed discussion of monetary
+influence aggregate demand, inflation, and economic growth. For a detailed discussion of monetary
 Policy tools, see
 [../8-money-and-banking/1_money-and-banking](/economics/8-money-and-banking/1_money-and-banking/).
 
@@ -348,6 +398,8 @@ Policy tools, see
 
 **Instruments:**
 
+<div class="table-wrap">
+
 | Instrument                     | Mechanism                                                                                                                       |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
 | Lower the policy interest rate | Reduces cost of borrowing for banks; banks lower lending rates; consumers and firms borrow and spend more.                      |
@@ -355,17 +407,23 @@ Policy tools, see
 | Open market purchases          | Central bank buys government bonds; injects reserves into the banking system; interest rates fall.                              |
 | Quantitative easing (QE)       | Central bank buys large quantities of longer-term securities; further lowers long-term interest rates; increases bank reserves. |
 
+</div>
+
 ### Contractionary Monetary Policy
 
 **Objective:** Reduce aggregate demand to combat inflation.
 
 **Instruments:**
 
+<div class="table-wrap">
+
 | Instrument                     | Mechanism                                                                                          |
 | ------------------------------ | -------------------------------------------------------------------------------------------------- |
 | Raise the policy interest rate | Increases cost of borrowing; banks raise lending rates; consumers and firms borrow and spend less. |
 | Raise the reserve ratio        | Banks must hold more reserves; credit creation contracts; money supply decreases.                  |
 | Open market sales              | Central bank sells government bonds; drains reserves from the banking system; interest rates rise. |
+
+</div>
 
 ### Transmission Mechanism of Monetary Policy
 
@@ -380,6 +438,8 @@ Response to the policy rate change. Bond yields adjust. The yield curve shifts.
 
 **Step 3: Transmission channels:**
 
+<div class="table-wrap">
+
 | Channel               | Mechanism                                                                                                                                                                                                     |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Interest rate channel | Lower rates reduce the cost of borrowing for households (mortgages, car loans) and firms (business loans). Consumption and investment increase.                                                               |
@@ -387,6 +447,8 @@ Response to the policy rate change. Bond yields adjust. The yield curve shifts.
 | Asset price channel   | Lower rates increase the present value of future cash flows, raising asset prices (stocks, bonds, property). Higher asset prices increase household wealth, boosting consumption (wealth effect).             |
 | Credit channel        | Lower policy rates improve banks' willingness to lend. Firms and households find it easier to obtain credit.                                                                                                  |
 | Expectations channel  | Central bank communication about future policy influences expectations. If firms and households expect lower rates to persist, they bring forward spending and investment decisions.                          |
+
+</div>
 
 **Step 4: Aggregate demand shifts.** The combined effect of these channels shifts the aggregate
 Demand curve (to the right for expansionary policy, to the left for contractionary policy).
@@ -396,6 +458,8 @@ Run. If the economy is near full employment, higher AD primarily raises prices (
 
 ### Limitations of Monetary Policy
 
+<div class="table-wrap">
+
 | Limitation                      | Description                                                                                                                |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Time lags                       | The full effect of a rate change takes 12-18 months. By the time the effect is felt, economic conditions may have changed. |
@@ -404,6 +468,8 @@ Run. If the economy is near full employment, higher AD primarily raises prices (
 | Exchange rate constraint        | For countries with fixed exchange rates (like Hong Kong), monetary policy is constrained by the need to maintain the peg.  |
 | Unpredictable velocity of money | The relationship between money supply changes and nominal GDP changes may be unstable during financial crises.             |
 | Distributional effects          | Lower interest rates boost asset prices (benefiting asset owners) more than wages, potentially exacerbating inequality.    |
+
+</div>
 
 ---
 
@@ -421,13 +487,15 @@ Run. If the economy is near full employment, higher AD primarily raises prices (
 ### Definition
 
 Supply-side policies aim to increase the productive capacity of the economy (shift the LRAS curve to
-The right) by improving the quantity, quality, and efficiency of factors of production. Unlike
-Demand-side policies (fiscal and monetary policy), supply-side policies address the supply side of
-The economy and are the primary tool for achieving long-run economic growth.
+the right) by improving the quantity, quality, and efficiency of factors of production. Unlike
+demand-side policies (fiscal and monetary policy), supply-side policies address the supply side of
+the economy and are the primary tool for achieving long-run economic growth.
 
 ### Market-Oriented Supply-Side Policies
 
 These policies rely on market forces and incentives, with minimal government intervention.
+
+<div class="table-wrap">
 
 | Policy                  | Description                                                                                                                                                                                                   |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -439,9 +507,13 @@ These policies rely on market forces and incentives, with minimal government int
 | Encouraging competition | Strengthening anti-trust / competition law to prevent monopolies and cartels. Promoting new firm entry. Reducing barriers to entrepreneurship.                                                                |
 | Property rights reform  | Strengthening legal protection of private property rights. Secure property rights encourage investment and long-term planning.                                                                                |
 
+</div>
+
 ### Interventionist Supply-Side Policies
 
 These policies involve direct government action and spending.
+
+<div class="table-wrap">
 
 | Policy                    | Description                                                                                                                                                                                  |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -452,7 +524,11 @@ These policies involve direct government action and spending.
 | Healthcare investment     | A healthier workforce is more productive and takes fewer sick days. Government healthcare spending improves human capital.                                                                   |
 | Regional policy           | Government incentives for firms to locate in depressed areas. Reduces regional inequality and structural unemployment.                                                                       |
 
+</div>
+
 ### Comparison: Market-Oriented vs Interventionist Supply-Side Policies
+
+<div class="table-wrap">
 
 | Criterion          | Market-Oriented                                       | Interventionist                                              |
 | ------------------ | ----------------------------------------------------- | ------------------------------------------------------------ |
@@ -461,6 +537,8 @@ These policies involve direct government action and spending.
 | Cost to government | Low (may even increase tax revenue through growth)    | High (requires significant government spending)              |
 | Risk               | May increase inequality if deregulation harms workers | May create government failure, inefficiency                  |
 | Examples           | Thatcher (UK), Reagan (US)                            | East Asian industrial policy (Japan, South Korea, Singapore) |
+
+</div>
 
 ---
 
@@ -476,7 +554,7 @@ These policies involve direct government action and spending.
 ## Policy Conflicts and Trade-Offs
 
 Macroeconomic policies frequently conflict with one another. Achieving all objectives simultaneously
-Is rarely possible, forcing policymakers to make trade-offs.
+is rarely possible, forcing policymakers to make trade-offs.
 
 ### Inflation vs Unemployment
 
@@ -491,34 +569,34 @@ Policy reduces inflation but increases unemployment.
 
 Rapid economic growth (driven by strong aggregate demand) tends to generate inflationary pressure,
 Especially as the economy approaches full capacity. Policymakers must balance the desire for growth
-With the need for price stability.
+with the need for price stability.
 
 ### Economic Growth vs Environment
 
 Economic growth driven by industrial production and consumption often increases pollution, resource
 Depletion, and carbon emissions. Supply-side policies that increase productive capacity may also
-Increase environmental degradation unless paired with environmental regulation.
+increase environmental degradation unless paired with environmental regulation.
 
 **Policy conflict:** Deregulation and reduced trade barriers promote growth but may increase
 Pollution. Environmental regulation protects the environment but may increase business costs and
-Reduce competitiveness.
+reduce competitiveness.
 
 ### Balance of Payments vs Domestic Objectives
 
 Expansionary monetary policy (lower interest rates) may stimulate domestic growth but can cause
 Currency depreciation, which may worsen the trade balance (if the Marshall-Lerner condition is not
-Met in the short run) and cause imported inflation.
+met in the short run) and cause imported inflation.
 
 Contractionary monetary policy (higher interest rates) may reduce inflation but attract capital
 Inflows, causing currency appreciation, which may worsen the trade balance (exports become more
-Expensive).
+expensive).
 
 ### Fiscal Policy vs Monetary Policy
 
 **Conflict:** If the government runs a large deficit (expansionary fiscal policy) while the central
 Bank is raising interest rates (contractionary monetary policy), the two policies work at
 Cross-purposes. The government's borrowing pushes interest rates up, while the central bank also
-Pushes rates up, creating very tight financial conditions.
+pushes rates up, creating very tight financial conditions.
 
 **Coordination:** Ideally, fiscal and monetary policy should be coordinated. During a recession,
 Both should be expansionary. During inflation, both should be contractionary. In practice,
@@ -539,7 +617,7 @@ Hong Kong faces unique constraints:
    stabiliser.
 
 Given these constraints, Hong Kong relies more on automatic stabilisers, land supply management, and
-Targeted fiscal measures than on discretionary macroeconomic policy.
+targeted fiscal measures than on discretionary macroeconomic policy.
 
 ---
 
@@ -628,7 +706,7 @@ Targeted fiscal measures than on discretionary macroeconomic policy.
 An economy has MPC = 0.75, MPT = 0.1, and MPM = 0.1.
 
 (a) Calculate the multiplier. (b) If the government increases spending by USD 50 billion, what is
-The total change in national income? (c) If the government instead cuts taxes by USD 50 billion,
+the total change in national income? (c) If the government instead cuts taxes by USD 50 billion,
 What is the total change in national income? (d) Which policy is more effective? Explain.
 
 (a) Multiplier = 1 / (MPS + MPT + MPM) = 1 / (0.25 + 0.1 + 0.1) = 1 / 0.45 = 2.22
@@ -640,9 +718,9 @@ What is the total change in national income? (d) Which policy is more effective?
 Change in Y = -1.67 x (-50) = 83.5 billion
 
 (d) The spending increase is more effective (111.1 vs 83.5 billion) because the full USD 50 billion
-Is injected directly into the economy. With a tax cut, only MPC x 50 = 37.5 billion is initially
+is injected directly into the economy. With a tax cut, only MPC x 50 = 37.5 billion is initially
 Spent (the remaining 12.5 billion is saved). The initial injection is smaller, so the total effect
-Is smaller.
+is smaller.
 
 </details>
 <details>
@@ -650,7 +728,7 @@ Is smaller.
 
 An economy is at full employment. The government increases spending by USD 80 billion. The MPC is
 0.6, and there are no taxes or imports. Assume the interest rate rises enough to fully crowd out
-Private investment.
+private investment.
 
 (a) Calculate the simple multiplier. (b) What is the change in national income without crowding out?
 (c) With full crowding out, what is the actual change in national income? (d) By how much does
@@ -661,7 +739,7 @@ Private investment change?
 (b) Without crowding out: Change in Y = 2.5 x 80 = 200 billion
 
 (c) With full crowding out: The increase in government spending is exactly offset by a decrease in
-Private investment. AD does not change, so national income does not change. Change in Y = 0.
+private investment. AD does not change, so national income does not change. Change in Y = 0.
 
 (d) Private investment decreases by USD 80 billion. The increase in government borrowing drives
 Interest rates up by enough to reduce private investment by exactly the amount of the government
@@ -674,15 +752,15 @@ Note: Full crowding out is a theoretical extreme. In practice, crowding out is p
 <summary>Question 3: Policy Mix</summary>
 
 An economy is experiencing high inflation (8%) and high unemployment (9%). The natural rate of
-Unemployment is 5%.
+unemployment is 5%.
 
 (a) What type of gap does the economy have? (b) Can demand-side policy alone solve both problems?
 Explain. (c) What combination of policies would you recommend?
 
 (a) The economy has STAGFLATION: high inflation AND high unemployment. The actual unemployment rate
 (9%) exceeds the natural rate (5%), indicating a recessionary gap in output. However, inflation is
-Also high (8%), which is inconsistent with a simple recessionary gap. This situation is caused by a
-Leftward shift of the SRAS curve (cost-push inflation), not by excess demand.
+also high (8%), which is inconsistent with a simple recessionary gap. This situation is caused by a
+leftward shift of the SRAS curve (cost-push inflation), not by excess demand.
 
 (b) No, demand-side policy alone cannot solve both problems simultaneously:
 
@@ -690,7 +768,7 @@ Leftward shift of the SRAS curve (cost-push inflation), not by excess demand.
 - Contractionary fiscal/monetary policy would reduce inflation but worsen unemployment.
 
 This is a policy dilemma because the standard demand management tools move inflation and
-Unemployment in opposite directions.
+unemployment in opposite directions.
 
 (c) The recommended policy mix is:
 
@@ -711,14 +789,14 @@ Hong Kong's government runs a budget surplus of HKD 100 billion. The economy is 
 GDP growth) and inflation is 1.5%.
 
 (a) What type of fiscal policy is this? (b) What effect does this have on aggregate demand? (c) Is
-This policy appropriate given the economic conditions? Explain. (d) What are the constraints on Hong
+this policy appropriate given the economic conditions? Explain. (d) What are the constraints on Hong
 Kong's fiscal policy?
 
 (a) A budget surplus is a **contractionary** fiscal stance (tax revenue exceeds government spending,
 Withdrawing net demand from the economy).
 
 (b) The surplus reduces aggregate demand. The government is removing more purchasing power from the
-Economy (through taxes) than it is injecting (through spending).
+economy (through taxes) than it is injecting (through spending).
 
 (c) The appropriateness depends on the position of the economy relative to potential output:
 
@@ -729,7 +807,7 @@ Economy (through taxes) than it is injecting (through spending).
   of 2-3%), there may be room for expansionary policy.
 
 With growth at 2% and inflation at 1.5%, the economy appears to be operating below its potential. A
-Budget surplus may not be the most appropriate fiscal stance in this context.
+budget surplus may not be the most appropriate fiscal stance in this context.
 
 (d) Hong Kong's fiscal policy constraints:
 
@@ -744,7 +822,7 @@ Budget surplus may not be the most appropriate fiscal stance in this context.
 <summary>Question 5: Balanced Budget Multiplier</summary>
 
 The government increases both spending and taxes by USD 60 billion. MPC = 0.8. There are no imports
-And no proportional taxes.
+and no proportional taxes.
 
 (a) Calculate the spending multiplier. (b) Calculate the change in national income from the spending
 Increase alone. (c) Calculate the change in national income from the tax increase alone. (d)
@@ -766,34 +844,34 @@ The balanced budget multiplier is 1. Equal increases in government spending and 
 National income by the same amount as the increase in spending. This is because all of the spending
 Increase is injected, but only the portion of the tax increase that would have been consumed (MPC x
 Delta T = 48 billion) is withdrawn from spending. The remaining 12 billion of the tax increase would
-Have been saved, so its withdrawal does not reduce consumption.
+have been saved, so its withdrawal does not reduce consumption.
 
 </details>
 <details>
 <summary>Question 6: Monetary Policy Transmission</summary>
 
 The central bank lowers the base rate by 1 percentage point. Trace the full transmission mechanism
-And explain the expected effects on each sector of the economy, assuming the economy is in a
-Recession with high unemployment and low inflation.
+and explain the expected effects on each sector of the economy, assuming the economy is in a
+recession with high unemployment and low inflation.
 
 **Step 1: Policy rate change.** The central bank lowers the base rate by 1 percentage point.
 
 **Step 2: Market interest rates adjust.** Commercial banks lower their prime lending rates, mortgage
 Rates, and deposit rates. Bond yields fall as existing bonds with higher coupon rates become more
-Valuable, pushing up their prices and lowering yields.
+valuable, pushing up their prices and lowering yields.
 
 **Step 3: Transmission channels operate:**
 
 Interest rate channel: Lower mortgage rates reduce monthly housing costs for variable-rate
 Borrowers, increasing disposable income. Lower business loan rates reduce the cost of financing
 Investment projects. Firms with viable projects that were previously marginal (expected return just
-Below the old borrowing cost) now find them profitable and proceed. Consumption of big-ticket
+below the old borrowing cost) now find them profitable and proceed. Consumption of big-ticket
 Durables (cars, appliances) financed by credit increases.
 
 Exchange rate channel: Lower domestic interest rates reduce the attractiveness of domestic assets to
-Foreign investors. Capital flows out, depreciating the domestic currency. Export goods become
+foreign investors. Capital flows out, depreciating the domestic currency. Export goods become
 Cheaper for foreign buyers (boosting export volumes and revenue). Import goods become more expensive
-For domestic consumers (reducing import volumes). Net exports increase, further stimulating
+for domestic consumers (reducing import volumes). Net exports increase, further stimulating
 Aggregate demand.
 
 Asset price channel: Lower discount rates increase the present value of future cash flows. Stock
@@ -803,10 +881,10 @@ Financing encourages firms to raise capital by issuing shares.
 
 Credit channel: Banks' funding costs fall, improving their willingness to extend credit. Lending
 Standards may be relaxed. Firms and households that were previously credit-constrained gain access
-To borrowing.
+to borrowing.
 
 Expectations channel: The rate cut signals that the central bank is committed to supporting the
-Economy. Business confidence improves. Firms may bring forward investment plans that they had
+economy. Business confidence improves. Firms may bring forward investment plans that they had
 Postponed. Consumers expecting economic recovery may increase spending rather than precautionary
 Saving.
 
@@ -815,7 +893,7 @@ Shifts right.
 
 **Step 5: Real output and prices adjust.** With the economy in recession (output below potential),
 The increase in AD primarily raises real GDP and employment. The output gap narrows. Inflation may
-Rise slightly but remains below target due to the large output gap. The economy moves toward full
+rise slightly but remains below target due to the large output gap. The economy moves toward full
 Employment without generating significant inflationary pressure.
 
 </details>
@@ -826,14 +904,14 @@ An economy has the following characteristics: high structural unemployment (6%),
 Growth (0.5% per year), declining competitiveness in manufacturing, and an ageing population.
 
 Evaluate the effectiveness of market-oriented and interventionist supply-side policies for
-Addressing each of these problems.
+addressing each of these problems.
 
 **Structural unemployment (6%):**
 
 Market-oriented: Labour market deregulation (reducing employment protection legislation, minimum
 Wage reform) may increase hiring flexibility but risks reducing job security and worker welfare.
 Reducing unemployment benefits may increase the incentive to search for work but pushes some
-Unemployed into poverty.
+unemployed into poverty.
 
 Interventionist: Government-funded retraining programmes directly address the skills mismatch.
 Education reform (emphasising STEM, vocational training) improves the long-term skills base.
@@ -847,18 +925,18 @@ State-owned enterprises forces productivity improvements through competition. Re
 Barriers exposes domestic firms to international competition, compelling efficiency gains.
 
 Interventionist: Government funding for basic research (which has large positive externalities that
-Private firms under-invest in). Infrastructure investment (broadband, transport, energy) reduces
+private firms under-invest in). Infrastructure investment (broadband, transport, energy) reduces
 Business costs and raises productivity. Industrial policy targeting high-productivity sectors.
 
 **Declining manufacturing competitiveness:**
 
 Market-oriented: Free trade agreements reduce input costs and open export markets. Currency
 Flexibility allows exchange rate adjustment. Reducing corporate tax rates improves after-tax returns
-On investment.
+on investment.
 
 Interventionist: Targeted subsidies for advanced manufacturing. Special economic zones with tax
 Breaks and streamlined regulation. Government-backed loans for manufacturing firms investing in
-Automation and technology upgrading.
+automation and technology upgrading.
 
 **Ageing population:**
 
@@ -867,8 +945,8 @@ Reform to attract young, skilled workers. Tax incentives for private pension sav
 Fiscal burden.
 
 Interventionist: Healthcare investment to extend healthy working years. Lifelong learning programmes
-To retrain older workers. Family-friendly policies (childcare subsidies, parental leave) to increase
-The birth rate over the long term (though this is a very slow policy).
+to retrain older workers. Family-friendly policies (childcare subsidies, parental leave) to increase
+the birth rate over the long term (though this is a very slow policy).
 
 ### Limitations of Supply-Side Policies
 
@@ -891,7 +969,7 @@ The birth rate over the long term (though this is a very slow policy).
 ### Fiscal Policy in Hong Kong: Special Considerations
 
 Hong Kong's fiscal policy operates under unique institutional constraints that differ from
-Conventional macroeconomic frameworks:
+conventional macroeconomic frameworks:
 
 1. **No independent monetary policy:** Because Hong Kong operates the Linked Exchange Rate System
    (pegged to the USD), monetary policy is imported from the US. Fiscal policy bears a heavier
@@ -913,9 +991,9 @@ Conventional macroeconomic frameworks:
    are relatively low by international standards.
 
 Despite these constraints, Hong Kong's government has used fiscal policy counter-cyclically, notably
-During the 2008-09 Global Financial Crisis (economic stimulus packages), the 2020 COVID-19 pandemic
+during the 2008-09 Global Financial Crisis (economic stimulus packages), the 2020 COVID-19 pandemic
 (consumption vouchers, wage subsidies under the Anti-epidemic Fund), and the 2019 social unrest. The
-Consumption Voucher Scheme distributed HKD 10,000 to each permanent resident to stimulate domestic
+consumption Voucher Scheme distributed HKD 10,000 to each permanent resident to stimulate domestic
 Consumption during the pandemic-induced recession.
 
 ---
@@ -989,7 +1067,7 @@ If you get this wrong, revise: [Balanced Budget Multiplier](#common-pitfalls)
 The government runs a deficit of USD 60 billion in a small open economy. The MPC is 0.8.
 
 (a) Calculate the simple multiplier and the potential increase in GDP without crowding out. (b) If
-Crowding out reduces private investment by USD 30 billion, what is the actual increase in GDP? (c)
+crowding out reduces private investment by USD 30 billion, what is the actual increase in GDP? (c)
 Why Might crowding out be less severe in a small open economy?
 
 </details>
@@ -1040,7 +1118,7 @@ If you get this wrong, revise: [Policy Conflicts and Trade-Offs](#policy-conflic
 <summary>Problem 5: Automatic Stabilisers</summary>
 
 During a recession, GDP falls by USD 200 billion. The economy has a progressive tax system with an
-Average tax rate of 20% and unemployment benefits that automatically increase by USD 0.30 for every
+average tax rate of 20% and unemployment benefits that automatically increase by USD 0.30 for every
 USD 1 of GDP lost.
 
 (a) By how much do tax revenues automatically fall? (b) By how much do unemployment benefits
@@ -1051,10 +1129,10 @@ Automatically increase? (c) What is the total automatic stabilisation effect?
 <summary>Solution</summary>
 
 (a) Tax revenue fall = `0.20 \times 200 = 40` billion. This leaves more disposable income in the
-Economy than would occur under a lump-sum tax.
+economy than would occur under a lump-sum tax.
 
 (b) Benefit increase = `0.30 \times 200 = 60` billion. This supports household incomes during the
-Downturn.
+downturn.
 
 (c) Total automatic stabilisation = `40 + 60 = 100` billion. This is equivalent to an automatic
 Fiscal stimulus of USD 100 billion, dampening the recession without any legislative action.
@@ -1116,7 +1194,7 @@ recession.
 
 (c) Yes. Since Hong Kong lacks independent monetary policy, fiscal policy becomes the primary
 Stabilisation tool. The government could increase spending (infrastructure, consumption vouchers) or
-Cut taxes to stimulate aggregate demand. Fiscal reserves provide the capacity for expansionary
+cut taxes to stimulate aggregate demand. Fiscal reserves provide the capacity for expansionary
 fiscal Policy.
 
 If you get this wrong, revise: [Hong Kong's Policy Constraints](#hong-kongs-policy-constraints)
@@ -1127,7 +1205,7 @@ If you get this wrong, revise: [Hong Kong's Policy Constraints](#hong-kongs-poli
 <summary>Problem 8: Policy Coordination</summary>
 
 Country Z's central bank is raising interest rates to combat inflation. At the same time, the
-Government is increasing spending to reduce unemployment.
+government is increasing spending to reduce unemployment.
 
 (a) Describe the conflict between these two policies. (b) What are the likely effects on interest
 Rates, investment, and inflation? (c) What would you advise?
@@ -1137,13 +1215,13 @@ Rates, investment, and inflation? (c) What would you advise?
 <summary>Solution</summary>
 
 (a) The central bank's contractionary policy raises interest rates to reduce AD and inflation. The
-Government's expansionary fiscal policy increases AD, raising output and inflation. These work at
+government's expansionary fiscal policy increases AD, raising output and inflation. These work at
 Cross-purposes. The government's borrowing also pushes interest rates higher, amplifying the central
 Bank's tightening.
 
 (b) Interest rates rise more than the central bank intended (due to both central bank action and
-Government borrowing). Investment is squeezed from both sides (higher rates from monetary policy and
-Crowding out from fiscal policy). The net effect on inflation is ambiguous -- on which Policy is
+government borrowing). Investment is squeezed from both sides (higher rates from monetary policy and
+crowding out from fiscal policy). The net effect on inflation is ambiguous -- on which Policy is
 stronger.
 
 (c) The policies should be coordinated. If inflation is the primary concern, fiscal policy should
@@ -1289,13 +1367,17 @@ a financial crisis.
 
 (a) Money multiplier with excess reserves and currency drain:
 
-$$m = \frac{1 + cr}{rrr + er + cr} = \frac{1 + 0.10}{0.05 + 0.03 + 0.10} = \frac{1.10}{0.18} = 6.11$$
+$$
+m = \frac{1 + cr}{rrr + er + cr} = \frac{1 + 0.10}{0.05 + 0.03 + 0.10} = \frac{1.10}{0.18} = 6.11
+$$
 
 (b) $\Delta M = m \times \Delta B = 6.11 \times 30 = \text{HK}\$183.3$ billion.
 
 (c) With $er = 0.08$:
 
-$$m = \frac{1.10}{0.05 + 0.08 + 0.10} = \frac{1.10}{0.23} = 4.78$$
+$$
+m = \frac{1.10}{0.05 + 0.08 + 0.10} = \frac{1.10}{0.23} = 4.78
+$$
 
 $\Delta M = 4.78 \times 30 = \text{HK}\$143.5$ billion.
 
@@ -1336,7 +1418,7 @@ the concept of stagflation and why it presents a policy dilemma.
 $Y_{SR} = 950$, $P_{SR} = 100 + 0.5 \times 50 = 125$ (using the given Phillips curve relationship).
 
 More precisely, the adverse supply shock shifts SRAS left. At the original price level
-$P = 100$Firms now produce 5% less: $Y = 950$. The resulting excess demand pushes prices up along
+$P = 100$ Firms now produce 5% less: $Y = 950$. The resulting excess demand pushes prices up along
 the new SRAS until a new short-run equilibrium is reached. Output falls below potential and prices
 rise -- this is stagflation.
 
@@ -1418,7 +1500,7 @@ often cited as dangerous. Yet Japan has not faced a debt crisis because:
    foreign investors who could suddenly withdraw.
 2. **Low interest rates:** The Bank of Japan's yield curve control policy keeps JGB yields near
    zero. Even with a debt/GDP of 250%, the interest burden is only about 1% of GDP
-   ($0.25 \times 0.004 = 0.001$Assuming a 0.4% yield).
+   ($0.25 \times 0.004 = 0.001$ Assuming a 0.4% yield).
 3. **Current account surplus:** Japan runs a persistent current account surplus, meaning it is a net
    creditor to the world. The government can always borrow from its own citizens' savings.
 4. **High domestic savings rate:** Japan's aging population saves heavily, providing a ready source
@@ -1511,17 +1593,6 @@ _Limitations:_
 
 If you get this wrong, revise: [Supply-Side Policy](/economics/6-government-policy/1_fiscal-and-monetary-policy/)
 
-
-```mermaid
-flowchart TD
-    A[1_Fiscal And Monetary Policy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 policy, including key models, evidence, and policy implications.
@@ -1543,5 +1614,3 @@ success in this subject.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

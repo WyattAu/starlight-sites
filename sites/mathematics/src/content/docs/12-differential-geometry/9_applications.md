@@ -25,7 +25,9 @@ determined by the distribution of matter and energy via the Einstein field equat
 
 **Example (Schwarzschild Metric).** The metric outside a spherically symmetric mass $M$ is:
 
-$$ds^2 = -\left(1 - \frac{2GM}{c^2 r}\right)c^2 dt^2 + \left(1 - \frac{2GM}{c^2 r}\right)^{-1} dr^2 + r^2 d\Omega^2$$
+$$
+ds^2 = -\left(1 - \frac{2GM}{c^2 r}\right)c^2 dt^2 + \left(1 - \frac{2GM}{c^2 r}\right)^{-1} dr^2 + r^2 d\Omega^2
+$$
 
 This metric describes non-rotating black holes and predicts phenomena such as gravitational
 redshift, perihelion precession, and gravitational lensing.
@@ -34,7 +36,9 @@ redshift, perihelion precession, and gravitational lensing.
 tidal forces experienced by extended bodies. The Ricci tensor $R_{\mu\nu} = R^\rho_{\ \mu\rho\nu}$
 and scalar curvature $R = g^{\mu\nu}R_{\mu\nu}$ appear directly in the Einstein field equations:
 
-$$R_{\mu\nu} - \frac{1}{2}Rg_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}$$
+$$
+R_{\mu\nu} - \frac{1}{2}Rg_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}
+$$
 
 ### 9.2 Gauge Theory
 
@@ -93,7 +97,9 @@ measured by the first fundamental form.
 The **Gauss-Bonnet theorem** relates the total Gaussian curvature of a surface to its Euler
 characteristic:
 
-$$\int_M K\,dA + \int_{\partial M} k_g\,ds = 2\pi\chi(M)$$
+$$
+\int_M K\,dA + \int_{\partial M} k_g\,ds = 2\pi\chi(M)
+$$
 
 For a compact orientable surface without boundary, $\int_M K\,dA = 2\pi\chi(M)$. This explains
 why a sphere (Euler characteristic 2) cannot be mapped to a plane without distortion: the total
@@ -108,7 +114,7 @@ In string theory, the worldsheet of a propagating string is a 2-dimensional Lore
 embedded in a higher-dimensional spacetime. The equations of motion derive from the Polyakov
 action, whose symmetries include diffeomorphism invariance and Weyl rescaling.
 
-**Calabi-Yau manifolds** are compact Ricci-flat K\"ahler manifolds used for the extra spatial
+**Calabi-Yau manifolds** are compact Ricci-flat Kähler manifolds used for the extra spatial
 dimensions in string compactifications. Their holonomy group $SU(n)$ preserves supersymmetry,
 and their Hodge numbers determine the particle spectrum of the effective 4-dimensional theory.
 
@@ -127,17 +133,6 @@ low-dimensional embedding.
 
 **t-SNE and UMAP** use local neighbourhood information to construct embeddings that preserve
 the local geometry of the data manifold, revealing clustering and topological structure.
-
-
-```mermaid
-flowchart TD
-    A[9_Applications] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -171,10 +166,10 @@ uses Calabi-Yau manifolds, and manifold learning algorithms exploit geometry for
 - **[The Gauss-Bonnet Theorem](/12-differential-geometry/8_the-gauss-bonnet-theorem/)**: Relates total Gaussian curvature to the Euler characteristic, explaining cartographic constraints and serving as a prototype for index theorems.
 - **[Tangent Spaces and Tangent Bundles](/12-differential-geometry/2_tangent-spaces-and-tangent-bundles/)**: Provides the tangent bundle and connection theory needed to formulate geodesics as a rule relativity and gauge fields.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 

@@ -18,16 +18,6 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Metaprogramming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Metaprogramming is code that writes or modifies code. In Ruby, everything is an object and every operation is a message send, making the language highly reflective. Open classes let you modify existing types at runtime, and `method_missing` catches calls to undefined methods, enabling dynamic dispatch. These techniques are powerful but risky: modifying core classes affects the entire program. Refinements provide a safer alternative by limiting monkey patching to specific lexical scopes.
@@ -40,7 +30,7 @@ exceptionally well-suited for metaprogramming because:
 - Classes and modules are open -- they can be modified at any time
 - Methods can be defined, removed, and aliased dynamically
 - Every operation (including method calls and class definitions) is expressed as a message send
-- Ruby"s reflective API provides deep introspection capabilities
+- Ruby's reflective API provides deep introspection capabilities
 - Blocks, procs, and lambdas are first-class objects
 
 ## Open Classes
@@ -106,7 +96,7 @@ end
 
 ## method_missing
 
-`method_missing` is Ruby"s mechanism for handling unknown method calls:
+`method_missing` is Ruby's mechanism for handling unknown method calls:
 
 ```ruby
 class DynamicProxy
@@ -966,8 +956,8 @@ emp.job_title  # => "Engineer"
 
 ## Common Mistakes
 
-**Monkey patching core classes globally:** Adding methods to `String``Array`or `Integer` affects the entire program and can cause unexpected conflicts with gems. Use refinements instead to limit scope.
+**Monkey patching core classes globally:** Adding methods to `String`, `Array`or `Integer` affects the entire program and can cause unexpected conflicts with gems. Use refinements instead to limit scope.
 
-**Forgetting to define `respond_to_missing?`:** If you override `method_missing` but not `respond_to_missing?``respond_to?` returns `false` for methods your proxy handles, breaking duck typing.
+**Forgetting to define `respond_to_missing?`:** If you override `method_missing` but not `respond_to_missing?`, `respond_to?` returns `false` for methods your proxy handles, breaking duck typing.
 
-**Using `eval` with user input:** `eval` executes arbitrary Ruby code, creating a critical security vulnerability. Use `send``public_send`or `define_method` instead for dynamic dispatch.
+**Using `eval` with user input:** `eval` executes arbitrary Ruby code, creating a critical security vulnerability. Use `send`, `public_send`or `define_method` instead for dynamic dispatch.

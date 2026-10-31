@@ -5,7 +5,7 @@ title: "Eigenvalues and Eigenvectors"
 tags:
   - Mathematics
   - University
-description: 'Let . A scalar is an of if there Exists a non-zero vector such that Comprehensive educational content coverage with definitions and practice problems.'
+description: "Eigenvalues and eigenvectors: the characteristic polynomial, diagonalisation, the Cayley-Hamilton theorem, Jordan normal form, and the spectral theorem for real symmetric matrices -- with what each is for, why not every matrix is diagonalisable, and what you get instead. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -17,17 +17,73 @@ description: 'Let . A scalar is an of if there Exists a non-zero vector such tha
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Define an eigenvalue and an eigenvector.
+- How do you find them? Write the equation whose roots they are.
+- What does it mean for a matrix to be diagonalisable, and what is the
+  condition?
+- State the Cayley-Hamilton theorem.
+- What does the spectral theorem guarantee for a real symmetric matrix, and why
+  is that matrix class special?
+
+Check your answers against the text. Prompt 3 is the one that separates
+computing eigenvalues from understanding the map: the condition is about
+eigenvectors, not eigenvalues.
+
+## Motivation: eigenvectors are the directions the map does not rotate
+
+A linear map mixes coordinates. Almost every vector you feed in comes out
+pointing somewhere unrelated. The eigenvectors are the exceptions: they come
+out pointing along themselves, changed only in length.
+
+That is the whole idea, and everything else follows from wanting to exploit it.
+If a basis of eigenvectors exists, then in that basis the map does nothing but
+scale each coordinate independently -- which is what diagonalisation *is*. A
+hard coupled problem becomes $n$ easy uncoupled ones.
+
+**The characteristic polynomial is where the eigenvalues hide.** An
+eigenvector satisfies $(A - \lambda I)v = 0$ with $v \neq 0$, which is possible
+only when $A - \lambda I$ is singular, so
+
+$$
+\det(A - \lambda I) = 0 .
+$$
+
+That determinant is a polynomial of degree $n$, so an $n \times n$ matrix has
+$n$ eigenvalues counted with multiplicity -- over $\mathbb{C}$, always. Over
+$\mathbb{R}$ it may have none at all, and a rotation is the standard example.
+
+**Not every matrix is diagonalisable, and Jordan form is what you get instead.**
+Diagonalisability is a statement about *eigenvectors*: you need $n$ of them,
+independent. A repeated eigenvalue may come with fewer independent
+eigenvectors than its algebraic multiplicity, and the missing directions are
+supplied by generalised eigenvectors -- which is what a Jordan block records.
+The distinction between algebraic and geometric multiplicity is the entire
+content of section 5.5.
+
+**Why symmetric matrices are the special case.** A real symmetric matrix is
+always diagonalisable, *by an orthogonal matrix*, and always has real
+eigenvalues. That is the spectral theorem, and it is why symmetric matrices are
+the ones that appear as observables in quantum mechanics and as quadratic forms
+in geometry: their eigenbases are orthonormal, so the change of basis costs
+nothing geometrically.
+
 ### 5.1 Definitions
 
 Let $A \in \mathcal{M}_{n \times n}(F)$. A scalar $\lambda \in F$ is an **eigenvalue** of $A$ if
 there Exists a non-zero vector $\mathbf{v} \in F^n$ such that
 
-$$A\mathbf{v} = \lambda \mathbf{v}$$
+$$
+A\mathbf{v} = \lambda \mathbf{v}
+$$
 
 The vector $\mathbf{v}$ is called an **eigenvector** corresponding to $\lambda$.
 
 The **eigenspace** corresponding to $\lambda$ is $E_\lambda = \ker(A - \lambda I)$. Its dimension is
-The **geometric multiplicity** of $\lambda$.
+the **geometric multiplicity** of $\lambda$.
 
 ### 5.2 Characteristic Polynomial
 
@@ -38,7 +94,7 @@ $A$. Its roots (in the algebraic closure of $F$) are the eigenvalues of $A$.
 
 If
 $p(\lambda) = (\\lambda - \\lambda_1)^{m_1}(\\lambda - \\lambda_2)^{m_2}\cdots(\\lambda - \\lambda_k)^{m_k}$
-With $\\lambda_1, \ldots, \\lambda_k$ distinct, then $m_i$ is the **algebraic multiplicity** of
+with $\\lambda_1, \ldots, \\lambda_k$ distinct, then $m_i$ is the **algebraic multiplicity** of
 $\\lambda_i$.
 
 **Proposition 5.2.** For each eigenvalue $\lambda$, $1 \leq \mathrm{dim}(E_\lambda) \leq m_\lambda$
@@ -49,7 +105,9 @@ $\\lambda_i$.
 **Definition.** $A$ is **diagonalisable** if there exists an invertible matrix $P$ and a diagonal
 Matrix $D$ such that
 
-$$A = PDP^{-1}$$
+$$
+A = PDP^{-1}
+$$
 
 **Theorem 5.3.** $A \in \mathcal{M}_{n \times n}(F)$ is diagonalisable (over $F$) if and only if $A$
 has $n$ linearly independent Eigenvectors (over $F$). Equivalently, the sum of the geometric
@@ -73,11 +131,15 @@ $\mathrm{adj}(\lambda I - A)$ is a polynomial in $\lambda$ of degree at most $n 
 $\mathrm{adj}(\lambda I - A) = B_{n-1}\lambda^{n-1} + \cdots + B_1\lambda + B_0$ for Matrices $B_i$.
 Multiplying out and comparing coefficients of $\lambda^k$:
 
-$$B_{n-1} = I, \quad B_{n-2} - AB_{n-1} = c_{n-1}I, \quad \ldots, \quad -AB_0 = c_0 I$$
+$$
+B_{n-1} = I, \quad B_{n-2} - AB_{n-1} = c_{n-1}I, \quad \ldots, \quad -AB_0 = c_0 I
+$$
 
 Multiplying the $k$-th equation on the left by $A^k$ and summing over $k$:
 
-$$A^n B_{n-1} + A^{n-1}(B_{n-2} - AB_{n-1}) + \cdots + A^0(-AB_0) = A^n + c_{n-1}A^{n-1} + \cdots + c_0 I = p(A)$$
+$$
+A^n B_{n-1} + A^{n-1}(B_{n-2} - AB_{n-1}) + \cdots + A^0(-AB_0) = A^n + c_{n-1}A^{n-1} + \cdots + c_0 I = p(A)
+$$
 
 But the left side telescopes to zero, so $p(A) = 0$. $\blacksquare$
 
@@ -89,11 +151,15 @@ Representation.
 **Theorem 5.6.** Let $A \in \mathcal{M}_{n \times n}(\mathbb{C})$. Then $A$ is similar to a
 block-diagonal Matrix
 
-$$J = \begin{pmatrix} J_1 & & \\ & \ddots & \\ & & J_k \end{pmatrix}$$
+$$
+J = \begin{pmatrix} J_1 & & \\ & \ddots & \\ & & J_k \end{pmatrix}
+$$
 
 Where each **Jordan block** has the form
 
-$$J_i = \begin{pmatrix} \lambda_i & 1 & & \\ & \lambda_i & \ddots & \\ & & \ddots & 1 \\ & & & \lambda_i \end{pmatrix}$$
+$$
+J_i = \begin{pmatrix} \lambda_i & 1 & & \\ & \lambda_i & \ddots & \\ & & \ddots & 1 \\ & & & \lambda_i \end{pmatrix}
+$$
 
 The Jordan form is unique up to permutation of the blocks.
 
@@ -104,7 +170,9 @@ eigenvectors**. A diagonalisable matrix has all Jordan blocks of size $1 \times 
 
 **Problem.** Find the Jordan normal form of
 
-$$A = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -112,13 +180,15 @@ $$A = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}$$
 The characteristic polynomial is $\det(A - \lambda I) = (3 - \lambda)^2$ So $\lambda = 3$ is the Only
 eigenvalue with algebraic multiplicity 2.
 
-$A - 3I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$Which has rank 1, so the geometric
+$A - 3I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ Which has rank 1, so the geometric
 Multiplicity is $\dim(\ker(A - 3I)) = 2 - 1 = 1$.
 
 Since the geometric multiplicity (1) is less than the algebraic multiplicity (2), $A$ is not
 Diagonalisable. The Jordan form has one block of size 2:
 
-$$J = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}$$
+$$
+J = \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}
+$$
 
 (In this case, $A$ is already in Jordan form.) $\blacksquare$
 
@@ -138,11 +208,15 @@ _Proof._ We prove (1) and then (2) and (3) by induction on $n$.
 **(1)** Let $\lambda \in \mathbb{C}$ be an eigenvalue with eigenvector $\mathbf{v} \in \mathbb{C}^n$
 $\mathbf{v} \neq \mathbf{0}$. Then
 
-$$\overline{\mathbf{v}}^T A \mathbf{v} = \overline{\mathbf{v}}^T (\lambda \mathbf{v}) = \lambda \overline{\mathbf{v}}^T \mathbf{v}$$
+$$
+\overline{\mathbf{v}}^T A \mathbf{v} = \overline{\mathbf{v}}^T (\lambda \mathbf{v}) = \lambda \overline{\mathbf{v}}^T \mathbf{v}
+$$
 
 Since $A = A^T$ and $A$ has real entries, $\overline{A} = A = A^T$ So
 
-$$\overline{\mathbf{v}}^T A \mathbf{v} = (A\overline{\mathbf{v}})^T \mathbf{v} = (\overline{A\mathbf{v}})^T \mathbf{v} = (\overline{\lambda}\,\overline{\mathbf{v}})^T \mathbf{v} = \overline{\lambda}\,\overline{\mathbf{v}}^T \mathbf{v}$$
+$$
+\overline{\mathbf{v}}^T A \mathbf{v} = (A\overline{\mathbf{v}})^T \mathbf{v} = (\overline{A\mathbf{v}})^T \mathbf{v} = (\overline{\lambda}\,\overline{\mathbf{v}})^T \mathbf{v} = \overline{\lambda}\,\overline{\mathbf{v}}^T \mathbf{v}
+$$
 
 Therefore $(\lambda - \overline{\lambda})\overline{\mathbf{v}}^T\mathbf{v} = 0$. Since
 $\overline{\mathbf{v}}^T\mathbf{v} \gt 0$ We have $\lambda = \overline{\lambda}$ So
@@ -156,7 +230,9 @@ $\mathbf{q}_1 = \mathbf{v}_1 / \lVert \mathbf{v}_1 \rVert$.
 Let $W = \mathbf{q}_1^\perp = \{\mathbf{w} \in \mathbb{R}^n : \mathbf{q}_1^T \mathbf{w} = 0\}$. For
 any $\mathbf{w} \in W$:
 
-$$\mathbf{q}_1^T (A\mathbf{w}) = (A\mathbf{q}_1)^T \mathbf{w} = (\lambda_1 \mathbf{q}_1)^T \mathbf{w} = \lambda_1 \cdot 0 = 0$$
+$$
+\mathbf{q}_1^T (A\mathbf{w}) = (A\mathbf{q}_1)^T \mathbf{w} = (\lambda_1 \mathbf{q}_1)^T \mathbf{w} = \lambda_1 \cdot 0 = 0
+$$
 
 So $A\mathbf{w} \in W$. Therefore $A$ restricts to a symmetric linear map $A|_W : W \to W$ on an
 $(n-1)$-dimensional space. By the inductive hypothesis, $W$ has an orthonormal basis
@@ -170,32 +246,46 @@ $\blacksquare$
 
 **Problem.** Find the eigenvalues, eigenvectors, and diagonalise
 
-$$A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 The characteristic polynomial is
 
-$$\det(A - \lambda I) = \det\begin{pmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{pmatrix} = (4 - \lambda)(3 - \lambda) - 2$$
+$$
+\det(A - \lambda I) = \det\begin{pmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{pmatrix} = (4 - \lambda)(3 - \lambda) - 2
+$$
 
-$$= \lambda^2 - 7\lambda + 10 = (\lambda - 5)(\lambda - 2)$$
+$$
+= \lambda^2 - 7\lambda + 10 = (\lambda - 5)(\lambda - 2)
+$$
 
 So the eigenvalues are $\lambda_1 = 5$ and $\lambda_2 = 2$.
 
 For $\lambda_1 = 5$: Solve $(A - 5I)\mathbf{v} = \mathbf{0}$.
 
-$$\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies -v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ 1 \end{pmatrix}$$
+$$
+\begin{pmatrix} -1 & 1 \\ 2 & -2 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies -v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ 1 \end{pmatrix}
+$$
 
 For $\lambda_2 = 2$: Solve $(A - 2I)\mathbf{v} = \mathbf{0}$.
 
-$$\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies 2v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ -2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\mathbf{v} = \mathbf{0} \implies 2v_1 + v_2 = 0 \implies \mathbf{v} = t\begin{pmatrix} 1 \\ -2 \end{pmatrix}
+$$
 
 Therefore $A = PDP^{-1}$ with
 
-$$P = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}, \quad D = \begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}, \quad D = \begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}
+$$
 
-$$P^{-1} = \frac{1}{-3}\begin{pmatrix} -2 & -1 \\ -1 & 1 \end{pmatrix} = \begin{pmatrix} 2/3 & 1/3 \\ 1/3 & -1/3 \end{pmatrix}$$
+$$
+P^{-1} = \frac{1}{-3}\begin{pmatrix} -2 & -1 \\ -1 & 1 \end{pmatrix} = \begin{pmatrix} 2/3 & 1/3 \\ 1/3 & -1/3 \end{pmatrix}
+$$
 
 **Verification:**
 $PDP^{-1} = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}\begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}\begin{pmatrix} 2/3 & 1/3 \\ 1/3 & -1/3 \end{pmatrix}$
@@ -240,7 +330,9 @@ $\mathrm{Re}(\lambda_i) > 0$, the system grows without bound (unstable).
 
 **Problem.** Diagonalise the matrix
 
-$$A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -250,20 +342,26 @@ $\lambda_2 = 3$ (with algebraic multiplicity 2).
 
 For $\lambda_1 = 2$: Solve $(A - 2I)\mathbf{v} = \mathbf{0}$.
 
-$$A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix} \to \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$$
+$$
+A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix} \to \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}
+$$
 
 Free variable: $x_1 = t$. Eigenvector: $\mathbf{v}_1 = (1, 0, 0)^T$.
 
 For $\lambda_2 = 3$: Solve $(A - 3I)\mathbf{v} = \mathbf{0}$.
 
-$$A - 3I = \begin{pmatrix} -1 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$$
+$$
+A - 3I = \begin{pmatrix} -1 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}
+$$
 
 Free variables: $x_2 = s$, $x_3 = t$. Then $x_1 = s$. Eigenvectors: $s(1, 1, 0)^T + t(0, 0, 1)^T$.
 
 The geometric multiplicity of $\lambda_2 = 3$ is 2, equal to its algebraic multiplicity. Therefore
 $A$ is diagonalisable with
 
-$$P = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{pmatrix}$$
+$$
+P = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{pmatrix}
+$$
 
 **Key observation:** When the geometric multiplicity equals the algebraic multiplicity for every
 eigenvalue, the matrix is diagonalisable. When they differ (as in the Jordan form example in
@@ -280,13 +378,15 @@ $\blacksquare$
 The characteristic polynomial is $p(\lambda) = \lambda^2 - 7\lambda + 10$ So by Cayley--Hamilton,
 $A^2 = 7A - 10I$.
 
-To find $A^{10}$Divide $\lambda^{10}$ by $p(\lambda)$:
+To find $A^{10}$ Divide $\lambda^{10}$ by $p(\lambda)$:
 
-$$\lambda^{10} = q(\lambda)(\lambda^2 - 7\lambda + 10) + r(\lambda)$$
+$$
+\lambda^{10} = q(\lambda)(\lambda^2 - 7\lambda + 10) + r(\lambda)
+$$
 
 Where $r(\lambda) = a\lambda + b$ has degree less than 2. Then $A^{10} = r(A) = aA + bI$.
 
-To find $a$ and $b$Evaluate at the eigenvalues:
+To find $a$ and $b$ Evaluate at the eigenvalues:
 
 $\lambda^{10}\big|_{\lambda=5} = 5^{10} = 9765625 = 5a + b$
 
@@ -309,7 +409,9 @@ not diagonalisable.
 
 **Problem.** Orthogonally diagonalise the symmetric matrix
 
-$$A = \begin{pmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -367,15 +469,84 @@ $\blacksquare$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[5_Eigenvalues And Eigenvectors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+## Counterexamples worth knowing by name
+
+<div class="table-wrap">
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Every square matrix is diagonalisable | no | $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ is nilpotent with one eigenvalue and only one eigenvector |
+| Every real matrix has real eigenvalues | no | a rotation by $90^\circ$ has eigenvalues $\pm i$ |
+| Distinct eigenvalues imply diagonalisable | yes | but the converse fails: the identity matrix has one eigenvalue and is diagonalisable |
+| A repeated eigenvalue implies a defective matrix | no | $I$ has eigenvalue $1$ with multiplicity $n$ and a full eigenspace |
+| Algebraic and geometric multiplicity are equal | no | they are equal exactly when the matrix is diagonalisable; the Jordan block is the counterexample |
+| $AB$ and $BA$ have different eigenvalues | no | they have the same characteristic polynomial, even when $A$ and $B$ are rectangular |
+| The spectral theorem holds for all square matrices | no | it needs a normal matrix; symmetric, Hermitian, unitary and orthogonal are the standard special cases |
+| Eigenvalues are continuous in the matrix entries | yes | but eigenvectors need not be, and that failure is what pseudospectra measure |
+
+</div>
+
+The first row is the one to internalise, because everything else on the page is
+organised around it. The question "is this matrix diagonalisable?" is not about
+the eigenvalues -- it is about whether there are enough *eigenvectors*, and
+eigenvalues only ever give you a necessary condition.
+
+The last row is the numerical point. Eigenvalues are well-behaved; eigenvectors
+of a non-normal matrix can move discontinuously under an arbitrarily small
+perturbation, which is why stability analysis of non-normal systems is subtle.
+
+## Where the research frontier is
+
+- **The QR algorithm.** Computing eigenvalues is one of the ten algorithms with
+  the greatest influence on science and engineering in the twentieth century,
+  and it works by iterating a factorisation until the matrix converges to
+  Schur form.
+- **Random matrix theory.** The distribution of eigenvalues of a large random
+  matrix is universal -- it does not depend on the distribution of the entries
+  -- and the semicircle law and Tracy-Widom distribution now appear in number
+  theory and physics.
+- **Pseudospectra.** For non-normal matrices the spectrum is the wrong object:
+  the $\epsilon$-pseudospectrum describes what actually governs transient growth,
+  and it can be enormous when the spectrum looks innocuous.
+- **Spectral graph theory.** The eigenvalues of a graph's adjacency or Laplacian
+  matrix determine connectivity, expansion and random-walk behaviour, which is
+  the mathematical engine behind PageRank.
+- **Generalised and polynomial eigenvalue problems.** $Av = \lambda Bv$ arises
+  in vibration analysis, and the theory is richer because $B$ may be singular.
+
+## Interleaving problems
+
+Mix these with [Systems of Linear
+Equations](/2-linear-algebra/4_systems-of-linear-equations/), [Systems of
+Differential
+Equations](/5-ordinary-differential-equations/2_first-order-odes/), [Spectral
+Theory](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/),
+[Representation
+Theory](/15-graduate-representation-theory/1_representation-theory-of-finite-groups/)
+and [Quantum
+Operators](https://physics.wyattau.com/5-quantum-mechanics/4_operators-and-observables/).
+
+1. (Determinants.) Derive the characteristic polynomial of
+   $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ and show that its roots
+   satisfy $\lambda^2 - (\operatorname{tr}A)\lambda + \det A = 0$. That identity
+   is the $2 \times 2$ case of Cayley-Hamilton.
+2. (Differential equations.) Diagonalise the system $\dot{x} = Ax$ for
+   $A = \begin{pmatrix} 0 & 1 \\ -2 & 3 \end{pmatrix}$ and write the general
+   solution. The eigenvalues are the exponents -- explain what a defective
+   eigenvalue does to the solution, and why the answer involves $te^{\lambda t}$.
+3. (Spectral theory.) State the spectral theorem for self-adjoint operators and
+   identify exactly which part of the finite-dimensional proof fails. That
+   failure is why the theorem is a theorem.
+4. (Representation theory.) Show that a representation of a finite group makes
+   every group element diagonalisable, since some power of each element is the
+   identity. Then explain why that fact gives the group algebra the structure
+   the character theory needs.
+5. (Quantum mechanics.) Explain why an observable must be a self-adjoint
+   operator in terms of the spectral theorem: real eigenvalues, orthonormal
+   eigenbasis, and somewhere for the Born-rule probabilities to live.
+6. (Numerical analysis.) Describe the power method: iterating $x, Ax, A^2x,
+   \ldots$ converges to the dominant eigenvector. Show why, and explain what
+   happens when the two largest eigenvalues are equal in magnitude.
 
 ## Cross-References
 
@@ -384,5 +555,5 @@ flowchart TD
 - **[Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)**: The spectral theorem for symmetric matrices guarantees an orthonormal basis of eigenvectors.
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

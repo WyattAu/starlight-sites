@@ -24,9 +24,13 @@ Displacement ($\bm{r}$):
 
 $$
 \begin`\{aligned}`
+<div class="table-wrap">
+
  |\bm\{F\}| \propto |q_1||q_2|, \quad |\bm\{F\}| \propto |\bm\{r\}|^2\\
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
  |\bm\{F\}| = k \frac\{|q_1||q_2|\}\{|\bm\{r\}|^2\}
+
+</div>
 \end`\{aligned}`
 $$
 
@@ -41,7 +45,53 @@ $$
 \end`\{aligned}`
 $$
 
-<img src="/img/physics/CoulombsLaw.png" alt="Coulombs_law" width="416" height="101" loading="lazy" />
+<figure class="coulomb-diagram">
+  <svg
+    viewBox="0 0 416 108"
+    role="img"
+    aria-label="Two positive point charges separated by a distance r exerting equal and opposite Coulomb forces on each other"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <defs>
+      <marker id="arrow-head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor" />
+      </marker>
+    </defs>
+
+    <line x1="112" y1="54" x2="304" y2="54" stroke="currentColor" strokeWidth="1.5" strokeDasharray="5 4" opacity="0.55" />
+    <text x="208" y="46" textAnchor="middle" fontSize="13" fill="currentColor" opacity="0.75">
+      r
+    </text>
+
+    <circle cx="92" cy="54" r="15" fill="none" stroke="currentColor" strokeWidth="2" />
+    <text x="92" y="59" textAnchor="middle" fontSize="14" fill="currentColor">
+      q1
+    </text>
+
+    <circle cx="324" cy="54" r="15" fill="none" stroke="currentColor" strokeWidth="2" />
+    <text x="324" y="59" textAnchor="middle" fontSize="14" fill="currentColor">
+      q2
+    </text>
+
+    <line x1="112" y1="30" x2="300" y2="30" stroke="currentColor" strokeWidth="2" markerEnd="url(#arrow-head)" />
+    <text x="206" y="24" textAnchor="middle" fontSize="13" fill="currentColor">
+      F12
+    </text>
+
+    <line x1="304" y1="80" x2="116" y2="80" stroke="currentColor" strokeWidth="2" markerEnd="url(#arrow-head)" />
+    <text x="210" y="96" textAnchor="middle" fontSize="13" fill="currentColor">
+      F21 = -F12
+    </text>
+
+    <text x="208" y="104" textAnchor="middle" fontSize="12" fill="currentColor" opacity="0.7">
+      Like charges repel: each force points away from the other charge
+    </text>
+  </svg>
+  <figcaption>
+    Coulomb's law. Two point charges exert forces of equal magnitude and
+    opposite direction, each directed along the line joining them.
+  </figcaption>
+</figure>
 </Aside>
 
 Where the constant $k$ is named Coulomb's constant and is equal to:
@@ -103,7 +153,7 @@ $$
 ### Electric Potential Energy
 
 Electric potential energy ($U$ or $E_p$ or $W$)is the minimum work required to translate charges
-From infinite separation displacement to a position $\bm{r}$. Since the electrostatic force
+from infinite separation displacement to a position $\bm{r}$. Since the electrostatic force
 $\bm{F_e}$ varies due to the displacement, the line integral of the opposing force
 $\bm{F_{ext}} = \bm{F_e}$ from infinity $(\infty)$ to the potion $\bm{r}$ gives the work required to
 Translate the charges:
@@ -187,7 +237,7 @@ $$
 $$
 
 When expressing the electric field strength with the average electric potential change, and
-Expressing $r = |\bm{r}|$The magnitude of $E$ is:
+Expressing $r = |\bm{r}|$ The magnitude of $E$ is:
 
 $$
 \begin`\{aligned}`
@@ -228,7 +278,7 @@ $$
 ## Electric Field Between Parallel Plates
 
 When two parallel conducting plates are separated by a distance $d$ and a potential difference $V$
-Is applied across them, a uniform electric field is created between the plates:
+is applied across them, a uniform electric field is created between the plates:
 
 $$
 E = \frac\{V\}\{d\}
@@ -279,7 +329,7 @@ Direction: Radially outward from a positive charge, radially inward toward a neg
 ### Superposition of Electric Fields
 
 When multiple charges are present, the total electric field at any point is the **vector sum** of
-The individual fields:
+the individual fields:
 
 $$
 \bm\{E\}_\{\mathrm\{total\}\} = \bm\{E\}_1 + \bm\{E\}_2 + \bm\{E\}_3 + \cdots
@@ -287,7 +337,7 @@ $$
 
 ### Worked Example: Superposition
 
-**Question:** Two point charges, $q_1 = +3.0 \mathrm{ \mu C}$ and $q_2 = -5.0 \mathrm{ \mu C}$Are
+**Question:** Two point charges, $q_1 = +3.0 \mathrm{ \mu C}$ and $q_2 = -5.0 \mathrm{ \mu C}$ Are
 Placed 20 cm apart. Find the electric field strength at the midpoint between them.
 
 **Solution:**
@@ -378,7 +428,7 @@ Known quantities.
 
 ### Worked Example: Capacitor Energy
 
-**Question:** A 100 $\mu$F capacitor is charged to a potential difference of 200 V. How much energy
+**Question:** A 100 $\mu$ F capacitor is charged to a potential difference of 200 V. How much energy
 Does it store?
 
 **Solution:**
@@ -432,11 +482,13 @@ $$
 Where $n$ is the number of turns per unit length ($n = N/L$).
 
 The field inside a solenoid is approximately **uniform** and parallel to the axis. The field outside
-Is approximately zero.
+is approximately zero.
 
 ---
 
 ## Comparison: Electric vs Magnetic Fields
+
+<div class="table-wrap">
 
 | Property            | Electric Field                       | Magnetic Field                                 |
 | :------------------ | :----------------------------------- | :--------------------------------------------- |
@@ -446,6 +498,8 @@ Is approximately zero.
 | Field lines         | Start on + charges, end on - charges | Form closed loops (no monopoles)               |
 | Units               | V/m or N/C                           | Tesla (T)                                      |
 | Constant            | $\epsilon_0$ (permittivity)          | $\mu_0$ (permeability)                         |
+
+</div>
 
 ---
 
@@ -474,7 +528,7 @@ Is approximately zero.
    equivalent forms, use the one that matches your given data.
 
 7. **Unit conversions:** Electric fields are often in V/m or N/C (equivalent). Capacitance is in
-   farads (F), but practical values are in $\mu$F, nF, or pF. Be comfortable converting between SI
+   farads (F), but practical values are in $\mu$ F, nF, or pF. Be comfortable converting between SI
    prefixes.
 
 ---
@@ -491,8 +545,8 @@ $$
 F = BIL\sin\theta = (0.40)(3.0)(0.50)\sin 60^\{\circ\} = (0.60)(0.866) = 0.520 \mathrm\{ N\}
 $$
 
-The direction is given by Fleming's Left-Hand Rule: first finger along $\bm{B}$Second finger along
-$I$Thumb gives the direction of $\bm{F}$.
+The direction is given by Fleming's Left-Hand Rule: first finger along $\bm{B}$ Second finger along
+$I$ Thumb gives the direction of $\bm{F}$.
 
 ---
 
@@ -500,7 +554,7 @@ $I$Thumb gives the direction of $\bm{F}$.
 
 **Problem:** A parallel plate capacitor is to be designed with a capacitance of $100$ pF using
 Plates of area $0.010$ m$^2$. A) What plate separation is required? b) If the capacitor is charged
-To 200 V, how much charge is stored? c) What is the energy stored?
+to 200 V, how much charge is stored? c) What is the energy stored?
 
 **Solution:**
 
@@ -529,7 +583,7 @@ $$
 **Problem:** A positive point charge $Q = +5.0$ nC is placed at the origin. A) Calculate the
 Electric field strength at a point 0.10 m from the charge along the x-axis. B) Calculate the
 Electric potential at that point. C) A second charge $q = -2.0$ nC is placed at that point. What is
-The electric potential energy of the system?
+the electric potential energy of the system?
 
 **Solution:**
 
@@ -622,7 +676,7 @@ Electric and magnetic fields are invisible landscapes that exert forces on charg
 <details>
 <summary>Question 1</summary>
 
-Two point charges $q_1 = +4.0$ $\mu$C and $q_2 = -6.0$ $\mu$C are placed 30 cm apart in vacuum. A)
+Two point charges $q_1 = +4.0$ $\mu$ C and $q_2 = -6.0$ $\mu$ C are placed 30 cm apart in vacuum. A)
 Calculate the electric force between them. B) Is the force attractive or repulsive? Justify your
 Answer.
 
@@ -636,7 +690,7 @@ $F = \frac{k|q_1||q_2|}{r^2} = \frac{(8.99 \times 10^9)(4.0 \times 10^{-6})(6.0 
 N $= 2.40$ kN.
 
 B) The force is **attractive** because the charges have opposite signs (one positive, one negative).
-Coulomb's law gives a negative value for the product $q_1 q_2$Indicating attraction.
+Coulomb's law gives a negative value for the product $q_1 q_2$ Indicating attraction.
 
 </details>
 
@@ -662,7 +716,7 @@ C) $E = \frac{V}{d} = \frac{500}{2.0 \times 10^{-3}} = 2.5 \times 10^5$ V/m.
 
 D)
 $W = \frac{1}{2}CV^2 = \frac{1}{2}(8.85 \times 10^{-11})(500)^2 = \frac{1}{2}(8.85 \times 10^{-11})(250000) = 1.11 \times 10^{-5}$
-J $= 11.1$ $\mu$J.
+J $= 11.1$ $\mu$ J.
 
 </details>
 
@@ -691,7 +745,7 @@ M/s.
 
 A wire of length 0.30 m carries a current of 5.0 A perpendicular to a uniform magnetic field of
 $B = 0.60$ T. Calculate: a) The magnetic force on the wire. B) The minimum mass that this force
-Could support against gravity ($g = 9.8$ m/s$^2$).
+could support against gravity ($g = 9.8$ m/s$^2$).
 
 </details>
 
@@ -708,7 +762,7 @@ $F = mg \implies m = \frac{F}{g} = \frac{0.90}{9.8} = 0.0918$ kg $= 91.8$ g.
 <details>
 <summary>Question 5</summary>
 
-Two identical positive charges of $+2.0$ $\mu$C are placed on the x-axis at $x = -0.10$ m and
+Two identical positive charges of $+2.0$ $\mu$ C are placed on the x-axis at $x = -0.10$ m and
 $x = +0.10$ m. Calculate the electric field strength at the origin. Explain why the field at the
 Origin is zero.
 
@@ -723,14 +777,14 @@ $E_1 = \frac{kq}{r^2} = \frac{(8.99 \times 10^9)(2.0 \times 10^{-6})}{(0.10)^2} 
 V/m (directed toward the negative x-direction, away from the charge at $x = +0.10$).
 
 $E_2 = \frac{kq}{r^2} = 1.80 \times 10^6$ V/m (directed toward the positive x-direction, away from
-The charge at $x = -0.10$).
+the charge at $x = -0.10$).
 
 The total field is:
 $\bm{E}_{\mathrm{total}} = \bm{E}_1 + \bm{E}_2 = -1.80 \times 10^6 + 1.80 \times 10^6 = 0$ V/m.
 
 The field is zero because the charges are equidistant from the origin, have equal magnitude, and the
 Fields they produce point in exactly opposite directions, cancelling completely. This point is
-Between the charges and is a point of zero field (but not zero potential).
+between the charges and is a point of zero field (but not zero potential).
 
 </details>
 
@@ -751,8 +805,8 @@ Surface ($Q_{\mathrm{enclosed}} = 0$), Gauss's Law gives:
 $\Phi_E = \frac{Q_{\mathrm{enclosed}}}{\epsilon_0} = 0$
 
 This means the net electric flux through the Gaussian surface is zero. The only way this can be true
-For an arbitrary Gaussian surface inside the conductor is if the electric field is zero everywhere
-Inside. If there were a non-zero field, free electrons in the conductor would move in response,
+for an arbitrary Gaussian surface inside the conductor is if the electric field is zero everywhere
+inside. If there were a non-zero field, free electrons in the conductor would move in response,
 Redistributing charge until the field becomes zero. This is the condition of electrostatic
 Equilibrium.
 
@@ -762,7 +816,7 @@ Equilibrium.
 
 ## Related Content at Other Levels
 
-- **A-Level Fields:** [Physics](https://alevel.wyattau.com/docs/physics/physics)
+- **A-Level Fields:** [Physics](https://alevel.wyattau.com/physics/physics/)
 
 ---
 
@@ -773,19 +827,6 @@ questions within the IB specification for this topic, each with a full worked so
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Electric
 and Magnetic Fields with other physics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
-
-```mermaid
-flowchart TD
-    A[2_Electric And Magnetic Fieldsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -805,18 +846,19 @@ and past paper questions, is essential for success in examinations.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site    | Link                                                                                                     |
 | ----------------- | ------- | -------------------------------------------------------------------------------------------------------- |
 | [Electric Fields] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/fields/01-electric-fields)           |
-| [Electric Fields] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/4-fields/2_electric-and-magnetic-fields)                   |
+| [Electric Fields] | IB      | [View](https://ib.wyattau.com/physics/4-fields/2_electric-and-magnetic-fields/)                   |
 | [Magnetic Fields] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/fields/02-magnetic-fields)           |
-| [Magnetic Fields] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/4-fields/2_electric-and-magnetic-fields)                   |
-| [Magnetic Fields] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/3-electricity-and-magnetism/2_electricity-and-magnetism) |
+| [Magnetic Fields] | IB      | [View](https://ib.wyattau.com/physics/4-fields/2_electric-and-magnetic-fields/)                   |
+| [Magnetic Fields] | DSE     | [View](https://dse.wyattau.com/physics/3-electricity-and-magnetism/2_electricity-and-magnetism/) |
+
+</div>
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

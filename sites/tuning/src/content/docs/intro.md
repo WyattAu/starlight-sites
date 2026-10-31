@@ -58,7 +58,7 @@ Variance.
 Undervolting is the most compelling reason to tune for laptops and small-form-factor builds. A 100
 MV reduction on a 65 W CPU can shave 8–12 W off the package power, which translates directly to
 Longer battery life, lower fan noise, and a cooler chassis. On desktops, the same reduction means
-Your cooling solution lasts longer and your power bill is marginally lower.
+your cooling solution lasts longer and your power bill is marginally lower.
 
 ### Noise Reduction
 
@@ -74,6 +74,8 @@ Directly transferable to power management in data centers and embedded systems.
 
 ## Risk Assessment
 
+<div class="table-wrap">
+
 | Technique           | Performance Gain           | Thermal Impact            | Risk Level  | Reversibility                 |
 | ------------------- | -------------------------- | ------------------------- | ----------- | ----------------------------- |
 | CPU Undervolting    | 0–5% (sustained)           | Large reduction           | Low         | Fully reversible              |
@@ -82,6 +84,8 @@ Directly transferable to power management in data centers and embedded systems.
 | GPU Overclocking    | 5–15%                      | Moderate increase         | Medium      | Fully reversible              |
 | Memory Overclocking | 3–15% (workload-dependent) | Moderate increase         | Medium      | Fully reversible              |
 | BCLK Overclocking   | Variable                   | Can affect all components | High        | Fully reversible              |
+
+</div>
 
 **Important:** "Fully reversible" means you can restore stock settings. It does not mean there is
 Zero risk of data corruption during instability. Always save your work before stress testing.
@@ -224,7 +228,7 @@ Control entirely, others allow it.
 ### AMD (Zen 3 and Later)
 
 AMD's Curve Optimizer is the primary undervolting mechanism. It adjusts the voltage-frequency curve
-With a negative offset per core. This is platform-controlled and works within the boost algorithm,
+with a negative offset per core. This is platform-controlled and works within the boost algorithm,
 Making it safer than fixed offset undervolting. PPT (Package Power Tracking), TDC (Thermal Design
 Current), and EDC (Electrical Design Current) limits can also be adjusted for power-constrained
 Scenarios.
@@ -232,7 +236,7 @@ Scenarios.
 ### Apple Silicon
 
 Apple Silicon (M1/M2/M3/M4 series) does not expose tuning controls to the user. The power management
-Is handled entirely by the OS and firmware. You cannot undervolt or overclock Apple Silicon.
+is handled entirely by the OS and firmware. You cannot undervolt or overclock Apple Silicon.
 
 ## Terminology
 
@@ -277,14 +281,7 @@ Benchmarking is like taking a fitness test. Before you start training, you need 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

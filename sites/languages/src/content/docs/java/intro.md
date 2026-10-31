@@ -33,11 +33,11 @@ specific course, please refer to the IB Computer Science notes on this site for 
 
 ### Standard Library
 
-- **Collections Framework**, `List` (`ArrayList``LinkedList`), `Set` (`HashSet``TreeSet`),
-  `Map` (`HashMap``TreeMap`); choosing the right collection
-- **Streams API**, functional-style operations on collections: `filter``map``reduce``collect`
+- **Collections Framework**, `List` (`ArrayList`, `LinkedList`), `Set` (`HashSet`, `TreeSet`),
+  `Map` (`HashMap`, `TreeMap`); choosing the right collection
+- **Streams API**, functional-style operations on collections: `filter`, `map`, `reduce`, `collect`
 - **I/O**, byte streams, character streams, buffered I/O, NIO
-- **Concurrency**, `Thread``Runnable``ExecutorService``synchronized``java.util.concurrent`
+- **Concurrency**, `Thread`, `Runnable`, `ExecutorService`, `synchronized`, `java.util.concurrent`
 
 ### Best Practices
 
@@ -102,56 +102,12 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Further Resources
 
 - Flashcards for rapid revision of key terms
 - Diagnostic tests to identify remaining gaps
 - Practice problems with detailed worked solutions
 - Cross-references to related topics
-
-## Overview
-
-This introduction provides comprehensive coverage of Java content for the Languages qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Intuition
 
@@ -163,25 +119,6 @@ Java is the language of "write once, run anywhere." It compiles to bytecode that
 - [Classes](https://java.wyattau.com/03-object-oriented/01-classes/)
 - [Collections Framework](https://java.wyattau.com/04-collections/01-collections-framework/)
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 ## See also
 
 - [Introduction to Dart & Flutter](/dart/01-intro/)

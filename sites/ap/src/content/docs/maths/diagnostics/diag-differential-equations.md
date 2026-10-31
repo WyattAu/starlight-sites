@@ -32,7 +32,7 @@ categories:
 
 Solve the initial value problem $\dfrac{dy}{dx} = y^{2/3}$ with $y(0) = 0$.
 
-A student separates variables and writes $\displaystyle\int y^{-2/3}\,dy = \int dx$Obtaining
+A student separates variables and writes $\displaystyle\int y^{-2/3}\,dy = \int dx$ Obtaining
 $3y^{1/3} = x + C$. Using $y(0) = 0$: $C = 0$ So $y = \left(\dfrac{x}{3}\right)^3$.
 
 (a) Verify that $y(x) = 0$ (the constant zero function) is also a solution to the IVP. (b) Explain
@@ -46,18 +46,22 @@ Also $y(0) = 0$. So $y = 0$ is a solution.
 
 (b) The existence and uniqueness theorem (Picard-Lindelof) requires $\dfrac{dy}{dx} = f(x, y)$ where
 $f$ and $\dfrac{\partial f}{\partial y}$ are continuous near $(0, 0)$. Here $f(x, y) = y^{2/3}$ And
-$\dfrac{\partial f}{\partial y} = \dfrac{2}{3}y^{-1/3}$Which is **undefined** at $y = 0$. Therefore
+$\dfrac{\partial f}{\partial y} = \dfrac{2}{3}y^{-1/3}$ Which is **undefined** at $y = 0$. Therefore
 the theorem does not guarantee uniqueness.
 
 (c) A third solution can be constructed by patching:
 
-$$y(x) = \begin{cases} 0 & \text{if  x \leq a \\ \left(\dfrac{x - a}{3}\right)^3 & \text{if  x > a \end{cases}$$
+$$
+y(x) = \begin{cases} 0 & \text{if  x \leq a \\ \left(\dfrac{x - a}{3}\right)^3 & \text{if  x > a \end{cases}
+$$
 
 For any $a \geq 0$. At $x = a$: $y(a) = 0$ from both sides, and $y"(a) = 0$ from both sides (since
 $\frac{d}{dx}\left[\left(\frac{x-a}{3}\right)^3\right] = \frac{(x-a)^2}{3} = 0$ at $x = a$). So this
-is a valid $C^1$ solution. For $a = 0$This gives:
+is a valid $C^1$ solution. For $a = 0$ This gives:
 
-$$y(x) = \begin{cases} 0 & \text{if  x \leq 0 \\ \dfrac{x^3}{27} & \text{if  x > 0 \end{cases}$$
+$$
+y(x) = \begin{cases} 0 & \text{if  x \leq 0 \\ \dfrac{x^3}{27} & \text{if  x > 0 \end{cases}
+$$
 
 This is a third distinct solution to the IVP.
 
@@ -89,7 +93,9 @@ roughly quarters the error for Euler's method. Does your result confirm this? If
 
 **Solution:**
 
-(a) With $\Delta x = 0.5$Starting at $(0, 1)$:
+(a) With $\Delta x = 0.5$ Starting at $(0, 1)$:
+
+<div class="table-wrap">
 
 | Step | $x$ | $y$  | $y' = x + y$ | $y_{\text{new} = y + 0.5 \cdot y'$ |
 | ---- | --- | ---- | ------------ | ---------------------------------- |
@@ -98,9 +104,13 @@ roughly quarters the error for Euler's method. Does your result confirm this? If
 | 2    | 1.0 | 2.5  | 3.5          | 4.25                               |
 | 3    | 1.5 | 4.25 | 5.75         | 7.125                              |
 
+</div>
+
 Approximation: $y(2) \approx 7.125$.
 
-With $\Delta x = 0.25$Starting at $(0, 1)$:
+With $\Delta x = 0.25$ Starting at $(0, 1)$:
+
+<div class="table-wrap">
 
 | Step | $x$  | $y$         | $y' = x + y$ | $y_{\text{new}$ |
 | ---- | ---- | ----------- | ------------ | --------------- |
@@ -112,6 +122,8 @@ With $\Delta x = 0.25$Starting at $(0, 1)$:
 | 5    | 1.25 | 3.853515625 | 5.103515625  | 5.129394531     |
 | 6    | 1.5  | 5.129394531 | 6.629394531  | 6.786743164     |
 | 7    | 1.75 | 6.786743164 | 8.536743164  | 8.920428955     |
+
+</div>
 
 Approximation: $y(2) \approx 8.920$.
 
@@ -147,7 +159,9 @@ incorrectly assume that halving the step size always quarters the error.
 
 A population $P(t)$ satisfies the logistic differential equation:
 
-$$\frac{dP}{dt} = 0.04P\left(1 - \frac{P}{K}\right)$$
+$$
+\frac{dP}{dt} = 0.04P\left(1 - \frac{P}{K}\right)
+$$
 
 With $P(0) = 100$ and carrying capacity $K$. Suppose the population is growing fastest when
 $P = 250$.
@@ -160,32 +174,52 @@ reach $0.9K$?
 (a) The logistic growth rate is maximized when $P = K/2$. Given the maximum growth occurs at
 $P = 250$:
 
-$$\frac{K}{2} = 250 \implies K = 500$$
+$$
+\frac{K}{2} = 250 \implies K = 500
+$$
 
 (b) The general solution to the logistic equation $\dfrac{dP}{dt} = rP\left(1 - \dfrac{P}{K}\right)$
 is:
 
-$$P(t) = \frac{K}{1 + A e^{-rt}}$$
+$$
+P(t) = \frac{K}{1 + A e^{-rt}}
+$$
 
 Where $A = \dfrac{K - P_0}{P_0}$. With $K = 500$$P_0 = 100$$r = 0.04$:
 
-$$A = \frac{500 - 100}{100} = 4$$
+$$
+A = \frac{500 - 100}{100} = 4
+$$
 
-$$P(t) = \frac{500}{1 + 4e^{-0.04t}}$$
+$$
+P(t) = \frac{500}{1 + 4e^{-0.04t}}
+$$
 
 (c) Set $P(t) = 0.9K = 450$:
 
-$$450 = \frac{500}{1 + 4e^{-0.04t}}$$
+$$
+450 = \frac{500}{1 + 4e^{-0.04t}}
+$$
 
-$$1 + 4e^{-0.04t} = \frac{500}{450} = \frac{10}{9}$$
+$$
+1 + 4e^{-0.04t} = \frac{500}{450} = \frac{10}{9}
+$$
 
-$$4e^{-0.04t} = \frac{1}{9}$$
+$$
+4e^{-0.04t} = \frac{1}{9}
+$$
 
-$$e^{-0.04t} = \frac{1}{36}$$
+$$
+e^{-0.04t} = \frac{1}{36}
+$$
 
-$$-0.04t = \ln\!\left(\frac{1}{36}\right) = -\ln 36$$
+$$
+-0.04t = \ln\!\left(\frac{1}{36}\right) = -\ln 36
+$$
 
-$$t = \frac{\ln 36}{0.04} = 25\ln 36 \approx 25(3.584) \approx 89.6$$
+$$
+t = \frac{\ln 36}{0.04} = 25\ln 36 \approx 25(3.584) \approx 89.6
+$$
 
 The population reaches $90\%$ of carrying capacity at approximately $t \approx 89.6$ time units.
 
@@ -223,26 +257,34 @@ and III (where $x$ and $y$ have the same sign) and negative in quadrants II and 
 the slope is $1$; along $y = -x$ the slope is $-1$. The slopes are very steep near $y = 0$ and
 nearly horizontal near $x = 0$. The solution through $(1, 2)$ lies in quadrant I and is concave up
 (since
-$\dfrac{d^2y}{dx^2} = \dfrac{y - x \cdot y'}{y^2} = \dfrac{y - x^2/y}{y^2} = \dfrac{y^2 - x^2}{y^3}$Which
+$\dfrac{d^2y}{dx^2} = \dfrac{y - x \cdot y'}{y^2} = \dfrac{y - x^2/y}{y^2} = \dfrac{y^2 - x^2}{y^3}$ Which
 is positive for $y > |x|$).
 
 (b) $f(x, y) = \dfrac{x}{y}$ is undefined when $y = 0$ So the existence and uniqueness theorem does
 not apply on the $x$-axis. A solution curve approaching $y = 0$ would have
-$\dfrac{dy}{dx} \to \pm\infty$Meaning the curve becomes vertical. Since the ODE is not defined on
-$y = 0$No solution curve can cross it.
+$\dfrac{dy}{dx} \to \pm\infty$ Meaning the curve becomes vertical. Since the ODE is not defined on
+$y = 0$ No solution curve can cross it.
 
 (c) Separate variables: $y\,dy = x\,dx$. Integrate: $\dfrac{y^2}{2} = \dfrac{x^2}{2} + C$. Using
 $(1, 2)$: $2 = \frac{1}{2} + C \implies C = \frac{3}{2}$.
 
-$$y^2 = x^2 + 3 \implies y = \sqrt{x^2 + 3}$$
+$$
+y^2 = x^2 + 3 \implies y = \sqrt{x^2 + 3}
+$$
 
 Arc length from $x = 1$ to $x = 3$:
 
-$$s = \int_1^3 \sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx = \int_1^3 \sqrt{1 + \frac{x^2}{x^2 + 3}}\,dx$$
+$$
+s = \int_1^3 \sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx = \int_1^3 \sqrt{1 + \frac{x^2}{x^2 + 3}}\,dx
+$$
 
-$$= \int_1^3 \sqrt{\frac{2x^2 + 3}{x^2 + 3}}\,dx = \int_1^3 \sqrt{\frac{2(x^2 + 3) - 3}{x^2 + 3}}\,dx$$
+$$
+= \int_1^3 \sqrt{\frac{2x^2 + 3}{x^2 + 3}}\,dx = \int_1^3 \sqrt{\frac{2(x^2 + 3) - 3}{x^2 + 3}}\,dx
+$$
 
-$$= \int_1^3 \sqrt{2 - \frac{3}{x^2 + 3}}\,dx$$
+$$
+= \int_1^3 \sqrt{2 - \frac{3}{x^2 + 3}}\,dx
+$$
 
 This integral does not have an elementary antiderivative. It can be evaluated numerically or
 expressed in terms of elliptic integrals. The setup itself tests whether students correctly compute
@@ -267,18 +309,20 @@ Solve $\dfrac{dy}{dx} = \dfrac{1}{xy}$ with initial condition $y(1) = 0$.
 
 A student separates variables and writes:
 
-$$\int y\,dy = \int \frac{dx}{x} \implies \frac{y^2}{2} = \ln|x| + C$$
+$$
+\int y\,dy = \int \frac{dx}{x} \implies \frac{y^2}{2} = \ln|x| + C
+$$
 
-Using $y(1) = 0$: $\dfrac{0}{2} = \ln 1 + C \implies C = 0$Giving $y = \pm\sqrt{2\ln|x|}$.
+Using $y(1) = 0$: $\dfrac{0}{2} = \ln 1 + C \implies C = 0$ Giving $y = \pm\sqrt{2\ln|x|}$.
 
 (a) Identify the domain issues with this solution. (b) Does a solution exist on any interval
 containing $x = 1$? Justify using the existence and uniqueness theorem. (c) If the initial condition
-is changed to $y(1) = 1$Find the solution and determine its maximal interval of existence.
+is changed to $y(1) = 1$ Find the solution and determine its maximal interval of existence.
 
 **Solution:**
 
-(a) The "solution" $y = \pm\sqrt{2\ln|x|}$ requires $\ln|x| \geq 0$I.e., $|x| \geq 1$. But the
-initial condition is at $x = 1$Where $\ln 1 = 0$ and $y = 0$. The domain does not include any
+(a) The "solution" $y = \pm\sqrt{2\ln|x|}$ requires $\ln|x| \geq 0$ I.e., $|x| \geq 1$. But the
+initial condition is at $x = 1$ Where $\ln 1 = 0$ and $y = 0$. The domain does not include any
 interval around $x = 1$ (it only includes $x = 1$ as a boundary point). This is not a valid solution
 on any open interval.
 
@@ -290,11 +334,17 @@ $y = 0$.
 (c) With $y(1) = 1$: $f(x, y) = \dfrac{1}{xy}$ is continuous near $(1, 1)$ So a unique solution
 exists.
 
-$$\frac{y^2}{2} = \ln|x| + C \implies \frac{1}{2} = 0 + C \implies C = \frac{1}{2}$$
+$$
+\frac{y^2}{2} = \ln|x| + C \implies \frac{1}{2} = 0 + C \implies C = \frac{1}{2}
+$$
 
-$$y^2 = 2\ln|x| + 1 = \ln(x^2) + 1$$
+$$
+y^2 = 2\ln|x| + 1 = \ln(x^2) + 1
+$$
 
-$$y = \sqrt{1 + \ln(x^2)}$$
+$$
+y = \sqrt{1 + \ln(x^2)}
+$$
 
 (We take the positive branch since $y(1) = 1 > 0$.)
 
@@ -323,8 +373,8 @@ containing $x = 1$ is $(e^{-1/2}, \infty)$.
 Consider the autonomous differential equation $\dfrac{dy}{dx} = y(y - 2)^2(y + 1)$.
 
 (a) Find all equilibrium solutions and classify their stability. (b) A student claims that since
-$y = 2$ is a repeated root of $y(y-2)^2(y+1) = 0$The equilibrium at $y = 2$ is "doubly stable." Is
-this correct? (c) If $y(0) = 1$Determine $\displaystyle\lim_{t \to \infty} y(t)$ and
+$y = 2$ is a repeated root of $y(y-2)^2(y+1) = 0$ The equilibrium at $y = 2$ is "doubly stable." Is
+this correct? (c) If $y(0) = 1$ Determine $\displaystyle\lim_{t \to \infty} y(t)$ and
 $\displaystyle\lim_{t \to -\infty} y(t)$. (d) For what initial values $y(0) = y_0$ does $y(t) \to 2$
 as $t \to \infty$?
 
@@ -334,12 +384,16 @@ as $t \to \infty$?
 
 Let $f(y) = y(y-2)^2(y+1)$. Test the sign of $f(y)$ in each region:
 
+<div class="table-wrap">
+
 | Region           | Test point | $f(y)$ sign               | Behavior   |
 | ---------------- | ---------- | ------------------------- | ---------- |
 | $y \lt -1$       | $y = -2$   | $(-2)(16)(-1) > 0$        | Increasing |
 | $-1 \lt y \lt 0$ | $y = -0.5$ | $(-0.5)(6.25)(0.5) \lt 0$ | Decreasing |
 | $0 \lt y \lt 2$  | $y = 1$    | $(1)(1)(2) > 0$           | Increasing |
 | $y > 2$          | $y = 3$    | $(3)(1)(4) > 0$           | Increasing |
+
+</div>
 
 Stability classification:
 
@@ -355,7 +409,7 @@ Stability classification:
 (b) No. The multiplicity of the root affects the nature of the equilibrium, but "doubly stable" is
 not the correct interpretation. A root of even multiplicity in $f(y)$ at an equilibrium means the
 equilibrium is a **node** -- semistable, with solutions approaching from one side and departing from
-the other. The "double root" makes $f'(2) = 0$Which means the linearization test is inconclusive and
+the other. The "double root" makes $f'(2) = 0$ Which means the linearization test is inconclusive and
 we must use the sign chart instead.
 
 (c) $y(0) = 1$ is in the region $0 < y < 2$ where $f(y) > 0$ So $y$ increases. Since $y = 2$ is
@@ -371,27 +425,9 @@ $y_0 \leq 0$: $y(t)$ does not approach $2$.
 
 Answer: $y_0 \in (0, 2]$.
 
-
-```mermaid
-flowchart TD
-    A[Diag Differential Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

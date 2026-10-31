@@ -71,12 +71,16 @@ Smaller file sizes for simple images.
 
 **Bitmap vs Vector comparison:**
 
+<div class="table-wrap">
+
 | Feature        | Bitmap                      | Vector                      |
 | -------------- | --------------------------- | --------------------------- |
 | Representation | Grid of pixels              | Mathematical descriptions   |
 | Scaling        | Loses quality when enlarged | No quality loss at any size |
 | File size      | Depends on resolution       | Depends on complexity       |
 | Best for       | Photographs                 | Logos, icons, diagrams      |
+
+</div>
 
 ### Sound (HL)
 
@@ -110,19 +114,21 @@ ZIP).
 MPEG).
 
 Run-Length Encoding (RLE) is a simple lossless method: replace repeated values with the value and
-Count.
+count.
 
 **Example (OL):** AAABBCCCC becomes 3A2B4C.
 
 **Worked Example (OL).** Compress WWWWWWBBBBWWWWW using RLE.
 
 W6 B4 W5 = 6 runs. Original: 15 bytes. Compressed: 12 bytes (assuming 1 byte per count, 1 byte per
-Value).
+value).
 
 **When RLE is ineffective.** For data with no repeats, e.g., ABCDEFGH, RLE produces A1B1C1D1E1F1G1H1
 = 16 bytes, which is larger than the original 8 bytes.
 
 ## Data Types (OL/HL)
+
+<div class="table-wrap">
 
 | Type       | Description            | Example      |
 | ---------- | ---------------------- | ------------ |
@@ -132,6 +138,8 @@ Value).
 | String     | Sequence of characters | "Hello"      |
 | Boolean    | True or false          | true, false  |
 | Date       | Calendar date          | 2026-04-14   |
+
+</div>
 
 **Worked Example (OL).** Which data type would you use for each of the following?
 
@@ -151,6 +159,8 @@ Of updating.
 **Relational database:** data stored in multiple related tables. Advantages: reduced redundancy,
 Data integrity, easier maintenance.
 
+<div class="table-wrap">
+
 | Feature           | Flat File           | Relational Database         |
 | ----------------- | ------------------- | --------------------------- |
 | Tables            | Single              | Multiple, related           |
@@ -159,7 +169,11 @@ Data integrity, easier maintenance.
 | Concurrent access | Not supported       | Supported with locking      |
 | Querying          | Manual (sequential) | SQL (declarative, powerful) |
 
+</div>
+
 ### Key Terms
+
+<div class="table-wrap">
 
 | Term        | Definition                                                    |
 | ----------- | ------------------------------------------------------------- |
@@ -170,10 +184,12 @@ Data integrity, easier maintenance.
 | Record      | A single row in a table                                       |
 | Field       | A single column in a table                                    |
 
+</div>
+
 **Worked Example (OL).** In a Student table, which field would be the best primary key?
 
 StudentID is the best choice because it is unique and never changes. Name is not unique (two
-Students can share a name). Date of Birth is not unique.
+students can share a name). Date of Birth is not unique.
 
 ### Entity-Relationship Diagrams (HL)
 
@@ -273,9 +289,9 @@ SELECT * FROM Students
 WHERE Grade = 'HL';
 ```
 
-**Comparison operators:** `=``&lt;&gt;``&lt;``&gt;``&lt;=``&gt;=`.
+**Comparison operators:** `=`, `&lt;&gt;`, `&lt;`, `&gt;`, `&lt;=`, `&gt;=`.
 
-**Logical operators:** `AND``OR``NOT`.
+**Logical operators:** `AND`, `OR`, `NOT`.
 
 **Pattern matching:**
 
@@ -371,16 +387,24 @@ Normalisation reduces data redundancy and dependency.
 
 **Unnormalised table:**
 
+<div class="table-wrap">
+
 | StudentID | Name | Subject1 | Teacher1 | Subject2 | Teacher2 |
 | --------- | ---- | -------- | -------- | -------- | -------- |
 | 1         | John | Maths    | Ms Lee   | Physics  | Mr Kelly |
 
+</div>
+
 **1NF:** Remove repeating groups.
+
+<div class="table-wrap">
 
 | StudentID | Name | Subject | Teacher  |
 | --------- | ---- | ------- | -------- |
 | 1         | John | Maths   | Ms Lee   |
 | 1         | John | Physics | Mr Kelly |
+
+</div>
 
 **2NF:** Separate into Students and Enrolments tables.
 
@@ -416,7 +440,7 @@ Enrolments: StudentID, Subject.
 
 If a Student record with StudentID = 5 exists in the Enrolments table, you cannot delete StudentID =
 5 from the Students table without first deleting the enrolments. Otherwise, the Enrolments table
-Would reference a non-existent student.
+would reference a non-existent student.
 
 ## Advanced SQL Techniques (HL)
 
@@ -495,11 +519,15 @@ CREATE TABLE Enrolment (
 
 **Unicode and UTF-8 encoding:**
 
+<div class="table-wrap">
+
 | Character | Unicode | UTF-8 Bytes                          |
 | --------- | ------- | ------------------------------------ |
 | A         | U+0041  | 01000001 (1 byte)                    |
 | Euro      | U+20AC  | 11100010 10000010 10101100 (3 bytes) |
 | Emoji     | U+1F600 | 4 bytes                              |
+
+</div>
 
 **Why UTF-8 is preferred:** Backward-compatible with ASCII, variable-length (efficient for English
 Text), and supports all Unicode characters.
@@ -586,6 +614,8 @@ FROM Students;
 
 ### Aggregate Functions in Detail
 
+<div class="table-wrap">
+
 | Function   | Description                     | Ignores NULL? |
 | ---------- | ------------------------------- | ------------- |
 | COUNT(\*)  | Count all rows                  | No            |
@@ -594,6 +624,8 @@ FROM Students;
 | AVG        | Average of values               | Yes           |
 | MIN        | Smallest value                  | Yes           |
 | MAX        | Largest value                   | Yes           |
+
+</div>
 
 **Worked Example.** Find the student with the highest mark in each subject.
 
@@ -627,6 +659,8 @@ Characters and longer codes to less frequent characters.
 
 **Example:** For the string "BCCABBDDAECCBBAEDDCC"
 
+<div class="table-wrap">
+
 | Character | Frequency | Huffman Code |
 | --------- | --------- | ------------ |
 | C         | 6         | 00           |
@@ -634,6 +668,8 @@ Characters and longer codes to less frequent characters.
 | D         | 4         | 10           |
 | A         | 3         | 110          |
 | E         | 2         | 111          |
+
+</div>
 
 Original: 19 characters x 8 bits = 152 bits. Compressed: (6x2) + (4x2) + (4x2) + (3x3) + (2x3) =
 12 + 8 + 8 + 9 + 6 = 43 bits.
@@ -690,8 +726,8 @@ DELETE FROM Results WHERE StudentID = 42;
 Pseudonymisation might be preferred over anonymisation.
 
 Pseudonymisation allows the hospital to re-link data to patients if needed (e.g., for follow-up
-Studies). Anonymisation would make this impossible. However, pseudonymised data still carries a
-Small re-identification risk.
+studies). Anonymisation would make this impossible. However, pseudonymised data still carries a
+small re-identification risk.
 
 ## Additional Practice Questions
 
@@ -705,17 +741,6 @@ Small re-identification risk.
 
 4. A company stores customer data including names, addresses, purchase history, and payment
     details. Explain which data protection principles apply and how they should be implemented.
-
-
-```mermaid
-flowchart TD
-    A[3_Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

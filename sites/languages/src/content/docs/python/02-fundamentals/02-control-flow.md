@@ -42,7 +42,7 @@ def classify_temperature(temp_celsius: float) -> str:
 
 The condition expression can be any Python object. Python evaluates its truthiness using the
 `__bool__()` protocol described in the previous chapter. There is no requirement that the condition
-Be a boolean -- this is consistent with Python's broader philosophy of duck typing.
+be a boolean -- this is consistent with Python's broader philosophy of duck typing.
 
 ```python
 ## All of these are valid conditional expressions
@@ -105,7 +105,7 @@ else:
 
 Note the ordering: the value comes first, then the condition. This differs from C's
 `condition ? value_if_true : value_if_false`. The rationale is that in natural English, you state
-The assertion first ("it is an adult") and then qualify it ("if age >= 18, otherwise it is a
+the assertion first ("it is an adult") and then qualify it ("if age >= 18, otherwise it is a
 Minor").
 
 Nested ternary expressions are technically possible but should be avoided:
@@ -143,7 +143,7 @@ The design was driven by several considerations:
    switch would be redundant.
 
 2. **Algebraic data types are increasingly common.** Python codebases increasingly use
-   `dataclasses``NamedTuple`And `TypedDict` to model structured data. Pattern matching provides a
+   `dataclasses`, `NamedTuple` and `TypedDict` to model structured data. Pattern matching provides a
    natural way to destructure these types.
 
 3. **No fall-through.** Fall-through is the most error-prone feature of C's `switch`. Every `case`
@@ -166,7 +166,7 @@ def http_status_text(code: int) -> str:
 ```
 
 The `_` is the wildcard pattern that matches anything. It is a common convention to place it last as
-The default case.
+the default case.
 
 ### Capture Patterns and Guards
 
@@ -272,7 +272,7 @@ flowchart TD
 
 :::note
 the `match` block is skipped entirely -- it does not raise an error. This differs from Rust's
-`match`Which requires exhaustiveness at compile time.
+`match`. Which requires exhaustiveness at compile time.
 
 ## Loops
 
@@ -331,7 +331,7 @@ print(5 in range(1000000))    # True, instant check
 print(len(range(1000000)))    # 1000000
 ```
 
-`range` objects implement the sequence protocol (`__contains__``__len__``__getitem__`) with $O(1)$
+`range` objects implement the sequence protocol (`__contains__`, `__len__`, `__getitem__`) with $O(1)$
 membership testing. `x in range(n)` does not iterate through the range -- it computes the Answer
 directly.
 
@@ -450,9 +450,9 @@ def converge_pi(target_error: float = 1e-5) -> float:
 
 :::caution
 (server main loops, event loops), an accidental infinite loop freezes the program. Always ensure
-There is a reachable termination condition.
+there is a reachable termination condition.
 
-### `break``continue`And Loop `else`
+### `break`, `continue` and Loop `else`
 
 Python loops support `break` (exit the loop immediately), `continue` (skip to the next iteration),
 And an `else` clause that executes only when the loop completes without hitting `break`.
@@ -499,7 +499,7 @@ def binary_search(sorted_list: list[int], target: int) -> int | None:
 
 The loop `else` clause is one of Python's most misunderstood features. It is not analogous to the
 `else` in `if/else`. It executes when the loop condition becomes false (for `while`) or the iterable
-Is exhausted (for `for`), but not when the loop is exited via `break`. The mental model is: the
+is exhausted (for `for`), but not when the loop is exited via `break`. The mental model is: the
 `else` clause is the "no break" clause.
 
 ```mermaid
@@ -611,8 +611,8 @@ print(list(result))  # [1, 5, 9, 13, ...]
 ### Comprehension Scope
 
 Comprehensions have their own local scope in Python 3. Variables assigned inside a comprehension do
-Not leak into the enclosing scope (this was a change from Python 2, where list comprehensions leaked
-The loop variable).
+not leak into the enclosing scope (this was a change from Python 2, where list comprehensions leaked
+the loop variable).
 
 ```python
 # Python 3: comprehension has its own scope
@@ -667,7 +667,7 @@ Guiding principle: use it when it eliminates a clear redundancy, not just to sav
 
 Python's exception handling mechanism is the primary error-handling idiom. Unlike return codes or
 Error objects, exceptions decouple error detection from error handling -- the function that detects
-The error does not need to know how to handle it.
+the error does not need to know how to handle it.
 
 ```python
 def read_config(path: str) -> dict:
@@ -690,11 +690,15 @@ def read_config(path: str) -> dict:
 
 The four clauses have distinct roles:
 
+<div class="table-wrap">
+
 | Clause    | Executes when                             | Purpose                                   |
 | --------- | ----------------------------------------- | ----------------------------------------- |
 | `except`  | The specified exception is raised         | Handle the error, recover, or re-raise    |
 | `else`    | No exception is raised in the `try` block | Code that depends on the `try` succeeding |
 | `finally` | Always, even if an exception is unhandled | Cleanup that must happen regardless       |
+
+</div>
 
 The `else` clause exists to prevent a subtle bug: catching an exception that was raised by the
 Error-handling code itself, not by the code you intended to protect.
@@ -770,7 +774,7 @@ class ValidationError(AppError):
 ```
 
 Custom exceptions should inherit from `Exception` (not `BaseException`). Group related exceptions
-Under a common base class so callers can catch the entire category:
+under a common base class so callers can catch the entire category:
 
 ```python
 try:
@@ -1044,14 +1048,7 @@ Control flow is the road system of your program. `if`/`elif`/`else` are intersec
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

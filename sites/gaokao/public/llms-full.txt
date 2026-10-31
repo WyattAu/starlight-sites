@@ -52,8 +52,6 @@ This site provides comprehensive study materials covering:
 - Mathematics
 - Biology
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -78,8 +76,6 @@ Gaokao preparation
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -97,18 +93,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Gaokao Flashcards: Mathematics](/flashcards-mathematics/)
 - [Introduction to Gaokao Notes](/intro/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -117,54 +106,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -217,18 +158,11 @@ Gaokao Mathematics tests a broad range of topics from set theory and functions t
 - **[Site Home](../../):** Main landing page for gaokao notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -237,100 +171,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -549,18 +389,19 @@ URL: https://gaokao.wyattau.com/hub/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
+
+
+:::note[Heading to university next?]
+These notes are calibrated to your exam. University mathematics and physics are
+not: they assume you can read a proof, define a limit from the epsilon-delta
+definition, and work with vectors and set notation. The destination sites have
+free transition pages written exactly for that step -- start with
+**[Before You Begin: From School to University Mathematics](https://mathematics.wyattau.com/before-you-begin/)**
+and continue to
+**[the physics version](https://physics.wyattau.com/before-you-begin/)**.
+Both end with a self-test, so you know which sections to study.
+:::
 
 The Gaokao (高考) is the National College Entrance Examination of China, one of the most important and most gruelling examinations in the world. Every June, approximately 12 million students sit for this exam, and their scores determine which universities they can attend. The Gaokao is not merely a test of knowledge; it is a test of endurance, precision, and strategic thinking under extreme pressure.
 
@@ -587,16 +428,24 @@ Understanding the structure of the Gaokao is the first step to preparing effecti
 
 ### Day 1
 
+<div class="table-wrap">
+
 | Subject | Duration | Maximum Score |
 |---------|----------|---------------|
 | Chinese (语文) | 150 minutes | 150 |
 | Mathematics (数学) | 120 minutes | 150 |
 
+</div>
+
 ### Day 2
+
+<div class="table-wrap">
 
 | Subject | Duration | Maximum Score |
 |---------|----------|---------------|
 | Comprehensive Liberal Arts or Science | 150 minutes | 300 |
+
+</div>
 
 The comprehensive section varies by track:
 
@@ -751,6 +600,8 @@ The essay (作文) is worth 60 points and can make or break your score.
 
 ### One-Year Plan (Year 12 / Grade 12)
 
+<div class="table-wrap">
+
 | Period | Focus |
 | -------- | ------- |
 | September–November | Complete curriculum coverage; build foundational understanding |
@@ -758,6 +609,8 @@ The essay (作文) is worth 60 points and can make or break your score.
 | February–March | Targeted revision of weak areas; intensive practice |
 | April–May | Full-length practice exams under timed conditions |
 | June | Final review; light practice; rest and mental preparation |
+
+</div>
 
 ### Three-Year Plan (Years 10–12)
 
@@ -1009,7 +862,7 @@ This offers up to **35 subject combinations**. Each elective is scaled similarly
 
 ### Maximum Score: 750 Points
 
-The Gaokao"s total score of 750 points is distributed across the mandatory subjects and electives as
+The Gaokao's total score of 750 points is distributed across the mandatory subjects and electives as
 described above. Understanding how scores are reported and used is critical:
 
 - **Original score (卷面分):** The raw mark a student receives on the exam paper. Used directly for
@@ -1034,6 +887,8 @@ June. The score report includes:
 
 China's Gaokao system has significant **provincial variation** in several areas:
 
+<div class="table-wrap">
+
 | Aspect         | Variation                                                                            |
 | -------------- | ------------------------------------------------------------------------------------ |
 | Exam papers    | Some provinces use national papers (全国卷); others use provincial papers (自主命题) |
@@ -1041,6 +896,8 @@ China's Gaokao system has significant **provincial variation** in several areas:
 | Scoring method | Some provinces use percentile ranks; others report raw scores                        |
 | Exam schedule  | Most provinces test in early June, but exact dates vary                              |
 | Re-sit policy  | Some provinces restrict the number of re-sit attempts                                |
+
+</div>
 
 Notable examples:
 
@@ -1112,10 +969,6 @@ The Gaokao is like a marathon, not a sprint. You would not expect to run 26 mile
 Strategy is like a game plan in sports. You would not enter a basketball game without knowing which plays to run in different situations. Similarly, knowing which sections to tackle first, which questions to skip and return to, and how to allocate your time across subjects is the difference between a good performance and a great one. The best athletes and the best students both succeed because they prepare their strategy as carefully as their skills.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
@@ -1207,35 +1060,21 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ## 代数与函数
 
-
-
-
 ---
 
 ## 函数性质
-
-
-
 
 ---
 
 ## 三角函数与几何
 
-
-
-
 ---
 
 ## 概率与统计
 
-
-
 ---
 
 ## 微积分基础
-
-
-
 
 ## Intuition
 
@@ -1258,18 +1097,11 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Site Home](../../):** Main landing page for gaokao notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -1278,100 +1110,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## Chemistry
 
@@ -1469,7 +1207,9 @@ URL: https://gaokao.wyattau.com/chemistry/inorganic/
 ### 化学平衡
 
 **平衡常数：** 对于反应 $aA + bB \rightleftharpoons cC + dD$：
-$$K = \frac{[C]^c[D]^d}{[A]^a[B]^b}$$
+$$
+K = \frac{[C]^c[D]^d}{[A]^a[B]^b}
+$$
 
 **勒夏特列原理：** 改变影响平衡的条件，平衡将向减弱这种改变的方向移动。
 
@@ -1518,7 +1258,9 @@ $$\begin{array}{lccc}
 \end{array}$$
 
 步骤2：代入平衡常数表达式：
-$$K = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} = \frac{1.2^2}{1.4 \times 4.2^3} = \frac{1.44}{1.4 \times 74.088} = \frac{1.44}{103.723} \approx 0.014$$
+$$
+K = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} = \frac{1.2^2}{1.4 \times 4.2^3} = \frac{1.44}{1.4 \times 74.088} = \frac{1.44}{103.723} \approx 0.014
+$$
 
 **答案：** $K \approx 0.014$
 
@@ -1535,7 +1277,9 @@ $$K = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} = \frac{1.2^2}{1.4 \tim
 步骤2：使化合价升降总数相等：$\text{Fe}^{2+}$ 系数为 $5$，$\text{MnO}_4^-$ 系数为 $1$
 
 步骤3：配平其他原子：
-$$\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ = \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$$
+$$
+\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ = \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}
+$$
 
 **答案：** $\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ = \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$
 
@@ -1577,7 +1321,9 @@ $$\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ = \text{Mn}^{2+} + 5\text{Fe}^{
 步骤1：体积缩小到一半，各组分浓度瞬时增大为原来的 $2$ 倍。
 
 步骤2：计算浓度商 $Q$：
-$$Q = \frac{(2[\text{NH}_3])^2}{(2[\text{N}_2])(2[\text{H}_2])^3} = \frac{4[\text{NH}_3]^2}{16[\text{N}_2][\text{H}_2]^3} = \frac{1}{4}K$$
+$$
+Q = \frac{(2[\text{NH}_3])^2}{(2[\text{N}_2])(2[\text{H}_2])^3} = \frac{4[\text{NH}_3]^2}{16[\text{N}_2][\text{H}_2]^3} = \frac{1}{4}K
+$$
 
 步骤3：由于 $Q < K$，平衡向正反应方向移动（向右移动）。
 
@@ -1643,13 +1389,19 @@ $$Q = \frac{(2[\text{NH}_3])^2}{(2[\text{N}_2])(2[\text{H}_2])^3} = \frac{4[\tex
 **解答：**
 
 步骤1：先计算原平衡的 $K$：
-$$K = \frac{[\text{HI}]^2}{[\text{H}_2][\text{I}_2]} = \frac{0.8^2}{0.5 \times 0.1} = \frac{0.64}{0.05} = 12.8$$
+$$
+K = \frac{[\text{HI}]^2}{[\text{H}_2][\text{I}_2]} = \frac{0.8^2}{0.5 \times 0.1} = \frac{0.64}{0.05} = 12.8
+$$
 
 步骤2：加入 $\text{HI}$ 后，各物质浓度瞬时变为：
-$$[\text{H}_2] = 0.5,\quad [\text{I}_2] = 0.1,\quad [\text{HI}] = 1.0$$
+$$
+[\text{H}_2] = 0.5,\quad [\text{I}_2] = 0.1,\quad [\text{HI}] = 1.0
+$$
 
 步骤3：计算浓度商 $Q$：
-$$Q = \frac{1.0^2}{0.5 \times 0.1} = \frac{1.0}{0.05} = 20$$
+$$
+Q = \frac{1.0^2}{0.5 \times 0.1} = \frac{1.0}{0.05} = 20
+$$
 
 步骤4：由于 $Q = 20 > K = 12.8$，平衡向逆反应方向移动。
 
@@ -1666,18 +1418,26 @@ $$Q = \frac{1.0^2}{0.5 \times 0.1} = \frac{1.0}{0.05} = 20$$
 步骤1：阴极反应：$\text{Cu}^{2+} + 2e^- = \text{Cu}$
 
 步骤2：阴极增重 $6.4\,\text{g}$，即析出铜的物质的量：
-$$n(\text{Cu}) = \frac{6.4}{64} = 0.1\,\text{mol}$$
+$$
+n(\text{Cu}) = \frac{6.4}{64} = 0.1\,\text{mol}
+$$
 
 步骤3：转移电子的物质的量：
-$$n(e^-) = 0.1 \times 2 = 0.2\,\text{mol}$$
+$$
+n(e^-) = 0.1 \times 2 = 0.2\,\text{mol}
+$$
 
 步骤4：阳极反应：$4\text{OH}^- - 4e^- = 2\text{H}_2\text{O} + \text{O}_2 \uparrow$
 
 步骤5：阳极产生氧气的物质的量：
-$$n(\text{O}_2) = \frac{0.2}{4} = 0.05\,\text{mol}$$
+$$
+n(\text{O}_2) = \frac{0.2}{4} = 0.05\,\text{mol}
+$$
 
 步骤6：标准状况下体积：
-$$V = 0.05 \times 22.4 = 1.12\,\text{L}$$
+$$
+V = 0.05 \times 22.4 = 1.12\,\text{L}
+$$
 
 **答案：** 阳极产生的气体体积为 $1.12\,\text{L}$
 
@@ -1690,19 +1450,29 @@ $$V = 0.05 \times 22.4 = 1.12\,\text{L}$$
 **解答：**
 
 步骤1：反应方程式：
-$$\text{NaHCO}_3 + \text{NaOH} = \text{Na}_2\text{CO}_3 + \text{H}_2\text{O}$$
+$$
+\text{NaHCO}_3 + \text{NaOH} = \text{Na}_2\text{CO}_3 + \text{H}_2\text{O}
+$$
 
 步骤2：等体积混合后，溶质为 $\text{Na}_2\text{CO}_3$，浓度为 $0.05\,\text{mol/L}$。
 
 步骤3：$\text{Na}_2\text{CO}_3$ 完全电离：
-$$\text{Na}_2\text{CO}_3 = 2\text{Na}^+ + \text{CO}_3^{2-}$$
+$$
+\text{Na}_2\text{CO}_3 = 2\text{Na}^+ + \text{CO}_3^{2-}
+$$
 
 步骤4：$\text{CO}_3^{2-}$ 水解：
-$$\text{CO}_3^{2-} + \text{H}_2\text{O} \rightleftharpoons \text{HCO}_3^- + \text{OH}^-$$
-$$\text{HCO}_3^- + \text{H}_2\text{O} \rightleftharpoons \text{H}_2\text{CO}_3 + \text{OH}^-$$
+$$
+\text{CO}_3^{2-} + \text{H}_2\text{O} \rightleftharpoons \text{HCO}_3^- + \text{OH}^-
+$$
+$$
+\text{HCO}_3^- + \text{H}_2\text{O} \rightleftharpoons \text{H}_2\text{CO}_3 + \text{OH}^-
+$$
 
 步骤5：离子浓度大小：
-$$c(\text{Na}^+) > c(\text{CO}_3^{2-}) > c(\text{OH}^-) > c(\text{HCO}_3^-) > c(\text{H}^+)$$
+$$
+c(\text{Na}^+) > c(\text{CO}_3^{2-}) > c(\text{OH}^-) > c(\text{HCO}_3^-) > c(\text{H}^+)
+$$
 
 **答案：** $c(\text{Na}^+) > c(\text{CO}_3^{2-}) > c(\text{OH}^-) > c(\text{HCO}_3^-) > c(\text{H}^+)$
 
@@ -1779,17 +1549,6 @@ $$\begin{array}{lccc}
 **答案：** 混合后溶液的 $\text{pH}$ 约为 $8.72$
 
 **考试技巧：** 强碱弱酸盐溶液的 $\text{pH}$ 计算，先求水解常数，再利用近似计算求 $[\text{OH}^-]$，最后求 $\text{pH}$。
-
-
-```mermaid
-flowchart TD
-    A[Inorganic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -1908,16 +1667,24 @@ URL: https://gaokao.wyattau.com/chemistry/organic/
 **解答：**
 
 步骤1：乙烯水化制乙醇：
-$$\text{CH}_2=\text{CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{催化剂}} \text{CH}_3\text{CH}_2\text{OH}$$
+$$
+\text{CH}_2=\text{CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{催化剂}} \text{CH}_3\text{CH}_2\text{OH}
+$$
 
 步骤2：乙醇氧化制乙醛：
-$$2\text{CH}_3\text{CH}_2\text{OH} + \text{O}_2 \xrightarrow{\text{Cu/Ag, }\Delta} 2\text{CH}_3\text{CHO} + 2\text{H}_2\text{O}$$
+$$
+2\text{CH}_3\text{CH}_2\text{OH} + \text{O}_2 \xrightarrow{\text{Cu/Ag, }\Delta} 2\text{CH}_3\text{CHO} + 2\text{H}_2\text{O}
+$$
 
 步骤3：乙醛氧化制乙酸：
-$$2\text{CH}_3\text{CHO} + \text{O}_2 \xrightarrow{\text{催化剂}} 2\text{CH}_3\text{COOH}$$
+$$
+2\text{CH}_3\text{CHO} + \text{O}_2 \xrightarrow{\text{催化剂}} 2\text{CH}_3\text{COOH}
+$$
 
 步骤4：乙醇与乙酸酯化：
-$$\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\Delta]{\text{浓H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}$$
+$$
+\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\Delta]{\text{浓H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}
+$$
 
 **答案：** 乙烯 $\rightarrow$ 乙醇 $\rightarrow$ 乙醛 $\rightarrow$ 乙酸 $\rightarrow$ 乙酸乙酯
 
@@ -1957,16 +1724,22 @@ $$\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\
 **解答：**
 
 步骤1：乙烯水化制乙醇：
-$$\text{CH}_2=\text{CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{催化剂}} \text{CH}_3\text{CH}_2\text{OH}$$
+$$
+\text{CH}_2=\text{CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{催化剂}} \text{CH}_3\text{CH}_2\text{OH}
+$$
 
 步骤2：乙醇脱水制乙烯（如果需要更纯的乙烯）：
 此步可跳过，直接使用步骤1的产物
 
 步骤3：乙烯与溴加成：
-$$\text{CH}_2=\text{CH}_2 + \text{Br}_2 \rightarrow \text{CH}_2\text{BrCH}_2\text{Br}$$
+$$
+\text{CH}_2=\text{CH}_2 + \text{Br}_2 \rightarrow \text{CH}_2\text{BrCH}_2\text{Br}
+$$
 
 步骤4：1,2-二溴乙烷水解：
-$$\text{CH}_2\text{BrCH}_2\text{Br} + 2\text{NaOH} \xrightarrow{\text{水}} \text{HOCH}_2\text{CH}_2\text{OH} + 2\text{NaBr}$$
+$$
+\text{CH}_2\text{BrCH}_2\text{Br} + 2\text{NaOH} \xrightarrow{\text{水}} \text{HOCH}_2\text{CH}_2\text{OH} + 2\text{NaBr}
+$$
 
 **答案：** 乙烯 $\rightarrow$ 1,2-二溴乙烷 $\rightarrow$ 乙二醇
 
@@ -1996,7 +1769,9 @@ $$\text{CH}_2\text{BrCH}_2\text{Br} + 2\text{NaOH} \xrightarrow{\text{水}} \tex
 
 **题目：** 写出下列高分子化合物的单体：
 
-$$\left[-\text{CH}_2-\text{CH}=\text{CH}-\text{CH}_2-\right]_n$$
+$$
+\left[-\text{CH}_2-\text{CH}=\text{CH}-\text{CH}_2-\right]_n
+$$
 
 **解答：**
 
@@ -2005,7 +1780,9 @@ $$\left[-\text{CH}_2-\text{CH}=\text{CH}-\text{CH}_2-\right]_n$$
 步骤2：寻找重复单元：$-\text{CH}_2-\text{CH}=\text{CH}-\text{CH}_2-$
 
 步骤3：加聚反应是双键打开后连接，所以单体为：
-$$\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$$
+$$
+\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2
+$$
 
 步骤4：1,3-丁二烯发生1,4-加聚反应，形成含双键的高分子
 
@@ -2022,6 +1799,8 @@ $$\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$$
 
 ### 高考有机化学常见反应类型
 
+<div class="table-wrap">
+
 | 反应类型 | 典型反应 | 条件 |
 | --------- | --------- | ------ |
 | 取代反应 | 卤代、硝化、酯化 | 催化剂、加热 |
@@ -2031,6 +1810,8 @@ $$\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$$
 | 还原反应 | 醛加氢还原为醇 | H₂/催化剂 |
 | 缩聚反应 | 酯化缩聚、酰胺化缩聚 | 催化剂、加热 |
 | 加聚反应 | 烯烃加聚 | 引发剂 |
+
+</div>
 
 ## 更多典型例题
 
@@ -2070,16 +1851,24 @@ $$\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$$
 **解答：**
 
 步骤1：苯硝化制硝基苯：
-$$\text{C}_6\text{H}_6 + \text{HNO}_3 \xrightarrow{\text{浓H}_2\text{SO}_4, 50\text{-}60°\text{C}} \text{C}_6\text{H}_5\text{NO}_2 + \text{H}_2\text{O}$$
+$$
+\text{C}_6\text{H}_6 + \text{HNO}_3 \xrightarrow{\text{浓H}_2\text{SO}_4, 50\text{-}60°\text{C}} \text{C}_6\text{H}_5\text{NO}_2 + \text{H}_2\text{O}
+$$
 
 步骤2：硝基苯还原为苯胺：
-$$\text{C}_6\text{H}_5\text{NO}_2 + 3\text{Fe} + 6\text{HCl} \rightarrow \text{C}_6\text{H}_5\text{NH}_2 + 3\text{FeCl}_2 + 2\text{H}_2\text{O}$$
+$$
+\text{C}_6\text{H}_5\text{NO}_2 + 3\text{Fe} + 6\text{HCl} \rightarrow \text{C}_6\text{H}_5\text{NH}_2 + 3\text{FeCl}_2 + 2\text{H}_2\text{O}
+$$
 
 步骤3：苯胺重氮化后水解制苯酚：
-$$\text{C}_6\text{H}_5\text{NH}_2 \xrightarrow{\text{NaNO}_2, \text{HCl}} \text{C}_6\text{H}_5\text{N}_2\text{Cl} \xrightarrow{\text{H}_2\text{O}, \Delta} \text{C}_6\text{H}_5\text{OH}$$
+$$
+\text{C}_6\text{H}_5\text{NH}_2 \xrightarrow{\text{NaNO}_2, \text{HCl}} \text{C}_6\text{H}_5\text{N}_2\text{Cl} \xrightarrow{\text{H}_2\text{O}, \Delta} \text{C}_6\text{H}_5\text{OH}
+$$
 
 步骤4：苯酚与 $\text{CO}_2$ 反应制水杨酸（Kolbe反应）：
-$$\text{C}_6\text{H}_5\text{OH} + \text{CO}_2 + \text{NaOH} \rightarrow o\text{-HOC}_6\text{H}_4\text{COONa} \xrightarrow{\text{H}^+} o\text{-HOC}_6\text{H}_4\text{COOH}$$
+$$
+\text{C}_6\text{H}_5\text{OH} + \text{CO}_2 + \text{NaOH} \rightarrow o\text{-HOC}_6\text{H}_4\text{COONa} \xrightarrow{\text{H}^+} o\text{-HOC}_6\text{H}_4\text{COOH}
+$$
 
 **答案：** 苯→硝基苯→苯胺→苯酚→水杨酸
 
@@ -2092,13 +1881,19 @@ $$\text{C}_6\text{H}_5\text{OH} + \text{CO}_2 + \text{NaOH} \rightarrow o\text{-
 **解答：**
 
 步骤1：乙烯氧化制乙酸乙烯酯：
-$$2\text{CH}_2=\text{CH}_2 + 2\text{CH}_3\text{COOH} + \text{O}_2 \xrightarrow{\text{催化剂}} 2\text{CH}_3\text{COOCH}=\text{CH}_2 + 2\text{H}_2\text{O}$$
+$$
+2\text{CH}_2=\text{CH}_2 + 2\text{CH}_3\text{COOH} + \text{O}_2 \xrightarrow{\text{催化剂}} 2\text{CH}_3\text{COOCH}=\text{CH}_2 + 2\text{H}_2\text{O}
+$$
 
 步骤2：乙酸乙烯酯加聚：
-$$n\text{CH}_3\text{COOCH}=\text{CH}_2 \xrightarrow{\text{引发剂}} \left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n$$
+$$
+n\text{CH}_3\text{COOCH}=\text{CH}_2 \xrightarrow{\text{引发剂}} \left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n
+$$
 
 步骤3：聚乙酸乙烯酯水解：
-$$\left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n + n\text{NaOH} \xrightarrow{\text{水}} \left[-\text{CH}_2-\text{CH(OH)}-\right]_n + n\text{CH}_3\text{COONa}$$
+$$
+\left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n + n\text{NaOH} \xrightarrow{\text{水}} \left[-\text{CH}_2-\text{CH(OH)}-\right]_n + n\text{CH}_3\text{COONa}
+$$
 
 **答案：** 乙烯→乙酸乙烯酯→聚乙酸乙烯酯→聚乙烯醇
 
@@ -2153,7 +1948,9 @@ $$\left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n + n\text{NaOH} \xrightarrow{\t
 
 **题目：** 写出下列高分子化合物的单体：
 
-$$\left[-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-\right]_n$$
+$$
+\left[-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-\right]_n
+$$
 
 **解答：**
 
@@ -2172,17 +1969,6 @@ $$\left[-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-\right
 **答案：** 单体为丙烯腈 $\text{CH}_2=\text{CHCN}$ 和1,3-丁二烯 $\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$
 
 **考试技巧：** 判断高分子化合物单体的方法：①若链节中含有双键，可能是共聚物；②将链节断开，还原双键；③注意1,4-加聚和1,2-加聚的区别。
-
-
-```mermaid
-flowchart TD
-    A[Organic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -2607,16 +2393,6 @@ D. 苏轼的母亲鼓励他学习范滂
 
 **考试技巧：** 哲理诗的鉴赏要透过表面现象，分析深层含义。注意诗中的关键词和比喻义。
 
-```mermaid
-flowchart TD
-    A[Reading] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Reading comprehension on the Gaokao is like being a detective. Each passage is a crime scene full of clues, and you must piece together what the author is really saying. The surface meaning is the obvious evidence, but the deeper meaning is hidden in word choices, sentence structure, and what the author chose not to say. The best readers are the best observers.
@@ -2977,17 +2753,6 @@ URL: https://gaokao.wyattau.com/chinese/writing/
 
 **常见错误：** 记叙文容易写成流水账。要注意细节描写、心理描写和环境描写，使文章生动感人。
 
-
-```mermaid
-flowchart TD
-    A[Writing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Writing an essay is like building a bridge. The introduction is the foundation that must be solid and well-placed. Each paragraph is a support beam that must connect logically to the next. The conclusion is the capstone that ties everything together. If any beam is weak or poorly placed, the entire structure collapses.
@@ -3227,6 +2992,8 @@ URL: https://gaokao.wyattau.com/diagnostics/diag-mathematics/
 
 ## 答案表
 
+<div class="table-wrap">
+
 | 题号 | 正确答案 |
 |------|----------|
 | 1    | B        |
@@ -3239,6 +3006,8 @@ URL: https://gaokao.wyattau.com/diagnostics/diag-mathematics/
 | 8    | B        |
 | 9    | D        |
 | 10   | C        |
+
+</div>
 
 **评分标准:** 答对 8 题及以上表示对高考数学基础知识掌握良好。对于答错的题目，请回顾相关章节内容并重新练习。
 
@@ -3253,17 +3022,6 @@ URL: https://gaokao.wyattau.com/diagnostics/diag-mathematics/
 **Step 4:** Retake the diagnostic in 2-3 days to verify improvement. Spaced repetition of diagnostic tests strengthens long-term retention.
 
 **Step 5:** If you consistently score below 6/10, revisit the foundational topics (sets, functions, basic trigonometry) before attempting harder practice problems.
-
-
-```mermaid
-flowchart TD
-    A[Diag Mathematics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -3760,16 +3518,6 @@ D. confusion
 
 **考试技巧：** 词义猜测题要利用上下文线索，特别是同义词、反义词或解释性短语。
 
-```mermaid
-flowchart TD
-    A[Reading] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 English reading comprehension on the Gaokao is like solving a puzzle. Each question asks you to find a specific piece of information in the text, and the challenge is locating it quickly among many sentences. Skimming is like scanning the puzzle box for the right color; scanning is like looking for the specific shape of the piece you need.
@@ -4196,16 +3944,6 @@ Li Hua
 
 **考试技巧：** 续写中的情感描写要自然真实，通过动作、语言、心理活动等多种方式展现人物情感变化。
 
-```mermaid
-flowchart TD
-    A[Writing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 English writing on the Gaokao is like following a recipe. The format is the recipe card: it tells you what ingredients (paragraphs) to include and in what order. The introduction appetizer, the body main courses, and the conclusion dessert. Following the recipe ensures you do not forget any essential components.
@@ -4259,7 +3997,9 @@ URL: https://gaokao.wyattau.com/mathematics/algebra/
 一元二次方程的标准形式为 $ax^2 + bx + c = 0$（$a \neq 0$），其解法包括：
 
 **求根公式：**
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
 
 **判别式 $\Delta = b^2 - 4ac$：**
 
@@ -4268,7 +4008,9 @@ $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 - $\Delta < 0$：无实数根（两个共轭复数根）
 
 **韦达定理：** 若 $x_1, x_2$ 是方程的两个根，则：
-$$x_1 + x_2 = -\frac{b}{a}, \quad x_1 \cdot x_2 = \frac{c}{a}$$
+$$
+x_1 + x_2 = -\frac{b}{a}, \quad x_1 \cdot x_2 = \frac{c}{a}
+$$
 
 ### 集合与逻辑
 
@@ -4281,17 +4023,25 @@ $$x_1 + x_2 = -\frac{b}{a}, \quad x_1 \cdot x_2 = \frac{c}{a}$$
 - 补集：$\complement_U A = \{x \mid x \in U \text{ 且 } x \notin A\}$
 
 **德摩根定律：**
-$$\complement_U(A \cap B) = (\complement_U A) \cup (\complement_U B)$$
-$$\complement_U(A \cup B) = (\complement_U A) \cap (\complement_U B)$$
+$$
+\complement_U(A \cap B) = (\complement_U A) \cup (\complement_U B)
+$$
+$$
+\complement_U(A \cup B) = (\complement_U A) \cap (\complement_U B)
+$$
 
 ### 不等式
 
 **均值不等式：** 对于正数 $a, b$：
-$$\frac{a + b}{2} \geq \sqrt{ab}$$
+$$
+\frac{a + b}{2} \geq \sqrt{ab}
+$$
 等号成立当且仅当 $a = b$。
 
 **柯西不等式（二维形式）：**
-$$(a^2 + b^2)(c^2 + d^2) \geq (ac + bd)^2$$
+$$
+(a^2 + b^2)(c^2 + d^2) \geq (ac + bd)^2
+$$
 
 ### 等差数列与等比数列
 
@@ -4310,10 +4060,14 @@ $$(a^2 + b^2)(c^2 + d^2) \geq (ac + bd)^2$$
 步骤1：识别系数 $a = 1, b = -5, c = 6$
 
 步骤2：由韦达定理：
-$$x_1 + x_2 = 5, \quad x_1 \cdot x_2 = 6$$
+$$
+x_1 + x_2 = 5, \quad x_1 \cdot x_2 = 6
+$$
 
 步骤3：利用恒等变换：
-$$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 25 - 12 = 13$$
+$$
+x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 25 - 12 = 13
+$$
 
 **答案：** $x_1^2 + x_2^2 = 13$
 
@@ -4324,18 +4078,22 @@ $$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 25 - 12 = 13$$
 **解答：**
 
 步骤1：由等差数列通项公式建立方程组：
-$$\begin{cases} a_1 + 2d = 7 \\ a_1 + 6d = 19 \end{cases}$$
+$$
+\begin{cases} a_1 + 2d = 7 \\ a_1 + 6d = 19 \end{cases}
+$$
 
 步骤2：两式相减得 $4d = 12$，故 $d = 3$
 
 步骤3：代入得 $a_1 = 1$，因此：
-$$a_{10} = a_1 + 9d = 1 + 27 = 28$$
+$$
+a_{10} = a_1 + 9d = 1 + 27 = 28
+$$
 
 **答案：** $a_{10} = 28$
 
 ### 例题3：集合运算
 
-**题目：** 已知全集 $U = \mathbb{R}$，集合 $A = \{x \mid x^2 - 3x + 2 \leq 0\}$，$B = \{x \mid x > 1\}$，求 $A \cap (\complement_U B)$。
+**题目：** 已知全集 $U = \mathbb{R}$，集合 $A = \{x \mid x^2 - 3x + 2 \leq 0\}$，$ B = \{x \mid x > 1\}$，求 $A \cap (\complement_U B)$。
 
 **解答：**
 
@@ -4358,7 +4116,7 @@ $$a_{10} = a_1 + 9d = 1 + 27 = 28$$
 
 1. 解方程 $2x^2 - 7x + 3 = 0$，并验证韦达定理
 2. 等差数列 $\{a_n\}$ 中，$S_{10} = 100$，求 $a_1 + a_{10}$
-3. 已知 $A = \{1, 2, 3, 4\}$，$B = \{2, 4, 6, 8\}$，求 $A \cup B$ 和 $A \cap B$
+3. 已知 $A = \{1, 2, 3, 4\}$，$ B = \{2, 4, 6, 8\}$，求 $A \cup B$ 和 $A \cap B$
 
 ### 例题4：等比数列
 
@@ -4367,10 +4125,14 @@ $$a_{10} = a_1 + 9d = 1 + 27 = 28$$
 **解答：**
 
 步骤1：由等比数列求和公式：
-$$S_n = \frac{a_1(1 - q^n)}{1 - q}$$
+$$
+S_n = \frac{a_1(1 - q^n)}{1 - q}
+$$
 
 步骤2：代入数据：
-$$S_5 = \frac{2(1 - 3^5)}{1 - 3} = \frac{2(1 - 243)}{-2} = \frac{2 \times (-242)}{-2} = 242$$
+$$
+S_5 = \frac{2(1 - 3^5)}{1 - 3} = \frac{2(1 - 243)}{-2} = \frac{2 \times (-242)}{-2} = 242
+$$
 
 **答案：** $S_5 = 242$
 
@@ -4381,10 +4143,14 @@ $$S_5 = \frac{2(1 - 3^5)}{1 - 3} = \frac{2(1 - 243)}{-2} = \frac{2 \times (-242)
 **解答：**
 
 步骤1：由均值不等式，对正数 $a, b$：
-$$\frac{a + b}{2} \geq \sqrt{ab}$$
+$$
+\frac{a + b}{2} \geq \sqrt{ab}
+$$
 
 步骤2：令 $a = x$，$b = \frac{1}{x}$：
-$$\frac{x + \frac{1}{x}}{2} \geq \sqrt{x \cdot \frac{1}{x}} = 1$$
+$$
+\frac{x + \frac{1}{x}}{2} \geq \sqrt{x \cdot \frac{1}{x}} = 1
+$$
 
 步骤3：因此 $x + \frac{1}{x} \geq 2$，等号成立当且仅当 $x = \frac{1}{x}$，即 $x = 1$。
 
@@ -4399,8 +4165,12 @@ $$\frac{x + \frac{1}{x}}{2} \geq \sqrt{x \cdot \frac{1}{x}} = 1$$
 步骤1：设两根为 $x_1 = a$，$x_2 = 2a$。
 
 步骤2：由韦达定理：
-$$x_1 + x_2 = 3a = 3 \implies a = 1$$
-$$x_1 \cdot x_2 = 2a^2 = m \implies m = 2$$
+$$
+x_1 + x_2 = 3a = 3 \implies a = 1
+$$
+$$
+x_1 \cdot x_2 = 2a^2 = m \implies m = 2
+$$
 
 步骤3：验证判别式 $\Delta = 9 - 8 = 1 > 0$，方程有两个不相等的实数根。
 
@@ -4413,13 +4183,19 @@ $$x_1 \cdot x_2 = 2a^2 = m \implies m = 2$$
 对于方程 $ax^2 + bx + c = 0$（$a > 0$），判别式 $\Delta = b^2 - 4ac$ 决定了根的情况。但在高考中，经常考查根的分布问题，即讨论根在某个区间内的条件。
 
 **两根都大于 $k$ 的条件：**
-$$\Delta \geq 0, \quad -\frac{b}{2a} > k, \quad f(k) > 0$$
+$$
+\Delta \geq 0, \quad -\frac{b}{2a} > k, \quad f(k) > 0
+$$
 
 **两根都小于 $k$ 的条件：**
-$$\Delta \geq 0, \quad -\frac{b}{2a} < k, \quad f(k) > 0$$
+$$
+\Delta \geq 0, \quad -\frac{b}{2a} < k, \quad f(k) > 0
+$$
 
 **一根大于 $k$，一根小于 $k$ 的条件：**
-$$f(k) < 0$$
+$$
+f(k) < 0
+$$
 
 ### 数列的综合应用
 
@@ -4433,7 +4209,7 @@ $$f(k) < 0$$
 **关键公式：**
 
 - 等差数列：$a_n = a_1 + (n-1)d$，$S_n = \frac{n(a_1 + a_n)}{2} = na_1 + \frac{n(n-1)}{2}d$
-- 等比数列：$a_n = a_1 q^{n-1}$，$S_n = \frac{a_1(1-q^n)}{1-q}$（$q \neq 1$）
+- 等比数列：$a_n = a_1 q^{n-1}$，$ S_n = \frac{a_1(1-q^n)}{1-q}$（$q \neq 1$）
 
 ## 更多典型例题
 
@@ -4446,12 +4222,20 @@ $$f(k) < 0$$
 步骤1：由题意，方程有两个不相等的实数根，故判别式 $\Delta > 0$。
 
 步骤2：计算判别式：
-$$\Delta = (2m)^2 - 4(m + 2) = 4m^2 - 4m - 8$$
+$$
+\Delta = (2m)^2 - 4(m + 2) = 4m^2 - 4m - 8
+$$
 
 步骤3：令 $\Delta > 0$：
-$$4m^2 - 4m - 8 > 0$$
-$$m^2 - m - 2 > 0$$
-$$(m - 2)(m + 1) > 0$$
+$$
+4m^2 - 4m - 8 > 0
+$$
+$$
+m^2 - m - 2 > 0
+$$
+$$
+(m - 2)(m + 1) > 0
+$$
 
 步骤4：解不等式得 $m < -1$ 或 $m > 2$。
 
@@ -4466,15 +4250,21 @@ $$(m - 2)(m + 1) > 0$$
 **解答：**
 
 步骤1：由等差数列求和公式 $S_n = na_1 + \frac{n(n-1)}{2}d$，列出方程组：
-$$\begin{cases} 10a_1 + 45d = 100 \\ 20a_1 + 190d = 400 \end{cases}$$
+$$
+\begin{cases} 10a_1 + 45d = 100 \\ 20a_1 + 190d = 400 \end{cases}
+$$
 
 步骤2：化简：
-$$\begin{cases} a_1 + 4.5d = 10 \\ a_1 + 9.5d = 20 \end{cases}$$
+$$
+\begin{cases} a_1 + 4.5d = 10 \\ a_1 + 9.5d = 20 \end{cases}
+$$
 
 步骤3：两式相减得 $5d = 10$，故 $d = 2$，$a_1 = 1$。
 
 步骤4：计算 $S_{30}$：
-$$S_{30} = 30 \times 1 + \frac{30 \times 29}{2} \times 2 = 30 + 870 = 900$$
+$$
+S_{30} = 30 \times 1 + \frac{30 \times 29}{2} \times 2 = 30 + 870 = 900
+$$
 
 **答案：** $S_{30} = 900$
 
@@ -4482,19 +4272,23 @@ $$S_{30} = 30 \times 1 + \frac{30 \times 29}{2} \times 2 = 30 + 870 = 900$$
 
 ### 例题9：集合与不等式的综合
 
-**题目：** 已知集合 $A = \{x \mid x^2 - 2x - 3 < 0\}$，$B = \{x \mid x > a\}$。若 $A \subseteq B$，求实数 $a$ 的取值范围。
+**题目：** 已知集合 $A = \{x \mid x^2 - 2x - 3 < 0\}$，$ B = \{x \mid x > a\}$。若 $A \subseteq B$，求实数 $a$ 的取值范围。
 
 **解答：**
 
 步骤1：解不等式 $x^2 - 2x - 3 < 0$：
-$$(x - 3)(x + 1) < 0$$
-$$A = (-1, 3)$$
+$$
+(x - 3)(x + 1) < 0
+$$
+$$
+A = (-1, 3)
+$$
 
 步骤2：由 $A \subseteq B$，即 $(-1, 3) \subseteq (a, +\infty)$。
 
 步骤3：要使 $A$ 中所有元素都大于 $a$，需 $a \leq -1$。
 
-步骤4：当 $a = -1$ 时，$B = (-1, +\infty)$，$A = (-1, 3) \subseteq B$ 成立。
+步骤4：当 $a = -1$ 时，$B = (-1, +\infty)$，$ A = (-1, 3) \subseteq B$ 成立。
 
 **答案：** $a \leq -1$，即 $a \in (-\infty, -1]$
 
@@ -4534,9 +4328,15 @@ f(1) > 0
 **解答：**
 
 步骤1：由 $S_9 = S_{17}$，利用求和公式：
-$$9a_1 + \frac{9 \times 8}{2}d = 17a_1 + \frac{17 \times 16}{2}d$$
-$$9a_1 + 36d = 17a_1 + 136d$$
-$$-8a_1 = 100d \implies d = -\frac{2a_1}{25}$$
+$$
+9a_1 + \frac{9 \times 8}{2}d = 17a_1 + \frac{17 \times 16}{2}d
+$$
+$$
+9a_1 + 36d = 17a_1 + 136d
+$$
+$$
+-8a_1 = 100d \implies d = -\frac{2a_1}{25}
+$$
 
 步骤2：由 $a_1 > 0$ 且 $d < 0$，数列递减。$S_n$ 最大时 $a_n \geq 0$ 且 $a_{n+1} \leq 0$。
 
@@ -4571,17 +4371,6 @@ $$-8a_1 = 100d \implies d = -\frac{2a_1}{25}$$
 **答案：** $a \in (-\infty, -2] \cup \{1\}$
 
 **考试技巧：** "$\forall$"型命题转化为最值问题，"$\exists$"型命题转化为判别式问题。注意逻辑联结词"且"对应交集，"或"对应并集。
-
-
-```mermaid
-flowchart TD
-    A[Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -4660,12 +4449,20 @@ URL: https://gaokao.wyattau.com/mathematics/functions/
 ### 指数与对数
 
 **指数运算律：**
-$$a^m \cdot a^n = a^{m+n}, \quad \frac{a^m}{a^n} = a^{m-n}, \quad (a^m)^n = a^{mn}$$
+$$
+a^m \cdot a^n = a^{m+n}, \quad \frac{a^m}{a^n} = a^{m-n}, \quad (a^m)^n = a^{mn}
+$$
 
 **对数运算律：**
-$$\log_a(MN) = \log_a M + \log_a N$$
-$$\log_a \frac{M}{N} = \log_a M - \log_a N$$
-$$\log_a M^n = n \log_a M$$
+$$
+\log_a(MN) = \log_a M + \log_a N
+$$
+$$
+\log_a \frac{M}{N} = \log_a M - \log_a N
+$$
+$$
+\log_a M^n = n \log_a M
+$$
 
 **换底公式：** $\log_a b = \frac{\ln b}{\ln a} = \frac{\log_c b}{\log_c a}$
 
@@ -4714,7 +4511,9 @@ $$\log_a M^n = n \log_a M$$
 **解答：**
 
 步骤1：化简左边：
-$$2^{x+1} - 2^x = 2 \cdot 2^x - 2^x = 2^x(2 - 1) = 2^x$$
+$$
+2^{x+1} - 2^x = 2 \cdot 2^x - 2^x = 2^x(2 - 1) = 2^x
+$$
 
 步骤2：方程化为 $2^x = 3$
 
@@ -4744,7 +4543,9 @@ $$2^{x+1} - 2^x = 2 \cdot 2^x - 2^x = 2^x(2 - 1) = 2^x$$
 步骤1：定义域为 $\mathbb{R}$，关于原点对称。
 
 步骤2：计算 $f(-x)$：
-$$f(-x) = \frac{e^{-x} - e^x}{e^{-x} + e^x} = \frac{-(e^x - e^{-x})}{e^x + e^{-x}} = -f(x)$$
+$$
+f(-x) = \frac{e^{-x} - e^x}{e^{-x} + e^x} = \frac{-(e^x - e^{-x})}{e^x + e^{-x}} = -f(x)
+$$
 
 步骤3：由 $f(-x) = -f(x)$，$f(x)$ 为奇函数。
 
@@ -4776,17 +4577,27 @@ $$f(-x) = \frac{e^{-x} - e^x}{e^{-x} + e^x} = \frac{-(e^x - e^{-x})}{e^x + e^{-x
 **解答：**
 
 步骤1：由对数定义，真数须为正：
-$$x + 3 > 0 \implies x > -3$$
-$$x - 1 > 0 \implies x > 1$$
+$$
+x + 3 > 0 \implies x > -3
+$$
+$$
+x - 1 > 0 \implies x > 1
+$$
 
 步骤2：合并对数：
-$$\log_2[(x+3)(x-1)] = 3$$
+$$
+\log_2[(x+3)(x-1)] = 3
+$$
 
 步骤3：化为指数形式：
-$$(x+3)(x-1) = 8$$
+$$
+(x+3)(x-1) = 8
+$$
 
 步骤4：展开并整理：
-$$x^2 + 2x - 3 = 8 \implies x^2 + 2x - 11 = 0$$
+$$
+x^2 + 2x - 3 = 8 \implies x^2 + 2x - 11 = 0
+$$
 
 步骤5：求解：$x = \frac{-2 \pm \sqrt{4 + 44}}{2} = \frac{-2 \pm \sqrt{48}}{2} = -1 \pm 2\sqrt{3}$
 
@@ -4803,8 +4614,12 @@ $$x^2 + 2x - 3 = 8 \implies x^2 + 2x - 11 = 0$$
 **解答：**
 
 步骤1：设 $0 < x_1 < x_2$，计算 $f(x_1) - f(x_2)$：
-$$f(x_1) - f(x_2) = \left(x_1 + \frac{4}{x_1}\right) - \left(x_2 + \frac{4}{x_2}\right)$$
-$$= (x_1 - x_2) + \frac{4(x_2 - x_1)}{x_1 x_2} = (x_1 - x_2)\left(1 - \frac{4}{x_1 x_2}\right)$$
+$$
+f(x_1) - f(x_2) = \left(x_1 + \frac{4}{x_1}\right) - \left(x_2 + \frac{4}{x_2}\right)
+$$
+$$
+= (x_1 - x_2) + \frac{4(x_2 - x_1)}{x_1 x_2} = (x_1 - x_2)\left(1 - \frac{4}{x_1 x_2}\right)
+$$
 
 步骤2：分析符号：
 
@@ -4826,7 +4641,9 @@ $$= (x_1 - x_2) + \frac{4(x_2 - x_1)}{x_1 x_2} = (x_1 - x_2)\left(1 - \frac{4}{x
 步骤2：由 $5^b = 10$，取对数得 $b \lg 5 = \lg 10 = 1$，故 $\dfrac{1}{b} = \lg 5$。
 
 步骤3：相加：
-$$\frac{1}{a} + \frac{1}{b} = \lg 2 + \lg 5 = \lg(2 \times 5) = \lg 10 = 1$$
+$$
+\frac{1}{a} + \frac{1}{b} = \lg 2 + \lg 5 = \lg(2 \times 5) = \lg 10 = 1
+$$
 
 **答案：** $\dfrac{1}{a} + \dfrac{1}{b} = 1$
 
@@ -4913,17 +4730,6 @@ $$\frac{1}{a} + \frac{1}{b} = \lg 2 + \lg 5 = \lg(2 \times 5) = \lg 10 = 1$$
 
 **考试技巧：** 函数图像变换遵循"左加右减，上加下减"原则。注意平移是针对 $x$ 还是整个函数。
 
-
-```mermaid
-flowchart TD
-    A[Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Functions are like vending machines. You put in a specific amount of money (input), press a button (the function), and get a specific snack (output). The same input always gives the same output, which is why functions are predictable and useful. Domain is the set of coins the machine accepts; range is the set of snacks it can dispense.
@@ -4987,7 +4793,9 @@ URL: https://gaokao.wyattau.com/mathematics/geometry/
 - 一般式：$Ax + By + C = 0$
 
 **点到直线距离：** 点 $(x_0, y_0)$ 到直线 $Ax + By + C = 0$ 的距离：
-$$d = \frac{|Ax_0 + By_0 + C|}{\sqrt{A^2 + B^2}}$$
+$$
+d = \frac{|Ax_0 + By_0 + C|}{\sqrt{A^2 + B^2}}
+$$
 
 **圆的标准方程：** $(x - a)^2 + (y - b)^2 = r^2$
 
@@ -5000,7 +4808,9 @@ $$d = \frac{|Ax_0 + By_0 + C|}{\sqrt{A^2 + B^2}}$$
 ### 立体几何
 
 **空间向量：** 设 $\vec{a} = (a_1, a_2, a_3)$，$\vec{b} = (b_1, b_2, b_3)$：
-$$\vec{a} \cdot \vec{b} = a_1 b_1 + a_2 b_2 + a_3 b_3$$
+$$
+\vec{a} \cdot \vec{b} = a_1 b_1 + a_2 b_2 + a_3 b_3
+$$
 
 **异面直线所成角：** $\cos\theta = \frac{|\vec{a} \cdot \vec{b}|}{|\vec{a}||\vec{b}|}$
 
@@ -5015,12 +4825,16 @@ $$\vec{a} \cdot \vec{b} = a_1 b_1 + a_2 b_2 + a_3 b_3$$
 **解答：**
 
 步骤1：计算数量积：
-$$\vec{a} \cdot \vec{b} = 1 \times 3 + 2 \times (-1) = 3 - 2 = 1$$
+$$
+\vec{a} \cdot \vec{b} = 1 \times 3 + 2 \times (-1) = 3 - 2 = 1
+$$
 
 步骤2：计算 $\vec{a} + \vec{b} = (1 + 3, 2 + (-1)) = (4, 1)$
 
 步骤3：计算模：
-$$|\vec{a} + \vec{b}| = \sqrt{4^2 + 1^2} = \sqrt{17}$$
+$$
+|\vec{a} + \vec{b}| = \sqrt{4^2 + 1^2} = \sqrt{17}
+$$
 
 **答案：** $\vec{a} \cdot \vec{b} = 1$，$|\vec{a} + \vec{b}| = \sqrt{17}$
 
@@ -5049,7 +4863,9 @@ $$|\vec{a} + \vec{b}| = \sqrt{4^2 + 1^2} = \sqrt{17}$$
 步骤1：识别 $A = 3, B = -4, C = 5, x_0 = 2, y_0 = -1$
 
 步骤2：代入距离公式：
-$$d = \frac{|3 \times 2 - 4 \times (-1) + 5|}{\sqrt{3^2 + (-4)^2}} = \frac{|6 + 4 + 5|}{\sqrt{25}} = \frac{15}{5} = 3$$
+$$
+d = \frac{|3 \times 2 - 4 \times (-1) + 5|}{\sqrt{3^2 + (-4)^2}} = \frac{|6 + 4 + 5|}{\sqrt{25}} = \frac{15}{5} = 3
+$$
 
 **答案：** 距离为 $3$
 
@@ -5073,10 +4889,14 @@ $$d = \frac{|3 \times 2 - 4 \times (-1) + 5|}{\sqrt{3^2 + (-4)^2}} = \frac{|6 + 
 **解答：**
 
 垂直情况：$\vec{a} \cdot \vec{b} = 0$
-$$2x + (-1) \times 4 = 0 \implies 2x - 4 = 0 \implies x = 2$$
+$$
+2x + (-1) \times 4 = 0 \implies 2x - 4 = 0 \implies x = 2
+$$
 
 平行情况：$a_1 b_2 - a_2 b_1 = 0$
-$$2 \times 4 - (-1) \times x = 0 \implies 8 + x = 0 \implies x = -8$$
+$$
+2 \times 4 - (-1) \times x = 0 \implies 8 + x = 0 \implies x = -8
+$$
 
 **答案：** 垂直时 $x = 2$，平行时 $x = -8$
 
@@ -5089,14 +4909,22 @@ $$2 \times 4 - (-1) \times x = 0 \implies 8 + x = 0 \implies x = -8$$
 **解答：**
 
 步骤1：将 $y = x + 1$ 代入椭圆方程：
-$$\frac{x^2}{4} + \frac{(x+1)^2}{3} = 1$$
+$$
+\frac{x^2}{4} + \frac{(x+1)^2}{3} = 1
+$$
 
 步骤2：通分整理：
-$$3x^2 + 4(x^2 + 2x + 1) = 12$$
-$$7x^2 + 8x - 8 = 0$$
+$$
+3x^2 + 4(x^2 + 2x + 1) = 12
+$$
+$$
+7x^2 + 8x - 8 = 0
+$$
 
 步骤3：计算判别式：
-$$\Delta = 64 - 4 \times 7 \times (-8) = 64 + 224 = 288 > 0$$
+$$
+\Delta = 64 - 4 \times 7 \times (-8) = 64 + 224 = 288 > 0
+$$
 
 步骤4：$\Delta > 0$，直线与椭圆相交于两个不同的点。
 
@@ -5139,8 +4967,12 @@ $$\Delta = 64 - 4 \times 7 \times (-8) = 64 + 224 = 288 > 0$$
 步骤4：由 $|AB| = 8$，得 $x_A + x_B = 6$。
 
 步骤5：将 $y = k(x - 1)$ 代入 $y^2 = 4x$：
-$$k^2(x-1)^2 = 4x$$
-$$k^2 x^2 - (2k^2 + 4)x + k^2 = 0$$
+$$
+k^2(x-1)^2 = 4x
+$$
+$$
+k^2 x^2 - (2k^2 + 4)x + k^2 = 0
+$$
 
 步骤6：由韦达定理：$x_A + x_B = \dfrac{2k^2 + 4}{k^2} = 2 + \dfrac{4}{k^2} = 6$，解得 $k^2 = 1$，$k = \pm 1$。
 
@@ -5155,11 +4987,15 @@ $$k^2 x^2 - (2k^2 + 4)x + k^2 = 0$$
 **解答：**
 
 步骤1：将圆的方程化为标准形式：
-$$(x - 2)^2 + (y + 1)^2 = 9$$
+$$
+(x - 2)^2 + (y + 1)^2 = 9
+$$
 圆心 $C(2, -1)$，半径 $r = 3$。
 
 步骤2：点 $P(2, 1)$ 到圆心的距离：
-$$d = |CP| = \sqrt{(2-2)^2 + (1-(-1))^2} = 2 < r = 3$$
+$$
+d = |CP| = \sqrt{(2-2)^2 + (1-(-1))^2} = 2 < r = 3
+$$
 点 $P$ 在圆内。
 
 步骤3：最长弦为过 $P$ 和圆心 $C$ 的直径，即直线 $x = 2$。
@@ -5172,20 +5008,26 @@ $$d = |CP| = \sqrt{(2-2)^2 + (1-(-1))^2} = 2 < r = 3$$
 
 ### 例题9：向量在解析几何中的应用
 
-**题目：** 已知椭圆 $\dfrac{x^2}{4} + \dfrac{y^2}{3} = 1$，点 $P$ 为椭圆上一点，$A(-2, 0)$，$B(2, 0)$。求 $\vec{PA} \cdot \vec{PB}$ 的取值范围。
+**题目：** 已知椭圆 $\dfrac{x^2}{4} + \dfrac{y^2}{3} = 1$，点 $P$ 为椭圆上一点，$A(-2, 0)$，$ B(2, 0)$。求 $\vec{PA} \cdot \vec{PB}$ 的取值范围。
 
 **解答：**
 
 步骤1：设 $P(x_0, y_0)$，则 $\dfrac{x_0^2}{4} + \dfrac{y_0^2}{3} = 1$，即 $y_0^2 = 3\left(1 - \dfrac{x_0^2}{4}\right)$。
 
 步骤2：计算向量：
-$$\vec{PA} = (-2 - x_0, -y_0), \quad \vec{PB} = (2 - x_0, -y_0)$$
+$$
+\vec{PA} = (-2 - x_0, -y_0), \quad \vec{PB} = (2 - x_0, -y_0)
+$$
 
 步骤3：计算数量积：
-$$\vec{PA} \cdot \vec{PB} = (-2 - x_0)(2 - x_0) + y_0^2 = x_0^2 - 4 + y_0^2$$
+$$
+\vec{PA} \cdot \vec{PB} = (-2 - x_0)(2 - x_0) + y_0^2 = x_0^2 - 4 + y_0^2
+$$
 
 步骤4：代入 $y_0^2$：
-$$\vec{PA} \cdot \vec{PB} = x_0^2 - 4 + 3 - \frac{3x_0^2}{4} = \frac{x_0^2}{4} - 1$$
+$$
+\vec{PA} \cdot \vec{PB} = x_0^2 - 4 + 3 - \frac{3x_0^2}{4} = \frac{x_0^2}{4} - 1
+$$
 
 步骤5：由 $x_0 \in [-2, 2]$，得 $x_0^2 \in [0, 4]$，故 $\dfrac{x_0^2}{4} - 1 \in [-1, 0]$。
 
@@ -5223,7 +5065,7 @@ $$\vec{PA} \cdot \vec{PB} = x_0^2 - 4 + 3 - \frac{3x_0^2}{4} = \frac{x_0^2}{4} -
 
 **解答：**
 
-步骤1：设 $A(x_1, y_1)$，$B(x_2, y_2)$，中点 $P(x_0, y_0)$
+步骤1：设 $A(x_1, y_1)$，$ B(x_2, y_2)$，中点 $P(x_0, y_0)$
 
 步骤2：由 $y_1^2 = 4x_1$，$y_2^2 = 4x_2$，两式相减：$y_1^2 - y_2^2 = 4(x_1 - x_2)$
 
@@ -5247,7 +5089,7 @@ $$\vec{PA} \cdot \vec{PB} = x_0^2 - 4 + 3 - \frac{3x_0^2}{4} = \frac{x_0^2}{4} -
 
 步骤1：建立空间直角坐标系，设正方体棱长为 $2$
 
-步骤2：$A_1(2, 0, 2)$，$E(2, 2, 1)$，$\overrightarrow{A_1E} = (0, 2, -1)$
+步骤2：$A_1(2, 0, 2)$，$ E(2, 2, 1)$，$\overrightarrow{A_1E} = (0, 2, -1)$
 
 步骤3：平面 $ABCD$ 的法向量为 $\vec{n} = (0, 0, 1)$
 
@@ -5258,17 +5100,6 @@ $$\vec{PA} \cdot \vec{PB} = x_0^2 - 4 + 3 - \frac{3x_0^2}{4} = \frac{x_0^2}{4} -
 **答案：** $A_1E$ 与平面 $ABCD$ 所成角为 $\arcsin\dfrac{\sqrt{5}}{5}$
 
 **考试技巧：** 线面角公式：$\sin\theta = \dfrac{|\vec{v} \cdot \vec{n}|}{|\vec{v}||\vec{n}|}$，其中 $\vec{v}$ 是直线方向向量，$\vec{n}$ 是平面法向量。
-
-
-```mermaid
-flowchart TD
-    A[Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -5338,18 +5169,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -5382,7 +5201,7 @@ URL: https://gaokao.wyattau.com/physics/electricity/
 
 **库仑定律：** $F = k\frac{q_1 q_2}{r^2}$（$k = 9 \times 10^9\,\text{N·m}^2/\text{C}^2$）
 
-**电场强度：** $E = \frac{F}{q}$（点电荷：$E = k\frac{Q}{r^2}$）
+**电场强度：** $E = \frac{F}{q}$（点电荷：$ E = k\frac{Q}{r^2}$）
 
 **电势：** $\varphi = \frac{E_p}{q}$
 
@@ -5404,7 +5223,9 @@ URL: https://gaokao.wyattau.com/physics/electricity/
 
 ### 闭合电路欧姆定律
 
-$$I = \frac{E}{R + r}$$
+$$
+I = \frac{E}{R + r}
+$$
 
 其中 $E$ 为电源电动势，$r$ 为内阻。
 
@@ -5425,10 +5246,14 @@ $$I = \frac{E}{R + r}$$
 **解答：**
 
 步骤1：由库仑定律：
-$$F = k\frac{|q_1||q_2|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 3 \times 10^{-6}}{0.3^2}$$
+$$
+F = k\frac{|q_1||q_2|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 3 \times 10^{-6}}{0.3^2}
+$$
 
 步骤2：计算：
-$$F = 9 \times 10^9 \times \frac{6 \times 10^{-12}}{0.09} = 9 \times 10^9 \times 6.67 \times 10^{-11} = 0.6\,\text{N}$$
+$$
+F = 9 \times 10^9 \times \frac{6 \times 10^{-12}}{0.09} = 9 \times 10^9 \times 6.67 \times 10^{-11} = 0.6\,\text{N}
+$$
 
 步骤3：两电荷异号，力为引力。
 
@@ -5441,10 +5266,14 @@ $$F = 9 \times 10^9 \times \frac{6 \times 10^{-12}}{0.09} = 9 \times 10^9 \times
 **解答：**
 
 步骤1：由闭合电路欧姆定律：
-$$I = \frac{E}{R + r} = \frac{12}{5 + 1} = 2\,\text{A}$$
+$$
+I = \frac{E}{R + r} = \frac{12}{5 + 1} = 2\,\text{A}
+$$
 
 步骤2：路端电压：
-$$U = E - Ir = 12 - 2 \times 1 = 10\,\text{V}$$
+$$
+U = E - Ir = 12 - 2 \times 1 = 10\,\text{V}
+$$
 
 步骤3：也可用 $U = IR = 2 \times 5 = 10\,\text{V}$ 验证
 
@@ -5520,14 +5349,22 @@ $$U = E - Ir = 12 - 2 \times 1 = 10\,\text{V}$$
 **解答：**
 
 步骤1：高档位时，只有一个电阻工作（或两个并联）。设高档位时电阻为 $R_{\text{高}}$：
-$$R_{\text{高}} = \frac{U^2}{P_1} = \frac{220^2}{1100} = 44\,\Omega$$
+$$
+R_{\text{高}} = \frac{U^2}{P_1} = \frac{220^2}{1100} = 44\,\Omega
+$$
 
 步骤2：低档位时电阻为 $R_{\text{低}}$：
-$$R_{\text{低}} = \frac{U^2}{P_2} = \frac{220^2}{275} = 176\,\Omega$$
+$$
+R_{\text{低}} = \frac{U^2}{P_2} = \frac{220^2}{275} = 176\,\Omega
+$$
 
 步骤3：若高档为 $R_1$ 单独工作，低档为 $R_1$ 与 $R_2$ 串联：
-$$R_1 = 44\,\Omega, \quad R_1 + R_2 = 176\,\Omega$$
-$$R_2 = 176 - 44 = 132\,\Omega$$
+$$
+R_1 = 44\,\Omega, \quad R_1 + R_2 = 176\,\Omega
+$$
+$$
+R_2 = 176 - 44 = 132\,\Omega
+$$
 
 **答案：** $R_1 = 44\,\Omega$，$R_2 = 132\,\Omega$
 
@@ -5561,22 +5398,34 @@ $$R_2 = 176 - 44 = 132\,\Omega$$
 步骤1：识别电路结构, $R_1$ 与 $R_2$ 并联，再与 $R_3$ 串联。
 
 步骤2：并联电阻：
-$$R_{12} = \frac{R_1 R_2}{R_1 + R_2} = \frac{3 \times 6}{3 + 6} = 2\,\Omega$$
+$$
+R_{12} = \frac{R_1 R_2}{R_1 + R_2} = \frac{3 \times 6}{3 + 6} = 2\,\Omega
+$$
 
 步骤3：总电阻：
-$$R_{\text{总}} = R_{12} + R_3 + r = 2 + 4 + 1 = 7\,\Omega$$
+$$
+R_{\text{总}} = R_{12} + R_3 + r = 2 + 4 + 1 = 7\,\Omega
+$$
 
 步骤4：总电流（即 $R_3$ 上的电流）：
-$$I_3 = \frac{E}{R_{\text{总}}} = \frac{12}{7} \approx 1.71\,\text{A}$$
+$$
+I_3 = \frac{E}{R_{\text{总}}} = \frac{12}{7} \approx 1.71\,\text{A}
+$$
 
 步骤5：并联部分电压：
-$$U_{12} = I_3 \times R_{12} = \frac{12}{7} \times 2 = \frac{24}{7}\,\text{V}$$
+$$
+U_{12} = I_3 \times R_{12} = \frac{12}{7} \times 2 = \frac{24}{7}\,\text{V}
+$$
 
 步骤6：各支路电流：
-$$I_1 = \frac{U_{12}}{R_1} = \frac{24/7}{3} = \frac{8}{7} \approx 1.14\,\text{A}$$
-$$I_2 = \frac{U_{12}}{R_2} = \frac{24/7}{6} = \frac{4}{7} \approx 0.57\,\text{A}$$
+$$
+I_1 = \frac{U_{12}}{R_1} = \frac{24/7}{3} = \frac{8}{7} \approx 1.14\,\text{A}
+$$
+$$
+I_2 = \frac{U_{12}}{R_2} = \frac{24/7}{6} = \frac{4}{7} \approx 0.57\,\text{A}
+$$
 
-**答案：** $I_1 = \dfrac{8}{7}\,\text{A}$，$I_2 = \dfrac{4}{7}\,\text{A}$，$I_3 = \dfrac{12}{7}\,\text{A}$
+**答案：** $I_1 = \dfrac{8}{7}\,\text{A}$，$ I_2 = \dfrac{4}{7}\,\text{A}$，$ I_3 = \dfrac{12}{7}\,\text{A}$
 
 **考试技巧：** 电路动态分析的基本思路是"局部→整体→局部"：先分析局部电阻变化，再分析总电阻、总电流变化，最后分析各部分电压和电流的变化。
 
@@ -5591,15 +5440,21 @@ $$I_2 = \frac{U_{12}}{R_2} = \frac{24/7}{6} = \frac{4}{7} \approx 0.57\,\text{A}
 步骤2：稳定后，电容器相当于断路，电流只流过 $R_1$ 和 $R_2$。
 
 步骤3：稳定时的电流：
-$$I = \frac{E}{R_1 + R_2 + r} = \frac{10}{3 + 5 + 2} = 1\,\text{A}$$
+$$
+I = \frac{E}{R_1 + R_2 + r} = \frac{10}{3 + 5 + 2} = 1\,\text{A}
+$$
 
 步骤4：$R_2$ 两端电压：
-$$U_2 = IR_2 = 1 \times 5 = 5\,\text{V}$$
+$$
+U_2 = IR_2 = 1 \times 5 = 5\,\text{V}
+$$
 
 步骤5：稳定后电容器两端电压等于 $R_2$ 两端电压：$U_C = 5\,\text{V}$。
 
 步骤6：稳定后电量：
-$$Q = CU_C = 200 \times 10^{-6} \times 5 = 1 \times 10^{-3}\,\text{C}$$
+$$
+Q = CU_C = 200 \times 10^{-6} \times 5 = 1 \times 10^{-3}\,\text{C}
+$$
 
 **答案：** 稳定后电容器所带电量为 $1 \times 10^{-3}\,\text{C}$
 
@@ -5612,16 +5467,24 @@ $$Q = CU_C = 200 \times 10^{-6} \times 5 = 1 \times 10^{-3}\,\text{C}$$
 **解答：**
 
 步骤1：电动机的总功率：
-$$P_{\text{总}} = UI = 220 \times 5 = 1100\,\text{W}$$
+$$
+P_{\text{总}} = UI = 220 \times 5 = 1100\,\text{W}
+$$
 
 步骤2：线圈发热功率：
-$$P_{\text{热}} = I^2 r = 25 \times 1 = 25\,\text{W}$$
+$$
+P_{\text{热}} = I^2 r = 25 \times 1 = 25\,\text{W}
+$$
 
 步骤3：输出功率：
-$$P_{\text{出}} = P_{\text{总}} - P_{\text{热}} = 1100 - 25 = 1075\,\text{W}$$
+$$
+P_{\text{出}} = P_{\text{总}} - P_{\text{热}} = 1100 - 25 = 1075\,\text{W}
+$$
 
 步骤4：效率：
-$$\eta = \frac{P_{\text{出}}}{P_{\text{总}}} = \frac{1075}{1100} \approx 97.7\%$$
+$$
+\eta = \frac{P_{\text{出}}}{P_{\text{总}}} = \frac{1075}{1100} \approx 97.7\%
+$$
 
 **答案：** 输出功率为 $1075\,\text{W}$，效率约为 $97.7\%$
 
@@ -5657,7 +5520,7 @@ $$\eta = \frac{P_{\text{出}}}{P_{\text{总}}} = \frac{1075}{1100} \approx 97.7\
 
 步骤3：电量 $Q = CU$，$C$ 减小，$U$ 不变，故 $Q$ 减小
 
-步骤4：电场强度 $E = \dfrac{U}{d}$，$U$ 不变，$d$ 增大，故 $E$ 减小
+步骤4：电场强度 $E = \dfrac{U}{d}$，$ U$ 不变，$d$ 增大，故 $E$ 减小
 
 步骤5：板间电势差 $U$ 不变
 
@@ -5682,17 +5545,6 @@ $$\eta = \frac{P_{\text{出}}}{P_{\text{总}}} = \frac{1075}{1100} \approx 97.7\
 **答案：** 当 $R = 1\,\Omega$ 时，电源输出功率最大，最大为 $36\,\text{W}$
 
 **考试技巧：** 电源输出功率最大的条件是外电阻等于内阻，即 $R = r$。此时效率为 $50\%$。
-
-
-```mermaid
-flowchart TD
-    A[Electricity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -5762,18 +5614,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -5803,9 +5643,15 @@ URL: https://gaokao.wyattau.com/physics/mechanics/
 ### 匀变速直线运动
 
 **基本公式：**
-$$v = v_0 + at$$
-$$x = v_0 t + \frac{1}{2}at^2$$
-$$v^2 = v_0^2 + 2ax$$
+$$
+v = v_0 + at
+$$
+$$
+x = v_0 t + \frac{1}{2}at^2
+$$
+$$
+v^2 = v_0^2 + 2ax
+$$
 
 **平均速度：** $\bar{v} = \frac{v_0 + v}{2} = \frac{x}{t}$
 
@@ -5854,7 +5700,9 @@ $$v^2 = v_0^2 + 2ax$$
 步骤2：逆向思维，将匀减速的最后 $2\,\text{s}$ 等价为初速度为零的匀加速运动的前 $2\,\text{s}$
 
 步骤3：计算位移：
-$$x = \frac{1}{2}at^2 = \frac{1}{2} \times 4 \times 2^2 = 8\,\text{m}$$
+$$
+x = \frac{1}{2}at^2 = \frac{1}{2} \times 4 \times 2^2 = 8\,\text{m}
+$$
 
 **答案：** 最后 $2\,\text{s}$ 内的位移为 $8\,\text{m}$
 
@@ -5865,10 +5713,14 @@ $$x = \frac{1}{2}at^2 = \frac{1}{2} \times 4 \times 2^2 = 8\,\text{m}$$
 **解答：**
 
 步骤1：求合力大小：
-$$F = \sqrt{F_1^2 + F_2^2} = \sqrt{36 + 64} = 10\,\text{N}$$
+$$
+F = \sqrt{F_1^2 + F_2^2} = \sqrt{36 + 64} = 10\,\text{N}
+$$
 
 步骤2：由牛顿第二定律：
-$$a = \frac{F}{m} = \frac{10}{2} = 5\,\text{m/s}^2$$
+$$
+a = \frac{F}{m} = \frac{10}{2} = 5\,\text{m/s}^2
+$$
 
 步骤3：合力方向：$\tan\theta = \frac{F_2}{F_1} = \frac{8}{6} = \frac{4}{3}$
 
@@ -5883,7 +5735,9 @@ $$a = \frac{F}{m} = \frac{10}{2} = 5\,\text{m/s}^2$$
 步骤1：由机械能守恒：$mgh = \frac{1}{2}mv^2$
 
 步骤2：解得：
-$$v = \sqrt{2gh} = \sqrt{2 \times 10 \times 10} = \sqrt{200} = 10\sqrt{2}\,\text{m/s}$$
+$$
+v = \sqrt{2gh} = \sqrt{2 \times 10 \times 10} = \sqrt{200} = 10\sqrt{2}\,\text{m/s}
+$$
 
 **答案：** 落地速度为 $10\sqrt{2}\,\text{m/s}$
 
@@ -5907,12 +5761,16 @@ $$v = \sqrt{2gh} = \sqrt{2 \times 10 \times 10} = \sqrt{200} = 10\sqrt{2}\,\text
 **解答：**
 
 步骤1：由竖直方向自由落体：
-$$v_y = \sqrt{2gh} = \sqrt{2 \times 10 \times 20} = 20\,\text{m/s}$$
+$$
+v_y = \sqrt{2gh} = \sqrt{2 \times 10 \times 20} = 20\,\text{m/s}
+$$
 
 步骤2：水平速度保持不变：$v_x = 15\,\text{m/s}$
 
 步骤3：合速度：
-$$v = \sqrt{v_x^2 + v_y^2} = \sqrt{225 + 400} = \sqrt{625} = 25\,\text{m/s}$$
+$$
+v = \sqrt{v_x^2 + v_y^2} = \sqrt{225 + 400} = \sqrt{625} = 25\,\text{m/s}
+$$
 
 步骤4：速度方向：$\tan\theta = \frac{v_y}{v_x} = \frac{20}{15} = \frac{4}{3}$，$\theta = 53°$
 
@@ -5925,13 +5783,19 @@ $$v = \sqrt{v_x^2 + v_y^2} = \sqrt{225 + 400} = \sqrt{625} = 25\,\text{m/s}$$
 **解答：**
 
 步骤1：由动量守恒定律：
-$$m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'$$
+$$
+m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'
+$$
 
 步骤2：代入数据（$v_2 = 0$）：
-$$3 \times 4 + 1 \times 0 = 3 \times 2 + 1 \times v_2'$$
+$$
+3 \times 4 + 1 \times 0 = 3 \times 2 + 1 \times v_2'
+$$
 
 步骤3：解得：
-$$12 = 6 + v_2' \implies v_2' = 6\,\text{m/s}$$
+$$
+12 = 6 + v_2' \implies v_2' = 6\,\text{m/s}
+$$
 
 **答案：** $m_2$ 的速度为 $6\,\text{m/s}$
 
@@ -5942,13 +5806,19 @@ $$12 = 6 + v_2' \implies v_2' = 6\,\text{m/s}$$
 **解答：**
 
 步骤1：由能量守恒，重力势能全部转化为摩擦力做的功：
-$$mgh = \mu mg \cdot s$$
+$$
+mgh = \mu mg \cdot s
+$$
 
 步骤2：消去 $mg$：
-$$h = \mu s$$
+$$
+h = \mu s
+$$
 
 步骤3：代入数据：
-$$5 = \mu \times 10 \implies \mu = 0.5$$
+$$
+5 = \mu \times 10 \implies \mu = 0.5
+$$
 
 **答案：** 摩擦系数为 $0.5$
 
@@ -5980,16 +5850,24 @@ $$5 = \mu \times 10 \implies \mu = 0.5$$
 **解答：**
 
 步骤1：物体刚放上传送带时，速度为零，受到向右的滑动摩擦力：
-$$f = \mu mg = 0.2 \times 2 \times 10 = 4\,\text{N}$$
+$$
+f = \mu mg = 0.2 \times 2 \times 10 = 4\,\text{N}
+$$
 
 步骤2：由牛顿第二定律，加速度：
-$$a = \frac{f}{m} = \frac{4}{2} = 2\,\text{m/s}^2$$
+$$
+a = \frac{f}{m} = \frac{4}{2} = 2\,\text{m/s}^2
+$$
 
 步骤3：物体加速到与传送带速度相同所需时间：
-$$t_1 = \frac{v}{a} = \frac{4}{2} = 2\,\text{s}$$
+$$
+t_1 = \frac{v}{a} = \frac{4}{2} = 2\,\text{s}
+$$
 
 步骤4：加速阶段位移：
-$$x_1 = \frac{1}{2}at_1^2 = \frac{1}{2} \times 2 \times 4 = 4\,\text{m}$$
+$$
+x_1 = \frac{1}{2}at_1^2 = \frac{1}{2} \times 2 \times 4 = 4\,\text{m}
+$$
 
 步骤5：由于 $x_1 = 4\,\text{m} < L = 8\,\text{m}$，物体先加速后匀速。
 
@@ -6008,18 +5886,30 @@ $$x_1 = \frac{1}{2}at_1^2 = \frac{1}{2} \times 2 \times 4 = 4\,\text{m}$$
 **解答：**
 
 步骤1：物块和木板组成的系统在水平方向不受外力，动量守恒：
-$$mv_0 = (M + m)v$$
+$$
+mv_0 = (M + m)v
+$$
 
 步骤2：代入数据：
-$$1 \times 5 = (4 + 1)v \implies v = 1\,\text{m/s}$$
+$$
+1 \times 5 = (4 + 1)v \implies v = 1\,\text{m/s}
+$$
 
 步骤3：由能量守恒，摩擦力做功等于系统动能的减少：
-$$\mu mg \cdot s = \frac{1}{2}mv_0^2 - \frac{1}{2}(M + m)v^2$$
+$$
+\mu mg \cdot s = \frac{1}{2}mv_0^2 - \frac{1}{2}(M + m)v^2
+$$
 
 步骤4：代入数据：
-$$0.4 \times 1 \times 10 \times s = \frac{1}{2} \times 1 \times 25 - \frac{1}{2} \times 5 \times 1$$
-$$4s = 12.5 - 2.5 = 10$$
-$$s = 2.5\,\text{m}$$
+$$
+0.4 \times 1 \times 10 \times s = \frac{1}{2} \times 1 \times 25 - \frac{1}{2} \times 5 \times 1
+$$
+$$
+4s = 12.5 - 2.5 = 10
+$$
+$$
+s = 2.5\,\text{m}
+$$
 
 **答案：** 共同速度为 $1\,\text{m/s}$，物块在木板上滑行 $2.5\,\text{m}$
 
@@ -6030,15 +5920,25 @@ $$s = 2.5\,\text{m}$$
 **解答：**
 
 步骤1：由动量守恒：
-$$mv_0 = m \cdot \frac{v_0}{2} + Mv$$
+$$
+mv_0 = m \cdot \frac{v_0}{2} + Mv
+$$
 
 步骤2：解得木块速度：
-$$v = \frac{mv_0}{2M}$$
+$$
+v = \frac{mv_0}{2M}
+$$
 
 步骤3：由能量守恒验证：
-$$Q = \frac{1}{2}mv_0^2 - \frac{1}{2}m\left(\frac{v_0}{2}\right)^2 - \frac{1}{2}Mv^2$$
-$$= \frac{1}{2}mv_0^2 - \frac{1}{8}mv_0^2 - \frac{1}{2}M \cdot \frac{m^2 v_0^2}{4M^2}$$
-$$= \frac{3}{8}mv_0^2 - \frac{m^2 v_0^2}{8M}$$
+$$
+Q = \frac{1}{2}mv_0^2 - \frac{1}{2}m\left(\frac{v_0}{2}\right)^2 - \frac{1}{2}Mv^2
+$$
+$$
+= \frac{1}{2}mv_0^2 - \frac{1}{8}mv_0^2 - \frac{1}{2}M \cdot \frac{m^2 v_0^2}{4M^2}
+$$
+$$
+= \frac{3}{8}mv_0^2 - \frac{m^2 v_0^2}{8M}
+$$
 
 **答案：** 木块获得的速度为 $\dfrac{mv_0}{2M}$
 
@@ -6076,7 +5976,7 @@ $$= \frac{3}{8}mv_0^2 - \frac{m^2 v_0^2}{8M}$$
 
 步骤4：周期：$T = \dfrac{2\pi R}{v} = \dfrac{2\pi R}{\sqrt{gR}} = 2\pi\sqrt{\dfrac{R}{g}}$
 
-步骤5：代入 $g = 10\,\text{m/s}^2$，$R = 6.4 \times 10^6\,\text{m}$：$v \approx 7.9\,\text{km/s}$，$T \approx 5080\,\text{s} \approx 84.7\,\text{min}$
+步骤5：代入 $g = 10\,\text{m/s}^2$，$R = 6.4 \times 10^6\,\text{m}$：$v \approx 7.9\,\text{km/s}$，$ T \approx 5080\,\text{s} \approx 84.7\,\text{min}$
 
 **答案：** 近地卫星环绕速度为 $\sqrt{gR}$，周期为 $2\pi\sqrt{\dfrac{R}{g}}$
 
@@ -6099,17 +5999,6 @@ $$= \frac{3}{8}mv_0^2 - \frac{m^2 v_0^2}{8M}$$
 **答案：** 光滑曲面时 $\mu = \dfrac{h}{s}$
 
 **考试技巧：** 功能关系问题通常选择全过程应用动能定理，可以避免分析中间过程的细节。
-
-
-```mermaid
-flowchart TD
-    A[Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -6209,12 +6098,20 @@ URL: https://gaokao.wyattau.com/physics/optics/
 步骤1：由折射定律 $n_1 \sin\theta_1 = n_2 \sin\theta_2$
 
 步骤2：代入数据（空气 $n_1 \approx 1$）：
-$$\sin 45° = \frac{4}{3} \sin\theta_2$$
-$$\frac{\sqrt{2}}{2} = \frac{4}{3} \sin\theta_2$$
+$$
+\sin 45° = \frac{4}{3} \sin\theta_2
+$$
+$$
+\frac{\sqrt{2}}{2} = \frac{4}{3} \sin\theta_2
+$$
 
 步骤3：解得：
-$$\sin\theta_2 = \frac{3\sqrt{2}}{8}$$
-$$\theta_2 = \arcsin\frac{3\sqrt{2}}{8}$$
+$$
+\sin\theta_2 = \frac{3\sqrt{2}}{8}
+$$
+$$
+\theta_2 = \arcsin\frac{3\sqrt{2}}{8}
+$$
 
 **答案：** 折射角为 $\arcsin\frac{3\sqrt{2}}{8}$
 
@@ -6227,10 +6124,14 @@ $$\theta_2 = \arcsin\frac{3\sqrt{2}}{8}$$
 步骤1：由全反射临界角公式 $\sin C = \frac{1}{n}$
 
 步骤2：代入数据：
-$$\sin C = \frac{1}{1.5} = \frac{2}{3}$$
+$$
+\sin C = \frac{1}{1.5} = \frac{2}{3}
+$$
 
 步骤3：计算临界角：
-$$C = \arcsin\frac{2}{3} \approx 41.8°$$
+$$
+C = \arcsin\frac{2}{3} \approx 41.8°
+$$
 
 **答案：** 临界角约为 $41.8°$
 
@@ -6241,13 +6142,19 @@ $$C = \arcsin\frac{2}{3} \approx 41.8°$$
 **解答：**
 
 步骤1：计算光子能量：
-$$E = h\nu = 6.63 \times 10^{-34} \times 6 \times 10^{14} = 3.98 \times 10^{-19}\,\text{J}$$
+$$
+E = h\nu = 6.63 \times 10^{-34} \times 6 \times 10^{14} = 3.98 \times 10^{-19}\,\text{J}
+$$
 
 步骤2：换算为电子伏特：
-$$E = \frac{3.98 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 2.49\,\text{eV}$$
+$$
+E = \frac{3.98 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 2.49\,\text{eV}
+$$
 
 步骤3：由光电效应方程：
-$$E_k = E - W_0 = 2.49 - 2.0 = 0.49\,\text{eV}$$
+$$
+E_k = E - W_0 = 2.49 - 2.0 = 0.49\,\text{eV}
+$$
 
 **答案：** 光电子的最大初动能约为 $0.49\,\text{eV}$
 
@@ -6271,10 +6178,14 @@ $$E_k = E - W_0 = 2.49 - 2.0 = 0.49\,\text{eV}$$
 **解答：**
 
 步骤1：由双缝干涉公式，相邻明纹间距：
-$$\Delta x = \frac{L\lambda}{d}$$
+$$
+\Delta x = \frac{L\lambda}{d}
+$$
 
 步骤2：代入数据：
-$$\Delta x = \frac{1 \times 600 \times 10^{-9}}{0.2 \times 10^{-3}} = \frac{6 \times 10^{-7}}{2 \times 10^{-4}} = 3 \times 10^{-3}\,\text{m} = 3\,\text{mm}$$
+$$
+\Delta x = \frac{1 \times 600 \times 10^{-9}}{0.2 \times 10^{-3}} = \frac{6 \times 10^{-7}}{2 \times 10^{-4}} = 3 \times 10^{-3}\,\text{m} = 3\,\text{mm}
+$$
 
 **答案：** 相邻明纹间距为 $3\,\text{mm}$
 
@@ -6285,15 +6196,25 @@ $$\Delta x = \frac{1 \times 600 \times 10^{-9}}{0.2 \times 10^{-3}} = \frac{6 \t
 **解答：**
 
 步骤1：由折射定律求折射角：
-$$\sin 45° = 1.5 \sin r \implies \sin r = \frac{\sqrt{2}/2}{1.5} = \frac{\sqrt{2}}{3}$$
-$$r \approx 28.1°$$
+$$
+\sin 45° = 1.5 \sin r \implies \sin r = \frac{\sqrt{2}/2}{1.5} = \frac{\sqrt{2}}{3}
+$$
+$$
+r \approx 28.1°
+$$
 
 步骤2：在玻璃砖内的水平位移：
-$$x = d \tan r = 10 \times \tan 28.1° \approx 10 \times 0.534 = 5.34\,\text{cm}$$
+$$
+x = d \tan r = 10 \times \tan 28.1° \approx 10 \times 0.534 = 5.34\,\text{cm}
+$$
 
 步骤3：侧移量（入射光线延长线与出射光线的垂直距离）：
-$$\delta = d \sin(i - r) / \cos r = 10 \times \sin(45° - 28.1°) / \cos 28.1°$$
-$$= 10 \times \sin 16.9° / \cos 28.1° \approx 10 \times 0.291 / 0.882 = 3.3\,\text{cm}$$
+$$
+\delta = d \sin(i - r) / \cos r = 10 \times \sin(45° - 28.1°) / \cos 28.1°
+$$
+$$
+= 10 \times \sin 16.9° / \cos 28.1° \approx 10 \times 0.291 / 0.882 = 3.3\,\text{cm}
+$$
 
 **答案：** 侧移量约为 $3.3\,\text{cm}$
 
@@ -6304,20 +6225,32 @@ $$= 10 \times \sin 16.9° / \cos 28.1° \approx 10 \times 0.291 / 0.882 = 3.3\,\
 **解答：**
 
 步骤1：由光电效应方程：
-$$E_{k1} = h\nu_1 - W_0$$
-$$E_{k2} = h\nu_2 - W_0$$
+$$
+E_{k1} = h\nu_1 - W_0
+$$
+$$
+E_{k2} = h\nu_2 - W_0
+$$
 
 步骤2：两式相减：
-$$E_{k1} - E_{k2} = h(\nu_1 - \nu_2)$$
+$$
+E_{k1} - E_{k2} = h(\nu_1 - \nu_2)
+$$
 
 步骤3：解得普朗克常量：
-$$h = \frac{E_{k1} - E_{k2}}{\nu_1 - \nu_2}$$
+$$
+h = \frac{E_{k1} - E_{k2}}{\nu_1 - \nu_2}
+$$
 
 步骤4：代入第一个方程求逸出功：
-$$W_0 = h\nu_1 - E_{k1} = \frac{(E_{k1} - E_{k2})\nu_1}{\nu_1 - \nu_2} - E_{k1}$$
-$$= \frac{E_{k1}\nu_1 - E_{k2}\nu_1 - E_{k1}\nu_1 + E_{k1}\nu_2}{\nu_1 - \nu_2} = \frac{E_{k1}\nu_2 - E_{k2}\nu_1}{\nu_1 - \nu_2}$$
+$$
+W_0 = h\nu_1 - E_{k1} = \frac{(E_{k1} - E_{k2})\nu_1}{\nu_1 - \nu_2} - E_{k1}
+$$
+$$
+= \frac{E_{k1}\nu_1 - E_{k2}\nu_1 - E_{k1}\nu_1 + E_{k1}\nu_2}{\nu_1 - \nu_2} = \frac{E_{k1}\nu_2 - E_{k2}\nu_1}{\nu_1 - \nu_2}
+$$
 
-**答案：** $h = \dfrac{E_{k1} - E_{k2}}{\nu_1 - \nu_2}$，$W_0 = \dfrac{E_{k1}\nu_2 - E_{k2}\nu_1}{\nu_1 - \nu_2}$
+**答案：** $h = \dfrac{E_{k1} - E_{k2}}{\nu_1 - \nu_2}$，$ W_0 = \dfrac{E_{k1}\nu_2 - E_{k2}\nu_1}{\nu_1 - \nu_2}$
 
 ## 深入理解
 
@@ -6341,19 +6274,33 @@ $$= \frac{E_{k1}\nu_1 - E_{k2}\nu_1 - E_{k1}\nu_1 + E_{k1}\nu_2}{\nu_1 - \nu_2} 
 **解答：**
 
 步骤1：在第一个界面，由折射定律：
-$$\sin 60° = \sqrt{3} \sin r_1$$
-$$\frac{\sqrt{3}}{2} = \sqrt{3} \sin r_1 \implies \sin r_1 = \frac{1}{2} \implies r_1 = 30°$$
+$$
+\sin 60° = \sqrt{3} \sin r_1
+$$
+$$
+\frac{\sqrt{3}}{2} = \sqrt{3} \sin r_1 \implies \sin r_1 = \frac{1}{2} \implies r_1 = 30°
+$$
 
 步骤2：由棱镜的几何关系，$r_1 + r_2 = A$：
-$$r_2 = A - r_1 = 60° - 30° = 30°$$
+$$
+r_2 = A - r_1 = 60° - 30° = 30°
+$$
 
 步骤3：在第二个界面，由折射定律：
-$$\sqrt{3} \sin r_2 = \sin e$$
-$$\sqrt{3} \sin 30° = \sin e$$
-$$\frac{\sqrt{3}}{2} = \sin e \implies e = 60°$$
+$$
+\sqrt{3} \sin r_2 = \sin e
+$$
+$$
+\sqrt{3} \sin 30° = \sin e
+$$
+$$
+\frac{\sqrt{3}}{2} = \sin e \implies e = 60°
+$$
 
 步骤4：偏向角：
-$$\delta = i + e - A = 60° + 60° - 60° = 60°$$
+$$
+\delta = i + e - A = 60° + 60° - 60° = 60°
+$$
 
 **答案：** 光线的偏向角为 $60°$
 
@@ -6366,20 +6313,32 @@ $$\delta = i + e - A = 60° + 60° - 60° = 60°$$
 **解答：**
 
 步骤1：由光电效应方程和遏止电压的关系：
-$$eU_1 = h\nu_1 - W_0$$
-$$eU_2 = h\nu_2 - W_0$$
+$$
+eU_1 = h\nu_1 - W_0
+$$
+$$
+eU_2 = h\nu_2 - W_0
+$$
 
 步骤2：两式相减：
-$$e(U_1 - U_2) = h(\nu_1 - \nu_2)$$
+$$
+e(U_1 - U_2) = h(\nu_1 - \nu_2)
+$$
 
 步骤3：解得普朗克常量：
-$$h = \frac{e(U_1 - U_2)}{\nu_1 - \nu_2}$$
+$$
+h = \frac{e(U_1 - U_2)}{\nu_1 - \nu_2}
+$$
 
 步骤4：代入第一个方程求逸出功：
-$$W_0 = h\nu_1 - eU_1 = \frac{e(U_1 - U_2)\nu_1}{\nu_1 - \nu_2} - eU_1$$
-$$= \frac{e\nu_1 U_1 - e\nu_1 U_2 - eU_1 \nu_1 + eU_1 \nu_2}{\nu_1 - \nu_2} = \frac{e(U_1 \nu_2 - U_2 \nu_1)}{\nu_1 - \nu_2}$$
+$$
+W_0 = h\nu_1 - eU_1 = \frac{e(U_1 - U_2)\nu_1}{\nu_1 - \nu_2} - eU_1
+$$
+$$
+= \frac{e\nu_1 U_1 - e\nu_1 U_2 - eU_1 \nu_1 + eU_1 \nu_2}{\nu_1 - \nu_2} = \frac{e(U_1 \nu_2 - U_2 \nu_1)}{\nu_1 - \nu_2}
+$$
 
-**答案：** $h = \dfrac{e(U_1 - U_2)}{\nu_1 - \nu_2}$，$W_0 = \dfrac{e(U_1 \nu_2 - U_2 \nu_1)}{\nu_1 - \nu_2}$
+**答案：** $h = \dfrac{e(U_1 - U_2)}{\nu_1 - \nu_2}$，$ W_0 = \dfrac{e(U_1 \nu_2 - U_2 \nu_1)}{\nu_1 - \nu_2}$
 
 **常见错误：** 遏止电压对应的是光电子的最大初动能，即 $eU_c = E_k$。不同频率的光照射同一金属，逸出功相同。
 
@@ -6392,10 +6351,14 @@ $$= \frac{e\nu_1 U_1 - e\nu_1 U_2 - eU_1 \nu_1 + eU_1 \nu_2}{\nu_1 - \nu_2} = \f
 步骤1：由双缝干涉公式 $\Delta x = \dfrac{L\lambda}{d}$，可知 $\Delta x \propto \lambda$。
 
 步骤2：因此：
-$$\frac{\Delta x'}{\Delta x} = \frac{\lambda'}{\lambda}$$
+$$
+\frac{\Delta x'}{\Delta x} = \frac{\lambda'}{\lambda}
+$$
 
 步骤3：代入数据：
-$$\Delta x' = \Delta x \cdot \frac{\lambda'}{\lambda} = 2 \times \frac{700}{500} = 2.8\,\text{mm}$$
+$$
+\Delta x' = \Delta x \cdot \frac{\lambda'}{\lambda} = 2 \times \frac{700}{500} = 2.8\,\text{mm}
+$$
 
 **答案：** 相邻明纹间距变为 $2.8\,\text{mm}$
 
@@ -6455,24 +6418,13 @@ $$\Delta x' = \Delta x \cdot \frac{\lambda'}{\lambda} = 2 \times \frac{700}{500}
 
 步骤4：旋转 $90°$ 后，夹角变为 $60° + 90° = 150°$ 或 $|60° - 90°| = 30°$
 
-步骤5：若夹角为 $30°$：$I' = \dfrac{I_0}{2}\cos^2 30° = \dfrac{I_0}{2} \times \dfrac{3}{4} = \dfrac{3I_0}{8}$
+步骤5：若夹角为 $30°$：$ I' = \dfrac{I_0}{2}\cos^2 30° = \dfrac{I_0}{2} \times \dfrac{3}{4} = \dfrac{3I_0}{8}$
 
-步骤6：若夹角为 $150°$：$I' = \dfrac{I_0}{2}\cos^2 150° = \dfrac{I_0}{2} \times \dfrac{3}{4} = \dfrac{3I_0}{8}$
+步骤6：若夹角为 $150°$：$ I' = \dfrac{I_0}{2}\cos^2 150° = \dfrac{I_0}{2} \times \dfrac{3}{4} = \dfrac{3I_0}{8}$
 
 **答案：** 旋转后的光强为 $\dfrac{3I_0}{8}$
 
 **考试技巧：** 马吕斯定律：$I = I_0 \cos^2\theta$，其中 $\theta$ 是两偏振片透振方向的夹角。
-
-
-```mermaid
-flowchart TD
-    A[Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

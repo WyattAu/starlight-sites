@@ -28,8 +28,6 @@ import PhetSimulation from "@components/PhetSimulation";
 > **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway P4 & P7 | WJEC P4
 <PhetSimulation client:only="solid-js" simulationId="faraday-electromagnetic-lab" title="Faraday's Electromagnetic Lab"  />
 
-Explore the simulation above to develop intuition for this topic.
-
 ## 1. Magnets and Magnetic Fields
 
 ### 1.1 Magnetic Materials
@@ -99,7 +97,7 @@ Moving charges produce magnetic fields. In a current-carrying wire, the conducti
 Moving, and their motion generates a magnetic field. This is a fundamental property of nature: the
 Magnetic field and the electric field are two aspects of the same electromagnetic phenomenon, as
 Described by Maxwell's equations. You cannot have a magnetic field without moving charges (at least
-In classical physics).
+in classical physics).
 
 ### 2.3 The Motor Effect
 
@@ -120,7 +118,9 @@ Called the **motor effect**.
 
 **Force on a conductor:**
 
-$$F = BIl$$
+$$
+F = BIl
+$$
 
 Where $F$ is force (N), $B$ is magnetic flux density (T, tesla), $I$ is current (A), and $l$ is the
 Length of conductor in the field (m).
@@ -128,11 +128,13 @@ Length of conductor in the field (m).
 **Worked Example.** A wire of length 0.15 m carries a current of 3 A in a magnetic field of flux
 Density 0.4 T. Calculate the force on the wire.
 
-$$F = BIl = 0.4 \times 3 \times 0.15 = 0.18 \mathrm{ N$$
+$$
+F = BIl = 0.4 \times 3 \times 0.15 = 0.18 \mathrm{ N
+$$
 
 ### 2.4 Why the Wire Must Not Be Parallel to the Field
 
-The force on a current-carrying conductor in a magnetic field is given by $F = BIl\sin\theta$Where
+The force on a current-carrying conductor in a magnetic field is given by $F = BIl\sin\theta$ Where
 $\theta$ is the angle between the current direction and the field direction. When $\theta = 0$ (wire
 Parallel to the field), $\sin\theta = 0$ and the force is zero. Maximum force occurs when
 $\theta = 90^{\circ}$ (wire perpendicular to the field). In GCSE, we assume the wire is
@@ -158,9 +160,9 @@ A DC motor uses the motor effect to produce continuous rotation.
 ### 2.6 Why the Commutator Is Necessary
 
 Without the commutator, the coil would rotate to the vertical position and then be pushed back (past
-It) in the opposite direction, oscillating rather than rotating continuously. The commutator
+it) in the opposite direction, oscillating rather than rotating continuously. The commutator
 Reverses the current at exactly the right moment (when the coil passes through the vertical), so
-That the force on each side of the coil always acts in the same rotational direction.
+that the force on each side of the coil always acts in the same rotational direction.
 
 ### 2.7 Factors Affecting Motor Speed
 
@@ -174,7 +176,7 @@ The speed of a DC motor depends on:
 ### 2.8 Electromagnets
 
 An **electromagnet** is a coil of wire (solenoid) carrying a current. It produces a magnetic field
-When current flows and the field disappears when the current stops.
+when current flows and the field disappears when the current stops.
 
 **Magnetic field of a solenoid:**
 
@@ -202,7 +204,7 @@ A relay is an electrically operated switch. A small current through the relay's 
 Magnetic field that attracts an iron armature, closing (or opening) a set of contacts in a second
 Circuit. This allows a low-current circuit (e.g., a microcontroller output) to control a
 High-current circuit (e.g., a motor or heater) safely. The two circuits are electrically isolated
-From each other.
+from each other.
 
 ## 3. Electromagnetic Induction
 
@@ -243,7 +245,7 @@ Change in the external field.
 **Example:** If a north pole of a magnet is pushed into a coil, the induced current creates a
 Magnetic field that opposes the incoming north pole -- the end of the coil nearest the magnet
 Becomes a north pole, repelling the magnet. If the magnet is pulled out, the current reverses to try
-To keep the magnet inside.
+to keep the magnet inside.
 
 ### 3.5 Generators (Alternators)
 
@@ -262,7 +264,9 @@ An **AC generator** converts kinetic energy into electrical energy using electro
 
 **Peak EMF:**
 
-$$\mathrm{EMF_{\mathrm{peak} = NAB\omega$$
+$$
+\mathrm{EMF_{\mathrm{peak} = NAB\omega
+$$
 
 Where $N$ is the number of turns, $A$ is the area of the coil, $B$ is the magnetic flux density, and
 $\omega$ is the angular velocity.
@@ -277,12 +281,16 @@ $V = V_0 \sin(\omega t)$.
 
 ### 3.7 Difference Between a Motor and a Generator
 
+<div class="table-wrap">
+
 | Feature       | Motor                                    | Generator                                         |
 | ------------- | ---------------------------------------- | ------------------------------------------------- |
 | Input energy  | Electrical                               | Kinetic (mechanical)                              |
 | Output energy | Kinetic (rotation)                       | Electrical                                        |
 | Contact       | Split-ring commutator (reverses current) | Slip rings (maintains continuous contact)         |
 | Principle     | Motor effect (current in field = force)  | Electromagnetic induction (motion in field = EMF) |
+
+</div>
 
 ## 4. Transformers
 
@@ -309,7 +317,9 @@ So the magnetic field continuously changes, and a continuous EMF is induced.
 
 For an ideal transformer (100% efficient):
 
-$$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$
+$$
+\frac{V_s}{V_p} = \frac{N_s}{N_p}
+$$
 
 Where $V_s$ and $V_p$ are the secondary and primary voltages, and $N_s$ and $N_p$ are the numbers of
 Turns on the secondary and primary coils.
@@ -325,11 +335,15 @@ This is a **step-down** transformer.
 
 For an ideal transformer, power in equals power out:
 
-$$V_p I_p = V_s I_s$$
+$$
+V_p I_p = V_s I_s
+$$
 
 For a real transformer:
 
-$$V_s I_s = \eta \times V_p I_p$$
+$$
+V_s I_s = \eta \times V_p I_p
+$$
 
 Where $\eta$ is the efficiency ( 95--99% for large transformers).
 
@@ -381,7 +395,7 @@ A loudspeaker is essentially a motor working in reverse:
 An induction cooktop uses electromagnetic induction to heat a pan directly. A coil beneath the
 Ceramic surface carries a high-frequency alternating current, producing a rapidly changing magnetic
 Field. This field induces eddy currents in the base of the pan (which must be ferromagnetic), and
-The resistance of the pan material converts the eddy current energy into heat. The ceramic surface
+the resistance of the pan material converts the eddy current energy into heat. The ceramic surface
 Itself does not heat up directly, making induction cooking more efficient and safer than gas or
 Conventional electric hobs.
 
@@ -392,24 +406,32 @@ Conventional electric hobs.
 The **magnetic flux density** $B$ is the force per unit current per unit length on a
 Current-carrying conductor perpendicular to the field:
 
-$$B = \frac{F}{Il}$$
+$$
+B = \frac{F}{Il}
+$$
 
 The unit is the tesla (T). A field of 1 T exerts a force of 1 N on a wire carrying 1 A with a length
-Of 1 m perpendicular to the field.
+of 1 m perpendicular to the field.
 
 ### 6.2 Magnetic Flux
 
 The **magnetic flux** $\Phi$ through a coil of area $A$ perpendicular to a uniform field $B$ is:
 
-$$\Phi = BA$$
+$$
+\Phi = BA
+$$
 
 The unit is the weber (Wb). When the coil is tilted at angle $\theta$ to the field:
 
-$$\Phi = BA\cos\theta$$
+$$
+\Phi = BA\cos\theta
+$$
 
 Faraday's law states that the induced EMF equals the negative rate of change of flux:
 
-$$\varepsilon = -N \frac{\Delta\Phi}{\Delta t}$$
+$$
+\varepsilon = -N \frac{\Delta\Phi}{\Delta t}
+$$
 
 This is the mathematical expression of the observation that the induced EMF depends on how _quickly_
 The magnetic field changes, not on the absolute magnitude of the field.
@@ -422,7 +444,7 @@ The magnetic field changes, not on the absolute magnitude of the field.
   to produce current.
 - **Forgetting that transformers only work with AC.** A changing magnetic field is required for
   induction; DC produces a constant field.
-- **Reversing the transformer equation.** The ratio $N_s/N_p$ equals $V_s/V_p$Not $V_p/V_s$.
+- **Reversing the transformer equation.** The ratio $N_s/N_p$ equals $V_s/V_p$ Not $V_p/V_s$.
 - **Confusing magnetic and electric field lines.** Magnetic field lines go from N to S; electric
   field lines go from + to -.
 - **Forgetting that the motor effect requires the wire to NOT be parallel to the field.** If the
@@ -490,42 +512,58 @@ is 95% Efficient.
 
 **Step 1:** Find the number of secondary turns.
 
-$$\frac{N_s}{N_p} = \frac{V_s}{V_p} \implies N_s = 920 \times \frac{12}{230} = 48 \mathrm{ turns$$
+$$
+\frac{N_s}{N_p} = \frac{V_s}{V_p} \implies N_s = 920 \times \frac{12}{230} = 48 \mathrm{ turns
+$$
 
 **Step 2:** Calculate the power delivered to the load.
 
-$$P_s = V_s I_s = 12 \times 5 = 60 \mathrm{ W$$
+$$
+P_s = V_s I_s = 12 \times 5 = 60 \mathrm{ W
+$$
 
 **Step 3:** Calculate the power drawn from the primary.
 
-$$P_p = \frac{P_s}{\eta} = \frac{60}{0.95} = 63.2 \mathrm{ W$$
+$$
+P_p = \frac{P_s}{\eta} = \frac{60}{0.95} = 63.2 \mathrm{ W
+$$
 
 **Step 4:** Calculate the primary current.
 
-$$I_p = \frac{P_p}{V_p} = \frac{63.2}{230} = 0.275 \mathrm{ A$$
+$$
+I_p = \frac{P_p}{V_p} = \frac{63.2}{230} = 0.275 \mathrm{ A
+$$
 
 **Step 5:** Power wasted.
 
-$$P_{\mathrm{wasted} = P_p - P_s = 63.2 - 60 = 3.2 \mathrm{ W$$
+$$
+P_{\mathrm{wasted} = P_p - P_s = 63.2 - 60 = 3.2 \mathrm{ W
+$$
 
 ## 8. Derivation: Faraday's Law from the Definition of Magnetic Flux
 
 Faraday's law states that the induced EMF equals the rate of change of magnetic flux linkage:
 
-$$\varepsilon = -N\frac{\Delta\Phi}{\Delta t}$$
+$$
+\varepsilon = -N\frac{\Delta\Phi}{\Delta t}
+$$
 
 **Physical argument:** Consider a coil of $N$ turns in a changing magnetic field. The magnetic flux
 $\Phi = BA\cos\theta$ through each turn is changing. The total flux linkage is $N\Phi$. If the flux
-Changes by $\Delta\Phi$ in time $\Delta t$The rate of change is $\Delta\Phi / \Delta t$ And the
+Changes by $\Delta\Phi$ in time $\Delta t$ The rate of change is $\Delta\Phi / \Delta t$ And the
 Induced EMF is proportional to this rate. The negative sign (Lenz's law) indicates that the induced
 EMF opposes the change in flux.
 
 **Quantitative example:** A coil of 200 turns and area $0.02 \mathrm{ m^2$ is in a magnetic field of
 Flux density $0.5 \mathrm{ T$. The field is reduced to zero in $0.05 \mathrm{ s$.
 
-$$\Delta\Phi = BA = 0.5 \times 0.02 = 0.01 \mathrm{ Wb$$
+$$
+\Delta\Phi = BA = 0.5 \times 0.02 = 0.01 \mathrm{ Wb
+$$
 
-$$\varepsilon = N\frac{\Delta\Phi}{\Delta t} = 200 \times \frac{0.01}{0.05} = 200 \times 0.2 = 40 \mathrm{ V$$
+$$
+\varepsilon = N\frac{\Delta\Phi}{\Delta t} = 200 \times \frac{0.01}{0.05} = 200 \times 0.2 = 40 \mathrm{ V
+$$
 
 ## 9. Why Lenz's Law Is a Consequence of Conservation of Energy
 
@@ -541,9 +579,13 @@ Energy.
 A wire of length $0.25 \mathrm{ m$ carries a current of $4 \mathrm{ A$ at an angle of $30^{\circ}$
 to A magnetic field of flux density $0.6 \mathrm{ T$. Calculate the force on the wire.
 
-$$F = BIl\sin\theta = 0.6 \times 4 \times 0.25 \times \sin 30^{\circ}$$
+$$
+F = BIl\sin\theta = 0.6 \times 4 \times 0.25 \times \sin 30^{\circ}
+$$
 
-$$= 0.6 \times 4 \times 0.25 \times 0.5 = 0.3 \mathrm{ N$$
+$$
+= 0.6 \times 4 \times 0.25 \times 0.5 = 0.3 \mathrm{ N
+$$
 
 If the wire were perpendicular to the field ($\theta = 90^{\circ}$), the force would be
 $0.6 \mathrm{ N$ -- twice as large. At $\theta = 0^{\circ}$ (parallel), the force would be zero.
@@ -552,11 +594,15 @@ $0.6 \mathrm{ N$ -- twice as large. At $\theta = 0^{\circ}$ (parallel), the forc
 
 Students often confuse these two rules. Here is a clear distinction:
 
+<div class="table-wrap">
+
 | Rule                      | Used For                                                                              | What It Finds                                     |
 | ------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | Right-hand grip rule      | Finding the direction of the **magnetic field** around a current-carrying wire        | Field direction (fingers curl in field direction) |
 | Fleming's left-hand rule  | Finding the direction of the **force** on a current-carrying wire in a magnetic field | Force direction (thumb)                           |
 | Right-hand rule (general) | Finding the direction of the magnetic field produced by a current loop or solenoid    | North pole direction                              |
+
+</div>
 
 The right-hand grip rule has nothing to do with the motor effect. It tells you the shape of the
 Magnetic field around a wire. Fleming's left-hand rule tells you the direction of the force when you
@@ -571,7 +617,9 @@ $F = mg = 2 \times 9.8 = 19.6 \mathrm{ N$.
 The force on the steel block depends on the magnetic field produced by the electromagnet. For a
 Simple solenoid, the magnetic flux density at the centre is approximately:
 
-$$B = \frac{\mu_0 n I}{L}$$
+$$
+B = \frac{\mu_0 n I}{L}
+$$
 
 Where $n$ is the number of turns per unit length and $L$ is the length of the solenoid. Without more
 Details of the geometry, we can use the practical approach: the force is proportional to $NI$
@@ -590,6 +638,8 @@ Force.
 Both motors and generators involve a coil rotating in a magnetic field. The difference is the
 Direction of energy conversion:
 
+<div class="table-wrap">
+
 | Aspect            | Motor                    | Generator            |
 | ----------------- | ------------------------ | -------------------- |
 | Energy in         | Electrical               | Mechanical (kinetic) |
@@ -598,8 +648,10 @@ Direction of energy conversion:
 | Current direction | Reverses every half-turn | Alternates           |
 | Output            | Continuous rotation      | Alternating EMF      |
 
+</div>
+
 The split-ring commutator in a motor ensures that the current always flows in the correct direction
-To produce a torque that maintains rotation. In a generator, the slip rings maintain continuous
+to produce a torque that maintains rotation. In a generator, the slip rings maintain continuous
 Contact with the coil without reversing, so the AC produced by the rotating coil is transmitted
 Directly to the external circuit.
 
@@ -608,17 +660,27 @@ Directly to the external circuit.
 A coil of 100 turns and area $0.03 \mathrm{ m^2$ rotates at 50 Hz in a magnetic field of flux
 density $0.4 \mathrm{ T$. Calculate the peak EMF.
 
-$$\mathrm{EMF_{\mathrm{peak} = NAB\omega = NAB \times 2\pi f$$
+$$
+\mathrm{EMF_{\mathrm{peak} = NAB\omega = NAB \times 2\pi f
+$$
 
-$$= 100 \times 0.03 \times 0.4 \times 2\pi \times 50$$
+$$
+= 100 \times 0.03 \times 0.4 \times 2\pi \times 50
+$$
 
-$$= 100 \times 0.03 \times 0.4 \times 314.16$$
+$$
+= 100 \times 0.03 \times 0.4 \times 314.16
+$$
 
-$$= 376.99 \mathrm{ V \approx 377 \mathrm{ V$$
+$$
+= 376.99 \mathrm{ V \approx 377 \mathrm{ V
+$$
 
 The RMS voltage would be $377 / \sqrt{2} \approx 267 \mathrm{ V$.
 
 ## 15. Magnetic Materials: Hard vs Soft
+
+<div class="table-wrap">
 
 | Property               | Soft Magnetic Material            | Hard Magnetic Material    |
 | ---------------------- | --------------------------------- | ------------------------- |
@@ -628,8 +690,10 @@ The RMS voltage would be $377 / \sqrt{2} \approx 267 \mathrm{ V$.
 | Use                    | Electromagnet cores, transformers | Permanent magnets, motors |
 | Hysteresis loss        | Low                               | High                      |
 
+</div>
+
 The distinction is critical for applications. A transformer core must be made of soft iron so that
-It can be magnetised and demagnetised rapidly by the alternating current without significant energy
+it can be magnetised and demagnetised rapidly by the alternating current without significant energy
 Loss. A permanent magnet in a motor must be made of a hard magnetic material so that it retains its
 Magnetism despite the changing fields produced by the motor's coils.
 
@@ -656,7 +720,7 @@ Magnetism despite the changing fields produced by the motor's coils.
 6. Explain why transformers are essential for the efficient distribution of electrical energy from
     power stations to consumers. Include quantitative reasoning.
 
-7. A rectangular coil of 200 turns, dimensions $5 \mathrm{ cm \times 8 \mathrm{ cm$Rotates at
+7. A rectangular coil of 200 turns, dimensions $5 \mathrm{ cm \times 8 \mathrm{ cm$ Rotates at
     $40 \mathrm{ Hz$ in a magnetic field of flux density $0.5 \mathrm{ T$. Calculate (a) the peak
     EMF and (b) the EMF when the coil makes an angle of $60^{\circ}$ with the field.
 
@@ -679,33 +743,45 @@ $0.02 \mathrm{ Wb$ to $0.08 \mathrm{ Wb$ in $0.05 \mathrm{ s$. Calculate the ave
 
 **Step 1: Calculate the change in flux linkage**
 
-$$\Delta(N\Phi) = N\Delta\Phi = 200 \times (0.08 - 0.02) = 200 \times 0.06 = 12 \mathrm{ Wb turns$$
+$$
+\Delta(N\Phi) = N\Delta\Phi = 200 \times (0.08 - 0.02) = 200 \times 0.06 = 12 \mathrm{ Wb turns
+$$
 
 **Step 2: Apply Faraday's law**
 
-$$\varepsilon = -\frac{\Delta(N\Phi)}{\Delta t} = -\frac{12}{0.05} = -240 \mathrm{ V$$
+$$
+\varepsilon = -\frac{\Delta(N\Phi)}{\Delta t} = -\frac{12}{0.05} = -240 \mathrm{ V
+$$
 
 The magnitude is $240 \mathrm{ V$ (the minus sign indicates direction via Lenz's law).
 
 ### Example 27: National Grid Power Loss Comparison
 
 A power station generates $500 \mathrm{ MW$ of power. Compare the power loss in the transmission
-Cables if the power is transmitted at (a) $25 \mathrm{ kV$ and (b) $400 \mathrm{ kV$Given a cable
+Cables if the power is transmitted at (a) $25 \mathrm{ kV$ and (b) $400 \mathrm{ kV$ Given a cable
 Resistance of $2 \Omega$.
 
 **Step 1: At $25 \mathrm{ kV$**
 
-$$I = \frac{P}{V} = \frac{500 \times 10^6}{25 \times 10^3} = 20000 \mathrm{ A$$
+$$
+I = \frac{P}{V} = \frac{500 \times 10^6}{25 \times 10^3} = 20000 \mathrm{ A
+$$
 
-$$P_{\mathrm{loss} = I^2 R = (20000)^2 \times 2 = 8 \times 10^8 \mathrm{ W = 800 \mathrm{ MW$$
+$$
+P_{\mathrm{loss} = I^2 R = (20000)^2 \times 2 = 8 \times 10^8 \mathrm{ W = 800 \mathrm{ MW
+$$
 
 This is _more_ than the generated power! The system is completely impractical at this voltage.
 
 **Step 2: At $400 \mathrm{ kV$**
 
-$$I = \frac{500 \times 10^6}{400 \times 10^3} = 1250 \mathrm{ A$$
+$$
+I = \frac{500 \times 10^6}{400 \times 10^3} = 1250 \mathrm{ A
+$$
 
-$$P_{\mathrm{loss} = (1250)^2 \times 2 = 3.125 \times 10^6 \mathrm{ W = 3.125 \mathrm{ MW$$
+$$
+P_{\mathrm{loss} = (1250)^2 \times 2 = 3.125 \times 10^6 \mathrm{ W = 3.125 \mathrm{ MW
+$$
 
 This is only $0.625\%$ of the generated power.
 
@@ -719,7 +795,7 @@ At $400 \mathrm{ kV$: $\eta = \frac{500 - 3.125}{500} \times 100 = 99.375\%$
 Step-up transformers increase the voltage (and decrease the current) for transmission,
 
 Dramatically reducing $I^2R$ losses. Step-down transformers then reduce the voltage to safe levels
-For domestic use. This is the fundamental reason the National Grid uses high-voltage transmission.
+for domestic use. This is the fundamental reason the National Grid uses high-voltage transmission.
 
 ### Example 28: Designing an Electromagnet
 
@@ -729,31 +805,47 @@ Current.
 
 **Step 1: Force needed**
 
-$$F = mg = 5 \times 9.8 = 49 \mathrm{ N$$
+$$
+F = mg = 5 \times 9.8 = 49 \mathrm{ N
+$$
 
 **Step 2: Magnetic field strength needed**
 
 For a rough estimate, the force on a magnetic material near an electromagnet is approximately:
 
-$$F \approx \frac{B^2 A}{2\mu_0}$$
+$$
+F \approx \frac{B^2 A}{2\mu_0}
+$$
 
 Assuming the pole face area is $A = 0.005 \mathrm{ m^2$ ($50 \mathrm{ cm^2$):
 
-$$49 = \frac{B^2 \times 0.005}{2 \times 4\pi \times 10^{-7}}$$
+$$
+49 = \frac{B^2 \times 0.005}{2 \times 4\pi \times 10^{-7}}
+$$
 
-$$B^2 = \frac{49 \times 2.513 \times 10^{-6}}{0.005} = 0.02463$$
+$$
+B^2 = \frac{49 \times 2.513 \times 10^{-6}}{0.005} = 0.02463
+$$
 
-$$B = 0.157 \mathrm{ T$$
+$$
+B = 0.157 \mathrm{ T
+$$
 
 **Step 3: Current required (solenoid approximation)**
 
-$$B = \mu_0 \frac{NI}{L}$$
+$$
+B = \mu_0 \frac{NI}{L}
+$$
 
 Assuming the solenoid length is $L = 0.2 \mathrm{ m$:
 
-$$0.157 = 4\pi \times 10^{-7} \times \frac{500 \times I}{0.2}$$
+$$
+0.157 = 4\pi \times 10^{-7} \times \frac{500 \times I}{0.2}
+$$
 
-$$I = \frac{0.157 \times 0.2}{4\pi \times 10^{-7} \times 500} = \frac{0.0314}{6.283 \times 10^{-4}} = 50 \mathrm{ A$$
+$$
+I = \frac{0.157 \times 0.2}{4\pi \times 10^{-7} \times 500} = \frac{0.0314}{6.283 \times 10^{-4}} = 50 \mathrm{ A
+$$
 
 This is a very high current. In practice, we would increase the number of turns or reduce the air
 Gap to achieve the required field with a more practical current.
@@ -763,7 +855,7 @@ Gap to achieve the required field with a more practical current.
 ### Pitfall 6: Confusing Magnetic Field Lines with Electric Field Lines
 
 Magnetic field lines form _closed loops_ (they have no beginning or end). Electric field lines start
-On positive charges and end on negative charges. This is a consequence of the fact that there are no
+on positive charges and end on negative charges. This is a consequence of the fact that there are no
 Magnetic monopoles (isolated north or south poles).
 
 ### Pitfall 7: Getting the Transformer Equation Wrong
@@ -907,16 +999,6 @@ structure your answer using the appropriate terminology.
 Multi-step problems in Magnetism and Electromagnetism often combine two or more concepts. Break the
 problem down: identify what you need to find, recall the relevant formula or principle, substitute
 values, and state your answer with correct units or formatting.
-
-```mermaid
-flowchart TD
-    A[7_Magnetismx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

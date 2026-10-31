@@ -11,23 +11,12 @@ categories:
 
 ---
 
-
-```mermaid
-flowchart TD
-    A[01 Reflog] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## What is the Reflog
 
 The **reflog** (reference log) is Git's built-in safety net. It records every change to the HEAD
 reference and to each branch reference, creating a chronological audit trail of all movements in the
 repository. Even after operations that appear destructive,
-`git reset --hard``git rebase``git commit --amend`the reflog retains a record of where the
+`git reset --hard`, `git rebase`, `git commit --amend`the reflog retains a record of where the
 references were before.
 
 Think of the reflog as Git's **undo history**. While `git log` shows the commit history (the DAG),
@@ -46,6 +35,8 @@ a3f2b1c0 HEAD@{3}: checkout: moving from main to feature
 
 Each entry contains:
 
+<div class="table-wrap">
+
 | Field                             | Meaning                                    |
 | --------------------------------- | ------------------------------------------ |
 | `a3f2b1c0`                        | The commit hash the reference moved **to** |
@@ -53,15 +44,21 @@ Each entry contains:
 | `rebase -i (finish)`              | The operation that caused the move         |
 | `returning to refs/heads/feature` | Additional context                         |
 
+</div>
+
 ### Reflog Storage
 
 The reflog is stored as plain text files:
+
+<div class="table-wrap">
 
 | File                           | Records movements of              |
 | ------------------------------ | --------------------------------- |
 | `.git/logs/HEAD`               | HEAD (covers all branch switches) |
 | `.git/logs/refs/heads/main`    | The `main` branch                 |
 | `.git/logs/refs/heads/feature` | The `feature` branch              |
+
+</div>
 
 ```bash
 ## View the raw reflog file
@@ -172,11 +169,15 @@ $ git branch recovered-work b7e9d4f5
 
 Reflog entries do not persist forever. By default:
 
+<div class="table-wrap">
+
 | Setting                      | Default | Meaning                                               |
 | ---------------------------- | ------- | ----------------------------------------------------- |
 | `gc.reflogExpire`            | 90 days | Reflog entries older than this are expired            |
 | `gc.reflogExpireUnreachable` | 30 days | Entries pointing to unreachable commits expire sooner |
 | `gc.pruneExpire`             | 2 weeks | Unreachable objects are pruned                        |
+
+</div>
 
 ### When Objects Are Actually Deleted
 

@@ -140,6 +140,8 @@ int main() {
 
 Fold expressions support the following 32 binary operators [N4950 §7.6.1]:
 
+<div class="table-wrap">
+
 | Category   | Operators                                                                |
 | ---------- | ------------------------------------------------------------------------ |
 | Arithmetic | `+` `-` `*` `/` `%`                                                      |
@@ -149,11 +151,15 @@ Fold expressions support the following 32 binary operators [N4950 §7.6.1]:
 | Assignment | `=` `+=` `-=` `*=` `/=` `%=` `&amp;=` `\|=` `^=` `&lt;&lt;=` `&gt;&gt;=` |
 | Comma      | `,`                                                                      |
 
+</div>
+
 Note: the comma operator `,` has special behavior in folds (see below).
 
 ## Comparison Table of All Four Fold Forms
 
 For a pack $(e_1, e_2, e_3)$ and operator $\oplus$:
+
+<div class="table-wrap">
 
 | Fold Form    | Syntax                  | Expansion                                           | Example with `+`         |
 | ------------ | ----------------------- | --------------------------------------------------- | ------------------------ |
@@ -162,7 +168,11 @@ For a pack $(e_1, e_2, e_3)$ and operator $\oplus$:
 | Binary right | `(pack op ... op init)` | $e_1 \oplus (e_2 \oplus (e_3 \oplus \mathrm{init))$ | `(a + (b + (c + init)))` |
 | Binary left  | `(init op ... op pack)` | $((\mathrm{init \oplus e_1) \oplus e_2) \oplus e_3$ | `(((init + a) + b) + c)` |
 
+</div>
+
 For a single-element pack $(e_1)$:
+
+<div class="table-wrap">
 
 | Fold Form    | Result                    |
 | ------------ | ------------------------- |
@@ -171,7 +181,11 @@ For a single-element pack $(e_1)$:
 | Binary right | $e_1 \oplus \mathrm{init$ |
 | Binary left  | $\mathrm{init \oplus e_1$ |
 
+</div>
+
 For an empty pack `()`:
+
+<div class="table-wrap">
 
 | Fold Form    | Result                          | Operator-dependent   |
 | ------------ | ------------------------------- | -------------------- |
@@ -180,12 +194,14 @@ For an empty pack `()`:
 | Binary right | `init`                          | Always well-defined  |
 | Binary left  | `init`                          | Always well-defined  |
 
+</div>
+
 ### Choosing Between Left and Right Folds
 
-For **associative and commutative** operators (`+``*``&&``||``&amp;``|`), left and right Folds
+For **associative and commutative** operators (`+`, `*`, `&&`, `||`, `&amp;`, `|`), left and right Folds
 produce the same result. The choice is a matter of taste.
 
-For **non-associative** operators (`-``/``%``&lt;&lt;``&gt;&gt;`), the fold direction Matters and
+For **non-associative** operators (`-`, `/`, `%`, `&lt;&lt;`, `&gt;&gt;`), the fold direction Matters and
 produces different results:
 
 ```cpp
@@ -217,19 +233,21 @@ Unary left fold `(... op pack)` expands to a left-associative expression tree.
 **Proof for unary right fold:**
 
 By [N4950 §7.6.1], a unary right fold `(pack op ...)` with pack expansion $(e_1, e_2, \ldots, e_n)$
-Is defined as:
+is defined as:
 
-$$e_1 \oplus (e_2 \oplus (e_3 \oplus (\ldots \oplus e_n)))$$
+$$
+e_1 \oplus (e_2 \oplus (e_3 \oplus (\ldots \oplus e_n)))
+$$
 
 This can be proved by induction on the pack size $n$.
 
 **Base case** ($n = 1$): The fold `(e_1 op ...)` evaluates to `e_1`. This is Right-associative (no
 operator application).
 
-**Inductive step:** Assume the expansion holds for a pack of size $n$Producing:
+**Inductive step:** Assume the expansion holds for a pack of size $n$ Producing:
 $e_1 \oplus (e_2 \oplus (\ldots \oplus e_n))$.
 
-For a pack of size $n + 1$The Standard specifies that the first element is the left operand of the
+For a pack of size $n + 1$ The Standard specifies that the first element is the left operand of the
 Operator, and the remaining elements form the right operand via a nested fold:
 $e_1 \oplus (\mathrm{fold of  (e_2, \ldots, e_{n+1}))$.
 
@@ -243,10 +261,12 @@ This is right-associative. $\blacksquare$
 **Proof for unary left fold:** Analogous. By [N4950 §7.6.1], `(... op pack)` with pack
 $(e_1, e_2, \ldots, e_n)$ expands to:
 
-$$(((e_1 \oplus e_2) \oplus e_3) \oplus \ldots) \oplus e_n$$
+$$
+(((e_1 \oplus e_2) \oplus e_3) \oplus \ldots) \oplus e_n
+$$
 
 The inductive structure is: the fold of the first $n$ elements forms the left operand, and $e_{n+1}$
-Is the right operand. This produces a left-associative tree. $\blacksquare$
+is the right operand. This produces a left-associative tree. $\blacksquare$
 
 **Corollary:** For an operator $\oplus$ that is not associative, left and right folds over the same
 Pack produce different results. The programmer must choose the fold direction deliberately.
@@ -254,7 +274,7 @@ Pack produce different results. The programmer must choose the fold direction de
 **Corollary:** The evaluation order of the operands within the fold follows the order of the
 Parameter pack (left to right as declared), but the **tree structure** (the order in which operator
 Applications are nested) depends on the fold direction. The operands are evaluated in pack order
-Regardless of fold direction, but the operator precedence is determined by the tree structure.
+regardless of fold direction, but the operator precedence is determined by the tree structure.
 
 ## Unary Folds
 
@@ -332,10 +352,14 @@ Binary folds include an explicit initial value (`init`) that participates in the
 Forms are:
 
 **Binary left fold** `(init op ... op pack)`:
-$$((\mathrm{init \oplus e_1) \oplus e_2) \oplus \ldots \oplus e_n$$
+$$
+((\mathrm{init \oplus e_1) \oplus e_2) \oplus \ldots \oplus e_n
+$$
 
 **Binary right fold** `(pack op ... op init)`:
-$$e_1 \oplus (e_2 \oplus (\ldots \oplus (e_n \oplus \mathrm{init)))$$
+$$
+e_1 \oplus (e_2 \oplus (\ldots \oplus (e_n \oplus \mathrm{init)))
+$$
 
 ```cpp
 #include <iostream>
@@ -403,6 +427,8 @@ int main() {
 
 The behavior of fold expressions with empty packs depends on the operator [N4950 §7.6.1]:
 
+<div class="table-wrap">
+
 | Operator   | Empty pack value (unary fold) | Notes                            |
 | ---------- | ----------------------------- | -------------------------------- |
 | `&&`       | `true`                        | Identity element for logical AND |
@@ -410,8 +436,10 @@ The behavior of fold expressions with empty packs depends on the operator [N4950
 | `,`        | `void()`                      | No-op                            |
 | All others | **Ill-formed**                | Must use binary fold with init   |
 
+</div>
+
 The identity element rule follows from the mathematical definition: for an operator $\oplus$ with
-Identity element $e$Folding an empty sequence yields $e$. The logical operators `&&` and `||` have
+Identity element $e$ Folding an empty sequence yields $e$. The logical operators `&&` and `||` have
 Well-defined identity elements (`true` and `false` respectively), and the comma operator has the
 Identity element `void()` (a no-op expression).
 
@@ -450,15 +478,15 @@ int main() {
 
 **Rationale for the three exceptions:** The Standard specifies identity elements only for `&&`
 `||`And `,` because these are the only operators where the identity element is unambiguous and
-Type-independent. For `+`The identity element depends on the type (`0` for integers, `""` for
-Strings, `0.0` for doubles), so the Standard cannot choose one. For `*`The identity element is
-`1`But again, the type is unknown. The programmer must provide the initial value explicitly via a
+Type-independent. For `+`. The identity element depends on the type (`0` for integers, `""` for
+Strings, `0.0` for doubles), so the Standard cannot choose one. For `*`. The identity element is
+`1`. But again, the type is unknown. The programmer must provide the initial value explicitly via a
 Binary fold.
 
 ## Fold with Comma Operator
 
 The comma operator is special in fold expressions. It evaluates each operand for its side effects
-And discards the values, making it ideal for "do something for each element" patterns:
+and discards the values, making it ideal for "do something for each element" patterns:
 
 ```cpp
 #include <iostream>
@@ -499,12 +527,12 @@ int main() {
 
 **Note on comma operator semantics:** The comma operator has a sequencing guarantee --- the left
 Operand is fully evaluated before the right operand [N4950 §7.6.1]. This means that in a unary right
-Fold `(expr1, (expr2, (expr3, ...)))`The expressions are evaluated in order $e_1, e_2, e_3, \ldots$
+Fold `(expr1, (expr2, (expr3, ...)))`. The expressions are evaluated in order $e_1, e_2, e_3, \ldots$
 from left to right (the innermost expression is evaluated first within each Pair, but the tree
 structure ensures left-to-right sequencing for the comma operator specifically).
 
 **Important caveat:** Do not confuse the comma operator fold with function argument lists. In
-`func(args...)`The `args...` is a pack expansion, not a fold expression. The comma in a function
+`func(args...)`. The `args...` is a pack expansion, not a fold expression. The comma in a function
 Call separates arguments; it is not the comma operator. The fold `(f(args), ...)` applies the comma
 Operator to evaluate `f(args)` for each `args` element.
 
@@ -552,7 +580,7 @@ int main() {
 
 ### Short-Circuit Evaluation in Folds
 
-The fold `(... && args)` evaluates left to right and short-circuits: if any element is `false`The
+The fold `(... && args)` evaluates left to right and short-circuits: if any element is `false`. The
 Remaining elements are not evaluated. Similarly, `(... || args)` short-circuits on the first `true`
 Element. This means that in a runtime fold, side effects after the short-circuit point are not
 Executed.
@@ -694,7 +722,7 @@ binary fold operator.
 The return type of a fold expression is determined by the operator and the types of the pack
 Elements (and the initial value, for binary folds). For homogeneous packs, the result type is the
 Common type. For heterogeneous packs, the usual arithmetic conversion rules apply. For binary folds
-With an initial value, the initial value participates in the type deduction.
+with an initial value, the initial value participates in the type deduction.
 
 ```cpp
 #include <iostream>
@@ -723,7 +751,7 @@ Used purely for side effects.
 ## Fold Expressions in Constraints
 
 Fold expressions are commonly used inside `requires`-expressions and concepts to express constraints
-Over parameter packs:
+over parameter packs:
 
 ```cpp
 #include <concepts>
@@ -863,10 +891,10 @@ int main() {
 ## Common Pitfalls
 
 1. **Empty packs with non-identity operators.** A unary fold over `+` with an empty pack is
-   ill-formed. Always use a binary fold with an initial value (`0` for `+``1` for `*`) if the pack
+   ill-formed. Always use a binary fold with an initial value (`0` for `+`, `1` for `*`) if the pack
    might be empty.
 
-2. **Non-associative operators.** Left and right folds over `-``/`Or `%` produce different results.
+2. **Non-associative operators.** Left and right folds over `-`, `/` or `%` produce different results.
    Be explicit about which fold direction you intend. For subtraction, a left fold `(... - args)`
    computes $((a - b) - c)$ (conventional left-to-right), while a right fold `(args - ...)` computes
    $a - (b - c)$ (alternating signs).
@@ -894,7 +922,7 @@ int main() {
    parentheses when it contains operators.
 
 8. **Binary fold with `&&` and `||` on empty packs.** While `(... && args)` on an empty pack yields
-   `true``(true && ... && args)` on an empty pack yields `true` (the init value). These agree, but
+   `true`, `(true && ... && args)` on an empty pack yields `true` (the init value). These agree, but
    `(false && ... && args)` on an empty pack yields `false`. Choose the init value carefully to
    match the intended semantics.
 
@@ -907,17 +935,7 @@ int main() {
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
-```mermaid
-flowchart TD
-    A[2_Fold_Expressions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Summary
 
@@ -932,10 +950,5 @@ theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

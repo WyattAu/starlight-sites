@@ -72,9 +72,11 @@ Packets as they enter and leave the network interface.
 
 Advantages: captures the endpoint"s perspective (including locally-generated traffic), no additional
 Hardware. Disadvantages: endpoint CPU overhead, may not capture traffic that the endpoint's OS drops
-Before libpcap sees it.
+before libpcap sees it.
 
 ### Capture Point Selection Guide
+
+<div class="table-wrap">
 
 | Scenario                         | Best Capture Point                                     |
 | -------------------------------- | ------------------------------------------------------ |
@@ -84,6 +86,8 @@ Before libpcap sees it.
 | Multi-point analysis             | SPAN + server capture, correlated                      |
 | Encrypted traffic analysis       | On the endpoint (before encryption / after decryption) |
 | Container networking             | On the host's veth interface or inside the container   |
+
+</div>
 
 :::caution
 Line-rate traffic, especially on 10Gbps+ links. If you see missing packets in a SPAN capture,
@@ -225,7 +229,7 @@ tcpdump -i eth0 -Z root
 ### Display Filters
 
 Wireshark display filters are applied after capture and use a different (and more powerful) syntax
-Than BPF capture filters.
+than BPF capture filters.
 
 ```text
 # Protocol filters
@@ -342,7 +346,7 @@ google-chrome
 ## tshark
 
 Tshark is the command-line version of Wireshark. It uses the same capture and display filter syntax
-But outputs to the terminal.
+but outputs to the terminal.
 
 ### Capturing
 
@@ -410,10 +414,12 @@ tshark -r /tmp/capture.pcap -Y 'http.response' -T json \
 ### NetFlow (Cisco)
 
 NetFlow is a network protocol developed by Cisco that exports aggregated flow records from routers
-And switches. A "flow" is a unidirectional sequence of packets sharing the same 5-tuple (source IP,
+and switches. A "flow" is a unidirectional sequence of packets sharing the same 5-tuple (source IP,
 Destination IP, source port, destination port, protocol).
 
 **What NetFlow records:**
+
+<div class="table-wrap">
 
 | Field            | Description                          |
 | ---------------- | ------------------------------------ |
@@ -434,13 +440,19 @@ Destination IP, source port, destination port, protocol).
 | output_interface | SNMP index of egress interface       |
 | nexthop          | Next-hop IP address                  |
 
+</div>
+
 **NetFlow versions:**
+
+<div class="table-wrap">
 
 | Version | Description                                  |
 | ------- | -------------------------------------------- |
 | v5      | Original format, fixed fields                |
 | v9      | Template-based, extensible (RFC 3954)        |
 | IPFIX   | IETF standard based on NetFlow v9 (RFC 7011) |
+
+</div>
 
 ### sFlow
 
@@ -548,7 +560,7 @@ nethogs eth0
 ### conntrack (Linux)
 
 Linux's netfilter connection tracking system maintains a table of all active connections. This is
-The backbone of NAT, stateful firewalls, and conntrack-based tools.
+the backbone of NAT, stateful firewalls, and conntrack-based tools.
 
 ```bash
 # View all tracked connections
@@ -654,6 +666,8 @@ Operation.
 
 ### What to Measure
 
+<div class="table-wrap">
+
 | Metric               | Tool            | Frequency |
 | -------------------- | --------------- | --------- |
 | Interface throughput | SNMP / iftop    | 5 minutes |
@@ -665,10 +679,12 @@ Operation.
 | Packet loss          | ping / SLA      | 1 minute  |
 | Latency (RTT)        | ping / SLA      | 1 minute  |
 
+</div>
+
 ### Baseline Duration
 
 Capture at least one full business cycle (7 days) to capture weekday vs weekend patterns, peak vs
-Off-peak hours, and any batch processing windows.
+off-peak hours, and any batch processing windows.
 
 ## Anomaly Detection
 
@@ -819,7 +835,7 @@ tcpdump -i eth0 -B 524288000   # 500MB
 ### 4. Not Considering VLAN Tags
 
 If your network uses VLANs, the VLAN tag (802.1Q) is prepended to the Ethernet frame. Tcpdump may
-Not match filters against VLAN-tagged traffic. Use `vlan` in the BPF filter:
+not match filters against VLAN-tagged traffic. Use `vlan` in the BPF filter:
 
 ```bash
 tcpdump -i eth0 'vlan 100 and port 443'
@@ -858,16 +874,6 @@ When correlating captures from multiple points, ensure all systems are synchroni
 Skew of even 1 second can make correlation impossible for fast interactions. Use `ntpq -p` to verify
 NTP synchronization before starting a multi-point capture.
 
-```mermaid
-flowchart TD
-    A[Traffic Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to traffic analysis, including key
@@ -880,9 +886,6 @@ principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Worked Examples
 

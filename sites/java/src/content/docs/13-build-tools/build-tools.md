@@ -111,14 +111,16 @@ Dependencies, plugins, and build configuration.
 
 **Coordinate system:** Every Maven artifact is identified by three coordinates:
 
-- **`groupId`**, the reverse domain name (`com.example``org.apache.commons`).
-- **`artifactId`**, the project or library name (`my-app``commons-lang3`).
-- **`version`**, semantic version (`1.0.0``2.3.1-SNAPSHOT`).
+- **`groupId`**, the reverse domain name (`com.example`, `org.apache.commons`).
+- **`artifactId`**, the project or library name (`my-app`, `commons-lang3`).
+- **`version`**, semantic version (`1.0.0`, `2.3.1-SNAPSHOT`).
 
 ### Lifecycle Phases
 
-Maven"s build lifecycle is a sequence of phases. Each phase delegates to plugins that implement the
+Maven's build lifecycle is a sequence of phases. Each phase delegates to plugins that implement the
 Behavior. Running a phase executes all prior phases in order.
+
+<div class="table-wrap">
 
 | Phase      | Description                                                         |
 | ---------- | ------------------------------------------------------------------- |
@@ -129,6 +131,8 @@ Behavior. Running a phase executes all prior phases in order.
 | `verify`   | Run integration tests and verify quality checks                     |
 | `install`  | Install the artifact into the local repository (`~/.m2/repository`) |
 | `deploy`   | Copy the artifact to a remote repository                            |
+
+</div>
 
 ```bash
 ## Run a specific phase (and all prior phases)
@@ -146,6 +150,8 @@ mvn package -DskipTests
 
 Maven scopes control when a dependency is available:
 
+<div class="table-wrap">
+
 | Scope               | Compile | Test | Runtime | Package | Transitively Available |
 | ------------------- | ------- | ---- | ------- | ------- | ---------------------- |
 | `compile` (default) | Yes     | Yes  | Yes     | Yes     | Yes                    |
@@ -153,6 +159,8 @@ Maven scopes control when a dependency is available:
 | `runtime`           | No      | Yes  | Yes     | Yes     | Yes                    |
 | `test`              | No      | Yes  | No      | No      | No                     |
 | `system`            | Yes     | Yes  | No      | Yes     | No                     |
+
+</div>
 
 ```xml
 <!-- compile (default), needed for compilation, included in package -->
@@ -368,6 +376,8 @@ Incremental build system skips tasks whose inputs and outputs have not changed (
 
 Gradle uses configurations to declare dependencies with different roles:
 
+<div class="table-wrap">
+
 | Configuration        | Maven Equivalent | Description                                                             |
 | -------------------- | ---------------- | ----------------------------------------------------------------------- |
 | `implementation`     | `compile`        | Used for compilation and runtime, not exposed to dependents             |
@@ -377,6 +387,8 @@ Gradle uses configurations to declare dependencies with different roles:
 | `testImplementation` | `test`           | Used for compiling and running tests                                    |
 | `testCompileOnly`    | N/A              | Needed for test compilation only                                        |
 | `testRuntimeOnly`    | `test` (runtime) | Needed for running tests only                                           |
+
+</div>
 
 ```kotlin
 dependencies {
@@ -441,6 +453,8 @@ sourceSets {
 
 ## Maven vs Gradle
 
+<div class="table-wrap">
+
 | Aspect             | Maven                        | Gradle                                  |
 | ------------------ | ---------------------------- | --------------------------------------- |
 | Build model        | Phase-based lifecycle        | Task-based DAG                          |
@@ -451,6 +465,8 @@ sourceSets {
 | Multi-module       | Good (inheritance, profiles) | Excellent (composite builds)            |
 | Ecosystem          | Central (Maven Central)      | Central (can consume Maven repos)       |
 | Custom logic       | Plugins (Java/MXML)          | Any Groovy/Kotlin code in build script  |
+
+</div>
 
 ## Version Management
 
@@ -618,7 +634,7 @@ mvn dependency:tree -Dverbose | grep "conflict"
 ./gradlew dependencies --configuration runtimeClasspath
 ```
 
-**Symptoms:** `NoSuchMethodError``ClassNotFoundException``NoClassDefFoundError` at runtime. These
+**Symptoms:** `NoSuchMethodError`, `ClassNotFoundException`, `NoClassDefFoundError` at runtime. These
 occur when multiple versions of the same library are on the classpath.
 
 **Fix:** Use `dependencyManagement` (Maven) or `constraints`/BOM (Gradle) to force a single version
@@ -660,7 +676,7 @@ Your CI to clean the local Maven repository before building.
 
 ### Not Using a Dependency BOM
 
-Without a BOM or `dependencyManagement`Each dependency version must be declared individually,
+Without a BOM or `dependencyManagement`. Each dependency version must be declared individually,
 Leading to version mismatches between related libraries:
 
 ```xml
@@ -694,8 +710,8 @@ Leading to version mismatches between related libraries:
 ### Gradle Configuration Cache Issues
 
 Gradle's configuration cache (enabled with `--configuration-cache`) caches the project configuration
-Between builds. Build scripts must be idempotent, they must not read system state that can change
-Between builds (e.g., `System.getenv()` outside of providers, `new Date()` in dependency
+between builds. Build scripts must be idempotent, they must not read system state that can change
+between builds (e.g., `System.getenv()` outside of providers, `new Date()` in dependency
 Declarations).
 
 ```kotlin
@@ -982,12 +998,12 @@ gradle wrapper --gradle-version=8.5
 ```
 
 The wrapper downloads the specified Gradle distribution to `~/.gradle/wrapper/dists/`. Check
-`gradlew``gradlew.bat`And `gradle/wrapper/gradle-wrapper.properties` into version control.
+`gradlew`, `gradlew.bat` and `gradle/wrapper/gradle-wrapper.properties` into version control.
 
 :::caution
 Different developers (and CI agents) may have different versions installed, leading to "works on my
 Machine" build failures. Pin the wrapper version in version control and update it deliberately
-Through a PR.
+through a PR.
 
 ```mermaid
 flowchart TD
@@ -1026,9 +1042,6 @@ theory, practical implementation, and key applications.
 - input/output systems
 - operating systems and scheduling
 - interrupts and polling
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 

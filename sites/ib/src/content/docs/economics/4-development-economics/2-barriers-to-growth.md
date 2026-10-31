@@ -43,7 +43,7 @@ A common definition is living below $60\%$ of the median household income.
 
 A poverty trap is a self-reinforcing mechanism that perpetuates poverty. Low income leads to low
 Savings, which limits investment in human and physical capital, which in turn keeps productivity and
-Income low. Breaking the trap requires a "big push", a large, coordinated investment in health,
+income low. Breaking the trap requires a "big push", a large, coordinated investment in health,
 Education, and infrastructure.
 
 ## Debt
@@ -52,8 +52,8 @@ Education, and infrastructure.
 
 Many developing countries carry high levels of external debt, debt owed to foreign creditors
 (governments, multilateral institutions, commercial banks). Servicing this debt (interest payments
-And principal repayment) diverts scarce government resources away from health, education, and
-Infrastructure.
+and principal repayment) diverts scarce government resources away from health, education, and
+infrastructure.
 
 **Indicators of debt sustainability:**
 
@@ -94,7 +94,7 @@ Borrowing countries to implement structural adjustment policies:
 - Flexible exchange rates
 
 Criticism: SAPs often exacerbated poverty by cutting social spending, weakened public services, and
-Prioritised debt repayment over development.
+prioritised debt repayment over development.
 
 ## Harrod-Domar and Lewis Models (HL Extension)
 
@@ -105,7 +105,9 @@ Investment, and economic growth in developing countries.
 
 **Core equation:**
 
-$$g = \frac{s}{v}$$
+$$
+g = \frac{s}{v}
+$$
 
 Where $g$ is the growth rate of GDP, $s$ is the savings rate ($S/Y$), and $v$ is the incremental
 Capital-output ratio (ICOR, or $\Delta K / \Delta Y$).
@@ -116,7 +118,9 @@ In equilibrium, saving equals investment: $S = I$. Saving is a constant fraction
 $S = sY$. Investment equals the capital stock required to produce additional output:
 $I = v \cdot \Delta Y$.
 
-$$sY = v \cdot \Delta Y \implies \frac{\Delta Y}{Y} = \frac{s}{v}$$
+$$
+sY = v \cdot \Delta Y \implies \frac{\Delta Y}{Y} = \frac{s}{v}
+$$
 
 **Policy implications for developing countries:**
 
@@ -150,7 +154,7 @@ Policies.
 ### The Lewis Dual-Sector Model
 
 Arthur Lewis (1954) described the process of development as the transfer of labour from a
-Low-productivity traditional sector to a high-productivity modern sector.
+low-productivity traditional sector to a high-productivity modern sector.
 
 **Model assumptions:**
 
@@ -180,7 +184,9 @@ Low-productivity traditional sector to a high-productivity modern sector.
 
 The growth rate of the modern sector equals the profit rate times the share of profits reinvested:
 
-$$g = \frac{\pi}{K} \cdot \frac{\Delta K}{\pi}$$
+$$
+g = \frac{\pi}{K} \cdot \frac{\Delta K}{\pi}
+$$
 
 Where $\pi$ is total profits and $\Delta K / \pi$ is the fraction of profits reinvested.
 
@@ -209,9 +215,11 @@ Singapore, Hong Kong) from the 1960s onward:
 ### The Harris-Todaro Model
 
 Harris and Todaro (1970) extended Lewis by explaining why urban unemployment coexists with
-Rural-urban migration:
+rural-urban migration:
 
-$$\frac{Y_u}{Y_r} = \frac{P_u \cdot w_u}{w_r}$$
+$$
+\frac{Y_u}{Y_r} = \frac{P_u \cdot w_u}{w_r}
+$$
 
 Where $Y_u$ is expected urban income, $Y_r$ is rural income, $P_u$ is the probability of finding an
 urban job, and $w_u$ and $w_r$ are urban and rural wages respectively.
@@ -250,7 +258,7 @@ Tariffs, quotas, and subsidies to protect infant industries.
 ### Export-Oriented Industrialisation (EOI)
 
 EOI involves promoting exports of manufactured goods, often starting with labour-intensive products
-And moving up the value chain.
+and moving up the value chain.
 
 **Key features:**
 
@@ -408,13 +416,17 @@ Migrate to cities.
 
 **Key insight:** migration is driven by the **expected** urban wage, not the actual wage:
 
-$$E[w_u] = \frac{L_e}{L_e + L_u} \times w_u = (1 - u_u) \times w_u$$
+$$
+E[w_u] = \frac{L_e}{L_e + L_u} \times w_u = (1 - u_u) \times w_u
+$$
 
 Where $L_e$ is urban employment, $L_u$ is urban unemployment, and $w_u$ is the urban wage.
 
 **Migration equilibrium:**
 
-$$w_a = E[w_u] = (1 - u_u) \times w_u$$
+$$
+w_a = E[w_u] = (1 - u_u) \times w_u
+$$
 
 Workers migrate until the expected urban wage equals the agricultural wage.
 
@@ -509,8 +521,12 @@ development and political freedom is a real concern.
 Thomas Malthus (1798) argued that population growth tends to outstrip food production, leading To
 periodic famines and population collapses:
 
-$$\text{Population grows geometrically: } P_t = P_0 (1 + g)^t$$
-$$\text{Food production grows arithmetically: } F_t = F_0 + at$$
+$$
+\text{Population grows geometrically: } P_t = P_0 (1 + g)^t
+$$
+$$
+\text{Food production grows arithmetically: } F_t = F_0 + at
+$$
 
 Malthus predicted that per capita income would remain at subsistence level in the long run Because
 any increase in income would lead to higher population growth, which would depress Wages back to
@@ -545,6 +561,8 @@ replacement level of 2.1) and population decline.
 
 **Numerical example:** Country X has the following demographic data:
 
+<div class="table-wrap">
+
 | Stage   | Birth rate (per 1,000) | Death rate (per 1,000) | Natural increase     |
 | ------- | ---------------------- | ---------------------- | -------------------- |
 | Stage 1 | 40                     | 38                     | 2 per 1,000 (0.2%)   |
@@ -552,6 +570,8 @@ replacement level of 2.1) and population decline.
 | Stage 3 | 20                     | 10                     | 10 per 1,000 (1.0%)  |
 | Stage 4 | 12                     | 11                     | 1 per 1,000 (0.1%)   |
 | Stage 5 | 8                      | 12                     | -4 per 1,000 (-0.4%) |
+
+</div>
 
 The demographic dividend occurs during late Stage 2 and Stage 3, when the working-age Population
 grows faster than the dependent population (children and elderly), providing a Window for
@@ -619,7 +639,7 @@ Economies of scale and learning curve effects.
 
 The learning curve: $\text{AC}(t) = \text{AC}_0 \times Q(t)^{-\alpha}$
 
-Where $\alpha$ is the learning rate parameter. If $\alpha = 0.15$A doubling of cumulative Output
+Where $\alpha$ is the learning rate parameter. If $\alpha = 0.15$ A doubling of cumulative Output
 reduces unit costs by approximately $1 - 2^{-0.15} = 10\%$.
 
 **Numerical example:**
@@ -628,7 +648,7 @@ A solar panel manufacturer in Country Z has current costs of USD 0.50/W. World p
 Without protection, the firm cannot compete.
 
 With a 67% tariff (raising the domestic price of imports to USD 0.50/W), the firm can sell and
-Accumulate production. The learning rate is $\alpha = 0.20$.
+accumulate production. The learning rate is $\alpha = 0.20$.
 
 After producing 1 GW of panels: $\text{AC} = 0.50 \times (1)^{-0.20} = 0.50$ After producing 10 GW:
 $\text{AC} = 0.50 \times (10)^{-0.20} = 0.50 \times 0.631 = 0.316$ After producing 100 GW:
@@ -720,7 +740,7 @@ Financial development contributes to economic growth through several channels:
 ### Threshold Effects
 
 The relationship between financial development and growth may be non-linear. Above a certain
-Threshold of institutional quality, financial development promotes growth. Below this Threshold,
+threshold of institutional quality, financial development promotes growth. Below this Threshold,
 financial development may lead to crises (as in the 2008 financial crisis).
 
 **Numerical example:**
@@ -729,11 +749,11 @@ A cross-country regression estimates:
 
 $\text{Growth} = 2.0 + 0.02 \times \text{Private\_credit/GDP} + 0.01 \times (\text{Private\_credit/GDP} \times \text{Institution\_quality})$
 
-Country C: Private credit/GDP $= 40\%$Institution quality $= 1.0$.
+Country C: Private credit/GDP $= 40\%$ Institution quality $= 1.0$.
 
 Growth $= 2.0 + 0.02(40) + 0.01(40 \times 1.0) = 2.0 + 0.8 + 0.4 = 3.2\%$.
 
-Country D: Private credit/GDP $= 40\%$Institution quality $= -1.5$.
+Country D: Private credit/GDP $= 40\%$ Institution quality $= -1.5$.
 
 Growth $= 2.0 + 0.02(40) + 0.01(40 \times -1.5) = 2.0 + 0.8 - 0.6 = 2.2\%$.
 
@@ -814,11 +834,15 @@ structurally increased commodity prices.
 
 A country has a savings rate ($s$) of 15% and a capital-output ratio ($v$) of 3.
 
-$$g = \frac{s}{v} = \frac{0.15}{3} = 0.05 = 5\%$$
+$$
+g = \frac{s}{v} = \frac{0.15}{3} = 0.05 = 5\%
+$$
 
 The economy grows at 5% per year. To achieve 7% growth:
 
-$$s = g \times v = 0.07 \times 3 = 0.21 = 21\%$$
+$$
+s = g \times v = 0.07 \times 3 = 0.21 = 21\%
+$$
 
 The savings rate must increase to 21% (or foreign aid must fill the savings gap of 6% of GDP).
 
@@ -830,17 +854,6 @@ An economy has a traditional agricultural sector with 1,000 workers producing 2,
 Workers can be transferred from agriculture to industry as long as the marginal product of labour in
 agriculture is below the industrial wage. The surplus generated funds industrial investment, driving
 structural transformation.
-
-
-```mermaid
-flowchart TD
-    A[2 Barriers To Growth] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

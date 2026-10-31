@@ -37,6 +37,8 @@ Propositions and their combinations using logical connectives.
 
 **Basic connectives:**
 
+<div class="table-wrap">
+
 | Symbol     | Name          | Meaning        |
 | ---------- | ------------- | -------------- |
 | $\neg$     | Negation      | NOT            |
@@ -44,6 +46,8 @@ Propositions and their combinations using logical connectives.
 | $\lor$     | Disjunction   | OR             |
 | $\implies$ | Implication   | IF...THEN      |
 | $\iff$     | Biconditional | IF AND ONLY IF |
+
+</div>
 
 **Truth tables.** The implication $p \implies q$ is false only when $p$ is true and $q$ is false.
 
@@ -67,13 +71,19 @@ Same truth value for all assignments.
 
 **Negation of quantifiers:**
 
-$$\neg \forall x\, P(x) \equiv \exists x\, \neg P(x)$$
+$$
+\neg \forall x\, P(x) \equiv \exists x\, \neg P(x)
+$$
 
-$$\neg \exists x\, P(x) \equiv \forall x\, \neg P(x)$$
+$$
+\neg \exists x\, P(x) \equiv \forall x\, \neg P(x)
+$$
 
 **Nested quantifiers** must be read carefully. The order matters:
 
-$$\forall x\, \exists y\, P(x, y) \not\equiv \exists y\, \forall x\, P(x, y)$$
+$$
+\forall x\, \exists y\, P(x, y) \not\equiv \exists y\, \forall x\, P(x, y)
+$$
 
 The first says "for every $x$ there is a (possibly different) $y$." The second says "there exists a Single $y$ that works for all $x$."
 
@@ -94,7 +104,7 @@ Binary $n$-tuples from $(0, \ldots, 0)$ to $(1, \ldots, 1)$. The first variable 
 (only every $2^{n-1}$ rows), while the last variable alternates every row.
 
 **Method 2: Recursive splitting.** For $n$ variables, the table splits into two blocks of $2^{n-1}$
-Rows: the top block has the first variable as $T$The bottom as $F$. Recurse on the remaining $n - 1$
+Rows: the top block has the first variable as $T$ The bottom as $F$. Recurse on the remaining $n - 1$
 variables within each block.
 
 **Worked Example.** Construct the truth table for $(p \implies q) \land (q \implies r)$.
@@ -103,6 +113,8 @@ variables within each block.
 <summary>Solution</summary>
 
 With 3 variables we have $2^3 = 8$ rows.
+
+<div class="table-wrap">
 
 | $p$ | $q$ | $r$ | $p \implies q$ | $q \implies r$ | $\phi$ |
 | --- | --- | --- | -------------- | -------------- | ------ |
@@ -114,6 +126,8 @@ With 3 variables we have $2^3 = 8$ rows.
 | F   | T   | F   | T              | F              | F      |
 | F   | F   | T   | T              | T              | T      |
 | F   | F   | F   | T              | T              | T      |
+
+</div>
 
 The formula is satisfiable (e.g., $p = F, q = F, r = T$) but not a tautology (e.g.,
 $p = T, q = T, r = F$).
@@ -128,6 +142,8 @@ $(p \implies q) \land (q \implies r) \implies (p \implies r)$ is a tautology.
 
 Extending the table above:
 
+<div class="table-wrap">
+
 | $p$ | $q$ | $r$ | $\phi$ | $p \implies r$ | $\phi \implies (p \implies r)$ |
 | --- | --- | --- | ------ | -------------- | ------------------------------ |
 | T   | T   | T   | T      | T              | T                              |
@@ -139,7 +155,9 @@ Extending the table above:
 | F   | F   | T   | T      | T              | T                              |
 | F   | F   | F   | T      | T              | T                              |
 
-The final column is all $T$Confirming the tautology.
+</div>
+
+The final column is all $T$ Confirming the tautology.
 
 </details>
 
@@ -150,6 +168,8 @@ connective Has **introduction rules** (how to _derive_ a formula with that conne
 **elimination rules** (how to _use_ a formula with that connective).
 
 **Rules of inference:**
+
+<div class="table-wrap">
 
 | Rule          | Premises                               | Conclusion  |
 | ------------- | -------------------------------------- | ----------- |
@@ -165,6 +185,8 @@ connective Has **introduction rules** (how to _derive_ a formula with that conne
 | $\neg$-E      | $A$, $\neg A$                          | $\bot$      |
 | DNE           | $\neg\neg A$                           | $A$         |
 | RAA           | $[\neg A] \vdash \bot$                 | $A$         |
+
+</div>
 
 Square brackets $[A]$ denote an assumption that is **discharged** after the rule is applied.
 
@@ -245,7 +267,7 @@ DNF.
 
 1. Eliminate $\iff$ and $\implies$: $A \implies B \equiv \neg A \lor B$ And
    $A \iff B \equiv (\neg A \lor B) \land (A \lor \neg B)$.
-2. Push $\neg$ inward using De Morgan"s laws and double negation ($\neg\neg A \equiv A$) until every
+2. Push $\neg$ inward using De Morgan's laws and double negation ($\neg\neg A \equiv A$) until every
    $\neg$ applies to a single variable.
 3. Distribute $\lor$ over $\land$: $A \lor (B \land C) \equiv (A \lor B) \land (A \lor C)$.
 
@@ -294,8 +316,8 @@ growth underlies the hardness Of many satisfiability problems.
 The **resolution rule** is a single inference rule that is refutation-complete for propositional
 Logic.
 
-**Resolution rule.** From clauses $(A \lor x)$ and $(B \lor \neg x)$Derive the **resolvent**
-$(A \lor B)$Where $A$ and $B$ are (possibly empty) sets of literals and $x$ is a propositional
+**Resolution rule.** From clauses $(A \lor x)$ and $(B \lor \neg x)$ Derive the **resolvent**
+$(A \lor B)$ Where $A$ and $B$ are (possibly empty) sets of literals and $x$ is a propositional
 Variable.
 
 **Resolution refutation.** To show that clauses $\{C_1, \ldots, C_k\}$ entail clause $C$:
@@ -326,7 +348,7 @@ Since $\bot$ is derived, the entailment holds. $\blacksquare$
 
 ### 1.8 The SAT Problem
 
-The **Boolean satisfiability problem (SAT)** asks: given a propositional formula $\phi$Is there a
+The **Boolean satisfiability problem (SAT)** asks: given a propositional formula $\phi$ Is there a
 Truth assignment that makes $\phi$ true?
 
 **Definition.** An instance of SAT is a propositional formula. The answer is YES if $\phi$ is
@@ -363,7 +385,9 @@ Checking validity is Co-NP-complete, not NP-complete.
 
 **De Morgan's Laws:**
 
-$$(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c$$
+$$
+(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c
+$$
 
 **Power set:** $\mathcal{P}(A) = \\{B : B \subseteq A\\}$. If $|A| = n$ Then
 $|\mathcal{P}(A)| = 2^n$.
@@ -385,8 +409,8 @@ classes.
 **Partial order:** reflexive, antisymmetric, transitive. Written $(A, \preceq)$.
 
 A **Hasse diagram** is a graphical representation of a finite poset $(A, \preceq)$: an element $a$
-Is drawn below $b$ whenever $a \prec b$ (i.e., $a \preceq b$ and $a \neq b$), and an edge is drawn
-From $a$ to $b$ whenever $b$ **covers** $a$ (there is no $c$ with $a \prec c \prec b$).
+is drawn below $b$ whenever $a \prec b$ (i.e., $a \preceq b$ and $a \neq b$), and an edge is drawn
+from $a$ to $b$ whenever $b$ **covers** $a$ (there is no $c$ with $a \prec c \prec b$).
 
 **Worked Example.** Show that $R$ on $\mathbb{Z}$ defined by $a\,R\,b$ iff
 $a \equiv b \pmod{5}$ is An equivalence relation. Describe the equivalence classes.
@@ -396,7 +420,7 @@ $a \equiv b \pmod{5}$ is An equivalence relation. Describe the equivalence class
 
 _Reflexive:_ $a - a = 0 = 5 \cdot 0$ So $a \equiv a \pmod{5}$ for all $a$.
 
-_Symmetric:_ If $a \equiv b \pmod{5}$ Then $5 \mid (a - b)$ So $5 \mid (b - a)$Giving
+_Symmetric:_ If $a \equiv b \pmod{5}$ Then $5 \mid (a - b)$ So $5 \mid (b - a)$ Giving
 $b \equiv a \pmod{5}$.
 
 _Transitive:_ If $5 \mid (a - b)$ and $5 \mid (b - c)$ Then $5 \mid (a - b) + (b - c) = a - c$ So
@@ -418,7 +442,7 @@ iff $a \mid b$. Verify this is a partial order and identify the cover relations.
 _Reflexive:_ $a \mid a$ for all $a \in A$. ✓
 
 _Antisymmetric:_ If $a \mid b$ and $b \mid a$ Then $b = ka$ and $a = lb$ for positive $k, l$ So
-$a = lka$Giving $lk = 1$ and $l = k = 1$Hence $a = b$. ✓
+$a = lka$ Giving $lk = 1$ and $l = k = 1$ Hence $a = b$. ✓
 
 _Transitive:_ If $a \mid b$ and $b \mid c$ Then $c = lb = l(ka) = (lk)a$ So $a \mid c$. ✓
 
@@ -440,7 +464,7 @@ connects up to $4$ and $6$; $3$ connects up to $6$; $4$ and $6$ connect up to $1
 A function $f : A \to B$ is a relation where each $a \in A$ appears exactly once as a first element.
 
 - **Injective (one-to-one):** $f(a_1) = f(a_2) \implies a_1 = a_2$.
-- **Surjective (onto):** for every $b \in B$There exists $a \in A$ with $f(a) = b$.
+- **Surjective (onto):** for every $b \in B$ There exists $a \in A$ with $f(a) = b$.
 - **Bijective:** both injective and surjective.
 
 **Theorem 2.1.** If $A$ and $B$ are finite sets, $f : A \to B$ is:
@@ -453,7 +477,7 @@ A function $f : A \to B$ is a relation where each $a \in A$ appears exactly once
 injective. Equivalently, placing $n$ items into $m$ boxes with $n \gt{} m$ forces at least one box
 to contain at least $\lceil n/m \rceil$ items.
 
-**Function composition.** Given $f : A \to B$ and $g : B \to C$The composition $g \circ f : A \to C$
+**Function composition.** Given $f : A \to B$ and $g : B \to C$ The composition $g \circ f : A \to C$
 is defined by $(g \circ f)(a) = g(f(a))$ for all $a \in A$.
 
 **Theorem 2.3.** If $f : A \to B$ and $g : B \to C$ are both injective, then $g \circ f$ is
@@ -486,7 +510,9 @@ countable Is **uncountable**.
 
 _Proof._ The function $f : \mathbb{N} \to \mathbb{Z}$ defined by
 
-$$f(n) = \begin{cases} n/2 & \mathrm{if}\; n\; \mathrm{is}\; even \\ -(n+1)/2 & \mathrm{if}\; n\; \mathrm{is}\; odd \end{cases}$$
+$$
+f(n) = \begin{cases} n/2 & \mathrm{if}\; n\; \mathrm{is}\; even \\ -(n+1)/2 & \mathrm{if}\; n\; \mathrm{is}\; odd \end{cases}
+$$
 
 Is a bijection, enumerating $0, -1, 1, -2, 2, -3, 3, \ldots$ $\blacksquare$
 
@@ -510,21 +536,23 @@ the expansion that does not end in all 9s to avoid dual representations).
 
 Define $s = 0.s_1 s_2 s_3 \ldots$ by
 
-$$s_i = \begin{cases} 5 & \mathrm{if}\; d_{ii} \neq 5 \\ 6 & \mathrm{if}\; d_{ii} = 5 \end{cases}$$
+$$
+s_i = \begin{cases} 5 & \mathrm{if}\; d_{ii} \neq 5 \\ 6 & \mathrm{if}\; d_{ii} = 5 \end{cases}
+$$
 
 Then $s \in [0, 1)$ and $s$ differs from $r_i$ in the $i$-th decimal place for every $i$ So
-$s \notin \\{r_1, r_2, \ldots\\}$Contradicting the assumption that the list was complete. Therefore
+$s \notin \\{r_1, r_2, \ldots\\}$ Contradicting the assumption that the list was complete. Therefore
 $\mathbb{R}$ is uncountable. $\blacksquare$
 
 ## 3. Proof Techniques
 
 ### 3.1 Direct Proof
 
-To prove $P \implies Q$: assume $P$Derive $Q$ by a chain of logical deductions.
+To prove $P \implies Q$: assume $P$ Derive $Q$ by a chain of logical deductions.
 
 **Example.** Prove: if $n$ is odd, then $n^2$ is odd.
 
-_Proof._ Let $n = 2k + 1$. Then $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$Which is odd.
+_Proof._ Let $n = 2k + 1$. Then $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$ Which is odd.
 $\blacksquare$
 
 **Worked Example.** Prove: the sum of any two rational numbers is rational.
@@ -534,9 +562,11 @@ $\blacksquare$
 
 Let $a = p/q$ and $b = r/s$ where $p, q, r, s \in \mathbb{Z}$ and $q, s \neq 0$. Then
 
-$$a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}$$
+$$
+a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}
+$$
 
-Since $ps + rq \in \mathbb{Z}$ and $qs \in \mathbb{Z} \setminus \\{0\\}$The sum $a + b$
+Since $ps + rq \in \mathbb{Z}$ and $qs \in \mathbb{Z} \setminus \\{0\\}$ The sum $a + b$
 is rational. $\blacksquare$
 
 </details>
@@ -556,7 +586,7 @@ _Proof._ Contrapositive: if $n$ is odd, then $n^2$ is odd. This was proved above
 
 Contrapositive: if $n$ is even, then $3n + 2$ is even.
 
-Let $n = 2k$. Then $3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1)$Which is even. $\blacksquare$
+Let $n = 2k$. Then $3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1)$ Which is even. $\blacksquare$
 
 </details>
 
@@ -578,7 +608,7 @@ Contradiction. $\blacksquare$
 
 Suppose $\sqrt{2} = p/q$ in lowest terms, with $p, q \in \mathbb{Z}^+$ and $\gcd(p, q) = 1$.
 Then $2q^2 = p^2$ So $p^2$ is even, hence $p$ is even. Write $p = 2r$. Then $2q^2 = 4r^2$ So
-$q^2 = 2r^2$Hence $q$ is even. But then both $p$ and $q$ are even, Contradicting $\gcd(p, q) = 1$.
+$q^2 = 2r^2$ Hence $q$ is even. But then both $p$ and $q$ are even, Contradicting $\gcd(p, q) = 1$.
 $\blacksquare$
 
 </details>
@@ -598,7 +628,9 @@ _Proof._ Base case: $n = 1$: $1 = 1 \cdot 2 / 2$. True.
 
 Inductive step: Assume $\sum_{i=1}^{k} i = k(k+1)/2$. Then
 
-$$\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}$$
+$$
+\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k+1) = \frac{k(k+1) + 2(k+1)}{2} = \frac{(k+1)(k+2)}{2}
+$$
 
 $\blacksquare$
 
@@ -630,7 +662,9 @@ _Base case:_ $n = 0$: $2^0 = 1 = 2^{0+1} - 1$. ✓
 
 _Inductive step:_ Assume $\sum_{i=0}^{k} 2^i = 2^{k+1} - 1$. Then
 
-$$\sum_{i=0}^{k+1} 2^i = 2^{k+1} - 1 + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1$$
+$$
+\sum_{i=0}^{k+1} 2^i = 2^{k+1} - 1 + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1
+$$
 
 $\blacksquare$
 
@@ -660,7 +694,7 @@ $m \in S$. Therefore $S = \emptyset$ and $P(n)$ holds for all $n \geq 0$.
 
 _Proof (induction implies WOP)._ Let $S \subseteq \mathbb{N}$ be nonempty. We prove by
 induction that If $S \cap \\{0, 1, \ldots, n\\} \neq \emptyset$ Then $S$ has a least element. For
-$n = 0$, $S$ Contains $0$Which is the least element. Assume the claim for $n = k$. If
+$n = 0$, $S$ Contains $0$ Which is the least element. Assume the claim for $n = k$. If
 $0 \in S \cap \\{0, \ldots, k+1\\}$ Then $0$ is the least element. Otherwise
 $S \cap \\{0, \ldots, k+1\\} = S \cap \\{1, \ldots, k+1\\}$ And by The induction hypothesis applied
 to the shifted set, a least element exists. $\blacksquare$
@@ -677,7 +711,7 @@ Suppose $S \neq \emptyset$. By WOP, $S$ has a least element $m$.
 Let $2^k$ be the largest power of 2 not exceeding $m$ (so $2^k \leq m \lt 2^{k+1}$). Then
 $m - 2^k \geq 0$ and $m - 2^k \lt 2^k$. If $m - 2^k = 0$ Then $m = 2^k$ is a single power of 2,
 Contradicting $m \in S$. If $m - 2^k \gt 0$ Then $m - 2^k \lt m$ So $m - 2^k \notin S$ (by minimality
-Of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
+of $m$). Hence $m - 2^k$ is a sum of distinct powers of 2, all of which are $\lt 2^k$. Adding $2^k$
 Gives $m$ as a sum of distinct powers of 2, contradicting $m \in S$. Therefore $S = \emptyset$.
 $\blacksquare$
 
@@ -702,7 +736,9 @@ $n$.
 
 **Theorem 4.1 (Binomial Theorem).**
 
-$$(x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r$$
+$$
+(x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r
+$$
 
 **Theorem 4.2 (Pascal's Identity).** $\binom{n}{r} = \binom{n-1}{r} + \binom{n-1}{r-1}$
 
@@ -714,7 +750,9 @@ all $r$ From $\\{1, \ldots, n-1\\}$). $\blacksquare$
 
 **Theorem 4.3 (Inclusion-Exclusion).** For finite sets $A_1, \ldots, A_n$:
 
-$$\left|\bigcup_{i=1}^{n} A_i\right| = \sum_i |A_i| - \sum_{i \lt j} |A_i \cap A_j| + \sum_{i \lt j \lt k} |A_i \cap A_j \cap A_k| - \cdots + (-1)^{n+1}|A_1 \cap \cdots \cap A_n|$$
+$$
+\left|\bigcup_{i=1}^{n} A_i\right| = \sum_i |A_i| - \sum_{i \lt j} |A_i \cap A_j| + \sum_{i \lt j \lt k} |A_i \cap A_j \cap A_k| - \cdots + (-1)^{n+1}|A_1 \cap \cdots \cap A_n|
+$$
 
 _Proof (for two sets)._ Every element of $A_1 \cup A_2$ is in $A_1$ or $A_2$ or both. Counting
 $|A_1| + |A_2|$ counts elements in $A_1 \cap A_2$ twice, so we subtract $|A_1 \cap A_2|$ once:
@@ -795,7 +833,7 @@ Directly by stars and bars: $\binom{20 + 4 - 1}{4 - 1} = \binom{23}{3} = 1771$. 
 at Least one box contains at least $\lceil n/k \rceil$ objects.
 
 _Proof._ If every box contained at most $\lceil n/k \rceil - 1$ objects, the total would be at most
-$k(\lceil n/k \rceil - 1) \lt k \cdot n/k = n$Contradicting that there are $n$ objects.
+$k(\lceil n/k \rceil - 1) \lt k \cdot n/k = n$ Contradicting that there are $n$ objects.
 $\blacksquare$
 
 **Worked Example.** In a class of 400 students, at least how many were born in the same month?
@@ -808,7 +846,7 @@ at least $\lceil 400/12 \rceil = \lceil 33.33\ldots \rceil = 34$ students.
 
 </details>
 
-**Worked Example.** Show that among any $n + 1$ integers from $\\{1, 2, \ldots, 2n\\}$Two of them
+**Worked Example.** Show that among any $n + 1$ integers from $\\{1, 2, \ldots, 2n\\}$ Two of them
 Differ by exactly $n$.
 
 <details>
@@ -818,7 +856,7 @@ Partition $\\{1, 2, \ldots, 2n\\}$ into $n$ pigeonholes: $\\{1, n+1\\}$, $\\{2, 
 $\\{n, 2n\\}$. Each pair sums to $n + (n+k) = 2n + k$... Let me rephrase.
 
 Partition into $\\{1, n+1\\}$, $\\{2, n+2\\}$, $\ldots$, $\\{n, 2n\\}$. These are $n$ disjoint sets.
-If we select $n + 1$ integers from $\\{1, \ldots, 2n\\}$By the pigeonhole principle two must lie in
+If we select $n + 1$ integers from $\\{1, \ldots, 2n\\}$ By the pigeonhole principle two must lie in
 the Same set $\\{i, n+i\\}$ And their difference is $(n + i) - i = n$. $\blacksquare$
 
 </details>
@@ -829,19 +867,19 @@ the Same set $\\{i, n+i\\}$ And their difference is $(n + i) - i = n$. $\blacksq
 <details>
 <summary>Solution</summary>
 
-Let $a_1, a_2, \ldots, a_{n^2+1}$ be the sequence. For each $a_i$Let $d_i$ be the length of the
+Let $a_1, a_2, \ldots, a_{n^2+1}$ be the sequence. For each $a_i$ Let $d_i$ be the length of the
 Longest increasing subsequence starting at $a_i$ And $e_i$ the length of the longest decreasing
 Subsequence starting at $a_i$.
 
 Suppose for contradiction that every monotone subsequence has length at most $n$. Then
 $1 \leq d_i \leq n$ and $1 \leq e_i \leq n$ So there are at most $n^2$ distinct ordered pairs
 $(d_i, e_i)$. Since we have $n^2 + 1$ elements, by the pigeonhole principle two indices $i \lt j$
-Have $(d_i, e_i) = (d_j, e_j)$.
+have $(d_i, e_i) = (d_j, e_j)$.
 
 If $a_i \lt a_j$ Then $d_i \geq d_j + 1$ (append $a_i$ before the increasing subsequence starting At
 $a_j$), contradicting $d_i = d_j$.
 
-If $a_i \gt a_j$ Then $e_i \geq e_j + 1$Contradicting $e_i = e_j$.
+If $a_i \gt a_j$ Then $e_i \geq e_j + 1$ Contradicting $e_i = e_j$.
 
 Either way we have a contradiction. $\blacksquare$
 
@@ -858,7 +896,7 @@ at most $m$ objects, then the total number of objects is at most $km$.
 <summary>Solution</summary>
 
 There are 3 colours (boxes). By the generalised pigeonhole principle, drawing $n$ socks guarantees
-At least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$Giving
+at least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$ Giving
 $n \geq 10$.
 
 With 9 socks it is possible to have 3 of each colour (no colour reaches 4). With 10 socks, one
@@ -883,7 +921,9 @@ Pigeonhole principle, at least two people have the same count. $\blacksquare$
 
 The $n$-th **Catalan number** is
 
-$$C_n = \frac{1}{n+1}\binom{2n}{n} = \frac{(2n)!}{(n+1)!\,n!}$$
+$$
+C_n = \frac{1}{n+1}\binom{2n}{n} = \frac{(2n)!}{(n+1)!\,n!}
+$$
 
 The first few values: $C_0 = 1$, $C_1 = 1$, $C_2 = 2$, $C_3 = 5$, $C_4 = 14$, $C_5 = 42$.
 
@@ -896,7 +936,9 @@ The first few values: $C_0 = 1$, $C_1 = 1$, $C_2 = 2$, $C_3 = 5$, $C_4 = 14$, $C
 
 **Recurrence.** $C_0 = 1$ and for $n \geq 1$:
 
-$$C_n = \sum_{i=0}^{n-1} C_i \, C_{n-1-i}$$
+$$
+C_n = \sum_{i=0}^{n-1} C_i \, C_{n-1-i}
+$$
 
 **Worked Example.** Verify $C_3 = 5$ by listing all valid sequences of 3 pairs of parentheses.
 
@@ -913,9 +955,13 @@ Checking: $C_3 = \frac{1}{4}\binom{6}{3} = \frac{1}{4} \cdot 20 = 5$. ✓
 
 The **ordinary generating function (OGF)** of a sequence $\\{a_n\\}$ is
 
-$$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
+$$
+G(x) = \sum_{n=0}^{\infty} a_n x^n
+$$
 
 **Common generating functions:**
+
+<div class="table-wrap">
 
 | Sequence $a_n$   | Generating function $G(x)$ |
 | ---------------- | -------------------------- |
@@ -924,6 +970,8 @@ $$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
 | $\binom{n+k}{k}$ | $\dfrac{1}{(1-x)^{k+1}}$   |
 | $n$              | $\dfrac{x}{(1-x)^2}$       |
 | $n^2$            | $\dfrac{x(1+x)}{(1-x)^3}$  |
+
+</div>
 
 **Key operations.** If $A(x)$ generates $\\{a_n\\}$ and $B(x)$ generates $\\{b_n\\}$:
 
@@ -939,9 +987,13 @@ And 5p coins.
 
 The generating function is
 
-$$G(x) = \underbrace{(1 + x + x^2 + \cdots)}_{\mathrm{1p\; coins{}} \cdot \underbrace{(1 + x^2 + x^4 + \cdots)}_{\mathrm{2p\; coins{}} \cdot \underbrace{(1 + x^5 + x^{10} + \cdots)}_{\mathrm{5p\; coins{}}$$
+$$
+G(x) = \underbrace{(1 + x + x^2 + \cdots)}_{\mathrm{1p\; coins{}} \cdot \underbrace{(1 + x^2 + x^4 + \cdots)}_{\mathrm{2p\; coins{}} \cdot \underbrace{(1 + x^5 + x^{10} + \cdots)}_{\mathrm{5p\; coins{}}
+$$
 
-$$= \frac{1}{1-x} \cdot \frac{1}{1-x^2} \cdot \frac{1}{1-x^5}$$
+$$
+= \frac{1}{1-x} \cdot \frac{1}{1-x^2} \cdot \frac{1}{1-x^5}
+$$
 
 The coefficient of $x^n$ in the expansion gives the number of ways. For example, expanding the First
 few terms: $1 + x + 2x^2 + 2x^3 + 3x^4 + 4x^5 + \cdots$ So there are 4 ways to make 5p (5×1p; 3×1p +
@@ -960,7 +1012,7 @@ $E \subseteq V \times V$.
 - **Directed graph (digraph):** edges have direction.
 - **Weighted graph:** edges have weights.
 
-The **degree** of a vertex $v$, $\deg(v)$Is the number of edges incident to $v$.
+The **degree** of a vertex $v$, $\deg(v)$ Is the number of edges incident to $v$.
 
 **Theorem 5.1 (Handshaking Lemma).** $\sum_{v \in V} \deg(v) = 2|E|$.
 
@@ -971,7 +1023,7 @@ _Proof._ Each edge contributes 1 to the degree of each of its two endpoints. $\b
 ### 5.2 Paths, Cycles, and Connectivity
 
 A **walk** is a sequence of vertices where consecutive vertices are adjacent. A **path** is a walk
-With no repeated vertices. A **cycle** is a path that returns to its starting vertex.
+with no repeated vertices. A **cycle** is a path that returns to its starting vertex.
 
 A graph is **connected** if there is a path between every pair of vertices. A **connected
 component** Is a maximal connected subgraph.
@@ -998,7 +1050,9 @@ A graph is **planar** if it can be drawn in the plane with no edge crossings.
 **Theorem 5.5 (Euler's Formula for Planar Graphs).** For a connected planar graph drawn in the plane
 With $V$ vertices, $E$ edges, and $F$ faces:
 
-$$V - E + F = 2$$
+$$
+V - E + F = 2
+$$
 
 _Proof sketch._ Build the graph edge by edge. Starting from a single vertex ($V = 1$, $E = 0$,
 $F = 1$), The quantity $V - E + F = 2$ is preserved when adding an edge: if the edge connects two
@@ -1008,7 +1062,7 @@ $\blacksquare$
 **Corollary 5.6.** For a simple planar graph with $V \geq 3$: $E \leq 3V - 6$.
 
 _Proof._ Every face has at least 3 edges on its boundary, and every edge borders at most 2 faces, So
-$3F \leq 2E$. By Euler's formula, $F = 2 - V + E$Giving $3(2 - V + E) \leq 2E$I.e., $E \leq 3V - 6$.
+$3F \leq 2E$. By Euler's formula, $F = 2 - V + E$ Giving $3(2 - V + E) \leq 2E$ I.e., $E \leq 3V - 6$.
 $\blacksquare$
 
 **Corollary 5.7.** $K_5$ and $K_{3,3}$ are not planar.
@@ -1031,9 +1085,9 @@ A graph $H$ is a subdivision of $G$ if $H$ can be obtained from $G$ by subdividi
 
 $K_{3,3}$ has $V = 6$ vertices and $E = 9$ edges. It is bipartite (partition sizes 3 and 3), so it
 Contains no triangles. Every face in a planar embedding must therefore be bounded by at least 4
-edges, Giving $4F \leq 2E$I.e., $F \leq 9/2 = 4.5$.
+edges, Giving $4F \leq 2E$ I.e., $F \leq 9/2 = 4.5$.
 
-But Euler's formula gives $F = E - V + 2 = 9 - 6 + 2 = 5$. Since $5 \gt 4.5$No planar embedding
+But Euler's formula gives $F = E - V + 2 = 9 - 6 + 2 = 5$. Since $5 \gt 4.5$ No planar embedding
 Exists. $\blacksquare$
 
 </details>
@@ -1061,7 +1115,9 @@ $k$-colourings of $G$.
 
 **Deletion-contraction recurrence.** For any edge $e$ of $G$:
 
-$$P(G, k) = P(G - e, k) - P(G / e, k)$$
+$$
+P(G, k) = P(G - e, k) - P(G / e, k)
+$$
 
 Where $G - e$ is $G$ with edge $e$ deleted, and $G / e$ is $G$ with $e$ contracted (its endpoints
 Merged).
@@ -1078,7 +1134,7 @@ Pick edge $e = v_1v_2$.
 
 $G - e$ is a path on 4 vertices (a tree): $P(G - e, k) = k(k-1)^3$.
 
-$G / e$ merges $v_1$ and $v_2$Yielding $C_3$ (triangle): $P(C_3, k) = k(k-1)(k-2)$.
+$G / e$ merges $v_1$ and $v_2$ Yielding $C_3$ (triangle): $P(C_3, k) = k(k-1)(k-2)$.
 
 Therefore $P(C_4, k) = k(k-1)^3 - k(k-1)(k-2) = k(k-1)[(k-1)^2 - (k-2)] = k(k-1)(k^2 - 3k + 3)$.
 
@@ -1096,7 +1152,7 @@ $K_n$ (complete graph on $n$ vertices): every pair of vertices is adjacent, so a
 Receive distinct colours. Hence $\chi(K_n) = n$.
 
 $K_{m,n}$ (complete bipartite graph): no two vertices within the same partition are adjacent, so we
-Can colour all vertices in the first partition with colour 1 and all in the second with colour 2.
+can colour all vertices in the first partition with colour 1 and all in the second with colour 2.
 Hence $\chi(K_{m,n}) = 2$ (for $m, n \geq 1$).
 
 </details>
@@ -1118,7 +1174,7 @@ Checking: $P(K_3, 2) = 2 \cdot 1 \cdot 0 = 0$ (not 2-colourable, as expected). $
 ### 5.6 Euler and Hamilton Paths
 
 An **Euler path** visits every edge exactly once. An **Euler circuit** is an Euler path that starts
-And ends at the same vertex.
+and ends at the same vertex.
 
 **Theorem 5.14.** A connected graph has an Euler circuit if and only if every vertex has even
 degree. It has an Euler path (but not circuit) if and only if exactly two vertices have odd degree.
@@ -1136,7 +1192,7 @@ yields an Euler circuit of the full graph. $\blacksquare$
 <summary>Solution</summary>
 
 $K_{2,3}$ has 5 vertices. The two vertices in the first partition each have degree 3 (connected to
-All three in the second partition). The three vertices in the second partition each have degree 2.
+all three in the second partition). The three vertices in the second partition each have degree 2.
 
 Vertices of odd degree: two (each of degree 3). Since exactly two vertices have odd degree,
 $K_{2,3}$ has an Euler path (starting at one odd-degree vertex, ending at the other) but not an
@@ -1163,7 +1219,7 @@ Note that Dirac's theorem is a corollary of Ore’s theorem.
 
 $K_{2,3}$ has 5 vertices. A Hamilton circuit must visit all 5 vertices and return. Label the
 Partitions as $A = \\{a_1, a_2\\}$ and $B = \\{b_1, b_2, b_3\\}$. Any cycle in a bipartite graph
-alternates Between the two partitions. A Hamilton cycle would alternate between $A$ and $B$Requiring
+alternates Between the two partitions. A Hamilton cycle would alternate between $A$ and $B$ Requiring
 $|A| = |B|$. But $|A| = 2 \neq 3 = |B|$ So no Hamilton circuit exists.
 
 However, $K_{2,3}$ does have Hamilton paths (e.g., $a_1, b_1, a_2, b_2, b_3$ -- wait, this doesn't
@@ -1207,14 +1263,16 @@ Endpoint). A vertex is **matched** if it is an endpoint of an edge in $M$; other
 
 **Theorem 5.17 (Hall's Marriage Theorem, 1935).** Let $G = (V, E)$ be a bipartite graph with
 Partitions $X$ and $Y$. There exists a matching that covers every vertex in $X$ if and only if for
-Every subset $S \subseteq X$
+every subset $S \subseteq X$
 
-$$|N(S)| \geq |S|$$
+$$
+|N(S)| \geq |S|
+$$
 
 Where $N(S) = \\{y \in Y : \exists\, x \in S\; \mathrm{with{}\; xy \in E\\}$ is the neighbourhood of
 $S$.
 
-_Proof (necessity)._ If a matching covers $X$Each $x \in S$ is matched to a distinct $y \in N(S)$ So
+_Proof (necessity)._ If a matching covers $X$ Each $x \in S$ is matched to a distinct $y \in N(S)$ So
 $|N(S)| \geq |S|$.
 
 _Proof (sufficiency by induction on $|X|$)._ Base case $|X| = 1$: Hall's condition gives
@@ -1223,15 +1281,17 @@ $|N(\\{x\\})| \geq 1$ So $x$ has a neighbour, and we can match $x$ to it.
 Inductive step. Consider two cases.
 
 _Case 1:_ For every nonempty proper subset $S \subsetneq X$, $|N(S)| \gt |S|$. Pick any edge $xy$.
-In $G' = G - \\{x, y\\}$Hall’s condition still holds (removing one element from each side preserves
+In $G' = G - \\{x, y\\}$ Hall’s condition still holds (removing one element from each side preserves
 the Strict inequality). By the induction hypothesis, $X \setminus \\{x\\}$ can be matched in $G'$.
 Adding $xy$ Gives the desired matching.
 
 _Case 2:_ There exists a nonempty proper $T \subsetneq X$ with $|N(T)| = |T|$. Match $T$ to $N(T)$
-By the induction hypothesis. In $G'' = G - (T \cup N(T))$For any $S \subseteq X \setminus T$
+by the induction hypothesis. In $G'' = G - (T \cup N(T))$ For any $S \subseteq X \setminus T$
 $N_{G''}(S) = N_G(S \cup T) \setminus N(T)$ So
 
-$$|N_{G''}(S)| = |N_G(S \cup T)| - |N(T)| \geq |S \cup T| - |T| = |S|$$
+$$
+|N_{G''}(S)| = |N_G(S \cup T)| - |N(T)| \geq |S \cup T| - |T| = |S|
+$$
 
 Where the inequality uses Hall's condition on $S \cup T$ in $G$. By the induction hypothesis,
 $X \setminus T$ can be matched in $G''$. Combining with the matching on $T$ gives the result.
@@ -1259,7 +1319,7 @@ $d$--$4$.
 
 ### 5.8 Network Flows
 
-A **flow network** is a directed graph $G = (V, E)$ with a **source** $s$A **sink** $t$ And a
+A **flow network** is a directed graph $G = (V, E)$ with a **source** $s$ A **sink** $t$ And a
 **capacity** function $c : E \to \mathbb{R}_{\geq 0}$. A **flow**
 $f : E \to \mathbb{R}_{\geq 0}$ Satisfies:
 
@@ -1282,7 +1342,7 @@ backward edges. Let $S$ be the set of vertices reachable from $s$ in $G_{f^*}$ v
 Positive residual capacity. Since $f^*$ is maximum, $t \notin S$ (otherwise we could augment the
 Flow). The cut $(S, V \setminus S)$ has capacity exactly $|f^*|$ (all forward edges are saturated,
 All backward edges have zero flow). Therefore $|f^*| = c(S, V \setminus S) \geq$ minimum cut
-Capacity $\geq |f^*|$Giving equality. $\blacksquare$
+Capacity $\geq |f^*|$ Giving equality. $\blacksquare$
 
 **Theorem 5.19 (Integrality Theorem).** If all capacities are integers, there exists a maximum flow
 Where every $f(e)$ is an integer.
@@ -1300,27 +1360,31 @@ Guaranteeing termination.
 A **recurrence relation** defines a sequence $\{a_n\}$ by expressing $a_n$ in terms of previous
 terms.
 
-**Example.** Fibonacci: $F_n = F_{n-1} + F_{n-2}$With $F_0 = 0$, $F_1 = 1$.
+**Example.** Fibonacci: $F_n = F_{n-1} + F_{n-2}$ With $F_0 = 0$, $F_1 = 1$.
 
 ### 6.2 Linear Homogeneous Recurrences with Constant Coefficients
 
-$$a_n + c_1 a_{n-1} + \cdots + c_k a_{n-k} = 0$$
+$$
+a_n + c_1 a_{n-1} + \cdots + c_k a_{n-k} = 0
+$$
 
 **Solution method.** Form the **characteristic equation**:
 
-$$r^k + c_1 r^{k-1} + \cdots + c_k = 0$$
+$$
+r^k + c_1 r^{k-1} + \cdots + c_k = 0
+$$
 
 **Case 1 (distinct roots).** If $r_1, \ldots, r_k$ are distinct, then
 $a_n = A_1 r_1^n + \cdots + A_k r_k^n$.
 
-**Case 2 (repeated roots).** If $r$ has multiplicity $m$The contribution is
+**Case 2 (repeated roots).** If $r$ has multiplicity $m$ The contribution is
 $(A_1 + A_2 n + \cdots + A_m n^{m-1}) r^n$.
 
 ### 6.3 Worked Example
 
 **Problem.** Solve $a_n = 5a_{n-1} - 6a_{n-2}$ with $a_0 = 1$, $a_1 = 4$.
 
-_Solution._ Characteristic equation: $r^2 - 5r + 6 = 0$Giving $r_1 = 2$, $r_2 = 3$.
+_Solution._ Characteristic equation: $r^2 - 5r + 6 = 0$ Giving $r_1 = 2$, $r_2 = 3$.
 
 $a_n = A \cdot 2^n + B \cdot 3^n$.
 
@@ -1347,7 +1411,9 @@ So $a_n = (1 + 2n) \cdot 2^n$. $\blacksquare$
 
 The **generating function** of a sequence $\{a_n\}$ is
 
-$$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
+$$
+G(x) = \sum_{n=0}^{\infty} a_n x^n
+$$
 
 **Example.** The generating function for $a_n = 1$ (all ones) is $G(x) = 1/(1-x)$.
 
@@ -1364,9 +1430,13 @@ $F_n = F_{n-1} + F_{n-2}$ With $F_0 = 0$, $F_1 = 1$.
 
 Let $G(x) = \sum_{n=0}^{\infty} F_n x^n$.
 
-$$G(x) = x + \sum_{n=2}^{\infty} (F_{n-1} + F_{n-2}) x^n = x + x(G(x) - F_0) + x^2 G(x) = x + xG(x) + x^2 G(x)$$
+$$
+G(x) = x + \sum_{n=2}^{\infty} (F_{n-1} + F_{n-2}) x^n = x + x(G(x) - F_0) + x^2 G(x) = x + xG(x) + x^2 G(x)
+$$
 
-$$G(x)(1 - x - x^2) = x \implies G(x) = \frac{x}{1 - x - x^2}$$
+$$
+G(x)(1 - x - x^2) = x \implies G(x) = \frac{x}{1 - x - x^2}
+$$
 
 Factor: $1 - x - x^2 = (1 - \alpha x)(1 - \beta x)$ where $\alpha = (1 + \sqrt{5})/2$ and
 $\beta = (1 - \sqrt{5})/2$.
@@ -1384,16 +1454,20 @@ $F_n = \frac{1}{\sqrt{5}}(\alpha^n - \beta^n)$ (Binet's formula). $\blacksquare$
 
 Let $G(x) = \sum_{n=0}^{\infty} a_n x^n$.
 
-$$G(x) = \sum_{n=1}^{\infty} (2a_{n-1} + 1) x^n = 2x G(x) + \sum_{n=1}^{\infty} x^n = 2x G(x) + \frac{x}{1-x}$$
+$$
+G(x) = \sum_{n=1}^{\infty} (2a_{n-1} + 1) x^n = 2x G(x) + \sum_{n=1}^{\infty} x^n = 2x G(x) + \frac{x}{1-x}
+$$
 
-$$(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}$$
+$$
+(1 - 2x) G(x) = \frac{x}{1-x} \implies G(x) = \frac{x}{(1-x)(1-2x)}
+$$
 
 Partial fractions: $\frac{x}{(1-x)(1-2x)} = \frac{A}{1-x} + \frac{B}{1-2x}$.
 
 $x = A(1-2x) + B(1-x)$. Setting $x = 0$: $A + B = 0$ So $B = -A$. Setting $x = 1$: $1 = -A$ So
 $A = -1$, $B = 1$.
 
-$G(x) = \frac{1}{1-2x} - \frac{1}{1-x}$Giving $a_n = 2^n - 1$. $\blacksquare$
+$G(x) = \frac{1}{1-2x} - \frac{1}{1-x}$ Giving $a_n = 2^n - 1$. $\blacksquare$
 
 </details>
 
@@ -1406,7 +1480,9 @@ manipulated algebraically.
 
 The Master Theorem provides asymptotic solutions to recurrences of the form
 
-$$T(n) = a\,T(n/b) + f(n)$$
+$$
+T(n) = a\,T(n/b) + f(n)
+$$
 
 Where $a \geq 1$, $b \gt 1$ are constants and $f(n)$ is asymptotically positive. Define
 $c_{\mathrm{crit{}} = \log_b a$ (the **critical exponent**).
@@ -1430,7 +1506,7 @@ condition**), then $T(n) = \Theta(f(n))$.
 
 $a = 3$, $b = 2$, $f(n) = n^2$. Critical exponent: $c_{\mathrm{crit{}} = \log_2 3 \approx 1.585$.
 
-Since $f(n) = n^2 = \Omega(n^c)$ for any $c \lt 2$ And $2 \gt 1.585 = c_{\mathrm{crit{}}$We are in
+Since $f(n) = n^2 = \Omega(n^c)$ for any $c \lt 2$ And $2 \gt 1.585 = c_{\mathrm{crit{}}$ We are in
 Case 3 (provided the regularity condition holds). Check:
 $3 \cdot (n/2)^2 = 3n^2/4 = 0.75\, n^2 \leq \delta\, n^2$ For $\delta = 0.75 \lt 1$. ✓
 
@@ -1465,10 +1541,12 @@ Therefore $T(n) = \Theta(n^2)$.
 </details>
 
 **Proof sketch of the Master Theorem.** Expand the recurrence tree. At level $j$ (root is level 0),
-There are $a^j$ subproblems, each of size $n/b^j$Each contributing $f(n/b^j)$ work. The tree has
+There are $a^j$ subproblems, each of size $n/b^j$ Each contributing $f(n/b^j)$ work. The tree has
 $\log_b n$ levels, with $a^{\log_b n} = n^{c_{\mathrm{crit{}}}$ leaves. The total work is
 
-$$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a^j \, f(n/b^j)}$$
+$$
+T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a^j \, f(n/b^j)}
+$$
 
 - **Case 1:** $f(n) = O(n^c)$ with $c \lt c_{\mathrm{crit{}}$. The sum is dominated by the leaves,
   giving $T(n) = \Theta(n^{c_{\mathrm{crit{}}})$.
@@ -1488,12 +1566,16 @@ $$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | $p$ | $q$ | $p \implies q$ | $q \implies p$ | disjunction |
 | --- | --- | -------------- | -------------- | ----------- |
 | T   | T   | T              | T              | T           |
 | T   | F   | F              | T              | T           |
 | F   | T   | T              | F              | T           |
 | F   | F   | T              | T              | T           |
+
+</div>
 
 All rows give $T$ So it is a tautology.
 
@@ -1516,14 +1598,14 @@ If you get this wrong, revise: Section 1.6.
 
 </details>
 
-**Problem 3.** Negate: "For every real number $x$There exists a real number $y$ such that $y \gt x$."
+**Problem 3.** Negate: "For every real number $x$ There exists a real number $y$ such that $y \gt x$."
 
 <details>
 <summary>Solution</summary>
 
 Original: $\forall x\, \exists y\, (y \gt x)$.
 
-Negation: $\exists x\, \forall y\, (y \leq x)$I.e., "there exists a real number $x$ such that every Real number $y$ satisfies $y \leq x$."
+Negation: $\exists x\, \forall y\, (y \leq x)$ I.e., "there exists a real number $x$ such that every Real number $y$ satisfies $y \leq x$."
 
 If you get this wrong, revise: Section 1.2.
 
@@ -1535,10 +1617,10 @@ If you get this wrong, revise: Section 1.2.
 <summary>Solution</summary>
 
 ($\Rightarrow$) Assume $A \subseteq B$. Let $x \in A \cap B^c$. Then $x \in A$ and $x \notin B$. But
-$A \subseteq B$ implies $x \in B$Contradiction. So $A \cap B^c = \emptyset$.
+$A \subseteq B$ implies $x \in B$ Contradiction. So $A \cap B^c = \emptyset$.
 
 ($\Leftarrow$) Assume $A \cap B^c = \emptyset$. Let $x \in A$. If $x \notin B$ Then $x \in B^c$ So
-$x \in A \cap B^c = \emptyset$Contradiction. Hence $x \in B$Proving $A \subseteq B$. $\blacksquare$
+$x \in A \cap B^c = \emptyset$ Contradiction. Hence $x \in B$ Proving $A \subseteq B$. $\blacksquare$
 
 If you get this wrong, revise: Section 2.1.
 
@@ -1550,7 +1632,7 @@ even Is an equivalence relation. How many equivalence classes are there?
 <details>
 <summary>Solution</summary>
 
-_Reflexive:_ $a - a = 0$Which is even. ✓ _Symmetric:_ If $a - b$ is even, then $b - a = -(a - b)$ is
+_Reflexive:_ $a - a = 0$ Which is even. ✓ _Symmetric:_ If $a - b$ is even, then $b - a = -(a - b)$ is
 even. ✓ _Transitive:_ If $a - b$ and $b - c$ are even, then $a - c = (a - b) + (b - c)$ is even. ✓
 
 The equivalence classes are $[0] = \\{\mathrm{even\; integers{}\\}$ and
@@ -1574,7 +1656,7 @@ $(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 1$.
 Note $g \circ f \neq f \circ g$ So composition is not commutative.
 
 $g \circ f$ is not injective: $(g \circ f)(0) = 1$ and $(g \circ f)(-1) = 4(-1)^2 + 4(-1) + 1 = 1$
-But $0 \neq -1$.
+but $0 \neq -1$.
 
 If you get this wrong, revise: Section 2.3.
 
@@ -1614,7 +1696,7 @@ If you get this wrong, revise: Section 3.1.
 <details>
 <summary>Solution</summary>
 
-By contrapositive: assume $n$ is even, so $n = 2k$. Then $3n + 2 = 6k + 2 = 2(3k + 1)$Which is Even.
+By contrapositive: assume $n$ is even, so $n = 2k$. Then $3n + 2 = 6k + 2 = 2(3k + 1)$ Which is Even.
 $\blacksquare$
 
 If you get this wrong, revise: Section 3.2.
@@ -1626,9 +1708,9 @@ If you get this wrong, revise: Section 3.2.
 <details>
 <summary>Solution</summary>
 
-Suppose $\sqrt{3} = p/q$ in lowest terms. Then $3q^2 = p^2$ So $3 \mid p^2$Hence $3 \mid p$. Write
-$p = 3r$. Then $3q^2 = 9r^2$ So $q^2 = 3r^2$Giving $3 \mid q^2$ and $3 \mid q$. But then
-$\gcd(p, q) \geq 3$Contradicting lowest terms. $\blacksquare$
+Suppose $\sqrt{3} = p/q$ in lowest terms. Then $3q^2 = p^2$ So $3 \mid p^2$ Hence $3 \mid p$. Write
+$p = 3r$. Then $3q^2 = 9r^2$ So $q^2 = 3r^2$ Giving $3 \mid q^2$ and $3 \mid q$. But then
+$\gcd(p, q) \geq 3$ Contradicting lowest terms. $\blacksquare$
 
 If you get this wrong, revise: Section 3.3.
 
@@ -1643,7 +1725,9 @@ _Base case:_ $n = 0$: $2^0 = 1 = 2^1 - 1$. ✓
 
 _Inductive step:_ Assume $\sum_{i=0}^{k} 2^i = 2^{k+1} - 1$. Then
 
-$$\sum_{i=0}^{k+1} 2^i = (2^{k+1} - 1) + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1$$
+$$
+\sum_{i=0}^{k+1} 2^i = (2^{k+1} - 1) + 2^{k+1} = 2 \cdot 2^{k+1} - 1 = 2^{k+2} - 1
+$$
 
 $\blacksquare$
 
@@ -1755,7 +1839,7 @@ If you get this wrong, revise: Section 5.5.
 </details>
 
 **Problem 19.** In the bipartite graph with partitions $X = \\{1, 2, 3\\}$ and
-$Y = \\{a, b, c, d\\}$ And edges $1$--$a,b$; $2$--$b,c$; $3$--$c,d$Verify Hall's condition and find
+$Y = \\{a, b, c, d\\}$ And edges $1$--$a,b$; $2$--$b,c$; $3$--$c,d$ Verify Hall's condition and find
 a matching covering $X$.
 
 <details>
@@ -1776,13 +1860,13 @@ If you get this wrong, revise: Section 5.7.
 <details>
 <summary>Solution</summary>
 
-Characteristic equation: $r^2 - 3r + 2 = 0$Giving $(r - 1)(r - 2) = 0$ So $r_1 = 1$, $r_2 = 2$.
+Characteristic equation: $r^2 - 3r + 2 = 0$ Giving $(r - 1)(r - 2) = 0$ So $r_1 = 1$, $r_2 = 2$.
 
 $a_n = A \cdot 1^n + B \cdot 2^n = A + B \cdot 2^n$.
 
 $a_0 = A + B = 0 \implies A = -B$. $a_1 = A + 2B = 1 \implies -B + 2B = B = 1$.
 
-So $A = -1$, $B = 1$Giving $a_n = 2^n - 1$. $\blacksquare$
+So $A = -1$, $B = 1$ Giving $a_n = 2^n - 1$. $\blacksquare$
 
 If you get this wrong, revise: Section 6.2 and Section 6.3.
 
@@ -1805,9 +1889,13 @@ If you get this wrong, revise: Section 6.2 and Section 6.3.
 
 Inductive step: assume true for $n$. For $n+1$:
 
-$$\sum_{k=1}^{n+1} k^2 = \frac{n(n+1)(2n+1)}{6} + (n+1)^2 = \frac{n(n+1)(2n+1) + 6(n+1)^2}{6}$$
+$$
+\sum_{k=1}^{n+1} k^2 = \frac{n(n+1)(2n+1)}{6} + (n+1)^2 = \frac{n(n+1)(2n+1) + 6(n+1)^2}{6}
+$$
 
-$$= \frac{(n+1)(2n^2 + n + 6n + 6)}{6} = \frac{(n+1)(n+2)(2n+3)}{6}$$
+$$
+= \frac{(n+1)(2n^2 + n + 6n + 6)}{6} = \frac{(n+1)(n+2)(2n+3)}{6}
+$$
 
 Which matches the formula with $n$ replaced by $n+1$. ✓
 
@@ -1860,13 +1948,17 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                             | Site        | Link                                                                                   |
 | --------------------------------- | ----------- | -------------------------------------------------------------------------------------- |
 | Theory of Computation             | WyattsNotes | [View](/theory-of-computation/)                               |
-| Abstract Algebra                  | WyattsNotes | [View](https://mathematics.wyattau.com/abstract-algebra/)                                  |
-| Number Theory                     | WyattsNotes | [View](https://mathematics.wyattau.com/number-theory/)                                     |
+| Abstract Algebra                  | WyattsNotes | [View](https://mathematics.wyattau.com/1-abstract-algebra/)                                  |
+| Number Theory                     | WyattsNotes | [View](https://mathematics.wyattau.com/7-number-theory/)                                     |
 | Discrete Mathematics, MIT 6.042J | MIT OCW     | [View](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) |
 | AP Calculus                       | AP          | [View](https://ib.wyattau.com/maths/maths/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

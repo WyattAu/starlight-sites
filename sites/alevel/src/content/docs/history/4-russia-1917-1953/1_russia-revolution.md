@@ -41,9 +41,11 @@ After winning a brutal Civil War (1918-1921), the Bolsheviks established the Sov
 death in 1924 triggered a succession struggle won by Stalin, who pursued forced industrialisation,
 agricultural collectivisation, and political purges at staggering human cost. The Soviet victory in
 the "Great Patriotic War" (1941-1945) established the USSR as a superpower and set the stage for the
-Cold War.
+cold War.
 
 ### Chronological Overview
+
+<div class="table-wrap">
 
 | Period                | Dates        | Key Themes                                                      |
 | --------------------- | ------------ | --------------------------------------------------------------- |
@@ -54,6 +56,8 @@ Cold War.
 | Stalin's revolution   | 1928-1941    | Five-Year Plans, collectivisation, purges, show trials          |
 | Great Patriotic War   | 1941-1945    | Operation Barbarossa, Stalingrad, Soviet advance, victory       |
 | Late Stalinism        | 1945-1953    | Reconstruction, Cold War origins, new purges, Doctor's Plot     |
+
+</div>
 
 ## Key Events with Dates and Significance
 
@@ -160,6 +164,8 @@ Cold War.
 
 ## Key Figures and Their Roles
 
+<div class="table-wrap">
+
 | Figure           | Role                                   | Significance                                                                                        |
 | ---------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | Tsar Nicholas II | Last Tsar                              | Weak, indecisive ruler whose refusal to reform led to revolution                                    |
@@ -169,6 +175,8 @@ Cold War.
 | Bukharin         | Moderate Bolshevik                     | Champion of the NEP; executed in the Great Purge                                                    |
 | Khrushchev       | Stalin's successor (from 1953)         | Denounced Stalin's cult of personality in the 1956 Secret Speech                                    |
 | Marshal Zhukov   | Military commander                     | Led Soviet forces at Stalingrad, Kursk, and Berlin                                                  |
+
+</div>
 
 ## Historiographical Debates
 
@@ -331,17 +339,6 @@ was a catastrophe for the Soviet people, even if it created a superpower.
 ## Intuition
 
 Russia's twentieth-century journey resembles a house that collapsed and was rebuilt several times, each reconstruction using different blueprints but the same foundation. The Tsarist regime fell not because Lenin was strong but because the existing structure was rotten: war, hunger, and a ruler who could not adapt. Stalin's industrialisation was like forcing a horse to pull a cart at the speed of a train, breaking both horse and cart in the process. The purges created a climate where loyalty mattered more than competence, which nearly cost the USSR the war it ultimately won through sheer sacrifice and vast resources.
-
-
-```mermaid
-flowchart TD
-    A[1_Russia Revolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

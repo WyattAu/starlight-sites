@@ -46,6 +46,8 @@ Integration, and frequent small releases.
 
 **Waterfall vs Agile comparison:**
 
+<div class="table-wrap">
+
 | Feature              | Waterfall                | Agile                     |
 | -------------------- | ------------------------ | ------------------------- |
 | Approach             | Linear, sequential       | Iterative, incremental    |
@@ -55,6 +57,8 @@ Integration, and frequent small releases.
 | Documentation        | Extensive upfront        | Minimal, working code     |
 | Risk                 | High (late testing)      | Low (early testing)       |
 | Best for             | Well-understood projects | Evolving requirements     |
+
+</div>
 
 ### Analysis and Design
 
@@ -83,7 +87,7 @@ Within 2 seconds").
 Requirements.
 
 Functional: (1) The system shall allow librarians to add new books. (2) The system shall track which
-Books are currently on loan. (3) The system shall generate overdue reports.
+books are currently on loan. (3) The system shall generate overdue reports.
 
 Non-functional: (1) The system shall respond to search queries within 1 second. (2) The system shall
 Support at least 50 concurrent users. (3) The system shall be available 99.5% of the time.
@@ -357,6 +361,8 @@ class Queue:
 
 **ADT complexity comparison:**
 
+<div class="table-wrap">
+
 | Operation       | Stack  | Queue  | Array  | Linked List         |
 | --------------- | ------ | ------ | ------ | ------------------- |
 | Push/Enqueue    | $O(1)$ | $O(1)$ | N/A    | $O(1)$              |
@@ -365,6 +371,8 @@ class Queue:
 | Search          | $O(n)$ | $O(n)$ | $O(n)$ | $O(n)$              |
 | Access by index | N/A    | N/A    | $O(1)$ | $O(n)$              |
 | Insert middle   | N/A    | N/A    | $O(n)$ | $O(1)$ with pointer |
+
+</div>
 
 ### File Handling
 
@@ -451,13 +459,17 @@ Boundaries: 0, 1, 9, 10, 11, 49, 50, 51. Test values at and on either side of ea
 
 **Coupling:** How much modules depend on each other. Low coupling is desirable.
 
+<div class="table-wrap">
+
 | Design Goal   | Desirable | Effect                                 |
 | ------------- | --------- | -------------------------------------- |
 | High cohesion | Yes       | Easier to understand and modify        |
 | Low coupling  | Yes       | Changes in one module have less impact |
 
+</div>
+
 **Worked Example.** A class `CustomerManager` handles customer data, sends emails, and generates
-Reports. This has low cohesion. Refactor by splitting into `CustomerData``EmailService`And
+Reports. This has low cohesion. Refactor by splitting into `CustomerData`, `EmailService` and
 `ReportGenerator`.
 
 ### Sequence Diagrams
@@ -503,11 +515,15 @@ Show how an object moves between states in response to events.
 
 **Map, Filter, Reduce:**
 
+<div class="table-wrap">
+
 | Function | Purpose                              | Example (Haskell)            |
 | -------- | ------------------------------------ | ---------------------------- |
 | map      | Apply a function to each element     | `map (*2) [1,2,3] = [2,4,6]` |
 | filter   | Keep elements matching a predicate   | `filter even [1..10]`        |
 | reduce   | Combine elements into a single value | `sum [1,2,3,4] = 10`         |
+
+</div>
 
 **Haskell examples:**
 
@@ -550,6 +566,8 @@ finally:
 
 ### Data Validation Techniques
 
+<div class="table-wrap">
+
 | Check          | Description                             | Example                    |
 | -------------- | --------------------------------------- | -------------------------- |
 | Range check    | Value within acceptable range           | `0 <= age <= 120`          |
@@ -558,6 +576,8 @@ finally:
 | Format check   | Data matches expected pattern           | email contains @ and .     |
 | Presence check | Field is not empty                      | name != ""                 |
 | Lookup check   | Value exists in a reference table       | country in valid_countries |
+
+</div>
 
 **Worked Example.** Write a Python function that validates a password.
 
@@ -647,12 +667,16 @@ def add(a, b):
 
 ### Code Quality Metrics
 
+<div class="table-wrap">
+
 | Metric                | Description                                                        |
 | --------------------- | ------------------------------------------------------------------ |
 | Cyclomatic complexity | Number of independent paths through code (lower is better)         |
 | Code coverage         | Percentage of code exercised by tests (higher is better)           |
 | Lines of code         | Total lines (lower is generally better for the same functionality) |
 | Technical debt        | Cost of future work caused by shortcuts taken now                  |
+
+</div>
 
 ### Debugging Strategies
 
@@ -664,6 +688,8 @@ def add(a, b):
 
 ### Software Licensing
 
+<div class="table-wrap">
+
 | License     | Description                                         |
 | ----------- | --------------------------------------------------- |
 | Proprietary | Source code is closed; usage restricted by EULA     |
@@ -671,6 +697,8 @@ def add(a, b):
 | GPL         | Derivative works must also be open source           |
 | MIT         | Permissive; can use, modify, and distribute freely  |
 | Apache      | Permissive; requires attribution and license notice |
+
+</div>
 
 ## Additional Practice Questions
 
@@ -776,7 +804,7 @@ See the examples integrated throughout the sections above.
 9. Explain the difference between functional and imperative programming paradigms. Give an example
    where each would be more appropriate.
 
-10. Write a Python class `LinkedList` with methods `append``delete`And `search`. What is the time
+10. Write a Python class `LinkedList` with methods `append`, `delete` and `search`. What is the time
     complexity of each operation?
 
 11. Write a Python function that validates a password according to the following rules: at least 8
@@ -801,17 +829,6 @@ See the examples integrated throughout the sections above.
 18. Describe three advantages and two disadvantages of agile development compared to the waterfall
     model.
 
-
-```mermaid
-flowchart TD
-    A[2_Software] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of software design and development, including underlying theory,
@@ -824,9 +841,6 @@ practical implementation, and key applications.
 - sorting algorithms (bubble, merge, quick)
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ---
 

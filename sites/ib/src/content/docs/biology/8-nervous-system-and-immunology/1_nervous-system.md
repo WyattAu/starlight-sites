@@ -28,11 +28,15 @@ tags:
 
 ### Types of Neurons
 
+<div class="table-wrap">
+
 | Type                    | Structure                                                     | Function                                                   |
 | ----------------------- | ------------------------------------------------------------- | ---------------------------------------------------------- |
 | **Sensory (afferent)**  | Long dendrites, short axon; cell body in dorsal root ganglion | Transmit impulses from receptors to the CNS.               |
 | **Relay (interneuron)** | Short dendrites, short or no axon; within CNS                 | Process information; connect sensory and motor neurons.    |
 | **Motor (efferent)**    | Short dendrites, long axon; cell body in CNS                  | Transmit impulses from CNS to effectors (muscles, glands). |
+
+</div>
 
 ### Anatomy of a Neuron
 
@@ -58,15 +62,21 @@ tags:
 
 ### Schwann Cells vs Oligodendrocytes
 
+<div class="table-wrap">
+
 | Feature              | Schwann Cells (PNS)                                  | Oligodendrocytes (CNS)                                              |
 | -------------------- | ---------------------------------------------------- | ------------------------------------------------------------------- |
 | Myelination          | One Schwann cell myelinates one segment of one axon. | One oligodendrocyte myelinates multiple segments on multiple axons. |
 | Regeneration         | Can guide axon regeneration after injury.            | Limited regenerative capacity in the CNS.                           |
 | Associated disorders | Guillain-Barre syndrome (autoimmune demyelination).  | Multiple sclerosis (autoimmune demyelination).                      |
 
+</div>
+
 ### Glial Cells (Neuroglia)
 
 Non-neuronal cells that support, nourish, and protect neurons:
+
+<div class="table-wrap">
 
 | Cell type           | Location | Function                                                                                                  |
 | ------------------- | -------- | --------------------------------------------------------------------------------------------------------- |
@@ -75,6 +85,8 @@ Non-neuronal cells that support, nourish, and protect neurons:
 | **Ependymal cells** | CNS      | Line the ventricles of the brain and central canal of the spinal cord; produce cerebrospinal fluid (CSF). |
 | **Schwann cells**   | PNS      | Myelinate axons; aid regeneration.                                                                        |
 | **Satellite cells** | PNS      | Surround cell bodies in ganglia; provide nutrients and regulate the extracellular environment.            |
+
+</div>
 
 ---
 
@@ -92,10 +104,12 @@ Non-neuronal cells that support, nourish, and protect neurons:
 ### Ionic Basis
 
 The **resting membrane potential** is approximately $-70\;\mathrm{mV}$ (inside negative relative to
-Outside). This potential is established and maintained by ion concentration gradients and selective
+outside). This potential is established and maintained by ion concentration gradients and selective
 Permeability of the membrane.
 
 **Typical ion concentrations** (intracellular vs extracellular):
+
+<div class="table-wrap">
 
 | Ion                                               | Intracellular ($\mathrm{mmol/L}$) | Extracellular ($\mathrm{mmol/L}$) | Equilibrium potential ($\mathrm{mV}$) |
 | ------------------------------------------------- | --------------------------------- | --------------------------------- | ------------------------------------- |
@@ -104,15 +118,21 @@ Permeability of the membrane.
 | $\mathrm{Cl}^-$                                   | $10$                              | $110$                             | $\approx -70$                         |
 | Impermeable anions (proteins, organic phosphates) | High                              | Low                               | ---                                   |
 
+</div>
+
 ### The Nernst Equation
 
 The equilibrium potential for a single ion is calculated using the Nernst equation:
 
-$$E_{\mathrm{ion}} = \frac{RT}{zF} \ln \frac{[\mathrm{ion}]_{\mathrm{out}}}{[\mathrm{ion}]_{\mathrm{in}}}$$
+$$
+E_{\mathrm{ion}} = \frac{RT}{zF} \ln \frac{[\mathrm{ion}]_{\mathrm{out}}}{[\mathrm{ion}]_{\mathrm{in}}}
+$$
 
 At body temperature ($37^\circ\mathrm{C} = 310\;\mathrm{K}$), this simplifies to:
 
-$$E_{\mathrm{ion}} = \frac{61.5}{z} \log_{10} \frac{[\mathrm{ion}]_{\mathrm{out}}}{[\mathrm{ion}]_{\mathrm{in}}}$$
+$$
+E_{\mathrm{ion}} = \frac{61.5}{z} \log_{10} \frac{[\mathrm{ion}]_{\mathrm{out}}}{[\mathrm{ion}]_{\mathrm{in}}}
+$$
 
 Where $R$ is the gas constant, $T$ is temperature, $z$ is the ion"s valence, and $F$ is Faraday's
 Constant.
@@ -137,7 +157,7 @@ Constant.
    (the negative interior attracts $\mathrm{K}^+$ back). The resting potential (approximately
    $-70\;\mathrm{mV}$) is close to (but more positive than) the $\mathrm{K}^+$ equilibrium potential
    ($-90\;\mathrm{mV}$) because the membrane has a small residual permeability to
-   $\mathrm{Na}^+$Which pulls the potential toward the $\mathrm{Na}^+$ equilibrium potential.
+   $\mathrm{Na}^+$ Which pulls the potential toward the $\mathrm{Na}^+$ equilibrium potential.
 
 ---
 
@@ -157,6 +177,8 @@ Constant.
 An action potential is a rapid, transient reversal of the membrane potential, approximately
 $+40\;\mathrm{mV}$ at its peak.
 
+<div class="table-wrap">
+
 | Phase                 | Membrane potential            | Ion channels and movements                                                                                                  |
 | --------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | **Resting**           | $\approx -70\;\mathrm{mV}$    | $\mathrm{Na}^+$ and $\mathrm{K}^+$ voltage-gated channels are closed; leak $\mathrm{K}^+$ channels are open.                |
@@ -166,6 +188,8 @@ $+40\;\mathrm{mV}$ at its peak.
 | **Repolarisation**    | $+40$ to $-70\;\mathrm{mV}$   | $\mathrm{Na}^+$ channels are inactivated; $\mathrm{K}^+$ channels remain open; $\mathrm{K}^+$ rushes out.                   |
 | **Hyperpolarisation** | $-70$ to $-80\;\mathrm{mV}$   | $\mathrm{K}^+$ channels close slowly; excess $\mathrm{K}^+$ efflux makes the inside temporarily more negative than resting. |
 | **Restoration**       | Returns to $-70\;\mathrm{mV}$ | $\mathrm{K}^+$ channels close; $\mathrm{Na}^+/\mathrm{K}^+$ pump restores original ion concentrations.                      |
+
+</div>
 
 ### Refractory Periods
 
@@ -182,8 +206,8 @@ Action potential along the axon and limits the maximum firing frequency.
 ### All-or-Nothing Principle
 
 An action potential either occurs fully (if threshold is reached) or does not occur at all. The
-Amplitude of the action potential is constant (approximately $110\;\mathrm{mV}$ total change) and
-Does not depend on stimulus strength. Stimulus intensity is encoded by the **frequency** of action
+amplitude of the action potential is constant (approximately $110\;\mathrm{mV}$ total change) and
+does not depend on stimulus strength. Stimulus intensity is encoded by the **frequency** of action
 Potentials, not their amplitude.
 
 ---
@@ -203,9 +227,11 @@ Potentials, not their amplitude.
 
 In unmyelinated axons, the action potential propagates as a wave of depolarisation along the entire
 Axolemma. Adjacent regions of the membrane are depolarised to threshold by local current flow from
-The active region (current spreads through the axoplasm and extracellular fluid).
+the active region (current spreads through the axoplasm and extracellular fluid).
 
-$$v \propto \sqrt{d}$$
+$$
+v \propto \sqrt{d}
+$$
 
 Where $d$ is the axon diameter. Conduction velocity in unmyelinated axons ranges from $0.5$ to
 $2\;\mathrm{m/s}$.
@@ -231,11 +257,15 @@ In myelinated axons, the action potential "jumps" between nodes of Ranvier:
 
 ### Factors Affecting Conduction Velocity
 
+<div class="table-wrap">
+
 | Factor            | Effect                                                                                                                 |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | **Axon diameter** | Larger diameter = faster conduction (less resistance to current flow).                                                 |
 | **Myelination**   | Myelinated axons conduct much faster (saltatory conduction).                                                           |
 | **Temperature**   | Higher temperature = faster conduction (ion channel kinetics are temperature-dependent). Hypothermia slows conduction. |
+
+</div>
 
 ---
 
@@ -313,6 +343,8 @@ is Fired.
 
 ### Classification
 
+<div class="table-wrap">
+
 | Neurotransmitter                   | Type                  | Receptors                                                        | Effect                                                                                   | Key locations                                           |
 | ---------------------------------- | --------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | **Acetylcholine (ACh)**            | Small molecule        | Nicotinic (ionotropic), muscarinic (metabotropic)                | Excitatory at NMJ; can be excitatory or inhibitory in CNS                                | Neuromuscular junctions; autonomic ganglia; CNS         |
@@ -322,6 +354,8 @@ is Fired.
 | **Dopamine**                       | Amine (catecholamine) | $\mathrm{D_1}$--$\mathrm{D_5}$ receptors (metabotropic)          | Motor control, reward, motivation; can be excitatory or inhibitory depending on receptor | Substantia nigra, ventral tegmental area, basal ganglia |
 | **Noradrenaline (norepinephrine)** | Amine (catecholamine) | $\alpha$ and $\beta$ adrenergic receptors                        | Arousal, attention, fight-or-flight; sympathetic NS                                      | Locus coeruleus; sympathetic postganglionic neurons     |
 | **Serotonin (5-HT)**               | Amine (indolamine)    | $5\text{-HT}_1$--$5\text{-HT}_7$ receptors                       | Mood, sleep, appetite, pain perception                                                   | Raphe nuclei (brainstem); gastrointestinal tract        |
+
+</div>
 
 ### Acetylcholine in Detail
 
@@ -340,6 +374,8 @@ Acetylcholine (ACh) is the neurotransmitter at:
 
 ### Clinical Relevance of Neurotransmitters
 
+<div class="table-wrap">
+
 | Condition               | Neurotransmitter involved | Mechanism                                                                                                       |
 | ----------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | **Alzheimer's disease** | Acetylcholine             | Degeneration of cholinergic neurons in the basal forebrain; reduced ACh in hippocampus and cortex.              |
@@ -348,6 +384,8 @@ Acetylcholine (ACh) is the neurotransmitter at:
 | **Myasthenia gravis**   | Acetylcholine             | Autoantibodies destroy nicotinic ACh receptors at NMJ; muscle weakness and fatigue.                             |
 | **Epilepsy**            | GABA, glutamate           | Reduced GABAergic inhibition or excessive glutamatergic excitation.                                             |
 | **Schizophrenia**       | Dopamine                  | Excess dopamine activity in mesolimbic pathway; $\mathrm{D_2}$ receptor antagonists are antipsychotics.         |
+
+</div>
 
 ---
 
@@ -422,13 +460,17 @@ Example: touching a hot object.
 Receptors are specialised cells or nerve endings that convert stimuli (energy) into electrical
 signals (graded potentials, then action potentials) --- a process called **transduction**.
 
+<div class="table-wrap">
+
 | Receptor type        | Stimulus detected                                     | Example                                                                                                             |
 | -------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | **Mechanoreceptors** | Mechanical deformation (pressure, vibration, stretch) | Pacinian corpuscles (deep pressure); Meissner's corpuscles (light touch, vibration); hair cells in cochlea (sound). |
 | **Thermoreceptors**  | Temperature changes                                   | Warm receptors; cold receptors.                                                                                     |
 | **Nociceptors**      | Pain (tissue damage, extreme stimuli)                 | Free nerve endings in skin, muscles, organs.                                                                        |
-| **Chemoreceptors**   | Chemical substances                                   | Taste buds; olfactory receptors; carotid bodies ($\mathrm{O}_2$, $\mathrm{CO}_2$PH).                                  |
+| **Chemoreceptors**   | Chemical substances                                   | Taste buds; olfactory receptors; carotid bodies ($\mathrm{O}_2$, $\mathrm{CO}_2$ PH).                                  |
 | **Photoreceptors**   | Light                                                 | Rods (dim light, black-and-white); cones (colour vision, high acuity).                                              |
+
+</div>
 
 ### Sensory Pathways to the Brain
 
@@ -444,6 +486,8 @@ signals (graded potentials, then action potentials) --- a process called **trans
 
 **Structure of the eye:**
 
+<div class="table-wrap">
+
 | Structure       | Function                                                                                                 |
 | --------------- | -------------------------------------------------------------------------------------------------------- |
 | **Cornea**      | Transparent outer layer; refracts light (provides approximately $2/3$ of total refraction).              |
@@ -453,6 +497,8 @@ signals (graded potentials, then action potentials) --- a process called **trans
 | **Retina**      | Light-sensitive layer containing photoreceptors (rods and cones).                                        |
 | **Fovea**       | Area of highest visual acuity; densely packed with cones.                                                |
 | **Optic nerve** | Transmits action potentials from retinal ganglion cells to the brain.                                    |
+
+</div>
 
 **Phototransduction:**
 
@@ -467,12 +513,16 @@ signals (graded potentials, then action potentials) --- a process called **trans
 
 **Rods vs cones:**
 
+<div class="table-wrap">
+
 | Feature       | Rods                                                 | Cones                                                |
 | ------------- | ---------------------------------------------------- | ---------------------------------------------------- |
 | Sensitivity   | High (function in dim light)                         | Low (require bright light)                           |
 | Colour vision | No (one type of rhodopsin)                           | Yes (three types: red, green, blue --- trichromatic) |
 | Acuity        | Low (convergence of many rods onto one bipolar cell) | High (one cone per bipolar cell in fovea)            |
 | Distribution  | Concentrated in periphery of retina                  | Concentrated in fovea                                |
+
+</div>
 
 ### The Ear and Hearing
 
@@ -518,7 +568,7 @@ signals (graded potentials, then action potentials) --- a process called **trans
 - **Thick filaments**: composed of **myosin** protein. Each myosin molecule has a globular head that
   can bind to actin and hydrolyse ATP.
 - **Thin filaments**: composed of **actin** (with binding sites for myosin), **tropomyosin** (blocks
-  myosin-binding sites at rest), and **troponin** (binds $\mathrm{Ca}^{2+}$Moving tropomyosin away
+  myosin-binding sites at rest), and **troponin** (binds $\mathrm{Ca}^{2+}$ Moving tropomyosin away
   from the binding sites).
 - **Sarcomere**: the repeating unit between two Z lines. Striations:
 - **A band**: full length of thick filaments (contains overlapping thick and thin filaments).
@@ -529,7 +579,7 @@ signals (graded potentials, then action potentials) --- a process called **trans
 ### The Sliding Filament Mechanism
 
 During contraction, thin filaments slide past thick filaments, pulling the Z discs toward the centre
-Of the sarcomere. The filaments themselves do not change length.
+of the sarcomere. The filaments themselves do not change length.
 
 **Steps of the cross-bridge cycle:**
 
@@ -542,7 +592,7 @@ Of the sarcomere. The filaments themselves do not change length.
 4. **Power stroke**: the myosin head pivots, pulling the thin filament toward the centre of the
    sarcomere. ADP and $\mathrm{P_i}$ are released.
 5. **ATP binding**: a new ATP molecule binds to the myosin head, causing it to detach from actin.
-6. **ATP hydrolysis**: ATP is hydrolysed to ADP and $\mathrm{P_i}$Re-energising the myosin head and
+6. **ATP hydrolysis**: ATP is hydrolysed to ADP and $\mathrm{P_i}$ Re-energising the myosin head and
    repositioning it for another cycle.
 
 ### Neuromuscular Junction (NMJ)
@@ -587,6 +637,8 @@ The synapse between a motor neuron and a skeletal muscle fibre:
 
 ### Major Brain Regions
 
+<div class="table-wrap">
+
 | Region            | Key structures                                                    | Primary functions                                                                                                                                                                              |
 | ----------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Cerebrum**      | Cerebral cortex (grey matter); basal ganglia; white matter tracts | Conscious thought, voluntary movement, sensory processing, language, memory, decision-making.                                                                                                  |
@@ -595,7 +647,11 @@ The synapse between a motor neuron and a skeletal muscle fibre:
 | **Brainstem**     | Midbrain; pons; medulla oblongata                                 | Midbrain: reflexes (visual, auditory), dopamine pathways. Pons: relay between cerebrum and cerebellum, breathing regulation. Medulla: vital centres (cardiac, respiratory, vasomotor centres). |
 | **Limbic system** | Hippocampus; amygdala; hypothalamus; cingulate gyrus              | Emotion, memory formation (hippocampus), fear processing (amygdala), motivation, olfaction.                                                                                                    |
 
+</div>
+
 ### Cerebral Cortex (Lobes)
+
+<div class="table-wrap">
 
 | Lobe          | Location                       | Primary functions                                                                                                                                                      |
 | ------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -603,6 +659,8 @@ The synapse between a motor neuron and a skeletal muscle fibre:
 | **Parietal**  | Posterior to central sulcus    | Somatosensory processing (primary somatosensory cortex, postcentral gyrus); spatial awareness; proprioception.                                                         |
 | **Temporal**  | Lateral, below lateral fissure | Auditory processing (primary auditory cortex); Wernicke's area (language comprehension, left hemisphere); memory (medial temporal lobe, hippocampus).                  |
 | **Occipital** | Posterior                      | Visual processing (primary visual cortex); colour, motion, and form perception.                                                                                        |
+
+</div>
 
 ---
 
@@ -622,6 +680,8 @@ respiratory Rate, pupillary response, and glandular secretion.
 
 ### Sympathetic vs Parasympathetic Divisions
 
+<div class="table-wrap">
+
 | Feature                  | Sympathetic ("fight or flight")                                                                                                                                                  | Parasympathetic ("rest and digest")                                                                                 |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | **Origin**               | Thoracolumbar spinal cord ($\mathrm{T_1}$--$\mathrm{L_2/L_3}$)                                                                                                                   | Cranial nerves (III, VII, IX, X) and sacral spinal cord ($\mathrm{S_2}$--$\mathrm{S_4}$)                            |
@@ -630,6 +690,8 @@ respiratory Rate, pupillary response, and glandular secretion.
 | **Postganglionic fibre** | Long; unmyelinated                                                                                                                                                               | Short; unmyelinated                                                                                                 |
 | **Neurotransmitter**     | ACh (preganglionic); noradrenaline (postganglionic, mostly)                                                                                                                      | ACh at all synapses (nicotinic at ganglia, muscarinic at target organs)                                             |
 | **Effects**              | Pupil dilation; increased heart rate; bronchodilation; increased blood glucose; decreased digestive activity; vasodilation in skeletal muscle; vasoconstriction in skin and gut. | Pupil constriction; decreased heart rate; bronchoconstriction; increased digestive activity; salivation; urination. |
+
+</div>
 
 **Key principle**: most organs receive dual innervation. The sympathetic and parasympathetic systems
 Generally have **antagonistic** effects, allowing precise regulation (e.g., sympathetic increases
@@ -749,10 +811,10 @@ Speed ratio: $\frac{133}{1.5} \approx 89$ times faster.
 
 The myelinated axon is faster because: (1) myelin has very high membrane resistance (reducing
 Current leakage across the internode) and very low membrane capacitance (less charge storage), so
-The local current generated at one node travels efficiently to the next node without decay. (2)
+the local current generated at one node travels efficiently to the next node without decay. (2)
 Action potentials are regenerated at each node of Ranvier, maintaining amplitude. In unmyelinated
 Axons, current leaks across the entire membrane, the signal decrements with distance, and the
-Capacitance of the membrane slows the depolarisation rate.
+capacitance of the membrane slows the depolarisation rate.
 
 </details>
 
@@ -773,18 +835,18 @@ $-10\;\mathrm{mV}$. What is the resulting membrane potential?
 <summary>Answer</summary>
 
 (a) Three simultaneous EPSPs: $3 \times 5 = +15\;\mathrm{mV}$. New potential:
-$-70 + 15 = -55\;\mathrm{mV}$Which exactly equals threshold. The motor neuron fires an action
+$-70 + 15 = -55\;\mathrm{mV}$ Which exactly equals threshold. The motor neuron fires an action
 Potential (at threshold, the probability of firing is approximately $50\%$; any additional input
-Would guarantee firing).
+would guarantee firing).
 
-(b) Spatial summation of A + B: $+10\;\mathrm{mV}$Bringing the membrane to $-60\;\mathrm{mV}$. C
-fires $2\;\mathrm{ms}$ later; since the EPSP duration is $5\;\mathrm{ms}$The depolarisation from A +
+(b) Spatial summation of A + B: $+10\;\mathrm{mV}$ Bringing the membrane to $-60\;\mathrm{mV}$. C
+fires $2\;\mathrm{ms}$ later; since the EPSP duration is $5\;\mathrm{ms}$ The depolarisation from A +
 B has not fully decayed. Temporal summation adds C's $+5\;\mathrm{mV}$ to the remaining
 Depolarisation. The membrane reaches approximately $-55\;\mathrm{mV}$ (threshold), and the motor
 Neuron fires.
 
-(c) Resting: $-70\;\mathrm{mV}$. EPSP of A: $+5\;\mathrm{mV}$Bringing membrane to
-$-65\;\mathrm{mV}$. IPSP: $-10\;\mathrm{mV}$Bringing membrane to $-65 - 10 = -75\;\mathrm{mV}$. The
+(c) Resting: $-70\;\mathrm{mV}$. EPSP of A: $+5\;\mathrm{mV}$ Bringing membrane to
+$-65\;\mathrm{mV}$. IPSP: $-10\;\mathrm{mV}$ Bringing membrane to $-65 - 10 = -75\;\mathrm{mV}$. The
 membrane is hyperpolarised below resting potential; the motor neuron does not fire.
 
 </details>
@@ -794,7 +856,7 @@ membrane is hyperpolarised below resting potential; the motor neuron does not fi
 
 A sarcomere at rest has a length of $2.5\;\mathrm{\mu m}$. The A band is $1.6\;\mathrm{\mu m}$ wide,
 The I band is $0.9\;\mathrm{\mu m}$ wide, and the H zone is $0.5\;\mathrm{\mu m}$ wide. During
-Maximal contraction, the thin filaments overlap completely and the H zone disappears. Calculate The
+maximal contraction, the thin filaments overlap completely and the H zone disappears. Calculate The
 sarcomere length and I band width during maximal contraction. Explain which bands change and Which
 remain constant.
 
@@ -872,12 +934,12 @@ heart Rate by releasing ACh onto muscarinic receptors in the SA node. Atropine b
 rate Increases (tachycardia).
 
 (b) **Pupils dilate (mydriasis)**: parasympathetic stimulation normally constricts the pupil by
-Releasing ACh onto the sphincter pupillae muscle. Atropine blocks this, and the unopposed radial
+releasing ACh onto the sphincter pupillae muscle. Atropine blocks this, and the unopposed radial
 Muscle (sympathetic) dilates the pupil.
 
 (c) **Digestive activity decreases**: parasympathetic stimulation normally increases peristalsis and
 Glandular secretion in the GI tract. Atropine blocks this, reducing motility (can cause constipation
-And dry mouth).
+and dry mouth).
 
 (d) **Salivation decreases**: parasympathetic stimulation normally stimulates salivary gland
 secretion. Atropine blocks muscarinic receptors on salivary glands, causing dry mouth (xerostomia).
@@ -929,7 +991,7 @@ In multiple sclerosis, oligodendrocytes are destroyed, removing the myelin sheat
 previously myelinated axon with a diameter of $10\;\mathrm{\mu m}$ had a conduction velocity of
 $80\;\mathrm{m/s}$ and nodes spaced $1.5\;\mathrm{mm}$ apart. After demyelination, the same axon
 Conducts at $2\;\mathrm{m/s}$. Calculate the time for a signal to travel $0.5\;\mathrm{m}$ in both
-Cases and explain the functional consequences.
+cases and explain the functional consequences.
 
 <details>
 <summary>Solution</summary>
@@ -1003,7 +1065,7 @@ Episodic neurological deficits.
 
 Describe the sequence of events involved in synaptic transmission at a cholinergic synapse in the
 CNS, from the arrival of an action potential at the presynaptic terminal to the generation of a
-Postsynaptic potential. Explain how temporal and spatial summation determine whether an action
+postsynaptic potential. Explain how temporal and spatial summation determine whether an action
 Potential is fired in the postsynaptic neuron. Discuss how drugs that inhibit acetylcholinesterase
 (e.g., organophosphates) would affect this process.
 
@@ -1013,7 +1075,9 @@ Potential is fired in the postsynaptic neuron. Discuss how drugs that inhibit ac
 <summary>Problem 2: Data Analysis -- Action Potential Recording</summary>
 
 A researcher records the membrane potential of a neuron using an intracellular microelectrode. The
-Following data are obtained after applying stimuli of increasing intensity:
+following data are obtained after applying stimuli of increasing intensity:
+
+<div class="table-wrap">
 
 | Stimulus intensity ($\mathrm{\mu A}$) | Peak membrane potential ($\mathrm{mV}$) |
 | ------------------------------------- | --------------------------------------- |
@@ -1025,9 +1089,11 @@ Following data are obtained after applying stimuli of increasing intensity:
 | 10                                    | +40                                     |
 | 12                                    | +40                                     |
 
+</div>
+
 (a) Plot the data. Identify the threshold stimulus intensity. (b) Explain why increasing the
-Stimulus from 8 to 12 $\mathrm{\mu A}$ does not change the peak potential. (c) Explain how the
-Nervous system encodes stimulus intensity given this all-or-nothing behaviour.
+stimulus from 8 to 12 $\mathrm{\mu A}$ does not change the peak potential. (c) Explain how the
+nervous system encodes stimulus intensity given this all-or-nothing behaviour.
 
 </details>
 
@@ -1047,7 +1113,7 @@ neuron).
 
 A patient with severe vomiting has a plasma $\mathrm{K}^+$ concentration of $2.5\;\mathrm{mmol/L}$
 (normal: $4.5\;\mathrm{mmol/L}$). Assuming intracellular $\mathrm{K}^+$ concentration is unchanged
-At $150\;\mathrm{mmol/L}$Calculate: (a) the $\mathrm{K}^+$ equilibrium potential before and After
+at $150\;\mathrm{mmol/L}$ Calculate: (a) the $\mathrm{K}^+$ equilibrium potential before and After
 vomiting. (b) Predict the effect on the resting membrane potential. (c) Explain why this Patient is
 at risk of cardiac arrhythmias.
 
@@ -1105,7 +1171,7 @@ lead to involuntary movements (dyskinesias).
 **Worked Example: Graded Potential Summation at the Axon Hillock**
 
 A neuron receives three simultaneous excitatory postsynaptic potentials (EPSPs) and one inhibitory
-Postsynaptic potential (IPSP). EPSP1 depolarises the membrane by $+8\;\mathrm{mV}$EPSP2 by
+Postsynaptic potential (IPSP). EPSP1 depolarises the membrane by $+8\;\mathrm{mV}$ EPSP2 by
 $+5\;\mathrm{mV}$ EPSP3 by $+3\;\mathrm{mV}$ And IPSP1 hyperpolarises by $-6\;\mathrm{mV}$. The
 resting potential is $-70\;\mathrm{mV}$ and the threshold is $-55\;\mathrm{mV}$. (a) Calculate the
 net change in membrane Potential. (b) Will an action potential be generated? (c) If EPSP2 arrives
@@ -1123,8 +1189,8 @@ $-70 + 10 = -60\;\mathrm{mV}$.
 $-55\;\mathrm{mV}$. The threshold of $-55\;\mathrm{mV}$ is not reached. No action potential is
 generated.
 
-(c) If EPSP2 arrives $2\;\mathrm{ms}$ later, with a time constant of $5\;\mathrm{ms}$EPSP1 and IPSP1
-And EPSP3 have decayed by a factor of $e^{-t/\tau} = e^{-2/5} = e^{-0.4} \approx 0.670$.
+(c) If EPSP2 arrives $2\;\mathrm{ms}$ later, with a time constant of $5\;\mathrm{ms}$ EPSP1 and IPSP1
+and EPSP3 have decayed by a factor of $e^{-t/\tau} = e^{-2/5} = e^{-0.4} \approx 0.670$.
 
 Remaining EPSP1 at the time of EPSP2: $8 \times 0.670 = 5.36\;\mathrm{mV}$. Remaining IPSP1:
 $6 \times 0.670 = 4.02\;\mathrm{mV}$. Remaining EPSP3: $3 \times 0.670 = 2.01\;\mathrm{mV}$.
@@ -1186,6 +1252,8 @@ problems, and fatigue, reflecting disrupted neural signalling in the CNS.
 
 A neuron has the following intracellular and extracellular ion concentrations:
 
+<div class="table-wrap">
+
 | Ion                | Intracellular (mM) | Extracellular (mM) |
 | ------------------ | ------------------ | ------------------ |
 | $\mathrm{Na}^+$    | 15                 | 145                |
@@ -1193,12 +1261,14 @@ A neuron has the following intracellular and extracellular ion concentrations:
 | $\mathrm{Cl}^-$    | 10                 | 110                |
 | $\mathrm{Ca}^{2+}$ | 0.0001             | 2.0                |
 
+</div>
+
 Temperature $= 37^\circ\mathrm{C}$. (a) Calculate the equilibrium potential for each ion using the
-Nernst Equation ($E = \frac{RT}{zF}\ln\frac{[\text{ion}]_{out}}{[\text{ion}]_{in}}$Where
+Nernst Equation ($E = \frac{RT}{zF}\ln\frac{[\text{ion}]_{out}}{[\text{ion}]_{in}}$ Where
 $R = 8.314\;\mathrm{J/(mol\cdot K)}$ $F = 96485\;\mathrm{C/mol}$). (b) The resting membrane
 potential is $-70\;\mathrm{mV}$. For each ion, State whether the driving force favours influx or
 efflux. (c) If the membrane is $50\times$ more Permeable to $\mathrm{K}^+$ than to $\mathrm{Na}^+$
-and $10\times$ more permeable to $\mathrm{K}^+$ than To $\mathrm{Cl}^-$Use the Goldman equation to
+and $10\times$ more permeable to $\mathrm{K}^+$ than To $\mathrm{Cl}^-$ Use the Goldman equation to
 estimate the resting potential.
 
 <details>
@@ -1273,7 +1343,7 @@ $I = Q/t = 2.4 \times 10^{-9} / 10^{-3} = 2.4\;\mathrm{\mu A}$.
 **Worked Example: Reflex Arc and Neural Pathway Analysis**
 
 A reflex arc involves the following sequence: pain receptor (in finger) $\to$ sensory neuron $\to$
-Interneuron in spinal cord $\to$ motor neuron $\to$ effector muscle (biceps, causing withdrawal).
+interneuron in spinal cord $\to$ motor neuron $\to$ effector muscle (biceps, causing withdrawal).
 (a) Name the type of reflex and explain its adaptive significance. (b) Calculate the minimum
 response time If the path length is $0.8\;\mathrm{m}$ (finger to spinal cord to biceps) and the
 slowest conduction Velocity is $50\;\mathrm{m/s}$ (including synaptic delay of $0.5\;\mathrm{ms}$
@@ -1430,14 +1500,18 @@ learning and memory.
 A researcher investigates the effect of three drugs on synaptic transmission at a cholinergic
 synapse:
 
+<div class="table-wrap">
+
 | Drug   | Effect observed                                     |
 | ------ | --------------------------------------------------- |
 | Drug X | No EPSP recorded                                    |
 | Drug Y | Prolonged EPSP; muscle contracts but does not relax |
 | Drug Z | Reduced EPSP amplitude; normal shape                |
 
+</div>
+
 For each drug: (a) identify the likely molecular target, (b) name a specific drug that produces this
-Effect, (c) explain the mechanism, and (d) explain the clinical or experimental significance.
+effect, (c) explain the mechanism, and (d) explain the clinical or experimental significance.
 
 </details>
 
@@ -1487,6 +1561,8 @@ and (f) overall function ("fight or flight" vs "rest and digest").
 <details>
 <summary>Answer 8</summary>
 
+<div class="table-wrap">
+
 | Feature                     | Sympathetic                                                                                    | Parasympathetic                                                |
 | --------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | **Origin**                  | Thoracolumbar (T1--L2/L3) spinal cord                                                          | Cranial nerves (III, VII, IX, X) + sacral spinal cord (S2--S4) |
@@ -1503,6 +1579,8 @@ and (f) overall function ("fight or flight" vs "rest and digest").
 | **Digestion**               | Inhibits ($\alpha_2$$\beta_2$)                                                                 | Stimulates (M1, M3)                                            |
 | **Adrenal medulla**         | Stimulates (ACh on chromaffin cells, releasing adrenaline + NA)                                | No effect                                                      |
 | **Overall**                 | Fight or flight                                                                                | Rest and digest                                                |
+
+</div>
 
 (f) The sympathetic system prepares the body for emergency action: increasing heart rate, blood
 pressure, And blood glucose; dilating airways; diverting blood to skeletal muscles; and dilating
@@ -1538,7 +1616,7 @@ $R_{in} = R_m / (\pi \times d) = 1000 / 0.157 = 6366\;\Omega/\text{cm}$.
 
 For a finite patch: $\Delta V = I \times R_{in}$.
 
-If the current is injected uniformly: $\Delta V = I / (g_m \times A)$Where
+If the current is injected uniformly: $\Delta V = I / (g_m \times A)$ Where
 $g_m = 1/R_m = 10^{-3}\;\mathrm{S/cm}^2$.
 
 For a $1\;\mathrm{cm}$ length patch:
@@ -1548,8 +1626,8 @@ This very small depolarisation reflects the large surface area of the squid gian
 a Point current injection would produce a larger local depolarisation that decays exponentially with
 distance.
 
-(c) An action potential fires when the local depolarisation reaches threshold ($-55\;\mathrm{mV}$Or
-Approximately $15\;\mathrm{mV}$ above rest). At threshold, voltage-gated $\mathrm{Na}^+$ channels
+(c) An action potential fires when the local depolarisation reaches threshold ($-55\;\mathrm{mV}$ Or
+approximately $15\;\mathrm{mV}$ above rest). At threshold, voltage-gated $\mathrm{Na}^+$ channels
 open, Allowing rapid $\mathrm{Na}^+$ influx that further depolarises the membrane (positive
 feedback). This Regenerative cycle produces the all-or-none action potential, which is independent
 of the stimulus Strength (once threshold is reached).
@@ -1569,6 +1647,8 @@ treatment Strategies and their limitations.
 <details>
 <summary>Answer 10</summary>
 
+<div class="table-wrap">
+
 | Feature                       | Alzheimer's disease                                                                                                                | Parkinson's disease                                                                                                |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | **Primary brain regions**     | Cerebral cortex (especially temporal, frontal, parietal), hippocampus                                                              | Substantia nigra pars compacta, basal ganglia, later cortex                                                        |
@@ -1578,6 +1658,8 @@ treatment Strategies and their limitations.
 | **Later symptoms**            | Confusion, personality changes, loss of executive function, language impairment                                                    | Dementia (in later stages), depression, sleep disorders, autonomic dysfunction                                     |
 | **Treatment**                 | Cholinesterase inhibitors (donepezil, rivastigmine, galantamine) to increase ACh; NMDA receptor antagonist (memantine); palliative | L-DOPA (dopamine precursor); dopamine agonists (ropinirole, pramipexole); MAO-B inhibitors; deep brain stimulation |
 | **Treatment limitations**     | Do not slow disease progression; only temporarily improve symptoms; side effects include nausea, insomnia                          | L-DOPA effectiveness declines over time; dyskinesias (involuntary movements); does not halt neurodegeneration      |
+
+</div>
 
 Both diseases involve the accumulation of misfolded protein aggregates, progressive loss of specific
 Neuronal populations, and currently have no cure. Research is focused on: immunotherapy (antibodies
@@ -1626,15 +1708,21 @@ and early Detection using biomarkers (PET imaging, cerebrospinal fluid analysis)
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic            | Site    | Link                                                                                              |
 | ---------------- | ------- | ------------------------------------------------------------------------------------------------- |
 | [Nervous System] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/nervous-system)                    |
-| [Nervous System] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/8-nervous-system-and-immunology/1_nervous-system)   |
-| [Nervous System] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/7-nervous-system-and-immunology/1_nervous-system) |
+| [Nervous System] | IB      | [View](https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system/)   |
+| [Nervous System] | DSE     | [View](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system/) |
+
+</div>
 
 ## Supplementary: Muscle Contraction in Detail (HL Extension)
 
 ### Types of Muscle Tissue
+
+<div class="table-wrap">
 
 | Feature               | Skeletal                  | Cardiac                              | Smooth                        |
 | --------------------- | ------------------------- | ------------------------------------ | ----------------------------- |
@@ -1645,6 +1733,8 @@ and early Detection using biomarkers (PET imaging, cerebrospinal fluid analysis)
 | **Regeneration**      | Limited (satellite cells) | Very limited                         | Good                          |
 | **Contraction speed** | Fast                      | Intermediate                         | Slow                          |
 | **Fatigue**           | Yes                       | No (resists fatigue)                 | No                            |
+
+</div>
 
 ### Sliding Filament Mechanism of Skeletal Muscle Contraction
 
@@ -1660,7 +1750,7 @@ Z-lines (Z-discs).
   the other).
 - **Thin filaments**: composed of **actin** (globular protein polymerised into a double helix),
   **tropomyosin** (covers myosin-binding sites on actin), and **troponin** (calcium-binding complex:
-  troponin C binds $\mathrm{Ca}^{2+}$Troponin I inhibits actin-myosin interaction, troponin T binds
+  troponin C binds $\mathrm{Ca}^{2+}$ Troponin I inhibits actin-myosin interaction, troponin T binds
   tropomyosin).
 
 **Sliding filament theory**:
@@ -1676,11 +1766,11 @@ Z-lines (Z-discs).
 5. **Power stroke**: the myosin head pivots, pulling the thin filament toward the centre of the
    sarcomere. ADP and $\mathrm{P_i}$ are released.
 6. **Detachment**: ATP binds to the myosin head, causing it to detach from actin.
-7. **Cocking**: ATP is hydrolysed to ADP and $\mathrm{P_i}$Re-cocking the myosin head.
+7. **Cocking**: ATP is hydrolysed to ADP and $\mathrm{P_i}$ Re-cocking the myosin head.
 8. The cycle repeats as long as $\mathrm{Ca}^{2+}$ and ATP are available.
 
 The result: thin filaments slide past thick filaments, the Z-lines move closer together, and the
-Sarcomere shortens. The muscle fibre shortens (contraction).
+sarcomere shortens. The muscle fibre shortens (contraction).
 
 **Evidence for the sliding filament theory**:
 
@@ -1712,7 +1802,7 @@ The sequence of events linking the action potential to muscle contraction:
 ### Motor Unit Recruitment
 
 A **motor unit** consists of a single motor neuron and all the muscle fibres it innervates. The
-Number of fibres per motor unit varies:
+number of fibres per motor unit varies:
 
 - **Small motor units** (1--10 fibres): fine, precise movements (eye muscles, fingers).
 - **Large motor units** (1000+ fibres): powerful, coarse movements (leg muscles, postural muscles).
@@ -1741,10 +1831,10 @@ Number of fibres per motor unit varies:
 ### Worked Example: Muscle Force and Cross-Bridge Cycling
 
 A muscle fibre has $10^5$ sarcomeres in series along its length and $10^3$ thick filaments per
-Sarcomere cross-section. Each thick filament has approximately 300 myosin heads, and each myosin
+sarcomere cross-section. Each thick filament has approximately 300 myosin heads, and each myosin
 Head generates a force of $4\;\mathrm{pN}$ ($4 \times 10^{-12}\;\mathrm{N}$). (a) Calculate the
-Maximum force per sarcomere cross-section. (b) Calculate the maximum force of the entire fibre. (c)
-If each power stroke moves the thin filament by $5\;\mathrm{nm}$Calculate the work done by One
+maximum force per sarcomere cross-section. (b) Calculate the maximum force of the entire fibre. (c)
+If each power stroke moves the thin filament by $5\;\mathrm{nm}$ Calculate the work done by One
 cross-bridge per cycle. (d) Calculate the total work per contraction cycle if $50\%$ of Myosin heads
 are attached simultaneously.
 
@@ -1760,14 +1850,14 @@ not summed). So the maximum force of the fibre is the same as the force per cros
 $1.2\;\mathrm{\mu N}$.
 
 Note: this is the isometric force (no shortening). In practice, muscle fibres contain thousands of
-Myofibrils in parallel, so the total force is multiplied by the number of myofibrils.
+myofibrils in parallel, so the total force is multiplied by the number of myofibrils.
 
 (c) Work per cross-bridge per cycle
 $= \text{force} \times \text{distance} = 4 \times 10^{-12}\;\mathrm{N}
 \times 5 \times 10^{-9}\;\mathrm{m} = 2 \times 10^{-20}\;\mathrm{J}$.
 
 (d) If $50\%$ of heads are attached: $0.50 \times 300\,000 = 150\,000$ attached heads per
-Cross-section. Total work per cross-section per cycle
+cross-section. Total work per cross-section per cycle
 $= 150\,000 \times 2 \times 10^{-20} = 3 \times 10^{-15}\;\mathrm{J}$.
 
 </details>
@@ -1808,8 +1898,8 @@ processing Visual information such as edges, orientation, motion, and colour).
 
 **Motor and sensory homunculi**: the primary motor cortex and somatosensory cortex are organised as
 "maps" of the body (homunculi). The area of cortex devoted to each body part is proportional to the
-Complexity of movement (motor) or density of sensory innervation (sensory), not to the size of the
-Body part. The hands, face, and lips have disproportionately large cortical representations.
+complexity of movement (motor) or density of sensory innervation (sensory), not to the size of the
+body part. The hands, face, and lips have disproportionately large cortical representations.
 
 ### The Limbic System
 
@@ -1887,23 +1977,12 @@ the motor speech Planning area (Broca's area) is damaged.
 
 (d) The second patient has **Wernicke's aphasia** (receptive aphasia, fluent aphasia). The lesion is
 in **Wernicke's area** in the left temporal lobe. Speech is fluent (rate and rhythm are normal) but
-Contains incorrect words, neologisms (made-up words), and meaningless phrases ("word salad").
+contains incorrect words, neologisms (made-up words), and meaningless phrases ("word salad").
 Comprehension is severely impaired because the area responsible for language comprehension is
 damaged. The patient is often unaware of their deficits (anosognosia), unlike patients with Broca's
 aphasia, Who are aware of and frustrated by their difficulty.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[1_Nervous System] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

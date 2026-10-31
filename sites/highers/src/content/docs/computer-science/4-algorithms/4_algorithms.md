@@ -29,6 +29,8 @@ categories:
 Big O notation describes the upper bound of an algorithm"s time or space complexity as the input
 Size grows.
 
+<div class="table-wrap">
+
 | Big O         | Name         | Example                     |
 | ------------- | ------------ | --------------------------- |
 | $O(1)$        | Constant     | Array access by index       |
@@ -38,6 +40,8 @@ Size grows.
 | $O(n^2)$      | Quadratic    | Bubble sort, selection sort |
 | $O(2^n)$      | Exponential  | Recursive Fibonacci         |
 | $O(n!)$       | Factorial    | Generating all permutations |
+
+</div>
 
 ### Comparing Algorithms
 
@@ -71,7 +75,7 @@ Size grows.
 ### Bubble Sort
 
 Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the
-Wrong order.
+wrong order.
 
 **Pseudocode:**
 
@@ -138,7 +142,7 @@ END PROCEDURE
 ### Merge Sort
 
 A divide-and-conquer algorithm that divides the array in half, recursively sorts each half, then
-Merges the sorted halves.
+merges the sorted halves.
 
 **Pseudocode:**
 
@@ -202,7 +206,7 @@ def merge(left, right):
 ### Quick Sort
 
 A divide-and-conquer algorithm that selects a pivot, partitions the array around the pivot, and
-Recursively sorts the partitions.
+recursively sorts the partitions.
 
 **Complexity:** Time: $O(n \log n)$ average, $O(n^2)$ worst (poor pivot choice). Space: $O(\log n)$
 Average.
@@ -305,7 +309,7 @@ def binary_search(arr, target):
 ### Linked Lists
 
 A linear data structure where elements (nodes) are connected by pointers. Each node contains data
-And a reference to the next node.
+and a reference to the next node.
 
 **Advantages over arrays:** Dynamic size, efficient insertion and deletion.
 
@@ -540,7 +544,7 @@ $i$ to vertex $j$.
 
 Explores all neighbours at the current depth before moving to the next level. Uses a queue.
 
-**Complexity:** Time: $O(V + E)$Space: $O(V)$.
+**Complexity:** Time: $O(V + E)$ Space: $O(V)$.
 
 ```python
 from collections import deque
@@ -564,7 +568,7 @@ def bfs(graph, start):
 
 Explores as far as possible along each branch before backtracking. Uses a stack (or recursion).
 
-**Complexity:** Time: $O(V + E)$Space: $O(V)$.
+**Complexity:** Time: $O(V + E)$ Space: $O(V)$.
 
 ```python
 def dfs(graph, start):
@@ -583,7 +587,7 @@ def dfs(graph, start):
 ### Dijkstra's Algorithm
 
 Finds the shortest path from a single source to all other vertices in a weighted graph with
-Non-negative weights.
+non-negative weights.
 
 **Complexity:** $O((V + E) \log V)$ with a priority queue.
 
@@ -776,17 +780,6 @@ See the examples integrated throughout the sections above.
 8. Write a Haskell function that takes a list of integers and returns the list sorted in descending
    order, using `sortBy` from `Data.List`.
 
-
-```mermaid
-flowchart TD
-    A[4_Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of algorithms and data structures, including underlying theory,
@@ -802,7 +795,7 @@ practical implementation, and key applications.
 
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
-:::## Cross-References
+## Cross-References
 
 - **[Site Home](/):** Main landing page for Higher notes.
 - **[Biology](/biology/):** Biology notes covering cell biology and ecology.

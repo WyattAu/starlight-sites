@@ -42,6 +42,8 @@ Properties.
 
 ### Functional Groups (OL/HL)
 
+<div class="table-wrap">
+
 | Functional group   | Name            | Example                       |
 | ------------------ | --------------- | ----------------------------- |
 | C--C               | Alkane          | $\mathrm{CH_3\mathrm{CH_3$    |
@@ -54,6 +56,8 @@ Properties.
 | --COX (X = Cl, Br) | Acyl halide     | $\mathrm{CH_3\mathrm{COCl$    |
 | --NH$_2$           | Amine           | $\mathrm{CH_3\mathrm{NH_2$    |
 | --CO--NH--         | Amide           | $\mathrm{CH_3\mathrm{CONH_2$  |
+
+</div>
 
 ### IUPAC Nomenclature (OL/HL)
 
@@ -154,7 +158,7 @@ $$
 \mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br
 $$
 
-**Markovnikov"s Rule (HL):** When HX adds to an unsymmetrical alkene, the hydrogen attaches to the
+**Markovnikov's Rule (HL):** When HX adds to an unsymmetrical alkene, the hydrogen attaches to the
 Carbon with the greater number of hydrogens already attached.
 
 **Addition of water (hydration):**
@@ -242,7 +246,7 @@ $$
 **Mechanism (SN2):**
 
 The nucleophile ($\mathrm{Br^-$) attacks the electrophilic carbon from the opposite side of the
-Leaving group ($\mathrm{OH_2^+$), resulting in inversion of configuration.
+leaving group ($\mathrm{OH_2^+$), resulting in inversion of configuration.
 
 ## Aldehydes and Ketones (OL/HL)
 
@@ -395,7 +399,7 @@ $\mathrm{CH_3\mathrm{CHO$: 2 carbons, aldehyde. Name: ethanal.
 ### Naming with Multiple Functional Groups
 
 When multiple functional groups are present, the principal functional group (highest priority) gets
-The suffix. Others are named as prefixes.
+the suffix. Others are named as prefixes.
 
 Priority order (highest first): carboxylic acid, aldehyde, ketone, alcohol, alkene, alkyne, halide.
 
@@ -416,22 +420,26 @@ Priority order (highest first): carboxylic acid, aldehyde, ketone, alcohol, alke
 
 **Step 1:** The $\pi$ electrons attack HBr. The H adds to the less substituted carbon (Markovnikov).
 
-$$\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH^+\mathrm{CH_3 + \mathrm{Br^-$$
+$$
+\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH^+\mathrm{CH_3 + \mathrm{Br^-
+$$
 
 The secondary carbocation is more stable than the alternative primary carbocation.
 
 **Step 2:** The bromide ion attacks the carbocation.
 
-$$\mathrm{CH_3\mathrm{CH^+\mathrm{CH_3 + \mathrm{Br^- \to \mathrm{CH_3\mathrm{CHBrCH_3$$
+$$
+\mathrm{CH_3\mathrm{CH^+\mathrm{CH_3 + \mathrm{Br^- \to \mathrm{CH_3\mathrm{CHBrCH_3
+$$
 
 Product: 2-bromopropane (major product). The minor product, 1-bromopropane, forms from the less
-Stable primary carbocation.
+stable primary carbocation.
 
 ### Why Markovnikov's Rule Works
 
 The stability of carbocations follows the order: tertiary > secondary > primary > methyl. This is
-Because alkyl groups are electron-donating (+I effect), stabilising the positive charge by
-Distributing it. In Markovnikov addition, the hydrogen adds to the carbon with more hydrogens,
+because alkyl groups are electron-donating (+I effect), stabilising the positive charge by
+distributing it. In Markovnikov addition, the hydrogen adds to the carbon with more hydrogens,
 Placing the positive charge on the more substituted (more stable) carbon.
 
 ---
@@ -449,11 +457,15 @@ Placing the positive charge on the more substituted (more stable) carbon.
 
 ### Classification Recap
 
+<div class="table-wrap">
+
 | Type      | Structure                    | Example              |
 | --------- | ---------------------------- | -------------------- |
 | Primary   | R-$\mathrm{CH_2\mathrm{OH$   | Ethanol, propan-1-ol |
 | Secondary | $\mathrm{R_2$-$\mathrm{CHOH$ | Propan-2-ol          |
 | Tertiary  | $\mathrm{R_3$-$\mathrm{COH$  | 2-methylpropan-2-ol  |
+
+</div>
 
 ### Oxidation: Detailed Conditions
 
@@ -464,19 +476,25 @@ Between them using acidified potassium dichromate.
 
 Propan-1-ol $\to$ propanal (aldehyde). The dichromate changes from orange to green.
 
-$$\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{OH \xrightarrow{[O], \mathrm{distill} \mathrm{CH_3\mathrm{CH_2\mathrm{CHO$$
+$$
+\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{OH \xrightarrow{[O], \mathrm{distill} \mathrm{CH_3\mathrm{CH_2\mathrm{CHO
+$$
 
 Propan-2-ol $\to$ propanone (ketone). The dichromate also changes colour.
 
-$$\mathrm{CH_3\mathrm{CH(OH)CH_3 \xrightarrow{[O]} \mathrm{CH_3\mathrm{COCH_3$$
+$$
+\mathrm{CH_3\mathrm{CH(OH)CH_3 \xrightarrow{[O]} \mathrm{CH_3\mathrm{COCH_3
+$$
 
 **Distinguishing test:** The products can be distinguished using Tollens' reagent. Propanal gives a
 Silver mirror; propanone does not. Alternatively, Fehling's solution can be used (propanal gives a
-Brick-red precipitate).
+brick-red precipitate).
 
 ### Esterification: Mechanism and Conditions
 
-$$\mathrm{CH_3\mathrm{COOH + \mathrm{CH_3\mathrm{CH_2\mathrm{OH \rightleftharpoons \mathrm{CH_3\mathrm{COOCH_2\mathrm{CH_3 + \mathrm{H_2\mathrm{O$$
+$$
+\mathrm{CH_3\mathrm{COOH + \mathrm{CH_3\mathrm{CH_2\mathrm{OH \rightleftharpoons \mathrm{CH_3\mathrm{COOCH_2\mathrm{CH_3 + \mathrm{H_2\mathrm{O
+$$
 
 Conditions: concentrated $\mathrm{H_2\mathrm{SO_4$ catalyst, heat under reflux.
 
@@ -489,7 +507,9 @@ When an alcohol is dehydrated, the major product follows Zaitsev's rule (more su
 
 **Example:** Dehydration of butan-2-ol:
 
-$$\mathrm{CH_3\mathrm{CH(OH)CH_2\mathrm{CH_3 \to \mathrm{CH_3\mathrm{CH=\mathrm{CHCH_3 \mathrm{ (but-2-ene, major)$$
+$$
+\mathrm{CH_3\mathrm{CH(OH)CH_2\mathrm{CH_3 \to \mathrm{CH_3\mathrm{CH=\mathrm{CHCH_3 \mathrm{ (but-2-ene, major)
+$$
 
 Minor product: but-1-ene.
 
@@ -512,11 +532,15 @@ Minor product: but-1-ene.
 
 **Step 1:** $\mathrm{CN^-$ attacks the electrophilic carbonyl carbon.
 
-$$\mathrm{CH_3\mathrm{CHO + \mathrm{CN^- \to \mathrm{CH_3\mathrm{CH(OH)CN$$
+$$
+\mathrm{CH_3\mathrm{CHO + \mathrm{CN^- \to \mathrm{CH_3\mathrm{CH(OH)CN
+$$
 
 **Step 2:** Protonation of the alkoxide intermediate.
 
-$$\mathrm{CH_3\mathrm{CH(OH)CN + \mathrm{H^+ \to \mathrm{CH_3\mathrm{CH(OH)CN$$
+$$
+\mathrm{CH_3\mathrm{CH(OH)CN + \mathrm{H^+ \to \mathrm{CH_3\mathrm{CH(OH)CN
+$$
 
 Product: 2-hydroxypropanenitrile. This reaction extends the carbon chain and creates a new chiral
 Centre.
@@ -525,7 +549,7 @@ Centre.
 
 2,4-dinitrophenylhydrazine (2,4-DNP) reacts with both aldehydes and ketones to form orange
 Precipitates (2,4-dNP derivatives). The melting point of the derivative can be used to identify the
-Specific carbonyl compound.
+specific carbonyl compound.
 
 ---
 
@@ -543,9 +567,11 @@ Specific carbonyl compound.
 ### Acidity
 
 Carboxylic acids are weak acids. They are stronger acids than alcohols because the carboxylate anion
-Is stabilised by resonance delocalisation of the negative charge over two oxygen atoms.
+is stabilised by resonance delocalisation of the negative charge over two oxygen atoms.
 
 ### Reactions of Carboxylic Acids
+
+<div class="table-wrap">
 
 | Reagent                             | Product                                                  | Type           |
 | ----------------------------------- | -------------------------------------------------------- | -------------- |
@@ -554,6 +580,8 @@ Is stabilised by resonance delocalisation of the negative charge over two oxygen
 | $\mathrm{Na_2\mathrm{CO_3$          | Carboxylate salt + $\mathrm{CO_2 + \mathrm{H_2\mathrm{O$ | Acid-base      |
 | Alcohol + $\mathrm{H_2\mathrm{SO_4$ | Ester + water                                            | Esterification |
 | $\mathrm{LiAlH_4$                   | Primary alcohol                                          | Reduction      |
+
+</div>
 
 ---
 
@@ -578,7 +606,7 @@ Ethanoate from ethanoic acid).
 ### Physical Properties
 
 Esters are volatile liquids with characteristic fruity odours. They have lower boiling points than
-Carboxylic acids of similar molecular mass because they cannot form hydrogen bonds with each other.
+carboxylic acids of similar molecular mass because they cannot form hydrogen bonds with each other.
 
 ### Hydrolysis
 
@@ -619,7 +647,7 @@ Acid).
 
 Butan-2-ol ($\mathrm{CH_3\mathrm{CH(OH)CH_2\mathrm{CH_3$): Carbon-2 has four different groups
 ($\mathrm{H$$\mathrm{OH$$\mathrm{CH_3$$\mathrm{CH_2\mathrm{CH_3$), making it a chiral centre. Two
-Enantiomers exist.
+enantiomers exist.
 
 Butan-1-ol ($\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CH_2\mathrm{OH$): No carbon has four
 different Groups. Carbon-1 has
@@ -636,7 +664,7 @@ Yes. Each carbon of the double bond has two different groups:
 - Right carbon: $\mathrm{CH_3$ and $\mathrm{H$
 
 (Z)-but-2-ene: both $\mathrm{CH_3$ groups on the same side. (E)-but-2-ene: $\mathrm{CH_3$ groups on
-Opposite sides.
+opposite sides.
 
 But-1-ene does NOT exhibit E/Z isomerism because one carbon of the double bond has two identical
 Groups ($\mathrm{H$ and $\mathrm{H$).
@@ -658,10 +686,18 @@ Groups ($\mathrm{H$ and $\mathrm{H$).
 
 The free radical substitution of alkanes gives a mixture of products. For methane + chlorine:
 
-$$\mathrm{CH_4 + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{HCl$$
-$$\mathrm{CH_3\mathrm{Cl + \mathrm{Cl_2 \to \mathrm{CH_2\mathrm{Cl_2 + \mathrm{HCl$$
-$$\mathrm{CH_2\mathrm{Cl_2 + \mathrm{Cl_2 \to \mathrm{CHCl_3 + \mathrm{HCl$$
-$$\mathrm{CHCl_3 + \mathrm{Cl_2 \to \mathrm{CCl_4 + \mathrm{HCl$$
+$$
+\mathrm{CH_4 + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{HCl
+$$
+$$
+\mathrm{CH_3\mathrm{Cl + \mathrm{Cl_2 \to \mathrm{CH_2\mathrm{Cl_2 + \mathrm{HCl
+$$
+$$
+\mathrm{CH_2\mathrm{Cl_2 + \mathrm{Cl_2 \to \mathrm{CHCl_3 + \mathrm{HCl
+$$
+$$
+\mathrm{CHCl_3 + \mathrm{Cl_2 \to \mathrm{CCl_4 + \mathrm{HCl
+$$
 
 Controlling the product requires controlling the ratio of methane to chlorine (excess methane
 Favours $\mathrm{CH_3\mathrm{Cl$).
@@ -677,32 +713,25 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[5_Organic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Key Organic Reactions
+
+<div class="table-wrap">
 
 | Reactant                  | Reagent                             | Product               | Reaction type          |
 | ------------------------- | ----------------------------------- | --------------------- | ---------------------- |
 | Alkene                    | $\mathrm{Br_2$                      | Dibromoalkane         | Electrophilic addition |
 | Alkene                    | $\mathrm{HBr$                       | Bromoalkane           | Electrophilic addition |
-| Primary alcohol           | $[\mathrm{O]$Distil                 | Aldehyde              | Oxidation              |
-| Primary alcohol           | $[\mathrm{O]$Reflux                 | Carboxylic acid       | Oxidation              |
+| Primary alcohol           | $[\mathrm{O]$ Distil                 | Aldehyde              | Oxidation              |
+| Primary alcohol           | $[\mathrm{O]$ Reflux                 | Carboxylic acid       | Oxidation              |
 | Secondary alcohol         | $[\mathrm{O]$                       | Ketone                | Oxidation              |
-| Alcohol                   | $\mathrm{conc. H_2\mathrm{SO_4$Heat | Alkene                | Dehydration            |
+| Alcohol                   | $\mathrm{conc. H_2\mathrm{SO_4$ Heat | Alkene                | Dehydration            |
 | Carboxylic acid + alcohol | $\mathrm{conc. H_2\mathrm{SO_4$     | Ester + water         | Esterification         |
 | Ester + NaOH              | Heat                                | Carboxylate + alcohol | Saponification         |
 | Aldehyde                  | Tollens'                            | Silver mirror         | Oxidation (test)       |
 | Aldehyde                  | $\mathrm{NaBH_4$                    | Primary alcohol       | Reduction              |
 | Ketone                    | $\mathrm{NaBH_4$                    | Secondary alcohol     | Reduction              |
+
+</div>
 
 ---
 
@@ -776,15 +805,19 @@ flowchart TD
 ### Addition Polymers
 
 Formed by joining monomers without eliminating any molecule. The repeating unit is the same as the
-Monomer (with the double bond opened).
+monomer (with the double bond opened).
 
 **Polythene (polyethylene):**
 
-$$n\mathrm{CH_2=\mathrm{CH_2 \to -(\mathrm{CH_2-\mathrm{CH_2)-_n$$
+$$
+n\mathrm{CH_2=\mathrm{CH_2 \to -(\mathrm{CH_2-\mathrm{CH_2)-_n
+$$
 
 **PVC (polyvinyl chloride):**
 
-$$n\mathrm{CH_2=\mathrm{CHCl \to -(\mathrm{CH_2-\mathrm{CHCl)-_n$$
+$$
+n\mathrm{CH_2=\mathrm{CHCl \to -(\mathrm{CH_2-\mathrm{CHCl)-_n
+$$
 
 ### Condensation Polymers
 
@@ -807,12 +840,16 @@ Polymers derived from renewable resources that can be broken down by microorgani
 
 ### Problems with Conventional Polymers
 
+<div class="table-wrap">
+
 | Issue              | Explanation                                  |
 | ------------------ | -------------------------------------------- |
 | Non-biodegradable  | Persist in landfill for centuries            |
 | Microplastics      | Break into tiny particles, pollute oceans    |
 | Incineration       | Can release toxic gases (e.g., HCl from PVC) |
 | Resource depletion | Made from petroleum (non-renewable)          |
+
+</div>
 
 ---
 
@@ -885,22 +922,30 @@ Calculate the number of moles in $12.0\,\text{g}$ of $\text{NaOH}$ ($M_r = 40.0$
 
 **Solution:**
 
-$$n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}$$
+$$
+n = \frac{m}{M_r} = \frac{12.0}{40.0} = 0.300\,\text{mol}
+$$
 
 **Example 2: Reacting masses**
 
-$$\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2$$
+$$
+\text{CaCO}_3 + 2\text{HCl} \rightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2
+$$
 
 What mass of $\text{CaCl}_2$ is produced from $10.0\,\text{g}$ of $\text{CaCO}_3$?
 ($M_r[\text{CaCO}_3] = 100$, $M_r[\text{CaCl}_2] = 111$)
 
 **Solution:**
 
-$$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
+$$
+n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}
+$$
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
-$$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+$$
+m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
+$$
 
 ## Intuition
 

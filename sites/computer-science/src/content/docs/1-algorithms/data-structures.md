@@ -31,6 +31,8 @@ $O(1)$ time.
 
 **Operations:**
 
+<div class="table-wrap">
+
 | Operation       | Time             |
 | --------------- | ---------------- |
 | Access by index | $O(1)$           |
@@ -38,6 +40,8 @@ $O(1)$ time.
 | Insert at end   | $O(1)$ amortized |
 | Insert at front | $O(n)$           |
 | Delete at index | $O(n)$           |
+
+</div>
 
 **Dynamic arrays** (e.g., Python `list`, C++ `vector`) double capacity when full:
 
@@ -83,12 +87,16 @@ DELETE(list, x):
 NODE = { data, prev, next }
 ```
 
+<div class="table-wrap">
+
 | Operation       | Array  | Singly LL | Doubly LL |
 | --------------- | ------ | --------- | --------- |
 | Access by index | $O(1)$ | $O(n)$    | $O(n)$    |
 | Insert at head  | $O(n)$ | $O(1)$    | $O(1)$    |
 | Delete at node  | $O(n)$ | $O(n)$\*  | $O(1)$    |
 | Search          | $O(n)$ | $O(n)$    | $O(n)$    |
+
+</div>
 
 \*Requires pointer to predecessor unless node pointer given.
 
@@ -139,11 +147,15 @@ Implemented with a circular array. All operations are $O(1)$.
 
 A **priority queue** orders elements by priority. Best implemented with a heap (see Section 5).
 
+<div class="table-wrap">
+
 | Operation   | Unsorted Array | Sorted Array | Heap        |
 | ----------- | -------------- | ------------ | ----------- |
 | Insert      | $O(1)$         | $O(n)$       | $O(\log n)$ |
 | Extract-Min | $O(n)$         | $O(1)$       | $O(\log n)$ |
 | Peek        | $O(n)$         | $O(1)$       | $O(1)$      |
+
+</div>
 
 ### 2.4 Deques
 
@@ -164,7 +176,9 @@ $A \in (0, 1)$, ideally $A = \frac{\sqrt{5}-1}{2}$.
 **Universal hashing:** Pick $h$ randomly from a family $\mathcal{H}$ such that for any distinct
 $x, y$:
 
-$$\Pr_{h \in \mathcal{H}}[h(x) = h(y)] \leq \frac{1}{m}$$
+$$
+\Pr_{h \in \mathcal{H}}[h(x) = h(y)] \leq \frac{1}{m}
+$$
 
 ### 3.2 Chaining
 
@@ -210,12 +224,16 @@ allocate a larger table and rehash all entries.
 
 ### 3.5 Comparison
 
+<div class="table-wrap">
+
 | Aspect            | Chaining               | Open Addressing    |
 | ----------------- | ---------------------- | ------------------ |
 | Load factor       | $\alpha > 1$ OK        | $\alpha < 1$       |
 | Memory            | Extra for pointers     | Compact            |
 | Cache performance | Poor (pointer chasing) | Good (contiguous)  |
 | Deletion          | Simple                 | Requires tombstone |
+
+</div>
 
 ## 4. Trees
 
@@ -297,12 +315,16 @@ RIGHT_ROTATE(y):
     return x
 ```
 
+<div class="table-wrap">
+
 | Case        | Balance Factor                | Fix                             |
 | ----------- | ----------------------------- | ------------------------------- |
 | Left-Left   | bf(node) = +2, bf(left) = +1  | Right rotate                    |
 | Right-Right | bf(node) = -2, bf(right) = -1 | Left rotate                     |
 | Left-Right  | bf(node) = +2, bf(left) = -1  | Left rotate left, right rotate  |
 | Right-Left  | bf(node) = -2, bf(right) = +1 | Right rotate right, left rotate |
+
+</div>
 
 **Height:** $h \leq 1.44 \log_2(n+2) - 0.328$, so all operations are $O(\log n)$.
 
@@ -417,6 +439,8 @@ HEAPSORT(A):
 
 **Priority queue operations:**
 
+<div class="table-wrap">
+
 | Operation       | Time        |
 | --------------- | ----------- |
 | Build-Heap      | $O(n)$      |
@@ -425,12 +449,16 @@ HEAPSORT(A):
 | Peek            | $O(1)$      |
 | Increase-Key    | $O(\log n)$ |
 
+</div>
+
 ### 5.2 Binomial Heaps
 
 A **binomial heap** is a collection of binomial trees $B_0, B_1, \ldots, B_k$ where each $B_k$ has
 $2^k$ nodes.
 
 **Binomial tree $B_k$:** Two $B_{k-1}$ trees linked, one as leftmost child of the other's root.
+
+<div class="table-wrap">
 
 | Operation   | Time                 |
 | ----------- | -------------------- |
@@ -440,9 +468,13 @@ $2^k$ nodes.
 | Extract-Min | $O(\log n)$          |
 | Union       | $O(\log n)$          |
 
+</div>
+
 ### 5.3 Fibonacci Heaps
 
 A **Fibonacci heap** is a collection of trees (not necessarily binomial) supporting lazy operations.
+
+<div class="table-wrap">
 
 | Operation    | Amortized   | Worst Case  |
 | ------------ | ----------- | ----------- |
@@ -451,6 +483,8 @@ A **Fibonacci heap** is a collection of trees (not necessarily binomial) support
 | Extract-Min  | $O(\log n)$ | $O(n)$      |
 | Decrease-Key | $O(1)$\*    | $O(\log n)$ |
 | Delete       | $O(\log n)$ | $O(n)$      |
+
+</div>
 
 \*$O(1)$ amortized, $O(\log n)$ worst case.
 
@@ -474,12 +508,16 @@ A **Fibonacci heap** is a collection of trees (not necessarily binomial) support
 
 **When to use which:**
 
+<div class="table-wrap">
+
 | Factor        | Adjacency Matrix | Adjacency List |
 | ------------- | ---------------- | -------------- |
 | Dense graphs  | Better           |                |
 | Sparse graphs |                  | Better         |
 | Edge queries  | $O(1)$           | $O(V)$         |
 | Space         | $O(V^2)$         | $O(V+E)$       |
+
+</div>
 
 ### 6.2 Graph Traversals
 
@@ -541,12 +579,16 @@ TRIE_PREFIX(root, prefix):
     return true
 ```
 
+<div class="table-wrap">
+
 | Operation     | Trie                       | Hash Table      | BST/Map         |
 | ------------- | -------------------------- | --------------- | --------------- |
 | Insert        | $O(m)$                     | $O(m)$ avg      | $O(m \log n)$   |
 | Search        | $O(m)$                     | $O(m)$ avg      | $O(m \log n)$   |
 | Prefix search | $O(m)$                     | Not supported   | Not supported   |
 | Space         | $O(alphabet \times depth)$ | $O(n \times m)$ | $O(n \times m)$ |
+
+</div>
 
 Where $m$ = string length, $n$ = number of strings.
 
@@ -576,7 +618,9 @@ $\$2k \geq k$ to pay for copying.
 
 Define a **potential function** $\Phi$ on the data structure. Amortized cost of operation $i$:
 
-$$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$
+$$
+\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})
+$$
 
 **Requirements:** $\Phi(D_0) = 0$ and $\Phi(D_i) \geq 0$ for all $i$.
 
@@ -592,11 +636,15 @@ Amortized cost: $O(1)$ per insert.
 
 ### 8.4 Common Amortized Bounds
 
+<div class="table-wrap">
+
 | Data Structure | Operations             | Amortized Cost |
 | -------------- | ---------------------- | -------------- |
 | Dynamic array  | Append, Pop            | $O(1)$         |
 | Splay tree     | Access, Insert, Delete | $O(\log n)$    |
 | Fibonacci heap | Insert, Decrease-Key   | $O(1)$, $O(1)$ |
+
+</div>
 
 ## 9. Common Pitfalls
 
@@ -642,17 +690,6 @@ h(k) = k mod 7. **Solution:** h(10)=3, h(22)=1, h(31)=3, h(4)=4, h(15)=1, h(28)=
 [28]. Slot 1: [22, 15]. Slot 3: [10, 31, 17]. Slot 4: [4]. Slots 2, 5, 6: empty. Load factor = 7/7
 = 1. Average search time with chaining = O(1 + alpha) = O(2).
 
-
-```mermaid
-flowchart TD
-    A[Data Structures] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Arrays** give $O(1)$ random access; **linked lists** give $O(1)$ insert/delete at known
@@ -674,11 +711,15 @@ Data structures organize data for efficient access and modification. Arrays prov
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Link                                                        |
 | ----------------- | ----------------------------------------------------------- |
 | Algorithm Design  | [View](/1-algorithms/algorithm-design/)  |
 | Graph Algorithms  | [View](https://alevel.wyattau.com/computer-science/algorithms/03-graph-algorithms/)  |
 | Complexity Theory | [View](/1-algorithms/complexity-theory/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

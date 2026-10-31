@@ -85,8 +85,6 @@ Start with first-order ODEs to build foundational knowledge, then progress to se
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -115,7 +113,7 @@ Differential equations describe how systems evolve, from planetary orbits to pop
 - **Linear Algebra:** Systems of linear ODEs using eigenvalues; matrix exponentials solve linear systems.
 - **Complex Analysis:** Contour integration for solving ODEs; the Laplace transform uses complex analysis.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

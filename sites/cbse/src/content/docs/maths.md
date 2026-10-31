@@ -58,12 +58,16 @@ A **set** is a well-defined collection of distinct objects. Sets are denoted by 
 
 **Set operations.**
 
+<div class="table-wrap">
+
 | Operation | Notation | Meaning |
 | --- | --- | --- |
 | Union | $A \cup B$ | All elements in $A$ or $B$ or both |
 | Intersection | $A \cap B$ | All elements in both $A$ and $B$ |
 | Complement | $A"$ or $\bar{A}$ | All elements in the universal set $U$ not in $A$ |
 | Difference | $A - B$ | Elements in $A$ but not in $B$ |
+
+</div>
 
 **Laws.**
 
@@ -76,11 +80,15 @@ A **set** is a well-defined collection of distinct objects. Sets are denoted by 
 
 Venn diagrams represent sets as overlapping circles inside a rectangle (the universal set).
 
-$$n(A \cup B) = n(A) + n(B) - n(A \cap B)$$
+$$
+n(A \cup B) = n(A) + n(B) - n(A \cap B)
+$$
 
 For three sets:
 
-$$n(A \cup B \cup C) = n(A) + n(B) + n(C) - n(A \cap B) - n(A \cap C) - n(B \cap C) + n(A \cap B \cap C)$$
+$$
+n(A \cup B \cup C) = n(A) + n(B) + n(C) - n(A \cap B) - n(A \cap C) - n(B \cap C) + n(A \cap B \cap C)
+$$
 
 ### 1.3 Relations
 
@@ -142,11 +150,15 @@ A matrix is a rectangular array of numbers. An $m \times n$ matrix has $m$ rows 
 
 The determinant of a $2 \times 2$ matrix:
 
-$$\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$$
+$$
+\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc
+$$
 
 For a $3 \times 3$ matrix, expand by cofactors along any row or column:
 
-$$|A| = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13}$$
+$$
+|A| = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13}
+$$
 
 where $C_{ij} = (-1)^{i+j} M_{ij}$ and $M_{ij}$ is the minor (determinant after removing row $i$, column $j$).
 
@@ -161,7 +173,9 @@ where $C_{ij} = (-1)^{i+j} M_{ij}$ and $M_{ij}$ is the minor (determinant after 
 
 For a non-singular square matrix $A$ ($|A| \neq 0$):
 
-$$A^{-1} = \frac{1}{|A|} \text{adj}(A)$$
+$$
+A^{-1} = \frac{1}{|A|} \text{adj}(A)
+$$
 
 where $\text{adj}(A)$ is the adjoint (transpose of the cofactor matrix).
 
@@ -185,7 +199,9 @@ A complex number is $z = a + bi$ where $a$ is the real part, $b$ is the imaginar
 
 The general quadratic $ax^2 + bx + c = 0$ has roots:
 
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
 
 **Discriminant** $\Delta = b^2 - 4ac$:
 
@@ -213,17 +229,23 @@ $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 ### 3.1 Limits
 
-$$\lim_{x \to a} f(x) = L$$
+$$
+\lim_{x \to a} f(x) = L
+$$
 
 means $f(x)$ approaches $L$ as $x$ approaches $a$.
 
 **Standard limits:**
 
-$$\lim_{x \to 0} \frac{\sin x}{x} = 1 \qquad \lim_{x \to 0} \frac{1 - \cos x}{x} = 0 \qquad \lim_{x \to \infty}\left(1 + \frac{1}{x}\right)^x = e$$
+$$
+\lim_{x \to 0} \frac{\sin x}{x} = 1 \qquad \lim_{x \to 0} \frac{1 - \cos x}{x} = 0 \qquad \lim_{x \to \infty}\left(1 + \frac{1}{x}\right)^x = e
+$$
 
 **L'Hôpital's Rule.** If $\lim_{x \to a}\frac{f(x)}{g(x)}$ is of the form $\frac{0}{0}$ or $\frac{\infty}{\infty}$, then:
 
-$$\lim_{x \to a}\frac{f(x)}{g(x)} = \lim_{x \to a}\frac{f'(x)}{g'(x)}$$
+$$
+\lim_{x \to a}\frac{f(x)}{g(x)} = \lim_{x \to a}\frac{f'(x)}{g'(x)}
+$$
 
 provided the right-hand limit exists.
 
@@ -231,9 +253,13 @@ provided the right-hand limit exists.
 
 **From first principles:**
 
-$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+$$
+f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
+$$
 
 **Standard derivatives:**
+
+<div class="table-wrap">
 
 | $f(x)$ | $f'(x)$ |
 | --- | --- |
@@ -244,6 +270,8 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 | $e^x$ | $e^x$ |
 | $\ln x$ | $1/x$ |
 | $a^x$ | $a^x \ln a$ |
+
+</div>
 
 **Rules:**
 
@@ -275,7 +303,9 @@ Integration is the reverse of differentiation.
 
 **Indefinite integrals (antiderivatives):**
 
-$$\int x^n\,dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1) \qquad \int \frac{1}{x}\,dx = \ln|x| + C$$
+$$
+\int x^n\,dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1) \qquad \int \frac{1}{x}\,dx = \ln|x| + C
+$$
 
 **Methods:**
 
@@ -284,11 +314,15 @@ $$\int x^n\,dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1) \qquad \int \frac{1}{
 
 **Definite integrals:**
 
-$$\int_a^b f(x)\,dx = F(b) - F(a)$$
+$$
+\int_a^b f(x)\,dx = F(b) - F(a)
+$$
 
 **Area under a curve:**
 
-$$\text{Area between } f(x) \text{ and } x\text{-axis from } a \text{ to } b = \left|\int_a^b f(x)\,dx\right|$$
+$$
+\text{Area between } f(x) \text{ and } x\text{-axis from } a \text{ to } b = \left|\int_a^b f(x)\,dx\right|
+$$
 
 ---
 
@@ -315,17 +349,23 @@ $$\text{Area between } f(x) \text{ and } x\text{-axis from } a \text{ to } b = \
 
 **Distance from a point to a line $Ax + By + C = 0$:**
 
-$$d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}$$
+$$
+d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}
+$$
 
 **Angle between two lines with slopes $m_1$ and $m_2$:**
 
-$$\tan\theta = \left|\frac{m_1 - m_2}{1 + m_1m_2}\right|$$
+$$
+\tan\theta = \left|\frac{m_1 - m_2}{1 + m_1m_2}\right|
+$$
 
 ### 4.2 Conic Sections
 
 **Circle.** Centre $(h, k)$, radius $r$:
 
-$$(x - h)^2 + (y - k)^2 = r^2$$
+$$
+(x - h)^2 + (y - k)^2 = r^2
+$$
 
 General form: $x^2 + y^2 + 2gx + 2fy + c = 0$; centre $(-g, -f)$, radius $\sqrt{g^2 + f^2 - c}$.
 
@@ -363,17 +403,27 @@ General form: $x^2 + y^2 + 2gx + 2fy + c = 0$; centre $(-g, -f)$, radius $\sqrt{
 
 **Pythagorean identities:**
 
-$$\sin^2\theta + \cos^2\theta = 1 \qquad 1 + \tan^2\theta = \sec^2\theta \qquad 1 + \cot^2\theta = \csc^2\theta$$
+$$
+\sin^2\theta + \cos^2\theta = 1 \qquad 1 + \tan^2\theta = \sec^2\theta \qquad 1 + \cot^2\theta = \csc^2\theta
+$$
 
 **Compound angle:**
 
-$$\sin(A \pm B) = \sin A\cos B \pm \cos A\sin B$$
-$$\cos(A \pm B) = \cos A\cos B \mp \sin A\sin B$$
-$$\tan(A \pm B) = \frac{\tan A \pm \tan B}{1 \mp \tan A\tan B}$$
+$$
+\sin(A \pm B) = \sin A\cos B \pm \cos A\sin B
+$$
+$$
+\cos(A \pm B) = \cos A\cos B \mp \sin A\sin B
+$$
+$$
+\tan(A \pm B) = \frac{\tan A \pm \tan B}{1 \mp \tan A\tan B}
+$$
 
 **Double angle:**
 
-$$\sin 2A = 2\sin A\cos A \qquad \cos 2A = \cos^2 A - \sin^2 A = 2\cos^2 A - 1 = 1 - 2\sin^2 A$$
+$$
+\sin 2A = 2\sin A\cos A \qquad \cos 2A = \cos^2 A - \sin^2 A = 2\cos^2 A - 1 = 1 - 2\sin^2 A
+$$
 
 ### 5.2 Trigonometric Equations
 
@@ -385,15 +435,21 @@ $$\sin 2A = 2\sin A\cos A \qquad \cos 2A = \cos^2 A - \sin^2 A = 2\cos^2 A - 1 =
 
 ### 5.3 Inverse Trigonometric Functions
 
+<div class="table-wrap">
+
 | Function | Domain | Range |
 | --- | --- | --- |
 | $\sin^{-1}x$ | $[-1, 1]$ | $[-\pi/2, \pi/2]$ |
 | $\cos^{-1}x$ | $[-1, 1]$ | $[0, \pi]$ |
 | $\tan^{-1}x$ | $\mathbb{R}$ | $(-\pi/2, \pi/2)$ |
 
+</div>
+
 **Key identities:**
 
-$$\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2} \qquad \tan^{-1}x + \tan^{-1}\frac{1}{x} = \frac{\pi}{2}\text{ for } x > 0$$
+$$
+\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2} \qquad \tan^{-1}x + \tan^{-1}\frac{1}{x} = \frac{\pi}{2}\text{ for } x > 0
+$$
 
 ### 5.4 Properties of Triangles
 
@@ -430,13 +486,17 @@ For grouped data, the median and mode use interpolation formulas from the cumula
 
 **Variance:**
 
-$$\sigma^2 = \frac{\sum f_i(x_i - \bar{x})^2}{\sum f_i} = \frac{\sum f_i x_i^2}{\sum f_i} - \bar{x}^2$$
+$$
+\sigma^2 = \frac{\sum f_i(x_i - \bar{x})^2}{\sum f_i} = \frac{\sum f_i x_i^2}{\sum f_i} - \bar{x}^2
+$$
 
 **Standard deviation:** $\sigma = \sqrt{\text{variance}}$
 
 For combined data from two groups of sizes $n_1, n_2$ with means $\bar{x}_1, \bar{x}_2$ and variances $\sigma_1^2, \sigma_2^2$:
 
-$$\bar{x}_{\text{combined}} = \frac{n_1\bar{x}_1 + n_2\bar{x}_2}{n_1 + n_2}$$
+$$
+\bar{x}_{\text{combined}} = \frac{n_1\bar{x}_1 + n_2\bar{x}_2}{n_1 + n_2}
+$$
 
 ### 6.3 Probability
 
@@ -455,7 +515,9 @@ $$\bar{x}_{\text{combined}} = \frac{n_1\bar{x}_1 + n_2\bar{x}_2}{n_1 + n_2}$$
 
 A binomial experiment has $n$ independent trials, each with probability $p$ of success.
 
-$$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
+$$
+P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}
+$$
 
 **Mean:** $\mu = np$
 
@@ -474,6 +536,8 @@ $$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
 
 ## 7. Key Formulas
 
+<div class="table-wrap">
+
 | Topic | Formula |
 | --- | --- |
 | Quadratic roots | $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ |
@@ -486,6 +550,8 @@ $$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
 | Binomial coefficient | $\binom{n}{r} = \frac{n!}{r!(n-r)!}$ |
 | Circle equation | $(x-h)^2 + (y-k)^2 = r^2$ |
 | Euler's formula | $e^{i\theta} = \cos\theta + i\sin\theta$ |
+
+</div>
 
 ---
 
@@ -545,17 +611,6 @@ $$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
 
 **Problem:** A disease affects 1% of a population. A test has 99% sensitivity (true positive rate) and 95% specificity (true negative rate). A person tests positive. What is the probability they actually have the disease?
 **Solution:** Let D = disease, T = positive test. P(D) = 0.01, P(D') = 0.99. P(T|D) = 0.99, P(T|D') = 1 - 0.95 = 0.05. P(T) = P(T|D)P(D) + P(T|D')P(D') = 0.99(0.01) + 0.05(0.99) = 0.0099 + 0.0495 = 0.0594. P(D|T) = P(T|D)P(D)/P(T) = 0.0099/0.0594 = 0.1667 or approximately 16.7%. Despite a positive test, the probability of having the disease is only about 1/6 due to the low prior probability.
-
-
-```mermaid
-flowchart TD
-    A[Maths] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

@@ -18,10 +18,12 @@ description: "OAuth 2.0 is an framework defined in RFC 6749. It allows a third-p
 ## OAuth 2.0 Overview
 
 OAuth 2.0 is an **authorization** framework defined in RFC 6749. It allows a third-party application
-To obtain limited access to a user's resources on a resource server without sharing the user's
+to obtain limited access to a user's resources on a resource server without sharing the user's
 Credentials. OAuth 2.0 is not an authentication protocol -- it delegates authorization.
 
 ### Roles
+
+<div class="table-wrap">
 
 | Role                 | Description                                                              |
 | -------------------- | ------------------------------------------------------------------------ |
@@ -29,6 +31,8 @@ Credentials. OAuth 2.0 is not an authentication protocol -- it delegates authori
 | Client               | The application requesting access (e.g., a mobile app)                   |
 | Authorization Server | Issues access tokens after authenticating the user and obtaining consent |
 | Resource Server      | The API that holds the protected resources (e.g., Google API)            |
+
+</div>
 
 ```mermaid
 flowchart LR
@@ -99,6 +103,8 @@ function base64URLEncode(buffer) {
 // Step 4: Send code_verifier in token request (server verifies challenge)
 ```
 
+<div class="table-wrap">
+
 | Step                 | What Happens                                           |
 | -------------------- | ------------------------------------------------------ |
 | 1. Generate verifier | Client creates random `code_verifier`                  |
@@ -106,6 +112,8 @@ function base64URLEncode(buffer) {
 | 3. Authorization     | Client sends `code_challenge` to auth server           |
 | 4. Token exchange    | Client sends `code_verifier` to auth server            |
 | 5. Verification      | Server verifies `SHA256(verifier) == challenge`        |
+
+</div>
 
 ### Authorization Code Flow Step-by-Step
 
@@ -183,19 +191,27 @@ For devices with limited input capability (CLI tools, IoT devices, smart TVs):
 
 ### Deprecated Grants
 
+<div class="table-wrap">
+
 | Grant                   | Why Deprecated                 | Replacement               |
 | ----------------------- | ------------------------------ | ------------------------- |
 | Implicit                | Token exposed in URL fragment  | Authorization Code + PKCE |
 | Resource Owner Password | Credentials shared with client | Authorization Code + PKCE |
 
+</div>
+
 ## Access Tokens
 
 ### JWT vs Opaque Tokens
+
+<div class="table-wrap">
 
 | Format | Self-Contained | Revocation               | Performance                        | Use Case                          |
 | ------ | -------------- | ------------------------ | ---------------------------------- | --------------------------------- |
 | JWT    | Yes            | Difficult (short TTL)    | Fast (no introspection needed)     | Stateless APIs, microservices     |
 | Opaque | No             | Easy (delete from store) | Requires introspection per request | APIs with strict revocation needs |
+
+</div>
 
 ### JWT Structure
 
@@ -207,6 +223,8 @@ SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c   # Signature
 
 ### Common JWT Claims
 
+<div class="table-wrap">
+
 | Claim   | Meaning                       | Example                    |
 | ------- | ----------------------------- | -------------------------- |
 | `iss`   | Issuer                        | `https://auth.example.com` |
@@ -216,6 +234,8 @@ SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c   # Signature
 | `iat`   | Issued at                     | `1700000000`               |
 | `jti`   | JWT ID (unique identifier)    | `abc123def456`             |
 | `scope` | Granted scopes/permissions    | `read:users write:orders`  |
+
+</div>
 
 ### Token Validation Checklist
 
@@ -298,6 +318,8 @@ Authentication (verifying who the user is) in addition to authorization.
 
 ### OIDC Endpoints
 
+<div class="table-wrap">
+
 | Endpoint                            | Purpose                                             |
 | ----------------------------------- | --------------------------------------------------- |
 | `/authorize`                        | Authentication request (same as OAuth 2.0)          |
@@ -305,6 +327,8 @@ Authentication (verifying who the user is) in addition to authorization.
 | `/userinfo`                         | Get user profile information                        |
 | `/jwks`                             | JSON Web Key Set (public keys for JWT verification) |
 | `/.well-known/openid-configuration` | OIDC discovery document                             |
+
+</div>
 
 ### id_token
 
@@ -326,6 +350,8 @@ The `id_token` is a JWT that contains identity claims about the authenticated us
 
 ### OIDC Scopes and Claims
 
+<div class="table-wrap">
+
 | Scope     | Claims Returned                          |
 | --------- | ---------------------------------------- |
 | `openid`  | `sub` (required for all OIDC flows)      |
@@ -333,6 +359,8 @@ The `id_token` is a JWT that contains identity claims about the authenticated us
 | `email`   | `email``email_verified`                  |
 | `address` | `address` (formatted address object)     |
 | `phone`   | `phone_number``phone_number_verified`    |
+
+</div>
 
 ### OIDC Flows
 
@@ -348,12 +376,16 @@ Interception via URL history, referrer headers, and browser extensions.
 
 ### Storage
 
+<div class="table-wrap">
+
 | Location          | Vulnerable to XSS? | Vulnerable to CSRF?         | Recommendation                    |
 | ----------------- | ------------------ | --------------------------- | --------------------------------- |
 | `localStorage`    | Yes                | No                          | Never use for sensitive tokens    |
 | `sessionStorage`  | Yes                | No                          | Never use for sensitive tokens    |
 | `httpOnly` cookie | No                 | Yes (mitigated by SameSite) | Recommended for web apps          |
 | In-memory (SPA)   | No (until refresh) | N/A                         | Good for SPAs with silent refresh |
+
+</div>
 
 ```javascript
 // Recommended: httpOnly cookie for tokens (set by server)
@@ -494,6 +526,8 @@ Always use `S256` (SHA-256) as the challenge method.
 
 OAuth 2.1 (draft) consolidates best practices from OAuth 2.0 security BCPs:
 
+<div class="table-wrap">
+
 | Change                        | Impact                                         |
 | ----------------------------- | ---------------------------------------------- |
 | Implicit grant removed        | All clients must use authorization code + PKCE |
@@ -502,6 +536,8 @@ OAuth 2.1 (draft) consolidates best practices from OAuth 2.0 security BCPs:
 | Redirect URI must use HTTPS   | HTTP redirect URIs no longer allowed           |
 | Exact redirect URI matching   | No partial/path-based matching                 |
 | Sender-constrained tokens     | DPoP or mTLS for proof-of-possession           |
+
+</div>
 
 ## Common Pitfalls
 
@@ -549,8 +585,8 @@ def list_users():
 ### Accepting Tokens from Untrusted Issuers
 
 Always validate the `iss` claim against a known list of trusted issuers. If your API accepts tokens
-From `https://auth.example.com` but also accepts tokens from any issuer, an attacker can create
-Their own authorization server and issue tokens with arbitrary claims.
+from `https://auth.example.com` but also accepts tokens from any issuer, an attacker can create
+their own authorization server and issue tokens with arbitrary claims.
 
 ## Summary
 
@@ -565,17 +601,11 @@ key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 OAuth 2.0 is a delegation protocol that lets users grant third-party applications limited access to their resources without sharing passwords. Think of it as a valet key for your car: it lets someone drive but not open the trunk. The authorization code flow is the most secure pattern, exchanging a short-lived code for tokens through a back-channel. Access tokens grant temporary access, while refresh tokens allow obtaining new access tokens without re-authentication.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

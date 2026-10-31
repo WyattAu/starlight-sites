@@ -25,16 +25,16 @@ The `unsafe` keyword grants access to five capabilities that the compiler cannot
 4. **Implement unsafe traits**, `unsafe impl Send for T {}`
 5. **Access union fields**. Unions require unsafe for field access
 
-`unsafe` does not disable the borrow checker. It does not bypass Rust"s safety guarantees, it
+`unsafe` does not disable the borrow checker. It does not bypass Rust's safety guarantees, it
 Allows you to do things that the compiler cannot prove are safe. You are responsible for maintaining
-All invariants manually.
+all invariants manually.
 
 ## Raw Pointers
 
 ### `*const T` and `*mut T`
 
 Raw pointers are like C pointers, they can be null, dangling, misaligned, or aliased. The compiler
-Does not check them:
+does not check them:
 
 ```rust
 let x = 42;
@@ -148,7 +148,7 @@ fn caller() {
 ### Unsafe Blocks
 
 `unsafe` blocks delimit the region where unsafe operations are permitted. The compiler checks that
-All unsafe operations occur within an `unsafe` block:
+all unsafe operations occur within an `unsafe` block:
 
 ```rust
 fn split_at_mut(values: &mut [i32], mid: usize) -> (&mut [i32], &mut [i32]) {
@@ -392,7 +392,7 @@ Understanding how `Vec` works internally is essential for writing unsafe code co
 ### Arena Allocators
 
 Arena allocation allocates from a contiguous memory region. All allocations are freed at once when
-The arena is dropped. This eliminates per-allocation deallocation overhead and ensures all
+the arena is dropped. This eliminates per-allocation deallocation overhead and ensures all
 References have the same lifetime:
 
 ```rust
@@ -471,7 +471,7 @@ References. If the arena is dropped while interned references exist, they become
 ## Undefined Behavior in Rust
 
 Undefined behavior (UB) means the compiler is free to assume the undefined operation never happens
-And can optimize based on that assumption. UB in Rust includes:
+and can optimize based on that assumption. UB in Rust includes:
 
 - Dereferencing a null pointer
 - Dereferencing a dangling pointer (use-after-free)
@@ -562,7 +562,7 @@ Exercises edge cases that hand-written tests may miss.
 
 1. **FFI**. Calling C functions or exposing Rust functions to C
 2. **Performance-critical code**. After profiling shows a bottleneck
-3. **Implementing safe abstractions**, `Vec``String``Box` are all implemented with `unsafe`
+3. **Implementing safe abstractions**, `Vec`, `String`, `Box` are all implemented with `unsafe`
 4. **Interfacing with hardware**. Memory-mapped I/O, raw device access
 5. **Custom allocators**. Implementing `GlobalAlloc`
 
@@ -597,7 +597,7 @@ Exercises edge cases that hand-written tests may miss.
    behavior that may not manifest in normal testing.
 
 7. **Over-large `unsafe` blocks.** Keep `unsafe` blocks as small as possible. Each block should
-   contain exactly the operations that require `unsafe`With clear comments explaining why they are
+   contain exactly the operations that require `unsafe`. With clear comments explaining why they are
    safe.
 
 8. **Assuming layout.** Unless `#[repr(C)]` is specified, the compiler may reorder struct fields and
@@ -731,7 +731,7 @@ impl Drop for ManualBuffer {
 ### Transmuting Types
 
 `std::mem::transmute` reinterprets the bits of one type as another. It is extremely dangerous and
-Should be avoided when alternatives exist:
+should be avoided when alternatives exist:
 
 ```rust
 // Dangerous, use only when you understand the exact bit layout
@@ -847,7 +847,7 @@ fn from_ascii(s: &[u8]) -> String {
 ```
 
 Only use this when you can prove the bytes are valid UTF-8. The assertion above checks ASCII (which
-Is a subset of UTF-8), so the conversion is safe.
+is a subset of UTF-8), so the conversion is safe.
 
 ## Interoperability with C++
 

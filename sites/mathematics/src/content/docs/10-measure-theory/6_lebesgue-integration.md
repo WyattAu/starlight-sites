@@ -22,15 +22,21 @@ description: "For a non-negative measurable simple function with and disjoint, d
 For a non-negative measurable simple function $s = \sum_{i=1}^n a_i \chi_{A_i}$ with $a_i \geq 0$
 and $\{A_i\}$ disjoint, define:
 
-$$\int_X s\, d\mu = \sum_{i=1}^n a_i \mu(A_i)$$
+$$
+\int_X s\, d\mu = \sum_{i=1}^n a_i \mu(A_i)
+$$
 
 For a non-negative measurable function $f$, define:
 
-$$\int_X f\, d\mu = \sup\left\{\int_X s\, d\mu : 0 \leq s \leq f,\ s \text{ simple}\right\}$$
+$$
+\int_X f\, d\mu = \sup\left\{\int_X s\, d\mu : 0 \leq s \leq f,\ s \text{ simple}\right\}
+$$
 
 This definition is consistent with Theorem 5.4: by monotone convergence, we also have
 
-$$\int_X f\, d\mu = \lim_{n \to \infty} \int_X s_n\, d\mu$$
+$$
+\int_X f\, d\mu = \lim_{n \to \infty} \int_X s_n\, d\mu
+$$
 
 for any increasing sequence of simple functions $s_n \nearrow f$.
 
@@ -40,7 +46,9 @@ For a measurable function $f : X \to \mathbb{R}$, define $f^+ = \max(f, 0)$ and 
 so $f = f^+ - f^-$ and $|f| = f^+ + f^-$. If $\int f^+\, d\mu < \infty$ and
 $\int f^-\, d\mu < \infty$ (i.e., $\int |f|\, d\mu < \infty$), define:
 
-$$\int_X f\, d\mu = \int_X f^+\, d\mu - \int_X f^-\, d\mu$$
+$$
+\int_X f\, d\mu = \int_X f^+\, d\mu - \int_X f^-\, d\mu
+$$
 
 The function $f$ is called **integrable** (or $f \in L^1(\mu)$) if $\int |f|\, d\mu < \infty$.
 
@@ -51,20 +59,26 @@ $af + bg \in L^1(\mu)$ and $\int(af + bg)\, d\mu = a\int f\, d\mu + b\int g\, d\
 
 **Proposition 6.2 (Monotonicity).** If $f \leq g$ a.e., then $\int f\, d\mu \leq \int g\, d\mu$.
 
-**Proposition 6.3 (Markov"s Inequality).** If $f \geq 0$ is measurable, then for any $a > 0$:
+**Proposition 6.3 (Markov's Inequality).** If $f \geq 0$ is measurable, then for any $a > 0$:
 
-$$\mu(\{x : |f(x)| \geq a\}) \leq \frac{1}{a}\int |f|\, d\mu$$
+$$
+\mu(\{x : |f(x)| \geq a\}) \leq \frac{1}{a}\int |f|\, d\mu
+$$
 
 **Theorem 6.4 (Chebyshev's Inequality).** If $f \in L^2(\mu)$, then for any $a > 0$:
 
-$$\mu(\{|f - \int f\, d\mu| \geq a\}) \leq \frac{1}{a^2}\mathrm{Var}(f)$$
+$$
+\mu(\{|f - \int f\, d\mu| \geq a\}) \leq \frac{1}{a^2}\mathrm{Var}(f)
+$$
 
 ### 6.4 Convergence Theorems
 
 **Theorem 6.5 (Monotone Convergence Theorem -- Levi).** If $0 \leq f_1 \leq f_2 \leq \cdots$ are
 measurable and $f_n \to f$ pointwise, then:
 
-$$\lim_{n \to \infty} \int f_n\, d\mu = \int f\, d\mu$$
+$$
+\lim_{n \to \infty} \int f_n\, d\mu = \int f\, d\mu
+$$
 
 _Proof sketch._ Let $s$ be a simple function with $s \leq f$. Define
 $E_n = \{x : f_n(x) \geq (1 - \varepsilon)s(x)\}$. Then $E_n \nearrow X$ and
@@ -73,23 +87,31 @@ $\varepsilon \to 0$. $\blacksquare$
 
 **Theorem 6.6 (Fatou's Lemma).** If $f_n \geq 0$ are measurable, then:
 
-$$\int \liminf_{n\to\infty} f_n\, d\mu \leq \liminf_{n\to\infty} \int f_n\, d\mu$$
+$$
+\int \liminf_{n\to\infty} f_n\, d\mu \leq \liminf_{n\to\infty} \int f_n\, d\mu
+$$
 
 _Proof._ Define $g_n = \inf_{k \geq n} f_k$. Then $0 \leq g_1 \leq g_2 \leq \cdots$ and
 $g_n \to \liminf f_n$. By monotone convergence:
 
-$$\int \liminf f_n\, d\mu = \lim_{n\to\infty} \int g_n\, d\mu \leq \liminf_{n\to\infty} \int f_n\, d\mu$$
+$$
+\int \liminf f_n\, d\mu = \lim_{n\to\infty} \int g_n\, d\mu \leq \liminf_{n\to\infty} \int f_n\, d\mu
+$$
 
 $\blacksquare$
 
 **Theorem 6.7 (Dominated Convergence Theorem).** If $f_n \to f$ a.e. and there exists
 $g \in L^1(\mu)$ with $|f_n| \leq g$ a.e. for all $n$, then:
 
-$$\lim_{n\to\infty} \int f_n\, d\mu = \int f\, d\mu$$
+$$
+\lim_{n\to\infty} \int f_n\, d\mu = \int f\, d\mu
+$$
 
 _Proof sketch._ Apply Fatou's lemma to $g + f_n$ and $g - f_n$:
 
-$$\int f\, d\mu \leq \liminf \int f_n\, d\mu \quad \text{and} \quad \int f\, d\mu \geq \limsup \int f_n\, d\mu$$
+$$
+\int f\, d\mu \leq \liminf \int f_n\, d\mu \quad \text{and} \quad \int f\, d\mu \geq \limsup \int f_n\, d\mu
+$$
 
 Combining gives the result. $\blacksquare$
 
@@ -101,18 +123,24 @@ _Solution._ For each $x \in [0, 1]$, $(1 - x^2/n)^n \to e^{-x^2}$ as $n \to \inf
 $0 \leq (1 - x^2/n)^n \leq 1$ for all $n$ and $x$, we can apply the dominated convergence theorem
 with $g(x) = 1 \in L^1([0, 1])$:
 
-$$\lim_{n\to\infty} \int_0^1 (1 - x^2/n)^n\, dx = \int_0^1 e^{-x^2}\, dx = \frac{\sqrt{\pi}}{2}\,\mathrm{erf}(1) \approx 0.7468$$
+$$
+\lim_{n\to\infty} \int_0^1 (1 - x^2/n)^n\, dx = \int_0^1 e^{-x^2}\, dx = \frac{\sqrt{\pi}}{2}\,\mathrm{erf}(1) \approx 0.7468
+$$
 
 $\blacksquare$
 
 ### 6.6 Key Relationships
 
+<div class="table-wrap">
+
 | Theorem            | Hypothesis                                      | Conclusion                                                     | Role                                |
 | ------------------ | ----------------------------------------------- | -------------------------------------------------------------- | ----------------------------------- |
 | MCT (Levi)         | $f_n \nearrow f$ pointwise, $f_n \geq 0$        | $\int f_n \to \int f$                                          | Foundation for all limit theorems   |
 | Fatou's lemma      | $f_n \geq 0$ measurable                         | $\int \liminf f_n \leq \liminf \int f_n$                       | Works without convergence           |
-| DCT                | $f_n \to f$ a.e., $|f_n| \leq g \in L^1$       | $\int f_n \to \int f$                                          | Most widely used limit theorem      |
+| DCT                | $f_n \to f$ a.e., $\|f_n\| \leq g \in L^1$       | $\int f_n \to \int f$                                          | Most widely used limit theorem      |
 | Markov's inequality| $f \geq 0$ meas., $a > 0$                       | $\mu(\{f \geq a\}) \leq \frac{1}{a}\int f$                    | Bounds tail probabilities           |
+
+</div>
 
 The three convergence theorems are related: DCT follows from Fatou, and Fatou follows from MCT. Together they form the backbone of Lebesgue integration theory.
 
@@ -138,22 +166,15 @@ The key advantage is that the Lebesgue integral can handle functions with wild d
 
 ### 6.9 Summary Table
 
+<div class="table-wrap">
+
 | Integral type        | Definition                                                              | Key property                     |
 | -------------------- | ----------------------------------------------------------------------- | -------------------------------- |
 | Simple function      | $\sum a_i \chi_{A_i}$ with $a_i \geq 0$, $\{A_i\}$ disjoint             | $\int = \sum a_i \mu(A_i)$       |
 | Non-negative meas.   | $\sup\{\int s : 0 \leq s \leq f,\ s\text{ simple}\}$                    | MCT applies                      |
-| General measurable   | $\int f = \int f^+ - \int f^-$                                          | $f \in L^1$ iff $\int|f| < \infty$ |
+| General measurable   | $\int f = \int f^+ - \int f^-$                                          | $f \in L^1$ iff $\int\|f\| < \infty$ |
 
-
-```mermaid
-flowchart TD
-    A[6_Lebesgue Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Cross-References
 
@@ -161,8 +182,8 @@ flowchart TD
 - **[Sigma-Algebras and Measurable Spaces](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/)**: Measurable functions and their integrals are defined with respect to a sigma-algebra on the domain.
 - **[Riemann Integration](/3-real-analysis/6_riemann-integration/)**: Every Riemann integrable function is Lebesgue integrable, but the Lebesgue integral handles a strictly larger class of functions.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -172,50 +193,11 @@ flowchart TD
 
 **Solution.** Let $f_n(x) = \sin(nx)/n$. For each $x \in [0,\pi]$, $|f_n(x)| \leq 1/n \to 0$, so $f_n \to 0$ pointwise. Also $|f_n(x)| \leq 1$ for all $n$ and $x$, and $g(x) = 1$ is integrable on $[0,\pi]$. By DCT:
 
-$$\lim_{n\to\infty} \int_0^\pi \frac{\sin(nx)}{n}\, dx = \int_0^\pi 0\, dx = 0$$
+$$
+\lim_{n\to\infty} \int_0^\pi \frac{\sin(nx)}{n}\, dx = \int_0^\pi 0\, dx = 0
+$$
 
 We can verify directly: $\int_0^\pi \sin(nx)\, dx = [-\cos(nx)/n]_0^\pi = (1 - (-1)^n)/n$, so the integral is $0$ for even $n$ and $2/n^2$ for odd $n$, both vanishing as $n\to\infty$.
 
 $\blacksquare$
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

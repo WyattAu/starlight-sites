@@ -26,12 +26,16 @@ import DesmosGraph from "@components/DesmosGraph";
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper      | Notes                                                                    |
 | ---------- | ---------- | ------------------------------------------------------------------------ |
 | AQA        | Paper 1, 2 | Basic trig in P1; compound/double angle, trig equations in P2            |
 | Edexcel    | P1, P2     | Similar split                                                            |
 | OCR (A)    | Paper 1, 2 | Includes small angle approximations                                      |
 | CIE (9709) | P1, P2, P3 | Trig functions in P1; identities and equations in P2; further trig in P3 |
+
+</div>
 
 <Aside type="note">
 All boards provide trigonometric identities in the formula booklet, but not their proofs.
@@ -49,31 +53,43 @@ $(\cos\theta, \sin\theta)$.
 
 **Definition.**
 
-$$\cos\theta = \mathrm{the } x\mathrm{-coordinate of the point on the unit circle at angle } \theta$$
+$$
+\cos\theta = \mathrm{the } x\mathrm{-coordinate of the point on the unit circle at angle } \theta
+$$
 
-$$\sin\theta = \mathrm{the } y\mathrm{-coordinate of the point on the unit circle at angle } \theta$$
+$$
+\sin\theta = \mathrm{the } y\mathrm{-coordinate of the point on the unit circle at angle } \theta
+$$
 
-$$\tan\theta = \frac{\sin\theta}{\cos\theta} \quad (\cos\theta \neq 0)$$
+$$
+\tan\theta = \frac{\sin\theta}{\cos\theta} \quad (\cos\theta \neq 0)
+$$
 
 _Intuition._ These definitions extend the right-triangle definitions (SOH CAH TOA) to all angles,
 Not just those between 0° and 90°. The unit circle makes clear why $\sin$ and $\cos$ are periodic
-With period $2\pi$.
+with period $2\pi$.
 
 ### 1.1 Radian Measure
 
 **Definition.** One _radian_ is the angle subtended at the centre of a circle by an arc equal in
 Length to the radius.
 
-$$\theta\mathrm{ (radians)} = \frac{\mathrm{arc length}}{r}$$
+$$
+\theta\mathrm{ (radians)} = \frac{\mathrm{arc length}}{r}
+$$
 
 The full circle: $2\pi$ radians $= 360^\circ$ So $\pi$ radians $= 180^\circ$.
 
 **Theorem (Arc length and sector area).** For a sector of radius $r$ and angle $\theta$ (in
 Radians):
 
-$$\mathrm{Arc length } s = r\theta$$
+$$
+\mathrm{Arc length } s = r\theta
+$$
 
-$$\mathrm{Sector area } A = \frac{1}{2}r^2\theta$$
+$$
+\mathrm{Sector area } A = \frac{1}{2}r^2\theta
+$$
 
 _Proof._ By definition, $\theta = s/r$ So $s = r\theta$. The sector is a fraction
 $\frac{\theta}{2\pi}$ of the full circle (area $\pi r^2$), so
@@ -87,19 +103,27 @@ $A = \frac{\theta}{2\pi} \cdot \pi r^2 = \frac{1}{2}r^2\theta$. $\blacksquare$
 
 **Theorem.** For all $\theta \in \mathbb{R}$:
 
-$$\sin^2\theta + \cos^2\theta = 1$$
+$$
+\sin^2\theta + \cos^2\theta = 1
+$$
 
 _Proof._ The point $(\cos\theta, \sin\theta)$ lies on the unit circle $x^2 + y^2 = 1$.
 
-$$\cos^2\theta + \sin^2\theta = 1 \quad \blacksquare$$
+$$
+\cos^2\theta + \sin^2\theta = 1 \quad \blacksquare
+$$
 
 **Corollary.** Dividing by $\cos^2\theta$ (where $\cos\theta \neq 0$):
 
-$$1 + \tan^2\theta = \sec^2\theta$$
+$$
+1 + \tan^2\theta = \sec^2\theta
+$$
 
 Dividing by $\sin^2\theta$ (where $\sin\theta \neq 0$):
 
-$$\cot^2\theta + 1 = \cosec^2\theta$$
+$$
+\cot^2\theta + 1 = \cosec^2\theta
+$$
 
 <DesmosGraph client:only="solid-js" title="sin, cos, and tan on the Unit Circle" expressions={["\\sin(x)", "\\cos(x)",
 "\\tan(x)"]} width={800} height={500} />
@@ -112,62 +136,78 @@ $$\cot^2\theta + 1 = \cosec^2\theta$$
 
 **Theorem.** For all $A, B \in \mathbb{R}$:
 
-$$\sin(A + B) = \sin A \cos B + \cos A \sin B$$
+$$
+\sin(A + B) = \sin A \cos B + \cos A \sin B
+$$
 
 _Proof (using rotation matrices)._ Consider the rotation of the plane by angle $A$ followed by
 Rotation by angle $B$. The combined rotation is by angle $A + B$.
 
 The rotation matrix by angle $\theta$ is:
 
-$$R(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$$
+$$
+R(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}
+$$
 
 Matrix multiplication gives: $R(A)R(B) = R(A + B)$.
 
-$$\begin{pmatrix} \cos A & -\sin A \\ \sin A & \cos A \end{pmatrix}\begin{pmatrix} \cos B & -\sin B \\ \sin B & \cos B \end{pmatrix} = \begin{pmatrix} \cos(A+B) & -\sin(A+B) \\ \sin(A+B) & \cos(A+B) \end{pmatrix}$$
+$$
+\begin{pmatrix} \cos A & -\sin A \\ \sin A & \cos A \end{pmatrix}\begin{pmatrix} \cos B & -\sin B \\ \sin B & \cos B \end{pmatrix} = \begin{pmatrix} \cos(A+B) & -\sin(A+B) \\ \sin(A+B) & \cos(A+B) \end{pmatrix}
+$$
 
 The $(2, 1)$ entry of the product is:
 
-$$\sin A \cos B + \cos A \sin B = \sin(A + B) \quad \blacksquare$$
+$$
+\sin A \cos B + \cos A \sin B = \sin(A + B) \quad \blacksquare
+$$
 
 ### 3.2 Cosine of a Sum
 
 **Theorem.**
 
-$$\cos(A + B) = \cos A \cos B - \sin A \sin B$$
+$$
+\cos(A + B) = \cos A \cos B - \sin A \sin B
+$$
 
 _Proof._ From the $(1, 1)$ entry of the matrix product above:
 
-$$\cos A \cos B - \sin A \sin B = \cos(A + B) \quad \blacksquare$$
+$$
+\cos A \cos B - \sin A \sin B = \cos(A + B) \quad \blacksquare
+$$
 
 ### 3.3 Tangent of a Sum
 
 **Theorem.**
 
-$$\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}$$
+$$
+\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}
+$$
 
 _Proof._
 
 $$
-\begin\{aligned\}
-\tan(A + B) &= \frac\{\sin(A + B)\}\{\cos(A + B)\} \\
-&= \frac\{\sin A \cos B + \cos A \sin B\}\{\cos A \cos B - \sin A \sin B\}
-\end\{aligned\}
+\begin{aligned}
+\tan(A + B) &= \frac{\sin(A + B)}{\cos(A + B)} \\
+&= \frac{\sin A \cos B + \cos A \sin B}{\cos A \cos B - \sin A \sin B}
+\end{aligned}
 $$
 
 Divide numerator and denominator by $\cos A \cos B$:
 
-$$= \frac{\tan A + \tan B}{1 - \tan A \tan B} \quad \blacksquare$$
+$$
+= \frac{\tan A + \tan B}{1 - \tan A \tan B} \quad \blacksquare
+$$
 
 ### 3.4 Difference Formulas
 
 **Theorem.**
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 \sin(A - B) &= \sin A \cos B - \cos A \sin B \\
 \cos(A - B) &= \cos A \cos B + \sin A \sin B \\
-\tan(A - B) &= \frac\{\tan A - \tan B\}\{1 + \tan A \tan B\}
-\end\{aligned\}
+\tan(A - B) &= \frac{\tan A - \tan B}{1 + \tan A \tan B}
+\end{aligned}
 $$
 
 _Proof._ Replace $B$ with $-B$ in the sum formulas, using $\sin(-B) = -\sin B$ and
@@ -180,16 +220,18 @@ $\cos(-B) = \cos B$. $\blacksquare$
 Setting $A = B$ in the compound angle formulas:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 \sin 2A &= 2\sin A \cos A \\
 \cos 2A &= \cos^2 A - \sin^2 A \\
-\tan 2A &= \frac\{2\tan A\}\{1 - \tan^2 A\}
-\end\{aligned\}
+\tan 2A &= \frac{2\tan A}{1 - \tan^2 A}
+\end{aligned}
 $$
 
 **Theorem.** Three equivalent forms of $\cos 2A$:
 
-$$\cos 2A = \cos^2 A - \sin^2 A = 2\cos^2 A - 1 = 1 - 2\sin^2 A$$
+$$
+\cos 2A = \cos^2 A - \sin^2 A = 2\cos^2 A - 1 = 1 - 2\sin^2 A
+$$
 
 _Proof._ Using $\sin^2 A = 1 - \cos^2 A$:
 
@@ -216,11 +258,11 @@ Integration.
 ### 5.2 Key Solutions
 
 $$
-\begin\{aligned\}
-\sin\theta = a &\implies \theta = \arcsin(a) + 2n\pi \mathrm\{ or \} \pi - \arcsin(a) + 2n\pi \\
+\begin{aligned}
+\sin\theta = a &\implies \theta = \arcsin(a) + 2n\pi \mathrm{ or } \pi - \arcsin(a) + 2n\pi \\
 \cos\theta = a &\implies \theta = \pm\arccos(a) + 2n\pi \\
 \tan\theta = a &\implies \theta = \arctan(a) + n\pi
-\end\{aligned\}
+\end{aligned}
 $$
 
 <details>
@@ -229,13 +271,21 @@ Solve $2\sin^2\theta + 3\cos\theta - 3 = 0$ for $0 \leq \theta < 2\pi$.
 
 Using $\sin^2\theta = 1 - \cos^2\theta$:
 
-$$2(1 - \cos^2\theta) + 3\cos\theta - 3 = 0$$
+$$
+2(1 - \cos^2\theta) + 3\cos\theta - 3 = 0
+$$
 
-$$-2\cos^2\theta + 3\cos\theta - 1 = 0$$
+$$
+-2\cos^2\theta + 3\cos\theta - 1 = 0
+$$
 
-$$2\cos^2\theta - 3\cos\theta + 1 = 0$$
+$$
+2\cos^2\theta - 3\cos\theta + 1 = 0
+$$
 
-$$(2\cos\theta - 1)(\cos\theta - 1) = 0$$
+$$
+(2\cos\theta - 1)(\cos\theta - 1) = 0
+$$
 
 $\cos\theta = \frac{1}{2} \implies \theta = \frac{\pi}{3}$ or
 $\frac{5\pi}{3}$.
@@ -253,18 +303,20 @@ Solutions: $\theta = 0, \frac{\pi}{3}, \frac{5\pi}{3}$.
 **Theorem.** For small $\theta$ (in radians):
 
 $$
-\begin\{aligned\}
-\sin\theta &\approx \theta - \frac\{\theta^3\}\{6\} \\
-\cos\theta &\approx 1 - \frac\{\theta^2\}\{2\} \\
-\tan\theta &\approx \theta + \frac\{\theta^3\}\{3\}
-\end\{aligned\}
+\begin{aligned}
+\sin\theta &\approx \theta - \frac{\theta^3}{6} \\
+\cos\theta &\approx 1 - \frac{\theta^2}{2} \\
+\tan\theta &\approx \theta + \frac{\theta^3}{3}
+\end{aligned}
 $$
 
 These follow from the Maclaurin series expansions (see [Differentiation](/maths/pure-mathematics/10-differentiation/)).
 
 For the linear approximations (when $\theta$ is very small):
 
-$$\sin\theta \approx \theta, \quad \cos\theta \approx 1, \quad \tan\theta \approx \theta$$
+$$
+\sin\theta \approx \theta, \quad \cos\theta \approx 1, \quad \tan\theta \approx \theta
+$$
 
 _Intuition._ Near the origin, the curves $y = \sin\theta$ and $y = \tan\theta$ are almost
 Indistinguishable from the line $y = \theta$. The curve $y = \cos\theta$ is nearly flat at $y = 1$.
@@ -281,43 +333,67 @@ Degrees. This is a very common exam error.
 
 **Theorem.** For all $\theta$:
 
-$$\sin\frac{\theta}{2} = \pm\sqrt{\frac{1 - \cos\theta}{2}}$$
+$$
+\sin\frac{\theta}{2} = \pm\sqrt{\frac{1 - \cos\theta}{2}}
+$$
 
-$$\cos\frac{\theta}{2} = \pm\sqrt{\frac{1 + \cos\theta}{2}}$$
+$$
+\cos\frac{\theta}{2} = \pm\sqrt{\frac{1 + \cos\theta}{2}}
+$$
 
-$$\tan\frac{\theta}{2} = \frac{\sin\theta}{1 + \cos\theta} = \frac{1 - \cos\theta}{\sin\theta}$$
+$$
+\tan\frac{\theta}{2} = \frac{\sin\theta}{1 + \cos\theta} = \frac{1 - \cos\theta}{\sin\theta}
+$$
 
 ### 7.1 Derivation
 
 Starting from $\cos 2A = 1 - 2\sin^2 A$ and substituting $A = \frac{\theta}{2}$:
 
-$$\cos\theta = 1 - 2\sin^2\frac{\theta}{2}$$
+$$
+\cos\theta = 1 - 2\sin^2\frac{\theta}{2}
+$$
 
-$$2\sin^2\frac{\theta}{2} = 1 - \cos\theta$$
+$$
+2\sin^2\frac{\theta}{2} = 1 - \cos\theta
+$$
 
-$$\sin\frac{\theta}{2} = \pm\sqrt{\frac{1 - \cos\theta}{2}} \quad \blacksquare$$
+$$
+\sin\frac{\theta}{2} = \pm\sqrt{\frac{1 - \cos\theta}{2}} \quad \blacksquare
+$$
 
 Similarly, from $\cos 2A = 2\cos^2 A - 1$:
 
-$$\cos\theta = 2\cos^2\frac{\theta}{2} - 1$$
+$$
+\cos\theta = 2\cos^2\frac{\theta}{2} - 1
+$$
 
-$$2\cos^2\frac{\theta}{2} = 1 + \cos\theta$$
+$$
+2\cos^2\frac{\theta}{2} = 1 + \cos\theta
+$$
 
-$$\cos\frac{\theta}{2} = \pm\sqrt{\frac{1 + \cos\theta}{2}} \quad \blacksquare$$
+$$
+\cos\frac{\theta}{2} = \pm\sqrt{\frac{1 + \cos\theta}{2}} \quad \blacksquare
+$$
 
 ### 7.2 Tangent Half-Angle Formulas
 
 The tangent half-angle formulas avoid the ambiguity of the $\pm$ sign:
 
-$$\tan\frac{\theta}{2} = \frac{\sin\theta}{1 + \cos\theta}$$
+$$
+\tan\frac{\theta}{2} = \frac{\sin\theta}{1 + \cos\theta}
+$$
 
 _Proof._ Using the double angle formulas:
 
-$$\frac{\sin\theta}{1 + \cos\theta} = \frac{2\sin\frac{\theta}{2}\cos\frac{\theta}{2}}{1 + (2\cos^2\frac{\theta}{2} - 1)} = \frac{2\sin\frac{\theta}{2}\cos\frac{\theta}{2}}{2\cos^2\frac{\theta}{2}} = \frac{\sin\frac{\theta}{2}}{\cos\frac{\theta}{2}} = \tan\frac{\theta}{2} \quad \blacksquare$$
+$$
+\frac{\sin\theta}{1 + \cos\theta} = \frac{2\sin\frac{\theta}{2}\cos\frac{\theta}{2}}{1 + (2\cos^2\frac{\theta}{2} - 1)} = \frac{2\sin\frac{\theta}{2}\cos\frac{\theta}{2}}{2\cos^2\frac{\theta}{2}} = \frac{\sin\frac{\theta}{2}}{\cos\frac{\theta}{2}} = \tan\frac{\theta}{2} \quad \blacksquare
+$$
 
 Similarly:
 
-$$\tan\frac{\theta}{2} = \frac{1 - \cos\theta}{\sin\theta}$$
+$$
+\tan\frac{\theta}{2} = \frac{1 - \cos\theta}{\sin\theta}
+$$
 
 _Proof._
 $\frac{1 - \cos\theta}{\sin\theta} = \frac{1 - (1 - 2\sin^2\frac{\theta}{2})}{2\sin\frac{\theta}{2}\cos\frac{\theta}{2}} = \frac{2\sin^2\frac{\theta}{2}}{2\sin\frac{\theta}{2}\cos\frac{\theta}{2}} = \frac{\sin\frac{\theta}{2}}{\cos\frac{\theta}{2}} = \tan\frac{\theta}{2} \quad \blacksquare$
@@ -328,12 +404,16 @@ The $\pm$ in the sine and cosine half-angle formulas depends on the quadrant of
 $\frac{\theta}{2}$ Not the quadrant of $\theta$ itself. Always determine which quadrant
 $\frac{\theta}{2}$ lies in Before choosing the sign.
 
+<div class="table-wrap">
+
 | Quadrant of $\frac{\theta}{2}$                                 | $\sin\frac{\theta}{2}$ | $\cos\frac{\theta}{2}$ |
 | -------------------------------------------------------------------------- | ---------------------------------- | ---------------------------------- |
 | I: $0 \lt \frac{\theta}{2} \lt \frac{\pi}{2}$      | $+$                                | $+$                                |
 | II: $\frac{\pi}{2} \lt \frac{\theta}{2} \lt \pi$   | $+$                                | $-$                                |
 | III: $\pi \lt \frac{\theta}{2} \lt \frac{3\pi}{2}$ | $-$                                | $-$                                |
 | IV: $\frac{3\pi}{2} \lt \frac{\theta}{2} \lt 2\pi$ | $-$                                | $+$                                |
+
+</div>
 
 <details>
 <summary>Worked example</summary>
@@ -342,7 +422,9 @@ Find the exact value of $\sin\frac{\pi}{8}$.
 Since $0 \lt \frac{\pi}{8} \lt \frac{\pi}{2}$ (first quadrant),
 $\sin\frac{\pi}{8} > 0$ So we Take the positive root.
 
-$$\sin\frac{\pi}{8} = \sqrt{\frac{1 - \cos\frac{\pi}{4}}{2}} = \sqrt{\frac{1 - \frac{\sqrt{2}}{2}}{2}} = \sqrt{\frac{2 - \sqrt{2}}{4}} = \frac{\sqrt{2 - \sqrt{2}}}{2}$$
+$$
+\sin\frac{\pi}{8} = \sqrt{\frac{1 - \cos\frac{\pi}{4}}{2}} = \sqrt{\frac{1 - \frac{\sqrt{2}}{2}}{2}} = \sqrt{\frac{2 - \sqrt{2}}{4}} = \frac{\sqrt{2 - \sqrt{2}}}{2}
+$$
 
 </details>
 
@@ -352,7 +434,9 @@ $$\sin\frac{\pi}{8} = \sqrt{\frac{1 - \cos\frac{\pi}{4}}{2}} = \sqrt{\frac{1 - \
 
 **Theorem.** For real numbers $a$ and $b$:
 
-$$a\sin\theta + b\cos\theta = R\sin(\theta + \alpha)$$
+$$
+a\sin\theta + b\cos\theta = R\sin(\theta + \alpha)
+$$
 
 Where $R = \sqrt{a^2 + b^2}$ and $\tan\alpha = \dfrac{b}{a}$.
 
@@ -360,7 +444,9 @@ Where $R = \sqrt{a^2 + b^2}$ and $\tan\alpha = \dfrac{b}{a}$.
 
 Alternatively, the same expression can be written as:
 
-$$a\sin\theta + b\cos\theta = R\cos(\theta - \beta)$$
+$$
+a\sin\theta + b\cos\theta = R\cos(\theta - \beta)
+$$
 
 Where $R = \sqrt{a^2 + b^2}$ and $\tan\beta = \dfrac{a}{b}$.
 
@@ -371,11 +457,15 @@ Sine or cosine expansion is more natural for the problem at hand.
 
 Expand the right-hand side of the sine form:
 
-$$R\sin(\theta + \alpha) = R\sin\theta\cos\alpha + R\cos\theta\sin\alpha$$
+$$
+R\sin(\theta + \alpha) = R\sin\theta\cos\alpha + R\cos\theta\sin\alpha
+$$
 
 Equating coefficients with $a\sin\theta + b\cos\theta$:
 
-$$R\cos\alpha = a, \qquad R\sin\alpha = b$$
+$$
+R\cos\alpha = a, \qquad R\sin\alpha = b
+$$
 
 Squaring and adding: $R^2\cos^2\alpha + R^2\sin^2\alpha = a^2 + b^2$ So $R^2 = a^2 + b^2$ and
 $R = \sqrt{a^2 + b^2}$.
@@ -389,16 +479,18 @@ $R\cos(\theta - \beta) = R\cos\theta\cos\beta + R\sin\theta\sin\beta$ and equati
 
 Since $-1 \leq \sin(\theta + \alpha) \leq 1$:
 
-$$-R \leq a\sin\theta + b\cos\theta \leq R$$
+$$
+-R \leq a\sin\theta + b\cos\theta \leq R
+$$
 
-- **Maximum** $= R = \sqrt{a^2 + b^2}$Occurring when
+- **Maximum** $= R = \sqrt{a^2 + b^2}$ Occurring when
   $\theta + \alpha = \frac{\pi}{2} + 2n\pi$.
-- **Minimum** $= -R$Occurring when $\theta + \alpha = \frac{3\pi}{2} + 2n\pi$.
+- **Minimum** $= -R$ Occurring when $\theta + \alpha = \frac{3\pi}{2} + 2n\pi$.
 
 <details>
 <summary>Example: Finding maximum and minimum</summary>
 Find the maximum and minimum values of $3\sin\theta - 4\cos\theta$ and the values of $\theta$ at
-Which they occur, for $0 \leq \theta \lt 2\pi$.
+which they occur, for $0 \leq \theta \lt 2\pi$.
 
 $R = \sqrt{9 + 16} = 5$.
 
@@ -407,17 +499,21 @@ $\tan\alpha = \dfrac{-4}{3}$ So $\alpha = -\arctan\dfrac{4}{3}$.
 
 Maximum $= 5$ when $\theta + \alpha = \frac{\pi}{2}$:
 
-$$\theta = \frac{\pi}{2} - \alpha = \frac{\pi}{2} + \arctan\frac{4}{3} \approx 2.214 \mathrm{ rad}$$
+$$
+\theta = \frac{\pi}{2} - \alpha = \frac{\pi}{2} + \arctan\frac{4}{3} \approx 2.214 \mathrm{ rad}
+$$
 
 Minimum $= -5$ when $\theta + \alpha = \frac{3\pi}{2}$:
 
-$$\theta = \frac{3\pi}{2} - \alpha = \frac{3\pi}{2} + \arctan\frac{4}{3} \approx 5.356 \mathrm{ rad}$$
+$$
+\theta = \frac{3\pi}{2} - \alpha = \frac{3\pi}{2} + \arctan\frac{4}{3} \approx 5.356 \mathrm{ rad}
+$$
 
 </details>
 
 ### 8.4 Solving Equations
 
-The R-addition formula converts $a\sin\theta + b\cos\theta = k$ into $R\sin(\theta + \alpha) = k$A
+The R-addition formula converts $a\sin\theta + b\cos\theta = k$ into $R\sin(\theta + \alpha) = k$ A
 Standard trigonometric equation.
 
 <details>
@@ -426,13 +522,21 @@ Solve $\sin\theta + \cos\theta = 1$ for $0 \leq \theta \lt 2\pi$.
 
 $R = \sqrt{1 + 1} = \sqrt{2}$, $\alpha = \arctan 1 = \frac{\pi}{4}$.
 
-$$\sqrt{2}\sin\!\left(\theta + \frac{\pi}{4}\right) = 1$$
+$$
+\sqrt{2}\sin\!\left(\theta + \frac{\pi}{4}\right) = 1
+$$
 
-$$\sin\!\left(\theta + \frac{\pi}{4}\right) = \frac{1}{\sqrt{2}} = \sin\frac{\pi}{4}$$
+$$
+\sin\!\left(\theta + \frac{\pi}{4}\right) = \frac{1}{\sqrt{2}} = \sin\frac{\pi}{4}
+$$
 
-$$\theta + \frac{\pi}{4} = \frac{\pi}{4} + 2n\pi \quad \mathrm{or} \quad \theta + \frac{\pi}{4} = \frac{3\pi}{4} + 2n\pi$$
+$$
+\theta + \frac{\pi}{4} = \frac{\pi}{4} + 2n\pi \quad \mathrm{or} \quad \theta + \frac{\pi}{4} = \frac{3\pi}{4} + 2n\pi
+$$
 
-$$\theta = 2n\pi \quad \mathrm{or} \quad \theta = \frac{\pi}{2} + 2n\pi$$
+$$
+\theta = 2n\pi \quad \mathrm{or} \quad \theta = \frac{\pi}{2} + 2n\pi
+$$
 
 For $0 \leq \theta \lt 2\pi$: $\theta = 0$ or $\theta = \frac{\pi}{2}$.
 
@@ -448,13 +552,13 @@ Common approaches.
 ### 9.1 Strategy 1: Work with One Side
 
 Start from the more complicated side and simplify it until it matches the simpler side. This avoids
-The logical error of assuming what you are trying to prove.
+the logical error of assuming what you are trying to prove.
 
 ### 9.2 Strategy 2: Express Everything in Sine and Cosine
 
 Replace $\tan$, $\sec$, $\csc$, $\cot$ with their definitions in terms of $\sin$ and $\cos$:
 $\tan\theta = \frac{\sin\theta}{\cos\theta}$,
-$\sec\theta = \frac{1}{\cos\theta}$Etc.
+$\sec\theta = \frac{1}{\cos\theta}$ Etc.
 
 ### 9.3 Strategy 3: Use Known Identities
 
@@ -470,12 +574,12 @@ Bottom by the conjugate $a \mp b$ to produce a difference of squares.
 Prove that $\cot A + \tan A = \dfrac{2}{\sin 2A}$.
 
 $$
-\begin\{aligned\}
-\cot A + \tan A &= \frac\{\cos A\}\{\sin A\} + \frac\{\sin A\}\{\cos A\} \\
-&= \frac\{\cos^2 A + \sin^2 A\}\{\sin A \cos A\} \\
-&= \frac\{1\}\{\sin A \cos A\} \\
-&= \frac\{2\}\{2\sin A \cos A\} = \frac\{2\}\{\sin 2A\} \quad \blacksquare
-\end\{aligned\}
+\begin{aligned}
+\cot A + \tan A &= \frac{\cos A}{\sin A} + \frac{\sin A}{\cos A} \\
+&= \frac{\cos^2 A + \sin^2 A}{\sin A \cos A} \\
+&= \frac{1}{\sin A \cos A} \\
+&= \frac{2}{2\sin A \cos A} = \frac{2}{\sin 2A} \quad \blacksquare
+\end{aligned}
 $$
 
 </details>
@@ -485,14 +589,14 @@ $$
 Prove that $\sin 3A = 3\sin A - 4\sin^3 A$.
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 \sin 3A &= \sin(2A + A) \\
 &= \sin 2A \cos A + \cos 2A \sin A \\
 &= 2\sin A \cos^2 A + (1 - 2\sin^2 A)\sin A \\
 &= 2\sin A(1 - \sin^2 A) + \sin A - 2\sin^3 A \\
 &= 2\sin A - 2\sin^3 A + \sin A - 2\sin^3 A \\
 &= 3\sin A - 4\sin^3 A \quad \blacksquare
-\end\{aligned\}
+\end{aligned}
 $$
 
 </details>
@@ -504,13 +608,13 @@ Prove that $\dfrac{1}{\sec A + \tan A} = \sec A - \tan A$.
 Multiply numerator and denominator by $\sec A - \tan A$:
 
 $$
-\begin\{aligned\}
-\frac\{1\}\{\sec A + \tan A\} \cdot \frac\{\sec A - \tan A\}\{\sec A - \tan A\}
-&= \frac\{\sec A - \tan A\}\{\sec^2 A - \tan^2 A\} \\
-&= \frac\{\sec A - \tan A\}\{1 + \tan^2 A - \tan^2 A\} \\
-&= \frac\{\sec A - \tan A\}\{1\} \\
+\begin{aligned}
+\frac{1}{\sec A + \tan A} \cdot \frac{\sec A - \tan A}{\sec A - \tan A}
+&= \frac{\sec A - \tan A}{\sec^2 A - \tan^2 A} \\
+&= \frac{\sec A - \tan A}{1 + \tan^2 A - \tan^2 A} \\
+&= \frac{\sec A - \tan A}{1} \\
 &= \sec A - \tan A \quad \blacksquare
-\end\{aligned\}
+\end{aligned}
 $$
 
 Where we used $\sec^2 A = 1 + \tan^2 A$ so that $\sec^2 A - \tan^2 A = 1$.
@@ -524,13 +628,13 @@ Prove that $\dfrac{\cos 2A}{1 + \sin 2A} = \dfrac{\cos A - \sin A}{\cos A + \sin
 Working from the LHS:
 
 $$
-\begin\{aligned\}
-\frac\{\cos 2A\}\{1 + \sin 2A\}
-&= \frac\{\cos^2 A - \sin^2 A\}\{1 + 2\sin A \cos A\} \\
-&= \frac\{(\cos A - \sin A)(\cos A + \sin A)\}\{\cos^2 A + 2\sin A\cos A + \sin^2 A\} \\
-&= \frac\{(\cos A - \sin A)(\cos A + \sin A)\}\{(\cos A + \sin A)^2\} \\
-&= \frac\{\cos A - \sin A\}\{\cos A + \sin A\} \quad \blacksquare
-\end\{aligned\}
+\begin{aligned}
+\frac{\cos 2A}{1 + \sin 2A}
+&= \frac{\cos^2 A - \sin^2 A}{1 + 2\sin A \cos A} \\
+&= \frac{(\cos A - \sin A)(\cos A + \sin A)}{\cos^2 A + 2\sin A\cos A + \sin^2 A} \\
+&= \frac{(\cos A - \sin A)(\cos A + \sin A)}{(\cos A + \sin A)^2} \\
+&= \frac{\cos A - \sin A}{\cos A + \sin A} \quad \blacksquare
+\end{aligned}
 $$
 
 </details>
@@ -541,18 +645,26 @@ $$
 
 ### 10.1 Key Features
 
+<div class="table-wrap">
+
 | Function | Period | Amplitude | Domain                                    | Range        |
 | -------- | ------ | --------- | ----------------------------------------- | ------------ |
 | $\sin x$ | $2\pi$ | $1$       | $\mathbb{R}$                              | $[-1, 1]$    |
 | $\cos x$ | $2\pi$ | $1$       | $\mathbb{R}$                              | $[-1, 1]$    |
 | $\tan x$ | $\pi$  | undefined | $x \neq \frac{\pi}{2} + n\pi$ | $\mathbb{R}$ |
 
+</div>
+
 **Key values of $\sin$ and $\cos$:**
+
+<div class="table-wrap">
 
 | Angle | $0$ | $\frac{\pi}{6}$ | $\frac{\pi}{4}$ | $\frac{\pi}{3}$ | $\frac{\pi}{2}$ | $\pi$ | $\frac{3\pi}{2}$ | $2\pi$ |
 | ------ | --- | -------------------------------- | -------------------------------- | -------------------------------- | --------------------------- | ----- | ---------------------------- | ------ |
 | $\sin$ | $0$ | $\frac{1}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$ | $0$ | $-1$ | $0$ |
 | $\cos$ | $1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$ | $0$ | $-1$ | $0$ | $1$ |
+
+</div>
 
 ### 10.2 Transformations
 
@@ -563,7 +675,7 @@ For the general form $y = A\sin(Bx + C) + D$ (and similarly for $\cos$):
 - The **phase shift** is $-\dfrac{C}{B}$ (horizontal shift)
 - $D$ is the **vertical shift** (midline is $y = D$)
 
-For $\tan$The period is $\dfrac{\pi}{|B|}$ and amplitude is not defined.
+For $\tan$ The period is $\dfrac{\pi}{|B|}$ and amplitude is not defined.
 
 <DesmosGraph client:only="solid-js" title="y = A sin(Bx + C) + D" expressions={["A\sin(Bx+C)+D", "A\cos(Bx+C)+D"]}
 width={800} height={500} /> Use the sliders to adjust the amplitude, period, phase shift, and
@@ -577,7 +689,7 @@ $\frac{\pi}{6}$). **Key points.** The first cycle begins at
 $x = \frac{\pi}{6}$ (where the curve crosses the midline Upward). Subsequent key points
 within $[0, 2\pi]$: - Maximum at $x = \frac{5\pi}{12}$ (value $2$) - Midline crossing
 (down) at $x = \frac{2\pi}{3}$ - Minimum at $x = \frac{11\pi}{12}$ (value
-$-2$) - Midline crossing (up) at $x = \frac{7\pi}{6}$ Since the period is $\pi$The
+$-2$) - Midline crossing (up) at $x = \frac{7\pi}{6}$ Since the period is $\pi$ The
 second cycle repeats with all $x$-values shifted by $\pi$: - Maximum at
 $x = \frac{17\pi}{12}$ (value $2$) - Minimum at $x = \frac{23\pi}{12}$
 (value $-2$) **$y$-intercept:**
@@ -590,11 +702,11 @@ $y = 2\sin\!\left(-\frac{\pi}{3}\right) = -\sqrt{3} \approx -1.73$. </details> <
 <details>
 <summary>Solution</summary>
 $$
-\begin\{aligned\}
-\frac\{\sin 2\theta\}\{1 + \cos 2\theta\} &= \frac\{2\sin\theta\cos\theta\}\{1 + (2\cos^2\theta - 1)\} \\
-&= \frac\{2\sin\theta\cos\theta\}\{2\cos^2\theta\} \\
-&= \frac\{\sin\theta\}\{\cos\theta\} = \tan\theta \quad \blacksquare
-\end\{aligned\}
+\begin{aligned}
+\frac{\sin 2\theta}{1 + \cos 2\theta} &= \frac{2\sin\theta\cos\theta}{1 + (2\cos^2\theta - 1)} \\
+&= \frac{2\sin\theta\cos\theta}{2\cos^2\theta} \\
+&= \frac{\sin\theta}{\cos\theta} = \tan\theta \quad \blacksquare
+\end{aligned}
 $$
 </details>
 <b>If you get this wrong, revise:</b> [Double angle formulas](#4-double-angle-formulas)
@@ -605,9 +717,13 @@ $$
 
 <details>
 <summary>Solution</summary>
-$$2\sin x\cos x = \sin x$$
+$$
+2\sin x\cos x = \sin x
+$$
 
-$$\sin x(2\cos x - 1) = 0$$
+$$
+\sin x(2\cos x - 1) = 0
+$$
 
 $\sin x = 0 \implies x = 0, \pi$.
 
@@ -620,7 +736,7 @@ Solutions: $x = 0, \frac{\pi}{3}, \pi, \frac{5\pi}{3}$.
 
 <hr />
 
-**Problem 3.** Express $4\sin\theta - 3\cos\theta$ in the form $R\sin(\theta - \alpha)$Where $R > 0$
+**Problem 3.** Express $4\sin\theta - 3\cos\theta$ in the form $R\sin(\theta - \alpha)$ Where $R > 0$
 and $0 < \alpha < \frac{\pi}{2}$.
 
 <details>
@@ -629,11 +745,17 @@ $R\sin(\theta - \alpha) = R(\sin\theta\cos\alpha - \cos\theta\sin\alpha) = R\cos
 
 Comparing coefficients: $R\cos\alpha = 4$ and $R\sin\alpha = 3$.
 
-$$R^2 = 4^2 + 3^2 = 25 \implies R = 5$$
+$$
+R^2 = 4^2 + 3^2 = 25 \implies R = 5
+$$
 
-$$\tan\alpha = \frac{3}{4} \implies \alpha = \arctan\left(\frac{3}{4}\right) \approx 0.6435 \mathrm{ rad}$$
+$$
+\tan\alpha = \frac{3}{4} \implies \alpha = \arctan\left(\frac{3}{4}\right) \approx 0.6435 \mathrm{ rad}
+$$
 
-$$4\sin\theta - 3\cos\theta = 5\sin(\theta - 0.6435)$$
+$$
+4\sin\theta - 3\cos\theta = 5\sin(\theta - 0.6435)
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Compound angle formulas](#3-compound-angle-formulas)
@@ -644,9 +766,13 @@ $$4\sin\theta - 3\cos\theta = 5\sin(\theta - 0.6435)$$
 
 <details>
 <summary>Solution</summary>
-$$\sin 75° = \sin(45° + 30°) = \sin 45°\cos 30° + \cos 45°\sin 30^\circ$$
+$$
+\sin 75° = \sin(45° + 30°) = \sin 45°\cos 30° + \cos 45°\sin 30^\circ
+$$
 
-$$= \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{3}}{2} + \frac{\sqrt{2}}{2} \cdot \frac{1}{2} = \frac{\sqrt{6} + \sqrt{2}}{4}$$
+$$
+= \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{3}}{2} + \frac{\sqrt{2}}{2} \cdot \frac{1}{2} = \frac{\sqrt{6} + \sqrt{2}}{4}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Compound angle formulas](#3-compound-angle-formulas)
@@ -658,11 +784,11 @@ $$= \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{3}}{2} + \frac{\sqrt{2}}{2} \cdot \frac
 <details>
 <summary>Solution</summary>
 $$
-\begin\{aligned\}
-\frac\{1 - \cos 2\theta\}\{\sin 2\theta\} &= \frac\{1 - (1 - 2\sin^2\theta)\}\{2\sin\theta\cos\theta\} \\
-&= \frac\{2\sin^2\theta\}\{2\sin\theta\cos\theta\} \\
-&= \frac\{\sin\theta\}\{\cos\theta\} = \tan\theta \quad \blacksquare
-\end\{aligned\}
+\begin{aligned}
+\frac{1 - \cos 2\theta}{\sin 2\theta} &= \frac{1 - (1 - 2\sin^2\theta)}{2\sin\theta\cos\theta} \\
+&= \frac{2\sin^2\theta}{2\sin\theta\cos\theta} \\
+&= \frac{\sin\theta}{\cos\theta} = \tan\theta \quad \blacksquare
+\end{aligned}
 $$
 </details>
 <b>If you get this wrong, revise:</b> [Double angle formulas](#4-double-angle-formulas)
@@ -698,7 +824,7 @@ $3\sin^2 x - 2\sin x - 1 = 0$
 $(3\sin x + 1)(\sin x - 1) = 0$
 
 $\sin x = -\frac{1}{3} \implies x = \arcsin(-\frac{1}{3}) \approx -0.3398$ or
-$x = -\pi - \arcsin(-\frac{1}{3}) = -\pi + 0.3398 \approx -2.802$ (since $3.481 > \pi$Subtract
+$x = -\pi - \arcsin(-\frac{1}{3}) = -\pi + 0.3398 \approx -2.802$ (since $3.481 > \pi$ Subtract
 $2\pi$ to stay in $[-\pi, \pi]$).
 
 $\sin x = 1 \implies x = \frac{\pi}{2}$.
@@ -718,7 +844,9 @@ $\sin 0.05 \approx 0.05$
 
 $\cos 0.05 \approx 1 - \frac{0.05^2}{2} = 1 - 0.00125 = 0.99875$
 
-$$\frac{\sin 0.05}{\cos 0.05} \approx \frac{0.05}{0.99875} \approx 0.05006$$
+$$
+\frac{\sin 0.05}{\cos 0.05} \approx \frac{0.05}{0.99875} \approx 0.05006
+$$
 
 (Alternatively, $\tan 0.05 \approx 0.05$ directly.)
 
@@ -735,22 +863,26 @@ $\dfrac{1 + \sin 2A}{\cos 2A} = \tan\!\left(A + \dfrac{\pi}{4}\right)$.
 Working from the LHS:
 
 $$
-\begin\{aligned\}
-\frac\{1 + \sin 2A\}\{\cos 2A\}
-&= \frac\{1 + 2\sin A \cos A\}\{\cos^2 A - \sin^2 A\} \\
-&= \frac\{\sin^2 A + 2\sin A \cos A + \cos^2 A\}\{(\cos A - \sin A)(\cos A + \sin A)\} \\
-&= \frac\{(\sin A + \cos A)^2\}\{(\cos A - \sin A)(\cos A + \sin A)\} \\
-&= \frac\{\sin A + \cos A\}\{\cos A - \sin A\}
-\end\{aligned\}
+\begin{aligned}
+\frac{1 + \sin 2A}{\cos 2A}
+&= \frac{1 + 2\sin A \cos A}{\cos^2 A - \sin^2 A} \\
+&= \frac{\sin^2 A + 2\sin A \cos A + \cos^2 A}{(\cos A - \sin A)(\cos A + \sin A)} \\
+&= \frac{(\sin A + \cos A)^2}{(\cos A - \sin A)(\cos A + \sin A)} \\
+&= \frac{\sin A + \cos A}{\cos A - \sin A}
+\end{aligned}
 $$
 
 Dividing numerator and denominator by $\cos A$:
 
-$$= \frac{\tan A + 1}{1 - \tan A}$$
+$$
+= \frac{\tan A + 1}{1 - \tan A}
+$$
 
 From the tangent compound angle formula:
 
-$$\tan\!\left(A + \frac{\pi}{4}\right) = \frac{\tan A + \tan\frac{\pi}{4}}{1 - \tan A \tan\frac{\pi}{4}} = \frac{\tan A + 1}{1 - \tan A} \quad \blacksquare$$
+$$
+\tan\!\left(A + \frac{\pi}{4}\right) = \frac{\tan A + \tan\frac{\pi}{4}}{1 - \tan A \tan\frac{\pi}{4}} = \frac{\tan A + 1}{1 - \tan A} \quad \blacksquare
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Compound angle formulas](#3-compound-angle-formulas)
@@ -762,11 +894,17 @@ Find the radius and the angle.
 
 <details>
 <summary>Solution</summary>
-$$s = r\theta = 10 \implies \theta = \frac{10}{r}$$
+$$
+s = r\theta = 10 \implies \theta = \frac{10}{r}
+$$
 
-$$A = \frac{1}{2}r^2\theta = \frac{1}{2}r^2 \cdot \frac{10}{r} = 5r = 20 \implies r = 4$$
+$$
+A = \frac{1}{2}r^2\theta = \frac{1}{2}r^2 \cdot \frac{10}{r} = 5r = 20 \implies r = 4
+$$
 
-$$\theta = \frac{10}{4} = 2.5 \mathrm{ radians}$$
+$$
+\theta = \frac{10}{4} = 2.5 \mathrm{ radians}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Radian measure](#11-radian-measure)
@@ -794,7 +932,7 @@ $$
 
 This can also be verified using the compound angle formula:
 $\cos\frac{\pi}{12} = \cos\!\left(\frac{\pi}{3} - \frac{\pi}{4}\right) = \cos\frac{\pi}{3}\cos\frac{\pi}{4} + \sin\frac{\pi}{3}\sin\frac{\pi}{4} = \frac{\sqrt{6} + \sqrt{2}}{4}$
-And one can check that
+and one can check that
 $\dfrac{\sqrt{2+\sqrt{3}}}{2} = \dfrac{\sqrt{6}+\sqrt{2}}{4}$.
 
 </details>
@@ -814,12 +952,14 @@ The maximum value is $R = \sqrt{29}$.
 Writing $2\sin\theta + 5\cos\theta = \sqrt{29}\sin(\theta + \alpha)$ where
 $\tan\alpha = \dfrac{5}{2}$.
 
-The maximum occurs when $\sin(\theta + \alpha) = 1$I.e.,
+The maximum occurs when $\sin(\theta + \alpha) = 1$ I.e.,
 $\theta + \alpha = \frac{\pi}{2}$.
 
-$$\theta = \frac{\pi}{2} - \alpha = \frac{\pi}{2} - \arctan\frac{5}{2} \approx 0.3805 \mathrm{ rad}$$
+$$
+\theta = \frac{\pi}{2} - \alpha = \frac{\pi}{2} - \arctan\frac{5}{2} \approx 0.3805 \mathrm{ rad}
+$$
 
-Since $\arctan\frac{5}{2} \approx 1.1903 < \frac{\pi}{2}$This $\theta$ is positive and
+Since $\arctan\frac{5}{2} \approx 1.1903 < \frac{\pi}{2}$ This $\theta$ is positive and
 is the Smallest positive value.
 
 </details>
@@ -833,14 +973,14 @@ $\dfrac{\sin 3A}{\sin A} - \dfrac{\cos 3A}{\cos A} = 2$.
 <details>
 <summary>Solution</summary>
 $$
-\begin\{aligned\}
-\frac\{\sin 3A\}\{\sin A\} - \frac\{\cos 3A\}\{\cos A\}
-&= \frac\{\sin 3A \cos A - \cos 3A \sin A\}\{\sin A \cos A\} \\
-&= \frac\{\sin(3A - A)\}\{\sin A \cos A\} \\
-&= \frac\{\sin 2A\}\{\sin A \cos A\} \\
-&= \frac\{2\sin A \cos A\}\{\sin A \cos A\} \\
+\begin{aligned}
+\frac{\sin 3A}{\sin A} - \frac{\cos 3A}{\cos A}
+&= \frac{\sin 3A \cos A - \cos 3A \sin A}{\sin A \cos A} \\
+&= \frac{\sin(3A - A)}{\sin A \cos A} \\
+&= \frac{\sin 2A}{\sin A \cos A} \\
+&= \frac{2\sin A \cos A}{\sin A \cos A} \\
 &= 2 \quad \blacksquare
-\end\{aligned\}
+\end{aligned}
 $$
 
 </details>
@@ -854,11 +994,17 @@ $$
 <summary>Solution</summary>
 $R = \sqrt{1 + 3} = 2$, $\alpha = \arctan\sqrt{3} = \frac{\pi}{3}$.
 
-$$2\sin\!\left(\theta + \frac{\pi}{3}\right) = 1$$
+$$
+2\sin\!\left(\theta + \frac{\pi}{3}\right) = 1
+$$
 
-$$\sin\!\left(\theta + \frac{\pi}{3}\right) = \frac{1}{2}$$
+$$
+\sin\!\left(\theta + \frac{\pi}{3}\right) = \frac{1}{2}
+$$
 
-$$\theta + \frac{\pi}{3} = \frac{\pi}{6} + 2n\pi \quad \mathrm{or} \quad \theta + \frac{\pi}{3} = \frac{5\pi}{6} + 2n\pi$$
+$$
+\theta + \frac{\pi}{3} = \frac{\pi}{6} + 2n\pi \quad \mathrm{or} \quad \theta + \frac{\pi}{3} = \frac{5\pi}{6} + 2n\pi
+$$
 
 Case 1:
 $\theta = \frac{\pi}{6} - \frac{\pi}{3} + 2n\pi = -\frac{\pi}{6} + 2n\pi$.
@@ -884,15 +1030,15 @@ Solutions: $\theta = \frac{\pi}{2}$ or $\theta = \frac{11\pi}{6}$.
 Using $\sec^2 A = 1 + \tan^2 A$:
 
 $$
-\begin\{aligned\}
-\frac\{1 - \tan^2 A\}\{1 + \tan^2 A\}
-&= \frac\{1 - \tan^2 A\}\{\sec^2 A\} \\
+\begin{aligned}
+\frac{1 - \tan^2 A}{1 + \tan^2 A}
+&= \frac{1 - \tan^2 A}{\sec^2 A} \\
 &= (1 - \tan^2 A)\cos^2 A \\
 &= \cos^2 A - \tan^2 A \cos^2 A \\
-&= \cos^2 A - \frac\{\sin^2 A\}\{\cos^2 A\} \cdot \cos^2 A \\
+&= \cos^2 A - \frac{\sin^2 A}{\cos^2 A} \cdot \cos^2 A \\
 &= \cos^2 A - \sin^2 A \\
 &= \cos 2A \quad \blacksquare
-\end\{aligned\}
+\end{aligned}
 $$
 
 </details>
@@ -924,21 +1070,7 @@ building a personal test matrix.
 
 4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-```mermaid
-flowchart TD
-    A[08 Trigonometryx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

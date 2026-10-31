@@ -23,18 +23,18 @@ categories:
 
 Dart 2.12 introduced sound null safety. This is not a nullable annotation system bolted onto an
 Existing type system. It is a fundamental rewrite of the type hierarchy: `Null` is a subtype of
-Every type, but only of nullable types. The compiler and runtime together guarantee that a
-Non-nullable variable never holds `null` at runtime. This guarantee is **sound**, it holds across
+every type, but only of nullable types. The compiler and runtime together guarantee that a
+non-nullable variable never holds `null` at runtime. This guarantee is **sound**, it holds across
 Function boundaries, class hierarchies, generic instantiations, and asynchronous code paths.
 
 ### Sound vs Unsounded Null Safety
 
 **Definition.** Soundness (in the type-theoretic sense) means: if the type checker accepts a
 Program, no runtime type error related to null dereference can occur. The guarantee is global, it
-Does not depend on the programmer annotating every variable correctly, because the type checker
+does not depend on the programmer annotating every variable correctly, because the type checker
 Enforces consistency at all boundaries.
 
-Unsound null safety (e.g., TypeScript"s `strictNullChecks`Kotlin's platform types at interop
+Unsound null safety (e.g., TypeScript's `strictNullChecks`Kotlin's platform types at interop
 Boundaries) means the compiler can miss cases. A variable declared non-nullable might still be
 `null` at runtime due to unchecked casts, interop boundaries, or generics erasure. Dart's null
 Safety is sound because:
@@ -62,8 +62,8 @@ List<String?> mixed = ['a', null]; // non-nullable list, elements can be null
 List<String>? maybeNames = null;   // nullable list reference
 ```
 
-**Definition.** The nullability hierarchy: `Never` is a subtype of `Null`Which is a subtype of Every
-`T`Which is a subtype of `T?`Which is a subtype of `Object?`. `Object` is the supertype of All
+**Definition.** The nullability hierarchy: `Never` is a subtype of `Null`. Which is a subtype of Every
+`T`. Which is a subtype of `T?`. Which is a subtype of `Object?`. `Object` is the supertype of All
 non-nullable types. `Object?` is the top type.
 
 ```
@@ -132,7 +132,7 @@ The `!` operator is a code smell in production code, it means you are bypassing 
 ### Late Initialization
 
 The `late` keyword tells the compiler: "this variable will be initialized before it is used, but not
-At the point of declaration." The compiler trusts this assertion and does not require an
+at the point of declaration." The compiler trusts this assertion and does not require an
 Initializer. At runtime, accessing an uninitialized `late` variable throws a
 `LateInitializationError`.
 
@@ -245,7 +245,7 @@ class Lazy {
 
 #### Null-Aware Access (`?.`)
 
-Returns `null` if the receiver is `null`Otherwise accesses the member.
+Returns `null` if the receiver is `null`. Otherwise accesses the member.
 
 ```dart
 String? name;
@@ -324,7 +324,7 @@ example();            // compile error: missing required parameter
 The return type of functions that never return normally (they always throw or loop forever).
 
 `Never` is a subtype of every type. This makes it useful for exhaustive analysis in pattern matching
-And control flow.
+and control flow.
 
 ```dart
 // A function that never returns
@@ -359,7 +359,7 @@ int eval(Expr expr) => switch (expr) {
 ### Flow Analysis and Its Limitations
 
 Dart's flow analysis tracks nullability through local variables. If you check a nullable variable
-For non-null, the type is promoted within the scope where the check holds.
+for non-null, the type is promoted within the scope where the check holds.
 
 ```dart
 String? name = getName();
@@ -404,7 +404,7 @@ String? getName() => 'Dart';
 
 :::caution
 Local is captured by a closure that could be invoked after the variable is nulled, the type checker
-Will not promote it inside the closure.
+will not promote it inside the closure.
 
 ### Migration Patterns
 
@@ -451,7 +451,7 @@ class User {
 **Definition.** `dart:ffi` (Foreign Function Interface) is a Dart library that allows Dart code to
 Call C functions directly, without writing glue code in an intermediate language. It provides
 Bindings for C types, pointers, structs, callbacks, and dynamic library loading. It is the mechanism
-By which Dart interacts with native system libraries, operating system APIs, and
+by which Dart interacts with native system libraries, operating system APIs, and
 Performance-critical C/C++ code.
 
 `dart:ffi` is available on native platforms (iOS, Android, macOS, Windows, Linux). It is not
@@ -459,7 +459,7 @@ Available on the web (use WASM interop instead).
 
 ### Dynamic Library Loading
 
-The entry point for FFI is `DynamicLibrary`Which represents a loaded shared library.
+The entry point for FFI is `DynamicLibrary`. Which represents a loaded shared library.
 
 ```dart
 import 'dart:ffi';
@@ -507,13 +507,15 @@ void main() {
 ```
 
 The two typedefs must agree on parameter and return types. The C typedef uses FFI native types
-(`Int32``Double``Pointer`Etc.). The Dart typedef uses Dart types (`int``double`Etc.). The
+(`Int32`, `Double`, `Pointer`. Etc.). The Dart typedef uses Dart types (`int`, `double`. Etc.). The
 `lookupFunction` call bridges the two.
 
 ### Primitive Types Mapping
 
 Dart and C have different primitive type systems. `dart:ffi` provides native types that map to C
 Types:
+
+<div class="table-wrap">
 
 | FFI Type            | C Type                            | Dart Type    | Size (bytes) |
 | ------------------- | --------------------------------- | ------------ | ------------ |
@@ -532,6 +534,8 @@ Types:
 | `Handle`            | Dart object handle                | `Object`     | platform     |
 | `NativeFunction<T>` | function pointer                  | N/A          | platform     |
 | `Pointer<T>`        | `T*`                              | `Pointer<T>` | platform     |
+
+</div>
 :::
 
 :::note
@@ -569,7 +573,7 @@ for (var i = 0; i < 10; i++) {
 malloc.free(array);
 ```
 
-The `malloc` and `calloc` functions are from `package:ffi`Which provides convenience wrappers Around
+The `malloc` and `calloc` functions are from `package:ffi`. Which provides convenience wrappers Around
 `dart:ffi`'s allocation functions.
 
 #### Pointer Arithmetic
@@ -615,7 +619,7 @@ int addViaFfi(int a, int b) {
 ### Structs
 
 **Definition.** An FFI struct is a Dart class that extends `Struct` and maps to a C `struct` in
-Memory. Fields are declared using `@Int32()``@Double()``@Pointer()`And other annotations. The Struct
+Memory. Fields are declared using `@Int32()`, `@Double()`, `@Pointer()` and other annotations. The Struct
 layout in memory matches the C layout.
 
 ```dart
@@ -713,10 +717,14 @@ callback.close();
 
 `NativeCallable` has two variants:
 
+<div class="table-wrap">
+
 | Variant                       | Thread Safety        | Exception Handling                 | Use Case                    |
 | ----------------------------- | -------------------- | ---------------------------------- | --------------------------- |
 | `NativeCallable.listener`     | Any thread can call  | Exceptions become unhandled errors | Callbacks from any thread   |
 | `NativeCallable.isolateLocal` | Only calling isolate | Exceptions propagate to caller     | Callbacks from same isolate |
+
+</div>
 :::
 
 :::caution
@@ -787,12 +795,16 @@ final result = nativeWindowsReturnString();
 final dartResult = result.toDartString();
 ```
 
+<div class="table-wrap">
+
 | Conversion                    | Direction | Encoding                     |
 | ----------------------------- | --------- | ---------------------------- |
 | `toNativeUtf8()`              | Dart to C | UTF-8                        |
 | `toNativeUtf16()`             | Dart to C | UTF-16                       |
 | `ptr.toDartString()`          | C to Dart | UTF-8 (auto-detected length) |
 | `ptr.toDartString(length: n)` | C to Dart | UTF-8 (fixed length)         |
+
+</div>
 :::
 
 :::caution
@@ -907,7 +919,7 @@ Event loop, and thread of execution. Isolates do not share memory, communication
 Strictly via message passing through ports.
 
 This is fundamentally different from threads in Java, C++, or Go. In those languages, threads share
-The same heap and require synchronization primitives (mutexes, semaphores, atomics) to prevent data
+the same heap and require synchronization primitives (mutexes, semaphores, atomics) to prevent data
 Races. Dart's isolates eliminate data races by eliminating shared state.
 
 ```
@@ -1187,6 +1199,8 @@ dart compile wasm bin/app.dart
 
 ### Advantages over dart2js
 
+<div class="table-wrap">
+
 | Characteristic  | dart2js                 | dart2wasm                                    |
 | --------------- | ----------------------- | -------------------------------------------- |
 | Output format   | JavaScript              | WebAssembly + JS bootstrap                   |
@@ -1196,6 +1210,8 @@ dart compile wasm bin/app.dart
 | Debugging       | Source maps             | DWARF debug info                             |
 | JS interop      | Direct                  | Via `package:web`                            |
 | Browser support | All                     | WASM GC required (Chrome 119+, Firefox 120+) |
+
+</div>
 
 ### JS Interop via package:web
 
@@ -1219,7 +1235,7 @@ void main() {
 ```
 
 `package:web` provides typed bindings for all Web APIs (DOM, Fetch, WebSocket, etc.). These bindings
-Use Dart's JS interop types (`JSObject``JSString``JSArray`Etc.) rather than Dart's native Types.
+Use Dart's JS interop types (`JSObject`, `JSString`, `JSArray`. Etc.) rather than Dart's native Types.
 
 ### Performance Characteristics
 
@@ -1507,7 +1523,7 @@ bool isNotString(Object value) => switch (value) {
 ### FFI Memory Leaks
 
 The most common FFI bug is forgetting to free native memory. Dart's garbage collector does not track
-Native allocations. Every `malloc``calloc`And `toNativeUtf8` must have a corresponding free.
+Native allocations. Every `malloc`, `calloc` and `toNativeUtf8` must have a corresponding free.
 
 ```dart
 // LEAK: native string never freed
@@ -1540,7 +1556,7 @@ void correctStringUsing() {
 ### Dangling Pointers
 
 Using a pointer after the underlying memory has been freed causes undefined behavior. The Dart VM
-Does not detect use-after-free.
+does not detect use-after-free.
 
 ```dart
 // DANGEROUS: pointer used after free
@@ -1599,7 +1615,7 @@ print((name ?? '').length);
 ### Isolate Message Ordering
 
 Messages sent from a single `SendPort` to a single `ReceivePort` are delivered in order. But
-Messages sent from different `SendPort`S to the same `ReceivePort` may interleave.
+Messages sent from different `SendPort`s to the same `ReceivePort` may interleave.
 
 ```dart
 // Isolate A sends: M1, M2, M3
@@ -1692,18 +1708,8 @@ void worker(SendPort sendPort) {
 ```
 
 Not all Dart objects can be sent between isolates. Sendable objects include: primitives, `String`
-`List` and `Map` of sendable elements, `SendPort``TransferableTypedData`And `Capability`. Non-
-Sendable objects include: closures, `Socket``HttpClient``File``Isolate`And most `dart:io` Types.
-
-```mermaid
-flowchart TD
-    A[09 Ffi And Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+`List` and `Map` of sendable elements, `SendPort`, `TransferableTypedData` and `Capability`. Non-
+Sendable objects include: closures, `Socket`, `HttpClient`, `File`, `Isolate` and most `dart:io` Types.
 
 ## Summary
 
@@ -1717,9 +1723,6 @@ practical implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 

@@ -21,7 +21,7 @@ categories:
 
 ## Sequence Containers Memory Models
 
-The C++ standard library provides three primary sequence containers: `std::vector``std::deque` And
+The C++ standard library provides three primary sequence containers: `std::vector`, `std::deque` And
 `std::list`. Each uses a different memory model with distinct trade-offs in terms of random Access,
 insertion/deletion performance, cache locality, and iterator invalidation guarantees. This Section
 covers their internal structure, growth strategies, and practical usage patterns.
@@ -61,7 +61,7 @@ int main() {
 
 The relationship between `size()` and `capacity()` is fundamental. `size()` returns the number of
 Elements currently stored, while `capacity()` returns the number of elements for which space has
-Been allocated [N4950 §22.3.11.3]. The invariant is:
+been allocated [N4950 §22.3.11.3]. The invariant is:
 
 $$
 \mathrm{size() \leq \mathrm{capacity()
@@ -92,7 +92,7 @@ A `std::vector` is implemented as three pointers [N4950 §22.3.11.1]:
   (`capacity() = _M_end_of_storage - _M_start`).
 
 This three-pointer structure means `sizeof(std::vector<int>) == 24` on 64-bit systems, regardless of
-The number of elements. The vector itself is always on the stack (or as part of another object);
+the number of elements. The vector itself is always on the stack (or as part of another object);
 Only the element storage is on the heap.
 
 ```cpp
@@ -108,7 +108,7 @@ int main() {
 
 ### Growth Factor and Amortized O(1) push_back
 
-When `push_back` is called and `size() == capacity()`The vector must **reallocate**: allocate a New,
+When `push_back` is called and `size() == capacity()`. The vector must **reallocate**: allocate a New,
 larger block, move or copy elements into it, and deallocate the old block. The standard does Not
 mandate a specific growth factor [N4950 §22.3.11.5], but most major implementations (libstdc++,
 Libc++, MSVC) use a factor of $\times 2$ (geometric growth).
@@ -118,7 +118,7 @@ Libc++, MSVC) use a factor of $\times 2$ (geometric growth).
 We prove that geometric growth with factor $\alpha \gt 1$ yields amortized $O(1)$ per `push_back`.
 
 **Theorem.** Starting from an empty vector, inserting $n$ elements by `push_back` with geometric
-Growth factor $\alpha$ incurs total element-copy cost $O(n)$Hence amortized $O(1)$ per insertion.
+Growth factor $\alpha$ incurs total element-copy cost $O(n)$ Hence amortized $O(1)$ per insertion.
 
 **Proof.** Let $c_k$ denote the capacity after the $k$-th reallocation, with $c_0 = 1$. Then
 $c_k = \lceil \alpha^k \rceil$. The total number of element copies across all reallocations is the
@@ -128,31 +128,31 @@ $$
 C(n) = \sum_{k=0}^{\lceil \log_\alpha n \rceil} c_k \leq \sum_{k=0}^{\lceil \log_\alpha n \rceil} \alpha^k = \frac{\alpha^{\lceil \log_\alpha n \rceil + 1} - 1}{\alpha - 1} \leq \frac{\alpha \cdot n}{\alpha - 1}
 $$
 
-For $\alpha = 2$This gives $C(n) \leq 2n$ So total copies are at most $2n$ for $n$ insertions,
+For $\alpha = 2$ This gives $C(n) \leq 2n$ So total copies are at most $2n$ for $n$ insertions,
 Yielding amortized cost of 2 element copies per insertion.
 
-For $\alpha = 1.5$We get $C(n) \leq 3n$. Each insertion is still amortized $O(1)$ But the Constant is
+For $\alpha = 1.5$ We get $C(n) \leq 3n$. Each insertion is still amortized $O(1)$ But the Constant is
 slightly worse. QED.
 
 #### Why 1.5x Can Be Preferred Over 2x
 
-Although both factors give amortized $O(1)$The choice of growth factor affects **peak memory
+Although both factors give amortized $O(1)$ The choice of growth factor affects **peak memory
 Usage**. Consider a vector that just reallocated from capacity $c$ to capacity $\alpha c$. Before
-The old buffer is freed, the vector temporarily holds $\alpha c$ bytes of allocated (but unused)
+the old buffer is freed, the vector temporarily holds $\alpha c$ bytes of allocated (but unused)
 Memory. The **peak allocated memory** at this point is $c + \alpha c = c(1 + \alpha)$.
 
 For $\alpha = 2$: peak = $3c$ (the old buffer plus the new buffer of size $2c$). For $\alpha = 1.5$:
 Peak = $2.5c$.
 
 More critically, a factor of exactly 2 can lead to the allocator being unable to reuse freed memory.
-When the vector grows from $c$ to $2c$The old block of size $c$ is freed. On the next reallocation
-From $2c$ to $4c$The old block of size $2c$ is freed. If the heap allocator places blocks
+When the vector grows from $c$ to $2c$ The old block of size $c$ is freed. On the next reallocation
+from $2c$ to $4c$ The old block of size $2c$ is freed. If the heap allocator places blocks
 Contiguously, the freed block of size $c$ or $2c$ may be too small to hold the next allocation of
-$4c$Forcing the allocator to find a completely new region. With $\alpha = 1.5$The old block of Size
+$4c$ Forcing the allocator to find a completely new region. With $\alpha = 1.5$ The old block of Size
 $c$ is freed when growing to $1.5c$ And the next reallocation needs $2.25c$. Because
-$c + 1.5c = 2.5c \gt 2.25c$The previously freed space can sometimes be reused.
+$c + 1.5c = 2.5c \gt 2.25c$ The previously freed space can sometimes be reused.
 
-This is why some production allocators (e.g., Facebook"s folly `fbvector`) use a factor of 1.5.
+This is why some production allocators (e.g., Facebook's folly `fbvector`) use a factor of 1.5.
 
 ```cpp
 #include <vector>
@@ -187,6 +187,8 @@ Reallocation-triggering operation becomes **undefined behavior** if dereferenced
 
 The invalidation rules for `std::vector` [N4950 §22.3.11.5 Table 80]:
 
+<div class="table-wrap">
+
 | Operation                | Iterator                                | Pointer         | Reference       |
 | ------------------------ | --------------------------------------- | --------------- | --------------- |
 | `push_back` (no realloc) | valid                                   | valid           | valid           |
@@ -198,6 +200,8 @@ The invalidation rules for `std::vector` [N4950 §22.3.11.5 Table 80]:
 | `reserve` (realloc)      | **invalidated**                         | **invalidated** | **invalidated** |
 | `resize` (grow, realloc) | **invalidated**                         | **invalidated** | **invalidated** |
 | `swap`                   | valid (refers to exchanged elements)    | valid           | valid           |
+
+</div>
 
 ```cpp
 #include <vector>
@@ -250,7 +254,7 @@ Stable iterators.
 ### `std::deque`: Segment-Based Memory, No Reallocation
 
 `std::deque` (double-ended queue) is a sequence container that supports $O(1)$ insertion and
-Deletion at both the beginning and the end [N4950 §22.3.8]. Unlike `std::vector``std::deque` is Not
+Deletion at both the beginning and the end [N4950 §22.3.8]. Unlike `std::vector`, `std::deque` is Not
 guaranteed to store elements contiguously. Typical implementations use a **map of fixed-size
 Blocks** (segments):
 
@@ -321,6 +325,8 @@ Memory overhead per element.
 
 Invalidation rules for `std::deque` differ from `std::vector` [N4950 §22.3.8.4 Table 77]:
 
+<div class="table-wrap">
+
 | Operation                  | Iterator                                     | Pointer | Reference |
 | -------------------------- | -------------------------------------------- | ------- | --------- |
 | `push_back` / `push_front` | valid                                        | valid   | valid     |
@@ -328,6 +334,8 @@ Invalidation rules for `std::deque` differ from `std::vector` [N4950 §22.3.8.4 
 | `insert` in middle         | **all invalidated**                          | valid   | valid     |
 | `erase` at front/back      | only erased element invalidated              | valid   | valid     |
 | `erase` in middle          | **all invalidated**                          | valid   | valid     |
+
+</div>
 
 Note: pointers and references to elements are **never invalidated** by insertion or erasure in
 `std::deque` (unless the element itself is erased), unlike iterators.
@@ -360,7 +368,7 @@ On 64-bit systems, the per-node overhead is 16 bytes (two pointers) plus any ali
 bytes of padding to 8-byte alignment. This is a 6x overhead compared to storing `int` Values in a
 `std::vector`.
 
-The most distinctive operation is `splice`Which transfers elements between lists in $O(1)$ time
+The most distinctive operation is `splice`. Which transfers elements between lists in $O(1)$ time
 **without copying or moving elements** [N4950 §22.3.9.5]. This is a pointer manipulation, not a
 Copy:
 
@@ -399,7 +407,7 @@ Now refer to the same elements within the destination container [N4950 §22.3.9.
 
 `std::array` is a fixed-size container that wraps a C-style array with the standard container
 Interface [N4950 §22.3.7]. It has no heap allocation, no dynamic growth, and zero overhead compared
-To a raw array. Since C++17, all member functions of `std::array` are `constexpr`Enabling
+to a raw array. Since C++17, all member functions of `std::array` are `constexpr`. Enabling
 Compile-time computation.
 
 ```cpp
@@ -442,6 +450,8 @@ Key properties:
 
 ### Choosing Between Sequence Containers
 
+<div class="table-wrap">
+
 | Criterion             | `vector`                 | `deque`                   | `list`                       | `array`            |
 | --------------------- | ------------------------ | ------------------------- | ---------------------------- | ------------------ |
 | Random access         | $O(1)$                   | $O(1)$ (higher constant)  | $O(n)$                       | $O(1)$             |
@@ -454,6 +464,8 @@ Key properties:
 | Stable addresses      | No                       | No                        | Yes                          | Yes (stack/static) |
 | Heap allocation       | Yes (for elements)       | Yes (for blocks + map)    | Yes (per node)               | No                 |
 | Size                  | Dynamic                  | Dynamic                   | Dynamic                      | Fixed at compile   |
+
+</div>
 
 ```cpp
 #include <vector>
@@ -518,7 +530,7 @@ int main() {
 ```
 
 The proxy reference (`std::vector&lt;bool>::reference`) is a library-defined class that overloads
-`operator bool``operator=`And `operator~`. This causes problems with generic code that assumes `T&`
+`operator bool`, `operator=` and `operator~`. This causes problems with generic code that assumes `T&`
 semantics from `operator[]` [N4950 §22.3.11.2]. Specifically, `std::vector&lt;bool>` does not
 Satisfy the container requirements in [N4950 §22.2] because its elements are not addressable.
 
@@ -531,8 +543,8 @@ Library if you need compact storage.
 
 The C++ Standard provides a strong exception-safety guarantee for `std::vector::push_back` [N4950
 §22.3.11.5]: if `push_back` throws (either because the element's copy/move constructor throws or
-Because memory allocation fails), the vector's state is rolled back to its prior state, no elements
-Are lost and the vector remains valid.
+because memory allocation fails), the vector's state is rolled back to its prior state, no elements
+are lost and the vector remains valid.
 
 This guarantee is achieved by allocating the new buffer **before** moving elements into it. If any
 Element move/copy throws during the reallocation, the new buffer is deallocated and the original
@@ -584,7 +596,7 @@ int main() {
 }
 ```
 
-Note: If `T`'s move constructor is `noexcept`The vector will use move instead of copy during
+Note: If `T`'s move constructor is `noexcept`. The vector will use move instead of copy during
 Reallocation, which is both faster and less likely to throw. This is why `noexcept` move
 Constructors are critical for performance-critical types stored in vectors.
 
@@ -619,10 +631,10 @@ Bytes, libc++ uses 22 bytes, and MSVC uses 15 bytes on 64-bit platforms.
 ### Common Pitfalls
 
 **1. Reserving too much or too little.** `reserve(n)` allocates capacity for at least `n` elements
-But never reduces capacity below `size()`. If you reserve a massive capacity and then discard most
+but never reduces capacity below `size()`. If you reserve a massive capacity and then discard most
 Elements, the memory is not returned until the vector is destroyed or `shrink_to_fit()` is called
 (and even then, the request is non-binding) [N4950 §22.3.11.3]. Conversely, not reserving at all
-Before a known-size insertion loop causes $O(n \log n)$ total copies instead of $O(n)$.
+before a known-size insertion loop causes $O(n \log n)$ total copies instead of $O(n)$.
 
 **2. Erasing during range-for iteration.** Erasing an element invalidates the iterator to that
 Element and all subsequent iterators. The following is UB:
@@ -646,8 +658,8 @@ Or use the C++20 erase-if idiom: `std::erase_if(v, [](int x) { return x == targe
 §22.3.11.5].
 
 **3. Using `deque` for random-access-heavy workloads.** `std::deque` has $O(1)$ random access, but
-Each access requires a map lookup plus a block dereference. For workloads dominated by `operator[]`
-Or `at()``std::vector` is 2-5x faster due to single-pointer indirection and prefetcher Friendliness.
+each access requires a map lookup plus a block dereference. For workloads dominated by `operator[]`
+Or `at()`, `std::vector` is 2-5x faster due to single-pointer indirection and prefetcher Friendliness.
 Only use `deque` when `push_front` is a frequent operation.
 
 **4. Assuming `vector::data()` is null-terminated.** `data()` returns a pointer to contiguous
@@ -666,7 +678,7 @@ Generic code that assumes `T&` from `operator[]` will fail to compile. Use `vect
 Bit storage with addressable elements.
 
 **7. Comparing vectors with `==` is $O(n)$.** Two vectors are equal if they have the same size and
-All elements compare equal. For large vectors, this is linear. If you need frequent equality checks,
+all elements compare equal. For large vectors, this is linear. If you need frequent equality checks,
 Consider a hash of the contents (but beware of hash collisions).
 
 ### `emplace_back` vs `push_back`
@@ -674,7 +686,7 @@ Consider a hash of the contents (but beware of hash collisions).
 `emplace_back` constructs an element in-place from forwarded arguments, avoiding a temporary
 Construction [N4950 §22.3.11.5]. `push_back` takes an existing object and moves/copies it into the
 Vector. For types with expensive move constructors or types that are not movable, `emplace_back` can
-Be significantly faster:
+be significantly faster:
 
 ```cpp
 #include <vector>
@@ -704,12 +716,16 @@ Arguments.
 
 These three operations serve different purposes and are frequently confused:
 
+<div class="table-wrap">
+
 | Operation         | Effect                                             | Changes size? |    Changes capacity?     |
 | ----------------- | -------------------------------------------------- | :-----------: | :----------------------: |
 | `resize(n)`       | Sets `size()` to `n`; default-constructs or erases |      Yes      | If `n` &gt; `capacity()` |
 | `reserve(n)`      | Sets `capacity()` to at least `n`                  |      No       |           Yes            |
 | `assign(n, v)`    | Replaces contents with `n` copies of `v`           |      Yes      |        As needed         |
 | `shrink_to_fit()` | Non-binding request to set `capacity() == size()`  |      No       |          Maybe           |
+
+</div>
 
 ```cpp
 #include <vector>
@@ -743,7 +759,7 @@ int main() {
 ### `std::deque` Random Access Internals
 
 Random access on `std::deque` requires computing which block an element belongs to and then indexing
-Within that block. Given block size $B$ and element index $i$:
+within that block. Given block size $B$ and element index $i$:
 
 $$
 \mathrm{block\_index = \left\lfloor \frac{\mathrm{start\_offset + i}{B} \right\rfloor
@@ -793,21 +809,7 @@ extra indirection adds 2-5 cycles per access compared to vector's single Indirec
 
 6. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-```mermaid
-flowchart TD
-    A[1_Sequence_Containers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

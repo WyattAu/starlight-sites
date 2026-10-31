@@ -22,7 +22,9 @@ description: "When a 2D electron gas (2DEG) is placed in a strong perpendicular 
 When a 2D electron gas (2DEG) is placed in a strong perpendicular magnetic field at low temperature,
 the Hall resistance shows quantised plateaux:
 
-$$R_{xy} = \frac{h}{\nu e^2} = \frac{R_K}{\nu}$$
+$$
+R_{xy} = \frac{h}{\nu e^2} = \frac{R_K}{\nu}
+$$
 
 Where $\nu = 1, 2, 3, \ldots$ is an integer and $R_K = h/e^2 \approx 25812.8\,\Omega$ is the von
 Klitzing constant.
@@ -31,7 +33,7 @@ Klitzing constant.
 
 - Occurs when the filling factor $\nu = n_{2D}h/(eB)$ is an integer
 - At these plateaux, the longitudinal resistance $R_{xx} = 0$ (dissipationless transport)
-- The quantisation is exact to better than 1 part in $10^{10}$Providing the resistance standard
+- The quantisation is exact to better than 1 part in $10^{10}$ Providing the resistance standard
 
 **Fractional Quantum Hall Effect (FQHE)** (Tsui, Stormer, Gossard, 1982):
 
@@ -39,7 +41,7 @@ Klitzing constant.
 - Arises from electron--electron correlations (Laughlin wavefunction)
 - Described by Chern--Simons topological field theory
 
-**Composite fermions:** At $\nu = 1/2$The FQHE electrons bind two flux quanta to become "composite fermions" that see zero effective field. The FQHE of electrons maps to the IQHE of composite
+**Composite fermions:** At $\nu = 1/2$ The FQHE electrons bind two flux quanta to become "composite fermions" that see zero effective field. The FQHE of electrons maps to the IQHE of composite
 fermions, elegantly explaining the observed sequence of fractions.
 
 ### 16.2 Mesoscopic Physics
@@ -48,11 +50,11 @@ Mesoscopic systems are intermediate in size between microscopic (atomic) and mac
 length scales:
 
 - **Phase coherence length** $L_\phi$: distance over which the electron maintains phase coherence (
-  $1$--$10\,\mu$M at low $T$)
+  $1$--$10\,\mu$ M at low $T$)
 - **Mean free path** $\ell$: distance between elastic scattering events
 - **Thermal length** $L_T = \hbar v_F/(k_BT)$
 
-When the sample size $L < L_\phi$Quantum interference effects become observable:
+When the sample size $L < L_\phi$ Quantum interference effects become observable:
 
 - **Aharonov--Bohm oscillations:** Periodic oscillations in magnetoresistance as $B$ varies, with
   period $\Delta B = \Phi_0/A$ where $A$ is the area enclosed by the paths.
@@ -75,7 +77,9 @@ $\kappa$ is thermal conductivity.
 
 The **Mott formula** relates the Seebeck coefficient to the energy derivative of the conductivity:
 
-$$S = -\frac{\pi^2 k_B^2 T}{3e}\frac{d\ln\sigma(\epsilon)}{d\epsilon}\bigg|_{\epsilon_F}$$
+$$
+S = -\frac{\pi^2 k_B^2 T}{3e}\frac{d\ln\sigma(\epsilon)}{d\epsilon}\bigg|_{\epsilon_F}
+$$
 
 Best thermoelectric materials: Bi$_2$Te$_3$ ($ZT \approx 1$ at 300 K), PbTe ($ZT \approx 1.5$ at 700
 K), SnSe ($ZT \approx 2.6$ at 923 K).
@@ -91,15 +95,19 @@ $\nu = n_{2D}h/(eB) = 3 \times 10^{15} \times 6.626 \times 10^{-34}/(1.6 \times 
 The filling factor $\nu \approx 1.24$ is close to $\nu = 1$ So the $\nu = 1$ plateau is observed
 with:
 
-$$R_{xy} = \frac{h}{e^2} = 25812.8\,\Omega$$
+$$
+R_{xy} = \frac{h}{e^2} = 25812.8\,\Omega
+$$
 
 (b) To observe the $\nu = 2$ plateau, we need $B = n_{2D}h/(2e) = 5$ T.
 
 (c) The cyclotron energy at $B = 10$ T:
 
-$$\hbar\omega_c = \hbar\frac{eB}{m^*} = \frac{1.055 \times 10^{-34} \times 1.6 \times 10^{-19} \times 10}{0.067 \times 9.11 \times 10^{-31}} = \frac{1.688 \times 10^{-33}}{6.10 \times 10^{-32}} = 0.0277\,\text{eV} = 27.7\,\text{meV}$$
+$$
+\hbar\omega_c = \hbar\frac{eB}{m^*} = \frac{1.055 \times 10^{-34} \times 1.6 \times 10^{-19} \times 10}{0.067 \times 9.11 \times 10^{-31}} = \frac{1.688 \times 10^{-33}}{6.10 \times 10^{-32}} = 0.0277\,\text{eV} = 27.7\,\text{meV}
+$$
 
-For IQHE plateaux to be resolved: $k_BT \ll \hbar\omega_c$I.e., $T \ll 27.7/0.0862 \approx 321$ K.
+For IQHE plateaux to be resolved: $k_BT \ll \hbar\omega_c$ I.e., $T \ll 27.7/0.0862 \approx 321$ K.
 Experiments are done at $T < 4$ K.
 
 </details>
@@ -151,21 +159,10 @@ $\blacksquare$
   flow. They appear together in the figure of merit $ZT = S^2\sigma T/\kappa$ but are independent
   transport properties.
 
-
-```mermaid
-flowchart TD
-    A[16_Advanced Semiconductor Physics Continued] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Crystal structure: Bravais lattices, reciprocal lattice, Miller indices.
-- Bragg"s law: $2d\sin\theta = n\lambda$; determines crystal structure from diffraction patterns.
+- Bragg's law: $2d\sin\theta = n\lambda$; determines crystal structure from diffraction patterns.
 - Band theory: metals (partially filled bands), semiconductors (small gap), insulators (large gap).
 - Effective mass: $m^* = \hbar^2/(d^2E/dk^2)$; describes carrier response to external fields.
 - IQHE: Hall resistance quantised as $R_{xy} = h/(ne^2)$; filling factor $\nu = n_{2D}h/(eB)$.
@@ -176,6 +173,8 @@ understanding electronic, photonic, and energy-harvesting technologies.
 
 ## Applications
 
+<div class="table-wrap">
+
 | Application | Principle | Key Material |
 | --- | --- | --- |
 | Solar cells | Photons with $E > E_g$ create electron-hole pairs | Si ($E_g = 1.1$ eV), GaAs ($1.4$ eV) |
@@ -185,6 +184,8 @@ understanding electronic, photonic, and energy-harvesting technologies.
 | Thermoelectric coolers | Peltier effect from $n$- and $p$-type junctions | Bi$_2$Te$_3$ ($ZT \approx 1$) |
 | Quantum Hall resistance standard | $R_K = h/e^2 = 25812.807\,\Omega$ | GaAs 2DEG at $T < 4$ K |
 
+</div>
+
 The IQHE is used to define the ohm internationally; $R_K$ is exact by definition since 2019.
 
 ## Intuition
@@ -193,11 +194,15 @@ The quantum Hall effect reveals that in a strong magnetic field at low temperatu
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                           | Site        | Link                                                                                       |
 | ------------------------------- | ----------- | ------------------------------------------------------------------------------------------ |
 | Solid State Physics (Overview)  | WyattsNotes | [View](/6-solid-state-physics/17_practice-solid-state-physics/)                                       |
 | Quantum Mechanics               | WyattsNotes | [View](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)                                         |
 | Thermal Physics                 | WyattsNotes | [View](https://ib.wyattau.com/physics/flashcards-thermal-physics/)                                           |
+
+</div>
 
 These topics are closely related: quantum mechanics provides the foundation for band theory,
 thermal physics governs carrier statistics and thermoelectric performance, and solid state physics
@@ -205,6 +210,6 @@ provides the crystal structure context.
 | Solid State Physics, MIT 6.720 | MIT OCW     | [View](https://ocw.mit.edu/courses/6-720j-integrated-microelectronic-devices-spring-2007/) |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

@@ -198,6 +198,8 @@ defer f.Close()
 
 ### File Flags
 
+<div class="table-wrap">
+
 | Flag          | Meaning                            |
 | ------------- | ---------------------------------- |
 | `os.O_RDONLY` | Read-only                          |
@@ -207,6 +209,8 @@ defer f.Close()
 | `os.O_CREATE` | Create if not exists               |
 | `os.O_TRUNC`  | Truncate when opening              |
 | `os.O_EXCL`   | Used with O_CREATE, fail if exists |
+
+</div>
 
 ### File Permissions
 
@@ -252,6 +256,8 @@ fmt.Errorf("failed: %w", err)   // format to error
 
 ### Format Verbs
 
+<div class="table-wrap">
+
 | Verb  | Meaning                        |
 | ----- | ------------------------------ |
 | `%v`  | Default format                 |
@@ -269,6 +275,8 @@ fmt.Errorf("failed: %w", err)   // format to error
 | `%p`  | Pointer address                |
 | `%t`  | Boolean (true/false)           |
 | `%w`  | Error (wraps for errors.Is/As) |
+
+</div>
 
 ### Width and Precision
 
@@ -402,17 +410,6 @@ func (t *Time) UnmarshalJSON(data []byte) error {
 8. **Not checking scanner errors.** After a `scanner.Scan()` loop, always check `scanner.Err()`. The
    loop may exit due to an I/O error, not just `io.EOF`.
 
-
-```mermaid
-flowchart TD
-    A[Io] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of standard library i/o, including underlying theory, practical
@@ -426,13 +423,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

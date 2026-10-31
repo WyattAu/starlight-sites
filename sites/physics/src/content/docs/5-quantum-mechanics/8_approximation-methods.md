@@ -5,7 +5,7 @@ title: "Approximation Methods"
 tags:
   - Physics
   - University
-description: "Approximation Methods: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+description: "Approximation methods in quantum mechanics: time-independent perturbation theory, degenerate perturbation theory and why it is a separate case, the perturbed infinite square well, the variational principle and why its answer is always an upper bound, and the WKB approximation. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -17,6 +17,52 @@ description: "Approximation Methods: comprehensive educational content notes wit
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Write the first-order energy correction in non-degenerate perturbation theory.
+- What goes wrong when the unperturbed level is degenerate?
+- What does the variational principle give you, and what does it *not*?
+- What is the WKB validity condition near a turning point?
+- Which of these three methods gives an exact answer, and when?
+
+Check your answers against the text. Prompt 2 is the one that separates a
+procedure from an understanding: degenerate perturbation theory is not
+non-degenerate theory with extra steps, it is a different problem.
+
+## Motivation: almost nothing in quantum mechanics is exactly soluble
+
+Exactly soluble problems form a short list: the square well, the harmonic
+oscillator, the hydrogen atom, and a handful of others. Everything else -- any
+atom with two electrons, any anharmonic oscillator, any real molecule -- has no
+closed-form solution.
+
+So the subject is organised around three ways of getting an answer anyway, and
+they are worth distinguishing because they give *different kinds* of answer:
+
+- **Perturbation theory** assumes the problem is close to one you can solve,
+  and writes the answer as a series in a small parameter. It gives numbers,
+  and it fails when the parameter is not small.
+- **The variational principle** makes a guess and proves the guess is an upper
+  bound on the ground-state energy. It gives a *bound*, always valid, never
+  exact.
+- **WKB** assumes the potential varies slowly compared with the wavelength. It
+  gives the exponential behaviour that dominates tunnelling, and it breaks
+  exactly where the physics is most interesting -- at turning points.
+
+None of these is a lesser version of the others. Perturbation theory is how the
+Lamb shift was predicted; the variational principle is how the ground-state
+energy of helium is bounded to high accuracy; WKB is why tunnelling has an
+exponential law at all.
+
+**Degeneracy is a separate case, not a special case.** In non-degenerate
+theory the first-order correction is $\langle n^{(0)}|\hat{V}|n^{(0)}\rangle$.
+That expression assumes $|n^{(0)}\rangle$ is uniquely determined, and a
+degenerate level has *no* unique choice. The fix is to diagonalise $\hat{V}$
+inside the degenerate subspace first -- which is not a patch on the method but
+the statement that the perturbation chooses which basis the problem wants.
+
 ### 8.1 Time-Independent Perturbation Theory
 
 For a Hamiltonian $\hat{H} = \hat{H}_0 + \lambda \hat{H}"$ where $\hat{H}'$ is "small" and
@@ -24,28 +70,38 @@ $\hat{H}_0$ Has known eigenstates $|n^{(0)}\rangle$ and eigenvalues $E_n^{(0)}$.
 
 **First-order energy correction:**
 
-$$E_n^{(1)} = \langle n^{(0)} | \hat{H}' | n^{(0)} \rangle$$
+$$
+E_n^{(1)} = \langle n^{(0)} | \hat{H}' | n^{(0)} \rangle
+$$
 
 **Second-order energy correction:**
 
-$$E_n^{(2)} = \sum_{m \neq n} \frac{|\langle m^{(0)} | \hat{H}' | n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}$$
+$$
+E_n^{(2)} = \sum_{m \neq n} \frac{|\langle m^{(0)} | \hat{H}' | n^{(0)} \rangle|^2}{E_n^{(0)} - E_m^{(0)}}
+$$
 
 **First-order state correction:**
 
-$$|n^{(1)}\rangle = \sum_{m \neq n} \frac{\langle m^{(0)} | \hat{H}' | n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} |m^{(0)}\rangle$$
+$$
+|n^{(1)}\rangle = \sum_{m \neq n} \frac{\langle m^{(0)} | \hat{H}' | n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} |m^{(0)}\rangle
+$$
 
 **Physical interpretation.** The first-order energy correction is the expectation value of the
 Perturbation in the unperturbed state. The second-order correction accounts for virtual transitions
-To other states: if the perturbation mixes in state $|m\rangle$ with amplitude proportional to
-$V_{mn}/(E_n - E_m)$The energy shift is the sum of $|V_{mn}|^2/(E_n - E_m)$ over all Intermediate
+to other states: if the perturbation mixes in state $|m\rangle$ with amplitude proportional to
+$V_{mn}/(E_n - E_m)$ The energy shift is the sum of $|V_{mn}|^2/(E_n - E_m)$ over all Intermediate
 states. Lower-energy intermediate states ($E_m \lt E_n$) always lower the energy, While
 higher-energy ones raise it.
 
 **Higher-order corrections.** The perturbation series can be extended to arbitrary order:
 
-$$E_n = E_n^{(0)} + \lambda E_n^{(1)} + \lambda^2 E_n^{(2)} + \lambda^3 E_n^{(3)} + \cdots$$
+$$
+E_n = E_n^{(0)} + \lambda E_n^{(1)} + \lambda^2 E_n^{(2)} + \lambda^3 E_n^{(3)} + \cdots
+$$
 
-$$|n\rangle = |n^{(0)}\rangle + \lambda|n^{(1)}\rangle + \lambda^2|n^{(2)}\rangle + \cdots$$
+$$
+|n\rangle = |n^{(0)}\rangle + \lambda|n^{(1)}\rangle + \lambda^2|n^{(2)}\rangle + \cdots
+$$
 
 The series converges if $\lambda|\langle m|\hat{H}'|n\rangle| \ll |E_n^{(0)} - E_m^{(0)}|$ for all
 $m \neq n$. In practice, low-order corrections often give excellent results for weak perturbations.
@@ -63,7 +119,9 @@ $\\{|n_1^{(0)}\rangle, \ldots, |n_d^{(0)}\rangle\\}$ The first-order correction 
 undetermined by the non-degenerate formula (denominators Vanish). The correct approach is to note
 that $\hat{H}$ restricted to this subspace is:
 
-$$\hat{H}_{\mathrm{sub} = E_n^{(0)}\hat{I} + \lambda \hat{W}}$$
+$$
+\hat{H}_{\mathrm{sub} = E_n^{(0)}\hat{I} + \lambda \hat{W}}
+$$
 
 Where $W_{ij} = \langle n_i^{(0)}|\hat{H}'|n_j^{(0)}\rangle$. Diagonalising $\hat{W}$ gives the
 correct Zeroth-order states and first-order energy splittings. $\blacksquare$
@@ -78,16 +136,20 @@ for $0 \lt x \lt L/2$ and $H' = 0$ for $L/2 \lt x \lt L$. Find the first-order e
 
 The unperturbed states are $\phi_n^{(0)}(x) = \sqrt{2/L}\sin(n\pi x/L)$.
 
-$$E_n^{(1)} = \langle n^{(0)} | H' | n^{(0)} \rangle = \int_0^{L/2} V_0 \frac{2}{L}\sin^2\!\left(\frac{n\pi x}{L}\right) dx$$
+$$
+E_n^{(1)} = \langle n^{(0)} | H' | n^{(0)} \rangle = \int_0^{L/2} V_0 \frac{2}{L}\sin^2\!\left(\frac{n\pi x}{L}\right) dx
+$$
 
-$$= \frac{2V_0}{L}\int_0^{L/2} \frac{1 - \cos(2n\pi x/L)}{2}\, dx = \frac{V_0}{L}\!\left[\frac{L}{2} - \frac{L}{4n\pi}\sin(n\pi)\right] = \frac{V_0}{2}$$
+$$
+= \frac{2V_0}{L}\int_0^{L/2} \frac{1 - \cos(2n\pi x/L)}{2}\, dx = \frac{V_0}{L}\!\left[\frac{L}{2} - \frac{L}{4n\pi}\sin(n\pi)\right] = \frac{V_0}{2}
+$$
 
 The first-order correction is $E_n^{(1)} = V_0/2$ for all $n$. $\blacksquare$
 
 </details>
 
 :::caution
-level spacing. If $|\langle m | H' | n \rangle| \sim |E_n^{(0)} - E_m^{(0)}|$The perturbation series
+level spacing. If $|\langle m | H' | n \rangle| \sim |E_n^{(0)} - E_m^{(0)}|$ The perturbation series
 may diverge. The Method also fails for systems where the unperturbed Hamiltonian has closely spaced
 or degenerate Levels that are not handled correctly.
 
@@ -95,18 +157,24 @@ or degenerate Levels that are not handled correctly.
 
 **Theorem 8.2 (Variational Principle).** For any normalised trial state $|\phi\rangle$:
 
-$$\langle\phi|\hat{H}|\phi\rangle \geq E_0$$
+$$
+\langle\phi|\hat{H}|\phi\rangle \geq E_0
+$$
 
 Where $E_0$ is the true ground state energy. The equality holds if and only if
 $|\phi\rangle = |0\rangle$.
 
 _Proof._ Expand the trial state in the energy eigenbasis:
 
-$$|\phi\rangle = \sum_{n=0}^{\infty} c_n |n\rangle, \quad \sum_n |c_n|^2 = 1$$
+$$
+|\phi\rangle = \sum_{n=0}^{\infty} c_n |n\rangle, \quad \sum_n |c_n|^2 = 1
+$$
 
 Then:
 
-$$\langle\phi|\hat{H}|\phi\rangle = \sum_n |c_n|^2 E_n \geq E_0\sum_n |c_n|^2 = E_0$$
+$$
+\langle\phi|\hat{H}|\phi\rangle = \sum_n |c_n|^2 E_n \geq E_0\sum_n |c_n|^2 = E_0
+$$
 
 Since $E_n \geq E_0$ for all $n$ And the inequality is strict unless $c_n = 0$ for all $n \geq 1$.
 $\blacksquare$
@@ -125,24 +193,34 @@ Ground state energy of the anharmonic oscillator $V(x) = \frac{1}{2}m\omega^2 x^
 The normalised Gaussian is $\phi(x) = (\pi\alpha^2)^{-1/4}\exp(-x^2/(2\alpha^2))$ with
 $\langle x^2 \rangle = \alpha^2/2$ and $\langle x^4 \rangle = 3\alpha^4/4$.
 
-$$\langle T \rangle = \frac{\langle p^2 \rangle}{2m} = \frac{\hbar^2}{4m\alpha^2}$$
+$$
+\langle T \rangle = \frac{\langle p^2 \rangle}{2m} = \frac{\hbar^2}{4m\alpha^2}
+$$
 
 (by using $p = -i\hbar\,d/dx$ and integrating by parts).
 
-$$\langle V \rangle = \frac{1}{2}m\omega^2\langle x^2 \rangle + \lambda\langle x^4 \rangle = \frac{m\omega^2\alpha^2}{4} + \frac{3\lambda\alpha^4}{4}$$
+$$
+\langle V \rangle = \frac{1}{2}m\omega^2\langle x^2 \rangle + \lambda\langle x^4 \rangle = \frac{m\omega^2\alpha^2}{4} + \frac{3\lambda\alpha^4}{4}
+$$
 
-$$E(\alpha) = \frac{\hbar^2}{4m\alpha^2} + \frac{m\omega^2\alpha^2}{4} + \frac{3\lambda\alpha^4}{4}$$
+$$
+E(\alpha) = \frac{\hbar^2}{4m\alpha^2} + \frac{m\omega^2\alpha^2}{4} + \frac{3\lambda\alpha^4}{4}
+$$
 
 Minimising: $dE/d\alpha = 0$ gives
 $-\hbar^2/(2m\alpha^3) + m\omega^2\alpha/2 + 3\lambda\alpha^3 = 0$.
 
 For $\lambda = 0$ (harmonic oscillator), this gives $\alpha^2 = \hbar/(m\omega)$ and
-$E = \hbar\omega/2$Which is exact. For small $\lambda$Expand
+$E = \hbar\omega/2$ Which is exact. For small $\lambda$ Expand
 $\alpha^2 = \hbar/(m\omega)(1 - \delta)$:
 
-$$\alpha^2 \approx \frac{\hbar}{m\omega}\!\left(1 - \frac{3\lambda\hbar}{2m^2\omega^3}\right)$$
+$$
+\alpha^2 \approx \frac{\hbar}{m\omega}\!\left(1 - \frac{3\lambda\hbar}{2m^2\omega^3}\right)
+$$
 
-$$E_{\mathrm{var} \approx \frac{\hbar\omega}{2}\!\left(1 + \frac{3\lambda\hbar}{4m^2\omega^3}\right)}$$
+$$
+E_{\mathrm{var} \approx \frac{\hbar\omega}{2}\!\left(1 + \frac{3\lambda\hbar}{4m^2\omega^3}\right)}
+$$
 
 This agrees with second-order perturbation theory to first order in $\lambda$.
 
@@ -155,18 +233,22 @@ Schrodinger equation when the potential varies slowly compared to the de Broglie
 
 **Ansatz.** Write $\psi(x) = A(x)\exp(iS(x)/\hbar)$ and substitute into the Schrodinger equation:
 
-$$-i\hbar A'S - \hbar^2 A S'' + \hbar^2 A S'^2 - A S' \cdot \hbar^2 = \mathrm{(terms)}$$
+$$
+-i\hbar A'S - \hbar^2 A S'' + \hbar^2 A S'^2 - A S' \cdot \hbar^2 = \mathrm{(terms)}
+$$
 
 Actually, substituting directly into $-\hbar^2\psi''/(2m) + V\psi = E\psi$ and separating orders of
 $\hbar$:
 
 **Leading order ($\hbar^0$):** $S'(x) = \pm p(x) = \pm\sqrt{2m(E - V(x))}$
 
-**Next order ($\hbar^1$):** $A'(x)/A(x) = -S''(x)/(2S'(x))$Giving $A(x) \propto 1/\sqrt{p(x)}$.
+**Next order ($\hbar^1$):** $A'(x)/A(x) = -S''(x)/(2S'(x))$ Giving $A(x) \propto 1/\sqrt{p(x)}$.
 
 Therefore, in the classically allowed region ($E \gt V$):
 
-$$\psi(x) \approx \frac{C}{\sqrt{p(x)}}\cos\!\left(\frac{1}{\hbar}\int_{x_1}^x p(x')\,dx' + \frac{\pi}{4}\right)$$
+$$
+\psi(x) \approx \frac{C}{\sqrt{p(x)}}\cos\!\left(\frac{1}{\hbar}\int_{x_1}^x p(x')\,dx' + \frac{\pi}{4}\right)
+$$
 
 Where $x_1$ is a turning point ($E = V(x_1)$).
 
@@ -174,21 +256,27 @@ Where $x_1$ is a turning point ($E = V(x_1)$).
 Connection formula (for a linear turning point, $V(x) \approx E + V'(x_1)(x-x_1)$) gives:
 
 - Approaching from the classically allowed side:
-  $$\frac{2C}{\sqrt{p(x)}}\cos\!\left(\frac{1}{\hbar}\int_{x_1}^x p(x')\,dx' - \frac{\pi}{4}\right) \longleftrightarrow \frac{C}{\sqrt{|p(x)|}}\exp\!\left(-\frac{1}{\hbar}\int_x^{x_1} |p(x')|\,dx'\right)$$
+  $$
+  \frac{2C}{\sqrt{p(x)}}\cos\!\left(\frac{1}{\hbar}\int_{x_1}^x p(x')\,dx' - \frac{\pi}{4}\right) \longleftrightarrow \frac{C}{\sqrt{|p(x)|}}\exp\!\left(-\frac{1}{\hbar}\int_x^{x_1} |p(x')|\,dx'\right)
+  $$
 
-**Quantization condition.** For a potential well with turning points $x_1$ and $x_2$Applying the
+**Quantization condition.** For a potential well with turning points $x_1$ and $x_2$ Applying the
 Connection formulas at both ends yields:
 
-$$\int_{x_1}^{x_2} p(x)\,dx = \left(n + \frac{1}{2}\right)\pi\hbar, \quad n = 0, 1, 2, \ldots$$
+$$
+\int_{x_1}^{x_2} p(x)\,dx = \left(n + \frac{1}{2}\right)\pi\hbar, \quad n = 0, 1, 2, \ldots
+$$
 
 Equivalently, using the closed phase-space integral:
 
-$$\oint p\,dx = \left(n + \frac{1}{2}\right)h$$
+$$
+\oint p\,dx = \left(n + \frac{1}{2}\right)h
+$$
 
 This is the Bohr-Sommerfeld quantization condition, corrected by the $1/2$ term from the connection
 Formulas.
 
-**Validity.** The WKB approximation requires $|d\lambda/dx| \ll 1$Where $\lambda = h/p(x)$ is the
+**Validity.** The WKB approximation requires $|d\lambda/dx| \ll 1$ Where $\lambda = h/p(x)$ is the
 Local de Broglie wavelength. Equivalently, the change in potential over one wavelength must be small
 Compared to the kinetic energy: $|\hbar\,|V'(x)|/(2mp(x))| \ll 1$.
 
@@ -197,17 +285,23 @@ Compared to the kinetic energy: $|\hbar\,|V'(x)|/(2mp(x))| \ll 1$.
 <details>
 <summary>Solution</summary>
 
-For $V(x) = \frac{1}{2}m\omega^2 x^2$The turning points are at $x_{1,2} = \pm\sqrt{2E/(m\omega^2)}$.
+For $V(x) = \frac{1}{2}m\omega^2 x^2$ The turning points are at $x_{1,2} = \pm\sqrt{2E/(m\omega^2)}$.
 
-$$\int_{x_1}^{x_2} \sqrt{2m\!\left(E - \frac{1}{2}m\omega^2 x^2\right)}\,dx = \sqrt{2mE}\int_{-a}^{a}\sqrt{1 - (x/a)^2}\,dx$$
+$$
+\int_{x_1}^{x_2} \sqrt{2m\!\left(E - \frac{1}{2}m\omega^2 x^2\right)}\,dx = \sqrt{2mE}\int_{-a}^{a}\sqrt{1 - (x/a)^2}\,dx
+$$
 
 Where $a = \sqrt{2E/(m\omega^2)}$. The integral equals $\pi a/2$ times $\sqrt{2mE}$:
 
-$$= \sqrt{2mE}\cdot\frac{\pi a}{2} = \frac{\pi E}{\omega}$$
+$$
+= \sqrt{2mE}\cdot\frac{\pi a}{2} = \frac{\pi E}{\omega}
+$$
 
 Setting this equal to $(n + 1/2)\pi\hbar$:
 
-$$\frac{\pi E}{\omega} = \left(n + \frac{1}{2}\right)\pi\hbar \implies E_n = \left(n + \frac{1}{2}\right)\hbar\omega$$
+$$
+\frac{\pi E}{\omega} = \left(n + \frac{1}{2}\right)\pi\hbar \implies E_n = \left(n + \frac{1}{2}\right)\hbar\omega
+$$
 
 This is the exact result! The WKB approximation gives the exact energy levels for the harmonic
 Oscillator because the potential is quadratic, so the connection formulas are exact.
@@ -223,21 +317,88 @@ theory.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[8_Approximation Methods] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Approximation methods tackle quantum problems that cannot be solved exactly. Perturbation theory treats a complicated Hamiltonian as a simple known part plus a small correction, then systematically calculates how the correction shifts energy levels and wavefunctions. The key assumption is that the correction is small compared to the energy spacing of the unperturbed system. The variational method provides an upper bound on the ground state energy by testing trial wavefunctions and minimizing the expectation value. WKB approximates the wavefunction as a locally oscillating function whose wavelength varies with position, working best when the potential changes slowly compared to the wavelength. These methods turn intractable problems into calculable ones.
 :::
+
+## Counterexamples worth knowing by name
+
+<div class="table-wrap">
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Perturbation theory always converges | no | the series is asymptotic; for most potentials it diverges for *every* nonzero coupling, and is still useful |
+| The variational method gives the ground-state energy | no | it gives an upper bound, and without knowing the exact value you cannot say how far off it is |
+| A good trial wave function needs to be close to the truth | no | the method only cares about the energy expectation; a poor trial function can give a good energy and bad everything else |
+| Degenerate perturbation theory is optional | no | using the non-degenerate formula on a degenerate level divides by zero |
+| WKB gives good wave functions everywhere | no | it fails at turning points, which is precisely where the connection formulae are needed |
+| The variational principle works for excited states | no, not directly | any trial function orthogonal to the exact ground state bounds the first excited state; but you do not know the exact ground state |
+| First-order perturbation theory is always the dominant correction | no | if the matrix element vanishes by symmetry, second order dominates |
+| WKB counts bound states | yes | $\oint p\,dx = 2\pi\hbar(n + \tfrac12)$ reproduces the harmonic oscillator and square-well spectra exactly |
+
+</div>
+
+The first row is the one that generalises furthest and surprises people most.
+Asymptotic series get *better* for the first few terms and then diverge, and
+the practical skill is knowing when to stop adding terms.
+
+The last row is worth internalising as a check: the WKB quantisation condition
+reproduces the harmonic oscillator spectrum with no error at all, which is a
+good indication that the method is capturing something structural rather than
+approximating.
+
+## Where the research frontier is
+
+- **Beyond Hartree-Fock.** Coupled cluster and full configuration interaction
+  are the systematic versions of perturbation theory, and their cost grows
+  exponentially with system size.
+- **Density functional theory.** The exact functional exists but is unknown;
+  every practical calculation uses an approximation to it, and improving the
+  functional is an open problem.
+- **Semiclassical methods.** WKB and its modern descendants are used where the
+  potential is smooth and the system is large; the mismatch with quantum
+  behaviour at caustics is the active question.
+- **Tensor networks and quantum computing.** Both are attempts to get
+  many-body answers without the exponential cost, and neither is a replacement
+  for perturbation theory -- they are a different kind of answer.
+- **Renormalisation.** Perturbation theory around an interacting fixed point
+  requires reorganising the expansion, which is what the renormalisation group
+  does; how that interacts with the asymptotic character of the series is the
+  open question.
+
+## Interleaving problems
+
+Mix these with [one-dimensional
+problems](/5-quantum-mechanics/5_one-dimensional-problems/), [angular
+momentum](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/),
+[operators](/5-quantum-mechanics/4_operators-and-observables/), [Real
+Analysis](https://mathematics.wyattau.com/3-real-analysis/3_series/) and
+[Optimisation](https://mathematics.wyattau.com/9-optimisation/1_introduction-to-optimisation/).
+
+1. (Operators.) Derive the first-order energy correction
+   $E_n^{(1)} = \langle n^{(0)}|\hat{V}|n^{(0)}\rangle$ by inserting the
+   perturbation expansion into the Schrodinger equation and matching powers of
+   $\lambda$. Identify the step that requires the level to be non-degenerate.
+2. (Linear algebra.) Show that diagonalising $\hat{V}$ inside a degenerate
+   subspace is the same as diagonalising the perturbation matrix
+   $V_{ij} = \langle i^{(0)}|\hat{V}|j^{(0)}\rangle$, and explain why the
+   resulting basis is the one in which the perturbation is "already diagonal".
+3. (Real analysis.) Show that the perturbation series for the quartic
+   oscillator diverges for every nonzero coupling, by estimating the growth of
+   the coefficients. Then explain in what sense the series is still useful.
+4. (One-dimensional problems.) Apply the variational method to the infinite
+   square well with a trial function $\psi = x(L-x)$ and compare the resulting
+   energy with the exact value. How much of the error comes from the trial
+   function's shape rather than its normalisation?
+5. (WKB.) Derive the WKB quantisation condition
+   $\oint p\,dx = 2\pi\hbar(n + \tfrac12)$ for the harmonic oscillator and
+   confirm it reproduces the exact spectrum. Then explain where the extra
+   $\tfrac12$ comes from.
+6. (Research.) Density functional theory claims that the ground-state density
+   determines everything. State the Hohenberg-Kohn theorem precisely, then
+   explain why it is an existence result rather than a method -- and what the
+   practical gap is.
 
 ## Cross-References
 
@@ -246,7 +407,7 @@ Approximation methods tackle quantum problems that cannot be solved exactly. Per
 - **[Variational Methods](/5-quantum-mechanics/11_variational-methods/)**: The variational principle provides a systematic approach to estimating ground state energies.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Common Mistakes

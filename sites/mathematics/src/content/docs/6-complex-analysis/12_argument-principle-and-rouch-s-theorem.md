@@ -22,7 +22,9 @@ description: 'If is meromorphic inside and on a simple closed contour . Comprehe
 **Theorem 12.1 (Argument Principle).** If $f$ is meromorphic inside and on a simple closed contour
 $\gamma$ with no zeros or poles on $\gamma$, then
 
-$$\frac{1}{2\pi i}\int_\gamma \frac{f'(z)}{f(z)}\, dz = N - P$$
+$$
+\frac{1}{2\pi i}\int_\gamma \frac{f'(z)}{f(z)}\, dz = N - P
+$$
 
 where $N$ is the number of zeros and $P$ is the number of poles of $f$ inside $\gamma$ (counting
 multiplicities).
@@ -82,7 +84,9 @@ The integral $\frac{1}{2\pi i}\int_\gamma f'(z)/f(z)\, dz$ equals the winding nu
 $f(\gamma)$ around the origin. This geometric interpretation is useful in proving the argument
 principle:
 
-$$N - P = \frac{1}{2\pi} \Delta_\gamma \arg f(z)$$
+$$
+N - P = \frac{1}{2\pi} \Delta_\gamma \arg f(z)
+$$
 
 where $\Delta_\gamma \arg f(z)$ is the net change in the argument of $f(z)$ as $z$ traverses
 $\gamma$.
@@ -168,17 +172,6 @@ The argument principle requires that $f$ has no zeros or poles on the contour $\
 **Mistake 5: Misapplying Rouché's theorem to non-analytic functions.**
 Rouché's theorem requires that $f$ and $g$ be analytic inside and on the contour. If either function is not analytic, the theorem does not apply. Always verify analyticity before using Rouché's theorem.
 
-
-```mermaid
-flowchart TD
-    A[12_Argument Principle And Rouch S Theorem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The argument principle counts zeros and poles of a function by tracking how much its image winds around the origin as you traverse a contour. Imagine walking around a lake and counting how many times the shoreline loops around you: each loop corresponds to a zero inside. Rouche's theorem turns this into a practical tool: if two functions are close enough on a boundary, they have the same number of zeros inside. This is like checking whether two magnets have the same strength by measuring their pull at the boundary. It is used to locate roots of polynomials and eigenvalues of matrices.
@@ -189,7 +182,7 @@ The argument principle counts zeros and poles of a function by tracking how much
 - **[Liouville's Theorem](/6-complex-analysis/11_liouville-s-theorem-and-the-maximum-modulus-principle/)**: Liouville's theorem characterizes bounded entire functions and is used to prove the fundamental theorem of algebra.
 - **[Conformal Mappings](/6-complex-analysis/10_conformal-mappings/)**: The argument principle helps count zeros and poles in conformal mapping problems.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

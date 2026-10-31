@@ -69,6 +69,8 @@ C c\{1, 2, 3\};  // C++20: initializes A::a, B::b, then C::c
 
 ### Aggregate Evolution Summary
 
+<div class="table-wrap">
+
 | Feature                                    | C++11/14 | C++17        | C++20        |
 | :----------------------------------------- | :------- | :----------- | :----------- |
 | No user-declared constructors              | Required | Defaulted OK | Defaulted OK |
@@ -77,6 +79,8 @@ C c\{1, 2, 3\};  // C++20: initializes A::a, B::b, then C::c
 | No virtual functions                       | Required | Required     | Required     |
 | Designated initializers                    | No       | No           | Yes          |
 | Aggregate with default member initializers | Yes      | Yes          | Yes          |
+
+</div>
 
 ## Aggregate Initialization Syntax
 
@@ -283,8 +287,8 @@ Buffer b3 = \{"hello"\}; // data = "hello\0\0...\0", length = 0 (!)
                         // length is zero because the second initializer is missing
 ```
 
-The `b3` case is especially dangerous: the string fills `data`But `length` is zero-initialized
-Because no initializer was provided for it. This is not what you'd expect from a C-style struct
+The `b3` case is especially dangerous: the string fills `data`. But `length` is zero-initialized
+because no initializer was provided for it. This is not what you'd expect from a C-style struct
 Initialization.
 
 ### Safe Pattern: Always Brace-Initialize
@@ -382,7 +386,7 @@ C_Point p\{1.0, 2.0\};  // aggregate init works across language boundary
 ### Shared Memory and Mapped Structures
 
 Aggregates are critical for memory-mapped I/O and shared memory, where you need precise control over
-The binary layout:
+the binary layout:
 
 ```cpp
 struct __attribute__((packed)) UDPHeader \{
@@ -546,7 +550,7 @@ S s\{.b = expr_using_a(), .a = 1\};
 ```
 
 Wait -- actually, the values are associated with their designators. The initialization order is
-Declaration order: `a` is initialized first with value `1`Then `b` with `expr_using_a()`. The C++
+Declaration order: `a` is initialized first with value `1`. Then `b` with `expr_using_a()`. The C++
 Standard requires that initializers are applied in declaration order regardless of designator order
 [N4950 §9.4.5.4].
 
@@ -591,16 +595,6 @@ S global_s3\{1, 2\};  // zero-initialized, then aggregate init to \{1, 2\}
 - **Module 9.4 (Constant Expressions)**: `constexpr` aggregates and compile-time initialization
 - **Module 10 (Ownership and RAII)**: RAII and why aggregates with non-trivial members need care
 
-```mermaid
-flowchart TD
-    A[3_Aggregate_Initializationx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to aggregate initialization,
@@ -613,9 +607,6 @@ including key principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Worked Examples
 

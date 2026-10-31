@@ -22,6 +22,8 @@ categories:
 
 Go provides signed and unsigned integers at standard widths:
 
+<div class="table-wrap">
+
 | Type               | Size (bytes) | Range (signed)                                          | Range (unsigned)                |
 | ------------------ | ------------ | ------------------------------------------------------- | ------------------------------- |
 | `int8` / `uint8`   | 1            | -128 to 127                                             | 0 to 255                        |
@@ -30,6 +32,8 @@ Go provides signed and unsigned integers at standard widths:
 | `int64` / `uint64` | 8            | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | 0 to 18,446,744,073,709,551,615 |
 | `int` / `uint`     | 4 or 8       | Same as `int32` or `int64` (platform-dependent)         | Same as `uint32` or `uint64`    |
 | `uintptr`          | 4 or 8       | Unsigned integer large enough to store a pointer value  |                                 |
+
+</div>
 
 `int` and `uint` are the default integer types. Their size matches the native word size of the
 Platform: 32 bits on 32-bit systems, 64 bits on 64-bit systems. Use `int` unless you need a specific
@@ -43,7 +47,7 @@ var y int64 = 42
 ### Integer Overflow
 
 Go integers wrap around on overflow in the same manner as two"s complement arithmetic. The compiler
-Does not insert runtime checks:
+does not insert runtime checks:
 
 ```go
 var x uint8 = 255
@@ -58,10 +62,14 @@ a, carry := bits.Add(255, 1, 0) // a == 0, carry == 1
 
 ## Floating-Point Types
 
+<div class="table-wrap">
+
 | Type      | Size    | Precision             |
 | --------- | ------- | --------------------- |
 | `float32` | 4 bytes | ~6-7 decimal digits   |
 | `float64` | 8 bytes | ~15-16 decimal digits |
+
+</div>
 
 `float64` is the default. Both conform to IEEE 754.
 
@@ -98,7 +106,7 @@ fmt.Println(!b) // false
 ## String Type
 
 Strings are immutable sequences of UTF-8 bytes. They are not null-terminated and their length is
-Stored explicitly. The zero value is `""`Not `nil`.
+Stored explicitly. The zero value is `""`. Not `nil`.
 
 ```go
 s := "hello"
@@ -140,6 +148,8 @@ result := sb.String()
 Every type in Go has a zero value. Variables declared without an explicit initializer are set to
 Zero. This eliminates uninitialized variable bugs.
 
+<div class="table-wrap">
+
 | Type      | Zero Value                            |
 | --------- | ------------------------------------- |
 | `int`     | `0`                                   |
@@ -153,6 +163,8 @@ Zero. This eliminates uninitialized variable bugs.
 | Interface | `nil`                                 |
 | Struct    | All fields set to their zero values   |
 | Array     | All elements set to their zero values |
+
+</div>
 
 ```go
 var x int
@@ -224,7 +236,7 @@ const (
 ### `iota`
 
 `iota` is a predeclared identifier that resets to 0 in each `const` block and increments by one for
-Each subsequent constant. It enables bit flag and enumeration patterns:
+each subsequent constant. It enables bit flag and enumeration patterns:
 
 ```go
 const (
@@ -316,7 +328,7 @@ type Rune = int32
 1. **Using `==` to compare floats.** IEEE 754 makes exact equality unreliable. Use an epsilon
    comparison: `math.Abs(a-b) < epsilon`.
 
-2. **String indexing yields bytes.** `s[i]` returns a `byte`Not a `rune`. For multi-byte UTF-8, this
+2. **String indexing yields bytes.** `s[i]` returns a `byte`. Not a `rune`. For multi-byte UTF-8, this
    can split a character. Use `for i, r := range s` for rune iteration.
 
 3. **Assuming `int` is 64-bit.** On 32-bit systems, `int` is 32 bits. Use `int64` explicitly when
@@ -326,23 +338,12 @@ type Rune = int32
    one. Use `=` for assignment to an existing variable.
 
 5. **`nil` slices vs empty slices.** A `nil` slice has length and capacity 0 but is not equal to an
-   empty slice (`[]int{}`). JSON marshaling treats them differently: `nil` becomes `null``[]int{}`
+   empty slice (`[]int{}`). JSON marshaling treats them differently: `nil` becomes `null`, `[]int{}`
    becomes `[]`.
 
 6. **Integer overflow is silent.** Unlike Rust (debug panics) or Python (arbitrary precision), Go
    wraps on overflow without any runtime error. Use `math/bits` or explicit checks when overflow is
    a concern.
-
-
-```mermaid
-flowchart TD
-    A[Types And Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -357,13 +358,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

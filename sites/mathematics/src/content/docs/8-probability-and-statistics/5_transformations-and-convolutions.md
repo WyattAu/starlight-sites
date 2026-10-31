@@ -21,21 +21,29 @@ tags:
 
 **Theorem 5.1 (CDF Method).** If $Y = g(X)$ and $g$ is monotone, then
 
-$$F_Y(y) = P(g(X) \leq y) = \begin{cases} F_X(g^{-1}(y)) & \text{if}  g \text{ is} increasing \\ 1 - F_X(g^{-1}(y)) & \text{if}  g \text{ is} decreasing \end{cases}$$
+$$
+F_Y(y) = P(g(X) \leq y) = \begin{cases} F_X(g^{-1}(y)) & \text{if}  g \text{ is} increasing \\ 1 - F_X(g^{-1}(y)) & \text{if}  g \text{ is} decreasing \end{cases}
+$$
 
 **Theorem 5.2 (Change of Variables).** If $Y = g(X)$ where $g$ is differentiable and strictly
 monotone, then
 
-$$f_Y(y) = f_X(g^{-1}(y)) \cdot \left|\frac{d}{dy} g^{-1}(y)\right|$$
+$$
+f_Y(y) = f_X(g^{-1}(y)) \cdot \left|\frac{d}{dy} g^{-1}(y)\right|
+$$
 
 <details>
 <summary>Worked Example: Distribution of $X^2$ where $X \sim N(0, 1)$</summary>
 
 _Solution._ Let $Y = X^2$ where $X \sim N(0, 1)$. For $y \geq 0$:
 
-$$F_Y(y) = P(X^2 \leq y) = P(-\sqrt{y} \leq X \leq \sqrt{y}) = \Phi(\sqrt{y}) - \Phi(-\sqrt{y}) = 2\Phi(\sqrt{y}) - 1$$
+$$
+F_Y(y) = P(X^2 \leq y) = P(-\sqrt{y} \leq X \leq \sqrt{y}) = \Phi(\sqrt{y}) - \Phi(-\sqrt{y}) = 2\Phi(\sqrt{y}) - 1
+$$
 
-$$f_Y(y) = \frac{d}{dy}[2\Phi(\sqrt{y}) - 1] = 2\phi(\sqrt{y}) \cdot \frac{1}{2\sqrt{y}} = \frac{1}{\sqrt{2\pi y}}\, e^{-y/2}$$
+$$
+f_Y(y) = \frac{d}{dy}[2\Phi(\sqrt{y}) - 1] = 2\phi(\sqrt{y}) \cdot \frac{1}{2\sqrt{y}} = \frac{1}{\sqrt{2\pi y}}\, e^{-y/2}
+$$
 
 This is the PDF of the $\chi^2(1)$ distribution. $\blacksquare$
 
@@ -46,7 +54,9 @@ This is the PDF of the $\chi^2(1)$ distribution. $\blacksquare$
 **Theorem 5.3.** If $X$ and $Y$ are independent continuous random variables, the PDF of $Z = X + Y$
 is
 
-$$f_Z(z) = (f_X * f_Y)(z) = \int_{-\infty}^{\infty} f_X(x)\, f_Y(z - x)\, dx$$
+$$
+f_Z(z) = (f_X * f_Y)(z) = \int_{-\infty}^{\infty} f_X(x)\, f_Y(z - x)\, dx
+$$
 
 _Proof._
 $F_Z(z) = P(X + Y \leq z) = \iint_{x+y \leq z} f_{X,Y}(x, y)\, dx\, dy = \int_{-\infty}^{\infty} f_X(x)\left[\int_{-\infty}^{z-x} f_Y(y)\, dy\right] dx = \int_{-\infty}^{\infty} f_X(x)\, F_Y(z - x)\, dx$.
@@ -58,7 +68,7 @@ $Y \sim N(\mu_2, \sigma_2^2)$ are independent, then
 $X + Y \sim N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$.
 
 _Proof._ The convolution of two Gaussian PDFs is Gaussian. This follows from the MGF:
-$M_{X+Y}(t) = M_X(t)M_Y(t) = \exp((\mu_1 + \mu_2)t + (\sigma_1^2 + \sigma_2^2)t^2/2)$Which is the
+$M_{X+Y}(t) = M_X(t)M_Y(t) = \exp((\mu_1 + \mu_2)t + (\sigma_1^2 + \sigma_2^2)t^2/2)$ Which is the
 MGF of $N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$. $\blacksquare$
 
 ## Common Pitfalls
@@ -115,17 +125,21 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic         | Site       | Link                                                                                               |
 | ------------- | ---------- | -------------------------------------------------------------------------------------------------- |
 | [Probability] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/03-probability)       |
-| [Probability] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/1_probability)            |
-| [Probability] | DSE        | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/11_probability)                           |
+| [Probability] | IB         | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability/)            |
+| [Probability] | DSE        | [View](https://dse.wyattau.com/maths/compulsory/11_probability/)                           |
 | [Probability] | University | [View](https://mathematics.wyattau.com/) |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+</div>
+
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -160,7 +174,9 @@ $M_{X+Y}(t) = M_X(t)\cdot M_Y(t)$.
 
 Let $X \sim \text{Uniform}(0, 1)$. The MGF is:
 
-$$M_X(t) = E[e^{tX}] = \int_0^1 e^{tx}\,dx = \frac{e^t - 1}{t}, \quad t \neq 0$$
+$$
+M_X(t) = E[e^{tX}] = \int_0^1 e^{tx}\,dx = \frac{e^t - 1}{t}, \quad t \neq 0
+$$
 
 Differentiating: $M_X'(0) = E[X] = 1/2$ and $M_X''(0) = E[X^2] = 1/3$.
 
@@ -176,6 +192,8 @@ When you transform a random variable, its distribution changes according to how 
 
 ### 5.5 Key Relationships Summary
 
+<div class="table-wrap">
+
 | Operation | Resulting Distribution | Key Formula |
 | --------- | ---------------------- | ----------- |
 | $Y = g(X)$ monotone | $f_Y(y) = f_X(g^{-1}(y))\|d g^{-1}/dy\|$ | Change of variables |
@@ -184,6 +202,8 @@ When you transform a random variable, its distribution changes according to how 
 | $X \sim N(\mu_1,\sigma_1^2)$, $Y \sim N(\mu_2,\sigma_2^2)$ | $X+Y \sim N(\mu_1+\mu_2,\sigma_1^2+\sigma_2^2)$ | Normal sum |
 | $X \sim \text{Poisson}(\lambda_1)$, $Y \sim \text{Poisson}(\lambda_2)$ | $X+Y \sim \text{Poisson}(\lambda_1+\lambda_2)$ | Poisson sum |
 | $M_{aX+b}(t)$ | $e^{bt}M_X(at)$ | MGF transformation |
+
+</div>
 
 ## See Also
 

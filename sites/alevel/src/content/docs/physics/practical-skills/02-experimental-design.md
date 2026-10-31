@@ -36,7 +36,7 @@ Changes in the independent variable.
 
 **Definition.** A control variable is a variable that is kept constant throughout an experiment to
 Ensure that any observed changes in the dependent variable are due only to changes in the
-Independent variable.
+independent variable.
 
 - **Independent variable**: the variable you deliberately change (e.g., length of wire)
 - **Dependent variable**: the variable you measure (e.g., resistance)
@@ -47,6 +47,8 @@ Independent variable.
 
 **Example 1, Investigating `g` with a pendulum:**
 
+<div class="table-wrap">
+
 | Type        | Variable                      | How it is controlled/changed                    |
 | ----------- | ----------------------------- | ----------------------------------------------- |
 | Independent | Length of pendulum, $L$       | Vary with a metre rule from 0.2 m to 1.0 m      |
@@ -55,7 +57,11 @@ Independent variable.
 | Control     | Amplitude (angle of release)  | Keep below $5^\circ$                            |
 | Control     | String material and thickness | Use inextensible string                         |
 
+</div>
+
 **Example 2, Investigating the effect of temperature on the resistance of a thermistor:**
+
+<div class="table-wrap">
 
 | Type        | Variable           | How it is controlled/changed              |
 | ----------- | ------------------ | ----------------------------------------- |
@@ -65,6 +71,8 @@ Independent variable.
 | Control     | Immersion depth    | Thermistor fully submerged at fixed depth |
 | Control     | Heating rate       | Heat slowly, allow thermal equilibrium    |
 
+</div>
+
 :::caution
 Mnemonic: "I change the **I**ndependent variable, and I measure the **D**ependent variable."
 :::
@@ -72,11 +80,11 @@ Mnemonic: "I change the **I**ndependent variable, and I measure the **D**ependen
 ### Control Variables in Depth
 
 Control variables are often the most neglected part of experimental design, yet failing to control
-Them is the most common reason experiments produce invalid results.
+them is the most common reason experiments produce invalid results.
 
 **Why control variables matter:** If a control variable is not held constant, it becomes a
 **confounding variable**, you cannot determine whether the change in the dependent variable is due
-To the independent variable or the uncontrolled factor.
+to the independent variable or the uncontrolled factor.
 
 **Strategies for controlling variables:**
 
@@ -117,7 +125,7 @@ Accuracy but not precision.
 
 **Definition.** A random error is an unpredictable variation in measured values caused by
 Limitations of measurement or environmental fluctuations. It affects precision but not accuracy on
-Average.
+average.
 
 **Definition.** Uncertainty is an estimate of the range within which the true value of a measured
 Quantity is likely to lie, expressed as an absolute value $\pm \Delta x$ or as a percentage.
@@ -143,7 +151,7 @@ Quantity is likely to lie, expressed as an absolute value $\pm \Delta x$ or as a
 ### Reliability in Depth
 
 Reliability is fundamentally about **repeatability** and **reproducibility**. An experiment is
-Reliable if:
+reliable if:
 
 - **Repeatability:** the same person, using the same equipment, under the same conditions, obtains
   the same results on repeated trials.
@@ -156,7 +164,7 @@ The **range** (maximum − minimum) is often used as a simpler indicator.
 
 **Example.** A student measures the period of a pendulum five times: 1.98 s, 2.01 s, 2.00 s, 1.99 s,
 2.00 s. The mean is 2.00 s and the range is 0.03 s, giving a spread of $\pm 0.015$ s. This is
-Reliable, the variation is less than 1% of the mean.
+reliable, the variation is less than 1% of the mean.
 
 ### Validity in Depth
 
@@ -183,7 +191,9 @@ Validity has two aspects that examiners distinguish:
 
 Accuracy depends on minimising both systematic and random errors:
 
-$$\mathrm{Accuracy} \propto \frac{1}{|\mathrm{systematic error}| + \mathrm{random error}}$$
+$$
+\mathrm{Accuracy} \propto \frac{1}{|\mathrm{systematic error}| + \mathrm{random error}}
+$$
 
 **Systematic errors** shift all readings by a constant amount. They cannot be reduced by averaging.
 Examples include:
@@ -199,7 +209,9 @@ Include:
 - Reading the last digit of an analogue scale differently each time
 - Air currents affecting a pendulum swing
 
-$$\boxed{\mathrm{True value} = \mathrm{measured value} \pm \mathrm{uncertainty}}$$
+$$
+\boxed{\mathrm{True value} = \mathrm{measured value} \pm \mathrm{uncertainty}}
+$$
 
 :::caution
 (consistent) but invalid (measuring the wrong thing), or valid but inaccurate (systematic error).
@@ -220,7 +232,7 @@ When asked to design an experiment, address:
 
 ### Worked Example: Planning an Experiment to Determine `g`
 
-**Aim:** To determine the acceleration of free fall, $g$Using a simple pendulum.
+**Aim:** To determine the acceleration of free fall, $g$ Using a simple pendulum.
 
 **Variables:**
 
@@ -244,16 +256,16 @@ When asked to design an experiment, address:
 
 **Uncertainty:** The dominant uncertainty is the timing measurement. The absolute uncertainty in $T$
 Is $\pm 0.2$ s / 20 $= \pm 0.01$ s. The length measurement has uncertainty $\pm 0.005$ m from the
-Metre rule resolution.
+metre rule resolution.
 
-**Analysis:** Since $T = 2\pi\sqrt{L/g}$Plotting $T^2$ vs $L$ gives a straight line through the
+**Analysis:** Since $T = 2\pi\sqrt{L/g}$ Plotting $T^2$ vs $L$ gives a straight line through the
 Origin with gradient $4\pi^2/g$. Calculate $g$ from the gradient and compare with the accepted value
 $g = 9.81 \mathrm{ m s}^{-2}$.
 
 ### Choosing Measurement Ranges and Intervals
 
 When designing an experiment, choosing the correct range and interval for the independent variable
-Is critical:
+is critical:
 
 - **Range:** Should be as wide as practical to maximise the spread of data points. A wider range
   produces a more reliable gradient. However, the range must stay within the valid region of the
@@ -277,6 +289,8 @@ Is critical:
 
 ### Measuring Instruments
 
+<div class="table-wrap">
+
 | Instrument       | Typical Range                  | Resolution        | Common Use                  |
 | ---------------- | ------------------------------ | ----------------- | --------------------------- |
 | Metre rule       | 0–100 cm                       | 1 mm              | Lengths                     |
@@ -290,10 +304,12 @@ Is critical:
 | Signal generator | 1 Hz – 1 MHz                   | 1 Hz              | AC frequency                |
 | Data logger      | Various                        | Depends on sensor | Continuous recording        |
 
+</div>
+
 ### Choosing the Right Instrument
 
 The choice of instrument depends on the quantity being measured, the required precision, and the
-Context of the experiment:
+context of the experiment:
 
 - **Lengths &gt; 10 cm:** metre rule (resolution 1 mm)
 - **Lengths 1–10 cm:** vernier calipers (resolution 0.01 mm)
@@ -321,7 +337,7 @@ Of 10 clips together and divide by 10. This reduces the percentage uncertainty b
 ## 4. Risk Assessment
 
 Risk assessment is a required part of practical work at A Level. You must identify hazards, assess
-The risk, and describe precautions.
+the risk, and describe precautions.
 
 ### Risk Assessment Methodology
 
@@ -334,13 +350,19 @@ A risk assessment follows four steps:
 
 ### Risk Assessment Matrix
 
+<div class="table-wrap">
+
 | Likelihood / Severity | Minor (e.g., small burn) | Moderate (e.g., electric shock) | Severe (e.g., eye damage) |
 | --------------------- | ------------------------ | ------------------------------- | ------------------------- |
 | **Unlikely**          | Low                      | Medium                          | High                      |
 | **Possible**          | Medium                   | High                            | Very High                 |
 | **Likely**            | High                     | Very High                       | Unacceptable              |
 
+</div>
+
 ### Common Hazards in Physics Practicals
+
+<div class="table-wrap">
 
 | Hazard                       | Risk                          | Control Measures                                           |
 | ---------------------------- | ----------------------------- | ---------------------------------------------------------- |
@@ -351,6 +373,8 @@ A risk assessment follows four steps:
 | Heavy objects (e.g., masses) | Crushing injury               | Secure clamp stands, keep feet clear                       |
 | Sharp wire ends              | Cuts                          | File ends smooth, handle with care                         |
 | Oscilloscope / CRO           | Electric shock                | Check connections before powering on                       |
+
+</div>
 
 ### Writing a Risk Assessment for an Exam
 
@@ -398,7 +422,7 @@ When evaluating, you must distinguish between the two types of error:
 
 **Example.** In a resistivity experiment, a student plots $R$ vs $L$ and finds the line of best fit
 Has a non-zero y-intercept. This indicates a systematic error, likely contact resistance at the
-Crocodile clips. The intercept represents this fixed resistance.
+crocodile clips. The intercept represents this fixed resistance.
 
 ### Evaluating Graphs
 
@@ -465,7 +489,7 @@ When a graph is plotted, check:
 
 :::tip
 Instead of "use a more accurate instrument", say "use a micrometer instead of a ruler to measure the
-Wire diameter, reducing the uncertainty from $\pm 0.5$ mm to $\pm 0.005$ mm."
+wire diameter, reducing the uncertainty from $\pm 0.5$ mm to $\pm 0.005$ mm."
 :::
 
 :::danger
@@ -516,7 +540,7 @@ Measure diameter at multiple positions.
 <details>
 <summary>Problem 2</summary>
 In an experiment to determine $g$ using a simple pendulum, a student measures the time for 20
-Oscillations. Explain why this improves the reliability compared to timing a single oscillation.
+oscillations. Explain why this improves the reliability compared to timing a single oscillation.
 
 **Answer.** The uncertainty in timing a single oscillation is dominated by human reaction time
 ($\sim 0.2$ s). For a period of $\sim 1$ s, this gives a percentage uncertainty of $\sim 20\%$.
@@ -531,7 +555,7 @@ Period uncertainty is reduced by a factor of 20.
 <details>
 <summary>Problem 3</summary>
 Identify the independent, dependent, and control variables in an experiment to investigate how the
-Resistance of a thermistor varies with temperature.
+resistance of a thermistor varies with temperature.
 
 **Answer.** **Independent variable:** temperature $T$ (varied using a water bath). **Dependent
 Variable:** resistance $R$ (measured with an ohmmeter). **Control variables:** type of thermistor,
@@ -561,7 +585,7 @@ A student obtains data points that do not lie on a straight line when plotting $
 A pendulum. Suggest three possible reasons and how to investigate each.
 
 **Answer.** (1) **Large angle oscillations**: the formula $T = 2\pi\sqrt{L/g}$ assumes small angles.
-For angles $> 10^\circ$The period increases. Solution: use smaller angles ($< 5^\circ$) and Repeat.
+For angles $> 10^\circ$ The period increases. Solution: use smaller angles ($< 5^\circ$) and Repeat.
 (2) **String not ideal**: the string may stretch or have mass. Solution: use a lighter, Inextensible
 string. (3) **Air resistance**: damping affects the period at large amplitudes. Solution: use a
 denser bob to minimise air resistance effects.
@@ -573,14 +597,14 @@ denser bob to minimise air resistance effects.
 <details>
 <summary>Problem 6</summary>
 Explain the difference between reliability and validity in the context of an experiment to determine
-The speed of sound in air using echo timing.
+the speed of sound in air using echo timing.
 
 **Answer.** **Reliability:** repeating the experiment gives consistent values of the speed of sound.
 This is ensured by using the same apparatus, same distance, same temperature control, and taking
 Multiple readings. **Validity:** the method actually measures the speed of sound, not some other
-Quantity. This requires that the distance to the reflecting surface is accurately known, the time
+quantity. This requires that the distance to the reflecting surface is accurately known, the time
 Measured is truly the echo time (not other reflections), and temperature is controlled (since the
-Speed of sound depends on temperature).
+speed of sound depends on temperature).
 
 <b>If you get this wrong, revise:</b>
 [Reliability, Validity, and Accuracy](#reliability-validity-and-accuracy)
@@ -592,12 +616,12 @@ Speed of sound depends on temperature).
 A student investigates how the resistance of a length of constantan wire changes with temperature.
 The wire is heated in a water bath and its resistance is measured at regular temperature intervals.
 The student"s data shows that the resistance increases linearly with temperature, but the gradient
-Is significantly different from the accepted value. Identify two possible systematic errors in this
-Experiment.
+is significantly different from the accepted value. Identify two possible systematic errors in this
+experiment.
 
 **Answer.** (1) **Contact resistance:** The crocodile clips may add a fixed resistance that is not
 Accounted for. This shifts the entire line up, changing the apparent gradient. Solution: measure the
-Resistance at 0°C (ice-water mixture) and subtract this intercept, or use a four-wire (Kelvin)
+resistance at 0°C (ice-water mixture) and subtract this intercept, or use a four-wire (Kelvin)
 Connection. (2) **Temperature lag:** The wire may not be at the same temperature as the water bath
 (thermal equilibrium not reached). If the wire lags behind the water temperature, the measured
 Resistance corresponds to a lower temperature than recorded, distorting the gradient. Solution:
@@ -616,10 +640,14 @@ Diffraction. The laser is directed at a slit, and the diffraction pattern is obs
 
 **Answer.**
 
+<div class="table-wrap">
+
 | Hazard               | Who is at risk       | Risk level | Control measures                                                                                                                                                              |
 | -------------------- | -------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Laser beam           | Experimenter, others | High       | Never look directly at the beam or its reflection; wear laser safety goggles; ensure beam is below eye level; place a beam stop behind the screen; remove reflective surfaces |
 | Electrical equipment | Experimenter         | Low        | Check mains connections are insulated; keep liquids away from the laser power supply                                                                                          |
+
+</div>
 
 <b>If you get this wrong, revise:</b> [Risk Assessment](#4-risk-assessment)
 
@@ -629,17 +657,17 @@ Diffraction. The laser is directed at a slit, and the diffraction pattern is obs
 <summary>Problem 9</summary>
 A student determines the internal resistance of a battery by plotting a graph of terminal potential
 Difference $V$ against current $I$. The equation relating these quantities is
-$V = \mathcal{E} - Ir$Where $\mathcal{E}$ is the emf and $r$ is the internal resistance. The
+$V = \mathcal{E} - Ir$ Where $\mathcal{E}$ is the emf and $r$ is the internal resistance. The
 Student obtains a y-intercept of 1.48 V and a gradient of $-1.25 \Omega$. The accepted emf is 1.50
 V. Evaluate this result.
 
 **Answer.** The measured emf ($\mathcal{E} = 1.48$ V) is close to the accepted value (1.50 V),
-Giving a percentage difference of $(1.50 - 1.48)/1.50 \times 100 = 1.3\%$Which is within typical
+Giving a percentage difference of $(1.50 - 1.48)/1.50 \times 100 = 1.3\%$ Which is within typical
 Measurement uncertainty. The internal resistance $r = 1.25 \Omega$. The graph passes approximately
-Through the origin (the x-intercept should be $\mathcal{E}/r = 1.50/1.25 = 1.20$ A). If the line
-Does not pass through the origin on a $V$ vs $I$ plot this is expected (the y-intercept is the emf).
+through the origin (the x-intercept should be $\mathcal{E}/r = 1.50/1.25 = 1.20$ A). If the line
+does not pass through the origin on a $V$ vs $I$ plot this is expected (the y-intercept is the emf).
 To improve accuracy: use a more precise voltmeter, ensure the battery does not heat up (which would
-Change $r$ during the experiment), and take readings quickly to minimise changes in the battery's
+change $r$ during the experiment), and take readings quickly to minimise changes in the battery's
 Internal state.
 
 <b>If you get this wrong, revise:</b> [Evaluating Graphs](#evaluating-graphs)
@@ -649,15 +677,15 @@ Internal state.
 <details>
 <summary>Problem 10</summary>
 Design an experiment to determine the Young modulus of a copper wire. In your answer, identify all
-Variables, describe the method, and explain how you would ensure the experiment is both reliable and
-Valid.
+variables, describe the method, and explain how you would ensure the experiment is both reliable and
+valid.
 
 **Answer.**
 
 **Variables:**
 
 - **Independent:** applied load (force $F$), varied by adding slotted masses
-- **Dependent:** extension $\Delta L$Measured with a vernier scale or scribe mark on a reference
+- **Dependent:** extension $\Delta L$ Measured with a vernier scale or scribe mark on a reference
   scale
 - **Control:** wire material and cross-sectional area, temperature, method of measuring extension
 
@@ -678,7 +706,7 @@ Valid.
 
 **Validity:** Ensure the wire is within its elastic limit (check by removing masses). Ensure the
 Extension is measured from a fixed reference, not the moving clamp. The experiment is valid only if
-The wire obeys Hooke's law throughout the range used.
+the wire obeys Hooke's law throughout the range used.
 
 <b>If you get this wrong, revise:</b>
 [Worked Example: Planning an Experiment to Determine `g`](/physics/practical-skills/02-experimental-design/)
@@ -688,12 +716,12 @@ The wire obeys Hooke's law throughout the range used.
 <details>
 <summary>Problem 11</summary>
 In an experiment to determine the speed of sound in air, a student claps once and measures the time
-For the echo to return from a wall 50 m away. The student repeats the measurement 5 times and
-Obtains the following times: 0.294 s, 0.301 s, 0.288 s, 0.310 s, 0.295 s. The accepted speed of
-Sound at 20°C is 343 m s$^{-1}$.
+for the echo to return from a wall 50 m away. The student repeats the measurement 5 times and
+obtains the following times: 0.294 s, 0.301 s, 0.288 s, 0.310 s, 0.295 s. The accepted speed of
+sound at 20°C is 343 m s$^{-1}$.
 
 (a) Calculate the mean time and the percentage uncertainty in the time measurement. (b) Calculate
-The speed of sound from the mean time and compare with the accepted value. (c) Identify the largest
+the speed of sound from the mean time and compare with the accepted value. (c) Identify the largest
 Source of error and suggest an improvement.
 
 **Answer.**
@@ -730,21 +758,7 @@ Eliminate human reaction time entirely.
 4. Confusing displacement with distance, or velocity with speed, particularly in graphs and
    calculations.
 
-```mermaid
-flowchart TD
-    A[02 Experimental Design] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

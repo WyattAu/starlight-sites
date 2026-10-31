@@ -25,9 +25,13 @@ categories:
 ### 1.1 Definition and Components
 
 We define **aggregate demand (AD)** as the total planned expenditure on goods and services in an
-Economy at a given general price level.
+economy at a given general price level.
 
-$$AD = C + I + G + (X - M)$$
+$$
+AD = C + I + G + (X - M)
+$$
+
+<div class="table-wrap">
 
 | Component                   | Definition                                      | Determinants                                                                    |
 | --------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -37,10 +41,12 @@ $$AD = C + I + G + (X - M)$$
 | **X** (Exports)             | Spending by foreigners on domestic goods        | Foreign income, exchange rate, trade policies                                   |
 | **M** (Imports)             | Spending by domestic residents on foreign goods | Domestic income, exchange rate, tastes                                          |
 
+</div>
+
 ### 1.2 The Shape of the AD Curve
 
 The AD curve slopes **downward** from left to right (higher price level $\Rightarrow$ lower quantity
-Of AD).
+of AD).
 
 :::note
 wealth Effects. OCR may ask students to evaluate which channel is most significant in practice.
@@ -49,33 +55,39 @@ wealth Effects. OCR may ask students to evaluate which channel is most significa
 We derive this from three channels:
 
 **1. Wealth effect (Pigou effect):** A higher price level reduces the real value of money balances
-And other financial assets. Households feel less wealthy and reduce consumption:
+and other financial assets. Households feel less wealthy and reduce consumption:
 
-$$P \uparrow \Rightarrow \frac{M}{P} \downarrow \Rightarrow \mathrm{Real wealth } \downarrow \Rightarrow C \downarrow \Rightarrow AD \downarrow$$
+$$
+P \uparrow \Rightarrow \frac{M}{P} \downarrow \Rightarrow \mathrm{Real wealth } \downarrow \Rightarrow C \downarrow \Rightarrow AD \downarrow
+$$
 
 **2. Interest rate effect (Keynes effect):** A higher price level increases the demand for money
 (more money needed for transactions). This raises interest rates, which reduces investment:
 
-$$P \uparrow \Rightarrow \mathrm{Money demand } \uparrow \Rightarrow r \uparrow \Rightarrow I \downarrow \Rightarrow AD \downarrow$$
+$$
+P \uparrow \Rightarrow \mathrm{Money demand } \uparrow \Rightarrow r \uparrow \Rightarrow I \downarrow \Rightarrow AD \downarrow
+$$
 
 **3. Exchange rate effect (Mundell-Fleming):** A higher price level (relative to other countries)
 Makes exports less competitive and imports more attractive. The exchange rate may also depreciate,
 But the net effect is:
 
-$$P \uparrow \Rightarrow X \downarrow, M \uparrow \Rightarrow (X - M) \downarrow \Rightarrow AD \downarrow$$
+$$
+P \uparrow \Rightarrow X \downarrow, M \uparrow \Rightarrow (X - M) \downarrow \Rightarrow AD \downarrow
+$$
 
 #### Derivation of the AD Slope from the IS-LM Framework
 
 A more rigorous derivation combines the goods market (IS curve) and money market (LM curve). The IS
-Curve gives the combinations of $Y$ and $r$ where planned expenditure equals output. The LM curve
+curve gives the combinations of $Y$ and $r$ where planned expenditure equals output. The LM curve
 Gives combinations where real money supply equals real money demand:
 
 $$\mathrm{IS: } Y = C(Y - T) + I(r) + G + (X - M)$$ $$\mathrm{LM: } \frac{M^s}{P} = L(Y, r)$$
 
-An increase in $P$ reduces real money balances $M^s/P$Shifting the LM curve leftward. This raises
-$r$Which reduces $I$ and hence $Y$ along the IS curve. The AD curve is the set of $(Y, P)$ pairs
+An increase in $P$ reduces real money balances $M^s/P$ Shifting the LM curve leftward. This raises
+$r$ Which reduces $I$ and hence $Y$ along the IS curve. The AD curve is the set of $(Y, P)$ pairs
 Consistent with both IS and LM equilibrium. Since $P \uparrow \Rightarrow Y \downarrow$ along this
-Locus, the AD curve slopes downward.
+locus, the AD curve slopes downward.
 
 **Real-world example.** During 2021-22, many economies experienced rising price levels. The Bank of
 England raised the base rate from 0.1% to 5.25% to combat inflation. Higher interest rates
@@ -86,6 +98,8 @@ Illustrating the interest rate channel in action.
 
 The AD curve shifts when any component changes _at a given price level_:
 
+<div class="table-wrap">
+
 | Change                                                | Effect on AD    |
 | ----------------------------------------------------- | --------------- |
 | Consumption increases (e.g., tax cut, confidence)     | AD shifts right |
@@ -94,24 +108,28 @@ The AD curve shifts when any component changes _at a given price level_:
 | Exports increase (e.g., foreign growth, depreciation) | AD shifts right |
 | Imports increase (e.g., income rise, appreciation)    | AD shifts left  |
 
+</div>
+
 #### Derivation of AD Shift Magnitude
 
-The horizontal shift of the AD curve equals $\Delta Y = k \times \Delta A$Where $\Delta A$ is the
-Initial change in autonomous spending and $k$ is the multiplier. For example, if the government
-Increases spending by £50bn and $k = 2$The AD curve shifts right by £100bn at every price level.
+The horizontal shift of the AD curve equals $\Delta Y = k \times \Delta A$ Where $\Delta A$ is the
+initial change in autonomous spending and $k$ is the multiplier. For example, if the government
+Increases spending by £50bn and $k = 2$ The AD curve shifts right by £100bn at every price level.
 
-$$\mathrm{AD shifts right by } k \cdot \Delta A \mathrm{ at every } P$$
+$$
+\mathrm{AD shifts right by } k \cdot \Delta A \mathrm{ at every } P
+$$
 
 **Real-world example, the COVID-19 fiscal response.** In 2020, the UK government introduced the
 Furlough scheme costing approximately £70bn. With an estimated multiplier of 0.6-1.5 (lower than
-Usual due to lockdowns restricting spending channels), AD still shifted significantly rightward,
+usual due to lockdowns restricting spending channels), AD still shifted significantly rightward,
 Preventing a deeper recession. This illustrates how the multiplier determines the _magnitude_ of the
 AD shift, not just its direction.
 
 **Real-world example, exchange rate effects on AD.** Following the Brexit referendum in 2016, the
 Pound depreciated by approximately 15% against the US dollar. This made UK exports cheaper and
-Imports more expensive, shifting AD to the right through increased net exports. However, the effect
-Was partly offset by higher import costs feeding into SRAS (cost-push inflation).
+imports more expensive, shifting AD to the right through increased net exports. However, the effect
+was partly offset by higher import costs feeding into SRAS (cost-push inflation).
 
 ## 2. Aggregate Supply
 
@@ -120,7 +138,9 @@ Was partly offset by higher import costs feeding into SRAS (cost-push inflation)
 The **SRAS curve** slopes upward from left to right: a higher price level induces firms to increase
 Output.
 
-$$SRAS: Y = Y^* + \alpha(P - P^e)$$
+$$
+SRAS: Y = Y^* + \alpha(P - P^e)
+$$
 
 Where $Y^*$ is potential output, $P^e$ is the expected price level, and $\alpha > 0$.
 
@@ -138,12 +158,12 @@ Where $Y^*$ is potential output, $P^e$ is the expected price level, and $\alpha 
 :::note
 imperfect Information model. OCR expects students to compare sticky-wage and sticky-price theories.
 New Classical economists (AQA Unit 4, CIE Paper 4) argue that SRAS is vertical even in the short run
-Because rational agents anticipate price changes, this is the policy ineffectiveness proposition.
+because rational agents anticipate price changes, this is the policy ineffectiveness proposition.
 :::
 
 **Real-world example, sticky wages in action.** During the COVID-19 pandemic, many UK workers
 Remained on fixed-wage contracts even as the price level rose due to supply chain disruptions. The
-Real wage ($w/P$) fell, making labour relatively cheaper for firms. However, because lockdowns
+real wage ($w/P$) fell, making labour relatively cheaper for firms. However, because lockdowns
 Prevented firms from expanding output, the SRAS mechanism was constrained, showing that the SRAS
 Relationship depends on firms' ability to respond, not just the incentive.
 
@@ -156,15 +176,17 @@ Output or natural output).
 Flexible. A change in the general price level changes _all_ nominal prices proportionally, leaving
 Real variables unchanged. Money is neutral: it affects only nominal variables, not real output.
 
-$$P \uparrow \Rightarrow w \uparrow \mathrm{ proportionally} \Rightarrow \frac{w}{P} \mathrm{ unchanged} \Rightarrow Y \mathrm{ unchanged}$$
+$$
+P \uparrow \Rightarrow w \uparrow \mathrm{ proportionally} \Rightarrow \frac{w}{P} \mathrm{ unchanged} \Rightarrow Y \mathrm{ unchanged}
+$$
 
 Therefore, the LRAS curve is vertical at $Y^*$. $\blacksquare$
 
 :::note
 Capacity of the economy. AQA uses the same vertical LRAS but emphasises the distinction between
-Actual and potential growth. CIE (9708) may present an alternative diagram where LRAS is drawn as a
-Curve becoming vertical at full employment, this is the _Keynesian AS curve_ and is acceptable only
-In CIE mark schemes. OCR expects students to explain _why_ LRAS is vertical using the classical
+actual and potential growth. CIE (9708) may present an alternative diagram where LRAS is drawn as a
+curve becoming vertical at full employment, this is the _Keynesian AS curve_ and is acceptable only
+in CIE mark schemes. OCR expects students to explain _why_ LRAS is vertical using the classical
 Dichotomy or factor mobility arguments.
 :::
 
@@ -172,21 +194,27 @@ Dichotomy or factor mobility arguments.
 
 Potential output is determined by the aggregate production function:
 
-$$Y^* = A \cdot F(K, L)$$
+$$
+Y^* = A \cdot F(K, L)
+$$
 
 Where $A$ is total factor productivity, $K$ is the capital stock, and $L$ is the labour supply (at
-The natural rate of employment). In the long run, $K$ and $L$ are fixed (determined by savings,
+the natural rate of employment). In the long run, $K$ and $L$ are fixed (determined by savings,
 Investment, population growth), and $A$ grows exogenously (technological progress). Therefore $Y^*$
-Is independent of the price level, the LRAS is vertical.
+is independent of the price level, the LRAS is vertical.
 
 The growth rate of potential output is:
 
-$$g_{Y^*} = g_A + \alpha \cdot g_K + (1 - \alpha) \cdot g_L$$
+$$
+g_{Y^*} = g_A + \alpha \cdot g_K + (1 - \alpha) \cdot g_L
+$$
 
 Where $\alpha$ is capital's share of income (approximately 0.3 in the UK). This equation shows that
 LRAS shifts right when productivity, capital, or labour grow.
 
 ### 2.3 Shifts of the SRAS Curve
+
+<div class="table-wrap">
 
 | Change                                          | Effect on SRAS    |
 | ----------------------------------------------- | ----------------- |
@@ -199,10 +227,12 @@ LRAS shifts right when productivity, capital, or labour grow.
 | Expectations of higher inflation                | SRAS shifts left  |
 | Tax increase on firms                           | SRAS shifts left  |
 
+</div>
+
 **Real-world example, the 1973 oil crisis.** When OPEC quadrupled oil prices, SRAS shifted sharply
 Left across Western economies. In the UK, inflation reached over 24% while GDP contracted by 2.7% in
 1974-75. This episode of stagflation fundamentally challenged the prevailing Keynesian consensus and
-Helped establish the importance of supply-side analysis in macroeconomics.
+helped establish the importance of supply-side analysis in macroeconomics.
 
 **Real-world example, technology and SRAS.** The widespread adoption of the internet and digital
 Technologies from the late 1990s shifted SRAS right by reducing production costs and increasing
@@ -212,16 +242,20 @@ Simultaneously.
 
 #### Derivation of the SRAS Shift from Expectations
 
-From the SRAS equation $Y = Y^* + \alpha(P - P^e)$If expected prices $P^e$ rise by $\Delta P^e$
+From the SRAS equation $Y = Y^* + \alpha(P - P^e)$ If expected prices $P^e$ rise by $\Delta P^e$
 (with actual $P$ unchanged), output falls to:
 
-$$Y_{new} = Y^* + \alpha(P - (P^e + \Delta P^e)) = Y^* + \alpha(P - P^e) - \alpha \Delta P^e$$
+$$
+Y_{new} = Y^* + \alpha(P - (P^e + \Delta P^e)) = Y^* + \alpha(P - P^e) - \alpha \Delta P^e
+$$
 
-$$\Delta Y = -\alpha \Delta P^e \lt 0$$
+$$
+\Delta Y = -\alpha \Delta P^e \lt 0
+$$
 
 So an increase in expected inflation shifts SRAS left by $\alpha \cdot \Delta P^e$. This explains
 Why **inflation expectations are self-fulfilling**: if firms and workers expect higher prices, they
-Adjust behaviour (demand higher wages, raise prices pre-emptively), shifting SRAS left and actually
+adjust behaviour (demand higher wages, raise prices pre-emptively), shifting SRAS left and actually
 _causing_ higher prices. This is why central banks place such emphasis on anchoring inflation
 Expectations.
 
@@ -239,12 +273,12 @@ The LRAS shifts right when the economy's productive capacity increases:
 **Real-world example, China's LRAS shift (1978-present).** Economic reforms under Deng Xiaoping
 Transformed China from an agrarian economy to the world's manufacturing hub. Institutional reforms
 (establishment of Special Economic Zones), massive investment in physical capital, improvements in
-Education, and technology transfer from foreign direct investment collectively shifted China's LRAS
+education, and technology transfer from foreign direct investment collectively shifted China's LRAS
 Dramatically rightward. Annual GDP growth averaged approximately 10% for three decades.
 
 **Real-world example, UK productivity puzzle.** Since the 2008 financial crisis, the UK has
 Experienced a persistent productivity slowdown. Despite employment recovering quickly, output per
-Hour grew at only 0.3% per year from 2008-2020, compared to 2.2% from 1971-2007. This suggests the
+hour grew at only 0.3% per year from 2008-2020, compared to 2.2% from 1971-2007. This suggests the
 LRAS shifted right more slowly than historical trends would predict, a phenomenon known as the
 "productivity puzzle." Possible explanations include: misallocation of capital to low-productivity
 Sectors, reduced business investment, and weaker growth in total factor productivity.
@@ -253,7 +287,9 @@ Sectors, reduced business investment, and weaker growth in total factor producti
 
 ### 3.1 Short-Run Equilibrium
 
-$$AD = SRAS \quad \mathrm{at } (Y_{SR}, P_{SR})$$
+$$
+AD = SRAS \quad \mathrm{at } (Y_{SR}, P_{SR})
+$$
 
 If $Y_{SR} = Y^*$: the economy is at full employment. If $Y_{SR} > Y^*$: the economy is above full
 Employment (overheating, inflationary gap). If $Y_{SR} < Y^*$: the economy is below full employment
@@ -264,13 +300,15 @@ Employment (overheating, inflationary gap). If $Y_{SR} < Y^*$: the economy is be
 **Proposition: The economy self-corrects to potential output in the long run.**
 
 _Proof._ Suppose $Y_{SR} > Y^*$. Actual output exceeds potential $\Rightarrow$ unemployment falls
-Below the natural rate $\Rightarrow$ labour market tightens $\Rightarrow$ wages rise (workers have
-Bargaining power). Higher wages increase firms' costs $\Rightarrow$ SRAS shifts left $\Rightarrow$
+below the natural rate $\Rightarrow$ labour market tightens $\Rightarrow$ wages rise (workers have
+bargaining power). Higher wages increase firms' costs $\Rightarrow$ SRAS shifts left $\Rightarrow$
 Price level rises, output falls back to $Y^*$. Conversely, if $Y_{SR} < Y^*$: high unemployment puts
 Downward pressure on wages $\Rightarrow$ SRAS shifts right $\Rightarrow$ price level falls, output
 Rises to $Y^*$. $\blacksquare$
 
-$$\mathrm{Long-run equilibrium: } AD = SRAS = LRAS \mathrm{ at } (Y^*, P_{LR})$$
+$$
+\mathrm{Long-run equilibrium: } AD = SRAS = LRAS \mathrm{ at } (Y^*, P_{LR})
+$$
 
 ### 3.3 Demand-Side Shocks
 
@@ -328,8 +366,8 @@ The classical self-correction mechanism rests on several assumptions that may no
 
 :::note
 The self-correcting mechanism. Edexcel (Paper 3) expects students to use AD/AS diagrams to
-Illustrate both Keynesian and classical perspectives. CIE (9708 Paper 4) often asks students to
-Discuss whether the economy can be left to self-correct. In all cases, examiners reward balanced
+illustrate both Keynesian and classical perspectives. CIE (9708 Paper 4) often asks students to
+discuss whether the economy can be left to self-correct. In all cases, examiners reward balanced
 Argumentation: acknowledge the theoretical mechanism but critically assess its practical
 Limitations.
 :::
@@ -339,13 +377,13 @@ Limitations.
 ### 4.1 Definition and Derivation
 
 The **multiplier** measures the ratio of the final change in national income to the initial change
-In spending.
+in spending.
 
 **Derivation using the geometric series.**
 
 Suppose there is an initial injection of spending $\Delta A$ (e.g., government spending). The
-Recipients spend a fraction $c = MPC$ and save $(1-c) = MPS$. The spending becomes income for
-Others, who in turn spend $c$ of that, and so on:
+recipients spend a fraction $c = MPC$ and save $(1-c) = MPS$. The spending becomes income for
+others, who in turn spend $c$ of that, and so on:
 
 $$
 \begin{aligned}
@@ -358,21 +396,25 @@ $$
 
 Where $k = \frac{1}{1 - MPC} = \frac{1}{MPS}$ is the **simple multiplier**.
 
-**Proof that the series converges.** Since $0 < c < 1$The geometric series
+**Proof that the series converges.** Since $0 < c < 1$ The geometric series
 $\sum_{n=0}^{\infty} c^n = \frac{1}{1-c}$. $\blacksquare$
 
 ### 4.2 The Complex Multiplier
 
 In an open economy with government, we account for withdrawals (leakages):
 
-$$k = \frac{1}{MPS + MPT + MPM}$$
+$$
+k = \frac{1}{MPS + MPT + MPM}
+$$
 
 Where $MPT$ = marginal propensity to tax, $MPM$ = marginal propensity to import.
 
-$$\Delta Y = \frac{\Delta A}{MPS + MPT + MPM}$$
+$$
+\Delta Y = \frac{\Delta A}{MPS + MPT + MPM}
+$$
 
 The more open the economy (high MPM) and the higher the tax rate (high MPT), the smaller the
-Multiplier. This is why small open economies (e.g., Singapore) have smaller multipliers than large
+multiplier. This is why small open economies (e.g., Singapore) have smaller multipliers than large
 Closed economies.
 
 ### 4.3 The Paradox of Thrift
@@ -381,7 +423,9 @@ If all households simultaneously increase their saving (reduce consumption), agg
 The multiplier effect amplifies the initial reduction in spending, causing a larger fall in income.
 Since saving depends on income ($S = -a + (1-c)Y$), total saving may actually _decrease_:
 
-$$\Delta S = MPS \times \Delta Y = MPS \times \frac{\Delta C}{MPS} = \Delta C < 0$$
+$$
+\Delta S = MPS \times \Delta Y = MPS \times \frac{\Delta C}{MPS} = \Delta C < 0
+$$
 
 This is the **paradox of thrift**: what is rational for the individual (saving more) is collectively
 Irrational (everyone ends up poorer and saving less).
@@ -391,7 +435,7 @@ Irrational (everyone ends up poorer and saving less).
 The multiplier model has several important limitations:
 
 1. **Capacity constraints.** The multiplier assumes the economy has spare capacity. If the economy
-   is at or near $Y^*$Additional spending bids up prices rather than output, and the real multiplier
+   is at or near $Y^*$ Additional spending bids up prices rather than output, and the real multiplier
    may be close to zero.
 
 2. **Crowding out.** Government borrowing to finance spending may raise interest rates, reducing
@@ -418,7 +462,9 @@ discuss why it Differs across countries.
 
 The **accelerator** links investment to changes in output:
 
-$$I = v(\Delta Y)$$
+$$
+I = v(\Delta Y)
+$$
 
 Where $v$ is the accelerator coefficient (capital-output ratio). A small change in output can induce
 A large change in investment.
@@ -431,6 +477,8 @@ Which further raises income, and so on. This can generate business cycles.
 
 ### Keynesian vs Classical View of AS
 
+<div class="table-wrap">
+
 | Feature          | Keynesian                          | Classical/New Classical |
 | ---------------- | ---------------------------------- | ----------------------- |
 | SRAS             | Upward-sloping                     | Vertical (or nearly so) |
@@ -438,6 +486,8 @@ Which further raises income, and so on. This can generate business cycles.
 | Wage flexibility | Wages are sticky downward          | Wages are flexible      |
 | Self-correction  | Slow or non-existent (need policy) | Automatic and rapid     |
 | Role of policy   | Active fiscal and monetary policy  | Minimal intervention    |
+
+</div>
 
 ### 6.1 Evaluating the AD/AS Framework
 
@@ -467,9 +517,9 @@ Evaluative answers:
 
 :::note
 The usefulness of the AD/AS model itself, a higher-order skill. AQA (7132) expects evaluation
-Within the context of specific policy discussions (e.g., "Evaluate the view that fiscal policy is
-The most effective way to increase AD"). Edexcel (9EC0) Paper 3 may ask students to compare AD/AS
-With alternative models such as the Phillips Curve.
+within the context of specific policy discussions (e.g., "Evaluate the view that fiscal policy is
+the most effective way to increase AD"). Edexcel (9EC0) Paper 3 may ask students to compare AD/AS
+with alternative models such as the Phillips Curve.
 :::
 
 :::caution
@@ -479,7 +529,7 @@ Curve. "An increase in consumer confidence increases AD" is CORRECT, it shifts t
 
 :::note
 (9708) requires detailed diagrammatic analysis of equilibrium and shifts. AQA focuses on the
-Multiplier and its policy implications.
+multiplier and its policy implications.
 :::
 
 ## 7. Problem Set
@@ -487,20 +537,20 @@ Multiplier and its policy implications.
 **Problem 1.** An economy has the following: MPC = 0.75, MPT = 0.15, MPM = 0.10. (a) Calculate the
 Multiplier. (b) If government spending increases by £100 billion, what is the final change in GDP?
 (c) If the government simultaneously increases spending by £100bn and taxes by £100bn, what is the
-Net effect on GDP?
+net effect on GDP?
 
 <details>
 <summary>Hint</summary>
-(a) $k = 1/(0.25 + 0.15 + 0.10) = 1/0.50 = 2$. (b) $\Delta Y = 2 \times 100 = £200$Bn. (c) The balanced budget multiplier: tax increase of £100bn reduces disposable income by £100bn, reducing consumption by $MPC \times 100 = 75$. The net injection is $100 - 75 = 25$. $\Delta Y = 2 \times 25 = £50$Bn. Alternatively, the balanced budget multiplier equals 1 when $k$ is the simple multiplier: $\Delta Y = \Delta G = £100$Bn. The discrepancy arises because the complex multiplier includes MPT and MPM in the denominator. With lump-sum taxes: balanced budget multiplier = 1.
+(a) $k = 1/(0.25 + 0.15 + 0.10) = 1/0.50 = 2$. (b) $\Delta Y = 2 \times 100 = £200$ Bn. (c) The balanced budget multiplier: tax increase of £100bn reduces disposable income by £100bn, reducing consumption by $MPC \times 100 = 75$. The net injection is $100 - 75 = 25$. $\Delta Y = 2 \times 25 = £50$ Bn. Alternatively, the balanced budget multiplier equals 1 when $k$ is the simple multiplier: $\Delta Y = \Delta G = £100$ Bn. The discrepancy arises because the complex multiplier includes MPT and MPM in the denominator. With lump-sum taxes: balanced budget multiplier = 1.
 </details>
 
 **Problem 2.** An economy is in short-run equilibrium with output £50bn below potential output of
 £500bn. The complex multiplier is 2.5. By how much should the government increase spending to close
-The output gap?
+the output gap?
 
 <details>
 <summary>Hint</summary>
-Required $\Delta Y = 50$. $\Delta Y = k \times \Delta G \Rightarrow 50 = 2.5 \times \Delta G \Rightarrow \Delta G = £20$Bn.
+Required $\Delta Y = 50$. $\Delta Y = k \times \Delta G \Rightarrow 50 = 2.5 \times \Delta G \Rightarrow \Delta G = £20$ Bn.
 </details>
 
 **Problem 3.** Using AD/AS analysis, explain the short-run and long-run effects of an increase in
@@ -558,7 +608,7 @@ Using the AD/AS model and the concept of crowding out.
 
 <details>
 <summary>Hint</summary>
-SR: AD shifts right $\Rightarrow Y \uparrow$, $P \uparrow$. LR: if the economy was below $Y^*$The increase in $Y$ is sustainable. If the economy was at or near $Y^*$SRAS shifts left as wages rise, returning $Y$ to $Y^*$ with only higher prices. Crowding out: increased government borrowing raises interest rates, reducing private investment $\Rightarrow$ AD may not shift by the full amount of the spending increase. The net effect on growth depends on: (1) the size of the output gap, (2) the multiplier, (3) the degree of crowding out.
+SR: AD shifts right $\Rightarrow Y \uparrow$, $P \uparrow$. LR: if the economy was below $Y^*$ The increase in $Y$ is sustainable. If the economy was at or near $Y^*$ SRAS shifts left as wages rise, returning $Y$ to $Y^*$ with only higher prices. Crowding out: increased government borrowing raises interest rates, reducing private investment $\Rightarrow$ AD may not shift by the full amount of the spending increase. The net effect on growth depends on: (1) the size of the output gap, (2) the multiplier, (3) the degree of crowding out.
 </details>
 
 **Problem 10.** Compare and contrast demand-pull and cost-push inflation using AD/AS diagrams.
@@ -571,7 +621,7 @@ Demand-pull: AD shifts right $\Rightarrow P \uparrow$$Y \uparrow$. Central bank 
 
 **Problem 11.** A small open economy with a high marginal propensity to import (MPM = 0.4) is
 Considering using fiscal policy to stimulate growth. Evaluate the likely effectiveness of this
-Policy compared with a larger, more closed economy (MPM = 0.1).
+policy compared with a larger, more closed economy (MPM = 0.1).
 
 <details>
 <summary>Hint</summary>
@@ -583,7 +633,7 @@ Business cycle even without any external shocks.
 
 <details>
 <summary>Hint</summary>
-Suppose an initial increase in investment. The multiplier raises income. The accelerator causes further investment (since income is growing). This raises income further, causing more investment. Eventually, income growth slows (approaching capacity constraints). The accelerator then causes investment to fall (because $\Delta Y$ falls even though $Y$ is still high). Falling investment reduces income (multiplier in reverse), which causes further investment cuts. The economy enters recession. Eventually, the recession bottoms out (depletion of inventories, replacement investment), and the cycle begins again. The mathematical condition for explosive oscillations is that the accelerator coefficient $v$ must exceed $1$ (when $v > 1$The interaction between the multiplier and accelerator produces cycles of increasing amplitude; Samuelson's stability condition for convergence requires $v < 1$).
+Suppose an initial increase in investment. The multiplier raises income. The accelerator causes further investment (since income is growing). This raises income further, causing more investment. Eventually, income growth slows (approaching capacity constraints). The accelerator then causes investment to fall (because $\Delta Y$ falls even though $Y$ is still high). Falling investment reduces income (multiplier in reverse), which causes further investment cuts. The economy enters recession. Eventually, the recession bottoms out (depletion of inventories, replacement investment), and the cycle begins again. The mathematical condition for explosive oscillations is that the accelerator coefficient $v$ must exceed $1$ (when $v > 1$ The interaction between the multiplier and accelerator produces cycles of increasing amplitude; Samuelson's stability condition for convergence requires $v < 1$).
 </details>
 
 **Problem 13.** An economy in long-run equilibrium experiences a sudden increase in consumer
@@ -592,14 +642,14 @@ And the price level. Evaluate the extent to which the initial boost to output is
 
 <details>
 <summary>Hint</summary>
-SR: AD shifts right $\Rightarrow Y \uparrow$$P \uparrow$Employment rises as firms hire more
-Workers to meet increased demand. LR: as $Y > Y^*$The labour market tightens, wages rise, SRAS
+SR: AD shifts right $\Rightarrow Y \uparrow$$P \uparrow$ Employment rises as firms hire more
+workers to meet increased demand. LR: as $Y > Y^*$ The labour market tightens, wages rise, SRAS
 Shifts left $\Rightarrow Y$ returns to $Y^*$$P$ rises further, employment returns to the natural
 Rate. Evaluation: the initial boost is temporary. Sustainability depends on whether the confidence
 Shock also stimulates investment (shifting LRAS right). If higher confidence leads to more capital
 Accumulation, $Y^*$ could increase permanently. However, if the shock is purely demand-driven with
-No supply-side effects, the long-run outcome is only higher prices. Also consider crowding out: if
-The economy was near $Y^*$The central bank may raise rates to prevent overheating, offsetting the
+no supply-side effects, the long-run outcome is only higher prices. Also consider crowding out: if
+the economy was near $Y^*$ The central bank may raise rates to prevent overheating, offsetting the
 AD shift.
 </details>
 
@@ -610,32 +660,32 @@ Long-run economic growth." Evaluate this statement using the AD/AS framework.
 <summary>Hint</summary>
 Supply-side policies shift LRAS right by increasing productive capacity (education reform,
 Deregulation, infrastructure investment, tax incentives for R&D). This increases $Y^*$ and reduces
-The price level, a sustainable improvement in living standards. Demand-side policies (fiscal and
-Monetary) shift AD right: they raise $Y$ only in the short run (if below $Y^*$) and may create
+the price level, a sustainable improvement in living standards. Demand-side policies (fiscal and
+monetary) shift AD right: they raise $Y$ only in the short run (if below $Y^*$) and may create
 Inflationary pressure (if at $Y^*$). In the long run, AD shifts only change prices, not output.
 Evaluation: (1) Supply-side policies take years to have effect, they cannot address a short-run
 Recession. (2) Demand-side policies are essential for stabilisation. (3) Some supply-side policies
-Also shift AD in the short run (e.g., infrastructure spending). (4) The effectiveness of supply-side
+also shift AD in the short run (e.g., infrastructure spending). (4) The effectiveness of supply-side
 Policies depends on the type, market-based reforms (deregulation) may increase inequality, while
-Human capital investment has fewer negative side effects. (5) In practice, optimal policy combines
-Both: demand management for stabilisation and supply-side reform for long-run growth.
+human capital investment has fewer negative side effects. (5) In practice, optimal policy combines
+both: demand management for stabilisation and supply-side reform for long-run growth.
 </details>
 
 **Problem 15.** The UK economy has an output gap of 3% of GDP. The government is considering two
 Options: (a) increase government spending by £30bn, or (b) cut income tax by £40bn. The MPC is 0.6,
-The MPT is 0.2, and the MPM is 0.15. (a) Calculate the multiplier. (b) Which option has the larger
+the MPT is 0.2, and the MPM is 0.15. (a) Calculate the multiplier. (b) Which option has the larger
 Effect on GDP? (c) Evaluate which policy is more appropriate, considering crowding out and
-Distributional effects.
+distributional effects.
 
 <details>
 <summary>Hint</summary>
-(a) $k = 1/(0.4 + 0.2 + 0.15) = 1/0.75 = 1.33$. (b) Option A: $\Delta Y = 1.33 \times 30 = £40$Bn.
+(a) $k = 1/(0.4 + 0.2 + 0.15) = 1/0.75 = 1.33$. (b) Option A: $\Delta Y = 1.33 \times 30 = £40$ Bn.
 Option B: tax cut of £40bn increases disposable income by £40bn. Initial consumption increase $=
 MPC \times 40 = 24$. $\Delta Y = 1.33 \times 24 = £32$bn. Option A has a larger effect. (c)
 Evaluation: government spending directly injects into the circular flow, whereas tax cuts depend on
-Households' MPC, some of the tax cut will be saved. However, tax cuts may be faster to implement
-And avoid the bureaucratic delays of government spending programmes. Crowding out is more likely
-With spending increases (government borrowing). Distributional effects: income tax cuts
+households' MPC, some of the tax cut will be saved. However, tax cuts may be faster to implement
+and avoid the bureaucratic delays of government spending programmes. Crowding out is more likely
+with spending increases (government borrowing). Distributional effects: income tax cuts
 Disproportionately benefit higher earners (if not targeted), while government spending on public
 Services benefits lower-income groups more. The choice depends on the government's objectives,
 Speed, equity, and the state of public finances.
@@ -649,14 +699,14 @@ Sharp depreciation of the exchange rate on a heavily import-dependent economy su
 AD effects: depreciation makes exports cheaper and imports more expensive $\Rightarrow$ net exports
 $(X - M)$ increase $\Rightarrow$ AD shifts right. However, the UK imports approximately 30% of GDP,
 So the volume effect on imports may be small in the short run (price elasticity of demand for
-Imports is low initially). SRAS effects: imported raw materials and intermediate goods become more
-Expensive $\Rightarrow$ firms' costs rise $\Rightarrow$ SRAS shifts left. Net effect: AD shifts
+imports is low initially). SRAS effects: imported raw materials and intermediate goods become more
+expensive $\Rightarrow$ firms' costs rise $\Rightarrow$ SRAS shifts left. Net effect: AD shifts
 Right, SRAS shifts left. The outcome for output is ambiguous (depends on the relative magnitude of
-Shifts), but the price level unambiguously rises (imported inflation). Evaluation: (1) The
+shifts), but the price level unambiguously rises (imported inflation). Evaluation: (1) The
 Marshall-Lerner condition must hold, the sum of price elasticities of demand for exports and
-Imports must exceed 1 for the trade balance to improve. In the short run, the J-curve effect means
-The trade balance may worsen before improving. (2) If the economy is near $Y^*$The main effect is
-Inflationary, not growth-promoting. (3) Second-round effects: higher import prices feed into wage
+imports must exceed 1 for the trade balance to improve. In the short run, the J-curve effect means
+the trade balance may worsen before improving. (2) If the economy is near $Y^*$ The main effect is
+inflationary, not growth-promoting. (3) Second-round effects: higher import prices feed into wage
 Demands, creating a wage-price spiral.
 </details>
 
@@ -897,7 +947,7 @@ on how investment responds to the change in income.
 
 **Example.** An economy at full employment ($Y^* = 1000$) is hit by an oil price shock.
 
-**Initial equilibrium:** AD: $Y = 1200 - 2P$SRAS: $Y = 4P - 400$LRAS: $Y = 1000$.
+**Initial equilibrium:** AD: $Y = 1200 - 2P$ SRAS: $Y = 4P - 400$ LRAS: $Y = 1000$.
 $1200 - 2P = 4P - 400 \Rightarrow 1600 = 6P \Rightarrow P = 266.67$$Y = 666.67$.
 
 Wait, this is not at full employment. Let me adjust. Let me find SRAS that passes through
@@ -926,7 +976,7 @@ employment. Let me accept this and proceed.
 $1000 - P = 2P - 550 \Rightarrow 1550 = 3P \Rightarrow P = 516.67$$Y = 483.33$.
 
 Output has fallen from 533.33 to 483.33 (-50). Price level has risen from 466.67 to 516.67 (+50).
-This is stagflation.
+this is stagflation.
 
 **Policy option 1: Do nothing (classical approach).** High unemployment puts downward pressure on
 wages. SRAS gradually shifts right back to its original position. After several years, the economy
@@ -961,10 +1011,12 @@ supporting the most vulnerable.
 
 **Example.** How does the multiplier change with different values of MPC, tax rate, and MPM?
 
-**Base case:** MPC = 0.8, $t = 0.2$MPM = 0.15.
+**Base case:** MPC = 0.8, $t = 0.2$ MPM = 0.15.
 $k = \frac{1}{1 - 0.8(0.8) + 0.15} = \frac{1}{1 - 0.64 + 0.15} = \frac{1}{0.51} = 1.96$.
 
 **Sensitivity table:**
+
+<div class="table-wrap">
 
 | MPC | Tax rate | MPM  | Multiplier |
 | :-: | :------: | :--: | :--------: |
@@ -976,9 +1028,13 @@ $k = \frac{1}{1 - 0.8(0.8) + 0.15} = \frac{1}{1 - 0.64 + 0.15} = \frac{1}{0.51} 
 | 0.9 |   0.2    | 0.15 |    2.44    |
 | 0.9 |   0.4    | 0.2  |    2.70    |
 
+</div>
+
 Wait, let me verify one: MPC = 0.9, t = 0.4, MPM = 0.2.
 $k = \frac{1}{1 - 0.9(0.6) + 0.2} = \frac{1}{1 - 0.54 + 0.2} = \frac{1}{0.66} = 1.52$. That is
 different from 2.70. Let me recalculate the table.
+
+<div class="table-wrap">
 
 | MPC | Tax rate | MPM  | $MPC(1-t)$ |         Leakages         | Multiplier |
 | :-: | :------: | :--: | :--------: | :----------------------: | :--------: |
@@ -989,6 +1045,8 @@ different from 2.70. Let me recalculate the table.
 | 0.8 |   0.3    | 0.15 |    0.56    | $1 - 0.56 + 0.15 = 0.59$ |    1.69    |
 | 0.9 |   0.2    | 0.15 |    0.72    | $1 - 0.72 + 0.15 = 0.43$ |    2.33    |
 | 0.9 |   0.4    | 0.2  |    0.54    | $1 - 0.54 + 0.2 = 0.66$  |    1.52    |
+
+</div>
 
 **Key patterns:**
 
@@ -1017,6 +1075,8 @@ where $v = 1.5$ (accelerator coefficient).
 
 **Simulation:**
 
+<div class="table-wrap">
+
 | Year | $\Delta Y$ | Induced $I$ | Total $I$ | $\Delta I$ | $\Delta Y$ (from $\Delta I$) | Total $\Delta Y$ | $Y$  |
 | :--: | :--------: | :---------: | :-------: | :--------: | :--------------------------: | :--------------: | :--: |
 |  0   |     0      |      0      |    100    |     0      |              0               |        0         | 1000 |
@@ -1028,6 +1088,8 @@ where $v = 1.5$ (accelerator coefficient).
 |  6   |    +180    |     270     |    370    |     0      |              0               |        0         | 1560 |
 |  7   |     0      |      0      |    100    |    -270    |             -540             |       -540       | 1020 |
 |  8   |    -540    |    -810     |   -710    |    -810    |            -1620             |      -1620       | -600 |
+
+</div>
 
 **Interpretation:**
 
@@ -1055,7 +1117,7 @@ In reality, the cycles are damped by:
 
 **Shock 1: Oil price doubles (from USD 60 to USD 120 per barrel).**
 
-Initial equilibrium: AD: $Y = 800 - P$SRAS: $Y = 2P - 200$LRAS: $Y^* = 450$.
+Initial equilibrium: AD: $Y = 800 - P$ SRAS: $Y = 2P - 200$ LRAS: $Y^* = 450$.
 $800 - P = 2P - 200 \Rightarrow P = 333.33$$Y = 466.67$.
 
 SRAS shifts left by 100 (higher production costs). New SRAS: $Y = 2P - 300$.
@@ -1095,6 +1157,8 @@ explain. This led to the monetarist counter-revolution (Friedman, Thatcher).
 
 **Diagnostic indicators:**
 
+<div class="table-wrap">
+
 | Indicator           | Demand-pull                       | Cost-push                                 |
 | ------------------- | --------------------------------- | ----------------------------------------- |
 | Output gap          | Positive (above potential)        | Negative (below potential)                |
@@ -1104,6 +1168,8 @@ explain. This led to the monetarist counter-revolution (Friedman, Thatcher).
 | Profit margins      | Rising (firms have pricing power) | Falling (costs rising faster than prices) |
 | Commodity prices    | Stable or falling                 | Rising                                    |
 | Exchange rate       | Depreciating (imported inflation) | Appreciating (reducing import costs)      |
+
+</div>
 
 **Application to the UK (2022-2023):**
 
@@ -1183,21 +1249,7 @@ the financing method (tax-funded vs debt-funded).
 4. Neglecting to consider the ceteris paribus assumption when analysing multi-variable economic
    scenarios.
 
-```mermaid
-flowchart TD
-    A[02 Aggregate Demand And Supply] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Cross-References
 

@@ -25,6 +25,8 @@ categories:
 
 ### Types of Threats
 
+<div class="table-wrap">
+
 | Threat             | Description                                                          |
 | ------------------ | -------------------------------------------------------------------- |
 | Malware            | Malicious software (viruses, worms, trojans, ransomware)             |
@@ -34,6 +36,8 @@ categories:
 | SQL injection      | Inserting malicious SQL into input fields to manipulate databases    |
 | Brute force attack | Systematically trying all possible passwords/keys                    |
 | Social engineering | Manipulating people into divulging confidential information          |
+
+</div>
 
 ### The CIA Triad
 
@@ -51,14 +55,18 @@ The three core principles of information security:
 
 **Symmetric encryption** uses the **same key** for both encryption and decryption.
 
-$$C = E_K(M), \quad M = D_K(C)$$
+$$
+C = E_K(M), \quad M = D_K(C)
+$$
 
 Where $M$ is the plaintext, $C$ is the ciphertext, $E$ is the encryption function, $D$ is the
-Decryption function, and $K$ is the shared secret key.
+decryption function, and $K$ is the shared secret key.
 
 ### AES (Advanced Encryption Standard)
 
 AES is the most widely used symmetric encryption algorithm.
+
+<div class="table-wrap">
 
 | Property   | Value                                    |
 | ---------- | ---------------------------------------- |
@@ -67,11 +75,13 @@ AES is the most widely used symmetric encryption algorithm.
 | Rounds     | 10 (128-bit), 12 (192-bit), 14 (256-bit) |
 | Type       | Substitution-permutation network         |
 
+</div>
+
 ### Key Distribution Problem
 
 Symmetric encryption requires both parties to share the same secret key. Distributing this key
 Securely is a fundamental challenge, if the key is intercepted during exchange, the encryption is
-Compromised.
+compromised.
 
 <hr />
 
@@ -82,7 +92,9 @@ Compromised.
 **Asymmetric encryption** (public-key cryptography) uses a **pair of keys**: a **public key**
 (shared openly) and a **private key** (kept secret).
 
-$$C = E_{\mathrm{pub}}(M), \quad M = D_{\mathrm{priv}}(C)$$
+$$
+C = E_{\mathrm{pub}}(M), \quad M = D_{\mathrm{priv}}(C)
+$$
 
 - Anyone can encrypt using the public key
 - Only the private key holder can decrypt
@@ -93,7 +105,7 @@ $$C = E_{\mathrm{pub}}(M), \quad M = D_{\mathrm{priv}}(C)$$
 
 1. Choose two large primes $p$ and $q$
 2. Compute $n = p \times q$
-3. Compute $\phi(n) = (p-1)(q-1)$ (Euler"s totient)
+3. Compute $\phi(n) = (p-1)(q-1)$ (Euler's totient)
 4. Choose $e$ such that $1 \lt e \lt \phi(n)$ and $\gcd(e, \phi(n)) = 1$
 5. Compute $d$ such that $d \cdot e \equiv 1 \pmod{\phi(n)}$
 
@@ -112,7 +124,7 @@ All $M \in [0, n)$.
 
 **Proof.** We need to show $M^{ed} \equiv M \pmod{n}$.
 
-Since $ed \equiv 1 \pmod{\phi(n)}$We have $ed = 1 + k\phi(n)$ for some integer $k$.
+Since $ed \equiv 1 \pmod{\phi(n)}$ We have $ed = 1 + k\phi(n)$ for some integer $k$.
 
 **Case 1:** $\gcd(M, n) = 1$ (M is coprime to n).
 
@@ -137,12 +149,16 @@ By the Chinese Remainder Theorem: $M^{ed} \equiv M \pmod{n}$. ✓ $\square$
 
 ### Key Sizes and Security
 
+<div class="table-wrap">
+
 | Key size  | Security level | Notes                |
 | --------- | -------------- | -------------------- |
 | 1024 bits | ~80 bits       | Insecure, deprecated |
 | 2048 bits | ~112 bits      | Minimum recommended  |
 | 3072 bits | ~128 bits      | High security        |
 | 4096 bits | ~150 bits      | Very high security   |
+
+</div>
 
 <hr />
 
@@ -161,12 +177,12 @@ A **digital signature** provides:
 **Signing:** $S = D_{\mathrm{priv}}(H(M))$
 
 Where $H$ is a hash function. The sender hashes the message and "decrypts" the hash with their
-Private key.
+private key.
 
 **Verification:** $H(M) \stackrel{?}{=} E_{\mathrm{pub}}(S)$
 
 The receiver encrypts the signature with the sender's public key and compares it to the hash of the
-Received message.
+received message.
 
 **Correctness:** Since only the sender knows the private key, only they could have produced $S$. If
 The message was altered, $H(M)$ would differ, and verification would fail.
@@ -178,13 +194,13 @@ The message was altered, $H(M)$ would differ, and verification would fail.
 ### Definition
 
 A **cryptographic hash function** $H: \{0,1\}^* \to \{0,1\}^n$ maps arbitrary-length input to a
-Fixed-length output (hash/digest).
+fixed-length output (hash/digest).
 
 ### Properties
 
-1. **Pre-image resistance:** Given $h$It is computationally infeasible to find $M$ such that
+1. **Pre-image resistance:** Given $h$ It is computationally infeasible to find $M$ such that
    $H(M) = h$
-2. **Second pre-image resistance:** Given $M_1$It is infeasible to find $M_2 \neq M_1$ with
+2. **Second pre-image resistance:** Given $M_1$ It is infeasible to find $M_2 \neq M_1$ with
    $H(M_1) = H(M_2)$
 3. **Collision resistance:** It is infeasible to find any pair $M_1 \neq M_2$ with $H(M_1) = H(M_2)$
 4. **Avalanche effect:** A small change in input produces a completely different hash
@@ -192,12 +208,16 @@ Fixed-length output (hash/digest).
 
 ### Common Hash Functions
 
+<div class="table-wrap">
+
 | Algorithm | Output size | Status                    |
 | --------- | ----------- | ------------------------- |
 | MD5       | 128 bits    | Broken (collisions found) |
 | SHA-1     | 160 bits    | Broken (collision attack) |
 | SHA-256   | 256 bits    | Secure                    |
 | SHA-512   | 512 bits    | Secure                    |
+
+</div>
 
 ### Applications
 
@@ -228,12 +248,16 @@ Traffic based on predetermined security rules.
 
 ### Types
 
+<div class="table-wrap">
+
 | Type              | How it works                                  | Layer            |
 | ----------------- | --------------------------------------------- | ---------------- |
 | Packet filtering  | Examines source/destination IP and port       | Network (L3)     |
 | Stateful          | Tracks connection state                       | Transport (L4)   |
 | Application-layer | Inspects actual content                       | Application (L7) |
 | Next-generation   | Combines all above + IDS/IPS, deep inspection | All layers       |
+
+</div>
 
 :::note
 - **AQA** requires symmetric encryption (AES), asymmetric encryption (RSA), digital signatures,
@@ -290,7 +314,7 @@ Decrypted message: 7. ✓
 
 Symmetric encryption (e.g., AES) uses simple operations: substitution boxes (S-boxes), bit
 Permutations, and XOR, all of which are fast hardware operations. AES-128 requires only 10 rounds
-Of these operations.
+of these operations.
 
 Asymmetric encryption (e.g., RSA) relies on computationally expensive mathematical operations:
 Modular exponentiation on very large numbers (hundreds of digits). RSA encryption requires computing
@@ -362,11 +386,15 @@ Even if the attacker intercepts the traffic, they cannot:
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Malware | Reproduction                 | Needs host                   | User action required     | Purpose              |
 | ------- | ---------------------------- | ---------------------------- | ------------------------ | -------------------- |
 | Virus   | Attaches to files            | Yes (infects other files)    | Yes (open infected file) | Various              |
 | Worm    | Self-replicates over network | No                           | No                       | Spread, payload      |
 | Trojan  | Does not replicate           | No (disguised as legitimate) | Yes (install it)         | Data theft, backdoor |
+
+</div>
 
 **Virus:** Attaches to legitimate programs and spreads when the infected program is run. Can corrupt
 Or modify files.
@@ -385,7 +413,7 @@ Attackers. Named after the Trojan Horse of Greek mythology.
 <summary>Answer</summary>
 
 A **Certificate Authority (CA)** is a trusted entity that issues **digital certificates** binding a
-Public key to an identity (domain name, organisation, person).
+public key to an identity (domain name, organisation, person).
 
 **Process:**
 
@@ -473,6 +501,8 @@ A company web server (IP `203.0.113.10`) needs the following access:
 - Allow SSH only from the admin network (`10.0.0.0/24`)
 - Deny all other inbound traffic
 
+<div class="table-wrap">
+
 | Rule | Direction | Source      | Destination  | Port | Protocol | Action |
 | ---- | --------- | ----------- | ------------ | ---- | -------- | ------ |
 | 1    | Inbound   | Any         | 203.0.113.10 | 80   | TCP      | Allow  |
@@ -480,8 +510,10 @@ A company web server (IP `203.0.113.10`) needs the following access:
 | 3    | Inbound   | 10.0.0.0/24 | 203.0.113.10 | 22   | TCP      | Allow  |
 | 4    | Inbound   | Any         | Any          | Any  | Any      | Deny   |
 
+</div>
+
 Rule 4 is the **default deny** rule, it blocks everything not explicitly allowed. Rules are
-Processed top-to-bottom, so the specific rules (1-3) are evaluated before the catch-all deny.
+processed top-to-bottom, so the specific rules (1-3) are evaluated before the catch-all deny.
 
 ### Worked Example: Symmetric vs Asymmetric Encryption in HTTPS
 
@@ -502,13 +534,13 @@ WPA2-Personal (PSK) uses a pre-shared key:
 1. **4-way handshake:** The access point and client prove they both know the PSK without
    transmitting it
 2. **Key derivation:** The PSK is combined with the network name (SSID) using PBKDF2 to derive a
-   Pairwise Master Key (PMK)
+   pairwise Master Key (PMK)
 3. **Session key:** The PMK is used to generate a unique Pairwise Transient Key (PTK) for each
    session
 4. **Encryption:** Data is encrypted with AES-CCMP using the PTK
 
 The PSK is never transmitted over the air. An attacker capturing the handshake can attempt an
-Offline brute-force attack against the PSK.
+offline brute-force attack against the PSK.
 
 <hr />
 
@@ -516,12 +548,16 @@ Offline brute-force attack against the PSK.
 
 ### Types of SQL Injection
 
+<div class="table-wrap">
+
 | Type               | Description                                         | Example                           |
 | ------------------ | --------------------------------------------------- | --------------------------------- |
 | Classic (in-band)  | Attacker sees results directly in the application   | `' OR '1'='1`                     |
 | Blind (boolean)    | Attacker infers results from true/false responses   | `' AND 1=1 --` vs `' AND 1=2 --`  |
 | Blind (time-based) | Attacker infers results from response delays        | `'; WAITFOR DELAY '0:0:5' --`     |
 | Out-of-band        | Attacker triggers data exfiltration via DNS or HTTP | `' UNION SELECT ... INTO OUTFILE` |
+
+</div>
 
 ### Defence in Depth
 
@@ -535,7 +571,7 @@ cursor.execute(
 )
 ```
 
-1. **Input validation:** Reject characters that have no legitimate purpose (e.g., `;``'``--` `/*`)
+1. **Input validation:** Reject characters that have no legitimate purpose (e.g., `;`, `'`, `--` `/*`)
 
 2. **Least privilege:** The application's database account should only have permissions for the
    operations it needs (SELECT, INSERT, not DROP, ALTER)
@@ -550,6 +586,8 @@ cursor.execute(
 
 ## 9. DDoS Attack Types
 
+<div class="table-wrap">
+
 | Attack type       | Layer            | Description                                                                                        |
 | ----------------- | ---------------- | -------------------------------------------------------------------------------------------------- |
 | SYN flood         | L4 (Transport)   | Sends SYN packets without completing the handshake, exhausting server connection table             |
@@ -557,6 +595,8 @@ cursor.execute(
 | ICMP flood        | L3 (Network)     | Overwhelms the target with ping requests                                                           |
 | HTTP flood        | L7 (Application) | Sends legitimate-looking HTTP requests that are computationally expensive                          |
 | DNS amplification | L3/L7            | Sends small queries to open DNS resolvers with the victim's spoofed IP, causing a massive response |
+
+</div>
 
 **SYN flood** exploits the TCP handshake: the server allocates resources for each half-open
 Connection. When the table fills, legitimate connections are dropped. **Mitigation:** SYN cookies,
@@ -569,6 +609,8 @@ Can generate a 4000-byte response, providing a ~66x amplification factor.
 
 ## 10. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                  | Explanation                                                                              | Correct approach                                        |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | Using MD5 or SHA-1 for passwords         | Fast hashes allow billions of guesses per second                                         | Use bcrypt, PBKDF2, or Argon2                           |
@@ -578,6 +620,8 @@ Can generate a 4000-byte response, providing a ~66x amplification factor.
 | Confusing hashing with encryption        | Hashes are one-way; encryption is reversible                                             | Hash passwords, encrypt data that needs to be retrieved |
 | Firewall rules in wrong order            | Rules are evaluated top-to-bottom; a broad allow before a specific deny defeats the deny | Place specific rules first, default deny last           |
 
+</div>
+
 <hr />
 
 ## 11. Additional Problem Set
@@ -585,17 +629,21 @@ Can generate a 4000-byte response, providing a ~66x amplification factor.
 **Problem 1.** A firewall has the following rules in order. Determine whether a TCP packet from
 `10.0.0.5` to `192.168.1.10` on port 80 is allowed or denied.
 
+<div class="table-wrap">
+
 | Rule | Source      | Destination  | Port | Action |
 | ---- | ----------- | ------------ | ---- | ------ |
 | 1    | 10.0.0.0/24 | 192.168.1.10 | 22   | Allow  |
 | 2    | Any         | 192.168.1.10 | 80   | Allow  |
 | 3    | Any         | Any          | Any  | Deny   |
 
+</div>
+
 <details>
 <summary>Answer</summary>
 
 Rule 1: Source matches `10.0.0.0/24` (yes, `10.0.0.5` is in this range), destination matches
-`192.168.1.10`But port 80 does not match port 22. Rule 1 does not apply.
+`192.168.1.10`. But port 80 does not match port 22. Rule 1 does not apply.
 
 Rule 2: Source is "Any" (matches), destination matches `192.168.1.10`Port 80 matches port 80. Rule 2
 applies, **Allow**.
@@ -611,14 +659,14 @@ The packet is allowed by Rule 2.
 
 **SYN flood:** The attacker sends a large volume of SYN packets with spoofed source IP addresses.
 The server responds with SYN-ACK to each, allocates memory for the half-open connection, and waits
-For the ACK that never arrives (because the source IP is spoofed). The server's connection table
+for the ACK that never arrives (because the source IP is spoofed). The server's connection table
 Fills up, preventing legitimate connections.
 
 **SYN cookies mitigation:** Instead of allocating state for each half-open connection, the server
 Encodes the connection state (a hash of source IP, source port, destination IP, destination port,
 And a secret) into the initial sequence number of the SYN-ACK. When the ACK arrives, the server
 Recomputes the hash from the packet headers and verifies it matches. Only if the ACK is valid does
-The server allocate memory for the connection. This eliminates the resource exhaustion problem.
+the server allocate memory for the connection. This eliminates the resource exhaustion problem.
 
 </details>
 
@@ -637,7 +685,7 @@ Salt, which is computationally infeasible.
 
 **Attack 2: Dictionary attack.** The attacker hashes a list of common passwords and compares each
 Hash to the stored values. Identical passwords produce identical hashes, so cracking one reveals all
-Users with the same password.
+users with the same password.
 
 **How salting prevents it:** With unique salts, identical passwords produce different hashes. The
 Attacker must crack each hash independently, even if multiple users have the same password.
@@ -651,16 +699,16 @@ The internet, and describe how asymmetric encryption solves this problem.
 <summary>Answer</summary>
 
 Symmetric encryption requires both parties to share the same secret key. Sending this key over the
-Internet exposes it to interception, a chicken-and-egg problem: you need a secure channel to
-Establish the key, but you need the key to create a secure channel.
+internet exposes it to interception, a chicken-and-egg problem: you need a secure channel to
+establish the key, but you need the key to create a secure channel.
 
 Asymmetric encryption solves this because the public key can be transmitted openly. The sender
 Encrypts the symmetric session key with the receiver's public key. Only the receiver's private key
-Can decrypt it. This is how TLS works: the asymmetric handshake establishes a shared secret, and all
-Subsequent data uses fast symmetric encryption.
+can decrypt it. This is how TLS works: the asymmetric handshake establishes a shared secret, and all
+subsequent data uses fast symmetric encryption.
 
 Without asymmetric encryption, there would be no practical way to establish secure communication
-Between parties who have never met in person.
+between parties who have never met in person.
 
 </details>
 
@@ -680,7 +728,7 @@ Network security.
    application's database account should have SELECT and INSERT permissions but not DROP TABLE.
 
 3. **Fail-safe defaults:** Systems should default to the most secure configuration. If a rule or
-Configuration is missing, the system should deny access rather than allow it. Example: a firewall's
+configuration is missing, the system should deny access rather than allow it. Example: a firewall's
 Final rule should be "deny all", anything not explicitly permitted is blocked.
 
 </details>
@@ -688,16 +736,6 @@ Final rule should be "deny all", anything not explicitly permitted is blocked.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
-```mermaid
-flowchart TD
-    A[02 Network Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -712,5 +750,3 @@ implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.

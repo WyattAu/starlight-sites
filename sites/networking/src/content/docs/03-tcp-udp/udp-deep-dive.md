@@ -27,7 +27,7 @@ DNS, DHCP, NTP, SNMP, streaming media, gaming, VPNs, and QUIC all ride on UDP.
 
 This document dissects UDP internals, explains when and why UDP is the right choice, covers
 Broadcast and multicast, and examines the reliability patterns that UDP-based protocols implement at
-The application layer.
+the application layer.
 
 ## UDP Header Structure
 
@@ -45,6 +45,8 @@ The UDP header is exactly 8 bytes -- the minimum of any transport protocol:
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
 
+<div class="table-wrap">
+
 | Field            | Bits | Description                                                                         |
 | ---------------- | ---- | ----------------------------------------------------------------------------------- |
 | Source Port      | 16   | Optional. Identifies the sender. Zero means "not specified."                        |
@@ -52,11 +54,13 @@ The UDP header is exactly 8 bytes -- the minimum of any transport protocol:
 | Length           | 16   | Total UDP datagram length: header (8) + data. Minimum 8. Maximum 65535.             |
 | Checksum         | 16   | Coverage includes pseudo-header + UDP header + data. Zero = "no check" (IPv4 only). |
 
+</div>
+
 ### Source Port Considerations
 
 The source port is optional. If the sender does not need a reply, it can set the source port to
 Zero. This is rare in practice because most applications need responses, and the source port is how
-The receiver knows where to send them.
+the receiver knows where to send them.
 
 When the source port is non-zero, it is an ephemeral port chosen by the kernel from the Range
 defined by `net.ipv4.ip_local_port_range` (default: 32768-60999 on Linux).
@@ -169,7 +173,7 @@ DNS uses UDP for queries and responses under 512 bytes (originally; EDNS0 extend
 Response exceeds the limit, the server sets the TC (Truncation) bit, and the client retries over
 TCP.
 
-Why UDP: DNS queries are small, a single request-response pair, and the overhead of TCP"s three-way
+Why UDP: DNS queries are small, a single request-response pair, and the overhead of TCP's three-way
 Handshake (3 packets) would exceed the query itself (1 packet). UDP gets the answer in one round
 Trip instead of three.
 
@@ -250,7 +254,7 @@ ping -b 192.168.1.255
 ### Subnet Broadcast
 
 Every subnet has a broadcast address: the last address in the subnet (all host bits set to 1). For
-`10.0.0.0/24`The broadcast is `10.0.0.255`. For `10.0.0.0/23`The broadcast is `10.0.1.255`.
+`10.0.0.0/24`. The broadcast is `10.0.0.255`. For `10.0.0.0/23`. The broadcast is `10.0.1.255`.
 
 :::caution
 `net.ipv4.icmp_echo_ignore_broadcasts=1`. Do not rely on ping to test broadcast reachability.
@@ -264,6 +268,8 @@ Single host (unicast). The sender transmits once, and the network replicates the
 Needed.
 
 ### Multicast Address Ranges
+
+<div class="table-wrap">
 
 | Range                     | Purpose                                          |
 | ------------------------- | ------------------------------------------------ |
@@ -279,6 +285,8 @@ Needed.
 | 233.0.0.0/8               | GLOP addressing                                  |
 | 234.0.0.0/8               | Reserved                                         |
 | 239.0.0.0/8               | Administratively scoped (local use)              |
+
+</div>
 
 ### IGMP (Internet Group Management Protocol)
 
@@ -310,6 +318,8 @@ ip mroute show
 
 Multicast packets have a TTL that limits how far they propagate:
 
+<div class="table-wrap">
+
 | TTL      | Scope                        |
 | -------- | ---------------------------- |
 | 0        | Restricted to same host      |
@@ -318,6 +328,8 @@ Multicast packets have a TTL that limits how far they propagate:
 | &lt; 64  | Restricted to same region    |
 | &lt; 128 | Restricted to same continent |
 | &lt; 255 | Unrestricted                 |
+
+</div>
 
 ### Multicast Routing: PIM
 
@@ -436,7 +448,7 @@ Large ones. Use TCP MSS clamping or UDP packet size limits as a workaround.
 NAT (Network Address Translation) maps internal IP:port pairs to external IP:port pairs. For TCP,
 The NAT tracks the connection state (SYN, ESTABLISHED, FIN) and creates a mapping when the SYN is
 Seen. For UDP, there is no handshake, so the NAT must heuristically create a mapping when it sees
-The first outbound datagram.
+the first outbound datagram.
 
 ### NAT Mapping Timeout
 
@@ -476,6 +488,8 @@ UDP. It is the transport for HTTP/3.
 
 ### Key Features
 
+<div class="table-wrap">
+
 | Feature               | TCP        | QUIC                                     |
 | --------------------- | ---------- | ---------------------------------------- |
 | Transport             | IP layer   | UDP (port 443)                           |
@@ -487,6 +501,8 @@ UDP. It is the transport for HTTP/3.
 | Loss recovery         | Global     | Per-stream                               |
 | Middlebox traversal   | Good       | UDP (good)                               |
 | Congestion control    | Cubic/BBR  | Cubic/BBR (same algorithms)              |
+
+</div>
 
 ### Connection Migration
 
@@ -546,7 +562,7 @@ Use this decision tree:
 
 DCCP provides congestion control without reliability. It fills the gap between raw UDP (no
 Congestion control) and TCP (full reliability + congestion control). Use cases: streaming media
-Where congestion control is needed but retransmission is not.
+where congestion control is needed but retransmission is not.
 
 DCCP is rarely deployed in practice. Most applications that need congestion control over UDP
 Implement it themselves (QUIC, WebRTC).
@@ -582,7 +598,7 @@ Natively (socket type `SOCK_STREAM` with protocol `IPPROTO_SCTP`).
 ### 1. UDP Buffer Overflows
 
 The kernel's UDP receive buffer has a fixed size (default 212992 bytes on Linux). If the receiver
-Cannot read fast enough, the buffer fills up and new datagrams are silently dropped. The sender
+cannot read fast enough, the buffer fills up and new datagrams are silently dropped. The sender
 Receives no notification.
 
 ```bash
@@ -601,8 +617,8 @@ sysctl -w net.core.rmem_default=2621440
 
 Sending UDP datagrams larger than the path MTU causes fragmentation. Each fragment that arrives
 Consumes reassembly buffer space. A flood of fragments can exhaust the reassembly buffer, causing
-All UDP traffic to fail. Many operating systems limit the number of concurrent reassembly attempts
-And the total reassembly memory.
+all UDP traffic to fail. Many operating systems limit the number of concurrent reassembly attempts
+and the total reassembly memory.
 
 Mitigation: keep UDP datagrams under 1400 bytes to safely fit within any reasonable MTU.
 
@@ -622,22 +638,22 @@ Argument in packet N+1) will break. Include sequence numbers and handle reorderi
 
 UDP NAT mappings expire. If your application sends datagrams sporadically (e.g., a heartbeat every
 10 minutes), the NAT mapping may expire between heartbeats. The next datagram creates a new mapping
-With a different external port, and the peer's responses go to the old (now invalid) port. Send
+with a different external port, and the peer's responses go to the old (now invalid) port. Send
 Keepalives more frequently than the NAT timeout ( every 20-30 seconds).
 
 ### 6. Not Handling ICMP Errors
 
 When a router cannot deliver a UDP datagram (network unreachable, port unreachable, TTL exceeded),
 It sends an ICMP error message back to the sender. The sender's kernel delivers this as an error on
-The socket (e.g., `ECONNREFUSED` for port unreachable). Many applications ignore socket errors or do
-Not handle ICMP-derived errors correctly.
+the socket (e.g., `ECONNREFUSED` for port unreachable). Many applications ignore socket errors or do
+not handle ICMP-derived errors correctly.
 
 ### 7. Asymmetric Routing and Stateful Firewalls
 
 Stateful firewalls track UDP "connections" by observing the first outbound datagram and creating a
 State entry. If return traffic arrives via a different path (asymmetric routing) and hits a
 Different firewall that has no state entry, the return traffic is dropped. Ensure symmetric routing
-For UDP traffic through firewalls, or use UDP keepalives to maintain state entries on all firewall
+for UDP traffic through firewalls, or use UDP keepalives to maintain state entries on all firewall
 Paths.
 
 ## UDP in Container and Microservice Environments
@@ -667,7 +683,7 @@ Services.
 
 Load balancers and service discovery systems have limited support for UDP health checks. Unlike TCP
 (where a successful connection proves the service is alive), UDP has no connection. Health checks
-Must either:
+must either:
 
 1. Send a probe and expect a response (application-dependent)
 2. Check if the port is open (using ICMP port unreachable as a negative signal)
@@ -725,7 +741,7 @@ recv(sockfd, buffer, sizeof(buffer), 0);
 UDP sockets with `epoll` in edge-triggered mode require reading in a loop until `EAGAIN` is
 Returned. Otherwise, datagrams that arrive between `epoll_wait` calls may be missed (they will be
 Delivered on the next trigger, but the application may not call `epoll_wait` again if it thinks
-There is nothing to do).
+there is nothing to do).
 
 ### MSG_TRUNC
 
@@ -809,6 +825,8 @@ The `Udp` line in `/proc/net/snmp` provides kernel-level UDP statistics:
 Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti
 ```
 
+<div class="table-wrap">
+
 | Counter      | Meaning                                         |
 | ------------ | ----------------------------------------------- |
 | InDatagrams  | Total datagrams received                        |
@@ -820,19 +838,11 @@ Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumE
 | InCsumErrors | Checksum validation failures                    |
 | IgnoredMulti | Multicast packets dropped (socket not joined)   |
 
+</div>
+
 ```bash
 # Watch UDP error counters in real-time
 watch -n 1 'cat /proc/net/snmp | grep Udp'
-```
-
-```mermaid
-flowchart TD
-    A[Udp Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -848,13 +858,7 @@ implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

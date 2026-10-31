@@ -85,7 +85,9 @@ Gd (Z = 64): $[\text{Xe}] 4f^7 5d^1 6s^2$ (exception to the filling order)
 
 Gd$^{3+}$: remove 3 electrons (2 from 6s, 1 from 5d):
 
-$$[\text{Xe}] 4f^7$$
+$$
+[\text{Xe}] 4f^7
+$$
 
 This is a half-filled f-subshell, which is particularly stable.
 

@@ -21,13 +21,15 @@ tags:
 ### Fossil Evidence
 
 The **fossil record** provides direct evidence of organisms from past geological eras, preserved in
-Sedimentary rock.
+sedimentary rock.
 
 **Key observations:**
 
 - Fossils in deeper (older) rock layers are progressively simpler and differ more from modern
   organisms than those in shallower (younger) layers.
 - **Transitional fossils** exhibit features intermediate between ancestral and descendant groups:
+
+<div class="table-wrap">
 
 | Transitional fossil                                | Significance                                                                                                                                  |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,6 +38,8 @@ Sedimentary rock.
 | **_Australopithecus afarensis_** ("Lucy", 3.2 Mya) | Bipedal pelvis and femur with ape-like cranial capacity ($\approx 400\;\mathrm{cm}^3$). Ancestor of the genus _Homo_.                         |
 | **_Ambulocetus natans_** (49 Mya)                  | "Walking whale": amphibious predator with functional limbs linking terrestrial artiodactyls and fully aquatic cetaceans.                      |
 | **_Tetrapod tracks_** (395 Mya, Poland)            | Fossilised footprints pre-dating the earliest tetrapod body fossils, showing animals walked on land earlier than skeletal evidence suggested. |
+
+</div>
 
 **Limitations of the fossil record:**
 
@@ -52,11 +56,15 @@ Sedimentary rock.
 **Homologous structures**: similar anatomy in different species due to common ancestry, despite
 Potentially different functions.
 
+<div class="table-wrap">
+
 | Structure                    | Species                                      | Common ancestry          | Function in each species                                               |
 | ---------------------------- | -------------------------------------------- | ------------------------ | ---------------------------------------------------------------------- |
 | **Pentadactyl limb**         | Human, bat, whale, horse                     | Common tetrapod ancestor | Grasping, flying, swimming, running                                    |
 | **Vertebral column**         | All vertebrates                              | Common chordate ancestor | Axial support and protection of spinal cord                            |
 | **Pharyngeal (gill) arches** | Fish, amphibian, reptile, mammal (embryonic) | Common chordate ancestor | Gill support (fish); modified into jaws, ear ossicles, hyoid (mammals) |
+
+</div>
 
 The pentadactyl limb is a particularly powerful example: the same basic bone arrangement (humerus,
 Radius and ulna, carpals, metacarpals, phalanges) is adapted for vastly different functions ---
@@ -66,19 +74,25 @@ Not independent origin.
 **Analogous structures**: similar function but different anatomical origin and embryological
 Development. Result from **convergent evolution** (see Section 5).
 
+<div class="table-wrap">
+
 | Analogous structure  | Species                          | Function        | Different origins                                                                     |
 | -------------------- | -------------------------------- | --------------- | ------------------------------------------------------------------------------------- |
 | **Wings**            | Insect, bird, bat                | Flight          | Insect: exoskeletal extensions; bird/bat: modified vertebrate forelimb                |
 | **Eye**              | Cephalopod (octopus), vertebrate | Image formation | Cephalopod: pinhole camera; vertebrate: lens eye; different embryological development |
 | **Streamlined body** | Shark (fish), dolphin (mammal)   | Swimming        | Different skeletal structures; convergent on hydrodynamic form                        |
 
+</div>
+
 ### Molecular Evidence
 
 Comparing DNA, RNA, and protein sequences between species provides quantitative evidence for
-Evolutionary relationships.
+evolutionary relationships.
 
 **Cytochrome c comparisons**: cytochrome c is a highly conserved protein involved in the electron
 Transport chain. The amino acid sequence differs by a known number of residues between species:
+
+<div class="table-wrap">
 
 | Species compared to human | Amino acid differences (out of 104) |
 | ------------------------- | ----------------------------------- |
@@ -90,14 +104,18 @@ Transport chain. The amino acid sequence differs by a known number of residues b
 | Tuna                      | 21                                  |
 | Yeast                     | 44                                  |
 
+</div>
+
 The pattern of differences is consistent with the accepted phylogeny: more closely related species
 Share more similar sequences because less time has elapsed for mutations to accumulate.
 
 **Molecular clocks**: the rate of molecular evolution (number of mutations per unit time) is
 Approximately constant for neutral mutations. By counting sequence differences between two species
-And calibrating with the fossil record, the time since divergence can be estimated:
+and calibrating with the fossil record, the time since divergence can be estimated:
 
-$$t = \frac{d}{2r}$$
+$$
+t = \frac{d}{2r}
+$$
 
 Where $d$ is the number of substitutions per site between the two sequences, $r$ is the mutation
 Rate per site per year, and the factor of $2$ accounts for divergence along both lineages.
@@ -118,7 +136,7 @@ Early embryonic stages of vertebrates share remarkable similarities:
   vertebrae in most vertebrates but persists as the nucleus pulposus of intervertebral discs.
 
 These shared embryonic features reflect common ancestry. "Ontogeny recapitulates phylogeny"
-(Haeckel"s biogenetic law) is an oversimplification, but embryological similarities do provide
+(Haeckel's biogenetic law) is an oversimplification, but embryological similarities do provide
 Evidence for shared evolutionary origins.
 
 ### Biogeographical Evidence
@@ -155,7 +173,9 @@ The geographic distribution of species provides evidence for evolution:
 
 Favours one extreme phenotype, shifting the population mean in that direction.
 
-$$\Delta\bar{z} = \frac{G \cdot S}{\bar{w}}$$
+$$
+\Delta\bar{z} = \frac{G \cdot S}{\bar{w}}
+$$
 
 Where $\Delta\bar{z}$ is the change in the mean phenotype, $G$ is the additive genetic variance, $S$
 is the selection differential (difference between the mean of selected parents and the Population
@@ -190,7 +210,7 @@ Fitness.
 #### Disruptive Selection
 
 Favours both extremes over the intermediate phenotype, potentially leading to a bimodal distribution
-And eventually **speciation**.
+and eventually **speciation**.
 
 **Examples:**
 
@@ -282,7 +302,7 @@ New species arise without geographic separation.
 ### Parapatric Speciation
 
 Populations are adjacent with a narrow hybrid zone; gene flow occurs at the boundary but is reduced
-By selection against hybrids.
+by selection against hybrids.
 
 Example: _Anthoxanthum odoratum_ (sweet vernal grass) grows on mine-contaminated soil (high copper
 Tolerance) and uncontaminated soil. Flowering time differs between the two populations, reducing
@@ -292,6 +312,8 @@ Gene flow. Hybrid individuals have intermediate tolerance and reduced fitness in
 
 **Pre-zygotic barriers** (prevent mating or fertilisation):
 
+<div class="table-wrap">
+
 | Type            | Example                                                                                                                   |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | **Temporal**    | Different breeding seasons (e.g., spotted skunks: summer vs winter breeding populations).                                 |
@@ -300,13 +322,19 @@ Gene flow. Hybrid individuals have intermediate tolerance and reduced fitness in
 | **Mechanical**  | Incompatible reproductive structures (e.g., damselfly species with differently shaped claspers).                          |
 | **Gametic**     | Sperm cannot fertilise egg (e.g., sea urchin species with incompatible bindin proteins).                                  |
 
+</div>
+
 **Post-zygotic barriers** (reduce fitness of hybrid offspring):
+
+<div class="table-wrap">
 
 | Type                   | Example                                                                                                              |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Hybrid inviability** | Hybrid zygotes fail to develop or have reduced survival.                                                             |
 | **Hybrid sterility**   | Hybrids are viable but sterile (e.g., mule: horse $\times$ donkey, $2n = 63$; uneven chromosome pairing in meiosis). |
 | **Hybrid breakdown**   | First-generation hybrids are fertile, but the F2 generation has reduced fitness.                                     |
+
+</div>
 
 ---
 
@@ -360,6 +388,8 @@ Environmental pressures.
 
 **Examples:**
 
+<div class="table-wrap">
+
 | Trait                   | Species pairs/groups                                  | Selective pressure                                           |
 | ----------------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
 | **Streamlined body**    | Shark (fish), dolphin (mammal), ichthyosaur (reptile) | Drag reduction in aquatic locomotion                         |
@@ -369,11 +399,13 @@ Environmental pressures.
 | **Echolocation**        | Bats (microchiroptera), toothed whales                | Navigation and prey detection in darkness                    |
 | **Antifreeze proteins** | Arctic cod, Antarctic notothenioid fish               | Subzero water temperatures                                   |
 
+</div>
+
 **Distinguishing homology from convergence**: homologous structures share the same underlying
 Anatomical plan and embryological origin despite different functions; analogous structures have
-Different anatomical origins but similar functions. Molecular evidence can distinguish them:
+different anatomical origins but similar functions. Molecular evidence can distinguish them:
 Homologous traits often share similar developmental genes (e.g., Pax6 for eye development in both
-Vertebrates and cephalopods); convergent traits arise from different genetic mechanisms.
+vertebrates and cephalopods); convergent traits arise from different genetic mechanisms.
 
 ---
 
@@ -412,7 +444,7 @@ Well-defined species with little gradual transition between them.
 
 **Current synthesis**: both patterns occur. Gradual change is well-documented in some lineages;
 Punctuated equilibrium explains the apparent gaps in the fossil record. The two models are not
-Mutually exclusive.
+mutually exclusive.
 
 ---
 
@@ -445,12 +477,16 @@ $$p + q = 1$$ $$p^2 + 2pq + q^2 = 1$$
 
 For a locus with $n$ alleles with frequencies $p_1, p_2, \ldots, p_n$:
 
-$$\sum_{i=1}^{n} p_i = 1$$
+$$
+\sum_{i=1}^{n} p_i = 1
+$$
 
 The expected frequency of homozygote $p_i^2$ and heterozygote $2p_ip_j$ for all pairs.
 
 **Example**: ABO blood group with three alleles ($I^A$, $I^B$, $i$): $$p_{I^A} + p_{I^B} + p_i = 1$$
-$$f(I^AI^A) = p_{I^A}^2, \quad f(I^AI^B) = 2p_{I^A}p_{I^B}, \quad f(I^Ai) = 2p_{I^A}p_i, \quad \ldots$$
+$$
+f(I^AI^A) = p_{I^A}^2, \quad f(I^AI^B) = 2p_{I^A}p_{I^B}, \quad f(I^Ai) = 2p_{I^A}p_i, \quad \ldots
+$$
 
 ### Effects of Evolutionary Forces on Hardy-Weinberg
 
@@ -465,7 +501,9 @@ drift act.
 
 The introduction of alleles from another population changes allele frequencies:
 
-$$\Delta p = m(p_m - p_r)$$
+$$
+\Delta p = m(p_m - p_r)
+$$
 
 Where $m$ is the migration rate, $p_m$ is the allele frequency in the migrant population, and $p_r$
 is the allele frequency in the resident population. Gene flow tends to homogenise allele Frequencies
@@ -500,6 +538,8 @@ Random fluctuations in allele frequencies due to sampling error in finite popula
 
 Selection changes allele frequencies by differential reproductive success:
 
+<div class="table-wrap">
+
 | Selection type            | Effect on allele frequencies                               | Effect on population variance |
 | ------------------------- | ---------------------------------------------------------- | ----------------------------- |
 | Directional               | Favourable allele increases toward fixation                | Initially decreases           |
@@ -507,6 +547,8 @@ Selection changes allele frequencies by differential reproductive success:
 | Disruptive                | Extreme phenotypes favoured; intermediate alleles removed  | Increases                     |
 | Balancing (overdominance) | Heterozygote has highest fitness (e.g., sickle-cell trait) | Maintains; polymorphism       |
 | Frequency-dependent       | Fitness depends on allele frequency; maintains oscillation | Variable                      |
+
+</div>
 
 ### Fitness and Selection Coefficients
 
@@ -520,10 +562,12 @@ $w = 1 - s$.
 $aa$ genotype. The selection acts against the $aa$ homozygote.
 
 **Rate of change of a deleterious allele under selection:**
-$$\Delta q \approx -\frac{spq^2}{1 - sq^2}$$
+$$
+\Delta q \approx -\frac{spq^2}{1 - sq^2}
+$$
 
 For a completely recessive deleterious allele ($s$ against $aa$), the allele is sheltered in
-Heterozygotes and is eliminated very slowly when rare ($\Delta q \propto q^2$).
+heterozygotes and is eliminated very slowly when rare ($\Delta q \propto q^2$).
 
 ---
 
@@ -616,6 +660,8 @@ Antibiotic resistance provides a clear, observable example of evolution by natur
 
 **Mechanisms of resistance:**
 
+<div class="table-wrap">
+
 | Mechanism                  | Example                                                                                   |
 | -------------------------- | ----------------------------------------------------------------------------------------- |
 | **Enzymatic inactivation** | $\beta$-lactamase hydrolyses penicillin; aminoglycoside-modifying enzymes.                |
@@ -623,6 +669,8 @@ Antibiotic resistance provides a clear, observable example of evolution by natur
 | **Efflux pumps**           | Active transport of antibiotics out of the cell (e.g., tetracycline efflux).              |
 | **Reduced permeability**   | Mutations reducing porin channel size (e.g., resistance to carbapenems in _Pseudomonas_). |
 | **Target bypass**          | Acquisition of a resistant enzyme variant (e.g., mecA gene for methicillin resistance).   |
+
+</div>
 
 **Preventing resistance:**
 
@@ -723,8 +771,8 @@ Time since divergence: $t = \frac{d}{2r} = \frac{44}{2 \times (1/20)} = \frac{44
 million years.
 
 The estimated divergence time is $\approx 440$ Mya. This is consistent with the fossil and
-Phylogenetic evidence that animals and fungi diverged approximately $400$--$600$ Mya. The
-Approximation is reasonable given the simplifying assumptions (constant rate, no back-mutations, No
+phylogenetic evidence that animals and fungi diverged approximately $400$--$600$ Mya. The
+approximation is reasonable given the simplifying assumptions (constant rate, no back-mutations, No
 saturation effects).
 
 </details>
@@ -766,8 +814,8 @@ scenario.
 <summary>Question 4: Antibiotic Resistance and Selection</summary>
 
 A population of $10^8$ bacteria is treated with an antibiotic. The antibiotic kills $99.999\%$ of
-The bacteria. The resistant survivors carry a plasmid-borne resistance gene. After $8$ generations
-Of binary fission, the population recovers to its original size. Calculate the number of Survivors
+the bacteria. The resistant survivors carry a plasmid-borne resistance gene. After $8$ generations
+of binary fission, the population recovers to its original size. Calculate the number of Survivors
 after treatment, the fraction carrying the resistance gene after recovery, and the Minimum number of
 generations required for $99.9\%$ of the population to carry the resistance Gene.
 
@@ -790,7 +838,7 @@ $1000 \times 2^n = 0.999 \times 10^8 = 9.99 \times 10^7$. $2^n = 99900$
 $n = \frac{\ln(99900)}{\ln(2)} = \frac{11.513}{0.693} \approx 16.6$ So $17$ generations.
 
 After $17$ generations, $\approx 1000 \times 2^{17} = 1.31 \times 10^8$ bacteria, virtually all
-Carrying the resistance gene. This demonstrates how quickly resistance can spread under antibiotic
+carrying the resistance gene. This demonstrates how quickly resistance can spread under antibiotic
 Selection.
 
 </details>
@@ -799,10 +847,10 @@ Selection.
 <summary>Question 5: Phylogenetic Tree Interpretation</summary>
 
 A molecular phylogenetic tree of four species (A, B, C, D) based on a conserved gene shows the
-Following topology: ((A, B), C), D; where D is the outgroup. The branch lengths (number of
-Substitutions per site) are: A--B common ancestor = $0.02$A--B split to present = $0.01$ each,
-A--B/C common ancestor to C = $0.05$A--B/C/D common ancestor to A--B/C common ancestor = $0.03$. (a)
-Which two species are most closely related? (b) Calculate the total evolutionary distance Between A
+following topology: ((A, B), C), D; where D is the outgroup. The branch lengths (number of
+substitutions per site) are: A--B common ancestor = $0.02$ A--B split to present = $0.01$ each,
+A--B/C common ancestor to C = $0.05$ A--B/C/D common ancestor to A--B/C common ancestor = $0.03$. (a)
+which two species are most closely related? (b) Calculate the total evolutionary distance Between A
 and C. (c) Explain why D is used as an outgroup.
 
 </details>
@@ -869,14 +917,14 @@ approaches $1$.
 **Worked Example: Selection Against a Recessive Lethal Allele**
 
 Cystic fibrosis (CF) is caused by a recessive lethal allele ($c$). The disease incidence in a
-Population is $1$ in $2500$ ($q^2 = 1/2500$). If modern medicine allows CF patients to survive To
+population is $1$ in $2500$ ($q^2 = 1/2500$). If modern medicine allows CF patients to survive To
 reproductive age (changing fitness from $w_{cc} = 0$ to $w_{cc} = 0.5$), predict the new Equilibrium
 frequency of the $c$ allele after many generations.
 
 <details>
 <summary>Solution</summary>
 
-**Current equilibrium** ($w_{cc} = 0$Lethal): $q^2 = 1/2500$ So $q = 1/50 = 0.02$. $p = 0.98$.
+**Current equilibrium** ($w_{cc} = 0$ Lethal): $q^2 = 1/2500$ So $q = 1/50 = 0.02$. $p = 0.98$.
 Carrier frequency: $2pq = 2 \times 0.98 \times 0.02 = 0.0392 \approx 1/25.5$.
 
 **New equilibrium** ($w_{CC} = 1.0$$w_{Cc} = 1.0$$w_{cc} = 0.5$): At equilibrium, the frequency of
@@ -889,7 +937,7 @@ selection coefficient against homozygotes)
 With $s = 0.5$: if $\mu \approx 10^{-6}$ (typical mutation rate),
 $\hat`\{q}` = 10^{-6} / 0.5
 = 2 \times 10^{-6}$, which is negligible. However, if the selection
-pressure is relaxed Completely ($s = 0$No fitness disadvantage), the allele frequency will remain at
+pressure is relaxed Completely ($s = 0$ No fitness disadvantage), the allele frequency will remain at
 its current Value ($q = 0.02$) unless mutation rates are negligible.
 
 With $w_{cc} = 0.5$ (partial selection), the equilibrium frequency will be between the two Extremes.
@@ -899,12 +947,12 @@ equilibrium condition for a deleterious recessive:
 $\hat{q} \approx \sqrt{\frac{\mu}{s}} = \sqrt{\frac{10^{-6}}{0.5}} = \sqrt{2 \times 10^{-6}} \approx 0.0014$
 
 Wait --- this gives a lower frequency, which is incorrect. The issue is that $\mu/s$ applies when
-Mutation is introducing the allele and selection is removing it. If we are starting from $q = 0.02$
-And reducing selection from $s = 1$ to $s = 0.5$The frequency will actually increase because Fewer
+mutation is introducing the allele and selection is removing it. If we are starting from $q = 0.02$
+and reducing selection from $s = 1$ to $s = 0.5$ The frequency will actually increase because Fewer
 $cc$ individuals are being removed.
 
 The correct approach: with reduced selection, the equilibrium moves to a higher $q$. The new
-Equilibrium is approximately $q \approx \sqrt{\mu/s}$Which with a smaller $s$ gives a larger $q$.
+Equilibrium is approximately $q \approx \sqrt{\mu/s}$ Which with a smaller $s$ gives a larger $q$.
 But this formula assumes mutation-selection balance. In reality, starting from $q = 0.02$ With
 relaxed selection, the allele frequency will increase over generations as $cc$ individuals Survive
 and reproduce, approaching a new equilibrium that depends on the mutation rate.
@@ -968,8 +1016,8 @@ provide a more robust argument for evolution than any single type alone.
 
 In a population of $2000$ snails, shell colour is controlled by two alleles: $B$ (brown, Dominant)
 and $b$ (yellow, recessive). The observed numbers are: $B B = 720$$Bb = 960$$bb = 320$. (a)
-Calculate the allele frequencies. (b) Test whether the population is in Hardy-Weinberg Equilibrium
-using the chi-squared test ($p = 0.05$Critical value for $1$ df $= 3.84$). (c) If thrushes
+calculate the allele frequencies. (b) Test whether the population is in Hardy-Weinberg Equilibrium
+using the chi-squared test ($p = 0.05$ Critical value for $1$ df $= 3.84$). (c) If thrushes
 selectively prey on yellow snails ($bb$) with $40\%$ mortality while brown snails Are unaffected,
 calculate the new allele frequencies after one generation of selection.
 
@@ -981,7 +1029,7 @@ calculate the new allele frequencies after one generation of selection.
 A volcanic island emerges from the ocean $500000$ years ago and is colonised by a single species Of
 beetle from the nearest mainland ($200\;\mathrm{km}$ away). Today, the island has $12$ species Of
 beetles, all descended from the original coloniser. (a) Explain the evolutionary processes that
-Could have produced this diversity from a single ancestral species. (b) Discuss the role of Adaptive
+could have produced this diversity from a single ancestral species. (b) Discuss the role of Adaptive
 radiation in this scenario. (c) Explain how reproductive isolating mechanisms could Have evolved
 between the island species despite their geographic proximity. (d) Predict what Would happen to
 these species if a land bridge connected the island to the mainland.
@@ -992,9 +1040,9 @@ these species if a land bridge connected the island to the mainland.
 <summary>Problem 4: Extended Response -- Antibiotic Resistance as Evolution</summary>
 
 _Methicillin-resistant Staphylococcus aureus_ (MRSA) is a major hospital-acquired infection. (a)
-Describe the genetic and biochemical mechanisms by which MRSA resists methicillin and related
+describe the genetic and biochemical mechanisms by which MRSA resists methicillin and related
 $\beta$-lactam antibiotics. (b) Explain how the overuse of antibiotics in hospitals and agriculture
-Has contributed to the spread of resistance. (c) Evaluate two strategies for controlling the Spread
+has contributed to the spread of resistance. (c) Evaluate two strategies for controlling the Spread
 of antibiotic resistance, discussing the evolutionary principles behind each.
 
 </details>
@@ -1004,7 +1052,7 @@ of antibiotic resistance, discussing the evolutionary principles behind each.
 
 Two species of fruit fly (_Drosophila simulans_ and _D. Melanogaster_) differ by $60$ nucleotide
 Substitutions in a $1000\;\mathrm{bp}$ region of the Adh gene. The substitution rate for this gene
-Is estimated at $1.5 \times 10^{-8}$ substitutions per site per year. (a) Calculate the time Since
+is estimated at $1.5 \times 10^{-8}$ substitutions per site per year. (a) Calculate the time Since
 divergence. (b) Explain two assumptions of the molecular clock that may not hold for these Species.
 (c) If a third species (_D. Yakuba_) differs from _D. Melanogaster_ by $90$ substitutions In the
 same region, construct the most parsimonious phylogenetic tree and identify the outgroup.
@@ -1048,11 +1096,11 @@ same region, construct the most parsimonious phylogenetic tree and identify the 
 **Worked Example: Hardy-Weinberg with Selection**
 
 In a population of moths, the allele for dark colour ($D$) is dominant over light colour ($d$). The
-Initial allele frequencies are $p = 0.2$ and $q = 0.8$. Light-coloured moths have a survival rate of
+initial allele frequencies are $p = 0.2$ and $q = 0.8$. Light-coloured moths have a survival rate of
 $60\%$ (selection coefficient $s = 0.4$ against the recessive phenotype). (a) Calculate the genotype
 Frequencies before selection. (b) Calculate the relative fitness of each genotype. (c) Calculate the
-Allele frequencies after one generation of selection. (d) How many generations would it take for the
-Frequency of $d$ to drop below $0.5$?
+allele frequencies after one generation of selection. (d) How many generations would it take for the
+frequency of $d$ to drop below $0.5$?
 
 <details>
 <summary>Solution</summary>
@@ -1138,6 +1186,8 @@ populations are more vulnerable To inbreeding depression and have reduced evolut
 
 Five species share the following presence/absence of derived characters (1 = present, 0 = absent):
 
+<div class="table-wrap">
+
 | Character | Species A | Species B | Species C | Species D | Species E (outgroup) |
 | --------- | --------- | --------- | --------- | --------- | -------------------- |
 | 1         | 1         | 1         | 1         | 1         | 0                    |
@@ -1145,6 +1195,8 @@ Five species share the following presence/absence of derived characters (1 = pre
 | 3         | 1         | 1         | 1         | 0         | 0                    |
 | 4         | 1         | 0         | 1         | 0         | 0                    |
 | 5         | 0         | 1         | 0         | 1         | 0                    |
+
+</div>
 
 (a) Construct the most parsimonious cladogram. (b) Identify all synapomorphies (shared derived
 characters) At each node. (c) Identify any homoplasies (convergent evolution or reversals).
@@ -1206,10 +1258,10 @@ requiring the fewest Total character state changes.
 **Worked Example: Speciation by Polyploidy**
 
 A diploid plant species has $2n = 14$ ($n = 7$). (a) An individual undergoes autopolyploidy. What is
-The chromosome number of the tetraploid offspring? (b) Explain why the tetraploid is reproductively
+the chromosome number of the tetraploid offspring? (b) Explain why the tetraploid is reproductively
 Isolated from the diploid parent. (c) If the diploid parent produces gametes with $n = 7$ and the
-Tetraploid produces gametes with $n = 14$What chromosome number would a triploid hybrid have, and
-Why would it be sterile?
+tetraploid produces gametes with $n = 14$ What chromosome number would a triploid hybrid have, and
+why would it be sterile?
 
 <details>
 <summary>Solution</summary>
@@ -1226,7 +1278,7 @@ Why would it be sterile?
 - This is **post-zygotic reproductive isolation** (hybrid sterility).
 
 (c) Triploid hybrid: $3n = 21$. During meiosis, the 3 homologous chromosomes attempt to pair, but
-Synapsis is irregular. Some chromosomes may form trivalents (3 chromosomes paired), others may form
+synapsis is irregular. Some chromosomes may form trivalents (3 chromosomes paired), others may form
 Bivalent + univalent (2 paired + 1 unpaired). This leads to gametes with random numbers of
 chromosomes (7, 8, 9, etc.), most of which are non-viable. The triploid is therefore sterile.
 
@@ -1240,7 +1292,7 @@ in Their evolutionary history.
 
 A population of $10\,000$ individuals is reduced to $50$ individuals by a natural disaster
 (population Bottleneck). Before the bottleneck, the frequency of a neutral allele $B$ is $0.3$. (a)
-What is the Probability that allele $B$ is lost from the population during the bottleneck? (b) After
+what is the Probability that allele $B$ is lost from the population during the bottleneck? (b) After
 the bottleneck, The population recovers to $10\,000$ individuals. Explain why the genetic diversity
 of the recovered Population is lower than the original. (c) The bottleneck population has a higher
 frequency of a rare Genetic disease (autosomal recessive, allele $d$). Explain this observation.
@@ -1253,7 +1305,7 @@ binomial Sampling of $2N_e = 100$ gene copies (from the $50$ surviving individua
 that zero Copies of $B$ are sampled is $(1 - 0.3)^{100} = 0.7^{100} \approx 3.2 \times 10^{-16}$.
 
 However, this calculation assumes the bottleneck survivors are a perfectly random sample, which is
-Unlikely. In practice, the founder effect during bottlenecks can dramatically change allele
+unlikely. In practice, the founder effect during bottlenecks can dramatically change allele
 frequencies Or eliminate alleles. The key point is that rare alleles (low frequency) are much more
 likely to be lost Than common alleles. If $B$ had frequency
 $0.01$$P(\text{loss}) = 0.99^{100} \approx 0.366$ ($37\%$).
@@ -1381,11 +1433,15 @@ moles).
 In a population of beetles, three colour morphs exist: green (genotype $GG$), brown ($Gg$), and
 black ($gg$). A researcher measures the survival and reproductive success of each genotype:
 
+<div class="table-wrap">
+
 | Genotype | Number born | Number surviving to reproduce | Average offspring per survivor |
 | -------- | ----------- | ----------------------------- | ------------------------------ |
 | $GG$     | 300         | 240                           | 8                              |
 | $Gg$     | 600         | 420                           | 6                              |
 | $gg$     | 100         | 50                            | 4                              |
+
+</div>
 
 (a) Calculate the absolute fitness of each genotype. (b) Calculate the relative fitness of each
 genotype. (c) Calculate the selection coefficient against each genotype. (d) What type of selection
@@ -1437,7 +1493,7 @@ susceptible to malaria; $HbS$ homozygotes: sickle-cell anaemia).
 <summary>Problem 8: Extended Response -- Reproductive Isolation Mechanisms</summary>
 
 Two populations of salamanders live on opposite sides of a mountain range. Describe the types of
-Reproductive isolation that could prevent them from interbreeding, classifying each as pre-zygotic
+reproductive isolation that could prevent them from interbreeding, classifying each as pre-zygotic
 or Post-zygotic and providing a specific example for each type.
 
 </details>
@@ -1448,7 +1504,7 @@ or Post-zygotic and providing a specific example for each type.
 **Pre-zygotic barriers** (prevent mating or fertilisation):
 
 1. **Habitat isolation**: the populations occupy different habitats and do not encounter each other.
-   Example: one population lives in fast-flowing streams, the other in still ponds.
+   example: one population lives in fast-flowing streams, the other in still ponds.
 
 2. **Temporal isolation**: the populations breed at different times. Example: one population breeds
    in spring, the other in autumn.
@@ -1477,8 +1533,8 @@ or Post-zygotic and providing a specific example for each type.
 
 The mountain range could initially cause **allopatric speciation** by creating geographic isolation.
 Over time, genetic drift and natural selection (different environments on each side) would lead to
-Divergence, potentially creating multiple pre-zygotic and post-zygotic barriers. If the populations
-Were to come into secondary contact, these barriers would maintain them as separate species.
+divergence, potentially creating multiple pre-zygotic and post-zygotic barriers. If the populations
+were to come into secondary contact, these barriers would maintain them as separate species.
 
 </details>
 
@@ -1488,6 +1544,8 @@ Were to come into secondary contact, these barriers would maintain them as separ
 A population of butterflies is monitored for the frequency of the melanic allele ($M$) over 10
 years. Industrial pollution darkens tree bark during this period.
 
+<div class="table-wrap">
+
 | Year | $p$ (frequency of $M$) | $q$ (frequency of $m$) |
 | ---- | ---------------------- | ---------------------- |
 | 0    | 0.10                   | 0.90                   |
@@ -1496,6 +1554,8 @@ years. Industrial pollution darkens tree bark during this period.
 | 6    | 0.62                   | 0.38                   |
 | 8    | 0.74                   | 0.26                   |
 | 10   | 0.80                   | 0.20                   |
+
+</div>
 
 (a) Plot $p$ vs time. (b) Calculate the selection coefficient $s$ against the recessive ($mm$)
 phenotype Using the data from year 0 to year 10 (assume the population is in H-W equilibrium each
@@ -1526,7 +1586,7 @@ From year 0 to 2: $\Delta q = 0.90 - 0.75 = 0.15$$q \approx 0.90$.
 $0.15 \approx s \times 0.81 \times 0.10 = 0.081s$ So $s \approx 1.85$.
 
 This is greater than 1, which is impossible. This suggests the selection is very strong (near-lethal
-Against $mm$ on dark bark) or that more than one generation occurred in 2 years.
+against $mm$ on dark bark) or that more than one generation occurred in 2 years.
 
 If the generation time is 1 year (10 generations in 10 years): Using the exact formula iteratively
 with $s = 0.5$: Gen 0: $q = 0.900$ Gen 1:
@@ -1578,14 +1638,14 @@ mammalian Limb -- the same basic pentadactyl structure has been modified into th
 wing, whale Flipper, and human hand.
 
 (b) Convergent evolution is common when: (1) physical laws constrain the solutions available to
-Organisms (e.g., only certain shapes are aerodynamically efficient); (2) similar ecological niches
+organisms (e.g., only certain shapes are aerodynamically efficient); (2) similar ecological niches
 Exist in different geographic regions (e.g., desert environments favour succulent plants and
-Nocturnal animals regardless of continent); (3) there are a limited number of optimal solutions to A
+nocturnal animals regardless of continent); (3) there are a limited number of optimal solutions to A
 given problem (e.g., camera-type eyes are highly effective for image formation, so they evolved
 Independently in vertebrates, cephalopods, and some cnidarians).
 
 (c) Anatomically similar structures can be distinguished by comparing their developmental origins
-And underlying genetic basis:
+and underlying genetic basis:
 
 - **Homologous structures**: develop from the same embryonic tissues, are controlled by homologous
   genes (e.g., Hox genes), and have similar underlying anatomy despite different functions.
@@ -1652,13 +1712,17 @@ And underlying genetic basis:
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic                           | Site    | Link                                                                                                  |
 | ------------------------------- | ------- | ----------------------------------------------------------------------------------------------------- |
 | [Biodiversity and Conservation] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/biodiversity-classification-evolution) |
-| [Biodiversity and Conservation] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/5-evolution-and-biodiversity/1_evolution)               |
-| [Biodiversity and Conservation] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/2-ecology/2_biodiversity-and-conservation)            |
-| [Evolution]                     | IB      | [View](https://ib.wyattau.com/docs/ib/biology/5-evolution-and-biodiversity/1_evolution)               |
-| [Evolution]                     | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/6-evolution/1_evolution)                              |
+| [Biodiversity and Conservation] | IB      | [View](https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution/)               |
+| [Biodiversity and Conservation] | DSE     | [View](https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation/)            |
+| [Evolution]                     | IB      | [View](https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution/)               |
+| [Evolution]                     | DSE     | [View](https://dse.wyattau.com/biology/6-evolution/1_evolution/)                              |
+
+</div>
 
 ## Supplementary: Molecular Clocks and Phylogenetics (HL Extension)
 
@@ -1671,12 +1735,14 @@ used to estimate the time since they shared a common ancestor.
 
 **Calibration**: the clock must be calibrated using known divergence times from the fossil record.
 For example, if two species diverged $10\;\mathrm{Ma}$ and differ by $5\%$ in a given gene, the
-Substitution rate is $0.5\%$ per million years.
+substitution rate is $0.5\%$ per million years.
 
 ### Types of Molecular Markers
 
 Different genes and genomic regions evolve at different rates, making them suitable for different
 Timescales of evolutionary analysis:
+
+<div class="table-wrap">
 
 | Marker                            | Substitution rate               | Time depth               | Application                                  |
 | --------------------------------- | ------------------------------- | ------------------------ | -------------------------------------------- |
@@ -1685,6 +1751,8 @@ Timescales of evolutionary analysis:
 | Mitochondrial control region      | Fast                            | $0.01$--$1\;\mathrm{Ma}$ | Population genetics, intraspecific variation |
 | Microsatellites (STRs)            | Very fast                       | $<0.01\;\mathrm{Ma}$     | Individual identification, parentage         |
 | Pseudogenes                       | Fast (no functional constraint) | Variable                 | Gene family evolution                        |
+
+</div>
 
 ### Assumptions and Limitations of the Molecular Clock
 
@@ -1759,7 +1827,7 @@ Gene B (fast clock, rate $= 5 \times 10^{-9}$ substitutions/site/year):
 <summary>Solution</summary>
 
 (a) **Gene A**: the smallest distance is between species 2 and 3 ($6/1000$). The larger distances
-are Species 1 vs 2 ($12/1000$) and species 1 vs 3 ($18/1000$). Since $12 + 6 = 18$The tree is:
+are Species 1 vs 2 ($12/1000$) and species 1 vs 3 ($18/1000$). Since $12 + 6 = 18$ The tree is:
 
 ```
      ┌── Species 2 (6 substitutions from node)
@@ -1801,7 +1869,7 @@ $4.5\;\mathrm{Ma}$; Gene B: $3.5\;\mathrm{Ma}$). This discrepancy is due to:
   Gene B.
 
 Using multiple loci and methods that account for rate variation (relaxed molecular clock models) can
-Provide more accurate estimates.
+provide more accurate estimates.
 
 </details>
 
@@ -1888,7 +1956,7 @@ $10r = \ln(10) = 2.303$$r = 0.230\;\mathrm{Ma}^{-1}$.
 $M = 5 e^{0.230 \times 20} = 5 e^{4.605} = 5 \times 100 = 500\;\mathrm{kg}$.
 
 Cope's rule predicts continued body size increase, but in reality, body size eventually plateaus due
-To physiological and ecological constraints (larger organisms require more food, have longer
+to physiological and ecological constraints (larger organisms require more food, have longer
 generation Times, and face biomechanical limitations). Many lineages do not follow Cope's rule; body
 size can Decrease (island dwarfism) or fluctuate depending on environmental conditions.
 
@@ -1901,17 +1969,6 @@ size can Decrease (island dwarfism) or fluctuate depending on environmental cond
 **Why it matters:** Evolutionary understanding is essential for medicine (antibiotic resistance), conservation (biodiversity preservation), and agriculture (crop improvement).
 
 **The key insight:** Natural selection acts on phenotypes, not genotypes, it is the observable traits that determine survival and reproduction, even though the underlying genetic changes are what persist across generations.
-
-
-```mermaid
-flowchart TD
-    A[1_Evolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

@@ -139,7 +139,7 @@ true
 
 ### Strings
 
-Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang"s
+Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang's
 string type, which is a list of integers).
 
 ```elixir
@@ -994,6 +994,8 @@ updated = %{original | b: 99}
 
 Understanding immutability's performance characteristics:
 
+<div class="table-wrap">
+
 | Operation                 | Time Complexity | Notes                     |
 | ------------------------- | --------------- | ------------------------- |
 | List prepend `[h\|t]`     | $O(1)$          | Always prefer over append |
@@ -1002,6 +1004,8 @@ Understanding immutability's performance characteristics:
 | Map update `%{m \| k: v}` | $O(1)$          | With structural sharing   |
 | Tuple access `elem(t, i)` | $O(1)$          |                           |
 | Tuple update `put_elem`   | $O(n)$          | Must copy the tuple       |
+
+</div>
 
 ### When Immutability Matters Most
 
@@ -1018,16 +1022,6 @@ Understanding immutability's performance characteristics:
 **Why it matters:** Pattern matching replaces defensive type-checking with declarative routing. Instead of `if (x is List && x.length > 0)` you write `[head | tail]`the structure *is* the check. This makes Elixir code concise and the intent obvious.
 
 **The key insight:** In Elixir, `=` is not assignment, it's a match operator that binds variables only if the structure fits. This single concept powers function dispatch, case expressions, and error handling throughout the language.
-
-```mermaid
-flowchart TD
-    A[1_Basics And Pattern Matching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

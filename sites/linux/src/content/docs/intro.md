@@ -58,6 +58,8 @@ Context switch for kernel-internal operations.
 
 Key subsystems:
 
+<div class="table-wrap">
+
 | Subsystem             | Responsibility                                         |
 | --------------------- | ------------------------------------------------------ |
 | **Process Scheduler** | CFS (Completely Fair Scheduler), real-time scheduling  |
@@ -67,6 +69,8 @@ Key subsystems:
 | **Device Model**      | `sysfs``udev`Driver model, `kobject` hierarchy         |
 | **IPC**               | Pipes, shared memory, signals, `epoll``eventfd`        |
 | **Security**          | SELinux, AppArmor, capabilities, seccomp, audit        |
+
+</div>
 
 ## Distribution Families
 
@@ -91,6 +95,8 @@ graph LR
     S[Gentoo] --> T[Source-based]
 ```
 
+<div class="table-wrap">
+
 | Family  | Package Format | Package Manager | Init System | Typical Use Case              |
 | ------- | -------------- | --------------- | ----------- | ----------------------------- |
 | Debian  | `.deb`         | APT             | systemd     | Servers, desktops, containers |
@@ -98,6 +104,8 @@ graph LR
 | Arch    | `.pkg.tar.zst` | pacman          | systemd     | Power users, rolling release  |
 | Alpine  | `.apk`         | apk             | OpenRC      | Docker containers             |
 | SUSE    | `.rpm`         | zypper          | systemd     | Enterprise, SAP workloads     |
+
+</div>
 
 ## Why This Matters for Systems Engineers
 
@@ -112,7 +120,7 @@ Linux is the dominant operating system in every infrastructure domain you will e
 - **High-performance computing**: 100% of the TOP500 supercomputers run Linux.
 
 Understanding Linux at the systems level, how processes are scheduled, how memory is managed, how
-The network stack processes packets, how file systems journal writes, is not academic. It is the
+the network stack processes packets, how file systems journal writes, is not academic. It is the
 Difference between "restarting the service fixed it" and understanding _why_ it failed and
 Preventing recurrence.
 
@@ -149,20 +157,13 @@ Run.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
-:::## Cross-References
+## Cross-References
 
 - **[Site Home](../../):** Main landing page for linux notes.
 - **Practice:** Practice problems for revision.

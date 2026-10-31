@@ -109,6 +109,8 @@ Use [N4950 §9.5.2].
 C++ chose **stackless coroutines**, the coroutine frame is a single heap-allocated block, not a
 Separate stack. This is a deliberate design decision with important trade-offs.
 
+<div class="table-wrap">
+
 | Property                     | Stackless (C++)                                 | Stackful (e.g., Boost.Context, goroutines)         |
 | :--------------------------- | :---------------------------------------------- | :------------------------------------------------- |
 | Frame size                   | Fixed at compile time (known locals)            | Dynamic (grows/shrinks like a regular stack)       |
@@ -119,8 +121,10 @@ Separate stack. This is a deliberate design decision with important trade-offs.
 | Migrating between OS threads | Must resume on same or specified thread         | Can freely migrate (stack is self-contained)       |
 | Composability                | Requires explicit chaining of coroutines        | composable via call stack                          |
 
+</div>
+
 The key limitation of stackless coroutines is that **you cannot suspend in a function called by the
-Coroutine unless that function is itself a coroutine**. If a regular function calls `co_await`It Is
+Coroutine unless that function is itself a coroutine**. If a regular function calls `co_await`. It Is
 a compile error, `co_await` can only appear in a coroutine body [N4950 §9.5.4].
 
 ```cpp
@@ -200,7 +204,7 @@ Block of memory whose layout is implementation-defined [N4950 §9.5.4]. The gene
 
 The frame must be large enough to hold the **promise object**, a copy of **all function
 Parameters**, and **every local variable whose lifetime crosses a suspension point**. Variables that
-Are dead before or after a suspension point need not be stored in the frame. The compiler performs a
+are dead before or after a suspension point need not be stored in the frame. The compiler performs a
 Liveness analysis to minimize frame size [N4950 §9.5.4].
 
 The total frame size $S$ can be expressed as:
@@ -212,7 +216,7 @@ $$
 ### Frame Size Analysis
 
 The compiler performs a **liveness analysis** to determine which local variables must be stored in
-The frame. A variable must be stored in the frame if its lifetime spans at least one suspension
+the frame. A variable must be stored in the frame if its lifetime spans at least one suspension
 Point. Consider:
 
 ```cpp
@@ -228,7 +232,7 @@ Task example(int param) {
 
 Variables `a` and `b` must be stored in the frame because their lifetimes cross suspension points.
 Variable `c` may or may not be stored depending on whether the compiler can prove it does not need
-To persist (the compiler is conservative here and stores it).
+to persist (the compiler is conservative here and stores it).
 
 The frame layout is :
 
@@ -274,7 +278,7 @@ S_n \xrightarrow{\mathrm{resume} S_{\mathrm{done}
 $$
 
 At each state, the state machine executes the code segment between the previous suspension point and
-The next one. The switch on the state index is the first thing executed when the coroutine is
+the next one. The switch on the state index is the first thing executed when the coroutine is
 Resumed:
 
 ```cpp
@@ -324,7 +328,7 @@ There are two guaranteed elision scenarios where the compiler **may not** alloca
 [N4950 §9.5.4]:
 
 1. **Guaranteed elision when the coroutine is in the final suspend point and the return object holds
-   the coroutine handle.** If `final_suspend` returns `std::suspend_never`The compiler may destroy
+   the coroutine handle.** If `final_suspend` returns `std::suspend_never`. The compiler may destroy
    the frame immediately upon return.
 
 2. **When the coroutine result is prvalue and the promise's `get_return_object` returns a handle
@@ -347,7 +351,7 @@ Created. The conditions for HALO are:
 3. The coroutine does not outlive the scope in which it was created (no handle escapes).
 
 When these conditions are met, the compiler allocates the frame on the stack of the caller instead
-Of the heap. This eliminates the `operator new` / `operator delete` overhead.
+of the heap. This eliminates the `operator new` / `operator delete` overhead.
 
 ```cpp
 // HALO-eligible: the coroutine is created and destroyed within the same scope
@@ -510,6 +514,8 @@ Responsible for calling `destroy()` when the coroutine is no longer needed.
 
 Key members of `std::coroutine_handle<P>` [N4950 §21.4.4]:
 
+<div class="table-wrap">
+
 | Member                   | Description                                               |
 | :----------------------- | :-------------------------------------------------------- |
 | `handle.done()`          | Returns `true` if the coroutine reached its final suspend |
@@ -520,10 +526,12 @@ Key members of `std::coroutine_handle<P>` [N4950 §21.4.4]:
 | `coroutine_handle<>()`   | Default-constructed handle (null)                         |
 | `handle.operator bool()` | `true` if the handle refers to a coroutine frame          |
 
+</div>
+
 ### Handle Nullability and Validity
 
 A default-constructed `coroutine_handle` is a **null handle**, it does not refer to any frame. The
-Following operations are undefined on a null handle: `resume()``destroy()``promise()`And `done()`.
+Following operations are undefined on a null handle: `resume()`, `destroy()`, `promise()` and `done()`.
 Always check `operator bool()` before calling these.
 
 A handle becomes **invalid** after `destroy()` is called. Using an invalid handle is undefined
@@ -537,7 +545,7 @@ Calling `destroy()` on a handle triggers:
 2. Destruction of the promise object.
 3. Deallocation of the frame memory (via the matching `operator delete`).
 
-After `destroy()`The handle becomes **invalid**, using it is undefined behavior [N4950 §21.4.4]. If
+After `destroy()`. The handle becomes **invalid**, using it is undefined behavior [N4950 §21.4.4]. If
 `destroy()` is never called and no other mechanism cleans up, the frame leaks.
 
 :::tip
@@ -650,17 +658,17 @@ Coroutine-to-coroutine chaining prevents unbounded stack growth.
 
 **Proof:**
 
-1. Consider a chain of $n$ coroutines: $C_1 \to C_2 \to \ldots \to C_n$Where each coroutine
-   `co_await`S the next.
-2. **Without symmetric transfer:** When $C_1$ `co_await`S $C_2$The `await_suspend` of $C_2$ calls
+1. Consider a chain of $n$ coroutines: $C_1 \to C_2 \to \ldots \to C_n$ Where each coroutine
+   `co_await`s the next.
+2. **Without symmetric transfer:** When $C_1$ `co_await`s $C_2$ The `await_suspend` of $C_2$ calls
    `C_1.resume()` inside $C_2$'s suspension handler. This is a regular function call, which grows
    the call stack by one frame. For $n$ coroutines, the stack grows by $\mathcal{O}(n)$ frames. For
-   unbounded $n$This causes stack overflow.
-3. **With symmetric transfer:** When $C_1$ `co_await`S $C_2$`await_suspend` returns the handle of
+   unbounded $n$ This causes stack overflow.
+3. **With symmetric transfer:** When $C_1$ `co_await`s $C_2$`await_suspend` returns the handle of
    $C_2$. The compiler generates a tail call from $C_1$'s resume trampoline to $C_2$'s resume
    trampoline. A tail call reuses the current stack frame, so the stack depth is $\mathcal{O}(1)$.
 4. The C++ standard guarantees [N4950 §9.5.4] that when `await_suspend` returns a
-   `coroutine_handle`The resumption is performed by returning the handle to the language runtime,
+   `coroutine_handle`. The resumption is performed by returning the handle to the language runtime,
    which then calls `resume()` on it. This is equivalent to a tail call.
 5. Therefore, symmetric transfer bounds stack growth to $\mathcal{O}(1)$.
 
@@ -771,17 +779,7 @@ int main() {
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
-```mermaid
-flowchart TD
-    A[1_Coroutine_Frames] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Summary
 
@@ -795,9 +793,6 @@ underlying theory, practical implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

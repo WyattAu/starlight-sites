@@ -20,7 +20,7 @@ tableOfContents: false
 
 ### UT-1: Price Elasticity of Demand Calculation
 
-**Question:** When the price of cinema tickets rises from $\$80$ to $\$100$The quantity demanded
+**Question:** When the price of cinema tickets rises from $\$80$ to $\$100$ The quantity demanded
 Falls from 500 to 350 tickets per week. Calculate the PED using the midpoint method. Is demand
 Elastic or inelastic? A second cinema raises its price from $\$60$ to $\$66$ and quantity demanded
 Falls from 400 to 380. Compare the elasticities and explain the difference using determinants of
@@ -59,7 +59,7 @@ Determinants:
 
 **Question:** The market for rental housing has demand $P = 8000 - 20Q$ and supply $P = 2000 + 20Q$
 (where $P$ is monthly rent in HKD and $Q$ is in thousands of units). (a) Calculate equilibrium price
-And quantity. (b) Calculate consumer surplus and producer surplus at equilibrium. (c) The government
+and quantity. (b) Calculate consumer surplus and producer surplus at equilibrium. (c) The government
 Imposes a rent ceiling at $\$4000$. Calculate the new quantity traded, consumer surplus, producer
 Surplus, and deadweight loss.
 
@@ -100,9 +100,9 @@ $= \frac{1}{2} \times (150 - 100) \times (6000 - 4000) = \frac{1}{2} \times 50 \
 
 **Question:** A seafood restaurant's supply of fresh fish per day is given by $Q_s = -20 + 5P$ where
 $P$ is in HKD. (a) Calculate the PES when price rises from $\$50$ to $\$70$. (b) At what price does
-The restaurant start supplying fish? Explain the economic meaning. (c) If a new competitor opens
-Nearby and the supply shifts to $Q_s = -20 + 7P$Compare the new PES over the same price range and
-Explain the change.
+the restaurant start supplying fish? Explain the economic meaning. (c) If a new competitor opens
+Nearby and the supply shifts to $Q_s = -20 + 7P$ Compare the new PES over the same price range and
+explain the change.
 
 **Solution:**
 
@@ -113,8 +113,8 @@ $PES = \frac{\Delta Q / \bar{Q}}{\Delta P / \bar{P}} = \frac{100/280}{20/60} = \
 $PES \approx 1.07 \gt 1$: Supply is **unit elastic / slightly elastic**.
 
 (b) The restaurant starts supplying when $Q_s = 0$: $-20 + 5P = 0$, $P = 4$. The restaurant needs a
-Minimum price of $\$4$ to cover its variable costs before it begins supplying. Below this price, the
-Restaurant would shut down in the short run.
+minimum price of $\$4$ to cover its variable costs before it begins supplying. Below this price, the
+restaurant would shut down in the short run.
 
 (c) New supply at $P = 50$: $Q_s = -20 + 7(50) = 330$. At $P = 70$: $Q_s = -20 + 7(70) = 470$.
 
@@ -141,7 +141,7 @@ Supply would be more elastic, meaning the market can adjust more quickly to chan
 ### IT-1: Taxation and Welfare (with Government Policy)
 
 **Question:** The government imposes a specific tax of $\$10$ per unit on cigarettes. Demand:
-$P = 120 - 0.5Q$Supply: $P = 20 + 0.5Q$. (a) Calculate the pre-tax and post-tax equilibrium. (b)
+$P = 120 - 0.5Q$ Supply: $P = 20 + 0.5Q$. (a) Calculate the pre-tax and post-tax equilibrium. (b)
 Calculate the tax incidence on consumers and producers. (c) Calculate the deadweight loss and tax
 Revenue. (d) Explain why the government might choose to tax cigarettes despite the deadweight loss,
 Using the concept of negative externalities.
@@ -161,16 +161,18 @@ Revenue $= 10 \times 90 = \$900$.
 
 (d) Cigarette consumption creates negative externalities: second-hand smoke harms non-smokers'
 Health, smoking-related illnesses increase public healthcare costs, and productivity losses affect
-The economy. In an unregulated market, consumers overconsume cigarettes because they do not bear the
-Full social cost. The tax internalises the externality by raising the price closer to the social
+the economy. In an unregulated market, consumers overconsume cigarettes because they do not bear the
+full social cost. The tax internalises the externality by raising the price closer to the social
 Cost. If the tax equals the marginal external cost, the deadweight loss from overconsumption is
-Eliminated, and the remaining deadweight loss from reduced trade is offset by the gain from
-Correcting the externality. This is an example of a Pigouvian tax.
+eliminated, and the remaining deadweight loss from reduced trade is offset by the gain from
+correcting the externality. This is an example of a Pigouvian tax.
 
 ### IT-2: Market Equilibrium Shifts (with Basic Economic Concepts)
 
 **Question:** The market for public transport in Hong Kong has the following demand and supply
 Schedules:
+
+<div class="table-wrap">
 
 | Price (HKD) | $Q_d$ (thousand rides/day) | $Q_s$ (thousand rides/day) |
 | ----------- | -------------------------- | -------------------------- |
@@ -180,16 +182,20 @@ Schedules:
 | 40          | 300                        | 500                        |
 | 50          | 200                        | 600                        |
 
+</div>
+
 (a) Determine equilibrium price and quantity. (b) If the MTR extends a new line, causing supply to
-Increase by 100 thousand rides at every price, calculate the new equilibrium. (c) Calculate PED
-Between the original and new equilibrium for consumers. (d) Explain how this relates to the concept
-Of opportunity cost for commuters who switch from taxis to MTR.
+increase by 100 thousand rides at every price, calculate the new equilibrium. (c) Calculate PED
+between the original and new equilibrium for consumers. (d) Explain how this relates to the concept
+of opportunity cost for commuters who switch from taxis to MTR.
 
 **Solution:**
 
 (a) Equilibrium at $P = 30$$Q = 400$ (where $Q_d = Q_s$).
 
 (b) New supply schedule adds 100 to each $Q_s$:
+
+<div class="table-wrap">
 
 | Price | $Q_d$ | $Q_s$ (new) |
 | ----- | ----- | ----------- |
@@ -198,6 +204,8 @@ Of opportunity cost for commuters who switch from taxis to MTR.
 | 30    | 400   | 500         |
 | 40    | 300   | 600         |
 | 50    | 200   | 700         |
+
+</div>
 
 New equilibrium: Between $P = 20$ ($Q_d = 500$$Q_s = 400$) and $P = 30$ ($Q_d = 400$ $Q_s = 500$).
 At equilibrium: $Q_d = Q_s$. Interpolating: $Q = 450$ at $P = 25$.
@@ -211,15 +219,15 @@ Increase in quantity demanded.
 
 (d) When the MTR expands, the opportunity cost of using public transport decreases (the same trip
 Now takes less time or is more convenient). Commuters who previously used taxis face a trade-off:
-The taxi saves time but costs more. The lower MTR price and improved convenience shift the
-Opportunity cost balance in favour of MTR. This demonstrates opportunity cost in action -- choosing
+the taxi saves time but costs more. The lower MTR price and improved convenience shift the
+opportunity cost balance in favour of MTR. This demonstrates opportunity cost in action -- choosing
 MTR means forgoing the speed of a taxi, but the benefit of saving money now outweighs the cost of
-Slightly longer travel time for many commuters.
+slightly longer travel time for many commuters.
 
 ### IT-3: Subsidy and Surplus Analysis (with Market Structure)
 
 **Question:** The government provides a per-unit subsidy of $\$8$ to rice farmers. Demand:
-$P = 60 - 0.4Q$Supply: $P = 10 + 0.4Q$. (a) Calculate the pre-subsidy and post-subsidy Equilibrium.
+$P = 60 - 0.4Q$ Supply: $P = 10 + 0.4Q$. (a) Calculate the pre-subsidy and post-subsidy Equilibrium.
 (b) Calculate the change in consumer surplus and producer surplus. (c) Calculate the Government
 expenditure and deadweight loss. (d) If the rice market is perfectly competitive, explain How the
 subsidy affects individual farmer behaviour and market output in the long run.
@@ -247,8 +255,8 @@ Increases the price they receive per unit from $\$35$ to $\$39$. In the short ru
 Increases output along their MC curve until MC $= \$39$ (rather than MC $= \$35$). In the long run,
 The higher price attracts new farmers to enter the market (since economic profit is now positive),
 Shifting supply further to the right. This continues until economic profit returns to zero. The
-Subsidy ultimately benefits consumers (lower prices) and farmers (higher effective prices), but at a
-Cost to taxpayers and with a deadweight loss from overproduction.
+subsidy ultimately benefits consumers (lower prices) and farmers (higher effective prices), but at a
+cost to taxpayers and with a deadweight loss from overproduction.
 
 ## Additional DSE Exam-Style Questions
 
@@ -335,7 +343,7 @@ $\frac{\partial Q_{taxi}}{\partial P_{uber}} = 0.5$.
 
 $XED = 0.5 \times \frac{60}{170} = 0.176$.
 
-(b) Since $XED > 0$Taxis and Uber are **substitutes**. An increase in Uber's price leads to an
+(b) Since $XED > 0$ Taxis and Uber are **substitutes**. An increase in Uber's price leads to an
 increase in taxi demand (consumers switch from Uber to taxis). The positive but small value (0.176)
 suggests weak substitutability -- the two services are not perfect substitutes, possibly because
 they differ in service quality, availability, and consumer preferences.
@@ -585,17 +593,6 @@ _Effectiveness factors:_
 _Conclusion:_ Land supply is a necessary but insufficient tool for reducing property prices. It
 should be combined with demand-side measures (stamp duties, mortgage restrictions, empty tax) and
 institutional reforms (faster approval processes, anti-land-banking measures) to be effective.
-
-
-```mermaid
-flowchart TD
-    A[Diag Demand Supply Markets] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

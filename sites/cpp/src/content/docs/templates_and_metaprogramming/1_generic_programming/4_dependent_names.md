@@ -32,11 +32,15 @@ Base classes.
 A **dependent name** is a name whose meaning depends on one or more template parameters [N4950
 S13.8.3]. A **non-dependent name** does not. The distinction determines when lookup occurs:
 
+<div class="table-wrap">
+
 | Name kind       | Lookup time             | Scope                              |
 | --------------- | ----------------------- | ---------------------------------- |
 | Non-dependent   | Phase 1 (definition)    | Definition context only            |
 | Dependent       | Phase 2 (instantiation) | Definition + instantiation context |
 | Dependent + ADL | Phase 2 (instantiation) | Associated namespaces/classes      |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -73,7 +77,7 @@ int main() {
 ```
 
 :::caution
-Access members of the base class. Without `this->`The name is non-dependent and looked up at Phase
+Access members of the base class. Without `this->`. The name is non-dependent and looked up at Phase
 1, where the base class members are invisible. This is the single most common two-phase lookup bug
 [N4950 S13.8.3].
 :::
@@ -81,12 +85,12 @@ Access members of the base class. Without `this->`The name is non-dependent and 
 ### When Is a Name Dependent?
 
 The standard defines precisely when a name is dependent [N4950 S13.8.3/1]. A name is dependent if
-Any of the following hold:
+any of the following hold:
 
-1. **A qualified-id whose qualifier is dependent.** `T::member``TT&lt;Args&gt;::type`Etc.
+1. **A qualified-id whose qualifier is dependent.** `T::member`, `TT&lt;Args&gt;::type`. Etc.
 2. **An unqualified name in a function call** where at least one argument has a dependent type. This
    triggers ADL at Phase 2.
-3. **A name used in a type-specifier** where the type is dependent: `sizeof(T)``alignof(T)`
+3. **A name used in a type-specifier** where the type is dependent: `sizeof(T)`, `alignof(T)`
    `decltype(expr)` where `expr` is type-dependent.
 4. **A name used in a `new`-expression** or `delete`-expression where the type is dependent.
 5. **A `throw`-expression** where the thrown type is dependent.
@@ -94,6 +98,8 @@ Any of the following hold:
    `obj` has type `T`.
 
 The following table classifies common patterns:
+
+<div class="table-wrap">
 
 | Expression                             | Dependent?                  | Phase   | Reason                                       |
 | -------------------------------------- | --------------------------- | ------- | -------------------------------------------- |
@@ -106,6 +112,8 @@ The following table classifies common patterns:
 | `N::func(x)` where `N` non-dep, `x: T` | No for `N::func`Yes for ADL | Phase 1 | Qualified name at Phase 1; ADL at Phase 2    |
 | `T::Nested&lt;int&gt;`                 | Yes                         | Phase 2 | Qualified by dependent type                  |
 | `sizeof(T)`                            | Yes                         | Phase 2 | Type-dependent expression                    |
+
+</div>
 
 ### Non-Dependent Qualified Names Are a Trap
 
@@ -138,7 +146,7 @@ int main() {
 The unqualified call `process(arg)` works because ADL is deferred to Phase 2, where it finds
 `lib::process` in the associated namespace of `lib::Widget`. But a qualified call
 `lib::process(arg)` would be resolved at Phase 1 and would fail if `lib::process` is not visible at
-The template definition point. This is why generic code should prefer unqualified calls when ADL is
+the template definition point. This is why generic code should prefer unqualified calls when ADL is
 Needed.
 
 ## Name Binding at Definition vs Instantiation
@@ -188,8 +196,8 @@ Dependent calls benefit from Phase 2 lookup.
 
 ### Formal Model of Two-Phase Lookup
 
-The two-phase model can be understood as a pair of environments, $\lt E_1, E_2 \gt$Where $E_1$ is
-The definition-time environment and $E_2$ is the instantiation-time environment. Name resolution
+The two-phase model can be understood as a pair of environments, $\lt E_1, E_2 \gt$ Where $E_1$ is
+the definition-time environment and $E_2$ is the instantiation-time environment. Name resolution
 Proceeds as follows:
 
 1. At definition time, compute $E_1$ from all declarations visible at the template definition point.
@@ -201,12 +209,12 @@ Proceeds as follows:
    environments). For unqualified dependent function calls, also perform ADL using the associated
    namespaces and classes of the argument types.
 
-3. If any non-dependent name fails to resolve in $E_1$The program is ill-formed. If any dependent
-   name fails to resolve in $E_1 \cup E_2$The program is ill-formed at the point of instantiation.
+3. If any non-dependent name fails to resolve in $E_1$ The program is ill-formed. If any dependent
+   name fails to resolve in $E_1 \cup E_2$ The program is ill-formed at the point of instantiation.
 
 This model ensures that template definitions can be checked for basic correctness at definition time
 (catching typos in non-dependent names early), while template instantiations can find names declared
-After the template definition (supporting extension via ADL).
+after the template definition (supporting extension via ADL).
 
 ## The `typename` Disambiguator
 
@@ -255,15 +263,15 @@ int main() {
 ### Why `typename` Is Needed: A Parsing Argument
 
 The need for `typename` arises from a fundamental ambiguity in the C++ grammar. Consider the
-Expression `T::foo * x` inside a template. Without `typename`The compiler must decide whether this
-Is:
+Expression `T::foo * x` inside a template. Without `typename`. The compiler must decide whether this
+is:
 
 1. A declaration of a pointer variable named `x` of type `T::foo` (if `T::foo` is a type).
 2. A multiplication of `T::foo` (a static data member) by `x` (if `T::foo` is a value).
 
 At Phase 1, the compiler does not know what `T` is, so it cannot resolve this ambiguity. The
 Standard resolves it by defaulting to interpretation (2): a dependent qualified name is assumed to
-Be a **non-type** unless prefixed with `typename` [N4950 S13.8.1/1]. This conservative default
+be a **non-type** unless prefixed with `typename` [N4950 S13.8.1/1]. This conservative default
 Ensures that the parser can produce a valid parse tree without knowing the template arguments.
 
 ```cpp
@@ -299,6 +307,8 @@ int main() {
 
 Per [N4950 S13.8.1], `typename` is required in the following contexts and prohibited in others:
 
+<div class="table-wrap">
+
 | Context                                                              | `typename` Required? | Standard Reference |
 | -------------------------------------------------------------------- | -------------------- | ------------------ |
 | `typename T::type x;` (variable declaration)                         | Yes                  | S13.8.1/1          |
@@ -312,13 +322,17 @@ Per [N4950 S13.8.1], `typename` is required in the following contexts and prohib
 | `T::template Inner&lt;int&gt;` (template disambiguator)              | N/A (use `template`) | S13.8.3/2          |
 | `typename T::template Inner&lt;int&gt;` (type + template)            | Both required        | S13.8.1 + S13.8.3  |
 
+</div>
+
 :::caution
 Template compilation errors. Always use `typename` before a qualified dependent name that you intend
-To use as a type, unless you are in a base class specifier or mem-initializer. This is a purely
+to use as a type, unless you are in a base class specifier or mem-initializer. This is a purely
 Syntactic requirement --- it does not change the generated code.
 :::
 
 ### Where `typename` Is Required vs Not
+
+<div class="table-wrap">
 
 | Context                                             | `typename` Required? | Reason                                 |
 | --------------------------------------------------- | -------------------- | -------------------------------------- |
@@ -329,10 +343,12 @@ Syntactic requirement --- it does not change the generated code.
 | `T::static_value` (non-type member)                 | No                   | Accessing a static data member         |
 | `sizeof(typename T::type)`                          | Yes                  | Dependent type inside `sizeof`         |
 
+</div>
+
 ## The `template` Disambiguator Keyword
 
 When a dependent name refers to a template member (function or nested type), the compiler needs to
-Be told that the name is a template using the `template` keyword [N4950 S13.8.3]:
+be told that the name is a template using the `template` keyword [N4950 S13.8.3]:
 
 ```cpp
 #include <iostream>
@@ -377,10 +393,10 @@ Ambiguity. Consider `obj.foo&lt;int&gt;(42)` inside a template where `obj` has d
 The compiler must decide whether this is:
 
 1. A call to a template member function `obj.foo&lt;int&gt;` with argument `42`.
-2. A comparison `(obj.foo) &lt; int &gt; (42)`Which parses as `(obj.foo) &lt; (int &gt; 42)`.
+2. A comparison `(obj.foo) &lt; int &gt; (42)`. Which parses as `(obj.foo) &lt; (int &gt; 42)`.
 
 Without the `template` keyword, the parser defaults to interpretation (2) because it does not know
-That `foo` is a template at Phase 1 [N4950 S13.8.3/2]. The `template` keyword explicitly tells the
+that `foo` is a template at Phase 1 [N4950 S13.8.3/2]. The `template` keyword explicitly tells the
 Parser to treat the following name as a template, enabling correct parsing.
 
 ### Combined `typename` and `template` Disambiguators
@@ -419,6 +435,8 @@ int main() {
 The `template` keyword is required [N4950 S13.8.3/2] when a dependent qualified name refers to a
 Member template (a template member function or a nested template class). The rules are:
 
+<div class="table-wrap">
+
 | Context                                                          | `template` Required? | Example                                 |
 | ---------------------------------------------------------------- | -------------------- | --------------------------------------- |
 | `obj.template func&lt;Args&gt;()` where `obj` has dependent type | Yes                  | `t.template cast&lt;int&gt;()`          |
@@ -426,14 +444,16 @@ Member template (a template member function or a nested template class). The rul
 | `obj.func&lt;Args&gt;()` where `obj` has non-dependent type      | No                   | `std::get&lt;0&gt;(t)`                  |
 | `T::func&lt;Args&gt;()` where `T` is non-dependent               | No                   | `std::make_shared&lt;int&gt;()`         |
 
+</div>
+
 The `template` disambiguator is needed in exactly the same situations where the compiler would
-Otherwise parse the `&lt;` as a less-than operator rather than the start of a template argument
+otherwise parse the `&lt;` as a less-than operator rather than the start of a template argument
 List.
 
 ## ADL and Dependent Names
 
 Argument-Dependent Lookup (ADL) plays a crucial role in two-phase lookup. For dependent calls, ADL
-Is deferred to Phase 2, which means functions found via ADL in the instantiation context are
+is deferred to Phase 2, which means functions found via ADL in the instantiation context are
 Visible. This is how templates can find user-defined overloads of operators and free functions
 Defined in the same namespace as the argument types.
 
@@ -482,7 +502,7 @@ For an unqualified dependent function call, the compiler performs two lookups:
    classes of the argument types.
 
 The result is the union of both lookup sets. If both find the same function, it appears once. If
-They find different functions with the same name, all candidates participate in overload resolution.
+they find different functions with the same name, all candidates participate in overload resolution.
 
 ```cpp
 #include <iostream>
@@ -517,9 +537,9 @@ int main() {
 ### ADL and Operators
 
 ADL is the mechanism that allows operator overloading to work with template types. When you write
-`a + b` inside a template where `a` and `b` have dependent type `T`The lookup for `operator+` is
+`a + b` inside a template where `a` and `b` have dependent type `T`. The lookup for `operator+` is
 Deferred to Phase 2 via ADL. This is how `std::cout &lt;&lt; "hello"` works: the `&lt;&lt;` operator
-Is found via ADL in the namespace of `std::cout` (which is `std`).
+is found via ADL in the namespace of `std::cout` (which is `std`).
 
 ```cpp
 #include <iostream>
@@ -549,8 +569,8 @@ int main() {
 
 The most common and insidious two-phase lookup bug occurs when a class template inherits from a
 Dependent base class. Because the base class type depends on the template parameter, the compiler
-Cannot inspect its members at Phase 1. Any unqualified access to a base class member is therefore
-Non-dependent and fails:
+cannot inspect its members at Phase 1. Any unqualified access to a base class member is therefore
+non-dependent and fails:
 
 ```cpp
 #include <iostream>
@@ -639,7 +659,7 @@ The compiler therefore requires an explicit indication that the name comes from 
 ### Edge Case: Dependent Base with Non-Dependent Member Name Collision
 
 A particularly tricky case occurs when a member of the derived class has the same name as a member
-Of the dependent base:
+of the dependent base:
 
 ```cpp
 #include <iostream>
@@ -799,7 +819,7 @@ Dependent names are names that depend on a template parameter, and the compiler 
    defaults to assuming such names are non-types, which leads to confusing parse errors.
 
 3. **Forgetting `template` for dependent template members.** When calling a template member function
-   through a dependent object, use `obj.template func&lt;Args&gt;()`. Without `template`The `&lt;`
+   through a dependent object, use `obj.template func&lt;Args&gt;()`. Without `template`. The `&lt;`
    is parsed as a comparison operator.
 
 4. **Assuming Phase 2 finds non-ADL names.** Only dependent names and ADL-dependent calls are
@@ -826,16 +846,6 @@ Dependent names are names that depend on a template parameter, and the compiler 
 - [Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/)
 - [Argument Deduction (Class and Function)](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
 
-```mermaid
-flowchart TD
-    A[4_Dependent_Names] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dependent names and two-phase lookup, including underlying
@@ -849,10 +859,5 @@ theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

@@ -64,11 +64,11 @@ graph TD
 - **Root zone (`.`):** The top of the hierarchy. Managed by ICANN. Operated by 13 logical root
   server networks (A through M), implemented as anycast clusters with over 1,700 server instances
   worldwide.
-- **Top-Level Domains (TLDs):** Directly below the root. Includes generic TLDs (`.com``.org`
-  `.net``.dev`) and country-code TLDs (`.uk``.de``.jp``.au`).
+- **Top-Level Domains (TLDs):** Directly below the root. Includes generic TLDs (`.com`, `.org`
+  `.net`, `.dev`) and country-code TLDs (`.uk`, `.de`, `.jp`, `.au`).
 - **Second-Level Domains (SLDs):** Registered by organizations and individuals (e.g., `example.com`
   `google.com`).
-- **Subdomains:** Delegated by the SLD owner (e.g., `www.example.com``api.example.com`
+- **Subdomains:** Delegated by the SLD owner (e.g., `www.example.com`, `api.example.com`
   `us-east-1.api.example.com`).
 
 ### FQDN (Fully Qualified Domain Name)
@@ -90,6 +90,8 @@ Case-insensitive (`EXAMPLE.COM` = `example.com`).
 Operate the root zone, which contains delegations to all TLD name servers. There are 13 logical root
 Server networks (A-M), each identified by a letter and an IP address:
 
+<div class="table-wrap">
+
 | Letter | Operator | IPv4          | IPv6                |
 | ------ | -------- | ------------- | ------------------- |
 | A      | Verisign | 198.41.0.4    | 2001:503:ba3e::2:30 |
@@ -102,20 +104,22 @@ Server networks (A-M), each identified by a letter and an IP address:
 | L      | ICANN    | 199.7.83.42   | 2001:500:9f::42     |
 | M      | WIDE     | 202.12.27.33  | 2001:dc3::35        |
 
+</div>
+
 Each root server network operates anycast instances worldwide, so a query to "root server A" from
 Tokyo likely reaches a different physical server than from New York.
 
 ### TLD Name Servers
 
 Authoritative for their TLD. The `.com` TLD servers know which name servers are authoritative for
-`example.com``google.com`Etc. They do not know the IP addresses -- they only know which servers To
+`example.com`, `google.com`. Etc. They do not know the IP addresses -- they only know which servers To
 ask next.
 
 ### Authoritative Name Servers
 
 Hold the actual DNS records for a domain. When you register a domain, you configure its
 Authoritative name servers with your registrar. These are the servers that respond to DNS queries
-For your domain with definitive answers.
+for your domain with definitive answers.
 
 Authoritative name servers are further divided:
 
@@ -126,14 +130,14 @@ Authoritative name servers are further divided:
 ### Recursive (Caching) Name Servers
 
 Perform the full resolution process on behalf of a client. When your laptop resolves
-`www.example.com`It sends the query to a recursive resolver (configured via DHCP or manually). The
+`www.example.com`. It sends the query to a recursive resolver (configured via DHCP or manually). The
 Resolver walks the DNS hierarchy from the root down to the authoritative server, caching responses
-Along the way.
+along the way.
 
 Common recursive resolvers:
 
-- **Google Public DNS:** `8.8.8.8``8.8.4.4`
-- **Cloudflare DNS:** `1.1.1.1``1.0.0.1`
+- **Google Public DNS:** `8.8.8.8`, `8.8.4.4`
+- **Cloudflare DNS:** `1.1.1.1`, `1.0.0.1`
 - **Quad9:** `9.9.9.9`
 - **ISP resolvers:** Provided by your ISP, via DHCP
 
@@ -218,7 +222,7 @@ Verification and logging.
 
 Note the reversed octets -- IPv4 reverse DNS uses the `in-addr.arpa` domain with octets in reverse
 Order because DNS reads labels left-to-right but IP addresses are written
-Most-significant-octet-first.
+most-significant-octet-first.
 
 **CAA (Certification Authority Authorization, RFC 6844):** Specifies which certificate authorities
 Are allowed to issue certificates for the domain.
@@ -247,7 +251,7 @@ Geographic coordinates.
 
 ## DNS Resolution Process
 
-When an application needs to resolve `www.example.com`The recursive resolver performs the Following
+When an application needs to resolve `www.example.com`. The recursive resolver performs the Following
 steps:
 
 ```mermaid
@@ -281,7 +285,7 @@ sequenceDiagram
 ### CNAME Chasing
 
 When a query returns a CNAME, the resolver follows the chain. For `www.example.com` CNAME to
-`example.com`The resolver queries `example.com` A. If `example.com` is also a CNAME (to
+`example.com`. The resolver queries `example.com` A. If `example.com` is also a CNAME (to
 `lb.example.cloudprovider.com`), the resolver follows that too. Most resolvers limit CNAME chain
 Depth to prevent infinite loops.
 
@@ -292,7 +296,7 @@ Hierarchy from root to authoritative server. Caching happens at three levels:
 
 1. **Browser cache:** Chrome, Firefox, and Safari cache DNS responses. Chrome caches for 60 seconds
    regardless of TTL.
-2. **Operating system cache:** The OS resolver (`systemd-resolved``nscd``mDNSResponder`) caches
+2. **Operating system cache:** The OS resolver (`systemd-resolved`, `nscd`, `mDNSResponder`) caches
    responses for the TTL specified in the DNS response.
 3. **Recursive resolver cache:** The recursive resolver (8.8.8.8, your ISP's resolver) caches
    responses for the TTL specified in the DNS response.
@@ -321,7 +325,7 @@ Querying the authoritative server again.
 
 When a query returns `NXDOMAIN` (name does not exist) or `NODATA` (name exists but no records of the
 Requested type), the response is cached for the SOA minimum TTL. This prevents repeated queries for
-Non-existent names from hammering authoritative servers.
+non-existent names from hammering authoritative servers.
 :::
 
 :::caution
@@ -365,6 +369,8 @@ Traffic separately from HTTPS.
 
 ### DoH vs DoT
 
+<div class="table-wrap">
+
 | Criterion           | DoH                            | DoT                          |
 | ------------------- | ------------------------------ | ---------------------------- |
 | Port                | 443                            | 853                          |
@@ -375,10 +381,12 @@ Traffic separately from HTTPS.
 | Implementation      | Browser-native                 | OS-native                    |
 | Adoption            | Chrome, Firefox, Edge          | Android, iOS 14+             |
 
+</div>
+
 ## DNSSEC (DNS Security Extensions)
 
 DNSSEC adds cryptographic signatures to DNS records, allowing resolvers to verify that the response
-Has not been tampered with. DNSSEC does **not** encrypt DNS queries -- it provides integrity, not
+has not been tampered with. DNSSEC does **not** encrypt DNS queries -- it provides integrity, not
 Confidentiality. Use DoH/DoT for confidentiality.
 
 ### How DNSSEC Works
@@ -437,7 +445,7 @@ dig axfr example.com @ns1.example.com
 
 Transfers only the changes since the last transfer. More efficient for large zones that change
 Frequently. The secondary sends its current SOA serial number, and the primary responds with only
-The records that have changed.
+the records that have changed.
 
 ## Reverse DNS
 
@@ -478,7 +486,7 @@ Reverse DNS is important for:
 ### BIND (Berkeley Internet Name Domain)
 
 The reference DNS implementation. Powerful but complex configuration. Most widely used DNS server on
-The Internet.
+the Internet.
 
 ```bash
 # Install
@@ -590,6 +598,8 @@ Every DNS message (query or response) follows a fixed format defined in RFC 1035
 
 **Header fields (12 bytes):**
 
+<div class="table-wrap">
+
 | Field   | Size    | Purpose                                                               |
 | ------- | ------- | --------------------------------------------------------------------- |
 | ID      | 16 bits | Query identifier (matches response to request)                        |
@@ -605,6 +615,8 @@ Every DNS message (query or response) follows a fixed format defined in RFC 1035
 | ANCOUNT | 16 bits | Number of answer RRs                                                  |
 | NSCOUNT | 16 bits | Number of authority RRs                                               |
 | ARCOUNT | 16 bits | Number of additional RRs                                              |
+
+</div>
 
 ### DNS Wire Format for Resource Records
 
@@ -629,9 +641,9 @@ Each resource record in the Answer, Authority, or Additional section has this fo
 ### DNS Name Compression
 
 DNS names in the wire format use a compression scheme to reduce message size. Instead of repeating
-The full domain name, a pointer (2 bytes, starting with 0b11) references a previous occurrence of
-The name in the message. For example, if the question asks for `www.example.com` and the answer is a
-CNAME pointing to `example.com`The CNAME target can reference the suffix from the question.
+the full domain name, a pointer (2 bytes, starting with 0b11) references a previous occurrence of
+the name in the message. For example, if the question asks for `www.example.com` and the answer is a
+CNAME pointing to `example.com`. The CNAME target can reference the suffix from the question.
 
 This compression is why DNS responses are much smaller than they would be without it. It Is also why
 parsing DNS messages requires following pointer references, which adds complexity to DNS Client
@@ -642,7 +654,7 @@ implementations.
 ### Round-Robin DNS
 
 The simplest form of load balancing: multiple A records for the same name, with the server rotating
-The order of records in each response.
+the order of records in each response.
 
 ```
 example.com.    300    IN    A    93.184.216.34
@@ -692,7 +704,7 @@ The provider monitors server health (HTTP checks, TCP checks) and only includes 
 DNS responses.
 
 This mitigates the main limitation of round-robin DNS, but health check failures still take effect
-Only after the TTL expires in all resolvers.
+only after the TTL expires in all resolvers.
 
 ## DNS Debugging Techniques
 
@@ -812,8 +824,8 @@ CoreDNS is the default DNS server in Kubernetes (since v1.11). It is configured 
 Common CoreDNS issues:
 
 - **DNS resolution delays (5 seconds).** This is caused by the fallback DNS search path. When a pod
-  looks up `my-service`CoreDNS first tries `my-service.default.svc.cluster.local`Then
-  `my-service.svc.cluster.local`Then `my-service.cluster.local`Then `my-service`. If none exist, the
+  looks up `my-service`CoreDNS first tries `my-service.default.svc.cluster.local`. Then
+  `my-service.svc.cluster.local`. Then `my-service.cluster.local`. Then `my-service`. If none exist, the
   5-second delay is the timeout for the last search domain. Fix by using FQDNs or reducing `ndots`
   in the resolv.conf.
 - **CoreDNS CPU/memory exhaustion.** In large clusters with many DNS queries, CoreDNS can become a
@@ -833,9 +845,6 @@ and key applications.
 - input/output systems
 - operating systems and scheduling
 - interrupts and polling
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

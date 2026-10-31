@@ -45,7 +45,9 @@ Smaller than the Planck scale ($M_{\mathrm{Pl} \sim 10^{19}}$ GeV).
 **The problem.** In quantum field theory, the Higgs mass receives quadratically divergent Radiative
 corrections from virtual particles. For a fermion loop (e.g., top quark):
 
-$$\delta m_H^2 = -\frac{\lvert y_t\rvert^2}{8\pi^2}\Lambda^2 + \mathrm{finite}$$
+$$
+\delta m_H^2 = -\frac{\lvert y_t\rvert^2}{8\pi^2}\Lambda^2 + \mathrm{finite}
+$$
 
 Where $\Lambda$ is the ultraviolet cutoff. If $\Lambda \sim M_{\mathrm{Pl}}$ Then
 $\delta m_H^2 \sim 10^{38}$ GeV$^2$Requiring an incredible fine-tuning of the bare mass To cancel
@@ -57,15 +59,19 @@ $+\lvert y_t\rvert^2\Lambda^2/(8\pi^2)$ Because bosonic and fermionic loops cont
 signs. This cancellation is exact When SUSY is unbroken. With SUSY broken at the TeV scale, the
 residual correction is only:
 
-$$\delta m_H^2 \sim \frac{\lvert y_t\rvert^2}{8\pi^2}m_{\mathrm{SUSY}^2 \sim (100\;\mathrm{GeV})^2}$$
+$$
+\delta m_H^2 \sim \frac{\lvert y_t\rvert^2}{8\pi^2}m_{\mathrm{SUSY}^2 \sim (100\;\mathrm{GeV})^2}
+$$
 
-Which is of the same order as $m_H^2$Eliminating the fine-tuning.
+Which is of the same order as $m_H^2$ Eliminating the fine-tuning.
 
 ### 9.1.2 R-Parity
 
 SUSY models impose **R-parity**, a discrete symmetry defined as:
 
-$$R = (-1)^{3(B-L)+2s}$$
+$$
+R = (-1)^{3(B-L)+2s}
+$$
 
 All SM particles have $R = +1$ And all superpartners have $R = -1$. R-parity conservation has Two
 important consequences:
@@ -80,7 +86,9 @@ important consequences:
 
 GUTs unify the SM gauge groups into a single simple group. The simplest is **SU(5)**:
 
-$$\mathrm{SU}(3)_C \times \mathrm{SU}(2)_L \times \mathrm{U}(1)_Y \subset \mathrm{SU}(5)$$
+$$
+\mathrm{SU}(3)_C \times \mathrm{SU}(2)_L \times \mathrm{U}(1)_Y \subset \mathrm{SU}(5)
+$$
 
 **Predictions of minimal SU(5):**
 
@@ -93,7 +101,9 @@ $$\mathrm{SU}(3)_C \times \mathrm{SU}(2)_L \times \mathrm{U}(1)_Y \subset \mathr
 Electric charge is quantised. In the SM, the values of the electric charges are inputs. In SU(5),
 Each generation of fermions fits into a $\bar{\mathbf{5}} \oplus \mathbf{10}$ representation:
 
-$$\bar{\mathbf{5}}: \quad \begin{pmatrix} \bar{d}_r \\ \bar{d}_g \\ \bar{d}_b \\ e^- \\ \nu_e \end{pmatrix}, \qquad \mathbf{10}: \quad \begin{pmatrix} 0 & u_r & u_g & u_b & \bar{e}^+ \\ -u_r & 0 & d_r & d_g & \bar{d}_b \\ -u_g & -d_r & 0 & d_b & \bar{d}_g \\ -u_b & -d_g & -d_b & 0 & \bar{d}_r \\ -e^+ & d_b & d_g & d_r & 0 \end{pmatrix}$$
+$$
+\bar{\mathbf{5}}: \quad \begin{pmatrix} \bar{d}_r \\ \bar{d}_g \\ \bar{d}_b \\ e^- \\ \nu_e \end{pmatrix}, \qquad \mathbf{10}: \quad \begin{pmatrix} 0 & u_r & u_g & u_b & \bar{e}^+ \\ -u_r & 0 & d_r & d_g & \bar{d}_b \\ -u_g & -d_r & 0 & d_b & \bar{d}_g \\ -u_b & -d_g & -d_b & 0 & \bar{d}_r \\ -e^+ & d_b & d_g & d_r & 0 \end{pmatrix}
+$$
 
 The fact that quarks and leptons sit in the same multiplet of a simple gauge group Explains why the
 proton charge exactly cancels the electron charge.
@@ -125,7 +135,7 @@ Experimental reach.
 3. **Brane world scenarios.** In some string theory constructions, our four-dimensional universe is
    a "brane" embedded in a higher-dimensional "bulk." Standard Model particles are confined to the
    brane, while gravity can propagate into the bulk. This can lead to observable signatures such as
-   deviations from Newton"s law at short distances or the production of Kaluza--Klein gravitons at
+   deviations from Newton's law at short distances or the production of Kaluza--Klein gravitons at
    colliders.
 
 4. **AdS/CFT correspondence.** String theory in anti-de Sitter space is equivalent to a conformal
@@ -135,7 +145,7 @@ Experimental reach.
 ### 9.4 Quantum Gravity
 
 The reconciliation of general relativity with quantum mechanics remains the central unsolved problem
-In theoretical physics.
+in theoretical physics.
 
 **Approaches:**
 
@@ -151,6 +161,8 @@ No approach has been experimentally verified or gained universal acceptance.
 
 Several experiments are probing physics beyond the Standard Model:
 
+<div class="table-wrap">
+
 | Experiment               | Facility           | Goal                                    |
 | ------------------------ | ------------------ | --------------------------------------- |
 | ATLAS/CMS                | LHC (CERN)         | Direct production of BSM particles      |
@@ -163,16 +175,7 @@ Several experiments are probing physics beyond the Standard Model:
 | Euclid                   | Space telescope    | Dark energy, modified gravity           |
 | Future Circular Collider | CERN (proposed)    | Precision Higgs, new physics at 100 TeV |
 
-
-```mermaid
-flowchart TD
-    A[9_Beyond The Standard Model] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 
@@ -203,5 +206,5 @@ String theory is one approach to quantum gravity, but there are other approaches
 - **[Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)**: Dark matter candidates and inflation models are extensions to the cosmological framework motivated by BSM physics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

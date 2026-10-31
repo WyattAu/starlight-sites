@@ -24,9 +24,9 @@ categories:
 
 :::note
 Numerical examples and covers the Ricardian and Heckscher-Ohlin models. **AQA** focuses on the gains
-From trade and limitations of the comparative advantage model. **Edexcel** emphasises diagrammatic
+from trade and limitations of the comparative advantage model. **Edexcel** emphasises diagrammatic
 Analysis of trade flows and the UK"s trade relationships. **OCR (A)** covers trade theory alongside
-The impact of MNCs and requires evaluation of trade policies.
+the impact of MNCs and requires evaluation of trade policies.
 :::
 
 ### 1.1 Absolute vs Comparative Advantage
@@ -44,17 +44,23 @@ Which it has the **lowest opportunity cost**, even if it has an absolute disadva
 _Setup._ Consider two countries, Home and Foreign, producing two goods, Cloth ($C$) and Wine ($W$),
 Using one factor (labour). Unit labour requirements:
 
+<div class="table-wrap">
+
 |             | Cloth (labour per unit) | Wine (labour per unit) |
 | ----------- | ----------------------- | ---------------------- |
 | **Home**    | $a_C = 2$               | $a_W = 4$              |
 | **Foreign** | $a_C = 6$               | $a_W = 3$              |
+
+</div>
 
 Home has absolute advantage in Cloth ($2 \lt 6$). Foreign has absolute advantage in Wine
 ($3 \lt 4$).
 
 **Opportunity costs:**
 
-$$\mathrm{OC of Cloth in terms of Wine:}$$
+$$
+\mathrm{OC of Cloth in terms of Wine:}
+$$
 
 - Home: $\frac{a_C}{a_W} = \frac{2}{4} = 0.5$ units of Wine per unit of Cloth
 - Foreign: $\frac{a_C}{a_W} = \frac{6}{3} = 2.0$ units of Wine per unit of Cloth
@@ -62,7 +68,9 @@ $$\mathrm{OC of Cloth in terms of Wine:}$$
 Home has a **comparative advantage** in Cloth (lower OC: 0.5 &lt; 2.0). Foreign has a comparative
 Advantage in Wine.
 
-$$\mathrm{OC of Wine in terms of Cloth:}$$
+$$
+\mathrm{OC of Wine in terms of Cloth:}
+$$
 
 - Home: $\frac{a_W}{a_C} = \frac{4}{2} = 2$ units of Cloth per unit of Wine
 - Foreign: $\frac{a_W}{a_C} = \frac{3}{6} = 0.5$ units of Cloth per unit of Wine
@@ -86,7 +94,9 @@ _Specialisation:_
 **World output increases**: 400C → 600C (+200) and 350W → 400W (+50). Both countries gain if they
 Trade at an exchange rate between the two opportunity cost ratios:
 
-$$0.5 \mathrm{ W/C} \lt \mathrm{World price } p \lt 2.0 \mathrm{ W/C}$$
+$$
+0.5 \mathrm{ W/C} \lt \mathrm{World price } p \lt 2.0 \mathrm{ W/C}
+$$
 
 For example, at $p = 1$ (1 unit of Wine for 1 unit of Cloth):
 
@@ -122,7 +132,9 @@ Country exports labour-intensive goods.
 
 The **terms of trade (ToT)** measure the ratio of a country's export prices to its import prices:
 
-$$\mathrm{ToT} = \frac{\mathrm{Index of Export Prices}}{\mathrm{Index of Import Prices}} \times 100$$
+$$
+\mathrm{ToT} = \frac{\mathrm{Index of Export Prices}}{\mathrm{Index of Import Prices}} \times 100
+$$
 
 ### 2.2 Interpretation
 
@@ -141,14 +153,18 @@ Base year (2020): Export price index = 100, Import price index = 100. ToT = 100.
 
 2024: Export prices rose by 15%, Import prices rose by 25%.
 
-$$\mathrm{ToT}_{2024} = \frac{115}{125} \times 100 = 92$$
+$$
+\mathrm{ToT}_{2024} = \frac{115}{125} \times 100 = 92
+$$
 
 Terms of trade deteriorated by 8%. The country needs to export 8.7% more (115/105 = 1.087) just to
-Buy the same quantity of imports as in 2020.
+buy the same quantity of imports as in 2020.
 
 </details>
 
 ### 2.4 Factors Affecting the Terms of Trade
+
+<div class="table-wrap">
 
 | Factor                                  | Effect on ToT                                                          |
 | --------------------------------------- | ---------------------------------------------------------------------- |
@@ -157,6 +173,8 @@ Buy the same quantity of imports as in 2020.
 | Rising commodity prices (for importers) | Import prices rise → ToT deteriorates                                  |
 | Inflation differentials                 | If domestic inflation > trading partners' inflation → ToT deteriorates |
 | Technological progress in export sector | Unit costs fall → export prices may fall → ToT deteriorates            |
+
+</div>
 
 :::caution
 abroad), consumers Benefit from lower prices. Conversely, an improvement caused by a fall in export
@@ -176,7 +194,9 @@ intervention.
 
 The **exchange rate** is the price of one currency in terms of another.
 
-$$\mathrm{Spot rate: } e = \frac{\mathrm{units of domestic currency}}{\mathrm{one unit of foreign currency}}$$
+$$
+\mathrm{Spot rate: } e = \frac{\mathrm{units of domestic currency}}{\mathrm{one unit of foreign currency}}
+$$
 
 A **depreciation** of the pound means $e$ rises (more pounds per dollar, the pound is weaker). An
 **appreciation** means $e$ falls (fewer pounds per dollar, the pound is stronger).
@@ -187,12 +207,16 @@ A **depreciation** of the pound means $e$ rises (more pounds per dollar, the pou
 
 The central bank commits to buying and selling currency to maintain $e = \bar{e}$.
 
-$$\mathrm{If } e \gt \bar{e} \mathrm{ (depreciation pressure): central bank sells foreign reserves, buys domestic currency}$$
+$$
+\mathrm{If } e \gt \bar{e} \mathrm{ (depreciation pressure): central bank sells foreign reserves, buys domestic currency}
+$$
 
-$$\mathrm{If } e \lt \bar{e} \mathrm{ (appreciation pressure): central bank buys foreign reserves, sells domestic currency}$$
+$$
+\mathrm{If } e \lt \bar{e} \mathrm{ (appreciation pressure): central bank buys foreign reserves, sells domestic currency}
+$$
 
 Advantages: certainty for trade and investment, discipline on monetary policy (cannot inflate away
-The peg), reduces speculative volatility.
+the peg), reduces speculative volatility.
 
 Disadvantages: requires large foreign reserves, loss of independent monetary policy (impossible
 Trinity), vulnerability to speculative attacks (e.g., Soros vs Bank of England, 1992, Black
@@ -202,7 +226,9 @@ Wednesday).
 
 The exchange rate is determined by market forces (supply and demand for the currency).
 
-$$e^* : \mathrm{Supply of } £ = \mathrm{Demand for } £$$
+$$
+e^* : \mathrm{Supply of } £ = \mathrm{Demand for } £
+$$
 
 Advantages: automatic adjustment to BoP imbalances (deficit → depreciation → exports cheaper,
 Imports dearer → deficit narrows), independent monetary policy, no need for large reserves.
@@ -215,11 +241,17 @@ Disadvantages: volatility creates uncertainty for trade and investment, may over
 The central bank allows the market to set the exchange rate but intervenes occasionally to smooth
 Excessive fluctuations or achieve policy objectives.
 
-$$\bar{e}_{\min} \lt e \lt \bar{e}_{\max}$$
+$$
+\bar{e}_{\min} \lt e \lt \bar{e}_{\max}
+$$
 
 ### 3.3 Determinants of Floating Exchange Rates
 
-$$e = f(P, r, Y, Y^*, \mathrm{expectations, speculation})$$
+$$
+e = f(P, r, Y, Y^*, \mathrm{expectations, speculation})
+$$
+
+<div class="table-wrap">
 
 | Factor                   | Mechanism                                                                                                                                |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -230,16 +262,22 @@ $$e = f(P, r, Y, Y^*, \mathrm{expectations, speculation})$$
 | Current account balance  | Persistent deficit → downward pressure on currency                                                                                       |
 | Government debt          | High debt → lower confidence → capital outflows → depreciation                                                                           |
 
+</div>
+
 ### 3.4 Purchasing Power Parity (PPP)
 
 **Absolute PPP**: the exchange rate should equalise the price of identical baskets of goods across
 Countries:
 
-$$e = \frac{P_{domestic}}{P_{foreign}}$$
+$$
+e = \frac{P_{domestic}}{P_{foreign}}
+$$
 
 **Relative PPP**: the exchange rate should adjust to reflect inflation differentials:
 
-$$\frac{\Delta e}{e} \approx \pi_{domestic} - \pi_{foreign}$$
+$$
+\frac{\Delta e}{e} \approx \pi_{domestic} - \pi_{foreign}
+$$
 
 PPP holds approximately in the long run but fails in the short run due to: trade barriers,
 Non-traded goods, price stickiness, and speculation.
@@ -249,12 +287,14 @@ Non-traded goods, price stickiness, and speculation.
 ### 4.1 Derivation
 
 The Marshall-Lerner condition determines whether a currency depreciation improves or worsens the
-Current account.
+current account.
 
 **Proposition: A depreciation improves the current account if and only if the sum of the price
 Elasticities of demand for exports and imports (in absolute value) exceeds unity.**
 
-$$|E_X| + |E_M| \gt 1$$
+$$
+|E_X| + |E_M| \gt 1
+$$
 
 Where:
 
@@ -263,25 +303,29 @@ Where:
 
 **Proof sketch.** The current account balance (in domestic currency):
 
-$$CA = P_X \cdot X - e \cdot P_M^* \cdot M$$
+$$
+CA = P_X \cdot X - e \cdot P_M^* \cdot M
+$$
 
 Where $X$ = export volume, $M$ = import volume, $P_X$ = domestic currency price of exports, $P_M^*$
 = foreign currency price of imports, $e$ = exchange rate.
 
 A depreciation ($e$ rises) makes exports cheaper for foreigners ($P_X/e$ falls) and imports more
-Expensive for domestic consumers ($e \cdot P_M^*$ rises). The effect on $CA$ depends on whether the
-Volume responses are large enough to outweigh the price changes:
+expensive for domestic consumers ($e \cdot P_M^*$ rises). The effect on $CA$ depends on whether the
+volume responses are large enough to outweigh the price changes:
 
-$$\Delta CA \approx \left(\frac{E_X \cdot P_X \cdot X}{P_X \cdot X + e \cdot P_M^* \cdot M}\right) \times \left(|E_X| + |E_M| - 1\right) \times \frac{\Delta e}{e}$$
+$$
+\Delta CA \approx \left(\frac{E_X \cdot P_X \cdot X}{P_X \cdot X + e \cdot P_M^* \cdot M}\right) \times \left(|E_X| + |E_M| - 1\right) \times \frac{\Delta e}{e}
+$$
 
 If $|E_X| + |E_M| \gt 1$: the volume effect dominates → $CA$ improves. If $|E_X| + |E_M| \lt 1$: The
 price effect dominates → $CA$ worsens (the country spends more on imports because they are more
-Expensive, without selling enough extra exports). $\blacksquare$
+expensive, without selling enough extra exports). $\blacksquare$
 
 ### 4.2 The J-Curve Effect
 
 In the short run, $|E_X|$ and $|E_M|$ are low because contracts are fixed, consumers are slow to
-Change habits, and production takes time to adjust. So $|E_X| + |E_M| \lt 1$ initially → the Current
+change habits, and production takes time to adjust. So $|E_X| + |E_M| \lt 1$ initially → the Current
 account **worsens** after a depreciation.
 
 Over time (6–18 months), elasticities increase as consumers find substitutes and firms adjust
@@ -289,7 +333,9 @@ Production → $|E_X| + |E_M| \gt 1$ → the current account **improves**.
 
 The path of the current account traces a **J-shape**:
 
-$$CA \mathrm{ falls initially, then rises above the starting level}$$
+$$
+CA \mathrm{ falls initially, then rises above the starting level}
+$$
 
 :::tip
 (Marshall-Lerner, CA Improves). Draw the J-curve diagram. State the Marshall-Lerner condition
@@ -419,6 +465,8 @@ work). Always use multiple Indicators.
 
 ### 7.1 Types of Trading Blocs
 
+<div class="table-wrap">
+
 | Type                | Definition                                                     | Example               |
 | ------------------- | -------------------------------------------------------------- | --------------------- |
 | **Free trade area** | No tariffs between members, but each sets own external tariffs | NAFTA/USMCA           |
@@ -426,6 +474,8 @@ work). Always use multiple Indicators.
 | **Common market**   | Customs union + free movement of factors of production         | EU single market      |
 | **Monetary union**  | Common market + single currency + common central bank          | Eurozone              |
 | **Economic union**  | Monetary union + harmonised fiscal and structural policies     | EU (partial)          |
+
+</div>
 
 ### 7.2 Trade Creation vs Trade Diversion
 
@@ -437,6 +487,8 @@ Imports from a member country (due to preferential tariffs). This reduces effici
 
 ### 7.3 Protectionist Policies
 
+<div class="table-wrap">
+
 | Policy                      | Mechanism                                   | Effect                                                   |
 | --------------------------- | ------------------------------------------- | -------------------------------------------------------- |
 | **Tariff**                  | Tax on imports                              | Raises import price → reduces imports, generates revenue |
@@ -445,19 +497,23 @@ Imports from a member country (due to preferential tariffs). This reduces effici
 | **Administrative barriers** | Health/safety standards, customs procedures | Raises cost/delay of importing                           |
 | **Embargo**                 | Complete ban on imports/exports             | Eliminates trade in the targeted good                    |
 
+</div>
+
 **Welfare analysis of a tariff**:
 
 Consumer surplus falls by more than producer surplus and government revenue increase → **net welfare
 Loss** (deadweight loss from inefficient domestic production and reduced consumption).
 
-$$\mathrm{DWL} = \frac{1}{2} \times (P_w + t - P_w) \times (Q_d^{domestic} - Q_s^{domestic}) = \frac{1}{2} t \times \Delta Q$$
+$$
+\mathrm{DWL} = \frac{1}{2} \times (P_w + t - P_w) \times (Q_d^{domestic} - Q_s^{domestic}) = \frac{1}{2} t \times \Delta Q
+$$
 
 ## 8. Problem Set
 
 **Problem 1.** Country A can produce 10 cars or 5 trucks per worker per month. Country B can produce
 6 cars or 6 trucks per worker per month. (a) Which country has an absolute advantage in each good?
 (b) Calculate opportunity costs. (c) Which country should specialise in which good? (d) Show that
-Trade can benefit both countries.
+trade can benefit both countries.
 
 <details>
 <summary>Hint</summary>
@@ -466,7 +522,7 @@ Trade can benefit both countries.
 
 **Problem 2.** A country's export price index rises from 120 to 132, while its import price index
 Rises from 100 to 120. (a) Calculate the initial and new terms of trade. (b) Has the ToT improved or
-Deteriorated? (c) Explain why this may not be entirely beneficial.
+deteriorated? (c) Explain why this may not be entirely beneficial.
 
 <details>
 <summary>Hint</summary>
@@ -475,8 +531,8 @@ Deteriorated? (c) Explain why this may not be entirely beneficial.
 
 **Problem 3.** The exchange rate falls from $1.50/£ to $1.20/£. (a) Has the pound appreciated or
 Depreciated? (b) If the price elasticity of demand for exports is 0.6 and for imports is 0.8, use
-The Marshall-Lerner condition to determine the short-run effect on the current account. (c) Explain
-The J-curve effect.
+the Marshall-Lerner condition to determine the short-run effect on the current account. (c) Explain
+the J-curve effect.
 
 <details>
 <summary>Hint</summary>
@@ -583,11 +639,15 @@ Comparative advantage: leaving the EU's single market means the UK faces tariffs
 The Marshall-Lerner condition states that a depreciation of the exchange rate improves the current
 account balance if and only if:
 
-$$|\text{PED}_X| + |\text{PED}_M| > 1$$
+$$
+|\text{PED}_X| + |\text{PED}_M| > 1
+$$
 
 **Proof.** The current account balance in domestic currency is:
 
-$$CA = P_X \cdot X(P_X^*) - P_M^* \cdot e \cdot M$$
+$$
+CA = P_X \cdot X(P_X^*) - P_M^* \cdot e \cdot M
+$$
 
 Where $P_X$ is the export price in domestic currency, $X$ is export volume, $P_M^*$ is the import
 price in foreign currency, $e$ is the exchange rate (domestic currency per foreign currency), and
@@ -601,19 +661,23 @@ Define $\epsilon_X = -\frac{\Delta X/X}{\Delta e/e}$ (elasticity of export volum
 exchange rate) and $\epsilon_M = -\frac{\Delta M/M}{\Delta e/e}$ (elasticity of import
 volume to exchange rate). The current account improves when:
 
-$$\epsilon_X \cdot \frac{P_X \cdot X}{CA} + \epsilon_M \cdot \frac{P_M^* \cdot e \cdot M}{CA} > \frac{P_M^* \cdot e \cdot M - P_X \cdot X}{CA}$$
+$$
+\epsilon_X \cdot \frac{P_X \cdot X}{CA} + \epsilon_M \cdot \frac{P_M^* \cdot e \cdot M}{CA} > \frac{P_M^* \cdot e \cdot M - P_X \cdot X}{CA}
+$$
 
 If trade is initially balanced ($P_X \cdot X = P_M^* \cdot e \cdot M$), this simplifies to:
 
-$$\epsilon_X + \epsilon_M > 1$$
+$$
+\epsilon_X + \epsilon_M > 1
+$$
 
-Since $\epsilon_X = |\text{PED}_X|$ and $\epsilon_M = |\text{PED}_M|$The condition is
+Since $\epsilon_X = |\text{PED}_X|$ and $\epsilon_M = |\text{PED}_M|$ The condition is
 $|\text{PED}_X| + |\text{PED}_M| > 1$. $\blacksquare$
 
 **Empirical estimates for the UK.** The UK's price elasticity of demand for exports is approximately
 0.5-0.7 in the short run and 1.0-1.5 in the long run. The price elasticity of demand for imports is
 approximately 0.3-0.5 in the short run and 0.8-1.2 in the long run. In the short run,
-$|\text{PED}_X| + |\text{PED}_M| \approx 0.8 - 1.2$Which may be below 1, consistent with the J-curve
+$|\text{PED}_X| + |\text{PED}_M| \approx 0.8 - 1.2$ Which may be below 1, consistent with the J-curve
 effect. In the long run, the sum exceeds 1, so depreciation does improve the current account.
 
 ### 13.2 J-Curve Effect: Worked Example
@@ -644,7 +708,9 @@ $= 1.0$.
 
 The **terms of trade (ToT)** measure the ratio of export prices to import prices:
 
-$$\text{ToT} = \frac{P_X}{P_M} \times 100$$
+$$
+\text{ToT} = \frac{P_X}{P_M} \times 100
+$$
 
 Where $P_X$ is the export price index and $P_M$ is the import price index.
 
@@ -667,12 +733,16 @@ deteriorate over time relative to manufactured goods exporters, because:
 
 **Types of trading blocs:**
 
+<div class="table-wrap">
+
 | Type            | Definition                                                 | Example               |
 | --------------- | ---------------------------------------------------------- | --------------------- |
 | Free trade area | No tariffs between members, each sets own external tariffs | EFTA                  |
 | Customs union   | No tariffs between members, common external tariff         | EU (as customs union) |
 | Single market   | Free movement of goods, services, capital, and labour      | EU (single market)    |
 | Economic union  | Single market + common fiscal and monetary policy          | Eurozone (partial)    |
+
+</div>
 
 **Trade creation vs trade diversion (Viner, 1950):**
 
@@ -694,14 +764,18 @@ This is trade DIVERSION (GBP 200 cost per tonne).
 
 **Purchasing Power Parity (PPP):**
 
-$$e = \frac{P_{domestic}}{P_{foreign}}$$
+$$
+e = \frac{P_{domestic}}{P_{foreign}}
+$$
 
 **Absolute PPP**: the exchange rate should equal the ratio of domestic to foreign price levels. A
 Big Mac should cost the same everywhere (the "Big Mac index" published by The Economist).
 
 **Relative PPP**: the exchange rate should adjust to reflect inflation differentials:
 
-$$\%\Delta e \approx \pi_{domestic} - \pi_{foreign}$$
+$$
+\%\Delta e \approx \pi_{domestic} - \pi_{foreign}
+$$
 
 If UK inflation is 5% and US inflation is 3%, the pound should depreciate by approximately 2%
 against the dollar.
@@ -818,12 +892,16 @@ Both countries gain from specialisation and trade based on comparative advantage
 
 **Example.** The Big Mac Index (a light-hearted PPP measure) shows:
 
+<div class="table-wrap">
+
 | Country     | Big Mac price (local currency) | Big Mac price (USD) | Implied PPP  | Actual exchange rate | Over/undervaluation |
 | ----------- | :----------------------------: | :-----------------: | :----------: | :------------------: | :-----------------: |
 | UK          |            GBP 4.50            |        $5.15        | 1.14 GBP/USD |     1.25 GBP/USD     |  9.6% undervalued   |
 | USA         |             $5.15              |        $5.15        |      --      |          --          |         --          |
 | Switzerland |            CHF 7.00            |        $8.05        | 1.36 CHF/USD |     0.87 CHF/USD     |  56.3% overvalued   |
 | Japan       |            JPY 450             |        $3.30        | 87.4 JPY/USD |     136 JPY/USD      |  35.8% undervalued  |
+
+</div>
 
 **Interpretation:**
 
@@ -905,11 +983,15 @@ Globalisation is the story of the world getting more connected, and more complic
 
 **Example.** Three countries form a customs union:
 
+<div class="table-wrap">
+
 | Country           | Wheat price (USD/tonne) | Demand (million tonnes) | Supply (million tonnes) |
 | ----------------- | :---------------------: | :---------------------: | :---------------------: |
 | A (home)          |           100           |           200           |           100           |
 | B (partner)       |           80            |           300           |           200           |
 | C (rest of world) |           60            |           --            |           --            |
+
+</div>
 
 **Before the customs union:** Country A imports from C at
 $60 (cheapest source). Tariff on C: $20/tonne. Price in A: $80.
@@ -947,13 +1029,13 @@ If the common external tariff is 10: price from C = 70. Price from B = 80. A imp
 
 **For trade diversion to occur, the partner's price must be between the world price (without tariff)
 and the world price (with tariff):** $P_C < P_B < P_C + t$. Here: $60 < 80 < 60 + 20 = 80$. Since
-$P_B = P_C + t$Trade diversion is marginal.
+$P_B = P_C + t$ Trade diversion is marginal.
 
-**Better example:** $P_C = 50$$P_B = 80$Tariff on C = 20. Price from C = 70. Imports from C = 160.
+**Better example:** $P_C = 50$$P_B = 80$ Tariff on C = 20. Price from C = 70. Imports from C = 160.
 After customs union (common tariff 20): price from C = 70. Price from B = 80. A imports from C
 (still cheaper). No trade diversion.
 
-**Trade diversion requires $P_B < P_C + t_{CU}$ but $P_B > P_C$:** $P_C = 50$$P_B = 65$Tariff on C
+**Trade diversion requires $P_B < P_C + t_{CU}$ but $P_B > P_C$:** $P_C = 50$$P_B = 65$ Tariff on C
 = 20. Before CU: price from C = 70, from B = 85 (with tariff 20). A imports from C: 160 million
 tonnes. Tariff revenue = $20 \times 160 = 3200$.
 
@@ -1027,12 +1109,16 @@ provides certainty for international trade and investment, which may be benefici
 **Example.** Country A exports copper and imports manufactured goods. The price data (index, 2020 =
 100):
 
+<div class="table-wrap">
+
 | Year | Export price index | Import price index | Terms of trade |
 | :--: | :----------------: | :----------------: | :------------: |
 | 2020 |        100         |        100         |      100       |
 | 2021 |        120         |        105         |     114.3      |
 | 2022 |        150         |        115         |     130.4      |
 | 2023 |        130         |        120         |     108.3      |
+
+</div>
 
 **Terms of trade calculation:**
 $ToT = \frac{\text{Export price}}{\text{Import price}} \times 100$.
@@ -1055,7 +1141,7 @@ though volumes did not change.
 **With volume effects (elasticity):** If $PED_X = -0.3$ and $PED_M = -0.5$:
 
 2021: Export prices up 20%. Export volumes fall by $0.3 \times 20 = 6\%$ to 94. Import prices up 5%.
-Import volumes fall by $0.5 \times 5 = 2.5\%$ to 78.
+import volumes fall by $0.5 \times 5 = 2.5\%$ to 78.
 
 Export revenue $= 120 \times 94 = 11\,280$. Import cost $= 105 \times 78 = 8\,190$. Trade surplus
 $= 3\,090$.
@@ -1152,7 +1238,7 @@ If money growth is 15% per year (due to fiscal deficit financing) and the anchor
 growth is 5%: After 1 year: $e_{shadow}/e_{peg} = 1.10$ (10% overvaluation). After 2 years:
 $e_{shadow}/e_{peg} = 1.21$ (21% overvaluation).
 
-**Speculative attack timing:** Speculators attack when $e_{shadow} > e_{peg}$I.e., when the expected
+**Speculative attack timing:** Speculators attack when $e_{shadow} > e_{peg}$ I.e., when the expected
 devaluation exceeds the cost of attacking (the interest rate differential).
 
 If the domestic interest rate is 15% and the US interest rate is 5%, the cost of borrowing pesos to
@@ -1194,16 +1280,6 @@ deterioration.
 
 4. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the
    change in tertiary structure.
-
-```mermaid
-flowchart TD
-    A[06 The International Economy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

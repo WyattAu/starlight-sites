@@ -26,7 +26,7 @@ exceptionally well-suited for metaprogramming because:
 - Classes and modules are open -- they can be modified at any time
 - Methods can be defined, removed, and aliased dynamically
 - Every operation (including method calls and class definitions) is expressed as a message send
-- Ruby"s reflective API provides deep introspection capabilities
+- Ruby's reflective API provides deep introspection capabilities
 - Blocks, procs, and lambdas are first-class objects
 
 ## Open Classes
@@ -92,7 +92,7 @@ end
 
 ## method_missing
 
-`method_missing` is Ruby"s mechanism for handling unknown method calls:
+`method_missing` is Ruby's mechanism for handling unknown method calls:
 
 ```ruby
 class DynamicProxy
@@ -912,16 +912,6 @@ class Employee
   def_delegator :@work_info, :title, :job_title
   def_delegators :@work_info, :department, :salary
 end
-
-```mermaid
-flowchart TD
-    A[1_Metaprogramming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

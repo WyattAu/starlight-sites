@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Correlation And Regression] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
@@ -36,16 +25,20 @@ flowchart TD
 
 > Tests edge cases, boundary conditions, and common misconceptions for correlation and regression.
 
-### UT-1: PMCC vs Spearman"s Rank and Coding Invariance
+### UT-1: PMCC vs Spearman's Rank and Coding Invariance
 
 **Question:**
 
 An economist collects data on the annual income (in thousands of pounds) and annual savings (in
 hundreds of pounds) for 7 households:
 
-| Income ($x$In $\pounds 1000$) | 15  | 22  | 30  | 35  | 42  | 55  | 68  |
+<div class="table-wrap">
+
+| Income ($x$ In $\pounds 1000$) | 15  | 22  | 30  | 35  | 42  | 55  | 68  |
 | ----------------------------- | --- | --- | --- | --- | --- | --- | --- |
-| Savings ($y$In $\pounds 100$) | 3   | 8   | 12  | 18  | 22  | 35  | 48  |
+| Savings ($y$ In $\pounds 100$) | 3   | 8   | 12  | 18  | 22  | 35  | 48  |
+
+</div>
 
 **(a)** Calculate the product moment correlation coefficient (PMCC) for this data.
 
@@ -66,42 +59,70 @@ correlation measures.]
 
 **(a)** We need $\sum x$$\sum y$$\sum x^2$$\sum y^2$$\sum xy$.
 
-$$\sum x = 15 + 22 + 30 + 35 + 42 + 55 + 68 = 267$$
+$$
+\sum x = 15 + 22 + 30 + 35 + 42 + 55 + 68 = 267
+$$
 
-$$\sum y = 3 + 8 + 12 + 18 + 22 + 35 + 48 = 146$$
+$$
+\sum y = 3 + 8 + 12 + 18 + 22 + 35 + 48 = 146
+$$
 
-$$\sum x^2 = 225 + 484 + 900 + 1225 + 1764 + 3025 + 4624 = 12247$$
+$$
+\sum x^2 = 225 + 484 + 900 + 1225 + 1764 + 3025 + 4624 = 12247
+$$
 
-$$\sum y^2 = 9 + 64 + 144 + 324 + 484 + 1225 + 2304 = 4554$$
+$$
+\sum y^2 = 9 + 64 + 144 + 324 + 484 + 1225 + 2304 = 4554
+$$
 
-$$\sum xy = 45 + 176 + 360 + 630 + 924 + 1925 + 3264 = 7324$$
+$$
+\sum xy = 45 + 176 + 360 + 630 + 924 + 1925 + 3264 = 7324
+$$
 
-$$S_{xx} = 12247 - \frac{267^2}{7} = 12247 - \frac{71289}{7} = 12247 - 10184.14... = 2062.857$$
+$$
+S_{xx} = 12247 - \frac{267^2}{7} = 12247 - \frac{71289}{7} = 12247 - 10184.14... = 2062.857
+$$
 
-$$S_{yy} = 4554 - \frac{146^2}{7} = 4554 - \frac{21316}{7} = 4554 - 3045.143 = 1508.857$$
+$$
+S_{yy} = 4554 - \frac{146^2}{7} = 4554 - \frac{21316}{7} = 4554 - 3045.143 = 1508.857
+$$
 
-$$S_{xy} = 7324 - \frac{267 \times 146}{7} = 7324 - \frac{38982}{7} = 7324 - 5568.857 = 1755.143$$
+$$
+S_{xy} = 7324 - \frac{267 \times 146}{7} = 7324 - \frac{38982}{7} = 7324 - 5568.857 = 1755.143
+$$
 
-$$r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = \frac{1755.143}{\sqrt{2062.857 \times 1508.857}}$$
+$$
+r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = \frac{1755.143}{\sqrt{2062.857 \times 1508.857}}
+$$
 
-$$= \frac{1755.143}{\sqrt{3111755.1}} = \frac{1755.143}{1764.02} = 0.9950 \text{ (4 d.p.)}$$
+$$
+= \frac{1755.143}{\sqrt{3111755.1}} = \frac{1755.143}{1764.02} = 0.9950 \text{ (4 d.p.)}
+$$
 
 **(b)** The student's claim is **incorrect**. The PMCC is invariant under linear coding of the form
 $u = ax + b$ and $v = cy + d$ (where $a, c \neq 0$). Here $u = \frac{1}{1000}x$ and
-$v = \frac{1}{100}y$Which are linear transformations.
+$v = \frac{1}{100}y$ Which are linear transformations.
 
 To see why: the PMCC is defined as $r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}$.
 Under coding:
 
-$$S_{uv} = \sum uv - \frac{(\sum u)(\sum v)}{n} = ac \sum xy - ac \frac{(\sum x)(\sum y)}{n} = ac \cdot S_{xy}$$
+$$
+S_{uv} = \sum uv - \frac{(\sum u)(\sum v)}{n} = ac \sum xy - ac \frac{(\sum x)(\sum y)}{n} = ac \cdot S_{xy}
+$$
 
-$$S_{uu} = a^2 S_{xx}, \quad S_{vv} = c^2 S_{yy}$$
+$$
+S_{uu} = a^2 S_{xx}, \quad S_{vv} = c^2 S_{yy}
+$$
 
-$$r_{uv} = \frac{ac \cdot S_{xy}}{\sqrt{a^2 S_{xx} \cdot c^2 S_{yy}}} = \frac{ac \cdot S_{xy}}{|ac|\sqrt{S_{xx} \cdot S_{yy}}} = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = r_{xy}$$
+$$
+r_{uv} = \frac{ac \cdot S_{xy}}{\sqrt{a^2 S_{xx} \cdot c^2 S_{yy}}} = \frac{ac \cdot S_{xy}}{|ac|\sqrt{S_{xx} \cdot S_{yy}}} = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}} = r_{xy}
+$$
 
 The factors of $a$ and $c$ cancel out completely, so the PMCC is unchanged by scaling or shifting.
 
 **(c)** Ranking the data:
+
+<div class="table-wrap">
 
 | $x$ | Rank $R_x$ | $y$ | Rank $R_y$ | $d = R_x - R_y$ | $d^2$ |
 | --- | ---------- | --- | ---------- | --------------- | ----- |
@@ -113,9 +134,15 @@ The factors of $a$ and $c$ cancel out completely, so the PMCC is unchanged by sc
 | 55  | 6          | 35  | 6          | 0               | 0     |
 | 68  | 7          | 48  | 7          | 0               | 0     |
 
-$$\sum d^2 = 0$$
+</div>
 
-$$r_s = 1 - \frac{6 \sum d^2}{n(n^2 - 1)} = 1 - 0 = 1$$
+$$
+\sum d^2 = 0
+$$
+
+$$
+r_s = 1 - \frac{6 \sum d^2}{n(n^2 - 1)} = 1 - 0 = 1
+$$
 
 Spearman's rank correlation coefficient is 1 (perfect rank correlation).
 
@@ -157,7 +184,7 @@ $\bar{y} = 17.9$.
 
 **(b)** Calculate the PMCC for the dataset.
 
-**(c)** A student uses the regression line of $y$ on $x$ to predict $y$ when $x = 15$Obtaining
+**(c)** A student uses the regression line of $y$ on $x$ to predict $y$ when $x = 15$ Obtaining
 $\hat{y} = 59.9$. Explain why this prediction may be unreliable, identifying the specific
 statistical concept that is violated.
 
@@ -180,32 +207,40 @@ and $\bar{y} = 17.9$ simultaneously for both lines. Let me verify: if the regres
 $x$ passes through $(5, 17.9)$ Then $17.9 = 4.2(5) + c$ So $c = 17.9 - 21 = -3.1$. This checks out.
 
 For the regression line of $x$ on $y$ to pass through $(5, 17.9)$: $5 = 0.21(17.9) + c$ So
-$c = 5 - 3.759 = 1.241$. But the given line has intercept $1.8$Not $1.241$. The given regression
+$c = 5 - 3.759 = 1.241$. But the given line has intercept $1.8$ Not $1.241$. The given regression
 lines are not consistent.
 
 For the remainder of this solution, I will use the corrected regression line of $x$ on $y$:
-$x = 0.21y + 1.241$Or equivalently I will derive $r$ from the $y$-on-$x$ line alone.
+$x = 0.21y + 1.241$ Or equivalently I will derive $r$ from the $y$-on-$x$ line alone.
 
-**(b)** From the regression line of $y$ on $x$: $y = 4.2x - 3.1$The regression coefficient is
+**(b)** From the regression line of $y$ on $x$: $y = 4.2x - 3.1$ The regression coefficient is
 $b_{yx} = 4.2$.
 
 The formula for the regression coefficient is:
 
-$$b_{yx} = r \cdot \frac{s_y}{s_x}$$
+$$
+b_{yx} = r \cdot \frac{s_y}{s_x}
+$$
 
 We need the standard deviations. Since we have $\bar{x} = 5.0$ and the regression line of $y$ on $x$
 is $y = 4.2x - 3.1$:
 
 We can use the relationship between the two regression coefficients:
 
-$$b_{yx} \cdot b_{xy} = r^2$$
+$$
+b_{yx} \cdot b_{xy} = r^2
+$$
 
 Where $b_{xy}$ is the gradient of the regression line of $x$ on $y$. From the corrected line
 $x = 0.21y + 1.241$: $b_{xy} = 0.21$.
 
-$$r^2 = 4.2 \times 0.21 = 0.882$$
+$$
+r^2 = 4.2 \times 0.21 = 0.882
+$$
 
-$$r = \sqrt{0.882} = 0.939 \text{ (3 d.p.)}$$
+$$
+r = \sqrt{0.882} = 0.939 \text{ (3 d.p.)}
+$$
 
 We take the positive root because both regression coefficients are positive, indicating a positive
 association.
@@ -222,15 +257,19 @@ $x = 15$.
 
 **(d)** The regression line of $y$ on $x$ is:
 
-$$y - \bar{y} = b_{yx}(x - \bar{x})$$
+$$
+y - \bar{y} = b_{yx}(x - \bar{x})
+$$
 
-Setting $x = \bar{x}$ gives $y = \bar{y}$Confirming the line passes through $(\bar{x}, \bar{y})$.
+Setting $x = \bar{x}$ gives $y = \bar{y}$ Confirming the line passes through $(\bar{x}, \bar{y})$.
 
 Similarly, the regression line of $x$ on $y$ is:
 
-$$x - \bar{x} = b_{xy}(y - \bar{y})$$
+$$
+x - \bar{x} = b_{xy}(y - \bar{y})
+$$
 
-Setting $y = \bar{y}$ gives $x = \bar{x}$Confirming this line also passes through
+Setting $y = \bar{y}$ gives $x = \bar{x}$ Confirming this line also passes through
 $(\bar{x}, \bar{y})$.
 
 Geometrically, the point of means $(\bar{x}, \bar{y})$ is the "centre of gravity" of the data. The
@@ -259,9 +298,13 @@ A teacher believes there is a linear relationship between the number of hours a 
 ($h$) and their exam score ($s$). She collects data for 10 students and fits the regression line
 $s = 12.5h + 28$. The residuals are:
 
+<div class="table-wrap">
+
 | $h$      | 1    | 2    | 3   | 4   | 5   | 6   | 7   | 8    | 9    | 10  |
 | -------- | ---- | ---- | --- | --- | --- | --- | --- | ---- | ---- | --- |
 | Residual | $-8$ | $-3$ | $1$ | $2$ | $3$ | $4$ | $2$ | $-1$ | $-5$ | $5$ |
+
+</div>
 
 **(a)** Verify that the sum of the residuals is zero, and explain why this must always be the case
 for a least squares regression line.
@@ -283,26 +326,38 @@ minimised, and give one situation where minimising vertical distances is inappro
 
 **(a)** Sum of residuals:
 
-$$(-8) + (-3) + 1 + 2 + 3 + 4 + 2 + (-1) + (-5) + 5 = 0 \checkmark$$
+$$
+(-8) + (-3) + 1 + 2 + 3 + 4 + 2 + (-1) + (-5) + 5 = 0 \checkmark
+$$
 
 This must always be zero because the least squares regression line of $y$ on $x$ satisfies
 $\hat{y} = a + bx$ where:
 
-$$b = \frac{S_{xy}}{S_{xx}} = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sum(x_i - \bar{x})^2}$$
+$$
+b = \frac{S_{xy}}{S_{xx}} = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sum(x_i - \bar{x})^2}
+$$
 
-$$a = \bar{y} - b\bar{x}$$
+$$
+a = \bar{y} - b\bar{x}
+$$
 
 The sum of residuals is:
 
-$$\sum e_i = \sum(y_i - \hat{y}_i) = \sum y_i - \sum(a + bx_i) = \sum y_i - na - b\sum x_i$$
+$$
+\sum e_i = \sum(y_i - \hat{y}_i) = \sum y_i - \sum(a + bx_i) = \sum y_i - na - b\sum x_i
+$$
 
 Substituting $a = \bar{y} - b\bar{x}$:
 
-$$= \sum y_i - n(\bar{y} - b\bar{x}) - b\sum x_i = \sum y_i - n\bar{y} + nb\bar{x} - b\sum x_i$$
+$$
+= \sum y_i - n(\bar{y} - b\bar{x}) - b\sum x_i = \sum y_i - n\bar{y} + nb\bar{x} - b\sum x_i
+$$
 
 Since $\sum y_i = n\bar{y}$ and $\sum x_i = n\bar{x}$:
 
-$$= n\bar{y} - n\bar{y} + nb\bar{x} - nb\bar{x} = 0$$
+$$
+= n\bar{y} - n\bar{y} + nb\bar{x} - nb\bar{x} = 0
+$$
 
 The residuals always sum to zero because the regression line passes through $(\bar{x}, \bar{y})$ And
 the deviations from the mean sum to zero.
@@ -313,7 +368,7 @@ At $h = 1$: residual $= -8$ At $h = 2$: residual $= -3$ At $h = 3$: residual $= 
 residual $= 2$ At $h = 5$: residual $= 3$ At $h = 6$: residual $= 4$ At $h = 7$: residual $= 2$ At
 $h = 8$: residual $= -1$ At $h = 9$: residual $= -5$ At $h = 10$: residual $= 5$
 
-The residual plot shows a clear **curved pattern**: residuals are negative at low $h$Rise to
+The residual plot shows a clear **curved pattern**: residuals are negative at low $h$ Rise to
 positive around $h = 5$--$7$ Then dip negative again at $h = 9$ before rising at $h = 10$. This
 curved (U-shaped or S-shaped) pattern in the residuals indicates that the relationship between $h$
 and $s$ is **not purely linear**. A linear model is systematically under-predicting at the extremes
@@ -407,7 +462,7 @@ $H_1: \rho > 0$ (positive correlation in the population)
 
 **Test statistic:** $r = 0.58$
 
-Since $0.58 > 0.497$The test statistic exceeds the critical value.
+Since $0.58 > 0.497$ The test statistic exceeds the critical value.
 
 **Conclusion:** There is sufficient evidence to reject $H_0$ and conclude that there is evidence of
 a positive correlation between hours of sleep and cognitive test performance in the population.
@@ -415,7 +470,7 @@ a positive correlation between hours of sleep and cognitive test performance in 
 **(b)** For a two-tailed test at the 5% level, the critical value would be higher ( the two-tailed
 5% critical value for $n = 12$ is approximately 0.576).
 
-Since $r = 0.58 > 0.576$The test statistic still exceeds the critical value, so the conclusion would
+Since $r = 0.58 > 0.576$ The test statistic still exceeds the critical value, so the conclusion would
 **not change**. There would still be sufficient evidence to reject $H_0$.
 
 However, note that the two-tailed test is more conservative: it requires stronger evidence because
@@ -429,7 +484,7 @@ $H_0: \rho = 0$, $H_1: \rho > 0$
 
 **Test statistic:** $r = 0.35$
 
-Since $0.35 > 0.306$We reject $H_0$.
+Since $0.35 > 0.306$ We reject $H_0$.
 
 **Comparison:** Both tests lead to rejection of $H_0$ But in part (a) the correlation was stronger
 ($r = 0.58$) with a smaller sample ($n = 12$), while in part (c) the correlation is weaker
@@ -439,10 +494,10 @@ This illustrates that **statistical significance depends on both the strength of
 the sample size**. A small sample needs a stronger correlation to achieve significance.
 
 **(d)** The PMCC follows a known sampling distribution (related to the $t$-distribution) under the
-null hypothesis $H_0: \rho = 0$Assuming the population is bivariate normal. This allows the
+null hypothesis $H_0: \rho = 0$ Assuming the population is bivariate normal. This allows the
 construction of critical value tables specific to the PMCC.
 
-Spearman's rank correlation coefficient, $r_s$Is based on the ranks of the data rather than the raw
+Spearman's rank correlation coefficient, $r_s$ Is based on the ranks of the data rather than the raw
 values. Its sampling distribution under $H_0: \rho_s = 0$ is different from that of the PMCC. For
 small samples, $r_s$ has a discrete distribution (since ranks are integers), and the exact critical
 values are tabulated separately. The PMCC critical values cannot be used for Spearman's test because
@@ -465,11 +520,15 @@ the distributions are different.
 
 The regression line of exam mark $M$ on hours of revision $H$ for a large population of students is:
 
-$$M = 5H + 20$$
+$$
+M = 5H + 20
+$$
 
 The number of revision hours $H$ for a randomly selected student follows the distribution:
 
-$$P(H = h) = \begin{cases} 0.1 & h = 1 \\ 0.2 & h = 2 \\ 0.3 & h = 3 \\ 0.25 & h = 4 \\ 0.15 & h = 5 \end{cases}$$
+$$
+P(H = h) = \begin{cases} 0.1 & h = 1 \\ 0.2 & h = 2 \\ 0.3 & h = 3 \\ 0.25 & h = 4 \\ 0.15 & h = 5 \end{cases}
+$$
 
 **(a)** Find $\mathrm{E}(H)$ and $\mathrm{Var}(H)$.
 
@@ -489,19 +548,31 @@ expectation/variance.]
 
 **(a)**
 
-$$\mathrm{E}(H) = \sum h \cdot P(H = h) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.25) + 5(0.15)$$
+$$
+\mathrm{E}(H) = \sum h \cdot P(H = h) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.25) + 5(0.15)
+$$
 
-$$= 0.1 + 0.4 + 0.9 + 1.0 + 0.75 = 3.15$$
+$$
+= 0.1 + 0.4 + 0.9 + 1.0 + 0.75 = 3.15
+$$
 
-$$\mathrm{E}(H^2) = 1(0.1) + 4(0.2) + 9(0.3) + 16(0.25) + 25(0.15)$$
+$$
+\mathrm{E}(H^2) = 1(0.1) + 4(0.2) + 9(0.3) + 16(0.25) + 25(0.15)
+$$
 
-$$= 0.1 + 0.8 + 2.7 + 4.0 + 3.75 = 11.35$$
+$$
+= 0.1 + 0.8 + 2.7 + 4.0 + 3.75 = 11.35
+$$
 
-$$\mathrm{Var}(H) = \mathrm{E}(H^2) - [\mathrm{E}(H)]^2 = 11.35 - 3.15^2 = 11.35 - 9.9225 = 1.4275$$
+$$
+\mathrm{Var}(H) = \mathrm{E}(H^2) - [\mathrm{E}(H)]^2 = 11.35 - 3.15^2 = 11.35 - 9.9225 = 1.4275
+$$
 
 **(b)** Using the linearity of expectation:
 
-$$\mathrm{E}(M) = \mathrm{E}(5H + 20) = 5\mathrm{E}(H) + 20 = 5(3.15) + 20 = 15.75 + 20 = 35.75$$
+$$
+\mathrm{E}(M) = \mathrm{E}(5H + 20) = 5\mathrm{E}(H) + 20 = 5(3.15) + 20 = 15.75 + 20 = 35.75
+$$
 
 Alternatively, using the law of total expectation: the predicted mark for each value of $H$ is
 $5h + 20$ And we average these predictions weighted by the probability of each $h$. This gives the
@@ -512,17 +583,27 @@ same result.
 1. Variance due to the variation in $H$ across students.
 2. Variance due to the scatter around the regression line.
 
-$$\mathrm{Var}(M) = \mathrm{Var}(5H + 20 + \varepsilon) = \mathrm{Var}(5H) + \mathrm{Var}(\varepsilon)$$
+$$
+\mathrm{Var}(M) = \mathrm{Var}(5H + 20 + \varepsilon) = \mathrm{Var}(5H) + \mathrm{Var}(\varepsilon)
+$$
 
 Where $\varepsilon$ represents the random scatter (residuals), assumed independent of $H$.
 
-$$\mathrm{Var}(5H) = 5^2 \mathrm{Var}(H) = 25 \times 1.4275 = 35.6875$$
+$$
+\mathrm{Var}(5H) = 5^2 \mathrm{Var}(H) = 25 \times 1.4275 = 35.6875
+$$
 
-$$\mathrm{Var}(\varepsilon) = \sigma^2 = 25$$
+$$
+\mathrm{Var}(\varepsilon) = \sigma^2 = 25
+$$
 
-$$\mathrm{Var}(M) = 35.6875 + 25 = 60.6875$$
+$$
+\mathrm{Var}(M) = 35.6875 + 25 = 60.6875
+$$
 
-$$\mathrm{SD}(M) = \sqrt{60.6875} \approx 7.79$$
+$$
+\mathrm{SD}(M) = \sqrt{60.6875} \approx 7.79
+$$
 
 **(d)** The regression line gives the **expected** (mean) exam mark for a given number of revision
 hours. Individual students will score above or below this prediction due to other factors not
@@ -531,9 +612,13 @@ revises 3 hours is the difference between their actual mark and the predicted ma
 
 Assuming the residuals are normally distributed with mean 0 and standard deviation $\sigma = 5$:
 
-$$P(M > 40 \mid H = 3) = P\left(\frac{M - 35}{5} > \frac{40 - 35}{5}\right) = P(Z > 1)$$
+$$
+P(M > 40 \mid H = 3) = P\left(\frac{M - 35}{5} > \frac{40 - 35}{5}\right) = P(Z > 1)
+$$
 
-$$= 1 - \Phi(1) = 1 - 0.8413 = 0.1587$$
+$$
+= 1 - \Phi(1) = 1 - 0.8413 = 0.1587
+$$
 
 The probability is approximately 0.159 (15.9%).
 
@@ -552,12 +637,16 @@ The probability is approximately 0.159 (15.9%).
 
 **Question:**
 
-The data below shows the temperature ($T$In $^\circ$C) and ice cream sales ($S$In $\pounds$) at a
+The data below shows the temperature ($T$ In $^\circ$ C) and ice cream sales ($S$ In $\pounds$) at a
 shop on 8 days:
+
+<div class="table-wrap">
 
 | $T$ | 12  | 15  | 18  | 20  | 22  | 25  | 28  | 30  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | $S$ | 45  | 80  | 120 | 150 | 170 | 250 | 310 | 50  |
+
+</div>
 
 The regression line of $S$ on $T$ is $S = 12.34T - 102.9$ with PMCC $r = 0.893$.
 
@@ -582,6 +671,8 @@ evaluation of outlier removal.]
 
 **(a)** Calculating residuals from $S = 12.34T - 102.9$:
 
+<div class="table-wrap">
+
 | $T$ | $S$ (observed) | $S$ (predicted) | Residual |
 | --- | -------------- | --------------- | -------- |
 | 12  | 45             | 45.2            | $-0.2$   |
@@ -593,31 +684,43 @@ evaluation of outlier removal.]
 | 28  | 310            | 242.7           | 67.3     |
 | 30  | 50             | 267.3           | $-217.3$ |
 
-The residual for $T = 30$ is $-217.3$Which is enormously negative. The predicted sales for
-$T = 30^\circ$C should be around $\pounds 267$ But the observed value is only $\pounds 50$. This is
+</div>
+
+The residual for $T = 30$ is $-217.3$ Which is enormously negative. The predicted sales for
+$T = 30^\circ$ C should be around $\pounds 267$ But the observed value is only $\pounds 50$. This is
 almost certainly a data entry error (perhaps the sales were $\pounds 350$ or the temperature was
 recorded incorrectly). The residual of $-217.3$ is an extreme outlier compared to all other
 residuals (which range from $-2.2$ to $67.3$).
 
 **(b)** After removing the outlier ($T = 30, S = 50$):
 
-$$r = \frac{S_{TS}}{\sqrt{S_{TT} \cdot S_{SS}}} = \frac{3292}{\sqrt{238 \times 46247}}$$
+$$
+r = \frac{S_{TS}}{\sqrt{S_{TT} \cdot S_{SS}}} = \frac{3292}{\sqrt{238 \times 46247}}
+$$
 
-$$= \frac{3292}{\sqrt{11006786}} = \frac{3292}{3317.65} = 0.9923 \text{ (4 d.p.)}$$
+$$
+= \frac{3292}{\sqrt{11006786}} = \frac{3292}{3317.65} = 0.9923 \text{ (4 d.p.)}
+$$
 
 Regression coefficient:
 
-$$b = \frac{S_{TS}}{S_{TT}} = \frac{3292}{238} = 13.832$$
+$$
+b = \frac{S_{TS}}{S_{TT}} = \frac{3292}{238} = 13.832
+$$
 
 Intercept:
 
-$$a = \bar{S} - b\bar{T} = 160.7 - 13.832(20) = 160.7 - 276.64 = -115.94$$
+$$
+a = \bar{S} - b\bar{T} = 160.7 - 13.832(20) = 160.7 - 276.64 = -115.94
+$$
 
 New regression line: $S = 13.83T - 116$ (to 3 s.f.)
 
 **(c)** Original PMCC: $r = 0.893$. New PMCC: $r = 0.992$.
 
-$$\text{Percentage change} = \frac{0.992 - 0.893}{0.893} \times 100 = \frac{0.099}{0.893} \times 100 = 11.1\%$$
+$$
+\text{Percentage change} = \frac{0.992 - 0.893}{0.893} \times 100 = \frac{0.099}{0.893} \times 100 = 11.1\%
+$$
 
 The PMCC increased by approximately 11.1%. This demonstrates that the PMCC is **sensitive to
 outliers** because it uses the actual data values (and their deviations from the mean). A single

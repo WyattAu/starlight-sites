@@ -30,13 +30,15 @@ We begin with the most fundamental question in physics: **how do we measure thin
 
 A **physical quantity** is a property of a phenomenon that can be quantified, assigned a numerical
 Value and compared with other instances of the same quantity. Physical quantities come in two
-Varieties:
+varieties:
 
 - **Base quantities** are irreducible; they cannot be expressed in terms of other quantities. The SI
   system defines seven base quantities.
 - **Derived quantities** are expressed as products and quotients of base quantities.
 
 ### The Seven SI Base Units
+
+<div class="table-wrap">
 
 | Base Quantity       | Symbol | SI Unit  | Unit Symbol |
 | ------------------- | ------ | -------- | ----------- |
@@ -48,14 +50,16 @@ Varieties:
 | Amount of substance | $n$    | mole     | mol         |
 | Luminous intensity  | $I_v$  | candela  | cd          |
 
+</div>
+
 > **Info:** Note The candela is rarely encountered in A Level Physics. Focus on the first six.
 >
 ### Derived Units
 
 A derived unit is obtained by combining base units according to the physical relationship. We denote
-The dimensions of a quantity using square brackets.
+the dimensions of a quantity using square brackets.
 
-**Definition.** The **dimension** of a physical quantity $Q$Written $[Q]$Is its expression in Terms
+**Definition.** The **dimension** of a physical quantity $Q$ Written $[Q]$ Is its expression in Terms
 of the base dimensions $\mathsf{M}$ (mass), $\mathsf{L}$ (length), $\mathsf{T}$ (time), $\mathsf{I}$
 (current), $\mathsf{\Theta}$ (temperature), $\mathsf{N}$ (amount of substance), $\mathsf{J}$
 (luminous intensity).
@@ -70,6 +74,8 @@ of the base dimensions $\mathsf{M}$ (mass), $\mathsf{L}$ (length), $\mathsf{T}$ 
 
 Some derived units have special names:
 
+<div class="table-wrap">
+
 | Derived Quantity | Name    | Symbol   | In Base Units                                   |
 | ---------------- | ------- | -------- | ----------------------------------------------- |
 | Force            | newton  | N        | $\mathrm{kg m s}^{-2}$                          |
@@ -80,13 +86,15 @@ Some derived units have special names:
 | Voltage          | volt    | V        | $\mathrm{kg m}^2\mathrm{s}^{-3}\mathrm{A}^{-1}$ |
 | Resistance       | ohm     | $\Omega$ | $\mathrm{kg m}^2\mathrm{s}^{-3}\mathrm{A}^{-2}$ |
 
+</div>
+
 ## 2. Dimensional Analysis
 
 **Definition.** An equation is **dimensionally homogeneous** (or **dimensionally consistent**) if
 Every term on each side has the same dimensions.
 
 This is a necessary condition for any physically meaningful equation. If the dimensions do not
-Balance, the equation is certainly wrong. If they do balance, the equation may still be wrong
+balance, the equation is certainly wrong. If they do balance, the equation may still be wrong
 (dimensional analysis cannot reveal dimensionless constants), but it is at least plausible.
 
 ### Checking the SUVAT Equation
@@ -97,19 +105,23 @@ We prove that $v^2 = u^2 + 2as$ is dimensionally valid.
 - $[u^2] = (\mathsf{L}\mathsf{T}^{-1})^2 = \mathsf{L}^2\mathsf{T}^{-2}$
 - $[2as] = [\mathsf{L}\mathsf{T}^{-2}][\mathsf{L}] = \mathsf{L}^2\mathsf{T}^{-2}$
 
-Since $[v^2] = [u^2] = [2as] = \mathsf{L}^2\mathsf{T}^{-2}$The equation is dimensionally
+Since $[v^2] = [u^2] = [2as] = \mathsf{L}^2\mathsf{T}^{-2}$ The equation is dimensionally
 Homogeneous. $\square$
 
 ### Determining the Form of an Equation
 
 Suppose we wish to find how the period $T$ of a simple pendulum depends on its length $l$ and the
-Gravitational field strength $g$. We assume:
+gravitational field strength $g$. We assume:
 
-$$T = k \cdot l^a \cdot g^b$$
+$$
+T = k \cdot l^a \cdot g^b
+$$
 
 Where $k$ is a dimensionless constant. By dimensional homogeneity:
 
-$$\mathsf{T} = \mathsf{L}^a \cdot (\mathsf{L}\mathsf{T}^{-2})^b = \mathsf{L}^{a+b} \cdot \mathsf{T}^{-2b}$$
+$$
+\mathsf{T} = \mathsf{L}^a \cdot (\mathsf{L}\mathsf{T}^{-2})^b = \mathsf{L}^{a+b} \cdot \mathsf{T}^{-2b}
+$$
 
 Equating powers:
 
@@ -128,6 +140,8 @@ Habit of verifying dimensions for every formula you derive in an exam.
 
 ## 3. SI Prefixes
 
+<div class="table-wrap">
+
 | Prefix | Symbol | Factor     |
 | ------ | ------ | ---------- |
 | tera   | T      | $10^{12}$  |
@@ -141,29 +155,39 @@ Habit of verifying dimensions for every formula you derive in an exam.
 | pico   | p      | $10^{-12}$ |
 | femto  | f      | $10^{-15}$ |
 
+</div>
+
 ## 4. Scalars and Vectors
 
 **Definition.** A **scalar** is a physical quantity that has magnitude only. A **vector** is a
 Physical quantity that has both magnitude and direction.
 
+<div class="table-wrap">
+
 | Scalar Examples                                  | Vector Examples                                               |
 | ------------------------------------------------ | ------------------------------------------------------------- |
 | Mass, temperature, speed, energy, time, distance | Displacement, velocity, acceleration, force, weight, momentum |
 
+</div>
+
 ### Vector Operations
 
 **Addition.** Vectors are added using the triangle rule or the parallelogram rule. Given vectors
-$\mathbf{a}$ and $\mathbf{b}$The resultant $\mathbf{R} = \mathbf{a} + \mathbf{b}$ is found by
+$\mathbf{a}$ and $\mathbf{b}$ The resultant $\mathbf{R} = \mathbf{a} + \mathbf{b}$ is found by
 Placing the tail of $\mathbf{b}$ at the head of $\mathbf{a}$.
 
 **Resolving.** Any vector $\mathbf{F}$ can be resolved into perpendicular components. If
 $\mathbf{F}$ makes an angle $\theta$ with the horizontal:
 
-$$F_x = F\cos\theta, \qquad F_y = F\sin\theta$$
+$$
+F_x = F\cos\theta, \qquad F_y = F\sin\theta
+$$
 
 **Magnitude.** Given components $F_x$ and $F_y$:
 
-$$|\mathbf{F}| = \sqrt{F_x^2 + F_y^2}$$
+$$
+|\mathbf{F}| = \sqrt{F_x^2 + F_y^2}
+$$
 
 **Direction.** The angle with the horizontal is $\theta = \arctan\left(\frac{F_y}{F_x}\right)$.
 
@@ -199,13 +223,17 @@ $z = f(x, y)$ where $x$ and $y$ have uncertainties $\Delta x$ and $\Delta y$.
 
 If $z = x + y$ or $z = x - y$ Then:
 
-$$\Delta z = \Delta x + \Delta y$$
+$$
+\Delta z = \Delta x + \Delta y
+$$
 
 **Derivation.** The worst-case scenario for $z = x + y$ is that both errors push $z$ in the same
 Direction. The maximum possible value is $z_{\max} = (x + \Delta x) + (y + \Delta y)$ And the Minimum
 is $z_{\min} = (x - \Delta x) + (y - \Delta y)$. Hence:
 
-$$\Delta z = \frac{z_{\max} - z_{\min}}{2} = \Delta x + \Delta y$$
+$$
+\Delta z = \frac{z_{\max} - z_{\min}}{2} = \Delta x + \Delta y
+$$
 
 The same argument applies for subtraction. $\square$
 
@@ -213,7 +241,9 @@ The same argument applies for subtraction. $\square$
 
 If $z = xy$ or $z = x/y$ Then:
 
-$$\frac{\Delta z}{z} = \frac{\Delta x}{x} + \frac{\Delta y}{y}$$
+$$
+\frac{\Delta z}{z} = \frac{\Delta x}{x} + \frac{\Delta y}{y}
+$$
 
 In words: when multiplying or dividing, add the **fractional** uncertainties.
 
@@ -241,12 +271,16 @@ $\square$
 
 If $z = x^n$ Then:
 
-$$\frac{\Delta z}{z} = |n| \cdot \frac{\Delta x}{x}$$
+$$
+\frac{\Delta z}{z} = |n| \cdot \frac{\Delta x}{x}
+$$
 
 **Derivation.** Write $z = \underbrace{x \cdot x \cdots x}_{n \mathrm{ times}}$. Applying the
 Multiplication rule repeatedly:
 
-$$\frac{\Delta z}{z} = \underbrace{\frac{\Delta x}{x} + \frac{\Delta x}{x} + \cdots + \frac{\Delta x}{x}}_{n \mathrm{ terms}} = n \cdot \frac{\Delta x}{x}$$
+$$
+\frac{\Delta z}{z} = \underbrace{\frac{\Delta x}{x} + \frac{\Delta x}{x} + \cdots + \frac{\Delta x}{x}}_{n \mathrm{ terms}} = n \cdot \frac{\Delta x}{x}
+$$
 
 For negative or fractional powers, the result generalises via logarithmic differentiation (see
 [01-wave-properties](/physics/waves/01-wave-properties/) for the general propagation of error formula).
@@ -256,10 +290,12 @@ $\square$
 
 For any function $z = f(x_1, x_2, \ldots, x_n)$:
 
-$$\Delta z = \sqrt{\sum_{i=1}^{n}\left(\frac{\partial f}{\partial x_i} \Delta x_i\right)^2}$$
+$$
+\Delta z = \sqrt{\sum_{i=1}^{n}\left(\frac{\partial f}{\partial x_i} \Delta x_i\right)^2}
+$$
 
 This is the statistical (root-sum-square) combination, which gives the most probable uncertainty
-Rather than the worst case. For A Level exams, use the simpler worst-case rules above unless
+rather than the worst case. For A Level exams, use the simpler worst-case rules above unless
 Instructed otherwise.
 
 ### Significant Figures and Uncertainty
@@ -271,7 +307,7 @@ And the uncertainty should be quoted to at most 2 significant figures.
 
 **Example.** If a length is measured as $12.3 \pm 0.4$ cm, we quote two significant figures
 (matching the uncertainty"s one significant figure). We do not write $12.30 \pm 0.4$ cm, the
-Trailing zero implies precision we do not have.
+trailing zero implies precision we do not have.
 
 :::tip
 S$^{-2}$ (round the uncertainty to 1 s.f. And match the result). This is what examiners expect.
@@ -281,25 +317,33 @@ S$^{-2}$ (round the uncertainty to 1 s.f. And match the result). This is what ex
 
 When $n$ repeated measurements $x_1, x_2, \ldots, x_n$ are taken of the same quantity:
 
-$$\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$$
+$$
+\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
+$$
 
 The **absolute uncertainty** is the half-range:
 
-$$\Delta x = \frac{x_{\max} - x_{\min}}{2}$$
+$$
+\Delta x = \frac{x_{\max} - x_{\min}}{2}
+$$
 
 For large datasets, the standard deviation of the mean is more appropriate:
 
-$$\Delta x = \frac{\sigma}{\sqrt{n}}, \qquad \sigma = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2}$$
+$$
+\Delta x = \frac{\sigma}{\sqrt{n}}, \qquad \sigma = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2}
+$$
 
 ## 7. Graphical Analysis of Uncertainties
 
 When determining a physical constant from the gradient of a straight-line graph, we use the **line
-Of best fit** and the **worst acceptable line** (the steepest and shallowest lines consistent with
-The error bars).
+of best fit** and the **worst acceptable line** (the steepest and shallowest lines consistent with
+the error bars).
 
 The uncertainty in the gradient is:
 
-$$\Delta m = \frac{|m_{\mathrm{best}} - m_{\mathrm{worst}}|}{2}$$
+$$
+\Delta m = \frac{|m_{\mathrm{best}} - m_{\mathrm{worst}}|}{2}
+$$
 
 A similar procedure applies to the $y$-intercept.
 
@@ -390,12 +434,12 @@ $\theta = \arctan(9/1) = 83.7^\circ$ above the positive $x$-axis.
 
 <details>
 <summary>Problem 7</summary>
-A student proposes the formula for the period of a mass on a spring: $T = 2\pi\sqrt{\frac{k}{m}}$Where $k$ is the spring constant and $m$ is the mass. Use dimensional analysis to show this formula is incorrect, and find the correct form.
+A student proposes the formula for the period of a mass on a spring: $T = 2\pi\sqrt{\frac{k}{m}}$ Where $k$ is the spring constant and $m$ is the mass. Use dimensional analysis to show this formula is incorrect, and find the correct form.
 
 **Answer.** $[T] = \mathsf{T}$.
 $[k/m] = \frac{[\mathrm{force}]/[\mathrm{displacement}]}{[\mathrm{mass}]} = \frac{\mathsf{M}\mathsf{L}\mathsf{T}^{-2}/\mathsf{L}}{\mathsf{M}} = \mathsf{T}^{-2}$.
 So $[\sqrt{k/m}] = \mathsf{T}^{-1} \neq \mathsf{T}$. The formula is dimensionally wrong. The correct
-Form is $T = 2\pi\sqrt{\frac{m}{k}}$Which gives
+Form is $T = 2\pi\sqrt{\frac{m}{k}}$ Which gives
 $[\sqrt{m/k}] = \sqrt{\frac{\mathsf{M}}{\mathsf{T}^{-2}}} = \mathsf{T}$. $\square$
 
 <b>If you get this wrong, revise:</b>
@@ -433,8 +477,8 @@ Explain the difference between a systematic error and a random error, giving one
 
 **Answer.** A systematic error is a consistent offset from the true value. Example: the bob is not
 Perfectly point-like, effectively increasing the pendulum length. A random error causes scatter in
-Repeated readings. Example: human reaction time when timing oscillations with a stopwatch, it
-Varies unpredictably from trial to trial.
+repeated readings. Example: human reaction time when timing oscillations with a stopwatch, it
+varies unpredictably from trial to trial.
 
 <b>If you get this wrong, revise:</b> [Types of Error](#types-of-error)
 
@@ -474,7 +518,9 @@ $\Delta Q = 16.0 \times 0.150 = 2.4$. Result: $Q = 16.0 \pm 2.4$ (15%).
 ## 8. SI Base Units in Detail
 
 Understanding how each SI base unit is defined is essential for experimental physics and for
-Interpreting measurements correctly.
+interpreting measurements correctly.
+
+<div class="table-wrap">
 
 | Base Quantity       | SI Unit       | Current Definition (SI 2019)                                                             |
 | ------------------- | ------------- | ---------------------------------------------------------------------------------------- |
@@ -485,6 +531,8 @@ Interpreting measurements correctly.
 | Temperature         | kelvin (K)    | Defined by fixing the Boltzmann constant $k_B = 1.380\,649 \times 10^{-23}$ J K$^{-1}$   |
 | Amount of substance | mole (mol)    | Defined by fixing the Avogadro constant $N_A = 6.022\,140\,76 \times 10^{23}$ mol$^{-1}$ |
 | Luminous intensity  | candela (cd)  | Defined by fixing the luminous efficacy $K_{cd} = 683$ lm W$^{-1}$                       |
+
+</div>
 
 :::note
 The values of $c$$h$$e$$k_B$$N_A$ And $\Delta\nu_{Cs}$ are now exact defined quantities, While the
@@ -500,7 +548,7 @@ Whether this is dimensionally valid.
 
 **Answer.** $[P] = \mathsf{M}\mathsf{L}^{-1}\mathsf{T}^{-2}$.
 $[\rho g h^2] = (\mathsf{M}\mathsf{L}^{-3})(\mathsf{L}\mathsf{T}^{-2})(\mathsf{L}^2) = \mathsf{M}\mathsf{L}^0\mathsf{T}^{-2} = \mathsf{M}\mathsf{T}^{-2}$.
-This does not match $[P]$. The correct formula is $P = \rho g h$Which gives
+This does not match $[P]$. The correct formula is $P = \rho g h$ Which gives
 $[\rho g h] = \mathsf{M}\mathsf{L}^{-3} \cdot \mathsf{L}\mathsf{T}^{-2} \cdot \mathsf{L} = \mathsf{M}\mathsf{L}^{-1}\mathsf{T}^{-2} = [P]$.
 $\square$
 
@@ -520,7 +568,7 @@ Consistent. $\square$
 ### 9.3 Determining the Form of an Equation
 
 **Example.** The centripetal force on an object moving in a circle of radius $r$ at speed $v$ is
-Assumed to depend on mass $m$Speed $v$ And radius $r$. Find the form of the equation.
+Assumed to depend on mass $m$ Speed $v$ And radius $r$. Find the form of the equation.
 
 **Answer.** Assume $F = k \cdot m^a \cdot v^b \cdot r^c$.
 
@@ -529,9 +577,11 @@ $[m^a v^b r^c] = \mathsf{M}^a (\mathsf{L}\mathsf{T}^{-1})^b \mathsf{L}^c = \math
 
 Equating dimensions:
 
-$$\mathsf{M}: \quad a = 1, \qquad \mathsf{L}: \quad b + c = 1, \qquad \mathsf{T}: \quad -b = -2 \implies b = 2$$
+$$
+\mathsf{M}: \quad a = 1, \qquad \mathsf{L}: \quad b + c = 1, \qquad \mathsf{T}: \quad -b = -2 \implies b = 2
+$$
 
-Therefore $c = 1 - 2 = -1$Giving $F = k \cdot m v^2 / r$. Full analysis gives $k = 1$. $\square$
+Therefore $c = 1 - 2 = -1$ Giving $F = k \cdot m v^2 / r$. Full analysis gives $k = 1$. $\square$
 
 ### 9.4 Unit Conversions Using Dimensional Analysis
 
@@ -546,6 +596,8 @@ M$)^{-3} = 5.4 \times 10^{-3} \times 10^6$ kg m$^{-3} = 5400$ kg m$^{-3}$.
 
 ## 10. Systematic Errors vs Random Errors: Detailed Comparison
 
+<div class="table-wrap">
+
 | Feature               | Systematic Error                                    | Random Error                                                     |
 | --------------------- | --------------------------------------------------- | ---------------------------------------------------------------- |
 | Cause                 | Faulty apparatus or method                          | Environmental fluctuations, resolution limits                    |
@@ -555,6 +607,8 @@ M$)^{-3} = 5.4 \times 10^{-3} \times 10^6$ kg m$^{-3} = 5400$ kg m$^{-3}$.
 | Reduction             | Calibrate instruments, improve method               | Take more readings, use instruments with finer resolution        |
 | Effect on mean        | Shifts the mean consistently                        | Mean approaches true value as $n$ increases                      |
 | Effect on uncertainty | Not reduced by averaging                            | Reduced by $\Delta x = \sigma / \sqrt{n}$                        |
+
+</div>
 
 ### Identifying Systematic Errors in Practice
 
@@ -566,7 +620,7 @@ Timed interval will be overestimated. Correction: apply a proportional correctio
 
 **Example: Methodological Error.** In a pendulum experiment, measuring from the top of the bob
 Rather than its centre of mass introduces a consistent offset in the effective length, shifting all
-Calculated values of $g$ in the same direction.
+calculated values of $g$ in the same direction.
 
 ## 11. Uncertainty Propagation: Extended Worked Examples
 
@@ -604,13 +658,13 @@ Result: $V = 30.0 \pm 0.5$ cm$^3$.
 
 ### 11.3 Uncertainty in a Formula with Roots
 
-**Example.** The speed of a wave on a string is $v = \sqrt{T/\mu}$Where $T$ is the tension and
+**Example.** The speed of a wave on a string is $v = \sqrt{T/\mu}$ Where $T$ is the tension and
 $\mu$ is the mass per unit length. Given $T = 10.0 \pm 0.2$ N and $\mu = 0.0250 \pm 0.0005$ kg
 M$^{-1}$Find $v$ and its uncertainty.
 
 **Answer.** $v = \sqrt{10.0 / 0.0250} = \sqrt{400} = 20.0$ m s$^{-1}$.
 
-Since $v = T^{1/2}\mu^{-1/2}$The fractional uncertainty is:
+Since $v = T^{1/2}\mu^{-1/2}$ The fractional uncertainty is:
 
 $\Delta v/v = \frac{1}{2}(\Delta T/T) + \frac{1}{2}(\Delta\mu/\mu) = \frac{1}{2}(0.2/10.0) + \frac{1}{2}(0.0005/0.0250) = 0.010 + 0.010 = 0.020$.
 
@@ -641,11 +695,11 @@ Result: $A = 1.00 \pm 0.04$ m$^2$.
    subtracting, use absolute uncertainties. When multiplying or dividing, use fractional (or
    percentage) uncertainties. Applying the wrong rule is a frequent source of error.
 
-2. **Forgetting the power rule.** If $z = x^3$ Then $\Delta z / z = 3(\Delta x / x)$Not
+2. **Forgetting the power rule.** If $z = x^3$ Then $\Delta z / z = 3(\Delta x / x)$ Not
    $\Delta z / z = \Delta x / x$. A common mistake is treating all operations as simple
    multiplication.
 
-3. **Quoting too many significant figures.** If the uncertainty is $0.3$The result should be quoted
+3. **Quoting too many significant figures.** If the uncertainty is $0.3$ The result should be quoted
    to one decimal place. Writing $9.814 \pm 0.3$ is wrong; write $9.8 \pm 0.3$. Match the result to
    the uncertainty.
 
@@ -682,13 +736,13 @@ $[G] = \mathsf{L}^3\mathsf{M}^{-1}\mathsf{T}^{-2}$. In SI units: m$^3$ kg$^{-1}$
 
 <details>
 <summary>Problem 2</summary>
-A student proposes the formula for the frequency of a mass-spring system: $f = \frac{1}{2\pi}\sqrt{\frac{m}{k}}$Where $k$ is the spring constant. Use dimensional analysis to determine whether this formula is correct.
+A student proposes the formula for the frequency of a mass-spring system: $f = \frac{1}{2\pi}\sqrt{\frac{m}{k}}$ Where $k$ is the spring constant. Use dimensional analysis to determine whether this formula is correct.
 
 **Answer.** $[f] = \mathsf{T}^{-1}$.
 $[m/k] = \frac{\mathsf{M}}{[\mathrm{force}]/[\mathrm{displacement}]} = \frac{\mathsf{M}}{\mathsf{M}\mathsf{L}\mathsf{T}^{-2}/\mathsf{L}} = \frac{\mathsf{M}}{\mathsf{M}\mathsf{T}^{-2}} = \mathsf{T}^2$.
 
 $[\sqrt{m/k}] = \mathsf{T} \neq \mathsf{T}^{-1}$. The formula is incorrect. The correct form is
-$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$Giving
+$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$ Giving
 $[\sqrt{k/m}] = \mathsf{T}^{-1} = [f]$. $\square$
 
 <b>If you get this wrong, revise:</b>
@@ -755,7 +809,7 @@ Result: $E_k = 0.77 \pm 0.04$ J.
 
 <details>
 <summary>Problem 6</summary>
-A student measures the period of a pendulum as $T = 2.05 \pm 0.05$ s and the length as $L = 1.00 \pm 0.01$ m. Using $g = 4\pi^2 L / T^2$Calculate $g$ with its absolute uncertainty. Comment on whether the result is consistent with the accepted value of $9.81$ m s$^{-2}$.
+A student measures the period of a pendulum as $T = 2.05 \pm 0.05$ s and the length as $L = 1.00 \pm 0.01$ m. Using $g = 4\pi^2 L / T^2$ Calculate $g$ with its absolute uncertainty. Comment on whether the result is consistent with the accepted value of $9.81$ m s$^{-2}$.
 
 **Answer.** $g = 4\pi^2 \times 1.00 / (2.05)^2 = 39.48 / 4.2025 = 9.395$ m s$^{-2}$.
 
@@ -795,16 +849,6 @@ and Units with other physics topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 :::
-
-```mermaid
-flowchart TD
-    A[01 Quantities And Units] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

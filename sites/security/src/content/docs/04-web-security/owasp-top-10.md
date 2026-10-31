@@ -90,12 +90,16 @@ def download():
 
 ### Detection and Remediation
 
+<div class="table-wrap">
+
 | Method                | Tool / Approach                      |
 | --------------------- | ------------------------------------ |
 | Automated scanning    | OWASP ZAP, Burp Suite Pro            |
 | Manual testing        | Modify IDs, roles, paths in requests |
 | Code review           | Check for missing authorization      |
 | Access control matrix | Document and test all routes         |
+
+</div>
 
 :::tip
 Authentication by default, with explicit opt-in for public routes. This prevents the most common
@@ -169,12 +173,16 @@ server {
 
 ### Detection and Remediation
 
+<div class="table-wrap">
+
 | Method                 | Approach                                             |
 | ---------------------- | ---------------------------------------------------- |
 | Credential scanning    | TruffleHog, git-secrets, detect-secrets              |
 | TLS configuration      | SSL Labs, testssl.sh, nmap --script ssl-enum-ciphers |
 | Password storage audit | Code review for hashing algorithm used               |
 | Transport security     | Verify TLS 1.2+, HSTS, no mixed content              |
+
+</div>
 
 ## A03: Injection
 
@@ -244,6 +252,8 @@ ldap_filter = f"(uid={safe_username})"
 
 ### Detection and Remediation
 
+<div class="table-wrap">
+
 | Method                | Tool / Approach                                       |
 | --------------------- | ----------------------------------------------------- |
 | Automated scanning    | SQLMap, OWASP ZAP, Burp Suite                         |
@@ -251,10 +261,12 @@ ldap_filter = f"(uid={safe_username})"
 | Parameterized queries | Use prepared statements for ALL database interactions |
 | Input validation      | Whitelist allowed characters/values                   |
 
+</div>
+
 ## A04: Insecure Design
 
 Insecure design refers to fundamental flaws in the application's architecture and design, as opposed
-To implementation bugs.
+to implementation bugs.
 
 ### Missing Threat Modeling
 
@@ -284,12 +296,16 @@ Secure design checklist:
 
 ### Detection and Remediation
 
+<div class="table-wrap">
+
 | Method                | Approach                                         |
 | --------------------- | ------------------------------------------------ |
 | Threat modeling       | STRIDE, DREAD, attack trees                      |
 | Abuse cases           | Define what an attacker SHOULD NOT be able to do |
 | Security requirements | NIST SP 800-53, OWASP ASVS                       |
 | Design review         | Security-focused architecture review             |
+
+</div>
 
 ## A05: Security Misconfiguration
 
@@ -344,12 +360,16 @@ def handle_error(e):
 
 ### Detection and Remediation
 
+<div class="table-wrap">
+
 | Method                  | Approach                         |
 | ----------------------- | -------------------------------- |
 | Configuration audit     | CIS benchmarks, SCAP             |
 | Directory/file scanning | DirBuster, gobuster, ffuf        |
 | Header scanning         | SecurityHeaders.com, Observatory |
 | Automated compliance    | InSpec, Open Policy Agent        |
+
+</div>
 
 ## A06: Vulnerable and Outdated Components
 
@@ -442,6 +462,8 @@ def login():
 
 ### Brute Force Prevention
 
+<div class="table-wrap">
+
 | Defense                     | Implementation                         |
 | --------------------------- | -------------------------------------- |
 | Rate limiting               | Per-IP and per-account limits          |
@@ -450,6 +472,8 @@ def login():
 | MFA                         | TOTP, WebAuthn, push notification      |
 | Progressive delay           | Exponential backoff on failed attempts |
 | Breached password detection | Check against HaveIBeenPwned API       |
+
+</div>
 
 ### Session Fixation
 
@@ -663,7 +687,7 @@ SSRF. Use a comprehensive testing methodology that covers all 10 categories.
 
 ### Ignoring Security Headers
 
-Missing security headers (`X-Content-Type-Options``X-Frame-Options``CSP``HSTS`) provides no Defense
+Missing security headers (`X-Content-Type-Options`, `X-Frame-Options`, `CSP`, `HSTS`) provides no Defense
 against client-side attacks. Add them to every response.
 
 ### Not Keeping Dependencies Updated
@@ -677,16 +701,6 @@ OWASP Top 10 is a awareness document, not a compliance checklist. It does not co
 Vulnerabilities. Supplement with ASVS (Application Security Verification Standard), threat modeling,
 And regular penetration testing.
 
-```mermaid
-flowchart TD
-    A[Owasp Top 10] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to owasp top 10 (2021) detailed,
@@ -699,9 +713,6 @@ including key principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Intuition
 

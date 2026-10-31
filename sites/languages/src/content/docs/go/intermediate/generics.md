@@ -22,7 +22,7 @@ categories:
 
 Go 1.18 (released March 2022) added generics via type parameters. Generics allow you to write
 Functions and types that abstract over different concrete types while maintaining full type safety
-At compile time.
+at compile time.
 
 ## Type Parameters
 
@@ -115,7 +115,7 @@ func Sum[T Number](nums []T) T {
 }
 ```
 
-The `~` token means "the underlying type must be." A type `MyInt int` has underlying type `int`So It
+The `~` token means "the underlying type must be." A type `MyInt int` has underlying type `int`. So It
 satisfies `~int`.
 
 ### Methods in Constraints
@@ -156,6 +156,8 @@ func Clamp[T constraints.Ordered](v, lo, hi T) T {
 
 Common constraints:
 
+<div class="table-wrap">
+
 | Constraint             | Types Allowed                                        |
 | ---------------------- | ---------------------------------------------------- |
 | `constraints.Signed`   | `~int``~int8``~int16``~int32``~int64`                |
@@ -164,6 +166,8 @@ Common constraints:
 | `constraints.Float`    | `~float32``~float64`                                 |
 | `constraints.Ordered`  | All integers, floats, and `~string`                  |
 | `constraints.Complex`  | `~complex64``~complex128`                            |
+
+</div>
 
 ## Generic Types
 
@@ -276,7 +280,7 @@ func (s *Stack[T]) Filter(predicate func(T) bool) *Stack[T] {
 ```
 
 Note: methods cannot introduce new type parameters that are not on the receiver. All type parameters
-Must be declared on the type.
+must be declared on the type.
 
 ## Instantiation
 
@@ -324,17 +328,6 @@ Specialization of the generic function or type. There is no boxing or type erasu
 5. **Generic type assertion ambiguity.** When type parameters appear in the same signature position
    as concrete types, inference may fail. Specify type arguments explicitly in such cases.
 
-
-```mermaid
-flowchart TD
-    A[Generics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical
@@ -348,13 +341,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

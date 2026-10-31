@@ -9,7 +9,6 @@ date: 2026-01-01T00:00:00Z
 sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
-
 This section covers key physical principles, from classical mechanics to modern physics. If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Diagnostics
@@ -210,17 +209,12 @@ $\mu_k = \frac{f_k}{N} = \frac{10}{49} \approx 0.204$
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 - *Fundamentals of Physics* by Halliday, Resnick, and Walker, The standard university physics textbook
 - *University Physics* by Young and Freedman, Comprehensive coverage with excellent worked examples
 - *The Feynman Lectures on Physics* by Richard Feynman, Deep conceptual insights from a master physicist
 - *Six Easy Pieces* by Richard Feynman, Accessible introduction to fundamental physics concepts
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -231,4 +225,3 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.

@@ -33,6 +33,8 @@ More subtrees, each of which is itself a tree.
 
 ### Terminology
 
+<div class="table-wrap">
+
 | Term          | Definition                                          |
 | ------------- | --------------------------------------------------- |
 | Root          | The topmost node; has no parent                     |
@@ -44,6 +46,8 @@ More subtrees, each of which is itself a tree.
 | Height        | Maximum depth of any node in the tree               |
 | Subtree       | A node and all its descendants                      |
 | Degree        | Number of children of a node                        |
+
+</div>
 
 **Theorem.** A tree with $n$ nodes has exactly $n - 1$ edges.
 
@@ -64,24 +68,30 @@ A **binary tree** is a tree where each node has at most two children, called the
 
 **Theorem.** A binary tree of height $h$ has at most $2^{h+1} - 1$ nodes.
 
-**Proof.** At depth $d$There are at most $2^d$ nodes. The total number of nodes is at most:
+**Proof.** At depth $d$ There are at most $2^d$ nodes. The total number of nodes is at most:
 
-$$\sum_{d=0}^{h} 2^d = 2^{h+1} - 1$$
+$$
+\sum_{d=0}^{h} 2^d = 2^{h+1} - 1
+$$
 
 $\square$
 
 **Corollary.** The minimum height of a binary tree with $n$ nodes is $\lfloor \log_2 n \rfloor$.
 
-**Proof.** From the above, $n \leq 2^{h+1} - 1 \lt 2^{h+1}$ So $h + 1 \gt \log_2 n$Giving
+**Proof.** From the above, $n \leq 2^{h+1} - 1 \lt 2^{h+1}$ So $h + 1 \gt \log_2 n$ Giving
 $h \geq \lceil \log_2(n+1) \rceil - 1 = \lfloor \log_2 n \rfloor$. $\square$
 
 ### Full, Complete, and Perfect Binary Trees
+
+<div class="table-wrap">
 
 | Type     | Definition                                                                                 |
 | -------- | ------------------------------------------------------------------------------------------ |
 | Full     | Every node has 0 or 2 children                                                             |
 | Complete | All levels except possibly the last are completely filled; last level filled left to right |
 | Perfect  | All internal nodes have 2 children; all leaves at the same depth                           |
+
+</div>
 
 <hr />
 
@@ -131,7 +141,7 @@ _Base case._ Inserting into an empty tree creates a single-node tree, which sati
 property.
 
 _Inductive step._ Assume `bst_insert(root.left, key)` (or `root.right`) returns a valid BST. If
-`key < root.key`The new node is inserted in the left subtree. By the inductive hypothesis, the Left
+`key < root.key`. The new node is inserted in the left subtree. By the inductive hypothesis, the Left
 subtree is a valid BST, and all its keys are less than `root.key` (by the original BST property And
 because `key < root.key`). Similarly for the right subtree. The root's key remains between all Left
 and right keys. Hence the full tree is a valid BST. $\square$
@@ -183,12 +193,16 @@ the BST property holds. $\square$
 
 ## 4. Tree Traversals
 
+<div class="table-wrap">
+
 | Traversal   | Order                | Use case             |
 | ----------- | -------------------- | -------------------- |
 | In-order    | Left, Root, Right    | Sorted output (BST)  |
 | Pre-order   | Root, Left, Right    | Copy tree, prefix    |
 | Post-order  | Left, Right, Root    | Delete tree, postfix |
 | Level-order | Level by level (BFS) | Breadth processing   |
+
+</div>
 
 ```python
 def inorder(node):
@@ -302,11 +316,15 @@ def build_heap(arr):
 **Proof.** The nodes at depth $d$ are at most $\lceil n / 2^{d+1} \rceil$. Each `heapify` at depth
 $d$ takes at most $O(h - d)$ time, where $h = \lfloor \log_2 n \rfloor$. The total cost is:
 
-$$T(n) = \sum_{d=0}^{h} \left\lceil \frac{n}{2^{d+1}} \right\rceil \cdot O(h - d) \leq \sum_{d=0}^{h} \frac{n}{2^{d+1}} \cdot (h - d)$$
+$$
+T(n) = \sum_{d=0}^{h} \left\lceil \frac{n}{2^{d+1}} \right\rceil \cdot O(h - d) \leq \sum_{d=0}^{h} \frac{n}{2^{d+1}} \cdot (h - d)
+$$
 
 Let $k = h - d$:
 
-$$T(n) \leq n \sum_{k=0}^{h} \frac{k}{2^{h-k+1}} \leq \frac{n}{2} \sum_{k=0}^{\infty} \frac{k}{2^k} = \frac{n}{2} \cdot 2 = O(n)$$
+$$
+T(n) \leq n \sum_{k=0}^{h} \frac{k}{2^{h-k+1}} \leq \frac{n}{2} \sum_{k=0}^{\infty} \frac{k}{2^k} = \frac{n}{2} \cdot 2 = O(n)
+$$
 
 (The sum $\sum_{k=0}^{\infty} k/2^k = 2$ by the standard geometric-series derivative result.)
 $\square$
@@ -327,7 +345,9 @@ def heap_sort(arr):
 **Proof.** Building the heap: $O(n)$. Then $n - 1$ iterations of swap + heapify. Each heapify on a
 Heap of size $i$ takes $O(\log i)$ time. Total:
 
-$$T(n) = O(n) + \sum_{i=2}^{n} O(\log i) = O(n) + O\left(\sum_{i=1}^{n} \log i\right) \leq O(n) + O(n \log n) = O(n \log n)$$
+$$
+T(n) = O(n) + \sum_{i=2}^{n} O(\log i) = O(n) + O\left(\sum_{i=1}^{n} \log i\right) \leq O(n) + O(n \log n) = O(n \log n)
+$$
 
 **Space:** $O(1)$, in-place. **Stability:** Not stable (swaps can change relative order of equal
 Elements). $\square$
@@ -336,16 +356,20 @@ Elements). $\square$
 
 ## 6. Balanced BSTs (Overview)
 
-**Theorem.** In a BST of height $h$Search, insert, and delete take $O(h)$ time. In the worst case
-(degenerate tree), $h = n$Giving $O(n)$.
+**Theorem.** In a BST of height $h$ Search, insert, and delete take $O(h)$ time. In the worst case
+(degenerate tree), $h = n$ Giving $O(n)$.
 
 To guarantee $O(\log n)$ operations, we need **balanced** BSTs:
+
+<div class="table-wrap">
 
 | Structure | Height bound            | Notes                          |
 | --------- | ----------------------- | ------------------------------ |
 | AVL tree  | $\leq 1.44 \log_2(n+2)$ | Strict balance                 |
 | Red-black | $\leq 2 \log_2(n+1)$    | Weaker balance, faster inserts |
 | B-tree    | $O(\log_b n)$           | Used in databases              |
+
+</div>
 
 :::note
 and red-black trees are mentioned for context but not examined in detail.
@@ -450,12 +474,16 @@ Step.
 
 Build heap: `[5, 3, 4, 1, 1]`
 
+<div class="table-wrap">
+
 | Step | Swap with end | Heap before heapify | After heapify | Sorted portion |
 | ---- | ------------- | ------------------- | ------------- | -------------- |
 | 1    | 5 ↔ 1        | [1, 3, 4, 1, 5]     | [4, 3, 1, 1]  | [5]            |
 | 2    | 4 ↔ 1        | [1, 3, 1, 4, 5]     | [3, 1, 1]     | [4, 5]         |
 | 3    | 3 ↔ 1        | [1, 1, 3, 4, 5]     | [1, 1]        | [3, 4, 5]      |
 | 4    | 1 ↔ 1        | [1, 1, 3, 4, 5]     | [1]           | [1, 3, 4, 5]   |
+
+</div>
 
 Final: `[1, 1, 3, 4, 5]`
 
@@ -479,38 +507,38 @@ Height: $h = \lfloor \log_2 100 \rfloor = 6$.
 Number of leaves: For a complete binary tree with $n$ nodes, the number of leaves is
 $\lceil n/2 \rceil = 50$.
 
-More precisely: at depth $h = 6$There are $100 - (2^6 - 1) = 100 - 63 = 37$ leaves. At depth
-$h - 1 = 5$There are $2^5 = 32$ nodes. Nodes at depth 5 that are not leaves have children at depth
+More precisely: at depth $h = 6$ There are $100 - (2^6 - 1) = 100 - 63 = 37$ leaves. At depth
+$h - 1 = 5$ There are $2^5 = 32$ nodes. Nodes at depth 5 that are not leaves have children at depth
 6, so internal nodes at depth 5 = 37 (one per leaf at depth 6), and leaves at depth 5 = $32 - 37$...
 Let me recalculate.
 
 Actually: nodes at depths 0 through 5 = $2^6 - 1 = 63$. Nodes at depth 6 = $100 - 63 = 37$. The 37
-Nodes at depth 6 are all leaves. Of the 32 nodes at depth 5, those that have children at depth 6 are
-Internal (37 of them, but we only have 32). Actually all 32 nodes at depth 5 are internal (they each
-Have children at depth 6, filling left to right). Wait, 37 nodes at depth 6 and 32 at depth 5 means
-Each of the 32 nodes at depth 5 has at least one child. The first 5 have two children
+nodes at depth 6 are all leaves. Of the 32 nodes at depth 5, those that have children at depth 6 are
+internal (37 of them, but we only have 32). Actually all 32 nodes at depth 5 are internal (they each
+have children at depth 6, filling left to right). Wait, 37 nodes at depth 6 and 32 at depth 5 means
+each of the 32 nodes at depth 5 has at least one child. The first 5 have two children
 ($5 \times 2 = 10$), the remaining 27 have one child each. So $32 - 37$... That doesn't work.
 
 Let me reconsider: 32 nodes at depth 5 can have up to 64 children. We have 37 children at depth 6.
 So $37 - 32 = 5$ nodes have two children, and $32 - 5 = 27$ nodes have exactly one child. The
-Remaining nodes at depths 0–4 that have no children are internal (by definition they have children
-Since they're not at the bottom). So leaves = nodes at depth 6 that have no children = 37. Wait,
+remaining nodes at depths 0–4 that have no children are internal (by definition they have children
+since they're not at the bottom). So leaves = nodes at depth 6 that have no children = 37. Wait,
 Nodes at depth 6 are always leaves in a complete binary tree. So leaves = 37. Internal nodes =
 $100 - 37 = 63$.
 
 Hmm, but also leaves = $\lceil 100/2 \rceil = 50$... That formula is for a different notion. Let me
-Just state: leaves = 37 (at depth 6), internal = 63.
+just state: leaves = 37 (at depth 6), internal = 63.
 
 Actually the formula $\lceil n/2 \rceil$ for leaves applies to **perfect** binary trees and doesn't
 Hold for all complete binary trees. For this complete tree: leaves = $n - (2^h - 1) = 100 - 63 = 37$
-At the bottom level, plus any nodes at the second-to-last level that have no children. All 32 nodes
-At level 5 have at least one child (since we fill left to right and have 37 children). So leaves
+at the bottom level, plus any nodes at the second-to-last level that have no children. All 32 nodes
+at level 5 have at least one child (since we fill left to right and have 37 children). So leaves
 = 37.
 
 Wait, I need to reconsider. The 32 nodes at level 5 need 37 children. The first $37$ "slots" at
-Level 6 are filled. Each node at level 5 has 2 child slots. So the first $\lfloor 37/2 \rfloor = 18$
+level 6 are filled. Each node at level 5 has 2 child slots. So the first $\lfloor 37/2 \rfloor = 18$
 Nodes have 2 children each, and the 19th node has 1 child. The remaining $32 - 19 = 13$ nodes at
-Level 5 have **no children** and are therefore leaves.
+level 5 have **no children** and are therefore leaves.
 
 Total leaves = 37 (level 6) + 13 (level 5) = 50 = $\lceil 100/2 \rceil$. ✓
 
@@ -520,7 +548,7 @@ Where stability is violated.
 <summary>Answer</summary>
 
 Heap sort is not stable because the `heapify` operation swaps elements that may be far apart in the
-Array, changing the relative order of equal elements.
+array, changing the relative order of equal elements.
 
 Example: Array `[(3, a), (3, b), (2, c)]` (pairs with key and identity).
 
@@ -541,7 +569,7 @@ Are distinct.
 **Proof.** The first element of a pre-order traversal is the root. All subsequent elements before
 The first element greater than the root belong to the left subtree, and all elements from that point
 Onward belong to the right subtree. This recursively partitions the traversal, uniquely determining
-The tree structure. $\square$
+the tree structure. $\square$
 
 #### Detailed example
 
@@ -569,8 +597,8 @@ def tree_height(node):
 
 **Correctness.** By structural induction. Base case: empty tree has height $-1$ (convention).
 Inductive step: if the left subtree has height $h_L$ and right subtree has height $h_R$ (by
-Inductive hypothesis), then the height of the current node is $1 + \max(h_L, h_R)$Which is the
-Length of the longest root-to-leaf path. $\square$
+inductive hypothesis), then the height of the current node is $1 + \max(h_L, h_R)$ Which is the
+length of the longest root-to-leaf path. $\square$
 
 **Problem 12.** Given an array representation of a min-heap `[1, 3, 2, 7, 5, 4, 8]`What are the
 Children of node 3? What is the parent of node 5?
@@ -670,7 +698,7 @@ Step-by-step trace:
 <summary>Hint</summary>
 
 Insert each key by comparing with nodes starting at the root. Go left if the key is smaller, right
-If larger, until you find an empty position.
+if larger, until you find an empty position.
 
 <summary>Answer</summary>
 
@@ -705,7 +733,7 @@ Subtree) and replace 25 with it, then delete the successor node.
 <summary>Answer</summary>
 
 Node 25 has two children. The in-order successor is the smallest node in the right subtree of 25,
-Which is 30 (leftmost node in the subtree rooted at 35).
+which is 30 (leftmost node in the subtree rooted at 35).
 
 Replace 25 with 30, then delete the original node 30 (which is a leaf).
 
@@ -770,7 +798,7 @@ Extract-max operation (remove the root) and show the resulting array after each 
 <summary>Hint</summary>
 
 Extract-max: swap root with last element, remove last element, then sift the new root down by
-Swapping with the larger child while the root is smaller than that child.
+swapping with the larger child while the root is smaller than that child.
 
 <summary>Answer</summary>
 
@@ -816,7 +844,7 @@ Tree.
 <summary>Hint</summary>
 
 Depth is the number of edges from the root to the node (root has depth 0). Height of the tree is the
-Maximum depth of any node.
+maximum depth of any node.
 
 <summary>Answer</summary>
 
@@ -855,8 +883,8 @@ And then verify the parent-child relationships using the array formulas.
 
 <summary>Hint</summary>
 
-For a 0-indexed array: parent of node at index $i$ is $\lfloor (i-1)/2 \rfloor$Left child is
-$2i+1$Right child is $2i+2$. Fill the array using level-order traversal.
+For a 0-indexed array: parent of node at index $i$ is $\lfloor (i-1)/2 \rfloor$ Left child is
+$2i+1$ Right child is $2i+2$. Fill the array using level-order traversal.
 
 <summary>Answer</summary>
 
@@ -871,6 +899,8 @@ Value:  4  2  6  1  3  5  7
 
 Verification of parent-child formulas:
 
+<div class="table-wrap">
+
 | Node | Index | Left child (2i+1) | Right child (2i+2) |
 | ---- | ----- | ----------------- | ------------------ |
 | 4    | 0     | 2(0)+1 = 1 → 2    | 2(0)+2 = 2 → 6     |
@@ -878,7 +908,11 @@ Verification of parent-child formulas:
 | 6    | 2     | 2(2)+1 = 5 → 5    | 2(2)+2 = 6 → 7     |
 | 1    | 3     | 2(3)+1 = 7 (none) | 2(3)+2 = 8 (none)  |
 
+</div>
+
 Parent verification:
+
+<div class="table-wrap">
 
 | Node | Index | Parent ⌊(i-1)/2⌋ |
 | ---- | ----- | ---------------- |
@@ -889,17 +923,19 @@ Parent verification:
 | 5    | 5     | ⌊4/2⌋ = 2 → 6    |
 | 7    | 6     | ⌊5/2⌋ = 2 → 6    |
 
+</div>
+
 All relationships match. ✓
 
 **Problem 9.** Two BSTs each contain $n$ keys. BST A has height $n-1$ (degenerate) and BST B has
 Height $\lfloor \log_2 n \rfloor$ (balanced). Compare the number of comparisons required to search
-For a key that exists in both trees, expressing your answers in terms of $n$.
+for a key that exists in both trees, expressing your answers in terms of $n$.
 
 <summary>Hint</summary>
 
 In a BST, each comparison eliminates one subtree. In the worst case, the number of comparisons
 Equals the height of the tree. For a successful search, the expected number of comparisons is
-Approximately half the height.
+approximately half the height.
 
 <summary>Answer</summary>
 
@@ -920,15 +956,15 @@ Approximately half the height.
 - BST A worst case: 1024 comparisons
 - BST B worst case: $\lfloor \log_2 1024 \rfloor + 1 = 10 + 1 = 11$ comparisons
 
-BST B is approximately $n / \log_2 n$ times faster. For large $n$This difference is enormous, Which
+BST B is approximately $n / \log_2 n$ times faster. For large $n$ This difference is enormous, Which
 is why balanced BSTs (AVL, red-black trees) are preferred in practice.
 
 **Problem 10.** (Exam-style multi-step question) A sequence of integers is read from a data stream:
 38, 27, 43, 15, 50, 10, 33, 48.
 
 (a) Construct a BST by inserting these values in the given order. Draw the final tree. (b) State the
-In-order traversal of the BST. What property of BSTs does this demonstrate? (c) Delete the value 27
-From the tree (it has two children). Draw the resulting tree and explain each step of the deletion.
+in-order traversal of the BST. What property of BSTs does this demonstrate? (c) Delete the value 27
+from the tree (it has two children). Draw the resulting tree and explain each step of the deletion.
 (d) What is the height of the tree after the deletion?
 
 <summary>Hint</summary>
@@ -970,7 +1006,7 @@ Order**.
 
 Node 27 has two children (15 and 33). Find the in-order successor: the smallest value in the right
 Subtree of 27. Go right to 33, then go left as far as possible. 33 has no left child, so the
-In-order successor is **33**.
+in-order successor is **33**.
 
 Replace 27's value with 33, then delete the original 33 node (leaf removal).
 
@@ -1020,23 +1056,7 @@ Height of the tree = **3**.
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[04 Trees] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

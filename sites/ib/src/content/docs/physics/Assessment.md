@@ -17,8 +17,10 @@ description: "IB Physics (first assessment 2025) is examined through a combinati
 ## Assessment Overview
 
 IB Physics (first assessment 2025) is examined through a combination of external written papers and
-An Internal Assessment (IA). The external component accounts for 80% of the total mark at both SL
-And HL, while the IA accounts for the remaining 20%.
+an Internal Assessment (IA). The external component accounts for 80% of the total mark at both SL
+and HL, while the IA accounts for the remaining 20%.
+
+<div class="table-wrap">
 
 | Component | SL Weighting | HL Weighting | Duration (SL) | Duration (HL) | Marks (SL) | Marks (HL) |
 | :-------- | :----------- | :----------- | :------------ | :------------ | :--------- | :--------- |
@@ -26,6 +28,8 @@ And HL, while the IA accounts for the remaining 20%.
 | Paper 2   | 50%          | 40%          | 1 h 15 min    | 2 h 15 min    | 50         | 90         |
 | Paper 3   | --           | 20%          | --            | 1 h 15 min    | --         | 30         |
 | IA        | 20%          | 20%          | 10 hours      | 10 hours      | --         | --         |
+
+</div>
 
 ---
 
@@ -43,6 +47,8 @@ And HL, while the IA accounts for the remaining 20%.
 Paper 1 consists entirely of multiple choice questions (MCQs). Each question presents four answer
 Options, only one of which is correct.
 
+<div class="table-wrap">
+
 | Aspect              | SL          | HL          |
 | :------------------ | :---------- | :---------- |
 | Duration            | 45 minutes  | 60 minutes  |
@@ -50,6 +56,8 @@ Options, only one of which is correct.
 | Number of questions | 30          | 40          |
 | Calculator          | Not allowed | Not allowed |
 | Data booklet        | Not allowed | Not allowed |
+
+</div>
 
 **Key details:**
 
@@ -85,12 +93,16 @@ Options, only one of which is correct.
 Paper 2 contains extended response questions requiring detailed working, derivations, calculations,
 And explanations.
 
+<div class="table-wrap">
+
 | Aspect       | SL                | HL                 |
 | :----------- | :---------------- | :----------------- |
 | Duration     | 1 hour 15 minutes | 2 hours 15 minutes |
 | Marks        | 50                | 90                 |
 | Calculator   | Allowed           | Allowed            |
 | Data booklet | Provided          | Provided           |
+
+</div>
 
 **Key details:**
 
@@ -130,6 +142,8 @@ And explanations.
 Paper 3 is sat exclusively by HL students and tests the Additional Higher Level (AHL) extension
 Material.
 
+<div class="table-wrap">
+
 | Aspect       | HL                |
 | :----------- | :---------------- |
 | Duration     | 1 hour 15 minutes |
@@ -137,9 +151,13 @@ Material.
 | Calculator   | Allowed           |
 | Data booklet | Provided          |
 
+</div>
+
 **Topics covered:**
 
 Paper 3 draws exclusively from AHL content across all five themes:
+
+<div class="table-wrap">
 
 | Theme | AHL Sub-topics | Key Areas                                                                    |
 | :---- | :------------- | :--------------------------------------------------------------------------- |
@@ -148,6 +166,8 @@ Paper 3 draws exclusively from AHL content across all five themes:
 | C     | C.5            | Wave phenomena (interference, resolution, Doppler effect)                    |
 | D     | D.5            | Fields at work (electromagnetic induction)                                   |
 | E     | E.3--E.4       | Quantum and nuclear physics (radioactive decay, structure of matter)         |
+
+</div>
 
 **Key details:**
 
@@ -179,7 +199,9 @@ Paper 3 draws exclusively from AHL content across all five themes:
 ## Internal Assessment (IA)
 
 The Internal Assessment is an individual scientific investigation carried out by each student. It is
-Internally marked by the teacher and externally moderated by the IB.
+internally marked by the teacher and externally moderated by the IB.
+
+<div class="table-wrap">
 
 | Aspect     | Detail                                                            |
 | :--------- | :---------------------------------------------------------------- |
@@ -188,10 +210,12 @@ Internally marked by the teacher and externally moderated by the IB.
 | Format     | Individual investigation with a written report (maximum 12 pages) |
 | Submission | One investigation per student                                     |
 
+</div>
+
 **Assessment criteria:**
 
 The IA is assessed against four criteria, each carrying equal weighting (maximum 6 marks per
-Criterion, 24 marks total):
+criterion, 24 marks total):
 
 1. **Personal Engagement (6 marks):** Evidence of personal input, initiative, and independent
    thinking. The student should demonstrate genuine curiosity and ownership of the research
@@ -239,7 +263,9 @@ Criterion, 24 marks total):
 ## Grade Boundaries
 
 IB Physics uses the standard IB 1--7 grading scale. Grade boundaries are determined after each
-Examination session and vary from session to session depending on the difficulty of the papers.
+examination session and vary from session to session depending on the difficulty of the papers.
+
+<div class="table-wrap">
 
 | Grade | Description  |
 | :---- | :----------- |
@@ -250,6 +276,8 @@ Examination session and vary from session to session depending on the difficulty
 | 3     | Mediocre     |
 | 2     | Poor         |
 | 1     | Very poor    |
+
+</div>
 
 **Important notes:**
 
@@ -311,24 +339,7 @@ Understanding the assessment structure is like knowing the rules of a game befor
 4. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
-
-```mermaid
-flowchart TD
-    A[Assessment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

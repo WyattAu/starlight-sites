@@ -16,6 +16,8 @@ import PhetSimulation from '@components/PhetSimulation';
 
 ### Scalars and Vectors
 
+<div class="table-wrap">
+
 | Scalar (magnitude only) | Vector (magnitude and direction) |
 | ----------------------- | -------------------------------- |
 | Distance                | Displacement                     |
@@ -24,6 +26,8 @@ import PhetSimulation from '@components/PhetSimulation';
 | Energy                  | Force                            |
 | Temperature             | Acceleration                     |
 | Time                    | Momentum                         |
+
+</div>
 
 ### Distance and Displacement
 
@@ -53,12 +57,16 @@ Instantaneous acceleration is the derivative of velocity with respect to time.
 
 For motion with **constant acceleration** in a straight line:
 
+<div class="table-wrap">
+
 | Equation                   | Variables    | Missing |
 | -------------------------- | ------------ | ------- |
 | $v = u + at$               | $v, u, a, t$ | $s$     |
 | $s = ut + \frac{1}{2}at^2$ | $s, u, a, t$ | $v$     |
 | $v^2 = u^2 + 2as$          | $v, u, a, s$ | $t$     |
 | $s = \frac{1}{2}(u+v)t$    | $s, u, v, t$ | $a$     |
+
+</div>
 
 Where:
 
@@ -108,6 +116,8 @@ Try creating different motion scenarios and observe how the graphs relate to one
 
 ### Key Features
 
+<div class="table-wrap">
+
 | Feature           | Interpretation                   |
 | ----------------- | -------------------------------- |
 | Gradient          | Velocity                         |
@@ -118,16 +128,20 @@ Try creating different motion scenarios and observe how the graphs relate to one
 | Curve             | Changing velocity (acceleration) |
 | Area under graph  | No direct meaning                |
 
+</div>
+
 ### Instantaneous Velocity
 
 The instantaneous velocity at a point is the gradient of the tangent to the displacement-time graph
-At that point.
+at that point.
 
 ---
 
 ## Velocity-Time Graphs
 
 ### Key Features
+
+<div class="table-wrap">
 
 | Feature           | Interpretation               |
 | ----------------- | ---------------------------- |
@@ -139,6 +153,8 @@ At that point.
 | Above $t$-axis    | Moving in positive direction |
 | Below $t$-axis    | Moving in negative direction |
 | Curve             | Changing acceleration        |
+
+</div>
 
 ### Finding Displacement
 
@@ -291,7 +307,7 @@ maximum range.
 
 ### Maximum Range
 
-The range is maximised when $\sin 2\theta = 1$I.e., $\theta = 45\degree$:
+The range is maximised when $\sin 2\theta = 1$ I.e., $\theta = 45\degree$:
 
 $$
 R_\{\max\} = \frac\{u^2\}\{g\}
@@ -299,7 +315,7 @@ $$
 
 ### Complementary Angles
 
-For complementary angles $\theta$ and $(90\degree - \theta)$The range is the same (but the
+For complementary angles $\theta$ and $(90\degree - \theta)$ The range is the same (but the
 Trajectories differ in height).
 </Aside>
 
@@ -373,7 +389,7 @@ Air resistance:
 <Aside type="caution" title="Exam Tip">
 In IB Physics, unless stated otherwise, ignore air resistance in calculations. When asked to
 Describe the effect qualitatively, remember that air resistance always opposes motion and reduces
-The range and maximum height of projectiles.
+the range and maximum height of projectiles.
 
 ---
 
@@ -433,7 +449,7 @@ $$
 ### Question 3 (Paper 1 style)
 
 A projectile is launched from ground level with speed $25\mathrm{ m/s}$ at an angle of $50\degree$
-Above the horizontal.
+above the horizontal.
 
 **(a)** Calculate the maximum height.
 
@@ -480,17 +496,9 @@ $$
 
 Kinematics is the storytelling of motion. A displacement-time graph tells you where something has been, while a velocity-time graph tells you how fast it is going and how quickly it is changing. Projectile motion is the elegant result of two independent stories playing out simultaneously: horizontal motion at constant speed and vertical motion under gravity, like a ball rolling off a table while simultaneously falling. The SUVAT equations are the shorthand for these stories when acceleration stays constant, and calculus takes over when it does not.
 
-```mermaid
-flowchart TD
-    A[1_Kinematicsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
+
+<div class="table-wrap">
 
 | Quantity                   | Symbol | SI Unit      |
 | -------------------------- | ------ | ------------ |
@@ -500,12 +508,18 @@ flowchart TD
 | Time                       | $t$    | s            |
 | Gravitational acceleration | $g$    | 9.81 m/s$^2$ |
 
+</div>
+
+<div class="table-wrap">
+
 | SUVAT Equation             | Use When                 |
 | -------------------------- | ------------------------ |
 | $v = u + at$               | No displacement needed   |
 | $s = ut + \frac{1}{2}at^2$ | No final velocity needed |
 | $v^2 = u^2 + 2as$          | No time needed           |
 | $s = \frac{1}{2}(u+v)t$    | No acceleration needed   |
+
+</div>
 </Aside>
 
 <Aside type="tip" title="Exam Strategy">
@@ -522,7 +536,7 @@ showing the velocity components.
 The velocity of object `A` relative to object `B`:
 
 $$
-\vec\{v\}_`\{AB}` = \vec\{v\}_A - \vec\{v\}_B
+\vec\{v\}_{AB} = \vec\{v\}_A - \vec\{v\}_B
 $$
 
 ### Applications
@@ -618,7 +632,9 @@ For a curved velocity-time graph:
 The total stopping distance of a vehicle consists of:
 
 1. **Thinking distance**: distance travelled during the driver's reaction time.
-   $$d_{\mathrm{think}} = v \times t_r$$
+   $$
+   d_{\mathrm{think}} = v \times t_r
+   $$
 
 2. **Braking distance**: distance travelled while braking. $$d_{\mathrm{brake}} = \frac{v^2}{2a}$$
 
@@ -648,7 +664,7 @@ $$
 ### Question 5 (Paper 2 style)
 
 A ball is thrown from the top of a $40\mathrm{ m}$ building with initial velocity $15\mathrm{ m/s}$
-At $30\degree$ above the horizontal.
+at $30\degree$ above the horizontal.
 
 **(a)** Find the time for the ball to reach the ground.
 
@@ -850,14 +866,14 @@ $$
 
 **(c)** Find the distance travelled between $t = 0$ and $t = 4\mathrm{ s}$.
 
-Since $v \ge 0$ for $0 \le t \le 4$The distance equals the displacement: $\dfrac{32}{3}\mathrm{ m}$.
+Since $v \ge 0$ for $0 \le t \le 4$ The distance equals the displacement: $\dfrac{32}{3}\mathrm{ m}$.
 
 ### Question 9 (Paper 1 style)
 
 A ball is projected at speed $v$ at angle $\theta$ above horizontal on level ground. For what value
-Of $\theta$ is the horizontal range maximised?
+of $\theta$ is the horizontal range maximised?
 
-The range is $R = \dfrac{v^2 \sin 2\theta}{g}$. This is maximised when $\sin 2\theta = 1$I.e.,
+The range is $R = \dfrac{v^2 \sin 2\theta}{g}$. This is maximised when $\sin 2\theta = 1$ I.e.,
 $2\theta = 90\degree$ So $\theta = 45\degree$.
 
 ### Question 10 (Paper 2 style)
@@ -912,9 +928,6 @@ within the IB specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Kinematics
 with other physics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Common Pitfalls
 
 1. Forgetting to include units in final answers, especially when working with derived units like
@@ -931,11 +944,15 @@ self-marking and building a personal test matrix.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                  | Site    | Link                                                                                         |
 | ---------------------- | ------- | -------------------------------------------------------------------------------------------- |
 | [Kinematics (Physics)] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/02-kinematics) |
-| [Kinematics (Physics)] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/1_kinematics)          |
-| [Kinematics (Physics)] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/1-mechanics/1_forces-and-motion)             |
+| [Kinematics (Physics)] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/1_kinematics/)          |
+| [Kinematics (Physics)] | DSE     | [View](https://dse.wyattau.com/physics/1-mechanics/1_forces-and-motion/)             |
+
+</div>
 
 ## Worked Examples
 

@@ -69,25 +69,41 @@ Surface chemistry studies phenomena occurring at surfaces and interfaces. It cov
 Freundlich isotherm: $\frac{x}{m} = kP^{1/n}$
 
 Taking logarithms:
-$$\log\left(\frac{x}{m}\right) = \log k + \frac{1}{n}\log P$$
+$$
+\log\left(\frac{x}{m}\right) = \log k + \frac{1}{n}\log P
+$$
 
 From the two data points:
-$$\log(0.12) = \log k + \frac{1}{n}\log(2)$$
-$$\log(0.36) = \log k + \frac{1}{n}\log(6)$$
+$$
+\log(0.12) = \log k + \frac{1}{n}\log(2)
+$$
+$$
+\log(0.36) = \log k + \frac{1}{n}\log(6)
+$$
 
 Subtracting:
-$$\log(0.36) - \log(0.12) = \frac{1}{n}[\log(6) - \log(2)]$$
+$$
+\log(0.36) - \log(0.12) = \frac{1}{n}[\log(6) - \log(2)]
+$$
 
-$$\log(3) = \frac{1}{n}\log(3)$$
+$$
+\log(3) = \frac{1}{n}\log(3)
+$$
 
 Therefore $1/n = 1$, so $n = 1$.
 
 Substituting back:
-$$\log(0.12) = \log k + \log(2)$$
+$$
+\log(0.12) = \log k + \log(2)
+$$
 
-$$\log k = \log(0.12) - \log(2) = \log(0.06)$$
+$$
+\log k = \log(0.12) - \log(2) = \log(0.06)
+$$
 
-$$k = 0.06$$
+$$
+k = 0.06
+$$
 
 **Common mistake:** Forgetting to take logarithms. The Freundlich equation is linear in log-log form.
 
@@ -98,7 +114,9 @@ $$k = 0.06$$
 **Solution:**
 
 $\text{FeCl}_3$ hydrolyzes:
-$$\text{FeCl}_3 + 3\text{H}_2\text{O} \rightarrow \text{Fe(OH)}_3 + 3\text{HCl}$$
+$$
+\text{FeCl}_3 + 3\text{H}_2\text{O} \rightarrow \text{Fe(OH)}_3 + 3\text{HCl}
+$$
 
 The colloidal particles preferentially adsorb $\text{Fe}^{3+}$ ions (common ion), giving them a positive charge.
 
@@ -113,7 +131,9 @@ Purification by dialysis: The sol is placed in a parchment paper bag immersed in
 **Solution:**
 
 The rate increases by a factor of:
-$$\frac{k_{\text{catalyzed}}}{k_{\text{uncatalyzed}}} = \frac{5.8 \times 10^{-2}}{1.2 \times 10^{-3}} = \frac{58}{1.2} \approx 48.3$$
+$$
+\frac{k_{\text{catalyzed}}}{k_{\text{uncatalyzed}}} = \frac{5.8 \times 10^{-2}}{1.2 \times 10^{-3}} = \frac{58}{1.2} \approx 48.3
+$$
 
 The catalyst increases the rate approximately 48-fold. The catalyst provides an alternative pathway with lower activation energy.
 

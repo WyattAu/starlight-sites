@@ -23,13 +23,13 @@ Part 4 addresses the central problem in systems programming: **who is responsibl
 Resource, and when does that release occur?**
 
 In garbage-collected languages, the runtime answers this question for you. In C++, the programmer
-Must establish explicit ownership contracts. When these contracts are violated, the result is a
+must establish explicit ownership contracts. When these contracts are violated, the result is a
 Resource leak, a double-free, or use-after-free, all of which are undefined behavior.
 
 This part covers four tightly coupled topics:
 
 1. **Ownership and RAII (Module 10):** The idiomatic C++ mechanism that binds resource lifetime to
-   scope. Covers `std::unique_ptr``std::shared_ptr``std::weak_ptr`And custom deleters.
+   scope. Covers `std::unique_ptr`, `std::shared_ptr`, `std::weak_ptr` and custom deleters.
 
 2. **Value Categories and Move Semantics (Module 11):** The type system machinery that enables
    efficient transfer of resources between scopes without copying. Covers lvalues, rvalues, move
@@ -38,7 +38,7 @@ This part covers four tightly coupled topics:
 3. **Function Architecture (Module 12):** How ownership interacts with function boundaries. Parameter passing, return values, lambdas, and C FFI.
 
 4. **Error Handling (Module 13):** Exception safety guarantees, `noexcept`And the modern algebraic
-   alternatives (`std::expected``std::variant`).
+   alternatives (`std::expected`, `std::variant`).
 
 :::note
 Allocation (Module 3.5), pointers (Module 3.6), and class basics (Module 9). Exception mechanics are
@@ -148,6 +148,8 @@ handling completes the picture with robust failure modes.
 
 ### Common Ownership Patterns
 
+<div class="table-wrap">
+
 | Pattern              | Smart Pointer                      | Use Case                                        |
 | -------------------- | ---------------------------------- | ----------------------------------------------- |
 | Exclusive ownership  | `unique_ptr`                       | Default for heap objects, factory return values |
@@ -155,19 +157,17 @@ handling completes the picture with robust failure modes.
 | Non-owning reference | Raw pointer or `reference_wrapper` | Callbacks, iteration, parameter passing         |
 | Weak observation     | `weak_ptr`                         | Breaking `shared_ptr` cycles                    |
 
+</div>
+
 ### Move vs Copy Decision Tree
 
-1. Is the type cheap to copy (e.g., `int``span`)? → Copy by value.
+1. Is the type cheap to copy (e.g., `int`, `span`)? → Copy by value.
 2. Is ownership being transferred? → `std::move` into a `unique_ptr`.
 3. Is the argument only read? → Pass by `const&`.
 4. Is the argument stored? → Pass by value and move internally (`T param` then
    `member = std::move(param)`).
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
@@ -177,7 +177,7 @@ linked above.
 
 ## Related Topics
 
-- [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/), Rust"s compile-time ownership model as an alternative to C++ manual resource management.
+- [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/), Rust's compile-time ownership model as an alternative to C++ manual resource management.
 - [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/), When Rust's safety guarantees are deliberately bypassed.
 
 ## See Also

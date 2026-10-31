@@ -23,8 +23,8 @@ categories:
 ### Variables
 
 A variable is a named storage location in memory whose value can change during program execution. A
-Variable has a name (identifier), a data type (which determines the kind of data it can hold and how
-Much memory it occupies), and a value (the data currently stored).
+variable has a name (identifier), a data type (which determines the kind of data it can hold and how
+much memory it occupies), and a value (the data currently stored).
 
 **Declaration** allocates memory for the variable and associates a name with that location.
 **Initialization** assigns an initial value at the point of declaration. **Assignment** changes the
@@ -48,6 +48,8 @@ Languages with constant enforcement).
 
 ### Primitive Data Types
 
+<div class="table-wrap">
+
 | Data Type | Description                                 | Typical Size | Example Values        |
 | --------- | ------------------------------------------- | ------------ | --------------------- |
 | INTEGER   | Whole numbers (positive, negative, or zero) | 4 bytes      | -42, 0, 1024          |
@@ -55,6 +57,8 @@ Languages with constant enforcement).
 | CHAR      | A single character                          | 1 byte       | "A', 'z', '9', '?'    |
 | STRING    | A sequence of characters                    | Variable     | "Hello", "IB CS 2025" |
 | BOOLEAN   | Logical values                              | 1 byte       | TRUE, FALSE           |
+
+</div>
 
 **INTEGER vs FLOAT:** Integers are exact; floating-point numbers have limited precision due to their
 Binary representation. This matters for comparison. The expression `0.1 + 0.2 = 0.3` may evaluate to
@@ -65,12 +69,14 @@ In many languages, a STRING is an array of CHARs with a null terminator or a len
 
 **BOOLEAN:** Named after George Boole. Only two values: TRUE and FALSE. Used as the condition in
 Selection and iteration constructs, and as the return type of functions that perform checks or
-Comparisons.
+comparisons.
 
 ### Worked Example: Choosing Data Types
 
 A school management system needs to store the following data. Choose the most appropriate data type
-For each.
+for each.
+
+<div class="table-wrap">
 
 | Data Item                           | Appropriate Data Type | Justification                                     |
 | ----------------------------------- | --------------------- | ------------------------------------------------- |
@@ -83,13 +89,15 @@ For each.
 | School name                         | CONSTANT STRING       | Known at design time, never changes               |
 | Pi (3.14159...)                     | CONSTANT FLOAT        | Mathematical constant used throughout the program |
 
+</div>
+
 <details>
 <summary>Solution</summary>
 
 The key principle is to choose the most restrictive type that can represent all possible values.
 Using INTEGER instead of FLOAT when only whole numbers are needed avoids floating-point precision
 Issues. Using CHAR instead of STRING for single characters saves memory. Using CONSTANTS for values
-That should never change prevents accidental modification and makes the code self-documenting.
+that should never change prevents accidental modification and makes the code self-documenting.
 
 A common mistake is using FLOAT for values that are always whole numbers (like student counts).
 Another mistake is using STRING when CHAR suffices (like grade letters).
@@ -99,6 +107,8 @@ Another mistake is using STRING when CHAR suffices (like grade letters).
 ## Operators
 
 ### Arithmetic Operators
+
+<div class="table-wrap">
 
 | Operator | Description        | Example   | Result |
 | -------- | ------------------ | --------- | ------ |
@@ -110,12 +120,14 @@ Another mistake is using STRING when CHAR suffices (like grade letters).
 | MOD      | Modulo (remainder) | `7 MOD 3` | 1      |
 | `^`      | Exponentiation     | `2 ^ 10`  | 1024   |
 
+</div>
+
 **DIV vs `/`:** DIV discards the fractional part (truncates toward zero in most IB pseudocode
 Contexts). `/` produces a floating-point result. For `7 / 3`DIV gives 2 and `/` gives 2.333...
 
 **MOD:** Returns the remainder after integer division. `7 MOD 3 = 1` because `7 = 3 * 2 + 1`. MOD is
 Commonly used to test divisibility (e.g., `n MOD 2 = 0` tests if `n` is even), to wrap indices in
-Circular data structures, and to extract digits.
+circular data structures, and to extract digits.
 
 ### Worked Example: DIV and MOD to Extract Digits
 
@@ -142,6 +154,8 @@ This pattern generalizes: to extract digit at position $p$ (0-indexed from the r
 
 ### Relational (Comparison) Operators
 
+<div class="table-wrap">
+
 | Operator | Description              | Example     | Result |
 | -------- | ------------------------ | ----------- | ------ |
 | `=`      | Equal to                 | `5 = 5`     | TRUE   |
@@ -151,10 +165,14 @@ This pattern generalizes: to extract digit at position $p$ (0-indexed from the r
 | `$\le$`  | Less than or equal to    | `5 $\le$` 5 | TRUE   |
 | `$\ge$`  | Greater than or equal to | `5 $\ge$` 3 | TRUE   |
 
+</div>
+
 Relational operators always produce a BOOLEAN result. They can be applied to numeric types
 (comparing magnitude) and string types (comparing lexicographically based on character codes).
 
 ### Logical Operators
+
+<div class="table-wrap">
 
 | Operator | Description | Truth Table Rule                       |
 | -------- | ----------- | -------------------------------------- |
@@ -163,23 +181,27 @@ Relational operators always produce a BOOLEAN result. They can be applied to num
 | OR       | Disjunction | TRUE when at least one operand is TRUE |
 | XOR      | Exclusive   | TRUE when operands differ              |
 
+</div>
+
 **Operator precedence** (highest to lowest): NOT, AND, OR. This matters in expressions like:
 
 ```python
 NOT a AND b OR c
 ```
 
-This is evaluated as `((NOT a) AND b) OR c`Not `NOT (a AND (b OR c))`. Use parentheses to make
+This is evaluated as `((NOT a) AND b) OR c`. Not `NOT (a AND (b OR c))`. Use parentheses to make
 Intent explicit.
 
 ### Assignment Operator
 
 In IB pseudocode, the assignment operator is the left arrow `←`. It evaluates the expression on the
-Right and stores the result in the variable on the left. Assignment is not equality:
+right and stores the result in the variable on the left. Assignment is not equality:
 `count ← count + 1` means "take the current value of `count`Add 1, and store the result back in
 `count`."
 
 ### Bitwise Operators
+
+<div class="table-wrap">
 
 | Operator | Description                           | Example (binary) | Result |
 | -------- | ------------------------------------- | ---------------- | ------ |
@@ -190,9 +212,11 @@ Right and stores the result in the variable on the left. Assignment is not equal
 | `<<`     | Left shift                            | `1100 << 1`      | 1000   |
 | `>>`     | Right shift                           | `1100 >> 1`      | 0110   |
 
+</div>
+
 Bitwise operators operate on the binary representation of integers. Each bit position is treated
 Independently. Bitwise AND is used for masking (extracting specific bits), bitwise OR is used for
-Setting bits, and bitwise XOR is used for toggling bits.
+setting bits, and bitwise XOR is used for toggling bits.
 
 ### Common Pitfalls: Operators
 
@@ -214,8 +238,8 @@ Setting bits, and bitwise XOR is used for toggling bits.
 ### Sequence
 
 Sequence is the default control structure: statements execute one after another in the order they
-Appear. Every program is ultimately a sequence of operations, possibly interspersed with selections
-And iterations.
+appear. Every program is ultimately a sequence of operations, possibly interspersed with selections
+and iterations.
 
 ### Selection
 
@@ -293,6 +317,8 @@ OUTPUT grade
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Condition Tested     | Result | Action        |
 | ---- | -------------------- | ------ | ------------- |
 | 1    | `75 $\ge$` 90`       | FALSE  | Skip to ELSE  |
@@ -301,10 +327,12 @@ OUTPUT grade
 | 4    | (inner ELSE skipped) | --     | --            |
 | 5    | Output `grade`       | --     | Outputs "C"   |
 
+</div>
+
 Output: **C**
 
 Key insight: Nested IF-ELSE IF evaluates conditions top-down. Once a TRUE condition is found, the
-Corresponding branch executes and all remaining branches are skipped. The order of conditions
+corresponding branch executes and all remaining branches are skipped. The order of conditions
 matters: If they were reversed (checking `$\ge$` 60 first), every score of 60 or above would get
 "D".
 
@@ -321,7 +349,7 @@ END FOR
 ```
 
 The loop variable `i` is automatically initialized to 1, incremented by 1 after each iteration, and
-The loop terminates when `i` exceeds 10. IB pseudocode also supports stepping:
+the loop terminates when `i` exceeds 10. IB pseudocode also supports stepping:
 
 ```python
 FOR i ← 10 DOWNTO 1
@@ -350,9 +378,11 @@ UNTIL password = correctPassword
 ```
 
 Use REPEAT...UNTIL when the loop body must execute at least once (e.g., prompting for input that
-Must be validated).
+must be validated).
 
 ### Comparison of Loop Constructs
+
+<div class="table-wrap">
 
 | Feature          | FOR              | WHILE         | REPEAT...UNTIL   |
 | ---------------- | ---------------- | ------------- | ---------------- |
@@ -362,10 +392,12 @@ Must be validated).
 | Use case         | Counting         | Unknown count | Input validation |
 | Risk             | Off-by-one error | Infinite loop | Always runs once |
 
+</div>
+
 ### Nested Loops
 
 A loop inside another loop. The inner loop completes all its iterations for each single iteration of
-The outer loop.
+the outer loop.
 
 **Worked example:** Print a multiplication table for 1 to 5.
 
@@ -379,8 +411,8 @@ END FOR
 ```
 
 The inner loop executes 5 times for each of the 5 iterations of the outer loop, giving a total of 25
-Iterations. For nested loops with outer loop size $m$ and inner loop size $n$The total iterations
-Are $m \times n$.
+iterations. For nested loops with outer loop size $m$ and inner loop size $n$ The total iterations
+are $m \times n$.
 
 ### Common Loop Patterns
 
@@ -422,8 +454,8 @@ IF i ← i + 1 END WHILE
 
 ### Common Pitfalls: Loops
 
-- **Off-by-one errors:** The most common loop bug. For an array of size $n$Valid indices are $0$ to
-  $n - 1$. A FOR loop from $0$ TO $n$ would access index $n$Which is out of bounds. Always trace
+- **Off-by-one errors:** The most common loop bug. For an array of size $n$ Valid indices are $0$ to
+  $n - 1$. A FOR loop from $0$ TO $n$ would access index $n$ Which is out of bounds. Always trace
   with boundary values.
 - **Infinite WHILE loops:** If the loop variable is never updated inside the loop body, the
   condition never changes and the loop runs forever. Always ensure the loop variable moves toward
@@ -440,7 +472,7 @@ IF i ← i + 1 END WHILE
 ### Procedures
 
 A procedure is a named block of code that performs a specific task. It does not return a value. It
-Is called for its side effects (e.g., printing output, modifying global state, updating data
+is called for its side effects (e.g., printing output, modifying global state, updating data
 Structures).
 
 ```python
@@ -454,7 +486,7 @@ END PROCEDURE
 ### Functions
 
 A function is a named block of code that performs a computation and returns a value. Functions
-Should not have side effects -- they should be pure: the same inputs always produce the same output.
+should not have side effects -- they should be pure: the same inputs always produce the same output.
 
 ```python
 FUNCTION factorial(n) RETURNS INTEGER
@@ -480,14 +512,14 @@ area ← rectangleArea(5.0, 3.0)  // 5.0 and 3.0 are arguments
 
 **Return values:** A function uses the `RETURN` statement to send a result back to the caller.
 Execution of the function terminates immediately when `RETURN` is encountered. A procedure does not
-Have a return value.
+have a return value.
 
 ### Side Effects
 
 A side effect occurs when a function or procedure modifies state outside its local scope. Side
 Effects include modifying global variables, performing I/O, and mutating arguments passed by
-Reference. Pure functions have no side effects: they depend only on their inputs and produce only a
-Return value.
+reference. Pure functions have no side effects: they depend only on their inputs and produce only a
+return value.
 
 Side effects make code harder to reason about, test, and debug because the behavior of a function
 Depends on the state of the entire program, not just its inputs.
@@ -534,7 +566,7 @@ To convert in the opposite direction, use $C = (F - 32) \times \frac{5}{9}$.
 ### By Value (Pass by Value)
 
 A copy of the argument's value is passed to the parameter. Modifications to the parameter inside the
-Function do not affect the original argument.
+function do not affect the original argument.
 
 ```python
 PROCEDURE increment(x)
@@ -552,7 +584,7 @@ The parameter `x` is a local copy. Changing it has no effect on `num`.
 ### By Reference (Pass by Reference)
 
 The memory address of the argument is passed to the parameter. Modifications to the parameter inside
-The function directly affect the original argument.
+the function directly affect the original argument.
 
 ```python
 PROCEDURE increment(REF x)
@@ -566,9 +598,11 @@ OUTPUT num  // Outputs 11 (changed)
 ```
 
 The `REF` keyword in IB pseudocode indicates pass by reference. The parameter `x` is an alias for
-`num`So changing `x` changes `num`.
+`num`. So changing `x` changes `num`.
 
 ### Comparison
+
+<div class="table-wrap">
 
 | Aspect            | By Value                           | By Reference                     |
 | ----------------- | ---------------------------------- | -------------------------------- |
@@ -578,6 +612,8 @@ The `REF` keyword in IB pseudocode indicates pass by reference. The parameter `x
 | Safety            | High (original cannot be modified) | Lower (original can be modified) |
 | Use case          | Input-only parameters              | Output parameters, large objects |
 | Default in IB     | Default                            | Must specify `REF` keyword       |
+
+</div>
 
 ### Worked Example: Tracing By-Value vs By-Reference
 
@@ -612,6 +648,8 @@ OUTPUT x, y
 
 **`swapByValue(x, y)` call:**
 
+<div class="table-wrap">
+
 | Variable | Before Call | Inside Procedure | After Call |
 | -------- | ----------- | ---------------- | ---------- |
 | `x`      | 10          | 10 (unchanged)   | 10         |
@@ -620,9 +658,13 @@ OUTPUT x, y
 | `b`      | --          | 10               | --         |
 | `temp`   | --          | 10               | --         |
 
-Inside `swapByValue`: outputs 20, 10. After call: `x = 10``y = 20` (unchanged).
+</div>
+
+Inside `swapByValue`: outputs 20, 10. After call: `x = 10`, `y = 20` (unchanged).
 
 **`swapByRef(x, y)` call:**
+
+<div class="table-wrap">
 
 | Variable | Before Call | Inside Procedure | After Call |
 | -------- | ----------- | ---------------- | ---------- |
@@ -631,7 +673,9 @@ Inside `swapByValue`: outputs 20, 10. After call: `x = 10``y = 20` (unchanged).
 | `a`      | --          | 20 (alias for x) | --         |
 | `b`      | --          | 10 (alias for y) | --         |
 
-Inside `swapByRef`: outputs 20, 10. After call: `x = 20``y = 10` (swapped!).
+</div>
+
+Inside `swapByRef`: outputs 20, 10. After call: `x = 20`, `y = 10` (swapped!).
 
 **Complete output sequence:** 20, 10, 10, 20, 20, 10, 20, 10
 
@@ -643,11 +687,11 @@ Variables. Only by-reference can modify the caller's variables.
 ## Recursion
 
 Recursion is a problem-solving technique where a function calls itself to solve smaller instances of
-The same problem. Every recursive solution has two essential components:
+the same problem. Every recursive solution has two essential components:
 
 **Base case:** The condition under which the function returns directly without making a recursive
 Call. Without a base case, the recursion never terminates (infinite recursion), eventually causing a
-Stack overflow.
+stack overflow.
 
 **Recursive case:** The condition under which the function calls itself with a modified argument
 That moves closer to the base case.
@@ -665,12 +709,16 @@ END FUNCTION
 
 **Call stack trace for `factorial(4)`:**
 
+<div class="table-wrap">
+
 | Call Stack Frame | Action                | Return Value      |
 | ---------------- | --------------------- | ----------------- |
 | `factorial(4)`   | Calls `factorial(3)`  | $4 \times 6 = 24$ |
 | `factorial(3)`   | Calls `factorial(2)`  | $3 \times 2 = 6$  |
 | `factorial(2)`   | Calls `factorial(1)`  | $2 \times 1 = 2$  |
 | `factorial(1)`   | Returns 1 (base case) | 1                 |
+
+</div>
 
 ### Worked Example: Fibonacci
 
@@ -684,9 +732,9 @@ END FUNCTION
 ```
 
 This naive recursive Fibonacci has exponential time complexity $O(2^n)$ because each call spawns two
-Sub-calls. The call tree for `fibonacci(5)` has 15 calls total. For `fibonacci(40)`There are over
+Sub-calls. The call tree for `fibonacci(5)` has 15 calls total. For `fibonacci(40)`. There are over
 300 million calls. This demonstrates why recursion must be used carefully -- memoization or an
-Iterative approach is required for practical Fibonacci computation.
+iterative approach is required for practical Fibonacci computation.
 
 ### Worked Example: Sum of Array
 
@@ -704,6 +752,8 @@ Recursion into iteration to avoid stack growth.
 
 ### When to Use Recursion vs Iteration
 
+<div class="table-wrap">
+
 | Criterion   | Recursion                                            | Iteration                   |
 | ----------- | ---------------------------------------------------- | --------------------------- |
 | Readability | Clearer for tree/graph traversal, divide and conquer | Clearer for simple loops    |
@@ -711,6 +761,8 @@ Recursion into iteration to avoid stack growth.
 | Performance | Function call overhead                               | Generally faster            |
 | Risk        | Stack overflow for deep recursion                    | No stack overflow risk      |
 | Natural fit | Tree traversal, fractals, backtracking               | Linear processing, counting |
+
+</div>
 
 ### Worked Example: Tracing a Recursive Function
 
@@ -728,6 +780,8 @@ END FUNCTION
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Call Stack Frame | Action                | Return Value |
 | ---------------- | --------------------- | ------------ |
 | `mystery(4)`     | Calls `mystery(3)`    | $4 + 6 = 10$ |
@@ -735,21 +789,23 @@ END FUNCTION
 | `mystery(2)`     | Calls `mystery(1)`    | $2 + 1 = 3$  |
 | `mystery(1)`     | Returns 1 (base case) | 1            |
 
+</div>
+
 Result: **10**
 
 This function computes the sum $1 + 2 + 3 + 4 = 10$. It is equivalent to the formula
 $n(n+1)/2 = 4 \times 5 / 2 = 10$.
 
-The recursive case reduces the problem: `mystery(4)` needs `mystery(3)`Which needs `mystery(2)`
+The recursive case reduces the problem: `mystery(4)` needs `mystery(3)`. Which needs `mystery(2)`
 Which needs `mystery(1)`. The base case stops the recursion. Each return value propagates back up
-The call stack.
+the call stack.
 
 </details>
 
 ### Common Pitfalls: Recursion
 
 - **No base case or unreachable base case:** Without a valid base case, recursion is infinite. For
-  `factorial(n)` with `n = -1`The base case `n \lt{}= 1` is never reached because the recursive call
+  `factorial(n)` with `n = -1`. The base case `n \lt{}= 1` is never reached because the recursive call
   uses `n - 1`Making the argument more negative each time.
 - **Stack overflow:** Each recursive call adds a frame to the call stack. For deep recursion (e.g.,
   naive `fibonacci(1000)`), the stack exceeds available memory. Prefer iteration for problems
@@ -763,8 +819,8 @@ The call stack.
 ### Procedural Programming
 
 Programs are structured as a sequence of instructions that operate on data. Data and functions are
-Separate. The focus is on "what to do" step by step. Variables are shared globally or passed between
-Procedures.
+separate. The focus is on "what to do" step by step. Variables are shared globally or passed between
+procedures.
 
 **Characteristics:** Top-down design, stepwise refinement, procedures and functions, global and
 Local scope, sequential execution.
@@ -779,7 +835,7 @@ Can be modified anywhere), limited code reuse.
 ### Object-Oriented Programming (OOP)
 
 Programs are organized around objects that combine data (attributes) and behavior (methods). Objects
-Are instances of classes, which define the structure and behavior.
+are instances of classes, which define the structure and behavior.
 
 **Characteristics:** Encapsulation, inheritance, polymorphism, abstraction, classes and objects,
 Message passing.
@@ -795,8 +851,8 @@ Overkill for simple programs.
 ### Functional Programming
 
 Programs are structured as a composition of pure functions. Data is immutable -- once created, it
-Cannot be changed. Functions are first-class citizens (they can be passed as arguments, returned as
-Values, and stored in data structures).
+cannot be changed. Functions are first-class citizens (they can be passed as arguments, returned as
+values, and stored in data structures).
 
 **Characteristics:** Pure functions, immutability, higher-order functions, recursion instead of
 Loops, function composition.
@@ -811,6 +867,8 @@ Overhead (creating new copies of data structures), steep learning curve for impe
 
 ### Paradigm Comparison
 
+<div class="table-wrap">
+
 | Aspect       | Procedural          | OOP                         | Functional             |
 | ------------ | ------------------- | --------------------------- | ---------------------- |
 | Primary unit | Procedure/function  | Object/class                | Function               |
@@ -819,6 +877,8 @@ Overhead (creating new copies of data structures), steep learning curve for impe
 | Reuse        | Libraries           | Inheritance, composition    | Higher-order functions |
 | Side effects | Common              | Controlled by encapsulation | Avoided                |
 | Parallelism  | Manual              | Manual                      | Natural                |
+
+</div>
 
 ### Worked Example: Identifying Programming Paradigms
 
@@ -893,7 +953,7 @@ The IB defines a specific pseudocode standard. Key elements:
 
 **Variable assignment:** `variable ← expression`
 
-**Input/output:** `INPUT variable``OUTPUT expression`
+**Input/output:** `INPUT variable`, `OUTPUT expression`
 
 **Selection:** `IF ... THEN ... ELSE IF ... ELSE ... END IF`
 
@@ -909,7 +969,7 @@ The IB defines a specific pseudocode standard. Key elements:
 
 **Functions:** `FUNCTION name(params) RETURNS type ... END FUNCTION`
 
-**Arrays:** Zero-indexed, `arr[i]``matrix[i, j]`
+**Arrays:** Zero-indexed, `arr[i]`, `matrix[i, j]`
 
 **Comments:** Use `//` for single-line comments.
 
@@ -917,7 +977,7 @@ The IB defines a specific pseudocode standard. Key elements:
 
 Nassi-Shneiderman diagrams (also called structorgrams) are a structured alternative to traditional
 Flowcharts. They eliminate the need for flow lines (arrows) by using nested rectangular blocks. This
-Enforces structured programming -- there is no way to represent a GOTO or unstructured branching.
+enforces structured programming -- there is no way to represent a GOTO or unstructured branching.
 
 The diagram uses three fundamental structures:
 
@@ -930,9 +990,9 @@ The diagram uses three fundamental structures:
    condition appears at the bottom.
 
 Nassi-Shneiderman diagrams are particularly useful for illustrating structured algorithms because
-They make the nesting of control structures visually explicit. They cannot represent unstructured
+they make the nesting of control structures visually explicit. They cannot represent unstructured
 Jumps, which is both a strength (enforcing good practice) and a limitation (cannot represent certain
-Low-level algorithms).
+low-level algorithms).
 
 ### Worked Example: Converting a Problem Description to IB Pseudocode
 
@@ -981,7 +1041,7 @@ Examples: missing semicolons, mismatched parentheses, misspelled keywords, undec
 
 **Logic errors:** The program runs without crashing but produces incorrect results. The code does
 Something different from what the programmer intended. Logic errors are the most difficult to find
-Because the program appears to work.
+because the program appears to work.
 
 Examples: off-by-one errors in loop bounds, incorrect comparison operators, wrong formula, using
 Assignment (`=`) instead of comparison (`==`) in a condition.
@@ -1011,6 +1071,8 @@ END FUNCTION
 
 Trace with `n = 3`:
 
+<div class="table-wrap">
+
 | Step | i   | n   | result | i `$\le$` n | result + i \* i |
 | ---- | --- | --- | ------ | ----------- | --------------- |
 | 1    | 1   | 3   | 0      | True        | 0 + 1 = 1       |
@@ -1018,16 +1080,20 @@ Trace with `n = 3`:
 | 3    | 3   | 3   | 5      | True        | 5 + 9 = 14      |
 | 4    | 4   | 3   | 14     | False       | --              |
 
+</div>
+
 The function returns 14, which is $1^2 + 2^2 + 3^2 = 14$. It computes the sum of squares.
 
 ### Worked Example: Selecting Test Data
 
 A function `getLetterGrade(score)` accepts an integer score from 0 to 100 and returns a letter grade
 (A: 90-100, B: 80-89, C: 70-79, D: 60-69, F: 0-59). Identify appropriate test data for each
-Category.
+category.
 
 <details>
 <summary>Solution</summary>
+
+<div class="table-wrap">
 
 | Category  | Test Input | Expected Output | Rationale                                            |
 | --------- | ---------- | --------------- | ---------------------------------------------------- |
@@ -1042,8 +1108,10 @@ Category.
 | Erroneous | 105        | Error message   | Above valid range                                    |
 | Erroneous | "abc"      | Error message   | Wrong data type (string instead of integer)          |
 
+</div>
+
 Boundary values are the most likely to reveal off-by-one errors. Always test the exact boundary and
-One value on each side.
+one value on each side.
 
 </details>
 
@@ -1075,12 +1143,16 @@ Specific paths, branches, and conditions in the code.
 
 ### Test Data Categories
 
+<div class="table-wrap">
+
 | Category  | Description                              | Example (function: `isEven(n)`)   |
 | --------- | ---------------------------------------- | --------------------------------- |
 | Normal    | Typical inputs within the expected range | `isEven(4)` returns TRUE          |
 | Boundary  | Values at the edge of valid ranges       | `isEven(0)` returns TRUE          |
 | Erroneous | Invalid inputs that should be rejected   | `isEven(-1)` returns FALSE        |
 | Extreme   | Very large or very small values          | `isEven(2147483646)` returns TRUE |
+
+</div>
 
 ### Worked Example: Constructing an Advanced Trace Table
 
@@ -1109,6 +1181,8 @@ END FUNCTION
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | `i` | `arr[i]` | `arr[i] = target` | `count` | `firstIndex` | `firstIndex = -1` |
 | ---- | --- | -------- | ----------------- | ------- | ------------ | ----------------- |
 | Init | 0   | --       | --                | 0       | -1           | --                |
@@ -1119,6 +1193,8 @@ END FUNCTION
 | 5    | 4   | 8        | TRUE              | 2       | 2            | FALSE (not -1)    |
 | 6    | 5   | 3        | FALSE             | 2       | 2            | --                |
 | 7    | 6   | --       | --                | 2       | 2            | -- (loop ends)    |
+
+</div>
 
 Output: **First at: 2, Count: 2**
 
@@ -1144,7 +1220,7 @@ occurrences.
 ## Exception Handling
 
 Exception handling is a mechanism for managing runtime errors gracefully without crashing the
-Program. When an exceptional condition occurs (e.g., division by zero, file not found, invalid
+program. When an exceptional condition occurs (e.g., division by zero, file not found, invalid
 Input), an exception object is created and "thrown." The program can "catch" the exception and take
 Corrective action.
 
@@ -1162,7 +1238,7 @@ END TRY
 ```
 
 The `TRY` block contains the code that might throw an exception. The `CATCH` block handles the
-Exception if one occurs. The `FINALLY` block executes regardless of whether an exception occurred --
+exception if one occurs. The `FINALLY` block executes regardless of whether an exception occurred --
 It is used for cleanup operations like closing files or releasing resources.
 
 ### Worked Example: Exception Handling in Practice
@@ -1223,13 +1299,13 @@ END LOOP
   that can never become false.
 - Modifying the loop variable inside the loop body (in a FOR loop), which can produce unexpected
   behavior depending on the language.
-- Fence-post errors: looping one time too many or one time too few. For an array of size $n$Valid
+- Fence-post errors: looping one time too many or one time too few. For an array of size $n$ Valid
   indices are $0$ to $n - 1$.
 
 **Recursion:**
 
 - Missing base case, causing infinite recursion and stack overflow.
-- Base case that is never reached, e.g., `factorial(-1)` calls `factorial(-2)`Which calls
+- Base case that is never reached, e.g., `factorial(-1)` calls `factorial(-2)`. Which calls
   `factorial(-3)`And so on indefinitely.
 - Excessive recursion depth for problems that could be solved iteratively, leading to performance
   degradation.
@@ -1284,7 +1360,9 @@ result ← (17 DIV 4) + (17 MOD 4) * 2 ^ 3 - 1
 <summary>Solution</summary>
 
 Following operator precedence (parentheses first, then exponentiation, then multiplication, then
-Addition/subtraction):
+addition/subtraction):
+
+<div class="table-wrap">
 
 | Step | Expression                        | Result |
 | ---- | --------------------------------- | ------ |
@@ -1295,13 +1373,15 @@ Addition/subtraction):
 | 5    | `4 + 8` (DIV result plus product) | 12     |
 | 6    | `12 - 1`                          | 11     |
 
+</div>
+
 `result = 11`
 
 **Revision:** Operators, Operator Precedence
 
 </details>
 
-**Q3.** Given `a ← TRUE``b ← FALSE``c ← TRUE`Evaluate each expression: (a) `NOT a AND b` (b)
+**Q3.** Given `a ← TRUE`, `b ← FALSE`, `c ← TRUE`Evaluate each expression: (a) `NOT a AND b` (b)
 `a OR b AND c` (c) `NOT (a OR b) XOR c` (d) `(a AND b) OR (NOT b AND c)`
 
 <details>
@@ -1364,6 +1444,8 @@ OUTPUT grade
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Condition      | Result | Action        |
 | ---- | -------------- | ------ | ------------- |
 | 1    | `55 $\ge$` 90` | FALSE  | Check next    |
@@ -1372,6 +1454,8 @@ OUTPUT grade
 | 4    | `55 $\ge$` 60` | FALSE  | Check next    |
 | 5    | (else branch)  | --     | `grade ← "F"` |
 | 6    | --             | --     | OUTPUT "F"    |
+
+</div>
 
 Output: **F**
 
@@ -1443,12 +1527,16 @@ END FOR
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Outer `i` | Inner `j` range | `output` built | OUTPUT |
 | --------- | --------------- | -------------- | ------ |
 | 1         | 1 to 1          | `*`            | `*`    |
 | 2         | 1 to 2          | `**`           | `**`   |
 | 3         | 1 to 3          | `***`          | `***`  |
 | 4         | 1 to 4          | `****`         | `****` |
+
+</div>
 
 Output:
 
@@ -1516,13 +1604,13 @@ a sorted array using binary search
 
 **Key difference:** WHILE is a pre-test loop (condition checked before the body; may execute zero
 Times). REPEAT...UNTIL is a post-test loop (condition checked after the body; always executes at
-Least once).
+least once).
 
 (a) **REPEAT...UNTIL** -- The user must see the prompt at least once before they can provide input.
 Post-test is correct because the body must run at least once.
 
 (b) **WHILE** -- If the queue is empty, there is nothing to process. The loop should not execute at
-All. Pre-test is correct.
+all. Pre-test is correct.
 
 (c) **WHILE** -- Binary search may terminate immediately if the search range is empty (e.g.,
 searching An empty array). Pre-test is correct.
@@ -1544,6 +1632,8 @@ END FOR
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Outer `i` | Inner `j` values | Inner iterations |
 | --------- | ---------------- | ---------------- |
 | 0         | 0, 1, 2, 3, 4    | 5                |
@@ -1551,6 +1641,8 @@ END FOR
 | 2         | 2, 3, 4          | 3                |
 | 3         | 3, 4             | 2                |
 | 4         | 4                | 1                |
+
+</div>
 
 Total: $5 + 4 + 3 + 2 + 1 = 15$ times.
 
@@ -1595,13 +1687,13 @@ END FUNCTION
 - Check divisibility by 2 separately, then only test odd divisors (step by 2).
 - Only test up to $\sqrt{n}$ (since if $n = a \times b$ and $a \leq b$ Then $a \leq \sqrt{n}$). In
   pseudocode, `i * i $\le$` n avoids needing a square root function.
-- Time complexity: $O(\sqrt{n})$Which is efficient for the values tested in IB exams.
+- Time complexity: $O(\sqrt{n})$ Which is efficient for the values tested in IB exams.
 
 **Revision:** Functions, Iteration, WHILE Loop, Operators (MOD)
 
 </details>
 
-**Q12.** Trace the following pseudocode and state the final values of `a``b`And `c`:
+**Q12.** Trace the following pseudocode and state the final values of `a`, `b` and `c`:
 
 ```python
 PROCEDURE modify(REF x, y, REF z)
@@ -1620,6 +1712,8 @@ OUTPUT a, b, c
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Action                    | `a` | `b` | `c` | `x` | `y` | `z` |
 | ---- | ------------------------- | --- | --- | --- | --- | --- | --- |
 | 1    | Initialize                | 5   | 3   | 10  | --  | --  | --  |
@@ -1629,10 +1723,12 @@ OUTPUT a, b, c
 | 5    | `z ← x + z` (REF to `c`)  | 8   | 3   | 18  | 8   | 6   | 18  |
 | 6    | Procedure returns         | 8   | 3   | 18  | --  | --  | --  |
 
+</div>
+
 Final values: **a = 8, b = 3, c = 18**
 
-`x` (REF to `a`) and `z` (REF to `c`) are aliases, so changes persist. `y` is a copy of `b`So
-Changes to `y` do not affect `b`.
+`x` (REF to `a`) and `z` (REF to `c`) are aliases, so changes persist. `y` is a copy of `b`. So
+changes to `y` do not affect `b`.
 
 **Revision:** Parameter Passing, By Value, By Reference
 
@@ -1653,6 +1749,8 @@ FUNCTION factorial(n) RETURNS INTEGER
 END FUNCTION
 ```
 
+<div class="table-wrap">
+
 | Call           | `n` | Base case? | Action                | Return value        |
 | -------------- | --- | ---------- | --------------------- | ------------------- |
 | `factorial(5)` | 5   | No         | Calls `factorial(4)`  | $5 \times 24 = 120$ |
@@ -1660,6 +1758,8 @@ END FUNCTION
 | `factorial(3)` | 3   | No         | Calls `factorial(2)`  | $3 \times 2 = 6$    |
 | `factorial(2)` | 2   | No         | Calls `factorial(1)`  | $2 \times 1 = 2$    |
 | `factorial(1)` | 1   | Yes        | Returns 1 (base case) | 1                   |
+
+</div>
 
 **Stack frames created:** 5 (one for each call from `factorial(5)` down to `factorial(1)`)
 
@@ -1785,33 +1885,19 @@ END IF
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site    | Link                                                                                                           |
 | ------------------------ | ------- | -------------------------------------------------------------------------------------------------------------- |
 | [Programming Constructs] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/programming/01-programming-constructs) |
-| [Programming Constructs] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/7-control/1_programming-fundamentals)                   |
-| [Programming Constructs] | DSE     | [View](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases/1_programming-fundamentals)            |
+| [Programming Constructs] | IB      | [View](https://ib.wyattau.com/computer-science/7-control/1_programming-fundamentals/)                   |
+| [Programming Constructs] | DSE     | [View](https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals/)            |
 
-
-```mermaid
-flowchart TD
-    A[1_Programming Fundamentals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

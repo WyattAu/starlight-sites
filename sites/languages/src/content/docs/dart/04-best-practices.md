@@ -46,7 +46,7 @@ categories:
 ### Collections
 
 - Use collection `if`/`for`/`spreads` for concise code.
-- Prefer `.map()``.where()`And `.fold()` over manual loops where appropriate.
+- Prefer `.map()`, `.where()` and `.fold()` over manual loops where appropriate.
 
 ### Error Handling
 
@@ -70,7 +70,7 @@ categories:
 - Use `freezed` for immutable models and unions.
 - Serialize JSON with `json_serializable`.
 - Use `MethodChannel` for native integrations (Kotlin/Swift).
-- Organize layers into `data``domain`And `presentation`.
+- Organize layers into `data`, `domain` and `presentation`.
 
 ### Widget Optimizations
 
@@ -79,12 +79,12 @@ categories:
 - Avoid `Opacity` for animations; prefer `AnimatedOpacity` or `Transform`.
 - Use `ListView.builder` (or `CustomScrollView`) for infinite/large lists (lazy loading).
 - Extract expensive computations from `build()` methods.
-- Use `Key`S (e.g., `ValueKey``UniqueKey`) when modifying collections of stateful widgets.
+- Use `Key`s (e.g., `ValueKey`, `UniqueKey`) when modifying collections of stateful widgets.
 - Use `precacheImage` for images loaded on-demand.
 
 ### UI/UX Considerations
 
-- Use `LayoutBuilder``MediaQuery`Or `SafeArea`.
+- Use `LayoutBuilder`, `MediaQuery` or `SafeArea`.
 - Test on multiple screen sizes (e.g., using `DevicePreview`).
 - Add semantic labels (`Semantics` widget), use `ExcludeSemantics` where needed.
 - Support dynamic text sizing (`TextScaler`).
@@ -97,9 +97,9 @@ categories:
 
 - Test performance in profile mode (`flutter run --profile`).
 - Use DevTools to check for jank, memory leaks, and CPU usage.
-- Dispose controllers (`ScrollController``TextEditingController`) and subscriptions.
+- Dispose controllers (`ScrollController`, `TextEditingController`) and subscriptions.
 - Use `const` widgets to reduce garbage collection.
-- Minimize `ClipPath``Opacity`And `ShaderMask` usages in animations.
+- Minimize `ClipPath`, `Opacity` and `ShaderMask` usages in animations.
 - Prefer `CustomPaint` for complex UIs over deep widget trees.
 - Compress images (use `.webp` format).
 - Cache images with `cached_network_image`.
@@ -150,14 +150,7 @@ categories:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -166,23 +159,3 @@ linked above.
 - **[Async and Futures](https://dart.wyattau.com/05-async/01-async-and-futures/):** Concurrency best practices including async/await and isolate usage.
 - **[Class Modifiers](https://dart.wyattau.com/07-dart3-features/03-class-modifiers/):** Dart 3 modifier patterns for API boundary enforcement.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

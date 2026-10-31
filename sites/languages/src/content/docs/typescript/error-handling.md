@@ -22,7 +22,7 @@ categories: [TypeScript]
 
 The `never` type is the **bottom type** of the TypeScript type system. It has no inhabitants: no
 Value of type `never` can exist at runtime. It is a subtype of every type, and no type is a subtype
-Of `never` (except `never` itself).
+of `never` (except `never` itself).
 
 `never` appears in two principal contexts:
 
@@ -82,21 +82,25 @@ function area(shape: Shape): number {
 ```
 
 If a new variant is added to `Shape` (e.g., `{ kind: "pentagon"; ... }`) without updating the
-`switch`The assignment `_exhaustive: never` produces a compile error because the new variant is Not
+`switch`. The assignment `_exhaustive: never` produces a compile error because the new variant is Not
 assignable to `never`.
 
 ## `unknown` vs `any`
 
 ### Precise Semantics
 
+<div class="table-wrap">
+
 | Type      | Assignable to everything? | Everything assignable to it?  | Type narrowing required? |
 | --------- | ------------------------- | ----------------------------- | ------------------------ |
 | `any`     | Yes                       | Yes                           | No                       |
 | `unknown` | Yes                       | No (only `any` and `unknown`) | Yes                      |
 
+</div>
+
 `any` disables the type system entirely. A value typed as `any` can be used as any type, and any
 Value can be assigned to it. `unknown` is the type-safe alternative: it can hold any value, but it
-Must be narrowed before use.
+must be narrowed before use.
 
 ### `unknown` for Error Handling
 
@@ -153,6 +157,8 @@ Runtime, and the `any` type prevents the compiler from catching this.
 
 JavaScript provides several built-in error classes, all of which TypeScript types natively:
 
+<div class="table-wrap">
+
 | Error Class      | Purpose                    |
 | ---------------- | -------------------------- |
 | `Error`          | Generic error              |
@@ -163,7 +169,9 @@ JavaScript provides several built-in error classes, all of which TypeScript type
 | `URIError`       | Invalid URI operation      |
 | `EvalError`      | Error in `eval()` (legacy) |
 
-All built-in error classes inherit from `Error`Which provides the `message``name`And `stack`
+</div>
+
+All built-in error classes inherit from `Error`. Which provides the `message`, `name` and `stack`
 Properties.
 
 ### Custom Error Classes
@@ -247,7 +255,7 @@ function handleAppError(error: AppError): void {
 ```
 
 **Common Pitfall:** When extending `Error`Call `super(message)` in the constructor and set
-`this.name`. Without `super()`The `message` property is not initialised. Without `this.name`
+`this.name`. Without `super()`. The `message` property is not initialised. Without `this.name`
 `instanceof` checks still work, but `error.name` defaults to `"Error"`.
 
 ## `try`/`catch`/`finally` Typing
@@ -292,7 +300,7 @@ function safeParse(json: string): unknown {
 ### The `finally` Block
 
 The `finally` block always executes, even when `try` or `catch` returns or throws. TypeScript does
-Not narrow types across `finally` boundaries because the control flow is non-local:
+not narrow types across `finally` boundaries because the control flow is non-local:
 
 ```ts
 function example(): string {
@@ -506,7 +514,7 @@ function processAction(action: Action): void {
 }
 ```
 
-If a new variant is added to `Action`The `assertNever` call produces a compile error because the New
+If a new variant is added to `Action`. The `assertNever` call produces a compile error because the New
 variant is not assignable to `never`.
 
 ## Result Type Pattern
@@ -638,11 +646,15 @@ async function safeFetch(url: string): AsyncResult<Response, NetworkError> {
 
 These three concepts are often conflated but have distinct meanings in TypeScript:
 
+<div class="table-wrap">
+
 | Concept           | Type       | Meaning                                |
-| ----------------- | ---------- | -------------------------------------- | ------------------------------ |
+| ----------------- | ---------- | -------------------------------------- |
 | Optional property | `prop?: T` | Property may be absent from the object |
 | Nullable          | `T         | null`                                  | Value may be explicitly `null` |
 | Undefined         | `T         | undefined`                             | Value may be `undefined`       |
+
+</div>
 
 ### Optional Properties
 
@@ -661,7 +673,7 @@ const a: Config = {};
 const b: Config = { host: "localhost' };
 ```
 
-Under `exactOptionalPropertyTypes``const c: Config = { host: undefined }` is an error.
+Under `exactOptionalPropertyTypes`, `const c: Config = { host: undefined }` is an error.
 
 ### Null vs Undefined
 
@@ -703,7 +715,7 @@ function applySettings(settings: Settings): void {
 ```
 
 `??` treats only `null` and `undefined` as nullish, making it the correct operator for default
-Values when `0``""`Or `false` are valid values.
+Values when `0`, `""` or `false` are valid values.
 
 ## Common Pitfalls
 
@@ -731,7 +743,7 @@ throw { code: 500 };
 ```
 
 This is legal JavaScript but makes error handling fragile. Always throw `Error` instances (or
-Subclasses) to ensure consistent `message``name`And `stack` properties.
+Subclasses) to ensure consistent `message`, `name` and `stack` properties.
 
 ### Pitfall 3: Swallowed Errors
 
@@ -763,17 +775,6 @@ Error boundaries in React do not catch errors in:
 Use error boundaries only for rendering errors. For all other error scenarios, use standard
 `try`/`catch` with the Result pattern or assert functions.
 
-
-```mermaid
-flowchart TD
-    A[Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical
@@ -787,13 +788,7 @@ implementation, and key applications.
 - modules and namespaces
 - type guards and narrowing
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

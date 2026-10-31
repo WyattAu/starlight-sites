@@ -139,6 +139,8 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see Linux for OS-
 
 ## Tuning Workflow Reference
 
+<div class="table-wrap">
+
 | Step | Action | Tool |
 |------|--------|------|
 | 1 | Record stock baseline | HWiNFO log + bench suite |
@@ -148,7 +150,11 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see Linux for OS-
 | 5 | Re-baseline | Score delta vs variance band |
 | 6 | Iterate or lock | Continue gains or save stable profile |
 
+</div>
+
 ## Voltage Terms
+
+<div class="table-wrap">
 
 | Term | Meaning |
 |------|---------|
@@ -160,3 +166,5 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see Linux for OS-
 | Offset mode | Voltage scales with load relative to a base offset |
 | Adaptive/Fixed | CPU-chosen voltage vs hard-set constant (used for extreme OC) |
 | LLC level | Droop compensation strength (moderate beats maximum) |
+
+</div>

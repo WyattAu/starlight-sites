@@ -25,10 +25,12 @@ categories:
 
 A Level Further Mathematics extends the tools of pure mathematics to more abstract and powerful
 Settings, introduces advanced statistical methods, and deepens the study of mechanics. It is the
-Natural next step for students who intend to study mathematics, physics, engineering, or computer
+natural next step for students who intend to study mathematics, physics, engineering, or computer
 Science at university.
 
 ### Board Coverage
+
+<div class="table-wrap">
 
 | Topic                                        | AQA     | Edexcel  | OCR (A) | CIE (9231) |
 | -------------------------------------------- | ------- | -------- | ------- | ---------- |
@@ -49,6 +51,8 @@ Science at university.
 | Further Mechanics: Centres of Mass           | Paper 2 | M2       | Paper 2 | M2         |
 | Further Mechanics: Elastic Collisions        |,       | M2       |,       | M2         |
 
+</div>
+
 ### Course Structure
 
 #### Pure Mathematics
@@ -56,7 +60,7 @@ Science at university.
 The further pure core extends A Level mathematics into territory that is essential for university
 STEM courses:
 
-- **Complex numbers**, Argand diagrams, De Moivre"s theorem, roots of unity, exponential form
+- **Complex numbers**, Argand diagrams, De Moivre's theorem, roots of unity, exponential form
   $e^{i\theta}$
 - **Matrices**, determinants, inverses, transformations in 2D and 3D, eigenvalues (AQA)
 - **Further algebra**, roots of polynomial equations, partial fractions with irreducible quadratics
@@ -86,12 +90,16 @@ STEM courses:
 
 ### Assessment
 
+<div class="table-wrap">
+
 | Board   | Papers                                             | Weighting       |
 | ------- | -------------------------------------------------- | --------------- |
 | AQA     | Paper 1 (Pure), Paper 2 (Stat/Mech)                | 50% each        |
 | Edexcel | FP1, FP2, FP3 (Pure), S2, S3, S4 (Stat), M2 (Mech) | Varies by route |
 | OCR (A) | Paper 1 (Pure), Paper 2 (Stat/Mech)                | 50% each        |
 | CIE     | P1, P2 (Pure), S2 (Stat), M2 (Mech)                | Varies          |
+
+</div>
 
 ### How to Use These Notes
 
@@ -127,36 +135,22 @@ Master the pure core first, complex numbers and matrices are prerequisites for t
 Practise full exam papers under timed conditions; Further Maths questions require chaining 3--4
 techniques in a single problem. Focus on proof questions: they carry high marks and require you to
 justify every step. Use the Further Pure modules as the backbone, then branch into Statistics or
-Mechanics based on your module route.
+mechanics based on your module route.
 
 ### Key Formulae
+
+<div class="table-wrap">
 
 | Topic     | Formula                                                               |
 | --------- | --------------------------------------------------------------------- |
 | De Moivre | $(\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta$ |
 | Maclaurin | $f(x) = f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2 + \\ldots$              |
 
-
-```mermaid
-flowchart TD
-    A[Further Maths] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -164,23 +158,3 @@ linked above.
 - **[Further Mechanics](/further-maths/further-maths/):** Mechanics applies maths to physics
 - **[Further Statistics](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/):** Statistics covers probability distributions
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

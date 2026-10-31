@@ -17,17 +17,6 @@ description: "A is a situation where a set of processes are all blocked, each wa
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[4_Deadlocks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Deadlock is a **circular wait**, two or more processes are each holding a resource the other needs, and neither will release what they have. Think of a traffic jam at a four-way intersection where each car refuses to back up. The critical insight is that deadlock is not about a single resource being busy; it's about a *cycle* of dependencies.
@@ -53,6 +42,8 @@ Held by another process in the set.
 
 Eliminate one of the four Coffman conditions:
 
+<div class="table-wrap">
+
 | Condition        | Prevention strategy                                               |
 | ---------------- | ----------------------------------------------------------------- |
 | Mutual exclusion | Generally not feasible for non-sharable resources                 |
@@ -60,7 +51,9 @@ Eliminate one of the four Coffman conditions:
 | No preemption    | Release held resources if a new request cannot be granted         |
 | Circular wait    | Impose a total ordering on resources; request in increasing order |
 
-### 4.3 Deadlock Avoidance: Banker"s Algorithm
+</div>
+
+### 4.3 Deadlock Avoidance: Banker's Algorithm
 
 The **Banker's algorithm** avoids deadlock by checking whether granting a request leads to a safe
 State.
@@ -99,6 +92,8 @@ State.
 
 **Example.** Five processes, three resource types, $A = (3, 3, 2)$:
 
+<div class="table-wrap">
+
 | Process | Allocation | Max     | Need    |
 | ------- | ---------- | ------- | ------- |
 | $P_0$   | (0,1,0)    | (7,5,3) | (7,4,3) |
@@ -107,8 +102,10 @@ State.
 | $P_3$   | (2,1,1)    | (2,2,2) | (0,1,1) |
 | $P_4$   | (0,0,2)    | (4,3,3) | (4,3,1) |
 
-Safety check: $P_1$ has $\mathrm{Need} = (1,2,2) \leq (3,3,2) = A$. Execute $P_1$Release
-$(2,0,0)$New $A = (5,3,2)$. Then $P_3$: $\mathrm{Need} = (0,1,1) \leq (5,3,2)$. Continuing, All
+</div>
+
+Safety check: $P_1$ has $\mathrm{Need} = (1,2,2) \leq (3,3,2) = A$. Execute $P_1$ Release
+$(2,0,0)$ New $A = (5,3,2)$. Then $P_3$: $\mathrm{Need} = (0,1,1) \leq (5,3,2)$. Continuing, All
 processes can complete: system is **safe**.
 
 <details>
@@ -122,6 +119,8 @@ Given the state above, suppose $P_1$ requests $(1,0,2)$.
 
 *Step 3:* Pretend to allocate:
 
+<div class="table-wrap">
+
 | Process | Allocation | Max     | Need    |
 | ------- | ---------- | ------- | ------- |
 | $P_0$   | (0,1,0)    | (7,5,3) | (7,4,3) |
@@ -129,6 +128,8 @@ Given the state above, suppose $P_1$ requests $(1,0,2)$.
 | $P_2$   | (3,0,2)    | (9,0,2) | (6,0,0) |
 | $P_3$   | (2,1,1)    | (2,2,2) | (0,1,1) |
 | $P_4$   | (0,0,2)    | (4,3,3) | (4,3,1) |
+
+</div>
 
 $A = (3,3,2) - (1,0,2) = (2,3,0)$.
 
@@ -170,7 +171,7 @@ Safe sequence: $\langle P_3, P_1, P_0, P_4, P_2 \rangle$. The request is **grant
 Sequence of process completions that avoids deadlock.
 
 *Proof.* The safety algorithm constructs an explicit sequence. Each process in the sequence can run
-To completion with the currently available resources plus those released by previously completed
+to completion with the currently available resources plus those released by previously completed
 Processes. If no such sequence exists, there is a set of processes whose combined needs exceed
 Available resources. $\blacksquare$
 
@@ -200,11 +201,15 @@ Allow deadlocks to occur, then detect and recover.
 
 Three processes and one resource type with 10 instances:
 
+<div class="table-wrap">
+
 | Process | Allocation | Maximum |
 | ------- | ---------- | ------- |
 | $P_0$   | 5          | 9       |
 | $P_1$   | 2          | 4       |
 | $P_2$   | 2          | 7       |
+
+</div>
 
 Available = $10 - (5 + 2 + 2) = 1$.
 
@@ -219,7 +224,7 @@ The system is in an **unsafe state** with a deadlock involving $\{P_0, P_1, P_2\
 
 *Recovery:* Preempt 3 units from $P_0$ (reducing its allocation to 2). Now Available = 4. $P_1$ can
 proceed ($\mathrm{Request_1} = 2 \leq 4$). After $P_1$ finishes, Available = $4 + 2 = 6$. $P_0$:
-$\mathrm{Request_0} = 4 \leq 6$Proceeds. After: Available = $6 + 5 = 11$. $P_2$ proceeds. Deadlock
+$\mathrm{Request_0} = 4 \leq 6$ Proceeds. After: Available = $6 + 5 = 11$. $P_2$ proceeds. Deadlock
 resolved.
 
 </details>

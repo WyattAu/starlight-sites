@@ -30,7 +30,7 @@ software: how information is encoded, transformed, stored, and retrieved. For in
 BLOA might explain memory failure through hippocampal damage or acetylcholine deficiency, the CLOA
 explains it through interference, decay, or reconstructive processes shaped by schemas. The
 sociocultural level then contextualises these cognitive processes: memory accuracy, for example,
-varies with cultural framing (Loftus and Palmer"s leading questions) and social pressure (conformity
+varies with cultural framing (Loftus and Palmer's leading questions) and social pressure (conformity
 effects on recall). The CLOA thus occupies a mediating position in the three-level framework,
 translating biological inputs into behaviour that is further shaped by social context.
 
@@ -161,6 +161,8 @@ Cognitive psychology relies on methods that infer internal mental processes from
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Researcher (Year)           | Focus                        | Key Finding                                                                                                                                                                                                    |
 | --------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Loftus and Palmer (1974)    | Reconstructive memory        | Participants estimated higher car speeds when the verb "smashed" was used instead of "contacted," and were more likely to falsely report broken glass, demonstrating post-event information effects on memory. |
@@ -169,16 +171,7 @@ Cognitive psychology relies on methods that infer internal mental processes from
 | Tversky and Kahneman (1973) | Heuristics and biases        | Demonstrated the availability and representativeness heuristics, showing that people rely on mental shortcuts that lead to predictable, systematic errors in probability judgement.                            |
 | Beck (1967)                 | Cognitive bias in depression | Identified the cognitive triad (negative views of self, world, and future) and negative automatic thoughts as central features of depression, forming the basis of cognitive-behavioural therapy.              |
 
-
-```mermaid
-flowchart TD
-    A[Cognitive Level Of Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Summary
 

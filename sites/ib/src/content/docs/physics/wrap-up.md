@@ -21,6 +21,8 @@ strategies for final revision.
 
 ## Thematic Area Summaries
 
+<div class="table-wrap">
+
 | Theme                                 | Key Topics                                                         | Full Notes                                                               |
 | :------------------------------------ | :----------------------------------------------------------------- | :----------------------------------------------------------------------- |
 | A -- Space, Time, and Motion          | Kinematics, dynamics, work and energy, momentum, rotational motion | [Mechanics](/physics/1-space-time-and-motion/1_kinematics/)                      |
@@ -28,6 +30,8 @@ strategies for final revision.
 | C -- Wave Behaviour                   | SHM, wave properties, wave phenomena                               | [Waves](/physics/3-wave-behaviour/1_simple-harmonic-motion/)                     |
 | D -- Fields                           | Gravitational fields, electric and magnetic fields                 | [Fields](/physics/4-fields/1_gravitational-fields/)                              |
 | E -- Nuclear and Quantum Physics      | Quantum physics, radioactive decay, structure of the atom          | [Nuclear](/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics/) |
+
+</div>
 
 ## Review Strategies
 
@@ -215,27 +219,9 @@ and improves your ability to tackle synoptic questions.
 3. Forgetting to convert units (especially degrees to radians, and temperature scales).
 4. Neglecting significant figures and uncertainty in final answers.
 
-
-```mermaid
-flowchart TD
-    A[Wrap Up] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

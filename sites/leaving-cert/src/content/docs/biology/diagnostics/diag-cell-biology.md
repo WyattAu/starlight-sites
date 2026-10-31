@@ -58,6 +58,8 @@ at least four differences.
 
 (b)
 
+<div class="table-wrap">
+
 | Feature       | Light Microscope                                   | Electron Microscope                                                                      |
 | ------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Resolution    | Up to $0.2\,\mu\text{m}$ (200 nm)                  | Up to $0.2\,\text{nm}$ (TEM)                                                             |
@@ -67,9 +69,13 @@ at least four differences.
 | Vacuum        | Not required                                       | Required (electron beam travels in vacuum)                                               |
 | Radiation     | Light (photons)                                    | Beam of electrons                                                                        |
 
+</div>
+
 (c) Image size $= 4.2\,\text{cm} = 42{,}000\,\mu\text{m}$.
 
-$$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{42000}{5000} = 8.4\,\mu\text{m}$$
+$$
+\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{42000}{5000} = 8.4\,\mu\text{m}
+$$
 
 (d) Four differences between prokaryotic and eukaryotic cells:
 
@@ -375,27 +381,9 @@ and starch, volume, pH).
 
 **The key insight:** The cell membrane is not a passive wall, it is a dynamic, selectively permeable barrier that actively controls what enters and leaves the cell.
 
-
-```mermaid
-flowchart TD
-    A[Diag Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

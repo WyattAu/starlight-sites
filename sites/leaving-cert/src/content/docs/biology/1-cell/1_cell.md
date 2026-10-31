@@ -23,7 +23,7 @@ categories:
 ## Cell Biology
 
 Cell biology is the study of the structure and function of cells, the basic units of life. This
-Topic covers cell structure, organelles, membrane transport, cell division, and the biochemical
+topic covers cell structure, organelles, membrane transport, cell division, and the biochemical
 Processes of photosynthesis and respiration.
 
 ## Cell Theory (OL/HL)
@@ -52,6 +52,8 @@ Processes of photosynthesis and respiration.
 - Ribosomes (80S, larger).
 - Linear chromosomes.
 
+<div class="table-wrap">
+
 | Feature    | Prokaryote       | Eukaryote                            |
 | ---------- | ---------------- | ------------------------------------ |
 | Nucleus    | No               | Yes                                  |
@@ -60,6 +62,8 @@ Processes of photosynthesis and respiration.
 | Size       | 1--10 um         | 10--100 um                           |
 | Ribosomes  | 70S              | 80S                                  |
 | Cell wall  | Peptidoglycan    | Cellulose (plants) or chitin (fungi) |
+
+</div>
 
 ## Cell Organelles (OL/HL)
 
@@ -156,7 +160,7 @@ cell Wall prevents bursting by exerting inward pressure (turgor pressure) that o
 Entry.
 
 (b) $\psi_{\mathrm{solution} = -700$ kPa (isotonic): No net water movement. The cell is in
-Equilibrium with the solution.
+equilibrium with the solution.
 
 (c) $\psi_{\mathrm{solution} = -1000$ kPa (hypertonic): Water leaves the cell. The cell membrane
 Pulls away from the cell wall (plasmolysis). The cell becomes flaccid.
@@ -187,7 +191,7 @@ Produces two genetically identical daughter cells. Used for growth and repair.
 ### Meiosis (HL)
 
 Produces four genetically different daughter cells (gametes) with half the chromosome number. Used
-For sexual reproduction.
+for sexual reproduction.
 
 **Key features:**
 
@@ -213,9 +217,11 @@ A cell with 46 chromosomes (diploid, $2n = 46$):
 After mitosis: two daughter cells, each with 46 chromosomes. All cells are genetically identical.
 
 After meiosis: four daughter cells, each with 23 chromosomes (haploid, $n = 23$). All four cells are
-Genetically different.
+genetically different.
 
 The key differences:
+
+<div class="table-wrap">
 
 | Feature             | Mitosis        | Meiosis           |
 | ------------------- | -------------- | ----------------- |
@@ -225,6 +231,8 @@ The key differences:
 | Genetic variation   | None           | High              |
 | Function            | Growth, repair | Gamete production |
 | Crossing over       | No             | Yes (Prophase I)  |
+
+</div>
 
 ## Enzymes (OL/HL)
 
@@ -253,7 +261,9 @@ The key differences:
 An enzyme has an optimum temperature of 37$^{\circ}$C. The activity is measured at different
 Temperatures:
 
-| Temperature ($^{\circ}$C) | Rate (arbitrary units) |
+<div class="table-wrap">
+
+| Temperature ($^{\circ}$ C) | Rate (arbitrary units) |
 | ------------------------- | ---------------------- |
 | 10                        | 5                      |
 | 20                        | 15                     |
@@ -262,11 +272,13 @@ Temperatures:
 | 45                        | 20                     |
 | 60                        | 0                      |
 
+</div>
+
 From 10 to 37$^{\circ}$C, the rate increases because higher temperature means more kinetic energy,
 So more enzyme-substrate collisions per unit time. At 37$^{\circ}$C, the rate is maximum. Above
 37$^{\circ}$C, the rate decreases because the enzyme begins to denature -- the active site changes
 Shape and the substrate can no longer bind. At 60$^{\circ}$C, the enzyme is completely denatured and
-The rate is zero.
+the rate is zero.
 
 ## Photosynthesis (OL/HL)
 
@@ -300,14 +312,14 @@ $$
 **Worked Example: Limiting factors in photosynthesis.**
 
 At low light intensity, light is the limiting factor. Increasing light increases the rate. At a
-Certain point, light is no longer limiting (another factor is). If $\mathrm{CO_2$ concentration is
-Low, increasing light further will have no effect.
+certain point, light is no longer limiting (another factor is). If $\mathrm{CO_2$ concentration is
+low, increasing light further will have no effect.
 
 At high $\mathrm{CO_2$ concentration, $\mathrm{CO_2$ is not limiting. If light is low, increasing
 $\mathrm{CO_2$ will have no effect.
 
-This is an application of Blackman"s law of limiting factors: at any given time, only one factor is
-Limiting.
+This is an application of Blackman's law of limiting factors: at any given time, only one factor is
+limiting.
 
 ## Cellular Respiration (OL/HL)
 
@@ -350,6 +362,8 @@ $$
 
 **Worked Example: Comparing aerobic and anaerobic respiration.**
 
+<div class="table-wrap">
+
 | Feature       | Aerobic                                 | Anaerobic (muscle) | Anaerobic (yeast)        |
 | ------------- | --------------------------------------- | ------------------ | ------------------------ |
 | Oxygen needed | Yes                                     | No                 | No                       |
@@ -357,6 +371,8 @@ $$
 | Products      | $\mathrm{CO_2$ + $\mathrm{H_2\mathrm{O$ | Lactate            | Ethanol + $\mathrm{CO_2$ |
 | ATP yield     | ~30-38 per glucose                      | 2 per glucose      | 2 per glucose            |
 | Efficiency    | High                                    | Low                | Low                      |
+
+</div>
 
 Aerobic respiration produces much more ATP because glucose is completely oxidised. Anaerobic
 Respiration only partially breaks down glucose, so most of the energy remains locked in the products
@@ -417,7 +433,7 @@ Respiration only partially breaks down glucose, so most of the energy remains lo
 ## Review: Cell Division -- Mitosis in Detail
 
 Mitosis produces two genetically identical daughter cells and is essential for growth, repair, and
-Asexual reproduction.
+asexual reproduction.
 
 **Prophase:** Chromosomes condense (become visible as two sister chromatids joined at the
 Centromere). The nuclear envelope breaks down. Centrioles move to opposite poles and the spindle
@@ -452,17 +468,17 @@ Occurs.
 
 **Induced-fit model:** The active site is flexible and changes shape slightly when the substrate
 Binds. This conformational change puts strain on the substrate, weakening bonds and lowering the
-Activation energy. The induced-fit model is more widely accepted because it explains why enzymes can
-Catalyse reactions with a range of similar substrates (broad specificity) and why the
-Enzyme-substrate complex is more stable than the enzyme alone.
+activation energy. The induced-fit model is more widely accepted because it explains why enzymes can
+catalyse reactions with a range of similar substrates (broad specificity) and why the
+enzyme-substrate complex is more stable than the enzyme alone.
 
 **Worked Example: Explaining enzyme specificity.**
 
 Maltase catalyses the hydrolysis of maltose into glucose but does not catalyse the hydrolysis of
-Sucrose. Both are disaccharides, but they have different structures. The active site of maltase is
-Complementary to the specific shape and arrangement of functional groups in maltose. Sucrose does
-Not fit into the active site, so no enzyme-substrate complex forms and no reaction occurs. This
-Demonstrates the specificity of enzyme action.
+sucrose. Both are disaccharides, but they have different structures. The active site of maltase is
+complementary to the specific shape and arrangement of functional groups in maltose. Sucrose does
+not fit into the active site, so no enzyme-substrate complex forms and no reaction occurs. This
+demonstrates the specificity of enzyme action.
 
 ## Review: Osmosis -- Worked Examples
 
@@ -472,8 +488,8 @@ A red blood cell with an internal solute concentration of 0.9% is placed in a 0.
 
 The external solution (0.3%) is hypotonic (lower solute concentration) relative to the cell (0.9%).
 Water moves into the cell by osmosis. Since animal cells have no rigid cell wall, the cell swells
-And eventually bursts (lysis). This is why intravenous drips must use isotonic saline (0.9% NaCl) to
-Prevent red blood cells from being damaged.
+and eventually bursts (lysis). This is why intravenous drips must use isotonic saline (0.9% NaCl) to
+prevent red blood cells from being damaged.
 
 **Worked Example 2: Plant cells.**
 
@@ -482,17 +498,17 @@ A plant cell with a water potential of -600 kPa is placed in a solution with a w
 
 Water moves from the solution (-200 kPa, higher water potential) into the cell (-600 kPa, lower
 Water potential) by osmosis. The cell becomes turgid as the vacuole expands and presses against the
-Cell wall. The cell wall exerts an inward pressure (wall pressure) that eventually balances the
-Osmotic pressure, and no further net water movement occurs. The cell is now fully turgid.
+cell wall. The cell wall exerts an inward pressure (wall pressure) that eventually balances the
+osmotic pressure, and no further net water movement occurs. The cell is now fully turgid.
 
 If the same cell were placed in a solution with a water potential of -1000 kPa, water would move out
-Of the cell. The vacuole would shrink and the cell membrane would pull away from the cell wall
+of the cell. The vacuole would shrink and the cell membrane would pull away from the cell wall
 (plasmolysis). The cell would become flaccid.
 
 ## Review: Photosynthesis -- The Light-Independent Reactions (Calvin Cycle)
 
 The Calvin cycle takes place in the stroma of the chloroplast and uses the products of the
-Light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic molecules.
+light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic molecules.
 
 **Three phases:**
 
@@ -539,7 +555,7 @@ It does not require oxygen.
 ## Review: The Electron Transport Chain and Oxidative Phosphorylation
 
 The electron transport chain (ETC) is the final stage of aerobic respiration and produces the
-Majority of ATP.
+majority of ATP.
 
 **Location:** Inner mitochondrial membrane.
 
@@ -566,6 +582,8 @@ Approximately 1.5 ATP (because it enters at Complex II, bypassing Complex I and 
 
 **Worked Example: Calculating the total ATP yield from one glucose molecule.**
 
+<div class="table-wrap">
+
 | Stage         | NADH   | FADH$_2$ | Direct ATP | ATP from ETC |
 | ------------- | ------ | -------- | ---------- | ------------ |
 | Glycolysis    | 2      | 0        | 2          | ~5           |
@@ -573,14 +591,16 @@ Approximately 1.5 ATP (because it enters at Complex II, bypassing Complex I and 
 | Krebs cycle   | 6      | 2        | 2          | ~20          |
 | **Total**     | **10** | **2**    | **4**      | **~30**      |
 
+</div>
+
 Note: The theoretical maximum is approximately 38 ATP, but the actual yield is closer to 30-32 ATP
 Due to proton leak across the inner membrane and the energy cost of transporting molecules.
 
 ## Review: Factors Affecting the Rate of Photosynthesis
 
 Photosynthesis is affected by three main factors: light intensity, $\mathrm{CO_2$ concentration, and
-Temperature. At any given time, the rate of photosynthesis is limited by whichever factor is in
-Shortest supply (Blackman's law of limiting factors).
+temperature. At any given time, the rate of photosynthesis is limited by whichever factor is in
+shortest supply (Blackman's law of limiting factors).
 
 **Light intensity:**
 
@@ -592,7 +612,7 @@ Shortest supply (Blackman's law of limiting factors).
 
 **$\mathrm{CO_2$ concentration:**
 
-- At low $\mathrm{CO_2$The rate of photosynthesis increases with increasing $\mathrm{CO_2$.
+- At low $\mathrm{CO_2$ The rate of photosynthesis increases with increasing $\mathrm{CO_2$.
 - The rate levels off as $\mathrm{CO_2$ is no longer limiting (another factor such as light or
   temperature becomes limiting).
 - Very high $\mathrm{CO_2$ concentrations may reduce the rate of photosynthesis in some plants by
@@ -612,16 +632,16 @@ Shortest supply (Blackman's law of limiting factors).
 A graph shows the rate of photosynthesis at different light intensities at two different
 $\mathrm{CO_2$ concentrations (low and high):
 
-At low $\mathrm{CO_2$The rate plateaus at a lower value than at high $\mathrm{CO_2$. This is because
+At low $\mathrm{CO_2$ The rate plateaus at a lower value than at high $\mathrm{CO_2$. This is because
 $\mathrm{CO_2$ becomes limiting at a lower light intensity when $\mathrm{CO_2$ concentration is low.
-At high $\mathrm{CO_2$A higher light intensity is required before $\mathrm{CO_2$ becomes limiting,
+At high $\mathrm{CO_2$ A higher light intensity is required before $\mathrm{CO_2$ becomes limiting,
 So the plateau is higher. This demonstrates that the factors interact: the level at which one factor
 Becomes limiting depends on the availability of the other factors.
 
 **The Calvin cycle in detail:**
 
 The Calvin cycle (light-independent reactions) occurs in the stroma of the chloroplast and uses the
-Products of the light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic
+products of the light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic
 Molecules.
 
 **Stage 1 -- Carbon fixation:**
@@ -630,7 +650,9 @@ $\mathrm{CO_2$ diffuses into the leaf through the stomata and enters the chlorop
 RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase) catalyses the reaction between
 $\mathrm{CO_2$ and ribulose bisphosphate (RuBP, a 5-carbon compound):
 
-$$\mathrm{CO_2 + \mathrm{RuBP (5C) \to 2 \times \mathrm{glycerate 3-phosphate (GP, 3C)$$
+$$
+\mathrm{CO_2 + \mathrm{RuBP (5C) \to 2 \times \mathrm{glycerate 3-phosphate (GP, 3C)
+$$
 
 RuBisCO is the most abundant protein on Earth, but it is inefficient: it can also react with oxygen
 (photorespiration), which reduces the efficiency of photosynthesis, especially at high temperatures.
@@ -640,7 +662,9 @@ RuBisCO is the most abundant protein on Earth, but it is inefficient: it can als
 GP is reduced to triose phosphate (TP, also called glyceraldehyde-3-phosphate or G3P) using ATP and
 NADPH:
 
-$$\mathrm{GP + \mathrm{ATP + \mathrm{NADPH \to \mathrm{TP + \mathrm{NADP^+ + \mathrm{ADP + P_i$$
+$$
+\mathrm{GP + \mathrm{ATP + \mathrm{NADPH \to \mathrm{TP + \mathrm{NADP^+ + \mathrm{ADP + P_i
+$$
 
 **Stage 3 -- Regeneration of RuBP:**
 
@@ -650,7 +674,9 @@ Product that can be used to make glucose and other organic molecules.
 
 **Overall equation for the Calvin cycle (per 3 $\mathrm{CO_2$):**
 
-$$3\mathrm{CO_2 + 9\mathrm{ATP + 6\mathrm{NADPH \to \mathrm{TP (for glucose) + 9\mathrm{ADP + 8P_i + 6\mathrm{NADP^+$$
+$$
+3\mathrm{CO_2 + 9\mathrm{ATP + 6\mathrm{NADPH \to \mathrm{TP (for glucose) + 9\mathrm{ADP + 8P_i + 6\mathrm{NADP^+
+$$
 
 **Uses of triose phosphate:**
 
@@ -670,7 +696,9 @@ $$3\mathrm{CO_2 + 9\mathrm{ATP + 6\mathrm{NADPH \to \mathrm{TP (for glucose) + 9
 **Leaf structure and its role in photosynthesis:**
 
 The leaf is the main photosynthetic organ. Its structure is adapted to maximise light absorption and
-Gas exchange:
+gas exchange:
+
+<div class="table-wrap">
 
 | Leaf structure     | Adaptation for photosynthesis                                 |
 | ------------------ | ------------------------------------------------------------- |
@@ -683,6 +711,8 @@ Gas exchange:
 | Xylem              | Transports water to the leaf                                  |
 | Phloem             | Transports sugars (products of photosynthesis) away           |
 
+</div>
+
 **Gas exchange in the leaf:**
 
 $\mathrm{CO_2$ diffuses into the leaf through the stomata (pores on the lower surface), through the
@@ -691,9 +721,9 @@ Calvin cycle. $\mathrm{O_2$ (a product of the light-dependent reactions) diffuse
 Path.
 
 The opening and closing of stomata is controlled by guard cells. When guard cells are turgid (full
-Of water), the stomata open; when they are flaccid (low water), the stomata close. This is a
-Compromise: open stomata allow gas exchange for photosynthesis but also allow water loss by
-Transpiration.
+of water), the stomata open; when they are flaccid (low water), the stomata close. This is a
+compromise: open stomata allow gas exchange for photosynthesis but also allow water loss by
+transpiration.
 
 **Limiting factors in a glasshouse context:**
 
@@ -707,7 +737,7 @@ Commercial growers manipulate environmental conditions to maximise crop yields:
   and increase the daily light integral.
 
 By ensuring that no single factor is limiting, growers can achieve photosynthesis rates that are
-Significantly higher than would occur , resulting in faster growth and higher yields.
+significantly higher than would occur , resulting in faster growth and higher yields.
 
 **Investigating the effect of light intensity on photosynthesis:**
 
@@ -739,17 +769,6 @@ Production at different light intensities.
   the lamp and the plant.
 - The plant may deplete the $\mathrm{CO_2$ in the water. Using sodium hydrogen carbonate solution
   ensures $\mathrm{CO_2$ is not limiting.
-
-
-```mermaid
-flowchart TD
-    A[1_Cell] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

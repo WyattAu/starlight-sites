@@ -34,11 +34,15 @@ Do NOT cross-multiply, because the sign of $(2 - x)$ is unknown.
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval               | $3x - 1$ | $2 - x$ | Quotient |
 | ---------------------- | -------- | ------- | -------- |
 | $x < \dfrac{1}{3}$     | $-$      | $+$     | $-$      |
 | $\dfrac{1}{3} < x < 2$ | $+$      | $+$     | $+$      |
 | $x > 2$                | $+$      | $-$     | $-$      |
+
+</div>
 
 At $x = \dfrac{1}{3}$: quotient is $0$ (included since $\geq 0$).
 
@@ -68,20 +72,22 @@ Solve $|2x - 5| \lt 3x + 1$.
 
 **Solution:**
 
-Since the RHS involves $x$We cannot split into two cases without considering the sign of the RHS.
+Since the RHS involves $x$ We cannot split into two cases without considering the sign of the RHS.
 
-**Case 1:** $3x + 1 \leq 0$I.e. $x \leq -\dfrac{1}{3}$.
+**Case 1:** $3x + 1 \leq 0$ I.e. $x \leq -\dfrac{1}{3}$.
 
 $|2x - 5| \geq 0$ and $3x + 1 \leq 0$ So $|2x - 5| \geq 0 > 3x + 1$ is possible only if
 $|2x - 5| < 3x + 1$. But $3x + 1 \leq 0$ while $|2x - 5| \geq 0$ So $|2x - 5| < 3x + 1$ is impossible
-when $3x + 1 \leq 0$ (since LHS $\geq 0$ and RHS $\leq 0$Equality requires both zero, but
+when $3x + 1 \leq 0$ (since LHS $\geq 0$ and RHS $\leq 0$ Equality requires both zero, but
 $|2x-5|=0 \implies x=5/2 \not\leq -1/3$).
 
 No solution in this case.
 
-**Case 2:** $3x + 1 > 0$I.e. $x > -\dfrac{1}{3}$.
+**Case 2:** $3x + 1 > 0$ I.e. $x > -\dfrac{1}{3}$.
 
-$$-(3x + 1) < 2x - 5 < 3x + 1$$
+$$
+-(3x + 1) < 2x - 5 < 3x + 1
+$$
 
 Left inequality: $-3x - 1 < 2x - 5 \implies -5x < -4 \implies x > \dfrac{4}{5}$.
 
@@ -119,7 +125,7 @@ Critical values: $x = -1$ and $x = \dfrac{5}{2}$.
 
 Since the parabola $2x^2 - 3x - 5$ opens upward, it is negative between the roots.
 
-Solution: $-1 < x < \dfrac{5}{2}$I.e. $x \in (-1,\; \tfrac{5}{2})$.
+Solution: $-1 < x < \dfrac{5}{2}$ I.e. $x \in (-1,\; \tfrac{5}{2})$.
 
 A common mistake is forgetting to reverse the inequality when factoring out the negative sign.
 
@@ -140,7 +146,9 @@ A common mistake is forgetting to reverse the inequality when factoring out the 
 
 Find the region satisfying all of the following:
 
-$$x + y \leq 6, \quad 2x - y \geq 1, \quad x \geq 0, \quad y \geq 0$$
+$$
+x + y \leq 6, \quad 2x - y \geq 1, \quad x \geq 0, \quad y \geq 0
+$$
 
 Find the maximum value of $P = 3x + 2y$ in this region.
 
@@ -190,19 +198,31 @@ Solve $\dfrac{1}{x - 1} \leq \dfrac{2}{x + 1}$.
 
 Bring to one side:
 
-$$\frac{1}{x - 1} - \frac{2}{x + 1} \leq 0$$
+$$
+\frac{1}{x - 1} - \frac{2}{x + 1} \leq 0
+$$
 
-$$\frac{(x + 1) - 2(x - 1)}{(x-1)(x+1)} \leq 0$$
+$$
+\frac{(x + 1) - 2(x - 1)}{(x-1)(x+1)} \leq 0
+$$
 
-$$\frac{x + 1 - 2x + 2}{(x-1)(x+1)} \leq 0$$
+$$
+\frac{x + 1 - 2x + 2}{(x-1)(x+1)} \leq 0
+$$
 
-$$\frac{3 - x}{(x-1)(x+1)} \leq 0$$
+$$
+\frac{3 - x}{(x-1)(x+1)} \leq 0
+$$
 
-$$\frac{x - 3}{(x-1)(x+1)} \geq 0$$
+$$
+\frac{x - 3}{(x-1)(x+1)} \geq 0
+$$
 
 Critical values: $x = -1$, $x = 1$, $x = 3$.
 
 Sign chart:
+
+<div class="table-wrap">
 
 | Interval     | Test     | Sign |
 | ------------ | -------- | ---- |
@@ -210,6 +230,8 @@ Sign chart:
 | $-1 < x < 1$ | $x = 0$  | $+$  |
 | $1 < x < 3$  | $x = 2$  | $-$  |
 | $x > 3$      | $x = 4$  | $+$  |
+
+</div>
 
 Including zeros ($x = 3$), excluding poles ($x = -1, 1$):
 
@@ -242,7 +264,9 @@ always positive for all real $x$.
 The expression is always positive if the discriminant is negative (since the leading coefficient
 $1 > 0$).
 
-$$\Delta = (2k)^2 - 4(k^2 - 2k + 5) = 4k^2 - 4k^2 + 8k - 20 = 8k - 20$$
+$$
+\Delta = (2k)^2 - 4(k^2 - 2k + 5) = 4k^2 - 4k^2 + 8k - 20 = 8k - 20
+$$
 
 $\Delta < 0 \implies 8k - 20 < 0 \implies k < \dfrac{5}{2}$.
 
@@ -269,17 +293,25 @@ Let $f(x) = x^2 - 6x + 5$. Find the set of values of $x$ for which $f(x) \leq f(
 
 $f(x) = x^2 - 6x + 5$ and $f(2x) = 4x^2 - 12x + 5$.
 
-$$x^2 - 6x + 5 \leq 4x^2 - 12x + 5$$
+$$
+x^2 - 6x + 5 \leq 4x^2 - 12x + 5
+$$
 
-$$0 \leq 3x^2 - 6x$$
+$$
+0 \leq 3x^2 - 6x
+$$
 
-$$3x^2 - 6x \geq 0$$
+$$
+3x^2 - 6x \geq 0
+$$
 
-$$3x(x - 2) \geq 0$$
+$$
+3x(x - 2) \geq 0
+$$
 
 Critical values: $x = 0$, $x = 2$.
 
-Solution: $x \leq 0$ or $x \geq 2$I.e. $x \in (-\infty,\; 0] \cup [2,\; \infty)$.
+Solution: $x \leq 0$ or $x \geq 2$ I.e. $x \in (-\infty,\; 0] \cup [2,\; \infty)$.
 
 ---
 
@@ -302,11 +334,15 @@ Solve $\log_2(x + 3) \lt \log_2(5 - x)$.
 
 Since the logarithm function is strictly increasing, we can compare arguments directly:
 
-$$x + 3 < 5 - x$$
+$$
+x + 3 < 5 - x
+$$
 
-$$2x < 2 \implies x < 1$$
+$$
+2x < 2 \implies x < 1
+$$
 
-But we also need the domain: $x + 3 > 0$ and $5 - x > 0$Giving $-3 < x < 5$.
+But we also need the domain: $x + 3 > 0$ and $5 - x > 0$ Giving $-3 < x < 5$.
 
 Combining: $-3 < x < 1$.
 
@@ -334,7 +370,9 @@ inequality would reverse.
 
 Solve the simultaneous inequalities:
 
-$$2x + 3 > x + 7 \quad \text{and} \quad 3x - 1 \leq 2x + 5$$
+$$
+2x + 3 > x + 7 \quad \text{and} \quad 3x - 1 \leq 2x + 5
+$$
 
 **Solution:**
 
@@ -342,7 +380,7 @@ First inequality: $2x + 3 > x + 7 \implies x > 4$.
 
 Second inequality: $3x - 1 \leq 2x + 5 \implies x \leq 6$.
 
-Both must hold: $4 < x \leq 6$I.e. $x \in (4,\; 6]$.
+Both must hold: $4 < x \leq 6$ I.e. $x \in (4,\; 6]$.
 
 ---
 
@@ -366,7 +404,9 @@ Find the range of values of $k$ for which $x^2 - 6x + k > 0$ for all real $x$.
 For the quadratic to be always positive (since the leading coefficient $1 > 0$), we need
 $\Delta < 0$.
 
-$$\Delta = 36 - 4k < 0 \implies k > 9$$
+$$
+\Delta = 36 - 4k < 0 \implies k > 9
+$$
 
 When $k = 9$: $\Delta = 0$ And $x^2 - 6x + 9 = (x-3)^2 \geq 0$. The inequality is strict ($>$), so
 $x = 3$ gives $0 \not> 0$.
@@ -392,11 +432,17 @@ Solve $|3x - 4| \leq 8$.
 
 **Solution:**
 
-$$-8 \leq 3x - 4 \leq 8$$
+$$
+-8 \leq 3x - 4 \leq 8
+$$
 
-$$-4 \leq 3x \leq 12$$
+$$
+-4 \leq 3x \leq 12
+$$
 
-$$-\frac{4}{3} \leq x \leq 4$$
+$$
+-\frac{4}{3} \leq x \leq 4
+$$
 
 Solution: $x \in \left[-\dfrac{4}{3},\; 4\right]$.
 
@@ -446,17 +492,23 @@ Solve $x^3 - x^2 - x + 1 \leq 0$.
 
 **Solution:**
 
-$$x^3 - x^2 - x + 1 = x^2(x - 1) - (x - 1) = (x - 1)(x^2 - 1) = (x - 1)^2(x + 1)$$
+$$
+x^3 - x^2 - x + 1 = x^2(x - 1) - (x - 1) = (x - 1)(x^2 - 1) = (x - 1)^2(x + 1)
+$$
 
 Critical values: $x = 1$ (double root) and $x = -1$.
 
 Sign chart:
+
+<div class="table-wrap">
 
 | Interval     | Test     | $(x-1)^2$ | $(x+1)$ | Product |
 | ------------ | -------- | --------- | ------- | ------- |
 | $x < -1$     | $x = -2$ | $+$       | $-$     | $-$     |
 | $-1 < x < 1$ | $x = 0$  | $+$       | $+$     | $+$     |
 | $x > 1$      | $x = 2$  | $+$       | $+$     | $+$     |
+
+</div>
 
 The expression is non-positive when $x \leq -1$ or $x = 1$.
 
@@ -481,14 +533,18 @@ Show that $x^2 + 4x + 5 > 0$ for all real $x$.
 
 **Solution:**
 
-$$\Delta = 16 - 20 = -4 < 0$$
+$$
+\Delta = 16 - 20 = -4 < 0
+$$
 
 Since the discriminant is negative and the leading coefficient is positive, the quadratic is always
 positive.
 
 Alternatively, completing the square:
 
-$$x^2 + 4x + 5 = (x + 2)^2 + 1 \geq 1 > 0$$
+$$
+x^2 + 4x + 5 = (x + 2)^2 + 1 \geq 1 > 0
+$$
 
 ---
 
@@ -511,11 +567,11 @@ Solve $\sqrt{2x + 1} \leq x + 1$.
 
 Domain: $2x + 1 \geq 0 \implies x \geq -\dfrac{1}{2}$. Also RHS $= x + 1$.
 
-Since $\sqrt{2x+1} \geq 0$We need $x + 1 \geq 0$I.e. $x \geq -1$.
+Since $\sqrt{2x+1} \geq 0$ We need $x + 1 \geq 0$ I.e. $x \geq -1$.
 
 Combined domain: $x \geq -\dfrac{1}{2}$.
 
-Squaring both sides: $2x + 1 \leq x^2 + 2x + 1 \implies 0 \leq x^2$Which is true for all real $x$.
+Squaring both sides: $2x + 1 \leq x^2 + 2x + 1 \implies 0 \leq x^2$ Which is true for all real $x$.
 
 So the solution is the domain: $x \in \left[-\dfrac{1}{2},\; \infty\right)$.
 
@@ -547,7 +603,7 @@ Since the quadratic opens upward (leading coefficient $= 2 > 0$):
 
 The product is positive outside the roots.
 
-Solution: $x < -4$ or $x > \dfrac{3}{2}$I.e.
+Solution: $x < -4$ or $x > \dfrac{3}{2}$ I.e.
 $x \in (-\infty,\; -4) \cup \left(\dfrac{3}{2},\; \infty\right)$.
 
 ---
@@ -560,17 +616,6 @@ $x \in (-\infty,\; -4) \cup \left(\dfrac{3}{2},\; \infty\right)$.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Inequalities] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -587,7 +632,7 @@ flowchart TD
    inequality sign. This is the single most common error in inequality problems.
 
 2. **Cross-multiplying without considering the sign of the denominator.** When solving
-   $\dfrac{A}{B} > 0$You cannot write $A > 0$ because the sign depends on $B$. Use a sign chart or
+   $\dfrac{A}{B} > 0$ You cannot write $A > 0$ because the sign depends on $B$. Use a sign chart or
    consider cases.
 
 3. **Including values that make the denominator zero.** When solving rational inequalities, the
@@ -598,7 +643,7 @@ flowchart TD
    (it "bounces off" the axis). So at a double root, the expression equals zero, and the inequality
    direction determines whether to include or exclude it.
 
-5. **Not checking the domain before squaring.** When solving $\sqrt{f(x)} > g(x)$You must first
+5. **Not checking the domain before squaring.** When solving $\sqrt{f(x)} > g(x)$ You must first
    establish that $f(x) \geq 0$ and $g(x) \geq 0$ before squaring both sides. Squaring an inequality
    where one side is negative gives incorrect results.
 
@@ -624,13 +669,13 @@ and (b) are satisfied simultaneously. (2 marks)
 
 **Solution:**
 
-(a) $(x - 2)(x - 3) < 0 \implies 2 < x < 3$I.e. $x \in (2,\; 3)$.
+(a) $(x - 2)(x - 3) < 0 \implies 2 < x < 3$ I.e. $x \in (2,\; 3)$.
 
 (b) $(2x - 1)(x + 2) \geq 0$.
 
 Critical values: $x = \dfrac{1}{2}$ and $x = -2$.
 
-Opens upward: $x \leq -2$ or $x \geq \dfrac{1}{2}$I.e.
+Opens upward: $x \leq -2$ or $x \geq \dfrac{1}{2}$ I.e.
 $x \in (-\infty,\; -2] \cup \left[\dfrac{1}{2},\; \infty\right)$.
 
 (c) Intersection of $(2,\; 3)$ and $(-\infty,\; -2] \cup \left[\dfrac{1}{2},\; \infty\right)$:
@@ -685,7 +730,9 @@ Solve the inequality $\dfrac{x^2 - 4x + 3}{x^2 - 9} \leq 0$. (5 marks)
 
 **Solution:**
 
-$$\frac{(x-1)(x-3)}{(x-3)(x+3)} = \frac{x - 1}{x + 3}$$
+$$
+\frac{(x-1)(x-3)}{(x-3)(x+3)} = \frac{x - 1}{x + 3}
+$$
 
 Provided $x \neq 3$ (makes denominator zero in original) and $x \neq -3$.
 
@@ -695,16 +742,20 @@ Critical values: $x = -3$ (excluded) and $x = 1$ (included).
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval     | Test     | Sign |
 | ------------ | -------- | ---- |
 | $x < -3$     | $x = -4$ | $+$  |
 | $-3 < x < 1$ | $x = 0$  | $-$  |
 | $x > 1$      | $x = 2$  | $+$  |
 
-Including $x = 1$Excluding $x = -3$ and $x = 3$.
+</div>
+
+Including $x = 1$ Excluding $x = -3$ and $x = 3$.
 
 Solution: $x \in (-3,\; 1] \cup (3,\; \infty)$? No -- checking: for
-$x > 3$, $\dfrac{x-1}{x+3} > 0$Which does not satisfy $\leq 0$.
+$x > 3$, $\dfrac{x-1}{x+3} > 0$ Which does not satisfy $\leq 0$.
 
 Correct solution: $x \in (-3,\; 1]$.
 
@@ -727,17 +778,29 @@ Solve $|x - 3| > |2x + 1|$. (4 marks)
 
 Square both sides (both sides are non-negative after taking absolute value):
 
-$$(x - 3)^2 > (2x + 1)^2$$
+$$
+(x - 3)^2 > (2x + 1)^2
+$$
 
-$$x^2 - 6x + 9 > 4x^2 + 4x + 1$$
+$$
+x^2 - 6x + 9 > 4x^2 + 4x + 1
+$$
 
-$$0 > 3x^2 + 10x - 8$$
+$$
+0 > 3x^2 + 10x - 8
+$$
 
-$$3x^2 + 10x - 8 < 0$$
+$$
+3x^2 + 10x - 8 < 0
+$$
 
-$$(3x - 2)(x + 4) < 0$$
+$$
+(3x - 2)(x + 4) < 0
+$$
 
-$$-4 < x < \frac{2}{3}$$
+$$
+-4 < x < \frac{2}{3}
+$$
 
 Solution: $x \in \left(-4,\; \dfrac{2}{3}\right)$.
 

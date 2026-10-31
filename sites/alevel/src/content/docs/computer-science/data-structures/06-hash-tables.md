@@ -30,7 +30,7 @@ Delete, and search.
 
 ### The Core Idea
 
-Given a key $k$Compute $\mathrm{index} = h(k) \bmod m$Where $h$ is the hash function and $m$ is The
+Given a key $k$ Compute $\mathrm{index} = h(k) \bmod m$ Where $h$ is the hash function and $m$ is The
 table size. Store the key-value pair at this index.
 
 <hr />
@@ -48,7 +48,9 @@ table size. Store the key-value pair at this index.
 
 #### Division Method
 
-$$h(k) = k \bmod m$$
+$$
+h(k) = k \bmod m
+$$
 
 **Choosing $m$.** Avoid powers of 2 (patterns in keys align with binary structure). Choose $m$ to be
 A **prime** not close to a power of 2.
@@ -57,7 +59,9 @@ A **prime** not close to a power of 2.
 >
 #### Multiplication Method
 
-$$h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor$$
+$$
+h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor
+$$
 
 Where $A$ is a constant $0 \lt A \lt 1$ (Knuth suggests
 $A = \frac{\sqrt{5} - 1}{2} \approx 0.618$).
@@ -66,7 +70,9 @@ $A = \frac{\sqrt{5} - 1}{2} \approx 0.618$).
 
 #### Polynomial Rolling Hash (for strings)
 
-$$h(s) = \left(\sum_{i=0}^{n-1} s[i] \cdot p^i\right) \bmod m$$
+$$
+h(s) = \left(\sum_{i=0}^{n-1} s[i] \cdot p^i\right) \bmod m
+$$
 
 Where $p$ is a prime ( 31 or 37) and $m$ is a large prime or $2^{64}$.
 
@@ -142,11 +148,15 @@ $\alpha = n/m$ (the **load factor**).
 **Proof.** By linearity of expectation, the expected number of keys in any particular bucket is
 $n \cdot (1/m) = n/m$. $\square$
 
+<div class="table-wrap">
+
 | Operation | Average case    | Worst case |
 | --------- | --------------- | ---------- |
 | Search    | $O(1 + \alpha)$ | $O(n)$     |
 | Insert    | $O(1)$          | $O(1)$     |
 | Delete    | $O(1 + \alpha)$ | $O(n)$     |
+
+</div>
 
 **Theorem.** Chaining requires $O(n + m)$ total memory.
 
@@ -159,11 +169,13 @@ $n \cdot (1/m) = n/m$. $\square$
 ### Method
 
 All key-value pairs are stored in the table itself (no linked lists). When a collision occurs, the
-Algorithm **probes** for the next available slot.
+algorithm **probes** for the next available slot.
 
 ### Linear Probing
 
-$$h(k, i) = (h"(k) + i) \bmod m$$
+$$
+h(k, i) = (h"(k) + i) \bmod m
+$$
 
 Where $i = 0, 1, 2, \ldots$ is the probe sequence.
 
@@ -210,31 +222,37 @@ Faster.
 
 **Proof of clustering.** Consider a cluster of length $L$. The probability that the next insertion
 Lands in this cluster is $(L + 1)/m$ (one more than the cluster length, since the slot after the
-Cluster also triggers probing into the cluster). When an insertion lands in the cluster, the cluster
+cluster also triggers probing into the cluster). When an insertion lands in the cluster, the cluster
 Grows by at least 1. This positive feedback means large clusters grow disproportionately, leading to
-Degraded performance. The expected number of probes for an unsuccessful search grows rapidly as the
-Load factor approaches 1 (vs $O(1)$ for uniform hashing).
+degraded performance. The expected number of probes for an unsuccessful search grows rapidly as the
+load factor approaches 1 (vs $O(1)$ for uniform hashing).
 
 More formally, after inserting $n$ keys into a table of size $m$ with linear probing, the expected
 Number of probes for an unsuccessful search is approximately:
 
-$$\frac{1}{2}\left(1 + \frac{1}{(1 - \alpha)^2}\right)$$
+$$
+\frac{1}{2}\left(1 + \frac{1}{(1 - \alpha)^2}\right)
+$$
 
-Where $\alpha = n/m$ is the load factor. As $\alpha \to 1$This grows to $\infty$. $\square$
+Where $\alpha = n/m$ is the load factor. As $\alpha \to 1$ This grows to $\infty$. $\square$
 
 ### Quadratic Probing
 
-$$h(k, i) = (h'(k) + c_1 i + c_2 i^2) \bmod m$$
+$$
+h(k, i) = (h'(k) + c_1 i + c_2 i^2) \bmod m
+$$
 
 Eliminates primary clustering but may cause **secondary clustering** (keys with the same initial
 Hash follow the same probe sequence).
 
-**Theorem.** If the table size $m$ is prime and the load factor $\alpha \lt 0.5$Quadratic Probing
+**Theorem.** If the table size $m$ is prime and the load factor $\alpha \lt 0.5$ Quadratic Probing
 will always find an empty slot.
 
 ### Double Hashing
 
-$$h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m$$
+$$
+h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m
+$$
 
 Uses a second hash function $h_2$ to determine the probe step. Eliminates both primary and secondary
 Clustering.
@@ -248,7 +266,9 @@ $h_2(k) = 1 + (k \bmod (m - 1))$.
 
 ### Definition
 
-$$\alpha = \frac{n}{m}$$
+$$
+\alpha = \frac{n}{m}
+$$
 
 Where $n$ is the number of stored keys and $m$ is the table size.
 
@@ -261,11 +281,13 @@ of size $\approx 2m$ and rehash all keys.
 
 **Proof.** Similar to dynamic array analysis. The total cost of $n$ insertions with resizing at
 Powers of 2 is dominated by the last resize: $\sum_{k=0}^{\log n} 2^k \cdot O(1) = O(n)$. Amortised
-Per insertion: $O(1)$. $\square$
+per insertion: $O(1)$. $\square$
 
 <hr />
 
 ## 7. Comparison of Collision Resolution Methods
+
+<div class="table-wrap">
 
 | Property          | Chaining        | Linear Probing    | Double Hashing |
 | ----------------- | --------------- | ----------------- | -------------- |
@@ -274,6 +296,8 @@ Per insertion: $O(1)$. $\square$
 | Clustering        | None            | Primary           | None           |
 | Delete            | $O(1)$          | Lazy deletion     | Lazy deletion  |
 | Load factor limit | No hard limit   | $\alpha \lt 1$    | $\alpha \lt 1$ |
+
+</div>
 
 :::note
 - **AQA** requires understanding of hash functions, collision resolution (linear probing, quadratic
@@ -287,7 +311,7 @@ Per insertion: $O(1)$. $\square$
 
 ## Problem Set
 
-**Problem 1.** Using the division method with table size $m = 7$Compute the hash values for keys:
+**Problem 1.** Using the division method with table size $m = 7$ Compute the hash values for keys:
 14, 21, 28, 35, 42. What do you observe?
 
 <details>
@@ -303,7 +327,7 @@ $h(k) = k \bmod 7$:
 
 All keys hash to index 0, **maximum collisions**. This demonstrates why $m$ should not divide
 Common key patterns. If $m = 7$ and all keys are multiples of 7, every key collides. Choose $m$ to
-Be a prime not dividing common key values.
+be a prime not dividing common key values.
 
 </details>
 
@@ -315,6 +339,8 @@ Probing. Show the table after each insertion.
 
 $h(k) = k \bmod 11$
 
+<div class="table-wrap">
+
 | Key | Hash | Probe sequence | Final index |
 | --- | ---- | -------------- | ----------- |
 | 10  | 10   | 10             | 10          |
@@ -325,11 +351,17 @@ $h(k) = k \bmod 11$
 | 28  | 6    | 6              | 6           |
 | 17  | 6    | 6, 7           | 7           |
 
+</div>
+
 Final table:
+
+<div class="table-wrap">
 
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Key   | 22  |,   |,   |,   | 4   | 15  | 28  | 17  |,   | 31  | 10  |
+
+</div>
 
 </details>
 
@@ -341,6 +373,8 @@ $m = 5$. Show each bucket.
 
 $h(k) = k \bmod 5$
 
+<div class="table-wrap">
+
 | Bucket | Keys (chain) |
 | ------ | ------------ |
 | 0      | 10 → 15 → 28 |
@@ -348,6 +382,8 @@ $h(k) = k \bmod 5$
 | 2      | 22 → 17      |
 | 3      |              |
 | 4      | 4            |
+
+</div>
 
 Load factor: $\alpha = 7/5 = 1.4$.
 
@@ -390,7 +426,7 @@ For chaining.
 <details>
 <summary>Answer</summary>
 
-In open addressing, all keys are stored in the table itself. If $\alpha = n/m \geq 1$There are More
+In open addressing, all keys are stored in the table itself. If $\alpha = n/m \geq 1$ There are More
 keys than slots, making it impossible to store all keys (the table is full). With linear Probing,
 the search for an empty slot may never terminate.
 
@@ -409,8 +445,8 @@ Repeating if $h_2(k)$ and $m$ are coprime.
 **Proof.** The probe sequence is: $h_1(k),\ h_1(k) + h_2(k),\ h_1(k) + 2h_2(k),\ \ldots \pmod m$.
 
 This is an arithmetic progression modulo $m$ with common difference $d = h_2(k)$. The sequence
-Visits distinct values as long as $d$ is coprime with $m$. If $\gcd(d, m) = g \gt 1$The sequence
-Cycles through only $m/g$ distinct values. When $\gcd(d, m) = 1$By the properties of modular
+Visits distinct values as long as $d$ is coprime with $m$. If $\gcd(d, m) = g \gt 1$ The sequence
+Cycles through only $m/g$ distinct values. When $\gcd(d, m) = 1$ By the properties of modular
 Arithmetic, the sequence covers all $m$ residues before repeating. $\square$
 
 This is why $h_2(k)$ must be chosen so that $\gcd(h_2(k), m) = 1$.
@@ -472,7 +508,7 @@ Value for each of the following keys: 26, 42, 93, 17, 77, 31, 55, 20.
 <summary>Hint</summary>
 
 Apply $h(k) = k \bmod 13$ to each key. Remember that the modulo operation gives the remainder after
-Division.
+division.
 
 </details>
 
@@ -480,6 +516,8 @@ Division.
 <summary>Answer</summary>
 
 $h(k) = k \bmod 13$:
+
+<div class="table-wrap">
 
 | Key | Calculation      | Hash value |
 | --- | ---------------- | ---------- |
@@ -492,12 +530,14 @@ $h(k) = k \bmod 13$:
 | 55  | 55 ÷ 13 = 4 r 3  | 3          |
 | 20  | 20 ÷ 13 = 1 r 7  | 7          |
 
+</div>
+
 Note: 42 and 55 both hash to index 3, a collision occurs.
 
 </details>
 
 **Problem 2.** A hash function for strings uses the polynomial rolling hash:
-$h(s) = (s[0] + s[1] \cdot 31 + s[2] \cdot 31^2) \bmod 100$Where $s[i]$ is the ASCII code of the
+$h(s) = (s[0] + s[1] \cdot 31 + s[2] \cdot 31^2) \bmod 100$ Where $s[i]$ is the ASCII code of the
 $i$-th character. Calculate the hash value for the string "Cat".
 
 <details>
@@ -534,8 +574,8 @@ Probing with $h(k) = k \bmod 7$. Show the state of the table after each insertio
 <details>
 <summary>Hint</summary>
 
-For linear probing, if index $h(k)$ is occupied, try $h(k)+1$ Then $h(k)+2$Etc., wrapping around
-Using modulo 7.
+For linear probing, if index $h(k)$ is occupied, try $h(k)+1$ Then $h(k)+2$ Etc., wrapping around
+using modulo 7.
 
 </details>
 
@@ -543,6 +583,8 @@ Using modulo 7.
 <summary>Answer</summary>
 
 $h(k) = k \bmod 7$
+
+<div class="table-wrap">
 
 | Key | $h(k)$ | Probe sequence  | Final index |
 | --- | ------ | --------------- | ----------- |
@@ -554,18 +596,24 @@ $h(k) = k \bmod 7$
 | 5   | 5      | 5, 6, 0         | 0           |
 | 22  | 1      | 1               | 1           |
 
+</div>
+
 Step-by-step table states:
 
 After inserting 44: `[-, -, 44, -, -, -, -]` After inserting 17: `[-, -, 44, 17, -, -, -]` After
-Inserting 31: `[-, -, 44, 17, 31, -, -]` After inserting 88: `[-, -, 44, 17, 31, 88, -]` After
-Inserting 61: `[-, -, 44, 17, 31, 88, 61]` After inserting 5: `[5, -, 44, 17, 31, 88, 61]` After
-Inserting 22: `[5, 22, 44, 17, 31, 88, 61]`
+inserting 31: `[-, -, 44, 17, 31, -, -]` After inserting 88: `[-, -, 44, 17, 31, 88, -]` After
+inserting 61: `[-, -, 44, 17, 31, 88, 61]` After inserting 5: `[5, -, 44, 17, 31, 88, 61]` After
+inserting 22: `[5, 22, 44, 17, 31, 88, 61]`
 
 Final table:
+
+<div class="table-wrap">
 
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   |
 | ----- | --- | --- | --- | --- | --- | --- | --- |
 | Key   | 5   | 22  | 44  | 17  | 31  | 88  | 61  |
+
+</div>
 
 </details>
 
@@ -593,15 +641,15 @@ Probe sequence:
 
 The key 61 was found at index 6 after 2 probes.
 
-Note: This illustrates a drawback of linear probing, even though $h(61) = 5$The key is stored at
-Index 6 due to earlier collisions. We must continue probing past occupied slots until we find the
-Key or an empty slot.
+Note: This illustrates a drawback of linear probing, even though $h(61) = 5$ The key is stored at
+index 6 due to earlier collisions. We must continue probing past occupied slots until we find the
+key or an empty slot.
 
 </details>
 
 **Problem 5.** Insert the keys 19, 36, 50, 5, 69, 14, 75 into a hash table of size 11 using
 Quadratic probing with $h(k, i) = (h'(k) + i^2) \bmod 11$ where $h'(k) = k \bmod 11$. Show the table
-After all insertions.
+after all insertions.
 
 <details>
 <summary>Hint</summary>
@@ -616,6 +664,8 @@ $i = 0, 1, 2, 3, \ldots$). If the target index is occupied, try $(h'(k) + i^2) \
 
 $h'(k) = k \bmod 11$, $h(k, i) = (h'(k) + i^2) \bmod 11$
 
+<div class="table-wrap">
+
 | Key | $h'(k)$ | Probe sequence ($i=0, 1, 2, \ldots$)              | Final index |
 | --- | ------- | ------------------------------------------------- | ----------- |
 | 19  | 8       | $(8+0)=8$                                         | 8           |
@@ -626,11 +676,17 @@ $h'(k) = k \bmod 11$, $h(k, i) = (h'(k) + i^2) \bmod 11$
 | 14  | 3       | $(3+0)=3$ occupied, $(3+1)=4$ occupied, $(3+4)=7$ | 7           |
 | 75  | 9       | $(9+0)=9$                                         | 9           |
 
+</div>
+
 Final table:
+
+<div class="table-wrap">
 
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Key   |,   |,   |,   | 36  | 69  | 5   | 50  | 14  | 19  | 75  |,   |
+
+</div>
 
 Load factor: $\alpha = 7/11 \approx 0.636$
 
@@ -645,7 +701,7 @@ And show the final table using linear probing.
 <summary>Hint</summary>
 
 First check if rehashing is needed. If so, double the table size (to a prime), then reinsert every
-Key into the new table using the new modulo.
+key into the new table using the new modulo.
 
 </details>
 
@@ -661,6 +717,8 @@ Prime. Nearest prime ≥ 14 is 17. New $m = 17$.
 
 **Step 2: Rehash all keys using $h(k) = k \bmod 17$.**
 
+<div class="table-wrap">
+
 | Key | $k \bmod 17$ | Index |
 | --- | ------------ | ----- |
 | 14  | 14           | 14    |
@@ -670,13 +728,19 @@ Prime. Nearest prime ≥ 14 is 17. New $m = 17$.
 | 35  | 1            | 1     |
 | 42  | 8            | 8     |
 
+</div>
+
 No collisions occur with the new table size.
 
 **Final table (size 17):**
 
+<div class="table-wrap">
+
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 16  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Key   |,   | 35  |,   |,   | 21  |,   |,   | 7   | 42  |,   |,   | 28  |,   |,   | 14  |,   |
+
+</div>
 
 New load factor: $\alpha = 6/17 \approx 0.353 < 0.7$ ✓
 
@@ -685,7 +749,7 @@ New load factor: $\alpha = 6/17 \approx 0.353 < 0.7$ ✓
 **Problem 7.** A hash table using chaining has 500 buckets and currently stores 350 key-value pairs.
 Calculate the load factor. If the table is resized to 1001 buckets (a prime), what is the new load
 Factor? What is the expected number of comparisons for an unsuccessful search before and after
-Resizing?
+resizing?
 
 <details>
 <summary>Hint</summary>
@@ -711,7 +775,7 @@ Load factor $\alpha = n/m$. For chaining with unsuccessful search, expected comp
 $1 + \alpha/2 = 1 + 0.35 = 1.35$ And after resizing is $1 + 0.175 = 1.175$.
 
 Resizing roughly halves the expected search time, demonstrating why maintaining a low load factor is
-Important for performance.
+important for performance.
 
 </details>
 
@@ -730,14 +794,18 @@ Probe sequences, memory usage, and deletion.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Aspect                 | Linear Probing                                                                                                                   | Chaining                                                                                                                                  |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | **Best-case search**   | $O(1)$, key at its hash index                                                                                                   | $O(1)$, key is alone in its bucket                                                                                                       |
 | **Worst-case search**  | $O(n)$, all keys cluster together                                                                                               | $O(n)$, all keys hash to same bucket                                                                                                     |
 | **Deletion**           | Requires "lazy deletion" (mark slot as deleted, not empty). If emptied, search would break by stopping early at the gap.         | $O(1)$, remove node from linked list                                                                                                     |
-| **Load factor effect** | Performance degrades rapidly as $\alpha \to 1$. At $\alpha > 0.7$Clustering causes significant slowdown. Must keep $\alpha < 1$. | Performance degrades gradually. Chains grow linearly with $\alpha$. No hard upper limit on $\alpha$ (but should keep < 1 for efficiency). |
+| **Load factor effect** | Performance degrades rapidly as $\alpha \to 1$. At $\alpha > 0.7$ Clustering causes significant slowdown. Must keep $\alpha < 1$. | Performance degrades gradually. Chains grow linearly with $\alpha$. No hard upper limit on $\alpha$ (but should keep < 1 for efficiency). |
 | **Memory**             | $O(m)$, fixed array size                                                                                                        | $O(n + m)$, array + linked list nodes                                                                                                    |
 | **Cache performance**  | Good, contiguous memory access                                                                                                  | Poor, following pointers to scattered nodes                                                                                              |
+
+</div>
 
 **Key trade-off:** Linear probing has better cache performance but suffers from clustering and
 Requires careful load factor management. Chaining is simpler to implement and handles deletion
@@ -753,7 +821,7 @@ Worked examples for at least three ISBNs.
 <summary>Hint</summary>
 
 Consider using the division method or a digit-selection technique. Think about what properties the
-Hash function should have (uniform distribution, efficiency, minimal collisions).
+hash function should have (uniform distribution, efficiency, minimal collisions).
 
 </details>
 
@@ -766,7 +834,9 @@ We can select specific digit groups to reduce the number while preserving distri
 **Hash function:** Extract the last 5 digits of the ISBN and use the division method with
 $m = 10007$ (a prime):
 
-$$h(\mathrm{isbn}) = (\mathrm{isbn} \bmod 100000) \bmod 10007$$
+$$
+h(\mathrm{isbn}) = (\mathrm{isbn} \bmod 100000) \bmod 10007
+$$
 
 **Rationale:**
 
@@ -777,14 +847,18 @@ $$h(\mathrm{isbn}) = (\mathrm{isbn} \bmod 100000) \bmod 10007$$
 
 **Worked examples:**
 
+<div class="table-wrap">
+
 | ISBN          | Last 5 digits | $\bmod 100000$ | $\bmod 10007$                                                | Hash |
 | ------------- | ------------- | -------------- | ------------------------------------------------------------ | ---- |
 | 9780132350884 | 50884         | 50884          | 50884 mod 10007 = 50884 − 5×10007 = 50884 − 50035 = **849**  | 849  |
 | 9780596007126 | 07126         | 7126           | 7126 mod 10007 = **7126**                                    | 7126 |
 | 9780201896831 | 96831         | 96831          | 96831 mod 10007 = 96831 − 9×10007 = 96831 − 90063 = **6768** | 6768 |
 
+</div>
+
 This gives good distribution across the table. With $m = 10007$ and a load factor target of 0.7, the
-Table can hold approximately 7000 books before needing resizing.
+table can hold approximately 7000 books before needing resizing.
 
 </details>
 
@@ -794,7 +868,7 @@ Order: 47, 25, 63, 14, 80, 36, 52.
 
 (a) Show the probe sequence for each key and the final state of the hash table. (b) What is the load
 Factor of the final table? (c) Trace the search for key 80 in the final table. How many probes are
-Needed? (d) If key 25 is deleted, explain why lazy deletion (tombstone marking) is necessary in open
+needed? (d) If key 25 is deleted, explain why lazy deletion (tombstone marking) is necessary in open
 Addressing, and show what happens if a search for key 47 is performed after deletion without
 Tombstones.
 
@@ -813,6 +887,8 @@ First, then trace the probe sequence.
 
 $h_1(k) = k \bmod 11$, $h_2(k) = 1 + (k \bmod 9)$
 
+<div class="table-wrap">
+
 | Key | $h_1(k)$ | $h_2(k)$                   | Probe sequence ($h_1 + i \cdot h_2$) mod 11 | Final index |
 | --- | -------- | -------------------------- | ------------------------------------------- | ----------- |
 | 47  | 3        | $1+(47 \bmod 9) = 1+2 = 3$ | $(3+0)=3$                                   | 3           |
@@ -823,11 +899,17 @@ $h_1(k) = k \bmod 11$, $h_2(k) = 1 + (k \bmod 9)$
 | 36  | 3        | $1+(36 \bmod 9) = 1+0 = 1$ | $(3+0)=3$ occ, $(3+1)=4$                    | 4           |
 | 52  | 8        | $1+(52 \bmod 9) = 1+7 = 8$ | $(8+0)=8$ occ, $(8+8)=5$                    | 5           |
 
+</div>
+
 Final table:
+
+<div class="table-wrap">
 
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Key   | 25  | 80  |,   | 47  | 36  | 52  |,   |,   | 63  | 14  |,   |
+
+</div>
 
 **(b) Load factor:**
 
@@ -856,16 +938,16 @@ Search for 47:
 1. Index 3 → 47 found immediately. (This actually works for 47.)
 
 But consider searching for **key 25** after re-inserting it at a different location, or consider
-Searching for key 80 if index 0 were emptied: $h_1(80) = 3$Probing goes to index 1 (found). However,
+Searching for key 80 if index 0 were emptied: $h_1(80) = 3$ Probing goes to index 1 (found). However,
 the problem arises with keys that were inserted after the deleted key and probed past it.
 
 Consider searching for a hypothetical key that hashed to index 0 and was placed further along due to
-Probing. If index 0 is emptied, the search would stop prematurely at the empty slot, Incorrectly
+probing. If index 0 is emptied, the search would stop prematurely at the empty slot, Incorrectly
 concluding the key is not in the table.
 
 **Solution:** Use lazy deletion (tombstone). Mark index 0 as DELETED (not EMPTY). During search,
 Treat DELETED slots as occupied (continue probing past them). During insert, treat DELETED slots as
-Available for insertion.
+available for insertion.
 
 </details>
 
@@ -892,26 +974,9 @@ Available for insertion.
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[06 Hash Tables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

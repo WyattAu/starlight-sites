@@ -17,17 +17,6 @@ description: "Algorithm Analysis: comprehensive educational content notes with p
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[1_Algorithm Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Algorithm analysis measures how an algorithm's resource requirements grow with input size, independent of hardware. Big-O notation provides an upper bound on growth rate, like saying a car's top speed is at most 120 mph regardless of road conditions. The limit rule gives a practical shortcut: compare growth rates by taking the ratio as the input grows. Asymptotic notation is transitive because bounding one function by another creates a chain of bounds. The key insight is that constants and lower-order terms become irrelevant for large inputs.
@@ -49,7 +38,7 @@ $f(n) \geq c \cdot g(n)$ for all $n \geq n_0$.
 **Theorem 1.1.** $f(n) = O(g(n))$ if and only if $g(n) = \Omega(f(n))$.
 
 _Proof._ Suppose $f(n) = O(g(n))$. Then there exist $c, n_0$ such that $f(n) \leq c \cdot g(n)$ for
-all $n \geq n_0$Hence $g(n) \geq (1/c) \cdot f(n)$ for all $n \geq n_0$ So $g(n) = \Omega(f(n))$. The
+all $n \geq n_0$ Hence $g(n) \geq (1/c) \cdot f(n)$ for all $n \geq n_0$ So $g(n) = \Omega(f(n))$. The
 converse follows by symmetry. $\blacksquare$
 
 **Theorem 1.2.** $f(n) = \Theta(g(n))$ if and only if there exist constants $c_1, c_2 > 0$ and $n_0$
@@ -63,10 +52,10 @@ $\blacksquare$
 **Theorem 1.3 (Limit Rule).** If $\lim_{n \to \infty} f(n)/g(n) = c$ where $0 < c < \infty$ Then
 $f(n) = \Theta(g(n))$. If $c = 0$ Then $f(n) = O(g(n))$. If $c = \infty$ Then $g(n) = O(f(n))$.
 
-_Proof._ If $c = 0$ Then for any $\varepsilon > 0$There exists $n_0$ such that
-$f(n)/g(n) < \varepsilon$ for all $n \geq n_0$ So $f(n) \leq \varepsilon \cdot g(n)$Establishing
-$f(n) = O(g(n))$. If $0 < c < \infty$Take $\varepsilon = c/2$; then
-$(c/2) \cdot g(n) \leq f(n) \leq (3c/2) \cdot g(n)$ for sufficiently large $n$Giving $\Theta$. The
+_Proof._ If $c = 0$ Then for any $\varepsilon > 0$ There exists $n_0$ such that
+$f(n)/g(n) < \varepsilon$ for all $n \geq n_0$ So $f(n) \leq \varepsilon \cdot g(n)$ Establishing
+$f(n) = O(g(n))$. If $0 < c < \infty$ Take $\varepsilon = c/2$; then
+$(c/2) \cdot g(n) \leq f(n) \leq (3c/2) \cdot g(n)$ for sufficiently large $n$ Giving $\Theta$. The
 $c = \infty$ case is symmetric. $\blacksquare$
 
 **Proposition 1.4.** Asymptotic notation is transitive: if $f = O(g)$ and $g = O(h)$ Then $f = O(h)$.
@@ -161,6 +150,8 @@ Total iterations: $\sum_{i=1}^{n} \sum_{j=1}^{i} j = \sum_{i=1}^{n} \frac{i(i+1)
 
 ### 1.2 Common Complexity Classes
 
+<div class="table-wrap">
+
 | Class         | Name        | Example                          |
 | ------------- | ----------- | -------------------------------- |
 | $O(1)$        | Constant    | Array access by index            |
@@ -172,20 +163,26 @@ Total iterations: $\sum_{i=1}^{n} \sum_{j=1}^{i} j = \sum_{i=1}^{n} \frac{i(i+1)
 | $O(2^n)$      | Exponential | Naive Fibonacci, subset problems |
 | $O(n!)$       | Factorial   | Generating all permutations      |
 
+</div>
+
 **Proposition 1.6.** These classes form a strict hierarchy:
-$$O(1) \subsetneq O(\log n) \subsetneq O(n) \subsetneq O(n \log n) \subsetneq O(n^2) \subsetneq O(n^3) \subsetneq O(2^n) \subsetneq O(n!)$$
+$$
+O(1) \subsetneq O(\log n) \subsetneq O(n) \subsetneq O(n \log n) \subsetneq O(n^2) \subsetneq O(n^3) \subsetneq O(2^n) \subsetneq O(n!)
+$$
 
 ### 1.3 Recurrences and the Master Theorem
 
 Many divide-and-conquer algorithms yield recurrences of the form:
 
-$$T(n) = aT(n/b) + f(n)$$
+$$
+T(n) = aT(n/b) + f(n)
+$$
 
 Where $a \geq 1$ is the number of subproblems, $b > 1$ is the factor by which the input is divided,
 and $f(n)$ is the cost of dividing and combining.
 
 **Theorem 1.7 (Master Theorem).** Let $a \geq 1$ and $b > 1$ be constants, let $f(n)$ be a function,
-and let $T(n)$ be defined on the nonnegative integers by the recurrence $T(n) = aT(n/b) + f(n)$Where
+and let $T(n)$ be defined on the nonnegative integers by the recurrence $T(n) = aT(n/b) + f(n)$ Where
 we interpret $n/b$ to mean either $\lfloor n/b \rfloor$ or $\lceil n/b \rceil$. Let $c = \log_b a$.
 Then:
 
@@ -195,8 +192,8 @@ Then:
    for some constant $q < 1$ and all sufficiently large $n$ (the _regularity condition_), then
    $T(n) = \Theta(f(n))$.
 
-_Proof (Case 1 sketch)._ The recursion tree has depth $\log_b n$. At level $i$There are $a^i$ nodes,
-each costing $f(n/b^i)$. Since $f(n) = O(n^{c - \varepsilon})$The cost at level $i$ is
+_Proof (Case 1 sketch)._ The recursion tree has depth $\log_b n$. At level $i$ There are $a^i$ nodes,
+each costing $f(n/b^i)$. Since $f(n) = O(n^{c - \varepsilon})$ The cost at level $i$ is
 $a^i \cdot (n/b^i)^{c - \varepsilon} = n^{c - \varepsilon} \cdot (a / b^{c - \varepsilon})^i$. The
 total cost is dominated by the leaves (level $\log_b n$), which contribute $a^{\log_b n} = n^c$. The
 internal levels contribute a geometric series with ratio
@@ -207,9 +204,11 @@ $a / b^{c - \varepsilon} = b^\varepsilon > 1$ So the leaf level dominates. $\bla
 
 Merge sort divides into 2 subproblems of size $n/2$ and combines in $O(n)$ time.
 
-$$T(n) = 2T(n/2) + \Theta(n)$$
+$$
+T(n) = 2T(n/2) + \Theta(n)
+$$
 
-Here $a = 2$, $b = 2$ So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$Which
+Here $a = 2$, $b = 2$ So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$ Which
 is Case 2 with $k = 0$.
 
 Therefore $T(n) = \Theta(n^1 \log^1 n) = \Theta(n \log n)$.
@@ -219,7 +218,9 @@ Therefore $T(n) = \Theta(n^1 \log^1 n) = \Theta(n \log n)$.
 <details>
 <summary>Worked Example: Binary Search Recurrence</summary>
 
-$$T(n) = T(n/2) + O(1)$$
+$$
+T(n) = T(n/2) + O(1)
+$$
 
 Here $a = 1$, $b = 2$ So $c = \log_2 1 = 0$. We have $f(n) = O(1) = O(n^0)$. This matches Case 2 with
 $k = 0$.
@@ -233,10 +234,12 @@ Therefore $T(n) = \Theta(\log n)$.
 
 Strassen's algorithm divides into 7 subproblems of size $n/2$ and combines in $O(n^2)$ time.
 
-$$T(n) = 7T(n/2) + O(n^2)$$
+$$
+T(n) = 7T(n/2) + O(n^2)
+$$
 
 Here $a = 7$, $b = 2$ So $c = \log_2 7 \approx 2.807$. We have
-$f(n) = O(n^2) = O(n^{c - \varepsilon})$ with $\varepsilon = c - 2 \approx 0.807$Which is Case 1.
+$f(n) = O(n^2) = O(n^{c - \varepsilon})$ with $\varepsilon = c - 2 \approx 0.807$ Which is Case 1.
 
 Therefore $T(n) = \Theta(n^{\log_2 7}) = \Theta(n^{2.807})$.
 

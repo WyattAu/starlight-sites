@@ -29,7 +29,7 @@ The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) 
 
 **Implementation for developers:**
 
-- Use a terminal timer: `pomotodo``tomato`Or `tmux` timer plugin
+- Use a terminal timer: `pomotodo`, `tomato` or `tmux` timer plugin
 - During a pomodoro: code, debug, write tests, read documentation. One task.
 - During a break: stand up, stretch, look away from the screen. Do not context-switch to a different
   task.
@@ -38,9 +38,11 @@ The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) 
 ### Time Blocking
 
 Time blocking assigns specific time slots to specific tasks. This prevents the reactive mode where
-You spend the entire day responding to Slack messages and pull request reviews.
+you spend the entire day responding to Slack messages and pull request reviews.
 
 **Daily template for a systems engineer:**
+
+<div class="table-wrap">
 
 | Time Block  | Activity                              | Duration |
 | ----------- | ------------------------------------- | -------- |
@@ -52,9 +54,11 @@ You spend the entire day responding to Slack messages and pull request reviews.
 | 15:00–15:30 | Break, walk                           | 30 min   |
 | 15:30–17:00 | Meetings, documentation, planning     | 90 min   |
 
+</div>
+
 ### Deep Work
 
-Cal Newport"s concept of "Deep Work", cognitively demanding tasks performed in a state of
+Cal Newport's concept of "Deep Work", cognitively demanding tasks performed in a state of
 Distraction-free concentration, is the most valuable skill for a knowledge worker.
 
 **Rules for deep work:**
@@ -96,12 +100,16 @@ Unexpected connections and generates new insights.
 
 Tiago Forte's PARA method organizes digital information into four categories:
 
+<div class="table-wrap">
+
 | Category  | Description                   | Lifespan   |
 | --------- | ----------------------------- | ---------- |
 | Projects  | Active goals with a deadline  | Short-term |
 | Areas     | Ongoing responsibilities      | Long-term  |
 | Resources | Topics of interest            | Ongoing    |
 | Archives  | Inactive items from the above | Reference  |
+
+</div>
 
 Apply PARA to your note-taking system, file system, and task management. The key insight is that
 Everything is either active (Projects, Areas) or reference (Resources, Archives).
@@ -111,6 +119,8 @@ Everything is either active (Projects, Areas) or reference (Resources, Archives)
 A "second brain" is an external system for capturing, organizing, and retrieving information. The
 Tool matters less than the system. Options include:
 
+<div class="table-wrap">
+
 | Tool     | Strengths                                         | Best For                       |
 | -------- | ------------------------------------------------- | ------------------------------ |
 | Obsidian | Local-first, bidirectional links, plugins         | Zettelkasten, technical notes  |
@@ -118,6 +128,8 @@ Tool matters less than the system. Options include:
 | Notion   | Database-backed, collaboration, templates         | Team wikis, project management |
 | Org-mode | Emacs-native, literate programming, TODO tracking | Emacs users, developers        |
 | Joplin   | Open source, Markdown, E2EE                       | Privacy-focused users          |
+
+</div>
 
 ---
 
@@ -135,7 +147,7 @@ Tool matters less than the system. Options include:
 ### Spaced Repetition
 
 Spaced repetition exploits the spacing effect, information is retained better when review is spaced
-Over increasing intervals. Tools like Anki automate this process.
+over increasing intervals. Tools like Anki automate this process.
 
 For technical learning, create flashcards for:
 
@@ -467,13 +479,13 @@ Hour can consume 50% of your productive time. Defend your deep work time aggress
 
 There is no later. If something is worth learning, schedule it now. The half-life of technical
 Knowledge is short, and the skills you defer learning today will be more expensive to learn tomorrow
-When you actually need them.
+when you actually need them.
 
 ### Note-Taking Without Reviewing
 
 Capturing information without reviewing it is not learning, it is hoarding. Schedule weekly review
 Sessions where you revisit your notes, reorganize them, and identify gaps. Spaced repetition tools
-Like Anki automate the review process.
+like Anki automate the review process.
 
 ### Measuring Productivity by Hours
 
@@ -487,10 +499,14 @@ Fixed, designs completed) not input (hours, lines of code, commits).
 
 Dwight Eisenhower's decision matrix categorizes tasks by urgency and importance:
 
+<div class="table-wrap">
+
 |                   | Urgent                                  | Not Urgent                              |
 | ----------------- | --------------------------------------- | --------------------------------------- |
 | **Important**     | Do (crises, deadlines)                  | Schedule (strategic planning, learning) |
 | **Not Important** | Delegate (interruptions, some meetings) | Eliminate (time wasters, busywork)      |
+
+</div>
 
 Most knowledge workers spend the majority of their time on urgent-not-important tasks (responding to
 Slack, attending unnecessary meetings). The goal is to shift time toward important-not-urgent tasks
@@ -521,7 +537,7 @@ This rule prevents small tasks from accumulating and becoming mental clutter.
 ### Atomic Notes
 
 The core unit in Zettelkasten is the atomic note, a single idea expressed in your own words. Rules
-For atomic notes:
+for atomic notes:
 
 1. **One idea per note.** If a note covers two ideas, split it.
 2. **Write in your own words.** Do not copy-paste from sources. Paraphrasing forces understanding.
@@ -531,6 +547,8 @@ For atomic notes:
 
 ### Link Types in Knowledge Graphs
 
+<div class="table-wrap">
+
 | Link Type      | Syntax                       | Purpose                                |
 | -------------- | ---------------------------- | -------------------------------------- |
 | Unidirectional | `[[note-id]]`                | Simple reference                       |
@@ -538,6 +556,8 @@ For atomic notes:
 | Contextual     | `[[note-id#section]]`        | Reference to a specific section        |
 | Embed          | `![[note-id]]`               | Transclude content inline              |
 | Tag            | `#tag`                       | Categorization                         |
+
+</div>
 
 ### Building a Second Brain Workflow
 
@@ -638,6 +658,8 @@ ADR template:
 
 The ideal monitor setup for long coding sessions:
 
+<div class="table-wrap">
+
 | Configuration                | Recommendation                                         |
 | ---------------------------- | ------------------------------------------------------ |
 | Primary monitor              | 27–32 inch, 4K, IPS, 60 Hz+                            |
@@ -646,6 +668,8 @@ The ideal monitor setup for long coding sessions:
 | Monitor height               | Top of screen at or slightly below eye level           |
 | Monitor arm                  | Adjustable height, tilt, and rotation                  |
 | Brightness                   | Match ambient light (use bias lighting behind monitor) |
+
+</div>
 
 ### Keyboard Ergonomics
 
@@ -673,12 +697,16 @@ A simple routine for desk workers (15 minutes, no equipment):
 
 ### Monthly Learning Plan Template
 
+<div class="table-wrap">
+
 | Week   | Topic            | Resource                   | Output            |
 | ------ | ---------------- | -------------------------- | ----------------- |
 | Week 1 | ZFS architecture | Documentation + blog posts | Lab setup         |
 | Week 2 | ZFS in practice  | TrueNAS setup              | Pool design doc   |
 | Week 3 | ZFS performance  | ARC tuning guide           | Benchmark results |
 | Week 4 | ZFS recovery     | Scrub/repair procedures    | Runbook           |
+
+</div>
 
 ### Quarterly Review
 
@@ -733,7 +761,7 @@ Implement one idea from the book and track the results.
 ### Over-Tooling
 
 Using 20 different productivity apps creates more overhead than the productivity gains. Consolidate
-To a minimal toolset:
+to a minimal toolset:
 
 - Calendar (time blocking)
 - Task list (todo tracking)
@@ -771,7 +799,7 @@ Time    Energy    Best Activity Type
 ```
 
 Map your most cognitively demanding tasks to your peak energy windows. Use the lowest-energy periods
-For meetings and administrative work that does not require deep concentration.
+for meetings and administrative work that does not require deep concentration.
 
 ### The Two-Session Day
 
@@ -801,7 +829,7 @@ Batch all shallow tasks (email, Slack responses, PR reviews, CI triage) into spe
 ```
 
 The key insight is that every context switch has a cost. Research consistently shows that resuming
-An interrupted task takes 10-25 minutes of re-orientation time. Batching reduces the number of
+an interrupted task takes 10-25 minutes of re-orientation time. Batching reduces the number of
 Switches from potentially dozens per day to two or three.
 
 ## The Cornell Method for Technical Notes
@@ -844,7 +872,7 @@ After a learning session (reading documentation, watching a talk, debugging an i
 ## Zettelkasten for Technical Knowledge
 
 The Zettelkasten (slip-box) method is a note-taking system designed to facilitate emergent insights
-Through linkages between ideas. For engineers, it is particularly effective for building a knowledge
+through linkages between ideas. For engineers, it is particularly effective for building a knowledge
 Graph of debugging solutions, design patterns, and architecture decisions.
 
 ### Atomic Notes
@@ -903,6 +931,8 @@ delayed segment reassembly attacks.
 
 Use typed links to distinguish different relationships:
 
+<div class="table-wrap">
+
 | Link Type                  | Meaning                                 | Example             |
 | -------------------------- | --------------------------------------- | ------------------- |
 | `[[note-id]]`              | General reference                       | Related concept     |
@@ -910,6 +940,8 @@ Use typed links to distinguish different relationships:
 | `[[note-id\|contradicts]]` | Opposite or conflicting idea            | Alternative view    |
 | `[[note-id\|example-of]]`  | Concrete example of an abstract concept | Implementation      |
 | `[[note-id\|causes]]`      | Causal relationship                     | Root cause analysis |
+
+</div>
 
 ### Tools for Zettelkasten
 
@@ -940,12 +972,12 @@ Understanding by attempting to explain a concept in simple terms.
 
 "ZFS never overwrites data in place. When you modify a file, ZFS writes the new data to a new
 Location on disk and updates the metadata to point to the new location. The old data stays on disk
-Until the snapshot that references it is destroyed.
+until the snapshot that references it is destroyed.
 
 Think of it like a version control system for your entire filesystem. Every change creates a new
 'commit.' Old commits stay around until you explicitly delete them. This means you can always
 Recover previous versions of any file, but it also means that modifying a file takes up new space
-Instead of reusing the old space."
+instead of reusing the old space."
 
 If you cannot explain the difference between CoW and redirect-on-write, or you cannot explain why
 CoW benefits snapshots but can cause write amplification, you have identified knowledge gaps.
@@ -971,6 +1003,8 @@ Schedules reviews at increasing intervals.
 
 ### Card Types for Engineers
 
+<div class="table-wrap">
+
 | Card Type  | Use Case             | Example                                                                               |
 | ---------- | -------------------- | ------------------------------------------------------------------------------------- |
 | Definition | Core concepts        | "What is the difference between throughput and bandwidth?"                            |
@@ -978,6 +1012,8 @@ Schedules reviews at increasing intervals.
 | Command    | CLI reference        | "What zfs command shows the deduplication ratio for a pool?"                          |
 | Comparison | Technology decisions | "What are the trade-offs between ext4 and XFS for a database workload?"               |
 | Threshold  | Performance tuning   | "At what CPU steal time percentage should you investigate noisy neighbors?"           |
+
+</div>
 
 ### Integration with Learning Workflow
 
@@ -997,7 +1033,7 @@ anki --import /tmp/anki-import.txt --deck "Systems Engineering"
 
 Burnout in systems engineering is common because the role involves constant context switching,
 On-call responsibilities, and the stress of managing production systems where failures are visible
-And impactful.
+and impactful.
 
 ### The Burnout Cycle
 
@@ -1030,9 +1066,11 @@ Project, every on-call shift, and every request.
 ## Sustainable Productivity Metrics
 
 Avoid measuring productivity in terms of hours worked or lines of code. These are vanity metrics
-That encourage presenteeism over effectiveness.
+that encourage presenteeism over effectiveness.
 
 ### Better Metrics
+
+<div class="table-wrap">
 
 | Metric                         | How to Measure                    | Why It Matters                           |
 | ------------------------------ | --------------------------------- | ---------------------------------------- |
@@ -1041,6 +1079,8 @@ That encourage presenteeism over effectiveness.
 | Review turnaround time         | Average time to review a PR       | Measures team velocity                   |
 | Documentation coverage         | % of systems with runbooks        | Measures operational maturity            |
 | Learning hours per week        | Time spent on deliberate learning | Measures long-term investment            |
+
+</div>
 
 ### Tracking Without Micromanagement
 
@@ -1053,7 +1093,7 @@ Use a personal weekly review (30 minutes every Friday):
 
 Keep this private. The purpose is self-reflection, not reporting to management. Over time, you will
 Develop an intuitive sense of your sustainable output rate, which helps with realistic estimation
-And commitment management.
+and commitment management.
 
 ## Summary
 
@@ -1068,13 +1108,7 @@ key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

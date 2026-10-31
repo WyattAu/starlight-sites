@@ -22,7 +22,7 @@ categories:
 ## Standard Library Concepts
 
 The `<concepts>` header [N4950 §18.4] provides a comprehensive set of predefined concepts that serve
-As building blocks for user-defined constraints. These concepts cover core language relationships,
+as building blocks for user-defined constraints. These concepts cover core language relationships,
 Comparisons, object properties, callable requirements, type categories, and iterator hierarchies.
 Using standard library concepts instead of ad-hoc constraints ensures interoperability and correct
 Subsumption ordering.
@@ -30,6 +30,8 @@ Subsumption ordering.
 ## The `<concepts>` Header
 
 ### Core Language Concepts
+
+<div class="table-wrap">
 
 | Concept                            | Description                                         |
 | ---------------------------------- | --------------------------------------------------- |
@@ -39,7 +41,11 @@ Subsumption ordering.
 | `std::common_reference_with<T, U>` | `T` and `U` share a common reference type [§18.4.2] |
 | `std::common_with<T, U>`           | `T` and `U` share a common type [§18.4.2]           |
 
+</div>
+
 ### Comparison Concepts
+
+<div class="table-wrap">
 
 | Concept                        | Description                                      |
 | ------------------------------ | ------------------------------------------------ |
@@ -47,7 +53,11 @@ Subsumption ordering.
 | `std::totally_ordered<T>`      | `<` defines a total order on `T` [§18.4.5]       |
 | `std::three_way_comparable<T>` | `<=>` is defined for `T` (C++20) [§18.4.5]       |
 
+</div>
+
 ### Object Concepts
+
+<div class="table-wrap">
 
 | Concept               | Description                                                                                |
 | --------------------- | ------------------------------------------------------------------------------------------ |
@@ -56,7 +66,11 @@ Subsumption ordering.
 | `std::regular<T>`     | `T` is copyable, default-constructible, and equality-comparable [§18.4.6]                  |
 | `std::semiregular<T>` | `T` is copyable and default-constructible [§18.4.6]                                        |
 
+</div>
+
 ### Callable Concepts
+
+<div class="table-wrap">
 
 | Concept                      | Description                                                     |
 | ---------------------------- | --------------------------------------------------------------- |
@@ -64,7 +78,11 @@ Subsumption ordering.
 | `std::predicate<F, Args...>` | `F` invoked with `Args...` returns `bool`-convertible [§18.4.8] |
 | `std::relation<R, T, U>`     | `R` defines an equivalence relation on `T` and `U` [§18.4.8]    |
 
+</div>
+
 ### Type Categories
+
+<div class="table-wrap">
 
 | Concept                     | Description                                |
 | --------------------------- | ------------------------------------------ |
@@ -73,9 +91,11 @@ Subsumption ordering.
 | `std::unsigned_integral<T>` | `T` is an unsigned integral type [§18.4.3] |
 | `std::floating_point<T>`    | `T` is a floating-point type [§18.4.3]     |
 
+</div>
+
 :::note
 Types that behave like built-in values: they can be copied, default-constructed, and compared for
-Equality. `int``double`And `std::string` are all `std::regular`. `std::unique_ptr` is `std::movable`
+Equality. `int`, `double` and `std::string` are all `std::regular`. `std::unique_ptr` is `std::movable`
 but not `std::regular` (not copyable). `std::mutex` is neither `std::movable` nor `std::copyable`.
 These concepts are the vocabulary types of generic programming.
 :::
@@ -170,6 +190,8 @@ $$
 \mathrm{input\_iterator \prec \mathrm{forward\_iterator \prec \mathrm{bidirectional\_iterator \prec \mathrm{random\_access\_iterator \prec \mathrm{contiguous\_iterator
 $$
 
+<div class="table-wrap">
+
 | Concept                       | Key Requirements                                                                 |
 | ----------------------------- | -------------------------------------------------------------------------------- |
 | `std::input_iterator`         | Can be dereferenced, pre/post-incremented, and compared to a sentinel [§18.4.4]  |
@@ -177,6 +199,8 @@ $$
 | `std::bidirectional_iterator` | Forward iterator + decrementable [§18.4.4]                                       |
 | `std::random_access_iterator` | Bidirectional iterator + constant-time advancement with `+``-``+=``-=` [§18.4.4] |
 | `std::contiguous_iterator`    | Random access iterator + elements are stored contiguously in memory [§18.4.4]    |
+
+</div>
 
 Additionally, `std::output_iterator` is a separate concept for write-only iterators.
 
@@ -219,14 +243,18 @@ input_iterator -> forward -> bidirectional -> random_access -> contiguous
 
 C++20 also provides sentinel concepts for range-based iteration:
 
+<div class="table-wrap">
+
 | Concept                         | Description                                               |
 | ------------------------------- | --------------------------------------------------------- |
 | `std::sentinel_for<S, I>`       | `S` is a sentinel for iterator `I` (comparable with `==`) |
 | `std::sized_sentinel_for<S, I>` | `S` supports subtraction with `I` to get a difference     |
 
+</div>
+
 ## Code Example: `std::totally_ordered` for Custom Types
 
-The `std::totally_ordered` concept [N4950 §18.4.5] requires that `<``>``<=``>=` all define a Total
+The `std::totally_ordered` concept [N4950 §18.4.5] requires that `<`, `>`, `<=`, `>=` all define a Total
 order on the type. The easiest way to satisfy this concept is to define `operator<=>` (the Spaceship
 operator, C++20) [N4950 §7.6.8]:
 
@@ -282,18 +310,22 @@ true
 ```
 
 The default `operator<=>` performs lexicographic comparison on the data members in declaration order
-[N4950 §7.6.8]. Because `int` already supports `<=>`The compiler generates the full comparison
+[N4950 §7.6.8]. Because `int` already supports `<=>`. The compiler generates the full comparison
 Operator suite for `Version`Satisfying `std::totally_ordered`.
 
 ### Three-Way Comparison Categories
 
 The `<=>` operator returns one of three comparison category types [N4950 §18.4.5]:
 
+<div class="table-wrap">
+
 | Category                | Properties                                          | Example                 |
 | ----------------------- | --------------------------------------------------- | ----------------------- |
 | `std::strong_ordering`  | Substitutable (a == b implies f(a) == f(b))         | `int``std::string`      |
 | `std::weak_ordering`    | Equivalence but not substitutable                   | Case-insensitive string |
 | `std::partial_ordering` | Incomparable values possible (e.g., NaN with float) | `double`                |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -393,6 +425,8 @@ Concepts are defined in `<ranges>` [N4950 §26.2] and compose with the concepts 
 The `<ranges>` header provides concepts that operate on ranges (pairs of iterators and sentinels)
 Rather than individual iterators:
 
+<div class="table-wrap">
+
 | Concept                               | Description                                             |
 | ------------------------------------- | ------------------------------------------------------- |
 | `std::ranges::range<R>`               | `R` has `begin()` and `end()`                           |
@@ -404,6 +438,8 @@ Rather than individual iterators:
 | `std::ranges::sized_range<R>`         | Range where `size()` is O(1)                            |
 | `std::ranges::view<R>`                | Range that is a view (cheap to copy/move)               |
 | `std::ranges::borrowed_range<R>`      | Range whose iterators outlive the range object          |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -436,7 +472,7 @@ int main() {
 
 `std::invocable<F, Args...>` checks that `F(Args...)` is a valid expression.
 `std::regular_invocable` adds the requirement that the invocation is equality-preserving, calling
-The same function with the same arguments produces the same result. This distinction matters for
+the same function with the same arguments produces the same result. This distinction matters for
 Pure functions vs functions with side effects:
 
 ```cpp
@@ -535,7 +571,7 @@ int main() {
 ### Pitfall 3: Concept Subsumption Order Matters for Overload Resolution
 
 When two overloads are constrained, the more specific constraint should subsume the less specific
-One. If constraints don't properly subsume, overload resolution becomes ambiguous:
+one. If constraints don't properly subsume, overload resolution becomes ambiguous:
 
 ```cpp
 #include <iostream>
@@ -562,16 +598,6 @@ void process(T val) {
 The fix is to place the more specific overload first, since `std::signed_integral<T>` subsumes
 `std::integral<T>` (every signed integral is an integral, but not vice versa).
 
-```mermaid
-flowchart TD
-    A[3_Standard_Concepts] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of standard library concepts, including underlying theory,
@@ -585,10 +611,5 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

@@ -17,12 +17,48 @@ description: 'A converges if the sequence of partial sums Comprehensive educatio
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- What does it mean for $\sum a_n$ to converge?
+- State the ratio test. When is it inconclusive?
+- What is the difference between absolute and conditional convergence?
+- Does $\sum 1/n$ converge? Does $\sum (-1)^n/n$?
+- Is the sum of a conditionally convergent series independent of the order of
+  the terms?
+
+Check your answers against the text. The last prompt is the one most people
+answer wrongly, and the answer is the most surprising result on this page.
+
+## Motivation: three questions that look the same and are not
+
+- Does $\sum_{n=1}^{\infty} 1/n$ converge?
+- Does $\sum_{n=1}^{\infty} 1/n^2$ converge?
+- Does $\sum_{n=1}^{\infty} (-1)^n/n$ converge?
+
+The first diverges. The second converges to $\pi^2/6$. The third converges to
+$\ln 2$ -- and if you rearrange its terms you can make it converge to *any real
+number you like*.
+
+Three series whose terms all tend to zero, with three different behaviours. The
+whole of this page is the machinery for telling them apart, and the machinery
+matters: a series is the discrete analogue of an integral, power series are how
+functions are computed, and Fourier series are how signals are analysed. Getting
+the convergence tests right is the price of entry to all of that.
+
+**The paradox to hold onto.** Adding infinitely many positive terms can give a
+finite answer ($1/2 + 1/4 + 1/8 + \cdots = 1$), and adding infinitely many terms
+that tend to zero can give an infinite answer ($1 + 1/2 + 1/3 + \cdots$).
+"Tends to zero" is necessary and not sufficient, and the reason is the
+*accumulated total*, not the individual terms.
+
 ### 3.1 Definitions and Convergence
 
 A **series** $\sum_{n=1}^{\infty} a_n$ converges if the sequence of partial sums
 $S_N = \sum_{n=1}^{N} a_n$ Converges. The limit is the sum of the series.
 
-If $a_n \geq 0$ for all $n$The series of partial sums is increasing, so by the monotone convergence
+If $a_n \geq 0$ for all $n$ The series of partial sums is increasing, so by the monotone convergence
 Theorem, $\sum a_n$ converges if and only if $(S_N)$ is bounded above.
 
 ### 3.2 Convergence Tests
@@ -40,20 +76,20 @@ if $\sum b_n$ converges.
 
 - If $L \lt 1$, $\sum a_n$ converges absolutely.
 - If $L > 1$, $\sum a_n$ diverges.
-- If $L = 1$The test is inconclusive.
+- If $L = 1$ The test is inconclusive.
 
 **Theorem 3.4 (Root Test).** If $\limsup_{n \to \infty} \sqrt[n]{|a_n|} = L$ Then:
 
 - If $L \lt 1$, $\sum a_n$ converges absolutely.
 - If $L > 1$, $\sum a_n$ diverges.
-- If $L = 1$The test is inconclusive.
+- If $L = 1$ The test is inconclusive.
 
-_Proof._ If $L \lt 1$Choose $r$ with $L \lt r \lt 1$. By definition of $\limsup$There exists $N$
-such that $\sqrt[n]{|a_n|} \lt r$ for all $n \geq N$I.e., $|a_n| \lt r^n$. Since $\sum r^n$
+_Proof._ If $L \lt 1$ Choose $r$ with $L \lt r \lt 1$. By definition of $\limsup$ There exists $N$
+such that $\sqrt[n]{|a_n|} \lt r$ for all $n \geq N$ I.e., $|a_n| \lt r^n$. Since $\sum r^n$
 converges (geometric series with $r \lt 1$), the comparison test gives absolute convergence.
 
 If $L > 1$ Then for infinitely many $n$: $\sqrt[n]{|a_n|} > 1$ So $|a_n| > 1$. Hence $a_n \not\to 0$
-And the series diverges. $\blacksquare$
+and the series diverges. $\blacksquare$
 
 **Theorem 3.5 (Integral Test).** If $f : [1, \infty) \to [0, \infty)$ is positive, continuous, and
 Decreasing, then $\sum_{n=1}^{\infty} f(n)$ converges if and only if $\int_1^{\infty} f(x)\, dx$
@@ -62,11 +98,15 @@ converges.
 _Proof._ Since $f$ is decreasing, for $k \leq x \leq k+1$: $f(k+1) \leq f(x) \leq f(k)$.
 Integrating:
 
-$$f(k+1) = \int_k^{k+1} f(k+1)\, dx \leq \int_k^{k+1} f(x)\, dx \leq \int_k^{k+1} f(k)\, dx = f(k)$$
+$$
+f(k+1) = \int_k^{k+1} f(k+1)\, dx \leq \int_k^{k+1} f(x)\, dx \leq \int_k^{k+1} f(k)\, dx = f(k)
+$$
 
 Summing from $k = 1$ to $N - 1$:
 
-$$\sum_{k=2}^{N} f(k) \leq \int_1^N f(x)\, dx \leq \sum_{k=1}^{N-1} f(k)$$
+$$
+\sum_{k=2}^{N} f(k) \leq \int_1^N f(x)\, dx \leq \sum_{k=1}^{N-1} f(k)
+$$
 
 If $\int_1^{\infty} f$ converges, the left inequality shows $\sum f(k)$ is bounded above, hence
 converges. If $\int_1^{\infty} f$ diverges, the right inequality shows $\sum f(k)$ is unbounded,
@@ -76,11 +116,11 @@ hence diverges. $\blacksquare$
 $\sum_{n=1}^{\infty} (-1)^{n+1} a_n$ converges.
 
 _Proof._ The partial sums of the even-indexed subsequence satisfy
-$S_{2n} = S_{2n-2} - a_{2n-1} + a_{2n}$. Since $a_{2n-1} \geq a_{2n}$We have
+$S_{2n} = S_{2n-2} - a_{2n-1} + a_{2n}$. Since $a_{2n-1} \geq a_{2n}$ We have
 $S_{2n} \leq S_{2n-2}$ So $(S_{2n})$ is decreasing. Similarly, $(S_{2n+1})$ is increasing. Also
 $S_{2n+1} = S_{2n} + a_{2n+1} \geq S_{2n}$. Both sequences are bounded (since $(S_{2n})$ is
 decreasing and bounded below by $S_1$ And $(S_{2n+1})$ is increasing and bounded Above by $S_2$).
-Hence both converge. Since $a_{2n+1} \to 0$Their limits coincide. $\blacksquare$
+Hence both converge. Since $a_{2n+1} \to 0$ Their limits coincide. $\blacksquare$
 
 ### 3.3 Absolute and Conditional Convergence
 
@@ -90,7 +130,7 @@ conditionally** If $\sum a_n$ converges but $\sum |a_n|$ diverges.
 **Theorem 3.7.** If $\sum a_n$ converges absolutely, then $\sum a_n$ converges.
 
 _Proof._ Since $\sum |a_n|$ converges, the partial sums of $\sum |a_n|$ satisfy the Cauchy
-criterion. Given $\varepsilon > 0$There exists $N$ such that for $m > n \geq N$:
+criterion. Given $\varepsilon > 0$ There exists $N$ such that for $m > n \geq N$:
 $\sum_{k=n+1}^{m} |a_k| \lt \varepsilon$. Then
 $\left|\sum_{k=n+1}^{m} a_k\right| \leq \sum_{k=n+1}^{m} |a_k| \lt \varepsilon$ So $\sum a_n$
 satisfies The Cauchy criterion and converges. $\blacksquare$
@@ -100,7 +140,9 @@ satisfies The Cauchy criterion and converges. $\blacksquare$
 **Theorem 3.8 (Alternating Series Estimation).** If $S = \sum_{n=1}^{\infty} (-1)^{n+1} a_n$
 satisfies the Hypotheses of the alternating series test, then the error after $N$ terms satisfies:
 
-$$|S - S_N| \leq a_{N+1}$$
+$$
+|S - S_N| \leq a_{N+1}
+$$
 
 _Proof._ We have $S_{2n} \leq S \leq S_{2n+1} = S_{2n} + a_{2n+1}$ and
 $S_{2n-1} \geq S \geq S_{2n} = S_{2n-1} - a_{2n}$. In both cases $|S - S_N| \leq a_{N+1}$.
@@ -113,19 +155,23 @@ $\sum_{n=1}^{\infty} a_n$ converges if and only if $\sum_{k=0}^{\infty} 2^k a_{2
 
 _Proof._ Group the terms of $\sum a_n$. For the lower bound, note:
 
-$$a_1 + (a_2 + a_3) + (a_4 + a_5 + a_6 + a_7) + \cdots \geq a_1 + 2a_2 + 4a_4 + 8a_8 + \cdots = \sum_{k=0}^{\infty} 2^k a_{2^k}$$
+$$
+a_1 + (a_2 + a_3) + (a_4 + a_5 + a_6 + a_7) + \cdots \geq a_1 + 2a_2 + 4a_4 + 8a_8 + \cdots = \sum_{k=0}^{\infty} 2^k a_{2^k}
+$$
 
 Since each group $(a_{2^k} + \cdots + a_{2^{k+1}-1})$ has $2^k$ terms, each $\geq a_{2^k}$. For the
 upper Bound:
 
-$$a_1 + a_2 + (a_3 + a_4) + (a_5 + a_6 + a_7 + a_8) + \cdots \leq a_1 + a_2 + 2a_4 + 4a_8 + \cdots \leq a_1 + 2\sum_{k=1}^{\infty} 2^{k-1} a_{2^k}$$
+$$
+a_1 + a_2 + (a_3 + a_4) + (a_5 + a_6 + a_7 + a_8) + \cdots \leq a_1 + a_2 + 2a_4 + 4a_8 + \cdots \leq a_1 + 2\sum_{k=1}^{\infty} 2^{k-1} a_{2^k}
+$$
 
 If $\sum 2^k a_{2^k}$ converges, the upper bound shows $\sum a_n$ converges. If $\sum a_n$
 Converges, the lower bound shows $\sum 2^k a_{2^k}$ converges. $\blacksquare$
 
 _Corollary._ $\sum_{n=1}^{\infty} 1/n^p$ converges if and only if $p > 1$. Apply the condensation
-Test: $\sum 2^k \cdot 1/(2^k)^p = \sum 2^{k(1-p)}$A geometric series with ratio $2^{1-p}$ Which
-converges iff $1 - p \lt 0$I.e., $p > 1$.
+Test: $\sum 2^k \cdot 1/(2^k)^p = \sum 2^{k(1-p)}$ A geometric series with ratio $2^{1-p}$ Which
+converges iff $1 - p \lt 0$ I.e., $p > 1$.
 
 ### 3.6 Rearrangement of Series
 
@@ -137,8 +183,8 @@ _Proof (outline)._ Let $P = \{n : a_n > 0\}$ and $N = \{n : a_n \lt 0\}$. Since 
 Conditionally, both $\sum_{n \in P} a_n = +\infty$ and $\sum_{n \in N} a_n = -\infty$.
 
 To achieve sum $L \in \mathbb{R}$: take positive terms in order until the partial sum exceeds $L$
-Then take negative terms until it falls below $L$ Then positive terms again, and so on. Since both
-The positive and negative subseries diverge, this process can always continue. The terms tend to
+then take negative terms until it falls below $L$ Then positive terms again, and so on. Since both
+the positive and negative subseries diverge, this process can always continue. The terms tend to
 Zero (since the series converges), so the oscillations around $L$ shrink to zero. $\blacksquare$
 
 _Remark._ By contrast, every rearrangement of an absolutely convergent series converges to the same
@@ -150,7 +196,9 @@ sum.
 
 _Solution._ Apply the ratio test:
 
-$$\lim_{n \to \infty} \frac{a_{n+1}}{a_n} = \lim_{n \to \infty} \frac{(n+1)/2^{n+1}}{n/2^n} = \lim_{n \to \infty} \frac{n+1}{2n} = \frac{1}{2} \lt 1$$
+$$
+\lim_{n \to \infty} \frac{a_{n+1}}{a_n} = \lim_{n \to \infty} \frac{(n+1)/2^{n+1}}{n/2^n} = \lim_{n \to \infty} \frac{n+1}{2n} = \frac{1}{2} \lt 1
+$$
 
 By the ratio test, the series converges absolutely. $\blacksquare$
 
@@ -160,7 +208,9 @@ By the ratio test, the series converges absolutely. $\blacksquare$
 _Solution._ Note that $\frac{1}{n^2 + n} = \frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$. This is
 a Telescoping series. The $N$-th partial sum is:
 
-$$S_N = \sum_{n=1}^{N} \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}$$
+$$
+S_N = \sum_{n=1}^{N} \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}
+$$
 
 Therefore $\lim_{N \to \infty} S_N = 1$ And the series converges to $1$. $\blacksquare$
 
@@ -172,7 +222,9 @@ Therefore $\lim_{N \to \infty} S_N = 1$ And the series converges to $1$. $\black
 _Solution._ Apply the integral test with $f(x) = 1/(x \ln x)$ on $[2, \infty)$. The function is
 positive, Continuous, and decreasing. Compute:
 
-$$\int_2^{\infty} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \int_2^{b} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \left[\ln(\ln x)\right]_2^b = \lim_{b \to \infty} \ln(\ln b) - \ln(\ln 2) = \infty$$
+$$
+\int_2^{\infty} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \int_2^{b} \frac{1}{x \ln x}\, dx = \lim_{b \to \infty} \left[\ln(\ln x)\right]_2^b = \lim_{b \to \infty} \ln(\ln b) - \ln(\ln 2) = \infty
+$$
 
 The integral diverges, so by the integral test, the series diverges. $\blacksquare$
 
@@ -183,7 +235,7 @@ The integral diverges, so by the integral test, the series diverges. $\blacksqua
 
 _Solution._ This is the alternating harmonic series, with $a_n = 1/n$. By the alternating series
 Estimation theorem, $|S - S_N| \leq a_{N+1} = 1/(N+1)$. We need $1/(N+1) \leq 0.01$ So
-$N + 1 \geq 100$I.e., $N \geq 99$.
+$N + 1 \geq 100$ I.e., $N \geq 99$.
 
 So $S_{99} = \sum_{n=1}^{99} \frac{(-1)^{n+1}}{n}$ approximates $\ln 2$ to within $0.01$. (The exact
 sum is $\ln 2 \approx 0.6931$.) $\blacksquare$
@@ -206,7 +258,9 @@ _Solution._ Let $a_n = \frac{1}{n (\ln n)(\ln \ln n)}$ for $n \geq 3$. This is p
 decreasing. By the condensation test, $\sum a_n$ converges iff $\sum 2^k a_{2^k}$ converges.
 Compute:
 
-$$2^k a_{2^k} = \frac{2^k}{2^k \cdot k \ln 2 \cdot \ln(k \ln 2)} = \frac{1}{k \ln 2 \cdot \ln(k \ln 2)} \approx \frac{1}{k \ln k}$$
+$$
+2^k a_{2^k} = \frac{2^k}{2^k \cdot k \ln 2 \cdot \ln(k \ln 2)} = \frac{1}{k \ln 2 \cdot \ln(k \ln 2)} \approx \frac{1}{k \ln k}
+$$
 
 The series $\sum \frac{1}{k \ln k}$ diverges (integral test, analogous to $\sum \frac{1}{n \ln n}$).
 Therefore $\sum a_n$ diverges. $\blacksquare$
@@ -215,18 +269,53 @@ _If you get this wrong, revise:_ Section 3.5 (Cauchy Condensation Test).
 
 </details>
 
-### 3.8 Common Mistakes
+## Counterexamples worth knowing by name
 
+<div class="table-wrap">
 
-```mermaid
-flowchart TD
-    A[3_Series] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+| Series | Converges? | Absolutely? | Test that decides it |
+| ------ | ---------- | ----------- | -------------------- |
+| $\sum 1/n$ | no | no | $p$-series with $p = 1$ |
+| $\sum 1/n^2$ | yes | yes | $p$-series with $p = 2$; sum $= \pi^2/6$ |
+| $\sum (-1)^{n+1}/n$ | yes | **no** | alternating series test |
+| $\sum 1/(n \ln n)$ | **no** | no | Cauchy condensation |
+| $\sum n/2^n$ | yes | yes | ratio test |
+| $\sum (-1)^n$ | no | no | terms do not tend to zero |
+
+</div>
+
+**The Cauchy condensation test** is the underused one, and it is the fastest way
+to settle the $p$-series. It says $\sum a_n$ (positive, decreasing) converges
+exactly when $\sum 2^k a_{2^k}$ does. Applying it to $\sum 1/n^p$ gives
+$\sum 2^k / 2^{kp} = \sum 2^{k(1-p)}$, a geometric series in $2^{1-p}$ -- which
+converges exactly when $p > 1$. One line, no integral comparison.
+
+## The Riemann rearrangement theorem, made concrete
+
+Take the alternating harmonic series $\sum (-1)^{n+1}/n = \ln 2 \approx
+0.693$. Its positive terms are $1, 1/3, 1/5, \dots$ with divergent sum, and its
+negative terms are $-1/2, -1/4, -1/6, \dots$ with divergent sum.
+
+To make it sum to $1.5$ instead: take positive terms until the partial sum
+exceeds $1.5$ ($1 + 1/3 + 1/5 = 1.533$), then negative terms until it drops
+below ($-1/2$ gives $1.033$), then positive again, and so on. The oscillations
+shrink because the terms tend to zero, so the rearranged series converges -- to
+$1.5$ rather than $\ln 2$.
+
+**Why this matters beyond the puzzle.** Conditional convergence means the sum
+depends on the *order*, so it is not a property of the terms at all. Any
+computation involving such a series must fix an order. Numerically, summing a
+conditionally convergent series in floating point gives order-dependent answers,
+which is a real source of error in signal processing and numerical PDE.
+
+Absolutely convergent series have no such problem: every rearrangement converges
+to the same sum, because the positive and negative parts each converge.
+
+> **Exercise.** Show that the positive terms of a conditionally convergent
+> series have divergent sum, and likewise the negative terms. *(Hint: if both
+> converged, the series would converge absolutely.)*
+
+## Common Mistakes
 
 ## Intuition
 
@@ -249,7 +338,7 @@ The Riemann rearrangement theorem states that any conditionally convergent serie
 - **[Sequences and Series of Functions](/3-real-analysis/7_sequences-and-series-of-functions/)**: The convergence tests for numerical series extend to function series through the Weierstrass M-test and uniform convergence.
 - **[Complex Numbers Review](/6-complex-analysis/1_complex-numbers-review/)**: Complex series and power series in the complex plane extend the convergence theory to two dimensions.
 - **[Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)**: Fourier series are infinite series of trigonometric functions whose convergence depends on the tests developed in this chapter.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

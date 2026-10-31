@@ -23,11 +23,11 @@ URL: https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals/
 
 A modern CPU is a superscalar, out-of-order, speculative execution engine. Understanding these
 Concepts is prerequisite to any meaningful tuning, because every knob you adjust interacts with one
-Or more of these mechanisms.
+or more of these mechanisms.
 
 ### Instruction Pipeline
 
-Every x86 instruction passes through a series of pipeline stages. Intel"s Golden Cove (12th Gen
+Every x86 instruction passes through a series of pipeline stages. Intel's Golden Cove (12th Gen
 P-core) has a pipeline depth of approximately 19 stages; AMD's Zen 4 is roughly 16 stages. Pipeline
 Depth is a fundamental trade-off:
 
@@ -51,35 +51,35 @@ graph LR
 
 The front-end fetches instruction bytes from the L1 instruction cache ( 32 KB, 8-way set Associative
 on Intel, 64 KB on AMD Zen 4). The decoder translates x86 CISC instructions into Internal micro-ops
-($\mu$Ops). Intel CPUs can decode up to 6 instructions per cycle; AMD Zen 4 can Decode up to 6 as
-well. Instructions that decode to more than one $\mu$Op (complex instructions like `ENTER`String
+($\mu$ Ops). Intel CPUs can decode up to 6 instructions per cycle; AMD Zen 4 can Decode up to 6 as
+well. Instructions that decode to more than one $\mu$ Op (complex instructions like `ENTER`String
 operations, or instructions with memory operands using complex addressing modes) Consume more
 decoder bandwidth.
 
-The micro-op cache (MSB on Intel, OP cache on AMD) caches already-decoded $\mu$Ops, bypassing the
-Legacy decoder entirely. On Intel 12th Gen, the micro-op cache can deliver up to 8 $\mu$Ops per
+The micro-op cache (MSB on Intel, OP cache on AMD) caches already-decoded $\mu$ Ops, bypassing the
+Legacy decoder entirely. On Intel 12th Gen, the micro-op cache can deliver up to 8 $\mu$ Ops per
 Cycle, compared to 6 from the legacy decoder. Code that fits in the micro-op cache executes faster
-Because it avoids the decode bottleneck.
+because it avoids the decode bottleneck.
 
 ### Out-of-Order Execution
 
-After decode, $\mu$Ops enter the reorder buffer (ROB). The ROB tracks the program order of all
-In-flight $\mu$Ops while allowing the execution units to process them in any order dictated by data
+After decode, $\mu$ Ops enter the reorder buffer (ROB). The ROB tracks the program order of all
+in-flight $\mu$ Ops while allowing the execution units to process them in any order dictated by data
 Dependencies and resource availability.
 
 Key components:
 
-- **Reservation Stations:** Hold $\mu$Ops waiting for their operands to become available. When all
-  operands are ready, the $\mu$Op is dispatched to an execution port.
+- **Reservation Stations:** Hold $\mu$ Ops waiting for their operands to become available. When all
+  operands are ready, the $\mu$ Op is dispatched to an execution port.
 - **Register Renaming:** Eliminates false dependencies (Write-After-Write, Write-After-Read) by
   mapping architectural registers (e.g., `RAX`) to physical registers. Intel Golden Cove has ~280
   physical integer registers; AMD Zen 4 has 160.
-- **Reorder Buffer:** Tracks in-flight $\mu$Ops and ensures they retire in program order. Intel
+- **Reorder Buffer:** Tracks in-flight $\mu$ Ops and ensures they retire in program order. Intel
   Golden Cove ROB size is 512 entries; AMD Zen 4 is 416.
 
 The out-of-order window size (determined by ROB size, scheduler entries, and load/store queue depth)
 Directly affects how much instruction-level parallelism the CPU can extract. Larger windows find
-More independent work to do, which is why wider out-of-order engines generally perform better on
+more independent work to do, which is why wider out-of-order engines generally perform better on
 Branchy, real-world code.
 
 ### Branch Prediction
@@ -96,12 +96,14 @@ Outcome of conditional branches before they execute.
 
 Branch misprediction penalty is proportional to pipeline depth: on a 19-stage pipeline, a
 Misprediction flushes the pipeline and wastes roughly 15–19 cycles. This is why branch-heavy code
-Can perform significantly worse than expected.
+can perform significantly worse than expected.
 
 ### Superscalar Execution
 
-Modern CPUs have multiple execution ports that can process $\mu$Ops in parallel. Intel Golden Cove
-Has 12 execution ports:
+Modern CPUs have multiple execution ports that can process $\mu$ Ops in parallel. Intel Golden Cove
+has 12 execution ports:
+
+<div class="table-wrap">
 
 | Ports | Function                         |
 | ----- | -------------------------------- |
@@ -118,9 +120,11 @@ Has 12 execution ports:
 | 10    | Store address (AGU)              |
 | 11    | Load (AGU)                       |
 
+</div>
+
 AMD Zen 4 has 10 execution ports with a different allocation. The key takeaway for tuning is that
-Your code (or the compiler's output) must have enough independent $\mu$Ops to fill these ports. If
-Every instruction depends on the previous one (a long dependency chain), most ports sit idle.
+your code (or the compiler's output) must have enough independent $\mu$ Ops to fill these ports. If
+every instruction depends on the previous one (a long dependency chain), most ports sit idle.
 
 ---
 
@@ -140,6 +144,8 @@ Latency gap drives every architectural decision in cache design.
 
 ### Latency Comparison
 
+<div class="table-wrap">
+
 | Level          | Size (Typical) | Latency (Cycles) | Latency (ns at 5 GHz) |
 | -------------- | -------------- | ---------------- | --------------------- |
 | L1 Data        | 32–48 KB       | 4–5              | ~1.0                  |
@@ -148,6 +154,8 @@ Latency gap drives every architectural decision in cache design.
 | L3 (Shared)    | 16–64 MB       | 35–50            | ~8.0                  |
 | DRAM (DDR5)    | Variable       | 200–400+         | ~60–80                |
 | NVMe SSD       | Variable       | ~10,000          | ~2,000                |
+
+</div>
 
 ### Cache Lines and Spatial Locality
 
@@ -166,15 +174,21 @@ Each cache level uses set-associative mapping. An N-way set-associative cache me
 Address can map to N different cache lines within a set. Higher associativity reduces conflict
 Misses but increases lookup latency and power consumption.
 
+<div class="table-wrap">
+
 | CPU                     | L1 Data      | L2           | L3                 |
 | ----------------------- | ------------ | ------------ | ------------------ |
 | Intel 12th Gen (P-core) | 8-way, 48 KB | 12-way, 2 MB | 16-way (per slice) |
 | AMD Zen 4               | 8-way, 32 KB | 16-way, 1 MB | 16-way (per CCD)   |
 
+</div>
+
 ### MESI Protocol
 
 Multi-core systems use a cache coherence protocol to ensure all cores see consistent data. The MESI
 Protocol defines four states for each cache line:
+
+<div class="table-wrap">
 
 | State             | Meaning                                          |
 | ----------------- | ------------------------------------------------ |
@@ -182,6 +196,8 @@ Protocol defines four states for each cache line:
 | **E** (Exclusive) | Line is clean and present only in this cache     |
 | **S** (Shared)    | Line is clean and may be present in other caches |
 | **I** (Invalid)   | Line is not valid in this cache                  |
+
+</div>
 
 When Core A modifies a line in Shared state, it must issue a RFO (Read For Ownership) request to
 Invalidate all other copies. This is why false sharing, where unrelated variables share a cache
@@ -239,7 +255,7 @@ Frequency, highest voltage) upward. P-state transitions are managed by the CPU's
 Controller (PCU on Intel, SMU on AMD).
 
 On modern systems, P-states are managed autonomously by the CPU. The OS requests a performance level
-Via ACPI, and the CPU's hardware decides the actual frequency. This is known as "hardware-managed
+via ACPI, and the CPU's hardware decides the actual frequency. This is known as "hardware-managed
 P-states" or HWP (Hardware P-States) on Intel.
 
 ### C-States (Idle States)
@@ -247,14 +263,18 @@ P-states" or HWP (Hardware P-States) on Intel.
 C-States are idle power-saving states. When a core has no work to do, it can enter progressively
 Deeper C-states:
 
+<div class="table-wrap">
+
 | State     | Description                      | Exit Latency    | Power Savings |
 | --------- | -------------------------------- | --------------- | ------------- |
 | C0        | Active execution                 | 0               | None          |
-| C1        | Halt, clock gated                | ~1 $\mu$S       | Minimal       |
-| C1E       | Enhanced halt, voltage reduced   | ~1–2 $\mu$S     | Moderate      |
-| C3        | Sleep, L1/L2 cache flushed       | ~50 $\mu$S      | Significant   |
-| C6        | Deep power down, core state lost | ~100–200 $\mu$S | Very high     |
+| C1        | Halt, clock gated                | ~1 $\mu$ S       | Minimal       |
+| C1E       | Enhanced halt, voltage reduced   | ~1–2 $\mu$ S     | Moderate      |
+| C3        | Sleep, L1/L2 cache flushed       | ~50 $\mu$ S      | Significant   |
+| C6        | Deep power down, core state lost | ~100–200 $\mu$ S | Very high     |
 | C8/C9/C10 | Package-level idle               | ~1–2 ms         | Maximum       |
+
+</div>
 
 Deeper C-states save more power but have higher exit latencies. For latency-sensitive workloads
 (e.g., audio processing, real-time trading), you may want to limit C-states to C1 or C1E to avoid
@@ -342,11 +362,15 @@ Directly attached DRAM. Accessing local memory is fast; accessing remote memory 
 Socket) traverses an interconnect (UPI on Intel, Infinity Fabric on AMD) and is significantly
 Slower.
 
+<div class="table-wrap">
+
 | Access Type           | Latency     | Bandwidth         |
 | --------------------- | ----------- | ----------------- |
 | Local DRAM            | ~80 ns      | Full              |
 | Remote DRAM (1 hop)   | ~120–140 ns | Reduced (~60–70%) |
 | Remote DRAM (2+ hops) | ~160–200 ns | Further reduced   |
+
+</div>
 
 On NUMA systems, the OS NUMA scheduler attempts to allocate memory local to the process's current
 CPU. However, this can be suboptimal for workloads with specific memory access patterns. Use
@@ -369,10 +393,14 @@ CPU. However, this can be suboptimal for workloads with specific memory access p
 
 Linux offers two primary CPU frequency scaling drivers for Intel CPUs:
 
+<div class="table-wrap">
+
 | Driver         | Description                         | Recommended For              |
 | -------------- | ----------------------------------- | ---------------------------- |
 | `intel_pstate` | Hardware-managed P-states via HWP   | Modern Intel (Sandy Bridge+) |
 | `acpi-cpufreq` | OS-managed P-states via ACPI tables | Legacy hardware, VMs         |
+
+</div>
 
 The `intel_pstate` driver operates in two modes:
 
@@ -391,6 +419,8 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver
 
 The CPU frequency governor determines the policy for frequency scaling:
 
+<div class="table-wrap">
+
 | Governor       | Behavior                                             | Use Case                                |
 | -------------- | ---------------------------------------------------- | --------------------------------------- |
 | `performance`  | Always at maximum frequency                          | Benchmarks, latency-sensitive workloads |
@@ -398,6 +428,8 @@ The CPU frequency governor determines the policy for frequency scaling:
 | `ondemand`     | Increases frequency when load exceeds threshold      | Legacy driver (not used with HWP)       |
 | `schedutil`    | Frequency driven by scheduler utilization data       | Works with passive mode                 |
 | `conservative` | Gradually increases frequency                        | Legacy, rarely used                     |
+
+</div>
 
 With `intel_pstate` in active mode, the governor has limited effect because HWP manages frequency
 Autonomously. The `performance` governor sets the HWP minimum to maximum, preventing any frequency
@@ -449,7 +481,7 @@ the best default.
 ### How Thermal Throttling Works
 
 Modern CPUs have a thermal monitor that continuously reads the on-die digital thermal sensors. When
-The temperature reaches the thermal throttling threshold (PROCHOT), the CPU takes corrective action:
+the temperature reaches the thermal throttling threshold (PROCHOT), the CPU takes corrective action:
 
 1. **Clock modulation:** The CPU inserts idle cycles to reduce power dissipation. It may skip every
    Nth clock cycle (e.g., 50% modulation means the CPU is effectively running at half speed).
@@ -457,7 +489,7 @@ The temperature reaches the thermal throttling threshold (PROCHOT), the CPU take
 3. **Voltage reduction:** On some platforms, the CPU reduces voltage along with frequency.
 
 Intel CPUs begin throttling at 100 °C (Tjmax). AMD Zen 4 throttles at 95 °C. These are
-Non-configurable hardware limits designed to prevent permanent damage.
+non-configurable hardware limits designed to prevent permanent damage.
 
 ### Per-Core vs. Package Thermal Throttling
 
@@ -542,7 +574,7 @@ sensors
 ## SMT and Hyper-Threading
 
 Simultaneous Multithreading (SMT, branded as Hyper-Threading by Intel) allows a single physical core
-To execute instructions from two threads simultaneously by sharing execution resources.
+to execute instructions from two threads simultaneously by sharing execution resources.
 
 ### How SMT Works
 
@@ -576,7 +608,7 @@ echo 1 | sudo tee /sys/devices/system/cpu/smt/active
 
 :::caution
 Physical core limit before disabling it. Some applications are licensed per logical core and will
-Not work correctly with SMT disabled.
+not work correctly with SMT disabled.
 :::
 
 ### Security Considerations
@@ -669,9 +701,9 @@ Overclocking is like revving the engine higher than the manufacturer intended. I
 ### Forcing Maximum Frequency Does Not Always Improve Performance
 
 Setting the governor to `performance` prevents frequency scaling but does not improve performance
-For most workloads. With HWP active, the CPU already boosts to maximum frequency when needed and
+for most workloads. With HWP active, the CPU already boosts to maximum frequency when needed and
 Drops to lower frequencies when idle to save power and reduce thermals. Forcing maximum frequency
-Can actually hurt performance by preventing the CPU from entering low-power states during brief idle
+can actually hurt performance by preventing the CPU from entering low-power states during brief idle
 Periods, which increases average temperature and may trigger earlier thermal throttling under
 Sustained multi-core loads.
 
@@ -692,25 +724,25 @@ SMT may be unacceptable.
 
 CPU microcode updates can change power management behavior, fix errata, and even adjust boost
 Algorithms. After a microcode update (delivered via BIOS/UEFI or Linux firmware package), re-test
-Your tuning settings. A stable overclock or undervolt may become unstable after a microcode update.
+your tuning settings. A stable overclock or undervolt may become unstable after a microcode update.
 
 ### Measuring Frequency with the Wrong Tool
 
 Many tools report the requested frequency rather than the actual frequency. On modern CPUs with HWP,
 The actual frequency changes hundreds of times per second. Use `turbostat` or `perf stat` to measure
-The actual average frequency over a period, not the instantaneous value reported by
+the actual average frequency over a period, not the instantaneous value reported by
 `cat /proc/cpuinfo`.
 
 ### Confusing TDP with Actual Power Draw
 
 TDP (Thermal Design Power) is a marketing metric, not a power consumption limit. An Intel CPU with a
 125 W TDP can draw 200–250 W during multi-core boost (PL2 window). Always monitor actual Power draw
-with `turbostat``RAPL`Or HWiNFO64 rather than relying on TDP specifications.
+with `turbostat`, `RAPL` or HWiNFO64 rather than relying on TDP specifications.
 
 ### Applying Desktop Tuning to Servers
 
 Server tuning priorities differ from desktop tuning. On servers, power efficiency, thermal headroom
-For neighboring components, and consistent latency matter more than peak single-core performance.
+for neighboring components, and consistent latency matter more than peak single-core performance.
 Using the `performance` governor on a server with 64+ cores can result in excessive power
 Consumption and thermal throttling under full load. Use `powersave` with HWP and
 `balance_performance` EPP instead.
@@ -769,14 +801,16 @@ dmesg | tail -5
 ```
 
 Note that late loading does not apply all fixes. Some security mitigations must be applied before
-The kernel initializes CPU features, meaning a reboot is required.
+the kernel initializes CPU features, meaning a reboot is required.
 
 ## Intel Thread Director
 
 Introduced with Alder Lake (12th Gen), Intel Thread Director (ITD) is a hardware-assisted thread
 Scheduling technology that communicates per-thread classification to the operating system via ACPI
-And MSR interfaces. ITD classifies each instruction stream as belonging to one of several
+and MSR interfaces. ITD classifies each instruction stream as belonging to one of several
 Categories:
+
+<div class="table-wrap">
 
 | Class ID | Category          | Typical Use Case              |
 | -------- | ----------------- | ----------------------------- |
@@ -787,6 +821,8 @@ Categories:
 | 4        | Non-Turbo         | Thermal-constrained workloads |
 | 5        | Throughput        | Parallel compute              |
 | 6        | Latency-sensitive | Real-time audio, game logic   |
+
+</div>
 
 ### Monitoring Thread Director
 
@@ -841,7 +877,9 @@ Quality (binning).
 The stock `V/F` curve defines voltage as a function of frequency. Curve Optimizer applies a negative
 Offset (undervolt) or positive offset (overvolt) at each frequency point:
 
-$$V_{actual}(f) = V_{stock}(f) + \mathrm{offset$$
+$$
+V_{actual}(f) = V_{stock}(f) + \mathrm{offset
+$$
 
 Where `offset` is in the range of -30 to +30 steps, with each step approximately equal to 5mV. So a
 `-20` step offset reduces voltage by roughly 100mV at every frequency point.
@@ -913,6 +951,8 @@ turbostat ./my_benchmark
 
 ### Key Columns Explained
 
+<div class="table-wrap">
+
 | Column    | Meaning                              | What to Look For                                      |
 | --------- | ------------------------------------ | ----------------------------------------------------- |
 | `Bzy_MHz` | Average frequency while busy         | Should be close to max turbo during load              |
@@ -924,6 +964,8 @@ turbostat ./my_benchmark
 | `SMI`     | System Management Interrupts         | Should be near zero; high values indicate BIOS issues |
 | `CORE%c1` | Core C1 residency                    | Higher means more idle time                           |
 | `POLL%`   | Polling idle time                    | Should be low unless using `idle=poll`                |
+
+</div>
 
 ### Example: Detecting Thermal Throttling
 
@@ -992,6 +1034,8 @@ Tuning change.
 
 ### Benchmark Categories
 
+<div class="table-wrap">
+
 | Category      | Tools                                    | What It Measures                    |
 | ------------- | ---------------------------------------- | ----------------------------------- |
 | Single-thread | Cinebench R23 ST, Geekbench 6 ST         | Max turbo frequency, IPC            |
@@ -999,6 +1043,8 @@ Tuning change.
 | Memory-bound  | STREAM, memcpy benchmarks                | Memory subsystem, cache performance |
 | I/O-bound     | fio, sysbench fileio                     | CPU impact on storage throughput    |
 | Real-world    | Application-specific (compile, database) | Actual workload performance         |
+
+</div>
 
 ### Running Controlled Benchmarks
 
@@ -1043,7 +1089,7 @@ Ensure consistent thermal conditions.
 Geekbench 6 includes real-world workloads (machine learning, image processing, cryptography) but is
 Closed-source and can vary between runs due to background OS activity. Cinebench uses a fixed
 Workload based on Cinema 4D rendering, making it more reproducible. For tuning validation, Cinebench
-Is preferred. For comparing different CPU architectures, Geekbench provides a broader perspective.
+is preferred. For comparing different CPU architectures, Geekbench provides a broader perspective.
 
 ### PassMark for System-Level Comparison
 
@@ -1102,9 +1148,6 @@ practical implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -1140,6 +1183,8 @@ URL: https://tuning.wyattau.com/02-memory-tuning/memory-tuning/
 DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed
 - the power delivery model, signal integrity, and error correction mechanisms are all different.
 
+<div class="table-wrap">
+
 | Parameter                | DDR4                | DDR5                           |
 | ------------------------ | ------------------- | ------------------------------ |
 | Voltage                  | 1.2 V (standard)    | 1.1 V (standard)               |
@@ -1153,11 +1198,13 @@ DDR5 represents a fundamental shift in memory architecture. The comparison is no
 | Max Standard Speed       | 3200 MT/s           | 4800 MT/s (JEDEC)              |
 | Typical Enthusiast Speed | 3600–4266 MT/s      | 6000–8400 MT/s                 |
 
+</div>
+
 ### Key Architectural Differences
 
 DDR5 moves the power management IC (PMIC) from the motherboard onto the DIMM itself. This means each
 DIMM manages its own power regulation, reducing the burden on the motherboard VRM. It also means you
-Cannot adjust VDDQ/VPP independently per DIMM from the motherboard, the DIMM"s PMIC handles this
+cannot adjust VDDQ/VPP independently per DIMM from the motherboard, the DIMM's PMIC handles this
 Internally.
 
 DDR5 doubles the bank group count (from 4 to 8) and doubles the burst length (from BL8 to BL16).
@@ -1173,6 +1220,8 @@ $$
 T_{CAS}(ns) = \frac{CL \times 2000}{MT/s}
 $$
 
+<div class="table-wrap">
+
 | Speed (MT/s) | CL  | CAS Latency (ns) |
 | ------------ | --- | ---------------- |
 | DDR4-3200    | 14  | 8.75             |
@@ -1182,6 +1231,8 @@ $$
 | DDR5-6000    | 30  | 10.00            |
 | DDR5-6400    | 32  | 10.00            |
 | DDR5-7200    | 34  | 9.44             |
+
+</div>
 
 DDR5-6000 CL30 matches DDR4-3200 CL14 in actual latency while delivering nearly double the
 Bandwidth. This is why DDR5-6000 is considered the sweet spot for AMD Zen 4 and Intel 13th/14th Gen.
@@ -1203,12 +1254,16 @@ Bandwidth. This is why DDR5-6000 is considered the sweet spot for AMD Zen 4 and 
 
 The four primary timings define the basic memory access pattern:
 
+<div class="table-wrap">
+
 | Timing   | Full Name           | Description                                                            |
 | -------- | ------------------- | ---------------------------------------------------------------------- |
 | CL (tCL) | CAS Latency         | Clock cycles between a READ command and data availability on the bus   |
 | tRCD     | RAS to CAS Delay    | Clock cycles between activating a row and issuing a READ/WRITE command |
 | tRP      | RAS Precharge       | Clock cycles between precharging one row and activating another row    |
 | tRAS     | Active to Precharge | Minimum clock cycles a row must remain active before precharging       |
+
+</div>
 
 These four timings are commonly expressed as CL-tRCD-tRP-tRAS (e.g., 16-18-18-38).
 
@@ -1234,6 +1289,8 @@ $$
 
 Secondary timings have a smaller but measurable impact on performance:
 
+<div class="table-wrap">
+
 | Timing | Full Name                               | Description                                                                      |
 | ------ | --------------------------------------- | -------------------------------------------------------------------------------- |
 | tRC    | Row Cycle Time                          | Minimum time between activating the same row again. Equal to tRAS + tRP.         |
@@ -1243,10 +1300,14 @@ Secondary timings have a smaller but measurable impact on performance:
 | tCWL   | CAS Write Latency                       | Write equivalent of CL. Equal to or CL - 1.                                      |
 | tWR    | Write Recovery Time                     | Time after a WRITE before the row can be precharged                              |
 
+</div>
+
 ### Tertiary Timings
 
 Tertiary timings have a small impact but can be the difference between stability and instability at
 Tight settings:
+
+<div class="table-wrap">
 
 | Timing | Description                                                                                                                  |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -1255,6 +1316,8 @@ Tight settings:
 | tRDWR  | Read to Write turnaround, bus turnaround time when switching from reads to writes.                                          |
 | tWRRD  | Write to Read turnaround, bus turnaround time when switching from writes to reads.                                          |
 | tRTT   | Read to Read turnaround (different ranks), time between reads to different ranks on the same channel.                       |
+
+</div>
 
 ### Interpreting Timing Strings
 
@@ -1292,11 +1355,15 @@ Profile and applies the specified frequency, timings, and voltages.
 XMP supports two profiles (Profile 1 and Profile 2), allowing vendors to store a "safe" and an
 "aggressive" profile. For example:
 
+<div class="table-wrap">
+
 | Profile         | Speed     | Timings     | Voltage |
 | --------------- | --------- | ----------- | ------- |
 | JEDEC (default) | 4800 MT/s | 40-40-40-77 | 1.1 V   |
 | XMP Profile 1   | 6000 MT/s | 30-38-38-78 | 1.35 V  |
 | XMP Profile 2   | 6400 MT/s | 34-45-45-90 | 1.4 V   |
+
+</div>
 
 ### EXPO (AMD Extended Profiles for Overclocking)
 
@@ -1345,17 +1412,21 @@ Real-world stability depends on:
 
 Modern desktop platforms support dual-channel memory. The memory controller has two independent
 64-bit channels, each with its own address/command bus and data bus. Dual-channel operation doubles
-The theoretical peak bandwidth:
+the theoretical peak bandwidth:
 
 $$
 Bandwidth = \frac{MT/s \times 8 \mathrm{ bytes \times channels}{1000}
 $$
+
+<div class="table-wrap">
 
 | Configuration              | DDR5-6000 Bandwidth |
 | -------------------------- | ------------------- |
 | Single channel             | 48.0 GB/s           |
 | Dual channel               | 96.0 GB/s           |
 | Quad channel (HEDT/server) | 192.0 GB/s          |
+
+</div>
 
 ### DIMM Population Rules
 
@@ -1365,7 +1436,7 @@ For dual-channel operation, populate slots according to the motherboard manual. 
 - 4 DIMMs: Slots A2, B2, A1, B1
 
 Populating the wrong slots can result in single-channel operation, halving your bandwidth. Verify
-With CPU-Z (Windows) or `lshw -class memory` (Linux).
+with CPU-Z (Windows) or `lshw -class memory` (Linux).
 
 ### 1R vs 2R DIMMs
 
@@ -1441,14 +1512,18 @@ DDR5-6400–6800 CL32-CL34. Beyond 7200 MT/s, stability with two DIMMs becomes i
 Intel's Gear Mode controls the ratio between the memory bus frequency and the memory controller's
 Internal clock:
 
+<div class="table-wrap">
+
 | Gear Mode | Ratio | Frequency Range                             | Latency Impact       |
 | --------- | ----- | ------------------------------------------- | -------------------- |
 | Gear 1    | 1:1   | Up to ~3600 MT/s (DDR4) / ~5600 MT/s (DDR5) | Lowest               |
 | Gear 2    | 1:2   | Up to ~7200 MT/s (DDR4) / ~8400 MT/s (DDR5) | Moderate increase    |
 | Gear 4    | 1:4   | Extreme overclocking only                   | Significant increase |
 
+</div>
+
 Gear 1 provides the lowest latency because the memory controller operates at the same frequency as
-The memory bus. Gear 2 halves the controller frequency, which adds approximately 2–4 ns of latency.
+the memory bus. Gear 2 halves the controller frequency, which adds approximately 2–4 ns of latency.
 For DDR5, most kits above 6000 MT/s require Gear 2.
 
 ### FCLK (AMD)
@@ -1505,6 +1580,8 @@ Operation less penalizing.
 
 ### Voltage Parameters
 
+<div class="table-wrap">
+
 | Voltage           | Function                      | DDR5 Safe Range | DDR5 Extreme Range |
 | ----------------- | ----------------------------- | --------------- | ------------------ |
 | VDD               | Core DRAM voltage             | 1.1–1.35 V      | 1.35–1.45 V        |
@@ -1514,12 +1591,16 @@ Operation less penalizing.
 | SA (System Agent) | Uncore voltage (Intel)        | 0.9–1.1 V       | 1.1–1.25 V         |
 | VDDP              | SoC voltage (AMD)             | 0.9–1.0 V       | 1.0–1.1 V          |
 
+</div>
+
 :::danger
 Permanent damage to the DRAM chips. Even 1.45 V should only be used with active cooling on the
 DIMMs.
 :::
 
 ### Stability Testing After Changes
+
+<div class="table-wrap">
 
 | Test                         | Duration       | What It Catches                          |
 | ---------------------------- | -------------- | ---------------------------------------- |
@@ -1528,6 +1609,8 @@ DIMMs.
 | Karhu RAM Test               | 3–4 cycles     | Comprehensive, catches edge cases (paid) |
 | y-cruncher (Pi computation)  | 15–30 min      | Real-world instability under load        |
 | HCI MemTest                  | 200%+ coverage | Memory controller stress under Windows   |
+
+</div>
 
 ---
 
@@ -1545,11 +1628,13 @@ DIMMs.
 ### How ECC Works
 
 Error-Correcting Code (ECC) memory adds an extra memory chip (or chips) per DIMM that stores parity
-And syndrome information. For single-bit errors, ECC can detect and correct the error transparently
+and syndrome information. For single-bit errors, ECC can detect and correct the error transparently
 (SEC, Single Error Correction). For multi-bit errors, ECC can detect the error but cannot correct
-It (DED, Double Error Detection), triggering a machine check exception.
+it (DED, Double Error Detection), triggering a machine check exception.
 
 ### ECC Memory Types
+
+<div class="table-wrap">
 
 | Type               | Correction Capability               | Overhead                          |
 | ------------------ | ----------------------------------- | --------------------------------- |
@@ -1557,16 +1642,18 @@ It (DED, Double Error Detection), triggering a machine check exception.
 | Chipkill / x4 SDDC | Correct any 4-bit error in one chip | Higher overhead                   |
 | DDR5 in-band ECC   | Correct 1-bit per burst (internal)  | No extra pins                     |
 
+</div>
+
 DDR5 introduces "in-band" ECC, where each 128-bit access includes 8 extra ECC bits that allow the
 DRAM to correct single-bit errors internally. This is separate from traditional ECC, it protects
-Against bit flips within the DRAM chip itself but does not protect against bus errors or provide the
+against bit flips within the DRAM chip itself but does not protect against bus errors or provide the
 Same level of protection as platform-level ECC.
 
 ### Performance Impact
 
 ECC memory has a small performance penalty (1–3%) due to the extra read-modify-write cycle for
 Updates and the latency of error checking. On registered ECC (RDIMM), there is an additional latency
-From the register buffer. On load-reduced DIMMs (LRDIMM), the latency penalty is larger (~5–10%) but
+from the register buffer. On load-reduced DIMMs (LRDIMM), the latency penalty is larger (~5–10%) but
 Capacity is significantly higher.
 
 ### When to Use ECC
@@ -1597,6 +1684,8 @@ The Linux kernel's `vm.swappiness` parameter controls the tendency to swap anony
 (application data) versus dropping file cache pages. The default value is 60, which is a poor
 Default for systems with sufficient RAM.
 
+<div class="table-wrap">
+
 | Swappiness | Behavior                                                                         |
 | ---------- | -------------------------------------------------------------------------------- |
 | 0          | Only swap to avoid OOM. On kernels 3.5+, this is "never swap unless necessary."  |
@@ -1604,6 +1693,8 @@ Default for systems with sufficient RAM.
 | 10         | Prefer keeping anonymous memory in RAM; swap only under significant pressure.    |
 | 60         | Default. Balanced but swaps too aggressively for modern systems with 16+ GB RAM. |
 | 100        | Aggressively swap anonymous memory.                                              |
+
+</div>
 
 For desktops with 16 GB or more RAM:
 
@@ -1621,7 +1712,7 @@ echo "vm.swappiness=10" | sudo tee -a /etc/sysctl.d/99-swappiness.conf
 ### Transparent Huge Pages (THP)
 
 THP allows the kernel to allocate 2 MB pages instead of the standard 4 KB pages, reducing TLB misses
-For workloads with large memory footprints. THP is enabled by default (`madvise` mode on many
+for workloads with large memory footprints. THP is enabled by default (`madvise` mode on many
 Distributions, `always` on some).
 
 ```bash
@@ -1715,7 +1806,7 @@ instability if set too aggressively.
 
 Populating all four DIMM slots significantly increases the electrical load on the memory controller.
 Most kits rated for 6000+ MT/s are only validated for two-DIMM configurations. With four DIMMs, you
-Will likely need to reduce frequency by one or two steps (e.g., from 6000 to 5200 or 5600 MT/s) or
+will likely need to reduce frequency by one or two steps (e.g., from 6000 to 5200 or 5600 MT/s) or
 Increase voltage. Check your motherboard's QVL (Qualified Vendor List) for four-DIMM validated
 Speeds.
 
@@ -1723,15 +1814,15 @@ Speeds.
 
 DDR memory speeds are measured in MT/s (mega-transfers per second), not MHz. DDR5-6000 transfers
 6000 million times per second, but the actual clock frequency is 3000 MHz because DDR transfers data
-On both edges of the clock signal (double data rate). When you see "6000 MHz" in a BIOS or review,
+on both edges of the clock signal (double data rate). When you see "6000 MHz" in a BIOS or review,
 It means 6000 MT/s.
 
 ### Neglecting DRAM Cooling
 
 High-speed DDR5 modules generate significant heat, 5–8 W per DIMM under sustained load. Without
 Adequate airflow over the DIMMs, temperatures can exceed 60 °C, which forces the memory controller
-To insert wait states or can cause instability. Ensure your case has intake airflow that passes over
-The DIMM area, or use aftermarket DRAM heatsinks and fans.
+to insert wait states or can cause instability. Ensure your case has intake airflow that passes over
+the DIMM area, or use aftermarket DRAM heatsinks and fans.
 
 ## Deep Dive: DDR5 Electrical Characteristics
 
@@ -1739,6 +1830,8 @@ The DIMM area, or use aftermarket DRAM heatsinks and fans.
 
 DDR5 operates at significantly higher speeds than DDR4, which makes signal integrity critical. Key
 Electrical parameters:
+
+<div class="table-wrap">
 
 | Parameter   | DDR4-3200       | DDR5-4800       | DDR5-6400       |
 | ----------- | --------------- | --------------- | --------------- |
@@ -1748,6 +1841,8 @@ Electrical parameters:
 | VREFDQ      | 0.6 V           | 0.55 V          | 0.55 V          |
 | AC/DC Swing | 340 mV / 250 mV | 300 mV / 250 mV | 300 mV / 250 mV |
 | DQS Phase   | 90°             | 90°             | 90°             |
+
+</div>
 
 ### Decision Feedback Equalizer (DFE)
 
@@ -1901,6 +1996,8 @@ grep -i huge /proc/meminfo
 
 ### Swap File vs. Swap Partition
 
+<div class="table-wrap">
+
 | Feature              | Swap File                            | Swap Partition                  |
 | -------------------- | ------------------------------------ | ------------------------------- |
 | Resizable            | Yes (fallocate, truncate)            | No (requires partitioning tool) |
@@ -1908,6 +2005,8 @@ grep -i huge /proc/meminfo
 | Multiple             | Yes (multiple swap files)            | No (one per partition)          |
 | Performance          | Slightly lower (filesystem overhead) | Slightly higher (raw device)    |
 | Recommended for      | Modern Linux (kernel 5.0+)           | Legacy systems                  |
+
+</div>
 
 ```bash
 # Create a swap file
@@ -1990,6 +2089,8 @@ numactl -p 1 bandwidth  # Measure bandwidth on node 0
 
 ### Interpreting Memory Benchmark Results
 
+<div class="table-wrap">
+
 | Metric         | DDR4-3600 CL16 | DDR5-6000 CL30 | DDR5-7200 CL34 |
 | -------------- | -------------- | -------------- | -------------- |
 | Read (GB/s)    | 45–50          | 75–85          | 90–100         |
@@ -1998,6 +2099,8 @@ numactl -p 1 bandwidth  # Measure bandwidth on node 0
 | Latency (ns)   | 50–60          | 60–70          | 65–75          |
 | AIDA64 Read    | 50,000 MB/s    | 80,000 MB/s    | 95,000 MB/s    |
 | AIDA64 Latency | 55 ns          | 68 ns          | 72 ns          |
+
+</div>
 
 ## DDR5 Power Management and PMIC
 
@@ -2035,7 +2138,7 @@ During POST, the memory controller communicates with the DIMM's PMIC via SMBus t
 3. Enable or disable power saving features.
 
 If the PMIC firmware is outdated or incompatible with the motherboard, training can fail. Updating
-The PMIC firmware requires specialized tools and carries the risk of bricking the DIMM.
+the PMIC firmware requires specialized tools and carries the risk of bricking the DIMM.
 
 ## Memory Stability Under Linux
 
@@ -2085,6 +2188,8 @@ $$
 
 For a CPU that can execute at 5.0 GHz and needs 2 bytes of memory access per instruction:
 
+<div class="table-wrap">
+
 | Memory Config            | Bandwidth  | Theoretical Max IPC |
 | ------------------------ | ---------- | ------------------- |
 | DDR4-3200 single channel | 25.6 GB/s  | 6.4 IPC             |
@@ -2092,16 +2197,22 @@ For a CPU that can execute at 5.0 GHz and needs 2 bytes of memory access per ins
 | DDR5-6000 dual channel   | 96.0 GB/s  | 24.0 IPC            |
 | DDR5-7200 dual channel   | 115.2 GB/s | 28.8 IPC            |
 
+</div>
+
 Real-world IPC is much lower because not every instruction accesses memory. However, the principle
 Holds: insufficient memory bandwidth bottlenecks the CPU.
 
 ### Intel Gear Mode Impact on Latency
+
+<div class="table-wrap">
 
 | Gear Mode | Memory Controller Clock | DDR5 Speed Range | Latency Impact     |
 | --------- | ----------------------- | ---------------- | ------------------ |
 | Gear 1    | 1:1 (equal to MCLK)     | Up to ~5600 MT/s | Lowest latency     |
 | Gear 2    | 1:2 (half of MCLK)      | Up to ~8400 MT/s | ~2–4 ns additional |
 | Gear 4    | 1:4 (quarter of MCLK)   | Extreme speeds   | ~6–8 ns additional |
+
+</div>
 
 The latency impact of Gear 2 is 3–5 ns. At DDR5-6000 CL30, the absolute latency is 10.0 Ns. At
 DDR5-7200 CL34 in Gear 2, the absolute latency is 9.4 ns + 3 ns = ~12.4 ns. The higher-speed DDR5 is
@@ -2138,6 +2249,8 @@ Next operation begins. Violating any constraint causes data corruption.
 
 ### Secondary and Tertiary Timing Dependencies
 
+<div class="table-wrap">
+
 | Timing | Depends On        | Relationship                          |
 | ------ | ----------------- | ------------------------------------- |
 | tRC    | tRAS, tRP         | $tRC \geq tRAS + tRP$                 |
@@ -2146,6 +2259,8 @@ Next operation begins. Violating any constraint causes data corruption.
 | tWTR   | tCL, tCWL         | Write-to-read turnaround              |
 | tRTW   | tCL, tCWL         | Read-to-write turnaround              |
 | tFAW   | tRRD_S, tRRD_L    | Four-activate window constraint       |
+
+</div>
 
 ### Calculating True Latency
 
@@ -2177,7 +2292,7 @@ Dominate.
 ### Cold Boot vs. Warm Boot Stability
 
 Some memory configurations are stable after a warm boot (restart) but fail after a cold boot (power
-Off, wait, power on). This is because:
+off, wait, power on). This is because:
 
 1. **Cold boot** subjects the memory controller and DRAM to the full voltage and temperature range.
    The memory controller must calibrate from scratch.
@@ -2214,16 +2329,6 @@ If four-DIMM stability is poor:
 - Relax secondary timings (tFAW, tRRD).
 - Ensure DIMMs in slots A2/B2 match and DIMMs in A1/B1 match.
 
-```mermaid
-flowchart TD
-    A[Memory Tuning] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of memory tuning, including underlying theory, practical
@@ -2236,9 +2341,6 @@ implementation, and key applications.
 - process management
 - shell scripting with bash
 - package management
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 
@@ -2274,7 +2376,9 @@ URL: https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning/
 
 NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), each containing a set of CUDA cores,
 Shared memory, register files, and scheduling units. The number of SMs and their configuration
-Defines the GPU"s compute capability.
+Defines the GPU's compute capability.
+
+<div class="table-wrap">
 
 | GPU                 | SMs | CUDA Cores per SM | Total CUDA Cores | FP32 TFLOPS (Boost) |
 | ------------------- | --- | ----------------- | ---------------- | ------------------- |
@@ -2283,14 +2387,20 @@ Defines the GPU"s compute capability.
 | RTX 4070 (AD104)    | 46  | 128               | 5888             | 29.1                |
 | RTX 4090 (AD102)    | 128 | 128               | 16384            | 82.6                |
 
+</div>
+
 AMD uses a similar architecture with Compute Units (CUs), each containing multiple Stream Processors
 (SP). RDNA 3 CUs contain 2 SIMD32 units (64 SPs per CU).
+
+<div class="table-wrap">
 
 | GPU                   | CUs | SPs per CU | Total SPs | FP32 TFLOPS (Boost) |
 | --------------------- | --- | ---------- | --------- | ------------------- |
 | RX 6700 XT (Navi 22)  | 40  | 64         | 2560      | 13.2                |
 | RX 7600 (Navi 33)     | 32  | 64         | 2048      | 15.5                |
 | RX 7900 XTX (Navi 31) | 96  | 64         | 6144      | 61.4                |
+
+</div>
 
 ### Memory Bandwidth
 
@@ -2302,6 +2412,8 @@ $$
 
 The factor of 2 accounts for double data rate (GDDR6/GDDR6X) or multi-level signaling (HBM).
 
+<div class="table-wrap">
+
 | GPU         | Memory Type | Bus Width | Memory Clock         | Bandwidth (GB/s) |
 | ----------- | ----------- | --------- | -------------------- | ---------------- |
 | RTX 3060    | GDDR6       | 192-bit   | 15 Gbps              | 360              |
@@ -2309,6 +2421,8 @@ The factor of 2 accounts for double data rate (GDDR6/GDDR6X) or multi-level sign
 | RTX 4090    | GDDR6X      | 384-bit   | 21 Gbps              | 1008             |
 | RX 7900 XTX | GDDR6       | 384-bit   | 20 Gbps              | 960              |
 | A100        | HBM2e       | 5120-bit  | 2.0 Gbps (per stack) | 2039             |
+
+</div>
 
 ### ROPs and TMUs
 
@@ -2336,7 +2450,7 @@ Base and boost clocks.
 ### How GPU Boost Works
 
 NVIDIA's GPU Boost (version 3.0 and later on Maxwell+) is an autonomous frequency scaling algorithm
-That continuously adjusts the GPU clock speed based on:
+that continuously adjusts the GPU clock speed based on:
 
 1. **Power consumption**. Current draw vs. The configured power limit
 2. **Temperature**. Current temperature vs. The thermal throttling threshold
@@ -2355,17 +2469,17 @@ Frequency.
   cooling, sufficient power, and a workload that hits the right utilization pattern).
 
 In practice, most GPUs boost above the listed boost clock because the boost specification is based
-On a specific temperature and power envelope. If your cooling is better than the reference design,
+on a specific temperature and power envelope. If your cooling is better than the reference design,
 The GPU will boost higher.
 
 ### Voltage/Frequency Curve
 
 NVIDIA GPUs operate along a voltage/frequency (V/F) curve. Each frequency point has a minimum
 Voltage required for stability. The GPU Boost algorithm selects the highest frequency point where
-The current conditions (temperature, power, voltage) allow operation.
+the current conditions (temperature, power, voltage) allow operation.
 
 The V/F curve is non-linear, higher frequencies require disproportionately more voltage. This is
-Because:
+because:
 
 $$
 P \propto V^2 \times F
@@ -2390,7 +2504,7 @@ Allows the GPU to sustain higher average frequencies under thermal constraints.
 ## AMD PowerPlay
 
 AMD's equivalent to GPU Boost is PowerPlay, which manages GPU frequency and voltage based on thermal
-And power constraints. The principles are similar but the implementation differs:
+and power constraints. The principles are similar but the implementation differs:
 
 - AMD GPUs use a "power limit" rather than a hard frequency/voltage curve. The GPU boosts as high as
   possible within the power budget.
@@ -2401,11 +2515,15 @@ And power constraints. The principles are similar but the implementation differs
 
 ### AMD Power Limit Tiers
 
+<div class="table-wrap">
+
 | GPU         | Default TGP | Max Power Limit | Overdrive % |
 | ----------- | ----------- | --------------- | ----------- |
 | RX 7600     | 165 W       | 165 W           | +0%         |
 | RX 7800 XT  | 263 W       | 287 W           | +9%         |
 | RX 7900 XTX | 355 W       | 420 W           | +18%        |
+
+</div>
 
 ---
 
@@ -2458,12 +2576,16 @@ graph TD
 
 #### Typical Results
 
+<div class="table-wrap">
+
 | GPU      | Stock Voltage/Frequency | Undervolted Voltage/Frequency | Power Savings |
 | -------- | ----------------------- | ----------------------------- | ------------- |
 | RTX 3060 | 1700 MHz @ 1050 mV      | 1800 MHz @ 875 mV             | 30–40 W       |
 | RTX 3070 | 1905 MHz @ 1075 mV      | 1850 MHz @ 900 mV             | 40–50 W       |
 | RTX 4070 | 2475 MHz @ 1100 mV      | 2520 MHz @ 925 mV             | 40–60 W       |
 | RTX 4090 | 2520 MHz @ 1000 mV      | 2520 MHz @ 875 mV             | 60–100 W      |
+
+</div>
 
 ### AMD Undervolting
 
@@ -2518,16 +2640,20 @@ Increases memory bandwidth, which benefits workloads that are memory-bandwidth b
 
 ### Typical Memory Overclocks
 
+<div class="table-wrap">
+
 | GPU         | Stock Memory Clock  | Typical Stable Overclock | Bandwidth Increase |
 | ----------- | ------------------- | ------------------------ | ------------------ |
 | RTX 3060    | 7500 MHz (15 Gbps)  | +500 to +800 MHz         | 7–11%              |
 | RTX 4070    | 10500 MHz (21 Gbps) | +200 to +500 MHz         | 2–5%               |
 | RX 7900 XTX | 10000 MHz (20 Gbps) | +500 to +1000 MHz        | 5–10%              |
 
+</div>
+
 :::caution
 (machine learning, rendering, scientific computing), memory instability can produce silently
 Incorrect results. Thoroughly test with error-checking workloads (e.g., CUDA memtest) before relying
-On an overclocked GPU for production compute.
+on an overclocked GPU for production compute.
 
 ---
 
@@ -2589,11 +2715,15 @@ This combination often yields better results than either technique alone.
 
 ### Temperature Targets
 
+<div class="table-wrap">
+
 | GPU            | Default Temp Limit | Max Safe Temp                     | Recommended Target |
 | -------------- | ------------------ | --------------------------------- | ------------------ |
 | RTX 30-series  | 83 °C              | 93 °C (thermal shutdown at 95 °C) | &lt; 75 °C         |
 | RTX 40-series  | 83 °C              | 91 °C (thermal shutdown at 93 °C) | &lt; 70 °C         |
 | RX 7000-series | 110 °C (hotspot)   | 120 °C (hotspot)                  | &lt; 90 °C hotspot |
+
+</div>
 
 NVIDIA GPUs report two temperatures: "GPU Temperature" (edge temperature) and "GPU Temperature
 (Junction)" (hotspot, the hottest point on the die). The junction temperature is 10–20 °C Higher
@@ -2647,6 +2777,8 @@ Recommended pastes for GPUs:
 
 ### Windows
 
+<div class="table-wrap">
+
 | Tool                     | Function                                                        |
 | ------------------------ | --------------------------------------------------------------- |
 | MSI Afterburner          | Universal GPU overclocking/undervolting, fan curves, monitoring |
@@ -2655,6 +2787,8 @@ Recommended pastes for GPUs:
 | GPU-Z                    | GPU information, sensor monitoring, BIOS dump/flash             |
 | AMD Adrenalin            | AMD GPU tuning, automatic undervolting, Radeon Super Resolution |
 | TechPowerUp GPU-Z        | GPU specs, VRAM monitoring, BIOS validation                     |
+
+</div>
 
 ### Linux
 
@@ -2728,6 +2862,8 @@ Processes a portion of the workload. No special inter-GPU communication is requi
 
 Different benchmarks stress different aspects of the GPU:
 
+<div class="table-wrap">
+
 | Benchmark               | What It Tests                      | Duration  | Use Case                       |
 | ----------------------- | ---------------------------------- | --------- | ------------------------------ |
 | 3DMark Time Spy         | Direct3D 12 gaming performance     | 2–3 min   | Quick gaming performance check |
@@ -2736,6 +2872,8 @@ Different benchmarks stress different aspects of the GPU:
 | FurMark                 | Maximum power draw (power virus)   | 10–30 min | Thermal limit verification     |
 | CUDA memtest            | VRAM integrity                     | 10–30 min | Memory overclocking stability  |
 | Blender BMW / Classroom | GPU rendering                      | 5–10 min  | Compute performance            |
+
+</div>
 
 ### Proper Benchmarking Procedure
 
@@ -2762,6 +2900,8 @@ Different benchmarks stress different aspects of the GPU:
 
 ## Common Failure Modes
 
+<div class="table-wrap">
+
 | Symptom                               | Likely Cause                             | Solution                                         |
 | ------------------------------------- | ---------------------------------------- | ------------------------------------------------ |
 | Driver crash (TDR)                    | Core clock too high or voltage too low   | Reduce core clock or increase voltage            |
@@ -2771,6 +2911,8 @@ Different benchmarks stress different aspects of the GPU:
 | Performance drops after 5 minutes     | Thermal throttling (check temps)         | Undervolt, improve cooling, increase power limit |
 | Coil whine under load                 | Inductors vibrating at high current      | Not a defect; improve mounting or RMA if severe  |
 | HDMI/DP signal loss                   | Cable or port issue                      | Try a different cable or port                    |
+
+</div>
 
 ---
 
@@ -2807,11 +2949,15 @@ Premature failure. Always monitor VRM temps with HWiNFO64 when increasing voltag
 
 Each PCIe power cable (6-pin, 8-pin, or 12VHPWR) has a maximum current rating:
 
+<div class="table-wrap">
+
 | Connector      | Max Current                      | Max Power   |
 | -------------- | -------------------------------- | ----------- |
 | 6-pin          | 75 W                             | 75 W        |
 | 8-pin          | 150 W (spec) / 300 W (realistic) | 150–300 W   |
 | 12VHPWR (12+4) | 600 W (spec)                     | Up to 600 W |
+
+</div>
 
 Daisy-chaining two power connectors from a single cable doubles the current on that cable, which can
 Cause the cable to overheat. Use separate cables for high-power GPUs (RTX 3080+).
@@ -2982,11 +3128,15 @@ nvidia-smi -lgc 1800  # Lock GPU clock to 1800 MHz
 
 ### NVIDIA Power Modes
 
+<div class="table-wrap">
+
 | Mode                            | Behavior                           | Use Case                           |
 | ------------------------------- | ---------------------------------- | ---------------------------------- |
 | Default (W)                     | GPU autonomously manages frequency | Most workloads                     |
 | Prefer Maximum Performance (P0) | GPU runs at maximum frequency      | Benchmarks, latency-sensitive apps |
 | Prefer Power Saving (P8)        | GPU drops to minimum frequency     | Battery-powered laptops            |
+
+</div>
 
 ### NVIDIA Xorg Configuration (Linux)
 
@@ -3105,7 +3255,7 @@ For GPU rendering (Blender, Octane, V-Ray):
 ### Cryptocurrency Mining (Historical Context)
 
 While cryptocurrency mining profitability has decreased, the tuning principles remain relevant for
-Any sustained full-load GPU workload:
+any sustained full-load GPU workload:
 
 - **Core clock is less important than memory clock** for most mining algorithms (Ethash, RandomX).
 - **Power efficiency** is the primary optimization target. The goal is maximum hashrate per watt.
@@ -3116,6 +3266,8 @@ Any sustained full-load GPU workload:
 
 ### When Multi-GPU Makes Sense
 
+<div class="table-wrap">
+
 | Use Case                     | Multi-GPU Benefit         | Configuration         |
 | ---------------------------- | ------------------------- | --------------------- |
 | ML training (data parallel)  | Near-linear scaling       | NVLink preferred      |
@@ -3124,6 +3276,8 @@ Any sustained full-load GPU workload:
 | Gaming                       | Minimal benefit           | SLI deprecated        |
 | VM passthrough               | One GPU per VM            | Physical isolation    |
 | Inference serving            | Load distribution         | Software-level        |
+
+</div>
 
 ### Multi-GPU Power and Thermal Considerations
 
@@ -3140,6 +3294,8 @@ Two GPUs under full load can draw 500–900 W combined. Ensure:
 
 ### Common Linux GPU Issues
 
+<div class="table-wrap">
+
 | Issue                           | Cause                                 | Solution                              |
 | ------------------------------- | ------------------------------------- | ------------------------------------- |
 | GPU not detected                | Missing driver or wrong kernel module | Install correct NVIDIA/AMD driver     |
@@ -3148,6 +3304,8 @@ Two GPUs under full load can draw 500–900 W combined. Ensure:
 | GPU hangs under load            | Insufficient power or overheating     | Check PSU, improve cooling            |
 | Poor performance vs. Windows    | Missing power management mode         | Set `nvidia-smi -pm 1`                |
 | Display flicker                 | Refresh rate or driver issue          | Check display settings, update driver |
+
+</div>
 
 ### GPU Failure Diagnosis
 
@@ -3189,9 +3347,6 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -3228,14 +3383,18 @@ URL: https://tuning.wyattau.com/04-storage-tuning/storage-tuning/
 
 ### Storage Technologies Compared
 
+<div class="table-wrap">
+
 | Technology          | Sequential Read    | Sequential Write  | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency       |
 | ------------------- | ------------------ | ----------------- | --------------------- | ---------------------- | ------------- |
 | HDD (7200 RPM)      | 150–250 MB/s       | 150–250 MB/s      | 100–200               | 100–200                | 5–10 ms       |
-| SATA SSD            | 500–560 MB/s       | 400–530 MB/s      | 50,000–100,000        | 50,000–90,000          | 50–100 $\mu$S |
-| NVMe SSD (PCIe 3.0) | 3,000–3,500 MB/s   | 2,500–3,000 MB/s  | 200,000–500,000       | 200,000–400,000        | 10–30 $\mu$S  |
-| NVMe SSD (PCIe 4.0) | 5,000–7,500 MB/s   | 4,500–7,000 MB/s  | 500,000–1,000,000     | 400,000–800,000        | 5–20 $\mu$S   |
-| NVMe SSD (PCIe 5.0) | 10,000–14,000 MB/s | 9,000–12,000 MB/s | 1,000,000–2,000,000   | 800,000–1,500,000      | 3–10 $\mu$S   |
-| Intel Optane P5800X | 7,200 MB/s         | 6,200 MB/s        | 1,500,000             | 1,100,000              | 6–10 $\mu$S   |
+| SATA SSD            | 500–560 MB/s       | 400–530 MB/s      | 50,000–100,000        | 50,000–90,000          | 50–100 $\mu$ S |
+| NVMe SSD (PCIe 3.0) | 3,000–3,500 MB/s   | 2,500–3,000 MB/s  | 200,000–500,000       | 200,000–400,000        | 10–30 $\mu$ S  |
+| NVMe SSD (PCIe 4.0) | 5,000–7,500 MB/s   | 4,500–7,000 MB/s  | 500,000–1,000,000     | 400,000–800,000        | 5–20 $\mu$ S   |
+| NVMe SSD (PCIe 5.0) | 10,000–14,000 MB/s | 9,000–12,000 MB/s | 1,000,000–2,000,000   | 800,000–1,500,000      | 3–10 $\mu$ S   |
+| Intel Optane P5800X | 7,200 MB/s         | 6,200 MB/s        | 1,500,000             | 1,100,000              | 6–10 $\mu$ S   |
+
+</div>
 
 ### Choosing the Right Storage
 
@@ -3280,7 +3439,7 @@ Key architectural advantages over AHCI/SATA:
 3. **Deep queue depths:** The large number of queue entries allows the storage device to optimize
    its internal command scheduling and garbage collection.
 4. **Lower latency:** NVMe eliminates the SATA protocol overhead (command encoding, FIS framing,
-   spread spectrum clocking), reducing command latency by 2–5 $\mu$S.
+   spread spectrum clocking), reducing command latency by 2–5 $\mu$ S.
 
 ### NVMe Namespaces
 
@@ -3303,17 +3462,21 @@ nvme id-ns /dev/nvme0n1
 
 NVMe defines several power states (PS0–PS4) that trade off power consumption against latency:
 
+<div class="table-wrap">
+
 | Power State           | Power    | Exit Latency | Entry Latency |
 | --------------------- | -------- | ------------ | ------------- |
 | PS0 (Active)          | Highest  | 0            | N/A           |
-| PS1                   | Moderate | ~10 $\mu$S   | ~10 $\mu$S    |
-| PS2                   | Low      | ~100 $\mu$S  | ~100 $\mu$S   |
+| PS1                   | Moderate | ~10 $\mu$ S   | ~10 $\mu$ S    |
+| PS2                   | Low      | ~100 $\mu$ S  | ~100 $\mu$ S   |
 | PS3 (Deep Sleep)      | Very Low | ~10 ms       | ~10 ms        |
 | PS4 (Deep Power Down) | Minimal  | ~20 ms       | ~20 ms        |
 
+</div>
+
 APST (Autonomous Power State Transition) allows the SSD to transition between power states
 Automatically. On desktops, this is generally fine. On servers with latency-sensitive workloads, you
-May want to restrict APST to prevent the SSD from entering deep sleep states.
+may want to restrict APST to prevent the SSD from entering deep sleep states.
 
 ```bash
 # Disable APST on Linux
@@ -3338,12 +3501,16 @@ echo 0 | sudo tee /sys/module/nvme_core/parameters/default_ps_max_latency_us
 NAND flash stores data in cells, with each cell holding one or more bits. More bits per cell
 Increases density but reduces endurance and performance.
 
+<div class="table-wrap">
+
 | NAND Type | Bits per Cell | Write Endurance (P/E Cycles) | Relative Cost | Performance               |
 | --------- | ------------- | ---------------------------- | ------------- | ------------------------- |
 | SLC       | 1             | 100,000                      | Highest       | Best                      |
 | MLC       | 2             | 3,000–10,000                 | High          | Good                      |
 | TLC       | 3             | 1,000–3,000                  | Medium        | Moderate                  |
 | QLC       | 4             | 100–1,000                    | Lowest        | Worst (especially writes) |
+
+</div>
 
 Modern "3D NAND" stacks memory cells vertically (64, 128, or 176 layers), increasing density without
 Shrinking the cell size. This improves endurance compared to planar NAND at the same technology
@@ -3355,15 +3522,19 @@ Most TLC and QLC SSDs implement an SLC cache, a portion of the NAND operates in 
 (one bit per cell) to boost write performance. When the SLC cache is full, write speeds drop
 Dramatically as data must be folded from SLC into the TLC/QLC area.
 
+<div class="table-wrap">
+
 | SSD                       | SLC Cache Size | SLC Cache Speed | Full Speed |
 | ------------------------- | -------------- | --------------- | ---------- |
 | Samsung 990 Pro 2TB       | ~210 GB        | 6,650 MB/s      | 2,000 MB/s |
 | WD Black SN850X 2TB       | ~300 GB        | 6,600 MB/s      | 1,500 MB/s |
 | Crucial P3 Plus 2TB (QLC) | ~160 GB        | 5,000 MB/s      | 200 MB/s   |
 
+</div>
+
 :::caution
 MB/s to under 200 MB/s. This is a fundamental limitation of QLC NAND, not a defect. Avoid QLC SSDs
-For write-heavy workloads (video editing, database, OS drive).
+for write-heavy workloads (video editing, database, OS drive).
 :::
 
 ### Wear Leveling
@@ -3414,7 +3585,7 @@ amount of over-provisioning.
 
 TRIM is a SATA/NVMe command that tells the SSD which LBAs (Logical Block Addresses) are no longer in
 Use. Without TRIM, the SSD treats all previously written LBAs as valid data and must copy them
-During garbage collection, even if the OS has deleted the files. TRIM allows the SSD to skip copying
+during garbage collection, even if the OS has deleted the files. TRIM allows the SSD to skip copying
 Deleted data, improving garbage collection efficiency and maintaining write performance.
 
 ```bash
@@ -3447,11 +3618,15 @@ Reserved space is not accessible to the host but provides:
 3. **Sustained write performance**, because the SLC cache and garbage collection have more room to
    work.
 
+<div class="table-wrap">
+
 | OP Level         | Usable Capacity (1 TB drive) | Write Performance | Endurance |
 | ---------------- | ---------------------------- | ----------------- | --------- |
 | 0% (no OP)       | 1 TB                         | Worst             | Worst     |
 | 7% (standard)    | ~930 GB                      | Good              | Good      |
 | 28% (enterprise) | ~720 GB                      | Best              | Best      |
+
+</div>
 
 Consumer SSDs have 7% OP built in. Enterprise SSDs have 28% or more. Some consumer SSDs (e.g.,
 Samsung 840 EVO) allowed you to manually increase OP by shrinking the user-accessible Partition.
@@ -3471,6 +3646,8 @@ Samsung 840 EVO) allowed you to manually increase OP by shrinking the user-acces
 
 ### RAID Comparison
 
+<div class="table-wrap">
+
 | RAID Level | Min Drives | Fault Tolerance | Capacity     | Read Performance | Write Performance | Use Case                |
 | ---------- | ---------- | --------------- | ------------ | ---------------- | ----------------- | ----------------------- |
 | 0 (Stripe) | 2          | None            | N × size     | N ×              | N ×               | Scratch space, cache    |
@@ -3482,11 +3659,13 @@ Samsung 840 EVO) allowed you to manually increase OP by shrinking the user-acces
 | Z2         | 4          | 2 drives        | ~80% of raw  | Good             | Moderate          | ZFS equivalent of RAID6 |
 | Z3         | 5          | 3 drives        | ~75% of raw  | Good             | Moderate          | Critical data, ZFS      |
 
+</div>
+
 ### RAID Write Hole
 
 Traditional RAID 5/6 has a "write hole" vulnerability: if power is lost during a stripe write, the
 Parity may be inconsistent with the data, leading to silent data corruption. Hardware RAID cards
-With battery-backed write cache (BBWC) or ZFS's copy-on-write transaction model address this.
+with battery-backed write cache (BBWC) or ZFS's copy-on-write transaction model address this.
 
 ### Why ZFS Is Preferred
 
@@ -3500,7 +3679,7 @@ ZFS eliminates many traditional RAID problems:
 
 :::caution
 The storage pool. Hardware RAID hides the disks behind a virtual block device, which prevents ZFS
-From performing its error detection and correction.
+from performing its error detection and correction.
 :::
 
 ---
@@ -3520,12 +3699,16 @@ From performing its error detection and correction.
 
 Modern Linux (kernel 5.0+) uses multi-queue block layer (blk-mq) I/O schedulers:
 
+<div class="table-wrap">
+
 | Scheduler      | Description                                            | Best For                                            |
 | -------------- | ------------------------------------------------------ | --------------------------------------------------- |
 | `none` (no-op) | No reordering; FIFO dispatch                           | NVMe SSDs (the SSD controller handles optimization) |
 | `mq-deadline`  | Deadline-based scheduling with FIFO guarantees         | SATA SSDs, mixed workloads                          |
 | `bfq`          | Budget Fair Queueing; per-process bandwidth allocation | Desktop, interactive workloads                      |
 | `kyber`        | Low-latency scheduler for fast devices                 | NVMe SSDs                                           |
+
+</div>
 
 ### Selecting a Scheduler
 
@@ -3597,6 +3780,8 @@ echo 0 | sudo tee /sys/block/nvme0n1/queue/read_ahead_kb
 
 ### Filesystem Comparison
 
+<div class="table-wrap">
+
 | Filesystem | Features                                     | Best For                       |
 | ---------- | -------------------------------------------- | ------------------------------ |
 | ext4       | Mature, journaling, robust                   | General purpose, compatibility |
@@ -3604,6 +3789,8 @@ echo 0 | sudo tee /sys/block/nvme0n1/queue/read_ahead_kb
 | btrfs      | Copy-on-write, snapshots, checksums          | NAS, desktop (with caution)    |
 | f2fs       | Optimized for flash storage                  | Android, embedded, SD cards    |
 | zfs        | Data integrity, snapshots, RAID, compression | NAS, servers, backup           |
+
+</div>
 
 ### mount Options for SSDs
 
@@ -3646,7 +3833,7 @@ For ZFS on SSD, key tunables include:
 ### Key SMART Attributes
 
 SMART (Self-Monitoring, Analysis, and Reporting Technology) provides predictive failure information
-For storage devices.
+for storage devices.
 
 ```bash
 # Install smartmontools
@@ -3670,6 +3857,8 @@ sudo smartctl -l selftest /dev/nvme0n1
 
 ### Critical SMART Attributes for SSDs
 
+<div class="table-wrap">
+
 | Attribute                       | What It Means               | Warning Threshold       |
 | ------------------------------- | --------------------------- | ----------------------- |
 | Percentage Used                 | Life remaining based on TBW | &lt; 10%                |
@@ -3679,6 +3868,8 @@ sudo smartctl -l selftest /dev/nvme0n1
 | Available Spare                 | Reserved blocks remaining   | &lt; 10%                |
 | Power Cycles                    | Number of power cycles      | Not directly predictive |
 | Power On Hours                  | Total operating time        | Compare against MTBF    |
+
+</div>
 
 ### Automated SMART Monitoring
 
@@ -3721,7 +3912,7 @@ RAIDZ2/Z3 for arrays with drives larger than 4 TB.
 ### Not Enabling TRIM
 
 Without TRIM, SSD performance degrades over time as the garbage collector must process stale data
-That the OS has already deleted. This can cause write speeds to drop by 50–80% over weeks or months.
+that the OS has already deleted. This can cause write speeds to drop by 50–80% over weeks or months.
 Enable TRIM either continuously (`discard` mount option) or periodically (`fstrim.timer`).
 
 ### Using QLC SSDs for Write-Heavy Workloads
@@ -3814,12 +4005,16 @@ nvme id-ns /dev/nvme0n1
 NVMe supports optional end-to-end data protection using protection information (PI) appended to each
 Logical block:
 
+<div class="table-wrap">
+
 | PI Type   | Size    | Protection                                            |
 | --------- | ------- | ----------------------------------------------------- |
 | PI Type 0 | 0 bytes | No protection                                         |
 | PI Type 1 | 8 bytes | Guard + Application Tag + Logical Block Reference Tag |
 | PI Type 2 | 4 bytes | Guard + Logical Block Reference Tag                   |
 | PI Type 3 | 8 bytes | Guard + Application Tag                               |
+
+</div>
 
 Type 1 is the most comprehensive and is recommended for enterprise workloads where data integrity is
 Critical.
@@ -4020,14 +4215,18 @@ fio --name=endurance-test --ioengine=libaio --iodepth=32 --rw=write \
 
 Key metrics to analyze from fio JSON output:
 
+<div class="table-wrap">
+
 | Metric   | Description                 | Good Value                                  |
 | -------- | --------------------------- | ------------------------------------------- |
 | iops     | I/O operations per second   | Workload-dependent                          |
 | lat_ns   | Latency in nanoseconds      | p99 &lt; 1ms for NVMe                       |
 | clat_ns  | Completion latency          | Lower is better                             |
-| slat_ns  | Submission latency          | Should be &lt; 10 $\mu$S                    |
+| slat_ns  | Submission latency          | Should be &lt; 10 $\mu$ S                    |
 | bw       | Bandwidth in KB/s           | Near theoretical max                        |
 | cpu_util | CPU utilization during test | &lt; 80% (CPU should not be the bottleneck) |
+
+</div>
 
 ## Storage Reliability Engineering
 
@@ -4035,11 +4234,15 @@ Key metrics to analyze from fio JSON output:
 
 Every storage medium has a specified UBER, the probability of an unrecoverable bit error:
 
+<div class="table-wrap">
+
 | Medium          | UBER       | Probability of reading error for 1 TB |
 | --------------- | ---------- | ------------------------------------- |
 | HDD             | $10^{-14}$ | ~1 in 9 million full reads            |
 | Enterprise SSD  | $10^{-17}$ | ~1 in 9 billion full reads            |
 | Enterprise NVMe | $10^{-17}$ | ~1 in 9 billion full reads            |
+
+</div>
 
 While these numbers seem reassuring, they compound in large-scale deployments:
 
@@ -4048,7 +4251,7 @@ P(\mathrm{error in array) = 1 - (1 - UBER)^{N_{drives} \times N_{reads}}
 $$
 
 This is why ZFS checksumming is essential, it detects and corrects these errors that would
-Otherwise cause silent data corruption.
+otherwise cause silent data corruption.
 
 ### Wear Leveling Depth
 
@@ -4088,14 +4291,18 @@ Significantly reduce this.
 Intel Optane DC P5800X and P4800X drives are the gold standard for ZFS SLOG devices due to their
 Consistent low latency regardless of workload:
 
+<div class="table-wrap">
+
 | Drive         | Read Latency | Write Latency | Endurance | Capacity       |
 | ------------- | ------------ | ------------- | --------- | -------------- |
-| Optane P5800X | 6 $\mu$S     | 6 $\mu$S      | 100 DWPD  | 400 GB–1.6 TB  |
-| Samsung PM9A3 | 25 $\mu$S    | 45 $\mu$S     | 3 DWPD    | 960 GB–7.68 TB |
-| Intel P4510   | 40 $\mu$S    | 60 $\mu$S     | 1 DWPD    | 1–8 TB         |
+| Optane P5800X | 6 $\mu$ S     | 6 $\mu$ S      | 100 DWPD  | 400 GB–1.6 TB  |
+| Samsung PM9A3 | 25 $\mu$ S    | 45 $\mu$ S     | 3 DWPD    | 960 GB–7.68 TB |
+| Intel P4510   | 40 $\mu$ S    | 60 $\mu$ S     | 1 DWPD    | 1–8 TB         |
+
+</div>
 
 DWPD (Drive Writes Per Day) measures endurance relative to capacity. A 100 DWPD drive can be written
-To 100 times its capacity every day for 5 years.
+to 100 times its capacity every day for 5 years.
 
 ### L2ARC Sizing Guidelines
 
@@ -4117,7 +4324,7 @@ ARC_{metadata} \approx 70 \mathrm{ bytes \times \mathrm{L2ARC\_entries
 $$
 
 For a 1 TB L2ARC with 4 KB average block size, this is approximately 17.5 GB of ARC metadata. Ensure
-You have sufficient RAM to accommodate both the ARC and L2ARC metadata.
+you have sufficient RAM to accommodate both the ARC and L2ARC metadata.
 
 ## Storage Tiering Strategies
 
@@ -4199,9 +4406,6 @@ implementation, and key applications.
 - transaction processing (ACID)
 - NoSQL and distributed databases
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -4237,7 +4441,7 @@ URL: https://tuning.wyattau.com/05-cooling-systems/cooling/
 Every cooling solution relies on three mechanisms of heat transfer:
 
 1. **Conduction**. Heat transfer through a solid material without bulk motion. Governed by
-   Fourier"s law:
+   Fourier's law:
 
 $$
 Q = -k \cdot A \cdot \frac{dT}{dx}
@@ -4263,7 +4467,7 @@ shiny surfaces.
 
 ### Thermal Resistance
 
-Thermal resistance ($\theta$Measured in °C/W) quantifies how effectively a thermal interface or
+Thermal resistance ($\theta$ Measured in °C/W) quantifies how effectively a thermal interface or
 Material transfers heat. Lower thermal resistance means better heat transfer.
 
 The total thermal resistance from die to ambient is the sum of all series thermal resistances:
@@ -4274,12 +4478,16 @@ $$
 
 A typical breakdown for a well-cooled desktop CPU:
 
+<div class="table-wrap">
+
 | Interface             | Thermal Resistance | Temperature Rise (at 150 W) |
 | --------------------- | ------------------ | --------------------------- |
 | Die to IHS (soldered) | 0.05–0.10 °C/W     | 7.5–15 °C                   |
 | TIM (paste)           | 0.10–0.30 °C/W     | 15–45 °C                    |
 | Heatsink (convection) | 0.05–0.15 °C/W     | 7.5–22.5 °C                 |
 | **Total**             | **0.20–0.55 °C/W** | **30–82.5 °C**              |
+
+</div>
 
 ---
 
@@ -4299,6 +4507,8 @@ A typical breakdown for a well-cooled desktop CPU:
 The TIM (Thermal Interface Material) between the CPU IHS and the heatsink is critical. Even the best
 Heatsink is useless if the thermal interface has high thermal resistance.
 
+<div class="table-wrap">
+
 | TIM Type                                    | Thermal Conductivity   | Longevity                | Ease of Application | Best For                     |
 | ------------------------------------------- | ---------------------- | ------------------------ | ------------------- | ---------------------------- |
 | Standard paste (NT-H2, MX-4)                | 4–8 W/m·K              | 3–5 years                | Easy                | Most users                   |
@@ -4306,6 +4516,8 @@ Heatsink is useless if the thermal interface has high thermal resistance.
 | Liquid metal (Thermal Grizzly Conductonaut) | 73 W/m·K               | 2–5 years (with coating) | Difficult, risky    | Extreme overclocking         |
 | Phase-change pad (PTM7950)                  | 6–8 W/m·K              | 5+ years                 | Very easy           | Low maintenance              |
 | Graphite pad                                | 15–25 W/m·K (in-plane) | Indefinite               | Easy                | Laptops (single application) |
+
+</div>
 
 ### Application Methods
 
@@ -4350,9 +4562,11 @@ Around the IHS to contain spills.
 ### Tower Coolers
 
 Tower coolers use a stack of aluminum fins connected by heat pipes to a copper base plate. Airflow
-From one or more fans pushes heat away from the fins.
+from one or more fans pushes heat away from the fins.
 
 Key specifications to evaluate:
+
+<div class="table-wrap">
 
 | Spec        | What It Means                          | Good Value                               |
 | ----------- | -------------------------------------- | ---------------------------------------- |
@@ -4361,6 +4575,8 @@ Key specifications to evaluate:
 | Fan Size    | Larger fans move more air at lower RPM | 120 mm or 140 mm preferred               |
 | Noise Level | Measured in dBA at specified RPM       | &lt; 25 dBA at full speed                |
 | Weight      | Must be supported by the motherboard   | &lt; 1 kg without backplate              |
+
+</div>
 
 ### Heat Pipe Technology
 
@@ -4385,6 +4601,8 @@ The number and diameter of heat pipes matter:
 
 Understanding fan specs is critical for selecting the right fans for your build:
 
+<div class="table-wrap">
+
 | Spec            | Unit           | What It Means                                               |
 | --------------- | -------------- | ----------------------------------------------------------- |
 | Airflow         | CFM or m$^3$/h | Volume of air moved per unit time                           |
@@ -4393,9 +4611,11 @@ Understanding fan specs is critical for selecting the right fans for your build:
 | Noise           | dBA            | Sound pressure level at 1 meter                             |
 | Bearing Type    |,              | Longevity and noise characteristics                         |
 
+</div>
+
 **Static pressure vs. Airflow:** Heatsinks and radiators present high airflow resistance. You need
 Fans with high static pressure to push air through them effectively. Case exhaust fans benefit more
-From high airflow.
+from high airflow.
 
 Fan bearing types ranked by longevity:
 
@@ -4406,12 +4626,16 @@ Fan bearing types ranked by longevity:
 
 ### Top Air Coolers (Reference)
 
+<div class="table-wrap">
+
 | Cooler                                | TDP Rating | Height | Noise    | Price     |
 | ------------------------------------- | ---------- | ------ | -------- | --------- |
 | Noctua NH-D15 G2                      | 280 W      | 165 mm | Very low | Premium   |
 | Thermalright Peerless Assassin 120 SE | 260 W      | 155 mm | Low      | Budget    |
 | be quiet! Dark Rock Pro 5             | 270 W      | 168 mm | Very low | Premium   |
 | Scythe Fuma 3                         | 220 W      | 154 mm | Low      | Mid-range |
+
+</div>
 
 ---
 
@@ -4439,6 +4663,8 @@ An All-In-One (AIO) liquid cooler consists of:
 
 ### Radiator Size Comparison
 
+<div class="table-wrap">
+
 | Radiator Size   | Surface Area | Cooling Capacity | Typical Use                        |
 | --------------- | ------------ | ---------------- | ---------------------------------- |
 | 120 mm (single) | ~0.015 m$^2$ | 150 W            | Low-TDP CPUs, SFF builds           |
@@ -4447,15 +4673,21 @@ An All-In-One (AIO) liquid cooler consists of:
 | 360 mm (triple) | ~0.045 m$^2$ | 350–400 W        | High-end CPUs, overclocking        |
 | 420 mm          | ~0.053 m$^2$ | 400–450 W        | Extreme overclocking, Threadripper |
 
+</div>
+
 ### Fan Configuration on Radiators
 
 The orientation of fans on a radiator significantly affects thermals and noise:
+
+<div class="table-wrap">
 
 | Configuration                        | Thermals        | Noise          | Notes                                   |
 | ------------------------------------ | --------------- | -------------- | --------------------------------------- |
 | Push (fans outside, blowing through) | Good            | Moderate       | Most common, easier to clean            |
 | Pull (fans inside, pulling through)  | Slightly better | Slightly lower | Harder to clean dust from fins          |
 | Push-Pull (fans on both sides)       | Best            | Highest        | Doubles fan count, marginal improvement |
+
+</div>
 
 ### AIO Failure Modes
 
@@ -4493,6 +4725,8 @@ A threshold ( 1000 RPM). A dead pump with active fans will cook a CPU in minutes
 Custom water cooling loops offer the best thermal performance and lowest noise but require
 Significant expertise and maintenance.
 
+<div class="table-wrap">
+
 | Component   | Function                                        | Key Considerations                                      |
 | ----------- | ----------------------------------------------- | ------------------------------------------------------- |
 | Water block | Mounts to CPU/GPU, transfers heat to coolant    | Copper or nickel-plated copper; micro-channel design    |
@@ -4502,6 +4736,8 @@ Significant expertise and maintenance.
 | Tubing      | Connects components                             | PETG, acrylic, or soft tubing (PTFE, PVC)               |
 | Fittings    | Connect tubing to components                    | Compression, barb, or rotary fittings                   |
 | Coolant     | Heat transfer fluid                             | Distilled water + biocide + anticorrosive, or pre-mixed |
+
+</div>
 
 ### Loop Order
 
@@ -4513,7 +4749,7 @@ Reservoir → Pump → Radiator → CPU Block → GPU Block → Reservoir
 ```
 
 Placing the reservoir before the pump ensures the pump is always flooded (never runs dry). Placing
-The radiator before the CPU block provides slightly cooler coolant to the CPU, but the difference is
+the radiator before the CPU block provides slightly cooler coolant to the CPU, but the difference is
 less than 1 °C.
 
 ### Maintenance
@@ -4596,6 +4832,8 @@ Compared to mesh panels. For high-TDP GPUs (300+ W), a mesh front panel is stron
 
 A well-tuned fan curve keeps temperatures acceptable while minimizing noise:
 
+<div class="table-wrap">
+
 | Temperature | Fan Speed | Behavior                                       |
 | ----------- | --------- | ---------------------------------------------- |
 | Below 40 °C | 0–30%     | Near-silent, adequate for idle and light loads |
@@ -4603,6 +4841,8 @@ A well-tuned fan curve keeps temperatures acceptable while minimizing noise:
 | 60–75 °C    | 60–85%    | Noticeable; gaming load                        |
 | 75–85 °C    | 85–100%   | Loud; approaching thermal limits               |
 | Above 85 °C | 100%      | Maximum cooling; investigate cause             |
+
+</div>
 
 ### Fan Control Software
 
@@ -4642,6 +4882,8 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 
 ### Hardware Monitoring Points
 
+<div class="table-wrap">
+
 | Sensor            | Location           | What It Measures           |
 | ----------------- | ------------------ | -------------------------- |
 | CPU Package Temp  | On-die             | Average CPU temperature    |
@@ -4653,7 +4895,11 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 | NVMe Temp         | On-drive sensor    | SSD temperature            |
 | System Temp       | Motherboard sensor | Ambient case temperature   |
 
+</div>
+
 ### Safe Temperature Limits
+
+<div class="table-wrap">
 
 | Component              | Maximum Sustained | Thermal Throttling | Danger Zone            |
 | ---------------------- | ----------------- | ------------------ | ---------------------- |
@@ -4663,6 +4909,8 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 | AMD GPU (RDNA 3)       | 85 °C             | 110 °C (junction)  | &gt; 115 °C (junction) |
 | NVMe SSD               | 60 °C             | 70 °C              | &gt; 75 °C             |
 | VRM                    | 80 °C             | N/A                | &gt; 100 °C            |
+
+</div>
 
 ---
 
@@ -4687,6 +4935,8 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 
 ### Decibel Reference
 
+<div class="table-wrap">
+
 | Level  | Example             | Perceived Loudness     |
 | ------ | ------------------- | ---------------------- |
 | 10 dBA | Near-silent room    | Barely audible         |
@@ -4695,6 +4945,8 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 | 40 dBA | Quiet office        | Quiet, noticeable      |
 | 50 dBA | Normal conversation | Moderate               |
 | 60 dBA | Busy restaurant     | Loud, tiring over time |
+
+</div>
 
 ### Strategies for Quiet Operation
 
@@ -4738,7 +4990,7 @@ Radiator as exhaust (top) or side-intake with the understanding of the thermal t
 ### Using Too Much Thermal Paste
 
 More paste is not better. Excess paste squeezes out from between the IHS and heatsink and can spill
-Onto the motherboard. Worse, a thick layer of paste has higher thermal resistance than a thin layer.
+onto the motherboard. Worse, a thick layer of paste has higher thermal resistance than a thin layer.
 The paste should fill only the microscopic imperfections between the two surfaces, not act as a gap
 Filler. A pea-sized amount is sufficient for most CPUs.
 
@@ -4758,7 +5010,7 @@ Software.
 ### Ignoring Case Airflow Direction
 
 Reversed fan orientation (intake fan blowing outward, exhaust fan pulling inward) creates turbulence
-And disrupts the intended airflow path. Always verify fan direction by looking at the arrow on the
+and disrupts the intended airflow path. Always verify fan direction by looking at the arrow on the
 Fan frame or observing which side the strut/bracket is on (strut side is intake).
 
 ## Advanced Thermal Paste Analysis
@@ -4766,7 +5018,7 @@ Fan frame or observing which side the strut/bracket is on (strut side is intake)
 ### Thermal Conductivity Testing Methodology
 
 Thermal paste performance is measured by the temperature delta between the die and the heatsink
-Under controlled load conditions. Standardized tests use a calibrated heat source and thermal
+under controlled load conditions. Standardized tests use a calibrated heat source and thermal
 Sensors to eliminate variables:
 
 $$
@@ -4824,7 +5076,7 @@ Rear of the heatsink receives warmer air, reducing efficiency.
 
 **Dual fan (push-pull):** Adds a second fan on the rear of the heatsink pulling air through.
 Improves thermals by 2–5 °C compared to single fan. Doubles the noise level (two fans instead of
-One).
+one).
 
 **Dual fan (both push, front):** Two fans mounted side by side on the front. Only useful for very
 Wide heatsinks (140 mm+ width). Marginally better than single fan due to higher static pressure.
@@ -4839,6 +5091,8 @@ Wide heatsinks (140 mm+ width). Marginally better than single fan due to higher 
 
 Fan blade design affects airflow, static pressure, and noise:
 
+<div class="table-wrap">
+
 | Design                | Airflow  | Static Pressure | Noise        | Use Case             |
 | --------------------- | -------- | --------------- | ------------ | -------------------- |
 | Standard              | Good     | Moderate        | Moderate     | Case exhaust         |
@@ -4846,6 +5100,8 @@ Fan blade design affects airflow, static pressure, and noise:
 | High airflow          | High     | Low             | Low-Moderate | Case intake          |
 | Silent (FDB, low RPM) | Low      | Low             | Very Low     | Quiet builds         |
 | PWM-controlled        | Variable | Variable        | Variable     | All scenarios        |
+
+</div>
 
 Key blade parameters:
 
@@ -4858,11 +5114,15 @@ Key blade parameters:
 
 ### Pump Types
 
+<div class="table-wrap">
+
 | Pump Type                 | Location   | Noise        | Reliability | Flow Rate  |
 | ------------------------- | ---------- | ------------ | ----------- | ---------- |
 | Centrifugal (most common) | Cold plate | Low-Moderate | High        | 60–120 L/h |
 | Peristaltic               | External   | High         | Moderate    | 30–80 L/h  |
 | Axial                     | Cold plate | Moderate     | Moderate    | 80–150 L/h |
+
+</div>
 
 Centrifugal pumps are the most common in AIO coolers. They use an impeller to push coolant radially
 Outward, creating pressure that drives flow through the loop. The pump is integrated into The cold
@@ -4884,11 +5144,15 @@ AIO coolant is a mixture of:
 
 FPI (Fins Per Inch) determines the balance between surface area and airflow resistance:
 
+<div class="table-wrap">
+
 | FPI   | Density | Fan Required    | Use Case                      |
 | ----- | ------- | --------------- | ----------------------------- |
 | 12–16 | Low     | Low-RPM fans    | Quiet builds, large radiators |
 | 17–20 | Medium  | Medium-RPM fans | Most builds                   |
 | 21–30 | High    | High-RPM fans   | Maximum cooling, loud         |
+
+</div>
 
 Low-FPI radiators (12–16 FPI) perform better with low-RPM fans because the airflow can penetrate the
 Fin stack more . High-FPI radiators require high-static-pressure fans to push air through the Dense
@@ -4896,12 +5160,16 @@ fin stack, which generates more noise.
 
 ### Cross-Flow vs. Down-Flow Radiator Mounting
 
+<div class="table-wrap">
+
 | Mounting     | Airflow       | Thermals       | Tube Routing  | Use Case                           |
 | ------------ | ------------- | -------------- | ------------- | ---------------------------------- |
 | Top exhaust  | Bottom to top | Good           | Down and over | Standard                           |
 | Top intake   | Top to bottom | Slightly worse | Down and over | Positive pressure, dust management |
 | Front intake | Front to back | Good           | Side and up   | Standard                           |
 | Side mount   | Horizontal    | Variable       | Side          | Specialty cases                    |
+
+</div>
 
 ## Custom Loop Design Considerations
 
@@ -4931,6 +5199,8 @@ Before purchasing components, plan the loop:
 
 ### Coolant Maintenance Schedule
 
+<div class="table-wrap">
+
 | Maintenance Task               | Frequency    | Notes                                               |
 | ------------------------------ | ------------ | --------------------------------------------------- |
 | Check coolant level            | Monthly      | Top off if below minimum                            |
@@ -4941,7 +5211,11 @@ Before purchasing components, plan the loop:
 | Inspect blocks for corrosion   | Annually     | Remove blocks and inspect interior surfaces         |
 | Clean pump/reservoir           | Annually     | Remove debris from pump impeller                    |
 
+</div>
+
 ### Water Block Selection
+
+<div class="table-wrap">
 
 | Block Type            | Restriction | Cooling Performance | Compatibility        |
 | --------------------- | ----------- | ------------------- | -------------------- |
@@ -4950,8 +5224,10 @@ Before purchasing components, plan the loop:
 | Monoblock (CPU + VRM) | Moderate    | Excellent           | Motherboard-specific |
 | RAM block             | Low         | Minimal             | DIMM-specific        |
 
+</div>
+
 Full-cover GPU blocks cool the GPU die, VRAM, and VRMs. They are the most effective but are specific
-To each GPU model. When upgrading your GPU, you need a new block.
+to each GPU model. When upgrading your GPU, you need a new block.
 
 ## Case Airflow Simulation
 
@@ -5051,12 +5327,14 @@ T_{CPU} = T_{ambient} + \Delta T_{CPU-ambient}
 $$
 
 If your room is 30 °C instead of 20 °C, your CPU will run 10 °C hotter for the same workload. This
-Is significant, a CPU that runs at 75 °C in a 20 °C room will hit 85 °C in a 30 °C room.
+is significant, a CPU that runs at 75 °C in a 20 °C room will hit 85 °C in a 30 °C room.
 
 ### Altitude Effects
 
 At higher altitudes, air density decreases, which reduces the cooling capacity of air-based cooling
 Solutions:
+
+<div class="table-wrap">
 
 | Altitude        | Air Density (vs. Sea level) | Cooling Capacity Reduction |
 | --------------- | --------------------------- | -------------------------- |
@@ -5064,6 +5342,8 @@ Solutions:
 | 1000 m          | 88%                         | ~12%                       |
 | 2000 m          | 78%                         | ~22%                       |
 | 3000 m          | 69%                         | ~31%                       |
+
+</div>
 
 At 2000 m altitude, your cooling solution is approximately 22% less effective. This means a cooler
 Rated for 250 W at sea level can only handle approximately 195 W at 2000 m. Plan accordingly if you
@@ -5076,6 +5356,8 @@ Live at high altitude.
 PWM (Pulse Width Modulation) controls fan speed by rapidly switching the power on and off. The duty
 Cycle determines the percentage of time the power is on:
 
+<div class="table-wrap">
+
 | Duty Cycle | Effective Voltage (12V fan) | Approximate RPM   |
 | ---------- | --------------------------- | ----------------- |
 | 0%         | 0 V                         | 0 RPM (stopped)   |
@@ -5083,6 +5365,8 @@ Cycle determines the percentage of time the power is on:
 | 50%        | 6 V                         | 50–55% of max RPM |
 | 75%        | 9 V                         | 75–80% of max RPM |
 | 100%       | 12 V                        | 100% RPM          |
+
+</div>
 
 Modern 4-pin PWM fans maintain a constant 12V supply and use the PWM signal to control the fan motor
 Directly. This provides smoother speed control and lower minimum speeds than 3-pin DC fans.
@@ -5134,12 +5418,16 @@ Small form factor (SFF) builds face unique thermal challenges:
 
 ### SFF Cooling Strategies
 
+<div class="table-wrap">
+
 | Strategy               | Description                     | Thermals | Noise    |
 | ---------------------- | ------------------------------- | -------- | -------- |
 | Low-profile air cooler | Noctua NH-L9a-AM4, be quiet! LP | Moderate | Low      |
 | AIO (120mm or 240mm)   | Compact liquid cooling          | Good     | Moderate |
 | Desk-facing case       | Case acts as convection surface | Good     | Very Low |
 | Ducted airflow         | Direct intake to CPU cooler     | Good     | Low      |
+
+</div>
 
 ### SFF-Specific Considerations
 
@@ -5173,11 +5461,15 @@ echo 100 | sudo tee /sys/class/thermal/cooling_device0/cur_state
 
 ACPI defines thermal zones with trip points that trigger cooling actions:
 
+<div class="table-wrap">
+
 | Trip Point Type | Action                        | Typical Setting     |
 | --------------- | ----------------------------- | ------------------- |
 | Passive         | Throttle CPU (reduce P-state) | 85 °C               |
 | Active (fan)    | Increase fan speed            | 60 °C, 70 °C, 80 °C |
 | Critical        | Emergency shutdown            | 100 °C              |
+
+</div>
 
 ### Cross-Platform Monitoring Script
 
@@ -5240,18 +5532,8 @@ variance exceeds 20 °C, check:
 
 Modern CPUs can spike to high temperatures (20–30 °C above average) for brief periods during sudden
 Load transitions. These spikes are caused by the CPU ramping from a low P-state to a high P-state
-Before the cooling system can respond. They are normal and not cause for concern as long as average
+before the cooling system can respond. They are normal and not cause for concern as long as average
 Temperatures remain within safe limits.
-
-```mermaid
-flowchart TD
-    A[Cooling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5266,13 +5548,7 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -5345,12 +5621,16 @@ Untested instability can manifest as:
 Prime95 is the gold standard for CPU stability testing. It uses GIMPS (Great Internet Mersenne Prime
 Search) algorithms to stress the CPU with varying FFT (Fast Fourier Transform) sizes.
 
+<div class="table-wrap">
+
 | Test Mode  | FFT Size       | What It Stresses            | Primary Use                              |
 | ---------- | -------------- | --------------------------- | ---------------------------------------- |
 | Small FFTs | 4–4096 K       | L1/L2 cache, ALU, FPU       | Maximum heat generation, thermal testing |
 | Large FFTs | 4096–4096 K    | L3 cache, memory controller | Cache and memory stress                  |
 | Blend      | Mixed          | All levels                  | Overall system stability                 |
 | Custom     | User-specified | User-specified              | Targeted testing                         |
+
+</div>
 
 **Recommended configuration for stability testing:**
 
@@ -5371,6 +5651,8 @@ Minutes for production systems.
 OCCT (OverClock Checking Tool) is a comprehensive stability tester that catches errors Prime95 may
 Miss:
 
+<div class="table-wrap">
+
 | Test               | Duration | What It Catches                     |
 | ------------------ | -------- | ----------------------------------- |
 | OCCT CPU (Small)   | 30 min   | CPU thermal and voltage instability |
@@ -5379,8 +5661,10 @@ Miss:
 | OCCT Memory        | 60 min   | Memory-specific errors              |
 | OCCT Power         | 30 min   | PSU voltage stability under load    |
 
+</div>
+
 OCCT is particularly effective at catching marginal instability that Prime95"s large FFT sizes do
-Not exercise. Use OCCT as a secondary test after Prime95 passes.
+not exercise. Use OCCT as a secondary test after Prime95 passes.
 
 ### AIDA64
 
@@ -5492,7 +5776,7 @@ For GPU memory overclocking stability, use CUDA memtest (NVIDIA) or ROCm memtest
 ### MemTest86
 
 MemTest86 is the standard for memory testing. It runs from a bootable USB drive, testing memory
-Without any operating system interference. This eliminates potential issues with OS-level memory
+without any operating system interference. This eliminates potential issues with OS-level memory
 Management.
 
 ```text
@@ -5505,12 +5789,16 @@ Management.
 
 **Pass requirements:**
 
+<div class="table-wrap">
+
 | Scenario                            | Minimum Passes | Recommended |
 | ----------------------------------- | -------------- | ----------- |
 | Quick check after settings change   | 4              | 4           |
 | New build validation                | 4              | 8           |
 | Production system                   | 8              | 16+         |
 | Troubleshooting intermittent errors | 8              | 16+         |
+
+</div>
 
 Any errors, even a single bit, indicate instability. There is no such thing as an "acceptable"
 Memory error rate.
@@ -5748,6 +6036,8 @@ chmod +x monitor_stress.sh
 
 ### Symptom Analysis
 
+<div class="table-wrap">
+
 | Symptom                 | Timing                          | Likely Cause                           | Action                                     |
 | ----------------------- | ------------------------------- | -------------------------------------- | ------------------------------------------ |
 | Immediate crash or BSOD | Within seconds of starting test | Voltage too low, settings incompatible | Increase voltage, revert settings          |
@@ -5759,11 +6049,15 @@ chmod +x monitor_stress.sh
 | File corruption         | After testing                   | Memory or storage instability          | Run MemTest86, check SMART data            |
 | System hangs (no BSOD)  | Random                          | Severe hardware problem                | Check PSU, motherboard, RAM individually   |
 
+</div>
+
 ### What WHEA Errors Mean
 
 WHEA (Windows Hardware Error Architecture) errors indicate that the CPU detected an internal error
-And corrected it. The correction means the system continued running, but the error itself is a
+and corrected it. The correction means the system continued running, but the error itself is a
 Reliability concern.
+
+<div class="table-wrap">
 
 | WHEA Error Type         | Meaning                                    | Severity             |
 | ----------------------- | ------------------------------------------ | -------------------- |
@@ -5771,6 +6065,8 @@ Reliability concern.
 | Cache Hierarchy Error   | L1/L2/L3 cache error                       | Medium               |
 | Bus Error               | Front-side bus or interconnect error       | High                 |
 | Internal Timer Error    | CPU timer error                            | Medium               |
+
+</div>
 
 **Zero WHEA errors is the only acceptable threshold.** Even one corrected error during stress
 Testing means your settings are not stable enough for production use.
@@ -5838,6 +6134,8 @@ For new builds or critical systems:
 
 ### CPU Temperature Limits
 
+<div class="table-wrap">
+
 | Platform               | Maximum Sustained | Thermal Throttle | Absolute Maximum  |
 | ---------------------- | ----------------- | ---------------- | ----------------- |
 | Intel 12th–14th Gen    | 85 °C             | 100 °C           | 115 °C (junction) |
@@ -5846,7 +6144,11 @@ For new builds or critical systems:
 | AMD Ryzen 9000 (Zen 5) | 80 °C             | 95 °C            | 95 °C             |
 | AMD Threadripper       | 80 °C             | 95 °C            | 110 °C            |
 
+</div>
+
 ### GPU Temperature Limits
+
+<div class="table-wrap">
 
 | Platform             | Maximum Sustained | Thermal Throttle  | Hotspot Limit     |
 | -------------------- | ----------------- | ----------------- | ----------------- |
@@ -5854,13 +6156,19 @@ For new builds or critical systems:
 | NVIDIA RTX 40-series | 75 °C             | 83 °C (edge)      | 91 °C (junction)  |
 | AMD RDNA 3           | 85 °C (junction)  | 110 °C (junction) | 120 °C (junction) |
 
+</div>
+
 ### Memory Temperature Limits
+
+<div class="table-wrap">
 
 | Type               | Maximum | Notes                                           |
 | ------------------ | ------- | ----------------------------------------------- |
 | DDR4               | 50 °C   | Beyond this, errors increase exponentially      |
 | DDR5               | 60 °C   | DDR5 runs hotter than DDR4 at equivalent speeds |
 | DDR5 with heatsink | 65 °C   | Heatsinks provide a small margin                |
+
+</div>
 
 ---
 
@@ -5923,7 +6231,7 @@ Y-cruncher. Always use at least two different CPU stress tests.
 
 Monitoring CPU and GPU temperatures is not sufficient. VRM temperatures (motherboard power delivery)
 And PSU temperatures are equally important. A VRM overheating at 90 °C can cause voltage instability
-That manifests as CPU errors, even though the CPU itself is within temperature limits.
+that manifests as CPU errors, even though the CPU itself is within temperature limits.
 
 ### Running Stress Tests Without Monitoring
 
@@ -5940,7 +6248,7 @@ System is warm from extended use). Always run the recommended number of passes.
 ### Confusing Thermal Throttling with Instability
 
 Thermal throttling is a normal protective mechanism, not instability. If your CPU thermal throttles
-During Prime95 Small FFTs but does not crash or produce errors, your system is stable, just
+during Prime95 Small FFTs but does not crash or produce errors, your system is stable, just
 Thermally limited. Thermal throttling means you need better cooling, not different voltage or
 Frequency settings.
 
@@ -6013,6 +6321,8 @@ Sample Intel Optimized LINPACK Benchmark input file
 
 Y-cruncher supports multiple computation modes:
 
+<div class="table-wrap">
+
 | Mode        | Stress Type       | Duration  | Best For             |
 | ----------- | ----------------- | --------- | -------------------- |
 | Pi (all)    | Mixed compute     | 15–60 min | General stability    |
@@ -6020,6 +6330,8 @@ Y-cruncher supports multiple computation modes:
 | Pi - 2.5B   | Heavy compute     | 30–60 min | Extended stability   |
 | Benchmark   | All modes         | 10 min    | Performance baseline |
 | Stress Test | AVX/FMA intensive | 15 min    | Maximum heat         |
+
+</div>
 
 ## GPU Stress Test Advanced Configurations
 
@@ -6204,6 +6516,8 @@ done
 
 ### Windows vs. Linux Stress Testing
 
+<div class="table-wrap">
+
 | Aspect         | Windows                        | Linux                                |
 | -------------- | ------------------------------ | ------------------------------------ |
 | CPU stress     | Prime95, OCCT, AIDA64          | stress-ng, stress, mprime            |
@@ -6212,6 +6526,8 @@ done
 | Storage stress | CrystalDiskMark, ATTO          | fio, dd, badblocks                   |
 | Monitoring     | HWiNFO64, MSI Afterburner OSD  | turbostat, sensors, htop, iostat     |
 | WHEA errors    | HWiNFO64, Windows Event Viewer | mcelog (if available), dmesg         |
+
+</div>
 
 ### Bootable Stress Testing
 
@@ -6264,16 +6580,6 @@ When adding used hardware (CPU, RAM, GPU) to an existing system, run a focused b
 - **Used GPU:** FurMark for 30 minutes + CUDA memtest for 1 hour.
 - **Used SSD/HDD:** SMART long test + badblocks non-destructive read test.
 
-```mermaid
-flowchart TD
-    A[Stress Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the psychological theories and research related to stress testing and validation,
@@ -6291,9 +6597,6 @@ Critical evaluation of theories and evidence, using specific studies to support 
 essential for examination success.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -6350,8 +6653,6 @@ This site provides comprehensive study materials covering:
 - Profiling
 - Optimisation
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -6376,8 +6677,6 @@ programming fundamentals
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -6395,18 +6694,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Introduction to Hardware Tuning](/intro/)
 - [Performance Tuning Practice](/practice-performance-tuning/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -6415,54 +6707,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -6603,6 +6847,8 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see Linux for OS-
 
 ## Tuning Workflow Reference
 
+<div class="table-wrap">
+
 | Step | Action | Tool |
 |------|--------|------|
 | 1 | Record stock baseline | HWiNFO log + bench suite |
@@ -6612,7 +6858,11 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see Linux for OS-
 | 5 | Re-baseline | Score delta vs variance band |
 | 6 | Iterate or lock | Continue gains or save stable profile |
 
+</div>
+
 ## Voltage Terms
+
+<div class="table-wrap">
 
 | Term | Meaning |
 |------|---------|
@@ -6624,6 +6874,8 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see Linux for OS-
 | Offset mode | Voltage scales with load relative to a base offset |
 | Adaptive/Fixed | CPU-chosen voltage vs hard-set constant (used for extreme OC) |
 | LLC level | Droop compensation strength (moderate beats maximum) |
+
+</div>
 
 ---
 
@@ -6658,17 +6910,6 @@ URL: https://tuning.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -6774,6 +7015,8 @@ The simplest memory optimisation is enabling XMP (Intel) or EXPO (AMD) profiles 
 
 Key timing parameters:
 
+<div class="table-wrap">
+
 | Timing | Description | Impact |
 | -------- | ------------- | -------- |
 | CAS Latency (CL) | Cycles to access a column | Lower is better |
@@ -6781,6 +7024,8 @@ Key timing parameters:
 | tRP | Row precharge time | Lower is better |
 | tRAS | Row active time | Lower is better |
 | tRC | Row cycle time | Lower is better |
+
+</div>
 
 ### Memory Frequency vs. Timings
 
@@ -6900,11 +7145,15 @@ Cooling is the bottleneck for sustained performance. Better cooling allows highe
 
 ### Temperature Targets
 
+<div class="table-wrap">
+
 | Component | Idle | Load | Maximum |
 | ----------- | ------ | ------ | --------- |
 | CPU | 30–40°C | 60–80°C | 90–100°C |
 | GPU | 30–40°C | 65–85°C | 90–95°C |
 | NVMe SSD | 30–40°C | 50–70°C | 75°C |
+
+</div>
 
 ---
 
@@ -7204,7 +7453,7 @@ Variance.
 Undervolting is the most compelling reason to tune for laptops and small-form-factor builds. A 100
 MV reduction on a 65 W CPU can shave 8–12 W off the package power, which translates directly to
 Longer battery life, lower fan noise, and a cooler chassis. On desktops, the same reduction means
-Your cooling solution lasts longer and your power bill is marginally lower.
+your cooling solution lasts longer and your power bill is marginally lower.
 
 ### Noise Reduction
 
@@ -7220,6 +7469,8 @@ Directly transferable to power management in data centers and embedded systems.
 
 ## Risk Assessment
 
+<div class="table-wrap">
+
 | Technique           | Performance Gain           | Thermal Impact            | Risk Level  | Reversibility                 |
 | ------------------- | -------------------------- | ------------------------- | ----------- | ----------------------------- |
 | CPU Undervolting    | 0–5% (sustained)           | Large reduction           | Low         | Fully reversible              |
@@ -7228,6 +7479,8 @@ Directly transferable to power management in data centers and embedded systems.
 | GPU Overclocking    | 5–15%                      | Moderate increase         | Medium      | Fully reversible              |
 | Memory Overclocking | 3–15% (workload-dependent) | Moderate increase         | Medium      | Fully reversible              |
 | BCLK Overclocking   | Variable                   | Can affect all components | High        | Fully reversible              |
+
+</div>
 
 **Important:** "Fully reversible" means you can restore stock settings. It does not mean there is
 Zero risk of data corruption during instability. Always save your work before stress testing.
@@ -7370,7 +7623,7 @@ Control entirely, others allow it.
 ### AMD (Zen 3 and Later)
 
 AMD's Curve Optimizer is the primary undervolting mechanism. It adjusts the voltage-frequency curve
-With a negative offset per core. This is platform-controlled and works within the boost algorithm,
+with a negative offset per core. This is platform-controlled and works within the boost algorithm,
 Making it safer than fixed offset undervolting. PPT (Package Power Tracking), TDC (Thermal Design
 Current), and EDC (Electrical Design Current) limits can also be adjusted for power-constrained
 Scenarios.
@@ -7378,7 +7631,7 @@ Scenarios.
 ### Apple Silicon
 
 Apple Silicon (M1/M2/M3/M4 series) does not expose tuning controls to the user. The power management
-Is handled entirely by the OS and firmware. You cannot undervolt or overclock Apple Silicon.
+is handled entirely by the OS and firmware. You cannot undervolt or overclock Apple Silicon.
 
 ## Terminology
 
@@ -7423,14 +7676,7 @@ Benchmarking is like taking a fitness test. Before you start training, you need 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -7526,18 +7772,11 @@ import PracticeProblem from "@components/PracticeProblem";
 - [About This Site](/about/)
 - [Introduction to Hardware Tuning](/intro/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -7546,77 +7785,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -7662,6 +7830,8 @@ Remain within the ATX specification limits.
 
 ATX specifications define maximum ripple and noise per rail:
 
+<div class="table-wrap">
+
 | Rail   | Max Ripple + Noise (ATX 3.0) |
 | ------ | ---------------------------- |
 | +12 V  | 120 mV peak-to-peak          |
@@ -7669,6 +7839,8 @@ ATX specifications define maximum ripple and noise per rail:
 | +3.3 V | 50 mV peak-to-peak           |
 | -12 V  | 120 mV peak-to-peak          |
 | +5 VSB | 50 mV peak-to-peak           |
+
+</div>
 
 Excessive ripple can cause instability, random reboots, and long-term degradation of components,
 Particularly electrolytic capacitors on motherboards and GPUs. Japanese capacitors (Nichicon,
@@ -7678,11 +7850,11 @@ Rubycon, Chemi-Con, Panasonic) are the gold standard for bulk and output filteri
 
 **Definition.** Hold-up time is the duration a PSU can maintain output voltages within specification
 After AC input is lost. The ATX specification requires a minimum of 16 ms at full load. This bridges
-The gap between power loss and UPS switchover.
+the gap between power loss and UPS switchover.
 
 Higher hold-up time (17--20 ms) is desirable for systems running on a UPS, as it provides more
 Margin for the transfer time of the uninterruptible power supply. Units with larger bulk capacitors
-Or active hold-up circuits generally achieve longer hold-up times.
+or active hold-up circuits generally achieve longer hold-up times.
 
 ### Efficiency Curves
 
@@ -7698,7 +7870,7 @@ Efficiency is not constant across the load range. Typical efficiency curves show
   in transformer windings, traces, and connectors.
 
 :::note
-The PSU"s rated capacity. This places you near peak efficiency while maintaining headroom for
+The PSU's rated capacity. This places you near peak efficiency while maintaining headroom for
 Transient spikes.
 :::
 
@@ -7706,6 +7878,8 @@ Transient spikes.
 
 The 80 PLUS program certifies PSU efficiency at 20%, 50%, and 100% of rated load at 115 V AC (230 V
 AC for Titanium). Higher tiers require increasingly stringent efficiency targets.
+
+<div class="table-wrap">
 
 | Tier     | 115V - 20% | 115V - 50% | 115V - 100% | 230V - 20% | 230V - 50% | 230V - 100% |
 | -------- | ---------- | ---------- | ----------- | ---------- | ---------- | ----------- |
@@ -7715,6 +7889,8 @@ AC for Titanium). Higher tiers require increasingly stringent efficiency targets
 | Gold     | 87%        | 90%        | 87%         | 88%        | 92%        | 88%         |
 | Platinum | 90%        | 92%        | 89%         | 90%        | 94%        | 90%         |
 | Titanium | --         | --         | --          | 94%        | 96%        | 91%         |
+
+</div>
 
 80 PLUS is a necessary but insufficient indicator of quality. It measures efficiency only, not
 Ripple, voltage regulation, build quality, or transient response. A cheap Bronze unit can be far
@@ -7740,7 +7916,7 @@ The ATX power supply specification is maintained by Intel. Key versions include:
 
 :::note
 RTX 5090) that can draw extremely high transient loads. Non-ATX 3.0 units may trigger OPP during
-These transients, causing system shutdowns under load.
+these transients, causing system shutdowns under load.
 :::
 
 ---
@@ -7763,7 +7939,7 @@ Specification. Peak (or peak surge) wattage is the maximum output the PSU can de
 Duration ( 10--30 seconds).
 
 The only rating that matters for sizing is continuous wattage. Some manufacturers market their units
-By peak wattage, which is misleading. A "600 W" PSU that can only sustain 500 W continuously is a
+by peak wattage, which is misleading. A "600 W" PSU that can only sustain 500 W continuously is a
 500 W unit, not a 600 W unit. Reputable manufacturers label both values.
 
 ### Rail Design
@@ -7789,6 +7965,8 @@ Isolation are critical. The quality of the PSU matters far more than the rail co
 
 ### Connectors
 
+<div class="table-wrap">
+
 | Connector    | Pins      | Use                                             | Max Current (per spec)    |
 | ------------ | --------- | ----------------------------------------------- | ------------------------- |
 | 24-pin ATX   | 24        | Motherboard main power (+3.3V, +5V, +12V, -12V) | 18 A per pin              |
@@ -7799,6 +7977,8 @@ Isolation are critical. The quality of the PSU matters far more than the rail co
 | 15-pin SATA  | 15        | SATA drives, SSDs                               | 4.5 A per connector       |
 | 4-pin Molex  | 4         | Legacy drives, fans, accessories                | 11 A per connector        |
 | 4-pin Berg   | 4         | Floppy drive (obsolete)                         | 2 A                       |
+
+</div>
 
 :::caution
 Resistance of cheap adapters can cause excessive voltage drop and heating at the SATA end. This is a
@@ -7818,6 +7998,8 @@ Documented fire hazard. Use native SATA connectors or replace the PSU.
 
 ### Form Factors
 
+<div class="table-wrap">
+
 | Form Factor | Dimensions (mm)   | Typical Use Case                      |
 | ----------- | ----------------- | ------------------------------------- |
 | ATX         | 150 x 86 x 140    | Standard desktop PCs                  |
@@ -7826,6 +8008,8 @@ Documented fire hazard. Use native SATA connectors or replace the PSU.
 | TFX         | 85 x 63.5 x 175   | Slim desktop / HTPC / OEM SFF         |
 | Flex ATX    | 81.5 x 40.5 x 150 | 1U servers, embedded                  |
 | ATX 12VO    | ATX dimensions    | Servers, some OEM desktops (12V only) |
+
+</div>
 
 ---
 
@@ -7871,7 +8055,7 @@ For each major component:
 
 Modern GPUs (particularly NVIDIA RTX 30-series and later) can request power spikes that are
 150--200% of their average draw for durations of 10--100 microseconds. If the PSU cannot respond to
-These transients quickly enough, the voltage on the 12V rail will sag below the ATX specification
+these transients quickly enough, the voltage on the 12V rail will sag below the ATX specification
 Minimum, triggering UVP or causing GPU crashes.
 
 ATX 3.0/3.1 certified units are tested against standardized transient load profiles. Non-certified
@@ -7981,7 +8165,7 @@ A reset winding. Still found in some budget units.
 Push-pull uses two transistors switching alternately to drive the transformer center-tap. Good
 Efficiency and power handling but requires careful matching of the two transistor pairs to avoid
 Flux imbalance in the transformer. More common in DC-DC converter stages than as a primary topology
-In ATX PSUs.
+in ATX PSUs.
 
 ### Full-Bridge
 
@@ -8014,7 +8198,7 @@ Group-regulated PSUs unsuitable for modern systems where the load is almost enti
 
 :::caution
 Rail (CPU, GPU, fans, pumps). With group regulation, the lightly-loaded +3.3 V and +5 V rails will
-Have their voltages pushed out of specification, potentially damaging connected devices.
+have their voltages pushed out of specification, potentially damaging connected devices.
 :::
 
 ### Active PFC vs Passive PFC
@@ -8052,6 +8236,8 @@ Protecting connected components from voltage damage.
 
 Typical OVP trip points:
 
+<div class="table-wrap">
+
 | Rail   | OVP Trip Point   |
 | ------ | ---------------- |
 | +12 V  | 13.4 -- 15.6 V   |
@@ -8059,9 +8245,11 @@ Typical OVP trip points:
 | +3.3 V | 4.05 -- 4.65 V   |
 | -12 V  | -15.3 -- -13.2 V |
 
+</div>
+
 OVP should trigger before any connected component is at risk. ATX specification defines the maximum
 Safe voltage for each rail. Quality PSUs set OVP trip points close to but above these limits. Units
-With OVP set too high provide less protection.
+with OVP set too high provide less protection.
 
 ### UVP (Under Voltage Protection)
 
@@ -8095,7 +8283,7 @@ of rated continuous power.
 OPP is the last line of defense before the PSU's internal components (transformer, switching
 Transistors, capacitors) are stressed beyond their ratings. Unlike OCP, which is per-rail, OPP
 Monitors total power across all rails. Some PSUs implement OPP with a time delay: brief excursions
-Above the threshold are allowed, but sustained over-power triggers shutdown.
+above the threshold are allowed, but sustained over-power triggers shutdown.
 
 ### OTP (Over Temperature Protection)
 
@@ -8113,7 +8301,7 @@ And shuts down the PSU within microseconds.
 
 SCP is the fastest-acting protection mechanism. It must trigger before the short-circuit current can
 Melt wires, damage connectors, or harm the motherboard. Modern PSUs use dedicated comparator ICs
-That monitor each rail for sudden current surges characteristic of short circuits.
+that monitor each rail for sudden current surges characteristic of short circuits.
 
 :::caution
 This indicates a genuine fault, either a short circuit in a component, a damaged cable, or a
@@ -8145,6 +8333,8 @@ A generic term for the firmware interface, even when the underlying implementati
 
 ### Legacy BIOS vs UEFI
 
+<div class="table-wrap">
+
 | Feature          | Legacy BIOS                    | UEFI                                        |
 | ---------------- | ------------------------------ | ------------------------------------------- |
 | Boot mode        | MBR (max 2.2 TB disk)          | GPT (up to 9.4 ZB)                          |
@@ -8155,6 +8345,8 @@ A generic term for the firmware interface, even when the underlying implementati
 | Network support  | Limited                        | Full network stack (HTTP boot, PXE)         |
 | Firmware updates | Risky (DOS-based flash)        | Secure (in-OS update, capsule updates)      |
 | Extensibility    | None                           | UEFI applications, modules, shell           |
+
+</div>
 
 ### Secure Boot
 
@@ -8175,7 +8367,7 @@ SPI bus and can be programmed in-system (via BIOS update utility) or externally 
 SPI programmer).
 
 Many enthusiast and workstation motherboards include dual BIOS chips, a primary and a backup. If
-The primary BIOS is corrupted (failed flash, bad update), the backup can restore it. Some boards
+the primary BIOS is corrupted (failed flash, bad update), the backup can restore it. Some boards
 Feature a physical BIOS selector switch; others auto-recover from the backup.
 
 ### CMOS Battery
@@ -8186,7 +8378,7 @@ order, fan curves, overclocking settings, and hardware configuration.
 
 When the CMOS battery dies (typical lifespan 3--5 years), the system loses its settings on every
 Power cycle and reverts to defaults. The system will still boot, but any custom configuration will
-Be lost. Some boards display a "CMOS checksum error" or "CMOS battery low" message at boot.
+be lost. Some boards display a "CMOS checksum error" or "CMOS battery low" message at boot.
 
 ---
 
@@ -8220,6 +8412,8 @@ Environments, not enthusiast tuning.
 
 Universal BIOS navigation keys:
 
+<div class="table-wrap">
+
 | Key        | Action                                    |
 | ---------- | ----------------------------------------- |
 | F1         | General help                              |
@@ -8233,6 +8427,8 @@ Universal BIOS navigation keys:
 | Enter      | Select sub-menu                           |
 | Tab        | Switch between panes                      |
 | Arrow keys | Navigate menus                            |
+
+</div>
 
 ### Mouse Support in UEFI
 
@@ -8288,7 +8484,7 @@ Changing BCLK affects multiple subsystems simultaneously:
 
 :::caution
 System. On Intel platforms, BCLK overclocking above 103--105 MHz is rarely stable because the PCIe
-And DMI buses diverge from their specifications. Use the multiplier for CPU overclocking and the
+and DMI buses diverge from their specifications. Use the multiplier for CPU overclocking and the
 Memory ratio for RAM overclocking. Reserve BCLK adjustments for fine-tuning when the multiplier
 Limits have been reached.
 :::
@@ -8312,7 +8508,7 @@ FCLK operates in a 1:1 or 2:1 ratio with the memory (UCLK):
 
 **Vcore:** The primary CPU core voltage. Set as a fixed value (manual mode) or as an offset from
 VID. Fixed voltage is simpler for stability testing; offset voltage is preferred for daily use
-Because it allows power-saving features to function normally at idle.
+because it allows power-saving features to function normally at idle.
 
 **VDDIO:** The voltage supplied to the CPU's I/O interface (memory controller on Intel platforms).
 On AMD AM4, VDDIO/MC feeds the memory controller. Typical range: 1.05--1.20 V for DDR4, 1.35 V for
@@ -8359,7 +8555,7 @@ AMD platforms use analogous limits:
 
 **Definition.** C-States (or C-states) are CPU power-saving states. C0 is the active state where the
 CPU is executing instructions. Higher C-states (C1, C1E, C3, C6, C8, C10) progressively shut down
-More CPU subsystems (clocks, core voltage, cache) to reduce power consumption when idle.
+more CPU subsystems (clocks, core voltage, cache) to reduce power consumption when idle.
 
 - **C0:** Active execution.
 - **C1/C1E:** Clock gated / enhanced halt state. Minimal latency to wake (microseconds).
@@ -8380,8 +8576,8 @@ Voltage based on workload. AMD's equivalent is Cool'n'Quiet (older) or the more 
 (Collaborative Processor Performance Control).
 
 These features work in conjunction with the OS's power management to scale frequency and voltage
-Across a range from the minimum P-state to the maximum boost frequency. Disabling them locks the CPU
-At the configured multiplier and voltage, which is useful for stability testing but wasteful for
+across a range from the minimum P-state to the maximum boost frequency. Disabling them locks the CPU
+at the configured multiplier and voltage, which is useful for stability testing but wasteful for
 Daily use.
 
 ### Turbo Boost
@@ -8437,6 +8633,8 @@ Operates at 3000 MHz with 6000 MT/s.
 
 Common memory frequencies and their corresponding clock rates:
 
+<div class="table-wrap">
+
 | DDR4 Speed (MT/s) | Clock (MHz) | DDR5 Speed (MT/s) | Clock (MHz) |
 | ----------------- | ----------- | ----------------- | ----------- |
 | 2400              | 1200        | 4800              | 2400        |
@@ -8446,6 +8644,8 @@ Common memory frequencies and their corresponding clock rates:
 | 4000              | 2000        | 6400              | 3200        |
 | 4400              | 2200        | 7200              | 3600        |
 | 4800              | 2400        | 8000              | 4000        |
+
+</div>
 
 ### Timings
 
@@ -8463,7 +8663,7 @@ Reading/writing to a column (CAS) within that row. Also known as RCD.
 Activating another in the same bank.
 
 **tRAS (Active to Precharge Delay):** The minimum number of clock cycles between activating a row
-And precharging it. Must be at least tRCD + tRP, but is set higher for stability.
+and precharging it. Must be at least tRCD + tRP, but is set higher for stability.
 
 **tRC (Row Cycle Time):** The minimum number of clock cycles between activating one row and
 Activating another in the same bank. TRC = tRAS + tRP (minimum).
@@ -8478,12 +8678,16 @@ Memory is commonly advertised as "CL16-18-18-38" meaning CL=16, tRCD=18, tRP=18,
 
 **Definition.** VDIMM is the supply voltage to the memory modules.
 
+<div class="table-wrap">
+
 | Standard      | Default VDIMM  | Typical Overclock Range |
 | ------------- | -------------- | ----------------------- |
 | DDR4 JEDEC    | 1.20 V         | --                      |
 | DDR4 XMP      | 1.35 V         | 1.35 -- 1.50 V          |
 | DDR5 JEDEC    | 1.10 V         | --                      |
 | DDR5 XMP/EXPO | 1.25 -- 1.35 V | 1.35 -- 1.45 V          |
+
+</div>
 
 :::caution
 Significantly hotter than DDR4 due to higher density and the on-die PMIC (Power Management IC). Some
@@ -8499,8 +8703,8 @@ Negotiate optimal signaling parameters (timings, voltages, drive strengths) at b
 Occurs automatically whenever memory settings are changed.
 
 On Intel 12th Gen and later, memory training can take 30--60 seconds on a cold boot, particularly
-With fast DDR5 kits. This is normal. The memory controller stores the trained parameters in NVRAM
-And can skip retraining on warm boots (fast boot). Clearing CMOS forces a full retrain.
+with fast DDR5 kits. This is normal. The memory controller stores the trained parameters in NVRAM
+and can skip retraining on warm boots (fast boot). Clearing CMOS forces a full retrain.
 
 Memory training failures manifest as:
 
@@ -8576,7 +8780,7 @@ reach 5--15% in certain titles. Not all games benefit.
 
 On platforms with limited PCIe lanes (e.g., Intel H670/B660 with 20 lanes vs Z690 with 24 lanes),
 The BIOS may offer PCIe lane allocation settings that determine how lanes are distributed between
-The primary GPU slot, M.2 slots, and other PCIe devices.
+the primary GPU slot, M.2 slots, and other PCIe devices.
 
 Common configurations:
 
@@ -8622,7 +8826,7 @@ Some platforms support NVMe RAID arrays configured through the BIOS. Common impl
 - **AMD RAID:** Supports RAID 0, RAID 1, and RAID 10 on AMD platforms. Similar to Intel RST.
 
 NVMe RAID configured in BIOS is hardware/firmware RAID, not true hardware RAID. The RAID logic runs
-On the CPU via the chipset. It offers no performance advantage over software RAID (Linux mdadm,
+on the CPU via the chipset. It offers no performance advantage over software RAID (Linux mdadm,
 Windows Storage Spaces) and ties the array to the specific platform.
 
 :::caution
@@ -8673,7 +8877,7 @@ AMD from their 600-series (X670, B650) and later. Windows 11 requires UEFI boot 
 CSM.
 
 Disable CSM unless you specifically need to boot a legacy OS. CSM can interfere with modern features
-Like Secure Boot, fast boot, and Resizable BAR.
+like Secure Boot, fast boot, and Resizable BAR.
 
 ---
 
@@ -8817,6 +9021,8 @@ The standard overclocking methodology follows a disciplined, iterative process:
 
 ### Tools
 
+<div class="table-wrap">
+
 | Tool           | Purpose                                    | Platform         |
 | -------------- | ------------------------------------------ | ---------------- |
 | HWiNFO64       | Real-time sensor monitoring, logging       | Windows          |
@@ -8832,11 +9038,15 @@ The standard overclocking methodology follows a disciplined, iterative process:
 | CPU-Z          | System information, memory timing details  | Windows          |
 | Taichi         | AM5 memory timing tool                     | Windows          |
 
+</div>
+
 ### Thermal Limits
 
 Overclocking increases power dissipation, which increases temperature. Exceeding thermal limits
 Causes throttling (reducing clock speeds to stay within Tjmax) and, if sustained, can degrade
 Silicon.
+
+<div class="table-wrap">
 
 | Component    | Max Safe Temperature | Throttle Temperature | Notes                             |
 | ------------ | -------------------- | -------------------- | --------------------------------- |
@@ -8846,6 +9056,8 @@ Silicon.
 | VRAM (GDDR6) | 100--110 C           | N/A (no throttle)    | Thermal pads critical             |
 | VRM          | 105--115 C           | Varies by board      | MOSFET/DrMOS temperature          |
 | NVMe SSD     | 70 C                 | ~70 C                | Throttles to 30--50% of max speed |
+
+</div>
 
 :::note
 Full load. This provides thermal headroom for ambient temperature fluctuations and ensures the
@@ -8949,6 +9161,8 @@ Diagnostic steps, in order:
 
 Q-Code (AMI) diagnostic codes commonly seen on debug displays:
 
+<div class="table-wrap">
+
 | Code | Meaning                       | Likely Cause                        |
 | ---- | ----------------------------- | ----------------------------------- |
 | 00   | Not used                      | System not yet started              |
@@ -8973,6 +9187,8 @@ Q-Code (AMI) diagnostic codes commonly seen on debug displays:
 | b2   | Legacy Option ROM             | PCIe option ROM issue               |
 | b6   | S3 resume                     | Wake from sleep failure             |
 | d6   | No console output             | Display/GPU not detected            |
+
+</div>
 
 ---
 
@@ -9080,16 +9296,6 @@ The PSU is like the heart of the system. It pumps power (electricity) to every c
 
 BIOS settings are like the instructions in a user manual. They tell the hardware how to behave before the operating system takes over. Changing BIOS settings is like rewriting the manual: you can unlock features the manufacturer disabled, but you must understand what you are changing.
 
-```mermaid
-flowchart TD
-    A[Psu And Bios Guide] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to psu selection and bios
@@ -9102,9 +9308,6 @@ configuration, including key principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Worked Examples
 
@@ -9192,7 +9395,7 @@ Voltage supplied, and hence reducing cooling required.
 ## Voltage Basics
 
 Understanding voltage is foundational to all tuning. This section covers the key concepts that apply
-To both undervolting and overclocking.
+to both undervolting and overclocking.
 
 ### Vcore and VID
 
@@ -9204,17 +9407,17 @@ CPU requests from the Integrated Voltage Regulator (IVR). These two values are n
 - The delta between VID and Vcore is affected by LLC (Load-Line Calibration) settings.
 
 When you set a voltage offset of -75 mV, you are telling the VRM to deliver 75 mV less than the VID
-The CPU requests. The actual Vcore will be even lower due to Vdroop.
+the CPU requests. The actual Vcore will be even lower due to Vdroop.
 
 ### Vdroop
 
 Vdroop is an intentional design feature of CPU voltage regulators. When the CPU load suddenly drops
 (for example, a compute thread finishes), the inductance in the VRM circuit would cause the voltage
-To overshoot if there were no droop. This overshoot can damage silicon. Vdroop provides a margin so
-That the worst-case overshoot stays within safe limits.
+to overshoot if there were no droop. This overshoot can damage silicon. Vdroop provides a margin so
+that the worst-case overshoot stays within safe limits.
 
 The relationship is simple: higher load → more Vdroop → lower actual voltage. This is why your CPU
-May be stable at 1.25 V under light load but crash under heavy load even though the VID has not
+may be stable at 1.25 V under light load but crash under heavy load even though the VID has not
 Changed.
 
 ### Load-Line Calibration (LLC)
@@ -9222,12 +9425,16 @@ Changed.
 LLC counteracts Vdroop by making the VRM more aggressive in maintaining the target voltage under
 Load. LLC is configured on a scale (e.g., Level 1–7, or Auto/Medium/High/Extreme).
 
+<div class="table-wrap">
+
 | LLC Level       | Behavior                                                | Use Case                                |
 | --------------- | ------------------------------------------------------- | --------------------------------------- |
 | Low (1–2)       | Heavy Vdroop, large delta between idle and load voltage | Stock operation, maximum safety         |
 | Medium (3–5)    | Moderate Vdroop, reasonable compensation                | Moderate overclocking, daily use        |
 | High (6–7)      | Minimal Vdroop, voltage nearly flat across loads        | Aggressive overclocking                 |
 | Extreme / Ultra | Negative Vdroop (voltage increases under load)          | **Not recommended**, risk of overshoot |
+
+</div>
 
 **Warning:** Setting LLC too high eliminates the safety margin that Vdroop provides. On load
 Transitions (load → idle), the voltage can overshoot the VID by a significant margin. This is
@@ -9238,6 +9445,8 @@ Level 4 or 5 provides a good balance.
 
 Exceeding these limits can cause electromigration and permanent silicon degradation:
 
+<div class="table-wrap">
+
 | Platform                             | Maximum Safe Vcore | Notes                                                |
 | ------------------------------------ | ------------------ | ---------------------------------------------------- |
 | Intel 12th Gen (Alder Lake)          | 1.40 V             | Long-term degradation above 1.35 V                   |
@@ -9247,9 +9456,11 @@ Exceeding these limits can cause electromigration and permanent silicon degradat
 | AMD Zen 4 (Ryzen 7000)               | 1.30 V             | DDR5 memory controller is voltage-sensitive          |
 | AMD Zen 5 (Ryzen 9000)               | 1.30 V             | Similar to Zen 4                                     |
 
+</div>
+
 These are conservative long-term limits. Short bursts above these values (transient spikes) are
-Normal and handled by the CPU"s internal protections. The concern is sustained voltage at or above
-These thresholds under load.
+Normal and handled by the CPU's internal protections. The concern is sustained voltage at or above
+these thresholds under load.
 
 ---
 
@@ -9306,7 +9517,7 @@ Voltage domains. ThrottleStop allows you to set independent offsets for each:
 
 Intel XTU provides similar functionality with a more polished GUI but is less reliable on laptops.
 It is better suited for desktop platforms. The same offset approach applies: start at -50 mV, reduce
-In 10 mV steps, stress test after each change.
+in 10 mV steps, stress test after each change.
 
 ### Intel Undervolting Lock (12th Gen+)
 
@@ -9369,11 +9580,15 @@ This is time-consuming but can yield better results than a uniform all-core offs
 
 AMD's power limits control how much power the CPU is allowed to draw:
 
+<div class="table-wrap">
+
 | Limit | Full Name                 | Description                  |
 | ----- | ------------------------- | ---------------------------- |
 | PPT   | Package Power Tracking    | Total socket power in watts  |
 | TDC   | Thermal Design Current    | Sustained current limit (A)  |
 | EDC   | Electrical Design Current | Peak/turbo current limit (A) |
+
+</div>
 
 For undervolting, you do not need to change these. However, if you are trying to reduce Thermals on
 a laptop or SFF build, lowering the PPT can force the CPU to boost less aggressively, Which reduces
@@ -9411,7 +9626,7 @@ The recommended approach is to undervolt first, then enable PBO.
 ## CPU Overclocking
 
 CPU overclocking increases the clock speed beyond the manufacturer's rated specifications. This can
-Be done by adjusting the base clock (BCLK), multiplier, or both.
+be done by adjusting the base clock (BCLK), multiplier, or both.
 
 ### Base Clock (BCLK) vs. Multiplier
 
@@ -9526,7 +9741,7 @@ BIOS applies the manufacturer's tested settings.
 
 **Important:** XMP/EXPO profiles are certified by the RAM manufacturer for use with a single module.
 Running two or four modules at XMP speeds is not guaranteed to be stable, as the memory controller
-Must work harder to drive multiple modules. If you experience instability with multiple modules,
+must work harder to drive multiple modules. If you experience instability with multiple modules,
 Try:
 
 - Reducing the frequency by one step (e.g., from 6000 MT/s to 5600 MT/s)
@@ -9538,6 +9753,8 @@ Try:
 Memory timings are specified as a series of numbers (e.g., 16-18-18-38). These represent delays
 Measured in clock cycles:
 
+<div class="table-wrap">
+
 | Timing   | Name                | Description                                                 |
 | -------- | ------------------- | ----------------------------------------------------------- |
 | CL / tCL | CAS Latency         | Delay between a read command and data availability          |
@@ -9545,8 +9762,10 @@ Measured in clock cycles:
 | tRP      | RAS Precharge       | Delay between precharging one row and activating another    |
 | tRAS     | Active to Precharge | Minimum time a row must remain active before precharging    |
 
+</div>
+
 Lower numbers = better performance. Tightening timings is more difficult than increasing frequency
-But can yield similar or better performance gains in latency-sensitive workloads.
+but can yield similar or better performance gains in latency-sensitive workloads.
 
 ### Secondary and Tertiary Timings
 
@@ -9639,6 +9858,8 @@ OCCT is particularly good at catching instability that Prime95 misses:
 
 ### Interpreting Results
 
+<div class="table-wrap">
+
 | Symptom                               | Likely Cause                             | Fix                                       |
 | ------------------------------------- | ---------------------------------------- | ----------------------------------------- |
 | Immediate crash or BSOD on test start | Voltage too low or settings incompatible | Increase voltage or revert changes        |
@@ -9646,6 +9867,8 @@ OCCT is particularly good at catching instability that Prime95 misses:
 | Crash after 1–4 hours                 | Thermal throttling or VRM issues         | Check temperatures, improve cooling       |
 | WHEA errors with no crash             | Silent instability, data corruption risk | Increase voltage by 10 mV, retest         |
 | Crash only when idle                  | C-state instability                      | Increase offset voltage, disable C-states |
+
+</div>
 
 ---
 
@@ -9725,7 +9948,7 @@ Thoroughly with your own hardware.
 ### Chasing the Last Megahertz
 
 Diminishing returns are severe near the limit. Going from 5.0 GHz to 5.1 GHz might require 0.05 V
-More voltage and increase temperatures by 5 °C, for a 1–2% performance gain. Going from 4.8 GHz to
+more voltage and increase temperatures by 5 °C, for a 1–2% performance gain. Going from 4.8 GHz to
 5.0 GHz might cost 0.02 V and yield a 3–5% gain. Focus on the low-hanging fruit: undervolting for
 Sustained boost, enabling XMP/EXPO, and ensuring adequate cooling.
 
@@ -9734,14 +9957,14 @@ Sustained boost, enabling XMP/EXPO, and ensuring adequate cooling.
 WHEA errors are not harmless. They indicate that the CPU detected and corrected bit flips. While the
 CPU can correct single-bit errors, multi-bit errors cause uncorrectable machine check exceptions
 (UCMCE), which result in BSODs. More importantly, silent data corruption can occur before the error
-Is detected. If HWiNFO64 reports any WHEA errors during stress testing, your settings are not
+is detected. If HWiNFO64 reports any WHEA errors during stress testing, your settings are not
 Stable.
 
 ### Testing Only Under Load
 
 Some instability manifests only during load transitions (load → idle, idle → load). This is
 Particularly common with aggressive LLC settings and fixed voltage modes. Always test idle stability
-After confirming load stability.
+after confirming load stability.
 
 ### Not Saving BIOS Profiles
 
@@ -9752,13 +9975,13 @@ Restore to a known-good state without having to clear CMOS and reconfigure every
 
 Motherboard manufacturers frequently release BIOS updates that change power delivery behavior, add
 New tuning options, or fix stability issues. An overclock that was stable on BIOS version 1.20 may
-Be unstable on 1.30. After any BIOS update, re-test your tuning settings.
+be unstable on 1.30. After any BIOS update, re-test your tuning settings.
 
 ### Overlooking Power Supply Limits
 
 Your PSU must be able to deliver the power your components demand. An overclocked CPU and GPU can
 Draw significantly more power than stock. If your PSU is operating near its capacity, voltage ripple
-Can increase, which causes instability that is not related to your CPU or GPU settings.
+can increase, which causes instability that is not related to your CPU or GPU settings.
 
 ### Mixing RAM Kits
 
@@ -9842,17 +10065,6 @@ System when:
 The best tune is the one that gives you the performance you need with comfortable temperatures, low
 Noise, and rock-solid stability. Everything beyond that is diminishing returns.
 
-
-```mermaid
-flowchart TD
-    A[Undervolting And Overclocking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to undervolting and overclocking,
@@ -9866,13 +10078,7 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -10093,6 +10299,8 @@ URL: https://tuning.wyattau.com/diagnostics/diag-tuning/
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | B             |
@@ -10106,18 +10314,9 @@ URL: https://tuning.wyattau.com/diagnostics/diag-tuning/
 | 9        | B             |
 | 10       | B             |
 
+</div>
+
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of performance tuning fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
-
-
-```mermaid
-flowchart TD
-    A[Diag Tuning] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

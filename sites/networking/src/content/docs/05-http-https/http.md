@@ -22,7 +22,7 @@ categories:
 
 HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web.
 Originally designed for retrieving hypertext documents (RFC 1945, HTTP/1.0 in 1996), it has evolved
-Into a general-purpose application protocol used for APIs, streaming, IoT communication, and
+into a general-purpose application protocol used for APIs, streaming, IoT communication, and
 Virtually every client-server interaction on the Internet.
 
 This section covers HTTP/1.1 (RFC 9112), HTTP/2 (RFC 9113), HTTP/3 (RFC 9114), and the practical
@@ -38,6 +38,8 @@ Default for many client-server interactions.
 
 HTTP defines methods that indicate the desired action on a resource:
 
+<div class="table-wrap">
+
 | Method  | Idempotent | Safe | Cacheable   | Purpose                              |
 | ------- | ---------- | ---- | ----------- | ------------------------------------ |
 | GET     | Yes        | Yes  | Yes         | Retrieve a resource                  |
@@ -49,6 +51,8 @@ HTTP defines methods that indicate the desired action on a resource:
 | OPTIONS | Yes        | Yes  | No          | Describe communication options       |
 | TRACE   | Yes        | Yes  | No          | Loop-back test (rarely used)         |
 | CONNECT | No         | No   | No          | Establish a tunnel (e.g., TLS proxy) |
+
+</div>
 
 **Idempotent:** Repeating the request produces the same result. `PUT /users/1` with the same payload
 Creates or replaces user 1 -- calling it multiple times has the same effect. `POST /users` creates a
@@ -74,12 +78,18 @@ Status codes indicate the result of the request. They are grouped into five clas
 
 **1xx -- Informational:**
 
+<div class="table-wrap">
+
 | Code | Meaning             | Use Case                            |
 | ---- | ------------------- | ----------------------------------- |
 | 100  | Continue            | Client should send the request body |
 | 101  | Switching Protocols | Upgrading to WebSocket or HTTP/2    |
 
+</div>
+
 **2xx -- Success:**
+
+<div class="table-wrap">
 
 | Code | Meaning         | Use Case                               |
 | ---- | --------------- | -------------------------------------- |
@@ -88,7 +98,11 @@ Status codes indicate the result of the request. They are grouped into five clas
 | 204  | No Content      | Success with no response body (DELETE) |
 | 206  | Partial Content | Range request (resumable downloads)    |
 
+</div>
+
 **3xx -- Redirection:**
+
+<div class="table-wrap">
 
 | Code | Meaning            | Use Case                                           |
 | ---- | ------------------ | -------------------------------------------------- |
@@ -99,11 +113,15 @@ Status codes indicate the result of the request. They are grouped into five clas
 | 307  | Temporary Redirect | Temporary redirect (method preserved)              |
 | 308  | Permanent Redirect | Permanent redirect (method preserved)              |
 
+</div>
+
 :::caution
 Change the method from POST to GET on redirect. 307 and 308 preserve the original method. If you
 Redirect a POST request, use 307/308 unless you explicitly want the method changed.
 
 **4xx -- Client Errors:**
+
+<div class="table-wrap">
 
 | Code | Meaning                | Use Case                                 |
 | ---- | ---------------------- | ---------------------------------------- |
@@ -119,7 +137,11 @@ Redirect a POST request, use 307/308 unless you explicitly want the method chang
 | 422  | Unprocessable Entity   | Valid syntax but semantic errors         |
 | 429  | Too Many Requests      | Rate limiting                            |
 
+</div>
+
 **5xx -- Server Errors:**
+
+<div class="table-wrap">
 
 | Code | Meaning               | Use Case                                     |
 | ---- | --------------------- | -------------------------------------------- |
@@ -129,9 +151,13 @@ Redirect a POST request, use 307/308 unless you explicitly want the method chang
 | 504  | Gateway Timeout       | Upstream server did not respond in time      |
 | 507  | Insufficient Storage  | Server cannot store the representation       |
 
+</div>
+
 ### Key HTTP/1.1 Headers
 
 **Request Headers:**
+
+<div class="table-wrap">
 
 | Header              | Purpose                                                                             |
 | ------------------- | ----------------------------------------------------------------------------------- |
@@ -146,7 +172,11 @@ Redirect a POST request, use 307/308 unless you explicitly want the method chang
 | `Range`             | Request a subset of the resource                                                    |
 | `Origin`            | Indicates the origin of the cross-origin request (CORS)                             |
 
+</div>
+
 **Response Headers:**
+
+<div class="table-wrap">
 
 | Header                      | Purpose                                            |
 | --------------------------- | -------------------------------------------------- |
@@ -161,6 +191,8 @@ Redirect a POST request, use 307/308 unless you explicitly want the method chang
 | `Server`                    | Server software identification                     |
 | `Strict-Transport-Security` | Force HTTPS (HSTS)                                 |
 | `X-Request-ID`              | Unique identifier for the request (for tracing)    |
+
+</div>
 
 ### Connection Management
 
@@ -180,7 +212,7 @@ To signal that the connection should be closed after the response.
 
 **Pipelining (RFC 7230):** HTTP/1.1 pipelining allows the client to send multiple requests without
 Waiting for responses. The server must respond in order. Pipelining was never widely implemented due
-To head-of-line blocking (a slow response blocks all subsequent responses) and is deprecated in
+to head-of-line blocking (a slow response blocks all subsequent responses) and is deprecated in
 Practice.
 
 ### Chunked Transfer Encoding
@@ -201,7 +233,7 @@ pedia\r\n
 \r\n
 ```
 
-Each chunk starts with its size in hexadecimal, followed by `\r\n`The data, and `\r\n`. A Zero-size
+Each chunk starts with its size in hexadecimal, followed by `\r\n`. The data, and `\r\n`. A Zero-size
 chunk terminates the transfer.
 
 ### HTTP/1.1 Limitations
@@ -226,6 +258,8 @@ Same semantics (methods, status codes, headers, URIs). The wire format is comple
 HTTP/2 is a binary protocol. All communication is performed in binary frames. There are 10 frame
 Types:
 
+<div class="table-wrap">
+
 | Frame Type    | Purpose                                                        |
 | ------------- | -------------------------------------------------------------- |
 | DATA          | Carries request/response body content                          |
@@ -238,6 +272,8 @@ Types:
 | GOAWAY        | Graceful shutdown of the connection                            |
 | WINDOW_UPDATE | Advertises flow control credits                                |
 | CONTINUATION  | Continues a header block that did not fit in one HEADERS frame |
+
+</div>
 
 ### Streams and Multiplexing
 
@@ -273,8 +309,8 @@ sequenceDiagram
 HTTP/1.1 sends headers as uncompressed ASCII text, repeating the same headers on every request.
 HPACK (RFC 7541) compresses headers using:
 
-1. **Static table:** 61 pre-defined common header fields (e.g., `:method: GET``:path: /`
-   `user-agent``accept-encoding`).
+1. **Static table:** 61 pre-defined common header fields (e.g., `:method: GET`, `:path: /`
+   `user-agent`, `accept-encoding`).
 2. **Dynamic table:** Previously sent headers are stored in a FIFO buffer and referenced by index.
 3. **Huffman coding:** String values are encoded using Huffman coding for additional compression.
 
@@ -320,7 +356,7 @@ Multiplexing (many streams competing for the same connection).
 
 HTTP/2 allows clients to assign priorities to streams using `PRIORITY` frames and priority fields in
 `HEADERS` frames. Each stream has a weight (1-256) and a dependency on another stream. This allows
-The server to allocate bandwidth based on client preferences (e.g., prioritize CSS over images).
+the server to allocate bandwidth based on client preferences (e.g., prioritize CSS over images).
 
 ### TCP Head-of-Line Blocking Persists
 
@@ -357,6 +393,8 @@ Reliability, ordering, congestion control, and built-in encryption (TLS 1.3).
 
 HTTP/3 defines a new set of frame types carried within QUIC streams:
 
+<div class="table-wrap">
+
 | Frame Type     | Purpose                                             |
 | -------------- | --------------------------------------------------- |
 | DATA           | Carries request/response body                       |
@@ -367,6 +405,8 @@ HTTP/3 defines a new set of frame types carried within QUIC streams:
 | GOAWAY         | Graceful shutdown                                   |
 | MAX_PUSH_ID    | Limits the number of push IDs                       |
 | RETRY_PRIORITY | Adjusts stream priority                             |
+
+</div>
 
 ### QPACK (Header Compression for HTTP/3)
 
@@ -403,6 +443,8 @@ Configuration.
 
 **Request directives:**
 
+<div class="table-wrap">
+
 | Directive        | Meaning                                                                 |
 | ---------------- | ----------------------------------------------------------------------- |
 | `no-cache`       | Always validate with the origin server before using a cached response   |
@@ -412,7 +454,11 @@ Configuration.
 | `min-fresh=10`   | Accept cached responses that will be fresh for at least 10 more seconds |
 | `only-if-cached` | Only use cached responses; do not validate or fetch from origin         |
 
+</div>
+
 **Response directives:**
+
+<div class="table-wrap">
 
 | Directive                    | Meaning                                                        |
 | ---------------------------- | -------------------------------------------------------------- |
@@ -425,6 +471,8 @@ Configuration.
 | `must-revalidate`            | Once stale, must validate before use (do not serve stale)      |
 | `stale-while-revalidate=600` | Serve stale response while revalidating in background          |
 | `immutable`                  | Response will never change during max-age; do not revalidate   |
+
+</div>
 
 ### Conditional Requests
 
@@ -493,6 +541,8 @@ Set-Cookie: session_id=abc123; Path=/; Secure; HttpOnly; SameSite=Strict; Max-Ag
 
 **Cookie attributes:**
 
+<div class="table-wrap">
+
 | Attribute             | Purpose                                           |
 | --------------------- | ------------------------------------------------- |
 | `Secure`              | Only sent over HTTPS                              |
@@ -504,6 +554,8 @@ Set-Cookie: session_id=abc123; Path=/; Secure; HttpOnly; SameSite=Strict; Max-Ag
 | `Domain=.example.com` | Shared across subdomains                          |
 | `Max-Age=3600`        | Expires in 3600 seconds                           |
 | `Expires=...`         | Absolute expiration date                          |
+
+</div>
 :::
 
 :::caution
@@ -709,6 +761,8 @@ gzip_min_length 256;
 
 Security headers instruct browsers to enable or disable certain security features:
 
+<div class="table-wrap">
+
 | Header                         | Purpose                                 | Example                                                 |
 | ------------------------------ | --------------------------------------- | ------------------------------------------------------- |
 | `Strict-Transport-Security`    | Force HTTPS                             | `max-age=31536000; includeSubDomains; preload`          |
@@ -721,6 +775,8 @@ Security headers instruct browsers to enable or disable certain security feature
 | `Cross-Origin-Opener-Policy`   | Isolate browsing context                | `same-origin`                                           |
 | `Cross-Origin-Resource-Policy` | Control cross-origin resource sharing   | `same-origin`                                           |
 | `Cross-Origin-Embedder-Policy` | Control cross-origin resource embedding | `require-corp`                                          |
+
+</div>
 
 ```bash
 # Check security headers
@@ -744,13 +800,13 @@ ServerHello:
 ```
 
 Without ALPN, the client would complete the TLS handshake, then send an HTTP request, and the server
-Would respond with an Upgrade or redirect. ALPN negotiates the protocol during the handshake, saving
+would respond with an Upgrade or redirect. ALPN negotiates the protocol during the handshake, saving
 A round trip.
 
 ### Alt-Svc Header
 
 The `Alt-Svc` (Alternative Service) header informs the client that the service is also available
-Over a different protocol or port:
+over a different protocol or port:
 
 ```
 Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
@@ -851,12 +907,12 @@ Sec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
 ```
 
 After the upgrade, the connection is no longer HTTP. Both sides can send frames (text or binary) at
-Any time. WebSocket is used for chat applications, real-time notifications, gaming, and
+any time. WebSocket is used for chat applications, real-time notifications, gaming, and
 Collaborative editing.
 
 WebSocket frames have a 2-14 byte header (depending on payload length) and support fragmentation,
 Ping/pong keepalive, and close handshake. The connection is secured by using `wss://` (WebSocket
-Over TLS).
+over TLS).
 :::
 
 :::caution
@@ -919,9 +975,6 @@ and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

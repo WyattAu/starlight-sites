@@ -54,7 +54,7 @@ sources:
 2. [Complex Functions and Analyticity](/6-complex-analysis/2_complex-functions-and-analyticity/)
 3. [The Cauchy-Riemann Equations](/6-complex-analysis/3_the-cauchy-riemann-equations/)
 4. [Complex Integration](/6-complex-analysis/4_complex-integration/)
-5. [Cauchy"s Theorem](/6-complex-analysis/5_cauchy-s-theorem/)
+5. [Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)
 6. [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
 7. [Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)
 8. [Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)
@@ -89,8 +89,6 @@ Start with complex numbers review to build foundational knowledge, then progress
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -119,7 +117,7 @@ Complex analysis studies functions of a complex variable, where the single requi
 - **Number Theory:** Analytic number theory using complex analysis; the Riemann zeta function is a central object.
 - **ODEs:** Contour integration for solving ODEs; the Laplace transform uses complex analysis.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

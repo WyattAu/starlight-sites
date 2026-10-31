@@ -33,11 +33,11 @@ social justice.
 
 - **Muckrakers**: Journalists who exposed corruption and social problems -- Ida Tarbell (_History of
   Standard Oil_), Upton Sinclair (_The Jungle_, led to the Meat Inspection Act and Pure Food and
-  Drug Act, 1906), Lincoln Steffens (_The Shame of the Cities_), Jacob Riis (_How the Other Half
+  drug Act, 1906), Lincoln Steffens (_The Shame of the Cities_), Jacob Riis (_How the Other Half
   Lives_)
 - **Political reforms**: Initiative, referendum, recall, direct election of senators (17th
   Amendment, 1913), primary elections, commission and city manager forms of government
-- **Trust-busting**: Theodore Roosevelt"s "Square Deal"; Northern Securities Company case (1902);
+- **Trust-busting**: Theodore Roosevelt's "Square Deal"; Northern Securities Company case (1902);
   Elkins Act (1903) and Hepburn Act (1906) strengthened railroad regulation; William Howard Taft
   brought more antitrust suits than Roosevelt
 - **Conservation**: Roosevelt established national parks, forests, and monuments; Newlands
@@ -255,17 +255,6 @@ Progressive Era, Muckrakers, Square Deal, Fourteen Points, League of Nations, Gr
 Harlem Renaissance, Great Depression, New Deal, Social Security Act, Pearl Harbor, Manhattan
 Project, Truman Doctrine, Marshall Plan, NATO, McCarthyism, Brown v. Board, Civil Rights Act,
 Vietnam War, Watergate, Reagan Revolution, September 11
-
-
-```mermaid
-flowchart TD
-    A[5_Period 7] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

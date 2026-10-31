@@ -119,11 +119,13 @@ Given a set $A \subseteq S$ in a topological space:
 
 ### Lipschitz Continuity
 
-Given metric spaces $(X, d_X)$ and $(Y, d_Y)$A function $f: X \to Y$ is $K$-Lipschitz (with
+Given metric spaces $(X, d_X)$ and $(Y, d_Y)$ A function $f: X \to Y$ is $K$-Lipschitz (with
 $K \geq 0$) if: $$ d_Y(f(x_1), f(x_2)) \leq K \cdot d_X(x_1, x_2) \quad \forall x_1, x_2 \in X $$
 
 The **Lipschitz constant** (or Lipschitz semi-norm) is defined as:
-$$\lVert f \rVert_{\mathrm{Lip}} = \sup_{x \neq y} \frac{d_Y(f(x), f(y))}{d_X(x, y)}$$
+$$
+\lVert f \rVert_{\mathrm{Lip}} = \sup_{x \neq y} \frac{d_Y(f(x), f(y))}{d_X(x, y)}
+$$
 
 The set of 1-Lipschitz functions consists of all functions satisfying
 $\lVert f \rVert_{\mathrm{Lip}} \leq 1$.
@@ -243,7 +245,7 @@ unions, probabilities cannot be assign to limits of random variables.
 
 ### Sub-$\sigma$-algebra
 
-Given a measurable space $(\Omega, \mathcal{F})$A collection
+Given a measurable space $(\Omega, \mathcal{F})$ A collection
 $\mathcal{G}\subseteq \mathcal{F}$ is a
 sub-$\sigma$-algebra if $\mathcal{G}$ is itself a $\sigma$-algebra on
 $\Omega$.
@@ -287,7 +289,7 @@ _Note:_ This is the foundational definition before introducing Random Elements.
 
 ### Measure
 
-In a measurable space $(\Omega, \mathcal{F})$A measure is a function
+In a measurable space $(\Omega, \mathcal{F})$ A measure is a function
 $\mu : \mathcal{F} \rightarrow [0,\infty]$, satisfying:
 
 1. Null set: $\mu(\emptyset) = 0$
@@ -683,7 +685,7 @@ set of $\lambda$-measure zero, they define the same probability measure $P_X$.
 ### Absolutely Continuous Random Element
 
 A random element $X$ is **absolutely continuous** with respect to a reference measure $\lambda$ if
-its induced law $P_X$ is absolutely continuous with respect to $\lambda$I.e., $P_X \ll \lambda$.
+its induced law $P_X$ is absolutely continuous with respect to $\lambda$ I.e., $P_X \ll \lambda$.
 This means that for all measurable sets $B$ in the target space,
 $\lambda(B) = 0 \implies P_X(B) = 0$.
 
@@ -826,7 +828,9 @@ $f: S \to \mathbb{R}$ be measurable. **If $f$ is non-negative, or if
 $\mathbb{E}[|f(X)|] < \infty$**, then the expectation of $f(X)$ can be
 computed either in the sample space or the target space:
 
-$$\mathbb{E}[f(X)] = \int_\Omega f(X(\omega)) \, dP(\omega) = \int_S f(x) \, dP_X(x)$$
+$$
+\mathbb{E}[f(X)] = \int_\Omega f(X(\omega)) \, dP(\omega) = \int_S f(x) \, dP_X(x)
+$$
 
 _Intuition:_ LOTUS justifies computing expectations using the pushforward measure (distribution)
 rather than the underlying probability space. In ML, this is why we can compute
@@ -837,7 +841,9 @@ $P$.
 
 For two random variables $X, Y$ with finite second moments, the covariance is defined as:
 
-$$\mathrm{Cov}(X, Y) = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])]$$
+$$
+\mathrm{Cov}(X, Y) = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])]
+$$
 
 Equivalently,
 $\mathrm{Cov}(X, Y) = \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y]$.
@@ -925,7 +931,7 @@ and Optimization).
 
 ### Jensen's Inequality
 
-Given a probability space $(\Omega, \mathcal{F}, P)$A real-valued random
+Given a probability space $(\Omega, \mathcal{F}, P)$ A real-valued random
 variable $X: \Omega \to \mathbb{R}$ and a convex function
 $\varphi: \mathbb{R} \to \mathbb{R}$:
 
@@ -1047,7 +1053,7 @@ space: $\varphi_X(t) = \mathbb{E}[e^{i t(X)}]$ where $t \in B^*$.
 
 ### Strongly Measurable
 
-Given a Banach space $\mathbb{V}$A function
+Given a Banach space $\mathbb{V}$ A function
 $X: \Omega \to \mathbb{V}$ is strongly measurable if it is the pointwise
 limit of a sequence of simple functions. Pettis Measurability Theorem states $X$ is strongly
 measurable iff $X$ is weakly measurable and has a separable range (This is essential for Polish
@@ -1092,7 +1098,9 @@ is a **positive definite kernel** if:
 2. Positive semi-definiteness: For any $n \in \mathbb{N}$. Any
    $x_1, \dots, x_n \in \mathcal{X}$, and any
    $c_1, \dots, c_n \in \mathbb{R}$:
-   $$\sum_{i=1}^n \sum_{j=1}^n c_i c_j k(x_i, x_j) \geq 0$$
+   $$
+   \sum_{i=1}^n \sum_{j=1}^n c_i c_j k(x_i, x_j) \geq 0
+   $$
 
 ### Moore-Aronszajn Theorem
 
@@ -1222,7 +1230,7 @@ the characteristic function is defined as: $$ \varphi_X(t) =
 \mathcal{H}
 
 $$
-Where $\langle \cdot, \cdot \rangle$ denotes the inner product. For $\mathbb{R}^d$, this
+where $\langle \cdot, \cdot \rangle$ denotes the inner product. For $\mathbb{R}^d$, this
 reduces to $\varphi_X(t) = \mathbb{E}\left[ e^{i t^\top X} \right]$ with
 $t \in \mathbb{R}^d$.
 
@@ -1264,7 +1272,9 @@ See Glivenko-Cantelli theorem.
 Let $X_1, X_2, \dots$ be i.i.d. Random variables with mean $\mu$ and finite covariance $\Sigma$.
 Then:
 
-$$\sqrt{n}(\bar{X}_n - \mu) \xrightarrow{d} \mathcal{N}(0, \Sigma)$$
+$$
+\sqrt{n}(\bar{X}_n - \mu) \xrightarrow{d} \mathcal{N}(0, \Sigma)
+$$
 
 Where $\bar{X}_n = \frac{1}{n}\sum_{i=1}^n X_i$.
 
@@ -1966,7 +1976,9 @@ using a deterministic transformation:
 If $z = T_\phi(\epsilon)$ where $\epsilon \sim p(\epsilon)$ (a fixed, parameter-free distribution)
 and $T_\phi$ is a diffeomorphism, then by LOTUS:
 
-$$\nabla_\phi \mathbb{E}_{z \sim q_\phi}[f(z)] = \nabla_\phi \mathbb{E}_{\epsilon \sim p}[f(T_\phi(\epsilon))] = \mathbb{E}_{\epsilon \sim p}[\nabla_\phi f(T_\phi(\epsilon))]$$
+$$
+\nabla_\phi \mathbb{E}_{z \sim q_\phi}[f(z)] = \nabla_\phi \mathbb{E}_{\epsilon \sim p}[f(T_\phi(\epsilon))] = \mathbb{E}_{\epsilon \sim p}[\nabla_\phi f(T_\phi(\epsilon))]
+$$
 
 _Relevance:_ Foundation of VAE training and differentiable Monte Carlo estimation.
 
@@ -1974,8 +1986,10 @@ _Relevance:_ Foundation of VAE training and differentiable Monte Carlo estimatio
 
 Let $\mu, \nu \in \mathcal{P}(S)$ where $(S, d)$ is a Polish space. The
 $p$-Wasserstein distance is:
-$$W_p(\mu, \nu) = \left( \inf_{\gamma \in \Pi(\mu, \nu)} \int_{S \times S} d(x, y)^p \, d\gamma(x, y) \right)^{1/p}$$
-Where $\Pi(\mu, \nu)$ is the set of joint distributions (couplings) with marginals $\mu$ and $\nu$.
+$$
+W_p(\mu, \nu) = \left( \inf_{\gamma \in \Pi(\mu, \nu)} \int_{S \times S} d(x, y)^p \, d\gamma(x, y) \right)^{1/p}
+$$
+where $\Pi(\mu, \nu)$ is the set of joint distributions (couplings) with marginals $\mu$ and $\nu$.
 
 _Duality (for $p=1$):_ Via Kantorovich-Rubinstein,
 $W_1(\mu, \nu) = \sup \{ \mathbb{E}_\mu[f] - \mathbb{E}_\nu[f] : \lVert f \rVert_{\mathrm{Lip}} \leq 1 \}$.
@@ -2133,26 +2147,9 @@ $\mathcal{M}$.
 4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
-```mermaid
-flowchart TD
-    A[2_Definitions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

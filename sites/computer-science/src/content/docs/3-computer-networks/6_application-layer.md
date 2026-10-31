@@ -21,10 +21,12 @@ description: "DNS translates domain names to IP addresses. Hierarchical, distrib
 
 DNS translates domain names to IP addresses. Hierarchical, distributed database.
 
-**Domain hierarchy:** Root (`.`) $\to$ TLD (`com``org``net`) $\to$ second-level (`example.com`)
+**Domain hierarchy:** Root (`.`) $\to$ TLD (`com`, `org`, `net`) $\to$ second-level (`example.com`)
 $\to$ subdomain (`www.example.com`).
 
 **Record types:**
+
+<div class="table-wrap">
 
 | Type  | Name  | Purpose                                  |
 | ----- | ----- | ---------------------------------------- |
@@ -35,6 +37,8 @@ $\to$ subdomain (`www.example.com`).
 | NS    | Name  | Authoritative name server                |
 | SOA   | Start | Zone administration info                 |
 | TXT   | Text  | Arbitrary text (SPF, DKIM, verification) |
+
+</div>
 
 **Resolution process:**
 
@@ -88,6 +92,8 @@ migration, 0-RTT handshake resumption, integrated TLS 1.3.
 
 **HTTP methods:**
 
+<div class="table-wrap">
+
 | Method  | Idempotent | Safe | Purpose                        |
 | ------- | ---------- | ---- | ------------------------------ |
 | GET     | Yes        | Yes  | Retrieve a resource            |
@@ -98,7 +104,11 @@ migration, 0-RTT handshake resumption, integrated TLS 1.3.
 | HEAD    | Yes        | Yes  | Like GET but no body           |
 | OPTIONS | Yes        | Yes  | Describe communication options |
 
+</div>
+
 **Status codes:**
+
+<div class="table-wrap">
 
 | Code Range | Category      | Examples                       |
 | ---------- | ------------- | ------------------------------ |
@@ -107,6 +117,8 @@ migration, 0-RTT handshake resumption, integrated TLS 1.3.
 | 3xx        | Redirection   | 301 Moved, 304 Not Modified    |
 | 4xx        | Client Error  | 400 Bad Request, 404 Not Found |
 | 5xx        | Server Error  | 500 Internal, 503 Unavailable  |
+
+</div>
 
 ### 6.3 TLS
 
@@ -140,7 +152,7 @@ Pre-installed in the browser/OS trust store.
 ### 6.4 Email Protocols
 
 **SMTP (Simple Mail Transfer Protocol).** Push protocol for sending email (TCP port 25/587). Uses a
-Command-response dialogue: `HELO`/`EHLO``MAIL FROM``RCPT TO``DATA``QUIT`. Supports extensions For
+Command-response dialogue: `HELO`/`EHLO`, `MAIL FROM`, `RCPT TO`, `DATA`, `QUIT`. Supports extensions For
 authentication (`AUTH`) and encryption (`STARTTLS`).
 
 **SMTP session example:**
@@ -176,6 +188,8 @@ selected, and Logout. Messages remain on the server unless explicitly deleted.
 (995 for POP3S). Simpler than IMAP but less flexible. Supports `TOP` (fetch headers) and `RETR`
 (fetch full message).
 
+<div class="table-wrap">
+
 | Aspect   | IMAP                  | POP3                 |
 | -------- | --------------------- | -------------------- |
 | Mode     | Remote access         | Download and delete  |
@@ -183,6 +197,8 @@ selected, and Logout. Messages remain on the server unless explicitly deleted.
 | Search   | Server-side search    | No                   |
 | Sync     | Multi-device sync     | No                   |
 | Resource | Higher server storage | Lower server storage |
+
+</div>
 
 ### 6.5 Other Application Protocols
 
@@ -204,7 +220,7 @@ Leases are time-limited; clients must renew before expiry (T1 at 50%, T2 at 87.5
 **DHCP relay.** In networks with multiple subnets, clients broadcast DHCPDISCOVER, which routers do
 Not forward. A DHCP relay agent (configured on the router) converts the broadcast to a unicast and
 Forwards it to the DHCP server, adding the `giaddr` (gateway IP address) field so the server knows
-Which subnet to allocate an address from.
+which subnet to allocate an address from.
 
 **DHCPv6.** Uses multicast (`ff02::1:2` for servers) and supports rapid commit (2-message exchange
 Instead of 4-message DORA). Stateless DHCPv6 provides only configuration (DNS, NTP) without address
@@ -235,8 +251,8 @@ Model with authentication and encryption).
 - **Throughput:** Actual data rate achieved, less than bandwidth due to protocol overhead,
   congestion, and errors.
 
-- **Latency components:** Propagation delay ($d / c$Where $d$ is distance), transmission delay
-  ($L / R$Where $L$ is frame length, $R$ is rate), queuing delay, processing delay.
+- **Latency components:** Propagation delay ($d / c$ Where $d$ is distance), transmission delay
+  ($L / R$ Where $L$ is frame length, $R$ is rate), queuing delay, processing delay.
 
 - **Jitter:** Variation in packet arrival times. Critical for real-time applications (VoIP, video).
   Measured as the standard deviation of delay.
@@ -246,23 +262,12 @@ The RTT: $\mathrm{throughput} \leq \min(\mathrm{cwnd}, \mathrm{rwnd}) / \mathrm{
 
 _Proof._ The sender cannot have more than the window size in unacknowledged data. Each byte sent
 Requires an ACK, which takes one RTT to arrive. Thus the sender can send at most window / RTT bytes
-Per second. $\blacksquare$
+per second. $\blacksquare$
 
 :::caution
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was
 formalised in RFC 7766.
 :::
-
-
-```mermaid
-flowchart TD
-    A[6_Application Layer] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

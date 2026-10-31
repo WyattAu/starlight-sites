@@ -29,7 +29,7 @@ tags:
 ### Principle
 
 The **Valence Shell Electron Pair Repulsion** (VSEPR) theory predicts molecular geometry based on
-The repulsion between electron pairs (both bonding and lone pairs) around a central atom.
+the repulsion between electron pairs (both bonding and lone pairs) around a central atom.
 
 **Postulates:**
 
@@ -43,6 +43,8 @@ The repulsion between electron pairs (both bonding and lone pairs) around a cent
 
 ### Electron Pair Geometries
 
+<div class="table-wrap">
+
 | Electron pairs | Geometry             | Bond angle              |
 | -------------- | -------------------- | ----------------------- |
 | $2$            | Linear               | $180\degree$            |
@@ -51,7 +53,11 @@ The repulsion between electron pairs (both bonding and lone pairs) around a cent
 | $5$            | Trigonal bipyramidal | $120\degree, 90\degree$ |
 | $6$            | Octahedral           | $90\degree$             |
 
+</div>
+
 ### Molecular Shapes from VSEPR
+
+<div class="table-wrap">
 
 | Steric number | Lone pairs | Shape                | Bond angle                      | Example                                          |
 | ------------- | ---------- | -------------------- | ------------------------------- | ------------------------------------------------ |
@@ -69,14 +75,20 @@ The repulsion between electron pairs (both bonding and lone pairs) around a cent
 | $6$           | $1$        | Square pyramidal     | $\lt 90\degree$                 | $\mathrm{BrF}_5$, $\mathrm{IF}_5$                  |
 | $6$           | $2$        | Square planar        | $90\degree$                     | $\mathrm{XeF}_4$, $\mathrm{ICl}_4^-$               |
 
+</div>
+
 ### Bond Angle Distortions
 
 Lone pair repulsion compresses bond angles. The more lone pairs, the greater the compression:
+
+<div class="table-wrap">
 
 | Molecule                 | Expected       | Actual         | Reason                              |
 | ------------------------ | -------------- | -------------- | ----------------------------------- |
 | $\mathrm{NH}_3$          | $109.5\degree$ | $107\degree$   | One lone pair compresses angles     |
 | $\mathrm{H}_2\mathrm{O}$ | $109.5\degree$ | $104.5\degree$ | Two lone pairs compress angles more |
+
+</div>
 
 Electronegativity effects also distort angles: more electronegative terminal atoms pull bonding
 Pairs away from the central atom, reducing repulsion and **decreasing** bond angles.
@@ -108,6 +120,8 @@ Equivalent hybrid orbitals that explain observed geometries.
 
 ### Types of Hybridization
 
+<div class="table-wrap">
+
 | Hybridization | Geometry             | Orbitals combined | Angle                   |
 | ------------- | -------------------- | ----------------- | ----------------------- |
 | $sp$          | Linear               | $1s + 1p$         | $180\degree$            |
@@ -115,6 +129,8 @@ Equivalent hybrid orbitals that explain observed geometries.
 | $sp^3$        | Tetrahedral          | $1s + 3p$         | $109.5\degree$          |
 | $sp^3d$       | Trigonal bipyramidal | $1s + 3p + 1d$    | $120\degree, 90\degree$ |
 | $sp^3d^2$     | Octahedral           | $1s + 3p + 2d$    | $90\degree$             |
+
+</div>
 
 ### Determining Hybridization
 
@@ -124,6 +140,8 @@ $$
 \mathrm{Steric number} = \mathrm{bonded atoms} + \mathrm{lone pairs}
 $$
 
+<div class="table-wrap">
+
 | Steric number | Hybridization |
 | ------------- | ------------- |
 | $2$           | $sp$          |
@@ -132,7 +150,11 @@ $$
 | $5$           | $sp^3d$       |
 | $6$           | $sp^3d^2$     |
 
+</div>
+
 ### Examples
+
+<div class="table-wrap">
 
 | Molecule                 | Central atom | Steric number | Hybridization | Shape                |
 | ------------------------ | ------------ | ------------- | ------------- | -------------------- |
@@ -144,16 +166,18 @@ $$
 | $\mathrm{SF}_6$          | S            | $6$           | $sp^3d^2$     | Octahedral           |
 | $\mathrm{PCl}_5$         | P            | $5$           | $sp^3d$       | Trigonal bipyramidal |
 
+</div>
+
 ### Sigma and Pi Bonds
 
 - **Sigma ($\sigma$) bond**: formed by head-on overlap of orbitals along the internuclear axis.
-  Always the first bond between two atoms. Can be formed by $s$-$s$, $s$-$p$, $p$-$p$Or hybrid-hybrid
+  Always the first bond between two atoms. Can be formed by $s$-$s$, $s$-$p$, $p$-$p$ Or hybrid-hybrid
   overlap.
 - **Pi ($\pi$) bond**: formed by sideways overlap of parallel $p$-orbitals. Always the second (or
   third) bond in a multiple bond.
 
 A double bond consists of one $\sigma$ and one $\pi$ bond. A triple bond consists of one $\sigma$
-And two $\pi$ bonds.
+and two $\pi$ bonds.
 
 $$
 \mathrm{C=C}: 1\sigma + 1\pi, \qquad \mathrm{C\equiv C}: 1\sigma + 2\pi
@@ -213,6 +237,8 @@ $$
 \mathrm{Bond order} = \frac{N_{\mathrm{bonding}} - N_{\mathrm{antibonding}}}{2}
 $$
 
+<div class="table-wrap">
+
 | Molecule        | Bond order | Bond type      | Magnetic         |
 | --------------- | ---------- | -------------- | ---------------- |
 | $\mathrm{H}_2$  | $1$        | Single         | Diamagnetic      |
@@ -224,6 +250,8 @@ $$
 | $\mathrm{O}_2$  | $2$        | Double         | **Paramagnetic** |
 | $\mathrm{F}_2$  | $1$        | Single         | Diamagnetic      |
 | $\mathrm{Ne}_2$ | $0$        | Does not exist |,                |
+
+</div>
 
 ### Key Successes of MO Theory
 
@@ -255,9 +283,11 @@ $$
 
 In a metal, the valence electrons are delocalised over the entire lattice of positive metal ions.
 These delocalised electrons form an "electron sea" that holds the metal cations together through
-Electrostatic attraction.
+electrostatic attraction.
 
 ### Properties Explained by Metallic Bonding
+
+<div class="table-wrap">
 
 | Property                | Explanation                                                               |
 | ----------------------- | ------------------------------------------------------------------------- |
@@ -268,7 +298,11 @@ Electrostatic attraction.
 | High melting points     | Strong electrostatic attraction between cations and electrons             |
 | Luster                  | Delocalised electrons absorb and re-emit light at all visible wavelengths |
 
+</div>
+
 ### Factors Affecting Metallic Bond Strength
+
+<div class="table-wrap">
 
 | Factor                     | Effect                                         |
 | -------------------------- | ---------------------------------------------- |
@@ -276,10 +310,16 @@ Electrostatic attraction.
 | Smaller ionic radius       | Stronger bonding (cations closer to electrons) |
 | Higher ionic charge        | Stronger bonding                               |
 
+</div>
+
+<div class="table-wrap">
+
 | Comparison | Stronger bonding | Reason                                                |
 | ---------- | ---------------- | ----------------------------------------------------- |
 | Na vs Al   | Al               | Al contributes 3 electrons, Na contributes 1          |
 | Mg vs Ca   | Mg               | $\mathrm{Mg}^{2+}$ is smaller than $\mathrm{Ca}^{2+}$ |
+
+</div>
 
 ---
 
@@ -306,16 +346,20 @@ Broaden into **energy bands** due to orbital overlap.
 
 ### Classification of Solids
 
+<div class="table-wrap">
+
 | Type          | Band gap    | Conductivity                    | Examples                                                             |
 | ------------- | ----------- | ------------------------------- | -------------------------------------------------------------------- |
 | Metal         | $E_g = 0$   | High; electrons promoted        | $\mathrm{Cu}$$\mathrm{Fe}$$\mathrm{Na}$                              |
 | Semiconductor | Small $E_g$ | Moderate; temperature-dependent | $\mathrm{Si}$ ($1.1\mathrm{ eV}$), $\mathrm{Ge}$ ($0.7\mathrm{ eV}$) |
 | Insulator     | Large $E_g$ | Very low                        | Diamond ($5.5\mathrm{ eV}$), $\mathrm{SiO}_2$                        |
 
+</div>
+
 ### Semiconductor Behaviour
 
-In an intrinsic semiconductor at $0\mathrm{ K}$The valence band is full and the conduction band is
-Empty. As temperature increases:
+In an intrinsic semiconductor at $0\mathrm{ K}$ The valence band is full and the conduction band is
+empty. As temperature increases:
 
 1. Some electrons gain enough energy to cross the band gap.
 2. These electrons enter the conduction band and carry charge.
@@ -396,16 +440,16 @@ This is confirmed experimentally: liquid oxygen is attracted to a magnet.
 <summary>Problem 3</summary>
 
 Explain why the melting point of aluminium ($660\degree\mathrm{C}$) is much higher than that of
-Sodium ($98\degree\mathrm{C}$).
+sodium ($98\degree\mathrm{C}$).
 
 **Solution:**
 
 Aluminium has the electron configuration $[\mathrm{Ne}]\, 3s^2\, 3p^1$ and contributes **three**
-Delocalised electrons to the metallic bond. Sodium has $[\mathrm{Ne}]\, 3s^1$ and contributes only
+delocalised electrons to the metallic bond. Sodium has $[\mathrm{Ne}]\, 3s^1$ and contributes only
 **one**. More delocalised electrons produce stronger electrostatic attraction between the cations
-And the electron sea. Additionally, $\mathrm{Al}^{3+}$ is smaller than $\mathrm{Na}^+$ So the Charge
+and the electron sea. Additionally, $\mathrm{Al}^{3+}$ is smaller than $\mathrm{Na}^+$ So the Charge
 density is higher and the ions are closer together. Both factors increase the strength of the
-Metallic bond and therefore the melting point.
+metallic bond and therefore the melting point.
 
 </details>
 
@@ -413,7 +457,7 @@ Metallic bond and therefore the melting point.
 <summary>Problem 4</summary>
 
 Silicon has a band gap of $1.1\mathrm{ eV}$. Calculate the minimum wavelength of light required to
-Excite an electron from the valence band to the conduction band.
+excite an electron from the valence band to the conduction band.
 
 **Solution:**
 
@@ -458,7 +502,9 @@ $6 + 4(6) + 2 = 32$ valence electrons.
 Sulfur forms double bonds with all four oxygens (expanding the octet since S is in Period 3): No
 lone pairs on sulfur. Each oxygen has 2 lone pairs.
 
-$$\mathrm{O}_2\mathrm{S}(=\mathrm{O})_2^{2-}$$
+$$
+\mathrm{O}_2\mathrm{S}(=\mathrm{O})_2^{2-}
+$$
 
 **Step 2: Determine the steric number.**
 
@@ -471,8 +517,8 @@ Electron pair geometry: tetrahedral. Molecular shape: tetrahedral. Hybridization
 **Step 4: Bond angles.**
 
 All $\mathrm{O\!-\!S\!-\!O}$ bond angles are approximately $109.5\degree$ (ideal tetrahedral). The
-Double bonds repel slightly more than single bonds, so angles may deviate by a few degrees, but the
-Overall geometry remains tetrahedral.
+double bonds repel slightly more than single bonds, so angles may deviate by a few degrees, but the
+overall geometry remains tetrahedral.
 
 **Step 5: Polarity.**
 
@@ -484,27 +530,35 @@ The $\mathrm{S\!-\!O}$ bond dipoles are symmetrically arranged and cancel. $\mat
 **Worked Example: MO theory for a heteronuclear diatomic**
 
 Use MO theory to determine the bond order and magnetic properties of NO. Compare the bond order and
-Bond length of NO with those of $\mathrm{NO}^+$.
+bond length of NO with those of $\mathrm{NO}^+$.
 
 <details>
 <summary>Solution</summary>
 
 NO has 11 valence electrons (5 from N, 6 from O). Since oxygen is to the right of nitrogen in the
-Periodic table, the $\mathrm{O}_2$/$\mathrm{F}_2$ energy ordering applies:
+periodic table, the $\mathrm{O}_2$/$\mathrm{F}_2$ energy ordering applies:
 
-$$\sigma_{2s}^2\, (\sigma_{2s}^*)^2\, \sigma_{2p_z}^2\, \pi_{2p_x}^2\, \pi_{2p_y}^2\, (\pi_{2p_x}^*)^1$$
+$$
+\sigma_{2s}^2\, (\sigma_{2s}^*)^2\, \sigma_{2p_z}^2\, \pi_{2p_x}^2\, \pi_{2p_y}^2\, (\pi_{2p_x}^*)^1
+$$
 
 Bonding electrons: $2 + 2 + 2 + 2 + 2 = 10$. Antibonding electrons: $2 + 1 = 3$.
 
-$$\mathrm{Bond\ order} = \frac{10 - 3}{2} = 3.5$$
+$$
+\mathrm{Bond\ order} = \frac{10 - 3}{2} = 3.5
+$$
 
 One unpaired electron in $\pi_{2p_x}^*$: NO is **paramagnetic**.
 
 **For $\mathrm{NO}^+$:** 10 valence electrons (one fewer than NO).
 
-$$\sigma_{2s}^2\, (\sigma_{2s}^*)^2\, \sigma_{2p_z}^2\, \pi_{2p_x}^2\, \pi_{2p_y}^2$$
+$$
+\sigma_{2s}^2\, (\sigma_{2s}^*)^2\, \sigma_{2p_z}^2\, \pi_{2p_x}^2\, \pi_{2p_y}^2
+$$
 
-$$\mathrm{Bond\ order} = \frac{10 - 2}{2} = 4.0$$
+$$
+\mathrm{Bond\ order} = \frac{10 - 2}{2} = 4.0
+$$
 
 $\mathrm{NO}^+$ has no unpaired electrons: **diamagnetic**.
 
@@ -525,9 +579,13 @@ Atom.
 
 **Step 1: Draw the structure.**
 
-$$\mathrm{CH_3 - CH = CH - C \equiv N}$$
+$$
+\mathrm{CH_3 - CH = CH - C \equiv N}
+$$
 
 **Step 2: Count bonds by type.**
+
+<div class="table-wrap">
 
 | Bond                      | Type   | $\sigma$ | $\pi$ |
 | ------------------------- | ------ | -------- | ----- |
@@ -538,9 +596,13 @@ $$\mathrm{CH_3 - CH = CH - C \equiv N}$$
 | $\mathrm{C_1\!-\!H}$ (x3) | Single | 3        | 0     |
 | $\mathrm{C_3\!-\!H}$      | Single | 1        | 0     |
 
+</div>
+
 Total: $8\sigma$ bonds, $3\pi$ bonds.
 
 **Step 3: Hybridization of each carbon.**
+
+<div class="table-wrap">
 
 | Carbon                                   | Regions of e$^-$ density    | Hybridization |
 | ---------------------------------------- | --------------------------- | ------------- |
@@ -549,29 +611,37 @@ Total: $8\sigma$ bonds, $3\pi$ bonds.
 | $\mathrm{C_3}$ ($\mathrm{-\!CH\!=\!}$)   | 3 (1 C=C + 1 C--C + 1 C--H) | $sp^2$        |
 | $\mathrm{C_4}$ ($\mathrm{-\!C\!\equiv}$) | 2 (1 C--C + 1 C$\equiv$N)   | $sp$          |
 
+</div>
+
 </details>
 
 **Worked Example: Band gap and semiconductor classification**
 
 Diamond has a band gap of $5.5\mathrm{ eV}$ and silicon has a band gap of $1.1\mathrm{ eV}$. (a)
-Calculate the minimum wavelength of light required to excite an electron across the band gap in each
-Material. (b) Classify each material. (c) Explain why diamond is transparent to visible light but
-Silicon is not.
+calculate the minimum wavelength of light required to excite an electron across the band gap in each
+material. (b) Classify each material. (c) Explain why diamond is transparent to visible light but
+silicon is not.
 
 <details>
 <summary>Solution</summary>
 
 **Step 1: Calculate the threshold wavelengths.**
 
-$$\lambda = \frac{hc}{E}$$
+$$
+\lambda = \frac{hc}{E}
+$$
 
 For diamond ($E = 5.5\mathrm{ eV} = 5.5 \times 1.602 \times 10^{-19}\mathrm{ J}$):
 
-$$\lambda = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{5.5 \times 1.602 \times 10^{-19}} = \frac{1.988 \times 10^{-25}}{8.81 \times 10^{-19}} = 2.26 \times 10^{-7}\mathrm{ m} = 226\mathrm{ nm}$$
+$$
+\lambda = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{5.5 \times 1.602 \times 10^{-19}} = \frac{1.988 \times 10^{-25}}{8.81 \times 10^{-19}} = 2.26 \times 10^{-7}\mathrm{ m} = 226\mathrm{ nm}
+$$
 
 For silicon ($E = 1.1\mathrm{ eV}$):
 
-$$\lambda = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{1.1 \times 1.602 \times 10^{-19}} = \frac{1.988 \times 10^{-25}}{1.76 \times 10^{-19}} = 1.13 \times 10^{-6}\mathrm{ m} = 1130\mathrm{ nm}$$
+$$
+\lambda = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{1.1 \times 1.602 \times 10^{-19}} = \frac{1.988 \times 10^{-25}}{1.76 \times 10^{-19}} = 1.13 \times 10^{-6}\mathrm{ m} = 1130\mathrm{ nm}
+$$
 
 **Step 2: Classification.**
 
@@ -594,7 +664,7 @@ appears Metallic-grey and opaque.
 **Worked Example: Metallic bonding and melting point comparison**
 
 Explain why tungsten ($\mathrm{W}$) has a melting point of $3422\degree\mathrm{C}$ while sodium
-($\mathrm{Na}$) melts at $98\degree\mathrm{C}$Despite both being metals.
+($\mathrm{Na}$) melts at $98\degree\mathrm{C}$ Despite both being metals.
 
 <details>
 <summary>Solution</summary>
@@ -603,9 +673,9 @@ The strength of metallic bonding depends on three factors:
 
 1. **Number of delocalized electrons per atom:**
 
-- $\mathrm{W}$: electron configuration $[\mathrm{Xe}]\, 4f^{14}\, 5d^4\, 6s^2$Contributing up to 6
+- $\mathrm{W}$: electron configuration $[\mathrm{Xe}]\, 4f^{14}\, 5d^4\, 6s^2$ Contributing up to 6
   valence electrons to the delocalized sea.
-- $\mathrm{Na}$: configuration $[\mathrm{Ne}]\, 3s^1$Contributing only 1 valence electron.
+- $\mathrm{Na}$: configuration $[\mathrm{Ne}]\, 3s^1$ Contributing only 1 valence electron.
 
 1. **Ionic radius (charge density):**
 
@@ -642,17 +712,17 @@ Point, hardness, and tensile strength compared to sodium.
   lone pairs. $\mathrm{NH}_3$ has 3 bonds + 1 lone pair = 4 regions, giving tetrahedral electron
   pair geometry and trigonal pyramidal molecular shape.
 
-- **Misidentifying the central atom**: In molecules like $\mathrm{OF}_2$Oxygen is the central atom
-  (less electronegative than fluorine). In $\mathrm{SCl}_4$Sulfur is central. Always place the least
+- **Misidentifying the central atom**: In molecules like $\mathrm{OF}_2$ Oxygen is the central atom
+  (less electronegative than fluorine). In $\mathrm{SCl}_4$ Sulfur is central. Always place the least
   electronegative atom (excluding hydrogen) at the centre.
 
 - **Assigning hybridization based on bonded atoms only**: Hybridization depends on the total steric
   number (bonded atoms + lone pairs). $\mathrm{NH}_3$ has steric number 4, so its hybridization is
-  $sp^3$Not $sp^2$.
+  $sp^3$ Not $sp^2$.
 
 - **Reversing the MO energy ordering between $\mathrm{N}_2$ and $\mathrm{O}_2$**: For
   $\mathrm{B}_2$$\mathrm{C}_2$$\mathrm{N}_2$ (and lighter), $\pi_{2p}$ is lower than
-  $\sigma_{2p_z}$. For $\mathrm{O}_2$$\mathrm{F}_2$$\mathrm{Ne}_2$The ordering reverses. The
+  $\sigma_{2p_z}$. For $\mathrm{O}_2$$\mathrm{F}_2$$\mathrm{Ne}_2$ The ordering reverses. The
   boundary is between $\mathrm{N}_2$ and $\mathrm{O}_2$.
 
 - **Treating antibonding electrons as equivalent to bonding electrons**: Each antibonding electron
@@ -744,14 +814,20 @@ $= 1.602 \times 10^{-19}\;\mathrm{C}$)
 
 If the bond were $100\%$ ionic, the dipole moment would be:
 
-$$\mu_{\mathrm{ionic}} = q \times d = (1.602 \times 10^{-19}\;\mathrm{C}) \times (127 \times 10^{-12}\;\mathrm{m}) = 2.035 \times 10^{-29}\;\mathrm{C \cdot m}$$
+$$
+\mu_{\mathrm{ionic}} = q \times d = (1.602 \times 10^{-19}\;\mathrm{C}) \times (127 \times 10^{-12}\;\mathrm{m}) = 2.035 \times 10^{-29}\;\mathrm{C \cdot m}
+$$
 
 Converting to debye:
-$$\mu_{\mathrm{ionic}} = \frac{2.035 \times 10^{-29}}{3.336 \times 10^{-30}} = 6.10\;\mathrm{D}$$
+$$
+\mu_{\mathrm{ionic}} = \frac{2.035 \times 10^{-29}}{3.336 \times 10^{-30}} = 6.10\;\mathrm{D}
+$$
 
 The actual dipole moment is $1.08\;\mathrm{D}$ So the percent ionic character is:
 
-$$\%\;\text{ionic} = \frac{1.08}{6.10} \times 100 = 17.7\%$$
+$$
+\%\;\text{ionic} = \frac{1.08}{6.10} \times 100 = 17.7\%
+$$
 
 This result demonstrates that even highly polar bonds like $\mathrm{H\!-\!Cl}$ have significant
 covalent character. Purely ionic bonding is an idealisation; real bonds exist on a continuum.
@@ -760,7 +836,7 @@ covalent character. Purely ionic bonding is an idealisation; real bonds exist on
 
 **Worked Example: Lewis Structure and Formal Charge for an Unusual Species**
 
-Draw the Lewis structure of $\mathrm{XeO}_3$Determine the formal charge on each atom, predict the
+Draw the Lewis structure of $\mathrm{XeO}_3$ Determine the formal charge on each atom, predict the
 molecular geometry, and state whether the molecule is polar.
 
 <details>
@@ -788,7 +864,9 @@ Net formal charge: $+3 + 3(-1) = 0$. This is valid but has high formal charges.
 
 Convert one lone pair on each oxygen into a bonding pair, forming three Xe=O double bonds:
 
-$$\mathrm{O}=\mathrm{Xe}(=\mathrm{O})_2 \text{ with one lone pair on Xe}$$
+$$
+\mathrm{O}=\mathrm{Xe}(=\mathrm{O})_2 \text{ with one lone pair on Xe}
+$$
 
 - Xe: $8 - 2 - 12/2 = 8 - 2 - 6 = 0$
 - Each O: $6 - 4 - 4/2 = 6 - 4 - 2 = 0$
@@ -823,7 +901,9 @@ delocalised over the three oxygens.
 
 The **resonance hybrid** has partial double-bond character between N and each O.
 
-$$\text{Bond order} = \frac{1\;\text{(double bond)} + 2\;\text{(single bonds)}}{3\;\text{(N--O bonds)}} = \frac{1 + 2}{3} = \frac{3}{3} = 1.33$$
+$$
+\text{Bond order} = \frac{1\;\text{(double bond)} + 2\;\text{(single bonds)}}{3\;\text{(N--O bonds)}} = \frac{1 + 2}{3} = \frac{3}{3} = 1.33
+$$
 
 The average bond order of $1.33$ means each N--O bond has approximately $1/3$ double-bond character
 and $2/3$ single-bond character. The observed bond length of $124\;\mathrm{pm}$ is between the
@@ -840,7 +920,9 @@ single bonds.
 
 Use the Kapustinskii equation to estimate the lattice energy of $\mathrm{KBr}$:
 
-$$U = \frac{1200.2 \cdot z_+ z_- \cdot v}{r_+ + r_-}\left(1 - \frac{34.5}{r_+ + r_-}\right)\;\mathrm{kJ/mol}$$
+$$
+U = \frac{1200.2 \cdot z_+ z_- \cdot v}{r_+ + r_-}\left(1 - \frac{34.5}{r_+ + r_-}\right)\;\mathrm{kJ/mol}
+$$
 
 Where $v$ is the number of ions per formula unit ($v = 2$ for $\mathrm{KBr}$), $r_+$ and $r_-$ are
 ionic radii in pm, and $z_+, z_-$ are ion charges. Given:
@@ -849,23 +931,35 @@ $r(\mathrm{K}^+) = 138\;\mathrm{pm}$, $r(\mathrm{Br}^-) = 196\;\mathrm{pm}$.
 <details>
 <summary>Solution</summary>
 
-$$r_+ + r_- = 138 + 196 = 334\;\mathrm{pm}$$
+$$
+r_+ + r_- = 138 + 196 = 334\;\mathrm{pm}
+$$
 
-$$U = \frac{1200.2 \times 1 \times 1 \times 2}{334}\left(1 - \frac{34.5}{334}\right)$$
+$$
+U = \frac{1200.2 \times 1 \times 1 \times 2}{334}\left(1 - \frac{34.5}{334}\right)
+$$
 
-$$U = \frac{2400.4}{334}\left(1 - 0.1033\right)$$
+$$
+U = \frac{2400.4}{334}\left(1 - 0.1033\right)
+$$
 
-$$U = 7.187 \times 0.8967 = 6.445\;\mathrm{kJ/mol} \times 10^2 = 644.5\;\mathrm{kJ/mol}$$
+$$
+U = 7.187 \times 0.8967 = 6.445\;\mathrm{kJ/mol} \times 10^2 = 644.5\;\mathrm{kJ/mol}
+$$
 
 Wait, the Kapustinskii equation as written gives the answer in $\mathrm{kJ/mol}$ directly when
 radii are in pm:
 
-$$U = \frac{1200.2 \times 2}{334}\left(1 - \frac{34.5}{334}\right) = \frac{2400.4}{334}(0.8967) = 7.187 \times 0.8967 = 6.44$$
+$$
+U = \frac{1200.2 \times 2}{334}\left(1 - \frac{34.5}{334}\right) = \frac{2400.4}{334}(0.8967) = 7.187 \times 0.8967 = 6.44
+$$
 
-$$U \approx -644\;\mathrm{kJ/mol}$$
+$$
+U \approx -644\;\mathrm{kJ/mol}
+$$
 
 The experimental lattice energy of $\mathrm{KBr}$ is approximately $-679\;\mathrm{kJ/mol}$. The
-Kapustinskii estimate is within about $5\%$Demonstrating its utility for predicting lattice energies
+Kapustinskii estimate is within about $5\%$ Demonstrating its utility for predicting lattice energies
 when Born-Haber data are unavailable.
 
 </details>
@@ -946,7 +1040,7 @@ approximately $30\%$ and discuss one approach to exceeding this limit.
 
 The standard enthalpy of atomisation of methane is $+1660\;\mathrm{kJ/mol}$ (i.e.,
 $\mathrm{CH}_4(g) \to \mathrm{C}(g) + 4\mathrm{H}(g)$). Given that the standard enthalpy of
-formation of $\mathrm{CH}_4(g)$ is $-75\;\mathrm{kJ/mol}$The bond dissociation energy of
+formation of $\mathrm{CH}_4(g)$ is $-75\;\mathrm{kJ/mol}$ The bond dissociation energy of
 $\mathrm{H}_2$ is $+436\;\mathrm{kJ/mol}$ And the enthalpy of sublimation of graphite is
 $+717\;\mathrm{kJ/mol}$: (a) Calculate the mean C--H bond enthalpy in methane. (b) Explain why the
 first C--H bond dissociation energy ($+439\;\mathrm{kJ/mol}$) differs from the mean value. (c) The
@@ -969,7 +1063,7 @@ from the value in methane.
 ## Common Pitfalls (Expanded)
 
 - **Counting lone pairs incorrectly for expanded octet species**: Elements in Period 3 and beyond
-  can have more than 8 valence electrons (expanded octet). For $\mathrm{SF}_6$Sulfur has $12$
+  can have more than 8 valence electrons (expanded octet). For $\mathrm{SF}_6$ Sulfur has $12$
   valence electrons (6 bonds, 0 lone pairs). Do not force an octet on central atoms that can
   accommodate more.
 
@@ -979,7 +1073,7 @@ from the value in methane.
 
 - **Misidentifying coordinate (dative) covalent bonds**: A coordinate bond is formed when both
   electrons in the bond come from the same atom. Once formed, a coordinate bond is indistinguishable
-  from a normal covalent bond. In $\mathrm{NH}_4^+$The fourth N--H bond is a coordinate bond, but
+  from a normal covalent bond. In $\mathrm{NH}_4^+$ The fourth N--H bond is a coordinate bond, but
   all four N--H bonds are equivalent in the ammonium ion.
 
 - **Using the wrong MO energy ordering for heteronuclear diatomics**: For heteronuclear diatomics
@@ -1019,17 +1113,6 @@ from the value in methane.
   [..../3-periodicity/1_periodicity](/chemistry/3-periodicity/1_periodicity/)
 - **Organic molecular geometry** → Review
   [..../10-organic-chemistry/2_organic-chemistry-advanced](/chemistry/10-organic-chemistry/2_organic-chemistry-advanced/)
-
-
-```mermaid
-flowchart TD
-    A[2_Chemical Bonding Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

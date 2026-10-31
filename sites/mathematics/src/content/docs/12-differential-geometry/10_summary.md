@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "Summary"
 tags:
@@ -19,6 +18,8 @@ description: "Study notes for Summary | Mathematics - Wyatt's Notes with worked 
 }
 </script>
 
+<div class="table-wrap">
+
 | Concept                  | Description                                                      |
 | ------------------------ | ---------------------------------------------------------------- |
 | Smooth manifold          | Hausdorff, second countable, locally Euclidean space             |
@@ -33,6 +34,8 @@ description: "Study notes for Summary | Mathematics - Wyatt's Notes with worked 
 | Geodesic                 | Curve with zero acceleration $\nabla_{\dot\gamma}\dot\gamma = 0$ |
 | Riemann curvature tensor | Measures non-commutativity of parallel transport                 |
 | Gauss-Bonnet theorem     | Total curvature = $2\pi \chi(M)$ for compact surfaces            |
+
+</div>
 
 ### Key Theorems
 
@@ -54,22 +57,34 @@ description: "Study notes for Summary | Mathematics - Wyatt's Notes with worked 
 ### Important Formulas
 
 **Christoffel symbols:**
-$$\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partial_j g_{i\ell} - \partial_\ell g_{ij})$$
+$$
+\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partial_j g_{i\ell} - \partial_\ell g_{ij})
+$$
 
 **Geodesic equation:**
-$$\ddot\gamma^k + \Gamma^k_{ij}\dot\gamma^i\dot\gamma^j = 0$$
+$$
+\ddot\gamma^k + \Gamma^k_{ij}\dot\gamma^i\dot\gamma^j = 0
+$$
 
 **Riemann curvature tensor:**
-$$R^\ell_{ijk} = \partial_i\Gamma^\ell_{jk} - \partial_j\Gamma^\ell_{ik} + \Gamma^m_{jk}\Gamma^\ell_{im} - \Gamma^m_{ik}\Gamma^\ell_{jm}$$
+$$
+R^\ell_{ijk} = \partial_i\Gamma^\ell_{jk} - \partial_j\Gamma^\ell_{ik} + \Gamma^m_{jk}\Gamma^\ell_{im} - \Gamma^m_{ik}\Gamma^\ell_{jm}
+$$
 
 **Lie bracket (coordinates):**
-$$[X, Y] = \left(X^j\frac{\partial Y^i}{\partial x^j} - Y^j\frac{\partial X^i}{\partial x^j}\right)\frac{\partial}{\partial x^i}$$
+$$
+[X, Y] = \left(X^j\frac{\partial Y^i}{\partial x^j} - Y^j\frac{\partial X^i}{\partial x^j}\right)\frac{\partial}{\partial x^i}
+$$
 
 **Exterior derivative:**
-$$d\omega = d\left(\frac{1}{k!}\omega_{i_1\ldots i_k} dx^{i_1} \wedge \cdots \wedge dx^{i_k}\right) = \frac{1}{k!}\frac{\partial\omega_{i_1\ldots i_k}}{\partial x^j} dx^j \wedge dx^{i_1} \wedge \cdots \wedge dx^{i_k}$$
+$$
+d\omega = d\left(\frac{1}{k!}\omega_{i_1\ldots i_k} dx^{i_1} \wedge \cdots \wedge dx^{i_k}\right) = \frac{1}{k!}\frac{\partial\omega_{i_1\ldots i_k}}{\partial x^j} dx^j \wedge dx^{i_1} \wedge \cdots \wedge dx^{i_k}
+$$
 
 **Lie derivative:**
-$$\mathcal{L}_X Y = [X, Y], \quad \mathcal{L}_X f = X(f), \quad \mathcal{L}_X \omega = \frac{d}{dt}\big|_{t=0} (\Phi_t^*\omega)$$
+$$
+\mathcal{L}_X Y = [X, Y], \quad \mathcal{L}_X f = X(f), \quad \mathcal{L}_X \omega = \frac{d}{dt}\big|_{t=0} (\Phi_t^*\omega)
+$$
 
 ### Relations Between Concepts
 
@@ -87,6 +102,8 @@ The following diagram shows how the core concepts of differential geometry relat
 Every compact, connected, oriented 2-manifold is homeomorphic to a sphere with $g$ handles, where
 $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 
+<div class="table-wrap">
+
 | Surface | Genus $g$ | Euler characteristic $\chi$ | Total curvature |
 | --------- | ----------- | --------------------------- | ----------------- |
 | Sphere $S^2$ | 0 | 2 | $4\pi$ |
@@ -94,14 +111,20 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 | Double torus | 2 | $-2$ | $-4\pi$ |
 | $g$-holed torus | $g$ | $2 - 2g$ | $4\pi(1-g)$ |
 
+</div>
+
 ### Key Differential Operators in Coordinates
+
+<div class="table-wrap">
 
 | Operator | Action on $f$ / $\omega$ | In coordinates |
 |----------|--------------------------|----------------|
 | Gradient $\nabla f$ | Vector field dual to $df$ | $(\nabla f)^i = g^{ij}\partial_j f$ |
-| Divergence $\nabla \cdot X$ | $\mathcal{L}_X dV = (\nabla \cdot X) dV$ | $\nabla \cdot X = \frac{1}{\sqrt{|g|}}\partial_i(\sqrt{|g|} X^i)$ |
-| Laplacian $\Delta f$ | $\nabla \cdot \nabla f$ | $\Delta f = \frac{1}{\sqrt{|g|}}\partial_i(g^{ij}\sqrt{|g|}\partial_j f)$ |
+| Divergence $\nabla \cdot X$ | $\mathcal{L}_X dV = (\nabla \cdot X) dV$ | $\nabla \cdot X = \frac{1}{\sqrt{\|g\|}}\partial_i(\sqrt{\|g\|} X^i)$ |
+| Laplacian $\Delta f$ | $\nabla \cdot \nabla f$ | $\Delta f = \frac{1}{\sqrt{\|g\|}}\partial_i(g^{ij}\sqrt{\|g\|}\partial_j f)$ |
 | Curl $(\nabla \times X)$ | $(\star dX^\flat)^\sharp$ | Depends on dimension; in $\mathbb{R}^3$, $(\nabla \times X)^i = \epsilon^{ijk}\partial_j X_k$ |
+
+</div>
 
 ### Important Identities
 
@@ -156,6 +179,8 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 
 ### Key Applications
 
+<div class="table-wrap">
+
 | Application | Manifold | Key Result |
 | ------------ | ---------- | ------------ |
 | General relativity | Spacetime $(M,g)$ | Einstein equations: $R_{\mu\nu} - \frac{1}{2}Rg_{\mu\nu} = 8\pi G T_{\mu\nu}$ |
@@ -164,16 +189,7 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 | Computer vision | Shape space | Geodesic distances for shape matching |
 | Robotics | Configuration space $C$ | Motion planning via geodesics in $C$ |
 
-
-```mermaid
-flowchart TD
-    A[10_Summary] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 
@@ -186,9 +202,9 @@ Differential geometry studies curved spaces by doing calculus on them. A manifol
 - [Key Theorems in Functional Analysis](/11-functional-analysis/9_summary-of-key-theorems/) -- The spectral theorem and compact operator theory underpin the analytical methods used in differential geometry.
 - [Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/) -- Group-theoretic structures appear in the study of Lie groups and symmetry of manifolds.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

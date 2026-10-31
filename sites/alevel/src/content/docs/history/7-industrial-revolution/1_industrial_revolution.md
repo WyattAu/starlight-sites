@@ -38,6 +38,8 @@ and mines.
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Period                     | Dates     | Key Themes                                                       |
 | -------------------------- | --------- | ---------------------------------------------------------------- |
 | Pre-industrial foundations | 1700-1760 | Agricultural improvement, proto-industrialisation, colonial trade |
@@ -45,6 +47,8 @@ and mines.
 | Steam and iron             | 1780-1830 | Watt engine, coke smelting, railways                             |
 | Social transformation      | 1790-1840 | Urbanisation, working conditions, public health crisis           |
 | Political reform           | 1815-1840 | Corn Laws, Peterloo, Reform Act 1832, Chartism                   |
+
+</div>
 
 ## Key Events with Dates and Significance
 
@@ -215,17 +219,6 @@ stability encouraged investment. But: these existed before 1760 without producin
 **Conclusion**: Technology was the most visible driver but operated within specific agricultural,
 demographic, financial, and institutional conditions. Industrialisation resulted from the interaction
 of multiple factors.
-
-
-```mermaid
-flowchart TD
-    A[1_Industrial_Revolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

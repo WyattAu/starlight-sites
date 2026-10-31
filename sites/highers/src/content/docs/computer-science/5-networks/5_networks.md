@@ -96,6 +96,8 @@ HTML defines the structure and content of web pages using **elements** (tags).
 
 **Common HTML elements:**
 
+<div class="table-wrap">
+
 | Element                        | Purpose                    |
 | ------------------------------ | -------------------------- |
 | `h1` - `h6`                    | Headings                   |
@@ -108,6 +110,8 @@ HTML defines the structure and content of web pages using **elements** (tags).
 | `div`                          | Generic container (block)  |
 | `span`                         | Generic container (inline) |
 | `section``article``aside``nav` | Semantic elements          |
+
+</div>
 
 **HTML table example:**
 
@@ -154,6 +158,8 @@ HTML defines the structure and content of web pages using **elements** (tags).
 
 **HTML5 input types:**
 
+<div class="table-wrap">
+
 | Type       | Purpose                     | Validation               |
 | ---------- | --------------------------- | ------------------------ |
 | `text`     | Plain text                  | None                     |
@@ -165,6 +171,8 @@ HTML defines the structure and content of web pages using **elements** (tags).
 | `range`    | Slider                      | Min/max values           |
 | `checkbox` | Multiple selections         | Boolean                  |
 | `radio`    | Single selection from group | Requires name attribute  |
+
+</div>
 
 ### CSS (Cascading Style Sheets)
 
@@ -209,7 +217,7 @@ a:hover {
 1. Inline styles (`style=""`)
 2. ID selectors (`#id`)
 3. Class selectors (`.class`), attribute selectors, pseudo-classes
-4. Element selectors (`p``div`)
+4. Element selectors (`p`, `div`)
 5. Universal selector (`*`)
 
 **Box Model:** Every element is a box with content, padding, border, and margin.
@@ -261,6 +269,8 @@ a:hover {
 
 **Flexbox properties reference:**
 
+<div class="table-wrap">
+
 | Property          | Values                                                    | Effect               |
 | ----------------- | --------------------------------------------------------- | -------------------- |
 | `justify-content` | flex-start, center, flex-end, space-between, space-around | Main axis alignment  |
@@ -268,6 +278,8 @@ a:hover {
 | `flex-direction`  | row, column, row-reverse, column-reverse                  | Direction of items   |
 | `flex-wrap`       | nowrap, wrap                                              | Whether items wrap   |
 | `gap`             | length                                                    | Space between items  |
+
+</div>
 
 **Layout with CSS Grid:**
 
@@ -448,6 +460,8 @@ Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'
 
 ### Grid Properties Reference
 
+<div class="table-wrap">
+
 | Property                | Values                             | Effect                   |
 | ----------------------- | ---------------------------------- | ------------------------ |
 | `display`               | `grid`                             | Creates a grid container |
@@ -457,6 +471,8 @@ Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'
 | `grid-row`              | `2 / 4`                            | Spans rows 2-3           |
 | `gap`                   | `16px`                             | Space between items      |
 | `grid-area`             | `header` / `auto`                  | Named grid area          |
+
+</div>
 
 ### Responsive Design Techniques
 
@@ -497,12 +513,16 @@ img {
 
 **Viewport units:**
 
+<div class="table-wrap">
+
 | Unit   | Description                      |
 | ------ | -------------------------------- |
 | `vw`   | 1% of viewport width             |
 | `vh`   | 1% of viewport height            |
 | `vmin` | 1% of smaller viewport dimension |
 | `vmax` | 1% of larger viewport dimension  |
+
+</div>
 
 ## JavaScript in Detail
 
@@ -554,11 +574,15 @@ localStorage.clear();
 
 **localStorage vs sessionStorage:**
 
+<div class="table-wrap">
+
 | Feature       | localStorage             | sessionStorage        |
 | ------------- | ------------------------ | --------------------- |
 | Persistence   | Survives browser restart | Lost when tab closes  |
 | Scope         | Same origin, all tabs    | Same origin, same tab |
 | Storage limit | ~5-10 MB                 | ~5-10 MB              |
+
+</div>
 
 ## Web Security in Detail
 
@@ -596,8 +620,8 @@ Access-Control-Allow-Headers: Content-Type
 ### Same-Origin Policy
 
 The Same-Origin Policy prevents a web page from making requests to a different domain than the one
-That served the page. This prevents malicious scripts on one page from accessing sensitive data on
-Another.
+that served the page. This prevents malicious scripts on one page from accessing sensitive data on
+another.
 
 **Origin** is defined by the combination of protocol, domain, and port:
 
@@ -677,7 +701,7 @@ See the examples integrated throughout the sections above.
 
 ## Common Pitfalls
 
-1. **Semantic HTML:** Use `nav``main``section``article` instead of generic `div` elements. This
+1. **Semantic HTML:** Use `nav`, `main`, `section`, `article` instead of generic `div` elements. This
    improves accessibility and SEO.
 
 2. **Box model confusion:** Remember that `width` in the standard box model does NOT include padding
@@ -695,8 +719,8 @@ See the examples integrated throughout the sections above.
 6. **CSS specificity conflicts.** Inline styles override external CSS. Use specificity rules to
    predict which styles apply.
 
-7. **Forgetting to close HTML tags.** Some elements (like `img``br``input`) are self-closing. Others
-   (like `div``p`) must be explicitly closed.
+7. **Forgetting to close HTML tags.** Some elements (like `img`, `br`, `input`) are self-closing. Others
+   (like `div`, `p`) must be explicitly closed.
 
 ---
 
@@ -743,7 +767,7 @@ See the examples integrated throughout the sections above.
 
 12. Explain what the Same-Origin Policy is and why it is important for web security.
 
-13. Write HTML that includes a semantic structure with `header``nav``main``article`And `footer`
+13. Write HTML that includes a semantic structure with `header`, `nav`, `main`, `article` and `footer`
     elements.
 
 14. Explain the difference between client-side and server-side validation. Why should both be used?
@@ -757,17 +781,6 @@ See the examples integrated throughout the sections above.
 18. Describe three ways to improve the performance of a web page. Include both frontend and backend
     techniques.
 
-
-```mermaid
-flowchart TD
-    A[5_Networks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of web design and development, including underlying theory,
@@ -780,9 +793,6 @@ practical implementation, and key applications.
 - streams and lambda expressions
 - exception handling
 - the JVM and garbage collection
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 

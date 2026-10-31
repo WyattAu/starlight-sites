@@ -255,7 +255,9 @@ with supporting examples.
 
 (b) The balanced equation is:
 
-$$2\text{Na} + \text{Cl}_2 \rightarrow 2\text{NaCl}$$
+$$
+2\text{Na} + \text{Cl}_2 \rightarrow 2\text{NaCl}
+$$
 
 Each sodium atom loses one electron to become $\text{Na}^+$, and each chlorine atom gains one
 electron to become $\text{Cl}^-$. The product is sodium chloride, which has ionic bonding -- the
@@ -283,27 +285,9 @@ layers structural integrity) and weak inter-layer forces (which allow the layers
 
 **The key insight:** Molecular shape (VSEPR) determines polarity, and polarity determines intermolecular forces, chain reaction from atomic scale to macroscopic properties.
 
-
-```mermaid
-flowchart TD
-    A[Diag Chemical Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

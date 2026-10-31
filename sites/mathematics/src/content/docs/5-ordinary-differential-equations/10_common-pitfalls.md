@@ -18,8 +18,8 @@ description: "Overlaps with the homogeneous solution. For Guessing fails Because
 </script>
 
 :::caution
-Overlaps with the homogeneous solution. For $y"' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails
-Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
+Overlaps with the homogeneous solution. For $y"' - 4y = e^{2x}$ Guessing $y_p = Ae^{2x}$ fails
+because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 :::
 
 :::caution
@@ -48,7 +48,7 @@ $y' = x^2 + y^2$ have no closed-form solution in terms of elementary functions. 
 
 :::caution
 Valid for hyperbolic critical points (no eigenvalues on the imaginary axis). If eigenvalues lie on
-The imaginary axis, the nonlinear system can behave very differently from its linearization.
+the imaginary axis, the nonlinear system can behave very differently from its linearization.
 :::
 
 :::caution
@@ -58,7 +58,7 @@ Forgetting to include all powers of irreducible quadratic factors.
 
 :::caution
 with complex $r = \alpha \pm i\beta$ gives solutions involving $\cos(\beta \ln x)$ and
-$\sin(\beta \ln x)$Not $\cos(\beta x)$ and $\sin(\beta x)$.
+$\sin(\beta \ln x)$ Not $\cos(\beta x)$ and $\sin(\beta x)$.
 :::
 
 :::caution
@@ -87,7 +87,7 @@ This is not negative definite. Let us try $V(x, y) = \frac{x^4}{4} + \frac{y^4}{
 
 $\dot{V} = x^3(-x - y^3) + y^3(x^3 - y) = -x^4 - x^3 y^3 + x^3 y^3 - y^4 = -(x^4 + y^4)$.
 
-Since $\dot{V} = -(x^4 + y^4) \lt 0$ for $(x, y) \neq (0, 0)$The origin is asymptotically Stable by
+Since $\dot{V} = -(x^4 + y^4) \lt 0$ for $(x, y) \neq (0, 0)$ The origin is asymptotically Stable by
 Lyapunov's theorem. $\blacksquare$
 
 </details>
@@ -115,7 +115,7 @@ construct a trapping region. Define
 
 $L(x) = x^3/3 - x$ and write the system as $x' = y$, $y' = -x - \mu L'(x) y$.
 
-The function $L(x)$ has zeros at $x = \pm 1$. For $\mu > 0$The damping is negative for
+The function $L(x)$ has zeros at $x = \pm 1$. For $\mu > 0$ The damping is negative for
 $\lvert x \rvert \lt 1$ (energy input) and positive for $\lvert x \rvert > 1$ (energy Dissipation).
 This creates a unique stable limit cycle that passes through $x = \pm 1$.
 
@@ -127,6 +127,8 @@ boundary is chosen so that Trajectories point inward). $\blacksquare$
 
 ### 9.11 Quick Reference: Method Selection
 
+<div class="table-wrap">
+
 | ODE Type                  | Recommended Method       | Watch out for                      |
 | ------------------------- | ------------------------ | ---------------------------------- |
 | Separable                 | Separation of variables   | Missing $h(y) = 0$ solutions       |
@@ -135,6 +137,8 @@ boundary is chosen so that Trajectories point inward). $\blacksquare$
 | Cauchy-Euler              | $x^r$ ansatz             | $\ln x$ terms for repeated roots   |
 | Systems near critical pt  | Linearisation            | Non-hyperbolic points              |
 | Nonlinear / no closed form| Numerical (RK4)          | Step size selection                |
+
+</div>
 
 ### Additional Pitfalls
 
@@ -163,16 +167,6 @@ boundary is chosen so that Trajectories point inward). $\blacksquare$
   long-term behaviour, focus on the particular solution, but remember that the transient may be
   significant at early times.
 
-```mermaid
-flowchart TD
-    A[10_Common Pitfalls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Differential equations are the language of change. Every pitfall in this file reflects a mismatch between the equation's structure and the method applied to it. The particular integral must complement, not duplicate, the complementary solution, just as a resonant driving force must be handled differently from a non-resonant one. Separable equations can miss equilibrium solutions because dividing by zero eliminates them. The deeper pattern is that ODE methods are not universal recipes: they work because the equation has specific structural properties, and ignoring those properties produces nonsense.
@@ -184,7 +178,7 @@ Differential equations are the language of change. Every pitfall in this file re
 - **[Stability and Phase Plane Analysis](/5-ordinary-differential-equations/9_stability-and-phase-plane-analysis/)**: Non-hyperbolic critical points and incorrect linearisation are common mistakes in stability analysis.
 - **[Series Solutions](/5-ordinary-differential-equations/6_series-solutions/)**: Confusing ordinary and regular singular points leads to incorrect application of the Frobenius method.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

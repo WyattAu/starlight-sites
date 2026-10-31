@@ -67,7 +67,7 @@ must understand for A-Level, including their time and space complexity.
 ### Graph Algorithms
 
 - **Depth-first search (DFS)** and **breadth-first search (BFS)**, traversal strategies
-- **Dijkstra"s shortest path**, weighted graph optimisation
+- **Dijkstra's shortest path**, weighted graph optimisation
 - **Representations**, adjacency matrix vs. adjacency list trade-offs
 
 ### Complexity Analysis
@@ -99,6 +99,8 @@ algorithms and complexity analysis.
 
 Throughout this section we use the following notation:
 
+<div class="table-wrap">
+
 | Symbol         | Meaning                                          |
 | -------------- | ------------------------------------------------ |
 | $O(f(n))$      | Upper bound on growth rate                       |
@@ -106,6 +108,8 @@ Throughout this section we use the following notation:
 | $\Theta(f(n))$ | Tight bound (both upper and lower)               |
 | $T(n)$         | Running time as a function of input size $n$     |
 | $S(n)$         | Space complexity as a function of input size $n$ |
+
+</div>
 
 ## Overview
 
@@ -144,8 +148,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Overview
 
@@ -186,8 +188,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Common Mistakes
 

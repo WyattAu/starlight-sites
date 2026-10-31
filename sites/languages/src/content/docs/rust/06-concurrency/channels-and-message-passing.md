@@ -24,6 +24,8 @@ Receiver, transferring ownership.
 
 ### Channel Categories
 
+<div class="table-wrap">
+
 | Type                | Producers | Consumers | Buffering         | Use Case                 |
 | ------------------- | --------- | --------- | ----------------- | ------------------------ |
 | `std::sync::mpsc`   | Multiple  | Single    | Bounded/Unbounded | Simple work distribution |
@@ -31,6 +33,8 @@ Receiver, transferring ownership.
 | `oneshot`           | Single    | Single    | None              | Single response          |
 | `broadcast`         | Single    | Multiple  | Bounded           | Pub/sub notifications    |
 | `watch`             | Single    | Multiple  | Single value      | Configuration updates    |
+
+</div>
 
 ## `std::sync::mpsc`
 
@@ -93,12 +97,16 @@ let (tx, rx) = mpsc::sync_channel(10);   // bounded, capacity 10
 
 ### Send and Recv Semantics
 
+<div class="table-wrap">
+
 | Method                 | Blocking?                        | Returns                       |
 | ---------------------- | -------------------------------- | ----------------------------- |
 | `tx.send(val)`         | Yes (if bounded and full)        | `Result<(), SendError<T>>`    |
 | `rx.recv()`            | Yes (if empty and senders exist) | `Result<T, RecvError>`        |
 | `rx.try_recv()`        | No                               | `Result<T, TryRecvError>`     |
 | `rx.recv_timeout(dur)` | Yes (with timeout)               | `Result<T, RecvTimeoutError>` |
+
+</div>
 
 ## `tokio::sync::mpsc`
 
@@ -268,7 +276,7 @@ assert_eq!(rx.recv().await.unwrap(), 3);
 ## Watch Channels
 
 Watch channels broadcast the latest value to all receivers. Unlike broadcast, watch retains only the
-Most recent value, there is no message queue:
+most recent value, there is no message queue:
 
 ```rust
 use tokio::sync::watch;
@@ -302,12 +310,16 @@ async fn main() {
 
 ### Watch vs Broadcast
 
+<div class="table-wrap">
+
 | Property     | `watch`                | `broadcast`             |
 | ------------ | ---------------------- | ----------------------- |
 | Messages     | Single latest value    | All messages in a queue |
 | Buffer       | 1 (always)             | Configurable            |
 | Lag handling | No lag, always latest | `RecvError::Lagged`     |
 | Use case     | Configuration updates  | Event streams, logs     |
+
+</div>
 
 ## Channel Patterns
 
@@ -565,6 +577,8 @@ match rx.try_recv() {
 
 ### Buffer Size Selection
 
+<div class="table-wrap">
+
 | Buffer Size | Behavior                                          |
 | ----------- | ------------------------------------------------- |
 | 0           | Synchronous handoff, sender waits for receiver   |
@@ -573,11 +587,13 @@ match rx.try_recv() {
 | 1000+       | High throughput, producers rarely block          |
 | Unbounded   | No backpressure, risk of memory exhaustion       |
 
+</div>
+
 ### Throughput Considerations
 
 Bounded channels with larger buffers generally have higher throughput because senders block less
 Often. However, larger buffers increase memory usage and latency (messages sit in the buffer longer
-Before being processed).
+before being processed).
 
 ```rust
 // High-throughput scenario, large buffer
@@ -953,7 +969,7 @@ async fn graceful_shutdown() {
 
 ### When to Use Shared State
 
-- Simple flags or counters (use `AtomicBool``AtomicUsize`)
+- Simple flags or counters (use `AtomicBool`, `AtomicUsize`)
 - Configuration that changes infrequently (use `Arc<RwLock<T>>` or `watch`)
 - Data structures that need coordinated access (use `Arc<Mutex<T>>`)
 
@@ -991,9 +1007,6 @@ practical implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

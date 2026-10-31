@@ -23,9 +23,11 @@ DSE compulsory syllabus, we focus on discrete probability spaces, combinatorial 
 Conditional probability, and independence. This page connects to
 [Permutations and Combinations](/maths/compulsory/13_permutations-and-combinations/)
 For counting techniques and [Dispersion](/maths/compulsory/12_dispersion/) for the statistical interpretation of
-Probability distributions.
+probability distributions.
 
 ## Notations
+
+<div class="table-wrap">
 
 | Symbol            | Meaning                                      |
 | ----------------- | -------------------------------------------- |
@@ -37,6 +39,8 @@ Probability distributions.
 | $A \subseteq B$   | $A$ is a subset of $B$                       |
 | $\emptyset$       | Empty set (impossible event)                 |
 | $S$ or $\Omega$   | Sample space (universal set of all outcomes) |
+
+</div>
 
 ## Basic Probability and Sample Spaces
 
@@ -88,7 +92,7 @@ $$
 
 In practice, $\frac{n_A}{n}$ is used as an estimate of $P(A)$ for large $n$. The frequentist
 Interpretation motivates the axioms: long-run relative frequencies behave consistently with the
-Rules below.
+rules below.
 
 ### Axioms of Probability (Kolmogorov)
 
@@ -106,7 +110,7 @@ $$
 $$
 
 These three axioms are the foundation of all probability theory. Every theorem and formula on this
-Page derives from them.
+page derives from them.
 
 ### Fundamental Theorems
 
@@ -120,7 +124,7 @@ $$
 \end{aligned}
 $$
 
-By Axiom 2, $P(S) = 1$ So $1 = 1 + P(\emptyset)$Hence $P(\emptyset) = 0$. $\square$
+By Axiom 2, $P(S) = 1$ So $1 = 1 + P(\emptyset)$ Hence $P(\emptyset) = 0$. $\square$
 
 **Theorem 2.** $P(A') = 1 - P(A)$.
 
@@ -149,8 +153,8 @@ By Axiom 1, $P(B \cap A') \geq 0$ So $P(B) \geq P(A)$. $\square$
 
 **Corollary.** $0 \leq P(A) \leq 1$ for any event $A$.
 
-_Proof._ Since $\emptyset \subseteq A \subseteq S$Theorem 3 gives
-$P(\emptyset) \leq P(A) \leq P(S)$I.e., $0 \leq P(A) \leq 1$. $\square$
+_Proof._ Since $\emptyset \subseteq A \subseteq S$ Theorem 3 gives
+$P(\emptyset) \leq P(A) \leq P(S)$ I.e., $0 \leq P(A) \leq 1$. $\square$
 
 </details>
 <summary>Example</summary>
@@ -193,14 +197,14 @@ $$
 $$
 
 The subtraction of $P(A \cap B)$ corrects for double-counting: outcomes in both $A$ and $B$ are
-Counted once in $P(A)$ and once in $P(B)$ So we subtract one copy.
+counted once in $P(A)$ and once in $P(B)$ So we subtract one copy.
 
 ### Mutually Exclusive Events
 
-Two events $A$ and $B$ are **mutually exclusive** (disjoint) if $A \cap B = \emptyset$I.e., they
-Cannot occur simultaneously.
+Two events $A$ and $B$ are **mutually exclusive** (disjoint) if $A \cap B = \emptyset$ I.e., they
+cannot occur simultaneously.
 
-When $A \cap B = \emptyset$The general addition rule reduces to:
+When $A \cap B = \emptyset$ The general addition rule reduces to:
 
 $$
 \begin{aligned}
@@ -249,7 +253,7 @@ $$
 Substituting back and rearranging yields the stated result. $\square$
 
 The pattern continues: for $n$ events, you alternate adding and subtracting terms of each
-Intersection size. This is the probability analogue of the inclusion-exclusion principle.
+intersection size. This is the probability analogue of the inclusion-exclusion principle.
 
 ### Inclusion-Exclusion Principle
 
@@ -262,14 +266,14 @@ $$
 $$
 
 When outcomes are equally likely, dividing both sides by $|S|$ yields the general addition rule. The
-Full inclusion-exclusion principle extends to $n$ sets and is covered in
+full inclusion-exclusion principle extends to $n$ sets and is covered in
 [../compulsory/13_permutations-and-combinations](/maths/compulsory/13_permutations-and-combinations/)).
 
 </details>
 <summary>DSE-style Example</summary>
 
 In a class of 40 students, 25 study Physics, 20 study Chemistry, and 8 study both. A student is
-Chosen at random. Find the probability that the student studies at least one of the two subjects.
+chosen at random. Find the probability that the student studies at least one of the two subjects.
 
 Let $P$ = studies Physics, $C$ = studies Chemistry.
 
@@ -308,7 +312,7 @@ $$
 ### Intuition: Shrinking the Sample Space
 
 Conditioning on $B$ means we restrict our universe to outcomes where $B$ has already occurred. The
-Sample space effectively shrinks from $S$ to $B$. Within this restricted space, the probability of
+sample space effectively shrinks from $S$ to $B$. Within this restricted space, the probability of
 $A$ is the proportion of $B$ that also belongs to $A$:
 
 $$
@@ -329,7 +333,7 @@ A fair die is rolled. Given that the result is even, find the probability that i
 - $A \cap B = \\{6\\}$ So $P(A \cap B) = \frac{1}{6}$.
 - $P(A \mid B) = \frac{1/6}{1/2} = \frac{1}{3}$.
 
-Verification by shrinking: within $\\{2, 4, 6\\}$Only $6$ is greater than $4$ So $\frac{1}{3}$.
+Verification by shrinking: within $\\{2, 4, 6\\}$ Only $6$ is greater than $4$ So $\frac{1}{3}$.
 $\checkmark$
 
 ### Fundamental Properties
@@ -337,7 +341,7 @@ $\checkmark$
 **Theorem.** $P(A \mid B) = 1 - P(A' \mid B)$.
 
 _Proof._ Since $A \cap B$ and $A' \cap B$ partition $B$ (they are mutually exclusive and their union
-Is $B$):
+is $B$):
 
 $$
 \begin{aligned}
@@ -350,7 +354,7 @@ $$
 Therefore $P(A \mid B) = 1 - P(A' \mid B)$. $\square$
 
 This is the conditional analogue of Theorem 2: the conditional probabilities of an event and its
-Complement must sum to 1 within the conditioned space.
+complement must sum to 1 within the conditioned space.
 
 ### Multiplication Rule
 
@@ -392,7 +396,7 @@ $$
 <summary>Example</summary>
 
 A bag contains 5 red and 3 blue balls. Two balls are drawn without replacement. Find the probability
-That both are red.
+that both are red.
 
 - $P(\mathrm{1st red}) = \frac{5}{8}$.
 - $P(\mathrm{2nd red} \mid \mathrm{1st red}) = \frac{4}{7}$.
@@ -476,21 +480,21 @@ Now $A'$ = "first coin is tails" and $B'$ = "second coin is heads":
 $B$ are **not** independent.
 
 _Proof._ If $A \cap B = \emptyset$ Then $P(A \cap B) = 0$. But $P(A) \cdot P(B) \gt 0$ since both
-Factors are positive. Therefore $P(A \cap B) \neq P(A) \cdot P(B)$ So $A$ and $B$ are not
-Independent. $\square$
+factors are positive. Therefore $P(A \cap B) \neq P(A) \cdot P(B)$ So $A$ and $B$ are not
+independent. $\square$
 
 Intuition: mutually exclusive events carry strong negative information about each other -- knowing
-One occurred guarantees the other did not. Independence means no information transfer at all. These
-Are opposite extremes.
+one occurred guarantees the other did not. Independence means no information transfer at all. These
+are opposite extremes.
 
 The only case where mutually exclusive events are also independent is the degenerate case where at
-Least one event has probability zero.
+least one event has probability zero.
 
 </details>
 <summary>DSE-style Example</summary>
 
 A fair coin is tossed 3 times. Let $A$ = "all three tosses are heads" and $B$ = "the first toss is
-Tails".
+tails".
 
 - $P(A) = \frac{1}{8}$$P(B) = \frac{1}{2}$.
 - $A \cap B = \emptyset$ (cannot have all heads if the first is tails), so $P(A \cap B) = 0$.
@@ -505,7 +509,7 @@ Independent.
 
 :::note
 Separately and compare. Do not assume independence from the problem description -- it must be
-Verified or explicitly stated.
+verified or explicitly stated.
 :::
 
 ## Bayes' Theorem
@@ -532,7 +536,7 @@ $$
 $$
 
 Bayes' theorem "reverses" the conditioning: it expresses $P(A \mid B)$ in terms of $P(B \mid A)$.
-This is the mathematical foundation of statistical inference -- updating beliefs given evidence.
+this is the mathematical foundation of statistical inference -- updating beliefs given evidence.
 
 ### Law of Total Probability
 
@@ -545,8 +549,8 @@ $$
 \end{aligned}
 $$
 
-_Proof._ Since the $B_i$ partition $S$The events $A \cap B_1, A \cap B_2, \ldots, A \cap B_n$ are
-Pairwise mutually exclusive and their union equals $A$. By Axiom 3:
+_Proof._ Since the $B_i$ partition $S$ The events $A \cap B_1, A \cap B_2, \ldots, A \cap B_n$ are
+pairwise mutually exclusive and their union equals $A$. By Axiom 3:
 
 $$
 \begin{aligned}
@@ -592,7 +596,7 @@ $$
 $$
 
 Despite a 95% accurate test, a positive result only means about 32.4% chance of disease. This
-Counterintuitive result occurs because the disease is rare -- false positives vastly outnumber true
+counterintuitive result occurs because the disease is rare -- false positives vastly outnumber true
 Positives in absolute terms.
 
 </details>
@@ -600,7 +604,7 @@ Positives in absolute terms.
 
 A factory has three machines producing items. Machine $M_1$ produces 50% of items with 2% defective.
 Machine $M_2$ produces 30% with 3% defective. Machine $M_3$ produces 20% with 5% defective. An item
-Is randomly selected and found to be defective. What is the probability it came from $M_3$?
+is randomly selected and found to be defective. What is the probability it came from $M_3$?
 
 Let $D$ = defective. The partition is $\{M_1, M_2, M_3\}$.
 
@@ -614,7 +618,7 @@ $$
 $$
 
 Despite $M_3$ having the highest defect rate, it only accounts for about 34.5% of defective items
-Because it produces the smallest share of total output.
+because it produces the smallest share of total output.
 
 ## Probability Trees
 
@@ -622,7 +626,7 @@ Because it produces the smallest share of total output.
 
 A probability tree is a directed graph that decomposes a multi-stage experiment into sequential
 Branches. Each level of the tree represents a stage, each branch represents an outcome at that
-Stage, and each branch is labelled with its probability.
+stage, and each branch is labelled with its probability.
 
 **Rules:**
 
@@ -657,7 +661,7 @@ $\checkmark$
 - $P(\mathrm{same colour}) = \frac{12}{30} + \frac{2}{30} = \frac{14}{30} = \frac{7}{15}$.
 - $P(\mathrm{different colours}) = \frac{8}{30} + \frac{8}{30} = \frac{16}{30} = \frac{8}{15}$.
 
-Note: $P(\mathrm{same}) + P(\mathrm{different}) = 1$As expected since these events are Complements.
+Note: $P(\mathrm{same}) + P(\mathrm{different}) = 1$ As expected since these events are Complements.
 
 ### Connection to Multiplication and Addition Rules
 
@@ -677,7 +681,7 @@ Trees are especially useful for problems involving:
 <summary>DSE-style Example</summary>
 
 A box contains 3 defective and 7 good bulbs. Bulbs are tested one by one without replacement. Find
-The probability that the second defective bulb is found on the third test.
+the probability that the second defective bulb is found on the third test.
 
 The second defective is found on the third test means: exactly one defective in the first two tests,
 And the third is defective.
@@ -766,7 +770,7 @@ $$
 $$
 
 1. **Question:** A bag contains 4 white and 6 black balls. Two balls are drawn at random without
-Replacement. Find the probability that they are of different colours.
+replacement. Find the probability that they are of different colours.
 
 <details>
 <summary>Answer</summary>
@@ -821,7 +825,7 @@ $P(A' \cap B')$.
 <summary>Answer</summary>
 
 By the complement independence theorem, since $A$ and $B$ are independent, $A'$ and $B'$ are also
-Independent:
+independent:
 
 $$
 \begin{aligned}
@@ -856,10 +860,10 @@ $$
 Check independence:
 $P(A) \cdot P(B) = \frac{1}{3} \times \frac{1}{4} = \frac{1}{12} \neq \frac{1}{6} = P(A \cap B)$.
 
-Since $P(A \cap B) \neq P(A) \cdot P(B)$The events are **not** independent.
+Since $P(A \cap B) \neq P(A) \cdot P(B)$ The events are **not** independent.
 
 1. **Question:** A box contains 5 red, 3 green, and 2 blue marbles. Three marbles are drawn without
-Replacement. Find the probability that all three are the same colour.
+replacement. Find the probability that all three are the same colour.
 
 <details>
 <summary>Answer</summary>
@@ -881,8 +885,8 @@ $$
 $$
 
 1. **Question:** In a certain school, 60% of students take Mathematics, 40% take Physics, and 30%
-Take both. A student is selected at random. Given that the student takes Mathematics, what is the
-Probability that they also take Physics?
+take both. A student is selected at random. Given that the student takes Mathematics, what is the
+probability that they also take Physics?
 
 </details>
 <summary>Answer</summary>
@@ -896,7 +900,7 @@ $$
 Half of Mathematics students also take Physics.
 
 1. **Question:** A factory produces items using Machine $X$ (60% of output) and Machine $Y$ (40% of
-Output). The defect rates are 3% for $X$ and 7% for $Y$. An item is found to be defective. Use
+output). The defect rates are 3% for $X$ and 7% for $Y$. An item is found to be defective. Use
 Bayes' theorem to find the probability it was produced by Machine $X$.
 
 <details>
@@ -913,7 +917,7 @@ $$
 $$
 
 Despite producing 60% of items, Machine $X$ accounts for only about 39.1% of defective items because
-Its defect rate is lower.
+its defect rate is lower.
 
 1. **Question:** A fair die is rolled twice. Find the probability that the sum of the two results
 Is 8, given that the first result is at least 3.
@@ -938,7 +942,7 @@ $$
 
 For comparison, the unconditional probability: $P(A) = \frac{5}{36}$ (pairs
 $(2,6), (3,5), (4,4), (5,3), (6,2)$). Conditioning on the first die being $\geq$ 3 eliminates
-$(2,6)$Reducing the count from 5 to 4.
+$(2,6)$ Reducing the count from 5 to 4.
 
 1. **Question:** $A$$B$ And $C$ are three events with $P(A) = P(B) = P(C) = \frac{1}{3}$
 $P(A \cap B) = P(A \cap C) = P(B \cap C) = \frac{1}{6}$ And $P(A \cap B \cap C) = \frac{1}{12}$. Find
@@ -959,7 +963,7 @@ $$
 $$
 
 1. **Question:** A test for a condition has a sensitivity of 90% and a specificity of 95%. The
-Condition prevalence in the population is 1%. Find the positive predictive value
+condition prevalence in the population is 1%. Find the positive predictive value
 $P(\mathrm{condition} \mid \mathrm{positive})$.
 
 </details>
@@ -1003,9 +1007,6 @@ within the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Probability
 with other DSE mathematics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Common Pitfalls
 
 - **Confusing mutually exclusive and independent events.** Mutually exclusive events cannot both
@@ -1036,7 +1037,9 @@ self-marking and building a personal test matrix.
 the probability that both are red.
 
 **Solution.**
-$$P(\text{both red}) = \frac{4}{10} \times \frac{3}{9} = \frac{12}{90} = \frac{2}{15}$$
+$$
+P(\text{both red}) = \frac{4}{10} \times \frac{3}{9} = \frac{12}{90} = \frac{2}{15}
+$$
 
 $\blacksquare$
 
@@ -1051,28 +1054,22 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic         | Site       | Link                                                                                               |
 | ------------- | ---------- | -------------------------------------------------------------------------------------------------- |
 | [Probability] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/03-probability)       |
-| [Probability] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/1_probability)            |
-| [Probability] | DSE        | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/11_probability)                           |
+| [Probability] | IB         | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability/)            |
+| [Probability] | DSE        | [View](https://dse.wyattau.com/maths/compulsory/11_probability/)                           |
 | [Probability] | University | [View](https://mathematics.wyattau.com/) |
+
+</div>
 
 ======= 3. Confusing the domain and range of functions, or not considering restrictions (e.g.,
 denominator cannot be zero).
 
 1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/probability.md
-
-```mermaid
-flowchart TD
-    A[11_Probability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

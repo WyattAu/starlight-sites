@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Theory Of Computation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -74,12 +63,18 @@ More :
 
 (b) **State transition table:**
 
+<div class="table-wrap">
+
 | Current State  | Input 0 | Input 1 |
 | -------------- | ------- | ------- |
 | S0 (accepting) | S1      | S0      |
 | S1 (rejecting) | S0      | S1      |
 
+</div>
+
 (c) **Trace with input `10110`:**
+
+<div class="table-wrap">
 
 | Step | Input | Current State | Next State |
 | ---- | ----- | ------------- | ---------- |
@@ -89,6 +84,8 @@ More :
 | 3    | 1     | S1            | S1         |
 | 4    | 1     | S1            | S1         |
 | 5    | 0     | S1            | S0         |
+
+</div>
 
 Final state: S0 (accepting). The string `10110` is **accepted** because it contains two 0s (even
 number).
@@ -115,7 +112,7 @@ expression without negation.
 
 (a) Strings starting with `01`: `01(0|1)*`
 
-This matches: `01``010``011``0101``0110`Etc. The `(0|1)*` allows any binary sequence (including
+This matches: `01`, `010`, `011`, `0101`, `0110`. Etc. The `(0|1)*` allows any binary sequence (including
 empty) after the initial `01`.
 
 (b) Strings of length exactly 3 with at least one `1`:
@@ -187,13 +184,13 @@ head starts at the rightmost bit (LSB):
 
 Tape: `1 1 0 _` with head on `0` (the LSB).
 
-Step 1: State q0, read `0`. Write `1`Move R, go to q*accept. Tape: `1 1 1 *`. Head on `\_`.
+Step 1: State q0, read `0`. Write `1`. Move R, go to q*accept. Tape: `1 1 1 *`. Head on `\_`.
 
 The machine halts. Result: `111` (LSB first) $= 111_2 = 7_{10}$.
 
-Wait, but `011` $= 3$Adding 1 gives `100` $= 4$. Let me re-examine.
+Wait, but `011` $= 3$ Adding 1 gives `100` $= 4$. Let me re-examine.
 
-If `110` in LSB-first means: bit 0 $= 1$Bit 1 $= 1$Bit 2 $= 0$. So the number is
+If `110` in LSB-first means: bit 0 $= 1$ Bit 1 $= 1$ Bit 2 $= 0$. So the number is
 $1 \times 2^0 + 1 \times 2^1 + 0 \times 2^2 = 1 + 2 + 0 = 3$. Adding 1 gives $4 = 100_2$. In
 LSB-first: `001`.
 
@@ -201,10 +198,10 @@ Let me retrace with the correct initial tape. The tape stores `110` (LSB first) 
 
 Tape: `[1] [1] [0] [_]` with head on position 0 (the LSB, which is `1`).
 
-Step 1: State q0, read `1`. Write `0`Move L, stay in q0. Tape: `[0] [1] [0] [_]`. Head moves left to
+Step 1: State q0, read `1`. Write `0`. Move L, stay in q0. Tape: `[0] [1] [0] [_]`. Head moves left to
 position -1.
 
-Step 2: State q0, read `_`. Write `1`Move R, go to q*accept. Tape: `[1] [0] [1] [0] [*]`. Head on
+Step 2: State q0, read `_`. Write `1`. Move R, go to q*accept. Tape: `[1] [0] [1] [0] [*]`. Head on
 position 0.
 
 Result: `101` (LSB first) $= 1 \times 2^0 + 0 \times 2^1 + 1 \times 2^2 = 1 + 0 + 4 = 5$.
@@ -218,7 +215,7 @@ Tape: `_ [1] [1] [0] _`
 
 If the head starts at `0` (position 3):
 
-Step 1: q0, read `0`. Write `1`Move R, q*accept. Tape: `* [1] [1] [1] \_`. Result: `111` (MSB first)
+Step 1: q0, read `0`. Write `1`. Move R, q*accept. Tape: `* [1] [1] [1] \_`. Result: `111` (MSB first)
 $= 7$.
 
 But this is MSB first, not LSB first. In MSB first: `011` $= 3$. Adding 1: `100` $= 4$.
@@ -227,11 +224,11 @@ The issue is my initial interpretation. Let me use MSB first:
 
 `011` with head on the LSB (rightmost `1`):
 
-Step 1: q0, read `1`. Write `0`Move L. Tape: `0 1 0`. Head on the middle `1`.
+Step 1: q0, read `1`. Write `0`. Move L. Tape: `0 1 0`. Head on the middle `1`.
 
-Step 2: q0, read `1`. Write `0`Move L. Tape: `0 0 0`. Head on the `0`.
+Step 2: q0, read `1`. Write `0`. Move L. Tape: `0 0 0`. Head on the `0`.
 
-Step 3: q0, read `0`. Write `1`Move R, q_accept. Tape: `1 0 0`. Head on `0`.
+Step 3: q0, read `0`. Write `1`. Move R, q_accept. Tape: `1 0 0`. Head on `0`.
 
 Result: `100` $= 4$. Correct!
 
@@ -243,7 +240,7 @@ The Turing machine correctly adds 1 to the binary number `011` ($= 3$), producin
 
 **Question:** Write a Python function that simulates the FSM from UT-1 (accepts binary strings with
 even number of 0s). Then, write a regular expression that matches the same language. Use both to
-test the strings `""``"0"``"00"``"101"``"1110"``"01010"`. Compare the time complexity of the FSM
+test the strings `""`, `"0"`, `"00"`, `"101"`, `"1110"`, `"01010"`. Compare the time complexity of the FSM
 approach vs the regex approach for an input of length $n$.
 
 **Solution:**
@@ -314,7 +311,7 @@ problem.
 
 **Solution:**
 
-(a) **Halting problem:** Given an arbitrary program $P$ and input $I$Determine whether $P$ halts
+(a) **Halting problem:** Given an arbitrary program $P$ and input $I$ Determine whether $P$ halts
 (terminates) when run on $I$.
 
 **Proof by contradiction:** Assume a function `halts(P, I)` exists that returns True if program $P$
@@ -386,12 +383,16 @@ States: S0 (start, no relevant suffix), S1 (last char was '1'), S2 (last two cha
 
 Transitions:
 
+<div class="table-wrap">
+
 | From | On 0 | On 1 |
 | ---- | ---- | ---- |
 | S0   | S0   | S1   |
 | S1   | S2   | S1   |
 | S2   | S0   | S3   |
 | S3\* | S2   | S1   |
+
+</div>
 
 Trace with `1101`: S0 $\xrightarrow{1}$ S1 $\xrightarrow{1}$ S1 $\xrightarrow{0}$ S2
 $\xrightarrow{1}$ S3\* (accept).
@@ -412,11 +413,11 @@ States: q0 (start), q1 (reading b's, popping), q_accept.
 - Read 'a' in q1: reject (a after b).
 
 (c) **Why no DFA can accept $a^n b^n$:** A DFA has a finite number of states. For the language
-$\{a^n b^n\}$The DFA would need to "remember" exactly how many $a$'s were read to verify the same
-number of $b$'s follow. For arbitrary $n$This requires unbounded memory (counting arbitrarily high).
+$\{a^n b^n\}$ The DFA would need to "remember" exactly how many $a$'s were read to verify the same
+number of $b$'s follow. For arbitrary $n$ This requires unbounded memory (counting arbitrarily high).
 A DFA's finite state set cannot store an arbitrarily large count. This is proven by the pumping
 lemma for regular languages: a sufficiently long string in the language can be "pumped" (a substring
-repeated) and must remain in the language. For $a^n b^n$Pumping the $a$ section breaks the balance,
+repeated) and must remain in the language. For $a^n b^n$ Pumping the $a$ section breaks the balance,
 producing a string not in the language -- proving it is not regular.
 
 (d) **Complexity classes:**

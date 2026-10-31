@@ -22,13 +22,17 @@ description: "Study notes for Fourier Optics with worked examples, practice prob
 In the Fraunhofer (far-field) limit, the diffraction pattern of an aperture with transmission
 function $t(x, y)$ is the Fourier transform:
 
-$$U(x", y") = \frac{e^{ikz}}{i\lambda z}\,e^{ik(x'^2 + y'^2)/(2z)}\iint t(x, y)\,e^{-ik(xx' + yy')/z}\,dx\,dy$$
+$$
+U(x", y") = \frac{e^{ikz}}{i\lambda z}\,e^{ik(x'^2 + y'^2)/(2z)}\iint t(x, y)\,e^{-ik(xx' + yy')/z}\,dx\,dy
+$$
 
 Where $(x', y')$ are coordinates in the observation plane at distance $z$ from the aperture.
 
 Defining spatial frequencies $f_x = x'/(\lambda z)$, $f_y = y'/(\lambda z)$:
 
-$$U(f_x, f_y) \propto \mathcal{F}\{t(x,y)\}(f_x, f_y)$$
+$$
+U(f_x, f_y) \propto \mathcal{F}\{t(x,y)\}(f_x, f_y)
+$$
 
 This correspondence between diffraction and Fourier transforms is the foundation of Fourier optics
 and has profound implications for image processing and optical information processing.
@@ -41,12 +45,16 @@ focal plane), and the eyepiece (or tube lens) performs the inverse transform.
 
 **Resolution limit:** The finest spatial frequency that can pass through the objective is:
 
-$$f_{\max} = \frac{\text{NA}{\lambda}}$$
+$$
+f_{\max} = \frac{\text{NA}{\lambda}}
+$$
 
 Where $\text{NA} = n\sin\theta$ is the numerical aperture. The minimum resolvable distance (Abbe
 limit):
 
-$$d_{\min} = \frac{\lambda}{2\,\text{NA}}$$
+$$
+d_{\min} = \frac{\lambda}{2\,\text{NA}}
+$$
 
 For green light ($\lambda = 550$ nm) and NA = 1.4 (oil immersion): $d_{\min} \approx 196$ nm.
 
@@ -63,6 +71,8 @@ mask (spatial filter) in this plane modifies the image:
 
 ### 15.4 Key Relationships
 
+<div class="table-wrap">
+
 | Optical concept        | Fourier correspondence                    | Application              |
 | ---------------------- | ----------------------------------------- | ------------------------ |
 | Aperture function      | Input signal $t(x,y)$                    | Diffraction pattern      |
@@ -70,6 +80,8 @@ mask (spatial filter) in this plane modifies the image:
 | Lens back focal plane  | Fourier plane                             | Spatial filtering        |
 | Image plane            | Inverse Fourier transform                 | 4f imaging system        |
 | Optical transfer func  | Normalised FT of PSF                      | Resolution characterisation |
+
+</div>
 
 ### 15.5 Common Pitfalls
 
@@ -119,11 +131,15 @@ The first zero occurs at $r = 1.22\lambda f/D$, which is the Rayleigh criterion.
 
 A diffraction grating with $N$ slits of width $a$ and spacing $d$ has transmission function:
 
-$$t(x) = \sum_{n=0}^{N-1}\text{rect}\!\left(\frac{x - nd}{a}\right)$$
+$$
+t(x) = \sum_{n=0}^{N-1}\text{rect}\!\left(\frac{x - nd}{a}\right)
+$$
 
 The Fraunhofer pattern is:
 
-$$I(\theta) = I_0\left(\frac{\sin\alpha}{\alpha}\right)^2\left(\frac{\sin N\beta}{\sin\beta}\right)^2$$
+$$
+I(\theta) = I_0\left(\frac{\sin\alpha}{\alpha}\right)^2\left(\frac{\sin N\beta}{\sin\beta}\right)^2
+$$
 
 Where $\alpha = \pi a\sin\theta/\lambda$ (single-slit envelope) and
 $\beta = \pi d\sin\theta/\lambda$ (multi-slit interference).
@@ -140,17 +156,6 @@ The resolving power: $R = mN = m \times 5$.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[19_Fourier Optics 15] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Fourier optics reveals that every lens is a frequency analyser. When light passes through an aperture, the far-field pattern is the spatial Fourier transform of the aperture shape. A lens placed at the focal plane physically computes this transform, placing each spatial frequency at a specific point. This means spatial filtering is directly blocking or attenuating frequency components at the Fourier plane. The Abbe theory shows that resolution is fundamentally limited by how many diffraction orders the lens can collect, establishing that optical systems are bandpass filters for spatial information.
@@ -163,44 +168,3 @@ Fourier optics reveals that every lens is a frequency analyser. When light passe
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

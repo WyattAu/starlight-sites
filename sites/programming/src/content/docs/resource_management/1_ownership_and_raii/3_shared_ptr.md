@@ -24,7 +24,7 @@ categories:
 `std::shared_ptr` enables multiple owners to share a single heap-allocated object via a
 Reference-counted control block. While powerful, it carries significant overhead, atomic reference
 Counting, a separate heap allocation, and the risk of reference cycles, and should only be used
-When shared ownership is genuinely required.
+when shared ownership is genuinely required.
 
 ## 3.1 Definition
 
@@ -109,7 +109,7 @@ Count so it cannot deallocate while the object is alive. Formally:
 
 - **Object lifetime:** The managed object exists if and only if $s \gt 0$.
 - **Deleter invocation:** When $s$ transitions from 1 to 0, the deleter is invoked.
-- **Control block deallocation:** When both $s = 0$ and $w = 0$The control block memory is freed
+- **Control block deallocation:** When both $s = 0$ and $w = 0$ The control block memory is freed
  via the stored allocator (or `operator delete` by default).
 
 This two-phase destruction is critical: the object dies first (when strong owners vanish), but the
@@ -233,19 +233,23 @@ Objects with long-lived `weak_ptr` observers, this can delay deallocation.
 
 Consider a managed object of size $N$ bytes on x86_64:
 
+<div class="table-wrap">
+
 | Strategy            | Heap Allocations | Total Bytes Allocated   | `malloc`/`free` Calls | `weak_ptr` Delay                      |
 | :------------------ | :--------------- | :---------------------- | :-------------------- | :------------------------------------ |
 | `make_shared`       | 1                | $32 + N$ (rounded up)   | 1 alloc, 1 free       | Yes: full block held                  |
 | `shared_ptr(new T)` | 2                | $16 + 8 + N$ (separate) | 2 allocs, 2 frees     | No: control block freed independently |
 | `allocate_shared`   | 1                | Implementation-defined  | 1 alloc, 1 free       | Yes: full block held                  |
 
-The "weak_ptr delay" column is the critical tradeoff. With `make_shared`The object memory and the
+</div>
+
+The "weak_ptr delay" column is the critical tradeoff. With `make_shared`. The object memory and the
 32-byte control block are in a single allocation. Even after `strong_count` reaches 0 and the object
-Is destroyed, the allocator cannot return the memory to the OS until `weak_count` also reaches 0.
-For a 1 MiB object with a single long-lived `weak_ptr`This means 1 MiB + 32 bytes of memory is Held
+is destroyed, the allocator cannot return the memory to the OS until `weak_count` also reaches 0.
+For a 1 MiB object with a single long-lived `weak_ptr`. This means 1 MiB + 32 bytes of memory is Held
 hostage.
 
-With `shared_ptr(new T)`The object memory (8-byte header + N bytes) is returned to the allocator
+With `shared_ptr(new T)`. The object memory (8-byte header + N bytes) is returned to the allocator
 Immediately when `strong_count` reaches 0. The 32-byte control block remains, but it is tiny
 Compared to the object.
 
@@ -256,15 +260,19 @@ Deleter for very large objects that may be observed by long-lived `weak_ptr` ins
 
 `shared_ptr` provides a subtle and often misunderstood thread safety guarantee:
 
+<div class="table-wrap">
+
 | Operation                                             | Thread-Safe?                                       |
 | :---------------------------------------------------- | :------------------------------------------------- |
 | Copying a `shared_ptr` (incrementing `strong_count`)  | Yes, atomic                                       |
 | Destroying/resetting a `shared_ptr`                   | Yes, atomic                                       |
 | Accessing the **pointed-to object** via `*p` or `p->` | **No**, you must provide your own synchronization |
 
+</div>
+
 The control block"s reference counts are modified using `std::atomic` operations [N4950 S20.11.3.6].
 This means you can safely copy `shared_ptr` instances between threads. But the **object itself** is
-Not protected, concurrent writes to `*p` without external synchronization is a data race and
+not protected, concurrent writes to `*p` without external synchronization is a data race and
 Undefined behavior.
 
 ```cpp
@@ -331,7 +339,7 @@ Access to the managed object.
    block), not the _resource access_ (the pointed-to object).
 
 **Formal restatement:** If thread A holds a `shared_ptr&lt;T&gt;` and thread B holds a copy of the
-Same `shared_ptr&lt;T&gt;`Then:
+Same `shared_ptr&lt;T&gt;`. Then:
 
 - Concurrent `shared_ptr` copies/destructions are well-defined (atomic control block access).
 - Concurrent `p-&gt;method()` calls are a data race unless `T::method()` is internally synchronized
@@ -356,8 +364,8 @@ Sequentially-consistent operations. The implications:
   memory barrier.
 
 :::note
-For increment and `memory_order_acq_rel` for decrement instead of `seq_cst`Which is valid because
-The standard only requires that the control block operations do not race with each other. The
+For increment and `memory_order_acq_rel` for decrement instead of `seq_cst`. Which is valid because
+the standard only requires that the control block operations do not race with each other. The
 Stronger `seq_cst` default is a conservative choice that implementations may relax.
 :::
 
@@ -508,11 +516,13 @@ int main() {
 
 :::caution
 If another thread might modify the object concurrently. COW is safe only in single-threaded contexts
-Or with external synchronization. `std::string` implementations have moved away from COW for this
+or with external synchronization. `std::string` implementations have moved away from COW for this
 Reason.
 :::
 
 ## 3.8 `sizeof(shared_ptr)` Across Implementations
+
+<div class="table-wrap">
 
 | Implementation                | `sizeof(shared_ptr&lt;T&gt;)` | Notes              |
 | ----------------------------- | ----------------------------- | ------------------ |
@@ -520,6 +530,8 @@ Reason.
 | libc++ (Clang)                | 16 bytes                      | Two raw pointers   |
 | MSVC STL                      | 16 bytes                      | Two raw pointers   |
 | `sizeof(unique_ptr&lt;T&gt;)` | 8 bytes                       | Single raw pointer |
+
+</div>
 
 `shared_ptr` is always twice the size of `unique_ptr` due to the extra control block pointer. This
 Matters in memory-constrained applications or when storing many pointers in containers.
@@ -582,7 +594,7 @@ public:
 ```
 
 The key invariant: `_internal_accept_owner` is called **exactly once**, during the construction of
-The **first** `shared_ptr` that takes ownership of the object. Subsequent `shared_from_this()` calls
+the **first** `shared_ptr` that takes ownership of the object. Subsequent `shared_from_this()` calls
 Return `shared_ptr` instances that share the same control block.
 
 ```cpp
@@ -693,6 +705,8 @@ Wrong object or dereference a dangling pointer.
 
 ## 3.12 Comparison: `shared_ptr` vs `unique_ptr`
 
+<div class="table-wrap">
+
 | Property                     | `unique_ptr&lt;T, D&gt;`                        | `shared_ptr&lt;T&gt;`                         |
 | :--------------------------- | :---------------------------------------------- | :-------------------------------------------- |
 | Ownership                    | Exclusive (single owner)                        | Shared (multiple owners)                      |
@@ -705,6 +719,8 @@ Wrong object or dereference a dangling pointer.
 | `make_*` factory             | `make_unique` (C++14)                           | `make_shared``allocate_shared`                |
 | Custom deleter compile check | Yes (type mismatch is compile error)            | No (type-erased, runtime mismatch)            |
 | Array support                | `unique_ptr&lt;T[]&gt;` with correct `delete[]` | Requires explicit `default_delete&lt;T[]&gt;` |
+
+</div>
 
 **Decision rule:** Use `unique_ptr` as the default. Promote to `shared_ptr` only when the ownership
 Graph genuinely requires multiple owners with non-deterministic lifetime order. The performance and
@@ -759,7 +775,7 @@ int main() {
 4. **Thread safety misunderstanding.** The control block is thread-safe, but the pointed-to object
    is NOT. Use `std::mutex` or `std::atomic` to protect the object itself.
 
-5. **`make_shared` delays memory release.** With `make_shared`The object and control block share one
+5. **`make_shared` delays memory release.** With `make_shared`. The object and control block share one
    allocation. The memory cannot be freed until all `weak_ptr` references are gone.
 
 6. **Using `shared_ptr` for ownership that is actually exclusive.** If only one owner exists at any
@@ -786,17 +802,7 @@ int main() {
 - [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/) :::
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
-```mermaid
-flowchart TD
-    A[3_Shared_Ptr] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Summary
 
@@ -811,10 +817,5 @@ This topic covers the essential concepts and techniques related to shared owners
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

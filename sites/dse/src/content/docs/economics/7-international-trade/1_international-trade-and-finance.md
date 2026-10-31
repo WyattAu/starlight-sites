@@ -20,23 +20,27 @@ categories: [DSE, Economics]
 ### Definition
 
 A country has an **absolute advantage** in producing a good if it can produce more of that good with
-The same amount of resources, or use fewer resources to produce the same amount, compared to another
-Country.
+the same amount of resources, or use fewer resources to produce the same amount, compared to another
+country.
 
 ### Example
+
+<div class="table-wrap">
 
 | Country   | Rice (units/labour hour) | Cloth (units/labour hour) |
 | --------- | ------------------------ | ------------------------- |
 | Country A | 10                       | 5                         |
 | Country B | 4                        | 8                         |
 
+</div>
+
 Country A has an absolute advantage in producing rice (10 > 4). Country B has an absolute advantage
-In producing cloth (8 > 5).
+in producing cloth (8 > 5).
 
 ### Limitation
 
 Absolute advantage alone does not explain why trade occurs between countries where one country has
-An absolute advantage in ALL goods. For that, we need comparative advantage.
+an absolute advantage in ALL goods. For that, we need comparative advantage.
 
 ---
 
@@ -59,16 +63,20 @@ A country has a **comparative advantage** in producing a good if it can produce 
 ### The Principle of Comparative Advantage (Ricardo)
 
 Even if one country has an absolute advantage in all goods, both countries can still benefit from
-Trade if they specialise according to their comparative advantage. A country should specialise in
-And export the good in which it has a lower opportunity cost, and import the good in which it has a
-Higher opportunity cost.
+trade if they specialise according to their comparative advantage. A country should specialise in
+and export the good in which it has a lower opportunity cost, and import the good in which it has a
+higher opportunity cost.
 
 ### Example
+
+<div class="table-wrap">
 
 | Country   | Rice (units/labour hour) | Cloth (units/labour hour) |
 | --------- | ------------------------ | ------------------------- |
 | Country A | 10                       | 5                         |
 | Country B | 4                        | 8                         |
+
+</div>
 
 **Opportunity costs:**
 
@@ -116,7 +124,7 @@ Cloth): Cloth = $10 \times 8 = 80$ units
 **World total:** Rice = 100, Cloth = 80
 
 Specialisation increases total world output by 30 units of rice and 15 units of cloth. Both
-Countries can trade and be better off than before.
+countries can trade and be better off than before.
 
 <details>
 <summary>Worked Example: Calculating Gains from Trade</summary>
@@ -173,22 +181,30 @@ Comparative advantage arises from differences between countries in:
 ### Definition
 
 The **terms of trade (TOT)** is the ratio of a country"s export prices to its import prices. It
-Measures how many units of imports a country can buy with one unit of exports.
+measures how many units of imports a country can buy with one unit of exports.
 
-$$\mathrm{Terms of Trade} = \frac{\mathrm{Index of Export Prices}}{\mathrm{Index of Import Prices}} \times 100$$
+$$
+\mathrm{Terms of Trade} = \frac{\mathrm{Index of Export Prices}}{\mathrm{Index of Import Prices}} \times 100
+$$
 
 ### Interpretation
+
+<div class="table-wrap">
 
 | Terms of Trade          | Interpretation                                                                                                              |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Improving (rising)      | A country can buy more imports for the same quantity of exports. Its purchasing power in international trade has increased. |
 | Deteriorating (falling) | A country must export more to buy the same quantity of imports. Its purchasing power has decreased.                         |
 
+</div>
+
 ### Example
 
 If the export price index is 120 and the import price index is 100:
 
-$$\mathrm{TOT} = \frac{120}{100} \times 100 = 120$$
+$$
+\mathrm{TOT} = \frac{120}{100} \times 100 = 120
+$$
 
 A TOT of 120 means the country can buy 20% more imports per unit of exports compared to the base
 Year.
@@ -236,7 +252,9 @@ Making it less competitive compared to domestically produced goods.
 
 **Deadweight loss of a tariff:**
 
-$$\mathrm{DWL} = \mathrm{Loss in consumer surplus} - \mathrm{Gain in producer surplus} - \mathrm{Tariff revenue}$$
+$$
+\mathrm{DWL} = \mathrm{Loss in consumer surplus} - \mathrm{Gain in producer surplus} - \mathrm{Tariff revenue}
+$$
 
 <details>
 <summary>Worked Example: Tariff Deadweight Loss</summary>
@@ -258,7 +276,7 @@ Total `DWL = 250`.
 ### Quotas
 
 A **quota** is a quantitative restriction on the volume or value of imports. It sets a maximum limit
-On the quantity of a good that can be imported during a given period.
+on the quantity of a good that can be imported during a given period.
 
 **Effects of a quota:**
 
@@ -272,7 +290,7 @@ On the quantity of a good that can be imported during a given period.
 ### Subsidies
 
 A **subsidy** is a payment by the government to domestic producers, lowering their costs of
-Production and allowing them to sell at a lower price.
+production and allowing them to sell at a lower price.
 
 **Effects of a subsidy:**
 
@@ -285,6 +303,8 @@ Production and allowing them to sell at a lower price.
 
 ### Comparison of Trade Barriers
 
+<div class="table-wrap">
+
 | Feature                   | Tariff                             | Quota                              | Subsidy                       |
 | ------------------------- | ---------------------------------- | ---------------------------------- | ----------------------------- |
 | Form                      | Tax on imports                     | Limit on import quantity           | Payment to domestic producers |
@@ -294,6 +314,8 @@ Production and allowing them to sell at a lower price.
 | Effect on domestic output | Increases                          | Increases                          | Increases                     |
 | Consumer effect           | Higher prices, less choice         | Higher prices, less choice         | Lower prices                  |
 | Producer effect           | Protected from foreign competition | Protected from foreign competition | Supported financially         |
+
+</div>
 
 ---
 
@@ -372,7 +394,7 @@ Production and allowing them to sell at a lower price.
 ### Definition
 
 The balance of payments (BOP) is a systematic record of all economic transactions between the
-Residents of one country and the rest of the world during a given period ( one year).
+residents of one country and the rest of the world during a given period ( one year).
 
 ### Structure of the Balance of Payments
 
@@ -382,6 +404,8 @@ The BOP consists of three main accounts:
 
 The current account records trade in goods and services, income flows, and current transfers.
 
+<div class="table-wrap">
+
 | Component                            | Description                                                                                       |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------- |
 | Trade in goods (visible trade)       | Exports minus imports of physical goods                                                           |
@@ -389,7 +413,11 @@ The current account records trade in goods and services, income flows, and curre
 | Primary income                       | Income from investments abroad minus income paid to foreign investors (e.g., dividends, interest) |
 | Secondary income (current transfers) | One-way transfers with nothing received in return (e.g., remittances, foreign aid)                |
 
-$$\mathrm{Current Account Balance} = \mathrm{(X - M)}_{\mathrm{goods}} + \mathrm{(X - M)}_{\mathrm{services}} + \mathrm{Primary Income} + \mathrm{Secondary Income}$$
+</div>
+
+$$
+\mathrm{Current Account Balance} = \mathrm{(X - M)}_{\mathrm{goods}} + \mathrm{(X - M)}_{\mathrm{services}} + \mathrm{Primary Income} + \mathrm{Secondary Income}
+$$
 
 **Current account surplus:** When credits (inflows) exceed debits (outflows). The country is earning
 More from abroad than it is spending.
@@ -406,6 +434,8 @@ Non-financial assets (e.g., patents, copyrights, land). This account is small.
 
 The financial account records cross-border investments in financial assets.
 
+<div class="table-wrap">
+
 | Component            | Description                                                                          |
 | -------------------- | ------------------------------------------------------------------------------------ |
 | Direct investment    | Long-term investment in enterprises (e.g., FDI -- setting up factories abroad)       |
@@ -413,14 +443,18 @@ The financial account records cross-border investments in financial assets.
 | Other investment     | Trade credits, loans, currency and deposits                                          |
 | Reserve assets       | Changes in the country's official foreign exchange reserves held by the central bank |
 
+</div>
+
 ### BOP Identity
 
 The balance of payments must always balance (sum to zero):
 
-$$\mathrm{Current Account} + \mathrm{Capital Account} + \mathrm{Financial Account} = 0$$
+$$
+\mathrm{Current Account} + \mathrm{Capital Account} + \mathrm{Financial Account} = 0
+$$
 
 If the current account is in deficit, the capital and financial accounts must be in surplus by an
-Equal amount (and vice versa).
+equal amount (and vice versa).
 
 ### Hong Kong's Balance of Payments
 
@@ -447,7 +481,7 @@ Hong Kong runs a **current account surplus** because:
 ### Definition
 
 The exchange rate is the price of one currency in terms of another. It determines how much of one
-Currency is needed to buy one unit of another currency.
+currency is needed to buy one unit of another currency.
 
 ### Types of Exchange Rate Systems
 
@@ -462,7 +496,7 @@ The exchange rate is set and maintained at a predetermined level by the central 
 #### Floating Exchange Rate
 
 The exchange rate is determined by market forces of supply and demand for the currency, with no (or
-Minimal) government intervention.
+minimal) government intervention.
 
 - The exchange rate fluctuates freely based on changes in demand and supply
 - No need for large foreign exchange reserves
@@ -484,11 +518,13 @@ Floating exchange rate system). Less domestic currency is needed to buy one unit
 Currency.
 
 Under a fixed exchange rate system, the equivalent terms are **devaluation** (downward adjustment of
-The fixed rate) and **revaluation** (upward adjustment of the fixed rate).
+the fixed rate) and **revaluation** (upward adjustment of the fixed rate).
 
 ### Causes of Exchange Rate Changes (Floating System)
 
 **Factors causing DEPRECIATION of a currency:**
+
+<div class="table-wrap">
 
 | Factor                  | Mechanism                                                                                                                               |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -499,6 +535,8 @@ The fixed rate) and **revaluation** (upward adjustment of the fixed rate).
 | Lower economic growth   | Less attractive for foreign investment; lower demand for currency                                                                       |
 | Speculation             | If traders expect depreciation, they sell the currency, causing it to depreciate (self-fulfilling)                                      |
 
+</div>
+
 **Factors causing APPRECIATION of a currency:**
 
 The reverse of the above factors.
@@ -506,6 +544,8 @@ The reverse of the above factors.
 ### Effects of Exchange Rate Changes
 
 **Effects of DEPRECIATION:**
+
+<div class="table-wrap">
 
 | Effect                              | Explanation                                                                                  |
 | ----------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -515,6 +555,8 @@ The reverse of the above factors.
 | Imported inflation                  | More expensive imports raise the cost of imported raw materials and consumer goods           |
 | Foreign debt becomes more expensive | If debt is denominated in foreign currency, more domestic currency is needed to repay        |
 
+</div>
+
 **Effects of APPRECIATION:**
 
 The reverse of the above effects.
@@ -522,7 +564,7 @@ The reverse of the above effects.
 ### The J-Curve Effect
 
 When a currency depreciates, the current account may initially WORSEN before improving. This is
-Because:
+because:
 
 1. In the short run, import and export quantities are relatively fixed (inelastic demand)
 2. The price effect dominates: imports cost more (worsening the trade balance) while export volumes
@@ -538,7 +580,9 @@ The Marshall-Lerner condition states that a currency depreciation will improve t
 Balance only if the sum of the price elasticities of demand for exports and imports is greater than
 1:
 
-$$|\varepsilon_X| + |\varepsilon_M| \gt 1$$
+$$
+|\varepsilon_X| + |\varepsilon_M| \gt 1
+$$
 
 Where:
 
@@ -547,7 +591,7 @@ Where:
 
 If this condition is satisfied, the quantity effect of a depreciation (more exports sold, fewer
 Imports bought) outweighs the price effect (lower export prices, higher import prices), and the
-Trade balance improves.
+trade balance improves.
 
 ---
 
@@ -567,6 +611,8 @@ Appreciates or depreciates together with the USD.
 
 ### When the USD/HKD Appreciates
 
+<div class="table-wrap">
+
 | Effect                        | Impact on Hong Kong Economy                                                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Exports become more expensive | Hong Kong's exports (goods and services) become more expensive for foreign buyers; export demand falls; tourism from abroad decreases |
@@ -576,10 +622,12 @@ Appreciates or depreciates together with the USD.
 | Investment                    | Foreign investment may decrease (higher costs); outward investment may increase (cheaper to invest abroad)                            |
 | Current account               | May deteriorate (lower export revenue, though import costs also fall)                                                                 |
 
+</div>
+
 ### When the USD/HKD Depreciates
 
 The reverse effects: exports become cheaper (boosting export demand and tourism), imports become
-More expensive (increasing costs and imported inflation), and the current account may improve.
+more expensive (increasing costs and imported inflation), and the current account may improve.
 
 ---
 
@@ -597,9 +645,11 @@ More expensive (increasing costs and imported inflation), and the current accoun
 ### Definition
 
 Trade dependency measures the degree to which a country's economy relies on international trade. It
-Is measured as:
+is measured as:
 
-$$\mathrm{Trade Dependency Ratio} = \frac{\mathrm{Total Trade (Exports + Imports)}}{\mathrm{GDP}} \times 100\%$$
+$$
+\mathrm{Trade Dependency Ratio} = \frac{\mathrm{Total Trade (Exports + Imports)}}{\mathrm{GDP}} \times 100\%
+$$
 
 ### Hong Kong's Trade Dependency
 
@@ -638,17 +688,6 @@ Exceeding 300%. This reflects:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[1_International Trade And Finance] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -719,12 +758,12 @@ Country X can produce either 60 units of wheat or 30 units of cloth with all its
 Y can produce either 40 units of wheat or 40 units of cloth.
 
 (a) Which country has an absolute advantage in wheat? In cloth? (b) Calculate the opportunity cost
-Of producing each good in each country. (c) Which country has a comparative advantage in wheat? In
-Cloth? (d) If they specialise and trade at an exchange rate of 1 wheat = 1.2 cloth, show that both
-Countries gain from trade.
+of producing each good in each country. (c) Which country has a comparative advantage in wheat? In
+cloth? (d) If they specialise and trade at an exchange rate of 1 wheat = 1.2 cloth, show that both
+countries gain from trade.
 
 (a) **Wheat:** Country X produces 60 units vs Country Y's 40 units. X has an absolute advantage in
-Wheat.
+wheat.
 
 **Cloth:** Country X produces 30 units vs Country Y's 40 units. Y has an absolute advantage in
 Cloth.
@@ -767,10 +806,14 @@ If X exports 20 wheat to Y at the rate 1 wheat = 1.2 cloth:
 
 **Comparison:**
 
+<div class="table-wrap">
+
 | Country | Before Trade (Wheat, Cloth) | After Trade (Wheat, Cloth) | Gains               |
 | ------- | --------------------------- | -------------------------- | ------------------- |
 | X       | 30, 15                      | 40, 24                     | +10 wheat, +9 cloth |
 | Y       | 20, 20                      | 20, 16                     | 0 wheat, -4 cloth   |
+
+</div>
 
 Wait -- Country Y is worse off. Let me recalculate with a different exchange rate.
 
@@ -784,7 +827,7 @@ X exports 20 wheat to Y at rate 1 wheat = 0.8 cloth:
 
 Now both countries gain. The exchange rate must be between the two opportunity costs: between 0.5
 (X's cost of wheat in terms of cloth) and 1 (Y's cost of wheat in terms of cloth). Any exchange rate
-Where $0.5 \lt \mathrm{exchange rate} \lt 1$ will benefit both countries.
+where $0.5 \lt \mathrm{exchange rate} \lt 1$ will benefit both countries.
 
 </details>
 
@@ -792,12 +835,12 @@ Where $0.5 \lt \mathrm{exchange rate} \lt 1$ will benefit both countries.
 <summary>Question 2: Tariff Analysis</summary>
 
 A small country imports Good Z. The world price is USD 10 per unit. At this price, domestic demand
-Is 1,000 units and domestic supply is 400 units. The government imposes a tariff of USD 2 per unit.
+is 1,000 units and domestic supply is 400 units. The government imposes a tariff of USD 2 per unit.
 At the new price of USD 12, domestic demand falls to 900 units and domestic supply rises to 500
-Units.
+units.
 
 (a) Calculate the change in the quantity of imports. (b) Calculate the tariff revenue collected by
-The government. (c) Calculate the deadweight loss from the tariff.
+the government. (c) Calculate the deadweight loss from the tariff.
 
 (a) Before tariff: Imports = Domestic demand - Domestic supply = 1,000 - 400 = 600 units
 
@@ -839,7 +882,7 @@ Country Z has the following transactions in a year (all values in USD million):
 - Current transfers paid: 80
 
 (a) Calculate the current account balance. (b) Is there a surplus or deficit? What does this imply
-About the capital and financial accounts?
+about the capital and financial accounts?
 
 (a) Current Account = Trade in goods + Trade in services + Primary income + Secondary income
 
@@ -849,8 +892,8 @@ Income = 150 - 100 = +50 (surplus) Secondary income = 50 - 80 = -30 (deficit)
 Current Account Balance = $-200 + 100 + 50 - 30 = -80$
 
 (b) The current account has a deficit of USD 80 million. This means the country is spending more on
-Imports, income payments, and transfers than it is earning from exports, income receipts, and
-Transfers.
+imports, income payments, and transfers than it is earning from exports, income receipts, and
+transfers.
 
 By the BOP identity: Current Account + Capital Account + Financial Account = 0
 
@@ -859,8 +902,8 @@ If the capital account is small (say, approximately zero), then:
 Financial Account = +80 million (surplus)
 
 This means the country must be receiving net financial inflows of USD 80 million -- either through
-Borrowing from abroad, selling assets to foreigners, or using its foreign exchange reserves. A
-Current account deficit is financed by a corresponding surplus in the financial account.
+borrowing from abroad, selling assets to foreigners, or using its foreign exchange reserves. A
+current account deficit is financed by a corresponding surplus in the financial account.
 
 </details>
 
@@ -870,7 +913,7 @@ Current account deficit is financed by a corresponding surplus in the financial 
 The exchange rate between the Euro (EUR) and USD changes from 1 EUR = 1.20 USD to 1 EUR = 1.35 USD.
 
 (a) Has the EUR appreciated or depreciated against the USD? By what percentage? (b) What is the
-Effect on Eurozone exports to the US? Explain. (c) What is the effect on the Eurozone current
+effect on Eurozone exports to the US? Explain. (c) What is the effect on the Eurozone current
 Account? Explain.
 
 (a) The EUR has APPRECIATED against the USD. Previously, 1 EUR bought 1.20 USD; now it buys 1.35
@@ -892,8 +935,8 @@ Eurozone export volumes and revenue to the US are likely to decrease.
 - Both effects reduce the trade surplus (or increase the trade deficit)
 
 However, the full effect depends on the Marshall-Lerner condition. In the short run, demand for
-Exports and imports may be relatively inelastic, so the current account may worsen significantly. In
-The long run, quantities adjust and the effect may be less severe. There may also be a J-curve
+exports and imports may be relatively inelastic, so the current account may worsen significantly. In
+the long run, quantities adjust and the effect may be less severe. There may also be a J-curve
 Effect.
 
 </details>
@@ -902,17 +945,17 @@ Effect.
 <summary>Question 5: Terms of Trade</summary>
 
 A country's export price index rises from 100 to 120, while its import price index rises from 100
-To 110.
+to 110.
 
 (a) Calculate the initial and new terms of trade. (b) Has the terms of trade improved or
-Deteriorated? (c) Explain whether the country is necessarily better off.
+deteriorated? (c) Explain whether the country is necessarily better off.
 
 (a) Initial TOT = $100 / 100 \times 100 = 100$
 
 New TOT = $120 / 110 \times 100 = 109.09$
 
 (b) The terms of trade have IMPROVED from 100 to 109.09. The country can now buy approximately 9%
-More imports for the same quantity of exports compared to the base period.
+more imports for the same quantity of exports compared to the base period.
 
 (c) The country is NOT necessarily better off. While the terms of trade have improved (higher export
 Prices relative to import prices), this improvement could be caused by:
@@ -937,10 +980,10 @@ We need to look at the VOLUME of trade as well (trade volumes and the trade bala
 <summary>Question 6: Hong Kong's Trade and Exchange Rate</summary>
 
 Explain how a significant depreciation of the Chinese yuan (CNY) against the USD (and therefore
-Against the HKD) would affect the Hong Kong economy.
+against the HKD) would affect the Hong Kong economy.
 
 Since the HKD is pegged to the USD, a depreciation of the CNY against the USD means the CNY also
-Depreciates against the HKD.
+depreciates against the HKD.
 
 **Effects on Hong Kong:**
 
@@ -978,7 +1021,7 @@ Depreciates against the HKD.
 <summary>Question 7: Trade Policy Evaluation</summary>
 
 The government of a developing country is considering imposing a tariff on imported steel to protect
-Its domestic steel industry. Discuss the economic arguments for and against this policy.
+its domestic steel industry. Discuss the economic arguments for and against this policy.
 
 **Arguments for the tariff:**
 
@@ -1031,10 +1074,10 @@ Its domestic steel industry. Discuss the economic arguments for and against this
 <summary>Question 8: Marshall-Lerner Condition</summary>
 
 The price elasticity of demand for a country's exports is 0.6, and the price elasticity of demand
-For its imports is 0.3.
+for its imports is 0.3.
 
 (a) Does the Marshall-Lerner condition hold? Will a depreciation of the currency improve or worsen
-The current account?
+the current account?
 
 (b) If the price elasticity of demand for imports were 0.8 instead, what would the answer be?
 
@@ -1042,17 +1085,17 @@ The current account?
 
 $|0.6| + |0.3| = 0.9$
 
-Since $0.9 \lt 1$The Marshall-Lerner condition is NOT satisfied. A depreciation of the currency
-Would WORSEN the current account. The quantity effect (increased export volumes and decreased import
+Since $0.9 \lt 1$ The Marshall-Lerner condition is NOT satisfied. A depreciation of the currency
+would WORSEN the current account. The quantity effect (increased export volumes and decreased import
 Volumes) is smaller than the price effect (lower export prices and higher import prices), so the
-Trade balance deteriorates.
+trade balance deteriorates.
 
 (b) With $\varepsilon_M = 0.8$:
 
 $|0.6| + |0.8| = 1.4$
 
-Since $1.4 \gt 1$The Marshall-Lerner condition IS satisfied. A depreciation would IMPROVE the
-Current account. The quantity effect now outweighs the price effect, and the trade balance improves.
+Since $1.4 \gt 1$ The Marshall-Lerner condition IS satisfied. A depreciation would IMPROVE the
+current account. The quantity effect now outweighs the price effect, and the trade balance improves.
 
 </details>
 
@@ -1097,8 +1140,8 @@ The central bank's foreign exchange reserves INCREASE by USD 20 billion.
 
 (c) An increase in foreign exchange reserves means the central bank is BUYING foreign currency
 (using domestic currency). This is consistent with a current account deficit -- the central bank is
-Supplying domestic currency to the foreign exchange market to maintain the exchange rate (if it is a
-Fixed or managed rate system) or to smooth volatility.
+supplying domestic currency to the foreign exchange market to maintain the exchange rate (if it is a
+fixed or managed rate system) or to smooth volatility.
 
 </details>
 
@@ -1107,23 +1150,23 @@ Fixed or managed rate system) or to smooth volatility.
 
 Country A and Country B form a free trade area (removing tariffs between them). Previously, Country
 A imported Good X from Country C (the most efficient world producer) at USD 10 per unit, plus a
-Tariff of USD 3. After the free trade area, Country A imports Good X from Country B at USD 11 per
-Unit, with no tariff.
+tariff of USD 3. After the free trade area, Country A imports Good X from Country B at USD 11 per
+unit, with no tariff.
 
 (a) Is this trade creation or trade diversion? Explain. (b) What is the effect on world efficiency?
 
 (a) This is an example of **trade diversion**. Before the free trade area, Country A imported from
-Country C (the most efficient producer) at a total cost of USD 13 per unit (USD 10 price + USD 3
+country C (the most efficient producer) at a total cost of USD 13 per unit (USD 10 price + USD 3
 Tariff). After the free trade area, Country A imports from Country B at USD 11 per unit (no tariff).
 
 Although the price to consumers in Country A falls from USD 13 to USD 11 (a gain for consumers),
 Trade has been diverted from the more efficient producer (Country C, cost = USD 10) to the less
-Efficient producer (Country B, cost = USD 11). The world is producing Good X less efficiently than
-Before.
+efficient producer (Country B, cost = USD 11). The world is producing Good X less efficiently than
+before.
 
 **Trade creation** would occur if the free trade area caused Country A to start importing a good
 That it previously produced domestically (because the removal of tariffs made imports cheaper than
-Domestic production). This improves efficiency.
+domestic production). This improves efficiency.
 
 **Trade diversion** occurs when the removal of tariffs between member countries causes imports to
 Shift from a more efficient non-member country to a less efficient member country. This reduces
@@ -1135,7 +1178,7 @@ Good X than necessary. The gain to Country A consumers is partially offset by th
 Productive efficiency.
 
 This is a key criticism of preferential trade agreements (free trade areas, customs unions): they
-Can create trade diversion that partially offsets the benefits of trade creation.
+can create trade diversion that partially offsets the benefits of trade creation.
 
 </details>
 
@@ -1158,7 +1201,7 @@ Country M can produce either 200 tonnes of coffee or 100 tonnes of tea. Country 
 100 tonnes of coffee or 200 tonnes of tea.
 
 (a) Which country has an absolute advantage in coffee? In tea? (b) Calculate the opportunity cost of
-Each good in each country. (c) Which country has a comparative advantage in coffee? In tea? (d) If
+each good in each country. (c) Which country has a comparative advantage in coffee? In tea? (d) If
 they Specialise and trade at an exchange rate of 1 coffee = 1.5 tea, show that both gain.
 
 <details>
@@ -1206,7 +1249,7 @@ Secondary income: `30 - 50 = -20`.
 
 Current account = `-200 + 100 + 40 - 20 = -80` (deficit of USD 80 billion).
 
-(b) `CA + FA = 0` (approximately). `-80 + 40 + (-R) = 0`So `R = -40`.
+(b) `CA + FA = 0` (approximately). `-80 + 40 + (-R) = 0`. So `R = -40`.
 
 Reserves **decrease** by USD 40 billion (negative means reserves fall).
 
@@ -1253,13 +1296,13 @@ needed For depreciation to improve the trade balance?
 <details>
 <summary>Solution</summary>
 
-(a) Sum = `|0.4| + |0.9| = 1.3`. Since `1.3 \gt 1`The Marshall-Lerner condition **holds**.
+(a) Sum = `|0.4| + |0.9| = 1.3`. Since `1.3 \gt 1`. The Marshall-Lerner condition **holds**.
 
 (b) Even though the ML condition holds, the trade balance may **worsen in the short run** due to the
 J-curve effect (quantities adjust slowly, price effect dominates initially). In the long run,
 quantities Adjust and the trade balance improves.
 
-(c) We need `|0.4| + |e_M| \gt 1`So `|e_M| \gt 0.6`. The import elasticity must exceed 0.6.
+(c) We need `|0.4| + |e_M| \gt 1`. So `|e_M| \gt 0.6`. The import elasticity must exceed 0.6.
 
 </details>
 
@@ -1299,7 +1342,7 @@ economy Given the Linked Exchange Rate System.
 <summary>Solution</summary>
 
 Since the HKD is pegged to the USD, higher US interest rates force higher HKD interest rates to
-Maintain the peg (to prevent capital outflows from HKD to USD assets).
+maintain the peg (to prevent capital outflows from HKD to USD assets).
 
 Effects on Hong Kong:
 
@@ -1372,7 +1415,7 @@ tariff Depends on the elasticities of demand and supply. Government collects tar
 
 (b) Under a quota, the quota rent = `(domestic price with quota - world price) \times 600`. This
 rent May go to: foreign producers (if they hold the licences), domestic importers (if they hold the
-Licences), or the government (if licences are auctioned).
+licences), or the government (if licences are auctioned).
 
 (c) A tariff is generally more efficient because: (1) it generates government revenue that can be
 used To reduce other distortionary taxes; (2) the quota rent may go to foreign producers, worsening
@@ -1401,11 +1444,15 @@ If you get this wrong, revise: [Trade Barriers](#trade-barriers)
 Three countries can produce computers and textiles with the following labour requirements (hours per
 unit):
 
+<div class="table-wrap">
+
 |                | Computers | Textiles |
 | -------------- | --------- | -------- |
 | Hong Kong      | 10        | 5        |
 | Mainland China | 30        | 3        |
 | Vietnam        | 50        | 2        |
+
+</div>
 
 (a) Which country has an absolute advantage in each good? (b) Calculate the opportunity cost of 1
 computer in each country. (c) If each country has 1000 labour hours, calculate the production
@@ -1709,9 +1756,6 @@ If you get this wrong, revise: [Development Strategies](/economics/7-internation
 </details>
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

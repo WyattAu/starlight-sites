@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Current Resistance] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Physics describes the fundamental rules of the universe, from the tiniest particles to the vastness of space.**
@@ -40,9 +29,13 @@ flowchart TD
 
 A filament lamp is connected to a variable power supply. The following I-V data are recorded:
 
+<div class="table-wrap">
+
 | $V\,/\,\text{V}$  | 0   | 1.0 | 2.0 | 4.0 | 6.0 | 8.0 | 10.0 | 12.0 |
 | ----------------- | --- | --- | --- | --- | --- | --- | ---- | ---- |
 | $I\,/\,\text{mA}$ | 0   | 80  | 120 | 180 | 230 | 270 | 300  | 330  |
+
+</div>
 
 (a) Sketch the I-V characteristic and explain why the lamp is non-ohmic.
 
@@ -56,7 +49,7 @@ with voltage.
 (a) The I-V graph curves away from both axes (current increases more slowly as voltage increases).
 This is because the filament is a metal (tungsten) whose resistance increases with temperature. As
 current flows, the filament heats up, increasing its resistance. V=IR applies at every instant
-(Ohm"s law is a property of the conductor at a specific operating point), but the resistance is not
+(Ohm's law is a property of the conductor at a specific operating point), but the resistance is not
 constant -- on the applied voltage (through the resulting temperature).
 
 The graph is not a straight line through the origin, so the lamp is non-ohmic.
@@ -71,9 +64,9 @@ The resistance more than doubles between $2\,\text{V}$ and $12\,\text{V}$.
 
 The resistance increases because the filament temperature increases with power dissipation
 ($P = I^2R$). For a metal, resistivity increases approximately linearly with temperature above the
-Debye temperature: $\rho(T) = \rho_0[1 + \alpha(T - T_0)]$Where
-$\alpha \approx 0.0045\,\text{K}^{-1}$ for tungsten. At $12\,\text{V}$The filament temperature is
-around $2800\,\text{K}$Much higher than room temperature.
+Debye temperature: $\rho(T) = \rho_0[1 + \alpha(T - T_0)]$ Where
+$\alpha \approx 0.0045\,\text{K}^{-1}$ for tungsten. At $12\,\text{V}$ The filament temperature is
+around $2800\,\text{K}$ Much higher than room temperature.
 
 ---
 
@@ -105,7 +98,9 @@ cross-sectional area $1.0 \times 10^{-6}\,\text{m}^2$.
 (a) $R_2 = R_1[1 + \alpha(T_2 - T_1)]$
 
 $$5.80 = 5.00[1 + \alpha(80)]$$ $$1 + 80\alpha = 1.160$$ $$80\alpha = 0.160$$
-$$\alpha = 0.00200\,\text{K}^{-1}$$
+$$
+\alpha = 0.00200\,\text{K}^{-1}
+$$
 
 The accepted value is approximately $0.00393\,\text{K}^{-1}$ But we use the data given.
 
@@ -136,7 +131,9 @@ $$0.00200(T_3 - 20) = 0.300$$ $$T_3 = 170^\circ\text{C}$$
 
 A semiconductor diode has the I-V characteristic approximated by the Shockley diode equation:
 
-$$I = I_0\left(e^{eV/(nkT)} - 1\right)$$
+$$
+I = I_0\left(e^{eV/(nkT)} - 1\right)
+$$
 
 Where $I_0 = 5.0 \times 10^{-9}\,\text{A}$, $n = 1.5$ (ideality factor),
 $e = 1.60 \times 10^{-19}\,\text{C}$, $k = 1.38 \times 10^{-23}\,\text{J}\,\text{K}^{-1}$ And
@@ -155,18 +152,24 @@ $V_T = kT/e = 1.38 \times 10^{-23} \times 300/1.60 \times 10^{-19} = 0.02588\,\t
 
 Exponent: $eV/(nkT) = 0.60/(1.5 \times 0.02588) = 0.60/0.03881 = 15.46$
 
-$$I = 5.0 \times 10^{-9}(e^{15.46} - 1) = 5.0 \times 10^{-9}(5.265 \times 10^6 - 1) \approx 5.0 \times 10^{-9} \times 5.265 \times 10^6 = 0.0263\,\text{A} = 26.3\,\text{mA}$$
+$$
+I = 5.0 \times 10^{-9}(e^{15.46} - 1) = 5.0 \times 10^{-9}(5.265 \times 10^6 - 1) \approx 5.0 \times 10^{-9} \times 5.265 \times 10^6 = 0.0263\,\text{A} = 26.3\,\text{mA}
+$$
 
 (b) Dynamic resistance: $r_d = \frac{dV}{dI} = \frac{nkT}{e(I + I_0)} \approx \frac{nkT}{eI}$ (since
 $I \gg I_0$)
 
-$$r_d = \frac{1.5 \times 0.02588}{0.0263} = \frac{0.03881}{0.0263} = 1.48\,\Omega$$
+$$
+r_d = \frac{1.5 \times 0.02588}{0.0263} = \frac{0.03881}{0.0263} = 1.48\,\Omega
+$$
 
 (c) At $I = 10\,\text{mA} = 0.010\,\text{A}$:
 
 $$0.010 = 5.0 \times 10^{-9}(e^{V/(nV_T)} - 1)$$ $$e^{V/(nV_T)} - 1 = 2.0 \times 10^6$$
 $$e^{V/(nV_T)} = 2.0 \times 10^6$$ $$\frac{V}{nV_T} = \ln(2.0 \times 10^6) = 14.51$$
-$$V = 14.51 \times 1.5 \times 0.02588 = 0.563\,\text{V}$$
+$$
+V = 14.51 \times 1.5 \times 0.02588 = 0.563\,\text{V}
+$$
 
 ## Integration Tests
 
@@ -183,7 +186,7 @@ The lamp has resistance $100\,\Omega$ at the operating point in the balanced con
 
 (a) Calculate the current through each resistor when the bridge is balanced.
 
-(b) If $R_1$ increases to $110\,\Omega$Calculate the current through the galvanometer.
+(b) If $R_1$ increases to $110\,\Omega$ Calculate the current through the galvanometer.
 
 (c) Explain how the Wheatstone bridge principle fails when non-ohmic components are used.
 
@@ -193,8 +196,8 @@ The lamp has resistance $100\,\Omega$ at the operating point in the balanced con
 
 $100/200 = 150/R_L \Rightarrow R_L = 300\,\Omega$
 
-But we are told $R_L = 100\,\Omega$ at the operating point, and $R_1/R_2 = 100/200 = 0.5$While
-$R_3/R_L = 150/100 = 1.5$. Since $0.5 \ne 1.5$The bridge is **not balanced**.
+But we are told $R_L = 100\,\Omega$ at the operating point, and $R_1/R_2 = 100/200 = 0.5$ While
+$R_3/R_L = 150/100 = 1.5$. Since $0.5 \ne 1.5$ The bridge is **not balanced**.
 
 For the bridge to be balanced with $R_L = 100\,\Omega$: $R_1/R_2 = R_3/R_L = 150/100 = 1.5$ So
 $R_1 = 1.5 \times 200 = 300\,\Omega$.
@@ -203,7 +206,7 @@ Since the bridge is not balanced, the galvanometer will carry current. This is a
 the question -- the bridge is deliberately unbalanced.
 
 The total circuit needs to be solved using Kirchhoff's laws. The potential at the top junction is
-$12\,\text{V}$At the bottom is $0\,\text{V}$.
+$12\,\text{V}$ At the bottom is $0\,\text{V}$.
 
 Left branch: $R_1$ and $R_3$ in series, midpoint at
 $V_{\text{mid,left}} = 12 \times 150/(100 + 150) = 12 \times 0.6 = 7.2\,\text{V}$
@@ -249,7 +252,7 @@ without additional circuitry to control the operating point.
 
 **Question:**
 
-A student determines the resistivity of a material using a wire of length $l$Diameter $d$ And
+A student determines the resistivity of a material using a wire of length $l$ Diameter $d$ And
 measuring the resistance $R$ with a digital multimeter. They use $\rho = \pi d^2 R/(4l)$.
 
 Their measurements are:
@@ -259,7 +262,7 @@ $l = (1.000 \pm 0.001)\,\text{m}$$d = (0.500 \pm 0.005)\,\text{mm}$$R = (8.50 \p
 
 (b) The student notices that the resistance measurement was made with the wire at
 $25^\circ\text{C}$ But the specification gives the resistivity at $20^\circ\text{C}$. If
-$\alpha = 0.004\,\text{K}^{-1}$Calculate the corrected resistivity at $20^\circ\text{C}$.
+$\alpha = 0.004\,\text{K}^{-1}$ Calculate the corrected resistivity at $20^\circ\text{C}$.
 
 (c) The student then uses a micrometer screw gauge (resolution $0.01\,\text{mm}$) to re-measure the
 diameter, obtaining $d = (0.498 \pm 0.003)\,\text{mm}$. Recalculate the percentage uncertainty and
@@ -269,30 +272,44 @@ comment on the improvement.
 
 (a) $d = 0.500\,\text{mm} = 5.00 \times 10^{-4}\,\text{m}$
 
-$$\rho = \frac{\pi d^2 R}{4l} = \frac{\pi \times (5.00 \times 10^{-4})^2 \times 8.50}{4 \times 1.000} = \frac{\pi \times 2.500 \times 10^{-7} \times 8.50}{4} = \frac{6.685 \times 10^{-6}}{4} = 1.671 \times 10^{-6}\,\Omega\,\text{m}$$
+$$
+\rho = \frac{\pi d^2 R}{4l} = \frac{\pi \times (5.00 \times 10^{-4})^2 \times 8.50}{4 \times 1.000} = \frac{\pi \times 2.500 \times 10^{-7} \times 8.50}{4} = \frac{6.685 \times 10^{-6}}{4} = 1.671 \times 10^{-6}\,\Omega\,\text{m}
+$$
 
 Percentage uncertainty:
 
-$$\frac{\Delta\rho}{\rho} = 2\frac{\Delta d}{d} + \frac{\Delta R}{R} + \frac{\Delta l}{l} = 2 \times \frac{0.005}{0.500} + \frac{0.05}{8.50} + \frac{0.001}{1.000}$$
-$$= 2 \times 0.010 + 0.00588 + 0.001 = 0.02688 = 2.69\%$$
+$$
+\frac{\Delta\rho}{\rho} = 2\frac{\Delta d}{d} + \frac{\Delta R}{R} + \frac{\Delta l}{l} = 2 \times \frac{0.005}{0.500} + \frac{0.05}{8.50} + \frac{0.001}{1.000}
+$$
+$$
+= 2 \times 0.010 + 0.00588 + 0.001 = 0.02688 = 2.69\%
+$$
 
-$$\rho = (1.67 \pm 0.04) \times 10^{-6}\,\Omega\,\text{m}$$
+$$
+\rho = (1.67 \pm 0.04) \times 10^{-6}\,\Omega\,\text{m}
+$$
 
 The dominant uncertainty is from the diameter measurement (which enters as $d^2$).
 
 (b) The resistance at $20^\circ\text{C}$:
 $R_{20} = R_{25}/[1 + \alpha(25 - 20)] = 8.50/[1 + 0.004 \times 5] = 8.50/1.020 = 8.333\,\Omega$
 
-$$\rho_{20} = \frac{\pi \times 2.500 \times 10^{-7} \times 8.333}{4} = 1.636 \times 10^{-6}\,\Omega\,\text{m}$$
+$$
+\rho_{20} = \frac{\pi \times 2.500 \times 10^{-7} \times 8.333}{4} = 1.636 \times 10^{-6}\,\Omega\,\text{m}
+$$
 
 (c) New diameter: $d = 0.498\,\text{mm}$, $\Delta d = 0.003\,\text{mm}$
 
-$$\rho' = \frac{\pi \times (4.98 \times 10^{-4})^2 \times 8.50}{4 \times 1.000} = \frac{\pi \times 2.480 \times 10^{-7} \times 8.50}{4} = 1.657 \times 10^{-6}\,\Omega\,\text{m}$$
+$$
+\rho' = \frac{\pi \times (4.98 \times 10^{-4})^2 \times 8.50}{4 \times 1.000} = \frac{\pi \times 2.480 \times 10^{-7} \times 8.50}{4} = 1.657 \times 10^{-6}\,\Omega\,\text{m}
+$$
 
-$$\frac{\Delta\rho'}{\rho'} = 2 \times \frac{0.003}{0.498} + 0.00588 + 0.001 = 0.01205 + 0.00588 + 0.001 = 0.01893 = 1.89\%$$
+$$
+\frac{\Delta\rho'}{\rho'} = 2 \times \frac{0.003}{0.498} + 0.00588 + 0.001 = 0.01205 + 0.00588 + 0.001 = 0.01893 = 1.89\%
+$$
 
 The percentage uncertainty improved from $2.69\%$ to $1.89\%$. The micrometer reduced the fractional
-uncertainty in diameter from $1.0\%$ to $0.60\%$ And since diameter enters as $d^2$This contributed
+uncertainty in diameter from $1.0\%$ to $0.60\%$ And since diameter enters as $d^2$ This contributed
 $2 \times 0.40\% = 0.80\%$ improvement.
 
 ---

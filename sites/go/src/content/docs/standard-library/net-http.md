@@ -526,11 +526,15 @@ Returns. The `context.WithTimeout` ensures shutdown does not hang indefinitely.
 
 ### Server Timeouts
 
+<div class="table-wrap">
+
 | Timeout        | Purpose                                     |
 | -------------- | ------------------------------------------- |
 | `ReadTimeout`  | Max time to read the entire request         |
 | `WriteTimeout` | Max time to write the response              |
 | `IdleTimeout`  | Max time a keep-alive connection stays open |
+
+</div>
 
 Without these timeouts, a slow client can hold a goroutine indefinitely, eventually exhausting
 Server resources.
@@ -580,7 +584,7 @@ Downstream operations.
    as the second argument registers routes on the global `http.DefaultServeMux`. Any package can
    Register routes on it. Use `http.NewServeMux()` to create an isolated router.
 
-4. **No timeouts on the server.** Without `ReadTimeout``WriteTimeout`and `IdleTimeout`a single
+4. **No timeouts on the server.** Without `ReadTimeout`, `WriteTimeout`and `IdleTimeout`a single
    Slow client can hold a goroutine forever. Always configure timeouts in production.
 
 5. **Blocking in handlers.** Handlers run in their own goroutines, but blocking calls (e.g.,
@@ -592,16 +596,6 @@ Downstream operations.
 
 7. **Not checking request body errors.** `r.Body` is a stream. If the client disconnects
    mid-request, Reading from `r.Body` returns an error. Always check errors from `r.Body` reads.
-
-```mermaid
-flowchart TD
-    A[Net Http] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -616,13 +610,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

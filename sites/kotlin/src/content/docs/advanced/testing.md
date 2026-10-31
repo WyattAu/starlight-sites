@@ -81,7 +81,7 @@ class UserServiceTest {
 
 ### Assertion Libraries
 
-Kotlin provides its own assertion functions via `kotlin-test`Which work with any test framework.
+Kotlin provides its own assertion functions via `kotlin-test`. Which work with any test framework.
 
 ```kotlin
 import kotlin.test.assertEquals
@@ -189,7 +189,7 @@ class OrderServiceTest {
 ### Relaxed Mocks
 
 A relaxed mock returns default values for all function calls without explicit stubbing. Useful when
-You only care about verifying specific interactions.
+you only care about verifying specific interactions.
 
 ```kotlin
 val repository = mockk<Repository>(relaxed = true)
@@ -469,17 +469,6 @@ fun `timeout fires after delay`() = runTest {
   which means you may not notice when the code under test calls methods you did not expect. Use
   strict mocks by default and relax only when necessary.
 
-
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of testing, including underlying theory, practical
@@ -493,13 +482,7 @@ implementation, and key applications.
 - exception handling
 - the JVM and garbage collection
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

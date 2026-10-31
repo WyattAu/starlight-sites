@@ -68,7 +68,7 @@ Note: variance has units cm$^2$While standard deviation has units cm.
 **Question:**
 
 A set of data has mean $m$ and standard deviation $s$. If each value is transformed by
-$y = 3x - 5$Find the new mean and new standard deviation in terms of $m$ and $s$.
+$y = 3x - 5$ Find the new mean and new standard deviation in terms of $m$ and $s$.
 
 **Solution:**
 
@@ -99,6 +99,8 @@ A common mistake is thinking the $-5$ affects the standard deviation.
 
 Find the estimated mean and estimated standard deviation from the following grouped data:
 
+<div class="table-wrap">
+
 | Class              | Frequency |
 | ------------------ | --------- |
 | $0 \leq x \lt 10$  | 5         |
@@ -106,9 +108,13 @@ Find the estimated mean and estimated standard deviation from the following grou
 | $20 \leq x \lt 30$ | 12        |
 | $30 \leq x \lt 40$ | 5         |
 
+</div>
+
 **Solution:**
 
 Midpoints: $5, 15, 25, 35$.
+
+<div class="table-wrap">
 
 | $x$   | $f$ | $fx$ | $fx^2$ |
 | ----- | --- | ---- | ------ |
@@ -117,6 +123,8 @@ Midpoints: $5, 15, 25, 35$.
 | 25    | 12  | 300  | 7500   |
 | 35    | 5   | 175  | 6125   |
 | Total | 30  | 620  | 15550  |
+
+</div>
 
 Estimated mean: $\bar{x} = \dfrac{620}{30} = \dfrac{62}{3} \approx 20.67$.
 
@@ -140,7 +148,7 @@ Estimated SD $= \sqrt{\dfrac{821}{9}} = \dfrac{\sqrt{821}}{3} \approx 9.56$.
 
 **Question:**
 
-A box plot has minimum $= 10$$Q_1 = 25$Median $= 35$$Q_3 = 50$Maximum $= 80$. Find the interquartile
+A box plot has minimum $= 10$$Q_1 = 25$ Median $= 35$$Q_3 = 50$ Maximum $= 80$. Find the interquartile
 range and identify any outliers.
 
 **Solution:**
@@ -151,7 +159,7 @@ Lower fence: $Q_1 - 1.5 \times \text{IQR} = 25 - 37.5 = -12.5$.
 
 Upper fence: $Q_3 + 1.5 \times \text{IQR} = 50 + 37.5 = 87.5$.
 
-Since all values ($10$ to $80$) fall within $[-12.5,\; 87.5]$There are no outliers.
+Since all values ($10$ to $80$) fall within $[-12.5,\; 87.5]$ There are no outliers.
 
 ---
 
@@ -180,11 +188,15 @@ $\bar{x} = \dfrac{8 \times 10 + 12 \times 15}{20} = \dfrac{80 + 180}{20} = \dfra
 
 Combined variance using the formula:
 
-$$s^2 = \frac{n_A(s_A^2 + d_A^2) + n_B(s_B^2 + d_B^2)}{n_A + n_B}$$
+$$
+s^2 = \frac{n_A(s_A^2 + d_A^2) + n_B(s_B^2 + d_B^2)}{n_A + n_B}
+$$
 
 Where $d_A = \bar{x}_A - \bar{x} = 10 - 13 = -3$ and $d_B = \bar{x}_B - \bar{x} = 15 - 13 = 2$.
 
-$$s^2 = \frac{8(4 + 9) + 12(9 + 4)}{20} = \frac{8 \times 13 + 12 \times 13}{20} = \frac{104 + 156}{20} = \frac{260}{20} = 13$$
+$$
+s^2 = \frac{8(4 + 9) + 12(9 + 4)}{20} = \frac{8 \times 13 + 12 \times 13}{20} = \frac{104 + 156}{20} = \frac{260}{20} = 13
+$$
 
 ---
 
@@ -211,13 +223,21 @@ $E(X)$ and $\text{Var}(X)$.
 
 **Solution:**
 
-$$E(X) = 1 \times \frac{1}{15} + 2 \times \frac{2}{15} + 3 \times \frac{3}{15} + 4 \times \frac{4}{15} + 5 \times \frac{5}{15}$$
+$$
+E(X) = 1 \times \frac{1}{15} + 2 \times \frac{2}{15} + 3 \times \frac{3}{15} + 4 \times \frac{4}{15} + 5 \times \frac{5}{15}
+$$
 
-$$= \frac{1 + 4 + 9 + 16 + 25}{15} = \frac{55}{15} = \frac{11}{3}$$
+$$
+= \frac{1 + 4 + 9 + 16 + 25}{15} = \frac{55}{15} = \frac{11}{3}
+$$
 
-$$E(X^2) = \frac{1 + 8 + 27 + 64 + 125}{15} = \frac{225}{15} = 15$$
+$$
+E(X^2) = \frac{1 + 8 + 27 + 64 + 125}{15} = \frac{225}{15} = 15
+$$
 
-$$\text{Var}(X) = E(X^2) - [E(X)]^2 = 15 - \frac{121}{9} = \frac{135 - 121}{9} = \frac{14}{9}$$
+$$
+\text{Var}(X) = E(X^2) - [E(X)]^2 = 15 - \frac{121}{9} = \frac{135 - 121}{9} = \frac{14}{9}
+$$
 
 ---
 
@@ -234,7 +254,7 @@ $$\text{Var}(X) = E(X^2) - [E(X)]^2 = 15 - \frac{121}{9} = \frac{135 - 121}{9} =
 
 **Question:**
 
-A set of 50 numbers has mean $20$ and standard deviation $4$. Using Chebyshev"s inequality (or
+A set of 50 numbers has mean $20$ and standard deviation $4$. Using Chebyshev's inequality (or
 empirical reasoning), at least what percentage of the data lies within 2 standard deviations of the
 mean?
 
@@ -333,11 +353,17 @@ The additive constant $7$ shifts the data but does not affect the spread.
 
 Find the mean and standard deviation of the following data:
 
+<div class="table-wrap">
+
 | $x$ | 2   | 4   | 6   | 8   | 10  |
 | --- | --- | --- | --- | --- | --- |
 | $f$ | 3   | 5   | 8   | 4   | 2   |
 
+</div>
+
 **Solution:**
+
+<div class="table-wrap">
 
 | $x$   | $f$ | $fx$ | $fx^2$ |
 | ----- | --- | ---- | ------ |
@@ -348,11 +374,19 @@ Find the mean and standard deviation of the following data:
 | 10    | 2   | 20   | 200    |
 | Total | 22  | 126  | 836    |
 
-$$\bar{x} = \frac{126}{22} = \frac{63}{11} \approx 5.727$$
+</div>
 
-$$\sigma^2 = \frac{836}{22} - \left(\frac{63}{11}\right)^2 = \frac{418}{11} - \frac{3969}{121} = \frac{4598 - 3969}{121} = \frac{629}{121}$$
+$$
+\bar{x} = \frac{126}{22} = \frac{63}{11} \approx 5.727
+$$
 
-$$\sigma = \sqrt{\frac{629}{121}} = \frac{\sqrt{629}}{11} \approx 2.28$$
+$$
+\sigma^2 = \frac{836}{22} - \left(\frac{63}{11}\right)^2 = \frac{418}{11} - \frac{3969}{121} = \frac{4598 - 3969}{121} = \frac{629}{121}
+$$
+
+$$
+\sigma = \sqrt{\frac{629}{121}} = \frac{\sqrt{629}}{11} \approx 2.28
+$$
 
 **DSE Exam Technique:** Always set up the table with columns for $fx$ and $fx^2$. This earns method
 marks even if there is a minor calculation error. Leave standard deviation in exact form unless
@@ -373,7 +407,7 @@ asked for a decimal.
 
 **Question:**
 
-Using the coding $y = \dfrac{x - 25}{5}$The coded data has mean $\bar{y} = 1.2$ and variance
+Using the coding $y = \dfrac{x - 25}{5}$ The coded data has mean $\bar{y} = 1.2$ and variance
 $s_y^2 = 4.8$. Find the mean and standard deviation of the original data.
 
 **Solution:**
@@ -402,7 +436,9 @@ $\sigma_x = \dfrac{\sigma_y}{|a|} = \dfrac{\sqrt{4.8}}{1/5} = 5\sqrt{4.8} = 5 \t
 
 Find the median, quartiles, and interquartile range of the data set:
 
-$$12, 15, 18, 20, 22, 25, 28, 30, 35, 40, 45$$
+$$
+12, 15, 18, 20, 22, 25, 28, 30, 35, 40, 45
+$$
 
 **Solution:**
 
@@ -418,7 +454,9 @@ Upper half: $28, 30, 35, 40, 45$ (5 values).
 
 $Q_3$ position: $\dfrac{5 + 1}{2} = 3$. $Q_3 = 35$.
 
-$$\text{IQR} = Q_3 - Q_1 = 35 - 18 = 17$$
+$$
+\text{IQR} = Q_3 - Q_1 = 35 - 18 = 17
+$$
 
 ---
 
@@ -442,11 +480,15 @@ $68$ and standard deviation $15$. Which class has more consistent performance? J
 
 The coefficient of variation (CV) measures relative dispersion:
 
-$$\text{CV}_A = \frac{8}{65} \times 100\% \approx 12.3\%$$
+$$
+\text{CV}_A = \frac{8}{65} \times 100\% \approx 12.3\%
+$$
 
-$$\text{CV}_B = \frac{15}{68} \times 100\% \approx 22.1\%$$
+$$
+\text{CV}_B = \frac{15}{68} \times 100\% \approx 22.1\%
+$$
 
-Since $\text{CV}_A < \text{CV}_B$Class A has more consistent performance.
+Since $\text{CV}_A < \text{CV}_B$ Class A has more consistent performance.
 
 Alternatively, comparing standard deviations directly: Class A has $\sigma = 8$ and Class B has
 $\sigma = 15$. The smaller standard deviation of Class A indicates less variability, i.e. More
@@ -509,9 +551,13 @@ outliers have an exaggerated effect on measures of dispersion.
 
 The mean of the following data is $4.5$. Find the value of $k$.
 
+<div class="table-wrap">
+
 | $x$ | 1   | 2   | 3   | 4   | 5   | 6   |
 | --- | --- | --- | --- | --- | --- | --- |
 | $f$ | 2   | 4   | $k$ | 6   | 3   | 1   |
+
+</div>
 
 **Solution:**
 
@@ -519,13 +565,21 @@ Total frequency: $n = 2 + 4 + k + 6 + 3 + 1 = 16 + k$.
 
 Sum: $\sum fx = 2 + 8 + 3k + 24 + 15 + 6 = 55 + 3k$.
 
-$$\bar{x} = \frac{55 + 3k}{16 + k} = 4.5$$
+$$
+\bar{x} = \frac{55 + 3k}{16 + k} = 4.5
+$$
 
-$$55 + 3k = 4.5(16 + k) = 72 + 4.5k$$
+$$
+55 + 3k = 4.5(16 + k) = 72 + 4.5k
+$$
 
-$$1.5k = 17$$
+$$
+1.5k = 17
+$$
 
-$$k = \frac{17}{1.5} = \frac{34}{3}$$
+$$
+k = \frac{17}{1.5} = \frac{34}{3}
+$$
 
 Since $k$ must be a non-negative integer, and $\dfrac{34}{3}$ is not an integer, there is no integer
 value of $k$ that gives a mean of exactly $4.5$. If the question allows non-integer frequencies,
@@ -546,14 +600,16 @@ $k = \dfrac{34}{3}$.
 
 **Question:**
 
-For grouped data with class width $h$State Sheppard's correction for the variance and explain when
+For grouped data with class width $h$ State Sheppard's correction for the variance and explain when
 it is appropriate to use it.
 
 **Solution:**
 
 Sheppard's correction adjusts the grouped data variance:
 
-$$\sigma_{\text{corrected}}^2 = \sigma_{\text{grouped}}^2 - \frac{h^2}{12}$$
+$$
+\sigma_{\text{corrected}}^2 = \sigma_{\text{grouped}}^2 - \frac{h^2}{12}
+$$
 
 This correction is appropriate when:
 
@@ -577,17 +633,6 @@ In DSE examinations, Sheppard's correction is generally not required unless expl
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Dispersion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A bullseye and its rings:** Standard deviation measures how scattered darts are from the bullseye, clustered tightly means low spread, scattered widely means high spread. Variance is just the square of that scatter.
@@ -599,14 +644,14 @@ flowchart TD
 ## Common Pitfalls
 
 1. **Confusing population variance with sample variance.** The population variance formula divides
-   by $n$While the sample variance divides by $n - 1$ (Bessel's correction). In DSE Maths, unless
+   by $n$ While the sample variance divides by $n - 1$ (Bessel's correction). In DSE Maths, unless
    specified otherwise, use the population formula (divide by $n$).
 
 2. **Forgetting that variance has squared units.** If data is in centimetres, the variance is in
    cm$^2$ and the standard deviation is in cm. Do not mix up units when writing conclusions.
 
 3. **Incorrectly applying coding formulas.** For the transformation $y = ax + b$: new mean
-   $= a\bar{x} + b$New SD $= |a| \cdot s$. The additive constant $b$ does NOT affect the standard
+   $= a\bar{x} + b$ New SD $= |a| \cdot s$. The additive constant $b$ does NOT affect the standard
    deviation. A common error is writing new SD $= as + b$.
 
 4. **Using the wrong formula for combined variance.** When combining two data sets, do not average
@@ -634,9 +679,13 @@ flowchart TD
 
 The following table shows the distribution of marks obtained by 40 students in a test.
 
+<div class="table-wrap">
+
 | Marks     | $1$--$10$ | $11$--$20$ | $21$--$30$ | $31$--$40$ | $41$--$50$ |
 | --------- | --------- | ---------- | ---------- | ---------- | ---------- |
 | Frequency | 3         | 8          | 14         | 10         | 5          |
+
+</div>
 
 (a) Estimate the mean mark. (3 marks) (b) Estimate the standard deviation of the marks. (3 marks)
 (c) If a student scored 35 marks, find the student's standardised score (z-score). (2 marks)
@@ -644,6 +693,8 @@ The following table shows the distribution of marks obtained by 40 students in a
 **Solution:**
 
 (a) Midpoints: $5.5, 15.5, 25.5, 35.5, 45.5$.
+
+<div class="table-wrap">
 
 | $x$   | $f$ | $fx$  | $fx^2$   |
 | ----- | --- | ----- | -------- |
@@ -654,7 +705,11 @@ The following table shows the distribution of marks obtained by 40 students in a
 | 45.5  | 5   | 227.5 | 10351.25 |
 | Total | 40  | 1080  | 34070    |
 
-$$\bar{x} = \frac{1080}{40} = 27$$
+</div>
+
+$$
+\bar{x} = \frac{1080}{40} = 27
+$$
 
 (b) $\sigma^2 = \dfrac{34070}{40} - 27^2 = 851.75 - 729 = 122.75$.
 
@@ -731,9 +786,13 @@ $= \dfrac{30 \times 72 + 20 \times 65}{50} = \dfrac{2160 + 1300}{50} = \dfrac{34
 
 (b) $d_A = 72 - 69.2 = 2.8$$d_B = 65 - 69.2 = -4.2$.
 
-$$\sigma^2 = \frac{30(36 + 2.8^2) + 20(64 + 4.2^2)}{50} = \frac{30(36 + 7.84) + 20(64 + 17.64)}{50}$$
+$$
+\sigma^2 = \frac{30(36 + 2.8^2) + 20(64 + 4.2^2)}{50} = \frac{30(36 + 7.84) + 20(64 + 17.64)}{50}
+$$
 
-$$= \frac{30 \times 43.84 + 20 \times 81.64}{50} = \frac{1315.2 + 1632.8}{50} = \frac{2948}{50} = 58.96$$
+$$
+= \frac{30 \times 43.84 + 20 \times 81.64}{50} = \frac{1315.2 + 1632.8}{50} = \frac{2948}{50} = 58.96
+$$
 
 ---
 
@@ -748,10 +807,10 @@ $$= \frac{30 \times 43.84 + 20 \times 81.64}{50} = \frac{1315.2 + 1632.8}{50} = 
 
 ### DSE-4
 
-The box-and-whisker diagram below summarises the daily temperatures (in $°$C) recorded in a city for
+The box-and-whisker diagram below summarises the daily temperatures (in $°$ C) recorded in a city for
 30 days:
 
-Minimum $= 12$$Q_1 = 18$Median $= 22$$Q_3 = 28$Maximum $= 35$.
+Minimum $= 12$$Q_1 = 18$ Median $= 22$$Q_3 = 28$ Maximum $= 35$.
 
 (a) Find the interquartile range. (1 mark) (b) Determine the lower and upper fences and identify any
 outliers. (3 marks) (c) What percentage of the data lies between $18$ and $28$? (1 mark)
@@ -764,7 +823,7 @@ outliers. (3 marks) (c) What percentage of the data lies between $18$ and $28$? 
 
 Upper fence $= Q_3 + 1.5 \times \text{IQR} = 28 + 15 = 43$.
 
-Since all values ($12$ to $35$) lie within $[3, 43]$There are no outliers.
+Since all values ($12$ to $35$) lie within $[3, 43]$ There are no outliers.
 
 (c) By definition, $50\%$ of the data lies between $Q_1$ and $Q_3$.
 

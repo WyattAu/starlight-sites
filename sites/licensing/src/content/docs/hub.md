@@ -42,16 +42,6 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 Software licensing determines what you can do with code, who can use it, modify it, distribute it, and under what conditions. For developers, understanding licensing is not optional. Choosing the wrong license for your project can inadvertently prevent adoption. Using code under the wrong license can result in legal liability. Ignoring license obligations can lead to lawsuits and damaged reputations.
@@ -285,6 +275,8 @@ Permissive licenses grant broad freedoms with minimal restrictions. Users can do
 
 ### Choosing Between Them
 
+<div class="table-wrap">
+
 | Priority | Recommended License Type |
 | ---------- | ------------------------ |
 | Maximum adoption | Permissive (MIT, Apache 2.0) |
@@ -293,6 +285,8 @@ Permissive licenses grant broad freedoms with minimal restrictions. Users can do
 | Community-driven project | Copyleft (GPL) |
 | Library for wide use | Weak copyleft (LGPL) or permissive |
 | SaaS protection | AGPL |
+
+</div>
 
 ---
 
@@ -461,7 +455,7 @@ Technically, no, the code is copyrighted by default. But without a license, no o
 
 ### How do I check the licenses of my dependencies?
 
-Use license scanning tools: FOSSology, LicenseFinder, FOSSA, or Snyk. Most package managers have license information built in (`npm licenses``pip show``cargo metadata`). CI/CD pipelines can automate this checking.
+Use license scanning tools: FOSSology, LicenseFinder, FOSSA, or Snyk. Most package managers have license information built in (`npm licenses`, `pip show`, `cargo metadata`). CI/CD pipelines can automate this checking.
 
 ---
 
@@ -471,15 +465,9 @@ Use license scanning tools: FOSSology, LicenseFinder, FOSSA, or Snyk. Most packa
 
 ## Detailed Explanation
 
-This topic covers the fundamental principles and applications in depth.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems.
 
 ### Common Mistakes
 
@@ -492,8 +480,6 @@ Worked examples demonstrate how to apply the concepts to solve problems.
 Consult the recommended textbooks and additional resources.
 
 ## Summary
-
-This topic provides comprehensive coverage of the subject matter.
 
 ### Key Takeaways
 
@@ -526,6 +512,4 @@ This topic provides comprehensive coverage of the subject matter.
 - Connect with other licensing topics for a complete understanding
 
 ## Summary
-
-Review the key concepts and practice regularly to master this topic.
 

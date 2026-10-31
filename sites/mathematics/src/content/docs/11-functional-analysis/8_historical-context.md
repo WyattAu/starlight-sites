@@ -122,6 +122,8 @@ Distributions and their connection to functional analysis:
 
 ### Key Publications Timeline
 
+<div class="table-wrap">
+
 | Year | Author | Contribution |
 | ------ | -------- | ------------- |
 | 1906 | Frechet | Metric spaces |
@@ -136,19 +138,10 @@ Distributions and their connection to functional analysis:
 | 1972 | Enflo | Counterexample to approximation problem |
 | 2013 | Marcus-Spielman-Srivastava | Solution of Kadison-Singer problem |
 
+</div>
+
 The evolution of functional analysis demonstrates how abstract mathematical frameworks can
 unify diverse areas and provide powerful tools for applications across physics and engineering.
-
-
-```mermaid
-flowchart TD
-    A[8_Historical Context] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -172,9 +165,9 @@ Functional analysis developed from concrete problems in integral equations, quan
 - [Lasers](https://physics.wyattau.com/4-optics-and-waves/9_lasers/) -- Quantum optics and laser physics rely on Hilbert space formalism and spectral theory developed by von Neumann and others discussed here.
 - [Special Relativity and Electromagnetism](https://physics.wyattau.com/3-electromagnetism/7_special-relativity-and-electromagnetism/) -- The Lorentz group and its representations are studied using the functional-analytic framework described in this chapter.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

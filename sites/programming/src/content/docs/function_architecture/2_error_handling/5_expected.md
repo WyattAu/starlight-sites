@@ -93,10 +93,10 @@ Has no hidden control flow, and has zero overhead compared to error codes.
 
 **Proof:**
 
-1. `std::expected<T, E>` is a sum type (tagged union) that is either `T` or `E`Never both and never
+1. `std::expected<T, E>` is a sum type (tagged union) that is either `T` or `E`. Never both and never
    neither [N4950 §19.8].
 2. The discriminant is stored inline alongside the value or error. The size of `std::expected<T, E>`
-   is at most `sizeof(T) + sizeof(E) + padding`Which is bounded and known at compile time.
+   is at most `sizeof(T) + sizeof(E) + padding`. Which is bounded and known at compile time.
 3. `has_value()` is a simple discriminant check. It compiles to a single branch instruction.
 4. `value()` and `error()` are unchecked accessors. They compile to a direct read with no
    branching. Calling `value()` when an error is held is undefined behavior (analogous to
@@ -109,6 +109,8 @@ Has no hidden control flow, and has zero overhead compared to error codes.
 $\square$
 
 ## 5.2 Core API
+
+<div class="table-wrap">
 
 | Member                  | Description                                 |
 | ----------------------- | ------------------------------------------- |
@@ -124,6 +126,8 @@ $\square$
 | `or_else(F)`            | Monadic recovery: `F(E) -> expected<T, F>`  |
 | `error_or(E)`           | Returns the error, or `E` if value is held  |
 
+</div>
+
 ### `std::unexpected` and Error Construction
 
 The `std::unexpected<E>` wrapper distinguishes error construction from value construction:
@@ -133,7 +137,7 @@ std::expected<int, Err> ok()     { return 42; }                          // valu
 std::expected<int, Err> fail()   { return std::unexpected{Err::Bad}; }   // error
 ```
 
-Without `std::unexpected`The constructor would be ambiguous when `T` and `E` are the same type
+Without `std::unexpected`. The constructor would be ambiguous when `T` and `E` are the same type
 (e.g., `std::expected<int, int>`). The wrapper resolves this ambiguity [N4950 §19.8].
 
 ### `value_or` and Default Fallbacks
@@ -202,12 +206,16 @@ int main() {
 
 ### Monadic Operation Semantics
 
+<div class="table-wrap">
+
 | Operation            | If value held                      | If error held                      |
 | :------------------- | :--------------------------------- | :--------------------------------- |
 | `and_then(f)`        | Apply `f(value)`Return result      | Propagate error unchanged          |
 | `or_else(f)`         | Propagate value unchanged          | Apply `f(error)`Return result      |
 | `transform(f)`       | Apply `f(value)`Wrap in `expected` | Propagate error unchanged          |
 | `transform_error(f)` | Propagate value unchanged          | Apply `f(error)`Wrap in `expected` |
+
+</div>
 
 The monadic operations compose , forming a pipeline:
 
@@ -219,6 +227,8 @@ Each operation short-circuits on error: once an error enters the pipeline, it pr
 Subsequent `and_then` and `transform` calls without executing their callbacks.
 
 ## 5.4 Comparison with Rust's `Result<T, E>`
+
+<div class="table-wrap">
 
 | C++ `std::expected`  | Rust `Result`            | Purpose                          |
 | -------------------- | ------------------------ | -------------------------------- |
@@ -232,7 +242,11 @@ Subsequent `and_then` and `transform` calls without executing their callbacks.
 | `transform_error(f)` | `.map_err(f)`            | Map the error                    |
 | `or_else(f)`         | `.or(f)` / `.or_else(f)` | Monadic recovery                 |
 
+</div>
+
 ### Comparison with Other Languages' Error Types
+
+<div class="table-wrap">
 
 | Language | Type                  | Error Handling Style                      |
 | :------- | :-------------------- | :---------------------------------------- |
@@ -243,9 +257,11 @@ Subsequent `and_then` and `transform` calls without executing their callbacks.
 | Zig      | `E!T`                 | Infix error union, forced handling        |
 | C++23    | `std::expected<T, E>` | Monadic, easy to ignore (no forced check) |
 
+</div>
+
 Unlike Rust, C++ does not force you to handle the error case. Calling `.value()` on an error-holding
 `expected` is undefined behavior, not a panic. This is consistent with C++'s philosophy of trusting
-The programmer but places the burden of correctness on the caller.
+the programmer but places the burden of correctness on the caller.
 
 ## 5.5 Factory Pattern with `std::expected`
 
@@ -392,10 +408,12 @@ Is the error truly exceptional (should rarely happen)?
 
 ### Formal Comparison
 
+<div class="table-wrap">
+
 | Criterion               | Exceptions                        | `std::expected`                 | Error Codes                    |
 | :---------------------- | :-------------------------------- | :------------------------------ | :----------------------------- |
 | Normal-path overhead    | ~0 (no branch)                    | 1 branch (check `has_value()`)  | 1 branch + compare             |
-| Error-path overhead     | ~5-20 $\mu$S (unwind)             | 0 (direct branch)               | 0 (direct return)              |
+| Error-path overhead     | ~5-20 $\mu$ S (unwind)             | 0 (direct branch)               | 0 (direct return)              |
 | Code clarity            | High (separate happy/error paths) | Medium (explicit checks)        | Low (pervasive error checks)   |
 | Forgetting to handle    | Compiler warns on uncaught        | UB if `value()` called on error | Easy to forget to check return |
 | Composability           | Implicit (stack unwinding)        | Monadic chains (`and_then`)     | Manual propagation             |
@@ -404,9 +422,13 @@ Is the error truly exceptional (should rarely happen)?
 | Binary size             | +5-15% (LSDA tables)              | 0                               | 0                              |
 | Destructor safety       | Must be `noexcept`                | No special requirement          | No special requirement         |
 
+</div>
+
 ## Error Handling Best Practices
 
 ### When to Use Each Mechanism
+
+<div class="table-wrap">
 
 | Situation                               | Recommended Mechanism                            |
 | --------------------------------------- | ------------------------------------------------ |
@@ -418,9 +440,13 @@ Is the error truly exceptional (should rarely happen)?
 | Performance-critical hot path           | `noexcept` functions + error codes or `expected` |
 | Destructor cleanup                      | Never throw (see below)                          |
 
+</div>
+
 ### C++ Core Guidelines
 
 Key guidelines from [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/):
+
+<div class="table-wrap">
 
 | Guideline | Summary                                                                         |
 | --------- | ------------------------------------------------------------------------------- |
@@ -433,6 +459,8 @@ Key guidelines from [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidel
 | **E.16**  | Destructors, deallocation, and `swap` must never fail.                          |
 | **E.25**  | If you can't throw, consider `std::expected` for reporting errors.              |
 | **I.7**   | State preconditions (and prefer `Expects` / `Ensures` contracts).               |
+
+</div>
 
 ### Exception Safety in Constructors
 
@@ -593,13 +621,15 @@ Wrappers that handle errors internally rather than propagating them from destruc
 
 ## Intuition
 
-**`std::expected` is like a result that might be an error:** When you call a function that returns `expected<T, E>`you get either a value of type `T` (success) or an error of type `E` (failure). It's like a box that's either labeled "success" with the result inside, or "failure" with the error inside. The monadic operations (`and_then``transform``or_else`) let you chain operations without manually checking for errors, like a pipeline that automatically short-circuits if any step fails.
+**`std::expected` is like a result that might be an error:** When you call a function that returns `expected<T, E>`you get either a value of type `T` (success) or an error of type `E` (failure). It's like a box that's either labeled "success" with the result inside, or "failure" with the error inside. The monadic operations (`and_then`, `transform`, `or_else`) let you chain operations without manually checking for errors, like a pipeline that automatically short-circuits if any step fails.
 
 **Why it matters:** `std::expected` is the modern C++ approach to error handling that avoids exceptions. It combines the type safety of `optional` with the error information of exceptions. Unlike exceptions, it's visible in the function signature, you can see from the return type that a function might fail. The monadic operations make error handling composable, not repetitive.
 
 **The key insight:** `std::expected` makes error handling explicit in the type system and composable via monadic operations, no more exception specification guessing or manual error checking at every call site.
 
 ### Summary
+
+<div class="table-wrap">
 
 | Mechanism       | C++ Version | Error Richness    | Overhead (no error) | Composability            |
 | --------------- | ----------- | ----------------- | ------------------: | ------------------------ |
@@ -608,6 +638,8 @@ Wrappers that handle errors internally rather than propagating them from destruc
 | `std::optional` | C++17       | `nullopt` only    |                   0 | Check required           |
 | `std::variant`  | C++17       | User-defined      |                   0 | `visit` / `get_if`       |
 | `std::expected` | C++23       | Single error type |                   0 | Monadic (`and_then`Etc.) |
+
+</div>
 
 **Relevance:** Modern C++ increasingly favors **explicit, algebraic error handling**
 (`std::expected`) for expected failure modes and reserves **exceptions** for truly exceptional
@@ -807,16 +839,6 @@ int main() {
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[5_Expected] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to monadic error handling,
@@ -830,10 +852,5 @@ std::expected, including key theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

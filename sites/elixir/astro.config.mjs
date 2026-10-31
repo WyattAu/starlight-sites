@@ -41,14 +41,23 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'Intro', items: [{ autogenerate: { directory: '00-intro' } }] },
-        { label: 'Basics', items: [{ autogenerate: { directory: '01-basics' } }] },
+        { label: 'Intro', items: [{ autogenerate: { directory: '00-intro' } }], collapsed: true },
+        { label: 'Basics', items: [{ autogenerate: { directory: '01-basics' } }], collapsed: true },
         {
           label: 'Functions Modules',
           items: [{ autogenerate: { directory: '02-functions-modules' } }],
+          collapsed: true,
         },
-        { label: 'Concurrency', items: [{ autogenerate: { directory: '03-concurrency' } }] },
-        { label: 'Advanced', items: [{ autogenerate: { directory: '04-advanced' } }] },
+        {
+          label: 'Concurrency',
+          items: [{ autogenerate: { directory: '03-concurrency' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Advanced',
+          items: [{ autogenerate: { directory: '04-advanced' } }],
+          collapsed: true,
+        },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -82,9 +91,7 @@ export default defineConfig({
           tag: 'link',
           attrs: {
             rel: 'stylesheet',
-            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css',
-            integrity: 'sha384-irXK0JiCGinqGL+slwVklbhJetrjczNwaP2lANewD8lKAs9n61SbQ3As28iSqXUE',
-            crossorigin: 'anonymous',
+            href: '/katex/katex.min.css',
           },
         },
         {
@@ -94,8 +101,6 @@ export default defineConfig({
             content: 'https://elixir.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

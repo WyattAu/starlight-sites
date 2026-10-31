@@ -23,13 +23,13 @@ categories:
 ### Definition
 
 A **discrete random variable** $X$ is a function that assigns a numerical value to each outcome in a
-Countable sample space. The set of possible values is finite or countably infinite: for example,
+countable sample space. The set of possible values is finite or countably infinite: for example,
 $\{0, 1, 2, \ldots, n\}$ or $\{0, 1, 2, \ldots\}$.
 
 ### Probability Mass Function (PMF)
 
-The **probability mass function** of $X$ is $p(x) = P(X = x)$Assigning a probability to each
-Possible value. It must satisfy:
+The **probability mass function** of $X$ is $p(x) = P(X = x)$ Assigning a probability to each
+possible value. It must satisfy:
 
 1. $p(x) \ge 0$ for all $x$
 2. $\displaystyle\sum_{\mathrm{all } x} p(x) = 1$
@@ -41,8 +41,8 @@ F(x) = P(X \le x) = \sum_{t \le x} p(t)
 $$
 
 The CDF is non-decreasing and right-continuous, with $F(-\infty) = 0$ and $F(\infty) = 1$. For a
-Discrete variable it is a step function with jumps at each value in the range of $X$. The size of
-Each jump at $x = a$ equals $P(X = a)$.
+discrete variable it is a step function with jumps at each value in the range of $X$. The size of
+each jump at $x = a$ equals $P(X = a)$.
 
 ### Expected Value
 
@@ -74,7 +74,7 @@ $$
 $$
 
 The **standard deviation** is $\sigma = \sqrt{\mathrm{Var}(X)}$. It has the same units as $X$ and
-Measures the typical distance of values from the mean.
+measures the typical distance of values from the mean.
 
 ### Properties of Expectation and Variance
 
@@ -89,14 +89,18 @@ $$
 $$
 
 Adding a constant shifts the distribution but does not change its spread. Multiplying by $a$ scales
-The spread by $|a|$.
+the spread by $|a|$.
 
 :::note[Example]
 A discrete random variable $X$ has PMF:
 
+<div class="table-wrap">
+
 | $x$        | 0   | 1   | 2   | 3   |
 | ---------- | --- | --- | --- | --- |
 | $P(X = x)$ | 0.1 | 0.4 | 0.3 | 0.2 |
+
+</div>
 
 $$
 E(X) = 0(0.1) + 1(0.4) + 2(0.3) + 3(0.2) = 1.6
@@ -123,17 +127,29 @@ $E(X) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.4) = 0.1 + 0.4 + 0.9 + 1.6 = 3.0$
 
 A random variable $X$ has the following PMF:
 
+<div class="table-wrap">
+
 | $x$        | 1   | 2   | 3   | 4    | 5    |
 | ---------- | --- | --- | --- | ---- | ---- |
 | $P(X = x)$ | 0.1 | 0.2 | 0.3 | 0.25 | 0.15 |
 
-$$E(X) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.25) + 5(0.15) = 0.1 + 0.4 + 0.9 + 1.0 + 0.75 = 3.15$$
+</div>
 
-$$E(X^2) = 1(0.1) + 4(0.2) + 9(0.3) + 16(0.25) + 25(0.15) = 0.1 + 0.8 + 2.7 + 4.0 + 3.75 = 11.35$$
+$$
+E(X) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.25) + 5(0.15) = 0.1 + 0.4 + 0.9 + 1.0 + 0.75 = 3.15
+$$
 
-$$\mathrm{Var}(X) = 11.35 - 3.15^2 = 11.35 - 9.9225 = 1.4275$$
+$$
+E(X^2) = 1(0.1) + 4(0.2) + 9(0.3) + 16(0.25) + 25(0.15) = 0.1 + 0.8 + 2.7 + 4.0 + 3.75 = 11.35
+$$
 
-$$\sigma = \sqrt{1.4275} \approx 1.195$$
+$$
+\mathrm{Var}(X) = 11.35 - 3.15^2 = 11.35 - 9.9225 = 1.4275
+$$
+
+$$
+\sigma = \sqrt{1.4275} \approx 1.195
+$$
 
 </details>
 
@@ -152,7 +168,7 @@ $$\sigma = \sqrt{1.4275} \approx 1.195$$
 
 ### Conditions
 
-A random variable $X$ follows a binomial distribution, $X \sim B(n, p)$When all four conditions
+A random variable $X$ follows a binomial distribution, $X \sim B(n, p)$ When all four conditions
 Hold:
 
 1. **Fixed number of trials**: exactly $n$ identical trials.
@@ -197,7 +213,7 @@ Independence.
 - $p \gt 0.5$: negatively skewed (left tail longer).
 
 As $n$ increases the distribution approaches a bell shape (by the Central Limit Theorem). The mode
-Of $B(n, p)$ is at $\lfloor (n+1)p \rfloor$.
+of $B(n, p)$ is at $\lfloor (n+1)p \rfloor$.
 
 ### Cumulative Probabilities
 
@@ -229,7 +245,7 @@ $$
 
 :::note[Example]
 A factory produces bulbs with 3% defect rate. $X \sim B(20, 0.03)$ is the number of defects in a
-Sample of 20.
+sample of 20.
 
 $P(X = 2) = \binom{20}{2}(0.03)^2(0.97)^{18} = 190 \times 0.0009 \times 0.5781 \approx 0.0988$
 
@@ -257,19 +273,25 @@ $P(X \ge 7) \approx 0.0181$ and $P(X \ge 8) \approx 0.0042$ So the minimum pass 
 <summary>Worked Example: Binomial Probability with Normal Approximation</summary>
 
 A company manufactures light bulbs. On average, 8% are defective. A random sample of 100 bulbs is
-Selected. Find the probability that more than 12 are defective.
+selected. Find the probability that more than 12 are defective.
 
 Let $X \sim B(100, 0.08)$.
 
 Check conditions for normal approximation: $np = 8 \ge 5$ and $n(1-p) = 92 \ge 5$.
 
-$$\mu = 100(0.08) = 8, \quad \sigma^2 = 100(0.08)(0.92) = 7.36, \quad \sigma = 2.713$$
+$$
+\mu = 100(0.08) = 8, \quad \sigma^2 = 100(0.08)(0.92) = 7.36, \quad \sigma = 2.713
+$$
 
 With continuity correction:
 
-$$P(X \gt 12) = P(X \ge 13) \approx P\!\left(Z \gt \frac{12.5 - 8}{2.713}\right) = P(Z \gt 1.659)$$
+$$
+P(X \gt 12) = P(X \ge 13) \approx P\!\left(Z \gt \frac{12.5 - 8}{2.713}\right) = P(Z \gt 1.659)
+$$
 
-$$\approx 1 - \Phi(1.659) \approx 1 - 0.9515 = 0.0485$$
+$$
+\approx 1 - \Phi(1.659) \approx 1 - 0.9515 = 0.0485
+$$
 
 There is approximately a 4.85% chance that more than 12 bulbs are defective.
 
@@ -329,7 +351,7 @@ $\mathrm{Var}(X) = \lambda^2 + \lambda - \lambda^2 = \lambda$.
 
 ### Poisson as a Limit of the Binomial
 
-If $n \to \infty$, $p \to 0$While $np = \lambda$ stays constant, then
+If $n \to \infty$, $p \to 0$ While $np = \lambda$ stays constant, then
 $B(n, p) \to \mathrm{Po}(\lambda)$. The Poisson approximates the binomial when $n$ is large, $p$ is
 Small, and $np$ is moderate ( $n \ge 50$, $p \le 0.1$).
 
@@ -357,9 +379,9 @@ Over 2 hours: $Y \sim \mathrm{Po}(7)$, $P(Y \gt 7) = 1 - P(Y \le 7) \approx 0.40
 
 :::note[Example: Poisson approximation to Binomial]
 A typesetter makes errors at a rate of 1 per 500 characters. In a passage of 2000 characters, find
-The probability of at most 2 errors.
+the probability of at most 2 errors.
 
-Exact: $X \sim B(2000, 1/500)$With $\lambda = 2000/500 = 4$.
+Exact: $X \sim B(2000, 1/500)$ With $\lambda = 2000/500 = 4$.
 
 Approximate: $X \approx \mathrm{Po}(4)$.
 
@@ -377,15 +399,23 @@ A call centre receives calls at a rate of $\lambda = 4.2$ per 10-minute interval
 
 **(a) Find the probability of receiving exactly 6 calls in a 10-minute interval.**
 
-$$P(X = 6) = \frac{e^{-4.2} \cdot 4.2^6}{6!} = \frac{e^{-4.2} \times 5489.0}{720}$$
+$$
+P(X = 6) = \frac{e^{-4.2} \cdot 4.2^6}{6!} = \frac{e^{-4.2} \times 5489.0}{720}
+$$
 
-$$= 7.624 \times e^{-4.2} \approx 7.624 \times 0.0150 \approx 0.1142$$
+$$
+= 7.624 \times e^{-4.2} \approx 7.624 \times 0.0150 \approx 0.1142
+$$
 
 **(b) Find the probability of receiving at most 3 calls.**
 
-$$P(X \le 3) = e^{-4.2}\!\left(1 + 4.2 + \frac{17.64}{2} + \frac{74.088}{6}\right) = e^{-4.2}(1 + 4.2 + 8.82 + 12.348)$$
+$$
+P(X \le 3) = e^{-4.2}\!\left(1 + 4.2 + \frac{17.64}{2} + \frac{74.088}{6}\right) = e^{-4.2}(1 + 4.2 + 8.82 + 12.348)
+$$
 
-$$= 26.368 \times e^{-4.2} \approx 0.3954$$
+$$
+= 26.368 \times e^{-4.2} \approx 0.3954
+$$
 
 **(c) Over a full hour (six intervals), find the probability of more than 30 calls.**
 
@@ -393,9 +423,13 @@ Over one hour: $Y \sim \mathrm{Po}(6 \times 4.2) = \mathrm{Po}(25.2)$.
 
 Using the normal approximation (since $\lambda$ is large):
 
-$$\mu = 25.2, \quad \sigma = \sqrt{25.2} = 5.020$$
+$$
+\mu = 25.2, \quad \sigma = \sqrt{25.2} = 5.020
+$$
 
-$$P(Y \gt 30) \approx P\!\left(Z \gt \frac{30.5 - 25.2}{5.020}\right) = P(Z \gt 1.056) \approx 0.1455$$
+$$
+P(Y \gt 30) \approx P\!\left(Z \gt \frac{30.5 - 25.2}{5.020}\right) = P(Z \gt 1.056) \approx 0.1455
+$$
 
 </details>
 
@@ -420,7 +454,7 @@ $$
 F(x) = \frac{1}{\sigma\sqrt{2\pi}} \, e^{-\frac{(x-\mu)^2}{2\sigma^2}}, \quad -\infty \lt x \lt \infty
 $$
 
-Key properties: bell-shaped, symmetric about $x = \mu$Asymptotic to the $x$-axis, total area = 1,
+Key properties: bell-shaped, symmetric about $x = \mu$ Asymptotic to the $x$-axis, total area = 1,
 Inflection points at $x = \mu \pm \sigma$. The mean, median, and mode all equal $\mu$.
 
 $E(X) = \mu$ and $\mathrm{Var}(X) = \sigma^2$.
@@ -457,7 +491,7 @@ $$
 
 ### Probability Calculations
 
-For $X \sim N(\mu, \sigma^2)$To find $P(a \lt X \lt b)$Convert to $z$-scores:
+For $X \sim N(\mu, \sigma^2)$ To find $P(a \lt X \lt b)$ Convert to $z$-scores:
 
 $$
 P(a \lt X \lt b) = \Phi\!\left(\frac{b - \mu}{\sigma}\right) - \Phi\!\left(\frac{a - \mu}{\sigma}\right)
@@ -467,14 +501,14 @@ On the GDC these are computed directly without manual standardisation.
 
 ### Inverse Normal
 
-Given probability $p$The inverse normal finds $x$ such that $P(X \le x) = p$. For the standard
+Given probability $p$ The inverse normal finds $x$ such that $P(X \le x) = p$. For the standard
 Normal, $z = \Phi^{-1}(p)$. For a general normal: $x = \mu + z\sigma$.
 
 ### Finding Unknown Parameters
 
 When $\mu$ or $\sigma$ is unknown, use standardisation with a known probability to set up
-Simultaneous equations. Each known probability gives one equation in two unknowns; two probabilities
-Are needed.
+simultaneous equations. Each known probability gives one equation in two unknowns; two probabilities
+are needed.
 :::
 
 :::note[Example]
@@ -513,13 +547,19 @@ Exact binomial: $P(X \le 30) \approx 0.3642$. The approximation is very close.
 Heights of a population are normally distributed. The 90th percentile is $182\,\mathrm{cm}$ and the
 30th percentile is $164\,\mathrm{cm}$. Find the mean and standard deviation.
 
-$$P(X \le 182) = 0.90 \implies \frac{182 - \mu}{\sigma} = 1.282$$
+$$
+P(X \le 182) = 0.90 \implies \frac{182 - \mu}{\sigma} = 1.282
+$$
 
-$$P(X \le 164) = 0.30 \implies \frac{164 - \mu}{\sigma} = -0.524$$
+$$
+P(X \le 164) = 0.30 \implies \frac{164 - \mu}{\sigma} = -0.524
+$$
 
 Subtracting the second equation from the first:
 
-$$\frac{18}{\sigma} = 1.806 \implies \sigma = \frac{18}{1.806} = 9.97\,\mathrm{cm}$$
+$$
+\frac{18}{\sigma} = 1.806 \implies \sigma = \frac{18}{1.806} = 9.97\,\mathrm{cm}
+$$
 
 From the first equation: $\mu = 182 - 1.282(9.97) = 182 - 12.78 = 169.2\,\mathrm{cm}$.
 
@@ -548,8 +588,8 @@ $$
 F(x) = \frac{1}{b - a}, \quad a \le x \le b
 $$
 
-And $f(x) = 0$ otherwise. The PDF is constant over $[a, b]$Meaning all values in the interval are
-Equally likely.
+And $f(x) = 0$ otherwise. The PDF is constant over $[a, b]$ Meaning all values in the interval are
+equally likely.
 
 ### Mean and Variance
 
@@ -612,7 +652,7 @@ P(X = x) = (1-p)^{x-1} p, \quad x = 1, 2, 3, \ldots
 $$
 
 The first $x-1$ trials must be failures, and trial $x$ must succeed. This is the probability of
-Exactly $x-1$ consecutive failures followed by one success.
+exactly $x-1$ consecutive failures followed by one success.
 
 ### Mean and Variance
 
@@ -625,7 +665,7 @@ $$
 
 $E(X) = p\displaystyle\sum_{x=1}^{\infty} x(1-p)^{x-1}$
 
-Using $\displaystyle\sum_{x=1}^{\infty} xr^{x-1} = \frac{1}{(1-r)^2}$ for $|r| \lt 1$With $r = 1-p$:
+Using $\displaystyle\sum_{x=1}^{\infty} xr^{x-1} = \frac{1}{(1-r)^2}$ for $|r| \lt 1$ With $r = 1-p$:
 
 $E(X) = p \cdot \dfrac{1}{p^2} = \dfrac{1}{p}$
 
@@ -662,15 +702,21 @@ $X \sim \mathrm{Geo}(1/6)$.
 
 **(a) Find the probability that the first 6 appears on the 4th roll.**
 
-$$P(X = 4) = \left(\frac{5}{6}\right)^3 \times \frac{1}{6} = \frac{125}{1296} \approx 0.0965$$
+$$
+P(X = 4) = \left(\frac{5}{6}\right)^3 \times \frac{1}{6} = \frac{125}{1296} \approx 0.0965
+$$
 
 **(b) Find the probability that at least 10 rolls are needed.**
 
-$$P(X \ge 10) = (1 - p)^{10-1} = \left(\frac{5}{6}\right)^9 = 0.1938$$
+$$
+P(X \ge 10) = (1 - p)^{10-1} = \left(\frac{5}{6}\right)^9 = 0.1938
+$$
 
 **(c) Find the expected number of rolls.**
 
-$$E(X) = \frac{1}{p} = \frac{1}{1/6} = 6$$
+$$
+E(X) = \frac{1}{p} = \frac{1}{1/6} = 6
+$$
 
 On average, 6 rolls are needed to get the first 6.
 
@@ -701,7 +747,7 @@ P(X = x) = \binom{x-1}{r-1} p^r (1-p)^{x-r}, \quad x = r, r+1, r+2, \ldots
 $$
 
 In the first $x-1$ trials there are $r-1$ successes (in $\dbinom{x-1}{r-1}$ ways), and trial $x$ is
-The $r$-th success.
+the $r$-th success.
 
 ### Mean and Variance
 
@@ -755,7 +801,7 @@ $$
 $$
 
 As $n$ increases, the standard error decreases: larger samples give more precise estimates of the
-Population mean.
+population mean.
 :::
 
 :::note[Example]
@@ -788,8 +834,8 @@ $P\!\left(Z \gt \dfrac{10}{\sqrt{800/3}}\right) = P(Z \gt 0.612) \approx 0.2704$
 
 A $C\%$ confidence interval gives a range of plausible values for an unknown population parameter.
 If the sampling process were repeated many times, approximately $C\%$ of constructed intervals would
-Contain the true parameter. The confidence level does not mean there is a $C\%$ probability that the
-Parameter lies in any particular interval.
+contain the true parameter. The confidence level does not mean there is a $C\%$ probability that the
+parameter lies in any particular interval.
 
 ### Confidence Interval for the Mean ($\sigma$ known)
 
@@ -799,18 +845,22 @@ $$
 
 Where $z_{\alpha/2}$ satisfies $P(Z \gt z_{\alpha/2}) = \alpha/2$ and $\alpha = 1 - C/100$.
 
+<div class="table-wrap">
+
 | Confidence Level | $z_{\alpha/2}$ |
 | ---------------- | -------------- |
 | 90%              | 1.645          |
 | 95%              | 1.960          |
 | 99%              | 2.576          |
 
+</div>
+
 When $\sigma$ is unknown and $n$ is large ($n \ge 30$), replace $\sigma$ with the sample standard
 Deviation $s$.
 
 ### Margin of Error and Sample Size
 
-Margin of error: $E = z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt{n}}$. To halve $E$Quadruple $n$.
+Margin of error: $E = z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt{n}}$. To halve $E$ Quadruple $n$.
 
 Required sample size for margin $E$: $n = \left(\dfrac{z_{\alpha/2} \cdot \sigma}{E}\right)^2$
 (round up to the next integer).
@@ -821,7 +871,7 @@ Bottle volumes: $N(\mu, 25)$, $\sigma = 5$ ml. Sample of 25 gives $\bar{x} = 498
 
 95% CI: $498 \pm 1.960 \times 5/\sqrt{25} = 498 \pm 1.96$ So $(496.04, 499.96)$ ml.
 
-For margin 1 ml at 95%: $n = (1.960 \times 5/1)^2 = 96.04$Round up to 97.
+For margin 1 ml at 95%: $n = (1.960 \times 5/1)^2 = 96.04$ Round up to 97.
 
 ---
 
@@ -897,7 +947,7 @@ This is exact (not an approximation) for normal variables, and requires no CLT.
 :::
 
 :::note[Example]
-$X \sim B(10, 0.3)$$Y \sim B(15, 0.4)$Independent.
+$X \sim B(10, 0.3)$$Y \sim B(15, 0.4)$ Independent.
 
 $E(X + Y) = 3 + 6 = 9$
 
@@ -907,7 +957,7 @@ $\mathrm{Var}(2X - 3Y) = 4(2.1) + 9(3.6) = 8.4 + 32.4 = 40.8$
 :::
 
 :::note[Example: Normal combinations]
-Bus ride $X \sim N(25, 16)$Walk $Y \sim N(10, 9)$Independent.
+Bus ride $X \sim N(25, 16)$ Walk $Y \sim N(10, 9)$ Independent.
 
 $X + Y \sim N(35, 25)$. $P(X + Y \gt 40) = P(Z \gt 1) = 0.1587$.
 
@@ -923,16 +973,22 @@ $X \sim B(12, 0.3)$ and $Y \sim \mathrm{Po}(5)$ are independent. Find:
 
 **(a)** $E(3X - 2Y)$
 
-$$E(3X - 2Y) = 3E(X) - 2E(Y) = 3(12 \times 0.3) - 2(5) = 3(3.6) - 10 = 10.8 - 10 = 0.8$$
+$$
+E(3X - 2Y) = 3E(X) - 2E(Y) = 3(12 \times 0.3) - 2(5) = 3(3.6) - 10 = 10.8 - 10 = 0.8
+$$
 
 **(b)** $\mathrm{Var}(3X - 2Y)$
 
-$$\mathrm{Var}(3X - 2Y) = 9\mathrm{Var}(X) + 4\mathrm{Var}(Y) = 9(12 \times 0.3 \times 0.7) + 4(5)$$
+$$
+\mathrm{Var}(3X - 2Y) = 9\mathrm{Var}(X) + 4\mathrm{Var}(Y) = 9(12 \times 0.3 \times 0.7) + 4(5)
+$$
 
-$$= 9(2.52) + 20 = 22.68 + 20 = 42.68$$
+$$
+= 9(2.52) + 20 = 22.68 + 20 = 42.68
+$$
 
 Note: the variance of the difference uses addition (plus signs for both terms), and the constants
-Are squared.
+are squared.
 
 </details>
 
@@ -1005,7 +1061,7 @@ $E(X) = 4/0.25 = 16$
 
 ### Question 8 (Paper 2, AHL)
 
-The masses of male students are $N(72, 36)$ and female students are $N(58, 25)$Independent. Find The
+The masses of male students are $N(72, 36)$ and female students are $N(58, 25)$ Independent. Find The
 probability that a randomly chosen male is heavier than a randomly chosen female.
 
 Let $M \sim N(72, 36)$ and $F \sim N(58, 25)$. Then $D = M - F \sim N(72-58, 36+25) = N(14, 61)$.
@@ -1023,19 +1079,11 @@ $P(D \gt 0) = P\!\left(Z \gt \dfrac{0 - 14}{\sqrt{61}}\right) = P(Z \gt -1.793) 
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[3_Probability Distributions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary of Distributions
 
 ### Discrete Distributions
+
+<div class="table-wrap">
 
 | Distribution        | Notation               | PMF                                 | $E(X)$         | $\mathrm{Var}(X)$     | Support           |
 | ------------------- | ---------------------- | ----------------------------------- | -------------- | --------------------- | ----------------- |
@@ -1044,25 +1092,35 @@ flowchart TD
 | Geometric (AHL)     | $\mathrm{Geo}(p)$      | $(1-p)^{x-1}p$                      | $\dfrac{1}{p}$ | $\dfrac{1-p}{p^2}$    | $1, 2, 3, \ldots$ |
 | Neg. Binomial (AHL) | $\mathrm{NB}(r, p)$    | $\dbinom{x-1}{r-1}p^r(1-p)^{x-r}$   | $\dfrac{r}{p}$ | $\dfrac{r(1-p)}{p^2}$ | $r, r+1, \ldots$  |
 
+</div>
+
 ### Continuous Distributions
+
+<div class="table-wrap">
 
 | Distribution  | Notation           | PDF                                                            | $E(X)$           | $\mathrm{Var}(X)$     | Support             |
 | ------------- | ------------------ | -------------------------------------------------------------- | ---------------- | --------------------- | ------------------- |
 | Normal        | $N(\mu, \sigma^2)$ | $\dfrac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$ | $\mu$            | $\sigma^2$            | $(-\infty, \infty)$ |
 | Uniform (AHL) | $U(a, b)$          | $\dfrac{1}{b-a}$                                               | $\dfrac{a+b}{2}$ | $\dfrac{(b-a)^2}{12}$ | $[a, b]$            |
 
+</div>
+
 ### Key Relationships
+
+<div class="table-wrap">
 
 | Relationship                                                      | Condition                                          |
 | ----------------------------------------------------------------- | -------------------------------------------------- |
 | $B(n, p) \approx \mathrm{Po}(np)$                                 | $n$ large, $p$ small, $np$ moderate                |
-| $B(n, p) \approx N(np, np(1-p))$                                  | $np \ge 5$$n(1-p) \ge 5$With continuity correction |
+| $B(n, p) \approx N(np, np(1-p))$                                  | $np \ge 5$$n(1-p) \ge 5$ With continuity correction |
 | $\mathrm{Geo}(p) = \mathrm{NB}(1, p)$                             | Special case                                       |
 | $X + Y \sim \mathrm{Po}(\lambda_1 + \lambda_2)$                   | Independent Poisson variables                      |
 | $aX + bY \sim N(a\mu_X + b\mu_Y, a^2\sigma_X^2 + b^2\sigma_Y^2)$  | Independent normal variables                       |
 | $\bar{X}_n \approx N(\mu, \sigma^2/n)$                            | CLT, large $n$                                     |
 | $E(aX + bY) = aE(X) + bE(Y)$                                      | Always                                             |
 | $\mathrm{Var}(aX + bY) = a^2\mathrm{Var}(X) + b^2\mathrm{Var}(Y)$ | $X$$Y$ independent                                 |
+
+</div>
 
 ---
 
@@ -1082,10 +1140,10 @@ Probability distributions are recipes for uncertainty. The binomial distribution
 ## Common Pitfalls
 
 1. **Confusing $p$ and $\lambda$**: For Poisson, $\lambda$ is a rate, not a probability. Unlike
-   binomial $p$There is no upper bound of 1 on $\lambda$.
+   binomial $p$ There is no upper bound of 1 on $\lambda$.
 
 2. **Forgetting conditions**: Before applying a distribution, verify all conditions. For binomial:
-   fixed $n$Independence, two outcomes, constant $p$.
+   fixed $n$ Independence, two outcomes, constant $p$.
 
 3. **Variance of differences**: $\mathrm{Var}(X - Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$ (plus, not
    minus) for independent variables.
@@ -1104,12 +1162,12 @@ Probability distributions are recipes for uncertainty. The binomial distribution
 8. **Confidence interval interpretation**: A 95% CI does not mean there is a 95% probability that
    $\mu$ lies in the interval. It means 95% of similarly constructed intervals contain $\mu$.
 
-9. **Squaring constants in variance**: $\mathrm{Var}(3X) = 9\mathrm{Var}(X)$Not $3\mathrm{Var}(X)$.
+9. **Squaring constants in variance**: $\mathrm{Var}(3X) = 9\mathrm{Var}(X)$ Not $3\mathrm{Var}(X)$.
 :::
 
 :::tip[Exam Strategy]
 Always define your random variable and state the distribution with parameters at the start. For
-Normal problems, sketch the bell curve and shade the relevant area. When combining variables, state
+normal problems, sketch the bell curve and shade the relevant area. When combining variables, state
 whether independence is assumed. For confidence intervals, state the level and Interpret in context.
 :::
 
@@ -1136,15 +1194,25 @@ $E(X)$$\mathrm{Var}(X)$ And $P(X \ge 2)$.
 
 Verify: $\sum_{x=0}^{4}\frac{x+1}{15} = \frac{1+2+3+4+5}{15} = \frac{15}{15} = 1$.
 
-$$E(X) = 0\!\left(\frac{1}{15}\right) + 1\!\left(\frac{2}{15}\right) + 2\!\left(\frac{3}{15}\right) + 3\!\left(\frac{4}{15}\right) + 4\!\left(\frac{5}{15}\right)$$
+$$
+E(X) = 0\!\left(\frac{1}{15}\right) + 1\!\left(\frac{2}{15}\right) + 2\!\left(\frac{3}{15}\right) + 3\!\left(\frac{4}{15}\right) + 4\!\left(\frac{5}{15}\right)
+$$
 
-$$= \frac{0 + 2 + 6 + 12 + 20}{15} = \frac{40}{15} = \frac{8}{3} \approx 2.667$$
+$$
+= \frac{0 + 2 + 6 + 12 + 20}{15} = \frac{40}{15} = \frac{8}{3} \approx 2.667
+$$
 
-$$E(X^2) = 0 + 1\!\left(\frac{2}{15}\right) + 4\!\left(\frac{3}{15}\right) + 9\!\left(\frac{4}{15}\right) + 16\!\left(\frac{5}{15}\right) = \frac{0 + 2 + 12 + 36 + 80}{15} = \frac{130}{15} = \frac{26}{3}$$
+$$
+E(X^2) = 0 + 1\!\left(\frac{2}{15}\right) + 4\!\left(\frac{3}{15}\right) + 9\!\left(\frac{4}{15}\right) + 16\!\left(\frac{5}{15}\right) = \frac{0 + 2 + 12 + 36 + 80}{15} = \frac{130}{15} = \frac{26}{3}
+$$
 
-$$\mathrm{Var}(X) = \frac{26}{3} - \left(\frac{8}{3}\right)^2 = \frac{26}{3} - \frac{64}{9} = \frac{78 - 64}{9} = \frac{14}{9} \approx 1.556$$
+$$
+\mathrm{Var}(X) = \frac{26}{3} - \left(\frac{8}{3}\right)^2 = \frac{26}{3} - \frac{64}{9} = \frac{78 - 64}{9} = \frac{14}{9} \approx 1.556
+$$
 
-$$P(X \ge 2) = \frac{3}{15} + \frac{4}{15} + \frac{5}{15} = \frac{12}{15} = \frac{4}{5} = 0.8$$
+$$
+P(X \ge 2) = \frac{3}{15} + \frac{4}{15} + \frac{5}{15} = \frac{12}{15} = \frac{4}{5} = 0.8
+$$
 
 **If you get this wrong, revise:** Discrete Random Variables section.
 
@@ -1157,11 +1225,17 @@ $X \sim B(25, 0.35)$. Find $P(X = 10)$$P(X \le 5)$ And $P(X \ge 15)$.
 <details>
 <summary>Solution</summary>
 
-$$P(X = 10) = \binom{25}{10}(0.35)^{10}(0.65)^{15} \approx 0.1268$$
+$$
+P(X = 10) = \binom{25}{10}(0.35)^{10}(0.65)^{15} \approx 0.1268
+$$
 
-$$P(X \le 5) = \sum_{x=0}^{5}\binom{25}{x}(0.35)^x(0.65)^{25-x} \approx 0.0334$$
+$$
+P(X \le 5) = \sum_{x=0}^{5}\binom{25}{x}(0.35)^x(0.65)^{25-x} \approx 0.0334
+$$
 
-$$P(X \ge 15) = 1 - P(X \le 14) \approx 1 - 0.9752 = 0.0248$$
+$$
+P(X \ge 15) = 1 - P(X \le 14) \approx 1 - 0.9752 = 0.0248
+$$
 
 **If you get this wrong, revise:** Binomial Distribution section.
 
@@ -1170,18 +1244,26 @@ $$P(X \ge 15) = 1 - P(X \le 14) \approx 1 - 0.9752 = 0.0248$$
 ### Problem 3
 
 A bookshop sells an average of 3.2 rare books per week. $X \sim \mathrm{Po}(3.2)$ is the number sold
-In a week. Find $P(X = 4)$, $P(X = 0)$ And $P(X \gt 5)$.
+in a week. Find $P(X = 4)$, $P(X = 0)$ And $P(X \gt 5)$.
 
 <details>
 <summary>Solution</summary>
 
-$$P(X = 4) = \frac{e^{-3.2} \cdot 3.2^4}{4!} = \frac{104.858 \times e^{-3.2}}{24} \approx 0.1781$$
+$$
+P(X = 4) = \frac{e^{-3.2} \cdot 3.2^4}{4!} = \frac{104.858 \times e^{-3.2}}{24} \approx 0.1781
+$$
 
-$$P(X = 0) = e^{-3.2} \approx 0.0408$$
+$$
+P(X = 0) = e^{-3.2} \approx 0.0408
+$$
 
-$$P(X \gt 5) = 1 - P(X \le 5) = 1 - e^{-3.2}\!\left(1 + 3.2 + \frac{10.24}{2} + \frac{32.768}{6} + \frac{104.858}{24} + \frac{335.544}{120}\right)$$
+$$
+P(X \gt 5) = 1 - P(X \le 5) = 1 - e^{-3.2}\!\left(1 + 3.2 + \frac{10.24}{2} + \frac{32.768}{6} + \frac{104.858}{24} + \frac{335.544}{120}\right)
+$$
 
-$$= 1 - e^{-3.2}(1 + 3.2 + 5.12 + 5.461 + 4.369 + 2.796) = 1 - e^{-3.2}(21.946) \approx 1 - 0.8955 = 0.1045$$
+$$
+= 1 - e^{-3.2}(1 + 3.2 + 5.12 + 5.461 + 4.369 + 2.796) = 1 - e^{-3.2}(21.946) \approx 1 - 0.8955 = 0.1045
+$$
 
 **If you get this wrong, revise:** Poisson Distribution section.
 
@@ -1197,11 +1279,15 @@ Student scores above 75, and the score that is exceeded by only 10% of students.
 
 $\mu = 65$, $\sigma = \sqrt{64} = 8$.
 
-$$P(X \gt 75) = P\!\left(Z \gt \frac{75 - 65}{8}\right) = P(Z \gt 1.25) = 1 - \Phi(1.25) \approx 1 - 0.8944 = 0.1056$$
+$$
+P(X \gt 75) = P\!\left(Z \gt \frac{75 - 65}{8}\right) = P(Z \gt 1.25) = 1 - \Phi(1.25) \approx 1 - 0.8944 = 0.1056
+$$
 
 For the 90th percentile (exceeded by only 10%):
 
-$$P(X \le x) = 0.90 \implies \frac{x - 65}{8} = 1.282 \implies x = 65 + 1.282(8) = 75.26$$
+$$
+P(X \le x) = 0.90 \implies \frac{x - 65}{8} = 1.282 \implies x = 65 + 1.282(8) = 75.26
+$$
 
 A score of approximately 75.3 is exceeded by only 10% of students.
 
@@ -1212,8 +1298,8 @@ A score of approximately 75.3 is exceeded by only 10% of students.
 ### Problem 5
 
 The waiting time for a train is uniformly distributed between 0 and 12 minutes. Find the probability
-That the waiting time is (a) less than 5 minutes, (b) between 7 and 10 minutes, (c) more than 8
-Minutes given that it has already been 3 minutes.
+that the waiting time is (a) less than 5 minutes, (b) between 7 and 10 minutes, (c) more than 8
+minutes given that it has already been 3 minutes.
 
 <details>
 <summary>Solution</summary>
@@ -1242,13 +1328,21 @@ $X \sim \mathrm{Geo}(0.25)$. Find the smallest $n$ such that $P(X \le n) \ge 0.9
 <details>
 <summary>Solution</summary>
 
-$$P(X \le n) = 1 - (1 - p)^n = 1 - 0.75^n \ge 0.95$$
+$$
+P(X \le n) = 1 - (1 - p)^n = 1 - 0.75^n \ge 0.95
+$$
 
-$$0.75^n \le 0.05$$
+$$
+0.75^n \le 0.05
+$$
 
-$$n \ln(0.75) \le \ln(0.05)$$
+$$
+n \ln(0.75) \le \ln(0.05)
+$$
 
-$$n \ge \frac{\ln(0.05)}{\ln(0.75)} = \frac{-2.996}{-0.288} = 10.40$$
+$$
+n \ge \frac{\ln(0.05)}{\ln(0.75)} = \frac{-2.996}{-0.288} = 10.40
+$$
 
 So $n = 11$ trials are needed.
 
@@ -1263,13 +1357,21 @@ $X \sim \mathrm{NB}(3, 0.2)$. Find $P(X = 8)$ and $\mathrm{Var}(X)$.
 <details>
 <summary>Solution</summary>
 
-$$P(X = 8) = \binom{7}{2}(0.2)^3(0.8)^5 = 21 \times 0.008 \times 0.32768 = 0.05505$$
+$$
+P(X = 8) = \binom{7}{2}(0.2)^3(0.8)^5 = 21 \times 0.008 \times 0.32768 = 0.05505
+$$
 
-$$E(X) = \frac{3}{0.2} = 15$$
+$$
+E(X) = \frac{3}{0.2} = 15
+$$
 
-$$\mathrm{Var}(X) = \frac{3(0.8)}{0.04} = \frac{2.4}{0.04} = 60$$
+$$
+\mathrm{Var}(X) = \frac{3(0.8)}{0.04} = \frac{2.4}{0.04} = 60
+$$
 
-$$\sigma = \sqrt{60} \approx 7.75$$
+$$
+\sigma = \sqrt{60} \approx 7.75
+$$
 
 **If you get this wrong, revise:** Negative Binomial Distribution section.
 
@@ -1286,13 +1388,21 @@ Mean is between $498\,\mathrm{g}$ and $503\,\mathrm{g}$.
 
 By the CLT:
 
-$$\bar{X} \sim N\!\left(500, \frac{25}{36}\right)$$
+$$
+\bar{X} \sim N\!\left(500, \frac{25}{36}\right)
+$$
 
-$$\sigma_{\bar{X}} = \frac{5}{6} \approx 0.833$$
+$$
+\sigma_{\bar{X}} = \frac{5}{6} \approx 0.833
+$$
 
-$$P(498 \lt \bar{X} \lt 503) = P\!\left(\frac{498 - 500}{5/6} \lt Z \lt \frac{503 - 500}{5/6}\right) = P(-2.4 \lt Z \lt 3.6)$$
+$$
+P(498 \lt \bar{X} \lt 503) = P\!\left(\frac{498 - 500}{5/6} \lt Z \lt \frac{503 - 500}{5/6}\right) = P(-2.4 \lt Z \lt 3.6)
+$$
 
-$$= \Phi(3.6) - \Phi(-2.4) = 0.9998 - 0.0082 = 0.9916$$
+$$
+= \Phi(3.6) - \Phi(-2.4) = 0.9998 - 0.0082 = 0.9916
+$$
 
 **If you get this wrong, revise:** Central Limit Theorem section.
 
@@ -1310,20 +1420,26 @@ interval.
 
 The sample mean is the midpoint of the interval:
 
-$$\bar{x} = \frac{10.02 + 10.18}{2} = 10.10\,\mathrm{mm}$$
+$$
+\bar{x} = \frac{10.02 + 10.18}{2} = 10.10\,\mathrm{mm}
+$$
 
 The margin of error is half the width:
 
-$$E = \frac{10.18 - 10.02}{2} = 0.08\,\mathrm{mm}$$
+$$
+E = \frac{10.18 - 10.02}{2} = 0.08\,\mathrm{mm}
+$$
 
 Verify:
 $E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 1.960 \times \frac{0.4}{\sqrt{50}} = 1.960 \times 0.0566 = 0.1109$
 
 The calculated margin of error ($0.1109$) exceeds the stated margin ($0.08$). This suggests the
-Confidence interval was constructed with a different confidence level or the stated $\sigma$ does
-Not match the data. If we solve for the confidence level that gives $E = 0.08$:
+confidence interval was constructed with a different confidence level or the stated $\sigma$ does
+not match the data. If we solve for the confidence level that gives $E = 0.08$:
 
-$$z_{\alpha/2} = \frac{0.08}{0.4/\sqrt{50}} = \frac{0.08}{0.0566} = 1.413$$
+$$
+z_{\alpha/2} = \frac{0.08}{0.4/\sqrt{50}} = \frac{0.08}{0.0566} = 1.413
+$$
 
 This corresponds to approximately 84% confidence, not 95%.
 
@@ -1339,19 +1455,29 @@ $\mathrm{Var}(X - Y)$ And $P(X + Y = 10)$.
 <details>
 <summary>Solution</summary>
 
-$$E(X) = 15(0.4) = 6, \quad E(Y) = 20(0.3) = 6$$
+$$
+E(X) = 15(0.4) = 6, \quad E(Y) = 20(0.3) = 6
+$$
 
-$$E(X + Y) = 6 + 6 = 12$$
+$$
+E(X + Y) = 6 + 6 = 12
+$$
 
-$$\mathrm{Var}(X) = 15(0.4)(0.6) = 3.6, \quad \mathrm{Var}(Y) = 20(0.3)(0.7) = 4.2$$
+$$
+\mathrm{Var}(X) = 15(0.4)(0.6) = 3.6, \quad \mathrm{Var}(Y) = 20(0.3)(0.7) = 4.2
+$$
 
-$$\mathrm{Var}(X - Y) = 3.6 + 4.2 = 7.8$$
+$$
+\mathrm{Var}(X - Y) = 3.6 + 4.2 = 7.8
+$$
 
-For $P(X + Y = 10)$Enumerate pairs $(x, y)$ where $x + y = 10$$0 \le x \le 15$$0 \le y \le 20$:
+For $P(X + Y = 10)$ Enumerate pairs $(x, y)$ where $x + y = 10$$0 \le x \le 15$$0 \le y \le 20$:
 
 This requires summing over $x = 0$ to $x = 10$:
 
-$$P(X + Y = 10) = \sum_{x=0}^{10} P(X = x)P(Y = 10 - x)$$
+$$
+P(X + Y = 10) = \sum_{x=0}^{10} P(X = x)P(Y = 10 - x)
+$$
 
 This is computationally intensive without a GDC, but the key principle is clear: since $X$ and $Y$
 are Independent binomial variables with the same success probability ($p = 0.3$ and $p = 0.4$
@@ -1371,15 +1497,23 @@ at Least three last more than $550\,\mathrm{hours}$.
 <details>
 <summary>Solution</summary>
 
-$$P(X \gt 550) = P\!\left(Z \gt \frac{550 - 500}{50}\right) = P(Z \gt 1) = 1 - 0.8413 = 0.1587$$
+$$
+P(X \gt 550) = P\!\left(Z \gt \frac{550 - 500}{50}\right) = P(Z \gt 1) = 1 - 0.8413 = 0.1587
+$$
 
 Let $Y$ be the number (out of 4) lasting more than 550 hours. $Y \sim B(4, 0.1587)$.
 
-$$P(Y \ge 3) = P(Y = 3) + P(Y = 4)$$
+$$
+P(Y \ge 3) = P(Y = 3) + P(Y = 4)
+$$
 
-$$= \binom{4}{3}(0.1587)^3(0.8413) + (0.1587)^4$$
+$$
+= \binom{4}{3}(0.1587)^3(0.8413) + (0.1587)^4
+$$
 
-$$= 4(0.003997)(0.8413) + 0.000635 = 0.01345 + 0.000635 = 0.01409$$
+$$
+= 4(0.003997)(0.8413) + 0.000635 = 0.01345 + 0.000635 = 0.01409
+$$
 
 Approximately 1.4% chance that at least three out of four batteries last more than 550 hours.
 
@@ -1402,15 +1536,19 @@ Approximate: $X \approx \mathrm{Po}(10)$.
 Check conditions: $n = 60 \ge 50$, $p = 1/6 \le 0.1$? No, $p = 0.167 \gt 0.1$. The Poisson
 Approximation is less accurate here but still usable as an estimate.
 
-$$P(X \ge 3) = 1 - P(X \le 2) = 1 - e^{-10}\!\left(1 + 10 + \frac{100}{2}\right)$$
+$$
+P(X \ge 3) = 1 - P(X \le 2) = 1 - e^{-10}\!\left(1 + 10 + \frac{100}{2}\right)
+$$
 
-$$= 1 - 61e^{-10} = 1 - 61(0.0000454) = 1 - 0.00277 = 0.9972$$
+$$
+= 1 - 61e^{-10} = 1 - 61(0.0000454) = 1 - 0.00277 = 0.9972
+$$
 
 Exact binomial:
 $P(X \le 2) = \binom{60}{0}(5/6)^{60} + \binom{60}{1}(1/6)(5/6)^{59} + \binom{60}{2}(1/6)^2(5/6)^{58}$
 
 This gives approximately $P(X \le 2) \approx 0.00268$ So $P(X \ge 3) \approx 0.9973$. The
-Approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moderate.
+approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moderate.
 
 **If you get this wrong, revise:** Poisson as a Limit of the Binomial section.
 
@@ -1429,9 +1567,9 @@ Approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moder
 
 ## Related Content at Other Levels
 
-- **A-Level Probability:** [Mathematics](https://alevel.wyattau.com/docs/maths/maths)
+- **A-Level Probability:** [Mathematics](https://alevel.wyattau.com/maths/maths/)
 - **DSE Probability:**
-  [Probability](https://dse.wyattau.com/docs/dse/maths/compulsory/11_probability)
+  [Probability](https://dse.wyattau.com/maths/compulsory/11_probability/)
 - **University Probability and Statistics:**
   [Probability and Statistics](https://mathematics.wyattau.com/)
 
@@ -1464,9 +1602,13 @@ Find the first three terms in the expansion of $(1 + 2x)^{10}$ in ascending powe
 
 **Solution:**
 
-$$(1 + 2x)^{10} = \binom{10}{0}(1)^{10}(2x)^0 + \binom{10}{1}(1)^9(2x)^1 + \binom{10}{2}(1)^8(2x)^2$$
+$$
+(1 + 2x)^{10} = \binom{10}{0}(1)^{10}(2x)^0 + \binom{10}{1}(1)^9(2x)^1 + \binom{10}{2}(1)^8(2x)^2
+$$
 
-$$= 1 + 10(2x) + 45(4x^2) = 1 + 20x + 180x^2$$
+$$
+= 1 + 10(2x) + 45(4x^2) = 1 + 20x + 180x^2
+$$
 
 ## Summary
 
@@ -1477,10 +1619,14 @@ $$= 1 + 10(2x) + 45(4x^2) = 1 + 20x + 180x^2$$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                       | Site    | Link                                                                                                       |
 | --------------------------- | ------- | ---------------------------------------------------------------------------------------------------------- |
 | [Statistical Distributions] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/04-statistical-distributions) |
-| [Statistical Distributions] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/3_probability-distributions)      |
+| [Statistical Distributions] | IB      | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions/)      |
+
+</div>
 
 ## See Also
 

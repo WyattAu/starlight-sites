@@ -64,20 +64,30 @@ Optics studies the behavior of light, including reflection, refraction, diffract
 **Solution:**
 
 Using the mirror equation:
-$$\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$$
+$$
+\frac{1}{f} = \frac{1}{v} + \frac{1}{u}
+$$
 
 For a concave mirror, $f = -15$ cm (negative by sign convention). Object distance $u = -30$ cm (negative).
 
-$$\frac{1}{-15} = \frac{1}{v} + \frac{1}{-30}$$
+$$
+\frac{1}{-15} = \frac{1}{v} + \frac{1}{-30}
+$$
 
-$$\frac{1}{v} = \frac{1}{-15} + \frac{1}{30} = \frac{-2 + 1}{30} = \frac{-1}{30}$$
+$$
+\frac{1}{v} = \frac{1}{-15} + \frac{1}{30} = \frac{-2 + 1}{30} = \frac{-1}{30}
+$$
 
-$$v = -30 \, \text{cm}$$
+$$
+v = -30 \, \text{cm}
+$$
 
 The image is at 30 cm in front of the mirror (same side as object).
 
 Magnification:
-$$m = -\frac{v}{u} = -\frac{-30}{-30} = -1$$
+$$
+m = -\frac{v}{u} = -\frac{-30}{-30} = -1
+$$
 
 The image is real, inverted, and the same size as the object.
 
@@ -90,20 +100,30 @@ The image is real, inverted, and the same size as the object.
 **Solution:**
 
 Using the lens equation:
-$$\frac{1}{f} = \frac{1}{v} - \frac{1}{u}$$
+$$
+\frac{1}{f} = \frac{1}{v} - \frac{1}{u}
+$$
 
 For a convex lens, $f = +20$ cm. Image distance $v = +60$ cm (positive for real image).
 
-$$\frac{1}{20} = \frac{1}{60} - \frac{1}{u}$$
+$$
+\frac{1}{20} = \frac{1}{60} - \frac{1}{u}
+$$
 
-$$\frac{1}{u} = \frac{1}{60} - \frac{1}{20} = \frac{1 - 3}{60} = \frac{-2}{60} = \frac{-1}{30}$$
+$$
+\frac{1}{u} = \frac{1}{60} - \frac{1}{20} = \frac{1 - 3}{60} = \frac{-2}{60} = \frac{-1}{30}
+$$
 
-$$u = -30 \, \text{cm}$$
+$$
+u = -30 \, \text{cm}
+$$
 
 The object is 30 cm in front of the lens.
 
 Magnification:
-$$m = \frac{v}{u} = \frac{60}{-30} = -2$$
+$$
+m = \frac{v}{u} = \frac{60}{-30} = -2
+$$
 
 The image is real, inverted, and twice the size of the object.
 
@@ -116,9 +136,13 @@ The image is real, inverted, and twice the size of the object.
 **Solution:**
 
 Using the critical angle formula:
-$$\sin\theta_c = \frac{n_2}{n_1} = \frac{1}{1.5} = \frac{2}{3}$$
+$$
+\sin\theta_c = \frac{n_2}{n_1} = \frac{1}{1.5} = \frac{2}{3}
+$$
 
-$$\theta_c = \sin^{-1}\left(\frac{2}{3}\right) \approx 41.8°$$
+$$
+\theta_c = \sin^{-1}\left(\frac{2}{3}\right) \approx 41.8°
+$$
 
 For any angle of incidence greater than $41.8°$, total internal reflection occurs.
 

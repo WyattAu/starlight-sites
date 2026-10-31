@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "Summary of Key Theorems"
 tags:
@@ -19,6 +18,8 @@ description: "Study notes for Summary of Key Theorems | Mathematics with worked 
 }
 </script>
 
+<div class="table-wrap">
+
 | Theorem              | Statement                                                                                           |
 | -------------------- | --------------------------------------------------------------------------------------------------- |
 | Hahn-Banach          | Bounded functionals extend preserving norm                                                          |
@@ -29,6 +30,8 @@ description: "Study notes for Summary of Key Theorems | Mathematics with worked 
 | Spectral Theorem     | Compact self-adjoint operators have orthonormal eigenbasis                                          |
 | Fredholm Alternative | For compact $T$ and $\lambda \neq 0$: either $\lambda I - T$ is invertible or has nontrivial kernel |
 | Banach-Alaoglu       | Closed unit ball of $X^*$ is weak\*-compact                                                         |
+
+</div>
 
 ### Hahn-Banach Theorem
 
@@ -161,6 +164,8 @@ operators (Spectral).
 
 ### Additional Theorems
 
+<div class="table-wrap">
+
 | Theorem | Statement | Application |
 | --------- | ----------- | ------------- |
 | Lax-Milgram | Bounded coercive bilinear form on Hilbert space has unique solution | Elliptic PDEs |
@@ -169,7 +174,11 @@ operators (Spectral).
 | Stone-Weierstrass | Subalgebra separating points and containing constants is dense | Approximation theory |
 | Arzelà-Ascoli | Bounded equicontinuous sequence in $C(K)$ has convergent subsequence | Compactness in function spaces |
 
+</div>
+
 ### Dual Space Reference
+
+<div class="table-wrap">
 
 | Space $X$ | Dual $X^*$ | Norm on $X^*$ |
 | ----------- | ------------ | ---------------- |
@@ -180,16 +189,24 @@ operators (Spectral).
 | $\ell^p$, $1 \leq p < \infty$ | $\ell^q$ | $\|x\|_q$ |
 | Hilbert space $H$ | $H$ (Riesz isomorphism) | Same norm |
 
+</div>
+
 ### Operator Topologies
+
+<div class="table-wrap">
 
 | Topology | Convergence condition | Use case |
 | ---------- | --------------------- | ---------- |
 | Norm | $\|T_n - T\| \to 0$ | Strongest; uniform approximation |
 | Strong (SOT) | $\|T_n x - Tx\| \to 0$ for each $x$ | Pointwise convergence |
-| Weak (WOT) | $ | \langle (T_n - T)x, y \rangle | \to 0$ for all $x, y$ | Weakest useful topology |
-| Weak\* | $ | x^*(T_n - T) | \to 0$ for $x^*\in X^*$ | Banach-Alaoglu compactness |
+| Weak (WOT) | $ \| \langle (T_n - T)x, y \rangle \| \to 0$ for all $x, y$ | Weakest useful topology |
+| Weak\* | $ \| x^*(T_n - T) \| \to 0$ for $x^*\in X^*$ | Banach-Alaoglu compactness |
+
+</div>
 
 ### Spectral Theory Reference
+
+<div class="table-wrap">
 
 | Operator type | Spectrum | Properties |
 | -------------- | ---------- | ------------ |
@@ -198,16 +215,7 @@ operators (Spectral).
 | Normal | $\|T\| = r(T)$ (spectral radius) | Spectral theorem applies |
 | Bounded self-adjoint | $\sigma \subseteq \mathbb{R}$ | $\sup\sigma = \|T\|$ if $T \geq 0$ |
 
-
-```mermaid
-flowchart TD
-    A[9_Summary Of Key Theorems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Cross-References
 
@@ -216,10 +224,10 @@ flowchart TD
 - [Electromagnetic Waves](https://physics.wyattau.com/3-electromagnetism/5_electromagnetic-waves/) -- The spectral theorem underpins the mode decomposition of electromagnetic fields in cavities and waveguides.
 - [Ising Model and Mean-Field Theory](https://physics.wyattau.com/2-thermal-physics/12_ising-model-and-mean-field-theory/) -- Transfer matrix methods use operator theory to compute partition functions in statistical mechanics.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Common Mistakes
 

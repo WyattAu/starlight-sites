@@ -32,7 +32,7 @@ dev_dependencies:
   test: ^1.25.0
 ```
 
-The core API consists of three functions: `test``group`and `expect`.
+The core API consists of three functions: `test`, `group`and `expect`.
 
 ```dart
 import "package:test/test.dart';
@@ -93,7 +93,7 @@ void main() {
 ### Matchers
 
 The `expect` function pairs a value with a matcher. Matchers are composable, they can be nested,
-combined with `allOf``anyOf`and negated with `isNot`.
+combined with `allOf`, `anyOf`and negated with `isNot`.
 
 ```dart
 import 'package:test/test.dart';
@@ -293,7 +293,7 @@ await tester.pumpAndSettle(); // Wait for all animations to complete
 
 ### Testing Async Widgets
 
-Widgets that depend on `FutureBuilder``StreamBuilder`or async initialization require explicit
+Widgets that depend on `FutureBuilder`, `StreamBuilder`or async initialization require explicit
 pumping to advance through loading states.
 
 ```dart
@@ -750,16 +750,6 @@ testWidgets('navigates to detail on tap', (tester) async {
    sense of security. A single well-structured test that exercises a real edge case is worth more
    than ten tests that assert nothing meaningful.
 
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Dart and Flutter provide a layered testing framework: unit tests for logic, widget tests for UI
@@ -775,9 +765,6 @@ than no test at all.
 Dart testing follows the testing pyramid: many fast unit tests at the base, fewer widget tests in the middle, and a handful of integration tests at the top. This is not just convention -- it is economics. Unit tests run in milliseconds and catch logic errors early; integration tests run in seconds but catch only the bugs that survive lower-level testing. Golden tests are the visual regression detector: they compare pixel-by-pixel against a reference image, catching design drift that logic tests cannot detect. FakeAsync is the time machine that lets you test debounce, timeout, and periodic logic without wall-clock delays.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

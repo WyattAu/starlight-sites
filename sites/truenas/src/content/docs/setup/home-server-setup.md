@@ -33,7 +33,7 @@ For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload:
 
 Avoid high-TDP desktop CPUs unless you are comfortable with power consumption and thermals. ECC
 Support is a nice-to-have but not required for ZFS; uncorrectable errors from non-ECC RAM are rare
-In homelab workloads.
+in homelab workloads.
 
 ### RAM
 
@@ -45,7 +45,7 @@ Point, but in practice:
 - **Sweet spot**: 64 GB DDR4 ECC UDIMMs (two 32 GB sticks) on a Supermicro or ASRock Rack board
 
 Do not run ZFS with less than 8 GB. The ARC (Adaptive Replacement Cache) will starve and performance
-Will tank. ECC RAM is recommended but not mandatory, ZFS has its own checksumming at the block
+will tank. ECC RAM is recommended but not mandatory, ZFS has its own checksumming at the block
 Level.
 
 ### Storage Drives
@@ -53,12 +53,16 @@ Level.
 Use NAS-grade or enterprise drives. Consumer desktop drives (WD Blue, Seagate Barracuda) have
 Aggressive head-parking and shorter warranties.
 
+<div class="table-wrap">
+
 | Tier            | Example Drives                       | Use Case                             |
 | --------------- | ------------------------------------ | ------------------------------------ |
 | NAS             | WD Red Plus, Seagate IronWolf        | Primary storage pools                |
 | Enterprise      | WD Gold, HGST Ultrastar, Toshiba MG  | Heavy write workloads, critical data |
 | SSD (SATA/NVMe) | Samsung 870 EVO, WD Red SA500        | SLOG (ZIL), L2ARC, metadata vdev     |
 | Boot            | Any 32 GB+ SATA SSD or USB 3.0 flash | OS install only                      |
+
+</div>
 
 Key considerations:
 
@@ -177,6 +181,8 @@ tank/
 
 Key dataset options:
 
+<div class="table-wrap">
+
 | Setting     | Recommended Value | Notes                                                                        |
 | ----------- | ----------------- | ---------------------------------------------------------------------------- |
 | Compression | zstd              | Excellent compression ratio, fast. Set on the pool or per-dataset.           |
@@ -184,6 +190,8 @@ Key dataset options:
 | Sync        | standard          | Default. Set to `always` for NFS sync writes, `disabled` for disposable data |
 | Quota       | Set as needed     | Prevents a runaway process from filling the pool                             |
 | Recordsize  | 128K              | Default. Use 1M for large media files, 16K or 8K for databases               |
+
+</div>
 
 ```bash
 ## Verify compression savings from the CLI
@@ -302,12 +310,16 @@ Sane backup strategy.
 
 ### Recommended Snapshot Schedule
 
+<div class="table-wrap">
+
 | Dataset       | Frequency     | Retention |
 | ------------- | ------------- | --------- |
 | `tank/apps`   | Hourly        | 3 days    |
 | `tank/share`  | Every 6 hours | 2 weeks   |
 | `tank/media`  | Daily         | 30 days   |
 | `tank/backup` | Daily         | 90 days   |
+
+</div>
 
 ### Manual Snapshots and Rollback
 
@@ -439,7 +451,7 @@ Never skip scrubs. A monthly scrub schedule is the minimum for data integrity as
 
 ZFS identifies drives by GUID, not by /dev/sdX names. This means drive reordering does not affect
 Pool import. However, if you are using a USB enclosure, drives may enumerate differently. Always use
-The TrueNAS web UI for pool management, never manually import with `zpool import` unless you know
+the TrueNAS web UI for pool management, never manually import with `zpool import` unless you know
 Exactly what you are doing.
 
 </details>
@@ -526,17 +538,6 @@ for drive in /dev/sd?; do
 done
 ```
 
-
-```mermaid
-flowchart TD
-    A[Home Server Setup] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to setting up home server, including
@@ -550,17 +551,11 @@ key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 Setting up a home server is like building a small data center in your closet. The key decisions are what hardware to use, how much storage you need, and how to keep it running reliably. Think of the server as a librarian who never sleeps: it stores your files, serves media to your devices, and runs services in the background. The investment in time upfront pays dividends in convenience and data ownership, the way building a good workshop saves time on every future project.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

@@ -285,7 +285,7 @@ list.asSequence().filter { ... }.map { ... }.take(5)
 ### When to Use Sequences
 
 - \*\* Use sequences when the collection is large and you have multiple chained operations.
-- \*\* Use sequences when you need only a subset of the result (e.g., `first``take`).
+- \*\* Use sequences when you need only a subset of the result (e.g., `first`, `take`).
 - \*\* Use lists when the collection is small or you need to transform the entire collection.
 
 ### Sequence Creation
@@ -314,16 +314,6 @@ val seq4 = generateSequence(seed = 0) { if (it < 100) it + 1 else null }  // 0..
 
 Collections are containers for groups of related data. Lists store ordered sequences, sets enforce uniqueness, and maps store key-value pairs. Kotlin's collection hierarchy separates read-only from mutable interfaces, making it clear at the type level whether a collection can be modified. Transformation operations like map, filter, and fold let you express data pipelines declaratively, treating collections as streams to be shaped rather than loops to be managed.
 
-```mermaid
-flowchart TD
-    A[Collections] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of collections, including underlying theory, practical
@@ -337,13 +327,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

@@ -25,7 +25,7 @@ Critical.
 - **Compiler Caching (ccache/sccache):** Accelerates the compilation of _your_ source code by
   hashing translation units. It operates at the object file (`.o`) level.
 - **Binary Package Caching (vcpkg/Conan):** Accelerates the acquisition of _dependencies_ by storing
-  pre-compiled libraries. It operates at the package level (`.lib``.dll`Headers).
+  pre-compiled libraries. It operates at the package level (`.lib`, `.dll`Headers).
 
 Without binary caching, a Clean Build of a project involving heavy dependencies (e.g., Qt, LLVM,
 Boost, Folly) entails compiling millions of lines of C++ code, often taking hours. With binary
@@ -34,7 +34,7 @@ Caching, this process becomes an I/O-bound download operation, taking seconds.
 ## The Artifact Registry Architecture
 
 An **Artifact Registry** serves as the storage backend for pre-compiled binaries. This ensures that
-All developers and CI agents share the exact same binary artifacts, enforcing ABI consistency and
+all developers and CI agents share the exact same binary artifacts, enforcing ABI consistency and
 Eliminating redundant compilation.
 
 ### Industry Standard Registries
@@ -80,7 +80,7 @@ export VCPKG_BINARY_SOURCES="clear;files,/var/cache/vcpkg,readwrite"
 #### Scenario B: NuGet Feed (Artifactory/Azure DevOps)
 
 Vcpkg treats binary artifacts as NuGet packages. This is the standard protocol for Windows-centric
-Or Enterprise pipelines.
+or Enterprise pipelines.
 
 ```bash
 export VCPKG_BINARY_SOURCES="clear;nuget,https://artifactory.example.com/nuget/vcpkg-cache,readwrite"
@@ -174,14 +174,14 @@ This topology ensures that a developer changing `main.cpp` never waits for `Qt6`
 ### Immutability
 
 Artifacts in the registry should be **Immutable**. Once version `1.0.0` of a package is uploaded
-With a specific hash, it should never be overwritten. If the build configuration changes (e.g.,
+with a specific hash, it should never be overwritten. If the build configuration changes (e.g.,
 Enabling SSL support), the Package ID changes, creating a _new_ binary artifact rather than
 Overwriting the old one.
 
 ### Provenance
 
 The "Producer" CI job should sign the artifacts. Consumers should verify signatures to ensure that
-The binary was built by a trusted CI agent and not injected by a compromised developer machine.
+the binary was built by a trusted CI agent and not injected by a compromised developer machine.
 
 - **Conan:** Supports lockfiles (`conan.lock`) to strictly enforce dependency graph reproducibility.
 - **vcpkg:** Relies on Git SHAs in the registry baseline for provenance.
@@ -189,11 +189,11 @@ The binary was built by a trusted CI agent and not injected by a compromised dev
 ## Compiler Caching: ccache and sccache
 
 While binary package caching accelerates dependency acquisition, **compiler caching** accelerates
-The compilation of your own source code by memoizing translation unit compilations.
+the compilation of your own source code by memoizing translation unit compilations.
 
 ### How Compiler Caches Work
 
-A compiler cache intercepts invocations of the compiler (`gcc``clang``cl.exe`) and computes a **hash
+A compiler cache intercepts invocations of the compiler (`gcc`, `clang`, `cl.exe`) and computes a **hash
 key** from all inputs that affect the output object file. If a matching key exists in the Cache, the
 cached `.o` file is returned instead of invoking the compiler.
 
@@ -314,7 +314,7 @@ cmake -S . -B build \
 #### GCC
 
 - ccache works transparently with GCC.
-- GCC"s `-fprofile-generate` / `-fprofile-use` (PGO) is **not** cacheable by ccache because the
+- GCC's `-fprofile-generate` / `-fprofile-use` (PGO) is **not** cacheable by ccache because the
   output depends on runtime profile data, not just source inputs.
 
 #### Clang
@@ -334,7 +334,7 @@ cmake -S . -B build \
 ### Correct Invalidation
 
 Cache entries are invalidated when any input to the hash changes. This is automatic and correct in
-The common case.
+the common case.
 
 ### Common Causes of Unnecessary Cache Misses
 
@@ -399,12 +399,16 @@ This action automatically caches `~/.cache/ccache` between workflow runs using G
 
 Typical cache hit rates in real-world C++ CI pipelines:
 
+<div class="table-wrap">
+
 | Scenario                    | First Build (cold) | Incremental Build | Cache Hit Rate |
 | --------------------------- | ------------------ | ----------------- | -------------- |
 | Small project (10 files)    | 30s                | 2s                | 95%+           |
 | Medium project (500 files)  | 8min               | 45s               | 85-90%         |
 | Large project (5000+ files) | 45min              | 5min              | 70-80%         |
 | Header-heavy (Boost, Qt)    | 90min              | 15min             | 60-75%         |
+
+</div>
 
 **Key observation:** Header-heavy codebases see lower hit rates because changing a widely-included
 Header invalidates all translation units that include it. This is a fundamental property of the C++
@@ -444,7 +448,7 @@ This combined approach can reduce a 45-minute CI build to under 2 minutes for in
 1. **Forgetting to set `CMAKE_CXX_COMPILER_LAUNCHER`:** Without this, CMake invokes the compiler
    directly, bypassing the cache entirely. Verify with `ccache -s` that the "called" counter
    increases.
-2. **Cache poisoning with instrumented builds:** Running `sanitize``coverage`Or `debug` builds
+2. **Cache poisoning with instrumented builds:** Running `sanitize`, `coverage` or `debug` builds
    populates the cache with instrumented `.o` files. Subsequent release builds may accidentally use
    these. Use separate cache directories or clear the cache between build types.
 3. **Ignoring the cache size limit:** If the cache reaches its maximum size, ccache uses an LRU
@@ -459,17 +463,6 @@ This combined approach can reduce a 45-minute CI build to under 2 minutes for in
 - [Build Caching](/enviroment_and_toolchain/2_build_system/4_build_caching/), CMake and build-system-level caching
 - [Code Coverage](/enviroment_and_toolchain/2_build_system/6_code_coverage/), Instrumented builds (should not be cached)
 
-
-```mermaid
-flowchart TD
-    A[6_Binary_Caching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of binary caching, including underlying theory, practical
@@ -483,10 +476,5 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

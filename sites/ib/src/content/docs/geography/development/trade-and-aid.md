@@ -29,16 +29,16 @@ description: "Study notes for Trade and Aid with worked examples, practice probl
 ### The Structure of Global Trade
 
 Global trade in goods and services exceeded USD 32 trillion in 2022. The structure of trade is
-Characterised by several patterns:
+characterised by several patterns:
 
 **North-South trade.** Historically, developing countries (the "South") exported primary commodities
 (agricultural products, minerals, fossil fuels) to developed countries (the "North") and imported
 Manufactured goods and services in return. This pattern reflects colonial trading relationships and
-Comparative advantage based on natural resource endowments.
+comparative advantage based on natural resource endowments.
 
 **South-South trade.** Trade between developing countries has grown rapidly, now accounting for
-Approximately 25% of global trade. China"s economic rise has been a major driver: China is the
-Largest trading partner for over 120 countries, including many in Africa, Latin America, and
+Approximately 25% of global trade. China's economic rise has been a major driver: China is the
+largest trading partner for over 120 countries, including many in Africa, Latin America, and
 Southeast Asia.
 
 **Intra-industry trade.** A growing proportion of trade occurs between countries at similar levels
@@ -48,13 +48,15 @@ Differentiation and economies of scale.
 
 **Global value chains (GVCs).** Modern trade is increasingly organised through GVCs, in which the
 Production of a single good is fragmented across multiple countries. An iPhone, for example, is
-Designed in California, uses components from South Korea, Japan, Taiwan, and Europe, and is
-Assembled in China or India. GVCs account for approximately 70% of global trade.
+designed in California, uses components from South Korea, Japan, Taiwan, and Europe, and is
+assembled in China or India. GVCs account for approximately 70% of global trade.
 
 ### Trading Blocs
 
 A trading bloc is a group of countries that agree to reduce or eliminate trade barriers among
-Themselves. Trading blocs vary in the degree of integration:
+themselves. Trading blocs vary in the degree of integration:
+
+<div class="table-wrap">
 
 | Type                            | Description                                                                                   | Example                                                  |
 | ------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -63,8 +65,10 @@ Themselves. Trading blocs vary in the degree of integration:
 | **Common market**               | Customs union plus free movement of capital and labour                                        | European Single Market (1993)                            |
 | **Economic and monetary union** | Common market plus a common currency and coordinated monetary policy                          | Eurozone (20 EU member states using the euro)            |
 
+</div>
+
 **The European Union.** The EU (27 member states, population approximately 450 million) is the
-World"s most advanced trading bloc, with a single market ensuring the free movement of goods,
+World's most advanced trading bloc, with a single market ensuring the free movement of goods,
 Services, capital, and labour. The EU accounts for approximately 15% of global trade in goods. The
 EU's Common Agricultural Policy (CAP) has been criticised for subsidising European farmers,
 Depressing global agricultural prices, and undermining producers in developing countries.
@@ -72,7 +76,7 @@ Depressing global agricultural prices, and undermining producers in developing c
 **ASEAN.** The Association of Southeast Asian Nations (10 member states, population approximately
 680 million) has created one of the world's largest free trade areas. ASEAN's combined GDP exceeds
 USD 3.6 trillion. The Regional Comprehensive Economic Partnership (RCEP), which entered into force
-In 2022, creates the world's largest trading bloc by GDP, encompassing ASEAN plus China, Japan,
+in 2022, creates the world's largest trading bloc by GDP, encompassing ASEAN plus China, Japan,
 South Korea, Australia, and New Zealand.
 
 ### The World Trade Organisation (WTO)
@@ -104,7 +108,7 @@ Barriers.
 ### Principles and Mechanism
 
 The fair trade movement aims to ensure that producers in developing countries receive a fair price
-For their goods, above the market price, along with a social premium for community development. Fair
+for their goods, above the market price, along with a social premium for community development. Fair
 Trade certification (administered by Fairtrade International, Fair Trade USA, and other bodies)
 Applies to commodities including coffee, cocoa, bananas, cotton, tea, sugar, and gold.
 
@@ -146,6 +150,8 @@ The fair trade price includes two components:
 
 ### Types of Aid
 
+<div class="table-wrap">
+
 | Type                 | Description                                                 | Source                                 | Advantages                                                          | Disadvantages                                                             |
 | -------------------- | ----------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **Bilateral aid**    | Government-to-government                                    | Donor government                       | Can be targeted to specific priorities; strengthens diplomatic ties | May serve donor political interests; tied aid may benefit donor companies |
@@ -154,6 +160,8 @@ The fair trade price includes two components:
 | **Humanitarian aid** | Emergency assistance (food, shelter, medical) during crises | Multiple sources                       | Saves lives; rapid response                                         | Does not address underlying causes; can create dependency                 |
 | **Development aid**  | Long-term support for economic and social development       | Governments, multilateral institutions | Addresses root causes of poverty                                    | Slow to show results; effectiveness varies                                |
 | **Tied aid**         | Requires recipient to spend on goods/services from donor    | Donor government                       | Ensures aid benefits donor economy                                  | Reduces value of aid by 15--30%; may not meet recipient needs             |
+
+</div>
 
 ### The Aid Effectiveness Debate
 
@@ -195,11 +203,11 @@ Economic reforms and poverty reduction strategies.
 **Results.** As of 2023, 36 countries have received debt relief under HIPC and the subsequent
 Multilateral Debt Relief Initiative (MDRI, 2005), with approximately USD 76 billion in debt
 Cancelled. Debt-to-export ratios in HIPC countries fell from an average of approximately 270% to
-Approximately 60%.
+approximately 60%.
 
 **Limitations:** debt relief was insufficient to prevent a new wave of debt distress: as of 2023,
 Approximately 60% of low-income countries are at high risk of or already in debt distress, driven by
-Borrowing (much of it from China and private creditors, outside the HIPC framework), COVID-19
+borrowing (much of it from China and private creditors, outside the HIPC framework), COVID-19
 Spending, and rising interest rates. Zambia defaulted on its sovereign debt in 2020; Sri Lanka
 Defaulted in 2022; Ghana and Ethiopia have sought debt restructuring.
 
@@ -209,7 +217,7 @@ Defaulted in 2022; Ghana and Ethiopia have sought debt restructuring.
 Aid effectiveness depends critically on context. "Aid works" and "aid does not work" are both overly
 Simplistic generalisations. When evaluating aid in examination responses, consider: the type of aid
 (humanitarian vs development, bilateral vs multilateral), the governance and institutional context
-Of the recipient country, the conditions attached to aid, the alignment of aid with recipient
+of the recipient country, the conditions attached to aid, the alignment of aid with recipient
 Priorities, and the time horizon (aid impacts may take decades to materialise). Use specific case
 Studies with evidence, and avoid blanket generalisations.
 
@@ -233,24 +241,7 @@ For related topics, see [./measuring-development](/geography/development/measuri
 4. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.
 
-
-```mermaid
-flowchart TD
-    A[Trade And Aid] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

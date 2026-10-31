@@ -21,7 +21,7 @@ description: "Scope functions execute a block of code within the context of an o
 ## Introduction
 
 Scope functions execute a block of code within the context of an object. Kotlin provides five
-built-in scope functions (`let``apply``run``also``with`) and one coroutine-specific function
+built-in scope functions (`let`, `apply`, `run`, `also`, `with`) and one coroutine-specific function
 (`withContext`). They differ in two dimensions: whether the block receives the object as `this`
 (receiver) or as `it` (argument), and what the block returns (the object itself or the block"s
 result).
@@ -271,6 +271,8 @@ used only when thread or context changes are needed.
 
 ## Choosing the Right Function
 
+<div class="table-wrap">
+
 | Function | Context | Returns      | Primary Use                   |
 | -------- | ------- | ------------ | ----------------------------- |
 | `let`    | `it`    | block result | Null safety, transforms       |
@@ -279,10 +281,12 @@ used only when thread or context changes are needed.
 | `apply`  | `this`  | receiver     | Configuration, initialization |
 | `also`   | `it`    | receiver     | Side effects, logging, debug  |
 
+</div>
+
 Use the following decision process:
 
 - **Do you need to return the object itself?** Use `apply` or `also`.
-- **Do you need to return the block result?** Use `let``run`or `with`.
+- **Do you need to return the block result?** Use `let`, `run`or `with`.
 - **Do you prefer `this` or `it` context?** Use `this` for frequent member access, `it` when you
   want to shadow the outer scope or keep the lambda short.
 
@@ -362,16 +366,6 @@ val server = ServerBuilder()
   receiver and is used as a grouping mechanism. The extension `run` operates on an object and is
   used to compute a result.
 
-```mermaid
-flowchart TD
-    A[Scope Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers Kotlin scope functions and their practical usage patterns, including when to use
@@ -391,9 +385,6 @@ Understanding scope functions thoroughly improves readability and reduces boiler
 code. Practice each function with realistic examples to build fluency.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

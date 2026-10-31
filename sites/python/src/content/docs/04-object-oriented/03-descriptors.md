@@ -17,18 +17,22 @@ description: "Descriptors are the mechanism behind And the entire Attribute acce
 
 ## Descriptor Protocol
 
-Descriptors are the mechanism behind `property``classmethod``staticmethod`And the entire Attribute
+Descriptors are the mechanism behind `property`, `classmethod`, `staticmethod` and the entire Attribute
 access system in Python. A descriptor is any object that implements at least one of
-`__get__``__set__`Or `__delete__`.
+`__get__`, `__set__` or `__delete__`.
 
 ### Data vs Non-Data Descriptors
+
+<div class="table-wrap">
 
 | Type                | Methods                               | Behavior                                       |
 | ------------------- | ------------------------------------- | ---------------------------------------------- |
 | Non-data descriptor | `__get__` only                        | Instance attribute takes precedence            |
 | Data descriptor     | `__get__` + `__set__` or `__delete__` | Descriptor always wins over instance attribute |
 
-This distinction is fundamental to understanding Python"s attribute lookup.
+</div>
+
+This distinction is fundamental to understanding Python's attribute lookup.
 
 ```python
 class NonDataDescriptor:
@@ -176,7 +180,7 @@ class Property:
 ### cached_property
 
 `functools.cached_property` (Python 3.8+) caches the result of a property on the instance. It is a
-Non-data descriptor:
+non-data descriptor:
 
 ```python
 from functools import cached_property
@@ -282,7 +286,7 @@ print(MathUtils.is_prime(17))         # True
 ```
 
 `staticmethod` is also a descriptor, but a simple one, it just returns the original function
-Without binding:
+without binding:
 
 ```python
 class StaticMethod:
@@ -345,11 +349,11 @@ wsl_list = [WithSlots(i, i) for i in range(100000)]
 
 On CPython 3.12, a slotted instance with two attributes uses ~48 bytes versus ~56 bytes for a
 Regular instance (which includes the `__dict__` overhead). The savings are more significant when you
-Have many instances.
+have many instances.
 
 ### **slots** Rules
 
-1. **All parent classes must also use `__slots__`**. If a parent has `__dict__`The child will too,
+1. **All parent classes must also use `__slots__`**. If a parent has `__dict__`. The child will too,
    negating the benefit.
 2. **`__slots__` is inherited**. A child class gets the parent's slots plus its own.
 3. **You cannot add attributes not in `__slots__`**. This is the whole point.
@@ -503,7 +507,7 @@ print(dir(client))  # Shows only public attributes and methods
 ### functools.total_ordering
 
 `@total_ordering` fills in the remaining comparison methods when you define `__eq__` and one of
-`__lt__``__le__``__gt__`Or `__ge__`:
+`__lt__`, `__le__`, `__gt__` or `__ge__`:
 
 ```python
 from functools import total_ordering
@@ -927,13 +931,7 @@ practical implementation, and key applications.
 - transaction processing (ACID)
 - NoSQL and distributed databases
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

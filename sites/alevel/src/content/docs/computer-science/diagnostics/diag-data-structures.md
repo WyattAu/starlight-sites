@@ -15,16 +15,6 @@ tableOfContents: false
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Diag Data Structures] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -64,7 +54,7 @@ Result: 3 $\to$ 1 $\to$ 9 $\to$ 5.
 
 - Insert at head: $O(1)$ -- just update the head pointer and the new node's next.
 - Insert at position $k$: $O(n)$ -- must traverse $k$ nodes to find the insertion point. Even if the
-  insertion itself is $O(1)$The traversal dominates.
+  insertion itself is $O(1)$ The traversal dominates.
 
 (d) A doubly linked list has both `next` and `prev` pointers. For a deque (double-ended queue), we
 need to add and remove from both ends efficiently. With a singly linked list, removing from the tail
@@ -95,6 +85,8 @@ Hash values: $h(14) = 0$$h(21) = 0$$h(28) = 0$$h(35) = 0$$h(42) = 0$$h(15) = 1$$
 
 (a) **Separate chaining:**
 
+<div class="table-wrap">
+
 | Index | Chain                                  |
 | ----- | -------------------------------------- |
 | 0     | 14 $\to$ 21 $\to$ 28 $\to$ 35 $\to$ 42 |
@@ -104,6 +96,8 @@ Hash values: $h(14) = 0$$h(21) = 0$$h(28) = 0$$h(35) = 0$$h(42) = 0$$h(15) = 1$$
 | 4     | empty                                  |
 | 5     | empty                                  |
 | 6     | empty                                  |
+
+</div>
 
 Load factor: $7/7 = 1.0$.
 
@@ -117,6 +111,8 @@ Load factor: $7/7 = 1.0$.
 - 15: index 1, collision. Try 2, 3, 4 (full), try 5. Table[5] $= 15$.
 - 22: index 1, collision. Try 2, 3, 4, 5 (full), try 6. Table[6] $= 22$.
 
+<div class="table-wrap">
+
 | Index | Key |
 | ----- | --- |
 | 0     | 14  |
@@ -126,6 +122,8 @@ Load factor: $7/7 = 1.0$.
 | 4     | 42  |
 | 5     | 15  |
 | 6     | 22  |
+
+</div>
 
 Load factor: $7/7 = 1.0$.
 
@@ -207,6 +205,8 @@ to postfix using the shunting-yard algorithm, showing the operator stack at each
 
 **Postfix evaluation of `5 3 2 * + 4 -`:**
 
+<div class="table-wrap">
+
 | Token | Action                          | Stack (bottom $\to$ top) |
 | ----- | ------------------------------- | ------------------------ |
 | 5     | Push                            | [5]                      |
@@ -217,9 +217,13 @@ to postfix using the shunting-yard algorithm, showing the operator stack at each
 | 4     | Push                            | [11, 4]                  |
 | -     | Pop 4, 11; push $11 - 4 = 7$    | [7]                      |
 
+</div>
+
 Result: 7.
 
 **Shunting-yard for `(A + B) * (C - D) / E`:**
+
+<div class="table-wrap">
 
 | Token | Action                                       | Operator Stack | Output             |
 | ----- | -------------------------------------------- | -------------- | ------------------ |
@@ -237,6 +241,8 @@ Result: 7.
 | /     | Pop \* (same precedence, left-assoc), push / | [/]            | A B + C D - \*     |
 | E     | Output                                       | [/]            | A B + C D - \* E   |
 | end   | Pop all                                      | []             | A B + C D - \* E / |
+
+</div>
 
 Postfix: `A B + C D - * E /`
 
@@ -264,6 +270,8 @@ algorithm from A to all vertices. (c) State the shortest path from A to E and it
 
 (a) **Adjacency matrix:**
 
+<div class="table-wrap">
+
 |     | A        | B        | C   | D        | E        |
 | --- | -------- | -------- | --- | -------- | -------- |
 | A   | 0        | 4        | 2   | $\infty$ | $\infty$ |
@@ -272,13 +280,15 @@ algorithm from A to all vertices. (c) State the shortest path from A to E and it
 | D   | $\infty$ | 5        | 8   | 0        | 2        |
 | E   | $\infty$ | $\infty$ | 10  | 2        | 0        |
 
+</div>
+
 (b) **Dijkstra's algorithm from A:**
 
-Initial: dist $= [0, \infty, \infty, \infty, \infty]$Visited $= \{\}$Prev $= [-, -, -, -, -]$.
+Initial: dist $= [0, \infty, \infty, \infty, \infty]$ Visited $= \{\}$ Prev $= [-, -, -, -, -]$.
 
-Visit A (dist $= 0$): update B $= 4$C $= 2$. Dist $= [0, 4, 2, \infty, \infty]$.
+Visit A (dist $= 0$): update B $= 4$ C $= 2$. Dist $= [0, 4, 2, \infty, \infty]$.
 
-Visit C (dist $= 2$): update B $= \min(4, 2+1) = 3$D $= 2+8 = 10$E $= 2+10 = 12$. Dist
+Visit C (dist $= 2$): update B $= \min(4, 2+1) = 3$ D $= 2+8 = 10$ E $= 2+10 = 12$. Dist
 $= [0, 3, 2, 10, 12]$.
 
 Visit B (dist $= 3$): update D $= \min(10, 3+5) = 8$. Dist $= [0, 3, 2, 8, 12]$.
@@ -318,7 +328,7 @@ The shortest path is A $\to$ C $\to$ B $\to$ D $\to$ E with total weight 10.
 **Question:** A binary search tree has $n$ nodes. (a) What is the worst-case height and best-case
 height? (b) If values 1, 2, 3, 4, 5, 6, 7 are inserted in sorted order, what is the resulting tree
 structure and height? (c) State the time complexity of searching in this tree vs a balanced tree.
-(d) If each comparison takes $1\ \mu\text{s}$Calculate the maximum search time for $n = 1000000$ in
+(d) If each comparison takes $1\ \mu\text{s}$ Calculate the maximum search time for $n = 1000000$ in
 a balanced vs unbalanced tree.
 
 **Solution:**

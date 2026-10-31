@@ -40,17 +40,6 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 The SAT is the standardised test used for university admissions across the United States and increasingly around the world. The digital SAT, administered by the College Board, is adaptive, your performance on the first module of each section determines the difficulty of the second module. This means every question matters, and strategic preparation is as important as content knowledge.
@@ -201,12 +190,16 @@ Preparing for the SAT is a structured process. Here is a phased approach that bu
 
 ### Daily Routine
 
+<div class="table-wrap">
+
 | Time | Activity |
 | ------ | ---------- |
 | Morning | Flashcards, 15 minutes of vocabulary and formulas |
 | Afternoon | Topic study, read notes on one content area |
 | Evening | Practice, complete 10–15 practice questions |
 | Weekend | One timed section + review wrong answers |
+
+</div>
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: Mao and Hitler Authoritarian Regimes
 tags:
@@ -20,16 +19,22 @@ description: "Study notes for Mao and Hitler Authoritarian Regimes with worked e
 
 ## Ideology
 
+<div class="table-wrap">
+
 |                        |                                                                                                                                                     Hitler                                                                                                                                                     |                                                                                                                                                                                                                                                                          Mao                                                                                                                                                                                                                                                                          |
 | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Ideology               |                                                                                                      Fascist Nazism (combination of ultranationalism, authoritarianism, militarism, and racial hierarchy)                                                                                                      |                                                                                                                                                                                                                                                         Maoism (Marixist-Lininist Communism)                                                                                                                                                                                                                                                          |
-| Origins                | <ul><li>Adapt Anti-Semitism by proposing Jews at the "other"</li><li>Romantic nationalism drove the growth of nationalist expansionism driven by the idea of Lebensraum</li><li>Scientific racism (inspired by Houston Stewart Chamberlain, as shown in mirrored ideologies in Mein Kampf volume 2) </li></ul> |                                                              <ul><li> Adapt Karl Marx"s theory of class struggle from The Communist Manifesto, but diverting with peasantry emphasis instead of proletariat emphasis. Shown in the emphasis on peasantry as the main revolutionary force in The Long March (1934-1935) </li><li>Adapt Leninism by extending the role of central party with suppressing counter-revolution and being party lead rather than organic revolution</li></ul>                                                               |
+| Origins                | <ul><li>Adapt Anti-Semitism by proposing Jews at the "other"</li><li>Romantic nationalism drove the growth of nationalist expansionism driven by the idea of Lebensraum</li><li>Scientific racism (inspired by Houston Stewart Chamberlain, as shown in mirrored ideologies in Mein Kampf volume 2) </li></ul> |                                                              <ul><li> Adapt Karl Marx's theory of class struggle from The Communist Manifesto, but diverting with peasantry emphasis instead of proletariat emphasis. Shown in the emphasis on peasantry as the main revolutionary force in The Long March (1934-1935) </li><li>Adapt Leninism by extending the role of central party with suppressing counter-revolution and being party lead rather than organic revolution</li></ul>                                                               |
 | Proposed Justification |                                                       <ul><li>Misapplication of Darwinism, where a racial hierarchy is proposed with Aryan at the top. </li><li> Eugenics (suppress negative human phenotypes through preventing fertility). </li></ul>                                                        |                                                                 <ul><li>Necessary radical movement to modernize and strengthen China after "Century of Humiliation"</li><li>Anti-imperialism, viewing foreign domination (mainly due to Japanese expansion and Opium Wars) to China's independence and modernization</li><li>Mao Justify the use of force by "New Democracy", as a transitional phase between feudalism and socialism to the rise of new bureaucratic class</li></ul>                                                                 |
 | Public Reception       |               Great Depression (after Wall Street Crash in 1929) created an environment aiding extremist ideologies to address mass unemployment, social unrest, deteriorating living conditions. Hitler emphasize the ideas of Lebensraum (living space), arguing for nationalist expansionism                | Feudalism and warlord system had long exploited rural peasants, the emphasis of replacing proletariat with peasantry lead revolution garnered many support. This support was increased when the promise of land redistribution was proposed. However, support was greatly reduce after the Great Leap Forward failed. Historian Paul Clark describe the excessive use of Cultural Revolution instead of an organic growth showcase a dangerous deviation between working-class and democratic planning, and may lead to destabilizing of the country. |
+
+</div>
 
 ## Political System
 
 ### Maintenance of Power
+
+<div class="table-wrap">
 
 |                  | Mao                                                                                                                                                                                                                                                                                                                                                                                                                           | Hitler                                                                                                                                                                                                                                                                                                                                                            |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -38,7 +43,11 @@ description: "Study notes for Mao and Hitler Authoritarian Regimes with worked e
 | Police state     | Less significant in China, Frank dikotter argues the overhead due to large geological span of China makes this difficult, punished through Laogai (Labor camps)                                                                                                                                                                                                                                                               | Gestapo, SS, punished through concentration camps. Example being the (Nacht und Nebel) Night and Fog Decree (1941), Night of the Long Knives (1934)                                                                                                                                                                                                               |
 | Suppression      | Public executions during pidou (struggle sessions), a significant death being chairman Liu Shaoqi. Another event being Hundred Flowers campaign for luring opposition (supported by historians like Roderick MacFarquhar, while historians such as Merle Goldman believe it was a genuine attempt that backfired and therefore suppressed afterwards). These targets are counter-revolutionists, landlords, and intellectuals | Concentration camps, Mass shootings and Gas Chambers, Eugenics forced sterilization. These targets include Jews, Political opponents, and individuals possessing undesirable phenotypes (Homosexual, disabled)                                                                                                                                                    |
 
+</div>
+
 ## Economic Policies
+
+<div class="table-wrap">
 
 |               | Mao                                                                                                            | Hitler                                                                                                                                            |
 | ------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -48,10 +57,12 @@ description: "Study notes for Mao and Hitler Authoritarian Regimes with worked e
 | Industrial    | Focus on steel production ("backyard furnaces"); emphasis on heavy industry at the expense of consumer goods   | Rearmament drove industrial growth; unemployment fell from 6 million (1933) to under 1 million (1939); Schacht's Mefo bills financed rearmament   |
 | Outcomes      | Economic disaster during Great Leap; recovery in early 1960s; further disruption during Cultural Revolution    | Significant economic recovery from the Great Depression; however, rearmament was unsustainable and contributed to the onset of World War II       |
 
+</div>
+
 ### Great Leap Forward (1958–1962)
 
 Mao's attempt to rapidly transform China from an agrarian economy to an industrial socialist society
-Through collectivization and mass mobilization.
+through collectivization and mass mobilization.
 
 - **Communes**: Approximately 26,000 communes were established, each containing 5,000+ households.
   Private property was abolished, and all tools, animals, and land were pooled.
@@ -120,6 +131,8 @@ Through collectivization and mass mobilization.
 
 ## Foreign Policy
 
+<div class="table-wrap">
+
 |                 | Mao                                                                                                                     | Hitler                                                                                                                            |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Core strategy   | Anti-imperialism; support for national liberation movements; alignment with the Third World                             | Lebensraum (living space) in Eastern Europe; revision of the Treaty of Versailles; eventual domination of Europe                  |
@@ -127,6 +140,8 @@ Through collectivization and mass mobilization.
 | Key alliances   | Sino-Soviet Treaty of Friendship (1950); later, rapprochement with the United States (1972)                             | Rome-Berlin Axis (1936); Anti-Comintern Pact with Japan (1936); Pact of Steel with Italy (1939); Molotov-Ribbentrop Pact (1939)   |
 | Major conflicts | Korean War, border conflict with India (1962), Sino-Vietnamese War (1979)                                               | Remilitarization, annexation of Czechoslovakia (1939), invasion of Poland (1939), World War II                                    |
 | Outcome         | Established China as a major power; shift from Soviet alignment to US rapprochement; permanent UN Security Council seat | Total defeat; division of Germany; Nuremberg Trials; Holocaust revealed; approximately 70–85 million total deaths in World War II |
+
+</div>
 
 ## Cult of Personality
 
@@ -165,6 +180,8 @@ Both leaders cultivated extensive cults of personality, though through different
 
 ## Historiographical Perspectives
 
+<div class="table-wrap">
+
 | Historian            | Perspective on Mao                                                                                                           | Perspective on Hitler                                                                                                                   |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Frank Dikötter       | Emphasizes the catastrophic human cost of Mao's policies; _The Tragedy of Liberation_ (2013) documents violence of early PRC | N/A (specializes in Chinese history)                                                                                                    |
@@ -174,6 +191,8 @@ Both leaders cultivated extensive cults of personality, though through different
 | Alan Bullock         | N/A                                                                                                                          | _Hitler: A Study in Tyranny_ (1952), intentionalist: Hitler had a clear long-term plan from an early stage                             |
 | Richard J. Evans     | N/A                                                                                                                          | _The Third Reich Trilogy_ (2003–2008), nuanced synthesis of structuralist and intentionalist perspectives                              |
 | Roderick MacFarquhar | Views the Hundred Flowers Campaign as a deliberate trap to identify opposition                                               | N/A                                                                                                                                     |
+
+</div>
 
 ## Intuition
 
@@ -218,6 +237,8 @@ When comparing Mao and Hitler, structure your essay thematically:
 
 ## Treatment of Minorities and "Enemies"
 
+<div class="table-wrap">
+
 | Aspect            | Mao                                                                                                                                 | Hitler                                                                                                                          |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | Target groups     | Landlords, intellectuals, counter-revolutionaries, "rightists," KMT supporters                                                      | Jews, Romani, disabled, homosexuals, political opponents (communists, social democrats), Jehovah's Witnesses                    |
@@ -225,6 +246,8 @@ When comparing Mao and Hitler, structure your essay thematically:
 | Scale             | Great Leap Forward famine: 15–45 million deaths; Cultural Revolution: 500,000–2 million deaths; Land Reform: 1–2 million executions | Holocaust: approximately 6 million Jews; T4 Program: 200,000–275,000 disabled; total victims of Nazi persecution: 11–17 million |
 | Method            | Mass mobilization (Red Guards), struggle sessions, labor camps (Laogai), forced relocation                                          | Industrialized killing (gas chambers), mass shootings, concentration camps, forced sterilization, euthanasia                    |
 | Ideological basis | Class struggle; enemies defined by political/social class                                                                           | Racial hierarchy; enemies defined by race/ethnicity/genetics                                                                    |
+
+</div>
 
 ### The Holocaust
 
@@ -243,8 +266,8 @@ Germany. Key stages:
 **Historiographical debate**: The intentionalist view (Dawidowicz, Fleming) argues that Hitler
 Planned the Holocaust from the beginning. The functionalist/structuralist view (Mommsen, Broszat)
 Argues it emerged incrementally from the radicalization of Nazi policy. Ian Kershaw's "working
-Towards the Führer" thesis suggests that Hitler set broad goals and subordinates interpreted and
-Escalated them.
+towards the Führer" thesis suggests that Hitler set broad goals and subordinates interpreted and
+escalated them.
 
 ### Land Reform and Class Struggle in China
 
@@ -262,12 +285,16 @@ The CCP's treatment of class enemies was central to Mao's revolutionary strategy
 
 ## Use of Violence and Terror
 
+<div class="table-wrap">
+
 | Dimension     | Mao                                                                                                               | Hitler                                                                                                           |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Scale         | Mass mobilization of population; violence often carried out by civilians (Red Guards, struggle sessions)          | Industrialized, state-controlled violence (SS, Gestapo, camps); less reliance on civilian participation          |
 | Timing        | Terror peaked during specific campaigns (Land Reform, Great Leap, Cultural Revolution) with relative calm between | Escalated steadily from 1933; peaked during wartime 1939–1945                                                    |
 | Legal cover   | Minimal, extrajudicial punishment was common; formal legal processes were subordinated to party directives       | Extensive, laws were passed to "legalize" persecution (Nuremberg Laws, euthanasia decrees)                      |
 | International | Less visible internationally during Mao's rule; Cultural Revolution was largely contained within China            | Holocaust was uncovered during/after WWII; Nuremberg Trials established precedent for international criminal law |
+
+</div>
 
 ### Key Events in Mao's China
 
@@ -306,6 +333,8 @@ The CCP's treatment of class enemies was central to Mao's revolutionary strategy
 
 ## Conditions That Allowed Rise to Power
 
+<div class="table-wrap">
+
 | Condition                   | Mao                                                                                                                    | Hitler                                                                                                                                  |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Political instability       | Collapse of Qing Dynasty, warlord era, Japanese invasion created chaos and weakened central authority                  | Weimar Republic's proportional representation created unstable coalition governments; Article 48 allowed presidential emergency decrees |
@@ -315,6 +344,8 @@ The CCP's treatment of class enemies was central to Mao's revolutionary strategy
 | Charismatic leadership      | Mao's personal charisma, strategic brilliance during the Long March, and promise of land reform attracted mass support | Hitler's oratorical skill, use of symbolism, and promise to restore German greatness resonated with a disillusioned population          |
 | Use of paramilitary force   | Red Army built through guerrilla warfare; eventual superiority in rural mobilization                                   | SA (Brownshirts) used intimidation and violence against political opponents; later replaced by the SS                                   |
 
+</div>
+
 ## Legacy and Historical Memory
 
 ### Mao's Legacy
@@ -322,7 +353,7 @@ The CCP's treatment of class enemies was central to Mao's revolutionary strategy
 - **China today**: Mao remains a complex figure in Chinese historical memory. Officially, the CCP's
   1981 Resolution on Party History declared Mao "70% good, 30% bad", crediting him with founding
   the PRC and achieving national unity while criticizing the mistakes of the Great Leap Forward and
-  Cultural Revolution.
+  cultural Revolution.
 - **Economic transformation**: Deng Xiaoping's reforms (1978 onward) abandoned many of Mao's
   policies, introducing market reforms that transformed China into the world's second-largest
   economy. However, the CCP retains Mao as a foundational symbol of its legitimacy.
@@ -350,6 +381,8 @@ The CCP's treatment of class enemies was central to Mao's revolutionary strategy
 
 ## Timeline Comparison
 
+<div class="table-wrap">
+
 | Year    | Nazi Germany                                                                                                               | Mao's China                                                                                                                                                |
 | :------ | :------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1933    | Hitler appointed Chancellor (30 January); Reichstag Fire (February); Enabling Act passed (March), end of Weimar democracy | Mao leads the Jiangxi Soviet; CCP establishes rural base area; Chiang Kai-shek launches Fifth Encirclement Campaign                                        |
@@ -362,6 +395,8 @@ The CCP's treatment of class enemies was central to Mao's revolutionary strategy
 | 1956–57 | (N/A, regime ended 1945)                                                                                                  | Hundred Flowers Campaign (1956–57): intellectuals encouraged to criticise the party; Anti-Rightist Campaign follows, 300,000–500,000 labelled "rightists"  |
 | 1958–62 | (N/A)                                                                                                                      | Great Leap Forward (1958–62): collectivization, backyard furnaces; famine kills an estimated 15–45 million; Mao temporarily sidelined                      |
 | 1966–76 | (N/A)                                                                                                                      | Cultural Revolution (1966–76): Red Guards mobilized; attacks on "Four Olds"; purges of Liu Shaoqi and Deng Xiaoping; an estimated 500,000–2 million deaths |
+
+</div>
 
 > **Exam tip**: The chronological overlap is limited (1933–1945 vs. 1949–1976), but both regimes
 > underwent parallel processes of consolidation, radicalization, and the use of mass mobilization.
@@ -415,14 +450,14 @@ women wore the same military-style clothing as men and were encouraged to enter 
 ### Comparison
 
 Both regimes instrumentalised women as tools of state policy. Mao's regime claimed to liberate women
-Through legal reform and economic participation, but failed to dismantle patriarchal structures in
-Practice. Hitler's regime explicitly rejected gender equality, confining women to reproductive roles
-While selectively relaxing restrictions when economic or military necessity demanded. The key
+through legal reform and economic participation, but failed to dismantle patriarchal structures in
+practice. Hitler's regime explicitly rejected gender equality, confining women to reproductive roles
+while selectively relaxing restrictions when economic or military necessity demanded. The key
 Difference lies in ideological justification: Maoism claimed to support equality as a matter of
 Marxist principle, whereas Nazism explicitly opposed it as contrary to "natural" gender roles.
 Historian Claudia Koonz, in _Mothers in the Fatherland_ (1987), argues that women under Nazism were
-Not merely passive victims but active participants who sustained the regime through their complicity
-In its racial project.
+not merely passive victims but active participants who sustained the regime through their complicity
+in its racial project.
 
 ## Propaganda Methods Compared
 
@@ -469,8 +504,8 @@ Mao's propaganda relied on mass participation and ideological devotion, citizens
 Spectators but expected to be active participants in revolutionary ritual. Hitler's propaganda
 Relied more on theatrical spectacle and sophisticated media technology, creating a sense of passive
 Awe. Historian Timothy Brook argues that Maoist propaganda was more invasive in daily life because
-It demanded continuous ideological performance, whereas Nazi propaganda operated more through
-Periodic mass events and media consumption. However, Nazi propaganda was arguably more
+it demanded continuous ideological performance, whereas Nazi propaganda operated more through
+periodic mass events and media consumption. However, Nazi propaganda was arguably more
 Technologically sophisticated, leveraging film, radio, and architectural spectacle to an extent that
 Mao's China never matched.
 
@@ -516,10 +551,10 @@ Mao's China never matched.
 
 Resistance was significantly more dangerous under Hitler than under Mao for several reasons. The
 Nazi state maintained a comprehensive surveillance apparatus (Gestapo, SS, informer networks) that
-Made organised opposition extraordinarily risky. Mao's regime, by contrast, relied more on mass
+made organised opposition extraordinarily risky. Mao's regime, by contrast, relied more on mass
 Mobilisation and periodic campaigns than on continuous surveillance, creating windows of relative
 Openness between purges. Additionally, resistance in Nazi Germany targeted the state itself and its
-Foundational ideology (anti-Semitism, racial hierarchy), whereas resistance in Mao's China Targeted
+foundational ideology (anti-Semitism, racial hierarchy), whereas resistance in Mao's China Targeted
 specific policies rather than the regime's legitimacy. The Catholic and Protestant churches Provided
 institutional infrastructure for resistance in Germany; no comparable independent Institutions
 existed in Mao's China. However, it should be noted that resistance in both regimes was Marginal and
@@ -610,27 +645,9 @@ Planning notes:
 4. Confusing causes, events, and consequences. Be clear about chronological and causal
    relationships.
 
-
-```mermaid
-flowchart TD
-    A[Mao Hitler] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

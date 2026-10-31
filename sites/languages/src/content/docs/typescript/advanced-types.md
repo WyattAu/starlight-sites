@@ -951,7 +951,7 @@ type B = FirstChar<string>;
 type B = string;
 ```
 
-The conditional type evaluates to `string` because `string` satisfies `` `${infer C}${infer _}` ``
+The conditional type evaluates to `string` because `string` satisfies `` ``, ``${infer C}${infer _}``, `` ``
 with both inferences being `string`.
 
 ### Pitfall 5: `readonly` Array Covariance Breaks Mutability
@@ -1021,16 +1021,6 @@ This version is an error because the object literal is directly assigned.
 4. **Forgetting that keyof includes symbol keys.** keyof T returns string | number | symbol for most
    objects. Use keyof T & string for string-only keys.
 
-```mermaid
-flowchart TD
-    A[Advanced Types] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers advanced TypeScript type system features that enable building robust, type-safe
@@ -1055,9 +1045,6 @@ abstractions.
   directives.
 - Utility type patterns: state machine types, AST visitor pattern, and type-safe pub/sub with
   wildcard handlers.
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 

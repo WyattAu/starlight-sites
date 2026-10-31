@@ -28,11 +28,11 @@ import PhetSimulation from "@components/PhetSimulation";
 > **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR A Gateway P2 & P6 | WJEC P2
 <PhetSimulation client:only="solid-js" simulationId="forces-and-motion-basics" title="Forces and Motion: Basics"  />
 
-Explore the simulation above to develop intuition for this topic.
-
 ## 1. Force Diagrams and Vector Quantities
 
 ### 1.1 Scalars and Vectors
+
+<div class="table-wrap">
 
 | Scalar (magnitude only) | Vector (magnitude and direction) |
 | ----------------------- | -------------------------------- |
@@ -42,6 +42,8 @@ Explore the simulation above to develop intuition for this topic.
 | Energy                  | Force                            |
 | Temperature             | Acceleration                     |
 | Time                    | Momentum                         |
+
+</div>
 
 ### 1.2 Why the Distinction Matters
 
@@ -77,15 +79,21 @@ Forces at angles: use a vector diagram (triangle or parallelogram of forces).
 **Worked Example.** Two forces of 30 N and 40 N act on an object at right angles. Find the magnitude
 Of the resultant force.
 
-$$F = \sqrt{30^2 + 40^2} = \sqrt{900 + 1600} = \sqrt{2500} = 50 \mathrm{ N$$
+$$
+F = \sqrt{30^2 + 40^2} = \sqrt{900 + 1600} = \sqrt{2500} = 50 \mathrm{ N
+$$
 
 ### 1.5 Resolving Vectors into Components (Higher Tier)
 
 Any vector can be resolved into two perpendicular components. For a force $F$ at angle $\theta$ to
-The horizontal:
+the horizontal:
 
-$$F_x = F\cos\theta \quad \mathrm{(horizontal component)$$
-$$F_y = F\sin\theta \quad \mathrm{(vertical component)$$
+$$
+F_x = F\cos\theta \quad \mathrm{(horizontal component)
+$$
+$$
+F_y = F\sin\theta \quad \mathrm{(vertical component)
+$$
 
 This technique is essential for inclined plane problems. Instead of working with forces at awkward
 Angles, you resolve every force into components parallel and perpendicular to the slope, then apply
@@ -116,26 +124,34 @@ Earth's rotation is very small compared to $g$.
 ### 2.3 Newton's Second Law
 
 The acceleration of an object is proportional to the resultant force and inversely proportional to
-Its mass:
+its mass:
 
-$$F = ma$$
+$$
+F = ma
+$$
 
 Where $F$ is the resultant force (N), $m$ is mass (kg), and $a$ is acceleration (m/s$^2$).
 
 **Worked Example.** A 1200 kg car accelerates from rest at 2.5 m/s$^2$. Find the driving force
 (ignore friction).
 
-$$F = ma = 1200 \times 2.5 = 3000 \mathrm{ N$$
+$$
+F = ma = 1200 \times 2.5 = 3000 \mathrm{ N
+$$
 
 **Worked Example.** A resultant force of 45 N acts on a 5 kg object. Find the acceleration.
 
-$$a = \frac{F}{m} = \frac{45}{5} = 9 \mathrm{ m/s^2$$
+$$
+a = \frac{F}{m} = \frac{45}{5} = 9 \mathrm{ m/s^2
+$$
 
 ### 2.4 What $F = ma$ Really Means
 
 The equation $F = ma$ is a vector equation. In component form:
 
-$$\sum F_x = ma_x, \qquad \sum F_y = ma_y$$
+$$
+\sum F_x = ma_x, \qquad \sum F_y = ma_y
+$$
 
 The acceleration is always in the _same direction_ as the resultant force. If the resultant force is
 Zero, the acceleration is zero (Newton's first law is a special case of the second). The mass $m$ is
@@ -156,8 +172,8 @@ When two objects interact, they exert equal and opposite forces on each other.
 **Example:** A book rests on a table. The book exerts a downward force on the table (its weight),
 And the table exerts an equal upward force on the book (the normal reaction). These are a Newton's
 Third law pair? No -- the normal reaction and weight are NOT a third law pair because they act on
-The SAME object. The true pairs are: Earth pulls book down / book pulls Earth up; book pushes table
-Down / table pushes book up.
+the SAME object. The true pairs are: Earth pulls book down / book pulls Earth up; book pushes table
+down / table pushes book up.
 
 <Aside type="caution">
 Newton's third law pairs always act on different objects. The normal reaction and weight
@@ -187,9 +203,13 @@ Does not change with location.
 **Weight** is the gravitational force acting on an object. It is measured in newtons (N) and depends
 On the gravitational field strength.
 
-$$W = mg$$
+$$
+W = mg
+$$
 
 Where $W$ is weight (N), $m$ is mass (kg), and $g$ is gravitational field strength (N/kg).
+
+<div class="table-wrap">
 
 | Location          | $g$ (N/kg) |
 | ----------------- | ---------- |
@@ -198,17 +218,23 @@ Where $W$ is weight (N), $m$ is mass (kg), and $g$ is gravitational field streng
 | Mars' surface     | 3.7        |
 | Jupiter's surface | 24.8       |
 
+</div>
+
 **Worked Example.** An astronaut has a mass of 80 kg. Find their weight on Earth and on the Moon.
 
-$$W_{\mathrm{Earth} = 80 \times 9.8 = 784 \mathrm{ N$$
-$$W_{\mathrm{Moon} = 80 \times 1.6 = 128 \mathrm{ N$$
+$$
+W_{\mathrm{Earth} = 80 \times 9.8 = 784 \mathrm{ N
+$$
+$$
+W_{\mathrm{Moon} = 80 \times 1.6 = 128 \mathrm{ N
+$$
 
 ### 3.2 Why Mass and Weight Are Different
 
 Mass is an intrinsic property: it does not depend on where the object is. Weight is a force that
 Depends on the local gravitational field. An astronaut on the Moon has the same mass as on Earth but
-Only one-sixth the weight. If you were in deep space, far from any gravitational field, your mass
-Would be unchanged but your weight would be zero. You would still have inertia (resistance to
+only one-sixth the weight. If you were in deep space, far from any gravitational field, your mass
+would be unchanged but your weight would be zero. You would still have inertia (resistance to
 Acceleration) even though you would be weightless.
 
 ### 3.3 Centre of Mass
@@ -228,7 +254,7 @@ For a uniform, regular solid, the centre of mass is at its geometric centre.
 ### 3.4 Centre of Mass and Stability
 
 An object is stable if its centre of mass lies above its base. If the centre of mass moves outside
-The base, the object topples. This is why:
+the base, the object topples. This is why:
 
 - A wide-based object is harder to topple than a narrow-based one.
 - A low centre of mass makes an object more stable (double-decker buses have heavy engines at the
@@ -244,7 +270,9 @@ Drag increases with speed.
 
 For many objects at moderate speeds, drag is approximately proportional to the square of the speed:
 
-$$F_{\mathrm{drag} \propto v^2$$
+$$
+F_{\mathrm{drag} \propto v^2
+$$
 
 This means that doubling the speed quadruples the drag force. This quadratic dependence has enormous
 Practical consequences: the power required to overcome drag (and therefore the fuel consumption of a
@@ -265,7 +293,7 @@ When an object falls through a fluid:
 Terminal velocity is the speed at which the drag force exactly equals the driving force (in free
 Fall, the weight). It is a _dynamic equilibrium_: the forces are balanced, so the acceleration is
 Zero, but the object is still moving. The word "terminal" does not mean the object stops; it means
-The speed stops increasing.
+the speed stops increasing.
 
 ### 4.4 Factors Affecting Terminal Velocity
 
@@ -295,16 +323,20 @@ The acceleration-time graph shows:
 
 A skydiver of mass 80 kg jumps from a plane. At terminal velocity, the drag force equals the weight:
 
-$$D = mg = 80 \times 9.8 = 784 \mathrm{ N$$
+$$
+D = mg = 80 \times 9.8 = 784 \mathrm{ N
+$$
 
 After opening the parachute, the terminal velocity drops from about 55 m/s to about 5 m/s because
-The increased surface area produces much more drag at any given speed.
+the increased surface area produces much more drag at any given speed.
 
 ## 5. Stopping Distances
 
 ### 5.1 Stopping Distance
 
-$$\mathrm{Stopping distance = \mathrm{thinking distance + \mathrm{braking distance$$
+$$
+\mathrm{Stopping distance = \mathrm{thinking distance + \mathrm{braking distance
+$$
 
 **Thinking distance:** The distance travelled during the driver's reaction time. Depends on:
 
@@ -324,11 +356,13 @@ $$\mathrm{Stopping distance = \mathrm{thinking distance + \mathrm{braking distan
 Using the work-energy theorem: the work done by the braking force equals the change in kinetic
 Energy.
 
-$$Fd = \frac{1}{2}mv^2$$
+$$
+Fd = \frac{1}{2}mv^2
+$$
 
-For a given braking force $F$The braking distance $d = \frac{mv^2}{2F}$ is proportional to $v^2$.
+For a given braking force $F$ The braking distance $d = \frac{mv^2}{2F}$ is proportional to $v^2$.
 Doubling the speed quadruples the braking distance. Tripling the speed multiplies it by nine. This
-Is the single most important fact about road safety: small increases in speed produce very large
+is the single most important fact about road safety: small increases in speed produce very large
 Increases in stopping distance.
 
 ### 5.3 Reaction Time
@@ -338,8 +372,12 @@ Typical reaction time: 0.2 -- 0.9 seconds.
 **Worked Example.** A car is travelling at 20 m/s. The driver's reaction time is 0.5 s. The braking
 Distance is 32 m. Calculate the total stopping distance.
 
-$$\mathrm{Thinking distance = 20 \times 0.5 = 10 \mathrm{ m$$
-$$\mathrm{Stopping distance = 10 + 32 = 42 \mathrm{ m$$
+$$
+\mathrm{Thinking distance = 20 \times 0.5 = 10 \mathrm{ m
+$$
+$$
+\mathrm{Stopping distance = 10 + 32 = 42 \mathrm{ m
+$$
 
 ### 5.4 Factors Affecting Reaction Time
 
@@ -356,7 +394,9 @@ $$\mathrm{Stopping distance = 10 + 32 = 42 \mathrm{ m$$
 
 **Momentum** is a vector quantity defined as:
 
-$$p = mv$$
+$$
+p = mv
+$$
 
 Where $p$ is momentum (kg m/s), $m$ is mass (kg), and $v$ is velocity (m/s).
 
@@ -365,7 +405,9 @@ Where $p$ is momentum (kg m/s), $m$ is mass (kg), and $v$ is velocity (m/s).
 In a closed system (no external forces), the total momentum before a collision equals the total
 Momentum after the collision.
 
-$$m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2$$
+$$
+m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2
+$$
 
 **Worked Example.** A 2 kg trolley moving at 3 m/s collides with a stationary 1 kg trolley and they
 Stick together. Find the velocity after the collision.
@@ -381,17 +423,21 @@ Direct consequence of Newton's laws, not a separate assumption.
 
 ### 6.4 Newton's Second Law and Momentum
 
-$$F = \frac{\Delta p}{\Delta t} = \frac{mv - mu}{t}$$
+$$
+F = \frac{\Delta p}{\Delta t} = \frac{mv - mu}{t}
+$$
 
 This shows that force equals the rate of change of momentum. This form of Newton's second law is
-More general than $F = ma$ because it remains valid even when the mass changes (e.g., a rocket
+more general than $F = ma$ because it remains valid even when the mass changes (e.g., a rocket
 Expelling fuel).
 
 ### 6.5 Impact Forces and Safety
 
 For a given change in momentum, increasing the impact time decreases the force:
 
-$$F = \frac{\Delta p}{\Delta t}$$
+$$
+F = \frac{\Delta p}{\Delta t}
+$$
 
 **Safety features that increase impact time:**
 
@@ -421,44 +467,54 @@ The kinetic energy lost.
 
 A **moment** is the turning effect of a force:
 
-$$M = Fd$$
+$$
+M = Fd
+$$
 
 Where $M$ is moment (Nm), $F$ is force (N), and $d$ is the perpendicular distance from the pivot to
-The line of action of the force (m).
+the line of action of the force (m).
 
 **Principle of moments:** For an object in equilibrium, the sum of clockwise moments equals the sum
 Of anticlockwise moments.
 
-$$\sum M_{\mathrm{clockwise} = \sum M_{\mathrm{anticlockwise}$$
+$$
+\sum M_{\mathrm{clockwise} = \sum M_{\mathrm{anticlockwise}
+$$
 
 **Worked Example.** A seesaw has a pivot at its centre. A child of mass 30 kg sits 2 m from the
 Pivot. Where must a child of mass 40 kg sit to balance the seesaw?
 
 $$30 \times 9.8 \times 2 = 40 \times 9.8 \times d$$ $$60 = 40d$$
-$$d = 1.5 \mathrm{ m from the pivot$$
+$$
+d = 1.5 \mathrm{ m from the pivot
+$$
 
 ### 7.2 Why the Distance Must Be Perpendicular
 
 The moment depends on the perpendicular distance from the pivot to the line of action of the force,
 Not the distance from the pivot to the point where the force is applied. If the force acts at an
 Angle, the effective moment arm is reduced. This is why pushing a door near the hinge requires much
-More force than pushing near the handle: the perpendicular distance is much smaller.
+more force than pushing near the handle: the perpendicular distance is much smaller.
 
 ### 7.3 Levers
 
 A **lever** is a simple machine that uses moments. A small force applied at a large distance from
-The pivot can balance (or overcome) a large force at a small distance.
+the pivot can balance (or overcome) a large force at a small distance.
 
 **Mechanical advantage** = load / effort = distance from effort to pivot / distance from load to
 Pivot.
 
 **Classes of lever:**
 
+<div class="table-wrap">
+
 | Class | Arrangement                 | Example                 |
 | ----- | --------------------------- | ----------------------- |
 | 1     | Pivot between effort & load | Seesaw, scissors        |
 | 2     | Load between pivot & effort | Wheelbarrow, nutcracker |
 | 3     | Effort between pivot & load | Tweezers, forearm       |
+
+</div>
 
 ### 7.4 Gears
 
@@ -467,10 +523,12 @@ Faster but with less turning force (torque).
 
 The ratio of speeds is inversely proportional to the ratio of teeth:
 
-$$\frac{\mathrm{speed of gear  B}{\mathrm{speed of gear  A} = \frac{\mathrm{teeth on gear  A}{\mathrm{teeth on gear  B}$$
+$$
+\frac{\mathrm{speed of gear  B}{\mathrm{speed of gear  A} = \frac{\mathrm{teeth on gear  A}{\mathrm{teeth on gear  B}
+$$
 
 This is a consequence of conservation of energy: if the small gear rotates faster, it must exert
-Less torque, because $P = \tau \omega$ (power = torque times angular velocity), and the power
+less torque, because $P = \tau \omega$ (power = torque times angular velocity), and the power
 Transmitted through the gears is (ideally) the same.
 
 ## 8. Hooke's Law
@@ -480,7 +538,9 @@ Transmitted through the gears is (ideally) the same.
 **Hooke's law:** The extension of a spring is directly proportional to the force applied, provided
 The limit of proportionality is not exceeded.
 
-$$F = ke$$
+$$
+F = ke
+$$
 
 Where $k$ is the spring constant (N/m) and $e$ is the extension (m).
 
@@ -522,7 +582,9 @@ Constant ($k_{\mathrm{total} = \frac{k}{2}$).
 
 Pressure is the force per unit area:
 
-$$P = \frac{F}{A}$$
+$$
+P = \frac{F}{A}
+$$
 
 Where $P$ is pressure (pascals, Pa), $F$ is force (N), and $A$ is area (m$^2$).
 
@@ -530,18 +592,20 @@ Where $P$ is pressure (pascals, Pa), $F$ is force (N), and $A$ is area (m$^2$).
 
 The pressure in a fluid increases with depth:
 
-$$P = h\rho g$$
+$$
+P = h\rho g
+$$
 
 Where $h$ is the depth, $\rho$ is the density of the fluid, and $g$ is gravitational field strength.
 
 This explains why dams are thicker at the bottom: the pressure from the water increases linearly
-With depth, so the base must withstand a much greater force than the top.
+with depth, so the base must withstand a much greater force than the top.
 
 ### 9.3 Upthrust and Floating
 
 An object submerged in a fluid experiences an upward force called **upthrust** equal to the weight
-Of the fluid displaced. An object floats when its weight equals the upthrust. A steel ship floats
-Because its hull encloses a large volume of air, making its average density less than that of water.
+of the fluid displaced. An object floats when its weight equals the upthrust. A steel ship floats
+because its hull encloses a large volume of air, making its average density less than that of water.
 
 ## Common Pitfalls
 
@@ -617,19 +681,23 @@ Because its hull encloses a large volume of air, making its average density less
 
 The relationship between braking distance and speed can be derived rigorously using the work-energy
 Theorem. When a vehicle brakes to a stop, the braking force does negative work equal to the change
-In kinetic energy:
+in kinetic energy:
 
-$$F d = \frac{1}{2}mv^2$$
+$$
+F d = \frac{1}{2}mv^2
+$$
 
 Solving for $d$:
 
-$$d = \frac{mv^2}{2F}$$
+$$
+d = \frac{mv^2}{2F}
+$$
 
-This derivation reveals two key facts. First, for a given braking force $F$The braking distance is
+This derivation reveals two key facts. First, for a given braking force $F$ The braking distance is
 Proportional to $v^2$: doubling the speed quadruples the braking distance. Second, for a given
 Speed, the braking distance is inversely proportional to the braking force: better brakes (larger
 $F$) reduce the stopping distance, but the improvement is limited because the maximum braking force
-Is set by the friction between the tyres and the road.
+is set by the friction between the tyres and the road.
 
 ## 11. Worked Example: Block on an Inclined Plane with Friction
 
@@ -645,13 +713,17 @@ Normal force: $N = mg\cos\theta = 3 \times 9.8 \times \cos 35^{\circ} = 24.1 \ma
 
 Maximum static friction: $f_{\max} = \mu_s N = 0.25 \times 24.1 = 6.02 \mathrm{ N$.
 
-Since $16.9 \mathrm{ N \gt 6.02 \mathrm{ N$The block slides.
+Since $16.9 \mathrm{ N \gt 6.02 \mathrm{ N$ The block slides.
 
 **Part (b):** Find the acceleration.
 
-$$a = g(\sin\theta - \mu\cos\theta) = 9.8(\sin 35^{\circ} - 0.25\cos 35^{\circ})$$
+$$
+a = g(\sin\theta - \mu\cos\theta) = 9.8(\sin 35^{\circ} - 0.25\cos 35^{\circ})
+$$
 
-$$= 9.8(0.5736 - 0.25 \times 0.8192) = 9.8(0.5736 - 0.2048) = 9.8 \times 0.3688 = 3.61 \mathrm{ m/s^2$$
+$$
+= 9.8(0.5736 - 0.25 \times 0.8192) = 9.8(0.5736 - 0.2048) = 9.8 \times 0.3688 = 3.61 \mathrm{ m/s^2
+$$
 
 ## 12. Worked Example: Inelastic Collision with Kinetic Energy Loss
 
@@ -661,23 +733,37 @@ the Left. They stick together.
 
 **Step 1:** Choose a sign convention (right = positive).
 
-$$v_A = +4 \mathrm{ m/s, \qquad v_B = -2 \mathrm{ m/s$$
+$$
+v_A = +4 \mathrm{ m/s, \qquad v_B = -2 \mathrm{ m/s
+$$
 
 **Step 2:** Apply conservation of momentum.
 
-$$m_A v_A + m_B v_B = (m_A + m_B) v_f$$
+$$
+m_A v_A + m_B v_B = (m_A + m_B) v_f
+$$
 
-$$2(4) + 3(-2) = (2 + 3) v_f$$
+$$
+2(4) + 3(-2) = (2 + 3) v_f
+$$
 
-$$8 - 6 = 5 v_f$$
+$$
+8 - 6 = 5 v_f
+$$
 
-$$v_f = 0.4 \mathrm{ m/s to the right$$
+$$
+v_f = 0.4 \mathrm{ m/s to the right
+$$
 
 **Step 3:** Calculate kinetic energy before and after.
 
-$$E_{k,i} = \frac{1}{2}(2)(16) + \frac{1}{2}(3)(4) = 16 + 6 = 22 \mathrm{ J$$
+$$
+E_{k,i} = \frac{1}{2}(2)(16) + \frac{1}{2}(3)(4) = 16 + 6 = 22 \mathrm{ J
+$$
 
-$$E_{k,f} = \frac{1}{2}(5)(0.16) = 0.4 \mathrm{ J$$
+$$
+E_{k,f} = \frac{1}{2}(5)(0.16) = 0.4 \mathrm{ J
+$$
 
 **Kinetic energy lost:** $22 - 0.4 = 21.6 \mathrm{ J$ (transferred to thermal energy and sound).
 
@@ -692,21 +778,31 @@ Opposite force $\vec{F}_{B \mathrm{ on  A} = -\vec{F}_{A \mathrm{ on  B}$ on obj
 
 By Newton's second law:
 
-$$\vec{F}_{A \mathrm{ on  B} = \frac{d\vec{p}_B}{dt}, \qquad \vec{F}_{B \mathrm{ on  A} = \frac{d\vec{p}_A}{dt}$$
+$$
+\vec{F}_{A \mathrm{ on  B} = \frac{d\vec{p}_B}{dt}, \qquad \vec{F}_{B \mathrm{ on  A} = \frac{d\vec{p}_A}{dt}
+$$
 
 Adding these:
 
-$$\frac{d\vec{p}_A}{dt} + \frac{d\vec{p}_B}{dt} = \vec{F}_{B \mathrm{ on  A} + \vec{F}_{A \mathrm{ on  B} = 0$$
+$$
+\frac{d\vec{p}_A}{dt} + \frac{d\vec{p}_B}{dt} = \vec{F}_{B \mathrm{ on  A} + \vec{F}_{A \mathrm{ on  B} = 0
+$$
 
-$$\frac{d}{dt}(\vec{p}_A + \vec{p}_B) = 0$$
+$$
+\frac{d}{dt}(\vec{p}_A + \vec{p}_B) = 0
+$$
 
-$$\vec{p}_A + \vec{p}_B = \mathrm{constant$$
+$$
+\vec{p}_A + \vec{p}_B = \mathrm{constant
+$$
 
 This proof extends to any number of particles. Internal forces always cancel in pairs, so the total
 Momentum of a closed system is conserved. This is not a separate law -- it is a direct consequence
-Of Newton's second and third laws.
+of Newton's second and third laws.
 
 ## 14. Summary Table: Types of Force
+
+<div class="table-wrap">
 
 | Force                 | Direction                          | Formula                            | Notes                                        |
 | --------------------- | ---------------------------------- | ---------------------------------- | -------------------------------------------- |
@@ -717,6 +813,8 @@ Of Newton's second and third laws.
 | Air resistance (drag) | Opposes motion through fluid       | $F_d \propto v^2$ at high speeds   | Increases with speed                         |
 | Upthrust              | Upward (in a fluid)                | Equals weight of fluid displaced   | Explains why objects float                   |
 
+</div>
+
 ## 15. Worked Example: Hydraulic Press
 
 A hydraulic press has a small piston of area $0.01 \mathrm{ m^2$ and a large piston of area
@@ -724,9 +822,13 @@ $0.5 \mathrm{ m^2$. A force of 200 N is applied to the small piston.
 
 By Pascal's principle, the pressure is the same throughout the fluid:
 
-$$P = \frac{F_1}{A_1} = \frac{200}{0.01} = 20000 \mathrm{ Pa$$
+$$
+P = \frac{F_1}{A_1} = \frac{200}{0.01} = 20000 \mathrm{ Pa
+$$
 
-$$F_2 = P \times A_2 = 20000 \times 0.5 = 10000 \mathrm{ N$$
+$$
+F_2 = P \times A_2 = 20000 \times 0.5 = 10000 \mathrm{ N
+$$
 
 The force is multiplied by a factor of $A_2/A_1 = 50$. However, by conservation of energy, the small
 Piston must move 50 times further than the large piston. The work input equals the work output
@@ -807,7 +909,7 @@ increases much more rapidly than the thinking distance when speed doubles.
 Total stopping distance $= 21 + 54 = 75 \mathrm{ m$.
 
 Thinking distance is proportional to speed ($d_t = vt$), so doubling speed doubles thinking
-distance. Braking distance is proportional to speed squared ($d_b \propto v^2$Since $KE \propto v^2$
+distance. Braking distance is proportional to speed squared ($d_b \propto v^2$ Since $KE \propto v^2$
 and $W = Fd$), so doubling speed quadruples the braking distance. This is why speeding is so
 dangerous.
 
@@ -860,19 +962,13 @@ $15\,\text{N}$. The frictional force is $5.0\,\text{N}$. Calculate the accelerat
 
 **Solution:**
 
-$$F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\text{N}$$
+$$
+F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\text{N}
+$$
 
-$$a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}$$
-
-```mermaid
-flowchart TD
-    A[5_Forcesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+$$
+a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}
+$$
 
 ## Summary
 

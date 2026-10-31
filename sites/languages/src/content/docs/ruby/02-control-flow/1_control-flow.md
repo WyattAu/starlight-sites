@@ -18,16 +18,6 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Control Flow] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Ruby's control flow is expressive and permissive. Conditionals can be used as expressions that return values, and modifiers let you append conditions to single statements. The `case` statement performs pattern matching against ranges, regexes, and objects. Loops in Ruby are actually method calls with blocks, meaning iterators like `each` and `times` are the idiomatic way to repeat operations. Exceptions provide structured error handling, and blocks create scopes that manage resources like file handles automatically.
@@ -135,7 +125,7 @@ label = score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : "F"
 
 ### case / when
 
-The `case` statement is Ruby"s switch construct. It supports both value matching and condition
+The `case` statement is Ruby's switch construct. It supports both value matching and condition
 matching:
 
 ```ruby

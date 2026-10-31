@@ -200,6 +200,8 @@ print(get_value_lbyl({"a": 1}, "b"))   # None
 
 ### When to Use Each
 
+<div class="table-wrap">
+
 | Scenario                 | Prefer                       | Reason                            |
 | ------------------------ | ---------------------------- | --------------------------------- |
 | File existence           | EAFP (`open` + `except`)     | TOCTOU race condition with LBYL   |
@@ -207,6 +209,8 @@ print(get_value_lbyl({"a": 1}, "b"))   # None
 | Type checking            | LBYL (`isinstance`)          | Wrong types are programmer errors |
 | External API calls       | EAFP + retry                 | Network conditions change         |
 | Configuration validation | LBYL at boundary             | Fail fast, clear error messages   |
+
+</div>
 
 :::caution
 ```python
@@ -520,7 +524,7 @@ def binary_search(arr, target):
 
 :::caution
 The `__debug__` constant. **Never use assertions for data validation or runtime checks**, they are
-For debugging and documenting invariants:
+for debugging and documenting invariants:
 
 ```python
 # WRONG, assertion disabled in production
@@ -554,7 +558,7 @@ def test_config_defaults():
 ## Input Validation at Boundaries
 
 Validate input at the edges of your system, API endpoints, file readers, CLI parsers, and trust
-The data internally:
+the data internally:
 
 ```python
 from dataclasses import dataclass
@@ -580,11 +584,15 @@ class ServerConfig:
 
 ## Error Codes vs Exceptions
 
+<div class="table-wrap">
+
 | Approach     | Use When                                                                             |
 | ------------ | ------------------------------------------------------------------------------------ |
 | Exceptions   | Internal logic errors, programming mistakes, unexpected states                       |
 | Error codes  | Expected failure modes (e.g., file not found), C interop, performance-critical paths |
 | Result types | Functional style, explicit error handling, no exceptions                             |
+
+</div>
 
 ```python
 from dataclasses import dataclass
@@ -860,16 +868,6 @@ finally:
         logger.error("Cleanup failed: %s", e)
 ```
 
-```mermaid
-flowchart TD
-    A[03 Error Handling Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of error handling patterns, including underlying theory,
@@ -882,9 +880,6 @@ practical implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

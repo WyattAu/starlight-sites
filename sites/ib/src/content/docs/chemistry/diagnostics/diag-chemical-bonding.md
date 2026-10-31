@@ -17,17 +17,6 @@ tableOfContents: false
 
 ## Chemical Bonding, Diagnostic Tests
 
-
-```mermaid
-flowchart TD
-    A[Diag Chemical Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Chemical bonds are like handshakes, atoms share or transfer electrons to form stable partnerships:** Bond type (ionic, covalent, metallic) determines physical properties like melting point, conductivity, and solubility
@@ -79,6 +68,8 @@ number of electron domains and the predicted geometry.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Molecule             | Valence e$^-$ on central              | Electron domains | Hybridisation | Geometry           |
 | -------------------- | ------------------------------------- | ---------------- | ------------- | ------------------ |
 | $\text{BF}_3$        | 3 (B) + 3 (from bonds) = 6, 3 pairs   | 3                | $sp^2$        | Trigonal planar    |
@@ -86,6 +77,8 @@ number of electron domains and the predicted geometry.
 | $\text{H}_2\text{O}$ | 6 (O) + 2 (from bonds) = 8, 4 pairs   | 4                | $sp^3$        | Bent               |
 | $\text{XeF}_2$       | 8 (Xe) + 2 (from bonds) = 10, 5 pairs | 5                | $sp^3d$       | Linear             |
 | $\text{BrF}_5$       | 7 (Br) + 5 (from bonds) = 12, 6 pairs | 6                | $sp^3d^2$     | Square pyramidal   |
+
+</div>
 
 Hybridisation rule: number of electron domains = number of hybrid orbitals: 2 ($sp$), 3 ($sp^2$), 4
 ($sp^3$), 5 ($sp^3d$), 6 ($sp^3d^2$).
@@ -103,8 +96,8 @@ Hybridisation rule: number of electron domains = number of hybrid orbitals: 2 ($
 
 ### UT-3: Intermolecular Force Hierarchy
 
-**Question:** Explain why the boiling points of the hydrogen halides are: HF (19.5 $^\circ$C) $\gt$
-HCl ($-85\ ^\circ$C) $\lt$ HBr ($-67\ ^\circ$C) $\lt$ HI ($-35\ ^\circ$C). Why does HF deviate from
+**Question:** Explain why the boiling points of the hydrogen halides are: HF (19.5 $^\circ$ C) $\gt$
+HCl ($-85\ ^\circ$ C) $\lt$ HBr ($-67\ ^\circ$ C) $\lt$ HI ($-35\ ^\circ$ C). Why does HF deviate from
 the trend? Rank all the intermolecular forces present in each substance.
 
 **Solution:** For HCl, HBr, and HI, the only significant intermolecular forces are London dispersion
@@ -167,7 +160,7 @@ overall interaction highly favourable.
 
 ### IT-2: Hybridisation and Bond Strength (with Energetics)
 
-**Question:** The bond enthalpy of a C--C single bond is $347\ \text{kJ mol}^{-1}$A C=C double bond
+**Question:** The bond enthalpy of a C--C single bond is $347\ \text{kJ mol}^{-1}$ A C=C double bond
 is $614\ \text{kJ mol}^{-1}$ And a C$\equiv$C triple bond is $839\ \text{kJ mol}^{-1}$. The second
 bond (first $\pi$ bond) adds $267\ \text{kJ mol}^{-1}$ but the third bond (second $\pi$ bond) only
 adds $225\ \text{kJ mol}^{-1}$. Explain this trend using hybridisation concepts.
@@ -210,7 +203,7 @@ $\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_2\text{CH}_3$ (pentane), (c) $\text{
 
 **Solution:**
 
-(a) Butan-1-ol: Moderately soluble (approximately $80\ \text{g/L}$ at $25\ ^\circ$C). The
+(a) Butan-1-ol: Moderately soluble (approximately $80\ \text{g/L}$ at $25\ ^\circ$ C). The
 $-\text{OH}$ group can hydrogen bond with water, but the four-carbon non-polar chain is relatively
 large. The hydrophobic effect of the alkyl chain partially counteracts the hydrogen bonding,
 limiting solubility compared to shorter alcohols.

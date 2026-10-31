@@ -20,10 +20,10 @@ categories:
 }
 </script>
 
-## 1. Dijkstra"s Algorithm (Revisited)
+## 1. Dijkstra's Algorithm (Revisited)
 
 See [Graphs](/computer-science/data-structures/05-graphs/) for the full treatment. Here we
-Provide additional detail on the priority queue implementation and A\* extension.
+provide additional detail on the priority queue implementation and A\* extension.
 
 ### Priority Queue Optimisation
 
@@ -42,11 +42,11 @@ Frontiers meet. This can reduce the search space significantly in practice.
 ### Motivation
 
 Dijkstra's algorithm explores in all directions equally. For pathfinding with a known target, we can
-Use a **heuristic** to guide the search toward the goal.
+use a **heuristic** to guide the search toward the goal.
 
 ### Algorithm
 
-A\* uses a priority queue ordered by $f(v) = g(v) + h(v)$Where:
+A\* uses a priority queue ordered by $f(v) = g(v) + h(v)$ Where:
 
 - $g(v)$ = actual cost from source to $v$ (same as Dijkstra)
 - $h(v)$ = **estimated** cost from $v$ to the goal (heuristic)
@@ -74,11 +74,15 @@ def a_star(graph, source, goal, h):
 
 ### Heuristic Properties
 
+<div class="table-wrap">
+
 | Property     | Definition                                                   | Effect                          |
 | ------------ | ------------------------------------------------------------ | ------------------------------- |
 | Admissible   | $h(v) \leq \mathrm{true cost}(v, \mathrm{goal})$ for all $v$ | Guarantees optimal path         |
 | Consistent   | $h(v) \leq w(v, u) + h(u)$ for all edges $(v, u)$            | No re-expansion of nodes        |
 | Inadmissible | Overestimates true cost                                      | Faster but may not find optimal |
+
+</div>
 
 **Theorem.** A\* with an admissible heuristic finds an optimal path.
 
@@ -86,17 +90,21 @@ def a_star(graph, source, goal, h):
 A suboptimal path to the goal with cost $g' \gt g^*$. Let $v$ be the first node on this suboptimal
 Path not yet expanded. By admissibility:
 $f(v) = g(v) + h(v) \leq g^* + h(v) \leq g^* + \mathrm{true}(v, \mathrm{goal}) \leq g^* + (g' - g(v)) = g'$.
-Since A\* expands the node with minimum $f$It would expand $v$ before the goal on the suboptimal
+Since A\* expands the node with minimum $f$ It would expand $v$ before the goal on the suboptimal
 Path, contradiction. $\square$
 
 ### Common Heuristics
 
+<div class="table-wrap">
+
 | Problem      | Heuristic                      | Admissible? |
-| ------------ | ------------------------------ | ----------- | --- | --------- | --- | --- |
-| Grid (4-dir) | Manhattan distance: $          | x_1 - x_2   | +   | y_1 - y_2 | $   | Yes |
-| Grid (8-dir) | Chebyshev distance: $\max(     | dx          | ,   | dy        | )$  | Yes |
+| ------------ | ------------------------------ | ----------- |
+| Grid (4-dir) | Manhattan distance: $          \| x_1 - x_2   \| +   \| y_1 - y_2 \| $   | Yes |
+| Grid (8-dir) | Chebyshev distance: $\max(     \| dx          \| ,   \| dy        \| )$  | Yes |
 | Euclidean    | Straight-line distance         | Yes         |
 | General      | MST cost to goal (precomputed) | Yes         |
+
+</div>
 
 <hr />
 
@@ -139,15 +147,19 @@ On $n$ elements take $O(m \cdot \alpha(n))$ time, where $\alpha$ is the inverse 
 ### Prim's Algorithm (Detailed)
 
 Prim's grows the MST one vertex at a time, always adding the minimum-weight edge connecting the MST
-To a non-MST vertex.
+to a non-MST vertex.
 
 **Complexity comparison:**
+
+<div class="table-wrap">
 
 | Implementation   | Time               |
 | ---------------- | ------------------ |
 | Adjacency matrix | $O(V^2)$           |
 | Binary heap      | $O((V + E)\log V)$ |
 | Fibonacci heap   | $O(E + V \log V)$  |
+
+</div>
 
 :::note
 (9618)** requires Dijkstra's; may also require minimum spanning tree (Prim's or Kruskal's). **OCR
@@ -162,7 +174,7 @@ Covers basic graph traversal (BFS, DFS) and shortest path.
 ### Problem Definition
 
 Given a complete weighted graph, find the shortest possible route that visits every vertex exactly
-Once and returns to the origin.
+once and returns to the origin.
 
 ### NP-Hardness
 
@@ -233,7 +245,9 @@ Find shortest paths between **all pairs** of vertices.
 
 ### Algorithm
 
-$$\mathrm{dist}^{(k)}[i][j] = \min\left(\mathrm{dist}^{(k-1)}[i][j],\ \mathrm{dist}^{(k-1)}[i][k] + \mathrm{dist}^{(k-1)}[k][j]\right)$$
+$$
+\mathrm{dist}^{(k)}[i][j] = \min\left(\mathrm{dist}^{(k-1)}[i][j],\ \mathrm{dist}^{(k-1)}[i][k] + \mathrm{dist}^{(k-1)}[k][j]\right)
+$$
 
 ```python
 def floyd_warshall(graph):
@@ -263,6 +277,8 @@ $\mathrm{dist}[i][i] \lt 0$).
 
 ## 6. Algorithm Selection Guide
 
+<div class="table-wrap">
+
 | Problem                          | Algorithm         | Complexity           |
 | -------------------------------- | ----------------- | -------------------- |
 | Shortest path (unweighted)       | BFS               | $O(V + E)$           |
@@ -273,6 +289,8 @@ $\mathrm{dist}[i][i] \lt 0$).
 | MST                              | Kruskal / Prim    | $O(E \log V)$        |
 | Topological sort                 | DFS               | $O(V + E)$           |
 | TSP (approximate)                | Nearest neighbour | $O(n^2)$             |
+
+</div>
 
 <hr />
 
@@ -298,6 +316,8 @@ $h(v) = |x_v - 4| + |y_v - 4|$
 
 Open set ordered by $f = g + h$:
 
+<div class="table-wrap">
+
 | Expand | Node  | g   | h   | f   | Path so far   |
 | ------ | ----- | --- | --- | --- | ------------- |
 | 1      | (0,0) | 0   | 8   | 8   | S             |
@@ -305,6 +325,8 @@ Open set ordered by $f = g + h$:
 | 3      | (1,0) | 1   | 7   | 8   | S→(1,0)       |
 | 4      | (0,2) | 2   | 6   | 8   | S→(0,1)→(0,2) |
 | ...    | ...   | ... | ... | ... | ...           |
+
+</div>
 
 The optimal path is: (0,0)→(0,1)→(0,2)→(1,2)→(2,2)→(2,3)→(3,3)... But (3,3) is blocked (#). So:
 (2,2)→(2,3)→(2,4)→(3,4)→(4,4). Cost: 8.
@@ -320,7 +342,7 @@ With 4-directional movement.
 **Proof.** In a grid with 4-directional movement, the shortest path from $(x_1, y_1)$ to
 $(x_2, y_2)$ requires at least $|x_1 - x_2|$ horizontal moves and $|y_1 - y_2|$ vertical moves
 (since each move changes one coordinate by exactly 1). Therefore, the minimum number of moves is
-$|x_1 - x_2| + |y_1 - y_2|$Which is exactly the Manhattan distance. Since the heuristic equals the
+$|x_1 - x_2| + |y_1 - y_2|$ Which is exactly the Manhattan distance. Since the heuristic equals the
 True minimum cost, it never overestimates. $\square$
 
 </details>
@@ -332,7 +354,7 @@ True minimum cost, it never overestimates. $\square$
 
 Choose Prim's when:
 
-1. The graph is **dense** ($E \approx V^2$): Prim's with adjacency matrix runs in $O(V^2)$While
+1. The graph is **dense** ($E \approx V^2$): Prim's with adjacency matrix runs in $O(V^2)$ While
    Kruskal's requires sorting $O(V^2)$ edges → $O(V^2 \log V)$
 2. The graph is stored as an **adjacency matrix** (Prim's works with this representation)
 3. You need the MST starting from a specific vertex
@@ -365,13 +387,13 @@ Extract C(7). B = 7+(-2) = 5 = no improvement. But A→B→C = 3+2-2 = 3 < 7! B 
 5, but C should be 3. The algorithm returns C=7, missing the better path.
 
 Wait, C is already extracted. The issue is that when C is extracted at distance 7, a shorter path
-Through B (distance 5 → C = 3) exists but is never explored because B hasn't been processed yet and
+through B (distance 5 → C = 3) exists but is never explored because B hasn't been processed yet and
 C is already marked as visited.
 
 </details>
 
 **Problem 5.** The Floyd-Warshall algorithm computes all-pairs shortest paths in $O(V^3)$ time. For
-A sparse graph with $E = O(V)$Is this more efficient than running Dijkstra from every vertex?
+A sparse graph with $E = O(V)$ Is this more efficient than running Dijkstra from every vertex?
 
 <details>
 <summary>Answer</summary>
@@ -382,7 +404,7 @@ $V \times O((V + E)\log V) = V \times O(V \log V) = O(V^2 \log V)$.
 Floyd-Warshall: $O(V^3)$.
 
 For sparse graphs: $V^2 \log V \ll V^3$ for large $V$. So running Dijkstra from every vertex is more
-Efficient for sparse graphs.
+efficient for sparse graphs.
 
 For dense graphs ($E = O(V^2)$): Dijkstra from every vertex = $O(V^2 \log V + V^3 \log V)$... Wait:
 $V \times O((V + V^2)\log V) = V \times O(V^2 \log V) = O(V^3 \log V)$. Floyd-Warshall = $O(V^3)$.
@@ -409,7 +431,7 @@ Start: A. Current = A.
 
 Nearest unvisited from A: B (10). Path: A→B, cost: 10. Nearest unvisited from B: D (25). Path:
 A→B→D, cost: 35. Nearest unvisited from D: C (30). Path: A→B→D→C, cost: 65. Return to A: C→A (15).
-Total: 80.
+total: 80.
 
 Path: A→B→D→C→A, total cost: 80.
 
@@ -422,13 +444,13 @@ Optimal solution?
 <summary>Answer</summary>
 
 2-opt removes two edges from the current tour and reconnects the two resulting paths in the other
-Possible way. If the new total distance is shorter, the swap is accepted. This corrects "crossing"
+possible way. If the new total distance is shorter, the swap is accepted. This corrects "crossing"
 Edges, which are always suboptimal in metric TSP.
 
 2-opt does **not** always find the optimal solution. It can get stuck in local optima,
 Configurations where no single 2-opt swap improves the tour, but a sequence of swaps (or a swap
 Involving more edges, like 3-opt) would. However, for many practical instances, 2-opt produces
-Near-optimal solutions.
+near-optimal solutions.
 
 </details>
 
@@ -438,12 +460,12 @@ Near-optimal solutions.
 <summary>Answer</summary>
 
 After running Floyd-Warshall, check the diagonal of the distance matrix. If
-$\mathrm{dist}[i][i] \lt 0$ for any vertex $i$There exists a negative cycle through $i$.
+$\mathrm{dist}[i][i] \lt 0$ for any vertex $i$ There exists a negative cycle through $i$.
 
 **Proof.** $\mathrm{dist}[i][i]$ represents the shortest path from $i$ back to $i$. If this is
 Negative, there exists a cycle with total weight $\lt 0$ through vertex $i$. This cycle can be
 Traversed repeatedly to make the shortest path arbitrarily negative, meaning shortest paths are
-Undefined. $\square$
+undefined. $\square$
 
 </details>
 
@@ -451,6 +473,8 @@ Undefined. $\square$
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Property    | Dijkstra           | A\* (admissible)                           |
 | ----------- | ------------------ | ------------------------------------------ |
@@ -460,7 +484,9 @@ Undefined. $\square$
 | Space       | $O(V)$             | $O(V)$ (often less in practice)            |
 | Requirement | None               | Heuristic function needed                  |
 
-A*dominates Dijkstra: whenever $h(v) = 0$ for all $v$A* reduces to Dijkstra. With a good Heuristic,
+</div>
+
+A*dominates Dijkstra: whenever $h(v) = 0$ for all $v$ A* reduces to Dijkstra. With a good Heuristic,
 A\* explores significantly fewer nodes.
 
 </details>
@@ -482,7 +508,7 @@ Answer: $dp[k][t]$.
 Time complexity: $O(k \cdot E)$, we compute $k+1$ tables, each requiring scanning all edges. Space:
 $O(k \cdot V)$ (or $O(V)$ with rolling array optimisation).
 
-For $k = V-1$This is equivalent to the Bellman-Ford algorithm.
+For $k = V-1$ This is equivalent to the Bellman-Ford algorithm.
 
 For revision on graphs, see [Graphs](/computer-science/data-structures/05-graphs/).
 
@@ -500,12 +526,14 @@ D–E(2). Show a step-by-step trace table.
 <summary>Hint</summary>
 
 Use a table with columns: Visited, A, B, C, D, E. At each step, visit the unvisited vertex with the
-Smallest known distance, then update distances to its unvisited neighbours.
+smallest known distance, then update distances to its unvisited neighbours.
 
 </details>
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Step | Visited | A     | B     | C     | D     | E      |
 | ---- | ------- | ----- | ----- | ----- | ----- | ------ |
@@ -515,6 +543,8 @@ Smallest known distance, then update distances to its unvisited neighbours.
 | 3    | B       | **0** | **3** | **2** | 8     | 12     |
 | 4    | D       | **0** | **3** | **2** | **8** | 10     |
 | 5    | E       | **0** | **3** | **2** | **8** | **10** |
+
+</div>
 
 **Working:**
 
@@ -536,12 +566,14 @@ D–T(4). Show the priority queue state at each step.
 <summary>Hint</summary>
 
 At each step, extract the vertex with the minimum tentative distance from the priority queue. Show
-The queue contents after each extraction and relaxation.
+the queue contents after each extraction and relaxation.
 
 </details>
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Step | Visit | Dist[S] | Dist[A] | Dist[B] | Dist[C] | Dist[D] | Dist[T] | Queue after extraction |
 | ---- | ----- | ------- | ------- | ------- | ------- | ------- | ------- | ---------------------- |
@@ -552,6 +584,8 @@ The queue contents after each extraction and relaxation.
 | 4    | D     | **0**   | **2**   | **5**   | 7       | **6**   | 10      | `{(7,C),(10,T)}`       |
 | 5    | C     | **0**   | **2**   | **5**   | **7**   | **6**   | 10      | `{(10,T)}`             |
 | 6    | T     | **0**   | **2**   | **5**   | **7**   | **6**   | **10**  | `{}`                   |
+
+</div>
 
 **Working:**
 
@@ -574,7 +608,7 @@ The queue contents after each extraction and relaxation.
 <summary>Hint</summary>
 
 First, sort all edges by weight in ascending order. Then add edges one at a time, skipping any that
-Would create a cycle (use the Union-Find concept to track connected components).
+would create a cycle (use the Union-Find concept to track connected components).
 
 </details>
 
@@ -582,6 +616,8 @@ Would create a cycle (use the Union-Find concept to track connected components).
 <summary>Answer</summary>
 
 **Edges sorted by weight:**
+
+<div class="table-wrap">
 
 | Order | Edge | Weight |
 | ----- | ---- | ------ |
@@ -594,7 +630,11 @@ Would create a cycle (use the Union-Find concept to track connected components).
 | 7     | C–D  | 8      |
 | 8     | C–E  | 10     |
 
+</div>
+
 **Kruskal's trace:**
+
+<div class="table-wrap">
 
 | Step | Edge | Weight | Action                       | MST edges              | Components          | Total |
 | ---- | ---- | ------ | ---------------------------- | ---------------------- | ------------------- | ----- |
@@ -603,6 +643,8 @@ Would create a cycle (use the Union-Find concept to track connected components).
 | 3    | D–E  | 2      | Add                          | `{B–C, A–C, D–E}`      | `{A,B,C},{D,E}`     | 5     |
 | 4    | A–B  | 4      | Skip (A,B in same component) | `{B–C, A–C, D–E}`      | `{A,B,C},{D,E}`     | 5     |
 | 5    | B–D  | 5      | Add                          | `{B–C, A–C, D–E, B–D}` | `{A,B,C,D,E}`       | 10    |
+
+</div>
 
 All 5 vertices are now connected (4 edges in MST). Algorithm terminates.
 
@@ -627,12 +669,16 @@ Connected components as you go.
 
 **Edges sorted by weight:** (S,T,2), (P,Q,3), (Q,R,4), (R,T,5), (Q,S,6), (P,R,7), (R,S,8).
 
+<div class="table-wrap">
+
 | Step | Edge | Weight | Action | MST edges              | Components          | Total |
 | ---- | ---- | ------ | ------ | ---------------------- | ------------------- | ----- |
 | 1    | S–T  | 2      | Add    | `{S–T}`                | `{S,T},{P},{Q},{R}` | 2     |
 | 2    | P–Q  | 3      | Add    | `{S–T, P–Q}`           | `{S,T},{P,Q},{R}`   | 5     |
 | 3    | Q–R  | 4      | Add    | `{S–T, P–Q, Q–R}`      | `{S,T},{P,Q,R}`     | 9     |
 | 4    | R–T  | 5      | Add    | `{S–T, P–Q, Q–R, R–T}` | `{P,Q,R,S,T}`       | 14    |
+
+</div>
 
 All 5 vertices connected (4 edges). Algorithm terminates.
 
@@ -648,12 +694,14 @@ Vertices `{A, B, C, D, E, F}` and edges: (A,B,6), (A,C,1), (A,D,5), (B,C,5), (B,
 <summary>Hint</summary>
 
 Maintain a set of vertices in the MST and a priority queue of crossing edges. At each step, add the
-Minimum-weight edge that connects a vertex in the MST to a vertex outside it.
+minimum-weight edge that connects a vertex in the MST to a vertex outside it.
 
 </details>
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Step | MST vertices    | Crossing edges (weight)                                | Min edge | Add vertex | MST weight |
 | ---- | --------------- | ------------------------------------------------------ | -------- | ---------- | ---------- |
@@ -663,6 +711,8 @@ Minimum-weight edge that connects a vertex in the MST to a vertex outside it.
 | 4    | `{A,C,F,D}`     | A–B(6), B–C(5), C–E(6), E–F(6)                         | B–C(5)   | B          | 12         |
 | 5    | `{A,C,F,D,B}`   | B–E(3), C–E(6), E–F(6)                                 | B–E(3)   | E          | 15         |
 | 6    | `{A,C,F,D,B,E}` |,                                                      |,        | Done       | 15         |
+
+</div>
 
 **MST edges:** A–C(1), C–F(4), D–F(2), B–C(5), B–E(3). **Total weight: 15.**
 
@@ -676,12 +726,14 @@ Show each step with the candidate edges and the vertex added.
 <summary>Hint</summary>
 
 Start with MST = `{S}`. The crossing edges are those from S to non-MST vertices. Always pick the
-Minimum-weight crossing edge.
+minimum-weight crossing edge.
 
 </details>
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Step | MST vertices  | Crossing edges         | Min edge | Add  | Running total |
 | ---- | ------------- | ---------------------- | -------- | ---- | ------------- |
@@ -691,6 +743,8 @@ Minimum-weight crossing edge.
 | 4    | `{S,U,V,W}`   | V–X(7), W–X(4)         | W–X(4)   | X    | 14            |
 | 5    | `{S,U,V,W,X}` |,                      |,        | Done | 14            |
 
+</div>
+
 **MST edges:** S–U(2), U–V(5), V–W(3), W–X(4). **Total weight: 14.**
 
 </details>
@@ -698,7 +752,7 @@ Minimum-weight crossing edge.
 **Problem 7.** For an unweighted graph with vertices `{A, B, C, D, E, F}` and edges
 `{A–B, A–C, B–D, C–D, D–E, D–F, E–F}`Compare the process of finding the shortest path from A to F
 Using Dijkstra's algorithm versus BFS. Explain why BFS is sufficient and more efficient for
-Unweighted graphs.
+unweighted graphs.
 
 <details>
 <summary>Hint</summary>
@@ -713,6 +767,8 @@ Priority queue compared to BFS's FIFO queue.
 
 **Dijkstra's algorithm (all weights = 1):**
 
+<div class="table-wrap">
+
 | Step | Visit | Dist[A] | Dist[B] | Dist[C] | Dist[D] | Dist[E] | Dist[F] |
 | ---- | ----- | ------- | ------- | ------- | ------- | ------- | ------- |
 | 1    | A     | **0**   | 1       | 1       | ∞       | ∞       | ∞       |
@@ -722,7 +778,11 @@ Priority queue compared to BFS's FIFO queue.
 | 5    | E     | **0**   | **1**   | **1**   | **2**   | **3**   | 3       |
 | 6    | F     | **0**   | **1**   | **1**   | **2**   | **3**   | **3**   |
 
+</div>
+
 **BFS from A:**
+
+<div class="table-wrap">
 
 | Level | Vertices explored | Distances set |
 | ----- | ----------------- | ------------- |
@@ -730,6 +790,8 @@ Priority queue compared to BFS's FIFO queue.
 | 1     | B, C              | B = 1, C = 1  |
 | 2     | D                 | D = 2         |
 | 3     | E, F              | E = 3, F = 3  |
+
+</div>
 
 **Both produce the same result:** A→0, B→1, C→1, D→2, E→3, F→3. Shortest path A→F has length 3.
 
@@ -762,10 +824,12 @@ Degenerate into something simpler?
 **Correctness equivalence:** When all edge weights are 1, the cumulative distance to a vertex equals
 The number of edges traversed to reach it. Dijkstra's always extracts the vertex with the minimum
 Distance first, which is exactly the vertex closest (fewest edges) from the source. This is the same
-Order BFS explores vertices (level by level). Therefore, both algorithms find identical shortest
+order BFS explores vertices (level by level). Therefore, both algorithms find identical shortest
 Paths.
 
 **Complexity comparison:**
+
+<div class="table-wrap">
 
 | Aspect           | BFS         | Dijkstra (binary heap) |
 | ---------------- | ----------- | ---------------------- |
@@ -773,6 +837,8 @@ Paths.
 | Total time       | $O(V + E)$  | $O((V + E) \log V)$    |
 | Data structure   | FIFO queue  | Priority queue         |
 | Space            | $O(V)$      | $O(V)$                 |
+
+</div>
 
 The priority queue operations (insert, extract-min, decrease-key) each take $O(\log V)$ time,
 Whereas BFS's queue operations take $O(1)$ time. For an unweighted graph with $V = 10,000$ and
@@ -788,8 +854,8 @@ Complexity. Dijkstra's is only necessary when edge weights vary.
 
 **Problem 9.** A company needs to connect all 8 of its office buildings with fibre optic cables.
 Explain whether they should use a minimum spanning tree algorithm or a shortest path algorithm. What
-If they only need to connect the headquarters to every other office (but offices don't need to
-Connect to each other)?
+if they only need to connect the headquarters to every other office (but offices don't need to
+connect to each other)?
 
 <details>
 <summary>Hint</summary>
@@ -804,24 +870,28 @@ Finding optimal paths from one source to all other vertices (shortest path tree)
 
 **Scenario 1, Connect all offices to each other:** Use a **minimum spanning tree (MST)** algorithm
 (Kruskal's or Prim's). The MST connects all vertices with the minimum total edge weight. Since the
-Company wants every office reachable from every other office with the least total cabling cost, the
+company wants every office reachable from every other office with the least total cabling cost, the
 MST is the optimal solution. Any other connected graph would have equal or greater total weight.
 
 **Scenario 2, Connect headquarters to every office (star topology):** Use **Dijkstra's shortest
 Path algorithm** from the headquarters. This finds the shortest path from the headquarters to each
-Individual office. The result is a **shortest path tree**, which may differ from the MST, it
-Minimises the path from headquarters to each office, not the total cabling cost.
+individual office. The result is a **shortest path tree**, which may differ from the MST, it
+minimises the path from headquarters to each office, not the total cabling cost.
 
 **Key difference:**
+
+<div class="table-wrap">
 
 | Objective                           | Algorithm | Result               |
 | ----------------------------------- | --------- | -------------------- |
 | Minimise total cable cost           | MST       | Minimum total weight |
 | Minimise HQ-to-each-office distance | Dijkstra  | Shortest paths       |
 
+</div>
+
 The shortest path tree from HQ may use more total cable than the MST. Conversely, the MST may route
 Traffic between some offices through longer paths than necessary. The choice depends on whether the
-Priority is minimising infrastructure cost (MST) or minimising communication latency (shortest
+priority is minimising infrastructure cost (MST) or minimising communication latency (shortest
 Paths).
 
 </details>
@@ -832,13 +902,13 @@ A–B(7), A–D(5), B–C(8), B–D(9), B–E(7), C–E(5), D–E(15).
 (a) Use Dijkstra's algorithm to find the shortest path from A to E. Show all working. (b) Use Prim's
 Algorithm starting from A to find the minimum spanning tree. Show all working. (c) State the total
 Weight of the shortest path from A to E and the total weight of the MST. (d) Explain why the
-Shortest path from A to E is not necessarily part of the MST.
+shortest path from A to E is not necessarily part of the MST.
 
 <details>
 <summary>Hint</summary>
 
 For part (a), maintain a table of distances as you visit each vertex. For part (b), track which
-Edges cross the MST boundary at each step. For part (d), think about the different optimisation
+edges cross the MST boundary at each step. For part (d), think about the different optimisation
 Objectives of each algorithm.
 
 </details>
@@ -848,6 +918,8 @@ Objectives of each algorithm.
 
 **(a) Dijkstra's algorithm from A to E:**
 
+<div class="table-wrap">
+
 | Step | Visit | Dist[A] | Dist[B] | Dist[C] | Dist[D] | Dist[E] |
 | ---- | ----- | ------- | ------- | ------- | ------- | ------- |
 | Init |,     | 0       | ∞       | ∞       | ∞       | ∞       |
@@ -856,6 +928,8 @@ Objectives of each algorithm.
 | 3    | B     | **0**   | **7**   | 15      | **5**   | 14      |
 | 4    | E     | **0**   | **7**   | 15      | **5**   | **14**  |
 | 5    | C     | **0**   | **7**   | **15**  | **5**   | **14**  |
+
+</div>
 
 **Working:**
 
@@ -869,12 +943,16 @@ Objectives of each algorithm.
 
 **(b) Prim's algorithm from A:**
 
+<div class="table-wrap">
+
 | Step | MST vertices | Crossing edges                  | Min edge | Add | Total |
 | ---- | ------------ | ------------------------------- | -------- | --- | ----- |
 | 1    | `{A}`        | A–B(7), A–D(5)                  | A–D(5)   | D   | 5     |
 | 2    | `{A,D}`      | A–B(7), D–E(15), B–D(9)         | A–B(7)   | B   | 12    |
 | 3    | `{A,D,B}`    | D–E(15), B–C(8), B–E(7), B–D(9) | B–E(7)   | E   | 19    |
 | 4    | `{A,D,B,E}`  | B–C(8), C–E(5)                  | C–E(5)   | C   | 24    |
+
+</div>
 
 **MST edges:** A–D(5), A–B(7), B–E(7), C–E(5). **Total weight: 24.**
 
@@ -913,26 +991,9 @@ which may differ from the MST. These are different optimisation problems with di
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[03 Graph Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

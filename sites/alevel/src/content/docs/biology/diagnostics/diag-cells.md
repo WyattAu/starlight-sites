@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Cells] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Cells are like tiny factories, each with specialized departments working together to keep the organism alive.**
@@ -58,6 +47,8 @@ significance in genetic engineering.
 
 (a) Five structural comparisons:
 
+<div class="table-wrap">
+
 | Feature                   | Cell A (Prokaryotic)                                      | Cell B (Eukaryotic)                                                       |
 | ------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Nucleus                   | No true nucleus; DNA free in cytoplasm (nucleoid)         | True nucleus bounded by a nuclear envelope with nuclear pores             |
@@ -65,6 +56,8 @@ significance in genetic engineering.
 | Ribosomes                 | 70S (smaller: 50S + 30S subunits)                         | 80S (larger: 60S + 40S subunits)                                          |
 | Membrane-bound organelles | None (no mitochondria, ER, Golgi)                         | Present (mitochondria, ER, Golgi, lysosomes, etc.)                        |
 | Cell wall                 | Present (made of peptidoglycan, not cellulose or chitin)  | Absent (animal cell) or present (plant cell, cellulose, fungal, chitin) |
+
+</div>
 
 (b) Many antibiotics (e.g., tetracycline, chloramphenicol) target bacterial 70S ribosomes, binding
 to them and inhibiting protein synthesis. Because eukaryotic cells have 80S ribosomes with a
@@ -437,7 +430,7 @@ co-transporter were used instead? Explain.
 smaller than the resolution limit of a light microscope (approximately 200 nm), so individual
 molecules cannot be seen; (2) the light microscope cannot track the movement of individual molecules
 across membranes. An alternative technique is to use **radioactive labelling**, leucine can be
-labelled with a radioactive isotope (e.g., $^{14}$C-leucine or $^{3}$H-leucine). The researcher
+labelled with a radioactive isotope (e.g., $^{14}$ C-leucine or $^{3}$ H-leucine). The researcher
 measures the radioactivity taken up by the cells over time using a scintillation counter.
 Alternatively, **fluorescent labelling** (e.g., using a fluorescently tagged leucine analogue) with
 fluorescence microscopy or confocal microscopy could allow visualisation of uptake patterns.
@@ -455,7 +448,7 @@ carrier protein that can couple the movement of leucine to the movement of Na$^+
 
 (c) In co-transport, the $\text{Na}^+/\text{K}^+$ pump on the basolateral membrane of the epithelial
 cell uses **ATP** to actively transport $\text{Na}^+$ out of the cell and $\text{K}^+$ into the
-cell. This maintains a low intracellular concentration of $\text{Na}^+$Creating a concentration
+cell. This maintains a low intracellular concentration of $\text{Na}^+$ Creating a concentration
 gradient of $\text{Na}^+$ across the apical membrane (high $\text{Na}^+$ in the intestinal lumen,
 low $\text{Na}^+$ in the cell). $\text{Na}^+$ diffuses down its concentration gradient into the cell
 through the $\text{Na}^+$-leucine co-transporter protein on the apical membrane. The co-transporter

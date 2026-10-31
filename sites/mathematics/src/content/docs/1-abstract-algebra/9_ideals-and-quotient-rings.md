@@ -35,7 +35,7 @@ If only $ra \in I$ for all $r \in R$ and $a \in I$ Then $I$ is a **left ideal**.
 
 ### 9.2 Quotient Rings
 
-If $I$ is an ideal of $R$The **quotient ring** $R/I$ has elements $\{a + I : a \in R\}$ (cosets)
+If $I$ is an ideal of $R$ The **quotient ring** $R/I$ has elements $\{a + I : a \in R\}$ (cosets)
 With operations $(a + I) + (b + I) = (a + b) + I$ and $(a + I)(b + I) = ab + I$.
 
 **Theorem 9.2 (Ring Isomorphism Theorem).** If $\phi : R \to S$ is a surjective ring homomorphism,
@@ -59,11 +59,11 @@ An ideal $I \neq R$ is **maximal** if there is no ideal $J$ with $I \subsetneq J
 
 _Proof._ A field is an integral domain. $\blacksquare$
 
-**Example.** In $\mathbb{Z}$The ideal $(p)$ is maximal (hence prime) if and only if $p$ is prime.
+**Example.** In $\mathbb{Z}$ The ideal $(p)$ is maximal (hence prime) if and only if $p$ is prime.
 The ideal $(6)$ is neither prime nor maximal. The ideal $(0)$ is prime ($\mathbb{Z}$ is an integral
 domain) But not maximal ($\mathbb{Z}/(0) \cong \mathbb{Z}$ is not a field).
 
-**Example.** In $\mathbb{R}[x]$The ideal $(x^2 + 1)$ is maximal since
+**Example.** In $\mathbb{R}[x]$ The ideal $(x^2 + 1)$ is maximal since
 $\mathbb{R}[x]/(x^2 + 1) \cong \mathbb{C}$ is a field.
 
 **Problem.** Show that $(2)$ is a maximal ideal of $\mathbb{Z}$ but $(4)$ is not.
@@ -85,11 +85,13 @@ $(4) \subsetneq (2) \subsetneq \mathbb{Z}$. $\blacksquare$
 **Theorem 9.5 (Chinese Remainder Theorem for Rings).** Let $R$ be a commutative ring with unity and
 Let $I, J$ be ideals with $I + J = R$. Then
 
-$$R/(I \cap J) \cong R/I \times R/J$$
+$$
+R/(I \cap J) \cong R/I \times R/J
+$$
 
 _Proof._ Define $\phi : R \to R/I \times R/J$ by $\phi(r) = (r + I, r + J)$. This is a ring
-homomorphism. It is surjective: since $I + J = R$There exist $a \in I$ and $b \in J$ with
-$a + b = 1$. For any $(r_1 + I, r_2 + J)$Take $r = r_1b + r_2a$. Then
+homomorphism. It is surjective: since $I + J = R$ There exist $a \in I$ and $b \in J$ with
+$a + b = 1$. For any $(r_1 + I, r_2 + J)$ Take $r = r_1b + r_2a$. Then
 $r \equiv r_1b \equiv r_1(1-a) \equiv r_1 \pmod{I}$ And
 $r \equiv r_2a \equiv r_2(1-b) \equiv r_2 \pmod{J}$.
 
@@ -99,7 +101,7 @@ isomorphism theorem, $R/(I \cap J) \cong R/I \times R/J$. $\blacksquare$
 **Corollary 9.6.** If $m, n \in \mathbb{Z}$ are coprime, then
 $\mathbb{Z}/(mn) \cong \mathbb{Z}/(m) \times \mathbb{Z}/(n)$.
 
-_Proof._ Apply Theorem 9.5 with $I = (m)$, $J = (n)$. Since $\gcd(m, n) = 1$We have
+_Proof._ Apply Theorem 9.5 with $I = (m)$, $J = (n)$. Since $\gcd(m, n) = 1$ We have
 $(m) + (n) = (1) = \mathbb{Z}$. Also $(m) \cap (n) = (\mathrm{lcm}(m, n)) = (mn)$. $\blacksquare$
 
 **Problem.** Find all solutions to $x \equiv 2 \pmod{3}$, $x \equiv 3 \pmod{5}$,
@@ -112,11 +114,11 @@ _Solution._ By the Chinese Remainder Theorem, since $\gcd(3, 5) = \gcd(3, 7) = \
 is a unique solution modulo $105$.
 
 First, solve $x \equiv 2 \pmod{3}$ and $x \equiv 3 \pmod{5}$. $x = 2 + 3k$: we need
-$2 + 3k \equiv 3 \pmod{5}$ So $3k \equiv 1 \pmod{5}$Giving $k \equiv 2 \pmod{5}$. Thus
+$2 + 3k \equiv 3 \pmod{5}$ So $3k \equiv 1 \pmod{5}$ Giving $k \equiv 2 \pmod{5}$. Thus
 $x \equiv 2 + 6 = 8 \pmod{15}$.
 
 Now solve $x \equiv 8 \pmod{15}$ and $x \equiv 1 \pmod{7}$. $x = 8 + 15k$: we need
-$8 + 15k \equiv 1 \pmod{7}$ So $1 + k \equiv 1 \pmod{7}$Giving $k \equiv 0 \pmod{7}$. Thus
+$8 + 15k \equiv 1 \pmod{7}$ So $1 + k \equiv 1 \pmod{7}$ Giving $k \equiv 0 \pmod{7}$. Thus
 $x \equiv 8 \pmod{105}$.
 
 The unique solution modulo $105$ is $x \equiv 8 \pmod{105}$. $\blacksquare$
@@ -138,6 +140,8 @@ Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $
 
 ### 9.6 Key Relationships
 
+<div class="table-wrap">
+
 | Concept | Ring | Condition | Quotient |
 | --- | --- | --- | --- |
 | Prime ideal | Commutative $R$ | $ab \in I \Rightarrow a \in I$ or $b \in I$ | $R/I$ is an integral domain |
@@ -145,22 +149,13 @@ Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $
 | Kernel of hom. | Any ring $R$ | $\ker(\phi) = \phi^{-1}(0)$ | $R/\ker(\phi) \cong \operatorname{im}(\phi)$ |
 | Principal ideal | $\mathbb{Z}$, $F[x]$ | $(a) = \{ra : r \in R\}$ | $\mathbb{Z}/(n) \cong \mathbb{Z}/n\mathbb{Z}$ |
 
+</div>
+
 ### 9.7 Applications
 
 - **Cryptography:** RSA encryption relies on $\mathbb{Z}/(n)$ where $n = pq$; the CRT optimises decryption via the isomorphism $\mathbb{Z}/(pq) \cong \mathbb{Z}/(p) \times \mathbb{Z}/(q)$.
 - **Error-correcting codes:** Polynomial rings over finite fields and quotient constructions underpin Reed-Solomon and BCH codes.
 - **Algebraic geometry:** The correspondence between ideals of $k[x_1, \ldots, x_n]$ and algebraic varieties (Hilbert's Nullstellensatz) generalises the prime/maximal ideal classification.
-
-
-```mermaid
-flowchart TD
-    A[9_Ideals And Quotient Rings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -168,47 +163,6 @@ flowchart TD
 - **[Homomorphisms and Isomorphism Theorems](/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/)**: The kernel of a ring homomorphism is always an ideal, enabling the ring isomorphism theorem.
 - **[Field Theory](/1-abstract-algebra/12_field-theory/)**: Quotienting a polynomial ring by an irreducible ideal produces a field extension.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

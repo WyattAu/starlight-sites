@@ -38,7 +38,7 @@ DNA is a double-stranded helix composed of nucleotides.
 - Adenine (A) pairs with Thymine (T) -- two hydrogen bonds.
 - Cytosine (C) pairs with Guanine (G) -- three hydrogen bonds.
 
-**Chargaff"s rule:** $[\mathrm{A] = [\mathrm{T]$ and $[\mathrm{C] = [\mathrm{G]$.
+**Chargaff's rule:** $[\mathrm{A] = [\mathrm{T]$ and $[\mathrm{C] = [\mathrm{G]$.
 
 ### DNA Replication (HL)
 
@@ -56,9 +56,9 @@ Newly synthesised strand.
 **Worked Example: DNA replication fork.**
 
 At a replication fork, the two strands of DNA are separated. DNA polymerase can only synthesise in
-The 5' to 3' direction. On the leading strand (oriented 3' to 5'), synthesis is continuous. On the
-Lagging strand (oriented 5' to 3'), synthesis must be discontinuous because DNA polymerase can only
-Move along the template in one direction.
+the 5' to 3' direction. On the leading strand (oriented 3' to 5'), synthesis is continuous. On the
+lagging strand (oriented 5' to 3'), synthesis must be discontinuous because DNA polymerase can only
+move along the template in one direction.
 
 The lagging strand is synthesised in short fragments called Okazaki fragments, each initiated by an
 RNA primer. DNA ligase then joins these fragments together.
@@ -105,6 +105,8 @@ MRNA is decoded by ribosomes to produce a polypeptide chain.
 
 ### Genetic Terminology (OL/HL)
 
+<div class="table-wrap">
+
 | Term         | Definition                                  |
 | ------------ | ------------------------------------------- |
 | Gene         | Section of DNA that codes for a protein     |
@@ -117,6 +119,8 @@ MRNA is decoded by ribosomes to produce a polypeptide chain.
 | Recessive    | Only expressed when homozygous (bb)         |
 | Codominant   | Both alleles are expressed in the phenotype |
 
+</div>
+
 ### Monohybrid Crosses (OL/HL)
 
 **Example (OL):** In pea plants, tall (T) is dominant over short (t). Cross two heterozygous tall
@@ -126,10 +130,14 @@ Parents: Tt x Tt
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | T   | TT  | Tt  |
 | t   | Tt  | tt  |
+
+</div>
 
 Genotype ratio: 1 TT : 2 Tt : 1 tt.
 
@@ -162,10 +170,14 @@ Genes carried on the X chromosome show sex-linked inheritance.
 
 A carrier female (X$^H$X$^h$) x normal male (X$^H$Y):
 
+<div class="table-wrap">
+
 |       | X$^H$                       | Y                          |
 | ----- | --------------------------- | -------------------------- |
 | X$^H$ | X$^H$X$^H$ (normal female)  | X$^H$Y (normal male)       |
 | X$^h$ | X$^H$X$^h$ (carrier female) | X$^h$Y (haemophiliac male) |
+
+</div>
 
 Males are more likely to be affected because they have only one X chromosome.
 
@@ -199,7 +211,7 @@ Steps:
 ### The Principle
 
 For a large, randomly mating population with no mutation, migration, or natural selection, allele
-And genotype frequencies remain constant from generation to generation.
+and genotype frequencies remain constant from generation to generation.
 
 $$
 P + q = 1
@@ -228,7 +240,7 @@ Where:
 ### Example (HL)
 
 In a population, 16% of individuals show the recessive phenotype (attached earlobes). Find the
-Allele frequencies and genotype frequencies.
+allele frequencies and genotype frequencies.
 
 $$
 Q^2 = 0.16 \implies q = 0.4
@@ -271,7 +283,9 @@ Frequencies are $p$, $q$ And $r$ respectively, with $p + q + r = 1$.
 
 Genotype frequencies are:
 
-$$(I^A I^A) = p^2, \quad (I^A i) = 2pr, \quad (I^B I^B) = q^2, \quad (I^B i) = 2qr, \quad (ii) = r^2$$
+$$
+(I^A I^A) = p^2, \quad (I^A i) = 2pr, \quad (I^B I^B) = q^2, \quad (I^B i) = 2qr, \quad (ii) = r^2
+$$
 
 If the blood type O frequency is 36%, then $r^2 = 0.36$ So $r = 0.6$.
 
@@ -369,7 +383,7 @@ See the examples integrated throughout the sections above.
 
 **The double helix:** DNA consists of two antiparallel strands wound into a double helix. The
 Sugar-phosphate backbone is on the outside, and the nitrogenous bases project inward. The two
-Strands are held together by hydrogen bonds between complementary base pairs: A pairs with T (2
+strands are held together by hydrogen bonds between complementary base pairs: A pairs with T (2
 Hydrogen bonds) and G pairs with C (3 hydrogen bonds).
 
 **Chargaff's rules:** In any sample of DNA, the amount of adenine equals the amount of thymine
@@ -379,16 +393,16 @@ $A + G = T + C$ (purines = pyrimidines).
 **Worked Example: Applying Chargaff's rules.**
 
 If a DNA molecule is 28% adenine, then it is also 28% thymine. Since $A + T + G + C = 100\%$:
-$G + C = 100 - 28 - 28 = 44\%$. Since $G = C$Both $G$ and $C$ are 22%.
+$G + C = 100 - 28 - 28 = 44\%$. Since $G = C$ Both $G$ and $C$ are 22%.
 
-The percentage of purines ($A + G$) = $28 + 22 = 50\%$. The percentage of pyrimidines ($T + C$) =
+The percentage of purines ($A + G$) = $28 + 22 = 50\%$. The percentage of pyrimidines ($ T + C$) =
 $28 + 22 = 50\%$.
 
 **DNA replication (semiconservative):**
 
 Each strand of the original DNA molecule serves as a template for the synthesis of a new
 Complementary strand. After replication, each daughter DNA molecule contains one original strand and
-One new strand.
+one new strand.
 
 **Key enzymes:**
 
@@ -468,7 +482,7 @@ That produces more offspring that survive to reproduce is more "fit" than one th
 
 This is a classic example of directional selection: the antibiotic creates a strong selection
 Pressure that favours the resistant phenotype. The problem is worsened by the overuse of antibiotics
-In medicine and agriculture.
+in medicine and agriculture.
 
 ## Review: Evidence for Evolution
 
@@ -480,18 +494,18 @@ Contain simpler organisms; younger layers contain more complex organisms. Transi
 Pentadactyl limb) suggest common ancestry. Analogous structures (different structure, similar
 Function, e.g., wings of birds and insects) suggest convergent evolution. Vestigial structures
 (e.g., human appendix, pelvic bones in whales) are remnants of structures that were functional in
-Ancestors.
+ancestors.
 
 **Comparative embryology:** Early embryos of all vertebrates are remarkably similar, with features
 Such as pharyngeal pouches and a post-anal tail. This suggests a common ancestry.
 
 **Molecular evidence:** DNA and protein sequence comparisons show that closely related species have
 More similar sequences. The genetic code is nearly universal (the same codons code for the same
-Amino acids in almost all organisms), which is strong evidence for a common origin of all life.
+amino acids in almost all organisms), which is strong evidence for a common origin of all life.
 
 **Biogeography:** The distribution of species around the world reflects evolutionary history. Island
 Species are often similar to those on the nearest mainland but have evolved differences due to
-Isolation (e.g., Darwin's finches on the Galapagos Islands).
+isolation (e.g., Darwin's finches on the Galapagos Islands).
 
 ## Review: Genetic Engineering -- Applications and Ethics
 
@@ -510,7 +524,7 @@ Risk of transmitting animal diseases (unlike pig insulin, which was previously u
 ### Gene Therapy
 
 Gene therapy involves inserting a functional copy of a gene into a patient's cells to treat a
-Genetic disorder.
+genetic disorder.
 
 **Somatic gene therapy:** Targets body cells (not germ cells). Changes are not inherited.
 
@@ -519,7 +533,7 @@ More controversial because it affects future generations.
 
 **Example:** Cystic fibrosis is caused by a mutation in the CFTR gene. Gene therapy involves
 Delivering a normal copy of the CFTR gene to the patient's lung cells using a viral vector (a
-Modified virus that carries the gene). This can potentially cure or alleviate the symptoms of cystic
+modified virus that carries the gene). This can potentially cure or alleviate the symptoms of cystic
 Fibrosis.
 
 ### Ethical Concerns of Genetic Engineering
@@ -543,8 +557,8 @@ Favours one extreme of the phenotype distribution, shifting the mean in that dir
 **Example:** The peppered moth (Biston betularia) in industrial England. Before industrialisation,
 The light-coloured form was well camouflaged against lichen-covered bark. During industrialisation,
 Soot darkened tree bark, and the dark-coloured form became better camouflaged. The frequency of the
-Dark allele increased through natural selection. After clean-air legislation, the frequency of the
-Light form increased again as bark lightened.
+dark allele increased through natural selection. After clean-air legislation, the frequency of the
+light form increased again as bark lightened.
 
 ### Stabilising Selection
 
@@ -553,17 +567,17 @@ Variation.
 
 **Example:** Human birth weight. Babies with very low or very high birth weights have higher
 Mortality. The intermediate birth weight (approximately 3.5 kg) has the highest survival rate. This
-Is stabilising selection maintaining the average birth weight.
+is stabilising selection maintaining the average birth weight.
 
 ### Disruptive Selection
 
 Favours both extremes and selects against the intermediate. This can lead to the formation of two
-Distinct phenotypes in the population.
+distinct phenotypes in the population.
 
 **Example:** In African seedcracker finches, birds with very large or very small beaks are favoured
 Because the available seeds are either very large or very small. Birds with intermediate beaks are
-Less efficient at handling either seed type and have lower fitness. Over time, disruptive selection
-Can lead to the population splitting into two distinct groups.
+less efficient at handling either seed type and have lower fitness. Over time, disruptive selection
+can lead to the population splitting into two distinct groups.
 
 ### Allopatric Speciation
 
@@ -605,12 +619,12 @@ $q = \frac{2(160) + 480}{2(1000)} = \frac{800}{2000} = 0.4$
 Expected (under H-W): $p^2 = 0.36$ (AA = 360), $2pq = 0.48$ (Aa = 480), $q^2 = 0.16$ (aa = 160).
 
 The observed frequencies exactly match the expected Hardy-Weinberg frequencies. The population is in
-Equilibrium.
+equilibrium.
 
 **Worked Example 2: Cystic fibrosis carrier frequency.**
 
 Cystic fibrosis is an autosomal recessive disorder. The incidence is approximately 1 in 2500 births
-In some populations.
+in some populations.
 
 $q^2 = 1/2500 = 0.0004$.
 
@@ -635,30 +649,32 @@ Expected (under H-W): $p^2 = 0.25$ (AA = 250), $2pq = 0.50$ (Aa = 500), $q^2 = 0
 Observed: AA = 400, Aa = 200, aa = 400.
 
 The observed frequencies do not match the expected Hardy-Weinberg frequencies. There is a
-Significant excess of homozygotes (AA and aa) and a deficit of heterozygotes. This pattern suggests
-Non-random mating, such as inbreeding or positive assortative mating (individuals with similar
+significant excess of homozygotes (AA and aa) and a deficit of heterozygotes. This pattern suggests
+non-random mating, such as inbreeding or positive assortative mating (individuals with similar
 Genotypes preferentially mate with each other).
 
 Using the chi-squared test:
 
-$$\chi^2 = \frac{(400-250)^2}{250} + \frac{(200-500)^2}{500} + \frac{(400-250)^2}{250} = \frac{22500}{250} + \frac{90000}{500} + \frac{22500}{250} = 90 + 180 + 90 = 360$$
+$$
+\chi^2 = \frac{(400-250)^2}{250} + \frac{(200-500)^2}{500} + \frac{(400-250)^2}{250} = \frac{22500}{250} + \frac{90000}{500} + \frac{22500}{250} = 90 + 180 + 90 = 360
+$$
 
 Degrees of freedom = $3 - 1 = 2$. Critical value at 5% for 2 df = 5.991.
 
-Since $\chi^2 = 360 \gt 5.991$The population is significantly different from Hardy-Weinberg
+Since $\chi^2 = 360 \gt 5.991$ The population is significantly different from Hardy-Weinberg
 Equilibrium.
 
 **Types of natural selection:**
 
 Natural selection can act on phenotypic variation in different ways, depending on the relationship
-Between fitness and the trait:
+between fitness and the trait:
 
 **1. Directional selection:**
 
 Favours individuals at one extreme of the phenotypic range. The mean value of the trait shifts in
-One direction over time. Example: Antibiotic resistance in bacteria -- when antibiotics are applied,
+one direction over time. Example: Antibiotic resistance in bacteria -- when antibiotics are applied,
 Bacteria with resistance genes have higher survival and reproduction, shifting the population
-Towards resistance.
+towards resistance.
 
 **2. Stabilising selection:**
 
@@ -669,7 +685,7 @@ Weights have higher mortality, so the intermediate range is favoured.
 **3. Disruptive selection:**
 
 Favours individuals at both extremes and selects against the intermediate phenotype. Can lead to
-Speciation if the two extremes become reproductively isolated. Example: African seedcracker finches
+speciation if the two extremes become reproductively isolated. Example: African seedcracker finches
 -- birds with either large or small beaks have higher survival (feeding on large or small seeds
 Respectively), while birds with intermediate beak sizes are less efficient at both.
 
@@ -688,7 +704,7 @@ Generations.
 **Speciation:**
 
 Speciation is the formation of new species. The biological species concept defines a species as a
-Group of organisms that can interbreed to produce fertile offspring. Speciation requires
+group of organisms that can interbreed to produce fertile offspring. Speciation requires
 Reproductive isolation, which can occur through:
 
 - **Geographic (allopatric) speciation:** Populations are physically separated by a geographic
@@ -704,7 +720,7 @@ Reproductive isolation, which can occur through:
 **Evidence for evolution:**
 
 In addition to molecular evidence, there are several lines of evidence supporting the theory of
-Evolution by natural selection:
+evolution by natural selection:
 
 **1. The fossil record:**
 
@@ -729,32 +745,21 @@ Fossils provide a record of organisms that lived in the past. The fossil record 
 
 Homologous structures (structures with a common evolutionary origin) provide evidence for common
 Descent. The pentadactyl limb (five-digit limb) is found in mammals, birds, reptiles, and
-Amphibians, with the same basic bone arrangement (humerus, radius, ulna, carpals, metacarpals,
+amphibians, with the same basic bone arrangement (humerus, radius, ulna, carpals, metacarpals,
 Phalanges) adapted for different functions (grasping, swimming, flying, running).
 
 **3. Biogeography:**
 
 The geographic distribution of species provides evidence for evolution. Species on oceanic islands
-Are often more similar to species on the nearest mainland than to species on other islands, even if
-The other islands have similar environments. This is consistent with species colonising islands from
-The mainland and then diverging through natural selection.
+are often more similar to species on the nearest mainland than to species on other islands, even if
+the other islands have similar environments. This is consistent with species colonising islands from
+the mainland and then diverging through natural selection.
 
 **4. Embryology:**
 
 Early embryonic stages of vertebrates are remarkably similar, suggesting a common ancestry. For
-Example, all vertebrate embryos have pharyngeal pouches (which develop into gills in fish and into
-Parts of the ear and throat in mammals) and a post-anal tail.
-
-
-```mermaid
-flowchart TD
-    A[3_Genetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+example, all vertebrate embryos have pharyngeal pouches (which develop into gills in fish and into
+parts of the ear and throat in mammals) and a post-anal tail.
 
 ## Summary
 

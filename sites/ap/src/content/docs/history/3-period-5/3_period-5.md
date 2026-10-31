@@ -35,7 +35,7 @@ sectional conflict over the expansion of slavery.
 - **Oregon Boundary Dispute**: Settled by treaty in 1846, establishing the 49th parallel as the
   boundary between the US and British North America
 - **Mexican-American War (1846-1848)**: Sparked by disputes over the Texas-Mexico border after
-  annexation; "Spot Resolutions" by Abraham Lincoln challenged Polk"s justification; US forces
+  annexation; "Spot Resolutions" by Abraham Lincoln challenged Polk's justification; US forces
   captured Mexico City
 - **Treaty of Guadalupe Hidalgo (1848)**: Mexico ceded California, New Mexico, Arizona, Nevada,
   Utah, and parts of Colorado and Wyoming to the US for $15 million; Rio Grande established as the
@@ -91,6 +91,8 @@ sectional conflict over the expansion of slavery.
 
 ### Comparison of North and South
 
+<div class="table-wrap">
+
 | Factor              | Union (North)                             | Confederacy (South)                 |
 | ------------------- | ----------------------------------------- | ----------------------------------- |
 | Population          | 22 million                                | 9 million (3.5 million enslaved)    |
@@ -99,6 +101,8 @@ sectional conflict over the expansion of slavery.
 | Military leadership | Initially weaker                          | Strong (Lee, Jackson)               |
 | Strategy            | Anaconda Plan, total war                  | Defensive, seek foreign recognition |
 | Goals               | Preserve the Union; later abolish slavery | Preserve slavery and states' rights |
+
+</div>
 
 ### Key Events and Turning Points
 
@@ -184,17 +188,6 @@ Manifest Destiny, Wilmot Proviso, Compromise of 1850, Kansas-Nebraska Act, Dred 
 Emancipation Proclamation, Gettysburg, Anaconda Plan, 13th Amendment, 14th Amendment, 15th
 Amendment, Sharecropping, Freedmen's Bureau, Compromise of 1877, Ku Klux Klan, Radical
 Reconstruction
-
-
-```mermaid
-flowchart TD
-    A[3_Period 5] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

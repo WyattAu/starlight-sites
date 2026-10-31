@@ -21,7 +21,9 @@ description: 'The strong coupling depends on the energy scale : Comprehensive ed
 
 The strong coupling $\alpha_s$ depends on the energy scale $\mu$:
 
-$$\alpha_s(\mu) = \frac{\alpha_s(\mu_0)}{1 + \frac{\alpha_s(\mu_0)}{12\pi}(33 - 2n_f)\ln(\mu^2/\mu_0^2)}$$
+$$
+\alpha_s(\mu) = \frac{\alpha_s(\mu_0)}{1 + \frac{\alpha_s(\mu_0)}{12\pi}(33 - 2n_f)\ln(\mu^2/\mu_0^2)}
+$$
 
 Where $n_f$ is the number of active quark flavours.
 
@@ -32,37 +34,47 @@ Where $n_f$ is the number of active quark flavours.
 
 The electromagnetic coupling also runs (but increases at high energies):
 
-$$\alpha(\mu) = \frac{\alpha(\mu_0)}{1 - \frac{\alpha(\mu_0)}{3\pi}\ln(\mu^2/\mu_0^2)}$$
+$$
+\alpha(\mu) = \frac{\alpha(\mu_0)}{1 - \frac{\alpha(\mu_0)}{3\pi}\ln(\mu^2/\mu_0^2)}
+$$
 
 ### 6.2 Beta Functions
 
 The running of coupling constants is governed by the **beta function**:
 
-$$\beta(g) \equiv \mu\frac{dg}{d\mu}$$
+$$
+\beta(g) \equiv \mu\frac{dg}{d\mu}
+$$
 
 At one-loop order:
 
 **QED:**
 
-$$\beta_{\mathrm{QED}(e) = \frac{e^3}{12\pi^2} \quad \Rightarrow \quad \beta_{\mathrm{QED}(\alpha) = \frac{2\alpha^2}{3\pi} \gt 0}}$$
+$$
+\beta_{\mathrm{QED}(e) = \frac{e^3}{12\pi^2} \quad \Rightarrow \quad \beta_{\mathrm{QED}(\alpha) = \frac{2\alpha^2}{3\pi} \gt 0}}
+$$
 
 The positive beta function means the electromagnetic coupling **increases** with energy
 (antiscreening).
 
 **QCD:**
 
-$$\beta_{\mathrm{QCD}(g_s) = -\frac{g_s^3}{16\pi^2}\left(\frac{11}{3}C_A - \frac{4}{3}T_F n_f\right)}$$
+$$
+\beta_{\mathrm{QCD}(g_s) = -\frac{g_s^3}{16\pi^2}\left(\frac{11}{3}C_A - \frac{4}{3}T_F n_f\right)}
+$$
 
 For SU(3), $C_A = N = 3$ and $T_F = 1/2$:
 
-$$\beta_{\mathrm{QCD}(g_s) = -\frac{g_s^3}{16\pi^2}\left(11 - \frac{2n_f}{3}\right)}$$
+$$
+\beta_{\mathrm{QCD}(g_s) = -\frac{g_s^3}{16\pi^2}\left(11 - \frac{2n_f}{3}\right)}
+$$
 
 The negative sign (for $n_f \lt 33/2$) means the strong coupling **decreases** with energy: This is
 **asymptotic freedom** (Gross, Wilczek, and Politzer, Nobel Prize 2004).
 
 **Interpretation.** The gluon self-interaction (the $C_A$ term) dominates over fermion screening
 (the $n_f$ term) for the physically relevant number of flavours. Gluons carry colour charge and
-Therefore antiscreen, leading to the coupling decreasing at short distances.
+therefore antiscreen, leading to the coupling decreasing at short distances.
 
 ### 6.3 Grand Unification and the Unification Scale
 
@@ -75,7 +87,9 @@ Simple group such as SU(5) or SO(10).
 
 At one loop, the coupling at scale $\mu$ is:
 
-$$\alpha_i^{-1}(\mu) = \alpha_i^{-1}(\mu_0) - \frac{b_i}{2\pi}\ln\left(\frac{\mu}{\mu_0}\right)$$
+$$
+\alpha_i^{-1}(\mu) = \alpha_i^{-1}(\mu_0) - \frac{b_i}{2\pi}\ln\left(\frac{\mu}{\mu_0}\right)
+$$
 
 Where $b_i$ are the one-loop beta function coefficients and $\mu_0 = m_Z \approx 91.2$ GeV.
 
@@ -85,16 +99,20 @@ For the SM, the coefficients are:
 - $b_2 = -19/(6\pi)$ for $\mathrm{SU}(2)_L$
 - $b_3 = -7/\pi$ for $\mathrm{SU}(3)_C$
 
-At the unification scale $M_{\mathrm{GUT}}$All three couplings are equal:
+At the unification scale $M_{\mathrm{GUT}}$ All three couplings are equal:
 $\alpha_1^{-1}(M_{\mathrm{GUT}) = \alpha_2^{-1}(M_{\mathrm{GUT}) = \alpha_3^{-1}(M_{\mathrm{GUT})}}}$.
 
 Setting $\alpha_1^{-1} = \alpha_2^{-1}$:
 
-$$\alpha_1^{-1}(m_Z) - \alpha_2^{-1}(m_Z) = \frac{b_2 - b_1}{2\pi}\ln\left(\frac{M_{\mathrm{GUT}}{m_Z}\right)}$$
+$$
+\alpha_1^{-1}(m_Z) - \alpha_2^{-1}(m_Z) = \frac{b_2 - b_1}{2\pi}\ln\left(\frac{M_{\mathrm{GUT}}{m_Z}\right)}
+$$
 
 With $\alpha_1^{-1}(m_Z) \approx 59.0$, $\alpha_2^{-1}(m_Z) \approx 29.6$:
 
-$$59.0 - 29.6 = \frac{b_2 - b_1}{2\pi}\ln\left(\frac{M_{\mathrm{GUT}}{m_Z}\right)}$$
+$$
+59.0 - 29.6 = \frac{b_2 - b_1}{2\pi}\ln\left(\frac{M_{\mathrm{GUT}}{m_Z}\right)}
+$$
 
 This gives $M_{\mathrm{GUT} \sim 10^{13}}$--$10^{16}$ GeV depending on the precise Coefficients and
 the inclusion of threshold corrections. In the MSSM, the modified beta Coefficients give a much
@@ -153,16 +171,6 @@ The coupling decreases from 0.118 to 0.114, consistent with asymptotic freedom. 
 
 </details>
 
-```mermaid
-flowchart TD
-    A[6_Running Coupling Constants] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Coupling constants are not truly constant: they change with energy scale through a process called renormalization group running. At low energies, the electromagnetic force appears weak, but at high energies, it strengthens. Meanwhile, the strong force weakens at high energies, a phenomenon called asymptotic freedom. This means that at extremely high energies, all three gauge forces may converge toward similar strengths, suggesting a unified origin. The running is logarithmic, so changes are gradual, but over the vast energy range from atomic to GUT scales, the effect is dramatic. This running is one of the strongest pieces of evidence for grand unification.
@@ -175,25 +183,5 @@ Coupling constants are not truly constant: they change with energy scale through
 - **[Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)**: Deep inelastic scattering and the DGLAP equations measure the running of the strong coupling constant.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -332,7 +332,7 @@ nuclear charge because the inner shells provide substantial shielding. Therefore
 larger atomic radius than argon.
 
 (b) The bond length increases from HF to HI because the halogen atom increases in size down
-Group 17. Each successive halogen has one more electron shell, making the atom larger. The H--X bond
+group 17. Each successive halogen has one more electron shell, making the atom larger. The H--X bond
 length is determined largely by the size of the halogen atom (hydrogen is very small and contributes
 little to the bond length). Fluorine is the smallest halogen, so HF has the shortest bond; iodine is
 the largest, so HI has the longest bond.
@@ -362,27 +362,9 @@ expected properties. The element has not yet been synthesised, so the claim rema
 
 **The key insight:** The periodic table is a map of electron configurations, each row adds a new electron shell, and each column shares the same valence electron arrangement.
 
-
-```mermaid
-flowchart TD
-    A[Diag Atomic Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

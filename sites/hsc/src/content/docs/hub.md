@@ -40,17 +40,6 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 The Higher School Certificate (HSC) is the qualification earned by students in New South Wales, Australia, upon completing secondary school. The HSC is administered by NESA (NSW Education Standards Authority) and is the primary pathway to university admissions in Australia. Physics and Mathematics are among the most challenging and high-value HSC subjects, they develop analytical thinking, problem-solving skills, and the quantitative foundation for university STEM courses.
@@ -174,12 +163,16 @@ Preparing for the HSC requires sustained effort across your subject selections. 
 
 ### Daily Routine
 
+<div class="table-wrap">
+
 | Time | Activity |
 | ------ | ---------- |
 | Morning | Active recall, flashcards and formula review for 20 minutes |
 | Afternoon | Topic study, read notes on one new topic |
 | Evening | Practice, complete 5–10 practice questions |
 | Weekend | Diagnostic quiz + review weak areas |
+
+</div>
 
 ---
 

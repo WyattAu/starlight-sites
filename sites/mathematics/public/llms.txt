@@ -56,6 +56,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Inner Product Spaces And Hilbert Spaces](https://mathematics.wyattau.com/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)
 - [Normed Spaces And Banach Spaces](https://mathematics.wyattau.com/11-functional-analysis/1_normed-spaces-and-banach-spaces/)
 - [Practice Functional Analysis](https://mathematics.wyattau.com/11-functional-analysis/11_practice-functional-analysis/)
+- [Sobolev Spaces](https://mathematics.wyattau.com/11-functional-analysis/10_sobolev-spaces/)
 - [Summary Of Key Theorems](https://mathematics.wyattau.com/11-functional-analysis/9_summary-of-key-theorems/)
 - [The Fundamental Theorems](https://mathematics.wyattau.com/11-functional-analysis/4_the-fundamental-theorems/)
 - [Weak And Weak Convergence](https://mathematics.wyattau.com/11-functional-analysis/6_weak-and-weak-convergence/)
@@ -64,10 +65,14 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 - [Applications](https://mathematics.wyattau.com/12-differential-geometry/9_applications/)
 - [Curvature](https://mathematics.wyattau.com/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](https://mathematics.wyattau.com/12-differential-geometry/13_de-rham-cohomology/)
 - [Differential Forms](https://mathematics.wyattau.com/12-differential-geometry/4_differential-forms/)
+- [Elliptic Regularity](https://mathematics.wyattau.com/12-differential-geometry/16_elliptic-regularity/)
 - [Flashcards Differential Geometry](https://mathematics.wyattau.com/12-differential-geometry/11_flashcards-differential-geometry/)
 - [Geodesics](https://mathematics.wyattau.com/12-differential-geometry/6_geodesics/)
+- [Hodge Theory](https://mathematics.wyattau.com/12-differential-geometry/14_hodge-theory/)
 - [Index](https://mathematics.wyattau.com/12-differential-geometry/)
+- [Kahler Manifolds And Calabi Yau](https://mathematics.wyattau.com/12-differential-geometry/15_kahler-manifolds-and-calabi-yau/)
 - [Practice Differential Geometry](https://mathematics.wyattau.com/12-differential-geometry/12_practice-differential-geometry/)
 - [Riemannian Geometry](https://mathematics.wyattau.com/12-differential-geometry/5_riemannian-geometry/)
 - [Smooth Manifolds](https://mathematics.wyattau.com/12-differential-geometry/1_smooth-manifolds/)
@@ -75,6 +80,30 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Tangent Spaces And Tangent Bundles](https://mathematics.wyattau.com/12-differential-geometry/2_tangent-spaces-and-tangent-bundles/)
 - [The Gauss Bonnet Theorem](https://mathematics.wyattau.com/12-differential-geometry/8_the-gauss-bonnet-theorem/)
 - [Vector Fields And Flows](https://mathematics.wyattau.com/12-differential-geometry/3_vector-fields-and-flows/)
+
+## Graduate-Analysis
+
+- [Banach Algebras And The Gelfand Representation](https://mathematics.wyattau.com/12-graduate-analysis/2_banach-algebras-and-the-gelfand-representation/)
+- [Spectral Theory Of Self Adjoint Operators](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/)
+
+## Graduate-Statistics
+
+- [Posterior Asymptotics And Bernstein Von Mises](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)
+- [Posterior Contraction Rates](https://mathematics.wyattau.com/13-graduate-statistics/2_posterior-contraction-rates/)
+
+## Graduate-Stochastic-Analysis
+
+- [Ito Integration And Formula](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/1_ito-integration-and-formula/)
+- [Stochastic Pdes And Regularity Structures](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/2_stochastic-pdes-and-regularity-structures/)
+
+## Graduate-Representation-Theory
+
+- [Peter Weyl Theorem](https://mathematics.wyattau.com/15-graduate-representation-theory/2_peter-weyl-theorem/)
+- [Representation Theory Of Finite Groups](https://mathematics.wyattau.com/15-graduate-representation-theory/1_representation-theory-of-finite-groups/)
+
+## Graduate-Geometry
+
+- [Ricci Flow And Geometrisation](https://mathematics.wyattau.com/16-graduate-geometry/1_ricci-flow-and-geometrisation/)
 
 ## Linear-Algebra
 
@@ -175,6 +204,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Probability-And-Statistics
 
+- [Estimation And Hypothesis Testing](https://mathematics.wyattau.com/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
 - [Flashcards Probability Statistics](https://mathematics.wyattau.com/8-probability-and-statistics/7_flashcards-probability-statistics/)
 - [Index](https://mathematics.wyattau.com/8-probability-and-statistics/)
 - [Joint Distributions And Independence](https://mathematics.wyattau.com/8-probability-and-statistics/3_joint-distributions-and-independence/)
@@ -203,22 +233,17 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Overview
 
 - [About](https://mathematics.wyattau.com/about/)
-- [Abstract Algebra](https://mathematics.wyattau.com/abstract-algebra/)
-- [Complex Analysis](https://mathematics.wyattau.com/complex-analysis/)
-- [Differential Equations](https://mathematics.wyattau.com/differential-equations/)
+- [Before You Begin](https://mathematics.wyattau.com/before-you-begin/)
 - [Glossary](https://mathematics.wyattau.com/glossary/)
+- [How To Use](https://mathematics.wyattau.com/how-to-use/)
+- [How To Use Learning Science](https://mathematics.wyattau.com/how-to-use-learning-science/)
 - [Hub](https://mathematics.wyattau.com/hub/)
 - [Index](https://mathematics.wyattau.com/)
 - [Intro](https://mathematics.wyattau.com/intro/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
-- [Multivariable Calculus](https://mathematics.wyattau.com/multivariable-calculus/)
-- [Number Theory](https://mathematics.wyattau.com/number-theory/)
 - [Overview](https://mathematics.wyattau.com/overview/)
 - [Practice Linear Algebra](https://mathematics.wyattau.com/practice-linear-algebra/)
 - [Practice Test Mega](https://mathematics.wyattau.com/practice-test-mega/)
-- [Probability](https://mathematics.wyattau.com/probability/)
-- [Probability And Statistics](https://mathematics.wyattau.com/probability-and-statistics/)
-- [Real Analysis](https://mathematics.wyattau.com/real-analysis/)
+- [Terms Of Art](https://mathematics.wyattau.com/terms-of-art/)
 
 ## Demos
 

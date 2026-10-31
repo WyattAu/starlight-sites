@@ -20,9 +20,11 @@ description: "A hash function maps an input from a large domain to a smaller, fi
 A hash function maps an input from a large domain to a smaller, fixed-size range. Formally,
 $h: U \to \{0, 1, \ldots, m-1\}$ where $U$ is the universe of possible keys and $m$ is the table
 Size. The quality of a hash function determines the performance of every data structure built on top
-Of it.
+of it.
 
 ### Desirable Properties
+
+<div class="table-wrap">
 
 | Property          | Definition                                                                            | Why It Matters                                           |
 | ----------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -31,6 +33,8 @@ Of it.
 | **Avalanche**     | Flipping any input bit changes each output bit with probability $\approx 0.5$         | Small input changes produce unpredictable output changes |
 | **Efficient**     | Computable in $O(k)$ where $k$ is the key length                                      | Hash computation should not dominate lookup cost         |
 | **Reversible**    | (For non-cryptographic use) Given a hash value, finding a preimage should not be easy | Prevents intentional collision attacks                   |
+
+</div>
 
 ### Avalanche Criterion
 
@@ -44,7 +48,7 @@ Output value significantly (not just one output bit).
 A perfectly uniform hash function distributes $n$ keys across $m$ buckets so that each bucket
 Contains approximately $n/m$ keys. In practice, we measure uniformity by hashing a large sample of
 Inputs and checking that the chi-squared statistic of the bucket distribution is close to what we
-Would expect from a truly random distribution.
+would expect from a truly random distribution.
 
 ```python
 def uniformity_test(hash_func, keys, num_buckets):
@@ -70,7 +74,9 @@ def uniformity_test(hash_func, keys, num_buckets):
 
 ### Multiplicative Hashing
 
-$$h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor$$
+$$
+h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor
+$$
 
 Where $A$ is a constant in $(0, 1)$ and $m$ is the table size. Knuth recommends
 $A = (\sqrt{5} - 1) / 2 \approx 0.6180339887$. This avoids the problem of poor distribution when the
@@ -90,7 +96,7 @@ def multiplicative_hash(k, m, A=0x9E3779B9):
 ### Integer Hashing (Murmur-style Mixing)
 
 For general-purpose hashing of integers, bit-mixing functions are preferred. These scramble the bits
-Of the input so that small changes in the input produce large changes in the output.
+of the input so that small changes in the input produce large changes in the output.
 
 ```python
 def splitmix64(x):
@@ -110,7 +116,9 @@ def splitmix64(x):
 
 ### Polynomial Rolling Hash
 
-$$h(s) = \left(\sum_{i=0}^{k-1} s[i] \cdot p^{k-1-i}\right) \bmod m$$
+$$
+h(s) = \left(\sum_{i=0}^{k-1} s[i] \cdot p^{k-1-i}\right) \bmod m
+$$
 
 Where $p$ is a prime (commonly 31, 37, or 257) and $m$ is $2^{64}$ (using unsigned integer
 Overflow). This is the basis for Java's `String.hashCode()` and many other implementations.
@@ -160,7 +168,9 @@ def fnv1a_64(data):
 
 When the universe of keys $U$ is small, we can use an array of size $|U|$ where index $k$ stores the
 Element with key $k$. This gives $O(1)$ worst-case insert, delete, and lookup, but wastes memory
-When $|U|$ is much larger than the actual number of keys $n$.
+when $|U|$ is much larger than the actual number of keys $n$.
+
+<div class="table-wrap">
 
 | Operation | Time   | Space      |
 | --------- | ------ | ---------- |
@@ -168,10 +178,12 @@ When $|U|$ is much larger than the actual number of keys $n$.
 | Delete    | $O(1)$ | $O(\|U\|)$ |
 | Lookup    | $O(1)$ | $O(\|U\|)$ |
 
+</div>
+
 ### Hash Tables
 
 A hash table uses a hash function to map keys to indices in an array of size $m$ ( $m \approx n$).
-The space is $O(n)$ instead of $O(|U|)$At the cost of handling collisions (when Two keys hash to the
+The space is $O(n)$ instead of $O(|U|)$ At the cost of handling collisions (when Two keys hash to the
 same index).
 
 ```python
@@ -238,12 +250,16 @@ A lookup, compute the hash, then scan the chain for the key.
 
 The load factor is $\alpha = n / m$ where $n$ is the number of elements and $m$ is the table size.
 
+<div class="table-wrap">
+
 | Statistic                         | Value                           |
 | --------------------------------- | ------------------------------- |
 | Expected chain length             | $\alpha$                        |
 | Unsuccessful search (average)     | $O(\alpha)$ comparisons         |
 | Successful search (average)       | $O(1 + \alpha / 2)$ comparisons |
 | With chaining and $\alpha \lt{1}$ | $O(1)$ amortised per operation  |
+
+</div>
 :::
 
 :::caution
@@ -271,9 +287,11 @@ Collision occurs, we probe for the next available slot using a deterministic pro
 
 ### Linear Probing
 
-$$h(k, i) = (h'(k) + i) \bmod m$$
+$$
+h(k, i) = (h'(k) + i) \bmod m
+$$
 
-The simplest open addressing scheme: on collision at index $h'(k)$Try $h'(k)+1$, $h'(k)+2$Etc.
+The simplest open addressing scheme: on collision at index $h'(k)$ Try $h'(k)+1$, $h'(k)+2$ Etc.
 
 ```python
 class LinearProbingHashTable:
@@ -334,12 +352,14 @@ class LinearProbingHashTable:
 
 **Primary clustering**: linear probing suffers from primary clustering, when a cluster of occupied
 Slots forms, new keys that hash into or near the cluster extend it. The expected number of probes
-For an unsuccessful search with linear probing is approximately
+for an unsuccessful search with linear probing is approximately
 $\frac{1}{2}(1 + \frac{1}{(1-\alpha)^2})$.
 
 ### Quadratic Probing
 
-$$h(k, i) = (h'(k) + c_1 \cdot i + c_2 \cdot i^2) \bmod m$$
+$$
+h(k, i) = (h'(k) + c_1 \cdot i + c_2 \cdot i^2) \bmod m
+$$
 
 Reduces primary clustering by probing at increasing distances. However, it can suffer from
 **secondary clustering**, keys that hash to the same initial slot follow the same probe sequence.
@@ -349,11 +369,13 @@ Than 0.5, quadratic probing with $c_1 = c_2 = 1/2$ will always find an empty slo
 
 ### Double Hashing
 
-$$h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m$$
+$$
+h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m
+$$
 
 Uses a second hash function $h_2(k)$ to determine the probe step size. This eliminates both primary
-And secondary clustering. The table size $m$ and the step size $h_2(k)$ should be relatively prime
-For the probe sequence to visit all slots.
+and secondary clustering. The table size $m$ and the step size $h_2(k)$ should be relatively prime
+for the probe sequence to visit all slots.
 
 ```python
 class DoubleHashingHashTable:
@@ -407,17 +429,21 @@ class DoubleHashingHashTable:
                 return True
 ```
 
+<div class="table-wrap">
+
 | Probe Method   | Clustering | Expected Probes (unsuccessful)            | Cache Performance |
 | -------------- | ---------- | ----------------------------------------- | ----------------- |
 | Linear         | Primary    | $\frac{1}{2}(1 + \frac{1}{(1-\alpha)^2})$ | Best              |
 | Quadratic      | Secondary  | $\frac{1}{1-\alpha}$                      | Good              |
 | Double hashing | None       | $\frac{1}{1-\alpha}$                      | Moderate          |
 
+</div>
+
 ### Robin Hood Hashing
 
 Robin Hood hashing reduces the variance of probe lengths. When inserting, if the new element has
 Probed more times than the element at the current slot (i.e., the new element is "poorer"), swap
-Them. The new element continues probing from the swapped position.
+them. The new element continues probing from the swapped position.
 
 The key insight: instead of minimising the average probe length, Robin Hood minimises the variance,
 Which means worst-case lookups are much faster. The probe length of an element never exceeds
@@ -448,10 +474,12 @@ def robin_hood_insert(table, key, value, hashes):
 ## Cuckoo Hashing
 
 Cuckoo hashing uses two hash functions and two arrays (or one array split into two halves). Each key
-Is stored at either $h_1(k)$ or $h_2(k)$. On collision, the existing element is "kicked out" to its
+is stored at either $h_1(k)$ or $h_2(k)$. On collision, the existing element is "kicked out" to its
 Alternative position. If a cycle is detected, the table is rebuilt with new hash functions.
 
 **Properties:**
+
+<div class="table-wrap">
 
 | Property            | Value                             |
 | ------------------- | --------------------------------- |
@@ -460,6 +488,8 @@ Alternative position. If a cycle is detected, the table is rebuilt with new hash
 | Insert (worst case) | $O(n)$ during rehash              |
 | Space overhead      | Maximum load factor $\approx 0.5$ |
 | Cache performance   | Moderate (two memory accesses)    |
+
+</div>
 
 ```python
 class CuckooHashTable:
@@ -587,11 +617,15 @@ Occupies a large arc of the ring). Virtual nodes (replicas) solve this: each phy
 Placed on the ring multiple times ( 100-200 virtual nodes per physical server). This Smooths out the
 distribution and reduces the variance in key assignment.
 
+<div class="table-wrap">
+
 | Physical servers | Virtual nodes per server | Keys per server (std dev / mean) |
 | ---------------- | ------------------------ | -------------------------------- |
 | 10               | 1                        | $\approx 0.39$                   |
 | 10               | 100                      | $\approx 0.04$                   |
 | 10               | 1000                     | $\approx 0.01$                   |
+
+</div>
 
 ### Load Balancing Properties
 
@@ -608,7 +642,7 @@ High probability.
 ## Bloom Filters
 
 A bloom filter is a space-efficient probabilistic data structure for membership testing. It can tell
-You whether an element is **definitely not** in the set or **possibly** in the set (with a
+you whether an element is **definitely not** in the set or **possibly** in the set (with a
 Configurable false positive rate).
 
 ### Structure
@@ -618,11 +652,15 @@ Functions $h_1, h_2, \ldots, h_k$.
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation           | Algorithm                                                     | Time   |
 | ------------------- | ------------------------------------------------------------- | ------ |
 | Add                 | Set bits at positions $h_1(x), h_2(x), \ldots, h_k(x)$        | $O(k)$ |
 | Query               | Check if all bits at $h_1(x), h_2(x), \ldots, h_k(x)$ are set | $O(k)$ |
 | False positive prob | $(1 - e^{-kn/m})^k$                                           | N/A    |
+
+</div>
 
 ```python
 import mmh3
@@ -665,13 +703,19 @@ class BloomFilter:
 
 Given $n$ expected items and desired false positive rate $p$:
 
-$$m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2$$
+$$
+m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2
+$$
+
+<div class="table-wrap">
 
 | False positive rate | Bits per element | Hash functions |
 | ------------------- | ---------------- | -------------- |
 | 1%                  | 9.6              | 7              |
 | 0.1%                | 14.4             | 10             |
 | 0.01%               | 19.2             | 14             |
+
+</div>
 :::
 
 :::caution
@@ -698,14 +742,18 @@ Function $h_i$ maps an element to a row and column.
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation | Algorithm                                 | Time   | Error                    |
 | --------- | ----------------------------------------- | ------ | ------------------------ |
 | Increment | For each row $i$: `count[i][h_i(x)] += 1` | $O(d)$ | N/A                      |
 | Estimate  | Return $\min_i \mathrm{count[i][h_i(x)]$  | $O(d)$ | $\le \mathrm{true count$ |
 | Space     | $d \times w$ counters                     | N/A    | N/A                      |
 
+</div>
+
 The estimate is always an **overestimate**: $\hat{f}(x) \ge f(x)$ with high probability. The error
-Is bounded by $\epsilon \cdot N$ where $N$ is the total count and $\epsilon = e / w$.
+is bounded by $\epsilon \cdot N$ where $N$ is the total count and $\epsilon = e / w$.
 
 ```python
 import hashlib
@@ -753,7 +801,9 @@ Elements) of a set using very little memory, 12 KB for an error rate of about 0.
 3. For each register, track the position of the leftmost 1-bit in the remaining bits
 4. The estimate is based on the harmonic mean of the register values
 
-$$\hat{n} = \alpha_{m} \cdot m^2 \cdot \left(\sum_{j=1}^{m} 2^{-M[j]}\right)^{-1}$$
+$$
+\hat{n} = \alpha_{m} \cdot m^2 \cdot \left(\sum_{j=1}^{m} 2^{-M[j]}\right)^{-1}
+$$
 
 Where $m = 2^b$ is the number of registers, $M[j]$ is the maximum position of the leftmost 1-bit
 Seen in register $j$ And $\alpha_m$ is a bias correction constant.
@@ -806,6 +856,8 @@ class HyperLogLog:
         return int(estimate)
 ```
 
+<div class="table-wrap">
+
 | Registers ($m$) | Memory | Standard error  |
 | --------------- | ------ | --------------- |
 | 64              | 64 B   | $\approx 13\%$  |
@@ -813,21 +865,27 @@ class HyperLogLog:
 | 4096            | 4 KB   | $\approx 1.6\%$ |
 | 16384           | 16 KB  | $\approx 0.8\%$ |
 
+</div>
+
 ## Cryptographic vs Non-Cryptographic Hashing
+
+<div class="table-wrap">
 
 | Property             | Non-Cryptographic                 | Cryptographic                                            |
 | -------------------- | --------------------------------- | -------------------------------------------------------- |
 | Speed                | Very fast (GB/s)                  | Slower (hundreds of MB/s)                                |
-| Preimage resistance  | No                                | Yes, given $h(x)$Hard to find $x$                       |
-| Second preimage      | No                                | Yes, given $x$Hard to find $y \ne x$ with $h(y) = h(x)$ |
+| Preimage resistance  | No                                | Yes, given $h(x)$ Hard to find $x$                       |
+| Second preimage      | No                                | Yes, given $x$ Hard to find $y \ne x$ with $h(y) = h(x)$ |
 | Collision resistance | Weak                              | Yes, hard to find $x, y$ with $h(x) = h(y)$             |
 | Examples             | FNV, MurmurHash, xxHash, CityHash | SHA-256, SHA-3, BLAKE3                                   |
 | Use case             | Hash tables, fingerprints         | Passwords, signatures, TLS                               |
+
+</div>
 :::
 
 :::note
 Are necessary only when an adversary can choose inputs (e.g., hash DoS attacks). Python switched
-From a simple hash to SipHash (a cryptographic hash) in Python 3.4+ specifically to prevent hash
+from a simple hash to SipHash (a cryptographic hash) in Python 3.4+ specifically to prevent hash
 Flooding attacks.
 
 ## Hash Table Implementation Details
@@ -859,7 +917,7 @@ Representation:
 - **Separate chaining** (). The standard does not mandate a specific collision resolution strategy.
 - **Load factor**: 1.0 by default (`max_load_factor()`).
 - **Bucket count**: power-of-two in libstdc++ (GCC), but not required by the standard.
-- **Rehash policy**: `rehash(n)` sets the bucket count to at least `n``reserve(n)` sets it to
+- **Rehash policy**: `rehash(n)` sets the bucket count to at least `n`, `reserve(n)` sets it to
   accommodate `n` elements without rehashing.
 
 ## Resize and Rehashing
@@ -884,9 +942,9 @@ def resize(old_table, new_capacity):
 ```
 
 **Why geometric resizing gives amortised $O(1)$**: if the table grows by factor $c$ when it reaches
-Load factor $\alpha$The cost of resizing is $O(n)$ but it only happens every $O(n)$ insertions. Over
+Load factor $\alpha$ The cost of resizing is $O(n)$ but it only happens every $O(n)$ insertions. Over
 a sequence of $n$ insertions, the total resize cost is
-$O(n) + O(n/c) + O(n/c^2) + \ldots = O(cn)$Giving $O(c)$ amortised per insertion, a constant.
+$O(n) + O(n/c) + O(n/c^2) + \ldots = O(cn)$ Giving $O(c)$ amortised per insertion, a constant.
 
 ## Common Pitfalls
 
@@ -900,15 +958,15 @@ Freeze objects before hashing.
 ### 2. Hash Flooding Attacks
 
 An adversary who can control the keys inserted into a hash table can choose keys that all hash to
-The same bucket, degrading performance from $O(1)$ to $O(n)$ per operation. Defences: hash
+the same bucket, degrading performance from $O(1)$ to $O(n)$ per operation. Defences: hash
 Randomisation (Python's `PYTHONHASHSEED`), SipHash (Python 3.4+), or switching to balanced trees for
 Long chains (Java 8+).
 
 ### 3. Forgetting to Override Both `__hash__` and `__eq__`
 
-In Python, if you override `__eq__` without overriding `__hash__`The class becomes unhashable. If
-You override `__hash__` without overriding `__eq__`Objects that compare equal may hash to Different
-values. Both must be consistent: if `a == b`Then `hash(a) == hash(b)`.
+In Python, if you override `__eq__` without overriding `__hash__`. The class becomes unhashable. If
+you override `__hash__` without overriding `__eq__`Objects that compare equal may hash to Different
+values. Both must be consistent: if `a == b`. Then `hash(a) == hash(b)`.
 
 ### 4. Integer Overflow in Hash Computation
 
@@ -940,17 +998,7 @@ Filter correctly and monitor the actual false positive rate in production.
 
 Use a bloom filter for membership testing (set membership), count-min sketch for frequency
 Estimation, and HyperLogLog for cardinality estimation. Each is optimised for a different query type
-And cannot substitute for another.
-
-```mermaid
-flowchart TD
-    A[Hashing And Hash Tables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+and cannot substitute for another.
 
 ## Summary
 
@@ -964,9 +1012,6 @@ practical implementation, and key applications.
 - sorting algorithms (bubble, merge, quick)
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

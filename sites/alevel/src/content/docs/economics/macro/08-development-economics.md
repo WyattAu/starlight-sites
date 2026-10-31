@@ -20,41 +20,35 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[08 Development Economics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Development Economics
 
 > **Info:** Board Coverage Edexcel P1, P3 | CIE P2, P4
 Development economics studies how nations transform from low-income, less-productive economies into
-High-income, modern economies. It is distinct from mainstream macroeconomics because it must grapple
-With institutional failure, poverty traps, and structural transformation, problems that are largely
+high-income, modern economies. It is distinct from mainstream macroeconomics because it must grapple
+with institutional failure, poverty traps, and structural transformation, problems that are largely
 Absent in advanced economies.
 
 ## 1. What is Development?
 
 **Definition.** **Economic development** is the process by which a nation improves the economic,
 Political, and social well-being of its people. It encompasses not just growth in income but also
-Improvements in health, education, living standards, and political freedom.
+improvements in health, education, living standards, and political freedom.
 
 **Definition.** **Economic growth** is an increase in a country"s real GDP or real GDP per capita.
 Growth is a **necessary but not sufficient** condition for development, a country can grow without
-Developing if the gains accrue to a small elite.
+developing if the gains accrue to a small elite.
 
 **Key distinction:**
+
+<div class="table-wrap">
 
 |              | Economic Growth          | Economic Development                              |
 | ------------ | ------------------------ | ------------------------------------------------- |
 | **Measures** | GDP, GNI, GDP per capita | HDI, poverty rates, inequality, health, education |
 | **Focus**    | Quantity of output       | Quality of life                                   |
 | **Scope**    | Narrow (market output)   | Broad (well-being, institutions, freedoms)        |
+
+</div>
 
 :::caution
 Per capita (driven by oil) but low HDI (0.59) due to extreme inequality. Conversely, Costa Rica has
@@ -69,10 +63,14 @@ Always use multiple indicators.
 **GDP per capita**, total output divided by population. Adjusted for purchasing power Parity (PPP)
 to account for differences in price levels between countries.
 
-$$\mathrm{GDP per capita (PPP)} = \frac{\mathrm{GDP (PPP)}}{\mathrm{Population}}$$
+$$
+\mathrm{GDP per capita (PPP)} = \frac{\mathrm{GDP (PPP)}}{\mathrm{Population}}
+$$
 
 **GNI per capita**, GDP plus net income from abroad (remittances, profits from overseas
 Investments). The World Bank uses GNI per capita to classify countries:
+
+<div class="table-wrap">
 
 | Classification | GNI per capita (2024) |
 | -------------- | --------------------- |
@@ -81,17 +79,25 @@ Investments). The World Bank uses GNI per capita to classify countries:
 | Upper-middle   | USD 4,516 – 14,005    |
 | High income    | &gt; USD 14,005       |
 
+</div>
+
 ### 2.2 The Human Development Index (HDI)
 
 The HDI, published by the UNDP, is a composite index combining three dimensions:
 
-$$\mathrm{HDI} = \frac{(\mathrm{Health Index} + \mathrm{Education Index} + \mathrm{Income Index})}{3}$$
+$$
+\mathrm{HDI} = \frac{(\mathrm{Health Index} + \mathrm{Education Index} + \mathrm{Income Index})}{3}
+$$
 
 - **Health**: life expectancy at birth
 - **Education**: mean years of schooling + expected years of schooling
 - **Income**: GNI per capita (PPP, log-transformed)
 
-$$0 \leq \mathrm{HDI} \leq 1$$
+$$
+0 \leq \mathrm{HDI} \leq 1
+$$
+
+<div class="table-wrap">
 
 | HDI range  | Category              |
 | ---------- | --------------------- |
@@ -100,19 +106,25 @@ $$0 \leq \mathrm{HDI} \leq 1$$
 | 0.7 – 0.55 | Medium development    |
 | &lt; 0.55  | Low development       |
 
+</div>
+
 ### 2.3 Income Inequality: The Gini Coefficient
 
 **Definition.** The **Gini coefficient** measures income inequality within a country. It ranges from
 $0$ (perfect equality, everyone has the same income) to $1$ (perfect inequality, one person has
-All the income).
+all the income).
 
 The Gini coefficient is derived from the **Lorenz curve**, which plots the cumulative share of
-Income received by the cumulative share of the population (ordered from poorest to richest).
+income received by the cumulative share of the population (ordered from poorest to richest).
 
-$$\mathrm{Gini} = \frac{A}{A + B}$$
+$$
+\mathrm{Gini} = \frac{A}{A + B}
+$$
 
 Where $A$ is the area between the line of perfect equality and the Lorenz curve, and $B$ is the area
-Under the Lorenz curve.
+under the Lorenz curve.
+
+<div class="table-wrap">
 
 | Country      | Gini (approx.) | Interpretation      |
 | ------------ | -------------- | ------------------- |
@@ -123,6 +135,8 @@ Under the Lorenz curve.
 | Germany      | 0.31           | Lower inequality    |
 | Japan        | 0.33           | Lower inequality    |
 | Denmark      | 0.28           | Low inequality      |
+
+</div>
 
 ### 2.4 Other Indicators
 
@@ -138,8 +152,8 @@ Under the Lorenz curve.
 
 :::note
 Different development indicators, including the HDI and Gini coefficient. **Edexcel** focuses on GDP
-Per capita and HDI as measures of living standards, and may ask you to compare indicators across
-Countries.
+per capita and HDI as measures of living standards, and may ask you to compare indicators across
+countries.
 :::
 
 ## 3. Causes of Economic Growth
@@ -148,13 +162,17 @@ Countries.
 
 The Solow growth model explains long-run growth as a function of three factors:
 
-$$Y = A \cdot f(K, L)$$
+$$
+Y = A \cdot f(K, L)
+$$
 
 Where $Y$ = output, $K$ = capital, $L$ = labour, and $A$ = total factor productivity (technology).
 
 In per-worker terms:
 
-$$\frac{Y}{L} = A \cdot f\left(\frac{K}{L}\right)$$
+$$
+\frac{Y}{L} = A \cdot f\left(\frac{K}{L}\right)
+$$
 
 **Sources of growth:**
 
@@ -165,7 +183,9 @@ $$\frac{Y}{L} = A \cdot f\left(\frac{K}{L}\right)$$
 3. **Technological progress** ($\Delta A$): improvements in knowledge, techniques, and efficiency.
    The only source of sustained long-run growth in per capita income.
 
-$$\boxed{\mathrm{Long-run growth in } y = Y/L \mathrm{ requires technological progress}}$$
+$$
+\boxed{\mathrm{Long-run growth in } y = Y/L \mathrm{ requires technological progress}}
+$$
 
 ### 3.2 Human Capital
 
@@ -208,7 +228,9 @@ Abundant natural resources (oil, minerals) often grow more slowly than resource-
 
 The poverty trap is a self-reinforcing mechanism that prevents escape from poverty:
 
-$$\mathrm{Low income} \to \mathrm{Low savings} \to \mathrm{Low investment} \to \mathrm{Low productivity} \to \mathrm{Low income}$$
+$$
+\mathrm{Low income} \to \mathrm{Low savings} \to \mathrm{Low investment} \to \mathrm{Low productivity} \to \mathrm{Low income}
+$$
 
 Without external intervention (aid, FDI, debt relief), countries can be trapped in a low-level
 Equilibrium.
@@ -231,10 +253,12 @@ Africa needs $93$ billion per year in infrastructure investment.
 ### 4.4 Demographic Challenges
 
 High population growth can outpace economic growth, leading to falling GDP per capita. Many
-Developing countries have a **youth bulge**, a large proportion of young people, which can be a
-Demographic dividend (if jobs are created) or a source of instability (if not).
+developing countries have a **youth bulge**, a large proportion of young people, which can be a
+demographic dividend (if jobs are created) or a source of instability (if not).
 
 ### 4.5 Other Barriers
+
+<div class="table-wrap">
 
 | Barrier               | Mechanism                                                                          |
 | --------------------- | ---------------------------------------------------------------------------------- |
@@ -243,6 +267,8 @@ Demographic dividend (if jobs are created) or a source of instability (if not).
 | **Trade barriers**    | Rich-country tariffs and subsidies on agriculture limit developing-country exports |
 | **Disease burden**    | Malaria, HIV/AIDS reduce life expectancy and labour productivity                   |
 | **Gender inequality** | Excluding women from education and work reduces potential output by up to 25%      |
+
+</div>
 
 ## 5. Development Strategies
 
@@ -253,7 +279,9 @@ Demographic dividend (if jobs are created) or a source of instability (if not).
 Replace imports with domestic production behind tariff walls. Used in Latin America (Brazil,
 Argentina) and India (pre-1991).
 
-$$\mathrm{Tariffs} \to \mathrm{Protected domestic industries grow} \to \mathrm{Self-sufficiency}$$
+$$
+\mathrm{Tariffs} \to \mathrm{Protected domestic industries grow} \to \mathrm{Self-sufficiency}
+$$
 
 - **Advantages**: protects infant industries, reduces dependence on imports, retains foreign
   exchange.
@@ -266,7 +294,9 @@ $$\mathrm{Tariffs} \to \mathrm{Protected domestic industries grow} \to \mathrm{S
 Focus on producing goods for export. Used by East Asian "tiger" economies (South Korea, Taiwan,
 Singapore, Hong Kong).
 
-$$\mathrm{Export incentives} \to \mathrm{Access to world markets} \to \mathrm{Economies of scale} \to \mathrm{Growth}$$
+$$
+\mathrm{Export incentives} \to \mathrm{Access to world markets} \to \mathrm{Economies of scale} \to \mathrm{Growth}
+$$
 
 - **Advantages**: access to large world markets, competitive pressure drives efficiency, export
   earnings finance further investment.
@@ -341,7 +371,9 @@ Developing countries have a comparative advantage in:
 **Definition.** The **Prebisch-Singer hypothesis** states that the terms of trade for primary
 Commodity exporters tend to deteriorate relative to manufactured goods exporters over the long run.
 
-$$\frac{P_{\mathrm{primary}}}{P_{\mathrm{manufactured}}} \mathrm{ falls over time}$$
+$$
+\frac{P_{\mathrm{primary}}}{P_{\mathrm{manufactured}}} \mathrm{ falls over time}
+$$
 
 **Causes:**
 
@@ -361,10 +393,10 @@ In their terms of trade, making it harder to earn foreign exchange and finance d
 
 **Definition.** **Fair trade** is a trading partnership that aims to achieve sustainable development
 For excluded and disadvantaged producers by offering better trading conditions and campaigning for
-Change.
+change.
 
 Fair trade organisations pay a minimum price floor (above market price) to producers and provide a
-Social premium for community development projects (schools, healthcare, clean water).
+social premium for community development projects (schools, healthcare, clean water).
 
 ### 6.4 International Trade Agreements
 

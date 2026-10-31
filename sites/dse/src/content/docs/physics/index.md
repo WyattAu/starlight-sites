@@ -53,7 +53,7 @@ efficient revision.
 
 - **[Mechanics](/physics/1-mechanics/2_mechanics-depth/)** -- Kinematics, dynamics, work and energy,
   momentum, and circular motion
-- **[Forces and Motion](/physics/1-mechanics/1_forces-and-motion/)** -- Newton"s laws, friction, projectile
+- **[Forces and Motion](/physics/1-mechanics/1_forces-and-motion/)** -- Newton's laws, friction, projectile
   motion, circular motion, momentum, and impulse
 - **[Energy and Work](/physics/1-mechanics/3_energy-and-work/)** -- Work done, kinetic energy, potential
   energy, conservation of energy, power, and efficiency
@@ -94,8 +94,8 @@ efficient revision.
 
 ## Related Content
 
-- **IB Physics:** [IB Physics](https://ib.wyattau.com/docs/physics)
-- **A-Level Physics:** [A-Level Physics](https://alevel.wyattau.com/docs/physics)
+- **IB Physics:** [IB Physics](https://ib.wyattau.com/physics/)
+- **A-Level Physics:** [A-Level Physics](https://alevel.wyattau.com/physics/)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.
@@ -138,8 +138,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Physics content for the Dse qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -179,8 +177,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Intuition
 

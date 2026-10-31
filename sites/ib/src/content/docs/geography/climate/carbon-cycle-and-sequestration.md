@@ -36,21 +36,29 @@ Inorganic carbon (carbonate rocks, dissolved inorganic carbon in the ocean), and
 
 ### Natural Carbon Fluxes
 
+<div class="table-wrap">
+
 | Flux                                            | Magnitude (GtC/year)             | Description                                                                                                                                                             |
 | ----------------------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Gross primary productivity (photosynthesis)** | Approximately 120                | Plants absorb $\mathrm{CO_2}$ from the atmosphere and convert it to organic carbon                                                                                      |
 | **Respiration and decomposition**               | Approximately 120                | Plants, animals, and decomposers release $\mathrm{CO_2}$ through cellular respiration and decomposition of organic matter                                               |
 | **Ocean-atmosphere exchange**                   | Net approximately 2 (absorption) | The ocean absorbs approximately 92 GtC/year and releases approximately 90 GtC/year; net absorption of approximately 2 GtC/year                                          |
 | **Volcanic outgassing**                         | Approximately 0.1                | Release of $\mathrm{CO_2}$ from volcanic activity and mid-ocean ridges                                                                                                  |
-| **Weathering**                                  | Approximately 0.3                | Chemical weathering of silicate rocks absorbs $\mathrm{CO_2}$Converting it to bicarbonate ions transported to the ocean and eventually deposited as carbonate sediments |
+| **Weathering**                                  | Approximately 0.3                | Chemical weathering of silicate rocks absorbs $\mathrm{CO_2}$ Converting it to bicarbonate ions transported to the ocean and eventually deposited as carbonate sediments |
+
+</div>
 
 ### Anthropogenic Carbon Fluxes
+
+<div class="table-wrap">
 
 | Source                                              | Magnitude (GtC/year, 2023) | Proportion of Total |
 | --------------------------------------------------- | -------------------------- | ------------------- |
 | **Fossil fuel combustion and industrial processes** | Approximately 10.8         | Approximately 89%   |
 | **Land-use change (deforestation, agriculture)**    | Approximately 1.3          | Approximately 11%   |
 | **Total anthropogenic emissions**                   | Approximately 12.1         | 100%                |
+
+</div>
 
 ### Carbon Sinks
 
@@ -80,13 +88,13 @@ Increasing atmospheric $\mathrm{CO_2}$ concentration by approximately 2.5 ppm pe
 ## Carbon Sequestration
 
 Carbon sequestration is the process of removing $\mathrm{CO_2}$ from the atmosphere and storing it
-In a stable form. Sequestration methods are classified as natural or technological.
+in a stable form. Sequestration methods are classified as natural or technological.
 
 ### Natural Sequestration
 
 **Afforestation and reforestation.** Planting trees on previously non-forested land (afforestation)
 Or replanting trees on deforested land (reforestation) removes $\mathrm{CO_2}$ from the atmosphere
-Through photosynthesis and stores it as biomass and soil organic carbon.
+through photosynthesis and stores it as biomass and soil organic carbon.
 
 - **Capacity:** a hectare of tropical forest can sequester approximately 5--10 tonnes of carbon per
   year during the growth phase. Global afforestation and reforestation could potentially sequester
@@ -127,7 +135,7 @@ Alone store approximately 600 GtC, approximately twice the carbon stored in the 
 
 **Carbon Capture and Storage (CCS).** CCS involves capturing $\mathrm{CO_2}$ from point sources
 (power plants, cement factories, steel mills), compressing it, transporting it (by pipeline or
-Ship), and injecting it into deep geological formations (saline aquifers, depleted oil and gas
+ship), and injecting it into deep geological formations (saline aquifers, depleted oil and gas
 Reservoirs) for permanent storage.
 
 - **Current capacity:** approximately 40 million tonnes of $\mathrm{CO_2}$ captured per year
@@ -140,8 +148,8 @@ Reservoirs) for permanent storage.
 
 **Bioenergy with Carbon Capture and Storage (BECCS).** BECCS involves growing biomass (trees, energy
 Crops), burning it for energy, capturing the $\mathrm{CO_2}$ emitted during combustion, and storing
-It geologically. In theory, BECCS can achieve "negative emissions" because the carbon captured
-During biomass growth exceeds the carbon emitted during combustion.
+it geologically. In theory, BECCS can achieve "negative emissions" because the carbon captured
+during biomass growth exceeds the carbon emitted during combustion.
 
 - **Potential:** many integrated assessment models (IAMs) rely heavily on BECCS to achieve net-zero
   emissions. The IPCC's 1.5$^\circ$C pathway assumes approximately 5--15 Gt $\mathrm{CO_2}$ per year
@@ -164,21 +172,21 @@ Solvents or solid sorbents, followed by release of concentrated $\mathrm{CO_2}$ 
 ## REDD+ Framework
 
 REDD+ (Reducing Emissions from Deforestation and Forest Degradation, plus the sustainable management
-Of forests, and the conservation and enhancement of forest carbon stocks) is a UN framework that
-Provides financial incentives for developing countries to reduce deforestation and forest
+of forests, and the conservation and enhancement of forest carbon stocks) is a UN framework that
+provides financial incentives for developing countries to reduce deforestation and forest
 Degradation.
 
 **Mechanism.** Under REDD+, developing countries receive payments (from developed country
 Governments, multilateral funds, or carbon markets) for verified reductions in forest carbon
 Emissions below a reference level (baseline). The mechanism requires countries to establish national
 Forest monitoring systems, reference emission levels, and safeguards to protect biodiversity and
-Indigenous rights.
+indigenous rights.
 
 **Results framework.** The Warsaw Framework (2013) established the rules for REDD+. As of 2023, over
 50 countries have developed REDD+ strategies or action plans, and several countries (Brazil,
 Indonesia, Colombia) have received results-based payments for verified emission reductions. However,
 The scale of finance (approximately USD 5 billion committed cumulatively) is small relative to the
-Drivers of deforestation.
+drivers of deforestation.
 
 **Limitations:**
 
@@ -198,12 +206,14 @@ Drivers of deforestation.
 ### Cap-and-Trade (Emissions Trading Systems)
 
 Cap-and-trade systems set a total cap on greenhouse gas emissions for participating sectors and
-Allocate or auction emission allowances (each allowance permits the emission of one tonne of
+allocate or auction emission allowances (each allowance permits the emission of one tonne of
 $\mathrm{CO_2}$ equivalent). Allowances can be traded among participants: firms that can reduce
 Emissions cheaply sell excess allowances; firms facing high reduction costs buy allowances. The cap
-Is reduced over time, driving progressively deeper emission cuts.
+is reduced over time, driving progressively deeper emission cuts.
 
 **Major emissions trading systems:**
+
+<div class="table-wrap">
 
 | System                                   | Region                                    | Coverage                                                                                    | Price (2023)                                        |
 | ---------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------- |
@@ -211,12 +221,14 @@ Is reduced over time, driving progressively deeper emission cuts.
 | **California Cap-and-Trade**             | California, USA                           | Power generation, industry, transportation fuel (approximately 80% of California emissions) | Approximately USD 30--35 per tonne $\mathrm{CO_2}$  |
 | **China National ETS**                   | China                                     | Power sector (approximately 30% of China's emissions)                                       | Approximately CNY 60--80 per tonne $\mathrm{CO_2}$  |
 
+</div>
+
 ### Carbon Offset Markets
 
 Carbon offset markets allow entities (governments, companies, individuals) to compensate for their
-Emissions by purchasing credits generated by emission reduction or removal projects elsewhere.
+emissions by purchasing credits generated by emission reduction or removal projects elsewhere.
 Offset projects include afforestation, renewable energy installation, methane capture from
-Landfills, and cookstove distribution.
+landfills, and cookstove distribution.
 
 **Criticism of offsets:**
 
@@ -236,13 +248,13 @@ Landfills, and cookstove distribution.
 
 Carbon sequestration and emission reduction are complementary but distinct strategies. Sequestration
 Removes $\mathrm{CO_2}$ from the atmosphere; emission reduction prevents $\mathrm{CO_2}$ from
-Entering the atmosphere. Both are needed to achieve net-zero emissions, but sequestration cannot
+entering the atmosphere. Both are needed to achieve net-zero emissions, but sequestration cannot
 Substitute for emission reduction at the required scale. The IPCC makes clear that the primary
 Pathway to limiting warming to 1.5$^\circ$C is rapid, deep emission reductions across all sectors,
 Supplemented by carbon removal to address residual emissions. Over-reliance on future carbon removal
 Technologies (particularly BECCS and DAC, which currently operate at negligible scale) risks
 Delaying the emission reductions that are needed now. When discussing sequestration, always frame it
-As a complement to, not a substitute for, emission reduction.
+as a complement to, not a substitute for, emission reduction.
 
 </details>
 
@@ -263,24 +275,7 @@ At [../climate-change](/geography/climate-change/).
 4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-
-```mermaid
-flowchart TD
-    A[Carbon Cycle And Sequestration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

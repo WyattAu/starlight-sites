@@ -23,7 +23,7 @@ categories:
 
 `std::chrono` (C++11) provides types and functions for representing and manipulating time values.
 The library uses the type system to prevent accidental mixing of time units. C++20 extended it with
-Calendar types (`year``month``day``year_month_day`) and timezone support (`zoned_time`). This
+Calendar types (`year`, `month`, `day`, `year_month_day`) and timezone support (`zoned_time`). This
 Section covers clocks, durations, elapsed time measurement, calendar operations, and time point
 Formatting.
 
@@ -51,15 +51,19 @@ Conversion.
 
 The standard defines three clocks [N4950 §29.5.7]:
 
+<div class="table-wrap">
+
 | Clock                                | Properties                                                                       | Use Case                              |
 | :----------------------------------- | :------------------------------------------------------------------------------- | :------------------------------------ |
 | `std::chrono::system_clock`          | Wall clock time; may jump (NTP, DST); epoch is Unix epoch (1970-01-01T00:00:00Z) | Calendar time, timestamps, file times |
 | `std::chrono::steady_clock`          | Monotonic; never goes backwards; minimum guaranteed tick period is 1 nanosecond  | Measuring elapsed time, timeouts      |
 | `std::chrono::high_resolution_clock` | Alias for the clock with the shortest tick period (often `steady_clock`)         | Benchmarking                          |
 
+</div>
+
 :::caution
 Synchronization, manual correction). **Never use `system_clock` for measuring elapsed time**, it
-Can produce negative durations. Use `steady_clock` for all elapsed-time measurements.
+can produce negative durations. Use `steady_clock` for all elapsed-time measurements.
 :::
 
 ### Durations
@@ -68,6 +72,8 @@ A `std::chrono::duration&lt;Rep, Period>` represents a time span where `Rep` is 
 ( `int64_t`) and `Period` is a `std::ratio` compile-time fraction [N4950 §29.5.3].
 
 The standard provides convenient duration typedefs [N4950 §29.5.3.1]:
+
+<div class="table-wrap">
 
 | Type                          | Period                        |
 | :---------------------------- | :---------------------------- |
@@ -81,6 +87,8 @@ The standard provides convenient duration typedefs [N4950 §29.5.3.1]:
 | `std::chrono::weeks` (C++20)  | `std::ratio&lt;604800>`       |
 | `std::chrono::years` (C++20)  | `std::ratio&lt;31556952>`     |
 | `std::chrono::months` (C++20) | `std::ratio&lt;2629746>`      |
+
+</div>
 
 Duration arithmetic is type-safe and uses `std::common_type` to determine the result type:
 
@@ -114,7 +122,7 @@ void duration_arithmetic() {
 ```
 
 :::note
-`std::chrono::floor&lt;D>()``std::chrono::ceil&lt;D>()`Or `std::chrono::round&lt;D>()` (C++17) For
+`std::chrono::floor&lt;D>()`, `std::chrono::ceil&lt;D>()` or `std::chrono::round&lt;D>()` (C++17) For
 rounding conversions. These are declared in `<chrono>` [N4950 §29.5.4].
 :::
 
@@ -187,6 +195,8 @@ Benchmarking and logging frameworks.
 
 C++20 added calendar types and timezone support to `<chrono>` [N4950 §29.8]:
 
+<div class="table-wrap">
+
 | Type                              | Purpose                                                     |
 | :-------------------------------- | :---------------------------------------------------------- |
 | `std::chrono::year`               | Year (e.g., `2026y`)                                        |
@@ -198,6 +208,8 @@ C++20 added calendar types and timezone support to `<chrono>` [N4950 §29.8]:
 | `std::chrono::weekday`            | Day of week (Monday..Sunday, `Mon``Tue`...)                 |
 | `std::chrono::tzdb`               | Timezone database                                           |
 | `std::chrono::zoned_time`         | A time point in a specific timezone                         |
+
+</div>
 
 ```cpp
 #include <chrono>
@@ -296,7 +308,7 @@ A system update.
 - [Random Number Generation](/standard_library/4_system_utilities/3_random_numbers/)
 - [Regular Expressions](/standard_library/4_system_utilities/4_regular_expressions/)
 
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ### Clock Precision and `is_steady`
 
@@ -333,7 +345,7 @@ But the actual resolution depends on the hardware timer:
 ### `std::ratio` and Duration Representation
 
 `std::ratio<N, D>` is a compile-time rational number [N4950 §20.4.2]. The numerator and denominator
-Are reduced to lowest terms at compile time. This is the basis for all duration period calculations:
+are reduced to lowest terms at compile time. This is the basis for all duration period calculations:
 
 ```cpp
 #include <chrono>
@@ -375,7 +387,7 @@ void ratio_details() {
 
 :::caution
 Preserved. But `std::common_type_t<seconds, milliseconds>` is `milliseconds` because milliseconds
-Has a finer period. The common type always has the **shortest** (finest) period among the inputs
+has a finer period. The common type always has the **shortest** (finest) period among the inputs
 [N4950 §29.5.3].
 :::
 
@@ -586,11 +598,11 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
    timeouts.
 
 2. **Mixing `duration_cast` with `round`/`floor`/`ceil`:** `duration_cast` truncates towards zero.
-   For a duration of `-1500ms``duration_cast<seconds>(-1500ms)` yields `-1s`Not `-2s`. Use
+   For a duration of `-1500ms`, `duration_cast<seconds>(-1500ms)` yields `-1s`. Not `-2s`. Use
    `floor<seconds>(-1500ms)` for `-2s`.
 
 3. **Integer overflow in duration arithmetic:** Durations use the `Rep` type for storage. If `Rep`
-   is `int32_t` and you compute `1000000s * 1000`The result overflows. Use `int64_t` durations (the
+   is `int32_t` and you compute `1000000s * 1000`. The result overflows. Use `int64_t` durations (the
    default for standard typedefs) or check bounds.
 
 4. **Timezone database not available:** On some minimal Linux containers or embedded systems, the
@@ -598,7 +610,7 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
    Always wrap timezone operations in try-catch.
 
 5. **`high_resolution_clock` may be `system_clock`:** The standard allows `high_resolution_clock` to
-   alias either `system_clock` or `steady_clock`. If it aliases `system_clock`It is not monotonic
+   alias either `system_clock` or `steady_clock`. If it aliases `system_clock`. It is not monotonic
    and is unsuitable for measuring elapsed time. Check `is_steady` at runtime.
 
 6. **Ignoring `clock_cast` for inter-clock conversions:** C++20 provides `std::chrono::clock_cast`
@@ -625,23 +637,7 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
 
 **The key insight:** chrono encodes time units in the type system, the compiler catches unit mismatches at compile time, eliminating a common source of subtle bugs.
 
-```mermaid
-flowchart TD
-    A[2_Chrono] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

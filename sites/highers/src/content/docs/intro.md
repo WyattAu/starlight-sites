@@ -33,7 +33,7 @@ recognised across the UK and internationally.
 ### National 5
 
 The foundation level, taken in S4 (age 15-16). National 5s prepare students for the demands Of
-Higher study.
+higher study.
 
 ### Higher
 
@@ -48,7 +48,7 @@ assessment differ.
 ### Advanced Higher
 
 studied in S6 (age 17-18). These are more specialised and go deeper into subject content Than
-Highers. They are broadly comparable to first-year university level work.
+highers. They are broadly comparable to first-year university level work.
 
 - Graded A, B, C, D
 - Significant coursework component (often a project or dissertation)
@@ -60,6 +60,8 @@ Highers. They are broadly comparable to first-year university level work.
 
 These notes cover five key subjects at both Higher and Advanced Higher levels:
 
+<div class="table-wrap">
+
 | Subject          | Higher Focus                                         | Advanced Higher Focus                                      |
 | ---------------- | ---------------------------------------------------- | ---------------------------------------------------------- |
 | Mathematics      | Algebra, calculus, trigonometry, vectors             | Further calculus, differential equations, Maclaurin series |
@@ -67,6 +69,8 @@ These notes cover five key subjects at both Higher and Advanced Higher levels:
 | Chemistry        | Bonding, organic chemistry, acids/bases              | Analytical methods, equilibrium, kinetics                  |
 | Biology          | Cell biology, multicellular organisms, life on Earth | Genetics, metabolism, biotechnology                        |
 | Computer Science | Software design, databases, web design               | Algorithms, data structures, functional programming        |
+
+</div>
 
 ## Assessment
 
@@ -93,18 +97,11 @@ Refer to the most recent SQA documentation for the definitive syllabus and asses
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 Scottish Highers are like the foundation course of a university degree compressed into two years -- they test not just knowledge but the ability to think independently, manage your own learning, and perform under examination pressure. The SQA system values both breadth (across subjects) and depth (within each subject). Understanding the assessment structure -- what is examined, how it is weighted, and what the examiner is looking for -- is as important as understanding the content itself. The most successful students treat revision as a systematic process, not a last-minute panic.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

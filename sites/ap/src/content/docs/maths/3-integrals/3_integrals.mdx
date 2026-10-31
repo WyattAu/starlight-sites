@@ -31,10 +31,12 @@ Where $C$ is the constant of integration.
 
 ### Basic Integration Rules
 
+<div class="table-wrap">
+
 | Function $f(x)$          | Antiderivative $F(x)$     |
-| ------------------------ | ------------------------- | --- | ---- |
+| ------------------------ | ------------------------- |
 | $x^n$ ($n \ne -1$)       | $\frac{x^{n+1}}{n+1} + C$ |
-| $\frac{1}{x}$            | $\ln                      | x   | + C$ |
+| $\frac{1}{x}$            | $\ln                      \| x   \| + C$ |
 | $e^x$                    | $e^x + C$                 |
 | $\sin x$                 | $-\cos x + C$             |
 | $\cos x$                 | $\sin x + C$              |
@@ -45,18 +47,20 @@ Where $C$ is the constant of integration.
 | $\frac{1}{1+x^2}$        | $\arctan x + C$           |
 | $\frac{1}{\sqrt{1-x^2}}$ | $\arcsin x + C$           |
 
+</div>
+
 ### The Power Rule for Integration
 
 $$
 \int x^n\, dx = \frac\{x^\{n+1\}\}\{n+1\} + C, \quad n \ne -1
 $$
 
-**Why the power rule excludes $n = -1$.** Substituting $n = -1$ gives $\frac{x^0}{0}$Which is
-Undefined. The antiderivative of $\frac{1}{x}$ is $\ln|x|$A fundamental result with deep Connections
+**Why the power rule excludes $n = -1$.** Substituting $n = -1$ gives $\frac{x^0}{0}$ Which is
+Undefined. The antiderivative of $\frac{1}{x}$ is $\ln|x|$ A fundamental result with deep Connections
 to the natural logarithm.
 
 **Why the absolute value in $\ln|x|$.** The derivative of $\ln x$ is $\frac{1}{x}$ for $x \gt 0$.
-For $x \lt 0$The derivative of $\ln(-x)$ is $\frac{1}{-x} \cdot (-1) = \frac{1}{x}$. So the
+For $x \lt 0$ The derivative of $\ln(-x)$ is $\frac{1}{-x} \cdot (-1) = \frac{1}{x}$. So the
 Antiderivative of $\frac{1}{x}$ on any interval not containing $0$ is $\ln|x| + C$.
 
 <Aside type="note" title="Example">
@@ -89,7 +93,9 @@ $$
 \sum_\{i=1\}^\{n\} f(x_i^*) \Delta x
 $$
 
-Where $\Delta x = \frac{b - a}{n}$ and $x_i^*$ is a sample point in the $i$Th subinterval.
+Where $\Delta x = \frac{b - a}{n}$ and $x_i^*$ is a sample point in the $i$ Th subinterval.
+
+<div class="table-wrap">
 
 | Type              | Sample Point $x_i^*$                              |
 | ----------------- | ------------------------------------------------- |
@@ -97,6 +103,8 @@ Where $\Delta x = \frac{b - a}{n}$ and $x_i^*$ is a sample point in the $i$Th su
 | Right Riemann sum | Right endpoint                                    |
 | Midpoint sum      | Midpoint of subinterval                           |
 | Trapezoidal sum   | Average of endpoints (trapezoids, not rectangles) |
+
+</div>
 
 **Why Riemann sums matter.** They are the foundation of the definite integral. As $n \to \infty$ The
 approximation becomes exact (for continuous functions).
@@ -123,7 +131,7 @@ Provided this limit exists. When it does, $f$ is said to be **integrable** on $[
 5. $\displaystyle\int_a^b f(x)\, dx = \int_a^c f(x)\, dx + \int_c^b f(x)\, dx$ (Additivity)
 
 **Property 5 (Additivity) is powerful.** It allows splitting integrals at discontinuities. For
-Example, if $f$ has a jump at $c \in (a, b)$You can split:
+Example, if $f$ has a jump at $c \in (a, b)$ You can split:
 
 $$
 \int_a^b f(x)\, dx = \int_a^c f(x)\, dx + \int_c^b f(x)\, dx
@@ -188,7 +196,7 @@ $$
 
 **Intuition.** FTC Part 1 says: the rate at which the accumulated area changes is just the height of
 The curve at that point. This connects the two halves of calculus: the derivative and the integral
-Are inverse operations.
+are inverse operations.
 </Aside>
 
 <Aside type="note" title="Example">
@@ -262,14 +270,14 @@ $\blacksquare$
 
 ### $u$-Substitution
 
-If $\displaystyle\int f(g(x)) \cdot g'(x)\, dx$Let $u = g(x)$, $du = g'(x)\, dx$:
+If $\displaystyle\int f(g(x)) \cdot g'(x)\, dx$ Let $u = g(x)$, $du = g'(x)\, dx$:
 
 $$
 \int f(u)\, du = F(u) + C = F(g(x)) + C
 $$
 
 **Strategy for choosing $u$.** Look for a function and its derivative in the integrand. If you can
-Spot $f(g(x))$ and $g'(x)$Set $u = g(x)$.
+Spot $f(g(x))$ and $g'(x)$ Set $u = g(x)$.
 </Aside>
 
 <Aside type="note" title="Example">
@@ -285,7 +293,7 @@ $$
 <Aside type="note" title="Example">
 Evaluate $\displaystyle\int \frac{x}{x^2 + 1}\, dx$.
 
-Let $u = x^2 + 1$, $du = 2x\, dx$Giving $\frac{1}{2}du = x\, dx$:
+Let $u = x^2 + 1$, $du = 2x\, dx$ Giving $\frac{1}{2}du = x\, dx$:
 
 $$
 \int \frac\{x\}\{x^2 + 1\}\, dx = \frac\{1\}\{2\}\int \frac\{1\}\{u\}\, du = \frac\{1\}\{2\}\ln|u| + C = \frac\{1\}\{2\}\ln(x^2 + 1) + C
@@ -381,11 +389,15 @@ $$
 
 **Tabular method check:**
 
+<div class="table-wrap">
+
 | Sign | D (derivatives) | I (integrals) |
 | ---- | --------------- | ------------- |
 | $+$  | $x^2$           | $e^x$         |
 | $-$  | $2x$            | $e^x$         |
 | $+$  | $2$             | $e^x$         |
+
+</div>
 
 Result: $x^2 e^x - 2xe^x + 2e^x = e^x(x^2 - 2x + 2)$. Confirmed.
 </Aside>
@@ -436,7 +448,7 @@ $$
 ### Improper Integrals
 
 An improper integral involves either an infinite limit of integration or an infinite discontinuity
-In the interval.
+in the interval.
 
 **Type 1: Infinite interval:**
 
@@ -480,7 +492,7 @@ $$
 
 **The Gaussian integral.** The integral
 $\displaystyle\int_0^{\infty} e^{-x^2}\, dx = \frac{\sqrt{\pi}}{2}$ is a celebrated result that
-Cannot be evaluated by elementary methods. The standard technique uses a double integral in polar
+cannot be evaluated by elementary methods. The standard technique uses a double integral in polar
 Coordinates. The full Gaussian integral from $-\infty$ to $\infty$ equals $\sqrt{\pi}$.
 
 Note that $\displaystyle\int_0^{\infty} xe^{-x^2}\, dx = \frac{1}{2}$ (computed above via
@@ -513,7 +525,7 @@ $$
 <Aside type="note" title="Example">
 Find the area between $y = x^2$ and $y = 2x$.
 
-Find intersections: $x^2 = 2x$ So $x^2 - 2x = 0$Giving $x = 0$ and $x = 2$.
+Find intersections: $x^2 = 2x$ So $x^2 - 2x = 0$ Giving $x = 0$ and $x = 2$.
 
 Between $x = 0$ and $x = 2$$2x \ge x^2$.
 
@@ -557,7 +569,7 @@ $$
 
 <Aside type="note" title="Example">
 Find the volume of the solid obtained by rotating the region bounded by $y = x^2$ and $y = x$ about
-The $y$-axis.
+the $y$-axis.
 
 The curves intersect at $x = 0$ and $x = 1$. Using the shell method:
 
@@ -631,14 +643,14 @@ $$
 6. **Incorrectly choosing $u$ in integration by parts.** Use LIATE: prioritize Logarithmic over
    Inverse trig over Algebraic over Trig over Exponential.
 7. **Sign errors with FTC Part 1 chain rule.** The derivative of $\int_a^{g(x)} f(t)\, dt$ is
-   $f(g(x)) \cdot g'(x)$Not $f(g(x))$.
+   $f(g(x)) \cdot g'(x)$ Not $f(g(x))$.
 8. **Forgetting to split improper integrals at the discontinuity** when a singularity is in the
    interval.
 9. **Choosing the disk vs. Washer vs. Shell method incorrectly.** Disk: rotate around $x$-axis using
    radius. Shell: rotate around $y$-axis using height as the integrand. Washer: region between two
    curves rotated about an axis.
 10. **Dropping the absolute value in $\ln|x|$.** The antiderivative of $\frac{1}{x}$ is
-    $\ln|x| + C$Not $\ln x + C$. On intervals where $x \lt 0$The integral is well-defined and equals
+    $\ln|x| + C$ Not $\ln x + C$. On intervals where $x \lt 0$ The integral is well-defined and equals
     $\ln(-x) + C$.
 11. **Confusing the Gaussian integrals.**
     $\displaystyle\int_0^{\infty} xe^{-x^2}\, dx = \frac{1}{2}$ (evaluated via $u$-substitution),
@@ -664,7 +676,7 @@ $$
 
 7. Find the average value of $f(x) = \sin x$ on $[0, \pi]$.
 
-8. Given $\displaystyle g(x) = \int_0^{x^3} \cos(t^2)\, dt$Find $g'(x)$.
+8. Given $\displaystyle g(x) = \int_0^{x^3} \cos(t^2)\, dt$ Find $g'(x)$.
 
 9. Evaluate $\displaystyle\int_0^1 \frac{2x}{\sqrt{1 + x^2}}\, dx$.
 
@@ -697,6 +709,8 @@ Evaluate $\displaystyle\int x^3 e^x \, dx$ using the tabular method.
 
 Differentiate $x^3$ (column 1) and integrate $e^x$ (column 2) alternately with signs $+,-,+,-$:
 
+<div class="table-wrap">
+
 | Signs | $x^3$  | $e^x$ |
 | ----- | ------ | ----- |
 | +     | $x^3$  | $e^x$ |
@@ -704,6 +718,8 @@ Differentiate $x^3$ (column 1) and integrate $e^x$ (column 2) alternately with s
 | +     | $6x$   | $e^x$ |
 | -     | $6$    | $e^x$ |
 | +     | $0$    | $e^x$ |
+
+</div>
 
 Result: $x^3 e^x - 3x^2 e^x + 6xe^x - 6e^x + C = e^x(x^3 - 3x^2 + 6x - 6) + C$.
 
@@ -772,7 +788,7 @@ $= \lim_{b \to \infty} \left[\frac{x^{1-p}}{1-p}\right]_1^b = \lim_{b \to \infty
 
 For $p = 1$: $\int_1^b \frac{1}{x} \, dx = \ln b \to \infty$. Diverges.
 
-The integral converges if and only if $p \gt 1$With value $\frac{1}{p-1}$.
+The integral converges if and only if $p \gt 1$ With value $\frac{1}{p-1}$.
 
 </details>
 
@@ -808,16 +824,6 @@ See for instructions
 on self-marking and building a personal test matrix.
 </Aside>
 
-```mermaid
-flowchart TD
-    A[3_Integralsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to integrals, including key
@@ -831,13 +837,7 @@ theorems, methods, and problem-solving approaches.
 - differential equations
 - applications to kinematics
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

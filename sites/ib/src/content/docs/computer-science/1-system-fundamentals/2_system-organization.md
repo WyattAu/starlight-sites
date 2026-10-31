@@ -31,7 +31,7 @@ categories:
 ### Computer System
 
 A computer system is a broad term given to a system including the hardware, software, users, and the
-Immediate environment.
+immediate environment.
 
 ### System Life Cycle
 
@@ -61,7 +61,7 @@ Planning a system is an attempt to anticipate potential organizational issues:
 ### Feasibility Report
 
 Feasibility reports are the results of a feasibility study where the evaluation and analysis of a
-Project and its potential is carried out based on:
+project and its potential is carried out based on:
 
 - Technical feasibility
 - Determining whether current technology sufficient to implement the system
@@ -95,6 +95,8 @@ Project and its potential is carried out based on:
 Requirements elicitation is the process of gathering system requirements from stakeholders. Common
 Techniques include:
 
+<div class="table-wrap">
+
 | Technique       | Description                                                              | Advantages                                          | Disadvantages                                         |
 | --------------- | ------------------------------------------------------------------------ | --------------------------------------------------- | ----------------------------------------------------- |
 | Interviews      | One-on-one structured or semi-structured conversations with stakeholders | In-depth responses; follow-up questions possible    | Time-consuming; may be influenced by interviewer bias |
@@ -102,9 +104,13 @@ Techniques include:
 | Observation     | Watching users perform their current tasks in their normal environment   | Reveals actual workflow issues users may not report | Users may change behaviour when observed              |
 | Document review | Analysing existing documentation, reports, forms, and procedures         | Non-intrusive; provides objective baseline          | Documents may be outdated or incomplete               |
 
+</div>
+
 ### Stakeholder Analysis Matrix
 
 A stakeholder analysis matrix helps prioritise stakeholder engagement during planning:
+
+<div class="table-wrap">
 
 | Stakeholder       | Interest level | Influence level | Engagement strategy                |
 | ----------------- | -------------- | --------------- | ---------------------------------- |
@@ -113,6 +119,8 @@ A stakeholder analysis matrix helps prioritise stakeholder engagement during pla
 | IT department     | Medium         | High            | Consult early; involve in design   |
 | External vendors  | Low            | Medium          | Monitor; contractual communication |
 | Regulators        | Low            | High            | Satisfy through compliance checks  |
+
+</div>
 
 ### Gantt Chart Concepts
 
@@ -142,7 +150,7 @@ Employee positions, replacing hardware equipment, etc.
 ### Incompatibility
 
 System may include critical points built with legacy systems, where the new system is unable to
-Replace by change, examples being:
+replace by change, examples being:
 
 - Lack of ability to translate legacy format to new format.
 - User needs, where a lack of user training or the new system does not completely replace the
@@ -153,6 +161,8 @@ Replace by change, examples being:
 Employees often resist new systems. Understanding the reasons allows management to plan mitigation
 Strategies:
 
+<div class="table-wrap">
+
 | Reason for resistance | Description                                              | Mitigation strategy                                                                                     |
 | --------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | Fear of redundancy    | Employees worry the new system will eliminate their jobs | Communicate that the system augments rather than replaces roles; retrain staff for new responsibilities |
@@ -160,6 +170,8 @@ Strategies:
 | Disruption of routine | The new system changes familiar workflows                | Use phased changeover to allow gradual adaptation                                                       |
 | Lack of involvement   | Staff feel the change was imposed without consultation   | Involve employees early in requirements elicitation and pilot testing                                   |
 | Past failures         | Previous system changes failed, reducing trust           | Acknowledge past issues, explain what will be different, and provide evidence of thorough planning      |
+
+</div>
 
 ### Lewin's Change Management Model
 
@@ -179,6 +191,8 @@ Lewin's model describes change in three stages:
 Before deploying a new system, a training needs analysis (TNA) identifies the gap between current
 Skills and required skills:
 
+<div class="table-wrap">
+
 | Step                        | Action                                               | Example                                                                                                  |
 | --------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | 1. Identify required skills | Determine what the new system demands of users       | The new ERP system requires users to navigate a multi-module dashboard and generate reports              |
@@ -187,10 +201,14 @@ Skills and required skills:
 | 4. Design training          | Plan training methods, duration, and materials       | Three-day instructor-led workshop, followed by online refresher modules and a help desk                  |
 | 5. Evaluate training        | Measure whether the training achieved its objectives | Post-training assessment shows 85% of staff can independently perform core tasks                         |
 
+</div>
+
 ### Impact Assessment Framework
 
 An impact assessment evaluates how the new system will affect the organisation across multiple
 Dimensions:
+
+<div class="table-wrap">
 
 | Dimension   | Questions to ask                                  | Example findings                                                                   |
 | ----------- | ------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -199,6 +217,8 @@ Dimensions:
 | Technical   | What infrastructure changes are needed?           | Server upgrade required; new network switches for increased bandwidth              |
 | Human       | How will staff roles and responsibilities change? | Three data entry clerks will be retrained as system analysts                       |
 | Legal       | Are there compliance implications?                | New data retention policies must align with GDPR Article 5                         |
+
+</div>
 
 ### Worked Example: Planning a System Migration for a School Library
 
@@ -239,20 +259,26 @@ Library management system (CloudLib).
 
 **Step 5 -- Risk register**:
 
+<div class="table-wrap">
+
 | Risk                        | Likelihood | Impact | Mitigation                                                                        |
 | --------------------------- | ---------- | ------ | --------------------------------------------------------------------------------- |
 | Data loss during migration  | Low        | High   | Full backup of LibrarySoft database before migration; validation of record counts |
 | Librarian unable to adapt   | Medium     | Medium | Extended training period; option to revert during parallel run                    |
 | Internet outage during term | Low        | High   | Maintain a cached local copy of the catalogue for offline browsing                |
 
+</div>
+
 ## Business Merger
 
 Business merger is the process of combining business entities, where all subsystems are required to
-Be compatible.
+be compatible.
 
 ### System Integration
 
 System integration is the process of combining subsystems, where there are four strategies:
+
+<div class="table-wrap">
 
 | Strategy                     | Description                                                                 | Advantages                                                        | Disadvantages                                                                              |
 | ---------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -260,6 +286,8 @@ System integration is the process of combining subsystems, where there are four 
 | Replace both with new system | Build an entirely new system that replaces both legacy systems              | Opportunity to modernise; eliminates legacy technical debt        | Highest cost and risk; longest timeline; requires full requirements gathering from scratch |
 | Best-of-breed selection      | Select the strongest subsystems from each company and combine them          | Leverages existing strengths; may produce the best overall system | Complex integration between heterogeneous subsystems; compatibility issues                 |
 | Single system adoption       | Choose one company's system and terminate the other                         | Simplest integration; lower cost than replacement                 | Users of the discontinued system must adapt; some functionality may be lost                |
+
+</div>
 
 **Real-world examples**:
 
@@ -316,7 +344,7 @@ On-premises software are software operate locally on an organization's own infra
 #### SaaS
 
 Software-as-a-Service (SaaS) are software provided by cloud service, where data and the software is
-Operating in a remote datacenter.
+operating in a remote datacenter.
 
 ### Installation Process
 
@@ -325,7 +353,7 @@ The installation process is the deployment of a new system on a premise.
 #### Changeover Method
 
 When replacing the system currently used, strategies employed should consider the cost overhead and
-Risk, common strategies include:
+risk, common strategies include:
 
 - Parallel changeover
 - Operating both systems in redundancy for the duration of replacement.
@@ -386,6 +414,8 @@ Risk, common strategies include:
 
 ### Comparison: Alpha vs Beta vs UAT
 
+<div class="table-wrap">
+
 | Criterion     | Alpha testing                      | Beta testing                    | User acceptance testing               |
 | ------------- | ---------------------------------- | ------------------------------- | ------------------------------------- |
 | Who tests     | Development team                   | Selected end-users              | Client or business stakeholders       |
@@ -394,21 +424,27 @@ Risk, common strategies include:
 | System state  | Not yet feature-complete           | Feature-complete                | Feature-complete and stable           |
 | Bug reporting | Internal bug tracker               | Feedback forms or issue tracker | Formal sign-off process               |
 
+</div>
+
 ### Test Case Design Techniques
 
 #### Equivalence Partitioning
 
 Equivalence partitioning divides input data into partitions (classes) where the system is expected
-To behave the same for all values within a partition. One representative value from each partition
-Is tested.
+to behave the same for all values within a partition. One representative value from each partition
+is tested.
 
 **Example**: A registration form requires the user's age to be between 18 and 65.
+
+<div class="table-wrap">
 
 | Partition       | Range           | Test value |
 | --------------- | --------------- | ---------- |
 | Valid           | 18 to 65        | 30         |
 | Invalid (below) | less than 18    | 15         |
 | Invalid (above) | greater than 65 | 70         |
+
+</div>
 
 Only three test cases are needed to cover all equivalence classes.
 
@@ -419,6 +455,8 @@ Frequently occur at boundaries.
 
 Using the same age example (valid range 18 to 65):
 
+<div class="table-wrap">
+
 | Boundary               | Test value | Expected result |
 | ---------------------- | ---------- | --------------- |
 | Just below lower bound | 17         | Rejected        |
@@ -428,19 +466,27 @@ Using the same age example (valid range 18 to 65):
 | Upper bound            | 65         | Accepted        |
 | Just above upper bound | 66         | Rejected        |
 
+</div>
+
 ### Stubs and Drivers
 
 When testing individual modules that depend on other modules not yet developed, stubs and drivers
-Are used as substitutes:
+are used as substitutes:
+
+<div class="table-wrap">
 
 | Component | Definition                                      | When used         | Example                                                                                                                                                                         |
 | --------- | ----------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stub      | A dummy module that simulates a called module   | Bottom-up testing | A stub that returns a fixed value when the `getCustomerName()` function is called, allowing the calling module to be tested without the real database module                    |
 | Driver    | A dummy module that calls a module being tested | Top-down testing  | A driver that passes a series of test inputs to the `calculateDiscount()` function and displays the results, allowing the function to be tested without the full user interface |
 
+</div>
+
 ### Traceability Matrix
 
 A traceability matrix maps requirements to test cases to ensure complete test coverage:
+
+<div class="table-wrap">
 
 | Requirement ID | Requirement description             | Test case ID | Test case description           | Status |
 | -------------- | ----------------------------------- | ------------ | ------------------------------- | ------ |
@@ -449,8 +495,10 @@ A traceability matrix maps requirements to test cases to ensure complete test co
 | R03            | Overdue books flagged after 14 days | TC03         | Check book status at day 15     | Pass   |
 | R04            | Daily overdue report generated      | TC04         | Verify report contents          | Fail   |
 
+</div>
+
 If any test case fails or a requirement has no corresponding test case, the matrix highlights the
-Gap.
+gap.
 
 ### Data Validation
 
@@ -464,9 +512,11 @@ Verification is the process of evaluating the consistency of the input sequence 
 
 **System specification**: A login system accepts a username (6 to 20 alphanumeric characters) and a
 Password (8 to 128 characters, must include at least one uppercase letter and one digit). After 3
-Failed attempts, the account is locked for 15 minutes.
+failed attempts, the account is locked for 15 minutes.
 
 **Test cases using equivalence partitioning and boundary value analysis**:
+
+<div class="table-wrap">
 
 | Test ID | Test description                    | Input                                                   | Expected result                         | Technique   |
 | ------- | ----------------------------------- | ------------------------------------------------------- | --------------------------------------- | ----------- |
@@ -481,6 +531,8 @@ Failed attempts, the account is locked for 15 minutes.
 | TC09    | Third failed attempt locks account  | Username: "student01", 3 incorrect passwords            | Account locked for 15 minutes           | Boundary    |
 | TC10    | Second failed attempt does not lock | Username: "student01", 2 incorrect passwords            | Error message; account not locked       | Boundary    |
 
+</div>
+
 ## User Documentation
 
 User documentations are manuals design to explain the functionality of the system to the end-user.
@@ -488,7 +540,7 @@ User documentations are manuals design to explain the functionality of the syste
 ### Methods of Providing User Documentation
 
 The term user documentation does not restrict the form of access, where online and written documents
-Are allowed, some methods of providing the user documentation include:
+are allowed, some methods of providing the user documentation include:
 
 - User Manuel
 - Embedded Assistance Subsystem
@@ -501,7 +553,7 @@ Are allowed, some methods of providing the user documentation include:
 ## User Training
 
 In order to equip the workforce with a new system, user training is required to ensure the system is
-Used for its full capacity, some methods include:
+used for its full capacity, some methods include:
 
 - Self-study
 - Formal classes
@@ -547,16 +599,20 @@ Off-site).
 
 RAID (Redundant Array of Independent Disks) provides data redundancy and performance improvements:
 
+<div class="table-wrap">
+
 | RAID level | Description                                              | Minimum disks | Redundancy             | Use case                                                            |
 | ---------- | -------------------------------------------------------- | ------------- | ---------------------- | ------------------------------------------------------------------- |
 | RAID 0     | Data is striped across disks for performance             | 2             | None                   | Temporary data, gaming systems where speed matters more than safety |
 | RAID 1     | Data is mirrored identically on each disk                | 2             | Full (1 disk can fail) | Critical databases where uptime is essential                        |
 | RAID 5     | Data is striped with distributed parity across all disks | 3             | Single disk tolerance  | File servers balancing performance, capacity, and redundancy        |
 
+</div>
+
 ### Disaster Recovery Plan
 
 A disaster recovery plan (DRP) documents the procedures for restoring IT systems after a
-Catastrophic event. Key components include:
+catastrophic event. Key components include:
 
 1. **Recovery objectives**:
 
@@ -575,11 +631,15 @@ Catastrophic event. Key components include:
 
 ### Hot, Warm, and Cold Standby
 
+<div class="table-wrap">
+
 | Standby type | Description                                                                                 | Recovery time                     | Cost    | Use case                                      |
 | ------------ | ------------------------------------------------------------------------------------------- | --------------------------------- | ------- | --------------------------------------------- |
 | Hot standby  | A fully operational duplicate system running in real-time synchronisation with the primary  | Near-instant (seconds to minutes) | Highest | Core banking systems, emergency services      |
 | Warm standby | A system with hardware provisioned and data periodically synchronised, but not running live | Minutes to hours                  | Medium  | E-commerce platforms, corporate email         |
 | Cold standby | An empty or minimally configured system that must be set up from scratch or from backups    | Hours to days                     | Lowest  | Archival systems, non-critical internal tools |
+
+</div>
 
 ## Software Deployment
 
@@ -599,16 +659,22 @@ The versioning system of a system is divided by:
 
 Semantic versioning (SemVer) uses a three-part version number in the format **major.minor.patch**:
 
+<div class="table-wrap">
+
 | Component | Incremented when                                              | Example                                                                       |
 | --------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | Major     | Breaking changes that are incompatible with previous versions | `2.0.0` when the API requires all clients to be updated                       |
 | Minor     | New features added in a backward-compatible way               | `1.5.0` when a new search filter is added without changing existing endpoints |
 | Patch     | Bug fixes that do not change functionality                    | `1.5.1` when a calculation error in the search filter is corrected            |
 
+</div>
+
 **Pre-release and build metadata**: Versions may include labels such as `1.0.0-alpha.1`
 `1.0.0-beta.2`Or `1.0.0-rc.1` to indicate pre-release versions.
 
 ### Continuous Delivery vs Continuous Deployment
+
+<div class="table-wrap">
 
 | Aspect             | Continuous delivery                                                                               | Continuous deployment                                                                 |
 | ------------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
@@ -616,6 +682,8 @@ Semantic versioning (SemVer) uses a three-part version number in the format **ma
 | Human intervention | Yes -- a person approves the deployment                                                           | No -- fully automated pipeline                                                        |
 | Risk               | Lower than continuous deployment; humans can catch issues automation misses                       | Higher; requires extremely thorough automated testing                                 |
 | Speed              | Slower; depends on approval process                                                               | Fastest; changes reach users as soon as they are ready                                |
+
+</div>
 
 ### Rollback Strategies
 
@@ -635,7 +703,7 @@ Stable state:
 ### Feature Flags
 
 Feature flags (also called feature toggles) allow developers to enable or disable features without
-Deploying new code:
+deploying new code:
 
 - **Use cases**:
 - Deploying code to production but keeping a new feature hidden until it is ready to launch
@@ -653,7 +721,7 @@ A hospital is planning to replace its paper-based patient records system with an
 Record (EHR) system.
 
 (a) Describe two feasibility types the hospital should assess before proceeding, providing a
-Specific example for each. [4 marks]
+specific example for each. [4 marks]
 
 (b) Explain why the hospital should conduct a training needs analysis before deploying the new
 System. [3 marks]
@@ -665,43 +733,43 @@ System. [3 marks]
 **Technical feasibility**: The hospital must assess whether its existing network infrastructure can
 Support the EHR system. For example, the system may require encrypted connections between wards and
 A central server, and the hospital must verify that its current network switches and cabling support
-The required bandwidth and security protocols.
+the required bandwidth and security protocols.
 
 **Operational feasibility**: The hospital must determine whether the new system can be maintained by
 Its IT staff. For example, the EHR system may require a dedicated database administrator and 24/7
-Support, which the hospital's current IT team of two staff members may not be able to provide
-Without additional hiring.
+support, which the hospital's current IT team of two staff members may not be able to provide
+without additional hiring.
 
 (b)
 
 A training needs analysis identifies the gap between staff's current skills and the skills required
-By the new EHR system. Without this analysis, the hospital risks deploying a system that doctors and
-Nurses cannot use effectively, which could lead to incorrect data entry, workflow disruptions, or
-Even patient safety incidents. The analysis ensures that training is targeted, efficient, and
-Appropriately resourced, covering only the skills that staff actually lack.
+by the new EHR system. Without this analysis, the hospital risks deploying a system that doctors and
+nurses cannot use effectively, which could lead to incorrect data entry, workflow disruptions, or
+even patient safety incidents. The analysis ensures that training is targeted, efficient, and
+appropriately resourced, covering only the skills that staff actually lack.
 
 </details>
 
 ### Question 2
 
 A school is migrating from a locally installed student management system to a cloud-based system
-Over the summer break. The IT coordinator has proposed a direct changeover on the first day of term.
+over the summer break. The IT coordinator has proposed a direct changeover on the first day of term.
 
 (a) Evaluate this changeover strategy. [4 marks]
 
 (b) Describe an alternative changeover strategy that would reduce risk, and explain why it is more
-Appropriate in this context. [4 marks]
+appropriate in this context. [4 marks]
 
 <details>
 
 (a)
 
 A direct changeover is the riskiest strategy because the old system is decommissioned immediately
-And the new system must work flawlessly from day one. If the cloud-based system experiences
+and the new system must work flawlessly from day one. If the cloud-based system experiences
 Downtime, has a data migration error, or if staff encounter usability issues, there is no fallback.
 In a school context, this could mean that attendance cannot be recorded, grades cannot be entered,
 And parent communications are disrupted, directly affecting educational operations. The only
-Advantage is that it avoids the cost and complexity of running two systems simultaneously.
+advantage is that it avoids the cost and complexity of running two systems simultaneously.
 
 (b)
 
@@ -734,15 +802,15 @@ Schema mapping is necessary because AlphaTech and BetaCorp use different databas
 Customer data. For example, AlphaTech may store a customer's full name in a single `FULL_NAME`
 Column, while BetaCorp stores it as `FIRST_NAME` and `LAST_NAME` in separate columns. Schema mapping
 Defines how each field in the source (AlphaTech and BetaCorp databases) corresponds to a field in
-The target (merged database), ensuring that no data is lost or misinterpreted during migration.
+the target (merged database), ensuring that no data is lost or misinterpreted during migration.
 
 (b)
 
 Data cleansing ensures the quality of the merged dataset. A specific example is **deduplication**:
 The same customer may exist in both databases with slight variations, such as "Jonathan Smith" in
 AlphaTech and "Jon Smith" in BetaCorp with the same email address. Data cleansing would identify
-These as the same person and merge them into a single record, preventing duplicate mailings and
-Confusion in customer service.
+these as the same person and merge them into a single record, preventing duplicate mailings and
+confusion in customer service.
 
 (c)
 
@@ -774,12 +842,16 @@ Form. [4 marks]
 
 (a)
 
+<div class="table-wrap">
+
 | Test value | Expected result | Reason                        |
 | ---------- | --------------- | ----------------------------- |
 | 17         | Rejected        | Just below the lower boundary |
 | 18         | Accepted        | At the lower boundary         |
 | 120        | Accepted        | At the upper boundary         |
 | 121        | Rejected        | Just above the upper boundary |
+
+</div>
 
 (b)
 
@@ -789,8 +861,8 @@ Format. Validation is performed by the system (e.g., the form rejects an age of 
 
 **Verification** checks whether the data entered matches the true source data. In this context,
 Verification ensures that the age the user entered is actually their real age. For example, a user
-Might enter "25" when they are actually 17. The system cannot verify this automatically; it may
-Require supporting documentation (e.g., a government ID) to be manually checked against the entered
+might enter "25" when they are actually 17. The system cannot verify this automatically; it may
+require supporting documentation (e.g., a government ID) to be manually checked against the entered
 Value.
 
 </details>
@@ -800,10 +872,10 @@ Value.
 A software company uses semantic versioning for its product. The current version is 2.3.1.
 
 (a) The development team fixes a bug that caused reports to display incorrect totals. What should
-The new version number be? Justify your answer. [2 marks]
+the new version number be? Justify your answer. [2 marks]
 
 (b) The team then adds a new feature allowing users to export reports as PDF files. What should the
-Version number be now? Justify your answer. [2 marks]
+version number be now? Justify your answer. [2 marks]
 
 (c) The team then restructures the entire database schema, making it incompatible with version 2.x.
 What should the version number be? Justify your answer. [2 marks]
@@ -827,25 +899,25 @@ Has been added without breaking existing functionality.
 
 **3.0.0** -- the major version is incremented because the database schema change is a breaking
 Change that is incompatible with version 2.x. Clients using version 2.x will not be able to use the
-New version without migration.
+new version without migration.
 
 (d)
 
 **Blue-green deployment**: The company maintains two identical production environments. The new
 Version is deployed to the inactive environment and thoroughly tested before traffic is switched. If
-The critical failure is detected after the switch, traffic is immediately routed back to the
-Original environment, providing near-instant recovery.
+the critical failure is detected after the switch, traffic is immediately routed back to the
+original environment, providing near-instant recovery.
 
 **Feature flags**: If the failure is caused by a specific feature, the feature flag controlling that
 Feature can be set to `false` without requiring a full rollback or redeployment. This disables the
-Problematic feature while keeping the rest of the system operational.
+problematic feature while keeping the rest of the system operational.
 
 </details>
 
 ### Question 6
 
 A logistics company stores all shipment data on a single server in its main office. The IT manager
-Has been asked to improve data loss prevention.
+has been asked to improve data loss prevention.
 
 (a) Explain the 3-2-1 backup rule and describe how it could be applied in this logistics company. [5
 Marks]
@@ -861,7 +933,7 @@ Shipments must be tracked within 30 minutes of any update. [4 marks]
 (a)
 
 The 3-2-1 rule requires: 3 copies of data (original plus two backups), stored on 2 different types
-Of storage media, with 1 copy kept off-site.
+of storage media, with 1 copy kept off-site.
 
 Application: The logistics company keeps the original shipment database on the main server (copy 1,
 On local SSD). A nightly backup is written to a NAS device in the office (copy 2, on HDD --
@@ -872,6 +944,8 @@ Survives.
 
 (b)
 
+<div class="table-wrap">
+
 | Aspect        | Hot standby                                                                                 | Warm standby                                                                                                            |
 | ------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Setup         | A duplicate server runs continuously, receiving real-time data replication from the primary | A server is provisioned with compatible hardware and software, but data is synchronised periodically (e.g., every hour) |
@@ -879,17 +953,19 @@ Survives.
 | Cost          | Highest -- requires a fully operational duplicate server running at all times               | Medium -- the standby server exists but does not consume resources until needed                                         |
 | Data currency | Fully up to date; no data loss                                                              | May lose data changes made since the last synchronisation                                                               |
 
+</div>
+
 (c)
 
 **RPO (Recovery Point Objective)**: The maximum acceptable amount of data loss, measured in time.
 For this logistics company, an RPO of 30 minutes would be appropriate, meaning at most 30 minutes of
-Shipment tracking updates could be lost in a disaster. This requires data to be backed up or
-Replicated at least every 30 minutes.
+shipment tracking updates could be lost in a disaster. This requires data to be backed up or
+replicated at least every 30 minutes.
 
 **RTO (Recovery Time Objective)**: The maximum acceptable downtime before the system must be
 Restored. For a logistics company that needs continuous shipment tracking, an RTO of 1 hour would be
-Appropriate, meaning the system must be back online within 1 hour of a failure. Achieving this RTO
-Would likely require a hot standby configuration.
+appropriate, meaning the system must be back online within 1 hour of a failure. Achieving this RTO
+would likely require a hot standby configuration.
 
 </details>
 
@@ -909,14 +985,7 @@ Would likely require a hot standby configuration.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

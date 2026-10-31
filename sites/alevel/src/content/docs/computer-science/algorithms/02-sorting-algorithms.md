@@ -22,12 +22,12 @@ categories:
 
 ## 1. Introduction
 
-**The Sorting Problem:** Given an array $A[0..n-1]$Rearrange the elements into non-decreasing Order:
+**The Sorting Problem:** Given an array $A[0..n-1]$ Rearrange the elements into non-decreasing Order:
 $A[0] \leq A[1] \leq \cdots \leq A[n-1]$.
 
 **Stability:** A sort is **stable** if elements with equal keys maintain their relative order from
 The input. Stability matters when sorting by multiple keys (e.g., sort by surname, then by first
-Name).
+name).
 
 **In-place:** A sort is **in-place** if it uses $O(1)$ extra memory (excluding the input array).
 
@@ -62,10 +62,10 @@ Positions at the end of the array.
 **Proof.** By induction on $i$.
 
 _Base case ($i = 0$)._ The inner loop compares each adjacent pair from index 0 to $n-2$. Whenever
-$A[j] \gt A[j+1]$They are swapped. This ensures the maximum element moves rightward through Every
+$A[j] \gt A[j+1]$ They are swapped. This ensures the maximum element moves rightward through Every
 comparison until it reaches index $n-1$. ✓
 
-_Inductive step._ Assume after pass $i-1$The $i$ largest elements are at indices $n-i, \ldots, n-1$.
+_Inductive step._ Assume after pass $i-1$ The $i$ largest elements are at indices $n-i, \ldots, n-1$.
 Pass $i$ operates on indices $0$ to $n-i-1$. By the same argument, the maximum Element in this range
 moves to index $n-i-1$. The $i+1$ largest elements are now at indices $n-i-1, \ldots, n-1$. ✓
 
@@ -82,7 +82,9 @@ After $n-1$ passes, all elements are sorted. $\square$
 **Proof of worst case.** In reverse order, each pass performs $n - 1 - i$ swaps for pass $i$. Total
 Comparisons:
 
-$$\sum_{i=0}^{n-2}(n - 1 - i) = \sum_{k=1}^{n-1} k = \frac{n(n-1)}{2} = O(n^2)$$
+$$
+\sum_{i=0}^{n-2}(n - 1 - i) = \sum_{k=1}^{n-1} k = \frac{n(n-1)}{2} = O(n^2)
+$$
 
 $\square$
 
@@ -93,7 +95,7 @@ $\square$
 ### Algorithm
 
 Build the sorted array one element at a time by inserting each element into its correct position
-Among the previously sorted elements.
+among the previously sorted elements.
 
 ```python
 def insertion_sort(A):
@@ -114,13 +116,13 @@ is sorted.
 
 **Proof.** By induction on $i$.
 
-_Base case ($i = 1$)._ $A[0..1]$ contains at most 2 elements. If $A[0] \gt A[1]$They are Swapped;
+_Base case ($i = 1$)._ $A[0..1]$ contains at most 2 elements. If $A[0] \gt A[1]$ They are Swapped;
 otherwise, no change. Either way, $A[0..1]$ is sorted. ✓
 
 _Inductive step._ Assume $A[0..i-1]$ is sorted. We insert $A[i]$ (stored as `key`) by shifting
 Elements greater than `key` one position right. Since $A[0..i-1]$ is sorted, all elements greater
-Than `key` form a contiguous suffix. After shifting, `key` is placed at the first position where the
-Element to its left is $\leq$ `key`. The resulting $A[0..i]$ is sorted. ✓
+than `key` form a contiguous suffix. After shifting, `key` is placed at the first position where the
+element to its left is $\leq$ `key`. The resulting $A[0..i]$ is sorted. ✓
 
 $\square$
 
@@ -135,7 +137,9 @@ $\square$
 **Proof of average case.** On average, each insertion shifts approximately half of the sorted
 Portion:
 
-$$T(n) = \sum_{i=1}^{n-1} \frac{i}{2} = \frac{1}{2}\sum_{i=1}^{n-1} i = \frac{1}{2} \cdot \frac{n(n-1)}{2} = \frac{n(n-1)}{4} = O(n^2)$$
+$$
+T(n) = \sum_{i=1}^{n-1} \frac{i}{2} = \frac{1}{2}\sum_{i=1}^{n-1} i = \frac{1}{2} \cdot \frac{n(n-1)}{2} = \frac{n(n-1)}{4} = O(n^2)
+$$
 
 $\square$
 
@@ -196,14 +200,18 @@ The result is a sorted permutation of the input. ✓ $\square$
 
 **Proof.** The recurrence relation is:
 
-$$T(n) = 2T(n/2) + O(n), \quad T(1) = O(1)$$
+$$
+T(n) = 2T(n/2) + O(n), \quad T(1) = O(1)
+$$
 
 The $O(n)$ term comes from the `merge` step, which processes each element exactly once.
 
 By the Master Theorem: $a = 2$, $b = 2$, $f(n) = O(n)$. We have
-$f(n) = O(n^{\log_b a}) = O(n^1) = O(n)$Which is case 2. Therefore:
+$f(n) = O(n^{\log_b a}) = O(n^1) = O(n)$ Which is case 2. Therefore:
 
-$$T(n) = O(n \log n)$$
+$$
+T(n) = O(n \log n)
+$$
 
 **Space:** $O(n)$, the merge step requires a temporary array. **Stable:** Yes (merge uses `<=`).
 
@@ -239,7 +247,7 @@ def partition(A, low, high):
 
 ### Correctness Proof
 
-**Theorem.** After `partition(A, low, high)`The pivot is at its final sorted position, all Elements
+**Theorem.** After `partition(A, low, high)`. The pivot is at its final sorted position, all Elements
 to its left are $\lt $ pivot, and all elements to its right are $\geq$ pivot.
 
 **Proof.** The variable `i` tracks the boundary between elements
@@ -251,8 +259,8 @@ _At the start of each iteration with index `j`:_
 - $A[i+1..j-1]$ contains only elements $\geq$ pivot
 - $A[\mathrm{high}] = \mathrm{pivot}$ (unchanged)
 
-_Maintenance._ If $A[j] \lt \mathrm{pivot}$Increment $i$ and swap $A[i]$ with $A[j]$Extending The
-"$\lt $ pivot" region. If $A[j] \geq \mathrm{pivot}$Increment $j$ only, extending the "$\geq$ pivot"
+_Maintenance._ If $A[j] \lt \mathrm{pivot}$ Increment $i$ and swap $A[i]$ with $A[j]$ Extending The
+"$\lt $ pivot" region. If $A[j] \geq \mathrm{pivot}$ Increment $j$ only, extending the "$\geq$ pivot"
 region.
 
 _Termination._ After the loop, swap $A[i+1]$ with $A[\mathrm{high}]$ (the pivot). Now:
@@ -265,11 +273,15 @@ $\square$
 
 ### Complexity
 
+<div class="table-wrap">
+
 | Case    | Time          | Pivot choice     |
 | ------- | ------------- | ---------------- |
 | Best    | $O(n \log n)$ | Median           |
 | Average | $O(n \log n)$ | Random           |
 | Worst   | $O(n^2)$      | Min/max (sorted) |
+
+</div>
 
 **Space:** $O(\log n)$ average (recursion stack), $O(n)$ worst. **Stable:** No (partitioning swaps
 Can change relative order).
@@ -277,7 +289,9 @@ Can change relative order).
 **Proof of worst case.** If the pivot is always the smallest or largest element, one partition has
 Size 0 and the other has size $n-1$:
 
-$$T(n) = T(n-1) + O(n) = \sum_{k=1}^{n} O(k) = O(n^2)$$
+$$
+T(n) = T(n-1) + O(n) = \sum_{k=1}^{n} O(k) = O(n^2)
+$$
 
 **Proof of average case.** With random pivot selection, the expected partition size is roughly
 $n/2$. The recurrence is $T(n) = T(n/2) + O(n)$ on average, giving $T(n) = O(n \log n)$ by the
@@ -287,6 +301,8 @@ Master Theorem.
 
 ## 6. Comparison Table
 
+<div class="table-wrap">
+
 | Algorithm      | Best          | Average       | Worst         | Space       | Stable |
 | -------------- | ------------- | ------------- | ------------- | ----------- | ------ |
 | Bubble Sort    | $O(n)$        | $O(n^2)$      | $O(n^2)$      | $O(1)$      | Yes    |
@@ -294,6 +310,8 @@ Master Theorem.
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$      | Yes    |
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | $O(\log n)$ | No     |
 | Heap Sort      | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(1)$      | No     |
+
+</div>
 
 <hr />
 
@@ -304,20 +322,24 @@ Worst case.
 
 **Proof.** A comparison-based sorting algorithm can be modelled as a **decision tree**. Each
 Internal node represents a comparison (e.g., "$A[i] \leq A[j]$?"), and each leaf represents a
-Permutation of the input (a possible output).
+permutation of the input (a possible output).
 
 There are $n!$ possible permutations of $n$ elements, so the decision tree has at least $n!$ leaves.
 
 A binary tree of height $h$ has at most $2^h$ leaves, so:
 
-$$2^h \geq n! \implies h \geq \log_2(n!)$$
+$$
+2^h \geq n! \implies h \geq \log_2(n!)
+$$
 
-Using Stirling"s approximation: $n! \approx \left(\frac{n}{e}\right)^n \sqrt{2\pi n}$
+Using Stirling's approximation: $n! \approx \left(\frac{n}{e}\right)^n \sqrt{2\pi n}$
 
-$$\log_2(n!) = n\log_2 n - n\log_2 e + O(\log n) = \Omega(n \log n)$$
+$$
+\log_2(n!) = n\log_2 n - n\log_2 e + O(\log n) = \Omega(n \log n)
+$$
 
 Therefore, any comparison-based sorting algorithm requires at least $\Omega(n \log n)$ comparisons
-In the worst case. $\square$
+in the worst case. $\square$
 
 :::note
 sort, counting Sort) can beat $O(n \log n)$ but have restrictions on key types.
@@ -348,12 +370,16 @@ Insertion.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | i   | key | Array state                |
 | --- | --- | -------------------------- |
 | 1   | 1   | [1, 5, 4, 2, 8]            |
 | 2   | 4   | [1, 4, 5, 2, 8]            |
 | 3   | 2   | [1, 2, 4, 5, 8]            |
 | 4   | 8   | [1, 2, 4, 5, 8] (no shift) |
+
+</div>
 
 Sorted: `[1, 2, 4, 5, 8]`
 
@@ -364,6 +390,8 @@ Sorted: `[1, 2, 4, 5, 8]`
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Step | L remaining | R remaining  | Output           |
 | ---- | ----------- | ------------ | ---------------- |
 | 1    | [1, 3, 5]   | [2, 4, 6, 8] | 1 < 2 → output 1 |
@@ -372,6 +400,8 @@ Sorted: `[1, 2, 4, 5, 8]`
 | 4    | [5]         | [4, 6, 8]    | 5 > 4 → output 4 |
 | 5    | [5]         | [6, 8]       | 5 < 6 → output 5 |
 | 6    | []          | [6, 8]       | append [6, 8]    |
+
+</div>
 
 Result: `[1, 2, 3, 4, 5, 6, 8]`
 
@@ -404,8 +434,8 @@ Final: `[1, 1, 2, 3, 6, 8, 10]`
 <summary>Answer</summary>
 
 Insertion sort inserts $A[i]$ into the sorted portion $A[0..i-1]$ by shifting elements $\gt A[i]$
-One position right. The condition for shifting is `A[j] > key` (strictly greater). If
-$A[j] = \mathrm{key}$The element is **not** shifted, and `key` is placed **after** the equal
+one position right. The condition for shifting is `A[j] > key` (strictly greater). If
+$A[j] = \mathrm{key}$ The element is **not** shifted, and `key` is placed **after** the equal
 Element. Therefore, equal elements maintain their relative input order. $\square$
 
 </details>
@@ -417,10 +447,10 @@ This possible? Justify using the decision tree model.
 <summary>Answer</summary>
 
 A decision tree for sorting 5 elements must have at least $5! = 120$ leaves. A binary tree of height
-7 has at most $2^8 - 1 = 255$ nodes and at most $2^7 = 128$ leaves. Since $128 \geq 120$It is
-Theoretically possible to sort 5 elements in 7 comparisons. However, this requires a perfectly
+7 has at most $2^8 - 1 = 255$ nodes and at most $2^7 = 128$ leaves. Since $128 \geq 120$ It is
+theoretically possible to sort 5 elements in 7 comparisons. However, this requires a perfectly
 Balanced decision tree (each comparison splits the remaining possibilities roughly in half), which
-Is achievable by an optimal comparison-based sorting algorithm.
+is achievable by an optimal comparison-based sorting algorithm.
 
 Note: $2^6 = 64 \lt 120$ So 6 comparisons are insufficient. The minimum is
 $\lceil \log_2 120 \rceil = 7$ comparisons.
@@ -473,7 +503,7 @@ Master Theorem: $a = 2$, $b = 2$, $f(n) = cn$.
 
 $n^{\log_b a} = n^{\log_2 2} = n^1 = n$.
 
-$f(n) = cn = O(n^1)$Which is case 2: $f(n) = \Theta(n^{\log_b a} \log^k n)$ with $k = 0$.
+$f(n) = cn = O(n^1)$ Which is case 2: $f(n) = \Theta(n^{\log_b a} \log^k n)$ with $k = 0$.
 
 Therefore: $T(n) = \Theta(n \log n)$.
 
@@ -501,7 +531,7 @@ $O(n \log n)$ time.
 <summary>Answer</summary>
 
 During the merge step, when an element from the right half is placed before elements remaining in
-The left half, each remaining left element forms an inversion with this right element.
+the left half, each remaining left element forms an inversion with this right element.
 
 ```python
 def merge_count(L, R):
@@ -520,8 +550,8 @@ def merge_count(L, R):
     return result, inversions
 ```
 
-When $R[j] \lt L[i]$All elements $L[i], L[i+1], \ldots$ in the left half are greater than
-$R[j]$Contributing `len(L) - i` inversions.
+When $R[j] \lt L[i]$ All elements $L[i], L[i+1], \ldots$ in the left half are greater than
+$R[j]$ Contributing `len(L) - i` inversions.
 
 Total inversions = sum of inversions from all merge steps. Total time: $O(n \log n)$.
 
@@ -534,7 +564,7 @@ And state their limitations.
 <summary>Answer</summary>
 
 Counting sort does not compare elements. Instead, it counts the frequency of each distinct key value
-And uses these counts to determine positions. If the key values are integers in the range $[0, k]$
+and uses these counts to determine positions. If the key values are integers in the range $[0, k]$
 Counting sort runs in $O(n + k)$ time.
 
 **Limitations:**
@@ -577,23 +607,7 @@ For revision on data structures used in sorting, see
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[02 Sorting Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

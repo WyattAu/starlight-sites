@@ -317,12 +317,16 @@ enormous human cost: millions died in famines, purges, and forced labour.
 
 ### 4.1 Ideological Similarities and Differences
 
+<div class="table-wrap">
+
 | Feature         | Nazi Germany                          | Fascist Italy                   | Stalinist USSR                     |
 | --------------- | ------------------------------------- | ------------------------------- | ---------------------------------- |
 | Ideology        | Racial nationalism, anti-Semitism     | Nationalism, corporatism        | Marxism-Leninism, class struggle   |
 | Economic model  | State-directed capitalism, rearmament | Corporatism, state intervention | Central planning, collectivisation |
 | Role of leader  | Fuhrerprinzip (leader principle)      | Cult of Il Duce                 | Cult of personality                |
 | Use of violence | SS, Gestapo, concentration camps      | Blackshirts, OVRA, confinement  | NKVD, Gulag, show trials           |
+
+</div>
 
 ### 4.2 Methods of Control
 
@@ -430,17 +434,6 @@ All three regimes used remarkably similar methods:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Authoritarian States] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Authoritarian regimes are not monolithic. They emerge from specific historical conditions, economic crises, and political failures. The common thread is that each regime promised national renewal through a charismatic leader who claimed to embody the will of the people. Once in power, they used terror, propaganda, and institutional control to eliminate alternatives. Understanding authoritarianism requires examining not just the leader but the society that enabled their rise.
@@ -456,9 +449,6 @@ differed profoundly. Understanding these similarities and differences, and the h
 debates surrounding them, is essential for constructing high-scoring comparative essays.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

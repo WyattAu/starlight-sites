@@ -44,15 +44,19 @@ For grouped data, use linear interpolation within the median class.
 ### Mode
 
 The **mode** is the most frequently occurring value. A data set can be unimodal, bimodal, or have no
-Mode.
+mode.
 
 ### Comparing Measures
+
+<div class="table-wrap">
 
 | Measure | Advantages                                 | Disadvantages              |
 | ------- | ------------------------------------------ | -------------------------- |
 | Mean    | Uses all data points, algebraic properties | Affected by outliers       |
 | Median  | Robust to outliers                         | Does not use all data      |
 | Mode    | Simple, useful for categorical data        | May not exist or be unique |
+
+</div>
 
 :::note[Example]
 Find the mean, median, and mode of: $3, 5, 5, 7, 8, 9, 12, 15, 45$.
@@ -188,6 +192,8 @@ Where:
 :::
 
 :::note[Example]
+<div class="table-wrap">
+
 | Mass (g)           | Frequency |
 | ------------------ | --------- |
 | $0 \le m \lt 20$   | 5         |
@@ -195,6 +201,8 @@ Where:
 | $40 \le m \lt 60$  | 18        |
 | $60 \le m \lt 80$  | 10        |
 | $80 \le m \lt 100$ | 5         |
+
+</div>
 
 Total $n = 50$. Median position $= \dfrac{50}{2} = 25$.
 
@@ -242,8 +250,8 @@ $$
 - The **box** represents the middle 50% of data (IQR).
 - The **line inside** the box is the median.
 - **Whiskers** extend to the minimum and maximum (or to the most extreme non-outlier values).
-- **Skewness**: if the median is closer to $Q_1$The data is right-skewed (positively skewed). If
-  closer to $Q_3$Left-skewed (negatively skewed).
+- **Skewness**: if the median is closer to $Q_1$ The data is right-skewed (positively skewed). If
+  closer to $Q_3$ Left-skewed (negatively skewed).
 
 ---
 
@@ -270,6 +278,8 @@ Plot cumulative frequency against the upper class boundary. From this graph, you
 :::note[Example]
 Using the grouped data from the previous example:
 
+<div class="table-wrap">
+
 | Upper boundary | Cumulative frequency |
 | -------------- | -------------------- |
 | 20             | 5                    |
@@ -277,6 +287,8 @@ Using the grouped data from the previous example:
 | 60             | 35                   |
 | 80             | 45                   |
 | 100            | 50                   |
+
+</div>
 
 To find $Q_1$ (at $12.5$): interpolate between $(20, 5)$ and $(40, 17)$.
 
@@ -301,7 +313,7 @@ $$
 
 A scatter diagram plots two variables to visually assess the relationship between them.
 
-### Pearson"s Correlation Coefficient ($r$)
+### Pearson's Correlation Coefficient ($r$)
 
 Measures the strength and direction of the linear relationship between two variables.
 
@@ -311,6 +323,8 @@ $$
 
 ### Properties of $r$
 
+<div class="table-wrap">
+
 | Value            | Interpretation                      |
 | ---------------- | ----------------------------------- |
 | $r = 1$          | Perfect positive linear correlation |
@@ -319,13 +333,19 @@ $$
 | $0 \lt r \lt 1$  | Positive linear correlation         |
 | $-1 \lt r \lt 0$ | Negative linear correlation         |
 
+</div>
+
 ### Strength Guidelines
 
+<div class="table-wrap">
+
 | $            | r        | $   | Strength |
-| ------------ | -------- | --- | -------- |
-| $0.0$--$0.3$ | Weak     |     |          |
+| ------------ | -------- |
+| $0.0$--$0.3$ | Weak |
 | $0.3$--$0.7$ | Moderate |     |          |
-| $0.7$--$1.0$ | Strong   |     |          |
+| $0.7$--$1.0$ | Strong |
+
+</div>
 
 ### Computational Formula
 
@@ -336,7 +356,7 @@ $$
 
 :::caution[Exam Tip]
 Correlation does NOT imply causation. Two variables may be strongly correlated without one causing
-The other (they may both be influenced by a third variable).
+the other (they may both be influenced by a third variable).
 
 ---
 
@@ -396,9 +416,13 @@ $r^2$ represents the proportion of variance in $y$ explained by the linear relat
 :::note[Example]
 Given the data:
 
+<div class="table-wrap">
+
 | $x$ | 1   | 2   | 3   | 4   | 5    |
 | --- | --- | --- | --- | --- | ---- |
 | $y$ | 2.1 | 3.9 | 6.2 | 7.8 | 10.1 |
+
+</div>
 
 Find the regression line of $y$ on $x$.
 
@@ -464,18 +488,26 @@ Often ask you to comment on the reliability of a prediction.
 
 ### Types of Errors
 
+<div class="table-wrap">
+
 | Error Type | Description                                                                       |
 | ---------- | --------------------------------------------------------------------------------- |
 | Type I     | Rejecting $H_0$ when it is true (false positive). Probability $= \alpha$.         |
 | Type II    | Failing to reject $H_0$ when it is false (false negative). Probability $= \beta$. |
 
+</div>
+
 ### One-Tailed vs Two-Tailed Tests
+
+<div class="table-wrap">
 
 | Test         | $H_1$                  | Rejection Region |
 | ------------ | ---------------------- | ---------------- |
 | Two-tailed   | Parameter $\neq$ value | Both tails       |
 | Right-tailed | Parameter $\gt$ value  | Upper tail       |
 | Left-tailed  | Parameter $\lt$ value  | Lower tail       |
+
+</div>
 
 ### Hypothesis Test for Correlation
 
@@ -503,7 +535,7 @@ $H_0: \rho = 0$ vs $H_1: \rho \gt 0$.
 
 This is a one-tailed test. The critical value for $n = 12$ at 5% level is approximately $0.497$.
 
-Since $r = 0.85 \gt 0.497$We reject $H_0$.
+Since $r = 0.85 \gt 0.497$ We reject $H_0$.
 
 There is sufficient evidence at the 5% level to conclude a positive correlation between hours
 Studied and exam score.
@@ -523,7 +555,7 @@ Where $O_i$ are observed frequencies and $E_i$ are expected frequencies.
 **Expected frequency**:
 
 $$
-E_`\{ij}` = \frac{(\mathrm{row } i \mathrm{ total}) \times (\mathrm{column } j \mathrm{ total})}{\mathrm{grand total}}
+E_{ij} = \frac{(\mathrm{row } i \mathrm{ total}) \times (\mathrm{column } j \mathrm{ total})}{\mathrm{grand total}}
 $$
 
 **Degrees of freedom**: $\nu = (r-1)(c-1)$ where $r$ is the number of rows and $c$ is the number of
@@ -533,11 +565,15 @@ Columns.
 :::note[Example]
 Test whether gender and favourite subject are independent:
 
+<div class="table-wrap">
+
 |        | Maths | Science | English | Total |
 | ------ | ----- | ------- | ------- | ----- |
 | Male   | 30    | 25      | 15      | 70    |
 | Female | 20    | 20      | 40      | 80    |
 | Total  | 50    | 45      | 55      | 150   |
+
+</div>
 
 Expected frequencies:
 
@@ -565,12 +601,12 @@ Degrees of freedom: $(2-1)(3-1) = 2$.
 
 Critical value at $\alpha = 0.05$ with $\nu = 2$: $5.99$.
 
-Since $13.33 \gt 5.99$We reject $H_0$. Gender and favourite subject are not independent.
+Since $13.33 \gt 5.99$ We reject $H_0$. Gender and favourite subject are not independent.
 :::
 
 :::caution[Exam Tip]
 For the chi-squared test, always check that all expected frequencies are at least 5. If any
-$E_i \lt 5$Combine categories or note the limitation.
+$E_i \lt 5$ Combine categories or note the limitation.
 
 ---
 
@@ -589,6 +625,8 @@ $E_i \lt 5$Combine categories or note the limitation.
 
 The marks of 8 students in Maths and Physics are:
 
+<div class="table-wrap">
+
 | Student | Maths ($x$) | Physics ($y$) |
 | ------- | ----------- | ------------- |
 | `A`     | 72          | 68            |
@@ -599,6 +637,8 @@ The marks of 8 students in Maths and Physics are:
 | `F`     | 65          | 70            |
 | `G`     | 88          | 85            |
 | `H`     | 76          | 72            |
+
+</div>
 
 **(a)** Calculate Pearson's correlation coefficient.
 
@@ -658,7 +698,7 @@ Degrees of freedom $= 24$.
 
 Critical value (two-tailed, 5%) $\approx 2.064$.
 
-Since $|1.875| \lt 2.064$We do not reject $H_0$.
+Since $|1.875| \lt 2.064$ We do not reject $H_0$.
 
 There is insufficient evidence at the 5% level to reject the claim that the mean height is
 $170\mathrm{ cm}$.
@@ -674,17 +714,9 @@ $170\mathrm{ cm}$.
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[2_Statistics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
+
+<div class="table-wrap">
 
 | Concept          | Formula                                                                                                         |
 | ---------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -694,6 +726,8 @@ flowchart TD
 | Correlation      | $r = \dfrac{n\sum x_iy_i - \sum x_i \sum y_i}{\sqrt{[n\sum x_i^2 - (\sum x_i)^2][n\sum y_i^2 - (\sum y_i)^2]}}$ |
 | Regression slope | $b = \dfrac{n\sum x_iy_i - \sum x_i \sum y_i}{n\sum x_i^2 - (\sum x_i)^2}$                                      |
 | Chi-squared      | $\chi^2 = \displaystyle\sum \dfrac{(O_i - E_i)^2}{E_i}$                                                         |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
@@ -719,14 +753,18 @@ means.
 
 If every data value is transformed by $y_i = ax_i + b$:
 
+<div class="table-wrap">
+
 | Statistic               | Original    | Transformed                                      |
-| ----------------------- | ----------- | ------------------------------------------------ | --- | ------------ |
-| Mean                    | $\bar{x}$   | $a\bar{x} + b$                                   |     |              |
-| Standard deviation      | $s_x$       | $                                                | a   | s_x$         |
-| Variance                | $s_x^2$     | $a^2 s_x^2$                                      |     |              |
+| ----------------------- | ----------- | ------------------------------------------------ |
+| Mean | $\bar{x}$ | $a\bar{x} + b$ |
+| Standard deviation      | $s_x$       | $                                                \| a   \| s_x$         |
+| Variance | $s_x^2$ | $a^2 s_x^2$ |
 | Median                  | $Q_2$       | $aQ_2 + b$                                       |     |              |
-| IQR                     | $Q_3 - Q_1$ | $                                                | a   | (Q_3 - Q_1)$ |
-| Correlation coefficient | $r$         | $r$ (unchanged if $a \gt 0$Negated if $a \lt 0$) |     |              |
+| IQR                     | $Q_3 - Q_1$ | $                                                \| a   \| (Q_3 - Q_1)$ |
+| Correlation coefficient | $r$ | $r$ (unchanged if $a \gt 0$ Negated if $a \lt 0$) |
+
+</div>
 
 ### Standardised Scores (z-scores)
 
@@ -763,12 +801,16 @@ The student scored 2 standard deviations above the mean.
 
 When data shows a non-linear pattern, transform the variables to linearise:
 
+<div class="table-wrap">
+
 | Relationship          | Transformation                        | Linear Form               |
 | --------------------- | ------------------------------------- | ------------------------- |
 | $y = a x^b$           | $\log y = \log a + b \log x$          | Plot $\log y$ vs $\log x$ |
 | $y = a e^{bx}$        | $\ln y = \ln a + bx$                  | Plot $\ln y$ vs $x$       |
 | $y = a + b\ln x$      | $y = a + b\ln x$                      | Plot $y$ vs $\ln x$       |
 | $y = \frac{a}{x} + b$ | $y = a\!\left(\frac{1}{x}\right) + b$ | Plot $y$ vs $1/x$         |
+
+</div>
 
 ### Power Law
 
@@ -787,7 +829,7 @@ If $\ln y$ vs $x$ gives a straight line, then $y = ae^{bx}$ where:
 
 :::note[Example]
 Data suggests $y$ is related to $x$ by $y = ax^b$. A plot of $\log y$ vs $\log x$ has gradient $1.5$
-And $y$-intercept $0.7$. Find the relationship.
+and $y$-intercept $0.7$. Find the relationship.
 
 $$
 B = 1.5, \quad \log a = 0.7 \implies a = 10^{0.7} \approx 5.01
@@ -831,24 +873,32 @@ B. Group A's scores are more tightly clustered around the mean.
 
 ### Question 5 (Paper 2 style)
 
-A scientist investigates the relationship between temperature ($x$In $\degree$C) and reaction rate
-($y$In mol/L/s). The following data was collected:
+A scientist investigates the relationship between temperature ($x$ In $\degree$ C) and reaction rate
+($y$ In mol/L/s). The following data was collected:
+
+<div class="table-wrap">
 
 | $x$ | 10  | 20  | 30  | 40  | 50   | 60   |
 | --- | --- | --- | --- | --- | ---- | ---- |
 | $y$ | 0.4 | 1.1 | 2.5 | 5.2 | 10.8 | 22.0 |
 
+</div>
+
 **(a)** Explain why a linear regression model may not be appropriate.
 
 The data appears to show exponential growth, as temperature increases, the rate increases by an
-Increasing amount. A plot of $y$ vs $x$ would show a curve, not a straight line.
+increasing amount. A plot of $y$ vs $x$ would show a curve, not a straight line.
 
-**(b)** By plotting $\ln y$ against $x$Determine whether the relationship is of the form
+**(b)** By plotting $\ln y$ against $x$ Determine whether the relationship is of the form
 $y = ae^{bx}$.
+
+<div class="table-wrap">
 
 | $x$     | 10       | 20      | 30      | 40      | 50      | 60      |
 | ------- | -------- | ------- | ------- | ------- | ------- | ------- |
 | $\ln y$ | $-0.916$ | $0.095$ | $0.916$ | $1.649$ | $2.380$ | $3.091$ |
+
+</div>
 
 A plot of $\ln y$ vs $x$ would show an approximately linear relationship with a positive gradient,
 Confirming the exponential model is appropriate.
@@ -874,8 +924,8 @@ Hours.
 
 **(b)** The $p$-value for testing $H_0: \rho = 0$ is $0.0001$. What conclusion can be drawn?
 
-Since $p = 0.0001 \lt 0.05$We reject $H_0$. There is strong evidence of a positive correlation
-Between study hours and exam scores.
+Since $p = 0.0001 \lt 0.05$ We reject $H_0$. There is strong evidence of a positive correlation
+between study hours and exam scores.
 
 ---
 
@@ -894,11 +944,15 @@ Between study hours and exam scores.
 
 Skewness measures the asymmetry of the distribution.
 
+<div class="table-wrap">
+
 | Type                  | Description            | Mean vs Median    |
 | --------------------- | ---------------------- | ----------------- |
 | Positive (right) skew | Long tail to the right | Mean $\gt$ Median |
 | Negative (left) skew  | Long tail to the left  | Mean $\lt$ Median |
 | Symmetric             | No skew                | Mean = Median     |
+
+</div>
 
 The **Pearson coefficient of skewness**:
 
@@ -910,11 +964,15 @@ $$
 
 Kurtosis measures the "tailedness" of the distribution compared to a normal distribution.
 
+<div class="table-wrap">
+
 | Type        | Description                                |
 | ----------- | ------------------------------------------ |
 | Leptokurtic | Heavy tails, sharp peak (kurtosis $\gt 3$) |
 | Mesokurtic  | Same as normal (kurtosis $= 3$)            |
 | Platykurtic | Light tails, flat peak (kurtosis $\lt 3$)  |
+
+</div>
 
 ---
 
@@ -978,6 +1036,8 @@ A score of 82.26 is at the 90th percentile.
 
 ### Types of Data
 
+<div class="table-wrap">
+
 | Type                      | Description          | Examples                         |
 | ------------------------- | -------------------- | -------------------------------- |
 | Qualitative (categorical) | Labels or names      | Colour, gender, nationality      |
@@ -985,7 +1045,11 @@ A score of 82.26 is at the 90th percentile.
 | Discrete                  | Integer values       | Number of siblings, goals scored |
 | Continuous                | Any value in a range | Height, time, mass               |
 
+</div>
+
 ### Sampling Methods
+
+<div class="table-wrap">
 
 | Method        | Description                    | Advantages             | Disadvantages                   |
 | ------------- | ------------------------------ | ---------------------- | ------------------------------- |
@@ -994,6 +1058,8 @@ A score of 82.26 is at the 90th percentile.
 | Stratified    | Population divided into strata | Ensures representation | Complex to organise             |
 | Quota         | Fixed numbers from each group  | Quick                  | Not random                      |
 | Convenience   | accessible members             | Easy                   | Likely biased                   |
+
+</div>
 
 ### Reliability and Validity
 
@@ -1039,10 +1105,14 @@ Statistics is the science of making decisions under uncertainty. The mean tells 
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic        | Site | Link                                                                                   |
 | ------------ | ---- | -------------------------------------------------------------------------------------- |
-| [Statistics] | IB   | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/2_statistics) |
-| [Statistics] | DSE  | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/12_dispersion)                |
+| [Statistics] | IB   | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics/) |
+| [Statistics] | DSE  | [View](https://dse.wyattau.com/maths/compulsory/12_dispersion/)                |
+
+</div>
 
 ## Worked Examples
 

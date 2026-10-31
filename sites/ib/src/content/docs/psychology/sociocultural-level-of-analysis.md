@@ -29,7 +29,7 @@ levels and the CLOA through hostile attribution bias, the SCLOA asks how cultura
 roles, and intergroup dynamics make aggression more or less likely in a given context. Social
 identity theory, for example, explains prejudice as a consequence of group categorisation -- a
 cognitive process (in-group/ out-group distinction) operating within a social structure (cultural
-narratives, power relations). Cross-cultural research in the SCLOA (e.g., Hofstede"s dimensions,
+narratives, power relations). Cross-cultural research in the SCLOA (e.g., Hofstede's dimensions,
 Berry's acculturation studies) demonstrates that cognitive processes identified in Western, educated
 populations cannot be assumed to be universal, making this level essential for evaluating the
 generalisability of BLOA and CLOA findings.
@@ -164,6 +164,8 @@ variables:
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Researcher (Year)         | Focus                         | Key Finding                                                                                                                                                                                 |
 | ------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Tajfel et al. (1971)      | Social identity theory        | Arbitrarily assigned group membership was sufficient to produce in-group favouritism, demonstrating that mere categorisation triggers intergroup bias.                                      |
@@ -172,16 +174,7 @@ variables:
 | Steele and Aronson (1995) | Stereotype threat             | African American students underperformed on a diagnostic test when their race was made salient, demonstrating that awareness of negative stereotypes can impair performance.                |
 | Miller (1984)             | Cultural attributional styles | Indian participants attributed behaviour more to situational factors while American participants favoured dispositional attributions, demonstrating cultural variation in attribution bias. |
 
-
-```mermaid
-flowchart TD
-    A[Sociocultural Level Of Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Summary
 
@@ -196,11 +189,15 @@ perspectives.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                        | Link                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------- |
 | Social Identity Theory       | [View](/psychology/sociocultural/social-identity-theory/)        |
 | Cultural Norms and Attitudes | [View](/psychology/sociocultural/cultural-norms-and-attritudes/) |
 | Prejudice and Discrimination | [View](/psychology/sociocultural/prejudice-and-discrimination/)  |
+
+</div>
 
 ## Intuition
 

@@ -57,7 +57,7 @@ std::memcpy(&i3, &f, sizeof(float));
 ### The C++20 Solution: `std::bit_cast`
 
 `std::bit_cast` is the only mechanism that allows reinterpreting bits between types of the same size
-That is safe, portable, and `constexpr` (computable at compile time).
+that is safe, portable, and `constexpr` (computable at compile time).
 
 ```cpp
 #include <bit>
@@ -110,9 +110,9 @@ struct NonTrivial \{
 
 When punning between types that have different internal padding, `std::bit_cast` preserves the
 Entire bit pattern including padding. This means that padding bits in the destination type are set
-To whatever bits occupy those positions in the source representation. Reading padding bits is
+to whatever bits occupy those positions in the source representation. Reading padding bits is
 Technically UB in C++ [N4950 §6.9], but `std::bit_cast` itself is well-defined because it operates
-On the object representation, not the value representation.
+on the object representation, not the value representation.
 
 ```cpp
 #include <bit>
@@ -148,6 +148,8 @@ The `<bit>` header standardizes these operations.
 
 ### Key Primitives
 
+<div class="table-wrap">
+
 | Function                  | Description                                | x86_64 Instruction | ARM64 Instruction |
 | :------------------------ | :----------------------------------------- | :----------------- | :---------------- |
 | **`std::popcount`**       | Counts number of set bits (1s).            | `POPCNT`           | `CNT`             |
@@ -155,6 +157,8 @@ The `<bit>` header standardizes these operations.
 | **`std::countr_zero`**    | Counts consecutive zeros from LSB (Right). | `TZCNT` / `BSF`    | `RBIT` + `CLZ`    |
 | **`std::has_single_bit`** | Checks if value is power of two.           | `POPCNT` / Logic   | Logic             |
 | **`std::bit_width`**      | Minimum bits required to represent value.  | `LZCNT`            | `CLZ`             |
+
+</div>
 
 ### Architectural Usage: Bitmasks and Pools
 
@@ -243,7 +247,7 @@ int main() \{
 \}
 ```
 
-These are `constexpr`Enabling compile-time capacity planning for containers that require
+These are `constexpr`. Enabling compile-time capacity planning for containers that require
 Power-of-two bucket counts.
 
 ### `std::countl_one` and `std::countr_one`
@@ -287,7 +291,7 @@ if constexpr (std::endian::native == std::endian::little) \{
 
 ### Manipulation (`std::byteswap`)
 
-C++23 introduces `std::byteswap`Enabling zero-overhead byte reversal [N4950 §23.16.8].
+C++23 introduces `std::byteswap`. Enabling zero-overhead byte reversal [N4950 §23.16.8].
 
 **Use Case:** Parsing a Network Packet (Network Byte Order is **Big Endian**).
 
@@ -319,7 +323,7 @@ void process_packet(PacketHeader h) \{
 
 When using `std::bit_cast` to interpret multi-byte values read from a byte stream, the result
 Depends on the host endianness. If you read 4 bytes `[0x01, 0x02, 0x03, 0x04]` into a `uint32_t` via
-`bit_cast`The result differs between little-endian and big-endian hosts:
+`bit_cast`. The result differs between little-endian and big-endian hosts:
 
 ```cpp
 #include <bit>
@@ -333,7 +337,7 @@ constexpr uint32_t interpret_le(const uint8_t (&bytes)[4]) \{
 ```
 
 For portable deserialization, always use `std::byteswap` or explicit byte-level construction rather
-Than relying on `std::bit_cast` with raw byte arrays.
+than relying on `std::bit_cast` with raw byte arrays.
 
 ## 4. `std::bitset` vs. Integer Flags
 
@@ -548,7 +552,7 @@ int main() \{
 
 The core operation, setting and testing individual bits within a `uint64_t` array, relies on the
 Shift (`&lt;&lt;`) and bitwise AND (`&amp;`) operations. The modulo operation for index calculation
-Is optimized by the compiler into a bitmask when the table size is a power of two.
+is optimized by the compiler into a bitmask when the table size is a power of two.
 
 ## 7. `constexpr` Bit Manipulation Patterns
 
@@ -642,16 +646,6 @@ Never assume the host endianness when serializing data. Always convert to a know
 (network byte order / big endian) before writing to a wire format, and convert back on read.
 `std::byteswap` makes this trivial.
 
-```mermaid
-flowchart TD
-    A[3_Bit_Manipulationx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to bit manipulation, including key
@@ -665,10 +659,5 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

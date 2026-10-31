@@ -100,7 +100,7 @@ This offers up to **35 subject combinations**. Each elective is scaled similarly
 
 ### Maximum Score: 750 Points
 
-The Gaokao"s total score of 750 points is distributed across the mandatory subjects and electives as
+The Gaokao's total score of 750 points is distributed across the mandatory subjects and electives as
 described above. Understanding how scores are reported and used is critical:
 
 - **Original score (卷面分):** The raw mark a student receives on the exam paper. Used directly for
@@ -125,6 +125,8 @@ June. The score report includes:
 
 China's Gaokao system has significant **provincial variation** in several areas:
 
+<div class="table-wrap">
+
 | Aspect         | Variation                                                                            |
 | -------------- | ------------------------------------------------------------------------------------ |
 | Exam papers    | Some provinces use national papers (全国卷); others use provincial papers (自主命题) |
@@ -132,6 +134,8 @@ China's Gaokao system has significant **provincial variation** in several areas:
 | Scoring method | Some provinces use percentile ranks; others report raw scores                        |
 | Exam schedule  | Most provinces test in early June, but exact dates vary                              |
 | Re-sit policy  | Some provinces restrict the number of re-sit attempts                                |
+
+</div>
 
 Notable examples:
 
@@ -203,10 +207,6 @@ The Gaokao is like a marathon, not a sprint. You would not expect to run 26 mile
 Strategy is like a game plan in sports. You would not enter a basketball game without knowing which plays to run in different situations. Similarly, knowing which sections to tackle first, which questions to skip and return to, and how to allocate your time across subjects is the difference between a good performance and a great one. The best athletes and the best students both succeed because they prepare their strategy as carefully as their skills.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

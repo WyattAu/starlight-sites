@@ -74,6 +74,17 @@ const title = starlightRoute?.siteTitle || "Notes"
           input.addEventListener("keydown", function(e){
             if (e.key === "Escape") results.classList.remove("active");
           });
+          // Keyboard access: Cmd/Ctrl+K or "/" focuses the search input.
+          document.addEventListener("keydown", function(e){
+            var isK = (e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey);
+            var isSlash = e.key === "/" &&
+              !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName || "");
+            if (isK || isSlash) {
+              e.preventDefault();
+              input.focus();
+              input.select();
+            }
+          });
           function esc(s) {
             if (!s) return "";
             var d = document.createElement("div");
@@ -133,6 +144,9 @@ const title = starlightRoute?.siteTitle || "Notes"
       { name: 'Physics', url: 'https://physics.wyattau.com' },
       { name: 'Chemistry', url: 'https://chemistry.wyattau.com' },
       { name: 'CS Theory', url: 'https://computer-science.wyattau.com' },
+      { name: 'Economics', url: 'https://economics.wyattau.com' },
+      { name: 'Finance', url: 'https://finance.wyattau.com' },
+      { name: 'Accounting', url: 'https://accounting.wyattau.com' },
       { name: 'Admissions', url: 'https://admissions.wyattau.com' },
     ],
     'Infrastructure': [
@@ -209,5 +223,156 @@ const title = starlightRoute?.siteTitle || "Notes"
   .site-nav-btn:hover {
     background: color-mix(in srgb, var(--sl-color-accent, #ff6b35) 10%, transparent);
     border-color: color-mix(in srgb, var(--sl-color-accent, #ff6b35) 20%, transparent);
+  }
+</style>
+
+<style is:global>
+  /*
+   * The header ships with no stylesheet at all: none of the classes below are
+   * defined in any site stylesheet, so the search icon rendered at the SVG
+   * default of 300x150 (a giant magnifying glass across the hero) and the
+   * search input floated unstyled mid-page. These rules are global because the
+   * search results are injected by script at runtime and never receive Astro's
+   * scope attribute.
+   */
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .title-wrapper {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+  }
+  .site-title-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--sl-color-white, inherit);
+  }
+  .site-title-logo span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .site-title-icon {
+    width: 22px;
+    height: 22px;
+    flex: none;
+  }
+  .header-progress {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  #custom-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  #custom-search .search-icon {
+    width: 15px;
+    height: 15px;
+    flex: none;
+    opacity: 0.7;
+    pointer-events: none;
+  }
+  .custom-search-input {
+    width: 15rem;
+    max-width: 38vw;
+    padding: 0.4rem 0.65rem;
+    font: inherit;
+    font-size: 0.85rem;
+    color: var(--sl-color-white, inherit);
+    background: var(--sl-color-bg-nav, transparent);
+    border: 1px solid var(--sl-color-hairline-shade, #3a3a3a);
+    border-radius: 0.5rem;
+    outline: none;
+    transition: border-color 140ms ease;
+  }
+  .custom-search-input:focus {
+    border-color: var(--sl-color-accent, #ff6b35);
+  }
+  .search-results {
+    position: absolute;
+    top: calc(100% + 0.4rem);
+    right: 0;
+    width: 22rem;
+    max-width: 82vw;
+    max-height: 24rem;
+    overflow-y: auto;
+    display: none;
+    background: var(--sl-color-bg, #17150f);
+    border: 1px solid var(--sl-color-hairline-shade, #333);
+    border-radius: 0.6rem;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+    z-index: 60;
+  }
+  .search-results.active {
+    display: block;
+  }
+  .search-result {
+    display: block;
+    padding: 0.55rem 0.75rem;
+    text-decoration: none;
+    color: var(--sl-color-text, inherit);
+    border-bottom: 1px solid var(--sl-color-hairline-shade, #2a2a2a);
+  }
+  .search-result:last-child {
+    border-bottom: none;
+  }
+  .search-result:hover {
+    background: rgba(255, 255, 255, 0.06);
+  }
+  .result-site {
+    display: inline-block;
+    padding: 0.1rem 0.4rem;
+    border-radius: 999px;
+    margin-right: 0.45rem;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .result-title {
+    margin-top: 0.15rem;
+    font-size: 0.85rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .search-footer {
+    padding: 0.55rem 0.75rem;
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+
+  /* On a phone the header holds the site title, the progress widgets, this
+     search field and Starlight's own search trigger in 390px. The field does
+     not fit, and squeezing it produced two overlapping search boxes. The
+     input collapses to an icon-width field that expands on focus, which keeps
+     search reachable without breaking the bar. */
+  @media (max-width: 48rem) {
+    .header-inner {
+      gap: 0.5rem;
+      padding: 0 0.75rem;
+    }
+    .title-wrapper span {
+      display: none; /* the icon alone identifies the site */
+    }
+    /* Starlight supplies its own working search on small screens; rendering
+       this one as well put two overlapping search boxes across a 390px bar. */
+    #custom-search {
+      display: none;
+    }
   }
 </style>

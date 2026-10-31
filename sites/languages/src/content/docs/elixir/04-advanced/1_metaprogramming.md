@@ -25,7 +25,7 @@ Metaprogramming in Elixir is the ability to write code that generates or transfo
 time. The primary mechanism for this is the **macro** system, which allows you to manipulate the
 Abstract Syntax Tree (AST) of Elixir code before it is compiled.
 
-Elixir"s macro system is similar to Lisp's but with important differences:
+Elixir's macro system is similar to Lisp's but with important differences:
 
 - Macros operate on Elixir's own AST representation, not S-expressions
 - Macros are hygienic by default (they do not accidentally capture or overwrite variables)
@@ -734,16 +734,6 @@ implementations at runtime.
 **Why it matters:** Metaprogramming eliminates boilerplate by generating repetitive code at compile time. The `use` macro is how Elixir libraries inject behavior into your modules, when you write `use GenServer`a macro expands into all the callback definitions you need.
 
 **The key insight:** Macros operate on AST (abstract syntax trees), not text. This means they understand code structure, not just string patterns, making them safer and more composable than text-based code generation.
-
-```mermaid
-flowchart TD
-    A[1_Metaprogramming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

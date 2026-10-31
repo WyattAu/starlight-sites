@@ -34,8 +34,6 @@ _Principia Mathematica_ (1687).
 
 <PhetSimulation client:only="solid-js" simulationId="forces-and-motion-basics" title="Forces and Motion: Basics" />
 
-Explore the simulation above to develop intuition for this topic.
-
 ### Newton's First Law (Law of Inertia)
 
 > **Every body continues in its state of rest or uniform motion in a straight line unless acted upon
@@ -50,11 +48,15 @@ Aristotle believed that force was necessary to _maintain_ motion.
 > **The rate of change of momentum of a body is directly proportional to the net external force
 > acting on it, and takes place in the direction of that force.**
 
-$$\mathbf{F}_{\mathrm{net}} = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt}$$
+$$
+\mathbf{F}_{\mathrm{net}} = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt}
+$$
 
 For constant mass:
 
-$$\boxed{\mathbf{F}_{\mathrm{net}} = m\mathbf{a}}$$
+$$
+\boxed{\mathbf{F}_{\mathrm{net}} = m\mathbf{a}}
+$$
 
 This is the most important equation in mechanics. It states that force, mass, and acceleration are
 Related by a simple proportionality.
@@ -66,7 +68,9 @@ $1 \mathrm{ N} = 1 \mathrm{ kg m s}^{-2}$.
 
 > **If body A exerts a force on body B, then body B exerts an equal and opposite force on body A.**
 
-$$\mathbf{F}_{AB} = -\mathbf{F}_{BA}$$
+$$
+\mathbf{F}_{AB} = -\mathbf{F}_{BA}
+$$
 
 <Aside type="caution">
 Warning They do **not** cancel. The normal reaction from a table on a book and the book's
@@ -82,12 +86,16 @@ Acceleration. Mass is a scalar, measured in kg. It is an intrinsic property of a
 
 **Definition.** The **weight** $W$ of a body is the gravitational force acting on it.
 
-$$W = mg$$
+$$
+W = mg
+$$
 
 **Derivation.** By Newton's second law, the gravitational force on a mass $m$ in a gravitational
 Field of strength $g$ is:
 
-$$F = ma \implies W = mg$$
+$$
+F = ma \implies W = mg
+$$
 
 Where $g$ is the gravitational field strength (approximately $9.81$ N kg$^{-1}$ near Earth's
 Surface).
@@ -117,11 +125,15 @@ vertical).
 
 **Condition for equilibrium** (Newton's first law):
 
-$$\sum F_x = 0 \quad \mathrm{and} \quad \sum F_y = 0$$
+$$
+\sum F_x = 0 \quad \mathrm{and} \quad \sum F_y = 0
+$$
 
 **Condition for acceleration** (Newton's second law):
 
-$$\sum F_x = ma_x \quad \mathrm{and} \quad \sum F_y = ma_y$$
+$$
+\sum F_x = ma_x \quad \mathrm{and} \quad \sum F_y = ma_y
+$$
 
 <details>
 <summary>Example: Inclined Plane</summary>
@@ -131,7 +143,9 @@ A block of mass $m$ rests on a plane inclined at angle $\alpha$ to the horizonta
 
 Resolving parallel to the plane (taking down-plane as positive): $mg\sin\alpha = ma$.
 
-$$a = g\sin\alpha$$
+$$
+a = g\sin\alpha
+$$
 
 </details>
 
@@ -147,11 +161,15 @@ Perpendicular to the velocity.
 For uniform circular motion (constant speed $v$ on a circle of radius $r$), the acceleration is
 Directed towards the centre of the circle. Using $v = \omega r$ where $\omega$ is the angular speed:
 
-$$a_c = \frac{v^2}{r} = \omega^2 r$$
+$$
+a_c = \frac{v^2}{r} = \omega^2 r
+$$
 
 By Newton's second law, the net force towards the centre is:
 
-$$\boxed{F_c = \frac{mv^2}{r} = m\omega^2 r}$$
+$$
+\boxed{F_c = \frac{mv^2}{r} = m\omega^2 r}
+$$
 
 **Definition.** The **centripetal acceleration** $a_c$ is the acceleration directed towards the
 Centre of a circular path, responsible for changing the direction of the velocity.
@@ -171,7 +189,7 @@ Exam Technique When solving circular motion problems, always start with a free b
 
 Showing only the real forces. Then resolve forces towards the centre of the circle and apply
 $F_c = mv^2/r$. The centripetal force is always provided by one or more of the forces already on
-Your diagram.
+your diagram.
 </Aside>
 
 <details>
@@ -197,10 +215,10 @@ A particle of mass $m$ is attached to a string of length $L$ and revolves in a h
 
 Resolving horizontally (towards the centre): $T\sin\theta = m\omega^2 r$.
 
-Substituting: $\frac{mg\sin\theta}{\cos\theta} = m\omega^2 r$Giving
+Substituting: $\frac{mg\sin\theta}{\cos\theta} = m\omega^2 r$ Giving
 $\omega^2 = \frac{g\tan\theta}{r}$.
 
-Since $r = L\sin\theta$This becomes $\omega^2 = \frac{g}{L\cos\theta}$ So
+Since $r = L\sin\theta$ This becomes $\omega^2 = \frac{g}{L\cos\theta}$ So
 $\omega = \sqrt{\frac{g}{L\cos\theta}}$.
 
 </details>
@@ -210,9 +228,11 @@ $\omega = \sqrt{\frac{g}{L\cos\theta}}$.
 ### Static Friction
 
 When two surfaces are in contact but not sliding relative to each other, the friction force adjusts
-To prevent motion, up to a maximum:
+to prevent motion, up to a maximum:
 
-$$F_s \leq \mu_s R$$
+$$
+F_s \leq \mu_s R
+$$
 
 Where $\mu_s$ is the **coefficient of static friction** and $R$ is the normal reaction.
 
@@ -220,7 +240,9 @@ Where $\mu_s$ is the **coefficient of static friction** and $R$ is the normal re
 
 When sliding occurs, the friction force is:
 
-$$F_d = \mu_d R$$
+$$
+F_d = \mu_d R
+$$
 
 Where $\mu_d$ is the **coefficient of dynamic friction**., $\mu_d < \mu_s$, it is harder To start
 an object moving than to keep it moving.
@@ -241,7 +263,9 @@ Proportional to the normal force because a greater normal force creates more con
 **Definition.** The **angle of friction** $\lambda$ is the angle between the normal reaction and the
 Total contact force when slipping is about to occur. It satisfies:
 
-$$\boxed{\tan\lambda = \mu_s}$$
+$$
+\boxed{\tan\lambda = \mu_s}
+$$
 
 <details>
 <summary>Derivation</summary>
@@ -271,7 +295,7 @@ $\square$
 </details>
 
 **Intuition.** Steeper surfaces require more friction to prevent sliding. When the incline angle
-Equals $\arctan(\mu_s)$The gravitational component along the plane exactly equals maximum static
+Equals $\arctan(\mu_s)$ The gravitational component along the plane exactly equals maximum static
 Friction. Beyond this angle, no amount of static friction can prevent sliding.
 
 ## 7. Connected Particles
@@ -289,23 +313,35 @@ Speed.
 
 For mass $m_1$ (descending, taking downward as positive):
 
-$$m_1 g - T = m_1 a \quad \mathrm{...(i)}$$
+$$
+m_1 g - T = m_1 a \quad \mathrm{...(i)}
+$$
 
 For mass $m_2$ (ascending, taking upward as positive):
 
-$$T - m_2 g = m_2 a \quad \mathrm{...(ii)}$$
+$$
+T - m_2 g = m_2 a \quad \mathrm{...(ii)}
+$$
 
 Adding (i) and (ii):
 
-$$m_1 g - m_2 g = (m_1 + m_2)a$$
+$$
+m_1 g - m_2 g = (m_1 + m_2)a
+$$
 
-$$\boxed{a = \frac{(m_1 - m_2)g}{m_1 + m_2}}$$
+$$
+\boxed{a = \frac{(m_1 - m_2)g}{m_1 + m_2}}
+$$
 
 Substituting back into (i):
 
-$$T = m_1(g - a) = m_1 g\left(1 - \frac{m_1 - m_2}{m_1 + m_2}\right) = \frac{2m_1 m_2 g}{m_1 + m_2}$$
+$$
+T = m_1(g - a) = m_1 g\left(1 - \frac{m_1 - m_2}{m_1 + m_2}\right) = \frac{2m_1 m_2 g}{m_1 + m_2}
+$$
 
-$$\boxed{T = \frac{2m_1 m_2 g}{m_1 + m_2}}$$
+$$
+\boxed{T = \frac{2m_1 m_2 g}{m_1 + m_2}}
+$$
 
 ### Lifts (Apparent Weight)
 
@@ -315,13 +351,17 @@ A person of mass $m$ stands on a weighing scale in a lift.
 
 For the person (taking upward as positive):
 
-$$R - mg = ma \implies R = m(g + a)$$
+$$
+R - mg = ma \implies R = m(g + a)
+$$
 
 The apparent weight $R$ is **greater** than the true weight $mg$.
 
 **Case 2: Lift accelerating downward at $a$.**
 
-$$mg - R = ma \implies R = m(g - a)$$
+$$
+mg - R = ma \implies R = m(g - a)
+$$
 
 The apparent weight is **less** than the true weight. If $a = g$ Then $R = 0$, the person
 Experiences **weightlessness**.
@@ -346,14 +386,18 @@ For $m_2$ hanging vertically (taking downward as positive): $m_2 g - T = m_2 a$.
 
 Adding the two equations: $m_2 g - \mu m_1 g = (m_1 + m_2)a$.
 
-$$\boxed{a = \frac{(m_2 - \mu m_1)g}{m_1 + m_2}}$$
+$$
+\boxed{a = \frac{(m_2 - \mu m_1)g}{m_1 + m_2}}
+$$
 
 Substituting into the equation for $m_2$:
 $T = m_2(g - a) = m_2 g\left(1 - \frac{m_2 - \mu m_1}{m_1 + m_2}\right)$
 
 $T = m_2 g \cdot \frac{m_1 + m_2 - m_2 + \mu m_1}{m_1 + m_2} = \frac{m_1 m_2 g(1 + \mu)}{m_1 + m_2}$
 
-$$\boxed{T = \frac{m_1 m_2 g(1 + \mu)}{m_1 + m_2}}$$
+$$
+\boxed{T = \frac{m_1 m_2 g(1 + \mu)}{m_1 + m_2}}
+$$
 
 Note: the system only accelerates if $m_2 > \mu m_1$; otherwise static friction is sufficient to
 Hold the system in equilibrium.
@@ -389,25 +433,39 @@ For low speeds (e.g., small objects in viscous fluids), Stokes' drag applies: $F
 
 Applying Newton's second law (taking downward as positive):
 
-$$mg - kv = ma$$
+$$
+mg - kv = ma
+$$
 
-$$ma = mg - kv \implies \frac{dv}{dt} = g - \frac{k}{m}v$$
+$$
+ma = mg - kv \implies \frac{dv}{dt} = g - \frac{k}{m}v
+$$
 
 This is a first-order linear ODE. At **terminal velocity**, $a = 0$:
 
-$$mg - kv_T = 0 \implies \boxed{v_T = \frac{mg}{k}}$$
+$$
+mg - kv_T = 0 \implies \boxed{v_T = \frac{mg}{k}}
+$$
 
 ### Solving the ODE
 
 Rewrite: $\frac{dv}{dt} = \frac{k}{m}(v_T - v)$ where $v_T = mg/k$.
 
-$$\int_0^v \frac{dv'}{v_T - v'} = \int_0^t \frac{k}{m}\,dt'$$
+$$
+\int_0^v \frac{dv'}{v_T - v'} = \int_0^t \frac{k}{m}\,dt'
+$$
 
-$$-\ln\left(\frac{v_T - v}{v_T}\right) = \frac{kt}{m}$$
+$$
+-\ln\left(\frac{v_T - v}{v_T}\right) = \frac{kt}{m}
+$$
 
-$$\frac{v_T - v}{v_T} = e^{-kt/m}$$
+$$
+\frac{v_T - v}{v_T} = e^{-kt/m}
+$$
 
-$$\boxed{v(t) = v_T\left(1 - e^{-kt/m}\right)}$$
+$$
+\boxed{v(t) = v_T\left(1 - e^{-kt/m}\right)}
+$$
 
 **Intuition.** The velocity starts at zero and asymptotically approaches $v_T$. The exponential
 Approach means the object gets close to terminal velocity quickly but never quite reaches it in
@@ -417,7 +475,9 @@ Finite time. The time constant is $\tau = m/k$.
 
 At higher speeds (e.g., a skydiver in air), drag is proportional to $v^2$: $F_d = kv^2$.
 
-$$mg - kv^2 = ma$$
+$$
+mg - kv^2 = ma
+$$
 
 At terminal velocity: $v_T = \sqrt{\frac{mg}{k}}$.
 
@@ -508,7 +568,7 @@ $\theta = \arctan(3/1) = 71.6^\circ$ from the $x$-axis.
 
 <details>
 <summary>Problem 7</summary>
-A block slides down a rough inclined plane at $25^\circ$ to the horizontal. If $\mu_d = 0.2$Find the acceleration.
+A block slides down a rough inclined plane at $25^\circ$ to the horizontal. If $\mu_d = 0.2$ Find the acceleration.
 
 **Answer.** Resolving parallel (down-plane positive): $mg\sin 25° - F_d = ma$. Resolving
 Perpendicular: $R = mg\cos 25^\circ$. So $F_d = 0.2mg\cos 25^\circ$.
@@ -548,7 +608,7 @@ $C = m_2 a = 5.0 \times 3.0 = 15$ N.
 
 <details>
 <summary>Problem 10</summary>
-For the linear drag model $F_d = kv$Derive the time taken for a falling object to reach half its terminal velocity.
+For the linear drag model $F_d = kv$ Derive the time taken for a falling object to reach half its terminal velocity.
 
 **Answer.** $v(t) = v_T(1 - e^{-kt/m})$. Setting $v = v_T/2$:
 
@@ -626,7 +686,7 @@ $T = 0.50\left(9.81 + \frac{36}{0.80}\right) = 0.50(9.81 + 45.0) = 0.50 \times 5
 <summary>Problem 15</summary>
 A mass of $3.0$ kg rests on a rough horizontal table ($\mu = 0.25$) connected by a light inextensible string over a smooth pulley to a mass of $1.5$ kg hanging freely. Determine whether the system moves and, if so, find the acceleration and tension.
 
-**Answer.** Check condition: $\mu m_1 = 0.25 \times 3.0 = 0.75$ kg. Since $m_2 = 1.5 > 0.75$The
+**Answer.** Check condition: $\mu m_1 = 0.25 \times 3.0 = 0.75$ kg. Since $m_2 = 1.5 > 0.75$ The
 System accelerates.
 
 $a = \frac{(1.5 - 0.25 \times 3.0) \times 9.81}{3.0 + 1.5} = \frac{0.75 \times 9.81}{4.5} = \frac{7.36}{4.5} = 1.63$
@@ -822,21 +882,7 @@ self-marking and building a personal test matrix.
 
 4. Rounding intermediate answers too early, which compounds errors in multi-step calculations.
 
-```mermaid
-flowchart TD
-    A[03 Dynamicsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

@@ -560,7 +560,7 @@ void expiredSubscriptionDeniesAccess() {
 
 ### Test Fixtures
 
-Shared test data and setup using `@BeforeAll``@BeforeEach`Or test utility classes:
+Shared test data and setup using `@BeforeAll`, `@BeforeEach` or test utility classes:
 
 ```java
 class OrderProcessorTest {
@@ -699,6 +699,8 @@ tasks.check {
 
 ### Coverage Metrics
 
+<div class="table-wrap">
+
 | Metric                   | Description                                           |
 | ------------------------ | ----------------------------------------------------- |
 | **Line coverage**        | Percentage of source lines exercised by tests         |
@@ -707,9 +709,11 @@ tasks.check {
 | **Class coverage**       | Percentage of classes with at least one method called |
 | **Instruction coverage** | Percentage of bytecode instructions executed          |
 
+</div>
+
 :::caution
 Correctness. A test that calls a method with wrong inputs and asserts wrong values still contributes
-To coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
+to coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
 Untested code, not as a target to gamify.
 
 ## Flaky Tests
@@ -921,16 +925,6 @@ void shouldWriteToTempFile() throws IOException {
 }
 ```
 
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of testing in java, including underlying theory, practical
@@ -944,17 +938,11 @@ implementation, and key applications.
 - transaction processing (ACID)
 - NoSQL and distributed databases
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Testing in Java is like quality control in a factory -- unit tests check individual components, integration tests verify that components fit together, and end-to-end tests run the entire production line. JUnit 5 provides the testing framework (the quality control manual), Mockito provides the test doubles (simulated parts), and JaCoCo measures coverage (the inspection checklist). The Arrange-Act-Assert pattern is your quality control protocol: set up the conditions, perform the operation, and verify the result. The most dangerous tests are those that pass vacuously -- they run without error but verify nothing meaningful.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

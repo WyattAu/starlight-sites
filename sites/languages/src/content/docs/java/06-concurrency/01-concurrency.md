@@ -67,6 +67,8 @@ write visible.
 
 The JMM defines the following happens-before relationships:
 
+<div class="table-wrap">
+
 | Rule               | Description                                                                                          |
 | ------------------ | ---------------------------------------------------------------------------------------------------- |
 | **Program order**  | Each action in a thread happens-before every action that comes later in that thread's program order. |
@@ -78,6 +80,8 @@ The JMM defines the following happens-before relationships:
 | **Interruption**   | `Thread.interrupt()` happens-before any thread detects that it has been interrupted.                 |
 | **Finalizer**      | The end of a constructor happens-before the start of a finalizer.                                    |
 | **Initialization** | The static initializer of a class happens-before any use of that class.                              |
+
+</div>
 
 ### Safe Publication
 
@@ -221,6 +225,8 @@ stateDiagram-v2
     TERMINATED --> [*]
 ```
 
+<div class="table-wrap">
+
 | State             | Description                                                                                                              |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **NEW**           | Thread has been created but `start()` has not been called.                                                               |
@@ -229,6 +235,8 @@ stateDiagram-v2
 | **WAITING**       | Thread is waiting indefinitely for another thread to perform a particular action (e.g., `notify()`).                     |
 | **TIMED_WAITING** | Thread is waiting for another thread to perform an action, but with a specified maximum wait time.                       |
 | **TERMINATED**    | Thread has completed execution of its `run()` method.                                                                    |
+
+</div>
 
 :::note
 CPU core" and "ready to execute but waiting for CPU time." The JVM delegates scheduling to the
@@ -299,7 +307,7 @@ public class ReentrantExample {
    when it becomes available. A thread that has been waiting the longest may starve indefinitely
    while new threads repeatedly acquire the lock.
 
-2. **No try-lock.** If a thread calls `synchronized`It blocks indefinitely until the lock is
+2. **No try-lock.** If a thread calls `synchronized`. It blocks indefinitely until the lock is
    available. There is no way to attempt acquisition with a timeout, which makes it impossible to
    implement deadlock-avoidance strategies.
 
@@ -403,7 +411,7 @@ public class VolatileCounter {
 }
 ```
 
-Two threads calling `increment()` simultaneously can both read `count = 0`Both increment to `1`And
+Two threads calling `increment()` simultaneously can both read `count = 0`. Both increment to `1`And
 both write `1`Losing one increment. For atomic compound operations, use `AtomicInteger` or
 `synchronized`.
 
@@ -517,12 +525,16 @@ ThreadPoolExecutor executor = new ThreadPoolExecutor(
 4. If the queue is full and `maximumPoolSize` threads are running, the task is rejected (handled by
    the `RejectedExecutionHandler`).
 
+<div class="table-wrap">
+
 | Rejection Policy      | Behavior                                                              |
 | --------------------- | --------------------------------------------------------------------- |
 | `AbortPolicy`         | Throws `RejectedExecutionException` (default).                        |
 | `CallerRunsPolicy`    | The calling thread executes the task itself -- provides backpressure. |
 | `DiscardPolicy`       | Silently discards the task.                                           |
 | `DiscardOldestPolicy` | Discards the oldest queued task and retries submission.               |
+
+</div>
 
 ## CompletableFuture
 
@@ -648,7 +660,7 @@ graph LR
 ### ConcurrentHashMap
 
 `ConcurrentHashMap` is a hash table that supports full concurrency of retrievals and high expected
-concurrency for updates. Unlike `Hashtable` or `Collections.synchronizedMap()`It does not lock the
+concurrency for updates. Unlike `Hashtable` or `Collections.synchronizedMap()`. It does not lock the
 entire map for writes. Instead, it uses a **striped lock** strategy (JDK 7: lock striping with 16
 segments; JDK 8+: CAS on individual bucket nodes).
 
@@ -734,12 +746,16 @@ executor.submit(producer);
 executor.submit(consumer);
 ```
 
+<div class="table-wrap">
+
 | Implementation          | Ordering                         | Bounded                                  | Notes                                                                |
 | ----------------------- | -------------------------------- | ---------------------------------------- | -------------------------------------------------------------------- |
 | `ArrayBlockingQueue`    | FIFO                             | Yes (fixed capacity)                     | Backed by a circular array.                                          |
 | `LinkedBlockingQueue`   | FIFO                             | Optional (defaults to Integer.MAX_VALUE) | Backed by linked nodes.                                              |
 | `PriorityBlockingQueue` | Priority (natural or Comparator) | No (grows as needed)                     | `take()` always returns the head (lowest-priority element).          |
 | `SynchronousQueue`      | None (handoff)                   | Always zero capacity                     | `put()` blocks until a `take()` arrives. Direct handoff, no storage. |
+
+</div>
 
 ### ConcurrentLinkedQueue
 
@@ -1027,7 +1043,7 @@ reusable version, use `CyclicBarrier`.
 ### CyclicBarrier
 
 A `CyclicBarrier` allows a set of threads to all wait for each other to reach a common barrier
-point. Unlike `CountDownLatch`It is reusable after all waiting threads are released.
+point. Unlike `CountDownLatch`. It is reusable after all waiting threads are released.
 
 ```java
 // MapReduce-style parallel computation
@@ -1106,6 +1122,8 @@ try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
 
 ### Virtual Threads vs Platform Threads
 
+<div class="table-wrap">
+
 | Property                | Platform Thread                       | Virtual Thread                                                  |
 | ----------------------- | ------------------------------------- | --------------------------------------------------------------- |
 | **OS mapping**          | 1:1 (one Java thread = one OS thread) | M:N (many virtual threads multiplexed onto few carrier threads) |
@@ -1114,6 +1132,8 @@ try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
 | **Blocking on I/O**     | Wastes the OS thread                  | Unmounts from carrier; carrier runs other virtual threads       |
 | **Max practical count** | Thousands                             | Millions                                                        |
 | **Pin prevention**      | N/A                                   | Must not use `synchronized` or native methods during blocking   |
+
+</div>
 
 ### Pinning: The One Thing to Avoid
 
@@ -1138,7 +1158,7 @@ try {
 ```
 
 :::caution
-`ReentrantLock``Semaphore``CountDownLatch`And all other `java.util.concurrent` synchronizers do NOT
+`ReentrantLock`, `Semaphore`, `CountDownLatch` and all other `java.util.concurrent` synchronizers do NOT
 cause pinning. The JDK team has been progressively replacing internal uses of `synchronized` with
 `ReentrantLock` to eliminate pinning in the JDK itself. In JDK 24+, pinning from `synchronized` is
 being addressed through async monitor enter/exit, but for JDK 21-23, you must be aware of it.
@@ -1196,6 +1216,8 @@ structure (the scope is lexically scoped via try-with-resources).
 
 ## Summary: Choosing the Right Primitive
 
+<div class="table-wrap">
+
 | Scenario                             | Recommended Primitive                                           |
 | ------------------------------------ | --------------------------------------------------------------- |
 | Simple mutual exclusion              | `synchronized` (if pinning is not a concern) or `ReentrantLock` |
@@ -1211,6 +1233,8 @@ structure (the scope is lexically scoped via try-with-resources).
 | Reusable barrier                     | `CyclicBarrier`                                                 |
 | Massive concurrent I/O (server)      | Virtual threads + `Executors.newVirtualThreadPerTaskExecutor()` |
 | Scoped concurrent tasks              | `StructuredTaskScope` (JDK 21+)                                 |
+
+</div>
 
 ## Common Pitfalls
 

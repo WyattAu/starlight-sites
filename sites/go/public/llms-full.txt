@@ -54,8 +54,6 @@ This site provides comprehensive study materials covering:
 - Standard library
 - Testing
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -80,8 +78,6 @@ programming fundamentals
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -99,18 +95,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Go Standard Library Flashcards](/flashcards-standard-library/)
 - [Introduction to Go](/intro/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -120,53 +109,238 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+---
 
+## Before You Begin
+URL: https://go.wyattau.com/before-you-begin/
 
-## Detailed Content
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com/go/before-you-begin"}]
+}
+</script>
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+Go is designed by subtraction. It has no inheritance, no exceptions, no
+implicit type conversions, no function overloading, no unused variables, no
+unused imports. Each absence is a design decision: the feature was removed
+because it caused more problems than it solved in the languages that had it.
+The result is a language where every Go program in a large codebase looks the
+same, regardless of who wrote it — and where the compiler is fast enough that
+build times are measured in seconds, not minutes.
 
-### Core Concepts
+The prerequisite is basic programming in any language. If you know C++, Java,
+or Python, the syntax will feel simple and the philosophy will feel
+restrictive — until you encounter the concurrency model, which is the reason
+the language exists.
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+## Intuition
 
-### Worked Examples
+Most languages make concurrency hard. Threads share memory, so you need locks;
+locks can deadlock; and the bugs are intermittent, unreproducible, and
+catastrophic. Go's concurrency model — **Communicating Sequential Processes**
+(CSP) — avoids shared memory by design: goroutines communicate by sending
+values over channels, and channels synchronise the send and receive.
 
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+The intuition: instead of two workers fighting over one whiteboard (shared
+memory + locks), two workers pass notes through a tube (channels). Only one
+worker holds a note at a time. No locks needed. The race condition is
+impossible by construction, not by discipline.
 
-### Common Mistakes
+## 1. Goroutines
 
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
+**Definition.** A **goroutine** is a lightweight thread managed by the Go
+runtime. Create one with the `go` keyword followed by a function call:
 
-### Further Reading
+```go
+package main
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+import (
+    "fmt"
+    "time"
+)
 
+func say(s string) {
+    for i := 0; i < 3; i++ {
+        fmt.Println(s)
+        time.Sleep(100 * time.Millisecond)
+    }
+}
 
-## Detailed Content
+func main() {
+    go say("world")      // runs concurrently
+    say("hello")          // runs in the current goroutine
+    time.Sleep(500 * time.Millisecond) // give the goroutine time to finish
+}
+```
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+**Goroutines are not OS threads.** The Go runtime multiplexes goroutines onto a
+smaller number of OS threads (the M:N model). A goroutine starts with a ~2KB
+stack that grows and shrinks as needed; an OS thread starts with ~1MB and has
+a context-switch cost of microseconds. You can run millions of goroutines on a
+laptop.
 
-### Core Concepts
+**The main goroutine.** When `main` returns, the program exits — all running
+goroutines are killed. The `time.Sleep` above prevents this, but Sleeping is
+not synchronisation: it is a hope. The correct synchronisation primitive is
+the channel.
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+## 2. Channels
 
-### Worked Examples
+**Definition.** A **channel** is a typed conduit through which goroutines send
+and receive values. The send `ch <- v` blocks until a receiver is ready; the
+receive `v := <-ch` blocks until a sender is ready. The blocking *is* the
+synchronisation.
 
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+```go
+func sum(s []int, ch chan int) {
+    total := 0
+    for _, v := range s {
+        total += v
+    }
+    ch <- total // send the result to the channel
+}
 
-### Common Mistakes
+func main() {
+    s := []int{7, 2, 8, -9, 4, 0}
+    ch := make(chan int)       // unbuffered channel
+    go sum(s[:len(s)/2], ch)   // first half in a goroutine
+    go sum(s[len(s)/2:], ch)   // second half in another goroutine
+    x := <-ch                  // receive from first goroutine (blocks)
+    y := <-ch                  // receive from second goroutine
+    fmt.Println(x, y, x+y)
+}
+```
 
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
+**Buffered channels.** `make(chan int, 5)` creates a channel with a buffer of
+5: the send does not block until the buffer is full. This decouples the sender
+from the receiver for a bounded number of sends.
 
-### Further Reading
+**The channel direction.** Channels can be restricted to send-only
+(`chan<-`) or receive-only (`<-chan`) in function signatures:
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+```go
+func producer(ch chan<- int) { /* can only send */ }
+func consumer(ch <-chan int) { /* can only receive */ }
+```
+
+This is compile-time documentation of the data flow, and it prevents the bug
+of accidentally sending on a receive-only channel.
+
+## 3. Interfaces without inheritance
+
+**Definition.** An **interface** is a set of method signatures. A type
+implements an interface implicitly — no `implements` keyword, no inheritance
+hierarchy. If a type has the methods the interface requires, it satisfies the
+interface.
+
+```go
+type Shape interface {
+    Area() float64
+}
+
+type Circle struct{ Radius float64 }
+func (c Circle) Area() float64 { return 3.14159 * c.Radius * c.Radius }
+
+type Rectangle struct{ W, H float64 }
+func (r Rectangle) Area() float64 { return r.W * r.H }
+```
+
+`Circle` and `Rectangle` both satisfy `Shape` because they both have an `Area()
+float64` method — no declaration needed. A function that takes a `Shape`
+accepts both:
+
+```go
+func totalArea(shapes []Shape) float64 {
+    var total float64
+    for _, s := range shapes {
+        total += s.Area()
+    }
+    return total
+}
+```
+
+**Contrast with Java.** Java requires `class Circle implements Shape` — the
+relationship is declared by the class. Go's implicit satisfaction means a type
+written for one purpose can satisfy an interface written later, without
+modification. This is the reason Go codebases don't have the deep inheritance
+hierarchies that Java codebases accumulate: the interface is defined by the
+*consumer*, not the producer, so each consumer defines only the methods it
+actually needs.
+
+## 4. Error handling without exceptions
+
+**Definition.** Go returns errors as values: `error` is an interface with one
+method (`Error() string`), and functions that can fail return a
+`(result, error)` pair.
+
+```go
+func divide(a, b float64) (float64, error) {
+    if b == 0 {
+        return 0, fmt.Errorf("division by zero")
+    }
+    return a / b, nil
+}
+
+result, err := divide(10, 3)
+if err != nil {
+    fmt.Println("Error:", err)
+    return
+}
+fmt.Println("Result:", result)
+```
+
+**Contrast with exceptions.** Exceptions make the error path invisible: a
+function signature doesn't tell you what errors it can produce, and an
+exception can propagate to a caller that doesn't expect it. Go's error values
+make the error path visible: the `(result, error)` return signature tells you
+the function can fail, and the `if err != nil` check is *required* — the
+compiler forces you to handle the error (or explicitly ignore it with `_`).
+
+**Why Go rejected exceptions.** Exceptions add an invisible control-flow path
+that makes reasoning about correctness harder: any function call might throw,
+so you need to reason about every possible exception at every call site. Go's
+error values make the error path visible and forces you to handle it — which
+is verbose but correct.
+
+## 5. Self-test
+
+1. What happens when `main` returns while a goroutine is still running? (§1)
+2. Write a function that takes a receive-only channel and prints every value
+   received until the channel is closed. (§2)
+3. Why does Go not need an `implements` keyword? (§3)
+4. What is the difference between `error` and `nil`, and why does the `(result,
+   error)` pattern work? (§4)
+5. What is a buffered channel, and when would you use one? (§2)
+
+**Answers.**
+(1) The program exits and all running goroutines are killed — the `main`
+goroutine's return is the program's exit. Use a channel or `sync.WaitGroup` to
+wait for goroutines to finish.
+(2) `func print(ch <-chan int) { for v := range ch { fmt.Println(v) } }` —
+the `range` on a channel receives until the channel is closed.
+(3) Go uses structural typing for interfaces: a type satisfies an interface
+if it has the required methods, regardless of whether the relationship is
+declared. No `implements` keyword is needed because the compiler checks the
+method set.
+(4) `error` is an interface type; `nil` is the zero value meaning "no error."
+The `(result, error)` pattern works because the caller must unpack both values
+and check `err` before using `result` — the error path is visible in the
+function signature.
+(5) A buffered channel has an internal queue: sends do not block until the
+buffer is full. Use one when the sender and receiver have known rate
+differences — e.g., a producer that generates items in bursts and a consumer
+that processes them at a steady rate.
+
+## Where to go next
+
+- [The Go Track](/) — the language in full: modules, testing, generics, and the standard library.
+- [Concurrency](https://go.wyattau.com/concurrency/) — the deeper treatment of goroutines, channels, the `sync` package, and the race detector.
+- [Linux](https://linux.wyattau.com/) — the operating system that Go programs run on and deploy to.
+- [Databases](https://databases.wyattau.com/) — the storage layer that Go services connect to.
+- [Computer Science Track](https://computer-science.wyattau.com/1-discrete-mathematics/) — the theoretical foundations of the concurrency model.
 
 ---
 
@@ -217,15 +391,9 @@ Go's standard library is deliberately comprehensive, the language philosophy bat
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -234,96 +402,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -546,6 +624,14 @@ URL: https://go.wyattau.com/hub/
 }
 </script>
 
+:::note[New to Go's concurrency model? Start here]
+Read **[Before You Begin: Concurrency and Simplicity in Go](/before-you-begin/)**
+first. It builds goroutines and channels from first principles, explains the
+CSP model that makes race conditions impossible by construction, covers
+interfaces without inheritance, and names the features Go removed by design.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -563,16 +649,6 @@ URL: https://go.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -633,7 +709,7 @@ Go has a focused set of types: primitives, arrays, slices, maps, and structs. Th
 
 **Maps** are hash tables with a simple API. Accessing a missing key returns the zero value, use the comma-ok idiom (`value, ok := m[key]`) to distinguish between a zero value and a missing key. Maps are not safe for concurrent use without synchronization.
 
-**Struct tags** provide metadata for struct fields, commonly used for JSON encoding/decoding, database mapping, and validation. Tags are key-value pairs in backtick strings: `` `json:"name,omitempty"` ``.
+**Struct tags** provide metadata for struct fields, commonly used for JSON encoding/decoding, database mapping, and validation. Tags are key-value pairs in backtick strings: `` ``, ``json:"name,omitempty"``, `` ``.
 
 ---
 
@@ -717,7 +793,7 @@ Go handles errors with return values, not exceptions. Every function that can fa
 
 **Error wrapping** with `fmt.Errorf("doing thing: %w", err)` adds context to errors while preserving the original. `errors.Is` and `errors.as` unwrap error chains to check for specific error types. This enables structured error handling without exceptions.
 
-**Sentinel errors** are predefined error values that callers check with `errors.Is`. They represent specific failure conditions: `sql.ErrNoRows``io.EOF`or custom package-level errors.
+**Sentinel errors** are predefined error values that callers check with `errors.Is`. They represent specific failure conditions: `sql.ErrNoRows`, `io.EOF`or custom package-level errors.
 
 ---
 
@@ -788,7 +864,7 @@ Go uses Go Modules for dependency management. The `go.mod` file declares the mod
 
 ### Is Go good for large codebases?
 
-Yes. Go was designed for large codebases with many contributors. Its simplicity, explicit error handling, and strong tooling (`go fmt``go vet``go test`) make it easy to maintain consistency across large teams. The language enforces a single style, reducing code review friction.
+Yes. Go was designed for large codebases with many contributors. Its simplicity, explicit error handling, and strong tooling (`go fmt`, `go vet`, `go test`) make it easy to maintain consistency across large teams. The language enforces a single style, reducing code review friction.
 
 ---
 
@@ -901,6 +977,14 @@ import Citations from '@components/Citations.astro'
 }
 </script>
 
+:::note[New to Go's concurrency model? Start here]
+Read **[Before You Begin: Concurrency and Simplicity in Go](/before-you-begin/)**
+first. It builds goroutines and channels from first principles, explains the
+CSP model that makes race conditions impossible by construction, covers
+interfaces without inheritance, and names the features Go removed by design.
+:::
+
+
 ## Why Go
 
 Go was designed at Google by Rob Pike, Ken Thompson, and Robert Griesemer, first released in 2009.
@@ -1000,7 +1084,7 @@ Every Go file belongs to a package. Executables must be in `package main` and ex
 ### `go run`
 
 Compiles and executes one or more `.go` files in a temporary directory. Useful for development and
-One-off scripts. Does not produce a persistent binary.
+one-off scripts. Does not produce a persistent binary.
 
 ```bash
 go run .
@@ -1080,7 +1164,7 @@ myproject/
 ```
 
 The `internal/` directory is special: packages inside `internal` cannot be imported by packages
-Outside the module tree rooted at the parent of `internal`. This enforces encapsulation.
+outside the module tree rooted at the parent of `internal`. This enforces encapsulation.
 
 The `cmd/` directory convention holds executable entry points.
 
@@ -1116,6 +1200,8 @@ Version control and never edited manually.
 
 ## Where Go Runs
 
+<div class="table-wrap">
+
 | Target                               | Use Case                   |
 | ------------------------------------ | -------------------------- |
 | **Linux** (amd64, arm64)             | Servers, containers, cloud |
@@ -1124,6 +1210,8 @@ Version control and never edited manually.
 | **WebAssembly** (wasm)               | Browser, edge computing    |
 | **FreeBSD/OpenBSD**                  | Networking, infrastructure |
 | **Embedded** (GOOS=linux GOARCH=arm) | IoT, routers, ARM devices  |
+
+</div>
 
 ## Intuition
 
@@ -2469,17 +2557,6 @@ go test -tags=integration ./...
    `t.Cleanup` runs after the test and all its subtests finish, making it the correct choice for
    resource teardown.
 
-
-```mermaid
-flowchart TD
-    A[Architecture] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of Go project architecture, including underlying theory,
@@ -2493,13 +2570,7 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -2562,18 +2633,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -2614,10 +2673,10 @@ myproject/
 
 ### Package Naming Conventions
 
-- Lowercase, single word: `http``json``strings`
+- Lowercase, single word: `http`, `json`, `strings`
 - No underscores or mixed case
 - The directory name matches the package name
-- Avoid repetition: `pkg/utils/utils.go` -> the package is `utils`Not `utilsutils`
+- Avoid repetition: `pkg/utils/utils.go` -> the package is `utils`. Not `utilsutils`
 
 ### Import Paths
 
@@ -2699,7 +2758,7 @@ import "github.com/you/myproject/v2"
 ```
 
 The `/v2` suffix is part of the module path, not the package path. This allows v1 and v2 to coexist
-In the same dependency graph.
+in the same dependency graph.
 
 ## go.sum
 
@@ -2763,7 +2822,7 @@ go clean -modcache
 
 Go uses Minimal Version Selection, not SemVer resolution. For each dependency, Go selects the
 Maximum version required by any module in the graph. It does not upgrade transitive dependencies to
-Their latest version.
+their latest version.
 
 Example: if A requires C@v1.1.0 and B requires C@v1.2.0, Go uses C@v1.2.0 (the maximum required
 Version). It does not use C@v1.3.0 even if that exists, because no module requires it.
@@ -2859,17 +2918,6 @@ CI with restricted internet).
 7. **Forgetting `go.work sync`.** After adding modules to a workspace, run `go work sync` to update
    `go.mod` files with workspace-relevant information.
 
-
-```mermaid
-flowchart TD
-    A[Modules And Packages] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of modules and packages, including underlying theory, practical
@@ -2883,13 +2931,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -3336,17 +3378,6 @@ client := &http.Client{
    `ListenAndServeTLS`. Do not configure HTTP/2 via `h2` package separately unless you have a
    specific reason.
 
-
-```mermaid
-flowchart TD
-    A[Networking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - `net.Dial` / `net.Listen` handle TCP; `net.DialUDP` handles UDP. Always set deadlines.
@@ -3359,9 +3390,6 @@ flowchart TD
 - `crypto/tls` handles server certs, client certs (mTLS), and custom CA pools.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -3390,7 +3418,7 @@ URL: https://go.wyattau.com/advanced/pointers-and-memory/
 ## Pointer Basics
 
 Go has pointers, but no pointer arithmetic (except via `unsafe`). Pointers hold the memory address
-Of a value.
+of a value.
 
 ```go
 x := 42
@@ -3428,7 +3456,7 @@ fmt.Println(x) // 43
 ### Returning Pointers to Local Variables
 
 Go allows returning pointers to local variables. The compiler performs escape analysis and allocates
-The variable on the heap if it escapes:
+the variable on the heap if it escapes:
 
 ```go
 func newInt() *int {
@@ -3481,7 +3509,7 @@ fmt.Println(alice.Age) // 31 -- changed
 ## Escape Analysis
 
 The Go compiler uses escape analysis to determine whether a variable can live on the stack or must
-Be allocated on the heap. A variable "escapes" if it is reachable after the function returns.
+be allocated on the heap. A variable "escapes" if it is reachable after the function returns.
 
 ### What Causes Heap Allocation
 
@@ -3525,6 +3553,8 @@ Use `-gcflags="-m -m"` for verbose output.
 
 ## Stack vs Heap
 
+<div class="table-wrap">
+
 | Property     | Stack                        | Heap                           |
 | ------------ | ---------------------------- | ------------------------------ |
 | Allocation   | Automatic (push/pop frame)   | Manual (via `new`/escape)      |
@@ -3532,6 +3562,8 @@ Use `-gcflags="-m -m"` for verbose output.
 | Speed        | Very fast (pointer bump)     | Slower (GC involvement)        |
 | Size         | Limited (default 1GB, grows) | Large (limited by system)      |
 | Access       | Direct (register/offset)     | Indirect (pointer dereference) |
+
+</div>
 
 Stack allocation is preferred because it is faster (no GC overhead) and the memory is automatically
 Reclaimed when the function returns. The Go compiler works hard to keep variables on the stack.
@@ -3548,7 +3580,7 @@ Extremely deep recursion (millions of frames) may exhaust memory.
 ## The unsafe Package
 
 The `unsafe` package provides operations that bypass Go's type safety. It should be used sparingly
-And only when interfacing with C or implementing low-level data structures.
+and only when interfacing with C or implementing low-level data structures.
 
 ### Pointer Arithmetic
 
@@ -3594,7 +3626,7 @@ s := unsafe.String(&b[0], len(b)) // []byte to string without allocation
 2. Never store a `uintptr` where the GC can see it. The GC treats `uintptr` as an integer, not a
    pointer, and may collect the underlying object.
 
-3. `unsafe.Pointer` rules: a `T1` can be converted to `unsafe.Pointer`Which can be converted to
+3. `unsafe.Pointer` rules: a `T1` can be converted to `unsafe.Pointer`. Which can be converted to
    `T2`. This allows arbitrary pointer type conversion.
 
 ```go
@@ -3641,17 +3673,6 @@ Pointers can also be compared to `nil`.
 6. **Not checking escape analysis output.** When performance matters, run `go build -gcflags="-m"`
    and verify that hot-path variables are not unnecessarily escaping to the heap.
 
-
-```mermaid
-flowchart TD
-    A[Pointers And Memory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of pointers and memory, including underlying theory, practical
@@ -3665,13 +3686,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -3741,9 +3756,9 @@ fmt.Println(t.Name()) // MyInt
 fmt.Println(t.Kind()) // int
 ```
 
-`Kind` is one of: `Bool``Int``Int8``Int16``Int32``Int64``Uint``Uint8``Uint16`
-`Uint32``Uint64``Float32``Float64``Complex64``Complex128``String``Array``Slice`
-`Map``Chan``Func``Interface``Struct``Ptr``UnsafePointer`.
+`Kind` is one of: `Bool`, `Int`, `Int8`, `Int16`, `Int32`, `Int64`, `Uint`, `Uint8`, `Uint16`
+`Uint32`, `Uint64`, `Float32`, `Float64`, `Complex64`, `Complex128`, `String`, `Array`, `Slice`
+`Map`, `Chan`, `Func`, `Interface`, `Struct`, `Ptr`, `UnsafePointer`.
 
 ## Modifying Values
 
@@ -3931,7 +3946,7 @@ reflect.ValueOf(&p).Elem().FieldByName("Name").SetString("Alice")
 ```
 
 If performance is critical, avoid reflection. Consider code generation (text/template) or generics
-As alternatives.
+as alternatives.
 
 ## Common Pitfalls
 
@@ -3956,17 +3971,6 @@ As alternatives.
 7. **Ignoring `CanAddr` and `CanSet`.** Not all `reflect.Value` objects are addressable or settable.
    Always check before attempting modification.
 
-
-```mermaid
-flowchart TD
-    A[Reflection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of reflection, including underlying theory, practical
@@ -3980,13 +3984,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -4375,17 +4373,6 @@ fi
    production. Prefer thin wrappers around real dependencies and integration tests for critical
    paths.
 
-
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - `go test ./...` runs all tests; `*_test.go` files are excluded from production builds.
@@ -4399,9 +4386,6 @@ flowchart TD
 - `go test -coverprofile` generates profiles for HTML reports and CI enforcement.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -4525,7 +4509,7 @@ fmt.Println(a) // [0 99 2 3]
 #### Append
 
 `append` adds elements to a slice. If the capacity is exceeded, a new underlying array is allocated
-And all elements are copied:
+and all elements are copied:
 
 ```go
 s := []int{1, 2}
@@ -4597,13 +4581,13 @@ emptySlice := []int{}    // not nil, len=0, cap=0
 madeSlice := make([]int, 0) // not nil, len=0, cap=0
 ```
 
-The difference matters for JSON marshaling: `nil` marshals to `null`While `[]int{}` marshals to
+The difference matters for JSON marshaling: `nil` marshals to `null`. While `[]int{}` marshals to
 `[]`. For most other purposes, they are interchangeable.
 
 ## Maps
 
 Maps are hash tables mapping keys to values. The zero value is `nil`. A `nil` map is empty but
-Cannot be written to.
+cannot be written to.
 
 ```go
 var m map[string]int   // nil map
@@ -4719,7 +4703,7 @@ fmt.Println(d.Name) // "test" -- promoted field
 ```
 
 Promoted fields are accessed directly on the embedding struct. This is syntactic sugar -- there is
-No inheritance hierarchy. The embedded struct"s methods are also promoted.
+no inheritance hierarchy. The embedded struct"s methods are also promoted.
 
 ### Comparing Structs
 
@@ -4758,17 +4742,6 @@ Structs containing slices or maps are not comparable.
 6. **Struct embedding is not inheritance.** There is no `super` call, no method overriding in the
    OOP sense. Embedding is composition with syntactic sugar for field/method promotion.
 
-
-```mermaid
-flowchart TD
-    A[Arrays Slices Maps] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of arrays, slices, and maps, including underlying theory,
@@ -4782,13 +4755,7 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -4930,7 +4897,7 @@ case 4:
 
 ## For Loops
 
-Go has exactly one looping construct: `for`. There is no `while`No `do-while`No `loop`.
+Go has exactly one looping construct: `for`. There is no `while`. No `do-while`. No `loop`.
 
 ### Classic For
 
@@ -5052,7 +5019,7 @@ for _, p := range items {
 
 ## Break and Continue
 
-`break` exits the innermost `for``switch`Or `select`. `continue` skips to the next iteration of The
+`break` exits the innermost `for`, `switch` or `select`. `continue` skips to the next iteration of The
 innermost `for` loop.
 
 ### Labeled Break
@@ -5111,7 +5078,7 @@ invalid:
 }
 ```
 
-`goto` is rarely used in idiomatic Go. Prefer structured control flow (`for``if`Functions).
+`goto` is rarely used in idiomatic Go. Prefer structured control flow (`for`, `if`Functions).
 
 ## Defer
 
@@ -5192,17 +5159,6 @@ Fix: pass as an argument `go func(val int) { ... }(v)`.
 3. **Range copies values.** Modifying the range variable does not modify the original element. Use
    index-based access for mutations.
 
-
-```mermaid
-flowchart TD
-    A[Control Flow] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of control flow, including underlying theory, practical
@@ -5216,13 +5172,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -5376,7 +5326,7 @@ fmt.Println(apply(add, 3, 4)) // 7
 ```
 
 Function values are comparable. Two function values are equal if they refer to the same function or
-Were created by evaluating the same function literal:
+were created by evaluating the same function literal:
 
 ```go
 fn1 := func() {}
@@ -5485,7 +5435,7 @@ fmt.Println(p.Area()) // OK -- auto-dereferences
 ### Method Sets
 
 The method set of a type `T` contains all value receiver methods. The method set of `*T` contains
-All methods (value and pointer receiver). This matters for interface satisfaction -- if an interface
+all methods (value and pointer receiver). This matters for interface satisfaction -- if an interface
 Requires a method with a pointer receiver, only `*T` satisfies it, not `T`.
 
 ## Anonymous Functions
@@ -5563,17 +5513,6 @@ Key rules:
 6. **Comparing function values.** Function values are comparable but comparison only returns true
    for identical function instances. Two closures with identical bodies are not equal.
 
-
-```mermaid
-flowchart TD
-    A[Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, including key
@@ -5587,13 +5526,7 @@ theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -5623,6 +5556,8 @@ URL: https://go.wyattau.com/basics/types-and-variables/
 
 Go provides signed and unsigned integers at standard widths:
 
+<div class="table-wrap">
+
 | Type               | Size (bytes) | Range (signed)                                          | Range (unsigned)                |
 | ------------------ | ------------ | ------------------------------------------------------- | ------------------------------- |
 | `int8` / `uint8`   | 1            | -128 to 127                                             | 0 to 255                        |
@@ -5631,6 +5566,8 @@ Go provides signed and unsigned integers at standard widths:
 | `int64` / `uint64` | 8            | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | 0 to 18,446,744,073,709,551,615 |
 | `int` / `uint`     | 4 or 8       | Same as `int32` or `int64` (platform-dependent)         | Same as `uint32` or `uint64`    |
 | `uintptr`          | 4 or 8       | Unsigned integer large enough to store a pointer value  |                                 |
+
+</div>
 
 `int` and `uint` are the default integer types. Their size matches the native word size of the
 Platform: 32 bits on 32-bit systems, 64 bits on 64-bit systems. Use `int` unless you need a specific
@@ -5644,7 +5581,7 @@ var y int64 = 42
 ### Integer Overflow
 
 Go integers wrap around on overflow in the same manner as two"s complement arithmetic. The compiler
-Does not insert runtime checks:
+does not insert runtime checks:
 
 ```go
 var x uint8 = 255
@@ -5659,10 +5596,14 @@ a, carry := bits.Add(255, 1, 0) // a == 0, carry == 1
 
 ## Floating-Point Types
 
+<div class="table-wrap">
+
 | Type      | Size    | Precision             |
 | --------- | ------- | --------------------- |
 | `float32` | 4 bytes | ~6-7 decimal digits   |
 | `float64` | 8 bytes | ~15-16 decimal digits |
+
+</div>
 
 `float64` is the default. Both conform to IEEE 754.
 
@@ -5699,7 +5640,7 @@ fmt.Println(!b) // false
 ## String Type
 
 Strings are immutable sequences of UTF-8 bytes. They are not null-terminated and their length is
-Stored explicitly. The zero value is `""`Not `nil`.
+Stored explicitly. The zero value is `""`. Not `nil`.
 
 ```go
 s := "hello"
@@ -5741,6 +5682,8 @@ result := sb.String()
 Every type in Go has a zero value. Variables declared without an explicit initializer are set to
 Zero. This eliminates uninitialized variable bugs.
 
+<div class="table-wrap">
+
 | Type      | Zero Value                            |
 | --------- | ------------------------------------- |
 | `int`     | `0`                                   |
@@ -5754,6 +5697,8 @@ Zero. This eliminates uninitialized variable bugs.
 | Interface | `nil`                                 |
 | Struct    | All fields set to their zero values   |
 | Array     | All elements set to their zero values |
+
+</div>
 
 ```go
 var x int
@@ -5825,7 +5770,7 @@ const (
 ### `iota`
 
 `iota` is a predeclared identifier that resets to 0 in each `const` block and increments by one for
-Each subsequent constant. It enables bit flag and enumeration patterns:
+each subsequent constant. It enables bit flag and enumeration patterns:
 
 ```go
 const (
@@ -5909,7 +5854,7 @@ type Rune = int32
 1. **Using `==` to compare floats.** IEEE 754 makes exact equality unreliable. Use an epsilon
    comparison: `math.Abs(a-b) < epsilon`.
 
-2. **String indexing yields bytes.** `s[i]` returns a `byte`Not a `rune`. For multi-byte UTF-8, this
+2. **String indexing yields bytes.** `s[i]` returns a `byte`. Not a `rune`. For multi-byte UTF-8, this
    can split a character. Use `for i, r := range s` for rune iteration.
 
 3. **Assuming `int` is 64-bit.** On 32-bit systems, `int` is 32 bits. Use `int64` explicitly when
@@ -5919,23 +5864,12 @@ type Rune = int32
    one. Use `=` for assignment to an existing variable.
 
 5. **`nil` slices vs empty slices.** A `nil` slice has length and capacity 0 but is not equal to an
-   empty slice (`[]int{}`). JSON marshaling treats them differently: `nil` becomes `null``[]int{}`
+   empty slice (`[]int{}`). JSON marshaling treats them differently: `nil` becomes `null`, `[]int{}`
    becomes `[]`.
 
 6. **Integer overflow is silent.** Unlike Rust (debug panics) or Python (arbitrary precision), Go
    wraps on overflow without any runtime error. Use `math/bits` or explicit checks when overflow is
    a concern.
-
-
-```mermaid
-flowchart TD
-    A[Types And Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5950,13 +5884,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -5997,7 +5925,7 @@ buf := make(chan int, 10)    // sender can buffer up to 10
 ## Select
 
 `select` allows a goroutine to wait on multiple channel operations simultaneously. It blocks until
-One of its cases can proceed, then executes that case:
+one of its cases can proceed, then executes that case:
 
 ```go
 ch1 := make(chan string)
@@ -6227,6 +6155,8 @@ Boundaries. It is the standard mechanism for propagating cancellation signals in
 
 ### Context Types
 
+<div class="table-wrap">
+
 | Type                   | Purpose                                           |
 | ---------------------- | ------------------------------------------------- |
 | `context.Background`   | Root context, never cancelled                     |
@@ -6235,6 +6165,8 @@ Boundaries. It is the standard mechanism for propagating cancellation signals in
 | `context.WithTimeout`  | Returns a context that cancels after a deadline   |
 | `context.WithDeadline` | Returns a context that cancels at a specific time |
 | `context.WithValue`    | Returns a context carrying a key-value pair       |
+
+</div>
 
 ### WithCancel
 
@@ -6311,7 +6243,7 @@ Client disconnects, the context is cancelled, propagating to all goroutines hand
 
 ## Common Pitfalls
 
-1. **Forgetting to call the cancel function.** `WithCancel``WithTimeout`And `WithDeadline` return a
+1. **Forgetting to call the cancel function.** `WithCancel`, `WithTimeout` and `WithDeadline` return a
    cancel function that must be called to release resources. Use `defer cancel()`.
 
 2. **Not propagating context through function calls.** If a function starts goroutines, accept a
@@ -6334,17 +6266,6 @@ Client disconnects, the context is cancelled, propagating to all goroutines hand
 7. **Race conditions with `select`.** If multiple cases are ready, `select` chooses uniformly at
    random. Do not assume a preferred order.
 
-
-```mermaid
-flowchart TD
-    A[Channels] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of channels and concurrency patterns, including underlying
@@ -6358,13 +6279,7 @@ theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -6418,7 +6333,7 @@ for i := 0; i < 100000; i++ {
 
 Go uses an M:N scheduler: M goroutines are multiplexed onto N OS threads (called "M" in Go"s runtime
 Terminology, with "P" as logical processors). The scheduler uses work-stealing to balance load
-Across Ps.
+across Ps.
 
 Key components:
 
@@ -6550,7 +6465,7 @@ Vice versa). Use `Lock`/`Unlock` for writes.
 ### When to Use RWMutex vs Mutex
 
 Use `RWMutex` when reads significantly outnumber writes and the read critical section is not short.
-The overhead of `RWMutex` is higher than `Mutex`So if reads are rare or the Critical section is a
+The overhead of `RWMutex` is higher than `Mutex`. So if reads are rare or the Critical section is a
 single field read, `Mutex` may be faster.
 
 ## sync.Once
@@ -6679,7 +6594,7 @@ Use directional channels in function signatures to make the intended usage expli
    is ready. If no receiver exists, the goroutine blocks forever.
 
 5. **Copying a Mutex after use.** `sync.Mutex` must not be copied after first use. The same applies
-   to `sync.RWMutex``sync.WaitGroup``sync.Cond`And `sync.Pool`. Use pointers.
+   to `sync.RWMutex`, `sync.WaitGroup`, `sync.Cond` and `sync.Pool`. Use pointers.
 
 6. **Using goroutines without synchronization.** Starting a goroutine and not waiting for it or
    communicating with it via a channel leads to data races. Use `sync.WaitGroup` or channels to
@@ -6687,17 +6602,6 @@ Use directional channels in function signatures to make the intended usage expli
 
 7. **Deadlock with RWMutex.** A goroutine holding `RLock` cannot upgrade to `Lock` -- it must
    release `RLock` first. Attempting to call `Lock()` while holding `RLock()` deadlocks.
-
-
-```mermaid
-flowchart TD
-    A[Goroutines] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -6712,13 +6616,7 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -7156,17 +7054,6 @@ g.Go(func() error {
 2. **Leaking goroutines with errgroup.** If `g.Go` panics, `g.Wait` re-panics. Always recover or
    return errors from goroutines rather than panicking.
 
-
-```mermaid
-flowchart TD
-    A[Race Conditions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of race conditions and data races in Go, including underlying
@@ -7182,13 +7069,7 @@ theory, practical implementation, and key applications.
 - errgroup for grouped goroutines
 - common concurrency pitfalls
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -7499,17 +7380,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 7. **String-based error matching.** Using `strings.Contains(err.Error(), "not found")` is fragile.
    Use sentinel errors or custom error types with `errors.Is`/`errors.As`.
 
-
-```mermaid
-flowchart TD
-    A[Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical
@@ -7523,13 +7393,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -7555,7 +7419,7 @@ URL: https://go.wyattau.com/intermediate/generics/
 
 Go 1.18 (released March 2022) added generics via type parameters. Generics allow you to write
 Functions and types that abstract over different concrete types while maintaining full type safety
-At compile time.
+at compile time.
 
 ## Type Parameters
 
@@ -7648,7 +7512,7 @@ func Sum[T Number](nums []T) T {
 }
 ```
 
-The `~` token means "the underlying type must be." A type `MyInt int` has underlying type `int`So It
+The `~` token means "the underlying type must be." A type `MyInt int` has underlying type `int`. So It
 satisfies `~int`.
 
 ### Methods in Constraints
@@ -7689,6 +7553,8 @@ func Clamp[T constraints.Ordered](v, lo, hi T) T {
 
 Common constraints:
 
+<div class="table-wrap">
+
 | Constraint             | Types Allowed                                        |
 | ---------------------- | ---------------------------------------------------- |
 | `constraints.Signed`   | `~int``~int8``~int16``~int32``~int64`                |
@@ -7697,6 +7563,8 @@ Common constraints:
 | `constraints.Float`    | `~float32``~float64`                                 |
 | `constraints.Ordered`  | All integers, floats, and `~string`                  |
 | `constraints.Complex`  | `~complex64``~complex128`                            |
+
+</div>
 
 ## Generic Types
 
@@ -7809,7 +7677,7 @@ func (s *Stack[T]) Filter(predicate func(T) bool) *Stack[T] {
 ```
 
 Note: methods cannot introduce new type parameters that are not on the receiver. All type parameters
-Must be declared on the type.
+must be declared on the type.
 
 ## Instantiation
 
@@ -7857,17 +7725,6 @@ Specialization of the generic function or type. There is no boxing or type erasu
 5. **Generic type assertion ambiguity.** When type parameters appear in the same signature position
    as concrete types, inference may fail. Specify type arguments explicitly in such cases.
 
-
-```mermaid
-flowchart TD
-    A[Generics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical
@@ -7881,13 +7738,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -7912,7 +7763,7 @@ URL: https://go.wyattau.com/intermediate/interfaces/
 ## Interface Basics
 
 An interface in Go defines a set of method signatures. A type satisfies an interface by implementing
-All of its methods. There is no explicit `implements` declaration -- satisfaction is implicit and
+all of its methods. There is no explicit `implements` declaration -- satisfaction is implicit and
 Structural.
 
 ```go
@@ -7961,7 +7812,7 @@ type ReadWriteCloser interface {
 }
 ```
 
-`ReadWriteCloser` requires all methods from `Reader``Writer`And `Closer`.
+`ReadWriteCloser` requires all methods from `Reader`, `Writer` and `Closer`.
 
 ## The Empty Interface
 
@@ -8084,12 +7935,12 @@ func main() {
 The rule: if any method of an interface has a pointer receiver, only a pointer to the type (not the
 Value itself) satisfies the interface. This is because calling a pointer receiver on a copy of the
 Value would be meaningless -- the method modifies the receiver, but the modification is lost when
-The copy is discarded.
+the copy is discarded.
 
 ## Nil Interface Values
 
 An interface value is a two-word tuple: (type, value). A nil interface has both type and value set
-To nil:
+to nil:
 
 ```go
 var s Speaker
@@ -8104,7 +7955,7 @@ var s Speaker = p // type is *Dog, value is nil
 fmt.Println(s == nil) // false!
 ```
 
-This is a common source of bugs. The interface is not nil because its type is `*Dog`Even though The
+This is a common source of bugs. The interface is not nil because its type is `*Dog`. Even though The
 value is nil. Calling a method on it works (the receiver is nil inside the method), but Comparing
 the interface to `nil` does not detect it.
 
@@ -8134,6 +7985,8 @@ Initialized.
 
 Go"s standard library defines several pervasive interfaces:
 
+<div class="table-wrap">
+
 | Interface        | Methods                                        | Used By                        |
 | ---------------- | ---------------------------------------------- | ------------------------------ |
 | `io.Reader`      | `Read(p []byte) (n int, err error)`            | Files, network connections     |
@@ -8142,6 +7995,8 @@ Go"s standard library defines several pervasive interfaces:
 | `fmt.Stringer`   | `String() string`                              | Custom string representation   |
 | `error`          | `Error() string`                               | Error values                   |
 | `sort.Interface` | `Len() int``Less(i,j int) bool``Swap(i,j int)` | Sorting                        |
+
+</div>
 
 Implementing `fmt.Stringer`:
 
@@ -8184,17 +8039,6 @@ fmt.Println(IPAddr{127, 0, 0, 1}) // 127.0.0.1
 5. **Empty interface in slices.** `[]any` is a common pattern but loses type safety. Since Go 1.18,
    prefer generics: `[]T` where `T` is a type parameter.
 
-
-```mermaid
-flowchart TD
-    A[Interfaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of interfaces, including underlying theory, practical
@@ -8208,13 +8052,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -8418,6 +8256,8 @@ defer f.Close()
 
 ### File Flags
 
+<div class="table-wrap">
+
 | Flag          | Meaning                            |
 | ------------- | ---------------------------------- |
 | `os.O_RDONLY` | Read-only                          |
@@ -8427,6 +8267,8 @@ defer f.Close()
 | `os.O_CREATE` | Create if not exists               |
 | `os.O_TRUNC`  | Truncate when opening              |
 | `os.O_EXCL`   | Used with O_CREATE, fail if exists |
+
+</div>
 
 ### File Permissions
 
@@ -8472,6 +8314,8 @@ fmt.Errorf("failed: %w", err)   // format to error
 
 ### Format Verbs
 
+<div class="table-wrap">
+
 | Verb  | Meaning                        |
 | ----- | ------------------------------ |
 | `%v`  | Default format                 |
@@ -8489,6 +8333,8 @@ fmt.Errorf("failed: %w", err)   // format to error
 | `%p`  | Pointer address                |
 | `%t`  | Boolean (true/false)           |
 | `%w`  | Error (wraps for errors.Is/As) |
+
+</div>
 
 ### Width and Precision
 
@@ -8622,17 +8468,6 @@ func (t *Time) UnmarshalJSON(data []byte) error {
 8. **Not checking scanner errors.** After a `scanner.Scan()` loop, always check `scanner.Err()`. The
    loop may exit due to an I/O error, not just `io.EOF`.
 
-
-```mermaid
-flowchart TD
-    A[Io] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of standard library i/o, including underlying theory, practical
@@ -8646,13 +8481,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -8936,12 +8765,16 @@ slog.Error("connection failed", "err", err)
 
 ### Log Levels
 
+<div class="table-wrap">
+
 | Level | Method       | Typical Use              |
 | ----- | ------------ | ------------------------ |
 | DEBUG | `slog.Debug` | Verbose development info |
 | INFO  | `slog.Info`  | Normal operations        |
 | WARN  | `slog.Warn`  | Potential issues         |
 | ERROR | `slog.Error` | Failures needing action  |
+
+</div>
 
 ### Handlers
 
@@ -9034,6 +8867,8 @@ handler(ctx)
 
 ## Choosing Between log and log/slog
 
+<div class="table-wrap">
+
 | Aspect        | `log`             | `log/slog`                     |
 | ------------- | ----------------- | ------------------------------ |
 | Structured    | No (text only)    | Yes (key-value pairs)          |
@@ -9041,6 +8876,8 @@ handler(ctx)
 | Output        | Stderr by default | Configurable handler           |
 | Go version    | All               | Go 1.21+                       |
 | Machine-parse | No                | JSON handler                   |
+
+</div>
 
 Use `log/slog` for new code. Use `log` only for simple scripts or maintaining legacy code that Does
 not benefit from structured output.
@@ -9085,18 +8922,8 @@ slog.Info("user logged in", "username", username, "ip", ip)
    services, wrap the handler with a buffered writer or use an async handler to avoid blocking.
 
 7. **Using math/rand/v1.** The old `math/rand` package requires manual seeding and is deprecated.
-   Use `math/rand/v2` (Go 1.22+) which is auto-seeded and provides `rand.IntN``rand.N`and other
+   Use `math/rand/v2` (Go 1.22+) which is auto-seeded and provides `rand.IntN`, `rand.N`and other
    improvements.
-
-```mermaid
-flowchart TD
-    A[Math Sort Log] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -9111,13 +8938,7 @@ theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -9647,11 +9468,15 @@ Returns. The `context.WithTimeout` ensures shutdown does not hang indefinitely.
 
 ### Server Timeouts
 
+<div class="table-wrap">
+
 | Timeout        | Purpose                                     |
 | -------------- | ------------------------------------------- |
 | `ReadTimeout`  | Max time to read the entire request         |
 | `WriteTimeout` | Max time to write the response              |
 | `IdleTimeout`  | Max time a keep-alive connection stays open |
+
+</div>
 
 Without these timeouts, a slow client can hold a goroutine indefinitely, eventually exhausting
 Server resources.
@@ -9701,7 +9526,7 @@ Downstream operations.
    as the second argument registers routes on the global `http.DefaultServeMux`. Any package can
    Register routes on it. Use `http.NewServeMux()` to create an isolated router.
 
-4. **No timeouts on the server.** Without `ReadTimeout``WriteTimeout`and `IdleTimeout`a single
+4. **No timeouts on the server.** Without `ReadTimeout`, `WriteTimeout`and `IdleTimeout`a single
    Slow client can hold a goroutine forever. Always configure timeouts in production.
 
 5. **Blocking in handlers.** Handlers run in their own goroutines, but blocking calls (e.g.,
@@ -9713,16 +9538,6 @@ Downstream operations.
 
 7. **Not checking request body errors.** `r.Body` is a stream. If the client disconnects
    mid-request, Reading from `r.Body` returns an error. Always check errors from `r.Body` reads.
-
-```mermaid
-flowchart TD
-    A[Net Http] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -9737,13 +9552,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -10073,16 +9882,6 @@ loc, _ := time.LoadLocation("America/New_York")
 t, _ := time.ParseInLocation("2006-01-02 15:04", "2026-05-30 14:30", loc)
 ```
 
-```mermaid
-flowchart TD
-    A[Strings And Time] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of strings and time in Go, including underlying theory,
@@ -10096,13 +9895,7 @@ practical implementation, and key applications.
 - timers, tickers, and time zones
 - common pitfalls and best practices
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

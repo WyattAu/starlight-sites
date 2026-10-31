@@ -49,8 +49,8 @@ $h_x$: if $x$ is a leaf, it has $0 = 2^0 - 1$ internal nodes; otherwise, each ch
 at least $bh(x) - 1$ if it is red, or $bh(x)$ if it is black, so each child has at least
 $2^{bh(x)-1} - 1$ internal nodes, giving at least $2(2^{bh(x)-1} - 1) + 1 = 2^{bh(x)} - 1$ for $x$).
 
-Therefore $n \geq 2^{bh(\mathrm{root})} - 1$Giving $bh(\mathrm{root}) \leq \log_2(n+1)$. Since
-$h \leq 2 \cdot bh(\mathrm{root})$We have $h \leq 2\log_2(n+1)$. $\blacksquare$
+Therefore $n \geq 2^{bh(\mathrm{root})} - 1$ Giving $bh(\mathrm{root}) \leq \log_2(n+1)$. Since
+$h \leq 2 \cdot bh(\mathrm{root})$ We have $h \leq 2\log_2(n+1)$. $\blacksquare$
 
 **Corollary.** Search, insert, and delete in a red-black tree take $O(\log n)$ time.
 
@@ -62,18 +62,22 @@ Insertion follows the standard BST insert, then colours the new node red. This m
 **Cases after insertion** (let $z$ be the newly inserted red node, $p$ its parent, $u$ its uncle,
 and $g$ its grandparent):
 
+<div class="table-wrap">
+
 | Case | Uncle colour | Configuration                                              | Fix                                                                   |
 | ---- | ------------ | ---------------------------------------------------------- | --------------------------------------------------------------------- |
 | 1    | Red          | Any                                                        | Recolour $p$ and $u$ black, $g$ red; push problem up to $g$           |
 | 2    | Black        | $z$ and $p$ same direction (left-left or right-right)      | Single rotation at $g$; recolour $p$ black, $g$ red                   |
 | 3    | Black        | $z$ and $p$ opposite directions (left-right or right-left) | Double rotation: first at $p$ Then at $g$; recolour $z$ black, $g$ red |
 
+</div>
+
 **Theorem 1.2.** Insertion into a red-black tree with $n$ nodes takes $O(\log n)$ time and performs
 at most 2 rotations.
 
 _Proof._ The BST insert takes $O(\log n)$ time. The fix-up loop ascends the tree. Each iteration
 either terminates (cases 2 and 3 perform one or two rotations and terminate) or moves the problem
-two levels up (case 1 recolours and continues with $g$). Since the tree height is $O(\log n)$The
+two levels up (case 1 recolours and continues with $g$). Since the tree height is $O(\log n)$ The
 loop runs $O(\log n)$ times, but only cases 2 and 3 involve rotations, and at most one of these is
 reached. $\blacksquare$
 
@@ -188,12 +192,16 @@ changes the black-height of paths.
 
 **Fix-up cases** (let $w$ be the sibling of $x$):
 
+<div class="table-wrap">
+
 | Case | Sibling $w$ | $w$'s children                    | Fix                                                                |
 | ---- | ----------- | --------------------------------- | ------------------------------------------------------------------ |
 | 1    | Red         | Any                               | Left-rotate at parent, recolour; reduces to cases 2--4             |
 | 2    | Black       | Both black                        | Recolour $w$ red; push double-black up to parent                   |
-| 3    | Black       | Left child red, right child black | Right-rotate at $w$Recolour children; reduces to case 4            |
+| 3    | Black       | Left child red, right child black | Right-rotate at $w$ Recolour children; reduces to case 4            |
 | 4    | Black       | Right child red                   | Left-rotate at parent, recolour $w$ and parent's parent; terminate |
+
+</div>
 
 **Theorem 1.3.** Deletion from a red-black tree with $n$ nodes takes $O(\log n)$ time and performs
 at most 3 rotations.
@@ -318,7 +326,7 @@ _Insert 20:_ Root = [10, 20]. (2 keys, valid)
 
 _Insert 5:_ Root = [5, 10, 20]. (3 keys, valid)
 
-_Insert 6:_ Root = [5, 6, 10, 20]. (4 keys = $2t$Overflow!) Split: promote 6, create [5] and [10,
+_Insert 6:_ Root = [5, 6, 10, 20]. (4 keys = $2t$ Overflow!) Split: promote 6, create [5] and [10,
 20].
 
 ```
@@ -390,7 +398,7 @@ Now delete key 20. Key 20 is in the root [6, 20]. Replace with successor: 30 (fr
 from its leaf: [30] has 1 key = $t - 1$ So we need to handle carefully.
 
 Actually, we replace 20 with 30, and the leaf [30] becomes []. Since [30] is now empty and its
-sibling [10, 17] has 2 keys > $t - 1$We can borrow. But [10, 17] is not an immediate sibling of [30]
+sibling [10, 17] has 2 keys > $t - 1$ We can borrow. But [10, 17] is not an immediate sibling of [30]
 in terms of being a child of the same parent.
 
 Let me reconsider. The parent of [30] is the root [6, 20]. [30]'s siblings are [5, 7] and [10, 17].
@@ -427,6 +435,8 @@ height $h \leq \lceil \log_d(n) \rceil + 1$.
 
 #### 1.2.4 B+ Tree vs B-Tree Comparison
 
+<div class="table-wrap">
+
 | Property              | B-Tree                   | B+ Tree                      |
 | --------------------- | ------------------------ | ---------------------------- |
 | Data storage          | All nodes                | Leaf nodes only              |
@@ -436,6 +446,8 @@ height $h \leq \lceil \log_d(n) \rceil + 1$.
 | Fan-out               | Lower                    | Higher                       |
 | Height                | Higher                   | Lower                        |
 | Use case              | General-purpose          | Databases, file systems      |
+
+</div>
 
 :::caution
 A B-tree of order $m$ has maximum $m$ children per internal node, which means
@@ -457,12 +469,16 @@ prefix, and edges are labelled with characters.
 
 **Operations:**
 
+<div class="table-wrap">
+
 | Operation     | Time Complexity | Notes                         |
 | ------------- | --------------- | ----------------------------- |
 | Insert        | $O(L)$          | $L$ = length of string        |
 | Search        | $O(L)$          | Exact match                   |
 | Prefix search | $O(L + k)$      | $k$ = number of matches       |
 | Delete        | $O(L)$          | May need to prune empty nodes |
+
+</div>
 
 **Space.** A trie storing $n$ strings of total length $N$ uses $O(N)$ nodes. Each node has up to
 $|\Sigma|$ children pointers.
@@ -842,12 +858,16 @@ $B_{k-1}$ trees, making one the leftmost child of the other's root.
 
 **Properties of $B_k$:**
 
+<div class="table-wrap">
+
 | Property                             | Value          |
 | ------------------------------------ | -------------- |
 | Number of nodes                      | $2^k$          |
 | Height                               | $k$            |
 | Number of children of root           | $k$            |
 | Minimum number of nodes at depth $d$ | $\binom{k}{d}$ |
+
+</div>
 
 **Theorem 2.1.** A binomial heap with $n$ nodes contains at most $\lfloor \log_2 n \rfloor + 1$
 binomial trees.
@@ -901,6 +921,8 @@ Extract-min: remove $B_0: 1$. Remaining: $\{B_2: 2, \ldots\}$. Minimum is now 2.
 
 A **Fibonacci heap** is a collection of min-heap-ordered trees supporting:
 
+<div class="table-wrap">
+
 | Operation    | Amortised Cost | Note                                      |
 | ------------ | -------------- | ----------------------------------------- |
 | Insert       | $O(1)$         | Add tree to root list                     |
@@ -909,6 +931,8 @@ A **Fibonacci heap** is a collection of min-heap-ordered trees supporting:
 | Decrease-key | $O(1)$         | Cut and cascade                           |
 | Delete       | $O(\log n)$    | Decrease-key to $-\infty$ Then extract-min |
 | Union        | $O(1)$         | Concatenate root lists                    |
+
+</div>
 
 **Key difference from binomial heaps:** Fibonacci heaps allow trees to have any structure (not just
 binomial trees). Trees are only restructured during extract-min (consolidation). Decrease-key may
@@ -927,7 +951,7 @@ of any node in the Fibonacci heap.
 _Proof (outline)._ Define the potential $\Phi = t(H) + 2m(H)$ where $t(H)$ is the number of trees
 and $m(H)$ is the number of marked nodes. Show that each operation's amortised cost is bounded. For
 decrease-key, the actual cost is $O(c)$ where $c$ is the number of cascading cuts. The change in
-potential is at most $c + 2 - 2m'(H) \cdot (\text{terms} cancel)$Giving $O(1)$ amortised.
+potential is at most $c + 2 - 2m'(H) \cdot (\text{terms} cancel)$ Giving $O(1)$ amortised.
 $\blacksquare$
 
 :::caution
@@ -955,7 +979,7 @@ takes $O(\log n)$ amortised time.
 
 _Proof sketch._ The potential function is $\Phi = \log n$ per subtree (where $n$ is the subtree
 size). The key insight is that the two-pass merge of delete-min reduces the potential by at least
-$\log n$Absorbing the $O(n)$ work of merging. $\blacksquare$
+$\log n$ Absorbing the $O(n)$ work of merging. $\blacksquare$
 
 **Note.** Whether pairing heaps achieve $O(\log n)$ amortised delete-min was an open problem for
 many years. It was resolved by Iacono and Ozturk (2018) who proved $O(\log n)$ for a variant called
@@ -968,7 +992,9 @@ the "original pairing heap" and gave a $\Omega(\log \log n)$ lower bound for a s
 The **incidence matrix** $M$ of an undirected graph $G = (V, E)$ with $n$ vertices and $m$ edges is
 an $n \times m$ matrix where:
 
-$$M_{v,e} = \begin{cases} 1 & \text{if} vertex  v \text{ is} incident to edge  e \\ 0 & \text{otherwise} \end{cases}$$
+$$
+M_{v,e} = \begin{cases} 1 & \text{if} vertex  v \text{ is} incident to edge  e \\ 0 & \text{otherwise} \end{cases}
+$$
 
 For directed graphs, $M_{v,e} = 1$ if $v$ is the tail of $e$, $M_{v,e} = -1$ if $v$ is the head of
 $e$ And $0$ otherwise.
@@ -999,7 +1025,7 @@ For massive graphs that do not fit in memory:
 
 - **CSR (Compressed Sparse Row):** Two arrays: `offsets` (size $|V|+1$) and `neighbours` (size
   $2|E|$). `offsets[i]` to `offsets[i+1]-1` gives the range of neighbours for vertex $i$. Space:
-  $O(V + E)$Cache-friendly.
+  $O(V + E)$ Cache-friendly.
 - **WebGraph framework:** Compresses web graphs using gap encoding, reference chains, and interval
   encoding. Achieves 2--3 bits per edge for typical web graphs.
 
@@ -1030,9 +1056,13 @@ Total space: $(|V|+1) + 2|E| = 5 + 12 = 17$ integers.
 The **inverse Ackermann function** $\alpha(n)$ is defined in terms of a rapidly growing function
 $A_k(j)$:
 
-$$A_k(j) = \begin{cases} 2j & \text{if}  k = 0 \\ 0 & \text{if}  j = 0 \text{ and}  k \geq 1 \\ A_{k-1}(A_k(j-1)) & \text{if}  j \geq 1 \text{ and}  k \geq 1 \end{cases}$$
+$$
+A_k(j) = \begin{cases} 2j & \text{if}  k = 0 \\ 0 & \text{if}  j = 0 \text{ and}  k \geq 1 \\ A_{k-1}(A_k(j-1)) & \text{if}  j \geq 1 \text{ and}  k \geq 1 \end{cases}
+$$
 
-$$\alpha(n) = \min\{k : A_k(1) \geq n\}$$
+$$
+\alpha(n) = \min\{k : A_k(1) \geq n\}
+$$
 
 **Key values:** $\alpha(1) = 0$, $\alpha(2) = 1$, $\alpha(4) = 2$, $\alpha(16) = 3$,
 $\alpha(2^{65536}) = 4$.
@@ -1052,7 +1082,7 @@ and bound the total charges.
 Let $A_k(j)$ be as defined above. Node $x$ has **level** $\ell$ if
 $\text{rank}(x) \in [A_\ell(\lfloor \log_2 n \rfloor), A_{\ell+1}(\lfloor \log_2 n \rfloor))$.
 
-For a Find operation along a path $x_1, x_2, \ldots, x_k$Path compression makes all nodes point to
+For a Find operation along a path $x_1, x_2, \ldots, x_k$ Path compression makes all nodes point to
 the root. We charge the cost of the Find as follows:
 
 - For each node $x_i$ that is not the root, if $x_i$'s parent changes, charge $O(1)$ to $x_i$.
@@ -1241,12 +1271,16 @@ $2n - 1$ edges.
 
 **Applications:**
 
+<div class="table-wrap">
+
 | Problem                    | Suffix tree solution              | Time       |
 | -------------------------- | --------------------------------- | ---------- |
 | Exact pattern matching     | Traverse from root                | $O(m + k)$ |
 | Longest repeated substring | Find deepest internal node        | $O(n)$     |
 | Longest common substring   | Generalised suffix tree           | $O(n + m)$ |
 | Longest palindrome         | Suffix tree of $S$ + reverse($S$) | $O(n)$     |
+
+</div>
 
 ### 6.3 LCP Arrays
 
@@ -1256,7 +1290,7 @@ prefix of suffixes $\mathrm{SA[i]$ and $\mathrm{SA[i-1]$.
 **Theorem 6.4 (Kasai).** The LCP array can be computed from the suffix array in $O(n)$ time.
 
 **Kasai's algorithm.** Uses the inverse suffix array $\mathrm{SA^{-1}[\mathrm{SA[i]] = i$ and
-processes suffixes in text order. When computing $\mathrm{LCP[\mathrm{SA^{-1}[j]]$The result is at
+processes suffixes in text order. When computing $\mathrm{LCP[\mathrm{SA^{-1}[j]]$ The result is at
 least $\mathrm{LCP[\mathrm{SA^{-1}[j-1]] - 1$.
 
 <details>
@@ -1292,11 +1326,15 @@ Longest repeated substring: The maximum LCP value is 3, between "ana$" and "anan
 
 ### 7.1 The Three Methods Compared
 
+<div class="table-wrap">
+
 | Method     | Key idea                                 | When to use                                         |
 | ---------- | ---------------------------------------- | --------------------------------------------------- |
 | Aggregate  | Total cost / number of operations        | Simple cases where total cost is easy to compute    |
 | Accounting | Assign amortised cost, accumulate credit | When you can identify a "credit" scheme             |
 | Potential  | Define potential function $\Phi$         | Most general; works when credit is hard to localise |
+
+</div>
 
 **Equivalence.** All three methods give the same amortised bounds when applied correctly. The
 accounting method is a special case of the potential method where $\Phi$ is the total credit.
@@ -1311,6 +1349,8 @@ A good potential function satisfies:
 
 **Common potential functions:**
 
+<div class="table-wrap">
+
 | Data structure | Potential function $\Phi$                                          |
 | -------------- | ------------------------------------------------------------------ |
 | Dynamic array  | $\Phi = 2 \cdot \mathrm{num} - \mathrm{size}$ (credit per element) |
@@ -1318,6 +1358,8 @@ A good potential function satisfies:
 | Stack          | $\Phi =$ number of elements                                        |
 | Splay tree     | $\Phi = \sum_x \log(\mathrm{size}(x))$                             |
 | Union-Find     | $\Phi$ based on node levels                                        |
+
+</div>
 
 ### 7.3 Limitations of Amortised Analysis
 
@@ -1445,21 +1487,23 @@ This is a valid treap.
 A **weight-balanced tree** (also known as BB[$\alpha$] tree or Adelson-Velsky-Landis tree) maintains
 the balance condition:
 
-$$\frac{1}{2 - \alpha} \leq \frac{|T_L|}{|T|} \leq \frac{1}{2}$$
+$$
+\frac{1}{2 - \alpha} \leq \frac{|T_L|}{|T|} \leq \frac{1}{2}
+$$
 
-For some fixed $\alpha \in (1/4, 1 - \sqrt{2}/2)$Where $|T_L|$ is the size of the left subtree and
+For some fixed $\alpha \in (1/4, 1 - \sqrt{2}/2)$ Where $|T_L|$ is the size of the left subtree and
 $|T|$ is the total size.
 
 **Theorem 8.2.** A weight-balanced tree with $n$ nodes has height $O(\log n)$.
 
 _Proof._ At each level, the subtree size decreases by a factor of at least $\alpha$. After $h$
-levels, the minimum size is $\alpha^h n \geq 1$Giving $h \leq \log_{1/\alpha} n = O(\log n)$.
+levels, the minimum size is $\alpha^h n \geq 1$ Giving $h \leq \log_{1/\alpha} n = O(\log n)$.
 $\blacksquare$
 
 ### 8.3 scapegoat Trees
 
 A **scapegoat tree** is a BST where no rebalancing is done during insertion (only during deletion if
-needed). When an insertion causes the height to exceed $\log_{3/2} n$The algorithm finds a
+needed). When an insertion causes the height to exceed $\log_{3/2} n$ The algorithm finds a
 "scapegoat" ancestor whose subtree is unbalanced and rebuilds it.
 
 **Height bound.** A scapegoat tree with $n$ nodes has height at most $\log_{3/2} n$ (the "scapegoat bound").
@@ -1478,12 +1522,12 @@ rebuilds, the amortised cost is $O(\log n)$. $\blacksquare$
 **Heavy-light decomposition (HLD)** partitions a tree into paths, enabling efficient path queries
 (sum, max, min) and updates on trees.
 
-**Definitions.** For each node $u$The child $v$ with the largest subtree is the **heavy child**. All
+**Definitions.** For each node $u$ The child $v$ with the largest subtree is the **heavy child**. All
 other children are **light children**.
 
 **Property.** Every root-to-leaf path has at most $O(\log n)$ light edges.
 
-_Proof._ When traversing a light edge from $u$ to its parent $p$The subtree size at least doubles:
+_Proof._ When traversing a light edge from $u$ to its parent $p$ The subtree size at least doubles:
 $|\text{subtree(p)| \geq 2 \cdot |\text{subtree(u)|$. Since the tree has $n$ nodes, there can be at
 most $\log_2 n$ light edges on any root-to-leaf path. $\blacksquare$
 
@@ -1551,7 +1595,7 @@ Actually the segment tree stores each heavy path. To go from 6 to 8:
 - 8 to LCA = 1: segments on the path from 8 to 1.
 
 This example is simplified. In practice, HLD requires careful implementation of the
-`decompose``query`And `update` functions.
+`decompose`, `query` and `update` functions.
 
 </details>
 
@@ -1564,12 +1608,12 @@ removal leaves no subtree with more than $n/2$ nodes) and recursing on each resu
 
 _Proof._ Start at any node and move toward the heaviest subtree. The subtree size strictly decreases
 (since we always move away from the heaviest child). When we reach a node where no subtree exceeds
-$n/2$That node is the centroid. $\blacksquare$
+$n/2$ That node is the centroid. $\blacksquare$
 
 **Theorem 9.3.** Centroid decomposition has depth $O(\log n)$.
 
 _Proof._ At each level, every component has at most $n/2$ nodes. After $k$ levels, the largest
-component has at most $n/2^k$ nodes. When $n/2^k < 1$The decomposition is complete, giving depth
+component has at most $n/2^k$ nodes. When $n/2^k < 1$ The decomposition is complete, giving depth
 $O(\log n)$. $\blacksquare$
 
 **Applications:**
@@ -1678,8 +1722,8 @@ order): 5, 1, 8, 4. Show the two-pass merge process step by step.
 
 ### 8.3 Advanced Structures (Problems 8--11)
 
-**Problem 8.** Given an array $A = [7, 2, 5, 1, 8, 3, 6, 4]$Build a segment tree for range minimum
-queries. Then query $\min(A[2..5])$Update $A[3] = 0$ And query $\min(A[1..6])$.
+**Problem 8.** Given an array $A = [7, 2, 5, 1, 8, 3, 6, 4]$ Build a segment tree for range minimum
+queries. Then query $\min(A[2..5])$ Update $A[3] = 0$ And query $\min(A[1..6])$.
 
 **Problem 9.** Build a Fenwick tree for the array $A = [5, 3, 7, 1, 4, 6, 2]$. Compute the prefix
 sum up to index 5, the range sum $A[2..6]$ And show the effect of adding 10 to $A[4]$.
@@ -1878,11 +1922,15 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site       | Link                                                                                                                 |
 | ----------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
 | [Data Structures] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/data-structures/01-arrays-and-records)       |
-| [Data Structures] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/5-abstract-data-structures/1_abstraction-and-data-management) |
+| [Data Structures] | IB         | [View](https://ib.wyattau.com/computer-science/5-abstract-data-structures/1_abstraction-and-data-management/) |
 | [Data Structures] | University | [View](https://computer-science.wyattau.com/)    |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

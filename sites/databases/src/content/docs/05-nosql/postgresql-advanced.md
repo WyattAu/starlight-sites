@@ -18,7 +18,7 @@ description: "PostgreSQL Advanced notes covering key definitions, core concepts,
 ## Extensions Ecosystem
 
 Extensions add functionality to PostgreSQL through a well-defined API. They run in the same process
-As the server and have access to the same data, making them powerful but also a trust boundary.
+as the server and have access to the same data, making them powerful but also a trust boundary.
 
 ### Installing Extensions
 
@@ -193,6 +193,8 @@ LIMIT 10;
 
 ### Physical vs Logical Replication
 
+<div class="table-wrap">
+
 | Aspect           | Physical Replication                   | Logical Replication                        |
 | ---------------- | -------------------------------------- | ------------------------------------------ |
 | What replicates  | Entire WAL (all databases, all tables) | Selected tables (per-publication)          |
@@ -200,6 +202,8 @@ LIMIT 10;
 | Cross-version    | Same major version only                | Can replicate between major versions       |
 | Write on replica | No (read-only)                         | Yes (subscription tables are writable)     |
 | Use case         | High availability, disaster recovery   | Data sharing, partial replication, CDC     |
+
+</div>
 
 ### Setting Up Logical Replication
 
@@ -472,7 +476,7 @@ RESET ROLE;
 ### RLS Performance
 
 RLS policies are applied as security barrier quals, meaning the planner cannot push predicates
-Through them. This can lead to suboptimal plans. Use `LEAKPROOF` functions in RLS policies and
+through them. This can lead to suboptimal plans. Use `LEAKPROOF` functions in RLS policies and
 Ensure the policy is selective.
 
 ## Auditing with pgAudit
@@ -640,6 +644,8 @@ SHOW maintenance_work_mem;  -- e.g., 1GB
 SHOW effective_cache_size;  -- e.g., 12GB
 ```
 
+<div class="table-wrap">
+
 | Parameter              | Recommended Setting                        | Notes                               |
 | ---------------------- | ------------------------------------------ | ----------------------------------- |
 | `shared_buffers`       | 25% of RAM                                 | Up to ~8GB on Linux with huge pages |
@@ -648,6 +654,8 @@ SHOW effective_cache_size;  -- e.g., 12GB
 | `maintenance_work_mem` | 1-4GB                                      | For VACUUM, index creation          |
 | `wal_buffers`          | 64MB (default -1 = 1/32 of shared_buffers) | WAL buffer size                     |
 | `huge_pages`           | `try`                                      | Reduces TLB misses                  |
+
+</div>
 
 ### WAL Configuration
 
@@ -737,7 +745,7 @@ Start.
 ### Extension Version Mismatches
 
 Extensions must be compatible with the PostgreSQL major version. After a major version upgrade,
-Extensions must be upgraded too (often automatically by `pg_upgrade`But not always). Check with
+Extensions must be upgraded too (often automatically by `pg_upgrade`. But not always). Check with
 `SELECT * FROM pg_available_extension_versions`.
 
 ### FDW Query Performance
@@ -748,14 +756,14 @@ Accessed remote data, consider materializing it.
 
 ### RLS Policies Blocking the Table Owner
 
-By default, the table owner bypasses RLS. If you set `FORCE ROW LEVEL SECURITY`The owner is also
+By default, the table owner bypasses RLS. If you set `FORCE ROW LEVEL SECURITY`. The owner is also
 Subject to RLS policies. This can break administrative queries if the owner's RLS context is not set
 Correctly.
 
 ### Backup Testing
 
 A backup that has not been tested is not a backup. Regularly restore backups to a test environment
-And run data integrity checks. Verify that PITR works to the expected recovery point.
+and run data integrity checks. Verify that PITR works to the expected recovery point.
 
 ## Background Workers and pg_cron
 
@@ -997,7 +1005,7 @@ ALTER TABLE orders ATTACH PARTITION orders_2023
 ### Default Partition Management
 
 The default partition catches rows that do not match any defined partition. Periodically check it
-For data that should be in a new partition:
+for data that should be in a new partition:
 
 ```sql
 SELECT COUNT(*) FROM orders_default;
@@ -1082,16 +1090,6 @@ LIMIT 10;
 sub-second lookups on large corpora.
 
 $\blacksquare$
-
-```mermaid
-flowchart TD
-    A[Postgresql Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

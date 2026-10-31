@@ -15,17 +15,6 @@ description: "Structs are the primary mechanism for defining custom types in Rus
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Structs And Enums] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Structs
 
 Structs are the primary mechanism for defining custom types in Rust. Unlike classes in C++ or Java,
@@ -72,7 +61,7 @@ assert_eq!(p.distance_from_origin(), 5.0);
 ```
 
 Tuple structs with a single field implement the **newtype pattern**, creating a distinct type from
-The wrapped type:
+the wrapped type:
 
 ```rust
 struct UserId(u64);
@@ -130,7 +119,7 @@ let bob = Person {
 // bob.name == "Bob", bob.age == 30, bob.email == Some("alice@example.com")
 ```
 
-Struct update syntax moves the remaining fields. After `..alice`The `alice` binding can no longer Be
+Struct update syntax moves the remaining fields. After `..alice`. The `alice` binding can no longer Be
 used in its entirety (it is partially moved), but individual `Copy` fields remain accessible.
 
 ### Struct Layout and `#[repr]`
@@ -190,7 +179,7 @@ mod geometry {
 ```
 
 Note: making a struct `pub` does not make its fields `pub`. Each field must be individually marked
-As `pub`. This is different from C++ where `public:` in a class definition makes all subsequent
+as `pub`. This is different from C++ where `public:` in a class definition makes all subsequent
 Members public.
 
 ### Methods and Associated Functions
@@ -237,7 +226,7 @@ assert_eq!(r.area(), 12.0);
 ### Multiple `impl` Blocks
 
 A type can have multiple `impl` blocks. This is useful for organizing methods by functionality or
-For separating trait implementations from inherent methods:
+for separating trait implementations from inherent methods:
 
 ```rust
 impl Rectangle {
@@ -331,7 +320,7 @@ enum Event {
 ### Enum Memory Layout
 
 The compiler stores a discriminant tag alongside the variant data. The default discriminant type is
-The smallest integer that can represent all variants:
+the smallest integer that can represent all variants:
 
 ```rust
 enum Color {
@@ -403,7 +392,7 @@ Contains itself recursively.
 ## Pattern Matching
 
 Pattern matching is Rust's primary control flow mechanism for enums and is exhaustively checked by
-The compiler.
+the compiler.
 
 ### `match` Expressions
 
@@ -423,7 +412,7 @@ fn color_to_rgb(c: Color) -> (u8, u8, u8) {
 }
 ```
 
-The compiler verifies that every variant is handled. If you add a new variant to `Color`Every
+The compiler verifies that every variant is handled. If you add a new variant to `Color`. Every
 `match` on `Color` will produce a compile error until updated. This is exhaustive pattern matching.
 
 ### Match Ergonomics (Rust 2021+)
@@ -456,7 +445,7 @@ match num {
 ```
 
 Match guards do not participate in exhaustiveness checking. The compiler cannot prove that a guard
-Will always match for a given variant, so you may still need a catch-all arm.
+will always match for a given variant, so you may still need a catch-all arm.
 
 ### Binding Modes
 
@@ -483,7 +472,7 @@ match v {
 assert_eq!(v, vec![1, 2, 3, 4]);
 ```
 
-#### `@`At Bindings
+#### `@`. At Bindings
 
 The `@` operator binds a value to a name while also testing it against a pattern:
 
@@ -669,6 +658,8 @@ struct User {
 }
 ```
 
+<div class="table-wrap">
+
 | Trait        | What it generates                                              |
 | ------------ | -------------------------------------------------------------- |
 | `Debug`      | `fmt::Debug` for `{:?}` formatting                             |
@@ -680,6 +671,8 @@ struct User {
 | `Ord`        | Total ordering (requires `PartialOrd``Eq`)                     |
 | `Hash`       | Hash function for `HashMap`/`HashSet` keys                     |
 | `Default`    | Default value (all fields must implement `Default`)            |
+
+</div>
 :::
 ## See also
 

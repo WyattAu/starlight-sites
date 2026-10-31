@@ -18,17 +18,6 @@ description: "Study notes for Electric field with worked examples, practice prob
 
 Study notes for CBSE Class 12 physics - Electric field.
 
-
-```mermaid
-flowchart TD
-    A[02 Electric Field] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Key Concepts
 
 - Electric field due to a point charge: $\vec{E} = k\frac{q}{r^2}\hat{r}$
@@ -43,9 +32,15 @@ flowchart TD
 **Problem:** Find the electric field at a point 0.3 m from a charge of $+8 \, \mu\text{C}$.
 
 **Solution:**
-$$E = k\frac{q}{r^2} = 9 \times 10^9 \times \frac{8 \times 10^{-6}}{(0.3)^2}$$
-$$= 9 \times 10^9 \times \frac{8 \times 10^{-6}}{0.09} = 9 \times 10^9 \times 8.89 \times 10^{-5}$$
-$$= 8 \times 10^5 \, \text{N/C}$$
+$$
+E = k\frac{q}{r^2} = 9 \times 10^9 \times \frac{8 \times 10^{-6}}{(0.3)^2}
+$$
+$$
+= 9 \times 10^9 \times \frac{8 \times 10^{-6}}{0.09} = 9 \times 10^9 \times 8.89 \times 10^{-5}
+$$
+$$
+= 8 \times 10^5 \, \text{N/C}
+$$
 
 The field points radially outward from the positive charge.
 
@@ -56,15 +51,23 @@ The field points radially outward from the positive charge.
 **Solution:**
 
 Distance from each charge to the point:
-$$r = \sqrt{(0.2)^2 + (0.05)^2} = \sqrt{0.04 + 0.0025} = \sqrt{0.0425} \approx 0.206 \, \text{m}$$
+$$
+r = \sqrt{(0.2)^2 + (0.05)^2} = \sqrt{0.04 + 0.0025} = \sqrt{0.0425} \approx 0.206 \, \text{m}
+$$
 
 Magnitude of field from each charge:
-$$E_1 = E_2 = k\frac{|q|}{r^2} = 9 \times 10^9 \times \frac{4 \times 10^{-6}}{0.0425} \approx 8.47 \times 10^5 \, \text{N/C}$$
+$$
+E_1 = E_2 = k\frac{|q|}{r^2} = 9 \times 10^9 \times \frac{4 \times 10^{-6}}{0.0425} \approx 8.47 \times 10^5 \, \text{N/C}
+$$
 
 By symmetry, the $y$-components cancel. The $x$-components add:
-$$\cos\theta = \frac{x}{r} = \frac{0.2}{0.206} \approx 0.971$$
+$$
+\cos\theta = \frac{x}{r} = \frac{0.2}{0.206} \approx 0.971
+$$
 
-$$E_{net} = 2E_1\cos\theta = 2 \times 8.47 \times 10^5 \times 0.971 \approx 1.64 \times 10^6 \, \text{N/C}$$
+$$
+E_{net} = 2E_1\cos\theta = 2 \times 8.47 \times 10^5 \times 0.971 \approx 1.64 \times 10^6 \, \text{N/C}
+$$
 
 The direction is along $+x$ (from positive to negative).
 
@@ -75,8 +78,12 @@ The direction is along $+x$ (from positive to negative).
 **Solution:**
 
 For $r < R$:
-$$E = \frac{kQr}{R^3} = \frac{9 \times 10^9 \times 10 \times 10^{-6} \times 0.06}{(0.1)^3}$$
-$$= \frac{9 \times 10^9 \times 6 \times 10^{-7}}{10^{-3}} = \frac{5400}{10^{-3}} = 5.4 \times 10^6 \, \text{N/C}$$
+$$
+E = \frac{kQr}{R^3} = \frac{9 \times 10^9 \times 10 \times 10^{-6} \times 0.06}{(0.1)^3}
+$$
+$$
+= \frac{9 \times 10^9 \times 6 \times 10^{-7}}{10^{-3}} = \frac{5400}{10^{-3}} = 5.4 \times 10^6 \, \text{N/C}
+$$
 
 ## Worked Example 4, Electric Field Due to a Charged Ring
 
@@ -85,13 +92,21 @@ $$= \frac{9 \times 10^9 \times 6 \times 10^{-7}}{10^{-3}} = \frac{5400}{10^{-3}}
 **Solution:**
 
 Using the formula for the axial field of a ring:
-$$E = \frac{kqx}{(R^2 + x^2)^{3/2}}$$
+$$
+E = \frac{kqx}{(R^2 + x^2)^{3/2}}
+$$
 
-$$E = \frac{9 \times 10^9 \times 5 \times 10^{-6} \times 0.2}{((0.15)^2 + (0.2)^2)^{3/2}}$$
+$$
+E = \frac{9 \times 10^9 \times 5 \times 10^{-6} \times 0.2}{((0.15)^2 + (0.2)^2)^{3/2}}
+$$
 
-$$= \frac{9 \times 10^9 \times 10^{-6}}{(0.0225 + 0.04)^{3/2}} = \frac{9000}{(0.0625)^{3/2}}$$
+$$
+= \frac{9 \times 10^9 \times 10^{-6}}{(0.0225 + 0.04)^{3/2}} = \frac{9000}{(0.0625)^{3/2}}
+$$
 
-$$= \frac{9000}{0.015625} = 5.76 \times 10^5 \, \text{N/C}$$
+$$
+= \frac{9000}{0.015625} = 5.76 \times 10^5 \, \text{N/C}
+$$
 
 **Common mistake:** Forgetting that the field on the axis of a ring is maximum at $x = R/\sqrt{2}$, not at the centre (where it is zero).
 
@@ -101,7 +116,9 @@ $$= \frac{9000}{0.015625} = 5.76 \times 10^5 \, \text{N/C}$$
 
 **Solution:**
 
-$$\vec{F} = q\vec{E} = 3 \times 10^{-6} \times 2 \times 10^5 = 0.6 \, \text{N}$$
+$$
+\vec{F} = q\vec{E} = 3 \times 10^{-6} \times 2 \times 10^5 = 0.6 \, \text{N}
+$$
 
 The force is in the same direction as the field (to the right) because the charge is positive.
 
@@ -148,9 +165,13 @@ The force is in the same direction as the field (to the right) because the charg
 **Solution:**
 
 For an infinite line charge, the electric field is:
-$$E = \frac{2k\lambda}{r}$$
+$$
+E = \frac{2k\lambda}{r}
+$$
 
-$$E = \frac{2 \times 9 \times 10^9 \times 5 \times 10^{-8}}{0.1} = \frac{900}{0.1} = 9 \times 10^3 \, \text{N/C}$$
+$$
+E = \frac{2 \times 9 \times 10^9 \times 5 \times 10^{-8}}{0.1} = \frac{900}{0.1} = 9 \times 10^3 \, \text{N/C}
+$$
 
 The field points radially away from the wire (if $\lambda > 0$).
 
@@ -187,23 +208,3 @@ In electrostatic equilibrium, the electric field inside a conductor is always ze
 
 When calculating the net electric field from multiple charges, students often add the magnitudes directly instead of resolving into components. Electric field is a vector quantity: $\vec{E}_{net} = \vec{E}_1 + \vec{E}_2 + \ldots$. For two charges, you must find the angle between the field vectors and add components: $E_x = E_1\cos\theta_1 + E_2\cos\theta_2$ and $E_y = E_1\sin\theta_1 + E_2\sin\theta_2$.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

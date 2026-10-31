@@ -21,7 +21,7 @@ The Java Collections Framework (JCF) is a unified architecture for representing 
 Collections. It was introduced in JDK 1.2 (1998) and has been extended in every major release since.
 The framework is built around a hierarchy of interfaces that define contracts for different
 Collection types, with concrete implementations that provide specific performance characteristics
-And behavioral guarantees.
+and behavioral guarantees.
 
 The core design goals were: (1) reduce programming effort by providing high-performance data
 Structures, (2) reduce effort required to learn and use new APIs by providing a consistent
@@ -122,7 +122,7 @@ Cache locality due to its contiguous memory layout.
 
 An `ArrayList` stores elements in a backing `Object[]` array. When the array is full and a new
 Element is added, the list allocates a new, larger array and copies all elements from the old array
-To the new one.
+to the new one.
 
 ```java
 public class ArrayList<E> extends AbstractList<E>
@@ -170,7 +170,7 @@ private Object[] grow(int minCapacity) {
 The initial `new ArrayList<>()` does **not** allocate an array of size 10 immediately. It stores a
 Shared static empty array reference. The first call to `add()` triggers allocation of an array of
 Default capacity 10. This lazy allocation is a significant optimization for applications that create
-Many empty lists that are never populated.
+many empty lists that are never populated.
 
 ```java
 public boolean add(E e) {
@@ -189,6 +189,8 @@ private void add(E e, Object[] elementData, int s) {
 
 #### Time Complexity
 
+<div class="table-wrap">
+
 | Operation             | Average        | Worst Case | Notes                     |
 | --------------------- | -------------- | ---------- | ------------------------- |
 | `get(index)`          | O(1)           | O(1)       | Direct array index        |
@@ -199,6 +201,8 @@ private void add(E e, Object[] elementData, int s) {
 | `remove(Object)`      | O(n)           | O(n)       | Linear scan + shift       |
 | `contains(Object)`    | O(n)           | O(n)       | Linear scan               |
 | `indexOf(Object)`     | O(n)           | O(n)       | Linear scan               |
+
+</div>
 
 ### LinkedList
 
@@ -228,6 +232,8 @@ public class LinkedList<E> extends AbstractSequentialList<E>
 
 #### Time Complexity
 
+<div class="table-wrap">
+
 | Operation                        | Average | Worst Case | Notes                           |
 | -------------------------------- | ------- | ---------- | ------------------------------- |
 | `get(index)`                     | O(n)    | O(n)       | Must traverse from head or tail |
@@ -236,6 +242,8 @@ public class LinkedList<E> extends AbstractSequentialList<E>
 | `remove(index)`                  | O(n)    | O(n)       | Must traverse to index          |
 | `addFirst()` / `addLast()`       | O(1)    | O(1)       | Direct pointer manipulation     |
 | `removeFirst()` / `removeLast()` | O(1)    | O(1)       | Direct pointer manipulation     |
+
+</div>
 
 #### ArrayList vs LinkedList: When to Use Each
 
@@ -263,9 +271,9 @@ String head = queue.removeFirst();  // O(1)
 :::caution
 Cache-friendly contiguous memory layout make `ArrayList` faster for nearly all real-world workloads,
 Even those with frequent insertions. The O(n) cost of shifting elements in `ArrayList` is offset by
-The fact that `System.arraycopy()` is a native, highly optimized operation that moves memory in
+the fact that `System.arraycopy()` is a native, highly optimized operation that moves memory in
 Bulk. Furthermore, each `LinkedList` node requires an extra object allocation (16+ bytes of overhead
-For the object header, plus three reference fields), so a `LinkedList` with N elements uses
+for the object header, plus three reference fields), so a `LinkedList` with N elements uses
 Significantly more memory than an `ArrayList` with the same elements.
 :::
 
@@ -287,7 +295,7 @@ else
 
 `HashSet<E>` is backed by a `HashMap<E, Object>` instance. Each element is stored as a key in the
 Map, with a shared static `PRESENT` object as the value. It provides O(1) average-time performance
-For `add``remove``contains`And `size` operations.
+for `add`, `remove`, `contains` and `size` operations.
 
 ```java
 public class HashSet<E> extends AbstractSet<E>
@@ -317,7 +325,7 @@ public class HashSet<E> extends AbstractSet<E>
 }
 ```
 
-The `contains()` call delegates to `HashMap.containsKey()`Which first computes the hash, finds the
+The `contains()` call delegates to `HashMap.containsKey()`. Which first computes the hash, finds the
 Bucket, and then traverses the chain comparing elements with `equals()`. This is O(1) on average but
 Degrades to O(n) in the worst case if all elements hash to the same bucket.
 
@@ -325,7 +333,7 @@ Degrades to O(n) in the worst case if all elements hash to the same bucket.
 
 `LinkedHashSet<E>` extends `HashSet` but overrides the constructor to create a `LinkedHashMap`
 Instead of a `HashMap`. It maintains a doubly-linked list running through all of its entries, which
-Defines the **insertion order**. Unlike `LinkedHashMap``LinkedHashSet` does not support Access-order
+Defines the **insertion order**. Unlike `LinkedHashMap`, `LinkedHashSet` does not support Access-order
 mode, iteration order always matches insertion order. This is the primary reason to Choose
 `LinkedHashSet` over `HashSet`.
 
@@ -345,8 +353,8 @@ Compressed oops.
 ### TreeSet
 
 `TreeSet<E>` is a `NavigableSet` implementation backed by a `TreeMap`. Elements are ordered using
-Their natural ordering (if they implement `Comparable`) or a `Comparator` provided at construction
-Time. It provides guaranteed O(log n) time for `add``remove`And `contains`.
+their natural ordering (if they implement `Comparable`) or a `Comparator` provided at construction
+Time. It provides guaranteed O(log n) time for `add`, `remove` and `contains`.
 
 ```java
 // Natural ordering (elements must implement Comparable)
@@ -396,11 +404,13 @@ EnumSet<Day> all = EnumSet.allOf(Day.class);
 
 :::note
 Representation, making the entire set occupy just 16 bytes (object header + long field). For enums
-With more than 64 constants, it uses a `long[]`. All bulk operations (`containsAll``retainAll` Etc.)
+with more than 64 constants, it uses a `long[]`. All bulk operations (`containsAll`, `retainAll` Etc.)
 are implemented as bitwise AND, OR, and NOT operations on the bit vectors.
 :::
 
 ### Set Implementation Comparison
+
+<div class="table-wrap">
 
 | Feature                       | HashSet     | LinkedHashSet   | TreeSet                        | EnumSet                |
 | ----------------------------- | ----------- | --------------- | ------------------------------ | ---------------------- |
@@ -410,18 +420,20 @@ are implemented as bitwise AND, OR, and NOT operations on the bit vectors.
 | `add` / `contains` / `remove` | O(1) avg    | O(1) avg        | O(log n)                       | O(1)                   |
 | Element type                  | Any         | Any             | Comparable or Comparator       | Enum only              |
 
+</div>
+
 ## Map Implementations
 
 ### HashMap
 
 `HashMap<K,V>` is the most widely used Map implementation. It provides O(1) average-time performance
-For `get` and `put`But does not guarantee any ordering of its entries.
+for `get` and `put`. But does not guarantee any ordering of its entries.
 
 #### Internal Structure
 
 A `HashMap` is built on an array of buckets (called `table`). Each bucket is the head of a linked
 List (or, since Java 8, a balanced tree when a bucket's chain exceeds a threshold). The bucket index
-For a key is determined by `hash(key) & (table.length - 1)`Where `table.length` is always a power Of
+for a key is determined by `hash(key) & (table.length - 1)`. Where `table.length` is always a power Of
 two.
 
 ```mermaid
@@ -463,7 +475,7 @@ graph TD
 `HashMap` applies a secondary hash function (a "scrambling" function) to the object's `hashCode()`
 To spread higher bits into lower bits. This is critical because the bucket index depends only on the
 Lower bits (`hash & (n-1)` where n is a power of two). Without this secondary hash, keys that differ
-Only in higher bits would all land in the same bucket.
+only in higher bits would all land in the same bucket.
 
 ```java
 static final int hash(Object key) {
@@ -473,7 +485,7 @@ static final int hash(Object key) {
 ```
 
 The expression `h ^ (h >>> 16)` XORs the upper 16 bits into the lower 16 bits. This ensures that
-Both the upper and lower bits of the original hash code influence the bucket selection, reducing
+both the upper and lower bits of the original hash code influence the bucket selection, reducing
 Collisions when keys share similar lower bits.
 
 #### Collision Resolution: Separate Chaining with Treeification
@@ -528,14 +540,14 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) {
 :::caution
 Has fewer than `MIN_TREEIFY_CAPACITY` (64) entries. If so, it prefers to resize the table instead,
 Because a larger table distributes keys across more buckets and may resolve the collision without
-The overhead of tree nodes. Only when the table already has at least 64 entries does it actually
+the overhead of tree nodes. Only when the table already has at least 64 entries does it actually
 Convert the linked list to a red-black tree.
 :::
 
 #### Load Factor and Capacity
 
 The **load factor** (default 0.75) determines when the table is resized. When
-`size > capacity * loadFactor`The table is doubled in size and all entries are rehashed into the New
+`size > capacity * loadFactor`. The table is doubled in size and all entries are rehashed into the New
 buckets. A load factor of 0.75 balances time and space costs -- it provides a good tradeoff Between
 collision probability and memory usage according to the Poisson distribution analysis in the
 Original `HashMap` documentation.
@@ -549,8 +561,8 @@ Map<String, Integer> map = new HashMap<>(1000 / 0.75f + 1);  // avoids resizing 
 ### TreeMap
 
 `TreeMap<K,V>` is a `NavigableMap` implementation backed by a red-black tree. All entries are kept
-In sorted order according to the natural ordering of the keys or a `Comparator` provided at
-Construction. It provides guaranteed O(log n) time for `containsKey``get``put`And `remove`.
+in sorted order according to the natural ordering of the keys or a `Comparator` provided at
+Construction. It provides guaranteed O(log n) time for `containsKey`, `get`, `put` and `remove`.
 
 #### Red-Black Tree Internals
 
@@ -564,7 +576,7 @@ A red-black tree is a self-balancing binary search tree with the following invar
    (black-height is uniform).
 
 These invariants guarantee that the longest path from root to any leaf is at most twice the length
-Of the shortest path, which ensures O(log n) height and therefore O(log n) operations.
+of the shortest path, which ensures O(log n) height and therefore O(log n) operations.
 
 ```java
 // Simplified TreeMap.Entry structure
@@ -697,7 +709,7 @@ Cache in a concurrent environment requires external synchronization or a wrapper
 ### ConcurrentHashMap
 
 `ConcurrentHashMap<K,V>` is a thread-safe Map designed for high concurrency. Unlike `Hashtable` or
-`Collections.synchronizedMap()`Which use a single lock for the entire map, `ConcurrentHashMap` Uses
+`Collections.synchronizedMap()`. Which use a single lock for the entire map, `ConcurrentHashMap` Uses
 fine-grained locking to allow concurrent reads and writes.
 
 #### Evolution
@@ -728,12 +740,14 @@ counts.putIfAbsent("key", new AtomicInteger(0));  // atomic
 Choice. The reason is that the `containsKey()` and `get()` methods must be unambiguous in a
 Concurrent setting. If null values were allowed, `get(key)` returning `null` could mean either "the
 Key is absent" or "the key maps to null." In a single-threaded map, you can disambiguate with
-`containsKey()`But in a concurrent map, the state could change between `get()` and `containsKey()`.
+`containsKey()`. But in a concurrent map, the state could change between `get()` and `containsKey()`.
 By prohibiting null values, `ConcurrentHashMap` ensures that `get()` returning `null` unambiguously
 means "the key is absent."
 :::
 
 ### Map Implementation Comparison
+
+<div class="table-wrap">
 
 | Feature            | HashMap                    | LinkedHashMap             | TreeMap        | ConcurrentHashMap                |
 | ------------------ | -------------------------- | ------------------------- | -------------- | -------------------------------- |
@@ -743,6 +757,8 @@ means "the key is absent."
 | `get` / `put`      | O(1) avg                   | O(1) avg                  | O(log n)       | O(1) avg                         |
 | Thread-safe        | No                         | No                        | No             | Yes                              |
 | Fail-fast iterator | Yes                        | Yes                       | Yes            | Weakly consistent                |
+
+</div>
 
 ## Iterator and ListIterator
 
@@ -818,7 +834,7 @@ it.add("Y");   // inserts "Y" before cursor -- list is now [A, B, Y, X, D]
 Most collection iterators in `java.util` are **fail-fast**: they detect concurrent structural
 Modification (additions, removals, or resizes) and throw `ConcurrentModificationException`
 Immediately. This is achieved through a `modCount` field on the collection. The iterator captures
-The expected `modCount` on creation and checks it on every call to `next()`.
+the expected `modCount` on creation and checks it on every call to `next()`.
 
 ```java
 // Simplified ArrayList.Itr
@@ -864,7 +880,7 @@ while (it.hasNext()) {
 
 The `Collections.synchronizedCollection()` wrapper returns a fail-fast iterator. If you need to
 Iterate over a synchronized collection and modify it during iteration, you must manually synchronize
-On the collection:
+on the collection:
 
 ```java
 Collection<String> sync = Collections.synchronizedCollection(list);
@@ -964,7 +980,7 @@ Both `compareTo()` and `compare()` must satisfy the same contract as `equals()`:
 
 :::caution
 Sorted collections. `TreeSet` and `TreeMap` use the comparator (or `compareTo`) to determine
-Equality, not `equals()`. If the comparator is inconsistent with `equals()`The set will violate The
+Equality, not `equals()`. If the comparator is inconsistent with `equals()`. The set will violate The
 `Set` contract (it may contain elements that are equal according to `equals()` but have Different
 comparison results).
 :::
@@ -994,7 +1010,7 @@ Collections.binarySearch(numbers, 3, Comparator.naturalOrder());
 
 :::danger
 To the same ordering used for the search. Passing a list sorted by natural ordering but searching
-With a custom `Comparator` will produce incorrect results without any exception.
+with a custom `Comparator` will produce incorrect results without any exception.
 :::
 
 ### Unmodifiable Wrappers
@@ -1029,8 +1045,8 @@ synchronized (syncList) {
 
 :::caution
 High-concurrency scenarios. Every method call acquires the monitor lock on the wrapper object, so
-Even reads block each other. For read-heavy workloads, `ConcurrentHashMap` with its lock-free reads
-And fine-grained write locking provides far better throughput.
+even reads block each other. For read-heavy workloads, `ConcurrentHashMap` with its lock-free reads
+and fine-grained write locking provides far better throughput.
 :::
 
 ### Other Utility Methods
@@ -1097,7 +1113,7 @@ System.out.println(Arrays.deepToString(matrix));   // [[1, 2], [3, 4]]
 
 ## Immutable Collections (Java 9+)
 
-Java 9 introduced factory methods `List.of()``Set.of()`And `Map.of()` that create compact,
+Java 9 introduced factory methods `List.of()`, `Set.of()` and `Map.of()` that create compact,
 Unmodifiable collections. These are preferred over
 `Collections.unmodifiableList(new ArrayList<>(...))` for creating immutable collections from a known
 Set of elements.
@@ -1129,16 +1145,18 @@ source of bugs, and immutable collections that cannot contain nulls are easier t
 :::
 
 The internal implementation uses compact field-based storage for small sizes. For example,
-`List.of("A", "B")` creates an instance of `ListN` (or for very small lists, `List12``ListN1` Etc.)
+`List.of("A", "B")` creates an instance of `ListN` (or for very small lists, `List12`, `ListN1` Etc.)
 that stores elements in `final` fields rather than in an array. This reduces memory overhead And
 eliminates the indirection of array-based storage.
 
 ## Null Handling in Collections
 
 Null handling varies across collection implementations. Understanding these differences is critical
-To avoiding `NullPointerException` at unexpected times.
+to avoiding `NullPointerException` at unexpected times.
 
 ### Summary Table
+
+<div class="table-wrap">
 
 | Collection          | Null keys                   | Null values                  | Notes                                                    |
 | ------------------- | --------------------------- | ---------------------------- | -------------------------------------------------------- |
@@ -1155,6 +1173,8 @@ To avoiding `NullPointerException` at unexpected times.
 | `List.of()`         | N/A                         | Not allowed                  | Throws NPE                                               |
 | `Set.of()`          | N/A                         | Not allowed                  | Throws NPE                                               |
 | `Map.of()`          | Not allowed                 | Not allowed                  | Throws NPE                                               |
+
+</div>
 
 ### How HashMap Handles the Null Key
 
@@ -1186,7 +1206,7 @@ System.out.println(nullSafeTree);  // [null, Alice]
 ## Summary of Design Principles
 
 1. **The interface-implementation separation enables polymorphism.** Code written against `List<E>`
-   works with `ArrayList``LinkedList``CopyOnWriteArrayList`Or any future implementation without
+   works with `ArrayList`, `LinkedList`, `CopyOnWriteArrayList` or any future implementation without
    modification. Always declare variables with the interface type, not the implementation type.
 
 2. **ArrayList is almost always the right default choice.** Its O(1) random access, cache-friendly
@@ -1195,7 +1215,7 @@ System.out.println(nullSafeTree);  // [null, Alice]
    Deque operations or iterator-positioned insertions.
 
 3. **HashMap's secondary hash function is critical for performance.** Without `h ^ (h >>> 16)`Keys
-   with similar lower bits (common for `Integer``Long`And sequential IDs) would cluster in the same
+   with similar lower bits (common for `Integer`, `Long` and sequential IDs) would cluster in the same
    bucket. The treeification threshold (8) ensures that even pathological collision scenarios
    degrade only to O(log n) rather than O(n).
 
@@ -1204,7 +1224,7 @@ System.out.println(nullSafeTree);  // [null, Alice]
    use `java.util.concurrent` collections, which provide weakly consistent iterators and thread-safe
    operations.
 
-5. **Prefer immutable collections when possible.** `List.of()``Set.of()`And `Map.of()` create
+5. **Prefer immutable collections when possible.** `List.of()`, `Set.of()` and `Map.of()` create
    compact, unmodifiable collections with lower memory overhead than their mutable counterparts.
    Immutability eliminates entire classes of bugs (shared mutable state, concurrent modification)
    and enables safe sharing across threads without synchronization.
@@ -1223,9 +1243,6 @@ System.out.println(nullSafeTree);  // [null, Alice]
    data).
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

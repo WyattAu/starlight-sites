@@ -136,24 +136,28 @@ moisture before diffusing.
 **Question:** An experiment investigates the effect of temperature on the activity of amylase. The
 time taken for starch to be completely digested is recorded:
 
-| Temperature ($^\circ$C) | 10  | 20  | 30  | 40  | 50  | 60  | 70          |
+<div class="table-wrap">
+
+| Temperature ($^\circ$ C) | 10  | 20  | 30  | 40  | 50  | 60  | 70          |
 | ----------------------- | --- | --- | --- | --- | --- | --- | ----------- |
 | Time (seconds)          | 300 | 180 | 90  | 45  | 60  | 240 | No reaction |
 
+</div>
+
 (a) Calculate the rate of reaction (1/time) at each temperature. (b) Plot a graph of rate against
 temperature and identify the optimum temperature. (c) Explain why the rate decreases above
-$40^\circ$C. (d) Explain how the products of digestion (glucose, amino acids, fatty acids) are used
+$40^\circ$ C. (d) Explain how the products of digestion (glucose, amino acids, fatty acids) are used
 in cellular respiration.
 
 **Solution:**
 
 (a) Rates (1/time in s$^{-1}$ $\times 1000$): 3.3, 5.6, 11.1, 22.2, 16.7, 4.2, 0.
 
-(b) The graph peaks at $40^\circ$C (rate 22.2), making this the **optimum temperature**.
+(b) The graph peaks at $40^\circ$ C (rate 22.2), making this the **optimum temperature**.
 
-(c) Above $40^\circ$C, the enzyme"s active site begins to change shape due to the breaking of bonds
+(c) Above $40^\circ$ C, the enzyme"s active site begins to change shape due to the breaking of bonds
 maintaining the tertiary structure. This is **denaturation** -- the substrate can no longer fit into
-the active site, so the reaction rate decreases. At $70^\circ$C, the enzyme is completely denatured
+the active site, so the reaction rate decreases. At $70^\circ$ C, the enzyme is completely denatured
 and cannot function.
 
 (d) **Glucose:** Used in aerobic respiration (with oxygen) to produce ATP: glucose $+$ oxygen $\to$
@@ -170,11 +174,11 @@ energy reserves, or used in hormone synthesis.
 
 **Question:** Red blood cells contain haemoglobin and no nucleus. (a) Explain how the structure of
 red blood cells relates to their function in gas transport. (b) A red blood cell has a diameter of 7
-$\mu$M and must pass through a capillary of diameter 5 $\mu$M. Explain how this is possible and why
+$\mu$ M and must pass through a capillary of diameter 5 $\mu$ M. Explain how this is possible and why
 it is beneficial for gas exchange. (c) Haemoglobin binds oxygen in the lungs and releases it in the
 tissues. Explain how the different conditions (high O$_2$ in lungs, high CO$_2$ in tissues) drive
 this process. (d) Calculate how many red blood cells would fit along 1 cm of a capillary of diameter
-5 $\mu$M.
+5 $\mu$ M.
 
 **Solution:**
 
@@ -196,8 +200,8 @@ In the **tissues:** Low oxygen concentration and high CO$_2$ concentration (from
 respiration) cause oxyhaemoglobin to release oxygen. The lower pH (due to dissolved CO$_2$ forming
 carbonic acid) reduces haemoglobin's oxygen affinity, promoting unloading.
 
-(d) Capillary diameter $= 5 \mu$M. Cell diameter $= 7 \mu$M. Since cells deform, they pass through
-single file. Length of capillary $= 10,000 \mu$M. If each cell occupies approximately 7 $\mu$M when
+(d) Capillary diameter $= 5 \mu$ M. Cell diameter $= 7 \mu$ M. Since cells deform, they pass through
+single file. Length of capillary $= 10,000 \mu$ M. If each cell occupies approximately 7 $\mu$ M when
 deformed: $10,000/7 \approx 1429$ cells.
 
 ### IT-3: Nervous System and Homeostasis (with Organisation)
@@ -240,27 +244,9 @@ to respond to danger (e.g., touching a hot object) before the brain has even reg
 
 **The key insight:** Homeostasis, the body's ability to maintain internal stability, is the foundation of health. When homeostasis fails, disease occurs.
 
-
-```mermaid
-flowchart TD
-    A[Diag Organisation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

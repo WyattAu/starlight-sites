@@ -35,7 +35,9 @@ Goods are excluded because their value is already embedded in the final product.
 - $X - M$ = net exports (exports minus imports)
 
 1. **Income method**: sums all factor incomes earned by residents:
-   $$GDP = W + R + I + P + (\text{Mixed income}) + (\text{Taxes on production} - \text{Subsidies})$$
+   $$
+   GDP = W + R + I + P + (\text{Mixed income}) + (\text{Taxes on production} - \text{Subsidies})
+   $$
    Where $W$ = wages, $R$ = rent, $I$ = interest, $P$ = profit.
 
 2. **Output (value-added) method**: sums the value added at each stage of production:
@@ -49,28 +51,36 @@ Changes in prices.
 
 **Real GDP** adjusts for price level changes and is a better measure of actual output growth:
 
-$$\mathrm{Real\ GDP} = \frac{\mathrm{Nominal\ GDP}}{\mathrm{GDP\ Deflator}} \times 100$$
+$$
+\mathrm{Real\ GDP} = \frac{\mathrm{Nominal\ GDP}}{\mathrm{GDP\ Deflator}} \times 100
+$$
 
 The **GDP deflator** is a broad measure of the price level that includes all domestically produced
 Goods and services:
 
-$$\mathrm{GDP\ Deflator} = \frac{\mathrm{Nominal\ GDP}}{\mathrm{Real\ GDP}} \times 100$$
+$$
+\mathrm{GDP\ Deflator} = \frac{\mathrm{Nominal\ GDP}}{\mathrm{Real\ GDP}} \times 100
+$$
 
 ### GNP and GNI
 
 **Gross National Product (GNP)** measures the total output produced by a country's residents
 Regardless of where it is produced:
 
-$$\mathrm{GNP} = \mathrm{GDP} + \text{Net factor income from abroad}$$
+$$
+\mathrm{GNP} = \mathrm{GDP} + \text{Net factor income from abroad}
+$$
 
 Net factor income from abroad includes wages, profits, and rent earned by domestic residents from
-Their foreign investments, minus the corresponding income earned by foreign residents within the
-Domestic economy.
+their foreign investments, minus the corresponding income earned by foreign residents within the
+domestic economy.
 
 **Gross National Income (GNI)** is the preferred modern measure and is conceptually equivalent to
 GNP. It includes net primary income from abroad (compensation of employees, investment income):
 
-$$\mathrm{GNI} = \mathrm{GDP} + \text{Net primary income from abroad}$$
+$$
+\mathrm{GNI} = \mathrm{GDP} + \text{Net primary income from abroad}
+$$
 
 ### GDP per Capita and Purchasing Power Parity
 
@@ -110,7 +120,7 @@ actual Volume of goods and services that the average income can buy in each coun
 - Assuming that fiscal policy is always effective. Crowding out, time lags, and the size of the
   multiplier all limit its impact.
 - Confusing a movement along the AD curve (caused by a change in the price level) with a shift of
-  the AD curve (caused by changes in $C$, $I$, $G$Or $X - M$).
+  the AD curve (caused by changes in $C$, $I$, $G$ Or $X - M$).
 - Treating the Phillips Curve as a policy menu. The short-run trade-off does not exist in the long
   run.
 - Forgetting that the LRAS curve is vertical. In the long run, demand-side policies only affect the
@@ -130,7 +140,7 @@ actual Volume of goods and services that the average income can buy in each coun
 <summary>Problem 1: GDP Calculation with Multiple Components</summary>
 
 An economy has the following expenditure components (in billions): Consumption $= \$4200$,
-Investment $= \$1100$, Government spending $= \$1500$Exports $= \$800$, Imports $= \$950$.
+Investment $= \$1100$, Government spending $= \$1500$ Exports $= \$800$, Imports $= \$950$.
 
 (a) Calculate GDP and net exports.
 
@@ -140,7 +150,9 @@ Investment $= \$1100$, Government spending $= \$1500$Exports $= \$800$, Imports 
 
 (a) $GDP = C + I + G + (X - M) = 4200 + 1100 + 1500 + (800 - 950)$
 
-$$GDP = 4200 + 1100 + 1500 + (-150) = \$6650 \text{ billion}$$
+$$
+GDP = 4200 + 1100 + 1500 + (-150) = \$6650 \text{ billion}
+$$
 
 Net exports $= X - M = 800 - 950 = -\$150$ billion (a trade deficit).
 
@@ -155,7 +167,7 @@ $\mathrm{Real\ GDP} = \frac{\mathrm{Nominal\ GDP}}{\mathrm{GDP\ Deflator}} \time
 <summary>Problem 2: Inflation Rate and Real Values</summary>
 
 The CPI basket costs `USD 240` in year 1 and `USD 252` in year 2. A worker earned `USD 50,000` in
-Year 1 and `USD 52,000` in year 2.
+year 1 and `USD 52,000` in year 2.
 
 (a) Calculate the inflation rate between year 1 and year 2.
 
@@ -177,7 +189,7 @@ Raise of `USD 2,000`Purchasing power decreased because the raise ($4\%$) was les
 <summary>Problem 3: Fiscal Multiplier with Taxes and Imports</summary>
 
 The government increases spending by `USD 50` billion. The marginal propensity to consume is $0.75$
-The marginal tax rate is $0.2$ And the marginal propensity to import is $0.15$.
+the marginal tax rate is $0.2$ And the marginal propensity to import is $0.15$.
 
 (a) Calculate the multiplier.
 
@@ -187,14 +199,18 @@ The marginal tax rate is $0.2$ And the marginal propensity to import is $0.15$.
 
 (a) $\mathrm{MPS} = 1 - 0.75 = 0.25$
 
-$$k = \frac{1}{\mathrm{MPS} + t \times \mathrm{MPC} + \mathrm{MPM}} = \frac{1}{0.25 + 0.2 \times 0.75 + 0.15}$$
-$$k = \frac{1}{0.25 + 0.15 + 0.15} = \frac{1}{0.55} = 1.818$$
+$$
+k = \frac{1}{\mathrm{MPS} + t \times \mathrm{MPC} + \mathrm{MPM}} = \frac{1}{0.25 + 0.2 \times 0.75 + 0.15}
+$$
+$$
+k = \frac{1}{0.25 + 0.15 + 0.15} = \frac{1}{0.55} = 1.818
+$$
 
 (b) $\Delta Y = k \times \Delta G = 1.818 \times 50 = \$90.9 \text{ billion}$
 
 (c) The multiplier is smaller than the simple multiplier ($\frac{1}{0.25} = 4$) because taxes and
-Imports are leakages from the circular flow. At each round of the multiplier process, some income is
-Taxed (reducing disposable income) and some spending leaks abroad (on imports), reducing the amount
+imports are leakages from the circular flow. At each round of the multiplier process, some income is
+taxed (reducing disposable income) and some spending leaks abroad (on imports), reducing the amount
 Re-spent in the domestic economy.
 
 </details>
@@ -220,8 +236,8 @@ prices Causes a negative supply shock.
 This combination of rising inflation and rising unemployment is called **stagflation**.
 
 (b) In the long run, the recessionary gap puts downward pressure on wages and other input prices (as
-Unemployment is high, workers have less bargaining power). Lower input costs shift SRAS back to the
-Right, eventually restoring output to potential GDP and returning the price level to its original
+unemployment is high, workers have less bargaining power). Lower input costs shift SRAS back to the
+right, eventually restoring output to potential GDP and returning the price level to its original
 Level. However, this adjustment process may be slow and painful.
 
 (c) Expansionary fiscal or monetary policy could shift AD rightward to restore output more quickly,
@@ -237,33 +253,35 @@ for Addressing the underlying cause.
 <summary>Problem 5: Phillips Curve Analysis</summary>
 
 An economy has a natural rate of unemployment of $5\%$. The current unemployment rate is $3\%$ And
-Inflation is $4\%$. The expected inflation rate is $2\%$.
+inflation is $4\%$. The expected inflation rate is $2\%$.
 
 (a) Using the expectations-augmented Phillips curve, explain whether inflation is likely to
-Accelerate.
+accelerate.
 
 (b) What would happen if the central bank attempted to maintain unemployment at $3\%$ permanently?
 
 (c) How would a supply shock (e.g., rising oil prices) shift the Phillips curve?
 
-(a) With unemployment at $3\%$Which is below the natural rate of $5\%$The economy is Overheating.
+(a) With unemployment at $3\%$ Which is below the natural rate of $5\%$ The economy is Overheating.
 The expectations-augmented Phillips curve predicts:
 
-$$\pi = \pi^e - \alpha(u - u_n)$$
+$$
+\pi = \pi^e - \alpha(u - u_n)
+$$
 
-Since $u < u_n$Actual inflation exceeds expected inflation ($4\% > 2\%$). Workers will observe that
-Inflation is higher than expected and will revise their expectations upward in the next period. As
+Since $u < u_n$ Actual inflation exceeds expected inflation ($4\% > 2\%$). Workers will observe that
+inflation is higher than expected and will revise their expectations upward in the next period. As
 $\pi^e$ rises, the SRPC shifts upward, and at the same unemployment rate ($3\%$), inflation will be
 Higher. This process continues -- inflation accelerates.
 
 (b) To maintain unemployment at $3\%$ permanently, the central bank would need to accept
 Ever-accelerating inflation, as each period of over-stimulation raises expected inflation and shifts
-The SRPC upward. This is unsustainable. In the long run, the economy returns to $u_n = 5\%$ with
-Higher inflation.
+the SRPC upward. This is unsustainable. In the long run, the economy returns to $u_n = 5\%$ with
+higher inflation.
 
 (c) A negative supply shock (rising oil prices) shifts the SRPC upward and to the right. At any
-Given unemployment rate, inflation is higher because of the cost-push effect. This creates a
-Dilemma: the central bank must choose between accepting higher inflation (accommodating the shock)
+given unemployment rate, inflation is higher because of the cost-push effect. This creates a
+dilemma: the central bank must choose between accepting higher inflation (accommodating the shock)
 Or accepting higher unemployment (tightening policy to prevent inflation from rising).
 
 </details>
@@ -297,7 +315,7 @@ Maximum increase in money supply $= \$200 \text{ million} \times 10 = \$2\,000 \
 <summary>Problem 7: Supply-Side Policy Evaluation</summary>
 
 A government is considering two supply-side policies to promote long-run growth: (a) reducing the
-Corporate tax rate from $30\%$ to $20\%$ And (b) increasing public spending on vocational training By
+corporate tax rate from $30\%$ to $20\%$ And (b) increasing public spending on vocational training By
 `USD 10` billion per year.
 
 Evaluate both policies using economic theory.
@@ -326,7 +344,7 @@ Evaluate both policies using economic theory.
 
 Both policies shift LRAS rightward but through different channels (capital vs. Labour). The optimal
 Mix depends on the economy's specific constraints (e.g., a capital-scarce economy may benefit more
-From tax cuts; an economy with skill mismatches may benefit more from training).
+from tax cuts; an economy with skill mismatches may benefit more from training).
 
 </details>
 
@@ -340,7 +358,9 @@ In the quantities of goods and services produced and changes in their prices.
 **Real GDP** values output at constant (base year) prices, isolating the effect of quantity changes
 From price changes.
 
-$$\text{Real GDP}_t = \sum_{i=1}^{n} P_{i,0} \cdot Q_{i,t}$$
+$$
+\text{Real GDP}_t = \sum_{i=1}^{n} P_{i,0} \cdot Q_{i,t}
+$$
 
 Where $P_{i,0}$ is the base-year price of good $i$ and $Q_{i,t}$ is the quantity produced in year
 $t$.
@@ -350,7 +370,9 @@ $t$.
 The GDP deflator is the most comprehensive price index because it covers all domestically produced
 Goods and services (consumption, investment, government spending, and net exports):
 
-$$\text{GDP Deflator}_t = \frac{\text{Nominal GDP}_t}{\text{Real GDP}_t} \times 100$$
+$$
+\text{GDP Deflator}_t = \frac{\text{Nominal GDP}_t}{\text{Real GDP}_t} \times 100
+$$
 
 Unlike the CPI, the GDP deflator:
 
@@ -361,9 +383,13 @@ Unlike the CPI, the GDP deflator:
 
 ### GDP per Capita Calculations
 
-$$\text{GDP per capita} = \frac{\text{GDP}}{\text{Population}}$$
+$$
+\text{GDP per capita} = \frac{\text{GDP}}{\text{Population}}
+$$
 
-$$\text{Real GDP per capita} = \frac{\text{Real GDP}}{\text{Population}}$$
+$$
+\text{Real GDP per capita} = \frac{\text{Real GDP}}{\text{Population}}
+$$
 
 **Limitations as a welfare measure:**
 
@@ -383,7 +409,9 @@ $$\text{Real GDP per capita} = \frac{\text{Real GDP}}{\text{Population}}$$
 Modern national accounts use **chain-weighting** to avoid the substitution bias of fixed-weight
 Indices. Chain-weighted GDP uses a moving base year, averaging Laspeyres and Paasche measures:
 
-$$\text{Chain-weighted growth rate} = \sqrt{\text{Laspeyres growth rate} \times \text{Paasche growth rate}}$$
+$$
+\text{Chain-weighted growth rate} = \sqrt{\text{Laspeyres growth rate} \times \text{Paasche growth rate}}
+$$
 
 This provides a more accurate measure of real growth, particularly when relative prices change
 Significantly.
@@ -406,7 +434,9 @@ Significantly.
 Country X has the following data (in $ billions): $C = 800$, $I = 200$, $G = 300$, $X = 150$,
 $M = 180$.
 
-$$GDP = C + I + G + (X - M) = 800 + 200 + 300 + (150 - 180) = 1,270$$
+$$
+GDP = C + I + G + (X - M) = 800 + 200 + 300 + (150 - 180) = 1,270
+$$
 
 Net exports are negative ($-30$), indicating a trade deficit.
 
@@ -414,21 +444,12 @@ Net exports are negative ($-30$), indicating a trade deficit.
 
 Nominal GDP in 2024 is $2,000$ billion. The GDP deflator is 125 (base year = 2020).
 
-$$\text{Real GDP} = \frac{2,000}{125} \times 100 = 1,600 \text{ billion}$$
+$$
+\text{Real GDP} = \frac{2,000}{125} \times 100 = 1,600 \text{ billion}
+$$
 
 Real GDP ($1,600$ billion) is lower than nominal GDP ($2,000$ billion), indicating that prices
 have risen by 25% since the base year.
-
-
-```mermaid
-flowchart TD
-    A[1 National Income] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

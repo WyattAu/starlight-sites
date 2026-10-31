@@ -45,6 +45,16 @@ sources:
 
 ## DSE Economics
 
+
+:::note[Going further with economics?]
+These pages teach the exam: diagrams, evaluation structure, and the
+institutions each board expects. **[economics.wyattau.com](https://economics.wyattau.com)**
+is the university layer underneath — micro theory, econometrics, and game theory
+with the core theorems (Slutsky, Gauss--Markov, Nash existence) proved in full,
+and the proofs are where the assumptions behind the exam diagrams become
+visible. Skippable by design: the exam content stands on its own.
+:::
+
 Complete revision notes for HKDSE Economics, covering both microeconomics and macroeconomics with
 worked examples, data-response practice, and exam-style problems. Content follows the HKEAA
 curriculum structure.
@@ -85,8 +95,8 @@ curriculum structure.
 
 ## Related Content
 
-- **IB Economics:** [IB Economics](https://ib.wyattau.com/docs/economics)
-- **A-Level Economics:** [A-Level Economics](https://alevel.wyattau.com/docs/economics)
+- **IB Economics:** [IB Economics](https://ib.wyattau.com/economics/)
+- **A-Level Economics:** [A-Level Economics](https://alevel.wyattau.com/economics/)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.
@@ -113,7 +123,7 @@ Each topic page contains:
 ## DSE Exam Tips
 
 1. **Time management:** The DSE Economics paper is 2.5 hours. Allocate approximately 45 minutes for
-   Section A (multiple choice, 30 questions), 45 minutes for Section B (short answer, 3 questions),
+   section A (multiple choice, 30 questions), 45 minutes for Section B (short answer, 3 questions),
    and 60 minutes for Section C (extended response, 1 question from a choice of 3).
 
 2. **Calculator use:** Bring an approved calculator. Practice calculations with it before the exam
@@ -125,7 +135,7 @@ Each topic page contains:
 
 4. **Hong Kong context:** The HKEAA often sets questions in the Hong Kong context. Be prepared to
    discuss: the Linked Exchange Rate, public housing, the MPC, land supply, fiscal reserves, CEPA,
-   the Greater Bay Area, and Hong Kong"s structural economic transformation.
+   the Greater Bay Area, and Hong Kong's structural economic transformation.
 
 5. **Evaluation skills:** For 7--8 mark questions, always include both analysis and evaluation. Use
    phrases like "however," "on the other hand," " on," "in the short run vs long run," and "this
@@ -168,8 +178,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Cross-References
 

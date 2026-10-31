@@ -56,6 +56,8 @@ Specific programming language.
 
 ### 1.2 Standard Flowchart Symbols
 
+<div class="table-wrap">
+
 | Symbol     | Shape                  | Purpose                                |
 | ---------- | ---------------------- | -------------------------------------- |
 | Terminator | Oval/rounded rectangle | Start/Stop                             |
@@ -64,6 +66,8 @@ Specific programming language.
 | I/O        | Parallelogram          | Input or output                        |
 | Connector  | Circle                 | Links to another part of the flowchart |
 
+</div>
+
 ### 1.3 Why Algorithms Matter
 
 Understanding algorithms is foundational because every program you write is ultimately an algorithm.
@@ -71,17 +75,17 @@ The choice of algorithm determines how fast your program runs and how much memor
 You need to be able to read, trace, and write algorithms in pseudocode and flowcharts.
 
 Two different algorithms can solve the same problem but have vastly different performance. For
-Instance, searching through a million sorted records takes at most 20 comparisons with binary search
-But could take all 1,000,000 comparisons with linear search. This difference grows faster than
-Intuition suggests because the number of operations scales with the **size of the input**, which is
-Exactly what Big-O notation captures.
+instance, searching through a million sorted records takes at most 20 comparisons with binary search
+but could take all 1,000,000 comparisons with linear search. This difference grows faster than
+intuition suggests because the number of operations scales with the **size of the input**, which is
+exactly what Big-O notation captures.
 
 ## 2. Searching Algorithms
 
 ### 2.1 Linear Search
 
 The **linear search** checks each element in a list one by one until the target is found or the end
-Of the list is reached.
+of the list is reached.
 
 **Pseudocode:**
 
@@ -107,7 +111,7 @@ FUNCTION linear_search(array, target):
 
 **Intuition.** Think of looking for a word in a dictionary by reading every page from the start. If
 The word is on page 500 of a 1000-page dictionary, you check 500 pages. If the word is not in the
-Dictionary at all, you check all 1000. This is exactly what linear search does with an array.
+dictionary at all, you check all 1000. This is exactly what linear search does with an array.
 
 **Python implementation:**
 
@@ -158,7 +162,7 @@ FUNCTION binary_search(array, target):
 
 **Intuition.** Think of looking up a word in a physical dictionary. You open the book somewhere near
 The middle. If the word you want comes alphabetically after the page you opened to, you ignore the
-Entire first half and repeat the process in the second half. Each step halves the remaining pages.
+entire first half and repeat the process in the second half. Each step halves the remaining pages.
 For a 1000-page dictionary, this takes at most $\lceil \log_2 1000 \rceil = 10$ steps.
 
 **Worked Example.** Search for 7 in the sorted array [1, 3, 5, 7, 9, 11, 13].
@@ -169,7 +173,7 @@ Step 1: low=0, high=6, mid=3, array[3]=7. Found. Return 3.
 
 Step 1: low=0, high=6, mid=3, array[3]=7. $7 \lt 8$ So low=4. Step 2: low=4, high=6, mid=5,
 Array[5]=11. $11 \gt 8$ So high=4. Step 3: low=4, high=4, mid=4, array[4]=9. $9 \gt 8$ So high=3. Step
-4: low=4, high=3. $4 \gt 3$Loop ends. Return -1 (not found).
+4: low=4, high=3. $4 \gt 3$ Loop ends. Return -1 (not found).
 
 **Worked Example.** Search for 3 in [1, 3, 5, 7, 9, 11, 13].
 
@@ -199,6 +203,8 @@ print(f"Found at index: {result}")
 
 ### 2.3 Comparing Search Algorithms
 
+<div class="table-wrap">
+
 | Feature              | Linear Search | Binary Search |
 | -------------------- | ------------- | ------------- |
 | Data must be sorted? | No            | Yes           |
@@ -206,37 +212,39 @@ print(f"Found at index: {result}")
 | Average case         | $O(n)$        | $O(\log n)$   |
 | Worst case           | $O(n)$        | $O(\log n)$   |
 
+</div>
+
 **How big is the difference?** For an array of 1,048,576 ($= 2^{20}$) elements:
 
 - Linear search worst case: 1,048,576 comparisons
 - Binary search worst case: $\log_2(1048576) = 20$ comparisons
 
 Binary search is over 50,000 times faster in the worst case for this input size. This gap widens
-Even further as $n$ grows.
+even further as $n$ grows.
 
 ### 2.4 Why Must Binary Search Data Be Sorted?
 
 Binary search relies on the **monotonic ordering** of the array to eliminate half of the remaining
 Search space at each step. When you compare `array[mid]` with the target, you can only conclude that
-The target must be in the left half or the right half because the array is sorted. If the array were
-Unsorted, a value greater than `array[mid]` could appear anywhere, and you would have no basis for
-Discarding either half.
+the target must be in the left half or the right half because the array is sorted. If the array were
+unsorted, a value greater than `array[mid]` could appear anywhere, and you would have no basis for
+discarding either half.
 
 **Proof sketch.** Let the sorted array be $a_0 \le a_1 \le \cdots \le a_{n-1}$. Suppose the target
 $t$ exists at index $k$. At each step, the algorithm maintains the invariant that
 $a_{\mathrm{low} \le t \le a_{\mathrm{high}$. If $a_{\mathrm{mid} \lt t$ Then by monotonicity every
 Element at index $\le \mathrm{mid$ is also $\lt t$ So $k \gt \mathrm{mid$ and we safely set
 $\mathrm{low = \mathrm{mid - 1$. The argument is symmetric for the other case. The loop terminates
-When $\mathrm{low \gt
+when $\mathrm{low \gt
 \mathrm{high$, meaning the search space is empty and $T$ does not exist in the
-Array.
+array.
 
 ## 3. Sorting Algorithms
 
 ### 3.1 Bubble Sort
 
 The **bubble sort** repeatedly steps through the list, compares adjacent elements, and swaps them if
-They are in the wrong order.
+they are in the wrong order.
 
 **Pseudocode:**
 
@@ -254,7 +262,7 @@ FUNCTION bubble_sort(array):
 
 **Intuition.** Imagine you are scanning through a line of students ordered by height. You compare
 Each adjacent pair. If the taller student is on the left, you swap them. After one full pass, the
-Tallest student has "bubbled" to the end of the line. You repeat, and each pass places the next
+tallest student has "bubbled" to the end of the line. You repeat, and each pass places the next
 Tallest in its correct position.
 
 **Worked Example.** Sort [5, 1, 4, 2, 8].
@@ -313,7 +321,7 @@ print(bubble_sort(numbers))
 ### 3.2 Insertion Sort
 
 The **insertion sort** builds the sorted array one element at a time by inserting each element into
-Its correct position.
+its correct position.
 
 **Pseudocode:**
 
@@ -331,7 +339,7 @@ FUNCTION insertion_sort(array):
 
 **Intuition.** Imagine sorting a hand of playing cards. You hold the first card in your left hand
 (sorted). You pick up the next card with your right hand and insert it into the correct position in
-Your left hand by shifting larger cards to the right. You repeat for every card.
+your left hand by shifting larger cards to the right. You repeat for every card.
 
 **Worked Example.** Sort [5, 1, 4, 2, 8].
 
@@ -342,7 +350,7 @@ Shift 5, 4 right. [1, 2, 4, 5, 8] i=4: key=8, no shifting needed. [1, 2, 4, 5, 8
 
 **Why insertion sort can be faster than bubble sort in practice.** Insertion sort only swaps
 Elements that are out of order, whereas bubble sort always scans the entire unsorted portion. For
-Nearly sorted data, insertion sort approaches $O(n)$ because few shifts are needed.
+nearly sorted data, insertion sort approaches $O(n)$ because few shifts are needed.
 
 **Python implementation:**
 
@@ -393,7 +401,7 @@ FUNCTION merge(left, right):
 
 **Intuition.** Think of sorting a stack of exam papers by marking scheme. You split the stack in
 Half and give each half to a colleague. They each split their stack again, and so on, until each
-Person has one paper ( sorted). Then you merge: the two single-paper stacks are merged into A sorted
+person has one paper ( sorted). Then you merge: the two single-paper stacks are merged into A sorted
 pair, pairs into sorted fours, and so on.
 
 **Time complexity:** $O(n \log n)$ in all cases (best, average, worst).
@@ -410,6 +418,8 @@ Split: [38, 27] and [43, 3] Split: [38], [27] and [43], [3] Merge: [27, 38] and 
 
 ### 3.4 Comparing Sorts
 
+<div class="table-wrap">
+
 | Feature      | Bubble Sort | Insertion Sort | Merge Sort (Higher)           |
 | ------------ | ----------- | -------------- | ----------------------------- |
 | Best case    | $O(n)$      | $O(n)$         | $O(n \log n)$                 |
@@ -417,6 +427,8 @@ Split: [38, 27] and [43, 3] Split: [38], [27] and [43], [3] Merge: [27, 38] and 
 | Worst case   | $O(n^2)$    | $O(n^2)$       | $O(n \log n)$                 |
 | Stable?      | Yes         | Yes            | Yes                           |
 | In-place?    | Yes         | Yes            | No (needs $O(n)$ extra space) |
+
+</div>
 
 **Stable sort:** Equal elements maintain their relative order. Both bubble and insertion sort are
 Stable because they only swap when `array[j] > array[j+1]` (strictly greater), never when equal.
@@ -435,7 +447,7 @@ In-place; merge sort requires a temporary array during merging.
 Interface, scoring system.
 
 Each sub-problem can then be tackled independently. Decomposition makes large problems tractable and
-Allows different team members to work on different parts simultaneously.
+allows different team members to work on different parts simultaneously.
 
 ### 4.2 Abstraction
 
@@ -447,7 +459,7 @@ And which are irrelevant (tree species, building colours).
 
 **Example:** When modelling a car in a racing game, you might represent it by position, velocity,
 And direction while ignoring the brand, colour, and interior design. These irrelevant details would
-Make the model unnecessarily complex without improving the simulation.
+make the model unnecessarily complex without improving the simulation.
 
 ### 4.3 Pattern Recognition
 
@@ -480,6 +492,8 @@ OUTPUT max
 
 **Trace table for input [3, 7, 2, 9, 5]:**
 
+<div class="table-wrap">
+
 | element | max |
 | ------- | --- |
 | 3       | 3   |
@@ -487,6 +501,8 @@ OUTPUT max
 | 2       | 7   |
 | 9       | 9   |
 | 5       | 9   |
+
+</div>
 
 Output: 9
 
@@ -540,7 +556,7 @@ By zero will cause a runtime error. This check is a form of **defensive programm
 ## 6. Trace Tables
 
 A **trace table** is used to record the values of variables as an algorithm executes, to check for
-Correctness.
+correctness.
 
 **Worked Example.** Trace the following algorithm with input: 3, 1, 4, 1, 5.
 
@@ -555,6 +571,8 @@ FOR i = 1 TO 5:
 OUTPUT total / count
 ```
 
+<div class="table-wrap">
+
 | i   | num | num > 2 | total | count | Output |
 | --- | --- | ------- | ----- | ----- | ------ |
 | 1   | 3   | Yes     | 3     | 1     |        |
@@ -562,6 +580,8 @@ OUTPUT total / count
 | 3   | 4   | Yes     | 7     | 2     |        |
 | 4   | 1   | No      | 7     | 2     |        |
 | 5   | 5   | Yes     | 12    | 3     | 4      |
+
+</div>
 
 Output: 12 / 3 = 4.
 
@@ -573,6 +593,8 @@ FOR i = 0 TO 3:
         IF array[j] > array[j + 1] THEN
             SWAP array[j] AND array[j + 1]
 ```
+
+<div class="table-wrap">
 
 | i   | j   | array[j] | array[j+1] | Swap? | Array after     |
 | --- | --- | -------- | ---------- | ----- | --------------- |
@@ -587,6 +609,8 @@ FOR i = 0 TO 3:
 | 2   | 1   | 2        | 3          | No    | [1, 2, 3, 4, 7] |
 | 3   | 0   | 1        | 2          | No    | [1, 2, 3, 4, 7] |
 
+</div>
+
 Final array: [1, 2, 3, 4, 7]
 
 ## 7. Big-O Notation (Higher Tier)
@@ -595,6 +619,8 @@ Big-O notation describes how the running time of an algorithm scales with the si
 
 ### 7.1 Common Complexities
 
+<div class="table-wrap">
+
 | Complexity    | Name         | Meaning                                                |
 | ------------- | ------------ | ------------------------------------------------------ |
 | $O(1)$        | Constant     | Same time regardless of input size                     |
@@ -602,6 +628,8 @@ Big-O notation describes how the running time of an algorithm scales with the si
 | $O(n)$        | Linear       | Time grows proportionally with input size              |
 | $O(n \log n)$ | Linearithmic | Slightly worse than linear; typical of efficient sorts |
 | $O(n^2)$      | Quadratic    | Time grows with the square of input size               |
+
+</div>
 
 ### 7.2 Why Big-O Matters
 
@@ -742,17 +770,6 @@ Multi-step problems in Algorithms often combine two or more concepts. Break the 
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[4_Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of algorithms, including underlying theory, practical
@@ -765,9 +782,6 @@ implementation, and key applications.
 - sorting algorithms (bubble, merge, quick)
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## See Also
 

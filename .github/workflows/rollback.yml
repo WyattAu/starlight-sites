@@ -93,7 +93,13 @@ jobs:
 
       - name: Deploy to Cloudflare Pages
         working-directory: sites/${{ matrix.site }}
-        run: bunx wrangler pages deploy dist --project-name ${{ matrix.project }}
+        run: |
+          dist_dir="$PWD/dist"
+          if [ ! -f "$dist_dir/index.html" ]; then
+            echo "::error::No index.html in $dist_dir — refusing to upload a build that is empty or landed somewhere else"
+            exit 1
+          fi
+          bunx wrangler pages deploy "$dist_dir" --project-name ${{ matrix.project }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -136,7 +142,12 @@ jobs:
         run: |
           bun run build
           cp ../../search-api/cross-site-search.js dist/cross-site-search.js
-          bunx wrangler pages deploy dist --project-name wyattsnotes
+          dist_dir="$PWD/dist"
+          if [ ! -f "$dist_dir/index.html" ]; then
+            echo "::error::No index.html in $dist_dir — refusing to upload a build that is empty or landed somewhere else"
+            exit 1
+          fi
+          bunx wrangler pages deploy "$dist_dir" --project-name wyattsnotes
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

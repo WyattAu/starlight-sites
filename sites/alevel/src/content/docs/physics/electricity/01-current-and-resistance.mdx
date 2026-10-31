@@ -20,8 +20,6 @@ import PhetSimulation from "@components/PhetSimulation";
 > **Info:** Board Coverage AQA Paper 1 | Edexcel CP2 | OCR (A) Paper 2 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="resistance-in-a-wire" title="Resistance in a Wire" />
 
-Explore the simulation above to develop intuition for this topic.
-
 ## Intuition
 
 **Current is like water flow, voltage is like water pressure, and resistance is like pipe width:** Think of electricity as water flowing through pipes. Voltage (potential difference) is the pressure pushing the water through. Current is how much water flows per second. Resistance is how narrow the pipe is, narrow pipes restrict flow, just as high resistance restricts current.
@@ -34,7 +32,9 @@ Explore the simulation above to develop intuition for this topic.
 
 **Definition.** Electric current is the rate of flow of charge:
 
-$$\boxed{I = \frac{dQ}{dt}}$$
+$$
+\boxed{I = \frac{dQ}{dt}}
+$$
 
 For constant current: $I = \frac{Q}{t}$. The SI unit is the ampere (A), where 1 A = 1 C s$^{-1}$.
 
@@ -43,25 +43,33 @@ Actual charge carriers are **electrons**, which flow from negative to positive.
 
 ### Current as Charge per Unit Time
 
-If $N$ charge carriers, each with charge $q$Pass a point in time $t$:
+If $N$ charge carriers, each with charge $q$ Pass a point in time $t$:
 
-$$I = \frac{Nq}{t}$$
+$$
+I = \frac{Nq}{t}
+$$
 
 ### Derivation of $I = nAev_d$
 
 Consider a conductor of cross-sectional area $A$ with $n$ free charge carriers per unit volume, each
 Carrying charge $q$ and moving with drift velocity $v_d$.
 
-In time $\Delta t$Each carrier moves a distance $v_d \Delta t$. The volume swept is
-$Av_d \Delta t$Containing $nAv_d \Delta t$ carriers. The total charge passing is:
+In time $\Delta t$ Each carrier moves a distance $v_d \Delta t$. The volume swept is
+$Av_d \Delta t$ Containing $nAv_d \Delta t$ carriers. The total charge passing is:
 
-$$\Delta Q = nAv_d \Delta t \cdot q$$
+$$
+\Delta Q = nAv_d \Delta t \cdot q
+$$
 
-$$\boxed{I = \frac{\Delta Q}{\Delta t} = nAqv_d}$$
+$$
+\boxed{I = \frac{\Delta Q}{\Delta t} = nAqv_d}
+$$
 
 For metals, $q = e = 1.60 \times 10^{-19}$ C:
 
-$$I = nAev_d$$
+$$
+I = nAev_d
+$$
 
 **Definition.** Drift velocity $v_d$ is the average net velocity of charge carriers in a conductor
 In the direction of the applied electric field, resulting from the superposition of rapid random
@@ -91,7 +99,9 @@ Volt (V), where 1 V = 1 J C$^{-1}$.
 
 **Potential difference** (p.d.) $V$ between two points is the energy transferred per unit charge:
 
-$$V = \frac{W}{Q}$$
+$$
+V = \frac{W}{Q}
+$$
 
 **Definition.** Electromotive force (e.m.f.) $\mathcal{E}$ is the total energy transferred per unit
 Charge by a source when charge passes through it, including both energy delivered to the external
@@ -100,10 +110,12 @@ Circuit and energy dissipated internally: $\mathcal{E} = W/Q$.
 **Electromotive force** (e.m.f.) $\mathcal{E}$ is the energy transferred per unit charge when charge
 Passes through a source (e.g., a cell):
 
-$$\mathcal{E} = \frac{W}{Q}$$
+$$
+\mathcal{E} = \frac{W}{Q}
+$$
 
 The distinction: p.d. Refers to energy dissipated in a component; e.m.f. Refers to energy gained
-From a source.
+from a source.
 
 ## 3. Ohm's Law
 
@@ -114,7 +126,9 @@ Temperature) remain constant: $V = IR$.
 **Ohm's Law.** The current through a metallic conductor is directly proportional to the potential
 Difference across it, provided the temperature remains constant:
 
-$$V = IR$$
+$$
+V = IR
+$$
 
 Where $R$ is the **resistance**.
 
@@ -127,21 +141,23 @@ An **ohmic conductor** obeys Ohm's law, its $I$-$V$ graph is a straight line thr
 **Microscopic origin.** In a metal, conduction electrons accelerate in the electric field but
 Collide with lattice ions, losing energy. The average time between collisions is the **relaxation
 Time** $\tau$. The drift velocity is $v_d = \frac{eE\tau}{m_e}$ So
-$I \propto E \propto V$Giving $V = IR$.
+$I \propto E \propto V$ Giving $V = IR$.
 
 ### Derivation of Ohm's Law from the Microscopic Model
 
-1. In a conductor of length $L$ with p.d. $V$The electric field is $E = V/L$.
+1. In a conductor of length $L$ with p.d. $V$ The electric field is $E = V/L$.
 2. A conduction electron of charge $e$ and mass $m_e$ experiences force $F = eE$.
 3. Between collisions (mean relaxation time $\tau$), the electron accelerates to drift velocity:
    $v_d = a\tau = (eE/m_e)\tau$.
 4. Current density:
    $J = nev_d = ne \cdot \frac{eE\tau}{m_e} = \frac{ne^2\tau}{m_e}E$.
-5. Since $J \propto E$The material is ohmic. Integrating:
+5. Since $J \propto E$ The material is ohmic. Integrating:
    $I = JA = \frac{ne^2\tau A}{m_e} \cdot \frac{V}{L}$.
 6. Rearranging: $V = \frac{mL}{ne^2\tau A} \cdot I = RI$.
 
-$$\boxed{V = IR}$$
+$$
+\boxed{V = IR}
+$$
 
 $\square$
 
@@ -153,23 +169,31 @@ Strongly it resists electric current flow, defined by $R = \rho L / A$. The SI u
 
 The resistance of a uniform conductor depends on its geometry and material:
 
-$$\boxed{R = \frac{\rho L}{A}}$$
+$$
+\boxed{R = \frac{\rho L}{A}}
+$$
 
 Where $\rho$ is the **resistivity** (a property of the material, not the geometry), $L$ is the
 Length, and $A$ is the cross-sectional area.
 
 ### Derivation of the Resistivity Formula
 
-**Derivation.** Consider a conductor of length $L$Cross-sectional area $A$With electric field
+**Derivation.** Consider a conductor of length $L$ Cross-sectional area $A$ With electric field
 $E = V/L$.
 
-$$I = nAev_d = nAe \cdot \frac{eE\tau}{m_e} = \frac{ne^2\tau}{m_e} \cdot AE = \frac{ne^2\tau}{m_e} \cdot A \cdot \frac{V}{L}$$
+$$
+I = nAev_d = nAe \cdot \frac{eE\tau}{m_e} = \frac{ne^2\tau}{m_e} \cdot AE = \frac{ne^2\tau}{m_e} \cdot A \cdot \frac{V}{L}
+$$
 
-$$R = \frac{V}{I} = \frac{mL}{ne^2\tau A}$$
+$$
+R = \frac{V}{I} = \frac{mL}{ne^2\tau A}
+$$
 
 Comparing with $R = \rho L/A$:
 
-$$\boxed{\rho = \frac{m}{ne^2\tau}}$$
+$$
+\boxed{\rho = \frac{m}{ne^2\tau}}
+$$
 
 $\square$
 
@@ -180,6 +204,8 @@ $\tau$ But not on its geometry.
 Less resistance (more parallel paths). A higher resistivity means the material is intrinsically more
 Resistant to current flow.
 
+<div class="table-wrap">
+
 | Material   | Resistivity ($\Omega$ m) |
 | ---------- | ------------------------ |
 | Copper     | $1.7 \times 10^{-8}$     |
@@ -188,6 +214,8 @@ Resistant to current flow.
 | Nichrome   | $1.1 \times 10^{-6}$     |
 | Silicon    | $6.4 \times 10^{2}$      |
 | Glass      | $\sim 10^{12}$           |
+
+</div>
 
 <Aside type="caution">
 Warning Particular component. A long thin copper wire has high resistance but copper
@@ -223,25 +251,37 @@ Carriers are released from the lattice).
 
 **Energy transferred** when charge $Q$ moves through p.d. $V$:
 
-$$W = QV = VIt$$
+$$
+W = QV = VIt
+$$
 
 **Power** (rate of energy transfer):
 
-$$P = IV$$
+$$
+P = IV
+$$
 
 Using $V = IR$:
 
-$$P = I^2R = \frac{V^2}{R}$$
+$$
+P = I^2R = \frac{V^2}{R}
+$$
 
 **Derivation of $P = I^2R$.** Substituting $V = IR$ into $P = IV$:
 
-$$P = I \cdot IR = I^2R$$
+$$
+P = I \cdot IR = I^2R
+$$
 
 **Derivation of $P = V^2/R$.** Substituting $I = V/R$ into $P = IV$:
 
-$$P = \frac{V}{R} \cdot V = \frac{V^2}{R}$$
+$$
+P = \frac{V}{R} \cdot V = \frac{V^2}{R}
+$$
 
 **Choosing the right formula:**
+
+<div class="table-wrap">
 
 | Known quantities | Formula to use |
 | ---------------- | -------------- |
@@ -249,13 +289,19 @@ $$P = \frac{V}{R} \cdot V = \frac{V^2}{R}$$
 | $I$ and $R$      | $P = I^2R$     |
 | $V$ and $R$      | $P = V^2/R$    |
 
+</div>
+
 **Energy:**
 
-$$E = Pt = VIt = I^2Rt = \frac{V^2t}{R}$$
+$$
+E = Pt = VIt = I^2Rt = \frac{V^2t}{R}
+$$
 
 The SI unit of energy is the joule (J). For domestic billing, the kilowatt-hour (kWh) is used:
 
-$$1 \mathrm{ kWh} = 1000 \mathrm{ W} \times 3600 \mathrm{ s} = 3.6 \times 10^6 \mathrm{ J}$$
+$$
+1 \mathrm{ kWh} = 1000 \mathrm{ W} \times 3600 \mathrm{ s} = 3.6 \times 10^6 \mathrm{ J}
+$$
 
 <Aside type="tip">
 Exam Technique When calculating energy for resistors in series, use $P = I^2R$ (same
@@ -269,27 +315,35 @@ Current). For resistors in parallel, use $P = V^2/R$ (same voltage).
 
 From Section 4, the resistivity of a metal is:
 
-$$\rho = \frac{m_e}{ne^2\tau}$$
+$$
+\rho = \frac{m_e}{ne^2\tau}
+$$
 
 In a metal, the number density of free electrons $n$ is essentially fixed (every atom contributes
 Roughly one conduction electron, and the total number of atoms does not change with temperature).
 The electron mass $m_e$ and charge $e$ are constants. Therefore, the only temperature-dependent
 Quantity is the relaxation time $\tau$.
 
-**Proof that $\tau$ decreases with temperature.** At temperature $T$The lattice ions vibrate with
+**Proof that $\tau$ decreases with temperature.** At temperature $T$ The lattice ions vibrate with
 Mean square amplitude $\langle u^2 \rangle \propto T$ (from the equipartition theorem:
 $\frac{1}{2}k\langle u^2 \rangle = \frac{1}{2}k_BT$ per degree of freedom). The probability that an
 Electron scatters off a lattice ion is proportional to the amplitude of the ion's displacement from
-Its equilibrium position. Therefore the scattering rate $1/\tau$ is proportional to $T$ And the
+its equilibrium position. Therefore the scattering rate $1/\tau$ is proportional to $T$ And the
 Relaxation time decreases:
 
-$$\tau \propto \frac{1}{T}$$
+$$
+\tau \propto \frac{1}{T}
+$$
 
 Consequently:
 
-$$\rho = \frac{m_e}{ne^2\tau} \propto T$$
+$$
+\rho = \frac{m_e}{ne^2\tau} \propto T
+$$
 
-$$\boxed{R(T) = R_0\left[1 + \alpha(T - T_0)\right]}$$
+$$
+\boxed{R(T) = R_0\left[1 + \alpha(T - T_0)\right]}
+$$
 
 Where $R_0$ is the resistance at reference temperature $T_0$ and $\alpha$ is the **temperature
 Coefficient of resistance**. For copper, $\alpha \approx 3.9 \times 10^{-3}$
@@ -307,7 +361,9 @@ Decreases as temperature increases. This is the opposite of what happens in meta
 Promoted from the valence band across the band gap $E_g$ into the conduction band. The number of
 Charge carriers is strongly temperature-dependent:
 
-$$n(T) \propto T^{3/2} \exp\left(-\frac{E_g}{2k_BT}\right)$$
+$$
+n(T) \propto T^{3/2} \exp\left(-\frac{E_g}{2k_BT}\right)
+$$
 
 As $T$ increases, the exponential factor dominates and the carrier density increases dramatically.
 Since $\rho = m/(ne^2\tau)$ and $n$ grows exponentially, the resistivity drops. This overwhelms any
@@ -315,7 +371,9 @@ Decrease in $\tau$ due to increased lattice vibrations.
 
 For a typical NTC thermistor, the resistance approximately follows:
 
-$$R = R_0 \exp\left(\frac{B}{T} - \frac{B}{T_0}\right)$$
+$$
+R = R_0 \exp\left(\frac{B}{T} - \frac{B}{T_0}\right)
+$$
 
 Where $B$ is a material constant ( 3000--5000 K).
 
@@ -437,7 +495,9 @@ For silicon, $E_g = 1.1$ eV. For germanium, $E_g = 0.67$ eV.
 
 **Derivation of carrier concentration.** The intrinsic carrier concentration is given by:
 
-$$\boxed{n_i = C \cdot T^{3/2} \exp\left(-\frac{E_g}{2k_BT}\right)}$$
+$$
+\boxed{n_i = C \cdot T^{3/2} \exp\left(-\frac{E_g}{2k_BT}\right)}
+$$
 
 Where $C$ is a material constant and $k_B = 1.38 \times 10^{-23}$ J K$^{-1}$ is the Boltzmann
 Constant. The factor of 2 in the denominator arises because creating one electron-hole pair requires
@@ -458,7 +518,7 @@ Virtually all donor atoms are ionised, contributing free electrons. The majority
 Electrons.
 
 **p-type semiconductor.** A group III element (e.g., boron) is substituted for a silicon atom. Boron
-Has 3 valence electrons; it accepts an electron from a neighbouring silicon atom to complete its
+has 3 valence electrons; it accepts an electron from a neighbouring silicon atom to complete its
 Bonds, creating a hole. At room temperature, virtually all acceptor atoms are ionised, contributing
 Holes. The majority carriers are holes.
 
@@ -478,22 +538,32 @@ Perpendicular to both the current and the field. This is the **Hall effect**.
 Magnetic field $B$ in the $z$-direction. Charge carriers of charge $q$ and drift velocity $v_d$
 Experience a magnetic force:
 
-$$F_B = qv_dB$$
+$$
+F_B = qv_dB
+$$
 
 This deflects carriers to one face, building up charge until the electric field $E_H$ creates a
 Force that balances the magnetic force:
 
-$$qE_H = qv_dB$$
+$$
+qE_H = qv_dB
+$$
 
-$$E_H = v_dB$$
+$$
+E_H = v_dB
+$$
 
 The Hall voltage across the thickness $d$ is:
 
-$$V_H = E_H \cdot d = v_dBd$$
+$$
+V_H = E_H \cdot d = v_dBd
+$$
 
 Substituting $v_d = I/(nqA) = I/(nq \cdot wd)$ where $w$ is the width:
 
-$$\boxed{V_H = \frac{BI}{nqd}}$$
+$$
+\boxed{V_H = \frac{BI}{nqd}}
+$$
 
 **Determining carrier type.** The sign of $V_H$ reveals the sign of the charge carriers. In n-type
 Material, $V_H$ is negative on one face (electrons accumulate). In p-type material, $V_H$ is
@@ -501,7 +571,9 @@ Positive on that same face (holes accumulate).
 
 **Determining carrier density.** Rearranging:
 
-$$n = \frac{BI}{qV_Hd}$$
+$$
+n = \frac{BI}{qV_Hd}
+$$
 
 Measurement of $V_H$, $B$, $I$ And $d$ gives $n$ directly.
 
@@ -516,7 +588,7 @@ Perpendicular to the strip. Calculate the Hall voltage. (Take $n = 8.5 \times 10
 $V_H = \frac{BI}{nqd} = \frac{1.5 \times 10}{8.5 \times 10^{28} \times 1.60 \times 10^{-19} \times 0.50 \times 10^{-3}}$
 
 $= \frac{15}{8.5 \times 10^{28} \times 8.0 \times 10^{-23}} = \frac{15}{6.8 \times 10^{6}} = 2.2 \times 10^{-6}$
-V $= 2.2$ $\mu$V.
+V $= 2.2$ $\mu$ V.
 
 Note the very small Hall voltage in metals, due to the enormous carrier density. In semiconductors,
 Where $n$ is much smaller, $V_H$ is much larger and easier to measure.
@@ -542,8 +614,8 @@ to one Side, holes (positive charge) deflect to the opposite side.
 ### Why AC is Used for Long-Distance Transmission
 
 The fundamental reason AC is used for power transmission is that **transformers** allow voltage to
-Be stepped up at the generating station and stepped down near the consumer. This is only possible
-With AC (or with complex DC-DC conversion technology, which was not available historically and is
+be stepped up at the generating station and stepped down near the consumer. This is only possible
+with AC (or with complex DC-DC conversion technology, which was not available historically and is
 Still more expensive).
 
 ### Derivation of Transmission Losses
@@ -552,20 +624,26 @@ Consider transmitting power $P$ over a distance $L$ through cables of resistance
 
 The current in the transmission line is:
 
-$$I = \frac{P}{V}$$
+$$
+I = \frac{P}{V}
+$$
 
 The power dissipated as heat in the cables is:
 
-$$P_{\mathrm{loss}} = I^2R = \left(\frac{P}{V}\right)^2 R$$
+$$
+P_{\mathrm{loss}} = I^2R = \left(\frac{P}{V}\right)^2 R
+$$
 
 **Proof that doubling the voltage quarters the loss.** If $V \to 2V$:
 
-$$P_{\mathrm{loss}}' = \left(\frac{P}{2V}\right)^2 R = \frac{1}{4} \cdot \frac{P^2}{V^2}R = \frac{P_{\mathrm{loss}}}{4}$$
+$$
+P_{\mathrm{loss}}' = \left(\frac{P}{2V}\right)^2 R = \frac{1}{4} \cdot \frac{P^2}{V^2}R = \frac{P_{\mathrm{loss}}}{4}
+$$
 
 $\square$
 
 This is the central result: power loss scales as $1/V^2$. This is why the National Grid transmits at
-Very high voltages ( 275 kV or 400 kV in the UK).
+very high voltages ( 275 kV or 400 kV in the UK).
 
 ### The National Grid
 
@@ -703,8 +781,8 @@ Explain why the resistance of a filament lamp increases as the current through i
 **Answer.** As the current increases, more energy is dissipated per second ($P = I^2R$), heating the
 Filament. The increased temperature causes the metal lattice ions to vibrate more vigorously,
 Increasing the frequency of collisions between the conduction electrons and the lattice. This
-Reduces the mean relaxation time $\tau$ And since $\rho = m/(ne^2\tau)$The resistivity increases.
-Since $R = \rho L/A$The resistance increases.
+Reduces the mean relaxation time $\tau$ And since $\rho = m/(ne^2\tau)$ The resistivity increases.
+Since $R = \rho L/A$ The resistance increases.
 
 <b>If you get this wrong, revise:</b> [Resistivity](#4-resistivity) and
 [I-V Characteristics](#5-i-v-characteristics)
@@ -728,7 +806,7 @@ Gradient $= \rho/A = 5.0$. $\rho = 5.0 \times 1.26 \times 10^{-7} = 6.3 \times 1
 <details>
 <summary>Problem 9</summary>
 Two resistors of 6 $\Omega$ and 3 $\Omega$ are connected in series across a 9 V battery. Calculate
-The current and the power dissipated in each resistor.
+the current and the power dissipated in each resistor.
 
 **Answer.** Total resistance $R_{\mathrm{total}} = 6 + 3 = 9$ $\Omega$. Current
 $I = V/R = 9/9 = 1.0$ A.
@@ -769,8 +847,8 @@ Resistance at $-40^\circ\mathrm C$.
 $R = 5.00 \times [1 + 3.9 \times 10^{-3} \times (100 - 20)] = 5.00 \times [1 + 0.312] = 5.00 \times 1.312 = 6.56$
 $\Omega$.
 
-(b) $2R_0 = R_0[1 + \alpha(T - T_0)]$ So $2 = 1 + \alpha(T - 20)$Giving $\alpha(T - 20) = 1$ So
-$T - 20 = 1/(3.9 \times 10^{-3}) = 256$ So $T = 276^\circ$C.
+(b) $2R_0 = R_0[1 + \alpha(T - T_0)]$ So $2 = 1 + \alpha(T - 20)$ Giving $\alpha(T - 20) = 1$ So
+$T - 20 = 1/(3.9 \times 10^{-3}) = 256$ So $T = 276^\circ$ C.
 
 (c)
 $R = 5.00 \times [1 + 3.9 \times 10^{-3} \times (-40 - 20)] = 5.00 \times [1 - 0.234] = 5.00 \times 0.766 = 3.83$
@@ -785,9 +863,9 @@ $\Omega$.
 <summary>Problem 12</summary>
 
 A semiconductor sample has thickness $d = 1.0$ mm and width $w = 5.0$ mm. A current of 15 mA flows
-Through it. When a magnetic field of 0.80 T is applied perpendicular to the flat face, a Hall
+through it. When a magnetic field of 0.80 T is applied perpendicular to the flat face, a Hall
 Voltage of 12 mV is measured across the width. (a) Calculate the carrier density. (b) Determine
-Whether the material is n-type or p-type if the Hall voltage is positive on the face closest to the
+whether the material is n-type or p-type if the Hall voltage is positive on the face closest to the
 North pole of the magnet (conventional current flows left to right, magnetic field points into the
 Page).
 
@@ -858,7 +936,7 @@ A.
 
 Silicon has a band gap of 1.1 eV and an intrinsic carrier concentration of
 $n_i = 1.5 \times 10^{16}$ m$^{-3}$ at 300 K. (a) Estimate $n_i$ at 350 K. (b) A sample of silicon
-Is doped with phosphorus at a concentration of $N_D = 5.0 \times 10^{21}$ m$^{-3}$. Calculate the
+is doped with phosphorus at a concentration of $N_D = 5.0 \times 10^{21}$ m$^{-3}$. Calculate the
 Ratio of conductivities: $\sigma_{\mathrm{doped}} / \sigma_{\mathrm{intrinsic}}$ at 300 K. (Assume
 Mobility is the same for both.)
 
@@ -888,8 +966,8 @@ Doping increased conductivity by over 5 orders of magnitude.
 <summary>Problem 16</summary>
 
 A copper wire of length 1.00 m and diameter 0.50 mm has resistance $R_0$ at $20^\circ\mathrm C$. It
-Is uniformly stretched to 1.50 times its original length. (a) Calculate the ratio $R'/R_0$ of the
-New resistance to the original resistance. (b) If the original resistance was 0.087 $\Omega$What Is
+is uniformly stretched to 1.50 times its original length. (a) Calculate the ratio $R'/R_0$ of the
+New resistance to the original resistance. (b) If the original resistance was 0.087 $\Omega$ What Is
 the new resistance? (c) The wire is now at a temperature of $60^\circ\mathrm C$. What is its
 Resistance? ($\alpha = 3.9 \times 10^{-3}$ $^\circ\mathrm C^{-1}$.)
 
@@ -952,7 +1030,7 @@ Resistance has a positive temperature coefficient of $\alpha_r = 4.0 \times 10^{
 $^\circ\mathrm C^{-1}$. (a) Calculate the current and power delivered to the load at
 $20^\circ\mathrm C$. (b) If the battery warms up to $60^\circ\mathrm C$ during operation,
 Calculate the new current and power delivered to the load. (c) Calculate the power dissipated within
-The battery at each temperature.
+the battery at each temperature.
 
 **Answer.** (a) At $20^\circ\mathrm C$: $r = 0.50$ $\Omega$. Total resistance $= 0.50 + 5.0 = 5.50$
 $\Omega$.
@@ -1029,26 +1107,9 @@ self-marking and building a personal test matrix.
 4. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
-```mermaid
-flowchart TD
-    A[01 Current And Resistancex] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

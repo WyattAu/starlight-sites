@@ -56,7 +56,7 @@ resistance, and capacitance that form the basis of all electronic systems.
 - **Electric current**, rate of flow of charge: $I = \frac{\Delta Q}{\Delta t}$; conventional
   current vs. electron flow
 - **Potential difference**, energy per unit charge: $V = \frac{W}{Q}$; the volt
-- **Resistance**, $R = \frac{V}{I}$; Ohm"s law (for ohmic conductors); $I$-$V$ characteristic
+- **Resistance**, $R = \frac{V}{I}$; Ohm's law (for ohmic conductors); $I$-$V$ characteristic
   curves
 - **Resistivity**, $R = \frac{\rho L}{A}$; how material, length, and cross-sectional area affect
   resistance
@@ -91,7 +91,9 @@ The EMF ($\varepsilon$) of a cell is the energy provided per coulomb of charge w
 flows. In practice, all cells have internal resistance $r$, so the terminal potential difference is
 less than the EMF when current flows:
 
-$$\varepsilon = V + Ir$$
+$$
+\varepsilon = V + Ir
+$$
 
 Where $V$ is the terminal p.d., $I$ is the current, and $r$ is the internal resistance. To measure
 $r$ experimentally, vary the external resistance and plot $V$ against $I$, the gradient is $-r$ and
@@ -160,8 +162,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 

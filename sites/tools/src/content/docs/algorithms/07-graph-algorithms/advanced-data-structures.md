@@ -957,6 +957,8 @@ A way that preserves locality better than block-based sorting.
 
 ## Comparison Table
 
+<div class="table-wrap">
+
 | Data Structure          | Build         | Query                   | Update         | Notes                                         |
 | ----------------------- | ------------- | ----------------------- | -------------- | --------------------------------------------- |
 | Segment tree            | $O(n)$        | $O(\log n)$             | $O(\log n)$    | Flexible, lazy propagation                    |
@@ -969,6 +971,8 @@ A way that preserves locality better than block-based sorting.
 | Merge sort tree         | $O(n \log n)$ | $O(\log^2 n)$           | N/A            | Static, sorted subarrays                      |
 | Persistent segment tree | $O(n \log n)$ | $O(\log n)$             | $O(\log n)$    | Version history, $O(\log n)$ space per update |
 | Mo's algorithm          | N/A           | $O(\sqrt{n})$ amortised | N/A            | Offline only                                  |
+
+</div>
 
 ## Common Pitfalls
 
@@ -1035,9 +1039,6 @@ including key theorems, methods, and problem-solving approaches.
 - proof and logical reasoning
 - problem-solving strategies
 - applications and modelling
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 ## Worked Examples
 

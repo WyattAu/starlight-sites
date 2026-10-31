@@ -20,17 +20,6 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[01 Git Directory Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## The `.git` Directory
 
 The `.git` directory is the heart of a Git repository. It contains all metadata, object data,
@@ -128,7 +117,7 @@ Unnamed repository; edit this file "description' to name the repository.
 
 ### info/exclude
 
-Local gitignore rules that are **not shared** with other developers (unlike `.gitignore`Which is
+Local gitignore rules that are **not shared** with other developers (unlike `.gitignore`. Which is
 tracked):
 
 ```bash
@@ -195,6 +184,8 @@ in `.git/hooks/` and must be executable.
 
 ### Available Hooks
 
+<div class="table-wrap">
+
 | Hook                 | Trigger                        | Use Case                           |
 | -------------------- | ------------------------------ | ---------------------------------- |
 | `pre-commit`         | Before commit is created       | Linting, formatting, running tests |
@@ -206,6 +197,8 @@ in `.git/hooks/` and must be executable.
 | `post-checkout`      | After checkout                 | Rebuild generated files            |
 | `post-merge`         | After merge                    | Rebuild generated files            |
 | `prepare-commit-msg` | Before message editor opens    | Template commit messages           |
+
+</div>
 
 ### Hook Script Template
 

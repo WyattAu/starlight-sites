@@ -24,7 +24,7 @@ categories:
 
 This diagnostic test covers the full A Level Computer Science syllabus. There are **45 questions**
 Across all topics. Attempt each question, then check your answers. Each question links to the
-Relevant revision page for further study.
+relevant revision page for further study.
 
 **Recommended time:** 90 minutes.
 
@@ -112,7 +112,7 @@ With $n$ elements?
 <summary>Answer</summary>
 
 $O(1)$, insert at the head by updating the new node's next pointer to the current head and updating
-The head pointer. No traversal needed.
+the head pointer. No traversal needed.
 
 **Revision:** [Linked Lists](/computer-science/data-structures/02-linked-lists/)
 
@@ -148,7 +148,7 @@ $2^3 = 8$ nodes.
 <summary>Answer</summary>
 
 BFS (Breadth-First Search). BFS explores vertices level by level, so the first time a vertex is
-Discovered, the path to it is the shortest.
+discovered, the path to it is the shortest.
 
 **Revision:** [Graphs](/computer-science/data-structures/05-graphs/)
 
@@ -286,7 +286,7 @@ $O(\phi^n)$ where $\phi = (1+\sqrt{5})/2 \approx 1.618$ (exponential).
 <summary>Answer</summary>
 
 Encapsulation is the bundling of data and methods within a class, and restricting direct access to
-Internal state through access modifiers (public, private, protected).
+internal state through access modifiers (public, private, protected).
 
 **Revision:** [OOP](/computer-science/programming/02-object-oriented-programming/)
 
@@ -298,7 +298,7 @@ Internal state through access modifiers (public, private, protected).
 <summary>Answer</summary>
 
 Objects of a superclass shall be replaceable with objects of a subclass without breaking the
-Program.
+program.
 
 **Revision:** [OOP](/computer-science/programming/02-object-oriented-programming/)
 
@@ -365,7 +365,7 @@ shippable product increment.
 <summary>Answer</summary>
 
 Boundary value analysis tests values at and around the boundaries of equivalence classes, where
-Off-by-one errors are most likely. Example: for a function accepting ages 0–120, test -1, 0, 1 and
+off-by-one errors are most likely. Example: for a function accepting ages 0–120, test -1, 0, 1 and
 119, 120, 121.
 
 **Revision:** [Testing](/computer-science/software-engineering/02-testing/)
@@ -379,7 +379,7 @@ Off-by-one errors are most likely. Example: for a function accepting ages 0–12
 
 No. Consider `if condition: x = 1`. A single test with `condition = True` achieves 100% statement
 Coverage (both `x = 1` and subsequent code execute) but only 50% branch coverage (the false branch
-Is never taken).
+is never taken).
 
 **Revision:** [Testing](/computer-science/software-engineering/02-testing/)
 
@@ -486,7 +486,7 @@ With), **A**vailability (data accessible when needed).
 <summary>Answer</summary>
 
 A **primary key** uniquely identifies each row in its table. A **foreign key** references the
-Primary key of another table, establishing a relationship.
+primary key of another table, establishing a relationship.
 
 **Revision:** [Relational Databases](/computer-science/databases/01-relational-databases/)
 
@@ -551,7 +551,7 @@ HAVING AVG(score) > 80;
 <summary>Answer</summary>
 
 A **DFA** has exactly one transition per state per input symbol. An **NFA** can have zero, one, or
-Multiple transitions per state per input symbol, and accepts if ANY path leads to an accepting
+multiple transitions per state per input symbol, and accepts if ANY path leads to an accepting
 State.
 
 **Revision:**
@@ -565,8 +565,8 @@ State.
 <summary>Answer</summary>
 
 No. Proved using the Pumping Lemma: choose $s = a^p b^p$; the pumped substring $y$ lies within the
-First $p$ symbols (all $a$'s); removing $y$ yields unequal numbers of $a$'s and $b$'s, which is not
-In $L$.
+first $p$ symbols (all $a$'s); removing $y$ yields unequal numbers of $a$'s and $b$'s, which is not
+in $L$.
 
 **Revision:**
 [Automata and Computability](/computer-science/theory-of-computation/01-automata-and-computability/)
@@ -578,9 +578,9 @@ In $L$.
 <details>
 <summary>Answer</summary>
 
-The halting problem asks: given a TM $M$ and input $w$Does $M$ halt on $w$? It is undecidable
-Because assuming a decider $H$ exists leads to a contradiction when we construct a machine $D$ that
-Does the opposite of $H$ when run on itself.
+The halting problem asks: given a TM $M$ and input $w$ Does $M$ halt on $w$? It is undecidable
+because assuming a decider $H$ exists leads to a contradiction when we construct a machine $D$ that
+does the opposite of $H$ when run on itself.
 
 **Revision:**
 [Automata and Computability](/computer-science/theory-of-computation/01-automata-and-computability/)
@@ -606,7 +606,7 @@ In polynomial time. P ⊆ NP. Whether P = NP is an open question.
 <summary>Answer</summary>
 
 Every effectively computable function is computable by a Turing machine. It is a thesis (not a
-Theorem) because "effectively computable" is an informal concept.
+theorem) because "effectively computable" is an informal concept.
 
 **Revision:**
 [Automata and Computability](/computer-science/theory-of-computation/01-automata-and-computability/)
@@ -619,6 +619,8 @@ Theorem) because "effectively computable" is an informal concept.
 
 Count your correct answers and identify weak areas:
 
+<div class="table-wrap">
+
 | Score | Grade | Recommendation                                        |
 | ----- | ----- | ----------------------------------------------------- |
 | 40–45 | A\*   | Excellent, focus on exam technique                   |
@@ -626,6 +628,8 @@ Count your correct answers and identify weak areas:
 | 25–34 | B/C   | Good foundation, systematic revision needed          |
 | 15–24 | D/E   | Gaps exist, work through each topic's notes          |
 | 0–14  | U     | Significant revision needed, start with fundamentals |
+
+</div>
 
 **Next steps:** For each incorrect answer, follow the revision link and work through the full
 Problem set on that page.
@@ -648,14 +652,7 @@ Problem set on that page.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

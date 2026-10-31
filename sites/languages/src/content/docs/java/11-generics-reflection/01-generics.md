@@ -34,7 +34,7 @@ String name = (String) names.get(1); // ClassCastException at runtime
 ```
 
 This was the standard pattern for container classes. The `Collections` framework, Hibernate, and
-Every library that dealt with heterogeneous data required the programmer to track types mentally.
+every library that dealt with heterogeneous data required the programmer to track types mentally.
 Incorrect casts surfaced as `ClassCastException` at runtime, often far from the actual insertion
 Point.
 
@@ -87,6 +87,8 @@ Box<Integer> intBox = new Box<>(42);
 
 Type parameters are single uppercase letters by convention:
 
+<div class="table-wrap">
+
 | Parameter | Meaning               |
 | --------- | --------------------- |
 | `T`       | Type                  |
@@ -95,6 +97,8 @@ Type parameters are single uppercase letters by convention:
 | `V`       | Value                 |
 | `S``U`    | Second, third types   |
 | `R`       | Return type           |
+
+</div>
 
 Multiple type parameters are comma-separated. Convention uses `K` for key, `V` for value, `E` for
 Element, `S`/`U` for secondary types.
@@ -117,7 +121,7 @@ public interface Comparable<T> {
 ```
 
 A class can implement a generic interface with a concrete type or pass its own type parameter
-Through:
+through:
 
 ```java
 public class StringRepository implements Repository<String, Long> {
@@ -133,7 +137,7 @@ public class InMemoryRepository<T, ID> implements Repository<T, ID> {
 ### Generic Methods
 
 A generic method declares its own type parameters before the return type. This allows the method to
-Be generic even if the enclosing class is not:
+be generic even if the enclosing class is not:
 
 ```java
 public class Util {
@@ -213,7 +217,7 @@ public static <T extends Comparable<T>> void sort(List<T> list) {
 ```
 
 Upper bounds are the most common form. They say "I need to **read** from `T`" (I need it to be at
-Least this capable).
+least this capable).
 
 ### Lower Bounds (`super`)
 
@@ -266,7 +270,7 @@ Cast at the call site. But at the bytecode level, the erased type is only the fi
 ### Unbounded Wildcard (`?`)
 
 `List<?>` means "a list of some unknown type." You can **read** from it (getting `Object`) but you
-Cannot **write** to it (except `null`):
+cannot **write** to it (except `null`):
 
 ```java
 void printSize(List<?> list) {
@@ -294,7 +298,7 @@ void sum(List<? extends Number> numbers) {
 }
 ```
 
-The key insight: `List<? extends Number>` could be `List<Integer>``List<Double>`Or `List<Number>`.
+The key insight: `List<? extends Number>` could be `List<Integer>`, `List<Double>` or `List<Number>`.
 The compiler cannot safely allow an `add` because the actual list type is unknown.
 
 ### Lower-Bounded Wildcard (`? super T`)
@@ -339,6 +343,8 @@ Collections.copy(dest, src); // dest is ? super Integer, src is ? extends Intege
 
 ### PECS Decision Table
 
+<div class="table-wrap">
+
 | Scenario              | Use               | Can read as | Can write               |
 | --------------------- | ----------------- | ----------- | ----------------------- |
 | Read-only (producer)  | `? extends T`     | `T`         | nothing (except `null`) |
@@ -346,10 +352,12 @@ Collections.copy(dest, src); // dest is ? super Integer, src is ? extends Intege
 | Read and write        | `T` (no wildcard) | `T`         | `T`                     |
 | Don't care            | `?`               | `Object`    | nothing (except `null`) |
 
+</div>
+
 ### Wildcard Capture
 
 When the compiler encounters a wildcard type, it internally creates a "capture" of the unknown type
-To track consistency. You can see this in error messages:
+to track consistency. You can see this in error messages:
 
 ```java
 List<?> list = new ArrayList<String>();
@@ -447,7 +455,7 @@ Type erasure was a deliberate design decision to achieve **backwards compatibili
    the inserted casts.
 
 C# chose the opposite approach (reified generics), which provides richer runtime type information
-But broke backwards compatibility.
+but broke backwards compatibility.
 
 ### Bridge Methods
 
@@ -610,8 +618,8 @@ public <T> T[] toArray(T[] array) {
 
 A **reified** type is one that retains its full type information at runtime. In Java:
 
-- Primitive types are reified: `int.class``double.class` exist at runtime.
-- Regular class types are reified: `String.class``List.class` exist at runtime.
+- Primitive types are reified: `int.class`, `double.class` exist at runtime.
+- Regular class types are reified: `String.class`, `List.class` exist at runtime.
 - **Generic type parameters are NOT reified**: `List<String>.class` does not exist. At runtime,
   `List<String>` and `List<Integer>` are both just `List`.
 
@@ -631,7 +639,7 @@ public class Container<T> {
 ```
 
 The compiler cannot generate the correct bytecode because it doesn't know what type `T` represents
-At runtime. It cannot emit `newarray` or `anewarray` without a concrete class reference.
+at runtime. It cannot emit `newarray` or `anewarray` without a concrete class reference.
 
 ### Why `new T()` Is Also Illegal
 
@@ -644,7 +652,7 @@ public class Factory<T> {
 ```
 
 Same reason: the erased code would need to be `return new Object()` which is wrong for any `T` other
-Than `Object`.
+than `Object`.
 
 ### Workarounds for Creating `T` Instances
 
@@ -776,7 +784,7 @@ Parameter is gone at runtime.
 ### Heap Pollution
 
 Heap pollution occurs when a variable of a parameterized type refers to an object that is not of
-That type. This happens through unchecked casts or mixing raw and generic types:
+that type. This happens through unchecked casts or mixing raw and generic types:
 
 ```java
 List raw = new ArrayList<Integer>();
@@ -807,7 +815,7 @@ addToList(strings, ints.toArray()); // Object[] of Integer assigned to T... wher
 ```
 
 Use `@SafeVarargs` only when the method does not store the varargs array or expose it to code that
-Might perform unsafe operations.
+might perform unsafe operations.
 
 ### Unchecked Warnings
 
@@ -897,17 +905,6 @@ public class MyList implements List<String>, List<Integer> {
 When extending a generic class, you can fix the type parameter, pass it through, or add constraints
 - but you cannot have conflicting erasures.
 
-
-```mermaid
-flowchart TD
-    A[01 Generics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of generics and type erasure, including underlying theory,
@@ -921,17 +918,11 @@ practical implementation, and key applications.
 - exception handling
 - the JVM and garbage collection
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Generics are like a type-safe shipping container -- they ensure that what goes in is what comes out, preventing the runtime ClassCastException that plagued pre-generic Java. Type erasure is the customs process: the compiler strips away the type information at the border (compilation), and only the runtime cast remains. The PECS principle (Producer Extends, Consumer Super) is the loading rule: if you are reading from a container, use extends; if you are writing to it, use super. The challenge is that generics create a tension between compile-time safety and runtime flexibility -- you get strong type checking at the cost of some runtime information loss.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

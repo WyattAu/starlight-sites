@@ -41,18 +41,19 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
+
+
+:::note[Heading to university next?]
+These notes are calibrated to your exam. University mathematics and physics are
+not: they assume you can read a proof, define a limit from the epsilon-delta
+definition, and work with vectors and set notation. The destination sites have
+free transition pages written exactly for that step -- start with
+**[Before You Begin: From School to University Mathematics](https://mathematics.wyattau.com/before-you-begin/)**
+and continue to
+**[the physics version](https://physics.wyattau.com/before-you-begin/)**.
+Both end with a self-test, so you know which sections to study.
+:::
 
 The Gaokao (高考) is the National College Entrance Examination of China, one of the most important and most gruelling examinations in the world. Every June, approximately 12 million students sit for this exam, and their scores determine which universities they can attend. The Gaokao is not merely a test of knowledge; it is a test of endurance, precision, and strategic thinking under extreme pressure.
 
@@ -79,16 +80,24 @@ Understanding the structure of the Gaokao is the first step to preparing effecti
 
 ### Day 1
 
+<div class="table-wrap">
+
 | Subject | Duration | Maximum Score |
 |---------|----------|---------------|
 | Chinese (语文) | 150 minutes | 150 |
 | Mathematics (数学) | 120 minutes | 150 |
 
+</div>
+
 ### Day 2
+
+<div class="table-wrap">
 
 | Subject | Duration | Maximum Score |
 |---------|----------|---------------|
 | Comprehensive Liberal Arts or Science | 150 minutes | 300 |
+
+</div>
 
 The comprehensive section varies by track:
 
@@ -243,6 +252,8 @@ The essay (作文) is worth 60 points and can make or break your score.
 
 ### One-Year Plan (Year 12 / Grade 12)
 
+<div class="table-wrap">
+
 | Period | Focus |
 | -------- | ------- |
 | September–November | Complete curriculum coverage; build foundational understanding |
@@ -250,6 +261,8 @@ The essay (作文) is worth 60 points and can make or break your score.
 | February–March | Targeted revision of weak areas; intensive practice |
 | April–May | Full-length practice exams under timed conditions |
 | June | Final review; light practice; rest and mental preparation |
+
+</div>
 
 ### Three-Year Plan (Years 10–12)
 

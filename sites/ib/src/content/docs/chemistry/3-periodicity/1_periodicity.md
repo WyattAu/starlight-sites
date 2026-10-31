@@ -37,6 +37,8 @@ Element) and changes only slightly down a group (new shells increase shielding p
 
 ### Summary of Trends
 
+<div class="table-wrap">
+
 | Property           | Across a period | Down a group  |
 | ------------------ | --------------- | ------------- |
 | Atomic radius      | Decreases       | Increases     |
@@ -45,6 +47,8 @@ Element) and changes only slightly down a group (new shells increase shielding p
 | Electron affinity  | More negative   | Less negative |
 | Electronegativity  | Increases       | Decreases     |
 | Metallic character | Decreases       | Increases     |
+
+</div>
 
 ### Common Pitfalls
 
@@ -67,6 +71,8 @@ Element) and changes only slightly down a group (new shells increase shielding p
 
 ### Physical Properties
 
+<div class="table-wrap">
+
 | Property      | Trend down the group            |
 | ------------- | ------------------------------- |
 | Melting point | Decreases                       |
@@ -74,6 +80,8 @@ Element) and changes only slightly down a group (new shells increase shielding p
 | Density       | Generally increases (K anomaly) |
 | Atomic radius | Increases                       |
 | Hardness      | Decreases (softer)              |
+
+</div>
 
 ### Chemical Properties
 
@@ -87,6 +95,8 @@ $$
 
 Reactivity increases down the group as $IE_1$ decreases.
 
+<div class="table-wrap">
+
 | Metal  | Observation                      |
 | ------ | -------------------------------- |
 | Li     | Fizzes steadily                  |
@@ -94,7 +104,11 @@ Reactivity increases down the group as $IE_1$ decreases.
 | K      | Ignites with lilac flame         |
 | Rb, Cs | Explosive                        |
 
+</div>
+
 #### Oxides
+
+<div class="table-wrap">
 
 | Metal  | Limited O$_2$              | Excess O$_2$                           |
 | ------ | -------------------------- | -------------------------------------- |
@@ -103,17 +117,23 @@ Reactivity increases down the group as $IE_1$ decreases.
 | K      | $\mathrm{K}_2\mathrm{O}_2$ | $\mathrm{KO}_2$ (superoxide)           |
 | Rb, Cs | Superoxides                | Superoxides                            |
 
+</div>
+
 The trend from oxide to peroxide to superoxide down the group reflects the decreasing charge density
-Of the $\mathrm{M}^+$ ion, which stabilizes the larger anions ($\mathrm{O}_2^{2-}$
+of the $\mathrm{M}^+$ ion, which stabilizes the larger anions ($\mathrm{O}_2^{2-}$
 $\mathrm{O}_2^-$).
 
 #### Flame Tests
+
+<div class="table-wrap">
 
 | Ion             | Colour                            |
 | --------------- | --------------------------------- |
 | $\mathrm{Li}^+$ | Crimson red                       |
 | $\mathrm{Na}^+$ | Yellow                            |
 | $\mathrm{K}^+$  | Lilac (view through cobalt glass) |
+
+</div>
 
 ---
 
@@ -130,6 +150,8 @@ $\mathrm{O}_2^-$).
 
 ### Physical Properties
 
+<div class="table-wrap">
+
 | Property      | Trend down the group |
 | ------------- | -------------------- |
 | Melting point | Generally decreases  |
@@ -137,8 +159,10 @@ $\mathrm{O}_2^-$).
 | Density       | Increases            |
 | Atomic radius | Increases            |
 
+</div>
+
 Group 2 metals are harder and have higher melting points than Group 1 metals due to the release of
-Two delocalised electrons per atom, producing stronger metallic bonding.
+two delocalised electrons per atom, producing stronger metallic bonding.
 
 ### Chemical Properties
 
@@ -147,7 +171,7 @@ Outer configuration: $ns^2$. They lose two electrons to form $\mathrm{M}^{2+}$ i
 #### Reactivity with Water
 
 Reactivity increases down the group. Beryllium does not react with water. Magnesium reacts slowly
-With steam. Calcium, strontium, and barium react with cold water.
+with steam. Calcium, strontium, and barium react with cold water.
 
 $$
 \mathrm{M}(s) + 2\mathrm{H}_2\mathrm{O}(l) \to \mathrm{M(OH)}_2(aq) + \mathrm{H}_2(g)
@@ -168,7 +192,9 @@ $$
 $$
 
 Thermal stability increases down the group. This is because the larger $\mathrm{M}^{2+}$ ion has
-Lower polarising power, distorting the carbonate/nitrate ion less and making it harder to decompose.
+lower polarising power, distorting the carbonate/nitrate ion less and making it harder to decompose.
+
+<div class="table-wrap">
 
 | Compound          | Ease of decomposition (decreasing) |
 | ----------------- | ---------------------------------- |
@@ -176,7 +202,11 @@ Lower polarising power, distorting the carbonate/nitrate ion less and making it 
 | $\mathrm{CaCO}_3$ | Decomposes at high temperature     |
 | $\mathrm{BaCO}_3$ | Very stable, requires strong heat  |
 
+</div>
+
 ### Solubility Trends
+
+<div class="table-wrap">
 
 | Species    | Trend down the group |
 | ---------- | -------------------- |
@@ -184,11 +214,15 @@ Lower polarising power, distorting the carbonate/nitrate ion less and making it 
 | Sulfates   | Solubility decreases |
 | Carbonates | Generally insoluble  |
 
+</div>
+
 $$
 \mathrm{BaSO}_4 \mathrm{ is very insoluble, used in barium meals (X-ray contrast).}
 $$
 
 ### Uses
+
+<div class="table-wrap">
 
 | Compound                                        | Use                          |
 | ----------------------------------------------- | ---------------------------- |
@@ -196,6 +230,8 @@ $$
 | $\mathrm{CaCO}_3$                               | Limestone, cement, antacids  |
 | $\mathrm{CaSO}_4 \cdot 2\mathrm{H}_2\mathrm{O}$ | Plaster of Paris             |
 | $\mathrm{BaSO}_4$                               | Barium meals (radiocontrast) |
+
+</div>
 
 ---
 
@@ -212,12 +248,16 @@ $$
 
 ### Physical Properties
 
+<div class="table-wrap">
+
 | Property      | Trend down the group                           |
 | ------------- | ---------------------------------------------- |
 | Melting point | Increases                                      |
 | Boiling point | Increases                                      |
 | Atomic radius | Increases                                      |
 | State at RTP  | F$_2$Cl$_2$ (gas); Br$_2$ (liq); I$_2$ (solid) |
+
+</div>
 
 ### Chemical Properties
 
@@ -243,11 +283,15 @@ $\mathrm{Cl}^-$.
 
 Add dilute $\mathrm{HNO}_3$ first (to remove carbonate/hydroxide), then $\mathrm{AgNO}_3$:
 
+<div class="table-wrap">
+
 | Halide          | Precipitate colour      | Solubility in $\mathrm{NH}_3$(aq)          |
 | --------------- | ----------------------- | ------------------------------------------ |
 | $\mathrm{Cl}^-$ | White ($\mathrm{AgCl}$) | Soluble in dilute $\mathrm{NH}_3$          |
 | $\mathrm{Br}^-$ | Cream ($\mathrm{AgBr}$) | Partially soluble in conc. $\mathrm{NH}_3$ |
 | $\mathrm{I}^-$  | Yellow ($\mathrm{AgI}$) | Insoluble                                  |
+
+</div>
 
 ---
 
@@ -264,16 +308,22 @@ Add dilute $\mathrm{HNO}_3$ first (to remove carbonate/hydroxide), then $\mathrm
 
 ### Physical Trends Across Period 3
 
+<div class="table-wrap">
+
 | Element       | Na       | Mg       | Al       | Si                             | P                 | S                 | Cl                 | Ar        |
 | ------------- | -------- | -------- | -------- | ------------------------------ | ----------------- | ----------------- | ------------------ | --------- |
 | Structure     | Metallic | Metallic | Metallic | Giant covalent                 | Molecular (P$_4$) | Molecular (S$_8$) | Molecular (Cl$_2$) | Monatomic |
 | Melting point | Low      | Higher   | Higher   | High ($1414\degree\mathrm{C}$) | Low               | Low               | Low                | Very low  |
 | Conductivity  | Good     | Good     | Good     | Poor (semiconductor)           | Poor              | Poor              | Poor               | Poor      |
 
+</div>
+
 The melting point peaks at silicon (giant covalent network) and drops sharply at phosphorus (simple
 Molecular).
 
 ### Oxides of Period 3
+
+<div class="table-wrap">
 
 | Element | Oxide                         | Structure      | Acid/Base  | pH of solution  |
 | ------- | ----------------------------- | -------------- | ---------- | --------------- |
@@ -284,6 +334,8 @@ Molecular).
 | P       | $\mathrm{P}_4\mathrm{O}_{10}$ | Molecular      | Acidic     | $1$--$2$        |
 | S       | $\mathrm{SO}_3$               | Molecular      | Acidic     | $0$--$1$        |
 | Cl      | $\mathrm{Cl}_2\mathrm{O}_7$   | Molecular      | Acidic     | Strongly acidic |
+
+</div>
 
 **Trend**: Oxides become more acidic across the period.
 
@@ -301,6 +353,8 @@ $$
 
 ### Highest Oxidation States of Period 3
 
+<div class="table-wrap">
+
 | Element | Highest oxidation state | Oxide                         |
 | ------- | ----------------------- | ----------------------------- |
 | Na      | $+1$                    | $\mathrm{Na}_2\mathrm{O}$     |
@@ -311,10 +365,14 @@ $$
 | S       | $+6$                    | $\mathrm{SO}_3$               |
 | Cl      | $+7$                    | $\mathrm{Cl}_2\mathrm{O}_7$   |
 
+</div>
+
 The trend of increasing highest oxidation state across the period reflects the increasing number of
-Valence electrons available for bonding.
+valence electrons available for bonding.
 
 ### Chlorides of Period 3
+
+<div class="table-wrap">
 
 | Element | Chloride                                   | Bonding          | Reaction with water                                                                           |
 | ------- | ------------------------------------------ | ---------------- | --------------------------------------------------------------------------------------------- |
@@ -325,6 +383,8 @@ Valence electrons available for bonding.
 | P       | $\mathrm{PCl}_3/\mathrm{PCl}_5$            | Covalent         | Hydrolyses violently                                                                          |
 | S       | $\mathrm{SCl}_2/\mathrm{S}_2\mathrm{Cl}_2$ | Covalent         | Hydrolyses                                                                                    |
 | Cl      |,                                          |,                | N/A                                                                                           |
+
+</div>
 
 ---
 
@@ -349,6 +409,8 @@ $\mathrm{Zn}^{2+}$, $d^{10}$) are **not** transition metals.
 
 ### Variable Oxidation States
 
+<div class="table-wrap">
+
 | Element | Common oxidation states |
 | ------- | ----------------------- |
 | Ti      | $+2, +3, +4$            |
@@ -358,6 +420,8 @@ $\mathrm{Zn}^{2+}$, $d^{10}$) are **not** transition metals.
 | Fe      | $+2, +3$                |
 | Co      | $+2, +3$                |
 | Cu      | $+1, +2$                |
+
+</div>
 
 The maximum oxidation state increases across the period to $\mathrm{Mn}$ ($+7$), then decreases.
 
@@ -369,11 +433,15 @@ $$
 [\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+}, \quad [\mathrm{Ag}(\mathrm{NH}_3)_2]^+, \quad [\mathrm{Fe}(\mathrm{CN})_6]^{3-}
 $$
 
+<div class="table-wrap">
+
 | Ligand type | Examples                                               | Denticity |
 | ----------- | ------------------------------------------------------ | --------- |
 | Monodentate | $\mathrm{H}_2\mathrm{O}$$\mathrm{NH}_3$$\mathrm{Cl}^-$ | $1$       |
 | Bidentate   | en, oxalate                                            | $2$       |
 | Hexadentate | EDTA                                                   | $6$       |
+
+</div>
 
 ### Colour
 
@@ -393,12 +461,16 @@ $$
 ### Catalytic Properties
 
 Transition metals are effective catalysts because of variable oxidation states and the ability to
-Form intermediate complexes.
+form intermediate complexes.
+
+<div class="table-wrap">
 
 | Type          | Example                                              |
 | ------------- | ---------------------------------------------------- |
 | Heterogeneous | Fe (Haber), V$_2$O$_5$ (Contact), Ni (hydrogenation) |
 | Homogeneous   | $\mathrm{Fe}^{2+}/\mathrm{Fe}^{3+}$ (Fenton)         |
+
+</div>
 
 ### Magnetic Properties
 
@@ -426,7 +498,7 @@ Explain why the thermal decomposition temperature of Group 2 carbonates increase
 **Solution:**
 
 As the size of the $\mathrm{M}^{2+}$ ion increases down the group, its charge density decreases. The
-Larger cation has lower polarising power, meaning it distorts the electron cloud of the
+larger cation has lower polarising power, meaning it distorts the electron cloud of the
 $\mathrm{CO}_3^{2-}$ anion less. A less distorted carbonate ion is more stable and requires more
 Thermal energy to decompose into $\mathrm{MO}$ and $\mathrm{CO}_2$.
 
@@ -443,7 +515,7 @@ $\mathrm{Al}^{3+}$ has a high charge density (small ion, $+3$ charge), which pol
 Bonds in water molecules coordinated to it, facilitating proton release. This gives aluminium oxide
 Acidic character in addition to its basic character. $\mathrm{Mg}^{2+}$ has a lower charge density,
 So it acts only as a Lewis acid in accepting oxide ions but does not polarise water sufficiently to
-Release protons. Therefore $\mathrm{MgO}$ is purely basic.
+release protons. Therefore $\mathrm{MgO}$ is purely basic.
 
 </details>
 
@@ -456,7 +528,7 @@ Sulfate is the least soluble?
 **Solution:**
 
 Solubility of Group 2 sulfates **decreases** down the group. The hydration enthalpy (energy released
-When ions are hydrated) decreases more rapidly than the lattice energy as the cation size increases.
+when ions are hydrated) decreases more rapidly than the lattice energy as the cation size increases.
 Since the lattice energy does not decrease as fast, the enthalpy of solution becomes less favourable
 (less negative or more positive) down the group.
 
@@ -474,12 +546,12 @@ A very high melting point ($1843\degree\mathrm{C}$).
 **Solution:**
 
 $\mathrm{TiCl}_4$ is a simple molecular (covalent) compound with weak London dispersion forces
-Between molecules, so it is a liquid at room temperature (bp $136\degree\mathrm{C}$).
+between molecules, so it is a liquid at room temperature (bp $136\degree\mathrm{C}$).
 
 $\mathrm{TiO}_2$ has a giant ionic lattice structure. The strong electrostatic forces between
 $\mathrm{Ti}^{4+}$ and $\mathrm{O}^{2-}$ ions require a large amount of energy to overcome,
 Resulting in a very high melting point. The high charges on both ions ($+4$ and $-2$) produce a
-Particularly large lattice energy.
+particularly large lattice energy.
 
 </details>
 
@@ -615,7 +687,7 @@ wavelength (red-orange, $\approx 600$--$700\mathrm{ nm}$) are absorbed to promot
 lower to the upper $d$-orbital set. The transmitted or reflected light is the complementary colour,
 blue.
 
-In anhydrous $\mathrm{CuSO}_4$No water ligands are present, so no crystal field splitting occurs and
+In anhydrous $\mathrm{CuSO}_4$ No water ligands are present, so no crystal field splitting occurs and
 no visible light is absorbed by $d$-$d$ transitions. The compound appears white.
 
 </details>
@@ -652,7 +724,7 @@ no visible light is absorbed by $d$-$d$ transitions. The compound appears white.
 
 - **Reversing the spectrochemical series:** The spectrochemical series ranks ligands by the
   magnitude of crystal field splitting ($\Delta$). $\mathrm{CN}^-$ produces a larger $\Delta$ than
-  $\mathrm{H}_2\mathrm{O}$Not the other way around. A larger $\Delta$ means shorter-wavelength
+  $\mathrm{H}_2\mathrm{O}$ Not the other way around. A larger $\Delta$ means shorter-wavelength
   (higher-energy) light is absorbed.
 
 - **Saying transition metals are coloured:** The metals themselves are not coloured; it is their
@@ -722,6 +794,8 @@ no visible light is absorbed by $d$-$d$ transitions. The compound appears white.
 
 Calculate the lattice energy of sodium chloride using the Born-Haber cycle.
 
+<div class="table-wrap">
+
 | Quantity                                                    | Value ($\mathrm{kJ/mol}$) |
 | ----------------------------------------------------------- | ------------------------- |
 | $\Delta H_f^\circ(\mathrm{NaCl})$                           | $-411$                    |
@@ -730,18 +804,26 @@ Calculate the lattice energy of sodium chloride using the Born-Haber cycle.
 | $IE_1(\mathrm{Na})$                                         | $+496$                    |
 | $EA_1(\mathrm{Cl})$                                         | $-349$                    |
 
+</div>
+
 <details>
 <summary>Solution</summary>
 
 The Born-Haber cycle relates the enthalpy of formation to the individual energy steps:
 
-$$\Delta H_f^\circ = \Delta H_\mathrm{atom}(\mathrm{Na}) + \Delta H_\mathrm{atom}(\mathrm{Cl}) + IE_1(\mathrm{Na}) + EA_1(\mathrm{Cl}) + U$$
+$$
+\Delta H_f^\circ = \Delta H_\mathrm{atom}(\mathrm{Na}) + \Delta H_\mathrm{atom}(\mathrm{Cl}) + IE_1(\mathrm{Na}) + EA_1(\mathrm{Cl}) + U
+$$
 
 Solving for the lattice energy $U$:
 
-$$U = \Delta H_f^\circ - \Delta H_\mathrm{atom}(\mathrm{Na}) - \Delta H_\mathrm{atom}(\mathrm{Cl}) - IE_1(\mathrm{Na}) - EA_1(\mathrm{Cl})$$
+$$
+U = \Delta H_f^\circ - \Delta H_\mathrm{atom}(\mathrm{Na}) - \Delta H_\mathrm{atom}(\mathrm{Cl}) - IE_1(\mathrm{Na}) - EA_1(\mathrm{Cl})
+$$
 
-$$U = -411 - 108 - 122 - 496 - (-349) = -788\;\mathrm{kJ/mol}$$
+$$
+U = -411 - 108 - 122 - 496 - (-349) = -788\;\mathrm{kJ/mol}
+$$
 
 The lattice energy of $\mathrm{NaCl}$ is $-788\;\mathrm{kJ/mol}$. The large negative value reflects
 the strong electrostatic attraction between $\mathrm{Na}^+$ and $\mathrm{Cl}^-$ in the ionic
@@ -777,7 +859,7 @@ extra stability, producing local maxima in ionisation energy across a period.
 The enthalpy of solution of $\mathrm{CaCl}_2$ is $-82.8\;\mathrm{kJ/mol}$. The lattice energy is
 $-2258\;\mathrm{kJ/mol}$. Calculate the total hydration enthalpy of $\mathrm{Ca}^{2+}$ and
 $2\mathrm{Cl}^-$. Given that the hydration enthalpy of $\mathrm{Cl}^-$ is
-$-363\;\mathrm{kJ/mol}$Determine the hydration enthalpy of $\mathrm{Ca}^{2+}$.
+$-363\;\mathrm{kJ/mol}$ Determine the hydration enthalpy of $\mathrm{Ca}^{2+}$.
 
 <details>
 <summary>Solution</summary>
@@ -785,20 +867,32 @@ $-363\;\mathrm{kJ/mol}$Determine the hydration enthalpy of $\mathrm{Ca}^{2+}$.
 The enthalpy of solution is the sum of the endothermic lattice-breaking step and the exothermic
 hydration step:
 
-$$\Delta H_\mathrm{sol} = \Delta H_\mathrm{lattice} + \Delta H_\mathrm{hydration}$$
+$$
+\Delta H_\mathrm{sol} = \Delta H_\mathrm{lattice} + \Delta H_\mathrm{hydration}
+$$
 
-$$-82.8 = +2258 + \Delta H_\mathrm{hydration}$$
+$$
+-82.8 = +2258 + \Delta H_\mathrm{hydration}
+$$
 
-$$\Delta H_\mathrm{hydration} = -82.8 - 2258 = -2341\;\mathrm{kJ/mol}$$
+$$
+\Delta H_\mathrm{hydration} = -82.8 - 2258 = -2341\;\mathrm{kJ/mol}
+$$
 
-The total hydration enthalpy is $-2341\;\mathrm{kJ/mol}$Which is the sum of the hydration enthalpies
+The total hydration enthalpy is $-2341\;\mathrm{kJ/mol}$ Which is the sum of the hydration enthalpies
 of all ions:
 
-$$\Delta H_\mathrm{hydration} = \Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) + 2 \times \Delta H_\mathrm{hyd}(\mathrm{Cl}^-)$$
+$$
+\Delta H_\mathrm{hydration} = \Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) + 2 \times \Delta H_\mathrm{hyd}(\mathrm{Cl}^-)
+$$
 
-$$-2341 = \Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) + 2(-363)$$
+$$
+-2341 = \Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) + 2(-363)
+$$
 
-$$\Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) = -2341 + 726 = -1615\;\mathrm{kJ/mol}$$
+$$
+\Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) = -2341 + 726 = -1615\;\mathrm{kJ/mol}
+$$
 
 The hydration enthalpy of $\mathrm{Ca}^{2+}$ is $-1615\;\mathrm{kJ/mol}$. This large magnitude
 reflects the high charge density of the small, doubly charged cation and its strong interaction with
@@ -820,25 +914,37 @@ $25.0\;\mathrm{mL}$ of $0.100\;\mathrm{M}$ $\mathrm{FeSO}_4$ solution.
 **(a) Balancing the equation:**
 
 Reduction half-reaction:
-$$\mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6e^- \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O}$$
+$$
+\mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6e^- \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O}
+$$
 
 Oxidation half-reaction: $$\mathrm{Fe}^{2+} \to \mathrm{Fe}^{3+} + e^-$$
 
 Balancing electrons ($\times 6$ for the iron half-reaction):
-$$6\mathrm{Fe}^{2+} \to 6\mathrm{Fe}^{3+} + 6e^-$$
+$$
+6\mathrm{Fe}^{2+} \to 6\mathrm{Fe}^{3+} + 6e^-
+$$
 
 Overall:
-$$\mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6\mathrm{Fe}^{2+} \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O} + 6\mathrm{Fe}^{3+}$$
+$$
+\mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6\mathrm{Fe}^{2+} \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O} + 6\mathrm{Fe}^{3+}
+$$
 
 **(b) Stoichiometric calculation:**
 
-$$n(\mathrm{Fe}^{2+}) = 0.100 \times 0.0250 = 0.00250\;\mathrm{mol}$$
+$$
+n(\mathrm{Fe}^{2+}) = 0.100 \times 0.0250 = 0.00250\;\mathrm{mol}
+$$
 
 From the equation, $6\;\mathrm{mol\;Fe}^{2+}$ react with $1\;\mathrm{mol\;Cr}_2\mathrm{O}_7^{2-}$:
 
-$$n(\mathrm{Cr}_2\mathrm{O}_7^{2-}) = \frac{0.00250}{6} = 4.17 \times 10^{-4}\;\mathrm{mol}$$
+$$
+n(\mathrm{Cr}_2\mathrm{O}_7^{2-}) = \frac{0.00250}{6} = 4.17 \times 10^{-4}\;\mathrm{mol}
+$$
 
-$$V(\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7) = \frac{n}{c} = \frac{4.17 \times 10^{-4}}{0.0200} = 0.0208\;\mathrm{L} = 20.8\;\mathrm{mL}$$
+$$
+V(\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7) = \frac{n}{c} = \frac{4.17 \times 10^{-4}}{0.0200} = 0.0208\;\mathrm{L} = 20.8\;\mathrm{mL}
+$$
 
 </details>
 
@@ -860,7 +966,7 @@ $$V(\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7) = \frac{n}{c} = \frac{4.17 \times 10^
 
 Arrange the following ionic compounds in order of increasing lattice energy (most negative first):
 $\mathrm{NaF}$$\mathrm{MgO}$$\mathrm{NaCl}$$\mathrm{MgCl}_2$$\mathrm{Al}_2\mathrm{O}_3$. Justify
-your ordering using Coulomb"s law: $U \propto \frac{z_+ z_-}{r_+ + r_-}$.
+your ordering using Coulomb's law: $U \propto \frac{z_+ z_-}{r_+ + r_-}$.
 
 </details>
 
@@ -882,7 +988,7 @@ The equilibrium constant for the reaction
 $\mathrm{Cl}_2(aq) + 2\mathrm{Br}^-(aq) \rightleftharpoons 2\mathrm{Cl}^-(aq) + \mathrm{Br}_2(aq)$
 is $K = 4.0 \times 10^{11}$ at $298\;\mathrm{K}$. (a) Calculate $E_{\mathrm{cell}}^\circ$ for the
 reaction. (b) If $0.050\;\mathrm{mol}$ of $\mathrm{Cl}_2$ is bubbled into $1.0\;\mathrm{L}$ of
-$0.10\;\mathrm{M}$ $\mathrm{KBr}$Calculate the equilibrium concentration of $\mathrm{Br}_2$.
+$0.10\;\mathrm{M}$ $\mathrm{KBr}$ Calculate the equilibrium concentration of $\mathrm{Br}_2$.
 ($E^\circ(\mathrm{Cl}_2/\mathrm{Cl}^-) = +1.36\;\mathrm{V}$$E^\circ(\mathrm{Br}_2/\mathrm{Br}^-) = +1.09\;\mathrm{V}$)
 
 </details>
@@ -944,8 +1050,8 @@ of aluminium from bauxite ore via the Bayer process.
   significant covalent character.
 
 - **Ignoring the disproportionation of chlorine in cold vs hot alkali**: In cold dilute
-  $\mathrm{NaOH}$Chlorine disproportionates to $\mathrm{Cl}^-$ and $\mathrm{ClO}^-$. In hot
-  concentrated $\mathrm{NaOH}$It disproportionates to $\mathrm{Cl}^-$ and $\mathrm{ClO}_3^-$. The
+  $\mathrm{NaOH}$ Chlorine disproportionates to $\mathrm{Cl}^-$ and $\mathrm{ClO}^-$. In hot
+  concentrated $\mathrm{NaOH}$ It disproportionates to $\mathrm{Cl}^-$ and $\mathrm{ClO}_3^-$. The
   product depends on temperature.
 
 - **Stating that all Group 2 hydroxides are strong bases**: $\mathrm{Be}(\mathrm{OH})_2$ is
@@ -985,17 +1091,6 @@ of aluminium from bauxite ore via the Bayer process.
   [..../9-redox/2_redox-advanced](/chemistry/9-redox/2_redox-advanced/)
 - **Bonding and structure (ionic vs covalent)** → Review
   [..../4-chemical-bonding/2_chemical-bonding-advanced](/chemistry/4-chemical-bonding/2_chemical-bonding-advanced/)
-
-
-```mermaid
-flowchart TD
-    A[1_Periodicity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

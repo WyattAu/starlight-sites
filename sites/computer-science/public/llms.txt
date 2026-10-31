@@ -142,6 +142,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 - [About](https://computer-science.wyattau.com/about/)
 - [Algorithms And Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures/)
+- [Before You Begin](https://computer-science.wyattau.com/before-you-begin/)
 - [Computer Networks](https://computer-science.wyattau.com/computer-networks/)
 - [Databases](https://computer-science.wyattau.com/databases/)
 - [Discrete Mathematics](https://computer-science.wyattau.com/discrete-mathematics/)

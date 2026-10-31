@@ -126,7 +126,7 @@ Large-scale systems often require dependencies not present in the public Microso
 Proprietary internal libraries or forks of open-source projects. **Registry Federation** allows a
 Project to compose dependencies from multiple disparate sources transparently.
 
-This is configured via `vcpkg-configuration.json`Which sits alongside the manifest.
+This is configured via `vcpkg-configuration.json`. Which sits alongside the manifest.
 
 ### The Registry Model
 
@@ -242,7 +242,7 @@ Graph. If `Lib A` needs `fmt 9.0` and `Lib B` needs `fmt 10.0`Vcpkg calculates a
 
 ### 4.2 Triplet-Based ABI Control
 
-Vcpkg uses **Triplets** (e.g., `x64-windows-static``arm64-linux`) to define the build Configuration
+Vcpkg uses **Triplets** (e.g., `x64-windows-static`, `arm64-linux`) to define the build Configuration
 for all dependencies. This allows an architect to switch the entire dependency tree From Dynamic
 Linking to Static Linking, or change the CRT linkage, by modifying a single variable
 (`VCPKG_TARGET_TRIPLET`).
@@ -250,7 +250,7 @@ Linking to Static Linking, or change the CRT linkage, by modifying a single vari
 ### 4.3 Source-Based Provenance
 
 Because vcpkg builds from source (unless Binary Caching is active), the resulting binaries are
-Guaranteed to use the exact compiler flags (`-O3``-fsanitize=address`) of the parent project,
+Guaranteed to use the exact compiler flags (`-O3`, `-fsanitize=address`) of the parent project,
 Ensuring complete binary compatibility.
 
 ## 5. Manifest Mode vs. Classic Mode
@@ -290,6 +290,8 @@ Uses triplets to control how every dependency is built.
 
 ### Common Triplets
 
+<div class="table-wrap">
+
 | Triplet              | OS              | Architecture | Linkage       | CRT     |
 | -------------------- | --------------- | ------------ | ------------- | ------- |
 | `x64-windows`        | Windows         | x86_64       | Dynamic (DLL) | MD/MDd  |
@@ -300,6 +302,8 @@ Uses triplets to control how every dependency is built.
 | `arm64-linux`        | Linux           | ARM64        | Dynamic (SO)  | default |
 | `x64-mingw-dynamic`  | Windows (MinGW) | x86_64       | Dynamic       | default |
 | `wasm32-emscripten`  | WebAssembly     | wasm32       | Static        | N/A     |
+
+</div>
 
 ### Setting the Target Triplet
 
@@ -412,7 +416,7 @@ vcpkg export --output=vcpkg-export fmt nlohmann-json
 
 When a library is not available in the public vcpkg registry, or you need a custom fork, you can use
 **overlay ports**. An overlay port is a local directory containing a portfile that takes priority
-Over the registry.
+over the registry.
 
 ### Overlay Structure
 
@@ -454,12 +458,12 @@ cmake -S . -B build \
 ```
 
 Vcpkg resolves `my-custom-lib` from the overlay directory first, falling back to the public registry
-For all other packages.
+for all other packages.
 
 ### Overlay Precedence
 
 Overlay ports take precedence over registry ports. If an overlay defines a port with the same name
-As a registry port, the overlay version is used. This allows you to:
+as a registry port, the overlay version is used. This allows you to:
 
 1. Fork a library and use the fork instead of the upstream version.
 2. Apply patches to an existing port without modifying the vcpkg registry.
@@ -482,7 +486,7 @@ $env:VCPKG_BINARY_SOURCES="clear;nuget,https://artifactory.example.com/nuget/vcp
 
 ### How It Works
 
-1. After building a package, vcpkg zips the artifacts (`include/``lib/``bin/`).
+1. After building a package, vcpkg zips the artifacts (`include/`, `lib/`, `bin/`).
 2. It packages the zip as a NuGet package with the ABI hash as the version.
 3. It pushes the package to the configured NuGet feed.
 4. On subsequent builds, vcpkg queries the feed for a matching ABI hash before compiling.
@@ -510,7 +514,7 @@ export VCPKG_BINARY_SOURCES="clear;files,$HOME/.cache/vcpkg,readwrite"
 ## 10. Portfile Structure
 
 Every vcpkg port is defined by a `portfile.cmake` that describes how to download, build, and install
-The package:
+the package:
 
 ```cmake
 # portfile.cmake structure (simplified)
@@ -544,6 +548,8 @@ vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
 
 ### Portfile Commands
 
+<div class="table-wrap">
+
 | Command                    | Purpose                                         |
 | :------------------------- | :---------------------------------------------- |
 | `vcpkg_from_github`        | Download source from GitHub                     |
@@ -555,6 +561,8 @@ vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
 | `vcpkg_cmake_install`      | Run CMake install step                          |
 | `vcpkg_cmake_config_fixup` | Fix CMake config files for correct installation |
 | `vcpkg_install_copyright`  | Install license/copyright files                 |
+
+</div>
 
 ## 11. Private Registries
 
@@ -600,7 +608,7 @@ In `vcpkg-configuration.json`:
 ```
 
 When vcpkg encounters `internal-logger` in the dependency list, it fetches the port definition from
-The private registry instead of the public Microsoft registry.
+the private registry instead of the public Microsoft registry.
 
 ## 12. CI Integration with vcpkg
 
@@ -660,6 +668,8 @@ export VCPKG_ROOT=/opt/vcpkg
 
 ## 13. Vcpkg vs Conan Comparison
 
+<div class="table-wrap">
+
 | Feature                  | vcpkg                                | Conan                                   |
 | :----------------------- | :----------------------------------- | :-------------------------------------- |
 | Maintainer               | Microsoft                            | JFrog (open-source core)                |
@@ -673,6 +683,8 @@ export VCPKG_ROOT=/opt/vcpkg
 | Lock file                | `vcpkg.json` (implicit via baseline) | `conan.lock` (explicit)                 |
 | Python API               | No (CMake-based portfiles)           | Yes (full Python API for portfiles)     |
 | Community packages       | ~2000+                               | ~1800+                                  |
+
+</div>
 
 ### When to Choose vcpkg
 
@@ -731,17 +743,6 @@ export VCPKG_ROOT=/opt/vcpkg
 - [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/) -- How vcpkg-integrated libraries propagate
   build properties
 
-
-```mermaid
-flowchart TD
-    A[3_Vcpkg] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to vcpkg, including key principles
@@ -755,10 +756,5 @@ and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

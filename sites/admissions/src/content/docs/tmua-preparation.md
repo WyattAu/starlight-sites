@@ -24,7 +24,7 @@ categories:
 ## 1. Overview of TMUA
 
 The Test of Mathematics for University Admission (TMUA) is a pre-university admissions test used by
-Several UK universities, including the University of Cambridge (for Computer Science), Durham
+several UK universities, including the University of Cambridge (for Computer Science), Durham
 University, The London School of Economics, the University of Warwick, the University of
 Southampton, and others. It assesses mathematical reasoning and the ability to apply mathematical
 knowledge in unfamiliar contexts.
@@ -33,10 +33,14 @@ knowledge in unfamiliar contexts.
 
 The TMUA consists of two papers, each 75 minutes long. Both papers are multiple choice only.
 
+<div class="table-wrap">
+
 | Paper   | Focus                            | Questions | Format          |
 | ------- | -------------------------------- | --------- | --------------- |
 | Paper 1 | Mathematical reasoning and logic | 20        | Multiple choice |
 | Paper 2 | Mathematical applications        | 20        | Multiple choice |
+
+</div>
 
 Each question has five options (A--E). There is no penalty for incorrect answers. The papers are
 taken In a single sitting with a short break between them.
@@ -87,12 +91,16 @@ are Built from simpler ones using logical connectives.
 **Truth tables.** For any compound proposition, a truth table lists the truth value of the
 proposition For every possible combination of truth values of its components.
 
+<div class="table-wrap">
+
 | $P$ | $Q$ | $P \land Q$ | $P \lor Q$ | $P \implies Q$ | $P \iff Q$ |
 | --- | --- | ----------- | ---------- | -------------- | ---------- |
 | T   | T   | T           | T          | T              | T          |
 | T   | F   | F           | T          | F              | F          |
 | F   | T   | F           | T          | T              | F          |
 | F   | F   | F           | F          | T              | T          |
+
+</div>
 
 **Tautology and contradiction.** A tautology is a proposition that is true for all truth values of
 Its components. A contradiction is always false. A contingency is neither.
@@ -101,7 +109,7 @@ Its components. A contradiction is always false. A contingency is neither.
 table. Key equivalences:
 
 - $P \implies Q \equiv \neg P \lor Q$
-- $\neg(P \land Q) \equiv \neg P \lor \neg Q$ (De Morgan"s law)
+- $\neg(P \land Q) \equiv \neg P \lor \neg Q$ (De Morgan's law)
 - $\neg(P \lor Q) \equiv \neg P \land \neg Q$ (De Morgan's law)
 - $P \iff Q \equiv (P \implies Q) \land (Q \implies P)$
 
@@ -113,9 +121,9 @@ table. Key equivalences:
 
 ### 2.2 Proof
 
-**Direct proof.** To prove $P \implies Q$: assume $P$Deduce $Q$.
+**Direct proof.** To prove $P \implies Q$: assume $P$ Deduce $Q$.
 
-**Proof by contradiction.** To prove $P$: assume $\neg P$Derive a contradiction.
+**Proof by contradiction.** To prove $P$: assume $\neg P$ Derive a contradiction.
 
 **Proof by contrapositive.** To prove $P \implies Q$: prove $\neg Q \implies \neg P$.
 
@@ -124,8 +132,8 @@ $\neg P(x)$.
 
 **Mathematical induction.**
 
-_Strong induction._ The inductive hypothesis is that the statement holds for all $k \leq n$Not just
-For $k = n$. This is necessary when the truth for $n + 1$ depends on cases other than $n$.
+_Strong induction._ The inductive hypothesis is that the statement holds for all $k \leq n$ Not just
+for $k = n$. This is necessary when the truth for $n + 1$ depends on cases other than $n$.
 
 _Example._ Every integer $n \geq 2$ can be written as a product of primes. Base case: $n = 2$ is
 prime. Inductive step: if $n + 1$ is prime, we are done. If not, $n + 1 = ab$ where
@@ -136,8 +144,8 @@ $n + 1 = ab$ is a product of Primes.
 valid. Common errors to identify:
 
 - Circular reasoning: assuming what is to be proved
-- Affirming the consequent: from $P \implies Q$ and $Q$Concluding $P$
-- Denying the antecedent: from $P \implies Q$ and $\neg P$Concluding $\neg Q$
+- Affirming the consequent: from $P \implies Q$ and $Q$ Concluding $P$
+- Denying the antecedent: from $P \implies Q$ and $\neg P$ Concluding $\neg Q$
 - Using a special case to prove a general statement
 - Missing the base case in induction
 
@@ -174,12 +182,14 @@ syllabus.
 
 ### 3.1 Statistics
 
-**Measures of central tendency.** Mean $\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$Median (middle
+**Measures of central tendency.** Mean $\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$ Median (middle
 value), Mode (most frequent value). The mean is sensitive to outliers; the median is robust.
 
 **Measures of spread.** Variance:
 
-$$s^2 = \frac{1}{n}\sum_{i=1}^{n}(x_i - \bar{x})^2 = \frac{1}{n}\sum_{i=1}^{n}x_i^2 - \bar{x}^2$$
+$$
+s^2 = \frac{1}{n}\sum_{i=1}^{n}(x_i - \bar{x})^2 = \frac{1}{n}\sum_{i=1}^{n}x_i^2 - \bar{x}^2
+$$
 
 Standard deviation $s = \sqrt{s^2}$. Interquartile range: $Q_3 - Q_1$.
 
@@ -194,13 +204,13 @@ Standard deviation $s = \sqrt{s^2}$. Interquartile range: $Q_3 - Q_1$.
 **Discrete distributions.**
 
 _Binomial distribution._ $X \sim \text{Bin(n, p)$: $P(X = k) = \binom{n}{k}p^k(1-p)^{n-k}$. Mean
-$np$Variance $np(1-p)$.
+$np$ Variance $np(1-p)$.
 
 _Geometric distribution._ $X \sim \text{Geo(p)$: $P(X = k) = (1-p)^{k-1}p$ for
-$k = 1, 2, 3, \ldots$. Mean $1/p$Variance $(1-p)/p^2$.
+$k = 1, 2, 3, \ldots$. Mean $1/p$ Variance $(1-p)/p^2$.
 
 _Normal distribution._ $X \sim N(\mu, \sigma^2)$. The standard normal $Z = \frac{X - \mu}{\sigma}$
-Has mean 0 and variance 1. Use the standard normal table to find probabilities.
+has mean 0 and variance 1. Use the standard normal table to find probabilities.
 
 **Correlation.** The product moment correlation coefficient $r$ satisfies $-1 \leq r \leq 1$. Values
 near $\pm 1$ indicate strong linear association; values near 0 indicate weak linear association.
@@ -303,9 +313,9 @@ Stronger statement than the negation (it says all primes greater than 2 are even
 
 Since B and C are both true, the correct answer depends on what the question asks for. However, B
 Says "$Q \implies P$ is true" which is a true statement, and C says "$P \iff Q$ is true" which is
-Also a true statement. Since the question asks "which of the following is true" (singular), and
+also a true statement. Since the question asks "which of the following is true" (singular), and
 Multiple options are true statements, but C is the strongest and most complete characterisation, C
-Is the best answer.
+is the best answer.
 
 **Answer: C.**
 
@@ -334,7 +344,9 @@ The proof is correct and complete E: The formula being proved is wrong
 
 **Solution.** The algebraic manipulation in the inductive step is correct:
 
-$$\sum_{k=1}^{n+1} k = \sum_{k=1}^{n} k + (n+1) = \frac{n(n+1)}{2} + (n+1) = \frac{(n+1)(n+2)}{2}$$
+$$
+\sum_{k=1}^{n+1} k = \sum_{k=1}^{n} k + (n+1) = \frac{n(n+1)}{2} + (n+1) = \frac{(n+1)(n+2)}{2}
+$$
 
 The formula being proved is correct.
 
@@ -368,13 +380,17 @@ D: $k = 1/4$, $\mathbb{E}(X) = 1$ E: $k = 1$, $\mathbb{E}(X) = 2$
 
 **Solution.** Since $f$ is a probability density function, $\int_{-\infty}^{\infty} f(x)\,dx = 1$:
 
-$$\int_0^2 kx\,dx = k\left[\frac{x^2}{2}\right]_0^2 = k \cdot \frac{4}{2} = 2k = 1$$
+$$
+\int_0^2 kx\,dx = k\left[\frac{x^2}{2}\right]_0^2 = k \cdot \frac{4}{2} = 2k = 1
+$$
 
 So $k = 1/2$.
 
 For the expected value:
 
-$$\mathbb{E}(X) = \int_0^2 x \cdot \frac{x}{2}\,dx = \frac{1}{2}\int_0^2 x^2\,dx = \frac{1}{2}\left[\frac{x^3}{3}\right]_0^2 = \frac{1}{2} \cdot \frac{8}{3} = \frac{4}{3}$$
+$$
+\mathbb{E}(X) = \int_0^2 x \cdot \frac{x}{2}\,dx = \frac{1}{2}\int_0^2 x^2\,dx = \frac{1}{2}\left[\frac{x^3}{3}\right]_0^2 = \frac{1}{2} \cdot \frac{8}{3} = \frac{4}{3}
+$$
 
 **Answer: B.**
 
@@ -391,7 +407,7 @@ $$\mathbb{E}(X) = \int_0^2 x \cdot \frac{x}{2}\,dx = \frac{1}{2}\int_0^2 x^2\,dx
 
 ### Question 4 (Paper 2: Modelling)
 
-> The population $P$ of a bacteria culture is modelled by $P(t) = P_0 e^{0.2t}$Where $t$ is measured
+> The population $P$ of a bacteria culture is modelled by $P(t) = P_0 e^{0.2t}$ Where $t$ is measured
 > in hours and $P_0$ is the initial population.
 >
 > According to this model, how long does it take for the population to double?
@@ -400,26 +416,34 @@ A: $\ln 2$ hours B: $5$ hours C: $0.2 \ln 2$ hours D: $\frac{1}{0.2\ln 2}$ hours
 
 **Solution.** The population doubles when $P(t) = 2P_0$:
 
-$$P_0 e^{0.2t} = 2P_0$$
+$$
+P_0 e^{0.2t} = 2P_0
+$$
 
-$$e^{0.2t} = 2$$
+$$
+e^{0.2t} = 2
+$$
 
-$$0.2t = \ln 2$$
+$$
+0.2t = \ln 2
+$$
 
-$$t = \frac{\ln 2}{0.2} = 5 \ln 2$$
+$$
+t = \frac{\ln 2}{0.2} = 5 \ln 2
+$$
 
-**Answer: A** ($t = \ln 2 / 0.2 = 5 \ln 2$Which is $\ln 2$ expressed with the factor of 5 absorbed
+**Answer: A** ($t = \ln 2 / 0.2 = 5 \ln 2$ Which is $\ln 2$ expressed with the factor of 5 absorbed
 Into the constant. Actually, $5\ln 2 \approx 3.47$ And $\ln 2 \approx 0.693$. Let me reconsider.
 
 The doubling time is $t = \frac{\ln 2}{0.2} = 5\ln 2$. The half-life formula gives
 $t_{\text{double} = \frac{\ln 2}{k}$ where $k = 0.2$ So $t = \frac{\ln 2}{0.2} = 5\ln 2$.
 
 Option A says $\ln 2$ hours, which is $\frac{\ln 2}{0.2}/5 = \frac{5\ln 2}{5} = \ln 2$. This would
-be The doubling time if $k = 1$Not $k = 0.2$.
+be The doubling time if $k = 1$ Not $k = 0.2$.
 
 Let me re-evaluate: $t = \frac{\ln 2}{0.2} = 5\ln 2 \approx 3.47$ hours. None of the options match
 $5\ln 2$ exactly. However, the question asks "how long does it take" and the general formula for
-Doubling time is $\frac{\ln 2}{k}$. With $k = 0.2 = 1/5$This gives $5\ln 2$.
+Doubling time is $\frac{\ln 2}{k}$. With $k = 0.2 = 1/5$ This gives $5\ln 2$.
 
 Wait, let me re-read the options. The answer $5\ln 2$ hours is not listed directly. But
 $\frac{\ln 2}{0.2} = 5\ln 2$. Let me reconsider option A.
@@ -433,16 +457,16 @@ Actually, $\frac{\ln 2}{0.2} = 5 \ln 2$. The options are:
 - E: $2$
 
 The correct answer $5\ln 2 \approx 3.47$ is not listed among these. This suggests the question may
-Have intended a different growth rate. Let me reconsider: if the model were
+have intended a different growth rate. Let me reconsider: if the model were
 $P(t) = P_0 \cdot 2^{t/5}$ (i.e., doubling every 5 hours), this is equivalent to
-$P(t) = P_0 e^{t \ln 2 / 5}$Giving $k = \ln 2 / 5 \approx 0.1386$. Then the doubling time would be
+$P(t) = P_0 e^{t \ln 2 / 5}$ Giving $k = \ln 2 / 5 \approx 0.1386$. Then the doubling time would be
 $t = \frac{\ln 2}{k} = 5$.
 
-With $k = 0.2$The exact doubling time is $5\ln 2$ And the closest interpretation is that option A Is
+With $k = 0.2$ The exact doubling time is $5\ln 2$ And the closest interpretation is that option A Is
 intended when the question uses $k = 1$.
 
 For the purpose of this exercise, with $k = 0.2$: the doubling time is $5\ln 2$ hours. If the model
-Instead stated $P(t) = P_0 \cdot 2^{0.2t}$ Then $0.2t = 1$ gives $t = 5$Which is option B.
+instead stated $P(t) = P_0 \cdot 2^{0.2t}$ Then $0.2t = 1$ gives $t = 5$ Which is option B.
 
 Given the ambiguity, the most likely intended answer with the model $P(t) = P_0 e^{0.2t}$ and the
 Standard doubling time formula is **A** (the symbolic answer $\ln 2$ expressed as the natural form),
@@ -517,7 +541,7 @@ Statistical reasoning on the TMUA is like being a detective. You examine evidenc
 ## 5. Common Pitfalls
 
 **Confusing the contrapositive with the converse.** The contrapositive of $P \implies Q$ is
-$\neg Q \implies \neg P$Which is logically equivalent. The converse is $Q \implies P$Which is Not
+$\neg Q \implies \neg P$ Which is logically equivalent. The converse is $Q \implies P$ Which is Not
 equivalent. TMUA frequently tests this distinction.
 
 **Misidentifying the negation of a quantified statement.** The negation of "all $x$ satisfy $P(x)$"
@@ -555,17 +579,6 @@ When working with tmua preparation, follow a structured approach:
 3. Support your answer with evidence, examples, or calculations
 4. Evaluate your answer critically, considering limitations and alternative perspectives
 
-
-```mermaid
-flowchart TD
-    A[Tmua Preparation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - The TMUA (Test of Mathematics for University Admission) is a 2-paper, 2-hour total assessment used
@@ -581,6 +594,8 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                | Site        | Link                                                 |
 | -------------------- | ----------- | ---------------------------------------------------- |
 | TMUA Specification   | UAT         | [View](https://uat.ucl.ac.uk/tmua)                   |
@@ -588,4 +603,6 @@ flowchart TD
 | MAT Preparation      | WyattsNotes | [View](/mat-preparation/)  |
 | STEP Preparation     | WyattsNotes | [View](/step-preparation/) |
 | Probability          | WyattsNotes | [View](https://alevel.wyattau.com/maths/statistics/03-probability/)     |
-| Real Analysis        | WyattsNotes | [View](https://mathematics.wyattau.com/real-analysis/)   |
+| Real Analysis        | WyattsNotes | [View](https://mathematics.wyattau.com/3-real-analysis/)   |
+
+</div>

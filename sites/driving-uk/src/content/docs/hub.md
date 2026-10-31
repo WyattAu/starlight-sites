@@ -40,17 +40,6 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 The UK driving theory test is a legal requirement before you can take your practical driving test. Administered by the Driver and Vehicle Standards Agency (DVSA), it consists of two parts: a multiple-choice section covering the Highway Code and road rules, and a hazard perception test where you identify developing hazards in video clips. You must pass both parts in the same sitting to receive a theory test pass certificate.
@@ -246,12 +235,16 @@ Preparing for the theory test is a focused, short-term commitment. Most candidat
 
 ### Daily Routine
 
+<div class="table-wrap">
+
 | Time | Activity |
 | ------ | ---------- |
 | Morning | Flashcards, 15 minutes of signs and rules |
 | Afternoon | Topic study, read one section of the Highway Code |
 | Evening | Practice, one mock test or 15 hazard perception clips |
 | Weekend | Full mock test + review + hazard perception practice |
+
+</div>
 
 ---
 

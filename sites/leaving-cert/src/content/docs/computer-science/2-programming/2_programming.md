@@ -23,7 +23,7 @@ categories:
 ## Algorithms and Programming
 
 This topic covers algorithm design, programming constructs, searching and sorting algorithms, and
-Computational problem solving.
+computational problem solving.
 
 ## What is an Algorithm? (OL/HL)
 
@@ -42,12 +42,16 @@ An algorithm is a step-by-step procedure for solving a problem. It must:
 
 **Choosing a representation:**
 
+<div class="table-wrap">
+
 | Representation   | Precision | Readability | Executable |
 | ---------------- | --------- | ----------- | ---------- |
 | Natural language | Low       | High        | No         |
 | Pseudocode       | Medium    | Medium      | No         |
 | Flowchart        | Medium    | High        | No         |
 | Programming code | High      | Low         | Yes        |
+
+</div>
 
 ## Programming Constructs (OL/HL)
 
@@ -122,10 +126,10 @@ for num in range(2, 20):
 
 **Proof that is_prime is correct.** The function checks all integers $i$ from 2 to
 $\lfloor\sqrt{n}\rfloor$. If $n$ is composite, it has a factor $f \le \sqrt{n}$. The loop checks
-Every such $f$ So it will find a divisor. If no divisor is found, $n$ has no factor $\le
+every such $f$ So it will find a divisor. If no divisor is found, $n$ has no factor $\le
 \sqrt{n}$,
 And therefore no factor at all (since if $n = a \times b$ with $a \gt \sqrt{n}$ Then
-$b \lt \sqrt{n}$Contradicting no divisor found). Hence $n$ is prime. $\blacksquare$
+$b \lt \sqrt{n}$ Contradicting no divisor found). Hence $n$ is prime. $\blacksquare$
 
 ## Data Structures (OL/HL)
 
@@ -175,12 +179,16 @@ print(f"Stack: {stack}")  # [10, 20]
 
 **Stack complexity:**
 
+<div class="table-wrap">
+
 | Operation | Time Complexity |
 | --------- | --------------- |
 | push      | $O(1)$          |
 | pop       | $O(1)$          |
 | peek      | $O(1)$          |
 | search    | $O(n)$          |
+
+</div>
 
 ### Queues (HL)
 
@@ -220,7 +228,7 @@ print(f"Found at index: {result}")  # 3
 **Time complexity:** $O(n)$.
 
 **Proof of correctness.** The loop examines every element from index 0 to $n-1$. If the target is at
-Index $k$The loop reaches index $k$ and returns $k$. If the target is not in the array, the loop
+Index $k$ The loop reaches index $k$ and returns $k$. If the target is not in the array, the loop
 Completes without finding it and returns -1. $\blacksquare$
 
 ### Binary Search (HL)
@@ -324,6 +332,8 @@ print(quick_sort(numbers))
 
 ### Sorting Algorithm Comparison (HL)
 
+<div class="table-wrap">
+
 | Algorithm      | Best          | Average       | Worst         | Stable | Space       |
 | -------------- | ------------- | ------------- | ------------- | ------ | ----------- |
 | Bubble Sort    | $O(n)$        | $O(n^2)$      | $O(n^2)$      | Yes    | $O(1)$      |
@@ -331,9 +341,13 @@ print(quick_sort(numbers))
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | No     | $O(\log n)$ |
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | Yes    | $O(n)$      |
 
+</div>
+
 ## Big O Notation (HL)
 
 Big O notation describes the worst-case time complexity of an algorithm.
+
+<div class="table-wrap">
 
 | Complexity    | Name         | Example                             |
 | ------------- | ------------ | ----------------------------------- |
@@ -343,6 +357,8 @@ Big O notation describes the worst-case time complexity of an algorithm.
 | $O(n \log n)$ | Linearithmic | Merge sort, quick sort (average)    |
 | $O(n^2)$      | Quadratic    | Bubble sort, insertion sort         |
 | $O(2^n)$      | Exponential  | Recursive Fibonacci                 |
+
+</div>
 
 **Rules for analysing code:**
 
@@ -473,6 +489,8 @@ def quick_sort(arr):
 
 ### Sorting Algorithm Comparison Table (HL)
 
+<div class="table-wrap">
+
 | Algorithm      | Best          | Average       | Worst         | Stable | Space       |
 | -------------- | ------------- | ------------- | ------------- | ------ | ----------- |
 | Bubble Sort    | $O(n)$        | $O(n^2)$      | $O(n^2)$      | Yes    | $O(1)$      |
@@ -480,9 +498,11 @@ def quick_sort(arr):
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | No     | $O(\log n)$ |
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | Yes    | $O(n)$      |
 
+</div>
+
 ### Recursion in Detail (HL)
 
-**Euclid"s algorithm for GCD:**
+**Euclid's algorithm for GCD:**
 
 ```python
 def gcd(a, b):
@@ -493,9 +513,9 @@ def gcd(a, b):
 print(gcd(48, 18))  # 6
 ```
 
-**Proof of termination.** At each recursive call, `b` becomes `a % b`Which is strictly less than
+**Proof of termination.** At each recursive call, `b` becomes `a % b`. Which is strictly less than
 `b`. Since `b` is a non-negative integer that decreases, it must eventually reach 0, triggering the
-Base case. $lacksquare$
+base case. $lacksquare$
 
 **Towers of Hanoi:**
 
@@ -564,12 +584,16 @@ class LinkedList:
 
 **Linked list complexity:**
 
+<div class="table-wrap">
+
 | Operation   | Time Complexity |
 | ----------- | --------------- |
 | Append      | $O(n)$          |
 | Delete      | $O(n)$          |
 | Search      | $O(n)$          |
 | Insert head | $O(1)$          |
+
+</div>
 
 ## Additional Practice Questions
 
@@ -658,6 +682,8 @@ print(binary_search_string(words, "date"))  # 3
 
 **Trace on [5, 2, 4, 6, 1, 3]:**
 
+<div class="table-wrap">
+
 | Step | Array State        | Key | Shifts | Comparisons |
 | ---- | ------------------ | --- | ------ | ----------- |
 | 1    | [5, 2, 4, 6, 1, 3] | 2   | 1      | 1           |
@@ -665,6 +691,8 @@ print(binary_search_string(words, "date"))  # 3
 | 3    | [2, 4, 5, 6, 1, 3] | 6   | 0      | 1           |
 | 4    | [2, 4, 5, 6, 1, 3] | 1   | 4      | 4           |
 | 5    | [1, 2, 4, 5, 6, 3] | 3   | 2      | 3           |
+
+</div>
 
 Final: [1, 2, 3, 4, 5, 6]. Total comparisons: $1 + 2 + 1 + 4 + 3 = 11$.
 
@@ -763,17 +791,6 @@ See the examples integrated throughout the sections above.
 8. Prove that bubble sort correctly sorts an array by showing that after $k$ passes, the $k$ largest
    elements are in their final positions.
 
-
-```mermaid
-flowchart TD
-    A[2_Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of algorithms and programming, including underlying theory,
@@ -786,9 +803,6 @@ practical implementation, and key applications.
 - sorting algorithms (bubble, merge, quick)
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ---
 

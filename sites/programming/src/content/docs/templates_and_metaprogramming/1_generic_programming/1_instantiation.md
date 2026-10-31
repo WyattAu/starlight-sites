@@ -70,8 +70,8 @@ int main() {
 ```
 
 The compiler performs **monomorphization**: for each unique set of template arguments used, it
-Generates a separate copy of the template code. If you call `max_of<int>``max_of<double>`And
-`max_of<std::string>`The compiler produces three distinct functions. This is a form of Compile-time
+Generates a separate copy of the template code. If you call `max_of<int>`, `max_of<double>` and
+`max_of<std::string>`. The compiler produces three distinct functions. This is a form of Compile-time
 polymorphism --- there is no virtual dispatch, no vtable, and (when inlined) no call Overhead at
 all.
 
@@ -120,7 +120,7 @@ Bugs.
 ### Formal Justification for Two-Phase Lookup
 
 The standard mandates two-phase lookup [N4950 S13.8.3] to preserve a well-defined separation between
-The template definition context and the instantiation context. The formal reasoning proceeds from
+the template definition context and the instantiation context. The formal reasoning proceeds from
 Two requirements:
 
 1. **Early error detection.** Non-dependent names contain no template parameters, so the compiler
@@ -138,11 +138,11 @@ Two requirements:
 
 **Proof that non-dependent names are locked at phase 1.** Consider the following reasoning by
 Contradiction. Suppose a non-dependent call `g(42)` inside a template `f&lt;T&gt;` were not bound
-Until instantiation. Then the meaning of `f&lt;int&gt;` and `f&lt;double&gt;` could differ based on
+until instantiation. Then the meaning of `f&lt;int&gt;` and `f&lt;double&gt;` could differ based on
 Overloads of `g` declared between the two instantiation points. This would make the template's
 Semantics depend on the order of declarations in the instantiation context --- an undesirable
 Property for a language that requires separate compilation. The standard therefore locks
-Non-dependent names at definition time, ensuring that the template has a single, well-defined
+non-dependent names at definition time, ensuring that the template has a single, well-defined
 Meaning regardless of where it is instantiated.
 
 ```cpp
@@ -173,6 +173,8 @@ A name is **dependent** if and only if it falls into one of the following catego
 S13.8.3]. This classification determines when the compiler performs name lookup and what
 Declarations are visible.
 
+<div class="table-wrap">
+
 | Category                                                   | Example                       | Dependent?    | Lookup Phase |
 | ---------------------------------------------------------- | ----------------------------- | ------------- | ------------ |
 | Simple unqualified name, no template param involvement     | `x``std::cout`                | No            | Phase 1      |
@@ -185,16 +187,18 @@ Declarations are visible.
 | `throw` expression with dependent type                     | `throw T{}`                   | Yes           | Phase 2      |
 | `new` expression with dependent type                       | `new T()`                     | Yes           | Phase 2      |
 
+</div>
+
 The critical distinction is between the first two rows (non-dependent, phase 1) and everything else.
 Names in the first two rows are resolved once and permanently at definition time. Names in the
 Remaining rows are deferred to instantiation time, where they benefit from declarations visible at
-The point of instantiation.
+the point of instantiation.
 
 ## The Instantiation Point
 
 The **point of instantiation (POI)** [N4950 S13.8.2] is the location in the source code where the
 Compiler logically performs instantiation. Understanding the POI is critical because it determines
-Which declarations are visible during instantiation and therefore which overload of a function gets
+which declarations are visible during instantiation and therefore which overload of a function gets
 Called, which specialization gets selected, and which type aliases are resolved.
 
 For a **function template specialization**, the POI is defined recursively [N4950 S13.8.2/2]:
@@ -205,7 +209,7 @@ For a **function template specialization**, the POI is defined recursively [N495
    of the enclosing template.
 
 For a **class template specialization**, the POI is the first point at which the class is referenced
-In a way that requires a complete type [N4950 S13.8.2/4].
+in a way that requires a complete type [N4950 S13.8.2/4].
 
 ```cpp
 #include <iostream>
@@ -365,7 +369,7 @@ extern template class HeavyProcessor<double>;
 ```
 
 **2. Type erasure for shared behavior.** When multiple instantiations share identical logic, extract
-The common code into a non-templated base class. The type-specific layer is thin:
+the common code into a non-templated base class. The type-specific layer is thin:
 
 ```cpp
 #include <cstddef>
@@ -416,7 +420,7 @@ public:
 **3. Selective instantiation via out-of-line definitions.** The compiler only instantiates member
 Functions that are actually called, provided the definitions are outside the class body [N4950
 S13.7.5/1]. Moving large member function bodies out of the class can dramatically reduce the number
-Of instantiations for types that are only partially used:
+of instantiations for types that are only partially used:
 
 ```cpp
 template <typename T>
@@ -482,11 +486,13 @@ extern template class Container<long>;
 
 Implicit instantiation is the most common source of code bloat because every translation unit that
 Uses `Container<int>` independently generates the same machine code. The linker then picks one copy
-And discards the rest, but all TUs still paid the compilation cost. See
+and discards the rest, but all TUs still paid the compilation cost. See
 [Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/) for the full treatment
 Of this technique.
 
 ### Implicit vs Explicit Instantiation Trade-offs
+
+<div class="table-wrap">
 
 | Aspect                  | Implicit                             | Explicit (`template class`)      | `extern template`                      |
 | ----------------------- | ------------------------------------ | -------------------------------- | -------------------------------------- |
@@ -499,6 +505,8 @@ Of this technique.
 | Typical use case        | Most application code                | Library headers with known types | Heavy templates in shared libs         |
 | Header vs source        | Header only                          | One TU, header declares `extern` | Header declares `extern`One TU defines |
 
+</div>
+
 ## How Compilers Implement Template Instantiation
 
 Compilers use one of two strategies for template instantiation [N4950 S13.9]:
@@ -510,8 +518,8 @@ Compilers use one of two strategies for template instantiation [N4950 S13.9]:
   this approach with incremental compilation.
 
 The greedy approach means that if 50 translation units all include `#include <vector>` and use
-`std::vector<int>`All 50 TUs compile the full `std::vector<int>` implementation. The linker picks
-One copy via COMDAT/weak linkage. Compilation time scales linearly with the number of TUs and the
+`std::vector<int>`. All 50 TUs compile the full `std::vector<int>` implementation. The linker picks
+one copy via COMDAT/weak linkage. Compilation time scales linearly with the number of TUs and the
 Complexity of the templates they use.
 
 ```cpp
@@ -570,7 +578,7 @@ Key implementation details:
    provided all TUs see the same template definition.
 
 2. **Strong linkage for explicit instantiations.** An explicit instantiation definition emits a
-   strong (global) symbol. If two TUs both contain `template class Foo&lt;int&gt;;`The linker
+   strong (global) symbol. If two TUs both contain `template class Foo&lt;int&gt;;`. The linker
    reports a duplicate symbol error. This is by design: explicit instantiation is a promise that
    this TU provides the canonical definition.
 
@@ -623,12 +631,16 @@ void use_tu2() {
 
 Template code has a significant asymmetry between debug and release builds:
 
+<div class="table-wrap">
+
 | Aspect        | Debug (`-O0`)                                      | Release (`-O2` / `-O3`)                   |
 | ------------- | -------------------------------------------------- | ----------------------------------------- |
 | Inline depth  | None (all calls are real function calls)           | Aggressive (most calls inlined)           |
 | Code size     | Large (every specialization emits a separate copy) | Small after inlining + dedup              |
 | Compile time  | Slow (every specialization fully compiled)         | Slow compilation, but linker deduplicates |
 | Debuggability | Easy: each specialization has a symbol             | Hard: inlined code has no frame           |
+
+</div>
 
 In debug builds, every template specialization produces a full function with a mangled symbol name.
 A single `std::vector<int>::push_back` call is a real call instruction. In release builds with
@@ -754,7 +766,7 @@ int main() {
 ## Force-Inlining Template Code
 
 For performance-critical template code, you can force inlining with compiler attributes. This is
-Most useful when profiling shows template function call overhead ( only in debug builds):
+most useful when profiling shows template function call overhead ( only in debug builds):
 
 ```cpp
 #include <vector>
@@ -874,13 +886,13 @@ int main() {
 
 The standard permits but does not require the compiler to use specializations from other TUs [N4950
 S13.8.2/7]. In practice, no major compiler does so. Specializations must be declared in every TU
-That uses them, which means they must go in headers.
+that uses them, which means they must go in headers.
 
 ### Hidden Instantiation Dependencies
 
 Templates can create hidden compilation dependencies. Including a header that uses a heavy template
 Forces the including TU to compile that template, even if the heavy template is not directly used by
-The includer:
+the includer:
 
 ```cpp
 // heavy.hpp
@@ -922,17 +934,7 @@ public:
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
-```mermaid
-flowchart TD
-    A[1_Instantiation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Summary
 
@@ -946,9 +948,6 @@ including underlying theory, practical implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Capacitance] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Physics describes the fundamental rules of the universe, from the tiniest particles to the vastness of space.**
@@ -70,13 +59,17 @@ $\frac{1}{C_{\text{air,total}}} = \frac{1}{177} + \frac{1}{177} = \frac{2}{177} 
 Total capacitance:
 $\frac{1}{C} = \frac{1}{88.5} + \frac{1}{398} = 0.01130 + 0.002513 = 0.01381\,\text{pF}^{-1}$
 
-$$C = 72.4\,\text{pF}$$
+$$
+C = 72.4\,\text{pF}
+$$
 
 (b) Charge is conserved: $Q = CV = 72.4 \times 10^{-12} \times 200 = 1.448 \times 10^{-8}\,\text{C}$
 
 After removing the dielectric, the capacitor is entirely air-filled:
 
-$$C" = \frac{\varepsilon_0 A}{d} = \frac{8.85 \times 10^{-12} \times 0.010}{2.0 \times 10^{-3}} = 4.425 \times 10^{-11}\,\text{F} = 44.3\,\text{pF}$$
+$$
+C" = \frac{\varepsilon_0 A}{d} = \frac{8.85 \times 10^{-12} \times 0.010}{2.0 \times 10^{-3}} = 4.425 \times 10^{-11}\,\text{F} = 44.3\,\text{pF}
+$$
 
 New voltage: $V' = Q/C' = 1.448 \times 10^{-8}/(4.425 \times 10^{-11}) = 327\,\text{V}$
 
@@ -132,7 +125,9 @@ All three give the same result, as expected. The three formulae are equivalent s
 
 (b) The battery supplies charge $Q$ at constant voltage $V$:
 
-$$E_{\text{battery}} = QV = 1.2 \times 10^{-3} \times 12 = 14.4 \times 10^{-3}\,\text{J} = 14.4\,\text{mJ}$$
+$$
+E_{\text{battery}} = QV = 1.2 \times 10^{-3} \times 12 = 14.4 \times 10^{-3}\,\text{J} = 14.4\,\text{mJ}
+$$
 
 (c) Energy dissipated in the resistor
 $= E_{\text{battery}} - E_{\text{capacitor}} = 14.4 - 7.2 = 7.2\,\text{mJ}$
@@ -141,7 +136,7 @@ Percentage $= 7.2/14.4 \times 100 = 50\%$
 
 Exactly half the energy supplied by the battery is stored on the capacitor, and half is dissipated
 as heat in the resistor. This is a general result for RC charging: regardless of the value of
-$R$Exactly half the energy is always lost.
+$R$ Exactly half the energy is always lost.
 
 ---
 
@@ -174,7 +169,9 @@ discharged through a resistor $R = 100\,\text{k}\Omega$.
 Voltage during discharge: $V = V_0 e^{-t/\tau}$
 
 $$5.0 = 20 \times e^{-t/47}$$ $$e^{-t/47} = 0.25$$ $$-t/47 = \ln(0.25) = -1.386$$
-$$t = 1.386 \times 47 = 65.2\,\text{s}$$
+$$
+t = 1.386 \times 47 = 65.2\,\text{s}
+$$
 
 (b) At $t = 0$:
 $I_0 = V_0/R = 20/(100 \times 10^3) = 2.0 \times 10^{-4}\,\text{A} = 0.20\,\text{mA}$
@@ -184,9 +181,11 @@ $I = I_0 e^{-2} = 0.20 \times e^{-2} = 0.20 \times 0.1353 = 0.0271\,\text{mA}$
 
 (c) At $t = 3\tau = 141\,\text{s}$:
 
-$$Q = Q_0 e^{-3} = CV_0 e^{-3} = 470 \times 10^{-6} \times 20 \times 0.0498 = 4.68 \times 10^{-4}\,\text{C}$$
+$$
+Q = Q_0 e^{-3} = CV_0 e^{-3} = 470 \times 10^{-6} \times 20 \times 0.0498 = 4.68 \times 10^{-4}\,\text{C}
+$$
 
-After $3\tau$Only $4.98\%$ of the original charge remains. After $5\tau$Less than $1\%$ remains.
+After $3\tau$ Only $4.98\%$ of the original charge remains. After $5\tau$ Less than $1\%$ remains.
 
 ## Integration Tests
 
@@ -200,7 +199,7 @@ voltage source that alternates between $0\,\text{V}$ and $5.0\,\text{V}$ with fr
 (a) Calculate the time constant. For what frequency would the capacitor voltage just reach $63\%$ of
 the supply voltage during each half-cycle?
 
-(b) If the driving frequency is $1.0\,\text{kHz}$Sketch the voltage across the capacitor over two
+(b) If the driving frequency is $1.0\,\text{kHz}$ Sketch the voltage across the capacitor over two
 complete cycles.
 
 (c) Explain how this circuit can be used to convert a square wave into an approximate triangular
@@ -213,14 +212,18 @@ $\tau = RC = 10 \times 10^3 \times 100 \times 10^{-9} = 1.0 \times 10^{-3}\,\tex
 
 For the capacitor to reach $63\%$ during one half-cycle: $\tau = T/2 = 1/(2f)$
 
-$$f = \frac{1}{2\tau} = \frac{1}{2 \times 10^{-3}} = 500\,\text{Hz}$$
+$$
+f = \frac{1}{2\tau} = \frac{1}{2 \times 10^{-3}} = 500\,\text{Hz}
+$$
 
-(b) At $f = 1.0\,\text{kHz}$The period is $T = 1.0\,\text{ms}$ and the half-cycle is
+(b) At $f = 1.0\,\text{kHz}$ The period is $T = 1.0\,\text{ms}$ and the half-cycle is
 $0.50\,\text{ms}$.
 
-Since $\tau = 1.0\,\text{ms}$ and the half-cycle is $0.5\tau$The capacitor charges to only:
+Since $\tau = 1.0\,\text{ms}$ and the half-cycle is $0.5\tau$ The capacitor charges to only:
 
-$$V_C = V_0(1 - e^{-0.5}) = 5.0(1 - 0.6065) = 5.0 \times 0.3935 = 1.97\,\text{V}$$
+$$
+V_C = V_0(1 - e^{-0.5}) = 5.0(1 - 0.6065) = 5.0 \times 0.3935 = 1.97\,\text{V}
+$$
 
 The voltage across the capacitor rises exponentially to $1.97\,\text{V}$ during each half-cycle,
 then decays back. The waveform is a series of exponential rises and falls that do not reach the full
@@ -232,7 +235,7 @@ half-cycle. Over this small range, the exponential curve is approximately linear
 across the capacitor approximates a triangular wave. The amplitude of the triangular wave is
 approximately $V_0 T/(2\tau)$ for $\tau \gg T/2$.
 
-For example, with $\tau = 10T/2 = 5T$The capacitor charges to only
+For example, with $\tau = 10T/2 = 5T$ The capacitor charges to only
 $V_0(1 - e^{-0.2}) \approx 0.18V_0$ during each half-cycle, and this portion of the exponential is
 nearly linear.
 
@@ -275,11 +278,15 @@ $Q \approx CV_0 = 885 \times 10^{-12} \times 200 = 1.77 \times 10^{-7}\,\text{C}
 
 When the separation changes by $\Delta d = \pm 1.0\,\mu\text{m}$:
 
-$$\Delta C = -\frac{\varepsilon_0 A \Delta d}{d^2} = -\frac{8.85 \times 10^{-12} \times 2.0 \times 10^{-3} \times 1.0 \times 10^{-6}}{(20 \times 10^{-6})^2} = -\frac{1.77 \times 10^{-20}}{4.0 \times 10^{-10}} = -4.43 \times 10^{-11}\,\text{F}$$
+$$
+\Delta C = -\frac{\varepsilon_0 A \Delta d}{d^2} = -\frac{8.85 \times 10^{-12} \times 2.0 \times 10^{-3} \times 1.0 \times 10^{-6}}{(20 \times 10^{-6})^2} = -\frac{1.77 \times 10^{-20}}{4.0 \times 10^{-10}} = -4.43 \times 10^{-11}\,\text{F}
+$$
 
 The voltage across the capacitor changes: $V_C = Q/C$
 
-$$\Delta V_C \approx -\frac{Q \Delta C}{C^2} = -\frac{1.77 \times 10^{-7} \times (-4.43 \times 10^{-11})}{(8.85 \times 10^{-10})^2} = \frac{7.84 \times 10^{-18}}{7.83 \times 10^{-19}} = 10.0\,\text{V}$$
+$$
+\Delta V_C \approx -\frac{Q \Delta C}{C^2} = -\frac{1.77 \times 10^{-7} \times (-4.43 \times 10^{-11})}{(8.85 \times 10^{-10})^2} = \frac{7.84 \times 10^{-18}}{7.83 \times 10^{-19}} = 10.0\,\text{V}
+$$
 
 Peak-to-peak variation across the resistor $\approx 20\,\text{V}$.
 
@@ -288,7 +295,7 @@ $\tau = RC = 10 \times 10^6 \times 885 \times 10^{-12} = 8.85 \times 10^{-3}\,\t
 
 $1/f = 1.0\,\text{ms}$
 
-Since $\tau = 8.85\,\text{ms} \gg 1.0\,\text{ms} = 1/f$The condition is satisfied. The time constant
+Since $\tau = 8.85\,\text{ms} \gg 1.0\,\text{ms} = 1/f$ The condition is satisfied. The time constant
 must be much longer than the period of the sound wave so that the capacitor voltage cannot follow
 the rapid changes in capacitance. This means the charge on the capacitor remains approximately
 constant, and the voltage changes are caused by the changing capacitance, producing an AC signal
@@ -326,7 +333,9 @@ $Q_1 = C_1 V_1 = 10 \times 10^{-6} \times 50 = 5.0 \times 10^{-4}\,\text{C}$
 
 After connection, the capacitors are in parallel: $C_{\text{total}} = C_1 + C_2 = 50\,\mu\text{F}$
 
-$$V_f = \frac{Q_1}{C_{\text{total}}} = \frac{5.0 \times 10^{-4}}{50 \times 10^{-6}} = 10\,\text{V}$$
+$$
+V_f = \frac{Q_1}{C_{\text{total}}} = \frac{5.0 \times 10^{-4}}{50 \times 10^{-6}} = 10\,\text{V}
+$$
 
 (b) Energy before:
 $E_i = \frac{1}{2}C_1 V_1^2 = 0.5 \times 10^{-5} \times 2500 = 12.5 \times 10^{-3}\,\text{J} = 12.5\,\text{mJ}$
@@ -343,7 +352,9 @@ always results in energy loss.
 (c) At $t = 0$, $C_2$ is uncharged (zero voltage) and $C_1$ is at $50\,\text{V}$ So the full voltage
 difference appears across $R$:
 
-$$I_0 = \frac{V_1}{R} = \frac{50}{100} = 0.50\,\text{A}$$
+$$
+I_0 = \frac{V_1}{R} = \frac{50}{100} = 0.50\,\text{A}
+$$
 
 The time constant for the discharge:
 $\tau = R \times \frac{C_1 C_2}{C_1 + C_2} = 100 \times \frac{10 \times 40}{50} \times 10^{-6} = 100 \times 8 \times 10^{-6} = 8.0 \times 10^{-4}\,\text{s}$
@@ -351,7 +362,7 @@ $\tau = R \times \frac{C_1 C_2}{C_1 + C_2} = 100 \times \frac{10 \times 40}{50} 
 Total energy dissipated in the resistor $= 10.0\,\text{mJ}$ (same as the energy lost, regardless of
 $R$).
 
-This confirms that the energy loss is independent of the resistance value -- even with $R = 0$The
+This confirms that the energy loss is independent of the resistance value -- even with $R = 0$ The
 same amount of energy would be lost (as radiation rather than heat).
 
 ## Common Mistakes

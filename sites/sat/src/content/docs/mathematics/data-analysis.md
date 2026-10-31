@@ -14,17 +14,6 @@ description: "Study notes for Data analysis with worked examples, practice probl
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Data Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Data analysis
 
 SAT mathematics study notes - Data analysis
@@ -41,6 +30,8 @@ SAT mathematics study notes - Data analysis
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Measure | Formula | Example |
 | --------- | --------- | --------- |
 | Mean | $\bar{x} = \frac{\sum x_i}{n}$ | Values 2,4,6: mean = 4 |
@@ -49,6 +40,8 @@ SAT mathematics study notes - Data analysis
 | Probability | $P(A) = \frac{\text{favourable}}{\text{total}}$ | 3 red out of 10: $P(\text{red}) = 0.3$ |
 | Independent events | $P(A \cap B) = P(A) \cdot P(B)$ | $P(\text{heads}) \cdot P(\text{heads}) = 0.25$ |
 | Mutually exclusive | $P(A \cup B) = P(A) + P(B)$ | $P(1) + P(2) = \frac{1}{6} + \frac{1}{6} = \frac{1}{3}$ |
+
+</div>
 
 ## Worked Examples
 
@@ -136,65 +129,3 @@ Data analysis is the art of finding signal in noise. A dataset is like a crowd o
 - [Geometry](/mathematics/geometry/) -- Probability and data interpretation questions may involve geometric representations such as scatterplots.
 - [Writing Language](/writing/language/) -- Interpreting data in evidence-based writing requires understanding of statistics and data presentation.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

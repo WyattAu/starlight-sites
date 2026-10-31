@@ -28,21 +28,23 @@ description: "Development is a multidimensional concept encompassing economic pr
 ## The Challenge of Measurement
 
 Development is a multidimensional concept encompassing economic progress, social well-being,
-Environmental sustainability, political freedom, and quality of life. No single indicator captures
-All dimensions, and the choice of indicator shapes both our understanding of development and the
-Policy prescriptions that follow. Selecting appropriate indicators requires awareness of what each
-Measure captures, what it omits, and how it can be misinterpreted.
+environmental sustainability, political freedom, and quality of life. No single indicator captures
+all dimensions, and the choice of indicator shapes both our understanding of development and the
+policy prescriptions that follow. Selecting appropriate indicators requires awareness of what each
+measure captures, what it omits, and how it can be misinterpreted.
 
 ## Single Economic Indicators
 
 ### Gross Domestic Product (GDP) and Gross National Income (GNI)
 
 **GDP** measures the total monetary value of all final goods and services produced within a
-Country"s borders in a given year. **GNI** adjusts GDP by adding income earned by residents from
-Abroad and subtracting income earned by foreigners domestically.
+Country's borders in a given year. **GNI** adjusts GDP by adding income earned by residents from
+abroad and subtracting income earned by foreigners domestically.
 
 Per capita figures (GDP per capita, GNI per capita) are standardised by population and are the most
-Widely used indicators for comparing economic development across countries.
+widely used indicators for comparing economic development across countries.
+
+<div class="table-wrap">
 
 | Measure                          | Formula                                                                 | Strengths                                                                                                      | Limitations                                                                                                                                                   |
 | -------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -50,10 +52,14 @@ Widely used indicators for comparing economic development across countries.
 | **GNI per capita (PPP)**         | GNI / population, adjusted for purchasing power parity                  | Accounts for differences in price levels between countries; reflects income of residents including remittances | Still does not capture distribution; PPP adjustments are imprecise for rapidly changing economies                                                             |
 | **GDP growth rate**              | $(\mathrm{GDP}_t - \mathrm{GDP}_{t-1}) / \mathrm{GDP}_{t-1} \times 100$ | Measures economic dynamism                                                                                     | Growth may not be inclusive; environmental costs not deducted                                                                                                 |
 
+</div>
+
 ### The World Bank Income Classification
 
 The World Bank classifies countries into four income groups based on GNI per capita (2023
 Thresholds):
+
+<div class="table-wrap">
 
 | Classification          | GNI per Capita (USD) | Examples                                      |
 | ----------------------- | -------------------- | --------------------------------------------- |
@@ -61,6 +67,8 @@ Thresholds):
 | **Lower-middle income** | 1145--4465           | India, Nigeria, Bangladesh, Kenya             |
 | **Upper-middle income** | 4466--13 845         | China, Brazil, South Africa, Mexico           |
 | **High income**         | $\gt{13 845}$        | USA, UK, Japan, Germany, South Korea          |
+
+</div>
 
 ### Limitations of GDP as a Development Measure
 
@@ -86,11 +94,11 @@ Thresholds):
 <summary>Common Pitfalls: Using GDP per Capita Without Qualification</summary>
 
 GDP per capita is the most commonly cited development indicator in examination responses, but it is
-Also the most commonly misused. When using GDP per capita, always acknowledge its limitations
+also the most commonly misused. When using GDP per capita, always acknowledge its limitations
 (distribution, non-market activities, sustainability) and complement it with other indicators. A
-Strong answer will use multiple indicators to construct a nuanced picture of development. For
-Example, "Nigeria has a GDP per capita of approximately USD 2100 (World Bank, 2023), classifying it
-As lower-middle income. However, this average conceals extreme inequality (Gini coefficient
+strong answer will use multiple indicators to construct a nuanced picture of development. For
+example, "Nigeria has a GDP per capita of approximately USD 2100 (World Bank, 2023), classifying it
+as lower-middle income. However, this average conceals extreme inequality (Gini coefficient
 Approximately 35), and Nigeria's HDI of 0.535 places it in the medium human development category.
 The Multidimensional Poverty Index shows that approximately 47% of Nigerians experience overlapping
 Deprivations in health, education, and living standards."
@@ -102,13 +110,17 @@ Deprivations in health, education, and living standards."
 ### Human Development Index (HDI)
 
 The HDI, created by the UN Development Programme (UNDP) in 1990, combines three dimensions into a
-Single index ranging from 0 to 1:
+single index ranging from 0 to 1:
 
-$$\mathrm{HDI} = \frac{I_{\mathrm{health}} + I_{\mathrm{education}} + I_{\mathrm{income}}}{3}$$
+$$
+\mathrm{HDI} = \frac{I_{\mathrm{health}} + I_{\mathrm{education}} + I_{\mathrm{income}}}{3}
+$$
 
 Where $I_{\mathrm{health}}$ is measured by life expectancy at birth, $I_{\mathrm{education}}$ is the
-Geometric mean of mean years of schooling and expected years of schooling, and $I_{\mathrm{income}}$
-Is measured by GNI per capita (PPP).
+geometric mean of mean years of schooling and expected years of schooling, and $I_{\mathrm{income}}$
+is measured by GNI per capita (PPP).
+
+<div class="table-wrap">
 
 | HDI Category | Range         | Number of Countries (2023) | Examples                                               |
 | ------------ | ------------- | -------------------------- | ------------------------------------------------------ |
@@ -117,11 +129,13 @@ Is measured by GNI per capita (PPP).
 | Medium       | 0.550--0.699  | 46                         | India (0.644), Kenya (0.601), Bangladesh (0.670)       |
 | Low          | $\lt{0.550}$  | 34                         | South Sudan (0.385), Chad (0.394), Niger (0.394)       |
 
+</div>
+
 ### Critique of the HDI
 
 **Strengths:** broader than GDP alone; captures health and education as well as income; widely
 Recognised and used; facilitates cross-country comparison; has stimulated debate about the meaning
-Of development.
+of development.
 
 **Limitations:**
 
@@ -143,25 +157,29 @@ Of development.
 
 **Gender Inequality Index (GII).** Measures gender-based inequality across three dimensions:
 Reproductive health (maternal mortality ratio, adolescent birth rate), empowerment (seats in
-Parliament, secondary and higher education attainment), and labour market participation. GII values
+parliament, secondary and higher education attainment), and labour market participation. GII values
 Range from 0 (no inequality) to 1 (maximum inequality). As of 2023, the lowest GII values (least
 Inequality) are found in Denmark (0.039), Switzerland (0.038), and the Netherlands (0.040); the
-Highest (most inequality) in Yemen (0.835), Afghanistan (0.738), and Chad (0.707).
+highest (most inequality) in Yemen (0.835), Afghanistan (0.738), and Chad (0.707).
 
 **Gender Development Index (GDI).** Compares female and male HDI values. A GDI of 1.00 indicates
 Full gender parity in human development. Globally, the female HDI is approximately 5% lower than the
-Male HDI.
+male HDI.
 
 ### Multidimensional Poverty Index (MPI)
 
 The MPI, developed by the Oxford Poverty and Human Development Initiative (OPHI) and the UNDP,
 Identifies overlapping deprivations across three dimensions using ten indicators:
 
+<div class="table-wrap">
+
 | Dimension            | Indicators                                                                                                                                                                                                                                                              |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Health**           | Nutrition (undernourishment), child mortality                                                                                                                                                                                                                           |
 | **Education**        | Years of schooling (no household member has completed at least 6 years), school attendance (any school-aged child not attending)                                                                                                                                        |
 | **Living standards** | Cooking fuel (dung, wood, charcoal), sanitation (unimproved or shared), drinking water (unimproved or long walk), electricity, housing (inadequate materials), assets (lack of more than one of: radio, TV, telephone, computer, bicycle, motorbike, refrigerator, car) |
+
+</div>
 
 A person is classified as multidimensionally poor if deprived in at least one-third of the weighted
 Indicators. As of 2023, approximately 1.1 billion people (approximately 14% of the global
@@ -182,7 +200,7 @@ Population) live in multidimensional poverty. The highest rates are in Sub-Sahar
 Gross National Happiness, developed by Bhutan, is a holistic measure of development that encompasses
 Nine domains: psychological well-being, health, education, time use, cultural resilience, good
 Governance, community vitality, ecological diversity, and living standards. Bhutan uses GNH as a
-Guide for policy-making, screening all new government policies through a GNH impact assessment.
+guide for policy-making, screening all new government policies through a GNH impact assessment.
 
 **Strengths:** broadens the concept of development beyond economic metrics; integrates environmental
 Sustainability and cultural values.
@@ -195,10 +213,12 @@ Values to other contexts is questionable.
 
 The Happy Planet Index, developed by the New Economics Foundation, combines three indicators:
 
-$$\mathrm{HPI} = \frac{\mathrm{Experienced well-being} \times \mathrm{Life expectancy}}{\mathrm{Ecological footprint}}$$
+$$
+\mathrm{HPI} = \frac{\mathrm{Experienced well-being} \times \mathrm{Life expectancy}}{\mathrm{Ecological footprint}}
+$$
 
 The HPI measures the ecological efficiency with which countries achieve well-being. Countries with
-High well-being and long life expectancy but low ecological footprints score highest.
+high well-being and long life expectancy but low ecological footprints score highest.
 
 **Results:** Costa Rica consistently ranks first (high life expectancy of approximately 80 years,
 High reported well-being, and a relatively low ecological footprint). High-income countries score
@@ -227,8 +247,8 @@ Normalisation procedures) that shapes the results. Comparing countries' rankings
 Indices without understanding these methodological differences can lead to misleading conclusions.
 For example, a country may rank high on the HDI (because it has high income) but low on the HPI
 (because its ecological footprint is large), or high on the HDI but low on the IHDI (because income
-Is highly unequal). When using composite indices in examination responses, briefly explain what the
-Index measures and how it is constructed, and use the index that is most relevant to the specific
+is highly unequal). When using composite indices in examination responses, briefly explain what the
+index measures and how it is constructed, and use the index that is most relevant to the specific
 Aspect of development being discussed.
 
 </details>
@@ -251,24 +271,7 @@ For related topics, see [./trade-and-aid](/geography/development/trade-and-aid/)
 4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-
-```mermaid
-flowchart TD
-    A[Measuring Development] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

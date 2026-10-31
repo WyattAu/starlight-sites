@@ -27,11 +27,11 @@ Needs to change in response to operations that only have a shared reference avai
 Mutability resolves this by moving the mutation check from compile time to runtime (for
 Single-threaded types) or by using synchronization primitives (for multi-threaded types).
 
-## `UnsafeCell<T>`The Primitive
+## `UnsafeCell<T>`. The Primitive
 
 `UnsafeCell<T>` is the foundation of all interior mutability in Rust. It is the only type in the
 Standard library that allows you to obtain a mutable reference to its interior through a shared
-Reference. All other interior mutability types (`Cell``RefCell``Mutex``RwLock`) are built on Top of
+Reference. All other interior mutability types (`Cell`, `RefCell`, `Mutex`, `RwLock`) are built on Top of
 `UnsafeCell`.
 
 ```rust
@@ -62,13 +62,13 @@ impl Counter {
 
 :::danger
 Creating two mutable references to the same data simultaneously. You are responsible for maintaining
-The aliasing invariant. Violating this is undefined behavior.
+the aliasing invariant. Violating this is undefined behavior.
 
 ### Why `UnsafeCell` Exists
 
 The compiler assumes that `&T` never allows mutation. `UnsafeCell` is the escape hatch that tells
-The compiler "I will manage the aliasing rules myself." Without `UnsafeCell`It would be impossible
-To implement `Cell``RefCell``Mutex`Or any other interior mutability type.
+the compiler "I will manage the aliasing rules myself." Without `UnsafeCell`. It would be impossible
+to implement `Cell`, `RefCell`, `Mutex` or any other interior mutability type.
 
 ### `UnsafeCell` and `Sync`
 
@@ -115,6 +115,8 @@ assert_eq!(counter.get(), 43);
 
 ### `Cell` API
 
+<div class="table-wrap">
+
 | Method           | Description                                        |
 | ---------------- | -------------------------------------------------- |
 | `new(value)`     | Creates a new `Cell` containing `value`            |
@@ -124,9 +126,11 @@ assert_eq!(counter.get(), 43);
 | `take()`         | Replaces with `Default::default()` and returns old |
 | `into_inner()`   | Consumes the `Cell` and returns the inner value    |
 
+</div>
+
 ### `Cell` with Non-Copy Types
 
-`Cell` works with non-`Copy` types for `set``replace`And `take`But not `get`:
+`Cell` works with non-`Copy` types for `set`, `replace` and `take`. But not `get`:
 
 ```rust
 use std::cell::Cell;
@@ -235,6 +239,8 @@ assert_eq!(*borrow3, vec![1, 2, 3, 4]);
 
 ### `RefCell` API
 
+<div class="table-wrap">
+
 | Method             | Returns          | Description                                    |
 | ------------------ | ---------------- | ---------------------------------------------- |
 | `new(value)`       | `RefCell<T>`     | Creates a new `RefCell`                        |
@@ -243,6 +249,8 @@ assert_eq!(*borrow3, vec![1, 2, 3, 4]);
 | `try_borrow()`     | `Result<Ref>`    | Non-panicking immutable borrow                 |
 | `try_borrow_mut()` | `Result<RefMut>` | Non-panicking mutable borrow                   |
 | `into_inner()`     | `T`              | Consumes the `RefCell` and returns inner value |
+
+</div>
 
 ### `Ref` and `RefMut` Guards
 
@@ -363,6 +371,8 @@ assert_eq!(*counter.lock().unwrap(), 10);
 
 ### `Mutex` vs `RefCell`
 
+<div class="table-wrap">
+
 | Property      | `RefCell<T>`         | `Mutex<T>`                |
 | ------------- | -------------------- | ------------------------- |
 | Thread safety | Single-threaded only | Multi-threaded            |
@@ -370,6 +380,8 @@ assert_eq!(*counter.lock().unwrap(), 10);
 | Overhead      | Minimal (counters)   | System call on contention |
 | Poisoning     | No                   | Yes (panic while locked)  |
 | `Send + Sync` | Neither              | Both (when `T: Send`)     |
+
+</div>
 
 ### `RwLock<T>`
 
@@ -412,7 +424,7 @@ Need interior mutability?
 ### `OnceCell<T>` (Stable since Rust 1.70)
 
 `OnceCell` stores a value that is initialized at most once. It is useful for lazy initialization and
-For storing values that are set during construction:
+for storing values that are set during construction:
 
 ```rust
 use std::cell::OnceCell;
@@ -464,11 +476,15 @@ Access the value concurrently.
 
 ## `OnceCell` vs `OnceLock` vs `LazyLock`
 
+<div class="table-wrap">
+
 | Type          | Thread-safe | Lazy init | Set once |
 | ------------- | ----------- | --------- | -------- |
 | `OnceCell<T>` | No          | No        | Yes      |
 | `OnceLock<T>` | Yes         | No        | Yes      |
 | `LazyLock<T>` | Yes         | Yes       | Yes      |
+
+</div>
 
 Use `OnceCell` in single-threaded contexts, `OnceLock` for thread-safe one-time initialization with
 Manual set, and `LazyLock` for thread-safe lazy initialization with a closure.
@@ -582,7 +598,7 @@ where
 ### `Cell` Overhead
 
 `Cell` has zero runtime overhead. All operations compile to direct memory access. The value is
-Stored inline within the `Cell`Which itself has the same size as `T`.
+Stored inline within the `Cell`. Which itself has the same size as `T`.
 
 ```rust
 assert_eq!(std::mem::size_of::<Cell<u64>>(), 8);
@@ -603,7 +619,7 @@ assert_eq!(std::mem::size_of::<RefCell<u64>>(), 16);  // 8 bytes value + overhea
 
 `Mutex` has a system-level overhead: on Linux, it uses `pthread_mutex_t` (40 bytes). Locking is a
 System call on contention and a single atomic operation when uncontended. `Mutex` always allocates
-The value on the heap (it uses `alloc::sys::Exclusive::new` internally ).
+the value on the heap (it uses `alloc::sys::Exclusive::new` internally ).
 
 ```rust
 assert_eq!(std::mem::size_of::<Mutex<u64>>(), 40);  // platform-dependent
@@ -613,7 +629,7 @@ assert_eq!(std::mem::size_of::<Mutex<u64>>(), 40);  // platform-dependent
 
 `RwLock` is larger than `Mutex` (48 bytes on Linux) because it must track multiple readers. Read
 Locks are cheaper than write locks but still involve atomic operations. Write locks are comparable
-To `Mutex` locks.
+to `Mutex` locks.
 
 ## `Cell` vs `RefCell` Decision Guide
 
@@ -625,7 +641,7 @@ Use `Cell<T>` when:
 
 Use `RefCell<T>` when:
 
-- `T` is not `Copy` (e.g., `String``Vec`Custom structs)
+- `T` is not `Copy` (e.g., `String`, `Vec`Custom structs)
 - You need to borrow the interior value (read or write) through a guard
 - You need dynamic borrow checking with error handling
 
@@ -642,7 +658,7 @@ Use `Mutex<T>` when:
    the error, or restructure your code to avoid overlapping borrows.
 
 2. **Using `RefCell` across threads.** `RefCell` is not `Send` or `Sync`. The compiler prevents
-   cross-thread use, but if you bypass this with `unsafe`You will have data races. Use `Mutex` or
+   cross-thread use, but if you bypass this with `unsafe`. You will have data races. Use `Mutex` or
    `RwLock` for multi-threaded interior mutability.
 
 3. **Holding `Ref` guards too long.** A `Ref` or `RefMut` guard keeps the borrow active until it is
@@ -666,7 +682,7 @@ Use `Mutex<T>` when:
    manually. Prefer `Cell` or `RefCell` unless you are building a custom synchronization primitive.
 
 8. **Overusing interior mutability.** Interior mutability should be a deliberate design choice, not
-   a default. If you find yourself wrapping everything in `RefCell`Consider restructuring your
+   a default. If you find yourself wrapping everything in `RefCell`. Consider restructuring your
    ownership model. Interior mutability hides mutation from the type system, making code harder to
    reason about.
 
@@ -683,7 +699,7 @@ Use `Mutex<T>` when:
 ### Dropping `RefCell` with Active Borrows
 
 When a `RefCell` is dropped while a `Ref` or `RefMut` guard exists, the guard keeps the borrow alive
-Until it is dropped. This means the `RefCell`'s destructor runs after the guard is dropped:
+until it is dropped. This means the `RefCell`'s destructor runs after the guard is dropped:
 
 ```rust
 use std::cell::RefCell;
@@ -807,9 +823,9 @@ assert_eq!(counter.get(), 2);
 across threads when `T: Copy`And concurrent `get` and `set` operations are safe because `Cell` uses
 interior mutability, `get` copies the value out and `set` replaces it in a single Operation.
 
-### `Arc<RefCell<T>>`Not Thread-Safe
+### `Arc<RefCell<T>>`. Not Thread-Safe
 
-`RefCell` is not `Sync`So `Arc<RefCell<T>>` cannot be shared across threads:
+`RefCell` is not `Sync`. So `Arc<RefCell<T>>` cannot be shared across threads:
 
 ```rust
 use std::sync::Arc;
@@ -869,7 +885,7 @@ fn default_port() -> u16 { 8080 }
 ```
 
 Serde uses `Cell` and `RefCell` internally for tracking state during deserialization. This is one of
-The reasons why `RefCell` is common in Rust codebases that do heavy serialization.
+the reasons why `RefCell` is common in Rust codebases that do heavy serialization.
 
 ## Interior Mutability in Testing
 
@@ -959,9 +975,6 @@ implementation, and key applications.
 - traits and generics
 - error handling (Result, Option)
 - concurrency with threads and async
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

@@ -22,8 +22,8 @@ description: "Sustainable urban development seeks to meet the needs of the prese
 ### Defining Urban Sustainability
 
 Sustainable urban development seeks to meet the needs of the present urban population without
-Compromising the ability of future generations to meet their own needs. It integrates three
-Dimensions:
+compromising the ability of future generations to meet their own needs. It integrates three
+dimensions:
 
 - **Environmental sustainability:** minimising resource consumption, reducing pollution and waste,
   preserving biodiversity and ecosystem services, mitigating and adapting to climate change.
@@ -42,7 +42,7 @@ Consumption (environmental cost). Effective urban planning navigates these trade
 ### The Sustainable Development Goals and Cities
 
 SDG 11 ("Make cities and human settlements inclusive, safe, resilient and sustainable") is the
-Dedicated urban SDG, but cities are central to achieving many other goals:
+dedicated urban SDG, but cities are central to achieving many other goals:
 
 - **SDG 3** (Health): urban air quality, access to healthcare, active transport (walking, cycling).
 - **SDG 7** (Clean Energy): renewable energy deployment, energy-efficient buildings.
@@ -75,18 +75,18 @@ Key components include:
 Government agencies to manage transport, health, environment, and security. The Virtual Singapore
 Project creates a 3D digital twin of the entire city-state for urban planning and simulation. Sensor
 Networks monitor everything from crowd density in public spaces to water quality in reservoirs.
-Singapore"s Autonomous Vehicle Initiative is testing driverless buses and shuttles.
+Singapore's Autonomous Vehicle Initiative is testing driverless buses and shuttles.
 
 **Copenhagen.** Copenhagen aims to become the world's first carbon-neutral capital by 2025. Key
 Smart city elements include: real-time bicycle traffic monitoring (Copenhagen has approximately 390
 Km of segregated cycle lanes, and cycling accounts for approximately 49% of all commutes); a smart
 Grid integrating wind energy (Denmark generates approximately 55% of electricity from wind); and
-Data-driven urban planning using digital models of microclimate, wind patterns, and solar exposure
-To optimise building design and placement.
+data-driven urban planning using digital models of microclimate, wind patterns, and solar exposure
+to optimise building design and placement.
 
 **Barcelona.** The "Superblocks" (superilles) programme redesigns street grids to prioritise
 Pedestrians and cyclists over motor vehicles. By restricting through-traffic in designated blocks of
-Nine streets, Barcelona has reclaimed road space for public plazas, green areas, and community
+nine streets, Barcelona has reclaimed road space for public plazas, green areas, and community
 Activities. The programme has reduced traffic by approximately 25% in affected areas, reduced
 $\mathrm{NO_2}$ concentrations by approximately 25%, and increased pedestrian and cycling space.
 
@@ -128,7 +128,7 @@ stations, BRT stations, major bus interchanges). Key principles include:
 
 Curitiba (population approximately 1.9 million; metropolitan area approximately 3.7 million)
 Pioneered bus rapid transit (BRT) in the 1970s and integrated transit-oriented development into its
-Master plan.
+master plan.
 
 - **BRT system (RIT):** the Rede Integrada de Transporte serves approximately 2.3 million passengers
   per day through dedicated bus lanes, tube-like stations with pre-board ticketing, and
@@ -144,12 +144,12 @@ Master plan.
 
 **Results:** Curitiba has approximately 52 m$^2$ of green space per inhabitant (one of the highest
 Ratios among major cities in developing countries), achieved through the preservation of floodplains
-As parks. The BRT system carries approximately 70% of weekday commuter trips. Curitiba's per capita
+as parks. The BRT system carries approximately 70% of weekday commuter trips. Curitiba's per capita
 Fuel consumption is approximately 30% lower than comparable Brazilian cities.
 
 **Limitations:** the model benefits the formal city while the metropolitan periphery (approximately
 1.8 million people) experiences inadequate transport, informal housing, and limited access to
-Services. The success depended on strong political leadership (particularly under Mayor Jaime
+services. The success depended on strong political leadership (particularly under Mayor Jaime
 Lerner) that may not be replicable in all contexts.
 
 ## Green Infrastructure
@@ -157,10 +157,12 @@ Lerner) that may not be replicable in all contexts.
 ### Definition and Functions
 
 Green infrastructure is a network of natural and semi-natural features within and around urban areas
-That provide ecosystem services. It includes parks, urban forests, green roofs, green walls, street
+that provide ecosystem services. It includes parks, urban forests, green roofs, green walls, street
 Trees, wetlands, urban agriculture, and ecological corridors.
 
 **Ecosystem services provided by urban green infrastructure:**
+
+<div class="table-wrap">
 
 | Service                     | Mechanism                                                                                                                      | Quantified Benefit                                                                                                 |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
@@ -170,6 +172,8 @@ Trees, wetlands, urban agriculture, and ecological corridors.
 | **Carbon sequestration**    | Trees absorb $\mathrm{CO_2}$ through photosynthesis and store carbon in biomass and soils                                      | London's urban forest stores approximately 2.4 million tonnes of carbon                                            |
 | **Biodiversity**            | Green spaces provide habitat for flora and fauna, supporting ecological connectivity                                           | Urban parks can support 50--80% of native bird species                                                             |
 | **Recreation and health**   | Access to green space is associated with improved mental health, reduced stress, and increased physical activity               | Studies show a 20% reduction in all-cause mortality associated with access to green space within 1 km of residence |
+
+</div>
 
 ## Mixed-Use Development
 
@@ -214,16 +218,16 @@ Cities.
 
 **Overall Freiburg strategy:** approximately 43% of the city area is forest; the city has over 500
 Km of cycling paths; public transport (trams and buses) carries approximately 40% of all trips; the
-City aims to be carbon-neutral by 2050.
+city aims to be carbon-neutral by 2050.
 
 ## Participatory Planning
 
 ### Principles
 
 Participatory planning involves the active engagement of citizens and communities in the planning
-And design of their neighbourhoods and cities. It moves beyond traditional top-down planning (in
-Which decisions are made by planners and politicians with limited public input) toward
-Collaborative, bottom-up processes.
+and design of their neighbourhoods and cities. It moves beyond traditional top-down planning (in
+which decisions are made by planners and politicians with limited public input) toward
+collaborative, bottom-up processes.
 
 **Methods of participation:**
 
@@ -242,9 +246,9 @@ Collaborative, bottom-up processes.
 <summary>Common Pitfalls: Assuming Sustainable Urban Solutions Are Universally Applicable</summary>
 
 Examination questions often ask students to evaluate sustainable urban strategies. A common error is
-To present strategies (e.g., BRT, smart cities, green infrastructure) as universally beneficial,
+to present strategies (e.g., BRT, smart cities, green infrastructure) as universally beneficial,
 Without considering context. A strategy that works in one context may fail in another due to
-Differences in income levels, governance capacity, institutional frameworks, cultural norms,
+differences in income levels, governance capacity, institutional frameworks, cultural norms,
 Climate, or existing urban form. Curitiba's BRT system, for example, was implemented within a strong
 Institutional framework and a culture of planning that may not exist in other developing-country
 Cities. Freiburg's Vauban district was built in a high-income country with strong environmental
@@ -274,24 +278,7 @@ Sustainable urban planning is like designing a building that must stand for cent
 4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-
-```mermaid
-flowchart TD
-    A[Urban Planning And Sustainability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

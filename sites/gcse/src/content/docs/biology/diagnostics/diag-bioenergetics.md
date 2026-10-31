@@ -63,12 +63,16 @@ products. (d) Explain why anaerobic respiration is important for yeast in bread-
 (b) In aerobic respiration, the molar ratio of CO$_2$ produced to O$_2$ consumed is 1:1. Therefore,
 O$_2$ consumed $=$ CO$_2$ produced $= 360$ L/hour.
 
+<div class="table-wrap">
+
 | (c)       | Feature                     | Aerobic                 | Anaerobic (animal)      | Anaerobic (yeast) |
 | --------- | --------------------------- | ----------------------- | ----------------------- | ----------------- |
-| ATP yield | High (~38 ATP per glucose)  | Low (2 ATP per glucose) | Low (2 ATP per glucose) |
-| Oxygen    | Required                    | Not required            | Not required            |
-| Products  | CO$_2$ + H$_2$O             | Lactic acid             | Ethanol + CO$_2$        |
-| Speed     | Slower (complete breakdown) | Faster (quick energy)   | Slower than aerobic     |
+|  | ATP yield | High (~38 ATP per glucose)  | Low (2 ATP per glucose) | Low (2 ATP per glucose) |
+|  | Oxygen    | Required                    | Not required            | Not required            |
+|  | Products  | CO$_2$ + H$_2$O             | Lactic acid             | Ethanol + CO$_2$        |
+|  | Speed     | Slower (complete breakdown) | Faster (quick energy)   | Slower than aerobic     |
+
+</div>
 
 (d) In **bread-making**, yeast undergoes anaerobic respiration (fermentation), producing CO$_2$ gas.
 The CO$_2$ gets trapped in the dough, causing it to rise (leavening). The ethanol evaporates during
@@ -83,7 +87,7 @@ carbonate the drink or be released.
 **Question:** (a) Define the term "limiting factor". (b) Explain how light intensity, CO$_2$
 concentration, and temperature affect the rate of photosynthesis. (c) A farmer wants to increase
 crop yields in a greenhouse. Suggest three methods, explaining the biology behind each. (d) Explain
-why increasing temperature above $25^\circ$C does not continue to increase the rate of
+why increasing temperature above $25^\circ$ C does not continue to increase the rate of
 photosynthesis.
 
 **Solution:**
@@ -101,7 +105,7 @@ Increasing CO$_2$ increases the rate until another factor limits. At very high C
 temperature becomes limiting.
 
 **Temperature:** Increasing temperature increases the rate of enzyme-controlled reactions in
-photosynthesis (up to the optimum). Above the optimum ($\approx 25$--$30^\circ$C), enzymes begin to
+photosynthesis (up to the optimum). Above the optimum ($\approx 25$--$30^\circ$ C), enzymes begin to
 denature and the rate decreases.
 
 (c) Three methods: (1) **Artificial lighting** -- extends the hours of photosynthesis beyond
@@ -110,7 +114,7 @@ greenhouse increases the concentration above atmospheric levels, making CO$_2$ l
 limiting. (3) **Temperature control** -- heating in winter and ventilation in summer maintain the
 optimum temperature for photosynthetic enzymes.
 
-(d) Above $25^\circ$C, the enzymes involved in photosynthesis (particularly RuBisCO in the Calvin
+(d) Above $25^\circ$ C, the enzymes involved in photosynthesis (particularly RuBisCO in the Calvin
 cycle) begin to denature. The active site changes shape, reducing the enzyme"s ability to catalyse
 the reaction. Additionally, at higher temperatures, water loss through stomata increases. The guard
 cells close the stomata to conserve water, but this reduces CO$_2$ entry, further limiting
@@ -134,9 +138,13 @@ photosynthesis.
 **Question:** A plant in a sealed container is exposed to light. The net oxygen production rate is
 measured at different light intensities:
 
+<div class="table-wrap">
+
 | Light intensity (arbitrary units) | 0   | 50  | 100 | 200 | 400 |
 | --------------------------------- | --- | --- | --- | --- | --- |
 | Net O$_2$ production (mg/hr)      | -20 | -5  | 10  | 25  | 25  |
+
+</div>
 
 (a) Explain the negative values at low light intensity. (b) Calculate the compensation point (light
 intensity where net O$_2$ production is zero). (c) At what light intensity does photosynthesis
@@ -228,26 +236,9 @@ sustain another trophic level.
 
 **The key insight:** Only about 10% of energy transfers between trophic levels, the rest is lost as heat through respiration.
 
-```mermaid
-flowchart TD
-    A[Diag Bioenergetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

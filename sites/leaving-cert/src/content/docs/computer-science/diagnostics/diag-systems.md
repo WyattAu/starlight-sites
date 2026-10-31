@@ -157,7 +157,7 @@ the program runs more slowly because translation happens during execution.
 as a shorthand notation for binary?
 
 (c) A computer stores text using 8-bit ASCII. The ASCII code for 'A' is $65$ and for 'a' is $97$.
-Convert the word "Cat" to its binary representation using ASCII codes.
+convert the word "Cat" to its binary representation using ASCII codes.
 
 (d) Explain the difference between lossy and lossless compression. Give one example of a file format
 that uses each type.
@@ -328,6 +328,8 @@ Maximum addressable memory $= 2^{32}$ bytes $= 4{,}294{,}967{,}296\,\text{bytes}
 
 (d)
 
+<div class="table-wrap">
+
 | Feature     | SSD (NAND Flash)                                  | HDD (Magnetic)                               |
 | ----------- | ------------------------------------------------- | -------------------------------------------- |
 | Speed       | Fast read/write (hundreds of MB/s)                | Slower read/write (tens to hundreds of MB/s) |
@@ -335,6 +337,8 @@ Maximum addressable memory $= 2^{32}$ bytes $= 4{,}294{,}967{,}296\,\text{bytes}
 | Cost per GB | More expensive                                    | Less expensive                               |
 | Capacity    | 256 GB to 4 TB                          | 500 GB to 20 TB                    |
 | Use cases   | Boot drive, applications, laptops, fast workloads | Bulk storage, backups, archival data         |
+
+</div>
 
 SSDs are preferred for the operating system and frequently used applications due to their speed.
 HDDs remain useful for large-capacity storage where speed is less critical.
@@ -347,27 +351,9 @@ HDDs remain useful for large-capacity storage where speed is less critical.
 
 **The key insight:** The operating system is the mediator between hardware and software, it manages resources, enforces security, and provides the illusion that each program has the computer to itself.
 
-
-```mermaid
-flowchart TD
-    A[Diag Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

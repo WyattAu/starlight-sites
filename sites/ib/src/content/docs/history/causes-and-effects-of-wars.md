@@ -21,7 +21,7 @@ description: "This document covers the IB History topic on the Causes and Effect
 ## Causes and Effects of Wars
 
 This document covers the IB History topic on the Causes and Effects of (20th Century) Wars for
-Paper 2. It examines the two World Wars in depth, comparing their origins, courses, and
+paper 2. It examines the two World Wars in depth, comparing their origins, courses, and
 consequences, and explores the major historiographical debates. The focus is on developing the
 analytical skills needed for high-scoring essay responses.
 
@@ -55,7 +55,7 @@ analytical skills needed for high-scoring essay responses.
 **Militarism**
 
 - The arms race between the major European powers created an atmosphere of tension and suspicion
-- Anglo-German naval rivalry: Germany"s decision to build a large fleet (Risk Theory) provoked a
+- Anglo-German naval rivalry: Germany's decision to build a large fleet (Risk Theory) provoked a
   British response, the naval arms race was a significant factor in worsening Anglo-German
   relations
 - Conscription and large standing armies created the capacity for rapid mobilisation, which meant
@@ -280,6 +280,8 @@ analytical skills needed for high-scoring essay responses.
 
 ### 3.1 Causes Compared
 
+<div class="table-wrap">
+
 | Factor           | WWI                                       | WWII                                       |
 | ---------------- | ----------------------------------------- | ------------------------------------------ |
 | Imperialism      | European competition for colonies         | Nazi Lebensraum and Japanese expansion     |
@@ -288,6 +290,8 @@ analytical skills needed for high-scoring essay responses.
 | Militarism       | Arms race and war plans                   | Massive rearmament, new technology         |
 | Economic factors | Industrial competition, trade rivalry     | Great Depression, German reparations       |
 | Trigger          | Assassination at Sarajevo                 | Invasion of Poland                         |
+
+</div>
 
 ### 3.2 Treaty Comparisons
 
@@ -411,17 +415,6 @@ analytical skills needed for high-scoring essay responses.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Causes And Effects Of Wars] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Wars do not erupt from single causes. They result from accumulated tensions that finally snap. The assassination of Franz Ferdinand did not cause WWI alone; it was the spark that ignited a powder keg of alliances, militarism, imperialism, and nationalism. Similarly, WWII grew from the unresolved grievances of WWI, economic collapse, and the failure of collective security. Understanding war means understanding how long-term pressures interact with short-term triggers.
@@ -438,9 +431,6 @@ The historiographical debates surrounding these wars remain vibrant and essentia
 of sophisticated historical analysis.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

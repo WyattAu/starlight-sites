@@ -71,12 +71,16 @@ Exactly once.
 
 ### Visibility Modifiers
 
+<div class="table-wrap">
+
 | Modifier    | Class Member                 | Top-Level Declaration        |
 | ----------- | ---------------------------- | ---------------------------- |
 | `public`    | Visible everywhere (default) | Visible everywhere (default) |
 | `private`   | Inside class only            | Inside file only             |
 | `protected` | Inside class + subclasses    | N/A                          |
 | `internal`  | Inside module                | Inside module                |
+
+</div>
 
 A module is a set of Kotlin files compiled together -- a Gradle project, a Maven project, or an
 IntelliJ module.
@@ -193,8 +197,8 @@ class Button : Clickable, Focusable {
 
 ## Data Classes
 
-Data classes are designed to hold data. The compiler generates `equals()``hashCode()`
-`toString()``componentN()` functions, and a `copy()` method.
+Data classes are designed to hold data. The compiler generates `equals()`, `hashCode()`
+`toString()`, `componentN()` functions, and a `copy()` method.
 
 ```kotlin
 data class User(
@@ -218,7 +222,7 @@ println(user)  // User(id=1, name=Alice, email=alice@example.com, active=true)
 
 - The primary constructor must have at least one parameter.
 - All primary constructor parameters must be `val` or `var`.
-- Data classes cannot be `open``abstract``inner`Or `sealed`.
+- Data classes cannot be `open`, `abstract`, `inner` or `sealed`.
 - The generated `equals()` compares all primary constructor properties structurally.
 
 ### Copy Semantics
@@ -326,12 +330,12 @@ val listener = object : MouseAdapter() {
 ```
 
 Anonymous objects used as local variables have an anonymous type. If you need to pass the object
-Outside its declaration scope, declare the type explicitly or use an interface.
+outside its declaration scope, declare the type explicitly or use an interface.
 
 ## Companion Objects
 
 A companion object is an object declaration tied to a class. Members declared in it are accessed via
-The class name -- analogous to Java static members.
+the class name -- analogous to Java static members.
 
 ```kotlin
 class User private constructor(
@@ -354,7 +358,7 @@ val user2 = User.fromJson("""{"name": "Bob", "email": "bob@example.com"}""")
 ```
 
 The companion object can have a name (e.g., `Factory`) or use the default name `Companion`. A class
-Can have only one companion object.
+can have only one companion object.
 
 Companion objects can implement interfaces:
 
@@ -387,17 +391,6 @@ val user = spawn(User)  // User(name=default)
 - \*\* Confusing `object` declarations with anonymous objects. `object` creates a named singleton;
   `object : SomeInterface { ... }` creates an anonymous instance.
 
-
-```mermaid
-flowchart TD
-    A[Classes And Objects] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of classes and objects, including underlying theory, practical
@@ -411,13 +404,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

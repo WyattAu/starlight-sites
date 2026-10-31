@@ -23,15 +23,15 @@ categories:
 
 Python is dynamically typed: a single function object can be called with any combination of
 Arguments. But type checkers need to know what types are acceptable and what the return type is for
-Each valid combination. `typing.overload` solves this by letting you declare multiple signatures for
-The same callable, followed by a single implementation that carries the actual runtime logic.
+each valid combination. `typing.overload` solves this by letting you declare multiple signatures for
+the same callable, followed by a single implementation that carries the actual runtime logic.
 
 ### Mechanism
 
 The `@overload` decorator does **nothing at runtime**. It is a no-op that returns the decorated
 Function unchanged. Its sole purpose is to signal to static type checkers (mypy, pyright,
 Pyright-based editors) that the decorated function has multiple type signatures. At runtime, only
-The implementation function exists; the overload definitions are effectively erased.
+the implementation function exists; the overload definitions are effectively erased.
 
 The pattern is always: one or more `@overload`-decorated stubs (with no body, using `...`), then a
 Single implementation:
@@ -59,7 +59,7 @@ def process(data):
 Each overload stub must be consistent in the sense that a type checker can determine which overload
 Applies at each call site. The implementation signature is not checked against the overloads -- the
 Implementation can have a broad signature like `def process(data: Any) -> Any:` and type checkers
-Will not complain, because they understand that the implementation is the fallback.
+will not complain, because they understand that the implementation is the fallback.
 
 ### Overloads with `@staticmethod` and `@classmethod`
 
@@ -87,9 +87,9 @@ class Parser:
 ```
 
 The reason for this ordering: `@staticmethod` and `@classmethod` are descriptor-based decorators
-That transform the function object into a different kind of descriptor. If you put `@overload` on
+that transform the function object into a different kind of descriptor. If you put `@overload` on
 Top, it would try to decorate the result of `@staticmethod` (a `staticmethod` descriptor), which is
-Not a function and would confuse the type checker"s overload tracking. The type checker needs to see
+not a function and would confuse the type checker"s overload tracking. The type checker needs to see
 `@overload` applied to a plain function so it can extract the signature.
 
 ### Limitations
@@ -125,7 +125,7 @@ set_verbosity("verbose")  # type error: not in the literal set
 ```
 
 `Literal` accepts strings, bytes, integers, booleans, `None`And enum values. At the type-system
-Level, `Literal["foo"]` is a subtype of `str``Literal[42]` is a subtype of `int`And `Literal[True]`
+Level, `Literal["foo"]` is a subtype of `str`, `Literal[42]` is a subtype of `int`And `Literal[True]`
 is a subtype of `bool`. The type checker treats each literal value as a distinct Type.
 
 ```python
@@ -159,7 +159,7 @@ def handle_status(status: Literal["open", "closed", "pending"]) -> str:
 ```
 
 This is not just syntactic sugar over `str`. The type checker knows that after the `"open"` case,
-`status` is typed as `Literal["open"]`Not `str`. This enables downstream type-safe behavior.
+`status` is typed as `Literal["open"]`. Not `str`. This enables downstream type-safe behavior.
 
 ### `LiteralString` (Python 3.11+)
 
@@ -185,7 +185,7 @@ query("SELECT * FROM " + "users")         # OK -- literal + literal = LiteralStr
 
 ### Use Cases
 
-- **Status enums without `Enum`:** When you don't need the full machinery of `enum.Enum``Literal`
+- **Status enums without `Enum`:** When you don't need the full machinery of `enum.Enum`, `Literal`
   types provide the same safety with less boilerplate.
 - **API versioning:** `def api_call(version: Literal["v1", "v2"]) -> Response` ensures callers pass
   a known version string.
@@ -328,7 +328,7 @@ The type checker will not catch it -- you need runtime validation for that.
 ## TypeVarTuple (PEP 646)
 
 `TypeVarTuple` introduces variadic generics to Python's type system. It allows you to define types
-That operate over a variable number of type parameters, analogous to how `*args` captures a variable
+that operate over a variable number of type parameters, analogous to how `*args` captures a variable
 Number of positional arguments at runtime.
 
 ### Motivation
@@ -470,7 +470,7 @@ Followed by whatever parameters the original function accepted."
 
 - **Decorators:** Any decorator that wraps a function and returns a wrapper. `ParamSpec` ensures the
   type checker knows the wrapper accepts the same arguments as the original.
-- **Higher-order functions:** Functions that accept callbacks, like `map``filter``sorted(key=)` or
+- **Higher-order functions:** Functions that accept callbacks, like `map`, `filter`, `sorted(key=)` or
   retry decorators.
 - **Dependency injection frameworks:** When the framework needs to accept a user-defined function
   and inject additional parameters at call time.
@@ -478,7 +478,7 @@ Followed by whatever parameters the original function accepted."
 ## TypeGuard and TypeIs
 
 `TypeGuard` and `TypeIs` are special forms for user-defined type narrowing functions. They let you
-Tell the type checker "if this function returns `True`The argument is of type `T`."
+Tell the type checker "if this function returns `True`. The argument is of type `T`."
 
 ### `TypeGuard` (Python 3.10+)
 
@@ -499,7 +499,7 @@ else:
 ```
 
 The critical asymmetry: `TypeGuard` allows widening in the `True` branch. That is, the narrowed type
-Does not have to be a subtype of the input type. For example, a function that checks whether a
+does not have to be a subtype of the input type. For example, a function that checks whether a
 String is actually a valid JSON document could return `TypeGuard[dict[str, object]]` even though the
 Input type is `str`. This makes `TypeGuard` flexible but also potentially unsound -- the type
 Checker trusts your assertion without verification.
@@ -524,6 +524,8 @@ else:
 
 When to use which:
 
+<div class="table-wrap">
+
 | Property                  | `TypeGuard` | `TypeIs` |
 | ------------------------- | ----------- | -------- |
 | Narrows in `True` branch  | Yes         | Yes      |
@@ -531,8 +533,10 @@ When to use which:
 | Allows widening           | Yes         | No       |
 | Soundness                 | Trusts you  | Checked  |
 
+</div>
+
 Use `TypeIs` by default when the narrowed type is a subtype of the input. Use `TypeGuard` only when
-You need to widen (e.g., parsing a string into a structured type).
+you need to widen (e.g., parsing a string into a structured type).
 
 ### `@overload` Pattern with TypeGuard
 
@@ -574,7 +578,7 @@ b = FancyBuilder()
 result = b.set_name("test").set_style("fancy")  # type error!
 ```
 
-The type error occurs because `set_name` is annotated to return `Builder`Not `FancyBuilder`. The
+The type error occurs because `set_name` is annotated to return `Builder`. Not `FancyBuilder`. The
 Type checker sees `Builder.set_name(...) -> Builder`And `Builder` has no `set_style` method.
 
 ### Python 3.11+: `typing.Self`
@@ -610,7 +614,7 @@ class Builder:
 ```
 
 This works but is verbose, error-prone (you must remember to use the `TypeVar` consistently), and
-Does not work correctly for `__init_subclass__` or class methods in all type checkers. `Self` is
+does not work correctly for `__init_subclass__` or class methods in all type checkers. `Self` is
 Strictly superior.
 
 ## Final and ClassVar
@@ -654,7 +658,7 @@ API_VERSION: Final = "v1"
 ```
 
 At the module level, `Final` tells the type checker that the name is a constant. Any reassignment
-Will be flagged as a type error.
+will be flagged as a type error.
 
 At the class level, `Final` prevents subclasses from overriding the attribute:
 
@@ -693,7 +697,7 @@ Linked lists, JSON-like nested data, and any data structure with arbitrary depth
 ### Forward References
 
 Before Python 3.11, you needed string quotes for forward references when a type refers to a class
-That has not been defined yet:
+that has not been defined yet:
 
 ```python
 from typing import Optional
@@ -744,7 +748,7 @@ def process(data: JSONValue) -> None:
 ```
 
 The type checker resolves the forward reference `"JSONValue"` by looking it up after the full module
-Has been processed. This works because type checkers perform multiple passes over the source.
+has been processed. This works because type checkers perform multiple passes over the source.
 
 ### Tree Types
 
@@ -765,7 +769,7 @@ class Tree(Generic[T]):
 ## Type Narrowing
 
 Type narrowing is the process by which a type checker reduces (narrows) the type of a variable based
-On control flow. Understanding exactly what triggers narrowing is essential for writing type-checked
+on control flow. Understanding exactly what triggers narrowing is essential for writing type-checked
 Code that compiles cleanly.
 
 ### Mechanisms
@@ -797,9 +801,9 @@ def process(value: str | None) -> str:
     return value              # value is narrowed to str
 ```
 
-Note: use `is None` / `is not None`Not `== None`. Some type checkers do not narrow on `== None`
+Note: use `is None` / `is not None`. Not `== None`. Some type checkers do not narrow on `== None`
 Because `__eq__` can be overridden to return arbitrary results. `is None` checks identity and cannot
-Be overridden.
+be overridden.
 
 **Truthiness narrowing:**
 
@@ -824,7 +828,7 @@ def process(items: list[int]) -> int:
 ```
 
 Some type checkers narrow `list[int]` to `list[int]` (no useful narrowing) while others narrow to a
-Non-empty list type. Check your type checker's documentation for specifics.
+non-empty list type. Check your type checker's documentation for specifics.
 
 **`assert`:**
 
@@ -835,7 +839,7 @@ def process(value: object) -> int:
 ```
 
 `assert` triggers narrowing just like `if`. Type checkers treat `assert isinstance(x, T)` as a
-Narrowing guard. Note that `assert` can be disabled at runtime with `python -O`So do not rely on It
+Narrowing guard. Note that `assert` can be disabled at runtime with `python -O`. So do not rely on It
 for correctness -- only for type narrowing and development-time checks.
 
 **Literal matching:**
@@ -865,7 +869,7 @@ def process(data: dict[str, object]) -> int:
 If `data["id"]` is actually a string at runtime, `cast` will not raise an error. The program will
 Proceed with whatever value is there, potentially causing a downstream failure. `cast` is a tool for
 Last-resort cases where you know the type better than the type checker (e.g., after a runtime check
-That the type checker cannot understand, or when interfacing with untyped code).
+that the type checker cannot understand, or when interfacing with untyped code).
 
 Prefer `isinstance` checks over `cast` wherever possible. `cast` should be a controlled escape
 Hatch, not a default pattern.
@@ -894,7 +898,7 @@ class Box(Generic[T]):
 ```
 
 At runtime, `Box[int]` and `Box[str]` are the same class (`Box`). The type parameter exists only in
-The type system. This is called **type erasure**, and it is the same model used by Java's generics.
+the type system. This is called **type erasure**, and it is the same model used by Java's generics.
 
 ### Multiple Type Parameters
 
@@ -934,7 +938,7 @@ class Shelter(Generic[T]):
         return self._animals[0]
 ```
 
-Inside `Shelter[T]``T` is known to be `Animal` or a subclass, so you can call `.speak()` on any `T`
+Inside `Shelter[T]`, `T` is known to be `Animal` or a subclass, so you can call `.speak()` on any `T`
 value.
 
 ### `__class_getitem__`
@@ -1005,7 +1009,7 @@ Checker preserves the relationship.
 
 A `.pyi` file is a type stub file. It contains **only** type annotations and no executable code.
 Type checkers use `.pyi` files as the source of type information for a module, preferentially over
-The corresponding `.py` file.
+the corresponding `.py` file.
 
 ```python
 # my_module.pyi
@@ -1037,7 +1041,7 @@ Annotations but no implementation.
 ### Discovery
 
 Type checkers look for `.pyi` files using the same module resolution mechanism as Python's import
-System. For a module `foo.bar`The type checker looks for:
+System. For a module `foo.bar`. The type checker looks for:
 
 1. `foo/bar.pyi` (stub file in the package directory)
 2. `foo/bar.py` (regular Python file, with inline annotations)
@@ -1059,7 +1063,7 @@ Comes from `typeshed/stdlib/json.pyi`.
 
 Stubs frequently use `@overload` to document the multiple signatures of functions that accept
 Different argument types. This is especially common for built-in functions and stdlib functions that
-Have evolved over many Python versions:
+have evolved over many Python versions:
 
 ```python
 # typeshed/stdlib/builtins.pyi (simplified)
@@ -1121,7 +1125,7 @@ def len(obj: bytearray) -> int: ...
    get string representations instead of actual type objects. Always use `typing.get_type_hints()`
    to resolve annotations when `from __future__ import annotations` is active.
 
-8. **Type-checking only the happy path.** If your function returns `int | None`The type checker will
+8. **Type-checking only the happy path.** If your function returns `int | None`. The type checker will
    require you to handle the `None` case before using the value as an `int`. Do not work around this
    with `cast(int, result)` or `assert result is not None` without understanding the consequences.
    Let the type checker force you to handle edge cases -- that is its job.
@@ -1136,7 +1140,7 @@ def len(obj: bytearray) -> int: ...
     never be matched. Always order overloads from most specific to most general.
 
 11. **`TypeGuard` vs `TypeIs` confusion.** `TypeGuard` does not narrow in the `False` branch. If you
-    write a function that checks `isinstance(x, str)` and return `TypeGuard[str]`The type checker
+    write a function that checks `isinstance(x, str)` and return `TypeGuard[str]`. The type checker
     will narrow to `str` in the `True` branch but leave it as the original type in the `False`
     branch. Use `TypeIs` when you need narrowing in both branches and the narrowed type is a subtype
     of the input.
@@ -1180,9 +1184,6 @@ implementation, and key applications.
 - input/output systems
 - operating systems and scheduling
 - interrupts and polling
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

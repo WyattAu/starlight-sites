@@ -9,7 +9,6 @@ date: 2026-01-01T00:00:00Z
 sources:
   - text: Standard textbook reference
 
-
 This section provides study materials and resources for diagnostics. If Diagnostics | AP Mathematics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Diagnostics
@@ -62,8 +61,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ### Limits and Continuity
 
 **Limits** are the foundation of calculus. The limit $\lim_{x \to a} f(x) = L$ means that as $x$ approaches $a$ (from either side, but not equal to $a$), $f(x)$ approaches $L$.
@@ -89,7 +86,9 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 The **derivative** of a function $f$ at $x = a$ is defined as:
 
-$$f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$$
+$$
+f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}
+$$
 
 The derivative represents the instantaneous rate of change of $f$ at $x = a$, or equivalently, the slope of the tangent line to the graph at that point.
 
@@ -101,6 +100,8 @@ The derivative represents the instantaneous rate of change of $f$ at $x = a$, or
 - **Chain rule:** $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$
 
 **Common derivatives:**
+<div class="table-wrap">
+
 | Function | Derivative |
 |----------|------------|
 | $x^n$ | $nx^{n-1}$ |
@@ -109,6 +110,8 @@ The derivative represents the instantaneous rate of change of $f$ at $x = a$, or
 | $\tan x$ | $\sec^2 x$ |
 | $e^x$ | $e^x$ |
 | $\ln x$ | $\frac{1}{x}$ |
+
+</div>
 
 **Applications of derivatives:**
 - **Critical points:** $f'(c) = 0$ or $f'(c)$ does not exist. Use the first or second derivative test to classify as local maximum, local minimum, or neither.
@@ -150,7 +153,9 @@ A **differential equation** relates a function to its derivatives. The goal is t
 **Separable equations (AB and BC):**
 An equation of the form $\frac{dy}{dx} = g(x)h(y)$ can be solved by separating variables:
 
-$$\int \frac{1}{h(y)} \, dy = \int g(x) \, dx$$
+$$
+\int \frac{1}{h(y)} \, dy = \int g(x) \, dx
+$$
 
 **Example:** Solve $\frac{dy}{dx} = xy$ with $y(0) = 1$.
 
@@ -166,8 +171,12 @@ Solution: $y = e^{x^2/2}$
 
 **Euler's method (BC only):** A numerical technique for approximating solutions to differential equations. Starting from $(x_0, y_0)$ with step size $h$:
 
-$$y_{n+1} = y_n + h \cdot f(x_n, y_n)$$
-$$x_{n+1} = x_n + h$$
+$$
+y_{n+1} = y_n + h \cdot f(x_n, y_n)
+$$
+$$
+x_{n+1} = x_n + h
+$$
 
 ### Sequences and Series (BC only)
 
@@ -175,19 +184,25 @@ A **sequence** is an ordered list of numbers $\{a_n\}_{n=1}^{\infty}$. A **serie
 
 **Key convergence tests:**
 
+<div class="table-wrap">
+
 | Test | When to Use | Result |
 |------|-------------|--------|
-| Geometric series | $\sum ar^n$ | Converges if $|r| < 1$, sum $= \frac{a}{1-r}$ |
+| Geometric series | $\sum ar^n$ | Converges if $\|r\| < 1$, sum $= \frac{a}{1-r}$ |
 | p-series | $\sum \frac{1}{n^p}$ | Converges if $p > 1$ |
 | Divergence test | Any series | If $\lim_{n \to \infty} a_n \neq 0$, series diverges |
 | Integral test | Positive, decreasing $f$ with $a_n = f(n)$ | Series converges iff integral converges |
 | Comparison test | Compare with known series | If $0 \leq a_n \leq b_n$ and $\sum b_n$ converges, then $\sum a_n$ converges |
-| Ratio test | Factorials, exponentials | If $\lim \left|\frac{a_{n+1}}{a_n}\right| = L$: converges if $L < 1$, diverges if $L > 1$ |
+| Ratio test | Factorials, exponentials | If $\lim \left\|\frac{a_{n+1}}{a_n}\right\| = L$: converges if $L < 1$, diverges if $L > 1$ |
 | Alternating series | $\sum (-1)^n b_n$ with $b_n > 0$ | Converges if $b_n$ is decreasing and $\lim b_n = 0$ |
+
+</div>
 
 **Taylor series:** The Taylor series of $f$ centred at $a$ is:
 
-$$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$$
+$$
+f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
+$$
 
 **Important Taylor series to know:**
 - $e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots$
@@ -206,7 +221,9 @@ This requires the **product rule** since $f(x) = x^3 \cdot \sin x$.
 Let $u = x^3$ and $v = \sin x$. Then $u' = 3x^2$ and $v' = \cos x$.
 
 By the product rule:
-$$f'(x) = u'v + uv' = 3x^2 \sin x + x^3 \cos x$$
+$$
+f'(x) = u'v + uv' = 3x^2 \sin x + x^3 \cos x
+$$
 
 We can factor: $f'(x) = x^2(3\sin x + x\cos x)$
 
@@ -220,15 +237,25 @@ We can factor: $f'(x) = x^2(3\sin x + x\cos x)$
 
 Use the identity $\cos^2 x = \frac{1 + \cos 2x}{2}$:
 
-$$\int_0^{\pi/2} \cos^2 x \, dx = \int_0^{\pi/2} \frac{1 + \cos 2x}{2} \, dx$$
+$$
+\int_0^{\pi/2} \cos^2 x \, dx = \int_0^{\pi/2} \frac{1 + \cos 2x}{2} \, dx
+$$
 
-$$= \frac{1}{2} \int_0^{\pi/2} (1 + \cos 2x) \, dx$$
+$$
+= \frac{1}{2} \int_0^{\pi/2} (1 + \cos 2x) \, dx
+$$
 
-$$= \frac{1}{2} \left[x + \frac{\sin 2x}{2}\right]_0^{\pi/2}$$
+$$
+= \frac{1}{2} \left[x + \frac{\sin 2x}{2}\right]_0^{\pi/2}
+$$
 
-$$= \frac{1}{2} \left[\left(\frac{\pi}{2} + \frac{\sin \pi}{2}\right) - \left(0 + \frac{\sin 0}{2}\right)\right]$$
+$$
+= \frac{1}{2} \left[\left(\frac{\pi}{2} + \frac{\sin \pi}{2}\right) - \left(0 + \frac{\sin 0}{2}\right)\right]
+$$
 
-$$= \frac{1}{2} \cdot \frac{\pi}{2} = \frac{\pi}{4}$$
+$$
+= \frac{1}{2} \cdot \frac{\pi}{2} = \frac{\pi}{4}
+$$
 
 ## Worked Example: Diagnostic Question on Differential Equations
 
@@ -238,17 +265,25 @@ $$= \frac{1}{2} \cdot \frac{\pi}{2} = \frac{\pi}{4}$$
 
 This is a separable differential equation. Separate the variables:
 
-$$y \, dy = 2x \, dx$$
+$$
+y \, dy = 2x \, dx
+$$
 
 Integrate both sides:
 
-$$\int y \, dy = \int 2x \, dx$$
+$$
+\int y \, dy = \int 2x \, dx
+$$
 
-$$\frac{y^2}{2} = x^2 + C$$
+$$
+\frac{y^2}{2} = x^2 + C
+$$
 
 Multiply through by 2:
 
-$$y^2 = 2x^2 + C'$$
+$$
+y^2 = 2x^2 + C'
+$$
 
 where $C' = 2C$. This is the equation of a hyperbola (for $C' \neq 0$) or a pair of lines through the origin (for $C' = 0$).
 
@@ -297,17 +332,12 @@ where $C' = 2C$. This is the equation of a hyperbola (for $C' \neq 0$) or a pair
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 - *Calculus: Early Transcendentals* by James Stewart, The standard AP Calculus textbook
 - *Thomas' Calculus*, Another excellent comprehensive calculus textbook
 - *AP Calculus Premium* by Barron's, Exam preparation with practice tests
 - *The Calculus Lifesaver* by Adrian Banner, Accessible supplementary guide with worked examples
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -318,4 +348,3 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.

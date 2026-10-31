@@ -23,6 +23,14 @@ categories:
 }
 </script>
 
+:::note[New to networking? Start here]
+Read **[Before You Begin: How the Layers Fit](/before-you-begin/)** first. It
+builds the layered model from the journey of one web page -- what each layer
+promises, what encapsulation is, and why TCP and UDP are two points on a
+guarantee spectrum -- and ends with a self-test.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,17 +48,6 @@ categories:
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 

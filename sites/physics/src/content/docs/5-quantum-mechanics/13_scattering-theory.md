@@ -5,7 +5,7 @@ title: "Scattering Theory"
 tags:
   - Physics
   - University
-description: "For a spherically symmetric potential The scattering amplitude can be expanded i Comprehensive educational content coverage with definitions and practice proble"
+description: "Scattering theory: partial wave analysis, phase shifts and the scattering amplitude, the Born approximation, resonance scattering, and why the quantum cross-section of a hard sphere is four times the classical one. Scattering is how anything is known about the microscopic world. With recall prompts, counterexamples by name and interleaving problems. Tier U-A."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -17,50 +17,117 @@ description: "For a spherically symmetric potential The scattering amplitude can
 }
 </script>
 
-### 12.1 Partial Wave Analysis
+## Recall prompts
 
-For a spherically symmetric potential $V(r)$The scattering amplitude can be expanded in partial
+Attempt these from memory *before* reading.
+
+- What is a cross-section, and what are its dimensions?
+- Write the partial wave expansion of the scattering amplitude.
+- What is a phase shift, and what does $\delta_l = 0$ mean physically?
+- State the Born approximation and the condition for it to be valid.
+- What is the difference between a bound state and a resonance?
+
+Check your answers against the text. Prompt 1 is the one that connects this
+page to experiment: everything on it exists to predict a number someone can
+measure.
+
+## Motivation: scattering is how anything is known
+
+Nobody has ever seen an atomic nucleus. What Rutherford saw in 1911 was that
+alpha particles occasionally came *backwards*, and he inferred from the angular
+distribution that the positive charge was concentrated in a region $10^5$
+times smaller than the atom.
+
+That is the pattern for the whole subject, and it has not changed. The
+electron's magnetic moment, the proton's internal structure, the existence of
+the up and down quarks -- every one of these was inferred from how something
+scattered off something else. Scattering theory is not one topic among many;
+it is the interface between theory and experiment at every scale.
+
+**The central object is the scattering amplitude $f(\theta)$.** Far from the
+target the wave function is a plane wave plus an outgoing spherical wave:
+
+$$
+\psi \sim e^{ikz} + f(\theta)\,\frac{e^{ikr}}{r},
+$$
+
+and $f(\theta)$ contains everything. The differential cross-section is
+$|f(\theta)|^2$, the total cross-section is its integral, and resonances show
+up as rapid variation of its phase. Solving a scattering problem means finding
+one complex-valued function of one angle.
+
+**Why expand in partial waves.** A central potential is spherically symmetric,
+so angular momentum is conserved and each $l$ evolves independently. That
+decomposes a problem in three dimensions into a stack of one-dimensional
+problems -- one radial equation per $l$ -- each with a single number to
+describe it, the phase shift $\delta_l$. The amplitude becomes
+
+$$
+f(\theta) = \frac{1}{k}\sum_l (2l+1)\,e^{i\delta_l}\sin\delta_l\,P_l(\cos\theta),
+$$
+
+and the physics of a complicated 3D collision is now a list of angles. This is
+the same move as diagonalising an operator: the basis in which the problem
+decouples is the one worth using.
+
+### 13.1 Partial Wave Analysis
+
+For a spherically symmetric potential $V(r)$ The scattering amplitude can be expanded in partial
 waves:
 
-$$f(\theta) = \frac{1}{2ik}\sum_{l=0}^{\infty}(2l + 1)(e^{2i\delta_l} - 1)P_l(\cos\theta) = \frac{1}{k}\sum_{l=0}^{\infty}(2l + 1)e^{i\delta_l}\sin\delta_l\,P_l(\cos\theta)$$
+$$
+f(\theta) = \frac{1}{2ik}\sum_{l=0}^{\infty}(2l + 1)(e^{2i\delta_l} - 1)P_l(\cos\theta) = \frac{1}{k}\sum_{l=0}^{\infty}(2l + 1)e^{i\delta_l}\sin\delta_l\,P_l(\cos\theta)
+$$
 
 Where $\delta_l$ is the phase shift for partial wave $l$.
 
 **Optical theorem:**
 
-$$\sigma_{\text{total} = \frac{4\pi}{k}\,\text{Im}\,f(0) = \frac{4\pi}{k^2}\sum_{l=0}^{\infty}(2l+1)\sin^2\delta_l}$$
+$$
+\sigma_{\text{total} = \frac{4\pi}{k}\,\text{Im}\,f(0) = \frac{4\pi}{k^2}\sum_{l=0}^{\infty}(2l+1)\sin^2\delta_l}
+$$
 
 **Partial wave unitarity bound:** $\sin^2\delta_l \leq 1$ So the maximum contribution of partial wave
 $l$ to the cross section is:
 
-$$\sigma_l^{\max} = \frac{4\pi}{k^2}(2l + 1)$$
+$$
+\sigma_l^{\max} = \frac{4\pi}{k^2}(2l + 1)
+$$
 
-### 12.2 The Born Approximation
+### 13.2 The Born Approximation
 
 For a weak potential, the scattering amplitude to first order is:
 
-$$f(\theta, \phi) \approx -\frac{m}{2\pi\hbar^2}\int e^{-i\mathbf{k}"\cdot\mathbf{r}'}V(\mathbf{r}')\,d^3r'$$
+$$
+f(\theta, \phi) \approx -\frac{m}{2\pi\hbar^2}\int e^{-i\mathbf{k}"\cdot\mathbf{r}'}V(\mathbf{r}')\,d^3r'
+$$
 
 Where $\mathbf{k}'$ is the scattered wave vector and $\mathbf{q} = \mathbf{k}' - \mathbf{k}$ is the
 momentum transfer.
 
 For the Yukawa potential $V(r) = (V_0/r)e^{-\mu r}$:
 
-$$f(\theta) = -\frac{2m V_0}{\hbar^2(\mu^2 + q^2)}, \quad q = 2k\sin(\theta/2)$$
+$$
+f(\theta) = -\frac{2m V_0}{\hbar^2(\mu^2 + q^2)}, \quad q = 2k\sin(\theta/2)
+$$
 
 Setting $\mu = 0$ (Coulomb potential), this reproduces the Rutherford scattering formula.
 
-### 12.3 Resonance Scattering
+### 13.3 Resonance Scattering
 
 When the scattering energy is near a quasi-bound state, the phase shift passes through $\pi/2$
 (resonance):
 
-$$\delta_l(E) \approx \delta_{\text{bg} + \arctan\!\left(\frac{\Gamma/2}{E_R - E}\right)}$$
+$$
+\delta_l(E) \approx \delta_{\text{bg} + \arctan\!\left(\frac{\Gamma/2}{E_R - E}\right)}
+$$
 
 Where $E_R$ is the resonance energy and $\Gamma$ is the width. The cross section has the
 Breit--Wigner form:
 
-$$\sigma_l(E) = \frac{4\pi}{k^2}(2l+1)\frac{(\Gamma/2)^2}{(E - E_R)^2 + (\Gamma/2)^2}$$
+$$
+\sigma_l(E) = \frac{4\pi}{k^2}(2l+1)\frac{(\Gamma/2)^2}{(E - E_R)^2 + (\Gamma/2)^2}
+$$
 
 At resonance ($E = E_R$): $\sigma_l^{\max} = \frac{4\pi}{k^2}(2l+1)$ (unitarity limit).
 
@@ -70,14 +137,16 @@ At resonance ($E = E_R$): $\sigma_l^{\max} = \frac{4\pi}{k^2}(2l+1)$ (unitarity 
 For $s$-wave scattering ($l = 0$) at low energy ($ka \ll 1$), only the $l = 0$ phase shift
 contributes:
 
-$$\sigma \approx \frac{4\pi}{k^2}\sin^2\delta_0 \approx 4\pi a_s^2$$
+$$
+\sigma \approx \frac{4\pi}{k^2}\sin^2\delta_0 \approx 4\pi a_s^2
+$$
 
 Where the **scattering length** $a_s$ is defined by $k\cot\delta_0 \to -1/a_s$ as $k \to 0$.
 
 For a hard sphere of radius $a$: $\delta_0 = -ka$ (exact), giving $a_s = a$ and $\sigma = 4\pi a^2$
 (four times the geometric cross section $\pi a^2$ --- a purely quantum result).
 
-For the $^3$He--$^4$He system: $a_s \approx 1.4$ nm (positive, indicating a repulsive effective
+For the $^3$ He--$^4$ He system: $a_s \approx 1.4$ nm (positive, indicating a repulsive effective
 potential). For the neutron--proton system (triplet): $a_s \approx 5.4$ fm (positive, with a bound
 state --- the deuteron). For singlet: $a_s \approx -23.7$ fm (negative, indicating a virtual state).
 
@@ -88,20 +157,28 @@ state --- the deuteron). For singlet: $a_s \approx -23.7$ fm (negative, indicati
 
 Consider $V(r) = V_0\,e^{-r^2/(2a^2)}$.
 
-$$f(\theta) = -\frac{m}{2\pi\hbar^2}\int e^{-i\mathbf{q}\cdot\mathbf{r}}V_0 e^{-r^2/(2a^2)}\,d^3r$$
+$$
+f(\theta) = -\frac{m}{2\pi\hbar^2}\int e^{-i\mathbf{q}\cdot\mathbf{r}}V_0 e^{-r^2/(2a^2)}\,d^3r
+$$
 
-$$= -\frac{m V_0}{2\pi\hbar^2}(2\pi a^2)^{3/2}e^{-q^2 a^2/2} = -\frac{m V_0}{\hbar^2}(2\pi)^{1/2}a^3\,e^{-2k^2a^2\sin^2(\theta/2)}$$
+$$
+= -\frac{m V_0}{2\pi\hbar^2}(2\pi a^2)^{3/2}e^{-q^2 a^2/2} = -\frac{m V_0}{\hbar^2}(2\pi)^{1/2}a^3\,e^{-2k^2a^2\sin^2(\theta/2)}
+$$
 
 The total cross section:
 
-$$\sigma = \int |f|^2\,d\Omega = 2\pi\int_0^\pi |f|^2\sin\theta\,d\theta$$
+$$
+\sigma = \int |f|^2\,d\Omega = 2\pi\int_0^\pi |f|^2\sin\theta\,d\theta
+$$
 
 At low energy ($ka \ll 1$): $f \approx -\frac{mV_0}{\hbar^2}(2\pi)^{1/2}a^3$ (independent of
 $\theta$), giving:
 
-$$\sigma \approx 4\pi\left(\frac{mV_0}{\hbar^2}\right)^2 2\pi\,a^6 = \frac{8\pi^2 m^2 V_0^2 a^6}{\hbar^4}$$
+$$
+\sigma \approx 4\pi\left(\frac{mV_0}{\hbar^2}\right)^2 2\pi\,a^6 = \frac{8\pi^2 m^2 V_0^2 a^6}{\hbar^4}
+$$
 
-The Born approximation is valid when $|V_0| \ll \hbar^2/(ma^2)$I.e., the potential is weak compared
+The Born approximation is valid when $|V_0| \ll \hbar^2/(ma^2)$ I.e., the potential is weak compared
 to the kinetic energy associated with the length scale $a$.
 
 </details>
@@ -156,7 +233,9 @@ partially: using the helium result, $Z_{\text{eff}(1s) \approx Z - 5/16 = 3 - 0.
 (b) The $2s$ electron sees an effective nuclear charge of
 $Z_{\text{eff}(2s) \approx 3 - 2 \times 0.85 = 1.3}$ (Slater's rules). The energy:
 
-$$E_{2s} = -\frac{Z_{\text{eff}^2}{n^2}\times 13.6\ \text{eV} = -\frac{1.3^2}{4}\times 13.6 = -\frac{1.69}{4}\times 13.6 = -5.75\ \text{eV}}$$
+$$
+E_{2s} = -\frac{Z_{\text{eff}^2}{n^2}\times 13.6\ \text{eV} = -\frac{1.3^2}{4}\times 13.6 = -\frac{1.69}{4}\times 13.6 = -5.75\ \text{eV}}
+$$
 
 The ionisation energy is $|E_{2s}| = 5.75$ eV, close to the experimental 5.39 eV. The discrepancy
 reflects the crudeness of the Slater screening constants.
@@ -175,7 +254,9 @@ $r > a$.
 
 (a) Show that the $s$-wave phase shift satisfies:
 
-$$\delta_0 = -ka + \arctan\!\left(\frac{k}{\kappa}\tan(\kappa a)\right)$$
+$$
+\delta_0 = -ka + \arctan\!\left(\frac{k}{\kappa}\tan(\kappa a)\right)
+$$
 
 Where $\kappa = \sqrt{2m(V_0 + E)}/\hbar$ and $k = \sqrt{2mE}/\hbar$.
 
@@ -191,51 +272,132 @@ Outside ($r > a$), $u(r) = B\sin(kr + \delta_0)$.
 
 Matching $u$ and $u'$ at $r = a$:
 
-$$\kappa\cos(\kappa a) = k\cos(ka + \delta_0)/\sin(ka + \delta_0)\cdot k$$
+$$
+\kappa\cos(\kappa a) = k\cos(ka + \delta_0)/\sin(ka + \delta_0)\cdot k
+$$
 
 Wait: $\kappa\cot(\kappa a) = k\cot(ka + \delta_0)$.
 
-$$\cot(ka + \delta_0) = \frac{\kappa}{k}\cot(\kappa a)$$
+$$
+\cot(ka + \delta_0) = \frac{\kappa}{k}\cot(\kappa a)
+$$
 
-$$ka + \delta_0 = \arccot\!\left(\frac{\kappa}{k}\cot(\kappa a)\right) = \arctan\!\left(\frac{k}{\kappa}\tan(\kappa a)\right)$$
+$$
+ka + \delta_0 = \arccot\!\left(\frac{\kappa}{k}\cot(\kappa a)\right) = \arctan\!\left(\frac{k}{\kappa}\tan(\kappa a)\right)
+$$
 
-$$\delta_0 = -ka + \arctan\!\left(\frac{k}{\kappa}\tan(\kappa a)\right)$$
+$$
+\delta_0 = -ka + \arctan\!\left(\frac{k}{\kappa}\tan(\kappa a)\right)
+$$
 
 (b) A bound state has $E < 0$ So $k = i\kappa'$ where $\kappa' = \sqrt{2m|E|}/\hbar$. The bound state
 condition is that the exterior solution decays exponentially: $u(r) = Be^{-\kappa' r}$. Matching:
 
-$$\kappa\cot(\kappa a) = -\kappa'$$
+$$
+\kappa\cot(\kappa a) = -\kappa'
+$$
 
-As $|E| \to 0$: $\kappa' \to 0$ So $\kappa\cot(\kappa a) \to 0$Giving $\kappa a = \pi/2$ (the
+As $|E| \to 0$: $\kappa' \to 0$ So $\kappa\cot(\kappa a) \to 0$ Giving $\kappa a = \pi/2$ (the
 threshold for the first bound state).
 
 (c) The scattering length $a_s = -\lim_{k \to 0}(\delta_0/k)$. As $\kappa a \to \pi/2$,
 $\tan(\kappa a) \to \infty$ So:
 
-$$\delta_0 \approx -ka + \arctan(\infty) = -ka + \pi/2$$
+$$
+\delta_0 \approx -ka + \arctan(\infty) = -ka + \pi/2
+$$
 
-$$a_s = -\frac{1}{k}\left(-ka + \frac{\pi}{2}\right) = a - \frac{\pi}{2k}$$
+$$
+a_s = -\frac{1}{k}\left(-ka + \frac{\pi}{2}\right) = a - \frac{\pi}{2k}
+$$
 
 As $k \to 0$: $a_s \to \pm\infty$ (diverges), changing sign as the bound state appears.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[13_Scattering Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
 Scattering theory extracts information about forces by firing particles at targets and analyzing how they deflect. The differential cross-section tells you the probability of scattering into a given solid angle, and it is directly measurable. For a central potential, the scattering amplitude is decomposed into partial waves, each corresponding to a specific angular momentum. The scattering length characterizes low-energy scattering and diverges when a new bound state appears, signaling a resonance. The optical theorem connects the total cross-section to the forward scattering amplitude, reflecting the fact that particles removed from the forward beam must go somewhere. Partial wave analysis turns a complex three-dimensional scattering problem into a sum of one-dimensional problems.
 
 </details>
+
+## Counterexamples worth knowing by name
+
+<div class="table-wrap">
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| The quantum cross-section of a hard sphere matches the classical one | no | low-energy $s$-wave scattering gives $\sigma = 4\pi a^2$, four times the classical $\pi a^2$, because the wave diffracts around the sphere |
+| A resonance is a bound state | no | it is a *quasi*-bound state: metastable, with a finite lifetime, appearing as a pole of the $S$-matrix on the unphysical sheet rather than on the real axis |
+| The Born approximation needs a weak potential | incomplete | it needs $\lvert V\rvert$ small compared with the kinetic energy *and* the potential to vary slowly on the scale of the wavelength |
+| Higher partial waves matter at low energy | no | the centrifugal barrier suppresses them, and only the $l = 0$ wave contributes; that is why low-energy cross-sections are isotropic |
+| Phase shifts are small for weak scattering | not necessarily | a resonance makes $\delta_l$ swing through $\pi$ rapidly even for a weak potential |
+| Cross-sections cannot exceed the geometric size | no | the hard-sphere result above is *larger*, and a resonance can exceed it by orders of magnitude |
+| Scattering conserves probability, so $S$ is unitary | yes | and this is the constraint that makes the phase shifts real for real potentials |
+
+</div>
+
+The first row is the one that most strongly marks the difference between
+classical and quantum intuition. A classical ball bearing thrown at a
+basketball is shadowed by it; a long-wavelength quantum particle is *diffracted*
+by it, and the forward diffraction adds exactly the extra $3\pi a^2$.
+
+The third row is the one that catches people applying the Born approximation to
+a Coulomb field, where it fails not because the potential is strong but because
+it is long-ranged, and the amplitude has to be treated separately.
+
+## Where the research frontier is
+
+- **The inverse scattering problem.** Given the scattering data, can the
+  potential be reconstructed? In one dimension the answer is yes, exactly, via
+  the Gel'fand-Levitan equation -- and that result is the mathematical
+  foundation of soliton theory.
+- **Few-body scattering.** Three bodies do not reduce to pairwise problems, and
+  the Faddeev equations are the framework; Efimov states, where three bodies
+  bind even though no pair does, are the celebrated prediction.
+- **Scattering in quantum field theory.** The $S$-matrix is the central object
+  and its analyticity properties are what make dispersion relations possible;
+  the modern amplitudes programme tries to compute it without a Hamiltonian at
+  all.
+- **Cold atoms and Feshbach resonances.** A magnetic field tunes a resonance
+  through threshold, letting experimentalists dial the interaction strength
+  between two atoms from zero to infinity. That control is what makes
+  precision many-body physics possible.
+- **Scattering and quantum chaos.** How chaotic classical dynamics shows up in
+  scattering data -- through the statistics of resonance spacings -- connects
+  to random matrix theory.
+
+## Interleaving problems
+
+Mix these with [one-dimensional
+problems](/5-quantum-mechanics/5_one-dimensional-problems/), [angular
+momentum](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/),
+[approximation
+methods](/5-quantum-mechanics/8_approximation-methods/), [Symplectic Structure
+and KAM Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/)
+and [Ordinary Differential
+Equations](https://mathematics.wyattau.com/5-ordinary-differential-equations/1_introduction-and-classification/).
+
+1. (Angular momentum.) Derive the partial wave expansion by expanding a plane
+   wave in spherical harmonics and identifying each $l$ term as an incoming and
+   an outgoing wave. Show that only the phase of each can change, and that this
+   is why one number per $l$ suffices.
+2. (Operators.) Prove that the $S$-matrix is unitary for a real potential, and
+   explain why unitarity is what makes the phase shifts real. What goes wrong
+   with absorption?
+3. (One-dimensional problems.) Show that the 1D transmission and reflection
+   coefficients of the barrier problem are the $l = 0$ partial-wave result in
+   disguise, and identify what the higher $l$ waves add in three dimensions.
+4. (Approximation methods.) Derive the Born approximation as first-order
+   perturbation theory in $\hat{V}$, and show that it is the Fourier transform
+   of the potential evaluated at the momentum transfer. Then explain why that
+   makes electron diffraction a way of *photographing* potentials.
+5. (Classical mechanics.) Derive the Rutherford cross-section classically from
+   the Coulomb force, and show that quantum mechanics gives the same answer.
+   That agreement is unusual -- identify what makes it work.
+6. (Research.) State the Gel'fand-Levitan equation and explain in what sense it
+   solves the inverse problem exactly. Why does the reconstruction need the
+   *bound state* data as well as the scattering data?
 
 ## Cross-References
 
@@ -244,6 +406,6 @@ Scattering theory extracts information about forces by firing particles at targe
 - **[Time-Dependent Perturbation Theory](/5-quantum-mechanics/12_time-dependent-perturbation-theory/)**: Fermi's Golden Rule from time-dependent perturbation theory underlies transition rates in scattering.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

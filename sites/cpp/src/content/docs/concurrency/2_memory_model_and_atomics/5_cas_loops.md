@@ -22,7 +22,7 @@ categories:
 ## Compare-and-Swap (CAS) Loops
 
 This section covers the CAS loop pattern, the difference between `compare_exchange_weak` and
-`compare_exchange_strong`When weak CAS is preferable, linearizability of CAS-based data Structures,
+`compare_exchange_strong`. When weak CAS is preferable, linearizability of CAS-based data Structures,
 a lock-free reference counting implementation, and common CAS loop idioms.
 
 ## CAS Loop Pattern
@@ -30,7 +30,9 @@ a lock-free reference counting implementation, and common CAS loop idioms.
 The compare-and-swap (CAS) loop is the fundamental building block of lock-free algorithms. The
 Pattern is:
 
-$$\mathrm{loop:  \mathrm{old = \mathrm{load(x); \quad \mathrm{new = f(\mathrm{old); \quad \mathrm{if CAS(x, \mathrm{old, \mathrm{new) \mathrm{ then break$$
+$$
+\mathrm{loop:  \mathrm{old = \mathrm{load(x); \quad \mathrm{new = f(\mathrm{old); \quad \mathrm{if CAS(x, \mathrm{old, \mathrm{new) \mathrm{ then break
+$$
 
 In C++, this translates to:
 
@@ -44,11 +46,15 @@ while (!atomic_var.compare_exchange_weak(expected, desired, order_success, order
 
 ## `compare_exchange_weak` vs `compare_exchange_strong`
 
+<div class="table-wrap">
+
 | Property         | `compare_exchange_weak`               | `compare_exchange_strong` |
 | ---------------- | ------------------------------------- | ------------------------- |
 | Spurious failure | Possible                              | Never                     |
 | Performance      | May be faster on some architectures   | May be slower             |
 | Use case         | CAS loops (failure is retried anyway) | Single-attempt operations |
+
+</div>
 
 The `compare_exchange` functions have the following signature [N4950 §31.7.2]:
 
@@ -61,7 +67,7 @@ bool compare_exchange_strong(T& expected, T desired,
 ```
 
 On failure, `expected` is updated to the current value of the atomic variable, allowing the caller
-To recompute `desired` and retry.
+to recompute `desired` and retry.
 
 :::tip
 failed due to A value mismatch (e.g., when you want to take a different action on real failure vs
@@ -94,7 +100,9 @@ A concurrent data structure is **linearizable** [Herlihy & Wing, 1990] if every 
 Take effect instantaneously at some point between its invocation and its response. CAS-based data
 Structures can achieve linearizability because CAS is itself a linearizable operation:
 
-$$\mathrm{CAS(x, \mathrm{old, \mathrm{new) \mathrm{ appears to execute atomically at the point where the store conditional succeeds$$
+$$
+\mathrm{CAS(x, \mathrm{old, \mathrm{new) \mathrm{ appears to execute atomically at the point where the store conditional succeeds
+$$
 
 This means that any data structure built entirely from CAS operations is linearizable, provided the
 CAS loop correctly handles the expected/desired values.
@@ -194,11 +202,13 @@ int main() {
 :::note
 Operation. The acquire semantics ensure that all accesses to the object (sequenced-before the
 Release) are visible to the thread that performs the destruction. The release semantics ensure that
-The destruction itself is visible to other threads. The `fetch_sub` return value is checked against
+the destruction itself is visible to other threads. The `fetch_sub` return value is checked against
 1 (not 0) because `fetch_sub` returns the **old** value [N4950 §31.7.2].
 :::
 
 ## CAS Loop Idioms Summary
+
+<div class="table-wrap">
 
 | Pattern                    | Description                            | Use Case                       |
 | -------------------------- | -------------------------------------- | ------------------------------ |
@@ -206,6 +216,8 @@ The destruction itself is visible to other threads. The `fetch_sub` return value
 | **Insert into list**       | Load head, set new->next, CAS head     | Lock-free stack push           |
 | **Remove from list**       | Load head, read next, CAS head to next | Lock-free stack pop            |
 | **Update with validation** | Load, validate invariants, CAS         | Lock-free queue (ABA-safe)     |
+
+</div>
 
 :::tip
 Failed CAS. The `compare_exchange_weak` function automatically updates `expected` to the current
@@ -315,7 +327,7 @@ The push operation uses a **read-modify-write** CAS loop: load the current head,
 `next` to it, then atomically swap the head if it hasn't changed. The `memory_order_release` on
 Success ensures that the new node's data is visible to other threads that acquire the head.
 
-The pop operation uses a **remove** CAS loop: load the current head, read its `next`Then Atomically
+The pop operation uses a **remove** CAS loop: load the current head, read its `next`. Then Atomically
 set the head to `next` if the head hasn't changed. On success, the popped node is Returned as a
 `unique_ptr`Transferring ownership to the caller and ensuring the node is eventually Freed.
 
@@ -329,7 +341,7 @@ The lock-free stack above has a classic ABA vulnerability:
 4. Thread A's CAS succeeds because `head == A` again. But `A->next` has changed.
 
 In a garbage-collected language, ABA is prevented because the GC doesn't recycle nodes. In C++, you
-Must prevent it explicitly using:
+must prevent it explicitly using:
 
 1. **Hazard pointers:** Threads publish pointers they are reading. Before reclaiming memory, the
    reclaimer checks that no thread has a hazard pointer to it.
@@ -399,10 +411,12 @@ void push_with_tag(void* new_node) {
 ## Memory Ordering in CAS Operations
 
 The `compare_exchange` functions accept two memory order arguments: one for the **success** case and
-One for the **failure** case. The failure order cannot be stronger than `memory_order_consume` and
-Cannot be `release` or `acq_rel` [N4950 §31.7.2].
+one for the **failure** case. The failure order cannot be stronger than `memory_order_consume` and
+cannot be `release` or `acq_rel` [N4950 §31.7.2].
 
 ### Common Memory Order Combinations
+
+<div class="table-wrap">
 
 | Success Order          | Failure Order          | Use Case                                                         |
 | :--------------------- | :--------------------- | :--------------------------------------------------------------- |
@@ -411,6 +425,8 @@ Cannot be `release` or `acq_rel` [N4950 §31.7.2].
 | `memory_order_release` | `memory_order_relaxed` | Publishing a shared pointer (make writes visible)                |
 | `memory_order_acq_rel` | `memory_order_acquire` | Read-modify-write on a synchronization variable                  |
 | `memory_order_seq_cst` | `memory_order_seq_cst` | Default; total order (strongest guarantee, most expensive)       |
+
+</div>
 
 ```cpp
 #include <atomic>
@@ -676,7 +692,7 @@ int main() {
 
 The sentinel node pattern avoids the ABA problem for the head pointer because the head never moves
 Backward, it always advances from one dummy node to the next. The old dummy node is deleted after
-The head swings, so it can never be recycled and re-inserted. The tail pointer may lag behind
+the head swings, so it can never be recycled and re-inserted. The tail pointer may lag behind
 (requiring the "help advance" code), but this does not affect correctness.
 
 ---
@@ -701,7 +717,7 @@ The head swings, so it can never be recycled and re-inserted. The tail pointer m
   does not perform a store, so `release` semantics are meaningless. Use `memory_order_acquire` or
   `memory_order_relaxed` for the failure case.
 - **Forgetting that `compare_exchange` updates `expected` on failure.** If you compute `desired`
-  based on `expected` before the CAS and then retry without recomputing `desired`You'll retry with a
+  based on `expected` before the CAS and then retry without recomputing `desired`. You'll retry with a
   stale computation. Always recompute `desired` inside the loop after a failed CAS.
 - **ABA problem in long-running CAS loops.** If a CAS loop can be preempted for a long time, another
   thread may modify and then restore the observed value, causing the CAS to succeed incorrectly. Use
@@ -718,10 +734,12 @@ The head swings, so it can never be recycled and re-inserted. The tail pointer m
 
 **Example 1: Stack operations**
 
-Trace the following operations on an empty stack: `push(5)``push(3)``pop()``push(8)``pop()`
+Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`, `push(8)`, `pop()`
 `pop()`.
 
 **Solution:**
+
+<div class="table-wrap">
 
 | Operation | Stack (top → bottom) | Popped |
 | --------- | -------------------- | ------ |
@@ -732,15 +750,7 @@ Trace the following operations on an empty stack: `push(5)``push(3)``pop()``push
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
 
-```mermaid
-flowchart TD
-    A[5_Cas_Loops] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 

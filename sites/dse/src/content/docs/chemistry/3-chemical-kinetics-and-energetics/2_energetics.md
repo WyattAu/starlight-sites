@@ -24,7 +24,9 @@ date: 2026-04-08T00:00:00.000Z
 **Enthalpy change ($\Delta H$):** The heat exchanged with the surroundings during a process at
 Constant pressure.
 
-$$\Delta H = H_{\mathrm{products}} - H_{\mathrm{reactants}}$$
+$$
+\Delta H = H_{\mathrm{products}} - H_{\mathrm{reactants}}
+$$
 
 ### Exothermic and Endothermic Reactions
 
@@ -65,13 +67,17 @@ The standard state is the pure substance at 1 atm and the specified temperature.
 ### Standard Enthalpy of Formation ($\Delta H_f^\circ$)
 
 The enthalpy change when 1 mole of a compound is formed from its elements in their standard states
-Under standard conditions.
+under standard conditions.
 
-$$\mathrm{C}_{(s)} + \mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} \quad \Delta H_f^\circ = -393.5 \mathrm{ kJ/mol}$$
+$$
+\mathrm{C}_{(s)} + \mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} \quad \Delta H_f^\circ = -393.5 \mathrm{ kJ/mol}
+$$
 
 By definition, $\Delta H_f^\circ$ of any element in its standard state = 0.
 
-$$\Delta H_f^\circ(\mathrm{C}_{(s,\mathrm{ graphite})}) = 0 \quad ; \quad \Delta H_f^\circ(\mathrm{H}_{2(g)}) = 0$$
+$$
+\Delta H_f^\circ(\mathrm{C}_{(s,\mathrm{ graphite})}) = 0 \quad ; \quad \Delta H_f^\circ(\mathrm{H}_{2(g)}) = 0
+$$
 
 > **Caution:** Warning Involves formation FROM elements, not the other way around.
 >
@@ -80,32 +86,40 @@ $$\Delta H_f^\circ(\mathrm{C}_{(s,\mathrm{ graphite})}) = 0 \quad ; \quad \Delta
 The enthalpy change when 1 mole of a substance is completely burned in excess oxygen under standard
 Conditions.
 
-$$\mathrm{CH}_{4(g)} + 2\mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} + 2\mathrm{H}_2\mathrm{O}_{(l)} \quad \Delta H_c^\circ = -890.3 \mathrm{ kJ/mol}$$
+$$
+\mathrm{CH}_{4(g)} + 2\mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} + 2\mathrm{H}_2\mathrm{O}_{(l)} \quad \Delta H_c^\circ = -890.3 \mathrm{ kJ/mol}
+$$
 
 Combustion is always exothermic, so $\Delta H_c^\circ \lt 0$.
 
 ### Standard Enthalpy of Neutralisation ($\Delta H_{\mathrm{neut}}^\circ$)
 
 The enthalpy change when 1 mole of water is formed from the reaction between an acid and an alkali
-Under standard conditions.
+under standard conditions.
 
-$$\mathrm{H}^+_{(aq)} + \mathrm{OH}^-_{(aq)} \to \mathrm{H}_2\mathrm{O}_{(l)} \quad \Delta H_{\mathrm{neut}}^\circ = -57.3 \mathrm{ kJ/mol}$$
+$$
+\mathrm{H}^+_{(aq)} + \mathrm{OH}^-_{(aq)} \to \mathrm{H}_2\mathrm{O}_{(l)} \quad \Delta H_{\mathrm{neut}}^\circ = -57.3 \mathrm{ kJ/mol}
+$$
 
 For strong acid-strong base reactions, $\Delta H_{\mathrm{neut}}^\circ$ is approximately constant at
 $-57.3 \mathrm{ kJ/mol}$ because the net ionic equation is always the same.
 
 For weak acid-strong base reactions, $\Delta H_{\mathrm{neut}}^\circ$ is less exothermic (less
-Negative) because energy is absorbed to dissociate the weak acid.
+negative) because energy is absorbed to dissociate the weak acid.
 
 ### Standard Enthalpy of Atomisation ($\Delta H_{\mathrm{at}}^\circ$)
 
 The enthalpy change to form 1 mole of gaseous atoms from the element in its standard state.
 
-$$\frac{1}{2}\mathrm{Cl}_{2(g)} \to \mathrm{Cl}_{(g)} \quad \Delta H_{\mathrm{at}}^\circ = +122 \mathrm{ kJ/mol}$$
+$$
+\frac{1}{2}\mathrm{Cl}_{2(g)} \to \mathrm{Cl}_{(g)} \quad \Delta H_{\mathrm{at}}^\circ = +122 \mathrm{ kJ/mol}
+$$
 
 This is always endothermic (bonds must be broken).
 
 ### Key Reference Values
+
+<div class="table-wrap">
 
 | Substance                                     | $\Delta H_f^\circ$ (kJ/mol) | $\Delta H_c^\circ$ (kJ/mol) |
 | --------------------------------------------- | --------------------------- | --------------------------- |
@@ -118,6 +132,8 @@ This is always endothermic (bonds must be broken).
 | $\mathrm{NH}_{3(g)}$                          | $-46.0$                     | $-383$                      |
 | $\mathrm{NaOH}_{(aq)}$                        | $-470.1$                    | --                          |
 
+</div>
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -129,12 +145,12 @@ This is always endothermic (bonds must be broken).
 }
 </script>
 
-## Hess"s Law
+## Hess's Law
 
 ### Statement
 
 Hess's Law states that the enthalpy change for a reaction is the same regardless of the route taken
-From reactants to products, provided the initial and final conditions are the same.
+from reactants to products, provided the initial and final conditions are the same.
 
 This is a consequence of enthalpy being a **state function**.
 
@@ -142,17 +158,23 @@ This is a consequence of enthalpy being a **state function**.
 
 **Using Enthalpies of Formation:**
 
-$$\Delta H_{\mathrm{reaction}} = \sum \Delta H_f^\circ(\mathrm{products}) - \sum \Delta H_f^\circ(\mathrm{reactants})$$
+$$
+\Delta H_{\mathrm{reaction}} = \sum \Delta H_f^\circ(\mathrm{products}) - \sum \Delta H_f^\circ(\mathrm{reactants})
+$$
 
 **Using Enthalpies of Combustion:**
 
-$$\Delta H_{\mathrm{reaction}} = \sum \Delta H_c^\circ(\mathrm{reactants}) - \sum \Delta H_c^\circ(\mathrm{products})$$
+$$
+\Delta H_{\mathrm{reaction}} = \sum \Delta H_c^\circ(\mathrm{reactants}) - \sum \Delta H_c^\circ(\mathrm{products})
+$$
 
 Note the reversal of signs compared to formation.
 
 **Worked example 1:** Calculate $\Delta H$ for the reaction:
 
-$$\mathrm{C}_{3\mathrm{H}_{8(g)}} + 5\mathrm{O}_{2(g)} \to 3\mathrm{CO}_{2(g)} + 4\mathrm{H}_2\mathrm{O}_{(l)}$$
+$$
+\mathrm{C}_{3\mathrm{H}_{8(g)}} + 5\mathrm{O}_{2(g)} \to 3\mathrm{CO}_{2(g)} + 4\mathrm{H}_2\mathrm{O}_{(l)}
+$$
 
 Given: $\Delta H_c^\circ(\mathrm{C}_{3\mathrm{H}_{8(g)}}) = -2220 \mathrm{ kJ/mol}$
 $\Delta H_c^\circ(\mathrm{CO}_{2(g)}) = 0$ (it is already fully oxidised),
@@ -164,8 +186,12 @@ $\Delta H_c^\circ(\mathrm{H}_2\mathrm{O}_{(l)}) = 0$.
 Since $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$ are already combustion products, their
 $\Delta H_c^\circ = 0$.
 
-$$\Delta H = \Delta H_c^\circ(\mathrm{C}_3\mathrm{H}_8) - [3\Delta H_c^\circ(\mathrm{CO}_2) + 4\Delta H_c^\circ(\mathrm{H}_2\mathrm{O})]$$
-$$= -2220 - [3(0) + 4(0)] = -2220 \mathrm{ kJ/mol}$$
+$$
+\Delta H = \Delta H_c^\circ(\mathrm{C}_3\mathrm{H}_8) - [3\Delta H_c^\circ(\mathrm{CO}_2) + 4\Delta H_c^\circ(\mathrm{H}_2\mathrm{O})]
+$$
+$$
+= -2220 - [3(0) + 4(0)] = -2220 \mathrm{ kJ/mol}
+$$
 
 This makes sense: the enthalpy of combustion of propane equals the enthalpy change of its combustion
 Reaction.
@@ -174,7 +200,9 @@ Reaction.
 
 **Worked example 2:** Calculate $\Delta H_f^\circ$ of ethanol given:
 
-$$\mathrm{C}_2\mathrm{H}_{5}\mathrm{OH}_{(l)} + 3\mathrm{O}_{2(g)} \to 2\mathrm{CO}_{2(g)} + 3\mathrm{H}_2\mathrm{O}_{(l)} \quad \Delta H = -1367 \mathrm{ kJ/mol}$$
+$$
+\mathrm{C}_2\mathrm{H}_{5}\mathrm{OH}_{(l)} + 3\mathrm{O}_{2(g)} \to 2\mathrm{CO}_{2(g)} + 3\mathrm{H}_2\mathrm{O}_{(l)} \quad \Delta H = -1367 \mathrm{ kJ/mol}
+$$
 
 $\Delta H_f^\circ(\mathrm{CO}_{2(g)}) = -393.5 \mathrm{ kJ/mol}$
 $\Delta H_f^\circ(\mathrm{H}_2\mathrm{O}_{(l)}) = -285.8 \mathrm{ kJ/mol}$
@@ -185,13 +213,21 @@ $\Delta H_f^\circ(\mathrm{H}_2\mathrm{O}_{(l)}) = -285.8 \mathrm{ kJ/mol}$
 Using
 $\Delta H = \sum \Delta H_f^\circ(\mathrm{products}) - \sum \Delta H_f^\circ(\mathrm{reactants})$:
 
-$$-1367 = [2(-393.5) + 3(-285.8)] - [\Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH}) + 3(0)]$$
+$$
+-1367 = [2(-393.5) + 3(-285.8)] - [\Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH}) + 3(0)]
+$$
 
-$$-1367 = [-787.0 + (-857.4)] - \Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH})$$
+$$
+-1367 = [-787.0 + (-857.4)] - \Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH})
+$$
 
-$$-1367 = -1644.4 - \Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH})$$
+$$
+-1367 = -1644.4 - \Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH})
+$$
 
-$$\Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH}) = -1644.4 + 1367 = -277.4 \mathrm{ kJ/mol}$$
+$$
+\Delta H_f^\circ(\mathrm{C}_2\mathrm{H}_5\mathrm{OH}) = -1644.4 + 1367 = -277.4 \mathrm{ kJ/mol}
+$$
 
 This agrees with the accepted value of $-277.7 \mathrm{ kJ/mol}$.
 
@@ -199,7 +235,9 @@ This agrees with the accepted value of $-277.7 \mathrm{ kJ/mol}$.
 
 **Worked example 3:** Using enthalpies of combustion, calculate $\Delta H$ for:
 
-$$3\mathrm{C}_{(s)} + 4\mathrm{H}_{2(g)} \to \mathrm{C}_3\mathrm{H}_{8(g)}$$
+$$
+3\mathrm{C}_{(s)} + 4\mathrm{H}_{2(g)} \to \mathrm{C}_3\mathrm{H}_{8(g)}
+$$
 
 Given: $\Delta H_c^\circ(\mathrm{C}_{(s)}) = -393.5 \mathrm{ kJ/mol}$ (same as
 $\Delta H_c^\circ(\mathrm{CO}_2)$ since combustion of C gives $\mathrm{CO}_2$),
@@ -210,15 +248,23 @@ $\Delta H_c^\circ(\mathrm{C}_{3\mathrm{H}_{8(g)}}) = -2220 \mathrm{ kJ/mol}$.
 <details>
 <summary>Answer</summary>
 
-$$\Delta H = \sum \Delta H_c^\circ(\mathrm{reactants}) - \sum \Delta H_c^\circ(\mathrm{products})$$
+$$
+\Delta H = \sum \Delta H_c^\circ(\mathrm{reactants}) - \sum \Delta H_c^\circ(\mathrm{products})
+$$
 
-$$= [3(-393.5) + 4(-285.8)] - [(-2220)]$$
+$$
+= [3(-393.5) + 4(-285.8)] - [(-2220)]
+$$
 
-$$= [-1180.5 + (-1143.2)] - (-2220)$$
+$$
+= [-1180.5 + (-1143.2)] - (-2220)
+$$
 
-$$= -2323.7 + 2220 = -103.7 \mathrm{ kJ/mol}$$
+$$
+= -2323.7 + 2220 = -103.7 \mathrm{ kJ/mol}
+$$
 
-This is $\Delta H_f^\circ(\mathrm{C}_{3\mathrm{H}_{8(g)}})$Matching the reference value of
+This is $\Delta H_f^\circ(\mathrm{C}_{3\mathrm{H}_{8(g)}})$ Matching the reference value of
 $-103.8 \mathrm{ kJ/mol}$.
 
 </details>
@@ -239,16 +285,20 @@ $-103.8 \mathrm{ kJ/mol}$.
 ### Definition
 
 The **mean bond enthalpy** is the average enthalpy change when 1 mole of a specified type of bond is
-Broken in the gaseous state, averaged over a range of compounds.
+broken in the gaseous state, averaged over a range of compounds.
 
 Bond breaking is always endothermic ($\Delta H \gt 0$). Bond forming is always exothermic
 ($\Delta H \lt 0$).
 
 ### Using Bond Enthalpies to Estimate $\Delta H$
 
-$$\Delta H \approx \sum (\mathrm{bonds broken}) - \sum (\mathrm{bonds formed})$$
+$$
+\Delta H \approx \sum (\mathrm{bonds broken}) - \sum (\mathrm{bonds formed})
+$$
 
 ### Common Bond Enthalpies
+
+<div class="table-wrap">
 
 | Bond       | Enthalpy (kJ/mol)          | Bond       | Enthalpy (kJ/mol) |
 | ---------- | -------------------------- | ---------- | ----------------- |
@@ -261,6 +311,8 @@ $$\Delta H \approx \sum (\mathrm{bonds broken}) - \sum (\mathrm{bonds formed})$$
 | C--Cl      | 346                        | F--F       | 158               |
 | O--O       | 146                        | Cl--Cl     | 243               |
 
+</div>
+
 :::caution
 Give good estimates. For reactions involving liquids or aqueous solutions, additional energy changes
 (vaporisation, dissolution) are not accounted for, so the estimate is less accurate.
@@ -268,7 +320,9 @@ Give good estimates. For reactions involving liquids or aqueous solutions, addit
 
 **Worked example 4:** Estimate $\Delta H$ for the combustion of methane using bond enthalpies.
 
-$$\mathrm{CH}_{4(g)} + 2\mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} + 2\mathrm{H}_2\mathrm{O}_{(g)}$$
+$$
+\mathrm{CH}_{4(g)} + 2\mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} + 2\mathrm{H}_2\mathrm{O}_{(g)}
+$$
 
 <details>
 <summary>Answer</summary>
@@ -290,14 +344,16 @@ Total bonds formed = $1610 + 1856 = 3466 \mathrm{ kJ/mol}$
 $\Delta H = 2648 - 3466 = -818 \mathrm{ kJ/mol}$
 
 Note: the accepted value is $-890.3 \mathrm{ kJ/mol}$ (for $\mathrm{H}_2\mathrm{O}_{(l)}$). The
-Discrepancy arises because bond enthalpies are averages and we used $\mathrm{H}_2\mathrm{O}_{(g)}$
-Rather than $\mathrm{H}_2\mathrm{O}_{(l)}$.
+discrepancy arises because bond enthalpies are averages and we used $\mathrm{H}_2\mathrm{O}_{(g)}$
+rather than $\mathrm{H}_2\mathrm{O}_{(l)}$.
 
 </details>
 
 **Worked example 5:** Using bond enthalpies, estimate the enthalpy change for:
 
-$$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \to 2\mathrm{NH}_{3(g)}$$
+$$
+\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \to 2\mathrm{NH}_{3(g)}
+$$
 
 <details>
 <summary>Answer</summary>
@@ -339,18 +395,22 @@ $\Delta H = 2 \times (-46.0) = -92.0 \mathrm{ kJ/mol}$. The estimate is close.
 ### Principle
 
 Calorimetry measures the heat exchanged during a reaction by observing the temperature change of a
-Known mass of water (or solution).
+known mass of water (or solution).
 
-$$q = mc\Delta T$$
+$$
+q = mc\Delta T
+$$
 
 Where:
 
 - $q$ = heat energy (J)
 - $m$ = mass of water/solution (g)
 - $c$ = specific heat capacity (4.18 J g$^{-1}$ K$^{-1}$ for water)
-- $\Delta T$ = temperature change (K or $^\circ$C)
+- $\Delta T$ = temperature change (K or $^\circ$ C)
 
-$$\Delta H = -\frac{q}{n} = -\frac{mc\Delta T}{n}$$
+$$
+\Delta H = -\frac{q}{n} = -\frac{mc\Delta T}{n}
+$$
 
 The negative sign converts the perspective: if the solution temperature rises ($\Delta T \gt 0$),
 The reaction is exothermic ($\Delta H \lt 0$).
@@ -393,11 +453,11 @@ This is close to the standard value of $-57.3 \mathrm{ kJ/mol}$.
 ### Combustion Calorimetry
 
 Used to measure enthalpies of combustion. A known mass of fuel is burned, and the temperature rise
-Of a known mass of water is measured.
+of a known mass of water is measured.
 
 **Worked example 7:** 1.50 g of ethanol is burned in a spirit burner. The heat produced raises the
 Temperature of 200 g of water from $20.0^\circ\mathrm{C}$ to $45.5^\circ\mathrm{C}$. Calculate the
-Enthalpy of combustion of ethanol.
+enthalpy of combustion of ethanol.
 
 <details>
 <summary>Answer</summary>
@@ -409,11 +469,13 @@ Moles of $\mathrm{C}_2\mathrm{H}_5\mathrm{OH} = 1.50 / 46.1 = 0.0325 \mathrm{ mo
 $\Delta H_c = -\dfrac{21.32}{0.0325} = -656 \mathrm{ kJ/mol}$
 
 The accepted value is $-1367 \mathrm{ kJ/mol}$. The experimental value is much less exothermic due
-To heat losses to the surroundings and incomplete combustion.
+to heat losses to the surroundings and incomplete combustion.
 
 </details>
 
 ### Sources of Error in Calorimetry
+
+<div class="table-wrap">
 
 | Error                               | Effect                                         | Minimisation                           |
 | ----------------------------------- | ---------------------------------------------- | -------------------------------------- |
@@ -421,6 +483,8 @@ To heat losses to the surroundings and incomplete combustion.
 | Incomplete combustion               | Less heat released                             | Ensure good air supply                 |
 | Evaporation of fuel during weighing | Apparent mass too low                          | Weigh quickly; use a cap               |
 | Heat absorbed by calorimeter        | $\Delta T$ too small                           | Account for calorimeter heat capacity  |
+
+</div>
 
 ---
 
@@ -438,7 +502,7 @@ To heat losses to the surroundings and incomplete combustion.
 ### Overview
 
 Born-Haber cycles calculate lattice energies of ionic compounds using Hess's Law. The lattice energy
-Is the enthalpy change when 1 mole of an ionic solid is formed from its gaseous ions.
+is the enthalpy change when 1 mole of an ionic solid is formed from its gaseous ions.
 
 ### Steps in a Born-Haber Cycle (for NaCl)
 
@@ -457,13 +521,21 @@ Is the enthalpy change when 1 mole of an ionic solid is formed from its gaseous 
 
 By Hess's Law:
 
-$$\Delta H_f^\circ = \Delta H_{\mathrm{at}}(\mathrm{Na}) + \mathrm{IE}_1(\mathrm{Na}) + \Delta H_{\mathrm{at}}(\mathrm{Cl}) + \mathrm{EA}(\mathrm{Cl}) + \Delta H_{\mathrm{latt}}$$
+$$
+\Delta H_f^\circ = \Delta H_{\mathrm{at}}(\mathrm{Na}) + \mathrm{IE}_1(\mathrm{Na}) + \Delta H_{\mathrm{at}}(\mathrm{Cl}) + \mathrm{EA}(\mathrm{Cl}) + \Delta H_{\mathrm{latt}}
+$$
 
-$$-411 = 108 + 496 + 122 + (-349) + \Delta H_{\mathrm{latt}}$$
+$$
+-411 = 108 + 496 + 122 + (-349) + \Delta H_{\mathrm{latt}}
+$$
 
-$$-411 = 377 + \Delta H_{\mathrm{latt}}$$
+$$
+-411 = 377 + \Delta H_{\mathrm{latt}}
+$$
 
-$$\Delta H_{\mathrm{latt}} = -411 - 377 = -788 \mathrm{ kJ/mol}$$
+$$
+\Delta H_{\mathrm{latt}} = -411 - 377 = -788 \mathrm{ kJ/mol}
+$$
 
 :::note
 Charged ions come together.
@@ -483,13 +555,21 @@ Charged ions come together.
 <details>
 <summary>Answer</summary>
 
-$$\Delta H_f^\circ = \Delta H_{\mathrm{at}}(\mathrm{Mg}) + \mathrm{IE}_1 + \mathrm{IE}_2 + \Delta H_{\mathrm{at}}(\mathrm{O}) + \mathrm{EA}_1 + \mathrm{EA}_2 + \Delta H_{\mathrm{latt}}$$
+$$
+\Delta H_f^\circ = \Delta H_{\mathrm{at}}(\mathrm{Mg}) + \mathrm{IE}_1 + \mathrm{IE}_2 + \Delta H_{\mathrm{at}}(\mathrm{O}) + \mathrm{EA}_1 + \mathrm{EA}_2 + \Delta H_{\mathrm{latt}}
+$$
 
-$$-602 = 148 + 738 + 1451 + 248 + (-141) + 798 + \Delta H_{\mathrm{latt}}$$
+$$
+-602 = 148 + 738 + 1451 + 248 + (-141) + 798 + \Delta H_{\mathrm{latt}}
+$$
 
-$$-602 = 3242 + \Delta H_{\mathrm{latt}}$$
+$$
+-602 = 3242 + \Delta H_{\mathrm{latt}}
+$$
 
-$$\Delta H_{\mathrm{latt}} = -602 - 3242 = -3844 \mathrm{ kJ/mol}$$
+$$
+\Delta H_{\mathrm{latt}} = -602 - 3242 = -3844 \mathrm{ kJ/mol}
+$$
 
 The large magnitude reflects the high charges on $\mathrm{Mg}^{2+}$ and $\mathrm{O}^{2-}$.
 
@@ -512,7 +592,9 @@ The large magnitude reflects the high charges on $\mathrm{Mg}^{2+}$ and $\mathrm
 
 Entropy is a measure of the disorder or randomness of a system.
 
-$$\Delta S = S_{\mathrm{products}} - S_{\mathrm{reactants}}$$
+$$
+\Delta S = S_{\mathrm{products}} - S_{\mathrm{reactants}}
+$$
 
 ### Factors Affecting Entropy
 
@@ -527,13 +609,19 @@ $$\Delta S = S_{\mathrm{products}} - S_{\mathrm{reactants}}$$
 - Reactions consuming gas molecules: $\Delta S \lt 0$.
 - Solid to liquid or liquid to gas transitions: $\Delta S \gt 0$.
 
-$$\mathrm{CaCO}_{3(s)} \to \mathrm{CaO}_{(s)} + \mathrm{CO}_{2(g)} \quad \Delta S \gt 0 \mathrm{ (solid to solid + gas)}$$
+$$
+\mathrm{CaCO}_{3(s)} \to \mathrm{CaO}_{(s)} + \mathrm{CO}_{2(g)} \quad \Delta S \gt 0 \mathrm{ (solid to solid + gas)}
+$$
 
-$$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \to 2\mathrm{NH}_{3(g)} \quad \Delta S \lt 0 \mathrm{ (4 mol gas to 2 mol gas)}$$
+$$
+\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \to 2\mathrm{NH}_{3(g)} \quad \Delta S \lt 0 \mathrm{ (4 mol gas to 2 mol gas)}
+$$
 
 ### Standard Entropy Values ($S^\circ$)
 
 Typical values (J mol$^{-1}$ K$^{-1}$):
+
+<div class="table-wrap">
 
 | Substance                      | $S^\circ$ (J mol$^{-1}$ K$^{-1}$) |
 | ------------------------------ | --------------------------------- |
@@ -544,6 +632,8 @@ Typical values (J mol$^{-1}$ K$^{-1}$):
 | $\mathrm{CO}_{2(g)}$           | 213.6                             |
 | $\mathrm{N}_{2(g)}$            | 191.5                             |
 | $\mathrm{NH}_{3(g)}$           | 192.3                             |
+
+</div>
 
 ---
 
@@ -560,7 +650,9 @@ Typical values (J mol$^{-1}$ K$^{-1}$):
 
 ### Definition
 
-$$\Delta G = \Delta H - T\Delta S$$
+$$
+\Delta G = \Delta H - T\Delta S
+$$
 
 Where:
 
@@ -574,15 +666,21 @@ K$^{-1}$Convert $\Delta S$ to kJ mol$^{-1}$ K$^{-1}$ by dividing by 1000.
 
 ### Feasibility of Reactions
 
+<div class="table-wrap">
+
 | $\Delta G$       | Reaction                                                  |
 | ---------------- | --------------------------------------------------------- |
 | $\Delta G \lt 0$ | Feasible (spontaneous) under the given conditions         |
 | $\Delta G = 0$   | At equilibrium                                            |
 | $\Delta G \gt 0$ | Not feasible (non-spontaneous) under the given conditions |
 
+</div>
+
 ### Effect of Temperature on Feasibility
 
 The table below shows when $\Delta G \lt 0$ depending on the signs of $\Delta H$ and $\Delta S$:
+
+<div class="table-wrap">
 
 | $\Delta H$ | $\Delta S$ | $\Delta G = \Delta H - T\Delta S$     | Feasibility             |
 | ---------- | ---------- | ------------------------------------- | ----------------------- |
@@ -591,15 +689,21 @@ The table below shows when $\Delta G \lt 0$ depending on the signs of $\Delta H$
 | $-$        | $-$        | Negative at low T, positive at high T | Feasible at low T only  |
 | $+$        | $+$        | Positive at low T, negative at high T | Feasible at high T only |
 
+</div>
+
 ### Temperature of Equilibrium
 
 When $\Delta G = 0$:
 
-$$T = \frac{\Delta H}{\Delta S}$$
+$$
+T = \frac{\Delta H}{\Delta S}
+$$
 
 **Worked example 9:** For the decomposition of calcium carbonate:
 
-$$\mathrm{CaCO}_{3(s)} \to \mathrm{CaO}_{(s)} + \mathrm{CO}_{2(g)}$$
+$$
+\mathrm{CaCO}_{3(s)} \to \mathrm{CaO}_{(s)} + \mathrm{CO}_{2(g)}
+$$
 
 $\Delta H = +178 \mathrm{ kJ/mol}$, $\Delta S = +0.161 \mathrm{ kJ mol}^{-1} \mathrm{ K}^{-1}$
 
@@ -611,7 +715,7 @@ Calculate the minimum temperature at which the reaction becomes feasible.
 At $\Delta G = 0$:
 $T = \dfrac{\Delta H}{\Delta S} = \dfrac{178}{0.161} = 1106 \mathrm{ K} = 833^\circ\mathrm{C}$
 
-Above $833^\circ\mathrm{C}$The reaction becomes thermodynamically feasible.
+Above $833^\circ\mathrm{C}$ The reaction becomes thermodynamically feasible.
 
 </details>
 
@@ -629,7 +733,7 @@ At 298 K:
 
 $\Delta G = -92.0 - 298 \times (-0.199) = -92.0 + 59.3 = -32.7 \mathrm{ kJ/mol}$
 
-Since $\Delta G \lt 0$The reaction is feasible at 298 K.
+Since $\Delta G \lt 0$ The reaction is feasible at 298 K.
 
 At $\Delta G = 0$: $T = \dfrac{-92.0}{-0.199} = 462 \mathrm{ K} = 189^\circ\mathrm{C}$
 
@@ -660,7 +764,7 @@ A catalyst and continuous removal of $\mathrm{NH}_3$ to shift equilibrium.
 
 ## Common Pitfalls
 
-1. **Sign errors in Hess's Law:** When using $\Delta H_c^\circ$Remember:
+1. **Sign errors in Hess's Law:** When using $\Delta H_c^\circ$ Remember:
    $\Delta H = \sum \Delta H_c^\circ(\mathrm{reactants}) - \sum \Delta H_c^\circ(\mathrm{products})$.
    The signs are reversed compared to using $\Delta H_f^\circ$.
 
@@ -711,13 +815,21 @@ $\Delta H_c^\circ(\mathrm{CH}_3\mathrm{OH}_{(l)}) = -726.0 \mathrm{ kJ/mol}$
 Formation:
 $\mathrm{C}_{(s)} + 2\mathrm{H}_{2(g)} + \frac{1}{2}\mathrm{O}_{2(g)} \to \mathrm{CH}_3\mathrm{OH}_{(l)}$
 
-$$\Delta H_f^\circ = \sum \Delta H_c^\circ(\mathrm{reactants}) - \sum \Delta H_c^\circ(\mathrm{products})$$
+$$
+\Delta H_f^\circ = \sum \Delta H_c^\circ(\mathrm{reactants}) - \sum \Delta H_c^\circ(\mathrm{products})
+$$
 
-$$= [(-393.5) + 2(-285.8) + 0] - (-726.0)$$
+$$
+= [(-393.5) + 2(-285.8) + 0] - (-726.0)
+$$
 
-$$= [-393.5 - 571.6] + 726.0$$
+$$
+= [-393.5 - 571.6] + 726.0
+$$
 
-$$= -965.1 + 726.0 = -239.1 \mathrm{ kJ/mol}$$
+$$
+= -965.1 + 726.0 = -239.1 \mathrm{ kJ/mol}
+$$
 
 </details>
 
@@ -725,7 +837,9 @@ $$= -965.1 + 726.0 = -239.1 \mathrm{ kJ/mol}$$
 
 Using bond enthalpies, estimate $\Delta H$ for the hydrogenation of ethene:
 
-$$\mathrm{C}_2\mathrm{H}_{4(g)} + \mathrm{H}_{2(g)} \to \mathrm{C}_2\mathrm{H}_{6(g)}$$
+$$
+\mathrm{C}_2\mathrm{H}_{4(g)} + \mathrm{H}_{2(g)} \to \mathrm{C}_2\mathrm{H}_{6(g)}
+$$
 
 <details>
 <summary>Answer</summary>
@@ -814,17 +928,29 @@ Calculate the lattice energy of $\mathrm{Na}_2\mathrm{O}$ given:
 
 Born-Haber cycle (for 1 mol $\mathrm{Na}_2\mathrm{O}$ So 2 mol Na):
 
-$$\Delta H_f^\circ = 2[\Delta H_{\mathrm{at}}(\mathrm{Na}) + \mathrm{IE}_1 + \mathrm{IE}_2] + [\Delta H_{\mathrm{at}}(\mathrm{O}) + \mathrm{EA}_1 + \mathrm{EA}_2] + \Delta H_{\mathrm{latt}}$$
+$$
+\Delta H_f^\circ = 2[\Delta H_{\mathrm{at}}(\mathrm{Na}) + \mathrm{IE}_1 + \mathrm{IE}_2] + [\Delta H_{\mathrm{at}}(\mathrm{O}) + \mathrm{EA}_1 + \mathrm{EA}_2] + \Delta H_{\mathrm{latt}}
+$$
 
-$$-414 = 2[108 + 496 + 4562] + [248 + (-141) + 798] + \Delta H_{\mathrm{latt}}$$
+$$
+-414 = 2[108 + 496 + 4562] + [248 + (-141) + 798] + \Delta H_{\mathrm{latt}}
+$$
 
-$$-414 = 2(5166) + 905 + \Delta H_{\mathrm{latt}}$$
+$$
+-414 = 2(5166) + 905 + \Delta H_{\mathrm{latt}}
+$$
 
-$$-414 = 10332 + 905 + \Delta H_{\mathrm{latt}}$$
+$$
+-414 = 10332 + 905 + \Delta H_{\mathrm{latt}}
+$$
 
-$$-414 = 11237 + \Delta H_{\mathrm{latt}}$$
+$$
+-414 = 11237 + \Delta H_{\mathrm{latt}}
+$$
 
-$$\Delta H_{\mathrm{latt}} = -414 - 11237 = -11651 \mathrm{ kJ/mol}$$
+$$
+\Delta H_{\mathrm{latt}} = -414 - 11237 = -11651 \mathrm{ kJ/mol}
+$$
 
 </details>
 
@@ -843,7 +969,7 @@ The discrepancy is due to:
    rather than being absorbed by the water.
 
 2. **Incomplete combustion:** Ethanol may burn incompletely, producing CO and soot instead of only
-   $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$Releasing less heat per mole.
+   $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$ Releasing less heat per mole.
 
 3. **Evaporation of ethanol:** Some ethanol evaporates before/during combustion, meaning not all the
    measured mass actually burns.
@@ -878,7 +1004,9 @@ Values and Hess's Law.
 
 **Worked example 7:** Calculate the enthalpy change for:
 
-$$\mathrm{C}_{(s)} + 2\mathrm{H}_{2(g)} + \frac{1}{2}\mathrm{O}_{2(g)} \to \mathrm{CH}_3\mathrm{OH}_{(l)}$$
+$$
+\mathrm{C}_{(s)} + 2\mathrm{H}_{2(g)} + \frac{1}{2}\mathrm{O}_{2(g)} \to \mathrm{CH}_3\mathrm{OH}_{(l)}
+$$
 
 Using the following data:
 
@@ -911,13 +1039,17 @@ $\Delta H = -965.1 + 726.0 = -239.1 \mathrm{ kJ/mol}$
 ### Dissolution Enthalpies
 
 The enthalpy of solution is the enthalpy change when 1 mole of solute dissolves in a large excess of
-Solvent to form an infinitely dilute solution.
+solvent to form an infinitely dilute solution.
 
-$$\mathrm{NaCl}_{(s)} \to \mathrm{Na}^+_{(aq)} + \mathrm{Cl}^-_{(aq)} \quad \Delta H_{\mathrm{sol}}^\circ = +3.9 \mathrm{ kJ/mol}$$
+$$
+\mathrm{NaCl}_{(s)} \to \mathrm{Na}^+_{(aq)} + \mathrm{Cl}^-_{(aq)} \quad \Delta H_{\mathrm{sol}}^\circ = +3.9 \mathrm{ kJ/mol}
+$$
 
 The enthalpy of solution can be related to the lattice energy and the hydration enthalpy:
 
-$$\Delta H_{\mathrm{sol}} = \Delta H_{\mathrm{latt}} + \Delta H_{\mathrm{hyd}}$$
+$$
+\Delta H_{\mathrm{sol}} = \Delta H_{\mathrm{latt}} + \Delta H_{\mathrm{hyd}}
+$$
 
 Where $\Delta H_{\mathrm{latt}}$ is the lattice energy (endothermic, breaking the lattice) and
 $\Delta H_{\mathrm{hyd}}$ is the hydration enthalpy (exothermic, ions interacting with water).
@@ -925,7 +1057,9 @@ $\Delta H_{\mathrm{hyd}}$ is the hydration enthalpy (exothermic, ions interactin
 For NaCl: $\Delta H_{\mathrm{latt}} = +788 \mathrm{ kJ/mol}$
 $\Delta H_{\mathrm{hyd}} = -784 \mathrm{ kJ/mol}$.
 
-$$\Delta H_{\mathrm{sol}} = +788 + (-784) = +4 \mathrm{ kJ/mol}$$
+$$
+\Delta H_{\mathrm{sol}} = +788 + (-784) = +4 \mathrm{ kJ/mol}
+$$
 
 This is slightly endothermic, consistent with the accepted value of $+3.9 \mathrm{ kJ/mol}$.
 
@@ -947,7 +1081,9 @@ This is slightly endothermic, consistent with the accepted value of $+3.9 \mathr
 The heat capacity ($C$) of a substance is the amount of heat required to raise its temperature by 1
 K.
 
-$$C = \frac{q}{\Delta T}$$
+$$
+C = \frac{q}{\Delta T}
+$$
 
 For water: $C = 4.18 \mathrm{ J g}^{-1} \mathrm{ K}^{-1}$ (specific heat capacity, per gram).
 
@@ -955,16 +1091,18 @@ For water: $C = 4.18 \mathrm{ J g}^{-1} \mathrm{ K}^{-1}$ (specific heat capacit
 
 In more accurate calorimetry, the heat absorbed by the calorimeter itself must be accounted for:
 
-$$q_{\mathrm{total}} = (m_{\mathrm{water}} \times c_{\mathrm{water}} + C_{\mathrm{calorimeter}}) \times \Delta T$$
+$$
+q_{\mathrm{total}} = (m_{\mathrm{water}} \times c_{\mathrm{water}} + C_{\mathrm{calorimeter}}) \times \Delta T
+$$
 
 **Worked example 8:** A calorimeter has a heat capacity of 50.0 J/K. When 100 cm$^3$ of 1.00
 Mol/dm$^3$ HCl is mixed with 100 cm$^3$ of 1.00 mol/dm$^3$ NaOH, the temperature rises from
-$20.0^\circ$C to $26.7^\circ$C. Calculate $\Delta H_{\mathrm{neut}}$.
+$20.0^\circ$ C to $26.7^\circ$ C. Calculate $\Delta H_{\mathrm{neut}}$.
 
 <details>
 <summary>Answer</summary>
 
-$\Delta T = 26.7 - 20.0 = 6.7^\circ$C
+$\Delta T = 26.7 - 20.0 = 6.7^\circ$ C
 
 $q_{\mathrm{water}} = 200 \times 4.18 \times 6.7 = 5601 \mathrm{ J}$
 
@@ -989,17 +1127,9 @@ $\Delta H = -5.936 / 0.100 = -59.4 \mathrm{ kJ/mol}$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[2_Energetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary of Key Equations
+
+<div class="table-wrap">
 
 | Equation                                                                                          | Use                                |
 | ------------------------------------------------------------------------------------------------- | ---------------------------------- |
@@ -1012,6 +1142,8 @@ flowchart TD
 | $T = \Delta H / \Delta S$ (when $\Delta G = 0$)                                                   | Feasibility temperature            |
 | $\Delta H_{\mathrm{sol}} = \Delta H_{\mathrm{latt}} + \Delta H_{\mathrm{hyd}}$                    | Solution enthalpy                  |
 
+</div>
+
 ## Worked Examples
 
 Use the following data to calculate the enthalpy change for the reaction
@@ -1023,7 +1155,9 @@ $\text{C}(s) + \frac{1}{2}\text{O}_2(g) \rightarrow \text{CO}(g)$:
 
 **Solution:**
 
-$$\Delta H = (-394) - (-283) = -111\,\text{kJ\,mol}^{-1}$$
+$$
+\Delta H = (-394) - (-283) = -111\,\text{kJ\,mol}^{-1}
+$$
 
 > > > > > > > Stashed changes:docs/docs_dse/Chemistry/energetics.md
 :::

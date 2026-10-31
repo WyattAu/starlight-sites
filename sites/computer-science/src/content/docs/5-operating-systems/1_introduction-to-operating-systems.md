@@ -51,9 +51,11 @@ a pure monolith. Examples: Windows NT, macOS XNU.
 ### 1.3 System Calls
 
 System calls provide the interface between user-mode applications and kernel-mode OS services. They
-Are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
+are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
 
 **Categories:**
+
+<div class="table-wrap">
 
 | Category        | Examples                     |
 | --------------- | ---------------------------- |
@@ -64,6 +66,8 @@ Are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
 | Information     | `getpid``stat``sysconf`      |
 | Protection      | `chmod``chown``setuid`       |
 
+</div>
+
 **System call overhead.** A transition from user mode to kernel mode involves saving user Registers,
 switching to the kernel stack, validating arguments, executing kernel code, and Returning. Typical
 overhead: $100\mathrm{--1000}$ ns on modern hardware.
@@ -72,6 +76,8 @@ overhead: $100\mathrm{--1000}$ ns on modern hardware.
 
 A process transitions through several states during its lifetime:
 
+<div class="table-wrap">
+
 | State       | Description |
 |-------------|-------------|
 | **New**     | The process is being created. |
@@ -79,6 +85,8 @@ A process transitions through several states during its lifetime:
 | **Running** | Instructions are being executed by the CPU. |
 | **Waiting** | The process is waiting for some event (e.g., I/O completion). |
 | **Terminated** | The process has finished execution. |
+
+</div>
 
 **Scheduling algorithms** determine which ready process receives CPU time:
 
@@ -163,44 +171,3 @@ An operating system is the government of a computer: it manages resources (CPU t
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -39,7 +39,7 @@ both $g$ and $h$ of degree less than $\deg(f)$.
 **Proposition 10.4.** Every polynomial in $F[x]$ factors uniquely into irreducible polynomials (up
 to Reordering and multiplication by units).
 
-**Theorem 10.5 (Eisenstein"s Criterion).** Let
+**Theorem 10.5 (Eisenstein's Criterion).** Let
 $f(x) = a_n x^n + \cdots + a_1 x + a_0 \in \mathbb{Z}[x]$. If there exists a prime $p$ such that:
 
 1. $p$ divides $a_0, a_1, \ldots, a_{n-1}$.
@@ -52,7 +52,7 @@ _Proof._ Suppose $f = gh$ with $g, h \in \mathbb{Z}[x]$ (by Gauss's lemma), $\de
 $\deg(h) = s \geq 1$, $r + s = n$. Modulo $p$: $\bar{f} = \bar{g}\bar{h} = \bar{a}_n x^n$ in
 $(\mathbb{Z}/p\mathbb{Z})[x]$. Since $\mathbb{Z}/p\mathbb{Z}[x]$ is an integral domain,
 $\bar{g} = bx^r$ And $\bar{h} = cx^s$ for some $b, c \in \mathbb{Z}/p\mathbb{Z}$. In particular, the
-constant terms of $g$ and $h$ are both divisible by $p$. But then $p^2$ divides $a_0$Contradicting
+constant terms of $g$ and $h$ are both divisible by $p$. But then $p^2$ divides $a_0$ Contradicting
 condition (3). $\blacksquare$
 
 ### 10.3 Worked Examples
@@ -63,7 +63,7 @@ condition (3). $\blacksquare$
 <summary>Solution</summary>
 
 _Solution._ In $\mathbb{R}[x]$: if $x^2 + 1 = (x + a)(x + b)$ with $a, b \in \mathbb{R}$ Then
-$a + b = 0$ and $ab = 1$Giving $-a^2 = 1$Which has no real solution. So $x^2 + 1$ is irreducible In
+$a + b = 0$ and $ab = 1$ Giving $-a^2 = 1$ Which has no real solution. So $x^2 + 1$ is irreducible In
 $\mathbb{R}[x]$.
 
 In $\mathbb{C}[x]$: $x^2 + 1 = (x + i)(x - i)$. $\blacksquare$
@@ -78,9 +78,13 @@ $\mathbb{Q}[x]$.
 
 _Solution._ Apply the division algorithm:
 
-$$x^4 + x^3 + x^2 + x + 1 = x(x^3 + 1) + (x^2 + x + 1)$$
+$$
+x^4 + x^3 + x^2 + x + 1 = x(x^3 + 1) + (x^2 + x + 1)
+$$
 
-$$x^3 + 1 = (x - 1)(x^2 + x + 1) + 2$$
+$$
+x^3 + 1 = (x - 1)(x^2 + x + 1) + 2
+$$
 
 Since $2$ is a non-zero constant (a unit in $\mathbb{Q}[x]$), the polynomials are coprime:
 $\gcd(x^4 + x^3 + x^2 + x + 1, x^3 + 1) = 1$. $\blacksquare$
@@ -95,7 +99,7 @@ $\gcd(x^4 + x^3 + x^2 + x + 1, x^3 + 1) = 1$. $\blacksquare$
 _Solution._ By the rational root theorem, possible rational roots are $\pm 1, \pm 3$. $f(1) = -1$,
 $f(-1) = 7$, $f(3) = 216$, $f(-3) = -269$. No rational roots.
 
-Since $\deg(f) = 5$If $f$ is reducible, it must have an irreducible factor of degree $1$ or $2$. No
+Since $\deg(f) = 5$ If $f$ is reducible, it must have an irreducible factor of degree $1$ or $2$. No
 degree-$1$ factor means no rational root. We check for degree-$2$ factors by reducing modulo $2$:
 $\bar{f} = x^5 + x + 1$ in $\mathbb{F}_2[x]$. $\bar{f}(0) = 1$, $\bar{f}(1) = 1$ So no roots in
 $\mathbb{F}_2$. The only irreducible quadratic in $\mathbb{F}_2[x]$ is $x^2 + x + 1$. Division gives
@@ -112,17 +116,6 @@ Thus $f$ has no factor of degree $1$ or $2$ So $f$ is irreducible in $\mathbb{Q}
 - If $R$ is a UFD, then $R[x]$ is a UFD (Gauss's lemma extends unique factorisation).
 - If $R$ is a PID, then $R[x]$ is a UFD but generally not a PID.
 - The degree map $\deg : F[x] \setminus \{0\} \to \mathbb{N}$ is a Euclidean valuation.
-
-
-```mermaid
-flowchart TD
-    A[10_Polynomial Rings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -163,47 +156,6 @@ By Eisenstein with $p = 2$: $2 \mid 0, 4, 2$ but $2 \nmid 1$ (leading coefficien
 - [Worked Examples](/1-abstract-algebra/15_worked-examples/) -- Several worked examples apply irreducibility criteria and division algorithms developed in this chapter.
 - [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/) -- The common pitfalls section addresses frequent errors in applying Eisenstein's criterion and checking irreducibility.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

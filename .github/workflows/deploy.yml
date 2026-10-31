@@ -38,6 +38,13 @@ jobs:
           # last-good-deploy tag.
           fetch-depth: 0
 
+      - name: Fetch the last-good-deploy tag
+        # actions/checkout places tags at refs/tags/*, never at
+        # refs/remotes/origin/*. The tag is also force-moved by mark-good on
+        # every successful deploy, so a checkout that raced a tag move can hold
+        # a stale value. Fetch it explicitly before resolving the diff base.
+        run: git fetch --force --no-tags origin "refs/tags/${LAST_GOOD_TAG}:refs/tags/${LAST_GOOD_TAG}"
+
       - name: Derive canary and rollout matrices from sites/ directory
         id: sites
         run: |
@@ -50,13 +57,22 @@ jobs:
         run: |
           # Compare against the last successfully deployed commit so a
           # sequence of pushes each only rebuilds what is still stale.
-          BASE="refs/remotes/origin/last-good-deploy"
+          #
+          # The ref MUST be refs/tags/<name>. actions/checkout puts tags in
+          # refs/tags/*, not refs/remotes/origin/*, so a refs/remotes/origin/*
+          # ref silently fails to resolve and drops through to event.before --
+          # which makes the filter diff only the single latest push. Any commit
+          # superseded by a later push is then never rolled out, while the run
+          # still reports success. tests/unit/deploy-base-ref.test.js pins this.
+          BASE="refs/tags/${LAST_GOOD_TAG}"
           if git rev-parse --verify --quiet "$BASE" > /dev/null 2>&1; then
             BASE=$(git rev-parse "$BASE")
           elif [ -n "${{ github.event.before }}" ]; then
             BASE="${{ github.event.before }}"
+            echo "::warning::last-good-deploy tag unavailable; falling back to event.before ($BASE). Sites changed by superseded commits may not be rolled out."
           else
             BASE=""
+            echo "::warning::No last-good-deploy tag and no event.before; deploying every site."
           fi
 
           if [ -z "$BASE" ] || ! git cat-file -e "$BASE" 2>/dev/null; then
@@ -66,6 +82,7 @@ jobs:
             exit 0
           fi
 
+          echo "Diff base: $BASE ($(git log -1 --format=%s "$BASE" 2>/dev/null || echo unknown))"
           git diff --name-only "$BASE" "${{ github.sha }}" -- sites/ shared/ scripts/ search-api/ fixtures/ package.json bun.lock .github/workflows/deploy.yml > /tmp/changed-paths.txt || true
           echo "Changed paths: $(wc -l < /tmp/changed-paths.txt)"
           node scripts/list-sites.js --changed-from-file /tmp/changed-paths.txt > /tmp/changed-sites.json
@@ -131,14 +148,23 @@ jobs:
       - name: MDX parse gate
         run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
 
+      - name: Display-math delimiter gate
+        run: node --max-old-space-size=1024 scripts/fix-display-math.mjs --check
+
+      - name: Prose damage lint
+        run: python3 scripts/fix-prose-damage.py --check
+
+      - name: Duplicate section collapse gate
+        run: node --max-old-space-size=1024 scripts/fix-duplicate-blocks.mjs --check
+
+      - name: LaTeX parseability gate
+        run: node --max-old-space-size=2048 scripts/fix-latex-braces.mjs --check
+
+      - name: Table shape gate
+        run: node --max-old-space-size=2048 scripts/lint-tables.mjs --check
+
       - name: PracticeProblem corruption lint
         run: node scripts/lint-practice-components.js
-
-      - name: Aside directive lint
-        run: node scripts/lint-asides.js
-
-      - name: MDX parse gate
-        run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
 
       - name: llms.txt freshness
         run: node scripts/generate-llms-txt.js --check
@@ -293,13 +319,22 @@ jobs:
 
       - name: Deploy to Cloudflare Pages
         working-directory: sites/${{ matrix.site }}
-        run: bunx wrangler pages deploy dist --project-name ${{ matrix.project }}
+        run: |
+          dist_dir="$PWD/dist"
+          if [ ! -f "$dist_dir/index.html" ]; then
+            echo "::error::No index.html in $dist_dir — refusing to upload a build that is empty or landed somewhere else"
+            exit 1
+          fi
+          bunx wrangler pages deploy "$dist_dir" --project-name ${{ matrix.project }} --branch main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - name: Add custom domain (idempotent)
         continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           domain=$(echo "${{ matrix.url }}" | sed 's|https://||')
           echo "Adding custom domain $domain to project ${{ matrix.project }}..."
@@ -307,12 +342,75 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: application/json" \
             --data "{\"name\": \"$domain\"}")
-          success=$(echo "$resp" | grep -o '"success":true')
+          echo "Attach POST response: ${resp:0:600}"
+          success=$(echo "$resp" | grep -o '"success":true' || true)
           if [ -n "$success" ]; then
             echo "Domain $domain added to project ${{ matrix.project }}."
           else
             err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
             echo "Note: Domain add skipped or already configured ($err)"
+          fi
+          echo "--- domains state (GET) ---"
+          curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/${{ matrix.project }}/domains" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | head -c 1200 || true
+          echo
+
+      - name: Ensure DNS record for custom domain (idempotent)
+        continue-on-error: true
+        run: |
+          # Attaching a domain to a Pages project does not create the DNS
+          # record. A brand-new subdomain with no record makes the freshness
+          # probe fail on connection refused (seen for economics/finance on
+          # first deploy). Create a proxied CNAME to the project's pages.dev
+          # host; if it exists or the token lacks DNS write, log and continue.
+          domain=$(echo "${{ matrix.url }}" | sed 's|https://||')
+          zone_resp=$(curl -s "https://api.cloudflare.com/client/v4/zones?name=wyattau.com" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          zone_id=$(echo "$zone_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
+          if [ -z "$zone_id" ]; then
+            echo "Note: could not resolve zone id for wyattau.com; skipping DNS creation."
+            exit 0
+          fi
+          list_resp=$(curl -s "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records?name=$domain" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"" || true)
+          if [ "${has_record:-0}" -gt 0 ]; then
+            # The record must be a proxied CNAME whose target is THIS project's
+            # pages.dev host - that is what Pages custom-domain validation
+            # requires. Anything else (a legacy A record to zone IPs, or a
+            # CNAME to a stale target) leaves validation stuck at pending and
+            # the domain serving 404s: accounting.wyattau.com shipped exactly
+            # this way. Rewrite whichever mismatch exists.
+            target="${{ matrix.project }}.pages.dev"
+            wrong_target=$(echo "$list_resp" | python3 -c "import json,sys; d=json.load(sys.stdin); print(sum(1 for r in d.get('result', []) if r.get('content') != '$target'))")
+            if [ "${wrong_target:-0}" -eq 0 ]; then
+              echo "DNS record for $domain already correct (CNAME -> $target)."
+              exit 0
+            fi
+            rec_id=$(echo "$list_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
+            resp=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records/$rec_id" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"$target\",\"proxied\":true}")
+            success=$(echo "$resp" | grep -o '"success":true' || true)
+            if [ -n "$success" ]; then
+              echo "Rewrote $domain CNAME -> $target (was pointing elsewhere; validation was stuck pending)."
+            else
+              err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
+              echo "Note: DNS rewrite failed ($err). Fix manually: CNAME $domain -> $target, proxied."
+            fi
+            exit 0
+          fi
+          resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"${{ matrix.project }}.pages.dev\",\"proxied\":true}")
+          success=$(echo "$resp" | grep -o '"success":true' || true)
+          if [ -n "$success" ]; then
+            echo "Created proxied CNAME $domain -> ${{ matrix.project }}.pages.dev."
+          else
+            err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
+            echo "Note: DNS creation skipped ($err). If the subdomain does not resolve, create a proxied CNAME in the dashboard."
           fi
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -343,24 +441,55 @@ jobs:
         # A 200 on the site URL can be served by a stale production build.
         # A content-hashed asset from THIS build's dist can only exist on
         # the new deployment -- 404 means the deploy did not promote.
+        #
+        # 429 is handled separately. It is Cloudflare throttling the check
+        # itself: re-running a deploy that just wrote to the same zone hits the
+        # rate limit, and polling every 15 s makes it worse. Back off harder on
+        # 429; fail at once on 404, which is the definitive stale-deployment
+        # signal.
         run: |
           asset=$(grep -oE '/_astro/[A-Za-z0-9._-]+\.(css|js)' sites/${{ matrix.site }}/dist/index.html | head -1)
           if [ -z "$asset" ]; then
             echo "::warning::No hashed asset found in dist/index.html -- skipping freshness check"
             exit 0
           fi
-          deadline=$(( $(date +%s) + 240 ))
+          deadline=$(( $(date +%s) + 300 ))
           code="000"
+          saw404=false
           while [ "$(date +%s)" -lt "$deadline" ]; do
             code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "${{ matrix.url }}$asset" 2>/dev/null || echo "000")
             [ "$code" = "200" ] && break
+            if [ "$code" = "404" ]; then
+              saw404=true
+              break
+            fi
+            if [ "$code" = "429" ]; then
+              echo "  rate limited (429) -- backing off 45 s"
+              sleep 45
+              continue
+            fi
             sleep 15
           done
-          if [ "$code" != "200" ]; then
-            echo "::error::Freshness check failed: $asset -> $code (stale deployment?)"
+          if [ "$code" = "200" ]; then
+            echo "Freshness verified: $asset -> 200"
+            exit 0
+          fi
+          if [ "$saw404" = "true" ]; then
+            echo "::error::Freshness check failed: $asset -> 404 (stale deployment)"
             exit 1
           fi
-          echo "Freshness verified: $asset -> 200"
+          # Anything else -- 429, 5xx, connection refused -- says nothing about
+          # whether the deploy landed. The upload step already succeeded, and a
+          # genuinely stale zone answers 404 on a freshly hashed asset because
+          # the hash is not in the old deployment; that case is handled above and
+          # still fails the run. Failing here on a throttle would block the
+          # rollout of every other site behind a canary that did deploy, which is
+          # what happened: tools deployed, Cloudflare 429'd the probe for five
+          # minutes, and 43 sites did not roll out. Exit 0 with a loud warning --
+          # the run summary still records it, and the rollout's own check runs
+          # the same logic again against each site.
+          echo "::warning::Freshness check inconclusive: $asset -> $code after retries (throttling or network; not evidence of a stale deploy)"
+          exit 0
 
       - name: Summary
         if: always()
@@ -443,13 +572,22 @@ jobs:
 
       - name: Deploy to Cloudflare Pages
         working-directory: sites/${{ matrix.site }}
-        run: bunx wrangler pages deploy dist --project-name ${{ matrix.project }}
+        run: |
+          dist_dir="$PWD/dist"
+          if [ ! -f "$dist_dir/index.html" ]; then
+            echo "::error::No index.html in $dist_dir — refusing to upload a build that is empty or landed somewhere else"
+            exit 1
+          fi
+          bunx wrangler pages deploy "$dist_dir" --project-name ${{ matrix.project }} --branch main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - name: Add custom domain (idempotent)
         continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           domain=$(echo "${{ matrix.url }}" | sed 's|https://||')
           echo "Adding custom domain $domain to project ${{ matrix.project }}..."
@@ -457,12 +595,75 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: application/json" \
             --data "{\"name\": \"$domain\"}")
-          success=$(echo "$resp" | grep -o '"success":true')
+          echo "Attach POST response: ${resp:0:600}"
+          success=$(echo "$resp" | grep -o '"success":true' || true)
           if [ -n "$success" ]; then
             echo "Domain $domain added to project ${{ matrix.project }}."
           else
             err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
             echo "Note: Domain add skipped or already configured ($err)"
+          fi
+          echo "--- domains state (GET) ---"
+          curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/${{ matrix.project }}/domains" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | head -c 1200 || true
+          echo
+
+      - name: Ensure DNS record for custom domain (idempotent)
+        continue-on-error: true
+        run: |
+          # Attaching a domain to a Pages project does not create the DNS
+          # record. A brand-new subdomain with no record makes the freshness
+          # probe fail on connection refused (seen for economics/finance on
+          # first deploy). Create a proxied CNAME to the project's pages.dev
+          # host; if it exists or the token lacks DNS write, log and continue.
+          domain=$(echo "${{ matrix.url }}" | sed 's|https://||')
+          zone_resp=$(curl -s "https://api.cloudflare.com/client/v4/zones?name=wyattau.com" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          zone_id=$(echo "$zone_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
+          if [ -z "$zone_id" ]; then
+            echo "Note: could not resolve zone id for wyattau.com; skipping DNS creation."
+            exit 0
+          fi
+          list_resp=$(curl -s "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records?name=$domain" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"" || true)
+          if [ "${has_record:-0}" -gt 0 ]; then
+            # The record must be a proxied CNAME whose target is THIS project's
+            # pages.dev host - that is what Pages custom-domain validation
+            # requires. Anything else (a legacy A record to zone IPs, or a
+            # CNAME to a stale target) leaves validation stuck at pending and
+            # the domain serving 404s: accounting.wyattau.com shipped exactly
+            # this way. Rewrite whichever mismatch exists.
+            target="${{ matrix.project }}.pages.dev"
+            wrong_target=$(echo "$list_resp" | python3 -c "import json,sys; d=json.load(sys.stdin); print(sum(1 for r in d.get('result', []) if r.get('content') != '$target'))")
+            if [ "${wrong_target:-0}" -eq 0 ]; then
+              echo "DNS record for $domain already correct (CNAME -> $target)."
+              exit 0
+            fi
+            rec_id=$(echo "$list_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
+            resp=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records/$rec_id" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"$target\",\"proxied\":true}")
+            success=$(echo "$resp" | grep -o '"success":true' || true)
+            if [ -n "$success" ]; then
+              echo "Rewrote $domain CNAME -> $target (was pointing elsewhere; validation was stuck pending)."
+            else
+              err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
+              echo "Note: DNS rewrite failed ($err). Fix manually: CNAME $domain -> $target, proxied."
+            fi
+            exit 0
+          fi
+          resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"${{ matrix.project }}.pages.dev\",\"proxied\":true}")
+          success=$(echo "$resp" | grep -o '"success":true' || true)
+          if [ -n "$success" ]; then
+            echo "Created proxied CNAME $domain -> ${{ matrix.project }}.pages.dev."
+          else
+            err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
+            echo "Note: DNS creation skipped ($err). If the subdomain does not resolve, create a proxied CNAME in the dashboard."
           fi
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -501,16 +702,33 @@ jobs:
           fi
           deadline=$(( $(date +%s) + 240 ))
           code="000"
+          saw404=false
           while [ "$(date +%s)" -lt "$deadline" ]; do
             code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "${{ matrix.url }}$asset" 2>/dev/null || echo "000")
             [ "$code" = "200" ] && break
+            if [ "$code" = "404" ]; then
+              saw404=true
+              break
+            fi
+            if [ "$code" = "429" ]; then
+              echo "  rate limited (429) -- backing off 45 s"
+              sleep 45
+              continue
+            fi
             sleep 15
           done
-          if [ "$code" != "200" ]; then
-            echo "::error::Freshness check failed: $asset -> $code (stale deployment?)"
+          if [ "$code" = "200" ]; then
+            echo "Freshness verified: $asset -> 200"
+          elif [ "$saw404" = "true" ]; then
+            echo "::error::Freshness check failed: $asset -> 404 (stale deployment)"
             exit 1
+          else
+            # Same reasoning as the canary check: 429/5xx/network says nothing
+            # about deploy state, and a genuinely stale zone answers 404 on a
+            # freshly hashed asset. This run has already uploaded; failing it on
+            # a throttle would roll back nothing and only hide a good deploy.
+            echo "::warning::Freshness check inconclusive: $asset -> $code after retries (throttling or network; not evidence of a stale deploy)"
           fi
-          echo "Freshness verified: $asset -> 200"
 
       - name: Summary
         if: always()
@@ -550,7 +768,13 @@ jobs:
         run: cp search-api/cross-site-search.js sites/main/dist/cross-site-search.js
 
       - name: Deploy landing page
-        run: bunx wrangler pages deploy sites/main/dist --project-name wyattsnotes
+        run: |
+          dist_dir="$PWD/sites/main/dist"
+          if [ ! -f "$dist_dir/index.html" ]; then
+            echo "::error::No index.html in $dist_dir — refusing to upload a build that is empty or landed somewhere else"
+            exit 1
+          fi
+          bunx wrangler pages deploy "$dist_dir" --project-name wyattsnotes
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -596,6 +820,25 @@ jobs:
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Diagnostic - new Pages projects state (one-off)
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -e
+          for project in wyattsnotes-accounting wyattsnotes-economics wyattsnotes-finance; do
+            echo "===== $project ====="
+            curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$project" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" > /tmp/diag-project.json
+            python3 ../../search-api/inspect-project.py /tmp/diag-project.json
+            echo '--- deployments ---'
+            curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$project/deployments" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" > /tmp/diag-deployments.json
+            python3 ../../search-api/inspect-deployments.py /tmp/diag-deployments.json
+          done
+
 
       - name: Upload index to KV
         if: steps.kvcheck.outputs.skip != 'true'

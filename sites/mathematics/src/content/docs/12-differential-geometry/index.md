@@ -67,6 +67,24 @@ A smooth manifold is a topological space that locally resembles Euclidean space 
 9. [Applications](/12-differential-geometry/9_applications/)
 10. [Summary](/12-differential-geometry/10_summary/)
 
+### Extensions: forms meet topology
+
+Two graduate-level pages extend the track into algebraic topology, and both
+depend only on items 4 and 5 above.
+
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/) — closed
+  forms modulo exact forms. The exterior derivative satisfies $d^2 = 0$, so
+  Stokes' theorem has a converse-shaped consequence: on a manifold with holes,
+  some closed forms are not exact, and the obstruction is the topology.
+- [Hodge Theory](/12-differential-geometry/14_hodge-theory/) — every de Rham
+  class has a unique harmonic representative, so the Betti numbers are the
+  dimensions of kernels of an elliptic operator and topology becomes computable
+  by PDE.
+- [Kähler Manifolds and Calabi–Yau](/12-differential-geometry/15_kahler-manifolds-and-calabi-yau/) —
+  where complex structure, metric and symplectic form agree; the Hodge numbers
+  $h^{p,q}$ appear, and Yau's theorem produces Ricci-flat metrics, the
+  Calabi–Yau condition.
+
 ## Overview
 
 University-level differential geometry notes covering manifolds, forms, and Riemannian geometry.
@@ -90,8 +108,6 @@ University-level differential geometry notes covering manifolds, forms, and Riem
 Start with smooth manifolds to build foundational knowledge, then progress to differential forms and Riemannian geometry. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -120,10 +136,10 @@ The pushforward $df_p : T_pM \to T_{f(p)}N$ maps between tangent spaces of *diff
 
 ## See Also
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Study Tips
 

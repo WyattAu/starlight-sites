@@ -62,8 +62,8 @@ Objects inline -- it stores references. This means:
 ### Growth Strategy and Amortized O(1) Append
 
 When `list.append()` runs and the internal array is full, CPython must allocate a new, larger array
-And copy all existing pointers into it. The growth strategy determines how much larger the new array
-Is.
+and copy all existing pointers into it. The growth strategy determines how much larger the new array
+is.
 
 ```mermaid
 graph TD
@@ -122,6 +122,8 @@ for i in range(10):
 
 ### Time Complexity of List Operations
 
+<div class="table-wrap">
+
 | Operation              | Average Case | Worst Case | Notes                                   |
 | ---------------------- | :----------: | :--------: | --------------------------------------- |
 | `append(x)`            | O(1) amort.  |    O(n)    | Resize when capacity reached            |
@@ -136,6 +138,8 @@ for i in range(10):
 | `lst.sort()`           |  O(n log n)  | O(n log n) | Timsort                                 |
 | `len(lst)`             |     O(1)     |    O(1)    | Stored in `ob_size`                     |
 | `lst.clear()`          |     O(1)     |    O(1)    | Drops references, does not shrink array |
+
+</div>
 
 ### List Methods
 
@@ -163,7 +167,7 @@ lst.copy()           # shallow copy [3, 1, 4, 1, 5]
 ### Slicing
 
 Slicing creates a **new list** containing copies of the pointer slots in the specified range. It
-Does not copy the referenced objects.
+does not copy the referenced objects.
 
 ```python
 lst = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -215,12 +219,12 @@ Actions. If the comprehension has no useful result, use a `for` loop instead.
 ## Tuples
 
 Tuples are **ordered, immutable sequences**. The immutability is their defining characteristic and
-The source of their advantages.
+the source of their advantages.
 
 ### Immutability Mechanics
 
 "Immutable" in Python means that the tuple's container (the array of pointers) cannot be modified
-After creation. The pointers themselves cannot be added, removed, or reordered. However, if a
+after creation. The pointers themselves cannot be added, removed, or reordered. However, if a
 Pointer refers to a mutable object (like a list), that inner object can still be mutated.
 
 ```python
@@ -280,8 +284,8 @@ class Point(NamedTuple):
 ### Structural Typing with Tuples
 
 Tuples are the idiomatic Python representation for heterogeneous, fixed-length data -- records where
-The position carries meaning. This is structural typing: the "shape" of the tuple (what types appear
-At which positions) defines a type, without requiring a named class.
+the position carries meaning. This is structural typing: the "shape" of the tuple (what types appear
+at which positions) defines a type, without requiring a named class.
 
 ```python
 # A common pattern: returning multiple values
@@ -359,7 +363,7 @@ When you look up `d[key]`CPython performs these steps:
    step 5.
 5. If the hashes match, compare the actual keys with `key == dk_entries[idx].key`. If they match,
    return the value. If not, go to step 6.
-6. **Linear probing:** Check position `i+1``i+2`Etc. (wrapping around) until finding `DKIX_EMPTY`
+6. **Linear probing:** Check position `i+1`, `i+2`. Etc. (wrapping around) until finding `DKIX_EMPTY`
    (not found) or a matching entry.
 
 ```python
@@ -385,13 +389,15 @@ for i in range(20):
 
 The hash table maintains two thresholds:
 
-- **2/3 full.** When `dk_nentries / dk_size > 2/3`The table is resized. A new table of 2x or 4x the
+- **2/3 full.** When `dk_nentries / dk_size > 2/3`. The table is resized. A new table of 2x or 4x the
   size is allocated, and all entries are reinserted. This is expensive (O(n)) but occurs
   infrequently due to geometric growth.
 - **1/12 used.** When the table is mostly empty after deletions, it is shrunk to reduce memory
   usage.
 
 ### Time Complexity
+
+<div class="table-wrap">
 
 | Operation        | Average Case | Worst Case | Notes                        |
 | ---------------- | :----------: | :--------: | ---------------------------- |
@@ -403,6 +409,8 @@ The hash table maintains two thresholds:
 | `len(d)`         |     O(1)     |    O(1)    | Stored in `ma_used`          |
 | Iteration        |     O(n)     |    O(n)    | Visits every entry           |
 
+</div>
+
 The O(n) worst case occurs when all keys hash to the same slot, creating a single long probe chain.
 This is rare with a good hash function but can be deliberately triggered by an attacker feeding
 Crafted keys to a server (hash DoS attack). Python 3.4+ randomizes the hash seed per process to
@@ -410,7 +418,7 @@ Mitigate this.
 
 ### Dict Views
 
-The `.keys()``.values()`And `.items()` methods return **view objects** -- lightweight wrappers That
+The `.keys()`, `.values()` and `.items()` methods return **view objects** -- lightweight wrappers That
 reflect the current state of the dictionary without copying data.
 
 ```python
@@ -644,7 +652,7 @@ nested["user1"]["page_views"] = 42
 nested["user1"]["clicks"] = 7
 ```
 
-The default factory is called with **no arguments**, so `list``int``set`And `dict` all work
+The default factory is called with **no arguments**, so `list`, `int`, `set` and `dict` all work
 Directly. For custom defaults, use a lambda or a named function.
 :::
 
@@ -800,6 +808,8 @@ Grows with the number of elements.
 
 ### Supported Type Codes
 
+<div class="table-wrap">
+
 | Code | C Type         | Python Type | Size (bytes) |
 | ---- | -------------- | ----------- | :----------: |
 | `b`  | signed char    | int         |      1       |
@@ -812,12 +822,14 @@ Grows with the number of elements.
 | `f`  | float          | float       |      4       |
 | `d`  | double         | float       |      8       |
 
+</div>
+
 ### When to Use array vs list vs numpy
 
 - **`list`**: General-purpose, heterogeneous data. Use when you need to store objects of different
   types or when the list is small.
 - **`array.array`**: Homogeneous numeric data where memory efficiency matters but you do not need
-  NumPy"s vectorized operations.
+  NumPy's vectorized operations.
 - **`numpy.ndarray`**: Large-scale numerical computation. NumPy provides vectorized operations,
   broadcasting, and linear algebra that `array` does not.
 
@@ -901,6 +913,8 @@ val = heapq.heapreplace(data, 7)   # pops smallest, pushes 7 (data must be non-e
 
 ### Time Complexity
 
+<div class="table-wrap">
+
 | Operation            | Complexity | Notes                                   |
 | -------------------- | :--------: | --------------------------------------- |
 | `heapify(iterable)`  |    O(n)    | Builds heap from unordered list         |
@@ -910,6 +924,8 @@ val = heapq.heapreplace(data, 7)   # pops smallest, pushes 7 (data must be non-e
 | `heapreplace(h, x)`  |  O(log n)  | Pop then push; heap must be non-empty   |
 | `nsmallest(k, iter)` | O(n log k) | Uses a max-heap of size k               |
 | `nlargest(k, iter)`  | O(n log k) | Uses a min-heap of size k               |
+
+</div>
 
 ### Max-Heap and Priority Queue Patterns
 
@@ -1021,6 +1037,8 @@ graph TD
     style heap_use fill:#4a9,stroke:#333
 ```
 
+<div class="table-wrap">
+
 | Need                        | Primary Choice | Alternative                |
 | --------------------------- | -------------- | -------------------------- |
 | Ordered, mutable sequence   | `list`         | `array.array`              |
@@ -1036,6 +1054,8 @@ graph TD
 | Grouping by key             | `defaultdict`  | `itertools.groupby`        |
 | Layered configuration       | `ChainMap`     |                            |
 
+</div>
+
 ## Common Pitfalls
 
 1. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
@@ -1050,10 +1070,6 @@ graph TD
    applications.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

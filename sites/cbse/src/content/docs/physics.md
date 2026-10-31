@@ -44,7 +44,7 @@ theory paper includes MCQs, very-short-answer (1-mark), short-answer (2-3 marks)
 
 ### 1.1 Laws of Motion
 
-**Newton"s Laws:**
+**Newton's Laws:**
 
 1. An object remains at rest or in uniform motion unless acted upon by a net external force.
 2. $\vec{F}_{\text{net}} = m\vec{a}$
@@ -73,6 +73,8 @@ law to each, then use the constraint (common acceleration for connected strings)
 
 **Moment of inertia** (key results):
 
+<div class="table-wrap">
+
 | Body                | $I$ (about given axis) |
 | ------------------- | ---------------------- |
 | Thin rod (centre)   | $\frac{1}{12}ML^2$     |
@@ -81,6 +83,8 @@ law to each, then use the constraint (common acceleration for connected strings)
 | Hollow cylinder     | $MR^2$                 |
 | Solid sphere        | $\frac{2}{5}MR^2$      |
 | Hollow sphere       | $\frac{2}{3}MR^2$      |
+
+</div>
 
 **Parallel axis theorem:** $I = I_{\text{cm}} + Md^2$
 
@@ -158,12 +162,16 @@ equilibrium.
 
 **Thermodynamic processes:**
 
+<div class="table-wrap">
+
 | Process    | $\Delta U$     | $\Delta Q$        | $\Delta W$        |
 | ---------- | -------------- | ----------------- | ----------------- |
 | Isothermal | $0$            | $nRT\ln(V_f/V_i)$ | $nRT\ln(V_f/V_i)$ |
 | Adiabatic  | $nC_V\Delta T$ | $0$               | $-\Delta U$       |
 | Isobaric   | $nC_V\Delta T$ | $nC_P\Delta T$    | $P\Delta V$       |
 | Isochoric  | $nC_V\Delta T$ | $nC_V\Delta T$    | $0$               |
+
+</div>
 
 ### 2.3 Kinetic Theory of Gases
 
@@ -193,7 +201,9 @@ equilibrium.
 
 ### 3.1 Coulomb's Law
 
-$$F = \frac{1}{4\pi\varepsilon_0}\frac{q_1 q_2}{r^2}$$
+$$
+F = \frac{1}{4\pi\varepsilon_0}\frac{q_1 q_2}{r^2}
+$$
 
 where $\dfrac{1}{4\pi\varepsilon_0} = 9 \times 10^9\;\text{N m}^2\text{ C}^{-2}$.
 
@@ -237,7 +247,9 @@ constant.
 
 ### 4.1 Ohm's Law and Resistance
 
-$$V = IR$$
+$$
+V = IR
+$$
 
 **Resistivity:** $R = \rho\frac{L}{A}$
 
@@ -278,7 +290,9 @@ At balance: $\frac{P}{Q} = \frac{R}{S}$ (galvanometer reads zero current).
 
 ### 5.1 Biot-Savart Law
 
-$$d\vec{B} = \frac{\mu_0}{4\pi}\frac{I\,d\vec{l} \times \hat{r}}{r^2}$$
+$$
+d\vec{B} = \frac{\mu_0}{4\pi}\frac{I\,d\vec{l} \times \hat{r}}{r^2}
+$$
 
 **Field due to a long straight wire:** $B = \frac{\mu_0 I}{2\pi r}$
 
@@ -286,7 +300,9 @@ $$d\vec{B} = \frac{\mu_0}{4\pi}\frac{I\,d\vec{l} \times \hat{r}}{r^2}$$
 
 ### 5.2 Ampere's Law
 
-$$\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}}$$
+$$
+\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}}
+$$
 
 **Inside a solenoid:** $B = \mu_0 n I$ where $n = N/L$ is the number of turns per unit length.
 
@@ -357,7 +373,9 @@ $\theta_1 > \theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right)$ for $n_1 > n_2$.
 
 **Interference (Young's double slit):**
 
-$$y = \frac{n\lambda D}{d} \quad \text{(bright fringes)} \qquad y = \left(n + \frac{1}{2}\right)\frac{\lambda D}{d} \quad \text{(dark fringes)}$$
+$$
+y = \frac{n\lambda D}{d} \quad \text{(bright fringes)} \qquad y = \left(n + \frac{1}{2}\right)\frac{\lambda D}{d} \quad \text{(dark fringes)}
+$$
 
 **Fringe width:** $\beta = \frac{\lambda D}{d}$
 
@@ -382,7 +400,9 @@ $$y = \frac{n\lambda D}{d} \quad \text{(bright fringes)} \qquad y = \left(n + \f
 
 **Photoelectric effect (Einstein's equation):**
 
-$$K_{\max} = h\nu - \phi$$
+$$
+K_{\max} = h\nu - \phi
+$$
 
 where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequency.
 
@@ -430,6 +450,8 @@ where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequenc
 
 ## 8. Key Equations
 
+<div class="table-wrap">
+
 | Topic                       | Equation                                             |
 | --------------------------- | ---------------------------------------------------- |
 | Newton's second law         | $\vec{F} = m\vec{a}$                                 |
@@ -445,6 +467,8 @@ where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequenc
 | De Broglie wavelength       | $\lambda = h/mv$                                     |
 | Bohr energy levels          | $E_n = -13.6\,Z^2/n^2\;\text{eV}$                    |
 | Radioactive decay           | $N = N_0 e^{-\lambda t}$                             |
+
+</div>
 
 ---
 
@@ -528,17 +552,6 @@ kinetic energy of emitted photoelectrons. (h = 6.63 x 10^-34 J s, c = 3 x 10^8 m
 10^-19 J) **Solution:** E_photon = hc/lambda = (6.63 x 10^-34)(3 x 10^8) / (400 x 10^-9) = 4.97 x
 10^-19 J = 3.11 eV. K_max = E_photon - phi = 3.11 - 2.0 = 1.11 eV. Since K_max > 0, photoelectrons
 are emitted.
-
-
-```mermaid
-flowchart TD
-    A[Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

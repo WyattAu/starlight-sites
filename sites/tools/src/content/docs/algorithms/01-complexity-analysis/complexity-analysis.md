@@ -38,12 +38,14 @@ Query that completes in 10 milliseconds and one that takes 10 minutes when the d
 ### Big-O: Upper Bound
 
 $O(g(n))$ is the set of all functions $f(n)$ for which there exist positive constants $c$ and $n_0$
-Such that:
+such that:
 
-$$0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0$$
+$$
+0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0
+$$
 
 Big-O provides an **upper bound** on the growth rate of a function. Saying $f(n) = O(n^2)$ means
-That $f(n)$ grows no faster than $n^2$ (up to a constant factor), for sufficiently large $n$.
+that $f(n)$ grows no faster than $n^2$ (up to a constant factor), for sufficiently large $n$.
 
 ```python
 ## Example: nested loop is O(n^2)
@@ -59,18 +61,22 @@ def print_all_pairs(arr):
 $\Omega(g(n))$ is the set of all functions $f(n)$ for which there exist positive constants $c$ and
 $n_0$ such that:
 
-$$0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0$$
+$$
+0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0
+$$
 
-Big-Omega provides a **lower bound**. If an algorithm is $\Omega(n \log n)$It means no matter how
+Big-Omega provides a **lower bound**. If an algorithm is $\Omega(n \log n)$ It means no matter how
 Clever your implementation, the algorithm will take at least $c \cdot n \log n$ steps for large $n$.
 
 ### Big-Theta: Tight Bound
 
 $\Theta(g(n))$ is the intersection: $f(n) \in \Theta(g(n))$ if and only if $f(n) \in O(g(n))$ and
 $f(n) \in \Omega(g(n))$. This is the **tight bound**, the function grows at exactly the same rate
-As $g(n)$Up to constant factors.
+as $g(n)$ Up to constant factors.
 
-$$0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0$$
+$$
+0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0
+$$
 
 :::note
 Conventionally understood. When someone says "merge sort is $O(n \log n)$" they mean it is
@@ -80,10 +86,14 @@ $\Theta(n \log n)$. Be aware of the distinction when reading academic papers.
 
 $f(n) = o(g(n))$ means $f(n)$ grows strictly slower than $g(n)$:
 
-$$\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$$
+$$
+\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0
+$$
 
 Similarly, $f(n) = \omega(g(n))$ means $f(n)$ grows strictly faster. These are strict versions of
 Big-O and Big-Omega respectively, they exclude the equality case.
+
+<div class="table-wrap">
 
 | Notation       | Meaning                                      | Intuition          |
 | -------------- | -------------------------------------------- | ------------------ |
@@ -92,6 +102,8 @@ Big-O and Big-Omega respectively, they exclude the equality case.
 | $\Theta(g(n))$ | $c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n)$ | Exactly this fast  |
 | $o(g(n))$      | $f(n) / g(n) \to 0$                          | Strictly slower    |
 | $\omega(g(n))$ | $f(n) / g(n) \to \infty$                     | Strictly faster    |
+
+</div>
 
 ## Common Complexity Classes
 
@@ -124,6 +136,8 @@ graph TD
     style Onf fill:#2c3e50,color:#fff
 ```
 
+<div class="table-wrap">
+
 | Class         | Name         | Example                     | Practical at $n = 10^6$                |
 | ------------- | ------------ | --------------------------- | -------------------------------------- |
 | $O(1)$        | Constant     | Hash table lookup           | Instantaneous                          |
@@ -134,6 +148,8 @@ graph TD
 | $O(n^3)$      | Cubic        | Naive matrix multiplication | $10^{18}$ operations (infeasible)      |
 | $O(2^n)$      | Exponential  | Subset enumeration          | $10^{301,029}$ operations (impossible) |
 | $O(n!)$       | Factorial    | Permutation generation      | Beyond astronomical                    |
+
+</div>
 
 ### What "Practical" Actually Means
 
@@ -149,7 +165,7 @@ Core). In reality:
 
 :::caution
 A well-optimised $O(n^2)$ algorithm can outperform a naive $O(n \log n)$ algorithm for small $n$ or
-With favourable cache behaviour. Always benchmark.
+with favourable cache behaviour. Always benchmark.
 
 ## Formal Manipulation Rules
 
@@ -177,13 +193,15 @@ Logarithm does not matter in Big-O notation because changing base only introduce
 ### Exponential vs Polynomial
 
 For any constants $k$ and $c \gt 1$: $n^k = o(c^n)$. Polynomials are always asymptotically dominated
-By exponentials. This is the fundamental boundary between tractable and intractable problems.
+by exponentials. This is the fundamental boundary between tractable and intractable problems.
 
 ## The Master Theorem
 
 The Master Theorem provides a closed-form solution for recurrences of the form:
 
-$$T(n) = a \cdot T(n/b) + f(n)$$
+$$
+T(n) = a \cdot T(n/b) + f(n)
+$$
 
 Where $a \ge 1$ and $b \gt 1$. Let $c_{crit} = \log_b a$ (the critical exponent).
 
@@ -266,11 +284,15 @@ An algorithm"s complexity can vary depending on the input. Quicksort runs in $O(
 Average but $O(n^2)$ in the worst case. Linear search is $O(1)$ in the best case (element is first)
 And $O(n)$ in the worst case.
 
+<div class="table-wrap">
+
 | Case         | Definition                                   | When it matters                         |
 | ------------ | -------------------------------------------- | --------------------------------------- |
 | Best case    | Minimum over all inputs of size $n$          | Rarely useful in practice               |
 | Average case | Expected value over a distribution of inputs | Useful when input distribution is known |
 | Worst case   | Maximum over all inputs of size $n$          | The standard for guarantees             |
+
+</div>
 
 ### Why Worst Case is the Default
 
@@ -290,7 +312,7 @@ Causing CPU exhaustion. This is why many languages (Python, Rust, Go) now use ha
 ## Amortised Analysis
 
 Amortised analysis gives a tighter bound for a sequence of operations when individual operations may
-Be expensive but the expensive operations are rare enough that the total cost is bounded.
+be expensive but the expensive operations are rare enough that the total cost is bounded.
 
 ### Aggregate Method
 
@@ -299,7 +321,7 @@ Compute the total cost of $n$ operations and divide by $n$.
 **Dynamic array (e.g., Python `list`C++ `std::vector`):**
 
 - Append is $O(1)$ when there is capacity, $O(n)$ when resizing is needed
-- Resizing doubles the capacity: after growing from $k$ to $2k$The next $k$ appends are $O(1)$
+- Resizing doubles the capacity: after growing from $k$ to $2k$ The next $k$ appends are $O(1)$
 - Total cost for $n$ appends: $1 + 1 + \cdots + 1 + n + 1 + 1 + \cdots$ where the $n$ cost occurs at
   sizes $1, 2, 4, 8, \ldots$
 - Total: $n + 1 + 2 + 4 + \cdots + n = n + 2n - 1 = 3n - 1$
@@ -324,16 +346,20 @@ For dynamic array append:
 Define a **potential function** $\Phi$ on the data structure state. The amortised cost of operation
 $i$ is:
 
-$$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$
+$$
+\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})
+$$
 
 Where $c_i$ is the actual cost and $\Phi(D_i)$ is the potential after the operation.
 
 For a dynamic array with size $n$ and capacity $m$:
 
-$$\Phi(D) = 2n - m$$
+$$
+\Phi(D) = 2n - m
+$$
 
 - After an $O(1)$ insert (no resize): $\Phi$ increases by 2, amortised cost = $1 + 2 = 3$
-- After a resize from $m$ to $2m$: $\Phi$ goes from $2m - m = m$ to $2m - 2m = 0$A drop of $m$
+- After a resize from $m$ to $2m$: $\Phi$ goes from $2m - m = m$ to $2m - 2m = 0$ A drop of $m$
 - Amortised cost = $m + 0 - m = 0$ (the actual cost of $m$ is fully paid by the potential drop)
 
 Total amortised cost: $O(1)$ per operation.
@@ -365,6 +391,8 @@ class DynamicArray:
 Space complexity measures the additional memory an algorithm uses beyond the input. Like time
 Complexity, it is expressed in asymptotic notation.
 
+<div class="table-wrap">
+
 | Algorithm                | Time              | Space           | Notes                            |
 | ------------------------ | ----------------- | --------------- | -------------------------------- |
 | In-place quicksort       | $O(n \log n)$ avg | $O(\log n)$     | Stack depth for recursion        |
@@ -374,6 +402,8 @@ Complexity, it is expressed in asymptotic notation.
 | BFS                      | $O(V + E)$        | $O(V)$          | Queue for frontier               |
 | Dynamic programming (2D) | Varies            | $O(n \cdot m)$  | Full table                       |
 | DP with rolling array    | Same time         | $O(\min(n, m))$ | Space-optimised                  |
+
+</div>
 
 ### Space-Time Trade-offs
 
@@ -426,12 +456,16 @@ Becomes "Is there a tour of length at most $k$?" (binary search on $k$).
 
 ### P, NP, and NP-Completeness
 
+<div class="table-wrap">
+
 | Class           | Definition                                         | Example Problems                          |
 | --------------- | -------------------------------------------------- | ----------------------------------------- |
 | **P**           | Solvable in polynomial time                        | Sorting, shortest path, MST               |
 | **NP**          | Verifiable in polynomial time                      | SAT, travelling salesman, graph colouring |
 | **NP-Complete** | In NP, and every NP problem reduces to it          | SAT, 3-SAT, vertex cover                  |
 | **NP-Hard**     | At least as hard as NP-complete (may not be in NP) | Halting problem, TSP optimisation         |
+
+</div>
 
 ```mermaid
 graph TD
@@ -453,7 +487,7 @@ graph TD
 ### Reductions
 
 A problem $A$ **reduces to** problem $B$ (written $A \le_p B$) if an algorithm for $B$ can be used
-To solve $A$ in polynomial time. If $A$ is NP-complete and $A \le_p B$ Then $B$ is also NP-hard. If
+to solve $A$ in polynomial time. If $A$ is NP-complete and $A \le_p B$ Then $B$ is also NP-hard. If
 $B$ is also in NP, then $B$ is NP-complete.
 
 **Cook-Levin Theorem:** SAT (Boolean satisfiability) is NP-complete. Every other NP-complete problem
@@ -461,15 +495,19 @@ Is proven NP-complete by reducing from a known NP-complete problem.
 
 ### Common NP-Complete Problems
 
+<div class="table-wrap">
+
 | Problem             | Input                           | Question                                 | Practical Significance               |
 | ------------------- | ------------------------------- | ---------------------------------------- | ------------------------------------ |
 | SAT                 | Boolean formula                 | Is there a satisfying assignment?        | Basis for all NP-completeness proofs |
 | 3-SAT               | 3-CNF formula                   | Is there a satisfying assignment?        | Circuit design, scheduling           |
-| Vertex Cover        | Graph $G$Integer $k$            | Is there a vertex cover of size $\le k$? | Network monitoring                   |
+| Vertex Cover        | Graph $G$ Integer $k$            | Is there a vertex cover of size $\le k$? | Network monitoring                   |
 | Travelling Salesman | Graph with weights, integer $k$ | Is there a tour of length $\le k$?       | Logistics, routing                   |
 | Subset Sum          | Set of integers, target $t$     | Is there a subset summing to $t$?        | Knapsack variants                    |
-| Graph Colouring     | Graph $G$Integer $k$            | Can $G$ be coloured with $k$ colours?    | Register allocation, scheduling      |
-| Clique              | Graph $G$Integer $k$            | Does $G$ contain a clique of size $k$?   | Social network analysis              |
+| Graph Colouring     | Graph $G$ Integer $k$            | Can $G$ be coloured with $k$ colours?    | Register allocation, scheduling      |
+| Clique              | Graph $G$ Integer $k$            | Does $G$ contain a clique of size $k$?   | Social network analysis              |
+
+</div>
 
 ### Dealing with NP-Hardness in Practice
 
@@ -482,7 +520,7 @@ When you encounter an NP-hard problem:
 3. **Heuristics**. Greedy algorithms, local search, simulated annealing, genetic algorithms. No
    guarantees, but often work well in practice
 4. **Fixed-parameter tractability**. If the problem is NP-hard but polynomial for fixed parameter
-   $k$Use FPT algorithms (e.g., vertex cover is $O(2^k \cdot n)$)
+   $k$ Use FPT algorithms (e.g., vertex cover is $O(2^k \cdot n)$)
 5. **SAT solvers**. For many combinatorial problems, encoding as SAT and using a modern solver
    (CDCL-based) is surprisingly effective
 
@@ -498,7 +536,7 @@ Asymptotic analysis ignores the memory hierarchy. In practice, cache effects dom
   number of cache misses per operation by a factor of $\log_2 B$ where $B$ is the block size
 
 A linked list traversal that is $O(n)$ in theory can be 10-100x slower than an array traversal that
-Is also $O(n)$Because the array has spatial locality.
+is also $O(n)$ Because the array has spatial locality.
 
 ### Constant Factors
 
@@ -532,7 +570,7 @@ def branchless_max(a, b):
 ### 1. Confusing Big-O with Big-Theta
 
 Saying "this algorithm is $O(1)$" when you mean $\Theta(1)$ is imprecise. Technically, every
-Algorithm is $O(2^n)$ because $O$ is only an upper bound. If you claim $O(1)$You should be Prepared
+Algorithm is $O(2^n)$ because $O$ is only an upper bound. If you claim $O(1)$ You should be Prepared
 to justify it as a tight bound.
 
 ### 2. Ignoring the Input Distribution
@@ -544,7 +582,7 @@ This is why it is the default sort in most standard libraries (with introsort fa
 ### 3. Forgetting About Space
 
 An $O(n)$ time algorithm that uses $O(n^2)$ space is often worse than an $O(n \log n)$ algorithm
-That uses $O(1)$ space. Memory is not infinite, and allocation is not free.
+that uses $O(1)$ space. Memory is not infinite, and allocation is not free.
 
 ### 4. Misapplying the Master Theorem
 
@@ -569,9 +607,9 @@ Substrings), the "constant-time" lookup is not actually constant.
 ### 7. Ignoring Amortisation in Latency-Sensitive Systems
 
 Amortised $O(1)$ means the average over many operations is constant. Individual operations can still
-Be $O(n)$. In a latency-sensitive system (real-time trading, game loop, audio processing), a single
+be $O(n)$. In a latency-sensitive system (real-time trading, game loop, audio processing), a single
 $O(n)$ operation can cause a deadline miss even if the amortised cost is fine. Use data structures
-With worst-case guarantees (e.g., std::deque instead of std::vector with occasional reallocation)
+with worst-case guarantees (e.g., std::deque instead of std::vector with occasional reallocation)
 For real-time contexts.
 
 ### 8. Dropping Constants That Actually Matter
@@ -606,12 +644,16 @@ The recursion tree has:
 
 The Akra-Bazzi theorem generalises the Master Theorem for recurrences of the form:
 
-$$T(x) = \sum_{i=1}^{k} a_i T(b_i x + h_i(x)) + f(x)$$
+$$
+T(x) = \sum_{i=1}^{k} a_i T(b_i x + h_i(x)) + f(x)
+$$
 
 Where $a_i \gt 0$, $0 \lt b_i \lt 1$ And $h_i(x) = O(x / \log^2 x)$. Find $p$ such that
 $\sum_{i=1}^{k} a_i b_i^p = 1$. Then:
 
-$$T(x) = \Theta\left(x^p \left(1 + \int_1^x \frac{f(u)}{u^{p+1}} du\right)\right)$$
+$$
+T(x) = \Theta\left(x^p \left(1 + \int_1^x \frac{f(u)}{u^{p+1}} du\right)\right)
+$$
 
 This handles cases like $T(n) = T(n/3) + T(2n/3) + O(n)$ where the subproblem sizes are not equal.
 
@@ -621,17 +663,19 @@ For algorithms whose running time depends on the input distribution (e.g., quick
 Analysis gives expected running time over a random input. Quicksort with random pivot selection has
 Expected $O(n \log n)$ comparisons, but the expected number of comparisons can be computed exactly:
 
-$$E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n$$
+$$
+E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n
+$$
 
 Where $H_n = \sum_{i=1}^{n} 1/i$ is the $n$-th harmonic number. The constant $1.386$ is about 39%
-More comparisons than the information-theoretic minimum of $n \log_2 n$Which is remarkably close To
+more comparisons than the information-theoretic minimum of $n \log_2 n$ Which is remarkably close To
 optimal for a comparison sort.
 
 ### Smoothed Analysis
 
 Worst-case analysis can be too pessimistic for algorithms that perform well on typical inputs but
 Badly on adversarial ones. Smoothed analysis (Spielman and Teng, 2004) measures expected performance
-Under small random perturbations of the input. It explains why the simplex method for linear
+under small random perturbations of the input. It explains why the simplex method for linear
 Programming is efficient in practice despite having exponential worst-case complexity: the
 Adversarial inputs that trigger exponential behaviour are unstable under small perturbations.
 
@@ -641,6 +685,8 @@ For online algorithms (where future input is unknown), competitive analysis comp
 Performance to the optimal offline algorithm. An algorithm is $c$-competitive if its cost is at most
 $c$ times the optimal cost for every input sequence.
 
+<div class="table-wrap">
+
 | Online Problem   | Algorithm               | Competitive Ratio            |
 | ---------------- | ----------------------- | ---------------------------- |
 | Paging (caching) | LRU                     | $k$ (where $k$ = cache size) |
@@ -648,6 +694,8 @@ $c$ times the optimal cost for every input sequence.
 | K-server         | Work function algorithm | $2k - 1$                     |
 | Load balancing   | Greedy                  | $O(\log n)$                  |
 | Ski rental       | Buy after $n$ rentals   | 2                            |
+
+</div>
 
 ### I/O Complexity and External Memory Model
 
@@ -658,6 +706,8 @@ Vitter, 1988) counts:
 - **Memory size:** $M$ words available in internal memory
 - **Disk size:** $N$ words on disk
 
+<div class="table-wrap">
+
 | Algorithm     | Internal Memory    | External Memory (I/Os)          |
 | ------------- | ------------------ | ------------------------------- |
 | Scanning      | $O(N)$ time        | $O(N/B)$ I/Os                   |
@@ -665,23 +715,27 @@ Vitter, 1988) counts:
 | BST search    | $O(\log N)$ time   | $O(\log_B N)$ I/Os              |
 | B-tree search | $O(\log N)$ time   | $O(\log_B N)$ I/Os              |
 
+</div>
+
 The gap between internal and external memory complexity is why B-trees exist: a binary tree search
-Does $O(\log_2 N)$ I/Os (one per level), while a B-tree search does $O(\log_B N)$ I/Os. For
+does $O(\log_2 N)$ I/Os (one per level), while a B-tree search does $O(\log_B N)$ I/Os. For
 $N =
 10^9$ and $B = 100$, binary tree needs ~30 I/Os while B-tree needs ~5 I/Os, a 6x improvement.
 
 ### Amortised Analysis: Splay Trees
 
 Splay trees are self-adjusting BSTs with no explicit balance information. Every access is followed
-By a "splay" operation that moves the accessed node to the root using a sequence of rotations. The
-Amortised cost of each operation is $O(\log n)$Proven using the potential method.
+by a "splay" operation that moves the accessed node to the root using a sequence of rotations. The
+Amortised cost of each operation is $O(\log n)$ Proven using the potential method.
 
 The potential function for splay trees is:
 
-$$\Phi(T) = \sum_{v \in T} \log_2(\mathrm{size(v))$$
+$$
+\Phi(T) = \sum_{v \in T} \log_2(\mathrm{size(v))
+$$
 
 Where `size(v)` is the number of nodes in the subtree rooted at `v`. The potential is always
-Non-negative and is $O(n \log n)$ for an $n$-node tree.
+non-negative and is $O(n \log n)$ for an $n$-node tree.
 
 **Key properties:**
 
@@ -743,12 +797,12 @@ $\sum_{k=0}^{\log n - 1} n(\log n - k) + n = n \sum_{j=1}^{\log n} j + n = n \cd
 ### Multiple Recursive Calls
 
 When an algorithm makes multiple recursive calls of different sizes, the analysis requires summing
-The costs of all calls.
+the costs of all calls.
 
 **Example:** $T(n) = T(n/3) + T(2n/3) + cn$
 
 The recursion tree has $\log_{3/2} n$ levels (the longest path goes by the 2/3 branch). Each level
-Does $cn$ work. Total: $O(n \log n)$.
+does $cn$ work. Total: $O(n \log n)$.
 
 ### Recursive Algorithms with Reduction
 
@@ -808,7 +862,7 @@ Actually spent. In production systems, use both:
 
 1. **Benchmark with representative data:** Synthetic benchmarks miss cache effects, branch
    prediction patterns, and I/O behaviour. Use production traces or realistic synthetic data.
-2. **Profile before optimising:** Use `cProfile``perf`Or `VTune` to identify the actual bottleneck.
+2. **Profile before optimising:** Use `cProfile`, `perf` or `VTune` to identify the actual bottleneck.
    The bottleneck is often not where you expect it.
 3. **Measure, don't guess:** A single cache miss (100 ns) is worth ~300 integer operations. An L1
    cache hit (1 ns) is 100x faster than a main memory access (100 ns). These differences dwarf the
@@ -840,7 +894,7 @@ def benchmark_sorts():
 
 :::caution
 On the actual production workload due to access patterns, data distribution, and interaction with
-Other system components. Always benchmark with realistic data and in a realistic environment.
+other system components. Always benchmark with realistic data and in a realistic environment.
 
 ## Summary
 
@@ -854,9 +908,6 @@ implementation, and key applications.
 - sorting algorithms (bubble, merge, quick)
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

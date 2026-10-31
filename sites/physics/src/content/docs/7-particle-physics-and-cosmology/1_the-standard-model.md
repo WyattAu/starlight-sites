@@ -32,10 +32,12 @@ The fundamental particles are:
 
 **Bosons** (integer spin):
 
-- **Gauge bosons:** photon ($\gamma$), $W^\pm$, $Z^0$Gluons ($g$8 types).
+- **Gauge bosons:** photon ($\gamma$), $W^\pm$, $Z^0$ Gluons ($g$8 types).
 - **Scalar boson:** Higgs ($H$).
 
 **Forces and their gauge bosons:**
+
+<div class="table-wrap">
 
 | Interaction     | Gauge boson    | Acts on         | Relative strength                             |
 | --------------- | -------------- | --------------- | --------------------------------------------- |
@@ -43,11 +45,15 @@ The fundamental particles are:
 | Weak            | $W^\pm, Z^0$   | Weak isospin    | $G_F \approx 1.166 \times 10^{-5}$ GeV$^{-2}$ |
 | Strong          | $g$ (8 gluons) | Colour charge   | $\alpha_s \approx 0.118$ (at $m_Z$)           |
 
+</div>
+
 ### 1.2 Gauge Symmetry
 
 The Standard Model is a **renormalisable quantum field theory** based on the gauge group:
 
-$$G_{\mathrm{SM} = \mathrm{SU}(3)_C \times \mathrm{SU}(2)_L \times \mathrm{U}(1)_Y}$$
+$$
+G_{\mathrm{SM} = \mathrm{SU}(3)_C \times \mathrm{SU}(2)_L \times \mathrm{U}(1)_Y}
+$$
 
 Each factor corresponds to a fundamental interaction:
 
@@ -60,7 +66,7 @@ Each factor corresponds to a fundamental interaction:
 
 The gauge principle requires that the Lagrangian be invariant under local gauge transformations.
 This forces the introduction of the gauge bosons as connections (covariant derivatives) and fixes
-Their self-interactions. The non-Abelian groups $\mathrm{SU}(2)$ and $\mathrm{SU}(3)$ give rise to
+their self-interactions. The non-Abelian groups $\mathrm{SU}(2)$ and $\mathrm{SU}(3)$ give rise to
 Self-interacting gauge bosons ($W^3W^+W^-$ vertices, three-gluon and four-gluon vertices), while The
 Abelian group $\mathrm{U}(1)$ gives a non-self-interacting photon.
 
@@ -74,28 +80,36 @@ Symmetry and gives different masses to the $W^\pm$, $Z^0$ And photon.
 At energies well above the electroweak scale ($E \gg v \approx 246$ GeV), the four gauge bosons
 $W^1, W^2, W^3, B$ have equal status and the symmetry is manifest. At low energies, the mixing:
 
-$$\begin{pmatrix} Z^0 \\ A \end{pmatrix} = \begin{pmatrix} \cos\theta_W & \sin\theta_W \\ -\sin\theta_W & \cos\theta_W \end{pmatrix} \begin{pmatrix} W^3 \\ B \end{pmatrix}$$
+$$
+\begin{pmatrix} Z^0 \\ A \end{pmatrix} = \begin{pmatrix} \cos\theta_W & \sin\theta_W \\ -\sin\theta_W & \cos\theta_W \end{pmatrix} \begin{pmatrix} W^3 \\ B \end{pmatrix}
+$$
 
 Produces the massive $Z^0$ and the massless photon $A$. The Weinberg angle $\theta_W$ determines The
 mixing and satisfies $\sin^2\theta_W \approx 0.231$.
 
 The electromagnetic coupling $e$ and the weak couplings $g$, $g"$ are related by:
 
-$$e = g\sin\theta_W = g'\cos\theta_W$$
+$$
+e = g\sin\theta_W = g'\cos\theta_W
+$$
 
 This relationship is a direct prediction of the unified theory and has been verified experimentally
-To high precision at LEP and SLC.
+to high precision at LEP and SLC.
 
 ### 1.4 Quarks and Leptons
 
 The fermions are organised into three **generations**, each with identical quantum numbers but
 Increasing mass:
 
+<div class="table-wrap">
+
 | Generation | Quarks                     | Charge         | Leptons            | Charge    |
 | ---------- | -------------------------- | -------------- | ------------------ | --------- |
 | I          | up ($u$), down ($d$)       | $+2/3$, $-1/3$ | $e$, $\nu_e$       | $-1$, $0$ |
 | II         | charm ($c$), strange ($s$) | $+2/3$, $-1/3$ | $\mu$, $\nu_\mu$   | $-1$, $0$ |
 | III        | top ($t$), bottom ($b$)    | $+2/3$, $-1/3$ | $\tau$, $\nu_\tau$ | $-1$, $0$ |
+
+</div>
 
 Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry anticolours.
 
@@ -108,6 +122,8 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 
 **Quark masses (at the $\overline{\mathrm{MS}}$ scale $\mu = m_q$):**
 
+<div class="table-wrap">
+
 | Quark | Mass (MeV/$c^2$)    | $I$   | $I_3$  | $S$  | $C$  | $B'$ | $T$  |
 | ----- | ------------------- | ----- | ------ | ---- | ---- | ---- | ---- |
 | $u$   | $2.16$              | $1/2$ | $+1/2$ | $0$  | $0$  | $0$  | $0$  |
@@ -117,7 +133,11 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 | $b$   | $4.18 \times 10^3$  | $0$   | $0$    | $0$  | $0$  | $-1$ | $0$  |
 | $t$   | $1.732 \times 10^5$ | $0$   | $0$    | $0$  | $0$  | $0$  | $+1$ |
 
+</div>
+
 **Charged lepton masses:**
+
+<div class="table-wrap">
 
 | Lepton | Mass (MeV/$c^2$) | Mean lifetime             |
 | ------ | ---------------- | ------------------------- |
@@ -125,7 +145,11 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 | $\mu$  | $105.66$         | $2.197 \times 10^{-6}$ s  |
 | $\tau$ | $1776.86$        | $2.903 \times 10^{-13}$ s |
 
+</div>
+
 **Gauge boson properties:**
+
+<div class="table-wrap">
 
 | Boson    | Mass (GeV/$c^2$) | Width (GeV) | Electric charge |
 | -------- | ---------------- | ----------- | --------------- |
@@ -135,6 +159,8 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 | $Z^0$    | $91.1876$        | $2.4952$    | $0$             |
 | $H$      | $125.10$         | $0.00407$   | $0$             |
 
+</div>
+
 ### 1.6 Worked Example: Particle Identification
 
 <details>
@@ -142,10 +168,12 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 
 The $\Omega^-$ has the following quantum numbers: $Q = -1$, $B = 1$, $S = -3$ Strangeness $S = -3$.
 
-Since $B = 1$It is a baryon, so it consists of three quarks. The strangeness Contributes $-1$ per
+Since $B = 1$ It is a baryon, so it consists of three quarks. The strangeness Contributes $-1$ per
 strange quark, so all three quarks must be strange:
 
-$$\Omega^- = sss$$
+$$
+\Omega^- = sss
+$$
 
 **Check the charge:** Each strange quark has $Q = -1/3$ So $Q(sss) = 3 \times (-1/3) = -1$. **Check
 the baryon number:** $B(sss) = 3 \times (1/3) = 1$. Both agree.
@@ -166,23 +194,14 @@ decay products. The decay conserves strangeness if $X^0$ has $S = +1$ So It cont
 The quantum numbers of $X^0$: $Q = 0$, $S = +1$. A meson with these properties Containing a
 $\bar{s}$ quark must be:
 
-$$X^0 = K^0 = d\bar{s}$$
+$$
+X^0 = K^0 = d\bar{s}
+$$
 
 **Verification:** $K^0 \to K^+ + \pi^-$ conserves charge ($0 = +1 + (-1)$) And strangeness
 ($+1 = +1 + 0$). This decay proceeds via the weak interaction.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[1_The Standard Model] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -207,23 +226,29 @@ The Standard Model is like a periodic table for fundamental particles. It tells 
 The Cabibbo--Kobayashi--Maskawa (CKM) matrix relates the weak interaction eigenstates to The mass
 eigenstates of quarks:
 
-$$\begin{pmatrix} d' \\ s' \\ b' \end{pmatrix} = V_{\mathrm{CKM} \begin{pmatrix} d \\ s \\ b \end{pmatrix}}$$
+$$
+\begin{pmatrix} d' \\ s' \\ b' \end{pmatrix} = V_{\mathrm{CKM} \begin{pmatrix} d \\ s \\ b \end{pmatrix}}
+$$
 
 Where $d'$, $s'$, $b'$ are the weak eigenstates that couple to the $W$ boson. The Magnitude of the
 CKM elements determines the relative rates of flavour-changing weak Decays.
 
 The experimentally measured magnitudes are approximately:
 
-$$\lvert V_{\mathrm{CKM}\rvert \approx \begin{pmatrix} 0.974 & 0.225 & 0.0036 \\ 0.225 & 0.973 & 0.041 \\ 0.0086 & 0.040 & 0.999 \end{pmatrix}}$$
+$$
+\lvert V_{\mathrm{CKM}\rvert \approx \begin{pmatrix} 0.974 & 0.225 & 0.0036 \\ 0.225 & 0.973 & 0.041 \\ 0.0086 & 0.040 & 0.999 \end{pmatrix}}
+$$
 
 **Application.** The decay $b \to c$ proceeds with amplitude proportional to
-$\lvert V_{cb}\rvert \approx 0.041$While $b \to u$ proceeds with
+$\lvert V_{cb}\rvert \approx 0.041$ While $b \to u$ proceeds with
 $\lvert V_{ub}\rvert \approx 0.0036$. The ratio of partial widths is approximately:
 
-$$\frac{\Gamma(b \to u)}{\Gamma(b \to c)} \sim \frac{\lvert V_{ub}\rvert^2}{\lvert V_{cb}\rvert^2} = \frac{(0.0036)^2}{(0.041)^2} \approx 0.0077$$
+$$
+\frac{\Gamma(b \to u)}{\Gamma(b \to c)} \sim \frac{\lvert V_{ub}\rvert^2}{\lvert V_{cb}\rvert^2} = \frac{(0.0036)^2}{(0.041)^2} \approx 0.0077
+$$
 
 This means the $b \to u$ transition is suppressed by roughly two orders of magnitude Relative to
-$b \to c$Which is why the $B$ meson predominantly decays to charm, not Up quarks.
+$b \to c$ Which is why the $B$ meson predominantly decays to charm, not Up quarks.
 
 </details>
 
@@ -252,6 +277,6 @@ Some particles are their own antiparticles (such as the photon, $Z^0$, and $\pi^
 - **[Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)**: The coupling constants of the Standard Model depend on the energy scale through the renormalisation group.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

@@ -58,11 +58,11 @@ Entirely via source compilation.
 
 ### 1. System Package Managers (The "Distro" Model)
 
-- **Tools:** `apt``pacman``brew``choco`.
-- **Mechanism:** Libraries are installed globally into system paths (`/usr/lib``/usr/include`).
+- **Tools:** `apt`, `pacman`, `brew`, `choco`.
+- **Mechanism:** Libraries are installed globally into system paths (`/usr/lib`, `/usr/include`).
 - **Architecture:**
 - **Pre-built Binaries:** The package maintainer decides the compiler and flags.
-- **Shared Linkage:** provides shared objects (`.so``.dll`) linked dynamically.
+- **Shared Linkage:** provides shared objects (`.so`, `.dll`) linked dynamically.
 - **Critical Drawbacks:**
 - **ABI Mismatch:** The system library might use `libstdc++` while you wish to use `libc++`.
 - **Version Locking:** You are restricted to the version provided by the OS repository (often
@@ -138,6 +138,8 @@ Package managers can be classified along several axes:
 
 ### Source-Based vs. Binary vs. Registry-Based
 
+<div class="table-wrap">
+
 | Axis                 | Source-Based                     | Binary-Based                  | Registry-Based                                           |
 | -------------------- | -------------------------------- | ----------------------------- | -------------------------------------------------------- |
 | **Mechanism**        | Downloads source, builds locally | Downloads pre-built artifacts | Resolves metadata from a registry, may build or download |
@@ -146,7 +148,11 @@ Package managers can be classified along several axes:
 | **Infrastructure**   | None (just Git)                  | Requires artifact server      | Requires registry server                                 |
 | **Examples**         | CPM.cmake, vcpkg (default)       | Conan (primary mode)          | Cargo, npm, vcpkg (with binary cache)                    |
 
+</div>
+
 ### Feature Matrix of C++ Package Managers
+
+<div class="table-wrap">
 
 | Feature               | vcpkg                  | Conan 2.x            | CPM.cmake          | Buck2      | xmake            |
 | --------------------- | ---------------------- | -------------------- | ------------------ | ---------- | ---------------- |
@@ -157,6 +163,8 @@ Package managers can be classified along several axes:
 | **Cross-Compilation** | Triplets               | Profiles + settings  | Inherits host      | Profiles   | Platform configs |
 | **Lockfile**          | `vcpkg.json` baseline  | `conan.lock`         | None (Git SHA)     | Lockfile   | Lockfile         |
 | **Language**          | CMake (portfiles)      | Python (conanfile)   | CMake              | Starlark   | Lua              |
+
+</div>
 
 ## Lockfile Formats and Determinism
 
@@ -249,6 +257,8 @@ Changing the public API. This makes SemVer an imperfect fit for C++ binary depen
 
 ### Constraint Operators
 
+<div class="table-wrap">
+
 | Operator      | Example              | Matches                  | Does Not Match |
 | ------------- | -------------------- | ------------------------ | -------------- |
 | **Exact**     | `=1.2.3`             | 1.2.3                    | 1.2.4, 1.3.0   |
@@ -256,6 +266,8 @@ Changing the public API. This makes SemVer an imperfect fit for C++ binary depen
 | **Tilde** `~` | `~1.2.3`             | $\geq$ 1.2.3, &lt; 1.3.0 | 1.3.0          |
 | **Range**     | `>=1.0.0 &lt; 2.0.0` | 1.5.0                    | 2.0.0          |
 | **Wildcard**  | `1.*`                | 1.0.0, 1.9.9             | 2.0.0          |
+
+</div>
 
 **Caret** allows changes that do not modify the left-most non-zero digit. This is the default in
 Cargo and Conan.
@@ -274,7 +286,7 @@ Vcpkg uses its own constraint syntax:
 }
 ```
 
-Supported operators: `version>=``version>``version<=``version<``version=`. Combined with the
+Supported operators: `version>=`, `version>`, `version<=`, `version<`, `version=`. Combined with the
 Baseline mechanism, this allows upgrading specific packages while keeping the rest of the ecosystem
 Frozen.
 
@@ -300,11 +312,15 @@ my-app (root)
 
 ### Graph Size in Practice
 
+<div class="table-wrap">
+
 | Project Type         | Direct Deps | Total (with transitive) |
 | -------------------- | ----------- | ----------------------- |
 | Small CLI tool       | 2-5         | 5-15                    |
 | Medium application   | 10-20       | 30-80                   |
 | Large framework (Qt) | 5-10        | 200+                    |
+
+</div>
 
 Managing transitive dependencies is why SAT solving and lockfiles matter: a change at depth 3 can
 Cascade to affect the entire build.
@@ -313,12 +329,16 @@ Cascade to affect the entire build.
 
 Package names across different registries follow different conventions:
 
+<div class="table-wrap">
+
 | Package       | Conan                  | vcpkg           | System (apt)         |
 | :------------ | :--------------------- | :-------------- | :------------------- |
 | fmt           | `fmt/10.1.1`           | `fmt`           | `libfmt-dev`         |
 | nlohmann_json | `nlohmann_json/3.11.2` | `nlohmann-json` | `nlohmann-json3-dev` |
 | OpenSSL       | `openssl/3.1.2`        | `openssl`       | `libssl-dev`         |
 | zlib          | `zlib/1.2.13`          | `zlib`          | `zlib1g-dev`         |
+
+</div>
 
 The inconsistency in naming (`nlohmann_json` vs `nlohmann-json` vs `nlohmann-json3-dev`) is a
 Consequence of the fragmented ecosystem. When migrating between package managers, name mapping is
@@ -347,15 +367,19 @@ Graphs with thousands of packages in milliseconds.
 
 Some simpler resolvers (early vcpkg, CPM.cmake) use a greedy approach: they resolve dependencies
 Depth-first and accept the first version that satisfies the immediate constraints. This is faster
-But can produce suboptimal or conflicting results.
+but can produce suboptimal or conflicting results.
 
 ### Resolution Comparison
+
+<div class="table-wrap">
 
 | Strategy              | Optimality               | Speed                            | Conflict Reporting                 |
 | --------------------- | ------------------------ | -------------------------------- | ---------------------------------- |
 | **SAT solver**        | Guaranteed optimal       | Moderate (ms for typical graphs) | Precise conflict sets              |
 | **Greedy/first-wins** | May miss valid solutions | Fast                             | Vague ("version conflict")         |
 | **Backtracking**      | Optimal (exhaustive)     | Slow (worst case exponential)    | Can report why each attempt failed |
+
+</div>
 
 ## The Diamond Dependency Problem
 
@@ -378,14 +402,14 @@ Linker errors or runtime undefined behavior (segfaults).
 ### The Solution (SAT Solving)
 
 C++ Package managers must perform **SAT (Boolean Satisfiability) Solving** to find a single version
-Of `JsonLib` that satisfies the constraints of both `LibA` and `LibB`.
+of `JsonLib` that satisfies the constraints of both `LibA` and `LibB`.
 
-- If `LibA` requires `JsonLib >= 1.0` and `LibB` requires `JsonLib >= 2.0`The solver selects `2.0`.
-- If `LibA` requires `JsonLib < 2.0` and `LibB` requires `JsonLib >= 2.0`The build **must fail**
+- If `LibA` requires `JsonLib >= 1.0` and `LibB` requires `JsonLib >= 2.0`. The solver selects `2.0`.
+- If `LibA` requires `JsonLib < 2.0` and `LibB` requires `JsonLib >= 2.0`. The build **must fail**
   before compilation begins.
 
 This is a fundamental advantage of SAT-based resolution over greedy approaches: the solver can prove
-That no valid solution exists and report a precise conflict, rather than silently producing a broken
+that no valid solution exists and report a precise conflict, rather than silently producing a broken
 Build.
 
 ## Best Practice Recommendation
@@ -404,7 +428,7 @@ For the architecture described in this course, we adhere to the following hierar
 
 C++ dependency management introduces supply chain risks that differ from interpreted languages.
 Because C++ compiles to native machine code, a compromised dependency can execute arbitrary code
-With the full privileges of the host process -- there is no sandbox or bytecode verifier.
+with the full privileges of the host process -- there is no sandbox or bytecode verifier.
 
 ### Attack Vectors
 
@@ -479,7 +503,7 @@ Interface, catching common packaging errors and potential tampering.
   implementations (libstdc++ vs libc++) are binary-incompatible even if they use the same compiler
   version.
 - **Not committing the lockfile:** A lockfile that is not in version control provides no
-  reproducibility guarantee. Always commit `vcpkg.json``conan.lock`Or equivalent to the repository.
+  reproducibility guarantee. Always commit `vcpkg.json`, `conan.lock` or equivalent to the repository.
 - **Overriding dependencies without understanding the cascade:** Using vcpkg overrides or Conan
   `requires` to force a specific version of a transitive dependency may break the dependency that
   originally required it. Always verify that the override satisfies all constraints.
@@ -501,7 +525,7 @@ The package manager must ensure that:
 
 1. `fmt 10.1.0` is built with the same compiler flags as `spdlog 2.1.0` and `my-app`.
 2. `fmt 10.1.0` is built exactly once and shared by all consumers.
-3. If `spdlog` were updated to `2.2.0` which requires `fmt >= 10.2.0`The resolver would either
+3. If `spdlog` were updated to `2.2.0` which requires `fmt >= 10.2.0`. The resolver would either
    upgrade `fmt` to `10.2.0` (satisfying both constraints) or report a conflict if `10.2.0` is not
    available.
 
@@ -518,14 +542,18 @@ Seconds.
 ### Version Conflicts in Transitive Dependencies
 
 A version conflict occurs when two direct (or transitive) dependencies require incompatible versions
-Of the same transitive dependency. The package manager's resolution algorithm determines how this is
+of the same transitive dependency. The package manager's resolution algorithm determines how this is
 Handled:
+
+<div class="table-wrap">
 
 | Package Manager | Conflict Behavior                                                                              |
 | :-------------- | :--------------------------------------------------------------------------------------------- |
 | **vcpkg**       | Fails at configure time with a clear error message                                             |
 | **Conan 2.x**   | SAT solver finds a compatible version or reports a conflict with the unsatisfiable constraints |
 | **CPM.cmake**   | First-wins: the first resolved version is used, potentially violating later constraints        |
+
+</div>
 
 The "first-wins" behavior of CPM.cmake is a known limitation. It means that if `LibA` (resolved
 First) requires `fmt >= 9.0` and `LibB` (resolved second) requires `fmt >= 10.0`CPM.cmake may use
@@ -565,7 +593,7 @@ Both vcpkg and Conan integrate with CMake by either:
 
 The key point is that `find_package()` is the common interface. The package manager handles
 Downloading, building, and installing dependencies behind the scenes, and `find_package()` locates
-The result.
+the result.
 
 ### Which to Use
 
@@ -621,7 +649,7 @@ Pre-built artifact instead of rebuilding from source.
 The cache key is a hash of:
 
 1. Source code content (Git SHA of the dependency).
-2. Compiler version and flags (`-std=c++23``-O2``-fPIC`).
+2. Compiler version and flags (`-std=c++23`, `-O2`, `-fPIC`).
 3. Platform triplet (os-arch-compiler-runtime).
 4. CMake toolchain file content.
 5. Dependency's own dependencies (transitive cache key).
@@ -629,6 +657,8 @@ The cache key is a hash of:
 If any of these inputs change, the cache key changes and the binary must be rebuilt.
 
 ### Cache Storage Backends
+
+<div class="table-wrap">
 
 | Backend              | Tool Support                  | Use Case                         |
 | :------------------- | :---------------------------- | :------------------------------- |
@@ -638,10 +668,12 @@ If any of these inputs change, the cache key changes and the binary must be rebu
 | **Azure Blob**       | vcpkg (NuGet), Conan          | Azure DevOps                     |
 | **NFS mount**        | vcpkg (binary cache), Conan   | On-premise CI farm               |
 
+</div>
+
 ### vcpkg Binary Caching
 
 Vcpkg supports multiple binary cache backends via the `X_VCPKG_ASSET_SOURCES` environment variable
-Or CMake variable:
+or CMake variable:
 
 ```cmake
 # Use a local binary cache directory
@@ -669,12 +701,12 @@ conan install . --requires mylib/1.0.0 -r=my-remote
 ```
 
 If the consumer's profile hash does not match any uploaded package, Conan falls back to building
-From source and optionally uploading the result.
+from source and optionally uploading the result.
 
 ## Cross-Compilation and Dependency Management
 
 Cross-compilation introduces additional complexity because the host machine (running the build) and
-The target machine (running the binary) have different ABIs. Package managers must handle this
+the target machine (running the binary) have different ABIs. Package managers must handle this
 Explicitly.
 
 ### vcpkg Triplets
@@ -713,7 +745,7 @@ conan install . -pr:h arm64-linux -pr:b x86_64-linux
 ```
 
 The `-pr:h` flag specifies the host profile (target), and `-pr:b` specifies the build profile (where
-The compiler runs). This is necessary when cross-compiling because the dependency may need to run a
+the compiler runs). This is necessary when cross-compiling because the dependency may need to run a
 Build step (e.g., code generation) on the host machine.
 
 ## Monorepo Dependency Management
@@ -747,17 +779,6 @@ Dependencies change rarely. Build caching for internal dependencies requires a d
 - [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/)
 - [Cross-compilation Toolchains](/enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains/)
 
-
-```mermaid
-flowchart TD
-    A[1_Dependency_Architectures_Models] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to dependency resolution, including
@@ -771,10 +792,5 @@ key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

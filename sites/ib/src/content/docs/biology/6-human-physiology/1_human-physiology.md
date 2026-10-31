@@ -29,7 +29,7 @@ tags:
 ### Overview
 
 Digestion is the mechanical and chemical breakdown of food into small, soluble molecules that can be
-Absorbed across the intestinal wall into the blood or lymph.
+absorbed across the intestinal wall into the blood or lymph.
 
 ### Mechanical Digestion
 
@@ -48,7 +48,7 @@ Maltose.
 
 **Gastric juice** contains:
 
-- **Hydrochloric acid** ($\mathrm{HCl}$PH $\approx 1.5$--$2.0$): denatures proteins, kills ingested
+- **Hydrochloric acid** ($\mathrm{HCl}$ PH $\approx 1.5$--$2.0$): denatures proteins, kills ingested
   microorganisms, provides optimal pH for pepsin.
 - **Pepsin** (secreted as inactive **pepsinogen** by chief cells; activated by $\mathrm{HCl}$):
   endopeptidase that hydrolyses peptide bonds, breaking proteins into polypeptides.
@@ -58,7 +58,9 @@ Maltose.
 #### Small Intestine
 
 The majority of digestion occurs here. **Pancreatic juice** and **bile** are released into the
-Duodenum.
+duodenum.
+
+<div class="table-wrap">
 
 | Enzyme             | Source                    | Substrate     | Products               | Optimal pH       |
 | ------------------ | ------------------------- | ------------- | ---------------------- | ---------------- |
@@ -69,14 +71,16 @@ Duodenum.
 | Lactase            | Intestinal wall           | Lactose       | Glucose + galactose    | $\approx 7$--$8$ |
 | Sucrase            | Intestinal wall           | Sucrose       | Glucose + fructose     | $\approx 7$--$8$ |
 
+</div>
+
 **Bile** (produced in the liver, stored in the gallbladder) emulsifies fats: bile salts break large
 Fat globules into smaller droplets, increasing the surface area for lipase action. Bile is not an
-Enzyme.
+enzyme.
 
 #### Large Intestine
 
 Absorption of water and mineral ions. Undigested material forms faeces, eliminated via the rectum
-And anus.
+and anus.
 
 ### Absorption
 
@@ -105,6 +109,8 @@ The **small intestine** is the primary site of absorption. Adaptations for absor
 
 ### Blood Vessels
 
+<div class="table-wrap">
+
 | Feature        | Arteries                 | Veins                               | Capillaries                               |
 | -------------- | ------------------------ | ----------------------------------- | ----------------------------------------- |
 | Wall structure | Thick, muscular, elastic | Thinner, less muscular, with valves | Single layer of endothelial cells         |
@@ -112,6 +118,8 @@ The **small intestine** is the primary site of absorption. Adaptations for absor
 | Pressure       | High                     | Low                                 | Low (drops from arteriolar end)           |
 | Direction      | Away from heart          | Toward heart                        | Between arteries and veins                |
 | Valves         | Absent                   | Present (prevent backflow)          | Absent                                    |
+
+</div>
 
 ### The Heart
 
@@ -137,6 +145,8 @@ Typical resting cardiac output: $\approx 5\;\mathrm{L/min}$.
 
 ### Blood Components
 
+<div class="table-wrap">
+
 | Component                      | Function                                                                                                  |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | Red blood cells (erythrocytes) | Transport $\mathrm{O}_2$ (bound to haemoglobin) and $\mathrm{CO}_2$ (as bicarbonate, $\mathrm{HCO}_3^-$). |
@@ -144,10 +154,12 @@ Typical resting cardiac output: $\approx 5\;\mathrm{L/min}$.
 | Platelets (thrombocytes)       | Cell fragments involved in blood clotting (initiate the cascade leading to fibrin mesh formation).        |
 | Plasma                         | Liquid matrix: transports dissolved substances (glucose, amino acids, urea, hormones, antibodies).        |
 
+</div>
+
 ### Haemoglobin and Oxygen Transport
 
 Haemoglobin ($\mathrm{Hb}$) is a quaternary protein with four subunits, each containing a haem group
-With an iron ion ($\mathrm{Fe}^{2+}$) that binds one $\mathrm{O}_2$ molecule.
+with an iron ion ($\mathrm{Fe}^{2+}$) that binds one $\mathrm{O}_2$ molecule.
 
 **Oxygen dissociation curve**: an S-shaped (sigmoidal) curve plotting percentage saturation of
 $\mathrm{Hb}$ against partial pressure of $\mathrm{O}_2$ ($\mathrm{pO}_2$).
@@ -155,7 +167,7 @@ $\mathrm{Hb}$ against partial pressure of $\mathrm{O}_2$ ($\mathrm{pO}_2$).
 - High $\mathrm{pO}_2$ (lungs): $\mathrm{Hb}$ has high affinity for $\mathrm{O}_2$; loading occurs
   (steep part of curve).
 - Low $\mathrm{pO}_2$ (respiring tissues): $\mathrm{Hb}$ affinity decreases; unloading occurs.
-- The curve shifts right (lower affinity, more unloading) with increased $\mathrm{CO}_2$Decreased pH
+- The curve shifts right (lower affinity, more unloading) with increased $\mathrm{CO}_2$ Decreased pH
   (Bohr effect), increased temperature, and increased $23$-BPG (produced in active tissues).
 
 ---
@@ -175,6 +187,8 @@ $\mathrm{Hb}$ against partial pressure of $\mathrm{O}_2$ ($\mathrm{pO}_2$).
 
 First-line and second-line defences that act regardless of the pathogen.
 
+<div class="table-wrap">
+
 | Barrier / Response | Mechanism                                                                                                                                          |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Skin               | Physical barrier; sebum inhibits microbial growth.                                                                                                 |
@@ -182,6 +196,8 @@ First-line and second-line defences that act regardless of the pathogen.
 | Phagocytes         | Neutrophils and macrophages engulf and digest pathogens by phagocytosis.                                                                           |
 | Inflammation       | Histamine release increases capillary permeability, causing swelling, redness, heat, and pain; increased blood flow brings phagocytes to the site. |
 | Fever              | Elevated body temperature inhibits pathogen replication and enhances immune cell activity.                                                         |
+
+</div>
 
 **Phagocytosis steps**:
 
@@ -235,7 +251,7 @@ Antibodies are Y-shaped proteins produced by plasma cells. Each antibody has:
 
 Vaccines introduce a weakened, inactivated, or subunit form of a pathogen (or its antigen),
 Stimulating the adaptive immune system to produce memory cells without causing disease. Upon
-Subsequent exposure, memory cells mount a faster and stronger secondary immune response.
+subsequent exposure, memory cells mount a faster and stronger secondary immune response.
 
 ---
 
@@ -253,7 +269,9 @@ Subsequent exposure, memory cells mount a faster and stronger secondary immune r
 ### Alveolar Structure and Adaptations
 
 The lungs contain millions of **alveoli** (air sacs), the sites of gas exchange between air and
-Blood.
+blood.
+
+<div class="table-wrap">
 
 | Adaptation                          | Significance                                                                         |
 | ----------------------------------- | ------------------------------------------------------------------------------------ |
@@ -262,6 +280,8 @@ Blood.
 | Dense capillary network             | Maintains concentration gradient; large blood supply.                                |
 | Moist inner surface                 | Gases dissolve before diffusing across the membrane.                                 |
 | Ventilation (breathing)             | Constantly refreshes air, maintaining $\mathrm{O}_2$ and $\mathrm{CO}_2}$ gradients. |
+
+</div>
 
 ### Diffusion of Gases
 
@@ -273,10 +293,14 @@ Alveolar air ($\mathrm{pCO}_2 \approx 5.3\;\mathrm{kPa}$).
 
 ### Ventilation
 
+<div class="table-wrap">
+
 | Phase           | Muscles involved                                                                          | Volume change             | Pressure change                                     | Air movement  |
 | --------------- | ----------------------------------------------------------------------------------------- | ------------------------- | --------------------------------------------------- | ------------- |
 | **Inspiration** | External intercostal muscles contract (ribs up and out); diaphragm contracts and flattens | Thoracic volume increases | Intrapulmonary pressure decreases below atmospheric | Air flows in  |
 | **Expiration**  | External intercostal muscles relax; diaphragm relaxes and domes upward                    | Thoracic volume decreases | Intrapulmonary pressure increases above atmospheric | Air flows out |
+
+</div>
 
 ---
 
@@ -326,7 +350,7 @@ A rapid reversal and restoration of the membrane potential.
 
 **Propagation**: the action potential travels along the axon. In myelinated axons, the action
 Potential "jumps" between nodes of Ranvier (**saltatory conduction**), which is much faster than
-Continuous propagation in unmyelinated axons.
+continuous propagation in unmyelinated axons.
 
 ### Synapses
 
@@ -367,6 +391,8 @@ Effector cell) where signals are transmitted chemically.
 Hormones are chemical messengers secreted by endocrine glands into the bloodstream, acting on target
 Cells with specific receptors.
 
+<div class="table-wrap">
+
 | Gland               | Hormone(s)                                                    | Function                                                                 |
 | ------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | Hypothalamus        | Releasing hormones (e.g., GnRH, TRH)                          | Regulate anterior pituitary; connects nervous and endocrine systems      |
@@ -378,24 +404,34 @@ Cells with specific receptors.
 | Pancreas            | Insulin, glucagon                                             | Blood glucose regulation                                                 |
 | Ovaries / Testes    | Oestrogen, progesterone / testosterone                        | Secondary sex characteristics, reproductive cycle                        |
 
+</div>
+
 ### Blood Glucose Regulation
 
 **Normal fasting blood glucose**: $\approx 5\;\mathrm{mmol/L}$.
+
+<div class="table-wrap">
 
 | Condition                                  | Sensor                           | Hormone      | Response                                                                                                                                                                |
 | ------------------------------------------ | -------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Blood glucose **high** (after a meal)      | Beta cells of pancreatic islets  | **Insulin**  | Stimulates uptake of glucose by liver, muscle, and adipose cells; promotes glycogenesis (glycogen synthesis) in the liver; inhibits glycogenolysis and gluconeogenesis. |
 | Blood glucose **low** (fasting / exercise) | Alpha cells of pancreatic islets | **Glucagon** | Stimulates glycogenolysis (glycogen breakdown) in the liver; stimulates gluconeogenesis (synthesis of glucose from non-carbohydrate sources).                           |
 
+</div>
+
 ### Thermoregulation
 
 The **hypothalamus** acts as the body"s thermostat, receiving input from thermoreceptors in the skin
-And core.
+and core.
+
+<div class="table-wrap">
 
 | Condition                                                   | Mechanisms of Heat Loss                                                                      | Mechanisms of Heat Conservation / Production                                                                                                              |
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Body temperature **above** set point ($37^\circ\mathrm{C}$) | Vasodilation of skin blood vessels; sweating (evaporative cooling); decreased metabolic rate | ---                                                                                                                                                       |
 | Body temperature **below** set point                        | Vasoconstriction of skin blood vessels                                                       | Shivering (involuntary muscle contraction); increased metabolic rate (hormonal: thyroxine, adrenaline); piloerection (goosebumps --- vestigial in humans) |
+
+</div>
 
 ---
 
@@ -451,6 +487,8 @@ And core.
 
 ### The Menstrual Cycle
 
+<div class="table-wrap">
+
 | Phase                    | Days (approx.) | Ovarian events                                      | Hormonal changes                                                                      | Uterine events                                             |
 | ------------------------ | -------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | **Menstruation**         | 1--5           | ---                                                 | Low oestrogen and progesterone                                                        | Endometrium is shed (menstrual flow).                      |
@@ -458,6 +496,8 @@ And core.
 | **Ovulation**            | Day 14         | Mature follicle ruptures; secondary oocyte released | LH surge triggers ovulation; oestrogen peak                                           | ---                                                        |
 | **Luteal phase**         | 15--28         | Ruptured follicle becomes corpus luteum             | Progesterone rises (maintains endometrium); LH and FSH remain low (negative feedback) | Endometrium is maintained; secretes glycogen.              |
 | **(If no implantation)** | Day 28         | Corpus luteum degenerates                           | Oestrogen and progesterone drop                                                       | Endometrium breaks down; cycle restarts.                   |
+
+</div>
 
 ---
 
@@ -509,10 +549,10 @@ Describe the consequence for oxygen unloading.
 
 In actively respiring muscle tissue, $\mathrm{CO}_2$ concentration increases, pH decreases (Bohr
 Effect), and temperature rises. These factors reduce haemoglobin's affinity for $\mathrm{O}_2$
-Shifting the dissociation curve to the right. At any given $\mathrm{pO}_2$A lower percentage of
-$\mathrm{Hb}$ is saturated with $\mathrm{O}_2$Meaning more $\mathrm{O}_2$ is unloaded from
+Shifting the dissociation curve to the right. At any given $\mathrm{pO}_2$ A lower percentage of
+$\mathrm{Hb}$ is saturated with $\mathrm{O}_2$ Meaning more $\mathrm{O}_2$ is unloaded from
 Haemoglobin into the tissues. This ensures that active muscles receive a greater supply of oxygen to
-Sustain aerobic respiration.
+sustain aerobic respiration.
 
 </details>
 
@@ -520,7 +560,7 @@ Sustain aerobic respiration.
 <summary>Question 2: Action Potential Calculation</summary>
 
 The resting membrane potential of a neurone is $-70\;\mathrm{mV}$. During an action potential, the
-Membrane potential reaches $+40\;\mathrm{mV}$. Calculate the magnitude of the change in membrane
+membrane potential reaches $+40\;\mathrm{mV}$. Calculate the magnitude of the change in membrane
 Potential during depolarisation.
 
 </details>
@@ -538,8 +578,8 @@ The membrane potential changes by $110\;\mathrm{mV}$ during depolarisation.
 <summary>Question 3: Immune Response Pathway</summary>
 
 A person is bitten by a mosquito carrying the malaria parasite (_Plasmodium_), which enters their
-Liver cells. Describe how cell-mediated immunity would respond to this infection, naming the
-Specific cells and molecules involved.
+liver cells. Describe how cell-mediated immunity would respond to this infection, naming the
+specific cells and molecules involved.
 
 </details>
 
@@ -564,8 +604,8 @@ Specific cells and molecules involved.
 <summary>Question 4: Hormonal Feedback</summary>
 
 A tumour on the anterior pituitary causes excessive secretion of TSH. Predict the effect on the
-Thyroid gland and on blood levels of thyroxine ($\mathrm{T}_4$). Explain whether this is positive or
-Negative feedback.
+thyroid gland and on blood levels of thyroxine ($\mathrm{T}_4$). Explain whether this is positive or
+negative feedback.
 
 </details>
 
@@ -573,9 +613,9 @@ Negative feedback.
 <summary>Answer</summary>
 
 Excessive TSH (thyroid-stimulating hormone) would overstimulate the thyroid gland, causing it to
-Enlarge (goitre) and secrete excess thyroxine ($\mathrm{T}_4$). Blood thyroxine levels would be
-Elevated (hyperthyroidism), leading to increased metabolic rate, weight loss, rapid heart rate, and
-Other symptoms.
+enlarge (goitre) and secrete excess thyroxine ($\mathrm{T}_4$). Blood thyroxine levels would be
+elevated (hyperthyroidism), leading to increased metabolic rate, weight loss, rapid heart rate, and
+other symptoms.
 
 Normally, thyroxine exerts **negative feedback** on both the hypothalamus (reducing TRH secretion)
 And the anterior pituitary (reducing TSH secretion). In this case, the tumour disrupts this feedback
@@ -589,7 +629,7 @@ Concentration.
 <summary>Question 5: Digestion and Absorption</summary>
 
 A patient has a condition that prevents the pancreas from secreting lipase. Explain the consequence
-For fat digestion and absorption, and predict what would be found in the patient's faeces.
+for fat digestion and absorption, and predict what would be found in the patient's faeces.
 
 </details>
 
@@ -599,9 +639,9 @@ For fat digestion and absorption, and predict what would be found in the patient
 Without pancreatic lipase, triglycerides in the small intestine cannot be hydrolysed into
 Monoglycerides and free fatty acids. Although bile salts still emulsify the fat into smaller
 Droplets, the large triglyceride molecules cannot be absorbed across the intestinal epithelium (they
-Are too large and hydrophobic). The undigested fat passes into the large intestine and is excreted
-In the faeces. The faeces would be pale, bulky, greasy, and difficult to flush (steatorrhoea). The
-Patient would also experience fat-soluble vitamin (A, D, E, K) deficiencies due to malabsorption,
+are too large and hydrophobic). The undigested fat passes into the large intestine and is excreted
+in the faeces. The faeces would be pale, bulky, greasy, and difficult to flush (steatorrhoea). The
+patient would also experience fat-soluble vitamin (A, D, E, K) deficiencies due to malabsorption,
 Since these vitamins require dietary fat for absorption.
 
 </details>
@@ -625,8 +665,8 @@ A $70\;\mathrm{kg}$ athlete at rest has a heart rate of $60\;\mathrm{bpm}$ and a
 $70\;\mathrm{mL}$. During maximal exercise, her heart rate increases to $190\;\mathrm{bpm}$ and her
 Stroke volume increases to $120\;\mathrm{mL}$. Her arterial $\mathrm{O}_2$ content is
 $200\;\mathrm{mL\;O_2/L}$ blood and her venous $\mathrm{O}_2$ content is $150\;\mathrm{mL\;O_2/L}$
-At rest, decreasing to $50\;\mathrm{mL\;O_2/L}$ during exercise. Calculate the cardiac output and
-Oxygen consumption at rest and during maximal exercise.
+at rest, decreasing to $50\;\mathrm{mL\;O_2/L}$ during exercise. Calculate the cardiac output and
+oxygen consumption at rest and during maximal exercise.
 
 <details>
 <summary>Solution</summary>
@@ -643,7 +683,7 @@ $\mathrm{Cardiac\;output} = 120\;\mathrm{mL} \times 190\;\mathrm{bpm} = 22800\;\
 $\mathrm{O_2\;consumption} = 22.8\;\mathrm{L/min} \times (200 - 50)\;\mathrm{mL\;O_2/L} = 22.8 \times 150 = 3420\;\mathrm{mL\;O_2/min}$
 
 The athlete's cardiac output increases $5.4$-fold and oxygen consumption increases $16.3$-fold from
-Rest to maximal exercise. The larger increase in $\mathrm{O}_2$ consumption relative to cardiac
+rest to maximal exercise. The larger increase in $\mathrm{O}_2$ consumption relative to cardiac
 output Is explained by the increased oxygen extraction (a-v difference doubles from $50$ to
 $150\;\mathrm{mL\;O_2/L}$), demonstrating that both increased blood flow and increased tissue oxygen
 Extraction contribute to meeting exercise demands.
@@ -655,8 +695,8 @@ Extraction contribute to meeting exercise demands.
 A patient's fasting blood glucose is measured at $12\;\mathrm{mmol/L}$ (normal: approximately
 $5\;\mathrm{mmol/L}$). The total blood volume is $5\;\mathrm{L}$. The molar mass of glucose is
 $180\;\mathrm{g/mol}$. Calculate the mass of excess glucose in the patient's blood. Assuming the
-Renal threshold for glucose is approximately $10\;\mathrm{mmol/L}$Explain why glucose would appear
-In the urine (glycosuria).
+Renal threshold for glucose is approximately $10\;\mathrm{mmol/L}$ Explain why glucose would appear
+in the urine (glycosuria).
 
 <details>
 <summary>Solution</summary>
@@ -671,9 +711,9 @@ $35 \times 10^{-3}\;\mathrm{mol} \times 180\;\mathrm{g/mol} = 6.3\;\mathrm{g}$
 **Total glucose in blood**:
 $12\;\mathrm{mmol/L} \times 5\;\mathrm{L} = 60\;\mathrm{mmol} = 10.8\;\mathrm{g}$
 
-The blood glucose exceeds the renal threshold of $10\;\mathrm{mmol/L}$Meaning the proximal
+The blood glucose exceeds the renal threshold of $10\;\mathrm{mmol/L}$ Meaning the proximal
 Convoluted tubule's $\mathrm{Na}^+$-glucose co-transporters (SGLT2) are saturated. The excess
-Glucose ($12 - 10 = 2\;\mathrm{mmol/L}$Or $10\;\mathrm{mmol}$ total, equivalent to
+Glucose ($12 - 10 = 2\;\mathrm{mmol/L}$ Or $10\;\mathrm{mmol}$ total, equivalent to
 $1.8\;\mathrm{g}$) Cannot be reabsorbed and remains in the filtrate, appearing in the urine. This is
 a hallmark of Diabetes mellitus. The osmotic effect of unreabsorbed glucose in the renal tubule also
 draws water Into the urine, causing polyuria (excessive urination).
@@ -683,8 +723,8 @@ draws water Into the urine, causing polyuria (excessive urination).
 **Worked Example: Neurone Conduction Velocity**
 
 A myelinated motor neurone has nodes of Ranvier spaced $1.5\;\mathrm{mm}$ apart. The time for an
-Action potential to travel between two adjacent nodes is $0.02\;\mathrm{ms}$. Calculate the
-Conduction velocity between nodes. If the axon length is $0.6\;\mathrm{m}$Calculate the total
+action potential to travel between two adjacent nodes is $0.02\;\mathrm{ms}$. Calculate the
+conduction velocity between nodes. If the axon length is $0.6\;\mathrm{m}$ Calculate the total
 Transmission time and compare this with an unmyelinated axon of the same diameter with a conduction
 Velocity of $2\;\mathrm{m/s}$.
 
@@ -786,7 +826,9 @@ Increase in peak titre and the time to peak, and explain the cellular basis for 
 <summary>Problem 1: Data Analysis -- Oxygen Dissociation Curves</summary>
 
 The following data show the percentage saturation of haemoglobin at different partial pressures of
-Oxygen:
+oxygen:
+
+<div class="table-wrap">
 
 | $\mathrm{pO}_2$ (kPa) | Normal Hb (%) | Fetal Hb (%) |
 | --------------------- | ------------- | ------------ |
@@ -797,6 +839,8 @@ Oxygen:
 | 8.0                   | 85            | 95           |
 | 10.0                  | 92            | 97           |
 | 13.3                  | 98            | 98           |
+
+</div>
 
 (a) Plot both curves on the same axes. (b) Explain the physiological advantage of fetal haemoglobin
 Having a higher affinity for oxygen at any given $\mathrm{pO}_2$. (c) Calculate the difference in
@@ -812,15 +856,15 @@ Pepsin is secreted as inactive pepsinogen by chief cells in the stomach lining a
 $\mathrm{HCl}$. (a) Explain why pepsin is secreted in an inactive form, relating this to the
 Structure of the stomach wall. (b) Describe the role of enterokinase (enteropeptidase) in activating
 Pancreatic enzymes in the small intestine. (c) Compare and contrast the activation mechanisms of
-Pepsinogen and trypsinogen, explaining how these prevent autodigestion of the digestive tract.
+pepsinogen and trypsinogen, explaining how these prevent autodigestion of the digestive tract.
 
 </details>
 
 <details>
 <summary>Problem 3: Quantitative -- Respiratory Volumes and Alveolar Ventilation</summary>
 
-A patient has the following lung volumes: tidal volume $= 500\;\mathrm{mL}$Vital capacity
-$= 4500\;\mathrm{mL}$Residual volume $= 1500\;\mathrm{mL}$Respiratory rate
+A patient has the following lung volumes: tidal volume $= 500\;\mathrm{mL}$ Vital capacity
+$= 4500\;\mathrm{mL}$ Residual volume $= 1500\;\mathrm{mL}$ Respiratory rate
 $= 15\;\mathrm{breaths/min}$. The dead space volume is $150\;\mathrm{mL}$. Calculate: (a) the Minute
 ventilation, (b) the alveolar ventilation rate, and (c) explain why alveolar ventilation is More
 physiologically relevant than minute ventilation.
@@ -831,9 +875,9 @@ physiologically relevant than minute ventilation.
 <summary>Problem 4: Extended Response -- Synaptic Transmission and Neuropharmacology</summary>
 
 Organophosphate pesticides inhibit acetylcholinesterase. (a) Describe the normal role of
-Acetylcholinesterase at a cholinergic synapse. (b) Explain the effect of organophosphate poisoning
-On synaptic transmission, including the effect on postsynaptic membrane potential. (c) Describe two
-Symptoms that would be expected and explain the physiological basis for each. (d) Explain how
+acetylcholinesterase at a cholinergic synapse. (b) Explain the effect of organophosphate poisoning
+on synaptic transmission, including the effect on postsynaptic membrane potential. (c) Describe two
+symptoms that would be expected and explain the physiological basis for each. (d) Explain how
 Atropine (a muscarinic acetylcholine receptor antagonist) can be used as an antidote.
 
 </details>
@@ -842,6 +886,8 @@ Atropine (a muscarinic acetylcholine receptor antagonist) can be used as an anti
 <summary>Problem 5: Data Analysis -- Menstrual Cycle Hormone Profiles</summary>
 
 The following data show hormone concentrations across a $28$-day menstrual cycle:
+
+<div class="table-wrap">
 
 | Day | Oestrogen (pg/mL) | Progesterone (ng/mL) | LH (mIU/mL) | FSH (mIU/mL) |
 | --- | ----------------- | -------------------- | ----------- | ------------ |
@@ -854,9 +900,11 @@ The following data show hormone concentrations across a $28$-day menstrual cycle
 | 25  | 80                | 8.0                  | 4           | 5            |
 | 28  | 40                | 1.0                  | 5           | 8            |
 
+</div>
+
 (a) Identify the day of ovulation and justify with reference to the data. (b) Describe the feedback
 Mechanism responsible for the LH surge. (c) Explain why progesterone peaks after oestrogen, and what
-Would happen to the cycle if progesterone secretion were artificially maintained at high levels.
+would happen to the cycle if progesterone secretion were artificially maintained at high levels.
 
 </details>
 
@@ -865,7 +913,7 @@ Would happen to the cycle if progesterone secretion were artificially maintained
 
 Compare and contrast the aetiology (cause), pathophysiology, and treatment of Type 1 and Type 2
 Diabetes mellitus. In your response, include the role of beta cells, insulin receptors, and the
-Concept of insulin resistance. Explain why a patient with Type 2 diabetes may not require insulin
+concept of insulin resistance. Explain why a patient with Type 2 diabetes may not require insulin
 Therapy initially, while a Type 1 patient always requires exogenous insulin.
 
 </details>
@@ -874,7 +922,7 @@ Therapy initially, while a Type 1 patient always requires exogenous insulin.
 <summary>Problem 7: Extended Response -- Ventilation Mechanics</summary>
 
 A patient with emphysema has lost alveolar elasticity, reducing the elastic recoil of the lungs. (a)
-Explain how this affects the pressure gradients driving expiration. (b) Describe the consequence For
+explain how this affects the pressure gradients driving expiration. (b) Describe the consequence For
 residual volume and vital capacity. (c) Explain why this patient would have an elevated Respiratory
 rate at rest compared with a healthy individual, relating your answer to alveolar Ventilation and
 gas exchange efficiency.
@@ -885,7 +933,7 @@ gas exchange efficiency.
 <summary>Problem 8: Extended Response -- Kidney Function and Osmoregulation</summary>
 
 The loop of Henle creates a concentration gradient in the medulla of the kidney. Describe how the
-Countercurrent multiplier mechanism in the descending and ascending limbs of the loop of Henle
+countercurrent multiplier mechanism in the descending and ascending limbs of the loop of Henle
 Establishes this gradient. Explain the role of antidiuretic hormone (ADH) in regulating water
 Reabsorption in the collecting duct, and predict the appearance of urine (volume and concentration)
 In a person who has been drinking large volumes of water versus a person who is dehydrated.
@@ -949,8 +997,8 @@ nephrons.
 1. **Glomerulus**: a knot of capillaries inside Bowman's capsule. Blood pressure forces filtrate
    (water, glucose, amino acids, ions, urea) into the capsule (ultrafiltration).
 2. **Bowman's capsule**: cup-shaped structure surrounding the glomerulus; receives the filtrate.
-3. **Proximal convoluted tubule (PCT)**: reabsorbs $\approx 65\%$ of filtered $\mathrm{Na}^+$Water,
-   $\mathrm{K}^+$$\mathrm{Ca}^{2+}$$\mathrm{HCO}_3^-$Glucose, and amino acids. Secretes
+3. **Proximal convoluted tubule (PCT)**: reabsorbs $\approx 65\%$ of filtered $\mathrm{Na}^+$ Water,
+   $\mathrm{K}^+$$\mathrm{Ca}^{2+}$$\mathrm{HCO}_3^-$ Glucose, and amino acids. Secretes
    $\mathrm{H}^+$ and $\mathrm{NH}_4^+$.
 4. **Loop of Henle**: a U-shaped tubule that creates a concentration gradient in the medulla.
 
@@ -973,7 +1021,7 @@ Driven by **hydrostatic pressure** in the glomerular capillaries ($\approx 55\;\
 opposed by:
 
 - Bowman's capsule hydrostatic pressure ($\approx 15\;\mathrm{mmHg}$)
-- Glomerular oncotic pressure ($\approx 30\;\mathrm{mmHg}$From plasma proteins)
+- Glomerular oncotic pressure ($\approx 30\;\mathrm{mmHg}$ From plasma proteins)
 
 Net filtration pressure: $\approx 55 - 15 - 30 = 10\;\mathrm{mmHg}$
 
@@ -982,6 +1030,8 @@ The glomerular filtration rate (GFR) is approximately $125\;\mathrm{mL/min}$ per
 
 ### Selective Reabsorption
 
+<div class="table-wrap">
+
 | Substance       | Filtered/day              | Reabsorbed (%)     | Excreted/day              | Mechanism                                                                         |
 | --------------- | ------------------------- | ------------------ | ------------------------- | --------------------------------------------------------------------------------- |
 | Water           | $180\;\mathrm{L}$         | $\approx 99\%$     | $\approx 1.5\;\mathrm{L}$ | Osmosis (PCT, descending limb, collecting duct with ADH).                         |
@@ -989,6 +1039,8 @@ The glomerular filtration rate (GFR) is approximately $125\;\mathrm{mL/min}$ per
 | Glucose         | $180\;\mathrm{g}$         | $100\%$ (normally) | $\approx 0\;\mathrm{g}$   | Secondary active transport ($\mathrm{Na}^+$-glucose co-transport, SGLT2, in PCT). |
 | Urea            | $\approx 50\;\mathrm{g}$  | $\approx 50\%$     | $\approx 25\;\mathrm{g}$  | Passive diffusion and some secretion.                                             |
 | Amino acids     | $\approx 65\;\mathrm{g}$  | $\approx 100\%$    | $\approx 1\;\mathrm{g}$   | Secondary active transport with $\mathrm{Na}^+$.                                  |
+
+</div>
 
 ### Osmoregulation and ADH
 
@@ -1079,7 +1131,7 @@ Jaundice (yellowing of the skin and sclera) results from elevated bilirubin in t
 - **Vitamin D synthesis**: UV radiation converts 7-dehydrocholesterol in the skin to cholecalciferol
   (vitamin D3), which is converted in the liver and kidneys to the active form
   ($1,25$-dihydroxyvitamin D).
-- **Excretion**: sweat contains water, $\mathrm{Na}^+$$\mathrm{Cl}^-$Urea, and lactic acid.
+- **Excretion**: sweat contains water, $\mathrm{Na}^+$$\mathrm{Cl}^-$ Urea, and lactic acid.
 
 ---
 
@@ -1096,6 +1148,8 @@ Jaundice (yellowing of the skin and sclera) results from elevated bilirubin in t
 
 ### Lung Volumes and Capacities
 
+<div class="table-wrap">
+
 | Volume                               | Definition                                              | Typical value (adult male)                          |
 | ------------------------------------ | ------------------------------------------------------- | --------------------------------------------------- |
 | **Tidal volume (TV)**                | Volume of air inhaled/exhaled during normal breathing   | $\approx 500\;\mathrm{mL}$                          |
@@ -1108,11 +1162,15 @@ Jaundice (yellowing of the skin and sclera) results from elevated bilirubin in t
 | **Minute ventilation**               | TV $\times$ respiratory rate                            | $\approx 7500\;\mathrm{mL/min}$ (at 15 breaths/min) |
 | **Alveolar ventilation**             | (TV - dead space) $\times$ respiratory rate             | $\approx 5250\;\mathrm{mL/min}$                     |
 
+</div>
+
 ### Alveolar Gas Exchange
 
 **Fick's Law** applied to alveolar exchange:
 
-$$\text{Rate of diffusion} \propto \frac{A \times \Delta P}{d}$$
+$$
+\text{Rate of diffusion} \propto \frac{A \times \Delta P}{d}
+$$
 
 - $A$ (surface area) $\approx 70\;\mathrm{m}^2$ in adult lungs.
 - $\Delta P$ (partial pressure gradient) maintained by ventilation.
@@ -1121,7 +1179,9 @@ $$\text{Rate of diffusion} \propto \frac{A \times \Delta P}{d}$$
 
 **Alveolar gas equation:**
 
-$$P_A\mathrm{O}_2 = P_I\mathrm{O}_2 - \frac{P_A\mathrm{CO}_2}{R}$$
+$$
+P_A\mathrm{O}_2 = P_I\mathrm{O}_2 - \frac{P_A\mathrm{CO}_2}{R}
+$$
 
 Where $R$ is the respiratory exchange ratio ($\approx 0.85$ at rest).
 
@@ -1142,6 +1202,8 @@ Where $R$ is the respiratory exchange ratio ($\approx 0.85$ at rest).
 
 The ECG records the electrical activity of the heart using surface electrodes.
 
+<div class="table-wrap">
+
 | Wave / Segment  | Duration (s)   | Amplitude (mV)     | Cardiac event                                                                                |
 | --------------- | -------------- | ------------------ | -------------------------------------------------------------------------------------------- |
 | **P wave**      | $0.08$--$0.12$ | $< 0.25$           | Atrial depolarisation (contraction).                                                         |
@@ -1149,6 +1211,8 @@ The ECG records the electrical activity of the heart using surface electrodes.
 | **QRS complex** | $0.06$--$0.10$ | $1.0$--$1.5$       | Ventricular depolarisation (contraction). Bundle of His + bundle branches + Purkinje fibres. |
 | **ST segment**  | $0.08$--$0.12$ | Isoelectric (flat) | Ventricular repolarisation beginning. Elevation = ischaemia (STEMI).                         |
 | **T wave**      | $0.16$         | $0.1$--$0.5$       | Ventricular repolarisation.                                                                  |
+
+</div>
 
 **Clinical significance:**
 
@@ -1191,7 +1255,7 @@ environment (sweating heavily) versus a person at rest who has been drinking wat
 A patient's GFR is measured at $80\;\mathrm{mL/min}$ (normal: $125\;\mathrm{mL/min}$). Plasma
 Glucose concentration is $5\;\mathrm{mmol/L}$ (MW $= 180\;\mathrm{g/mol}$). (a) Calculate the mass
 of Glucose filtered per day. (b) If the patient has diabetes mellitus and the renal threshold for
-glucose Is $10\;\mathrm{mmol/L}$Calculate the mass of glucose excreted per day. (c) Explain why
+glucose Is $10\;\mathrm{mmol/L}$ Calculate the mass of glucose excreted per day. (c) Explain why
 Glucosuria (glucose in urine) causes increased urine volume (polyuria).
 
 </details>
@@ -1237,7 +1301,7 @@ disease (e.g., pulmonary fibrosis).
 **Worked Example: Cardiac Output and Blood Pressure**
 
 A patient has a heart rate of $72\;\mathrm{bpm}$ and a stroke volume of $70\;\mathrm{mL}$. (a)
-Calculate The cardiac output. (b) If the mean arterial pressure is $93\;\mathrm{mmHg}$Calculate the
+calculate The cardiac output. (b) If the mean arterial pressure is $93\;\mathrm{mmHg}$ Calculate the
 total Peripheral resistance (TPR). (c) During exercise, heart rate increases to $150\;\mathrm{bpm}$
 and stroke Volume increases to $120\;\mathrm{mL}$. Calculate the new cardiac output and the
 percentage increase. (d) Explain how the baroreceptor reflex responds to a sudden drop in blood
@@ -1251,7 +1315,7 @@ $\text{CO} = \text{HR} \times \text{SV} = 72 \times 70 = 5040\;\mathrm{mL/min} =
 
 (b) $\text{MAP} = \text{CO} \times \text{TPR}$ So $\text{TPR} = \text{MAP} / \text{CO}$. Need
 consistent units. $\text{CO} = 5040\;\mathrm{mL/min} = 0.084\;\mathrm{L/s}$.
-$\text{TPR} = 93 / 0.084 = 1107\;\mathrm{mmHg \cdot s/L}$ (or $\text{PRU}$Peripheral resistance
+$\text{TPR} = 93 / 0.084 = 1107\;\mathrm{mmHg \cdot s/L}$ (or $\text{PRU}$ Peripheral resistance
 units). Normal TPR $= 1000$--$1200\;\mathrm{PRU}$.
 
 (c) $\text{CO}_{exercise} = 150 \times 120 = 18000\;\mathrm{mL/min} = 18.0\;\mathrm{L/min}$.
@@ -1339,7 +1403,7 @@ $120$--$130\;\mathrm{mL/min}$; $110$ is Slightly reduced but within or near norm
 
 This is much lower than GFR ($110\;\mathrm{mL/min}$), indicating that glucose is almost completely
 Reabsorbed in the proximal convoluted tubule. Normally, glucose clearance is approximately $0$ (all
-Filtered glucose is reabsorbed). A clearance of $2.0\;\mathrm{mL/min}$ suggests some glucose is
+filtered glucose is reabsorbed). A clearance of $2.0\;\mathrm{mL/min}$ suggests some glucose is
 spilling Into the urine, which occurs when plasma glucose exceeds the renal threshold (approximately
 $180\;\mathrm{mg/dL} = 1.8\;\mathrm{g/L}$). This patient's plasma glucose ($1.0\;\mathrm{g/L}$) is
 below The threshold, so the small clearance may reflect tubular dysfunction or incomplete
@@ -1356,7 +1420,7 @@ This matches normal urine output ($1$--$2\;\mathrm{L/day}$).
 **Worked Example: Hormonal Control of Blood Glucose**
 
 After a carbohydrate-rich meal, blood glucose rises from $5.0$ to $8.5\;\mathrm{mmol/L}$. (a)
-Describe The hormonal response. (b) Calculate the total mass of glucose in the blood if blood volume
+describe The hormonal response. (b) Calculate the total mass of glucose in the blood if blood volume
 is $5\;\mathrm{L}$ (molar mass of glucose $= 180\;\mathrm{g/mol}$). (c) Explain how insulin promotes
 glucose uptake into Muscle and adipose cells. (d) A type 1 diabetic patient has a fasting blood
 glucose of $15\;\mathrm{mmol/L}$. Explain why glucose appears in the urine.
@@ -1396,7 +1460,7 @@ $7.65 - 4.5 = 3.15\;\mathrm{g}$ of glucose in the blood.
 Without Insulin:
 
 - GLUT4 translocation does not occur, so glucose cannot enter muscle and adipose cells efficiently.
-- Blood glucose remains elevated ($15\;\mathrm{mmol/L}$Well above the normal renal threshold of
+- Blood glucose remains elevated ($15\;\mathrm{mmol/L}$ Well above the normal renal threshold of
   approximately $10\;\mathrm{mmol/L}$).
 - The filtered load of glucose exceeds the maximum tubular reabsorption capacity ($T_m$).
 - The excess glucose is excreted in the urine (**glycosuria**), creating an osmotic diuresis (the
@@ -1406,13 +1470,13 @@ Without Insulin:
 
 **Worked Example: Oxygen-Haemoglobin Dissociation and Bohr Effect**
 
-At sea level, alveolar $\mathrm{pO}_2 = 13.3\;\mathrm{kPa}$Tissue
+At sea level, alveolar $\mathrm{pO}_2 = 13.3\;\mathrm{kPa}$ Tissue
 $\mathrm{pO}_2 = 4.0\;\mathrm{kPa}$. Tissue $\mathrm{pCO}_2 = 6.0\;\mathrm{kPa}$ and tissue pH
 $= 7.2$. (a) Using the oxygen dissociation Curve, estimate the percentage saturation of haemoglobin
 in the lungs and in the tissues (under normal Conditions and Bohr-shifted conditions). (b) Explain
 the molecular mechanism of the Bohr effect. (c) Calculate the oxygen delivery per litre of blood if
 haemoglobin concentration is $150\;\mathrm{g/L}$ And each gram carries
-$1.34\;\mathrm{mL\;O}_2$Comparing normal and Bohr-shifted conditions.
+$1.34\;\mathrm{mL\;O}_2$ Comparing normal and Bohr-shifted conditions.
 
 <details>
 <summary>Solution</summary>
@@ -1675,7 +1739,7 @@ the presence and absence Of ADH.
   as low as $500\;\mathrm{mL/day}$).
 - **Without ADH** (e.g., diabetes insipidus, or after large fluid intake): AQP2 channels are removed
   from the apical membrane. The collecting duct is impermeable to water. Dilute urine is produced
-  (approximately $50\;\mathrm{mOsm}$Up to $20\;\mathrm{L/day}$), regardless of the medullary
+  (approximately $50\;\mathrm{mOsm}$ Up to $20\;\mathrm{L/day}$), regardless of the medullary
   gradient.
 
 </details>
@@ -1719,11 +1783,15 @@ the presence and absence Of ADH.
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic              | Site    | Link                                                                                   |
 | ------------------ | ------- | -------------------------------------------------------------------------------------- |
 | [Human Physiology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/homeostasis)            |
-| [Human Physiology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/6-human-physiology/1_human-physiology)   |
-| [Human Physiology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/4-human-physiology/1_human-physiology) |
+| [Human Physiology] | IB      | [View](https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology/)   |
+| [Human Physiology] | DSE     | [View](https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology/) |
+
+</div>
 
 ## Supplementary: Endocrine System in Detail (HL Extension)
 
@@ -1731,16 +1799,20 @@ the presence and absence Of ADH.
 
 Hormones are classified by their chemical structure, which determines their mechanism of action:
 
+<div class="table-wrap">
+
 | Class                     | Examples                                                         | Solubility  | Receptor location                              | Mechanism                                                   |
 | ------------------------- | ---------------------------------------------------------------- | ----------- | ---------------------------------------------- | ----------------------------------------------------------- |
 | **Peptide/protein**       | Insulin, glucagon, ADH, FSH, LH, TSH, GH                         | Hydrophilic | Cell surface (GPCR or tyrosine kinase)         | Second messenger cascade (cAMP, IP3/DAG, Ca2+)              |
 | **Steroid**               | Cortisol, testosterone, oestradiol, progesterone, aldosterone    | Lipophilic  | Intracellular (cytoplasmic or nuclear)         | Directly modulate gene transcription                        |
 | **Amino acid derivative** | Thyroxine (T4), triiodothyronine (T3), adrenaline, noradrenaline | Mixed       | Adrenaline: cell surface; T3/T4: intracellular | Second messenger (adrenaline) or gene transcription (T3/T4) |
 
+</div>
+
 ### Peptide Hormones: Insulin Signalling Pathway (Detailed)
 
 Insulin is a peptide hormone (51 amino acids, two chains linked by disulphide bonds) produced by
-Beta cells of the pancreatic islets of Langerhans.
+beta cells of the pancreatic islets of Langerhans.
 
 **Synthesis and secretion**:
 
@@ -1786,8 +1858,8 @@ Lipophilic and diffuses directly through the plasma membrane.
 4. The complex binds to glucocorticoid response elements (GREs) in the promoter regions of target
    genes, recruiting co-activators or co-repressors and modulating transcription.
 5. Alternatively, the cortisol-GR complex can interact with other transcription factors (e.g.,
-   NF-$\kappa$B) in the cytoplasm, inhibiting their activity (transrepression). This is how cortisol
-   suppresses inflammation (by blocking NF-$\kappa$B, which activates inflammatory gene expression).
+   NF-$\kappa$ B) in the cytoplasm, inhibiting their activity (transrepression). This is how cortisol
+   suppresses inflammation (by blocking NF-$\kappa$ B, which activates inflammatory gene expression).
 
 **Effects of cortisol**:
 
@@ -1802,7 +1874,9 @@ Lipophilic and diffuses directly through the plasma membrane.
 ### The Hypothalamic-Pituitary Axis
 
 The hypothalamus controls the anterior pituitary via releasing and inhibiting hormones, which are
-Transported through the hypophyseal portal system:
+transported through the hypophyseal portal system:
+
+<div class="table-wrap">
 
 | Hypothalamic hormone | Effect on anterior pituitary | Target gland   | Main hormone |
 | -------------------- | ---------------------------- | -------------- | ------------ |
@@ -1812,6 +1886,8 @@ Transported through the hypophyseal portal system:
 | GHRH                 | Stimulates                   | Liver, bones   | GH           |
 | Somatostatin         | Inhibits                     | --             | GH, TSH      |
 | Dopamine (PIH)       | Inhibits                     | --             | Prolactin    |
+
+</div>
 
 **Negative feedback**: hormones produced by the target glands (thyroid hormones, cortisol, sex
 steroids) Feed back to the hypothalamus and pituitary to inhibit further release of releasing
@@ -1827,8 +1903,8 @@ Example (thyroid axis):
 ### Worked Example: Hormone Dosage and Half-Life
 
 A drug containing cortisol is administered intravenously at a dose of $200\;\mathrm{mg}$. The
-Elimination half-life of cortisol is $90\;\mathrm{minutes}$. (a) Calculate the plasma concentration
-After $6$ hours if the volume of distribution is $10\;\mathrm{L}$. (b) How long until the plasma
+elimination half-life of cortisol is $90\;\mathrm{minutes}$. (a) Calculate the plasma concentration
+after $6$ hours if the volume of distribution is $10\;\mathrm{L}$. (b) How long until the plasma
 Concentration falls below $5\;\mathrm{mg/L}$? (c) Explain why cortisol must be administered More
 frequently than aldosterone (half-life $\approx 20\;\mathrm{minutes}$).
 
@@ -1847,22 +1923,11 @@ Time $= 2 \times 90 = 180\;\mathrm{minutes} = 3\;\mathrm{hours}$.
 aldosterone must be administered more frequently or by continuous infusion to maintain therapeutic
 Levels. The shorter half-life means aldosterone is cleared from the blood more rapidly. However,
 Aldosterone is also produced locally in some tissues (paracrine action), and its effects are
-Mediated by mineralocorticoid receptors that have high affinity (requiring lower concentrations). In
+mediated by mineralocorticoid receptors that have high affinity (requiring lower concentrations). In
 practice, aldosterone is replaced by fludrocortisone (a synthetic mineralocorticoid with a Longer
 half-life) in patients with adrenal insufficiency.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[1_Human Physiology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

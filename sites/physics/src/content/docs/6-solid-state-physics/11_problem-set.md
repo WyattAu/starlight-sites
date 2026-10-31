@@ -30,7 +30,7 @@ lattice Constants. Write the direction indices.
 **Problem 4.** Magnesium is HCP with $a = 0.321$ nm, $c = 0.521$ nm. Calculate the ideal $c/a$ ratio
 And the actual ratio. How many atoms are in the conventional cell?
 
-**Problem 5.** For a BCC lattice with lattice constant $a$Find the reciprocal lattice vectors and
+**Problem 5.** For a BCC lattice with lattice constant $a$ Find the reciprocal lattice vectors and
 show That the reciprocal lattice is FCC with conventional cubic constant $4\pi/a$.
 
 **Problem 6.** Construct the first three Brillouin zones of a 2D square lattice. Show that all three
@@ -85,11 +85,11 @@ Ferromagnet above $T_C$. Express $C$ in terms of $N$, $\mu$ And $k_B$.
 - _Problem 1:_ $\mathrm{APF_}{\mathrm{SC} = \pi/6 \approx 0.524}$. SC has the lowest packing
   efficiency of the three cubic structures, which is why it is energetically unfavourable for most
   metals (polonium being the exception).
-- _Problem 3:_ Reciprocals of $(2, 3, \infty)$ are $(1/2, 1/3, 0)$Giving $(3, 2, 0)$. Direction:
+- _Problem 3:_ Reciprocals of $(2, 3, \infty)$ are $(1/2, 1/3, 0)$ Giving $(3, 2, 0)$. Direction:
   $[1\bar{1}0]$.
 - _Problem 4:_ Ideal $c/a = \sqrt{8/3} \approx 1.633$. Actual $c/a = 1.623$. 6 atoms per
   conventional cell.
-- _Problem 5:_ $\mathbf{b}_1 = (2\pi/a)(\hat{y} + \hat{z} - \hat{x})$Etc. The 8 nearest reciprocal
+- _Problem 5:_ $\mathbf{b}_1 = (2\pi/a)(\hat{y} + \hat{z} - \hat{x})$ Etc. The 8 nearest reciprocal
   lattice points at $(\pm 2\pi/a)(\pm 1, \pm 1, \pm 1)/2$ form an FCC pattern.
 - _Problem 7:_ First five FCC reflections: (111), (200), (220), (311), (222). Use
   $2d\sin\theta = \lambda$ with $d = a/\sqrt{h^2+k^2+l^2}$.
@@ -97,7 +97,7 @@ Ferromagnet above $T_C$. Express $C$ in terms of $N$, $\mu$ And $k_B$.
   $v_F = 1.07 \times 10^6$ m/s, $T_F = 3.76 \times 10^4$ K.
 - _Problem 15:_ $n = N_D = 10^{22}$ m$^{-3}$, $p = n_i^2/N_D = 2.25 \times 10^{10}$ m$^{-3}$
   $E_c - E_F = k_B T\ln(N_c/N_D) \approx 0.214$ eV.
-- _Problem 16:_ $V_0 = 0.716$ V, $W \approx 0.35$ $\mu$M.
+- _Problem 16:_ $V_0 = 0.716$ V, $W \approx 0.35$ $\mu$ M.
 - _Problem 17:_ At 300 K: $M \approx \mu_0 N \mu_B^2 B/(3k_B T) = 0.078$ A/m. At 4 K: the classical
   approximation breaks down; use the Brillouin function $B_{1/2}(x) = \tanh(x)$ with
   $x = \mu_B B/(k_B T)$.
@@ -155,17 +155,6 @@ $\rho_{xx} = 0$, and $\sigma_{xy} = \nu e^2/h$.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[11_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Solid-state physics studies how atoms arranged in crystals give rise to electronic, thermal, and magnetic properties. The key insight is that periodicity creates band structure: just as a vibrating string has discrete harmonics, electrons in a crystal have allowed energy bands separated by gaps. Metals have partially filled bands, insulators have filled bands with large gaps, and semiconductors have small gaps that can be bridged by thermal excitation or doping. Phonons, the quantised vibrations of the lattice, determine thermal conductivity and specific heat. The reciprocal lattice and Brillouin zone provide the natural framework for understanding diffraction and electronic states.
@@ -178,7 +167,7 @@ Solid-state physics studies how atoms arranged in crystals give rise to electron
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: Problems on carrier concentration, Fermi level, and conductivity require the semiconductor physics developed in this chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

@@ -42,24 +42,36 @@ export default defineConfig({
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
         { label: 'Practice Test', slug: 'practice-test-mega' },
-        { label: 'Fundamentals', items: [{ autogenerate: { directory: '02-fundamentals' } }] },
+        {
+          label: 'Fundamentals',
+          items: [{ autogenerate: { directory: '02-fundamentals' } }],
+          collapsed: true,
+        },
         {
           label: 'Data Structures',
           items: [{ autogenerate: { directory: '03-data-structures' } }],
+          collapsed: true,
         },
         {
           label: 'Object Oriented',
           items: [{ autogenerate: { directory: '04-object-oriented' } }],
+          collapsed: true,
         },
         {
           label: 'Standard Library',
           items: [{ autogenerate: { directory: '05-standard-library' } }],
+          collapsed: true,
         },
-        { label: 'Async', items: [{ autogenerate: { directory: '06-async' } }] },
-        { label: 'Best Practices', items: [{ autogenerate: { directory: '07-best-practices' } }] },
+        { label: 'Async', items: [{ autogenerate: { directory: '06-async' } }], collapsed: true },
+        {
+          label: 'Best Practices',
+          items: [{ autogenerate: { directory: '07-best-practices' } }],
+          collapsed: true,
+        },
         {
           label: 'Advanced Topics',
           items: [{ autogenerate: { directory: '08-advanced-topics' } }],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -94,9 +106,7 @@ export default defineConfig({
           tag: 'link',
           attrs: {
             rel: 'stylesheet',
-            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css',
-            integrity: 'sha384-irXK0JiCGinqGL+slwVklbhJetrjczNwaP2lANewD8lKAs9n61SbQ3As28iSqXUE',
-            crossorigin: 'anonymous',
+            href: '/katex/katex.min.css',
           },
         },
         {
@@ -106,8 +116,6 @@ export default defineConfig({
             content: 'https://python.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

@@ -22,13 +22,13 @@ categories:
 ## Task Scheduling and Executors
 
 This section covers the task concept, coroutine-based pipeline processing, async/await patterns
-Across languages, structured concurrency with `when_all`/`when_any`A complete Task class wrapping A
+across languages, structured concurrency with `when_all`/`when_any`A complete Task class wrapping A
 coroutine, and a thread pool executor for scheduling coroutines across threads.
 
 ## Task Concept
 
 A **task** is a coroutine that produces a result asynchronously. Unlike a generator (which produces
-Many values), a task produces exactly one result upon completion. The task coroutine is Lazy, it
+many values), a task produces exactly one result upon completion. The task coroutine is Lazy, it
 does not begin executing until someone calls `resume()` or an executor schedules it.
 
 The minimal interface for a task is:
@@ -70,9 +70,11 @@ Threads, which cooperative scheduling does not create.
 
 ### Comparison with Thread-Based Concurrency
 
+<div class="table-wrap">
+
 | Property            | Thread-Based                | Cooperative Coroutines        |
 | :------------------ | :-------------------------- | :---------------------------- |
-| Context switch cost | ~1-10 $\mu$S (kernel)       | ~10-100 ns (user-space)       |
+| Context switch cost | ~1-10 $\mu$ S (kernel)       | ~10-100 ns (user-space)       |
 | Stack size per task | ~1-8 MB                     | ~100-1000 bytes (frame)       |
 | Data race risk      | High (preemptive)           | Low (cooperative)             |
 | Deadlock risk       | Possible                    | Possible (less likely)        |
@@ -80,6 +82,8 @@ Threads, which cooperative scheduling does not create.
 | Debugging           | Harder (timing-dependent)   | Easier (deterministic order)  |
 | CPU-bound work      | Good (parallel)             | Poor (single thread)          |
 | I/O-bound work      | Good (blocked thread freed) | Excellent (zero-cost suspend) |
+
+</div>
 
 ## Coroutine-Based Pipeline Processing
 
@@ -231,6 +235,8 @@ int main() {
 
 ## Async/Await Patterns Across Languages
 
+<div class="table-wrap">
+
 | Language   | Keyword(s)                      | Execution model                  | Cancellation            | Error handling        |
 | :--------- | :------------------------------ | :------------------------------- | :---------------------- | :-------------------- |
 | C++20      | `co_await``co_return``co_yield` | Stackless, manual scheduling     | `std::stop_token`       | Exception propagation |
@@ -238,6 +244,8 @@ int main() {
 | Python     | `async def``await`              | Event loop (`asyncio`)           | `asyncio.Task.cancel()` | `try/except`          |
 | Rust       | `.await`                        | Async runtime (tokio, async-std) | `CancellationToken`     | `?` operator          |
 | C#         | `async``await`                  | ThreadPool / IOCP                | `CancellationToken`     | `try/catch`           |
+
+</div>
 
 C++ is unique in providing **no built-in executor or event loop**. The coroutine machinery is
 Deliberately low-level, the standard provides only the suspension/resumption primitives, and
@@ -256,7 +264,7 @@ Library patterns.
   identifies which task finished first.
 
 The complexity of `when_all` for $n$ tasks is $\mathcal{O}(n)$ in terms of coroutine handles that
-Must be tracked and resumed.
+must be tracked and resumed.
 
 ### `when_all` Implementation
 
@@ -643,7 +651,7 @@ int main() {
 
 :::caution
 Handle: work stealing, priority queues, thread affinity, shutdown semantics, exception aggregation
-Across `when_all`And proper cancellation propagation. Libraries like
+across `when_all`And proper cancellation propagation. Libraries like
 [libunifex](https://github.com/facebookexperimental/libunifex) (now `std::execution` proposal,
 P2300) provide production-grade executors.
 
@@ -662,7 +670,7 @@ The work-stealing algorithm has provably optimal time bounds: the expected execu
 Strict (fork-join) computation with $P$ processors and work $T_1$ is
 $\mathcal{O}(T_1 / P +
 T_{\infty})$, where $T_{\infty}$ is the span (critical path length) [Blumofe
-And Leiserson, 1999].
+and Leiserson, 1999].
 
 ```cpp
 #include <deque>
@@ -797,7 +805,7 @@ struct CancellableAwaiter {
 ```
 
 When `await_ready()` returns `true` (stop requested), the coroutine skips suspension and the loop
-Condition exits. When it returns `false`The coroutine suspends normally and resumes when the
+Condition exits. When it returns `false`. The coroutine suspends normally and resumes when the
 Scheduler decides, at which point the loop checks the stop token again. This pattern is cooperative:
 The coroutine must reach a cancellation point to observe the request. Long-running non-suspending
 Computation cannot be cancelled until it reaches the next `co_await`.
@@ -813,7 +821,7 @@ Computation cannot be cancelled until it reaches the next `co_await`.
 ## Common Pitfalls
 
 - **Forgetting to `resume()` after `suspend_always`.** If a coroutine suspends with `suspend_always`
-  and no scheduler ever calls `resume()`The coroutine leaks, its frame is never destroyed. Always
+  and no scheduler ever calls `resume()`. The coroutine leaks, its frame is never destroyed. Always
   pair lazy coroutines with a scheduler or manual resume loop.
 - **Symmetric transfer vs direct resume.** Using `handle.resume()` inside `await_suspend` can cause
   stack overflow on deep coroutine chains. Use symmetric transfer (`return handle;`) when the
@@ -842,18 +850,7 @@ Computation cannot be cancelled until it reaches the next `co_await`.
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
-
-```mermaid
-flowchart TD
-    A[4_Task_Scheduling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Summary
 
@@ -867,9 +864,6 @@ including key principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Worked Examples
 

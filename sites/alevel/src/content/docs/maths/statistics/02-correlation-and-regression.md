@@ -21,24 +21,18 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[02 Correlation And Regression] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Board Coverage
+
+<div class="table-wrap">
 
 | Board      | Paper   | Notes                               |
 | ---------- | ------- | ----------------------------------- |
 | AQA        | Paper 1 | PMCC, regression lines              |
-| Edexcel    | P1      | Includes Spearman"s rank            |
+| Edexcel    | P1      | Includes Spearman's rank            |
 | OCR (A)    | Paper 1 | Similar                             |
 | CIE (9709) | P1, P6  | Correlation and regression in P1/P6 |
+
+</div>
 
 :::note
 Must be able to interpret these and understand their limitations.
@@ -50,15 +44,23 @@ Must be able to interpret these and understand their limitations.
 
 ### 1.1 Definition
 
-**Definition.** For bivariate data $(x_1,y_1),\ldots,(x_n,y_n)$The PMCC is
+**Definition.** For bivariate data $(x_1,y_1),\ldots,(x_n,y_n)$ The PMCC is
 
-$$r = \frac{S_{xy}}{\sqrt{S_{xx}\,S_{yy}}}$$
+$$
+r = \frac{S_{xy}}{\sqrt{S_{xx}\,S_{yy}}}
+$$
 
 Where
 
-$$S_{xx} = \sum(x_i-\bar{x})^2 = \sum x_i^2 - n\bar{x}^2$$
-$$S_{yy} = \sum(y_i-\bar{y})^2 = \sum y_i^2 - n\bar{y}^2$$
-$$S_{xy} = \sum(x_i-\bar{x})(y_i-\bar{y}) = \sum x_i y_i - n\bar{x}\bar{y}$$
+$$
+S_{xx} = \sum(x_i-\bar{x})^2 = \sum x_i^2 - n\bar{x}^2
+$$
+$$
+S_{yy} = \sum(y_i-\bar{y})^2 = \sum y_i^2 - n\bar{y}^2
+$$
+$$
+S_{xy} = \sum(x_i-\bar{x})(y_i-\bar{y}) = \sum x_i y_i - n\bar{x}\bar{y}
+$$
 
 ### 1.2 Properties
 
@@ -87,7 +89,7 @@ linearity breaks down.
 **Psychology:** Study hours and exam scores often show moderate positive correlation
 ($r \approx 0.4$ to $0.7$). The PMCC captures the linear trend, but individual variation means
 Prediction is imprecise, a student studying 10 hours could score anywhere on a wide range. This
-Illustrates that even a moderate $r$ does not guarantee accurate individual predictions.
+illustrates that even a moderate $r$ does not guarantee accurate individual predictions.
 
 <hr />
 
@@ -97,7 +99,9 @@ Illustrates that even a moderate $r$ does not guarantee accurate individual pred
 
 When data are ranked, Spearman's coefficient is
 
-$$r_s = 1 - \frac{6\sum d_i^2}{n(n^2-1)}$$
+$$
+r_s = 1 - \frac{6\sum d_i^2}{n(n^2-1)}
+$$
 
 Where $d_i$ is the difference in ranks for the $i$-th pair.
 
@@ -114,6 +118,8 @@ Formula above does not account for ties, a correction factor is needed for tied 
 
 ### 2.4 PMCC vs. Spearman's Rank: When to Use Which
 
+<div class="table-wrap">
+
 | Criterion                    | PMCC                        | Spearman's                |
 | ---------------------------- | --------------------------- | ------------------------- |
 | Data type                    | Continuous (interval/ratio) | Ordinal or continuous     |
@@ -122,14 +128,16 @@ Formula above does not account for ties, a correction factor is needed for tied 
 | Distribution assumption      | Bivariate normal            | None                      |
 | Power (when assumptions met) | Higher                      | Lower                     |
 
+</div>
+
 **Key point:** If the data has a strong linear relationship and no extreme outliers, PMCC is
 Preferred as it uses more information from the data. If the relationship is monotonic but Curved, or
 if outliers are present, Spearman's is more appropriate.
 
 **Example.** Consider judge rankings in a competition. The data is inherently ordinal, so Spearman's
 Rank is the natural choice regardless of whether PMCC could technically be computed. Similarly, in a
-Psychology study measuring agreement between two raters on a Likert scale, Spearman's is the
-Standard choice.
+psychology study measuring agreement between two raters on a Likert scale, Spearman's is the
+standard choice.
 
 <hr />
 
@@ -139,30 +147,46 @@ Standard choice.
 
 **Problem.** Find the line $y = a + bx$ that minimises
 
-$$S(a,b) = \sum_{i=1}^{n}(y_i - a - bx_i)^2$$
+$$
+S(a,b) = \sum_{i=1}^{n}(y_i - a - bx_i)^2
+$$
 
 ### 3.2 Derivation using partial derivatives
 
 Setting $\dfrac{\partial S}{\partial a} = 0$ and
 $\dfrac{\partial S}{\partial b} = 0$:
 
-$$\frac{\partial S}{\partial a} = -2\sum(y_i - a - bx_i) = 0 \implies \sum y_i = na + b\sum x_i \tag{1}$$
+$$
+\frac{\partial S}{\partial a} = -2\sum(y_i - a - bx_i) = 0 \implies \sum y_i = na + b\sum x_i \tag{1}
+$$
 
-$$\frac{\partial S}{\partial b} = -2\sum x_i(y_i - a - bx_i) = 0 \implies \sum x_i y_i = a\sum x_i + b\sum x_i^2 \tag{2}$$
+$$
+\frac{\partial S}{\partial b} = -2\sum x_i(y_i - a - bx_i) = 0 \implies \sum x_i y_i = a\sum x_i + b\sum x_i^2 \tag{2}
+$$
 
 From (1): $a = \bar{y} - b\bar{x}$.
 
 Substituting into (2):
 
-$$\sum x_i y_i = (\bar{y}-b\bar{x})\sum x_i + b\sum x_i^2 = n\bar{x}\bar{y} - bn\bar{x}^2 + b\sum x_i^2$$
+$$
+\sum x_i y_i = (\bar{y}-b\bar{x})\sum x_i + b\sum x_i^2 = n\bar{x}\bar{y} - bn\bar{x}^2 + b\sum x_i^2
+$$
 
-$$\sum x_i y_i - n\bar{x}\bar{y} = b\left(\sum x_i^2 - n\bar{x}^2\right)$$
+$$
+\sum x_i y_i - n\bar{x}\bar{y} = b\left(\sum x_i^2 - n\bar{x}^2\right)
+$$
 
-$$S_{xy} = b\,S_{xx}$$
+$$
+S_{xy} = b\,S_{xx}
+$$
 
-$$\boxed{b = \frac{S_{xy}}{S_{xx}} = \frac{\sum x_i y_i - n\bar{x}\bar{y}}{\sum x_i^2 - n\bar{x}^2}}$$
+$$
+\boxed{b = \frac{S_{xy}}{S_{xx}} = \frac{\sum x_i y_i - n\bar{x}\bar{y}}{\sum x_i^2 - n\bar{x}^2}}
+$$
 
-$$\boxed{a = \bar{y} - b\bar{x}}$$
+$$
+\boxed{a = \bar{y} - b\bar{x}}
+$$
 
 <hr />
 
@@ -173,7 +197,9 @@ $(\bar{x}, \bar{y})$.
 
 **Proof.** Substituting $x = \bar{x}$:
 
-$$y = a + b\bar{x} = (\bar{y} - b\bar{x}) + b\bar{x} = \bar{y}$$
+$$
+y = a + b\bar{x} = (\bar{y} - b\bar{x}) + b\bar{x} = \bar{y}
+$$
 
 So $(\bar{x}, \bar{y})$ lies on the regression line. $\blacksquare$
 
@@ -198,7 +224,7 @@ Properties:
 
 :::caution
 Range of the data). **Extrapolation** (predicting outside the data range) is unreliable because the
-Linear relationship may not hold.
+linear relationship may not hold.
 :::
 
 ### 5.3 Regression of $y$ on $x$ vs. $x$ on $y$
@@ -222,8 +248,8 @@ $x_i$).
   predictions are less reliable at extremes.
 
 Residual plots are a diagnostic tool, they reveal whether the assumptions of linear regression are
-Met. In A Level exams, you may be asked to comment on a residual plot to assess whether the
-Regression line is a good model.
+met. In A Level exams, you may be asked to comment on a residual plot to assess whether the
+regression line is a good model.
 
 ### 5.5 Outliers and Influential Points
 
@@ -233,11 +259,11 @@ Influential points can pull the regression line significantly toward themselves.
 
 **Effect on PMCC:** A single influential point can dramatically change $r$. For example, adding an
 Extreme point to a dataset with $r = 0.3$ could push $r$ to $0.8$ or change its sign entirely. This
-Is why it is essential to inspect scatter plots alongside numerical summaries.
+is why it is essential to inspect scatter plots alongside numerical summaries.
 
 **Example.** In a study of height vs. Salary across 50 people, most data shows weak positive
 Correlation ($r \approx 0.2$). If one NBA player earning millions is included, the PMCC may jump to
-$r \approx 0.6$Giving a misleading impression. In such cases, Spearman's rank is more robust Because
+$r \approx 0.6$ Giving a misleading impression. In such cases, Spearman's rank is more robust Because
 ranking reduces the disproportionate influence of extreme values.
 
 ### 5.6 Dangers of Extrapolation
@@ -261,7 +287,7 @@ commenting on the limitation.
 ## 6. Coding in Regression
 
 If we code $u = \dfrac{x-p}{q}$ and $v = \dfrac{y-r}{s}$ And find the regression line $v = c + du$
-Then:
+then:
 
 - The gradient in terms of original variables: $b = \dfrac{s}{q}d$
 - The intercept: $a = r + s \cdot c - b \cdot p$
@@ -271,13 +297,13 @@ Then:
 Coding **does not change** the PMCC or Spearman's rank correlation coefficient.
 
 **Why?** PMCC is based on standardised quantities. Coding $x \mapsto u = (x-p)/q$ is a linear
-Transformation (shift by $p$Scale by $1/q$), and $r$ is invariant under linear transformations of
-Either variable. Similarly, Spearman's uses ranks, which are unaffected by any monotonic
+Transformation (shift by $p$ Scale by $1/q$), and $r$ is invariant under linear transformations of
+either variable. Similarly, Spearman's uses ranks, which are unaffected by any monotonic
 Transformation including linear coding.
 
 **Effect on regression:** Coding changes the gradient and intercept of the regression line, as shown
 In Section 6, but the underlying relationship between the variables is unchanged. The coefficient of
-Determination $r^2$ is also invariant under coding.
+determination $r^2$ is also invariant under coding.
 
 ### 6.2 Worked Example: Coding with Economic Data
 
@@ -286,13 +312,17 @@ $u = x/10$ (where $x$ is advertising in GBP) and $v = y/1000$ (where $y$ is reve
 
 If the coded regression line is $v = 2.3 + 0.7u$ Then in original variables:
 
-$$\frac{y}{1000} = 2.3 + 0.7\left(\frac{x}{10}\right)$$
+$$
+\frac{y}{1000} = 2.3 + 0.7\left(\frac{x}{10}\right)
+$$
 
-$$y = 2300 + 70x$$
+$$
+y = 2300 + 70x
+$$
 
 The gradient $b = 70$ means each additional GBP spent on advertising is associated with an increase
-Of GBP 70 in revenue. The PMCC calculated from the coded data would be identical to the PMCC from
-The original data.
+of GBP 70 in revenue. The PMCC calculated from the coded data would be identical to the PMCC from
+the original data.
 
 <hr />
 
@@ -369,7 +399,9 @@ Prove that $\sum e_i = 0$ where $e_i = y_i - (a + bx_i)$ are the residuals of th
 
 <details>
 <summary>Solution 4</summary>
-$$\sum e_i = \sum y_i - na - b\sum x_i = n\bar{y} - n(\bar{y} - b\bar{x}) - bn\bar{x} = n\bar{y} - n\bar{y} + nb\bar{x} - nb\bar{x} = 0 \quad \blacksquare$$
+$$
+\sum e_i = \sum y_i - na - b\sum x_i = n\bar{y} - n(\bar{y} - b\bar{x}) - bn\bar{x} = n\bar{y} - n\bar{y} + nb\bar{x} - nb\bar{x} = 0 \quad \blacksquare
+$$
 
 **If you get this wrong, revise:** [Residuals](#51-residuals), Section 5.1.
 
@@ -407,7 +439,7 @@ Correlation does not imply causation. Both ice cream sales and drowning deaths a
 
 <details>
 <summary>Problem 7</summary>
-Given $S_{xx} = 80$$S_{yy} = 200$ And $S_{xy} = 100$Find $r$$b$ (gradient of $y$ on $x$), and the proportion of variance in $y$ explained by $x$.
+Given $S_{xx} = 80$$S_{yy} = 200$ And $S_{xy} = 100$ Find $r$$b$ (gradient of $y$ on $x$), and the proportion of variance in $y$ explained by $x$.
 </details>
 
 <details>
@@ -450,8 +482,8 @@ A residual plot shows a clear U-shaped pattern. What does this suggest about the
 
 A U-shaped residual plot indicates the relationship between the variables is **non-linear** (likely
 Quadratic). The linear regression model is inappropriate because it fails to capture the curvature.
-A more appropriate approach would be to fit a quadratic model $y = a + bx + cx^2$Or to apply a
-Transformation (e.g., taking logarithms) to linearise the relationship.
+A more appropriate approach would be to fit a quadratic model $y = a + bx + cx^2$ Or to apply a
+transformation (e.g., taking logarithms) to linearise the relationship.
 
 **If you get this wrong, revise:** [Residual Plots](#54-residual-plots), Section 5.4.
 
@@ -466,10 +498,10 @@ Two datasets have the same PMCC of $r = 0.85$. Dataset A has $n = 10$ observatio
 <summary>Solution 10</summary>
 
 With a larger sample size, the PMCC is estimated more precisely (smaller standard error). For
-$n = 10$The PMCC must exceed approximately 0.632 to be significant at the 5% level (two-tailed). For
-$n = 100$The threshold is approximately 0.197. While both datasets show the same correlation,
+$n = 10$ The PMCC must exceed approximately 0.632 to be significant at the 5% level (two-tailed). For
+$n = 100$ The threshold is approximately 0.197. While both datasets show the same correlation,
 Dataset B provides far stronger statistical evidence because random fluctuations are much less
-Likely to produce $r = 0.85$ with 100 observations.
+likely to produce $r = 0.85$ with 100 observations.
 
 **If you get this wrong, revise:** [Properties](#12-properties), Section 1.2.
 
@@ -479,10 +511,14 @@ Likely to produce $r = 0.85$ with 100 observations.
 <summary>Problem 11</summary>
 Eight students were ranked by two teachers for a presentation. The rankings are:
 
+<div class="table-wrap">
+
 | Student   | A   | B   | C   | D   | E   | F   | G   | H   |
 | --------- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Teacher 1 | 2   | 5   | 1   | 7   | 3   | 8   | 4   | 6   |
 | Teacher 2 | 1   | 6   | 2   | 8   | 4   | 7   | 3   | 5   |
+
+</div>
 
 Calculate Spearman's rank correlation coefficient and interpret the result.
 
@@ -493,10 +529,14 @@ Calculate Spearman's rank correlation coefficient and interpret the result.
 
 The data is already ranked, so:
 
+<div class="table-wrap">
+
 | Student | A   | B   | C   | D   | E   | F   | G   | H   |
 | ------- | --- | --- | --- | --- | --- | --- | --- | --- |
 | $d_i$   | 1   | -1  | -1  | -1  | -1  | 1   | 1   | 1   |
 | $d_i^2$ | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   |
+
+</div>
 
 $\sum d_i^2 = 8$.
 
@@ -516,7 +556,7 @@ Consistent assessment standards.
 A medical researcher collects data on blood pressure ($x$ mmHg) and cholesterol level ($y$ mg/dL) for 12 patients. She finds $\bar{x} = 132$$\bar{y} = 218$$S_{xx} = 3600$$S_{yy} = 28900$$S_{xy} = 8100$.
 
 (a) Calculate the PMCC and interpret it. (b) Find the regression line of $y$ on $x$. (c) Predict the
-Cholesterol level for a patient with blood pressure of 150 mmHg. Comment on the reliability.
+cholesterol level for a patient with blood pressure of 150 mmHg. Comment on the reliability.
 
 </details>
 
@@ -538,7 +578,7 @@ Regression line: $y = -79 + 2.25x$.
 
 This prediction is reasonably reliable since 150 is within (or close to) the range of the data.
 However, $n = 12$ is a small sample, so there is considerable uncertainty. The prediction should not
-Be treated as precise.
+be treated as precise.
 
 **If you get this wrong, revise:** [Least Squares Regression](#3-least-squares-regression), Section
 3, and [Extrapolation](#52-extrapolation), Section 5.2.
@@ -561,17 +601,29 @@ Variables.
 
 (b) Start from the coded line:
 
-$$\frac{y - 100}{10} = 1.2 + 0.8 \times \frac{x - 20}{5}$$
+$$
+\frac{y - 100}{10} = 1.2 + 0.8 \times \frac{x - 20}{5}
+$$
 
-$$\frac{y - 100}{10} = 1.2 + 0.16(x - 20)$$
+$$
+\frac{y - 100}{10} = 1.2 + 0.16(x - 20)
+$$
 
-$$\frac{y - 100}{10} = 1.2 + 0.16x - 3.2$$
+$$
+\frac{y - 100}{10} = 1.2 + 0.16x - 3.2
+$$
 
-$$\frac{y - 100}{10} = 0.16x - 2.0$$
+$$
+\frac{y - 100}{10} = 0.16x - 2.0
+$$
 
-$$y - 100 = 1.6x - 20$$
+$$
+y - 100 = 1.6x - 20
+$$
 
-$$y = 80 + 1.6x$$
+$$
+y = 80 + 1.6x
+$$
 
 **If you get this wrong, revise:** [Coding in Regression](#6-coding-in-regression), Section 6, and
 [Effect of Coding on Correlation](#61-effect-of-coding-on-correlation), Section 6.1.
@@ -588,16 +640,16 @@ A dataset of 15 observations has regression line $y = 5 + 2x$ with $\bar{x} = 10
 <details>
 <summary>Solution 14</summary>
 
-The point $(25, 70)$ has $x = 25$Which is far from $\bar{x} = 10$ So it has **high leverage**. Its
+The point $(25, 70)$ has $x = 25$ Which is far from $\bar{x} = 10$ So it has **high leverage**. Its
 predicted $y$-value from the current line would be $\hat{y} = 5 + 2(25) = 55$ But the actual Value is
-$70$. The residual is $70 - 55 = 15$Which is positive and large.
+$70$. The residual is $70 - 55 = 15$ Which is positive and large.
 
 (a) Since the point lies above the regression line and has high leverage, it will **increase** the
-Gradient (pull the line upward at the right side).
+gradient (pull the line upward at the right side).
 
 (b) Since the point lies close to the general positive trend (above the line in the same direction
-As the overall slope), it will likely **increase** the PMCC slightly. However, if the point were
-Below the trend, it could decrease $r$ significantly, a single influential point can change $r$ by
+as the overall slope), it will likely **increase** the PMCC slightly. However, if the point were
+below the trend, it could decrease $r$ significantly, a single influential point can change $r$ by
 A large amount.
 
 **If you get this wrong, revise:**

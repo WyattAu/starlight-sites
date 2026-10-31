@@ -515,7 +515,7 @@ stack haddock
 
 ### Hackage
 
-Hackage is Haskell"s central package repository at <https://hackage.haskell.org>. It hosts thousands
+Hackage is Haskell's central package repository at <https://hackage.haskell.org>. It hosts thousands
 of open-source packages. Key resources:
 
 - **Package search**: Find libraries for specific tasks
@@ -1580,16 +1580,6 @@ wordFrequenciesLet text =
     countGroup ws = (head ws, length ws)
 ```
 
-```mermaid
-flowchart TD
-    A[1_Types And Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Type inference in Haskell is like a detective solving a case. The compiler looks at the clues (how you use variables and functions) and deduces what types they must be. You do not need to state the type of every variable because the compiler figures it out from context. This is like a detective who can identify suspects without being told their names.
@@ -2183,6 +2173,8 @@ newtype NewWrapper a = NewWrapper a
 
 Key differences:
 
+<div class="table-wrap">
+
 | Property         | `data`                | `newtype`                                 |
 | ---------------- | --------------------- | ----------------------------------------- |
 | Constructors     | One or more           | Exactly one                               |
@@ -2191,6 +2183,8 @@ Key differences:
 | Strictness       | Lazy by default       | Lazy by default                           |
 | Matching         | Always matches        | Always matches                            |
 | deriving         | Full support          | Full support + GeneralizedNewtypeDeriving |
+
+</div>
 
 ### GeneralizedNewtypeDeriving
 
@@ -2338,16 +2332,6 @@ myReverse = go []
 6. **Use `case` when matching on computed values**: Function equations match only on arguments.
 7. **Consider `-Wincomplete-patterns`**: GHC flag that turns incomplete pattern warnings into
    errors.
-
-```mermaid
-flowchart TD
-    A[1_Pattern Matching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -2597,7 +2581,7 @@ data Color = Red | Green | Blue
 ```
 
 The `deriving` clause works by generating boilerplate code at compile time. It is available for
-these standard type classes: `Eq``Ord``Enum``Bounded``Show``Read`.
+these standard type classes: `Eq`, `Ord`, `Enum`, `Bounded`, `Show`, `Read`.
 
 ## Show and Read
 
@@ -3192,7 +3176,9 @@ intercalate ", " ["a", "b", "c"]  -- => "a, b, c"
 
 The relationship between these three type classes is:
 
-$$\text{Functor} \subset \text{Applicative} \subset \text{Monad}$$
+$$
+\text{Functor} \subset \text{Applicative} \subset \text{Monad}
+$$
 
 Every `Monad` is an `Applicative`and every `Applicative` is a `Functor`. However, there are useful
 types that are `Functor` or `Applicative` but not `Monad`:
@@ -3243,16 +3229,6 @@ class Hashable a where
   hashWithSalt :: Int -> a -> Int
   hashWithSalt salt x = salt `combine` hash x
   -- Minimal complete definition: hash
-```
-
-```mermaid
-flowchart TD
-    A[1_Type Classes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition
@@ -4097,6 +4073,8 @@ associativity = do
 
 ## Choosing the Right Monad
 
+<div class="table-wrap">
+
 | Monad      | Use Case        | When to Use                                |
 | ---------- | --------------- | ------------------------------------------ |
 | `Maybe`    | Optional values | Computations that may fail with no details |
@@ -4107,6 +4085,8 @@ associativity = do
 | `Writer w` | Logging         | Accumulate log messages alongside results  |
 | `[]`       | Non-determinism | Multiple possible results                  |
 | `Identity` | No effect       | The simplest monad, wraps a plain value    |
+
+</div>
 
 ## Combining Effects
 
@@ -4130,16 +4110,6 @@ type AppM = ReaderT Config (StateT AppState (ExceptT AppError IO))
 runApp :: Config -> AppState -> AppM a -> IO (Either AppError a)
 runApp config state action =
   runExceptT (evalStateT (runReaderT action config) state)
-```
-
-```mermaid
-flowchart TD
-    A[1_Monads And Functors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition
@@ -4990,16 +4960,6 @@ data Person = Person
 7. **Document kind signatures** when working with DataKinds.
 8. **Use Template Haskell sparingly**: it can make code harder to read and debug.
 
-```mermaid
-flowchart TD
-    A[1_Advanced Types] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Phantom types are like invisible labels. They add type information without adding runtime data. A phantom type parameter does not appear in the value, but the compiler uses it to enforce constraints at compile time. This is like having a secret code that only the compiler can read.
@@ -5056,7 +5016,7 @@ monadic contexts (like `IORef` or `MVar`), and Haskell provides safe abstraction
 
 ## forkIO: Lightweight Threads
 
-Haskell"s `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
+Haskell's `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
 threads):
 
 ```haskell
@@ -5655,6 +5615,8 @@ results = map slowComputation [1..8] `using` parList rdeepseq
 
 ## Choosing Between Concurrency Primitives
 
+<div class="table-wrap">
+
 | Mechanism    | Best For                    | Trade-offs                         |
 | ------------ | --------------------------- | ---------------------------------- |
 | `forkIO`     | Fire-and-forget tasks       | No built-in result collection      |
@@ -5663,6 +5625,8 @@ results = map slowComputation [1..8] `using` parList rdeepseq
 | `STM`        | Complex coordination        | Slight overhead per transaction    |
 | `async`      | High-level concurrent tasks | Higher-level abstraction           |
 | `Strategies` | Data parallelism            | Deterministic, no side effects     |
+
+</div>
 
 ## Compiling for Parallelism
 
@@ -5691,17 +5655,6 @@ ghc -O2 -threaded -rtsopts -with-rtsopts=-N MyProgram.hs
    single-threaded
 7. **Profile before optimizing**: Use `+RTS -s` and ThreadScope to identify bottlenecks
 8. **Prefer pure parallelism with strategies**: When you do not need side effects
-
-
-```mermaid
-flowchart TD
-    A[2_Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -5773,8 +5726,6 @@ This site provides comprehensive study materials covering:
 - Type classes
 - Laziness
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -5799,8 +5750,6 @@ programming fundamentals
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -5818,18 +5767,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Advanced Haskell Flashcards](/flashcards-haskell-advanced/)
 - [Haskell Basics Flashcards](/flashcards-haskell-basics/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -5839,53 +5781,238 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+---
 
+## Before You Begin
+URL: https://haskell.wyattau.com/before-you-begin/
 
-## Detailed Content
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com/haskell/before-you-begin"}]
+}
+</script>
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+Haskell is not a new syntax for the same programming. It is a different model of
+what a program *is*: not a sequence of commands that mutate state, but a single
+expression whose value is computed by evaluating subexpressions. Every idea on
+this page exists because that model removes something imperative programming
+takes for granted — statements, mutation, loops, order of execution — and the
+removal is what makes Haskell code reasonable-about: if a function is pure, you
+can understand it by reading it, without simulating the machine.
 
-### Core Concepts
+The page is written for a reader who knows one imperative language. Each section
+names the imperative habit, states the replacement, and shows the first
+example. Terms are defined before use, and the self-test at the end tells you
+whether to skip.
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+## Intuition
 
-### Worked Examples
+In an imperative language, a program is a list of instructions the machine
+follows in order, and each instruction can change the world — reassign a
+variable, print, write a file. In Haskell, a program *is* a value: an expression
+evaluated by substituting definitions, the way mathematics evaluates
+$f(2)$ by substituting $f(x) = x^2$. There is no "now" in the language; there is
+only what each expression equals.
 
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+The consequences cascade. No reassignment means no loop counters — loops become
+*recursion*. No order of evaluation among independent parts means the compiler
+may run anything lazily or in parallel — and cannot break your program by doing
+so. No mutation means a value, once computed, never changes — which is why
+concurrent Haskell programs do not corrupt shared state. Each removal is a gain
+in what you can *prove* about your code, and the removals are what the type
+system tracks.
 
-### Common Mistakes
+## 1. Expressions, not statements
 
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
+**Definition.** An **expression** is code that produces a value. A **statement**
+is code that performs an action. Imperative languages have both; Haskell has
+expressions, and effects are values too (see §4).
 
-### Further Reading
+In Python you might write:
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+```python
+# Imperative: a statement sequence with mutation.
+result = 0
+for x in [1, 2, 3, 4]:
+    if x % 2 == 0:
+        result = result + x * 10
+```
 
+The Haskell version states what the result *is* rather than how to accumulate it:
 
-## Detailed Content
+```haskell
+-- Haskell: one expression, built from standard functions.
+result = sum (map (* 10) (filter even [1, 2, 3, 4]))
+-- = sum (map (*10) [2,4]) = sum [20,40] = 60
+```
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+Read the pipeline right to left: filter the evens, multiply each by ten, sum.
+Every piece is a standard function, `map` and `filter` among them, and the
+definition composes them. There is no `result` variable being reassigned — the
+expression *equals* 60 the way $2 + 2$ equals 4.
 
-### Core Concepts
+## 2. Types as contracts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+**Definition.** A **type** classifies values and determines which operations
+apply. Haskell checks types at compile time — a program that type-checks cannot
+"crash with a type error at runtime", because that class of error is
+unrepresentable.
 
-### Worked Examples
+```haskell
+square :: Integer -> Integer
+square n = n * n
+```
 
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+Read the signature aloud: `square` is a function *from* `Integer` *to*
+`Integer`. The `::` separates the name from its type, `->` is the function
+arrow. If you call `square "hello"`, the program does not compile — the error
+is caught before the program exists.
 
-### Common Mistakes
+**Function types with multiple arguments are curried.**
 
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
+```haskell
+add :: Integer -> Integer -> Integer
+add x y = x + y
+```
 
-### Further Reading
+Read `->` as right-associative: `Integer -> (Integer -> Integer)` — `add` takes
+one integer and returns a *function* that takes another. This is **currying**,
+and it is why partial application is free:
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+```haskell
+inc :: Integer -> Integer
+inc = add 1        -- a new function: add 1 to its argument
+```
+
+`add 1` is a legal expression — a function waiting for one more integer. No
+special syntax for partial application exists because every function already
+takes one argument at a time.
+
+## 3. Immutability and recursion
+
+**Definition.** **Immutability** means a name bound to a value keeps that value.
+`x = 5` does not create a box to update later; it is a *definition*, like the
+$=$ of mathematics.
+
+**Definition.** **Recursion** is a function calling itself on a smaller input,
+with a base case that stops the recursion. Recursion replaces every loop.
+
+```haskell
+-- Sum a list. The base case is the empty list; the step peels one element.
+sumList :: [Integer] -> Integer
+sumList []     = 0
+sumList (x:xs) = x + sumList xs
+```
+
+The `(x:xs)` pattern matches a non-empty list, binding `x` to the head and `xs`
+to the rest. Tracing `sumList [1,2,3]`:
+
+```
+sumList (1:[2,3]) = 1 + sumList [2,3]
+                  = 1 + (2 + sumList [3])
+                  = 1 + (2 + (3 + sumList []))
+                  = 1 + (2 + (3 + 0))
+                  = 6
+```
+
+The definition is the proof: `sumList [] = 0` is the base case, and
+`sumList (x:xs) = x + sumList xs` is the inductive step. A recursive Haskell
+function is an induction proof in executable form, and the correspondence is why
+[Haskell's own track](/) can state theorems about its functions rather than
+merely running them.
+
+**Why immutability removes a class of bugs.** In imperative code, the value of a
+variable depends on *when* you look — after how many loop iterations, after
+which branch. That temporal reasoning is the source of off-by-one errors, action
+at a distance through shared state, and concurrency bugs. In Haskell, `x` means
+the same thing everywhere in its scope; a function's output depends only on its
+arguments. That property — **referential transparency** — is what makes the
+compiler's laziness and parallelism safe, and it is why pure functions can be
+tested in isolation.
+
+## 4. Higher-order functions
+
+**Definition.** A **higher-order function** takes functions as arguments or
+returns them as results. Since functions are values, they are passed like any
+other.
+
+The three workhorses:
+
+```haskell
+map :: (a -> b) -> [a] -> [b]        -- apply f to every element
+filter :: (a -> Bool) -> [a] -> [a]  -- keep elements satisfying p
+foldr :: (a -> b -> b) -> b -> [a] -> b  -- combine from the right, with a base
+```
+
+`foldr` is the deep one: `foldr f z [x1, x2, x3]` = `f x1 (f x2 (f x3 z))` — it
+replaces every `:` in the list with `f` and the `[]` with `z`. Then `sumList`
+from §3 *is* `foldr (+) 0`, and `map f` is `foldr (\x acc -> f x : acc) []` —
+many recursive functions over lists are folds in disguise, and recognising that
+is what lets you stop writing the recursion by hand.
+
+**Type variables.** `map`'s signature uses `a` and `b` — type *variables*,
+instantiated at each use: `map square [1,2,3]` has `a = Integer`, `b =
+Integer`; `map (== 'a') "hat"` has `a = Char`, `b = Bool`. Polymorphism is how
+one definition serves infinitely many types, checked at compile time.
+
+## 5. Purity and effects
+
+**Definition.** A **pure** function returns the same value for the same
+arguments and has no effect beyond computing it. Haskell functions are pure by
+construction.
+
+Input, output, randomness and state are still possible — through the `IO` type:
+
+```haskell
+main :: IO ()
+main = do
+    line <- getLine          -- IO String: an action producing a String
+    putStrLn ("You typed: " ++ line)
+```
+
+`getLine` has type `IO String` — an *action* that, when executed, produces a
+string. `main` composes actions with `do` notation. The type system separates
+pure computation from effects: a function of type `Integer -> Integer` *cannot*
+print, read files, or mutate anything, because the type forbids it. That
+separation is what makes the compiler's guarantees meaningful — and it is why
+the [rest of this track](/) spends its time on pure functions and types, with
+`IO` confined to a thin outer layer.
+
+## 6. Self-test
+
+1. Evaluate `sum (map (* 2) (filter (> 2) [1, 2, 3, 4, 5]))`. (§1)
+2. What is the type of `\x y -> x + y * 2` when used on `Int`s? (§2)
+3. Write `productList :: [Integer] -> Integer` by recursion, with the base case
+   and the pattern. (§3)
+4. Why does `map (\x -> x + 1) [1, 2, 3]` return `[2, 3, 4]` — what are `map`'s
+   two arguments here? (§4)
+5. Why can the compiler reorder independent expressions without changing a
+   pure program's meaning? (§3, §5)
+6. `foldr (-) 0 [1, 2, 3]` evaluates to what? Trace it with the foldr
+   expansion. (§4)
+
+**Answers.**
+(1) `filter (> 2)` keeps `[3, 4, 5]`; doubling gives `[6, 8, 10]`; the sum is
+`24`. (2) `Int -> Int -> Int` — or, read curried, `Int -> (Int -> Int)`.
+(3) `productList [] = 1; productList (x:xs) = x * productList xs` — base case 1
+because multiplication's identity is 1. (4) `map`'s arguments are the function
+`(\x -> x + 1)` — an anonymous function, a lambda — and the list `[1, 2, 3]`.
+(5) Because a pure expression's value depends only on its subexpressions'
+values: with no effects to reorder, any evaluation order yields the same value,
+which is what referential transparency states. (6) `1 - (2 - (3 - 0))` =
+`1 - (2 - 3)` = `1 - (-1)` = `2`. Note this is *not* `-(1 + 2 + 3)` — `foldr
+(-)` is right-associative subtraction, and the trace makes that visible.
+
+## Where to go next
+
+- [The Haskell Track](/) — the language itself, from types to monads.
+- [Bounded Linear Operators](https://mathematics.wyattau.com/11-functional-analysis/3_bounded-linear-operators/) —
+  the mathematics the type signatures mirror: maps between structured spaces.
+- [Introduction to Algebraic Topology](https://mathematics.wyattau.com/9-topology/9_introduction-to-algebraic-topology/) —
+  the algebraic structures (monoids, functors) that monads generalise.
 
 ---
 
@@ -5942,15 +6069,9 @@ Advanced Haskell is about abstraction at the highest level. Functors, applicativ
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -5959,96 +6080,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -6102,15 +6133,9 @@ Haskell is the language where "if it compiles, it probably works." Pure function
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -6119,96 +6144,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -6247,7 +6182,7 @@ main = do
 
 **Parametric Polymorphism**: A function with type variables works for any type: `id :: a -> a`.
 
-**Monomorphic Type**: A type with no type variables, fully specified: `Int``Bool`.
+**Monomorphic Type**: A type with no type variables, fully specified: `Int`, `Bool`.
 
 **Algebraic Data Type (ADT)**: A type defined by combining other types, sum types (alternatives) and product types (combinations).
 
@@ -6269,13 +6204,13 @@ main = do
 
 **Eq**: The type class for equality comparison, providing `==` and `/=`.
 
-**Ord**: The type class for ordering, providing `<``>``compare`.
+**Ord**: The type class for ordering, providing `<`, `>`, `compare`.
 
 **Show**: The type class for string representation, providing `show`.
 
 **Read**: The type class for parsing strings, providing `read`.
 
-**Num**: The type class for numeric types, providing `+``-``*`.
+**Num**: The type class for numeric types, providing `+`, `-`, `*`.
 
 **Functor**: A type class for types that can be mapped over: `fmap :: (a -> b) -> f a -> f b`.
 
@@ -6297,7 +6232,7 @@ main = do
 
 **Currying**: Every function takes exactly one argument and returns one result. Multi-argument functions are chains of single-argument functions.
 
-**Higher-Order Function**: A function that takes or returns functions: `map``filter``fold`.
+**Higher-Order Function**: A function that takes or returns functions: `map`, `filter`, `fold`.
 
 **Composition**: Combining functions with `(.)`: `(f . g) x = f (g x)`.
 
@@ -6357,9 +6292,9 @@ main = do
 
 **Applicative Functor**: Applying functions in a context: `pure f <*> x`. More general than Monad.
 
-**Monoid**: A type with an associative binary operation and an identity element: `Sum``Product``Any``All`.
+**Monoid**: A type with an associative binary operation and an identity element: `Sum`, `Product`, `Any`, `All`.
 
-**Fold**: A function that reduces a structure to a single value: `foldr``foldl``foldMap`.
+**Fold**: A function that reduces a structure to a single value: `foldr`, `foldl`, `foldMap`.
 
 **Lens**: A composable accessor for focusing on parts of nested data structures.
 
@@ -6396,6 +6331,15 @@ URL: https://haskell.wyattau.com/hub/
 }
 </script>
 
+:::note[New to functional programming? Start here]
+If your background is an imperative language -- Python, Java, C -- read
+**[Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)** first. It
+rebuilds expressions-versus-statements, types as contracts, immutability,
+recursion as the loop, and higher-order functions from the ground up, and ends
+with a self-test so confident readers can skip by assessment.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -6413,17 +6357,6 @@ URL: https://haskell.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -6746,6 +6679,15 @@ URL: https://haskell.wyattau.com/intro/
 }
 </script>
 
+:::note[New to functional programming? Start here]
+If your background is an imperative language -- Python, Java, C -- read
+**[Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)** first. It
+rebuilds expressions-versus-statements, types as contracts, immutability,
+recursion as the loop, and higher-order functions from the ground up, and ends
+with a self-test so confident readers can skip by assessment.
+:::
+
+
 ## Haskell
 
 Welcome to the Haskell notes. Haskell is a purely functional, lazily evaluated language with a strong static type system. Everything is an expression, side effects are managed through monads, and types are inferred unless you annotate them.
@@ -6772,7 +6714,7 @@ Start with the basics: pure functions, pattern matching, and list operations. Th
 
 ## Cross-References
 
-- **[Abstract Algebra](https://mathematics.wyattau.com/abstract-algebra/)**: Groups, rings, and fields, the algebraic structures that inspire Haskell's type class hierarchy.
+- **[Abstract Algebra](https://mathematics.wyattau.com/1-abstract-algebra/)**: Groups, rings, and fields, the algebraic structures that inspire Haskell's type class hierarchy.
 - **Category Theory**: Functors, natural transformations, and monads have their mathematical foundations here.
 
 Browse the content using the sidebar navigation on the left.
@@ -6821,7 +6763,7 @@ main = do
 
 ## Common Mistakes
 
-**Confusing laziness with inefficiency:** Lazy evaluation delays computation until needed, which can save work (short-circuit evaluation, infinite data structures). But it can also cause space leaks when thunks accumulate. Strictness annotations (`BangPatterns``StrictData`) control this.
+**Confusing laziness with inefficiency:** Lazy evaluation delays computation until needed, which can save work (short-circuit evaluation, infinite data structures). But it can also cause space leaks when thunks accumulate. Strictness annotations (`BangPatterns`, `StrictData`) control this.
 
 **Assuming all Haskell code is pure:** The IO monad allows side effects (I/O, state, exceptions). Haskell is pure by default, but `IO` is a deliberate escape hatch. Understanding which code is pure and which is effectful is essential for reasoning about correctness.
 
@@ -6829,15 +6771,9 @@ main = do
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -6847,29 +6783,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 ## See also
 
 - [Introduction to Haskell](/00-intro/1_haskell-intro/)
@@ -6946,18 +6859,11 @@ review the explanation.
 - [Haskell Basics Flashcards](/flashcards-haskell-basics/)
 - [Advanced Haskell Flashcards](/flashcards-haskell-advanced/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -6966,77 +6872,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 

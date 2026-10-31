@@ -23,8 +23,8 @@ A major challenge in C++ systems engineering is **Build Reproducibility**. A dev
 Developer on Windows, and a CI/CD agent should all generate the build environment using the exact
 Same logic.
 
-Reliance on "magic" shell scripts (`build.sh``configure.bat`) or lengthy command-line arguments is
-An anti-pattern. Modern CMake resolves this through two architectural components:
+Reliance on "magic" shell scripts (`build.sh`, `configure.bat`) or lengthy command-line arguments is
+an anti-pattern. Modern CMake resolves this through two architectural components:
 
 1. **Toolchain Files:** Define **WHAT** tools are used (Compilers, Sysroot, Target Architecture).
 2. **CMake Presets:** Define **HOW** the build is configured (Generator, Flags, Output Directories,
@@ -82,11 +82,15 @@ This is the only way to force compiler selection before CMake auto-detects compi
 When cross-compiling, `find_package` and `find_library` search the target sysroot, not the host
 Filesystem. The mode variables control this:
 
+<div class="table-wrap">
+
 | Variable                            | Value   | Behavior                                                         |
 | :---------------------------------- | :------ | :--------------------------------------------------------------- |
 | `CMAKE_FIND_ROOT_PATH_MODE_PROGRAM` | `NEVER` | Always searches the host (programs run on the host during build) |
 | `CMAKE_FIND_ROOT_PATH_MODE_LIBRARY` | `ONLY`  | Only searches the sysroot (libraries are for the target)         |
 | `CMAKE_FIND_ROOT_PATH_MODE_INCLUDE` | `ONLY`  | Only searches the sysroot (headers are for the target)           |
+
+</div>
 
 ---
 
@@ -246,7 +250,7 @@ Differ (e.g., where `vcpkg` is installed).
 ### Example: Local Vcpkg Override
 
 A developer can create `CMakeUserPresets.json` to inject their local vcpkg path without modifying
-The shared project file.
+the shared project file.
 
 ```json
 {
@@ -362,6 +366,8 @@ Different platforms by selectively enabling or disabling presets:
 
 ### Condition Types
 
+<div class="table-wrap">
+
 | Type        | Description        | Example                    |
 | :---------- | :----------------- | :------------------------- |
 | `equals`    | String equality    | lhs equals rhs             |
@@ -372,6 +378,8 @@ Different platforms by selectively enabling or disabling presets:
 | `allOf`     | Logical AND        | All nested conditions true |
 | `anyOf`     | Logical OR         | Any nested condition true  |
 | `not`       | Logical NOT        | Negated condition          |
+
+</div>
 
 ## 7. Environment Variables in Presets
 
@@ -405,6 +413,8 @@ Shell or into subsequent build steps (unless the build system propagates them).
 
 Preset files support variable expansion using `${}`:
 
+<div class="table-wrap">
+
 | Variable             | Description                                          |
 | :------------------- | :--------------------------------------------------- |
 | `${sourceDir}`       | Path to the directory containing `CMakePresets.json` |
@@ -413,6 +423,8 @@ Preset files support variable expansion using `${}`:
 | `${hostSystemName}`  | OS name (Linux, Windows, Darwin)                     |
 | `${fileDir}`         | Directory of the preset file                         |
 | `$env{VAR}`          | Environment variable from the host                   |
+
+</div>
 
 ## 8. Install and Package Presets
 
@@ -459,6 +471,8 @@ cpack --preset tgz
 
 The `version` field in `CMakePresets.json` determines which features are available:
 
+<div class="table-wrap">
+
 | Version | Minimum CMake | Key Features                                               |
 | :------ | :------------ | :--------------------------------------------------------- |
 | 1       | 3.19          | Basic configure presets                                    |
@@ -467,6 +481,8 @@ The `version` field in `CMakePresets.json` determines which features are availab
 | 4       | 3.21          | Include files                                              |
 | 5       | 3.24          | Conditions, install presets                                |
 | 6       | 3.25          | Package presets, configure preset `inherits` from multiple |
+
+</div>
 
 ### Preset Include Files
 
@@ -485,7 +501,7 @@ For large projects, presets can be split across multiple files using the `includ
 }
 ```
 
-The included files must have `"version"` and `"configurePresets"` (or `"buildPresets"`Etc.) at the
+The included files must have `"version"` and `"configurePresets"` (or `"buildPresets"`. Etc.) at the
 Top level. Included presets are merged into the including file's namespace.
 
 ## Architectural Best Practices
@@ -524,7 +540,7 @@ Include `${presetName}` in the `binaryDir`:
 
 ### 2. Toolchain File Path in User Presets
 
-If a user preset overrides `CMAKE_TOOLCHAIN_FILE` via `cacheVariables`It takes precedence over the
+If a user preset overrides `CMAKE_TOOLCHAIN_FILE` via `cacheVariables`. It takes precedence over the
 Shared preset's `toolchainFile` field. This is correct behavior but can be confusing. Use
 `toolchainFile` in the user preset instead of `cacheVariables` for clarity.
 
@@ -543,7 +559,7 @@ False). Use `cmake --list-presets` to verify that all expected presets are visib
 
 Single-config generators (Ninja, Unix Makefiles) require `CMAKE_BUILD_TYPE` to be set. Multi-config
 Generators (Visual Studio, Ninja Multi-Config) ignore `CMAKE_BUILD_TYPE` and use the `--config` flag
-Instead. If you target both platforms, use generator-specific presets:
+instead. If you target both platforms, use generator-specific presets:
 
 ```json
 {
@@ -565,17 +581,6 @@ Instead. If you target both platforms, use generator-specific presets:
 }
 ```
 
-
-```mermaid
-flowchart TD
-    A[3_Cmake_Presets_And_Toolchain_Files] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to cmake presets and toolchain
@@ -588,9 +593,6 @@ files, including key principles and practical applications.
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
 
 ## Worked Examples
 
@@ -666,7 +668,7 @@ CMake presets define reusable build configurations (debug, release, sanitizer bu
 - [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Dependency presets
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## See Also
 

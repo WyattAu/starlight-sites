@@ -22,7 +22,7 @@ description: "A holds on relation if for any two tuples in Comprehensive educati
 A **functional dependency** $X \to Y$ holds on relation $R$ if for any two tuples $t_1, t_2$ in $R$
 $t_1[X] = t_2[X]$ implies $t_1[Y] = t_2[Y]$.
 
-**Armstrong"s axioms:**
+**Armstrong's axioms:**
 
 1. **Reflexivity:** If $Y \subseteq X$ Then $X \to Y$.
 2. **Augmentation:** If $X \to Y$ Then $XZ \to YZ$.
@@ -50,9 +50,9 @@ Candidate key. Equivalently: every non-prime attribute is fully functionally dep
 Candidate key.
 
 A **partial dependency** is $A \to B$ where $A$ is a proper subset of a candidate key and $B$ is
-Non-prime.
+non-prime.
 
-**Third Normal Form (3NF).** In 2NF, and for every non-trivial FD $X \to A$ in $R$Either $X$ is a
+**Third Normal Form (3NF).** In 2NF, and for every non-trivial FD $X \to A$ in $R$ Either $X$ is a
 Superkey or $A$ is a prime attribute.
 
 A **prime attribute** is an attribute that belongs to some candidate key.
@@ -80,7 +80,7 @@ if $R_1 \cap R_2 \to R_1$ or $R_1 \cap R_2 \to R_2$.
 
 _Proof._ Let $r$ be an instance of $R$ and let $r_1 = \pi_{R_1}(r)$, $r_2 = \pi_{R_2}(r)$. We must
 Show $r = r_1 \bowtie r_2$ under the given condition. Since $r_1$ and $r_2$ are projections of $r$
-Every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
+every tuple in $r_1 \bowtie r_2$ agrees with some tuple of $r$ on every attribute. It suffices to
 show That no spurious tuple is produced. Suppose $(t_1, t_2) \in r_1 \bowtie r_2$ where
 $t_1 \in r_1$ and $t_2 \in r_2$. Since $t_1$ and $t_2$ agree on $R_1 \cap R_2$ And by the condition
 $R_1 \cap R_2 \to
@@ -96,7 +96,7 @@ Preserves dependencies if the **closure** of $\bigcup_{i=1}^{k} F_i^+$ (where $F
 restriction Of $F$ to $R_i$) equals $F^+$. In practice, we check that every FD in a minimal cover of
 $F$ can be Tested within a single $R_i$.
 
-Dependency preservation is important for **efficient constraint checking**: when updating $R_i$The
+Dependency preservation is important for **efficient constraint checking**: when updating $R_i$ The
 DBMS can verify relevant FDs locally without joining all decomposed relations.
 
 ### 4.4 Normalisation Examples
@@ -167,7 +167,7 @@ $R_2$ So it is dropped. $ED \to A$ holds. Also, $A \to B$ involves $B$ not in $R
 Check for implied FDs: $A \to B$ in $R$ implies $AC \to BC$ (augmentation), so $AC \to E$ in $R$
 (since $BC \to E$). But $AC$ is not a superkey of $R_2$... Wait, let us recheck.
 
-Actually, from $BC \to E$ and the fact that $B$ is not in $R_2$We cannot directly use $BC \to E$ In
+Actually, from $BC \to E$ and the fact that $B$ is not in $R_2$ We cannot directly use $BC \to E$ In
 $R_2$. We should compute the projection of $F$ onto $R_2$:
 $F_2 = \\{ED \to A, A \to \varnothing\\}$. So the only non-trivial FD in $R_2$ is $ED \to A$. Is
 $ED$ a superkey of $R_2$? $ED^+ = \\{E, D, A\\} \neq
@@ -175,11 +175,11 @@ $ED$ a superkey of $R_2$? $ED^+ = \\{E, D, A\\} \neq
 a superkey of $R_2$.
 
 Hmm, we need to be more careful. Let us check if $C$ is determined by $ED$ in the original $R$.
-$ED^+$ in $R = \\{E, D, A, B\\}$Which does not include $C$. So $C$ is not determined.
+$ED^+$ in $R = \\{E, D, A, B\\}$ Which does not include $C$. So $C$ is not determined.
 
 This means $R_2 = \\{A, C, D, E\\}$ has no non-trivial FDs that hold (other than keys determining
 all Attributes). Check: candidate keys of $R_2$ must be superkeys. Since $ED \to A$ holds but $ED$
-does Not determine $C$We need $EDC$ as a key: $EDC^+ = \\{E, D, C, A, B\\} = R$ (all of $R$). So in
+does Not determine $C$ We need $EDC$ as a key: $EDC^+ = \\{E, D, C, A, B\\} = R$ (all of $R$). So in
 $R_2$, $EDC$ is a candidate key (since it determines all attributes of $R_2$: $EDC \to A$ and
 $A \to
 \varnothing$ in $R_2$, so $EDC^+ = \\{A, C, D, E\\}$). $R_2$ is in BCNF since the only
@@ -187,7 +187,7 @@ non-trivial FD is $ED \to A$ and we need to check if $ED$ is a superkey of $R_2$
 $ED^+ \cap R_2 = \\{A, D, E\\}
 \neq R_2$, $ED$ is not a superkey.
 
-But wait -- there are no other non-trivial FDs in $R_2$. The only one is $ED \to A$Which violates
+But wait -- there are no other non-trivial FDs in $R_2$. The only one is $ED \to A$ Which violates
 BCNF. Decompose: $R_{2a} = \\{E, D, A\\}$ and
 $R_{2b} = \\{A, C, D, E\\} \setminus \\{E, D, A\\} =
 \\{C\\}$.
@@ -203,7 +203,7 @@ lossless. $R_{2a} \cap R_{2b} = \varnothing$... This is problematic. $R_{2b} = \
 attributes with The others.
 
 The issue is that $C$ is a "dangling" attribute. This is correct -- $C$ appears only in the key $BC$
-Of the original relation but is not functionally determined by anything except the full key. The
+of the original relation but is not functionally determined by anything except the full key. The
 Decomposition is technically correct but $R_{2b} = \\{C\\}$ by itself cannot be joined losslessly
 with The others.
 
@@ -221,7 +221,7 @@ another non-prime attribute.
 ### 4.5 Multivalued Dependencies and 4NF
 
 A **multivalued dependency (MVD)** $X \twoheadrightarrow Y$ holds on relation $R$ if for any two
-Tuples $t_1, t_2 \in R$ with $t_1[X] = t_2[X]$There exists a tuple $t_3 \in R$ such that:
+Tuples $t_1, t_2 \in R$ with $t_1[X] = t_2[X]$ There exists a tuple $t_3 \in R$ such that:
 
 - $t_3[X] = t_1[X]$
 - $t_3[Y] = t_1[Y]$
@@ -238,7 +238,7 @@ That holds on $R$, $X$ is a superkey.
 
 _Proof._ Every FD $X \to Y$ implies the MVD $X \twoheadrightarrow Y$. In 4NF, every non-trivial MVD
 $X \twoheadrightarrow Y$ requires $X$ to be a superkey. Therefore, every non-trivial FD $X \to Y$
-Also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
+also requires $X$ to be a superkey, which is the BCNF condition. $\blacksquare$
 
 **4NF decomposition.** Given $R$ with MVD $X \twoheadrightarrow Y$ where $X$ is not a superkey,
 Decompose into $R_1 = X \cup Y$ and $R_2 = R - Y$. The decomposition is lossless-join.
@@ -254,12 +254,16 @@ $\mathrm{Course} \twoheadrightarrow \mathrm{Textbook}$.
 
 **Sample data:**
 
+<div class="table-wrap">
+
 | Course | Instructor | Textbook         |
 | ------ | ---------- | ---------------- |
 | CS101  | Smith      | DB Systems       |
 | CS101  | Lee        | DB Systems       |
 | CS101  | Smith      | Algorithm Design |
 | CS101  | Lee        | Algorithm Design |
+
+</div>
 
 The redundancy is clear: each instructor-textbook pair is repeated for each course.
 
@@ -275,17 +279,6 @@ Both are in 4NF (the determining attribute `Course` is a candidate key in each).
 
 </details>
 :::
-
-
-```mermaid
-flowchart TD
-    A[4_Normalisation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

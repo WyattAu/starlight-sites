@@ -28,31 +28,43 @@ Let $f, g: \mathbb{N} \to \mathbb{R}^+$ be functions.
 
 #### Big-O (Upper Bound)
 
-$$f(n) = O(g(n)) \iff \exists\, c > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } f(n) \leq c \cdot g(n)\ \forall\, n \geq n_0$$
+$$
+f(n) = O(g(n)) \iff \exists\, c > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } f(n) \leq c \cdot g(n)\ \forall\, n \geq n_0
+$$
 
 **Intuition:** $f$ is eventually bounded above by a constant multiple of $g$.
 
 #### Big-Omega (Lower Bound)
 
-$$f(n) = \Omega(g(n)) \iff \exists\, c > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } f(n) \geq c \cdot g(n)\ \forall\, n \geq n_0$$
+$$
+f(n) = \Omega(g(n)) \iff \exists\, c > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } f(n) \geq c \cdot g(n)\ \forall\, n \geq n_0
+$$
 
 **Intuition:** $f$ is eventually bounded below by a constant multiple of $g$.
 
 #### Big-Theta (Tight Bound)
 
-$$f(n) = \Theta(g(n)) \iff f(n) = O(g(n)) \land f(n) = \Omega(g(n))$$
+$$
+f(n) = \Theta(g(n)) \iff f(n) = O(g(n)) \land f(n) = \Omega(g(n))
+$$
 
-$$\iff \exists\, c_1, c_2 > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n)\ \forall\, n \geq n_0$$
+$$
+\iff \exists\, c_1, c_2 > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n)\ \forall\, n \geq n_0
+$$
 
-**Intuition:** $f$ grows at the same rate as $g$Up to constant factors.
+**Intuition:** $f$ grows at the same rate as $g$ Up to constant factors.
 
 #### Little-o (Strict Upper Bound)
 
-$$f(n) = o(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$$
+$$
+f(n) = o(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = 0
+$$
 
 #### Little-omega (Strict Lower Bound)
 
-$$f(n) = \omega(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$$
+$$
+f(n) = \omega(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty
+$$
 
 <hr />
 
@@ -60,23 +72,33 @@ $$f(n) = \omega(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$$
 
 **Theorem.** For polynomial-exponential functions, the following hierarchy holds:
 
-$$O(1) \subset o(\log n) \subset O(\log n) \subset o(\sqrt{n}) \subset O(\sqrt{n}) \subset o(n) \subset O(n) \subset o(n \log n) \subset O(n \log n) \subset o(n^2) \subset O(n^2) \subset \cdots \subset O(2^n) \subset o(n!)$$
+$$
+O(1) \subset o(\log n) \subset O(\log n) \subset o(\sqrt{n}) \subset O(\sqrt{n}) \subset o(n) \subset O(n) \subset o(n \log n) \subset O(n \log n) \subset o(n^2) \subset O(n^2) \subset \cdots \subset O(2^n) \subset o(n!)
+$$
 
 **Proof (selected).** We prove $n = o(n \log n)$:
 
-$$\lim_{n \to \infty} \frac{n}{n \log n} = \lim_{n \to \infty} \frac{1}{\log n} = 0$$
+$$
+\lim_{n \to \infty} \frac{n}{n \log n} = \lim_{n \to \infty} \frac{1}{\log n} = 0
+$$
 
 Similarly, $\log n = o(n)$:
 
-$$\lim_{n \to \infty} \frac{\log n}{n} = 0 \quad \mathrm{(by L"Hôpital's rule)}$$
+$$
+\lim_{n \to \infty} \frac{\log n}{n} = 0 \quad \mathrm{(by L"Hôpital's rule)}
+$$
 
 And $n^k = o(2^n)$ for any constant $k$:
 
-$$\lim_{n \to \infty} \frac{n^k}{2^n} = 0 \quad \mathrm{(exponential dominates polynomial)}$$
+$$
+\lim_{n \to \infty} \frac{n^k}{2^n} = 0 \quad \mathrm{(exponential dominates polynomial)}
+$$
 
 $\square$
 
 ### Common Complexity Classes
+
+<div class="table-wrap">
 
 | Class         | Name         | Example                         |
 | ------------- | ------------ | ------------------------------- |
@@ -88,6 +110,8 @@ $\square$
 | $O(n^3)$      | Cubic        | Floyd-Warshall, matrix multiply |
 | $O(2^n)$      | Exponential  | Subset enumeration, brute force |
 | $O(n!)$       | Factorial    | Permutation enumeration (TSP)   |
+
+</div>
 
 :::note
 Focuses on time complexity. **CIE (9618)** covers Big-O, Big-Theta, and Big-Omega notation; requires
@@ -101,7 +125,7 @@ Performance. **Edexcel** covers time and space complexity with Big-O notation.
 
 ### Definitions
 
-For an algorithm with input size $n$Let $D_n$ be the set of all possible inputs of size $n$ And Let
+For an algorithm with input size $n$ Let $D_n$ be the set of all possible inputs of size $n$ And Let
 $T(A, I)$ be the running time of algorithm $A$ on input $I$.
 
 - **Best case:** $T_{\mathrm{best}}(n) = \min_{I \in D_n} T(A, I)$
@@ -112,11 +136,15 @@ Where $P(I)$ is the probability of input $I$.
 
 ### Example: Quick Sort
 
+<div class="table-wrap">
+
 | Case    | Complexity    | When                          |
 | ------- | ------------- | ----------------------------- |
 | Best    | $O(n \log n)$ | Pivot always splits in half   |
 | Average | $O(n \log n)$ | Random inputs (expected)      |
 | Worst   | $O(n^2)$      | Already sorted, min/max pivot |
+
+</div>
 
 :::caution
 Not be uniformly distributed. Always state the distribution assumption when discussing average case.
@@ -132,11 +160,15 @@ For recurrences of the form $T(n) = aT(n/b) + f(n)$ where $a \geq 1$, $b \gt 1$:
 
 Let $c = \log_b a$. Compare $f(n)$ with $n^c$:
 
+<div class="table-wrap">
+
 | Case | Condition                                                  | Solution                          |
 | ---- | ---------------------------------------------------------- | --------------------------------- |
 | 1    | $f(n) = O(n^{c - \epsilon})$                               | $T(n) = \Theta(n^c)$              |
 | 2    | $f(n) = \Theta(n^c \log^k n)$                              | $T(n) = \Theta(n^c \log^{k+1} n)$ |
 | 3    | $f(n) = \Omega(n^{c + \epsilon})$ and $af(n/b) \leq cf(n)$ | $T(n) = \Theta(f(n))$             |
+
+</div>
 
 ### Worked Examples
 
@@ -184,10 +216,10 @@ Cost per insertion: $O(1)$.
 
 Assign an **amortised cost** to each operation. Some operations are charged more than their actual
 Cost (creating a "credit"); others are charged less (consuming credit). The credit must always be
-Non-negative.
+non-negative.
 
 **Example: Dynamic array.** Charge $\$3$ per insertion: $\$1$ for the actual insert, $\$2$ saved for
-Future resizing. When a resize of $k$ elements occurs, it costs $O(k)$Which is covered by the $2k$
+Future resizing. When a resize of $k$ elements occurs, it costs $O(k)$ Which is covered by the $2k$
 Credit accumulated from the $k$ insertions.
 
 #### Potential Method
@@ -195,7 +227,9 @@ Credit accumulated from the $k$ insertions.
 Define a **potential function** $\Phi$ mapping data structure states to non-negative real numbers.
 The amortised cost of operation $i$ is:
 
-$$\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})$$
+$$
+\hat{c}_i = c_i + \Phi(D_i) - \Phi(D_{i-1})
+$$
 
 Total amortised cost: $\sum_{i=1}^{n} \hat{c}_i = \sum_{i=1}^{n} c_i + \Phi(D_n) - \Phi(D_0)$
 
@@ -206,7 +240,7 @@ Capacity/2, else 0.
 
 - **Insert without resize:** Actual cost = 1. $\Phi$ increases by 2. Amortised cost = $1 + 2 = 3$.
 - **Insert with resize from $k$ to $2k$:** Actual cost = $k$ (copy) + 1 (insert). Before: size =
-  $k$Capacity = $k$, $\Phi = 2(k - k/2) = k$. After: size = $k+1$Capacity = $2k$
+  $k$ Capacity = $k$, $\Phi = 2(k - k/2) = k$. After: size = $k+1$ Capacity = $2k$
   $\Phi = 2(k+1 - k) = 2$. Change: $2 - k$. Amortised = $(k + 1) + (2 - k) = 3$.
 
 Amortised cost per operation: $O(3) = O(1)$. $\square$
@@ -218,7 +252,9 @@ Amortised cost per operation: $O(3) = O(1)$. $\square$
 ### Space-Time Tradeoffs
 
 Sometimes we can reduce time complexity by using more memory, or reduce space by accepting more
-Time.
+time.
+
+<div class="table-wrap">
 
 | Tradeoff           | Example                                 |
 | ------------------ | --------------------------------------- |
@@ -226,16 +262,22 @@ Time.
 | Memoization        | $O(1)$ repeated lookups vs $O(n)$ space |
 | Precomputed tables | $O(1)$ trig functions vs large ROM      |
 
+</div>
+
 ### Logarithmic Factors
 
 $\log n$ grows very slowly. For all practical input sizes, $O(n \log n)$ is often acceptable even
-When $O(n)$ is achievable with more complex algorithms.
+when $O(n)$ is achievable with more complex algorithms.
+
+<div class="table-wrap">
 
 | $n$    | $\log_2 n$ | $n \log_2 n$       |
 | ------ | ---------- | ------------------ |
 | $10^3$ | 10         | $10^4$             |
 | $10^6$ | 20         | $2 \times 10^7$    |
 | $10^9$ | 30         | $3 \times 10^{10}$ |
+
+</div>
 
 <hr />
 
@@ -265,7 +307,7 @@ Choose $c = 14$ and $n_0 = 1$. ✓
 For all $n \geq n_0$.
 
 This implies $n \leq c$ for all $n \geq n_0$. But $n$ grows without bound, so this is impossible for
-Any fixed $c$. Contradiction. $\square$
+any fixed $c$. Contradiction. $\square$
 
 Equivalently: $\lim_{n \to \infty} n^2 / n = \lim_{n \to \infty} n = \infty \neq 0$ So
 $n^2 \neq O(n)$.
@@ -334,18 +376,18 @@ Than one with complexity $O(n^2 \log n)$. Is this correct? Explain.
 <summary>Answer</summary>
 
 No. Big-O is an **asymptotic** upper bound, it describes behaviour as $n \to \infty$. For small
-$n$The $O(n^3)$ algorithm might be faster due to smaller constant factors.
+$n$ The $O(n^3)$ algorithm might be faster due to smaller constant factors.
 
 Example: Algorithm A takes $1000n^2 \log n$ operations, Algorithm B takes $n^3$ operations. For
 $n = 10$: A ≈ $1000 \times 100 \times 3.3 = 330,000$; B = $1000$. B is much faster.
 
-The crossover point is where $n^3 = 1000n^2 \log n$I.e., $n = 1000\log n$Which is at
+The crossover point is where $n^3 = 1000n^2 \log n$ I.e., $n = 1000\log n$ Which is at
 $n \approx 13,000$. Below this, B is faster.
 
 </details>
 
-**Problem 7.** Perform amortized analysis of a stack that supports push ($O(1)$), pop ($O(1)$), and
-**multipop(k)** which pops $k$ elements ($O(k)$Or $O(\min(k, \mathrm{size}))$).
+**Problem 7.** Perform amortized analysis of a stack that supports push ($O(1)$), pop ($ O(1)$), and
+**multipop(k)** which pops $k$ elements ($O(k)$ Or $O(\min(k, \mathrm{size}))$).
 
 <details>
 <summary>Answer</summary>
@@ -383,7 +425,7 @@ def f(n):
 
 $T(n) = 2T(n-1) + O(1)$$T(1) = O(1)$.
 
-This is **not** in Master Theorem form (requires $T(n/b)$Not $T(n-1)$).
+This is **not** in Master Theorem form (requires $T(n/b)$ Not $T(n-1)$).
 
 Expanding:
 $T(n) = 2(2T(n-2) + 1) + 1 = 4T(n-2) + 3 = 8T(n-3) + 7 = \cdots = 2^{n-1}T(1) + (2^{n-1} - 1)$.
@@ -404,7 +446,9 @@ First simplify: $2^{\log n} = n$ (assuming $\log$ is base 2).
 
 Growth rates (slowest to fastest):
 
-$$\log^2 n < n^{0.5} < n = 2^{\log n} < n \log n < n^3 < 2^n < n!$$
+$$
+\log^2 n < n^{0.5} < n = 2^{\log n} < n \log n < n^3 < 2^n < n!
+$$
 
 **Verification of selected orderings:**
 
@@ -466,7 +510,7 @@ Total iterations = $0 + 1 + 2 + \cdots + (n-1) = \frac{n(n-1)}{2} = \frac{n^2 - 
 The dominant term is $\frac{n^2}{2}$ So the time complexity is $O(n^2)$.
 
 The $\frac{1}{2}$ constant and the $-n$ term are dropped because Big-O ignores constant factors and
-Lower-order terms.
+lower-order terms.
 
 </details>
 
@@ -502,22 +546,24 @@ $\lceil \log_2 n \rceil$.
 
 **Problem 3.** Algorithm A has time complexity $O(n \log n)$ with a constant factor of 10, and
 Algorithm B has time complexity $O(n^2)$ with a constant factor of 1. For approximately what values
-Of $n$ is Algorithm A faster than Algorithm B?
+of $n$ is Algorithm A faster than Algorithm B?
 
 <details>
 <summary>Hint</summary>
 
 Algorithm A performs approximately $10n \log_2 n$ operations and Algorithm B performs approximately
-$n^2$ operations. Solve $10n \log_2 n < n^2$Which simplifies to $10 \log_2 n < n$.
+$n^2$ operations. Solve $10n \log_2 n < n^2$ Which simplifies to $10 \log_2 n < n$.
 
 </details>
 
 <details>
 <summary>Answer</summary>
 
-We need $10n \log_2 n < n^2$Which simplifies to $10 \log_2 n < n$ (for $n > 0$).
+We need $10n \log_2 n < n^2$ Which simplifies to $10 \log_2 n < n$ (for $n > 0$).
 
 Testing values:
+
+<div class="table-wrap">
 
 | $n$ | $10 \log_2 n$ | $n$ | A faster? |
 | --- | ------------- | --- | --------- |
@@ -528,10 +574,12 @@ Testing values:
 | 50  | 56.4          | 50  | No        |
 | 60  | 59.1          | 60  | Yes       |
 
+</div>
+
 Algorithm A becomes faster at approximately **$n = 60$**.
 
 This demonstrates that Big-O notation only describes asymptotic behaviour. For small inputs, the
-Algorithm with the better Big-O complexity can be slower due to larger constant factors.
+algorithm with the better Big-O complexity can be slower due to larger constant factors.
 
 </details>
 
@@ -542,7 +590,7 @@ $O(n^3)$(c) $O(n)$ vs $O(\log n)$.
 <details>
 <summary>Hint</summary>
 
-Use the limit test: if $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$ Then $f(n) = o(g(n))$Meaning $f$
+Use the limit test: if $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$ Then $f(n) = o(g(n))$ Meaning $f$
 grows strictly slower than $g$.
 
 </details>
@@ -598,9 +646,9 @@ Each integer occupies $O(1)$ space, and the list overhead is also $O(1)$ per ele
 
 **Space complexity: $O(n^2)$.**
 
-The dominant factor is the total number of stored values ($2n^2$). The variable `i`The `row`
+The dominant factor is the total number of stored values ($2n^2$). The variable `i`. The `row`
 Reference, and the loop overhead all use $O(1)$ additional space and are negligible compared to the
-Matrix itself.
+matrix itself.
 
 </details>
 
@@ -617,7 +665,7 @@ def sum_recursive(arr, n):
 <summary>Hint</summary>
 
 Recursive functions use stack space proportional to their recursion depth. How deep does the
-Recursion go, and how much space does each stack frame use?
+recursion go, and how much space does each stack frame use?
 
 </details>
 
@@ -646,12 +694,14 @@ Each case, describe the type of input that produces that complexity and explain 
 <summary>Hint</summary>
 
 Quicksort's performance depends on how the pivot partitions the array. Consider what happens when
-The pivot is the median element, a random element, and the minimum or maximum element.
+the pivot is the median element, a random element, and the minimum or maximum element.
 
 </details>
 
 <details>
 <summary>Answer</summary>
+
+<div class="table-wrap">
 
 | Case    | Complexity    | Input condition                        | Explanation                                                                                                                                   |
 | ------- | ------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -659,9 +709,11 @@ The pivot is the median element, a random element, and the minimum or maximum el
 | Average | $O(n \log n)$ | Random inputs                          | With a random pivot, the expected split ratio is balanced. The recurrence $T(n) = T(n/2) + T(n/2) + O(n)$ holds on average.                   |
 | Worst   | $O(n^2)$      | Already sorted (with first/last pivot) | If pivot is always the minimum or maximum, one partition has $n-1$ elements and the other has 0. Recurrence: $T(n) = T(n-1) + O(n) = O(n^2)$. |
 
+</div>
+
 **Mitigation:** Randomised quicksort (choosing a random pivot) or median-of-three pivot selection
 Makes the worst case extremely unlikely in practice, giving expected $O(n \log n)$ regardless of
-Input.
+input.
 
 </details>
 
@@ -688,23 +740,29 @@ $k$ comparisons, the range size is at most $n / 2^k$. When does this become less
 
 The algorithm terminates when the range has fewer than 1 element:
 
-$$\frac{n}{2^k} < 1 \implies 2^k > n \implies k > \log_2 n$$
+$$
+\frac{n}{2^k} < 1 \implies 2^k > n \implies k > \log_2 n
+$$
 
 So the maximum number of iterations is $\lfloor \log_2 n \rfloor + 1 = O(\log n)$.
 
 **Formal derivation using the Master Theorem:**
 
-$$T(n) = T(n/2) + O(1), \quad T(1) = O(1)$$
+$$
+T(n) = T(n/2) + O(1), \quad T(1) = O(1)
+$$
 
-Here $a = 1$$b = 2$$c = \log_2 1 = 0$. Since $f(n) = O(1) = O(n^0) = O(n^c)$This is Master Theorem
+Here $a = 1$$b = 2$$c = \log_2 1 = 0$. Since $f(n) = O(1) = O(n^0) = O(n^c)$ This is Master Theorem
 Case 2 with $k = 0$:
 
-$$T(n) = \Theta(n^c \log^{k+1} n) = \Theta(\log n)$$
+$$
+T(n) = \Theta(n^c \log^{k+1} n) = \Theta(\log n)
+$$
 
 **Why log n is efficient:** $\log_2 n$ grows extremely slowly. For $n = 10^9$ (one billion),
 $\log_2 n
 \approx 30$. This means binary search finds any element in a sorted billion-element array
-With at most 30 comparisons.
+with at most 30 comparisons.
 
 </details>
 
@@ -724,7 +782,7 @@ def recursive_func(n):
 <summary>Hint</summary>
 
 Set up the recurrence relation. The function does $O(n)$ work (the for loop) and then calls itself
-With $n/2$. This gives $T(n) = T(n/2) + O(n)$. Apply the Master Theorem.
+with $n/2$. This gives $T(n) = T(n/2) + O(n)$. Apply the Master Theorem.
 
 </details>
 
@@ -733,7 +791,9 @@ With $n/2$. This gives $T(n) = T(n/2) + O(n)$. Apply the Master Theorem.
 
 **Recurrence relation:**
 
-$$T(n) = T(n/2) + O(n), \quad T(0) = O(1)$$
+$$
+T(n) = T(n/2) + O(n), \quad T(0) = O(1)
+$$
 
 The $O(n)$ term comes from the for loop that iterates `n` times. The recursive call passes $n // 2$.
 
@@ -748,9 +808,13 @@ This is **Case 3** of the Master Theorem: $T(n) = \Theta(f(n)) = \Theta(n)$.
 
 **Verification by expansion:**
 
-$$T(n) = n + T(n/2) = n + n/2 + T(n/4) = n + n/2 + n/4 + \cdots + 1$$
+$$
+T(n) = n + T(n/2) = n + n/2 + T(n/4) = n + n/2 + n/4 + \cdots + 1
+$$
 
-$$= n\left(1 + \frac{1}{2} + \frac{1}{4} + \cdots\right) = n \cdot 2 = 2n = O(n)$$
+$$
+= n\left(1 + \frac{1}{2} + \frac{1}{4} + \cdots\right) = n \cdot 2 = 2n = O(n)
+$$
 
 **Time complexity: $O(n)$.**
 
@@ -773,15 +837,15 @@ def algorithm_p(arr):
 
 **Algorithm Q** uses a modified merge sort that counts inversions during the merge step.
 
-(a) Determine the time complexity of each algorithm. (b) For $n = 10\,000$Estimate the number of
-Operations for each algorithm. (c) Which algorithm is more efficient and by what factor? Explain
-Your reasoning.
+(a) Determine the time complexity of each algorithm. (b) For $n = 10\,000$ Estimate the number of
+operations for each algorithm. (c) Which algorithm is more efficient and by what factor? Explain
+your reasoning.
 
 <details>
 <summary>Hint</summary>
 
 For Algorithm P, count the number of iterations of the nested loops. For Algorithm Q, recall that
-Merge sort is $O(n \log n)$ and the modification to count inversions doesn't change the asymptotic
+merge sort is $O(n \log n)$ and the modification to count inversions doesn't change the asymptotic
 Complexity.
 
 </details>
@@ -800,28 +864,34 @@ Total iterations: $\sum_{i=0}^{n-1}(n - 1 - i) = (n-1) + (n-2) + \cdots + 1 + 0 
 
 **Algorithm Q:** Modified merge sort follows the same divide-and-conquer structure as standard merge
 Sort. Each level processes all $n$ elements during merging, and there are $\log n$ levels. The
-Inversion count is accumulated during the merge step without changing the merge complexity.
+inversion count is accumulated during the merge step without changing the merge complexity.
 
 **Time complexity of Q: $O(n \log n)$.**
 
 **(b) Estimated operations for $n = 10\,000$:**
+
+<div class="table-wrap">
 
 | Algorithm | Formula      | Operations                                       |
 | --------- | ------------ | ------------------------------------------------ |
 | P         | $n(n-1)/2$   | $10\,000 \times 9\,999 / 2 \approx 49\,995\,000$ |
 | Q         | $n \log_2 n$ | $10\,000 \times 13.3 \approx 133\,000$           |
 
+</div>
+
 **(c) Comparison:**
 
 Algorithm Q is significantly more efficient. The ratio is:
 
-$$\frac{n^2/2}{n \log n} = \frac{n}{2 \log_2 n} = \frac{10\,000}{2 \times 13.3} \approx 376$$
+$$
+\frac{n^2/2}{n \log n} = \frac{n}{2 \log_2 n} = \frac{10\,000}{2 \times 13.3} \approx 376
+$$
 
 Algorithm Q is approximately **376 times faster** than Algorithm P for $n = 10\,000$.
 
-**Reasoning:** The difference grows with $n$. For $n = 1\,000\,000$Algorithm P would perform
+**Reasoning:** The difference grows with $n$. For $n = 1\,000\,000$ Algorithm P would perform
 $\approx 5 \times 10^{11}$ operations while Algorithm Q performs $\approx 20\,000\,000$, a factor
-Of 25,000×. This demonstrates the critical importance of choosing algorithms with better asymptotic
+of 25,000×. This demonstrates the critical importance of choosing algorithms with better asymptotic
 Complexity for large inputs.
 
 </details>
@@ -838,23 +908,7 @@ Complexity for large inputs.
 4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
-```mermaid
-flowchart TD
-    A[04 Complexity Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

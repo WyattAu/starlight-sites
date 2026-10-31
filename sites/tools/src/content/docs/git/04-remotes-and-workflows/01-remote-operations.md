@@ -59,10 +59,14 @@ flowchart LR
 
 ### Bare vs Non-Bare Repositories
 
+<div class="table-wrap">
+
 | Type                   | Working Directory | Purpose                                       |
 | ---------------------- | ----------------- | --------------------------------------------- |
 | **Non-bare** (default) | Yes               | Developer workstation, edit, commit, push    |
 | **Bare** (`--bare`)    | No                | Server-side repository, receives pushes only |
+
+</div>
 
 A bare repository is just the `.git/` directory without a working tree. It is the standard format
 for remote servers (GitHub, GitLab, Gitea):
@@ -120,10 +124,14 @@ $ git remote set-url origin git@github.com:user/repo.git
 
 ### URLs: HTTPS vs SSH
 
+<div class="table-wrap">
+
 | Protocol  | URL Format                         | Authentication   | Use Case                                     |
 | --------- | ---------------------------------- | ---------------- | -------------------------------------------- |
 | **HTTPS** | `https://github.com/user/repo.git` | Token / password | Public repos, CI/CD, firewalled environments |
 | **SSH**   | `git@github.com:user/repo.git`     | SSH key          | Frequent pushes, personal development        |
+
+</div>
 :::
 
 :::tip
@@ -193,7 +201,7 @@ $ git config --global pull.rebase true
 
 ### Why `--rebase` is Better
 
-Without `--rebase``git pull` creates a merge commit for every pull, cluttering the history:
+Without `--rebase`, `git pull` creates a merge commit for every pull, cluttering the history:
 
 ```mermaid
 gitGraph
@@ -345,6 +353,8 @@ git checkout -b main origin/main  # or whatever the default branch is
 
 The clone creates:
 
+<div class="table-wrap">
+
 | Component              | Description                                     |
 | ---------------------- | ----------------------------------------------- |
 | `.git/`                | Full local repository with all objects and refs |
@@ -352,7 +362,11 @@ The clone creates:
 | `origin` remote        | Points to the source URL                        |
 | `main` tracking branch | Tracks `origin/main`                            |
 
+</div>
+
 ### Clone Variants
+
+<div class="table-wrap">
 
 | Variant     | Command               | Use Case                                       |
 | ----------- | --------------------- | ---------------------------------------------- |
@@ -362,10 +376,12 @@ The clone creates:
 | **Mirror**  | `git clone --mirror`  | Backup/migration, all refs, bare repository   |
 | **Bare**    | `git clone --bare`    | Server setup, no working directory            |
 
+</div>
+
 ## Remote-Tracking Branches
 
 Remote-tracking branches (e.g., `origin/main`) are local references that represent the state of a
-remote branch as of the last `git fetch`. They are updated automatically by `fetch` and `pull`But
+remote branch as of the last `git fetch`. They are updated automatically by `fetch` and `pull`. But
 **never by local commits**.
 
 ```mermaid
@@ -452,10 +468,6 @@ $ git push -u origin feature-auth
    sorted input.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

@@ -22,6 +22,8 @@ description: "DDR5 represents a fundamental shift in memory architecture. The co
 DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed
 - the power delivery model, signal integrity, and error correction mechanisms are all different.
 
+<div class="table-wrap">
+
 | Parameter                | DDR4                | DDR5                           |
 | ------------------------ | ------------------- | ------------------------------ |
 | Voltage                  | 1.2 V (standard)    | 1.1 V (standard)               |
@@ -35,11 +37,13 @@ DDR5 represents a fundamental shift in memory architecture. The comparison is no
 | Max Standard Speed       | 3200 MT/s           | 4800 MT/s (JEDEC)              |
 | Typical Enthusiast Speed | 3600–4266 MT/s      | 6000–8400 MT/s                 |
 
+</div>
+
 ### Key Architectural Differences
 
 DDR5 moves the power management IC (PMIC) from the motherboard onto the DIMM itself. This means each
 DIMM manages its own power regulation, reducing the burden on the motherboard VRM. It also means you
-Cannot adjust VDDQ/VPP independently per DIMM from the motherboard, the DIMM"s PMIC handles this
+cannot adjust VDDQ/VPP independently per DIMM from the motherboard, the DIMM's PMIC handles this
 Internally.
 
 DDR5 doubles the bank group count (from 4 to 8) and doubles the burst length (from BL8 to BL16).
@@ -55,6 +59,8 @@ $$
 T_{CAS}(ns) = \frac{CL \times 2000}{MT/s}
 $$
 
+<div class="table-wrap">
+
 | Speed (MT/s) | CL  | CAS Latency (ns) |
 | ------------ | --- | ---------------- |
 | DDR4-3200    | 14  | 8.75             |
@@ -64,6 +70,8 @@ $$
 | DDR5-6000    | 30  | 10.00            |
 | DDR5-6400    | 32  | 10.00            |
 | DDR5-7200    | 34  | 9.44             |
+
+</div>
 
 DDR5-6000 CL30 matches DDR4-3200 CL14 in actual latency while delivering nearly double the
 Bandwidth. This is why DDR5-6000 is considered the sweet spot for AMD Zen 4 and Intel 13th/14th Gen.
@@ -85,12 +93,16 @@ Bandwidth. This is why DDR5-6000 is considered the sweet spot for AMD Zen 4 and 
 
 The four primary timings define the basic memory access pattern:
 
+<div class="table-wrap">
+
 | Timing   | Full Name           | Description                                                            |
 | -------- | ------------------- | ---------------------------------------------------------------------- |
 | CL (tCL) | CAS Latency         | Clock cycles between a READ command and data availability on the bus   |
 | tRCD     | RAS to CAS Delay    | Clock cycles between activating a row and issuing a READ/WRITE command |
 | tRP      | RAS Precharge       | Clock cycles between precharging one row and activating another row    |
 | tRAS     | Active to Precharge | Minimum clock cycles a row must remain active before precharging       |
+
+</div>
 
 These four timings are commonly expressed as CL-tRCD-tRP-tRAS (e.g., 16-18-18-38).
 
@@ -116,6 +128,8 @@ $$
 
 Secondary timings have a smaller but measurable impact on performance:
 
+<div class="table-wrap">
+
 | Timing | Full Name                               | Description                                                                      |
 | ------ | --------------------------------------- | -------------------------------------------------------------------------------- |
 | tRC    | Row Cycle Time                          | Minimum time between activating the same row again. Equal to tRAS + tRP.         |
@@ -125,10 +139,14 @@ Secondary timings have a smaller but measurable impact on performance:
 | tCWL   | CAS Write Latency                       | Write equivalent of CL. Equal to or CL - 1.                                      |
 | tWR    | Write Recovery Time                     | Time after a WRITE before the row can be precharged                              |
 
+</div>
+
 ### Tertiary Timings
 
 Tertiary timings have a small impact but can be the difference between stability and instability at
 Tight settings:
+
+<div class="table-wrap">
 
 | Timing | Description                                                                                                                  |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -137,6 +155,8 @@ Tight settings:
 | tRDWR  | Read to Write turnaround, bus turnaround time when switching from reads to writes.                                          |
 | tWRRD  | Write to Read turnaround, bus turnaround time when switching from writes to reads.                                          |
 | tRTT   | Read to Read turnaround (different ranks), time between reads to different ranks on the same channel.                       |
+
+</div>
 
 ### Interpreting Timing Strings
 
@@ -174,11 +194,15 @@ Profile and applies the specified frequency, timings, and voltages.
 XMP supports two profiles (Profile 1 and Profile 2), allowing vendors to store a "safe" and an
 "aggressive" profile. For example:
 
+<div class="table-wrap">
+
 | Profile         | Speed     | Timings     | Voltage |
 | --------------- | --------- | ----------- | ------- |
 | JEDEC (default) | 4800 MT/s | 40-40-40-77 | 1.1 V   |
 | XMP Profile 1   | 6000 MT/s | 30-38-38-78 | 1.35 V  |
 | XMP Profile 2   | 6400 MT/s | 34-45-45-90 | 1.4 V   |
+
+</div>
 
 ### EXPO (AMD Extended Profiles for Overclocking)
 
@@ -227,17 +251,21 @@ Real-world stability depends on:
 
 Modern desktop platforms support dual-channel memory. The memory controller has two independent
 64-bit channels, each with its own address/command bus and data bus. Dual-channel operation doubles
-The theoretical peak bandwidth:
+the theoretical peak bandwidth:
 
 $$
 Bandwidth = \frac{MT/s \times 8 \mathrm{ bytes \times channels}{1000}
 $$
+
+<div class="table-wrap">
 
 | Configuration              | DDR5-6000 Bandwidth |
 | -------------------------- | ------------------- |
 | Single channel             | 48.0 GB/s           |
 | Dual channel               | 96.0 GB/s           |
 | Quad channel (HEDT/server) | 192.0 GB/s          |
+
+</div>
 
 ### DIMM Population Rules
 
@@ -247,7 +275,7 @@ For dual-channel operation, populate slots according to the motherboard manual. 
 - 4 DIMMs: Slots A2, B2, A1, B1
 
 Populating the wrong slots can result in single-channel operation, halving your bandwidth. Verify
-With CPU-Z (Windows) or `lshw -class memory` (Linux).
+with CPU-Z (Windows) or `lshw -class memory` (Linux).
 
 ### 1R vs 2R DIMMs
 
@@ -323,14 +351,18 @@ DDR5-6400–6800 CL32-CL34. Beyond 7200 MT/s, stability with two DIMMs becomes i
 Intel's Gear Mode controls the ratio between the memory bus frequency and the memory controller's
 Internal clock:
 
+<div class="table-wrap">
+
 | Gear Mode | Ratio | Frequency Range                             | Latency Impact       |
 | --------- | ----- | ------------------------------------------- | -------------------- |
 | Gear 1    | 1:1   | Up to ~3600 MT/s (DDR4) / ~5600 MT/s (DDR5) | Lowest               |
 | Gear 2    | 1:2   | Up to ~7200 MT/s (DDR4) / ~8400 MT/s (DDR5) | Moderate increase    |
 | Gear 4    | 1:4   | Extreme overclocking only                   | Significant increase |
 
+</div>
+
 Gear 1 provides the lowest latency because the memory controller operates at the same frequency as
-The memory bus. Gear 2 halves the controller frequency, which adds approximately 2–4 ns of latency.
+the memory bus. Gear 2 halves the controller frequency, which adds approximately 2–4 ns of latency.
 For DDR5, most kits above 6000 MT/s require Gear 2.
 
 ### FCLK (AMD)
@@ -387,6 +419,8 @@ Operation less penalizing.
 
 ### Voltage Parameters
 
+<div class="table-wrap">
+
 | Voltage           | Function                      | DDR5 Safe Range | DDR5 Extreme Range |
 | ----------------- | ----------------------------- | --------------- | ------------------ |
 | VDD               | Core DRAM voltage             | 1.1–1.35 V      | 1.35–1.45 V        |
@@ -396,12 +430,16 @@ Operation less penalizing.
 | SA (System Agent) | Uncore voltage (Intel)        | 0.9–1.1 V       | 1.1–1.25 V         |
 | VDDP              | SoC voltage (AMD)             | 0.9–1.0 V       | 1.0–1.1 V          |
 
+</div>
+
 :::danger
 Permanent damage to the DRAM chips. Even 1.45 V should only be used with active cooling on the
 DIMMs.
 :::
 
 ### Stability Testing After Changes
+
+<div class="table-wrap">
 
 | Test                         | Duration       | What It Catches                          |
 | ---------------------------- | -------------- | ---------------------------------------- |
@@ -410,6 +448,8 @@ DIMMs.
 | Karhu RAM Test               | 3–4 cycles     | Comprehensive, catches edge cases (paid) |
 | y-cruncher (Pi computation)  | 15–30 min      | Real-world instability under load        |
 | HCI MemTest                  | 200%+ coverage | Memory controller stress under Windows   |
+
+</div>
 
 ---
 
@@ -427,11 +467,13 @@ DIMMs.
 ### How ECC Works
 
 Error-Correcting Code (ECC) memory adds an extra memory chip (or chips) per DIMM that stores parity
-And syndrome information. For single-bit errors, ECC can detect and correct the error transparently
+and syndrome information. For single-bit errors, ECC can detect and correct the error transparently
 (SEC, Single Error Correction). For multi-bit errors, ECC can detect the error but cannot correct
-It (DED, Double Error Detection), triggering a machine check exception.
+it (DED, Double Error Detection), triggering a machine check exception.
 
 ### ECC Memory Types
+
+<div class="table-wrap">
 
 | Type               | Correction Capability               | Overhead                          |
 | ------------------ | ----------------------------------- | --------------------------------- |
@@ -439,16 +481,18 @@ It (DED, Double Error Detection), triggering a machine check exception.
 | Chipkill / x4 SDDC | Correct any 4-bit error in one chip | Higher overhead                   |
 | DDR5 in-band ECC   | Correct 1-bit per burst (internal)  | No extra pins                     |
 
+</div>
+
 DDR5 introduces "in-band" ECC, where each 128-bit access includes 8 extra ECC bits that allow the
 DRAM to correct single-bit errors internally. This is separate from traditional ECC, it protects
-Against bit flips within the DRAM chip itself but does not protect against bus errors or provide the
+against bit flips within the DRAM chip itself but does not protect against bus errors or provide the
 Same level of protection as platform-level ECC.
 
 ### Performance Impact
 
 ECC memory has a small performance penalty (1–3%) due to the extra read-modify-write cycle for
 Updates and the latency of error checking. On registered ECC (RDIMM), there is an additional latency
-From the register buffer. On load-reduced DIMMs (LRDIMM), the latency penalty is larger (~5–10%) but
+from the register buffer. On load-reduced DIMMs (LRDIMM), the latency penalty is larger (~5–10%) but
 Capacity is significantly higher.
 
 ### When to Use ECC
@@ -479,6 +523,8 @@ The Linux kernel's `vm.swappiness` parameter controls the tendency to swap anony
 (application data) versus dropping file cache pages. The default value is 60, which is a poor
 Default for systems with sufficient RAM.
 
+<div class="table-wrap">
+
 | Swappiness | Behavior                                                                         |
 | ---------- | -------------------------------------------------------------------------------- |
 | 0          | Only swap to avoid OOM. On kernels 3.5+, this is "never swap unless necessary."  |
@@ -486,6 +532,8 @@ Default for systems with sufficient RAM.
 | 10         | Prefer keeping anonymous memory in RAM; swap only under significant pressure.    |
 | 60         | Default. Balanced but swaps too aggressively for modern systems with 16+ GB RAM. |
 | 100        | Aggressively swap anonymous memory.                                              |
+
+</div>
 
 For desktops with 16 GB or more RAM:
 
@@ -503,7 +551,7 @@ echo "vm.swappiness=10" | sudo tee -a /etc/sysctl.d/99-swappiness.conf
 ### Transparent Huge Pages (THP)
 
 THP allows the kernel to allocate 2 MB pages instead of the standard 4 KB pages, reducing TLB misses
-For workloads with large memory footprints. THP is enabled by default (`madvise` mode on many
+for workloads with large memory footprints. THP is enabled by default (`madvise` mode on many
 Distributions, `always` on some).
 
 ```bash
@@ -597,7 +645,7 @@ instability if set too aggressively.
 
 Populating all four DIMM slots significantly increases the electrical load on the memory controller.
 Most kits rated for 6000+ MT/s are only validated for two-DIMM configurations. With four DIMMs, you
-Will likely need to reduce frequency by one or two steps (e.g., from 6000 to 5200 or 5600 MT/s) or
+will likely need to reduce frequency by one or two steps (e.g., from 6000 to 5200 or 5600 MT/s) or
 Increase voltage. Check your motherboard's QVL (Qualified Vendor List) for four-DIMM validated
 Speeds.
 
@@ -605,15 +653,15 @@ Speeds.
 
 DDR memory speeds are measured in MT/s (mega-transfers per second), not MHz. DDR5-6000 transfers
 6000 million times per second, but the actual clock frequency is 3000 MHz because DDR transfers data
-On both edges of the clock signal (double data rate). When you see "6000 MHz" in a BIOS or review,
+on both edges of the clock signal (double data rate). When you see "6000 MHz" in a BIOS or review,
 It means 6000 MT/s.
 
 ### Neglecting DRAM Cooling
 
 High-speed DDR5 modules generate significant heat, 5–8 W per DIMM under sustained load. Without
 Adequate airflow over the DIMMs, temperatures can exceed 60 °C, which forces the memory controller
-To insert wait states or can cause instability. Ensure your case has intake airflow that passes over
-The DIMM area, or use aftermarket DRAM heatsinks and fans.
+to insert wait states or can cause instability. Ensure your case has intake airflow that passes over
+the DIMM area, or use aftermarket DRAM heatsinks and fans.
 
 ## Deep Dive: DDR5 Electrical Characteristics
 
@@ -621,6 +669,8 @@ The DIMM area, or use aftermarket DRAM heatsinks and fans.
 
 DDR5 operates at significantly higher speeds than DDR4, which makes signal integrity critical. Key
 Electrical parameters:
+
+<div class="table-wrap">
 
 | Parameter   | DDR4-3200       | DDR5-4800       | DDR5-6400       |
 | ----------- | --------------- | --------------- | --------------- |
@@ -630,6 +680,8 @@ Electrical parameters:
 | VREFDQ      | 0.6 V           | 0.55 V          | 0.55 V          |
 | AC/DC Swing | 340 mV / 250 mV | 300 mV / 250 mV | 300 mV / 250 mV |
 | DQS Phase   | 90°             | 90°             | 90°             |
+
+</div>
 
 ### Decision Feedback Equalizer (DFE)
 
@@ -783,6 +835,8 @@ grep -i huge /proc/meminfo
 
 ### Swap File vs. Swap Partition
 
+<div class="table-wrap">
+
 | Feature              | Swap File                            | Swap Partition                  |
 | -------------------- | ------------------------------------ | ------------------------------- |
 | Resizable            | Yes (fallocate, truncate)            | No (requires partitioning tool) |
@@ -790,6 +844,8 @@ grep -i huge /proc/meminfo
 | Multiple             | Yes (multiple swap files)            | No (one per partition)          |
 | Performance          | Slightly lower (filesystem overhead) | Slightly higher (raw device)    |
 | Recommended for      | Modern Linux (kernel 5.0+)           | Legacy systems                  |
+
+</div>
 
 ```bash
 # Create a swap file
@@ -872,6 +928,8 @@ numactl -p 1 bandwidth  # Measure bandwidth on node 0
 
 ### Interpreting Memory Benchmark Results
 
+<div class="table-wrap">
+
 | Metric         | DDR4-3600 CL16 | DDR5-6000 CL30 | DDR5-7200 CL34 |
 | -------------- | -------------- | -------------- | -------------- |
 | Read (GB/s)    | 45–50          | 75–85          | 90–100         |
@@ -880,6 +938,8 @@ numactl -p 1 bandwidth  # Measure bandwidth on node 0
 | Latency (ns)   | 50–60          | 60–70          | 65–75          |
 | AIDA64 Read    | 50,000 MB/s    | 80,000 MB/s    | 95,000 MB/s    |
 | AIDA64 Latency | 55 ns          | 68 ns          | 72 ns          |
+
+</div>
 
 ## DDR5 Power Management and PMIC
 
@@ -917,7 +977,7 @@ During POST, the memory controller communicates with the DIMM's PMIC via SMBus t
 3. Enable or disable power saving features.
 
 If the PMIC firmware is outdated or incompatible with the motherboard, training can fail. Updating
-The PMIC firmware requires specialized tools and carries the risk of bricking the DIMM.
+the PMIC firmware requires specialized tools and carries the risk of bricking the DIMM.
 
 ## Memory Stability Under Linux
 
@@ -967,6 +1027,8 @@ $$
 
 For a CPU that can execute at 5.0 GHz and needs 2 bytes of memory access per instruction:
 
+<div class="table-wrap">
+
 | Memory Config            | Bandwidth  | Theoretical Max IPC |
 | ------------------------ | ---------- | ------------------- |
 | DDR4-3200 single channel | 25.6 GB/s  | 6.4 IPC             |
@@ -974,16 +1036,22 @@ For a CPU that can execute at 5.0 GHz and needs 2 bytes of memory access per ins
 | DDR5-6000 dual channel   | 96.0 GB/s  | 24.0 IPC            |
 | DDR5-7200 dual channel   | 115.2 GB/s | 28.8 IPC            |
 
+</div>
+
 Real-world IPC is much lower because not every instruction accesses memory. However, the principle
 Holds: insufficient memory bandwidth bottlenecks the CPU.
 
 ### Intel Gear Mode Impact on Latency
+
+<div class="table-wrap">
 
 | Gear Mode | Memory Controller Clock | DDR5 Speed Range | Latency Impact     |
 | --------- | ----------------------- | ---------------- | ------------------ |
 | Gear 1    | 1:1 (equal to MCLK)     | Up to ~5600 MT/s | Lowest latency     |
 | Gear 2    | 1:2 (half of MCLK)      | Up to ~8400 MT/s | ~2–4 ns additional |
 | Gear 4    | 1:4 (quarter of MCLK)   | Extreme speeds   | ~6–8 ns additional |
+
+</div>
 
 The latency impact of Gear 2 is 3–5 ns. At DDR5-6000 CL30, the absolute latency is 10.0 Ns. At
 DDR5-7200 CL34 in Gear 2, the absolute latency is 9.4 ns + 3 ns = ~12.4 ns. The higher-speed DDR5 is
@@ -1020,6 +1088,8 @@ Next operation begins. Violating any constraint causes data corruption.
 
 ### Secondary and Tertiary Timing Dependencies
 
+<div class="table-wrap">
+
 | Timing | Depends On        | Relationship                          |
 | ------ | ----------------- | ------------------------------------- |
 | tRC    | tRAS, tRP         | $tRC \geq tRAS + tRP$                 |
@@ -1028,6 +1098,8 @@ Next operation begins. Violating any constraint causes data corruption.
 | tWTR   | tCL, tCWL         | Write-to-read turnaround              |
 | tRTW   | tCL, tCWL         | Read-to-write turnaround              |
 | tFAW   | tRRD_S, tRRD_L    | Four-activate window constraint       |
+
+</div>
 
 ### Calculating True Latency
 
@@ -1059,7 +1131,7 @@ Dominate.
 ### Cold Boot vs. Warm Boot Stability
 
 Some memory configurations are stable after a warm boot (restart) but fail after a cold boot (power
-Off, wait, power on). This is because:
+off, wait, power on). This is because:
 
 1. **Cold boot** subjects the memory controller and DRAM to the full voltage and temperature range.
    The memory controller must calibrate from scratch.
@@ -1096,16 +1168,6 @@ If four-DIMM stability is poor:
 - Relax secondary timings (tFAW, tRRD).
 - Ensure DIMMs in slots A2/B2 match and DIMMs in A1/B1 match.
 
-```mermaid
-flowchart TD
-    A[Memory Tuning] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of memory tuning, including underlying theory, practical
@@ -1118,9 +1180,6 @@ implementation, and key applications.
 - process management
 - shell scripting with bash
 - package management
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 

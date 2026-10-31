@@ -24,7 +24,7 @@ Subnetting is the process of dividing a single IP network into smaller, more man
 Sub-networks. Every systems engineer needs fluency in subnetting -- it is non-negotiable for network
 Design, troubleshooting, firewall rule authoring, and certification exams. This workshop covers the
 Binary method, VLSM, route summarization, wildcard masks, IPv6 subnetting, and a systematic approach
-To subnet planning.
+to subnet planning.
 
 The core skill is answering this question: given a network and a requirement, find the subnet mask,
 Network address, broadcast address, and usable host range. This document provides the method,
@@ -110,13 +110,13 @@ Host bits = $32 - 26 = 6$. Total addresses = $2^6 = 64$. Usable = $64 - 2 = 62$.
 
 :::tip
 `/31` (RFC 3021, point-to-point links, 2 usable) and `/32` (single host, 1 usable). Modern practice
-Also uses `/31` for network equipment links per RFC 6164.
+also uses `/31` for network equipment links per RFC 6164.
 
 ### Verifying with a Shortcut
 
 For the octet where the boundary falls, the "magic number" is $256 - \mathrm{mask\_octet$. For
-`/26`The mask in the fourth octet is `192`So the magic number is $256 - 192 = 64$. Subnets start At
-multiples of 64: `.0``.64``.128``.192`. Our IP `.75` falls in the `.64` subnet.
+`/26`. The mask in the fourth octet is `192`. So the magic number is $256 - 192 = 64$. Subnets start At
+multiples of 64: `.0`, `.64`, `.128`, `.192`. Our IP `.75` falls in the `.64` subnet.
 
 This shortcut works because the boundary octet always has a value that is a power of 2 (or 256 minus
 A power of 2).
@@ -125,8 +125,10 @@ A power of 2).
 
 ### Why Classful Is Wasteful
 
-Classful addressing (fixed `/8``/16``/24`) wastes enormous amounts of address space. Consider an
+Classful addressing (fixed `/8`, `/16`, `/24`) wastes enormous amounts of address space. Consider an
 Organization with these requirements:
+
+<div class="table-wrap">
 
 | Segment    | Hosts Needed |
 | ---------- | ------------ |
@@ -136,9 +138,11 @@ Organization with these requirements:
 | WAN links  | 2 each (x4)  |
 | Management | 10           |
 
+</div>
+
 With classful addressing, you need one `/24` (254 hosts) for the datacenter (wastes 54), three more
-`/24`S for the offices and management (wastes hundreds more), and four `/24`S for WAN links (wastes
-252 each). That is 8 `/24`S for a problem that needs far fewer addresses.
+`/24`s for the offices and management (wastes hundreds more), and four `/24`s for WAN links (wastes
+252 each). That is 8 `/24`s for a problem that needs far fewer addresses.
 
 VLSM allows you to use different subnet masks for different segments, matching each mask to the
 Actual host requirement.
@@ -147,16 +151,20 @@ Actual host requirement.
 
 **Step 1: List all segments with host requirements, sorted largest to smallest.**
 
+<div class="table-wrap">
+
 | Segment    | Hosts | Minimum host bits               |
 | ---------- | ----- | ------------------------------- |
 | Datacenter | 200   | 8 ($2^8 - 2 = 254$)             |
 | Office A   | 50    | 6 ($2^6 - 2 = 62$)              |
 | Office B   | 25    | 5 ($2^5 - 2 = 30$)              |
 | Management | 10    | 4 ($2^4 - 2 = 14$)              |
-| WAN 1      | 2     | 2 ($2^2 - 2 = 2$Or `/31` for 2) |
+| WAN 1      | 2     | 2 ($2^2 - 2 = 2$ Or `/31` for 2) |
 | WAN 2      | 2     | 2                               |
 | WAN 3      | 2     | 2                               |
 | WAN 4      | 2     | 2                               |
+
+</div>
 
 **Step 2: Allocate from the largest block down.**
 
@@ -239,9 +247,9 @@ And broadcast address?
 **Solution:**
 
 Mask `255.255.255.224` = `/27`. Magic number = $256 - 224 = 32$. Subnets start at multiples of 32:
-`.0``.32``.64``.96``.128``.160``.192``.224`.
+`.0`, `.32`, `.64`, `.96`, `.128`, `.160`, `.192`, `.224`.
 
-`.150` falls between `.128` and `.160`So:
+`.150` falls between `.128` and `.160`. So:
 
 ```
 Network:    172.16.5.128
@@ -284,12 +292,16 @@ Scheme.
 
 `192.168.0.0/22` = `192.168.0.0` through `192.168.3.255` (1024 addresses).
 
+<div class="table-wrap">
+
 | Requirement | Hosts | Host bits | Prefix | Subnet mask     | Addresses | Usable |
 | ----------- | ----- | --------- | ------ | --------------- | --------- | ------ |
 | 500 hosts   | 500   | 9         | /23    | 255.255.254.0   | 512       | 510    |
 | 100 hosts   | 100   | 7         | /25    | 255.255.255.128 | 128       | 126    |
 | 30 hosts    | 30    | 5         | /27    | 255.255.255.224 | 32        | 30     |
 | 5 hosts     | 5     | 3         | /29    | 255.255.255.248 | 8         | 6      |
+
+</div>
 
 Allocation (largest first):
 
@@ -312,7 +324,7 @@ Advertisement. This reduces routing table size and hides topology changes.
 
 ### Method
 
-**Problem:** Summarize `192.168.16.0/24``192.168.17.0/24``192.168.18.0/24`And `192.168.19.0/24`.
+**Problem:** Summarize `192.168.16.0/24`, `192.168.17.0/24`, `192.168.18.0/24` and `192.168.19.0/24`.
 
 **Step 1:** Convert the third octets to binary:
 
@@ -335,7 +347,7 @@ Advertisement. This reduces routing table size and hides topology changes.
 
 The first 6 bits of the third octet are identical (`000100`). That means the summary covers the
 Third octet range where those 6 bits are fixed and the remaining 2 bits vary: `000100xx` = 16
-Through 19.
+through 19.
 
 **Step 3:** Calculate the summary prefix:
 
@@ -350,13 +362,13 @@ This covers `192.168.16.0` through `192.168.19.255`.
 ### Verifying the Summary
 
 The summary `192.168.16.0/22` covers addresses from `192.168.16.0` to `192.168.19.255`. The range is
-$2^{10} = 1024$ addresses (4 `/24`S).
+$2^{10} = 1024$ addresses (4 `/24`s).
 
-To verify: the network address is the first address, and the broadcast is the last. For `/22`The
+To verify: the network address is the first address, and the broadcast is the last. For `/22`. The
 Third octet magic number is $256 - 252 = 4$ (mask = `11111100` = 252). Subnets start at multiples of
-4 in the third octet: `.0``.4``.8`..., `.16``.20`...
+4 in the third octet: `.0`, `.4`, `.8`..., `.16`, `.20`...
 
-Our summary starts at `.16` and covers `.16``.17``.18``.19` -- correct.
+Our summary starts at `.16` and covers `.16`, `.17`, `.18`, `.19` -- correct.
 
 ### Longest Prefix Match
 
@@ -368,8 +380,8 @@ Rule. For example:
 192.168.17.0/24  via Router B
 ```
 
-Traffic to `192.168.17.5` matches both routes, but `/24` is longer (more specific) than `/22`So The
-router sends it via Router B. Traffic to `192.168.18.5` only matches `/22`So it goes via Router A.
+Traffic to `192.168.17.5` matches both routes, but `/24` is longer (more specific) than `/22`. So The
+router sends it via Router B. Traffic to `192.168.18.5` only matches `/22`. So it goes via Router A.
 :::
 
 :::note
@@ -380,7 +392,7 @@ Multi-Path) load balancing is used.
 ### When Summarization Fails
 
 Summarization only works when the networks being summarized are contiguous and aligned to the
-Summary boundary. If you have `192.168.16.0/24` and `192.168.20.0/24`You cannot create a single
+Summary boundary. If you have `192.168.16.0/24` and `192.168.20.0/24`. You cannot create a single
 Clean summary because the range 17-19 is missing. Attempting to summarize to `/21`
 (`192.168.16.0/21`) would include addresses you do not control, potentially creating a black hole.
 
@@ -389,7 +401,7 @@ Clean summary because the range 17-19 is missing. Attempting to summarize to `/2
 ### What They Are
 
 A wildcard mask is the **inverse** of a subnet mask. Where the subnet mask has 1s, the wildcard mask
-Has 0s, and vice versa. Wildcard masks are used in ACLs (Access Control Lists) on Cisco and other
+has 0s, and vice versa. Wildcard masks are used in ACLs (Access Control Lists) on Cisco and other
 Network equipment.
 
 ```
@@ -456,8 +468,8 @@ Anything. This matches `172.16.4.0/22` exactly.
 ### Subnetting a /48
 
 The standard enterprise IPv6 allocation from a RIR (Regional Internet Registry) is a `/48`. The RFC
-6177 recommendation is to give each site a `/48`. Within a site, you subnet the `/48` into `/64`S
-For individual LAN segments.
+6177 recommendation is to give each site a `/48`. Within a site, you subnet the `/48` into `/64`s
+for individual LAN segments.
 
 A `/48` gives you $2^{16} = 65536$ possible `/64` subnets. That is not a typo. You will not run out.
 
@@ -514,6 +526,8 @@ Within the datacenter `/60`:
 
 ### SLAAC vs DHCPv6
 
+<div class="table-wrap">
+
 | Feature            | SLAAC (RFC 4862)                                | DHCPv6                |
 | ------------------ | ----------------------------------------------- | --------------------- |
 | Address assignment | Host generates from prefix                      | Server assigns        |
@@ -523,6 +537,8 @@ Within the datacenter `/60`:
 | State tracking     | Server does not know assignments                | Server tracks leases  |
 | Address stability  | Stable based on prefix + MAC                    | Depends on lease time |
 | Complexity         | Simple                                          | Requires DHCPv6 infra |
+
+</div>
 :::
 
 :::note
@@ -540,6 +556,8 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 ## Subnetting Quick Reference
 
 ### Powers of 2
+
+<div class="table-wrap">
 
 | $2^n$    | Value  |
 | -------- | ------ |
@@ -561,7 +579,11 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 | $2^{15}$ | 32,768 |
 | $2^{16}$ | 65,536 |
 
+</div>
+
 ### Subnet Masks: /24 Through /30
+
+<div class="table-wrap">
 
 | Prefix | Mask            | Wildcard  | Magic # | Addresses | Usable |
 | ------ | --------------- | --------- | ------- | --------- | ------ |
@@ -575,9 +597,13 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 | /31    | 255.255.255.254 | 0.0.0.1   | 2       | 2         | 2\*    |
 | /32    | 255.255.255.255 | 0.0.0.0   | 1       | 1         | 1      |
 
+</div>
+
 \*`/31` per RFC 3021: no network/broadcast, both addresses usable.
 
 ### Extended Reference: /16 Through /23
+
+<div class="table-wrap">
 
 | Prefix | Mask          | Wildcard    | Magic # | Addresses | Usable |
 | ------ | ------------- | ----------- | ------- | --------- | ------ |
@@ -589,6 +615,8 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 | /21    | 255.255.248.0 | 0.0.7.255   | 8       | 2,048     | 2,046  |
 | /22    | 255.255.252.0 | 0.0.3.255   | 4       | 1,024     | 1,022  |
 | /23    | 255.255.254.0 | 0.0.1.255   | 2       | 512       | 510    |
+
+</div>
 
 ## Common Exam-Style Problems
 
@@ -609,13 +637,13 @@ Last host:  10.150.75.222
 
 **Q:** How many usable subnets does `172.16.0.0/21` create from `172.16.0.0/16`?
 
-**A:** The original prefix is `/16`The new prefix is `/21`. Subnet bits = $21 - 16 = 5$. Number of
+**A:** The original prefix is `/16`. The new prefix is `/21`. Subnet bits = $21 - 16 = 5$. Number of
 Subnets = $2^5 = 32$. Each subnet has $32 - 21 = 11$ host bits, giving $2^{11} - 2 = 2046$ usable
 Hosts.
 
 ### Problem 3
 
-**Q:** You need to summarize `10.1.0.0/16``10.2.0.0/16``10.3.0.0/16`And `10.4.0.0/16`. What is The
+**Q:** You need to summarize `10.1.0.0/16`, `10.2.0.0/16`, `10.3.0.0/16` and `10.4.0.0/16`. What is The
 summary?
 
 **A:** Convert second octets to binary:
@@ -642,12 +670,12 @@ Prefix is $8 + 5 = /13`.
 Summary: `10.0.0.0/13`
 
 This covers `10.0.0.0` through `10.7.255.255`. It includes more than the four specified networks (it
-Also covers 5, 6, 7). If you only want to summarize exactly those four, you need multiple summary
+also covers 5, 6, 7). If you only want to summarize exactly those four, you need multiple summary
 Routes or accept the over-summarization.
 :::
 
 :::caution
-A single prefix without including `10.0``10.5``10.6`And `10.7`. If the question requires an Exact
+A single prefix without including `10.0`, `10.5`, `10.6` and `10.7`. If the question requires an Exact
 summary, the answer is: it cannot be done with a single prefix.
 
 ### Problem 4
@@ -745,7 +773,7 @@ You need at least 7 host bits ($2^7 - 2 = 126$), which means a `/25` mask, not a
 
 When assigning subnets manually, it is easy to create overlaps. Always verify that the network
 Address of a new subnet does not fall within the range of any existing subnet. IPAM tools prevent
-This automatically.
+this automatically.
 
 ### 4. Ignoring Gateway Addresses
 
@@ -763,19 +791,19 @@ VIPs for load balancers also consume addresses. Plan for these upfront.
 
 If you try to create a `/25` starting at `192.168.1.128`That works (aligned to 128). But a `/25`
 Starting at `192.168.1.64` does NOT work -- 64 is not a valid `/25` boundary. `/25` boundaries are
-At multiples of 128.
+at multiples of 128.
 
 ### 7. Forgetting About Point-to-Point Links
 
 Point-to-point WAN links between routers consume a subnet. Four links with `/30` masks use 4 subnets
 (16 addresses, 8 usable). With `/31` (RFC 3021), you use 4 subnets (8 addresses, 8 usable). Plan for
-These.
+these.
 
 ### 8. IPv6 Misconceptions
 
 The most common IPv6 subnetting error is trying to use non-`/64` masks on LAN segments. SLAAC, NDP
 Autoconfiguration, and many implementations assume `/64`. Use `/64` for everything, and `/128` only
-For loopbacks and specific host routes.
+for loopbacks and specific host routes.
 :::
 
 :::tip
@@ -800,7 +828,7 @@ docker run --network my-network --ip 172.18.0.11 redis
 ```
 
 Default Docker networks use `172.17.0.0/16` (bridge), and each additional custom network gets the
-Next available `/16` from `172.18.0.0/16``172.19.0.0/16`Etc. Be aware of potential overlap with Your
+Next available `/16` from `172.18.0.0/16`, `172.19.0.0/16`. Etc. Be aware of potential overlap with Your
 existing infrastructure when choosing Docker subnets.
 
 ### Kubernetes Networking
@@ -836,16 +864,6 @@ Accordingly.
 
 :::caution
 In standard networking, but only 251 in AWS (5 reserved, not 2). Always subtract 5, not 2.
-
-```mermaid
-flowchart TD
-    A[Subnetting Workshop] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

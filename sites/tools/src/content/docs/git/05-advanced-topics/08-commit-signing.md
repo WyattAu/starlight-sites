@@ -49,7 +49,7 @@ Cryptographic. But in an era of supply chain attacks, this design assumption is 
 
 Commit signing addresses all of these by binding a commit to a cryptographic key. The signature
 Covers the commit's entire content, tree hash, parent hashes, author, committer, message, making
-It tamper-evident. If any bit of the commit changes, the signature breaks.
+it tamper-evident. If any bit of the commit changes, the signature breaks.
 
 ### Identity Verification
 
@@ -117,7 +117,7 @@ $ gpg --full-generate-key
 ```
 
 The email address in the GPG key **must match** the email address in your Git configuration. GitHub
-And GitLab use email matching to associate signatures with accounts.
+and GitLab use email matching to associate signatures with accounts.
 
 ### Listing Keys
 
@@ -157,7 +157,7 @@ true
 ### GPG Agent and Passphrase Caching
 
 The `gpg-agent` daemon manages your private keys and caches passphrases so you don't have to enter
-Them for every commit:
+them for every commit:
 
 ```bash
 # Check if gpg-agent is running
@@ -207,7 +207,7 @@ $ gpg --armor --export ABCDEF1234567890 | xclip -selection clipboard
 ## SSH Signing
 
 SSH signing (Git 2.34+) uses Ed25519 SSH keys to sign commits and tags. It is simpler than GPG
-Because it does not require `gpg-agent`A separate keyring, or a passphrase daemon. If you already
+because it does not require `gpg-agent`A separate keyring, or a passphrase daemon. If you already
 Use SSH for Git authentication, you likely already have a suitable key.
 
 ### Generating an SSH Signing Key
@@ -263,6 +263,8 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI... git-signing
 
 ### SSH vs GPG: Practical Comparison
 
+<div class="table-wrap">
+
 | Aspect             | GPG                                    | SSH                                       |
 | ------------------ | -------------------------------------- | ----------------------------------------- |
 | Key format         | OpenPGP (pubring, secring)             | SSH keypair (ed25519, rsa)                |
@@ -275,8 +277,10 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI... git-signing
 | Subkey support     | Yes (separate signing/encryption/auth) | No (each key is a single key pair)        |
 | Revocation         | Revocation certificates                | Remove public key from server             |
 
+</div>
+
 For new setups, SSH signing is recommended. It eliminates the entire `gpg-agent` complexity layer
-And works with infrastructure you already have.
+and works with infrastructure you already have.
 
 ## Signing Commits
 
@@ -291,7 +295,7 @@ $ git commit -S ABCDEF1234567890 -m "feat: add user authentication"
 ```
 
 The `-S` flag (capital S, for "Sign") tells Git to attach a cryptographic signature to the commit.
-Without `-S`The commit is unsigned.
+Without `-S`. The commit is unsigned.
 
 ### Automatic Signing
 
@@ -458,7 +462,7 @@ There is no indication that the signature belongs to the author.
 
 GPG's Web of Trust (WoT) is complex and rarely used for Git signing in practice. GitHub and GitLab
 Use a simpler model: they check whether the public key is registered to the same account that owns
-The repository or is a trusted collaborator. If the key is unregistered or belongs to a different
+the repository or is a trusted collaborator. If the key is unregistered or belongs to a different
 Account, the commit shows as "Unverified."
 
 ```bash
@@ -472,7 +476,7 @@ Primary key fingerprint: 1122 3344 5566 7788 9900  AABB CCDD EEFF 0011 2233
 ```
 
 The "WARNING: This key is not certified" message means the key is not signed by any other key in
-Your local trust database. This is **normal** and does not indicate a problem, it means you Have
+your local trust database. This is **normal** and does not indicate a problem, it means you Have
 not built a web of trust. The signature itself is still valid.
 
 ## Key Management
@@ -486,7 +490,7 @@ A single GPG "master key" can have multiple subkeys, each with different capabil
 - **Authentication (A)**: Used for SSH authentication
 
 The master key should be kept offline (on an air-gapped machine or hardware token). Subkeys are used
-For daily operations. If a subkey is compromised, you revoke it and generate a new one, the master
+for daily operations. If a subkey is compromised, you revoke it and generate a new one, the master
 Key and its identity remain intact.
 
 ```bash
@@ -803,7 +807,7 @@ If they differ, either update your Git config or generate a new GPG key with the
 ### Forgetting to Set `gpg.format` When Switching to SSH
 
 If you previously used GPG and then switch to SSH signing, you must set `gpg.format = ssh`. Without
-It, Git tries to use GPG with an SSH public key file, which produces a cryptic error:
+it, Git tries to use GPG with an SSH public key file, which produces a cryptic error:
 
 ```
 error: gpg: can't open '/home/user/.ssh/git-signing-key.pub': No such file or directory
@@ -837,7 +841,7 @@ Person who rebased, not the original authors.
 ### Stale GPG Agent Passphrase Cache
 
 If you change your GPG passphrase but `gpg-agent` still has the old one cached, signing will fail
-With "bad passphrase." Kill and restart the agent:
+with "bad passphrase." Kill and restart the agent:
 
 ```bash
 gpgconf --kill gpg-agent
@@ -848,7 +852,7 @@ gpgconf --launch gpg-agent
 
 If your key is compromised and you don't have a revocation certificate, you cannot revoke it. The
 Key remains valid indefinitely. Generate the revocation certificate immediately after key creation
-And store it offline (encrypted USB drive, printed paper, password manager).
+and store it offline (encrypted USB drive, printed paper, password manager).
 
 ### Commits Appear Verified Locally but Not on GitHub
 
@@ -861,17 +865,6 @@ Public key to GitHub. For SSH signing, the key must be added as a "Signing Key" 
 If you have multiple Git identities (work and personal), ensure each identity has its own signing
 Key and that you configure `user.signingkey` correctly per repository. A commit signed with your
 Personal key will not verify against your work email on GitHub's work organization, and vice versa.
-
-
-```mermaid
-flowchart TD
-    A[08 Commit Signing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -886,13 +879,7 @@ implementation, and key applications.
 - rebasing and cherry-picking
 - Git workflows (GitFlow, trunk-based)
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

@@ -29,7 +29,7 @@ Nature of energy, matter, and determinism.
 
 The two pillars of modern physics are quantum mechanics and relativity. This chapter focuses
 Primarily on the quantum side: the experimental evidence that classical wave theory could not
-Explain, and the theoretical framework that replaced it.
+explain, and the theoretical framework that replaced it.
 
 ## The Photoelectric Effect (HL)
 
@@ -37,18 +37,18 @@ Explain, and the theoretical framework that replaced it.
 
 When light of sufficiently high frequency is incident on a metal surface, electrons are emitted.
 This is the photoelectric effect, first observed by Heinrich Hertz in 1887 and later studied in
-Detail by Philipp Lenard.
+detail by Philipp Lenard.
 
 The emitted electrons are called **photoelectrons**. The setup consists of an evacuated Tube
 containing a metal plate (the cathode) and a collector plate (the anode). Light shines on the
-Cathode, and any emitted electrons travel to the anode, producing a measurable current.
+cathode, and any emitted electrons travel to the anode, producing a measurable current.
 
 ### Key Observations
 
 The experimental results were surprising and incompatible with classical wave theory:
 
 1. **Threshold frequency.** Electrons are emitted only if the incident light frequency exceeds a
-   **threshold frequency** $f_0$. Below $f_0$No electrons are emitted regardless of intensity or
+   **threshold frequency** $f_0$. Below $f_0$ No electrons are emitted regardless of intensity or
    exposure time.
 2. **Maximum kinetic energy depends on frequency, not intensity.** Increasing the intensity of light
    above $f_0$ increases the number of photoelectrons but not their maximum kinetic energy.
@@ -65,11 +65,11 @@ Classical wave theory predicts that:
 - At low intensities, electrons should need time to accumulate sufficient energy before emission.
 
 None of these predictions match observation. The threshold frequency and the instantaneous emission
-At low intensity are particularly fatal to the classical picture. A wave spread over a large area
-Would deposit energy continuously; an electron at a specific point on the surface would need to wait
-To accumulate enough energy. Yet experiment shows no delay.
+at low intensity are particularly fatal to the classical picture. A wave spread over a large area
+would deposit energy continuously; an electron at a specific point on the surface would need to wait
+to accumulate enough energy. Yet experiment shows no delay.
 
-### Einstein"s Explanation (1905)
+### Einstein's Explanation (1905)
 
 Einstein proposed that light consists of discrete packets called **photons**, each with energy:
 
@@ -80,8 +80,8 @@ $$
 Where $h = 6.63 \times 10^{-34}\mathrm{ J s$ (Planck's constant) and $f$ is the frequency.
 
 When a photon strikes the metal surface, it transfers all its energy to a single electron. The
-Electron uses some of this energy to escape the metal (overcoming the binding energy) and retains
-The rest as kinetic energy.
+electron uses some of this energy to escape the metal (overcoming the binding energy) and retains
+the rest as kinetic energy.
 
 Einstein's photoelectric equation:
 
@@ -104,8 +104,8 @@ $$
 
 This equation explains all three key observations:
 
-- Below $f_0$Each photon has insufficient energy to overcome $\phi$ So no emission occurs.
-- Above $f_0$Increasing $f$ increases each photon's energy, raising $E_{k(\max)}$.
+- Below $f_0$ Each photon has insufficient energy to overcome $\phi$ So no emission occurs.
+- Above $f_0$ Increasing $f$ increases each photon's energy, raising $E_{k(\max)}$.
 - Increasing intensity means more photons per second, so more electrons are emitted, but each photon
   still carries the same energy.
 
@@ -123,15 +123,15 @@ Property (momentum) in a single equation.
 ### Stopping Voltage
 
 The stopping voltage $V_s$ is the voltage needed to stop the most energetic photoelectrons. By
-Applying a reverse potential between the anode and cathode, even the fastest electrons are slowed to
-Zero:
+applying a reverse potential between the anode and cathode, even the fastest electrons are slowed to
+zero:
 
 $$
 EV_s = E_{k(\max)} = hf - \phi
 $$
 
 A plot of $E_{k(\max)}$ versus $f$ yields a straight line with slope $h$ and intercept $-\phi$. This
-Is how Millikan experimentally determined Planck's constant in 1916, confirming Einstein's equation.
+is how Millikan experimentally determined Planck's constant in 1916, confirming Einstein's equation.
 
 **Example (HL):** Light of wavelength $400\mathrm{ nm$ is incident on a metal surface with work
 Function $2.0\mathrm{ eV$. Find the maximum kinetic energy of the emitted electrons and the stopping
@@ -179,11 +179,11 @@ $$
 $$
 
 This is in the green region of the visible spectrum. Sodium can be photoelectrically excited by blue
-And violet light, but not by red or orange light.
+and violet light, but not by red or orange light.
 
 ### Intensity and Photocurrent
 
-If the frequency exceeds $f_0$The photocurrent (number of electrons per second) is directly
+If the frequency exceeds $f_0$ The photocurrent (number of electrons per second) is directly
 Proportional to the light intensity. Intensity in the photon picture is:
 
 $$
@@ -191,7 +191,7 @@ I = N_{\mathrm{photon} \times hf
 $$
 
 Where $N_{\mathrm{photon}$ is the number of photons per unit area per unit time. Doubling the
-Intensity doubles the number of photons, which doubles the photocurrent, but each photon still
+intensity doubles the number of photons, which doubles the photocurrent, but each photon still
 Carries the same energy $hf$.
 
 ## Atomic Models
@@ -200,7 +200,7 @@ Carries the same energy $hf$.
 
 J.J. Thomson, who discovered the electron in 1897, proposed that atoms consist of a positively
 Charged sphere with negatively charged electrons embedded in it, like plums in a pudding. The
-Positive charge was spread uniformly, and the electrons were arranged to make the atom electrically
+positive charge was spread uniformly, and the electrons were arranged to make the atom electrically
 Neutral overall.
 
 This model was consistent with the known fact that atoms are electrically neutral and contain
@@ -212,7 +212,7 @@ Arrangements.
 In 1911, Ernest Rutherford, Hans Geiger, and Ernest Marsden fired alpha particles (helium nuclei,
 $+2e$ charge) at a thin gold foil. The experimental setup used a radioactive source of alpha
 Particles, a thin gold foil target, and a zinc sulphide screen that produced a flash of light when
-Struck by an alpha particle.
+struck by an alpha particle.
 
 **Observations:**
 
@@ -236,8 +236,8 @@ Struck by an alpha particle.
 **Why the Thomson model failed:** In the plum pudding model, the positive charge is spread out. The
 Maximum Coulomb force on an alpha particle passing through a diffuse positive sphere would be much
 Smaller than what is needed to produce the observed large-angle deflections. Rutherford calculated
-That to produce a deflection of greater than $90^\circ$The alpha particle must encounter a
-concentrated Charge within a radius of approximately $10^{-14}\mathrm{ m$About four orders of
+that to produce a deflection of greater than $90^\circ$ The alpha particle must encounter a
+concentrated Charge within a radius of approximately $10^{-14}\mathrm{ m$ About four orders of
 magnitude smaller Than the known atomic radius ($\approx 10^{-10}\mathrm{ m$).
 
 ### The Stability Problem
@@ -334,7 +334,7 @@ $n \to \infty$ (ionisation).
 
 ### Energy Levels of Hydrogen (HL)
 
-The energy of the $n$Th level:
+The energy of the $n$ Th level:
 
 $$
 E_n = -\frac{13.6\mathrm{ eV}{n^2}
@@ -350,12 +350,16 @@ $$
 
 The discrete spectral lines of hydrogen fall into series named after their discoverers:
 
+<div class="table-wrap">
+
 | Series   | Transition | Region      |
 | -------- | ---------- | ----------- |
 | Lyman    | $n \to 1$  | Ultraviolet |
 | Balmer   | $n \to 2$  | Visible     |
 | Paschen  | $n \to 3$  | Infrared    |
 | Brackett | $n \to 4$  | Infrared    |
+
+</div>
 
 The Balmer series is the most well-known because its lines fall in the visible range. The H-alpha
 Line ($n = 3 \to 2$) at $656\mathrm{ nm$ is a distinctive red line often observed in astrophysics.
@@ -423,7 +427,7 @@ $$
 ### Limitations of the Bohr Model
 
 The Bohr model works only for hydrogen and hydrogen-like ions (single electron). It cannot predict
-The spectra of helium or more complex atoms. It also cannot explain:
+the spectra of helium or more complex atoms. It also cannot explain:
 
 - Why only certain orbits are allowed (the full answer requires quantum mechanics).
 - Fine structure (small splittings of spectral lines).
@@ -446,7 +450,7 @@ $$
 $$
 
 This is the **de Broglie wavelength**. For macroscopic objects, $\lambda$ is negligibly small, which
-Is why we do not observe wave behaviour in everyday life.
+is why we do not observe wave behaviour in everyday life.
 
 ### Why de Broglie Wavelengths Are Not Observable for Macroscopic Objects
 
@@ -458,12 +462,12 @@ $$
 
 This is about 20 orders of magnitude smaller than an atomic nucleus. No experiment can detect wave
 Effects at this scale. But for electrons, the wavelength is comparable to atomic spacing, which is
-Precisely why electron diffraction is observable.
+precisely why electron diffraction is observable.
 
 ### Davisson-Germer Experiment (1927)
 
 Clinton Davisson and Lester Germer directed a beam of electrons at a nickel crystal and observed a
-Diffraction pattern. The angles at which the electrons were diffracted matched the predictions of de
+diffraction pattern. The angles at which the electrons were diffracted matched the predictions of de
 Broglie's equation, providing direct experimental confirmation of wave-particle duality for matter.
 
 This was analogous to X-ray diffraction from crystals: if electrons behave as waves with wavelength
@@ -479,8 +483,8 @@ The observed diffraction peaks matched the predicted angles, confirming de Brogl
 ### Electron Diffraction and the Bohr Model
 
 De Broglie's hypothesis provides a physical justification for the Bohr quantisation condition. If
-The electron is a standing wave around the orbit, then the circumference must be an integer number
-Of wavelengths:
+the electron is a standing wave around the orbit, then the circumference must be an integer number
+of wavelengths:
 
 $$
 2\pi r = n\lambda = \frac{nh}{mv}
@@ -491,7 +495,7 @@ Mvr = \frac{nh}{2\pi}
 $$
 
 This is exactly Bohr's quantisation condition. The Bohr orbits are the standing wave modes of the
-Electron. This is a deep insight: quantisation arises from wave behaviour.
+electron. This is a deep insight: quantisation arises from wave behaviour.
 
 **Example (HL):** Find the de Broglie wavelength of an electron accelerated through a potential
 Difference of 100 V.
@@ -505,12 +509,12 @@ $$
 $$
 
 This is comparable to the spacing between atomic planes in a crystal ($\sim 0.2\mathrm{ nm$), which
-Is why electron diffraction is observable.
+is why electron diffraction is observable.
 
 ### Heisenberg Uncertainty Principle (HL)
 
 Werner Heisenberg showed that there is a fundamental limit to the precision with which certain pairs
-Of physical properties can be known simultaneously. The most commonly used form is:
+of physical properties can be known simultaneously. The most commonly used form is:
 
 $$
 \Delta x \cdot \Delta p \geq \frac{h}{4\pi} = \frac{\hbar}{2}
@@ -519,7 +523,7 @@ $$
 Where $\Delta x$ is the uncertainty in position and $\Delta p$ is the uncertainty in momentum.
 
 This is not a limitation of measurement technology; it is a fundamental property of nature arising
-From the wave nature of matter. A particle localised to a small region of space must have a large
+from the wave nature of matter. A particle localised to a small region of space must have a large
 Spread in momentum, and vice versa.
 
 **Implications:**
@@ -527,7 +531,7 @@ Spread in momentum, and vice versa.
 - Electrons in atoms cannot have well-defined orbits (as in the Bohr model). Instead, we describe
   them using probability distributions (orbitals).
 - An electron confined to a nucleus ($\Delta x \approx 10^{-14}\mathrm{ m$) would have a momentum
-  uncertainty far exceeding $mc$Implying relativistic speeds -- another argument against electrons
+  uncertainty far exceeding $mc$ Implying relativistic speeds -- another argument against electrons
   existing inside the nucleus.
 
 There is also an energy-time uncertainty relation:
@@ -577,7 +581,7 @@ Coulomb repulsion grows relative to the strong force, making them less stable.
 ### Nuclear Binding Energy (HL)
 
 The **mass defect** $\Delta m$ is the difference between the mass of the nucleus and the sum of the
-Masses of its individual nucleons:
+masses of its individual nucleons:
 
 $$
 \Delta m = Zm_p + (A - Z)m_n - m_{\mathrm{nucleus}
@@ -587,7 +591,7 @@ Where $m_p = 1.6726 \times 10^{-27}\mathrm{ kg$ is the proton mass and
 $m_n = 1.6749 \times 10^{-27}\mathrm{ kg$ is the neutron mass.
 
 In practice, atomic masses (which include the mass of the electrons) are used, and the calculation
-Is simplified by noting that the electron masses cancel:
+is simplified by noting that the electron masses cancel:
 
 $$
 \Delta m = Zm(\mathrm{^1H}) + (A - Z)m_n - m(\mathrm{atom)
@@ -601,10 +605,10 @@ $$
 E_b = \Delta m \cdot c^2
 $$
 
-The binding energy per nucleon, $E_b/A$Indicates nuclear stability. A plot of $E_b/A$ versus $A$
-Shows that iron-56 has the highest binding energy per nucleon ($\approx 8.8\mathrm{ MeV/nucleon$).
+The binding energy per nucleon, $E_b/A$ Indicates nuclear stability. A plot of $E_b/A$ versus $A$
+shows that iron-56 has the highest binding energy per nucleon ($\approx 8.8\mathrm{ MeV/nucleon$).
 Nuclei with lower $A$ can gain stability by fusing (moving right on the curve), while nuclei with
-Higher $A$ can gain stability by fissioning (moving left).
+higher $A$ can gain stability by fissioning (moving left).
 
 **Example (HL):** The atomic mass of helium-4 is $4.0026\mathrm{ u$. Find the binding energy per
 Nucleon. ($m(\mathrm{^1H}) = 1.0078\mathrm{ u$$m_n = 1.0087\mathrm{ u$
@@ -630,11 +634,15 @@ Probability per unit time.
 
 Types of decay:
 
+<div class="table-wrap">
+
 | Type             | Symbol                         | Change                                 | Penetrating Power    |
 | ---------------- | ------------------------------ | -------------------------------------- | -------------------- |
 | Alpha decay      | $\alpha$ ($^4_2\mathrm{He$)    | $Z$ decreases by 2, $A$ decreases by 4 | Low (paper)          |
 | Beta-minus decay | $\beta^-$ ($^0_{-1}\mathrm{e$) | $Z$ increases by 1, $A$ unchanged      | Moderate (aluminium) |
 | Gamma decay      | $\gamma$                       | No change in $Z$ or $A$                | High (lead/concrete) |
+
+</div>
 
 **Alpha decay** occurs mainly in heavy nuclei ($A \gt 150$). The emitted alpha particle is a
 Helium-4 nucleus. Example: $^{238}_{92}\mathrm{U \to ^{234}_{90}\mathrm{Th + ^4_2\mathrm{He$.
@@ -649,10 +657,10 @@ Lower energy state. The nucleus remains the same isotope; only its energy change
 ### Why Beta Decay Requires the Neutrino
 
 In beta-minus decay, the emitted electron has a continuous spectrum of kinetic energies, from zero
-Up to a maximum value. If only the electron and daughter nucleus were produced, energy and momentum
+up to a maximum value. If only the electron and daughter nucleus were produced, energy and momentum
 Conservation would require the electron to have a fixed energy. The continuous spectrum implies a
-Third particle carrying away the remaining energy and momentum: the **antineutrino**. Pauli proposed
-The neutrino in 1930, and it was experimentally confirmed in 1956 by Cowan and Reines.
+third particle carrying away the remaining energy and momentum: the **antineutrino**. Pauli proposed
+the neutrino in 1930, and it was experimentally confirmed in 1956 by Cowan and Reines.
 
 ### Nuclear Equations and Conservation Laws
 
@@ -664,14 +672,14 @@ All nuclear reactions conserve:
 4. **Momentum**
 
 When writing nuclear equations, always check that the total $Z$ and total $A$ are the same on both
-Sides.
+sides.
 
 ### Half-Life (OL/HL)
 
 The half-life $t_{1/2}$ is the time for half of the radioactive nuclei in a sample to decay. It is a
-Statistical property: it does not mean that individual nuclei "wait" for $t_{1/2}$ before decaying.
+statistical property: it does not mean that individual nuclei "wait" for $t_{1/2}$ before decaying.
 Each nucleus has a fixed probability of decaying per unit time, and the half-life emerges from the
-Statistics of large numbers.
+statistics of large numbers.
 
 $$
 N = N_0 \left(\frac{1}{2}\right)^{t/t_{1/2}}
@@ -695,7 +703,7 @@ Activity is measured in becquerels (Bq), where $1\mathrm{ Bq = 1\mathrm{ decay/s
 ### Derivation of the Exponential Decay Law
 
 Starting from the definition of the decay constant: each nucleus has probability $\lambda \, dt$ of
-Decaying in a short time interval $dt$. For $N$ nuclei:
+decaying in a short time interval $dt$. For $N$ nuclei:
 
 $$
 DN = -\lambda N \, dt
@@ -752,8 +760,8 @@ $$
 
 **Fission:** A heavy nucleus splits into lighter nuclei, releasing energy because the products have
 Higher binding energy per nucleon. Fission is triggered when a heavy nucleus absorbs a neutron. The
-Products include two (or sometimes three) lighter nuclei, additional neutrons (which can sustain a
-Chain reaction), and energy.
+products include two (or sometimes three) lighter nuclei, additional neutrons (which can sustain a
+chain reaction), and energy.
 
 $$
 ^{235}_{92}\mathrm{U + ^1_0\mathrm{n \to ^{141}_{56}\mathrm{Ba + ^{92}_{36}\mathrm{Kr + 3^1_0\mathrm{n + \mathrm{energy
@@ -764,7 +772,7 @@ Reactor, control rods absorb some neutrons to maintain a controlled, steady rate
 
 **Critical mass:** The minimum mass of fissile material required to sustain a chain reaction. Below
 The critical mass, too many neutrons escape without causing further fission, and the reaction dies
-Out.
+out.
 
 **Fusion:** Light nuclei combine to form a heavier nucleus, releasing energy because the product has
 Higher binding energy per nucleon. Fusion requires extremely high temperatures
@@ -775,13 +783,13 @@ $$
 $$
 
 Fusion is the process that powers stars. In the Sun, the proton-proton chain converts hydrogen to
-Helium, releasing approximately $26.7\mathrm{ MeV$ per helium-4 nucleus formed. Achieving controlled
+helium, releasing approximately $26.7\mathrm{ MeV$ per helium-4 nucleus formed. Achieving controlled
 Fusion on Earth remains an active area of research (e.g., tokamak reactors and laser fusion).
 
 ### Energy Released in Fission
 
 The energy released in a single fission event of U-235 is approximately $200\mathrm{ MeV$. This can
-Be estimated from the binding energy per nucleon: U-235 has about $7.6\mathrm{ MeV/nucleon$While The
+be estimated from the binding energy per nucleon: U-235 has about $7.6\mathrm{ MeV/nucleon$ While The
 fission products have about $8.5\mathrm{ MeV/nucleon$. The difference of about
 $0.9\mathrm{ MeV/nucleon$ times 235 nucleons gives approximately $210\mathrm{ MeV$.
 
@@ -830,7 +838,7 @@ See the examples integrated throughout the sections above.
    (joules) for calculations involving $h$$c$ And $m$ And convert to eV at the end if needed.
 7. **Nuclear equations** -- always check conservation of $Z$ and $A$ on both sides.
 8. **De Broglie wavelength** -- use the relativistic momentum $p = \gamma mv$ for particles moving
-   at speeds approaching $c$. For electrons accelerated through less than about $10\mathrm{ kV$The
+   at speeds approaching $c$. For electrons accelerated through less than about $10\mathrm{ kV$ The
    non-relativistic formula is accurate enough.
 
 ## Practice Questions
@@ -873,17 +881,6 @@ See the examples integrated throughout the sections above.
 10. An electron is accelerated from rest through a potential difference of $200\mathrm{ V$. Find its
     de Broglie wavelength. Would this electron be suitable for diffraction by a crystal with lattice
     spacing $0.25\mathrm{ nm$? Justify your answer.
-
-
-```mermaid
-flowchart TD
-    A[5_Modern Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

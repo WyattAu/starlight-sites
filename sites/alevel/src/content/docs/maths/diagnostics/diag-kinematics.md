@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Kinematics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
@@ -51,7 +40,7 @@ given by $v = 6t - t^2 - 5$.
 obtains a positive answer. The student then claims this integral equals the total distance.
 Calculate the percentage error in the student"s answer.
 
-[Difficulty: hard. Tests whether the student identifies direction changes from $v = 0$Splits the
+[Difficulty: hard. Tests whether the student identifies direction changes from $v = 0$ Splits the
 integral accordingly, and takes absolute values of each segment to find total distance rather than
 displacement.]
 
@@ -70,10 +59,12 @@ For $1 \lt t \lt 5$: test $t = 3$, $v = 18 - 9 - 5 = 4 \gt 0$ (moving in positiv
 For $t \gt 5$: test $t = 6$, $v = 36 - 36 - 5 = -5 \lt 0$ (moving in negative direction).
 
 The particle reverses direction at $t = 1$ and $t = 5$. Total distance requires integrating
-$\lvert v \rvert$Which means splitting at the turning points and taking the magnitude of each
+$\lvert v \rvert$ Which means splitting at the turning points and taking the magnitude of each
 segment.
 
-$$s(t) = \int v\,dt = \int (6t - t^2 - 5)\,dt = 3t^2 - \frac{t^3}{3} - 5t + C$$
+$$
+s(t) = \int v\,dt = \int (6t - t^2 - 5)\,dt = 3t^2 - \frac{t^3}{3} - 5t + C
+$$
 
 With $s(0) = 0$: $C = 0$ So $s(t) = 3t^2 - \frac{t^3}{3} - 5t$.
 
@@ -83,20 +74,30 @@ $s(5) = 75 - \frac{125}{3} - 25 = 50 - \frac{125}{3} = \frac{150 - 125}{3} = \fr
 
 $s(7) = 147 - \frac{343}{3} - 35 = 112 - \frac{343}{3} = \frac{336 - 343}{3} = -\frac{7}{3}$ m.
 
-$$\text{Distance} = \lvert s(1) - s(0) \rvert + \lvert s(5) - s(1) \rvert + \lvert s(7) - s(5) \rvert$$
+$$
+\text{Distance} = \lvert s(1) - s(0) \rvert + \lvert s(5) - s(1) \rvert + \lvert s(7) - s(5) \rvert
+$$
 
-$$= \left\lvert -\frac{7}{3} \right\rvert + \left\lvert \frac{25}{3} - \left(-\frac{7}{3}\right) \right\rvert + \left\lvert -\frac{7}{3} - \frac{25}{3} \right\rvert$$
+$$
+= \left\lvert -\frac{7}{3} \right\rvert + \left\lvert \frac{25}{3} - \left(-\frac{7}{3}\right) \right\rvert + \left\lvert -\frac{7}{3} - \frac{25}{3} \right\rvert
+$$
 
-$$= \frac{7}{3} + \frac{32}{3} + \frac{32}{3} = \frac{71}{3} \approx 23.67 \text{ m}$$
+$$
+= \frac{7}{3} + \frac{32}{3} + \frac{32}{3} = \frac{71}{3} \approx 23.67 \text{ m}
+$$
 
 **(c)** The student's displacement answer:
 
-$$\text{Displacement} = s(7) - s(0) = -\frac{7}{3} \approx -2.33 \text{ m}$$
+$$
+\text{Displacement} = s(7) - s(0) = -\frac{7}{3} \approx -2.33 \text{ m}
+$$
 
 The student claims the distance is $2.33$ m (taking the magnitude). Actual distance is
 $\frac{71}{3} \approx 23.67$ m.
 
-$$\text{Percentage error} = \frac{\lvert \frac{71}{3} - \frac{7}{3} \rvert}{\frac{71}{3}} \times 100\% = \frac{64}{71} \times 100\% \approx 90.1\%$$
+$$
+\text{Percentage error} = \frac{\lvert \frac{71}{3} - \frac{7}{3} \rvert}{\frac{71}{3}} \times 100\% = \frac{64}{71} \times 100\% \approx 90.1\%
+$$
 
 The student underestimates the distance by approximately 90% -- a catastrophic error caused by not
 accounting for the two direction reversals.
@@ -124,7 +125,7 @@ angle of $25°$ above the horizontal. Take $g = 9.8$ m/s$^2$.
 **(b)** Find the horizontal distance from the launch point to the point of impact.
 
 **(c)** A student sets up the problem with upwards as positive and writes the vertical equation as
-$s = ut - \frac{1}{2}gt^2$Using $s = -80$ (below the launch point) and $u = 30\sin 25°$. Show that
+$s = ut - \frac{1}{2}gt^2$ Using $s = -80$ (below the launch point) and $u = 30\sin 25°$. Show that
 this gives the same quadratic as taking downwards as positive.
 
 **(d)** Find the speed and direction of motion at the instant of impact.
@@ -140,13 +141,21 @@ Vertical component (upwards positive): $v_{y0} = 30\sin 25° \approx 12.68$ m/s.
 
 The projectile lands $80$ m below the launch point, so $s_y = -80$ m.
 
-$$s_y = v_{y0}\,t - \frac{1}{2}gt^2 \implies -80 = 12.68t - 4.9t^2$$
+$$
+s_y = v_{y0}\,t - \frac{1}{2}gt^2 \implies -80 = 12.68t - 4.9t^2
+$$
 
-$$4.9t^2 - 12.68t - 80 = 0$$
+$$
+4.9t^2 - 12.68t - 80 = 0
+$$
 
-$$t = \frac{12.68 + \sqrt{12.68^2 + 4(4.9)(80)}}{2(4.9)} = \frac{12.68 + \sqrt{160.78 + 1568}}{9.8} = \frac{12.68 + \sqrt{1728.78}}{9.8}$$
+$$
+t = \frac{12.68 + \sqrt{12.68^2 + 4(4.9)(80)}}{2(4.9)} = \frac{12.68 + \sqrt{160.78 + 1568}}{9.8} = \frac{12.68 + \sqrt{1728.78}}{9.8}
+$$
 
-$$= \frac{12.68 + 41.58}{9.8} \approx 5.53 \text{ s}$$
+$$
+= \frac{12.68 + 41.58}{9.8} \approx 5.53 \text{ s}
+$$
 
 (The negative root is rejected since $t \gt 0$.)
 
@@ -154,7 +163,9 @@ $$= \frac{12.68 + 41.58}{9.8} \approx 5.53 \text{ s}$$
 
 **(c)** With downwards as positive: $u_y = -12.68$ m/s, $s = 80$ m.
 
-$$s = u_y\,t + \frac{1}{2}gt^2 \implies 80 = -12.68t + 4.9t^2 \implies 4.9t^2 - 12.68t - 80 = 0$$
+$$
+s = u_y\,t + \frac{1}{2}gt^2 \implies 80 = -12.68t + 4.9t^2 \implies 4.9t^2 - 12.68t - 80 = 0
+$$
 
 This is identical to the quadratic in part (a). The sign convention does not matter as long as it is
 applied consistently throughout.
@@ -185,7 +196,7 @@ Angle below horizontal $= \arctan\!\left(\frac{41.51}{27.19}\right) \approx 56.8
 **Question:**
 
 A particle moves in a straight line. Its acceleration $a$ m/s$^2$ is related to its displacement $s$
-metres from a fixed point $O$ by $a = 12 - 3s$. When $s = 0$The particle has velocity $v = 2$ m/s.
+metres from a fixed point $O$ by $a = 12 - 3s$. When $s = 0$ The particle has velocity $v = 2$ m/s.
 
 **(a)** Find an expression for $v^2$ in terms of $s$.
 
@@ -207,27 +218,41 @@ $a = \frac{dv}{dt} = \frac{dv}{ds} \cdot \frac{ds}{dt} = v\,\frac{dv}{ds}$.
 
 Substituting $a = 12 - 3s$:
 
-$$v\,\frac{dv}{ds} = 12 - 3s$$
+$$
+v\,\frac{dv}{ds} = 12 - 3s
+$$
 
 This is a separable differential equation. Integrating both sides with respect to $s$:
 
-$$\int v\,dv = \int (12 - 3s)\,ds$$
+$$
+\int v\,dv = \int (12 - 3s)\,ds
+$$
 
-$$\frac{v^2}{2} = 12s - \frac{3s^2}{2} + C$$
+$$
+\frac{v^2}{2} = 12s - \frac{3s^2}{2} + C
+$$
 
 When $s = 0$, $v = 2$: $\frac{4}{2} = C \implies C = 2$.
 
-$$\frac{v^2}{2} = 12s - \frac{3s^2}{2} + 2$$
+$$
+\frac{v^2}{2} = 12s - \frac{3s^2}{2} + 2
+$$
 
-$$v^2 = 24s - 3s^2 + 4$$
+$$
+v^2 = 24s - 3s^2 + 4
+$$
 
 **(b)** The particle reaches maximum displacement when $v = 0$:
 
-$$0 = 24s - 3s^2 + 4 \implies 3s^2 - 24s - 4 = 0$$
+$$
+0 = 24s - 3s^2 + 4 \implies 3s^2 - 24s - 4 = 0
+$$
 
-$$s = \frac{24 + \sqrt{576 + 48}}{6} = \frac{24 + \sqrt{624}}{6} = \frac{24 + 4\sqrt{39}}{6} = \frac{12 + 2\sqrt{39}}{3} \approx 8.16 \text{ m}$$
+$$
+s = \frac{24 + \sqrt{576 + 48}}{6} = \frac{24 + \sqrt{624}}{6} = \frac{24 + 4\sqrt{39}}{6} = \frac{12 + 2\sqrt{39}}{3} \approx 8.16 \text{ m}
+$$
 
-(The negative root gives $s \lt 0$Which corresponds to the particle having passed through $O$ in the
+(The negative root gives $s \lt 0$ Which corresponds to the particle having passed through $O$ in the
 opposite direction -- not relevant for the first turning point.)
 
 **(c)** The approach via $a = v\,\frac{dv}{ds}$ works because it reduces the problem to a
@@ -298,23 +323,33 @@ Position vector: $\mathbf{r}(t) = \begin{pmatrix} 8t \\ 10 + 4t - 4.9t^2 \end{pm
 
 **(b)** Distance squared from origin:
 
-$$D^2 = (8t)^2 + (10 + 4t - 4.9t^2)^2 = 64t^2 + (10 + 4t - 4.9t^2)^2$$
+$$
+D^2 = (8t)^2 + (10 + 4t - 4.9t^2)^2 = 64t^2 + (10 + 4t - 4.9t^2)^2
+$$
 
-To minimise $D$We minimise $D^2$. Setting $\frac{d(D^2)}{dt} = 0$:
+To minimise $D$ We minimise $D^2$. Setting $\frac{d(D^2)}{dt} = 0$:
 
-$$\frac{d(D^2)}{dt} = 128t + 2(10 + 4t - 4.9t^2)(4 - 9.8t) = 0$$
+$$
+\frac{d(D^2)}{dt} = 128t + 2(10 + 4t - 4.9t^2)(4 - 9.8t) = 0
+$$
 
-$$128t + (10 + 4t - 4.9t^2)(4 - 9.8t) = 0$$
+$$
+128t + (10 + 4t - 4.9t^2)(4 - 9.8t) = 0
+$$
 
 Expanding the second term:
 
 $(10 + 4t - 4.9t^2)(4 - 9.8t) = 40 - 98t + 16t - 39.2t^2 - 19.6t^2 + 48.02t^3$
 
-$$= 40 - 82t - 58.8t^2 + 48.02t^3$$
+$$
+= 40 - 82t - 58.8t^2 + 48.02t^3
+$$
 
 So: $128t + 40 - 82t - 58.8t^2 + 48.02t^3 = 0$
 
-$$48.02t^3 - 58.8t^2 + 46t + 40 = 0$$
+$$
+48.02t^3 - 58.8t^2 + 46t + 40 = 0
+$$
 
 Testing $t = -0.5$: $48.02(-0.125) - 58.8(0.25) + 46(-0.5) + 40 = -6.003 - 14.7 - 23 + 40 = -3.703$.
 Not zero.
@@ -322,11 +357,17 @@ Not zero.
 This cubic is awkward. An alternative approach uses the fact that the closest point occurs when
 $\mathbf{r}$ is perpendicular to $\mathbf{v}$:
 
-$$\mathbf{r} \cdot \mathbf{v} = 0$$
+$$
+\mathbf{r} \cdot \mathbf{v} = 0
+$$
 
-$$\begin{pmatrix} 8t \\ 10 + 4t - 4.9t^2 \end{pmatrix} \cdot \begin{pmatrix} 8 \\ 4 - 9.8t \end{pmatrix} = 0$$
+$$
+\begin{pmatrix} 8t \\ 10 + 4t - 4.9t^2 \end{pmatrix} \cdot \begin{pmatrix} 8 \\ 4 - 9.8t \end{pmatrix} = 0
+$$
 
-$$64t + (10 + 4t - 4.9t^2)(4 - 9.8t) = 0$$
+$$
+64t + (10 + 4t - 4.9t^2)(4 - 9.8t) = 0
+$$
 
 This is the same equation. Let us solve numerically.
 
@@ -344,7 +385,9 @@ $x = 8(-0.462) = -3.696$ m.
 
 $y = 10 + 4(-0.462) - 4.9(0.2134) = 10 - 1.848 - 1.046 = 7.106$ m.
 
-$$D = \sqrt{(-3.696)^2 + 7.106^2} = \sqrt{13.66 + 50.50} = \sqrt{64.16} \approx 8.01 \text{ m}$$
+$$
+D = \sqrt{(-3.696)^2 + 7.106^2} = \sqrt{13.66 + 50.50} = \sqrt{64.16} \approx 8.01 \text{ m}
+$$
 
 **(c)** At $t \approx -0.462$:
 
@@ -406,23 +449,33 @@ Total downward force $= 4.9 + 0.4 = 5.3$ N.
 
 Both forces act opposite to the displacement (which is upward), so both do negative work:
 
-$$W_{\text{net}} = -5.3h$$
+$$
+W_{\text{net}} = -5.3h
+$$
 
 Where $h$ is the maximum height.
 
 By the work-energy principle:
 
-$$-5.3h = -100 \implies h = \frac{100}{5.3} \approx 18.87 \text{ m}$$
+$$
+-5.3h = -100 \implies h = \frac{100}{5.3} \approx 18.87 \text{ m}
+$$
 
 **(b)** Newton's Second Law (upwards positive):
 
-$$F_{\text{net}} = -mg - F_{\text{air}} = -4.9 - 0.4 = -5.3 \text{ N}$$
+$$
+F_{\text{net}} = -mg - F_{\text{air}} = -4.9 - 0.4 = -5.3 \text{ N}
+$$
 
-$$ma = -5.3 \implies a = \frac{-5.3}{0.5} = -10.6 \text{ m/s}^2$$
+$$
+ma = -5.3 \implies a = \frac{-5.3}{0.5} = -10.6 \text{ m/s}^2
+$$
 
 Using $v^2 = u^2 + 2as$ with $v = 0$$u = 20$$a = -10.6$:
 
-$$0 = 400 + 2(-10.6)h \implies 21.2h = 400 \implies h = \frac{400}{21.2} = \frac{100}{5.3} \approx 18.87 \text{ m}$$
+$$
+0 = 400 + 2(-10.6)h \implies 21.2h = 400 \implies h = \frac{400}{21.2} = \frac{100}{5.3} \approx 18.87 \text{ m}
+$$
 
 Both methods give the same answer, confirming the result.
 
@@ -470,7 +523,9 @@ velocity).]
 
 **(a)** Testing $t = 1$: $v(1) = 1 - 6 + 11 - 6 = 0$ So $(t - 1)$ is a factor.
 
-$$t^3 - 6t^2 + 11t - 6 = (t - 1)(t^2 - 5t + 6) = (t - 1)(t - 2)(t - 3)$$
+$$
+t^3 - 6t^2 + 11t - 6 = (t - 1)(t^2 - 5t + 6) = (t - 1)(t - 2)(t - 3)
+$$
 
 The particle is at rest at $t = 1$, $t = 2$ And $t = 3$ s.
 
@@ -498,15 +553,19 @@ $s(3) = \frac{81}{4} - 54 + \frac{99}{2} - 18 = 20.25 - 54 + 49.5 - 18 = -2.25$ 
 
 $s(5) = \frac{625}{4} - 250 + \frac{275}{2} - 30 = 156.25 - 250 + 137.5 - 30 = 13.75$ m.
 
-$$\text{Distance} = \lvert s(1) - s(0) \rvert + \lvert s(2) - s(1) \rvert + \lvert s(3) - s(2) \rvert + \lvert s(5) - s(3) \rvert$$
+$$
+\text{Distance} = \lvert s(1) - s(0) \rvert + \lvert s(2) - s(1) \rvert + \lvert s(3) - s(2) \rvert + \lvert s(5) - s(3) \rvert
+$$
 
-$$= 2.25 + 0.25 + 0.25 + 16 = 18.75 \text{ m}$$
+$$
+= 2.25 + 0.25 + 0.25 + 16 = 18.75 \text{ m}
+$$
 
 **(d)** Acceleration $a = \frac{dv}{dt} = 3t^2 - 12t + 11$.
 
 $\frac{da}{dt} = 6t - 12 = 0 \implies t = 2$.
 
-$\frac{d^2a}{dt^2} = 6 \gt 0$Confirming a minimum of acceleration at $t = 2$.
+$\frac{d^2a}{dt^2} = 6 \gt 0$ Confirming a minimum of acceleration at $t = 2$.
 
 Since $\frac{da}{dt} = 6t - 12$ and the coefficient of $t$ is positive, the acceleration has a
 minimum (not maximum) at $t = 2$. The acceleration decreases for $0 \lt t \lt 2$ and increases for
@@ -521,7 +580,7 @@ the particle is **speeding up** at $t = 5$.
 
 Note: the question asks about the rate of change of **speed** (a scalar), not velocity. Speed
 increases when $v$ and $a$ have the same sign, and decreases when they have opposite signs. At
-$t = 5$Both are positive, so the particle is speeding up.
+$t = 5$ Both are positive, so the particle is speeding up.
 
 ## See Also
 

@@ -23,7 +23,7 @@ categories:
 ## Heat and Thermodynamics
 
 This topic covers temperature, heat transfer, specific heat capacity, latent heat, gas laws, and the
-Laws of thermodynamics. These concepts connect the microscopic behaviour of particles (kinetic
+laws of thermodynamics. These concepts connect the microscopic behaviour of particles (kinetic
 Theory) to the macroscopic properties we can measure (pressure, volume, temperature), bridging
 Classical mechanics and statistical physics.
 
@@ -32,13 +32,17 @@ Classical mechanics and statistical physics.
 ### Temperature Scales (OL/HL)
 
 Temperature is a measure of the average kinetic energy of the particles in a substance. Three scales
-Are commonly used:
+are commonly used:
+
+<div class="table-wrap">
 
 | Scale                          | Boiling point of water | Freezing point of water | Absolute zero |
 | ------------------------------ | ---------------------- | ----------------------- | ------------- |
 | Celsius ($^\circ\mathrm{C$)    | $100$                  | $0$                     | $-273.15$     |
 | Kelvin (K)                     | $373.15$               | $273.15$                | $0$           |
 | Fahrenheit ($^\circ\mathrm{F$) | $212$                  | $32$                    | $-459.67$     |
+
+</div>
 
 Conversion between Celsius and Kelvin:
 
@@ -55,13 +59,13 @@ $$
 ### Why Kelvin Is the Natural Scale for Physics
 
 The Kelvin scale is an absolute thermodynamic temperature scale. Zero kelvin (absolute zero) is the
-Lowest possible temperature, at which all classical thermal motion ceases. This is not just a
-Convention -- it follows from the ideal gas law extrapolation and the third law of thermodynamics.
+lowest possible temperature, at which all classical thermal motion ceases. This is not just a
+convention -- it follows from the ideal gas law extrapolation and the third law of thermodynamics.
 
 All physical laws involving temperature (gas laws, kinetic theory, thermodynamic relations) require
 Temperature in kelvin. Using Celsius in the ideal gas law, for example, would give nonsensical
 Results because the zero point of the Celsius scale is arbitrary (the freezing point of water), not
-Fundamental.
+fundamental.
 
 ### Heat vs Temperature (OL/HL)
 
@@ -78,14 +82,14 @@ has more energy to give.
 ### Thermal Equilibrium
 
 When two objects at different temperatures are placed in contact, heat flows from the hotter to the
-Colder until they reach the same temperature. At this point they are in **thermal equilibrium**, and
-No net heat transfer occurs. The zeroth law of thermodynamics formalises this: if A is in thermal
+colder until they reach the same temperature. At this point they are in **thermal equilibrium**, and
+no net heat transfer occurs. The zeroth law of thermodynamics formalises this: if A is in thermal
 Equilibrium with B, and B with C, then A is in thermal equilibrium with C.
 
 ## Specific Heat Capacity (OL/HL)
 
 The specific heat capacity $c$ is the energy required to raise the temperature of 1 kg of a
-Substance by 1 K (or $1^\circ\mathrm{C$ -- the size of the degree is the same on both scales):
+substance by 1 K (or $1^\circ\mathrm{C$ -- the size of the degree is the same on both scales):
 
 $$
 Q = mc\Delta T
@@ -94,7 +98,9 @@ $$
 Where $Q$ is the heat energy transferred, $m$ is the mass, and $\Delta T$ is the temperature change.
 
 The unit of $c$ is $\mathrm{J/(kg K)$ or $\mathrm{J/(kg °C)$ -- these are numerically identical
-Because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
+because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
+
+<div class="table-wrap">
 
 | Substance | $c$ (J/kg K) |
 | --------- | ------------ |
@@ -105,23 +111,25 @@ Because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
 | Iron      | 450          |
 | Lead      | 128          |
 
+</div>
+
 Water has an unusually high specific heat capacity, which is why it is effective as a coolant and
-Why coastal climates are more moderate than inland climates (oceans absorb and release large amounts
-Of energy with relatively small temperature changes).
+why coastal climates are more moderate than inland climates (oceans absorb and release large amounts
+of energy with relatively small temperature changes).
 
 ### Why Different Substances Have Different Specific Heat Capacities
 
 Specific heat capacity depends on the number of degrees of freedom available to the particles. In a
-Monatomic ideal gas, energy is stored only as translational kinetic energy (3 degrees of freedom).
+monatomic ideal gas, energy is stored only as translational kinetic energy (3 degrees of freedom).
 In water, energy can be stored in translational, rotational, and vibrational modes, as well as in
-Hydrogen bonds between molecules. More modes mean more energy is needed to raise the temperature.
+hydrogen bonds between molecules. More modes mean more energy is needed to raise the temperature.
 
-For solids, the Dulong-Petit law gives a rough estimate: $c \approx \frac{3R}{M}$Where $M$ is the
-Molar mass. This predicts about $25\mathrm{ J/(mol K)$ for many solids at room temperature.
+For solids, the Dulong-Petit law gives a rough estimate: $c \approx \frac{3R}{M}$ Where $M$ is the
+molar mass. This predicts about $25\mathrm{ J/(mol K)$ for many solids at room temperature.
 
-### Water"s High Specific Heat Capacity
+### Water's High Specific Heat Capacity
 
-Water has $c = 4180\mathrm{ J/(kg K)$Which is exceptionally high. This is because:
+Water has $c = 4180\mathrm{ J/(kg K)$ Which is exceptionally high. This is because:
 
 - Water molecules have three translational, three rotational, and vibrational degrees of freedom.
 - Hydrogen bonding between molecules absorbs additional energy as the bonds stretch and deform.
@@ -178,7 +186,7 @@ much lower specific heat Capacity of copper.
 
 The method of mixtures is a standard experimental technique for determining specific heat capacity.
 A known mass of a substance at a known temperature is mixed with a known mass of water at a
-Different temperature. By measuring the final equilibrium temperature, the unknown specific heat
+different temperature. By measuring the final equilibrium temperature, the unknown specific heat
 Capacity can be calculated.
 
 **Example (HL):** A $0.2\mathrm{ kg$ metal block is heated to $150^\circ\mathrm{C$ and placed in
@@ -202,21 +210,21 @@ This value is close to that of aluminium.
 ## Latent Heat (OL/HL)
 
 When a substance changes phase (solid to liquid, or liquid to gas), energy is transferred without
-Any change in temperature. This energy is called **latent heat** (from the Latin "latent" meaning
+any change in temperature. This energy is called **latent heat** (from the Latin "latent" meaning
 "hidden").
 
 ### Why Temperature Does Not Change During Phase Transitions
 
 During melting or boiling, the energy supplied does not increase the average kinetic energy of the
-Particles (which would raise the temperature). Instead, it increases the potential energy by
-Overcoming the intermolecular forces that hold the particles in their current arrangement. In
-Melting, bonds between molecules in the solid lattice are broken; in vaporisation, molecules are
-Completely separated from each other.
+particles (which would raise the temperature). Instead, it increases the potential energy by
+overcoming the intermolecular forces that hold the particles in their current arrangement. In
+melting, bonds between molecules in the solid lattice are broken; in vaporisation, molecules are
+completely separated from each other.
 
 ### Specific Latent Heat of Fusion
 
 The specific latent heat of fusion $L_f$ is the energy required to change 1 kg of a substance from
-Solid to liquid at its melting point:
+solid to liquid at its melting point:
 
 $$
 Q = mL_f
@@ -225,11 +233,13 @@ $$
 ### Specific Latent Heat of Vaporisation
 
 The specific latent heat of vaporisation $L_v$ is the energy required to change 1 kg of a substance
-From liquid to gas at its boiling point:
+from liquid to gas at its boiling point:
 
 $$
 Q = mL_v
 $$
+
+<div class="table-wrap">
 
 | Substance | $L_f$ (kJ/kg) | $L_v$ (kJ/kg) |
 | --------- | ------------- | ------------- |
@@ -239,9 +249,11 @@ $$
 | Copper    | $205$         | $4730$        |
 | Lead      | $23$          | $870$         |
 
+</div>
+
 Note that $L_v$ is generally much larger than $L_f$ because completely separating molecules
 (boiling) requires overcoming all intermolecular forces, whereas melting only needs to disrupt the
-Ordered lattice while keeping molecules close together.
+ordered lattice while keeping molecules close together.
 
 **Example (OL):** How much energy is needed to convert 0.2 kg of ice at $0^\circ\mathrm{C$ to water
 at $0^\circ\mathrm{C$?
@@ -253,7 +265,7 @@ $$
 ### Multi-Stage Heating Problems (HL)
 
 When heating a substance through multiple phases, the total energy is the sum of the energy for each
-Stage:
+stage:
 
 1. Heating the solid to its melting point: $Q_1 = mc_{\mathrm{solid}\Delta T_1$
 2. Melting at the melting point: $Q_2 = mL_f$
@@ -280,19 +292,19 @@ Q_{\mathrm{total} = 2100 + 33400 + 41800 + 226000 = 303300\mathrm{ J \approx 303
 $$
 
 Notice that the latent heat of vaporisation ($226\mathrm{ kJ$) dominates the total energy. This is
-Why steam burns are so much more dangerous than water burns at the same temperature: steam at
+why steam burns are so much more dangerous than water burns at the same temperature: steam at
 $100^\circ\mathrm{C$ contains an additional $2260\mathrm{ kJ/kg$ of energy compared to water at
 $100^\circ\mathrm{C$ And this Energy is released when the steam condenses on the skin.
 
 ## Gas Laws
 
 The gas laws describe the macroscopic behaviour of gases. They were established experimentally and
-Can be derived from kinetic theory.
+can be derived from kinetic theory.
 
 ### Boyle's Law (OL/HL)
 
 At constant temperature, the pressure of a fixed mass of gas is inversely proportional to its
-Volume:
+volume:
 
 $$
 PV = \mathrm{constant \implies p_1 V_1 = p_2 V_2
@@ -300,7 +312,7 @@ $$
 
 **Microscopic explanation:** At constant temperature, the average speed of the molecules is
 Constant. Compressing the gas into a smaller volume increases the number of molecular collisions per
-Unit area per unit time on the walls, increasing the pressure.
+unit area per unit time on the walls, increasing the pressure.
 
 A $pV$ graph at constant temperature is a hyperbola. Plotting $p$ versus $1/V$ yields a straight
 Line through the origin.
@@ -316,7 +328,7 @@ $$
 
 **Microscopic explanation:** At constant pressure, increasing the temperature increases the average
 Speed of the molecules. To maintain the same pressure (same force per unit area on the walls), the
-Gas must expand so that fewer molecules hit each unit area per unit time.
+gas must expand so that fewer molecules hit each unit area per unit time.
 
 Extrapolating Charles's law to $V = 0$ gives $T = 0\mathrm{ K$ (absolute zero). This is how absolute
 Zero was first estimated experimentally.
@@ -332,7 +344,7 @@ $$
 
 **Microscopic explanation:** At constant volume, increasing the temperature increases the average
 Speed of the molecules. Faster molecules hit the walls harder and more frequently, increasing the
-Pressure.
+pressure.
 
 ### Combined Gas Law (HL)
 
@@ -354,7 +366,7 @@ $$
 ## Ideal Gas Law (HL)
 
 The ideal gas law combines the gas laws with Avogadro's law (equal volumes of gases at the same
-Temperature and pressure contain equal numbers of molecules):
+temperature and pressure contain equal numbers of molecules):
 
 $$
 PV = nRT
@@ -371,8 +383,8 @@ An ideal gas is a theoretical gas in which:
 - All collisions are perfectly elastic.
 
 Real gases approximate ideal behaviour at low pressures and high temperatures, when the molecules
-Are far apart and moving fast. At high pressures and low temperatures, deviations occur due to
-Intermolecular forces and the finite size of molecules.
+are far apart and moving fast. At high pressures and low temperatures, deviations occur due to
+intermolecular forces and the finite size of molecules.
 
 ### Alternative Forms
 
@@ -392,7 +404,7 @@ PV_m = RT
 $$
 
 At STP (standard temperature and pressure: $273.15\mathrm{ K$, $1.013 \times 10^5\mathrm{ Pa$), one
-Mole of ideal gas occupies $22.4\mathrm{ L$.
+mole of ideal gas occupies $22.4\mathrm{ L$.
 
 **Example (HL):** Find the volume occupied by 2 mol of gas at $300\mathrm{ K$ and
 $1.01 \times 10^5\mathrm{ Pa$.
@@ -486,8 +498,8 @@ $$
 $$
 
 This is a crucial result: the average translational kinetic energy of a gas molecule is proportional
-To the absolute temperature and depends only on temperature. It provides the microscopic definition
-Of temperature.
+to the absolute temperature and depends only on temperature. It provides the microscopic definition
+of temperature.
 
 ### Root Mean Square Speed
 
@@ -529,14 +541,14 @@ Atmospheric escape).
 ### Internal Energy of an Ideal Gas
 
 For a monatomic ideal gas (e.g., helium, neon, argon), the internal energy consists solely of
-Translational kinetic energy:
+translational kinetic energy:
 
 $$
 U = \frac{3}{2}Nk_BT = \frac{3}{2}nRT
 $$
 
 For a diatomic ideal gas (e.g., $\mathrm{N_2$, $\mathrm{O_2$), rotational kinetic energy adds two more
-Degrees of freedom:
+degrees of freedom:
 
 $$
 U = \frac{5}{2}nRT
@@ -585,7 +597,7 @@ W = 0 \implies \Delta U = Q
 $$
 
 All heat added goes into increasing the internal energy. No work is done because the gas does not
-Expand.
+expand.
 
 **Isobaric process** ($\Delta p = 0$): The pressure remains constant.
 
@@ -602,14 +614,14 @@ $$
 $$
 
 Work done by the system comes entirely from its internal energy, so the temperature decreases during
-Expansion and increases during compression. For an ideal gas:
+expansion and increases during compression. For an ideal gas:
 
 $$
 PV^\gamma = \mathrm{constant
 $$
 
 Where $\gamma = C_p/C_v$ is the ratio of specific heat capacities ($5/3$ for monatomic, $7/5$ for
-Diatomic gases).
+diatomic gases).
 
 ### Work Done by a Gas
 
@@ -620,7 +632,7 @@ W = \int_{V_1}^{V_2} p \, dV
 $$
 
 For an isobaric process, this simplifies to $W = p(V_2 - V_1)$. For an isothermal process of an
-Ideal gas, $W = nRT\ln(V_2/V_1)$.
+ideal gas, $W = nRT\ln(V_2/V_1)$.
 
 ### Cyclic Processes and the First Law
 
@@ -631,7 +643,7 @@ Q_{\mathrm{net} = W_{\mathrm{net}
 $$
 
 The net work done by the system equals the net heat absorbed. On a $pV$ diagram, the net work equals
-The area enclosed by the cycle.
+the area enclosed by the cycle.
 
 ### Second Law
 
@@ -649,7 +661,7 @@ Engines) are impossible, even though they do not violate the first law.
 ### Carnot Cycle and Efficiency
 
 The Carnot cycle is the most efficient possible heat engine operating between two temperatures. It
-Consists of four reversible processes:
+consists of four reversible processes:
 
 1. Isothermal expansion at $T_H$ (absorbing heat $Q_H$ from the hot reservoir).
 2. Adiabatic expansion (temperature drops from $T_H$ to $T_C$).
@@ -663,10 +675,10 @@ $$
 $$
 
 Where $T_H$ is the hot reservoir temperature and $T_C$ is the cold reservoir temperature (both in
-Kelvin).
+kelvin).
 
 No real engine can exceed this efficiency. The Carnot efficiency depends only on the temperatures of
-The two reservoirs, not on the working substance.
+the two reservoirs, not on the working substance.
 
 **Example (HL):** A heat engine operates between $600\mathrm{ K$ and $300\mathrm{ K$. Find the
 maximum Possible efficiency.
@@ -698,9 +710,9 @@ $$
 ### Entropy (HL)
 
 Entropy $S$ is a thermodynamic state function that quantifies the degree of disorder or the number
-Of microscopic configurations (microstates) corresponding to a given macroscopic state.
+of microscopic configurations (microstates) corresponding to a given macroscopic state.
 
-For a reversible process at temperature $T$The entropy change is:
+For a reversible process at temperature $T$ The entropy change is:
 
 $$
 \Delta S = \frac{Q}{T}
@@ -720,8 +732,8 @@ $$
 \Delta S = \frac{-Q}{T_H} + \frac{Q}{T_C} = Q\left(\frac{1}{T_C} - \frac{1}{T_H}\right)
 $$
 
-Since $T_C \lt T_H$We have $1/T_C \gt 1/T_H$ So $\Delta S \gt 0$. The reverse (heat flowing from Cold
-to hot) would give $\Delta S \lt 0$Violating the second law. This is why heat spontaneously Flows
+Since $T_C \lt T_H$ We have $1/T_C \gt 1/T_H$ So $\Delta S \gt 0$. The reverse (heat flowing from Cold
+to hot) would give $\Delta S \lt 0$ Violating the second law. This is why heat spontaneously Flows
 only from hot to cold.
 
 ### Third Law of Thermodynamics
@@ -743,7 +755,7 @@ Heat can be transferred by three mechanisms: conduction, convection, and radiati
 ### Conduction (OL/HL)
 
 Conduction is the transfer of heat through a material without bulk motion of the material. It occurs
-Through molecular vibrations (in all materials) and free electron drift (in metals, which is why
+through molecular vibrations (in all materials) and free electron drift (in metals, which is why
 Metals are generally good conductors).
 
 Fourier's law of heat conduction:
@@ -753,13 +765,15 @@ $$
 $$
 
 Where $k$ is the thermal conductivity (W/(m K)), $A$ is the cross-sectional area, and $dT/dx$ is the
-Temperature gradient. The negative sign indicates heat flows from hot to cold.
+temperature gradient. The negative sign indicates heat flows from hot to cold.
 
 For a uniform slab of thickness $d$ with temperatures $T_1$ (hot face) and $T_2$ (cold face):
 
 $$
 \frac{dQ}{dt} = \frac{kA(T_1 - T_2)}{d}
 $$
+
+<div class="table-wrap">
 
 | Material              | $k$ (W/(m K)) |
 | --------------------- | ------------- |
@@ -770,6 +784,8 @@ $$
 | Water                 | 0.6           |
 | Air                   | 0.026         |
 | Fibreglass insulation | 0.04          |
+
+</div>
 
 **Example (HL):** A copper wall of thickness $5\mathrm{ mm$ and area $2\mathrm{ m^2$ has one face at
 $100^\circ\mathrm{C$ and the other at $20^\circ\mathrm{C$. Find the rate of heat conduction.
@@ -804,11 +820,11 @@ $$
 Where $\sigma = 5.67 \times 10^{-8}\mathrm{ W m^{-2}\mathrm{ K^{-4}$ is the Stefan-Boltzmann
 constant, $A$ is the surface area, and $T$ is the absolute temperature in kelvin.
 
-The power radiated is proportional to $T^4$Which means small temperature increases at high
+The power radiated is proportional to $T^4$ Which means small temperature increases at high
 Temperatures produce enormous increases in radiated power. This is why stars are so luminous.
 
 For a real body (not a perfect black body), the emissivity $\varepsilon$ (between 0 and 1) accounts
-For the deviation from ideal behaviour:
+for the deviation from ideal behaviour:
 
 $$
 P = \varepsilon \sigma A T^4
@@ -828,7 +844,7 @@ $$
 ### Wien's Displacement Law (HL)
 
 The wavelength at which a black body emits maximum radiation is inversely proportional to its
-Absolute temperature:
+absolute temperature:
 
 $$
 \lambda_{\max} T = 2.898 \times 10^{-3}\mathrm{ m K
@@ -845,7 +861,7 @@ This is in the visible (green-yellow) region, consistent with the Sun appearing 
 
 ### Net Radiation Power
 
-When a body at temperature $T$ is surrounded by an environment at temperature $T_0$The net power
+When a body at temperature $T$ is surrounded by an environment at temperature $T_0$ The net power
 Radiated is:
 
 $$
@@ -853,7 +869,7 @@ P_{\mathrm{net} = \varepsilon \sigma A (T^4 - T_0^4)
 $$
 
 This explains why bodies cool down (lose more radiation than they absorb) when hotter than their
-Surroundings, and heat up when colder.
+surroundings, and heat up when colder.
 
 ## Worked Examples
 
@@ -926,17 +942,6 @@ See the examples integrated throughout the sections above.
    required?
 10. Derive the expression for the pressure of an ideal gas from kinetic theory, stating your
     assumptions. Show how this leads to $pV = \frac{1}{3}Nm\overline{v^2}$.
-
-
-```mermaid
-flowchart TD
-    A[4_Heat] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

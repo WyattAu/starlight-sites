@@ -24,7 +24,7 @@ tableOfContents: false
 Marginal cost: $MPC = 20 + 0.5Q$. Marginal external cost: $MEC = 0.3Q$. Demand (marginal private
 Benefit): $P = 100 - 0.8Q$. (a) Calculate the free market equilibrium quantity and price. (b)
 Calculate the socially optimal quantity and price. (c) Calculate the Pigouvian tax needed to achieve
-The social optimum. (d) Calculate the deadweight loss of the free market outcome.
+the social optimum. (d) Calculate the deadweight loss of the free market outcome.
 
 **Solution:**
 
@@ -37,7 +37,7 @@ $MSB = MPB = 100 - 0.8Q$ (assuming no external benefit).
 $20 + 0.8Q = 100 - 0.8Q$$1.6Q = 80$$Q^* = 50$. $P^* = 100 - 0.8(50) = \$60$.
 
 (c) Pigouvian tax $= MEC$ at $Q^* = 50$: $t = 0.3(50) = \$15$. The tax shifts the private supply up
-By $\$15$, so $MPC + t = 20 + 0.5Q + 15 = 35 + 0.5Q$. At $Q = 50$: $35 + 0.5(50) = 60 = P^*$.
+by $\$15$, so $MPC + t = 20 + 0.5Q + 15 = 35 + 0.5Q$. At $Q = 50$: $35 + 0.5(50) = 60 = P^*$.
 
 (d) DWL
 $= \frac{1}{2} \times MEC_{at  Q_m} \times (Q_m - Q^*) = \frac{1}{2} \times 0.3(61.54) \times (61.54 - 50) = \frac{1}{2} \times 18.46 \times 11.54 = \$106.5$.
@@ -45,9 +45,9 @@ $= \frac{1}{2} \times MEC_{at  Q_m} \times (Q_m - Q^*) = \frac{1}{2} \times 0.3(
 ### UT-2: Public Goods and Free Rider Problem
 
 **Question:** A coastal community of 100 residents is considering building a lighthouse. Each
-Resident"s individual demand for the lighthouse is $P_i = 10 - 0.1Q$Where $Q$ is the quality level
+Resident's individual demand for the lighthouse is $P_i = 10 - 0.1Q$ Where $Q$ is the quality level
 (0 to 100). The total cost of providing quality level $Q$ is $TC = 200 + 5Q$. (a) Explain why a
-Lighthouse is a public good, identifying which characteristics it satisfies. (b) Derive the market
+lighthouse is a public good, identifying which characteristics it satisfies. (b) Derive the market
 Demand (marginal social benefit) curve. (c) Calculate the socially optimal quality level. (d)
 Explain why the private market would underprovide the lighthouse.
 
@@ -61,7 +61,7 @@ Explain why the private market would underprovide the lighthouse.
    other ships.
 
 These characteristics create a free rider problem -- individual residents have an incentive not to
-Pay, hoping others will fund it while they still benefit.
+pay, hoping others will fund it while they still benefit.
 
 (b) For a public good, the market demand (MSB) is the **vertical summation** of individual demands,
 Since all residents consume the same quantity simultaneously.
@@ -77,7 +77,7 @@ The socially optimal quality level is approximately 99.5 (essentially maximum qu
 (d) In the private market, each resident decides whether to contribute based on their **private
 Marginal benefit** (PMB $= 10 - 0.1Q$), not the social marginal benefit. At any quality level, PMB
 $\lt$ MSB, so each resident undervalues the lighthouse. The private market equilibrium would occur
-Where the individual demand equals the average cost share: $10 - 0.1Q = 5Q/100 + 2 = 0.05Q + 2$.
+where the individual demand equals the average cost share: $10 - 0.1Q = 5Q/100 + 2 = 0.05Q + 2$.
 This gives $8 = 0.15Q$$Q = 53.3$ -- far below the social optimum of 99.5. The free rider problem
 Means many residents would not contribute at all, expecting others to pay.
 
@@ -86,7 +86,7 @@ Means many residents would not contribute at all, expecting others to pay.
 **Question:** In the market for used cars, sellers know the true quality of their cars but buyers do
 Not. There are two types of cars: good cars worth $\$80,000$ and bad cars (lemons) worth $\$40,000$.
 Buyers value good cars at $\$100,000$ and bad cars at $\$50,000$. Half of all cars on the market are
-Good and half are bad. (a) What price would a risk-neutral buyer be willing to pay if they cannot
+good and half are bad. (a) What price would a risk-neutral buyer be willing to pay if they cannot
 Distinguish between good and bad cars? (b) What happens to the market if the price from part (a)
 Prevails? (c) Explain the concept of adverse selection in this context.
 
@@ -97,15 +97,15 @@ Prevails? (c) Explain the concept of adverse selection in this context.
 A risk-neutral buyer would pay up to $\$75,000$.
 
 (b) At a price of $\$75,000$: Sellers of good cars (value $\$80,000$) would not sell because the
-Price is below their valuation. Only sellers of bad cars (value $\$40,000$) would sell. This means
-Only lemons remain in the market.
+price is below their valuation. Only sellers of bad cars (value $\$40,000$) would sell. This means
+only lemons remain in the market.
 
 (c) **Adverse selection** occurs when asymmetric information leads to the withdrawal of high-quality
 Products from the market. Since buyers cannot distinguish good from bad cars, they offer a price
 Based on the average quality. This price drives out the good cars (whose owners won't sell at that
-Price), leaving only lemons. Buyers then realise only lemons remain and lower their offer price
+price), leaving only lemons. Buyers then realise only lemons remain and lower their offer price
 Further. In the extreme, the market can collapse entirely -- a result known as the "market for
-Lemons" (Akerlof, 1970). Solutions include: warranties/s guarantees (signalling), third-party
+lemons" (Akerlof, 1970). Solutions include: warranties/s guarantees (signalling), third-party
 Inspections, certification programmes, and reputation systems.
 
 ---
@@ -125,10 +125,10 @@ Inspections, certification programmes, and reputation systems.
 
 **Question:** The market for electricity has demand $P = 200 - Q$ and supply $P = 40 + Q$ (in cents
 Per kWh). Electricity generation produces pollution with marginal external cost $MEC = 20$. (a)
-Calculate the free market equilibrium. (b) Calculate the socially optimal quantity. (c) If the
-Government imposes a Pigouvian tax, calculate: the tax per unit, the new equilibrium, tax revenue,
+calculate the free market equilibrium. (b) Calculate the socially optimal quantity. (c) If the
+government imposes a Pigouvian tax, calculate: the tax per unit, the new equilibrium, tax revenue,
 Deadweight loss reduction, and the tax incidence on consumers vs producers. (d) If demand becomes
-More inelastic (shifts to $P = 200 - 0.5Q$), how does this change the tax incidence?
+more inelastic (shifts to $P = 200 - 0.5Q$), how does this change the tax incidence?
 
 **Solution:**
 
@@ -143,7 +143,7 @@ $Q = 70$$P_b = \$1.30$, $P_s = \$1.10$.
 Tax revenue $= 20 \times 70 = 1400$ cents $= \$14$.
 
 DWL without tax $= \frac{1}{2} \times 20 \times (80 - 70) = \$100$ cents. With the tax, DWL from
-Externality is eliminated. Total DWL $= 0$ (the tax perfectly corrects the externality).
+externality is eliminated. Total DWL $= 0$ (the tax perfectly corrects the externality).
 
 Tax incidence: Consumer burden $= 130 - 120 = 10$ cents (50%). Producer burden $= 120 - 110 = 10$
 Cents (50%).
@@ -156,15 +156,15 @@ Post-tax: $200 - 0.5Q = 60 + Q$$1.5Q = 140$$Q_t = 93.33$$P_b = 153.33$$P_s = 133
 Consumer burden $= 153.33 - 146.67 = 6.67$ (33%). Producer burden $= 146.67 - 133.33 = 13.33$ (67%).
 
 With more inelastic demand, producers bear a larger share of the tax burden. This is because
-Consumers are less responsive to price changes, so producers cannot pass the full tax onto them.
+consumers are less responsive to price changes, so producers cannot pass the full tax onto them.
 
 ### IT-2: Government Regulation and Market Failure (with Market Structure)
 
 **Question:** A monopoly water company has $TC = 200 + 5Q$ and faces demand $P = 50 - 0.5Q$. The
 Government is considering three regulatory options: (a) marginal cost pricing, (b) average cost
 Pricing, or (c) a price cap. (a) Calculate the profit-maximising monopoly outcome. (b) Calculate the
-Outcome under each regulatory option. (c) Which option eliminates deadweight loss? Which ensures the
-Firm breaks even? (d) What problem might arise with marginal cost pricing in practice?
+outcome under each regulatory option. (c) Which option eliminates deadweight loss? Which ensures the
+firm breaks even? (d) What problem might arise with marginal cost pricing in practice?
 
 **Solution:**
 
@@ -185,22 +185,22 @@ Producing $Q = 80$.
 
 (c) Marginal cost pricing eliminates DWL (achieves allocative efficiency). Average cost pricing
 Ensures the firm breaks even (zero economic profit). Price caps can achieve something in between
-Depending on the cap level.
+depending on the cap level.
 
 (d) With marginal cost pricing, the firm makes a loss equal to its fixed costs (\$200). In the long
 Run, the firm would exit the market unless subsidised. This creates a dependency on government
 Subsidy, which may be politically costly. This is the "natural monopoly dilemma" -- the technology
-That creates natural monopoly (high fixed costs, low marginal costs) also makes marginal cost
+that creates natural monopoly (high fixed costs, low marginal costs) also makes marginal cost
 Pricing unsustainable without subsidy.
 
 ### IT-3: Multiple Externalities and Policy Design (with Government Policy)
 
 **Question:** A city has two sources of pollution: factories (negative production externality) and
-Driving (negative consumption externality). Factory output $Q_f$: MPC $= 30 + Q_f$MEC $= 0.5Q_f$
-Demand $P_f = 100 - Q_f$. Driving $Q_d$: MPB $= 60 - 0.5Q_d$MEC $= 0.3Q_d$Private MC of driving
+Driving (negative consumption externality). Factory output $Q_f$: MPC $= 30 + Q_f$ MEC $= 0.5Q_f$
+Demand $P_f = 100 - Q_f$. Driving $Q_d$: MPB $= 60 - 0.5Q_d$ MEC $= 0.3Q_d$ Private MC of driving
 $= 10$. (a) Calculate the free market equilibrium for each activity. (b) Calculate the socially
 Optimal levels. (c) If the government has a budget constraint and can only tax one activity, which
-Should it tax first? Justify using DWL calculations.
+should it tax first? Justify using DWL calculations.
 
 **Solution:**
 
@@ -218,18 +218,7 @@ $\frac{1}{2} \times 0.3(100) \times (100 - 62.5) = \frac{1}{2} \times 30 \times 
 
 The government should tax driving first because the DWL from overconsumption of driving (\$562.50)
 Is far larger than from factory overproduction (\$61.25). This demonstrates that the government
-Should prioritise correcting the largest market failures first when resources are limited.
-
-
-```mermaid
-flowchart TD
-    A[Diag Market Failure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+should prioritise correcting the largest market failures first when resources are limited.
 
 ## Intuition
 
@@ -244,7 +233,7 @@ flowchart TD
 ### EQ-1: Positive Externalities and Education Subsidy
 
 **Question:** The market for university education has demand $P = 200 - 0.5Q$ and supply
-$P = 40 + Q$Where $P$ is in thousands of HKD and $Q$ is in thousands of students. University
+$P = 40 + Q$ Where $P$ is in thousands of HKD and $Q$ is in thousands of students. University
 education generates positive externalities (a more educated workforce, lower crime rates, better
 civic participation) with a constant marginal external benefit of $MEB = 30$. (a) Calculate the
 market equilibrium quantity and price. (b) Calculate the socially optimal quantity and price. (c)
@@ -265,7 +254,7 @@ receive (from supply curve): $P_s = 40 + 126.67 = \$166.67$.
 (c) The Pigouvian subsidy $= MEB = 30$ (thousand HKD per student).
 
 Verification: With subsidy of 30, the effective demand becomes
-$P + 30 = 200 - 0.5Q + 30 = 230 - 0.5Q$. Set equal to supply: $230 - 0.5Q = 40 + Q$Which gives
+$P + 30 = 200 - 0.5Q + 30 = 230 - 0.5Q$. Set equal to supply: $230 - 0.5Q = 40 + Q$ Which gives
 $Q = 126.67 = Q^*$. The subsidy works.
 
 Alternatively, the subsidy should equal the MEB at the optimal quantity: $MEB = 30$ (constant), so
@@ -273,7 +262,9 @@ the subsidy is 30 regardless of the quantity.
 
 (d) DWL of underconsumption:
 
-$$DWL = \frac{1}{2} \times MEB \times (Q^* - Q_m) = \frac{1}{2} \times 30 \times (126.67 - 106.67) = \frac{1}{2} \times 30 \times 20 = 300$$
+$$
+DWL = \frac{1}{2} \times MEB \times (Q^* - Q_m) = \frac{1}{2} \times 30 \times (126.67 - 106.67) = \frac{1}{2} \times 30 \times 20 = 300
+$$
 
 The DWL is $\$300$ thousand (or $\$300,000$ in absolute terms). This represents the net social
 benefit that is forgone because the market produces too few university graduates.
@@ -307,7 +298,9 @@ $Q = (80 - 56)/0.2 = 120 = Q^*$.
 
 (d) DWL without the charge:
 
-$$DWL = \frac{1}{2} \times MEC_{at Q_m} \times (Q_m - Q^*) = \frac{1}{2} \times 0.3(300) \times (300 - 120) = \frac{1}{2} \times 90 \times 180 = \text{HK}\$8\,100$$
+$$
+DWL = \frac{1}{2} \times MEC_{at Q_m} \times (Q_m - Q^*) = \frac{1}{2} \times 0.3(300) \times (300 - 120) = \frac{1}{2} \times 90 \times 180 = \text{HK}\$8\,100
+$$
 
 (thousands, i.e., HK$8.1 million per hour).
 
@@ -377,7 +370,7 @@ not allow reallocation to more efficient fishers (unless licences are also trade
 
 **Question:** In the market for health insurance, individuals know their own health status but
 insurance companies do not. There are two types of individuals: healthy (probability of illness
-$= 0.1$Medical cost if ill $= \$100\,000$) and unhealthy (probability of illness $= 0.5$, medical
+$= 0.1$ Medical cost if ill $= \$100\,000$) and unhealthy (probability of illness $= 0.5$, medical
 cost if ill $= \$100\,000$). The population is 60% healthy and 40% unhealthy. Each individual has
 income of $\$200\,000$ and utility $U = \sqrt{W}$ where $W$ is wealth. (a) Calculate the actuarially
 fair premium for each type. (b) If the insurer cannot distinguish between types and must offer a
@@ -432,7 +425,9 @@ project. (b) Calculate the benefit-cost ratio. (c) Should the government proceed
 
 Present value of benefits (40-year annuity at 4%):
 
-$$PV = \frac{C}{r}\left(1 - \frac{1}{(1+r)^n}\right) = \frac{13}{0.04}\left(1 - \frac{1}{(1.04)^{40}}\right)$$
+$$
+PV = \frac{C}{r}\left(1 - \frac{1}{(1+r)^n}\right) = \frac{13}{0.04}\left(1 - \frac{1}{(1.04)^{40}}\right)
+$$
 
 $(1.04)^{40} = 4.8010$. $PV = 325 \times (1 - 0.2083) = 325 \times 0.7917 = \text{HK}\$257.3$
 billion.
@@ -453,7 +448,7 @@ the project generates HK$1.72 of benefits for every HK$1 of cost. The government
    environmental benefit (reduced road traffic) must be weighed against the construction impact.
    Tunnelling may affect groundwater and heritage sites.
 3. **Strategic planning:** The line may unlock development potential in new areas (e.g., the
-   Northern Metropolis), generating agglomeration economies and land value capture. These dynamic
+   northern Metropolis), generating agglomeration economies and land value capture. These dynamic
    effects are difficult to quantify but may be substantial.
 4. **Contingent liabilities:** Cost overruns are common in large infrastructure projects (Hong
    Kong's Express Rail Link exceeded its budget significantly). The government must account for the
@@ -462,7 +457,7 @@ the project generates HK$1.72 of benefits for every HK$1 of cost. The government
 ## Common Pitfalls
 
 1. **Confusing the Pigouvian tax rate with the tax revenue:** The optimal Pigouvian tax equals the
-   marginal external cost at the _optimal_ quantity ($Q^*$), not at the market quantity ($Q_m$). Tax
+   marginal external cost at the _optimal_ quantity ($Q^*$), not at the market quantity ($ Q_m$). Tax
    revenue equals the tax rate multiplied by the _post-tax_ quantity. These are different because
    the tax changes the quantity.
 

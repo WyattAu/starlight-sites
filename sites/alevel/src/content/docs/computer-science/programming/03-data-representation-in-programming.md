@@ -26,6 +26,8 @@ categories:
 
 Programming languages provide integer types of various sizes:
 
+<div class="table-wrap">
+
 | Type  | Size    | Range (signed)        | Range (unsigned) |
 | ----- | ------- | --------------------- | ---------------- |
 | byte  | 8 bits  | $[-128, 127]$         | $[0, 255]$       |
@@ -33,8 +35,10 @@ Programming languages provide integer types of various sizes:
 | int   | 32 bits | $[-2^{31}, 2^{31}-1]$ | $[0, 2^{32}-1]$  |
 | long  | 64 bits | $[-2^{63}, 2^{63}-1]$ | $[0, 2^{64}-1]$  |
 
+</div>
+
 Python integers have arbitrary precision, they grow to accommodate any value, limited only by
-Available memory.
+available memory.
 
 ### Floating-Point Representation
 
@@ -78,7 +82,7 @@ int *ptr = &x;    // ptr stores the address of x
 *ptr = 10;        // dereference: change x to 10
 ```
 
-### Python"s Model: References, Not Pointers
+### Python's Model: References, Not Pointers
 
 Python does not have explicit pointers. Variables are **references** to objects in memory.
 
@@ -91,12 +95,16 @@ print(a)    # [99, 2, 3], a is also modified!
 
 **Key distinction:**
 
+<div class="table-wrap">
+
 | Operation                           | Effect                                 |
 | ----------------------------------- | -------------------------------------- |
 | `b = a`                             | `b` references the same object as `a`  |
 | `b = a.copy()`                      | `b` references a new, independent copy |
 | `b = list(a)`                       | Same as `a.copy()`                     |
 | `import copy; b = copy.deepcopy(a)` | Deep copy (copies nested objects)      |
+
+</div>
 
 ### Aliasing
 
@@ -123,6 +131,8 @@ Codes (e.g., UTF-8 or UTF-16).
 
 ### String Operations and Complexity
 
+<div class="table-wrap">
+
 | Operation        | Python method  | Time                              |
 | ---------------- | -------------- | --------------------------------- |
 | Access character | `s[i]`         | $O(1)$                            |
@@ -131,6 +141,8 @@ Codes (e.g., UTF-8 or UTF-16).
 | Substring search | `s1 in s2`     | $O(nm)$ naive, $O(n+m)$ optimized |
 | Split            | `s.split(sep)` | $O(n)$                            |
 | Slice            | `s[a:b]`       | $O(b-a)$                          |
+
+</div>
 
 :::caution
 `s[0] = 'x'` raises a `TypeError`. Use `s = 'x' + s[1:]` to create a new string.
@@ -148,7 +160,7 @@ Strings are immutable for several reasons:
 :::note
 (pixels, colour depth, resolution), sound sampling (sample rate, bit depth). **CIE (9618)** covers
 Similar topics but may emphasise different aspects; requires understanding of file sizes and
-Capacity calculations. **OCR (A)** requires character encoding, image representation, and sound
+capacity calculations. **OCR (A)** requires character encoding, image representation, and sound
 Representation with specific detail on compression (lossy vs lossless). **Edexcel** covers data
 Representation fundamentals including number systems and character encoding.
 :::
@@ -159,12 +171,16 @@ Representation fundamentals including number systems and character encoding.
 
 ### File Modes
 
+<div class="table-wrap">
+
 | Mode   | Description  | Creates? | Truncates? |
 | ------ | ------------ | -------- | ---------- |
 | `'r'`  | Read         | No       | No         |
 | `'w'`  | Write        | Yes      | Yes        |
 | `'a'`  | Append       | Yes      | No         |
 | `'r+'` | Read + Write | No       | No         |
+
+</div>
 
 ### Reading Files
 
@@ -291,8 +307,8 @@ Representation of 0.1?
 
 $0.1$ in binary: $0.1_{10} = 0.0001100110011\ldots_2$ (repeating). This cannot be represented
 Exactly in a finite number of binary digits. The IEEE 754 double-precision representation stores an
-Approximation, which introduces a small rounding error. When $0.1$ and $0.2$ (both approximations)
-Are added, the result is $0.30000000000000004$Not exactly $0.3$.
+approximation, which introduces a small rounding error. When $0.1$ and $0.2$ (both approximations)
+Are added, the result is $0.30000000000000004$ Not exactly $0.3$.
 
 Solution: use `abs(a - b) < 1e-9` for comparison, or use the `decimal` module for exact decimal
 Arithmetic.
@@ -427,7 +443,7 @@ s = "".join(str(i) for i in range(1000))
 
 **Problem 7.** A bitmap image has a resolution of $1920 \times 1080$ pixels and uses 24-bit colour
 Depth. Calculate the uncompressed file size in MB (using $1 \mathrm{ MB} = 1024^2$ bytes). If
-Lossless compression achieves a 3:1 ratio, what is the compressed file size in MB?
+lossless compression achieves a 3:1 ratio, what is the compressed file size in MB?
 
 <details>
 <summary>Answer</summary>
@@ -471,7 +487,7 @@ $\mathrm{File size} = 31,752,000 \div 1024^2 \approx 30.28 \mathrm{ MB}$
 
 **Problem 9.** A text file contains the string `"Hello, 世界!"` (9 characters). ASCII uses 7 bits
 Per character. UTF-8 uses 1 byte for ASCII characters and 3 bytes for CJK characters. Calculate the
-Storage required in bytes for both encodings. Why is Unicode necessary?
+storage required in bytes for both encodings. Why is Unicode necessary?
 
 <details>
 <summary>Answer</summary>
@@ -479,9 +495,11 @@ Storage required in bytes for both encodings. Why is Unicode necessary?
 **ASCII:** ASCII can only represent 128 characters (0–127) and cannot encode `"世界"`. The ASCII
 Encoding would either produce an error or replace each CJK character with a placeholder (e.g., `?`).
 If we consider only the encodable characters (`"Hello, !"`), that is 7 characters at 1 byte each = 7
-Bytes. The CJK characters cannot be stored.
+bytes. The CJK characters cannot be stored.
 
 **UTF-8:**
+
+<div class="table-wrap">
 
 | Character                                 | Bytes                 |
 | ----------------------------------------- | --------------------- |
@@ -489,20 +507,22 @@ Bytes. The CJK characters cannot be stored.
 | 世                                        | 3 bytes               |
 | 界                                        | 3 bytes               |
 
+</div>
+
 $\mathrm{Total} = 8 + 3 + 3 = 14 \mathrm{ bytes}$
 
 **Why Unicode is needed:** ASCII only defines 128 characters, covering basic Latin letters, digits,
 And symbols. It cannot represent characters from other scripts (Chinese, Arabic, Cyrillic, etc.),
 Mathematical symbols, or emoji. Unicode provides a universal character set of over 149,000
-Characters across 161 scripts, ensuring every character in every language can be uniquely encoded.
+characters across 161 scripts, ensuring every character in every language can be uniquely encoded.
 UTF-8 is backwards compatible with ASCII, so existing ASCII text works without modification while
-Gaining support for all other scripts.
+gaining support for all other scripts.
 
 </details>
 
 **Problem 10.** A system stores 1000 images at 4K resolution ($3840 \times 2160$) with 32-bit colour
 Depth. Calculate the total storage required in GB (using $1 \mathrm{ GB} = 1024^3$ bytes). If
-Lossless compression achieves a 2:1 ratio, what is the compressed total size in GB?
+lossless compression achieves a 2:1 ratio, what is the compressed total size in GB?
 
 <details>
 <summary>Answer</summary>
@@ -557,26 +577,9 @@ For revision on number representation, see
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[03 Data Representation In Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

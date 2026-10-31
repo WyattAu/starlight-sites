@@ -20,23 +20,15 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[09 Vectors In 3D] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Vectors in 3D
 
 This chapter extends the study of vectors from A Level Mathematics into three dimensions,
 Introducing the vector (cross) product, equations of planes, and the scalar triple product. These
-Tools are essential for geometry, mechanics, and physics at university level.
+tools are essential for geometry, mechanics, and physics at university level.
 
 ### Board Coverage
+
+<div class="table-wrap">
 
 | Board   | Paper   | Notes                                                                     |
 | ------- | ------- | ------------------------------------------------------------------------- |
@@ -45,9 +37,11 @@ Tools are essential for geometry, mechanics, and physics at university level.
 | OCR (A) | Paper 1 | 3D vectors, scalar product, vector product, planes                        |
 | CIE     | P1      | 3D vectors, scalar product, vector product, lines, planes, intersections  |
 
+</div>
+
 :::note
 Scalar triple product for volumes. CIE places particular emphasis on intersections of lines and
-Planes.
+planes.
 :::
 
 <hr />
@@ -55,7 +49,7 @@ Planes.
 ## 1. Review of A Level Vectors
 
 A vector has magnitude and direction. In 2D, $\mathbf{a} = \begin{pmatrix}a_1\\a_2\end{pmatrix}$ has
-Magnitude $|\mathbf{a}| = \sqrt{a_1^2 + a_2^2}$.
+magnitude $|\mathbf{a}| = \sqrt{a_1^2 + a_2^2}$.
 
 Key results from A Level:
 
@@ -73,7 +67,9 @@ This chapter extends all of these ideas into three dimensions and introduces new
 
 A vector in 3D is written as a column vector or in component form:
 
-$$\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix} = a_1\mathbf{i} + a_2\mathbf{j} + a_3\mathbf{k}$$
+$$
+\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix} = a_1\mathbf{i} + a_2\mathbf{j} + a_3\mathbf{k}
+$$
 
 Where $\mathbf{i}$$\mathbf{j}$$\mathbf{k}$ are unit vectors along the $x$-, $y$-, $z$-axes.
 
@@ -81,19 +77,25 @@ Where $\mathbf{i}$$\mathbf{j}$$\mathbf{k}$ are unit vectors along the $x$-, $y$-
 
 **Definition.** The **position vector** of a point $P(x,y,z)$ relative to origin $O$ is
 
-$$\overrightarrow{OP} = \begin{pmatrix}x\\y\\z\end{pmatrix}$$
+$$
+\overrightarrow{OP} = \begin{pmatrix}x\\y\\z\end{pmatrix}
+$$
 
 The **displacement** from $A$ to $B$ is $\overrightarrow{AB} = \mathbf{b} - \mathbf{a}$.
 
 ### 2.3 Magnitude
 
-$$|\mathbf{a}| = \sqrt{a_1^2 + a_2^2 + a_3^2}$$
+$$
+|\mathbf{a}| = \sqrt{a_1^2 + a_2^2 + a_3^2}
+$$
 
 ### 2.4 Direction cosines
 
 **Definition.** The **direction cosines** of $\mathbf{a}$ are
 
-$$\cos\alpha = \frac{a_1}{|\mathbf{a}|}, \quad \cos\beta = \frac{a_2}{|\mathbf{a}|}, \quad \cos\gamma = \frac{a_3}{|\mathbf{a}|}$$
+$$
+\cos\alpha = \frac{a_1}{|\mathbf{a}|}, \quad \cos\beta = \frac{a_2}{|\mathbf{a}|}, \quad \cos\gamma = \frac{a_3}{|\mathbf{a}|}
+$$
 
 Where $\alpha$, $\beta$, $\gamma$ are the angles $\mathbf{a}$ makes with the $x$-, $y$-, $z$-axes.
 
@@ -107,11 +109,15 @@ $\cos^2\alpha + \cos^2\beta + \cos^2\gamma = 1$.
 
 **Definition.** The scalar (dot) product of $\mathbf{a}$ and $\mathbf{b}$ in 3D is
 
-$$\boxed{\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3}$$
+$$
+\boxed{\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3}
+$$
 
 ### 3.2 Geometric interpretation
 
-$$\boxed{\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta}$$
+$$
+\boxed{\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta}
+$$
 
 Where $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b}$.
 
@@ -133,39 +139,53 @@ Where $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b}$.
 $\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ and
 $\mathbf{b} = \begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$ is
 
-$$\boxed{\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3 - a_3b_2\\a_3b_1 - a_1b_3\\a_1b_2 - a_2b_1\end{pmatrix}}$$
+$$
+\boxed{\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3 - a_3b_2\\a_3b_1 - a_1b_3\\a_1b_2 - a_2b_1\end{pmatrix}}
+$$
 
 ### 4.2 Determinant form
 
 The cross product can be computed using a symbolic determinant:
 
-$$\mathbf{a}\times\mathbf{b} = \begin{vmatrix}\mathbf{i} & \mathbf{j} & \mathbf{k}\\a_1 & a_2 & a_3\\b_1 & b_2 & b_3\end{vmatrix}$$
+$$
+\mathbf{a}\times\mathbf{b} = \begin{vmatrix}\mathbf{i} & \mathbf{j} & \mathbf{k}\\a_1 & a_2 & a_3\\b_1 & b_2 & b_3\end{vmatrix}
+$$
 
 ### 4.3 Geometric interpretation
 
-**Theorem.** $|\mathbf{a}\times\mathbf{b}| = |\mathbf{a}||\mathbf{b}|\sin\theta$Where $\theta$ is
+**Theorem.** $|\mathbf{a}\times\mathbf{b}| = |\mathbf{a}||\mathbf{b}|\sin\theta$ Where $\theta$ is
 The angle between $\mathbf{a}$ and $\mathbf{b}$.
 
 ### Proof that the cross product magnitude equals the area of the parallelogram
 
 Consider the parallelogram with adjacent sides $\mathbf{a}$ and $\mathbf{b}$.
 
-$$|\mathbf{a}\times\mathbf{b}|^2 = (a_2b_3 - a_3b_2)^2 + (a_3b_1 - a_1b_3)^2 + (a_1b_2 - a_2b_1)^2$$
+$$
+|\mathbf{a}\times\mathbf{b}|^2 = (a_2b_3 - a_3b_2)^2 + (a_3b_1 - a_1b_3)^2 + (a_1b_2 - a_2b_1)^2
+$$
 
 Expanding and collecting terms:
 
-$$|\mathbf{a}\times\mathbf{b}|^2 = (a_1^2+a_2^2+a_3^2)(b_1^2+b_2^2+b_3^2) - (a_1b_1+a_2b_2+a_3b_3)^2$$
+$$
+|\mathbf{a}\times\mathbf{b}|^2 = (a_1^2+a_2^2+a_3^2)(b_1^2+b_2^2+b_3^2) - (a_1b_1+a_2b_2+a_3b_3)^2
+$$
 
-$$= |\mathbf{a}|^2|\mathbf{b}|^2 - (\mathbf{a}\cdot\mathbf{b})^2$$
+$$
+= |\mathbf{a}|^2|\mathbf{b}|^2 - (\mathbf{a}\cdot\mathbf{b})^2
+$$
 
 Since $\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta$:
 
-$$|\mathbf{a}\times\mathbf{b}|^2 = |\mathbf{a}|^2|\mathbf{b}|^2(1 - \cos^2\theta) = |\mathbf{a}|^2|\mathbf{b}|^2\sin^2\theta$$
+$$
+|\mathbf{a}\times\mathbf{b}|^2 = |\mathbf{a}|^2|\mathbf{b}|^2(1 - \cos^2\theta) = |\mathbf{a}|^2|\mathbf{b}|^2\sin^2\theta
+$$
 
-$$|\mathbf{a}\times\mathbf{b}| = |\mathbf{a}||\mathbf{b}|\sin\theta$$
+$$
+|\mathbf{a}\times\mathbf{b}| = |\mathbf{a}||\mathbf{b}|\sin\theta
+$$
 
 The area of the parallelogram is base $\times$ height
-$= |\mathbf{a}| \times |\mathbf{b}|\sin\theta$Which equals $|\mathbf{a}\times\mathbf{b}|$. $\square$
+$= |\mathbf{a}| \times |\mathbf{b}|\sin\theta$ Which equals $|\mathbf{a}\times\mathbf{b}|$. $\square$
 
 The cross product $\mathbf{a}\times\mathbf{b}$ is **perpendicular** to both $\mathbf{a}$ and
 $\mathbf{b}$ And its direction is given by the right-hand rule.
@@ -194,18 +214,24 @@ Only defined in 3D.
 **Definition.** The vector equation of a line through point $A$ (position vector $\mathbf{a}$) in
 Direction $\mathbf{d}$ is
 
-$$\boxed{\mathbf{r} = \mathbf{a} + \lambda\mathbf{d}, \quad \lambda \in \mathbb{R}}$$
+$$
+\boxed{\mathbf{r} = \mathbf{a} + \lambda\mathbf{d}, \quad \lambda \in \mathbb{R}}
+$$
 
 ### 5.2 Cartesian form
 
 If $\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ and
-$\mathbf{d} = \begin{pmatrix}d_1\\d_2\\d_3\end{pmatrix}$The parametric equations are:
+$\mathbf{d} = \begin{pmatrix}d_1\\d_2\\d_3\end{pmatrix}$ The parametric equations are:
 
-$$x = a_1 + \lambda d_1, \quad y = a_2 + \lambda d_2, \quad z = a_3 + \lambda d_3$$
+$$
+x = a_1 + \lambda d_1, \quad y = a_2 + \lambda d_2, \quad z = a_3 + \lambda d_3
+$$
 
-When all $d_i \neq 0$The Cartesian (symmetric) form is:
+When all $d_i \neq 0$ The Cartesian (symmetric) form is:
 
-$$\boxed{\frac{x - a_1}{d_1} = \frac{y - a_2}{d_2} = \frac{z - a_3}{d_3}}$$
+$$
+\boxed{\frac{x - a_1}{d_1} = \frac{y - a_2}{d_2} = \frac{z - a_3}{d_3}}
+$$
 
 ### 5.3 Intersection of two lines in 3D
 
@@ -223,7 +249,7 @@ $\mathbf{r}_2 = \mathbf{a}_2 + \mu\mathbf{d}_2$:
 
 **Example.** Find the intersection of
 $\mathbf{r}_1 = \begin{pmatrix}1\\2\\0\end{pmatrix} + \lambda\begin{pmatrix}1\\-1\\2\end{pmatrix}$
-And $\mathbf{r}_2 = \begin{pmatrix}3\\1\\4\end{pmatrix} + \mu\begin{pmatrix}2\\1\\-1\end{pmatrix}$.
+and $\mathbf{r}_2 = \begin{pmatrix}3\\1\\4\end{pmatrix} + \mu\begin{pmatrix}2\\1\\-1\end{pmatrix}$.
 
 Equating: $1+\lambda = 3+2\mu$$2-\lambda = 1+\mu$$2\lambda = 4-\mu$.
 
@@ -241,7 +267,9 @@ Check equation 3: $2(4/3) = 4-(-1/3) \implies 8/3 = 13/3$. **Not consistent**, t
 **Definition.** The equation of a plane with normal vector $\mathbf{n}$ passing through point $A$
 (position vector $\mathbf{a}$) is
 
-$$\boxed{\mathbf{r}\cdot\mathbf{n} = \mathbf{a}\cdot\mathbf{n}}$$
+$$
+\boxed{\mathbf{r}\cdot\mathbf{n} = \mathbf{a}\cdot\mathbf{n}}
+$$
 
 This works because every point $P$ on the plane satisfies $\overrightarrow{AP} \perp \mathbf{n}$
 I.e., $(\mathbf{r} - \mathbf{a})\cdot\mathbf{n} = 0$.
@@ -250,13 +278,17 @@ I.e., $(\mathbf{r} - \mathbf{a})\cdot\mathbf{n} = 0$.
 
 If $\mathbf{n} = \begin{pmatrix}a\\b\\c\end{pmatrix}$ and $\mathbf{a}\cdot\mathbf{n} = d$:
 
-$$\boxed{ax + by + cz = d}$$
+$$
+\boxed{ax + by + cz = d}
+$$
 
 ### 6.3 Finding the normal to a plane
 
 Given three points $A$, $B$, $C$ on the plane, the normal is
 
-$$\mathbf{n} = \overrightarrow{AB} \times \overrightarrow{AC}$$
+$$
+\mathbf{n} = \overrightarrow{AB} \times \overrightarrow{AC}
+$$
 
 **Example.** Find the equation of the plane through $A(1,0,2)$$B(3,1,0)$$C(0,2,1)$.
 
@@ -267,13 +299,17 @@ $\mathbf{n} = \overrightarrow{AB}\times\overrightarrow{AC} = \begin{pmatrix}(1)(
 
 $\mathbf{r}\cdot\mathbf{n} = \mathbf{a}\cdot\mathbf{n} = 1(3)+0(4)+2(5) = 13$.
 
-$$\boxed{3x + 4y + 5z = 13}$$
+$$
+\boxed{3x + 4y + 5z = 13}
+$$
 
 ### 6.4 Angle between two planes
 
 The angle between two planes with normals $\mathbf{n}_1$ and $\mathbf{n}_2$ is
 
-$$\boxed{\cos\theta = \frac{|\mathbf{n}_1\cdot\mathbf{n}_2|}{|\mathbf{n}_1||\mathbf{n}_2|}}$$
+$$
+\boxed{\cos\theta = \frac{|\mathbf{n}_1\cdot\mathbf{n}_2|}{|\mathbf{n}_1||\mathbf{n}_2|}}
+$$
 
 The acute angle is found by taking the absolute value.
 
@@ -282,7 +318,9 @@ The acute angle is found by taking the absolute value.
 The angle $\phi$ between a line with direction $\mathbf{d}$ and a plane with normal $\mathbf{n}$
 Satisfies:
 
-$$\sin\phi = \frac{|\mathbf{d}\cdot\mathbf{n}|}{|\mathbf{d}||\mathbf{n}|}$$
+$$
+\sin\phi = \frac{|\mathbf{d}\cdot\mathbf{n}|}{|\mathbf{d}||\mathbf{n}|}
+$$
 
 Equivalently, if $\alpha$ is the angle between $\mathbf{d}$ and $\mathbf{n}$ Then
 $\phi = 90° - \alpha$.
@@ -303,26 +341,34 @@ To find the line of intersection of $a_1 x + b_1 y + c_1 z = d_1$ and $a_2 x + b
 **Theorem.** The perpendicular distance from point $P$ with position vector $\mathbf{p}$ to the
 Plane $\mathbf{r}\cdot\mathbf{n} = d$ is
 
-$$\boxed{D = \frac{|\mathbf{p}\cdot\mathbf{n} - d|}{|\mathbf{n}|}}$$
+$$
+\boxed{D = \frac{|\mathbf{p}\cdot\mathbf{n} - d|}{|\mathbf{n}|}}
+$$
 
 In Cartesian form, for plane $ax + by + cz = d$ and point $(x_0, y_0, z_0)$:
 
-$$\boxed{D = \frac{|ax_0 + by_0 + cz_0 - d|}{\sqrt{a^2+b^2+c^2}}}$$
+$$
+\boxed{D = \frac{|ax_0 + by_0 + cz_0 - d|}{\sqrt{a^2+b^2+c^2}}}
+$$
 
 ### Proof of the distance formula
 
 Let the plane have equation $\mathbf{r}\cdot\hat{\mathbf{n}} = p$ where $\hat{\mathbf{n}}$ is a unit
 Normal and $p$ is the perpendicular distance from the origin to the plane.
 
-For any point $P$ with position vector $\mathbf{p}$The distance from $P$ to the plane is the
-Magnitude of the projection of $\mathbf{p}$ onto $\hat{\mathbf{n}}$Minus $p$:
+For any point $P$ with position vector $\mathbf{p}$ The distance from $P$ to the plane is the
+magnitude of the projection of $\mathbf{p}$ onto $\hat{\mathbf{n}}$ Minus $p$:
 
-$$D = |\mathbf{p}\cdot\hat{\mathbf{n}} - p|$$
+$$
+D = |\mathbf{p}\cdot\hat{\mathbf{n}} - p|
+$$
 
 If the plane is given as $\mathbf{r}\cdot\mathbf{n} = d$ (where $\mathbf{n}$ is not necessarily a
-Unit vector), then $\hat{\mathbf{n}} = \mathbf{n}/|\mathbf{n}|$ and $p = d/|\mathbf{n}|$:
+unit vector), then $\hat{\mathbf{n}} = \mathbf{n}/|\mathbf{n}|$ and $p = d/|\mathbf{n}|$:
 
-$$D = \left|\mathbf{p}\cdot\frac{\mathbf{n}}{|\mathbf{n}|} - \frac{d}{|\mathbf{n}|}\right| = \frac{|\mathbf{p}\cdot\mathbf{n} - d|}{|\mathbf{n}|}$$
+$$
+D = \left|\mathbf{p}\cdot\frac{\mathbf{n}}{|\mathbf{n}|} - \frac{d}{|\mathbf{n}|}\right| = \frac{|\mathbf{p}\cdot\mathbf{n} - d|}{|\mathbf{n}|}
+$$
 
 $\square$
 
@@ -338,11 +384,15 @@ $D = \dfrac{|2(1)-1(2)+2(3)-5|}{\sqrt{4+1+4}} = \dfrac{|2-2+6-5|}{3} = \dfrac{1}
 
 **Definition.** The **scalar triple product** of vectors $\mathbf{a}$$\mathbf{b}$$\mathbf{c}$ is
 
-$$\boxed{[\mathbf{a}\,\mathbf{b}\,\mathbf{c}] = \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})}$$
+$$
+\boxed{[\mathbf{a}\,\mathbf{b}\,\mathbf{c}] = \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})}
+$$
 
 In component form:
 
-$$\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c}) = \begin{vmatrix}a_1 & a_2 & a_3\\b_1 & b_2 & b_3\\c_1 & c_2 & c_3\end{vmatrix}$$
+$$
+\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c}) = \begin{vmatrix}a_1 & a_2 & a_3\\b_1 & b_2 & b_3\\c_1 & c_2 & c_3\end{vmatrix}
+$$
 
 ### 8.2 Geometric interpretation
 
@@ -354,15 +404,21 @@ $|\mathbf{b}\times\mathbf{c}|$ (from Section 4.3).
 The height is the component of $\mathbf{a}$ perpendicular to the base, which is the projection of
 $\mathbf{a}$ onto the direction of $\mathbf{b}\times\mathbf{c}$:
 
-$$\mathrm{height} = |\mathbf{a}|\cos\phi = \frac{\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})}{|\mathbf{b}\times\mathbf{c}|}$$
+$$
+\mathrm{height} = |\mathbf{a}|\cos\phi = \frac{\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})}{|\mathbf{b}\times\mathbf{c}|}
+$$
 
 Where $\phi$ is the angle between $\mathbf{a}$ and $\mathbf{b}\times\mathbf{c}$.
 
-$$V = \mathrm{base} \times \mathrm{height} = |\mathbf{b}\times\mathbf{c}| \cdot \frac{\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})}{|\mathbf{b}\times\mathbf{c}|} = \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})$$
+$$
+V = \mathrm{base} \times \mathrm{height} = |\mathbf{b}\times\mathbf{c}| \cdot \frac{\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})}{|\mathbf{b}\times\mathbf{c}|} = \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})
+$$
 
 Taking the absolute value to get a positive volume:
 
-$$\boxed{V = |\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})|}$$
+$$
+\boxed{V = |\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})|}
+$$
 
 $\square$
 
@@ -385,26 +441,32 @@ $\overrightarrow{AB}\cdot(\overrightarrow{AC}\times\overrightarrow{AD}) = 0$.
 The shortest distance between two skew lines $\mathbf{r}_1 = \mathbf{a}_1 + \lambda\mathbf{d}_1$ and
 $\mathbf{r}_2 = \mathbf{a}_2 + \mu\mathbf{d}_2$ is
 
-$$\boxed{D = \frac{|(\mathbf{a}_2 - \mathbf{a}_1)\cdot(\mathbf{d}_1\times\mathbf{d}_2)|}{|\mathbf{d}_1\times\mathbf{d}_2|}}$$
+$$
+\boxed{D = \frac{|(\mathbf{a}_2 - \mathbf{a}_1)\cdot(\mathbf{d}_1\times\mathbf{d}_2)|}{|\mathbf{d}_1\times\mathbf{d}_2|}}
+$$
 
 **Intuition.** The shortest distance is measured along the common perpendicular. The direction of
 The common perpendicular is $\mathbf{d}_1 \times \mathbf{d}_2$. The formula projects the vector
-Between any point on each line onto this perpendicular direction.
+between any point on each line onto this perpendicular direction.
 
 <hr />
 
 ## 10. Key Results Summary
 
+<div class="table-wrap">
+
 | Quantity              | Formula                                                                                                |
-| --------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | -------- | -------------------------------- | ----------- |
-| Dot product           | $\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3 =                                                | \mathbf{a}                                                           |          | \mathbf{b}                       | \cos\theta$ |
+| --------------------- | ------------------------------------------------------------------------------------------------------ |
+| Dot product           | $\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3 =                                                \| \mathbf{a}                                                           \|          \| \mathbf{b}                       \| \cos\theta$ |
 | Cross product         | $\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$ |
 | Line                  | $\mathbf{r} = \mathbf{a} + \lambda\mathbf{d}$                                                          |
 | Plane (vector)        | $\mathbf{r}\cdot\mathbf{n} = d$                                                                        |
 | Plane (Cartesian)     | $ax + by + cz = d$                                                                                     |
-| Point-plane distance  | $D = \dfrac{                                                                                        | \mathbf{p}\cdot\mathbf{n} - d                                        | }{ | \mathbf{n}                       | }$       |
-| Parallelepiped volume | $V =                                                                                                   | \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})                          | $        |
-| Skew line distance    | $D = \dfrac{                                                                                        | (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) | }{ | \mathbf{d}\_1\times\mathbf{d}\_2 | }$       |
+| Point-plane distance  | $D = \dfrac{                                                                                        \| \mathbf{p}\cdot\mathbf{n} - d                                        \| }{ \| \mathbf{n}                       \| }$       |
+| Parallelepiped volume | $V =                                                                                                   \| \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})                          \| $        |
+| Skew line distance    | $D = \dfrac{                                                                                        \| (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) \| }{ \| \mathbf{d}\_1\times\mathbf{d}\_2 \| }$       |
+
+</div>
 
 <hr />
 
@@ -414,7 +476,7 @@ Between any point on each line onto this perpendicular direction.
 <summary>Problem 1</summary>
 
 Given $\mathbf{a} = \begin{pmatrix}2\\-1\\3\end{pmatrix}$ and
-$\mathbf{b} = \begin{pmatrix}1\\4\\-2\end{pmatrix}$Find $\mathbf{a}\times\mathbf{b}$ and verify That
+$\mathbf{b} = \begin{pmatrix}1\\4\\-2\end{pmatrix}$ Find $\mathbf{a}\times\mathbf{b}$ and verify That
 it is perpendicular to both $\mathbf{a}$ and $\mathbf{b}$.
 
 </details>
@@ -422,7 +484,9 @@ it is perpendicular to both $\mathbf{a}$ and $\mathbf{b}$.
 <details>
 <summary>Solution 1</summary>
 
-$$\mathbf{a}\times\mathbf{b} = \begin{pmatrix}(-1)(-2)-(3)(4)\\(3)(1)-(2)(-2)\\(2)(4)-(-1)(1)\end{pmatrix} = \begin{pmatrix}2-12\\3+4\\8+1\end{pmatrix} = \begin{pmatrix}-10\\7\\9\end{pmatrix}$$
+$$
+\mathbf{a}\times\mathbf{b} = \begin{pmatrix}(-1)(-2)-(3)(4)\\(3)(1)-(2)(-2)\\(2)(4)-(-1)(1)\end{pmatrix} = \begin{pmatrix}2-12\\3+4\\8+1\end{pmatrix} = \begin{pmatrix}-10\\7\\9\end{pmatrix}
+$$
 
 Verify: $\mathbf{a}\cdot(\mathbf{a}\times\mathbf{b}) = 2(-10)+(-1)(7)+3(9) = -20-7+27 = 0$. ✓
 
@@ -481,7 +545,7 @@ $\boxed{D = 1}$.
 
 Find the shortest distance between the skew lines
 $\mathbf{r}_1 = \begin{pmatrix}0\\1\\-1\end{pmatrix} + \lambda\begin{pmatrix}1\\0\\2\end{pmatrix}$
-And $\mathbf{r}_2 = \begin{pmatrix}1\\0\\2\end{pmatrix} + \mu\begin{pmatrix}0\\1\\-1\end{pmatrix}$.
+and $\mathbf{r}_2 = \begin{pmatrix}1\\0\\2\end{pmatrix} + \mu\begin{pmatrix}0\\1\\-1\end{pmatrix}$.
 
 </details>
 
@@ -603,7 +667,9 @@ Set $z = 0$: $x + y = 6$ and $2x - y = 3$. Adding: $3x = 9 \implies x = 3$$y = 3
 
 Point: $(3, 3, 0)$.
 
-$$\boxed{\mathbf{r} = \begin{pmatrix}3\\3\\0\end{pmatrix} + \lambda\begin{pmatrix}2\\1\\-3\end{pmatrix}}$$
+$$
+\boxed{\mathbf{r} = \begin{pmatrix}3\\3\\0\end{pmatrix} + \lambda\begin{pmatrix}2\\1\\-3\end{pmatrix}}
+$$
 
 **If you get this wrong, revise:** [Line of Intersection](#66-line-of-intersection-of-two-planes),
 Section 6.6.
@@ -615,7 +681,7 @@ Section 6.6.
 
 Find the acute angle between the line
 $\mathbf{r} = \begin{pmatrix}1\\-1\\2\end{pmatrix} + \lambda\begin{pmatrix}3\\1\\-1\end{pmatrix}$
-And the plane $2x - y + 2z = 5$.
+and the plane $2x - y + 2z = 5$.
 
 </details>
 
@@ -639,7 +705,7 @@ $\phi = \arcsin\!\left(\dfrac{1}{\sqrt{11}}\right) \approx \boxed{17.6°}$.
 
 Find the shortest distance between the skew lines
 $\mathbf{r}_1 = \begin{pmatrix}1\\0\\0\end{pmatrix} + \lambda\begin{pmatrix}1\\2\\3\end{pmatrix}$
-And $\mathbf{r}_2 = \begin{pmatrix}0\\1\\0\end{pmatrix} + \mu\begin{pmatrix}2\\3\\4\end{pmatrix}$.
+and $\mathbf{r}_2 = \begin{pmatrix}0\\1\\0\end{pmatrix} + \mu\begin{pmatrix}2\\3\\4\end{pmatrix}$.
 
 </details>
 
@@ -682,20 +748,26 @@ $D = \dfrac{3}{\sqrt{6}} = \dfrac{3\sqrt{6}}{6} = \boxed{\dfrac{\sqrt{6}}{2}}$.
 
 **Solution.** The reflected point $P"$ satisfies:
 
-$$P' = P - 2D\hat{\mathbf{n}}$$
+$$
+P' = P - 2D\hat{\mathbf{n}}
+$$
 
 Where $D = \dfrac{1+2+3-6}{\sqrt{3}} = 0$ and
 $\hat{\mathbf{n}} = \dfrac{1}{\sqrt{3}}(1, 1, 1)$.
 
-Since $D = 0$The point $P$ lies on the plane, so its reflection is itself: $P' = (1, 2, 3)$.
+Since $D = 0$ The point $P$ lies on the plane, so its reflection is itself: $P' = (1, 2, 3)$.
 
 Let me use a point not on the plane. The reflection of $Q(0, 0, 0)$:
 
-$$D = \frac{0 + 0 + 0 - 6}{\sqrt{3}} = -2\sqrt{3}$$
+$$
+D = \frac{0 + 0 + 0 - 6}{\sqrt{3}} = -2\sqrt{3}
+$$
 
-$$Q' = (0, 0, 0) - 2(-2\sqrt{3})\frac{1}{\sqrt{3}}(1, 1, 1) = (0, 0, 0) + 4(1, 1, 1) = (4, 4, 4)$$
+$$
+Q' = (0, 0, 0) - 2(-2\sqrt{3})\frac{1}{\sqrt{3}}(1, 1, 1) = (0, 0, 0) + 4(1, 1, 1) = (4, 4, 4)
+$$
 
-Check: the midpoint of $Q$ and $Q'$ is $(2, 2, 2)$Which satisfies $2+2+2 = 6$. Correct.
+Check: the midpoint of $Q$ and $Q'$ is $(2, 2, 2)$ Which satisfies $2+2+2 = 6$. Correct.
 
 ### Example 11.2: Angle between a line and a plane
 
@@ -704,9 +776,13 @@ The plane $x - 2y + 2z = 5$.
 
 **Solution.** $\mathbf{d} = (3, 0, -1)$$\mathbf{n} = (1, -2, 2)$.
 
-$$\sin\phi = \frac{|\mathbf{d}\cdot\mathbf{n}|}{|\mathbf{d}||\mathbf{n}|} = \frac{|3 + 0 - 2|}{\sqrt{10}\sqrt{9}} = \frac{1}{3\sqrt{10}}$$
+$$
+\sin\phi = \frac{|\mathbf{d}\cdot\mathbf{n}|}{|\mathbf{d}||\mathbf{n}|} = \frac{|3 + 0 - 2|}{\sqrt{10}\sqrt{9}} = \frac{1}{3\sqrt{10}}
+$$
 
-$$\phi = \arcsin\!\left(\frac{1}{3\sqrt{10}}\right) \approx 6.1^\circ$$
+$$
+\phi = \arcsin\!\left(\frac{1}{3\sqrt{10}}\right) \approx 6.1^\circ
+$$
 
 ### Example 11.3: Volume of a tetrahedron using the scalar triple product
 
@@ -716,9 +792,11 @@ $C(0,0,3)$.
 **Solution.** $\overrightarrow{OA} = (1,0,0)$$\overrightarrow{OB} = (0,2,0)$
 $\overrightarrow{OC} = (0,0,3)$.
 
-$$V = |\overrightarrow{OA}\cdot(\overrightarrow{OB}\times\overrightarrow{OC})| = \left|\begin{vmatrix}1&0&0\\0&2&0\\0&0&3\end{vmatrix}\right| = |6| = 6$$
+$$
+V = |\overrightarrow{OA}\cdot(\overrightarrow{OB}\times\overrightarrow{OC})| = \left|\begin{vmatrix}1&0&0\\0&2&0\\0&0&3\end{vmatrix}\right| = |6| = 6
+$$
 
-This equals $\frac{1}{6} \times 1 \times 2 \times 3 = 1$Confirming the standard formula.
+This equals $\frac{1}{6} \times 1 \times 2 \times 3 = 1$ Confirming the standard formula.
 
 ### Example 11.4: Shortest distance using calculus
 
@@ -734,7 +812,7 @@ $\mathbf{d}_1 \times \mathbf{d}_2 = (1\cdot 1 - 0\cdot 1, 0\cdot 0 - 1\cdot 1, 1
 Check intersection: $1+\lambda = 0$ and $1+\lambda = 1+\mu$ and $\lambda = \mu$.
 
 From the first: $\lambda = -1$. From the second: $0 = 1 + (-1) = 0$. From the third: $-1 = -1$.
-Consistent! The lines intersect, so the shortest distance is $0$.
+consistent! The lines intersect, so the shortest distance is $0$.
 
 ### Example 11.5: Finding the equation of a plane from three points
 
@@ -742,11 +820,13 @@ Consistent! The lines intersect, so the shortest distance is $0$.
 
 **Solution.** $\overrightarrow{PQ} = (1, -1, 1)$$\overrightarrow{PR} = (-1, 0, 1)$.
 
-$$\mathbf{n} = \overrightarrow{PQ}\times\overrightarrow{PR} = \begin{pmatrix}(-1)(1) - (1)(0)\\(1)(-1) - (1)(1)\\(1)(0) - (-1)(-1)\end{pmatrix} = \begin{pmatrix}-1\\-2\\-1\end{pmatrix}$$
+$$
+\mathbf{n} = \overrightarrow{PQ}\times\overrightarrow{PR} = \begin{pmatrix}(-1)(1) - (1)(0)\\(1)(-1) - (1)(1)\\(1)(0) - (-1)(-1)\end{pmatrix} = \begin{pmatrix}-1\\-2\\-1\end{pmatrix}
+$$
 
 $\mathbf{r}\cdot\mathbf{n} = (1)(-1) + (1)(-2) + (0)(-1) = -3$.
 
-Equation: $-x - 2y - z = -3$I.e., $\boxed{x + 2y + z = 3}$.
+Equation: $-x - 2y - z = -3$ I.e., $\boxed{x + 2y + z = 3}$.
 
 ### Example 11.6: Verifying coplanarity
 
@@ -756,9 +836,13 @@ coplanar.
 **Solution.** $\overrightarrow{AB} = (1, 1, 2)$$\overrightarrow{AC} = (2, 1, 3)$
 $\overrightarrow{AD} = (-1, -1, -2)$.
 
-$$\overrightarrow{AB}\times\overrightarrow{AC} = \begin{pmatrix}(1)(3)-(2)(1)\\(2)(2)-(1)(3)\\(1)(1)-(1)(2)\end{pmatrix} = \begin{pmatrix}1\\1\\-1\end{pmatrix}$$
+$$
+\overrightarrow{AB}\times\overrightarrow{AC} = \begin{pmatrix}(1)(3)-(2)(1)\\(2)(2)-(1)(3)\\(1)(1)-(1)(2)\end{pmatrix} = \begin{pmatrix}1\\1\\-1\end{pmatrix}
+$$
 
-$$(\overrightarrow{AB}\times\overrightarrow{AC})\cdot\overrightarrow{AD} = 1(-1) + 1(-1) + (-1)(-2) = -1 - 1 + 2 = 0$$
+$$
+(\overrightarrow{AB}\times\overrightarrow{AC})\cdot\overrightarrow{AD} = 1(-1) + 1(-1) + (-1)(-2) = -1 - 1 + 2 = 0
+$$
 
 Since the scalar triple product is zero, the four points are coplanar. $\blacksquare$
 
@@ -771,11 +855,15 @@ $x + y + z = 1$.
 
 The projection of $\mathbf{a}$ onto the normal direction:
 
-$$\text{proj}_{\mathbf{n}}\,\mathbf{a} = (\mathbf{a}\cdot\hat{\mathbf{n}})\hat{\mathbf{n}} = \frac{2+1-1}{3}(1,1,1) = \frac{2}{3}(1,1,1)$$
+$$
+\text{proj}_{\mathbf{n}}\,\mathbf{a} = (\mathbf{a}\cdot\hat{\mathbf{n}})\hat{\mathbf{n}} = \frac{2+1-1}{3}(1,1,1) = \frac{2}{3}(1,1,1)
+$$
 
 The projection onto the plane (i.e., the component parallel to the plane):
 
-$$\mathbf{a}_{\parallel} = \mathbf{a} - \text{proj}_{\mathbf{n}}\,\mathbf{a} = (2, 1, -1) - \frac{2}{3}(1, 1, 1) = \left(\frac{4}{3}, \frac{1}{3}, -\frac{5}{3}\right)$$
+$$
+\mathbf{a}_{\parallel} = \mathbf{a} - \text{proj}_{\mathbf{n}}\,\mathbf{a} = (2, 1, -1) - \frac{2}{3}(1, 1, 1) = \left(\frac{4}{3}, \frac{1}{3}, -\frac{5}{3}\right)
+$$
 
 ### Example 11.8: Vector product proof of the sine rule
 
@@ -784,11 +872,15 @@ $|\mathbf{a}\times\mathbf{b}| = |\mathbf{a}||\mathbf{b}|\sin\theta$.
 
 **Solution.** See Section 4.3 of this document. The proof uses the identity:
 
-$$|\mathbf{a}\times\mathbf{b}|^2 = |\mathbf{a}|^2|\mathbf{b}|^2 - (\mathbf{a}\cdot\mathbf{b})^2$$
+$$
+|\mathbf{a}\times\mathbf{b}|^2 = |\mathbf{a}|^2|\mathbf{b}|^2 - (\mathbf{a}\cdot\mathbf{b})^2
+$$
 
 Substituting $\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta$:
 
-$$= |\mathbf{a}|^2|\mathbf{b}|^2(1 - \cos^2\theta) = |\mathbf{a}|^2|\mathbf{b}|^2\sin^2\theta$$
+$$
+= |\mathbf{a}|^2|\mathbf{b}|^2(1 - \cos^2\theta) = |\mathbf{a}|^2|\mathbf{b}|^2\sin^2\theta
+$$
 
 Taking square roots gives the result.
 
@@ -813,7 +905,7 @@ The cross product $\mathbf{a}\times\mathbf{b}$ can be computed as a $3 \times 3$
 ### 12.2 Vectors and mechanics
 
 Vector methods are essential in mechanics for resolving forces, moments, and angular momentum. The
-Moment of a force $\mathbf{F}$ about point $O$ is $\mathbf{r}\times\mathbf{F}$. See
+moment of a force $\mathbf{F}$ about point $O$ is $\mathbf{r}\times\mathbf{F}$. See
 [Projectile Motion](/further-maths/further-mechanics/01-projectile-motion/).
 
 ### 12.3 Planes and coordinate geometry
@@ -870,7 +962,9 @@ $\mathbf{c} = (0, -1, 2)$.
 <details>
 <summary>Solution</summary>
 
-$$V = |\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})| = \left|\det\begin{pmatrix}2&0&1\\1&3&0\\0&-1&2\end{pmatrix}\right|$$
+$$
+V = |\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})| = \left|\det\begin{pmatrix}2&0&1\\1&3&0\\0&-1&2\end{pmatrix}\right|
+$$
 
 $= |2(6-0) - 0 + 1(-1-0)| = |12 - 1| = 11$.
 
@@ -885,38 +979,46 @@ Of the segment joining them.
 <summary>Solution</summary>
 
 Let the fixed points be $A$ and $B$ with position vectors $\mathbf{a}$ and $\mathbf{b}$. A point $P$
-Is equidistant from $A$ and $B$ when:
+is equidistant from $A$ and $B$ when:
 
-$$|\mathbf{p} - \mathbf{a}| = |\mathbf{p} - \mathbf{b}|$$
+$$
+|\mathbf{p} - \mathbf{a}| = |\mathbf{p} - \mathbf{b}|
+$$
 
 Squaring:
 $(\mathbf{p}-\mathbf{a})\cdot(\mathbf{p}-\mathbf{a}) = (\mathbf{p}-\mathbf{b})\cdot(\mathbf{p}-\mathbf{b})$
 
-$$|\mathbf{p}|^2 - 2\mathbf{a}\cdot\mathbf{p} + |\mathbf{a}|^2 = |\mathbf{p}|^2 - 2\mathbf{b}\cdot\mathbf{p} + |\mathbf{b}|^2$$
+$$
+|\mathbf{p}|^2 - 2\mathbf{a}\cdot\mathbf{p} + |\mathbf{a}|^2 = |\mathbf{p}|^2 - 2\mathbf{b}\cdot\mathbf{p} + |\mathbf{b}|^2
+$$
 
-$$2(\mathbf{b} - \mathbf{a})\cdot\mathbf{p} = |\mathbf{b}|^2 - |\mathbf{a}|^2$$
+$$
+2(\mathbf{b} - \mathbf{a})\cdot\mathbf{p} = |\mathbf{b}|^2 - |\mathbf{a}|^2
+$$
 
 This is the equation of a plane with normal $\mathbf{b} - \mathbf{a}$ (perpendicular to $AB$), which
-Passes through the midpoint $\dfrac{\mathbf{a}+\mathbf{b}}{2}$. This is the
-Perpendicular bisector. $\blacksquare$
+passes through the midpoint $\dfrac{\mathbf{a}+\mathbf{b}}{2}$. This is the
+perpendicular bisector. $\blacksquare$
 
 </details>
 
 ### Question 14
 
 Find the equation of the plane containing the line $L: \mathbf{r} = (1, 0, 2) + \lambda(1, 2, -1)$
-And the point $P(3, 1, 4)$.
+and the point $P(3, 1, 4)$.
 
 <details>
 <summary>Solution</summary>
 
 The direction of $L$ is $\mathbf{d} = (1, 2, -1)$. Two vectors in the plane are
-$\overrightarrow{PQ} = (1, 0, 2) - (3, 1, 4) = (-2, -1, -2)$ (wait, $Q$ should be on $L$Not $P$).
+$\overrightarrow{PQ} = (1, 0, 2) - (3, 1, 4) = (-2, -1, -2)$ (wait, $Q$ should be on $L$ Not $P$).
 
 Actually, the point on $L$ at $\lambda = 0$ is $(1, 0, 2)$. Vectors in the plane:
 $\overrightarrow{PQ} = (1-3, 0-1, 2-4) = (-2, -1, -2)$ and $\mathbf{d} = (1, 2, -1)$.
 
-$$\mathbf{n} = (-2,-1,-2)\times(1,2,-1) = \begin{pmatrix}(-1)(-1)-(-2)(2)\\(-2)(1)-(-2)(-1)\\(-2)(2)-(-1)(1)\end{pmatrix} = \begin{pmatrix}1+4\\-2-2\\-4+1\end{pmatrix} = \begin{pmatrix}5\\-4\\-3\end{pmatrix}$$
+$$
+\mathbf{n} = (-2,-1,-2)\times(1,2,-1) = \begin{pmatrix}(-1)(-1)-(-2)(2)\\(-2)(1)-(-2)(-1)\\(-2)(2)-(-1)(1)\end{pmatrix} = \begin{pmatrix}1+4\\-2-2\\-4+1\end{pmatrix} = \begin{pmatrix}5\\-4\\-3\end{pmatrix}
+$$
 
 $\mathbf{r}\cdot\mathbf{n} = (1)(5) + (0)(-4) + (2)(-3) = 5 - 6 = -1$.
 
@@ -938,10 +1040,12 @@ $\mathbf{a}\times(\mathbf{b}\times\mathbf{c}) = \mathbf{b}\times(\mathbf{c}\time
 
 This is the cyclic permutation property of the scalar triple product. In determinant form:
 
-$$\det\begin{pmatrix}a_1&a_2&a_3\\b_1&b_2&b_3\\c_1&c_2&c_3\end{pmatrix} = \det\begin{pmatrix}b_1&b_2&b_3\\c_1&c_2&c_3\\a_1&a_2&a_3\end{pmatrix} = \det\begin{pmatrix}c_1&c_2&c_3\\a_1&a_2&a_3\\b_1&b_2&b_3\end{pmatrix}$$
+$$
+\det\begin{pmatrix}a_1&a_2&a_3\\b_1&b_2&b_3\\c_1&c_2&c_3\end{pmatrix} = \det\begin{pmatrix}b_1&b_2&b_3\\c_1&c_2&c_3\\a_1&a_2&a_3\end{pmatrix} = \det\begin{pmatrix}c_1&c_2&c_3\\a_1&a_2&a_3\\b_1&b_2&b_3\end{pmatrix}
+$$
 
 Each equality follows from the fact that swapping two rows of a determinant changes its sign, and
-Two swaps return to the original sign. $\blacksquare$
+two swaps return to the original sign. $\blacksquare$
 
 </details>
 
@@ -988,17 +1092,21 @@ Representations of curves.
 
 ## 15. Key Results Summary
 
+<div class="table-wrap">
+
 | Result                   | Formula                                                                                                                       |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | -------- | -------------------------------- | ---------------------------------- | ------------- | ----- |
-| Scalar product           | $\mathbf{a}\cdot\mathbf{b} =                                                                                                  | \mathbf{a}                                                           |          | \mathbf{b}                       | \cos\theta = a_1b_1+a_2b_2+a_3b_3$ |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Scalar product           | $\mathbf{a}\cdot\mathbf{b} =                                                                                                  \| \mathbf{a}                                                           \|          \| \mathbf{b}                       \| \cos\theta = a_1b_1+a_2b_2+a_3b_3$ |
 | Vector product           | $\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$                        |
 | Scalar triple product    | $[\mathbf{a},\mathbf{b},\mathbf{c}] = \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c}) = \det(\mathbf{a}\;\mathbf{b}\;\mathbf{c})$ |
-| Distance: point to plane | $D = \dfrac{                                                                                                               | \mathbf{a}\cdot\mathbf{n} - d                                        | }{ | \mathbf{n}                       | }$                              |
-| Distance: skew lines     | $D = \dfrac{                                                                                                               | (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) | }{ | \mathbf{d}\_1\times\mathbf{d}\_2 | }$                              |
-| Angle: line to plane     | $\sin\phi = \dfrac{                                                                                                        | \mathbf{d}\cdot\mathbf{n}                                            | }{ | \mathbf{d}                       |                                    | \mathbf{n}    | }$ |
-| Angle: two planes        | $\cos\theta = \dfrac{                                                                                                      | \mathbf{n}\_1\cdot\mathbf{n}\_2                                      | }{ | \mathbf{n}\_1                    |                                    | \mathbf{n}\_2 | }$ |
-| Volume of tetrahedron    | $V = \dfrac{1}{6}                                                                                                             | [\mathbf{a},\mathbf{b},\mathbf{c}]                                   | $        |
-| Reflection in plane      | $P' = P - 2D\hat{\mathbf{n}}$ where $D = \dfrac{P\cdot\mathbf{n}-d}{                                                 | \mathbf{n}                                                           | }$    |
+| Distance: point to plane | $D = \dfrac{                                                                                                               \| \mathbf{a}\cdot\mathbf{n} - d                                        \| }{ \| \mathbf{n}                       \| }$                              |
+| Distance: skew lines     | $D = \dfrac{                                                                                                               \| (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) \| }{ \| \mathbf{d}\_1\times\mathbf{d}\_2 \| }$                              |
+| Angle: line to plane     | $\sin\phi = \dfrac{                                                                                                        \| \mathbf{d}\cdot\mathbf{n}                                            \| }{ \| \mathbf{d}                       \|                                    \| \mathbf{n}    \| }$ |
+| Angle: two planes        | $\cos\theta = \dfrac{                                                                                                      \| \mathbf{n}\_1\cdot\mathbf{n}\_2                                      \| }{ \| \mathbf{n}\_1                    \|                                    \| \mathbf{n}\_2 \| }$ |
+| Volume of tetrahedron    | $V = \dfrac{1}{6}                                                                                                             \| [\mathbf{a},\mathbf{b},\mathbf{c}]                                   \| $        |
+| Reflection in plane      | $P' = P - 2D\hat{\mathbf{n}}$ where $D = \dfrac{P\cdot\mathbf{n}-d}{                                                 \| \mathbf{n}                                                           \| }$    |
+
+</div>
 
 ---
 
@@ -1016,7 +1124,7 @@ Representations of curves.
 ### Question 16
 
 Find the equation of the plane that passes through the points $A(1,0,0)$$B(0,1,0)$$C(0,0,1)$ and
-Verify that $D(1/3, 1/3, 1/3)$ lies on it.
+verify that $D(1/3, 1/3, 1/3)$ lies on it.
 
 <details>
 <summary>Solution</summary>
@@ -1112,7 +1220,7 @@ The equation of a plane can be written in three equivalent forms:
 ### 17.2 The shortest distance between two skew lines, alternative derivation
 
 The shortest distance between skew lines equals the perpendicular distance from any point on one
-Line to the parallel plane containing the other line.
+line to the parallel plane containing the other line.
 
 ### 17.3 Triple vector product identity
 
@@ -1169,7 +1277,7 @@ $\mathbf{n}_1 \times \mathbf{n}_2 = (1,1,1) \times (2,-1,1)$.
 
 $= \begin{pmatrix}(1)(1)-(1)(-1)\\(1)(2)-(1)(1)\\(1)(-1)-(1)(2)\end{pmatrix} = (2, 1, -3)$.
 
-Since the cross product gives $(2,1,-3)$The line is parallel to this vector. $\blacksquare$
+Since the cross product gives $(2,1,-3)$ The line is parallel to this vector. $\blacksquare$
 
 </details>
 
@@ -1209,13 +1317,17 @@ $(\mathbf{a}\times\mathbf{b})\times\mathbf{c} = \mathbf{b}(\mathbf{a}\cdot\mathb
 The shortest distance from point $P$ (position vector $\mathbf{p}$) to the line
 $\mathbf{r} = \mathbf{a} + \lambda\mathbf{d}$ is:
 
-$$D = \frac{|(\mathbf{p}-\mathbf{a})\times\mathbf{d}|}{|\mathbf{d}|}$$
+$$
+D = \frac{|(\mathbf{p}-\mathbf{a})\times\mathbf{d}|}{|\mathbf{d}|}
+$$
 
 ### 19.4 Vector planes, parametric form
 
 A plane through point $\mathbf{a}$ spanned by vectors $\mathbf{b}$ and $\mathbf{c}$:
 
-$$\mathbf{r} = \mathbf{a} + s\mathbf{b} + t\mathbf{c}$$
+$$
+\mathbf{r} = \mathbf{a} + s\mathbf{b} + t\mathbf{c}
+$$
 
 The normal is $\mathbf{n} = \mathbf{b}\times\mathbf{c}$.
 

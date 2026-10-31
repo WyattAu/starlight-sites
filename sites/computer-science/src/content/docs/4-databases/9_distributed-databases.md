@@ -40,20 +40,20 @@ via the network. This is the dominant architecture for distributed databases.
 ### 9.2 Distributed Transactions
 
 A distributed transaction involves operations on multiple nodes. The challenge is ensuring atomicity
-Across nodes.
+across nodes.
 
 **Two-Phase Commit (2PC).**
 
 - **Phase 1 (Voting):** The coordinator sends a `PREPARE` message to all participants. Each
   participant writes its changes to a local log, votes `YES` (ready to commit) or `NO` (abort).
-- **Phase 2 (Decision):** If all participants voted `YES`The coordinator sends `COMMIT`; otherwise
+- **Phase 2 (Decision):** If all participants voted `YES`. The coordinator sends `COMMIT`; otherwise
   it sends `ABORT`. Participants apply the decision and acknowledge.
 
 **Theorem 9.1.** 2PC guarantees atomicity of distributed transactions if no participant crashes
 Permanently and the log is on stable storage.
 
 _Proof._ If the coordinator crashes after phase 1, participants that voted `YES` are blocked -- they
-Cannot decide without knowing the coordinator"s decision. Upon recovery, the coordinator reads its
+cannot decide without knowing the coordinator"s decision. Upon recovery, the coordinator reads its
 Log to determine the decision and notifies participants. Since each participant wrote its vote to
 Stable storage before responding, no vote is lost. $\blacksquare$
 
@@ -67,7 +67,7 @@ Model:
 2. **PreCommit:** If all `YES`Coordinator sends `PRE-COMMIT`. Participants acknowledge.
 3. **DoCommit:** Coordinator sends `COMMIT`. Participants commit and acknowledge.
 
-If the coordinator crashes after `PRE-COMMIT`Any participant can contact others to determine the
+If the coordinator crashes after `PRE-COMMIT`. Any participant can contact others to determine the
 Outcome (since at least one participant must have received `PRE-COMMIT` and can coordinate).
 
 **Limitation of 3PC:** Assumes reliable communication (no lost messages), which is unrealistic in
@@ -124,11 +124,15 @@ Updated in the background.
 
 **Replication architectures:**
 
+<div class="table-wrap">
+
 | Architecture  | Writes       | Reads       | Consistency                                             |
 | ------------- | ------------ | ----------- | ------------------------------------------------------- |
 | Single-leader | Primary only | Any replica | Strong (reads from primary) or eventual (from replicas) |
 | Multi-leader  | Any node     | Any node    | Eventual (conflict resolution required)                 |
 | Leaderless    | Any node     | Any node    | Tunable (quorum reads/writes)                           |
+
+</div>
 
 **Quorum-based consistency.** For a system with $N$ replicas, define write quorum $W$ and read
 quorum $R$ such that $W + R \gt N$. This guarantees that any read sees at least one replica with the
@@ -162,7 +166,7 @@ visibility Of updates.
 **Write:** Client writes value $v$. Primary sends write to all 5 replicas. At least 3 acknowledge
 ($W = 3$). Write is considered successful.
 
-**Read:** Client reads from 3 replicas ($R = 3$). Since $W + R \gt N$Any read quorum overlaps With
+**Read:** Client reads from 3 replicas ($R = 3$). Since $W + R \gt N$ Any read quorum overlaps With
 the write quorum, so the reader is guaranteed to see at least one replica with the latest Value. The
 reader returns the most recent version among the 3 responses.
 
@@ -171,17 +175,6 @@ reader returns the most recent version among the 3 responses.
 2 Available, need 3). This is the consistency-availability trade-off from CAP.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[9_Distributed Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

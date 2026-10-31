@@ -31,7 +31,7 @@ Distributed systems.
 ### Core Components
 
 The email system is composed of three principal agent types, each operating at different stages of
-The message lifecycle.
+the message lifecycle.
 
 **MUA, Mail User Agent**
 
@@ -47,9 +47,9 @@ message rendering, attachment handling, and the application of local filtering r
 The MTA is responsible for routing and relaying messages between mail systems. MTAs implement the
 SMTP protocol (RFC 5321) and communicate with each other on port 25. Well-known MTAs include
 Postfix, Exim, Sendmail, and Microsoft Exchange. An MTA performs DNS MX record lookups to determine
-The destination mail server for a given domain, manages message queues for retry on transient
+the destination mail server for a given domain, manages message queues for retry on transient
 Failures, and applies routing policies. The MTA-to-MTA path may involve multiple relay hops before
-The message reaches its final destination MTA.
+the message reaches its final destination MTA.
 
 **MDA, Mail Delivery Agent**
 
@@ -57,13 +57,13 @@ The MDA accepts messages from the MTA and writes them into the recipient"s mailb
 Involve writing to a local filesystem format such as mbox (all messages concatenated into one file)
 Or Maildir (one file per message in a directory hierarchy), or delivering to a specialized storage
 Backend via LMTP to a Dovecot or Cyrus IMAP server. Procmail and Sieve (RFC 5228) are commonly used
-As local delivery agents or filtering languages. The MDA is the final step in the delivery chain
-Before the message becomes available for retrieval by the MUA.
+as local delivery agents or filtering languages. The MDA is the final step in the delivery chain
+before the message becomes available for retrieval by the MUA.
 
 ### Email Message Format
 
 Email messages are defined by RFC 5322 (the successor to RFC 2822 and RFC 822). The format consists
-Of a header section and a body section, separated by a single blank line (CRLF CRLF).
+of a header section and a body section, separated by a single blank line (CRLF CRLF).
 
 **Headers**
 
@@ -72,6 +72,8 @@ Conventionally use PascalCase. Long header values may be folded across multiple 
 CRLF followed by at least one whitespace character (folding whitespace).
 
 Key headers include:
+
+<div class="table-wrap">
 
 | Header                      | Purpose                                                          |
 | --------------------------- | ---------------------------------------------------------------- |
@@ -90,6 +92,8 @@ Key headers include:
 | `Content-Disposition`       | Inline or attachment with optional filename parameter.           |
 | `Received`                  | Trace header added by each MTA hop with timestamp and host info. |
 
+</div>
+
 **Body**
 
 The body section follows the headers after a blank line. In the simplest case (no MIME), the body is
@@ -99,7 +103,7 @@ Alternative representations, and binary attachments.
 ### MIME, Multipurpose Internet Mail Extensions
 
 MIME, defined across RFC 2045 through RFC 2049, extends the RFC 5322 message format to support
-Non-ASCII text, multimedia content, and multi-part message bodies.
+non-ASCII text, multimedia content, and multi-part message bodies.
 
 **Multipart Messages**
 
@@ -125,6 +129,8 @@ JVBERi0xLjUK...
 
 Common multipart subtypes:
 
+<div class="table-wrap">
+
 | Subtype                 | Purpose                                                                           |
 | ----------------------- | --------------------------------------------------------------------------------- |
 | `multipart/mixed`       | Independent parts of different types (e.g., text + attachment).                   |
@@ -133,12 +139,14 @@ Common multipart subtypes:
 | `multipart/signed`      | A two-part body for S/MIME or PGP signatures.                                     |
 | `multipart/report`      | Delivery status notifications (DSN, MDN).                                         |
 
+</div>
+
 **Base64 Encoding**
 
-Base64 (RFC 4648) encodes binary data as ASCII text using a 64-character alphabet (`A–Z``a–z`
-`0–9``+``/`) with `=` padding. Each group of 3 bytes maps to 4 ASCII characters, producing a 33%
+Base64 (RFC 4648) encodes binary data as ASCII text using a 64-character alphabet (`A–Z`, `a–z`
+`0–9`, `+`, `/`) with `=` padding. Each group of 3 bytes maps to 4 ASCII characters, producing a 33%
 Size overhead. Base64 is specified via the `Content-Transfer-Encoding: base64` header. For text that
-Is mostly ASCII but contains some non-ASCII characters, `quoted-printable` encoding is more
+is mostly ASCII but contains some non-ASCII characters, `quoted-printable` encoding is more
 Efficient because it encodes only non-printable and non-ASCII bytes using `=XX` hex notation.
 
 **Attachments**
@@ -180,7 +188,7 @@ The complete lifecycle of an email message involves five stages:
 SMTP is defined in RFC 5321 (obsoleting RFC 2821 and RFC 821). It is a text-based, request-response
 Protocol using TCP. SMTP is traditionally used on port 25 for MTA-to-MTA relay and on port 587 for
 MUA-to-MTA submission (RFC 6409). Port 465 (SMTPS) is a deprecated implicit TLS variant that remains
-In widespread use despite not having a formal RFC for that purpose.
+in widespread use despite not having a formal RFC for that purpose.
 
 SMTP uses a strict command-response model. The client sends commands, and the server responds with a
 Three-digit status code followed by explanatory text. Commands and responses are terminated by CRLF.
@@ -190,7 +198,7 @@ The protocol is line-oriented; there are no binary commands.
 
 Before an MTA can relay a message, it must determine the destination mail server. This is
 Accomplished through DNS MX (Mail Exchanger) record lookups. The MTA queries DNS for MX records of
-The recipient's domain (e.g., `example.com`). MX records contain a preference value (lower is more
+the recipient's domain (e.g., `example.com`). MX records contain a preference value (lower is more
 Preferred) and a hostname.
 
 ```
@@ -200,8 +208,8 @@ example.com.    IN MX  20 mail2.example.com.
 
 The MTA attempts delivery to the lowest-preference MX first. If unreachable, it falls back to the
 Next preference value. If no MX records exist, the MTA falls back to an A or AAAA record lookup on
-The domain name itself (RFC 5321, Section 5). MX records enable mail routing that is independent of
-The domain's web server address and allow backup mail servers to accept mail when the primary is
+the domain name itself (RFC 5321, Section 5). MX records enable mail routing that is independent of
+the domain's web server address and allow backup mail servers to accept mail when the primary is
 Unavailable.
 
 ### SMTP Session
@@ -266,7 +274,7 @@ S: 221 2.0.0 Bye
 
 - `QUIT`: Terminates the session.
 
-- `RSET`: Resets the current mail transaction, discarding any `MAIL FROM``RCPT TO`And `DATA` state
+- `RSET`: Resets the current mail transaction, discarding any `MAIL FROM`, `RCPT TO` and `DATA` state
   without closing the connection.
 
 - `VRFY`: Verifies that a mailbox name is valid (often disabled on production servers to prevent
@@ -283,7 +291,7 @@ SMTP extensions are advertised in the `EHLO` response and are defined in various
 The `STARTTLS` command upgrades the plaintext TCP connection to TLS. The client sends `STARTTLS` The
 server responds with `220`And a standard TLS handshake follows. All subsequent commands are
 Transmitted over the encrypted channel. STARTTLS provides opportunistic encryption on port 25 and
-Should be mandatory on port 587 (submission). After the TLS handshake, the client must re-issue
+should be mandatory on port 587 (submission). After the TLS handshake, the client must re-issue
 `EHLO` to discover extensions available under encryption.
 
 **AUTH (RFC 4954)**
@@ -305,7 +313,7 @@ Message after receiving the entire body due to size limits.
 
 `PIPELINING` allows the client to send multiple commands without waiting for each response. This
 Reduces round-trip latency, especially over high-latency links. A pipelining client might send
-`MAIL FROM``RCPT TO` (for all recipients), and `DATA` in rapid succession, then read all Responses.
+`MAIL FROM`, `RCPT TO` (for all recipients), and `DATA` in rapid succession, then read all Responses.
 The client must be prepared to handle errors from any command and roll back accordingly. For
 example, if the first `RCPT TO` is rejected but the second is accepted, the client should not Send
 the `DATA` body since at least one recipient was rejected.
@@ -322,7 +330,7 @@ Delivery Status Notifications extend the envelope to request delivery receipts, 
 Delayed delivery notifications. The `ORCPT` parameter on `RCPT TO` specifies the original recipient
 Address, and `NOTIFY=SUCCESS,FAILURE,DELAY` controls which DSN events are generated. DSN reports are
 Structured as `multipart/report` messages with a machine-readable `message/delivery-status` part and
-An optional human-readable `text/plain` part.
+an optional human-readable `text/plain` part.
 
 **CHUNKING (RFC 3030)**
 
@@ -335,6 +343,8 @@ Messages early, after receiving only the first chunk.
 
 SMTP uses three-digit reply codes grouped by the first digit:
 
+<div class="table-wrap">
+
 | First Digit | Meaning                                                                                |
 | ----------- | -------------------------------------------------------------------------------------- |
 | `2xx`       | Success. The requested action was completed.                                           |
@@ -342,7 +352,11 @@ SMTP uses three-digit reply codes grouped by the first digit:
 | `4xx`       | Temporary failure. The command failed but may succeed if retried later.                |
 | `5xx`       | Permanent failure. The command should not be retried without correcting the condition. |
 
+</div>
+
 Common response codes:
+
+<div class="table-wrap">
 
 | Code  | Meaning                                                           |
 | ----- | ----------------------------------------------------------------- |
@@ -372,6 +386,8 @@ Common response codes:
 | `553` | Requested action not taken: mailbox name not allowed.             |
 | `554` | Transaction failed (general permanent failure).                   |
 
+</div>
+
 The enhanced mail status codes (RFC 3463) extend the three-digit code with an `x.y.z` structure
 Providing granular information about the subject (x), detail (y), and action (z). For example,
 `5.7.1` indicates a security or policy status with a delivery not authorized message.
@@ -380,7 +396,7 @@ Providing granular information about the subject (x), detail (y), and action (z)
 
 When an MTA cannot deliver a message (permanent 5xx failure or retry exhaustion), it generates a
 Bounce message (Non-Delivery Report, or NDR). The bounce is sent to the envelope sender address from
-The original `MAIL FROM` command. Bounce messages use the `multipart/report` MIME type with a
+the original `MAIL FROM` command. Bounce messages use the `multipart/report` MIME type with a
 `message/delivery-status` part containing structured fields (per-message and per-recipient DSN
 Fields defined in RFC 3464) and an optional human-readable explanation.
 
@@ -396,14 +412,16 @@ Programmatically.
 IMAP is defined in RFC 3501 (obsoleting RFC 2060) and operates on port 143 for plaintext and port
 993 for implicit TLS (IMAPS). IMAP provides remote access to mailbox contents, allowing clients to
 Manipulate server-side mailboxes, search messages, set and clear flags, and manage attachments
-Without downloading entire messages.
+without downloading entire messages.
 
 IMAP is a stateful, long-lived protocol. The client maintains a selected mailbox and operates on
 Messages within that context. The server preserves message state (flags, folder assignments,
 Sequence numbers) across sessions. This design enables seamless access from multiple devices, as
-Each device sees the same server-side state.
+each device sees the same server-side state.
 
 ### IMAP vs POP3
+
+<div class="table-wrap">
 
 | Feature              | IMAP                              | POP3                           |
 | -------------------- | --------------------------------- | ------------------------------ |
@@ -420,6 +438,8 @@ Each device sees the same server-side state.
 | Quota support        | Yes (RFC 2087)                    | No                             |
 | Push notifications   | Yes (IDLE, RFC 2177)              | No                             |
 
+</div>
+
 IMAP is the preferred protocol for users who access email from multiple devices or need server-side
 Organization. POP3 remains suitable for simple, single-device use cases where messages are
 Downloaded and stored locally.
@@ -430,7 +450,7 @@ Downloaded and stored locally.
 
 IMAP mailboxes are hierarchical containers for messages, analogous to directories in a filesystem.
 The hierarchy separator is configurable per server (commonly `/` or `.`). Special mailboxes include
-`INBOX` (the required primary mailbox), and implementations provide `Drafts``Sent` `Trash`And
+`INBOX` (the required primary mailbox), and implementations provide `Drafts`, `Sent` `Trash`And
 `Junk`. The `LIST` command enumerates mailboxes, and `LSUB` lists subscribed mailboxes. Mailboxes
 can be shared between users with ACL-based permissions.
 
@@ -439,7 +459,7 @@ can be shared between users with ACL-based permissions.
 Each message has a unique identifier (UID) that is assigned when the message is delivered to the
 Mailbox and never changes, even if other messages are expunged. UIDs are monotonically increasing
 32-bit integers that are unique within a UID validity window (the `UIDVALIDITY` value, which changes
-If the mailbox is deleted and recreated). The server also assigns a sequence number to each message
+if the mailbox is deleted and recreated). The server also assigns a sequence number to each message
 Based on its position in the mailbox (1-based index). Sequence numbers change when messages are
 Expunged; UIDs do not. Clients should use UIDs for persistent references and sequence numbers for
 Operations within a single session.
@@ -447,6 +467,8 @@ Operations within a single session.
 **Flags**
 
 IMAP defines system flags that convey message state:
+
+<div class="table-wrap">
 
 | Flag        | Meaning                                                     |
 | ----------- | ----------------------------------------------------------- |
@@ -457,13 +479,15 @@ IMAP defines system flags that convey message state:
 | `\Draft`    | Message is a draft.                                         |
 | `\Recent`   | Message arrived since the last session (session-only flag). |
 
+</div>
+
 Servers may also support custom keywords (user-defined flags) for additional categorization. These
-Keywords are prefixed with `$` by convention (e.g., `$Junk``$NonJunk``$Phishing`).
+Keywords are prefixed with `$` by convention (e.g., `$Junk`, `$NonJunk`, `$Phishing`).
 
 ### IMAP Commands
 
 IMAP uses tagged commands: each client command is prefixed with an arbitrary tag ( an Incrementing
-string like `A001``A002`), and the server's response includes the same tag. Untagged Responses (`*`)
+string like `A001`, `A002`), and the server's response includes the same tag. Untagged Responses (`*`)
 convey unsolicited data or status updates.
 
 ```
@@ -514,7 +538,7 @@ S: A006 OK IDLE terminated
 
 - `FETCH message-set data-items`: Retrieves message content or metadata. The message set can be a
   single number, a range (`1:100`), a comma-separated list, or UID references (e.g., `UID 100:200`).
-  Data items include `FLAGS``ENVELOPE``BODYSTRUCTURE``BODY[section]``BODY[section]` with partial
+  Data items include `FLAGS`, `ENVELOPE`, `BODYSTRUCTURE`, `BODY[section]`, `BODY[section]` with partial
   offsets (e.g., `BODY[1]` for the first MIME part), `BODY.PEEK[section]` (fetches without setting
   `\Seen`), `RFC822.SIZE`And `INTERNALDATE`.
 
@@ -531,8 +555,8 @@ S: A006 OK IDLE terminated
   minutes, to stay below the 30-minute TCP keepalive threshold).
 
 - `SEARCH criteria`: Searches messages in the selected mailbox based on criteria such as `FROM`
-  `SUBJECT``SINCE``BEFORE``LARGER``SMALLER``UNSEEN``DELETED``FLAGGED``ALL`And logical operators
-  (`AND``OR``NOT`). The server returns matching sequence numbers or UIDs if the `UID` variant is
+  `SUBJECT`, `SINCE`, `BEFORE`, `LARGER`, `SMALLER`, `UNSEEN`, `DELETED`, `FLAGGED`, `ALL` and logical operators
+  (`AND`, `OR`, `NOT`). The server returns matching sequence numbers or UIDs if the `UID` variant is
   used.
 
 - `COPY message-set mailbox`: Copies messages to another mailbox. Not atomic with respect to flag
@@ -545,7 +569,7 @@ S: A006 OK IDLE terminated
   (`*` matches across hierarchy separators, `%` matches within a single level). `RLIST` returns
   listing extensions (RFC 5258).
 
-- `CREATE mailbox``DELETE mailbox``RENAME old new`: Manage mailbox creation, deletion, and renaming.
+- `CREATE mailbox`, `DELETE mailbox`, `RENAME old new`: Manage mailbox creation, deletion, and renaming.
 
 ### IMAP Extensions
 
@@ -589,7 +613,7 @@ S: A006 OK IDLE terminated
 
 - **CONDSTORE (RFC 7162)**: Stores a modification sequence number (mod-sequence) for each flag
   change, enabling clients to detect changes since their last checkpoint efficiently. Combined with
-  `FETCH (CHANGEDSINCE modseq)`The client receives only messages that have been modified.
+  `FETCH (CHANGEDSINCE modseq)`. The client receives only messages that have been modified.
 
 - **OBJECTID (RFC 8474)**: Assigns server-generated, globally unique object identifiers to mailboxes
   and messages, independent of UIDs and UIDVALIDITY, for robust synchronization.
@@ -613,17 +637,17 @@ POP3 supports two primary usage modes:
 
 **Download-and-Delete (default)**
 
-After the client retrieves messages with `RETR`It issues `DELE` to mark messages for deletion. When
-the client sends `QUIT`The server permanently removes all marked messages. This is the Traditional
+After the client retrieves messages with `RETR`. It issues `DELE` to mark messages for deletion. When
+the client sends `QUIT`. The server permanently removes all marked messages. This is the Traditional
 POP3 model where the server acts as a temporary holding area. Once the client downloads The messages
 and the server deletes them, the server has no record of the messages.
 
 **Download-and-Keep**
 
 The client retrieves messages but does not issue `DELE` commands. Messages remain on the server
-After `QUIT`. This allows the client to re-download messages in a future session, but the POP3
+after `QUIT`. This allows the client to re-download messages in a future session, but the POP3
 Protocol itself provides no mechanism to track which messages have already been downloaded. Clients
-Must implement their own tracking, by examining `Message-ID` headers or using the `UIDL` Command to
+must implement their own tracking, by examining `Message-ID` headers or using the `UIDL` Command to
 correlate messages across sessions.
 
 ### POP3 Commands
@@ -655,7 +679,7 @@ S: +OK POP3 server signing off (maildrop empty)
 
 - `USER username`: Initiates authentication with the plaintext username.
 
-- `PASS password`: Sends the plaintext password. Combined with `USER`This forms the `USER/PASS`
+- `PASS password`: Sends the plaintext password. Combined with `USER`. This forms the `USER/PASS`
   authentication mechanism. The `APOP` command provides an alternative using MD5 digest
   authentication: the server provides a timestamp in its greeting, and the client computes
   `MD5(timestamp + shared-secret)`. Note that MD5 is now considered cryptographically weak.
@@ -688,7 +712,7 @@ S: +OK POP3 server signing off (maildrop empty)
 ### POP3 Extensions
 
 - **CAPA (RFC 2449)**: Returns a list of server capabilities, similar to SMTP's `EHLO` response.
-  Capabilities include `TOP``USER``SASL``RESP-CODES``LOGIN-DELAY``PIPELINE``EXPIRE` `UIDL`And
+  Capabilities include `TOP`, `USER`, `SASL`, `RESP-CODES`, `LOGIN-DELAY`, `PIPELINE`, `EXPIRE` `UIDL`And
   `STLS`.
 
 - **UIDL (RFC 1939)**: Returns a unique identifier listing for each message. The unique-id is a hash
@@ -699,7 +723,7 @@ S: +OK POP3 server signing off (maildrop empty)
   issued before authentication.
 
 - **SASL (RFC 5034)**: Supports SASL authentication mechanisms beyond `USER/PASS` and `APOP`
-  including `PLAIN``CRAM-MD5`And `SCRAM-SHA-1`.
+  including `PLAIN`, `CRAM-MD5` and `SCRAM-SHA-1`.
 
 ### POP3 Limitations Compared to IMAP
 
@@ -707,8 +731,8 @@ POP3 lacks several features that IMAP provides. It offers no server-side folder 
 Messages exist in a single flat inbox). It has no partial message retrieval (except `TOP` for
 Headers plus a limited number of body lines). There is no server-side search; clients must download
 Messages to search locally. Persistent message flags are absent (the `\Seen` state is not preserved
-Across sessions). Concurrent access is impossible because POP3 locks the mailbox for the duration of
-The session. Server-side sorting, threading, and push notifications are not available; clients must
+across sessions). Concurrent access is impossible because POP3 locks the mailbox for the duration of
+the session. Server-side sorting, threading, and push notifications are not available; clients must
 Poll using `STAT` or `UIDL`. There is no access control for shared folders and no quota reporting.
 
 These limitations make POP3 unsuitable for multi-device scenarios or any use case requiring
@@ -722,7 +746,7 @@ Server-side message management.
 
 FTP uses two separate TCP connections: a control connection (port 21) for commands and responses,
 And a data connection for file transfers. FTP is a plaintext protocol; credentials are transmitted
-In cleartext, making it inherently insecure without additional encryption.
+in cleartext, making it inherently insecure without additional encryption.
 
 FTP operates in two data transfer modes:
 
@@ -751,12 +775,12 @@ SSH transport (port 22). SFTP provides file transfer, directory listing, file re
 File system operations. It supports resumable transfers, file locking, and symbolic link
 Manipulation. SFTP is preferred over FTP/FTPS in modern environments because it provides encryption,
 Integrity, and authentication through SSH without requiring separate TLS configuration, and it works
-Through firewalls with a single port (22).
+through firewalls with a single port (22).
 
 ### SSH, Secure Shell
 
 SSH (RFC 4250–4254) provides secure remote access over an untrusted network. It operates on port 22
-And provides three core services: user authentication, remote command execution, and encrypted
+and provides three core services: user authentication, remote command execution, and encrypted
 Tunneling.
 
 **Key Exchange**
@@ -796,7 +820,7 @@ Access internal services securely.
 ### NTP, Network Time Protocol
 
 NTP (RFC 5905) synchronizes system clocks across a network with sub-millisecond accuracy over LAN
-And tens of milliseconds over WAN. It operates on UDP port 123. SNTP (Simple Network Time Protocol,
+and tens of milliseconds over WAN. It operates on UDP port 123. SNTP (Simple Network Time Protocol,
 RFC 4330) is a subset of NTP designed for clients that do not need the full Marzullo intersection
 Algorithm.
 
@@ -805,7 +829,7 @@ Algorithm.
 NTP organizes time sources into a stratum hierarchy. Stratum 1 servers are directly synchronized to
 A reference clock (GPS receiver, atomic clock, or radio clock such as WWVB). Stratum 2 servers
 Synchronize to stratum 1 servers, stratum 3 to stratum 2, and so on. The maximum recommended stratum
-Is 15; stratum 16 indicates an unsynchronized clock (the `INSYNC` bits are clear in the NTP packet's
+is 15; stratum 16 indicates an unsynchronized clock (the `INSYNC` bits are clear in the NTP packet's
 `LI` field). Each server reports its stratum level, allowing clients to select the best available
 Source.
 
@@ -845,8 +869,8 @@ Compute the round-trip delay and offset.
 
 LDAP (RFC 4510–4519) is an application-layer protocol for accessing and maintaining distributed
 Directory information services. It operates on port 389 for plaintext and port 636 for LDAPS (LDAP
-Over TLS). LDAP is designed for read-heavy workloads with infrequent writes, making it well-suited
-For user authentication, address books, organizational directories, and configuration management.
+over TLS). LDAP is designed for read-heavy workloads with infrequent writes, making it well-suited
+for user authentication, address books, organizational directories, and configuration management.
 
 **Data Model**
 
@@ -868,7 +892,7 @@ Specifies which attributes are required and which are optional.
   two equality tests. `(|(uid=jdoe)(uid=asmith))` is an OR. `(!(uid=admin))` is a NOT. Substring
   filters use `cn=John*` and presence filters use `objectClass=*`.
 
-- `ADD``MODIFY``DELETE`: Insert, update, or remove directory entries. `MODIFY` supports add,
+- `ADD`, `MODIFY`, `DELETE`: Insert, update, or remove directory entries. `MODIFY` supports add,
   replace, and delete operations on individual attributes within an entry.
 
 - `COMPARE`: Tests whether an entry contains a specific attribute value without returning the entry
@@ -883,7 +907,7 @@ The LDAP schema defines the structure of directory entries through object classe
 Types. Object classes define required and optional attributes. Common object classes include
 `inetOrgPerson` (organizational person with email, phone, title), `organizationalUnit` (`ou`), and
 `groupOfNames` (group membership). Attribute syntaxes include `DirectoryString` (UTF-8 text),
-`Integer``GeneralizedTime` (for timestamps), `OctetString` (binary data), and `DN` (distinguished
+`Integer`, `GeneralizedTime` (for timestamps), `OctetString` (binary data), and `DN` (distinguished
 Name reference). Schema rules enforce structural, auxiliary, and abstract class inheritance.
 
 **Performance and Indexing**
@@ -893,7 +917,7 @@ Performance. Common index types include presence (does the attribute exist), equ
 Substring (prefix, suffix, or infix matching), approximate (phonetic matching for names), and range.
 Complex nested filters and unindexed searches (e.g., `(!(someUnindexedAttr=value))`) can trigger
 Full database scans on large directories, causing severe performance degradation. Administrators
-Should monitor slow queries and ensure appropriate indexes are in place.
+should monitor slow queries and ensure appropriate indexes are in place.
 
 ### SMB/CIFS, Server Message Block / Common Internet File System
 
@@ -914,9 +938,9 @@ Infrastructure.
 
 SMB 2.0/3.0 introduced significant improvements over SMB 1.0. Compound requests batch multiple
 Operations into a single request-response, reducing round trips. Durable handles allow file handles
-To survive temporary network disconnections (useful for VM live migration). Leasing enables
+to survive temporary network disconnections (useful for VM live migration). Leasing enables
 Aggressive client-side caching with server-issued guarantees. Multichannel aggregates bandwidth
-Across multiple network interfaces simultaneously. SMB 3.0 encryption (AES-128-CCM or AES-128-GCM)
+across multiple network interfaces simultaneously. SMB 3.0 encryption (AES-128-CCM or AES-128-GCM)
 Encrypts all data in transit, protecting against eavesdropping. Continuous availability provides
 Transparent failover in clustered server environments. SMB 3.1.1 adds pre-authentication integrity
 (AES-CMAC) to prevent downgrade attacks.
@@ -925,27 +949,27 @@ Transparent failover in clustered server environments. SMB 3.1.1 adds pre-authen
 
 SMB supports NTLMv2 and Kerberos authentication. Active Directory domains use Kerberos by default
 (via SPNEGO negotiation), providing mutual authentication and constrained delegation. NTLMv2 is used
-In workgroup environments without a domain controller. SMB signing (HMAC-SHA256) provides message
+in workgroup environments without a domain controller. SMB signing (HMAC-SHA256) provides message
 Integrity but not confidentiality; it is mandatory in SMB 3.0 by default.
 
 **Linux Support**
 
 Samba provides SMB/CIFS client and server functionality on Linux and other Unix systems. The
 `cifs-utils` package provides mount helpers, and the kernel includes the `cifs.ko` filesystem driver
-For mounting SMB shares. Samba implements an Active Directory domain controller, file server, print
+for mounting SMB shares. Samba implements an Active Directory domain controller, file server, print
 Server, and Winbind (for Linux-to-Windows authentication integration).
 
 ### NFS, Network File System
 
 NFS, developed by Sun Microsystems, allows remote filesystem access over a network. Current versions
-Are NFSv4.1 (RFC 8881) and NFSv4.2 (RFC 7862). NFS is RPC-based (Remote Procedure Call, RFC 5531)
+are NFSv4.1 (RFC 8881) and NFSv4.2 (RFC 7862). NFS is RPC-based (Remote Procedure Call, RFC 5531)
 And historically used UDP or TCP on port 2049. NFSv4 uses TCP exclusively.
 
 **NFSv4 Features**
 
 NFSv4 represents a major redesign of the protocol. Key features include stateful operation (file
-Locking via `LOCK``LOCKU` operations, open delegation where the server grants a client exclusive Or
-shared access rights), a single port (2049) and single protocol (no separate `mountd``statd` `lockd`
+Locking via `LOCK`, `LOCKU` operations, open delegation where the server grants a client exclusive Or
+shared access rights), a single port (2049) and single protocol (no separate `mountd`, `statd` `lockd`
 daemons required), strong security with mandatory `RPCSEC_GSS` using Kerberos v5, Firewall-friendly
 operation (all traffic on one TCP port), compound procedures (batch multiple RPC Operations into a
 single request via `COMPOUND`), internationalization (UTF-8 filenames via `UTF8` Attribute), and
@@ -964,12 +988,12 @@ Servers for scalable parallel data access.
 **Exports and Security**
 
 The NFS server controls access through the `exports` configuration file, specifying which clients
-May mount which filesystems and with what options (rw/ro, root squashing, subtree checking,
+may mount which filesystems and with what options (rw/ro, root squashing, subtree checking,
 Sync/async, sec= flavor). Security mechanisms include `AUTH_SYS` (the client reports the UID/GID
 Directly; insecure but simple, suitable for trusted LANs), `AUTH_NONE` (anonymous access, rarely
 Used), and `RPCSEC_GSS` (Kerberos v5-based authentication providing three security flavors: `krb5`
 For authentication only, `krb5i` for authentication plus integrity, and `krb5p` for authentication
-Plus integrity plus privacy/encryption).
+plus integrity plus privacy/encryption).
 
 ## Email Security
 
@@ -986,6 +1010,8 @@ example.com. IN TXT "v=spf1 ip4:192.0.2.0/24 include:_spf.google.com ~all"
 
 **Mechanisms**
 
+<div class="table-wrap">
+
 | Mechanism        | Meaning                                                                       |
 | ---------------- | ----------------------------------------------------------------------------- |
 | `all`            | Matches all senders. Always placed at the end as the default policy.          |
@@ -996,6 +1022,8 @@ example.com. IN TXT "v=spf1 ip4:192.0.2.0/24 include:_spf.google.com ~all"
 | `ip6:cidr`       | Matches if the sender's IP is within the specified IPv6 CIDR range.           |
 | `ptr`            | Matches if the reverse DNS of the sender resolves to the domain (deprecated). |
 | `exists:domain`  | Matches if the specified domain resolves to any address.                      |
+
+</div>
 
 **Qualifiers**
 
@@ -1034,8 +1062,8 @@ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
 **Key Fields**
 
 - `v`: DKIM version (always `1`).
-- `a`: Signing algorithm (`rsa-sha256``ed25519-sha256`).
-- `c`: Canonicalization for header and body (`simple``relaxed`).
+- `a`: Signing algorithm (`rsa-sha256`, `ed25519-sha256`).
+- `c`: Canonicalization for header and body (`simple`, `relaxed`).
 - `d`: The signing domain.
 - `s`: The selector used to look up the public key in DNS.
 - `h`: Signed header fields, listed in the order signed.
@@ -1057,7 +1085,7 @@ Verification fails, the headers have been altered.
 Canonicalization normalizes minor variations in message formatting before signing and verification.
 
 _Simple_ (`s`): Headers and body are passed through with minimal processing. Any modification (even
-An extra space or trailing newline) invalidates the signature. Body canonicalization removes all
+an extra space or trailing newline) invalidates the signature. Body canonicalization removes all
 Trailing empty lines.
 
 _Relaxed_ (`r`): Header names are lowercased, whitespace in header values is collapsed to single
@@ -1066,7 +1094,7 @@ Whitespace on each line and removes all trailing empty lines. This is more toler
 Made by intermediate MTAs that may reflow or rewrap headers.
 
 The `c=` field specifies header and body canonicalization separately (e.g., `c=relaxed/relaxed` is
-The most common and forgiving combination).
+the most common and forgiving combination).
 
 ### DMARC, Domain-based Message Authentication, Reporting, and Conformance
 
@@ -1094,6 +1122,8 @@ _dmarc.example.com. IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc@example.com; pc
 
 **Policy Tags**
 
+<div class="table-wrap">
+
 | Tag              | Purpose                                                             |
 | ---------------- | ------------------------------------------------------------------- |
 | `v=DMARC1`       | Protocol version.                                                   |
@@ -1108,13 +1138,15 @@ _dmarc.example.com. IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc@example.com; pc
 | `adkim=s`        | DKIM alignment mode: `s` (strict) or `r` (relaxed).                 |
 | `aspf=s`         | SPF alignment mode: `s` (strict) or `r` (relaxed).                  |
 
+</div>
+
 **Reporting**
 
 DMARC defines two report types. Aggregate reports (RUA) are sent periodically (default daily) and
 Contain statistics about authentication results for the domain: total message count, SPF pass/fail
 Counts, DKIM pass/fail counts, DMARC disposition applied, and the source IP addresses. Forensic
 Reports (RUF) are sent immediately for each failing message and include the original message headers
-For forensic analysis. Many domain operators start with `p=none` and `rua` reporting during an
+for forensic analysis. Many domain operators start with `p=none` and `rua` reporting during an
 Initial monitoring phase ( 2 to 4 weeks) to assess their email ecosystem, then escalate to
 `p=quarantine` and finally `p=reject` once the data shows a clean authentication profile.
 
@@ -1126,7 +1158,7 @@ STARTTLS upgrades an existing plaintext SMTP connection to TLS. The client sends
 Command, the server responds with `220`And a standard TLS handshake follows. After the handshake,
 The client must re-issue `EHLO` to discover extensions available over the encrypted channel.
 STARTTLS provides opportunistic encryption on port 25 (the client uses it if available) and should
-Be mandatory on port 587 (submission).
+be mandatory on port 587 (submission).
 
 **TLS Requirements**
 
@@ -1139,7 +1171,7 @@ Round trip (0-RTT with session resumption).
 **MTA-STS (SMTP MTA Strict Transport Security, RFC 8461)**
 
 MTA-STS allows a receiving domain to signal that sending MTAs must use TLS when delivering mail to
-It. The policy is published at `https://mta-sts.example.com/.well-known/mta-sts.txt`. The DNS TXT
+it. The policy is published at `https://mta-sts.example.com/.well-known/mta-sts.txt`. The DNS TXT
 Record `_mta-sts.example.com` enables the mechanism. The policy specifies the TLS mode (`enforce`
 `testing`Or `none`), the minimum TLS version (`TLSv1.1` or `TLSv1.2`), and the list of MX Hostnames.
 If MTA-STS is in `enforce` mode and a sending MTA cannot establish a TLS connection with The
@@ -1151,7 +1183,7 @@ queued for retry.
 DANE (DNS-Based Authentication of Named Entities) allows a domain to publish TLSA records in
 DNSSEC-signed DNS that specify the expected TLS certificate for its SMTP servers. This provides
 Certificate pinning without relying on CA (Certificate Authority) validation, eliminating the risk
-Of compromised or fraudulent CA-issued certificates. DANE for SMTP uses the `_smtp._tcp.example.com`
+of compromised or fraudulent CA-issued certificates. DANE for SMTP uses the `_smtp._tcp.example.com`
 DNS name for TLSA record lookup. The TLSA record specifies the certificate association type (e.g.,
 Usage 3: DANE-EE, trust anchor or certificate), the selector (e.g., 0: full certificate, 1: public
 Key), and the matching type (e.g., 0: exact match, 1: SHA-256 hash, 2: SHA-512 hash).
@@ -1166,14 +1198,14 @@ Alice trusts Bob and Bob has signed Charlie's key, Alice may choose to extend pa
 Charlie. OpenPGP encrypts messages using a hybrid scheme: the message content is encrypted with a
 Symmetric cipher (AES-256), and the symmetric session key is encrypted with each recipient's public
 Key (RSA or Elliptic Curve). PGP/MIME (RFC 3156) encapsulates OpenPGP-encrypted and signed data
-Within MIME structures.
+within MIME structures.
 
 PGP message formats in MIME:
 
 `multipart/encrypted` contains the OpenPGP-encrypted session key (`application/pgp-encrypted`) and
-The symmetrically encrypted data (`application/octet-stream`). `multipart/signed` contains the
+the symmetrically encrypted data (`application/octet-stream`). `multipart/signed` contains the
 Message content and a detached signature (`application/pgp-signature`) that covers the content using
-The same signing algorithms as DKIM but applied to the full message rather than selected headers.
+the same signing algorithms as DKIM but applied to the full message rather than selected headers.
 
 PGP provides confidentiality (encryption), integrity (MDC, Modification Detection Code),
 Authentication (digital signatures), and non-repudiation. Key revocation is handled via revocation
@@ -1185,16 +1217,18 @@ S/MIME uses X.509 certificates issued by Certificate Authorities (CAs) for publi
 Following the PKI (Public Key Infrastructure) model. S/MIME messages use `application/pkcs7-mime`
 With `smime-type=enveloped-data` for encrypted content and `multipart/signed` with
 `application/pkcs7-signature` for signed content. S/MIME supports the same cryptographic algorithms
-As PGP (AES-256-CBC, AES-256-GCM, RSA, ECDSA, Ed25519) but relies on hierarchical CA trust rather
-Than a web of trust.
+as PGP (AES-256-CBC, AES-256-GCM, RSA, ECDSA, Ed25519) but relies on hierarchical CA trust rather
+than a web of trust.
 
 S/MIME is widely deployed in enterprise environments because it integrates with existing PKI
 Infrastructure and is natively supported by Microsoft Outlook, Apple Mail, iOS Mail, and other
 Enterprise MUAs. Certificate provisioning can be automated via Microsoft Active Directory
 Certificate Services, with certificates auto-enrolled through Group Policy, or via third-party CAs
-Such as IdenTrust, DigiCert, and GlobalSign.
+such as IdenTrust, DigiCert, and GlobalSign.
 
 **Comparison of PGP and S/MIME**
+
+<div class="table-wrap">
 
 | Aspect              | PGP/OpenPGP                         | S/MIME                             |
 | ------------------- | ----------------------------------- | ---------------------------------- |
@@ -1206,6 +1240,8 @@ Such as IdenTrust, DigiCert, and GlobalSign.
 | Flexibility         | Higher (user-controlled trust)      | Lower (CA-dependent)               |
 | Revocation          | Revocation certificates, keyservers | CRL, OCSP                          |
 | Key discovery       | WKD (Web Key Directory, RFC 7929)   | LDAP, S/MIME certificate attribute |
+
+</div>
 
 Both PGP and S/MIME require the sender and recipient to have compatible software and key material.
 Neither is widely deployed for general internet email due to key management complexity and lack of
@@ -1241,6 +1277,8 @@ _mta-sts.example.com. IN TXT "v=STSv1; id=2026040901"
 
 ### Protocol Port Reference
 
+<div class="table-wrap">
+
 | Protocol          | Port (Plain) | Port (TLS)     | Transport |
 | ----------------- | ------------ | -------------- | --------- |
 | SMTP (relay)      | 25           |,              | TCP       |
@@ -1257,6 +1295,8 @@ _mta-sts.example.com. IN TXT "v=STSv1; id=2026040901"
 | NFS               | 2049         |,              | TCP       |
 | DNS               | 53           | 853 (DoT)      | UDP/TCP   |
 
+</div>
+
 ## Common Pitfalls
 
 1. Not making connections between different topics within the subject to build a coherent
@@ -1269,27 +1309,9 @@ _mta-sts.example.com. IN TXT "v=STSv1; id=2026040901"
 
 4. Ignoring feedback from marked work and failing to address recurring weaknesses.
 
-
-```mermaid
-flowchart TD
-    A[Email And Application Protocols] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

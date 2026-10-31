@@ -21,7 +21,7 @@ categories:
 ## The CAP Theorem
 
 The CAP theorem, formalised by Gilbert and Lynch in 2002 based on Brewer's 2000 conjecture, states
-That a distributed data store can provide at most two of three guarantees:
+that a distributed data store can provide at most two of three guarantees:
 
 - **Consistency (C):** every read receives the most recent write or an error
 - **Availability (A):** every request receives a non-error response (without guarantee about which
@@ -36,19 +36,27 @@ Update propagates slowly, a garbage collector pause causes a timeout, a cross-da
 Degrades. Any distributed system must tolerate partitions, which means the real choice is between
 **CP** and **AP**:
 
+<div class="table-wrap">
+
 | Category | Strategy                                                       | Example Systems                                             |
 | -------- | -------------------------------------------------------------- | ----------------------------------------------------------- |
 | CP       | Preserve consistency, sacrifice availability during partitions | PostgreSQL (sync replicas), HBase, Redis (with replication) |
 | AP       | Preserve availability, sacrifice consistency during partitions | MongoDB (default, w:1), Cassandra, DynamoDB, CouchDB, Riak  |
+
+</div>
 
 ### The PACELC Theorem
 
 The PACELC theorem (Abadi, 2012) extends CAP: when there is **no** partition (the EL part), the
 System must choose between **L**atency and **C**onsistency:
 
-$$\mathrm{PA \to \mathrm{EL : \mathrm{when no partition, prefer availability and latency over consistency$$
+$$
+\mathrm{PA \to \mathrm{EL : \mathrm{when no partition, prefer availability and latency over consistency
+$$
 
-$$\mathrm{PC \to \mathrm{EC : \mathrm{when no partition, prefer consistency, accepting higher latency$$
+$$
+\mathrm{PC \to \mathrm{EC : \mathrm{when no partition, prefer consistency, accepting higher latency
+$$
 
 This captures a nuance that CAP misses: even during normal operation (no partition), systems make
 Consistency-latency trade-offs. DynamoDB defaults to eventual consistency for low latency but can be
@@ -58,6 +66,8 @@ Supports tunable consistency per operation.
 ### Consistency Models: A Spectrum
 
 Consistency is not binary. There is a spectrum of consistency models, from strongest to weakest:
+
+<div class="table-wrap">
 
 | Model              | Guarantee                                                         | Examples                               |
 | ------------------ | ----------------------------------------------------------------- | -------------------------------------- |
@@ -69,6 +79,8 @@ Consistency is not binary. There is a spectrum of consistency models, from stron
 | Read-your-writes   | A reader always sees its own writes                               | Most systems with sticky sessions      |
 | Session            | Consistency within a single client session                        | MongoDB (read preference)              |
 | Eventual           | If no new writes, all reads eventually converge to the same value | Cassandra, CouchDB, DynamoDB (default) |
+
+</div>
 
 :::caution
 That if you stop writing, the system will converge. In practice, convergence time depends on the
@@ -213,6 +225,8 @@ Store -- it supports a rich set of data structures and operations.
 
 #### Redis Data Structures
 
+<div class="table-wrap">
+
 | Structure   | Commands                           | Use Cases                                   |
 | ----------- | ---------------------------------- | ------------------------------------------- |
 | Strings     | `GET``SET``INCR``SETEX``GETSET`    | Caching, counters, rate limiting            |
@@ -224,6 +238,8 @@ Store -- it supports a rich set of data structures and operations.
 | HyperLogLog | `PFADD``PFCOUNT``PFMERGE`          | Cardinality estimation (unique visitors)    |
 | Streams     | `XADD``XREAD``XREADGROUP``XACK`    | Event sourcing, message queues, time series |
 | Geospatial  | `GEOADD``GEORADIUS``GEOSEARCH`     | Location-based features                     |
+
+</div>
 
 #### Redis Persistence
 
@@ -240,11 +256,15 @@ appendfsync everysec   # fsync once per second (good balance)
 # appendfsync no        # let OS decide (fastest, least safe)
 ```
 
+<div class="table-wrap">
+
 | Mode      | Pros                                                     | Cons                                  |
 | --------- | -------------------------------------------------------- | ------------------------------------- |
 | RDB       | Compact files, fast restart, low overhead                | Data loss between snapshots (minutes) |
 | AOF       | Minimal data loss (1 second at most)                     | Larger files, slower restart          |
 | RDB + AOF | Best of both (AOF for durability, RDB for restart speed) | More disk usage, more complexity      |
+
+</div>
 
 #### Redis Clustering
 
@@ -266,7 +286,7 @@ redis-cli --cluster create \
 :::
 
 :::caution
-Atomically update `user:123:profile` and `user:123:settings`They must have the same hash tag Prefix
+Atomically update `user:123:profile` and `user:123:settings`. They must have the same hash tag Prefix
 (`{user:123}`). Operations like `MGET` on keys with different hash tags will fail with a `CROSSSLOT`
 error.
 
@@ -294,8 +314,8 @@ Millions of columns and queries access a subset of columns.
 ### Architecture
 
 Data is stored in column families, where each column family contains related columns. On disk, data
-Is stored by column family (not by row), which makes reading all values of a specific column across
-Many rows very efficient.
+is stored by column family (not by row), which makes reading all values of a specific column across
+many rows very efficient.
 
 ```text
 Traditional row-oriented storage:
@@ -328,6 +348,8 @@ Availability across multiple data centers.
 
 #### Consistency Levels
 
+<div class="table-wrap">
+
 | Level          | Description                                                         |
 | -------------- | ------------------------------------------------------------------- |
 | `ONE`          | Coordinator returns after one replica responds (fastest)            |
@@ -337,10 +359,14 @@ Availability across multiple data centers.
 | `EACH_QUORUM`  | Quorum in each data center (for multi-DC writes)                    |
 | `SERIAL`       | Linearizable consistency for lightweight transactions               |
 
+</div>
+
 For reads and writes to be consistent (read-your-writes), the sum of read and write consistency
 Levels must exceed the replication factor:
 
-$$W + R \gt RF$$
+$$
+W + R \gt RF
+$$
 
 For example, with replication factor 3: `QUORUM` writes + `QUORUM` reads ($2 + 2 = 4 \gt 3$)
 Guarantees that the read sees the latest write.
@@ -402,7 +428,7 @@ Key characteristics:
 ## Graph Databases
 
 Graph databases model data as nodes (entities) and edges (relationships), optimising for queries
-That traverse relationships. They are the natural choice for data with complex, interconnected
+that traverse relationships. They are the natural choice for data with complex, interconnected
 Relationships: social networks, fraud detection, recommendation engines, knowledge graphs.
 
 ### Neo4j
@@ -450,12 +476,12 @@ RETURN p
 
 :::tip
 Relational database for transactional data and a graph database for relationship-heavy queries. This
-Is the **polyglot persistence** pattern: use the right tool for each part of the problem.
+is the **polyglot persistence** pattern: use the right tool for each part of the problem.
 
 ## Time Series Databases
 
 Time series databases are optimised for storing and querying data points indexed by time. They are
-The standard for monitoring, IoT sensor data, financial tick data, and application metrics.
+the standard for monitoring, IoT sensor data, financial tick data, and application metrics.
 
 ### InfluxDB
 
@@ -562,7 +588,7 @@ Service Architecture with Polyglot Persistence:
 Replication configuration, monitoring, upgrade path, and failure modes. Before introducing a new
 Database technology, ensure your team has the expertise to operate it in production. The cost of
 Operating 5 different databases often exceeds the cost of operating one database that handles 80% of
-Your use cases adequately.
+your use cases adequately.
 
 ## Intuition
 
@@ -593,8 +619,8 @@ Model around your access patterns, not your entity relationships.
 ### Underestimating Operational Complexity
 
 Running a Redis cluster, a Cassandra ring, or a MongoDB replica set in production requires expertise
-In the specific database's failure modes, backup procedures, monitoring, and upgrade paths. Budget
-For this expertise before adopting a new technology.
+in the specific database's failure modes, backup procedures, monitoring, and upgrade paths. Budget
+for this expertise before adopting a new technology.
 
 ### Not Setting TTL on Cache Data
 
@@ -652,6 +678,8 @@ stateDiagram-v2
 CRDTs are data structures designed to be replicated across multiple nodes with automatic conflict
 Resolution. They guarantee eventual consistency without requiring coordination.
 
+<div class="table-wrap">
+
 | CRDT Type    | Example Operations          | Conflict Resolution                 |
 | ------------ | --------------------------- | ----------------------------------- |
 | G-Counter    | Increment                   | Take maximum                        |
@@ -660,14 +688,16 @@ Resolution. They guarantee eventual consistency without requiring coordination.
 | OR-Set       | Add, Remove                 | Observed-remove (tombstone-based)   |
 | LWW-Register | Assign value with timestamp | Last-writer-wins                    |
 
+</div>
+
 CRDTs are used in Riak, Redis CRDT module, and some edge computing frameworks. The trade-off: they
-Only support a limited set of operations (no arbitrary transactions), and some types accumulate
+only support a limited set of operations (no arbitrary transactions), and some types accumulate
 Garbage (tombstones in OR-Set).
 
 ### LSM Trees (Log-Structured Merge Trees)
 
 Most NoSQL databases that are write-optimised (Cassandra, RocksDB, LevelDB, HBase) use LSM trees
-Instead of B-trees. LSM trees batch writes in memory and flush to disk in sorted runs, which
+instead of B-trees. LSM trees batch writes in memory and flush to disk in sorted runs, which
 Dramatically reduces write amplification.
 
 **Write path:**
@@ -699,6 +729,8 @@ SSTable Level N (disk)  ← oldest, largest
 
 **LSM Tree vs B-Tree:**
 
+<div class="table-wrap">
+
 | Aspect              | LSM Tree                             | B-Tree                               |
 | ------------------- | ------------------------------------ | ------------------------------------ |
 | Write throughput    | Very high (sequential writes only)   | Moderate (random writes for updates) |
@@ -707,6 +739,8 @@ SSTable Level N (disk)  ← oldest, largest
 | Read amplification  | High (multiple levels)               | Low (single traversal)               |
 | Space amplification | Moderate (compaction overhead)       | Low to moderate (page fragmentation) |
 | Compaction          | Required (background merge)          | Not required (in-place updates)      |
+
+</div>
 :::
 
 :::note
@@ -737,10 +771,14 @@ Dynamo-style architecture.
 
 **Capacity modes:**
 
+<div class="table-wrap">
+
 | Mode        | Characteristics                                                      |
 | ----------- | -------------------------------------------------------------------- |
 | Provisioned | Specify read/write capacity units; cheaper for predictable workloads |
 | On-Demand   | Auto-scales; pay per request; more expensive for steady workloads    |
+
+</div>
 
 **Global Secondary Indexes (GSI):**
 

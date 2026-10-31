@@ -87,7 +87,7 @@ Uncertainty, significant figures, error propagation, graphical analysis, and spe
 
 ### Energetics and Kinetics
 
-- **[Thermochemistry](/chemistry/5-energetics/1_thermochemistry/)**, Enthalpy, Hess"s law, bond enthalpies,
+- **[Thermochemistry](/chemistry/5-energetics/1_thermochemistry/)**, Enthalpy, Hess's law, bond enthalpies,
   calorimetry, and energy cycles
 - **[Chemical Kinetics](/chemistry/6-kinetics/1_chemical-kinetics/)**, Rate of reaction, rate equations,
   activation energy, and collision theory
@@ -122,8 +122,8 @@ Uncertainty, significant figures, error propagation, graphical analysis, and spe
 
 ## Related Content
 
-- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/docs/chemistry)
-- **DSE Chemistry:** [DSE Chemistry](https://dse.wyattau.com/docs/dse/chemistry)
+- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/chemistry/)
+- **DSE Chemistry:** [DSE Chemistry](https://dse.wyattau.com/chemistry/)
 - **University Chemistry:** [University Chemistry](https://chemistry.wyattau.com/)
 
 ## Common Pitfalls
@@ -177,8 +177,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Cross-References
 

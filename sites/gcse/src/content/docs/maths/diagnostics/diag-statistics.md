@@ -23,6 +23,8 @@ tableOfContents: false
 
 **Question:** The grouped frequency table shows the marks of 60 students in a maths test:
 
+<div class="table-wrap">
+
 | Mark               | Frequency |
 | ------------------ | --------- |
 | $0 \le m \lt 20$   | 4         |
@@ -30,6 +32,8 @@ tableOfContents: false
 | $40 \le m \lt 60$  | 18        |
 | $60 \le m \lt 80$  | 20        |
 | $80 \le m \lt 100$ | 7         |
+
+</div>
 
 (a) Calculate an estimate for the mean mark. (b) Identify the modal class. (c) Find the median class
 and estimate the median. (d) Explain why the mean is only an estimate.
@@ -58,6 +62,8 @@ end of the class interval, making the midpoint an approximation.
 
 **Question:** The cumulative frequency table shows the heights of 80 students:
 
+<div class="table-wrap">
+
 | Height (cm) | Cumulative Frequency |
 | ----------- | -------------------- |
 | $\lt 150$   | 5                    |
@@ -67,6 +73,8 @@ end of the class interval, making the midpoint an approximation.
 | $\lt 170$   | 68                   |
 | $\lt 175$   | 76                   |
 | $\lt 180$   | 80                   |
+
+</div>
 
 (a) Draw a cumulative frequency curve. (b) Find the median, lower quartile, and upper quartile. (c)
 Calculate the interquartile range. (d) A student is 182 cm tall. Is this an outlier? Justify.
@@ -86,9 +94,13 @@ an outlier.
 
 **Question:** A teacher records the number of hours of revision and the exam score for 10 students:
 
+<div class="table-wrap">
+
 | Hours | 2   | 3   | 5   | 1   | 4   | 6   | 3   | 7   | 5   | 8   |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Score | 35  | 45  | 55  | 25  | 50  | 70  | 40  | 75  | 60  | 85  |
+
+</div>
 
 (a) Plot the data and describe the correlation. (b) Draw a line of best fit and use it to estimate
 the score for a student who revised for 4.5 hours. (c) Explain why extrapolation beyond 8 hours
@@ -165,12 +177,16 @@ not 50%.
 
 **Question:** The histogram shows the distribution of weights of 50 parcels:
 
+<div class="table-wrap">
+
 | Weight (kg)       | Frequency |
 | ----------------- | --------- |
 | $0 \le w \lt 2$   | 8         |
 | $2 \le w \lt 5$   | 15        |
 | $5 \le w \lt 10$  | 18        |
 | $10 \le w \lt 20$ | 9         |
+
+</div>
 
 (a) Calculate the frequency density for each class. (b) A parcel weighing 3.5 kg costs $\pounds 4$
 to send and a parcel weighing 12 kg costs $\pounds 12$. Assuming a linear pricing model, find the
@@ -214,7 +230,7 @@ drawn without replacement, calculate the probability that exactly 2 are red.
 $P(\text{two blue) = \frac{b(b-1)}{n(n-1)} = \frac{1}{3}$.
 
 (b) From $P(\text{two red)$: $6r(r-1) = n(n-1)$. From $P(\text{two blue)$: $3b(b-1) = n(n-1)$. So
-$6r(r-1) = 3b(b-1)$Giving $2r(r-1) = b(b-1)$.
+$6r(r-1) = 3b(b-1)$ Giving $2r(r-1) = b(b-1)$.
 
 Also: $\frac{1}{6} + \frac{1}{3} + P(\text{one of each) = 1$ So
 $P(\text{one of each) = 1 - \frac{1}{6} - \frac{1}{3} = \frac{1}{2}$.
@@ -231,7 +247,7 @@ $8r(r-1) = (3r-3)(3r-5) = 9r^2 - 24r + 15$.
 
 $8r^2 - 8r = 9r^2 - 24r + 15$. $r^2 - 16r + 15 = 0$. $(r-1)(r-15) = 0$.
 
-$r = 15$ (since $r = 1$ gives $b = 0$ But then $P(\text{two blue) = 0$Not $1/3$).
+$r = 15$ (since $r = 1$ gives $b = 0$ But then $P(\text{two blue) = 0$ Not $1/3$).
 
 $b = (45 - 3)/2 = 21$. Total $n = 36$.
 
@@ -253,27 +269,9 @@ $P(\text{exactly 2 red in 3) = \frac{\binom{15}{2} \times \binom{21}{1}}{\binom{
 
 **The key insight:** Correlation doesn't imply causation, just because two things happen together doesn't mean one causes the other.
 
-
-```mermaid
-flowchart TD
-    A[Diag Statistics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

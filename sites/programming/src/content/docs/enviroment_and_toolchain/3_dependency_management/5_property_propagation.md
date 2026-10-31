@@ -24,7 +24,7 @@ Scopes. This led to "Include Hell," where a consumer relied on a transitive depe
 Causing build breakages when the dependency graph changed.
 
 Modern CMake (3.0+) resolves this via the **Target-Centric Model**. Every library or executable is
-An object (Target) that encapsulates two distinct sets of data:
+an object (Target) that encapsulates two distinct sets of data:
 
 1. **Build Requirements:** What the target needs to build itself.
 2. **Usage Requirements:** What a consumer needs to link against the target.
@@ -34,7 +34,7 @@ Scopes.
 
 ## The Visibility Scopes
 
-When declaring properties (`target_include_directories``target_compile_definitions`) or Dependencies
+When declaring properties (`target_include_directories`, `target_compile_definitions`) or Dependencies
 (`target_link_libraries`), CMake requires a scope keyword.
 
 ### 1. PRIVATE (Encapsulation)
@@ -62,17 +62,17 @@ When declaring properties (`target_include_directories``target_compile_definitio
 - **Semantics:** The property is required for **both** building the target and by consumers.
 - **Mechanism:** Populates both the build properties and the `INTERFACE_` properties.
 - **Use Case:** Public API dependencies. If `LibA` includes `<fmt/core.h>` in its public header
-  `liba.h`Then any consumer of `LibA` must also have access to `fmt`'s include path.
+  `liba.h`. Then any consumer of `LibA` must also have access to `fmt`'s include path.
 
 ### Proof of Property Propagation Rules
 
-**Claim:** When target `B` links against target `A` with scope `S`The `INTERFACE_` properties of `A`
+**Claim:** When target `B` links against target `A` with scope `S`. The `INTERFACE_` properties of `A`
 propagate to `B` if and only if `S` is `PUBLIC` or `INTERFACE`.
 
 **Proof:**
 
 CMake's property propagation operates on the directed graph $G = (V, E)$ where vertices are targets
-And edges are `target_link_libraries` relationships. Each edge has a scope label
+and edges are `target_link_libraries` relationships. Each edge has a scope label
 $\{PRIVATE,
 INTERFACE, PUBLIC\}$.
 
@@ -138,7 +138,9 @@ Tightly coupled architecture.
 ## Complete Property Scope Table
 
 The following table enumerates every CMake property that supports visibility scopes and documents
-The propagation behavior for each.
+the propagation behavior for each.
+
+<div class="table-wrap">
 
 | Property                    | `PRIVATE` (build only) | `INTERFACE` (consumers only) | `PUBLIC` (both) | Target command                       |
 | :-------------------------- | :--------------------- | :--------------------------- | :-------------- | :----------------------------------- |
@@ -156,9 +158,11 @@ The propagation behavior for each.
 | System include directories  | Yes                    | Yes                          | Yes             | `target_include_directories(SYSTEM)` |
 | Autogen include directories | Yes                    | No                           | No              | `target_include_directories` (Qt)    |
 
+</div>
+
 ### Key Observations
 
-1. **Not all properties propagate.** `target_sources``target_precompile_headers`And position
+1. **Not all properties propagate.** `target_sources`, `target_precompile_headers` and position
    independent code settings are always `PRIVATE` and cannot be made transitive.
 2. **Include directories and compile definitions are the most commonly propagated properties.**
    These are the properties that directly affect whether a consumer can compile against a library.
@@ -210,7 +214,7 @@ target_include_directories(JsonLib INTERFACE include/)
 
 ### Pattern 3: Interface Alias for Installed Packages
 
-When consuming an installed package via `find_package`You can create an interface target to
+When consuming an installed package via `find_package`. You can create an interface target to
 Standardize the consumption:
 
 ```cmake
@@ -247,7 +251,7 @@ target_include_directories(CoreSystem PUBLIC
 
 During development, the build tree has a different directory layout than the install tree. Consider
 A library `Core` with headers in `Core/include/`. During an in-tree build, the include path is
-`/path/to/project/Core/include`. After installation with `DESTINATION include`The path is
+`/path/to/project/Core/include`. After installation with `DESTINATION include`. The path is
 `/usr/local/include`.
 
 If you write:
@@ -356,11 +360,11 @@ target_include_directories(Engine
 
 **Key rule:** If a header is `#include`D in your public `.h` file, the directory containing that
 Header must be a `PUBLIC` include directory. If a header is only `#include`D in `.cpp` files, it
-Should be `PRIVATE`.
+should be `PRIVATE`.
 
 ### Compile Options
 
-Compiler flags (`-Wall``-O2``/W4`) propagate similarly.
+Compiler flags (`-Wall`, `-O2`, `/W4`) propagate similarly.
 
 ```cmake
 add_library(Physics src/physics.cpp)
@@ -402,7 +406,7 @@ Final executable must link against. This has direct consequences for binary size
 ### Static Linking Amplification
 
 In a statically linked application, the transitive closure determines which object code is included
-In the final binary.
+in the final binary.
 
 ```text
 App (static)
@@ -419,7 +423,7 @@ App (static)
 
 **Total binary size contribution from transitive deps:** ~2.35MB (OpenSSL dominates).
 
-If `OpenSSL::SSL` were changed to `PRIVATE` on `Network`The binary would shrink by ~2MB, but
+If `OpenSSL::SSL` were changed to `PRIVATE` on `Network`. The binary would shrink by ~2MB, but
 `Server` could no longer expose OpenSSL types in its public headers.
 
 ### Measuring Transitive Dependency Size
@@ -501,6 +505,8 @@ target_link_libraries(my-app PRIVATE http-client)
 
 ### What `my-app` Sees
 
+<div class="table-wrap">
+
 | Property                       | Propagated to `my-app`? | Reason                                             |
 | :----------------------------- | :---------------------- | :------------------------------------------------- |
 | `http-client` include dir      | Yes                     | `PUBLIC` on `http-client`                          |
@@ -509,6 +515,8 @@ target_link_libraries(my-app PRIVATE http-client)
 | `CURL::libcurl`                | No                      | `PRIVATE` on `http-client`                         |
 | `OpenSSL`                      | No                      | `PRIVATE` on `libcurl` (if set correctly by vcpkg) |
 | `zlib`                         | No                      | `PRIVATE` on `libcurl` (if set correctly by vcpkg) |
+
+</div>
 
 **Result:** `my-app` can include `<nlohmann/json.hpp>` and `<http_client.h>` but cannot directly
 Include `<curl/curl.h>`. If `my-app` needs curl directly, it must add `CURL::libcurl` to its own
@@ -593,7 +601,9 @@ target_link_libraries(my-app PRIVATE json-wrapper)
 ## Transitive Usage Requirements and `INTERFACE_*` Properties
 
 Every `target_link_libraries` call with `PUBLIC` or `INTERFACE` scope triggers the propagation of
-All `INTERFACE_*` properties from the linked target. The complete list of propagated properties:
+all `INTERFACE_*` properties from the linked target. The complete list of propagated properties:
+
+<div class="table-wrap">
 
 | Propagated Property                   | Set by                                   | Effect on consumer                     |
 | :------------------------------------ | :--------------------------------------- | :------------------------------------- |
@@ -605,6 +615,8 @@ All `INTERFACE_*` properties from the linked target. The complete list of propag
 | `INTERFACE_LINK_DIRECTORIES`          | `target_link_directories(... PUBLIC)`    | Adds to consumer's `-L` paths          |
 | `INTERFACE_COMPILE_FEATURES`          | `target_compile_features(... PUBLIC)`    | Enables C++ features for consumer      |
 | `INTERFACE_POSITION_INDEPENDENT_CODE` | `set_target_properties(PIC)`             | Enables PIC for consumer               |
+
+</div>
 
 This is why a single `PUBLIC` link can cause a cascade of changes: it propagates not just the link
 Dependency, but all of the linked target's own transitive usage requirements.
@@ -618,7 +630,7 @@ Dependency, but all of the linked target's own transitive usage requirements.
    directories are not propagated. If any header in the target's public interface includes the
    header-only library's headers, consumers will fail to compile.
 3. **Mismatched `INTERFACE` and `PUBLIC` in installed packages:** When exporting a CMake package via
-   `install(EXPORT ...)`The `PUBLIC` and `INTERFACE` properties must be correctly specified. If a
+   `install(EXPORT ...)`. The `PUBLIC` and `INTERFACE` properties must be correctly specified. If a
    dependency is `PUBLIC` in the build tree but not exported in the install tree, installed
    consumers will get linker errors.
 4. **`SYSTEM` include directories:** Using `SYSTEM` on your own project's headers (not third-party)
@@ -631,7 +643,7 @@ Dependency, but all of the linked target's own transitive usage requirements.
    detects a cycle and errors. This indicates a design flaw: the two libraries should be merged or
    the dependency should be made PRIVATE on at least one side.
 7. **Forgetting that `target_link_libraries` propagates more than just linking.** When you write
-   `target_link_libraries(MyLib PUBLIC OtherLib)`You are not just adding a linker dependency. You
+   `target_link_libraries(MyLib PUBLIC OtherLib)`. You are not just adding a linker dependency. You
    are also propagating all of `OtherLib`'s include directories, compile definitions, compile
    options, and link options to every consumer of `MyLib`. This can cause unexpected side effects
    like inheriting warning suppression flags or optimization flags from transitive dependencies.
@@ -657,7 +669,7 @@ message(STATUS "MyLib COMPILE_DEFINITIONS: ${COMPILE_DEFS}")
 ### Tracing the Transitive Closure
 
 CMake does not provide a built-in command to trace the full transitive closure of properties, but
-You can use generator expressions to inspect what a target sees:
+you can use generator expressions to inspect what a target sees:
 
 ```cmake
 # Show the effective link libraries (including transitive)
@@ -676,7 +688,7 @@ add_custom_target(debug_props
 ### Common Diagnostic Patterns
 
 1. **"Cannot find -lfoo" at link time:** The library is linked with `PUBLIC` but the include
-   directory is `PRIVATE`So the consumer cannot find the headers. Or the library is linked as
+   directory is `PRIVATE`. So the consumer cannot find the headers. Or the library is linked as
    `PRIVATE` but the consumer's header includes it.
 2. **"Undeclared identifier" in consumer:** A `PUBLIC` include directory is missing. The dependency
    is linked but its include paths are not propagated.
@@ -687,6 +699,8 @@ add_custom_target(debug_props
 ## Generator Expression Quick Reference
 
 The following table lists commonly used generator expressions for property propagation control.
+
+<div class="table-wrap">
 
 | Expression                                       | Evaluates to                           | Use case                        |
 | :----------------------------------------------- | :------------------------------------- | :------------------------------ |
@@ -704,6 +718,8 @@ The following table lists commonly used generator expressions for property propa
 | `$<AND:$<CONFIG:Debug>,$<PLATFORM_ID:Linux>>`    | Logical AND                            | Complex conditions              |
 | `$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>` | Logical OR                             | Multiple config conditions      |
 
+</div>
+
 ## See Also
 
 - [Dependency Resolution](/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/) -- How the dependency graph is
@@ -720,19 +736,9 @@ The following table lists commonly used generator expressions for property propa
 
 **Property propagation is like passing notes in a classroom:** When the teacher (parent target) writes instructions on the board (sets properties), the students (child targets) need to copy those instructions into their notebooks. But if a student already has their own notes (overridden properties), they keep their own. The `PUBLIC` keyword is like the teacher writing on the board AND in each student's notebook, both the teacher and students see it. `PRIVATE` is like the teacher keeping notes only for themselves. `INTERFACE` is like writing only in the students' notebooks, the teacher doesn't keep a copy.
 
-**Why it matters:** Understanding property propagation is essential for writing correct CMake build systems. Without it, you'll either duplicate properties (wasting maintenance effort) or miss them (causing mysterious build failures). The three keywords, `PUBLIC``PRIVATE`and `INTERFACE`are the primary mechanism for controlling how properties flow through dependency chains.
+**Why it matters:** Understanding property propagation is essential for writing correct CMake build systems. Without it, you'll either duplicate properties (wasting maintenance effort) or miss them (causing mysterious build failures). The three keywords, `PUBLIC`, `PRIVATE`and `INTERFACE`are the primary mechanism for controlling how properties flow through dependency chains.
 
 **The key insight:** `PUBLIC` propagates to both the target and its consumers, `PRIVATE` only to the target, and `INTERFACE` only to consumers, get this wrong and your dependencies won't compile.
-
-```mermaid
-flowchart TD
-    A[5_Property_Propagation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -747,10 +753,5 @@ key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

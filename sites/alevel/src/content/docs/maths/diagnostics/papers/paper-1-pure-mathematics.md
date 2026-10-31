@@ -51,23 +51,29 @@ are awarded for method as well as final answer.
 
 ### Q1 [7 marks], Algebraic Expressions
 
-Given that $a^{\frac{1}{2}} + a^{-\frac{1}{2}} = 5$Find the exact value of:
+Given that $a^{\frac{1}{2}} + a^{-\frac{1}{2}} = 5$ Find the exact value of:
 
-$$\frac{a^{\frac{3}{2}} - a^{-\frac{3}{2}}}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}}$$
+$$
+\frac{a^{\frac{3}{2}} - a^{-\frac{3}{2}}}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}}
+$$
 
 ### Q2 [7 marks], Quadratics
 
 The roots of the equation $2x^2 - 5x + 1 = 0$ are $\alpha$ and $\beta$.
 
-Without finding the numerical values of $\alpha$ and $\beta$Find the value of:
+Without finding the numerical values of $\alpha$ and $\beta$ Find the value of:
 
-$$\frac{1}{\alpha^2 + 1} + \frac{1}{\beta^2 + 1}$$
+$$
+\frac{1}{\alpha^2 + 1} + \frac{1}{\beta^2 + 1}
+$$
 
 ### Q3 [7 marks], Equations and Inequalities
 
 Solve the inequality:
 
-$$\frac{x^2 - 3x + 2}{x^2 + x - 6} \geq 0$$
+$$
+\frac{x^2 - 3x + 2}{x^2 + x - 6} \geq 0
+$$
 
 State your answer using set notation, identifying all excluded values.
 
@@ -82,9 +88,9 @@ Hence find the coordinates of the point of tangency.
 
 Given $f(x) = \sqrt{2x - 1}$ and $g(x) = \frac{1}{x - 3}$:
 
-**(a)** Find the domain of $f \circ g$I.e. $f(g(x))$.
+**(a)** Find the domain of $f \circ g$ I.e. $f(g(x))$.
 
-**(b)** Find the domain of $g \circ f$I.e. $g(f(x))$.
+**(b)** Find the domain of $g \circ f$ I.e. $g(f(x))$.
 
 **(c)** Explain why the domains of $f \circ g$ and $g \circ f$ are different.
 
@@ -92,7 +98,9 @@ Given $f(x) = \sqrt{2x - 1}$ and $g(x) = \frac{1}{x - 3}$:
 
 Evaluate the sum:
 
-$$S_n = \sum_{r=1}^{n} \frac{1}{r(r+1)(r+2)}$$
+$$
+S_n = \sum_{r=1}^{n} \frac{1}{r(r+1)(r+2)}
+$$
 
 Express your answer in terms of $n$ And hence find $\lim_{n \to \infty} S_n$.
 
@@ -100,7 +108,9 @@ Express your answer in terms of $n$ And hence find $\lim_{n \to \infty} S_n$.
 
 Find the coefficient of $x^4$ in the expansion of:
 
-$$\frac{(1 + 2x)^5}{(1 - x)^3}$$
+$$
+\frac{(1 + 2x)^5}{(1 - x)^3}
+$$
 
 ### Q8 [8 marks], Trigonometry
 
@@ -111,12 +121,12 @@ interval $[0, 2\pi)$. Find $N$ and the sum of all $x$-coordinates of the interse
 
 ### Q9 [8 marks], Exponentials and Logarithms
 
-**(a)** Solve $e^{2x} - 5e^x + 6 = 0$Giving exact answers.
+**(a)** Solve $e^{2x} - 5e^x + 6 = 0$ Giving exact answers.
 
-**(b)** Solve $e^{2x} - 5e^x + 6 = 1$ for $x \in \mathbb{R}$Giving exact answers.
+**(b)** Solve $e^{2x} - 5e^x + 6 = 1$ for $x \in \mathbb{R}$ Giving exact answers.
 
 **(c)** Explain why, when using the substitution $u = e^x$ to solve an equation of the form
-$e^{2x} + pe^x + q = 0$You must check that $u \gt 0$ before taking natural logarithms.
+$e^{2x} + pe^x + q = 0$ You must check that $u \gt 0$ before taking natural logarithms.
 
 ### Q10 [9 marks], Differentiation
 
@@ -151,14 +161,14 @@ $\mathbf{d}_2 = \begin{pmatrix} 1 \\ a \\ 2 \end{pmatrix}$.
 
 **(a)** Find the value of $a$ for which $l_1$ and $l_2$ intersect.
 
-**(b)** For $a = 3$Determine whether $l_1$ and $l_2$ are skew, parallel, or intersecting.
+**(b)** For $a = 3$ Determine whether $l_1$ and $l_2$ are skew, parallel, or intersecting.
 
-**(c)** For $a = -1$Find the shortest distance between $l_1$ and $l_2$.
+**(c)** For $a = -1$ Find the shortest distance between $l_1$ and $l_2$.
 
 ### Q13 [5 marks], Proof
 
 For each of the following, state whether the condition is necessary, sufficient, both, or neither.
-Justify each answer.
+justify each answer.
 
 **(a)** "$x \gt 2$" as a condition for "$x^2 \gt 4$".
 
@@ -195,26 +205,36 @@ $x_3$. Describe the behaviour of the iteration.
 **Key observation:** The numerator $a^{3/2} - a^{-3/2}$ can be factorised using the difference of
 cubes identity $x^3 - y^3 = (x - y)(x^2 + xy + y^2)$ with $x = a^{1/2}$ and $y = a^{-1/2}$:
 
-$$a^{\frac{3}{2}} - a^{-\frac{3}{2}} = \left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)$$
+$$
+a^{\frac{3}{2}} - a^{-\frac{3}{2}} = \left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)
+$$
 
 Therefore the expression simplifies to:
 
-$$\frac{\left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}} = a + 1 + a^{-1}$$
+$$
+\frac{\left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}} = a + 1 + a^{-1}
+$$
 
-Provided $a^{1/2} - a^{-1/2} \neq 0$I.e. $a \neq 1$. (If $a = 1$The given condition would give
-$2 = 5$A contradiction, so $a \neq 1$ is guaranteed.)
+Provided $a^{1/2} - a^{-1/2} \neq 0$ I.e. $a \neq 1$. (If $a = 1$ The given condition would give
+$2 = 5$ A contradiction, so $a \neq 1$ is guaranteed.)
 
 **Step 2: Find $a + a^{-1}$ from the given condition.**
 
 We are given $a^{1/2} + a^{-1/2} = 5$. Squaring both sides:
 
-$$a + 2 + a^{-1} = 25$$
+$$
+a + 2 + a^{-1} = 25
+$$
 
-$$a + a^{-1} = 23$$
+$$
+a + a^{-1} = 23
+$$
 
 **Step 3: Compute the final answer.**
 
-$$a + 1 + a^{-1} = (a + a^{-1}) + 1 = 23 + 1 = 24$$
+$$
+a + 1 + a^{-1} = (a + a^{-1}) + 1 = 23 + 1 = 24
+$$
 
 ---
 
@@ -229,25 +249,35 @@ $$a + 1 + a^{-1} = (a + a^{-1}) + 1 = 23 + 1 = 24$$
 
 ### Q2, Solution
 
-**Step 1: State Vieta"s formulas.**
+**Step 1: State Vieta's formulas.**
 
-$$\alpha + \beta = \frac{5}{2}, \quad \alpha\beta = \frac{1}{2}$$
+$$
+\alpha + \beta = \frac{5}{2}, \quad \alpha\beta = \frac{1}{2}
+$$
 
 **Step 2: Simplify the target expression.**
 
-$$\frac{1}{\alpha^2+1} + \frac{1}{\beta^2+1} = \frac{(\beta^2+1) + (\alpha^2+1)}{(\alpha^2+1)(\beta^2+1)} = \frac{\alpha^2 + \beta^2 + 2}{\alpha^2\beta^2 + \alpha^2 + \beta^2 + 1}$$
+$$
+\frac{1}{\alpha^2+1} + \frac{1}{\beta^2+1} = \frac{(\beta^2+1) + (\alpha^2+1)}{(\alpha^2+1)(\beta^2+1)} = \frac{\alpha^2 + \beta^2 + 2}{\alpha^2\beta^2 + \alpha^2 + \beta^2 + 1}
+$$
 
 **Step 3: Express $\alpha^2 + \beta^2$ using Vieta's.**
 
-$$\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = \frac{25}{4} - 1 = \frac{21}{4}$$
+$$
+\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = \frac{25}{4} - 1 = \frac{21}{4}
+$$
 
 **Step 4: Compute $\alpha^2\beta^2$.**
 
-$$\alpha^2\beta^2 = (\alpha\beta)^2 = \frac{1}{4}$$
+$$
+\alpha^2\beta^2 = (\alpha\beta)^2 = \frac{1}{4}
+$$
 
 **Step 5: Substitute into the expression.**
 
-$$\frac{\frac{21}{4} + 2}{\frac{1}{4} + \frac{21}{4} + 1} = \frac{\frac{21}{4} + \frac{8}{4}}{\frac{1}{4} + \frac{21}{4} + \frac{4}{4}} = \frac{\frac{29}{4}}{\frac{26}{4}} = \frac{29}{26}$$
+$$
+\frac{\frac{21}{4} + 2}{\frac{1}{4} + \frac{21}{4} + 1} = \frac{\frac{21}{4} + \frac{8}{4}}{\frac{1}{4} + \frac{21}{4} + \frac{4}{4}} = \frac{\frac{29}{4}}{\frac{26}{4}} = \frac{29}{26}
+$$
 
 ---
 
@@ -276,12 +306,16 @@ Excluded values: $x = -3$ (denominator zero) and $x = 2$ (denominator zero).
 
 **Step 3: Sign analysis.**
 
+<div class="table-wrap">
+
 | $x$              | $(x+3)$ | $(x-1)$ | $(x-2)$ | Numerator | Denominator | Ratio |
 | ---------------- | ------- | ------- | ------- | --------- | ----------- | ----- |
 | $x \lt -3$       | $-$     | $-$     | $-$     | $+$       | $+$         | $+$   |
 | $-3 \lt x \lt 1$ | $+$     | $-$     | $-$     | $+$       | $-$         | $-$   |
 | $1 \lt x \lt 2$  | $+$     | $+$     | $-$     | $-$       | $-$         | $+$   |
 | $x \gt 2$        | $+$     | $+$     | $+$     | $+$       | $+$         | $+$   |
+
+</div>
 
 **Step 4: Include or exclude endpoints.**
 
@@ -291,9 +325,11 @@ Excluded values: $x = -3$ (denominator zero) and $x = 2$ (denominator zero).
 
 **Step 5: Assemble the solution.**
 
-The expression is non-negative when $x \lt -3$, $1 \leq x \lt 2$Or $x \gt 2$.
+The expression is non-negative when $x \lt -3$, $1 \leq x \lt 2$ Or $x \gt 2$.
 
-$$x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)$$
+$$
+x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)
+$$
 
 ---
 
@@ -319,7 +355,7 @@ $$\Delta = (4k-4)^2 - 4(1+k^2)(4) = 0$$ $$16k^2 - 32k + 16 - 16 - 16k^2 = 0$$ $$
 
 **Step 3: Find the point of tangency.**
 
-With $k = 0$The line is $y = 5$. Substituting into the circle:
+With $k = 0$ The line is $y = 5$. Substituting into the circle:
 
 $$x^2 + 25 - 4x - 30 + 9 = 0$$ $$x^2 - 4x + 4 = 0$$ $$(x-2)^2 = 0$$ $$x = 2$$
 
@@ -353,11 +389,15 @@ Solving $\frac{5-x}{x-3} \geq 0$ by sign analysis:
 
 Critical values: $x = 3$ (excluded) and $x = 5$ (included).
 
+<div class="table-wrap">
+
 | Interval         | $(5-x)$ | $(x-3)$ | Ratio |
 | ---------------- | ------- | ------- | ----- |
 | $x \lt 3$        | $+$     | $-$     | $-$   |
 | $3 \lt x \leq 5$ | $+$     | $+$     | $+$   |
 | $x \gt 5$        | $-$     | $+$     | $-$   |
+
+</div>
 
 Domain of $f \circ g$: $(3, 5]$.
 
@@ -399,11 +439,15 @@ excluded value of $g$ (which is $3$). The former is much more restrictive.
 
 We seek constants $A$, $B$, $C$ such that:
 
-$$\frac{1}{r(r+1)(r+2)} = \frac{A}{r} + \frac{B}{r+1} + \frac{C}{r+2}$$
+$$
+\frac{1}{r(r+1)(r+2)} = \frac{A}{r} + \frac{B}{r+1} + \frac{C}{r+2}
+$$
 
 Multiplying through by $r(r+1)(r+2)$:
 
-$$1 = A(r+1)(r+2) + Br(r+2) + Cr(r+1)$$
+$$
+1 = A(r+1)(r+2) + Br(r+2) + Cr(r+1)
+$$
 
 Substituting $r = 0$: $1 = A(1)(2) \implies A = \frac{1}{2}$.
 
@@ -413,7 +457,9 @@ Substituting $r = -2$: $1 = C(-2)(-1) \implies C = \frac{1}{2}$.
 
 **Step 2: Verify.**
 
-$$\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2} = \frac{(r+1)(r+2) - 2r(r+2) + r(r+1)}{2r(r+1)(r+2)}$$
+$$
+\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2} = \frac{(r+1)(r+2) - 2r(r+2) + r(r+1)}{2r(r+1)(r+2)}
+$$
 
 Numerator: $(r^2 + 3r + 2) + (-2r^2 - 4r) + (r^2 + r) = 0 + 0 + 2 = 2$.
 
@@ -421,25 +467,37 @@ So the fraction is $\frac{2}{2r(r+1)(r+2)} = \frac{1}{r(r+1)(r+2)}$. Confirmed.
 
 **Step 3: Write out the telescoping sum.**
 
-$$S_n = \sum_{r=1}^{n}\left(\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2}\right)$$
+$$
+S_n = \sum_{r=1}^{n}\left(\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2}\right)
+$$
 
-$$= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=1}^{n}\frac{1}{r+1} + \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r+2}$$
+$$
+= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=1}^{n}\frac{1}{r+1} + \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r+2}
+$$
 
 Re-indexing:
 
-$$= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=2}^{n+1}\frac{1}{r} + \frac{1}{2}\sum_{r=3}^{n+2}\frac{1}{r}$$
+$$
+= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=2}^{n+1}\frac{1}{r} + \frac{1}{2}\sum_{r=3}^{n+2}\frac{1}{r}
+$$
 
 The $\sum_{r=3}^{n}\frac{1}{r}$ terms cancel (coefficient: $\frac{1}{2} - 1 + \frac{1}{2} = 0$).
 
 Remaining terms:
 
-$$\frac{1}{2} + \frac{1}{4} - \frac{1}{2} - \frac{1}{n+1} + \frac{1}{2(n+1)} + \frac{1}{2(n+2)}$$
+$$
+\frac{1}{2} + \frac{1}{4} - \frac{1}{2} - \frac{1}{n+1} + \frac{1}{2(n+1)} + \frac{1}{2(n+2)}
+$$
 
-$$= \frac{1}{4} + \frac{1}{2(n+2)}$$
+$$
+= \frac{1}{4} + \frac{1}{2(n+2)}
+$$
 
 **Step 4: Find the limit.**
 
-$$\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}$$
+$$
+\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}
+$$
 
 ---
 
@@ -456,23 +514,35 @@ $$\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}$$
 
 **Step 1: Expand the numerator.**
 
-$$(1 + 2x)^5 = \sum_{r=0}^{5} \binom{5}{r} (2x)^r = 1 + 10x + 40x^2 + 80x^3 + 80x^4 + 32x^5$$
+$$
+(1 + 2x)^5 = \sum_{r=0}^{5} \binom{5}{r} (2x)^r = 1 + 10x + 40x^2 + 80x^3 + 80x^4 + 32x^5
+$$
 
 **Step 2: Expand the denominator using the general binomial theorem.**
 
-$$(1 - x)^{-3} = \sum_{s=0}^{\infty} \binom{-3}{s}(-x)^s$$
+$$
+(1 - x)^{-3} = \sum_{s=0}^{\infty} \binom{-3}{s}(-x)^s
+$$
 
-$$\binom{-3}{s} = \frac{(-1)^s (s+2)!}{2! \cdot s!} = (-1)^s \binom{s+2}{2}$$
+$$
+\binom{-3}{s} = \frac{(-1)^s (s+2)!}{2! \cdot s!} = (-1)^s \binom{s+2}{2}
+$$
 
 Therefore:
 
-$$(1-x)^{-3} = \sum_{s=0}^{\infty} (-1)^s \binom{s+2}{2} (-x)^s = \sum_{s=0}^{\infty} \binom{s+2}{2} x^s$$
+$$
+(1-x)^{-3} = \sum_{s=0}^{\infty} (-1)^s \binom{s+2}{2} (-x)^s = \sum_{s=0}^{\infty} \binom{s+2}{2} x^s
+$$
 
-$$= 1 + 3x + 6x^2 + 10x^3 + 15x^4 + 21x^5 + \cdots$$
+$$
+= 1 + 3x + 6x^2 + 10x^3 + 15x^4 + 21x^5 + \cdots
+$$
 
 **Step 3: Multiply the series and extract the $x^4$ coefficient.**
 
 We need all pairs $(r, s)$ with $r + s = 4$ where $0 \leq r \leq 5$ and $s \geq 0$:
+
+<div class="table-wrap">
 
 | $r$ | Coefficient from numerator | $s$ | Coefficient from denominator | Product |
 | --- | -------------------------- | --- | ---------------------------- | ------- |
@@ -481,6 +551,8 @@ We need all pairs $(r, s)$ with $r + s = 4$ where $0 \leq r \leq 5$ and $s \geq 
 | 2   | 40                         | 2   | 6                            | 240     |
 | 3   | 80                         | 1   | 3                            | 240     |
 | 4   | 80                         | 0   | 1                            | 80      |
+
+</div>
 
 Coefficient of $x^4$: $15 + 100 + 240 + 240 + 80 = 675$.
 
@@ -499,12 +571,14 @@ Coefficient of $x^4$: $15 + 100 + 240 + 240 + 80 = 675$.
 
 **(a)** $\cos(3x) = \frac{1}{2}$.
 
-Let $\theta = 3x$. Since $x \in [0, 2\pi)$We have $\theta \in [0, 6\pi)$.
+Let $\theta = 3x$. Since $x \in [0, 2\pi)$ We have $\theta \in [0, 6\pi)$.
 
 $\cos\theta = \frac{1}{2}$ gives $\theta = \frac{\pi}{3} + 2n\pi$ or
 $\theta = \frac{5\pi}{3} + 2n\pi$ for $n \in \mathbb{Z}$.
 
 Systematically listing all $\theta \in [0, 6\pi)$:
+
+<div class="table-wrap">
 
 | $n$ | $\theta = \frac{\pi}{3} + 2n\pi$ | $\theta = \frac{5\pi}{3} + 2n\pi$ |
 | --- | -------------------------------------------- | --------------------------------------------- |
@@ -512,17 +586,23 @@ Systematically listing all $\theta \in [0, 6\pi)$:
 | 1   | $\frac{7\pi}{3}$                 | $\frac{11\pi}{3}$                 |
 | 2   | $\frac{13\pi}{3}$                | $\frac{17\pi}{3}$                 |
 
+</div>
+
 All six values are in $[0, 6\pi)$ since $\frac{17\pi}{3} = 5\frac{2}{3}\pi \lt 6\pi$.
 
 Dividing by 3:
 
-$$x = \frac{\pi}{9},\quad \frac{5\pi}{9},\quad \frac{7\pi}{9},\quad \frac{11\pi}{9},\quad \frac{13\pi}{9},\quad \frac{17\pi}{9}$$
+$$
+x = \frac{\pi}{9},\quad \frac{5\pi}{9},\quad \frac{7\pi}{9},\quad \frac{11\pi}{9},\quad \frac{13\pi}{9},\quad \frac{17\pi}{9}
+$$
 
 **(b)** $N = 6$ (from part (a)).
 
 The sum of all $x$-coordinates:
 
-$$S = \frac{\pi}{9} + \frac{5\pi}{9} + \frac{7\pi}{9} + \frac{11\pi}{9} + \frac{13\pi}{9} + \frac{17\pi}{9} = \frac{60\pi}{9} = \frac{20\pi}{3}$$
+$$
+S = \frac{\pi}{9} + \frac{5\pi}{9} + \frac{7\pi}{9} + \frac{11\pi}{9} + \frac{13\pi}{9} + \frac{17\pi}{9} = \frac{60\pi}{9} = \frac{20\pi}{3}
+$$
 
 ---
 
@@ -537,9 +617,11 @@ $$S = \frac{\pi}{9} + \frac{5\pi}{9} + \frac{7\pi}{9} + \frac{11\pi}{9} + \frac{
 
 ### Q9, Solution
 
-**(a)** Let $u = e^x$. Since $e^x \gt 0$ for all $x \in \mathbb{R}$We require $u \gt 0$.
+**(a)** Let $u = e^x$. Since $e^x \gt 0$ for all $x \in \mathbb{R}$ We require $u \gt 0$.
 
-$$u^2 - 5u + 6 = 0 \implies (u-2)(u-3) = 0 \implies u = 2 \text{ or } u = 3$$
+$$
+u^2 - 5u + 6 = 0 \implies (u-2)(u-3) = 0 \implies u = 2 \text{ or } u = 3
+$$
 
 Both satisfy $u \gt 0$.
 
@@ -553,16 +635,20 @@ Solutions: $x = \ln 2$ and $x = \ln 3$.
 
 Let $u = e^x$ ($u \gt 0$):
 
-$$u^2 - 5u + 5 = 0 \implies u = \frac{5 \pm \sqrt{25 - 20}}{2} = \frac{5 \pm \sqrt{5}}{2}$$
+$$
+u^2 - 5u + 5 = 0 \implies u = \frac{5 \pm \sqrt{25 - 20}}{2} = \frac{5 \pm \sqrt{5}}{2}
+$$
 
 Both roots are positive: $\frac{5 - \sqrt{5}}{2} \approx 1.382 \gt 0$ and
 $\frac{5 + \sqrt{5}}{2} \approx 3.618 \gt 0$.
 
-$$x = \ln\!\left(\frac{5 + \sqrt{5}}{2}\right) \quad \text{or} \quad x = \ln\!\left(\frac{5 - \sqrt{5}}{2}\right)$$
+$$
+x = \ln\!\left(\frac{5 + \sqrt{5}}{2}\right) \quad \text{or} \quad x = \ln\!\left(\frac{5 - \sqrt{5}}{2}\right)
+$$
 
 **(c)** The check is necessary because if a root of the quadratic in $u$ were negative or zero,
 taking $\ln u$ would be undefined. For example, if the equation were $e^{2x} - 3e^x - 4 = 0$ Then
-$u = -1$ or $u = 4$ And $u = -1$ would give $e^x = -1$Which has no real solution. The substitution
+$u = -1$ or $u = 4$ And $u = -1$ would give $e^x = -1$ Which has no real solution. The substitution
 $u = e^x$ implicitly constrains $u \gt 0$ And students who forget this constraint accept spurious
 solutions.
 
@@ -581,9 +667,13 @@ solutions.
 
 **(a)** $y = x^4 - 4x^3 + 6x^2 - 4x + 1$
 
-$$\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4$$
+$$
+\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4
+$$
 
-$$\frac{d^2y}{dx^2} = 12x^2 - 24x + 12 = 12(x^2 - 2x + 1) = 12(x-1)^2$$
+$$
+\frac{d^2y}{dx^2} = 12x^2 - 24x + 12 = 12(x^2 - 2x + 1) = 12(x-1)^2
+$$
 
 **(b)** $\frac{dy}{dx} = 4x^3 - 12x^2 + 12x - 4 = 4(x^3 - 3x^2 + 3x - 1) = 4(x-1)^3 = 0$.
 
@@ -613,7 +703,7 @@ The second derivative test is inconclusive when $\frac{d^2y}{dx^2} = 0$; the fir
 
 **(d)** $y = x^4 - 4x^3 + 6x^2 - 4x + 1 = (x-1)^4$.
 
-This is immediately obvious because $(x-1)^4 \geq 0$ for all $x$With equality only at $x = 1$. So
+This is immediately obvious because $(x-1)^4 \geq 0$ for all $x$ With equality only at $x = 1$. So
 $(1, 0)$ is a global (and local) minimum.
 
 ---
@@ -636,13 +726,21 @@ Set $u = \ln x$, $\frac{dv}{dx} = x^3$.
 
 $du = \frac{1}{x}\, dx$, $v = \frac{x^4}{4}$.
 
-$$\int x^3 \ln x\, dx = \frac{x^4}{4}\ln x - \int \frac{x^4}{4} \cdot \frac{1}{x}\, dx$$
+$$
+\int x^3 \ln x\, dx = \frac{x^4}{4}\ln x - \int \frac{x^4}{4} \cdot \frac{1}{x}\, dx
+$$
 
-$$= \frac{x^4}{4}\ln x - \frac{1}{4}\int x^3\, dx$$
+$$
+= \frac{x^4}{4}\ln x - \frac{1}{4}\int x^3\, dx
+$$
 
-$$= \frac{x^4}{4}\ln x - \frac{x^4}{16} + C$$
+$$
+= \frac{x^4}{4}\ln x - \frac{x^4}{16} + C
+$$
 
-$$= \frac{x^4}{16}(4\ln x - 1) + C$$
+$$
+= \frac{x^4}{16}(4\ln x - 1) + C
+$$
 
 **(b)** If the student chooses $u = x^3$ and $\frac{dv}{dx} = \ln x$:
 
@@ -659,7 +757,9 @@ At $x = e$: $\frac{e^4}{16}(4 - 1) = \frac{3e^4}{16}$
 
 At $x = 1$: $\frac{1}{16}(0 - 1) = -\frac{1}{16}$
 
-$$= \frac{3e^4}{16} - \left(-\frac{1}{16}\right) = \frac{3e^4 + 1}{16}$$
+$$
+= \frac{3e^4}{16} - \left(-\frac{1}{16}\right) = \frac{3e^4 + 1}{16}
+$$
 
 ---
 
@@ -679,7 +779,9 @@ never parallel.
 
 For intersection, there exist $s, t$ such that:
 
-$$1 + 2s = 4 + t, \quad 2 - s = 1 + at, \quad 3 + s = 0 + 2t$$
+$$
+1 + 2s = 4 + t, \quad 2 - s = 1 + at, \quad 3 + s = 0 + 2t
+$$
 
 From the first equation: $t = 2s - 3$.
 
@@ -690,22 +792,24 @@ Then $t = 2(3) - 3 = 3$.
 Substituting into the second equation:
 $2 - 3 = 1 + 3a \implies -1 = 1 + 3a \implies a = -\frac{2}{3}$.
 
-The lines intersect when $a = -\frac{2}{3}$At the point
+The lines intersect when $a = -\frac{2}{3}$ At the point
 $\begin{pmatrix} 7 \\ -1 \\ 6 \end{pmatrix}$.
 
 **(b)** For $a = 3$: the lines are not parallel. Check for intersection:
 
 From the first and third equations: $s = 3$, $t = 3$.
 
-Second equation: $2 - 3 = 1 + 3(3) = 10$Giving $-1 = 10$Which is false.
+Second equation: $2 - 3 = 1 + 3(3) = 10$ Giving $-1 = 10$ Which is false.
 
 The system is inconsistent, so the lines are **skew**.
 
-**(c)** For $a = -1$: the lines are skew (checking gives $-1 = 1 + (-1)(3) = -2$False).
+**(c)** For $a = -1$: the lines are skew (checking gives $-1 = 1 + (-1)(3) = -2$ False).
 
 The shortest distance between two skew lines is:
 
-$$d = \frac{\lvert(\mathbf{b} - \mathbf{a}) \cdot (\mathbf{d}_1 \times \mathbf{d}_2)\rvert}{\lvert\mathbf{d}_1 \times \mathbf{d}_2\rvert}$$
+$$
+d = \frac{\lvert(\mathbf{b} - \mathbf{a}) \cdot (\mathbf{d}_1 \times \mathbf{d}_2)\rvert}{\lvert\mathbf{d}_1 \times \mathbf{d}_2\rvert}
+$$
 
 $\mathbf{b} - \mathbf{a} = \begin{pmatrix} 3 \\ -1 \\ -3 \end{pmatrix}$.
 
@@ -715,7 +819,9 @@ $\lvert\mathbf{d}_1 \times \mathbf{d}_2\rvert = \sqrt{9+9+1} = \sqrt{19}$
 
 $(\mathbf{b}-\mathbf{a}) \cdot (\mathbf{d}_1 \times \mathbf{d}_2) = -9 + 3 + 3 = -3$
 
-$$d = \frac{\lvert -3 \rvert}{\sqrt{19}} = \frac{3}{\sqrt{19}} = \frac{3\sqrt{19}}{19}$$
+$$
+d = \frac{\lvert -3 \rvert}{\sqrt{19}} = \frac{3}{\sqrt{19}} = \frac{3\sqrt{19}}{19}
+$$
 
 ---
 
@@ -740,7 +846,7 @@ does not imply "prime" (counterexample: 9).
 
 Answer: **neither necessary nor sufficient**.
 
-**(c)** Since $a^2 \geq 0$ and $b^2 \geq 0$The sum $a^2 + b^2 = 0$ only when both are zero. So
+**(c)** Since $a^2 \geq 0$ and $b^2 \geq 0$ The sum $a^2 + b^2 = 0$ only when both are zero. So
 $a^2 + b^2 = 0 \iff a = 0 \text{ and } b = 0$.
 
 Answer: **both necessary and sufficient**.
@@ -771,23 +877,29 @@ the left of the local maximum). So there is exactly one real root.
 
 $x_0 = 0$: $f(0) = 2$, $f'(0) = -2$.
 
-$$x_1 = 0 - \frac{2}{-2} = 1$$
+$$
+x_1 = 0 - \frac{2}{-2} = 1
+$$
 
 $x_1 = 1$: $f(1) = 1$, $f'(1) = 1$.
 
-$$x_2 = 1 - \frac{1}{1} = 0$$
+$$
+x_2 = 1 - \frac{1}{1} = 0
+$$
 
 $x_2 = 0$: $f(0) = 2$, $f'(0) = -2$.
 
-$$x_3 = 0 - \frac{2}{-2} = 1$$
+$$
+x_3 = 0 - \frac{2}{-2} = 1
+$$
 
 The iteration cycles: $0, 1, 0, 1, 0, 1, \ldots$
 
-**(c)** The iteration fails because at $x_0 = 0$The tangent to the curve has gradient
-$f'(0) = -2$Which points towards $x = 1$ rather than towards the root at $x \approx -1.77$. The
+**(c)** The iteration fails because at $x_0 = 0$ The tangent to the curve has gradient
+$f'(0) = -2$ Which points towards $x = 1$ rather than towards the root at $x \approx -1.77$. The
 Newton-Raphson method overshoots because the tangent at $x = 0$ intersects the $x$-axis at
-$x = 1$Which is on the opposite side of the local minimum at $x \approx 0.816$ where
-$f \approx 0.91 \gt 0$Creating a barrier that the iteration cannot cross. The iteration gets trapped
+$x = 1$ Which is on the opposite side of the local minimum at $x \approx 0.816$ where
+$f \approx 0.91 \gt 0$ Creating a barrier that the iteration cannot cross. The iteration gets trapped
 in a 2-cycle between $x = 0$ and $x = 1$.
 
 ---
@@ -803,6 +915,8 @@ in a 2-cycle between $x = 0$ and $x = 1$.
 
 ## Marking Guide
 
+<div class="table-wrap">
+
 | Question  | Topic                       |   Marks | Key Skills Tested                                                                                        |
 | --------- | --------------------------- | ------: | -------------------------------------------------------------------------------------------------------- |
 | Q1        | Algebraic Expressions       |       7 | Fractional/negative indices, difference of cubes, algebraic manipulation                                 |
@@ -812,8 +926,8 @@ in a 2-cycle between $x = 0$ and $x = 1$.
 | Q5        | Functions                   |       7 | Composite function domains, range of inner function, domain restrictions                                 |
 | Q6        | Sequences and Series        |       7 | Partial fractions, telescoping series, index shifting, limits                                            |
 | Q7        | Binomial Expansion          |       7 | General binomial theorem, combining expansions, coefficient extraction                                   |
-| Q8        | Trigonometry                |       8 | Periodicity of $\cos(3x)$Systematic solution enumeration, sum of solutions                               |
-| Q9        | Exponentials and Logarithms |       8 | Hidden quadratic in $e^x$Positivity constraint on substitution                                           |
+| Q8        | Trigonometry                |       8 | Periodicity of $\cos(3x)$ Systematic solution enumeration, sum of solutions                               |
+| Q9        | Exponentials and Logarithms |       8 | Hidden quadratic in $e^x$ Positivity constraint on substitution                                           |
 | Q10       | Differentiation             |       9 | Stationary points, second derivative test inconclusiveness, first derivative test, $(x-1)^4$ recognition |
 | Q11       | Integration                 |       9 | LIATE rule for integration by parts, definite integration with $e$                                       |
 | Q12       | Vectors                     |       7 | Skew/parallel/intersecting lines, cross product, shortest distance formula                               |
@@ -821,31 +935,15 @@ in a 2-cycle between $x = 0$ and $x = 1$.
 | Q14       | Numerical Methods           |       5 | Newton-Raphson divergence, 2-cycle behaviour, geometric interpretation of failure                        |
 | **Total** |                             | **100** |                                                                                                          |
 
+</div>
+
 ## Intuition
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-
-```mermaid
-flowchart TD
-    A[Paper 1 Pure Mathematics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

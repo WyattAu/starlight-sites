@@ -370,8 +370,8 @@ int main() {
 ### Projections with Range Views
 
 Projections and range views solve similar problems but at different levels. Projections are
-Per-algorithm; views are compositional pipelines. Use projections when you need a single algorithm
-To operate on derived data. Use views when you need to build a processing pipeline:
+per-algorithm; views are compositional pipelines. Use projections when you need a single algorithm
+to operate on derived data. Use views when you need to build a processing pipeline:
 
 ```cpp
 #include <iostream>
@@ -470,12 +470,12 @@ int main() {
 ### Algorithms That Do NOT Support Projections
 
 Not all ranges algorithms accept projections. The following algorithms operate on elements directly
-And do not have a projection parameter:
+and do not have a projection parameter:
 
-- `std::ranges::copy``std::ranges::move``std::ranges::swap_ranges`
-- `std::ranges::fill``std::ranges::generate``std::ranges::iota`
-- `std::ranges::reverse``std::ranges::rotate`
-- `std::ranges::partition``std::ranges::stable_partition`
+- `std::ranges::copy`, `std::ranges::move`, `std::ranges::swap_ranges`
+- `std::ranges::fill`, `std::ranges::generate`, `std::ranges::iota`
+- `std::ranges::reverse`, `std::ranges::rotate`
+- `std::ranges::partition`, `std::ranges::stable_partition`
 
 For these algorithms, use `std::views::transform` as a preprocessing step instead.
 
@@ -543,7 +543,7 @@ int main() {
 ### 3. Projection with Stateful Callables
 
 Using a stateful projection (a lambda that captures mutable state) produces undefined behavior if
-The algorithm copies the projection internally. Most algorithms take the projection by value, so
+the algorithm copies the projection internally. Most algorithms take the projection by value, so
 Mutations to the original lambda are not visible to the algorithm's copies:
 
 ```cpp
@@ -569,16 +569,6 @@ int main() {
 - [Range Materialization](/standard_library/2_algorithms_and_ranges/4_range_materialization/)
 - [Parallel Algorithms](/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
 
-```mermaid
-flowchart TD
-    A[3_Projections] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of projections and callable objects, including underlying
@@ -592,14 +582,9 @@ theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Projections are the "key extractor" in sorting and searching algorithms, telling the algorithm which part of an object to compare. When you sort students by grade, the projection is the function that pulls the grade out of each student record. This separates the comparison logic from the data structure, so you can sort the same collection by different keys without modifying the objects themselves, like rearranging a deck of cards by suit or by number without marking the cards.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

@@ -41,11 +41,15 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 
 ### 1.1 Subatomic Particles
 
+<div class="table-wrap">
+
 | Particle | Relative mass            | Relative charge | Location        |
 | -------- | ------------------------ | --------------- | --------------- |
 | Proton   | 1                        | +1              | Nucleus         |
 | Neutron  | 1                        | 0               | Nucleus         |
 | Electron | $\approx \frac{1}{1836}$ | $-1$            | Electron shells |
+
+</div>
 
 - **Atomic number ($Z$):** The number of protons in the nucleus. Defines the element.
 - **Mass number ($A$):** The total number of protons and neutrons.
@@ -66,7 +70,9 @@ properties (different masses).
 **Relative atomic mass ($A_r$):** The weighted average mass of an atom of an element relative to
 1/12 the mass of a carbon-12 atom.
 
-$$A_r = \frac{\sum (\text{isotope abundance} \times \text{isotope mass})}{\sum (\text{isotope abundance})}$$
+$$
+A_r = \frac{\sum (\text{isotope abundance} \times \text{isotope mass})}{\sum (\text{isotope abundance})}
+$$
 
 ### 1.3 Electron Configuration
 
@@ -82,6 +88,8 @@ similar chemical properties.
 
 ### 1.4 Development of the Atomic Model
 
+<div class="table-wrap">
+
 | Scientist  | Model           | Key idea                                                                       |
 | ---------- | --------------- | ------------------------------------------------------------------------------ |
 | Dalton     | Solid sphere    | Atoms are indivisible particles                                                |
@@ -89,6 +97,8 @@ similar chemical properties.
 | Rutherford | Nuclear model   | Dense positive nucleus; most of the atom is empty space (gold foil experiment) |
 | Bohr       | Electron shells | Electrons orbit the nucleus in fixed energy levels                             |
 | Chadwick   | Updated nuclear | Discovered the neutron                                                         |
+
+</div>
 
 ---
 
@@ -111,7 +121,9 @@ attraction between oppositely charged ions is the ionic bond.
 
 **Example.** Sodium chloride:
 
-$$\text{Na} \rightarrow \text{Na}^+ + e^- \qquad \text{Cl} + e^- \rightarrow \text{Cl}^-$$
+$$
+\text{Na} \rightarrow \text{Na}^+ + e^- \qquad \text{Cl} + e^- \rightarrow \text{Cl}^-
+$$
 
 **Dot-and-cross diagram for NaCl:**
 
@@ -139,11 +151,15 @@ shell.
 
 **Giant covalent structures:**
 
+<div class="table-wrap">
+
 | Substance                        | Bonding                                              | Properties                                                  |
 | -------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------- |
 | Diamond                          | Each carbon bonds to 4 others                        | Extremely hard, very high melting point, insulator          |
 | Graphite                         | Each carbon bonds to 3 others; delocalised electrons | Soft and slippery, high melting point, conducts electricity |
 | Silicon dioxide ($\text{SiO}_2$) | Giant covalent lattice                               | Hard, high melting point, insulator                         |
+
+</div>
 
 ### 2.3 Metallic Bonding
 
@@ -178,7 +194,9 @@ the lattice, making it harder for layers to slide, alloys are harder than pure m
 
 The reactivity series ranks metals from most reactive to least reactive:
 
-$$\text{K} > \text{Na} > \text{Li} > \text{Ca} > \text{Mg} > \text{Al} > \text{(C)} > \text{Zn} > \text{Fe} > \text{(H)} > \text{Cu} > \text{Ag} > \text{Au}$$
+$$
+\text{K} > \text{Na} > \text{Li} > \text{Ca} > \text{Mg} > \text{Al} > \text{(C)} > \text{Zn} > \text{Fe} > \text{(H)} > \text{Cu} > \text{Ag} > \text{Au}
+$$
 
 - A more reactive metal displaces a less reactive metal from its compound.
 - Carbon and hydrogen are included as reference points.
@@ -188,12 +206,16 @@ $$\text{K} > \text{Na} > \text{Li} > \text{Ca} > \text{Mg} > \text{Al} > \text{(
 **Metal displacement:** A more reactive metal displaces a less reactive metal from its salt
 solution.
 
-$$\text{Zn(s)} + \text{CuSO}_4\text{(aq)} \rightarrow \text{ZnSO}_4\text{(aq)} + \text{Cu(s)}$$
+$$
+\text{Zn(s)} + \text{CuSO}_4\text{(aq)} \rightarrow \text{ZnSO}_4\text{(aq)} + \text{Cu(s)}
+$$
 
 **Halogen displacement:** A more reactive halogen displaces a less reactive halogen from its
 solution.
 
-$$\text{Cl}_2\text{(aq)} + 2\text{KBr(aq)} \rightarrow 2\text{KCl(aq)} + \text{Br}_2\text{(aq)}$$
+$$
+\text{Cl}_2\text{(aq)} + 2\text{KBr(aq)} \rightarrow 2\text{KCl(aq)} + \text{Br}_2\text{(aq)}
+$$
 
 Reactivity of halogens decreases down the group: $\text{F} > \text{Cl} > \text{Br} > \text{I}$.
 
@@ -207,17 +229,23 @@ Reactivity of halogens decreases down the group: $\text{F} > \text{Cl} > \text{B
 
 **Iron extraction in the blast furnace:**
 
-$$\text{Fe}_2\text{O}_3 + 3\text{CO} \rightarrow 2\text{Fe} + 3\text{CO}_2$$
+$$
+\text{Fe}_2\text{O}_3 + 3\text{CO} \rightarrow 2\text{Fe} + 3\text{CO}_2
+$$
 
 Carbon (coke) reduces iron(III) oxide to iron. Limestone removes impurities as slag.
 
 ### 3.4 Acids and Bases
+
+<div class="table-wrap">
 
 | Acid              | Formula                 |
 | ----------------- | ----------------------- |
 | Hydrochloric acid | $\text{HCl}$            |
 | Sulfuric acid     | $\text{H}_2\text{SO}_4$ |
 | Nitric acid       | $\text{HNO}_3$          |
+
+</div>
 
 **General reactions of acids:**
 
@@ -233,7 +261,9 @@ range.
 
 ### 3.5 Neutralisation and Salt Preparation
 
-$$\text{acid} + \text{base} \rightarrow \text{salt} + \text{water}$$
+$$
+\text{acid} + \text{base} \rightarrow \text{salt} + \text{water}
+$$
 
 **Preparing a soluble salt:**
 
@@ -287,15 +317,19 @@ no atoms are created or destroyed in a chemical reaction.
 
 ### 4.2 Relative Formula Mass ($M_r$)
 
-$$M_r = \sum (\text{relative atomic masses of atoms in the formula})$$
+$$
+M_r = \sum (\text{relative atomic masses of atoms in the formula})
+$$
 
 **Example.** $M_r(\text{H}_2\text{SO}_4) = (2 \times 1) + 32 + (4 \times 16) = 98$
 
 ### 4.3 Moles
 
-One mole of any substance contains $6.02 \times 10^{23}$ particles (Avogadro"s constant, $N_A$).
+One mole of any substance contains $6.02 \times 10^{23}$ particles (Avogadro's constant, $N_A$).
 
-$$\text{Number of moles} = \frac{\text{mass (g)}}{M_r}$$
+$$
+\text{Number of moles} = \frac{\text{mass (g)}}{M_r}
+$$
 
 **Example.** 24 g of carbon: $\frac{24}{12} = 2 \text{ mol}$
 
@@ -305,7 +339,9 @@ Using the mole ratio from a balanced equation to calculate masses of reactants o
 
 **Example.** What mass of magnesium oxide is formed when 12 g of magnesium reacts with oxygen?
 
-$$2\text{Mg} + \text{O}_2 \rightarrow 2\text{MgO}$$
+$$
+2\text{Mg} + \text{O}_2 \rightarrow 2\text{MgO}
+$$
 
 1. Moles of Mg: $\frac{12}{24} = 0.5 \text{ mol}$
 2. Ratio Mg:MgO is 2:2 = 1:1, so moles of MgO = 0.5 mol
@@ -313,9 +349,13 @@ $$2\text{Mg} + \text{O}_2 \rightarrow 2\text{MgO}$$
 
 ### 4.5 Concentration
 
-$$\text{Concentration (g/dm}^3\text{)} = \frac{\text{mass (g)}}{\text{volume (dm}^3\text{)}}$$
+$$
+\text{Concentration (g/dm}^3\text{)} = \frac{\text{mass (g)}}{\text{volume (dm}^3\text{)}}
+$$
 
-$$\text{Concentration (mol/dm}^3\text{)} = \frac{\text{moles}}{\text{volume (dm}^3\text{)}}$$
+$$
+\text{Concentration (mol/dm}^3\text{)} = \frac{\text{moles}}{\text{volume (dm}^3\text{)}}
+$$
 
 **Titration calculations:** Use the balanced equation mole ratio and the concentration and volume of
 the known solution to find the concentration or volume of the unknown.
@@ -324,14 +364,18 @@ the known solution to find the concentration or volume of the unknown.
 
 **Percentage yield:**
 
-$$\text{Percentage yield} = \frac{\text{actual mass of product}}{\text{theoretical mass of product}} \times 100$$
+$$
+\text{Percentage yield} = \frac{\text{actual mass of product}}{\text{theoretical mass of product}} \times 100
+$$
 
 Yield is always less than 100% due to incomplete reactions, side reactions, product lost during
 transfer or purification.
 
 **Atom economy:**
 
-$$\text{Atom economy} = \frac{\text{M}_r \text{ of desired product}}{\text{sum of M}_r \text{ of all products}} \times 100$$
+$$
+\text{Atom economy} = \frac{\text{M}_r \text{ of desired product}}{\text{sum of M}_r \text{ of all products}} \times 100
+$$
 
 Reactions with high atom economy produce less waste and are more sustainable. Addition reactions
 always have 100% atom economy.
@@ -359,6 +403,8 @@ Hydrocarbons contain only carbon and hydrogen atoms. They are the basis of all o
 
 Alkanes are **saturated** hydrocarbons, all carbon-carbon bonds are single bonds.
 
+<div class="table-wrap">
+
 | Carbon atoms | Formula                   | Name            | State at room temperature |
 | ------------ | ------------------------- | --------------- | ------------------------- |
 | 1            | $\text{CH}_4$             | Methane         | Gas                       |
@@ -366,6 +412,8 @@ Alkanes are **saturated** hydrocarbons, all carbon-carbon bonds are single bonds
 | 3            | $\text{C}_3\text{H}_8$    | Propane         | Gas                       |
 | 4            | $\text{C}_4\text{H}_{10}$ | Butane          | Gas                       |
 | 5+           |,                         | Pentane onwards | Liquid (then solid)       |
+
+</div>
 
 Properties: burn in air to produce carbon dioxide and water; less viscous and more volatile as chain
 length decreases.
@@ -384,7 +432,7 @@ Alkenes are **unsaturated**, they contain at least one carbon-carbon double bond
 
 **General formula:** $\text{C}_n\text{H}_{2n+1}\text{OH}$
 
-- Functional group: $-$OH (hydroxyl group).
+- Functional group: $-$ OH (hydroxyl group).
 - Ethanol ($\text{C}_2\text{H}_5\text{OH}$) is the most common alcohol.
 - Produced by fermentation of sugars (enzymes in yeast) or hydration of ethene.
 - Properties: soluble in water, burns cleanly, used as solvents and fuels.
@@ -393,7 +441,7 @@ Alkenes are **unsaturated**, they contain at least one carbon-carbon double bond
 
 **General formula:** $\text{C}_n\text{H}_{2n+1}\text{COOH}$
 
-- Functional group: $-$COOH (carboxyl group).
+- Functional group: $-$ COOH (carboxyl group).
 - Weak acids, partially ionise in solution.
 - Ethanoic acid ($\text{CH}_3\text{COOH}$) is found in vinegar.
 - React with alcohols to form **esters** (condensation reaction).
@@ -405,7 +453,9 @@ double bond opens up and links monomers together.
 
 **Example.** Poly(ethene) from ethene:
 
-$$n\text{CH}_2=\text{CH}_2 \rightarrow \left[-\text{CH}_2-\text{CH}_2-\right]_n$$
+$$
+n\text{CH}_2=\text{CH}_2 \rightarrow \left[-\text{CH}_2-\text{CH}_2-\right]_n
+$$
 
 **Condensation polymers:** Made from two different monomers; each monomer has two functional groups.
 Water is released as a by-product.
@@ -446,12 +496,16 @@ landfill, incineration (produces $\text{CO}_2$), or recycling.
 
 The $R_f$ value identifies substances:
 
-$$R_f = \frac{\text{distance travelled by substance}}{\text{distance travelled by solvent}}$$
+$$
+R_f = \frac{\text{distance travelled by substance}}{\text{distance travelled by solvent}}
+$$
 
 $R_f$ values are always between 0 and 1. The same substance should give the same $R_f$ value in the
 same solvent under the same conditions.
 
 ### 6.3 Tests for Gases
+
+<div class="table-wrap">
 
 | Gas                            | Test                   | Observation          |
 | ------------------------------ | ---------------------- | -------------------- |
@@ -460,9 +514,13 @@ same solvent under the same conditions.
 | Carbon dioxide ($\text{CO}_2$) | Limewater              | Turns cloudy (milky) |
 | Chlorine ($\text{Cl}_2$)       | Damp blue litmus paper | Bleaches it white    |
 
+</div>
+
 ### 6.4 Tests for Cations and Anions
 
 **Flame tests (cations):**
+
+<div class="table-wrap">
 
 | Ion              | Flame colour                           |
 | ---------------- | -------------------------------------- |
@@ -471,6 +529,8 @@ same solvent under the same conditions.
 | $\text{K}^+$     | Lilac (view through cobalt blue glass) |
 | $\text{Ca}^{2+}$ | Orange-red                             |
 | $\text{Cu}^{2+}$ | Blue-green                             |
+
+</div>
 
 **Tests for specific ions:**
 
@@ -510,6 +570,8 @@ traditional chemical tests.
 
 ### 7.1 Factors Affecting Rate
 
+<div class="table-wrap">
+
 | Factor               | Effect         | Reason                                                                                     |
 | -------------------- | -------------- | ------------------------------------------------------------------------------------------ |
 | **Temperature**      | Increases rate | Particles have more kinetic energy; more frequent and more energetic successful collisions |
@@ -517,6 +579,8 @@ traditional chemical tests.
 | **Pressure** (gases) | Increases rate | Same as increasing concentration                                                           |
 | **Surface area**     | Increases rate | More particles exposed; more frequent collisions                                           |
 | **Catalyst**         | Increases rate | Provides an alternative pathway with lower activation energy; not used up                  |
+
+</div>
 
 ### 7.2 Collision Theory
 
@@ -533,7 +597,9 @@ to occur. A catalyst lowers the activation energy without being consumed.
 
 ### 7.3 Calculating Rate
 
-$$\text{Rate of reaction} = \frac{\text{amount of reactant used (or product formed)}}{\text{time taken}}$$
+$$
+\text{Rate of reaction} = \frac{\text{amount of reactant used (or product formed)}}{\text{time taken}}
+$$
 
 This can be measured as mass of gas produced, volume of gas, or change in concentration over time.
 
@@ -547,7 +613,9 @@ This can be measured as mass of gas produced, volume of gas, or change in concen
 
 Some reactions are reversible, the products can react to reform the original reactants.
 
-$$\text{A} + \text{B} \rightleftharpoons \text{C} + \text{D}$$
+$$
+\text{A} + \text{B} \rightleftharpoons \text{C} + \text{D}
+$$
 
 The symbol $\rightleftharpoons$ indicates a reversible reaction.
 
@@ -559,12 +627,16 @@ concentrations of reactants and products remain constant (but not necessarily eq
 If a system at equilibrium is subjected to a change, the equilibrium shifts to **oppose** that
 change.
 
+<div class="table-wrap">
+
 | Change                             | Effect on equilibrium                                                     |
 | ---------------------------------- | ------------------------------------------------------------------------- |
 | Increase concentration of reactant | Equilibrium shifts to the right (towards products)                        |
 | Increase temperature               | Shifts in the endothermic direction (absorbs heat)                        |
 | Increase pressure                  | Shifts towards the side with fewer gas molecules                          |
 | Add a catalyst                     | No effect on equilibrium position; only speeds up both directions equally |
+
+</div>
 
 **Example.** The Haber process:
 $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3 \quad (\Delta H = -92 \text{ kJ/mol})$
@@ -585,6 +657,8 @@ $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3 \quad (\Delta H = -92 
 </script>
 
 ## 8. Key Definitions
+
+<div class="table-wrap">
 
 | Term                  | Definition                                                                                   |
 | --------------------- | -------------------------------------------------------------------------------------------- |
@@ -610,6 +684,8 @@ $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3 \quad (\Delta H = -92 
 | **Electrolyte**       | A molten or dissolved ionic compound that conducts electricity                               |
 | **Exothermic**        | A reaction that transfers energy to the surroundings (temperature increases)                 |
 | **Endothermic**       | A reaction that takes energy from the surroundings (temperature decreases)                   |
+
+</div>
 
 ---
 
@@ -719,17 +795,6 @@ Concentration = 0.002 / (25.0/1000) = 0.080 mol/dm^3.
 percentage yield. (Mr CaCO3 = 100, Mr CaO = 56) **Solution:** CaCO3 -> CaO + CO2. Moles CaCO3 =
 10/100 = 0.1 mol. Theoretical moles CaO = 0.1 mol. Theoretical mass = 0.1 x 56 = 5.6 g. Percentage
 yield = (5.0/5.6) x 100 = 89.3%.
-
-
-```mermaid
-flowchart TD
-    A[Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

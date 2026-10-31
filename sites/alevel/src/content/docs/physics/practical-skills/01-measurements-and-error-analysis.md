@@ -29,7 +29,7 @@ categories:
 ### Systematic Errors
 
 A **systematic error** is a consistent, repeatable deviation from the true value, caused by a flaw
-In the experimental setup or method.
+in the experimental setup or method.
 
 **Characteristics:**
 
@@ -58,7 +58,7 @@ Rather than perpendicular to it, leading to consistently higher or lower reading
 ### Random Errors
 
 A **random error** is an unpredictable fluctuation in measured values, caused by limitations in
-Measurement or environmental variability.
+measurement or environmental variability.
 
 **Characteristics:**
 
@@ -106,17 +106,25 @@ For a measurement $x \pm \Delta x$:
 
 The maximum value of $z$ occurs when both uncertainties add in the same direction:
 
-$$z_{\max} = (x + \Delta x) + (y + \Delta y)$$
+$$
+z_{\max} = (x + \Delta x) + (y + \Delta y)
+$$
 
 The minimum value:
 
-$$z_{\min} = (x - \Delta x) + (y - \Delta y)$$
+$$
+z_{\min} = (x - \Delta x) + (y - \Delta y)
+$$
 
 The absolute uncertainty is half the range:
 
-$$\Delta z = \frac{z_{\max} - z_{\min}}{2} = \frac{2\Delta x + 2\Delta y}{2}$$
+$$
+\Delta z = \frac{z_{\max} - z_{\min}}{2} = \frac{2\Delta x + 2\Delta y}{2}
+$$
 
-$$\boxed{\Delta z = \Delta x + \Delta y}$$
+$$
+\boxed{\Delta z = \Delta x + \Delta y}
+$$
 
 $\square$
 
@@ -125,9 +133,13 @@ $\square$
 Taking natural logarithms: $\ln z = \ln x + \ln y$. Differentiating: $dz/z = dx/x + dy/y$.
 Converting to finite uncertainties:
 
-$$\frac{\Delta z}{z} = \frac{\Delta x}{x} + \frac{\Delta y}{y}$$
+$$
+\frac{\Delta z}{z} = \frac{\Delta x}{x} + \frac{\Delta y}{y}
+$$
 
-$$\boxed{\frac{\Delta z}{z} = \frac{\Delta x}{x} + \frac{\Delta y}{y}}$$
+$$
+\boxed{\frac{\Delta z}{z} = \frac{\Delta x}{x} + \frac{\Delta y}{y}}
+$$
 
 $\square$
 
@@ -138,31 +150,39 @@ $\\Delta z/z = \\Delta x/x + \\Delta y/y$ (uncertainties always add).
 
 #### Addition/Subtraction: $z = x \pm y$
 
-$$\Delta z = \Delta x + \Delta y$$
+$$
+\Delta z = \Delta x + \Delta y
+$$
 
 Add absolute uncertainties.
 
 #### Multiplication/Division: $z = xy$ or $z = x/y$
 
-$$\frac{\Delta z}{z} = \frac{\Delta x}{x} + \frac{\Delta y}{y}$$
+$$
+\frac{\Delta z}{z} = \frac{\Delta x}{x} + \frac{\Delta y}{y}
+$$
 
 Add fractional uncertainties.
 
 #### Powers: $z = x^n$
 
-$$\frac{\Delta z}{z} = |n| \cdot \frac{\Delta x}{x}$$
+$$
+\frac{\Delta z}{z} = |n| \cdot \frac{\Delta x}{x}
+$$
 
 Multiply fractional uncertainty by the power.
 
 #### General formula (for reference)
 
-$$\Delta z = \sqrt{\sum_{i}\left(\frac{\partial z}{\partial x_i}\Delta x_i\right)^2}$$
+$$
+\Delta z = \sqrt{\sum_{i}\left(\frac{\partial z}{\partial x_i}\Delta x_i\right)^2}
+$$
 
 ### Uncertainty from a Single Reading
 
 **Definition.** Resolution is the smallest change in the measured quantity that an instrument can
 Detect or display, equal to the smallest division on an analogue scale or the last digit on a
-Digital display.
+digital display.
 
 For a single reading with an instrument, the uncertainty is :
 
@@ -173,13 +193,19 @@ For a single reading with an instrument, the uncertainty is :
 
 For $n$ repeated readings:
 
-$$\bar{x} = \frac{1}{n}\sum x_i$$
+$$
+\bar{x} = \frac{1}{n}\sum x_i
+$$
 
-$$\Delta x = \frac{x_{\max} - x_{\min}}{2}$$
+$$
+\Delta x = \frac{x_{\max} - x_{\min}}{2}
+$$
 
-For large $n$The standard uncertainty of the mean is:
+For large $n$ The standard uncertainty of the mean is:
 
-$$\Delta x = \frac{\sigma}{\sqrt{n}}, \qquad \sigma = \sqrt{\frac{1}{n-1}\sum(x_i - \bar{x})^2}$$
+$$
+\Delta x = \frac{\sigma}{\sqrt{n}}, \qquad \sigma = \sqrt{\frac{1}{n-1}\sum(x_i - \bar{x})^2}
+$$
 
 ## 3. Graphical Analysis
 
@@ -191,7 +217,9 @@ When determining a physical quantity from the gradient of a straight-line graph:
 2. Draw the **worst acceptable line** (the steepest/shallowest line consistent with the error bars).
 3. The uncertainty in the gradient is:
 
-$$\Delta m = \frac{|m_{\mathrm{best}} - m_{\mathrm{worst}}|}{2}$$
+$$
+\Delta m = \frac{|m_{\mathrm{best}} - m_{\mathrm{worst}}|}{2}
+$$
 
 ### Error Bars
 
@@ -205,6 +233,8 @@ division.
 
 Many physical relationships can be linearised by choosing appropriate variables:
 
+<div class="table-wrap">
+
 | Non-linear relation  | Linearised form                       | Plot                  | Gradient   | Intercept |
 | -------------------- | ------------------------------------- | --------------------- | ---------- | --------- |
 | $y = ax^2 + b$       | $y = aX + b$                          | $y$ vs $X = x^2$      | $a$        | $b$       |
@@ -213,9 +243,11 @@ Many physical relationships can be linearised by choosing appropriate variables:
 | $y = ae^{bx}$        | $\ln y = bx + \ln a$                  | $\ln y$ vs $x$        | $b$        | $\ln a$   |
 | $T = 2\pi\sqrt{L/g}$ | $T^2 = \frac{4\pi^2}{g}L$ | $T^2$ vs $L$          | $4\pi^2/g$ | $0$       |
 
+</div>
+
 :::tip
 Gradient, first find the gradient uncertainty using the worst line method, then divide by the
-Best-fit gradient and multiply by 100%.
+best-fit gradient and multiply by 100%.
 :::
 
 ## Problem Set
@@ -267,7 +299,7 @@ $\pm 0.01$ V.
 <details>
 <summary>Problem 4</summary>
 The period of a pendulum is given by $T = 2\pi\sqrt{L/g}$. A student plots $T^2$ against $L$ and
-Obtains a gradient of $4.05$ s$^2$ m$^{-1}$ with an uncertainty of $\pm 0.10$ s$^2$ m$^{-1}$.
+obtains a gradient of $4.05$ s$^2$ m$^{-1}$ with an uncertainty of $\pm 0.10$ s$^2$ m$^{-1}$.
 Calculate $g$ and its uncertainty.
 
 **Answer.** $g = 4\pi^2/\mathrm{gradient} = 39.48/4.05 = 9.75$ m s$^{-2}$.
@@ -289,7 +321,7 @@ $x = 3.0 \pm 0.1$. Calculate $y$ and its percentage uncertainty.
 **Answer.** $y = 4.0 \times 27 / 2.0 = 54.0$.
 
 Fractional uncertainties: $0.2/4.0 = 0.050$ (for $a$), $0.1/2.0 = 0.050$ (for $b$),
-$3(0.1/3.0) = 0.10$ (for $x^3$Power rule).
+$3(0.1/3.0) = 0.10$ (for $x^3$ Power rule).
 
 Total $= 0.050 + 0.050 + 0.10 = 0.20 = 20\%$. $\Delta y = 54.0 \times 0.20 = 10.8$.
 
@@ -302,7 +334,7 @@ Result: $y = 54 \pm 11$ (20%).
 <details>
 <summary>Problem 6</summary>
 Distinguish between systematic and random errors, giving one example of each from measuring the
-Acceleration of free fall using a simple pendulum.
+acceleration of free fall using a simple pendulum.
 
 **Answer.** **Systematic error:** The string is not perfectly inextensible, so the effective length
 Is greater than measured, leading to a consistently overestimated $T$ and hence underestimated $g$.
@@ -316,7 +348,7 @@ Periods.
 
 <details>
 <summary>Problem 7</summary>
-In an experiment to determine $g$ using $T = 2\pi\sqrt{L/g}$A student measures
+In an experiment to determine $g$ using $T = 2\pi\sqrt{L/g}$ A student measures
 $L = 0.800 \pm 0.002$ m and $T = 1.80 \pm 0.05$ s. Calculate $g$ with its absolute uncertainty.
 
 **Answer.** $g = 4\pi^2 L / T^2 = 39.48 \times 0.800 / 3.24 = 31.58/3.24 = 9.75$ m s$^{-2}$.
@@ -337,6 +369,8 @@ Result: $g = 9.8 \pm 0.6$ m s$^{-2}$.
 <summary>Problem 8</summary>
 A student obtains the following data for a linear relationship $y = mx + c$:
 
+<div class="table-wrap">
+
 | $x$ (cm) | $y$ (cm) |
 | -------- | -------- |
 | 2.0      | 3.2      |
@@ -345,8 +379,10 @@ A student obtains the following data for a linear relationship $y = mx + c$:
 | 8.0      | 11.0     |
 | 10.0     | 13.8     |
 
+</div>
+
 Using a line of best fit, the gradient is $1.34$ cm/cm. The worst acceptable line gives a gradient
-Of $1.28$ cm/cm. Calculate the gradient and its uncertainty as a percentage.
+of $1.28$ cm/cm. Calculate the gradient and its uncertainty as a percentage.
 
 **Answer.** $m = 1.34 \pm \frac{1.34 - 1.28}{2} = 1.34 \pm 0.03$ cm/cm.
 
@@ -365,13 +401,17 @@ And graphical analysis.
 ### 4.1 The Experiment
 
 A student measures the period $T$ of a simple pendulum for five different lengths $L$. The
-Relationship is:
+relationship is:
 
-$$T = 2\pi\sqrt{\frac{L}{g}} \implies T^2 = \frac{4\pi^2}{g}L$$
+$$
+T = 2\pi\sqrt{\frac{L}{g}} \implies T^2 = \frac{4\pi^2}{g}L
+$$
 
-By plotting $T^2$ against $L$The gradient gives $4\pi^2/g$From which $g$ can be determined.
+By plotting $T^2$ against $L$ The gradient gives $4\pi^2/g$ From which $g$ can be determined.
 
 ### 4.2 Sample Data and Calculations
+
+<div class="table-wrap">
 
 | $L$ (m)           | $T$ (s)         | $T^2$ (s$^2$)   |
 | ----------------- | --------------- | --------------- |
@@ -381,24 +421,32 @@ By plotting $T^2$ against $L$The gradient gives $4\pi^2/g$From which $g$ can be 
 | $1.000 \pm 0.002$ | $2.01 \pm 0.03$ | $4.04 \pm 0.12$ |
 | $1.200 \pm 0.002$ | $2.20 \pm 0.03$ | $4.84 \pm 0.13$ |
 
+</div>
+
 The uncertainty in $T^2$ is calculated using the power rule: $\Delta T^2/T^2 = 2\Delta T/T$.
 
 For the first row: $\Delta T^2 = 2 \times (0.03/1.26) \times 1.59 = 0.076 \approx 0.08$.
 
 ### 4.3 Determining $g$ from the Gradient
 
-From a line of best fit through $(L, T^2)$The gradient is $m = 4.08$ s$^2$ m$^{-1}$. The worst
+From a line of best fit through $(L, T^2)$ The gradient is $m = 4.08$ s$^2$ m$^{-1}$. The worst
 Acceptable line gives $m = 3.95$ s$^2$ m$^{-1}$.
 
-$$g = \frac{4\pi^2}{m} = \frac{39.48}{4.08} = 9.68 \mathrm{ m s}^{-2}$$
+$$
+g = \frac{4\pi^2}{m} = \frac{39.48}{4.08} = 9.68 \mathrm{ m s}^{-2}
+$$
 
 Uncertainty in the gradient: $\Delta m = (4.08 - 3.95)/2 = 0.065$ s$^2$ m$^{-1}$.
 
 Since $g = 4\pi^2 / m$ and $g \propto 1/m$:
 
-$$\frac{\Delta g}{g} = \frac{\Delta m}{m} = \frac{0.065}{4.08} = 0.016 = 1.6\%$$
+$$
+\frac{\Delta g}{g} = \frac{\Delta m}{m} = \frac{0.065}{4.08} = 0.016 = 1.6\%
+$$
 
-$$\Delta g = 9.68 \times 0.016 = 0.15 \mathrm{ m s}^{-2}$$
+$$
+\Delta g = 9.68 \times 0.016 = 0.15 \mathrm{ m s}^{-2}
+$$
 
 Result: $g = 9.68 \pm 0.15$ m s$^{-2}$Which is consistent with the accepted value of $9.81$ m
 S$^{-2}$.
@@ -422,12 +470,18 @@ S$^{-2}$.
 
 ### 5.1 Definitions Revisited
 
+<div class="table-wrap">
+
 | Property      | Definition                                       | How to Assess                                      |
 | ------------- | ------------------------------------------------ | -------------------------------------------------- |
 | **Accuracy**  | Closeness of measurements to the true value      | Compare the mean with an accepted value            |
 | **Precision** | Closeness of repeated measurements to each other | Calculate the spread (range or standard deviation) |
 
+</div>
+
 ### 5.2 The Four Scenarios
+
+<div class="table-wrap">
 
 | Scenario | Accuracy | Precision | Interpretation                                                                              |
 | -------- | -------- | --------- | ------------------------------------------------------------------------------------------- |
@@ -435,6 +489,8 @@ S$^{-2}$.
 | B        | High     | Low       | Measurements are scattered but the mean is close to the true value. Random errors dominate. |
 | C        | Low      | High      | Measurements are tightly clustered but away from the true value. Systematic error present.  |
 | D        | Low      | Low       | Measurements are scattered and the mean is wrong. Both error types present.                 |
+
+</div>
 
 ### 5.3 Improving Both Accuracy and Precision
 
@@ -447,7 +503,7 @@ Control environmental conditions (temperature, vibrations).
 ## 6. Systematic Error Identification Techniques
 
 Identifying systematic errors is critical because they cannot be reduced by averaging. Several
-Techniques are available:
+techniques are available:
 
 1. **Comparison with an accepted value.** If the mean of repeated measurements differs significantly
    from the accepted value (considering the random uncertainty), a systematic error is likely
@@ -486,7 +542,7 @@ Error bars represent the uncertainty in each measurement point:
 ### 7.2 Interpreting Error Bars
 
 The line of best fit should pass through or near the error bars of each data point. If a data
-Point"s error bar does not overlap with the line of best fit, either:
+Point's error bar does not overlap with the line of best fit, either:
 
 - The point is an outlier (consider whether to exclude it with justification)
 - There is an unaccounted systematic error
@@ -495,9 +551,11 @@ Point"s error bar does not overlap with the line of best fit, either:
 ### 7.3 Error Bars and the Worst Acceptable Line
 
 The worst acceptable line is the steepest (or shallowest) straight line that still passes through
-All the error bars. The uncertainty in the gradient is:
+all the error bars. The uncertainty in the gradient is:
 
-$$\Delta m = \frac{|m_{\mathrm{best}} - m_{\mathrm{worst}}|}{2}$$
+$$
+\Delta m = \frac{|m_{\mathrm{best}} - m_{\mathrm{worst}}|}{2}
+$$
 
 :::caution
 used to obtain Each data point. State this assumption explicitly.
@@ -509,7 +567,7 @@ used to obtain Each data point. State this assumption explicitly.
    digit). Do not use half the smallest division for a digital instrument.
 
 2. **Using the range instead of the half-range.** The absolute uncertainty from repeated
-   measurements is the half-range: $\Delta x = (x_{\max} - x_{\min})/2$Not the full range. Using the
+   measurements is the half-range: $\Delta x = (x_{\max} - x_{\min})/2$ Not the full range. Using the
    full range overestimates the uncertainty by a factor of 2.
 
 3. **Confusing the line of best fit with the worst acceptable line.** The line of best fit passes as
@@ -517,12 +575,12 @@ used to obtain Each data point. State this assumption explicitly.
    line that passes through all error bars. These are different lines with different gradients.
 
 4. **Forgetting to propagate uncertainty through intermediate calculations.** If you calculate $T^2$
-   from $T$You must calculate the uncertainty in $T^2$ using the power rule before plotting. Do not
+   from $T$ You must calculate the uncertainty in $T^2$ using the power rule before plotting. Do not
    plot the raw uncertainty in $T$ on the $T^2$ axis.
 
 5. **Reporting uncertainty with too many significant figures.** Round the uncertainty to 1 or 2
    significant figures, then round the result to the same decimal place. For example, write
-   $9.68 \pm 0.15$Not $9.678 \pm 0.1542$.
+   $9.68 \pm 0.15$ Not $9.678 \pm 0.1542$.
 
 6. **Ignoring the uncertainty in the gradient when determining a physical constant.** Always use the
    worst acceptable line method to find the uncertainty in the gradient, and propagate this to the
@@ -598,7 +656,7 @@ For three repeated readings: mean $= (22.7 + 22.8 + 22.7)/3 = 22.73$ °C. Range 
 Half-range $= 0.05$ °C.
 
 Since the half-range ($0.05$ °C) is smaller than the instrument resolution ($0.1$ °C), the
-Uncertainty is dominated by the instrument resolution. The best estimate is $22.7 \pm 0.1$ °C.
+uncertainty is dominated by the instrument resolution. The best estimate is $22.7 \pm 0.1$ °C.
 
 <b>If you get this wrong, revise:</b>
 [Uncertainty from a Single Reading](#uncertainty-from-a-single-reading)
@@ -626,7 +684,7 @@ Result: $V_0 = 10.0 \pm 0.5$ (arbitrary units).
 
 <details>
 <summary>Problem 6</summary>
-A student determines the refractive index $n$ of glass by measuring the critical angle $\theta_c$. Five measurements of $\theta_c$ are: $41.5^\circ$$42.0^\circ$$41.8^\circ$$42.2^\circ$$41.6^\circ$. Using $n = 1/\sin\theta_c$Calculate $n$ and its uncertainty.
+A student determines the refractive index $n$ of glass by measuring the critical angle $\theta_c$. Five measurements of $\theta_c$ are: $41.5^\circ$$42.0^\circ$$41.8^\circ$$42.2^\circ$$41.6^\circ$. Using $n = 1/\sin\theta_c$ Calculate $n$ and its uncertainty.
 
 **Answer.** Mean $\theta_c = (41.5 + 42.0 + 41.8 + 42.2 + 41.6)/5 = 41.82^\circ$. Range
 $= 42.2 - 41.5 = 0.7^\circ$. $\Delta\theta_c = 0.35^\circ$.
@@ -647,16 +705,6 @@ Result: $n = 1.500 \pm 0.010$.
 <b>If you get this wrong, revise:</b> [Propagation of Uncertainty](#propagation-of-uncertainty)
 
 </details>
-
-```mermaid
-flowchart TD
-    A[01 Measurements And Error Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

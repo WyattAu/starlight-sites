@@ -20,16 +20,6 @@ description: "A-Level English exam techniques: essay planning, PEE/PEEL structur
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Exam_Techniques] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **English literature explores the human experience through language, words painting pictures of life.**
@@ -44,12 +34,16 @@ A-Level English examinations reward precise analytical writing under timed condi
 
 Understanding how marks are distributed across the four assessment objectives is essential for targeting your revision and essay writing.
 
+<div class="table-wrap">
+
 | AO | Description | Weighting | What Examiners Look For |
 | ---- | ------------- | ----------- | ------------------------ |
 | AO1 | Articulate informed, personal, and creative responses using concepts and terminology | 20% | Precision of literary terminology; range of vocabulary; confident, independent voice |
 | AO2 | Analyse ways in which meanings are shaped in literary texts | 20% | Close analysis of language, form, and structure; identification of effects; analytical verbs rather than evaluative generalisations |
 | AO3 | Demonstrate understanding of the significance of contexts | 20% | Integration of historical, social, and biographical context; recognition that context is not a bolt-on but shapes meaning |
 | AO4 | Explore connections across literary texts | 20% | Comparison of texts by theme, form, or technique; identification of literary traditions and departures |
+
+</div>
 
 Some boards include AO5 (engagement with different interpretations). Check your specification.
 
@@ -146,11 +140,15 @@ Effective time management depends on understanding mark allocation and planning 
 
 ### Recommended Timing
 
+<div class="table-wrap">
+
 | Task | Time | Notes |
 | ------ | ------ | ------- |
 | Read and plan | 5-10 minutes | Read the question carefully; identify key terms; plan structure |
 | Write | 45-50 minutes | 3-4 well-developed paragraphs; introduction and conclusion |
 | Review | 5 minutes | Check for accuracy, clarity, and completeness |
+
+</div>
 
 ### Planning Checklist
 
@@ -188,23 +186,3 @@ Apply these techniques to a timed response. Choose one of the following and writ
 - [Exam Techniques](./)
 - [A-Level English](/)
 - [Analytical Techniques](/chemistry/organic-chemistry/analytical-techniques/)
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

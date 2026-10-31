@@ -5,7 +5,7 @@ title: "Differentiability"
 tags:
   - Mathematics
   - University
-description: "Differentiability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+description: "Differentiability: the derivative as a linear approximation rather than a slope, the mean value theorem and why it needs continuity on a closed interval, Taylor's theorem with remainder, Darboux's theorem on derivatives having the intermediate value property, and Weierstrass' function. Tier F/U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -17,11 +17,53 @@ description: "Differentiability: comprehensive educational content notes with pr
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Define the derivative as a limit. What kind of limit is it?
+- State the mean value theorem. What are its hypotheses, and which one is
+  load-bearing?
+- Is every continuous function differentiable? Is every differentiable function
+  continuous?
+- Can a derivative be discontinuous?
+- State Taylor's theorem with the Lagrange form of the remainder.
+
+Check your answers against the text. Prompt 4 is the one most people answer
+wrongly, and Darboux's theorem is the reason the right answer is surprising.
+
+## Motivation: the derivative is a linear map, not a slope
+
+"Slope of the tangent line" is how differentiation is introduced, and it is a
+useful lie. The honest definition is:
+
+> $f$ is differentiable at $a$ if there is a number $f'(a)$ with
+> $f(a + h) = f(a) + f'(a) h + o(h)$.
+
+That is: $f$ is differentiable at $a$ exactly when it can be approximated near
+$a$ by an **affine function**, with error smaller than linear. The number
+$f'(a)$ is the slope of that affine approximation.
+
+Reading it this way does three things the slope picture cannot:
+
+- It generalises to $\mathbb{R}^n$, where the derivative is a *linear map*
+  (the Jacobian) and there is no single slope.
+- It makes the mean value theorem obvious: if the function is affine on average,
+  some point must have the affine slope.
+- It explains why differentiability is stronger than continuity. Continuity says
+  $f(a+h) - f(a) \to 0$; differentiability says the difference is *linear* in
+  $h$. Linear is much stronger.
+
+The counterexamples on this page are the reason the distinction has to be made
+carefully rather than assumed.
+
 ### 5.1 The Derivative
 
 **Definition.** $f : (a,b) \to \mathbb{R}$ is **differentiable at** $c \in (a,b)$ if the limit
 
-$$f"(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}$$
+$$
+f"(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}
+$$
 
 Exists (as a finite real number).
 
@@ -45,7 +87,7 @@ The converse is false: $f(x) = |x|$ is continuous at $0$ but not differentiable 
 ### 5.3 Mean Value Theorem
 
 **Theorem 5.2 (Rolle's Theorem).** If $f : [a,b] \to \mathbb{R}$ is continuous on
-$[a,b]$Differentiable On $(a,b)$ And $f(a) = f(b)$ Then there exists $c \in (a,b)$ such that
+$[a,b]$ Differentiable On $(a,b)$ And $f(a) = f(b)$ Then there exists $c \in (a,b)$ such that
 $f'(c) = 0$.
 
 _Proof._ By the Extreme Value Theorem, $f$ attains its maximum $M$ and minimum $m$ on $[a,b]$. If
@@ -56,10 +98,12 @@ $\blacksquare$
 **Theorem 5.3 (Mean Value Theorem).** If $f : [a,b] \to \mathbb{R}$ is continuous on $[a,b]$ and
 Differentiable on $(a,b)$ Then there exists $c \in (a,b)$ such that
 
-$$f'(c) = \frac{f(b) - f(a)}{b - a}$$
+$$
+f'(c) = \frac{f(b) - f(a)}{b - a}
+$$
 
 _Proof._ Define $g(x) = f(x) - \frac{f(b)-f(a)}{b-a}(x - a)$. Then $g(a) = g(b)$ and $g$ satisfies
-the Hypotheses of Rolle's theorem. So $g'(c) = 0$ for some $c \in (a,b)$Which gives the result.
+the Hypotheses of Rolle's theorem. So $g'(c) = 0$ for some $c \in (a,b)$ Which gives the result.
 $\blacksquare$
 
 **Corollary 5.4.** If $f'(x) = 0$ for all $x \in (a,b)$ Then $f$ is constant on $[a,b]$.
@@ -69,12 +113,14 @@ $\blacksquare$
 **Theorem 5.3a (Cauchy's Mean Value Theorem).** If $f, g : [a,b] \to \mathbb{R}$ are continuous on
 $[a,b]$ and differentiable on $(a,b)$ Then there exists $c \in (a,b)$ such that
 
-$$(f(b) - f(a))g'(c) = (g(b) - g(a))f'(c)$$
+$$
+(f(b) - f(a))g'(c) = (g(b) - g(a))f'(c)
+$$
 
 _Proof._ Define $h(x) = (f(b) - f(a))g(x) - (g(b) - g(a))f(x)$. Then $h(a) = h(b)$ So by Rolle's
-Theorem, $h'(c) = 0$ for some $c \in (a,b)$Which gives the result. $\blacksquare$
+Theorem, $h'(c) = 0$ for some $c \in (a,b)$ Which gives the result. $\blacksquare$
 
-_Remark._ When $g(x) = x$Cauchy's MVT reduces to the standard MVT. Cauchy’s MVT is the key
+_Remark._ When $g(x) = x$ Cauchy's MVT reduces to the standard MVT. Cauchy’s MVT is the key
 Ingredient in the .../1-number-and-algebra/3_proof-and-logic of L'Hôpital’s rule.
 
 **Corollary 5.6.** If $f$ is differentiable on $(a,b)$ and $|f'(x)| \leq M$ for all $x \in (a,b)$
@@ -88,23 +134,31 @@ _Proof._ Apply the MVT to $f$ on the interval between $x$ and $y$. $\blacksquare
 **Theorem 5.6 (Taylor's Theorem with Lagrange Remainder).** If $f$ is $(n+1)$-times differentiable
 on An open interval containing $a$ Then for each $x$ in that interval:
 
-$$f(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x - a)^k + R_n(x)$$
+$$
+f(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x - a)^k + R_n(x)
+$$
 
 Where the remainder is
 
-$$R_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x - a)^{n+1}$$
+$$
+R_n(x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x - a)^{n+1}
+$$
 
 For some $\xi$ between $a$ and $x$.
 
 _Proof._ Fix $x \neq a$ and define
 
-$$g(t) = f(x) - \sum_{k=0}^{n} \frac{f^{(k)}(t)}{k!}(x - t)^k$$
+$$
+g(t) = f(x) - \sum_{k=0}^{n} \frac{f^{(k)}(t)}{k!}(x - t)^k
+$$
 
 Then $g(a) = R_n(x)$ and $g(x) = 0$. By the generalized Rolle's theorem (or direct computation Using
 the Cauchy mean value theorem), there exists $\xi$ between $a$ and $x$ with $g'( \xi ) = 0$.
 Computing:
 
-$$g'(t) = -\frac{f^{(n+1)}(t)}{n!}(x - t)^n$$
+$$
+g'(t) = -\frac{f^{(n+1)}(t)}{n!}(x - t)^n
+$$
 
 Setting $g'(\xi) = 0$ yields the result after comparing $g(a) = R_n(x)$ with the integral form. A
 Cleaner approach uses the standard MVT applied to $g$ on $[a, x]$. $\blacksquare$
@@ -116,12 +170,14 @@ open interval containing $c$ (except possibly at $c$ itself), $g'(x) \neq 0$ nea
 $\lim_{x \to c} f(x) = \lim_{x \to c} g(x) = 0$. If $\lim_{x \to c} f'(x)/g'(x) = L$ exists (as a
 finite Number or $\pm\infty$), then $\lim_{x \to c} f(x)/g(x) = L$.
 
-_Proof._ Extend $f$ and $g$ continuously to $c$ by setting $f(c) = g(c) = 0$. For $x \neq c$By
+_Proof._ Extend $f$ and $g$ continuously to $c$ by setting $f(c) = g(c) = 0$. For $x \neq c$ By
 Cauchy's Mean Value Theorem, there exists $\xi$ strictly between $c$ and $x$ such that
 
-$$\frac{f(x) - f(c)}{g(x) - g(c)} = \frac{f'(\xi)}{g'(\xi)}$$
+$$
+\frac{f(x) - f(c)}{g(x) - g(c)} = \frac{f'(\xi)}{g'(\xi)}
+$$
 
-I.e., $\frac{f(x)}{g(x)} = \frac{f'(\xi)}{g'(\xi)}$. As $x \to c$We have $\xi \to c$ (since $\xi$ is
+I.e., $\frac{f(x)}{g(x)} = \frac{f'(\xi)}{g'(\xi)}$. As $x \to c$ We have $\xi \to c$ (since $\xi$ is
 trapped between $c$ and $x$). Therefore
 $\lim_{x \to c} f(x)/g(x) = \lim_{\xi \to c} f'(\xi)/g'(\xi) = L$. $\blacksquare$
 
@@ -130,15 +186,19 @@ Differentiable on $(a, b)$ (except possibly at $c$), $g'(x) \neq 0$ near $c$ And
 $\lim_{x \to c} |f(x)| = \lim_{x \to c} |g(x)| = \infty$. If $\lim_{x \to c} f'(x)/g'(x) = L$
 exists, Then $\lim_{x \to c} f(x)/g(x) = L$.
 
-_Proof (sketch)._ Fix $\varepsilon > 0$. For $x, y$ near $c$ with $x \neq y$By Cauchy's MVT:
+_Proof (sketch)._ Fix $\varepsilon > 0$. For $x, y$ near $c$ with $x \neq y$ By Cauchy's MVT:
 
-$$\frac{f(x) - f(y)}{g(x) - g(y)} = \frac{f'(\xi)}{g'(\xi)}$$
+$$
+\frac{f(x) - f(y)}{g(x) - g(y)} = \frac{f'(\xi)}{g'(\xi)}
+$$
 
-For some $\xi$ between $x$ and $y$. Since $f'(\xi)/g'(\xi) \approx L$ for $\xi$ near $c$We have:
+For some $\xi$ between $x$ and $y$. Since $f'(\xi)/g'(\xi) \approx L$ for $\xi$ near $c$ We have:
 
-$$\frac{f(x)}{g(x)} = \frac{f(x) - f(y)}{g(x) - g(y)} \cdot \frac{1 - f(y)/f(x)}{1 - g(y)/g(x)}$$
+$$
+\frac{f(x)}{g(x)} = \frac{f(x) - f(y)}{g(x) - g(y)} \cdot \frac{1 - f(y)/f(x)}{1 - g(y)/g(x)}
+$$
 
-Since $f(x), g(x) \to \infty$By fixing $y$ and letting $x \to c$The fractions $f(y)/f(x)$ and
+Since $f(x), g(x) \to \infty$ By fixing $y$ and letting $x \to c$ The fractions $f(y)/f(x)$ and
 $g(y)/g(x)$ tend to $0$ So the second factor tends to $1$. The first factor tends to $L$ by Cauchy's
 MVT. Hence $f(x)/g(x) \to L$. $\blacksquare$
 
@@ -147,11 +207,15 @@ MVT. Hence $f(x)/g(x) \to L$. $\blacksquare$
 
 _Solution._ Both numerator and denominator approach $0$ as $x \to 0$. Applying L'Hôpital’s rule:
 
-$$\lim_{x \to 0} \frac{e^x - 1 - x}{x^2} = \lim_{x \to 0} \frac{e^x - 1}{2x}$$
+$$
+\lim_{x \to 0} \frac{e^x - 1 - x}{x^2} = \lim_{x \to 0} \frac{e^x - 1}{2x}
+$$
 
 This is still $\frac{0}{0}$ So apply L'Hôpital again:
 
-$$= \lim_{x \to 0} \frac{e^x}{2} = \frac{1}{2}$$
+$$
+= \lim_{x \to 0} \frac{e^x}{2} = \frac{1}{2}
+$$
 
 $\blacksquare$
 
@@ -160,20 +224,22 @@ $\blacksquare$
 ### 5.6 Darboux's Theorem
 
 **Theorem 5.8 (Darboux's Theorem).** If $f$ is differentiable on $[a, b]$ Then $f'$ has the
-Intermediate value property: for any $y$ between $f'(a)$ and $f'(b)$There exists $c \in (a, b)$ With
+Intermediate value property: for any $y$ between $f'(a)$ and $f'(b)$ There exists $c \in (a, b)$ With
 $f'(c) = y$.
 
 _Remark._ This means derivatives satisfy the intermediate value property even though they need not
-Be continuous. For example, $f(x) = x^2 \sin(1/x)$ (with $f(0) = 0$) is differentiable everywhere,
+be continuous. For example, $f(x) = x^2 \sin(1/x)$ (with $f(0) = 0$) is differentiable everywhere,
 But $f'$ is not continuous at $0$.
 
 _Proof._ Assume without loss of generality that $f'(a) \lt y \lt f'(b)$. Define $g(x) = f(x) - yx$.
 Then $g$ is differentiable on $[a, b]$ with
 
-$$g'(a) = f'(a) - y \lt 0 \quad \mathrm{and} \quad g'(b) = f'(b) - y > 0$$
+$$
+g'(a) = f'(a) - y \lt 0 \quad \mathrm{and} \quad g'(b) = f'(b) - y > 0
+$$
 
-Since $g'(a) \lt 0$There exists $x_1 > a$ with $g(x_1) \lt g(a)$ (otherwise $g(x) \geq g(a)$ For $x$
-near $a$Contradicting $g'(a) \lt 0$). Similarly, since $g'(b) > 0$There exists $x_2 \lt b$ with
+Since $g'(a) \lt 0$ There exists $x_1 > a$ with $g(x_1) \lt g(a)$ (otherwise $g(x) \geq g(a)$ For $x$
+near $a$ Contradicting $g'(a) \lt 0$). Similarly, since $g'(b) > 0$ There exists $x_2 \lt b$ with
 $g(x_2) \lt g(b)$.
 
 Therefore $g$ attains its minimum at some $c \in (a, b)$. By Fermat's theorem on interior extrema,
@@ -185,11 +251,11 @@ $g'(c) = 0$ So $f'(c) = y$. $\blacksquare$
 _Solution._ For $x \neq 0$: $f'(x) = 2x \sin(1/x) - \cos(1/x)$. At $x = 0$:
 $f'(0) = \lim_{h \to 0} \frac{h^2 \sin(1/h)}{h} = \lim_{h \to 0} h \sin(1/h) = 0$.
 
-So $f'(0) = 0$. For any $\delta > 0$The term $-\cos(1/x)$ oscillates between $-1$ and $1$ on
+So $f'(0) = 0$. For any $\delta > 0$ The term $-\cos(1/x)$ oscillates between $-1$ and $1$ on
 $(0, \delta)$ So $f'$ takes all values in $[-1, 1]$ infinitely often on $(0, \delta)$.
 
 But Darboux's theorem says $f'$ has the intermediate value property. Indeed, $f'$ is not continuous
-At $0$ (it oscillates wildly), yet it still satisfies the IVP. This shows that derivatives can be
+at $0$ (it oscillates wildly), yet it still satisfies the IVP. This shows that derivatives can be
 Highly discontinuous while retaining the intermediate value property. $\blacksquare$
 
 </details>
@@ -200,7 +266,9 @@ Highly discontinuous while retaining the intermediate value property. $\blacksqu
 
 $f(0) = 1$, $f'(0) = 1$, $f''(0) = 1$, $f'''(0) = 1$. So
 
-$$T_3(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6}$$
+$$
+T_3(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6}
+$$
 
 The remainder is $R_3(x) = \frac{e^\xi}{24} x^4$ for some $\xi$ between $0$ and $x$.
 
@@ -231,7 +299,9 @@ The error is at most $2.48 \times 10^{-13} \lt 10^{-10}$. $\blacksquare$
 _Solution._ For $f(x) = \ln(1+x)$: $f(0) = 0$, $f'(x) = 1/(1+x)$, $f''(x) = -1/(1+x)^2$
 $f^{(k)}(x) = (-1)^{k-1}(k-1)!/(1+x)^k$ for $k \geq 1$. So $f^{(k)}(0) = (-1)^{k-1}(k-1)!$.
 
-$$\ln(1+x) = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}(k-1)!}{k!} x^k = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}}{k} x^k$$
+$$
+\ln(1+x) = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}(k-1)!}{k!} x^k = \sum_{k=1}^{\infty} \frac{(-1)^{k-1}}{k} x^k
+$$
 
 By the ratio test:
 $\lim_{k \to \infty} |a_{k+1}/a_k| = \lim_{k \to \infty} \frac{k}{k+1} |x| = |x|$. The series
@@ -252,7 +322,9 @@ $f(\pi/3) = 1/2$, $f'(\pi/3) = -\sqrt{3}/2$, $f''(\pi/3) = -1/2$, $f'''(\pi/3) =
 
 The third-degree Taylor polynomial is:
 
-$$T_3(x) = \frac{1}{2} - \frac{\sqrt{3}}{2}\left(x - \frac{\pi}{3}\right) - \frac{1}{4}\left(x - \frac{\pi}{3}\right)^2 + \frac{\sqrt{3}}{12}\left(x - \frac{\pi}{3}\right)^3$$
+$$
+T_3(x) = \frac{1}{2} - \frac{\sqrt{3}}{2}\left(x - \frac{\pi}{3}\right) - \frac{1}{4}\left(x - \frac{\pi}{3}\right)^2 + \frac{\sqrt{3}}{12}\left(x - \frac{\pi}{3}\right)^3
+$$
 
 The remainder satisfies $|R_3(x)| \leq \frac{|x - \pi/3|^4}{24}$ (since
 $|f^{(4)}(\xi)| = |\cos \xi| \leq 1$).
@@ -269,7 +341,53 @@ The derivative is most deeply understood not as a "slope" but as the best linear
 
 This perspective explains why the chain rule works as it does. If f is locally linear near g(x) and g is locally linear near a, then their composition is locally linear near a, and the slopes multiply. It also explains why not every continuous function is differentiable: f(x)=|x| is continuous at 0 but has no single linear approximation there -- the left and right slopes disagree. The Mean Value Theorem says that the instantaneous linear approximation (the derivative) must at some point match the average rate of change over an interval. Taylor's theorem extends this: the derivative is the first-order term in a polynomial approximation, and the remainder controls how well that approximation works.
 
-### 5.8a Geometric Meaning of the MVT
+## Counterexamples worth knowing by name
+
+<div class="table-wrap">
+
+| Function | Continuous? | Differentiable? | What it shows |
+| -------- | ----------- | --------------- | ------------- |
+| $\|x\|$ at $0$ | yes | no | a corner: left and right derivatives differ |
+| $x^2 \sin(1/x^2)$, $f(0)=0$ | yes | yes at 0, $f'(0)=0$ | the derivative exists but is *unbounded* near 0 |
+| Weierstrass $W(x)$ | yes everywhere | **nowhere** | continuity does not imply differentiability, on an uncountable set |
+| $f(x) = x^{1/3}$ at $0$ | yes | no | a vertical tangent is not a derivative |
+| $f(x) = \begin{cases} x^2 & x \in \mathbb{Q} \\ 0 & \text{else} \end{cases}$ | continuous only at 0 | differentiable at 0 with $f'(0)=0$ | differentiability can hold at an isolated point of continuity |
+
+</div>
+
+**Darboux's theorem** says that even though derivatives need not be continuous,
+they satisfy the intermediate value property: if $f'(a) < c < f'(b)$ then
+$f'(x) = c$ for some $x$ between $a$ and $b$. So a derivative cannot jump. It
+can, however, be discontinuous -- $x^2\sin(1/x^2)$ is the standard example --
+which is why derivatives form a strictly smaller class than continuous
+functions, and why "the derivative of a differentiable function is continuous"
+is false.
+
+**Why Weierstrass matters beyond the puzzle.** It shows that continuity alone
+gives no control over oscillation at the infinitesimal scale. Any argument that
+assumes a continuous function has a derivative "somewhere" on an interval needs
+more hypotheses -- and the mean value theorem supplies exactly that.
+
+## Interleaving problems
+
+Mix these with material from [Sequences and
+Limits](/3-real-analysis/2_sequences-and-limits/), [Continuity](/3-real-analysis/4_continuity/)
+and [Riemann Integration](/3-real-analysis/6_riemann-integration/).
+
+1. (Limits.) Show $f(x) = |x|$ is not differentiable at $0$, by computing the
+   left and right limits of the difference quotient.
+2. (Continuity.) Show that if $f$ is differentiable on $[a,b]$ with
+   $f'(a) = f'(b)$, there is a point where $f'(c) = 0$ -- this is Rolle's
+   theorem, and the MVT is its generalisation.
+3. (Integration.) Use the MVT to show that if $f' \ge 0$ on $[a,b]$ then $f$ is
+   increasing, and deduce that a function with $f' = 0$ everywhere is constant.
+4. (Taylor.) Show that $\sin x = x - x^3/6 + o(x^4)$ and use it to compute
+   $\lim_{x \to 0} \frac{\sin x - x}{x^3}$.
+5. (Darboux.) Show that $f'(x) = 2x \sin(1/x) - \cos(1/x)$ for $x 
+e 0$,
+   $f'(0) = 0$ has the intermediate value property but is discontinuous at $0$.
+
+## 5.8a Geometric Meaning of the MVT
 
 The Mean Value Theorem says: for a smooth curve connecting two points, there is a point on the
 curve where the tangent line is parallel to the chord (secant line) connecting the endpoints.
@@ -277,7 +395,9 @@ curve where the tangent line is parallel to the chord (secant line) connecting t
 More precisely, if $f$ is continuous on $[a, b]$ and differentiable on $(a, b)$, then there exists
 $c \in (a, b)$ with
 
-$$f'(c) = \frac{f(b) - f(a)}{b - a}$$
+$$
+f'(c) = \frac{f(b) - f(a)}{b - a}
+$$
 
 **Physical interpretation:** If you drive 100 miles in 2 hours, your average speed is 50 mph. The
 MVT says that at some instant, your speedometer must have read exactly 50 mph.
@@ -297,11 +417,15 @@ $(-1, 1)$ to $(1, 1)$ is horizontal, but no tangent line is horizontal.
 Apply the MVT to $f(t) = \sin t$ on the interval between $x$ and $y$. There exists $\xi$ between
 $x$ and $y$ such that
 
-$$\sin x - \sin y = \cos(\xi) \cdot (x - y)$$
+$$
+\sin x - \sin y = \cos(\xi) \cdot (x - y)
+$$
 
 Taking absolute values:
 
-$$|\sin x - \sin y| = |\cos(\xi)| \cdot |x - y| \leq 1 \cdot |x - y| = |x - y|$$
+$$
+|\sin x - \sin y| = |\cos(\xi)| \cdot |x - y| \leq 1 \cdot |x - y| = |x - y|
+$$
 
 since $|\cos(\xi)| \leq 1$ for all $\xi$.
 
@@ -336,21 +460,10 @@ $\blacksquare$
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[5_Differentiability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Continuity](/3-real-analysis/4_continuity/)**: Differentiability implies continuity, and the mean value theorem connects local derivative behaviour to global function properties.
 - **[Riemann Integration](/3-real-analysis/6_riemann-integration/)**: The fundamental theorem of calculus links differentiation and integration, with the Riemann integral defined via limits of Riemann sums.
 - **[Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)**: Lebesgue integration generalises the Riemann integral and handles a broader class of functions with discontinuities.
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

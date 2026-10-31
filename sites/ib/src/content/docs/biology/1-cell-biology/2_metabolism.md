@@ -29,9 +29,11 @@ tags:
 ### Michaelis-Menten Kinetics
 
 The **Michaelis-Menten equation** describes the relationship between substrate concentration $[S]$
-And reaction velocity $v$:
+and reaction velocity $v$:
 
-$$v = \frac{V_{\max} [S]}{K_m + [S]}$$
+$$
+v = \frac{V_{\max} [S]}{K_m + [S]}
+$$
 
 Where:
 
@@ -55,7 +57,9 @@ Where:
 A double-reciprocal plot of $\frac{1}{v}$ vs $\frac{1}{[S]}$ transforms the Michaelis-Menten
 Equation into a straight line:
 
-$$\frac{1}{v} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[S]} + \frac{1}{V_{\max}}$$
+$$
+\frac{1}{v} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[S]} + \frac{1}{V_{\max}}
+$$
 
 - **y-intercept**: $\frac{1}{V_{\max}}$
 - **x-intercept**: $-\frac{1}{K_m}$
@@ -68,8 +72,8 @@ $$\frac{1}{v} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[S]} + \frac{1}{V_{\max}}$$
 - **Mechanism**: the inhibitor ($I$) structurally resembles the substrate and binds reversibly to
   the active site, competing with the substrate.
 - **Effect**: increases the apparent $K_m$ ($K_m^{\mathrm{app}} = K_m(1 + [I]/K_i)$); $V_{\max}$ is
-  unchanged (at very high $[S]$The substrate outcompetes the inhibitor).
-- **Lineweaver-Burk**: lines intersect on the **y-axis** (same $1/V_{\max}$Different slopes and
+  unchanged (at very high $[S]$ The substrate outcompetes the inhibitor).
+- **Lineweaver-Burk**: lines intersect on the **y-axis** (same $1/V_{\max}$ Different slopes and
   x-intercepts).
 
 **Example**: statins competitively inhibit HMG-CoA reductase in cholesterol biosynthesis.
@@ -80,7 +84,7 @@ $$\frac{1}{v} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[S]} + \frac{1}{V_{\max}}$$
   conformational change that reduces the enzyme's catalytic activity.
 - **Effect**: decreases $V_{\max}$ ($V_{\max}^{\mathrm{app}} = V_{\max}/(1 + [I]/K_i)$); $K_m$ is
   unchanged (substrate binding is not affected).
-- **Lineweaver-Burk**: lines intersect on the **x-axis** (same $-1/K_m$Different y-intercepts and
+- **Lineweaver-Burk**: lines intersect on the **x-axis** (same $-1/K_m$ Different y-intercepts and
   slopes).
 
 **Example**: heavy metal ions ($\mathrm{Pb}^{2+}$, $\mathrm{Hg}^{2+}$) bind to thiol groups (-SH) of
@@ -106,11 +110,15 @@ cysteine residues at allosteric sites.
 
 ### Summary of Inhibition Effects
 
+<div class="table-wrap">
+
 | Parameter  | Competitive      | Non-competitive  | Uncompetitive  | Mixed                  |
 | ---------- | ---------------- | ---------------- | -------------- | ---------------------- |
 | $V_{\max}$ | Unchanged        | Decreases        | Decreases      | Decreases              |
 | $K_m$      | Increases        | Unchanged        | Decreases      | Increases or decreases |
 | LB plot    | Intersect y-axis | Intersect x-axis | Parallel lines | Intersect 2nd quadrant |
+
+</div>
 
 ---
 
@@ -136,7 +144,9 @@ cysteine residues at allosteric sites.
 The bonds between the phosphate groups are **phosphoanhydride bonds**. The hydrolysis of the
 terminal Phosphoanhydride bond (between $\beta$ and $\gamma$ phosphates) releases energy:
 
-$$\mathrm{ATP} + \mathrm{H}_2\mathrm{O} \to \mathrm{ADP} + \mathrm{P_i} + \Delta G \approx -30.5\;\mathrm{kJ/mol}$$
+$$
+\mathrm{ATP} + \mathrm{H}_2\mathrm{O} \to \mathrm{ADP} + \mathrm{P_i} + \Delta G \approx -30.5\;\mathrm{kJ/mol}
+$$
 
 ### Why ATP is an Effective Energy Currency
 
@@ -150,6 +160,8 @@ $$\mathrm{ATP} + \mathrm{H}_2\mathrm{O} \to \mathrm{ADP} + \mathrm{P_i} + \Delta
 
 ### ATP Yields from Glucose
 
+<div class="table-wrap">
+
 | Stage of respiration      | Net ATP (approximate)      | Net reduced coenzymes                                                       |
 | ------------------------- | -------------------------- | --------------------------------------------------------------------------- |
 | Glycolysis                | 2 ATP (substrate-level)    | 2 NADH (cytoplasm)                                                          |
@@ -157,6 +169,8 @@ $$\mathrm{ATP} + \mathrm{H}_2\mathrm{O} \to \mathrm{ADP} + \mathrm{P_i} + \Delta
 | Krebs cycle               | 2 ATP (GTP)                | 6 NADH + 2 $\mathrm{FADH}_2$ (mitochondrial matrix)                         |
 | Oxidative phosphorylation | ---                        | NADH $\to \approx 2.5$ ATP each; $\mathrm{FADH}_2 \to \approx 1.5$ ATP each |
 | **Total (per glucose)**   | **$\approx 30$--$32$ ATP** | **10 NADH + 2 $\mathrm{FADH}_2$**                                           |
+
+</div>
 
 Note: older textbooks cite $36$--$38$ ATP, based on the P/O ratio of $3$ for NADH and $2$ for
 $\mathrm{FADH}_2$. Current evidence suggests the shuttle system for cytoplasmic NADH
@@ -179,7 +193,7 @@ reduce the actual Yield to approximately $30$--$32$ ATP per glucose.
 ### Overview
 
 Glycolysis ("sugar splitting") occurs in the **cytoplasm** and does not require oxygen. It converts
-One molecule of glucose ($\mathrm{C_6H_{12}O_6}$) into two molecules of pyruvate
+one molecule of glucose ($\mathrm{C_6H_{12}O_6}$) into two molecules of pyruvate
 ($\mathrm{C_3H_4O_3}$).
 
 ### Stages
@@ -219,11 +233,15 @@ For each G3P (multiply by 2 for the full glucose molecule):
 
 ### Regulation of Glycolysis
 
+<div class="table-wrap">
+
 | Enzyme                        | Allosteric activator                        | Allosteric inhibitor                     | Hormonal regulation                                   |
 | ----------------------------- | ------------------------------------------- | ---------------------------------------- | ----------------------------------------------------- |
 | **Hexokinase**                | ---                                         | Glucose-6-phosphate (product inhibition) | ---                                                   |
 | **Phosphofructokinase (PFK)** | AMP, ADP, $\mathrm{F}_{2,6}\mathrm{BP}$     | ATP, citrate, low pH                     | Insulin activates (via $\mathrm{F}_{2,6}\mathrm{BP}$) |
 | **Pyruvate kinase**           | $\mathrm{F}_{1,6}\mathrm{BP}$ (feedforward) | ATP, alanine, acetyl-CoA                 | Glucagon inhibits (phosphorylation in liver)          |
+
+</div>
 
 ---
 
@@ -241,9 +259,11 @@ For each G3P (multiply by 2 for the full glucose molecule):
 ### Pyruvate Oxidation (Link Reaction)
 
 Pyruvate is transported from the cytoplasm into the mitochondrial matrix, where it is converted to
-Acetyl-CoA:
+acetyl-CoA:
 
-$$\mathrm{Pyruvate} + \mathrm{CoA} + \mathrm{NAD}^+ \to \mathrm{Acetyl\text{-}CoA} + \mathrm{CO}_2 + \mathrm{NADH}$$
+$$
+\mathrm{Pyruvate} + \mathrm{CoA} + \mathrm{NAD}^+ \to \mathrm{Acetyl\text{-}CoA} + \mathrm{CO}_2 + \mathrm{NADH}
+$$
 
 Catalysed by the **pyruvate dehydrogenase complex** (a multi-enzyme complex). Per glucose: $2$
 pyruvate $\to$ $2$ acetyl-CoA, $2$ $\mathrm{CO}_2$, $2$ NADH.
@@ -301,7 +321,9 @@ glucose: 2 turns).
 ### The Electron Transport Chain (ETC)
 
 Located in the **inner mitochondrial membrane**. NADH and $\mathrm{FADH}_2$ donate electrons to a
-Series of protein complexes and mobile carriers:
+series of protein complexes and mobile carriers:
+
+<div class="table-wrap">
 
 | Complex | Component                 | Electron donor              | Electron acceptor                             | Protons pumped ($\mathrm{H}^+$) |
 | ------- | ------------------------- | --------------------------- | --------------------------------------------- | ------------------------------- |
@@ -309,6 +331,8 @@ Series of protein complexes and mobile carriers:
 | **II**  | Succinate dehydrogenase   | $\mathrm{FADH}_2$           | Ubiquinone (Q)                                | 0                               |
 | **III** | Cytochrome $bc_1$ complex | Ubiquinol ($\mathrm{QH}_2$) | Cytochrome c                                  | 4                               |
 | **IV**  | Cytochrome c oxidase      | Cytochrome c                | $\mathrm{O}_2$ ($\to \mathrm{H}_2\mathrm{O}$) | 2                               |
+
+</div>
 
 **Electron flow**: NADH $\to$ Complex I $\to$ Q $\to$ Complex III $\to$ Cyt c $\to$ Complex IV $\to$
 $\mathrm{O}_2$.
@@ -327,7 +351,9 @@ The proton gradient generated by the ETC drives ATP synthesis:
 - An **electrical gradient** ($\Delta\Psi$: positive charge in intermembrane space)
 
 1. Together, these form the **proton-motive force (PMF)**:
-   $$\Delta p = \Delta\Psi - \frac{2.303 RT}{F} \Delta\mathrm{pH}$$
+   $$
+   \Delta p = \Delta\Psi - \frac{2.303 RT}{F} \Delta\mathrm{pH}
+   $$
 2. Protons flow back into the matrix through **ATP synthase** (Complex V), driving the
    phosphorylation of ADP to ATP.
 
@@ -338,19 +364,25 @@ A multi-subunit enzyme with two components:
 - **$\mathrm{F}_0$**: membrane-embedded proton channel.
 - **$\mathrm{F}_1$**: catalytic head in the matrix where ATP is synthesised.
 
-The binding change mechanism (Boyer, 1997): as protons flow through $\mathrm{F}_0$The $\gamma$
+The binding change mechanism (Boyer, 1997): as protons flow through $\mathrm{F}_0$ The $\gamma$
 Subunit rotates, inducing conformational changes in the three $\beta$ subunits of $\mathrm{F}_1$
-(Loose, Tight, Open states), sequentially binding ADP + $\mathrm{P_i}$Forming ATP, and releasing
+(Loose, Tight, Open states), sequentially binding ADP + $\mathrm{P_i}$ Forming ATP, and releasing
 ATP. Approximately $3$--$4$ protons are required per ATP synthesised.
 
 ### P/O Ratios
+
+<div class="table-wrap">
 
 | Donor             | Protons pumped to IMS | Protons for ATP synthesis | Approximate ATP yield |
 | ----------------- | --------------------- | ------------------------- | --------------------- |
 | NADH              | 10                    | $\approx 3$--$4$ per ATP  | $\approx 2.5$ ATP     |
 | $\mathrm{FADH}_2$ | 6                     | $\approx 3$--$4$ per ATP  | $\approx 1.5$ ATP     |
 
+</div>
+
 ### Uncouplers and Inhibitors
+
+<div class="table-wrap">
 
 | Substance                     | Effect                                                                                         | Example                                           |
 | ----------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -360,9 +392,13 @@ ATP. Approximately $3$--$4$ protons are required per ATP synthesised.
 | **DNP (2,4-dinitrophenol)**   | Lipid-soluble uncoupler; carries $\mathrm{H}^+$ across the inner membrane, dissipating the PMF | ETC runs at maximum rate; energy released as heat |
 | **Rotenone**                  | Inhibits Complex I                                                                             | Blocks electron flow from NADH                    |
 
+</div>
+
 ### Oxygen as the Final Electron Acceptor
 
-$$\frac{1}{2}\mathrm{O}_2 + 2\mathrm{H}^+ + 2e^- \to \mathrm{H}_2\mathrm{O}$$
+$$
+\frac{1}{2}\mathrm{O}_2 + 2\mathrm{H}^+ + 2e^- \to \mathrm{H}_2\mathrm{O}
+$$
 
 Oxygen is essential because it has a very high reduction potential ($E_0' = +0.82\;\mathrm{V}$),
 Making it the strongest biological electron acceptor. Without oxygen, the ETC backs up: NADH and
@@ -386,7 +422,9 @@ And the cell must rely on fermentation or anaerobic respiration.
 
 Photosynthesis converts light energy into chemical energy stored in glucose:
 
-$$6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O} + \text{light energy} \to \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2$$
+$$
+6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O} + \text{light energy} \to \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2
+$$
 
 Occurs in the **chloroplasts** of plant cells (and algae, cyanobacteria). Chloroplasts have an Outer
 membrane, inner membrane, stroma (fluid), and thylakoid membranes (site of the Light-dependent
@@ -400,12 +438,12 @@ Occur in the **thylakoid membranes**. Light energy is captured and used to gener
 
 Photosystems are pigment-protein complexes containing **chlorophyll a**, accessory pigments
 (chlorophyll b, carotenoids), and electron carriers. Accessory pigments absorb wavelengths not
-Absorbed by chlorophyll a and transfer the energy to chlorophyll a via resonance energy transfer
+absorbed by chlorophyll a and transfer the energy to chlorophyll a via resonance energy transfer
 (antenna effect).
 
 **Absorption spectrum**: chlorophyll a absorbs blue ($\approx 430\;\mathrm{nm}$) and red
 ($\approx 660\;\mathrm{nm}$) light most strongly; green light is reflected (giving leaves their
-Green colour). Carotenoids absorb blue-green light ($\approx 450$--$500\;\mathrm{nm}$).
+green colour). Carotenoids absorb blue-green light ($\approx 450$--$500\;\mathrm{nm}$).
 
 **Action spectrum**: the rate of photosynthesis as a function of wavelength; closely matches the
 Absorption spectrum, confirming that absorbed light drives photosynthesis.
@@ -420,7 +458,7 @@ Absorption spectrum, confirming that absorbed light drives photosynthesis.
    electron. This is the source of $\mathrm{O}_2$ released during photosynthesis.
 4. The electron passes through the **electron transport chain**: pheophytin $\to$ plastoquinone (PQ)
    $\to$ cytochrome $b_6f$ complex $\to$ plastocyanin (PC).
-5. As electrons pass through cytochrome $b_6f$Protons are pumped from the stroma into the thylakoid
+5. As electrons pass through cytochrome $b_6f$ Protons are pumped from the stroma into the thylakoid
    lumen, contributing to the proton gradient.
 
 #### Photosystem I (P700)
@@ -447,12 +485,14 @@ $\mathrm{CO}_2$ Into organic molecules ( carbohydrates).
 $\mathrm{CO}_2$ is fixed by **ribulose-1,5-bisphosphate carboxylase/oxygenase (Rubisco)**, the most
 Abundant protein on Earth:
 
-$$\mathrm{CO}_2 + \text{RuBP (5C)} \to 2\times\text{3-phosphoglycerate (3-PGA, 3C)}$$
+$$
+\mathrm{CO}_2 + \text{RuBP (5C)} \to 2\times\text{3-phosphoglycerate (3-PGA, 3C)}
+$$
 
 Rubisco catalyses approximately $10^{12}$ reactions per second globally but is inefficient:
 
 - **Slow turnover**: $\approx 3$ reactions per second per active site.
-- **Oxygenase activity**: Rubisco can bind $\mathrm{O}_2$ instead of $\mathrm{CO}_2$Producing one
+- **Oxygenase activity**: Rubisco can bind $\mathrm{O}_2$ instead of $\mathrm{CO}_2$ Producing one
   3-PGA molecule and one 2-phosphoglycolate (2-PG). This is **photorespiration**, which wastes
   carbon and energy.
 
@@ -460,7 +500,9 @@ Rubisco catalyses approximately $10^{12}$ reactions per second globally but is i
 
 3-PGA is phosphorylated by ATP (from the light-dependent reactions) and reduced by NADPH:
 
-$$\text{3-PGA} + \text{ATP} + \text{NADPH} \to \text{G3P (glyceraldehyde-3-phosphate)}$$
+$$
+\text{3-PGA} + \text{ATP} + \text{NADPH} \to \text{G3P (glyceraldehyde-3-phosphate)}
+$$
 
 For every 3 $\mathrm{CO}_2$ fixed, 6 G3P are produced, but 5 are recycled to regenerate RuBP. Only 1
 G3P (a 3-carbon sugar) is the net gain per 3 $\mathrm{CO}_2$.
@@ -471,7 +513,9 @@ G3P (a 3-carbon sugar) is the net gain per 3 $\mathrm{CO}_2$.
 
 ### Net equation of the Calvin cycle (per 3 $\mathrm{CO}_2$)
 
-$$3\mathrm{CO}_2 + 9\mathrm{ATP} + 6\mathrm{NADPH} \to \text{G3P} + 9\mathrm{ADP} + 8\mathrm{P_i} + 6\mathrm{NADP}^+$$
+$$
+3\mathrm{CO}_2 + 9\mathrm{ATP} + 6\mathrm{NADPH} \to \text{G3P} + 9\mathrm{ADP} + 8\mathrm{P_i} + 6\mathrm{NADP}^+
+$$
 
 To synthesise one glucose molecule ($6\;\mathrm{C}$), the Calvin cycle must turn twice:
 $6\mathrm{CO}_2 + 18\mathrm{ATP} + 12\mathrm{NADPH} \to \mathrm{glucose} + 18\mathrm{ADP} + 18\mathrm{P_i} + 12\mathrm{NADP}^+$.
@@ -480,6 +524,8 @@ $6\mathrm{CO}_2 + 18\mathrm{ATP} + 12\mathrm{NADPH} \to \mathrm{glucose} + 18\ma
 
 The rate of photosynthesis is affected by:
 
+<div class="table-wrap">
+
 | Factor                            | Effect                                                                                                                                          | Graph shape                                        |
 | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | **Light intensity**               | Rate increases linearly at low intensity (light is limiting). At high intensity, rate plateaus (another factor becomes limiting).               | Rectangular hyperbola, levelling off               |
@@ -487,8 +533,10 @@ The rate of photosynthesis is affected by:
 | **Temperature**                   | Rate increases up to an optimum ($\approx 25$--$30^\circ\mathrm{C}$ for $\mathrm{C_3}$ plants); above this, Rubisco and other enzymes denature. | Bell-shaped curve; declines at high temperatures   |
 | **Water**                         | Severe water stress closes stomata, limiting $\mathrm{CO}_2$ uptake.                                                                            | Rate drops sharply as water availability decreases |
 
+</div>
+
 **$\mathrm{C_4}$ and CAM adaptations**: in hot, dry conditions, $\mathrm{C_3}$ plants lose water
-Through open stomata and suffer from photorespiration. $\mathrm{C_4}$ plants (maize, sugarcane) use
+through open stomata and suffer from photorespiration. $\mathrm{C_4}$ plants (maize, sugarcane) use
 PEP carboxylase (which has no oxygenase activity) to fix $\mathrm{CO}_2$ into a 4-carbon compound In
 mesophyll cells, then transport it to bundle-sheath cells where $\mathrm{CO}_2$ is released at High
 concentration for Rubisco. CAM plants (cactus, pineapple) fix $\mathrm{CO}_2$ at night (open Stomata
@@ -511,9 +559,11 @@ $\mathrm{CO}_2$ is released for the Calvin cycle.
 ### Lactic Acid Fermentation
 
 In the absence of oxygen (or when the ETC cannot keep up with demand), pyruvate is converted to
-Lactate by **lactate dehydrogenase**, oxidising NADH to $\mathrm{NAD}^+$:
+lactate by **lactate dehydrogenase**, oxidising NADH to $\mathrm{NAD}^+$:
 
-$$\text{Pyruvate} + \mathrm{NADH} \to \text{Lactate} + \mathrm{NAD}^+$$
+$$
+\text{Pyruvate} + \mathrm{NADH} \to \text{Lactate} + \mathrm{NAD}^+
+$$
 
 - Net ATP per glucose: 2 (from glycolysis only).
 - Occurs in **animal muscle cells** during intense exercise (oxygen debt) and in certain bacteria
@@ -525,8 +575,12 @@ $$\text{Pyruvate} + \mathrm{NADH} \to \text{Lactate} + \mathrm{NAD}^+$$
 In yeast and some plant cells, pyruvate is first decarboxylated to acetaldehyde (releasing
 $\mathrm{CO}_2$), then reduced to ethanol:
 
-$$\text{Pyruvate} \xrightarrow{\text{pyruvate decarboxylase}} \text{Acetaldehyde} + \mathrm{CO}_2$$
-$$\text{Acetaldehyde} + \mathrm{NADH} \to \text{Ethanol} + \mathrm{NAD}^+$$
+$$
+\text{Pyruvate} \xrightarrow{\text{pyruvate decarboxylase}} \text{Acetaldehyde} + \mathrm{CO}_2
+$$
+$$
+\text{Acetaldehyde} + \mathrm{NADH} \to \text{Ethanol} + \mathrm{NAD}^+
+$$
 
 - Net ATP per glucose: 2 (from glycolysis only).
 - Used in **brewing** (ethanol production) and **baking** ($\mathrm{CO}_2$ production causes bread
@@ -536,6 +590,8 @@ $$\text{Acetaldehyde} + \mathrm{NADH} \to \text{Ethanol} + \mathrm{NAD}^+$$
 
 Some prokaryotes use electron acceptors other than $\mathrm{O}_2$ in the ETC:
 
+<div class="table-wrap">
+
 | Final electron acceptor          | Product                                                      | Example organism                            |
 | -------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
 | $\mathrm{NO}_3^-$ (nitrate)      | $\mathrm{N}_2$ or $\mathrm{N}_2\mathrm{O}$ (denitrification) | _Pseudomonas denitrificans_ (soil bacteria) |
@@ -543,8 +599,10 @@ Some prokaryotes use electron acceptors other than $\mathrm{O}_2$ in the ETC:
 | $\mathrm{CO}_3^{2-}$ (carbonate) | $\mathrm{CH}_4$ (methane)                                    | Methanogens (archaea)                       |
 | $\mathrm{Fe}^{3+}$ (iron)        | $\mathrm{Fe}^{2+}$                                           | Geobacter (iron-reducing bacteria)          |
 
+</div>
+
 Anaerobic respiration produces more ATP than fermentation (the ETC still operates) but less than
-Aerobic respiration (alternative acceptors have lower reduction potentials than $\mathrm{O}_2$).
+aerobic respiration (alternative acceptors have lower reduction potentials than $\mathrm{O}_2$).
 
 ---
 
@@ -574,12 +632,16 @@ regulation**:
 
 ### Integration of Metabolic Pathways
 
+<div class="table-wrap">
+
 | Intermediate     | Source pathways                                      | Destination pathways                                                                   |
 | ---------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | **Pyruvate**     | Glycolysis                                           | Krebs cycle (aerobic); fermentation (anaerobic); gluconeogenesis; fatty acid synthesis |
 | **Acetyl-CoA**   | Pyruvate oxidation; $\beta$-oxidation of fatty acids | Krebs cycle; fatty acid synthesis; ketone body synthesis                               |
 | **G3P**          | Calvin cycle (plants)                                | Glucose synthesis; glycolysis (reverse)                                                |
 | **Oxaloacetate** | Krebs cycle; gluconeogenesis                         | Krebs cycle; gluconeogenesis; amino acid synthesis (aspartate)                         |
+
+</div>
 
 ---
 
@@ -630,7 +692,7 @@ regulation**:
 <summary>Question 1: Michaelis-Menten Calculation</summary>
 
 An enzyme has $V_{\max} = 60\;\mathrm{\mu mol/min}$ and $K_m = 8\;\mathrm{mM}$. Calculate the
-Reaction velocity at $[S] = 4\;\mathrm{mM}$, $8\;\mathrm{mM}$ And $20\;\mathrm{mM}$. A Competitive
+reaction velocity at $[S] = 4\;\mathrm{mM}$, $8\;\mathrm{mM}$ And $20\;\mathrm{mM}$. A Competitive
 inhibitor is added that increases the apparent $K_m$ to $24\;\mathrm{mM}$. Calculate the velocity at
 $[S] = 20\;\mathrm{mM}$ with the inhibitor. At what substrate Concentration does the inhibited
 reaction reach $90\%$ of $V_{\max}$?
@@ -647,7 +709,7 @@ $v = \frac{60 \times 4}{8 + 4} = \frac{240}{12} = 20\;\mathrm{\mu mol/min}$
 
 At $[S] = 8\;\mathrm{mM}$:
 $v = \frac{60 \times 8}{8 + 8} = \frac{480}{16} = 30\;\mathrm{\mu mol/min}$ (=
-$\frac{1}{2}V_{\max}$Confirming $K_m$)
+$\frac{1}{2}V_{\max}$ Confirming $K_m$)
 
 At $[S] = 20\;\mathrm{mM}$:
 $v = \frac{60 \times 20}{8 + 20} = \frac{1200}{28} = 42.9\;\mathrm{\mu mol/min}$
@@ -659,7 +721,7 @@ $v = \frac{60 \times 20}{24 + 20} = \frac{1200}{44} = 27.3\;\mathrm{\mu mol/min}
 For $90\%$ of $V_{\max}$ with inhibitor: $0.9 \times 60 = \frac{60 \times [S]}{24 + [S]}$
 $54(24 + [S]) = 60[S]$ $1296 + 54[S] = 60[S]$ $6[S] = 1296$ $[S] = 216\;\mathrm{mM}$
 
-At $[S] = 216\;\mathrm{mM}$The competitive inhibitor is effectively outcompeted.
+At $[S] = 216\;\mathrm{mM}$ The competitive inhibitor is effectively outcompeted.
 
 </details>
 
@@ -683,11 +745,11 @@ Calvin cycle. Since the $\mathrm{CO}_2$ concentration is not limiting at low lig
 Follow the same trajectory.
 
 At higher light intensities, the light-dependent reactions produce abundant ATP and NADPH, and
-$\mathrm{CO}_2$ concentration becomes the limiting factor. At $0.04\%$ $\mathrm{CO}_2$Rubisco is
+$\mathrm{CO}_2$ concentration becomes the limiting factor. At $0.04\%$ $\mathrm{CO}_2$ Rubisco is
 Saturated with its substrates at a lower rate, so the curve plateaus earlier and at a lower
-Photosynthetic rate. At $0.10\%$ $\mathrm{CO}_2$More $\mathrm{CO}_2$ is available for Rubisco,
+Photosynthetic rate. At $0.10\%$ $\mathrm{CO}_2$ More $\mathrm{CO}_2$ is available for Rubisco,
 Allowing a higher maximum rate before the curve plateaus. This demonstrates the principle of
-Limiting factors: the rate is determined by the factor in shortest supply.
+limiting factors: the rate is determined by the factor in shortest supply.
 
 </details>
 
@@ -709,7 +771,7 @@ oxidises 1 mole of glucose, calculate the approximate volume of $\mathrm{O}_2$ c
 $\mathrm{RQ} = \frac{\mathrm{CO}_2\text{ produced}}{\mathrm{O}_2\text{ consumed}} = \frac{58}{60} = 0.967$
 
 (b) An RQ close to $1.0$ indicates that the primary substrate is **carbohydrate** (glucose), since
-The complete oxidation of glucose produces equal moles of $\mathrm{CO}_2$ and $\mathrm{O}_2$
+the complete oxidation of glucose produces equal moles of $\mathrm{CO}_2$ and $\mathrm{O}_2$
 Consumed:
 $\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2 \to 6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O}$.
 For lipids, RQ $\approx 0.7$; for proteins, RQ $\approx 0.8$--$0.9$.
@@ -724,7 +786,9 @@ $6 \times 22.4 = 134.4\;\mathrm{L}$.
 <summary>Question 4: Inhibition Type Identification</summary>
 
 An experiment measures enzyme activity at varying substrate concentrations with and without an
-Unknown inhibitor. The results are:
+unknown inhibitor. The results are:
+
+<div class="table-wrap">
 
 | $[S]$ (mM) | Velocity without inhibitor ($\mathrm{\mu mol/min}$) | Velocity with inhibitor ($\mathrm{\mu mol/min}$) |
 | ---------- | --------------------------------------------------- | ------------------------------------------------ |
@@ -734,6 +798,8 @@ Unknown inhibitor. The results are:
 | 20         | 39                                                  | 37.0                                             |
 | 50         | 44                                                  | 43.2                                             |
 
+</div>
+
 Identify the type of inhibition and justify your answer.
 
 </details>
@@ -742,13 +808,13 @@ Identify the type of inhibition and justify your answer.
 <summary>Answer</summary>
 
 At high $[S]$ ($50\;\mathrm{mM}$), the velocity with inhibitor ($43.2$) approaches the velocity
-Without inhibitor ($44.0$). The $V_{\max}$ is approximately the same with and without the inhibitor.
+without inhibitor ($44.0$). The $V_{\max}$ is approximately the same with and without the inhibitor.
 
 At low $[S]$ ($2\;\mathrm{mM}$), the velocity with inhibitor ($7.5$) is substantially lower than
-Without ($12.0$), indicating a higher apparent $K_m$.
+without ($12.0$), indicating a higher apparent $K_m$.
 
 Since $V_{\max}$ is unchanged and $K_m$ is increased, the inhibition is **competitive**. The
-Inhibitor competes with the substrate for the active site but can be overcome by increasing
+inhibitor competes with the substrate for the active site but can be overcome by increasing
 Substrate concentration.
 
 </details>
@@ -812,8 +878,8 @@ Concentration, (d) the proton gradient. Explain the mechanism.
 <summary>Solution</summary>
 
 (a) **$\mathrm{O}_2$ consumption decreases to zero**. Oligomycin blocks ATP synthase, so protons
-Cannot flow back into the matrix. The proton gradient builds up until the PMF is so large that the
-Electron transport chain cannot pump more protons against it. Electron transport stops, and
+cannot flow back into the matrix. The proton gradient builds up until the PMF is so large that the
+electron transport chain cannot pump more protons against it. Electron transport stops, and
 $\mathrm{O}_2$ Is no longer reduced.
 
 (b) **ATP production drops to zero** (no oxidative phosphorylation) and only the 2 ATP from
@@ -821,11 +887,11 @@ glycolysis Remain (and possibly 2 GTP from the Krebs cycle, though the Krebs cyc
 NAD$^+$ Runs out).
 
 (c) **NADH concentration increases**. Without the ETC accepting electrons, NADH from glycolysis and
-The Krebs cycle cannot be oxidised to $\mathrm{NAD}^+$. The $\mathrm{NADH/NAD}^+$ ratio increases
+the Krebs cycle cannot be oxidised to $\mathrm{NAD}^+$. The $\mathrm{NADH/NAD}^+$ ratio increases
 Dramatically.
 
 (d) **The proton gradient increases to its maximum** and is maintained. The ETC has stopped, so no
-More protons are pumped, but the existing gradient cannot dissipate through ATP synthase.
+more protons are pumped, but the existing gradient cannot dissipate through ATP synthase.
 
 This is analogous to a car engine where the exhaust is blocked: fuel cannot be consumed, energy
 Production ceases, and intermediates accumulate.
@@ -835,8 +901,8 @@ Production ceases, and intermediates accumulate.
 **Worked Example: Photorespiration Quantification**
 
 At $35^\circ\mathrm{C}$ and atmospheric $\mathrm{CO}_2$ ($0.04\%$), Rubisco's relative specificity
-For $\mathrm{CO}_2$ vs $\mathrm{O}_2$ is $80$ (i.e., Rubisco reacts with $\mathrm{CO}_2$ 80 Times
-more readily than with $\mathrm{O}_2$Per molecule). The $\mathrm{O}_2$ concentration in The leaf is
+for $\mathrm{CO}_2$ vs $\mathrm{O}_2$ is $80$ (i.e., Rubisco reacts with $\mathrm{CO}_2$ 80 Times
+more readily than with $\mathrm{O}_2$ Per molecule). The $\mathrm{O}_2$ concentration in The leaf is
 $21\%$. Calculate the ratio of carboxylation to oxygenation reactions. If each Oxygenation reaction
 wastes 2 ATP and 1 NADPH, calculate the energy wasted per 1000 Rubisco Reactions.
 
@@ -844,7 +910,7 @@ wastes 2 ATP and 1 NADPH, calculate the energy wasted per 1000 Rubisco Reactions
 <summary>Solution</summary>
 
 The ratio of carboxylation to oxygenation depends on the relative concentrations of $\mathrm{CO}_2$
-And $\mathrm{O}_2$ at the Rubisco active site, weighted by Rubisco's relative specificity:
+and $\mathrm{O}_2$ at the Rubisco active site, weighted by Rubisco's relative specificity:
 
 $\frac{V_{\mathrm{carboxylation}}}{V_{\mathrm{oxygenation}}} = \frac{[\mathrm{CO}_2]}{[\mathrm{O}_2]} \times \frac{S_{\mathrm{CO_2/O_2}}}{1} = \frac{0.04}{21} \times 80 = \frac{3.2}{21} \approx 0.152$
 
@@ -911,6 +977,8 @@ $\approx 10\times$ atmospheric, the carboxylation:oxygenation ratio improves dra
 The following data show the initial velocity of an enzyme-catalysed reaction at different substrate
 Concentrations, with and without an unknown inhibitor:
 
+<div class="table-wrap">
+
 | $[S]$ (mM) | Velocity, no inhibitor | Velocity + 5 mM inhibitor |
 | ---------- | ---------------------- | ------------------------- |
 | 1          | 5.0                    | 2.8                       |
@@ -919,6 +987,8 @@ Concentrations, with and without an unknown inhibitor:
 | 10         | 18.2                   | 14.3                      |
 | 20         | 20.8                   | 17.2                      |
 | 50         | 22.7                   | 20.8                      |
+
+</div>
 
 (a) Plot a Lineweaver-Burk graph and determine $V_{\max}$ and $K_m$ with and without the inhibitor.
 (b) Identify the type of inhibition. (c) Calculate the inhibitor constant $K_i$.
@@ -932,7 +1002,7 @@ An aquatic plant is placed in a solution of $\mathrm{NaHCO}_3$ (providing dissol
 $\mathrm{CO}_2$). The rate of oxygen production is measured at different light intensities and
 temperatures. (a) Predict and explain the effect of increasing temperature from $15^\circ\mathrm{C}$
 to $35^\circ\mathrm{C}$ on the rate of photosynthesis at saturating light intensity. (b) Explain why
-The rate decreases above $35^\circ\mathrm{C}$. (c) If the experiment is repeated with a
+the rate decreases above $35^\circ\mathrm{C}$. (c) If the experiment is repeated with a
 $\mathrm{C_4}$ Plant, predict how the temperature response would differ and explain why.
 
 </details>
@@ -955,7 +1025,7 @@ RQ can change during Prolonged fasting.
 hyperthermia. (a) Explain the mechanism by which DNP uncouples oxidative phosphorylation. (b)
 Predict the effect of DNP on: (i) $\mathrm{O}_2$ consumption, (ii) ATP production, (iii) body
 Temperature, (iv) blood glucose levels. (c) Explain why DNP causes rapid weight loss but is
-Extremely dangerous.
+extremely dangerous.
 
 </details>
 
@@ -964,6 +1034,8 @@ Extremely dangerous.
 
 The following data show the rate of photosynthesis of a green alga at different wavelengths of
 light:
+
+<div class="table-wrap">
 
 | Wavelength (nm) | Rate of photosynthesis (arbitrary units) |
 | --------------- | ---------------------------------------- |
@@ -981,10 +1053,12 @@ light:
 | 675             | 72                                       |
 | 700             | 30                                       |
 
+</div>
+
 (a) Plot the action spectrum. (b) Superimpose the expected absorption spectra of chlorophyll a,
-Chlorophyll b, and carotenoids. (c) Explain why the action spectrum has two peaks and why the Green
+chlorophyll b, and carotenoids. (c) Explain why the action spectrum has two peaks and why the Green
 region ($500$--$600\;\mathrm{nm}$) has a low rate. (d) Explain why the action spectrum and
-Absorption spectrum are similar but not identical.
+absorption spectrum are similar but not identical.
 
 </details>
 
@@ -1036,7 +1110,7 @@ into the mitochondria And using the updated P/O ratios
 
 Step 1: Activation of palmitic acid to palmitoyl-CoA.
 
-- Requires 2 ATP equivalents (ATP $\to$ AMP + $\mathrm{PP_i}$Equivalent to 2 ATP hydrolysed).
+- Requires 2 ATP equivalents (ATP $\to$ AMP + $\mathrm{PP_i}$ Equivalent to 2 ATP hydrolysed).
 
 Step 2: $\beta$-oxidation cycles.
 
@@ -1095,11 +1169,11 @@ approximately $20\text{--}22\;\mathrm{kcal/L\;O}_2$).
 **Worked Example: Inhibitor Type Determination from Lineweaver-Burk Plot**
 
 An enzyme has a $V_{max}$ of $120\;\mathrm{\mu mol/min}$ and a $K_m$ of $4.0\;\mathrm{mM}$. In the
-Presence of an inhibitor, the apparent $V_{max}$ is $120\;\mathrm{\mu mol/min}$ and the apparent
+presence of an inhibitor, the apparent $V_{max}$ is $120\;\mathrm{\mu mol/min}$ and the apparent
 $K_m$ Is $12.0\;\mathrm{mM}$. (a) Identify the type of inhibitor. (b) Calculate the inhibitor
 constant $K_i$ If the inhibitor concentration is $2.0\;\mathrm{mM}$. (c) Sketch the expected
 Lineweaver-Burk plot Showing both the uninhibited and inhibited reactions. (d) At a substrate
-concentration of $4.0\;\mathrm{mM}$What fraction of the enzyme's maximum velocity is achieved in the
+concentration of $4.0\;\mathrm{mM}$ What fraction of the enzyme's maximum velocity is achieved in the
 presence and Absence of the inhibitor?
 
 <details>
@@ -1109,12 +1183,12 @@ presence and Absence of the inhibitor?
 This is characteristic of a **competitive inhibitor**.
 
 (b) For competitive inhibition: $\alpha = \frac{K_m^{app}}{K_m} = \frac{12.0}{4.0} = 3$.
-$\alpha = 1 + \frac{[I]}{K_i}$ So $3 = 1 + \frac{2.0}{K_i}$Giving $K_i = 1.0\;\mathrm{mM}$.
+$\alpha = 1 + \frac{[I]}{K_i}$ So $3 = 1 + \frac{2.0}{K_i}$ Giving $K_i = 1.0\;\mathrm{mM}$.
 
 (c) Lineweaver-Burk plot ($1/v$ vs $1/[S]$):
 
-- Uninhibited: x-intercept $= -1/K_m = -0.25$Y-intercept $= 1/V_{max} = 0.00833$
-- Inhibited: x-intercept $= -1/K_m^{app} = -0.0833$Y-intercept $= 1/V_{max} = 0.00833$ Both lines
+- Uninhibited: x-intercept $= -1/K_m = -0.25$ Y-intercept $= 1/V_{max} = 0.00833$
+- Inhibited: x-intercept $= -1/K_m^{app} = -0.0833$ Y-intercept $= 1/V_{max} = 0.00833$ Both lines
   intersect on the y-axis (same $1/V_{max}$). The inhibited line has a steeper slope (slope
   $= K_m/V_{max}$ increases from $4/120$ to $12/120$).
 
@@ -1171,7 +1245,9 @@ but no NADPH.
 
 Baker's yeast (_Saccharomyces cerevisiae_) is used to ferment glucose anaerobically in a bioreactor.
 The fermentation equation is:
-$$\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 \to 2\;\mathrm{C}_2\mathrm{H}_5\mathrm{OH} + 2\;\mathrm{CO}_2$$
+$$
+\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 \to 2\;\mathrm{C}_2\mathrm{H}_5\mathrm{OH} + 2\;\mathrm{CO}_2
+$$
 
 The bioreactor contains $100\;\mathrm{L}$ of $0.5\;\mathrm{mol/L}$ glucose solution. After $8$
 hours, $15\;\mathrm{mol}$ of $\mathrm{CO}_2$ have been produced. (a) Calculate the percentage of
@@ -1231,7 +1307,7 @@ $= 2(12) + 6(1) + 16 = 46\;\mathrm{g/mol}$. Mass: $15 \times 46 = 690\;\mathrm{g
 - **Forgetting that glycolysis occurs in the cytoplasm, not the mitochondria**: only the link
   reaction, Krebs cycle, and oxidative phosphorylation occur in the mitochondria.
 - **Confusing photorespiration with photosynthesis**: photorespiration is a wasteful process in
-  which Rubisco binds $\mathrm{O}_2$ instead of $\mathrm{CO}_2$Consuming energy and releasing
+  which Rubisco binds $\mathrm{O}_2$ instead of $\mathrm{CO}_2$ Consuming energy and releasing
   $\mathrm{CO}_2$ without producing sugar. It is favoured at high temperatures and low
   $\mathrm{CO}_2$ concentrations.
 - **Assuming $V_{max}$ is always achievable**: $V_{max}$ is a theoretical maximum approached
@@ -1391,7 +1467,9 @@ and the $\mathrm{CO}_2$ enters the Calvin cycle.
 <summary>Problem 9: Data Analysis -- Oxygen Dissociation Curve Shift</summary>
 
 The following data show the percentage saturation of haemoglobin at different $\mathrm{pO}_2$ values
-Under normal conditions and in the presence of 2,3-BPG:
+under normal conditions and in the presence of 2,3-BPG:
+
+<div class="table-wrap">
 
 | $\mathrm{pO}_2$ (kPa) | Normal saturation (%) | + 2,3-BPG (%) |
 | --------------------- | --------------------- | ------------- |
@@ -1403,9 +1481,11 @@ Under normal conditions and in the presence of 2,3-BPG:
 | 10.0                  | 92                    | 82            |
 | 13.3                  | 97                    | 92            |
 
+</div>
+
 (a) Sketch both curves on the same axes. (b) At a $\mathrm{pO}_2$ of $5.0\;\mathrm{kPa}$ (typical Of
 active muscle tissue), how much more $\mathrm{O}_2$ is unloaded in the presence of 2,3-BPG compared
-To normal conditions? (c) Explain the molecular mechanism by which 2,3-BPG shifts the curve. (d)
+to normal conditions? (c) Explain the molecular mechanism by which 2,3-BPG shifts the curve. (d)
 Explain Why 2,3-BPG levels increase at high altitude and how this is beneficial.
 
 </details>
@@ -1429,8 +1509,8 @@ $\mathrm{O}_2$ To bind (lowering haemoglobin's affinity for $\mathrm{O}_2$). Thi
 dissociation curve To the right, facilitating $\mathrm{O}_2$ unloading in tissues.
 
 (d) At high altitude, $\mathrm{pO}_2$ is lower, so less $\mathrm{O}_2$ loads onto haemoglobin in the
-Lungs. The body compensates by increasing 2,3-BPG production (via the Rapoport-Luebering shunt in
-Glycolysis), which shifts the curve to the right. This reduces haemoglobin's affinity for
+lungs. The body compensates by increasing 2,3-BPG production (via the Rapoport-Luebering shunt in
+glycolysis), which shifts the curve to the right. This reduces haemoglobin's affinity for
 $\mathrm{O}_2$ So more $\mathrm{O}_2$ is unloaded in tissues, partially compensating for the reduced
 loading. However, The shift also reduces loading in the lungs, so the net effect is a compromise.
 
@@ -1443,8 +1523,8 @@ loading. However, The shift also reduces loading in the lungs, so the net effect
 to Protons. (a) Explain the effect of DNP on oxidative phosphorylation. (b) Predict what happens to
 $\mathrm{O}_2$ consumption, $\mathrm{CO}_2$ production, and heat production in the presence of DNP.
 (c) Explain the role of uncoupling protein 1 (UCP1, thermogenin) in brown adipose tissue (BAT) and
-How it relates to DNP's mechanism. (d) Explain why DNP was used as a weight-loss drug in the 1930s
-And why it is extremely dangerous.
+how it relates to DNP's mechanism. (d) Explain why DNP was used as a weight-loss drug in the 1930s
+and why it is extremely dangerous.
 
 </details>
 
@@ -1479,7 +1559,7 @@ uncoupling is regulated And controlled, unlike the non-specific uncoupling cause
 to Maintain ATP levels, depleting fat and carbohydrate stores). However, it is extremely dangerous
 because:
 
-- The hyperthermia can be fatal (body temperature can exceed $41^\circ\mathrm{C}$Causing protein
+- The hyperthermia can be fatal (body temperature can exceed $41^\circ\mathrm{C}$ Causing protein
   denaturation and brain damage).
 - ATP depletion affects all energy-dependent processes (nerve conduction, muscle contraction, ion
   pumps), potentially causing coma and cardiac arrest.
@@ -1580,7 +1660,9 @@ $\mathrm{Glucose} + 2\mathrm{NAD}^+ + 2\mathrm{ADP} + 2\mathrm{P}_i \to 2\;\text
 
 **Aerobic conditions**: pyruvate enters the mitochondrial matrix via the pyruvate carrier. In the
 matrix, Pyruvate dehydrogenase complex (PDC) converts pyruvate to acetyl-CoA:
-$$\text{Pyruvate} + \mathrm{NAD}^+ + \mathrm{CoA} \to \text{acetyl-CoA} + \mathrm{NADH} + \mathrm{CO}_2$$
+$$
+\text{Pyruvate} + \mathrm{NAD}^+ + \mathrm{CoA} \to \text{acetyl-CoA} + \mathrm{NADH} + \mathrm{CO}_2
+$$
 
 PDC is a multi-enzyme complex containing 3 enzymes and 5 cofactors (TPP, lipoamide, CoA, FAD,
 $\mathrm{NAD}^+$). It produces 1 NADH per pyruvate (2 per glucose).
@@ -1588,13 +1670,15 @@ $\mathrm{NAD}^+$). It produces 1 NADH per pyruvate (2 per glucose).
 **Anaerobic conditions** (in animal cells): pyruvate is reduced to lactate by lactate dehydrogenase
 (LDH): $$\text{Pyruvate} + \mathrm{NADH} + \mathrm{H}^+ \to \text{lactate} + \mathrm{NAD}^+$$
 
-This regenerates $\mathrm{NAD}^+$Allowing glycolysis to continue. The lactate is transported to the
-Liver (Cori cycle), where it is converted back to glucose (gluconeogenesis, costing 6 ATP per
+This regenerates $\mathrm{NAD}^+$ Allowing glycolysis to continue. The lactate is transported to the
+liver (Cori cycle), where it is converted back to glucose (gluconeogenesis, costing 6 ATP per
 lactate).
 
 **Anaerobic conditions** (in yeast): pyruvate is decarboxylated to acetaldehyde (by pyruvate
 decarboxylase) And then reduced to ethanol (by alcohol dehydrogenase):
-$$\text{Pyruvate} \to \text{acetaldehyde} + \mathrm{CO}_2 \to \text{ethanol} + \mathrm{NAD}^+$$
+$$
+\text{Pyruvate} \to \text{acetaldehyde} + \mathrm{CO}_2 \to \text{ethanol} + \mathrm{NAD}^+
+$$
 
 ### The Krebs Cycle (Citric Acid Cycle / TCA Cycle)
 
@@ -1653,7 +1737,7 @@ $\mathrm{H}^+$) $\to$ IV (2 $\mathrm{H}^+$) = 10 $\mathrm{H}^+$ per NADH. $\math
 to Complex II (0 $\mathrm{H}^+$) $\to$ III (4 $\mathrm{H}^+$) $\to$ IV (2 $\mathrm{H}^+$) = 6
 $\mathrm{H}^+$ per $\mathrm{FADH}_2$.
 
-**ATP synthase (Complex V)**: uses the proton gradient ($\Delta\mathrm{pH} + \Delta\Psi$The
+**ATP synthase (Complex V)**: uses the proton gradient ($\Delta\mathrm{pH} + \Delta\Psi$ The
 protonmotive Force) to drive ATP synthesis. Approximately 4 $\mathrm{H}^+$ are needed per ATP (3 for
 ATP synthesis
 
@@ -1678,7 +1762,7 @@ ATP synthesis
 ### Worked Example: Complete ATP Accounting
 
 A student runs a $100\;\mathrm{m}$ sprint (anaerobic, $10$ seconds). (a) How many ATP molecules are
-Available from phosphocreatine and anaerobic glycolysis? (b) The student then jogs for $30$ minutes
+available from phosphocreatine and anaerobic glycolysis? (b) The student then jogs for $30$ minutes
 (aerobic). How many ATP molecules are produced from the complete oxidation of $5$ molecules of
 glucose? (c) Explain why the sprinter experiences muscle fatigue after the race.
 
@@ -1702,24 +1786,13 @@ molecules: $150 \times 6.022 \times 10^{23} = 9.03 \times 10^{25}$ ATP molecules
 (c) **Muscle fatigue** after sprinting:
 
 - Phosphocreatine stores are depleted within $10$--$15$ seconds.
-- Anaerobic glycolysis produces lactate, which dissociates to lactate $+$ $\mathrm{H}^+$Lowering
+- Anaerobic glycolysis produces lactate, which dissociates to lactate $+$ $\mathrm{H}^+$ Lowering
   intracellular pH (acidosis). Low pH inhibits key glycolytic enzymes (especially PFK-1) and
   interferes with calcium release from the SR, reducing contractile force.
 - ADP and $\mathrm{P}_i$ accumulate, reducing the free energy of ATP hydrolysis.
 - Potassium ions accumulate in the T-tubules, reducing excitability.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[2_Metabolism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

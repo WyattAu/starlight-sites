@@ -32,7 +32,7 @@ categories:
 ### Headings
 
 Use `#` through `######`. Do not skip levels (e.g., jumping from `##` to `####`). The first heading
-In a page body should be `##` because Docusaurus uses the frontmatter `title` as the `h1`.
+in a page body should be `##` because Docusaurus uses the frontmatter `title` as the `h1`.
 
 ```md
 ## Level 2
@@ -136,7 +136,7 @@ Column alignment with colons:
 
 Tables that need complex cell content (code blocks, lists) will not render correctly in standard
 Markdown. For those cases, use the custom `.grid-table` CSS class with div-based structure, or use
-An MDX component.
+an MDX component.
 
 ### Task Lists
 
@@ -157,7 +157,7 @@ Here is a statement that needs a citation[^1].
 ```
 
 Footnotes support multiple references to the same note and can contain inline formatting, links, and
-Even code.
+even code.
 
 ### Definition Lists
 
@@ -176,7 +176,7 @@ Renders as ~~This text is struck through.~~
 
 ### Inline Code
 
-`` `Backticks` `` for inline code. For template syntax or generics, escape angle brackets outside
+`` ``, ``Backticks``, `` `` for inline code. For template syntax or generics, escape angle brackets outside
 Code blocks: use `std::vector&lt;int&gt;` in prose.
 
 ### Fenced Code Blocks
@@ -198,8 +198,8 @@ Int main() {
 ```
 ````
 
-Supported languages include `python``cpp``java``dart``javascript``typescript``bash`
-`json``yaml``sql`And many more.
+Supported languages include `python`, `cpp`, `java`, `dart`, `javascript`, `typescript`, `bash`
+`json`, `yaml`, `sql` and many more.
 
 ### Line Highlighting
 
@@ -289,7 +289,7 @@ System.out.println("Java code");
 ````
 
 Tabs support synchronization by `groupId`. Tabs with the same `groupId` across the page will switch
-In unison:
+in unison:
 
 ```mdx
 &lt;Tabs groupId="language"&gt; &lt;TabItem value="python" label="Python"&gt; ... &lt;/TabItem&gt;
@@ -332,8 +332,8 @@ Graph TD
 ```
 ````
 
-Supported diagram types include `graph``sequenceDiagram``classDiagram``stateDiagram`
-`erDiagram``gantt``pie`And `flowchart`.
+Supported diagram types include `graph`, `sequenceDiagram`, `classDiagram`, `stateDiagram`
+`erDiagram`, `gantt`, `pie` and `flowchart`.
 
 This site adds a hover zoom effect on Mermaid SVGs via `src/css/custom.css`:
 
@@ -373,6 +373,8 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 
 Common `@theme` imports:
 
+<div class="table-wrap">
+
 | Component          | Purpose                               |
 | ------------------ | ------------------------------------- |
 | `CodeBlock`        | Render a code block from a file path  |
@@ -380,6 +382,8 @@ Common `@theme` imports:
 | `Details`          | Collapsible sections with React state |
 | `Admonition`       | Programmatic admonition rendering     |
 | `Head`             | Inject elements into `<head>`         |
+
+</div>
 
 Custom components from `@site/src/components/` are also importable:
 
@@ -494,16 +498,11 @@ are generally fine.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Common Pitfalls in Markdown and MDX
+
+<div class="table-wrap">
 
 | Pitfall | Symptom | Fix |
 | ------- | ------- | --- |
@@ -517,6 +516,8 @@ linked above.
 | Double blank lines | Unnecessary vertical space in output | Use single blank lines between sections |
 | Tabs vs. spaces in code blocks | Indentation rendered inconsistently | Use consistent indentation (2 or 4 spaces) throughout |
 | Frontmatter title as h1 | Duplicate h1 heading in rendered page | Start body content with `##` (h2) level headings |
+
+</div>
 
 :::tip
 For a complete syntax reference, consult the

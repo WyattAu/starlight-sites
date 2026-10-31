@@ -58,6 +58,8 @@ and **supportable** (sufficient evidence exists).
 
 ### Types of Evidence
 
+<div class="table-wrap">
+
 | Type                 | Description                                 | Strength                                                 |
 | -------------------- | ------------------------------------------- | -------------------------------------------------------- |
 | Facts                | Verifiable, objective data                  | Strong (but context matters)                             |
@@ -66,6 +68,8 @@ and **supportable** (sufficient evidence exists).
 | Expert testimony     | Quotations or paraphrases from authorities  | Strong when the expert is credible and relevant          |
 | Historical precedent | Past events and established patterns        | Strong for demonstrating continuity                      |
 | Personal experience  | The writer"s own observations               | Weak alone; strong when supplemented with other evidence |
+
+</div>
 
 ### Evaluating Evidence
 
@@ -222,17 +226,6 @@ democratic process."
 - Relying entirely on personal anecdote without broader evidence
 - Committing logical fallacies in your own argument
 - Using absolutes ("always," "never") that undermine credibility
-
-
-```mermaid
-flowchart TD
-    A[2_Argument] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

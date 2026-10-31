@@ -25,9 +25,11 @@ categories:
 A Level Mathematics is fundamentally a course in **mathematical reasoning**. The pure mathematics
 Syllabus develops the tools of calculus, algebra, and proof that underpin every quantitative
 Discipline. Statistics teaches you to reason under uncertainty. Mechanics teaches you to model the
-Physical world with mathematics.
+physical world with mathematics.
 
 ### Board Coverage
+
+<div class="table-wrap">
 
 | Topic                             | AQA        | Edexcel | OCR (A)    | CIE (9709) |
 | --------------------------------- | ---------- | ------- | ---------- | ---------- |
@@ -45,9 +47,11 @@ Physical world with mathematics.
 | Statistics: Distributions         | Paper 3    | S1      | Paper 3    | S1, S2     |
 | Statistics: Hypothesis Testing    | Paper 3    | S1      | Paper 3    | S2         |
 | Mechanics: Kinematics             | Paper 3    | M1      | Paper 3    | M1         |
-| Mechanics: Forces & Newton"s Laws | Paper 3    | M1      | Paper 3    | M1         |
+| Mechanics: Forces & Newton's Laws | Paper 3    | M1      | Paper 3    | M1         |
 | Mechanics: Moments                | Paper 3    | M1      | Paper 3    | M1         |
 | Mechanics: Energy & Work          | Paper 3    | M2      | Paper 3    | M2         |
+
+</div>
 
 ### Course Structure
 
@@ -82,12 +86,16 @@ The pure mathematics core is the backbone of the course. It develops:
 
 ### Assessment
 
+<div class="table-wrap">
+
 | Board   | Papers                                              | Weighting       |
 | ------- | --------------------------------------------------- | --------------- |
 | AQA     | Paper 1 (Pure), Paper 2 (Pure), Paper 3 (Stat/Mech) | 33.3% each      |
 | Edexcel | P1, P2, P3 (Pure), S1, M1 (Applied)                 | Varies by route |
 | OCR (A) | Paper 1 (Pure), Paper 2 (Pure), Paper 3 (Stat/Mech) | 33.3% each      |
 | CIE     | P1, P2, P3 (Pure), M1, S1 (Applied)                 | Varies          |
+
+</div>
 
 > **Note:** CIE is a linear qualification. AQA, Edexcel, and OCR (A) are also linear (all exams at
 > end of Year 13), though AS stand-alone qualifications exist.
@@ -129,33 +137,19 @@ marks are consistently lost.
 
 ### Key Formulae
 
+<div class="table-wrap">
+
 | Topic                | Formula                                                 |
 | -------------------- | ------------------------------------------------------- |
 | Quadratic formula    | $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$             |
 | Chain rule           | $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$ |
 | Integration by parts | $\\int u\\,dv = uv - \\int v\\,du$                      |
 
-
-```mermaid
-flowchart TD
-    A[Maths] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -163,23 +157,3 @@ linked above.
 - **[Mechanics](/maths/practice-mechanics/):** Mechanics applies maths to physics
 - **[Statistics](/maths/statistics/):** Statistics develops data methods
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

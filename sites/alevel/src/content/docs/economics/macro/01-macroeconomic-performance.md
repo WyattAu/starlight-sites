@@ -25,7 +25,7 @@ categories:
 ### 1.1 Definition
 
 We define **Gross Domestic Product (GDP)** as the total monetary value of all final goods and
-Services produced within a country's borders during a given time period.
+services produced within a country's borders during a given time period.
 
 "Final" goods and services are those purchased for final consumption or investment, intermediate
 Goods are excluded to avoid double counting.
@@ -36,18 +36,24 @@ Goods are excluded to avoid double counting.
 
 **1. Output (production) approach:**
 
-$$\mathrm{GDP} = \sum \mathrm{Gross Value Added} = \sum (Q_i \times P_i) - \sum \mathrm{intermediate consumption}$$
+$$
+\mathrm{GDP} = \sum \mathrm{Gross Value Added} = \sum (Q_i \times P_i) - \sum \mathrm{intermediate consumption}
+$$
 
 **2. Income approach:**
 
-$$\mathrm{GDP} = W + R + i + \pi + D + T_{ind} - S$$
+$$
+\mathrm{GDP} = W + R + i + \pi + D + T_{ind} - S
+$$
 
 Where $W$ = wages, $R$ = rent, $i$ = interest, $\pi$ = profit, $D$ = depreciation, $T_{ind}$ =
 Indirect taxes minus subsidies.
 
 **3. Expenditure approach:**
 
-$$\mathrm{GDP} = C + I + G + (X - M)$$
+$$
+\mathrm{GDP} = C + I + G + (X - M)
+$$
 
 Where $C$ = consumption, $I$ = investment, $G$ = government spending, $X$ = exports, $M$ = imports.
 
@@ -68,17 +74,25 @@ particularly in Countries with large informal sectors.
 **Nominal GDP** is measured at current prices. **Real GDP** adjusts for price changes using a price
 Index (GDP deflator):
 
-$$\mathrm{Real GDP} = \frac{\mathrm{Nominal GDP}}{\mathrm{GDP Deflator}} \times 100$$
+$$
+\mathrm{Real GDP} = \frac{\mathrm{Nominal GDP}}{\mathrm{GDP Deflator}} \times 100
+$$
 
-$$\mathrm{GDP Deflator} = \frac{\mathrm{Nominal GDP}}{\mathrm{Real GDP}} \times 100$$
+$$
+\mathrm{GDP Deflator} = \frac{\mathrm{Nominal GDP}}{\mathrm{Real GDP}} \times 100
+$$
 
 **GDP growth rate:**
 
-$$g = \frac{\mathrm{GDP}_t - \mathrm{GDP}_{t-1}}{\mathrm{GDP}_{t-1}} \times 100\%$$
+$$
+g = \frac{\mathrm{GDP}_t - \mathrm{GDP}_{t-1}}{\mathrm{GDP}_{t-1}} \times 100\%
+$$
 
 ### 1.4 GDP Per Capita
 
-$$\mathrm{GDP per capita} = \frac{\mathrm{GDP}}{\mathrm{Population}}$$
+$$
+\mathrm{GDP per capita} = \frac{\mathrm{GDP}}{\mathrm{Population}}
+$$
 
 GDP per capita is a better (though imperfect) measure of average living standards than total GDP.
 
@@ -101,8 +115,8 @@ National Happiness (GNH).
 ### 1.6 Real-World Application: China's GDP Growth
 
 China's rapid economic growth is one of the most significant macroeconomic stories of the past four
-Decades. Between 1980 and 2023, China's annual real GDP growth averaged approximately 9-10%, lifting
-Over 800 million people out of extreme poverty. However, growth has decelerated in recent years,
+decades. Between 1980 and 2023, China's annual real GDP growth averaged approximately 9-10%, lifting
+over 800 million people out of extreme poverty. However, growth has decelerated in recent years,
 Falling to around 5% in 2023 and below 5% in 2024, driven by:
 
 - A shrinking working-age population (demographic headwinds)
@@ -113,7 +127,7 @@ Falling to around 5% in 2023 and below 5% in 2024, driven by:
 This illustrates that rapid GDP growth is not indefinite, and structural factors (demographics,
 Debt, productivity) eventually constrain growth. It also highlights a limitation of GDP: China's
 Growth came with severe environmental costs, massive income inequality (urban-rural divide), and
-Significant debt accumulation.
+significant debt accumulation.
 
 :::note
 economies. OCR Requires understanding of the difference between **GDP** (output within borders) and
@@ -147,7 +161,9 @@ Outcomes.
 
 We define **inflation** as a sustained increase in the general price level over time.
 
-$$\mathrm{Inflation rate} = \frac{P_t - P_{t-1}}{P_{t-1}} \times 100\%$$
+$$
+\mathrm{Inflation rate} = \frac{P_t - P_{t-1}}{P_{t-1}} \times 100\%
+$$
 
 **Deflation**: a sustained _decrease_ in the general price level ($\pi \lt 0$). **Disinflation**: A
 _reduction_ in the rate of inflation (prices still rising, but more slowly).
@@ -157,7 +173,9 @@ _reduction_ in the rate of inflation (prices still rising, but more slowly).
 **Consumer Price Index (CPI)**: measures the change in the cost of a basket of goods and services
 Representative of household consumption.
 
-$$\mathrm{CPI}_t = \frac{\sum_{i} P_{i,t} \cdot Q_{i,0}}{\sum_{i} P_{i,0} \cdot Q_{i,0}} \times 100$$
+$$
+\mathrm{CPI}_t = \frac{\sum_{i} P_{i,t} \cdot Q_{i,0}}{\sum_{i} P_{i,0} \cdot Q_{i,0}} \times 100
+$$
 
 Where $Q_{i,0}$ are base-period quantities (Laspeyres index).
 
@@ -180,7 +198,9 @@ Council tax). RPI tends to give a higher inflation rate than CPI.
 ### 2.2a Deeper Analysis: CPI vs RPI
 
 Understanding the differences between CPI and RPI is essential for A Level Economics. While both
-Measure inflation, they differ in methodology and coverage:
+measure inflation, they differ in methodology and coverage:
+
+<div class="table-wrap">
 
 | Feature                 | CPI                                                         | RPI                                                                                         |
 | ----------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -191,9 +211,11 @@ Measure inflation, they differ in methodology and coverage:
 | **Uses**                | Bank of England inflation target, international comparisons | Index-linked gilts, some private pension increases, rail fare increases                     |
 | **Status**              | UK's primary inflation measure                              | Discredited as a National Statistic (2013) but still used for some contracts                |
 
+</div>
+
 **Why RPI gives a higher figure**: The RPI's use of the Carli (arithmetic mean) formula is the key
 Technical reason. When some prices in a category rise and others fall, the arithmetic mean gives a
-Higher result than the geometric mean. This is a known upward bias. The RPI also includes mortgage
+higher result than the geometric mean. This is a known upward bias. The RPI also includes mortgage
 Interest payments, which means that when the Bank of England raises interest rates to fight
 Inflation, RPI tends to rise further (because mortgage costs increase), creating a perverse feedback
 Loop.
@@ -208,14 +230,18 @@ receive higher Payments, increasing government debt costs.
 
 **Demand-pull inflation**: caused by excess aggregate demand.
 
-$$AD > \mathrm{full employment output} \Rightarrow P \uparrow$$
+$$
+AD > \mathrm{full employment output} \Rightarrow P \uparrow
+$$
 
 When the economy is at or near full capacity, any further increase in AD cannot increase output
 (resources are fully employed) and instead bids up prices.
 
 **Cost-push inflation**: caused by increases in costs of production.
 
-$$\mathrm{Costs } \uparrow \Rightarrow SRAS \mathrm{ shifts left} \Rightarrow P \uparrow, Y \downarrow$$
+$$
+\mathrm{Costs } \uparrow \Rightarrow SRAS \mathrm{ shifts left} \Rightarrow P \uparrow, Y \downarrow
+$$
 
 Causes: rising wages (wage-price spiral), rising commodity prices (oil shocks), exchange rate
 Depreciation (imported inflation), higher taxes.
@@ -299,7 +325,9 @@ Rapidly, making it much harder and more painful to bring inflation back down.
 
 The **unemployment rate** is:
 
-$$u = \frac{\mathrm{Number unemployed}}{\mathrm{Labour force}} \times 100\% = \frac{U}{U + E} \times 100\%$$
+$$
+u = \frac{\mathrm{Number unemployed}}{\mathrm{Labour force}} \times 100\% = \frac{U}{U + E} \times 100\%
+$$
 
 Where the **labour force** = employed + unemployed. The unemployed are those without work, actively
 Seeking work, and available to start work.
@@ -309,6 +337,8 @@ Discouraged workers, homemakers).
 
 ### 3.2 Types of Unemployment
 
+<div class="table-wrap">
+
 | Type           | Cause                                                       | Remedy                                                |
 | -------------- | ----------------------------------------------------------- | ----------------------------------------------------- |
 | **Cyclical**   | Insufficient aggregate demand ($Y \lt Y_{fe}$)              | Demand-side policy                                    |
@@ -317,19 +347,23 @@ Discouraged workers, homemakers).
 | **Seasonal**   | Regular seasonal patterns (agriculture, tourism)            | Limited scope for policy                              |
 | **Real-wage**  | Wages above equilibrium (minimum wage, union power)         | Reduce wage rigidity                                  |
 
+</div>
+
 **Natural rate of unemployment (NAIRU)**: the rate of unemployment consistent with stable inflation
 - the sum of frictional and structural unemployment.
 
-$$u^* = u_{frictional} + u_{structural}$$
+$$
+u^* = u_{frictional} + u_{structural}
+$$
 
-When $u = u^*$The economy is at full employment (no cyclical unemployment).
+When $u = u^*$ The economy is at full employment (no cyclical unemployment).
 
 ### 3.2a Deeper Analysis of Unemployment Types
 
 **Cyclical (demand-deficient) unemployment** is the most policy-relevant type. It fluctuates with
 The business cycle and is directly linked to the output gap. During the 2008-09 Global Financial
 Crisis, UK unemployment rose from 5.2% to 8.5% as GDP fell by over 6%. The Keynesian response is to
-Use expansionary fiscal and monetary policy to boost AD and close the output gap.
+use expansionary fiscal and monetary policy to boost AD and close the output gap.
 
 **Structural unemployment** is often the most persistent and difficult to solve. It arises from:
 
@@ -342,7 +376,7 @@ Use expansionary fiscal and monetary policy to boost AD and close the output gap
 
 **Frictional unemployment** is the least concerning type and may even be economically desirable, it
 Reflects workers searching for the best job match, which improves allocative efficiency in the
-Labour market. The internet and job platforms (Indeed, LinkedIn) have reduced search costs,
+labour market. The internet and job platforms (Indeed, LinkedIn) have reduced search costs,
 Potentially lowering frictional unemployment.
 
 **Real-wage (classical) unemployment** occurs when wages are pushed above the market-clearing level.
@@ -372,14 +406,16 @@ regional Policy in the UK.
 **Okun's Law**: for every 1% increase in the unemployment rate above the natural rate, GDP falls by
 Approximately 2% below potential:
 
-$$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
+$$
+\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)
+$$
 
 Where $\beta \approx 2$.
 
 ### 3.4 Real-World Application: UK Unemployment During COVID-19
 
 The COVID-19 pandemic (2020-2021) provides a compelling case study of unemployment dynamics and
-Policy response:
+policy response:
 
 - **The shock**: UK GDP fell by 9.7% in 2020, the largest annual decline in over 300 years.
   Unemployment would have been expected to rise dramatically.
@@ -399,7 +435,7 @@ Policy response:
 :::note
 Data-response questions. CIE (9708) may ask students to evaluate the effectiveness of government
 Intervention in the labour market. OCR has examined the distinction between unemployment and
-Economic inactivity, which is highly relevant to the COVID case (furloughed workers were technically
+economic inactivity, which is highly relevant to the COVID case (furloughed workers were technically
 Employed, not unemployed or inactive).
 :::
 
@@ -422,16 +458,18 @@ When interpreting unemployment data, be aware of several issues:
 
 **Exam conclusion**: The headline unemployment rate is a useful but incomplete indicator of labour
 Market health. It should always be interpreted alongside employment rates, inactivity rates, and
-Measures of underemployment and job quality.
+measures of underemployment and job quality.
 
 ## 4. Balance of Payments
 
 ### 4.1 Structure
 
 The **balance of payments (BoP)** records all transactions between residents of a country and the
-Rest of the world.
+rest of the world.
 
-$$\mathrm{Current Account} + \mathrm{Capital Account} + \mathrm{Financial Account} = 0$$
+$$
+\mathrm{Current Account} + \mathrm{Capital Account} + \mathrm{Financial Account} = 0
+$$
 
 **Current Account:**
 
@@ -456,7 +494,7 @@ $$\mathrm{Current Account} + \mathrm{Capital Account} + \mathrm{Financial Accoun
 
 A **current account deficit** means a country is spending more on imports, investment income
 Payments, and transfers than it receives. It must be financed by a surplus on the capital and
-Financial accounts (borrowing from abroad or selling assets).
+financial accounts (borrowing from abroad or selling assets).
 
 **Is a current account deficit bad?** Not necessarily:
 
@@ -473,7 +511,7 @@ Marshall-Lerner Condition and the J-curve effect in the context of current accou
 ### 4.3 Real-World Application: The UK's Persistent Current Account Deficit
 
 The UK has run a current account deficit in almost every year since 1984. As of 2023, the deficit
-Was approximately 3% of GDP. This persistence raises important questions:
+was approximately 3% of GDP. This persistence raises important questions:
 
 - **Structural causes**: the UK imports more manufactured goods than it exports (the trade in goods
   deficit is partially offset by a trade in services surplus). The UK is a net importer of energy
@@ -506,7 +544,7 @@ When evaluating a current account deficit, consider:
 
 **Exam conclusion**: A current account deficit is neither inherently good nor bad. The key is to
 Examine its causes, its financing, and the broader macroeconomic context. The UK's deficit reflects
-Its position as a service-based, open economy that imports manufactured goods and relies on foreign
+its position as a service-based, open economy that imports manufactured goods and relies on foreign
 Capital inflows.
 
 ## 5. The Phillips Curve
@@ -514,9 +552,11 @@ Capital inflows.
 ### 5.1 Short-Run Phillips Curve
 
 The **Phillips curve** (Phillips, 1958) shows an inverse relationship between inflation and
-Unemployment:
+unemployment:
 
-$$\pi = \pi^e - \beta(u - u^*) + \varepsilon$$
+$$
+\pi = \pi^e - \beta(u - u^*) + \varepsilon
+$$
 
 In the short run, lower unemployment is associated with higher inflation. The mechanism: tight
 Labour markets $\Rightarrow$ wages rise (workers have bargaining power) $\Rightarrow$ costs rise
@@ -528,17 +568,19 @@ $\Rightarrow$ demand-pull inflation.
 **Proposition: In the long run, there is no trade-off between inflation and unemployment.**
 
 Friedman (1968) and Phelps (1967) argued that the Phillips curve is vertical in the long run at the
-Natural rate of unemployment.
+natural rate of unemployment.
 
 _Proof._ If the government tries to maintain $u \lt u^*$ through expansionary policy, inflation
 Rises. Initially, workers suffer from **money illusion**, they accept nominal wage increases not
-Realising prices are rising faster. Real wages fall, firms hire more. But eventually, workers update
-Their inflation expectations ($\pi^e$ rises). They demand higher nominal wages to compensate. Real
+realising prices are rising faster. Real wages fall, firms hire more. But eventually, workers update
+their inflation expectations ($\pi^e$ rises). They demand higher nominal wages to compensate. Real
 Wages return to their original level, and employment falls back to $u^*$. The economy moves up along
-The short-run Phillips curve to a point with higher inflation but the same unemployment rate.
+the short-run Phillips curve to a point with higher inflation but the same unemployment rate.
 $\blacksquare$
 
-$$\mathrm{Long-run Phillips curve: } u = u^* \mathrm{ (vertical)}$$
+$$
+\mathrm{Long-run Phillips curve: } u = u^* \mathrm{ (vertical)}
+$$
 
 ### 5.3 Expectations and the Phillips Curve
 
@@ -567,10 +609,10 @@ The Phillips curve relationship has been far less stable in practice than theory
   supply-driven (cost-push) rather than demand-driven.
 
 :::note
-concept of Hysteresis and how it relates to the Phillips curve (if unemployment rises above `u*``u*`
+concept of Hysteresis and how it relates to the Phillips curve (if unemployment rises above `u*`, `u*`
 itself May rise, shifting the LRPC right). CIE (9708) may present a data-response question showing
 Inflation and unemployment data and ask students to interpret it using Phillips curve theory. OCR
-Has examined the role of supply shocks in causing stagflation and the breakdown of the simple
+has examined the role of supply shocks in causing stagflation and the breakdown of the simple
 Phillips curve relationship.
 :::
 
@@ -595,8 +637,8 @@ When evaluating the Phillips curve as a policy tool:
 
 **Exam conclusion**: The Phillips curve remains a useful theoretical framework, but its practical
 Value for policymakers is limited by the instability of the relationship and the difficulty of
-Estimating the natural rate. Modern central banking focuses on anchoring inflation expectations
-Through credible commitment to a target, rather than exploiting any perceived short-run trade-off.
+estimating the natural rate. Modern central banking focuses on anchoring inflation expectations
+through credible commitment to a target, rather than exploiting any perceived short-run trade-off.
 
 ## 6. Critical Evaluation
 
@@ -654,8 +696,8 @@ boards reward The use of real-world data and counterarguments.
 **Problem 1.** An economy produces three goods: apples, bread, and computers. In the base year
 (2020), quantities and prices are: apples (100 units, £1), bread (50 units, £2), computers (10
 Units, £500). In 2024: apples (120, £1.50), bread (55, £2.50), computers (15, £600). Calculate (a)
-Nominal GDP in both years, (b) real GDP in 2024 using base-year prices, (c) the GDP deflator and
-Inflation rate.
+nominal GDP in both years, (b) real GDP in 2024 using base-year prices, (c) the GDP deflator and
+inflation rate.
 
 <details>
 <summary>Hint</summary>
@@ -673,14 +715,14 @@ Inflation $= 0.30(5\%) + 0.35(3\%) + 0.20(-2\%) + 0.15(8\%) = 1.5\% + 1.05\% - 0
 
 **Problem 3.** An economy has a labour force of 35 million, employment of 31.5 million, and a
 Population of 55 million. Calculate (a) the unemployment rate, (b) the employment rate, and (c) the
-Economic inactivity rate.
+economic inactivity rate.
 
 <details>
 <summary>Hint</summary>
-(a) Unemployed $= 35 - 31.5 = 3.5$M. $u = 3.5/35 = 10\%$. (b) Employment rate $= 31.5/55 = 57.3\%$. (c) Economically inactive $= 55 - 35 = 20$M. Inactivity rate $= 20/55 = 36.4\%$.
+(a) Unemployed $= 35 - 31.5 = 3.5$ M. $u = 3.5/35 = 10\%$. (b) Employment rate $= 31.5/55 = 57.3\%$. (c) Economically inactive $= 55 - 35 = 20$ M. Inactivity rate $= 20/55 = 36.4\%$.
 </details>
 
-**Problem 4.** Using Okun's Law with $\beta = 2$If potential GDP is £2.5 trillion and actual GDP Is
+**Problem 4.** Using Okun's Law with $\beta = 2$ If potential GDP is £2.5 trillion and actual GDP Is
 £2.35 trillion, estimate the cyclical unemployment rate if the natural rate is 5%.
 
 <details>
@@ -691,11 +733,11 @@ Output gap $= (2.35 - 2.5)/2.5 = -6\%$. Okun's Law: $-6\% = -2(u - 5\%) \Rightar
 **Problem 5.** A country's balance of payments shows: exports of goods £300bn, imports of goods
 £400bn, exports of services £200bn, imports of services £150bn, net primary income -£50bn, net
 Secondary income -£20bn. Calculate the current account balance and identify whether it is in deficit
-Or surplus.
+or surplus.
 
 <details>
 <summary>Hint</summary>
-Trade in goods $= 300 - 400 = -100$. Trade in services $= 200 - 150 = +50$. Primary income $= -50$. Secondary income $= -20$. Current account $= -100 + 50 - 50 - 20 = -120$Bn (deficit).
+Trade in goods $= 300 - 400 = -100$. Trade in services $= 200 - 150 = +50$. Primary income $= -50$. Secondary income $= -20$. Current account $= -100 + 50 - 50 - 20 = -120$ Bn (deficit).
 </details>
 
 **Problem 6.** "A high GDP per capita necessarily means high living standards." Evaluate this
@@ -732,7 +774,7 @@ Debt deflation (Fisher): falling prices increase the real value of debt $\Righta
 
 **Problem 10.** The short-run Phillips curve suggests a trade-off between inflation and
 Unemployment. Explain why policymakers might choose a point on this curve that is not at the minimum
-Of either variable.
+of either variable.
 
 <details>
 <summary>Hint</summary>
@@ -757,7 +799,7 @@ Post-2020 UK: (1) COVID-19 caused a sharp fall in GDP (growth objective) and a s
 
 **Problem 13.** The CPI basket weights in the UK were updated in 2024. If the weight of "food and
 Non-alcoholic beverages" was increased from 8.3% to 10.5%, and food prices rose by 12% while all
-Other prices rose by 3%, calculate the difference between the old and new CPI inflation rates.
+other prices rose by 3%, calculate the difference between the old and new CPI inflation rates.
 Explain why regular basket updates are important.
 
 <details>
@@ -767,8 +809,8 @@ Old inflation $= 0.083(12\%) + 0.917(3\%) = 0.996\% + 2.751\% = 3.75\%$. New inf
 
 **Problem 14.** A country has a labour force of 33 million. The natural rate of unemployment is
 Estimated at 4.5%. The current unemployment rate is 7.2%. Using Okun's Law with $\beta = 2.2$ and a
-Potential GDP of GBP 3.1 trillion, calculate (a) the output gap, (b) the estimated GDP loss from
-Cyclical unemployment, and (c) explain two reasons why $\beta$ might differ across countries.
+potential GDP of GBP 3.1 trillion, calculate (a) the output gap, (b) the estimated GDP loss from
+cyclical unemployment, and (c) explain two reasons why $\beta$ might differ across countries.
 
 <details>
 <summary>Hint</summary>
@@ -786,8 +828,8 @@ A fall in sterling makes UK exports cheaper abroad and imports dearer at home, w
 
 **Problem 16.** The UK inflation rate was 0.9% in 2020, 2.6% in 2021, 9.1% in 2022, and 7.3%
 In 2023. Using the concept of the expectations-augmented Phillips curve, explain why the Bank of
-England was concerned about inflation becoming "entrenched" in 2022, and evaluate the effectiveness
-Of raising interest rates as a response.
+england was concerned about inflation becoming "entrenched" in 2022, and evaluate the effectiveness
+of raising interest rates as a response.
 
 <details>
 <summary>Hint</summary>
@@ -832,6 +874,8 @@ The Bank of England feared that if inflation remained high for an extended perio
 
 An economy has the following components (GBP billions):
 
+<div class="table-wrap">
+
 | Component                         | Value |
 | --------------------------------- | ----- |
 | Household consumption (C)         | 1,200 |
@@ -840,23 +884,35 @@ An economy has the following components (GBP billions):
 | Exports (X)                       | 500   |
 | Imports (M)                       | 550   |
 
+</div>
+
 **GDP calculation:** $$\text{GDP} = C + I + G + (X - M) = 1200 + 350 + 400 + (500 - 550) = 1900$$
 
 Current account balance $= X - M = 500 - 550 = -50$ (deficit).
 
 **Real GDP adjustment:** If the GDP deflator is 110 (base year = 100):
-$$\text{Real GDP} = \frac{1900}{110} \times 100 = 1727.27$$
+$$
+\text{Real GDP} = \frac{1900}{110} \times 100 = 1727.27
+$$
 
 GDP growth rate from previous year (Real GDP was 1650):
-$$g = \frac{1727.27 - 1650}{1650} \times 100 = 4.68\%$$
+$$
+g = \frac{1727.27 - 1650}{1650} \times 100 = 4.68\%
+$$
 
 **Per capita adjustment:** If population = 68 million:
-$$\text{GDP per capita} = \frac{1900}{68} = \pounds 27\,941$$
-$$\text{Real GDP per capita} = \frac{1727.27}{68} = \pounds 25\,395$$
+$$
+\text{GDP per capita} = \frac{1900}{68} = \pounds 27\,941
+$$
+$$
+\text{Real GDP per capita} = \frac{1727.27}{68} = \pounds 25\,395
+$$
 
 ### 8.2 Inflation Calculations with Weighted Index
 
 **Example: CPI construction from basket data.**
+
+<div class="table-wrap">
 
 | Item          | Base quantity | Base price (2019) | Current price (2024) | Weight |
 | ------------- | ------------- | ----------------- | -------------------- | ------ |
@@ -868,21 +924,35 @@ $$\text{Real GDP per capita} = \frac{1727.27}{68} = \pounds 25\,395$$
 | Transport     | 50 trips      | GBP 5/trip        | GBP 5/trip           | 10%    |
 | Other         | 40%           | Various           | +4% on average       | 40%    |
 
+</div>
+
 **Laspeyres CPI calculation:**
 
 Cost of base basket at current prices:
-$$\text{Basket cost}_{2024} = 10(1.30) + 100(1.55) + 1(1150) + 5(35) + 20(12) + 50(5) + \text{Other}(1.04 \times \text{Other}_{2019})$$
-$$= 13 + 155 + 1150 + 175 + 240 + 250 + \text{Other}$$
+$$
+\text{Basket cost}_{2024} = 10(1.30) + 100(1.55) + 1(1150) + 5(35) + 20(12) + 50(5) + \text{Other}(1.04 \times \text{Other}_{2019})
+$$
+$$
+= 13 + 155 + 1150 + 175 + 240 + 250 + \text{Other}
+$$
 
 The "Other" category at base prices cost, say, GBP 500. At current prices: $500 \times 1.04 = 520$.
-$$\text{Total}_{2024} = 13 + 155 + 1150 + 175 + 240 + 250 + 520 = 2503$$
+$$
+\text{Total}_{2024} = 13 + 155 + 1150 + 175 + 240 + 250 + 520 = 2503
+$$
 
 Cost of base basket at base prices:
-$$\text{Total}_{2019} = 10(1.00) + 100(1.20) + 1(1000) + 5(30) + 20(10) + 50(5) + 500 = 10 + 120 + 1000 + 150 + 200 + 250 + 500 = 2230$$
+$$
+\text{Total}_{2019} = 10(1.00) + 100(1.20) + 1(1000) + 5(30) + 20(10) + 50(5) + 500 = 10 + 120 + 1000 + 150 + 200 + 250 + 500 = 2230
+$$
 
-$$\text{CPI}_{2024} = \frac{2503}{2230} \times 100 = 112.24$$
+$$
+\text{CPI}_{2024} = \frac{2503}{2230} \times 100 = 112.24
+$$
 
-$$\text{Inflation rate} = \frac{112.24 - 100}{100} \times 100 = 12.24\%$$
+$$
+\text{Inflation rate} = \frac{112.24 - 100}{100} \times 100 = 12.24\%
+$$
 
 ### 8.3 Unemployment and Okun's Law: Detailed Application
 
@@ -896,7 +966,9 @@ that reduces unemployment to 3%.
 Output rises 4% above potential.
 
 **Phillips curve (short-run):**
-$$\pi = \pi^e - \beta(u - u^*) = 3 - 2(0.03 - 0.05) = 3 + 0.04 = 7\%$$
+$$
+\pi = \pi^e - \beta(u - u^*) = 3 - 2(0.03 - 0.05) = 3 + 0.04 = 7\%
+$$
 
 **Dynamic adjustment:**
 
@@ -912,6 +984,8 @@ trade-off was self-defeating.
 
 **Example.** Constructing the current account from data.
 
+<div class="table-wrap">
+
 | Component                  | GBP billions |
 | -------------------------- | ------------ |
 | Exports of goods           | 350          |
@@ -923,6 +997,8 @@ trade-off was self-defeating.
 | Secondary income: received | 15           |
 | Secondary income: paid     | 40           |
 
+</div>
+
 **Current account calculation:**
 
 - Trade in goods: $350 - 470 = -120$
@@ -932,7 +1008,9 @@ trade-off was self-defeating.
 - **Current account: $-120 + 100 - 40 - 25 = -\text{GBP } 85\text{bn}$ (deficit)**
 
 **As a percentage of GDP:** If GDP = GBP 2,200bn:
-$$\text{CA deficit} = \frac{85}{2200} \times 100 = 3.86\%$$
+$$
+\text{CA deficit} = \frac{85}{2200} \times 100 = 3.86\%
+$$
 
 **Interpretation:** The UK has a persistent current account deficit of approximately 4% of GDP,
 reflecting the structural trade deficit in goods partly offset by the surplus in services. The
@@ -947,6 +1025,8 @@ $\pi^e_t = \pi_{t-1}$ (adaptive expectations). Initial inflation = 3%.
 
 The government keeps unemployment at 3% indefinitely.
 
+<div class="table-wrap">
+
 | Year | $u$ | $\pi^e$ | $\pi$ |
 | ---- | --- | ------- | ----- |
 | 0    | 5%  | 3.0%    | 3.0%  |
@@ -955,6 +1035,8 @@ The government keeps unemployment at 3% indefinitely.
 | 3    | 3%  | 5.0%    | 6.0%  |
 | 4    | 3%  | 6.0%    | 7.0%  |
 | 5    | 3%  | 7.0%    | 8.0%  |
+
+</div>
 
 Inflation accelerates by 1 percentage point per year indefinitely. This is **accelerating
 inflation** -- the defining characteristic of the expectations-augmented Phillips curve when
@@ -1038,6 +1120,8 @@ expectations.
 
 **Example.** A country's nominal GDP and GDP deflator data over 10 years:
 
+<div class="table-wrap">
+
 | Year | Nominal GDP (bn) | GDP Deflator | Real GDP (bn) | Real Growth |
 | :--: | :--------------: | :----------: | :-----------: | :---------: |
 | 2015 |      1,800       |    100.0     |    1,800.0    |     --      |
@@ -1050,6 +1134,8 @@ expectations.
 | 2022 |      2,200       |    117.5     |    1,872.3    |    2.29%    |
 | 2023 |      2,280       |    121.0     |    1,884.3    |    0.64%    |
 | 2024 |      2,350       |    123.0     |    1,910.6    |    1.39%    |
+
+</div>
 
 **Calculations (Year 2016 as example):** Real GDP $= \frac{1850}{102.0} \times 100 = 1813.7$. Growth
 $= \frac{1813.7 - 1800.0}{1800.0} \times 100 = 0.76\%$.
@@ -1068,11 +1154,15 @@ $= \frac{1813.7 - 1800.0}{1800.0} \times 100 = 0.76\%$.
 
 **Real GDP per capita (population = 67 million, growing 0.5% per year):**
 
+<div class="table-wrap">
+
 | Year | Real GDP per capita |  Growth   |
 | :--: | :-----------------: | :-------: |
 | 2015 |       26,866        |    --     |
 | 2020 |       24,713        | -1.66%/yr |
 | 2024 |       27,053        | +0.89%/yr |
+
+</div>
 
 Real GDP per capita growth has been even weaker than real GDP growth because population growth
 dilutes per capita figures. This is the most relevant measure of living standards.
@@ -1127,12 +1217,16 @@ $0.0302 \times 2200 = \text{GBP } 66.4\text{bn}$.
 **Example.** Inflation is 8% in year 1 and 4% in year 2. Three individuals have different financial
 situations:
 
+<div class="table-wrap">
+
 |               | Person A (saver)        | Person B (borrower) | Person C (wage earner) |
 | ------------- | ----------------------- | ------------------- | ---------------------- |
 | Cash savings  | GBP 100,000             | 0                   | GBP 10,000             |
 | Mortgage      | 0                       | GBP 200,000         | GBP 150,000            |
 | Salary        | Retired (fixed pension) | Self-employed       | Employed               |
 | Salary growth | 0%                      | 10%                 | 3%                     |
+
+</div>
 
 **Year 1 (8% inflation):**
 
@@ -1168,6 +1262,8 @@ $= 100 \times 4 \times 50 = 20,000$ per year. This is also a deadweight loss.
 
 **Example.** The UK's balance of payments (2023, approximate figures, GBP billions):
 
+<div class="table-wrap">
+
 | Component                  | Amount |
 | -------------------------- | :----: |
 | Exports of goods           |  380   |
@@ -1178,6 +1274,8 @@ $= 100 \times 4 \times 50 = 20,000$ per year. This is also a deadweight loss.
 | Primary income: paid       |  270   |
 | Secondary income: received |   25   |
 | Secondary income: paid     |   55   |
+
+</div>
 
 **Current account calculation:**
 
@@ -1227,6 +1325,8 @@ indicators for two countries.
 
 **Country A and Country B:**
 
+<div class="table-wrap">
+
 | Indicator                     | Country A | Country B |
 | ----------------------------- | :-------: | :-------: |
 | GDP per capita (USD)          |  50,000   |  30,000   |
@@ -1238,6 +1338,8 @@ indicators for two countries.
 | Tertiary education (%)        |    45%    |    55%    |
 | CO2 emissions (tonnes/capita) |    15     |     6     |
 | Mental health (WHO-5 score)   |    52     |    68     |
+
+</div>
 
 **Human Development Index (HDI):** HDI = geometric mean of (health index, education index, income
 index). Health index = (life expectancy - 20) / (85 - 20) = (78 - 20)/65 = 0.892 (A), (82 - 20)/65 =
@@ -1277,16 +1379,22 @@ creates distortions over time as relative prices change. Chain-linking addresses
 
 **Fixed-base method (2015 = 100):**
 
+<div class="table-wrap">
+
 | Year | Nominal GDP | GDP Deflator | Real GDP (2015 prices) |  Growth   |
 | :--: | :---------: | :----------: | :--------------------: | :-------: |
 | 2015 |    2,000    |     100      |         2,000          |    --     |
 | 2020 |    2,200    |     115      |         1,913          | -1.78%/yr |
 | 2025 |    2,600    |     130      |         2,000          | +0.89%/yr |
 
+</div>
+
 The fixed-base method uses 2015 price weights. By 2025, these weights are 10 years old and may not
 reflect current spending patterns.
 
 **Chain-linking method:** Recalculates weights each year using the previous year's prices.
+
+<div class="table-wrap">
 
 | Year | Real GDP (chained) | Growth |
 | :--: | :----------------: | :----: |
@@ -1302,6 +1410,8 @@ reflect current spending patterns.
 | 2024 |       2,080        | 1.46%  |
 | 2025 |       2,100        | 0.96%  |
 
+</div>
+
 **Comparison:** The chained measure shows a deeper recession in 2019-2020 (because recent price
 weights give more weight to sectors that contracted most, like services) and a slower recovery. The
 fixed-base measure understates the severity of the recession.
@@ -1316,6 +1426,8 @@ structural change (e.g., deindustrialisation, the rise of the service sector).
 
 **Components and weights:**
 
+<div class="table-wrap">
+
 | Component              | Weight | Data source |
 | ---------------------- | :----: | ----------- |
 | GDP per capita         |  20%   | ONS         |
@@ -1328,12 +1440,16 @@ structural change (e.g., deindustrialisation, the rise of the service sector).
 | Housing affordability  |  10%   | ONS         |
 | Broadband access       |   5%   | Ofcom       |
 
+</div>
+
 **Methodology:**
 
 1. Each component is normalised to a 0-100 scale (min-max normalisation).
 2. The normalised scores are multiplied by their weights and summed.
 
 **Example: London vs North East:**
+
+<div class="table-wrap">
 
 | Component             | London (normalised) | North East (normalised) |
 | --------------------- | :-----------------: | :---------------------: |
@@ -1346,6 +1462,8 @@ structural change (e.g., deindustrialisation, the rise of the service sector).
 | Air quality           |         30          |           65            |
 | Housing affordability |         15          |           70            |
 | Broadband             |         90          |           75            |
+
+</div>
 
 **Composite score:** London:
 $0.2(95) + 0.15(85) + 0.1(92) + 0.1(80) + 0.1(85) + 0.1(45) + 0.1(30) + 0.1(15) + 0.05(90) = 19 + 12.75 + 9.2 + 8 + 8.5 + 4.5 + 3 + 1.5 + 4.5 = 70.95$.
@@ -1383,21 +1501,7 @@ better on liveability indicators.
 4. Confusing nominal and real values. Always adjust for inflation when comparing monetary values
    across time.
 
-```mermaid
-flowchart TD
-    A[01 Macroeconomic Performance] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Cross-References
 

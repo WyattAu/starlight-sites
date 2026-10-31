@@ -91,7 +91,7 @@ $\mathrm{Ca(OH)}_2$ (sparingly soluble but fully dissociated).
 
 ### Weak Bases
 
-Common weak bases: $\mathrm{NH}_3$Amines, $\mathrm{CO}_3^{2-}$$\mathrm{HCO}_3^-$.
+Common weak bases: $\mathrm{NH}_3$ Amines, $\mathrm{CO}_3^{2-}$$\mathrm{HCO}_3^-$.
 
 ## The pH Scale
 
@@ -103,8 +103,8 @@ $$
 
 Where $[\mathrm{H}^+]$ is in $\mathrm{mol/dm}^3$.
 
-- At $25^\circ\mathrm{C}$Pure water has
-  $[\mathrm{H}^+] = 1.0 \times 10^{-7}\,\mathrm{mol/dm}^3$Giving $\mathrm{pH} = 7.0$.
+- At $25^\circ\mathrm{C}$ Pure water has
+  $[\mathrm{H}^+] = 1.0 \times 10^{-7}\,\mathrm{mol/dm}^3$ Giving $\mathrm{pH} = 7.0$.
 - Acidic solutions: $\mathrm{pH} \lt 7$ ($[\mathrm{H}^+] \gt [\mathrm{OH}^-]$).
 - Alkaline solutions: $\mathrm{pH} \gt 7$ ($[\mathrm{H}^+] \lt [\mathrm{OH}^-]$).
 - pH is measured on a scale of 0--14, though values outside this range are possible.
@@ -158,12 +158,16 @@ $$
 
 Lower $\mathrm{p}K_a$ = stronger acid. Typical values:
 
+<div class="table-wrap">
+
 | Acid                         | $K_a$ ($\mathrm{mol/dm}^3$) | $\mathrm{p}K_a$ |
 | ---------------------------- | --------------------------- | --------------- |
 | $\mathrm{CH}_3\mathrm{COOH}$ | $1.74 \times 10^{-5}$       | 4.76            |
 | $\mathrm{HCOOH}$             | $1.78 \times 10^{-4}$       | 3.75            |
 | $\mathrm{HCN}$               | $6.2 \times 10^{-10}$       | 9.21            |
 | $\mathrm{HF}$                | $6.3 \times 10^{-4}$        | 3.20            |
+
+</div>
 
 ### Base Dissociation Constant ($K_b$)
 
@@ -313,7 +317,7 @@ $$
 \mathrm{A}^- + \mathrm{H}^+ \to \mathrm{HA}
 $$
 
-This consumes the added $\mathrm{H}^+$Minimising the pH change.
+This consumes the added $\mathrm{H}^+$ Minimising the pH change.
 
 **Adding base ($\mathrm{OH}^-$):** The weak acid $\mathrm{HA}$ reacts with the added
 $\mathrm{OH}^-$:
@@ -322,7 +326,7 @@ $$
 \mathrm{HA} + \mathrm{OH}^- \to \mathrm{A}^- + \mathrm{H}_2\mathrm{O}
 $$
 
-This consumes the added $\mathrm{OH}^-$Minimising the pH change.
+This consumes the added $\mathrm{OH}^-$ Minimising the pH change.
 
 ### Henderson-Hasselbalch Equation
 
@@ -401,12 +405,16 @@ Example: $\mathrm{CH}_3\mathrm{COOH}$ vs $\mathrm{NH}_3$.
 
 ### Summary of Indicator Choices
 
+<div class="table-wrap">
+
 | Titration type            | Equivalence point pH    | Suitable indicator          |
 | ------------------------- | ----------------------- | --------------------------- |
 | Strong acid / Strong base | 7.0                     | Any (e.g. Bromothymol blue) |
 | Strong acid / Weak base   | &lt; 7.0                | Methyl orange (3.1--4.4)    |
 | Weak acid / Strong base   | &gt; 7.0                | Phenolphthalein (8.3--10.0) |
 | Weak acid / Weak base     | $\approx 7.0$ (gradual) | None suitable; use pH meter |
+
+</div>
 
 ## Neutralisation Enthalpy
 
@@ -429,7 +437,7 @@ weak base.
 1. **Confusing pH with [H+].** pH = 3 does not mean $[\mathrm{H}^+] = 3\,\mathrm{mol/dm}^3$. It
    means $[\mathrm{H}^+] = 10^{-3}\,\mathrm{mol/dm}^3$. A lower pH means a higher $[\mathrm{H}^+]$.
 
-2. **Applying the weak acid approximation when it is not valid.** If $c/K_a \lt 100$The assumption
+2. **Applying the weak acid approximation when it is not valid.** If $c/K_a \lt 100$ The assumption
    $[\mathrm{HA}] \approx c$ fails, and the quadratic formula must be used.
 
 3. **Using the wrong indicator.** The indicator range must overlap with the steep portion of the
@@ -603,6 +611,8 @@ from the titration curve at the point where half the equivalence volume has been
 An acid-base indicator is a weak acid that has a different colour from its conjugate base. The
 colour change occurs over a specific pH range ( about 2 pH units wide).
 
+<div class="table-wrap">
+
 | Indicator           | Colour in acid | Colour in alkali  | pH range                 |
 | ------------------- | -------------- | ----------------- | ------------------------ |
 | Methyl orange       | Red            | Yellow            | 3.1--4.4                 |
@@ -610,15 +620,21 @@ colour change occurs over a specific pH range ( about 2 pH units wide).
 | Phenolphthalein     | Colourless     | Pink              | 8.2--10.0                |
 | Universal indicator | Red/orange     | Green/blue/purple | 1--14 (multiple colours) |
 
+</div>
+
 ### Choosing the Right Indicator
 
 The indicator must change colour at the pH of the equivalence point:
+
+<div class="table-wrap">
 
 | Titration type             | Equivalence point pH | Suitable indicator                 |
 | -------------------------- | -------------------- | ---------------------------------- |
 | Strong acid vs strong base | $\mathrm{pH} = 7$    | Bromothymol blue, phenol red       |
 | Strong acid vs weak base   | $\mathrm{pH} \lt 7$  | Molecular orange, bromophenol blue |
 | Weak acid vs strong base   | $\mathrm{pH} \gt 7$  | Phenolphthalein                    |
+
+</div>
 
 ### pH Curves in Detail
 
@@ -858,6 +874,8 @@ $\mathrm{NaOH}$.
 When a salt is dissolved in water, the pH of the solution depends on whether the cation and anion
 come from a strong or weak acid/base:
 
+<div class="table-wrap">
+
 | Salt                                     | Cation from | Anion from  | Solution pH    | Explanation                                                                                                                                                    |
 | ---------------------------------------- | ----------- | ----------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $\mathrm{NaCl}$                          | Strong base | Strong acid | 7 (neutral)    | Neither ion hydrolyses                                                                                                                                         |
@@ -865,8 +883,10 @@ come from a strong or weak acid/base:
 | $\mathrm{CH}_3\mathrm{COONa}$            | Strong base | Weak acid   | $> 7$ (basic)  | $\mathrm{CH}_3\mathrm{COO}^-$ hydrolyses: $\mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{CH}_3\mathrm{COOH} + \mathrm{OH}^-$ |
 | $\mathrm{NH}_4\mathrm{CH}_3\mathrm{COO}$ | Weak base   | Weak acid   | $\approx 7$    | Both hydrolyse; pH depends on relative $K_a$ and $K_b$                                                                                                         |
 
+</div>
+
 **Worked Example.** Calculate the pH of a $0.050\,\mathrm{mol/dm}^3$ solution of
-$\mathrm{NH}_4\mathrm{Cl}$. ($K_b(\mathrm{NH}_3) = 1.8 \times 10^{-5}$)
+$\mathrm{NH}_4\mathrm{Cl}$. ($ K_b(\mathrm{NH}_3) = 1.8 \times 10^{-5}$)
 
 $$
 K_a(\mathrm{NH}_4^+) = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.6 \times 10^{-10}
@@ -901,12 +921,16 @@ $$
 $K_w$ is temperature-dependent. At higher temperatures, the endothermic autodissociation of water is
 favoured, and $K_w$ increases:
 
+<div class="table-wrap">
+
 | Temperature (K) | $K_w$                  | pH of pure water |
 | --------------- | ---------------------- | ---------------- |
 | 273             | $0.11 \times 10^{-14}$ | 7.47             |
 | 298             | $1.00 \times 10^{-14}$ | 7.00             |
 | 323             | $5.5 \times 10^{-14}$  | 6.63             |
 | 373             | $51.3 \times 10^{-14}$ | 6.14             |
+
+</div>
 
 Note: pure water is always neutral ($[\mathrm{H}^+] = [\mathrm{OH}^-]$), but its pH changes with
 temperature because $K_w$ changes.
@@ -966,9 +990,9 @@ $$
 \mathrm{HA} \rightleftharpoons \mathrm{H}^+ + \mathrm{A}^-
 $$
 
-When acid is added, $\mathrm{A}^-$ consumes the added $\mathrm{H}^+$Shifting the equilibrium left
+When acid is added, $\mathrm{A}^-$ consumes the added $\mathrm{H}^+$ Shifting the equilibrium left
 and minimising pH change. When base is added, HA donates $\mathrm{H}^+$ to neutralise the added
-$\mathrm{OH}^-$Shifting the equilibrium right.
+$\mathrm{OH}^-$ Shifting the equilibrium right.
 
 $\mathrm{HCl}$ and $\mathrm{NaCl}$: $\mathrm{HCl}$ is a strong acid that dissociates completely.
 $\mathrm{Cl}^-$ is the conjugate base of a strong acid and has negligible basicity ($\mathrm{Cl}^-$
@@ -996,21 +1020,35 @@ ethanoic acid ($K_a = 1.74 \times 10^{-5}$).
 
 Let $x = [\mathrm{H}^+] = [\mathrm{CH}_3\mathrm{COO}^-]$.
 
-$$K_a = \frac{x^2}{1.00 \times 10^{-4} - x} = 1.74 \times 10^{-5}$$
+$$
+K_a = \frac{x^2}{1.00 \times 10^{-4} - x} = 1.74 \times 10^{-5}
+$$
 
-$$x^2 = 1.74 \times 10^{-5}(1.00 \times 10^{-4} - x) = 1.74 \times 10^{-9} - 1.74 \times 10^{-5}x$$
+$$
+x^2 = 1.74 \times 10^{-5}(1.00 \times 10^{-4} - x) = 1.74 \times 10^{-9} - 1.74 \times 10^{-5}x
+$$
 
-$$x^2 + 1.74 \times 10^{-5}x - 1.74 \times 10^{-9} = 0$$
+$$
+x^2 + 1.74 \times 10^{-5}x - 1.74 \times 10^{-9} = 0
+$$
 
 Using the quadratic formula:
 
-$$x = \frac{-1.74 \times 10^{-5} + \sqrt{(1.74 \times 10^{-5})^2 + 4(1.74 \times 10^{-9})}}{2}$$
+$$
+x = \frac{-1.74 \times 10^{-5} + \sqrt{(1.74 \times 10^{-5})^2 + 4(1.74 \times 10^{-9})}}{2}
+$$
 
-$$x = \frac{-1.74 \times 10^{-5} + \sqrt{3.03 \times 10^{-10} + 6.96 \times 10^{-9}}}{2} = \frac{-1.74 \times 10^{-5} + \sqrt{7.26 \times 10^{-9}}}{2}$$
+$$
+x = \frac{-1.74 \times 10^{-5} + \sqrt{3.03 \times 10^{-10} + 6.96 \times 10^{-9}}}{2} = \frac{-1.74 \times 10^{-5} + \sqrt{7.26 \times 10^{-9}}}{2}
+$$
 
-$$x = \frac{-1.74 \times 10^{-5} + 8.52 \times 10^{-5}}{2} = \frac{6.78 \times 10^{-5}}{2} = 3.39 \times 10^{-5}\,\mathrm{mol\,dm^{-3}}$$
+$$
+x = \frac{-1.74 \times 10^{-5} + 8.52 \times 10^{-5}}{2} = \frac{6.78 \times 10^{-5}}{2} = 3.39 \times 10^{-5}\,\mathrm{mol\,dm^{-3}}
+$$
 
-$$\mathrm{pH} = -\log(3.39 \times 10^{-5}) = 4.47$$
+$$
+\mathrm{pH} = -\log(3.39 \times 10^{-5}) = 4.47
+$$
 
 Check: $\frac{3.39 \times 10^{-5}}{1.00 \times 10^{-4}} \times 100 = 33.9\%$
 dissociation. Since this exceeds 5%, the approximation was not valid and the quadratic solution was
@@ -1025,25 +1063,41 @@ $[\mathrm{HA}] = [\mathrm{A}^-]$). The useful range is $\mathrm{p}K_a \pm 1$.
 $0.200\,\mathrm{mol\,dm^{-3}}$ ethanoic acid ($\mathrm{p}K_a = 4.76$) to produce a buffer with pH
 $= 5.00$?
 
-$$\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}$$
+$$
+\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}
+$$
 
-$$5.00 = 4.76 + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}$$
+$$
+5.00 = 4.76 + \log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]}
+$$
 
-$$\log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 0.24$$
+$$
+\log\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 0.24
+$$
 
-$$\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 10^{0.24} = 1.74$$
+$$
+\frac{[\mathrm{A}^-]}{[\mathrm{HA}]} = 10^{0.24} = 1.74
+$$
 
 Initial moles of ethanoic acid: $n = 0.200 \times 0.500 = 0.100\,\mathrm{mol}$
 
 Let $x$ = moles of $\mathrm{NaOH}$ added. Then $[\mathrm{A}^-] = x$ and $[\mathrm{HA}] = 0.100 - x$.
 
-$$\frac{x}{0.100 - x} = 1.74$$
+$$
+\frac{x}{0.100 - x} = 1.74
+$$
 
-$$x = 1.74(0.100 - x) = 0.174 - 1.74x$$
+$$
+x = 1.74(0.100 - x) = 0.174 - 1.74x
+$$
 
-$$2.74x = 0.174$$
+$$
+2.74x = 0.174
+$$
 
-$$x = 0.0635\,\mathrm{mol}$$
+$$
+x = 0.0635\,\mathrm{mol}
+$$
 
 So $0.0635\,\mathrm{mol}$ of $\mathrm{NaOH}$ must be added. This converts $0.0635\,\mathrm{mol}$ of
 ethanoic acid to sodium ethanoate, leaving $0.0365\,\mathrm{mol}$ of ethanoic acid unreacted.
@@ -1058,7 +1112,7 @@ The titration of ethanoic acid with $\mathrm{NaOH}$ produces a characteristic S-
    because the weak acid is only partially dissociated).
 
 2. **Buffer region:** After some $\mathrm{NaOH}$ has been added, the solution contains both
-   $\mathrm{CH}_3\mathrm{COOH}$ and $\mathrm{CH}_3\mathrm{COO}^-$Forming a buffer. The pH changes
+   $\mathrm{CH}_3\mathrm{COOH}$ and $\mathrm{CH}_3\mathrm{COO}^-$ Forming a buffer. The pH changes
    slowly in this region.
 
 3. **Half-equivalence point:** When half the acid has been neutralised,
@@ -1084,22 +1138,36 @@ $[\mathrm{CH}_3\mathrm{COO}^-] = \frac{2.50 \times 10^{-3}}{0.0500} = 0.0500\,\m
 
 The ethanoate ion hydrolyses:
 
-$$\mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{CH}_3\mathrm{COOH} + \mathrm{OH}^-$$
+$$
+\mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{CH}_3\mathrm{COOH} + \mathrm{OH}^-
+$$
 
-$$K_b = \frac{K_w}{K_a} = \frac{1.00 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}$$
+$$
+K_b = \frac{K_w}{K_a} = \frac{1.00 \times 10^{-14}}{1.74 \times 10^{-5}} = 5.75 \times 10^{-10}
+$$
 
-$$K_b = \frac{[\mathrm{OH}^-]^2}{[\mathrm{CH}_3\mathrm{COO}^-]} = \frac{x^2}{0.0500} = 5.75 \times 10^{-10}$$
+$$
+K_b = \frac{[\mathrm{OH}^-]^2}{[\mathrm{CH}_3\mathrm{COO}^-]} = \frac{x^2}{0.0500} = 5.75 \times 10^{-10}
+$$
 
-$$x = \sqrt{5.75 \times 10^{-10} \times 0.0500} = 5.37 \times 10^{-6}\,\mathrm{mol\,dm^{-3}}$$
+$$
+x = \sqrt{5.75 \times 10^{-10} \times 0.0500} = 5.37 \times 10^{-6}\,\mathrm{mol\,dm^{-3}}
+$$
 
-$$\mathrm{pOH} = -\log(5.37 \times 10^{-6}) = 5.27$$
+$$
+\mathrm{pOH} = -\log(5.37 \times 10^{-6}) = 5.27
+$$
 
-$$\mathrm{pH} = 14 - 5.27 = 8.73$$
+$$
+\mathrm{pH} = 14 - 5.27 = 8.73
+$$
 
 ### Choosing an Indicator
 
 An indicator is chosen so that its colour change range overlaps with the steep part of the titration
 curve at the equivalence point.
+
+<div class="table-wrap">
 
 | Titration type            | Equivalence point pH | Suitable indicator          |
 | ------------------------- | -------------------- | --------------------------- |
@@ -1108,12 +1176,14 @@ curve at the equivalence point.
 | Strong acid / weak base   | 4--6                 | Methyl orange (3.1--4.4)    |
 | Weak acid / weak base     | $\approx 7$          | None ideal; use pH meter    |
 
+</div>
+
 ### Polyprotic Acids
 
 Sulfuric acid ($\mathrm{H}_2\mathrm{SO}_4$) is a diprotic acid:
 
 - First dissociation: complete
-  ($\mathrm{H}_2\mathrm{SO}_4 \to \mathrm{H}^+ + \mathrm{HSO}_4^-$Strong acid).
+  ($\mathrm{H}_2\mathrm{SO}_4 \to \mathrm{H}^+ + \mathrm{HSO}_4^-$ Strong acid).
 - Second dissociation: partial
   ($\mathrm{HSO}_4^- \rightleftharpoons \mathrm{H}^+ + \mathrm{SO}_4^{2-}$$K_{a2} = 1.02 \times 10^{-2}$).
 
@@ -1124,18 +1194,26 @@ $[\mathrm{HSO}_4^-] = 0.050\,\mathrm{mol\,dm^{-3}$.
 
 For the second dissociation: let $x$ be the additional $[\mathrm{H}^+]$ from $\mathrm{HSO}_4^-$.
 
-$$K_{a2} = \frac{(0.050 + x)(x)}{0.050 - x} = 1.02 \times 10^{-2}$$
+$$
+K_{a2} = \frac{(0.050 + x)(x)}{0.050 - x} = 1.02 \times 10^{-2}
+$$
 
 Approximation: $0.050 + x \approx 0.050$, $0.050 - x \approx 0.050$:
 
-$$x = 1.02 \times 10^{-2} = 0.0102\,\mathrm{mol\,dm^{-3}}$$
+$$
+x = 1.02 \times 10^{-2} = 0.0102\,\mathrm{mol\,dm^{-3}}
+$$
 
 Check: $\frac{0.0102}{0.050} \times 100 = 20.4\%$ -- the approximation is marginal. For greater
 accuracy, use the quadratic formula. However, for A-Level purposes:
 
-$$[\mathrm{H}^+]_\text{total} \approx 0.050 + 0.010 = 0.060\,\mathrm{mol\,dm^{-3}}$$
+$$
+[\mathrm{H}^+]_\text{total} \approx 0.050 + 0.010 = 0.060\,\mathrm{mol\,dm^{-3}}
+$$
 
-$$\mathrm{pH} = -\log(0.060) = 1.22$$
+$$
+\mathrm{pH} = -\log(0.060) = 1.22
+$$
 
 ## Exam-Style Questions with Full Mark Schemes
 
@@ -1187,7 +1265,9 @@ added to $25.0\,\mathrm{cm}^3$ of the buffer. (3 marks)
 
 $n(\mathrm{CH}_3\mathrm{COO}^-) = 0.100\,\mathrm{mol}$
 
-$$\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{CH}_3\mathrm{COO}^-]}{[\mathrm{CH}_3\mathrm{COOH}]} = 4.76 + \log\frac{0.100}{0.100} = 4.76 + 0 = 4.76$$
+$$
+\mathrm{pH} = \mathrm{p}K_a + \log\frac{[\mathrm{CH}_3\mathrm{COO}^-]}{[\mathrm{CH}_3\mathrm{COOH}]} = 4.76 + \log\frac{0.100}{0.100} = 4.76 + 0 = 4.76
+$$
 (1 mark for expression, 1 mark for answer.)
 
 (b) $n(\mathrm{HCl}) = 1.00 \times 0.001 = 1.00 \times 10^{-3}\,\mathrm{mol}$
@@ -1201,7 +1281,9 @@ After adding $\mathrm{HCl}$: $n(\mathrm{CH}_3\mathrm{COOH}) = 0.0100 + 0.001 = 0
 
 $n(\mathrm{CH}_3\mathrm{COO}^-) = 0.0100 - 0.001 = 0.0090\,\mathrm{mol}$
 
-$$\mathrm{pH} = 4.76 + \log\frac{0.0090}{0.0110} = 4.76 + \log(0.818) = 4.76 - 0.087 = 4.67$$
+$$
+\mathrm{pH} = 4.76 + \log\frac{0.0090}{0.0110} = 4.76 + \log(0.818) = 4.76 - 0.087 = 4.67
+$$
 
 (1 mark for calculating moles after reaction, 1 mark for expression, 1 mark for answer.)
 
@@ -1216,7 +1298,7 @@ Define the term $\mathrm{p}K_a$. Explain why the $\mathrm{p}K_a$ of chloroethano
 
 **Mark Scheme:**
 
-$\mathrm{p}K_a = -\log K_a$Where $K_a$ is the acid dissociation constant (1 mark). A lower
+$\mathrm{p}K_a = -\log K_a$ Where $K_a$ is the acid dissociation constant (1 mark). A lower
 $\mathrm{p}K_a$ means a stronger acid (greater dissociation).
 
 Chlorine is more electronegative than hydrogen, so it withdraws electron density from the carboxyl
@@ -1260,22 +1342,9 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Acids,
 Bases and Buffers with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Acids and bases are like opposite personalities, one gives protons, the other accepts them, creating balance.**
-
-```mermaid
-flowchart TD
-    A[Acids Bases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

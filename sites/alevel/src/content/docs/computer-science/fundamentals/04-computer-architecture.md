@@ -26,7 +26,7 @@ categories:
 
 The **Von Neumann architecture**, proposed by John Von Neumann in 1945, is characterised by a single
 Unified memory space that stores both data and instructions, a single set of buses connecting memory
-To the CPU, and sequential execution of instructions.
+to the CPU, and sequential execution of instructions.
 
 ### Components
 
@@ -39,7 +39,7 @@ To the CPU, and sequential execution of instructions.
 
 Both instructions and data reside in the same memory. The CPU fetches instructions from memory,
 Decodes them, and executes them. This is the **stored program concept**, the machine can modify its
-Own instructions (though modern systems prevent this for security).
+own instructions (though modern systems prevent this for security).
 
 <hr />
 
@@ -48,9 +48,11 @@ Own instructions (though modern systems prevent this for security).
 ### Definition
 
 The **Harvard architecture** uses **separate memory spaces** for instructions and data, each with
-Its own bus.
+its own bus.
 
 ### Comparison: Von Neumann vs Harvard
+
+<div class="table-wrap">
 
 | Property            | Von Neumann               | Harvard                               |
 | ------------------- | ------------------------- | ------------------------------------- |
@@ -60,6 +62,8 @@ Its own bus.
 | Complexity          | Simpler hardware          | More complex hardware                 |
 | Self-modifying code | Possible (in theory)      | Not possible                          |
 | Modern usage        | General-purpose computers | DSPs, microcontrollers, cache systems |
+
+</div>
 
 :::note
 Cache is split into instruction cache and data cache (Harvard), while main memory is unified (Von
@@ -80,7 +84,7 @@ The ALU performs:
 - **Bitwise operations:** shift, rotate
 
 The ALU is a combinational circuit, it has no internal state. It takes inputs from registers and
-Produces outputs that are written back to registers.
+produces outputs that are written back to registers.
 
 ### Control Unit (CU)
 
@@ -93,6 +97,8 @@ The CU orchestrates the fetch-decode-execute cycle by generating control signals
 
 ### Registers
 
+<div class="table-wrap">
+
 | Register | Full Name                    | Purpose                                            |
 | -------- | ---------------------------- | -------------------------------------------------- |
 | **PC**   | Program Counter              | Holds the address of the next instruction to fetch |
@@ -101,6 +107,8 @@ The CU orchestrates the fetch-decode-execute cycle by generating control signals
 | **ACC**  | Accumulator                  | Stores results of ALU operations                   |
 | **CIR**  | Current Instruction Register | Holds the instruction currently being decoded      |
 | **IR**   | Instruction Register         | Synonym for CIR (board-dependent naming)           |
+
+</div>
 
 :::note
 - **AQA** uses: PC, MAR, MDR, ACC, CIR
@@ -163,7 +171,7 @@ After execution, the cycle repeats from step 1.
 
 Each step involves register transfers and bus operations. A typical fetch takes 3–4 clock cycles
 (one per bus operation), decode takes 1–2 cycles, and execute takes 1–5 cycles depending on the
-Instruction.
+instruction.
 
 <details>
 <summary>Example: Trace the fetch-decode-execute cycle for ADD #5 (add immediate 5 to ACC)</summary>
@@ -196,15 +204,19 @@ Instruction.
 ### Definition
 
 A **bus** is a set of parallel wires that carries data, addresses, or control signals between
-Components.
+components.
 
 ### Types
+
+<div class="table-wrap">
 
 | Bus         | Width (typical) | Purpose                                                 | Direction                   |
 | ----------- | --------------- | ------------------------------------------------------- | --------------------------- |
 | Data bus    | 8, 16, 32, 64   | Carries data between CPU, memory, and I/O               | Bidirectional               |
 | Address bus | 16, 32, 64      | Carries memory addresses                                | Unidirectional (CPU→memory) |
 | Control bus | Variable        | Carries control signals (read, write, clock, interrupt) | Mostly CPU→devices          |
+
+</div>
 
 **Key relationships:**
 
@@ -219,7 +231,7 @@ Components.
 ### Motivation
 
 CPU speeds have increased much faster than memory speeds. **Cache memory** bridges this gap by
-Storing frequently accessed data in fast memory close to the CPU.
+storing frequently accessed data in fast memory close to the CPU.
 
 ### Locality of Reference
 
@@ -231,11 +243,15 @@ Soon (e.g., sequential array access, instruction stream).
 
 ### Cache Levels
 
+<div class="table-wrap">
+
 | Level | Location           | Size          | Speed     | Purpose                            |
 | ----- | ------------------ | ------------- | --------- | ---------------------------------- |
 | L1    | Inside CPU core    | 32–64 KiB     | ~1 ns     | Hottest data, split I/D            |
 | L2    | Inside CPU         | 256 KiB–1 MiB | ~3–10 ns  | Backup for L1                      |
 | L3    | Shared among cores | 4–64 MiB      | ~10–30 ns | Shared cache, reduces L1/L2 misses |
+
+</div>
 
 ### Cache Mapping Techniques
 
@@ -243,7 +259,9 @@ Soon (e.g., sequential array access, instruction stream).
 
 Each memory block maps to exactly one cache line.
 
-$$\mathrm{Cache line} = \mathrm{Block address} \bmod (\mathrm{Number of cache lines})$$
+$$
+\mathrm{Cache line} = \mathrm{Block address} \bmod (\mathrm{Number of cache lines})
+$$
 
 - **Advantage:** Simple, fast lookup
 - **Disadvantage:** Conflict misses, two frequently used blocks mapping to the same line evict each
@@ -259,9 +277,11 @@ A memory block can be placed in **any** cache line.
 #### Set-Associative Mapping
 
 The cache is divided into $s$ **sets**, each containing $k$ **ways** (lines). A block maps to a
-Specific set, but can be placed in any line within that set.
+specific set, but can be placed in any line within that set.
 
-$$\mathrm{Set} = \mathrm{Block address} \bmod s$$
+$$
+\mathrm{Set} = \mathrm{Block address} \bmod s
+$$
 
 - **$k = 1$:** Direct mapping
 - **$k = s$:** Fully associative
@@ -289,8 +309,12 @@ addresses using a **page table**.
 
 **Virtual address structure (32-bit, 4 KiB pages):**
 
+<div class="table-wrap">
+
 | Offset (12 bits) | Page number (20 bits) |
 | ---------------- | --------------------- |
+
+</div>
 
 **Page table entry (PTE):**
 
@@ -339,7 +363,9 @@ Without pipelining, $n$ instructions take $n \times k$ cycles (where $k$ is the 
 With pipelining, the first instruction takes $k$ cycles, and each subsequent instruction takes 1
 Cycle. Total: $k + (n - 1)$ cycles.
 
-$$\mathrm{Speedup} = \frac{nk}{k + n - 1} \xrightarrow{n \to \infty} k$$
+$$
+\mathrm{Speedup} = \frac{nk}{k + n - 1} \xrightarrow{n \to \infty} k
+$$
 
 A $k$-stage pipeline achieves at most $k\times$ speedup in the ideal case.
 
@@ -373,6 +399,8 @@ Cycles. Emphasis on hardware complexity.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Property           | RISC                      | CISC                          |
 | ------------------ | ------------------------- | ----------------------------- |
 | Instruction count  | Small (50–100)            | Large (200–500+)              |
@@ -385,6 +413,8 @@ Cycles. Emphasis on hardware complexity.
 | Examples           | ARM, MIPS, RISC-V         | x86/x86-64                    |
 | Code density       | Lower (more instructions) | Higher (fewer instructions)   |
 | Power consumption  | Lower                     | Higher                        |
+
+</div>
 
 :::note
 RISC-like Internal micro-operations).
@@ -454,8 +484,8 @@ Give concrete examples of code patterns that exhibit each type of locality.
 Repeatedly. After the first access loads it into cache, subsequent accesses hit the cache.
 Similarly, the instruction bytes of the loop body are fetched from cache after the first iteration.
 
-**Spatial locality:** When accessing `array[i]`The cache loads a block (cache line) containing
-`array[i]` and several adjacent elements. Subsequent accesses to `array[i+1]``array[i+2]`Etc., Are
+**Spatial locality:** When accessing `array[i]`. The cache loads a block (cache line) containing
+`array[i]` and several adjacent elements. Subsequent accesses to `array[i+1]`, `array[i+2]`. Etc., Are
 cache hits because they are in the same cache line.
 
 </details>
@@ -497,7 +527,7 @@ After the pipeline fills, one instruction completes per cycle.
 <summary>Answer</summary>
 
 The first instruction takes 5 cycles to pass through all stages (pipeline fill). After that, one
-Instruction completes per cycle. The last instruction finishes at cycle $5 + 99 = 104$.
+instruction completes per cycle. The last instruction finishes at cycle $5 + 99 = 104$.
 
 Total: $5 + (100 - 1) = 104$ cycles, compared to $100 \times 5 = 500$ without pipelining.
 
@@ -606,7 +636,7 @@ A page fault is orders of magnitude more expensive than a TLB miss.
 
 **Problem 10.** A RISC processor has 32 registers, each 32 bits wide. How many bits are needed to
 Encode a register operand? What is the maximum number of 3-operand instructions possible if the
-Opcode field is 8 bits?
+opcode field is 8 bits?
 
 <details>
 <summary>Hint</summary>
@@ -643,26 +673,9 @@ With 8-bit opcode: $2^8 = 256$ possible opcodes.
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-```mermaid
-flowchart TD
-    A[04 Computer Architecture] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

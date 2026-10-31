@@ -22,7 +22,7 @@ description: "This document covers the IB History topic on Democratic States for
 
 This document covers the IB History topic on Democratic States for Paper 2. It examines three case
 studies of democratic states facing severe challenges, Weimar Germany, the United States during the
-Great Depression, and the Spanish Second Republic, and analyses the conditions that enabled
+great Depression, and the Spanish Second Republic, and analyses the conditions that enabled
 democratic systems to survive or collapse. Comparative analysis and historiographical perspectives
 are integrated throughout.
 
@@ -72,7 +72,7 @@ are integrated throughout.
 - The treaty was deeply unpopular, the "war guilt clause" (Article 231), reparations, territorial
   losses, and military restrictions were seen as a national humiliation
 - The government was associated with the treaty, politicians were called the "November Criminals"
-- The stab-in-the-back myth (Dolchstosslegende) blamed the civilian government for Germany"s defeat,
+- The stab-in-the-back myth (Dolchstosslegende) blamed the civilian government for Germany's defeat,
   undermining the legitimacy of the republic
 
 **Hyperinflation (1923)**
@@ -483,29 +483,11 @@ and the absence of a democratic tradition could lead to civil war and authoritar
 comparative study of these cases provides essential insights into the conditions that enable
 democracies to survive and the factors that contribute to their downfall.
 
-
-```mermaid
-flowchart TD
-    A[Democratic States] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
-## Intuition
-
-Democracy is like a house with many rooms -- economic stability, institutional trust, and leadership are all load-bearing walls. When the economy crumbles (Weimar hyperinflation, the Great Depression), the other walls must hold. The USA survived because its constitutional framework, democratic traditions, and Roosevelt's leadership provided redundancy. Weimar failed because its proportional representation fragmented parliament while Article 48 gave the executive authoritarian powers, creating a structural trap. Spain lacked the democratic traditions and middle-class consensus needed to absorb shocks. The key insight is that democracy is not a default state -- it requires active maintenance through institutions, leadership, and economic foundations.
-
 ## Intuition
 
 Democracy is like a house with many rooms -- economic stability, institutional trust, and leadership are all load-bearing walls. When the economy crumbles (Weimar hyperinflation, the Great Depression), the other walls must hold. The USA survived because its constitutional framework, democratic traditions, and Roosevelt's leadership provided redundancy. Weimar failed because its proportional representation fragmented parliament while Article 48 gave the executive authoritarian powers, creating a structural trap. Spain lacked the democratic traditions and middle-class consensus needed to absorb shocks. The key insight is that democracy is not a default state -- it requires active maintenance through institutions, leadership, and economic foundations.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

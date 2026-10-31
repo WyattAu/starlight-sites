@@ -31,6 +31,8 @@ categories:
 The **CPU (Central Processing Unit)** is the brain of the computer. It processes data and executes
 Instructions.
 
+<div class="table-wrap">
+
 | Component                   | Function                                                                           |
 | --------------------------- | ---------------------------------------------------------------------------------- |
 | Arithmetic Logic Unit (ALU) | Performs arithmetic (addition, subtraction) and logical (AND, OR, NOT) operations  |
@@ -39,17 +41,21 @@ Instructions.
 | Registers                   | Small, fast storage locations within the CPU                                       |
 | Buses                       | Pathways for data transfer between components                                      |
 
+</div>
+
 **The ALU in detail.** The ALU is the part of the CPU that performs actual computation. Given two
 Binary inputs and an operation code (from the control unit), it produces a result and a set of
-Status flags (zero, negative, carry, overflow). For example, given inputs 0110 and 0011 with an
+status flags (zero, negative, carry, overflow). For example, given inputs 0110 and 0011 with an
 "add" operation, the ALU outputs 1001 with a zero flag of 0 (result is non-zero).
 
 **The Control Unit in detail.** The CU does not perform computation itself. Instead, it sends
 Control signals to other components: it tells the memory which address to read or write, tells the
 ALU which operation to perform, and tells the registers when to load or store values. It is the
-Conductor of the CPU orchestra.
+conductor of the CPU orchestra.
 
 ### 1.2 Registers
+
+<div class="table-wrap">
 
 | Register                           | Function                                                                   |
 | ---------------------------------- | -------------------------------------------------------------------------- |
@@ -59,9 +65,11 @@ Conductor of the CPU orchestra.
 | Accumulator (ACC)                  | Stores the results of calculations performed by the ALU                    |
 | Current Instruction Register (CIR) | Holds the instruction currently being decoded and executed                 |
 
+</div>
+
 **Key distinction:** The PC holds an **address** (where to go next). The MAR also holds an
 **address** (where to read/write data). The MDR holds the actual **data** (what was read or what
-Will be written). The CIR holds the **instruction** (what to do).
+will be written). The CIR holds the **instruction** (what to do).
 
 ### 1.3 The Fetch-Decode-Execute Cycle
 
@@ -111,15 +119,17 @@ The **Von Neumann architecture** is the standard model for most computers:
 - A single bus is used for data transfer
 
 **The stored program concept.** Before Von Neumann, computers were rewired for each new program. Von
-Neumann"s key insight was that programs and data could both be stored in the same memory, and the
+Neumann's key insight was that programs and data could both be stored in the same memory, and the
 CPU could read instructions from memory just as it reads data. This means you can change what a
-Computer does by changing the contents of its memory -- no rewiring required.
+computer does by changing the contents of its memory -- no rewiring required.
 
 **Von Neumann bottleneck.** Because instructions and data share the same bus, the CPU cannot fetch
 An instruction and read/write data simultaneously. This limits performance. Modern processors
 Mitigate this with caches, pipelines, and Harvard-architecture elements within the CPU.
 
 **Von Neumann vs Harvard comparison:**
+
+<div class="table-wrap">
 
 | Feature     | Von Neumann                       | Harvard                                       |
 | ----------- | --------------------------------- | --------------------------------------------- |
@@ -128,6 +138,8 @@ Mitigate this with caches, pipelines, and Harvard-architecture elements within t
 | Simplicity  | Simpler hardware                  | More complex hardware                         |
 | Performance | Bottleneck when fetching and data | Can fetch instruction and data simultaneously |
 | Use         | Most general-purpose computers    | DSP, some microcontrollers                    |
+
+</div>
 
 ### 1.5 Buses (Higher Tier)
 
@@ -154,6 +166,8 @@ $2 \times 10^9$ cycles/second $\times$ 4 bytes/cycle = $8 \times 10^9$ bytes/sec
 
 ### 2.1 Types of Memory
 
+<div class="table-wrap">
+
 | Type              | Volatile? | Speed     | Capacity   | Purpose                                      |
 | ----------------- | --------- | --------- | ---------- | -------------------------------------------- |
 | RAM               | Yes       | Fast      | Moderate   | Stores currently running programs and data   |
@@ -161,7 +175,11 @@ $2 \times 10^9$ cycles/second $\times$ 4 bytes/cycle = $8 \times 10^9$ bytes/sec
 | Cache             | Yes       | Very fast | Very small | Stores frequently used instructions and data |
 | Secondary storage | No        | Slow      | Large      | Long-term storage of files and programs      |
 
+</div>
+
 ### 2.2 RAM vs ROM
+
+<div class="table-wrap">
 
 | Feature        | RAM                                | ROM                                 |
 | -------------- | ---------------------------------- | ----------------------------------- |
@@ -170,13 +188,15 @@ $2 \times 10^9$ cycles/second $\times$ 4 bytes/cycle = $8 \times 10^9$ bytes/sec
 | Contents       | Programs and data currently in use | Boot-up instructions (BIOS)         |
 | Can be changed | Yes                                | No (in traditional ROM)             |
 
+</div>
+
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** ROM contains the BIOS (Basic Input/Output System), which is the first
 Code the CPU executes when the computer is powered on. The BIOS initialises hardware and loads the
-Operating system from disk into RAM. ROM is non-volatile so the computer can always start up.
+operating system from disk into RAM. ROM is non-volatile so the computer can always start up.
 
 **Dynamic RAM (DRAM) vs Static RAM (SRAM):**
 
@@ -187,6 +207,8 @@ Operating system from disk into RAM. ROM is non-volatile so the computer can alw
 
 **DRAM vs SRAM comparison:**
 
+<div class="table-wrap">
+
 | Feature  | DRAM              | SRAM                 |
 | -------- | ----------------- | -------------------- |
 | Used for | Main memory (RAM) | CPU cache (L1/L2/L3) |
@@ -195,6 +217,8 @@ Operating system from disk into RAM. ROM is non-volatile so the computer can alw
 | Density  | Higher            | Lower                |
 | Refresh  | Required          | Not required         |
 | Power    | Less (when idle)  | More                 |
+
+</div>
 
 ### 2.3 Virtual Memory
 
@@ -208,16 +232,16 @@ That relies heavily on virtual memory will run noticeably slower.
 
 **Page fault:** Occurs when the CPU tries to access data that has been moved from RAM to virtual
 Memory (the hard drive). The OS must swap the required page back into RAM, which takes thousands of
-Times longer than a RAM access.
+times longer than a RAM access.
 
 **Worked Example.** A computer has 8 GB of RAM and runs programs that require 12 GB total. The
 Operating system allocates 8 GB to RAM and uses 4 GB of virtual memory on the SSD. When a program
 Accesses data in virtual memory, a page fault occurs and the OS swaps the required page from the SSD
-Into RAM, potentially moving a less-used page from RAM to the SSD.
+into RAM, potentially moving a less-used page from RAM to the SSD.
 
 **Thrashing.** If too many programs are running and the system spends more time swapping pages than
 Executing instructions, the system becomes extremely slow. This condition is called thrashing. The
-Solution is to close some programs or add more physical RAM.
+solution is to close some programs or add more physical RAM.
 
 ### 2.4 Cache Memory
 
@@ -226,11 +250,15 @@ Used instructions and data so the CPU does not have to wait for slower RAM acces
 
 **Three levels of cache:**
 
+<div class="table-wrap">
+
 | Level | Location            | Size                   | Speed             |
 | ----- | ------------------- | ---------------------- | ----------------- |
 | L1    | Inside CPU core     | Smallest (few KB)      | Fastest           |
 | L2    | Inside CPU          | Larger (256 KB - 1 MB) | Fast              |
 | L3    | Shared across cores | Largest (up to 64 MB)  | Slower than L1/L2 |
+
+</div>
 
 **Cache hit:** Data is found in the cache (fast access).
 
@@ -238,7 +266,7 @@ Used instructions and data so the CPU does not have to wait for slower RAM acces
 
 **Why caching works:** Programs tend to access the same data repeatedly (temporal locality) and
 Access data near recently accessed data (spatial locality). Caching exploits these patterns to
-Dramatically reduce average memory access time.
+dramatically reduce average memory access time.
 
 **Worked Example.** If a CPU has a 90% cache hit rate, L1 cache access time is 1 ns, and RAM access
 Time is 100 ns, what is the average memory access time?
@@ -252,6 +280,8 @@ $100 / 10.9 \approx 9.2\times$.
 
 ### 3.1 Primary vs Secondary Storage
 
+<div class="table-wrap">
+
 | Feature    | Primary Storage (RAM/ROM) | Secondary Storage           |
 | ---------- | ------------------------- | --------------------------- |
 | Volatile?  | RAM yes, ROM no           | No                          |
@@ -259,6 +289,8 @@ $100 / 10.9 \approx 9.2\times$.
 | Capacity   | Limited                   | Large                       |
 | Connection | Directly accessed by CPU  | Accessed via data bus       |
 | Examples   | RAM, ROM, cache           | HDD, SSD, USB, optical disc |
+
+</div>
 
 ### 3.2 Magnetic Storage (Hard Disk Drive)
 
@@ -286,6 +318,8 @@ $100 / 10.9 \approx 9.2\times$.
 
 ### 3.5 Comparing Storage Devices
 
+<div class="table-wrap">
+
 | Device    | Speed  | Capacity   | Durability | Cost         |
 | --------- | ------ | ---------- | ---------- | ------------ |
 | HDD       | Medium | Very high  | Medium     | Low          |
@@ -293,6 +327,8 @@ $100 / 10.9 \approx 9.2\times$.
 | USB flash | Medium | Low-Medium | High       | Low          |
 | Optical   | Slow   | Low-Medium | Low        | Very low     |
 | Cloud     | Varies | Varies     | Varies     | Subscription |
+
+</div>
 
 **Choosing storage: practical considerations:**
 
@@ -323,6 +359,8 @@ Data stored on remote servers accessed via the Internet.
 
 ### 4.1 Functions of an Operating System
 
+<div class="table-wrap">
+
 | Function             | Description                                                         |
 | -------------------- | ------------------------------------------------------------------- |
 | Memory management    | Allocates RAM to programs, manages virtual memory                   |
@@ -332,15 +370,19 @@ Data stored on remote servers accessed via the Internet.
 | User interface       | Provides a way for users to interact with the computer (GUI or CLI) |
 | Security             | Manages user accounts, permissions, and access control              |
 
+</div>
+
 **Memory management in detail.** The OS keeps track of which parts of RAM are in use and by which
 Program. When a program is launched, the OS allocates a block of RAM. When the program closes, the
 OS frees that memory. The OS also handles virtual memory by swapping pages between RAM and disk.
 
 **Processor scheduling.** When multiple programs are running, the OS allocates CPU time to each
 Program using a scheduling algorithm (round-robin, priority-based, etc.). This gives the illusion of
-Multitasking even on a single-core CPU.
+multitasking even on a single-core CPU.
 
 **Common scheduling algorithms:**
+
+<div class="table-wrap">
 
 | Algorithm                | Description                                            | Fairness |
 | ------------------------ | ------------------------------------------------------ | -------- |
@@ -348,6 +390,8 @@ Multitasking even on a single-core CPU.
 | Priority-based           | Higher-priority processes get CPU time first           | Low      |
 | First-come, first-served | Processes served in order of arrival                   | Medium   |
 | Shortest job first       | The process with the shortest expected time runs first | Medium   |
+
+</div>
 
 ### 4.2 Types of User Interface
 
@@ -368,6 +412,8 @@ Multitasking even on a single-core CPU.
 
 **GUI vs CLI comparison:**
 
+<div class="table-wrap">
+
 | Feature     | GUI                   | CLI                      |
 | ----------- | --------------------- | ------------------------ |
 | Ease of use | Easy for beginners    | Steep learning curve     |
@@ -376,9 +422,13 @@ Multitasking even on a single-core CPU.
 | Automation  | Limited               | Easy with scripting      |
 | Flexibility | Menu-driven           | Full control             |
 
+</div>
+
 ### 4.3 Utility Software
 
 Utility software helps maintain and manage the computer:
+
+<div class="table-wrap">
 
 | Utility              | Purpose                                     |
 | -------------------- | ------------------------------------------- |
@@ -388,12 +438,16 @@ Utility software helps maintain and manage the computer:
 | Compression software | Compresses and decompresses files           |
 | Backup software      | Creates copies of data for recovery         |
 
+</div>
+
 **Disk defragmentation.** On a HDD, files can become fragmented -- stored in non-contiguous clusters
 Across the disk. This slows down reading because the read head must move to multiple locations.
 Defragmentation reorganises files into contiguous blocks. Note: SSDs do not need defragmentation and
-It can actually reduce their lifespan.
+it can actually reduce their lifespan.
 
 ### 4.4 Types of Operating System (Higher Tier)
+
+<div class="table-wrap">
 
 | Type        | Description                                    | Examples              |
 | ----------- | ---------------------------------------------- | --------------------- |
@@ -404,10 +458,12 @@ It can actually reduce their lifespan.
 | Network     | Manages network resources and services         | Windows Server, Linux |
 | Distributed | Multiple computers work together as one system | Cloud platforms       |
 
+</div>
+
 ## 5. Embedded Systems
 
 An **embedded system** is a computer system built into a larger device, designed to perform a
-Specific function.
+specific function.
 
 **Examples:**
 
@@ -429,6 +485,8 @@ Specific function.
 
 **Embedded systems vs general-purpose computers:**
 
+<div class="table-wrap">
+
 | Feature                | Embedded System       | General-Purpose Computer  |
 | ---------------------- | --------------------- | ------------------------- |
 | Purpose                | Single, specific task | Multiple tasks            |
@@ -437,15 +495,17 @@ Specific function.
 | Processing power       | Limited               | High                      |
 | Real-time requirements | Often required        | Not required              |
 
+</div>
+
 **Worked Example.** A traffic light controller is an embedded system. It runs a fixed program stored
 In ROM that cycles through red, amber, and green at set intervals. It has no screen or keyboard --
 Its only output is the lights themselves. It must respond within strict time limits (real-time) for
-Safety.
+safety.
 
 ### 1.6 Embedded Systems
 
 An **embedded system** is a computer system built into a larger device, designed to perform a
-Specific function.
+specific function.
 
 **Examples:**
 
@@ -468,7 +528,7 @@ Specific function.
 **Worked Example.** A traffic light controller is an embedded system. It runs a fixed program stored
 In ROM that cycles through red, amber, and green at set intervals. It has no screen or keyboard --
 Its only output is the lights themselves. It must respond within strict time limits (real-time) for
-Safety.
+safety.
 
 ### 1.7 Instruction Set and Machine Code (Higher Tier)
 
@@ -479,6 +539,8 @@ SUB, MOV, JMP).
 
 **Example machine code instructions:**
 
+<div class="table-wrap">
+
 | Instruction | Meaning                          |
 | ----------- | -------------------------------- |
 | 0000 0001   | Load accumulator from address    |
@@ -488,6 +550,8 @@ SUB, MOV, JMP).
 | 0000 0101   | Jump to address                  |
 | 0000 0110   | Jump to address if accumulator=0 |
 | 0000 0111   | Halt                             |
+
+</div>
 
 **Worked Example.** Write the machine code to add two numbers stored at addresses 10 and 11 and
 Store the result at address 12.
@@ -520,6 +584,8 @@ Instruction per clock cycle (vs one every 3 cycles without pipelining).
 
 ### 2.1 Types of Memory
 
+<div class="table-wrap">
+
 | Type              | Volatile? | Speed     | Capacity   | Purpose                                      |
 | ----------------- | --------- | --------- | ---------- | -------------------------------------------- |
 | RAM               | Yes       | Fast      | Moderate   | Stores currently running programs and data   |
@@ -527,7 +593,11 @@ Instruction per clock cycle (vs one every 3 cycles without pipelining).
 | Cache             | Yes       | Very fast | Very small | Stores frequently used instructions and data |
 | Secondary storage | No        | Slow      | Large      | Long-term storage of files and programs      |
 
+</div>
+
 ### 2.2 RAM vs ROM
+
+<div class="table-wrap">
 
 | Feature        | RAM                                | ROM                                 |
 | -------------- | ---------------------------------- | ----------------------------------- |
@@ -536,13 +606,15 @@ Instruction per clock cycle (vs one every 3 cycles without pipelining).
 | Contents       | Programs and data currently in use | Boot-up instructions (BIOS)         |
 | Can be changed | Yes                                | No (in traditional ROM)             |
 
+</div>
+
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
-So it persists after power off.
+so it persists after power off.
 
 **ROM (Read Only Memory):** ROM contains the BIOS (Basic Input/Output System), which is the first
 Code the CPU executes when the computer is powered on. The BIOS initialises hardware and loads the
-Operating system from disk into RAM. ROM is non-volatile so the computer can always start up.
+operating system from disk into RAM. ROM is non-volatile so the computer can always start up.
 
 **Dynamic RAM (DRAM) vs Static RAM (SRAM):**
 
@@ -562,11 +634,11 @@ When RAM is full, the operating system uses a section of the hard drive as addit
 
 **Page fault:** Occurs when the CPU tries to access data that has been moved from RAM to virtual
 Memory (the hard drive). The OS must swap the required page back into RAM, which takes thousands of
-Times longer than a RAM access.
+times longer than a RAM access.
 
 **Thrashing.** If too many programs are running and the system spends more time swapping pages than
 Executing instructions, the system becomes extremely slow. This condition is called thrashing. The
-Solution is to close some programs or add more physical RAM.
+solution is to close some programs or add more physical RAM.
 
 ### 2.4 Flash Memory
 
@@ -581,7 +653,7 @@ This is tens of thousands of cycles, far exceeding normal use).
 ## 5. Embedded Systems
 
 An **embedded system** is a computer system built into a larger device, designed to perform a
-Specific function.
+specific function.
 
 **Examples:**
 
@@ -603,6 +675,8 @@ Specific function.
 
 **Embedded systems vs general-purpose computers:**
 
+<div class="table-wrap">
+
 | Feature                | Embedded System       | General-Purpose Computer  |
 | ---------------------- | --------------------- | ------------------------- |
 | Purpose                | Single, specific task | Multiple tasks            |
@@ -611,10 +685,12 @@ Specific function.
 | Processing power       | Limited               | High                      |
 | Real-time requirements | Often required        | Not required              |
 
+</div>
+
 **Worked Example.** A traffic light controller is an embedded system. It runs a fixed program stored
 In ROM that cycles through red, amber, and green at set intervals. It has no screen or keyboard --
 Its only output is the lights themselves. It must respond within strict time limits (real-time) for
-Safety.
+safety.
 
 ## 6. The Systems Life Cycle
 
@@ -634,6 +710,8 @@ Stage and provides a record for future maintenance.
 
 ### 6.2 Types of Testing
 
+<div class="table-wrap">
+
 | Type                | Description                                               |
 | ------------------- | --------------------------------------------------------- |
 | Unit testing        | Testing individual components in isolation                |
@@ -642,6 +720,8 @@ Stage and provides a record for future maintenance.
 | Acceptance testing  | Customer tests the system to ensure it meets requirements |
 | Alpha testing       | Testing by the development team                           |
 | Beta testing        | Testing by a group of real users                          |
+
+</div>
 
 **Black-box vs white-box testing:**
 
@@ -655,7 +735,7 @@ Stage and provides a record for future maintenance.
 
 **Worked Example.** A function validates that a percentage is between 0 and 100 inclusive. Using
 Boundary value analysis, the test cases should include: -1, 0, 1, 99, 100, 101. The values 0 and 100
-Are the boundaries where off-by-one errors are most likely.
+are the boundaries where off-by-one errors are most likely.
 
 **Worked Example (Higher Tier).** For a search function that accepts a string of 1 to 50 characters,
 Identify the equivalence classes and boundary values.
@@ -763,17 +843,6 @@ Multi-step problems in Computer Systems often combine two or more concepts. Brea
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[2_Hardware] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of computer systems, including underlying theory, practical
@@ -786,9 +855,6 @@ implementation, and key applications.
 - input/output systems
 - operating systems and scheduling
 - interrupts and polling
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 

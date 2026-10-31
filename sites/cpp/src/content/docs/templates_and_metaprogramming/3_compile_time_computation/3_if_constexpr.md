@@ -41,8 +41,8 @@ if constexpr ( condition ) statement else statement
 ```
 
 The condition must be a **converted constant expression of type `bool`** [N4950 §7.7]. If the
-Condition is `true`The discarded statement (if present) is the `else` branch. If the condition is
-`false`The discarded statement is the `then` branch.
+Condition is `true`. The discarded statement (if present) is the `else` branch. If the condition is
+`false`. The discarded statement is the `then` branch.
 
 The critical difference from `if`:
 
@@ -95,7 +95,7 @@ A **discarded statement** is the branch of an `if constexpr` that is not taken [
 Rules for discarded statements are:
 
 1. The discarded statement is not instantiated --- its contents are not checked for validity.
-2. A `return``break`Or `continue` in a discarded statement has no effect.
+2. A `return`, `break` or `continue` in a discarded statement has no effect.
 3. Labels in a discarded statement are still defined and can be the target of `goto` (though this is
    extremely poor practice).
 4. A discarded `constexpr if` within a template is only evaluated if it is in the taken branch.
@@ -131,7 +131,7 @@ int main() {
 
 :::caution
 Does not participate in the One Definition Rule (ODR) for the discarded path. However, the
-Non-discarded path is still subject to all normal C++ rules. Be careful with side effects in
+non-discarded path is still subject to all normal C++ rules. Be careful with side effects in
 `if constexpr` branches --- a discarded branch that would have had a side effect does not execute,
 But a taken branch with a side effect does execute at runtime.
 :::
@@ -139,7 +139,7 @@ But a taken branch with a side effect does execute at runtime.
 ## Type-Safe `to_string` with `if constexpr`
 
 Before `if constexpr`Writing a type-safe string conversion function required either specialization
-Or SFINAE. With `if constexpr`The implementation is straightforward:
+or SFINAE. With `if constexpr`. The implementation is straightforward:
 
 ```cpp
 #include <iostream>
@@ -286,14 +286,14 @@ Output:
 :::tip
 Full/partial template specialization for dispatching based on type properties because it keeps all
 Logic in a single function body, avoids code duplication, and is easier to maintain. Specialization
-Is still necessary when different types require fundamentally different function signatures or
+is still necessary when different types require fundamentally different function signatures or
 Return types.
 :::
 
 ## `constexpr` Functions
 
 A `constexpr` function [N4950 §7.7] is a function that **may** be evaluated at compile time. If all
-Of its arguments are constant expressions, the compiler is required to attempt compile-time
+of its arguments are constant expressions, the compiler is required to attempt compile-time
 Evaluation. If evaluation fails (e.g., because a runtime-dependent value is encountered), the
 Function is evaluated at runtime instead.
 
@@ -342,6 +342,8 @@ int main() {
 
 ### Evolution of `constexpr`
 
+<div class="table-wrap">
+
 | Standard | Restrictions                                                                                           | Example                                                                |
 | -------- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
 | C++11    | Body must be a single `return` statement (with conditionals, loops allowed in the returned expression) | `constexpr int f(int x) { return x * x; }`                             |
@@ -349,6 +351,8 @@ int main() {
 | C++17    | `if constexpr`Inline variables, lambdas in constexpr contexts                                          | `constexpr auto f = [](int x) { return x * x; };`                      |
 | C++20    | Dynamic allocation (`new`/`delete` in constexpr), `std::vector``std::string``union``try`/`catch`       | `constexpr std::vector<int> v{1, 2, 3};`                               |
 | C++23    | `if constexpr` in more contexts, relaxed constexpr evaluation rules                                    | More non-trivial constexpr functions                                   |
+
+</div>
 
 ## `consteval` --- Immediate Functions (C++20)
 
@@ -408,7 +412,7 @@ http
 Compile time and runtime. Use `consteval` when the function is intended only for compile-time
 Computation and should never appear in the generated binary. `consteval` functions can call other
 `consteval` and `constexpr` functions, but a `constexpr` function cannot call a `consteval` function
-With a non-constant argument (because the `consteval` function would fail its compile-time
+with a non-constant argument (because the `consteval` function would fail its compile-time
 Requirement).
 :::
 
@@ -466,13 +470,17 @@ Timeout: 30s
 Updated max connections: 200
 ```
 
-The difference between `const``constexpr`And `constinit`:
+The difference between `const`, `constexpr` and `constinit`:
+
+<div class="table-wrap">
 
 | Specifier   | Compile-Time Init     | Runtime Modifiable | Implies `const` |
 | ----------- | --------------------- | ------------------ | --------------- |
 | `const`     | Required (for static) | No                 | Yes             |
 | `constexpr` | Required              | No                 | Yes             |
 | `constinit` | Required              | Yes                | No              |
+
+</div>
 
 ## Compile-Time Data Structures (C++20)
 
@@ -625,21 +633,7 @@ key: "key'', value: "value'
 4. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-```mermaid
-flowchart TD
-    A[3_If_Constexpr] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Intuition
 
@@ -647,5 +641,3 @@ each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

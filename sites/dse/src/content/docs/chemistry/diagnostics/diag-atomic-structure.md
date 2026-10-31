@@ -49,10 +49,12 @@ from parallel spins in degenerate orbitals). The energy gained from having five 
 with parallel spins in the $3d$ subshell outweighs the small energy difference between $3d$ and $4s$
 orbitals.
 
-(b) When forming $Cr^{3+}$Electrons are removed from the **$4s$ orbital first** (since $4s$ is at a
+(b) When forming $Cr^{3+}$ Electrons are removed from the **$4s$ orbital first** (since $4s$ is at a
 higher energy than $3d$ once the atom is ionised), then from $3d$:
 
-$$Cr^{3+}: [Ar]\,3d^{3}$$
+$$
+Cr^{3+}: [Ar]\,3d^{3}
+$$
 
 (c) Scandium atom: $Sc = [Ar]\,3d^{1}4s^{2}$ (atomic number 21).
 
@@ -79,6 +81,8 @@ electrons.
 
 The table below shows the first six successive ionisation energies of an element $X$.
 
+<div class="table-wrap">
+
 | Ionisation Energy | Value (kJ/mol) |
 | ----------------- | -------------- |
 | 1st               | 578            |
@@ -87,6 +91,8 @@ The table below shows the first six successive ionisation energies of an element
 | 4th               | 11577          |
 | 5th               | 14842          |
 | 6th               | 18379          |
+
+</div>
 
 (a) Identify element $X$ and explain your reasoning. [3 marks]
 
@@ -113,7 +119,7 @@ silicon (16091 kJ/mol). Explain this observation in terms of nuclear charge and 
 
 Reasoning: There are three relatively low ionisation energies (578, 1817, 2745) followed by a large
 jump to 11577. This indicates that $X$ has **three valence electrons** in the outermost shell. The
-electron configuration is $1s^{2}2s^{2}2p^{6}3s^{2}3p^{1}$Which corresponds to aluminium.
+electron configuration is $1s^{2}2s^{2}2p^{6}3s^{2}3p^{1}$ Which corresponds to aluminium.
 
 (b) The first three electrons are removed from the **third shell** ($3s$ and $3p$). The 4th electron
 must be removed from the **second shell** ($2p$), which is much closer to the nucleus and
@@ -197,17 +203,6 @@ electrons closer and making them harder to remove.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Atomic Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Building blocks with rules:** Atoms are like LEGO sets, protons determine the element, electrons determine the chemistry. The periodic table organizes elements by their electron configurations, revealing patterns in reactivity.
@@ -250,7 +245,7 @@ new inner shell. The 4th IE is only 1.4 times the 3rd, meaning the 4th electron 
 shell as the 3rd. Therefore $Y$ has **two valence electrons** and is in **Group 2**.
 
 (b) $Y$ is in Group 2, Period 4: $Y = Ca$ ($Z = 20$). The element to its right is $Sc$
-($Z = 21$Group 3, Period 4).
+($Z = 21$ Group 3, Period 4).
 
 The decrease from Ca ($419$) to Sc ($403$) occurs because:
 
@@ -321,7 +316,9 @@ The ionic/atomic radius depends on the **nuclear charge**:
 
 (b) Increasing first ionisation energy:
 
-$$S^{2-} \lt Cl^{-} \lt Ar \lt K^{+} \lt Ca^{2+}$$
+$$
+S^{2-} \lt Cl^{-} \lt Ar \lt K^{+} \lt Ca^{2+}
+$$
 
 All are isoelectronic, so the nuclear charge determines how tightly the outermost electron is held.
 Higher nuclear charge = higher ionisation energy.

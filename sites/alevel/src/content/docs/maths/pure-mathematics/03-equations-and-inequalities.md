@@ -21,17 +21,9 @@ categories:
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[03 Equations And Inequalities] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Board Coverage
+
+<div class="table-wrap">
 
 | Board      | Paper   | Notes                                       |
 | ---------- | ------- | ------------------------------------------- |
@@ -40,10 +32,12 @@ flowchart TD
 | OCR (A)    | Paper 1 | Set notation for solutions                  |
 | CIE (9709) | P1      | Simultaneous equations, inequalities        |
 
+</div>
+
 ## 1. Linear Simultaneous Equations
 
 We consider systems of two equations in two unknowns. The standard methods are substitution and
-Elimination.
+elimination.
 
 **Theorem.** The system
 
@@ -73,7 +67,7 @@ $$
 
 Subtracting: $(a_1 b_2 - a_2 b_1)x = c_1 b_2 - c_2 b_1$.
 
-If $a_1 b_2 - a_2 b_1 \neq 0$We obtain a unique $x$. Similarly for $y$.
+If $a_1 b_2 - a_2 b_1 \neq 0$ We obtain a unique $x$. Similarly for $y$.
 
 If $a_1 b_2 - a_2 b_1 = 0$ Then either $c_1 b_2 - c_2 b_1 = 0$ (infinitely many solutions) or
 $c_1 b_2 - c_2 b_1 \neq 0$ (no solution). $\blacksquare$
@@ -147,7 +141,9 @@ X^2 + 4x^2 - 4x + 1 &= 25 \\
 \end{aligned}
 $$
 
-$$x = \frac{4 \pm \sqrt{16 + 480}}{10} = \frac{4 \pm \sqrt{496}}{10} = \frac{4 \pm 4\sqrt{31}}{10} = \frac{2 \pm 2\sqrt{31}}{5}$$
+$$
+x = \frac{4 \pm \sqrt{16 + 480}}{10} = \frac{4 \pm \sqrt{496}}{10} = \frac{4 \pm 4\sqrt{31}}{10} = \frac{2 \pm 2\sqrt{31}}{5}
+$$
 
 $\Delta = 496 > 0$ So the line intersects the circle at two points.
 
@@ -164,8 +160,8 @@ The rules for manipulating inequalities are the same as for equations, with one 
 
 **Theorem (Order-Reversing Property).** If $a < b$ and $c < 0$ Then $ac > bc$.
 
-_Proof._ From $a < b$We have $b - a > 0$. Since $c < 0$ and $b - a > 0$: $c(b - a) < 0$ (product Of
-positive and negative). So $cb - ca < 0$Giving $ca > cb$. $\blacksquare$
+_Proof._ From $a < b$ We have $b - a > 0$. Since $c < 0$ and $b - a > 0$: $c(b - a) < 0$ (product Of
+positive and negative). So $cb - ca < 0$ Giving $ca > cb$. $\blacksquare$
 
 **Corollary.** Multiplying or dividing both sides of an inequality by a negative number reverses the
 Inequality.
@@ -181,7 +177,7 @@ See [Quadratics](/maths/pure-mathematics/02-quadratics/), Section 6.
 ### 3.3 Inequalities Involving Fractions
 
 When an inequality involves fractions, multiply through by the square of the denominator (which is
-Always non-negative, so the inequality direction is preserved) or use a sign chart.
+always non-negative, so the inequality direction is preserved) or use a sign chart.
 
 <details>
 <summary>Example</summary>
@@ -199,11 +195,15 @@ Critical values: $x = 4$ (zero of numerator) and $x = -3$ (zero of denominator, 
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval     | $x - 4$ | $x + 3$ | Quotient |
 | ------------ | ------- | ------- | -------- |
 | $x < -3$     | $-$     | $-$     | $+$      |
 | $-3 < x < 4$ | $-$     | $+$     | $-$      |
 | $x > 4$      | $+$     | $+$     | $+$      |
+
+</div>
 
 The quotient is $\geq 0$ when $x < -3$ or $x \geq 4$.
 
@@ -271,7 +271,7 @@ $a + c < b + d$. $\blacksquare$
 
 If $a < b$ and $c > 0$ Then $ac < bc$.
 
-_Proof._ $b - a > 0$ and $c > 0$. Product: $c(b - a) > 0$ So $cb - ca > 0$Giving $ac < bc$.
+_Proof._ $b - a > 0$ and $c > 0$. Product: $c(b - a) > 0$ So $cb - ca > 0$ Giving $ac < bc$.
 $\blacksquare$
 
 ### 5.4 Reciprocals Reverse Order (for Positive Numbers)
@@ -279,7 +279,7 @@ $\blacksquare$
 If $0 < a < b$ Then $\frac{1}{a} > \frac{1}{b}$.
 
 _Proof._ Since $a, b > 0$ and $a < b$: $\frac{1}{a} - \frac{1}{b} = \frac{b - a}{ab}$. Since
-$b - a > 0$ and $ab > 0$The result is positive. So $\frac{1}{a} > \frac{1}{b}$. $\blacksquare$
+$b - a > 0$ and $ab > 0$ The result is positive. So $\frac{1}{a} > \frac{1}{b}$. $\blacksquare$
 
 _Intuition._ Consider $a = 2$$b = 4$. Then $\frac{1}{2} > \frac{1}{4}$. The smaller the positive
 Number, the larger its reciprocal, like how slicing a cake into more pieces makes each piece
@@ -293,10 +293,12 @@ Smaller.
 
 **Theorem (Factor Theorem).** If $f(a) = 0$ Then $(x - a)$ is a factor of $f(x)$.
 
-_Proof._ By polynomial division, for any polynomial $f(x)$ and constant $a$There exist a quotient
+_Proof._ By polynomial division, for any polynomial $f(x)$ and constant $a$ There exist a quotient
 Polynomial $Q(x)$ and a constant remainder $R$ such that:
 
-$$f(x) = (x - a)Q(x) + R$$
+$$
+f(x) = (x - a)Q(x) + R
+$$
 
 Setting $x = a$: $f(a) = (a - a)Q(a) + R = R$.
 
@@ -305,14 +307,14 @@ $\blacksquare$
 
 ### 6.2 The Remainder Theorem
 
-**Theorem (Remainder Theorem).** When a polynomial $f(x)$ is divided by $(x - a)$The remainder
+**Theorem (Remainder Theorem).** When a polynomial $f(x)$ is divided by $(x - a)$ The remainder
 Equals $f(a)$.
 
-_Proof._ From the division identity $f(x) = (x - a)Q(x) + R$Substituting $x = a$ gives $f(a) = R$.
+_Proof._ From the division identity $f(x) = (x - a)Q(x) + R$ Substituting $x = a$ gives $f(a) = R$.
 $\blacksquare$
 
 The remainder theorem provides a quick way to evaluate $f(a)$: perform polynomial division of $f(x)$
-By $(x - a)$ and read off the constant remainder, avoiding full expansion.
+by $(x - a)$ and read off the constant remainder, avoiding full expansion.
 
 ### 6.3 Factorisation Using the Factor Theorem
 
@@ -333,7 +335,9 @@ $f(1) = 1 - 6 + 11 - 6 = 0$. So $(x - 1)$ is a factor.
 
 Divide $x^3 - 6x^2 + 11x - 6$ by $(x - 1)$:
 
-$$x^3 - 6x^2 + 11x - 6 = (x - 1)(x^2 - 5x + 6) = (x - 1)(x - 2)(x - 3)$$
+$$
+x^3 - 6x^2 + 11x - 6 = (x - 1)(x^2 - 5x + 6) = (x - 1)(x - 2)(x - 3)
+$$
 
 </details>
 
@@ -348,7 +352,9 @@ $f(1) = 2 + 1 - 5 + 2 = 0$. So $(x - 1)$ is a factor.
 
 Divide by $(x - 1)$:
 
-$$2x^3 + x^2 - 5x + 2 = (x - 1)(2x^2 + 3x - 2)$$
+$$
+2x^3 + x^2 - 5x + 2 = (x - 1)(2x^2 + 3x - 2)
+$$
 
 Factorise the quadratic: $2x^2 + 3x - 2 = (2x - 1)(x + 2)$.
 
@@ -357,7 +363,7 @@ So $f(x) = (x - 1)(2x - 1)(x + 2)$.
 </details>
 
 :::tip
-$f(x) = x^n + \cdots + c$The possible rational roots are $\pm 1, \pm 2, \ldots$ (factors of $c$).
+$f(x) = x^n + \cdots + c$ The possible rational roots are $\pm 1, \pm 2, \ldots$ (factors of $c$).
 :::
 
 <hr />
@@ -373,13 +379,13 @@ For a system of three equations in three unknowns, the elimination method extend
 3. Back-substitute to recover all three variables.
 
 This process is known as **Gaussian elimination**. It can be systematised using augmented matrices
-And three elementary row operations: swapping rows, multiplying a row by a non-zero constant, and
-Adding a multiple of one row to another.
+and three elementary row operations: swapping rows, multiplying a row by a non-zero constant, and
+adding a multiple of one row to another.
 
 A 3x3 system may have a unique solution, no solution, or infinitely many solutions, depending on the
-Determinant of the coefficient matrix (analogous to the 2x2 case in Section 1).
+determinant of the coefficient matrix (analogous to the 2x2 case in Section 1).
 
-### 7.2 Cramer"s Rule for 3x3 Systems
+### 7.2 Cramer's Rule for 3x3 Systems
 
 For the system:
 
@@ -393,20 +399,26 @@ $$
 
 Define the coefficient determinant:
 
-$$D = \begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix}$$
+$$
+D = \begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix}
+$$
 
-If $D \neq 0$The unique solution is:
+If $D \neq 0$ The unique solution is:
 
-$$x = \frac{D_x}{D}, \quad y = \frac{D_y}{D}, \quad z = \frac{D_z}{D}$$
+$$
+x = \frac{D_x}{D}, \quad y = \frac{D_y}{D}, \quad z = \frac{D_z}{D}
+$$
 
 Where $D_x$ is formed by replacing the first column of $D$ with $(d_1, d_2, d_3)^T$$D_y$ by
-Replacing the second column, and $D_z$ by replacing the third.
+replacing the second column, and $D_z$ by replacing the third.
 
 ### 7.3 3x3 Determinant Expansion
 
 The determinant of a 3x3 matrix expands along the first row as:
 
-$$\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = a_1 \begin{vmatrix} b_2 & c_2 \\ b_3 & c_3 \end{vmatrix} - b_1 \begin{vmatrix} a_2 & c_2 \\ a_3 & c_3 \end{vmatrix} + c_1 \begin{vmatrix} a_2 & b_2 \\ a_3 & b_3 \end{vmatrix}$$
+$$
+\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = a_1 \begin{vmatrix} b_2 & c_2 \\ b_3 & c_3 \end{vmatrix} - b_1 \begin{vmatrix} a_2 & c_2 \\ a_3 & c_3 \end{vmatrix} + c_1 \begin{vmatrix} a_2 & b_2 \\ a_3 & b_3 \end{vmatrix}
+$$
 
 Each 2x2 minor evaluates as $\begin{vmatrix} p & q \\ r & s \end{vmatrix} = ps - qr$.
 
@@ -463,9 +475,9 @@ Solution: $x = \frac{1}{2}, \; y = \frac{5}{2}, \; z = \frac{5}{2}$.
 
 Two principal approaches:
 
-1. **Case analysis:** Split into $f(x) \geq 0$ and $f(x) \lt 0$Replacing $|f(x)|$ with $f(x)$ or
+1. **Case analysis:** Split into $f(x) \geq 0$ and $f(x) \lt 0$ Replacing $|f(x)|$ with $f(x)$ or
    $-f(x)$ respectively. Solve each case and take the union.
-2. **Squaring:** Since $|f(x)|^2 = f(x)^2$The inequality $|f(x)| \lt g(x)$ becomes
+2. **Squaring:** Since $|f(x)|^2 = f(x)^2$ The inequality $|f(x)| \lt g(x)$ becomes
    $f(x)^2 \lt g(x)^2$ provided $g(x) \geq 0$. This is often cleaner when both sides are
    non-negative.
 
@@ -473,17 +485,17 @@ Two principal approaches:
 <summary>Example</summary>
 Solve $|2x - 1| \lt x + 3$.
 
-Since $|2x - 1| \geq 0$We require $x + 3 \gt 0$I.e. $x \gt -3$.
+Since $|2x - 1| \geq 0$ We require $x + 3 \gt 0$ I.e. $x \gt -3$.
 
-**Case 1:** $2x - 1 \geq 0$I.e. $x \geq \frac{1}{2}$.
+**Case 1:** $2x - 1 \geq 0$ I.e. $x \geq \frac{1}{2}$.
 
-Then $|2x - 1| = 2x - 1$ So $2x - 1 \lt x + 3$Giving $x \lt 4$.
+Then $|2x - 1| = 2x - 1$ So $2x - 1 \lt x + 3$ Giving $x \lt 4$.
 
 Combined with $x \geq \frac{1}{2}$: $\frac{1}{2} \leq x \lt 4$.
 
-**Case 2:** $2x - 1 \lt 0$I.e. $x \lt \frac{1}{2}$.
+**Case 2:** $2x - 1 \lt 0$ I.e. $x \lt \frac{1}{2}$.
 
-Then $|2x - 1| = 1 - 2x$ So $1 - 2x \lt x + 3$Giving $-2 \lt 3x$I.e. $x \gt -\frac{2}{3}$.
+Then $|2x - 1| = 1 - 2x$ So $1 - 2x \lt x + 3$ Giving $-2 \lt 3x$ I.e. $x \gt -\frac{2}{3}$.
 
 Combined with $x \lt \frac{1}{2}$: $-\frac{2}{3} \lt x \lt \frac{1}{2}$.
 
@@ -495,13 +507,13 @@ Combined with $x \lt \frac{1}{2}$: $-\frac{2}{3} \lt x \lt \frac{1}{2}$.
 <summary>Example</summary>
 Solve $|x^2 - 4| \gt 5$.
 
-**Case 1:** $x^2 - 4 \geq 0$I.e. $|x| \geq 2$.
+**Case 1:** $x^2 - 4 \geq 0$ I.e. $|x| \geq 2$.
 
-Then $x^2 - 4 \gt 5$Giving $x^2 \gt 9$ So $x \gt 3$ or $x \lt -3$.
+Then $x^2 - 4 \gt 5$ Giving $x^2 \gt 9$ So $x \gt 3$ or $x \lt -3$.
 
-**Case 2:** $x^2 - 4 \lt 0$I.e. $-2 \lt x \lt 2$.
+**Case 2:** $x^2 - 4 \lt 0$ I.e. $-2 \lt x \lt 2$.
 
-Then $-(x^2 - 4) \gt 5$Giving $4 - x^2 \gt 5$I.e. $x^2 \lt -1$.
+Then $-(x^2 - 4) \gt 5$ Giving $4 - x^2 \gt 5$ I.e. $x^2 \lt -1$.
 
 No real solution from this case.
 
@@ -544,7 +556,9 @@ In all four cases, $|ab| = |a||b|$. $\blacksquare$
 
 **Theorem (Triangle Inequality).** For all real $a$ and $b$:
 
-$$|a + b| \leq |a| + |b|$$
+$$
+|a + b| \leq |a| + |b|
+$$
 
 _Proof._ We split into cases based on the signs of $a$ and $b$.
 
@@ -556,12 +570,16 @@ Then $a + b \geq 0$ So $|a + b| = a + b = |a| + |b|$. Equality holds.
 
 Sub-case (i): $a + b \geq 0$. Then $|a + b| = a + b$. Since $b \lt 0$ implies $b \lt -b = |b|$:
 
-$$|a + b| = a + b \lt a + |b| = |a| + |b|$$
+$$
+|a + b| = a + b \lt a + |b| = |a| + |b|
+$$
 
 Sub-case (ii): $a + b \lt 0$. Then $|a + b| = -(a + b) = -a - b$. Since $a \geq 0$ implies
 $-a \leq a = |a|$:
 
-$$|a + b| = -a + (-b) = -a + |b| \leq |a| + |b|$$
+$$
+|a + b| = -a + (-b) = -a + |b| \leq |a| + |b|
+$$
 
 **Case 3:** $a \lt 0, \; b \geq 0$. Symmetric to Case 2 (swap $a$ and $b$).
 
@@ -593,7 +611,9 @@ X^2 + 169 - 78x + 9x^2 &= 25 \\
 \end{aligned}
 $$
 
-$$x = \frac{39 \pm \sqrt{1521 - 1440}}{10} = \frac{39 \pm \sqrt{81}}{10} = \frac{39 \pm 9}{10}$$
+$$
+x = \frac{39 \pm \sqrt{1521 - 1440}}{10} = \frac{39 \pm \sqrt{81}}{10} = \frac{39 \pm 9}{10}
+$$
 
 $x = \frac{48}{10} = \frac{24}{5}$: $y = 13 - \frac{72}{5} = \frac{65 - 72}{5} = -\frac{7}{5}$.
 
@@ -610,17 +630,27 @@ Solutions: $(3, 4)$ and $\left(\frac{24}{5}, -\frac{7}{5}\right)$.
 
 <details>
 <summary>Solution</summary>
-$$\frac{3}{x - 1} - \frac{2}{x + 1} > 0$$
+$$
+\frac{3}{x - 1} - \frac{2}{x + 1} > 0
+$$
 
-$$\frac{3(x + 1) - 2(x - 1)}{(x - 1)(x + 1)} > 0$$
+$$
+\frac{3(x + 1) - 2(x - 1)}{(x - 1)(x + 1)} > 0
+$$
 
-$$\frac{3x + 3 - 2x + 2}{(x - 1)(x + 1)} > 0$$
+$$
+\frac{3x + 3 - 2x + 2}{(x - 1)(x + 1)} > 0
+$$
 
-$$\frac{x + 5}{(x - 1)(x + 1)} > 0$$
+$$
+\frac{x + 5}{(x - 1)(x + 1)} > 0
+$$
 
 Critical values: $x = -5, -1, 1$.
 
 Sign chart:
+
+<div class="table-wrap">
 
 | Interval      | $x + 5$ | $x - 1$ | $x + 1$ | Quotient |
 | ------------- | ------- | ------- | ------- | -------- |
@@ -628,6 +658,8 @@ Sign chart:
 | $-5 < x < -1$ | $+$     | $-$     | $-$     | $+$      |
 | $-1 < x < 1$  | $+$     | $-$     | $+$     | $-$      |
 | $x > 1$       | $+$     | $+$     | $+$     | $+$      |
+
+</div>
 
 Solution: $-5 < x < -1$ or $x > 1$.
 
@@ -642,7 +674,9 @@ Solution: $-5 < x < -1$ or $x > 1$.
 <summary>Solution</summary>
 From (1): $x = 1 - 2y$. Substitute into (2):
 
-$$2(1 - 2y) + 4y = 3 \implies 2 - 4y + 4y = 3 \implies 2 = 3$$
+$$
+2(1 - 2y) + 4y = 3 \implies 2 - 4y + 4y = 3 \implies 2 = 3
+$$
 
 This is a contradiction, so there is no solution.
 
@@ -662,7 +696,9 @@ $(x - 5)(x + 3) \leq 0$.
 
 The parabola opens upwards. It is $\leq 0$ between and including the roots:
 
-$$-3 \leq x \leq 5$$
+$$
+-3 \leq x \leq 5
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Quadratic inequalities](/maths/pure-mathematics/02-quadratics/)
@@ -673,23 +709,35 @@ $$-3 \leq x \leq 5$$
 
 <details>
 <summary>Solution</summary>
-$$\frac{1}{x} - \frac{1}{x - 2} \leq 0$$
+$$
+\frac{1}{x} - \frac{1}{x - 2} \leq 0
+$$
 
-$$\frac{(x - 2) - x}{x(x - 2)} \leq 0$$
+$$
+\frac{(x - 2) - x}{x(x - 2)} \leq 0
+$$
 
-$$\frac{-2}{x(x - 2)} \leq 0$$
+$$
+\frac{-2}{x(x - 2)} \leq 0
+$$
 
-$$\frac{2}{x(x - 2)} \geq 0$$
+$$
+\frac{2}{x(x - 2)} \geq 0
+$$
 
 Critical values: $x = 0$, $x = 2$.
 
 Sign chart for $x(x - 2)$:
+
+<div class="table-wrap">
 
 | Interval    | $x$ | $x - 2$ | Product |
 | ----------- | --- | ------- | ------- |
 | $x < 0$     | $-$ | $-$     | $+$     |
 | $0 < x < 2$ | $+$ | $-$     | $-$     |
 | $x > 2$     | $+$ | $+$     | $+$     |
+
+</div>
 
 So $\frac{2}{x(x-2)} \geq 0$ when $x < 0$ or $x > 2$.
 
@@ -722,11 +770,11 @@ Vertices: $(0, 0)$$(4, 0)$$(0, 4)$ And $\left(\frac{8}{3}, \frac{8}{3}\right)$.
 
 <details>
 <summary>Solution</summary>
-Since $a > b > 0$We have $a - b > 0$ and $a + b > 0$.
+Since $a > b > 0$ We have $a - b > 0$ and $a + b > 0$.
 
 $a^2 - b^2 = (a - b)(a + b)$.
 
-Both factors are positive, so their product is positive: $a^2 - b^2 > 0$Hence $a^2 > b^2$.
+Both factors are positive, so their product is positive: $a^2 - b^2 > 0$ Hence $a^2 > b^2$.
 $\blacksquare$
 
 </details>
@@ -750,7 +798,7 @@ Dividing by 2: $-1 \leq x \leq 4$.
 <hr />
 
 **Problem 9.** Given that $x^2 + px + q = 0$ has roots $\alpha$ and $\beta$ And $\alpha + \beta = 6$
-and $\alpha\beta = 8$Find $p$ and $q$.
+and $\alpha\beta = 8$ Find $p$ and $q$.
 
 <details>
 <summary>Solution</summary>
@@ -758,7 +806,7 @@ By Viète's formulas (sum and product of roots): $-p = 6$ and $q = 8$.
 
 So $p = -6$$q = 8$.
 
-Verification: $x^2 - 6x + 8 = (x - 2)(x - 4) = 0$Giving roots $2$ and $4$ with sum $6$ and product
+Verification: $x^2 - 6x + 8 = (x - 2)(x - 4) = 0$ Giving roots $2$ and $4$ with sum $6$ and product
 $8$. ✓
 
 </details>
@@ -794,11 +842,15 @@ Find $a$ and $b$. Hence fully factorise $f(x)$.
 <summary>Solution</summary>
 Since $(x - 2)$ is a factor, $f(2) = 0$ by the factor theorem:
 
-$$f(2) = 8 + 4a + 2b - 12 = 4a + 2b - 4 = 0 \implies 2a + b = 2 \quad \mathrm{--- (i)}$$
+$$
+f(2) = 8 + 4a + 2b - 12 = 4a + 2b - 4 = 0 \implies 2a + b = 2 \quad \mathrm{--- (i)}
+$$
 
 Also $f(1) = -6$:
 
-$$f(1) = 1 + a + b - 12 = a + b - 11 = -6 \implies a + b = 5 \quad \mathrm{--- (ii)}$$
+$$
+f(1) = 1 + a + b - 12 = a + b - 11 = -6 \implies a + b = 5 \quad \mathrm{--- (ii)}
+$$
 
 Subtracting (i) from (ii): $-a = 3$ So $a = -3$.
 
@@ -809,9 +861,11 @@ So $f(x) = x^3 - 3x^2 + 8x - 12$.
 Divide by $(x - 2)$: $f(x) = (x - 2)(x^2 - x + 6)$.
 
 The discriminant of $x^2 - x + 6$ is $\Delta = 1 - 24 = -23 \lt 0$ So no further real factorisation
-Is possible.
+is possible.
 
-$$f(x) = (x - 2)(x^2 - x + 6)$$
+$$
+f(x) = (x - 2)(x^2 - x + 6)
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Polynomial equations](#6-polynomial-equations)
@@ -840,13 +894,19 @@ $$
 
 From (4): $x = 2y - 3$. Substitute into (5):
 
-$$2(2y - 3) + 3y = 11 \implies 7y - 6 = 11 \implies y = \frac{17}{7}$$
+$$
+2(2y - 3) + 3y = 11 \implies 7y - 6 = 11 \implies y = \frac{17}{7}
+$$
 
-$$x = 2 \cdot \frac{17}{7} - 3 = \frac{34 - 21}{7} = \frac{13}{7}$$
+$$
+x = 2 \cdot \frac{17}{7} - 3 = \frac{34 - 21}{7} = \frac{13}{7}
+$$
 
 **Step 3:** Find $z$ from (1):
 
-$$z = 6 - x - y = 6 - \frac{13}{7} - \frac{17}{7} = \frac{42 - 30}{7} = \frac{12}{7}$$
+$$
+z = 6 - x - y = 6 - \frac{13}{7} - \frac{17}{7} = \frac{42 - 30}{7} = \frac{12}{7}
+$$
 
 Solution: $x = \frac{13}{7}, \; y = \frac{17}{7}, \; z = \frac{12}{7}$.
 
@@ -859,24 +919,24 @@ Solution: $x = \frac{13}{7}, \; y = \frac{17}{7}, \; z = \frac{12}{7}$.
 
 <details>
 <summary>Solution</summary>
-**Case 1:** $x^2 - 3x + 1 \geq 0$I.e. $x \leq \frac{3 - \sqrt{5}}{2}$ or $x \geq \frac{3 + \sqrt{5}}{2}$.
+**Case 1:** $x^2 - 3x + 1 \geq 0$ I.e. $x \leq \frac{3 - \sqrt{5}}{2}$ or $x \geq \frac{3 + \sqrt{5}}{2}$.
 
-Then $x^2 - 3x + 1 \geq 2$Giving $x^2 - 3x - 1 \geq 0$.
+Then $x^2 - 3x + 1 \geq 2$ Giving $x^2 - 3x - 1 \geq 0$.
 
 Roots: $x = \frac{3 \pm \sqrt{13}}{2}$.
 
 So $x \leq \frac{3 - \sqrt{13}}{2}$ or $x \geq \frac{3 + \sqrt{13}}{2}$.
 
-Since $\sqrt{13} \gt \sqrt{5}$The condition $x^2 - 3x + 1 \geq 0$ is automatically satisfied by
-These ranges.
+Since $\sqrt{13} \gt \sqrt{5}$ The condition $x^2 - 3x + 1 \geq 0$ is automatically satisfied by
+these ranges.
 
-**Case 2:** $x^2 - 3x + 1 \lt 0$I.e.
+**Case 2:** $x^2 - 3x + 1 \lt 0$ I.e.
 $\frac{3 - \sqrt{5}}{2} \lt x \lt \frac{3 + \sqrt{5}}{2}$.
 
-Then $-(x^2 - 3x + 1) \geq 2$Giving $x^2 - 3x + 3 \leq 0$.
+Then $-(x^2 - 3x + 1) \geq 2$ Giving $x^2 - 3x + 3 \leq 0$.
 
 Discriminant: $\Delta = 9 - 12 = -3 \lt 0$. Since the parabola opens upward, $x^2 - 3x + 3 \gt 0$
-For all real $x$. No solution from this case.
+for all real $x$. No solution from this case.
 
 **Solution:** $x \leq \frac{3 - \sqrt{13}}{2}$ or
 $x \geq \frac{3 + \sqrt{13}}{2}$.
@@ -899,13 +959,19 @@ The region is bounded by four lines. Find the vertices:
 - $(3, 0)$: intersection of $y = 0$ and $x + y = 3$.
 
 The region is a trapezoid. Using the shoelace formula with vertices $(0, 3), (0, 6), (4, 0), (3, 0)$
-In order:
+in order:
 
-$$\mathrm{Area} = \frac{1}{2}\left| \sum_{i} x_i y_{i+1} - \sum_{i} y_i x_{i+1} \right|$$
+$$
+\mathrm{Area} = \frac{1}{2}\left| \sum_{i} x_i y_{i+1} - \sum_{i} y_i x_{i+1} \right|
+$$
 
-$$= \frac{1}{2}\left| (0 \cdot 6 + 0 \cdot 0 + 4 \cdot 0 + 3 \cdot 3) - (3 \cdot 0 + 6 \cdot 4 + 0 \cdot 3 + 0 \cdot 0) \right|$$
+$$
+= \frac{1}{2}\left| (0 \cdot 6 + 0 \cdot 0 + 4 \cdot 0 + 3 \cdot 3) - (3 \cdot 0 + 6 \cdot 4 + 0 \cdot 3 + 0 \cdot 0) \right|
+$$
 
-$$= \frac{1}{2}\left| 9 - 24 \right| = \frac{15}{2}$$
+$$
+= \frac{1}{2}\left| 9 - 24 \right| = \frac{15}{2}
+$$
 
 </details>
 <b>If you get this wrong, revise:</b> [Graphical inequalities](#4-graphical-inequalities)
@@ -926,13 +992,13 @@ Subtracting: $y^2 - x^2 = 5$ So $(y - x)(y + x) = 5$.
 
 **Case 1:** $x + y = 5$.
 
-Then $(y - x)(5) = 5$Giving $y - x = 1$.
+Then $(y - x)(5) = 5$ Giving $y - x = 1$.
 
 From $x + y = 5$ and $y - x = 1$: adding gives $2y = 6$ So $y = 3$, $x = 2$.
 
 **Case 2:** $x + y = -5$.
 
-Then $(y - x)(-5) = 5$Giving $y - x = -1$.
+Then $(y - x)(-5) = 5$ Giving $y - x = -1$.
 
 From $x + y = -5$ and $y - x = -1$: adding gives $2y = -6$ So $y = -3$, $x = -2$.
 

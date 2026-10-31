@@ -17,17 +17,6 @@ tableOfContents: false
 
 ## Plant Biology, Diagnostic Tests
 
-
-```mermaid
-flowchart TD
-    A[Diag Plant Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Plant biology is like studying solar-powered factories, plants convert light energy into chemical energy through photosynthesis:** Plant structure (roots, stems, leaves) is optimized for resource capture, water, minerals, light, and CO₂
@@ -49,7 +38,7 @@ NADPH has $\Delta G \approx 220\ \text{kJ mol}^{-1}$.
 
 **Solution:**
 
-$E = \frac{hc}{\lambda}$Where
+$E = \frac{hc}{\lambda}$ Where
 $h = 6.626 \times 10^{-34}\ \text{J s}$, $c = 2.998 \times 10^8\ \text{m s}^{-1}$.
 
 PSII ($680\ \text{nm}$):
@@ -106,7 +95,7 @@ $200 \times 400 \times 10^{-12} = 8 \times 10^{-8}\ \text{m}^2\text{ mm}^{-2}$.
 Per $\text{cm}^2$ ($= 100\ \text{mm}^2$): total pore area
 $= 100 \times 8 \times 10^{-8} = 8 \times 10^{-6}\ \text{m}^2$.
 
-Using Fick"s law: $J = D \times A \times \frac{\Delta c}{\Delta x}$
+Using Fick's law: $J = D \times A \times \frac{\Delta c}{\Delta x}$
 
 $J = (2.4 \times 10^{-5}) \times (8 \times 10^{-6}) \times \frac{23 - 10}{0.001}$
 
@@ -304,10 +293,14 @@ Crossing two F1 plants (Rr $\times$ Rr):
 
 F2 Punnett square:
 
+<div class="table-wrap">
+
 |     | R        | r        |
 | --- | -------- | -------- |
 | R   | RR (1/4) | Rr (1/4) |
 | r   | Rr (1/4) | rr (1/4) |
+
+</div>
 
 F2 genotype ratio: 1 RR : 2 Rr : 1 rr F2 phenotype ratio: 3 red : 1 white
 

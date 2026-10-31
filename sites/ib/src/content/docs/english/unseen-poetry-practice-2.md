@@ -36,6 +36,8 @@ This page provides a detailed analysis of Sylvia Plath's "Mirror" as practice fo
 
 ### 1.1 Key Contextual Information
 
+<div class="table-wrap">
+
 | Element | Detail |
 | --------- | -------- |
 | Poet | Sylvia Plath (1932--1963) |
@@ -43,6 +45,8 @@ This page provides a detailed analysis of Sylvia Plath's "Mirror" as practice fo
 | Form | Free verse, two stanzas (nine and five lines) |
 | Speaker | A mirror (first-person personification) |
 | Subject | A woman's confrontation with ageing |
+
+</div>
 
 ### 1.2 IB Relevance
 
@@ -164,6 +168,8 @@ The moon is described as "a god" or "an intermediate," and the lake is said to b
 
 ### 4.1 Structural Differences
 
+<div class="table-wrap">
+
 | Feature | Heaney's "Digging" | Plath's "Mirror" |
 | --------- | -------------------- | -------------------- |
 | Structure | Circular (opens and ends with the pen) | Linear (moves from the mirror's self-description to the woman's transformation) |
@@ -171,6 +177,8 @@ The moon is described as "a god" or "an intermediate," and the lake is said to b
 | Tone | Nostalgic, contemplative, ultimately resolved | Detached, clinical, increasingly uneasy |
 | Imagery | Tactile, sensory, grounded in physical labour | Visual, abstract, grounded in psychological anxiety |
 | Central metaphor | Digging as creative act | The mirror as site of self-confrontation |
+
+</div>
 
 ### 4.2 Shared Concerns
 
@@ -201,12 +209,16 @@ When comparing unseen poems in Paper 1 (HL), candidates should:
 
 ### 5.1 Assessment Objectives
 
+<div class="table-wrap">
+
 | Objective | How This Response Addresses It |
 | ----------- | ------------------------------- |
 | AO1: Understanding | Demonstrates comprehension of the mirror's personification and the poem's psychological complexity |
 | AO2: Analysis | Explains how imagery (lake, fish, darkness) and irony produce meaning |
 | AO3: Evaluation | Assesses the significance of the poem's unresolved ending and the gap between the mirror's claims and its behaviour |
 | AO4: Communication | Presents a coherent argument with embedded quotations and precise literary terminology |
+
+</div>
 
 ### 5.2 Marking Criteria Notes
 

@@ -15,7 +15,7 @@ Static analysis predicts defects by parsing source code. **Runtime Sanitizers** 
 Monitoring the program during execution.
 
 Sanitizers utilize **Compile-Time Instrumentation**. The compiler injects checking instructions
-Around memory accesses, atomic operations, and arithmetic logic. A runtime library then tracks the
+around memory accesses, atomic operations, and arithmetic logic. A runtime library then tracks the
 State of memory and threads, reporting violations immediately (often halting execution).
 
 ## The Sanitizer Taxonomy
@@ -144,12 +144,16 @@ enable_sanitizers(App)
 
 Not all sanitizers are available on all platforms or compilers.
 
+<div class="table-wrap">
+
 | Sanitizer | Linux (GCC/Clang) | macOS (Apple Clang) | Windows (MSVC)          | Windows (Clang-CL)       |
 | :-------- | :---------------- | :------------------ | :---------------------- | :----------------------- |
 | **ASan**  | Fully Supported   | Fully Supported     | Supported (VS 2019+)    | Supported                |
 | **TSan**  | Fully Supported   | Fully Supported     | Not Supported           | Supported (Experimental) |
 | **UBSan** | Fully Supported   | Fully Supported     | Runtime Checks (`/RTC`) | Fully Supported          |
 | **MSan**  | Clang Only        | Not Supported       | Not Supported           | Not Supported            |
+
+</div>
 
 ### Windows MSVC Specifics
 
@@ -248,13 +252,19 @@ READ of size 4 at 0x...
 ASan maps every 8 bytes of application memory to 1 byte of **shadow memory**. The shadow byte
 Encodes the accessibility state of the corresponding 8-byte region:
 
+<div class="table-wrap">
+
 | Shadow Byte Value | Meaning                                         |
 | ----------------- | ----------------------------------------------- |
 | `0x00`            | All 8 bytes are accessible                      |
 | `0x01`–`0x07`     | First N bytes are accessible, rest are poisoned |
 | Negative values   | Entire region is poisoned (different meanings)  |
 
+</div>
+
 **Poisoning types** are encoded in the negative shadow byte values:
+
+<div class="table-wrap">
 
 | Shadow Value | Meaning                                   |
 | ------------ | ----------------------------------------- |
@@ -265,8 +275,10 @@ Encodes the accessibility state of the corresponding 8-byte region:
 | `0xfe`       | Stack memory after return                 |
 | `0xff`       | Stack redzone (padding between variables) |
 
+</div>
+
 When an instrumented memory access occurs, the compiler generates code to check the shadow byte
-Before performing the actual load or store. If the shadow byte indicates the access is poisoned, the
+before performing the actual load or store. If the shadow byte indicates the access is poisoned, the
 ASan runtime reports the error and aborts.
 
 ```cpp
@@ -414,6 +426,8 @@ int main() \{
 
 UBSan can detect a wide range of undefined behavior. Key checks include:
 
+<div class="table-wrap">
+
 | Check                       | Undefined Behavior                      | Example                                  |
 | --------------------------- | --------------------------------------- | ---------------------------------------- |
 | `signed-integer-overflow`   | Signed integer overflow                 | `INT_MAX + 1`                            |
@@ -426,6 +440,8 @@ UBSan can detect a wide range of undefined behavior. Key checks include:
 | `enum`                      | Loading value outside enum range        | Cast 42 to enum with range 0-10          |
 | `float-cast-overflow`       | Cast float to integer when out of range | `(int)1e30`                              |
 | `object-size`               | Accessing past end of object            | Array OOB via pointer arithmetic         |
+
+</div>
 
 ### Enabling Specific UBSan Checks
 
@@ -568,17 +584,6 @@ public:
 ASan adds 2x memory overhead (shadow memory) and 2x CPU overhead. TSan adds 5-15x CPU Overhead and
 5-10x memory overhead. Never run sanitizers in production or in performance benchmarks. Use them
 exclusively in development and CI.
-
-
-```mermaid
-flowchart TD
-    A[4_Sanitizerx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

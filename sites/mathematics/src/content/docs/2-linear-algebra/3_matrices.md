@@ -5,7 +5,7 @@ title: "Matrices"
 tags:
   - Mathematics
   - University
-description: 'An matrix over is a rectangular array of elements from Arranged in rows and columns. The set of all such matrices is denoted .'
+description: "Matrices: operations, transpose, inverses, determinants and their properties, the adjugate formula, and why the determinant measures volume rather than being a definition to memorise. Non-commutativity, why row reduction beats cofactor expansion, and what det(AB) = det(A)det(B) actually says. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -17,9 +17,56 @@ description: 'An matrix over is a rectangular array of elements from Arranged in
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- When is $AB$ defined, and what are its dimensions?
+- Is $AB = BA$? Give a counterexample or say when it holds.
+- What is $\det(AB)$ in terms of $\det(A)$ and $\det(B)$?
+- What does the determinant measure geometrically?
+- When is a matrix invertible, in three equivalent ways?
+
+Check your answers against the text. Prompt 2 is the one that distinguishes
+matrix algebra from the algebra you learned at school, and the failure is not
+an anomaly -- it is what makes order matter.
+
+## Motivation: a matrix is a map, and the algebra records composition
+
+A matrix is presented as a rectangular array of numbers. That is the
+*notation*, not the *object*. A matrix is a linear map, written in a chosen
+basis, and every operation on matrices is the notation for an operation on
+maps.
+
+Multiplication is the clearest example. If $A$ and $B$ are maps, then
+$(AB)v = A(Bv)$ means "apply $B$ first, then $A$" -- multiplication *is*
+composition, which is why the order cannot be arbitrary and why the middle
+dimensions must agree. Once that is internalised, several rules stop being
+things to remember:
+
+- $AB \neq BA$ because doing things in a different order is genuinely
+  different -- rotating then scaling is not scaling then rotating.
+- $(AB)^T = B^TA^T$ because reversing a composition reverses the order.
+- $\det(AB) = \det(A)\det(B)$ because the determinant measures how a map
+  scales *volume*, and volumes scale multiplicatively under composition.
+
+**The determinant measures volume.** For a $2\times2$ matrix it is the
+(oriented) area of the image of the unit square; for $3\times3$, the oriented
+volume of the image of the unit cube. A negative determinant means the map
+flips orientation. That single sentence explains the multiplicative rule, why a
+singular matrix has determinant zero (it squashes the cube flat), and why
+$\det(A^{-1}) = 1/\det A$.
+
+**Row reduction beats cofactor expansion.** Cofactor expansion is $O(n!)$ and
+row reduction is $O(n^3)$; at $n = 20$ the difference is already
+$2.4 \times 10^{18}$ operations against $8\times10^3$. The efficient method
+uses the fact that row operations change the determinant in known ways -- swap
+negates, scale multiplies, add leaves alone -- so reduce to upper triangular
+and multiply the diagonal.
+
 ### 3.1 Matrix Operations
 
-An $m \times n$ matrix $A$ over $F$ is a rectangular array of $mn$ elements from $F$Arranged in $m$
+An $m \times n$ matrix $A$ over $F$ is a rectangular array of $mn$ elements from $F$ Arranged in $m$
 rows and $n$ columns. The set of all such matrices is denoted $\mathcal{M}_{m \times n}(F)$.
 
 **Addition.** For $A, B \in \mathcal{M}_{m \times n}(F)$, $(A + B)_{ij} = A_{ij} + B_{ij}$.
@@ -30,7 +77,9 @@ $(\alpha A)_{ij} = \alpha A_{ij}$.
 **Matrix multiplication.** For $A \in \mathcal{M}_{m \times n}(F)$ and
 $B \in \mathcal{M}_{n \times p}(F)$ The product $AB \in \mathcal{M}_{m \times p}(F)$ is defined by
 
-$$(AB)_{ij} = \sum_{k=1}^n A_{ik} B_{kj}$$
+$$
+(AB)_{ij} = \sum_{k=1}^n A_{ik} B_{kj}
+$$
 
 **Proposition 3.1.** Matrix multiplication is associative but not commutative .
 
@@ -44,7 +93,7 @@ $\blacksquare$
 
 ### 3.2 Transpose
 
-The **transpose** of $A \in \mathcal{M}_{m \times n}(F)$Denoted $A^T$Is the $n \times m$ matrix With
+The **transpose** of $A \in \mathcal{M}_{m \times n}(F)$ Denoted $A^T$ Is the $n \times m$ matrix With
 $(A^T)_{ij} = A_{ji}$.
 
 **Properties of transpose:**
@@ -59,7 +108,9 @@ $(A^T)_{ij} = A_{ji}$.
 A square matrix $A \in \mathcal{M}_{n \times n}(F)$ is **invertible** if there exists a matrix
 $A^{-1} \in \mathcal{M}_{n \times n}(F)$ such that
 
-$$AA^{-1} = A^{-1}A = I_n$$
+$$
+AA^{-1} = A^{-1}A = I_n
+$$
 
 **Theorem 3.1.** The following are equivalent for $A \in \mathcal{M}_{n \times n}(F)$:
 
@@ -76,7 +127,9 @@ $$AA^{-1} = A^{-1}A = I_n$$
 The **determinant** is a function $\det : \mathcal{M}_{n \times n}(F) \to F$ defined recursively by
 **Laplace expansion** along the first row:
 
-$$\det(A) = \sum_{j=1}^n (-1)^{1+j} a_{1j} M_{1j}$$
+$$
+\det(A) = \sum_{j=1}^n (-1)^{1+j} a_{1j} M_{1j}
+$$
 
 Where $M_{1j}$ is the $(1,j)$-minor (the determinant of the $(n-1) \times (n-1)$ matrix obtained by
 Deleting row 1 and column $j$).
@@ -101,15 +154,19 @@ $\det$ is multiplied by $\alpha$.
 
 (3) Adding $\alpha$ times row $j$ to row $i$ ($i \neq j$): by multilinearity in row $i$
 
-$$\det(\mathrm{new}~A) = \det(A) + \alpha \cdot \det(\mathrm{matrix}~with~rows~i\mathrm{~and~j\mathrm}{~equal)}$$
+$$
+\det(\mathrm{new}~A) = \det(A) + \alpha \cdot \det(\mathrm{matrix}~with~rows~i\mathrm{~and~j\mathrm}{~equal)}
+$$
 
 A matrix with two equal rows has determinant 0 (by antisymmetry: swapping them leaves the matrix
-Unchanged but multiplies $\det$ by $-1$ So $\det = -\det$Hence $\det = 0$). Therefore
+Unchanged but multiplies $\det$ by $-1$ So $\det = -\det$ Hence $\det = 0$). Therefore
 $\det(\mathrm{new}~A) = \det(A)$. $\blacksquare$
 
 **Theorem 3.3 (Multiplicativity).** For $A, B \in \mathcal{M}_{n \times n}(F)$
 
-$$\det(AB) = \det(A)\det(B)$$
+$$
+\det(AB) = \det(A)\det(B)
+$$
 
 _Proof (via elementary matrices)._ Every matrix $B$ can be written as a product of elementary
 matrices Times an upper triangular matrix: $B = E_1 E_2 \cdots E_k U$. For an elementary matrix $E$:
@@ -122,13 +179,15 @@ matrices Times an upper triangular matrix: $B = E_1 E_2 \cdots E_k U$. For an el
 
 Thus $\det(AE) = \det(A)\det(E)$ for every elementary matrix. By induction,
 
-$$\det(AB) = \det(A \cdot E_1 \cdots E_k U) = \det(A) \cdot \det(E_1) \cdots \det(E_k) \cdot \det(U) = \det(A) \cdot \det(B)$$
+$$
+\det(AB) = \det(A \cdot E_1 \cdots E_k U) = \det(A) \cdot \det(E_1) \cdots \det(E_k) \cdot \det(U) = \det(A) \cdot \det(B)
+$$
 
 Since $\det(B) = \det(E_1)\cdots\det(E_k)\det(U)$. $\blacksquare$
 
 **Corollary 3.4.** $\det(A^T) = \det(A)$ And for invertible $A$, $\det(A^{-1}) = 1/\det(A)$.
 
-_Proof._ $AA^{-1} = I$ So $\det(A)\det(A^{-1}) = \det(I) = 1$Giving $\det(A^{-1}) = 1/\det(A)$. For
+_Proof._ $AA^{-1} = I$ So $\det(A)\det(A^{-1}) = \det(I) = 1$ Giving $\det(A^{-1}) = 1/\det(A)$. For
 the transpose, use the Leibniz formula or observe that row Operations and column operations have the
 same effects on the determinant. $\blacksquare$
 
@@ -136,36 +195,46 @@ same effects on the determinant. $\blacksquare$
 
 **Definition.** The **adjugate** (or **adjoint**) of $A \in \mathcal{M}_{n \times n}(F)$ is
 
-$$\mathrm{adj}(A) = (C_{ji})_{i,j=1}^n$$
+$$
+\mathrm{adj}(A) = (C_{ji})_{i,j=1}^n
+$$
 
 Where $C_{ij}$ is the $(i,j)$-cofactor of $A$. That is, $\mathrm{adj}(A)$ is the transpose of the
 Cofactor matrix.
 
 **Theorem 3.5.** For any $A \in \mathcal{M}_{n \times n}(F)$
 
-$$A \cdot \mathrm{adj}(A) = \mathrm{adj}(A) \cdot A = \det(A) \cdot I_n$$
+$$
+A \cdot \mathrm{adj}(A) = \mathrm{adj}(A) \cdot A = \det(A) \cdot I_n
+$$
 
 In particular, if $\det(A) \neq 0$ Then $A^{-1} = \frac{1}{\det(A)} \mathrm{adj}(A)$.
 
 _Proof._ The $(i,j)$-entry of $A \cdot \mathrm{adj}(A)$ is $\sum_{k=1}^n a_{ik} C_{jk}$. When
-$i = j$This is $\sum_{k=1}^n a_{ik} C_{ik} = \det(A)$ (cofactor expansion along row $i$). When
-$i \neq j$This is the cofactor expansion of a matrix obtained from $A$ by replacing row $j$ With row
-$i$Which has two equal rows and hence determinant 0. $\blacksquare$
+$i = j$ This is $\sum_{k=1}^n a_{ik} C_{ik} = \det(A)$ (cofactor expansion along row $i$). When
+$i \neq j$ This is the cofactor expansion of a matrix obtained from $A$ by replacing row $j$ With row
+$i$ Which has two equal rows and hence determinant 0. $\blacksquare$
 
 ### 3.7 Worked Examples
 
 **Problem.** Compute $\det(A)$ where
 
-$$A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Expanding along the first column:
 
-$$\det(A) = 1 \cdot \det\begin{pmatrix} 1 & 4 \\ 6 & 0 \end{pmatrix} - 0 + 5 \cdot \det\begin{pmatrix} 2 & 3 \\ 1 & 4 \end{pmatrix}$$
+$$
+\det(A) = 1 \cdot \det\begin{pmatrix} 1 & 4 \\ 6 & 0 \end{pmatrix} - 0 + 5 \cdot \det\begin{pmatrix} 2 & 3 \\ 1 & 4 \end{pmatrix}
+$$
 
-$$= 1 \cdot (0 - 24) + 5 \cdot (8 - 3) = -24 + 25 = 1$$
+$$
+= 1 \cdot (0 - 24) + 5 \cdot (8 - 3) = -24 + 25 = 1
+$$
 
 $\blacksquare$
 
@@ -173,27 +242,37 @@ $\blacksquare$
 
 **Problem.** Compute $\det(A)$ by row reduction where
 
-$$A = \begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Apply row operations and track their effect on the determinant:
 
-$$\begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 0 & -1 & 1 \\ 0 & 0 & -1 & 2 \\ 0 & 1/2 & -1/2 & 1/2 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 & 3 & 1 \\ 4 & 2 & 5 & 3 \\ 6 & 3 & 8 & 5 \\ 1 & 1 & 1 & 1 \end{pmatrix} \xrightarrow{R_2 - 2R_1, R_3 - 3R_1} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 0 & -1 & 1 \\ 0 & 0 & -1 & 2 \\ 0 & 1/2 & -1/2 & 1/2 \end{pmatrix}
+$$
 
 The determinant is unchanged (only type 3 operations). Now swap $R_2$ and $R_4$ (multiplies $\det$
 by $-1$):
 
-$$\xrightarrow{R_2 \leftrightarrow R_4} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & -1 & 1 \end{pmatrix}$$
+$$
+\xrightarrow{R_2 \leftrightarrow R_4} \begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & -1 & 1 \end{pmatrix}
+$$
 
 Now $R_4 \to R_4 - R_3$ (determinant unchanged):
 
-$$\begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & 0 & -1 \end{pmatrix}$$
+$$
+\begin{pmatrix} 2 & 1 & 3 & 1 \\ 0 & 1/2 & -1/2 & 1/2 \\ 0 & 0 & -1 & 2 \\ 0 & 0 & 0 & -1 \end{pmatrix}
+$$
 
 The determinant is the product of diagonal entries, times $-1$ for the row swap:
 
-$$\det(A) = (-1) \cdot 2 \cdot \frac{1}{2} \cdot (-1) \cdot (-1) = -1$$
+$$
+\det(A) = (-1) \cdot 2 \cdot \frac{1}{2} \cdot (-1) \cdot (-1) = -1
+$$
 
 $\blacksquare$
 
@@ -201,7 +280,9 @@ $\blacksquare$
 
 **Problem.** Find $A^{-1}$ using the adjugate formula, where
 
-$$A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
@@ -210,9 +291,13 @@ $\det(A) = 1 \cdot 4 - 2 \cdot 3 = -2 \neq 0$ So $A$ is invertible.
 
 Cofactors: $C_{11} = 4$, $C_{12} = -3$, $C_{21} = -2$, $C_{22} = 1$.
 
-$$\mathrm{adj}(A) = \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix}$$
+$$
+\mathrm{adj}(A) = \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix}
+$$
 
-$$A^{-1} = \frac{1}{-2}\begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix}$$
+$$
+A^{-1} = \frac{1}{-2}\begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix}
+$$
 
 Verify:
 $AA^{-1} = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix} = \begin{pmatrix} -2 + 3 & 1 - 1 \\ -6 + 6 & 3 - 2 \end{pmatrix} = I_2$.
@@ -228,16 +313,22 @@ $\det(AB) = \det(A)\det(B)$ with a Non-existent formula for non-square matrices.
 
 **Problem.** Compute $\det(A)$ where
 
-$$A = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 This matrix has Pascal-like entries. We use row operations:
 
-$$\begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 1 & 3 & 6 \\ 0 & 1 & 4 & 10 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 1 & 4 \end{pmatrix}$$
+$$
+\begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10 & 20 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 1 & 3 & 6 \\ 0 & 1 & 4 & 10 \end{pmatrix} \xrightarrow{R_i - R_{i-1}} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 1 & 4 \end{pmatrix}
+$$
 
-$$\xrightarrow{R_4 - R_3} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
+$$
+\xrightarrow{R_4 - R_3} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 0 & 1 \end{pmatrix}
+$$
 
 All operations were type 3 (adding a multiple of one row to another), so the determinant is
 unchanged. The upper triangular matrix has diagonal entries $1, 1, 1, 1$ so $\det(A) = 1$.
@@ -276,22 +367,32 @@ implies $A$ is not invertible: a map that squishes volume to zero cannot be reve
 
 **Problem.** Compute $\det(A)$ where
 
-$$A = \begin{pmatrix} 2 & -1 & 0 \\ 3 & 4 & -2 \\ 1 & 0 & 5 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 2 & -1 & 0 \\ 3 & 4 & -2 \\ 1 & 0 & 5 \end{pmatrix}
+$$
 
 <details>
 <summary>Solution</summary>
 
 Expand along the first row:
 
-$$\det(A) = 2 \cdot \det\begin{pmatrix} 4 & -2 \\ 0 & 5 \end{pmatrix} - (-1) \cdot \det\begin{pmatrix} 3 & -2 \\ 1 & 5 \end{pmatrix} + 0 \cdot \det\begin{pmatrix} 3 & 4 \\ 1 & 0 \end{pmatrix}$$
+$$
+\det(A) = 2 \cdot \det\begin{pmatrix} 4 & -2 \\ 0 & 5 \end{pmatrix} - (-1) \cdot \det\begin{pmatrix} 3 & -2 \\ 1 & 5 \end{pmatrix} + 0 \cdot \det\begin{pmatrix} 3 & 4 \\ 1 & 0 \end{pmatrix}
+$$
 
-$$= 2(20 - 0) + 1(15 + 2) + 0 = 40 + 17 = 57$$
+$$
+= 2(20 - 0) + 1(15 + 2) + 0 = 40 + 17 = 57
+$$
 
 Alternatively, expand along the third row (which has a zero):
 
-$$\det(A) = 1 \cdot \det\begin{pmatrix} -1 & 0 \\ 4 & -2 \end{pmatrix} - 0 + 5 \cdot \det\begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}$$
+$$
+\det(A) = 1 \cdot \det\begin{pmatrix} -1 & 0 \\ 4 & -2 \end{pmatrix} - 0 + 5 \cdot \det\begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}
+$$
 
-$$= 1(2 - 0) + 5(8 + 3) = 2 + 55 = 57 \quad \checkmark$$
+$$
+= 1(2 - 0) + 5(8 + 3) = 2 + 55 = 57 \quad \checkmark
+$$
 
 The second method is faster because the zero entry in the third row eliminates one $2 \times 2$
 determinant computation. Always look for rows or columns with the most zeros before choosing
@@ -330,15 +431,76 @@ factor of 57. $\blacksquare$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[3_Matrices] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+## Counterexamples worth knowing by name
+
+<div class="table-wrap">
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| $AB = BA$ | no | $\begin{pmatrix}0&1\\0&0\end{pmatrix}\begin{pmatrix}1&0\\0&0\end{pmatrix} \neq$ the reverse, and neither product is zero |
+| $\det(A+B) = \det A + \det B$ | no | take $A = B = I$: $\det(2I) = 2^n$ while $\det I + \det I = 2$ |
+| Every square matrix has an inverse | no | a singular matrix does not, and singularity is detected by $\det A = 0$ |
+| $\det(A + B) = 0$ implies $A$ and $B$ are singular | no | take $A = I$, $B = -I$: both invertible, $\det(A+B) = 0$ |
+| Cofactor expansion is the standard way to compute a determinant | no | it is $O(n!)$; row reduction is $O(n^3)$ and is what software does |
+| $A^2 = A$ implies $A = 0$ or $A = I$ | no | projections satisfy $A^2 = A$ and are neither; they are diagonalisable with eigenvalues $0$ and $1$ |
+| An invertible matrix times a singular one is singular | no | the product of an invertible and a singular matrix *is* singular -- this row is true, and it is worth checking why |
+| $\operatorname{rank}(AB) \le \min(\operatorname{rank}A, \operatorname{rank}B)$ | yes | composition cannot increase rank, which is why multiplying cannot promote a singular matrix to invertible |
+
+</div>
+
+The first row is the one to internalise, because non-commutativity is the
+signature of matrices. A good concrete check: rotation matrices in the plane
+*do* commute with each other, and scaling matrices commute with each other, but
+a rotation and a scale in a different order give different results once the
+scale is anisotropic.
+
+The second row is the most commonly assumed linearity that does not hold. The
+determinant is multiplicative, not additive, and the $I, -I$ example is the
+cleanest refutation.
+
+## Where the research frontier is
+
+- **Fast matrix multiplication.** The schoolbook method is $O(n^3)$; Strassen
+  is $O(n^{2.807})$ and the best known bound is around $O(n^{2.37})$. Whether
+  $\Theta(n^2)$ is achievable is a major open problem.
+- **Numerical stability.** LU with partial pivoting is the standard inverse
+  method, and why it is stable in practice despite having exponential worst-case
+  growth factor is still not fully explained.
+- **Structured matrices.** Toeplitz, Hankel and sparse matrices have
+  multiplication costs far below $O(n^3)$, and exploiting structure is where
+  the practical gains are.
+- **Tensor rank.** Rank for higher-order arrays is not unique and is NP-hard to
+  compute, which is a genuinely different world from the matrix case.
+- **Random matrices.** Products of random matrices, and the distribution of
+  their singular values, are central to numerical analysis and to theoretical
+  physics.
+
+## Interleaving problems
+
+Mix these with [Eigenvalues and
+Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/), [Systems of
+Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/), [Vectors
+and Vector Spaces](/2-linear-algebra/1_vectors-and-vector-spaces/), [Singular
+Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/) and
+[Linear Independence, Span, Basis and
+Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/).
+
+1. (Operations.) Show that matrix multiplication is associative by thinking of
+   matrices as maps, rather than by expanding indices.
+2. (Determinants.) Prove $\det(AB) = \det A \det B$ for $2\times2$ matrices by
+   direct computation, then explain why the same identity holds in every
+   dimension and what property of the determinant makes it true.
+3. (Inverses.) Show that a matrix with a zero row cannot be invertible, in
+   three ways: by determinant, by systems of equations, and by maps.
+4. (Eigenvalues.) Show that the eigenvalues of a triangular matrix are its
+   diagonal entries, and hence that the determinant is their product. This is
+   why row reduction to triangular form is how software finds eigenvalues.
+5. (Singular value decomposition.) Show that $\det A$ is the product of the
+   singular values of $A$ up to sign, and explain why the sign is
+   $\operatorname{sign}(\det U \det V)$.
+6. (Rank.) Show that $\operatorname{rank}(AB) \le
+   \operatorname{rank}(A)$ by thinking of the columns of $AB$ as $A$ applied to
+   columns of $B$. Then give an example where the rank strictly drops.
 
 ## Cross-References
 
@@ -347,5 +509,5 @@ flowchart TD
 - **[Singular Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/)**: The SVD factorises any matrix using its singular values, generalising the eigendecomposition.
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

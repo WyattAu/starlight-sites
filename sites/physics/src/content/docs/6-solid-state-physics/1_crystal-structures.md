@@ -23,13 +23,17 @@ A crystal is defined by a **lattice** (infinite array of points with translation
 **basis** (the arrangement of atoms associated with each lattice point).
 
 The lattice is specified by **primitive lattice vectors** $\mathbf{a}_1, \mathbf{a}_2, \mathbf{a}_3$
-Such that every lattice point is at:
+such that every lattice point is at:
 
-$$\mathbf{R} = n_1\mathbf{a}_1 + n_2\mathbf{a}_2 + n_3\mathbf{a}_3, \quad n_i \in \mathbb{Z}$$
+$$
+\mathbf{R} = n_1\mathbf{a}_1 + n_2\mathbf{a}_2 + n_3\mathbf{a}_3, \quad n_i \in \mathbb{Z}
+$$
 
 ### 1.2 Bravais Lattices
 
 There are **14 Bravais lattices** in three dimensions, classified into 7 crystal systems:
+
+<div class="table-wrap">
 
 | System       | Lattices     | Constraints                                                       |
 | ------------ | ------------ | ----------------------------------------------------------------- |
@@ -40,6 +44,8 @@ There are **14 Bravais lattices** in three dimensions, classified into 7 crystal
 | Triclinic    | P            | $a \neq b \neq c$, $\alpha \neq \beta \neq \gamma$                |
 | Hexagonal    | P            | $a = b \neq c$, $\alpha = \beta = 90^\circ$, $\gamma = 120^\circ$ |
 | Trigonal     | R            | $a = b = c$, $\alpha = \beta = \gamma \neq 90^\circ$              |
+
+</div>
 
 **Notation:** P = primitive, I = body-centred, F = face-centred, C = base-centred, R = rhombohedral.
 
@@ -75,7 +81,7 @@ Directions are written as $[hkl]$; families of equivalent directions as $\langle
 ### 1.5 Wigner-Seitz Cell
 
 The **Wigner-Seitz cell** is the primitive cell constructed by drawing perpendicular bisector planes
-Between a lattice point and all its neighbours. It is the region of space closer to the given
+between a lattice point and all its neighbours. It is the region of space closer to the given
 lattice Point than to any other.
 
 ### 1.6 Packing Fractions and Density
@@ -83,16 +89,20 @@ lattice Point than to any other.
 The **packing fraction** (also called atomic packing factor) is the fraction of volume in a unit
 cell Occupied by atoms:
 
-$$\mathrm{APF} = \frac{N \cdot V_{\mathrm{atom}}{V_{\mathrm{cell}} = \frac{N \cdot \frac{4}{3}\pi R^3}{V_{\mathrm{cell}}}}}$$
+$$
+\mathrm{APF} = \frac{N \cdot V_{\mathrm{atom}}{V_{\mathrm{cell}} = \frac{N \cdot \frac{4}{3}\pi R^3}{V_{\mathrm{cell}}}}}
+$$
 
 Where $N$ is the number of atoms per cell, $R$ is the atomic radius, and $V_{\mathrm{cell}}$ is the
 Cell volume.
 
 The **theoretical density** of a crystal:
 
-$$\rho = \frac{nM}{N_A V_{\mathrm{cell}}}$$
+$$
+\rho = \frac{nM}{N_A V_{\mathrm{cell}}}
+$$
 
-Where $n$ is the number of formula units per cell, $M$ is the molar mass, $N_A$ is Avogadro"s
+Where $n$ is the number of formula units per cell, $M$ is the molar mass, $N_A$ is Avogadro's
 Number, and $V_{\mathrm{cell}}$ is the cell volume.
 
 <details>
@@ -101,11 +111,15 @@ Number, and $V_{\mathrm{cell}}$ is the cell volume.
 In FCC, nearest neighbours touch along the face diagonal. For lattice constant $a$ and atomic radius
 $R$:
 
-$$4R = \sqrt{2}\,a \implies R = \frac{a\sqrt{2}}{4}$$
+$$
+4R = \sqrt{2}\,a \implies R = \frac{a\sqrt{2}}{4}
+$$
 
 Four atoms per conventional cell:
 
-$$\mathrm{APF} = \frac{4 \times \frac{4}{3}\pi R^3}{a^3} = \frac{4 \times \frac{4}{3}\pi \left(\frac{a\sqrt{2}}{4}\right)^3}{a^3} = \frac{4 \times \frac{4}{3}\pi \cdot \frac{2\sqrt{2}\,a^3}{64}}{a^3} = \frac{\pi\sqrt{2}}{6} \approx 0.7405$$
+$$
+\mathrm{APF} = \frac{4 \times \frac{4}{3}\pi R^3}{a^3} = \frac{4 \times \frac{4}{3}\pi \left(\frac{a\sqrt{2}}{4}\right)^3}{a^3} = \frac{4 \times \frac{4}{3}\pi \cdot \frac{2\sqrt{2}\,a^3}{64}}{a^3} = \frac{\pi\sqrt{2}}{6} \approx 0.7405
+$$
 
 </details>
 
@@ -115,11 +129,17 @@ $$\mathrm{APF} = \frac{4 \times \frac{4}{3}\pi R^3}{a^3} = \frac{4 \times \frac{
 $\alpha$-iron is BCC with lattice constant $a = 0.2866$ nm, molar mass $M = 55.845$ g/mol, and 2
 atoms Per conventional cell.
 
-$$\rho = \frac{2 \times 55.845}{6.022 \times 10^{23} \times (2.866 \times 10^{-8})^3}$$
+$$
+\rho = \frac{2 \times 55.845}{6.022 \times 10^{23} \times (2.866 \times 10^{-8})^3}
+$$
 
-$$(2.866 \times 10^{-8})^3 = 23.55 \times 10^{-24}\ \mathrm{cm}^3 = 2.355 \times 10^{-23}\ \mathrm{cm}^3$$
+$$
+(2.866 \times 10^{-8})^3 = 23.55 \times 10^{-24}\ \mathrm{cm}^3 = 2.355 \times 10^{-23}\ \mathrm{cm}^3
+$$
 
-$$\rho = \frac{111.69}{6.022 \times 10^{23} \times 2.355 \times 10^{-23}} = \frac{111.69}{14.18} = 7.88\ \mathrm{g}/cm^3$$
+$$
+\rho = \frac{111.69}{6.022 \times 10^{23} \times 2.355 \times 10^{-23}} = \frac{111.69}{14.18} = 7.88\ \mathrm{g}/cm^3
+$$
 
 This matches the accepted experimental density of iron ($7.87\ \mathrm{g}/cm^3$).
 
@@ -128,12 +148,14 @@ This matches the accepted experimental density of iron ($7.87\ \mathrm{g}/cm^3$)
 <details>
 <summary>Worked Example: HCP Packing Fraction</summary>
 
-For HCP with ideal $c/a = \sqrt{8/3}$Lattice constant $a$ And atomic radius $R = a/2$:
+For HCP with ideal $c/a = \sqrt{8/3}$ Lattice constant $a$ And atomic radius $R = a/2$:
 
 Two atoms per primitive cell. The cell volume is
 $V_{\mathrm{cell} = \frac{\sqrt{3}}{2}a^2 \cdot c = \frac{\sqrt{3}}{2}a^2 \cdot a\sqrt{8/3} = \sqrt{2}\,a^3}$.
 
-$$\mathrm{APF} = \frac{2 \times \frac{4}{3}\pi (a/2)^3}{\sqrt{2}\,a^3} = \frac{\frac{\pi a^3}{3}}{\sqrt{2}\,a^3} = \frac{\pi}{3\sqrt{2}} = \frac{\pi\sqrt{2}}{6} \approx 0.7405$$
+$$
+\mathrm{APF} = \frac{2 \times \frac{4}{3}\pi (a/2)^3}{\sqrt{2}\,a^3} = \frac{\frac{\pi a^3}{3}}{\sqrt{2}\,a^3} = \frac{\pi}{3\sqrt{2}} = \frac{\pi\sqrt{2}}{6} \approx 0.7405
+$$
 
 This confirms that HCP and FCC have the same packing fraction, as both are close-packed structures.
 
@@ -155,7 +177,9 @@ Real crystals are never perfect. Defects are classified by their dimensionality.
 The equilibrium concentration of vacancies follows from minimising the free energy
 $F = n_v E_v - k_B T \ln\binom{N}{n_v}$:
 
-$$n_v = N\,e^{-E_v/(k_B T)}$$
+$$
+n_v = N\,e^{-E_v/(k_B T)}
+$$
 
 Where $E_v$ is the vacancy formation energy ( $\sim 1$ eV).
 
@@ -170,7 +194,9 @@ Where $E_v$ is the vacancy formation energy ( $\sim 1$ eV).
 Dislocations enable plastic deformation at stresses far below the theoretical shear strength. The
 Peach-Koehler force per unit length on a dislocation:
 
-$$\mathbf{F} = (\boldsymbol{\sigma}\cdot\mathbf{b}) \times \hat{\mathbf{t}}$$
+$$
+\mathbf{F} = (\boldsymbol{\sigma}\cdot\mathbf{b}) \times \hat{\mathbf{t}}
+$$
 
 **Planar defects (2D):**
 
@@ -203,14 +229,18 @@ number of atoms in the unit Cell. For FCC, the coordination number is 12 even th
 <details>
 <summary>Worked Example: Interplanar Spacing for SC, BCC, FCC</summary>
 
-For a cubic crystal with lattice constant $a$The interplanar spacing for $(hkl)$ is:
+For a cubic crystal with lattice constant $a$ The interplanar spacing for $(hkl)$ is:
 
-$$d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}}$$
+$$
+d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}}
+$$
 
 For SC, all $(hkl)$ reflections are allowed. For BCC, only $(hkl)$ with $h+k+l$ even are present.
 For FCC, only all-even or all-odd $(hkl)$ are present.
 
 The first few allowed reflections and their $d$-spacings for FCC ($a = 0.405$ nm, aluminium):
+
+<div class="table-wrap">
 
 | $(hkl)$ | $h^2+k^2+l^2$ | $d$ (nm) | $2\theta$ (Cu $K_\alpha$) |
 | ------- | ------------- | -------- | ------------------------- |
@@ -220,22 +250,13 @@ The first few allowed reflections and their $d$-spacings for FCC ($a = 0.405$ nm
 | (311)   | 11            | 0.1221   | 78.2°                     |
 | (222)   | 12            | 0.1169   | 82.4°                     |
 
+</div>
+
 Note that (100) is absent in FCC (since 1+0+0 = 1 is odd but not all odd). The sequence of Allowed
 $h^2+k^2+l^2$ values (3, 4, 8, 11, 12, ...) is characteristic of FCC.
 
 </details>
 :::
-
-
-```mermaid
-flowchart TD
-    A[1_Crystal Structures] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -265,4 +286,4 @@ Real crystals contain defects (point defects, dislocations, grain boundaries) th
 - **[Lattice Vibrations and Phonons](/6-solid-state-physics/4_lattice-vibrations-and-phonons/)**: The phonon dispersion relations depend on the lattice geometry and interatomic forces.
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: The crystal structure determines the band structure and electronic properties of semiconductors.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

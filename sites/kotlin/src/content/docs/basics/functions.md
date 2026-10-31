@@ -121,7 +121,7 @@ println("hello".orEmpty())  // "hello"
 ### Extension Functions vs Utility Functions
 
 Extension functions compile to static functions with the receiver as the first parameter. They do
-Not modify the class.
+not modify the class.
 
 ```kotlin
 // Kotlin
@@ -156,7 +156,7 @@ If a member function and an extension function have the same signature, the **me
 ## Infix Functions
 
 Functions marked `infix` can be called with infix notation (without parentheses and dots) when they
-Have a single parameter.
+have a single parameter.
 
 ```kotlin
 infix fun Int.power(exponent: Int): Long {
@@ -292,7 +292,7 @@ inline fun measureTime(block: () -> Unit): Long {
 ```
 
 `noinline` prevents specific lambda parameters from being inlined (needed when the lambda is stored
-Or passed to a non-inline function):
+or passed to a non-inline function):
 
 ```kotlin
 inline fun runAndStore(block: () -> Unit, noinline later: () -> Unit) {
@@ -332,17 +332,6 @@ fun processUser(user: User) {
   code size and can cause longer compilation times. Reserve `inline` for small, frequently called
   functions where the allocation overhead matters.
 
-
-```mermaid
-flowchart TD
-    A[Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, including key
@@ -356,13 +345,7 @@ theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

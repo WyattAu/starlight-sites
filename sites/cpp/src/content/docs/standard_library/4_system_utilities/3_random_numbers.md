@@ -34,7 +34,7 @@ Practical usage patterns.
 ### Overview
 
 The `<random>` header [N4950 §29.6] provides a modular random number generation system consisting
-Of:
+of:
 
 1. **Engines:** Stateful objects that produce a sequence of random numbers.
 2. **Distributions:** Objects that transform the engine"s output into a desired statistical
@@ -56,6 +56,8 @@ The design separates the source of randomness (engine) from the statistical prop
 An engine satisfies the **UniformRandomBitGenerator** requirement [N4950 §29.6.3]: it provides
 `operator()` that returns a `UIntType` value uniformly distributed over `[min(), max()]`.
 
+<div class="table-wrap">
+
 | Engine                                     | Period      | State Size | Quality      | Use Case                         |
 | :----------------------------------------- | :---------- | :--------- | :----------- | :------------------------------- |
 | `std::linear_congruential_engine`          | ~2^32       | Small      | Low          | Legacy (`rand()` equivalent)     |
@@ -64,13 +66,15 @@ An engine satisfies the **UniformRandomBitGenerator** requirement [N4950 §29.6.
 | `std::subtract_with_carry_engine`          | ~2^63       | Moderate   | Moderate     | Historical                       |
 | `std::random_device`                       | N/A         | N/A        | OS-dependent | True entropy (non-deterministic) |
 
+</div>
+
 **`std::mt19937`** (Mersenne Twister) is the standard workhorse engine. It has a period of 2^19937 -
 1 (a Mersenne prime), which means the sequence does not repeat for all practical purposes. Its state
-Is 2500 bytes (624 × 32-bit words). It passes most statistical tests but is **not**
+is 2500 bytes (624 × 32-bit words). It passes most statistical tests but is **not**
 Cryptographically secure [N4950 §29.6.3.4].
 
 **`std::random_device`** is a non-deterministic uniform random bit generator that obtains entropy
-From the operating system (`/dev/urandom` on Linux, `BCryptGenRandom` on Windows) [N4950 §29.6.5.3].
+from the operating system (`/dev/urandom` on Linux, `BCryptGenRandom` on Windows) [N4950 §29.6.5.3].
 
 :::caution
 Fixed-seed PRNG, producing the same sequence on every run. This was a well-known bug. Modern
@@ -83,6 +87,8 @@ Seeds on all platforms, read from `/dev/urandom` (POSIX) or `BCryptGenRandom` (W
 Distributions transform the engine's raw output into values drawn from a specific statistical
 Distribution [N4950 §29.6.4]:
 
+<div class="table-wrap">
+
 | Distribution                               | Header     | Output Type | Description                             |
 | :----------------------------------------- | :--------- | :---------- | :-------------------------------------- |
 | `std::uniform_int_distribution&lt;IntT>`   | `<random>` | `IntT`      | Uniform over [a, b]                     |
@@ -93,6 +99,8 @@ Distribution [N4950 §29.6.4]:
 | `std::poisson_distribution&lt;IntT>`       | `<random>` | `IntT`      | Poisson(λ)                              |
 | `std::exponential_distribution&lt;RealT>`  | `<random>` | `RealT`     | Exponential(λ)                          |
 | `std::discrete_distribution&lt;IntT>`      | `<random>` | `IntT`      | Arbitrary discrete distribution         |
+
+</div>
 
 ### Seeded Random Number Generation
 
@@ -301,7 +309,7 @@ Values in pairs, so the distribution object may cache one value internally for e
 ### Engine State, Serialization, and Reproducibility
 
 Every random number engine maintains internal state that determines the next value in the sequence.
-For `std::mt19937`The state is 624 × 32-bit words (2496 bytes). This state can be saved and Restored
+For `std::mt19937`. The state is 624 × 32-bit words (2496 bytes). This state can be saved and Restored
 using the `<<` and `>>` operators, enabling deterministic replay:
 
 ```cpp
@@ -338,12 +346,14 @@ This serialization is essential for:
 
 :::caution
 Library implementations. GCC libstdc++ and Clang libc++ may produce different binary formats. Use
-Only the same implementation for save/restore.
+only the same implementation for save/restore.
 :::
 
 ### `std::random_device` Implementation Details
 
 `std::random_device` is the standard library's interface to OS-provided entropy [N4950 §29.6.5.3]:
+
+<div class="table-wrap">
 
 | Platform | Implementation (Typical)            | Entropy Source           |
 | :------- | :---------------------------------- | :----------------------- |
@@ -351,6 +361,8 @@ Only the same implementation for save/restore.
 | macOS    | `arc4random_buf` or `/dev/urandom`  | Kernel CSPRNG            |
 | Windows  | `BCryptGenRandom` or `RtlGenRandom` | OS cryptographic RNG     |
 | MinGW    | Historically broken (fixed GCC 9+)  | Was PRNG, now OS entropy |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -414,7 +426,7 @@ void seed_seq_quality_demo() {
 ```
 
 The `std::seed_seq::generate` algorithm uses a warm-up process based on the initialization algorithm
-From the Mersenne Twister paper. It performs multiple mixing passes to ensure all bits of the
+from the Mersenne Twister paper. It performs multiple mixing passes to ensure all bits of the
 Initial state have high entropy.
 
 ### `std::uniform_int_distribution` Modulo Bias
@@ -422,7 +434,9 @@ Initial state have high entropy.
 A naive way to generate a random integer in `[0, n)` is `engine() % n`. This introduces **modulo
 Bias** when `n` does not evenly divide the engine's range [N4950 §29.6.4.1]:
 
-$$P(\mathrm{outcome  k) = \begin{cases} \lceil R / n \rceil / R & \mathrm{if  k \lt R \bmod n \\ \lfloor R / n \rfloor / R & \mathrm{otherwise \end{cases}$$
+$$
+P(\mathrm{outcome  k) = \begin{cases} \lceil R / n \rceil / R & \mathrm{if  k \lt R \bmod n \\ \lfloor R / n \rfloor / R & \mathrm{otherwise \end{cases}
+$$
 
 Where $R = \mathrm{max - \mathrm{min + 1$ is the engine's range.
 
@@ -517,6 +531,8 @@ void arrival_process_demo() {
 
 ### Performance Considerations
 
+<div class="table-wrap">
+
 | Engine          | State Size | `operator()` Speed  | Memory Footprint |
 | :-------------- | :--------- | :------------------ | :--------------- |
 | `minstd_rand`   | 4 bytes    | Very fast (LCG)     | Minimal          |
@@ -524,6 +540,8 @@ void arrival_process_demo() {
 | `mt19937_64`    | 2500 bytes | Fast (~5 ns/call)   | Large            |
 | `ranlux48`      | 96 bytes   | Slow (discarding)   | Moderate         |
 | `random_device` | N/A        | Very slow (OS call) | None             |
+
+</div>
 
 ```cpp
 #include <chrono>
@@ -591,7 +609,7 @@ PRNG.
 
 6. **Floating-point distribution bounds:** `std::uniform_real_distribution&lt;double>(0.0, 1.0)`
    produces values in $[0.0, 1.0)$, the upper bound is exclusive. If you need a closed interval
-   $[0.0, 1.0]$Use `std::uniform_real_distribution&lt;double>(0.0, std::nextafter(1.0, 2.0))`.
+   $[0.0, 1.0]$ Use `std::uniform_real_distribution&lt;double>(0.0, std::nextafter(1.0, 2.0))`.
 
 ## Common Pitfalls
 
@@ -605,23 +623,7 @@ PRNG.
 
 4. Ignoring feedback from marked work and failing to address recurring weaknesses.
 
-```mermaid
-flowchart TD
-    A[3_Random_Numbers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

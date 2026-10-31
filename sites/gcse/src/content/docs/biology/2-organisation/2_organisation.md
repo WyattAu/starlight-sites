@@ -29,43 +29,45 @@ categories:
 ### 1.1 Overview
 
 The digestive system breaks down large, insoluble food molecules into small, soluble molecules that
-Can be absorbed into the blood. This is not a single process but a coordinated sequence of
-Mechanical and chemical events, each occurring in a specific region of the gut where conditions are
-Optimised for that step.
+can be absorbed into the blood. This is not a single process but a coordinated sequence of
+mechanical and chemical events, each occurring in a specific region of the gut where conditions are
+optimised for that step.
 
 **Organs of the digestive system:**
 
 Mouth $\to$ Oesophagus $\to$ Stomach $\to$ Small intestine $\to$ Large intestine $\to$ Rectum $\to$
-Anus
+anus
 
 Accessory organs: Liver, pancreas, salivary glands. These are called "accessory" because food does
-Not pass through them directly; instead, they produce substances (bile, enzymes) that are delivered
-To the digestive tract via ducts.
+not pass through them directly; instead, they produce substances (bile, enzymes) that are delivered
+to the digestive tract via ducts.
 
 **Why digestion is necessary.** The food you eat contains macromolecules (starch, proteins, lipids)
 That are too large and insoluble to cross cell membranes. Even if they could cross, your body cannot
 Use them directly -- it needs the subunits: glucose from starch, amino acids from proteins, fatty
 Acids and glycerol from lipids. Digestion is the process of breaking these large molecules down into
-Their absorbable subunits.
+their absorbable subunits.
 
 ### 1.2 Enzymes
 
 **Enzymes** are biological catalysts -- they speed up chemical reactions without being used up. They
 Are proteins, and each enzyme catalyses a specific reaction. The specificity of enzymes arises from
-The unique three-dimensional shape of their active site, which is complementary to the shape of
-Their substrate.
+the unique three-dimensional shape of their active site, which is complementary to the shape of
+their substrate.
 
 **The lock and key model:** The substrate (reactant) fits into the active site of the enzyme, like a
 Key fitting into a lock. Only the correct substrate can fit each enzyme. An alternative and more
-Widely accepted model is the **induced fit model**, in which the active site changes shape slightly
-When the substrate binds, improving the fit and making the reaction more efficient.
+widely accepted model is the **induced fit model**, in which the active site changes shape slightly
+when the substrate binds, improving the fit and making the reaction more efficient.
 
 **Why enzymes are essential for digestion.** Without enzymes, digestion would be far too slow to
 Provide the body with the nutrients it needs. At body temperature, the chemical reactions of
-Digestion would take days or weeks without catalysis. Enzymes speed up these reactions by a factor
-Of millions, allowing digestion to occur within hours.
+digestion would take days or weeks without catalysis. Enzymes speed up these reactions by a factor
+of millions, allowing digestion to occur within hours.
 
 **Factors affecting enzyme activity:**
+
+<div class="table-wrap">
 
 | Factor                  | Effect                                                                                                                   |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -73,16 +75,20 @@ Of millions, allowing digestion to occur within hours.
 | pH                      | Each enzyme has an optimum pH; deviations reduce activity                                                                |
 | Substrate concentration | Rate increases with concentration, then plateaus (all active sites occupied)                                             |
 
+</div>
+
 **Denaturation:** At high temperatures or extreme pH, the active site changes shape and the
 Substrate can no longer fit. This is because the weak bonds (hydrogen bonds, ionic bonds) that
-Maintain the enzyme"s tertiary structure are broken. Denaturation is irreversible: once an Enzyme
+maintain the enzyme"s tertiary structure are broken. Denaturation is irreversible: once an Enzyme
 has been denatured, it cannot recover its function.
 
 **Worked Example: Interpreting an enzyme rate graph.**
 
 A student investigates the effect of temperature on amylase activity. The results are:
 
-| Temperature ($^{\circ}$C) | Time for starch to disappear (s) | Rate ($1/\mathrm{time$) ($\times 10^{-3}$ s$^{-1}$) |
+<div class="table-wrap">
+
+| Temperature ($^{\circ}$ C) | Time for starch to disappear (s) | Rate ($1/\mathrm{time$) ($\times 10^{-3}$ s$^{-1}$) |
 | ------------------------- | -------------------------------- | --------------------------------------------------- |
 | 10                        | 300                              | 3.3                                                 |
 | 20                        | 120                              | 8.3                                                 |
@@ -91,6 +97,8 @@ A student investigates the effect of temperature on amylase activity. The result
 | 45                        | 55                               | 18.2                                                |
 | 55                        | 120                              | 8.3                                                 |
 | 60                        | No reaction                      | 0                                                   |
+
+</div>
 
 **Step-by-step analysis:**
 
@@ -105,6 +113,8 @@ A student investigates the effect of temperature on amylase activity. The result
 
 ### 1.3 Digestive Enzymes
 
+<div class="table-wrap">
+
 | Enzyme   | Produced in                                | Substrate | Product                  | Optimum pH                             |
 | -------- | ------------------------------------------ | --------- | ------------------------ | -------------------------------------- |
 | Amylase  | Salivary glands, pancreas, small intestine | Starch    | Maltose                  | Neutral/alkaline                       |
@@ -112,14 +122,18 @@ A student investigates the effect of temperature on amylase activity. The result
 | Lipase   | Pancreas, small intestine                  | Lipids    | Glycerol and fatty acids | Alkaline                               |
 | Maltase  | Small intestine                            | Maltose   | Glucose                  | Alkaline                               |
 
+</div>
+
 **Why different enzymes work at different pH.** The stomach produces hydrochloric acid, creating a
 PH of approximately 2. This is optimal for pepsin (a protease), which begins protein digestion. The
-Small intestine has an alkaline pH (approximately 8) because bile neutralises the acid arriving from
-The stomach. This alkaline environment is optimal for pancreatic enzymes (amylase, trypsin, lipase).
+small intestine has an alkaline pH (approximately 8) because bile neutralises the acid arriving from
+the stomach. This alkaline environment is optimal for pancreatic enzymes (amylase, trypsin, lipase).
 This compartmentalisation means that each enzyme works in the conditions best suited to it,
-Maximising the overall efficiency of digestion.
+maximising the overall efficiency of digestion.
 
 **Summary table: enzyme sites and conditions.**
+
+<div class="table-wrap">
 
 | Region          | pH  | Enzymes present                     |
 | --------------- | --- | ----------------------------------- |
@@ -127,6 +141,8 @@ Maximising the overall efficiency of digestion.
 | Stomach         | ~2  | Pepsin (protease)                   |
 | Small intestine | ~8  | Pancreatic amylase, trypsin, lipase |
 | Small intestine | ~8  | Maltase, other brush-border enzymes |
+
+</div>
 
 ### 1.4 Bile
 
@@ -144,8 +160,8 @@ Intestine through the bile duct.
 
 **Bile vs. Lipase -- a common confusion.** Bile is not an enzyme. It does not break chemical bonds.
 It only physically breaks large fat droplets into smaller ones (emulsification). Lipase is the
-Enzyme that chemically digests fats by breaking ester bonds in triglycerides. Bile prepares the fats
-For lipase by increasing the surface area available for the enzyme to act upon.
+enzyme that chemically digests fats by breaking ester bonds in triglycerides. Bile prepares the fats
+for lipase by increasing the surface area available for the enzyme to act upon.
 
 ### 1.5 Absorption
 
@@ -166,13 +182,13 @@ Too much, the result is constipation.
 **Worked Example: Why villi are so effective.**
 
 A student calculates the total surface area of the small intestine. Without villi, the surface area
-Is approximately 0.5 m$^2$. With villi, the surface area increases to approximately 10 m$^2$. With
-Microvilli on top of the villi, the total absorptive surface area reaches approximately 200 m$^2$.
+is approximately 0.5 m$^2$. With villi, the surface area increases to approximately 10 m$^2$. With
+microvilli on top of the villi, the total absorptive surface area reaches approximately 200 m$^2$.
 
 The rate of diffusion is directly proportional to surface area (Fick's law). So, by increasing the
-Surface area by a factor of 400 (from 0.5 to 200 m$^2$), the small intestine can absorb nutrients
+surface area by a factor of 400 (from 0.5 to 200 m$^2$), the small intestine can absorb nutrients
 400 times faster than a simple tube without villi. This is why the small intestine is so effective
-At absorbing digested food.
+at absorbing digested food.
 
 ### 1.6 Required Practical: Enzyme Activity
 
@@ -206,20 +222,26 @@ Colour change is due to enzyme activity, not spontaneous breakdown.
 
 ### 2.1 Blood Vessels
 
+<div class="table-wrap">
+
 | Vessel    | Structure                          | Function                                         |
 | --------- | ---------------------------------- | ------------------------------------------------ |
 | Artery    | Thick, elastic walls; narrow lumen | Carry blood away from the heart at high pressure |
 | Vein      | Thin walls; wide lumen; valves     | Carry blood back to the heart at low pressure    |
 | Capillary | One cell thick walls; very narrow  | Exchange of materials between blood and cells    |
 
+</div>
+
 **Understanding the structural differences.** Arteries need thick, elastic walls because they carry
 Blood at high pressure generated by the heart's contraction. The elasticity allows them to expand
-And recoil, smoothing out the pulsatile flow. Veins carry blood at low pressure and need valves to
-Prevent backflow (since there is not enough pressure to keep blood moving on its own). Capillaries
-Are only one cell thick to allow rapid diffusion of oxygen, nutrients, and waste products between
-Blood and tissues.
+and recoil, smoothing out the pulsatile flow. Veins carry blood at low pressure and need valves to
+prevent backflow (since there is not enough pressure to keep blood moving on its own). Capillaries
+are only one cell thick to allow rapid diffusion of oxygen, nutrients, and waste products between
+blood and tissues.
 
 **Detailed comparison of artery and vein structure.**
+
+<div class="table-wrap">
 
 | Feature           | Artery                                | Vein                              |
 | ----------------- | ------------------------------------- | --------------------------------- |
@@ -231,6 +253,8 @@ Blood and tissues.
 | Direction of flow | Away from the heart                   | Towards the heart                 |
 | Oxygenation       | oxygenated (except pulmonary)         | deoxygenated (except pulmonary)   |
 
+</div>
+
 ### 2.2 The Heart
 
 The heart is a double pump:
@@ -239,12 +263,12 @@ The heart is a double pump:
 
 **Left side:** Pumps oxygenated blood to the body (systemic circulation). The left ventricle has
 Thicker walls than the right because it must pump blood further (to all body organs, not just the
-Nearby lungs).
+nearby lungs).
 
 **Blood flow through the heart:**
 
 Vena cava $\to$ Right atrium $\to$ Tricuspid valve $\to$ Right ventricle $\to$ Semilunar valve $\to$
-Pulmonary artery $\to$ Lungs $\to$ Pulmonary vein $\to$ Left atrium $\to$ Bicuspid valve $\to$ Left
+pulmonary artery $\to$ Lungs $\to$ Pulmonary vein $\to$ Left atrium $\to$ Bicuspid valve $\to$ Left
 Ventricle $\to$ Semilunar valve $\to$ Aorta $\to$ Body
 
 **Key points:**
@@ -277,6 +301,8 @@ Step-by-step:
 
 ### 2.3 Blood Components
 
+<div class="table-wrap">
+
 | Component         | Function                                                                                    |
 | ----------------- | ------------------------------------------------------------------------------------------- |
 | Red blood cells   | Transport oxygen (contain haemoglobin, which binds to O$_2$)                                |
@@ -284,17 +310,19 @@ Step-by-step:
 | Platelets         | Cell fragments that help blood clot at wounds                                               |
 | Plasma            | Liquid that carries dissolved substances (glucose, amino acids, urea, hormones, antibodies) |
 
+</div>
+
 **Haemoglobin and oxygen transport.** Haemoglobin is a protein in red blood cells that binds
 Reversibly to oxygen. In the lungs (high oxygen concentration), haemoglobin binds oxygen to form
 Oxyhaemoglobin. In the tissues (low oxygen concentration), oxyhaemoglobin releases oxygen. This
-Reversible binding is critical: it allows the same molecule to pick up oxygen where it is abundant
-And release it where it is needed.
+reversible binding is critical: it allows the same molecule to pick up oxygen where it is abundant
+and release it where it is needed.
 
 **Phagocytes and lymphocytes.** Phagocytes (a type of white blood cell) defend the body by engulfing
 And digesting pathogens in a process called phagocytosis. Lymphocytes (another type of white blood
 Cell) produce antibodies -- specific proteins that bind to and neutralise specific pathogens. Each
-Lymphocyte produces one type of antibody that is specific to one type of pathogen. This specificity
-Is the basis of the immune response.
+lymphocyte produces one type of antibody that is specific to one type of pathogen. This specificity
+is the basis of the immune response.
 
 **Worked Example: Adaptations of red blood cells.**
 
@@ -313,7 +341,7 @@ Red blood cells are highly specialised for oxygen transport. Their adaptations i
 ### 2.4 Coronary Heart Disease
 
 Coronary heart disease (CHD) occurs when the coronary arteries become narrowed by a build-up of
-Fatty deposits (atheroma/plaque) in a process called **atherosclerosis**.
+fatty deposits (atheroma/plaque) in a process called **atherosclerosis**.
 
 **Treatments:**
 
@@ -329,24 +357,28 @@ Genetic factors, stress.
 
 **Comparison of CHD treatments.**
 
+<div class="table-wrap">
+
 | Treatment      | How it works                                       | Advantages                        | Disadvantages                        |
 | -------------- | -------------------------------------------------- | --------------------------------- | ------------------------------------ |
 | Stents         | Physically widens the narrowed artery              | Relatively quick procedure        | Does not address underlying cause    |
 | Statins        | Reduces blood cholesterol, slowing plaque build-up | Reduces risk of further blockages | Must be taken for life; side effects |
 | Bypass surgery | Creates a new route around the blockage            | Effective for severe blockages    | Major surgery; long recovery time    |
 
+</div>
+
 ## 3. The Respiratory System
 
 ### 3.1 Structure
 
 The respiratory system consists of the trachea, bronchi, bronchioles, and alveoli in the lungs. The
-Trachea is kept open by C-shaped rings of cartilage (the open part of the C allows the oesophagus to
-Expand when food is swallowed).
+trachea is kept open by C-shaped rings of cartilage (the open part of the C allows the oesophagus to
+expand when food is swallowed).
 
 ### 3.2 Gas Exchange
 
 Gas exchange occurs in the **alveoli** (air sacs in the lungs). Oxygen diffuses from the alveoli
-Into the blood; carbon dioxide diffuses from the blood into the alveoli.
+into the blood; carbon dioxide diffuses from the blood into the alveoli.
 
 **Adaptations of alveoli for gas exchange:**
 
@@ -361,7 +393,9 @@ Into the blood; carbon dioxide diffuses from the blood into the alveoli.
 
 Fick's law states:
 
-$$\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}$$
+$$
+\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}
+$$
 
 The alveoli are adapted to maximise the rate of diffusion by:
 
@@ -399,12 +433,12 @@ Boyle's law states that at constant temperature, pressure is inversely proportio
 $P_1 V_1 = P_2 V_2$.
 
 During inhalation, the volume of the thorax increases (from about 3 litres to about 5 litres in an
-Adult at rest). This increase in volume causes the pressure inside the lungs to decrease below
-Atmospheric pressure (about 101 kPa). Air flows from the higher-pressure atmosphere into the
+adult at rest). This increase in volume causes the pressure inside the lungs to decrease below
+atmospheric pressure (about 101 kPa). Air flows from the higher-pressure atmosphere into the
 Lower-pressure lungs.
 
 During exhalation, the volume of the thorax decreases, causing the pressure inside the lungs to
-Increase above atmospheric pressure. Air flows from the higher-pressure lungs to the lower-pressure
+increase above atmospheric pressure. Air flows from the higher-pressure lungs to the lower-pressure
 Atmosphere.
 
 ## 4. The Nervous System
@@ -412,18 +446,22 @@ Atmosphere.
 ### 4.1 Structure
 
 The nervous system allows the body to detect and respond to changes in the environment. It has two
-Main parts:
+main parts:
 
 - **Central nervous system (CNS):** Brain and spinal cord.
 - **Peripheral nervous system (PNS):** Sensory neurons, relay neurons, and motor neurons.
 
 ### 4.2 Neurones
 
+<div class="table-wrap">
+
 | Type            | Function                                       |
 | --------------- | ---------------------------------------------- |
 | Sensory neurone | Carries impulses from receptors to the CNS     |
 | Relay neurone   | Connects sensory and motor neurones in the CNS |
 | Motor neurone   | Carries impulses from the CNS to effectors     |
+
+</div>
 
 **Structure of a motor neurone:**
 
@@ -437,7 +475,7 @@ Main parts:
 ### 4.3 Synapses
 
 A **synapse** is the junction between two neurones. When an electrical impulse reaches the end of a
-Neurone, it triggers the release of **neurotransmitters** into the synaptic cleft. These chemicals
+neurone, it triggers the release of **neurotransmitters** into the synaptic cleft. These chemicals
 Diffuse across the gap and bind to receptors on the next neurone, triggering a new impulse.
 
 **Why synapses are important:**
@@ -480,9 +518,11 @@ Reflexes are fast, automatic, and protective. They do not involve conscious thou
 7. **Response:** The hand is pulled away from the hot object.
 
 This response is automatic and does not involve the brain, making it very fast. This speed is
-Important because it minimises tissue damage.
+important because it minimises tissue damage.
 
 ### 4.5 The Brain
+
+<div class="table-wrap">
 
 | Part            | Function                                      |
 | --------------- | --------------------------------------------- |
@@ -491,9 +531,11 @@ Important because it minimises tissue damage.
 | Medulla         | Unconscious processes (breathing, heart rate) |
 | Hypothalamus    | Temperature regulation and hormone production |
 
+</div>
+
 **Studying the brain.** The brain is difficult to study because it is protected by the skull, it is
 Extremely complex, and it is unethical to carry out experiments on living human brains. Methods of
-Studying the brain include:
+studying the brain include:
 
 - **MRI scans:** Produce detailed images of brain structure. Can identify tumours, damage, and
   structural abnormalities.
@@ -505,6 +547,8 @@ Studying the brain include:
 
 ### 4.6 The Eye
 
+<div class="table-wrap">
+
 | Structure       | Function                                         |
 | --------------- | ------------------------------------------------ |
 | Cornea          | Refracts light; protective outer layer           |
@@ -514,6 +558,8 @@ Studying the brain include:
 | Retina          | Contains light-sensitive cells (rods and cones)  |
 | Optic nerve     | Carries impulses to the brain                    |
 | Ciliary muscles | Change the shape of the lens (accommodation)     |
+
+</div>
 
 **Accommodation:** The process by which the eye focuses on near and distant objects:
 
@@ -539,6 +585,8 @@ Studying the brain include:
 
 ### 5.2 Risk Factors
 
+<div class="table-wrap">
+
 | Risk Factor        | Associated Diseases                |
 | ------------------ | ---------------------------------- |
 | Smoking            | Lung cancer, CHD, COPD             |
@@ -547,6 +595,8 @@ Studying the brain include:
 | UV exposure        | Skin cancer                        |
 | Ionising radiation | Various cancers                    |
 | Poor diet          | CHD, type 2 diabetes               |
+
+</div>
 
 ### 5.3 Diabetes
 
@@ -559,11 +609,13 @@ Treated with diet, exercise, and medication.
 **Worked Example: Why insulin must be injected, not taken orally.**
 
 Insulin is a protein hormone. If taken orally, it would be digested by proteases in the stomach and
-Small intestine, breaking it down into amino acids. These amino acids would not function as insulin.
+small intestine, breaking it down into amino acids. These amino acids would not function as insulin.
 Therefore, insulin must be injected directly into the bloodstream, bypassing the digestive system,
 So that it reaches the target cells intact and can bind to its receptors.
 
 **Detailed comparison of type 1 and type 2 diabetes.**
+
+<div class="table-wrap">
 
 | Feature            | Type 1 Diabetes                      | Type 2 Diabetes                         |
 | ------------------ | ------------------------------------ | --------------------------------------- |
@@ -574,12 +626,14 @@ So that it reaches the target cells intact and can bind to its receptors.
 | Risk factors       | Genetic predisposition               | Obesity, lack of exercise, poor diet    |
 | Prevalence         | About 10% of diabetes cases          | About 90% of diabetes cases             |
 
+</div>
+
 ## 6. Higher Tier: Homeostasis and Negative Feedback
 
 ### 6.1 Negative Feedback
 
 Homeostasis is the maintenance of a constant internal environment. Negative feedback is the
-Mechanism by which the body restores conditions to their optimum level when they deviate.
+mechanism by which the body restores conditions to their optimum level when they deviate.
 
 **General pattern:**
 
@@ -624,12 +678,16 @@ Vasodilation). When the temperature returns to normal, the response stops.
 
 ### 6.2 The Endocrine System
 
+<div class="table-wrap">
+
 | Feature  | Nervous system      | Endocrine system                  |
 | -------- | ------------------- | --------------------------------- |
 | Signal   | Electrical impulses | Chemical (hormones)               |
 | Speed    | Very fast           | Slower                            |
 | Duration | Short-lived         | Longer-lasting                    |
 | Target   | Very specific       | Widespread (cells with receptors) |
+
+</div>
 
 **Worked Example: Comparing nervous and endocrine responses.**
 
@@ -874,17 +932,6 @@ answer using the appropriate terminology.
 Multi-step problems in Organisation often combine two or more concepts. Break the problem down:
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[2_Organisation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

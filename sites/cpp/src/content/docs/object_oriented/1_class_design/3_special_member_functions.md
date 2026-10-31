@@ -23,7 +23,7 @@ categories:
 
 The compiler automatically generates special member functions (SMFs), destructor, copy/move
 Constructors, and copy/move assignment operators, according to well-defined rules. Understanding
-These rules is critical for writing classes that manage resources correctly.
+these rules is critical for writing classes that manage resources correctly.
 
 ## 3.1 The Rule of Five
 
@@ -45,6 +45,8 @@ The compiler implicitly declares a default SMF if the class has no user-declared
 Destructor, copy/move operations, or other conditions that would trigger implicit deletion. The
 Exact rules are [N4950 §11.4.5.3]:
 
+<div class="table-wrap">
+
 | SMF                  | Implicitly declared if...                                           | Implicitly defined as default if...                  | Implicitly deleted if...                                                                                                 |
 | -------------------- | ------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Destructor**       | No user-declared destructor                                         | Trivial (all bases/members have trivial destructors) | Any base or member has deleted/inaccessible destructor                                                                   |
@@ -52,6 +54,8 @@ Exact rules are [N4950 §11.4.5.3]:
 | **Copy assignment**  | No user-declared move constructor or move assignment                | Trivial                                              | Any base/member has deleted copy assign, or has move assign, or reference member, or volatile member                     |
 | **Move constructor** | No user-declared copy ctor, copy assign, move assign, or destructor | Trivial                                              | Any base/member has deleted move ctor or inaccessible non-move ctor, or has copy-only semantics                          |
 | **Move assignment**  | No user-declared copy ctor, copy assign, move ctor, or destructor   | Trivial                                              | Any base/member has deleted move assign or inaccessible non-move assign, or has copy-only semantics, or reference member |
+
+</div>
 
 :::caution
 Constructor and move assignment are **not** implicitly declared. In C++14 and later, this remains
@@ -63,7 +67,7 @@ Move generation.
 
 The `= default` specifier explicitly requests the compiler-generated default implementation [N4950
 §11.4.5.2]. It can appear inside the class body or out-of-line. When applied out-of-line, the SMF is
-Only generated if it is odr-used.
+only generated if it is odr-used.
 
 The `= delete` specifier explicitly suppresses the SMF [N4950 §11.4.5.2]. Any use of a deleted
 Function is ill-formed.
@@ -296,8 +300,8 @@ int main() {
 ## 3.7 The Rule of Zero
 
 The **Rule of Zero** states that classes that do not directly manage resources should not declare
-Any special member functions. Instead, they should compose resource-owning standard library types
-(`std::string``std::vector``std::unique_ptr``std::shared_ptr`) which handle their own resource
+any special member functions. Instead, they should compose resource-owning standard library types
+(`std::string`, `std::vector`, `std::unique_ptr`, `std::shared_ptr`) which handle their own resource
 Management correctly [N4950 §11.4.5.3]:
 
 ```cpp
@@ -360,7 +364,7 @@ Use the Rule of Zero whenever possible. Only fall back to the Rule of Five when:
 
 C++ guarantees that members are destroyed in **reverse order of construction**, and base classes are
 Destroyed after all members [N4950 §11.9.6]. This ordering is deterministic and does not depend on
-The order of member declarations in the destructor body:
+the order of member declarations in the destructor body:
 
 ```cpp
 #include <iostream>
@@ -439,7 +443,7 @@ int main() {
 ## 3.9 `= default` Out-of-Line: Lazy Generation
 
 When `= default` is used **out-of-line** (outside the class body), the SMF is only generated if it
-Is odr-used. This can reduce compile time and binary size for types with complex implicitly-
+is odr-used. This can reduce compile time and binary size for types with complex implicitly-
 Generated SMFs:
 
 ```cpp
@@ -671,16 +675,6 @@ int main() {
 - [Access Control and Friendship](/object_oriented/1_class_design/2_access_control/)
 - [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
 
-```mermaid
-flowchart TD
-    A[3_Special_Member_Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to special member function
@@ -694,10 +688,5 @@ generation rules, including key theorems, methods, and problem-solving approache
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

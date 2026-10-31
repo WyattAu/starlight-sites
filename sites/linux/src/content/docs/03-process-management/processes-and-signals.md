@@ -22,7 +22,7 @@ Virtual address space, file descriptors, and execution context. The kernel manag
 A `task_struct` (in `include/linux/sched.h`), which tracks PID, state, scheduling priority, open
 Files, signal handlers, and more.
 
-### Creating Processes: `fork``exec``wait`
+### Creating Processes: `fork`, `exec`, `wait`
 
 The POSIX process creation model consists of three operations:
 
@@ -64,7 +64,7 @@ if (pid == -1) {
 
 Modern Linux uses **Copy-on-Write (COW)** pages for `fork`: the parent's page tables are duplicated,
 But the physical pages are shared and marked read-only. When either process writes to a page, a copy
-Is made. This means `fork` is O(n) in page table size, not O(n) in memory.
+is made. This means `fork` is O(n) in page table size, not O(n) in memory.
 
 #### `execve(2)`
 
@@ -82,13 +82,13 @@ perror("execve");
 exit(1);
 ```
 
-Variants of `exec`: `execl``execlp``execle``execv``execvp``execvpe`they differ in how Arguments
+Variants of `exec`: `execl`, `execlp`, `execle`, `execv`, `execvp`, `execvpe`they differ in how Arguments
 and environment are passed.
 
 #### `wait(2)` / `waitpid(2)`
 
 A parent must call `wait` (or `waitpid`) to collect the child's exit status. If a child terminates
-And the parent does not wait, the child becomes a **zombie** (state `Z`), it retains its PID and
+and the parent does not wait, the child becomes a **zombie** (state `Z`), it retains its PID and
 Exit status in the kernel's process table until the parent waits.
 
 ```c
@@ -106,6 +106,8 @@ if (WIFEXITED(status)) {
 
 ### Process Identification
 
+<div class="table-wrap">
+
 | Identifier   | Field in `task_struct` | Description                               |
 | ------------ | ---------------------- | ----------------------------------------- |
 | **PID**      | `pid`                  | Process identifier (unique system-wide)   |
@@ -115,6 +117,8 @@ if (WIFEXITED(status)) {
 | **SID**      | `signal->leader->pid`  | Session ID (for job control)              |
 | **UID/EUID** | `real_cred/cred`       | Real and effective user ID                |
 | **GID/EGID** | `real_cred/cred`       | Real and effective group ID               |
+
+</div>
 
 In Linux, threads are implemented as processes that share certain resources (address space, file
 Descriptors, signal handlers). Each thread has its own TID, but all threads in a process share the
@@ -161,6 +165,8 @@ stateDiagram-v2
     ZOMBIE --> [*]: parent calls wait
 ```
 
+<div class="table-wrap">
+
 | State                    | Code | Description                                                    |
 | ------------------------ | ---- | -------------------------------------------------------------- |
 | **TASK_RUNNING**         | R    | Runnable (either executing or on a run queue)                  |
@@ -170,6 +176,8 @@ stateDiagram-v2
 | **TASK_TRACED**          | t    | Stopped by debugger (ptrace)                                   |
 | **EXIT_ZOMBIE**          | Z    | Terminated, parent has not called `wait`                       |
 | **EXIT_DEAD**            | X    | Completely dead, waiting to be reaped                          |
+
+</div>
 
 ```bash
 # View process states
@@ -199,6 +207,8 @@ User-space processes.
 
 ### Standard Signals
 
+<div class="table-wrap">
+
 | Signal    | Number | Default Action | Description                                    |
 | --------- | ------ | -------------- | ---------------------------------------------- |
 | `SIGHUP`  | 1      | Terminate      | Terminal hangup (daemon reload convention)     |
@@ -220,6 +230,8 @@ User-space processes.
 | `SIGTSTP` | 20     | Stop           | Terminal stop (Ctrl+Z)                         |
 | `SIGTTIN` | 21     | Stop           | Background read from terminal                  |
 | `SIGTTOU` | 22     | Stop           | Background write to terminal                   |
+
+</div>
 
 ### Real-Time Signals
 
@@ -273,11 +285,11 @@ sigaction(SIGTERM, &amp;sa, NULL);
 ```
 
 **Signal-safe functions**: Only async-signal-safe functions may be called from within a signal
-Handler. Calling non-signal-safe functions (like `printf``malloc``free`) from a handler is Undefined
+Handler. Calling non-signal-safe functions (like `printf`, `malloc`, `free`) from a handler is Undefined
 behavior if the handler interrupts one of those functions in the main program.
 
-Signal-safe functions include: `write``read``_exit``kill``sigaction``sigprocmask`
-`sigaddset``sigemptyset``sigfillset`.
+Signal-safe functions include: `write`, `read`, `_exit`, `kill`, `sigaction`, `sigprocmask`
+`sigaddset`, `sigemptyset`, `sigfillset`.
 
 ```c
 // CORRECT signal handler
@@ -463,12 +475,16 @@ ionice -c 3 command             # idle (only uses I/O when no one else is)
 
 ### Real-Time Scheduling Policies
 
+<div class="table-wrap">
+
 | Policy           | `sched_setscheduler` | Description                                          |
 | ---------------- | -------------------- | ---------------------------------------------------- |
 | `SCHED_FIFO`     | 1                    | First-in, first-out, runs until blocked or preempted |
 | `SCHED_RR`       | 2                    | Round-robin with configurable time quantum           |
 | `SCHED_DEADLINE` | 6                    | Earliest Deadline First (EDF) scheduling             |
 | `SCHED_OTHER`    | 0                    | Default CFS policy                                   |
+
+</div>
 
 ```bash
 # View scheduling policy
@@ -485,7 +501,7 @@ chrt -d 1000000 5000000 200000 command  # runtime, deadline, period (ns)
 
 :::caution
 Consume 100% CPU and lock out all other processes, including the kernel's management threads. Use
-Only for well-understood, bounded workloads (audio processing, industrial control).
+only for well-understood, bounded workloads (audio processing, industrial control).
 
 ## cgroups
 
@@ -495,6 +511,8 @@ Kubernetes, systemd).
 
 ### cgroups v1 vs v2
 
+<div class="table-wrap">
+
 | Aspect      | cgroups v1                    | cgroups v2                         |
 | ----------- | ----------------------------- | ---------------------------------- |
 | Hierarchy   | Multiple (one per controller) | Single unified hierarchy           |
@@ -502,6 +520,8 @@ Kubernetes, systemd).
 | Controllers | Independent, per-subsystem    | Unified, coordinated               |
 | Delegation  | Complex                       | Simplified                         |
 | Default     | Legacy systems                | Modern distributions (since ~2020) |
+
+</div>
 
 ```bash
 # Check cgroups version
@@ -546,7 +566,7 @@ cat /sys/fs/cgroup/mygroup/io.stat
 ### systemd and cgroups
 
 Systemd manages cgroups automatically. Each service gets its own cgroup, which means resource limits
-Can be configured directly in the unit file:
+can be configured directly in the unit file:
 
 ```ini
 # /etc/systemd/system/myapp.service
@@ -594,11 +614,15 @@ ulimit -u 4096     # increase max processes
 # root      hard  nproc   unlimited
 ```
 
+<div class="table-wrap">
+
 | Limit Type  | Soft Limit                     | Hard Limit                              |
 | ----------- | ------------------------------ | --------------------------------------- |
 | Definition  | Enforced for the process       | Maximum the soft limit can be raised to |
 | Who can set | Any process (up to hard limit) | Root (can lower from any value)         |
 | Per-process | Yes                            | Yes                                     |
+
+</div>
 :::
 
 :::caution
@@ -679,7 +703,7 @@ ltrace -e strlen,strcpy ./myprogram
 ### Pitfall: `SIGKILL` Cannot Be Caught
 
 `SIGKILL` (9) and `SIGSTOP` (19) cannot be caught, blocked, or ignored. If a process does not
-Respond to `SIGKILL`It is almost certainly in the **D state** (uninterruptible sleep), waiting for
+Respond to `SIGKILL`. It is almost certainly in the **D state** (uninterruptible sleep), waiting for
 Kernel resources that will never become available.
 
 ```bash
@@ -692,7 +716,7 @@ cat /proc/$PID/stack    # kernel stack trace (requires CONFIG_STACKTRACE)
 
 ### Pitfall: `waitpid` and Signal Races
 
-If a child terminates before the parent calls `waitpid`The child becomes a zombie. If the parent
+If a child terminates before the parent calls `waitpid`. The child becomes a zombie. If the parent
 Terminates before the child, the child is reparented to PID 1. In neither case is the exit status
 Lost, but zombies accumulate if the parent never waits:
 
@@ -756,7 +780,7 @@ trap "wait" SIGCHLD
 ### Pitfall: `ulimit` Not Applied to systemd Services
 
 Setting `nofile` in `/etc/security/limits.conf` has no effect on systemd services because systemd
-Does not use PAM. Instead, configure limits in the service unit:
+does not use PAM. Instead, configure limits in the service unit:
 
 ```ini
 # systemctl edit myservice
@@ -798,17 +822,11 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Processes are like workers in a factory -- each has a task (program), a workspace (memory), and a status (running, sleeping, stopped). Fork is like cloning a worker: the child gets a copy of the parent's workspace. Exec is like giving the clone a new task -- same worker, different job. Wait is the parent checking in on the child. Signals are like alarm bells: SIGTERM asks a process to shut down politely, SIGKILL forces it to stop immediately, and SIGHUP tells it to re-read its configuration. The key insight is that process management is about resource allocation: the kernel decides which worker gets the CPU, how much memory they can use, and when they get休息.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

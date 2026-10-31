@@ -16,7 +16,7 @@ Preprocessor (a single source file plus all included headers).
 
 The preprocessor is a legacy text-manipulation engine inherited from C. It operates on source text
 _before_ the compiler understands C++ syntax. It does not know what a `class` or `function` is; it
-Only knows tokens.
+only knows tokens.
 
 ### Mechanics
 
@@ -171,6 +171,8 @@ Addresses (symbols) that are outside the current TU.
 An object file is divided into **Sections**. Understanding these is essential for systems
 Programming and embedded work.
 
+<div class="table-wrap">
+
 | Section       | Description        | Content                                                                                                     |
 | :------------ | :----------------- | :---------------------------------------------------------------------------------------------------------- |
 | **`.text`**   | Executable Code    | The actual machine instructions (read-only, executable).                                                    |
@@ -178,6 +180,8 @@ Programming and embedded work.
 | **`.bss`**    | Uninitialized Data | Global/Static variables initialized to zero. Does not take space on disk; allocated at runtime.             |
 | **`.rodata`** | Read-Only Data     | String literals, constants, switch tables (`const static`).                                                 |
 | **`.symtab`** | Symbol Table       | List of functions/variables defined in this file (exported) and required by this file (imported/undefined). |
+
+</div>
 
 ### Inspection Tools
 
@@ -224,8 +228,8 @@ dumpbin /SYMBOLS main.obj
 </Tabs>
 
 The compiler produces a collection of **Object Files**. These files contain optimized machine code
-But rely on "Undefined Symbols" (like `std::cout` or function calls to other files). They cannot run
-Yet. Resolving these symbols is the job of the **Linker**.
+but rely on "Undefined Symbols" (like `std::cout` or function calls to other files). They cannot run
+yet. Resolving these symbols is the job of the **Linker**.
 
 ---
 
@@ -233,7 +237,9 @@ Yet. Resolving these symbols is the job of the **Linker**.
 
 The C++ standard [N4950 §5.1.1] defines the translation of a source file into an executable as a
 Sequence of **translation phases** (also called "phases of translation"). These are numbered 1
-Through 9:
+through 9:
+
+<div class="table-wrap">
 
 | Phase | Description                                                                                                  |
 | :---- | :----------------------------------------------------------------------------------------------------------- |
@@ -246,6 +252,8 @@ Through 9:
 | 7     | Whitespace and comment removal (except within `preprocessing` directives), token conversion                 |
 | 8     | Each preprocessing token is converted to a regular token (the compiler proper begins)                        |
 | 9     | Linkage: all external references are resolved, program image is generated                                    |
+
+</div>
 Phases 1-4 constitute preprocessing. Phase 8 is where the compiler frontend performs semantic
 Analysis and builds the AST. Phase 9 is linking.
 
@@ -293,7 +301,7 @@ int main() \{
 
 Fixing with extra parentheses (`#define SQUARE(x) ((x) * (x))`) helps but doesn't solve the
 Side-effect problem. The modern C++ solution is to use `constexpr` functions or `inline` functions
-Instead:
+instead:
 
 ```cpp
 constexpr int square(int x) \{ return x * x; \}  // Safe: evaluates argument once
@@ -366,7 +374,7 @@ Traditional include guards use preprocessor conditionals to prevent multiple inc
 ```
 
 `#pragma once` is a non-standard but universally supported directive that achieves the same result
-More concisely:
+more concisely:
 
 ```cpp
 // my_header.h
@@ -413,7 +421,7 @@ Confusing.
 
 The compiler encodes function signatures, namespaces, and template arguments into a single string
 Called the **mangled name**. This is what appears in the object file's symbol table. Name mangling
-Is necessary because the linker only sees flat strings, not C++ scope.
+is necessary because the linker only sees flat strings, not C++ scope.
 
 ```cpp
 // code.cpp
@@ -450,7 +458,7 @@ c++filt _ZN4math3addEii
 ### LLVM IR Structure
 
 LLVM IR is a typed, SSA-based assembly language. Every value is computed exactly once and assigned
-To a register (`%0, %1`Etc.). This makes dataflow analysis trivial for the optimizer.
+to a register (`%0, %1`. Etc.). This makes dataflow analysis trivial for the optimizer.
 
 ```cpp
 // sum.cpp
@@ -468,6 +476,8 @@ clang++ -S -emit-llvm -O2 sum.cpp -o sum.ll
 
 Key IR concepts visible in the output:
 
+<div class="table-wrap">
+
 | Concept      | IR Representation                                     |
 | :----------- | :---------------------------------------------------- |
 | Function     | `define i32 @sum(i32 %n)`                             |
@@ -475,7 +485,9 @@ Key IR concepts visible in the output:
 | Basic block  | `entry:, for.body:, for.end:`                         |
 | PHI node     | `%total.0 = phi i32 [ 0, %entry ], [ %1, %for.body ]` |
 | Branch       | `br i1 %cmp, label %for.body, label %for.end`         |
-At `-O2`The optimizer may recognize this as a closed-form formula and emit a multiplication Instead
+
+</div>
+At `-O2`. The optimizer may recognize this as a closed-form formula and emit a multiplication Instead
 of a loop:
 
 ```llvm
@@ -509,8 +521,8 @@ g++ -fdump-tree-optimized sum.cpp
 ### Relocation Entries
 
 When the compiler generates an object file, it cannot know the final addresses of symbols defined in
-Other translation units. It emits **relocation entries**, instructions to the linker saying "patch
-This offset with the final address of symbol X."
+other translation units. It emits **relocation entries**, instructions to the linker saying "patch
+this offset with the final address of symbol X."
 
 ```bash
 # View relocations in an object file
@@ -557,27 +569,9 @@ Writing it into the appropriate location in the machine code.
 4. Not making connections between different topics within the subject to build a coherent
    understanding.
 
-
-```mermaid
-flowchart TD
-    A[1_Preprocessing_Ast_Objectx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

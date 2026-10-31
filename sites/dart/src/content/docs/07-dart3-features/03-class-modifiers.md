@@ -23,10 +23,10 @@ categories:
 
 Dart 3 introduces class modifiers, keywords that restrict how a class can be used by other
 Libraries. Before Dart 3, any class could be extended, implemented, or mixed in by any library. This
-Was a design choice inherited from Smalltalk: maximum flexibility, minimum restriction.
+was a design choice inherited from Smalltalk: maximum flexibility, minimum restriction.
 
 The problem: maximum flexibility is maximum liability. Library authors could not prevent misuse of
-Their APIs. A class designed for inheritance could be `implement`-ed (losing all behavior). A class
+their APIs. A class designed for inheritance could be `implement`-ed (losing all behavior). A class
 Designed as a pure interface could be `extend`-ed (coupling to implementation details). A class
 Designed as a leaf could be subclassed (breaking invariants).
 
@@ -34,6 +34,8 @@ Class modifiers solve this by giving library authors explicit control over the i
 They are compile-time constraints, the compiler enforces them, not runtime checks.
 
 ### The Modifier Matrix
+
+<div class="table-wrap">
 
 | Modifier      | Can be extended (outside lib) | Can be implemented (outside lib) | Can be used as mixin (outside lib) | Can be constructed     |
 | ------------- | ----------------------------- | -------------------------------- | ---------------------------------- | ---------------------- |
@@ -43,6 +45,8 @@ They are compile-time constraints, the compiler enforces them, not runtime check
 | `interface`   | No                            | Yes (only via `implements`)      | No                                 | If not abstract        |
 | `final`       | No                            | No                               | No                                 | If not abstract        |
 | `mixin class` | Via `extends` only            | Yes                              | Yes (with restrictions)            | If not abstract        |
+
+</div>
 
 ### Why They Exist
 
@@ -69,7 +73,7 @@ class MyListenable extends Listenable {
 }
 ```
 
-With `interface`You prevent this:
+With `interface`. You prevent this:
 
 ```dart
 interface class Listenable {
@@ -147,7 +151,7 @@ class Square implements Shape {
 ### Why `base` Exists
 
 The `base` modifier solves the **fragile base class problem**. When a class is designed for
-Inheritance, its methods may rely on internal invariants. If a user `implement`S the class
+Inheritance, its methods may rely on internal invariants. If a user `implement`s the class
 (providing their own implementations of all methods), those invariants can be violated.
 
 Consider:
@@ -273,8 +277,8 @@ interface class Hashable {
 
 ### `interface` with Default Implementations
 
-An `interface class` can have concrete methods. External code cannot access them via `extends`But
-They are available to subtypes within the same library:
+An `interface class` can have concrete methods. External code cannot access them via `extends`. But
+they are available to subtypes within the same library:
 
 ```dart
 interface class Loggable {
@@ -310,7 +314,7 @@ interface mixin Disposable {
 
 ## `final`
 
-Prevents **all** subtyping outside the library. No `extends`No `implements`No `with`. The class Is a
+Prevents **all** subtyping outside the library. No `extends`. No `implements`. No `with`. The class Is a
 leaf, it cannot be a supertype of anything defined outside its library.
 
 ### Syntax and Semantics
@@ -340,7 +344,7 @@ Extended.
 
 Common use cases:
 
-1. **Value objects**: Classes that represent data with identity semantics (like `Uri``Duration`).
+1. **Value objects**: Classes that represent data with identity semantics (like `Uri`, `Duration`).
 2. **Configuration objects**: Classes whose entire purpose is to hold configuration.
 3. **Internal implementation details**: Classes that are public but should not be subclassed.
 
@@ -361,7 +365,7 @@ final class UserId {
 
 ### `final` Propagation
 
-Unlike `base``final` does **not** propagate. A class that extends a `final` class (within the same
+Unlike `base`, `final` does **not** propagate. A class that extends a `final` class (within the same
 Library) is not itself `final`:
 
 ```dart
@@ -379,7 +383,7 @@ class ExternalDerived extends Derived {} // OK
 ```
 
 This is a deliberate design choice. The `final` restriction applies to the class itself, not to its
-Subtypes. If you want the entire hierarchy to be `final`You must mark each class.
+Subtypes. If you want the entire hierarchy to be `final`. You must mark each class.
 
 ### `final mixin class`
 
@@ -426,7 +430,7 @@ class Link extends Object with Hoverable {
 ### Restrictions on `mixin class`
 
 A `mixin class` cannot have a generative constructor that takes parameters (because mixins cannot
-Have parameterized constructors):
+have parameterized constructors):
 
 ```dart
 // OK, no constructor or parameterless constructor
@@ -454,6 +458,8 @@ The constructor is available normally.
 
 ### `mixin class` vs `mixin`
 
+<div class="table-wrap">
+
 | Property              | `mixin`              | `mixin class`                                            |
 | --------------------- | -------------------- | -------------------------------------------------------- |
 | Can be extended       | No (must use `with`) | Yes                                                      |
@@ -462,9 +468,11 @@ The constructor is available normally.
 | Can be instantiated   | No                   | Yes                                                      |
 | Can be abstract       | Yes                  | Yes                                                      |
 
+</div>
+
 **When to use `mixin class`**: When you have behavior that can be used both standalone (as a class)
 And composed (as a mixin). For example, a `Serializable` class that can be used directly or mixed
-Into other classes.
+into other classes.
 
 **When to use plain `mixin`**: When the behavior is purely additive and should never be instantiated
 On its own. For example, a `Logging` mixin that adds logging methods to classes.
@@ -492,6 +500,8 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 
 ### Valid Combinations
 
+<div class="table-wrap">
+
 | Combination         | Meaning                                                                                                   |
 | ------------------- | --------------------------------------------------------------------------------------------------------- |
 | `sealed interface`  | Cannot be extended or implemented outside. Same-library only, exhaustive switch.                          |
@@ -500,7 +510,11 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 | `interface mixin`   | Can only be implemented, not extended or used as mixin. Pure contract.                                    |
 | `final mixin class` | Cannot be extended, implemented, or used as mixin outside the library. Complete leaf.                     |
 
+</div>
+
 ### The Compatibility Matrix
+
+<div class="table-wrap">
 
 | First \ Second | `sealed` | `base` | `interface` | `final` | `mixin` |
 | -------------- | -------- | ------ | ----------- | ------- | ------- |
@@ -510,9 +524,11 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 | `final`        | Yes      | No     | No          | N/A     | Yes     |
 | `mixin`        | Yes      | Yes    | Yes         | Yes     | N/A     |
 
-`sealed` can combine with `base``interface``final`And `mixin` (e.g., `sealed interface`
+</div>
+
+`sealed` can combine with `base`, `interface`, `final` and `mixin` (e.g., `sealed interface`
 `sealed mixin class`). These combinations restrict subtypes to the same library while also applying
-The additional modifier's semantics.
+the additional modifier's semantics.
 
 ### `sealed interface`
 
@@ -575,6 +591,8 @@ class Version implements Comparable&lt;Version&gt; {
 
 Here is the complete reference table for all class modifiers:
 
+<div class="table-wrap">
+
 | Modifier            | Extends (outside)    | Implements (outside)    | Mixin (outside)   | Instantiate   | Abstract OK    | Key Use Case                         |
 | ------------------- | -------------------- | ----------------------- | ----------------- | ------------- | -------------- | ------------------------------------ |
 | (none)              | Yes                  | Yes                     | Yes               | Yes           | Yes            | Default, no restrictions            |
@@ -587,6 +605,8 @@ Here is the complete reference table for all class modifiers:
 | `base mixin`        | Yes (`extends` only) | No                      | Yes (`with` only) | No            | Yes            | Mixin with inheritance enforcement   |
 | `interface mixin`   | No                   | Yes (`implements` only) | No                | No            | Yes            | Pure mixin contract                  |
 | `final mixin class` | No                   | No                      | No                | Yes           | Yes            | Complete leaf, no subtyping          |
+
+</div>
 
 ### Reading the Table
 
@@ -700,7 +720,7 @@ final class Configuration {
 For library authors, the recommended migration order:
 
 1. **Start with `base`**: Most classes designed for inheritance should be `base`. This is the least
-   disruptive change, users who `implement` must switch to `extends`But the behavioral change is
+   disruptive change, users who `implement` must switch to `extends`. But the behavioral change is
    minimal.
 
 2. **Add `interface` to contracts**: Classes that are pure interfaces (no implementation worth
@@ -745,7 +765,7 @@ Implementation that must be preserved through inheritance, use `base`.
 ### 2. Adding Modifiers to Existing Public APIs Without Bumping Major Version
 
 This is a breaking change. If you add `base` to a class in version 1.2.0, and a downstream package
-Was `implement`-ing it, their code breaks. Follow semver, this requires a major version bump.
+was `implement`-ing it, their code breaks. Follow semver, this requires a major version bump.
 
 ### 3. `final` Does Not Propagate
 
@@ -767,7 +787,7 @@ final class Parent {}
 final class Child extends Parent {}
 ```
 
-### 4. `sealed` Classes Cannot Be `base``interface`Or `final`
+### 4. `sealed` Classes Cannot Be `base`, `interface` or `final`
 
 ```dart
 // COMPILE ERROR, sealed is already maximally restrictive
@@ -798,7 +818,7 @@ class Other extends Object with WithState {} // ERROR
 ```
 
 The restriction is per-use: if the `mixin class` is used as a mixin, it cannot have a parameterized
-Constructor. If used via `extends`The constructor is available.
+Constructor. If used via `extends`. The constructor is available.
 
 ### 6. Abstract Classes with Modifiers
 
@@ -822,7 +842,7 @@ class MyService implements Service {} // COMPILE ERROR
 ```
 
 The modifier applies to the abstract class itself. `abstract base` means "abstract AND base", you
-Cannot instantiate it directly, and external code must extend it.
+cannot instantiate it directly, and external code must extend it.
 
 ### 7. Constructors in `interface` Classes
 
@@ -842,7 +862,7 @@ class MyBuilder implements Builder {
 
 `implements` does not inherit constructors. The implementing class must declare its own
 Constructors. This is not specific to `interface`it has always been true for `implements`. But
-With `interface`It is the only option.
+with `interface`. It is the only option.
 
 ### 8. Modifiers and `part` Files
 
@@ -881,7 +901,7 @@ class Dog extends Animal {
 ```
 
 If you want to prevent method overriding, use `@nonVirtual` annotation (from `package:meta`) or make
-The method non-virtual by design.
+the method non-virtual by design.
 
 ### 10. Combining with `abstract`
 
@@ -894,7 +914,7 @@ abstract interface class Handler {} // Abstract AND interface
 abstract final class Config {} // Abstract AND final, cannot be instantiated or subclassed externally
 ```
 
-The only redundant combination is `abstract sealed``sealed` already implies `abstract`.
+The only redundant combination is `abstract sealed`, `sealed` already implies `abstract`.
 
 ### 11. Enums and Modifiers
 
@@ -926,18 +946,7 @@ class TestApiClient extends ApiClient {
 ```
 
 `final` only restricts external code. Within the same library, you can extend `final` classes. This
-Is useful for test doubles and internal implementation variants.
-
-
-```mermaid
-flowchart TD
-    A[03 Class Modifiers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+is useful for test doubles and internal implementation variants.
 
 ## Summary
 
@@ -952,17 +961,11 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Class modifiers are like traffic signs on a highway -- they tell other drivers (external libraries) whether they can enter your lane (extend), merge into your lane (implement), or drive alongside you (mixin). The 'base' modifier says 'you must follow my lead' -- only extends is allowed, preserving your invariants. The 'interface' modifier says 'you must build your own car' -- only implements is allowed, forcing callers to provide their own implementation. The 'final' modifier says 'this lane is closed' -- no one can follow you. These modifiers are the library author's way of communicating the inheritance contract before a single line of code is written.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

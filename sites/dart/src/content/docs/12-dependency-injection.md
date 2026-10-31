@@ -26,7 +26,7 @@ categories:
 Dependency Injection (DI) is a design pattern that implements **Inversion of Control (IoC)**:
 Instead of a class creating its own dependencies, they are provided from the outside. This decouples
 Consumers from concrete implementations and is fundamental to writing testable, maintainable Dart
-And Flutter code.
+and Flutter code.
 
 ### Core Principles
 
@@ -233,7 +233,7 @@ class NotificationService {
 ## Service Locator Pattern
 
 A service locator is a central registry where objects register their dependencies and look them up
-At runtime. In Dart, `GetIt` is the canonical service locator.
+at runtime. In Dart, `GetIt` is the canonical service locator.
 
 ### How It Works
 
@@ -664,7 +664,7 @@ abstract class RegisterModule {
 ## Riverpod as DI
 
 Riverpod is both a state management solution and a dependency injection framework. Providers serve
-As dependency containers with compile-time safety.
+as dependency containers with compile-time safety.
 
 ### Providers as Dependency Containers
 
@@ -1090,6 +1090,8 @@ class OrderFactory {
 
 ## Comparison Table
 
+<div class="table-wrap">
+
 | Aspect                | Constructor Injection                       | Service Locator (get_it)               | Riverpod                                          |
 | --------------------- | ------------------------------------------- | -------------------------------------- | ------------------------------------------------- |
 | Compile-time safety   | Full, missing deps are compile errors      | None, errors at runtime               | Full, missing providers are compile errors       |
@@ -1103,6 +1105,8 @@ class OrderFactory {
 | Learning curve        | Low                                         | Low                                    | Moderate to high                                  |
 | Flutter integration   | Manual wiring                               | Manual wiring                          | Native (ConsumerWidget, HookConsumerWidget)       |
 | Hot reload            | Works                                       | Works                                  | Works                                             |
+
+</div>
 
 ---
 
@@ -1174,7 +1178,7 @@ class C {
 ### Singleton vs Factory for Testability
 
 Using singletons for everything makes tests interdependent. State leaks between tests if singletons
-Are not reset.
+are not reset.
 
 ```dart
 // DON'T, singleton for stateful service used in tests
@@ -1226,20 +1230,9 @@ setUp(() {
 ### Mixing DI Approaches Inconsistently
 
 Using `get_it` in one module and Riverpod in another creates confusion about where dependencies live
-And how they're resolved. Pick one primary approach and be consistent. If using Riverpod, prefer
+and how they're resolved. Pick one primary approach and be consistent. If using Riverpod, prefer
 Riverpod providers for all Flutter-specific dependencies and reserve `get_it` for non-Flutter Dart
 Services if needed.
-
-
-```mermaid
-flowchart TD
-    A[12 Dependency Injection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -1254,17 +1247,11 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Dependency injection is like ordering food delivery instead of cooking -- you specify what you want (interface), the kitchen (provider) prepares it, and you do not need to know the recipe (implementation). Constructor injection is the transparent kitchen: you see exactly what ingredients go in. GetIt is the mystery box: you ask for a dish by name and trust the kitchen to deliver. Riverpod is the smart kitchen: it knows what ingredients you need, prepares them lazily, and cleans up when you are done eating. The key insight is that DI is not about frameworks -- it is about making dependencies explicit, visible, and replaceable.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

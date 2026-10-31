@@ -25,7 +25,7 @@ Host**) that is intended to execute on a different architecture or operating sys
 
 This is distinct from native compilation, where the Build Host and Target are identical.
 Cross-compilation is standard practice for embedded systems, mobile development, and CI/CD pipelines
-Where build agents (often Linux x86_64) must generate binaries for Windows, macOS, or ARM devices.
+where build agents (often Linux x86_64) must generate binaries for Windows, macOS, or ARM devices.
 
 ## The Architecture of a Cross-Toolchain
 
@@ -46,11 +46,11 @@ Toolchain.
 ### 2. The Sysroot
 
 The compiler cannot use the headers (`/usr/include`) or libraries (`/usr/lib`) of the Build Host, as
-They correspond to the wrong architecture. The **Sysroot** is a directory structure that mirrors the
+they correspond to the wrong architecture. The **Sysroot** is a directory structure that mirrors the
 Root (`/`) of the Target system, containing:
 
 - **Target Headers:** Kernel headers and Standard Library headers (glibc/musl).
-- **Target Libraries:** Pre-compiled shared objects (`.so``.dll`) and static archives (`.a` `.lib`)
+- **Target Libraries:** Pre-compiled shared objects (`.so`, `.dll`) and static archives (`.a` `.lib`)
   for the target architecture.
 
 ### 3. The Binutils
@@ -65,6 +65,8 @@ Support tools required for linking and object manipulation, also prefixed with t
 ## Common Target Triples
 
 The following table lists target triples commonly encountered in cross-compilation.
+
+<div class="table-wrap">
 
 | Target Platform             | Target Triple           | Notes                                       |
 | :-------------------------- | :---------------------- | :------------------------------------------ |
@@ -81,7 +83,9 @@ The following table lists target triples commonly encountered in cross-compilati
 | FreeRTOS ARM Cortex-M7      | `arm-none-eabi`         | Bare metal (same triple, different `-mcpu`) |
 | Embedded RISC-V             | `riscv64-unknown-elf`   | Bare metal RISC-V                           |
 
-### Clang"s `-target` Flag
+</div>
+
+### Clang's `-target` Flag
 
 Clang uses a unified driver model. Instead of requiring a separate prefixed binary for each target,
 Clang accepts a `-target` flag that dynamically selects the code generator:
@@ -98,12 +102,12 @@ clang++ -target x86_64-w64-mingw32 --sysroot=/usr/x86_64-w64-mingw32 main.cpp
 ```
 
 This is fundamentally different from GCC, which requires a separate binary for each target
-(`aarch64-linux-gnu-g++``x86_64-w64-mingw32-g++`). Clang's approach simplifies CI/CD pipelines
-Because a single Clang installation can target any architecture.
+(`aarch64-linux-gnu-g++`, `x86_64-w64-mingw32-g++`). Clang's approach simplifies CI/CD pipelines
+because a single Clang installation can target any architecture.
 
 ## CMake Toolchain Files
 
-In modern C++, passing dozens of compiler flags (`--sysroot``-target`) via the command line is
+In modern C++, passing dozens of compiler flags (`--sysroot`, `-target`) via the command line is
 Fragile and unmaintainable. The industry standard is the **CMake Toolchain File**.
 
 A toolchain file is a CMake script ( ending in `.cmake`) that presets compilation variables Before
@@ -181,7 +185,7 @@ cmake --build build-win
 ### Scenario 1: Linux Host $\to$ Windows Target (MinGW-w64)
 
 This is the most common CI/CD scenario, allowing Linux servers to build Windows `.exe` artifacts
-Without needing a Windows license or VM.
+without needing a Windows license or VM.
 
 **Prerequisites (Debian/Ubuntu):**
 
@@ -249,7 +253,7 @@ set(CMAKE_SYSROOT /usr/riscv64-linux-gnu)
 ## Handling Dependencies (Vcpkg)
 
 Managing 3rd-party libraries (e.g., Boost, fmt, nlohmann_json) during cross-compilation is complex
-Because the libraries themselves must be compiled for the target.
+because the libraries themselves must be compiled for the target.
 
 **Vcpkg** handles this via "Triplet" files.
 
@@ -445,6 +449,8 @@ cmake -S . -B build-android \
 
 ### NDK ABI Options
 
+<div class="table-wrap">
+
 | ABI           | Architecture | Devices                              |
 | ------------- | ------------ | ------------------------------------ |
 | `armeabi-v7a` | ARM 32-bit   | Older Android devices                |
@@ -452,13 +458,19 @@ cmake -S . -B build-android \
 | `x86`         | x86 32-bit   | Android emulators (older)            |
 | `x86_64`      | x86 64-bit   | Android emulators                    |
 
+</div>
+
 ### NDK STL Options
+
+<div class="table-wrap">
 
 | STL          | Description     | Use Case                              |
 | ------------ | --------------- | ------------------------------------- |
 | `c++_shared` | libc++ (shared) | Default, recommended for most apps    |
 | `c++_static` | libc++ (static) | Standalone executables, NDK-only apps |
 | `none`       | No C++ STL      | Pure C projects                       |
+
+</div>
 
 ```cmake
 # In CMakeLists.txt -- verify the STL at configure time
@@ -569,7 +581,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -fno-exceptions -fno-rtti")
 
 Conan provides an alternative to manual toolchain files for cross-compilation. Conan's profile
 System handles the toolchain selection, standard library configuration, and dependency resolution
-For the target platform.
+for the target platform.
 
 ### Conan Cross-Compilation Workflow
 
@@ -612,7 +624,7 @@ Conan resolves the dependency graph for the target architecture automatically.
 ## Cross-Compiling Static Libraries vs Shared Libraries
 
 The choice between static and shared libraries has different implications for cross-compilation than
-For native compilation.
+for native compilation.
 
 ### Static Libraries (Recommended for Embedded)
 
@@ -628,7 +640,7 @@ set(BUILD_SHARED_LIBS OFF)
 
 Shared libraries (`.so`) require a matching dynamic linker on the target. When cross-compiling, the
 Shared libraries must be built for the target architecture, and the `RPATH` must be set correctly so
-The executable can find them at runtime.
+the executable can find them at runtime.
 
 ```cmake
 # Set RPATH for the target filesystem
@@ -755,17 +767,6 @@ Use the following checklist to diagnose cross-compilation failures:
 - [vcpkg](/enviroment_and_toolchain/3_dependency_management/3_vcpkg/) -- Cross-compiling dependencies with triplets
 - [Conan](/enviroment_and_toolchain/3_dependency_management/4_conan/) -- Cross-compilation with Conan profiles
 
-
-```mermaid
-flowchart TD
-    A[4_Crosscompilation_Toolchains] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of cross-compilation toolchains, including underlying theory,
@@ -779,13 +780,7 @@ practical implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -799,4 +794,4 @@ Cross-compilation lets you build code for a different architecture than your dev
 - [[enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism]] - Parallel cross-compilation
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)

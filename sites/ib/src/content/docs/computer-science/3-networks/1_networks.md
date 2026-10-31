@@ -29,12 +29,12 @@ categories:
 ## Computer Network
 
 A computer network is a set of two or more computer systems that is able to exchange data by a
-Connection.
+connection.
 
 ### Server
 
 A server is a broad term for a computer system or software that provide a service, this can be a
-Single computer system to a large cluster with many computer systems.
+single computer system to a large cluster with many computer systems.
 
 ### Client
 
@@ -44,22 +44,22 @@ A client is a computer system to requests a service from a server in the same ne
 
 A hub is a connection point that directly copies transmitted data and send to every device
 Connected. When a device sends transmit data to the hub, the hub copies the data and sends towards
-All devices connected. The device awaiting the data will receive the data, while all other device
+all devices connected. The device awaiting the data will receive the data, while all other device
 Ignores the signal. Therefore the hub itself is does not account for any MAC address, and is
-Consider a Physical Layer device in the OSI model.
+consider a Physical Layer device in the OSI model.
 
 ### Switch
 
 A switch is a connection point that can identify the device connection to each port and transmit
 Data to the corresponding device using a MAC address. This means only the device awaiting for the
-Data will receive data while all other devices connected will not. The switch is consider a data
+data will receive data while all other devices connected will not. The switch is consider a data
 Link layer in the OSI model as a flow control is present.
 
 ### Router
 
 A router is a connection point that connect multiple networks, where MAC address is use to transmit
 Information within the local network, and IP is used when transmitting information outside of the
-Local network. The router is a network layer in the OSI model as it involves inter-network
+local network. The router is a network layer in the OSI model as it involves inter-network
 Connections.
 
 ### Modem
@@ -109,7 +109,7 @@ A WAP is a connection point that acts as a hub with wireless connection
 
 The OSI model is a networking standard established by the International Organization for
 Standardization (ISO) to formalize communication across multiple devices. OSI is established by 7
-Layers which specifies standards for physical communication and virtual communication, this include:
+layers which specifies standards for physical communication and virtual communication, this include:
 
 - Physical communication
 - Physical layer
@@ -285,6 +285,8 @@ DHCP automatically assigns IP addresses to devices on a network.
 
 ### Other Important Protocols
 
+<div class="table-wrap">
+
 | Protocol  | Layer       | Function                                               |
 | :-------- | :---------- | :----------------------------------------------------- |
 | FTP       | Application | File transfer between client and server                |
@@ -293,6 +295,8 @@ DHCP automatically assigns IP addresses to devices on a network.
 | UDP       | Transport   | Connectionless, fast data delivery (streaming, gaming) |
 | ARP       | Network     | Maps IP addresses to MAC addresses                     |
 | ICMP      | Network     | Error reporting and diagnostics (e.g. `ping`)          |
+
+</div>
 
 ---
 
@@ -325,6 +329,8 @@ DHCP automatically assigns IP addresses to devices on a network.
 - **Disadvantages:** Harder to manage and secure; performance depends on the number and capability
   of peers; data consistency is harder to maintain.
 
+<div class="table-wrap">
+
 | Feature           | Client-Server                  | Peer-to-Peer                               |
 | :---------------- | :----------------------------- | :----------------------------------------- |
 | Central authority | Yes (server)                   | No                                         |
@@ -333,6 +339,8 @@ DHCP automatically assigns IP addresses to devices on a network.
 | Security          | Centralised, easier to manage  | Distributed, harder to manage              |
 | Fault tolerance   | Server failure affects all     | Individual peer failure has minimal impact |
 | Examples          | Web browsing, email, databases | BitTorrent, blockchain                     |
+
+</div>
 
 ---
 
@@ -383,7 +391,7 @@ DHCP automatically assigns IP addresses to devices on a network.
 ## Encryption
 
 Encryption is the process of converting plaintext into ciphertext using an algorithm and a key. Only
-Authorised parties with the correct key can decrypt the data.
+authorised parties with the correct key can decrypt the data.
 
 ### Symmetric Encryption
 
@@ -441,7 +449,7 @@ Data is broken into packets, each containing:
 - **Trailer:** Error-checking information (checksum).
 
 Packets may travel different routes across the network and arrive out of order. They are reassembled
-At the destination using sequence numbers.
+at the destination using sequence numbers.
 
 ### Error Detection
 
@@ -480,7 +488,9 @@ At the destination using sequence numbers.
 ## TCP/IP Protocol Stack Detail
 
 The TCP/IP model is a four-layer model that predates and influenced the OSI model. It is the
-Practical framework used on the internet today.
+practical framework used on the internet today.
+
+<div class="table-wrap">
 
 | Layer | TCP/IP Name    | OSI Equivalent                     | Key Protocols                   |
 | :---- | :------------- | :--------------------------------- | :------------------------------ |
@@ -488,6 +498,8 @@ Practical framework used on the internet today.
 | 3     | Transport      | Transport                          | TCP, UDP                        |
 | 2     | Internet       | Network                            | IP, ICMP, ARP, OSPF             |
 | 1     | Network Access | Data Link, Physical                | Ethernet, Wi-Fi, MAC, PPP       |
+
+</div>
 
 ### TCP Segment Structure
 
@@ -503,6 +515,8 @@ A TCP segment contains:
 
 ### TCP vs UDP
 
+<div class="table-wrap">
+
 | Feature      | TCP                                      | UDP                                  |
 | :----------- | :--------------------------------------- | :----------------------------------- |
 | Connection   | Connection-oriented (handshake required) | Connectionless                       |
@@ -511,6 +525,8 @@ A TCP segment contains:
 | Flow control | Yes (window-based)                       | No                                   |
 | Overhead     | Higher (more header data)                | Lower (minimal header)               |
 | Use cases    | Web browsing, email, file transfer       | Streaming, gaming, VoIP, DNS queries |
+
+</div>
 
 ### UDP Segment Structure
 
@@ -540,7 +556,7 @@ Security, and address management.
 ### Subnet Mask
 
 A subnet mask determines which portion of an IP address represents the network and which represents
-The host. It is written as a series of 1s followed by 0s:
+the host. It is written as a series of 1s followed by 0s:
 
 - `255.255.255.0` = `/24` = the first 24 bits are the network portion.
 - `255.255.0.0` = `/16` = the first 16 bits are the network portion.
@@ -549,7 +565,7 @@ The host. It is written as a series of 1s followed by 0s:
 
 **Problem:** A company has been allocated the network `192.168.1.0/24`. They need 6 subnets.
 Determine the subnet mask, number of usable hosts per subnet, and the range of the first three
-Subnets.
+subnets.
 
 **Solution:**
 
@@ -559,11 +575,15 @@ Subnets.
 4. Host bits remaining: $8 - 3 = 5$ So $2^5 - 2 = 30$ usable hosts per subnet.
 5. Subnet ranges (block size = $256 - 224 = 32$):
 
+<div class="table-wrap">
+
 | Subnet | Network Address | Usable Host Range               | Broadcast Address |
 | :----- | :-------------- | :------------------------------ | :---------------- |
 | 1      | `192.168.1.0`   | `192.168.1.1` - `192.168.1.30`  | `192.168.1.31`    |
 | 2      | `192.168.1.32`  | `192.168.1.33` - `192.168.1.62` | `192.168.1.63`    |
 | 3      | `192.168.1.64`  | `192.168.1.65` - `192.168.1.94` | `192.168.1.95`    |
+
+</div>
 
 ---
 
@@ -580,6 +600,8 @@ Subnets.
 
 ### Malware Types
 
+<div class="table-wrap">
+
 | Type       | Description                                                   | Example                             |
 | :--------- | :------------------------------------------------------------ | :---------------------------------- |
 | Virus      | Attaches to legitimate files; requires user action to spread  | Macro virus in Word documents       |
@@ -588,6 +610,8 @@ Subnets.
 | Ransomware | Encrypts files and demands payment for decryption key         | WannaCry (2017), NotPetya (2017)    |
 | Spyware    | Monitors user activity and collects data without consent      | Keyloggers                          |
 | Rootkit    | Hides deep in the OS to maintain persistent privileged access | Used in advanced persistent threats |
+
+</div>
 
 ### Common Attack Vectors
 
@@ -631,7 +655,7 @@ Write the network address, first usable address, and broadcast address for the f
 A) We need $2^n \ge 10$. With $n = 4$, $2^4 = 16 \ge 10$. Minimum subnet bits: 4. B) Original
 Prefix: `/24`. New prefix: `/24 + 4 = /28`. Subnet mask: `255.255.255.240`. C) Remaining host bits:
 $8 - 4 = 4$. Usable hosts: $2^4 - 2 = 14$ per subnet. D) Block size: $256 - 240 = 16$. First subnet:
-Network = `192.168.10.0`First usable = `192.168.10.1`Broadcast = `192.168.10.15`.
+Network = `192.168.10.0`. First usable = `192.168.10.1`Broadcast = `192.168.10.15`.
 
 </details>
 
@@ -639,7 +663,7 @@ Network = `192.168.10.0`First usable = `192.168.10.1`Broadcast = `192.168.10.15`
 <summary>Question 2</summary>
 
 Explain why TCP is described as a "reliable" protocol but UDP is not. In your answer, describe the
-Mechanisms TCP uses to ensure reliability and explain why these mechanisms are not always desirable.
+mechanisms TCP uses to ensure reliability and explain why these mechanisms are not always desirable.
 
 </details>
 
@@ -655,8 +679,8 @@ Allow the receiver to reassemble packets in the correct order and detect missing
 
 UDP does not use any of these mechanisms, making it unreliable but faster and with lower overhead.
 UDP is preferred for real-time applications (streaming, VoIP, online gaming) where speed matters
-More than perfect delivery, and for DNS queries where the small request/response size makes the
-Overhead of a TCP connection wasteful.
+more than perfect delivery, and for DNS queries where the small request/response size makes the
+overhead of a TCP connection wasteful.
 
 </details>
 
@@ -664,7 +688,7 @@ Overhead of a TCP connection wasteful.
 <summary>Question 3</summary>
 
 A user types `https://www.example.com` into their browser. Describe, in order, the steps that occur
-From the moment the URL is entered until the web page begins to load. Include reference to DNS
+from the moment the URL is entered until the web page begins to load. Include reference to DNS
 Resolution, TCP connections, TLS, and HTTP.
 
 </details>
@@ -699,7 +723,7 @@ Groups cannot communicate with each other.
 
 A) What network technology would you recommend to achieve this without adding physical switches? b)
 Explain how this technology works at the Data Link layer. C) Discuss one advantage and one
-Disadvantage of this approach compared to using three separate physical switches.
+disadvantage of this approach compared to using three separate physical switches.
 
 </details>
 
@@ -708,10 +732,10 @@ Disadvantage of this approach compared to using three separate physical switches
 
 A) VLAN (Virtual Local Area Network). B) A VLAN works at the Data Link layer by tagging Ethernet
 Frames with a VLAN ID (using IEEE 802.1Q standard). The switch is configured so that ports assigned
-To VLAN 1 can only communicate with other ports in VLAN 1, and similarly for VLANs 2 and 3. The
-Switch enforces this isolation by only forwarding frames to ports in the same VLAN. Frames between
-Different VLANs can only be routed through a router (inter-VLAN routing), which can be configured
-With access control policies. C) **Advantage:** Cost-effective, no additional hardware required;
+to VLAN 1 can only communicate with other ports in VLAN 1, and similarly for VLANs 2 and 3. The
+switch enforces this isolation by only forwarding frames to ports in the same VLAN. Frames between
+different VLANs can only be routed through a router (inter-VLAN routing), which can be configured
+with access control policies. C) **Advantage:** Cost-effective, no additional hardware required;
 Flexible, devices can be moved between VLANs through software configuration without recabling.
 **Disadvantage:** All VLANs share the same physical switch, so a hardware failure of the switch
 Affects all VLANs; total bandwidth is shared among all VLANs.
@@ -735,7 +759,7 @@ Compare and contrast symmetric and asymmetric encryption. Your answer should add
 
 **Symmetric encryption** uses a single shared key for both encryption and decryption. Both the
 Sender and receiver must possess the same key. The main challenge is **key distribution**: how to
-Securely share the key without it being intercepted. Symmetric encryption is computationally
+securely share the key without it being intercepted. Symmetric encryption is computationally
 **fast**, making it suitable for encrypting large volumes of data (e.g., AES).
 
 **Asymmetric encryption** uses a key pair: a public key (freely shared) and a private key (kept
@@ -766,34 +790,20 @@ Encryption with the speed of symmetric encryption.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic      | Site       | Link                                                                                                      |
 | ---------- | ---------- | --------------------------------------------------------------------------------------------------------- |
 | [Networks] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/networks/01-network-fundamentals) |
-| [Networks] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/3-networks/1_networks)                             |
-| [Networks] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/4-networking-and-internet/1_internet-and-data-communications) |
+| [Networks] | IB         | [View](https://ib.wyattau.com/computer-science/3-networks/1_networks/)                             |
+| [Networks] | DSE        | [View](https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications/) |
 | [Networks] | University | [View](https://computer-science.wyattau.com/)             |
 
-
-```mermaid
-flowchart TD
-    A[1_Networks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

@@ -20,7 +20,7 @@ description: "Flooding occurs when water overtops the channel banks and inundate
 ## Causes of Flooding
 
 Flooding occurs when water overtops the channel banks and inundates adjacent land. Floods are
-Produced by the interaction of meteorological, hydrological, and human factors.
+produced by the interaction of meteorological, hydrological, and human factors.
 
 ### Physical Causes
 
@@ -28,12 +28,12 @@ Produced by the interaction of meteorological, hydrological, and human factors.
 Profile and raise water tables, reducing infiltration capacity and generating overland flow. Intense
 Convective storms (common in tropical regions and during summer in mid-latitudes) can produce
 Rainfall rates exceeding 50 mm per hour, rapidly generating surface runoff. The 2022 Pakistan floods
-Were caused by monsoonal rainfall that was approximately 190% above the 30-year average, displacing
+were caused by monsoonal rainfall that was approximately 190% above the 30-year average, displacing
 Approximately 33 million people and submerging approximately one-third of the country.
 
 **Snowmelt.** Rapid warming in spring can cause large volumes of snow to melt over a short period,
 Generating runoff that overwhelms river channels. The combination of snowmelt and rainfall is
-Particularly dangerous, as rain falling on snow accelerates melting. The Red River in North Dakota
+particularly dangerous, as rain falling on snow accelerates melting. The Red River in North Dakota
 (USA) experiences severe spring flooding almost annually due to snowmelt, exacerbated by the river"s
 Northward flow (the southern, upstream portion thaws first, sending meltwater into still-frozen
 Downstream reaches).
@@ -45,7 +45,7 @@ Inundating the coastal zone and killing approximately 3400 people.
 
 **Urbanisation.** Impermeable surfaces (roads, buildings, pavements) reduce infiltration and
 Increase overland flow velocity and volume. Urban drainage systems concentrate and accelerate flow
-Into rivers. In a fully urbanised basin, the percentage of impermeable surface can exceed 80%,
+into rivers. In a fully urbanised basin, the percentage of impermeable surface can exceed 80%,
 Compared to approximately 5% in a natural vegetated basin. The August 2002 floods in Prague and
 Dresden were exacerbated by urbanisation in the Elbe basin.
 
@@ -56,12 +56,16 @@ Yangtze floods, which killed over 4000 people and displaced approximately 14 mil
 
 ### Human Causes
 
+<div class="table-wrap">
+
 | Factor                     | Mechanism                                                                                                                        | Example                                                                                                                                 |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | **Channel modification**   | Straightening, deepening, or widening channels increases flow velocity and transfers flood risk downstream                       | The River Rhine was channelised in the 19th and 20th centuries, increasing downstream flood risk in the Netherlands                     |
 | **Floodplain development** | Building on floodplains removes natural flood storage and increases exposure to flooding                                         | Approximately 2 million properties in England are at risk of flooding; development continues in flood-prone areas due to housing demand |
 | **Drainage of wetlands**   | Wetlands act as natural sponges, absorbing and slowly releasing floodwater; drainage eliminates this function                    | Over 85% of England's floodplain wetlands have been drained since the 18th century                                                      |
 | **Climate change**         | Increased frequency and intensity of extreme rainfall events; accelerated snowmelt; sea level rise increasing coastal flood risk | The UK Met Office estimates that the intensity of extreme rainfall events has increased by approximately 20% since the 1960s            |
+
+</div>
 
 ## Hard Engineering Approaches
 
@@ -74,7 +78,7 @@ areas.
 
 Dams store floodwater during high-flow periods and release it gradually during low-flow periods,
 Attenuating the flood peak downstream. The dam can be operated specifically for flood control (the
-Reservoir is kept partially empty as a flood buffer) or for multiple purposes (flood control, water
+reservoir is kept partially empty as a flood buffer) or for multiple purposes (flood control, water
 Supply, hydropower, recreation).
 
 **Effectiveness:** dams can significantly reduce peak discharge downstream. The Aswan High Dam on
@@ -99,7 +103,7 @@ USD 150 billion in property.
 **Limitations:** levees increase the velocity and depth of flow within the channel (constricting the
 River), which can increase erosion at the base of the levee and increase the risk of catastrophic
 Failure. Levee failure during Hurricane Katrina (2005) caused approximately 80% of New Orleans to
-Flood, killing over 1500 people. Levees also transfer flood risk downstream by preventing natural
+flood, killing over 1500 people. Levees also transfer flood risk downstream by preventing natural
 Floodplain storage.
 
 ### Channelisation
@@ -111,14 +115,14 @@ River channels to increase their conveyance capacity.
 
 **Limitations:** increases flood risk downstream (floodwater arrives faster and with greater
 Volume); destroys aquatic and riparian habitat; can accelerate bank erosion; is expensive to
-Maintain (channels require regular dredging to prevent sediment accumulation).
+maintain (channels require regular dredging to prevent sediment accumulation).
 
 ### Flood Walls and Barriers
 
 Flood walls are vertical concrete or steel barriers designed to protect specific areas of high value
-From floodwater. Movable storm surge barriers (e.g., the Thames Barrier, the Maeslantkering in the
+from floodwater. Movable storm surge barriers (e.g., the Thames Barrier, the Maeslantkering in the
 Netherlands) can be closed during flood events and opened at other times to allow navigation and
-Tidal flow.
+tidal flow.
 
 **Effectiveness:** highly effective for protecting critical infrastructure and densely populated
 Areas when properly maintained and operated.
@@ -135,33 +139,33 @@ a lower level of protection and may not be sufficient for high-risk areas.
 ### Afforestation
 
 Planting trees in the upper reaches of a drainage basin increases interception (reducing the volume
-Of water reaching the ground), enhances infiltration (through root systems and improved soil
+of water reaching the ground), enhances infiltration (through root systems and improved soil
 Structure), and increases evapotranspiration. Research in the UK uplands has shown that converting
 Grazed pasture to native woodland can reduce peak discharge by 15--40% for moderate storms.
 
 **Limitations:** trees take decades to mature and achieve full hydrological effect; the
 Effectiveness of afforestation varies with soil type and storm intensity (during extreme storms, the
-Soil becomes saturated regardless of vegetation cover); there may be conflicts with agricultural
+soil becomes saturated regardless of vegetation cover); there may be conflicts with agricultural
 Land use.
 
 ### Floodplain Zoning
 
 Floodplain zoning involves restricting or regulating development on floodplains through planning
 Legislation. Zones are defined based on flood risk (probability of flooding), with the most
-Restrictive controls in areas of highest risk.
+restrictive controls in areas of highest risk.
 
 **Effectiveness:** prevents future increases in flood risk and exposure; allows floodplains to
 Perform their natural functions (flood storage, water quality improvement, habitat provision).
 
 **Limitations:** politically difficult to enforce, particularly in areas with high housing demand;
 Does not address existing development on floodplains; can be undermined by inadequate enforcement or
-Political pressure to grant planning permission.
+political pressure to grant planning permission.
 
 ### River Restoration
 
 River restoration involves returning modified rivers to more natural morphological and ecological
 Conditions. This can include remeandering (recreating meanders that were previously cut off),
-Removing artificial channel straightening, reinstating natural bank materials, and reconnecting
+removing artificial channel straightening, reinstating natural bank materials, and reconnecting
 Rivers to their floodplains.
 
 **Effectiveness:** restoring channel roughness and floodplain connectivity increases the channel's
@@ -191,7 +195,7 @@ Wetland infilling and sedimentation.
 Integrated flood management (IFM) combines hard and soft engineering approaches with land-use
 Planning, early warning systems, community preparedness, and ecosystem management to reduce flood
 Risk holistically. The concept is promoted by the World Meteorological Organisation (WMO) and the
-International Flood Management Initiative.
+international Flood Management Initiative.
 
 ### Key Principles
 
@@ -211,7 +215,7 @@ International Flood Management Initiative.
 ## Case Study: Flood Management in Bangladesh
 
 Bangladesh is one of the most flood-prone countries in the world. Approximately 80% of its land area
-Is low-lying floodplain, formed by the Ganges, Brahmaputra, and Meghna rivers. Flooding is a regular
+is low-lying floodplain, formed by the Ganges, Brahmaputra, and Meghna rivers. Flooding is a regular
 Occurrence: approximately 20% of the country is inundated in a normal year; in severe flood years
 (e.g., 1988, 1998, 2004, 2022), over 60% can be submerged.
 
@@ -247,7 +251,7 @@ Has one of the world's most sophisticated flood management systems.
 
 **Room for the River (2006--2015).** This landmark programme represented a paradigm shift from hard
 Engineering (fighting water) to working with natural processes. It involved 30 projects along the
-Major rivers (Rhine, Meuse, Waal), including:
+major rivers (Rhine, Meuse, Waal), including:
 
 - Widening and deepening river channels
 - Lowering floodplains by removing topsoil
@@ -256,7 +260,7 @@ Major rivers (Rhine, Meuse, Waal), including:
 - Removing obstacles (quays, groynes) that constricted the channel
 
 The programme cost approximately EUR 2.3 billion and increased the channel's conveyance capacity by
-Approximately 18%, reducing flood risk for approximately 4 million people.
+approximately 18%, reducing flood risk for approximately 4 million people.
 
 **Delta Programme (2010--2050).** This long-term programme addresses flood risk from both rivers and
 The sea, with a budget of over EUR 20 billion. Key elements include:
@@ -271,14 +275,14 @@ The sea, with a budget of over EUR 20 billion. Key elements include:
 <summary>Common Pitfalls: Presenting Hard and Soft Engineering as Binary Choices</summary>
 
 Examination questions often ask students to evaluate flood management strategies. A common error is
-To present hard and soft engineering as mutually exclusive alternatives, arguing that one is
-Inherently superior to the other. In practice, most modern flood management strategies combine
+to present hard and soft engineering as mutually exclusive alternatives, arguing that one is
+inherently superior to the other. In practice, most modern flood management strategies combine
 Elements of both. The Netherlands, for example, uses both hard engineering (the Maeslantkering
 Barrier, reinforced dikes) and soft engineering (Room for the River, floodplain restoration). The
-Appropriate mix depends on context: the level of flood risk, the value of assets at risk, available
+appropriate mix depends on context: the level of flood risk, the value of assets at risk, available
 Finance, environmental considerations, and social preferences. A strong answer will evaluate the
-Specific combination of strategies used in a given case study and assess its appropriateness to the
-Local context.
+specific combination of strategies used in a given case study and assess its appropriateness to the
+local context.
 
 </details>
 
@@ -303,24 +307,7 @@ Flood management is the art of choosing between fighting water and making room f
 
 4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-
-```mermaid
-flowchart TD
-    A[Flood Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

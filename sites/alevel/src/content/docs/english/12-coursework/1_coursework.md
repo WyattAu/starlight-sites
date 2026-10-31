@@ -20,16 +20,6 @@ description: "A-Level English coursework guide: NEA requirements, independent re
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Coursework] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **English literature explores the human experience through language, words painting pictures of life.**
@@ -81,6 +71,8 @@ Select texts that:
 
 ### Recommended Pairings
 
+<div class="table-wrap">
+
 | Text A | Text B | Connection |
 | -------- | -------- | ------------ |
 | _Jane Eyre_ (Brontë) | _Wide Sargasso Sea_ (Rhys) | Colonialism, gender, Gothic |
@@ -88,6 +80,8 @@ Select texts that:
 | _Heart of Darkness_ (Conrad) | _Things Fall Apart_ (Achebe) | Postcolonial critique |
 | _Frankenstein_ (Shelley) | _Never Let Me Go_ (Ishiguro) | Science, ethics, creation |
 | _Middlemarch_ (Eliot) | _The Awakening_ (Chopin) | Gender, marriage, realism |
+
+</div>
 
 These pairings are illustrative; you are not limited to them. The key is that your pairing generates a productive analytical argument.
 

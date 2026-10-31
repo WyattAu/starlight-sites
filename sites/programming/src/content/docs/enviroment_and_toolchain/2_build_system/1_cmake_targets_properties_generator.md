@@ -20,7 +20,7 @@ categories:
 </script>
 
 Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g.,
-`include_directories``add_definitions`). This approach prevents modularity and leaks compilation
+`include_directories`, `add_definitions`). This approach prevents modularity and leaks compilation
 Flags across unrelated parts of a project.
 
 **Modern CMake** (3.0+) is strictly **Target-Centric**. It models the build process as a directed
@@ -53,11 +53,15 @@ add_library(MathHeaderOnly INTERFACE)
 The core mechanism of Modern CMake is the propagation of build requirements. When linking libraries,
 You must specify the scope of the dependency.
 
+<div class="table-wrap">
+
 | Scope         | Definition                                                                                | Use Case                                                                         |
 | :------------ | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
 | **PRIVATE**   | **Build Requirement.** Used internally to build the target, but not exposed to consumers. | Implementation details (e.g., a specific math algorithm used inside a function). |
 | **INTERFACE** | **Usage Requirement.** Not used to build the target itself, but required by consumers.    | Header-only libraries, or headers defining template interfaces.                  |
 | **PUBLIC**    | **Both.** Used to build the target AND required by consumers.                             | Public headers included in the library"s public headers.                         |
+
+</div>
 
 #### Implementation Example
 
@@ -279,7 +283,7 @@ target_link_libraries(App PRIVATE MyCompany::MyLib)
 1. **Encapsulation:** Consumers never need to know whether `MyLib` is static or shared. The
    `CMakeLists.txt` can change from `STATIC` to `SHARED` without modifying any consumer.
 2. **Namespace convention:** Using `Namespace::Target` follows the same convention as `find_package`
-   exported targets (e.g., `fmt::fmt``Boost::system`), providing a uniform interface.
+   exported targets (e.g., `fmt::fmt`, `Boost::system`), providing a uniform interface.
 3. **Subdirectory isolation:** If `MyLib` is defined in a subdirectory, targets outside that
    subdirectory cannot reference it directly (by name) unless an alias is created in the parent
    scope.
@@ -328,7 +332,7 @@ Consumers, prefer an INTERFACE library (described below).
 ## INTERFACE Libraries in Depth
 
 INTERFACE libraries are pure property containers. They have no compiled output, they exist solely
-To propagate build requirements to their consumers.
+to propagate build requirements to their consumers.
 
 ```cmake
 # A header-only library
@@ -455,7 +459,7 @@ target_link_options(Engine PRIVATE
 
 ## Transitive Dependency Resolution Rules
 
-When target `A` links to target `B`The build properties propagate according to strict rules:
+When target `A` links to target `B`. The build properties propagate according to strict rules:
 
 ```
 A links PRIVATE B:
@@ -491,7 +495,7 @@ The result:
 - `Engine` sees `FMT_HEADER_ONLY` when compiling its sources.
 - `App` sees `FMT_HEADER_ONLY` when compiling its sources (because `Engine` propagated it as
   PUBLIC).
-- If a consumer links `App`They do **not** see `FMT_HEADER_ONLY` (because `App` linked `Engine` as
+- If a consumer links `App`. They do **not** see `FMT_HEADER_ONLY` (because `App` linked `Engine` as
   PRIVATE).
 
 ### PRIVATE vs. INTERFACE Dependencies for Implementation Details
@@ -508,7 +512,7 @@ target_link_libraries(Engine PRIVATE spdlog)
 
 Making `spdlog` PUBLIC means every consumer of `Engine`and every consumer of those consumers,
 Must also be able to find `spdlog`. This creates a transitive dependency explosion that slows builds
-And makes the project harder to integrate.
+and makes the project harder to integrate.
 
 ## `target_sources` with File Sets (CMake 3.23+)
 
@@ -541,7 +545,7 @@ install(TARGETS Engine
 ```
 
 This replaces the manual `install(DIRECTORY include/ DESTINATION include)` pattern and ensures that
-Only headers declared in the file set are installed.
+only headers declared in the file set are installed.
 
 ## Common Pitfalls
 
@@ -578,7 +582,7 @@ endif()
 ### 3. Missing `target_link_options` for Link Flags
 
 Using `target_compile_options` for linker flags (like `-fuse-ld=lld`) is incorrect. Compiler options
-Are passed during compilation; linker options require `target_link_options`:
+are passed during compilation; linker options require `target_link_options`:
 
 ```cmake
 # BAD: -fuse-ld is a linker flag, not a compiler flag
@@ -622,16 +626,6 @@ target_include_directories(Engine PUBLIC include)
 
 The `target_*` commands handle transitive propagation correctly; `set_target_properties` does not.
 
-```mermaid
-flowchart TD
-    A[1_Cmake_Targets_Properties_Generator] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to cmake targets properties and
@@ -645,13 +639,7 @@ generator expressions, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -667,7 +655,7 @@ CMake generates build files from a declarative configuration. Targets represent 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## See Also
 

@@ -24,12 +24,12 @@ A uniform field ($\bm{F}$) is a field with spatial invariance, therefore, a zero
 ## Test Charge
 
 A test charge is an idealized particle where all other properties are assumed to be negligible
-Except for the charge.
+except for the charge.
 
 ## Lorentz Force Law
 
-[Coulomb"s Law](/physics/4-fields/2_electric-and-magnetic-fields/#coulombs-law) is only valid for electrostatics, as
-Magnetic force is also induced by moving charge. The combined force ($\bm{F}$) on the test charge
+[Coulomb's Law](/physics/4-fields/2_electric-and-magnetic-fields/#coulombs-law) is only valid for electrostatics, as
+magnetic force is also induced by moving charge. The combined force ($\bm{F}$) on the test charge
 ($q$) can be governed by Lorentz force law:
 
 $$
@@ -58,11 +58,11 @@ $$
 
 ### Motion of Current in Electromagnetic Field
 
-The total force ($\bm{F}$) on a current ($I$) is determined by the combine force on the total number
+The total force ($\bm{F}$) on a current ($ I$) is determined by the combine force on the total number
 ($N$) of moving charges ($q$) in the current. As the dimensions of a electron is negligible when
-Comparing to the cross section of a wire, the flow of electrons $I$ can be approximated by a
-Continuum of current density ($\bm{J} = nq\bm{v}$), where $n$ is the density of charge carriers, and
-Since the electric field have a negligible effect, only the force applied by magnetic field
+comparing to the cross section of a wire, the flow of electrons $I$ can be approximated by a
+continuum of current density ($\bm{J} = nq\bm{v}$), where $n$ is the density of charge carriers, and
+since the electric field have a negligible effect, only the force applied by magnetic field
 ($\bm{B}$ is accounted):
 
 $$
@@ -73,7 +73,7 @@ $$
 $$
 
 For current of a conductor with constant cross-sectional area ($A$) and length displacement of
-($\bm{L}$), the volume can be evaluated as ($V = AL$), leading to a force of:
+($\bm{L}$), the volume can be evaluated as ($ V = AL$), leading to a force of:
 
 $$
 \begin`\{aligned}`
@@ -91,7 +91,7 @@ $$
 $$
 
 Since IB considers the direction separately by the use of right hand rule (Motor effect), the
-Magnitude of the force is expressed as:
+magnitude of the force is expressed as:
 
 $$
 \begin`\{aligned}`
@@ -104,7 +104,7 @@ This is expressed in the formula booklet $D.3$.
 #### Motion Between Currents
 
 According to Ampere's Law, current ($I_1$) generates a magnetic field ($\bm{B_1}$), due to
-Rotational symmetry around the direction of current, the magnetic field can be express using
+rotational symmetry around the direction of current, the magnetic field can be express using
 Cylindrical coordinates ($\hat{\phi}$) shows:
 
 $$
@@ -115,7 +115,7 @@ $$
 
 For a $\hat{\phi} = \hat{y}$ where $\hat{y}$ is a unit vector perpendicular to other current
 ($I_2$). Using the Lorentz Force Law, the magnetic force ($F_{12}$) experienced by the other current
-Is:
+is:
 
 $$
 \begin`\{aligned}`
@@ -149,7 +149,7 @@ Where the direction of motion on current can be determined by right hand rule (m
 
 ## Force on a Stationary Charge in an Electric Field
 
-When a charge $q$ is placed in an electric field $\bm{E}$It experiences a force:
+When a charge $q$ is placed in an electric field $\bm{E}$ It experiences a force:
 
 $$
 \bm{F_E} = q\bm{E}
@@ -164,8 +164,8 @@ Key points:
 
 ## Force on a Moving Charge in a Magnetic Field
 
-When a charge $q$ moves with velocity $\bm{v}$ through a magnetic field $\bm{B}$It experiences the
-Magnetic component of the Lorentz force:
+When a charge $q$ moves with velocity $\bm{v}$ through a magnetic field $\bm{B}$ It experiences the
+magnetic component of the Lorentz force:
 
 $$
 \bm{F_B} = q(\bm{v} \times \bm{B})
@@ -176,15 +176,15 @@ Key points:
 - The magnetic force is always **perpendicular** to both $\bm{v}$ and $\bm{B}$.
 - The magnetic force does **no work** on the charge (since $W = F \cdot d$ and $F \perp v$), so the
   kinetic energy of the charge does not change.
-- The magnitude is $F = qvB \sin\theta$Where $\theta$ is the angle between $\bm{v}$ and $\bm{B}$.
+- The magnitude is $F = qvB \sin\theta$ Where $\theta$ is the angle between $\bm{v}$ and $\bm{B}$.
 - When $\bm{v} \perp \bm{B}$ ($\theta = 90^\circ$), the force is maximum: $F = qvB$.
 - When $\bm{v} \parallel \bm{B}$ ($\theta = 0^\circ$ or $180^\circ$), the force is zero.
 
 ### Right-Hand Rule for Magnetic Force
 
 Point your fingers in the direction of $\bm{v}$ (for a positive charge), curl them towards $\bm{B}$
-And your thumb points in the direction of $\bm{F}$. For a negative charge (e.g. An electron), the
-Force is in the **opposite** direction.
+and your thumb points in the direction of $\bm{F}$. For a negative charge (e.g. An electron), the
+force is in the **opposite** direction.
 
 ---
 
@@ -200,7 +200,7 @@ Force is in the **opposite** direction.
 ## Circular Motion of a Charged Particle in a Magnetic Field
 
 When a charged particle moves perpendicular to a uniform magnetic field ($\bm{v} \perp \bm{B}$), the
-Magnetic force provides the centripetal force, causing the particle to move in a circular path.
+magnetic force provides the centripetal force, causing the particle to move in a circular path.
 
 ### Derivation of the Radius
 
@@ -217,7 +217,7 @@ $$
 Solving for the radius $r$:
 
 $$
-R = \frac`\{mv}``\{qB}`
+R = \frac`\{mv}`, `\{qB}`
 $$
 
 This is one of the most important results in this topic. Key observations:
@@ -248,7 +248,7 @@ This principle is used in the cyclotron particle accelerator.
 
 **Question:** An electron ($m_e = 9.11 \times 10^{-31}$ kg, $q = -1.60 \times 10^{-19}$ C) enters a
 Uniform magnetic field of $B = 0.50$ T with a speed of $v = 3.0 \times 10^6$ m/s, perpendicular to
-The field. Find the radius and period of the circular path.
+the field. Find the radius and period of the circular path.
 
 **Solution:**
 
@@ -262,7 +262,7 @@ $$
 
 **Exam tip:** When dealing with electrons, remember that the charge is negative. Use the magnitude
 Of the charge in the radius/period formulae, and apply the right-hand rule in reverse to find the
-Direction of the force.
+direction of the force.
 
 ---
 
@@ -279,7 +279,7 @@ Direction of the force.
 
 When a charged particle enters a magnetic field at an angle $\theta$ (not $90^\circ$) to the field,
 The velocity component parallel to $\bm{B}$ ($v_\parallel = v \cos\theta$) is unaffected by the
-Magnetic force. Only the perpendicular component ($v_\perp = v \sin\theta$) causes circular motion.
+magnetic force. Only the perpendicular component ($v_\perp = v \sin\theta$) causes circular motion.
 The result is a **helical** (spiral) path.
 
 - The radius of the helix: $r = \frac{mv_\perp}{qB} = \frac{mv \sin\theta}{qB}$
@@ -305,7 +305,7 @@ A specific velocity.
 ### Principle
 
 A particle of charge $q$ and velocity $v$ enters a region where an electric field $\bm{E}$ and a
-Magnetic field $\bm{B}$ are perpendicular to each other and to the direction of motion.
+magnetic field $\bm{B}$ are perpendicular to each other and to the direction of motion.
 
 The electric force and magnetic force act in opposite directions:
 
@@ -327,7 +327,7 @@ V = \frac{E}{B}
 $$
 
 Only particles with this exact velocity pass through. Particles with $v \gt E/B$ are deflected one
-Way; particles with $v \lt E/B$ are deflected the other way.
+way; particles with $v \lt E/B$ are deflected the other way.
 
 ### Worked Example: Velocity Selector
 
@@ -357,7 +357,7 @@ $E$ and $B$. This means it selects a velocity, not a specific particle type.
 ## The Mass Spectrometer
 
 A mass spectrometer is a device that separates ions by their mass-to-charge ratio. It is used in
-Chemistry, forensics, environmental science, and many other fields.
+chemistry, forensics, environmental science, and many other fields.
 
 ### How It Works
 
@@ -375,7 +375,7 @@ $$
    their velocity) and follow a semicircular path. The radius of the path depends on the mass:
 
 $$
-R = \frac`\{mv}``\{qB}`
+R = \frac`\{mv}`, `\{qB}`
 $$
 
 1. **Detection:** Ions of different masses hit the detector at different positions. Since $v$ is the
@@ -405,8 +405,8 @@ $$
 
 **Question:** In a mass spectrometer, singly charged ions ($q = +e = 1.60 \times 10^{-19}$ C) are
 Accelerated through $V = 5000$ V and enter a magnetic field of $B = 0.20$ T. Two isotopes are
-Detected at radii of $r_1 = 10.2$ cm and $r_2 = 10.8$ cm. Calculate the mass of each isotope in
-Atomic mass units (u), where $1 \mathrm{ u} = 1.66 \times 10^{-27}$ kg.
+detected at radii of $r_1 = 10.2$ cm and $r_2 = 10.8$ cm. Calculate the mass of each isotope in
+atomic mass units (u), where $1 \mathrm{ u} = 1.66 \times 10^{-27}$ kg.
 
 **Solution:**
 
@@ -455,7 +455,7 @@ Experience a force, which is transmitted to the wire as a whole.
 ### Derivation
 
 Consider a wire of length $L$ carrying current $I$ in a magnetic field $\bm{B}$. If the wire
-Contains $N$ charge carriers, each with charge $q$Moving with drift velocity $v_d$:
+Contains $N$ charge carriers, each with charge $q$ Moving with drift velocity $v_d$:
 
 $$
 F = Nqv_d B \sin\theta
@@ -494,7 +494,7 @@ The direction is given by Fleming's Left-Hand Rule (motor effect):
    what the right-hand rule gives. Either use the left hand for negative charges, or reverse the
    right-hand rule result.
 
-3. **Magnetic force does no work.** Since $\bm{F} \perp \bm{v}$The kinetic energy of the particle
+3. **Magnetic force does no work.** Since $\bm{F} \perp \bm{v}$ The kinetic energy of the particle
    does not change in a magnetic field. Only electric fields can change the kinetic energy of a
    charged particle.
 
@@ -526,7 +526,7 @@ The direction is given by Fleming's Left-Hand Rule (motor effect):
 A uniform electric field exists between two parallel conducting plates. Key properties:
 
 - Field strength: $E = \frac{V}{d}$ (constant between the plates).
-- A charged particle experiences constant force: $F = qE$Leading to constant acceleration:
+- A charged particle experiences constant force: $F = qE$ Leading to constant acceleration:
   $a = \frac{qE}{m}$.
 - The trajectory is **parabolic** (analogous to projectile motion in a gravitational field).
 - The electric field **does work** on the charge, changing its kinetic energy.
@@ -543,6 +543,8 @@ A uniform magnetic field is produced inside a long solenoid or between the poles
 
 ### Comparison Table
 
+<div class="table-wrap">
+
 | Property            | Uniform Electric Field                  | Uniform Magnetic Field                      |
 | :------------------ | :-------------------------------------- | :------------------------------------------ |
 | Force on charge     | $F = qE$ (constant)                     | $F = qvB\sin\theta$ (velocity-dependent)    |
@@ -551,6 +553,8 @@ A uniform magnetic field is produced inside a long solenoid or between the poles
 | Effect on speed     | Changes speed (accelerates/decelerates) | Does not change speed                       |
 | Trajectory          | Parabolic                               | Circular or helical                         |
 | Kinetic energy      | Changes                                 | Constant                                    |
+
+</div>
 
 ---
 
@@ -568,7 +572,7 @@ A uniform magnetic field is produced inside a long solenoid or between the poles
 **Question:** A cyclotron is used to accelerate protons ($m_p = 1.67 \times 10^{-27}$ kg,
 $q = +1.60 \times 10^{-19}$ C) to a maximum speed of $2.0 \times 10^7$ m/s. The magnetic field
 Strength is $B = 1.2$ T. A) What is the radius of the cyclotron at maximum speed? b) What is the
-Cyclotron frequency? c) What is the maximum kinetic energy of the protons in electron-volts?
+cyclotron frequency? c) What is the maximum kinetic energy of the protons in electron-volts?
 
 **Solution:**
 
@@ -649,7 +653,7 @@ M_2 = \frac{3.33 \times 10^{-26}}{1.66 \times 10^{-27}} = 20.1 \mathrm{ u}
 $$
 
 These correspond to neon-20 (20.2 u) and neon-22 (21.9 u), the slight discrepancy is due to
-Simplified values.
+simplified values.
 
 ---
 
@@ -665,8 +669,8 @@ Simplified values.
 ## Common Pitfalls
 
 1. **Forgetting the angle in $F = qvB\sin\theta$.** If the question does not specify the angle, it
-   is $90^\circ$Making $\sin\theta = 1$. However, if the velocity has a component parallel to
-   $\bm{B}$Use $\sin\theta$ with the perpendicular component only.
+   is $90^\circ$ Making $\sin\theta = 1$. However, if the velocity has a component parallel to
+   $\bm{B}$ Use $\sin\theta$ with the perpendicular component only.
 
 2. **Sign of electron charge.** The Lorentz force on an electron is in the **opposite** direction to
    $\bm{v} \times \bm{B}$. Use the right-hand rule and then reverse the result, or use the left hand
@@ -706,7 +710,7 @@ Simplified values.
 An alpha particle ($m = 6.64 \times 10^{-27}$ kg, $q = +3.20 \times 10^{-19}$ C) moves with speed
 $5.0 \times 10^6$ m/s perpendicular to a uniform magnetic field of $B = 0.80$ T. Calculate: a) The
 Magnetic force on the alpha particle. B) The radius of its circular path. C) The period of its
-Orbit.
+orbit.
 
 </details>
 
@@ -730,9 +734,9 @@ S.
 
 A velocity selector is designed to select ions with velocity $4.0 \times 10^5$ m/s. The magnetic
 Field is $B = 0.30$ T. A) What electric field strength is required? b) An ion with charge $+2e$ and
-Mass $6.68 \times 10^{-26}$ kg passes through the selector undeflected. It then enters a region of
-Uniform magnetic field ($B = 0.50$ T) perpendicular to its velocity. Calculate the radius of the
-Resulting circular path.
+mass $6.68 \times 10^{-26}$ kg passes through the selector undeflected. It then enters a region of
+uniform magnetic field ($B = 0.50$ T) perpendicular to its velocity. Calculate the radius of the
+resulting circular path.
 
 </details>
 
@@ -776,8 +780,8 @@ $= 0.269$ mm.
 <summary>Question 4</summary>
 
 Two long straight parallel wires carry currents of $I_1 = 8.0$ A and $I_2 = 5.0$ A in the same
-Direction. The wires are separated by $d = 0.10$ m. Calculate: a) The magnetic force per unit length
-Between the wires. B) State whether the force is attractive or repulsive. Justify your answer.
+direction. The wires are separated by $d = 0.10$ m. Calculate: a) The magnetic force per unit length
+between the wires. B) State whether the force is attractive or repulsive. Justify your answer.
 
 </details>
 
@@ -790,7 +794,7 @@ N/m.
 
 B) The force is **attractive**. When two parallel currents flow in the same direction, the magnetic
 Field produced by each wire exerts a force on the other wire that pulls them together. This follows
-From the right-hand rule and the Lorentz force law.
+from the right-hand rule and the Lorentz force law.
 
 </details>
 
@@ -799,7 +803,7 @@ From the right-hand rule and the Lorentz force law.
 
 Explain why a magnetic field cannot be used to increase the speed of a charged particle. In your
 Answer, refer to the work-energy theorem and the direction of the magnetic force relative to the
-Velocity.
+velocity.
 
 </details>
 
@@ -808,8 +812,8 @@ Velocity.
 
 The magnetic force is always perpendicular to the velocity of the charged particle (by definition,
 $\bm{F} = q(\bm{v} \times \bm{B})$). The work done by a force is $W = \bm{F} \cdot \bm{d}$ And Since
-the displacement $\bm{d}$ is parallel to $\bm{v}$The dot product $\bm{F} \cdot \bm{d} = 0$. By the
-work-energy theorem, $W = \Delta E_k = 0$Meaning the kinetic energy (and therefore the Speed) of the
+the displacement $\bm{d}$ is parallel to $\bm{v}$ The dot product $\bm{F} \cdot \bm{d} = 0$. By the
+work-energy theorem, $W = \Delta E_k = 0$ Meaning the kinetic energy (and therefore the Speed) of the
 particle does not change. The magnetic force only changes the **direction** of the Velocity, causing
 circular or helical motion, but never the speed.
 
@@ -819,8 +823,8 @@ circular or helical motion, but never the speed.
 <summary>Question 6</summary>
 
 A proton is accelerated from rest through a potential difference of 2000 V and then enters a region
-Of uniform magnetic field ($B = 0.10$ T) perpendicular to its velocity. Calculate the radius of the
-Circular path. ($m_p = 1.67 \times 10^{-27}$ kg, $q = 1.60 \times 10^{-19}$ C)
+of uniform magnetic field ($B = 0.10$ T) perpendicular to its velocity. Calculate the radius of the
+circular path. ($m_p = 1.67 \times 10^{-27}$ kg, $q = 1.60 \times 10^{-19}$ C)
 
 </details>
 
@@ -844,20 +848,13 @@ $15\,\text{N}$. The frictional force is $5.0\,\text{N}$. Calculate the accelerat
 
 **Solution:**
 
-$$F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\text{N}$$
+$$
+F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\text{N}
+$$
 
-$$a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}$$
-
-
-```mermaid
-flowchart TD
-    A[3_Motion In Electromagnetic Fields] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+$$
+a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}
+$$
 
 ## Summary
 

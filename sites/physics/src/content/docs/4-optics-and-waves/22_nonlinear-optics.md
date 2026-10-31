@@ -21,7 +21,9 @@ description: 'When the electric field is strong (e.g., laser), the polarisation 
 
 When the electric field is strong (e.g., laser), the polarisation develops nonlinear terms:
 
-$$P = \varepsilon_0(\chi^{(1)}E + \chi^{(2)}E^2 + \chi^{(3)}E^3 + \cdots)$$
+$$
+P = \varepsilon_0(\chi^{(1)}E + \chi^{(2)}E^2 + \chi^{(3)}E^3 + \cdots)
+$$
 
 The second-order susceptibility $\chi^{(2)}$ is nonzero only in non-centrosymmetric media. The
 third-order $\chi^{(3)}$ exists in all media.
@@ -30,7 +32,9 @@ third-order $\chi^{(3)}$ exists in all media.
 
 A beam of frequency $\omega$ generates light at $2\omega$. The intensity of the second harmonic:
 
-$$I_{2\omega} = \frac{2\omega^2 d_{\text{eff}^2 I_\omega^2 L^2}{n_\omega^2 n_{2\omega} c^3 \varepsilon_0}\,\text{sinc}^2\!\left(\frac{\Delta k\,L}{2}\right)}$$
+$$
+I_{2\omega} = \frac{2\omega^2 d_{\text{eff}^2 I_\omega^2 L^2}{n_\omega^2 n_{2\omega} c^3 \varepsilon_0}\,\text{sinc}^2\!\left(\frac{\Delta k\,L}{2}\right)}
+$$
 
 Where $d_{\text{eff} = \chi^{(2)}/2}$ is the effective nonlinear coefficient and
 $\Delta k = k_{2\omega} - 2k_\omega$ is the phase mismatch.
@@ -45,6 +49,8 @@ Techniques:
 
 ### 18.3 Other Nonlinear Processes
 
+<div class="table-wrap">
+
 | Process                    | Order        | Description                                              |
 | -------------------------- | ------------ | -------------------------------------------------------- |
 | SHG                        | $\chi^{(2)}$ | $\omega + \omega \to 2\omega$                            |
@@ -54,6 +60,8 @@ Techniques:
 | Self-focusing              | $\chi^{(3)}$ | Beam collapses when $P > P_{\text{cr}}$                  |
 | Two-photon absorption      | $\chi^{(3)}$ | Simultaneous absorption of two photons                   |
 | Stimulated Raman/Brillouin | $\chi^{(3)}$ | Inelastic scattering amplification                       |
+
+</div>
 
 **Self-phase modulation:** The Kerr effect causes $\Delta n = n_2 I$ which broadens the spectrum of
 ultrashort pulses. Combined with dispersion, this leads to **soliton** formation in optical fibres
@@ -77,19 +85,25 @@ $\theta_{\text{PM} \approx 29.2°}$.
 
 The coherence length without phase matching:
 
-$$\ell_c = \frac{\pi}{\Delta k} = \frac{\lambda}{4(n_e^{2\omega} - n_o^{\omega})}$$
+$$
+\ell_c = \frac{\pi}{\Delta k} = \frac{\lambda}{4(n_e^{2\omega} - n_o^{\omega})}
+$$
 
-For typical values: $\ell_c \sim 5$ $\mu$M. A 1 mm crystal is $\sim 200$ coherence lengths long, so
+For typical values: $\ell_c \sim 5$ $\mu$ M. A 1 mm crystal is $\sim 200$ coherence lengths long, so
 phase matching is essential.
 
 The conversion efficiency for perfect phase matching with a 10 mm crystal at $I_\omega = 100$
 MW/cm$^2$:
 
-$$\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times 10^{10}}{(1.6)^3 \times (400 \times 10^{-9})^2 \times 3 \times 10^8 \times 8.85 \times 10^{-12}} \approx 15\%$$
+$$
+\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times 10^{10}}{(1.6)^3 \times (400 \times 10^{-9})^2 \times 3 \times 10^8 \times 8.85 \times 10^{-12}} \approx 15\%
+$$
 
 </details>
 
 ### Key Relationships
+
+<div class="table-wrap">
 
 | Effect | Susceptibility | Key Formula | Condition |
 | -------- | --------------- | ------------- | ----------- |
@@ -98,6 +112,8 @@ $$\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times
 | Pockels effect | $\chi^{(2)}$ | $\Delta n = n_0^3 r E / 2$ | Non-centrosymmetric |
 | Kerr effect | $\chi^{(3)}$ | $n = n_0 + n_2 I$ | All media |
 | Self-focusing | $\chi^{(3)}$ | $P_{\text{cr}} = \pi(0.61)^2 \lambda^2/(8n_0 n_2)$ | $P > P_{\text{cr}}$ |
+
+</div>
 
 ### Common Pitfalls
 
@@ -123,6 +139,8 @@ $$\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times
 
 ### Summary Table: Nonlinear Processes by Order
 
+<div class="table-wrap">
+
 | Order | Process | Application | Crystal Requirement |
 | ------- | --------- | ------------- | ------------------- |
 | $\chi^{(1)}$ | Linear refraction/absorption | Ordinary optics | Any |
@@ -133,16 +151,7 @@ $$\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times
 | $\chi^{(3)}$ | Two-photon absorption | Microscopy, lithography | All media |
 | $\chi^{(3)}$ | Self-focusing | Filamentation, damage | All media ($n_2 > 0$) |
 
-
-```mermaid
-flowchart TD
-    A[22_Nonlinear Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+</div>
 
 ## Intuition
 
@@ -155,48 +164,7 @@ Linear optics assumes the medium's response is proportional to the applied field
 - [Fourier Optics](/4-optics-and-waves/19_fourier-optics-15/) -- Spatial filtering and beam propagation in nonlinear media use the Fourier transform relationship between near and far fields.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

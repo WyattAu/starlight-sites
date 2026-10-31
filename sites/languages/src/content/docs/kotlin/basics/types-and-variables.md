@@ -45,6 +45,8 @@ Prefer `val` everywhere. Use `var` only when the variable genuinely must be reas
 Kotlin represents all types as objects at the language level. The compiler maps them to JVM
 Primitives when possible (no boxing overhead).
 
+<div class="table-wrap">
+
 | Kotlin Type | JVM Type  | Size (bits) |
 | ----------- | --------- | ----------: |
 | `Byte`      | `byte`    |           8 |
@@ -55,6 +57,8 @@ Primitives when possible (no boxing overhead).
 | `Double`    | `double`  |          64 |
 | `Boolean`   | `boolean` |           1 |
 | `Char`      | `char`    |          16 |
+
+</div>
 
 Numeric literals support underscores for readability:
 
@@ -78,8 +82,8 @@ val doubleVal: Double = intVal.toDouble()
 // val bad: Long = intVal  // compile error
 ```
 
-The `toXxx()` methods exist on all numeric types: `toByte()``toShort()``toInt()``toLong()`
-`toFloat()``toDouble()``toChar()`.
+The `toXxx()` methods exist on all numeric types: `toByte()`, `toShort()`, `toInt()`, `toLong()`
+`toFloat()`, `toDouble()`, `toChar()`.
 
 ## Type Inference
 
@@ -284,17 +288,6 @@ Type aliases are useful for domain modeling and reducing verbosity in complex ge
 
 Kotlin's type system is designed to eliminate null reference errors at compile time. Non-nullable types are the default, and nullable types require explicit handling through safe calls, Elvis operators, or not-null assertions. Type inference lets the compiler deduce types from context, keeping code concise while maintaining safety. Smart casts reduce boilerplate by automatically casting values after a type check. Together, these features make Kotlin's type system both expressive and safe.
 
-
-```mermaid
-flowchart TD
-    A[Types And Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of types and variables, including underlying theory, practical
@@ -308,13 +301,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

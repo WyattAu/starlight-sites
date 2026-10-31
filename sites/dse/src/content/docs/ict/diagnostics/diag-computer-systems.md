@@ -103,12 +103,16 @@ capacity. (c) Explain why a touchscreen can be considered both an input and outp
 
 **Solution:**
 
+<div class="table-wrap">
+
 | (a)              | Feature                                           | HDD                                               | SSD |
 | ---------------- | ------------------------------------------------- | ------------------------------------------------- | --- |
 | Access mechanism | Mechanical spinning platters with read/write head | NAND flash memory chips (no moving parts)         |
 | Speed            | 80--160 MB/s (SATA); seek time 5--10 ms           | 500--7000 MB/s (NVMe); essentially zero seek time |
 | Durability       | Vulnerable to physical shock (head crash)         | Highly durable (no moving parts)                  |
 | Cost per GB      | Low (around \$0.02--0.03/GB)                      | Higher (around \$0.05--0.10/GB)                   |
+
+</div>
 
 (b) Total sectors
 $= 4 \text{ platters} \times 2 \text{ surfaces/platter} \times 1024 \text{ tracks/surface} \times 256 \text{ sectors/track} = 4 \times 2 \times 1024 \times 256 = 2,097,152$
@@ -132,17 +136,6 @@ functionality enables intuitive user interfaces on smartphones and tablets.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Computer Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A brain with parts:** The CPU is like a brain, the ALU does calculations, the Control Unit directs traffic, and registers are the working memory. The fetch-decode-execute cycle is the heartbeat of computation.
@@ -157,8 +150,8 @@ flowchart TD
 
 **Question:** A 32-bit computer uses IEEE 754 single-precision floating-point format. (a) Explain
 how the number $-6.625$ is stored in binary floating-point format (sign, exponent, mantissa). (b) If
-the CPU needs to add $-6.625$ and $3.5$Describe the steps the ALU performs. (c) Why does
-floating-point arithmetic sometimes produce rounding errors, and how does this relate to the CPU"s
+the CPU needs to add $-6.625$ and $3.5$ Describe the steps the ALU performs. (c) Why does
+floating-point arithmetic sometimes produce rounding errors, and how does this relate to the CPU's
 hardware design?
 
 **Solution:**

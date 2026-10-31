@@ -24,9 +24,11 @@ categories:
 
 This topic extends the calculus of A Level Mathematics to more powerful integration techniques,
 Inverse trigonometric functions, volumes of revolution, arc length, and surface area. These tools
-Are essential for university-level mathematics, physics, and engineering.
+are essential for university-level mathematics, physics, and engineering.
 
 ### Board Coverage
+
+<div class="table-wrap">
 
 | Board      | Paper    | Notes                                                             |
 | ---------- | -------- | ----------------------------------------------------------------- |
@@ -34,6 +36,8 @@ Are essential for university-level mathematics, physics, and engineering.
 | Edexcel    | FP1, FP2 | Parts in FP1; inverse trig, volumes, arc length in FP2            |
 | OCR (A)    | Paper 1  | Parts, inverse trig integrals, volumes                            |
 | CIE (9231) | P1, P2   | Parts and volumes in P1; arc length and surface area in P2        |
+
+</div>
 
 :::note
 Integration by parts repeatedly, derive and use reduction formulae, and set up volumes of revolution
@@ -48,64 +52,94 @@ Integrals correctly. CIE places particular emphasis on parametric volumes of rev
 
 **Theorem.** For differentiable functions $u(x)$ and $v(x)$:
 
-$$\boxed{\int u\,\frac{dv}{dx}\,dx = uv - \int v\,\frac{du}{dx}\,dx}$$
+$$
+\boxed{\int u\,\frac{dv}{dx}\,dx = uv - \int v\,\frac{du}{dx}\,dx}
+$$
 
 ### Proof of the integration by parts formula
 
 From the product rule:
 
-$$\frac{d}{dx}(uv) = u\frac{dv}{dx} + v\frac{du}{dx}$$
+$$
+\frac{d}{dx}(uv) = u\frac{dv}{dx} + v\frac{du}{dx}
+$$
 
 Integrating both sides with respect to $x$:
 
-$$uv = \int u\frac{dv}{dx}\,dx + \int v\frac{du}{dx}\,dx$$
+$$
+uv = \int u\frac{dv}{dx}\,dx + \int v\frac{du}{dx}\,dx
+$$
 
 Rearranging:
 
-$$\int u\frac{dv}{dx}\,dx = uv - \int v\frac{du}{dx}\,dx \quad \blacksquare$$
+$$
+\int u\frac{dv}{dx}\,dx = uv - \int v\frac{du}{dx}\,dx \quad \blacksquare
+$$
 
 ### 1.2 Repeated integration by parts
 
 When the integral does not simplify in one step, apply integration by parts repeatedly until it
-Does.
+does.
 
 **Example.** Find $\displaystyle\int x^2 e^x\,dx$.
 
 First application: $u = x^2$$dv = e^x\,dx$. $du = 2x\,dx$$v = e^x$.
 
-$$\int x^2 e^x\,dx = x^2 e^x - 2\int x e^x\,dx$$
+$$
+\int x^2 e^x\,dx = x^2 e^x - 2\int x e^x\,dx
+$$
 
 Second application on $\int x e^x\,dx$: $u = x$$dv = e^x\,dx$. $du = dx$$v = e^x$.
 
-$$\int x e^x\,dx = xe^x - \int e^x\,dx = xe^x - e^x + C$$
+$$
+\int x e^x\,dx = xe^x - \int e^x\,dx = xe^x - e^x + C
+$$
 
 Therefore:
 
-$$\int x^2 e^x\,dx = x^2 e^x - 2(xe^x - e^x) + C = e^x(x^2 - 2x + 2) + C$$
+$$
+\int x^2 e^x\,dx = x^2 e^x - 2(xe^x - e^x) + C = e^x(x^2 - 2x + 2) + C
+$$
 
 **Example.** Find $\displaystyle\int e^{ax}\cos bx\,dx$.
 
 Let $I = \int e^{ax}\cos bx\,dx$. First application: $u = e^{ax}$, $dv = \cos bx\,dx$.
 
-$$du = ae^{ax}\,dx, \quad v = \frac{1}{b}\sin bx$$
+$$
+du = ae^{ax}\,dx, \quad v = \frac{1}{b}\sin bx
+$$
 
-$$I = \frac{e^{ax}\sin bx}{b} - \frac{a}{b}\int e^{ax}\sin bx\,dx$$
+$$
+I = \frac{e^{ax}\sin bx}{b} - \frac{a}{b}\int e^{ax}\sin bx\,dx
+$$
 
 Second application on $\int e^{ax}\sin bx\,dx$: $u = e^{ax}$, $dv = \sin bx\,dx$.
 
-$$du = ae^{ax}\,dx, \quad v = -\frac{1}{b}\cos bx$$
+$$
+du = ae^{ax}\,dx, \quad v = -\frac{1}{b}\cos bx
+$$
 
-$$\int e^{ax}\sin bx\,dx = -\frac{e^{ax}\cos bx}{b} + \frac{a}{b}\int e^{ax}\cos bx\,dx = -\frac{e^{ax}\cos bx}{b} + \frac{a}{b}I$$
+$$
+\int e^{ax}\sin bx\,dx = -\frac{e^{ax}\cos bx}{b} + \frac{a}{b}\int e^{ax}\cos bx\,dx = -\frac{e^{ax}\cos bx}{b} + \frac{a}{b}I
+$$
 
 Substituting back:
 
-$$I = \frac{e^{ax}\sin bx}{b} - \frac{a}{b}\left(-\frac{e^{ax}\cos bx}{b} + \frac{a}{b}I\right)$$
+$$
+I = \frac{e^{ax}\sin bx}{b} - \frac{a}{b}\left(-\frac{e^{ax}\cos bx}{b} + \frac{a}{b}I\right)
+$$
 
-$$I = \frac{e^{ax}\sin bx}{b} + \frac{ae^{ax}\cos bx}{b^2} - \frac{a^2}{b^2}I$$
+$$
+I = \frac{e^{ax}\sin bx}{b} + \frac{ae^{ax}\cos bx}{b^2} - \frac{a^2}{b^2}I
+$$
 
-$$I\left(1 + \frac{a^2}{b^2}\right) = e^{ax}\left(\frac{\sin bx}{b} + \frac{a\cos bx}{b^2}\right)$$
+$$
+I\left(1 + \frac{a^2}{b^2}\right) = e^{ax}\left(\frac{\sin bx}{b} + \frac{a\cos bx}{b^2}\right)
+$$
 
-$$\boxed{I = \frac{e^{ax}(a\cos bx + b\sin bx)}{a^2 + b^2} + C}$$
+$$
+\boxed{I = \frac{e^{ax}(a\cos bx + b\sin bx)}{a^2 + b^2} + C}
+$$
 
 :::tip
 Both applications.
@@ -122,21 +156,33 @@ Write $I_n = \int_0^{\pi/2}\sin^{n-1}x \cdot \sin x\,dx$.
 
 Let $u = \sin^{n-1}x$, $dv = \sin x\,dx$. Then:
 
-$$du = (n-1)\sin^{n-2}x\cos x\,dx, \quad v = -\cos x$$
+$$
+du = (n-1)\sin^{n-2}x\cos x\,dx, \quad v = -\cos x
+$$
 
-$$I_n = \bigl[-\sin^{n-1}x\cos x\bigr]_0^{\pi/2} + (n-1)\int_0^{\pi/2}\sin^{n-2}x\cos^2 x\,dx$$
+$$
+I_n = \bigl[-\sin^{n-1}x\cos x\bigr]_0^{\pi/2} + (n-1)\int_0^{\pi/2}\sin^{n-2}x\cos^2 x\,dx
+$$
 
 The boundary term vanishes: at $x = 0$$\sin 0 = 0$; at $x = \pi/2$$\cos(\pi/2) = 0$.
 
 Using $\cos^2 x = 1 - \sin^2 x$:
 
-$$I_n = (n-1)\int_0^{\pi/2}\sin^{n-2}x\,dx - (n-1)\int_0^{\pi/2}\sin^n x\,dx$$
+$$
+I_n = (n-1)\int_0^{\pi/2}\sin^{n-2}x\,dx - (n-1)\int_0^{\pi/2}\sin^n x\,dx
+$$
 
-$$I_n = (n-1)I_{n-2} - (n-1)I_n$$
+$$
+I_n = (n-1)I_{n-2} - (n-1)I_n
+$$
 
-$$nI_n = (n-1)I_{n-2}$$
+$$
+nI_n = (n-1)I_{n-2}
+$$
 
-$$\boxed{I_n = \frac{n-1}{n}\,I_{n-2}, \quad n \geq 2}$$
+$$
+\boxed{I_n = \frac{n-1}{n}\,I_{n-2}, \quad n \geq 2}
+$$
 
 The base cases are $I_0 = \displaystyle\int_0^{\pi/2}1\,dx = \dfrac{\pi}{2}$ and
 $I_1 = \displaystyle\int_0^{\pi/2}\sin x\,dx = 1$.
@@ -149,7 +195,9 @@ $I_4 = \dfrac{3}{4}I_2 = \dfrac{3}{4}\cdot\dfrac{1}{2}I_0 = \dfrac{3}{4}\cdot\df
 
 Let $u = x^n$$dv = e^x\,dx$. Then $du = nx^{n-1}\,dx$$v = e^x$.
 
-$$\boxed{I_n = x^n e^x - nI_{n-1}}$$
+$$
+\boxed{I_n = x^n e^x - nI_{n-1}}
+$$
 
 With $I_0 = e^x + C$.
 
@@ -163,17 +211,21 @@ When the denominator factorises into distinct linear factors, decompose and inte
 
 **Example.** $\displaystyle\int \frac{2x+3}{(x+1)(x+2)}\,dx$.
 
-$$\frac{2x+3}{(x+1)(x+2)} = \frac{A}{x+1} + \frac{B}{x+2}$$
+$$
+\frac{2x+3}{(x+1)(x+2)} = \frac{A}{x+1} + \frac{B}{x+2}
+$$
 
 $2x + 3 = A(x+2) + B(x+1)$. Setting $x = -1$: $1 = A$. Setting $x = -2$: $-1 = -B \implies B = 1$.
 
-$$\int \frac{1}{x+1} + \frac{1}{x+2}\,dx = \ln|x+1| + \ln|x+2| + C = \ln|(x+1)(x+2)| + C$$
+$$
+\int \frac{1}{x+1} + \frac{1}{x+2}\,dx = \ln|x+1| + \ln|x+2| + C = \ln|(x+1)(x+2)| + C
+$$
 
 ### 2.2 Irreducible quadratic factors
 
 When the denominator contains an irreducible quadratic $ax^2 + bx + c$ (discriminant
 $b^2 - 4ac < 0$), the partial fraction has a linear numerator over the quadratic, leading to $\ln$
-And $\arctan$ terms.
+and $\arctan$ terms.
 
 **Example.** $\displaystyle\int \frac{3x + 1}{x^2 + 2x + 5}\,dx$.
 
@@ -181,11 +233,17 @@ Complete the square: $x^2 + 2x + 5 = (x+1)^2 + 4$.
 
 Split the numerator to match the derivative of the denominator:
 
-$$\frac{3x+1}{x^2+2x+5} = \frac{\frac{3}{2}(2x+2) + 1 - 3}{x^2+2x+5} = \frac{3}{2}\cdot\frac{2x+2}{x^2+2x+5} - \frac{2}{(x+1)^2+4}$$
+$$
+\frac{3x+1}{x^2+2x+5} = \frac{\frac{3}{2}(2x+2) + 1 - 3}{x^2+2x+5} = \frac{3}{2}\cdot\frac{2x+2}{x^2+2x+5} - \frac{2}{(x+1)^2+4}
+$$
 
-$$\int \frac{3x+1}{x^2+2x+5}\,dx = \frac{3}{2}\ln(x^2+2x+5) - 2\cdot\frac{1}{2}\arctan\!\left(\frac{x+1}{2}\right) + C$$
+$$
+\int \frac{3x+1}{x^2+2x+5}\,dx = \frac{3}{2}\ln(x^2+2x+5) - 2\cdot\frac{1}{2}\arctan\!\left(\frac{x+1}{2}\right) + C
+$$
 
-$$= \frac{3}{2}\ln(x^2+2x+5) - \arctan\!\left(\frac{x+1}{2}\right) + C$$
+$$
+= \frac{3}{2}\ln(x^2+2x+5) - \arctan\!\left(\frac{x+1}{2}\right) + C
+$$
 
 :::tip
 Constant gives $\arctan$.
@@ -195,13 +253,17 @@ Constant gives $\arctan$.
 
 **Example.** $\displaystyle\int \frac{1}{x(x-1)^2}\,dx$.
 
-$$\frac{1}{x(x-1)^2} = \frac{A}{x} + \frac{B}{x-1} + \frac{C}{(x-1)^2}$$
+$$
+\frac{1}{x(x-1)^2} = \frac{A}{x} + \frac{B}{x-1} + \frac{C}{(x-1)^2}
+$$
 
 $1 = A(x-1)^2 + Bx(x-1) + Cx$.
 
 $x = 0$: $1 = A$. $x = 1$: $1 = C$. $x = 2$: $1 = A + 2B + 2C = 1 + 2B + 2 \implies B = -1$.
 
-$$\int\left(\frac{1}{x} - \frac{1}{x-1} + \frac{1}{(x-1)^2}\right)dx = \ln|x| - \ln|x-1| - \frac{1}{x-1} + C$$
+$$
+\int\left(\frac{1}{x} - \frac{1}{x-1} + \frac{1}{(x-1)^2}\right)dx = \ln|x| - \ln|x-1| - \frac{1}{x-1} + C
+$$
 
 <hr />
 
@@ -211,42 +273,62 @@ $$\int\left(\frac{1}{x} - \frac{1}{x-1} + \frac{1}{(x-1)^2}\right)dx = \ln|x| - 
 
 **Theorem.** The following integrals hold for $a > 0$:
 
-$$\boxed{\int \frac{1}{a^2+x^2}\,dx = \frac{1}{a}\arctan\frac{x}{a} + C}$$
+$$
+\boxed{\int \frac{1}{a^2+x^2}\,dx = \frac{1}{a}\arctan\frac{x}{a} + C}
+$$
 
-$$\boxed{\int \frac{1}{\sqrt{a^2-x^2}}\,dx = \arcsin\frac{x}{a} + C}$$
+$$
+\boxed{\int \frac{1}{\sqrt{a^2-x^2}}\,dx = \arcsin\frac{x}{a} + C}
+$$
 
-$$\boxed{\int \frac{1}{a^2-x^2}\,dx = \frac{1}{2a}\ln\left|\frac{a+x}{a-x}\right| + C}$$
+$$
+\boxed{\int \frac{1}{a^2-x^2}\,dx = \frac{1}{2a}\ln\left|\frac{a+x}{a-x}\right| + C}
+$$
 
 ### Proof of $\int \frac{1}{a^2+x^2}\,dx = \frac{1}{a}\arctan\frac{x}{a} + C$
 
 Let $x = a\tan\theta$ So $dx = a\sec^2\theta\,d\theta$.
 
-$$\int \frac{1}{a^2 + a^2\tan^2\theta}\cdot a\sec^2\theta\,d\theta = \int \frac{a\sec^2\theta}{a^2\sec^2\theta}\,d\theta = \frac{1}{a}\int 1\,d\theta = \frac{\theta}{a} + C$$
+$$
+\int \frac{1}{a^2 + a^2\tan^2\theta}\cdot a\sec^2\theta\,d\theta = \int \frac{a\sec^2\theta}{a^2\sec^2\theta}\,d\theta = \frac{1}{a}\int 1\,d\theta = \frac{\theta}{a} + C
+$$
 
 Since $\theta = \arctan(x/a)$:
 
-$$\int \frac{1}{a^2+x^2}\,dx = \frac{1}{a}\arctan\frac{x}{a} + C \quad \blacksquare$$
+$$
+\int \frac{1}{a^2+x^2}\,dx = \frac{1}{a}\arctan\frac{x}{a} + C \quad \blacksquare
+$$
 
 ### Proof of $\int \frac{1}{\sqrt{a^2-x^2}}\,dx = \arcsin\frac{x}{a} + C$
 
 Let $x = a\sin\theta$ So $dx = a\cos\theta\,d\theta$ and $\sqrt{a^2 - x^2} = a\cos\theta$ (for
 $|\theta| \leq \pi/2$).
 
-$$\int \frac{a\cos\theta}{a\cos\theta}\,d\theta = \int 1\,d\theta = \theta + C = \arcsin\frac{x}{a} + C \quad \blacksquare$$
+$$
+\int \frac{a\cos\theta}{a\cos\theta}\,d\theta = \int 1\,d\theta = \theta + C = \arcsin\frac{x}{a} + C \quad \blacksquare
+$$
 
 ### Proof of $\int \frac{1}{a^2-x^2}\,dx = \frac{1}{2a}\ln\left|\frac{a+x}{a-x}\right| + C$
 
 By partial fractions:
 
-$$\frac{1}{a^2-x^2} = \frac{1}{(a-x)(a+x)} = \frac{1}{2a}\left(\frac{1}{a-x} + \frac{1}{a+x}\right)$$
+$$
+\frac{1}{a^2-x^2} = \frac{1}{(a-x)(a+x)} = \frac{1}{2a}\left(\frac{1}{a-x} + \frac{1}{a+x}\right)
+$$
 
-$$\int \frac{1}{a^2-x^2}\,dx = \frac{1}{2a}\bigl[-\ln|a-x| + \ln|a+x|\bigr] + C = \frac{1}{2a}\ln\left|\frac{a+x}{a-x}\right| + C \quad \blacksquare$$
+$$
+\int \frac{1}{a^2-x^2}\,dx = \frac{1}{2a}\bigl[-\ln|a-x| + \ln|a+x|\bigr] + C = \frac{1}{2a}\ln\left|\frac{a+x}{a-x}\right| + C \quad \blacksquare
+$$
 
 ### 3.2 More general forms
 
-$$\int \frac{1}{a^2 + (x+b)^2}\,dx = \frac{1}{a}\arctan\frac{x+b}{a} + C$$
+$$
+\int \frac{1}{a^2 + (x+b)^2}\,dx = \frac{1}{a}\arctan\frac{x+b}{a} + C
+$$
 
-$$\int \frac{1}{\sqrt{a^2 - (x+b)^2}}\,dx = \arcsin\frac{x+b}{a} + C$$
+$$
+\int \frac{1}{\sqrt{a^2 - (x+b)^2}}\,dx = \arcsin\frac{x+b}{a} + C
+$$
 
 These follow directly from the standard forms via the substitution $u = x + b$.
 
@@ -260,11 +342,17 @@ $\dfrac{1}{a^2-x^2}$ (gives a logarithmic form). The square root makes the diffe
 
 ### 4.1 Derivatives
 
-$$\boxed{\frac{d}{dx}\arcsin x = \frac{1}{\sqrt{1-x^2}}, \quad |x| < 1}$$
+$$
+\boxed{\frac{d}{dx}\arcsin x = \frac{1}{\sqrt{1-x^2}}, \quad |x| < 1}
+$$
 
-$$\boxed{\frac{d}{dx}\arccos x = -\frac{1}{\sqrt{1-x^2}}, \quad |x| < 1}$$
+$$
+\boxed{\frac{d}{dx}\arccos x = -\frac{1}{\sqrt{1-x^2}}, \quad |x| < 1}
+$$
 
-$$\boxed{\frac{d}{dx}\arctan x = \frac{1}{1+x^2}}$$
+$$
+\boxed{\frac{d}{dx}\arctan x = \frac{1}{1+x^2}}
+$$
 
 ### Proof of $\frac{d}{dx}\arctan x = \frac{1}{1+x^2}$
 
@@ -272,9 +360,13 @@ Let $y = \arctan x$. Then $x = \tan y$.
 
 Differentiating implicitly with respect to $x$:
 
-$$1 = \sec^2 y \cdot \frac{dy}{dx}$$
+$$
+1 = \sec^2 y \cdot \frac{dy}{dx}
+$$
 
-$$\frac{dy}{dx} = \frac{1}{\sec^2 y} = \frac{1}{1 + \tan^2 y} = \frac{1}{1+x^2} \quad \blacksquare$$
+$$
+\frac{dy}{dx} = \frac{1}{\sec^2 y} = \frac{1}{1 + \tan^2 y} = \frac{1}{1+x^2} \quad \blacksquare
+$$
 
 ### Proof of $\frac{d}{dx}\arcsin x = \frac{1}{\sqrt{1-x^2}}$
 
@@ -282,12 +374,16 @@ Let $y = \arcsin x$. Then $x = \sin y$.
 
 Differentiating implicitly:
 
-$$1 = \cos y \cdot \frac{dy}{dx}$$
+$$
+1 = \cos y \cdot \frac{dy}{dx}
+$$
 
-Since $\arcsin x$ has range $[-\pi/2, \pi/2]$We have $\cos y \geq 0$ So
+Since $\arcsin x$ has range $[-\pi/2, \pi/2]$ We have $\cos y \geq 0$ So
 $\cos y = \sqrt{1-\sin^2 y} = \sqrt{1-x^2}$.
 
-$$\frac{dy}{dx} = \frac{1}{\cos y} = \frac{1}{\sqrt{1-x^2}} \quad \blacksquare$$
+$$
+\frac{dy}{dx} = \frac{1}{\cos y} = \frac{1}{\sqrt{1-x^2}} \quad \blacksquare
+$$
 
 ### 4.2 Chain rule with inverse trig functions
 
@@ -302,17 +398,21 @@ $\dfrac{d}{dx}\arctan\!\left(\dfrac{x}{2}\right) = \dfrac{1/2}{1 + x^2/4} = \dfr
 
 ### 5.1 Rotation about the $x$-axis
 
-**Definition.** The volume generated by rotating the region bounded by $y = f(x)$The $x$-axis,
+**Definition.** The volume generated by rotating the region bounded by $y = f(x)$ The $x$-axis,
 $x = a$ And $x = b$ about the $x$-axis is:
 
-$$\boxed{V = \pi\int_a^b y^2\,dx = \pi\int_a^b [f(x)]^2\,dx}$$
+$$
+\boxed{V = \pi\int_a^b y^2\,dx = \pi\int_a^b [f(x)]^2\,dx}
+$$
 
 ### 5.2 Rotation about the $y$-axis
 
-**Definition.** The volume generated by rotating the region bounded by $x = g(y)$The $y$-axis,
+**Definition.** The volume generated by rotating the region bounded by $x = g(y)$ The $y$-axis,
 $y = c$ And $y = d$ about the $y$-axis is:
 
-$$\boxed{V = \pi\int_c^d x^2\,dy = \pi\int_c^d [g(y)]^2\,dy}$$
+$$
+\boxed{V = \pi\int_c^d x^2\,dy = \pi\int_c^d [g(y)]^2\,dy}
+$$
 
 ### 5.3 Parametric curves
 
@@ -328,18 +428,26 @@ Do not forget this factor, it is a very common error.
 **Example.** Find the volume generated by rotating the curve $y = \sqrt{x}$ from $x = 0$ to $x = 4$
 About the $x$-axis.
 
-$$V = \pi\int_0^4 (\sqrt{x})^2\,dx = \pi\int_0^4 x\,dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi$$
+$$
+V = \pi\int_0^4 (\sqrt{x})^2\,dx = \pi\int_0^4 x\,dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi
+$$
 
 **Example.** The curve $x = 2\cos t$, $y = 2\sin t$ for $0 \leq t \leq \pi$ is rotated about the
 $x$-axis. Find the volume.
 
-$$V = \pi\int_0^{\pi} (2\sin t)^2 \cdot \frac{dx}{dt}\,dt = \pi\int_0^{\pi} 4\sin^2 t \cdot (-2\sin t)\,dt$$
+$$
+V = \pi\int_0^{\pi} (2\sin t)^2 \cdot \frac{dx}{dt}\,dt = \pi\int_0^{\pi} 4\sin^2 t \cdot (-2\sin t)\,dt
+$$
 
-$$= -8\pi\int_0^{\pi}\sin^3 t\,dt = 8\pi\int_0^{\pi}\sin^3 t\,dt$$
+$$
+= -8\pi\int_0^{\pi}\sin^3 t\,dt = 8\pi\int_0^{\pi}\sin^3 t\,dt
+$$
 
 Using $\sin^3 t = \sin t(1-\cos^2 t)$ and the substitution $u = \cos t$:
 
-$$= 8\pi\int_{-1}^{1}(1-u^2)\,du = 8\pi\left[u - \frac{u^3}{3}\right]_{-1}^1 = 8\pi\left(\frac{2}{3} - \left(-\frac{2}{3}\right)\right) = \frac{32\pi}{3}$$
+$$
+= 8\pi\int_{-1}^{1}(1-u^2)\,du = 8\pi\left[u - \frac{u^3}{3}\right]_{-1}^1 = 8\pi\left(\frac{2}{3} - \left(-\frac{2}{3}\right)\right) = \frac{32\pi}{3}
+$$
 
 <hr />
 
@@ -349,42 +457,60 @@ $$= 8\pi\int_{-1}^{1}(1-u^2)\,du = 8\pi\left[u - \frac{u^3}{3}\right]_{-1}^1 = 8
 
 **Theorem.** For a curve $y = f(x)$ from $x = a$ to $x = b$:
 
-$$\boxed{s = \int_a^b \sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx}$$
+$$
+\boxed{s = \int_a^b \sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx}
+$$
 
 For a curve given parametrically by $x = x(t)$, $y = y(t)$ from $t = t_1$ to $t = t_2$:
 
-$$\boxed{s = \int_{t_1}^{t_2} \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2}\,dt}$$
+$$
+\boxed{s = \int_{t_1}^{t_2} \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2}\,dt}
+$$
 
 **Derivation (Cartesian).** The arc length element $ds$ satisfies $ds^2 = dx^2 + dy^2$ by the
 Pythagorean theorem applied to an infinitesimal segment. Therefore:
 
-$$ds = \sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx$$
+$$
+ds = \sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx
+$$
 
 Integrating from $a$ to $b$ gives the total arc length.
 
 **Example.** Find the arc length of $y = \ln(\cos x)$ from $x = 0$ to $x = \pi/3$.
 
-$$\frac{dy}{dx} = \frac{-\sin x}{\cos x} = -\tan x$$
+$$
+\frac{dy}{dx} = \frac{-\sin x}{\cos x} = -\tan x
+$$
 
-$$s = \int_0^{\pi/3}\sqrt{1+\tan^2 x}\,dx = \int_0^{\pi/3}\sec x\,dx = \Bigl[\ln|\sec x + \tan x|\Bigr]_0^{\pi/3}$$
+$$
+s = \int_0^{\pi/3}\sqrt{1+\tan^2 x}\,dx = \int_0^{\pi/3}\sec x\,dx = \Bigl[\ln|\sec x + \tan x|\Bigr]_0^{\pi/3}
+$$
 
-$$= \ln(2 + \sqrt{3}) - \ln(1) = \ln(2+\sqrt{3})$$
+$$
+= \ln(2 + \sqrt{3}) - \ln(1) = \ln(2+\sqrt{3})
+$$
 
 ### 6.2 Surface area of revolution
 
 **Theorem.** The surface area generated by rotating $y = f(x)$ from $x = a$ to $x = b$ about the
 $x$-axis:
 
-$$\boxed{S = 2\pi\int_a^b y\,\sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx}$$
+$$
+\boxed{S = 2\pi\int_a^b y\,\sqrt{1 + \left(\frac{dy}{dx}\right)^2}\,dx}
+$$
 
 For a parametric curve rotated about the $x$-axis:
 
-$$\boxed{S = 2\pi\int_{t_1}^{t_2} y\,\sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2}\,dt}$$
+$$
+\boxed{S = 2\pi\int_{t_1}^{t_2} y\,\sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2}\,dt}
+$$
 
 **Example.** Find the surface area generated by rotating $y = x^2$ from $x = 0$ to $x = 1$ about the
 $x$-axis.
 
-$$S = 2\pi\int_0^1 x^2\sqrt{1+4x^2}\,dx$$
+$$
+S = 2\pi\int_0^1 x^2\sqrt{1+4x^2}\,dx
+$$
 
 Let $x = \frac{1}{2}\tan\theta$, $dx = \frac{1}{2}\sec^2\theta\,d\theta$. When $x = 0$ $\theta = 0$;
 when $x = 1$, $\theta = \arctan 2$.
@@ -402,7 +528,9 @@ $\dfrac{\pi}{4}\left[\dfrac{1}{4}\sec\theta\tan\theta + \dfrac{1}{4}\ln|\sec\the
 
 Simplifying with $\sec(\arctan 2) = \sqrt{5}$ and $\tan(\arctan 2) = 2$:
 
-$$S = \frac{9\pi\sqrt{5}}{16} - \frac{\pi}{32}\ln(2+\sqrt{5})$$
+$$
+S = \frac{9\pi\sqrt{5}}{16} - \frac{\pi}{32}\ln(2+\sqrt{5})
+$$
 
 :::note
 Length but surface area appears less frequently. AQA covers both in Paper 1. OCR (A) covers arc
@@ -413,6 +541,8 @@ Length in Paper 1.
 
 ## 7. Summary of Key Results
 
+<div class="table-wrap">
+
 | Integral                                                    | Result                                                             |
 | ----------------------------------------------------------- | ------------------------------------------------------------------ |
 | $\displaystyle\int\frac{1}{a^2+x^2}\,dx$                    | $\dfrac{1}{a}\arctan\dfrac{x}{a}+C$                                |
@@ -422,6 +552,8 @@ Length in Paper 1.
 | $\dfrac{d}{dx}\arctan x$                                    | $\dfrac{1}{1+x^2}$                                                 |
 | Vol. About $x$-axis                                         | $\pi\displaystyle\int_a^b y^2\,dx$                                 |
 | Arc length                                                  | $\displaystyle\int\sqrt{1+\left(\frac{dy}{dx}\right)^2}\,dx$ |
+
+</div>
 
 <hr />
 
@@ -519,13 +651,13 @@ $I_5 = \dfrac{4}{5}I_3 = \dfrac{4}{5}\cdot\dfrac{2}{3}I_1 = \dfrac{4}{5}\cdot\df
 <details>
 <summary>Problem 5</summary>
 Find the volume generated by rotating the region bounded by $y = x^2$$y = 0$$x = 0$$x = 2$ about
-The $y$-axis.
+the $y$-axis.
 </details>
 
 <details>
 <summary>Hint 5</summary>
-Express $x$ in terms of $y$ ($x = \sqrt{y}$) and integrate with respect to $y$ from $0$ to $4$Or use the
-Shell method: $V = 2\pi\int_0^2 x\cdot x^2\,dx$.
+Express $x$ in terms of $y$ ($x = \sqrt{y}$) and integrate with respect to $y$ from $0$ to $4$ Or use the
+shell method: $V = 2\pi\int_0^2 x\cdot x^2\,dx$.
 </details>
 
 <details>
@@ -592,7 +724,7 @@ $\displaystyle\int_0^{\infty}\frac{1}{4+x^2}\,dx = \left[\frac{1}{2}\arctan\frac
 <details>
 <summary>Problem 9</summary>
 The curve $x = t^2$$y = t^3$ for $0 \leq t \leq 2$ is rotated about the $x$-axis. Find the volume of
-Revolution.
+revolution.
 </details>
 
 <details>
@@ -647,9 +779,9 @@ $\boxed{I = \frac{e^x(\sin 2x - 2\cos 2x)}{5} + C}$
 
 ## 8. Advanced Worked Examples
 
-### Example 8.1: Leibniz"s rule for higher derivatives of a product
+### Example 8.1: Leibniz's rule for higher derivatives of a product
 
-**Problem.** If $y = x^2 e^{3x}$Find $\dfrac{d^4 y}{dx^4}$.
+**Problem.** If $y = x^2 e^{3x}$ Find $\dfrac{d^4 y}{dx^4}$.
 
 **Solution.** We use Leibniz's rule:
 $(uv)^{(n)} = \displaystyle\sum_{k=0}^{n} \binom{n}{k} u^{(k)} v^{(n-k)}$.
@@ -659,11 +791,17 @@ Let $u = x^2$ and $v = e^{3x}$.
 - $u' = 2x$$u'' = 2$$u''' = 0$$u^{(4)} = 0$.
 - $v^{(k)} = 3^k e^{3x}$ for all $k$.
 
-$$\frac{d^4 y}{dx^4} = \binom{4}{0} x^2 \cdot 3^4 e^{3x} + \binom{4}{1} 2x \cdot 3^3 e^{3x} + \binom{4}{2} 2 \cdot 3^2 e^{3x} + 0 + 0$$
+$$
+\frac{d^4 y}{dx^4} = \binom{4}{0} x^2 \cdot 3^4 e^{3x} + \binom{4}{1} 2x \cdot 3^3 e^{3x} + \binom{4}{2} 2 \cdot 3^2 e^{3x} + 0 + 0
+$$
 
-$$= 81x^2 e^{3x} + 4 \cdot 54x e^{3x} + 6 \cdot 18 e^{3x}$$
+$$
+= 81x^2 e^{3x} + 4 \cdot 54x e^{3x} + 6 \cdot 18 e^{3x}
+$$
 
-$$\boxed{= (81x^2 + 216x + 108)e^{3x}}$$
+$$
+\boxed{= (81x^2 + 216x + 108)e^{3x}}
+$$
 
 ### Example 8.2: Reduction formula for $\int x^n e^x\,dx$
 
@@ -671,7 +809,9 @@ $$\boxed{= (81x^2 + 216x + 108)e^{3x}}$$
 
 **Solution.** Using integration by parts with $u = x^n$$dv = e^x\,dx$:
 
-$$I_n = x^n e^x - \int nx^{n-1} e^x\,dx = x^n e^x - nI_{n-1}$$
+$$
+I_n = x^n e^x - \int nx^{n-1} e^x\,dx = x^n e^x - nI_{n-1}
+$$
 
 Therefore $\boxed{I_n = x^n e^x - nI_{n-1}}$ with $I_0 = e^x + C$.
 
@@ -679,7 +819,9 @@ To find $I_3$:
 
 $I_1 = x e^x - e^x$$I_2 = x^2 e^x - 2x e^x + 2e^x$$I_3 = x^3 e^x - 3x^2 e^x + 6x e^x - 6e^x$.
 
-$$\boxed{I_3 = (x^3 - 3x^2 + 6x - 6)e^x + C}$$
+$$
+\boxed{I_3 = (x^3 - 3x^2 + 6x - 6)e^x + C}
+$$
 
 ### Example 8.3: Improper integral convergence test
 
@@ -688,7 +830,9 @@ And evaluate if it does.
 
 **Solution.** The integrand is undefined at $x = 0$. Write:
 
-$$\int_0^1 x^{-1/2}\,dx = \lim_{a \to 0^+} \int_a^1 x^{-1/2}\,dx = \lim_{a \to 0^+} \left[2x^{1/2}\right]_a^1 = \lim_{a \to 0^+} (2 - 2\sqrt{a}) = 2$$
+$$
+\int_0^1 x^{-1/2}\,dx = \lim_{a \to 0^+} \int_a^1 x^{-1/2}\,dx = \lim_{a \to 0^+} \left[2x^{1/2}\right]_a^1 = \lim_{a \to 0^+} (2 - 2\sqrt{a}) = 2
+$$
 
 Since the limit exists and is finite, the integral converges.
 $\boxed{\displaystyle\int_0^1 \frac{1}{\sqrt{x}}\,dx = 2}$
@@ -702,9 +846,13 @@ Weierstrass substitution.
 
 When $x = 0$: $t = 0$. When $x = \pi/2$: $t = 1$.
 
-$$\int_0^1 \frac{1}{1 + \frac{2t}{1+t^2}} \cdot \frac{2\,dt}{1+t^2} = \int_0^1 \frac{2\,dt}{(1+t^2) + 2t} = \int_0^1 \frac{2\,dt}{t^2 + 2t + 1} = \int_0^1 \frac{2\,dt}{(t+1)^2}$$
+$$
+\int_0^1 \frac{1}{1 + \frac{2t}{1+t^2}} \cdot \frac{2\,dt}{1+t^2} = \int_0^1 \frac{2\,dt}{(1+t^2) + 2t} = \int_0^1 \frac{2\,dt}{t^2 + 2t + 1} = \int_0^1 \frac{2\,dt}{(t+1)^2}
+$$
 
-$$= \left[-\frac{2}{t+1}\right]_0^1 = -1 + 2 = \boxed{1}$$
+$$
+= \left[-\frac{2}{t+1}\right]_0^1 = -1 + 2 = \boxed{1}
+$$
 
 ### Example 8.5: Differentiation of parametric arc length
 
@@ -713,13 +861,19 @@ The total arc length.
 
 **Solution.** $\dfrac{dx}{dt} = 1 - \cos t$, $\dfrac{dy}{dt} = \sin t$.
 
-$$s = \int_0^{2\pi} \sqrt{(1-\cos t)^2 + \sin^2 t}\,dt = \int_0^{2\pi} \sqrt{1 - 2\cos t + \cos^2 t + \sin^2 t}\,dt$$
+$$
+s = \int_0^{2\pi} \sqrt{(1-\cos t)^2 + \sin^2 t}\,dt = \int_0^{2\pi} \sqrt{1 - 2\cos t + \cos^2 t + \sin^2 t}\,dt
+$$
 
-$$= \int_0^{2\pi} \sqrt{2 - 2\cos t}\,dt = \int_0^{2\pi} \sqrt{4\sin^2(t/2)}\,dt = \int_0^{2\pi} 2|\sin(t/2)|\,dt$$
+$$
+= \int_0^{2\pi} \sqrt{2 - 2\cos t}\,dt = \int_0^{2\pi} \sqrt{4\sin^2(t/2)}\,dt = \int_0^{2\pi} 2|\sin(t/2)|\,dt
+$$
 
 For $0 \leq t \leq 2\pi$, $\sin(t/2) \geq 0$ So:
 
-$$s = 2\int_0^{2\pi} \sin(t/2)\,dt = 2\left[-2\cos(t/2)\right]_0^{2\pi} = 2(2 + 2) = \boxed{8}$$
+$$
+s = 2\int_0^{2\pi} \sin(t/2)\,dt = 2\left[-2\cos(t/2)\right]_0^{2\pi} = 2(2 + 2) = \boxed{8}
+$$
 
 ### Example 8.6: Taylor series approach to a difficult limit
 
@@ -727,9 +881,13 @@ $$s = 2\int_0^{2\pi} \sin(t/2)\,dt = 2\left[-2\cos(t/2)\right]_0^{2\pi} = 2(2 + 
 
 **Solution.** Expand $\sin x$ as a Maclaurin series:
 
-$$\sin x = x - \frac{x^3}{6} + \frac{x^5}{120} - \cdots$$
+$$
+\sin x = x - \frac{x^3}{6} + \frac{x^5}{120} - \cdots
+$$
 
-$$\frac{x - \sin x}{x^3} = \frac{x - \left(x - \frac{x^3}{6} + \frac{x^5}{120} - \cdots\right)}{x^3} = \frac{\frac{x^3}{6} - \frac{x^5}{120} + \cdots}{x^3} = \frac{1}{6} - \frac{x^2}{120} + \cdots$$
+$$
+\frac{x - \sin x}{x^3} = \frac{x - \left(x - \frac{x^3}{6} + \frac{x^5}{120} - \cdots\right)}{x^3} = \frac{\frac{x^3}{6} - \frac{x^5}{120} + \cdots}{x^3} = \frac{1}{6} - \frac{x^2}{120} + \cdots
+$$
 
 Taking $x \to 0$:
 $\boxed{\displaystyle\lim_{x \to 0} \frac{x - \sin x}{x^3} = \frac{1}{6}}$
@@ -740,15 +898,23 @@ $\boxed{\displaystyle\lim_{x \to 0} \frac{x - \sin x}{x^3} = \frac{1}{6}}$
 
 **Solution.** Use integration by parts with $u = \arcsin x$, $dv = dx$:
 
-$$du = \frac{1}{\sqrt{1-x^2}}\,dx, \quad v = x$$
+$$
+du = \frac{1}{\sqrt{1-x^2}}\,dx, \quad v = x
+$$
 
-$$\int \arcsin x\,dx = x\arcsin x - \int \frac{x}{\sqrt{1-x^2}}\,dx$$
+$$
+\int \arcsin x\,dx = x\arcsin x - \int \frac{x}{\sqrt{1-x^2}}\,dx
+$$
 
 For the second integral, let $w = 1 - x^2$, $dw = -2x\,dx$:
 
-$$\int \frac{x}{\sqrt{1-x^2}}\,dx = -\sqrt{1-x^2}$$
+$$
+\int \frac{x}{\sqrt{1-x^2}}\,dx = -\sqrt{1-x^2}
+$$
 
-$$\boxed{\int \arcsin x\,dx = x\arcsin x + \sqrt{1-x^2} + C}$$
+$$
+\boxed{\int \arcsin x\,dx = x\arcsin x + \sqrt{1-x^2} + C}
+$$
 
 ---
 
@@ -760,16 +926,6 @@ $$\boxed{\int \arcsin x\,dx = x\arcsin x + \sqrt{1-x^2} + C}$$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[04 Further Calculus] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -788,13 +944,17 @@ Integration by parts is the reverse of the product rule, allowing you to transfe
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                                         | Correct Approach                                                                             |
-| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------- | ----------------------------------------------- |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Forgetting the chain rule when differentiating composite inverse trig functions | Always write $\dfrac{d}{dx}\!\left[\arcsin(u)\right] = \dfrac{u'}{\sqrt{1-u^2}}$ |
-| Using $\ln                                                                      | x                                                                                            | $ before checking if the integral is improper | Check for discontinuities in the interval first |
+| Using $\ln                                                                      \| x                                                                                            \| $ before checking if the integral is improper | Check for discontinuities in the interval first |
 | Forgetting $+C$ on every antiderivative                                         | Every indefinite integral needs an arbitrary constant                                        |
 | Applying reduction formulae without checking the base case                      | Always state $I_0$ or $I_1$ explicitly                                                       |
 | Confusing $\dfrac{d^n y}{dx^n}$ notation with $\left(\dfrac{dy}{dx}\right)^n$   | $\dfrac{d^n y}{dx^n}$ is the $n$-th derivative, not the $n$-th power                         |
+
+</div>
 
 ---
 
@@ -811,14 +971,16 @@ Integration by parts is the reverse of the product rule, allowing you to transfe
 
 ### Question 8
 
-Using the substitution $u = e^x$Find $\displaystyle\int \frac{e^x}{e^{2x} + 1}\,dx$.
+Using the substitution $u = e^x$ Find $\displaystyle\int \frac{e^x}{e^{2x} + 1}\,dx$.
 
 <details>
 <summary>Solution</summary>
 
 $u = e^x$, $du = e^x\,dx$.
 
-$$\int \frac{du}{u^2 + 1} = \arctan u + C = \boxed{\arctan(e^x) + C}$$
+$$
+\int \frac{du}{u^2 + 1} = \arctan u + C = \boxed{\arctan(e^x) + C}
+$$
 
 </details>
 
@@ -826,7 +988,7 @@ $$\int \frac{du}{u^2 + 1} = \arctan u + C = \boxed{\arctan(e^x) + C}$$
 
 The reduction formula $I_n = \displaystyle\int_0^{\pi/4} \tan^n x\,dx$ satisfies
 $I_n = \dfrac{1}{n-1} - I_{n-2}$ for $n \geq 2$. Given $I_0 = \dfrac{\pi}{4}$ and
-$I_1 = \dfrac{1}{2}\ln 2$Find $I_3$.
+$I_1 = \dfrac{1}{2}\ln 2$ Find $I_3$.
 
 <details>
 <summary>Solution</summary>
@@ -848,7 +1010,9 @@ Find the area enclosed by the curve $x = t^2$, $y = t^3 - t$ for $-1 \leq t \leq
 
 Using the parametric area formula $A = \displaystyle\int y\,\frac{dx}{dt}\,dt$:
 
-$$A = \int_{-1}^{1} (t^3 - t)(2t)\,dt = 2\int_{-1}^{1} (t^4 - t^2)\,dt = 2\left[\frac{t^5}{5} - \frac{t^3}{3}\right]_{-1}^{1}$$
+$$
+A = \int_{-1}^{1} (t^3 - t)(2t)\,dt = 2\int_{-1}^{1} (t^4 - t^2)\,dt = 2\left[\frac{t^5}{5} - \frac{t^3}{3}\right]_{-1}^{1}
+$$
 
 Since $t^5 - \frac{5}{3}t^3$ is odd (each term is odd), the integral from $-1$ to $1$ is zero.
 
@@ -866,9 +1030,13 @@ Using implicit differentiation.
 
 Let $y = \arctan x$ So $x = \tan y$. Differentiating implicitly with respect to $x$:
 
-$$1 = \sec^2 y \cdot \frac{dy}{dx}$$
+$$
+1 = \sec^2 y \cdot \frac{dy}{dx}
+$$
 
-$$\frac{dy}{dx} = \cos^2 y = \frac{1}{\sec^2 y} = \frac{1}{1 + \tan^2 y} = \frac{1}{1 + x^2}$$
+$$
+\frac{dy}{dx} = \cos^2 y = \frac{1}{\sec^2 y} = \frac{1}{1 + \tan^2 y} = \frac{1}{1 + x^2}
+$$
 
 $\blacksquare$
 
@@ -876,7 +1044,7 @@ $\blacksquare$
 
 ### Question 12
 
-Evaluate $\displaystyle\int_0^1 \frac{\ln x}{1+x}\,dx$Expressing your answer in terms Of
+Evaluate $\displaystyle\int_0^1 \frac{\ln x}{1+x}\,dx$ Expressing your answer in terms Of
 $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n^2}$.
 
 <details>
@@ -884,12 +1052,16 @@ $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n^2}$.
 
 Expand $\dfrac{1}{1+x} = \displaystyle\sum_{n=0}^{\infty} (-1)^n x^n$ for $|x| < 1$:
 
-$$\int_0^1 \ln x \sum_{n=0}^{\infty} (-1)^n x^n\,dx = \sum_{n=0}^{\infty} (-1)^n \int_0^1 x^n \ln x\,dx$$
+$$
+\int_0^1 \ln x \sum_{n=0}^{\infty} (-1)^n x^n\,dx = \sum_{n=0}^{\infty} (-1)^n \int_0^1 x^n \ln x\,dx
+$$
 
 Using integration by parts or the standard result
 $\displaystyle\int_0^1 x^n \ln x\,dx = -\frac{1}{(n+1)^2}$:
 
-$$= -\sum_{n=0}^{\infty} \frac{(-1)^n}{(n+1)^2} = -\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n^2} = \sum_{n=1}^{\infty} \frac{(-1)^n}{n^2}$$
+$$
+= -\sum_{n=0}^{\infty} \frac{(-1)^n}{(n+1)^2} = -\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n^2} = \sum_{n=1}^{\infty} \frac{(-1)^n}{n^2}
+$$
 
 This equals $-\dfrac{\pi^2}{12}$.
 
@@ -917,7 +1089,7 @@ Differential equations. See
 ### 11.2 Calculus and Maclaurin series
 
 Taylor and Maclaurin expansions provide powerful tools for evaluating integrals that cannot be found
-In closed form. See
+in closed form. See
 [Maclaurin and Taylor Series](/further-maths/diagnostics/diag-maclaurin-taylor-series/).
 
 ### 11.3 Calculus and mechanics
@@ -958,18 +1130,22 @@ The function higher on the list should be chosen as $u$.
 
 ### 12.2 The Weierstrass substitution
 
-For integrals involving rational functions of $\sin x$ and $\cos x$The substitution $t = \tan(x/2)$
+For integrals involving rational functions of $\sin x$ and $\cos x$ The substitution $t = \tan(x/2)$
 converts them to rational functions of $t$:
 
 $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1+t^2}$.
 
 ### 12.3 Recognising standard integral forms
 
+<div class="table-wrap">
+
 | Form                                                          | Result                    |
-| ------------------------------------------------------------- | ------------------------- | ---- | ---- |
-| $\displaystyle\int \frac{f'(x)}{f(x)}\,dx$                    | $\ln                      | f(x) | + C$ |
+| ------------------------------------------------------------- | ------------------------- |
+| $\displaystyle\int \frac{f'(x)}{f(x)}\,dx$                    | $\ln                      \| f(x) \| + C$ |
 | $\displaystyle\int \frac{f'(x)}{\sqrt{f(x)}}\,dx$ | $2\sqrt{f(x)} + C$        |
 | $\displaystyle\int f(x) \cdot f'(x)\,dx$                      | $\dfrac{[f(x)]^2}{2} + C$ |
+
+</div>
 
 ---
 
@@ -984,6 +1160,8 @@ $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1
 
 ## 13. Summary of Key Results
 
+<div class="table-wrap">
+
 | Result                       | Formula                                                                     |
 | ---------------------------- | --------------------------------------------------------------------------- |
 | Integration by parts         | $\displaystyle\int u\,dv = uv - \int v\,du$                                 |
@@ -995,6 +1173,8 @@ $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1
 | Derivative of $\arcsin x$    | $\dfrac{1}{\sqrt{1-x^2}}$                                       |
 | Derivative of $\arctan x$    | $\dfrac{1}{1+x^2}$                                                          |
 | Improper integral test       | $\displaystyle\int_a^\infty f(x)\,dx = \lim_{b\to\infty}\int_a^b f(x)\,dx$  |
+
+</div>
 
 ---
 
@@ -1137,7 +1317,7 @@ Integration by parts with $u = x$$dv = e^{-x}\,dx$:
 
 $= [-xe^{-x}]_0^{\infty} + \displaystyle\int_0^{\infty} e^{-x}\,dx = 0 + 1 = \boxed{1}$.
 
-This equals $E(X)$ for $X \sim \mathrm{Exp}(1)$Confirming the result $E(X) = 1/\lambda$ with
+This equals $E(X)$ for $X \sim \mathrm{Exp}(1)$ Confirming the result $E(X) = 1/\lambda$ with
 $\lambda = 1$.
 
 </details>

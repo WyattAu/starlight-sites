@@ -43,18 +43,18 @@ With time:
 
 $$
 \begin`\{aligned}`
- v = \frac`\{ds}``\{dt}`
+ v = \frac`\{ds}`, `\{dt}`
 \end`\{aligned}`
 $$
 
 #### Acceleration
 
 The acceleration ($a$) is a vector quantity representing the change in [velocity](#velocity) with
-Time:
+time:
 
 $$
 \begin`\{aligned}`
- a = \frac`\{dv}``\{dt}`
+ a = \frac`\{dv}`, `\{dt}`
 \end`\{aligned}`
 $$
 
@@ -78,7 +78,7 @@ $$
 ### Centripetal acceleration
 
 The centripetal acceleration ($a$) is the [acceleration](#acceleration) directed radially to the
-Center ($-\bm{\hat{r}}$), keeping the body in circular motion:
+center ($-\bm{\hat{r}}$), keeping the body in circular motion:
 
 $$
 \begin`\{aligned}`
@@ -99,7 +99,7 @@ $$
 ### Centripetal Force
 
 The centripetal force is any force applied on a mass towards the center ($-\bm{\hat{r}}$), leading
-To a [centripetal acceleration](#centripetal-acceleration) $\bm{a}$:
+to a [centripetal acceleration](#centripetal-acceleration) $\bm{a}$:
 
 $$
 \begin`\{aligned}`
@@ -137,7 +137,7 @@ $$
 
 The angular velocity ($\omega$) is the change of
 [angular displacement $\Delta \theta$](#angular-displacement) of a [rigid body](#rigid-body) with
-Time:
+time:
 
 $$
 \begin`\{aligned}`
@@ -162,7 +162,7 @@ The measure of a solid body's resistance to [angular acceleration](#angular-acce
 
 :::caution
 Geometry as a system of discrete particles, as well as moment of inertia that is determined by
-Closed-form expressions.
+closed-form expressions.
 :::
 
 ### Angular Momentum
@@ -202,7 +202,7 @@ $$
 
 **Problem 1.** A 1500 kg car is traveling on a horizontal road at a constant speed of 25.0 m/s. The
 Total resistive force (air drag + friction) is 800 N. The car then begins to accelerate uniformly
-For 10.0 s, reaching a new constant speed. During the acceleration, the engine provides a constant
+for 10.0 s, reaching a new constant speed. During the acceleration, the engine provides a constant
 Driving force of 2000 N. A) Calculate the car's acceleration. B) What is the final speed of the car?
 C) At this new speed, what must the engine's driving force be to maintain it? d) What is the total
 Distance covered during the 10.0 s of acceleration?
@@ -234,8 +234,8 @@ Distance covered during the 10.0 s of acceleration?
 
 **Problem 2.** A 2.0 kg firework is launched vertically from rest. Its rocket motor provides a
 Constant upward thrust of 50.0 N for 3.0 s before running out of fuel. Ignore air resistance. A)
-Calculate the maximum height the firework reaches. B) What is the total time the firework is in the
-Air (from launch until it returns to the ground)?
+calculate the maximum height the firework reaches. B) What is the total time the firework is in the
+air (from launch until it returns to the ground)?
 
 <details>
 <summary>Answer</summary>
@@ -271,8 +271,8 @@ Air (from launch until it returns to the ground)?
 
 **Problem 3.** A 5.0 kg object is suspended by a rope. A horizontal force is applied, pulling the
 Object to the side until the rope makes an angle of 35° with the vertical. The object is held in
-Static equilibrium. A) Draw a free-body diagram for the object. B) Calculate the magnitude of the
-Applied horizontal force and the tension in the rope.
+static equilibrium. A) Draw a free-body diagram for the object. B) Calculate the magnitude of the
+applied horizontal force and the tension in the rope.
 
 <details>
 <summary>Answer</summary>
@@ -302,7 +302,7 @@ Applied horizontal force and the tension in the rope.
 
 **Problem 4.** A 0.20 kg ball traveling at 10 m/s collides with a stationary 0.30 kg ball. After the
 Collision, the 0.20 kg ball moves at 4.0 m/s at an angle of 30° to its original path. A) Determine
-The speed and direction of the 0.30 kg ball after the collision. B) Was the collision elastic?
+the speed and direction of the 0.30 kg ball after the collision. B) Was the collision elastic?
 Justify your answer with a calculation.
 
 <details>
@@ -326,7 +326,7 @@ Justify your answer with a calculation.
 - $E_{k, \mathrm{initial}} = \frac{1}{2}(0.20)(10)^2 = 10.0$ J.
 - $E_{k, \mathrm{final}} = \frac{1}{2}(0.20)(4.0)^2 + \frac{1}{2}(0.30)(4.56)^2 = 1.6 + 3.12 = 4.72$
   J.
-- Since $E_{k, \mathrm{final}} \lt E_{k, \mathrm{initial}}$Kinetic energy was lost, and the
+- Since $E_{k, \mathrm{final}} \lt E_{k, \mathrm{initial}}$ Kinetic energy was lost, and the
   collision was **inelastic**. **If you get this wrong, you should focus on:** Applying conservation
   of momentum as a vector equation (i.e., in component form), combining velocity components to find
   final speed and direction, and the definition of an elastic collision (conservation of kinetic
@@ -337,9 +337,9 @@ Justify your answer with a calculation.
 **Problem 5.** A 1200 kg car travels at a constant speed of 15 m/s around a flat circular track of
 Radius 50 m. It then moves to a section of the track banked at an angle $\theta$. A) For the flat
 Track, what is the magnitude of the frictional force required to keep the car on the track, and what
-Is the minimum coefficient of static friction required? b) For the banked track, what is the ideal
+is the minimum coefficient of static friction required? b) For the banked track, what is the ideal
 Banking angle $\theta$ (the "design speed" angle) for the car to navigate the turn at 15 m/s without
-Any reliance on friction?
+any reliance on friction?
 
 <details>
 <summary>Answer</summary>
@@ -372,9 +372,9 @@ Any reliance on friction?
 
 **Problem 6.** **Question (HL Only):** A thin hoop of mass M and radius R ($I=MR^2$) rolls without
 Slipping down an incline of angle $\theta$. A) Draw a free-body diagram for the hoop, including the
-Force of static friction. B) By considering both linear and rotational dynamics, derive an
-Expression for the linear acceleration, $a$Of the hoop's center of mass. C) How does this
-Acceleration compare to that of a block sliding down the same incline without friction?
+force of static friction. B) By considering both linear and rotational dynamics, derive an
+expression for the linear acceleration, $a$ Of the hoop's center of mass. C) How does this
+acceleration compare to that of a block sliding down the same incline without friction?
 
 <details>
 <summary>Answer</summary>
@@ -402,14 +402,14 @@ Half of this. This is because some of the initial potential energy must be conve
 Kinetic energy, leaving less for translational kinetic energy, resulting in a smaller linear
 Acceleration. **If you get this wrong, you should focus on:** Applying both linear and rotational
 Forms of Newton's second law, correctly identifying static friction as the source of torque for
-Rolling objects, and using the no-slip condition ($a=\alpha R$) to connect the two equations.
+rolling objects, and using the no-slip condition ($a=\alpha R$) to connect the two equations.
 
 </details>
 
 **Problem 7.** **Question (HL Only):** An ice skater is spinning at an angular speed of 10.0 rad/s
 With her arms outstretched. In this position, her moment of inertia is 4.0 kg m². She then pulls her
-Arms in, reducing her moment of inertia to 1.5 kg m². A) What is her new angular speed? b) Calculate
-The change in her rotational kinetic energy. C) Where does this change in energy come from?
+arms in, reducing her moment of inertia to 1.5 kg m². A) What is her new angular speed? b) Calculate
+the change in her rotational kinetic energy. C) Where does this change in energy come from?
 
 <details>
 <summary>Answer</summary>
@@ -426,20 +426,20 @@ The change in her rotational kinetic energy. C) Where does this change in energy
 - $\Delta E_k = E_{k, \mathrm{final}} - E_{k, \mathrm{initial}} = 533 - 200 = 333$ J.
 - **c) Source of Energy:** The kinetic energy increased. This increase comes from the **work done by
 The skater** using her muscles to pull her arms inward. She is doing work on her own system, which
-Is not an isolated system in terms of energy (though it is for angular momentum, as the forces are
-Internal). **If you get this wrong, you should focus on:** The law of conservation of angular
+is not an isolated system in terms of energy (though it is for angular momentum, as the forces are
+internal). **If you get this wrong, you should focus on:** The law of conservation of angular
 Momentum and when it applies (no net external torque). Also, understanding that rotational kinetic
 Energy is _not_ necessarily conserved when the moment of inertia changes, and that work must be done
-To change the configuration of a rotating system.
+to change the configuration of a rotating system.
 
 </details>
 
 **Problem 8.** **Question (HL Only):** From the perspective of an observer in a laboratory, a muon
 Is created by a cosmic ray at an altitude of 10.0 km. It travels downwards at a speed of 0.995c. The
-Proper half-life of a muon at rest is 1.56 μs. A) From the lab observer's perspective, what is the
-Muon's half-life? b) Will the muon reach the ground before decaying, according to the lab observer?
+proper half-life of a muon at rest is 1.56 μs. A) From the lab observer's perspective, what is the
+muon's half-life? b) Will the muon reach the ground before decaying, according to the lab observer?
 Justify with a calculation. C) Now, analyze the situation from the muon's reference frame. How does
-The muon "explain" its ability to reach the ground?
+the muon "explain" its ability to reach the ground?
 
 <details>
 <summary>Answer</summary>
@@ -494,13 +494,13 @@ The muon "explain" its ability to reach the ground?
 
 **Problem:** Two blocks, $m_1 = 3.0$ kg and $m_2 = 5.0$ kg, are connected by a light inextensible
 String. Block $m_1$ rests on a frictionless horizontal table, and the string passes over a
-Frictionless pulley at the edge so that $m_2$ hangs vertically. The system is released from rest. A)
-Find the acceleration of the system. B) Find the tension in the string.
+frictionless pulley at the edge so that $m_2$ hangs vertically. The system is released from rest. A)
+find the acceleration of the system. B) Find the tension in the string.
 
 **Solution:**
 
 For $m_2$ (hanging): $m_2 g - T = m_2 a$ (Eq. 1) For $m_1$ (on table): $T = m_1 a$ (Eq. 2, since no
-Friction)
+friction)
 
 Substitute Eq. 2 into Eq. 1: $m_2 g - m_1 a = m_2 a$ $m_2 g = (m_1 + m_2) a$
 $a = \frac{m_2 g}{m_1 + m_2} = \frac{(5.0)(9.8)}{3.0 + 5.0} = \frac{49}{8.0} = 6.13$ m/s$^2$
@@ -523,7 +523,7 @@ Tension: $T = m_1 a = (3.0)(6.13) = 18.4$ N.
 **Problem:** A 4.0 kg block is placed on a $30^\circ$ incline. The coefficient of static friction is
 $\mu_s = 0.40$ and the coefficient of kinetic friction is $\mu_k = 0.30$. A) Will the block slide?
 Justify with a calculation. B) If a horizontal force of 20 N is applied pushing the block up the
-Incline, find the acceleration.
+incline, find the acceleration.
 
 **Solution:**
 
@@ -544,7 +544,7 @@ $F_{\mathrm{net}} = F_{\parallel} - mg\sin 30^{\circ} - f_k = 17.3 - 19.6 - 13.2
 
 The net force is negative (down the incline), meaning the block slides **down** despite the applied
 Force. The acceleration is: $a = \frac{|F_{\mathrm{net}}|}{m} = \frac{15.5}{4.0} = 3.88$ m/s$^2$
-Down the incline.
+down the incline.
 
 ---
 
@@ -561,7 +561,7 @@ Down the incline.
 
 **Problem:** A uniform beam of mass 10 kg and length 4.0 m is pivoted at its left end. A load of 15
 Kg is hung from the beam at a point 3.0 m from the pivot. The beam is held in horizontal equilibrium
-By a vertical rope attached 1.0 m from the right end. A) Calculate the tension in the rope. B)
+by a vertical rope attached 1.0 m from the right end. A) Calculate the tension in the rope. B)
 Calculate the magnitude and direction of the reaction force at the pivot.
 
 **Solution:**
@@ -596,7 +596,7 @@ $R_{\mathrm{pivot}} + 212.3 = 98 + 147 = 245$ $R_{\mathrm{pivot}} = 32.7$ N (upw
 ## Angular Momentum Conservation: Extended Analysis
 
 The law of conservation of angular momentum states that when no net external torque acts on a
-System, the total angular momentum remains constant:
+system, the total angular momentum remains constant:
 
 $$
 L_{\mathrm{initial}} = L_{\mathrm{final}} \implies I_i \omega_i = I_f \omega_f
@@ -613,7 +613,7 @@ This principle explains a wide range of phenomena:
 **Important distinction:** Angular momentum is conserved when the net **external torque** is zero.
 Internal forces (like the skater's muscles) can change $I$ and $\omega$ But not the total $L$.
 However, internal forces **can** change the rotational kinetic energy (as seen in the skater problem
-Where $E_k$ increased).
+where $E_k$ increased).
 
 ---
 
@@ -666,7 +666,7 @@ Where $E_k$ increased).
 <summary>Question 1</summary>
 
 A 2.0 kg block slides down a frictionless incline of angle $35^\circ$ from a height of 1.5 m. A)
-Find the speed of the block at the bottom of the incline. B) The block then slides across a rough
+find the speed of the block at the bottom of the incline. B) The block then slides across a rough
 Horizontal surface with $\mu_k = 0.30$. How far does it travel before stopping?
 
 </details>
@@ -688,7 +688,7 @@ $0 = (5.42)^2 - 2(2.94)s \implies s = \frac{29.4}{5.88} = 5.0$ m.
 
 A 500 g ball is attached to a string of length 0.80 m and swung in a vertical circle. The minimum
 Speed at the top of the circle is $2.8$ m/s. A) Calculate the tension in the string at the top of
-The circle. B) Calculate the speed of the ball at the bottom of the circle (assuming no energy
+the circle. B) Calculate the speed of the ball at the bottom of the circle (assuming no energy
 Losses).
 
 </details>
@@ -710,7 +710,7 @@ M/s.
 <summary>Question 3</summary>
 
 A disc of mass 0.50 kg and radius 0.20 m ($I = \frac{1}{2}mr^2$) is rotating at 300 rpm. A
-Frictional torque of 0.030 N m is applied to bring it to rest. A) Calculate the initial angular
+frictional torque of 0.030 N m is applied to bring it to rest. A) Calculate the initial angular
 Momentum. B) How long does it take for the disc to stop?
 
 </details>
@@ -732,7 +732,7 @@ S.
 
 A 60 kg person stands at the edge of a rotating platform of mass 100 kg and radius 2.0 m, modeled as
 A uniform disc ($I = \frac{1}{2}mr^2$). The system rotates at 1.5 rad/s. The person walks to the
-Center of the platform. What is the new angular speed?
+center of the platform. What is the new angular speed?
 
 </details>
 
@@ -755,8 +755,8 @@ $\omega_f = \frac{660}{200} = 3.3$ rad/s.
 
 A 3.0 kg block on a frictionless table is connected by a string over a pulley to a 2.0 kg block
 Hanging vertically. The pulley has mass 0.50 kg and radius 0.10 m ($I = \frac{1}{2}mr^2$ for the
-Pulley). A) Derive an expression for the acceleration of the system. B) Calculate the tension on
-Each side of the pulley.
+pulley). A) Derive an expression for the acceleration of the system. B) Calculate the tension on
+each side of the pulley.
 
 </details>
 
@@ -782,8 +782,8 @@ N.
 <summary>Question 6</summary>
 
 A solid sphere of mass $M$ and radius $R$ ($I = \frac{2}{5}MR^2$) rolls without slipping down an
-Incline of angle $\theta$. Derive an expression for the linear acceleration of the sphere in terms
-Of $g$ and $\theta$.
+incline of angle $\theta$. Derive an expression for the linear acceleration of the sphere in terms
+of $g$ and $\theta$.
 
 </details>
 
@@ -810,23 +810,13 @@ $a = \frac{5}{7}g\sin\theta$.
 
 ## Related Content at Other Levels
 
-- **A-Level Mechanics:** [Physics](https://alevel.wyattau.com/docs/physics/physics)
+- **A-Level Mechanics:** [Physics](https://alevel.wyattau.com/physics/physics/)
 - **DSE Forces and Motion:**
-  [Forces and Motion](https://dse.wyattau.com/docs/dse/physics/1-mechanics)
+  [Forces and Motion](https://dse.wyattau.com/physics/1-mechanics/)
 
 ## Intuition
 
 Momentum is the physics of collisions, and it obeys one of the universe's most unbreakable rules: what goes in must come out. Imagine two billiard balls on a frictionless table: the total momentum before the crash equals the total after, no exceptions. Centripetal force is not a new force but a job description for whatever force happens to be pulling an object inward, whether it is gravity holding a planet in orbit or friction keeping a car on a curve. Angular momentum conservation explains why an ice skater spins faster when pulling in her arms, much like a figure skater gathering speed before a jump.
-
-```mermaid
-flowchart TD
-    A[5_Forces And Momentum] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -846,15 +836,16 @@ and past paper questions, is essential for success in examinations.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic      | Site    | Link                                                                                         |
 | ---------- | ------- | -------------------------------------------------------------------------------------------- |
 | [Momentum] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/05-momentum)   |
-| [Momentum] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/5_forces-and-momentum) |
+| [Momentum] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum/) |
+
+</div>
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

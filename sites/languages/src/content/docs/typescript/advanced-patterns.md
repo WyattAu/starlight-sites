@@ -22,7 +22,7 @@ categories: [TypeScript]
 
 When a conditional type"s checked type is a **naked type parameter** (a type parameter used
 Directly, not wrapped in another type), the conditional distributes over union members. This is the
-Most important rule governing conditional types.
+most important rule governing conditional types.
 
 ```ts
 type ToArray<T> = T extends any ? T[] : never;
@@ -49,12 +49,16 @@ type Result = (string | number)[];
 
 ### Distribution Rules Summary
 
+<div class="table-wrap">
+
 | Form                                                    | Distributes?    |
 | ------------------------------------------------------- | --------------- |
 | `T extends U ? X : Y`                                   | Yes (naked `T`) |
 | `[T] extends [U] ? X : Y`                               | No              |
 | `T extends U ? X : Y` where `T` is not a type parameter | No              |
 | `(T & {}) extends U ? X : Y`                            | No              |
+
+</div>
 
 ## Recursive Types
 
@@ -145,12 +149,12 @@ type A = { a: string } & { b: number };
 ```
 
 This works by exploiting contravariance in function parameter types. Each union member is converted
-To a function type `(k: Member) => void`And the union of these function types has an inferred
+to a function type `(k: Member) => void`And the union of these function types has an inferred
 Parameter type that is the intersection of all members.
 
 **Common Pitfall:** `UnionToIntersection` does not handle cases where union members share property
 Names with different types. The intersection of `{ a: string }` and `{ a: number }` produces
-`{ a: never }`Not `{ a: string } & { a: number }`.
+`{ a: never }`. Not `{ a: string } & { a: number }`.
 
 ## Branded Types / Opaque Types
 
@@ -647,7 +651,7 @@ type Result = 'hi world hi';
 ## Type-Level Arithmetic
 
 TypeScript does not natively support arithmetic on number types. However, type-level arithmetic can
-Be implemented using tuple length as a representation of natural numbers.
+be implemented using tuple length as a representation of natural numbers.
 
 ### Counting Tuple Length
 
@@ -824,16 +828,6 @@ function isUSD(value: number): value is USD {
 This assertion is true because the brand is erased. For meaningful runtime validation, add Actual
 checks.
 
-```mermaid
-flowchart TD
-    A[Advanced Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of advanced patterns, including underlying theory, practical
@@ -846,9 +840,6 @@ implementation, and key applications.
 - practical implementation
 - security and ethical considerations
 - applications in the real world
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 
@@ -929,7 +920,7 @@ $\blacksquare$
   automatic for naked type parameters.
 - Mapped types: `{ [K in keyof T]: F<T[K]> }` transform all properties; `as` clauses filter and
   remap keys.
-- Template literal types: `` `${A}-${B}` `` create string types from unions, enabling type-safe
+- Template literal types: `` ``, ``${A}-${B}``, `` `` create string types from unions, enabling type-safe
   string manipulation.
 - Branded types encode semantic distinctions (e.g., `UserId` vs `OrderId`) without runtime cost.
 - Recursive type aliases (TypeScript 4.1+) enable deep utility types like `DeepReadonly`,
